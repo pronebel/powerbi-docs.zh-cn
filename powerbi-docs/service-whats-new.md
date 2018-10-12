@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 06/06/2018
+ms.date: 08/27/2018
 ms.author: nikhilga
 LocalizationGroup: Get started
-ms.openlocfilehash: 750dbf2593981e8fc9ad5f2f66219d6bf6fd641c
-ms.sourcegitcommit: e8d924ca25e060f2e1bc753e8e762b88066a0344
+ms.openlocfilehash: d7f966834e2d6b44f3a887991bd0ebd6e38836f0
+ms.sourcegitcommit: 619b66176394b9b881edc29b6d123d9729554eb3
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/29/2018
-ms.locfileid: "37137459"
+ms.lasthandoff: 09/06/2018
+ms.locfileid: "44044339"
 ---
 ---
 # <a name="whats-new-in-the-power-bi-service"></a>Power BI 服务中的新功能
@@ -31,27 +31,37 @@ ms.locfileid: "37137459"
 * [Microsoft Power BI (YouTube)](https://www.youtube.com/channel/UCy--PYvwBwAeuYaR8JLmrfg)
 * [Guy in a Cube (YouTube)](https://www.youtube.com/channel/UCFp1vaKzpfvoGai0vE5VJ0w)
 
-## <a name="may-2018"></a>2018 年 5 月
-* Power BI 服务中的[主题仪表板](https://docs.microsoft.com/en-us/power-bi/service-dashboard-themes)。
-* Premium 中的[增量刷新](https://docs.microsoft.com/en-us/power-bi/service-premium-incremental-refresh)。
-* [Power BI 应用](https://docs.microsoft.com/en-us/power-bi/service-create-distribute-apps)的请求访问工作流。
-* 获取数据更新，以便用户更轻松地查找[Power BI 应用](https://docs.microsoft.com/en-us/power-bi/service-create-distribute-apps)。
-* 启用或关闭 Power BI 服务中的[永久性筛选器](https://powerbi.microsoft.com/en-us/blog/announcing-persistent-filters-in-the-service/)的设置。
-* Azure B2B 邀请报表的工作流改进。
+## <a name="august-2018"></a>2018 年 8 月
+* Power BI [报表 URL 筛选器](service-url-filters.md)改进。
 
 ## <a name="previous-months-2018"></a>前几个月 (2018)
+### <a name="july-2018"></a>2018 年 7 月
+* 适用于 Power BI 管理员的 [API 和 PowerShell Cmdlet](https://powerbi.microsoft.com/blog/announcing-apis-and-powershell-cmdlets-for-power-bi-administrators/)。
+
+### <a name="june-2018"></a>2018 年 6 月
+* 将报表共享给筛选器和切片器。
+* 经过改进的全新用户界面，可实现[网关连接](https://powerbi.microsoft.com/blog/easier-set-up-of-datasets-in-power-bi/)和设置数据集。
+
+### <a name="may-2018"></a>2018 年 5 月
+* Power BI 服务中的[主题仪表板](https://docs.microsoft.com/power-bi/service-dashboard-themes)。
+* Premium 中的[增量刷新](https://docs.microsoft.com/power-bi/service-premium-incremental-refresh)。
+* [Power BI 应用](https://docs.microsoft.com/power-bi/service-create-distribute-apps)的请求访问工作流。
+* 获取数据更新，以便用户更轻松地查找[Power BI 应用](https://docs.microsoft.com/power-bi/service-create-distribute-apps)。
+* 启用或关闭 Power BI 服务中的[永久性筛选器](https://powerbi.microsoft.com/blog/announcing-persistent-filters-in-the-service/)的设置。
+* Azure B2B 邀请报表的工作流改进。
+
 ### <a name="april-2018"></a>2018 年 4 月
-* [Power BI GDPR 白皮书](http://servicetrust.microsoft.com/ViewPage/TrustDocuments?command=Download&downloadType=Document&downloadId=5bd4c466-277b-4726-b9e0-f816ac12872d&docTab=6d000410-c9e9-11e7-9a91-892aae8839ad_FAQ_and_White_Papers)
+* [有关数据保护的 Power BI 白皮书](http://servicetrust.microsoft.com/ViewPage/TrustDocuments?command=Download&downloadType=Document&downloadId=5bd4c466-277b-4726-b9e0-f816ac12872d&docTab=6d000410-c9e9-11e7-9a91-892aae8839ad_FAQ_and_White_Papers)
 * 对于 Office 365 租户，默认启用 Power BI 服务的[审核日志](https://docs.microsoft.com/power-bi/service-admin-auditing)。
 
 ### <a name="march-2018"></a>2018 年 3 月
-* Power BI 服务中的[永久性筛选器](https://powerbi.microsoft.com/en-us/blog/announcing-persistent-filters-in-the-service/)。
-* 与使用个人电子邮件帐户的用户共享内容。 [Azure Active Directory B2B](https://powerbi.microsoft.com/en-us/blog/power-bi-expands-access-to-intelligence-for-external-guest-users/) 扩展。
+* Power BI 服务中的[永久性筛选器](https://powerbi.microsoft.com/blog/announcing-persistent-filters-in-the-service/)。
+* 与使用个人电子邮件帐户的用户共享内容。 [Azure Active Directory B2B](https://powerbi.microsoft.com/blog/power-bi-expands-access-to-intelligence-for-external-guest-users/) 扩展。
 
 ### <a name="february-2018"></a>2018 年 2 月
-* 自动为最终用户安装 [Power BI 应用](https://docs.microsoft.com/en-us/power-bi/service-create-distribute-apps)。
+* 自动为最终用户安装 [Power BI 应用](https://docs.microsoft.com/power-bi/service-create-distribute-apps)。
 * Power BI Premium 上的 P4 和 P5 容量
-* [组织自定义视觉对象](https://docs.microsoft.com/en-us/power-bi/power-bi-custom-visuals-organization)预览。
+* [组织自定义视觉对象](https://docs.microsoft.com/power-bi/power-bi-custom-visuals-organization)预览。
 
 ### <a name="january-2018"></a>2018 年 1 月
 *   共享和收藏 Power BI 报表。
@@ -63,12 +73,12 @@ ms.locfileid: "37137459"
 
 ## <a name="previous-months-2017"></a>前几个月 (2017)
 ## <a name="october-and-november-2017"></a>2017 年 10 月和 11 月
-*   通过 [Power BI 应用](https://docs.microsoft.com/en-us/power-bi/service-create-distribute-apps)进行内容选择性发布。
-*   使用 [Azure Active Directory B2B](https://powerbi.microsoft.com/en-us/blog/power-bi-expands-access-to-intelligence-for-external-guest-users/preview/) 进行外部用户分发。
+*   通过 [Power BI 应用](https://docs.microsoft.com/power-bi/service-create-distribute-apps)进行内容选择性发布。
+*   使用 [Azure Active Directory B2B](https://powerbi.microsoft.com/blog/power-bi-expands-access-to-intelligence-for-external-guest-users/preview/) 进行外部用户分发。
 * 由 AI 提供支持的应用建议。
 * 仪表板磁贴上的 UI 更新。
 * 针对应用的电子邮件订阅支持。 
-* 针对[发布到 Web](https://docs.microsoft.com/en-us/power-bi/service-admin-portal#export-and-sharing-settings) 的具体管理员控制。
+* 针对[发布到 Web](https://docs.microsoft.com/power-bi/service-admin-portal#export-and-sharing-settings) 的具体管理员控制。
 
 ## <a name="september-2017"></a>2017 年 9 月
 * 在高级容量中，与没有 Power BI Pro 许可证的用户共享仪表板。

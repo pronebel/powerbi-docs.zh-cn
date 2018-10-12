@@ -1,5 +1,5 @@
 ---
-title: 从报表创建 Power BI 仪表板
+title: 从报表创建 Power BI 服务仪表板
 description: 从报表创建 Power BI 仪表板
 author: mihart
 manager: kfile
@@ -8,16 +8,16 @@ featuredvideoid: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 03/02/2018
+ms.date: 09/02/2018
 ms.author: mihart
-ms.openlocfilehash: 56a26b50f50dd52d4355cd8326ec0d104dab19c0
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: a550aabb3590018666a3784e602ede15696862e5
+ms.sourcegitcommit: fe03f2a80f2df82219b8e026085f93a8453201df
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34248921"
+ms.lasthandoff: 09/08/2018
+ms.locfileid: "44168080"
 ---
-# <a name="create-a-power-bi-dashboard-from-a-report"></a>从报表创建 Power BI 仪表板
+# <a name="create-a-power-bi-dashboard-in-power-bi-service"></a>在 Power BI 服务中创建 Power BI 仪表板
 你已经阅读了 [Power BI 中的仪表板](service-dashboards.md)，并且现在想要创建你自己的仪表板。 有许多不同的方法可用于创建仪表板：从报表、从头开始、从数据集、通过复制现有仪表板等。  
 
 在你初次使用它时可能会感到不知所措，因此我们先创建一个快速简单的仪表板，方法是从已构建的报表固定可视化效果。 完成此快速入门后，你将很好地了解仪表板和报表之间的关系、如何在报表编辑器中打开编辑视图、固定磁贴以及在仪表板和报表之间导航。 然后，使用左侧目录中的链接或底部的“下一步”继续学习更高级的主题。

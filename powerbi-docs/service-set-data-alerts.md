@@ -2,21 +2,21 @@
 title: 在 Power BI 服务中设置数据警报
 description: 在 Microsof Power BI 服务中，了解设置警报，以便在仪表板中的数据更改超出你设置的限制时通知你。
 author: mihart
-manager: kfile
+manager: kvivek
 ms.reviewer: ''
 featuredvideoid: JbL2-HJ8clE
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 02/28/2018
+ms.date: 08/28/2018
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: ffbad48df6665d5dff6c4eca97e86e6f2850565f
-ms.sourcegitcommit: e8d924ca25e060f2e1bc753e8e762b88066a0344
+ms.openlocfilehash: 153676c983ef81bcccf1ea6bf0adf95ef29a2765
+ms.sourcegitcommit: fe03f2a80f2df82219b8e026085f93a8453201df
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/29/2018
-ms.locfileid: "37137512"
+ms.lasthandoff: 09/08/2018
+ms.locfileid: "44167919"
 ---
 # <a name="data-alerts-in-power-bi-service"></a>Power BI 服务中的数据警报
 设置警报，以便在仪表板中的数据更改超出你设置的限制时通知你。 
@@ -42,15 +42,15 @@ ms.locfileid: "37137512"
 1. 启动仪表板。 在仪表板仪表、KPI 或卡磁贴中，选择省略号。
    
    ![总存储磁贴](media/service-set-data-alerts/powerbi-card.png)
-2. 选择钟形图标 ![警报图标](media/service-set-data-alerts/power-bi-bell-icon.png) 为“总存储”添加一个或多个警报。
+2. 选择钟形图标![警报图标](media/service-set-data-alerts/power-bi-bell-icon.png)或“管理警报”，为“总存储”添加一个或多个警报。
    
-1. 若要开始，请选择“+ 添加警报规则”，并确保滑块已设置为“开启”，并为警报提供一个标题。 标题有助于轻松识别警报。
+1. 在“管理警报”窗格中，选择“+添加警报规则”。  请确保滑块已设置为“开启”，并为警报提供一个标题。 标题有助于轻松识别警报。
    
    ![管理警报窗口](media/service-set-data-alerts/powerbi-alert-title.png)
 4. 向下滚动，输入警报的详细信息。  在此示例中，我们将创建一个在总存储数超过 100 时每天提醒一次的警报。 警报将出现在我们的通知中心。 并且，我们还将收到 Power BI 发送的电子邮件。
    
    ![管理警报窗口，请设置阈值](media/service-set-data-alerts/power-bi-set-alert-details.png)
-5. 选择**保存**。
+5. 选择“保存并关闭”。
 
 ## <a name="receiving-alerts"></a>接收警报
 当被跟踪的数据到达一个你所设定的阈值时，将发生下列情况。 首先，Power BI 会检查自最后一个警报发出是否已超过 1 个小时或 24 个小时（具体取决于所选择的选项）。 只要数据超过阈值，你就会收到警报。
@@ -104,6 +104,4 @@ ms.locfileid: "37137512"
 ## <a name="next-steps"></a>后续步骤
 [创建集成了数据警报的 Microsoft Flow](service-flow-integration.md)    
 [在移动设备上设置数据警报](mobile-set-data-alerts-in-the-mobile-apps.md)    
-[什么是 Power BI？](power-bi-overview.md)    
-更多问题？ [尝试咨询 Power BI 社区](http://community.powerbi.com/)
 

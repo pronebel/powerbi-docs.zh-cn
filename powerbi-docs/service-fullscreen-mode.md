@@ -2,21 +2,21 @@
 title: 以全屏模式显示仪表板、磁贴、报表页和可视化效果
 description: 以全屏模式（即电视模式）显示仪表板、仪表板磁贴、报表视觉对象和报表页。
 author: mihart
-manager: kfile
+manager: kvivek
 ms.reviewer: ''
 featuredvideoid: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 04/11/2018
+ms.date: 09/04/2018
 ms.author: mihart
 LocalizationGroup: Common tasks
-ms.openlocfilehash: 7b84b473f64b4ee2d37a3a39de9976f2cf147059
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 2ff39f0594150c7b29fd88e8f4e4f6baef86e806
+ms.sourcegitcommit: 619b66176394b9b881edc29b6d123d9729554eb3
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34244102"
+ms.lasthandoff: 09/06/2018
+ms.locfileid: "44044316"
 ---
 # <a name="full-screen-mode-in-power-bi-service"></a>Power BI 服务中的全屏幕模式
 ## <a name="what-is-full-screen-mode"></a>什么是全屏模式？
@@ -24,7 +24,7 @@ ms.locfileid: "34244102"
 
 显示 Power BI 内容（仪表板、报表页、磁贴和可视化效果），而不受菜单和导航栏的干扰。  可以随时快速获取内容的纯粹而完整的视图。 有时这也称为电视模式。 在全屏幕模式下可用的功能会因内容而异。 
 
-如果使用 Power BI 移动版，[全屏可用于 Windows 10 移动应用](mobile-windows-10-app-presentation-mode.md)。 Power BI Desktop 不具有面向报表或可视化效果的全屏幕模式，但有针对[关系视图](desktop-report-view.md)的调整到页面大小和[报表视觉对象的焦点模式](service-focus-mode.md)。
+如果使用 Power BI 移动版，[全屏可用于 Windows 10 移动应用](mobile-windows-10-app-presentation-mode.md)。 Power BI Desktop 不具有面向报表或可视化效果的全屏幕模式，但有针对[关系视图和表报视图](desktop-report-view.md)的“调整到页面大小”和[报表视觉对象的焦点模式](service-focus-mode.md)。
 
  
 
@@ -44,7 +44,7 @@ ms.locfileid: "34244102"
 <iframe width="560" height="315" src="https://www.youtube.com/embed/c31gZkyvC54" frameborder="0" allowfullscreen></iframe>
 
 ## <a name="dashboards-and-report-pages-in-full-screen-mode"></a>全屏模式下的仪表板和报表页
-1. 从仪表板或报表上方的 Power BI 菜单栏中选择全屏图标 ![全屏图标](media/service-fullscreen-mode/power-bi-full-screen-icon.png)。 仪表板画布或报表页将填充整个屏幕。 以下为仪表板示例。
+1. 从仪表板或报表上方的 Power BI 服务菜单栏中选择全屏图标![全屏图标](media/service-fullscreen-mode/power-bi-full-screen-icon.png)。 仪表板画布或报表页将填充整个屏幕。 以下为仪表板示例。
    
       ![仪表板显示全屏](media/service-fullscreen-mode/power-bi-dash-full-screen.png)
 2. 在全屏幕模式下，有多个菜单选项。  若要显示菜单，只需移动鼠标或光标。 

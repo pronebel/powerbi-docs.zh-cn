@@ -2,20 +2,20 @@
 title: 立刻从 Excel 工作簿变为出色的报表
 description: 立刻从 Excel 工作簿变为出色的报表
 author: mihart
-manager: kfile
+manager: kvivek
 ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 02/28/2018
+ms.date: 08/28/2018
 ms.author: mihart
 LocalizationGroup: Data from files
-ms.openlocfilehash: f24d4055bd5fcf5fdee058112c268a1a0e197012
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 3244a185c7b7e9caa689ab7b90c184c9bf5b4662
+ms.sourcegitcommit: 619b66176394b9b881edc29b6d123d9729554eb3
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34247163"
+ms.lasthandoff: 09/06/2018
+ms.locfileid: "44044408"
 ---
 # <a name="from-excel-workbook-to-stunning-report-in-no-time"></a>立刻从 Excel 工作簿变为出色的报表
 你的经理在下班前想要查看有关你最新的销售数据以及上一市场活动影响的报表。 但最新数据位于各种第三方系统上以及便携式计算机上的文件中。 以前，创建视觉对象和设置报表格式需要几个小时。 你开始感到焦虑。
@@ -34,7 +34,7 @@ ms.locfileid: "34247163"
 ![格式化为表格的数据](media/service-from-excel-to-stunning-report/pbi_excel_table.png)
 
 ## <a name="upload-your-excel-file-into-power-bi"></a>将 Excel 文件上传到 Power BI
-Power BI 将连接到多个数据源，包括位于计算机上的 Excel 文件。 若要开始，请登录到 Power BI。 如果还未注册，[你可以免费注册](https://powerbi.com)。
+Power BI 将连接到多个数据源，包括位于计算机上的 Excel 文件。 若要开始，请登录到 Power BI 服务。 如果还未注册，[你可以免费注册](https://powerbi.com)。
 
 你想要创建新仪表板。 打开“我的工作区”，然后选择“新建”图标。
 
