@@ -1,6 +1,6 @@
 ---
-title: 立刻从 Excel 工作簿变为出色的报表
-description: 立刻从 Excel 工作簿变为出色的报表
+title: 立即从 Excel 工作簿转变为出色的报表
+description: 立即从 Excel 工作簿转变为出色的报表
 author: mihart
 manager: kvivek
 ms.reviewer: ''
@@ -10,14 +10,14 @@ ms.topic: conceptual
 ms.date: 08/28/2018
 ms.author: mihart
 LocalizationGroup: Data from files
-ms.openlocfilehash: 3244a185c7b7e9caa689ab7b90c184c9bf5b4662
-ms.sourcegitcommit: 619b66176394b9b881edc29b6d123d9729554eb3
+ms.openlocfilehash: ebbca73f781946f989b2f3afa65aa0a940f7a680
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/06/2018
-ms.locfileid: "44044408"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46545121"
 ---
-# <a name="from-excel-workbook-to-stunning-report-in-no-time"></a>立刻从 Excel 工作簿变为出色的报表
+# <a name="from-excel-workbook-to-stunning-report-in-no-time"></a>立即从 Excel 工作簿转变为出色的报表
 你的经理在下班前想要查看有关你最新的销售数据以及上一市场活动影响的报表。 但最新数据位于各种第三方系统上以及便携式计算机上的文件中。 以前，创建视觉对象和设置报表格式需要几个小时。 你开始感到焦虑。
 
 别担心。 凭借 Power BI，你可以立刻创建出色的报表。
@@ -46,7 +46,7 @@ Power BI 将连接到多个数据源，包括位于计算机上的 Excel 文件�
 
 选择左侧导航窗格底部的“获取数据”。 在“获取数据”页上，从“导入或连接到数据”下的“文件”框中选择**获取**。
 
-![从文件中获取数据](media/service-from-excel-to-stunning-report/pbi_get_files.png)
+![从文件获取数据](media/service-from-excel-to-stunning-report/pbi_get_files.png)
 
 在“文件”页中，选择**本地文件**。 导航到计算机上的 Excel 工作簿文件，然后选择它以加载到 Power BI 中。 选择“导入”。
 
@@ -98,6 +98,6 @@ Power BI 将显示“共享仪表板”页面。 在顶部区域中，输入收�
 
 * [Power BI 服务入门](service-get-started.md)
 * [Power BI Desktop 入门](desktop-getting-started.md)
-* [Power BI - 基本概念](service-basic-concepts.md)
+* [Power BI - 基本概念](consumer/end-user-basic-concepts.md)
 * 更多问题？ [尝试参与 Power BI 社区](http://community.powerbi.com/)
 

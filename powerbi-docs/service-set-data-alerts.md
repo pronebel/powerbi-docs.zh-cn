@@ -2,28 +2,28 @@
 title: 在 Power BI 服务中设置数据警报
 description: 在 Microsof Power BI 服务中，了解设置警报，以便在仪表板中的数据更改超出你设置的限制时通知你。
 author: mihart
-manager: kvivek
+manager: kfile
 ms.reviewer: ''
 featuredvideoid: JbL2-HJ8clE
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 08/28/2018
+ms.date: 02/28/2018
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 153676c983ef81bcccf1ea6bf0adf95ef29a2765
-ms.sourcegitcommit: fe03f2a80f2df82219b8e026085f93a8453201df
+ms.openlocfilehash: d7251cea6a8244562b22d6511df754d3287587af
+ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/08/2018
-ms.locfileid: "44167919"
+ms.lasthandoff: 09/12/2018
+ms.locfileid: "44726331"
 ---
 # <a name="data-alerts-in-power-bi-service"></a>Power BI 服务中的数据警报
 设置警报，以便在仪表板中的数据更改超出你设置的限制时通知你。 
 
 如果你拥有 Power BI Pro 许可证，或者有人利用[高级版功能](service-premium.md)与你共享了仪表板，则可以为磁贴设置警报。 只能为报表视觉对象固定到的磁贴设置警报，而且只能为仪表、KPI 和卡片设置警报。 可以为从报表固定到仪表板的流数据集中创建的视觉对象设置警报，但无法直接在仪表板上使用“添加磁贴” > “自定义流数据”为创建的流磁贴设置警报。 
 
-即使共享你的仪表板，也只有你可以看到自己设置的警报。 数据警报跨平台完全同步；可以在 [Power BI 移动应用](mobile-set-data-alerts-in-the-mobile-apps.md)和 Power BI 服务中设置和查看数据警报。 它们对 Power BI Desktop 不可用。 警报甚至可以是[与 Microsoft Flow 集成的自动警报](https://flow.microsoft.com) - [试试吧](service-flow-integration.md)。
+即使共享你的仪表板，也只有你可以看到自己设置的警报。 数据警报跨平台完全同步；可以在 [Power BI 移动应用](consumer/mobile/mobile-set-data-alerts-in-the-mobile-apps.md)和 Power BI 服务中设置和查看数据警报。 它们对 Power BI Desktop 不可用。 警报甚至可以是[与 Microsoft Flow 集成的自动警报](https://flow.microsoft.com) - [试试吧](service-flow-integration.md)。
 
 ![磁贴](media/service-set-data-alerts/powerbi-alert-types-new.png)
 
@@ -42,15 +42,15 @@ ms.locfileid: "44167919"
 1. 启动仪表板。 在仪表板仪表、KPI 或卡磁贴中，选择省略号。
    
    ![总存储磁贴](media/service-set-data-alerts/powerbi-card.png)
-2. 选择钟形图标![警报图标](media/service-set-data-alerts/power-bi-bell-icon.png)或“管理警报”，为“总存储”添加一个或多个警报。
+2. 选择钟形图标 ![警报图标](media/service-set-data-alerts/power-bi-bell-icon.png) 为“总存储”添加一个或多个警报。
    
-1. 在“管理警报”窗格中，选择“+添加警报规则”。  请确保滑块已设置为“开启”，并为警报提供一个标题。 标题有助于轻松识别警报。
+1. 若要开始，请选择“+ 添加警报规则”，并确保滑块已设置为“开启”，并为警报提供一个标题。 标题有助于轻松识别警报。
    
    ![管理警报窗口](media/service-set-data-alerts/powerbi-alert-title.png)
 4. 向下滚动，输入警报的详细信息。  在此示例中，我们将创建一个在总存储数超过 100 时每天提醒一次的警报。 警报将出现在我们的通知中心。 并且，我们还将收到 Power BI 发送的电子邮件。
    
    ![管理警报窗口，请设置阈值](media/service-set-data-alerts/power-bi-set-alert-details.png)
-5. 选择“保存并关闭”。
+5. 选择**保存**。
 
 ## <a name="receiving-alerts"></a>接收警报
 当被跟踪的数据到达一个你所设定的阈值时，将发生下列情况。 首先，Power BI 会检查自最后一个警报发出是否已超过 1 个小时或 24 个小时（具体取决于所选择的选项）。 只要数据超过阈值，你就会收到警报。
@@ -73,15 +73,15 @@ ms.locfileid: "44167919"
    > 
 
 ## <a name="managing-alerts"></a>管理警报
-可通过多种方法管理警报：从仪表板磁贴本身、从 Power BI 设置菜单，以及在 [iPhone 上的 Power BI 移动应用](mobile-set-data-alerts-in-the-mobile-apps.md)或[适用于 Windows 10 的 Power BI 移动应用](mobile-set-data-alerts-in-the-mobile-apps.md)中各个磁贴。
+可通过多种方法管理警报：从仪表板磁贴本身、从 Power BI 设置菜单，以及在 [iPhone 上的 Power BI 移动应用](consumer/mobile/mobile-set-data-alerts-in-the-mobile-apps.md)或[适用于 Windows 10 的 Power BI 移动应用](consumer/mobile/mobile-set-data-alerts-in-the-mobile-apps.md)中各个磁贴。
 
 ### <a name="from-the-tile-itself"></a>从磁贴本身
 1. 如果需要更改或删除磁贴的警报，请通过选择钟形图标 ![警报图标](media/service-set-data-alerts/power-bi-bell-icon.png)，重新打开“管理警报”。 将显示已为该磁贴设置的所有警报。
    
-    ![管理警报窗口](media/service-set-data-alerts/powerbi-see-alerts.png)。
+    ![管理警报窗口](media/service-set-data-alerts/powerbi-see-alerts.png).
 2. 若要修改警报，请选择警报名称左侧的箭头。
    
-    ![警报名称旁的箭头](media/service-set-data-alerts/powerbi-see-alerts-arrow.png)。
+    ![警报名称旁的箭头](media/service-set-data-alerts/powerbi-see-alerts-arrow.png).
 3. 若要删除警报，请选择警报名称右侧的垃圾桶。
    
       ![已选中垃圾桶图标](media/service-set-data-alerts/powerbi-see-alerts-delete.png)
@@ -89,7 +89,7 @@ ms.locfileid: "44167919"
 ### <a name="from-the-power-bi-settings-menu"></a>从 Power BI 设置菜单
 1. 从 Power BI 菜单栏选择齿轮图标。
    
-    ![齿轮图标](media/service-set-data-alerts/powerbi-gear-icon.png)。
+    ![齿轮图标](media/service-set-data-alerts/powerbi-gear-icon.png).
 2. 在“设置”下，选择“警报”。
    
     ![“设置”窗口的“警报”选项卡](media/service-set-data-alerts/powerbi-alert-settings.png)
@@ -103,5 +103,7 @@ ms.locfileid: "44167919"
 
 ## <a name="next-steps"></a>后续步骤
 [创建集成了数据警报的 Microsoft Flow](service-flow-integration.md)    
-[在移动设备上设置数据警报](mobile-set-data-alerts-in-the-mobile-apps.md)    
+[在移动设备上设置数据警报](consumer/mobile/mobile-set-data-alerts-in-the-mobile-apps.md)    
+[什么是 Power BI？](power-bi-overview.md)    
+更多问题？ [尝试咨询 Power BI 社区](http://community.powerbi.com/)
 

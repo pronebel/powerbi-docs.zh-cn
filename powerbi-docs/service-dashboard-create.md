@@ -1,5 +1,5 @@
 ---
-title: 从报表创建 Power BI 服务仪表板
+title: 从报表创建 Power BI 仪表板
 description: 从报表创建 Power BI 仪表板
 author: mihart
 manager: kfile
@@ -8,24 +8,24 @@ featuredvideoid: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 09/02/2018
+ms.date: 10/02/2018
 ms.author: mihart
-ms.openlocfilehash: a550aabb3590018666a3784e602ede15696862e5
-ms.sourcegitcommit: fe03f2a80f2df82219b8e026085f93a8453201df
+ms.openlocfilehash: e4173811db0de0dc95e0bd324517a5750165983e
+ms.sourcegitcommit: 52ac456bf2ac025b22ea634c28482f22e1cc19ac
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/08/2018
-ms.locfileid: "44168080"
+ms.lasthandoff: 10/10/2018
+ms.locfileid: "48908638"
 ---
-# <a name="create-a-power-bi-dashboard-in-power-bi-service"></a>在 Power BI 服务中创建 Power BI 仪表板
+# <a name="create-a-power-bi-dashboard-from-a-report"></a>从报表创建 Power BI 仪表板
 你已经阅读了 [Power BI 中的仪表板](service-dashboards.md)，并且现在想要创建你自己的仪表板。 有许多不同的方法可用于创建仪表板：从报表、从头开始、从数据集、通过复制现有仪表板等。  
 
 在你初次使用它时可能会感到不知所措，因此我们先创建一个快速简单的仪表板，方法是从已构建的报表固定可视化效果。 完成此快速入门后，你将很好地了解仪表板和报表之间的关系、如何在报表编辑器中打开编辑视图、固定磁贴以及在仪表板和报表之间导航。 然后，使用左侧目录中的链接或底部的“下一步”继续学习更高级的主题。
 
 ## <a name="who-can-create-a-dashboard"></a>谁可以创建仪表板？
-创建仪表板是创建者功能，需要拥有报表编辑权限。 报表创建者及其所授予访问权限的同事拥有编辑权限。 例如，如果 David 在 workspaceABC 中创建了一个报表，然后将你添加为该工作区的成员，则你和 David 都将拥有编辑权限。 另一方面，如果报表已与你直接共享或作为 [Power BI 应用](service-install-use-apps.md)的一部分（你正在使用该报表），则你将无法将磁贴固定到仪表板。
+创建仪表板是创建者功能，需要拥有报表编辑权限。 报表创建者及其所授予访问权限的同事拥有编辑权限。 例如，如果 David 在 workspaceABC 中创建了一个报表，然后将你添加为该工作区的成员，则你和 David 都将拥有编辑权限。 另一方面，如果报表已与你直接共享或作为 [Power BI 应用](service-create-distribute-apps.md)的一部分（你正在使用该报表），则你将无法将磁贴固定到仪表板。
 
-> **注意**：仪表板是 Power BI 服务的一项功能，而不是 Power BI Desktop 的功能。 无法在 Power BI 移动设备中创建仪表板，但可以[查看和共享](mobile-apps-view-dashboard.md)仪表板。
+> **注意**：仪表板是 Power BI 服务的一项功能，而不是 Power BI Desktop 的功能。 无法在 Power BI 移动设备中创建仪表板，但可以[查看和共享](consumer/mobile/mobile-apps-view-dashboard.md)仪表板。
 >
 > 
 
@@ -65,7 +65,7 @@ ms.locfileid: "44168080"
 1. 在同一工作区中，选择“报表”选项卡。新导入的报表显示有黄色星号。 选择报表名称以打开它。
 
     ![报表选项卡](media/service-dashboard-create/power-bi-reports.png)
-2. 报表会在[阅读视图](service-reading-view-and-editing-view.md)中打开。 请注意，它的底部包含两个选项卡：折扣分析和支出概况。 每个选项卡表示报表的一页。
+2. 此时，报表会在阅读视图中打开。 请注意，它的底部包含两个选项卡：折扣分析和支出概况。 每个选项卡表示报表的一页。
     选择“编辑报表”在编辑视图中打开报表。
 
     ![“阅读”视图中的报表](media/service-dashboard-create/power-bi-reading-view.png)
@@ -109,7 +109,7 @@ ms.locfileid: "44168080"
 ## <a name="next-steps"></a>后续步骤
 * [调整大小和移动磁贴](service-dashboard-edit-tile.md)
 * [关于仪表板磁贴的所有内容](service-dashboard-tiles.md)
-* [通过创建应用共享仪表板](service-create-distribute-apps.md)
+* [通过创建应用共享仪表板](service-install-use-apps.md)
 * [Power BI - 基本概念](service-basic-concepts.md)
 * [设计出色仪表板的提示](service-dashboards-design-tips.md)
 

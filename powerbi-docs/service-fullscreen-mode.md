@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 09/04/2018
 ms.author: mihart
 LocalizationGroup: Common tasks
-ms.openlocfilehash: 2ff39f0594150c7b29fd88e8f4e4f6baef86e806
-ms.sourcegitcommit: 619b66176394b9b881edc29b6d123d9729554eb3
+ms.openlocfilehash: 83b9d87bf494c3b9e974ee9dfdfa97beb68a6579
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/06/2018
-ms.locfileid: "44044316"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46545788"
 ---
 # <a name="full-screen-mode-in-power-bi-service"></a>Power BI 服务中的全屏幕模式
 ## <a name="what-is-full-screen-mode"></a>什么是全屏模式？
@@ -24,7 +24,7 @@ ms.locfileid: "44044316"
 
 显示 Power BI 内容（仪表板、报表页、磁贴和可视化效果），而不受菜单和导航栏的干扰。  可以随时快速获取内容的纯粹而完整的视图。 有时这也称为电视模式。 在全屏幕模式下可用的功能会因内容而异。 
 
-如果使用 Power BI 移动版，[全屏可用于 Windows 10 移动应用](mobile-windows-10-app-presentation-mode.md)。 Power BI Desktop 不具有面向报表或可视化效果的全屏幕模式，但有针对[关系视图和表报视图](desktop-report-view.md)的“调整到页面大小”和[报表视觉对象的焦点模式](service-focus-mode.md)。
+如果使用 Power BI 移动版，[全屏可用于 Windows 10 移动应用](consumer/mobile/mobile-windows-10-app-presentation-mode.md)。 Power BI Desktop 不具有面向报表或可视化效果的全屏幕模式，但有针对[关系视图和表报视图](desktop-report-view.md)的“调整到页面大小”和[报表视觉对象的焦点模式](consumer/end-user-focus.md)。
 
  
 
@@ -35,7 +35,7 @@ ms.locfileid: "44044316"
 * 在小屏幕上查看
 * 在锁定模式下查看 -- 你可以触摸屏幕或将鼠标悬停在磁贴上，而不打开基础报表或仪表板
 
-> 注意：全屏模式不同于[焦点（弹出）模式](service-focus-mode.md)。
+> 注意：全屏模式不同于[焦点（弹出）模式](consumer/end-user-focus.md)。
 > 
 > 
 
@@ -78,7 +78,7 @@ ms.locfileid: "44044316"
       ![](media/service-fullscreen-mode/exit-fullscreen-new.png)
 
 ## <a name="visualizations-and-dashboard-tiles-in-full-screen-mode"></a>全屏模式下的可视化效果和仪表板磁贴
-1. 若要在全屏模式下显示仪表板磁贴和报表可视化效果，必须先从已处于[焦点模式](service-focus-mode.md)的磁贴或可视化效果开始。 
+1. 若要在全屏模式下显示仪表板磁贴和报表可视化效果，必须先从已处于[焦点模式](consumer/end-user-focus.md)的磁贴或可视化效果开始。 
    
     ![](media/service-fullscreen-mode/power-bi-focus3.png)
 2. 然后，选择该磁贴或视觉对象的全屏图标 ![全屏图标](media/service-fullscreen-mode/power-bi-full-screen-icon.png)  。 磁贴或视觉对象将会全屏显示，而无菜单或导航栏。
@@ -86,8 +86,8 @@ ms.locfileid: "44044316"
     ![](media/service-fullscreen-mode/power-bi-fullscreen.png)
 
 ## <a name="next-steps"></a>后续步骤
-[Power BI 中的仪表板](service-dashboards.md)  
-[焦点”模式](service-focus-mode.md)    
+[Power BI 中的仪表板](consumer/end-user-dashboards.md)  
+[焦点”模式](consumer/end-user-focus.md)    
 
 更多问题？ [尝试参与 Power BI 社区](http://community.powerbi.com/)
 
