@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 09/05/2017
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: a86b1d6823a1d889b47015d1213a9a056c537703
-ms.sourcegitcommit: 627918a704da793a45fed00cc57feced4a760395
+ms.openlocfilehash: c08a886584e45b83e559a509392df867e31f3d54
+ms.sourcegitcommit: a764e4b9d06b50d9b6173d0fbb7555e3babe6351
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/10/2018
-ms.locfileid: "37926642"
+ms.lasthandoff: 10/22/2018
+ms.locfileid: "49641174"
 ---
 # <a name="unable-to-add-power-bi-to-office-365-partner-subscription"></a>无法将 Power BI 添加到 Office 365 合作伙伴订阅
 Office 365 允许公司转售与自己的解决方案捆绑和集成的 Office 365，从而为最终客户提供用于购买、计帐和支持的单点联系。
@@ -62,7 +62,7 @@ Office 365 允许公司转售与自己的解决方案捆绑和集成的 Office 3
 
 ## <a name="next-steps"></a>后续步骤
 [使用 Windows PowerShell 管理 Azure AD](https://technet.microsoft.com/library/jj151815.aspx)  
-[Power BI Premium 有哪些特权？](service-premium.md)
+[什么是 Power BI Premium？](service-premium.md)
 
 更多问题？ [尝试咨询 Power BI 社区](http://community.powerbi.com/)
 

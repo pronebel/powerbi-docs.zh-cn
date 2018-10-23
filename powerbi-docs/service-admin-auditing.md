@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 04/10/2018
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: bcf012d94dedfd912479c3e51e0de388b177c294
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 5051ed66b4214b7ef55ecf2a95d5ed4bc38653ce
+ms.sourcegitcommit: a764e4b9d06b50d9b6173d0fbb7555e3babe6351
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34755015"
+ms.lasthandoff: 10/22/2018
+ms.locfileid: "49642002"
 ---
 # <a name="using-auditing-within-your-organization"></a>在组织内使用审核
 
@@ -202,7 +202,7 @@ Search-UnifiedAuditLog -StartDate 9/11/2016 -EndDate 9/15/2016 -RecordType Power
 ## <a name="next-steps"></a>后续步骤
 
 [Power BI 管理门户](service-admin-portal.md)  
-[Power BI Premium 有哪些特权？](service-premium.md)  
+[什么是 Power BI Premium？](service-premium.md)  
 [购买 Power BI Pro](service-admin-purchasing-power-bi-pro.md)  
 [Exchange Online 中的权限](https://technet.microsoft.com/library/jj200692\(v=exchg.150\).aspx)  
 [连接到 Exchange Online PowerShell](https://technet.microsoft.com/library/jj984289\(v=exchg.160\).aspx)  
