@@ -2,8 +2,6 @@
 
 现在，你已经了解了 Excel 和 Power BI 如何无缝地协同工作，并且你已了解有关可以在报表和仪表板中创建的视觉对象的所有信息，建议将其与同事和朋友共享。 你可以使用 Power BI 轻松完成**发布和共享**操作。
 
-本节将向你介绍将 Excel 工作薄导入 Power BI 是多么简单，并演示 Power BI 和 Excel 如何展现最佳搭档气质。
-
 ## <a name="share-and-collaborate-with-colleagues-in-power-bi"></a>在 Power BI 中与同事共享和协作
 *可以借助 Power BI 使共享和协作变得更容易的工具简介*
 

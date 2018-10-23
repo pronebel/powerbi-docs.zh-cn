@@ -9,14 +9,14 @@ featuredvideoid: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 02/28/2018
+ms.date: 10/16/2018
 ms.author: mihart
-ms.openlocfilehash: a312a4311590d02d0fa8bd97726f9cf596cfe6a0
-ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
+ms.openlocfilehash: 2c7a9d5f6bdbbfff905f3faa8cec255c2b85a0d5
+ms.sourcegitcommit: a3ce866caba24217bcdd011e892b9ea72f3d2400
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/21/2018
-ms.locfileid: "46545765"
+ms.lasthandoff: 10/18/2018
+ms.locfileid: "49396787"
 ---
 # <a name="interacting-with-arcgis-maps-in-power-bi"></a>在 Power BI 中与 ArcGIS 地图交互
 本主题是从在 Power BI 服务、Power BI Desktop 或 Power BI 移动应用中使用 ArcGIS 地图的人员的角度进行编写。 创建者与你共享 ArcGIS 地图后，便可以通过多种方式与相应地图进行交互。  若要详细了解如何创建 ArcGIS 地图，请参阅 [ESRI ArcGIS 地图教程](../power-bi-visualization-arcgis.md)。
@@ -57,7 +57,7 @@ ArcGIS Maps for Power BI 有三种选择模式。 一次最多可选择 250 个�
 ## <a name="interacting-with-an-arcgis-map"></a>与 ArcGIS 地图交互
 具体可以使用哪些功能取决于你是创建者（地图创建者）还是使用者（其他人与你共享了 ArcGIS 地图）。 如果是以使用者的身份与 ArcGIS 地图进行交互（亦称[阅读视图](../consumer/end-user-reading-view.md)），则可执行下列操作。
 
-* 与其他可视化效果类型一样，可以[固定到仪表板](../service-dashboard-pin-tile-from-report.md)、[查看](../consumer/end-user-show-data.md)和/或[导出基础数据](../consumer/end-user-export-data.md)，并在[焦点模式](../consumer/end-user-focus.md)和[全屏模式](../service-fullscreen-mode.md)下查看地图。    
+* 与其他可视化效果类型一样，可以[固定到仪表板](../service-dashboard-pin-tile-from-report.md)、[查看](../consumer/end-user-show-data.md)和/或[导出基础数据](power-bi-visualization-export-data.md)，并在[焦点模式](../consumer/end-user-focus.md)和[全屏模式](../service-fullscreen-mode.md)下查看地图。    
 * 展开“筛选器”窗格，以使用筛选器浏览地图。 关闭报表时，不会保存所应用的筛选器。    
     ![](media/power-bi-visualizations-arcgis/power-bi-filter-newer.png)  
 * 如果地图有引用层，请选择要在工具提示中显示详细信息的位置。 此时，我们选择的是亚当斯县，以查看创建者在地图中添加的平均家庭收入引用层中的数据。

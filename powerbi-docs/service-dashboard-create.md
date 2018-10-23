@@ -10,12 +10,12 @@ ms.component: powerbi-service
 ms.topic: conceptual
 ms.date: 10/02/2018
 ms.author: mihart
-ms.openlocfilehash: e4173811db0de0dc95e0bd324517a5750165983e
-ms.sourcegitcommit: 52ac456bf2ac025b22ea634c28482f22e1cc19ac
+ms.openlocfilehash: 666938d8d852793b68bb278147c61f077c839ed2
+ms.sourcegitcommit: 1a79e48ac820c28c5d0fd05399f49ed22fc74ed7
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/10/2018
-ms.locfileid: "48908638"
+ms.lasthandoff: 10/19/2018
+ms.locfileid: "49435355"
 ---
 # <a name="create-a-power-bi-dashboard-from-a-report"></a>从报表创建 Power BI 仪表板
 你已经阅读了 [Power BI 中的仪表板](service-dashboards.md)，并且现在想要创建你自己的仪表板。 有许多不同的方法可用于创建仪表板：从报表、从头开始、从数据集、通过复制现有仪表板等。  
@@ -109,7 +109,7 @@ ms.locfileid: "48908638"
 ## <a name="next-steps"></a>后续步骤
 * [调整大小和移动磁贴](service-dashboard-edit-tile.md)
 * [关于仪表板磁贴的所有内容](service-dashboard-tiles.md)
-* [通过创建应用共享仪表板](service-install-use-apps.md)
+* [通过创建应用共享仪表板](service-create-workspaces.md)
 * [Power BI - 基本概念](service-basic-concepts.md)
 * [设计出色仪表板的提示](service-dashboards-design-tips.md)
 

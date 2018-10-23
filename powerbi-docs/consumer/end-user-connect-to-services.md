@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 08/29/2018
 ms.author: mihart
 LocalizationGroup: Connect to services
-ms.openlocfilehash: add6a02d10c2dfe0e0fd93b9d12f03a10d057241
-ms.sourcegitcommit: 52ac456bf2ac025b22ea634c28482f22e1cc19ac
+ms.openlocfilehash: 8d8446f231d1de3527d5371a55542641c29cca83
+ms.sourcegitcommit: 1a79e48ac820c28c5d0fd05399f49ed22fc74ed7
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/10/2018
-ms.locfileid: "48908201"
+ms.lasthandoff: 10/19/2018
+ms.locfileid: "49435272"
 ---
 # <a name="connect-to-the-services-you-use-with-power-bi"></a>使用 Power BI 连接到要使用的服务
 
@@ -43,7 +43,7 @@ ms.locfileid: "48908201"
 
 有关连接到特定服务的详细信息，请参阅个人帮助页面。
 
-## <a name="troubleshooting"></a>疑难解答
+## <a name="troubleshooting"></a>故障排除
 **空磁贴**  
 Power BI 首次连接到服务时，你可能会在仪表板上看到一组空磁贴。 如果 2 小时后，仪表板仍然为空，很有可能是连接失败造成的。 如果没有看到包含可修复此问题相关信息的错误消息，请提交支持票证。
 
@@ -60,7 +60,7 @@ Power BI 首次连接到服务时，你可能会在仪表板上看到一组空�
 你有需要生成应用的服务吗？ [提交你的提名](https://azure.microsoft.com/marketplace/programs/certified/apply/)并选择“发布 Power BI 内容包”以开始使用。
 
 ## <a name="next-steps"></a>后续步骤
-* [Power BI 中的应用有哪些？](../service-install-use-apps.md)
+* [Power BI 中的应用有哪些？](end-user-apps.md)
 * [在 Power BI 中获取数据](../service-get-data.md)
 * 更多问题？ [尝试咨询 Power BI 社区](http://community.powerbi.com/)
 

@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 05/30/2018
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 94ca76af9366752f4e1033fa05147f867e7096d9
-ms.sourcegitcommit: 52ac456bf2ac025b22ea634c28482f22e1cc19ac
+ms.openlocfilehash: 2085f1ca852839c27c4943872e5f5ddb248e8638
+ms.sourcegitcommit: a764e4b9d06b50d9b6173d0fbb7555e3babe6351
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/10/2018
-ms.locfileid: "48908891"
+ms.lasthandoff: 10/22/2018
+ms.locfileid: "49641381"
 ---
 # <a name="connect-to-microsoft-dynamics-nav-with-power-bi"></a>使用 Power BI 连接到 Microsoft Dynamics NAV
 借助 Power BI，轻松获得有关 Microsoft Dynamics NAV 数据的见解。 Power BI 会检索数据（销售和财务数据），然后基于该数据生成带仪表板和报表的应用。 Power BI 需要具有对从中检索数据（在本例中为销售和财务数据）的表的访问权限。 以下是有关要求的详细信息。 安装应用后，可以在 Power BI 服务 ([https://powerbi.com](https://powerbi.com)) 和 Power BI 移动应用中查看仪表板和报表。 
@@ -29,7 +29,7 @@ ms.locfileid: "48908891"
    ![](media/service-connect-to-microsoft-dynamics-nav/mdnav.png)
 4. 出现提示时，请输入你的 Microsoft Dynamics NAV OData URL。 URL 应与以下模式相匹配：
    
-    `https//instance.navserver.com:7048/DynamicsNAV90_Instance1/OData/Company('CRONUS%20International%20Ltd.')`
+    `https://instance.navserver.com:7048/DynamicsNAV90_Instance1/OData/Company('CRONUS%20International%20Ltd.')`
    
    * NAV 服务器名称应与“instance.navserver.com”相匹配
    * NAV 服务器实例名称应与“DynamicsNAV90\_Instance1”相匹配
@@ -64,7 +64,7 @@ ms.locfileid: "48908891"
 ## <a name="system-requirements"></a>系统要求
 若要将 Microsoft Dynamics NAV 数据导入到 Power BI 中，则需要具有对从中检索数据的销售和财务数据表（上面已列出）的访问权限。 表中需要具有一些数据，当前不能导入空表。
 
-## <a name="troubleshooting"></a>疑难解答
+## <a name="troubleshooting"></a>故障排除
 Power BI 使用 Microsoft Dynamics NAV 的 Web 服务来检索数据。 如果 Microsoft Dynamics NAV 实例中有大量数据，将 Web 服务使用情况影响降到最低的建议：按需更改刷新频率。 另一个建议是让一个管理员创建应用并进行共享，而不是让每个管理员都创建自己的应用。
 
 **“参数验证失败，请确保所有参数都是有效的”**  
@@ -72,7 +72,7 @@ Power BI 使用 Microsoft Dynamics NAV 的 Web 服务来检索数据。 如果 M
 
 * URL 完全采用这种模式：
   
-    `https//instance.navserver.com:7048/DynamicsNAV90_Instance1/OData/Company('CRONUS%20International%20Ltd.')`
+    `https://instance.navserver.com:7048/DynamicsNAV90_Instance1/OData/Company('CRONUS%20International%20Ltd.')`
   
   * NAV 服务器名称应与“instance.navserver.com”相匹配
   * NAV 服务器实例名称应与“DynamicsNAV90\_Instance1”相匹配
@@ -92,11 +92,11 @@ Power BI 使用 Microsoft Dynamics NAV 的 Web 服务来检索数据。 如果 M
 
 * 请验证 URL 已采用上面指定的模式。 一个常见错误是指定：
   
-    `https//instance.navserver.com:7048/DynamicsNAV90\_Instance1/OData`
+    `https://instance.navserver.com:7048/DynamicsNAV90\_Instance1/OData`
   
     正确的做法是将与你的 NAV 公司名称匹配的“Company('CRONUS%20International%20Ltd.')”部分包含在内：
   
-    `https//instance.navserver.com:7048/DynamicsNAV90\_Instance1/OData/Company('CRONUS%20International%20Ltd.')`
+    `https://instance.navserver.com:7048/DynamicsNAV90\_Instance1/OData/Company('CRONUS%20International%20Ltd.')`
 
 ## <a name="next-steps"></a>后续步骤
 * [Power BI 中的应用有哪些？](service-create-distribute-apps.md)

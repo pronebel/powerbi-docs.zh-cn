@@ -6,15 +6,15 @@ manager: kfile
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 01/17/2018
+ms.date: 10/16/2018
 ms.author: maggies
 LocalizationGroup: Ask questions of your data
-ms.openlocfilehash: 69e1bfffab1dd30685036b3c5265f81040a5f7c3
-ms.sourcegitcommit: fb1885da7cf11367660edbf7b7346dc039ee9b5d
+ms.openlocfilehash: 6f595a2d6423b1e79e927ee2d229363632022d58
+ms.sourcegitcommit: a3ce866caba24217bcdd011e892b9ea72f3d2400
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/26/2018
-ms.locfileid: "47187136"
+ms.lasthandoff: 10/18/2018
+ms.locfileid: "49396994"
 ---
 # <a name="tutorial-how-to-use-qa-to-create-visualizations-and-build-reports"></a>教程：如何使用 Power BI 问答创建可视化效果和生成报表
 [问答概述](consumer/end-user-q-and-a.md)介绍了 Power BI 问答，并对使用者（与其共享了仪表板和报表）和创建者（拥有基础报表和数据集）进行了区分。 本教程的第一部分主要是面向通过 Power BI 服务使用仪表板的用户。 第二部分是面向使用 Power BI 服务或 Power BI Desktop 创建报表的用户。 [Power BI 问答和 Power BI 移动版](consumer/mobile/mobile-apps-ios-qna.md)以及 [Power BI Embedded 中的 Power BI 问答](developer/qanda.md)均通过单篇文章进行介绍。
@@ -98,7 +98,7 @@ Power BI 问答的提问框位于仪表板的左上角，这就是用户使用�
 使用 Power BI 问答，不仅可以让数据为自己“发声”，还可以指示 Power BI 如何显示答案。 只需将“以<visualization type>显示”添加到问题的末尾即可。  例如，“显示工厂的库存量（以地图形式）”和“显示总库存（以卡片形式）”。  亲自动手。
 
 ##  <a name="considerations-and-troubleshooting"></a>注意事项和疑难解答
-- 如果已使用实时连接或网关连接到数据集，需要[为相应数据集启用](consumer/end-user-q-and-a-direct-query.md) Power BI 问答。
+- 如果已使用实时连接或网关连接到数据集，需要[为相应数据集启用](service-q-and-a-direct-query.md) Power BI 问答。
 
 - 如果已打开报表，但看不到 Power BI 问答选项。 如果使用的是 Power BI 服务，请务必在编辑视图中打开报表。 如果无法打开编辑视图，即说明无权编辑此报表，因此无法对特定报表使用 Power BI 问答。
 
@@ -107,5 +107,5 @@ Power BI 问答的提问框位于仪表板的左上角，这就是用户使用�
 [教程：通过“零售销售额示例”使用 Power BI 问答](power-bi-visualization-introduction-to-q-and-a.md)   
 [在 Power BI 问答中提问的提示](consumer/end-user-q-and-a-tips.md)   
 [准备问答的工作簿](service-prepare-data-for-q-and-a.md)  
-[准备本地数据集以供 Power BI 问答使用](consumer/end-user-q-and-a-direct-query.md)
+[准备本地数据集以供 Power BI 问答使用](service-q-and-a-direct-query.md)
 [通过 Power BI 问答将磁贴固定到仪表板](service-dashboard-pin-tile-from-q-and-a.md)
