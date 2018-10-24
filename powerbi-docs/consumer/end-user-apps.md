@@ -7,15 +7,15 @@ ms.reviewer: lukaszp
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 08/02/2018
+ms.date: 10/09/2018
 ms.author: mihart
 LocalizationGroup: Share your work
-ms.openlocfilehash: 0d9f16933bff264b10c0bff3e1b7c440a3d373a2
-ms.sourcegitcommit: 52ac456bf2ac025b22ea634c28482f22e1cc19ac
+ms.openlocfilehash: 0cb5e9ae8256f9df6c849df612f156d7fe9d12a8
+ms.sourcegitcommit: dc8b8a2cf2dcc96ccb46159802ebd9342a7fa840
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/10/2018
-ms.locfileid: "48907844"
+ms.lasthandoff: 10/11/2018
+ms.locfileid: "49112190"
 ---
 # <a name="install-and-use-apps-with-dashboards-and-reports-in-power-bi"></a>在 Power BI 中安装和使用包含仪表板和报表的应用
 在 Power BI 中，应用将相关仪表板和报表汇总到一处。 组织中的人员可以创建并分发包含关键业务信息的应用。 可能已使用的[外部服务](end-user-connect-to-services.md)（如 Google Analytics 和 Microsoft Dynamics CRM）也提供 Power BI 应用。 
@@ -34,13 +34,13 @@ ms.locfileid: "48907844"
 
 **在计算机上** 
 
-单击电子邮件中的链接后，将在浏览器中打开 Power BI 服务 ([https://powerbi.com](https://powerbi.com))。 确认要安装应用后，它会打开应用登陆页面。
+选择电子邮件中的链接以在浏览器中打开 PowerBI 服务([https://powerbi.com](https://powerbi.com))。 确认要安装应用后，它会打开应用登陆页面。
 
 ![Power BI 服务中的应用登录页](./media/end-user-apps/power-bi-app-landing-page-opportunity-480.png)
 
 **在 iOS 或 Android 移动设备上** 
 
-在移动设备上单击电子邮件中的链接后，应用会自动安装，并打开移动应用中的应用内容列表。 
+在移动设备上选择电子邮件中的链接后，应用会自动安装，并打开移动应用中的应用内容列表。 
 
 ![移动设备上的应用内容列表](./media/end-user-apps/power-bi-app-index-it-spend-360.png)
 

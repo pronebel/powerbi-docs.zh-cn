@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 07/24/2018
+ms.date: 10/15/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: f07b5174d031c79f4d8f232c49836b54d95621f1
-ms.sourcegitcommit: 7fb0b68203877ff01f29724f0d1761d023075445
+ms.openlocfilehash: 525a7e45a804d9f82f4d06cf8618d790e140699f
+ms.sourcegitcommit: b8461c1876bfe47bf71c87c7820266993f82c0d3
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/26/2018
-ms.locfileid: "39256023"
+ms.lasthandoff: 10/15/2018
+ms.locfileid: "49336866"
 ---
 # <a name="accessibility-in-power-bi-desktop-reports"></a>Power BI Desktop 报表中的辅助功能
 Power BI 具有使残疾人士能够更轻松地使用 Power BI 报表并与之进行交互的功能。 这些功能包括通过键盘或屏幕阅读器使用报表、通过按 Tab 键将焦点移动到页面中的各个对象以及在可视化效果中方便地使用标记。
@@ -61,6 +61,8 @@ Power BI 具有使残疾人士能够更轻松地使用 Power BI 报表并与之�
 ## <a name="tips-for-creating-accessible-reports"></a>创建可访问报表的提示
 以下提示可帮助你创建更易于访问的 Power BI Desktop 报表。
 
+### <a name="general-tips-for-accessible-reports"></a>有关可访问的报表的一般提示
+
 * 对于“行”、“区域”、“组合图”、“散点图”和“气泡”视觉对象，请启用标记，并对每行使用不同的标记形状。
   
   * 若要启用“标记”，可在“可视化效果”窗格中选择“格式”部分，展开“形状”部分，然后向下滚动查找“标记”切换，并将其切换为“开”。
@@ -80,6 +82,13 @@ Power BI 具有使残疾人士能够更轻松地使用 Power BI 报表并与之�
 * 包括所有视觉对象中的标题、轴标签和数据标签。
 * 为所有报表页使用有意义的标题。
 * 尽可能避免报表中出现装饰形状和图像，因为它们将包含在报表的 Tab 键顺序中。 如果需要在报表中添加修饰对象，请更新对象的替换文字，以便屏幕阅读器用户知道它只用于修饰。
+
+### <a name="arranging-items-in-field-buckets"></a>排列“字段”存储桶中的项
+从 Power BI Desktop 的 2018 年 10 月版本开始，“字段”也可以使用键盘导航和与屏幕阅读器进行交互。 
+
+要改进使用屏幕阅读器创建报表的过程，可使用上下文菜单，在“字段”列表的井中向上或向下移动字段，或将字段移动到其他井中（如“图例”、“值”或其他）。
+
+![借助“字段”井中的“上下文”菜单，可向上、向下或向其他区域移动字段](media/desktop-accessibility/accessibility_09.png)
 
 ## <a name="high-contrast-support-for-reports"></a>报表的高对比度支持
 

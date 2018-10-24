@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 07/27/2018
 ms.author: mihart
 LocalizationGroup: Create reports
-ms.openlocfilehash: 161ea8f20db36c129787e84242ea002980d0f8dd
-ms.sourcegitcommit: 70192daf070ede3382ac13f6001e0c8b5fb8d934
+ms.openlocfilehash: df4afe91de955eabfba6eeea9022cc5f9475cc33
+ms.sourcegitcommit: b8461c1876bfe47bf71c87c7820266993f82c0d3
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/22/2018
-ms.locfileid: "46565857"
+ms.lasthandoff: 10/15/2018
+ms.locfileid: "49336843"
 ---
 # <a name="using-slicers-power-bi-desktop"></a>在 Power BI Desktop 中使用切片器
 
@@ -65,6 +65,12 @@ ms.locfileid: "46565857"
 通过此功能，可创建一组自定义的切片器来保持同步。 系统会提供默认名称，但可使用任何喜欢的名称。 
 
 组名称使切片器更具灵活性。 可创建单独的组来同步使用相同字段的切片器，也将使用不同字段的切片器放入同一组中。 
+
+## <a name="how-filtering-affects-selection-in-slicers"></a>筛选如何影响切片器中的选择
+
+如果在切片器中进行选择，然后应用一个在通常情况下会删除所选项的筛选器，该所选项仍会留在切片器项列表的底部。 如果删除筛选器，则所选内容仍会留在切片器中。 你会注意到，如果从切片器中取消选中所选项，该项将从列表中消失。
+
+![切片器中保留的所选项](./media/desktop-slicers/retained-selection-in-slicers.gif)
 
 
 ## <a name="next-steps"></a>后续步骤

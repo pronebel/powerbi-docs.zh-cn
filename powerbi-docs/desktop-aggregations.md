@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 09/17/2018
+ms.date: 10/17/2018
 ms.author: davidi
 LocalizationGroup: Transform and shape data
-ms.openlocfilehash: 71894a801f0c993abaaedc92d4172da67b76f7a0
-ms.sourcegitcommit: 698b788720282b67d3e22ae5de572b54056f1b6c
+ms.openlocfilehash: 3e94dc516f41d764394828309ba4b612083d4583
+ms.sourcegitcommit: fbb27fb40d753b5999a95b39903070766f7293be
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/17/2018
-ms.locfileid: "45974198"
+ms.lasthandoff: 10/16/2018
+ms.locfileid: "49359714"
 ---
 # <a name="aggregations-in-power-bi-desktop-preview"></a>Power BI Desktop 中的聚合（预览）
 
@@ -191,9 +191,9 @@ AVERAGE 函数可以受益于聚合。 以下查询将命中聚合，因为 AVER
 
 ![“Driver Activity Agg”表的“管理聚合”对话框](media/desktop-aggregations/aggregations_11.jpg)
 
-下表显示“Sales Agg”表的聚合。
+下表显示“Driver Activity Agg”表的聚合。
 
-![“Sales Agg”聚合表](media/desktop-aggregations/aggregations-table_02.jpg)
+![“Driver Activity Agg”聚合表](media/desktop-aggregations/aggregations-table_02.jpg)
 
 ### <a name="group-by-columns"></a>按列分组
 
@@ -229,9 +229,9 @@ AVERAGE 函数可以受益于聚合。 以下查询将命中聚合，因为 AVER
 
 ![管理聚合对话框](media/desktop-aggregations/aggregations_14.jpg)
 
-下表显示“Sales Agg”表的聚合。
+下表显示“Driver Activity Agg2”表的聚合。
 
-![“Sales Agg”聚合表](media/desktop-aggregations/aggregations-table_03.jpg)
+![“Driver Activity Agg2”聚合表](media/desktop-aggregations/aggregations-table_03.jpg)
 
 ## <a name="aggregations-based-on-group-by-columns-combined-with-relationships"></a>基于分组依据列并结合了关系的聚合
 

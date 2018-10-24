@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 07/31/2018
+ms.date: 10/02/2018
 ms.author: davidi
 LocalizationGroup: Transform and shape data
-ms.openlocfilehash: ddfe0c7ad116a74fa6887491ee41e544096de0f9
-ms.sourcegitcommit: 06f59902105c93700e71e913dff8453e221e4f82
+ms.openlocfilehash: 49540dd491d02c6a6b474ff80690a75eecfd27db
+ms.sourcegitcommit: b8461c1876bfe47bf71c87c7820266993f82c0d3
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/01/2018
-ms.locfileid: "39388838"
+ms.lasthandoff: 10/15/2018
+ms.locfileid: "49336981"
 ---
 # <a name="composite-models-in-power-bi-desktop-preview"></a>Power BI Desktop 中的复合模型（预览）
 
@@ -58,7 +58,7 @@ Power BI Desktop 中的复合模型功能包括三个相关功能：
 例如，借助复合模型，便可以生成一个模型，将企业数据仓库中的销售数据与部门的 SQL Server 数据库中的销售目标数据及一些从电子表格中导入的数据合并。 将来自多个 DirectQuery 源的数据合并，或将 DirectQuery 与导入的数据相结合的模型称为“复合模型”。
 
 > [!NOTE]
-> 虽然复合模型处于预览阶段，但不可能将复合模型发布到 Power BI 服务中。 
+> 从 Power BI Desktop 的 2018 年 10 月版开始，用户可将复合模型发布到 Power BI 服务中。 对于计划的刷新和仪表板磁贴刷新，Power BI 服务中的复合模型的行为方式与导入模型的行为方式完全相同。 
 
 你可以像往常一样创建表之间的关系，即使这些表来自不同的源，且包含以下限制：跨源的任何关系必须定义为具有一个基数的多对多，不管其实际基数是多少。 此类关系的行为便与多对多关系的行为一样正常，如[Power BI Desktop 中的多对多关系（预览）](desktop-many-to-many-relationships.md)中所述。 请注意，在复合模型的上下文中，不管导入的表实际是从哪个实际基础数据源导入，所有导入的表实际上都是一个单一源。   
 
@@ -164,12 +164,13 @@ Power BI Desktop 中的复合模型功能包括三个相关功能：
 
 此版本的复合模型有一些限制。
 
-以下多维源不能用于复合模型：
+以下 Live Connect（多维）源不能用于复合模型：
 
 * SAP HANA
 * SAP Business Warehouse
 * SQL Server Analysis Services
 * Power BI 数据集
+* Azure Analysis Services
 
 当使用 DirectQuery 连接到这些多维数据源时，不能同时连接到另一个 DirectQuery 源，也不能与导入的数据相结合。
 

@@ -1,5 +1,5 @@
 ---
-title: 通过 Power BI Desktop 中的示例从网页提取数据（预览）
+title: 通过 Power BI Desktop 中的示例从网页提取数据
 description: 通过提供想要请求的示例从网页提取数据
 author: davidiseminger
 manager: kfile
@@ -7,17 +7,17 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 05/07/2018
+ms.date: 10/15/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 55c1a70e054b6bb6ff06c7fe6f83b58d8b1f26f3
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: f90f2ea4737fc5c98df4d171f8e1e65c2704607d
+ms.sourcegitcommit: b8461c1876bfe47bf71c87c7820266993f82c0d3
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34290973"
+ms.lasthandoff: 10/15/2018
+ms.locfileid: "49336797"
 ---
-# <a name="get-data-from-a-web-page-by-providing-an-example-preview"></a>通过提供示例从网页获取数据（预览）
+# <a name="get-data-from-a-web-page-by-providing-an-example"></a>通过提供示例从网页获取数据
 
 从网页获取数据使用户可以轻松地从网页中提取数据并将该数据导入 Power BI Desktop。 但是，网页上的数据通常不在整齐的、易于提取的表中，因此，从此类页面获取数据具有挑战性（即使它已结构化且具有一致性）。 
 
@@ -26,13 +26,6 @@ ms.locfileid: "34290973"
 ![通过示例从 Web 获取数据](media/desktop-connect-to-web-by-example/web-by-example_01.png)
 
 
-## <a name="enabling-the-preview-feature-get-data-from-web-by-example"></a>启用预览功能“通过示例从 Web 获取数据”
-
-“通过示例从 Web 获取数据”为预览功能，必须在 Power BI Desktop 中启用。 若要启用该功能，请选择“文件”>“选项和设置”>“选项”>“预览功能”，然后选中“新的‘通过 Web’体验”复选框。 完成选择后需要重启 Power BI Desktop。
-
-![启用预览功能](media/desktop-connect-to-web-by-example/web-by-example_02.png)
-
-一旦启用预览功能，你便准备好开始使用它。 
 
 ## <a name="using-get-data-from-web-by-example"></a>使用通过示例从 Web 获取数据
 

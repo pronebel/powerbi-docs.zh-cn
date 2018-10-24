@@ -7,21 +7,21 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 09/10/2018
+ms.date: 10/15/2018
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: e7eadadede8f342b25ea59dcd2053f53d654ffff
-ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
+ms.openlocfilehash: cda575c11be90c8e18a3a9f3b8325ccf674afffc
+ms.sourcegitcommit: b8461c1876bfe47bf71c87c7820266993f82c0d3
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/12/2018
-ms.locfileid: "44728309"
+ms.lasthandoff: 10/15/2018
+ms.locfileid: "49337073"
 ---
 # <a name="previous-monthly-updates-to-power-bi-desktop"></a>此前的 Power BI Desktop 月度更新
 
 本文章介绍了 **Power BI Desktop** 之前的更新。 有关最新月份版本，请参阅 [**Power BI Desktop** 最新更新](desktop-latest-update.md)。
 
-你始终可以[下载最新版本的 Power BI Desktop](https://powerbi.microsoft.com/desktop)。 如果运行的是 Windows 10，还可以从 Windows 应用商店获取 Power BI Desktop。 无论采用哪种方式安装 Power BI Desktop，每月版本都相同。 请参阅[本文](desktop-get-the-desktop.md)，了解详细信息。 
+你始终可以[下载最新版本的 Power BI Desktop](https://powerbi.microsoft.com/desktop)。 如果运行的是 Windows 10，还可以从 Windows 应用商店获取 Power BI Desktop。 无论以何种方式安装 Power BI Desktop，月度版本是相同的，虽然二者的版本编号可能不同。 请参阅[本文](desktop-get-the-desktop.md)，了解详细信息。 
 
 每个更新旁边的链接表示以下含义：
 
@@ -33,6 +33,53 @@ ms.locfileid: "44728309"
 也可以通过单击更新列表下的视频图像上的“**播放**”按钮，从头观看本文中的**最新更新**视频。
 
 以下各节描述了 **Power BI Desktop** 之前月份的更新。
+
+
+## <a name="september-2018-update-2625222582"></a>2018 年 9 月更新 (2.62.5222.582)
+
+我们的 9 月更新会让你感觉打开了一个新世界。 希望你能觉得这些更新就像刚削好 的 2 号铅笔一样有用。 
+
+以下是本月推出的 Power BI Desktop 新增功能的更新：
+
+### <a name="reporting"></a>报表
+
+* 散点图中的点图布局支持 [[视频]](https://youtu.be/Rzw2WyI09kY?t=30s) [[文章]](power-bi-visualization-scatter.md) [[博客]](https://powerbi.microsoft.com/blog/power-bi-desktop-september-2018-feature-summary/#dotPlot) 
+* 复制表和矩阵视觉对象中的值和所选内容 [[视频]](https://youtu.be/Rzw2WyI09kY?t=2m33s) [[博客]](https://powerbi.microsoft.com/blog/power-bi-desktop-september-2018-feature-summary/#copy) 
+* 内置报表主题选项 [[视频]](https://youtu.be/Rzw2WyI09kY?t=6m2s) [[文章]](desktop-report-themes.md) [[博客]](https://powerbi.microsoft.com/blog/power-bi-desktop-september-2018-feature-summary/#themes) 
+* 报表页工具提示已正式发布，并新增卡片支持 [[视频]](https://youtu.be/Rzw2WyI09kY?t=8m10s) [[文章]](desktop-tooltips.md) [[博客]](https://powerbi.microsoft.com/blog/power-bi-desktop-september-2018-feature-summary/#themes) 
+* 针对分析和格式设置窗格支持的辅助功能改进 [[视频]](https://youtu.be/Rzw2WyI09kY?t=9m29s) [[博客]](https://powerbi.microsoft.com/blog/power-bi-desktop-september-2018-feature-summary/#accessibility)
+
+### <a name="analytics"></a>分析
+
+* 聚合（预览版）[[视频]](https://youtu.be/Rzw2WyI09kY?t=11m37s) [[文章]](desktop-aggregations.md) [[博客]](https://powerbi.microsoft.com/blog/power-bi-desktop-september-2018-feature-summary/#aggregations) 
+
+### <a name="custom-visuals"></a>自定义视觉对象
+
+* 五个新自定义视觉对象  [[视频]](https://youtu.be/Rzw2WyI09kY?t=23m8s)  [[博客]](https://powerbi.microsoft.com/blog/power-bi-desktop-september-2018-feature-summary/#customVisuals) 
+
+### <a name="data-connectivity"></a>数据连接
+
+* PDF 文件连接器（预览版）[[视频]](https://youtu.be/Rzw2WyI09kY?t=29m26s) [[文章]](desktop-connect-pdf.md) [[博客]](https://powerbi.microsoft.com/blog/power-bi-desktop-september-2018-feature-summary/#pdf) 
+* SAP BW 连接器（度量值属性支持）[[视频]](https://youtu.be/Rzw2WyI09kY?t=30m15s) [[博客]](https://powerbi.microsoft.com/blog/power-bi-desktop-september-2018-feature-summary/#sapBW) 
+* 数据流连接器 (beta) [[文章]](desktop-connect-dataflows.md) [[博客]](https://powerbi.microsoft.com/blog/power-bi-desktop-september-2018-feature-summary/#dataflows) 
+
+### <a name="data-preparation"></a>数据准备
+* M Intellisense [[视频]](https://youtu.be/Rzw2WyI09kY?t=30m42s) [[博客]](https://powerbi.microsoft.com/blog/power-bi-desktop-september-2018-feature-summary/#pdf) 
+* 从示例中添加列（文本填充支持）[[视频]](https://youtu.be/Rzw2WyI09kY?t=32m27s) [[博客]](https://powerbi.microsoft.com/blog/power-bi-desktop-september-2018-feature-summary/#addColumn) 
+
+
+> [!NOTE]
+> 还可以[查看 Power BI Desktop 可用的所有数据源](desktop-data-sources.md)；我们的列表始终在不断增加内容，请时常返回查看。
+
+想了解有关这些更新的详细信息？ 请查看[博客文章](https://powerbi.microsoft.com/blog/power-bi-desktop-september-2018-feature-summary)，你可以在其中获取有关上述每项新增功能的更为详细的信息（此博客文章即为上文列表引用的博客文章）。
+
+
+以下视频介绍和展示了上述的每项更新。 你还可以从博客文章查看该视频。
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Rzw2WyI09kY" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+
+> [!NOTE]
+> 你可能还有兴趣了解 [Power BI 服务中的新增功能](service-whats-new.md)，请同时查看 [Power BI 移动应用中的新增功能](consumer/mobile/mobile-whats-new-in-the-mobile-apps.md)。
 
 ## <a name="august-2018-update-2615192321"></a>2018 年 8 月更新 (2.61.5192.321)
 

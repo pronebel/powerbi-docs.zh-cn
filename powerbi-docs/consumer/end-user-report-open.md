@@ -1,84 +1,99 @@
 ---
-title: 在 Power BI 服务中，以“阅读视图”或“编辑视图”打开报表。
-description: 在阅读视图或编辑视图中打开 Power BI 报表
+title: 在 Power BI 服务中查看报表
+description: 在阅读视图中打开 Power BI 报表。
 author: mihart
 manager: kvivek
 ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 05/18/2018
+ms.date: 10/10/2018
 ms.author: mihart
-ms.openlocfilehash: fe1916b2b287dffd59bf4535cc07e13d10d01321
-ms.sourcegitcommit: 70192daf070ede3382ac13f6001e0c8b5fb8d934
+ms.openlocfilehash: 4d37c1389628078466d8fedb290d928c3f02e7d5
+ms.sourcegitcommit: dc8b8a2cf2dcc96ccb46159802ebd9342a7fa840
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/22/2018
-ms.locfileid: "46565788"
+ms.lasthandoff: 10/11/2018
+ms.locfileid: "49112006"
 ---
-# <a name="open-a-report-in-power-bi-service-apppowerbicom"></a>在 Power BI 服务 (app.powerbi.com) 中打开报表
-在 Power BI 服务、Power BI Desktop、移动 Power BI 甚至嵌入的 Power BI 中均提供了报表。 本文适用于在 Power BI 服务中打开报表。
+# <a name="view-a-report-in-power-bi-service-apppowerbicom"></a>在 Power BI 服务 (app.powerbi.com) 中查看报表
+报表由一页或多页的视觉对象组成。 报表由 Power BI 报表设计器创建，并且[直接与你共享](end-user-shared-with-me.md)或作为[应用](end-user-apps.md)的一部分共享。 
 
-在 Power BI 服务中，有两种模式可用于查看报表和与其交互：[阅读视图和编辑视图](end-user-reading-view.md)。 “阅读视图”可供所有用户使用且专为报表使用者设计，而“编辑视图”仅供报表创建者和所有者使用。 
+打开报表有许多不同的方式，我们将介绍其中两种：从“主页”页面打开以及从“仪表板”打开。 
 
-## <a name="open-a-report-from-a-workspace-via-the-reports-content-view-list"></a>从工作区中打开报表（通过“报表”内容视图列表）
+<!-- add art-->
 
-1. 在工作区中，选择“报表”选项卡以显示该工作区中的所有报表。  
+
+## <a name="open-a-report-from-your-home-page"></a>从“主页”页面打开报表
+让我们打开一个已直接与你共享的报表，然后打开一个已作为应用一部分共享的报表。
+
+   ![“主页”页面](./media/end-user-report-open/power-bi-home.png)
+
+### <a name="open-a-report-that-has-been-shared-with-you"></a>打开已与你共享的报表
+Power BI 设计器可以直接与你共享报表，方法是单击顶部菜单栏上的“共享”按钮。 通过此方式共享的内容显示在左侧导航栏上的“与我共享”容器中以及“主页”页面上的“与我共享”部分中。
+
+1. 打开 Power BI 服务 (app.powerbi.com)。
+
+2. 从左侧的导航栏中，选择“主页(预览)”以打开“主页”页面。  
+
+   ![“主页”页面](./media/end-user-report-open/power-bi-select-home.png)
    
-   ![工作区的“报表”选项卡](./media/end-user-report-open/power-bi-open-report.png)
-2. 在“阅读视图”中选择要打开的报表名称。  
+3. 向下滚动，直至看到“与我共享”为止。 查找报表图标 ![报表图标](./media/end-user-report-open/power-bi-report-icon.png)。 在此屏幕截图中，我们有两个报表：Financial 和 Northwind。 
    
-    ![“阅读”视图中的报表](./media/end-user-report-open/power-bi-reading-view.png)
-3. 你可以[在阅读视图中执行许多操作](end-user-reading-view.md)。  此示例报表有多个页面，先从选择报表画布底部的各个选项卡开始浏览。 
+   ![主页上的“与我共享”部分](./media/end-user-report-open/power-bi-shared.png)
+
+4. 只需选择其中一个报表卡即可打开此报表。
+
+   ![报表页](./media/end-user-report-open/power-bi-report1.png)
+
+5. 请注意底部的选项卡。 每个选项卡表示一个报表页。 我们目前打开了“IT 支出趋势”页。 选择其他选项卡以打开该报表页。 
+
+   ![报表页选项卡](./media/end-user-report-open/power-bi-tabs.png)
+
+6. 现在，我们只能看到报表页的一部分。 若要更改页面的显示（缩放），请选择“视图” > “调整到页面大小”。
+
+   ![更改缩放](./media/end-user-report-open/power-bi-fit.png)
+
+   ![调整到页面大小](./media/end-user-report-open/power-bi-report2.png)
+
+### <a name="open-a-report-that-is-part-of-an-app"></a>打开属于应用一部分的报告
+如果你收到了来自同事或 AppSource 的应用，则可以从左侧导航栏上的“主页”页面和“应用”容器中获取这些应用。 [应用](end-user-apps.md)是一捆仪表板和报表。
+
+1. 从左侧导航栏选择“主页(预览)”以回到“主页”页面。
+
+7. 向下滚动，直至看到“我的应用”为止。
+
+   ![“主页”页面](./media/end-user-report-open/power-bi-my-apps.png)
+
+8. 选择其中一个应用以将其打开。 根据应用设计器设置的选项，应用将打开一个仪表板或一个报表。 如果选择应用后：
+    - 打开的是报表，这就行了。
+    - 打开的是仪表板，请参阅下面的[从仪表板中打开报表](#Open-a-report-from-a-dashboard)。
+
+
 
 ## <a name="open-a-report-from-a-dashboard"></a>从仪表板中打开报表
-还有很多其他方法可以打开报表；例如，可以在仪表板选择从报表创建的磁贴。  选择在阅读视图中打开该报表的磁贴。 要继续学习，请打开[销售和市场营销示例仪表板](../sample-datasets.md)。
+可以从仪表板中打开报表。 大多数仪表板磁贴都是从报表固定的。 选择磁贴将打开用于创建此磁贴的报表。 
 
-1. 打开仪表板并选择一个磁贴。
-
-   如果你选择了[使用问答创建](../service-dashboard-pin-tile-from-q-and-a.md)的磁贴，则问答屏幕将打开。 如果你选择了[使用仪表板“添加磁贴”小组件创建](../service-dashboard-add-widget.md)的磁贴，则将打开该向导来编辑该小组件。  
-
-2.  在此示例中，我们已选择“本年累计单位总计...”柱形图磁贴。
+1. 从仪表板中，选择一个磁贴。 在此示例中，我们已选择“本年累计单位总计...”柱形图磁贴。
 
     ![包含所选磁贴的仪表板](./media/end-user-report-open/power-bi-dashboard.png)
 
-3.  关联的报表将在“阅读视图”中打开。 请注意，我们当前的位置为“本年累计类别”页。 这是包含我们从仪表板中选择的柱形图的报表页。
+2.  关联的报表将打开。 请注意，我们当前的位置为“本年累计类别”页。 这是包含我们从仪表板中选择的柱形图的报表页。
 
-    ![“阅读”视图中打开的报表](./media/end-user-report-open/power-bi-report.png)
+    ![“阅读”视图中打开的报表](./media/end-user-report-open/power-bi-report-new.png)
 
-4. 保持“阅读视图”或选择**编辑报表**，以便在“编辑视图”中打开报表。 请记住，仅具有该报表编辑权限的人员才可在“编辑视图”中打开。
+> [!NOTE]
+> 并非所有磁贴都会打开报表。 如果你选择了[使用问答创建](../service-dashboard-pin-tile-from-q-and-a.md)的磁贴，则问答屏幕将打开。 如果选择[使用仪表板“添加磁贴”小组件创建的](../service-dashboard-add-widget.md)磁贴，则将打开“编辑磁贴”向导。  
 
-    ![显示编辑报表图标的报表编辑器](./media/end-user-report-open/power-bi-edit-report.png)
-
-## <a name="create-a-brand-new-report-from-a-dataset"></a>从数据集中创建全新报表
-另一种打开报表的方法就是从数据集中打开。 当从数据集开始时，报表画布将为空白，所以建议有兴趣基于其所拥有的数据集创建新报表的报表创建者使用此方法。 与上述示例类似，要继续学习，请下载[销售和市场营销示例应用](../sample-datasets.md)。
-
-1. 从包含要用作报表基础的数据集的工作区中开始。
-
-   ![显示应用工作区的左侧导航窗格](./media/end-user-report-open/power-bi-workspace.png)
-
-2. 选择“数据集”选项卡，以显示在该工作区中的所有数据集的列表。 这是称为“数据集”的内容视图列表。
-   
-   ![数据集列表](./media/end-user-report-open/power-bi-dataset.png)
-
-1. 找到数据集，并选择“创建报表”图标，以在“编辑视图”中打开数据集。 如果没有编辑数据集的权限，则无法将其打开。 
-   
-    ![包含创建报表图标的数据集](./media/end-user-report-open/power-bi-create-report.png)
-
-3. 数据集在报表编辑器中打开。 你将看到显示在右侧的数据字段，然后即可开始浏览并创建可视化效果了。 
-
-   ![报表画布](./media/end-user-report-open/power-bi-blank-canvas.png)
 
 ##  <a name="still-more-ways-to-open-a-report"></a>其他打开报表的更多方法
 随着你能够更为熟练地导航 Power BI 服务，即可找到最适合自己的工作流。 下面是访问报表的其他几种方法：
-- 从左侧导航窗格中使用“收藏夹”、“最近”、“应用”以及“与我共享”。 
-- 使用[相关视图](end-user-related.md)
-- 在有人[与你共享](../service-share-reports.md)或你已[设置警报](../service-set-data-alerts.md)的电子邮件中。    
-- 从你的[通知中心](end-user-notification-center.md)    
+- 从左侧导航窗格中使用“收藏夹”和“最近”    
+- 使用[相关视图](end-user-related.md)    
+- 在电子邮件中，有人[与你共享](../service-share-reports.md)或你已[设置警报](../service-set-data-alerts.md)时    
+- 通过 [通知中心]    (end-user-notification-center.md)    
 - 其他更多方法
 
 ## <a name="next-steps"></a>后续步骤
-了解有关 [Power BI 中的报表](end-user-reports.md)的详细信息
-
-更多问题？ [尝试参与 Power BI 社区](http://community.powerbi.com/)  
+有[多种方式与报表进行交互](end-user-reading-view.md)。  先从选择报表画布底部的各个选项卡开始浏览。
 
