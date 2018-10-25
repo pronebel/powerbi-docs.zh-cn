@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 05/27/2018
+ms.date: 09/24/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: ddf08edf7494cd8b918a93d41b384b4e89376d95
-ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
+ms.openlocfilehash: d6793c41cea8da251fd700800e1f11ca88bb0be4
+ms.sourcegitcommit: ce8332a71d4d205a1f005b703da4a390d79c98b6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/21/2018
-ms.locfileid: "46543330"
+ms.lasthandoff: 09/27/2018
+ms.locfileid: "47416949"
 ---
 # <a name="basic-area-chart"></a>基本分区图
 基本面积图（又称为分层分区图）基于折线图。 轴和行之间的区域使用颜色进行填充以指示量。 
@@ -55,21 +55,29 @@ ms.locfileid: "46543330"
    c.  选择“时间”\>“月份”以将其添加到“轴”框。   
    ![](media/power-bi-visualization-basic-area-chart/powerbi-area-chartnew.png)
    
-   d.  若要按月显示图表，请选择“省略号”（视觉对象的右上角）并选择“按月排序”。
+   d.  若要按月显示图表，请选择“省略号”（视觉对象的右上角）并选择“按月排序”。 要更改排序顺序，请再次选择省略号并选择“升序排序”或“降序排序”。
 
 ## <a name="highlighting-and-cross-filtering"></a>突出显示和交叉筛选
-若要了解如何使用“筛选器”窗格，请参阅[向报表添加筛选器](../power-bi-report-add-filter.md)。
+有关使用筛选器窗格的信息，请参阅[向报表添加筛选器](../power-bi-report-add-filter.md)。
 
-若要突出显示图表中的特定分区，请选择相应分区或其上边框。  与其他可视化效果类型不同，如果同一页面上还有其他可视化效果，突出显示基本分区图不会交叉筛选报表页上的其他可视化效果。 但是，面积图是报表页上其他可视化效果触发的交叉筛选的目标。 若要了解详细信息，请参阅[报表中的视觉对象交互](../consumer/end-user-interactions.md)
+若要突出显示图表中的特定分区，请选择相应分区或其上边框。  与其他可视化效果类型不同，如果同一页面上还有其他可视化效果，突出显示基本分区图不会交叉筛选报表页上的其他可视化效果。 但是，面积图是报表页上其他可视化效果触发的交叉筛选的目标。 
+
+1. 通过选择分区图并将其复制到另一个报表页（CTRL-C 和 CTRL-V）来尝试。
+2. 选择其中一个阴影区域，然后选择另一个阴影区域。 你将注意到对页面上其他可视化效果的影响。
+
+    ![在分区图中选择的今年销售额](media/power-bi-visualization-basic-area-chart/power-bi-select-area.png)
+
+3. 现在，在页面上的其他可视化效果之一中选择一个元素，如柱形图中的栏或折线图上的月份。 请注意对分区图的影响：它会被筛选掉。  
+
+    ![所选的 ft Oglethorpe 栏](media/power-bi-visualization-basic-area-chart/power-bi-filter.png) 
+
+若要了解详细信息，请参阅[报表中的视觉对象交互](../service-reports-visual-interactions.md)
 
 
 ## <a name="considerations-and-troubleshooting"></a>注意事项和疑难解答   
 * [残障人士能够更轻松地访问报表](../desktop-accessibility.md)
 * 基本面积图对于比较值无效，因为分层区域上是封闭的。 Power BI 使用透明度指示区域的重叠。 但是，它只适用于两个或三个不同区域。 需要将趋势与三个以上的度量值进行比较时，请尝试使用折线图。 需要将量与三个以上的度量值进行比较时，请尝试使用树状图。
 
-## <a name="next-steps"></a>后续步骤
-[Power BI 中的报表](../consumer/end-user-reports.md)  
-[Power BI 报表中的可视化效果](power-bi-report-visualizations.md)  
-[Power BI - 基本概念](../consumer/end-user-basic-concepts.md)  
-更多问题？ [尝试参与 Power BI 社区](http://community.powerbi.com/)
+## <a name="next-step"></a>下一步
+[Power BI 中的报表](power-bi-visualization-card.md)  
 

@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 08/02/2018
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 453b0f5852fefb1008b8013a0c42af4cc1d42f32
-ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
+ms.openlocfilehash: 3f8a5075290620d9d1ed1829008002ff71d25c82
+ms.sourcegitcommit: 52ac456bf2ac025b22ea634c28482f22e1cc19ac
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/21/2018
-ms.locfileid: "46547628"
+ms.lasthandoff: 10/10/2018
+ms.locfileid: "48908150"
 ---
 # <a name="intro-to-organizational-content-packs-in-power-bi"></a>Power BI 中的组织内容包简介
 > [!NOTE]
@@ -33,7 +33,7 @@ ms.locfileid: "46547628"
 虽然仪表板、报表和 Excel 工作簿是只读的，但可以复制仪表板和报表，然后从它们入手开始创建你自己的个性化内容包。
 
 > [!NOTE]
-> 仅当你和同事已安装 [Power BI Pro](service-free-vs-pro.md) 后，才能使用组织内容包。
+> 仅当你和你的同事拥有 [Power BI Pro 许可证](service-features-license-type.md)时，才可使用组织内容包。
 > 
 > 
 
@@ -52,7 +52,7 @@ ms.locfileid: "46547628"
 1. 在 Power BI Pro 中，Nate 创建了内容包，并将它发布到“市场营销”通讯组。 数据集将继承刷新设置，只能由 Nate 修改这些设置。
    
    > [!NOTE]
-   > 如果 Nate 是在自己所属的 [Power BI 应用工作区](consumer/end-user-create-apps.md)内创建内容包，那么即使他离开此工作区，Power BI 工作区中的其他人也仍可接管所有权。
+   > 如果 Nate 是在自己所属的 [Power BI 应用工作区](service-create-distribute-apps.md)内创建内容包，那么即使他离开此工作区，Power BI 工作区中的其他人也仍可接管所有权。
    > 
    > 
 2. Nate 向通讯组发送邮件，告知通讯组成员有关新内容包的信息。
@@ -76,7 +76,7 @@ ms.locfileid: "46547628"
 
 ## <a name="next-steps"></a>后续步骤
 * [创建和发布组织内容包](service-organizational-content-pack-create-and-publish.md)
-* [在 Power BI 中构建和分发应用](consumer/end-user-create-apps.md) 
+* [在 Power BI 中构建和分发应用](service-create-distribute-apps.md) 
 * [Power BI - 基本概念](consumer/end-user-basic-concepts.md)
 * 更多问题？ [尝试参与 Power BI 社区](http://community.powerbi.com/)
 

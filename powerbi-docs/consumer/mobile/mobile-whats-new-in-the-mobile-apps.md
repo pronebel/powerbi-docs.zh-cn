@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-mobile
 ms.topic: conceptual
-ms.date: 07/19/2018
+ms.date: 09/14/2018
 ms.author: maggies
-ms.openlocfilehash: 922352c0cdbacd57d3e6706d490b3cc7e65ab8f6
-ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
+ms.openlocfilehash: 798b1daa13079e69788bc977f37748531e38f431
+ms.sourcegitcommit: 52ac456bf2ac025b22ea634c28482f22e1cc19ac
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/12/2018
-ms.locfileid: "44730394"
+ms.lasthandoff: 10/10/2018
+ms.locfileid: "48909236"
 ---
 # <a name="whats-new-in-the-mobile-apps-for-power-bi"></a>Power BI 移动应用中的新功能
 有关相关的“新增功能”的信息，请参阅：
@@ -22,6 +22,25 @@ ms.locfileid: "44730394"
 * [适用于移动应用的 Power BI 工作组日志](https://powerbi.microsoft.com/blog/tag/mobile/)
 * [Power BI Desktop 中的新增功能](../../desktop-latest-update.md)  
 * [Power BI 服务中的最近更新](../../service-whats-new.md)  
+
+## <a name="september-2018"></a>2018 年 9 月
+
+### <a name="phone-report-editing-in-the-browser-all-devices"></a>在浏览器中编辑手机报表（所有设备）
+
+现在可以为已在 Power BI 服务而不是 Power BI Desktop 中发布的报表创建手机报表布局。 可在浏览器中在编辑模式下进行创建。
+
+### <a name="dashboard-commenting-ios-and-android"></a>仪表板注释（iOS 和 Android） 
+
+可以直接向仪表板和特定磁贴添加备注来讨论你的数据，查看仪表板的任何人都将看到你的备注。 此外，还可通过 @mentioning 他们，将组织中的其他人拉到对话中。 已 @mentioned 过的人会收到一则推送通知，其中包含发送其移动电话的消息。
+
+当前可用于 iOS 和 Android 设备。 Windows 支持即将推出。
+
+阅读 Power BI [有关仪表板注释的博客文章](https://powerbi.microsoft.com/blog/announcing-dashboard-comments-in-power-bi/)。
+
+### <a name="single-sign-on-windows"></a>单一登录 (Windows)
+
+单一登录 (SSO) 是适用于 Windows 的 Power BI 移动版的最需要的功能之一。 现在，你使用主组织帐户既可以登录到已加入域的 Windows 移动设备，也可以无缝登录到 Power BI 服务。 详细了解 [SSO 和 Windows 移动应用](mobile-windows-10-app-single-sign-on-sso.md)。
+
 
 ## <a name="july-2018"></a>2018 年 7 月
 
@@ -177,7 +196,7 @@ Power BI for Mixed Reality 应用现已在 Microsoft Store 上架。 可以沉�
 
 ### <a name="june-2107"></a>2017 年 6 月
 #### <a name="all-devices"></a>所有设备
-**收藏应用**：已可以收藏仪表板。 最近，[Power BI 中添加了应用](../../service-install-use-apps.md)，现在也可以收藏应用了。 
+**收藏应用**：已可以收藏仪表板。 最近，[Power BI 中添加了应用](../../service-create-distribute-apps.md)，现在也可以收藏应用了。 
 
 ### <a name="may-2017"></a>2017 年 5 月
 #### <a name="all-devices"></a>所有设备
@@ -498,7 +517,7 @@ SQL Server 2016 移动报表和 KPI - [查看 SQL Server 2016 移动报表和 KP
 
 R 磁贴和 Web 小组件 - 在移动设备上的仪表板中查看新磁贴类型。
 
-必应仪表板 - 在 Power BI 服务中，你现在可以[使用必应搜索结果创建仪表板](../../service-connect-to-services.md)，并在移动设备上查看它们。
+必应仪表板 - 在 Power BI 服务中，你现在可以[使用必应搜索结果创建仪表板](../end-user-connect-to-services.md)，并在移动设备上查看它们。
 
 将报表页作为磁贴固定到仪表板 - 现在可以在 Power BI 服务中将整个报表页固定到仪表板，所以可以在 iPhone 或 Android 手机上的 Power BI 应用中查看报表页。
 

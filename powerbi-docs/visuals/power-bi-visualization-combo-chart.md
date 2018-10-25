@@ -8,15 +8,15 @@ featuredvideoid: lnv66cTZ5ho
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 05/27/2018
+ms.date: 09/27/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 68b14e6554c0c12590f555f6447198f1a850e9b1
-ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
+ms.openlocfilehash: 1855b65277fe778a20bd9e4629f8db1e7b9000a3
+ms.sourcegitcommit: 769ef3c8cbafd9ad5979eb4023a394ac7dba8d02
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/21/2018
-ms.locfileid: "46543994"
+ms.lasthandoff: 09/28/2018
+ms.locfileid: "47448951"
 ---
 # <a name="combo-chart-in-power-bi"></a>Power BI 中的组合图
 在 Power BI 中，组合图是将折线图和柱形图合并在一起的单个可视化效果。 通过将两个图表合并为一个图表可以进行更快的数据比较。
@@ -55,9 +55,9 @@ Power BI 服务和 Power BI Desktop 均支持组合图。 本教程使用 Power 
     c.  选择**时间** \> **会计月份**以将它添加到**轴**框。
 
     ![](media/power-bi-visualization-combo-chart/combotutorial1new.png)
-5. 在可视化效果的右上角选择省略号 (...)，然后选择“**按会计月份排序**”。 若要执行升序或降序排序，可能需要选择它两次。
+5. 在可视化效果的右上角选择省略号 (...)，然后选择“按会计月份排序”。 要更改排序顺序，请再次选择省略号并选择“升序排序”或“降序排序”。
 
-6. 将柱形图转换为组合图。 在选择了柱形图的情况下，从“可视化效果”窗格中选择“折线和簇状柱形图”。
+6. 将柱形图转换为组合图。 有两个组合图表：“折线和堆积柱形图”和“折线和簇状柱形图”。 在选择了柱形图的情况下，从“可视化效果”窗格中选择“折线和簇状柱形图”。
 
     ![](media/power-bi-visualization-combo-chart/converttocombo_new2.png)
 7. 从**字段**窗格，将**销售额** \> **去年销售额**拖动到**行值**存储段。
@@ -71,7 +71,8 @@ Power BI 服务和 Power BI Desktop 均支持组合图。 本教程使用 Power 
 ## <a name="create-a-combo-chart-with-two-axes"></a>创建具有两个轴的组合图
 在此任务中，我们会比较毛利和销售额。
 
-1. 新建按“月份”跟踪“去年毛利率”的折线图。  一月的 GM% 是 35%，在四月达到峰值 45%，在七月下降，在八月再次达到峰值。 去年和本年度的销售额是否会呈现类似模式？
+1. 新建按“月份”跟踪“去年毛利率”的折线图。 选择省略号以按“月”和“升序”对其进行排序。  
+一月的 GM% 是 35%，在四月达到峰值 45%，在七月下降，在八月再次达到峰值。 去年和本年度的销售额是否会呈现类似模式？
 
    ![](media/power-bi-visualization-combo-chart/combo1_new.png)
 2. 将**本年度销售额 > 值**和**去年销售额**添加到折线图。 “去年毛利率”的比例尺比“销售额”的比例尺小得多，因此比较起来非常困难。      
@@ -80,7 +81,7 @@ Power BI 服务和 Power BI Desktop 均支持组合图。 本教程使用 Power 
 3. 若要使视觉对象更易于查看和解释，请将折线图转换为折线和堆积柱形图。
 
    ![](media/power-bi-visualization-combo-chart/converttocombo_new.png)
-4. 将**去年毛利率**从**列值**拖动到**行值**中。 Power BI 会创建两个坐标轴，这样就可以对数据集使用不同的比例尺；左侧度量值销售额是美元，右侧度量值是百分比。
+4. 将**去年毛利率**从**列值**拖动到**行值**中。 Power BI 会创建两个坐标轴，这样就可以对数据集使用不同的比例尺；左侧度量值销售额是美元，右侧度量值是百分比。 我们找到了问题的答案；是的，我们确实找到了类似的模式。
 
    ![](media/power-bi-visualization-combo-chart/power-bi-combochart.png)    
 
@@ -103,20 +104,16 @@ Power BI 服务和 Power BI Desktop 均支持组合图。 本教程使用 Power 
 
 从这里你可能想要：
 
-* [将组合图添加为仪表板磁贴](../consumer/end-user-tiles.md)。
+* [将组合图添加为仪表板磁贴](../service-dashboard-tiles.md)。
 * [保存报表](../service-report-save.md)。
-* [残障人士能够更轻松地访问报表](../desktop-accessibility.md)
+* [残障人士能够更轻松地访问报表](../desktop-accessibility.md)。
 
 ## <a name="cross-highlighting-and-cross-filtering"></a>交叉突出显示和交叉筛选
 
-突出显示组合图中的列或行可交叉突出显示和交叉筛选报表页上的其他可视化效果，反之亦然。 使用[视觉对象交互](../consumer/end-user-interactions.md)可以更改此默认行为。
+突出显示组合图中的列或行可交叉突出显示和交叉筛选报表页上的其他可视化效果，反之亦然。 使用[视觉对象交互](../service-reports-visual-interactions.md)可以更改此默认行为。
 
 ## <a name="next-steps"></a>后续步骤
 
-[Power BI 报表中的可视化效果概述](power-bi-report-visualizations.md)
+[Power BI 中的圆环图](power-bi-visualization-doughnut-charts.md)
 
 [Power BI 中的可视化效果类型](power-bi-visualization-types-for-reports-and-q-and-a.md)
-
-[Power BI - 基本概念](../consumer/end-user-basic-concepts.md)
-
-更多问题？ [尝试参与 Power BI 社区](http://community.powerbi.com/)

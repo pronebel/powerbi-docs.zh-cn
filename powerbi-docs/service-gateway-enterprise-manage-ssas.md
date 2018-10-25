@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 01/24/2018
 ms.author: mblythe
 LocalizationGroup: Gateways
-ms.openlocfilehash: a4c931b671840ca78f340005c30aeb92454ca2a6
-ms.sourcegitcommit: 127df71c357127cca1b3caf5684489b19ff61493
+ms.openlocfilehash: a84a5da9600daa7ef55ed5a707affa4ee1da4aba
+ms.sourcegitcommit: b45134887a452f816a97e384f4333db9e1d8b798
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/03/2018
-ms.locfileid: "37599172"
+ms.lasthandoff: 09/26/2018
+ms.locfileid: "47238091"
 ---
 # <a name="manage-your-data-source---analysis-services"></a>管理数据源 - Analysis Services
 安装本地数据网关之后，需要添加可与该网关结合使用的数据源。 本文将探讨如何使用网关和数据源。 你可以使用 Analysis Services 数据源进行计划刷新或实时连接。
@@ -150,13 +150,38 @@ Power BI 服务中将发生以下事件：
 如何将网关配置为执行 AD 查找：
 
 1. 下载和安装最新网关
+
 2. 在网关中，需要将“本地数据网关服务”更改为使用域帐户（而不是本地服务帐户，否则 AD 查找将无法在运行时正常工作）运行。 你将需要重启网关服务才能使更改生效。  转到你的计算机上的网关应用（搜索“本地数据网关”）。 为此，请依次转到“服务设置”>“更改服务帐户”。 请确保自己拥有此网关的恢复密钥，因为需要在同一台计算机上还原它，除非要改为新建网关。 
-3. 以管理员身份转到此网关的安装文件夹 C:\Program Files\On-premises data gateway，以确保自己拥有写入权限并编辑下列文件：
 
-       Microsoft.PowerBI.DataMovement.Pipeline.GatewayCore.dll.config 
-4. 根据自己设定的 AD 用户 Active Directory 属性配置，编辑以下两个配置值。 下面显示的配置值只是示例，需要根据自己的 Active Directory 配置指定它们。 
+3. 以管理员身份转到此网关的安装文件夹 C:\Program Files\On-premises data gateway，以确保自己拥有写入权限并编辑下列文件：Microsoft.PowerBI.DataMovement.Pipeline.GatewayCore.dll.config 
 
-   ![](media/service-gateway-enterprise-manage-ssas/gateway-enterprise-map-user-names_03.png)
+4. 根据自己设定的 AD 用户 Active Directory 属性配置，编辑以下两个配置值。 下面显示的配置值只是示例，需要根据自己的 Active Directory 配置指定它们。 这些配置区分大小写，因此请确保它们与 Active Directory 中的值匹配。
+
+    ![Azure Active Directory 设置](media/service-gateway-enterprise-manage-ssas/gateway-enterprise-map-user-names_03.png)
+
+    如果没有为 ADServerPath 配置提供任何值，则网关使用默认的全局编录。 你还可以为 ADServerPath 指定多个值。 每个值必须用分号分隔，如下例所示。
+
+    ```xml
+    <setting name="ADServerPath" serializeAs="String">
+        <value> >GC://serverpath1; GC://serverpath2;GC://serverpath3</value>
+    </setting>
+    ```
+    网关从左到右解析 ADServerPath 的值，直到找到匹配项。 如果未找到匹配项，则使用原始 UPN。 确保运行网关服务 (PBIEgwService) 的帐户对你在 ADServerPath 中指定的所有 AD 服务器具有查询权限。
+
+    网关支持两种类型的 ADServerPath，如以下示例所示。
+
+    **WinNT**
+
+    ```xml
+    <value="WinNT://usa.domain.corp.contoso.com,computer"/>
+    ```
+
+    **GC**
+
+    ```xml
+    <value> GC://USA.domain.com </value>
+    ```
+
 5. 重启本地数据网关服务才能使配置更改生效。
 
 ### <a name="working-with-mapping-rules"></a>使用映射规则

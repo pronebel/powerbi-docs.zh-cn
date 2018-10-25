@@ -8,24 +8,24 @@ featuredvideoid: PVcfPoVE3Ys
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 05/28/2018
+ms.date: 09/28/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 13bc26eaecdcc9b3a00f22f75f6f9a5322d823f6
-ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
+ms.openlocfilehash: bd09adf21292b16ee27f111ac92bbd8c83c384d8
+ms.sourcegitcommit: 769ef3c8cbafd9ad5979eb4023a394ac7dba8d02
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/12/2018
-ms.locfileid: "44730386"
+ms.lasthandoff: 09/28/2018
+ms.locfileid: "47448836"
 ---
 # <a name="scatter-charts-and-bubble-charts-in-power-bi"></a>Power BI 中的散点图和气泡图
 散点图始终具有两个数值轴以显示水平轴上的一组数值数据和垂直轴上的另一组数值数据。 图表在 x 和 y 数值的交叉处显示点，将这些值单独合并到各个数据点。 根据数据，这些数据点可能均衡或不均衡地分布在水平轴上。
 
 气泡图将数据点替换为气泡，用气泡大小表示数据的其他维度。
 
-![](media/power-bi-visualization-scatter/power-bi-bubble-chart.png)
+![气泡图示例](media/power-bi-visualization-scatter/power-bi-bubble-chart.png)
 
-可以设置数据点数量  
+可以设置数据点数量，最多 10,000 个。  
 
 ## <a name="when-to-use-a-scatter-chart-or-bubble-chart"></a>何时使用散点图或气泡图
 ### <a name="scatter-charts-are-a-great-choice"></a>以下情况下，散点图是一个不错的选择：
@@ -50,7 +50,7 @@ ms.locfileid: "44730386"
 
 以下说明使用零售分析示例。 若要继续学习，请[下载](../sample-datasets.md)适用于 Power BI 服务 (app.powerbi.com) 或 Power BI Desktop 的示例。   
 
-1. 选择黄色加号图标创建[空白报表页](../power-bi-report-add-page.md)。
+1. 在编辑视图中打开报表，选择黄色加号图标创建[空白报表页](../power-bi-report-add-page.md)。
  
 2. 从“字段”窗格中，选择以下字段：
    - “销售额” > “每平方英尺的销售额”
@@ -83,18 +83,18 @@ ms.locfileid: "44730386"
 
 3. 若要设置气泡图中显示的数据点数量，请在“可视化效果”窗格的“格式”部分，展开“常规”卡片，并调整“数据量”。 可以将最大数据量设置为 10,000 及以下的任意数量。 随着数据的增加，建议先进行测试，以确保性能良好。 
 
-    ![数据量](./media/power-bi-visualization-scatter/pbi_scatter_data_volume.png) 
+    ![数据量](media/power-bi-visualization-scatter/pbi_scatter_data_volume.png) 
 
    > [!NOTE]
    > 由于数据点越多可能意味着加载时间越长，因此如果选择发布已达到数据点上限的报表，请务必跨网站平台和移动平台测试报表，以确保报表性能符合用户预期。 请注意，对于更多的数据点，应该测试不同形状因素的结果以确保良好的性能。
 
 4. 可以[设置可视化颜色、标签、标题、背景等等](service-getting-started-with-color-formatting-and-axis-properties.md)。 若要[提高可访问性](../desktop-accessibility.md)，请考虑将标记形状添加到每个行。 对每行使用不同的标记形状可使报表使用者更容易区分行（或区域）。 若要选择标记形状，请展开“形状”卡片，再选择标记形状。
 
-      ![标记形状](./media/power-bi-visualization-scatter/pbi_scatter_marker.png)
+      ![标记形状](media/power-bi-visualization-scatter/pbi_scatter_marker.png)
 
    还可以将标记形状更改为菱形、三角形或方形：
 
-   ![方形标记](./media/power-bi-visualization-scatter/pbi_scatter_chart_hover_square.png)
+   ![方形标记](media/power-bi-visualization-scatter/pbi_scatter_chart_hover_square.png)
 
 
 ## <a name="considerations-and-troubleshooting"></a>注意事项和疑难解答
@@ -104,8 +104,7 @@ ms.locfileid: "44730386"
 
 ![](media/power-bi-visualization-scatter/pbi_scatter_tshoot1.png)
 
-将字段添加到“详细信息”区域以告知 Power BI 应如何对值进行分组。 每个要绘制的点必须具有唯一的字段。  
-例如可以是简单的行号或 ID 字段：
+将字段添加到“详细信息”区域以告知 Power BI 应如何对值进行分组。 每个要绘制的点必须具有唯一的字段，例如简单的行号或 ID 字段。
 
 ![](media/power-bi-visualization-scatter/pbi_scatter_tshoot.png)
 
@@ -116,9 +115,8 @@ ms.locfileid: "44730386"
 要创建新字段，请[使用 Power BI Desktop 查询编辑器将索引列添加到数据集](../desktop-add-custom-column.md)。  然后将该列添加到你的可视化效果的**详细信息**区域。
 
 ## <a name="next-steps"></a>后续步骤
+
+[高密度散点图](desktop-high-density-scatter-charts.md)
+
 [Power BI 中的可视化效果类型](power-bi-visualization-types-for-reports-and-q-and-a.md)
-
-[注册免费试用版](https://powerbi.microsoft.com/get-started/)  
-
-更多问题？ [尝试参与 Power BI 社区](http://community.powerbi.com/)
 
