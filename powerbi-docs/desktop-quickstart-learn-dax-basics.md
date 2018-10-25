@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 07/27/2018
+ms.date: 09/27/2018
 ms.author: davidi
 LocalizationGroup: Model your data
-ms.openlocfilehash: ca2f9e3393df2fd205474983ab9868aa9401ed9d
-ms.sourcegitcommit: f01a88e583889bd77b712f11da4a379c88a22b76
+ms.openlocfilehash: 474fe7eee6dbcb296a7eaec6057ecfa56cd3f144
+ms.sourcegitcommit: ce8332a71d4d205a1f005b703da4a390d79c98b6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/27/2018
-ms.locfileid: "39329192"
+ms.lasthandoff: 09/27/2018
+ms.locfileid: "47417110"
 ---
 # <a name="dax-basics-in-power-bi-desktop"></a>Power BI Desktop 中的 DAX 基本概念
 本文适用于刚开始使用 Power BI Desktop 的用户。 其目的是为你提供有关如何使用数据分析表达式 (DAX) 的快速而简单的介绍，以便解决一些基本计算和数据分析问题。 我们将逐一探讨一些概念性信息、一系列可以完成的任务以及测试所学内容的几项测验。 学习完本文后，你便可充分了解 DAX 中最重要的基本概念。
@@ -87,25 +87,23 @@ DAX 是公式或表达式中可用于计算并返回一个或多个值的函数�
     
 2. 在编辑栏中，通过键入新的度量值名称 **Previous Quarter Sales** 来替换**度量值**。
     
-3. 在等号后键入 **SUM**，其后紧跟左括号。
-    
-   我们将输入另一个函数来筛选想要求和的数据，而不是立即键入列名来求和。
-    
-4. 在括号中，键入 **CALCULATE**，其后紧跟左括号。
-    
+3. 在等号后键入前几个字母 CAL，然后双击要使用的函数。 在此公式中，需要使用 CALCULATE 函数。
+
    你将通过我们传递给 CALCULATE 函数的参数，使用 CALCULATE 函数来筛选要求和的金额。 这就是所谓的嵌套函数。 CALCULATE 函数至少有两个参数。 第一个参数是要计算的表达式，第二个参数是筛选器。
    
-5. 在 **CALCULATE** 函数的括号 **()** 中，键入 **Sales[SalesAmount]**。 这是 CALCULATE 函数的第一个表达式参数。
+4. 在 CALCULATE 函数的左括号 ( 之后，键入 SUM，随后是另一个左括号 ( 现在我们需要将参数传递给 SUM 函数。
+
+5. 开始键入 Sal，然后选择 Sales[SalesAmount]，后跟右括号 )。 这是 CALCULATE 函数的第一个表达式参数。
     
-6. 键入逗号 (,) 来指定第一个筛选器，然后键入 PREVIOUSQUARTER，其后紧跟左括号。
+6. 在空格后键入逗号 (,) 以指定第一个筛选器，然后键入 PREVIOUSQUARTER。 这将是我们的筛选器。
     
-   你将使用 PREVIOUSQUARTER 时间智能函数按上一季度来筛选求和结果。
+   你将使用 PREVIOUSQUARTER 时间智能函数按上一季度来筛选 SUM 结果。
     
-7. 在 PREVIOUSQUARTER 函数的括号 **()** 中，键入“Calendar[DateKey]”。
+7. 在 PREVIOUSQUARTER 函数的括号 ( 之后，键入 Calendar[DateKey]。
     
-   PREVIOUSQUARTER 函数有一个参数，即包含连续日期范围的列。
+   PREVIOUSQUARTER 函数有一个参数，即包含连续日期范围的列。 在本例中，这是日历表中的 DateKey 列。
     
-8. 请确保传递给 PREVIOUSQUARTER 和 CALCULATE 函数的两个自变量都后跟两个右括号 **))**。
+8. 请确保传递给 PREVIOUSQUARTER 和 CALCULATE 函数的两个自变量都后跟两个右括号 ))。
     
    该公式现在应如下所示：
     
