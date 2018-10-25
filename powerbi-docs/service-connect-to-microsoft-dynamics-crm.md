@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 3d4065a6ab0c5a3c8f18350ef6c3a0444febda08
-ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
+ms.openlocfilehash: 475f3ddf646ddc9c5f29409854f93128ce94dd51
+ms.sourcegitcommit: 52ac456bf2ac025b22ea634c28482f22e1cc19ac
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/21/2018
-ms.locfileid: "46547053"
+ms.lasthandoff: 10/10/2018
+ms.locfileid: "48908822"
 ---
 # <a name="connect-to-microsoft-dynamics-crm-with-power-bi"></a>使用 Power BI 连接到 Microsoft Dynamics CRM
 用于 Power BI 的 Microsoft Dynamics CRM Online 使你能够轻松地访问和分析数据。 Power BI 使用 OData 数据源以创建描述性模型，其中具有所需的所有实体和度量值，如帐户、活动、商机、产品、潜在客户、用户等。 安装应用后，可以在 Power BI 服务 ([https://powerbi.com](https://powerbi.com)) 和 Power BI 移动应用中查看仪表板和报表。 
@@ -26,17 +26,16 @@ ms.locfileid: "46547053"
 
 ## <a name="how-to-connect"></a>如何连接
 [!INCLUDE [powerbi-service-apps-get-more-apps](./includes/powerbi-service-apps-get-more-apps.md)]
-
-1. 选择 **Microsoft Dynamics CRM 销售经理** 或 **Microsoft Dynamics CRM 服务管理器**，然后单击**连接**。
+3. 选择 **Microsoft Dynamics CRM 销售经理** 或 **Microsoft Dynamics CRM 服务管理器**，然后单击**连接**。
    
    ![](media/service-connect-to-microsoft-dynamics-crm/connect.png)
-2. 提供与你的帐户相关联的服务 URL。  这将在窗体 `https://company.crm.dynamics.com` 中，请参阅[以下](#FindingParams)详细信息。
+4. 提供与你的帐户相关联的服务 URL。  这将在窗体 `https://company.crm.dynamics.com` 中，请参阅[以下](#FindingParams)详细信息。
    
    ![](media/service-connect-to-microsoft-dynamics-crm/params.png)
-3. 出现提示时，请提供凭据（如果你已使用了浏览器登录，则可跳过此步骤）。 对于身份验证方法，输入 **oAuth2**，然后单击**登录**：
+5. 出现提示时，请提供凭据（如果你已使用了浏览器登录，则可跳过此步骤）。 对于身份验证方法，输入 **oAuth2**，然后单击**登录**：
    
    ![](media/service-connect-to-microsoft-dynamics-crm/creds.png)
-4. 连接后，你将看到为销售经理或服务管理器自定义的仪表板，该仪表板是使用你自己的数据进行填充的：
+6. 连接后，你将看到为销售经理或服务管理器自定义的仪表板，该仪表板是使用你自己的数据进行填充的：
    
    ![](media/service-connect-to-microsoft-dynamics-crm/dashboard.png)
 
@@ -48,7 +47,7 @@ ms.locfileid: "46547053"
 ## <a name="whats-included"></a>包含的内容
 以下部分详细介绍了[销售经理](#Sales)和[服务管理器](#Service)角色中所包含的内容。
 
-请注意，额外的数据将基于分配到 Dynamics CRM Online 用户的安全角色而受限制。
+数据将基于分配到 Dynamics CRM Online 用户的安全角色而受限制。
 
 仪表板和报表旨在提供侧重于团队或组的有关近期数据的运营报表。 每个查询受限于从 Dynamics CRM Online 中检索最大为 100K 的记录。 如果由于组织中的数据量大而超过此限制，设置将失败，因为数据刷新 Dynamics CRM Online 将被终止。 如果你的帐户过大，请考虑通过 Power BI Desktop 进行连接以生成自定义解决方案。
 
@@ -138,7 +137,7 @@ ms.locfileid: "46547053"
 
 Power BI 仅支持 Dynamics CRM 2016 终结点。 该连接不适用于早期版本的 CRM Online。 使用 Power BI Desktop 直接连接到你的帐户。
 
-## <a name="troubleshooting"></a>故障排除
+## <a name="troubleshooting"></a>疑难解答
 如果你遇到连接问题，请确认：  
 
 * 你提供的是正确的实例 URL（使用管理员帐户检查）  
@@ -154,7 +153,7 @@ Power BI 仅支持 Dynamics CRM 2016 终结点。 该连接不适用于早期版
 如果看到错误“数据刷新失败，因为查询超过 100000 条记录的最大限制”，请考虑直接从 Power BI Desktop 连接或使用 CRM 解决方案模板。
 
 ## <a name="next-steps"></a>后续步骤
-* [Power BI 中的应用有哪些？](consumer/end-user-apps.md)
+* [Power BI 中的应用有哪些？](service-create-distribute-apps.md)
 * [在 Power BI 中获取数据](service-get-data.md)
 * 更多问题？ [尝试咨询 Power BI 社区](http://community.powerbi.com/)
 

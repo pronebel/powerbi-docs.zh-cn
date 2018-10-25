@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 2250e3739904e6cc1e36c03df45cc765d3d9b591
-ms.sourcegitcommit: e8d924ca25e060f2e1bc753e8e762b88066a0344
+ms.openlocfilehash: f60fe155cb723550128ea6d35805932cb4559669
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/29/2018
-ms.locfileid: "37135228"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46544730"
 ---
 # <a name="connect-to-webtrends-with-power-bi"></a>使用 Power BI 连接到 Webtrends
 适用于 Power BI 的 Webtrends 内容包包括各种现成指标，如（按流量源）网页浏览总数和访问总数。 首先通过连接到 Webtrends 帐户将 Power BI 中的 Webtrends 数据可视化。 可以使用提供的仪表板和报表，或自定义它们以突出显示你最关注的信息。  此数据将每天自动刷新一次。
@@ -44,10 +44,10 @@ ms.locfileid: "37135228"
 
 **下一步？**
 
-* 尝试在仪表板顶部的[在“问答”框中提问](power-bi-q-and-a.md)
+* 尝试在仪表板顶部的[在“问答”框中提问](consumer/end-user-q-and-a.md)
 * 在仪表板中[更改磁贴](service-dashboard-edit-tile.md)。
-* [选择磁贴](service-dashboard-tiles.md)以打开基础报表。
-* 虽然数据集将按计划每日刷新，你可以更改刷新计划或根据需要使用**立即刷新**来尝试刷新
+* [选择磁贴](consumer/end-user-tiles.md)以打开基础报表。
+* 虽然数据集将按计划每日刷新，但你可以更改刷新计划或根据需要使用“立即刷新”来尝试刷新
 
 ## <a name="whats-included"></a>包含的内容
 <a name="Included"></a>
@@ -103,5 +103,5 @@ Webtrends 内容包从下列报表中提取数据：
 ## <a name="next-steps"></a>后续步骤
 [什么是 Power BI？](power-bi-overview.md)
 
-[Power BI - 基本概念](service-basic-concepts.md)
+[Power BI - 基本概念](consumer/end-user-basic-concepts.md)
 

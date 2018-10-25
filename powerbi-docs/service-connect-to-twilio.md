@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: f81330ec331ae42dea994982369428e9f7eb23aa
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 0bb592d508e959267df31e705aa833394aa4d19e
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34249427"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46544868"
 ---
 # <a name="connect-to-twilio-with-power-bi"></a>使用 Power BI 连接到 Twilio
 适用于 Power BI 的 Microsoft Twilio 内容包允许将数据导入 Power BI 并创建全新的 [Twilio 仪表板](https://powerbi.microsoft.com/integrations/twilio) 和报表，呈现你对数据的见解。 你还可以对 Power BI 创建的数据集创建报表和仪表板。 数据将每天刷新一次，因此你看到的始终都是最新数据。
@@ -41,10 +41,10 @@ ms.locfileid: "34249427"
 
 **下一步？**
 
-* 尝试在仪表板顶部的[在“问答”框中提问](power-bi-q-and-a.md)
+* 尝试在仪表板顶部的[在“问答”框中提问](consumer/end-user-q-and-a.md)
 * 在仪表板中[更改磁贴](service-dashboard-edit-tile.md)。
-* [选择磁贴](service-dashboard-tiles.md)以打开基础报表。
-* 虽然数据集将按计划每日刷新，你可以更改刷新计划或根据需要使用**立即刷新**来尝试刷新
+* [选择磁贴](consumer/end-user-tiles.md)以打开基础报表。
+* 虽然数据集将按计划每日刷新，但你可以更改刷新计划或根据需要使用“立即刷新”来尝试刷新
 
 ## <a name="whats-included"></a>包含的内容
 有关最近 30 天内的所有调用和消息事务的详细信息。 你可以执行有关此数据的各种类型的分析和聚合运算。

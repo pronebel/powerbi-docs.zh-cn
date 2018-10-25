@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: dfcaabc7f36dd65c6e7dbf56b84778c62760da5d
-ms.sourcegitcommit: e8d924ca25e060f2e1bc753e8e762b88066a0344
+ms.openlocfilehash: e91fda3afe74875ed1b785862f13f53d9aff7108
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/29/2018
-ms.locfileid: "37135688"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46544592"
 ---
 # <a name="connect-to-smartsheet-with-power-bi"></a>使用 Power BI 连接到 Smartsheet
 Smartsheet 提供了协作和文件共享的简单平台。 Power BI 的 Smartsheet 内容包提供仪表板、报表和显示你的 Smartsheet 帐户概述的数据集。 还可以使用 [Power BI Desktop](desktop-connect-to-data.md) 直接连接到你帐户中的单独工作表。 
@@ -48,10 +48,10 @@ Smartsheet 提供了协作和文件共享的简单平台。 Power BI 的 Smartsh
 
 **下一步？**
 
-* 尝试在仪表板顶部的[在“问答”框中提问](power-bi-q-and-a.md)
+* 尝试在仪表板顶部的[在“问答”框中提问](consumer/end-user-q-and-a.md)
 * 在仪表板中[更改磁贴](service-dashboard-edit-tile.md)。
-* [选择磁贴](service-dashboard-tiles.md)以打开基础报表。
-* 虽然数据集将按计划每日刷新，你可以更改刷新计划或根据需要使用**立即刷新**来尝试刷新
+* [选择磁贴](consumer/end-user-tiles.md)以打开基础报表。
+* 虽然数据集将按计划每日刷新，但你可以更改刷新计划或根据需要使用“立即刷新”来尝试刷新
 
 ## <a name="whats-included"></a>包含的内容
 Power BI 的 Smartsheet 内容包包含你的 Smartsheet 帐户的概述，例如你拥有的工作区、报表和工作表的数量及其修改时间等。管理员用户还将在看到有关系统中用户的一些信息，如顶层工作表创建者。  

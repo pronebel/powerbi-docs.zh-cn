@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 6f914a031c70c68703116083f42885e2fe79cf30
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 5db91d037ae32f43fe703bdc7e589a1ec5a295ca
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34247886"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46547605"
 ---
 # <a name="connect-to-sparkpost-with-power-bi"></a>使用 Power BI 连接到 SparkPost
 SparkPost 的 Power BI 内容包允许你从 SparkPost 帐户将所有有价值的数据集提取到富有洞察力的仪表板中。 借助 SparkPost 内容包，可以将你的电子邮件整体统计信息可视化，其中包括通过 ISP 的域、活动和参与。
@@ -41,10 +41,10 @@ SparkPost 的 Power BI 内容包允许你从 SparkPost 帐户将所有有价值�
 
 **下一步？**
 
-* 尝试在仪表板顶部的[在“问答”框中提问](power-bi-q-and-a.md)
+* 尝试在仪表板顶部的[在“问答”框中提问](consumer/end-user-q-and-a.md)
 * 在仪表板中[更改磁贴](service-dashboard-edit-tile.md)。
-* [选择磁贴](service-dashboard-tiles.md)以打开基础报表。
-* 虽然数据集将按计划每日刷新，你可以更改刷新计划或根据需要使用**立即刷新**来尝试刷新
+* [选择磁贴](consumer/end-user-tiles.md)以打开基础报表。
+* 虽然数据集将按计划每日刷新，但你可以更改刷新计划或根据需要使用“立即刷新”来尝试刷新
 
 ## <a name="whats-included"></a>包含的内容
 适用于 Power BI 的 SparkPost 内容包包括信息，这些信息包括独特的单击、接受速度、跳出速度、延迟速度、拒绝速度等。

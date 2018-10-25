@@ -8,15 +8,15 @@ featuredvideoid: xmja6Epqa
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 01/21/2018
+ms.date: 09/21/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: e090515514897dd4dcbc9962d0dadacae5611ff0
-ms.sourcegitcommit: 70192daf070ede3382ac13f6001e0c8b5fb8d934
+ms.openlocfilehash: 71cde810f98a81ab5670b3ab04bc1cd502277c1c
+ms.sourcegitcommit: ce8332a71d4d205a1f005b703da4a390d79c98b6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/22/2018
-ms.locfileid: "46565537"
+ms.lasthandoff: 09/27/2018
+ms.locfileid: "47416857"
 ---
 # <a name="radial-gauge-charts-in-power-bi"></a>Power BI 中的径向仪表图
 径向仪表盘有一个圆弧，并且显示单个值，该值用于衡量针对目标/KPI 的进度。  使用直线（针）表示目标或目标值。 使用明暗度表示针对目标的进度。  表示进度的值在圆弧内以粗体显示。所有可能的值沿圆弧均匀分布，从最小值（最左边的值）到最大值（最右边的值）。
@@ -92,7 +92,7 @@ ms.locfileid: "46565537"
 
 ### <a name="step-5-save-your-report"></a>步骤 5：保存报表
 1. [保存报表](../service-report-save.md)。
-2. [将仪表盘添加为仪表板磁贴](../consumer/end-user-tiles.md)。 
+2. [将仪表盘添加为仪表板磁贴](../service-dashboard-pin-tile-from-report.md)。 
 
 ## <a name="use-formatting-options-to-manually-set-minimum-maximum-and-target-values"></a>使用格式选项手动设置最小值、最大值和目标值
 1. 将**最大总销售额**从**最大值**框中删除。
@@ -110,14 +110,8 @@ ms.locfileid: "46565537"
     ![](media/power-bi-visualization-radial-gauge-charts/power-bi-gauge-target.png)
 6. 或者，继续设置仪表盘的格式。
 
-## <a name="next-steps"></a>后续步骤
+## <a name="next-step"></a>下一步
+
+[Power BI 中的仪表](power-bi-visualization-kpi.md)
+
 [Power BI 中的可视化效果类型](power-bi-visualization-types-for-reports-and-q-and-a.md)
-
-[向报表添加可视化效果](power-bi-report-add-visualizations-i.md)
-
-[将可视化效果固定到仪表板](../service-dashboard-pin-tile-from-report.md)
-
-[Power BI - 基本概念](../consumer/end-user-basic-concepts.md)
-
-更多问题？ [尝试参与 Power BI 社区](http://community.powerbi.com/)
-

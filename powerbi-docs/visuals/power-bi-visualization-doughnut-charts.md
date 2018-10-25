@@ -7,33 +7,33 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 12/23/2017
+ms.date: 09/24/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 3bf0aa516f50d363b53d2ed91b86d999e7855c30
-ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
+ms.openlocfilehash: ab292964bb1b6b1f4218d41c46eb2c28c82a034c
+ms.sourcegitcommit: ce8332a71d4d205a1f005b703da4a390d79c98b6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/21/2018
-ms.locfileid: "46545006"
+ms.lasthandoff: 09/27/2018
+ms.locfileid: "47416742"
 ---
 # <a name="doughnut-charts-in-power-bi"></a>Power BI 中的圆环图
 圆环图类似于饼图，因为它显示部分与整体的关系。 唯一的区别是中心为空，因而有空间可用于标签或图标。
 
 ## <a name="create-a-doughnut-chart"></a>创建圆环图
-这些说明使用零售分析示例创建一个按类别显示本年度销售额的圆环图。 若要继续学习，请[下载](../sample-datasets.md)适用于 Power BI 服务 (app.powerbi.com) 或 Power BI Desktop 的示例。
+这些说明使用零售分析示例创建一个按类别显示本年度销售额的圆环图。 若要继续学习，请[下载示例](../sample-datasets.md)（适用于 Power BI 服务或 Power BI Desktop）。
 
-1. 从[空白报表页](../power-bi-report-add-page.md)开始，选择“SalesStage”\>“销售阶段”字段。 如果使用的是 Power BI 服务，请确保在 [“编辑视图”](../service-interact-with-a-report-in-editing-view.md) 中打开报表。
+1. 在[空白报表页](../power-bi-report-add-page.md)上排序。 如果使用的是 Power BI 服务，请确保在 [“编辑视图”](../service-interact-with-a-report-in-editing-view.md) 中打开报表。
 
 2. 在“字段”窗格中，选择“销售额”\>“去年销售额”。  
    
-3. 从可视化对象窗格中，选择圆环图的图标![圆环图图标]()，将条形图转换为圆环图。 如果“去年销售额”不在“值”区域中，请将它拖动到其中。
+3. 从可视化对象窗格中，选择圆环图的图标![圆环图图标](media/power-bi-visualization-doughnut-charts/power-bi-icon.png)，将条形图转换为圆环图。 如果“去年销售额”不在“值”区域中，请将它拖动到其中。
      
-   ![](media/power-bi-visualization-doughnut-charts/power-bi-doughnut-chart.png)
+   ![包含所选圆环图的可视化效果窗格](media/power-bi-visualization-doughnut-charts/power-bi-doughnut-chart.png)
 
 4. 依次选择“**项**”\>“**类别**”，将其添加到**图例**区域中。 
      
-    ![](media/power-bi-visualization-doughnut-charts/power-bi-doughnut-done.png)
+    ![字段窗格旁边的圆环图](media/power-bi-visualization-doughnut-charts/power-bi-doughnut-done.png)
 
 5. （可选）[调整大小和图表文本的颜色](power-bi-visualization-customize-title-background-and-legend.md)。 
 
@@ -43,13 +43,8 @@ ms.locfileid: "46545006"
 * 圆环图最适用于将特定部分与整体进行比较，而不是将各个部分相互比较。 
 
 ## <a name="next-steps"></a>后续步骤
-[Power BI 中的报表](../consumer/end-user-reports.md)
+[Power BI 中的漏斗图](power-bi-visualization-funnel-charts.md)
 
 [Power BI 中的可视化效果类型](power-bi-visualization-types-for-reports-and-q-and-a.md)
 
-[Power BI 报表中的可视化效果](power-bi-report-visualizations.md)
-
-[Power BI - 基本概念](../consumer/end-user-basic-concepts.md)
-
-更多问题？ [尝试参与 Power BI 社区](http://community.powerbi.com/)
 

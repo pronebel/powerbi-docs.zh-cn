@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 2e84d52d9e26b23380b9fbc12fdaa4086a2ec7ed
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: 8466d57340feb80650af93e4f400b82436d11b05
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34239899"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46544845"
 ---
 # <a name="connect-to-microsoft-dynamics-ax-content-pack-with-power-bi"></a>使用 Power BI 连接到 Microsoft Dynamics AX 内容包
 Microsoft Dynamics AX 有三个针对不同业务用户的 Power BI 内容包。 专门针对首席财务官设计的“财务状况”内容包，它可让你访问有关组织的财务状况的信息。 面向渠道经理的“零售渠道状况”内容包，该内容包专注于销售状况，通过直接从“零售和商业”提取数据从而预测销售趋势并提出意见。 “成本管理”专为首席运营官和首席财务官而设计，它可提供有关经营业绩的详细信息。
@@ -46,10 +46,10 @@ Microsoft Dynamics AX 有三个针对不同业务用户的 Power BI 内容包。
 
 **下一步？**
 
-* 尝试在仪表板顶部的[在“问答”框中提问](power-bi-q-and-a.md)
+* 尝试在仪表板顶部的[在“问答”框中提问](consumer/end-user-q-and-a.md)
 * 在仪表板中[更改磁贴](service-dashboard-edit-tile.md)。
-* [选择磁贴](service-dashboard-tiles.md)以打开基础报表。
-* 虽然数据集将按计划每日刷新，你可以更改刷新计划或根据需要使用**立即刷新**来尝试刷新
+* [选择磁贴](consumer/end-user-tiles.md)以打开基础报表。
+* 虽然数据集将按计划每日刷新，但你可以更改刷新计划或根据需要使用“立即刷新”来尝试刷新
 
 ## <a name="whats-included"></a>包含的内容
 该内容包使用 Dynamics AX 7 OData 数据源分别导入与零售渠道、财务和成本管理状况相关的数据。

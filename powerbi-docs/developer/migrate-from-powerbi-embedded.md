@@ -2,18 +2,17 @@
 title: 如何将 Power BI 工作区集合内容迁移到 Power BI
 description: 了解如何从 Power BI 工作区集合迁移到 Power BI Embedded，以及如何利用此改进功能在应用中嵌入内容。
 author: markingmyname
-manager: kfile
-ms.reviewer: ''
-ms.Embedded: powerbi
+ms.service: powerbi
+ms.component: powerbi-service
 ms.topic: conceptual
 ms.date: 06/30/2018
 ms.author: maghan
-ms.openlocfilehash: 6de0efe3bad1662d1324488a7030894248056730
-ms.sourcegitcommit: 06f59902105c93700e71e913dff8453e221e4f82
+ms.openlocfilehash: f53b7e02ac3f744a7eb0fa7dd74b7144a434a42f
+ms.sourcegitcommit: 833cf1252807721fb1b3000487bd032bfd6c8c98
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/01/2018
-ms.locfileid: "39388654"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "48271845"
 ---
 # <a name="how-to-migrate-power-bi-workspace-collection-content-to-power-bi-embedded"></a>如何将 Power BI 工作区集合内容迁移到 Power BI Embedded
 了解如何从 Power BI 工作区集合迁移到 Power BI Embedded，以及如何利用此改进功能在应用中嵌入内容。
@@ -30,7 +29,7 @@ Microsoft 最近[发布了 Power BI Embedded](https://powerbi.microsoft.com/en-u
 
 ![](media/migrate-from-powerbi-embedded/powerbi-embed-flow.png)
 
-开始迁移到新的 Power BI Embedded 之前，可以快速完成一个演练，它可以帮助你使用[载入体验工具](https://aka.ms/embedsetup)设置新的 Power BI Embedded 环境。
+开始迁移到新的 Power BI Embedded 之前，可以快速完成一个演练，它可以帮助你使用[嵌入安装工具](https://aka.ms/embedsetup)来设置新的 Power BI Embedded 环境。
 
 选择最适合你的解决方案：
 * **为客户嵌入** - 适用于对[应用拥有数据](https://aka.ms/embedsetup/AppOwnsData)解决方案感兴趣的用户。 通过[为客户嵌入内容](embedding.md#embedding-for-your-customers)，可为没有 Power BI 帐户的用户嵌入仪表板和报表。 

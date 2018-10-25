@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 6cdb4d6684ec97786c7fd10da7d22515a24e9dbc
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: ccb878da983aad493efb2cfdfb0d09366964a157
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34250045"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46545420"
 ---
 # <a name="connect-to-windows-dev-center-with-power-bi"></a>使用 Power BI 连接到 Windows 开发人员中心
 使用 Power BI 内容包在 Power BI 中浏览和监视 Windows 开发人员中心应用分析数据。 此数据将每天自动刷新一次。
@@ -48,10 +48,10 @@ ms.locfileid: "34250045"
 
 **下一步？**
 
-* 尝试在仪表板顶部的[在“问答”框中提问](power-bi-q-and-a.md)
+* 尝试在仪表板顶部的[在“问答”框中提问](consumer/end-user-q-and-a.md)
 * 在仪表板中[更改磁贴](service-dashboard-edit-tile.md)。
-* [选择磁贴](service-dashboard-tiles.md)以打开基础报表。
-* 虽然数据集将按计划每日刷新，你可以更改刷新计划或根据需要使用**立即刷新**来尝试刷新
+* [选择磁贴](consumer/end-user-tiles.md)以打开基础报表。
+* 虽然数据集将按计划每日刷新，但你可以更改刷新计划或根据需要使用“立即刷新”来尝试刷新
 
 ## <a name="whats-included"></a>包含的内容
 开发人员中心 Power BI 内容包包括你的应用的分析数据、IAP 采集、评级、评价和应用健康状况。 数据限于过去 3 个月。 并且其时间范围不断变化，因此包含的日期会随着数据集刷新而更新。

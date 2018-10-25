@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 4e9e10f713be50707909c68b104f82cada6777b6
-ms.sourcegitcommit: 127df71c357127cca1b3caf5684489b19ff61493
+ms.openlocfilehash: 3c508044e9f21c09d3115fd745320be9ad0161bc
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/03/2018
-ms.locfileid: "37599038"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46548433"
 ---
 # <a name="connect-to-tygraph--with-power-bi"></a>使用 Power BI 连接到 tyGraph
 通过 Power BI 内容包可视化和浏览 Power BI 中的 tyGraph 数据。 首先，连接到你的 tyGraph 帐户并加载仪表板、报表和数据集。 现成内容包括见解，比如积极参与度（MAE 评分）和排名靠前的参与者。 进一步自定义它，以突出显示你最关注的信息。  将根据你设置的计划自动刷新数据。
@@ -51,10 +51,10 @@ ms.locfileid: "37599038"
 
 **下一步？**
 
-* 尝试在仪表板顶部的[在“问答”框中提问](power-bi-q-and-a.md)
+* 尝试在仪表板顶部的[在“问答”框中提问](consumer/end-user-q-and-a.md)
 * 在仪表板中[更改磁贴](service-dashboard-edit-tile.md)。
-* [选择磁贴](service-dashboard-tiles.md)以打开基础报表。
-* 虽然数据集将按计划每日刷新，你可以更改刷新计划或根据需要使用**立即刷新**来尝试刷新
+* [选择磁贴](consumer/end-user-tiles.md)以打开基础报表。
+* 虽然数据集将按计划每日刷新，但你可以更改刷新计划或根据需要使用“立即刷新”来尝试刷新
 
 <a name="FindingParams"></a>
 

@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 04/13/2018
+ms.date: 10/02/2018
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: de7766176f5c25288912cf463dce79f487e7335d
-ms.sourcegitcommit: 70192daf070ede3382ac13f6001e0c8b5fb8d934
+ms.openlocfilehash: f108ab3c924f6ff69bc6ee6aae5ed0539ce3f11d
+ms.sourcegitcommit: 52ac456bf2ac025b22ea634c28482f22e1cc19ac
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/22/2018
-ms.locfileid: "46565098"
+ms.lasthandoff: 10/10/2018
+ms.locfileid: "48908060"
 ---
 # <a name="reading-view-and-editing-view-in-power-bi-service-reports"></a>Power BI 服务报表中的“阅读视图”和“编辑视图”
 Power BI 服务（不是 Power BI Desktop）提供两种模式用于查看报表和与其交互：“阅读视图”和“编辑视图”。 “阅读视图”可供所有用户使用且专为报表使用者设计，而“编辑视图”仅供报表创建者和所有者使用。
@@ -26,11 +26,12 @@ Power BI 服务（不是 Power BI Desktop）提供两种模式用于查看报表
 
  阅读视图是浏览和与报表交互的方式-- 它是一种有趣且安全地使用和了解数据的途径。 阅读视图面向报表使用者 - 通过应用打开报表，或者[与其共享](../service-share-dashboards.md)报表的人员。 “读取视图”可确保特定报表的每个使用者都会看到相同的报表、相同的可视化对象并能根据需要应用相同的筛选器。  使用者可以与报表进行交互，也可以更改现有筛选器（并且此类更改会随报表一起保存），但是不能添加新的筛选器。
 
->**注意**：在某些情况下，由于行级安全性和数据权限方面的原因，报表使用者可能看到不同的数据。
+> [!NOTE]
+> 在某些情况下，由于行级安全性和数据权限方面的原因，报表使用者可能看到不同的数据。
 
 ## <a name="report-editing-view"></a>报表编辑视图
 
-编辑视图仅适用于报表的创建者，或者[作为应用工作区的成员或管理员共同拥有报表](end-user-create-apps.md)的人员。
+编辑视图仅适用于报表的创建者，或者[作为应用工作区的成员或管理员共同拥有报表](../service-create-distribute-apps.md)的人员。
 
 编辑视图专用于报表创建者。 创建者可以从中导入并连接数据集、浏览数据，并生成报表和仪表板。 在“编辑视图”中，创建者可通过在报表中添加和删除字段、更改可视化效果类型、创建新的可视化效果，以及从报表中添加和删除可视化效果与页面，更深入的挖掘数据。 然后，他们可与同事共享其创建的报表。
 
@@ -53,11 +54,11 @@ Power BI 服务（不是 Power BI Desktop）提供两种模式用于查看报表
 | [查看使用情况指标](../service-usage-metrics.md) | 是，在报表画布上。 | 是，在报表列表（内容视图）中 |
 | [相关视图](end-user-related.md) | 是，在报表画布上。 | 是，在报表列表（内容视图）中 |
 | [保存报表](../service-report-save.md) | 是，但只能使用“另存为”。 | 是 |
-| [删除报表](end-user-delete.md) | 否  | 是 |
+| [删除报表](../service-delete.md) | 否  | 是 |
 |**报表页** |
 | [添加或重命名报表页](../power-bi-report-add-page.md)  | 否  | 是  |
 | [复制报表页](../power-bi-report-copy-paste-page.md) | 否  | 是 |
-| [删除报表页](end-user-delete.md) | 否 | 是 |
+| [删除报表页](../service-delete.md) | 否 | 是 |
 |**使用报表可视化效果**|
 | [将可视化效果添加到报表](../visuals/power-bi-report-add-visualizations-i.md) | 否  | 是 |
 | [向报表添加文本框和形状](../power-bi-reports-add-text-and-shapes.md) | 否  | 是 |
@@ -66,7 +67,7 @@ Power BI 服务（不是 Power BI Desktop）提供两种模式用于查看报表
 | [显示用于创建可视化效果的数据](end-user-show-data.md) | 否  | 是 |
 | [配置钻取](end-user-drill.md) | 否  | 是 |
 | [更改在用的可视化效果](../visuals/power-bi-report-change-visualization-type.md) | 否 | 是|
-| [删除可视化效果、文本框或形状](end-user-delete.md)| 否 | 是 |
+| [删除可视化效果、文本框或形状](../service-delete.md)| 否 | 是 |
 
 
 ## <a name="navigating-between-editing-view-and-reading-view"></a>在“编辑视图”和“阅读视图”之间导航
@@ -88,7 +89,6 @@ Power BI 服务（不是 Power BI Desktop）提供两种模式用于查看报表
 
 
 
-### <a name="next-steps"></a>后续步骤
+## <a name="next-steps"></a>后续步骤
 可通过多种方式来与“阅读视图”中的报表交互，交叉分析数据可以发现见解，并获取问题的答案。  下一主题[在阅读视图中与报表交互](../service-interact-with-a-report-in-editing-view.md)详细介绍了这些操作。    
 返回 [Power BI 中的报表](end-user-reports.md)    
-更多问题？ [尝试参与 Power BI 社区](http://community.powerbi.com/)

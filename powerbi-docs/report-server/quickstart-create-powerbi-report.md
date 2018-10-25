@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-report-server
 ms.topic: conceptual
-ms.date: 05/18/2018
+ms.date: 09/19/2018
 ms.author: maggies
-ms.openlocfilehash: 64757d6cbd82b666bf18f1ee87d8e51954872990
-ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
+ms.openlocfilehash: bb6868784314b369fcc02e3a36caf7c82c3c5966
+ms.sourcegitcommit: 70192daf070ede3382ac13f6001e0c8b5fb8d934
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/12/2018
-ms.locfileid: "44726722"
+ms.lasthandoff: 09/22/2018
+ms.locfileid: "46564914"
 ---
 # <a name="create-a-power-bi-report-for-power-bi-report-server"></a>为 Power BI 报表服务器创建 Power BI 报表
 可以在 Power BI 报表服务器 Web 门户中在本地存储和管理 Power BI 报表，就像在 Power BI 服务 (https://powerbi.com)) 中的云中存储 Power BI 报表一样。 可以在 Power BI Desktop 中创建和编辑报表，并将其发布到 Web 门户中。 接下来，组织中的报表读取器可以在浏览器或移动设备上的 Power BI 移动应用中查看报表。
@@ -31,7 +31,7 @@ ms.locfileid: "44726722"
 
     ![从 Web 门户下载 Power BI Desktop](media/quickstart-create-powerbi-report/report-server-download-web-portal.png)
 
-    或者，在 Microsoft 下载中心直接转到 [Microsoft Power BI Desktop](https://www.microsoft.com/download/details.aspx?id=56723)（已针对 Power BI 报表服务器进行优化 - 2018 年 3 月版）。
+    或者，在 Microsoft 下载中心直接转到 [Microsoft Power BI Desktop](https://www.microsoft.com/en-us/download/details.aspx?id=57271)（已针对 Power BI 报表服务器进行优化 - 2018 年 8 月版）。
 
 2. 在“下载中心”页中，选择“下载”。
 
@@ -41,13 +41,13 @@ ms.locfileid: "44726722"
 
     - **PBIDesktopRS_x64.msi**（64 位版本）。
 
-4. 下载安装程序后，运行 Power BI Desktop（2018 年 3 月版）安装向导。
+4. 下载安装程序后，运行 Power BI Desktop（2018 年 8 月版）安装向导。
 
 2. 安装结束时，请选中“立即启动 Power BI Desktop”。
    
-    此时，它会自动启动，可以开始使用了。 根据标题栏中显示的“Power BI Desktop（2018 年 3 月版）”，便知道使用了正确的版本。
+    此时，它会自动启动，可以开始使用了。 根据标题栏中显示的“Power BI Desktop（2018 年 8 月版）”，便知道使用了正确的版本。
 
-    ![Power BI Desktop 2018 年 3 月版](media/quickstart-create-powerbi-report/report-server-desktop-march-2018.png)
+    ![Power BI Desktop 2018 年 8 月版](media/quickstart-create-powerbi-report/power-bi-report-server-desktop-august-2018.png)
 
 3. 如果不熟悉 Power BI Desktop，请考虑观看欢迎屏幕上的视频。
    
@@ -91,36 +91,6 @@ ms.locfileid: "44726722"
 2. 现在可以在 Web 门户中查看报表。
    
     ![在 Web 门户中查看报表](media/quickstart-create-powerbi-report/report-server-powerbi-report.png)
-
-## <a name="considerations-and-limitations"></a>注意事项和限制
-Power BI 报表服务器和 Power BI 服务 (http://powerbi.com)) 中报表的行为几乎完全相同，但有一些功能不同。
-
-### <a name="in-a-browser"></a>在浏览器中
-Power BI 报表服务器报表支持所有可视化效果，包括：
-
-* 自定义视觉对象
-
-Power BI 报表服务器报表不支持：
-
-* R 视觉对象
-* ArcGIS 地图
-* 痕迹导航栏
-* Power BI Desktop 预览功能
-
-### <a name="in-the-power-bi-mobile-apps"></a>在 Power BI 移动应用中
-Power BI 报表服务器报表支持 [Power BI 移动应用](../consumer/mobile/mobile-apps-for-mobile-devices.md)中的所有基本功能，其中包括：
-
-* [手机报表布局](../desktop-create-phone-report.md)：可以优化 Power BI 移动应用的报表。 在你的移动手机上，已优化的报表都具有一个特殊的图标 ![手机报表布局图标](media/quickstart-create-powerbi-report/power-bi-rs-mobile-optimized-icon.png) 和布局。
-  
-    ![针对手机优化后的报表](media/quickstart-create-powerbi-report/power-bi-rs-mobile-optimized-report.png)
-
-Power BI 报表服务器报表不支持 Power BI 移动应用中的如下功能：
-
-* R 视觉对象
-* ArcGIS 地图
-* 自定义视觉对象
-* 痕迹导航栏
-* 地理位置筛选或条码
 
 ## <a name="next-steps"></a>后续步骤
 ### <a name="power-bi-desktop"></a>Power BI Desktop

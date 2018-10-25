@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 08/02/2018
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 71b2f104ad5efb244c2b046cdd48a2e52cd045e3
-ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
+ms.openlocfilehash: 19a029564fecdc9a54a136d045e75bb9580193da
+ms.sourcegitcommit: 52ac456bf2ac025b22ea634c28482f22e1cc19ac
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/21/2018
-ms.locfileid: "46543940"
+ms.lasthandoff: 10/10/2018
+ms.locfileid: "48908231"
 ---
 # <a name="collaborate-in-your-power-bi-app-workspace"></a>在 Power BI 应用工作区中展开协作
 Power BI 应用工作区是在仪表板、报表和数据集上与同事协作以创建应用的好地方。 协作并不限于在 Power BI 中的工作区内进行。 Office 365 提供其他组服务，如共享 OneDrive for Business 上的文件、Exchange 中的对话、共享日历和任务等。 了解有关 [Office 365 中的组](https://support.office.com/article/Create-a-group-in-Office-365-7124dc4c-1de9-40d4-b096-e8add19209e9)的详细信息。
@@ -23,7 +23,7 @@ Power BI 应用工作区是在仪表板、报表和数据集上与同事协作�
 > [!NOTE]
 > 新工作区体验预览将更改 Power BI 工作区与 Office 365 组之间的关系。 每次创建新工作区时，不会自动创建 Office 365 组。 了解如何[创建新工作区（预览版）](service-create-the-new-workspaces.md)
 
-应用工作区仅适用于 [Power BI Pro](service-free-vs-pro.md)。
+应用工作区仅适用于 [Power BI Pro 许可证](service-features-license-type.md)。
 
 ## <a name="collaborate-on-power-bi-desktop-files-in-your-app-workspace"></a>在应用工作区中的 Power BI Desktop 文件上展开协作
 创建 Power BI Desktop 文件后，如果你将该文件发布到 Power BI 应用工作区，则工作区中的每个人都可以在其上展开协作。
@@ -77,7 +77,7 @@ Power BI 应用工作区是在仪表板、报表和数据集上与同事协作�
 如果你是应用工作区的所有者或管理员，还可以添加或删除工作区成员。 了解有关[管理 Power BI 应用工作区](service-manage-app-workspace-in-power-bi-and-office-365.md)的详细信息。
 
 ## <a name="next-steps"></a>后续步骤
-* [在 Power BI 中创建应用和应用工作区](consumer/end-user-create-apps.md)
+* [在 Power BI 中创建应用和应用工作区](service-create-distribute-apps.md)
 * 更多问题？ [尝试参与 Power BI 社区](http://community.powerbi.com/)
 * 想要提供反馈？ 请访问 [Power BI Ideas](https://ideas.powerbi.com/forums/265200-power-bi)
 

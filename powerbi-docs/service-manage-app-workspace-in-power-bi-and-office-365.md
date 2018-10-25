@@ -10,15 +10,15 @@ ms.topic: conceptual
 ms.date: 08/02/2018
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 516d78bd6158c714d5f4418771c5e8cb219ce512
-ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
+ms.openlocfilehash: 25e7fe3e47cee2aed7781fff2a20621e3bd860ed
+ms.sourcegitcommit: 52ac456bf2ac025b22ea634c28482f22e1cc19ac
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/21/2018
-ms.locfileid: "46547559"
+ms.lasthandoff: 10/10/2018
+ms.locfileid: "48908799"
 ---
 # <a name="manage-your-app-workspace-in-power-bi-and-office-365"></a>管理 Power BI 和 Office 365 中的应用工作区
-作为 [Power BI 或 Office 365 中应用工作区](consumer/end-user-apps.md)的创建者或管理员，可以在 Power BI 中管理工作区的某些方面。 你在 Office 365 中管理的其他方面。 
+作为 [Power BI 或 Office 365 中应用工作区](service-create-distribute-apps.md)的创建者或管理员，可以在 Power BI 中管理工作区的某些方面。 你在 Office 365 中管理的其他方面。 
 
 > [!NOTE]
 > 新工作区体验预览将更改 Power BI 工作区与 Office 365 组之间的关系。 每次创建新工作区时，不会自动创建 Office 365 组。 了解如何[创建新工作区（预览版）](service-create-the-new-workspaces.md)
@@ -36,7 +36,7 @@ ms.locfileid: "46547559"
 * 查看组电子邮件地址。
 * 删除组。
 
-要成为应用工作区的管理员或成员，需要具有 [Power BI Pro](service-free-vs-pro.md) 许可证。 除非应用工作区位于 Power BI Premium 容量中，否则应用用户也需要具有 Power BI Pro 许可证。 请阅读[什么是 Power BI Premium？](service-premium.md)了解详细信息。
+要成为应用工作区的管理员或成员，需要具有 [Power BI Pro](service-features-license-type.md) 许可证。 除非应用工作区位于 Power BI Premium 容量中，否则应用用户也需要具有 Power BI Pro 许可证。 请阅读[什么是 Power BI Premium？](service-premium.md)了解详细信息。
 
 ## <a name="edit-your-app-workspace-in-power-bi"></a>编辑 Power BI 中的应用工作区
 1. 在 Power BI 服务中，选择“工作区”旁边的箭头，然后选择工作区名称旁边的省略号（“…”），接下来选择“编辑工作区”。 
@@ -76,7 +76,6 @@ ms.locfileid: "46547559"
 3. 选择**保存**或**放弃**。
 
 ## <a name="next-steps"></a>后续步骤
-* [Power BI 中的应用有哪些？](consumer/end-user-apps.md)
-* [在 Power BI 中发布包含仪表板和报表的应用](consumer/end-user-create-apps.md)
+* [在 Power BI 中发布包含仪表板和报表的应用](service-create-distribute-apps.md)
 * 更多问题？ [尝试参与 Power BI 社区](http://community.powerbi.com/)
 

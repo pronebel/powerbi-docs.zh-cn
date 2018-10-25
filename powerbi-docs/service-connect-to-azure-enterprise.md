@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 7425e194bd6bda51442a128d146fb4061a77af81
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 93e1534af258a11a7af0f95b179653a1d8e54307
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34243186"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46544638"
 ---
 # <a name="connect-to-microsoft-azure-enterprise-with-power-bi"></a>使用 Power BI 连接到 Microsoft Azure Enterprise
 可使用 Power BI 内容包在 Power BI 中浏览和监视 Microsoft Azure Enterprise 数据。 此数据将每天自动刷新一次。
@@ -44,10 +44,10 @@ ms.locfileid: "34243186"
 
 **下一步？**
 
-* 尝试在仪表板顶部的[在“问答”框中提问](power-bi-q-and-a.md)
+* 尝试在仪表板顶部的[在“问答”框中提问](consumer/end-user-q-and-a.md)
 * 在仪表板中[更改磁贴](service-dashboard-edit-tile.md)。
-* [选择磁贴](service-dashboard-tiles.md)以打开基础报表。
-* 虽然数据集将按计划每日刷新，你可以更改刷新计划或根据需要使用**立即刷新**来尝试刷新
+* [选择磁贴](consumer/end-user-tiles.md)以打开基础报表。
+* 虽然数据集将按计划每日刷新，但你可以更改刷新计划或根据需要使用“立即刷新”来尝试刷新
 
 ## <a name="whats-included"></a>包含的内容
 Azure Enterprise 内容包中包含你在连接流程中提供的月份范围的每月报表数据。 该范围是不断变化的时间窗口，因此包含的日期会随着数据集刷新而更新。

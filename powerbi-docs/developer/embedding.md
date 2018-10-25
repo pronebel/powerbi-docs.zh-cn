@@ -9,18 +9,18 @@ ms.service: powerbi
 ms.component: powerbi-developer
 ms.topic: overview
 ms.date: 07/31/2018
-ms.openlocfilehash: 2889345c5e4a5e93602c51baa27bf2c7e28e138f
-ms.sourcegitcommit: 16098be04df05bc8e3d44a99b4d143b622759c59
+ms.openlocfilehash: 7b96e671a6fe9b450fff683ced3caa611ae70bd7
+ms.sourcegitcommit: 698b788720282b67d3e22ae5de572b54056f1b6c
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/07/2018
-ms.locfileid: "39616019"
+ms.lasthandoff: 09/17/2018
+ms.locfileid: "45973761"
 ---
 # <a name="embedding-with-power-bi"></a>使用 Power BI 嵌入
 
-Azure (PaaS) 中的 Power BI 服务 (SaaS) 和 Power BI 嵌入式服务具有用于嵌入仪表板和报表的 API。 这意味着，在嵌入内容时，拥有一组功能以及对最新 Power BI 功能（如仪表板、网关和应用工作区）的访问权限。
+Azure (PaaS) 中的 Power BI 服务 (SaaS) 和 Power BI 嵌入式服务具有用于嵌入仪表板和报表的 API。 此功能意味着，在嵌入内容时，拥有一组功能以及对最新 Power BI 功能（如仪表板、网关和应用工作区）的访问权限。
 
-可使用[载入体验工具](https://aka.ms/embedsetup)快速开始并下载示例应用程序。
+可使用[嵌入安装程序工具](https://aka.ms/embedsetup)快速开始并下载示例应用程序。
 
 选择最适合你的解决方案：
 
@@ -49,7 +49,7 @@ Azure (PaaS) 中的 Power BI 服务 (SaaS) 和 Power BI 嵌入式服务具有用
 
 为 Power BI 用户进行嵌入时，通过 [JavaScript API](https://github.com/Microsoft/PowerBI-JavaScript) 可使用编辑和保存等自助服务功能。
 
-可浏览用于为组织嵌入的[载入体验工具](https://aka.ms/embedsetup/UserOwnsData)以快速开始并下载示例应用程序，它会逐步引导你为组织集成报表。
+可浏览用于为组织嵌入的[嵌入安装程序工具](https://aka.ms/embedsetup/UserOwnsData)以快速开始并下载示例应用程序，它会逐步引导你为组织集成报表。
 
 ## <a name="embedding-for-your-customers"></a>为客户嵌入内容
 

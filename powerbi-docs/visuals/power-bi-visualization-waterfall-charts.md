@@ -8,15 +8,15 @@ featuredvideoid: maTzOJSRB3g
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 01/20/2018
+ms.date: 09/27/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: d1c771ed49a000374c58beb694dda511a8c9a097
-ms.sourcegitcommit: 70192daf070ede3382ac13f6001e0c8b5fb8d934
+ms.openlocfilehash: e9b48b79b30250c442140929045132fe1c4b10e8
+ms.sourcegitcommit: 769ef3c8cbafd9ad5979eb4023a394ac7dba8d02
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/22/2018
-ms.locfileid: "46565811"
+ms.lasthandoff: 09/28/2018
+ms.locfileid: "47448905"
 ---
 # <a name="waterfall-charts-in-power-bi"></a>Power BI 中的瀑布图
 瀑布图显示随着值的增加或减少的不断变化的总数。 该图对于了解一系列正值和负值更改如何影响初始值（例如，净收益）很有用。
@@ -39,32 +39,32 @@ ms.locfileid: "46565811"
 
 1. 选择“数据集”选项卡并滚动到新的“零售分析示例”数据集。  选择“创建报表”图标，在报表编辑视图中打开数据集。 
    
-    ![](media/power-bi-visualization-waterfall-charts/power-bi-waterfall-report.png)
-2. 从**字段**窗格，选择**销售额 \> 总销售差额**。 如果**总销售差额**不在 **Y 轴**区域中，请将其拖至该区域。
-3. 将图表转换为**瀑布图**。 
+    ![突出显示的数据集选项卡](media/power-bi-visualization-waterfall-charts/power-bi-waterfall-report.png)
+2. 从**字段**窗格，选择**销售额 \> 总销售差额**。 
+3. 将图表转换为**瀑布图**。 如果**总销售差额**不在 **Y 轴**区域中，请将其拖至该区域。
    
-    ![](media/power-bi-visualization-waterfall-charts/convertwaterfall.png)
+    ![可视化效果模板](media/power-bi-visualization-waterfall-charts/convertwaterfall.png)
 4. 选择**时间** \> **财月**以将它添加到**类别**框。 
    
-    ![](media/power-bi-visualization-waterfall-charts/power-bi-waterfall.png)
+    ![瀑布图](media/power-bi-visualization-waterfall-charts/power-bi-waterfall.png)
 5. 按时间顺序对瀑布图排序。 在图表右上角选择省略号 (...)，然后选择“财月”。
    
-    ![](media/power-bi-visualization-waterfall-charts/power-bi-waterfall-sort.png)
+    ![选择按会计月排序](media/power-bi-visualization-waterfall-charts/power-bi-sort-by.png)
    
-    ![](media/power-bi-visualization-waterfall-charts/power-bi-waterfall-sorted.png)
+    ![新升序排序的结果](media/power-bi-visualization-waterfall-charts/power-bi-waterfall-sorted.png)
 6. 进一步了解每月发生变化的最主要原因。 将“应用商店” > “区域”拖动到“细目”桶中。
    
-    ![](media/power-bi-visualization-waterfall-charts/power-bi-waterfall-breakdown.png)
+    ![显示明细存储桶中的存储](media/power-bi-visualization-waterfall-charts/power-bi-waterfall-breakdown.png)
 7. 默认情况下，Power BI 按月将前 5 个地区添加到增加结果或减少结果中。 但我们只关注前 2 个地区。  在“格式设置”窗格中，选择“细目”，并将“最大值”设置为 2。
    
-    ![](media/power-bi-visualization-waterfall-charts/power-bi-waterfall-breakdown-maximum.png)
+    ![格式设置 > 明细](media/power-bi-visualization-waterfall-charts/power-bi-waterfall-breakdown-maximum.png)
    
     快速浏览显示，在我们的瀑布图中，俄亥俄州和宾夕法尼亚州是正负增长变化幅度最大的两个区域。 
    
-    ![](media/power-bi-visualization-waterfall-charts/power-bi-waterfall-axis.png)
-8. 这个结果很有意思。 俄亥俄州和宾夕法尼亚州具有如此显著的影响，是不是因为这两个区域的销售额远高于其他区域？  我们可以来看看。 创建一个按区域显示销售额的地图。  
+    ![瀑布图](media/power-bi-visualization-waterfall-charts/power-bi-waterfall-axis.png)
+8. 这个结果很有意思。 俄亥俄州和宾夕法尼亚州具有如此显著的影响，是不是因为这两个区域的销售额远高于其他区域？  我们可以来看看。 创建一个按区域显示今年和去年销售额的地图。  
    
-    ![](media/power-bi-visualization-waterfall-charts/power-bi-map.png)
+    ![映射对 PA 和俄亥俄州的特写](media/power-bi-visualization-waterfall-charts/power-bi-map.png)
    
     地图验证了我们的结果。  地图显示，这两个区域具有去年（气泡大小）和今年（气泡明暗度）的销售额最高值。
 
@@ -74,13 +74,7 @@ ms.locfileid: "46565811"
 突出显示瀑布图中的列可交叉筛选报表页上的其他可视化效果，反之亦然。 但是，“汇总”列不会触发突出显示或响应交叉筛选。
 
 ## <a name="next-steps"></a>后续步骤
-[Power BI 中的报表](../consumer/end-user-reports.md)
+
+[视觉对象交互](../service-reports-visual-interactions.md)
 
 [Power BI 中的可视化效果类型](power-bi-visualization-types-for-reports-and-q-and-a.md)
-
-[Power BI 报表中的可视化效果](power-bi-report-visualizations.md)
-
-[Power BI - 基本概念](../consumer/end-user-basic-concepts.md)
-
-更多问题？ [尝试参与 Power BI 社区](http://community.powerbi.com/)
-

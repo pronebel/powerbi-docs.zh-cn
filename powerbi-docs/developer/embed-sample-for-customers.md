@@ -3,20 +3,21 @@ title: 为客户将 Power BI 内容嵌入应用中
 description: 了解如何使用 Power BI API，为客户将报表、仪表板或磁贴集成到或嵌入 Web 应用中。
 author: markingmyname
 ms.author: maghan
-ms.date: 06/20/2018
+manager: kfile
 ms.topic: tutorial
 ms.service: powerbi
 ms.component: powerbi-developer
 ms.custom: mvc
-manager: kfile
-ms.openlocfilehash: 1185b6195f0d802cec71143c1f27ce5cead584c6
-ms.sourcegitcommit: 16098be04df05bc8e3d44a99b4d143b622759c59
+ms.date: 06/20/2018
+ms.openlocfilehash: 6685b47de6fbcc4ce35d5087c545814e34092d11
+ms.sourcegitcommit: b7b828019b2a2917dfda4d6df0c9cdce70fa68cd
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/07/2018
-ms.locfileid: "39616042"
+ms.lasthandoff: 10/05/2018
+ms.locfileid: "48827424"
 ---
 # <a name="tutorial-embed-a-power-bi-report-dashboard-or-tile-into-an-application-for-your-customers"></a>教程：为客户将 Power BI 报表、仪表板或磁贴嵌入应用程序中
+
 使用“Azure 中的 Power BI Embedded”，可以借助“应用拥有数据”将报表、仪表板或磁贴嵌入到应用程序中。 **应用拥有数据**是指将使用 Power BI 的应用程序作为其嵌入式分析平台。 使用“应用拥有数据”通常是一种“ISV 开发人员”方案。 ISV 开发者可以创建 Power BI 内容以便在完全集成并交互的应用程序中显示报表、仪表板或磁贴，应用程序的用户无需 Power BI 许可证。 本教程演示当针对使用“应用拥有数据”的客户使用“Azure 中的 Power BI Embedded”时，如何使用 Power BI .NET SDK 以及 Power BI JavaScript API 将报表集成到应用程序中。
 
 在本教程中，了解如何：
@@ -25,6 +26,7 @@ ms.locfileid: "39616042"
 >* 将 Power BI 报表嵌入到应用程序。
 
 ## <a name="prerequisites"></a>先决条件
+
 要开始使用，需要一个 Power BI Pro 帐户（作为主帐户）和 Microsoft Azure 订阅。
 
 * 如果未注册 Power BI Pro，请在开始之前[注册以获得免费试用](https://powerbi.microsoft.com/en-us/pricing/)。
@@ -36,9 +38,10 @@ ms.locfileid: "39616042"
 
 在开始将报表、仪表板和磁贴嵌入到应用程序中之前，需要确保环境已设置为允许嵌入。 在设置过程中，需要执行以下操作。
 
-可跟随[载入体验工具](https://aka.ms/embedsetup/AppOwnsData)完成操作，以便快速开始并下载示例应用程序，它会逐步引导你创建环境并嵌入报表。
+你可通过完成[嵌入安装工具](https://aka.ms/embedsetup/AppOwnsData)，快速开始并下载可帮助你逐步创建环境和嵌入报表的示例应用程序。
 
 但是，如果选择手动设置环境，则可以继续进行下面的操作。
+
 ### <a name="register-an-application-in-azure-active-directory-azure-ad"></a>在 Azure Active Directory (Azure AD) 中注册应用程序
 
 向 Azure Active Directory 注册应用程序，以允许应用程序访问 Power BI REST API。 此操作能够为应用程序建立标识，并指定对 Power BI REST 资源的权限。
@@ -46,11 +49,11 @@ ms.locfileid: "39616042"
 1. 接受 [Microsoft Power BI API 条款](https://powerbi.microsoft.com/api-terms)。
 
 2. 登录到 [Azure 门户](https://portal.azure.com)。
- 
+
     ![Azure 门户主视图](media/embed-sample-for-customers/embed-sample-for-customers-002.png)
 
 3. 在左侧导航窗格中，依次选择“所有服务”、“应用注册”和“新应用程序注册”。
-   
+
     ![应用注册搜索](media/embed-sample-for-customers/embed-sample-for-customers-003.png)</br>
     ![新应用注册](media/embed-sample-for-customers/embed-sample-for-customers-004.png)
 
@@ -65,15 +68,15 @@ ms.locfileid: "39616042"
 ### <a name="use-the-azure-active-directory-portal"></a>使用 Azure Active Directory 门户
 
 1. 在 Azure 门户中，转到[应用注册](https://portal.azure.com/#blade/Microsoft_AAD_IAM/ApplicationsListBlade)，再选择要用于嵌入内容的应用。
-   
+
     ![选择应用](media/embed-sample-for-customers/embed-sample-for-customers-006.png)
 
 2. 选择“设置”，然后在“API 访问权限”下选择“所需权限”。
-   
+
     ![所需权限](media/embed-sample-for-customers/embed-sample-for-customers-008.png)
 
 3. 选择“Windows Azure Active Directory”并请务必选中“以登录用户身份访问目录”。 选择**保存**。
-   
+
     ![Windows Azure AD 权限](media/embed-sample-for-customers/embed-sample-for-customers-011.png)
 
 4. 选择**添加**。
@@ -89,13 +92,13 @@ ms.locfileid: "39616042"
     ![选择 PBI 服务](media/embed-sample-for-customers/embed-sample-for-customers-014.png)
 
 7. 选择“委派权限”下的所有权限。 需要逐一选中这些选项才能保存所做的选择。 完成时选择“保存”。
-   
+
     ![选择委托的权限](media/embed-sample-for-customers/embed-sample-for-customers-015.png)
 
 8. 在“所需权限”中，选择“授予权限”。
-   
+
     需要为“主帐户”调用“授予权限”操作，以免 Azure AD 提示提供内容。 如果执行此操作的帐户是全局管理员，则需要向组织内此应用的所有用户授予权限。 如果执行此操作的帐户是主帐户，而不是全局管理员，则只需向此应用的主帐户授予权限。
-   
+
     ![“必需权限”对话框中的“授予权限”](media/embed-sample-for-customers/embed-sample-for-customers-016.png)
 
 ## <a name="set-up-your-power-bi-environment"></a>设置 Power BI 环境
@@ -170,7 +173,9 @@ ms.locfileid: "39616042"
 
     在左侧导航窗格中，依次选择“所有服务”和“应用注册”。
 
-    ![应用注册搜索](media/embed-sample-for-customers/embed-sample-for-customers-003.png) 选择要为其获取“clientId”的应用程序。
+    ![应用注册搜索](media/embed-sample-for-customers/embed-sample-for-customers-003.png)
+
+    选择要为其获取“clientId”的应用程序。
 
     ![选择应用](media/embed-sample-for-customers/embed-sample-for-customers-006.png)
 
@@ -204,6 +209,7 @@ ms.locfileid: "39616042"
     ![查看应用程序](media/embed-sample-for-customers/embed-sample-for-customers-035.png)
 
 ## <a name="embed-your-content-within-your-application"></a>在应用程序中嵌入内容
+
 即使可以使用 [Power BI REST API](https://docs.microsoft.com/rest/api/power-bi/) 完成嵌入内容的步骤，也可使用 .NET SDK 编写本文中所述的示例代码。
 
 客户在应用程序中嵌入内容时，需要从 Azure AD 获取主帐户的访问令牌。 必须为使用“应用拥有数据”的 Power BI 应用程序获取 [Azure AD 访问令牌](get-azuread-access-token.md#access-token-for-non-power-bi-users-app-owns-data)，这样才能对 [Power BI REST API](https://docs.microsoft.com/rest/api/power-bi/) 进行调用。
@@ -225,6 +231,7 @@ using (var client = new PowerBIClient(new Uri(ApiUrl), tokenCredentials))
 ```
 
 ### <a name="get-the-content-item-you-want-to-embed"></a>获取要嵌入的内容项
+
 可使用 Power BI 客户端对象检索对要嵌入的项的引用。
 
 下面的代码示例展示了如何从给定工作区检索首个报表。
@@ -243,6 +250,7 @@ Report report = reports.Value.FirstOrDefault();
 ```
 
 ### <a name="create-the-embed-token"></a>创建嵌入令牌
+
 需要生成嵌入令牌，以便能够通过 JavaScript API 使用此令牌。 嵌入令牌特定于要嵌入的项。 因此，只要嵌入 Power BI 内容，就需要为其新建嵌入令牌。 有关详细信息（包括要使用哪个 accessLevel），请参阅 [GenerateToken API](https://msdn.microsoft.com/library/mt784614.aspx)。
 
 下面是关于将报表嵌入令牌添加到应用程序的示例。
@@ -269,6 +277,7 @@ var embedConfig = new EmbedConfig()
 假设为 EmbedConfig 和 TileEmbedConfig 创建了类。 Models\EmbedConfig.cs 文件和 Models\TileEmbedConfig.cs 文件中提供了相关示例。
 
 ### <a name="load-an-item-using-javascript"></a>使用 JavaScript 加载项
+
 可以使用 JavaScript 将报表加载到网页上的 div 元素中。
 
 有关使用 JavaScript API 的完整示例，可以使用[演练工具](https://microsoft.github.io/PowerBI-JavaScript/demo)。 这是演练不同类型的 Power BI Embedded 示例的快速方法。 还可以通过访问 [PowerBI JavaScript wiki](https://github.com/Microsoft/powerbi-javascript/wiki) 页，获取有关 JavaScript API 的详细信息。
@@ -323,6 +332,7 @@ var embedConfig = new EmbedConfig()
 现在你已完成应用程序的开发，接下来请回到应用工作区了解专用容量。 移动到生产环境需要专用容量。
 
 ### <a name="create-a-dedicated-capacity"></a>创建专用容量
+
 通过创建专用容量，可以利用好客户的专用资源。 可以在 [Microsoft Azure 门户](https://portal.azure.com)中购买专用容量。 有关如何创建 Power BI Embedded 容量的详细信息，请参阅[在 Azure 门户中创建 Power BI Embedded 容量](azure-pbie-create-capacity.md)。
 
 使用下表确定哪种 Power BI Embedded 容量最适合你的需求。
@@ -359,6 +369,7 @@ var embedConfig = new EmbedConfig()
     ![与容量绑定的应用工作区](media/embed-sample-for-customers/embed-sample-for-customers-037.png)
 
 ## <a name="next-steps"></a>后续步骤
+
 在本教程中，你学习了如何将 Power BI 内容嵌入到客户的应用程序中。 你也可以尝试为组织嵌入 Power BI 内容。
 
 > [!div class="nextstepaction"]

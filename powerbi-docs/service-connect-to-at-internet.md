@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 1baccb5fd674d5e0037f112fc8cbee450b6bcb8a
-ms.sourcegitcommit: e8d924ca25e060f2e1bc753e8e762b88066a0344
+ms.openlocfilehash: c65cc7052a3a056280561643c7734212b92769be
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/29/2018
-ms.locfileid: "37136355"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46549402"
 ---
 # <a name="connect-to-at-internet-bridge-with-power-bi"></a>使用 Power BI 连接到 AT Internet Bridge
 AT Internet 可帮助你使用其统一数字分析平台 Analytics Suite 从你的数据中提取即时值。 适用于 Power BI 的 AT Internet Bridge 内容包中包含你站点的访问、源、本地化和设备这些方面的数据。
@@ -44,10 +44,10 @@ AT Internet 可帮助你使用其统一数字分析平台 Analytics Suite 从你
 
 **下一步？**
 
-* 尝试在仪表板顶部的[在“问答”框中提问](power-bi-q-and-a.md)
+* 尝试在仪表板顶部的[在“问答”框中提问](consumer/end-user-q-and-a.md)
 * 在仪表板中[更改磁贴](service-dashboard-edit-tile.md)。
-* [选择磁贴](service-dashboard-tiles.md)以打开基础报表。
-* 虽然数据集将按计划每日刷新，你可以更改刷新计划或根据需要使用**立即刷新**来尝试刷新
+* [选择磁贴](consumer/end-user-tiles.md)以打开基础报表。
+* 虽然数据集将按计划每日刷新，但你可以更改刷新计划或根据需要使用“立即刷新”来尝试刷新
 
 ## <a name="whats-included"></a>包含的内容
 此内容包在以下表中包含最近 45 天内的数据：  
@@ -61,5 +61,5 @@ AT Internet 可帮助你使用其统一数字分析平台 Analytics Suite 从你
 ## <a name="next-steps"></a>后续步骤
 [什么是 Power BI？](power-bi-overview.md)
 
-[Power BI - 基本概念](service-basic-concepts.md)
+[Power BI - 基本概念](consumer/end-user-basic-concepts.md)
 

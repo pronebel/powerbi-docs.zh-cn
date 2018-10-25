@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 05/30/2018
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: dda983aec42731aa885323749d9302db75066569
-ms.sourcegitcommit: e8d924ca25e060f2e1bc753e8e762b88066a0344
+ms.openlocfilehash: 5cd858ad14c1a5fcf76ddf23dafdac2bb5585b10
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/29/2018
-ms.locfileid: "37136769"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46548249"
 ---
 # <a name="connect-to-salesforce-with-power-bi"></a>使用 Power BI 连接到 Salesforce
 你可以使用 Power BI 轻松连接到你的 Salesforce.com 帐户。 创建此连接可检索你的数据，并自动提供基于数据的仪表板和相关报表。
@@ -56,14 +56,16 @@ ms.locfileid: "37136769"
    
    ![](media/service-connect-to-salesforce/pbi_getdatasalesforcedash.png)
 
-你可以更改此仪表板，使其按你所需的方式显示数据。 你可以通过问答提问 - 或者单击磁贴以[打开基础报表](service-dashboard-tiles.md)并在仪表板中[更改磁贴](service-dashboard-edit-tile.md)。
+你可以更改此仪表板，使其按你所需的方式显示数据。 你可以通过问答提问 - 或者单击磁贴以[打开基础报表](consumer/end-user-tiles.md)并在仪表板中[更改磁贴](service-dashboard-edit-tile.md)。
 
 **下一步？**
 
-* 尝试在仪表板顶部的[在“问答”框中提问](power-bi-q-and-a.md)
-* 在仪表板中[更改磁贴](service-dashboard-edit-tile.md)
+* 尝试在仪表板顶部的[在“问答”框中提问](consumer/end-user-q-and-a.md)
+* 在仪表板中[更改磁贴](service-dashboard-edit-tile.md) <<<<<<< 头
+* [选择磁贴](consumer/end-user-tiles.md)以打开基础报表 =======
 * [选择磁贴](service-dashboard-tiles.md)以打开基础报表。
-* 虽然数据集将按计划每日刷新，你可以更改刷新计划或根据需要使用**立即刷新**来尝试刷新
+>>>>>>> 66fe62d8f200efd9cfeb465eeb5f370dbbaa63be
+* 虽然数据集将按计划每日刷新，但你可以更改刷新计划或根据需要使用“立即刷新”来尝试刷新
 
 ## <a name="system-requirements-and-considerations"></a>系统要求和注意事项
 - 与已启用 API 访问的 Salesforce 生产帐户连接

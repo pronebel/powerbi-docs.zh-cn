@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: f4eb0ec93057f309720fc4fef33a55d924881383
-ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
+ms.openlocfilehash: ef59d5f42ba913e4ecad79116dea635744534198
+ms.sourcegitcommit: 52ac456bf2ac025b22ea634c28482f22e1cc19ac
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/21/2018
-ms.locfileid: "46544615"
+ms.lasthandoff: 10/10/2018
+ms.locfileid: "48908569"
 ---
 # <a name="connect-to-adobe-analytics-with-power-bi"></a>使用 Power BI 连接到 Adobe Analytics
 通过 Power BI 连接到 Adobe Analytics 首先会连接到你的 Adobe Analytics 市场营销云帐户。 你将获得一个带 Power BI 仪表板和一组 Power BI 报表的应用，这些报表会提供网站流量和用户维度的相关见解。 此数据每天自动刷新一次。 可以与仪表板和报表进行交互，但不能保存更改。
@@ -25,26 +25,26 @@ ms.locfileid: "46544615"
 ## <a name="how-to-connect"></a>如何连接
 [!INCLUDE [powerbi-service-apps-get-more-apps](./includes/powerbi-service-apps-get-more-apps.md)]
 
-1. 选择**Adobe Analytics** \> **获取**。
+3. 选择**Adobe Analytics** \> **获取**。
    
    ![](media/service-connect-to-adobe-analytics/adobe.png)
-2. Power BI 连接到特定 Adobe Analytics 公司和报表套件 ID（而不是报表套件名称）。 请参阅下面有关[查找这些参数](#FindingParams)的详细信息。
+4. Power BI 连接到特定 Adobe Analytics 公司和报表套件 ID（而不是报表套件名称）。 请参阅下面有关[查找这些参数](#FindingParams)的详细信息。
    
    ![](media/service-connect-to-adobe-analytics/parameters.png)
-3. 对于**身份验证方法**，选择**oAuth2**\>**登录**。 出现提示时，输入 Adobe Analytics 凭据。 
+5. 对于**身份验证方法**，选择**oAuth2**\>**登录**。 出现提示时，输入 Adobe Analytics 凭据。 
    
     ![](media/service-connect-to-adobe-analytics/creds.png)
    
     ![](media/service-connect-to-adobe-analytics/adobe_signin.png)
-4. 单击**接受**以允许 Power BI 访问你的 Adobe Analytics 数据。
+6. 单击**接受**以允许 Power BI 访问你的 Adobe Analytics 数据。
    
    ![](media/service-connect-to-adobe-analytics/adobe_authorize.png)
-5. 在你批准后，导入过程会自动开始。 
+7. 在你批准后，导入过程会自动开始。 
 
 ## <a name="view-the-adobe-analytics-dashboard-and-reports"></a>查看 Adobe Analytics 仪表板和报表
 [!INCLUDE [powerbi-service-apps-open-app](./includes/powerbi-service-apps-open-app.md)]
 
-      ![Adobe Analytics dashboard](media/service-connect-to-adobe-analytics/dashboard.png)
+   ![Adobe Analytics 仪表板](media/service-connect-to-adobe-analytics/dashboard.png)
 
 [!INCLUDE [powerbi-service-apps-open-app](./includes/powerbi-service-apps-what-now.md)]
 
@@ -82,19 +82,19 @@ Power BI 使用 Adobe Analytics 报表 API 为以下表定义和运行报表：
 
 **报表套件 ID**
 
-创建报表套件时会创建套件 ID。 可以与管理员联系以确定 ID 值。 请注意，这不是报表套件名称。
+创建报表套件时会创建套件 ID。 可以与管理员联系以确定 ID 值。 这不是报表套件名称。
 
 来自 Adobe [文档](https://marketing.adobe.com/resources/help/en_US/reference/new_report_suite.html)：
 
 ![](media/service-connect-to-adobe-analytics/reportsuiteid.png)
 
-## <a name="troubleshooting"></a>故障排除
+## <a name="troubleshooting"></a>疑难解答
 如果你在提供凭据之后看到指示你没有权限的错误，请向管理员确认你有权访问 Adobe Analytics API。 还需确认提供的 Adobe ID 链接到市场营销云组织（关联到 Adobe Analytics 公司）。
 
 如果你在遇到错误之前已成功通过凭据屏幕，则可能是报表完成花费的时间太长。 常见错误形式如下：*“未能从 Adobe Analytics 报表获取数据。内容包括&quot;引用方，页面&quot;，大致持续时间为 xx 秒”*。 请查看“包含的内容”部分，并与 Adobe 实例的大小进行比较。 遗憾的是，目前尚无法解决此超时问题。 但我们正考虑进行更新以支持较大实例，请在 https://ideas.powerbi.com 向我们的 Power BI 团队提供反馈
 
 ## <a name="next-steps"></a>后续步骤
-* [Power BI 中的应用有哪些？](consumer/end-user-apps.md)
+* [Power BI 中的应用有哪些？](service-create-distribute-apps.md)
 * [在 Power BI 中获取数据](service-get-data.md)
 * 更多问题？ [尝试咨询 Power BI 社区](http://community.powerbi.com/)
 

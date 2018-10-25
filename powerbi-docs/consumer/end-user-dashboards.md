@@ -7,32 +7,32 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 03/02/2018
+ms.date: 10/02/2018
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: ccfa947f83a5079cda3bfb173c0f83f6b811a9ff
-ms.sourcegitcommit: 70192daf070ede3382ac13f6001e0c8b5fb8d934
+ms.openlocfilehash: 7db5bf514b567cbcaf9dddc5d48006762237a622
+ms.sourcegitcommit: 52ac456bf2ac025b22ea634c28482f22e1cc19ac
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/22/2018
-ms.locfileid: "46564730"
+ms.lasthandoff: 10/10/2018
+ms.locfileid: "48909121"
 ---
 # <a name="dashboards-in-power-bi-service"></a>Power BI 服务中的仪表板
 
 Power BI ***仪表板***是单个页面，通常称为画布，使用可视化效果来讲述故事。 因为它被限制为一页，精心设计的仪表板仅包含该故事的最重要元素。
 
-![仪表板](./media/end-user-dashboards/power-bi-dashboard2.png)
+![仪表板](media/end-user-dashboards/power-bi-dashboard2.png)
 
 你在仪表板上看到的可视化效果称为磁贴，并且固定到报表中的仪表板。 如果不熟悉 Power BI，可以通过阅读 [Power BI 基本概念](end-user-basic-concepts.md)详细了解基础知识。
 
 > [!NOTE]
-> 仪表板是 Power BI 服务的一项功能，在 Power BI Desktop 中不可用。 无法在移动设备上创建仪表板，但可以[查看和共享](mobile/mobile-apps-view-dashboard.md)。
+> 仪表板是 Power BI 服务的一项功能，在 Power BI Desktop 中不可用。 无法在移动设备上创建仪表板，但可以[查看和共享](/mobile/mobile-apps-view-dashboard.md)。
 > 
 > 
 
 仪表板上的可视化效果来自报表，并且每个报表基于一个数据集。 事实上，一种想到仪表板的方法就是进入基础报表和数据集。 选择一个可视化效果可将你转到用于创建仪表板的报表（和数据集）。
 
-![显示仪表板、报表、数据集之间的关系的图表](./media/end-user-dashboards/power-bi-diagram.png)
+![显示仪表板、报表、数据集之间的关系的图表](media/end-user-dashboards/power-bi-diagram.png)
 
 ## <a name="advantages-of-dashboards"></a>仪表板的优点
 仪表板是监控你的业务、寻找答案以及查看所有最重要指标的绝佳方法。 仪表板上的可视化效果可能来自一个或许多个基础数据集，也可能来自一个或多个基础报表。 仪表板将本地数据和云数据合并到一起，提供合并视图（无论数据源自哪里）。
@@ -40,7 +40,7 @@ Power BI ***仪表板***是单个页面，通常称为画布，使用可视化�
 仪表板不仅仅是一张漂亮的图片；它具有高度互动性和高度可定制性，并且磁贴随着基础数据的更改而更新。
 
 ## <a name="dashboards-versus-reports"></a>仪表板与报表
-[报表](end-user-reports.md)经常与仪表板混淆，因为它们也是填充可视化效果的画布。 但它们存在一些主要差异。
+报表经常与仪表板混淆，因为它们也是填充可视化效果的画布。 但它们存在一些主要差异。
 
 | **功能** | **仪表板** | **报表** |
 | --- | --- | --- |
@@ -65,28 +65,16 @@ Power BI ***仪表板***是单个页面，通常称为画布，使用可视化�
 
 共享仪表板和查看共享仪表板都需要 Power BI Pro。
 
-### <a name="if-you-will-be-creating-and-sharing-dashboards"></a>如果你要创建和共享仪表板
-* 使用我们其中一个示例[从报表创建仪表板](../service-dashboard-create.md)。
-* 了解[仪表板磁贴](end-user-tiles.md)以及将其固定到仪表板的所有不同方式。
-* 通过创建与[问答自然语言查询](../service-prepare-data-for-q-and-a.md)和[快速见解](../service-insights-optimize.md)良好结合的仪表板帮助你的仪表板使用者。
-* 发现你可以[与同事共享仪表板](../service-how-to-collaborate-distribute-dashboards-reports.md)的所有不同方式。
-
 ### <a name="if-you-will-be-receiving-and-consuming-dashboards"></a>如果你要接收和使用仪表板
 * 通过参观我们的[示例仪表板](../sample-tutorial-connect-to-the-samples.md)之一，轻松了解仪表板的使用。
 * 了解[仪表板磁贴](end-user-tiles.md)，以及当你选择一个磁贴时将发生的情况。
-* 不喜欢仪表板的外观？  你可以[调整大小、移动和重命名磁贴](../service-dashboard-edit-tile.md)。
-* 想要跟踪单个仪表板磁贴并在该磁贴达到某个阈值时接收电子邮件？ [在磁贴上创建警报](../service-set-data-alerts.md)。
-* 随时询问你的仪表板相关问题。 了解如何使用 [Power BI 问答](../power-bi-tutorial-q-and-a.md)询问有关你的数据的问题，并以可视化效果的形式获得答案。
+* 想要跟踪单个仪表板磁贴并在该磁贴达到某个阈值时接收电子邮件？ [在磁贴上创建警报](end-user-alerts.md)。
+* 随时询问你的仪表板相关问题。 了解如何使用 [Power BI 问答](end-user-q-and-a.md)询问有关你的数据的问题，并以可视化效果的形式获得答案。
 
 > [!TIP]
 > 如果在此处未找到你所查找的内容，请使用左侧的“目录”。
-> 
 > 
 
 ## <a name="next-steps"></a>后续步骤
 [什么是 Power BI？](../power-bi-overview.md)  
 [Power BI - 基本概念](end-user-basic-concepts.md)  
-[Power BI Premium 有哪些特权？](../service-premium.md)  
-
-更多问题？ [尝试咨询 Power BI 社区](http://community.powerbi.com/)
-

@@ -1,6 +1,6 @@
 ### <a name="what-now"></a>下一步？
-* 在仪表板顶部，尝试[在“问答”框中提问](../power-bi-q-and-a.md)。
-* [选择磁贴](../service-dashboard-tiles.md)以打开基础报表。
+* 在仪表板顶部，尝试[在“问答”框中提问](../consumer/end-user-q-and-a.md)。
+* [选择磁贴](../consumer/end-user-tiles.md)以打开基础报表。
 * 可以筛选和突出显示报表中的数据，但不能保存所做的更改。
 * 计划每日刷新数据集。 可以更改刷新计划或根据需要使用“立即刷新”来尝试刷新。
 

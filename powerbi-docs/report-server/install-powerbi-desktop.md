@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-report-server
 ms.topic: conceptual
-ms.date: 05/24/2018
+ms.date: 09/19/2018
 ms.author: maggies
-ms.openlocfilehash: d3b7ace4fe611cc55965f96f770caf7b4ebf21b1
-ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
+ms.openlocfilehash: c65b945260357b0679f8fdb83c534aac53481126
+ms.sourcegitcommit: 70192daf070ede3382ac13f6001e0c8b5fb8d934
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/12/2018
-ms.locfileid: "44726377"
+ms.lasthandoff: 09/22/2018
+ms.locfileid: "46564776"
 ---
 # <a name="install-power-bi-desktop-optimized-for-power-bi-report-server"></a>安装更适合 Power BI 报表服务器的 Power BI Desktop
 了解如何安装更适合 Power BI 报表服务器的 Power BI Desktop。
@@ -31,7 +31,7 @@ ms.locfileid: "44726377"
 
     ![从 Web 门户下载 Power BI Desktop](media/install-powerbi-desktop/report-server-download-web-portal.png)
 
-    或者，可以在 Microsoft 下载中心直接转到 [Microsoft Power BI Desktop](https://www.microsoft.com/download/details.aspx?id=56723)（已针对 Power BI 报表服务器进行优化 - 2018 年 3 月版）。
+    或者，可以在 Microsoft 下载中心直接转到 [Microsoft Power BI Desktop](https://www.microsoft.com/en-us/download/details.aspx?id=57271)（已针对 Power BI 报表服务器进行优化 - 2018 年 8 月）。
 
 2. 在“下载中心”页中，选择“下载”。
 
@@ -41,7 +41,8 @@ ms.locfileid: "44726377"
 
     - **PBIDesktopRS_x64.msi**（64 位版本）。
 
-1. 下载安装程序后，运行 Power BI Desktop（2017 年 10 月版）安装向导。
+1. 下载安装程序后，运行 Power BI Desktop（2018 年 8 月版）安装向导。
+
 2. 安装结束时，请选中“立即启动 Power BI Desktop”。
    
     此时，它会自动启动，可以开始使用了。
@@ -49,7 +50,7 @@ ms.locfileid: "44726377"
 ## <a name="verify-you-are-using-the-correct-version"></a>验证使用的是否是正确版本
 可以查看 Power BI Desktop 中的启动屏幕或标题栏，验证使用的是否是 Power BI Desktop 正确版本。 标题栏指示了版本的发行月份和年份。
 
-![已针对 Power BI 报表服务器进行优化的 Power BI Desktop 的标题栏](media/quickstart-create-powerbi-report/report-server-desktop-march-2018.png)
+![已针对 Power BI 报表服务器进行优化的 Power BI Desktop 的标题栏](media/install-powerbi-desktop/power-bi-report-server-desktop-august-2018.png)
 
 Power BI 服务的 Power BI Desktop 版本不会在标题栏中显示发行月份和年份。
 
@@ -63,7 +64,7 @@ Power BI 服务的 Power BI Desktop 版本不会在标题栏中显示发行月�
 在 Power BI 报表服务器中编辑 Power BI 报表或在 Web 门户中新建 Power BI 报表时，始终都会打开正确版本的 Power BI Destop。
 
 ## <a name="considerations-and-limitations"></a>注意事项和限制
-Power BI 报表服务器和 Power BI 服务 (http://powerbi.com)) 中报表的行为几乎完全相同，但有一些功能不同。
+Power BI 报表服务器、Power BI 服务 (http://app.powerbi.com)) 和 Power BI 移动应用中 Power BI 报表的行为几乎完全相同，但有一些功能不同。
 
 ### <a name="in-a-browser"></a>在浏览器中
 Power BI 报表服务器报表支持所有可视化效果，包括：
@@ -80,9 +81,9 @@ Power BI 报表服务器报表不支持：
 ### <a name="in-the-power-bi-mobile-apps"></a>在 Power BI 移动应用中
 Power BI 报表服务器报表支持 [Power BI 移动应用](../consumer/mobile/mobile-apps-for-mobile-devices.md)中的所有基本功能，其中包括：
 
-* [手机报表布局](../desktop-create-phone-report.md)：可以优化 Power BI 移动应用的报表。 在你的移动手机上，已优化的报表都具有一个特殊的图标 ![手机报表布局图标](media/quickstart-create-powerbi-report/power-bi-rs-mobile-optimized-icon.png) 和布局。
+* [手机报表布局](../desktop-create-phone-report.md)：可以优化 Power BI 移动应用的报表。 在你的移动手机上，已优化的报表都具有一个特殊的图标 ![手机报表布局图标](media/install-powerbi-desktop/power-bi-rs-mobile-optimized-icon.png) 和布局。
   
-    ![针对手机优化后的报表](media/quickstart-create-powerbi-report/power-bi-rs-mobile-optimized-report.png)
+    ![针对手机优化后的报表](media/install-powerbi-desktop/power-bi-rs-mobile-optimized-report.png)
 
 Power BI 报表服务器报表不支持 Power BI 移动应用中的如下功能：
 

@@ -8,27 +8,26 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-admin
 ms.topic: conceptual
-ms.date: 08/29/2018
+ms.date: 10/09/2018
 LocalizationGroup: Premium
-ms.openlocfilehash: 8e19bc596bef3862dca79ac92ffbd74954a9c756
-ms.sourcegitcommit: 6be2c54f2703f307457360baef32aee16f338067
+ms.openlocfilehash: b2627950ea51239acb19972fde3244f3bd158255
+ms.sourcegitcommit: 52ac456bf2ac025b22ea634c28482f22e1cc19ac
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/30/2018
-ms.locfileid: "43300152"
+ms.lasthandoff: 10/10/2018
+ms.locfileid: "48909213"
 ---
-# <a name="monitor-power-bi-premium-capacities-in-your-organization"></a>监视组织中的 Power BI Premium 容量
+# <a name="monitor-power-bi-premium-and-power-bi-embedded-capacities"></a>监视 Power BI Premium 和 Power BI Embedded 容量
 
-本文概述了监视 Power BI Premium 容量的指标。 监控容量使用情况使你能够采取明智的方法来管理容量。 
+本文概述了监视 Power BI Premium 容量的指标。 监控容量使用情况使你能够采取明智的方法来管理容量。
 
 可以使用 Power BI Premium Capacity Metrics 应用或在管理门户中监视容量。 建议使用应用来监视容量，因为它可以提供了更多详细信息，但本文涵盖了这两个选项。
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/UgsjMbhi_Bk?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
 
 ## <a name="install-the-premium-capacity-metrics-app"></a>安装 Premium Capacity Metrics 应用
 
 可以直接转到 [Premium Capacity Metrics 应用](https://app.powerbi.com/groups/me/getapps/services/capacitymetrics)，也可以像在 Power BI 中操作其他应用一样安装它。
-
-> [!IMPORTANT]
-> 要安装和使用此应用，必须至少是一个容量的容量管理员。 仅仅是 Power BI 管理员还不够。 
 
 1. 在 Power BI 中，单击“应用”。
 
@@ -42,47 +41,66 @@ ms.locfileid: "43300152"
 
 现在你已经安装了应用，可以查看有关组织容量的指标。 我们来看看一些可用的关键指标。
 
-## <a name="use-the-metrics-app"></a>使用指标应用 
+## <a name="use-the-metrics-app"></a>使用指标应用
+
 打开应用时，它首先会显示一个仪表板，其中包含你拥有管理员权限的所有容量的摘要。
 
-![Premium 报表概览](media/service-admin-premium-monitor-capacity/app-dashboard.png)
+![指标应用仪表板](media/service-admin-premium-monitor-capacity/app-dashboard.png)
 
-### <a name="filtering"></a>筛选
+该报表具有三个选项卡，我们将在以下部分详细介绍。
 
-使用“应用于所有页面的筛选器”选项卡，可以选择过去七天内的容量、数据集和/或日期范围。 这些筛选器将选择内容应用于此报表中的所有相关页面和磁贴。 如果未选择任何内容，报告会默认显示你拥有的每个容量过去一周的指标。
+* 筛选器应用于所有页面：使你能够将报表中其他页面筛选到特定的容量。
+* 数据集：提供容量内有关数据集健康状况的详细指标。
+* 系统：提供整体容量指标，包括内存和 CPU 高使用率。 
 
-![Premium 报表概览](media/service-admin-premium-monitor-capacity/premium-report-overview.png)
+### <a name="filters-applied-to-all-pages-tab"></a>“筛选器应用于所有页面”选项卡
 
-### <a name="summary-tab"></a>“摘要”选项卡
+使用“筛选器应用于所有页面”选项卡，可以选择过去七天内的容量、数据集和日期范围。 随后筛选器将应用到报表中的所有相关页和磁贴。 如果未选择任何筛选器，则报表会默认显示你拥有的每个容量过去一周的指标。
 
-“摘要”选项卡显示了基于实体、系统和数据集的容量的视图。
+![“筛选器”选项卡](media/service-admin-premium-monitor-capacity/filters-tab.png)
 
-![应用于所有页面的筛选器](media/service-admin-premium-monitor-capacity/premium-summary-report.png)
+### <a name="datasets-tab"></a>“数据集”选项卡
 
-| **区域** | **指标** |
+“数据集”选项卡提供了应用中的大量度量值。 使用该选项卡顶部的四个按钮，可导航到不同区域：“摘要”、“刷新”、“查询”，以及“数据集”。
+
+![“数据集”选项卡](media/service-admin-premium-monitor-capacity/datasets-tab.png)
+
+#### <a name="summary-area"></a>“摘要”区域
+
+![“摘要”按钮](media/service-admin-premium-monitor-capacity/summary-button.png)
+
+“摘要”区域可基于实体、系统资源和数据集工作负载显示容量视图。
+
+| | **指标** |
 | --- | --- |
 | **实体** | * 拥有的容量数<br> * 容量中不同数量的数据集<br> * 容量中不同数量的工作区 |
 | **系统** | * 过去七天内的平均内存使用量 (GB)<br> * 过去七天内的最高内存消耗量 (GB) 以及发生时的当地时间<br> * 过去七天内 CPU 超过阈值的 80% 的次数（按三分钟的时间段划分）<br> * 过去七天内 CPU 超过阈值的 80% 的大多数情况（按一小时的时间段划分）以及发生时的当地时间<br> * 过去七天内直接查询/活动连接数超过阈值的 80% 的次数（按三分钟的时间段划分）<br> * 过去七天内直接查询/活动连接数超过阈值的 80% 的大多数情况（按一小时的时间段划分）以及发生时的当地时间 |
 | **数据集工作负载** | * 过去七天内的刷新总次数<br> * 过去七天内的刷新成功总次数<br> * 过去七天内的刷新失败总次数<br> * 由于内存不足导致刷新失败的总次数<br> * 以分钟为单位度量平均刷新持续时间，完成操作所需的时间<br> * 以分钟为单位度量平均刷新等待时间，计划时间与操作开始时间之间的平均延迟<br> * 过去七天内查询运行的总次数<br> * 过去七天内查询成功的总次数<br> * 过去七天内查询失败的总次数<br> * 以分钟为单位度量平均查询持续时间，完成操作所需的时间<br> * 由于内存压力导致模型收回的总次数 |
 |  |  |
 
-### <a name="refreshes-tab"></a>“刷新”选项卡
+#### <a name="refreshes-area"></a>“刷新”区域
 
-“刷新”选项卡列出了过去七天内由数据集切片的完整刷新、成功度量、平均/最大刷新等待时间和平均/最大刷新持续时间。 底部的两个图表显示刷新与内存消耗量（以 GB 为单位）以及以当地时间报告的平均等待时间（按一小时的时间段划分）。 顶部条形图按完成数据集刷新（刷新持续时间）所花费的最长时间和最大刷新等待时间的总和列出前五个数据集。 多个高刷新等待时间峰值表示容量过度运行。
+![“刷新”按钮](media/service-admin-premium-monitor-capacity/refreshes-button.png)
 
-![Premium 刷新报表](media/service-admin-premium-monitor-capacity/premium-refresh-report.png)
+“刷新”区域可列出过去七天内按数据集划分的完整刷新、成功度量、平均/最大刷新等待时间和平均/最大刷新持续时间。 底部的两个图表显示刷新与内存消耗量（以 GB 为单位）以及以当地时间报告的平均等待时间（按一小时的时间段划分）。 顶部条形图可按完成数据集刷新（刷新持续时间）所花费的平均时间和平均刷新等待时间列出前五个数据集。 多个高刷新等待时间峰值表示容量过度运行。
 
-### <a name="datasets-tab"></a>“数据集”选项卡
+#### <a name="queries-area"></a>“查询”区域
 
-“数据集”选项卡按小时显示由于内存压力收回的完整数据集。
+![“查询”按钮](media/service-admin-premium-monitor-capacity/queries-button.png)
 
-![Premium 数据集报表](media/service-admin-premium-monitor-capacity/premium-datasets-report.png)
+“查询”区域可列出过去七天内按数据集、工作区和每小时 Bucket 数划分的运行查询总数、实时查询/直接查询的查询等待计数总数、平均/最大持续时间、报告的平均/最大等待时间（以毫秒为单位）。 底部的图表显示了按本地时间报告的每小时 Bucket 数划分的查询计数、平均持续时间（以毫秒为单位）和平均等待时间（以毫秒为单位）与内存消耗量（以 GB 为单位）。 右上角的两个图表按平均查询持续时间和完成查询所用的等待时间列出了前五个数据集。 较长的查询持续时间和较长的等待时间表示容量过于繁忙。 这也可能意味着，单个数据集会导致问题，需要进一步调查。
+
+#### <a name="datasets-area"></a>“数据集”区域
+
+![“数据集”按钮](media/service-admin-premium-monitor-capacity/datasets-button.png)
+
+“数据集”区域按小时显示由于内存压力而收回的完整数据集。
 
 ### <a name="system-tab"></a>“系统”选项卡
 
-“系统”选项卡显示 CPU 高利用率（超过了 80% 利用率的次数），直接查询/实时连接高利用率和内存消耗。
+“系统”选项卡显示 CPU 高利用率（利用率超过 80% 的次数）、直接查询/实时连接利用率和内存消耗。
 
-![Premium 系统报表](media/service-admin-premium-monitor-capacity/premium-system-report.png)
+![Premium 系统报表](media/service-admin-premium-monitor-capacity/system-tab.png)
 
 ## <a name="monitor-power-bi-embedded-capacity"></a>监视 Power BI Embedded 容量
 

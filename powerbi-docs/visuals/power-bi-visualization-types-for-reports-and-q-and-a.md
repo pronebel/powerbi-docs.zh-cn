@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 01/19/2018
+ms.date: 09/27/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: a12a497de5ee3e02ea6ba2b1e92fb6c50834d99c
-ms.sourcegitcommit: 70192daf070ede3382ac13f6001e0c8b5fb8d934
+ms.openlocfilehash: 2e6eb9817071f3cbccd442014564e21463bf06f8
+ms.sourcegitcommit: 769ef3c8cbafd9ad5979eb4023a394ac7dba8d02
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/22/2018
-ms.locfileid: "46566027"
+ms.lasthandoff: 09/28/2018
+ms.locfileid: "47448928"
 ---
 # <a name="visualization-types-in-power-bi"></a>Power BI 中的可视化效果类型
 ## <a name="power-bi-visualizations"></a>Power BI 可视化效果
@@ -32,10 +32,10 @@ ms.locfileid: "46566027"
 >[!TIP]
 >基本分区图是在折线图的基础上增加了坐标轴和填充的线之间的区域。
 
-有关详细信息，请参阅[教程：基本分区图](power-bi-visualization-basic-area-chart.md)。
+有关详细信息，请参阅[基本分区图](power-bi-visualization-basic-area-chart.md)。
 
 ### <a name="bar-and-column-charts"></a>条形图和柱形图
-![](media/power-bi-visualization-types-for-reports-and-q-and-a/pbi_nancy_viz_bar.png) 
+![](media/power-bi-visualization-types-for-reports-and-q-and-a/pbi_nancy_viz_bar.png)
 
  ![](media/power-bi-visualization-types-for-reports-and-q-and-a/pbi_nancy_viz_col.png)
 
@@ -56,7 +56,7 @@ ms.locfileid: "46566027"
 >[!TIP]
 >组合图将柱形图和折线图结合在一起。 请在折线图和堆积柱形图和折线图和簇状柱形图中选择。
 
-有关详细信息，请参阅 [Tutorial: Combo charts in Power BI（教程：Power BI 中的组合图）](power-bi-visualization-combo-chart.md)。
+有关详细信息，请参阅 [Power BI 中的组合图](power-bi-visualization-combo-chart.md)。
 
 ### <a name="doughnut-charts"></a>圆环图
 ![](media/power-bi-visualization-types-for-reports-and-q-and-a/donutsmall.png)
@@ -64,7 +64,7 @@ ms.locfileid: "46566027"
 >[!TIP]
 >圆环图类似于饼图。  它们显示部分与整体的关系。
 
-有关详细信息，请参阅 [Tutorial: Doughnut charts in Power BI（教程：Power BI 中的圆环图）](power-bi-visualization-doughnut-charts.md)。
+有关详细信息，请参阅 [Power BI 中的圆环图](power-bi-visualization-doughnut-charts.md)。
 
 ### <a name="funnel-charts"></a>漏斗图
 ![](media/power-bi-visualization-types-for-reports-and-q-and-a/pbi_nancy_viz_funnel.png)
@@ -72,7 +72,7 @@ ms.locfileid: "46566027"
 >[!TIP]
 >漏斗图用于可视化包含阶段和从一个阶段按顺序流到下一个阶段的项目的流程。  当阶段之间存在顺序流时使用漏斗图，例如销售过程以潜在客户为起点，以购买完成为终点。
 
-有关详细信息，请参阅 [Tutorial: Funnel Charts in Power BI（教程：Power BI 中的漏斗图）](power-bi-visualization-funnel-charts.md)。
+有关详细信息，请参阅 [Power BI 中的漏斗图](power-bi-visualization-funnel-charts.md)。
 
 ### <a name="gauge-charts"></a>仪表盘
 ![](media/power-bi-visualization-types-for-reports-and-q-and-a/gauge_m.png)
@@ -80,7 +80,7 @@ ms.locfileid: "46566027"
 >[!TIP]
 >显示相对于目标的当前状态。
 
-有关详细信息，请参阅 [Tutorial: Gauge Charts in Power BI（教程：Power BI 中的仪表盘）](power-bi-visualization-radial-gauge-charts.md)。
+有关详细信息，请参阅 [Power BI 中的仪表图](power-bi-visualization-radial-gauge-charts.md)。
 
 ### <a name="kpis"></a>KPI
 ![](media/power-bi-visualization-types-for-reports-and-q-and-a/power-bi-kpi.png)
@@ -88,7 +88,7 @@ ms.locfileid: "46566027"
 >[!TIP]
 >显示可衡量目标的进程。
 
-有关详细信息，请参阅[教程：Power BI 中的 KPI](power-bi-visualization-kpi.md)。
+有关详细信息，请参阅 [Power BI 中的 KPI](power-bi-visualization-kpi.md)。
 
 ### <a name="line-charts"></a>折线图
 ![](media/power-bi-visualization-types-for-reports-and-q-and-a/pbi_nancy_viz_line.png)
@@ -107,7 +107,7 @@ ms.locfileid: "46566027"
 ### <a name="maps-arcgis-maps"></a>地图：ArcGIS 地图
 ![](media/power-bi-visualization-types-for-reports-and-q-and-a/power-bi-esri-map-theme2.png)
 
-有关详细信息，请参阅[教程：Power BI 中的 ArcGIS 地图](../power-bi-visualization-arcgis.md)。
+有关详细信息，请参阅 [Power BI 中的 ArcGIS 地图](../power-bi-visualization-arcgis.md)。
 
 ### <a name="maps-filled-maps-choropleth"></a>地图：着色地图（地区分布图）
 ![](media/power-bi-visualization-types-for-reports-and-q-and-a/pbi_nancy_viz_filledmap.png)
@@ -115,10 +115,21 @@ ms.locfileid: "46566027"
 >[!TIP]
 >颜色越深表示值越大。
 
-有关详细信息，请参阅 [Tutorial: Filled Maps in Power BI（教程：Power BI 中的着色地图）](power-bi-visualization-filled-maps-choropleths.md)。
+有关详细信息，请参阅 [Power BI 中的着色地图](power-bi-visualization-filled-maps-choropleths.md)。
+
+### <a name="maps-shape-maps"></a>地图：形状图
+![](media/power-bi-visualization-types-for-reports-and-q-and-a/power-bi-shape-map2.png)
+
+>[!TIP]
+>将区域的颜色进行比较。
+
+有关详细信息，请参阅 [Power BI 中的形状图](desktop-shape-map.md)。
+
 
 ### <a name="matrix"></a>矩形图
 ![](media/power-bi-visualization-types-for-reports-and-q-and-a/matrix.png)
+
+有关详细信息，请参阅 [Power BI 中的 Matrix 视觉对象](desktop-shape-map.md)。
 
 ### <a name="pie-charts"></a>饼图
 ![](media/power-bi-visualization-types-for-reports-and-q-and-a/pbi_nancy_viz_pie.png)
@@ -129,12 +140,20 @@ ms.locfileid: "46566027"
 >[!TIP]
 >显示两个（散点）或三个（气泡）量化指标之间的关系 -- 是否存在关系，按什么顺序等等
 
-有关详细信息，请参阅 [Tutorial: Scatter Charts in Power BI（教程：Power BI 中的散点图）](power-bi-visualization-scatter.md)。
+有关详细信息，请参阅 [Power BI 中的散点图](power-bi-visualization-scatter.md)。
+
+### <a name="scatter-high-density"></a>高密度散点图
+![](media/power-bi-visualization-types-for-reports-and-q-and-a/density-scatter.png)
+
+>[!TIP]
+>视觉对象上过多的数据点可能会阻碍它，因此使用复杂的采样算法来确保可视化效果的准确性。
+
+有关详细信息，请参阅 [Power BI 中的高密度散点图](desktop-high-density-scatter-charts.md)。
 
 ### <a name="slicers"></a>切片器
 ![](media/power-bi-visualization-types-for-reports-and-q-and-a/pbi_slicer.png)
 
-有关详细信息，请参阅 [Tutorial: Slicers in Power BI（教程：Power BI 中的切片器）](power-bi-visualization-slicers.md)。
+有关详细信息，请参阅 [Power BI 中的切片器](power-bi-visualization-slicers.md)。
 
 ### <a name="standalone-images"></a>独立图像
 ![](media/power-bi-visualization-types-for-reports-and-q-and-a/pbi_nancy_viz_image.png)
@@ -149,10 +168,10 @@ ms.locfileid: "46566027"
 
 有关详细信息，请参阅[使用 Power BI 中的表](power-bi-visualization-tables.md)。
 
-### <a name="tree-maps"></a>树状图
+### <a name="treemaps"></a>树状图
 ![](media/power-bi-visualization-types-for-reports-and-q-and-a/pbi_nancy_viz_tree.png)
 
-有关详细信息，请参阅 [Tutorial: Treemaps in Power BI（教程：Power BI 中的树状图）](power-bi-visualization-treemaps.md)。
+有关详细信息，请参阅 [Power BI 中的树状图](power-bi-visualization-treemaps.md)。
 
 >[!TIP]
 >包含带颜色的矩形的图，用矩形大小表示值。  具有层次结构，主矩形内可以嵌套矩形。
@@ -163,7 +182,7 @@ ms.locfileid: "46566027"
 >[!TIP]
 >瀑布图显示随着值的增加或减少的不断变化的总数。
 
-有关详细信息，请参阅 [Tutorial Waterfall Charts in Power BI（教程：Power BI 中的瀑布图）](power-bi-visualization-waterfall-charts.md)。
+有关详细信息，请参阅 [Power BI 中的瀑布图](power-bi-visualization-waterfall-charts.md)。
 
 ## <a name="tell-qa-which-visualization-to-use"></a>告知问答要使用哪个可视化效果
 使用 Power BI 问答键入自然语言查询时，可以在查询中指定可视化效果类型。  例如：
@@ -175,10 +194,3 @@ ms.locfileid: "46566027"
 ## <a name="next-steps"></a>后续步骤
 [Power BI 报表中的可视化效果](power-bi-report-visualizations.md)    
 [sqlbi.com 中正确的视觉对象引用](http://www.sqlbi.com/wp-content/uploads/videotrainings/dashboarddesign/visuals-reference-may2017-A3.pdf)
-
-[Power BI 中的报表](../consumer/end-user-reports.md)
-
-[Power BI - 基本概念](../consumer/end-user-basic-concepts.md)
-
-更多问题？ [尝试参与 Power BI 社区](http://community.powerbi.com/)
-

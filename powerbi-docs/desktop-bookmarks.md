@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 08/06/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: fe52646eef029359ac0e41c5fb32be524076a22d
-ms.sourcegitcommit: cce10e14c111e8a19f282ad6c032d802ebfec943
+ms.openlocfilehash: 1bb9921b31187d0df3debc644088a72e1d78207c
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/08/2018
-ms.locfileid: "39657957"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46549905"
 ---
 # <a name="use-bookmarks-to-share-insights-and-build-stories-in-power-bi"></a>在 Power BI 中使用书签共享见解和创建情景 
 使用 Power BI 中的“书签”，可以帮助捕获当前配置的报表页视图（包括视觉对象的筛选器和状态），然后只需选择保存的书签即可恢复相应状态。 
@@ -132,7 +132,7 @@ Power BI Desktop 自动将该组命名为组 1。 幸运的是，只需双击名
 
 * 如果所选书签位于组中，在书签中选择“查看”时，查看会话中仅显示该组中的书签。 
 
-* 如果所选书签不是组，或位于最高级别（如书签组的名称），将播放整个报表的所有书签，包括所有组中的书签。 
+* 如果所选书签不在组中，或位于最高级别（如书签组的名称），将播放整个报表的所有书签，包括所有组中的书签。 
 
 若要对书签取消分组，只需选择组中的任何书签，单击省略号，然后从显示的菜单中选择“取消分组”即可。 
 
@@ -182,5 +182,5 @@ Power BI Desktop 自动将该组命名为组 1。 幸运的是，只需双击名
 若要详细了解与书签类似的功能或如何与书签交互，请参阅以下文章：
 
 * [在 Power BI Desktop 中使用钻取](desktop-drillthrough.md)
-* [在“焦点”模式下显示仪表板磁贴或报表视觉对象](service-focus-mode.md)
+* [在“焦点”模式下显示仪表板磁贴或报表视觉对象](consumer/end-user-focus.md)
 

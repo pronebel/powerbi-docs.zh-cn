@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: fe5e061913713c76f64995876dda047f7cdc5fea
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 6e2ca51f79173e065d0a780943eab2e834837820
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34244447"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46548617"
 ---
 # <a name="connect-to-insightly-with-power-bi"></a>使用 Power BI 连接到 Insightly
 使用 Insightly 内容包可视化和共享 Power BI 中的 Insightly CRM 数据。 使用 Insightly API 密钥连接到 Power BI，以从 CRM 数据查看和生成报表和仪表板。 使用 Power BI，你可以用新的方式分析数据、创建功能强大的图形和图表，并显示地图上的联系人、潜在客户和组织。
@@ -41,10 +41,10 @@ ms.locfileid: "34244447"
 
 **下一步？**
 
-* 尝试在仪表板顶部的[在“问答”框中提问](power-bi-q-and-a.md)
+* 尝试在仪表板顶部的[在“问答”框中提问](consumer/end-user-q-and-a.md)
 * 在仪表板中[更改磁贴](service-dashboard-edit-tile.md)。
-* [选择磁贴](service-dashboard-tiles.md)以打开基础报表。
-* 虽然数据集将按计划每日刷新，你可以更改刷新计划或根据需要使用**立即刷新**来尝试刷新
+* [选择磁贴](consumer/end-user-tiles.md)以打开基础报表。
+* 虽然数据集将按计划每日刷新，但你可以更改刷新计划或根据需要使用“立即刷新”来尝试刷新
 
 ## <a name="whats-included"></a>包含的内容
 此内容包包括以下表，其中带有对应记录中的字段：

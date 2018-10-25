@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.component: powerbi-developer
 ms.topic: conceptual
 ms.date: 08/31/2018
-ms.openlocfilehash: d540dd29214422dfc33dca2bf2fb1cb74ebe6de7
-ms.sourcegitcommit: 9c3a9ec14c111d766ef5703366c316e72f6e588f
+ms.openlocfilehash: 71cb40ef6f1346bd3d8486658b05427e66d1dbf3
+ms.sourcegitcommit: 9719eccf29298c9c673200350abc58281ef14869
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/13/2018
-ms.locfileid: "45558555"
+ms.lasthandoff: 09/20/2018
+ms.locfileid: "46474037"
 ---
 # <a name="troubleshooting-your-embedded-application"></a>嵌入式应用程序疑难解答
 
@@ -84,18 +84,18 @@ Azure 门户或 Power BI 应用注册页面中的错误消息提到权限不足�
 
 应用程序的后端在调用 GenerateToken 前可能需要刷新身份验证标记。
 
-```
+    ```
     GET https://wabi-us-north-central-redirect.analysis.windows.net/metadata/cluster HTTP/1.1
     Host: wabi-us-north-central-redirect.analysis.windows.net
     ...
     Authorization: Bearer eyJ0eXAiOi...
     ...
- 
+
     HTTP/1.1 403 Forbidden
     ...
-     
+
     {"error":{"code":"TokenExpired","message":"Access token has expired, resubmit with a new access token"}}
-```
+    ```
 
 ## <a name="authentication"></a>身份验证
 
@@ -229,13 +229,13 @@ Add-AzureADServicePrincipalPolicy -Id $sp.ObjectId -RefObjectId $policy.Id
 | OpenConnectionError | 无法显示视觉对象。 无法呈现以下标题的报表视觉对象：<visual title> | 不适用 | 在会话中打开与容量相关的报表时，容量遭暂停或删除 |
 | ExplorationContainer_FailedToLoadModel_DefaultDetails | 无法加载与此报表关联的模型架构。 请确保你已连接到服务器，然后重试。 | 不适用 | <li> 容量已暂停 <li> 容量已删除 |
 
-## <a name="onboarding-experience-tool-for-embedding"></a>用于嵌入的载入体验工具
+## <a name="embedding-setup-tool"></a>嵌入安装程序工具
 
-可跟随[载入体验工具](https://aka.ms/embedsetup)进行操作，以便快速下载示例应用程序。 然后，即可将你的应用程序与示例进行比较。
+可使用[嵌入安装程序工具](https://aka.ms/embedsetup)快速下载示例应用程序。 然后，即可将你的应用程序与示例进行比较。
 
 ### <a name="prerequisites"></a>先决条件
 
-请先验证你具备所有适当先决条件，然后再使用载入体验工具。 需要 Power BI Pro 帐户和 Microsoft Azure 订阅。
+请先验证你具备所有适当先决条件，然后再使用嵌入安装程序工具。 需要 Power BI Pro 帐户和 Microsoft Azure 订阅。
 
 * 如果未注册 Power BI Pro，请在开始之前[注册以获得免费试用](https://powerbi.microsoft.com/en-us/pricing/)。
 * 如果没有 Azure 订阅，请在开始之前先创建一个[免费帐户](https://azure.microsoft.com/free/?WT.mc_id=A261C142F)。
@@ -244,7 +244,7 @@ Add-AzureADServicePrincipalPolicy -Id $sp.ObjectId -RefObjectId $policy.Id
 
 ### <a name="common-issues"></a>常见问题
 
-使用载入体验工具进行测试时，可能遇到的常见问题包括：
+使用嵌入安装程序工具进行测试时，可能遇到的一些常见问题包括：
 
 #### <a name="using-the-embed-for-your-customers-sample-application"></a>使用“为客户嵌入”示例应用程序
 
@@ -262,6 +262,10 @@ Add-AzureADServicePrincipalPolicy -Id $sp.ObjectId -RefObjectId $policy.Id
 
 由于未注入示例应用程序的唯一值是用户密码，因此会发生此错误。 在解决方案中打开 Web.config 文件，并用用户密码填充 pbiPassword 字段。
 
+如果收到错误 - AADSTS50079：用户需要使用多重身份验证。
+
+    Need to use an AAD account that does not have MFA enabled.
+
 #### <a name="using-the-embed-for-your-organization-sample-application"></a>为组织示例应用程序使用嵌入
 
 如果使用“为组织嵌入”体验，请保存并解压缩 PowerBI-Developer-Samples.zip 文件。 然后打开 PowerBI-Developer-Samples-master\App Owns Data\integrate-report-web-app 文件夹并运行 pbi-saas-embed-report.sln 文件。
@@ -275,6 +279,10 @@ Add-AzureADServicePrincipalPolicy -Id $sp.ObjectId -RefObjectId $policy.Id
 如果想要编辑已注册的应用程序，请了解如何编辑[已向 AAD 注册的应用程序](https://docs.microsoft.com/azure/active-directory/develop/active-directory-integrating-applications#updating-an-application)，使应用程序可以向 Web API 提供访问权限。
 
 如果想要编辑 Power BI 用户配置文件或数据，请了解如何编辑 [Power BI 数据](https://docs.microsoft.com/power-bi/service-basic-concepts)。
+
+如果收到错误 - AADSTS50079：用户需要使用多重身份验证。
+
+    Need to use an AAD account that does not have MFA enabled.
 
 有关详细信息，请参阅 [Power BI Embedded 常见问题](embedded-faq.md)。
 
