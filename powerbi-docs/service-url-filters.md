@@ -1,22 +1,22 @@
 ---
 title: 在 URL 中添加 Power BI 报表参数
 description: 使用 URL 查询字符串参数筛选报表，甚至筛选多个字段。
-author: mihart
-ms.author: mihart
-manager: annebe
+author: maggiesMSFT
+ms.author: maggies
+manager: kfile
 ms.reviewer: ''
 featuredvideoid: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 09/14/2018
+ms.date: 10/01/2018
 LocalizationGroup: Reports
-ms.openlocfilehash: 1124163b985f575df08a9ba4f065c6a6b1abf54c
-ms.sourcegitcommit: cca21f8089e71b595d3aca30c95f12e4bbf767cc
+ms.openlocfilehash: 562af0b21c4ecd4617de0e524cca20ec6935ca7a
+ms.sourcegitcommit: 31f9da5f562cd02a729b6f012b4b3326416adb0e
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/14/2018
-ms.locfileid: "45626022"
+ms.lasthandoff: 10/03/2018
+ms.locfileid: "48232917"
 ---
 # <a name="filter-a-report-using-query-string-parameters-in-the-url"></a>通过在 URL 中添加查询字符串参数来筛选报表
 
@@ -106,7 +106,7 @@ URL?filter=***表***/***字段*** eq '***值***'
 |**gt**     | 大于        |否 | 是 | 是  | product/price gt 20
 |**le**     |   小于或等于      | 否 | 是 | 是  | product/price le 100
 |**lt**     |  小于       | 否 | 是 | 是 |  product/price lt 20
-|**in****     |  包括       | 否 | 否 |  是 | Student/Age in (27, 29)
+|**in****     |  包括       | 是 | 是 |  是 | Student/Age in (27, 29)
 
 
 \** 使用 in 时，in 右侧的值可以是括在括号中的逗号分隔列表，也可以是返回集合的单个表达式。
@@ -131,14 +131,14 @@ Power BI 支持 Date 和 DateTimeOffset 数据类型 OData V3 和 V4。  日期�
 
 ## <a name="special-characters-in-url-filters"></a>URL 筛选器中的特殊字符
 
-特殊字符和空格需要一些额外的格式设置。 查询包含空格、短划线或其他非 ASCII 字符时，请使用转义码 (_x) 和 4 位 Unicode 为这些特殊字符添加前缀。 如果 Unicode 少于 4 个字符，则需要用零填充。 下面是一些示例。
+特殊字符和空格需要一些额外的格式设置。 查询包含空格、短划线或其他非 ASCII 字符时，请使用转义码为这些特殊字符添加前缀，以下划线和 X (_x) 开头，接着是 4 位 Unicode，然后是另一个下划线。 如果 Unicode 少于 4 个字符，则需要用零填充。 下面是一些示例。
 
 |标识符  |Unicode  | Power BI 的编码  |
 |---------|---------|---------|
-|**表名**     | Space: 0x20        |  Table_x0020_Name       |
-|**Column**@**Number**     |   @: 0x40     |  Column_x0040_Number       |
-|**[Column]**     |  [:0x005B ]:0x0050       |  _x0058_Column_x0050       |
-|**Column+Plus**     | +:0x2B        |  Column_x002B_Plus       |
+|**表名**     | 空间是 0x20        |  Table_x0020_Name       |
+|**Column**@**Number**     |   @ 是 0x40     |  Column_x0040_Number       |
+|**[Column]**     |  [ is 0x0058 ] 是 0x0050       |  _x0058_Column_x0050       |
+|**Column+Plus**     | + 是 0x2B        |  Column_x002B_Plus       |
 
 Table_x0020_Name/Column_x002B_Plus eq 3![表视觉对象呈现特殊字符](media/service-url-filters/power-bi-special-characters1.png)
 
@@ -159,7 +159,7 @@ TerritoryChain = [Territory] & " - " & [Chain]
 
 ## <a name="pin-a-tile-from-a-filtered-report"></a>将筛选后的报表中的可视化效果固定到磁贴中
 
-使用查询字符串参数筛选报表后，便可以将此报表中的可视化效果固定到仪表板中。  仪表板上的磁贴会显示筛选出的数据，选择相应的仪表板磁贴会打开用于创建磁贴的报表。  不过，使用 URL 执行的筛选结果未与报表一起保存，选择仪表板磁贴后打开的报表处于未经筛选的状态。  也就是说，仪表板磁贴中显示的数据与报表可视化效果中显示的数据不一致。
+使用查询字符串参数筛选报表后，便可以将此报表中的可视化效果固定到仪表板中。  仪表板上的磁贴会显示筛选出的数据，选择该仪表板磁贴会打开用于创建磁贴的报表。  不过，使用 URL 执行的筛选结果未与报表一起保存，选择仪表板磁贴后打开的报表处于未经筛选的状态。  也就是说，仪表板磁贴中显示的数据与报表可视化效果中显示的数据不一致。
 
 想要查看不同的结果时（仪表板上显示筛选后的数据，报表中显示未筛选的数据），这就会非常有帮助。
 
@@ -171,6 +171,7 @@ TerritoryChain = [Territory] & " - " & [Chain]
 * 在 Power BI 报表服务器中，可以通过将报表参数包含到报表 URL 中来[传递报表参数](https://docs.microsoft.com/sql/reporting-services/pass-a-report-parameter-within-a-url?view=sql-server-2017.md)。 这些 URL 参数不带前缀，因为它们被直接传递到报表处理引擎。
 * 查询字符串筛选不适用于[发布到 Web](service-publish-to-web.md) 或 Power BI Embedded。   
 * 由于 Javascript 限制，长数据类型限制为 (2^53-1)。
+* 报表 URL 筛选器有 10 个表达式限制（通过 AND 连接的 10 个筛选器）。
 
 ## <a name="next-steps"></a>后续步骤
 
