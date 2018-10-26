@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 07/27/2018
+ms.date: 09/27/2018
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: a3102ff26a4dbf58d8db0073f1af9cf2db5b6515
-ms.sourcegitcommit: f01a88e583889bd77b712f11da4a379c88a22b76
+ms.openlocfilehash: 63b75aae9fb9299119b606458a4a8832d77dd1be
+ms.sourcegitcommit: ce8332a71d4d205a1f005b703da4a390d79c98b6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/27/2018
-ms.locfileid: "39329376"
+ms.lasthandoff: 09/27/2018
+ms.locfileid: "47417156"
 ---
 # <a name="real-time-streaming-in-power-bi"></a>Power BI 中的实时流式处理
 通过 Power BI 实时流式处理，可以流式处理数据并实时更新仪表板。 可以在 Power BI 中创建的任何视觉对象或仪表板也可以创建为显示和更新实时数据和视觉对象。 流式处理数据的设备和源可以是工厂传感器、社交媒体源、服务使用情况指标和其他可从其收集或传输时间敏感数据的任何设备。
@@ -65,7 +65,7 @@ ms.locfileid: "39329376"
 ![](media/service-real-time-streaming/real-time-streaming_11.png)
 
 > [!NOTE]
-> 有关推送限制可推入数据量的信息，请参阅[此 MSDN 文章](https://msdn.microsoft.com/library/dn950053.aspx)。
+> 有关推送限制可推入数据量的信息，请参阅[此文章](https://docs.microsoft.com/power-bi/developer/api-rest-api-limitations)。
 > 
 > 
 
@@ -83,14 +83,12 @@ ms.locfileid: "39329376"
 ### <a name="using-power-bi-rest-apis-to-push-data"></a>使用 Power BI REST API 推送数据
 **Power BI REST API** 可用于创建数据并将数据发送到**推送**数据集和**流式处理**数据集。 使用 Power BI REST API 创建数据集时，*defaultMode* 标志指定是推送还是流式处理数据集。 如果未设置 *defaultMode* 标志，则数据集默认为**推送**数据集。
 
-如果 *defaultMode* 值设置为 pushStreaming，则数据集为**推送**和**流式处理**数据集，从而提供这两种数据集类型的优势。 用于[**创建数据集**的 REST API文章](https://msdn.microsoft.com/library/mt203562.aspx)演示了如何创建流式处理数据集，并在操作中显示 defaultMode 标志。
+如果 *defaultMode* 值设置为 pushStreaming，则数据集为**推送**和**流式处理**数据集，从而提供这两种数据集类型的优势。 
 
 > [!NOTE]
 > 使用 defaultMode 标志设置为 pushStreaming 的数据集时，如果请求超过流式处理数据集的 15Kb 大小限制，但是小于推送数据集的 16MB 大小限制，则该请求将成功，并且数据将在推送数据集中更新。 但是，任何流式处理磁贴都会暂时失败。
-> 
-> 
 
-创建数据集后，使用 REST API 通过[**添加行** API](https://msdn.microsoft.com/library/mt203561.aspx)推送数据（如[本文中所示](https://msdn.microsoft.com/library/mt203561.aspx)）。
+创建数据集后，使用 REST API 以通过 PostRows[ API](https://docs.microsoft.com/rest/api/power-bi/pushdatasets/datasets_postrows) 推送数据。
 
 所有 REST API 请求都使用 **Azure AD OAuth** 加以保护。
 
@@ -159,9 +157,9 @@ Azure 流分析使用 Power BI REST API 创建其到 Power BI 的输出数据流
 
 ![](media/service-real-time-streaming/real-time-streaming_5.png)
 
-如果希望 Power BI 存储通过此数据流发送的数据，请启用“历史数据分析”，然后你可以对收集的数据流进行报告和分析。 也可以[了解有关 API 的详细信息](https://msdn.microsoft.com/library/dn877544.aspx)。
+如果希望 Power BI 存储通过此数据流发送的数据，请启用“历史数据分析”，然后你可以对收集的数据流进行报告和分析。 也可以[了解有关 API 的详细信息](https://docs.microsoft.com/rest/api/power-bi/)。
 
-成功创建数据流后，将为你提供 REST API URL 终结点，应用程序可以通过使用 *POST* 请求调用该终结点，将数据推送到你创建的 Power BI **流式处理数据**数据集中。
+成功创建数据流后，将为你提供 REST API URL 终结点，应用程序可以通过使用 POST 请求调用该终结点，将数据推送到你创建的 Power BI 流式处理数据集中。
 
 发出 *POST* 请求时，应确保请求正文与 Power BI 用户界面提供的示例 JSON 相匹配。 例如，将 JSON 对象包装在一个数组中。
 
@@ -223,10 +221,10 @@ Azure 流分析使用 Power BI REST API 创建其到 Power BI 的输出数据流
 暂不提供此功能。
 
 #### <a name="given-the-previous-question-how-can-i-do-any-modeling-on-real-time-datasets"></a>鉴于上述问题，如何对实时数据集进行任何建模？
-由于数据不会永久存储，因此不能对流式处理数据集进行建模。 对于推送数据集，你可以使用更新数据集/表 REST API 添加度量值和关系。 你可以从[更新表架构文章](https://msdn.microsoft.com/library/mt203560.aspx)和[数据集属性文章](https://msdn.microsoft.com/library/mt742155.aspx)中获取更多信息。
+由于数据不会永久存储，因此不能对流式处理数据集进行建模。 对于推送数据集，你可以使用更新数据集/表 REST API 添加度量值和关系。 
 
 #### <a name="how-can-i-clear-all-the-values-on-a-push-dataset-how-about-streaming-dataset"></a>如何清除推送数据集上的所有值？ 流式处理数据集呢？
-在推送数据集上，你可以使用删除行 REST API 调用。 另外，你还可以使用一个方便的工具，它是围绕 REST API 的包装器。 目前没有办法从流式处理数据集中清除数据，但数据将在一个小时后自行清除。
+在推送数据集上，你可以使用删除行 REST API 调用。 目前没有办法从流式处理数据集中清除数据，但数据将在一个小时后自行清除。
 
 #### <a name="i-set-up-an-azure-stream-analytics-output-to-power-bi-but-i-dont-see-it-appearing-in-power-bi--whats-wrong"></a>我设置了到 Power BI 的 Azure 流分析输出，但没有看到它出现在 Power BI 中，这是怎么回事？
 以下是你可以用于解决问题的清单：
@@ -241,9 +239,6 @@ Azure 流分析使用 Power BI REST API 创建其到 Power BI 的输出数据流
 ## <a name="next-steps"></a>后续步骤
 以下是在 Power BI 中使用实时流式处理时可能有用的几个链接：
 
-* [具有实时数据的 Power BI REST API 概述](https://msdn.microsoft.com/library/dn877544.aspx)
-* [Power BI REST API 限制](https://msdn.microsoft.com/library/dn950053.aspx)
-* [**创建数据集**的 REST API 文章](https://msdn.microsoft.com/library/mt203562.aspx)
-* [**添加行** Power BI REST API](https://msdn.microsoft.com/library/mt203561.aspx)
+* [具有实时数据的 Power BI REST API 概述](https://docs.microsoft.com/rest/api/power-bi/)
 * [Azure 流分析](https://azure.microsoft.com/services/stream-analytics/)
 
