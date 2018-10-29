@@ -194,9 +194,9 @@ items:
       items:
       - name: Power BI Desktop 中的数据分类
         href: desktop-data-categorization.md
-      - name: 在 Power BI Desktop 中为 Power BI 移动应用标记条形码字段
+      - name: 为移动应用标记条形码字段
         href: desktop-mobile-barcodes.md
-      - name: 在 Power BI Desktop 中为 Power BI 移动应用设置地理筛选
+      - name: 为移动应用设置地理位置筛选
         href: desktop-mobile-geofiltering.md
       - name: Power BI Desktop 中的计算列
         href: desktop-calculated-columns.md
@@ -204,6 +204,8 @@ items:
         href: desktop-calculated-tables.md
       - name: Power BI Desktop 中的度量值
         href: desktop-measures.md
+      - name: 编辑问答语言架构
+        href: power-bi-q-and-a-linguistic-schema.md
       - name: 导入和显示 KPI（预览）
         href: desktop-import-and-display-kpis.md
     - name: 创建报表
@@ -346,6 +348,8 @@ items:
     items:
     - name: Power BI Desktop 中的数据类型
       href: desktop-data-types.md
+    - name: Power BI Desktop 公式编辑器快捷键
+      href: desktop-formula-editor.md
     - name: Power BI Desktop 隐私级别
       href: desktop-privacy-levels.md
     - name: Power BI 中的连接器扩展性
@@ -494,8 +498,6 @@ items:
         href: service-connect-to-prevedere.md
       - name: Project Online
         href: service-connect-to-project-online.md
-      - name: Project Madeira
-        href: service-connect-to-project-madeira.md
       - name: Projectplace
         href: service-connect-to-projectplace.md
       - name: QuickBooks Online
@@ -570,6 +572,8 @@ items:
         href: sql-server-analysis-services-tabular-data.md
       - name: Azure 和 Power BI
         href: service-azure-and-power-bi.md
+      - name: Power BI 和 Azure 流出量
+        href: service-azure-egress-power-bi.md
     - name: 数据刷新
       items:
       - name: 配置计划刷新
@@ -630,19 +634,19 @@ items:
       items:
       - name: 从现有报表中创建新报表
         href: power-bi-report-copy.md
-      - name: 向 Power BI 报表添加页面
+      - name: 向报表添加页面
         href: power-bi-report-add-page.md
-      - name: 在 Power BI 中向报表添加筛选器
+      - name: 向报表添加筛选器
         href: power-bi-report-add-filter.md
       - name: 在 Power BI 中保存报表
         href: service-report-save.md
       - name: 从数据集中创建新报表
         href: service-report-create-new.md
-      - name: 与 Power BI 中的编辑视图中的报表进行交互
+      - name: 在“编辑视图”中与报表交互
         href: service-interact-with-a-report-in-editing-view.md
       - name: 在 Excel 中分析
         href: service-analyze-in-excel.md
-      - name: 在 Power BI 服务中创建报表的提示和技巧
+      - name: 创建报表的提示和技巧
         href: power-bi-reports-tips-and-tricks-for-creating.md
       - name: 分析窗格
         href: service-analytics-pane.md
@@ -650,32 +654,32 @@ items:
         href: service-usage-metrics.md
       - name: 为报表创建 QR 代码
         href: service-create-qr-code-for-report.md
-      - name: 在 Power BI 中对报表中的页面重新排序
+      - name: 重新排序报表页面
         href: service-report-reorder-pages.md
-      - name: 在 Power BI 中复制报表页面
+      - name: 复制报表页
         href: power-bi-report-copy-paste-page.md
-      - name: 将报表从 Power BI 服务导出到 Power BI Desktop（预览）
+      - name: 将报表从服务导出到 Power BI Desktop（预览版）
         href: service-export-to-pbix.md
-      - name: 通过在 URL 中添加查询字符串参数来筛选报表
+      - name: 使用 URL 参数筛选报表
         href: service-url-filters.md
-      - name: 在 Power BI 中生成快速可靠报表的最佳做法
+      - name: 生成快速可靠报表的最佳做法
         href: power-bi-reports-performance.md
-      - name: 在 Power BI 中与 ArcGIS 地图交互
+      - name: 与 ArcGIS 地图交互
         href: visuals/power-bi-visualizations-arcgis.md
     - name: 询问数据相关问题
       items:
       - name: 使用问答创建可视化和生成报表
         href: power-bi-tutorial-q-and-a.md
-      - name: 让你的数据与 Power BI 中的问答功能很好地协作
+      - name: 让数据支持问答
         href: service-prepare-data-for-q-and-a.md
       - name: 为 Power BI 启用 Cortana
         href: service-cortana-enable.md
-      - name: 创建 Power BI 问答的精选问题
+      - name: 创建问答的特别推荐问题
         href: service-q-and-a-create-featured-questions.md
       - name: Power BI 中的可视化效果类型
         href: visuals/power-bi-visualization-types-for-reports-and-q-and-a.md
-      - name: 使用 Power BI Desktop 中的语言架构
-        href: power-bi-q-and-a-linguistic-schema.md
+      - name: 结合使用问答和实时连接
+        href: service-q-and-a-direct-query.md
     - name: 共享工作
       items:
       - name: 应如何开展协作并进行共享？
@@ -684,8 +688,6 @@ items:
         href: service-share-dashboards.md
       - name: 创建和共享应用
         href: service-create-distribute-apps.md
-      - name: 安装和使用应用
-        href: service-install-use-apps.md
       - name: 创建应用工作区
         href: service-create-workspaces.md
       - name: 创建新工作区（预览）
@@ -788,7 +790,7 @@ items:
         href: developer/embed-sample-for-customers.md
       - name: 为组织嵌入内容
         href: developer/embed-sample-for-your-organization.md
-      - name: 将内容集成到主权云的应用程序
+      - name: 嵌入主权云的内容
         href: developer/embed-sample-for-customers-sovereign-clouds.md
     - name: 概念
       items:
@@ -1094,8 +1096,14 @@ items:
       href: service-gateway-enterprise-manage-scheduled-refresh.md
     - name: 合并本地和云数据源
       href: service-gateway-mashup-on-premises-cloud.md
-    - name: 使用 Kerberos 进行单一登录 (SSO)
-      href: service-gateway-kerberos-for-sso-pbi-to-on-premises-data.md
+    - name: 启用单一登录 (SSO)
+      items:
+      - name: 单一登录 (SSO) - 概述
+        href: service-gateway-sso-overview.md
+      - name: 单一登录 (SSO) - Kerberos
+        href: service-gateway-sso-kerberos.md
+      - name: 单一登录 (SSO) - SAML
+        href: service-gateway-sso-saml.md
     - name: 配置代理设置
       href: service-gateway-proxy.md
     - name: 本地数据网关的高可用性群集
@@ -1128,7 +1136,7 @@ items:
         href: service-admin-premium-purchase.md
       - name: 管理 Power BI Premium
         href: service-admin-premium-manage.md
-      - name: Power BI Premium 监视容量报告
+      - name: 监视 Power BI Premium
         href: service-admin-premium-monitor-capacity.md
       - name: 支持大型数据集
         href: service-premium-large-datasets.md
@@ -1138,8 +1146,6 @@ items:
         href: service-admin-premium-multi-geo.md
       - name: Power BI Premium 常见问题解答
         href: service-premium-faq.md
-      - name: Power BI Premium 发行说明
-        href: service-premium-release-notes.md
     - name: Office 365 中的管理员角色
       href: service-admin-role.md
     - name: 常见问题解答 (FAQ)
@@ -1185,6 +1191,8 @@ items:
     - name: 适用于 PowerShell 的 Power BI cmdlet
       href: https://docs.microsoft.com/en-us/powershell/power-bi/
       maintainContext: true
+    - name: 服务 URL 参考
+      href: power-bi-whitelist-urls.md
   - name: 资源
     items:
     - name: Power BI 管理和部署方法
@@ -1193,9 +1201,9 @@ items:
       href: service-admin-power-bi-security.md
     - name: Power BI for Office 365 已转换为 Power BI
       href: service-admin-o365portal-retired.md
-ms.openlocfilehash: e91012d1336b54dee11fd3b342ac4a44fc45d979
-ms.sourcegitcommit: dc8b8a2cf2dcc96ccb46159802ebd9342a7fa840
+ms.openlocfilehash: 513c5a62b5436d157b1b22fbf1f06735a589dd3b
+ms.sourcegitcommit: 42475ac398358d2725f98228247b78aedb8cbc4f
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/11/2018
-ms.locfileid: "49112236"
+ms.lasthandoff: 10/25/2018
+ms.locfileid: "50003055"

@@ -10,12 +10,12 @@ ms.component: powerbi-gateways
 ms.topic: conceptual
 ms.date: 08/08/2018
 LocalizationGroup: Gateways
-ms.openlocfilehash: cbc1d6304a7ee34b489d93488115ceb80864a42d
-ms.sourcegitcommit: ef4bf1439bc5655d1afc7fb97079ea0679e9124b
+ms.openlocfilehash: a8f0360d87fe5bf4e19632a92d8dfe4cf61da16e
+ms.sourcegitcommit: 2c4a075fe16ccac8e25f7ca0b40d404eacb49f6d
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/29/2018
-ms.locfileid: "43151897"
+ms.lasthandoff: 10/20/2018
+ms.locfileid: "49474017"
 ---
 # <a name="troubleshooting-the-on-premises-data-gateway"></a>本地数据网关故障排除
 
@@ -40,6 +40,25 @@ ms.locfileid: "43151897"
 * 若要启动服务，则运行该命令：
 
     '''   net start PBIEgwService   '''
+
+### <a name="log-file-configuration"></a>日志文件配置
+
+网关服务日志分为三个 Bucket：信息、错误和网络。 此分类提供了更好的故障排除体验，使你可以根据错误或问题关注特定区域。 可在网关配置文件的以下代码段中看到这三个类别：`GatewayInfo.log,GatewayErrors.log,GatewayNetwork.log`。
+
+```xml
+  <system.diagnostics>
+    <trace autoflush="true" indentsize="4">
+      <listeners>
+        <remove name="Default" />
+        <add name="ApplicationFileTraceListener"
+             type="Microsoft.PowerBI.DataMovement.Pipeline.Common.Diagnostics.RotatableFilesManagerTraceListener, Microsoft.PowerBI.DataMovement.Pipeline.Common"
+             initializeData="%LOCALAPPDATA%\Microsoft\On-premises data gateway\,GatewayInfo.log,GatewayErrors.log,GatewayNetwork.log,20,50" />
+      </listeners>
+    </trace>
+  </system.diagnostics>
+```
+
+默认情况下，此文件位于：\Program Files\On-premises data gateway\Microsoft.PowerBI.EnterpriseGateway.exe.config。若要配置要保留的日志文件数，请更改第一个数字（本例中为 20）：`GatewayInfo.log,GatewayErrors.log,GatewayNetwork.log,20,50`。
 
 ### <a name="error-failed-to-create-a-gateway-try-again"></a>错误：无法创建网关。 请重试
 

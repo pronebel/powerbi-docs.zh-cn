@@ -1,21 +1,21 @@
 ---
 title: Power BI Premium 的 Multi-Geo 支持（预览）
 description: 了解如何将内容部署到除 Power BI 租户主区域以外区域的数据中心。
-author: maggiesMSFT
-ms.author: maggies
+author: mgblythe
+ms.author: mblythe
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-admin
 ms.topic: conceptual
-ms.date: 08/31/2018
+ms.date: 10/21/2018
 LocalizationGroup: Premium
-ms.openlocfilehash: 135217acbe6289edb73c39035f58df8babf32566
-ms.sourcegitcommit: 6be2c54f2703f307457360baef32aee16f338067
+ms.openlocfilehash: 1041dcf8c345bfdf8d5a6ae9823d4cecd5c323a6
+ms.sourcegitcommit: a764e4b9d06b50d9b6173d0fbb7555e3babe6351
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/30/2018
-ms.locfileid: "43300175"
+ms.lasthandoff: 10/22/2018
+ms.locfileid: "49641657"
 ---
 # <a name="multi-geo-support-for-power-bi-premium-preview"></a>Power BI Premium 的 Multi-Geo 支持（预览）
 
@@ -40,7 +40,7 @@ Power BI Embedded 现在也提供 Multi-Geo 功能。 有关详细信息，请�
 对于新容量，可以通过从下拉列表中选择除默认区域以外的区域来启用 Multi-Geo。  每个可用容量显示它当前所在的区域，如美国中西部。
 
 ![容量大小：选择一个区域。 Power BI Multi-Geo](media/service-admin-premium-multi-geo/power-bi-multi-geo-capacity-size.png)
-  
+
 创建容量后，它仍然在此区域，并且任何创建的工作区都将其内容存储在该区域。 可以通过工作区设置屏幕上的下拉列表将工作区从一个区域迁移到另一个区域。
 
 ![编辑工作区：选择可用容量。 Power BI Multi-Geo](media/service-admin-premium-multi-geo/power-bi-multi-geo-edit-workspace.png)
@@ -91,11 +91,8 @@ Power BI Embedded 现在也提供 Multi-Geo 功能。 有关详细信息，请�
 ## <a name="limitations-and-considerations"></a>限制和注意事项
 
 - 在启动数据传输之前，确认在区域之间发起的任何移动都遵循所有企业和政府的合规性要求。
-
 - 存储在远程区域中的缓存查询将停留在该区域内。 然而，传输中的其他数据可能在多个地区之间来回切换。
-
 - 当在 Multi-Geo 环境中将数据从一个区域移动到另一个区域时，源数据可能保留在从中移出数据的区域内达 30 天。 在此期间，最终用户无权访问该数据。 该数据会在 30 天内从该区域中删除并销毁。
-
 - 一般情况下，Multi-Geo 不会促进性能提升。 加载报表和仪表板仍涉及到对主区域元数据的请求。
 
 ## <a name="next-steps"></a>后续步骤

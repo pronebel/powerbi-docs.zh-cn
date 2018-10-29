@@ -10,13 +10,13 @@ ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
 LocalizationGroup: Share your work
-ms.date: 08/16/2018
-ms.openlocfilehash: 111987fda4b0f841c0806dbdc454ac96ddb3c666
-ms.sourcegitcommit: 52ac456bf2ac025b22ea634c28482f22e1cc19ac
+ms.date: 10/01/2018
+ms.openlocfilehash: b701ce9921d055dfe124c5a419f02900b15a9f62
+ms.sourcegitcommit: a764e4b9d06b50d9b6173d0fbb7555e3babe6351
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/10/2018
-ms.locfileid: "48908362"
+ms.lasthandoff: 10/22/2018
+ms.locfileid: "49641197"
 ---
 # <a name="embed-with-report-web-part-in-sharepoint-online"></a>使用报表 Web 部件在 SharePoint Online 中嵌入报表
 
@@ -126,7 +126,7 @@ Power BI Web 部件中可能无法加载报表，并显示以下消息。
 1. 无权访问报表。
 2. 报表已遭删除。
 
-应与 SharePoint Online 页面的所有者联系，让其帮助你解决此问题。
+请与 SharePoint Online 页面的所有者联系，让其帮助你解决此问题。
 
 ## <a name="known-issues-and-limitations"></a>已知问题和限制
 
@@ -148,11 +148,13 @@ Power BI Web 部件中可能无法加载报表，并显示以下消息。
 
 * 此 Web 部件不支持经典 SharePoint Server。
 
+* SPO Web 部件不支持[URL 筛选器](service-url-filters.md)。
+
 ## <a name="next-steps"></a>后续步骤
 
 [允许或禁止最终用户创建新式网站页面](https://support.office.com/article/Allow-or-prevent-creation-of-modern-site-pages-by-end-users-c41d9cc8-c5c0-46b4-8b87-ea66abc6e63b)  
 [在 Power BI 中构建和分发应用](service-create-distribute-apps.md)  
 [与同事和其他人共享仪表板](service-share-dashboards.md)  
-[Power BI Premium 有哪些特权？](service-premium.md)  
+[什么是 Power BI Premium？](service-premium.md)  
 
 更多问题？ [尝试咨询 Power BI 社区](http://community.powerbi.com/)

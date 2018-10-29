@@ -8,15 +8,15 @@ featuredvideoid: G26dr2PsEpk
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 03/02/2018
+ms.date: 10/19/2018
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: d23e168f6192629ce9dd945e29691dcf40ae1427
-ms.sourcegitcommit: 70192daf070ede3382ac13f6001e0c8b5fb8d934
+ms.openlocfilehash: 66956a38a4f2076a01cf224bbef3a20490915e9b
+ms.sourcegitcommit: 2c4a075fe16ccac8e25f7ca0b40d404eacb49f6d
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/22/2018
-ms.locfileid: "46565388"
+ms.lasthandoff: 10/20/2018
+ms.locfileid: "49473695"
 ---
 # <a name="featured-dashboards-in-power-bi-service"></a>Power BI 服务中的特色仪表板
 ## <a name="create-a-featured-dashboard"></a>创建特色仪表板
@@ -41,7 +41,7 @@ ms.locfileid: "46565388"
 
 
 1. 打开想要设置为“精选”的仪表板。 
-2. 在顶部导航栏中，将看到“设置为精选”或仅“精选”![精选图标](./media/end-user-featured/power-bi-featured-icon.png) 图标。 选择其中一个。
+2. 在顶部菜单栏中，将看到“设置为精选”或仅“精选”![精选图标](./media/end-user-featured/power-bi-featured-icon.png) 图标。 选择其中一个。
    
     ![设置为精选图标](./media/end-user-featured/power-bi-set-as-featured.png)
 3. 确认选择。

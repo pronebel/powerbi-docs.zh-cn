@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 06/13/2018
+ms.date: 10/18/2018
 ms.author: maikelson
-ms.openlocfilehash: 8a20e5b9807f9495183ebb1e6bd396e68f02c1a1
-ms.sourcegitcommit: e8d924ca25e060f2e1bc753e8e762b88066a0344
+ms.openlocfilehash: 126baf11492f05228d1e0637e27b5f2caa8390a3
+ms.sourcegitcommit: 2c4a075fe16ccac8e25f7ca0b40d404eacb49f6d
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/29/2018
-ms.locfileid: "37137513"
+ms.lasthandoff: 10/20/2018
+ms.locfileid: "49473948"
 ---
 # <a name="power-bi-webinars"></a>Power BI 网络研讨会
 
@@ -22,9 +22,7 @@ ms.locfileid: "37137513"
 
 ## <a name="upcoming-webinars"></a>即将举行的网络研讨会
 
-尚无举办网络研讨会的计划。 请稍后再查看更多近期活动安排。
-
->[从 Power BI 社区参加即将举行的网络研讨会](https://powerbi.microsoft.com/en-us/blog/tag/community-webinars/?Is=Website)
+>[Power BI 社区即将举行的网络研讨会](https://powerbi.microsoft.com/en-us/blog/tag/community-webinars/?Is=Website)
 
 ## <a name="featured-webinars"></a>特别推荐的网络研讨会
 
@@ -34,21 +32,29 @@ ms.locfileid: "37137513"
 <br>作者：Miguel Martinez
 <br>[注册并立即观看](https://info.microsoft.com/getting-started-with-power-bi-ondemand.html?Is=Website)
 
-**PowerBI.Tips 所有者提供的 Power BI 技巧、提示和工具**
-<br>作者：Mike Carlo 和 Seth Bauer
-<br>[立即观看](https://www.youtube.com/watch?v=fnj1_e3HXow)
-
 **在 20 分钟内了解如何通过 Power BI 仪表板进行导航**
 <br>作者：Miguel Martinez
 <br>[注册并立即观看](https://info.microsoft.com/powerbi-dashboard-in-20-min.html?Is=Website)
+
+**Power BI 上运行的 Microsoft - 简化财务规划和分析**
+<br>作者：Cory Hrncirik 和 Miguel Martinez
+<br>[注册并立即观看](https://info.microsoft.com/Microsoft-Runs-on-Power-BI-OnDemandRegistration.html?Is=Website)
+
+**使 Power BI 数据可视化：核心图表类型以及使用方法**
+<br>作者：Miranda Li
+<br>[注册并立即观看](https://info.microsoft.com/Make-your-Power-BI-Data-Visual-Registration.html?Is=Website)
+
+**Power BI、Excel 和 Office 365：优化企业数据**
+<br>作者：Olaf Hubel 和 Miguel Martinez
+<br>[注册并立即观看](https://info.microsoft.com/Unlocking-the-Value-of-your-Enterprise-Data-OnDemandRegistration.html?Is=Website)
 
 **轻松引人入胜 — 改善可视化效果设计的技巧**
 <br>作者：Miranda Li
 <br>[注册并立即观看](https://info.microsoft.com/ww-landing-powerbi-tips-for-better-visualization-design.html?Is=Website)
 
-**另请参阅：使用 Power BI 的 Excel 用户可以获得的 5 个优势**
-<br>作者：Carlos Otero 和 Miguel Martinez
-<br>[注册并立即观看](https://info.microsoft.com/excel-powerbi-better-together.html?Is=Website)
+**PowerBI.Tips 所有者提供的 Power BI 技巧、提示和工具**
+<br>作者：Mike Carlo 和 Seth Bauer
+<br>[立即观看](https://www.youtube.com/watch?v=fnj1_e3HXow)
 
 >[浏览来自我们的社区专家的 Power BI 按需网络研讨会库](https://community.powerbi.com/t5/Webinars-and-Video-Gallery/bd-p/VideoTipsTricks?filter=webinars&featured=yes&Is=Website)
 
@@ -61,6 +67,10 @@ ms.locfileid: "37137513"
 **如何设计具有极佳视觉效果的 Power BI 报表**
 <br>作者：Charles Sterling
 <br>[立即观看](https://community.powerbi.com/t5/Webinars-and-Video-Gallery/5-3-17-Webinar-How-to-Design-Visually-Stunning-Power-BI-Reports/m-p/168204?Is=Website)
+
+**另请参阅：使用 Power BI 的 Excel 用户可以获得的 5 个优势**
+<br>作者：Carlos Otero 和 Miguel Martinez
+<br>[注册并立即观看](https://info.microsoft.com/excel-powerbi-better-together.html?Is=Website)
 
 **在 20 分钟内了解 Power BI Embedded**
 <br>主讲人：Megan Asarrane 和 Colin Murphy

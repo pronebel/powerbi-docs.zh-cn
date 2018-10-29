@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 09/11/2018
 ms.author: mihart
 LocalizationGroup: Common tasks
-ms.openlocfilehash: 770b2796eb8f29cadfe8371cb2baef12cec7c0e8
-ms.sourcegitcommit: 52ac456bf2ac025b22ea634c28482f22e1cc19ac
+ms.openlocfilehash: 0d07953fb4f9474f929c108df5b76acb61c7df7c
+ms.sourcegitcommit: 1a79e48ac820c28c5d0fd05399f49ed22fc74ed7
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/10/2018
-ms.locfileid: "48909519"
+ms.lasthandoff: 10/19/2018
+ms.locfileid: "49435328"
 ---
 # <a name="delete-almost-anything-in-power-bi-service"></a>在 Power BI 服务中删除几乎所有内容
 本文介绍如何在 Power BI 服务中删除仪表板、报表、工作簿、数据集、应用、可视化效果和工作区。
@@ -29,7 +29,7 @@ ms.locfileid: "48909519"
 
 ### <a name="to-delete-a-dashboard"></a>删除仪表板
 1. 在工作区中，选择“仪表板”选项卡。
-2. 找到要删除的仪表板并选择“删除”图标。 ![删除图标](media/service-delete/power-bi-delete-icon.png).
+2. 找到要删除的仪表板并选择“删除”图标。 ![删除图标](media/service-delete/power-bi-delete-icon.png)。
 
     ![视频](media/service-delete/power-bi-delete-dash.gif)
 
@@ -38,7 +38,7 @@ ms.locfileid: "48909519"
 
 ### <a name="to-delete-a-report"></a>删除报表
 1. 在“我的工作区”中，选择“报表”选项卡。
-2. 找到要删除的报表并选择“删除”图标。   ![删除图标](media/service-delete/power-bi-delete-icon.png).   
+2. 找到要删除的报表并选择“删除”图标。   ![删除图标](media/service-delete/power-bi-delete-icon.png)。   
 
     ![工作区的报表选项卡](media/service-delete/power-bi-delete-reportnew.png)
 3. 确认删除。
@@ -129,7 +129,7 @@ ms.locfileid: "48909519"
 
    ![选择应用](media/service-delete/power-bi-delete-app.png)
 
-   如果意外删除应用，你有多种选项可以进行恢复。  可以要求应用创建者重新发送，可以找到带应用链接的原始电子邮件，可以检查[通知中心](service-notification-center.md)以查看是否仍列有该应用的通知，或者可以查看组织的 [AppSource](service-install-use-apps.md)。
+   如果意外删除应用，你有多种选项可以进行恢复。  可以要求应用创建者重新发送，可以找到带应用链接的原始电子邮件，可以检查[通知中心](service-notification-center.md)以查看是否仍列有该应用的通知，还可以查看[组织的 AppSource](consumer/end-user-apps.md)。
 
 ## <a name="considerations-and-troubleshooting"></a>注意事项和疑难解答
 本文介绍如何删除 Power BI 服务的主要构建基块。 但你可以在 Power BI 中删除更多内容。  

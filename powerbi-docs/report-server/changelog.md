@@ -9,12 +9,12 @@ ms.component: powerbi-report-server
 ms.topic: conceptual
 ms.date: 03/31/2018
 ms.author: jtarquino
-ms.openlocfilehash: bfc9b054f9a34757361bf4ab1803aa6904471167
-ms.sourcegitcommit: fb29c4bf7e598f962b453ac68091ca2189d6ae3b
+ms.openlocfilehash: 41f48e886c376f6cc00a76313538e5a6b9ac1c3b
+ms.sourcegitcommit: a764e4b9d06b50d9b6173d0fbb7555e3babe6351
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/31/2018
-ms.locfileid: "43380304"
+ms.lasthandoff: 10/22/2018
+ms.locfileid: "49641933"
 ---
 # <a name="changelog-for-power-bi-report-server"></a>Power BI 报表服务器的更改日志
 
@@ -40,7 +40,7 @@ ms.locfileid: "43380304"
             - 自定义视觉对象回退到与当前版本的服务器 API 兼容的先前版本（如果可用）
 
 - Power BI Desktop（已针对 Power BI 报表服务器进行优化）
-    - 版本：2.61.5192.64（2018 年 8 月），发布日期：2018 年 8 月15 日
+    - 版本：2.61.5192.641（2018 年 8 月），发布日期：2018 年 8 月15 日
         - 包含与 Power BI 报表服务器连接所需的更改（2018 年 8 月）         
         
 ## <a name="march-2018"></a>2018 年 3 月
