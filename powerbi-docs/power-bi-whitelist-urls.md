@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
 ms.date: 10/22/2018
-ms.openlocfilehash: cc7b24d273f8e83854f7e316f0c761e710e48160
-ms.sourcegitcommit: a764e4b9d06b50d9b6173d0fbb7555e3babe6351
+ms.openlocfilehash: 7b57e0d5e303f2b342e2d7750741717b178a8f4e
+ms.sourcegitcommit: f9dd6098ca57d4d6cad34284126d4e58eab1c92c
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/22/2018
-ms.locfileid: "49641956"
+ms.lasthandoff: 10/29/2018
+ms.locfileid: "50222096"
 ---
 # <a name="power-bi-urls"></a>Power BI URL
 
@@ -29,7 +29,7 @@ Power BI 联机服务只需针对列出的终结点打开 TCP 端口 443。
 通配符 (*) 表示根域下的所有级别，并且在信息不可用时，我们将使用 N/A。 “目标”列是包含 FQDN/域和外部站点链接的列表，其中包含更多终结点信息。
 
 >[!Important]
->下表中的信息并不代表美国政府云、德国云或中国云。
+>下表中的信息并不代表美国政府云、德国云或中国云**。
 
 ## <a name="authentication"></a>身份验证
 
@@ -70,7 +70,7 @@ Power BI 依赖于 Office 365 身份验证和标识部分中所需的终结点�
 | --- | --- | --- | --- |
 | 1 | 必需：AppSource（Power BI 中的内部或外部应用） | appsource.microsoft.com </br> *.s-microsoft.com  | TCP 443 |
 | 2 | 必需：登录并获取内容包的数据 | *.github.com  | TCP 443 |
-| 3 | 可选：从个人 OneDrive 中导入文件 | 请参阅 [OneDrive 必需的 URL 和端口](https://docs.microsoft.com/en-us/onedrive/required-urls-and-ports) | 不适用 |
+| 3 | 可选：从个人 OneDrive 中导入文件 | 请参阅 [OneDrive 必需的 URL 和端口](https://docs.microsoft.com/onedrive/required-urls-and-ports) | 不适用 |
 | 4 | 可选：60 秒教程视频中的 Power BI | *.doubleclick.net </br> *.ggpht.com </br> *.google.com </br> *.googlevideo.com </br> *.youtube.com </br> *.ytimg.com </br> fonts.gstatic.com | TCP 443 |
 | 5 | 可选：PubNub 流式处理数据源 | 请参阅 [PubNub 文档](https://support.pubnub.com/support/solutions/articles/14000043522) | 不适用 |
 | | | |
@@ -93,7 +93,7 @@ Power BI 依赖于特定终结点，以便能够查看和访问自定义视觉�
 | 1 | 必需：从市场接口或从文件导入自定义视觉对象 | *.azureedge.net </br> *.blob.core.windows.net </br> store.office.com | TCP 443 |
 | 2 | 可选：必应地图 | bing.com </br> platform.bing.com </br> *.dynamic.tiles.virtualearth.net </br> *.virtualearth.net | TCP 443 |
 | 3 | 可选：PowerApps | 请参阅 PowerApps 系统要求站点中的[必需的服务](https://docs.microsoft.com/powerapps/maker/canvas-apps/limits-and-config#required-services)部分 | 不适用 |
-| 4 | 可选：Visio | 请参阅 Office 365 文档，了解 [Office Online 和常用 URL](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges#microsoft-365-common-and-office-online) 以及 [SharePoint Online 和 OneDrive for Business](https://docs.microsoft.com/en-us/office365/enterprise/urls-and-ip-address-ranges#sharepoint-online-and-onedrive-for-business) | 不适用 |
+| 4 | 可选：Visio | 请参阅 Office 365 文档，了解 [Office Online 和常用 URL](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges#microsoft-365-common-and-office-online) 以及 [SharePoint Online 和 OneDrive for Business](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges#sharepoint-online-and-onedrive-for-business) | 不适用 |
 | | | |
 
 ## <a name="related-external-sites"></a>相关外部站点

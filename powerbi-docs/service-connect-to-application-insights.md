@@ -10,15 +10,15 @@ ms.topic: conceptual
 ms.date: 08/10/2018
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 00a42a3ffcc92ca7bc48459635359acb9da8da82
-ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
+ms.openlocfilehash: 34e3524d561fb6f6394d69fed55c1bd29bddf4bd
+ms.sourcegitcommit: 60fb46b61ac73806987847d9c606993c0e14fb30
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/21/2018
-ms.locfileid: "46548341"
+ms.lasthandoff: 10/25/2018
+ms.locfileid: "50100579"
 ---
 # <a name="connect-to-application-insights-with-power-bi"></a>使用 Power BI 连接到 Application Insights
-使用 Power BI 可通过 [Application Insights](https://azure.microsoft.com/documentation/articles/app-insights-overview/) 遥测创建功能强大的自定义仪表板。 可采用新方式来设想应用遥测。 将来自多个应用程序或组件服务的指标合并到一个仪表板上。 适用于 Application Insights 的 Power BI 内容包的此第一个版本包括用于常见使用情况相关指标（如活动用户、页面视图、会话、浏览器和操作系统版本以及地图中用户的地理分布）的小组件。
+使用 Power BI 可通过 [Application Insights](/azure/application-insights/app-insights-overview/) 遥测创建功能强大的自定义仪表板。 可采用新方式来设想应用遥测。 将来自多个应用程序或组件服务的指标合并到一个仪表板上。 适用于 Application Insights 的 Power BI 内容包的此第一个版本包括用于常见使用情况相关指标（如活动用户、页面视图、会话、浏览器和操作系统版本以及地图中用户的地理分布）的小组件。
 
 连接到[适用于 Power BI 的 Application Insights 内容包](https://app.powerbi.com/getdata/services/application-insights)。
 

@@ -7,20 +7,38 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 10/18/2018
+ms.date: 10/23/2018
 ms.author: maikelson
-ms.openlocfilehash: 126baf11492f05228d1e0637e27b5f2caa8390a3
-ms.sourcegitcommit: 2c4a075fe16ccac8e25f7ca0b40d404eacb49f6d
+ms.openlocfilehash: d656a27717d22d13884bcbfa69fab4ba2babaf12
+ms.sourcegitcommit: 17d68172c73e9a9ff7966ddcedc3f8450584cdec
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/20/2018
-ms.locfileid: "49473948"
+ms.lasthandoff: 10/23/2018
+ms.locfileid: "49952225"
 ---
 # <a name="power-bi-webinars"></a>Power BI 网络研讨会
 
 注册并加入我们即将发布的实时网络研讨会，或根据需要观看我们录制的会话。
 
 ## <a name="upcoming-webinars"></a>即将举行的网络研讨会
+
+**Power BI：Analytics 一步到位**
+<br>作者：Gohul Shanmugalingam
+<br>2018 年 11 月 8 日下午 1:00 - 2:00 EST
+
+唤起所有 Analytics 和 Excel 愿景：了解如何制作实用精美的报表、分享易于理解且有吸引力的见解，以及如何安全地消除复杂数据孤岛，使其可供访问。
+
+我们将分享新产品创新，以及我们对新式企业 BI 和自助式 BI 的愿景，让你的组织能够打造数据驱动文化。
+
+[注册后即可观看 11 月 8 日的节目](https://info.microsoft.com/CA-PowerBI-WBNR-FY19-11Nov-08-PowerBIAnalyticsDoneRight-MCW0008690_01Registration-ForminBody.html?Is=Website)
+
+**使用 Power BI 增强数据建模技能**
+<br>作者：Kasper de Jonge
+<br>2018 年 11 月 20 日中午 11:00 - 12:00 PST
+
+注册此网络研讨会，让你的 Power BI 建模技能更上一层楼。 了解 Power BI 内存中分析引擎、用于创建和管理数据关系的策略，以及如何使用数据分析表达式 (DAX) 筛选器上下文。 了解如何应对在使用 Power BI 或 Azure Analysis Services 进行建模时遇到的任何挑战。
+
+[注册后即可观看 11 月 20 日的节目](https://info.microsoft.com/Strengthen-Your-Data-Modeling-Skills-with-PowerBI-Registration.html?Is=Website)
 
 >[Power BI 社区即将举行的网络研讨会](https://powerbi.microsoft.com/en-us/blog/tag/community-webinars/?Is=Website)
 

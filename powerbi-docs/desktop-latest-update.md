@@ -10,16 +10,16 @@ ms.topic: conceptual
 ms.date: 10/15/2018
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: dc3c80b2043024a694c4852da200eb503b10c28a
-ms.sourcegitcommit: b8461c1876bfe47bf71c87c7820266993f82c0d3
+ms.openlocfilehash: 7de1b47656ae06f522b4b86a124bf558a660ba4e
+ms.sourcegitcommit: 2c4a075fe16ccac8e25f7ca0b40d404eacb49f6d
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/15/2018
-ms.locfileid: "49337027"
+ms.lasthandoff: 10/20/2018
+ms.locfileid: "49473396"
 ---
 # <a name="whats-new-in-the-latest-power-bi-desktop-update"></a>最新 Power BI Desktop 更新中有哪些新增功能？
 
-## <a name="october-2018-update-2625222582"></a>2018 年 10 月更新 (2.62.5222.582)
+## <a name="october-2018-update-263327240262"></a>2018 年 10 月更新 (2.63.3272.40262)
 
 我们的十月更新非常棒，并且相当有用，相信你会很满意。 
 

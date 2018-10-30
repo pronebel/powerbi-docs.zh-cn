@@ -10,12 +10,12 @@ ms.component: powerbi-gateways
 ms.topic: conceptual
 ms.date: 08/08/2018
 LocalizationGroup: Gateways
-ms.openlocfilehash: 5b89b53cab0f7e4df07b15a05cd74c7d99b1392a
-ms.sourcegitcommit: cce10e14c111e8a19f282ad6c032d802ebfec943
+ms.openlocfilehash: 21a254cfc4543649cfe863830a56abe666480e63
+ms.sourcegitcommit: 60fb46b61ac73806987847d9c606993c0e14fb30
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/08/2018
-ms.locfileid: "39657980"
+ms.lasthandoff: 10/25/2018
+ms.locfileid: "50100858"
 ---
 # <a name="high-availability-clusters-for-on-premises-data-gateway"></a>本地数据网关的高可用性群集
 
@@ -90,6 +90,6 @@ ms.locfileid: "39657980"
 -   [深入了解本地数据网关](service-gateway-onprem-indepth.md)  
 -   [本地数据网关（个人模式）](service-gateway-personal-mode.md)
 -   [为本地数据网关配置代理设置](service-gateway-proxy.md)  
--   [使用 Kerberos 进行从 Power BI 到本地数据源的 SSO（单一登录）](service-gateway-kerberos-for-sso-pbi-to-on-premises-data.md)  
+-   [使用 Kerberos 进行从 Power BI 到本地数据源的 SSO（单一登录）](service-gateway-sso-kerberos.md)  
 
 更多问题？ [尝试参与 Power BI 社区](http://community.powerbi.com/)

@@ -10,12 +10,12 @@ ms.component: powerbi-service
 ms.topic: conceptual
 ms.date: 10/01/2018
 LocalizationGroup: Data from databases
-ms.openlocfilehash: f9bc117d4260bb8efa604591703205b405fd63c9
-ms.sourcegitcommit: f391b645062f64ac3adc2ce7877318583b14b941
+ms.openlocfilehash: 92b8d0e0ecfa9bae36e552e30cf8f1a7fcecff4b
+ms.sourcegitcommit: 60fb46b61ac73806987847d9c606993c0e14fb30
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/02/2018
-ms.locfileid: "48016160"
+ms.lasthandoff: 10/25/2018
+ms.locfileid: "50100740"
 ---
 # <a name="spark-on-hdinsight-with-directquery"></a>使用 DirectQuery 的 HDInsight 上的 Spark
 
@@ -58,7 +58,7 @@ ms.locfileid: "48016160"
 
 ## <a name="limitations"></a>限制
 
-随着我们继续改进体验，这些限制和说明可能会发生变化。 可在 [Use BI tools with Apache Spark on Azure HDInsight](https://azure.microsoft.com/documentation/articles/hdinsight-apache-spark-use-bi-tools/)（将 BI 工具与 Azure HDInsight 上的 Apache Spark 配合使用）中找到其他文档
+随着我们继续改进体验，这些限制和说明可能会发生变化。 可在 [Use BI tools with Apache Spark on Azure HDInsight](/azure/hdinsight/spark/apache-spark-use-bi-tools/)（将 BI 工具与 Azure HDInsight 上的 Apache Spark 配合使用）中找到其他文档
 
 * Power BI 服务仅支持 Spark 2.0 和 HDInsights 3.5 的配置。
 * 每个操作（例如选择列或添加筛选器）都会将查询发送回数据库 – 因此在选择非常大的字段之前，请考虑选择适当的视觉对象类型。
@@ -76,9 +76,9 @@ ms.locfileid: "48016160"
 
 ## <a name="next-steps"></a>后续步骤
 
-[入门：使用 Spark SQL 在 HDInsight Linux 上创建 Apache Spark 群集并运行交互式查询](https://azure.microsoft.com/documentation/articles/hdinsight-apache-spark-jupyter-spark-sql)  
+[入门：使用 Spark SQL 在 HDInsight Linux 上创建 Apache Spark 群集并运行交互式查询](/azure/hdinsight/spark/apache-spark-jupyter-spark-sql/)  
 [什么是 Power BI？](power-bi-overview.md)  
 [获取 Power BI 的数据](service-get-data.md)
-[在 SSO 本地网关中使用 Kerberos](service-gateway-kerberos-for-sso-pbi-to-on-premises-data.md)
+[在 SSO 本地网关中使用 Kerberos](service-gateway-sso-kerberos.md)
 
 更多问题？ [尝试参与 Power BI 社区](http://community.powerbi.com/)

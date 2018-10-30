@@ -10,12 +10,12 @@ ms.component: powerbi-gateways
 ms.topic: conceptual
 ms.date: 08/08/2018
 LocalizationGroup: Gateways
-ms.openlocfilehash: 2536ea34cadae5f348e619d713420787db4c467a
-ms.sourcegitcommit: f6360934b9af20bd630e2d3cb88398e3f5794090
+ms.openlocfilehash: 75e760c1ad808d05986de46cf2bc427bb078e3ce
+ms.sourcegitcommit: 60fb46b61ac73806987847d9c606993c0e14fb30
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "48799037"
+ms.lasthandoff: 10/25/2018
+ms.locfileid: "50101269"
 ---
 # <a name="use-custom-data-connectors-with-the-on-premises-data-gateway"></a>通过本地数据网关使用自定义数据连接器
 
@@ -56,6 +56,6 @@ ms.locfileid: "48799037"
 * [深入了解本地数据网关](service-gateway-onprem-indepth.md)  
 * [本地数据网关（个人模式）](service-gateway-personal-mode.md)
 * [为本地数据网关配置代理设置](service-gateway-proxy.md)  
-* [使用 Kerberos 进行从 Power BI 到本地数据源的 SSO（单一登录）](service-gateway-kerberos-for-sso-pbi-to-on-premises-data.md)  
+* [使用 Kerberos 进行从 Power BI 到本地数据源的 SSO（单一登录）](service-gateway-sso-kerberos.md)  
 
 更多问题？ [尝试参与 Power BI 社区](http://community.powerbi.com/)

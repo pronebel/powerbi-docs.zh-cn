@@ -8,18 +8,18 @@ featuredvideoid: jtlLGRKBvXY
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 10/08/2018
+ms.date: 10/16/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: d042119a95cb60f930a0535e93b0a50ee9224da3
-ms.sourcegitcommit: dc8b8a2cf2dcc96ccb46159802ebd9342a7fa840
+ms.openlocfilehash: af39332bdc1c9e1529d56f55215b0b32ab86f3e7
+ms.sourcegitcommit: a3ce866caba24217bcdd011e892b9ea72f3d2400
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/11/2018
-ms.locfileid: "49112250"
+ms.lasthandoff: 10/18/2018
+ms.locfileid: "49396790"
 ---
 # <a name="export-data-from-visualizations"></a>从可视化效果导出数据
-若要查看用于创建可视化效果的数据，可以在 Power BI 中显示该数据或将这些数据以 .xlsx 或.csv 文件形式导出到 Excel。   
+若要查看用于创建可视化效果的数据，可以在 Power BI 中显示该数据或将这些数据以 .xlsx 或.csv 文件形式导出到 Excel。 导出数据的选项需要 Pro 或 Premium 许可证以及对数据集和报表的编辑权限。 
 
 Watch 将从其报表中的其中一个可视化效果导出数据，将其保存为 .xlsx 文件，并在 Excel 中打开它。 然后按照视频下面的分步说明来自己尝试一下。
 
@@ -92,9 +92,12 @@ Watch 将从其报表中的其中一个可视化效果导出数据，将其保�
 
 ### <a name="set-the-export-options"></a>设置导出选项
 Power BI 报表设计器控制向使用者提供的数据导出选项的类型。 选项包括：
-- 仅允许导出汇总数据（这是报表的默认选项） 
-- 允许导出汇总数据和基础数据  
+- 仅允许导出汇总数据（这是新报表的默认选项） 
+- 允许导出汇总数据和基础数据（这是 2018 年 10 月之前的默认选项） 
 - 不允许导出任何数据  
+
+    > [!IMPORTANT]
+    > 建议报表设计人员重新访问旧报表，并根据需要手动重置导出选项。
 
 1. 若要设置上述选项，请在 Power BI Desktop 中操作。
 

@@ -1,23 +1,23 @@
 ---
-title: 在 Power BI 服务中查看报表
-description: 在阅读视图中打开 Power BI 报表。
+title: 在面向使用者的 Power BI 服务中查看报表。
+description: 本主题介绍 Power BI 使用者和最终用户必须打开并查看 Power BI 报告。
 author: mihart
 manager: kvivek
 ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 10/10/2018
+ms.date: 10/17/2018
 ms.author: mihart
-ms.openlocfilehash: 4d37c1389628078466d8fedb290d928c3f02e7d5
-ms.sourcegitcommit: dc8b8a2cf2dcc96ccb46159802ebd9342a7fa840
+ms.openlocfilehash: 15259d472ad315eb0a6274e59ebb30b94f48a302
+ms.sourcegitcommit: a3ce866caba24217bcdd011e892b9ea72f3d2400
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/11/2018
-ms.locfileid: "49112006"
+ms.lasthandoff: 10/18/2018
+ms.locfileid: "49396925"
 ---
-# <a name="view-a-report-in-power-bi-service-apppowerbicom"></a>在 Power BI 服务 (app.powerbi.com) 中查看报表
-报表由一页或多页的视觉对象组成。 报表由 Power BI 报表设计器创建，并且[直接与你共享](end-user-shared-with-me.md)或作为[应用](end-user-apps.md)的一部分共享。 
+# <a name="view-a-report-in-power-bi-service-for-consumers"></a>在面向使用者的 Power BI 服务中查看报表
+报表由一页或多页的视觉对象组成。 报表由 Power BI 报表设计器创建，[并且直接与使用者共享](end-user-shared-with-me.md)或作为[应用](end-user-apps.md)的一部分共享。 
 
 打开报表有许多不同的方式，我们将介绍其中两种：从“主页”页面打开以及从“仪表板”打开。 
 
@@ -42,7 +42,7 @@ Power BI 设计器可以直接与你共享报表，方法是单击顶部菜单�
    
    ![主页上的“与我共享”部分](./media/end-user-report-open/power-bi-shared.png)
 
-4. 只需选择其中一个报表卡即可打开此报表。
+4. 只需选择一个报表卡即可打开该报表。
 
    ![报表页](./media/end-user-report-open/power-bi-report1.png)
 
@@ -65,10 +65,10 @@ Power BI 设计器可以直接与你共享报表，方法是单击顶部菜单�
 
    ![“主页”页面](./media/end-user-report-open/power-bi-my-apps.png)
 
-8. 选择其中一个应用以将其打开。 根据应用设计器设置的选项，应用将打开一个仪表板或一个报表。 如果选择应用后：
+8. 选择其中一个应用以将其打开。 根据应用设计器设置的选项，应用将打开一个仪表板，一个报表或一个应用内容列表。 如果选择应用后：
     - 打开的是报表，这就行了。
     - 打开的是仪表板，请参阅下面的[从仪表板中打开报表](#Open-a-report-from-a-dashboard)。
-
+    - 打开应用内容列表，在“报表”下选择报表以打开它。
 
 
 ## <a name="open-a-report-from-a-dashboard"></a>从仪表板中打开报表
@@ -83,15 +83,15 @@ Power BI 设计器可以直接与你共享报表，方法是单击顶部菜单�
     ![“阅读”视图中打开的报表](./media/end-user-report-open/power-bi-report-new.png)
 
 > [!NOTE]
-> 并非所有磁贴都会打开报表。 如果你选择了[使用问答创建](../service-dashboard-pin-tile-from-q-and-a.md)的磁贴，则问答屏幕将打开。 如果选择[使用仪表板“添加磁贴”小组件创建的](../service-dashboard-add-widget.md)磁贴，则将打开“编辑磁贴”向导。  
+> 并非所有磁贴都会打开报表。 如果你选择了[使用问答创建](end-user-q-and-a.md)的磁贴，则问答屏幕将打开。 如果选择[使用仪表板“添加磁贴”小组件创建的](../service-dashboard-add-widget.md)磁贴，可能出现几种不同的情况。  
 
 
 ##  <a name="still-more-ways-to-open-a-report"></a>其他打开报表的更多方法
 随着你能够更为熟练地导航 Power BI 服务，即可找到最适合自己的工作流。 下面是访问报表的其他几种方法：
 - 从左侧导航窗格中使用“收藏夹”和“最近”    
 - 使用[相关视图](end-user-related.md)    
-- 在电子邮件中，有人[与你共享](../service-share-reports.md)或你已[设置警报](../service-set-data-alerts.md)时    
-- 通过 [通知中心]    (end-user-notification-center.md)    
+- 在电子邮件中，有人[与你共享](../service-share-reports.md)或你已[设置警报](end-user-alerts.md)时    
+- 从你的[通知中心](end-user-notification-center.md)    
 - 其他更多方法
 
 ## <a name="next-steps"></a>后续步骤

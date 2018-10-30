@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 10/15/2018
+ms.date: 10/23/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: f90f2ea4737fc5c98df4d171f8e1e65c2704607d
-ms.sourcegitcommit: b8461c1876bfe47bf71c87c7820266993f82c0d3
+ms.openlocfilehash: 7de11de4c10df6a76f031f88952671d0e365b498
+ms.sourcegitcommit: 17d68172c73e9a9ff7966ddcedc3f8450584cdec
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/15/2018
-ms.locfileid: "49336797"
+ms.lasthandoff: 10/23/2018
+ms.locfileid: "49952202"
 ---
 # <a name="get-data-from-a-web-page-by-providing-an-example"></a>通过提供示例从网页获取数据
 
@@ -51,6 +51,8 @@ ms.locfileid: "49336797"
 在此示例中，我们将提取页面上每个游戏的“名称”和“价格”。 我们可以通过从每个列的页面指定几个示例来执行该操作，如下图所示。 键入这些示例后，Power Query（这是从网页提取数据的基础技术）能够使用智能数据提取算法提取适合示例条目模式的数据。
 
 ![通过示例提取数据](media/desktop-connect-to-web-by-example/web-by-example_06.png)
+
+> 请注意：建议的值仅含长度小于或等于 128 个字符的值。
 
 对从网页提取的数据感到满意后，选择“确定”转到查询编辑器，其中可以应用更多转换或修整数据，例如将此数据与其他数据源进行合并。
 

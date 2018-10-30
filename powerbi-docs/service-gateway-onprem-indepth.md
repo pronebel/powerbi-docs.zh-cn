@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 12/06/2017
 ms.author: mblythe
 LocalizationGroup: Gateways
-ms.openlocfilehash: 8b0121dbfe633eca9c438dfd272d3aeb56fd59a4
-ms.sourcegitcommit: 001ea0ef95fdd4382602bfdae74c686de7dc3bd8
+ms.openlocfilehash: 30ac2c0620607d680874e423c841c381fc273904
+ms.sourcegitcommit: 60fb46b61ac73806987847d9c606993c0e14fb30
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/11/2018
-ms.locfileid: "38921498"
+ms.lasthandoff: 10/25/2018
+ms.locfileid: "50101499"
 ---
 # <a name="on-premises-data-gateway-in-depth"></a>深入了解本地数据网关
 组织中的用户可以访问本地数据（他们已经具有该数据的访问授权），但在这些用户可以连接到本地数据源之前，需要安装和配置本地数据网关。 该网关便于云中的用户与你的本地数据源相互进行快速安全的后台通信，然后返回到云。
@@ -52,7 +52,7 @@ Analysis Services 还可以基于此帐户提供筛选。 筛选可能伴随基�
 在模型中实现角色和动态行级别安全性已超出本文的讨论范围。  你可以在 MSDN 上的[角色（SSAS 表格）](https://msdn.microsoft.com/library/hh213165.aspx)和[安全角色（Analysis Services - 多维数据）](https://msdn.microsoft.com/library/ms174840.aspx)了解详细信息。 若要特别深入地了解表格模型的安全性，请下载并阅读[保护表格 BI 语义模型](https://msdn.microsoft.com/library/jj127437.aspx)白皮书。
 
 ## <a name="what-about-azure-active-directory"></a>Azure Active Directory 如何？
-Microsoft 云服务使用 [Azure Active Directory](https://azure.microsoft.com/documentation/articles/active-directory-whatis/) 来处理对用户的身份验证。 Azure Active Directory 是包含用户名和安全组的租户。 通常情况下，用户登录时使用的电子邮件地址与帐户的 UPN 相同。
+Microsoft 云服务使用 [Azure Active Directory](/azure/active-directory/fundamentals/active-directory-whatis) 来处理对用户的身份验证。 Azure Active Directory 是包含用户名和安全组的租户。 通常情况下，用户登录时使用的电子邮件地址与帐户的 UPN 相同。
 
 本地 Active Directory 的角色是什么？
 
@@ -78,7 +78,7 @@ Power BI 允许映射 Analysis Services 数据源的用户名。 你可以配置
 1. 可以将帐户手动添加到 Azure Active Directory 中。
    
    可以在 Azure 门户或 Office 365 管理门户中创建一个帐户，帐户名称与本地 Active Directory 帐户的 UPN 匹配。
-2. 你可以使用 [Azure AD Connect](https://azure.microsoft.com/documentation/articles/active-directory-aadconnect/) 工具将本地帐户同步到 Azure Active Directory 租户。
+2. 你可以使用 [Azure AD Connect](/azure/active-directory/hybrid/how-to-connect-sync-whatis) 工具将本地帐户同步到 Azure Active Directory 租户。
    
    Azure AD Connect 工具提供有关目录同步和设置身份验证的选项，包括密码哈希同步、传递身份验证和联合身份验证。 如果你不是租户管理员或本地域管理员，则需要联系 IT 管理员对其进行配置。
 
@@ -90,7 +90,7 @@ Power BI 允许映射 Analysis Services 数据源的用户名。 你可以配置
 > 
 
 ## <a name="now-this-is-where-the-gateway-comes-in"></a>现在，这就网关起作用的地方
-网关充当云和本地服务器之间的桥梁。 [Azure 服务总线](https://azure.microsoft.com/documentation/services/service-bus/)可保护云和网关之间的数据传输。 服务总线通过网关上的出站连接在云和本地服务器之间创建一条安全通道。  你不需要在本地防火墙上打开任何入站连接。
+网关充当云和本地服务器之间的桥梁。 [Azure 服务总线](/azure/service-bus-messaging/service-bus-messaging-overview)可保护云和网关之间的数据传输。 服务总线通过网关上的出站连接在云和本地服务器之间创建一条安全通道。  你不需要在本地防火墙上打开任何入站连接。
 
 如果有 Analysis Services 数据源，你需要在加入到与 Analysis Services 服务器位于同一个林/域的计算机上安装网关。
 
@@ -116,8 +116,10 @@ Power BI 允许映射 Analysis Services 数据源的用户名。 你可以配置
 [!INCLUDE [gateway-onprem-accounts-ports-more](./includes/gateway-onprem-accounts-ports-more.md)]
 
 ## <a name="next-steps"></a>后续步骤
+
 [本地数据网关故障排除](service-gateway-onprem-tshoot.md)  
-[Azure 服务总线](https://azure.microsoft.com/documentation/services/service-bus/)  
-[Azure AD Connect](https://azure.microsoft.com/documentation/articles/active-directory-aadconnect/)  
+[Azure 服务总线](/azure/service-bus-messaging/service-bus-messaging-overview/)  
+[Azure AD Connect](/azure/active-directory/hybrid/how-to-connect-sync-whatis/)  
+
 更多问题？ [尝试参与 Power BI 社区](http://community.powerbi.com/)
 

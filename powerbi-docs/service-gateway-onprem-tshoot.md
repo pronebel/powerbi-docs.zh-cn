@@ -10,12 +10,12 @@ ms.component: powerbi-gateways
 ms.topic: conceptual
 ms.date: 08/08/2018
 LocalizationGroup: Gateways
-ms.openlocfilehash: a8f0360d87fe5bf4e19632a92d8dfe4cf61da16e
-ms.sourcegitcommit: 2c4a075fe16ccac8e25f7ca0b40d404eacb49f6d
+ms.openlocfilehash: 2a4fb3bdf4e1041ceb90cde9b6c5f26fcb9a3871
+ms.sourcegitcommit: 60fb46b61ac73806987847d9c606993c0e14fb30
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/20/2018
-ms.locfileid: "49474017"
+ms.lasthandoff: 10/25/2018
+ms.locfileid: "50101637"
 ---
 # <a name="troubleshooting-the-on-premises-data-gateway"></a>本地数据网关故障排除
 
@@ -446,7 +446,7 @@ GROUP BY [t0].[ProductCategoryName],[t0].[FiscalYear] </pi>"
 
 ## <a name="kerberos"></a>Kerberos
 
-如果基础数据库服务器和本地数据网关未针对 [Kerberos 约束委派](service-gateway-kerberos-for-sso-pbi-to-on-premises-data.md)进行适当配置，则在网关上启用[详细日志记录](#microsoftpowerbidatamovementpipelinediagnosticsdllconfig)，并基于网关日志文件中的错误/跟踪进行调查，作为故障排除的起始点。
+如果基础数据库服务器和本地数据网关未针对 [Kerberos 约束委派](service-gateway-sso-kerberos.md)进行适当配置，则在网关上启用[详细日志记录](#microsoftpowerbidatamovementpipelinediagnosticsdllconfig)，并基于网关日志文件中的错误/跟踪进行调查，作为故障排除的起始点。
 
 ### <a name="impersonationlevel"></a>ImpersonationLevel
 
