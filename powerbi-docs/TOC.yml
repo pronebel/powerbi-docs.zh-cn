@@ -70,6 +70,8 @@ items:
       href: desktop-directquery-data-sources.md
     - name: Power BI 数据源必备条件
       href: desktop-data-source-prerequisites.md
+    - name: 自定义视觉对象常见问题解答
+      href: power-bi-custom-visuals-faq.md
   - name: 操作方法
     items:
     - name: 获取 Power BI Desktop
@@ -798,7 +800,7 @@ items:
         href: developer/embedded-row-level-security.md
       - name: Azure 中 Power BI Embedded 的诊断日志记录
         href: developer/azure-pbie-diag-logs.md
-      - name: 常见问题解答
+      - name: 嵌入式常见问题解答
         href: developer/embedded-faq.md
       - name: Power BI 权限
         href: developer/power-bi-permissions.md
@@ -1191,7 +1193,7 @@ items:
     - name: PowerShell、REST API 和 .NET SDK
       href: service-admin-reference.md
     - name: 适用于 PowerShell 的 Power BI cmdlet
-      href: https://docs.microsoft.com/en-us/powershell/power-bi/
+      href: https://docs.microsoft.com/powershell/power-bi/
       maintainContext: true
     - name: 服务 URL 参考
       href: power-bi-whitelist-urls.md
@@ -1201,11 +1203,9 @@ items:
       href: service-admin-governance.md
     - name: Power BI 安全性
       href: service-admin-power-bi-security.md
-    - name: Power BI for Office 365 已转换为 Power BI
-      href: service-admin-o365portal-retired.md
-ms.openlocfilehash: 29189aa7be988fef11dea305e4e0a1651e12a7a4
-ms.sourcegitcommit: f2eab2c3e7b5ec3684f63d819f10cb3dcfa21e73
+ms.openlocfilehash: dbefae36f3a51d7494130593a4c7009f3cbc10b4
+ms.sourcegitcommit: 862faf948468d7f6d464b83f4e0b040d5213a580
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/26/2018
-ms.locfileid: "50153716"
+ms.lasthandoff: 10/30/2018
+ms.locfileid: "50252505"
