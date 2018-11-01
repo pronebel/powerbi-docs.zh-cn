@@ -8,13 +8,13 @@ ms.topic: tutorial
 ms.service: powerbi
 ms.component: powerbi-developer
 ms.custom: mvc
-ms.date: 07/13/2018
-ms.openlocfilehash: 9df612d80d3f322a8391eeb43430942a03850470
-ms.sourcegitcommit: b7b828019b2a2917dfda4d6df0c9cdce70fa68cd
+ms.date: 10/17/2018
+ms.openlocfilehash: 92ed5530ba2e3e72ec4d4e7d7c317993bdf9c04b
+ms.sourcegitcommit: a3ce866caba24217bcdd011e892b9ea72f3d2400
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/05/2018
-ms.locfileid: "48827447"
+ms.lasthandoff: 10/18/2018
+ms.locfileid: "49396856"
 ---
 # <a name="tutorial-embed-a-power-bi-report-dashboard-or-tile-into-an-application-for-your-organization"></a>教程：为组织将 Power BI 报表、仪表板或磁贴嵌入应用程序
 
@@ -158,13 +158,13 @@ ms.locfileid: "48827447"
 
     ![“用户拥有数据”应用程序示例](media/embed-sample-for-your-organization/embed-sample-for-your-organization-026.png)
 
-2. 在示例应用程序中打开 Cloud.config 文件。 有几个字段必须填充后才能成功运行应用程序：**ClientID** 和 **ClientSecret**。
+2. 在示例应用程序中打开 Cloud.config 文件。 必须先填充以下几个字段，然后才能成功运行应用：“ApplicationID”和“ApplicationSecret”。
 
     ![Cloud.config 文件](media/embed-sample-for-your-organization/embed-sample-for-your-organization-030.png)
 
-    使用 Azure 中的“应用程序 ID”填写“ClientID”信息。 应用程序使用“ClientID”向你从其请求权限的用户标识其自身。
+    将 Azure 中的“应用 ID”填入“ApplicationID”字段。 应用使用“ApplicationID”对你向其请求获取权限的用户标识自身。
 
-    若要获取“ClientID”，请执行下列步骤：
+    若要获取“ApplicationID”，请按以下步骤操作：
 
     1. 登录 [Azure 门户](https://portal.azure.com)。
 
@@ -174,17 +174,17 @@ ms.locfileid: "48827447"
 
         ![应用注册搜索](media/embed-sample-for-your-organization/embed-sample-for-your-organization-003.png)
 
-    1. 选择要使用 ClientID 的应用程序。
+    1. 选择需要使用“ApplicationID”的应用。
 
         ![选择一个应用](media/embed-sample-for-your-organization/embed-sample-for-your-organization-006.png)
 
-    1. 你应该会看到列为 GUID 的“应用程序 ID”。 使用此“应用程序 ID”作为应用程序的“ClientID”。
+    1. 你应该会看到列为 GUID 的“应用程序 ID”。 使用此“应用 ID”作为应用的“ApplicationID”。
 
-        ![客户端 ID](media/embed-sample-for-your-organization/embed-sample-for-your-organization-007.png)
+        ![ApplicationID](media/embed-sample-for-your-organization/embed-sample-for-your-organization-007.png)
 
-    1. 用 Azure 的“应用注册”部分的“密钥”部分，填写 ClientSecret 信息。
+    1. 将 Azure 的“应用注册”部分中的“密钥”部分信息填入“ApplicationSecret”字段。
 
-    1. 若要获取“ClientSecret”，请执行下列步骤：
+    1. 若要获取“ApplicationSecret”，请按以下步骤操作：
 
         1. 登录 [Azure 门户](https://portal.azure.com)。
 
@@ -194,7 +194,7 @@ ms.locfileid: "48827447"
 
             ![应用注册搜索](media/embed-sample-for-your-organization/embed-sample-for-your-organization-003.png)
 
-        1. 选择要使用 ClientSecret 的应用程序。
+        1. 选择需要使用“ApplicationSecret”的应用。
 
             ![选择一个应用](media/embed-sample-for-your-organization/embed-sample-for-your-organization-006.png)
 

@@ -1,5 +1,5 @@
 ---
-title: 什么是 Power BI 仪表板？
+title: 什么是 Power BI 服务使用者的仪表板？
 description: 仪表板是 Power BI 服务的一个主要功能。
 author: mihart
 manager: kvivek
@@ -10,14 +10,14 @@ ms.topic: conceptual
 ms.date: 10/02/2018
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 7db5bf514b567cbcaf9dddc5d48006762237a622
-ms.sourcegitcommit: 52ac456bf2ac025b22ea634c28482f22e1cc19ac
+ms.openlocfilehash: 840f302b1df31736d7fcd1c0766c34963a2f6738
+ms.sourcegitcommit: 2c4a075fe16ccac8e25f7ca0b40d404eacb49f6d
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/10/2018
-ms.locfileid: "48909121"
+ms.lasthandoff: 10/20/2018
+ms.locfileid: "49473890"
 ---
-# <a name="dashboards-in-power-bi-service"></a>Power BI 服务中的仪表板
+# <a name="dashboards-for-power-bi-service-consumers"></a>面向 Power BI 服务使用者的仪表板
 
 Power BI ***仪表板***是单个页面，通常称为画布，使用可视化效果来讲述故事。 因为它被限制为一页，精心设计的仪表板仅包含该故事的最重要元素。
 

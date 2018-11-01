@@ -11,12 +11,12 @@ ms.component: powerbi-service
 ms.topic: conceptual
 ms.date: 10/01/2018
 LocalizationGroup: Reports
-ms.openlocfilehash: 562af0b21c4ecd4617de0e524cca20ec6935ca7a
-ms.sourcegitcommit: 31f9da5f562cd02a729b6f012b4b3326416adb0e
+ms.openlocfilehash: 7a034e865b0e0b6ba55385f8873d039dba0662db
+ms.sourcegitcommit: a3ce866caba24217bcdd011e892b9ea72f3d2400
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/03/2018
-ms.locfileid: "48232917"
+ms.lasthandoff: 10/18/2018
+ms.locfileid: "49396948"
 ---
 # <a name="filter-a-report-using-query-string-parameters-in-the-url"></a>通过在 URL 中添加查询字符串参数来筛选报表
 
@@ -169,7 +169,8 @@ TerritoryChain = [Territory] & " - " & [Chain]
 
 * 使用 in 运算符时，in 右侧的值必须是括在括号中的逗号分隔列表。    
 * 在 Power BI 报表服务器中，可以通过将报表参数包含到报表 URL 中来[传递报表参数](https://docs.microsoft.com/sql/reporting-services/pass-a-report-parameter-within-a-url?view=sql-server-2017.md)。 这些 URL 参数不带前缀，因为它们被直接传递到报表处理引擎。
-* 查询字符串筛选不适用于[发布到 Web](service-publish-to-web.md) 或 Power BI Embedded。   
+* 无法结合使用查询字符串筛选和[发布到 Web](service-publish-to-web.md)。
+* [使用报表 Web 部件在 SharePoint Online 中嵌入报表](service-embed-report-spo.md)不支持 URL 筛选器。
 * 由于 Javascript 限制，长数据类型限制为 (2^53-1)。
 * 报表 URL 筛选器有 10 个表达式限制（通过 AND 连接的 10 个筛选器）。
 

@@ -1,21 +1,21 @@
 ---
-title: 面向使用者的 Power BI 筛选器窗格概述
-description: Power BI 服务中的报表筛选器窗格概述
+title: 添加报表筛选器
+description: 如何在面向使用者的 Power BI 服务中向报表添加筛选器
 author: mihart
 manager: kvivek
 ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 09/25/2018
+ms.date: 10/19/2018
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: c49e075bd7fbe2debb0b577a1ce2771491d5fac4
-ms.sourcegitcommit: 52ac456bf2ac025b22ea634c28482f22e1cc19ac
+ms.openlocfilehash: 31b3584b0cbd2481db64160bcf502caf46e7acc3
+ms.sourcegitcommit: 2c4a075fe16ccac8e25f7ca0b40d404eacb49f6d
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/10/2018
-ms.locfileid: "48908270"
+ms.lasthandoff: 10/20/2018
+ms.locfileid: "49473798"
 ---
 # <a name="take-a-tour-of-the-report-filters-pane"></a>浏览报表“筛选器”窗格
 本文将介绍 Power BI 服务中的报表“筛选器”窗格。
@@ -29,7 +29,7 @@ ms.locfileid: "48908270"
 
 ![浏览器中的报表](media/end-user-report-filter/power-bi-expanded.png)
 
-“筛选器”窗格中包含报告设计者添加到报表中的筛选器。 像你这样的使用者可与这些筛选器交互并保存更改，但不能向报表添加新的筛选器。
+“筛选器”窗格中包含报告设计者添加到报表中的筛选器。 像你这样的使用者可与这些筛选器交互并保存更改，但不能向报表添加新的筛选器。 例如，在上面的屏幕截图中，设计者添加了两个页面级筛选器：“细分”和“年份”。 可以与这些筛选器进行交互，并能更改它们，但无法添加第三个页面级筛选器。
 
 在 Power BI 服务中，报表会保留你在“筛选器”窗格中做出的所有更改，并且这些更改会保留至该报表的移动版本。 要将“筛选器”窗格重置为设计者的默认值，请从顶部菜单栏中选择“重置为默认值”。     
 
@@ -40,11 +40,15 @@ ms.locfileid: "48908270"
 
 ![筛选器列表](media/end-user-report-filter/power-bi-filter-list.png)
 
-部分筛选器旁有“全部”字样，这意味着所有值都包含在一个筛选器中。  例如，下面的屏幕截图中的 **Chain(All)** 告诉我们该报表页包括有关所有存储链的数据。  从另一方面来说，“**FiscalYear 为 2013 或 2014**”的报表级别筛选器告诉我们该报表仅包括 2013 和 2014 的财政年的数据。
+部分筛选器旁有“全部”字样，这意味着所有值都包含在一个筛选器中。  例如，上面屏幕截图中的“连锁(全部)”指明，此报表页包含所有连锁店的数据。  从另一方面来说，“**FiscalYear 为 2013 或 2014**”的报表级别筛选器告诉我们该报表仅包括 2013 和 2014 的财政年的数据。
 
 查看此报表的任何人都可与这些筛选器进行交互。
 
-* 悬停鼠标并选择筛选器旁的箭头可查看该筛选器的详细信息。
+- 在页面、视觉对象、报表和钻取筛选器中搜索，以查找并选择所需的值。 
+
+    ![在筛选器中搜索](media/end-user-report-filter/power-bi-filter-search.png)
+
+- 悬停鼠标并选择筛选器旁的箭头可查看该筛选器的详细信息。
   
    ![显示已选择 Lindseys](media/end-user-report-filter/power-bi-expan-filter.png)
 * 更改筛选器，例如，将“Lindseys”更改为“Fashions Direct”。
@@ -56,9 +60,11 @@ ms.locfileid: "48908270"
     
 * 选择筛选器名称旁的“x”删除筛选器。
   
-  删除筛选器将其从列表删除，但并不会删除报表的数据。  例如，如果删除“FiscalYear 为 2013 或 2014”筛选器，财务年度数据仍将保留在报表中，但将不再筛选为仅显示 2013 和 2014，而是显示数据包含的所有财务年度。  但是，一旦删除筛选器后，将无法再对其修改，因为它已从列表删除。 更好的选择是通过选择橡皮擦图标![橡皮擦图标](media/end-user-report-filter/power-bi-eraser-icon.png)来清除筛选器。
+    ![x 已突出显示](media/end-user-report-filter/power-bi-delete-filter.png)
+
+  删除筛选器将其从列表删除，但并不会删除报表的数据。  例如，如果删除“FiscalYear 为 2013 或 2014”筛选器，财务年度数据仍将保留在报表中，但将不再筛选为仅显示 2013 和 2014，而是显示数据包含的所有财务年度。  但是，一旦删除筛选器后，将无法再对其修改，因为它已从列表删除。 最好是通过选择橡皮擦图标 ![橡皮擦图标](media/end-user-report-filter/power-bi-eraser-icon.png) 来清除筛选器。
   
-  ![x 已突出显示](media/end-user-report-filter/power-bi-delete-filter.png)
+  
 
 
 
@@ -70,14 +76,14 @@ ms.locfileid: "48908270"
 ### <a name="list-mode"></a>列表模式
 勾选复选框将选择或取消选择值。 **全部**复选框可用于切换所有复选框的状态（“启用”或“取消”）。 这些复选框表示该字段的所有可用值。  调整筛选器时，重述将更新以反映你的选择。 
 
-![列表模式筛选器](media/end-user-report-filter/pbi_restatement.png)
+![列表模式筛选器](media/end-user-report-filter/power-bi-restatement-new.png)
 
-注意，现在重述的表述方式“为 Amarilla 或 Carretera”
+请注意，重述现在为“是 3 月、4 月或 5 月”。
 
 ### <a name="advanced-mode"></a>高级模式
 选择**高级筛选**以切换到高级模式。 使用下拉控件和文本框来标识要包括哪些字段。 通过在**且**和**或**之间选择，可以生成复杂的筛选器表达式。 设置所需值后，选择**应用筛选器**按钮。  
 
-![高级模式](media/end-user-report-filter/aboutfilters.png)
+![高级模式](media/end-user-report-filter/power-bi-advanced.png)
 
 ## <a name="types-of-filters-numeric-field-filters"></a>筛选器类型：数值字段筛选器
 ### <a name="list-mode"></a>列表模式
@@ -86,7 +92,7 @@ ms.locfileid: "48908270"
 ### <a name="advanced-mode"></a>高级模式
 如果这些值有限或表示一个范围，则选择字段名称将打开高级筛选器模式。 使用下拉列表和文本框来指定想要查看的值的范围。 
 
-![高级筛选器](media/end-user-report-filter/pbi_dropdown-and-text.png)
+![高级筛选器](media/end-user-report-filter/power-bi-dropdown-and-text.png)
 
 通过在**且**和**或**之间选择，可以生成复杂的筛选器表达式。 设置所需值后，选择**应用筛选器**按钮。
 

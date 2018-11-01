@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 02/13/2018
 ms.author: mblythe
 LocalizationGroup: Get started
-ms.openlocfilehash: 88942d4bf304af7a43df3a0f4864b537182cc84c
-ms.sourcegitcommit: 833cf1252807721fb1b3000487bd032bfd6c8c98
+ms.openlocfilehash: 62d6a274b7cfb784f4f61b0973bad22ea6194698
+ms.sourcegitcommit: a764e4b9d06b50d9b6173d0fbb7555e3babe6351
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "48272308"
+ms.lasthandoff: 10/22/2018
+ms.locfileid: "49641289"
 ---
 # <a name="power-bi-free-vs-pro"></a>Power BI 免费版与 Power BI Pro
 
@@ -44,7 +44,7 @@ Power BI 中的每个用户都是免费版用户或 Power BI Pro 用户。 了�
 
 ## <a name="next-steps"></a>后续步骤
 
-如果想要详细了解 Power BI Premium，请参阅[什么是 Power BI Premium？](service-premium.md)。
+若要详细了解 Power BI Premium，请参阅[什么是 Power BI Premium？](service-premium.md)。
 
 若要进行注册以开始使用 Power BI，请参阅[以个人身份注册 Power BI](service-self-service-signup-for-power-bi.md)。
 
