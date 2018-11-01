@@ -7,34 +7,35 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-admin
 ms.topic: conceptual
-ms.date: 06/28/2017
+ms.date: 10/30/2018
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: 2f10ead5d08efa12cae05aeb6f2e3d3068636f77
-ms.sourcegitcommit: a3ce866caba24217bcdd011e892b9ea72f3d2400
+ms.openlocfilehash: 02829adb386cc746715a34300a42aba616dc2d60
+ms.sourcegitcommit: 862faf948468d7f6d464b83f4e0b040d5213a580
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/18/2018
-ms.locfileid: "49396902"
+ms.lasthandoff: 10/30/2018
+ms.locfileid: "50252482"
 ---
 # <a name="power-bi-admin-portal"></a>Power BI 管理门户
 
-通过管理门户允许对组织中的 Power BI 进行租户管理。 它包括诸如使用情况指标、对 Office 365 管理中心的访问以及设置这类项目。
+借助管理门户，用户可以管理组织中的 Power BI 租户。 门户包括诸如使用情况指标、对 Office 365 管理中心的访问以及设置这类项目。
 
-针对公司的 Power BI 租户管理通过 Power BI 管理门户进行。 Office 365 中的全局管理员或分配有 Power BI 服务管理员角色的用户都可以访问管理门户。 若要详细了解 Power BI 服务管理员角色，请参阅[了解 Power BI 管理员角色](service-admin-role.md)。
-
-所有用户都能看到齿轮图标下的“管理员门户”。 如果他们不是管理员，则只能看到“Premium 设置”部分，并且只能看到他们有权管理的容量。
+Office 365 中的全局管理员或分配有 Power BI 服务管理员角色的用户都可以访问完整的管理门户。 如果你不是这些角色之一，则只能在门户中看到“容量设置”。 若要详细了解 Power BI 服务管理员角色，请参阅[了解 Power BI 管理员角色](service-admin-role.md)。
 
 ## <a name="how-to-get-to-the-admin-portal"></a>如何访问管理门户
 
 帐户必须标记为 Office 365 或 Azure Active Directory 中的 **全局管理员** ，或者已分配到 Power BI 服务管理员角色，才能获取对 Power BI 管理门户的访问权限。 若要详细了解 Power BI 服务管理员角色，请参阅[了解 Power BI 管理员角色](service-admin-role.md)。 若要访问 Power BI 管理门户，请执行以下操作。
 
 1. 在 Power BI 服务右上角选择设置齿轮。
-2. 选择**管理门户**。
 
-![](media/service-admin-portal/powerbi-admin-settings.png)
+1. 选择“管理门户”。
 
-该门户中有 6 个选项卡。 下面介绍了这些选项卡。
+    ![管理门户的设置](media/service-admin-portal/powerbi-admin-settings.png)
+
+门户中有七个选项卡。 本文的其余部分提供了有关每个选项卡的信息。
+
+![管理门户导航](media/service-admin-portal/powerbi-admin-landing-page.png)
 
 * [使用情况指标](#usage-metrics)
 * [用户](#users)
@@ -42,12 +43,11 @@ ms.locfileid: "49396902"
 * [租户设置](#tenant-settings)
 * [Premium 设置](#premium-settings)
 * [嵌入代码](#embed-codes)
-* [组织视觉对象](#Organization-visuals)
-
-![](media/service-admin-portal/powerbi-admin-landing-page.png)
+* [组织视觉对象](#organization-visuals)
 
 ## <a name="usage-metrics"></a>使用情况指标
-管理门户中的第一个选项卡是**使用情况指标**。 使用情况指标报表使你能够为组织监视 Power BI 中的使用情况。 通过它还可以查看对于组织，哪些用户和组在 Power BI 中最活跃。
+
+通过“使用情况指标”，你可以监视组织的使用情况。 通过它还可以查看对于组织，哪些用户和组在 Power BI 中最活跃。
 
 > [!NOTE]
 > 首次访问仪表板时，或在长时间未查看仪表板后再次进行访问之后，你可能会在我们加载仪表板时看到加载屏幕。
@@ -58,79 +58,76 @@ ms.locfileid: "49396902"
 
 * 用户工作区中的所有仪表板、报表和数据集的非重复计数
   
-    ![](media/service-admin-portal/powerbi-admin-usage-metrics-number-tiles.png)
+    ![仪表板、报表和数据集的非重复计数](media/service-admin-portal/powerbi-admin-usage-metrics-number-tiles.png)
 
 * 按可以进行访问的用户数划分的使用量最大的仪表板。 例如，如果你将 1 个仪表板与 3 个用户共享，并且还将它添加到 2 个不同用户连接到的内容包，则其计数会是 6 (1 + 3 + 2)
   
-    ![](media/service-admin-portal/powerbi-admin-usage-metrics-top-dashboards.png)
+    ![使用最多的仪表板](media/service-admin-portal/powerbi-admin-usage-metrics-top-dashboards.png)
 
 * 用户连接到的最受欢迎内容。 这是用户可以通过“获取数据”过程访问的任何内容，如 SaaS 内容包、组织内容包、文件或数据库。
   
-    ![](media/service-admin-portal/powerbi-admin-usage-metrics-top-connections.png)
+    ![使用最多的包](media/service-admin-portal/powerbi-admin-usage-metrics-top-connections.png)
 
 * 基于用户具有的仪表板数（他们自己创建的仪表板以及与他们共享的仪表板）的排名靠前用户视图。
   
-    ![](media/service-admin-portal/powerbi-admin-usage-metrics-top-users-dashboards.png)
+    ![主要用户 - 仪表板](media/service-admin-portal/powerbi-admin-usage-metrics-top-users-dashboards.png)
 
 * 基于用户具有的报表数的排名靠前用户视图
   
-    ![](media/service-admin-portal/powerbi-admin-usage-metrics-top-users-reports.png)
+    ![主要用户 - 报表](media/service-admin-portal/powerbi-admin-usage-metrics-top-users-reports.png)
 
-第二个部分显示相同类型的信息，不过是基于组。 这样，就可以查看组织中最活跃的组以及它们所使用的信息种类。
+第二个部分显示相同类型的信息，不过是基于组。 这样，就可以查看组织中最活跃的组以及它们所使用的内容种类。
 
-借助此信息，你能够真正地深入了解用户在组织中如何使用 Power BI，并能够识别在组织中非常活跃的用户和组。
+借助此信息，你可以真正地深入了解用户在组织中如何使用 Power BI，并能够识别在组织中非常活跃的用户和组。
 
 ## <a name="users"></a>用户
 
-管理门户中的第二个选项卡是**管理用户**。 针对 Power BI 的用户管理在 Office 365 管理中心中进行，因此通过此部分可以快速访问用于在 Office 365 中管理用户、管理员和组的区域。
+可以在 Office 365 管理中心中管理 Power BI 用户、组和管理员。 “用户”选项卡为租户提供指向管理中心的链接。
 
-![](media/service-admin-portal/powerbi-admin-manage-users.png)
-
-单击**转到 O365 管理中心**时，你会直接转到 Office 365 管理中心登陆页，以便管理租户的用户。
-
-![](media/service-admin-portal/powerbi-admin-o365-admin-center.png)
+![转到 O365 管理中心](media/service-admin-portal/powerbi-admin-manage-users.png)
 
 ## <a name="audit-logs"></a>审核日志
 
-管理门户中的第三张选项卡为“审核日志”。 这些日志位于 Office 365 安全与合规中心内。 通过此分区，可在 Office 365 内快速访问该区域。
-
-有关审核日志的详细信息，请参阅[在组织中审核 Power BI](service-admin-auditing.md)
+可以在 Office 365 安全与合规中心中管理 Power BI 审核日志。 “审核日志”选项卡为租户提供指向安全与合规中心的链接。 [了解详细信息](service-admin-auditing.md)
 
 ## <a name="tenant-settings"></a>租户设置
 
-管理门户中的第三个选项卡是**租户设置**。 租户设置使你可以更好地控制向组织提供的功能。 如果你担心敏感数据、我们的某些功能可能不适合你的组织，或者你只需要为特定组提供给定的功能。 如果出现这种情况，则可以在租户中关闭它。
+“租户设置”选项卡可以对组织可用的功能进行细粒度控制。 如果你担心敏感数据、我们的某些功能可能不适合你的组织，或者你只需要为特定组提供特定的功能。
 
-![](media/service-admin-portal/powerbi-admin-tenant-settings.png)
+下图显示了“租户设置”选项卡的前两部分。
+
+![租户设置](media/service-admin-portal/powerbi-admin-tenant-settings.png)
 
 > [!NOTE]
-> 可能需要 10 分钟才会使设置对租户中的每个人生效。
+> 可能需要 10 分钟才会使设置更改对租户中的每个人生效。
 
 设置可以有三种状态：
 
-* **为整个组织禁用**：可禁用某个功能，使用户无法使用该功能。
+* “针对整个组织禁用”：组织中的任何人都不能使用此功能。
 
-    ![](media/service-admin-portal/powerbi-admin-tenant-settings-disabled.png)
+    ![禁用所有设置](media/service-admin-portal/powerbi-admin-tenant-settings-disabled.png)
 
-* **为整个组织启用**：可为整个组织启用某个功能，让所有用户都有权访问该功能。
+* “针对整个组织启用”：组织中的每个人都可以使用此功能。
 
-    ![](media/service-admin-portal/powerbi-admin-tenant-settings-enabled.png)
+    ![启用所有设置](media/service-admin-portal/powerbi-admin-tenant-settings-enabled.png)
 
-* **为组织的子集启用**：还可为组织的一部分启用某个功能。 这可以以多种不同的方式来实现。 可以为除特定用户组之外的整个组织启用功能。
+* “针对组织的子集启用”：组织中特定子集的用户或组可以使用此功能。
 
-    ![](media/service-admin-portal/powerbi-admin-tenant-settings-enabled-except.png)
+    可以为除特定用户组之外的整个组织启用此功能。
 
-    还可以仅为特定用户组启用功能，还可以为某个用户组禁用功能。 这将确保即使某些用户属于允许的组，但仍没有访问该功能的权限。
+    ![启用子集设置](media/service-admin-portal/powerbi-admin-tenant-settings-enabled-except.png)
 
-    ![](media/service-admin-portal/powerbi-admin-tenant-settings-enabled-except2.png)
+    还可以仅为特定用户组启用功能，也可以为某个用户组禁用功能。 使用此方法确保即使某些用户属于允许的组，但仍没有访问该功能的权限。
+
+    ![启用除外设置](media/service-admin-portal/powerbi-admin-tenant-settings-enabled-except2.png)
 
 接下来的几节概述了不同类型的租户设置。
 
 ## <a name="workspace-settings"></a>工作区设置
 
 ### <a name="create-workspaces-preview"></a>创建工作区（预览）
-组织中的用户可创建应用工作区，以在仪表板、报表和其他内容上进行协作。
 
-有关详细信息，请参阅[创建新工作区](service-create-the-new-workspaces.md)。
+组织中的用户可创建应用工作区，以在仪表板、报表和其他内容上进行协作。 [了解详细信息](service-create-the-new-workspaces.md)
 
 ## <a name="export-and-sharing-settings"></a>导出和共享设置
 
@@ -138,19 +135,21 @@ ms.locfileid: "49396902"
 
 组织中的用户可以与组织外部的用户共享仪表板。
 
-![](media/service-admin-portal/powerbi-admin-sharing-external-02.png)
+![外部用户设置](media/service-admin-portal/powerbi-admin-sharing-external-02.png)
 
-与外部用户共享时会显示以下消息。
+下图显示了与外部用户共享时会显示的消息。
 
-![](media/service-admin-portal/powerbi-admin-sharing-external.png)
+![与外部用户共享](media/service-admin-portal/powerbi-admin-sharing-external.png)
 
 ### <a name="publish-to-web"></a>发布到 Web
 
 组织中的用户可以将报表发布到 Web。 [了解详细信息](service-publish-to-web.md)
 
-![](media/service-admin-portal/powerbi-admin-publish-to-web.png)
+下图显示了启用“发布到 Web”设置时报表的“文件”菜单。
 
-根据发布到 Web 设置的内容，用户会在 UI 中看到不同的选项。
+![发布到 Web 设置](media/service-admin-portal/powerbi-admin-publish-to-web.png)
+
+根据“发布到 Web”设置的内容，用户会在 UI 中看到不同的选项。
 
 |功能 |为整个组织启用 |为整个组织禁用 |特定的安全组   |
 |---------|---------|---------|---------|
@@ -163,7 +162,9 @@ ms.locfileid: "49396902"
 
 组织中的用户可以从磁贴或可视化效果导出数据。 [了解详细信息](visuals/power-bi-visualization-export-data.md)
 
-![](media/service-admin-portal/powerbi-admin-export-data.png)
+下图显示了从磁贴导出数据的选项。
+
+![从磁贴导出数据](media/service-admin-portal/powerbi-admin-export-data.png)
 
 > [!NOTE]
 > 禁用“导出数据”还会阻止用户使用“在 Excel 中分析”功能，同时也会阻止用户使用 Power BI 服务实时连接。
@@ -172,7 +173,9 @@ ms.locfileid: "49396902"
 
 组织中的用户可以将 Power BI 报表导出为 PowerPoint 文件。 [了解详细信息](consumer/end-user-powerpoint.md)
 
-![](media/service-admin-portal/powerbi-admin-powerpoint.png)
+下图显示了在启用“将报表导出为 PowerPoint 演示文稿”设置时报表的“文件”菜单。
+
+![将报表导出为 PowerPoint 演示文稿](media/service-admin-portal/powerbi-admin-powerpoint.png)
 
 ### <a name="print-dashboards-and-reports"></a>打印仪表板和报表
 

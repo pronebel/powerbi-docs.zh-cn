@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/15/2018
 ms.author: mblythe
 LocalizationGroup: Premium
-ms.openlocfilehash: fa68657d10de961a6c3a6c3491b0c17fb6d84051
-ms.sourcegitcommit: a764e4b9d06b50d9b6173d0fbb7555e3babe6351
+ms.openlocfilehash: da529c860037afe0d83f42209bda86d49222b83f
+ms.sourcegitcommit: 862faf948468d7f6d464b83f4e0b040d5213a580
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/22/2018
-ms.locfileid: "49641312"
+ms.lasthandoff: 10/30/2018
+ms.locfileid: "50252436"
 ---
 # <a name="power-bi-premium-faq"></a>Power BI Premium 常见问题解答
 
@@ -24,7 +24,7 @@ ms.locfileid: "49641312"
 * 如果你有其他问题，请[尝试询问 Power BI 社区](http://community.powerbi.com/)。
 * 仍有问题？ 请访问 [Power BI 支持页](https://powerbi.microsoft.com/support/)。
 
-什么是 Power BI Premium？  
+**什么是 Power BI Premium？**  
 Power BI Premium 是一项基于容量的产品/服务，它具有以下特色：
 
 * 可用于灵活地在整个企业内发布报表，而无需按用户分别向每个收件人授予许可。
@@ -49,7 +49,7 @@ Power BI Premium 是基于容量的许可证，而 Power BI Pro 的是基于用�
 是的。 需要使用 Power BI Pro 来发布报表、共享仪表板、在工作区内与同事协作和进行其他相关活动。 Power BI Pro 无需使用 Premium 容量中的内容。
 
 你是否可以概述使用 Power BI Pro 和 Power BI Premium 满足组织的现代 BI 需求的场景？  
-以下示例概述了客户怎样使用 Power BI Pro 和 Power BI Premium 的组合来满其 BI 需求。
+以下示例概述了客户如何使用 Power BI Pro 和 Power BI Premium 的组合来满其 BI 需求。
 
 | 场景 1 | 场景 2 | 场景 3 | 场景 4 |
 | --- | --- | --- | --- |

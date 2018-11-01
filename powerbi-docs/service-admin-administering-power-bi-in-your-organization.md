@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-admin
 ms.topic: overview
-ms.date: 05/01/2018
+ms.date: 10/29/2018
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: 1f3c871d4ac47a110f2085ef1bdccb166fc00643
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: fcc7563ef1c1196a7e00e107bb1dadd6b10075d3
+ms.sourcegitcommit: 862faf948468d7f6d464b83f4e0b040d5213a580
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "36944298"
+ms.lasthandoff: 10/30/2018
+ms.locfileid: "50252459"
 ---
 # <a name="what-is-power-bi-administration"></a>什么是 Power BI 管理？
 
@@ -30,7 +30,6 @@ Power BI 旨在用于自助式商业智能，而管理员是 Power BI 租户中�
 - 通过 Power BI 部署增加采用率和投资回报
 
 这项工作旨在提高业务用户的工作效率，并确保安全性和法律及法规的合规性。 职责可能包括提供帮助和支持，并在许多情况下，帮助业务用户执行正确操作。
-
 
 ## <a name="administrator-roles-related-to-power-bi"></a>与 Power BI 相关的管理员角色
 
@@ -50,7 +49,6 @@ Power BI 服务管理员有权访问 Power BI 管理门户，其中包括有关�
 
 Power BI 服务管理员角色不授予将许可证分配给用户或在 Office 365 中查看审核日志的功能。 因此，作为 Power BI 服务管理员角色单独成员的用户当前无法执行管理 Power BI 的任务。
 
-
 ## <a name="administrative-tasks"></a>管理任务
 
 管理员执行许多任务来支持其组织的 Power BI 租户，如下表所述。
@@ -65,7 +63,6 @@ Power BI 服务管理员角色不授予将许可证分配给用户或在 Office 
 | 管理 Power BI 资源 |<ul><li>管理工作区<br><li>发布自定义视觉对象<br><li>验证用于在其他应用程序中嵌入 Power BI 的代码|
 | 为租户用户提供帮助和支持 |<ul><li>数据访问和其他问题疑难解答</ul>|
 | 其他任务 |<ul><li>部署 Power BI Desktop，例如，使用 System Center Configuration Manager<br><li>使用 Intune 管理 Power BI 移动应用部署<br><li>管理数据隐私和安全，如源数据安全</ul>|
-
 
 ## <a name="administrative-tools"></a>管理工具
 
@@ -82,11 +79,12 @@ Power BI 服务管理员角色不授予将许可证分配给用户或在 Office 
 
 ## <a name="next-steps"></a>后续步骤
 
-我们希望你通过本文快速深入了解 Power BI 管理员的工作，以及所涉及的特定角色、任务和工具。 建议参阅以下两个主题进行深入了解。
+我们希望你通过本文快速深入了解 Power BI 管理员的工作，以及所涉及的特定角色、任务和工具。 建议参阅以下文章主题进行深入了解。
 
 [使用 Power BI 管理门户](service-admin-portal.md)
+
+[使用 PowerShell cmdlet](/powershell/power-bi/overview?toc=%2Fen-us%2Fpower-bi%2FTOC.json&bc=%2Fen-us%2Fpower-bi%2Fbreadcrumb%2Ftoc.json&view=powerbi-ps)
 
 [Power BI 管理常见问题](service-admin-faq.md)
 
 更多问题？ [尝试咨询 Power BI 社区](http://community.powerbi.com/)
-
