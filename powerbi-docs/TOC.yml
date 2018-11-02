@@ -250,8 +250,6 @@ items:
         href: desktop-r-powered-custom-visuals.md
       - name: 使用网格线和对齐网格
         href: desktop-gridlines-snap-to-grid.md
-      - name: 高密度直线采样
-        href: desktop-high-density-sampling.md
       - name: 从示例添加列
         href: desktop-add-column-from-example.md
       - name: 添加自定义列
@@ -322,6 +320,8 @@ items:
         href: visuals/power-bi-visualization-filled-maps-choropleths.md
       - name: Power BI 中的漏斗图
         href: visuals/power-bi-visualization-funnel-charts.md
+      - name: 高密度直线采样
+        href: desktop-high-density-sampling.md
       - name: KPI 视觉对象
         href: visuals/power-bi-visualization-kpi.md
       - name: 使用 Power BI 中的 R 脚本创建高级分析和可视化效果
@@ -978,7 +978,7 @@ items:
       href: report-server/tutorial-explore-report-server-web-portal.md
   - name: 概念
     items:
-    - name: 最近更新
+    - name: 新增内容
       href: report-server/whats-new.md
     - name: 更改日志
       href: report-server/changelog.md
@@ -1203,9 +1203,9 @@ items:
       href: service-admin-governance.md
     - name: Power BI 安全性
       href: service-admin-power-bi-security.md
-ms.openlocfilehash: dbefae36f3a51d7494130593a4c7009f3cbc10b4
-ms.sourcegitcommit: 862faf948468d7f6d464b83f4e0b040d5213a580
+ms.openlocfilehash: fffb456fe7ad9648b27a1106e9a4cb6401b5f56b
+ms.sourcegitcommit: 0611860a896e636ceeb6e30ce85243bfd8e7b61d
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/30/2018
-ms.locfileid: "50252505"
+ms.lasthandoff: 11/01/2018
+ms.locfileid: "50909700"
