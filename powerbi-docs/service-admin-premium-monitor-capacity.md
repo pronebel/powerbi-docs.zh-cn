@@ -10,12 +10,12 @@ ms.component: powerbi-admin
 ms.topic: conceptual
 ms.date: 10/09/2018
 LocalizationGroup: Premium
-ms.openlocfilehash: b2627950ea51239acb19972fde3244f3bd158255
-ms.sourcegitcommit: 52ac456bf2ac025b22ea634c28482f22e1cc19ac
+ms.openlocfilehash: 2623dd3280636583d5dd6d6e3f57518550032193
+ms.sourcegitcommit: 42475ac398358d2725f98228247b78aedb8cbc4f
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/10/2018
-ms.locfileid: "48909213"
+ms.lasthandoff: 10/25/2018
+ms.locfileid: "50003193"
 ---
 # <a name="monitor-power-bi-premium-and-power-bi-embedded-capacities"></a>监视 Power BI Premium 和 Power BI Embedded 容量
 
@@ -61,13 +61,11 @@ ms.locfileid: "48909213"
 
 ### <a name="datasets-tab"></a>“数据集”选项卡
 
-“数据集”选项卡提供了应用中的大量度量值。 使用该选项卡顶部的四个按钮，可导航到不同区域：“摘要”、“刷新”、“查询”，以及“数据集”。
+“数据集”选项卡提供了应用中的大量度量值。 使用该选项卡顶部的按钮，可导航到不同区域：“摘要”、“刷新”、“查询持续时间”、“查询等待”和“数据集”。
 
 ![“数据集”选项卡](media/service-admin-premium-monitor-capacity/datasets-tab.png)
 
 #### <a name="summary-area"></a>“摘要”区域
-
-![“摘要”按钮](media/service-admin-premium-monitor-capacity/summary-button.png)
 
 “摘要”区域可基于实体、系统资源和数据集工作负载显示容量视图。
 
@@ -80,19 +78,27 @@ ms.locfileid: "48909213"
 
 #### <a name="refreshes-area"></a>“刷新”区域
 
-![“刷新”按钮](media/service-admin-premium-monitor-capacity/refreshes-button.png)
-
 “刷新”区域可列出过去七天内按数据集划分的完整刷新、成功度量、平均/最大刷新等待时间和平均/最大刷新持续时间。 底部的两个图表显示刷新与内存消耗量（以 GB 为单位）以及以当地时间报告的平均等待时间（按一小时的时间段划分）。 顶部条形图可按完成数据集刷新（刷新持续时间）所花费的平均时间和平均刷新等待时间列出前五个数据集。 多个高刷新等待时间峰值表示容量过度运行。
 
-#### <a name="queries-area"></a>“查询”区域
+#### <a name="query-durations-area"></a>“查询持续时间”区域
 
-![“查询”按钮](media/service-admin-premium-monitor-capacity/queries-button.png)
+“查询持续时间”区域列出了查询运行的总数，以及平均/最大持续时间（以毫秒为单位）。 此数据在过去七天内由数据集、工作区和每小时 Bucket 数进行划分。 底部的图表显示了按本地时间报告的每小时 Bucket 数划分的查询计数和平均持续时间（以毫秒为单位）与内存消耗量（以 GB 为单位）。
 
-“查询”区域可列出过去七天内按数据集、工作区和每小时 Bucket 数划分的运行查询总数、实时查询/直接查询的查询等待计数总数、平均/最大持续时间、报告的平均/最大等待时间（以毫秒为单位）。 底部的图表显示了按本地时间报告的每小时 Bucket 数划分的查询计数、平均持续时间（以毫秒为单位）和平均等待时间（以毫秒为单位）与内存消耗量（以 GB 为单位）。 右上角的两个图表按平均查询持续时间和完成查询所用的等待时间列出了前五个数据集。 较长的查询持续时间和较长的等待时间表示容量过于繁忙。 这也可能意味着，单个数据集会导致问题，需要进一步调查。
+右上角图表显示了查询持续时间分布直方图。 直方图由报告的查询持续时间（以毫秒为单位）的 Bucket 数划分为以下类别：<= 30 毫秒、30-100 毫秒、100-300 毫秒、300 毫秒-1 秒、1 秒-3 秒、3 秒-10 秒、10 秒-30 秒和 > 30 秒时间间隔。
+
+右下角的图表按完成查询所用的平均查询持续时间列出了前五个数据集。
+
+较长的查询持续时间和较长的等待时间表示容量过于繁忙。 这也可能意味着，单个数据集会导致问题，需要进一步调查。
+
+#### <a name="query-waits-area"></a>查询等待区域
+
+“查询等待”区域可列出查询运行总数、实时查询/直接查询的查询等待计数总数以及报告的平均/最大等待时间（以毫秒为单位）。 此数据在过去七天内由数据集、工作区和每小时 Bucket 数进行划分。 底部的图表显示了按本地时间报告的每小时 Bucket 数划分的查询等待计数和平均等待时间（以毫秒为单位）与内存消耗量（以 GB 为单位）。
+
+右上角图表显示了查询等待时间分布直方图。 直方图由报告的查询持续时间（以毫秒为单位）的 Bucket 数划分为以下类别：<= 50 毫秒、50-100 毫秒、100-200 毫秒、200-400 毫秒、400 毫秒-1 秒、1 秒-5 秒和 > 5 秒时间间隔。
+
+右下角的图表按启动查询所用的平均等待时间列出了前五个数据集。
 
 #### <a name="datasets-area"></a>“数据集”区域
-
-![“数据集”按钮](media/service-admin-premium-monitor-capacity/datasets-button.png)
 
 “数据集”区域按小时显示由于内存压力而收回的完整数据集。
 

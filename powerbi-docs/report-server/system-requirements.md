@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-report-server
 ms.topic: conceptual
-ms.date: 06/13/2018
+ms.date: 10/24/2018
 ms.author: maghan
-ms.openlocfilehash: c2784bf8e8dca857ae2a1b55d1ad8560e552cafb
-ms.sourcegitcommit: 127df71c357127cca1b3caf5684489b19ff61493
+ms.openlocfilehash: 397bc6f1582ff49f665f25559925d5b7e19e0fd5
+ms.sourcegitcommit: 60fb46b61ac73806987847d9c606993c0e14fb30
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/03/2018
-ms.locfileid: "37780540"
+ms.lasthandoff: 10/25/2018
+ms.locfileid: "50101315"
 ---
 # <a name="hardware-and-software-requirements-for-installing-power-bi-report-server"></a>安装 Power BI 报表服务器所要满足的硬件和软件要求
 本文介绍了安装并运行 Power BI 报表服务器所要满足的最低硬件和软件要求。
@@ -69,7 +69,7 @@ Power BI 报表服务器将安装默认值，以配置报表服务器正常运�
 [什么是 Power BI 报表服务器？](get-started.md)  
 [管理员概述](admin-handbook-overview.md)  
 [安装 Power BI 报表服务器](install-report-server.md)  
-[安装报表生成器](https://docs.microsoft.com/sql/reporting-services/install-windows/install-report-builder)  
+[下载报表生成器](https://www.microsoft.com/download/details.aspx?id=53613)  
 [下载 SQL Server Data Tools (SSDT)](http://go.microsoft.com/fwlink/?LinkID=616714)
 
 更多问题？ [尝试咨询 Power BI 社区](https://community.powerbi.com/)

@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/15/2018
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: cda575c11be90c8e18a3a9f3b8325ccf674afffc
-ms.sourcegitcommit: b8461c1876bfe47bf71c87c7820266993f82c0d3
+ms.openlocfilehash: b068516b13b3aab134b20f95939c75a5b6e949b5
+ms.sourcegitcommit: 60fb46b61ac73806987847d9c606993c0e14fb30
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/15/2018
-ms.locfileid: "49337073"
+ms.lasthandoff: 10/25/2018
+ms.locfileid: "50101683"
 ---
 # <a name="previous-monthly-updates-to-power-bi-desktop"></a>此前的 Power BI Desktop 月度更新
 
@@ -341,7 +341,7 @@ ms.locfileid: "49337073"
 
 ### <a name="reporting"></a>报表
 
-* 报表页工具提示 [[视频]](https://youtu.be/kuI6MMzDh34?t=16s) [[文章]]() [[博客]](https://powerbi.microsoft.com/blog/power-bi-desktop-march-2018-feature-summary/#tooltips) 
+* 报表页工具提示  [[视频]](https://youtu.be/kuI6MMzDh34?t=16s) [[博客]](https://powerbi.microsoft.com/blog/power-bi-desktop-march-2018-feature-summary/#tooltips) 
 * 书签现已公开发布 [[视频]](https://youtu.be/kuI6MMzDh34?t=9m2s) [[文章]](desktop-bookmarks.md) [[博客]](https://powerbi.microsoft.com/blog/power-bi-desktop-march-2018-feature-summary/#bookmarking) 
 * 表和矩阵列的显示单位和精度控制 [[视频]](https://youtu.be/kuI6MMzDh34?t=11m1s) [[文章]](desktop-slicer-numeric-range.md)  [[博客]](https://powerbi.microsoft.com/blog/power-bi-desktop-march-2018-feature-summary/#displayUnits) 
 * 关闭报表读取模式中的视觉对象标头 [[视频]](https://youtu.be/kuI6MMzDh34?t=12m25s) [[博客]](https://powerbi.microsoft.com/blog/power-bi-desktop-march-2018-feature-summary/#visualHeader) 

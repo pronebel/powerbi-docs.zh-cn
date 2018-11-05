@@ -4,18 +4,18 @@ description: 获取 Power BI 报表服务器的概述，以了解它如何适应
 keywords: ''
 author: maggiesMSFT
 ms.author: maggies
-ms.date: 05/07/2018
+ms.date: 10/24/2018
 ms.topic: overview
 ms.service: powerbi
 ms.component: powerbi-report-server
 manager: kfile
 ms.custom: mvc
-ms.openlocfilehash: 1be2270074011f73c3d942677211dd99d18c6b2b
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: 95a97c86ae7d17091b49fbf33cf5ec0d26053c3e
+ms.sourcegitcommit: 60fb46b61ac73806987847d9c606993c0e14fb30
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34294562"
+ms.lasthandoff: 10/25/2018
+ms.locfileid: "50101384"
 ---
 # <a name="what-is-power-bi-report-server"></a>什么是 Power BI 报表服务器？
 
@@ -28,6 +28,9 @@ Power BI 报表服务器类似于 SQL Server Reporting Services 和 Power BI 联
 
 ## <a name="licensing-power-bi-report-server"></a>授权 Power BI 报表服务器
 可以通过以下两个不同许可证来访问 Power BI 报表服务器：带软件保障的 [Power BI Premium](../service-premium.md) 和 [SQL Server Enterprise Edition](https://www.microsoft.com/sql-server/sql-server-2017-editions)。 使用 Power BI Premium 许可证可以创建混合云和本地的混合部署。  
+
+> [!NOTE]
+> 对于 Power BI Premium，Power BI 报表服务器仅包含在 P SKU 中。 它不包含在 EM SKU 中。
 
 ## <a name="web-portal"></a>Web 门户
 Power BI 报表服务器的入口点是可以在任意新式浏览器中查看的安全 Web 门户。 可以在此处访问所有报表和 KPI。 Web 门户上的内容在传统的文件夹层次结构中进行分类。 在你的文件夹中，内容按以下类型进行分组：Power BI 报表、移动报表、分页报表、KPI 和 Excel 工作簿，以及用作报表构建基块的共享数据集和共享数据源。 可以标记收藏夹以在单个文件夹中查看这些内容。 此外，还可以直接在 Web 门户中创建 KPI。 
@@ -66,7 +69,7 @@ Power BI 报表是数据模型的多角度视图，使用可视化效果表示�
 
 ## <a name="next-steps"></a>后续步骤
 [安装 Power BI 报表服务器](install-report-server.md)  
-[安装报表生成器](https://docs.microsoft.com/sql/reporting-services/install-windows/install-report-builder)  
+[下载报表生成器](https://www.microsoft.com/download/details.aspx?id=53613)  
 
 更多问题？ [尝试咨询 Power BI 社区](https://community.powerbi.com/)
 

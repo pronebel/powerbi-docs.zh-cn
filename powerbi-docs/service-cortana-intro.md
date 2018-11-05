@@ -6,15 +6,15 @@ manager: kfile
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 01/13/2018
+ms.date: 10/24/2018
 ms.author: maggies
 LocalizationGroup: Ask questions of your data
-ms.openlocfilehash: 95fa59d91a73101d7d04f3921a81236bfae7d0bb
-ms.sourcegitcommit: fb1885da7cf11367660edbf7b7346dc039ee9b5d
+ms.openlocfilehash: ccc99c2f9810bcda80e1f02ce67e49390fd0308f
+ms.sourcegitcommit: 42475ac398358d2725f98228247b78aedb8cbc4f
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/26/2018
-ms.locfileid: "47187297"
+ms.lasthandoff: 10/25/2018
+ms.locfileid: "50003239"
 ---
 # <a name="quickly-find-and-view-your-power-bi-data-using-cortana-for-power-bi"></a>使用 Power BI 的 Cortana 快速查找和查看 Power BI 数据
 在 Windows 10 设备上使用 Cortana 获取重要业务问题的即时答案。 通过与 Power BI 集成，Cortana 可以直接从 Power BI 仪表板和报表检索关键信息。 需要 Windows 10 的 2015 年 11 月版本或更高版本、Cortana、 Power BI，并访问至少一个数据集。
@@ -22,19 +22,19 @@ ms.locfileid: "47187297"
 ![Cortana 搜索字段](media/service-cortana-intro/power-bi-cortana-searchbox.png)
 
 ## <a name="preview-the-new-cortana-dashboard-search-experience-for-windows-10"></a>预览 Windows 10 的新 Cortana 仪表板搜索体验
-一段时间以来，你已经能够[使用 Cortana 检索某些类型的报表页](service-cortana-answer-cards.md)。 现在，我们添加了新体验，即同时还能够检索仪表板。 请进行尝试并[向我们发送反馈](mailto:pbicortanasg@microsoft.com)。 最终，新体验将得以扩展，将对报表的 Cortana 搜索也包括在内。  新体验的主要优点之一是，无需执行任何特殊的设置操作（即无需启用 Cortana 或配置 Windows 10），它就能正常工作。
+一段时间以来，你已经能够[使用 Cortana 检索某些类型的报表页](service-cortana-answer-cards.md)。 现在，我们添加了新体验，即同时还能够检索仪表板。 请进行尝试并[向我们发送反馈](mailto:pbicortanasg@microsoft.com)。 最终，新体验将得以扩展，将对报表的 Cortana 搜索也包括在内。  新体验的主要优点之一是，无需执行任何特殊的设置操作（即无需启用 Cortana 或配置 Windows 10）。 它就能正常工作。
 
 > [!NOTE]
 > 如果它无法“正常工作”，请参阅[疑难解答文章](service-cortana-troubleshoot.md)寻求帮助。
 > 
 > 
 
-基础技术使用的是 [Microsoft 的 Azure 搜索服务]()。 此搜索服务提供额外的功能，如智能排名、错误纠正和自动完成。
+基础技术使用的是 [Microsoft Azure 搜索服务](https://docs.microsoft.com/azure/search/)。 此搜索服务提供额外的功能，如智能排名、错误纠正和自动完成。
 
 这两种 Cortana 体验将并行存在。
 
 ## <a name="cortana-for-power-bi-documentation"></a>Power BI 的 Cortana 文档
-我们有 4 个文档可以指导你完成设置和使用 Power BI 的 Cortana。 本系列文章将指导你完成以下步骤
+我们提供 4 个文档，指导你完成设置和使用用于 Power BI 的 Cortana。 本系列文章将指导你完成以下步骤
 
 **文章 1**（本文）：了解 Cortana 和 Power BI 如何协同工作
 
@@ -54,13 +54,13 @@ ms.locfileid: "47187297"
 ### <a name="cortana-and-dashboards-the-new-experience"></a>Cortana 和仪表板（新体验）
 Cortana 可以在你拥有的仪表板和已与你共享的仪表板中找到答案。 使用标题、关键字、所有者名称、工作区名称、应用名称等向 Cortana 提问。
 
-问题必须具有至少 2 个词语，Cortana 才能找到答案。 因此，如果搜索名称中只有一个词语（即“营销”）的仪表板，请在问题中添加“显示”、“Power BI”或“<owner name>”一词，如“显示营销”和“michele hart 示例”所示。 
+问题必须至少具有两个词语，Cortana 才能找到答案。 因此，如果搜索名称中只有一个词语（即“营销”）的仪表板，请在问题中添加“显示”、“Power BI”一词或所有者名称，如“显示营销”和“michele hart 示例”所示。 
 
-如果仪表板的标题包含多个词语，并且如果你的搜索至少匹配其中两个字，或者如果仪表板匹配其中一个词加上所有者名称，则 Cortana 只会返回该仪表板。 对于名为“客户盈利率示例”的仪表板： 
+如果仪表板的标题包含多个词语，并且如果你的搜索至少匹配其中两个字，或者匹配其中一个词加上所有者名称，则 Cortana 只会返回该仪表板。 对于名为“客户盈利率示例”的仪表板： 
 
 * “向我显示客户”不会返回 Power BI 仪表板结果。   
 * 诸如“向我显示客户盈利率”、“客户 p”、“客户 s”、“盈利率示例”、“michele hart 示例”、“显示客户盈利率示例”和“向我显示客户 p”等查询文本将返回 Power BI 结果。
-* 由于添加“powerbi”一词可计作 2 个必需词之一，因此，“powerbi 示例”会返回 Power BI 结果。 
+* 由于添加“powerbi”一词可计作两个必需词之一，因此，“powerbi 示例”会返回 Power BI 结果。 
   
     ![使用至少 2 个词的 Cortana 搜索](media/service-cortana-intro/power-bi-cortana-2-words.png)
 
@@ -69,7 +69,7 @@ Cortana 可以在你拥有的仪表板和已与你共享的仪表板中找到答
 
 报表的基础技术使用的是 [Microsoft 的 Power BI 问答](consumer/end-user-q-and-a.md)。
 
-在 Cortana 中提问时，Power BI 将从专门为 Cortana 设计的报表页中进行回答。 可能的答案由 Cortana 直接从 Power BI 中已经创建的 Cortana 回复卡确定。  若要进一步探索答案，只需在 Power BI 中打开一个结果。
+在 Cortana 中提问时，Power BI 将从专门为 Cortana 设计的报表页中进行回答。 可能的答案由 Cortana 直接从 Power BI 中已经创建的 Cortana 回复卡确定。  若要进一步探索答案，在 Power BI 中打开一个结果。
 
 > [!NOTE]
 > 必须先[使用 Power BI 服务启用此功能并将 Windows 设置为与 Power BI 进行通信](service-cortana-enable.md)，然后 Cortana 才能在 Power BI 报表中查找答案。  

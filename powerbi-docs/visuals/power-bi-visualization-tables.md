@@ -8,20 +8,22 @@ featuredvideoid: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 09/24/2018
+ms.date: 10/24/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: d2aae3abeca51cdcc142660190332f84adcfddfb
-ms.sourcegitcommit: 769ef3c8cbafd9ad5979eb4023a394ac7dba8d02
+ms.openlocfilehash: c94fd3ce58cefdb9e3cc7749b6486ab9bb0577cb
+ms.sourcegitcommit: 60fb46b61ac73806987847d9c606993c0e14fb30
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/28/2018
-ms.locfileid: "47448813"
+ms.lasthandoff: 10/25/2018
+ms.locfileid: "50101453"
 ---
 # <a name="tables-in-power-bi-reports-and-dashboards"></a>Power BI 报表和仪表板中的表
 表是以逻辑序列的行和列表示的包含相关数据的网格。 它还包含标头和合计行。 表格可以进行数量比较，可以在其中查看单个类别的多个值。 例如，该表显示了**类别**的 5 个不同的度量值。
 
 ![](media/power-bi-visualization-tables/table.png)
+
+在报表中创建表，并将表内元素与同一报表页面上的其他视觉对象进行交叉突出显示。  此外，还可以选择行、列和各个单元格进行交叉突出显示。 可将单个单元格和多个单元格选择复制并粘贴到其他应用程序。
 
 ## <a name="when-to-use-a-table"></a>何时使用表
 在以下情况下选择表是不错的选择：
@@ -110,7 +112,22 @@ ms.locfileid: "47448813"
 > [!TIP]
 > 还可以在“格式设置”窗格（滚动油漆刷图标）中进行条件格式设置。 选择要设置其格式的值，然后将“色阶”或“数据条”设置为“打开”以应用默认设置，或者，若要自定义设置，请选择“高级控件”。
 > 
-> 
+## <a name="copy-values-from-power-bi-tables-for-use-in-other-applications"></a>复制 Power BI 表中的值以供在其他应用程序中使用
+
+表或矩阵可能具有你想要在其他应用程序中使用的内容，例如 Dynamics CRM、Excel、甚至其他 Power BI 报表。 通过右键单击 Power BI，可以将单个单元格或选定的单元格复制到剪贴板，并粘贴到其他应用程序。
+
+
+* 若要复制单个单元格的值，选择单元格，右键单击，并选择“复制值”。 现在可以将此剪贴板上未格式化的单元格值粘贴到其他应用程序。
+
+    ![复制选项](media/power-bi-visualization-tables/power-bi-copy-value.png)
+
+* 若要复制多个单元格，选择单元格范围或使用 CTRL 来选择一个或多个单元格。 复制将包括列标题和行标题。
+
+    ![复制选项](media/power-bi-visualization-tables/power-bi-copy-selection.png)
+
+    复制包括列标题和行标题。
+
+    ![粘贴到 Excel](media/power-bi-visualization-tables/power-bi-paste-selection.png)
 
 ## <a name="adjust-the-column-width-of-a-table"></a>调整表的列宽度的大小
 有时 Power BI 会截断仪报表中或仪表板上的列标题。 若要显示整个列名称，将鼠标悬停在标题右侧的空白处以显示双箭头，然后选择并拖动它。

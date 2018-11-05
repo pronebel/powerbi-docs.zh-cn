@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 02/06/2018
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 882fdad2b29c9bd21ea0b979d5009dee86304159
-ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
+ms.openlocfilehash: 4faaa63a3845125b4df1ec634d22b084b5ae25f2
+ms.sourcegitcommit: 60fb46b61ac73806987847d9c606993c0e14fb30
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/21/2018
-ms.locfileid: "46548134"
+ms.lasthandoff: 10/25/2018
+ms.locfileid: "50101200"
 ---
 # <a name="connect-to-azure-audit-logs-with-power-bi"></a>使用 Power BI 连接到 Azure 审核日志
 借助 Azure 审核日志内容包，你可以分析和可视化审核日志中存储的信息。 Power BI 会检索数据，生成现成的仪表板，并基于该数据创建报表。
@@ -32,7 +32,7 @@ ms.locfileid: "46548134"
 3. 选择 **Azure 审核日志**  >  **获取**。  
    
    ![](media/service-connect-to-azure-audit-logs/azureauditlogs.png)
-4. 出现提示时，输入你的**Azure 订阅 ID**。 请参阅下面有关查找[订阅 ID](#FindingParams) 的详细信息。   
+4. 出现提示时，输入你的 Azure 订阅 ID。请参阅下面有关查找[订阅 ID](#FindingParams) 的详细信息。   
    
     ![](media/service-connect-to-azure-audit-logs/parameters.png)
 5. 对于**身份验证方法**，选择**oAuth2**\>**登录**。
@@ -53,7 +53,7 @@ ms.locfileid: "46548134"
 * 虽然数据集将按计划每日刷新，但你可以更改刷新计划或根据需要使用“立即刷新”来尝试刷新
 
 ## <a name="system-requirements"></a>系统要求
-Azure 审核日志内容包需要可以在 Azure 门户中访问审核日志。 [此处](https://azure.microsoft.com/documentation/articles/insights-debugging-with-events/)提供了详细信息。
+Azure 审核日志内容包需要可以在 Azure 门户中访问审核日志。 [此处](/azure/azure-resource-manager/resource-group-audit/)提供了详细信息。
 
 <a name="FindingParams"></a>
 
@@ -66,7 +66,7 @@ Azure 审核日志内容包需要可以在 Azure 门户中访问审核日志。 
 订阅 ID 会是一组较长的数字和字符，类似于上面步骤 \#4 中的示例。 
 
 ## <a name="troubleshooting"></a>故障排除
-如果你遇到凭据错误或是在尝试刷新时由于凭据无效而出现的错误，请尝试删除 Azure 审核日志内容包的所有实例并重新连接。
+如果你遇到凭据错误或是在尝试刷新时由于凭据无效而出现的错误，尝试删除 Azure 审核日志内容包的所有实例并重新连接。
 
 ## <a name="next-steps"></a>后续步骤
 [什么是 Power BI？](power-bi-overview.md)  

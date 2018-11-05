@@ -10,12 +10,12 @@ ms.component: powerbi-service
 ms.topic: conceptual
 LocalizationGroup: Gateways
 ms.date: 06/05/2018
-ms.openlocfilehash: b56134314b9396dff1b965786e65e62129e5e7b9
-ms.sourcegitcommit: 9c3a9ec14c111d766ef5703366c316e72f6e588f
+ms.openlocfilehash: 2758ef661b70c53a37104c67c4012be79725990e
+ms.sourcegitcommit: 60fb46b61ac73806987847d9c606993c0e14fb30
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/13/2018
-ms.locfileid: "45558438"
+ms.lasthandoff: 10/25/2018
+ms.locfileid: "50101476"
 ---
 # <a name="on-premises-data-gateway"></a>本地数据网关
 
@@ -47,9 +47,9 @@ ms.locfileid: "45558438"
 
 ## <a name="download-and-install-the-on-premises-data-gateway"></a>下载并安装本地数据网关
 
-若要下载网关，请选择“下载”菜单下的“数据网关”。 下载[本地数据网关](http://go.microsoft.com/fwlink/?LinkID=820925)。 
+若要下载网关，请选择“下载”菜单下的“数据网关”。 下载[本地数据网关](http://go.microsoft.com/fwlink/?LinkID=820925)。
 
-请注意：通过重新安装网关来更新本地数据网关，如本部分中所述。 更新网关（通过重新安装）时，会保留现有的网关设置。
+请注意：通过重新安装网关来更新本地数据网关，如本部分中所述。 只要安装较新版本的网关，就会保留现有设置。 如果安装同一版本，则它会将其视为完全重新安装，且不会保留你的设置。
 
 ![](media/service-gateway-onprem/powerbi-download-data-gateway.png)
 

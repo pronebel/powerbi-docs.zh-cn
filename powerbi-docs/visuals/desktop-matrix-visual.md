@@ -7,27 +7,25 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 09/11/2018
+ms.date: 10/25/2018
 ms.author: mihart
 LocalizationGroup: Create reports
-ms.openlocfilehash: 0cf9c152c9481e223a143bed3985e883c92af192
-ms.sourcegitcommit: ce8332a71d4d205a1f005b703da4a390d79c98b6
+ms.openlocfilehash: 96b2fb3cb1558f862c792b3bed77c9f0c2bc61a5
+ms.sourcegitcommit: 60fb46b61ac73806987847d9c606993c0e14fb30
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/27/2018
-ms.locfileid: "47416811"
+ms.lasthandoff: 10/25/2018
+ms.locfileid: "50101361"
 ---
 # <a name="use-the-matrix-visual-in-power-bi-desktop"></a>在 Power BI Desktop 中使用“矩阵”视觉对象
-借助“矩阵”视觉对象功能，可以在“Power BI Desktop”报表中创建矩阵视觉对象（有时亦称为“表”），并能使用其他视觉对象交叉突出显示矩阵内的元素。 此外，还可以选择行、列和各个单元格进行交叉突出显示。 最后，为了更好地利用布局空间，矩阵视觉对象支持阶梯布局。
+借助“矩阵”视觉对象功能，可以在“Power BI Desktop”和“Power BI 服务”报表中创建矩阵视觉对象（有时亦称为“表”），并能使用其他视觉对象交叉突出显示矩阵内的元素。 此外，还可以选择行、列和各个单元格进行交叉突出显示。 可将单个单元格和多个单元格选择复制并粘贴到其他应用程序。 最后，为了更好地利用布局空间，矩阵视觉对象支持阶梯布局。
 
 ![](media/desktop-matrix-visual/matrix-visual_2a.png)
 
 矩阵有许多相关功能，我们将在本文的下面各部分中逐一介绍它们。
 
-> [!NOTE]
-> 自 2017 年 7 月发布的 Power BI Desktop 起，矩阵和表视觉对象可以反映已应用的“报表主题”中的样式（包括颜色）。 这些颜色可能与对矩阵视觉对象的预期不符，可以在“报表主题”配置中进行更改。 有关主题的详细信息，请参阅[在 Power BI Desktop 中使用报表主题](../desktop-report-themes.md)。
-> 
-> 
+## <a name="report-themes"></a>报表主题
+矩阵和表视觉对象可以反映已应用的“报表主题”中的样式（包括颜色）。 这些颜色可能与对矩阵视觉对象的预期不符，可以在“报表主题”配置中进行更改。 有关主题的详细信息，请参阅[在 Power BI Desktop 中使用报表主题](../desktop-report-themes.md)。
 
 ## <a name="understanding-how-power-bi-calculates-totals"></a>了解 Power BI 计算总计的方式
 
@@ -134,6 +132,20 @@ ms.locfileid: "47416811"
 此外，还可以在按住 Ctrl 的同时单击鼠标进行交叉突出显示。 例如，在下图中，我们选择了“矩阵”视觉对象中的一组子类别。 请注意，视觉对象中未选择的项为灰显，报表页上的其他视觉对象也会反映“矩阵”视觉对象中选择的项。
 
 ![](media/desktop-matrix-visual/matrix-visual_16.png)
+
+## <a name="copying-values-from-power-bi-for-use-in-other-applications"></a>复制 Power BI 中的值以供在其他应用程序中使用
+
+矩阵或表可能具有你想要在其他应用程序中使用的内容，例如 Dynamics CRM、Excel、甚至其他 Power BI 报表。 通过右键单击 Power BI，可以将单个单元格或选定的单元格复制到剪贴板，并粘贴到其他应用程序。
+
+![复制选项](media/desktop-matrix-visual/power-bi-cell-copy.png)
+
+* 若要复制单个单元格的值，选择单元格，右键单击，并选择“复制值”。 现在可以将此剪贴板上未格式化的单元格值粘贴到其他应用程序。
+
+    ![复制选项](media/desktop-matrix-visual/power-bi-copy.png)
+
+* 若要复制多个单元格，选择单元格范围或使用 CTRL 来选择一个或多个单元格。 复制将包括列标题和行标题。
+
+    ![粘贴到 Excel](media/desktop-matrix-visual/power-bi-copy-selection.png)
 
 ## <a name="shading-and-font-colors-with-matrix-visuals"></a>矩阵视觉对象的底纹和字体颜色
 借助“矩阵”视觉对象，可以将条件格式（颜色和底纹）应用于矩阵中的单元格背景，还能将条件格式应用于文本和值本身。

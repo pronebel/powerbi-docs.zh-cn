@@ -1,6 +1,6 @@
 ---
-title: Power BI 中的散点图
-description: Power BI 中的散点图
+title: Power BI 中的散点图、气泡图和点图
+description: Power BI 中的散点图、点图和气泡图
 author: mihart
 manager: kvivek
 ms.reviewer: ''
@@ -8,22 +8,26 @@ featuredvideoid: PVcfPoVE3Ys
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 09/28/2018
+ms.date: 10/24/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: bd09adf21292b16ee27f111ac92bbd8c83c384d8
-ms.sourcegitcommit: 769ef3c8cbafd9ad5979eb4023a394ac7dba8d02
+ms.openlocfilehash: 7739dda4647a82b3c9d4b58976db89038428625a
+ms.sourcegitcommit: 42475ac398358d2725f98228247b78aedb8cbc4f
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/28/2018
-ms.locfileid: "47448836"
+ms.lasthandoff: 10/25/2018
+ms.locfileid: "50003170"
 ---
-# <a name="scatter-charts-and-bubble-charts-in-power-bi"></a>Power BI 中的散点图和气泡图
+# <a name="scatter-charts-bubble-charts-and-dot-plot-charts-in-power-bi"></a>Power BI 中的散点图、气泡图和点图
 散点图始终具有两个数值轴以显示水平轴上的一组数值数据和垂直轴上的另一组数值数据。 图表在 x 和 y 数值的交叉处显示点，将这些值单独合并到各个数据点。 根据数据，这些数据点可能均衡或不均衡地分布在水平轴上。
 
 气泡图将数据点替换为气泡，用气泡大小表示数据的其他维度。
 
 ![气泡图示例](media/power-bi-visualization-scatter/power-bi-bubble-chart.png)
+
+点图类似于气泡图，而散点图使你能够沿 X 轴绘制数值或分类数据。 
+
+![气泡图示例](media/power-bi-visualization-scatter/power-bi-dot-plot.png)
 
 可以设置数据点数量，最多 10,000 个。  
 
@@ -41,6 +45,9 @@ ms.locfileid: "47448836"
 * 如果数据具有 3 个分别含有一组值的数据系列。
 * 要展示财务数据。  不同的气泡大小对增强特定值的视觉效果很有成效。
 * 要使用象限。
+
+### <a name="dot-plot-charts-are-a-great-choice-in-place-of-a-scatter-or-bubble"></a>点图是替代散点图或气泡图的最佳选择：
+* 如果想要沿 X 轴添加分类数据
 
 ## <a name="create-a-scatter-chart"></a>创建散点图
 观看此视频了解 Will 如何创建散点图，然后遵循以下步骤自行创建一个。
@@ -63,11 +70,11 @@ ms.locfileid: "47448836"
 
 3. 转换为散点图。 在可视化组件窗格中，选择散点图图标
 
-   ![](media/power-bi-visualization-scatter/pbi_scatter_chart_icon.png).
+   ![](media/power-bi-visualization-scatter/power-bi-scatter-new.png).
 
 4. 将“地区”从“详细信息”拖动到“图例”。 这展示了一个散点图，其中“总销售差额 %”沿 Y 轴绘制，“每平方英尺的销售额”沿 X 轴绘制。 数据点的颜色表示地区：
 
-    ![](media/power-bi-visualization-scatter/power-bi-scatter.png)
+    ![](media/power-bi-visualization-scatter/power-bi-scatter2.png)
 
 现在让我们添加第三个维度。
 
@@ -75,18 +82,17 @@ ms.locfileid: "47448836"
 
 1. 从字段窗格中，依次将“销售额” > “今年销售额” > “值”拖动到“大小”区域。 数据点扩大到与销售值成正比的量。
    
-   ![](media/power-bi-visualization-scatter/power-bi-bubble.png)
+   ![点图将变为气泡图](media/power-bi-visualization-scatter/power-bi-scatter-chart-size.png)
 
 2. 将鼠标悬停在一个气泡上。 该气泡的大小反映了“今年销售额”的值。
    
-    ![](media/power-bi-visualization-scatter/pbi_scatter_chart_hover.png)
+    ![工具提示显示](media/power-bi-visualization-scatter/pbi_scatter_chart_hover.png)
 
 3. 若要设置气泡图中显示的数据点数量，请在“可视化效果”窗格的“格式”部分，展开“常规”卡片，并调整“数据量”。 可以将最大数据量设置为 10,000 及以下的任意数量。 随着数据的增加，建议先进行测试，以确保性能良好。 
 
     ![数据量](media/power-bi-visualization-scatter/pbi_scatter_data_volume.png) 
 
-   > [!NOTE]
-   > 由于数据点越多可能意味着加载时间越长，因此如果选择发布已达到数据点上限的报表，请务必跨网站平台和移动平台测试报表，以确保报表性能符合用户预期。 请注意，对于更多的数据点，应该测试不同形状因素的结果以确保良好的性能。
+   由于数据点越多可能意味着加载时间越长，因此如果选择发布已达到数据点上限的报表，请务必跨网站平台和移动平台测试报表，以确保报表性能符合用户预期。 
 
 4. 可以[设置可视化颜色、标签、标题、背景等等](service-getting-started-with-color-formatting-and-axis-properties.md)。 若要[提高可访问性](../desktop-accessibility.md)，请考虑将标记形状添加到每个行。 对每行使用不同的标记形状可使报表使用者更容易区分行（或区域）。 若要选择标记形状，请展开“形状”卡片，再选择标记形状。
 
@@ -95,6 +101,13 @@ ms.locfileid: "47448836"
    还可以将标记形状更改为菱形、三角形或方形：
 
    ![方形标记](media/power-bi-visualization-scatter/pbi_scatter_chart_hover_square.png)
+
+## <a name="create-a-dot-plot"></a>创建点图
+若要创建点图，将数字 X 轴字段替换为分类字段。
+
+从“X 轴”窗格中，删除“每平方英尺销售额”，并将其替换为“地区 > DM”。
+   
+![新点图](media/power-bi-visualization-scatter/power-bi-dot-plot-squares.png)
 
 
 ## <a name="considerations-and-troubleshooting"></a>注意事项和疑难解答

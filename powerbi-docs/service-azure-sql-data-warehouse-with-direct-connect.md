@@ -10,22 +10,22 @@ ms.topic: conceptual
 ms.date: 06/20/2018
 ms.author: maghan
 LocalizationGroup: Data from databases
-ms.openlocfilehash: 0f2c3649a2c6e0582fe7536473f7a6ee9067ee1d
-ms.sourcegitcommit: e8d924ca25e060f2e1bc753e8e762b88066a0344
+ms.openlocfilehash: 347a56f75fa7ea9008539e3d75d094d0c22c69d1
+ms.sourcegitcommit: 60fb46b61ac73806987847d9c606993c0e14fb30
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/29/2018
-ms.locfileid: "37137436"
+ms.lasthandoff: 10/25/2018
+ms.locfileid: "50101292"
 ---
 # <a name="azure-sql-data-warehouse-with-directquery"></a>具有 DirectQuery 的 Azure SQL 数据仓库
-通过具有 DirectQuery 的 Azure SQL 数据仓库可以基于在 Azure SQL 数据仓库中已具有的数据和指标来创建动态报表。 借助 DirectQuery，查询会在你浏览数据时实时发送回 Azure SQL 数据仓库。 这种情况与 SQL 数据仓库的规模相结合，使用户可以在数分钟内针对以 TB 计的数据创建动态报表。 此外，**在 Power BI 中打开**按钮的引入使用户可以直接将 Power BI 连接到其 SQL 数据仓库，而不必手动指定信息。
+通过具有 DirectQuery 的 Azure SQL 数据仓库可以基于在 Azure SQL 数据仓库中已具有的数据和指标来创建动态报表。 借助 DirectQuery，查询会在你浏览数据时实时发送回 Azure SQL 数据仓库。 实时查询与 SQL 数据仓库的规模相结合，使用户可以在数分钟内针对以 TB 计的数据创建动态报表。 此外，**在 Power BI 中打开**按钮的引入使用户可以直接将 Power BI 连接到其 SQL 数据仓库，而不必手动指定信息。
 
 何时使用 SQL 数据仓库连接器：
 
 * 在连接时指定完全限定的服务器名称（请参阅下文以了解详细信息）
 * 确保服务器的防火墙规则配置为“允许访问 Azure 服务”
 * 每个操作（例如选择列或添加筛选器）都会直接查询数据仓库
-* 磁贴设置为大约每 15 分钟刷新一次，刷新不需要进行计划。  连接时可以在“高级设置”中对此进行调整。
+* 磁贴设置为大约每 15 分钟刷新一次，刷新不需要进行计划。  连接时可以在“高级设置”中对刷新进行调整。
 * 问答不可用于 DirectQuery 数据集
 * 不会自动选取架构更改
 
@@ -37,9 +37,9 @@ ms.locfileid: "37137436"
 > 我们在不断改进与 Azure SQL 数据仓库的连接。  若要获取连接到 Azure SQL 数据仓库数据源的最佳体验，请使用 Power BI Desktop。  生成模型和报表后，即可将其发布到 Power BI 服务中。  Power BI 服务的 Azure SQL 数据仓库现已弃用直接连接器。
 >
 
-在 SQL 数据仓库与 Power BI 之间移动的最简单方法是使用 Azure 预览门户中的**在 Power BI 中打开**按钮。 通过此按钮可以无缝地开始在 Power BI 中创建新仪表板。
+在 SQL 数据仓库与 Power BI 之间移动的最简单方法是使用 Azure 门户中的“在 Power BI 中打开”按钮。 通过此按钮可以无缝地开始在 Power BI 中创建新仪表板。
 
-1. 若要开始，请在 Azure 预览版门户中导航到 SQL 数据仓库实例。 请注意，SQL 数据仓库当前只在 Azure 预览门户中存在。
+1. 若要开始，请在 Azure 门户中导航到 SQL 数据仓库实例。 请注意，SQL 数据仓库当前只在 Azure 预览门户中存在。
 2. 单击**在 Power BI 中打开**按钮
    
     ![](media/service-azure-sql-data-warehouse-with-direct-connect/openinpowerbi.png)
@@ -78,7 +78,7 @@ SQL 数据仓库还在 Power BI 获取数据页面上列出。
     ![](media/service-azure-sql-data-warehouse-with-direct-connect/explore3.png)
 
 ## <a name="finding-parameter-values"></a>查找参数值
-可以在 Azure 预览门户中找到你的完全限定的服务器名称和数据库名称。 请注意，SQL 数据仓库当前只在 Azure 预览门户中存在。
+可以在 Azure 门户中找到你的完全限定的服务器名称和数据库名称。 请注意，SQL 数据仓库当前只在 Azure 预览门户中存在。
 
 ![](media/service-azure-sql-data-warehouse-with-direct-connect/azureportal.png)
 
@@ -89,6 +89,6 @@ SQL 数据仓库还在 Power BI 获取数据页面上列出。
 ## <a name="next-steps"></a>后续步骤
 [什么是 Power BI？](power-bi-overview.md)  
 [获取 Power BI 的数据](service-get-data.md)  
-[Azure SQL 数据仓库](https://azure.microsoft.com/documentation/services/sql-data-warehouse/)  
+[Azure SQL 数据仓库](/azure/sql-data-warehouse/sql-data-warehouse-overview-what-is/)
 
 更多问题？ [尝试参与 Power BI 社区](http://community.powerbi.com/)

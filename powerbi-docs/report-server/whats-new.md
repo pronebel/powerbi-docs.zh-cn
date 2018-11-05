@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.component: powerbi-report-server
 ms.topic: conceptual
 ms.date: 08/16/2018
-ms.openlocfilehash: 648938006cd15e2bb92b305aa9a2af24d028cead
-ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
+ms.openlocfilehash: a365cab0420fdf373d62f5b1774a4d86985adfe3
+ms.sourcegitcommit: 60fb46b61ac73806987847d9c606993c0e14fb30
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/12/2018
-ms.locfileid: "44726929"
+ms.lasthandoff: 10/25/2018
+ms.locfileid: "50101246"
 ---
 # <a name="whats-new-in-power-bi-report-server"></a>Power BI 报表服务器中的新增功能
 
@@ -328,7 +328,7 @@ Power BI 报表服务器现在支持新的 Power BI 表和矩阵视觉对象。 
 [什么是 Power BI 报表服务器？](get-started.md) 
 [管理员手册](admin-handbook-overview.md)  
 [安装 Power BI 报表服务器](install-report-server.md)  
-[安装报表生成器](https://docs.microsoft.com/sql/reporting-services/install-windows/install-report-builder)  
+[下载报表生成器](https://www.microsoft.com/download/details.aspx?id=53613)  
 [下载 SQL Server Data Tools (SSDT)](http://go.microsoft.com/fwlink/?LinkID=616714)
 
 更多问题？ [尝试咨询 Power BI 社区](https://community.powerbi.com/)

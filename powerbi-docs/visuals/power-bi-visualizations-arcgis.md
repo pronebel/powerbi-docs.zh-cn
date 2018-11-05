@@ -1,6 +1,6 @@
 ---
 title: 与已与你共享的 ArcGIS 地图交互
-description: '在读取视图中使用 ArcGis 地图 '
+description: 作为 Power BI 报表使用者在读取视图中使用 ArcGis 地图
 author: mihart
 manager: kvivek
 ms.reviewer: ''
@@ -9,14 +9,14 @@ featuredvideoid: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 10/16/2018
+ms.date: 10/23/2018
 ms.author: mihart
-ms.openlocfilehash: 2c7a9d5f6bdbbfff905f3faa8cec255c2b85a0d5
-ms.sourcegitcommit: a3ce866caba24217bcdd011e892b9ea72f3d2400
+ms.openlocfilehash: dd7bca6782327700f087b6b9ca60a9654fa362d8
+ms.sourcegitcommit: 42475ac398358d2725f98228247b78aedb8cbc4f
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/18/2018
-ms.locfileid: "49396787"
+ms.lasthandoff: 10/25/2018
+ms.locfileid: "50003262"
 ---
 # <a name="interacting-with-arcgis-maps-in-power-bi"></a>在 Power BI 中与 ArcGIS 地图交互
 本主题是从在 Power BI 服务、Power BI Desktop 或 Power BI 移动应用中使用 ArcGIS 地图的人员的角度进行编写。 创建者与你共享 ArcGIS 地图后，便可以通过多种方式与相应地图进行交互。  若要详细了解如何创建 ArcGIS 地图，请参阅 [ESRI ArcGIS 地图教程](../power-bi-visualization-arcgis.md)。
@@ -57,8 +57,12 @@ ArcGIS Maps for Power BI 有三种选择模式。 一次最多可选择 250 个�
 ## <a name="interacting-with-an-arcgis-map"></a>与 ArcGIS 地图交互
 具体可以使用哪些功能取决于你是创建者（地图创建者）还是使用者（其他人与你共享了 ArcGIS 地图）。 如果是以使用者的身份与 ArcGIS 地图进行交互（亦称[阅读视图](../consumer/end-user-reading-view.md)），则可执行下列操作。
 
-* 与其他可视化效果类型一样，可以[固定到仪表板](../service-dashboard-pin-tile-from-report.md)、[查看](../consumer/end-user-show-data.md)和/或[导出基础数据](power-bi-visualization-export-data.md)，并在[焦点模式](../consumer/end-user-focus.md)和[全屏模式](../service-fullscreen-mode.md)下查看地图。    
-* 展开“筛选器”窗格，以使用筛选器浏览地图。 关闭报表时，不会保存所应用的筛选器。    
+* 如果你是具有视图权限的高级消费者，你将能够[查看用于创建可视化效果的数据](../consumer/end-user-show-data.md)、[订阅](../consumer/end-user-subscribe.md)、[在焦点模式和全屏模式下](../consumer/end-user-focus.md)查看地图、[查看相关内容](../consumer/end-user-related.md)、[与筛选器交互](../consumer/end-user-report-filter.md)（由报表创建者设置）、[共享报表](../service-share-reports.md)等。
+
+* 对于其他可视化效果类型，Power BI Pro 消费者可以实现 Premium 消费者可以实现的所有功能，此外，还包括[导出基础数据](power-bi-visualization-export-data.md)、[获取使用情况指标](../service-usage-metrics.md)、保存副本并[发布到 Web](../service-publish-to-web.md) 等。
+
+    
+* 展开“筛选器”窗格，以使用筛选器浏览地图。   
     ![](media/power-bi-visualizations-arcgis/power-bi-filter-newer.png)  
 * 如果地图有引用层，请选择要在工具提示中显示详细信息的位置。 此时，我们选择的是亚当斯县，以查看创建者在地图中添加的平均家庭收入引用层中的数据。
   
@@ -116,6 +120,9 @@ ArcGIS Maps for Power BI 有三种选择模式。 一次最多可选择 250 个�
 **ArcGIS Maps for Power BI 如何运作？**
 ArcGIS Maps for Power BI 由 Esri (www.esri.com) 提供。 使用 ArcGIS Maps for Power BI 时，必须遵守 Esri 的[条款](https://go.microsoft.com/fwlink/?LinkID=8263222)和[隐私策略](https://go.microsoft.com/fwlink/?LinkID=826323)。 Power BI 用户如果希望使用适用于 Power BI 的 ArcGIS 地图视觉对象，则需要接受同意对话框（有关详细信息，请参阅《用户同意》）。  使用 Esri 的 ArcGIS Maps for Power BI 时，必须遵守 Esri 的条款和隐私策略，同意对话框具有相关链接。 每个用户在首次使用 ArcGIS Maps for Power BI 之前，必须同意条款和隐私策略。 一旦用户接受同意，绑定到视觉对象的数据至少会发送到 Esri 的服务以进行地理编码，这意味着将位置信息转换为可以在地图中表示经度和纬度的信息。 应该假定可以将绑定到数据可视化效果的任意数据发送到 Esri 的服务。 Esri 提供基本地图、空间分析和地理编码之类的服务。ArcGIS Maps for Power BI 视觉对象与使用 SSL 连接的这些服务进行交互，该连接由 Esri 提供和维护的证书保护。 可以从 Esri 的 [ArcGIS Maps for Power BI 产品页](https://www.esri.com/powerbi)获取 ArcGIS Maps for Power BI 的其他信息。
 
+**Power BI Plus**    
+![选择 Plus 图标以注册或登录](media/power-bi-visualizations-arcgis/power-bi-plus.png)
+
 当用户通过 ArcGIS Maps for Power BI 注册由 Esri 提供的 Plus 订阅时，他们与 Esri 建立了直接关系。 Power BI 不向 Esri 发送有关用户的个人信息。 用户使用自己的 AAD 身份登录并信任 Esri 提供的 AAD 应用程序。 通过此操作，用户直接与 Esri 共享其个人信息。 一旦用户将 Plus 内容添加到 ArcGIS Maps for Power BI 视觉对象，其他 Power BI 用户也需要 Esri 的 Plus 订阅才能查看或编辑该内容。 
 
 有关 ArcGIS Maps for Power BI 的工作原理的详细技术问题，请通过其支持站点与 Esri 联系。
@@ -123,12 +130,12 @@ ArcGIS Maps for Power BI 由 Esri (www.esri.com) 提供。 使用 ArcGIS Maps fo
 **ArcGIS 地图未显示**    
 在不支持适用于 Power BI 的 ArcGIS 地图的服务或应用中，可视化效果将显示为带 Power BI 徽标的空视觉对象。
 
-**地图上并非显示我的所有地址**    
-对街道地址进行地理编码时，只会对前 1500 个地址进行地理编码。 对地名或国家/地区进行地理编码时，没有前 1500 个地址限制。
+**地图上并非显示我的所有信息**    
+在地图上对维度/经度进行地理编码时，将显示最多 30,000 个数据点。 在对邮政编码或街道地址等数据点进行地理编码时，将仅对前 15,000 个数据点进行编码。 对地名或国家/地区进行地理编码时，没有前 1500 个地址限制。
 
 使用适用于 Power BI 的 ArcGIS 地图需要付费吗？
 
-所有 Power BI 用户都可以使用适用于 Power BI 的 ArcGIS 地图，无需额外付费。 此组件由 Esri 提供，应在本文前面所述的由 Esri 提供的使用条款及隐私政策的限制下使用此组件。
+所有 Power BI 用户都可以使用适用于 Power BI 的 ArcGIS 地图，无需额外付费。 此组件由 Esri 提供，应在本文前面所述的由 Esri 提供的使用条款及隐私政策的限制下使用此组件。 如果订阅 ArcGIS Plus，将收取费用。
 
 **我看到关于缓存已满的错误消息**
 
@@ -146,4 +153,3 @@ ArcGIS Maps for Power BI 由 Esri (www.esri.com) 提供。 使用 ArcGIS Maps fo
 如果有改进建议，可以将建议提交到 [Power BI 建议列表](https://ideas.powerbi.com)。
 
 [适用于 Power BI 的 ArcGIS 地图产品页](https://www.esri.com/powerbi)
-

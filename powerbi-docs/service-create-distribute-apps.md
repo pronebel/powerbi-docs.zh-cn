@@ -6,15 +6,15 @@ manager: kfile
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 08/06/2018
+ms.date: 10/24/2018
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 62950462f60fea6db44a9756eff8f99a6841d1d4
-ms.sourcegitcommit: 1a79e48ac820c28c5d0fd05399f49ed22fc74ed7
+ms.openlocfilehash: 3881e37fa5e97939265e9bb9362cee65a1030e67
+ms.sourcegitcommit: 60fb46b61ac73806987847d9c606993c0e14fb30
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/19/2018
-ms.locfileid: "49435433"
+ms.lasthandoff: 10/25/2018
+ms.locfileid: "50100809"
 ---
 # <a name="publish-apps-with-dashboards-and-reports-in-power-bi"></a>在 Power BI 中发布包含仪表板和报表的应用
 
@@ -63,7 +63,7 @@ ms.locfileid: "49435433"
    
      ![应用内容](media/service-create-distribute-apps/power-bi-apps-content.png)
 
-5. 在“访问”中，决定有权访问应用的人员：要么是组织中的所有人，要么是特定人员或者 Active Directory 安全组。 如果具有相应的权限，则可以决定是否为收件人自动安装应用。 可以在 [Power BI 管理门户](#how-to-enable-pushing-apps)启用此设置. 可以详细了解有关[推送应用](#how-to-enable-pushing-apps)的注意事项。
+5. 在“访问”中，决定有权访问应用的人员：要么是组织中的所有人，要么是特定人员或者 Active Directory 安全组。 如果具有相应的权限，则可以决定是否为收件人自动安装应用。 Power BI 管理员可以在 Power BI 管理门户中启用此设置。 阅读有关[自动安装应用](#how-to-install-an-app-automatically-for-end-users)的详细信息。
 
     ![应用访问](media/service-create-distribute-apps/power-bi-apps-access.png)
 

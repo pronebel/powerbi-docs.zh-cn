@@ -7,15 +7,15 @@ ms.reviewer: maggiesMSFT
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 10/16/2017
+ms.date: 10/24/2018
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: b83ef2b6f2cd07e9f6c9af849e0f64d0490fa1af
-ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
+ms.openlocfilehash: b183738c062af1d834a742639369ca90f2cb1bad
+ms.sourcegitcommit: 42475ac398358d2725f98228247b78aedb8cbc4f
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/21/2018
-ms.locfileid: "46546907"
+ms.lasthandoff: 10/25/2018
+ms.locfileid: "50003216"
 ---
 # <a name="connect-to-zuora-with-power-bi"></a>使用 Power BI 连接到 Zuora
 借助适用于 Power BI 的 Zuora，可以将重要收入、帐单和订阅数据可视化。 使用默认的仪表板和报表来分析使用情况趋势、跟踪计帐和付款、监视定期收入或进行自定义以满足自己独特的仪表板和报表需求。
@@ -32,7 +32,7 @@ ms.locfileid: "46546907"
 3. 选择 **Zuora**\>**获取**。
 
    ![](media/service-connect-to-zuora/zuora.png)
-4. 指定你的 Zuora URL。 通常为“ <https://www.zuora.com> ”，有关详细信息，请参阅下方的[查找这些参数](#FindingParams)。
+4. 指定你的 Zuora URL。 URL 通常为“<https://www.zuora.com>”，有关详细信息，请参阅下方的[查找这些参数](#FindingParams)。
 
    ![](media/service-connect-to-zuora/params.png)
 5. 对于**身份验证方法**，请选择**基本**并提供用户名和密码（区分大小写），然后选择**登录**。
@@ -95,11 +95,10 @@ ms.locfileid: "46546907"
 提供你通常用于登录以访问 Zuora 数据的 URL。 有效选项为：  
 
 * https://www.zuora.com  
-* https://www.apisandbox.zuora.com  
 * 与你的服务实例相对应的 URL  
 
 ## <a name="troubleshooting"></a>故障排除
-Zuora 内容包拉取你的 Zuora 帐户的许多不同的方面。 如果你不使用某些功能，你可能会看到对应的磁贴/报表为空。 如果在加载时遇到任何问题，请与 Power BI 技术支持联系。
+Zuora 内容包拉取你的 Zuora 帐户的许多不同的方面。 如果你不使用某些功能，你可能会看到对应的磁贴/报表为空。 如果在加载时遇到任何问题，请与 Power BI 支持联系。
 
 ## <a name="next-steps"></a>后续步骤
 [Power BI 入门](service-get-started.md)

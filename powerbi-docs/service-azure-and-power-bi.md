@@ -2,41 +2,44 @@
 title: Azure 和 Power BI
 description: Azure 和 Power BI
 author: davidiseminger
+ms.author: davidi
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 07/24/2018
-ms.author: davidi
+ms.date: 10/26/2018
 LocalizationGroup: Data from databases
-ms.openlocfilehash: 596d399e7c304d40be5b7839c5c16060eb9e8155
-ms.sourcegitcommit: 7fb0b68203877ff01f29724f0d1761d023075445
+ms.openlocfilehash: 3eca6d1ae7aaef507d1ee51889c0c617ff33f9e9
+ms.sourcegitcommit: 60fb46b61ac73806987847d9c606993c0e14fb30
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/26/2018
-ms.locfileid: "39255966"
+ms.lasthandoff: 10/25/2018
+ms.locfileid: "50101177"
 ---
 # <a name="azure-and-power-bi"></a>Azure 和 Power BI
+
 借助“Azure”服务和“Power BI”，你可以将数据处理工作转换为可以提供实时业务策略的分析和报告。 无论你处理的数据基于云还是位于本地、简单还是复杂、采用单一来源还是大量混合来源、封存还是实时的，Azure 和 Power BI 提供的内置连接和集成都可以使你的商业智能努力成为现实。
 
-![](media/service-azure-and-power-bi/azure_1.png)
+![Azure](media/service-azure-and-power-bi/azure_1.png)
 
 Power BI 拥有多种 Azure 连接可用，而且使用这些服务创建的商业智能解决方案与你的业务一样与众不同。 你可以连接至少一个 Azure 数据源，也可连接多个，然后对数据进行调整和优化以创建自定义报表。
 
-### <a name="azure-sql-database-and-power-bi"></a>Azure SQL 数据库 和 Power BI
+## <a name="azure-sql-database-and-power-bi"></a>Azure SQL 数据库 和 Power BI
+
 你可以从简单的到 Azure SQL 数据库的连接开始，然后创建报表来监视业务进度。 借助 [Power BI Desktop](desktop-getting-started.md)，你可以创建报表来确定趋势和关键绩效指标，进而促进业务发展。
 
-![](media/service-azure-and-power-bi/azure_2_sqltopbi.png)
+![从 SQL 到 PBI](media/service-azure-and-power-bi/azure_2_sqltopbi.png)
 
 了解有关 [Azure SQL 数据库](http://azure.microsoft.com/services/sql-database/)的详细信息。
 
-### <a name="transform-shape-and-merge-your-cloud-data"></a>转换、调整和合并云数据
+## <a name="transform-shape-and-merge-your-cloud-data"></a>转换、调整和合并云数据
+
 是否有更为复杂的数据，且来自各种源？ 没问题。 借助 **Power BI Desktop** 和 Azure 服务，只需点击一下“获取数据”对话框即可实现连接。 在相同的查询中，你可以连接到“Azure SQL 数据库”、“Azure HDInsight”数据源和“Azure Blob 存储”（或“Azure 表存储”，然后只选择每个源中你需要的子集，并在其中进行优化。
 
 你也可以使用相同的数据连接甚至相同的查询为不同受众创建不一样的报表。 只需生成新的报表页、针对每个受众优化可视化组件，然后就可以目睹报表对业务信息的持续反馈。
 
-![](media/service-azure-and-power-bi/azure_3_multipletopbi.png)
+![从多个到 PBI](media/service-azure-and-power-bi/azure_3_multipletopbi.png)
 
 有关详细信息，请参阅以下资源：
 
@@ -44,16 +47,24 @@ Power BI 拥有多种 Azure 连接可用，而且使用这些服务创建的商�
 * [Azure HDInsight](http://azure.microsoft.com/services/hdinsight/)
 * [Azure 存储](http://azure.microsoft.com/services/storage/)（Blob 存储和表存储）
 
-### <a name="get-complex-and-ahead-using-azure-services-and-power-bi"></a>借助 Azure 服务和 Power BI 深入并领先行业。
+## <a name="get-complex-and-ahead-using-azure-services-and-power-bi"></a>借助 Azure 服务和 Power BI 深入并领先行业。
+
 你可以根据需要拓展 Azure 和 Power BI 的功能。 使用多源数据处理、利用大量的实时系统，借助[流分析](http://azure.microsoft.com/services/stream-analytics/)和[事件中心](http://azure.microsoft.com/services/event-hubs/)，将各种 SaaS 服务合并到商业智能报表以增加你的业务优势。
 
-![](media/service-azure-and-power-bi/azure_4_complex.png)
+![Azure Complex](media/service-azure-and-power-bi/azure_4_complex.png)
 
-### <a name="connect-your-app-data-using-power-bi-apis"></a>使用 Power BI API 连接应用程序数据
-你还可以在现有的应用程序中使用 Power BI 来获取策略。 借助 Power BI API，应用程序开发人员可以将全部数据集以编程的方式发送到 Power BI。 需要持续更新？ 借助 Power BI API，开发人员可以发送实时数据更新以快速启动，然后根据规模需求，转为使用 Azure 流分析。
+## <a name="context-insights-with-power-bi-embedded-analytics"></a>使用 Power BI Embedded 分析来获取上下文见解
 
-在 [Power BI 开发人员门户](http://dev.powerbi.com)中查看 Power BI API 的详细信息。 
+在应用、网站、门户等中嵌入惊艳的交互式数据可视化效果，以利用你的业务数据。 使用 [Power BI Embedded 作为 Azure 中的资源](https://azure.microsoft.com/services/power-bi-embedded/)可以轻松地嵌入交互式报表和仪表板，在多台设备之间实现一致的高保真体验。  Power BI 与嵌入分析结合使用可帮助你体验数据 -> 知识 -> 见解 -> 操作的过程。  此外，通过在[组织的内部应用程序和门户](https://powerbi.microsoft.com/en-us/developers/embedded-analytics/organization/)中嵌入分析，还可以扩展 Power BI 和 Azure 的价值。
 
-### <a name="what-could-you-do-with-azure-and-power-bi"></a>Azure 和 Power BI 可以用来做什么？
-**Azure** 和 **Power BI** 可以在各种场景下组合，其可能性和机遇与你的业务一样独一无二。 有关“Azure 服务”的详细信息，请查看此[概览页](http://go.microsoft.com/fwlink/?LinkId=535031&clcid=0x409)，其中会介绍**使用 Azure 的数据分析场景**，并可以了解如何将数据源转换为推动业务的信息。
+在 [Power BI 开发人员门户](http://dev.powerbi.com)中查看 Power BI API 的详细信息。
 
+有关详细信息，请参阅[开发人员可以使用 Power BI 做什么？](developer/what-can-you-do.md)。
+
+## <a name="embed-your-power-bi-data-within-your-app"></a>在应用中嵌入 Power BI 数据
+
+在应用程序、网站、门户等中嵌入惊艳的交互式数据可视化效果，展示业务数据并提供背景信息。 使用 [Azure 中的 Power BI Embedded](https://azure.microsoft.com/services/power-bi-embedded/)，可以轻松地嵌入交互式报表和仪表板，在多台设备之间实现一致的高保真体验。
+
+## <a name="what-could-you-do-with-azure-and-power-bi"></a>Azure 和 Power BI 可以用来做什么？
+
+**Azure** 和 **Power BI** 可以在各种场景下组合，其可能性和机遇与你的业务一样独一无二。 有关“Azure 服务”的详细信息，请查看此[概览页](https://docs.microsoft.com/azure/machine-learning/team-data-science-process/plan-your-environment)，其中会介绍**使用 Azure 的数据分析场景**，并可以了解如何将数据源转换为推动业务的信息。

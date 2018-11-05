@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 04/10/2018
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: 5051ed66b4214b7ef55ecf2a95d5ed4bc38653ce
-ms.sourcegitcommit: a764e4b9d06b50d9b6173d0fbb7555e3babe6351
+ms.openlocfilehash: bc4e144fa4095f5ffc1369a9f54da12fa262f7c2
+ms.sourcegitcommit: 60fb46b61ac73806987847d9c606993c0e14fb30
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/22/2018
-ms.locfileid: "49642002"
+ms.lasthandoff: 10/25/2018
+ms.locfileid: "50101591"
 ---
 # <a name="using-auditing-within-your-organization"></a>在组织内使用审核
 
@@ -132,7 +132,7 @@ ms.locfileid: "49642002"
 | 已将数据源添加到 Power BI 网关 |每次将数据源添加到网关时都将记录此活动 |网关名称、网关类型、数据源名称、数据源类型 |
 | 已从 Power BI 网关删除数据源 |每次从网关删除数据源时都将记录此活动 |网关名称、网关类型、数据源名称、数据源类型 |
 | 已更改 Power BI 网关管理员 |每次更改（添加/删除）网关的管理员时都会记录此活动 |网关名称、添加的用户、删除的用户 |
-| 已更改 Power IB 网关数据源用户 |每次更改（添加/删除）网关的用户时都会记录此活动 |网关名称、添加的用户、删除的用户 |
+| 已更改 Power BI 网关数据源用户 |每次更改（添加/删除）网关的用户时都会记录此活动 |网关名称、添加的用户、删除的用户 |
 | SetScheduledRefresh |每次为数据集安排新的计划刷新时都将记录此活动 |数据集名称、刷新频率（以分钟为单位） |
 
 ## <a name="using-powershell-to-search"></a>使用 PowerShell 进行搜索
