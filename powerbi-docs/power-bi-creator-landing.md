@@ -10,12 +10,12 @@ ms.date: 09/24/2018
 ms.author: maggies
 layout: landingpage
 LocalizationGroup: Get started
-ms.openlocfilehash: 21b45d6b907378f9339328cfea1c17f0c73d91c2
-ms.sourcegitcommit: 833cf1252807721fb1b3000487bd032bfd6c8c98
+ms.openlocfilehash: abc57a90f2ae70dcbbbd4ab284418476b071afae
+ms.sourcegitcommit: 02f918a4f27625b6f4e47473193ebc8219db40e2
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "48271615"
+ms.lasthandoff: 11/07/2018
+ms.locfileid: "51223343"
 ---
 # <a name="power-bi-for-report-designers"></a>面向报表设计人员的 Power BI
 
@@ -135,7 +135,7 @@ ms.locfileid: "48271615"
                                                                                       <h3>针对 Power BI 进行开发</h3> 
                                                                                       <p></p>
                                                                                             <a href="developer/embedding.md">使用 Power BI 嵌入</a><br/> 
-                                                                                            <a href="service-custom-visuals-getting-started-with-developer-tools.md">开发自定义视觉对象</a><br/> 
+                                                                                            <a href="developer/custom-visual-develop-tutorial.md">开发自定义视觉对象</a><br/> 
                                                                                             <a href="https://docs.microsoft.com/rest/api/power-bi">Power BI REST API</a>
                                                                         </div> 
                                                           </div> 

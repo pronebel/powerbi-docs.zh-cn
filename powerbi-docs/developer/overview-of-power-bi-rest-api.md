@@ -9,12 +9,12 @@ ms.component: powerbi-developer
 ms.topic: conceptual
 ms.date: 05/25/2018
 ms.author: maghan
-ms.openlocfilehash: 3b19740616e7b9a390a883fde2fd96320de7b94a
-ms.sourcegitcommit: 698b788720282b67d3e22ae5de572b54056f1b6c
+ms.openlocfilehash: a1492a98825ad26b2dde359cf9cec96cc4623e04
+ms.sourcegitcommit: 02f918a4f27625b6f4e47473193ebc8219db40e2
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/17/2018
-ms.locfileid: "45973577"
+ms.lasthandoff: 11/07/2018
+ms.locfileid: "51223159"
 ---
 # <a name="what-can-developers-do-with-the-power-bi-api"></a>开发人员可以使用 Power BI API 做什么？
 
@@ -29,10 +29,10 @@ Power BI 显示可从众多不同数据源创建和实时更新的交互式仪�
 | 为 Power BI 用户和非 Power BI 用户（应用拥有数据）嵌入仪表板、报表和磁贴 |[如何嵌入 Power BI 仪表板、报表和磁贴](embedding-content.md) |
 | 扩展现有业务工作流以将关键数据推送到 Power BI 仪表板。 |[将数据推送到仪表板](walkthrough-push-data.md) |
 | 进行 Power BI 身份验证。 |[进行 Power BI 身份验证](get-azuread-access-token.md) |
-| 创建自定义视觉对象。 |[使用开发人员工具创建自定义视觉对象](../service-custom-visuals-getting-started-with-developer-tools.md) |
+| 创建自定义视觉对象。 |[开发 Power BI 自定义视觉对象](custom-visual-develop-tutorial.md) |
 
 > [!NOTE]
-> Power BI API 仍将应用工作区视作为组。 对组的任何引用都意味着正使用应用工作区工作。
+> Power BI API 仍以组的形式引用应用工作区。 对组的任何引用都意味着正使用应用工作区工作。
 
 ## <a name="power-bi-developer-samples"></a>Power BI 开发人员示例
 
@@ -72,7 +72,7 @@ Power BI 开发人员示例包含用于嵌入仪表板、报表和磁贴的项�
 ## <a name="next-steps"></a>后续步骤
 
 [将数据推送到数据集](walkthrough-push-data.md)  
-[自定义视觉对象开发人员工具入门](../service-custom-visuals-getting-started-with-developer-tools.md)  
+[开发 Power BI 自定义视觉对象](custom-visual-develop-tutorial.md)  
 [Power BI REST API 引用](https://docs.microsoft.com/rest/api/power-bi/)  
 
 更多问题？ [尝试咨询 Power BI 社区](http://community.powerbi.com/)
