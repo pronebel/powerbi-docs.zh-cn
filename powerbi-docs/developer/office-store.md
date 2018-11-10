@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
 ms.date: 10/30/2018
-ms.openlocfilehash: d46acd9c70e8deb7fb9ae6d241256e61b7f85b65
-ms.sourcegitcommit: f2eab2c3e7b5ec3684f63d819f10cb3dcfa21e73
+ms.openlocfilehash: 4ac828baa4f6080ab50008aa4ffb570ff016246f
+ms.sourcegitcommit: 02f918a4f27625b6f4e47473193ebc8219db40e2
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/26/2018
-ms.locfileid: "50153739"
+ms.lasthandoff: 11/07/2018
+ms.locfileid: "51223115"
 ---
 # <a name="publish-custom-visuals-to-appsource"></a>将自定义视觉对象发布到 AppSource
 
@@ -32,7 +32,7 @@ AppSource 是查找 Microsoft 产品和服务的 SaaS 应用与加载项的位�
 
 对自定义视觉对象进行编码和测试并将其打包到 pbiviz 文件后，还应准备以下信息用于提交。
 
-| 商品 | 必填 | 说明 |
+| 项目 | 必填 | 说明 |
 | --- | --- | --- |
 | Pbiviz 程序包包含全部所需元数据 |是 |视觉对象名称<br>显示名称<br>GUID<br>版本<br>说明<br>作者姓名和电子邮件 |
 | 示例 .pbix 报表文件 |是 |要展示你的视觉对象，应帮助用户了解该视觉对象。 应向用户强调该视觉对象可以带来的价值，并提供使用示例，格式设置选项等。还可以添加 *“提示”* 页，并在页面末尾附上一些提示和技巧、操作注意事项以及类似内容。<br>示例 .pbix 报表文件必须脱机运行且无任何外部连接 |
@@ -147,7 +147,7 @@ AppSource 是查找 Microsoft 产品和服务的 SaaS 应用与加载项的位�
 
 ## <a name="next-steps"></a>后续步骤
 
-[使用开发人员工具创建自定义视觉对象](../service-custom-visuals-getting-started-with-developer-tools.md)  
+[开发 Power BI 自定义视觉对象](custom-visual-develop-tutorial.md)  
 [Power BI 中的可视化效果](../visuals/power-bi-report-visualizations.md)  
 [Power BI 中的自定义可视化效果](../power-bi-custom-visuals.md)  
 [让自定义视觉对象取得认证](../power-bi-custom-visuals-certified.md)

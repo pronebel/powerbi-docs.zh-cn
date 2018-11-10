@@ -10,12 +10,12 @@ ms.component: powerbi-desktop
 ms.topic: conceptual
 ms.date: 10/29/2018
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 6fc21a9b8558b554cae6e9096aaee0fbaabcdaf3
-ms.sourcegitcommit: f9dd6098ca57d4d6cad34284126d4e58eab1c92c
+ms.openlocfilehash: e34491ebc1cc7554e8c8c000da7528754b5a673b
+ms.sourcegitcommit: 02f918a4f27625b6f4e47473193ebc8219db40e2
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/29/2018
-ms.locfileid: "50222073"
+ms.lasthandoff: 11/07/2018
+ms.locfileid: "51223090"
 ---
 # <a name="use-organizational-custom-visuals-in-power-bi"></a>在 Power BI 中使用组织的自定义视觉对象
 
@@ -54,4 +54,12 @@ ms.locfileid: "50222073"
 
 * 如果来自 AppSource 市场的 Visio 视觉对象、PowerApps 视觉对象、Map box 视觉对象和 GlobeMap 视觉对象通过组织存储库部署，它们将不会呈现。
 
-有关详细信息和问题的答案，请访问[常见问题解答](power-bi-custom-visuals-faq.md#organizational-custom-visuals)。
+## <a name="troubleshoot"></a>疑难解答
+
+有关疑难解答的信息，请访问 [Power BI 自定义视觉对象疑难解答](power-bi-custom-visuals-troubleshoot.md)。
+
+## <a name="faq"></a>常见问题解答
+
+有关详细信息和问题的答案，请访问[关于 Power BI 自定义视觉对象的常见问题解答](power-bi-custom-visuals-faq.md#organizational-custom-visuals)。
+
+更多问题？ [尝试参与 Power BI 社区](http://community.powerbi.com/)。

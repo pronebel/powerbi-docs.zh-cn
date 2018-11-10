@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 07/26/2018
+ms.date: 11/01/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: a4c73cc81a09a3747ff34e6a20508b4ff19eafa8
-ms.sourcegitcommit: df7a58dae14ef311516c9b3098f87742786f0479
+ms.openlocfilehash: c01af129e15025b97925f59532d1be7a6671b47f
+ms.sourcegitcommit: 0611860a896e636ceeb6e30ce85243bfd8e7b61d
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/27/2018
-ms.locfileid: "39280285"
+ms.lasthandoff: 11/01/2018
+ms.locfileid: "50909608"
 ---
 # <a name="use-insights-in-power-bi-desktop-to-explain-increases-and-decreases-seen-in-visuals-preview"></a>使用 Power BI Desktop 中的见解来解释视觉对象中显示的增长和下降（预览版）
 
@@ -36,7 +36,7 @@ ms.locfileid: "39280285"
 
 
 ## <a name="using-insights"></a>使用见解
-若要使用见解来解释图表上出现的增长或下降，只需右键单击条形图或折线图中的任意数据点，然后选择“分析”>“解释此增长”（或“解释此下降”，因为所有见解都是根据上一个数据点的变化得出的）。
+若要使用见解来解释图表中的增长或下降，只需右键单击条形图或折线图中的任意数据点，再依次选择“分析”>“解释此增长”（或“解释此下降”即可，因为所有见解都是根据上一个数据点的变化而得出）。
 
 ![显示见解菜单](media/desktop-insights/insights_02.png)
 
@@ -113,7 +113,6 @@ ms.locfileid: "39280285"
 * 前 n 个筛选器
 * 包括/排除筛选器
 * 度量值筛选器
-* 非累加性度量值和聚合
 * 非数值度量值
 * 使用“值显示为”
 * 筛选后的度量值：筛选后的度量值是指应用了特定筛选器的视觉对象级计算（例如，*法国总销售额*），用于见解功能创建的某些视觉对象

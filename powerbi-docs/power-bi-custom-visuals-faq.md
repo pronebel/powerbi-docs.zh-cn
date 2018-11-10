@@ -10,12 +10,12 @@ ms.component: powerbi-desktop
 ms.topic: conceptual
 ms.date: 10/29/2018
 LocalizationGroup: Visualizations
-ms.openlocfilehash: a2e43d205b9e4f3085652ac3603ee68f67b2b33c
-ms.sourcegitcommit: f9dd6098ca57d4d6cad34284126d4e58eab1c92c
+ms.openlocfilehash: 064d32944f52f6e391d4a7ec4df41ecbf09b7e3f
+ms.sourcegitcommit: 02f918a4f27625b6f4e47473193ebc8219db40e2
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/29/2018
-ms.locfileid: "50222143"
+ms.lasthandoff: 11/07/2018
+ms.locfileid: "51223067"
 ---
 # <a name="frequently-asked-questions-about-power-bi-custom-visuals"></a>有关 Power BI 自定义视觉对象的常见问题
 
@@ -58,3 +58,7 @@ ms.locfileid: "50222143"
 什么是认证的自定义视觉对象？
 
 认证的自定义视觉对象是[市场](https://appsource.microsoft.com/marketplace/apps?page=1&product=power-bi-visuals)中满足由 Power BI 团队[指定](power-bi-custom-visuals-certified.md)的代码要求和测试的视觉对象。  执行的测试旨在检查视觉对象未访问外部服务或资源，但是，Microsoft 不是第三方自定义视觉对象的作者，因此，我们建议客户直接联系作者，以验证此视觉对象的功能。
+
+## <a name="next-steps"></a>后续步骤
+
+有关疑难解答的信息，请访问 [Power BI 自定义视觉对象疑难解答](power-bi-custom-visuals-troubleshoot.md)。

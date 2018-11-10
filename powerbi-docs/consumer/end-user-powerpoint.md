@@ -1,5 +1,5 @@
 ---
-title: 将报表从 Power BI 导出到 PowerPoint（预览版）
+title: 将报表从 Power BI 导出到 PowerPoint
 description: 了解如何将 Power BI 报表导出到 PowerPoint。
 author: mihart
 manager: kvivek
@@ -10,14 +10,14 @@ ms.topic: conceptual
 ms.date: 07/27/2018
 ms.author: mihart
 LocalizationGroup: Share your work
-ms.openlocfilehash: 85a0a34f9c67d29fee7be6335f79e97b482548be
-ms.sourcegitcommit: 70192daf070ede3382ac13f6001e0c8b5fb8d934
+ms.openlocfilehash: 661d615ed33b12ae0557fd8feaa0bc47b3a6638f
+ms.sourcegitcommit: ac63e6a082ca8397909217837e8d98c9389b23ac
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/22/2018
-ms.locfileid: "46565328"
+ms.lasthandoff: 11/01/2018
+ms.locfileid: "50736932"
 ---
-# <a name="export-reports-from-power-bi-to-powerpoint-preview"></a>将报表从 Power BI 导出到 PowerPoint（预览版）
+# <a name="export-reports-from-power-bi-to-powerpoint"></a>将报表从 Power BI 导出到 PowerPoint
 借助 Power BI，现在可将报表发布到 **Microsoft PowerPoint**，并根据 Power BI 报表轻松地创建幻灯片平台。 **导出到 PowerPoint** 时，会发生以下情况：
 
 * Power BI 报表中的每个页面成为 PowerPoint 中单独的幻灯片
@@ -77,9 +77,9 @@ ms.locfileid: "46565328"
 * 目前不支持 R 视觉对象。 任何此类视觉对象都将作为空白图像导出到 PowerPoint 中，并显示一条错误消息，指示不支持该视觉对象。
 * 支持已取得认证的自定义视觉对象。 有关已取得认证的自定义视觉对象的详细信息（包括如何完成自定义视觉对象认证），请参阅[获取自定义视觉对象认证](../power-bi-custom-visuals-certified.md)。 不支持未取得认证的自定义视觉对象，任何此类视觉对象都会作为空白图像导出到 PowerPoint 中，并显示一条错误消息，指示不支持该视觉对象。
 * 支持**已认证的自定义视觉对象**。 已认证的自定义视觉对象已批准用于 Power BI，满足特定的代码要求并通过严格的安全测试。 可以[详细了解已认证的自定义视觉对象](../power-bi-custom-visuals-certified.md)。
-* 目前不能导出包含 15 个以上报表页面的报表。
+* 暂无法导出报表页超过 30 个的报表。
 * 将报表导出到 PowerPoint 的过程可能需要几分钟才能完成，请耐心等待。 影响所需时间的因素包括报表的结构和 Power BI 服务的当前负载。
-* 如果**导出到 PowerPoint（预览版）** 菜单项在 Power BI 服务中不可用，这很可能是因为租户管理员已禁用该功能。 有关详细信息，请联系租户管理员。
+* 如果 Power BI 服务中没有“导出到 PowerPoint”菜单项，很可能是因为租户管理员已禁用此功能。 有关详细信息，请联系租户管理员。
 * 会根据图表的边界区域裁剪背景图像。 强烈建议在导出到 PowerPoint 之前删除背景图像。
 * 导出到 PowerPoint 时，尚不支持**会话内交互性**，例如突出显示和筛选、向下钻取等功能。 已导出的 PowerPoint 显示原始视觉对象，因为它们已保存在报表中。
 * PowerPoint 页始终以标准的 9:16 尺寸创建，无论 Power BI 报表页的原大小或原尺寸如何。

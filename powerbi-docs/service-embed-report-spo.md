@@ -10,13 +10,13 @@ ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
 LocalizationGroup: Share your work
-ms.date: 10/20/2018
-ms.openlocfilehash: e336323863dfacc8c74f2dc1f721231d58d03834
-ms.sourcegitcommit: 60fb46b61ac73806987847d9c606993c0e14fb30
+ms.date: 11/01/2018
+ms.openlocfilehash: fc0234536415c758992cec629452a3e629c46ad1
+ms.sourcegitcommit: d20f74d5300197a0930eeb7db586c6a90403aabc
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/25/2018
-ms.locfileid: "50100763"
+ms.lasthandoff: 11/03/2018
+ms.locfileid: "50973318"
 ---
 # <a name="embed-with-report-web-part-in-sharepoint-online"></a>使用报表 Web 部件在 SharePoint Online 中嵌入报表
 
@@ -82,14 +82,34 @@ ms.locfileid: "50100763"
 > [!IMPORTANT]
 > 请务必在 Power BI 中检查哪些人员可以查看报表，然后向未列出的人员授予访问权限。
 
-在 Power BI 服务中授予报表访问权限的方法有两种。 若要使用 Office 365 组生成 SharePoint Online 团队网站，请在 Power BI 服务和 SharePoint 页中将用户列为应用工作区的成员。 这样就能确保用户可以查看相应组的内容。 有关详细信息，请参阅[在 Power BI 中创建和分发应用](service-create-distribute-apps.md)。
+在 Power BI 服务中授予报表访问权限的方法有两种。 若要使用 Office 365 组生成 SharePoint Online 团队网站，请在 Power BI 服务和 SharePoint 页中将用户列为应用工作区的成员。 有关详细信息，请参阅如何[管理应用工作区](service-manage-app-workspace-in-power-bi-and-office-365.md)。
 
-此外，可以通过在应用内嵌入报表以与用户直接共享该报表。 必须预安装应用，才能嵌入报表。 可以通过使用“自动安装应用”功能以预安装的方式安装应用。
+此外，可以通过在应用内嵌入报表以与用户直接共享该报表。 若要在应用内嵌入报表，需要遵循几个步骤。  
+
+1. 应用作者是 Pro 用户。
+
+2. 作者在应用工作区中创建报表。 若要与 Power BI（免费）用户共享，必须将应用工作区设置为“Premium 工作区”。
+
+3. 作者发布并安装应用。 作者务必要安装应用，才有权访问用于在 SharePoint Online 中嵌入报表的报表 URL。
+
+4. 此时，所有最终用户也必须要安装应用。 不过，可使用“自动安装应用”功能（可以在 [Power BI 管理门户](service-admin-portal.md)中启用），将应用设置为对最终用户预安装。
 
    ![自动安装应用](media/service-embed-report-spo/install-app-automatically.png)
 
-> [!NOTE]
-> 用户需要具有 SharePoint 页面和报表的访问权限，以查看 SharePoint 页面上的报表。
+5. 作者打开应用并转到报表。
+
+6. 作者从应用安装的报表中复制嵌入报表 URL。 请勿使用应用工作区中的原始报表 URL。
+
+7. 在 SharePoint Online 中新建团队网站。
+
+8. 将第 6 步中复制的报表 URL 添加到 Power BI Web 部件。
+
+9. 添加将使用 SharePoint Online 页面和已创建 Power BI 应用中的数据的所有最终用户和/或组。
+
+    > [!NOTE]
+    > 用户或组必须同时有权访问 SharePoint Online 页面和 Power BI 应用中的报表，才能查看 SharePoint 页面上的报表。
+
+10. 此时，最终用户可以转到 SharePoint Online 中的团队网站，并能查看页面上的报表。
 
 ## <a name="multi-factor-authentication"></a>多重身份验证
 

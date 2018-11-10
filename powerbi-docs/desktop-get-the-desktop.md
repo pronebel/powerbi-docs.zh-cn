@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 06/05/2018
+ms.date: 11/01/2018
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: 319c636c660aff3ab651475e2d7b553fef49b8cd
-ms.sourcegitcommit: e8d924ca25e060f2e1bc753e8e762b88066a0344
+ms.openlocfilehash: 5eb2e63d9bac7249e106ad4c4b525ca3f3ab5cf8
+ms.sourcegitcommit: 0611860a896e636ceeb6e30ce85243bfd8e7b61d
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/29/2018
-ms.locfileid: "37137321"
+ms.lasthandoff: 11/01/2018
+ms.locfileid: "50909585"
 ---
 # <a name="get-power-bi-desktop"></a>获取 Power BI Desktop
 **Power BI Desktop** 允许用户生成高级查询、模型和实现数据可视化效果的报表。 通过 Power BI Desktop，可以生成数据模型、创建报表，并通过发布到 Power BI 服务共享工作。  **Power BI Desktop** 可免费下载。
@@ -101,11 +101,35 @@ ms.locfileid: "37137321"
 
 ## <a name="considerations-and-limitations"></a>注意事项和限制
 
+我们始终希望你能获得超棒的 Power BI Desktop 使用体验。 有时，可能会在使用 Power BI Desktop 时遇到问题，因此本部分介绍了解决可能会出现的问题的解决方案或建议。 
+
+### <a name="issues-when-using-previous-releases-of-power-bi-desktop"></a>无法使用旧版 Power BI Desktop
+
 一些用户在使用 Power BI Desktop 的过时版本时遇到类似以下错误： 
 
     "We weren't able to restore the saved database to the model" 
 
 通常，更新到 Power BI Desktop 的当前版本可解决此问题。
+
+### <a name="disabling-notifications"></a>禁用通知
+建议更新到最新版 Power BI Desktop，以利用功能、性能、稳定性和其他改进方面的进步优势。 一些组织可能不希望用户更新到每个新版本。 若要禁用通知，可按以下步骤操作来修改注册表：
+
+1. 使用注册表编辑器转到 HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Microsoft Power BI Desktop
+2. 在其中新建包含以下设置的条目：REG_DWORD : DisableUpdateNotification
+3. 将新条目的值设置为“1”。
+
+必须重启计算机，更改才能生效。
+
+### <a name="power-bi-desktop-loads-with-a-partial-screen"></a>Power BI Desktop 在加载时未占据整个屏幕
+
+在某些情况下（包括特定屏幕分辨率配置），一些用户可能会发现 Power BI Desktop 呈现的内容包含大块黑色区域。 这通常是由于最新操作系统更新所致（它们影响了项的呈现方式），并不是 Power BI Desktop 内容呈现方式的直接结果。 无论如何，大块黑色区域并不像优质视觉对象那样有吸引力，因此，请按以下步骤操作来解决此问题：
+
+1. 按“开始”键，再在随即显示的搜索栏中键入“模糊”一词。
+2. 在随即显示的对话框中，选择“让 Windows 修复模糊应用”选项。
+3. 重启 Power BI Desktop。
+
+在后续 Windows 更新发布后，此问题可能就会得到解决。 
+ 
 
 ## <a name="next-steps"></a>后续步骤
 一旦安装了 **Power BI Desktop**，以下内容可帮助你快速启动和运行：

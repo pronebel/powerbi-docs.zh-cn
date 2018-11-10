@@ -8,13 +8,13 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-developer
 ms.topic: tutorial
-ms.date: 10/26/2018
-ms.openlocfilehash: 813d65844fee21a6c10d4c95bd15fb18cf4c75c2
-ms.sourcegitcommit: f2eab2c3e7b5ec3684f63d819f10cb3dcfa21e73
+ms.date: 11/06/2018
+ms.openlocfilehash: ed3a7a7c9f649f5ce834594572e3ab87b91181f5
+ms.sourcegitcommit: 02f918a4f27625b6f4e47473193ebc8219db40e2
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/26/2018
-ms.locfileid: "50159800"
+ms.lasthandoff: 11/07/2018
+ms.locfileid: "51223412"
 ---
 # <a name="tutorial-developing-a-power-bi-custom-visual"></a>教程：开发 Power BI 自定义视觉对象
 
@@ -39,6 +39,7 @@ ms.locfileid: "50159800"
 
 * 如果未注册 Power BI Pro，请在开始之前[注册以获得免费试用](https://powerbi.microsoft.com/en-us/pricing/)。
 * 需要安装 [Visual Studio Code](https://www.visualstudio.com/)。
+* 对于 Windows 用户，需要 [Windows PowerShell](https://docs.microsoft.com/powershell/scripting/setup/installing-windows-powershell?view=powershell-6) 版本 4 或更高版本，而对于 OSX 用户，则需要[终端](https://macpaw.com/how-to/use-terminal-on-mac)。
 
 ## <a name="setting-up-the-developer-environment"></a>设置开发人员环境
 
@@ -69,6 +70,8 @@ ms.locfileid: "50159800"
     ```
 
 ### <a name="creating-and-installing-a-certificate"></a>创建和安装证书
+
+#### <a name="windows"></a>Windows
 
 1. 若要创建证书，请输入以下命令。
 
@@ -117,13 +120,32 @@ ms.locfileid: "50159800"
 > [!Important]
 > 不要关闭 Windows PowerShell 会话。
 
+#### <a name="osx"></a>OSX
+
+1. 如果左上角的锁处于锁定状态，则选择它以解除锁定。 搜索 localhost，并双击该证书。
+
+    ![在 OSX 上安装 SSL 证书 1](media/custom-visual-develop-tutorial/install-ssl-certificate-osx.png)
+
+2. 选择“始终信任”并关闭窗口。
+
+    ![在 OSX 上安装 SSL 证书 2](media/custom-visual-develop-tutorial/install-ssl-certificate-osx2.png)
+
+3. 输入用户名和密码。 选择“更新设置”。
+
+    ![在 OSX 上安装 SSL 证书 3](media/custom-visual-develop-tutorial/install-ssl-certificate-osx3.png)
+
+4. 关闭已打开的任何浏览器。
+
+> [!NOTE]
+> 如果未能识别证书，可能需要重启计算机。
+
 ## <a name="creating-a-custom-visual"></a>创建自定义视觉对象
 
 环境设置已完成，现在可以创建自定义视觉对象了。
 
 可以[下载](https://github.com/Microsoft/PowerBI-visuals-circlecard)本教程的完整源代码。
 
-1. 在 Windows PowerShell 中，验证已安装 Power BI Visual Tools 包。
+1. 验证已安装 Power BI Visual Tools 包。
 
     ```powershell
     pbiviz
@@ -555,6 +577,10 @@ ms.locfileid: "50159800"
 现在已配置数据角色并将视觉对象绑定到数据视图。
 
 在下一教程中，你将学习如何将格式设置选项添加到自定义视觉对象。
+
+## <a name="debugging"></a>调试
+
+有关调试自定义视觉对象的提示，请参阅[调试指南](https://microsoft.github.io/PowerBI-visuals/docs/how-to-guide/how-to-debug/)。
 
 ## <a name="next-steps"></a>后续步骤
 

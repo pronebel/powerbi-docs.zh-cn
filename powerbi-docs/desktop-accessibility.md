@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/15/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 525a7e45a804d9f82f4d06cf8618d790e140699f
-ms.sourcegitcommit: b8461c1876bfe47bf71c87c7820266993f82c0d3
+ms.openlocfilehash: 799115dc5487a196cbd5d8a2c9dce1603764034a
+ms.sourcegitcommit: 02f918a4f27625b6f4e47473193ebc8219db40e2
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/15/2018
-ms.locfileid: "49336866"
+ms.lasthandoff: 11/07/2018
+ms.locfileid: "51223366"
 ---
 # <a name="accessibility-in-power-bi-desktop-reports"></a>Power BI Desktop 报表中的辅助功能
 Power BI 具有使残疾人士能够更轻松地使用 Power BI 报表并与之进行交互的功能。 这些功能包括通过键盘或屏幕阅读器使用报表、通过按 Tab 键将焦点移动到页面中的各个对象以及在可视化效果中方便地使用标记。
@@ -34,6 +34,8 @@ Power BI 具有使残疾人士能够更轻松地使用 Power BI 报表并与之�
 
 借助辅助功能的增强功能，可以使用以下方法通过键盘或屏幕阅读器使用 Power BI 报表：
 
+查看报表时，通常应关闭扫描模式。
+
 可以使用 Ctrl+F6 在报表页选项卡或在给定的报表页中的对象之间切换焦点。
 
 * 当焦点位于报表页选项卡上时，使用 Tab 或箭头键将焦点从一个报表页移到下一个报表页。 无论当前是否被选中，屏幕阅读器都会读出报表页的标题。 若要加载当前焦点所在的报表页，使用 Enter 或空格键。
@@ -48,7 +50,7 @@ Power BI 具有使残疾人士能够更轻松地使用 Power BI 报表并与之�
 ![在 Power BI Desktop 中按 Alt+Shift+F11 可访问视觉对象的“查看数据”窗口](media/desktop-accessibility/accessibility_04.png)
 
 > [!NOTE]
-> 仅可在屏幕阅读器中通过此键盘快捷方式访问“显示数据”功能。 如果通过视觉对象标头中的选项打开“显示数据”，屏幕阅读器将无法访问此功能。
+> 仅可在屏幕阅读器中通过此键盘快捷方式访问“显示数据”功能。 如果通过视觉对象标头中的选项打开“显示数据”，屏幕阅读器将无法访问此功能。 使用“显示数据”时，请启用扫描模式以利用屏幕阅读器提供的所有热键。
 
 自 2018 年 7 月发布“Power BI Desktop”以来，切片器还具有内置的辅助功能。 选择切片器时，若要调整切片器的值，使用 CTRL+向右键（控制键加向右键）可移动切片器内的各种控件。 例如，最初按 CTRL+向右键时，焦点位于橡皮擦上，按下空格键等同于单击橡皮擦按钮，这样便可擦除切片器上的所有值。 
 
@@ -112,6 +114,55 @@ Power BI 服务还尝试检测 Windows 选择的高对比度设置，但该检�
 
 * 通过 Power BI Desktop 使用屏幕阅读器时，如果在 Power BI Desktop 中打开任何文件前打开所选屏幕阅读器，则将获得最佳体验。
 * 如果使用讲述人，以 HTML 表形式导航“显示数据”有一些相关限制。
+
+## <a name="keyboard-shortcuts"></a>键盘快捷方式
+### <a name="frequently-used-shortcuts"></a>常用快捷方式
+| 如何执行此操作           | 操作方法                |
+| :------------------- | :------------------- |
+| 在分区间移动焦点  | Ctrl + F6 |
+| 在分区中向前移动焦点 | Tab         |
+| 在分区中向后移动焦点 | Shift + Tab |
+
+### <a name="on-visual"></a>启用视觉对象
+| 如何执行此操作           | 操作方法                |
+| :------------------- | :------------------- |
+| 将焦点移动到视觉对象菜单 | Alt + Shift + F10 |
+| 显示数据 | Alt + Shift +F11  |
+
+### <a name="pane-navigation"></a>窗格导航
+| 如何执行此操作           | 操作方法                |
+| :------------------- | :------------------- |
+| 打开上下文菜单 | <ul><li>Windows 键盘：Windows 上下文键 + F10。  Windows 上下文键位于左 Alt 键和向左键之间</li><li>其他键盘：Shift + F10</li></ul> |
+
+### <a name="slicer"></a>切片器
+| 如何执行此操作           | 操作方法                |
+| :------------------- | :------------------- |
+| 与切片器进行交互 | Ctrl + 向右键 |
+
+### <a name="selection-pane"></a>“选择”窗格
+| 如何执行此操作           | 操作方法                |
+| :------------------- | :------------------- |
+| 激活“选择”窗格 | F6 |
+| 在分层中向上移动对象 | Ctrl + Shift + F |
+| 在分层中向下移动对象 | Ctrl + Shift + B |
+| 隐藏/显示（切换）对象 | Ctrl + Shift + S |
+
+### <a name="dax-editor"></a>DAX 编辑器
+| 如何执行此操作           | 操作方法                |
+| :------------------- | :------------------- |
+| 向上/向下移动行 | Alt + 向上键/向下键 |
+| 向上/向下复制行 | Shift + Alt + 向上键/向下键 |
+| 在下方插入行 | Ctrl + Enter |
+| 在上方插入行 | Ctrl + Shift + Enter |
+| 跳转到匹配的括号 | Ctrl + Shift + \ |
+| 缩进/突出行 | Ctrl + ] / [ |
+| 插入光标 | Alt + 单击 |
+| 选择当前行 | Ctrl + I |
+| 选择当前所选内容的所有匹配项 | Ctrl + Shift + L |
+| 选择当前词语的所有匹配项 | Ctrl + F2 |
+
+
+
 
 ## <a name="next-steps"></a>后续步骤
 * [在 Power BI Desktop 中使用报表主题（预览版）](desktop-report-themes.md)

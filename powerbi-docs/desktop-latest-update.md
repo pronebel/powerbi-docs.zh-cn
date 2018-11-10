@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/15/2018
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: 7de1b47656ae06f522b4b86a124bf558a660ba4e
-ms.sourcegitcommit: 2c4a075fe16ccac8e25f7ca0b40d404eacb49f6d
+ms.openlocfilehash: b2e73621fe974da97e3a766fa25110522b36448b
+ms.sourcegitcommit: 02f918a4f27625b6f4e47473193ebc8219db40e2
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/20/2018
-ms.locfileid: "49473396"
+ms.lasthandoff: 11/07/2018
+ms.locfileid: "51223274"
 ---
 # <a name="whats-new-in-the-latest-power-bi-desktop-update"></a>最新 Power BI Desktop 更新中有哪些新增功能？
 
@@ -62,7 +62,7 @@ ms.locfileid: "49473396"
 * SAP BW 连接器 implementation v2 现已正式发布  [[视频]](https://youtu.be/MhrhIXNtelw?t=133)  [[文章]](desktop-sap-bw-connector.md)  [[博客]](https://powerbi.microsoft.com/blog/power-bi-desktop-october-2018-feature-summary/%23sapBW) 
 * SAP BW 消息服务器连接器现已正式发布  [[视频]](https://youtu.be/MhrhIXNtelw?t=159)  [[博客]](https://powerbi.microsoft.com/blog/power-bi-desktop-october-2018-feature-summary/%23sapBWmessageServer) 
 * Vertica 连接器现已正式发布[[视频]](https://youtu.be/MhrhIXNtelw?t=175)  [[博客]](https://powerbi.microsoft.com/blog/power-bi-desktop-october-2018-feature-summary/%23vertica) 
-* Dynamics NAV 和 Dynamics 365 Buisness Central 连接器现已正式发布    [[视频]](https://youtu.be/MhrhIXNtelw?t=197)  [[博客]](https://powerbi.microsoft.com/blog/power-bi-desktop-october-2018-feature-summary/%23dynamics) 
+* Dynamics NAV 和 Dynamics 365 Business Central 连接器现已正式发布    [[视频]](https://youtu.be/MhrhIXNtelw?t=197)  [[博客]](https://powerbi.microsoft.com/blog/power-bi-desktop-october-2018-feature-summary/%23dynamics) 
 * 新的 Dynamics 365 Business Central 本地连接器   [[视频]](https://youtu.be/MhrhIXNtelw?t=219)  [[博客]](https://powerbi.microsoft.com/blog/power-bi-desktop-october-2018-feature-summary/%23dynamicsOnPrem) 
 
 ### <a name="data-preparation"></a>数据准备

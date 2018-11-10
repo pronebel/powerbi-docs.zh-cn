@@ -2,20 +2,20 @@
 title: Power BI 管理门户
 description: 通过管理门户允许对组织中的 Power BI 进行租户管理。 它包括诸如使用情况指标、对 Office 365 管理中心的访问以及设置这类项目。
 author: mgblythe
+ms.author: mblythe
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-admin
 ms.topic: conceptual
 ms.date: 10/30/2018
-ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: 02829adb386cc746715a34300a42aba616dc2d60
-ms.sourcegitcommit: 862faf948468d7f6d464b83f4e0b040d5213a580
+ms.openlocfilehash: 3e125061766d6ade0daeaacb208d3070d8e9bd9b
+ms.sourcegitcommit: d20f74d5300197a0930eeb7db586c6a90403aabc
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/30/2018
-ms.locfileid: "50252482"
+ms.lasthandoff: 11/03/2018
+ms.locfileid: "50973249"
 ---
 # <a name="power-bi-admin-portal"></a>Power BI 管理门户
 
@@ -90,6 +90,8 @@ Office 365 中的全局管理员或分配有 Power BI 服务管理员角色的�
 
 可以在 Office 365 安全与合规中心中管理 Power BI 审核日志。 “审核日志”选项卡为租户提供指向安全与合规中心的链接。 [了解详细信息](service-admin-auditing.md)
 
+若要使用审核日志，请确保[**创建内部活动审核和合规性的审核日志**](#create-audit-logs-for-internal-activity-auditing-and-compliance)设置已启用。
+
 ## <a name="tenant-settings"></a>租户设置
 
 “租户设置”选项卡可以对组织可用的功能进行细粒度控制。 如果你担心敏感数据、我们的某些功能可能不适合你的组织，或者你只需要为特定组提供特定的功能。
@@ -133,7 +135,7 @@ Office 365 中的全局管理员或分配有 Power BI 服务管理员角色的�
 
 ### <a name="share-content-to-external-users"></a>向外部用户共享内容
 
-组织中的用户可以与组织外部的用户共享仪表板。
+组织中的用户可以与组织外部的用户共享仪表板。 [了解详细信息](service-share-dashboards.md#share-a-dashboard-or-report-with-people-outside-your-organization)
 
 ![外部用户设置](media/service-admin-portal/powerbi-admin-sharing-external-02.png)
 
@@ -181,40 +183,37 @@ Office 365 中的全局管理员或分配有 Power BI 服务管理员角色的�
 
 组织中的用户可以打印仪表板和报表。 [了解详细信息](consumer/end-user-print.md)
 
-![](media/service-admin-portal/powerbi-admin-print-dashboard.png)
+下图展示了“打印仪表板”选项。
 
-![](media/service-admin-portal/powerbi-admin-print-report.png)
+![打印仪表板](media/service-admin-portal/powerbi-admin-print-dashboard.png)
 
-## <a name="content-pack-settings"></a>内容包设置
+下图展示了在“打印仪表板和报表”设置已启用时报表的“文件”菜单。
 
-### <a name="publish-content-packs-to-the-entire-organization"></a>向整个组织发布内容包
+![打印报表](media/service-admin-portal/powerbi-admin-print-report.png)
 
-组织中的用户可以向整个组织发布内容包。
+## <a name="content-pack-and-app-settings"></a>内容包和应用设置
 
-![](media/service-admin-portal/powerbi-admin-publish-entire-org.png)
+### <a name="publish-content-packs-and-apps-to-the-entire-organization"></a>向整个组织发布内容包和应用
 
-### <a name="create-template-organizational-content-packs"></a>创建模板组织内容包
+组织中的用户可以向整个组织（而不仅仅是特定组）发布内容包和应用。 [了解详细信息](service-organizational-content-pack-manage-update-delete.md)
 
-组织中的用户可以创建特定的模板内容包，这些内容包使用基于 Power BI Desktop 中某个数据源生成的数据集。
+下图展示了创建内容包时可用的“我的整个组织”选项。
+
+![向组织发布内容包](media/service-admin-portal/powerbi-admin-publish-entire-org.png)
+
+### <a name="create-template-organizational-content-packs-and-apps"></a>创建模板组织内容包和应用
+
+组织中的用户可以创建使用 Power BI Desktop 内置数据集的模板内容包。 [了解详细信息](template-content-pack-authoring.md)
 
 ### <a name="push-apps-to-end-users"></a>将应用推送给最终用户
 
-你的租户管理员启用在“租户设置”中推送应用的功能。
-
-   ![启用推送应用功能](media/service-create-distribute-apps/power-bi-apps-pushapps01.png)
-
-可以将设置切换为“已启用”，然后指定获取此功能的用户（整个组织或特定安全组）。
-
-> [!NOTE]
-> 请记住，租户设置更改可能需要一些时间才能生效。
-
-转到此处以了解有关[推送应用](service-create-distribute-apps.md)的详细信息。
+用户可以直接与最终用户共享应用，而无需从 AppSource 安装。 [了解详细信息](service-create-distribute-apps.md)
 
 ## <a name="integration-settings"></a>集成设置
 
 ### <a name="ask-questions-about-data-using-cortana"></a>使用 Cortana 询问有关数据的问题
 
-组织中的用户可以使用 Cortana 询问有关其数据的问题。
+组织中的用户可以使用 Cortana 询问有关其数据的问题。 [了解详细信息](service-cortana-enable.md)
 
 > [!NOTE]
 > 此设置应用于整个组织，并且不能限制为特定组。
@@ -258,35 +257,26 @@ Office 365 中的全局管理员或分配有 Power BI 服务管理员角色的�
 
 组织中的用户可以使用审核来监视组织中的其他用户在 Power BI 中执行的操作。 [了解详细信息](service-admin-auditing.md)
 
-需要为审核日志条目启用此设置，才能对其进行记录。 启用审核后，最多可能会延迟 48 小时才能查看审核数据。 如果无法立即查看数据，请稍后检查审核日志。 获取查看审核日志的权限和得以访问日志之间也存在类似的延迟。
+必须启用此设置，才能记录审核日志条目。 启用审核后，最多可能会延迟 48 小时才能查看审核数据。 如果无法立即查看数据，请稍后检查审核日志。 获取查看审核日志的权限和得以访问日志之间也存在类似的延迟。
 
 > [!NOTE]
 > 此设置应用于整个组织，并且不能限制为特定组。
 
 ### <a name="usage-metrics-for-content-creators"></a>内容创建者的使用指标
-组织中的用户可以查看他们创建的仪表板和报表的使用指标。 [了解详细信息](service-usage-metrics.md)。
 
-可将设置切换为“已启用”，然后指定可查看使用情况指标的用户（整个组织或特定安全组）。
-
-> [!NOTE]
-> 请记住，租户设置更改可能需要一些时间才能生效。
+组织中的用户可以查看自己创建的仪表板和报表的使用情况指标。 [了解详细信息](service-usage-metrics.md)
 
 ### <a name="per-user-data-in-usage-metrics-for-content-creators"></a>内容创建者的使用情况指标中的每用户数据
-内容创建者的使用情况指标将公开正在访问内容的用户的显示名称和电子邮件地址。 [了解详细信息](service-usage-metrics.md)。
 
-可将设置切换为“已启用”，然后指定可查看使用情况指标中的显示名称和电子邮件地址的用户（整个组织或特定安全组）。
+内容创建者的使用情况指标将公开正在访问内容的用户的显示名称和电子邮件地址。 [了解详细信息](service-usage-metrics.md)
 
 默认情况下，每个用户的数据都启用了使用指标并在指标报表中包含内容创建者帐户信息。 如果不希望某些或所有用户包含此信息，请为特定安全组或整个组织禁用此功能。 帐户信息随后会在报表中显示为“未命名”。
-
-> [!NOTE]
-> 请记住，租户设置更改可能需要一些时间才能生效。
-
 
 ## <a name="dashboard-settings"></a>仪表板设置
 
 ### <a name="data-classification-for-dashboards"></a>仪表板的数据分类
 
-组织中的用户可以通过分类标记仪表板，指示仪表板的安全级别。 [了解详细信息](service-data-classification.md)
+组织中的用户可以为仪表板标记指明仪表板安全级别的分类。 [了解详细信息](service-data-classification.md)
 
 > [!NOTE]
 > 此设置应用于整个组织，并且不能限制为特定组。
@@ -295,69 +285,79 @@ Office 365 中的全局管理员或分配有 Power BI 服务管理员角色的�
 
 ### <a name="embed-content-in-apps"></a>在应用中嵌入内容
 
-组织中的用户可以在软件即服务 (SaaS) 应用程序中嵌入 Power BI 仪表板和报表。 禁用此设置会阻止用户使用 REST API 将 Power BI 内容嵌入到其应用程序中。
+组织中的用户可以在软件即服务 (SaaS) 应用程序中嵌入 Power BI 仪表板和报表。 禁用此设置会阻止用户使用 REST API 将 Power BI 内容嵌入到其应用程序中。 [了解详细信息](developer/embedding.md)
+
+## <a name="workspaces-and-import-settings"></a>工作区和导入设置
+
+### <a name="author-content-in-workspaces"></a>在工作区中创作内容
+
+组织中的用户可以访问工作区，从而连接到数据并创作内容。 [了解详细信息](service-create-the-new-workspaces.md)
+
+### <a name="import-data-into-power-bi"></a>将数据导入 Power BI
+
+组织中的用户可以将数据导入服务，如在 Power BI Desktop 中发布报表、上传 Power BI 报表文件，以及直接从服务连接到数据。 [了解详细信息](desktop-upload-desktop-files.md)
 
 ## <a name="capacity-settings"></a>容量设置
 
-### <a name="premium-settings"></a>Premium 版设置
+### <a name="power-bi-premium"></a>Power BI Premium
 
-通过“Premium 设置”选项卡，可以管理已为组织购买的任何 Power BI Premium（Em 或 P SKU）容量。 组织中的所有用户可以看到“Premium 设置”选项卡，但如果将他们分配为容量管理员或具有分配权限的用户，他们只能看到其中的内容。 如果用户没有任何权限，则显示以下消息。
+使用“Power BI Premium”选项卡，可以管理已为组织购买的任何 Power BI Premium 容量（EM 或 P SKU）。 组织中的所有用户都可以看到“Power BI Premium”选项卡；但如果用户被分配为容量管理员或拥有分配权限，则只能看到其中的内容。 如果用户没有任何权限，则显示以下消息。
 
-![Power BI Premium 管理员设置](media/service-admin-portal/premium-settings-no-access.png "没有对 Premium 设置的访问权限")
+![无权访问 Premium 设置](media/service-admin-portal/premium-settings-no-access.png)
 
 有关如何管理 Premium 设置的详细信息，请参阅[管理 Power BI Premium](service-admin-premium-manage.md)。
 
-### <a name="power-bi-embedded-settings"></a>Power BI Embedded 设置
+### <a name="power-bi-embedded"></a>Power BI Embedded
 
-使用 Power BI Embedded 的设置选项卡，可以查看为客户购买的 Power BI Embedded（A SKU）容量。 由于只能从 Azure 购买 A SKU，可以从 Azure 门户[管理 Azure 中嵌入的功能](developer/azure-pbie-create-capacity.md)。
-
-![Power BI Embedded 管理设置](media/service-admin-portal/manage-pbie-capacities-01.png)
-
-![Power BI Embedded 管理设置详细信息](media/service-admin-portal/manage-pbie-capacities-02.png)
+使用“Power BI Embedded”选项卡，可以查看已为客户购买的 Power BI Embedded (A SKU) 容量。 由于只能从 Azure 购买 A SKU，因此是在 Azure 门户中[管理 Azure 中的嵌入容量](developer/azure-pbie-create-capacity.md)。
 
 有关如何管理 Power BI Embedded (A SKU) 设置的详细信息，请参阅[什么是 Power BI Embedded](developer/azure-pbie-what-is-power-bi-embedded.md)。
 
 ## <a name="embed-codes"></a>嵌入代码
 
-![在 Power BI 管理门户中嵌入代码](media/service-admin-portal/embed-codes.png)
+管理员可以查看针对其租户生成的嵌入代码。 此外，还可以撤消或删除代码。 [了解详细信息](service-publish-to-web.md)
 
-管理员可以查看针对其租户生成的嵌入代码。 可以执行相应的操作来查看报表，以及删除嵌入代码以将其撤消。
+![在 Power BI 管理门户中嵌入代码](media/service-admin-portal/embed-codes.png)
 
 ## <a name="organization-visuals"></a>组织视觉对象
 
-使用组织视觉对象选项卡，可以在组织内部署和管理自定义视觉对象，从而在组织中轻松部署专有自定义视觉对象，使报表作者能够轻松发现这些视觉对象并将其从 Power BI Desktop 直接导入报表。
+使用“组织视觉对象”选项卡，可以部署和管理组织内的自定义视觉对象。 使用组织视觉对象，可以在组织中轻松部署专有的视觉对象，以便报表作者能够从 Power BI Desktop 中发现这些视觉对象，并将它们导入自己的报表中。 [了解详细信息](power-bi-custom-visuals-organization.md)
 
-该页面显示了组织存储库中当前部署的所有自定义视觉对象。
+> [!WARNING]
+> 自定义视觉对象可能包含存在安全或隐私风险的代码；请务必先信任自定义视觉对象的作者和来源，再将它们部署到组织存储库。
+
+下图展示了目前在组织存储库中部署的所有自定义视觉对象。
 
 ![组织管理员视觉对象](media/service-admin-portal/power-bi-custom-visuals-organizational-admin-01.png)
 
 ### <a name="add-a-new-custom-visual"></a>添加新的自定义视觉对象
 
-若要将新的自定义视觉对象添加到列表，请选择“添加自定义视觉对象”
+若要向列表添加新的自定义视觉对象，请按以下步骤操作。 
 
-![](media/service-admin-portal/power-bi-custom-visuals-organizational-admin-02.png)
+1. 在右窗格中，选择“添加自定义视觉对象”。
 
-> [!WARNING]
-> 自定义视觉对象可能包含存在安全或隐私风险的代码；在部署到组织存储库之前，请务必信任此自定义视觉对象的作者和来源。
+    ![“添加自定义视觉对象”表单](media/service-admin-portal/power-bi-custom-visuals-organizational-admin-02.png)
 
-填写字段：
+1. 填写“添加自定义视觉对象”表单：
 
-* 选择 .pbiviz 文件（必选）：选择要上传的自定义视觉对象文件。 仅支持经版本控制的 API 自定义视觉对象（阅读此处内容了解其含义）。
+    * **选择 .pbiviz 文件**（必填）：选择要上传的自定义视觉对象文件。 仅支持经版本控制的 API 自定义视觉对象（阅读此处内容了解其含义）。
 
-在上传自定义视觉对象之前，应查看有关视觉对象的安全和隐私，确保它符合组织的标准。 详细了解自定义视觉对象安全性。
+    在上传自定义视觉对象之前，应查看有关视觉对象的安全和隐私，确保它符合组织的标准。
 
-* 为自定义视觉对象命名（必选）：为视觉对象提供一个简短标题，以便 Power BI Desktop 用户可轻松理解它的内容
+    * **命名自定义视觉对象**（必填）：为视觉对象命名简短标题，以便 Power BI Desktop 用户能够轻松理解它的用途
 
-* 图标（必选）：显示在 Power BI Desktop UI 中的图标文件。
+    * **图标**：显示在 Power BI Desktop UI 中的图标文件。
 
-* 说明：视觉对象的简短描述，用于向用户提供更多上下文和说明
+    * **说明**：视觉对象的简短说明，用于向用户提供更多上下文和说明
 
-选择“应用”发起上传请求。 如果成功，可以在列表中看到新项目。 如果失败，会收到相应的错误消息
+1. 选择“添加”，以发起上传请求。 如果成功，可以在列表中看到新项目。 如果失败，会收到相应的错误消息
 
 ### <a name="delete-a-custom-visual-from-the-list"></a>从列表中删除自定义视觉对象
 
-选择回收站图标，从存储库中永久删除视觉对象。
-重要提示：删除操作不可逆。 一旦删除，此视觉对象会立即停止在现有报表中呈现。 即使再次上传相同的视觉对象，也不会替换之前被删除的视觉对象，用户必须再次导入新的视觉对象并替换其报表中的实例。
+若要永久删除视觉对象，请选择存储库中视觉对象的回收站图标。
+
+> [!IMPORTANT]
+> 删除操作无法撤消。 一旦删除，此视觉对象会立即停止在现有报表中呈现。 即使重新上传同一个视觉对象，它也不会替换之前删除的视觉对象。 不过，用户可以重新导入新视觉对象，并替换报表中的现有实例。
 
 ### <a name="disable-a-custom-visual-in-the-list"></a>在列表中禁用自定义视觉对象
 
@@ -371,15 +371,16 @@ Office 365 中的全局管理员或分配有 Power BI 服务管理员角色的�
 
 进行任何更新或管理员更改后，Power BI Desktop 用户应重新启动应用程序或刷新 Power BI 服务中的浏览器以查看更新。
 
-### <a name="how-to-update-a-visual"></a>如何更新视觉对象
+### <a name="update-a-visual"></a>更新视觉对象
 
-如果要更新存储库中的视觉对象，原因是其中没有新版本的视觉对象（例如 bug 修复、新功能等），请选择“更新”图标，然后上传新文件。 确保视觉对象 ID 保持不变。 新文件将替换整个组织中所有报表的旧文件。 但是，如果新版本的视觉对象可能会破坏以前版本的视觉对象的任何使用情况或数据结构，则它们不会取代以前的版本。 相反，应创建新版本视觉对象的新列表。 例如，向新列出的视觉对象的标题添加新版本号（版本 X.X）。 通过这种方式，很明显可以看到，它还是相同的版本，只不过更新了版本号，因此现有报表不会破坏它们的功能。 同样，确保视觉对象 ID 保持不变。 然后，下一次用户从 Power BI Desktop 进入组织存储库时，他们就可以导入新版本，系统会提示他们替换报表中存在的当前版本。
+若要更新组织存储中的视觉对象，请选择齿轮图标。 浏览并上传新版视觉对象。
+
+确保视觉对象 ID 保持不变。 新文件将替换整个组织中所有报表的旧文件。 但是，如果新版本的视觉对象可能会破坏以前版本的视觉对象的任何使用情况或数据结构，则它们不会取代以前的版本。 相反，应创建新版本视觉对象的新列表。 例如，向新列出的视觉对象的标题添加新版本号（版本 X.X）。 通过这种方式，很明显可以看到，它还是相同的版本，只不过更新了版本号，因此现有报表不会破坏它们的功能。 同样，确保视觉对象 ID 保持不变。 然后，下一次用户从 Power BI Desktop 进入组织存储库时，他们就可以导入新版本，系统会提示他们替换报表中存在的当前版本。
 
 ## <a name="next-steps"></a>后续步骤
 
-[了解 Power BI 管理员角色](service-admin-role.md)  
+[在组织中管理 Power BI](service-admin-administering-power-bi-in-your-organization.md)、[了解 Power BI 管理员角色](service-admin-role.md)  
 [在组织中审核 Power BI](service-admin-auditing.md)  
 [管理 Power BI Premium](service-admin-premium-manage.md)  
-[在组织中管理 Power BI](service-admin-administering-power-bi-in-your-organization.md)  
 
 更多问题？ [尝试咨询 Power BI 社区](http://community.powerbi.com/)

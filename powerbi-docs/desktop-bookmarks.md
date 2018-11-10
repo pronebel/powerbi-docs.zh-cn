@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 08/06/2018
+ms.date: 11/01/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 1bb9921b31187d0df3debc644088a72e1d78207c
-ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
+ms.openlocfilehash: 6bc8eea6138f2961457d03eaf5ef88d0327a058d
+ms.sourcegitcommit: 0611860a896e636ceeb6e30ce85243bfd8e7b61d
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/21/2018
-ms.locfileid: "46549905"
+ms.lasthandoff: 11/01/2018
+ms.locfileid: "50909562"
 ---
 # <a name="use-bookmarks-to-share-insights-and-build-stories-in-power-bi"></a>在 Power BI 中使用书签共享见解和创建情景 
 使用 Power BI 中的“书签”，可以帮助捕获当前配置的报表页视图（包括视觉对象的筛选器和状态），然后只需选择保存的书签即可恢复相应状态。 
@@ -44,13 +44,12 @@ ms.locfileid: "46549905"
 
 * 当前页
 * 筛选器
-* 切片器
+* 切片器（包括下拉列表或列表等切片器类型）和切片器状态
+* 视觉对象选择状态（如交叉突出显示筛选器）
 * 排序顺序
 * 钻取位置
 * 可见性（对象可见性，使用“选择”窗格）
 * 任何可见对象的“焦点”或“聚焦”模式
-
-书签暂不保存交叉突出显示状态。 
 
 配置报表页，确保它在书签中的显示效果符合自己的要求。 按照所需方式排列报表页和视觉对象后，选择“书签”窗格中的“添加”，添加一个书签。 
 

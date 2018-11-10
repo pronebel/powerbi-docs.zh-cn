@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 09/27/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 4264b10ac9ae42585ea8b814d0c15de7ea318752
-ms.sourcegitcommit: ce8332a71d4d205a1f005b703da4a390d79c98b6
+ms.openlocfilehash: 8ec638eefa95ef70ab04606881bee421f82b7f11
+ms.sourcegitcommit: 02f918a4f27625b6f4e47473193ebc8219db40e2
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/27/2018
-ms.locfileid: "47416788"
+ms.lasthandoff: 11/07/2018
+ms.locfileid: "51223299"
 ---
 # <a name="create-tooltips-based-on-report-pages-in-power-bi-desktop"></a>根据 Power BI Desktop 中的报表页创建工具提示
 根据 Power BI Desktop 中创建的报表页，可创建直观丰富的报表工具提示，这些提示在你将鼠标悬停在视觉对象上时显示。 通过创建用作工具提示的报表页，使自定义工具提示包含视觉对象、图像以及在报表页中创建的项的所有其他集合。 
@@ -74,7 +74,7 @@ ms.locfileid: "47416788"
 
 ![添加字段以指定工具提示的显示位置](media/desktop-tooltips/desktop-tooltips_08.png)
  
-可在“工具提示字段”存储桶（包括度量值）中同时添加类别字段和数值字段。
+可在“工具提示字段”Bucket（包括度量值）中同时包括类别字段和数值字段。
 
 完成操作后，创建的工具提示报表页将在报表中用作的视觉对象的工具提示，它使用“工具提示字段”存储桶中放置的任意字段替换默认的 Power BI 工具提示。
 

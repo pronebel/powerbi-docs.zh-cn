@@ -8,13 +8,13 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-developer
 ms.topic: tutorial
-ms.date: 10/26/2018
-ms.openlocfilehash: dcefa427290fd804a0b2c79dc357e5f5bfbe7296
-ms.sourcegitcommit: f2eab2c3e7b5ec3684f63d819f10cb3dcfa21e73
+ms.date: 11/06/2018
+ms.openlocfilehash: a3d36f988847df283576dae6cfe5870b707c6f98
+ms.sourcegitcommit: 02f918a4f27625b6f4e47473193ebc8219db40e2
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/26/2018
-ms.locfileid: "50159798"
+ms.lasthandoff: 11/07/2018
+ms.locfileid: "51223251"
 ---
 # <a name="tutorial-adding-formatting-options-to-a-power-bi-custom-visual"></a>教程：向 Power BI 自定义视觉对象添加格式设置选项
 
@@ -254,6 +254,10 @@ ms.locfileid: "50159798"
 
 8. 将鼠标悬停在“Circle Card”图标，并注意显示的工具提示。
 
+## <a name="debugging"></a>调试
+
+有关调试自定义视觉对象的提示，请参阅[调试指南](https://microsoft.github.io/PowerBI-visuals/docs/how-to-guide/how-to-debug/)。
+
 ## <a name="next-steps"></a>后续步骤
 
-如果你想要详细了解如何发布你新开发的自定义视觉对象以供其他人使用，请参考[将自定义视觉对象发布到 AppSource](office-store.md)。
+可以将新开发的视觉对象提交到 AppSource，从而列出该视觉对象供其他人使用。 有关此过程的详细信息，请参阅[将自定义视觉对象发布到 AppSource](office-store.md)。

@@ -7,59 +7,68 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 03/08/2018
+ms.date: 11/01/2018
 ms.author: mblythe
 LocalizationGroup: Troubleshooting
-ms.openlocfilehash: 5013c70e4d3998eb39e0de2a92f890417175fd62
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: 41b3a0b1032616045b854e4a4776ba82bffffe47
+ms.sourcegitcommit: 0611860a896e636ceeb6e30ce85243bfd8e7b61d
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34240897"
+ms.lasthandoff: 11/01/2018
+ms.locfileid: "50909402"
 ---
 # <a name="using-an-alternate-email-address"></a>使用备用电子邮件地址
-默认情况下，你用于注册 Power BI 的电子邮件地址用于向你发送有关 Power BI 中的活动的有关更新。  例如，当有人向你发送共享邀请时，它会转到此地址。
 
-有时你可能希望这些电子邮件传递到备用电子邮件地址，而不是最初用于注册 Power BI 的电子邮件地址。
+你在注册 Power BI 时提供电子邮件地址。 默认情况下，Power BI 使用此地址向你发送服务活动的最新动态。 例如，当有人向你发送共享邀请时，邀请就会发送到此地址。
 
-## <a name="updating-through-office-365-personal-info-page"></a>通过 Office 365 个人信息页面更新
-1. 转到你的 [Office 365 个人信息页面](https://portal.office.com/account/#personalinfo)。  如果系统提示你使用用于 Power BI 的电子邮件地址和密码登录，请执行此操作。
-2. 单击联系人详细信息部分中的编辑链接。  
-   
-   > [!NOTE]
-   > 如果看不到编辑链接，则这意味着你的电子邮件地址由 Office 365 管理员管理，你需要与他们联系以更新你的电子邮件地址。
-   > 
-   > 
-   
-   ![](media/service-admin-alternate-email-address-for-power-bi/contact-details.png)
-3. 在备用电子邮件字段中，输入希望将 Power BI 更新发送到的电子邮件地址。
+在某些情况下，可能希望将这些电子邮件发送到备用电子邮件地址，而不是注册时使用的电子邮件地址。 本文介绍了如何在 Office 365 和 PowerShell 中指定备用地址。 此外，本文还介绍了电子邮件地址是如何在 Azure Active Directory (Azure AD) 中解析的。
 
 > [!NOTE]
-> 更改此设置不会影响用于发送服务更新、新闻稿和其他促销通讯信息的电子邮件地址。  这些内容会始终发送到在注册 Power BI 时最初使用的电子邮件地址。
-> 
-> 
+> 指定备用地址并不影响 Power BI 用来发送服务最新动态、新闻稿和其他促销通信的电子邮件地址。  这些通信始终发送到你注册 Power BI 时使用的电子邮件地址。
 
-## <a name="updating-through-azure-active-directory"></a>通过 Azure Active Directory 进行更新
-捕获 Power BI 的 Active Azure Directory (AAD) 内嵌令牌时，可使用三种不同类型的电子邮件。 这三种类型是：
+## <a name="use-office-365"></a>使用 Office 365
 
-* 与用户的 AAD 帐户相关联的主要电子邮件地址
-* UserPrincipalName (UPN) 电子邮件地址
-* “其他”电子邮件地址数组属性
+若要在 Office 365 中指定备用地址，请按以下步骤操作。
 
-Power 根据以下条件选择要使用的电子邮件：
-1.  如果 AAD 租户的用户对象中存在邮件属性，则 Power BI 使用电子邮件地址的此邮件属性
-2.  如果 UPN 电子邮件不是 \*.onmicrosoft.com 域电子邮件地址（“\@”符号后面的信息），则 Power BI 使用电子邮件地址的此邮件属性
-3.  如果AAD 用户对象中存在“其他”电子邮件数组属性，则将使用该列表中的第一封电子邮件（因为该属性中可能包含电子邮件列表）
-4. 如果不满足上述任一条件，则使用 UPN 地址
+1. 打开 [Office 365 个人信息页](https://portal.office.com/account/#personalinfo)。 如果系统提示你使用用于 Power BI 的电子邮件地址和密码登录，请执行此操作。
 
-## <a name="updating-with-powershell"></a>使用 PowerShell 更新
-或者，可以通过适用于 Azure Active Directory 的 PowerShell 更新备用电子邮件地址。 此操作通过 [Set-AzureADUser](https://docs.microsoft.com/powershell/module/azuread/set-azureaduser) 命令完成。
+1. 在左侧菜单栏上，选择“个人信息”。
 
-```
+1. 在“联系详细信息”部分中，选择“编辑”。
+
+    如果无法编辑详细信息，表明你的电子邮件地址是由 Office 365 管理员管理。 若要更新电子邮件地址，请联系管理员。
+
+    ![联系详细信息](media/service-admin-alternate-email-address-for-power-bi/contact-details.png)
+
+1. 在“备用电子邮件地址”字段中，输入要将 Power BI 最新动态发送到的电子邮件地址。
+
+## <a name="use-powershell"></a>使用 PowerShell
+
+若要在 PowerShell 中指定备用地址，请运行 [Set-AzureADUser](/powershell/module/azuread/set-azureaduser/) 命令。
+
+```powershell
 Set-AzureADUser -ObjectId john@contoso.com -OtherMails "otheremail@somedomain.com"
 ```
 
-有关详细信息，请参阅 [Azure Active Directory PowerShell 版本 2](https://docs.microsoft.com/powershell/azure/active-directory/install-adv2)。
+## <a name="email-address-resolution-in-azure-ad"></a>Azure AD 中的电子邮件地址解析
+
+捕获用于 Power BI 的 Azure AD 嵌入令牌时，可使用以下三种不同类型的电子邮件地址：
+
+* 与用户的 Azure AD 帐户关联的主电子邮件地址
+
+* UserPrincipalName (UPN) 电子邮件地址
+
+* “其他电子邮件地址”数组属性
+
+Power BI 根据以下顺序选择要使用的电子邮件地址：
+
+1. 如果 Azure AD 用户对象中有邮件属性，Power BI 便会对电子邮件地址使用此邮件属性。
+
+1. 如果 UPN 电子邮件地址不是 **\*.onmicrosoft.com** 域电子邮件地址（“@”符号后面的信息），Power BI 便会对电子邮件地址使用此邮件属性。
+
+1. 如果 Azure AD 用户对象中有“其他电子邮件地址”数组属性，Power BI 便会使用此列表中的第一个电子邮件地址（因为此属性中可能有电子邮件地址列表）。
+
+1. 如果不符合上述任一条件，Power BI 便会使用 UPN 地址。
 
 更多问题？ [尝试参与 Power BI 社区](http://community.powerbi.com/)
 
