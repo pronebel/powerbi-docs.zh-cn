@@ -10,12 +10,12 @@ ms.component: powerbi-service
 ms.topic: conceptual
 LocalizationGroup: Gateways
 ms.date: 06/05/2018
-ms.openlocfilehash: 2758ef661b70c53a37104c67c4012be79725990e
-ms.sourcegitcommit: 60fb46b61ac73806987847d9c606993c0e14fb30
+ms.openlocfilehash: 488d11209126098063ba8ca2b2d73573edbcdbb9
+ms.sourcegitcommit: 5eb0f37f59b5fec15c0caecbbd1f8d688c7f0013
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/25/2018
-ms.locfileid: "50101476"
+ms.lasthandoff: 11/09/2018
+ms.locfileid: "51297127"
 ---
 # <a name="on-premises-data-gateway"></a>本地数据网关
 
@@ -118,7 +118,7 @@ ms.locfileid: "50101476"
 [管理数据源 - Oracle](service-gateway-onprem-manage-oracle.md)  
 [管理数据源 - 导入/计划刷新](service-gateway-enterprise-manage-scheduled-refresh.md)  
 [深入了解本地数据网关](service-gateway-onprem-indepth.md)  
-[本地数据网关（个人模式） - 新版本的个人网关](service-gateway-personal-mode.md)
+[本地数据网关（个人模式）- 新版本的个人网关](service-gateway-personal-mode.md)  
 [为本地数据网关配置代理设置](service-gateway-proxy.md)  
 
 更多问题？ [尝试参与 Power BI 社区](http://community.powerbi.com/)

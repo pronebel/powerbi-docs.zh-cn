@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 06/22/2018
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 580d1ead35042d14c155c5a28fdb6ba6e6dbcd54
-ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
+ms.openlocfilehash: 082d0ba1e638e8eaf6ae16fa8d5ed63c128c8ad5
+ms.sourcegitcommit: a1b7ca499f4ca7e90421511e9dfa61a33333de35
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/21/2018
-ms.locfileid: "46544926"
+ms.lasthandoff: 11/10/2018
+ms.locfileid: "51507844"
 ---
 # <a name="tips-for-designing-a-great-power-bi-dashboard"></a>设计出色 Power BI 仪表板的提示
 现在，你已创建了一个仪表板并添加了一些磁贴，可考虑如何使你的仪表板不仅美观，而且实用。 一般来说，这意味着突出显示最重要的信息，使其整洁有序。
@@ -43,7 +43,7 @@ ms.locfileid: "46544926"
 仪表板太杂乱？  删除可以轻松读取和解释的基本信息以外的所有信息。
 
 ## <a name="make-use-of-full-screen-mode"></a>利用全屏模式
-[全屏](service-fullscreen-mode.md)显示仪表板，避免干扰。
+[全屏](consumer/end-user-focus.md)显示仪表板，避免干扰。
 
 ## <a name="make-the-most-important-information-biggest"></a>让最重要的信息以最大字体显示
 如果仪表板上的文本和可视化效果大小相同，你的读者会很难将重点放在最重要的信息上。 例如，卡片可视化效果是突出显示重要数字的好办法：  

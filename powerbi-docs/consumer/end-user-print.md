@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 03/01/2018
 ms.author: mihart
 LocalizationGroup: Common tasks
-ms.openlocfilehash: 636dbceae129d7a5288fa6dfc8a281d5257a087f
-ms.sourcegitcommit: 70192daf070ede3382ac13f6001e0c8b5fb8d934
+ms.openlocfilehash: be7597cf13732e251f40f73a853e6ea7b0032652
+ms.sourcegitcommit: a1b7ca499f4ca7e90421511e9dfa61a33333de35
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/22/2018
-ms.locfileid: "46564983"
+ms.lasthandoff: 11/10/2018
+ms.locfileid: "51507660"
 ---
 # <a name="printing-from-power-bi-service"></a>从 Power BI 服务打印
 使用 Power BI 服务打印整个仪表板、仪表板磁贴、报表页或报表视觉对象。 一次只能打印一页报表，而不能一次打印整个报表。
@@ -47,7 +47,7 @@ ms.locfileid: "46564983"
 1. 通过选择省略号，然后选择“焦点”图标 ![焦点图标](./media/end-user-print/power-bi-focus-icon.png)，[在焦点模式下打开该磁贴](end-user-focus.md)。
    
     ![省略号菜单](./media/end-user-print/menu-options.png)
-2. 通过选择顶部导航栏的全屏图标 ![全屏图标](./media/end-user-print/power-bi-full-screen-icon.png)，在[全屏幕模式](../service-fullscreen-mode.md)下打开磁贴。
+2. 通过选择顶部导航栏的全屏图标 ![全屏图标](./media/end-user-print/power-bi-full-screen-icon.png)，在[全屏幕模式](end-user-focus.md)下打开磁贴。
 3. 将鼠标悬停在该磁贴以显示“选项”菜单。
    
     ![全屏选项菜单](./media/end-user-print/menu-options-new.png)

@@ -9,12 +9,12 @@ ms.component: powerbi-mobile
 ms.topic: conceptual
 ms.date: 10/13/2017
 ms.author: maggies
-ms.openlocfilehash: d265e465825fb8def167207ed632f1702adcbc7f
-ms.sourcegitcommit: 698b788720282b67d3e22ae5de572b54056f1b6c
+ms.openlocfilehash: 4bc9a0fe6dd3becd67c2b6dd8ffeb9d7922705a6
+ms.sourcegitcommit: a1b7ca499f4ca7e90421511e9dfa61a33333de35
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/17/2018
-ms.locfileid: "45973623"
+ms.lasthandoff: 11/10/2018
+ms.locfileid: "51507924"
 ---
 # <a name="view-reports-in-presentation-mode-on-surface-hub-and-windows-10---power-bi"></a>在 Windows 10 Surface Hub 上使用演示模式查看报表 - Power BI
 可以在 Surface Hub 上以演示模式显示报表，并在 Windows 10 设备上的全屏模式下显示仪表板、报表和磁贴。 
@@ -27,7 +27,7 @@ ms.locfileid: "45973623"
 
 在 Surface Hub 上以演示模式显示报表时，可使用各色墨迹在页面上绘图，并可在报表各页面间导航。
 
-还可在 Web 上[从 Power BI 服务中以全屏模式显示仪表板和报表](../../service-fullscreen-mode.md)。
+还可在 Web 上[从 Power BI 服务中以全屏模式显示仪表板和报表](../end-user-focus.md)。
 
 > [!NOTE]
 > 演示模式不同于[磁贴的焦点模式](mobile-tiles-in-the-mobile-apps.md)。
@@ -74,6 +74,6 @@ Surface Hub 默认启用演示模式，但如果此模式已禁用，可重新�
 7. 若要退出全屏模式，请从顶部向下轻扫并点击两个相对箭头 ![](./media/mobile-windows-10-app-presentation-mode/power-bi-windows-10-exit-full-screen-hub-icon.png)。
 
 ## <a name="next-steps"></a>后续步骤
-* [在 Power BI 服务中的全屏模式下显示仪表板和报表](../../service-fullscreen-mode.md)
+* [在 Power BI 服务中的全屏模式下显示仪表板和报表](../end-user-focus.md)
 * 是否有任何问题？ [尝试咨询 Power BI 社区](http://community.powerbi.com/)
 

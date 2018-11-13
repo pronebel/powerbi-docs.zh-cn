@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 06/18/2018
 ms.author: otarb
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 873b83221aa5a1a728d648cccf7a23d5924dfb6d
-ms.sourcegitcommit: 698b788720282b67d3e22ae5de572b54056f1b6c
+ms.openlocfilehash: c3664eee2d3836fc802d1728bbfe7fce3e03e18d
+ms.sourcegitcommit: 5eb0f37f59b5fec15c0caecbbd1f8d688c7f0013
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/17/2018
-ms.locfileid: "45975486"
+ms.lasthandoff: 11/09/2018
+ms.locfileid: "51297196"
 ---
 # <a name="using-python-in-query-editor"></a>在查询编辑器中使用 Python
 你可以在 Power BI Desktop 查询编辑器中使用 Python，Python 是统计学家、数据科学家和数据分析师使用最广泛的一种编程语言。 查询编辑器中集成的 Python 可让你用 Python 来执行数据清理，并在数据集中执行高级数据调整和分析，包括丢失数据补全、预测和聚类分析，此处仅举几例。 Python 是一种功能强大的语言，可用于在“查询编辑器”中准备你的数据模型并创建报表。
@@ -75,9 +75,7 @@ ms.locfileid: "45975486"
 创建好该视觉对象，以及需要使用 Power BI Desktop 创建的任何其他视觉对象之后，可保存 Power BI Desktop 文件（保存为 .pbix 文件），然后在 Power BI 服务中使用数据模型（及其内附的 Python 脚本）。
 
 > [!NOTE]
-> 想要查看完成了这些步骤的完整 .pbix 文件吗？ 真幸运 - 你可以在[此处](http://download.microsoft.com/download/F/8/A/F8AA9DC9-8545-4AAE-9305-27AD1D01DC03/Complete Values with Python in PQ.pbix)下载示例中使用的完整 **Power BI Desktop** 文件。
-> 
-> 
+> 想要查看完成了这些步骤的完整 .pbix 文件吗？ 真幸运 - 你可以在[此处](http://download.microsoft.com/download/A/B/C/ABCF5589-B88F-49D4-ADEB-4A623589FC09/Complete%20Values%20with%20Python%20in%20PQ.pbix)下载示例中使用的完整 **Power BI Desktop** 文件。
 
 将 .pbix 文件上传到 Power BI 服务后，还需要几个步骤来启用数据刷新（在服务中），以及启用服务中待更新的视觉对象（为了更新视觉对象，数据需要访问 Python）。 其它步骤如下所示：
 

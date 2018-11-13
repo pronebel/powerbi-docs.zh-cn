@@ -8,15 +8,15 @@ featuredvideoid: 9DeAKM4SNJM
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 01/20/2018
+ms.date: 11/06/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: c547cd83d879cd81fe12c02f5418f5bf44ca1483
-ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
+ms.openlocfilehash: 62a8ae907b01c8309aee101aa074e9bfb72b207d
+ms.sourcegitcommit: b23fdcc0ceff5acd2e4d52b15b310068236cf8c7
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/21/2018
-ms.locfileid: "46545936"
+ms.lasthandoff: 11/07/2018
+ms.locfileid: "51265900"
 ---
 # <a name="customize-x-axis-and-y-axis-properties"></a>自定义 X 轴和 Y 轴属性
 在本教程中，你会学习很多用于自定义视觉对象的 X 轴和 Y 轴的不同方式。 并非所有视觉对象都具有轴或是可以自定义；例如，饼图没有轴。 而且自定义选项因视觉对象而异，选项太多，无法在一篇文章中进行介绍。 因此我们讨论一些最常用的轴自定义，使你可以熟练地在 Power BI 报表画布中使用视觉对象格式设置选项卡。  
@@ -86,30 +86,33 @@ ms.locfileid: "46545936"
 
     ![](media/power-bi-visualization-customize-x-axis-and-y-axis/power-bi-line-chart.png)
 
-> [NOTE]: For help sorting by month, see [sorting by other criteria](../consumer/end-user-change-sort.md#other)
-> 1. 一月的 GM% 是 35%，在四月达到峰值 45%，在七月下降，在八月再次达到峰值。 去年和本年度的销售额是否会呈现类似模式？
-> 2. 将**本年度销售额 > 值**和**去年销售额**添加到折线图。 “去年毛利率”的比例尺（沿 0% 去年毛利率网格线的蓝线）比“销售额”的比例尺小得多，这样就更难比较了。 而且，Y 轴标签百分比很不合理。      
+    > [NOTE]: For help sorting by month, see [sorting by other criteria](../consumer/end-user-change-sort.md#other)
 
-   ![](media/power-bi-visualization-customize-x-axis-and-y-axis/flatline_new.png)
+    一月的 GM% 是 35%，在四月达到峰值 45%，在七月下降，在八月再次达到峰值。 去年和本年度的销售额是否会呈现类似模式？
+     
+3. 将**本年度销售额 > 值**和**去年销售额**添加到折线图。 “去年毛利率”的比例尺（沿 0% 去年毛利率网格线的蓝线）比“销售额”的比例尺小得多，这样就更难比较了。 而且，Y 轴标签百分比很不合理。      
+
+    ![](media/power-bi-visualization-customize-x-axis-and-y-axis/flatline_new.png)
+
 5. 若要使视觉对象更易于查看和解释，请将折线图转换为折线和堆积柱形图。
 
    ![](media/power-bi-visualization-customize-x-axis-and-y-axis/converttocombo_new.png)
 
 6. 将**去年毛利率**从**列值**拖动到**行值**中。 现在拥有的是上面创建的堆积柱形图和折线图。  （可以视需要利用上面学到的知识，设置坐标轴的字体颜色和文本大小。）
    
-
    Power BI 会创建两个轴，从而允许数据集以不同方式缩放；左侧度量值是美元，右侧度量值是百分比。
 
    ![](media/power-bi-visualization-customize-x-axis-and-y-axis/power-bi-dual-axes-new.png)
 
 ### <a name="format-the-secondary-y-axis"></a>对辅助 Y 轴设置格式
-1. 在“**可视化效果**”窗格中，选择滚筒刷图标来显示格式选项。
-2. 通过选择向下箭头来展开 Y 轴选项。
-3. 滚动此列表，直到找到“**显示辅助对象**”选项。 将“**显示辅助对象**”从**关闭**切换为**打开**。
+1. 在“**可视化效果**”窗格中，选择滚筒刷图标来显示格式选项。    
+2. 通过选择向下箭头来展开 Y 轴选项。    
+3. 滚动此列表，直到找到“**显示辅助对象**”选项。 将“**显示辅助对象**”从**关闭**切换为**打开**。    
 
    ![](media/power-bi-visualization-customize-x-axis-and-y-axis/combo3.png)
 
    ![](media/power-bi-visualization-customize-x-axis-and-y-axis/power-bi-dual-axes.png)
+
 4. （可选）自定义两个轴。 如果切换列轴或行轴的**位置**，则两个轴将交换位置。
 
    ![](media/power-bi-visualization-customize-x-axis-and-y-axis/power-bi-y-axes-options.png)
@@ -120,7 +123,7 @@ ms.locfileid: "46545936"
 1. 将 **Y 轴（列）** 和 **Y 轴（行）** 的**标题**切换到**打开**。
 2. 将**样式**设置为**仅显示标题**。
 
-   ![](media/power-bi-visualization-customize-x-axis-and-y-axis/yaxissettings.png)
+   ![](media/power-bi-visualization-customize-x-axis-and-y-axis/yaxissettings.png)    
 3. 组合图现在显示双轴，它们都具有标题。
 
    ![](media/power-bi-visualization-customize-x-axis-and-y-axis/power-bi-combo-chart.png)
