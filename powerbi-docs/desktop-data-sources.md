@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 10/15/2018
+ms.date: 11/13/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: a5a4f6532fe127fe01b699ee9d9e89693fdb369e
-ms.sourcegitcommit: b8461c1876bfe47bf71c87c7820266993f82c0d3
+ms.openlocfilehash: a49b433af32e6c0f03d43333a424864c5463ddd3
+ms.sourcegitcommit: 6a6f552810a596e1000a02c8d144731ede59c0c8
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/15/2018
-ms.locfileid: "49336889"
+ms.lasthandoff: 11/14/2018
+ms.locfileid: "51619807"
 ---
 # <a name="data-sources-in-power-bi-desktop"></a>Power BI Desktop 中的数据源
 使用 Power BI Desktop，你可以连接到来自许多不同的源的数据。 在此页面底部列出了可用数据源的完整清单。
@@ -30,8 +30,6 @@ ms.locfileid: "49336889"
 
 > [!NOTE]
 > Power BI 团队正在不断扩展适用于 Power BI Desktop 和 Power BI 服务的数据源。 因此，你通常会看到工作过程中的数据源版本标记为 *Beta* 或*预览*。 标记为 *Beta* 或*预览*的任何数据源所提供的支持和功能有限，不应在生产环境中使用。
-> 
-> 
 
 ## <a name="data-sources"></a>数据源
 数据类型分为以下类别：
@@ -80,15 +78,14 @@ ms.locfileid: "49336889"
 * Impala
 * Google BigQuery
 * Snowflake
+* BI 连接器
+* Exasol
 * Dremio (Beta)
-* Exasol (Beta)
 * Jethro (Beta)
 * Kyligence Enterprise (Beta)
 
 > [!NOTE]
 > 某些数据库连接器需要通过选择“文件”>“选项和设置”>“选项”，然后再选择“预览功能”才能启用。 如果你没有看到上面提到的某些连接器，但想使用它们，请检查“预览功能”设置。 另请注意，标记为 *Beta* 或*预览*的任何数据源所提供的支持和功能有限，不应在生产环境中使用。
-> 
-> 
 
 下图显示**数据库**的**获取数据**窗口。
 
@@ -97,7 +94,7 @@ ms.locfileid: "49336889"
 “Power BI”类别提供下列数据连接：
 
 * Power BI 数据集
-* Power BI 数据流 (Beta)
+* Power BI 数据流(Beta)
 
 下图显示 Power BI 的“获取数据”窗口。
 
@@ -111,11 +108,11 @@ ms.locfileid: "49336889"
 * Azure Blob 存储
 * Azure 表存储
 * Azure Cosmos DB (Beta)
-* Azure Data Lake Store
+* Azure Data Lake Storage
 * Azure HDInsight (HDFS)
 * Azure HDInsight Spark
 * HDInsight 交互式查询
-* Azure KustoDB (beta)
+* Azure 数据资源管理器 (Beta)
 
 下图显示 **Azure** 的**获取数据**窗口。
 
@@ -131,7 +128,8 @@ ms.locfileid: "49336889"
 * Dynamics 365 Business Central（本地）
 * Common Data Service for Apps (Beta)
 * Microsoft Azure 使用情况见解 (Beta)
-* Visual Studio Team Services (Beta)
+* Azure DevOps (Beta)
+* Azure DevOps Server (Beta)
 * Salesforce 对象
 * Salesforce 报表
 * Google Analytics
@@ -187,8 +185,6 @@ ms.locfileid: "49336889"
 
 > [!NOTE]
 > 此时，无法连接到使用 Azure Active Directory 保护的自定义数据源。
-> 
-> 
 
 ## <a name="connecting-to-a-data-source"></a>连接到数据源
 若要连接到数据源，请从**获取数据**窗口选择数据源，然后选择**连接**。 在下图中，已从**其他**数据连接类别中选择了 **Web**。

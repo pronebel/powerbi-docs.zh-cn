@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 09/17/2018
+ms.date: 11/13/2018
 ms.author: davidi
 LocalizationGroup: Transform and shape data
-ms.openlocfilehash: df61b9c68407ef0d00d1d5981c57021e7659cfff
-ms.sourcegitcommit: fbb27fb40d753b5999a95b39903070766f7293be
+ms.openlocfilehash: 18d5b2ca504ec3533e2ded0e5480885ea862fb3a
+ms.sourcegitcommit: 6a6f552810a596e1000a02c8d144731ede59c0c8
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/16/2018
-ms.locfileid: "49359737"
+ms.lasthandoff: 11/14/2018
+ms.locfileid: "51619485"
 ---
 # <a name="storage-mode-in-power-bi-desktop-preview"></a>Power BI Desktop 中的存储模式（预览版）
 
@@ -43,16 +43,6 @@ Power BI Desktop 中的存储模式设置是以下三个相关功能之一：
 
 * **存储模式**：现在可以指定哪些视觉对象需要查询后端数据源。 导入的是不需要查询的视觉对象，即使基于 DirectQuery，也不例外。 此功能有助于提升性能，并减少后端负载。 以前，甚至是切片器等简单视觉对象，也会启动发送至后端源的查询。 本文进一步介绍了存储模式。
 
-## <a name="enable-the-storage-mode-preview-feature"></a>启用存储模式预览功能
-
-存储模式功能处于预览阶段，必须在 Power BI Desktop 中启用此功能。 若要启用存储模式，请依次选择“文件” > “选项和设置” > “选项” > “预览功能”，再选中“复合模型”复选框。 
-
-![“预览功能”窗格](media/desktop-composite-models/composite-models_02.png)
-
-必须重启 Power BI Desktop，才能启用此功能。
-
-![“功能需要重启”窗口](media/desktop-composite-models/composite-models_03.png)
-
 ## <a name="use-the-storage-mode-property"></a>使用存储模式属性
 
 存储模式是可以对模型中的所有表进行设置的属性。 若要设置存储模式，请在“字段”窗格中右键单击要设置其属性的表，再选择“属性”。
@@ -75,19 +65,7 @@ Power BI Desktop 中的存储模式设置是以下三个相关功能之一：
 
 ## <a name="constraints-on-directquery-and-dual-tables"></a>DirectQuery 表和“双”表约束
 
-“双”模式表的约束与“DirectQuery”模式表相同。 这些约束包括有限 M 转换，以及计算列中的受限 DAX 函数。 有关详细信息，请参阅[使用 DirectQuery 的影响](desktop-directquery-about.md#implications-of-using-directquery)。
-
-## <a name="relationship-rules-on-tables-with-different-storage-modes"></a>针对具有不同存储模式的表的关系规则
-
-关系必须符合以相关表的存储模式为依据的规则。 本部分提供有效组合的示例。 有关详细信息，请参阅 [Power BI Desktop 中的多对多关系（预览版）](desktop-many-to-many-relationships.md)。
-
-在具有单一数据源的数据集上，以下 1 对多关系组合无效：
-
-| “多”端上的表 | “一”端上的表 |
-| ------------- |----------------------| 
-| 双          | 双                 | 
-| 导入        | 导入或双       | 
-| DirectQuery   | DirectQuery 或双  | 
+“双”模式表与“DirectQuery”模式表的功能约束相同。 这些约束包括有限 M 转换，以及计算列中的受限 DAX 函数。 有关详细信息，请参阅[使用 DirectQuery 的影响](desktop-directquery-about.md#implications-of-using-directquery)。
 
 ## <a name="propagation-of-dual"></a>双传播
 请考虑下列简单模型，其中所有表都来自支持导入和 DirectQuery 的单个源。
@@ -98,14 +76,11 @@ Power BI Desktop 中的存储模式设置是以下三个相关功能之一：
 
 ![“存储模式”警告窗口](media/desktop-storage-mode/storage-mode_05.png)
 
-为了符合上述关系规则，必须将维度表（“Customer”、“Date”和“Geography”）设置为“双”。 可以一次性设置这些表，而不必将它们提前设置为“双”。
+维度表（客户、地域和日期）可设置为“双”模式表，以减少数据集中的弱关系数，并提高性能。 弱关系通常涉及至少一个 DirectQuery 表，其中联接逻辑无法推送到源系统。 “双”模式表可以充当 DirectQuery 或导入这一点可避免这种情况。
 
 传播逻辑旨在帮助包含多个表的模型。 假设你有一个带 50 个表的模型，只有某些事实（事务）表需要进行缓存。 Power BI Desktop中的逻辑会计算出必须设置为“双”的维度表的最小集，因此你不必再动手计算。
 
 传播逻辑仅遍历到 1 对多关系的一端。
-
-* 禁止将“Customer”表更改为“导入”（而不是更改“SurveyResponse”），这是由于它与 DirectQuery 表“Sales”和“SurveyResponse”的关系所致。
-* 可以将“Customer”表更改为“双”（而不是更改“SurveyResponse”）。 传播逻辑还会将“Geography”表设置为“双”。
 
 ## <a name="storage-mode-usage-example"></a>存储模式的使用情况示例
 继续以上一部分中的示例为例，假设应用以下存储模式属性设置：
@@ -191,4 +166,3 @@ Power BI Desktop 中的存储模式设置是以下三个相关功能之一：
 * [Power BI Desktop 中的多对多关系（预览版）](desktop-many-to-many-relationships.md)
 * [在 Power BI 中使用 DirectQuery](desktop-directquery-about.md)
 * [Power BI 中 DirectQuery 支持的数据源](desktop-directquery-data-sources.md)
-

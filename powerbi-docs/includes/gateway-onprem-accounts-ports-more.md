@@ -61,14 +61,14 @@ ServiceBusSystemConnectivityModeString 参数的值区分大小写。 有效值�
 
 ![](./media/gateway-onprem-accounts-ports-more/gw-onprem_02.png)
 
-## <a name="support-for-tls-1112"></a>对 TLS 1.1/1.2 的支持
+## <a name="support-for-tls-12"></a>对 TLS 1.2 的支持
 
-本地数据网关默认使用传输层安全 (TLS) 1.1 或 1.2 与 Power BI 服务进行通信。 以前版本的本地数据网关默认使用 TLS 1.0。 自 2018 年 3 月 15 日起，对 TLS 1.0 的支持已结束，其中包括网关使用 TLS 1.0 与 Power BI 服务进行交互的功能。 必须将本地数据网关安装升级，以确保网关继续运行。
+默认情况下，本地数据网关使用传输层安全 (TLS) 1.2 与 Power BI 服务进行通信。 要确保所有网关流量使用 TLS 1.2，必须在运行网关服务的计算机上添加或修改以下注册表项：
 
-值得注意的是，TLS 1.0 在 11 月 1 日之前仍受本地数据网关支持，并由网关用作回退机制。 要确保所有网关流量使用 TLS 1.1 或 1.2（并防止在网关上使用 TLS 1.0），必须在运行网关服务的计算机上添加或修改以下注册表项：
-
-        [HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\.NETFramework\v4.0.30319]"SchUseStrongCrypto"=dword:00000001
-        [HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Microsoft\.NETFramework\v4.0.30319]"SchUseStrongCrypto"=dword:00000001
+```
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\.NETFramework\v4.0.30319]"SchUseStrongCrypto"=dword:00000001
+[HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Microsoft\.NETFramework\v4.0.30319]"SchUseStrongCrypto"=dword:00000001
+```
 
 > [!NOTE]
 > 添加或修改这些注册表项会将更改应用于所有 .NET 应用程序。 有关影响其他应用程序的 TLS 的注册表更改的信息，请参阅[传输层安全性 (TLS) 注册表设置](https://docs.microsoft.com/windows-server/security/tls/tls-registry-settings)。

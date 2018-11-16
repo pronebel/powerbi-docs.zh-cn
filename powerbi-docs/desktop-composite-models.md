@@ -1,5 +1,5 @@
 ---
-title: 使用 Power BI Desktop 中的复合模型（预览）
+title: 在 Power BI Desktop 中使用复合模型
 description: 在 Power BI Desktop 中创建具有多个数据连接和多对多关系的数据模型
 author: davidiseminger
 manager: kfile
@@ -7,17 +7,17 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 10/02/2018
+ms.date: 11/12/2018
 ms.author: davidi
 LocalizationGroup: Transform and shape data
-ms.openlocfilehash: 47c99e40b1665b98c33d16b685e359c10277a560
-ms.sourcegitcommit: 1a79e48ac820c28c5d0fd05399f49ed22fc74ed7
+ms.openlocfilehash: b7a8323557f769fa2a05d504de2540bc505e7a54
+ms.sourcegitcommit: 6a6f552810a596e1000a02c8d144731ede59c0c8
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/19/2018
-ms.locfileid: "49435387"
+ms.lasthandoff: 11/14/2018
+ms.locfileid: "51619692"
 ---
-# <a name="use-composite-models-in-power-bi-desktop-preview"></a>使用 Power BI Desktop 中的复合模型（预览）
+# <a name="use-composite-models-in-power-bi-desktop"></a>在 Power BI Desktop 中使用复合模型
 
 在以前的 Power BI Desktop 中，当在报表中使用 DirectQuery 时，该报表不允许其他数据连接，&mdash;无论是 DirectQuery 还是导入&mdash;都是如此。 有了复合模型后，便删除了该限制。 一个报表可以在所选择的任何组合中无缝地包含来自多个 DirectQuery 或导入数据连接的数据连接。
 
@@ -27,19 +27,9 @@ Power BI Desktop 中的复合模型功能包括三个相关功能：
 
 * **复合模型**：允许报表任意组合多个数据连接（包括 DirectQuery 连接或导入）。 本文详细介绍了复合模型。
 
-* **多对多关系**：使用复合模型，可以在表之间建立多对多关系。 此方法不需要在表中使用唯一值。 它还去掉了以前的变通方法，例如仅引入新表来建立关系。 有关详细信息，请参阅 [Power BI Desktop 中的多对多关系（预览）](desktop-many-to-many-relationships.md)。
+* **多对多关系**：使用复合模型，可以在表之间建立多对多关系。 这种方法删除了对表中唯一值的要求。 它还去掉了以前的变通方法，例如仅引入新表来建立关系。 有关详细信息，请参阅 [Power BI Desktop 中的多对多关系（预览）](desktop-many-to-many-relationships.md)。
 
-* **存储模式**：现在可以指定哪些视觉对象需要查询后端数据源。 导入不需要查询的视觉对象，即使它们基于 DirectQuery。 该功能帮助提高性能并减少后端负载。 在此之前，即使是切片器这样的简单视觉对象，也会启动发送至后端源的查询。 有关详细信息，请参阅 [Power BI Desktop 中的存储模式（预览）](desktop-storage-mode.md)
-
-## <a name="enable-the-composite-models-preview-feature"></a>启用复合模型预览功能
-
-复合模型为预览功能，必须在 Power BI Desktop 中启用。 若要启用复合模型，请选择“文件” > “选项和设置” > “选项” > “预览功能”，然后选中“复合模型”复选框。 
-
-![“预览功能”窗格](media/desktop-composite-models/composite-models_02.png)
-
-要启用此功能，需要重启 Power BI Desktop。
-
-![“功能需要重启”窗口](media/desktop-composite-models/composite-models_03.png)
+* **存储模式**：现在可以指定哪些视觉对象需要查询后端数据源。 导入的是不需要查询的视觉对象，即使基于 DirectQuery，也不例外。 该功能帮助提高性能并减少后端负载。 在此之前，即使是切片器这样的简单视觉对象，也会启动发送至后端源的查询。 有关详细信息，请参阅 [Power BI Desktop 中的存储模式（预览版）](desktop-storage-mode.md)。
 
 
 ## <a name="use-composite-models"></a>使用复合模型
@@ -182,7 +172,7 @@ Power BI Desktop 中的复合模型功能包括三个相关功能：
 
 此版本的复合模型有一些限制。
 
-以下 Live Connect（多维）源不能用于复合模型：
+以下 Live Connect（多维）源无法用于复合模型：
 
 * SAP HANA
 * SAP Business Warehouse
@@ -196,7 +186,7 @@ Power BI Desktop 中的复合模型功能包括三个相关功能：
 
 ## <a name="next-steps"></a>后续步骤
 
-有关复合模型和 DirectQuery 的详细信息，请参阅以下文章：
+若要详细了解复合模型和 DirectQuery，请参阅以下文章：
 * [Power BI Desktop 中的多对多关系（预览）](desktop-many-to-many-relationships.md)
 * [Power BI Desktop 中的存储模式（预览）](desktop-storage-mode.md)
 * [在 Power BI 中使用 DirectQuery](desktop-directquery-about.md)

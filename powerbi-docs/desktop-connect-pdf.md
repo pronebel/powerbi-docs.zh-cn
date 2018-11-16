@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 09/10/2018
+ms.date: 11/13/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: fe13e5776648342aa4f7e86dce657e6ffcca11b9
-ms.sourcegitcommit: c51461690e8faa121a1325957ca79b7a3975e8b8
+ms.openlocfilehash: 2ecd4b8e6295431f520dea61454bbf868bfab254
+ms.sourcegitcommit: 6a6f552810a596e1000a02c8d144731ede59c0c8
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/12/2018
-ms.locfileid: "44512579"
+ms.lasthandoff: 11/14/2018
+ms.locfileid: "51619649"
 ---
 # <a name="connect-to-a-pdf-file-in-power-bi-desktop-preview"></a>在 Power BI Desktop 中连接到 PDF 文件（预览）
 在 Power BI Desktop 中，可以连接到 PDF 文件并使用文件中包含的数据，就像在 Power BI Desktop 中使用任何其他数据源一样。
@@ -45,6 +45,10 @@ ms.locfileid: "44512579"
 ![连接到 PDF 文件中的数据](media/desktop-connect-pdf/connect-pdf_04.png)
 
 选择 PDF 文件中已发现元素旁边的复选框，将其显示在右侧窗格中。 如果已准备好导入，请选择“加载”按钮，将数据添加到 Power BI Desktop 中。
+
+从 2018 年 11 月发布的 Power BI Desktop 开始，可以将起始页和结束页指定为 PDF 连接的可选参数。 还可以使用以下格式在 M 公式语言中指定这些参数：
+
+`Pdf.Tables(File.Contents("c:\sample.pdf"), [StartPage=10, EndPage=11])`
 
 
 ## <a name="next-steps"></a>后续步骤

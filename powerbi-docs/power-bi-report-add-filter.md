@@ -1,25 +1,27 @@
 ---
-title: 向 Power BI 中的视觉对象、页面、钻取或报表添加筛选器
-description: 向 Power BI 中的报表添加页面级筛选器、可视化效果级筛选器、报表级筛选器或钻取级筛选器
+title: 向 Power BI 报表添加筛选器
+description: 在 Power BI 中将页面筛选器、可视化效果筛选器或报表筛选器添加到报表
 author: maggiesMSFT
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 09/28/2018
+ms.date: 11/08/2018
 ms.author: maggies
 LocalizationGroup: Reports
-ms.openlocfilehash: c70e29bf7dcd5a307cbcb4762595716595dfa523
-ms.sourcegitcommit: d20f74d5300197a0930eeb7db586c6a90403aabc
+ms.openlocfilehash: c50afced257df1878a0a695a37d9401d9eda01b7
+ms.sourcegitcommit: ea77827127e0781f1d6877c0a3078aec7eb6694a
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/03/2018
-ms.locfileid: "50973272"
+ms.lasthandoff: 11/13/2018
+ms.locfileid: "51611143"
 ---
 # <a name="add-a-filter-to-a-power-bi-service-report-in-editing-view"></a>向 Power BI 服务报表添加筛选器（在“编辑视图”中）
 
 本文介绍了如何向 Power BI 中的报表添加页面级筛选器、可视化效果级筛选器、报表级筛选器或钻取级筛选器。 本文展示了 Power BI 服务中的示例。 具体步骤与在 Power BI Desktop 中添加筛选器几乎完全相同。
+
+**你知道吗？** Power BI 提供新的筛选器体验，当前处于预览状态。 阅读有关 [Power BI 报表中的新筛选器体验](power-bi-report-filter-preview.md)的详细信息。
 
 ## <a name="filters-in-editing-view-or-reading-view"></a>编辑视图或阅读视图中的筛选器
 可以在下列两个不同的视图中与报表进行交互：阅读视图和编辑视图。 筛选功能是否可用取决于所处的视图。 阅读所有[有关 Power BI 报表中筛选器和突出显示](power-bi-reports-filters-and-highlighting.md)的详细信息。
@@ -75,7 +77,7 @@ ms.locfileid: "50973272"
 
 接下来，将新字段作为视觉对象级筛选器添加到可视化效果中。
    
-1. 在“字段”窗格中，选择要添加为新视觉对象级筛选器的字段，再将它拖到“视觉对象级筛选器”区域中。  此示例将把“区域经理”拖到“视觉对象级筛选器”桶中，搜索“an”并选择这三个经理。 
+1. 在“字段”窗格中，选择要添加为新视觉对象级筛选器的字段，再将它拖到“视觉对象级筛选器”区域中。  在此示例中，将把“区域经理”拖到“视觉对象级筛选器”桶中，搜索“an”并选择这三个经理。 
      
     ![](media/power-bi-report-add-filter/power-bi-search-add-visual-filter.png)
 
@@ -109,7 +111,7 @@ ms.locfileid: "50973272"
 ### <a name="create-a-drillthrough-filter"></a>创建钻取筛选器
 若要执行此操作，请在编辑视图中打开客户盈利率示例。 我们假设你需要一个侧重于管理层业务领域的页。   
 
-1. 向报表中添加一个新页，并将其命名为“管理人员团队”。 这将是钻取目标页。
+1. 向报表中添加一个新页，并将其命名为“管理人员团队”。 该页将是钻取目标。
 2. 添加可跟踪团队管理层业务领域的关键指标的可视化效果。    
 3. 将“管理人员”>“管理人员名称”添加到钻取筛选器。    
    
@@ -144,7 +146,7 @@ ms.locfileid: "50973272"
 
 - 在某些情况下，视觉对象级筛选器与页面级筛选器可能会返回不同的结果。  例如，在你添加视觉对象级筛选器后，Power BI 会筛选聚合结果。  默认聚合为“求和”，不过你也可以[更改聚合类型](service-aggregates.md)。  
 
-    然后，在你添加页面级筛选器后，Power BI 会筛选非聚合结果。  这是因为页面可能有多个视觉对象，而且每个视觉对象可能使用不同的聚合类型。  因此，该筛选器会应用于每个数据行。
+    然后，在你添加页面级筛选器后，Power BI 会筛选非聚合结果。  它不会聚合，因为页面可能有多个视觉对象，而且每个视觉对象可能使用不同的聚合类型。  因此，该筛选器会应用于每个数据行。
 
 - 如果未看到“字段”窗格，请确保你处于报表[编辑视图](service-interact-with-a-report-in-editing-view.md)中    
 - 如果对筛选器进行了大量更改，而希望返回报表作者的默认设置，请选择顶部菜单栏中的“重置为默认值”。

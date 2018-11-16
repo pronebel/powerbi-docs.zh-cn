@@ -9,14 +9,14 @@ featuredvideoid: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 06/22/2018
+ms.date: 11/13/2018
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 4c10a0ffdf11829d8faa15ea14be136922c86382
-ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
+ms.openlocfilehash: 7b511a28f056df268216552f7d075a88c047f9f3
+ms.sourcegitcommit: 6a6f552810a596e1000a02c8d144731ede59c0c8
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/21/2018
-ms.locfileid: "46545012"
+ms.lasthandoff: 11/14/2018
+ms.locfileid: "51619830"
 ---
 # <a name="usage-metrics-for-dashboards-and-reports"></a>仪表板和报表的使用指标
 
@@ -69,7 +69,7 @@ ms.locfileid: "46545012"
     > [!NOTE]
     > 如果将使用情况指标报表中的磁贴固定到仪表板，则该仪表板无法添加到应用或内容包中。
 
-## <a name="what-metrics-are-reported"></a>报表中包含哪些指标？
+## <a name="which-metrics-are-reported"></a>报表中包含哪些指标？
 
 | 指标 | 仪表板 | 报表 | 说明 |
 | --- | --- | --- | --- |
@@ -162,6 +162,15 @@ ms.locfileid: "46545012"
 Power BI 在单独的国家云中可用。 这些云提供与 Power BI 全局版本相同级别的安全性、隐私、符合性和透明度，以及服务交付、数据驻留、访问和控制相关地方法规的唯一模型。 由于本地法规的这种唯一模式，使用情况指标不适用于国家云。 有关详细信息，请参阅[国家云](https://powerbi.microsoft.com/en-us/clouds/)。
 
 ## <a name="considerations-and-limitations"></a>注意事项和限制
+
+在比较使用指标和审核日志时，可能会出现差异，了解这一点及其原因很重要。 审核日志是使用 Power BI 服务中的数据收集的，而使用指标是在客户端上收集的。 由于这一差异，审核日志中的活动聚合计数可能并非总是匹配使用指标，原因如下：
+
+* 由于网络连接不一致、广告拦截器或可能中断从客户端发送事件的其他问题，使用指标有时可能少计算活动数。
+* 某些类型的视图未包含在使用指标中，如本文中所述。
+* 对于客户端刷新而无需发送回 Power BI 服务的请求的情况，使用指标有时可能多计算活动数。
+
+
+除了使用指标和审核日志之间的潜在差异以外，有关使用指标的以下问题和解答还可能对用户和管理员有所帮助：
 
 问：我无法对仪表板或报表运行使用指标 答：你只能看到自己拥有的或有权编辑的内容的使用指标。
 

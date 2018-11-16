@@ -7,25 +7,20 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 10/15/2018
+ms.date: 11/13/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 799115dc5487a196cbd5d8a2c9dce1603764034a
-ms.sourcegitcommit: 02f918a4f27625b6f4e47473193ebc8219db40e2
+ms.openlocfilehash: d57d31e87197ee9d764a8d263dd4ee6dd0c75ac3
+ms.sourcegitcommit: 6a6f552810a596e1000a02c8d144731ede59c0c8
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/07/2018
-ms.locfileid: "51223366"
+ms.lasthandoff: 11/14/2018
+ms.locfileid: "51619623"
 ---
 # <a name="accessibility-in-power-bi-desktop-reports"></a>Power BI Desktop 报表中的辅助功能
 Power BI 具有使残疾人士能够更轻松地使用 Power BI 报表并与之进行交互的功能。 这些功能包括通过键盘或屏幕阅读器使用报表、通过按 Tab 键将焦点移动到页面中的各个对象以及在可视化效果中方便地使用标记。
 
 ![在折线图和分区图中使用不同的标记来改善辅助功能](media/desktop-accessibility/accessibility_01.png)
-
-> [!NOTE]
-> 这些辅助功能在 2017 年 6 月 Power BI Desktop 和更高版本中可用。 我们也为将来的版本规划了其他辅助功能。
-> 
-> 
 
 ## <a name="consuming-a-power-bi-desktop-report-with-a-keyboard-or-screen-reader"></a>通过键盘或屏幕阅读器使用 Power BI Desktop 报表
 从 2017 年 9 月发行版 Power BI Desktop 开始，可以按 ? 键显示一个窗口，其中介绍了中可在 Power BI Desktop 中使用的辅助功能键盘快捷方式。
@@ -116,12 +111,26 @@ Power BI 服务还尝试检测 Windows 选择的高对比度设置，但该检�
 * 如果使用讲述人，以 HTML 表形式导航“显示数据”有一些相关限制。
 
 ## <a name="keyboard-shortcuts"></a>键盘快捷方式
+键盘快捷方式有助于使用键盘在 Power BI 报表中移动。 下表介绍了 Power BI 报表中可用的快捷方式。 除了在 Power BI Desktop 中使用这些键盘快捷方式以外，还可以在以下体验中使用这些快捷方式：
+
+* “问答资源管理器”对话框
+* “入门指南”对话框
+* “文件”菜单和“关于”对话框
+* 警告栏
+* “文件还原”对话框
+* “哭脸”对话框
+
+在我们持续努力提升可访问性的情况下，以前的体验列表也支持屏幕阅读器和高对比度设置。
+
+
 ### <a name="frequently-used-shortcuts"></a>常用快捷方式
 | 如何执行此操作           | 操作方法                |
 | :------------------- | :------------------- |
 | 在分区间移动焦点  | Ctrl + F6 |
 | 在分区中向前移动焦点 | Tab         |
 | 在分区中向后移动焦点 | Shift + Tab |
+| 选择或取消选择对象 | Enter 或空格键 |
+| 多重选择对象 | Ctrl + 空格键 |
 
 ### <a name="on-visual"></a>启用视觉对象
 | 如何执行此操作           | 操作方法                |

@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 07/27/2018
+ms.date: 11/13/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 05a84d34bf82be99eb52fccfb6318142f7d47de1
-ms.sourcegitcommit: f01a88e583889bd77b712f11da4a379c88a22b76
+ms.openlocfilehash: c770423b81c6d5cd4135539d8d44c3cc46f8b6fe
+ms.sourcegitcommit: 6a6f552810a596e1000a02c8d144731ede59c0c8
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/27/2018
-ms.locfileid: "39329905"
+ms.lasthandoff: 11/14/2018
+ms.locfileid: "51619600"
 ---
 # <a name="connect-to-azure-consumption-insights-in-power-bi-desktop-beta"></a>在 Power BI Desktop (Beta) 中连接到 Azure 使用情况见解
 借助 Azure 使用情况见解连接器，可以使用 Power BI Desktop 连接到 Azure，并获取有关组织 Azure 服务使用情况更详细的数据和信息。 还可以创建度量值、自定义列和视觉对象来报告和共享组织的 Azure 使用情况。 此版本的 Azure 使用情况和见解连接器处于测试阶段，随时可能更改。
@@ -49,9 +49,20 @@ ms.locfileid: "39329905"
   
   ![](media/desktop-connect-azure-consumption-insights/azure-consumption-insights_09.png)
 
-提供访问密钥并选择“连接”后，“导航器”窗口将显示四个可用的表，分别为：“摘要”、“使用情况”、“价目表”和“市场”。 可以选中任意表旁边的复选框来查看预览。 可以通过勾选表名称旁边的框来选择一个或多个表，然后选择“加载”。
+提供“访问密钥”并选择“连接”后，将出现“导航”窗口并显示九个可用的表： 
+* 预算：提供预算详细信息，以查看针对现有预算目标的实际成本或使用情况。 
+* 市场：提供基于使用情况的 Azure市场费用。
+* 价目表：为注册提供适用的费率（由指示器计费）。
+* RICharges：提供过去 24 个月与你的保留实例相关联的费用。
+* RIRecommendations_Single：提供基于过去 7 天、30 天或 60 天单个订阅上的使用趋势的保留实例购买建议。
+* RIRecommendations_Shared：提供基于过去 7 天、30 天或 60 天所有订阅上的使用趋势的保留实例购买建议。
+* RIUsage：提供上个月现有保留实例的使用情况详细信息。
+* 摘要：提供余额、新购买、Azure 市场服务费用、调整和超额费用的月度摘要。
+* UsageDetails：提供已使用量的明细和注册的估计费用。
 
-![](media/desktop-connect-azure-consumption-insights/azure-consumption-insights_04.png)
+可以选中任意表旁边的复选框来查看预览。 可以通过勾选表名称旁边的框来选择一个或多个表，然后选择“加载”。
+
+![](media/desktop-connect-azure-consumption-insights/azure-consumption-insights_04b.png)
 
 > [!NOTE]
 > “摘要”和“价目表”这两个表仅适用于注册级 API 密钥。 此外，这些表中的数据默认包含“使用情况”和“价目表”的当前月份数据。 未将“摘要”和“市场”这两个表限制到当前月份。
@@ -152,7 +163,7 @@ Azure 门户中的列和名称详细信息与 API 和连接器中的相关信息
 | Consumed Quantity |consumedQuantity |Consumed Quantity |否 |
 | Consumed Service |consumedService |Consumed Service |否 |
 | ConsumedServiceId |consumedServiceId | |是 |
-| Cost |cost |ExtendedCost |否 |
+| 开销 |cost |ExtendedCost |否 |
 | Cost Center |costCenter |Cost Center |否 |
 | 日期 |日期 |日期 |否 |
 | 日 | |日 |否 |

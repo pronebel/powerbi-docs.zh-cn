@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 10/17/2018
+ms.date: 11/13/2018
 ms.author: davidi
 LocalizationGroup: Transform and shape data
-ms.openlocfilehash: 3e94dc516f41d764394828309ba4b612083d4583
-ms.sourcegitcommit: fbb27fb40d753b5999a95b39903070766f7293be
+ms.openlocfilehash: e88e60bc1745a08ea53c7336f6f1fb9e4cda1ec8
+ms.sourcegitcommit: 6a6f552810a596e1000a02c8d144731ede59c0c8
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/16/2018
-ms.locfileid: "49359714"
+ms.lasthandoff: 11/14/2018
+ms.locfileid: "51619715"
 ---
 # <a name="aggregations-in-power-bi-desktop-preview"></a>Power BI Desktop 中的聚合（预览）
 
@@ -25,15 +25,15 @@ ms.locfileid: "49359714"
 
 以下介绍了使用聚合的优势：
 
-* **针对大数据集的查询性能**：用户在 Power BI 报表中与视觉对象交互时，DAX 查询会被提交给数据集。 使用详细信息级别所需的一小部分资源，通过在聚合级别缓存数据来提高查询速度。 通过原本无法实现的方式解锁大数据。
+* 针对大数据的查询性能：用户在 Power BI 报表中与视觉对象交互时，DAX 查询会被提交给数据集。 使用详细信息级别所需的一小部分资源，通过在聚合级别缓存数据来提高查询速度。 通过原本无法实现的方式解锁大数据。
 * **数据刷新优化**：通过在聚合级别缓存数据来减小缓存大小，降低刷新时间。 加快为用户提供数据的速度。
 * **实现平衡体系结构**：支持 Power BI 内存中缓存，以有效处理聚合查询。 限制在 DirectQuery 模式下发送到数据源的查询，帮助保持在并发限制内。 通过的查询通常是经筛选的事务级查询，数据仓库和大数据系统通常能很好地处理此类查询。
 
 ### <a name="table-level-storage"></a>表级别存储
-表级别存储通常与聚合功能一起使用。 请查阅 [Power BI Desktop 中的存储模式（预览）](desktop-storage-mode.md)，了解详细信息。
+表级别存储通常与聚合功能一起使用。 请参阅 [Power BI Desktop 中的存储模式](desktop-storage-mode.md)一文了解详细信息。
 
 ### <a name="data-source-types"></a>数据源类型
-聚合可与表示维度模型的数据源一起使用，例如数据仓库和数据市场，以及基于 Hadoop 的大数据源。 本文介绍每种数据源在 Power BI 中的典型建模差异。
+聚合可与表示维度模型的数据源一起使用，例如数据仓库、数据市场以及基于 Hadoop 的大数据源。 本文介绍每种数据源在 Power BI 中的典型建模差异。
 
 所有 Power BI 导入和 DirectQuery 源（非多维）都可与聚合一起使用。
 
@@ -57,7 +57,7 @@ ms.locfileid: "49359714"
 
 相反，创建一个“Sales Agg”表作为聚合表。 它的粒度高于“Sales”表，因此所含行数更少。 行数应等于按 CustomerKey、DateKey 和 ProductSubcategoryKey 分组的 SalesAmount 的总和。 没有数十亿行，可能是数百万行，更易于管理。
 
-假设以下维度表最常用于具有高业务价值的查询。 这些表可以使用一对多（或多对一）关系对“Sales Agg”表决心筛选。 其他关系类型（如多对多或多源）不考虑聚合。
+假设以下维度表最常用于具有高业务价值的查询。 这些表可以使用一对多（或多对一）关系对“Sales Agg”表决心筛选。
 
 * 地域
 * 客户
@@ -77,7 +77,7 @@ ms.locfileid: "49359714"
 
 ![设置存储模式](media/desktop-aggregations/aggregations_04.jpg)
 
-执行此操作时，将显示以下对话框，告知相关的维度表将被设置为“双”存储模式。 
+执行此操作时，将显示以下对话框，告知相关的维度表可被设置为“双”存储模式。 
 
 ![存储模式对话框](media/desktop-aggregations/aggregations_05.jpg)
 
@@ -88,7 +88,23 @@ ms.locfileid: "49359714"
 
 有关“双”存储模式的详细信息，请参阅[存储模式](desktop-storage-mode.md)一文。
 
-> 注意：隐藏了“Sales Agg”。 应对数据集使用者隐藏聚合表。 使用者和查询可引用详细信息表，而不是聚合表；他们甚至无需知道存在聚合表。
+### <a name="strong-vs-weak-relationships"></a>强和弱关系
+基于关系的聚合命中率要求强关系。
+
+强关系包括以下组合，其中两个表均来自单个源。
+
+| “*多”端上的表 | “一”端上的表 |
+| ------------- |----------------------| 
+| 双          | 双                 | 
+| 导入        | 导入或双       | 
+| DirectQuery   | DirectQuery 或双  | 
+
+跨源关系被视为强的唯一情况是两个表都为导入时。 多对多关系始终被视为弱。
+
+有关不依赖于关系的跨源聚合命中率，请参阅以下有关基于分组依据列的聚合部分。
+
+### <a name="aggregation-table-is-hidden"></a>隐藏了聚合表
+隐藏了“Sales Agg”表。 应对数据集使用者始终隐藏聚合表。 使用者和查询可引用详细信息表，而不是聚合表；他们甚至无需知道存在聚合表。
 
 ### <a name="manage-aggregations-dialog"></a>管理聚合对话框
 接下来将定义聚合。 右键单击“Sales Agg”表，选择“管理聚合”上下文菜单。
@@ -277,4 +293,3 @@ DirectQuery 文章：
 
 * [在 Power BI 中使用 DirectQuery](desktop-directquery-about.md)
 * [Power BI 中 DirectQuery 支持的数据源](desktop-directquery-data-sources.md)
-
