@@ -1,7 +1,7 @@
 ---
 title: 创建 Power BI 仪表板的副本
 description: '如何复制 Power BI 仪表板 '
-author: mihart
+author: maggiesMSFT
 manager: kfile
 ms.reviewer: ''
 featuredvideoid: ''
@@ -9,14 +9,14 @@ ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
 ms.date: 03/02/2018
-ms.author: mihart
+ms.author: maggies
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 28dd9e7ca63964e5964e08cf720a26a5eff468c1
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 4a9b8151e346447ece2f1c6735d04464ead20c37
+ms.sourcegitcommit: 1e4fee6d1f4b7803ea285eb879c8d5a4f7ea8b85
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34249838"
+ms.lasthandoff: 11/16/2018
+ms.locfileid: "51717369"
 ---
 # <a name="create-a-copy-of-a-dashboard-in-power-bi-service"></a>在 Power BI 服务中创建仪表板副本
 ![仪表板](media/service-dashboard-copy/power-bi-dashboard.png)

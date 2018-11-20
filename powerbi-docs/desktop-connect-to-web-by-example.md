@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/23/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 7de11de4c10df6a76f031f88952671d0e365b498
-ms.sourcegitcommit: 17d68172c73e9a9ff7966ddcedc3f8450584cdec
+ms.openlocfilehash: 9d7012006ca18cf43c530c4d79ed02e6ed73f33f
+ms.sourcegitcommit: a739a99e1006834a0f56e387c0bd9d945fb8a76b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/23/2018
-ms.locfileid: "49952202"
+ms.lasthandoff: 11/15/2018
+ms.locfileid: "51679221"
 ---
 # <a name="get-data-from-a-web-page-by-providing-an-example"></a>通过提供示例从网页获取数据
 
@@ -35,9 +35,9 @@ ms.locfileid: "49952202"
 
 在这里，输入想要从中提取数据的网页的 URL。 在本文中，将使用 Microsoft Store 网页，并演示此连接器如何工作。 
 
-如果想要按照说明操作，可以使用本文中所用的 [Microsoft Store URL](https://www.microsoft.com/en-us/store/top-paid/games/xbox?category=classics)：
+如果想要按照说明操作，可以使用本文中所用的 [Microsoft Store URL](https://www.microsoft.com/store/top-paid/games/xbox?category=classics)：
 
-    https://www.microsoft.com/en-us/store/top-paid/games/xbox?category=classics
+    https://www.microsoft.com/store/top-paid/games/xbox?category=classics
 
 ![Web 对话框](media/desktop-connect-to-web-by-example/web-by-example_04.png)
 

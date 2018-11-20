@@ -1,7 +1,7 @@
 ---
 title: 更改视觉对象在报表中的交互方式
 description: 介绍如何在 Microsoft Power BI 服务报表和 Power BI Desktop 报表中设置视觉对象交互的文档。
-author: mihart
+author: maggiesMSFT
 manager: kfile
 ms.reviewer: ''
 featuredvideoid: N_xYsCbyHPw
@@ -9,14 +9,14 @@ ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
 ms.date: 09/24/2018
-ms.author: mihart
+ms.author: maggies
 LocalizationGroup: Reports
-ms.openlocfilehash: c3671ae626496bf80ac4b212a755bb13f82ec66b
-ms.sourcegitcommit: ce8332a71d4d205a1f005b703da4a390d79c98b6
+ms.openlocfilehash: de18466b2ce98c0ba1e4b5e6e9ad2eb501f18a49
+ms.sourcegitcommit: 1e4fee6d1f4b7803ea285eb879c8d5a4f7ea8b85
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/27/2018
-ms.locfileid: "47418060"
+ms.lasthandoff: 11/16/2018
+ms.locfileid: "51717192"
 ---
 # <a name="visualization-interactions-in-a-power-bi-report"></a>Power BI 报表中的可视化交互
 如果具有编辑报表的权限，则可以使用“视觉对象交互”，更改报表页上的可视化效果相互影响的方式。 

@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-admin
 ms.topic: conceptual
-ms.date: 11/02/2018
+ms.date: 11/16/2018
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: 1ec687e4751c6003fe558f2088825eae0bf4be11
-ms.sourcegitcommit: d20f74d5300197a0930eeb7db586c6a90403aabc
+ms.openlocfilehash: 4379caf909360688e602601795066f51c9660633
+ms.sourcegitcommit: 46f1ba3f972f6e64bce05ad0fd527b27c49aedd6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/03/2018
-ms.locfileid: "50973387"
+ms.lasthandoff: 11/20/2018
+ms.locfileid: "52157071"
 ---
 # <a name="administering-power-bi---frequently-asked-questions-faq"></a>管理 Power BI - 常见问题 (FAQ)
 
@@ -38,7 +38,7 @@ ms.locfileid: "50973387"
 
 * [这会如何更改我当前为组织中的用户管理标识的方式？](#how-will-this-change-the-way-i-manage-identities-for-users-in-my-organization-today)
 * [我们如何管理 Power BI？](#how-do-we-manage-power-bi)
-* [管理 Microsoft 为我的用户创建的租户的过程是怎样的？](#what-is-the-process-to-manage-a-tenant-created-by-Microsoft-for-my-users)
+* [管理 Microsoft 为我的用户创建的租户的过程是怎样的？](#what-is-the-process-to-manage-a-tenant-created-by-microsoft-for-my-users)
 * [如果我有多个域，是否可以控制向其中添加用户的 Office 365 租户？](#if-i-have-multiple-domains-can-i-control-the-office-365-tenant-that-users-are-added-to)
 * [如何为已注册的用户删除 Power BI？](#how-do-i-remove-power-bi-for-users-that-already-signed-up)
 * [如何知道新用户加入了我的租户？](#how-do-i-know-when-new-users-have-joined-my-tenant)
@@ -241,7 +241,7 @@ Power BI 提供了可便于你查看使用情况统计信息的管理门户，�
 
 ### <a name="does-power-bi-meet-national-regional-and-industry-specific-compliance-requirements"></a>Power BI 是否满足特定于国家、地区和行业的合规性要求？
 
-若要了解有关 Power BI 合规性的详细信息，请参阅 [Microsoft 信任中心](http://go.microsoft.com/fwlink/?LinkId=785324)。
+若要了解有关 Power BI 合规性的详细信息，请参阅 [Microsoft 信任中心](https://www.microsoft.com/en-us/TrustCenter/CloudServices/business-application-platform/default.aspx)。
 
 ### <a name="how-does-security-work-in-power-bi"></a>Power BI 中安全性的工作原理是怎样的？
 

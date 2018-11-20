@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 09/27/2018
 ms.author: davidi
 LocalizationGroup: Model your data
-ms.openlocfilehash: 433710918cb77ca9ee002673dbe6298f0d2184aa
-ms.sourcegitcommit: 42475ac398358d2725f98228247b78aedb8cbc4f
+ms.openlocfilehash: a171dd2aa375f8d12830b051dd8ce6437e4b3236
+ms.sourcegitcommit: a739a99e1006834a0f56e387c0bd9d945fb8a76b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/25/2018
-ms.locfileid: "50003285"
+ms.lasthandoff: 11/15/2018
+ms.locfileid: "51679446"
 ---
 # <a name="dax-basics-in-power-bi-desktop"></a>Power BI Desktop 中的 DAX 基本概念
 本文适用于刚开始使用 Power BI Desktop 的用户。 其目的是为你提供有关如何使用数据分析表达式 (DAX) 的快速而简单的介绍，以便解决一些基本计算和数据分析问题。 我们将逐一探讨一些概念性信息、一系列可以完成的任务以及测试所学内容的几项测验。 学习完本文后，你便可充分了解 DAX 中最重要的基本概念。
@@ -142,7 +142,7 @@ DAX 包括以下函数类别：[日期和时间](https://msdn.microsoft.com/libr
 * DAX 包括各种时间智能函数。 这些函数可让你定义或选择日期范围，并基于此范围执行动态计算。 例如，你可以比较并行时间段内的总和。
 * Excel 有一个非常热门的函数 VLOOKUP。 不同于 Excel 中的 VLOOKUP，DAX 函数不会采用单元格或单元格区域作为引用。 DAX 函数采用某一列或表作为引用。 请记住，在 Power BI Desktop 中，将使用关系数据模型。 查找另一个表中的值其实非常简单，而且在大多数情况下，完全不需要创建任何公式。
   
-  如你所见，DAX 中的函数可帮助你创建功能非常强大的公式。 我们实际上只接触到了函数的基本概念。 随着你对 DAX 技能的熟悉，你将使用许多不同的函数来创建公式。 若要了解有关每个 DAX 函数的详细信息，最好的办法之一就是参阅 [DAX 函数参考](https://msdn.microsoft.com/en-us/query-bi/dax/data-analysis-expressions-dax-reference)。
+  如你所见，DAX 中的函数可帮助你创建功能非常强大的公式。 我们实际上只接触到了函数的基本概念。 随着你对 DAX 技能的熟悉，你将使用许多不同的函数来创建公式。 若要了解有关每个 DAX 函数的详细信息，最好的办法之一就是参阅 [DAX 函数参考](https://msdn.microsoft.com/query-bi/dax/data-analysis-expressions-dax-reference)。
 
 ### <a name="functions-quickquiz"></a>函数快速测验
 1. 函数会始终引用何项？

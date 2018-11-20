@@ -1,21 +1,21 @@
 ---
 title: 浏览可供 Power BI 使用的示例
 description: Power BI 的示例内容包、PBIX 文件和 Excel 数据集
-author: mihart
+author: maggiesMSFT
 manager: kfile
-ms.reviewer: ''
+ms.reviewer: amac
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
 ms.date: 08/06/2018
-ms.author: mihart
+ms.author: maggies
 LocalizationGroup: Samples
-ms.openlocfilehash: 91c08ab428852cc0fa8a721278e232400ed19bfa
-ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
+ms.openlocfilehash: fa6c6094e4fdfefebd0c7bb1f9ec8fa87d41766b
+ms.sourcegitcommit: 1e4fee6d1f4b7803ea285eb879c8d5a4f7ea8b85
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/21/2018
-ms.locfileid: "46546478"
+ms.lasthandoff: 11/16/2018
+ms.locfileid: "51717783"
 ---
 # <a name="what-sample-data-is-available-to-use-with-power-bi"></a>有哪些示例数据可用于 Power BI？
 假设你初次接触 Power BI，想要试用但没有任何数据。  或者你有一个数据集，但由于你（尚）不了解 Power BI 的工作原理，担心由于某种原因可能损坏数据集？

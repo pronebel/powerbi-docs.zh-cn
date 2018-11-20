@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 08/02/2018
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 46cd5e2730d1b0e90fe37a93bbd4340ffb708348
-ms.sourcegitcommit: 52ac456bf2ac025b22ea634c28482f22e1cc19ac
+ms.openlocfilehash: 4638842217127c1d80ec115e05f8db1a6d3eb36c
+ms.sourcegitcommit: a739a99e1006834a0f56e387c0bd9d945fb8a76b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/10/2018
-ms.locfileid: "48908454"
+ms.lasthandoff: 11/15/2018
+ms.locfileid: "51679032"
 ---
 # <a name="create-and-publish-a-power-bi-organizational-content-pack-tutorial"></a>创建和发布 Power BI 组织内容包（教程）
 
@@ -71,7 +71,7 @@ ms.locfileid: "48908454"
       ![](media/service-organizational-content-pack-create-and-publish/pbi_orgcontpkexcel.png)
    
       > [!NOTE]
-      > 如果组成员不能查看 Excel 工作簿，可能需要[在 OneDrive for Business 中共享工作簿](https://support.office.com/en-us/article/Share-documents-or-folders-in-Office-365-1fe37332-0f9a-4719-970e-d2578da4941c)。
+      > 如果组成员不能查看 Excel 工作簿，可能需要[在 OneDrive for Business 中共享工作簿](https://support.office.com/article/Share-documents-or-folders-in-Office-365-1fe37332-0f9a-4719-970e-d2578da4941c)。
       > 
       > 
 4. 选择**发布**将该内容包添加到组的组织内容包库。  
@@ -93,6 +93,6 @@ ms.locfileid: "48908454"
 * [组织内容包简介](service-organizational-content-pack-introduction.md)  
 * [管理、更新和删除组织内容包](service-organizational-content-pack-manage-update-delete.md)  
 * [在 Power BI 中创建组](service-create-distribute-apps.md)  
-* [什么是 OneDrive for Business？](https://support.office.com/en-us/article/What-is-OneDrive-for-Business-187f90af-056f-47c0-9656-cc0ddca7fdc2)
+* [什么是 OneDrive for Business？](https://support.office.com/article/What-is-OneDrive-for-Business-187f90af-056f-47c0-9656-cc0ddca7fdc2)
 * 更多问题？ [尝试参与 Power BI 社区](http://community.powerbi.com/)
 

@@ -10,12 +10,12 @@ ms.component: powerbi-service
 ms.topic: conceptual
 LocalizationGroup: Gateways
 ms.date: 06/05/2018
-ms.openlocfilehash: 488d11209126098063ba8ca2b2d73573edbcdbb9
-ms.sourcegitcommit: 5eb0f37f59b5fec15c0caecbbd1f8d688c7f0013
+ms.openlocfilehash: 9a739efdba84279e938fd8e13d6521cf975d0b9d
+ms.sourcegitcommit: a739a99e1006834a0f56e387c0bd9d945fb8a76b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/09/2018
-ms.locfileid: "51297127"
+ms.lasthandoff: 11/15/2018
+ms.locfileid: "51679009"
 ---
 # <a name="on-premises-data-gateway"></a>本地数据网关
 
@@ -100,7 +100,7 @@ ms.locfileid: "51297127"
 ## <a name="enabling-outbound-azure-connections"></a>启用出站 Azure 连接
 
 本地数据网关依赖 Azure 服务总线提供云连接，并相应地建立到其关联 Azure 区域的出站连接。 默认情况下，这是你的 Power BI 租户的位置。 查看我的 [Power BI 租户位于何处？](https://powerbi.microsoft.com/en-us/documentation/powerbi-admin-where-is-my-tenant-located/)
-如果防火墙阻止出站连接，则必须配置防火墙，使其允许从本地数据网关到其关联 Azure 区域的出站连接。 请参阅 [Microsoft Azure 数据中心 IP 范围](https://www.microsoft.com/en-us/download/details.aspx?id=41653)详细了解每个 Azure 数据中心 IP 地址范围。
+如果防火墙阻止出站连接，则必须配置防火墙，使其允许从本地数据网关到其关联 Azure 区域的出站连接。 请参阅 [Microsoft Azure 数据中心 IP 范围](https://www.microsoft.com/download/details.aspx?id=41653)详细了解每个 Azure 数据中心 IP 地址范围。
 > [!NOTE]
 > IP 地址范围可能随时间而变化，因此请确保定期下载最新信息。 
 

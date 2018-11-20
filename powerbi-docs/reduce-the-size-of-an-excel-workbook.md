@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 07/27/2018
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: 12ff54b1aa44edaead98b1fab6942acbd76216c7
-ms.sourcegitcommit: fbb7924603f8915d07b5e6fc8f4d0c7f70c1a1e1
+ms.openlocfilehash: 5d21dff56620e4b2eb05ed3bbf123ff1d1805075
+ms.sourcegitcommit: a739a99e1006834a0f56e387c0bd9d945fb8a76b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/02/2018
-ms.locfileid: "39329422"
+ms.lasthandoff: 11/15/2018
+ms.locfileid: "51679331"
 ---
 # <a name="reduce-the-size-of-an-excel-workbook-to-view-it-in-power-bi"></a>减小 Excel 工作簿的大小以便在 Power BI 中进行查看
 你可以将任何小于 1 GB 的 Excel 工作簿上载到 Power BI。 Excel 工作簿包括两个部分：数据模型和报表的其余部分—核心的工作表内容。 如果报表满足下面的大小限制，那么可以将其保存到 **OneDrive for Business**、从 Power BI 中连接它，以及在 Excel Online 中查看它：
@@ -28,7 +28,7 @@ ms.locfileid: "39329422"
 
 * 图像。
 * 具有明暗度的单元格。 [删除单元格的明暗度格式](https://support.office.com/article/Add-or-change-the-background-color-of-cells-ac10f131-b847-428f-b656-d65375fb815e)。
-* 有色工作表。 [删除工作表背景](https://support.office.com/en-US/article/add-or-remove-a-sheet-background-3577a762-8450-4556-96a2-cc265abc00a8)。
+* 有色工作表。 [删除工作表背景](https://support.office.com/article/add-or-remove-a-sheet-background-3577a762-8450-4556-96a2-cc265abc00a8)。
 * 文本框。
 * 剪贴画。
 
@@ -55,7 +55,7 @@ ms.locfileid: "39329422"
 * 在 **Excel 数据**选项卡中：请勿选中**导入数据**框中的**表**。
 
 ## <a name="workbook-size-optimizer"></a>工作簿大小优化器
-如果工作簿包含数据模型，则可以运行工作簿大小优化器来减小工作簿的大小。 [下载工作簿大小优化器](https://www.microsoft.com/en-us/download/details.aspx?id=38793)。
+如果工作簿包含数据模型，则可以运行工作簿大小优化器来减小工作簿的大小。 [下载工作簿大小优化器](https://www.microsoft.com/download/details.aspx?id=38793)。
 
 ## <a name="related-info"></a>相关的信息
 [创建可以高效利用内存的数据模型](https://support.office.com/article/Create-a-memory-efficient-Data-Model-using-Excel-2013-and-the-Power-Pivot-add-in-951c73a9-21c4-46ab-9f5e-14a2833b6a70)

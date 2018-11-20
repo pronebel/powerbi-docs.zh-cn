@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 11/01/2018
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: 4854f05e3394d7b4eed2c67de8bbca5266a12ae3
-ms.sourcegitcommit: 0611860a896e636ceeb6e30ce85243bfd8e7b61d
+ms.openlocfilehash: 912ed0be1e6a732db46e83f8a9b0757ad2801dab
+ms.sourcegitcommit: 46f1ba3f972f6e64bce05ad0fd527b27c49aedd6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/01/2018
-ms.locfileid: "50909309"
+ms.lasthandoff: 11/20/2018
+ms.locfileid: "52157393"
 ---
 # <a name="unable-to-add-power-bi-to-office-365-partner-subscription"></a>无法将 Power BI 添加到 Office 365 合作伙伴订阅
 
@@ -23,7 +23,7 @@ ms.locfileid: "50909309"
 
 若要随 Office 365 订阅一起获取 Power BI，建议联系合作伙伴。 如果合作伙伴暂不提供 Power BI，可采用其他方法。
 
-# <a name="work-with-your-partner-to-purchase-power-bi"></a>联系合作伙伴以购买 Power BI
+## <a name="work-with-your-partner-to-purchase-power-bi"></a>联系合作伙伴以购买 Power BI
 
 若要购买 Power BI Pro 或 Power BI Premium 订阅，请联系合作伙伴，以考虑可采用的方法：
 
@@ -31,7 +31,7 @@ ms.locfileid: "50909309"
 
 * 合作伙伴能够将你转换到一种模型，在其中可以直接从 Microsoft 或从提供 Power BI 的其他合作伙伴购买 Power BI。
 
-# <a name="purchase-from-microsoft-or-another-channel"></a>从 Microsoft 或其他渠道购买
+## <a name="purchase-from-microsoft-or-another-channel"></a>从 Microsoft 或其他渠道购买
 
 可以直接从 Microsoft 或其他合作伙伴处购买 Power BI，具体视与合作伙伴的关系而定。 可以验证能否在 Office 365 管理门户中添加 Power BI 订阅（必须有全局管理员或帐务管理员角色的成员身份）。
 

@@ -1,7 +1,7 @@
 ---
 title: 在 Power BI 服务中设置数据警报
 description: 在 Microsof Power BI 服务中，了解设置警报，以便在仪表板中的数据更改超出你设置的限制时通知你。
-author: mihart
+author: maggiesMSFT
 manager: kfile
 ms.reviewer: ''
 featuredvideoid: JbL2-HJ8clE
@@ -9,14 +9,14 @@ ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
 ms.date: 02/28/2018
-ms.author: mihart
+ms.author: maggies
 LocalizationGroup: Dashboards
-ms.openlocfilehash: d7251cea6a8244562b22d6511df754d3287587af
-ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
+ms.openlocfilehash: 52f5d7e8bbf6f22f930ad7b4703587ea3af3dc94
+ms.sourcegitcommit: 1e4fee6d1f4b7803ea285eb879c8d5a4f7ea8b85
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/12/2018
-ms.locfileid: "44726331"
+ms.lasthandoff: 11/16/2018
+ms.locfileid: "51717507"
 ---
 # <a name="data-alerts-in-power-bi-service"></a>Power BI 服务中的数据警报
 设置警报，以便在仪表板中的数据更改超出你设置的限制时通知你。 
@@ -78,10 +78,10 @@ ms.locfileid: "44726331"
 ### <a name="from-the-tile-itself"></a>从磁贴本身
 1. 如果需要更改或删除磁贴的警报，请通过选择钟形图标 ![警报图标](media/service-set-data-alerts/power-bi-bell-icon.png)，重新打开“管理警报”。 将显示已为该磁贴设置的所有警报。
    
-    ![管理警报窗口](media/service-set-data-alerts/powerbi-see-alerts.png).
+    ![管理警报窗口](media/service-set-data-alerts/powerbi-see-alerts.png)。
 2. 若要修改警报，请选择警报名称左侧的箭头。
    
-    ![警报名称旁的箭头](media/service-set-data-alerts/powerbi-see-alerts-arrow.png).
+    ![警报名称旁的箭头](media/service-set-data-alerts/powerbi-see-alerts-arrow.png)。
 3. 若要删除警报，请选择警报名称右侧的垃圾桶。
    
       ![已选中垃圾桶图标](media/service-set-data-alerts/powerbi-see-alerts-delete.png)
@@ -89,7 +89,7 @@ ms.locfileid: "44726331"
 ### <a name="from-the-power-bi-settings-menu"></a>从 Power BI 设置菜单
 1. 从 Power BI 菜单栏选择齿轮图标。
    
-    ![齿轮图标](media/service-set-data-alerts/powerbi-gear-icon.png).
+    ![齿轮图标](media/service-set-data-alerts/powerbi-gear-icon.png)。
 2. 在“设置”下，选择“警报”。
    
     ![“设置”窗口的“警报”选项卡](media/service-set-data-alerts/powerbi-alert-settings.png)

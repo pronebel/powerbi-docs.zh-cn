@@ -1,7 +1,7 @@
 ---
 title: '如何将整个报表页固定到 Power BI 仪表板 '
 description: 有关如何将整个活动报表页固定到某个报表的 Power BI 仪表板的文档。
-author: mihart
+author: maggiesMSFT
 manager: kfile
 ms.reviewer: ''
 featuredvideoid: ''
@@ -9,14 +9,14 @@ ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
 ms.date: 03/02/2018
-ms.author: mihart
+ms.author: maggies
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 3466280a452c89539d288a3e7d0a123855604e7e
-ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
+ms.openlocfilehash: 447257ba715b473c233b1d13c6319ff4958f33fa
+ms.sourcegitcommit: 1e4fee6d1f4b7803ea285eb879c8d5a4f7ea8b85
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/21/2018
-ms.locfileid: "46546363"
+ms.lasthandoff: 11/16/2018
+ms.locfileid: "51717162"
 ---
 # <a name="pin-an-entire-report-page-as-a-live-tile-to-a-power-bi-dashboard"></a>将整个报表页以动态磁贴的形式固定到 Power BI 仪表板
 添加新[仪表板磁贴](consumer/end-user-tiles.md)的另一种方法是固定整个报表页。 这是一种一次性固定多个可视化效果的简便方法。  此外，当固定整个页面时，磁贴是 *动态的* ；你可以就在仪表板上与它们进行交互。 并且你对报表编辑器中返回的任何可视化效果所做的更改（如添加筛选器或更改图表中使用的字段）也都会反映在仪表板磁贴中。  

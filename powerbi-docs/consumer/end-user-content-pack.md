@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/02/2018
 ms.author: mihart
 LocalizationGroup: Share your work
-ms.openlocfilehash: 2e74c8db22a2a1c4ddb188ae13a8ca5df9f862f3
-ms.sourcegitcommit: a1b7ca499f4ca7e90421511e9dfa61a33333de35
+ms.openlocfilehash: 432e38ffdcb92ee1d2cf1d62f7f34863d748885b
+ms.sourcegitcommit: a739a99e1006834a0f56e387c0bd9d945fb8a76b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/10/2018
-ms.locfileid: "51507706"
+ms.lasthandoff: 11/15/2018
+ms.locfileid: "51679101"
 ---
 # <a name="find-and-connect-to-an-organizational-content-pack"></a>查找并连接组织内容包
 
@@ -38,7 +38,7 @@ ms.locfileid: "51507706"
 ## <a name="connect-to-an-organizational-content-pack"></a>连接组织内容包
 * 选择“立即获取”，以连接内容包并将其添加到活动工作区中。 新建仪表板、报表、Excel 工作簿和数据集标有黄色星号。
 
-如果内容包含有 Excel 工作簿，可能会看到一条警告，提醒你无权查看工作簿。 如果是这样，请要求内容包所有者[与你共享 OneDrive for Business 中的工作簿](https://support.office.com/en-us/article/Share-documents-or-folders-in-Office-365-1fe37332-0f9a-4719-970e-d2578da4941c)。 
+如果内容包含有 Excel 工作簿，可能会看到一条警告，提醒你无权查看工作簿。 如果是这样，请要求内容包所有者[与你共享 OneDrive for Business 中的工作簿](https://support.office.com/article/Share-documents-or-folders-in-Office-365-1fe37332-0f9a-4719-970e-d2578da4941c)。 
 
 内容包已锁定。 你可以 [保存自己的仪表板和报表副本](../service-organizational-content-pack-copy-refresh-access.md)。 
 

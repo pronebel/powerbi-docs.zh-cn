@@ -2,7 +2,7 @@
 title: 在 Power BI 服务中使用仪表板主题
 description: 了解如何使用自定义调色板，并将其应用于 Power BI 服务中的整个仪表板
 author: maggiesMSFT
-manager: annbe
+manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 08/22/2018
 ms.author: maggies
 LocalizationGroup: Create reports
-ms.openlocfilehash: fd6cc83b5e5d27159f0cff853cb3effb6b415a9d
-ms.sourcegitcommit: fb1885da7cf11367660edbf7b7346dc039ee9b5d
+ms.openlocfilehash: 4e0f8dac3a5d254594c512f0a9804773308c9eb7
+ms.sourcegitcommit: 1e4fee6d1f4b7803ea285eb879c8d5a4f7ea8b85
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/26/2018
-ms.locfileid: "47186584"
+ms.lasthandoff: 11/16/2018
+ms.locfileid: "51717259"
 ---
 # <a name="use-dashboard-themes-in-power-bi-service"></a>在 Power BI 服务中使用仪表板主题
 借助“仪表板主题”，可以将颜色主题应用于整个仪表板，如企业品牌颜色、流行色或可能要应用的其他任何颜色主题。 应用“仪表板主题”时，仪表板中的所有视觉对象都会使用选定主题中的颜色（少数例外情况除外，本文稍后将进行介绍）。

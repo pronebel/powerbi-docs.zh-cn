@@ -10,18 +10,18 @@ ms.topic: conceptual
 ms.date: 08/02/2018
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 28934a525c332344b31de599363fb41126a18cfa
-ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
+ms.openlocfilehash: ccb73b05998eded0c32742deed57b2bee35fbbb6
+ms.sourcegitcommit: a739a99e1006834a0f56e387c0bd9d945fb8a76b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/21/2018
-ms.locfileid: "46548755"
+ms.lasthandoff: 11/15/2018
+ms.locfileid: "51679078"
 ---
 # <a name="share-a-power-bi-dashboard-that-links-to-an-excel-file-in-onedrive"></a>共享链接到 OneDrive 中 Excel 文件的 Power BI 仪表板
 在 Power BI 中，你可以[连接到 OneDrive for Business 上的 Excel 工作簿](service-excel-workbook-files.md)并将该工作簿中的磁贴固定到仪表板。 共享该仪表板或创建包含该仪表板的内容包时：
 
 * 你的同事无需工作簿本身的权限即可查看磁贴。 因此你可以创建内容包，并了解你的同事可以看到从 OneDrive 上的 Excel 工作簿创建的磁贴。
-* 单击磁贴将在 Power BI 内打开该工作簿。 仅当你的同事至少具有 OneDrive for Business 上工作簿的[读取权限](https://support.office.com/en-us/article/Share-documents-or-folders-in-Office-365-1fe37332-0f9a-4719-970e-d2578da4941c)时，才会打开该工作簿。
+* 单击磁贴将在 Power BI 内打开该工作簿。 仅当你的同事至少具有 OneDrive for Business 上工作簿的[读取权限](https://support.office.com/article/Share-documents-or-folders-in-Office-365-1fe37332-0f9a-4719-970e-d2578da4941c)时，才会打开该工作簿。
 
 ## <a name="share-a-dashboard-that-contains-workbook-tiles"></a>共享包含工作簿磁贴的仪表板
 要共享链接回 OneDrive for Business 上的 Excel 工作簿的仪表板，请参阅[共享仪表板](service-share-dashboards.md)。 不同之处在于，用户能够在共享之前选择修改链接的 Excel 工作簿的权限。
@@ -30,7 +30,7 @@ ms.locfileid: "46548755"
 
 1. 输入同事的电子邮件地址。
 2. 若要让你的同事能够从 Power BI 查看 Excel 工作簿，请选择**转到 OneDrive for Business 以设置工作簿权限**。
-3. 在 OneDrive 上，根据需要[修改权限](https://support.office.com/en-US/article/Share-files-and-folders-and-change-permissions-9fcc2f7d-de0c-4cec-93b0-a82024800c07)。
+3. 在 OneDrive 上，根据需要[修改权限](https://support.office.com/article/Share-files-and-folders-and-change-permissions-9fcc2f7d-de0c-4cec-93b0-a82024800c07)。
 4. 选择**共享**。
 
 >[!NOTE]
@@ -46,7 +46,7 @@ ms.locfileid: "46548755"
    
     ![内容包中的 Excel 工作簿](media/service-share-dashboard-that-links-to-excel-onedrive/pbi_contpack_workbk.png)
 3. 选择**转到 OneDrive for Business 以设置工作簿权限**。
-4. 在 OneDrive 上，根据需要[修改权限](https://support.office.com/en-US/article/Share-files-and-folders-and-change-permissions-9fcc2f7d-de0c-4cec-93b0-a82024800c07)。
+4. 在 OneDrive 上，根据需要[修改权限](https://support.office.com/article/Share-files-and-folders-and-change-permissions-9fcc2f7d-de0c-4cec-93b0-a82024800c07)。
 5. 选择**发布**。
 
 ## <a name="share-a-dashboard-from-a-power-bi-workspace"></a>从 Power BI 工作区共享仪表板

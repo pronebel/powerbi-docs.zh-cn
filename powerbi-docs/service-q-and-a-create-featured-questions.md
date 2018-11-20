@@ -1,7 +1,7 @@
 ---
 title: 如何创建 Power BI 问答的特别推荐问题
 description: 有关如何创建 Power BI 问答的精选问题的文档
-author: mihart
+author: maggiesMSFT
 manager: kfile
 ms.reviewer: ''
 featuredvideoid: E1mIAyEXuF4
@@ -9,14 +9,14 @@ ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
 ms.date: 03/01/2018
-ms.author: mihart
+ms.author: maggies
 LocalizationGroup: Ask questions of your data
-ms.openlocfilehash: f01edbec60d0146dd5bd4454d3b1e0736b9158e3
-ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
+ms.openlocfilehash: 02663648002f7924725791e378e10532fadc1128
+ms.sourcegitcommit: 1e4fee6d1f4b7803ea285eb879c8d5a4f7ea8b85
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/21/2018
-ms.locfileid: "46548226"
+ms.lasthandoff: 11/16/2018
+ms.locfileid: "51716932"
 ---
 # <a name="create-featured-questions-for-power-bi-qa"></a>创建 Power BI 问答的精选问题
 如果你拥有一个数据集，你可以向该数据集添加自己精选的问题。  Power BI 问答会向使用数据集的同事显示这些问题。  精选问题会让你的同事了解他们可以就数据集询问哪些类型的问题。 你添加的精选问题都由你决定 -- 可以添加常见问题、显示有趣结果的问题，或可能会很难组织描述的问题。
