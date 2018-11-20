@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 10/16/2018
+ms.date: 11/06/2018
 ms.author: maggies
-ms.openlocfilehash: 88bfd67ddf284ea6b518c5ebdd6386887513f393
-ms.sourcegitcommit: 02f918a4f27625b6f4e47473193ebc8219db40e2
+ms.openlocfilehash: bff5e42b239fee572ea0a453301f154da3b999b3
+ms.sourcegitcommit: b23fdcc0ceff5acd2e4d52b15b310068236cf8c7
 ms.translationtype: HT
 ms.contentlocale: zh-CN
 ms.lasthandoff: 11/07/2018
-ms.locfileid: "51223044"
+ms.locfileid: "51266084"
 ---
 # <a name="whitepapers-for-power-bi"></a>Power BI 白皮书
 
@@ -22,6 +22,7 @@ ms.locfileid: "51223044"
 
 | 白皮书 | 说明 | 日期 |
 | --- | --- | --- |
+| [Power BI 和数据流](https://go.microsoft.com/fwlink/?linkid=2034388&clcid=0x409)| 本白皮书详细介绍了数据流技术方面的信息，并描述了数据流特性和功能背后的功能和举措。 | 2018 年 11 月 |
 | [Microsoft Power BI Premium](https://aka.ms/pbipremiumwhitepaper) |介绍了 Power BI Premium 刚刚面世时的情况以及它的发展趋势。 | 2017 年 10 月 |
 | [Power BI Premium 规划和部署](https://aka.ms/Premium-Capacity-Planning-Deployment)| 本文介绍了如何针对已定义的工作负载规划和部署高级容量，以及相应的最佳做法。| 2017 年 11 月 |
 | [使用 Power BI Premium规划嵌入式分析的容量](https://aka.ms/pbiewhitepaper) |本文为应用开发人员/ISV 提供有关如何为其业务确定最合适容量的指导。 | 2017 年 10 月 |

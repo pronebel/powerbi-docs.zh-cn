@@ -9,12 +9,12 @@ ms.author: mblythe
 ms.reviewer: mblythe
 author: mgblythe
 manager: kfile
-ms.openlocfilehash: 99c84aff932c7ce56a4aaa81d71e4583bce3e4c2
-ms.sourcegitcommit: a764e4b9d06b50d9b6173d0fbb7555e3babe6351
+ms.openlocfilehash: 534c06c66d561a04dbffc04412095d6924c92781
+ms.sourcegitcommit: b23fdcc0ceff5acd2e4d52b15b310068236cf8c7
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/22/2018
-ms.locfileid: "49641727"
+ms.lasthandoff: 11/07/2018
+ms.locfileid: "51266061"
 ---
 # <a name="microsoft-power-bi-premium-capacity-resource-management-and-optimization"></a>Microsoft Power BI Premium 容量资源管理和优化
 
@@ -26,6 +26,7 @@ ms.locfileid: "49641727"
 
 * 加载到内存中的数据集
 * 数据集刷新（计划和按需）
+* 容量支持的工作负载
 * 报表查询
 
 当针对容量中已发布的数据集发出请求时，该数据集会从持久存储加载到内存中（这也称为映像加载）。 保持数据集加载在内存中有助于对此数据集的将来查询做出快速响应。 除了保持数据集加载在内存中而所需的内存，报表查询和数据集刷新还使用额外的内存。
@@ -51,6 +52,10 @@ Power BI Premium 提供“过度使用”容量的便利。 例如，你可以�
 如果尽管逐出但所需的内存仍不可用，刷新将会排队进行重试。 服务进行重试，直到成功或新的刷新操作开始为止。
 
 如果向容量中的任意数据集发出交互式查询，但由于正在刷新而没有足够可用内存，则该请求将失败，需要用户重试。
+
+### <a name="workloads"></a>工作负载
+
+默认情况下，Power BI Premium 和 Power BI Embedded 的容量仅支持与在云中运行 Power BI 查询相关联的工作负载。 我们现在为两个额外的工作负载提供预览支持：分页报表和数据流。 如果启用，这些工作负载可能会影响容量中的内存使用情况。 有关详细信息，请参阅[配置工作负载](service-admin-premium-manage.md#configure-workloads)。
 
 ## <a name="cpu-resource-management-in-premium-capacity"></a>高级容量中的 CPU 资源管理
 

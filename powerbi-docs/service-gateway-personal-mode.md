@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 12/14/2017
 ms.author: mblythe
 LocalizationGroup: Gateways
-ms.openlocfilehash: 093339e820c45fcbd586bd1eb6d8933b6e5743f8
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 263c1a576e939a87e970cc2c0200dfb6c1ccdc41
+ms.sourcegitcommit: 47269676aa600e60ec7ba0e323941a71e0622833
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34298196"
+ms.lasthandoff: 11/08/2018
+ms.locfileid: "51273324"
 ---
 # <a name="on-premises-data-gateway-personal-mode"></a>本地数据网关（个人模型）
 可以通过网关使用本地数据源以及创建 Power BI 报表和仪表板。 网关是一种软件，不仅有助于用户访问存储在专用、本地网络的数据，还使用户能够使用联机服务（如 Power BI 服务）中的数据。 本地数据网关（个人模式）是最新发布的对 Power BI 网关的更新，它允许个人在自己的计算机上安装网关并获取对本地数据的访问权限。
@@ -132,7 +132,7 @@ ms.locfileid: "34298196"
   * 回答：如果使用当前网关刷新报表，则刷新将停止。 设置新刷新计划的唯一方式是安装并配置新网关。
 * 我使用的是 R 脚本。 它受支持吗？
   
-  * 回答： 我们预计会很快添加对 R 脚本的支持。
+  * 答：个人模式支持 R 脚本。
 * 为什么在 Power BI 服务中看不到更新网关的消息？
   
   * 回答：很可能是因为你的一个或多个数据集中包含一个目前不受支持的数据源。

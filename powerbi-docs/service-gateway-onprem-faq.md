@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 01/24/2018
 ms.author: mblythe
 LocalizationGroup: Gateways
-ms.openlocfilehash: b4ecec3b2e53c2fea0fcbb7d78d1114da1a105ed
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: da8fb3da7ea0e4f0457951bc421a5f207c3c6911
+ms.sourcegitcommit: 47269676aa600e60ec7ba0e323941a71e0622833
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34299622"
+ms.lasthandoff: 11/08/2018
+ms.locfileid: "51273301"
 ---
 # <a name="on-premises-data-gateway-faq"></a>本地数据网关常见问题
 <!-- Shared FAQ shared Include -->
@@ -68,6 +68,9 @@ ms.locfileid: "34299622"
 
 **问：** 网关将使用 ExpressRoute？  
 **答：** 是的。 有关 ExpressRoute 和 Power BI 的详细信息，请参阅 [Power BI 和 ExpressRoute](service-admin-power-bi-expressroute.md)。
+
+问：我使用的是 R 脚本。 它受支持吗？
+答：个人模式仅支持 R 脚本。
 
 ## <a name="next-steps"></a>后续步骤
 [本地数据网关](service-gateway-onprem.md)  

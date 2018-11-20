@@ -1,23 +1,23 @@
 ---
 title: 安装 Power BI 报表服务器所要满足的硬件和软件要求
-description: 本文介绍了安装并运行 Power BI 报表服务器所要满足的最低硬件和软件要求。
+description: 本文列出了安装并运行 Power BI 报表服务器所要满足的最低硬件和软件要求。
 author: markingmyname
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-report-server
 ms.topic: conceptual
-ms.date: 10/24/2018
+ms.date: 11/08/2018
 ms.author: maghan
-ms.openlocfilehash: 397bc6f1582ff49f665f25559925d5b7e19e0fd5
-ms.sourcegitcommit: 60fb46b61ac73806987847d9c606993c0e14fb30
+ms.openlocfilehash: c8904f3025a0a60557b1d3efb54ea6bc18c20da4
+ms.sourcegitcommit: a1b7ca499f4ca7e90421511e9dfa61a33333de35
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/25/2018
-ms.locfileid: "50101315"
+ms.lasthandoff: 11/10/2018
+ms.locfileid: "51507897"
 ---
 # <a name="hardware-and-software-requirements-for-installing-power-bi-report-server"></a>安装 Power BI 报表服务器所要满足的硬件和软件要求
-本文介绍了安装并运行 Power BI 报表服务器所要满足的最低硬件和软件要求。
+本文列出了安装并运行 Power BI 报表服务器所要满足的最低硬件和软件要求。
 
 ## <a name="processor-memory-and-operating-system-requirements"></a>处理器、内存和操作系统要求
 
@@ -43,18 +43,19 @@ SQL Server 用于托管报表服务器数据库。 SQL Server 数据库引擎实
 * SQL Server 2014
 * SQL Server 2012
 
-在远程计算机上创建报表服务器数据库时，需要将连接配置为使用域用户帐户或具有网络访问权限的服务帐户。 如果决定使用远程 SQL Server 实例，请仔细考虑报表服务器应使用哪些凭据来连接到 SQL Server 实例。 有关详细信息，请参阅[配置报表服务器数据库连接](https://docs.microsoft.com/sql/reporting-services/install-windows/configure-a-report-server-database-connection-ssrs-configuration-manager)。
+在远程计算机上创建报表服务器数据库时，必须将连接配置为使用域用户帐户或具有网络访问权限的服务帐户。 如果决定使用远程 SQL Server 实例，请仔细考虑报表服务器应使用哪些凭据来连接到 SQL Server 实例。 有关详细信息，请参阅[配置报表服务器数据库连接](https://docs.microsoft.com/sql/reporting-services/install-windows/configure-a-report-server-database-connection-ssrs-configuration-manager)。
 
 ## <a name="considerations"></a>注意事项
 Power BI 报表服务器将安装默认值，以配置报表服务器正常运行所需的核心设置。 具体要求如下：
 
 * 在安装完成之后且在配置报表服务器数据库之前，必须有 SQL Server 数据库引擎。 数据库引擎实例托管 Reporting Services 配置管理器将创建的报表服务器数据库。 实际的安装体验不需要有数据库引擎。
-* 用于运行安装程序的用户帐户必须是本地管理员组的成员。
-* 用于 Reporting Services 配置管理器的用户帐户必须有权在托管报表服务器数据库的数据库引擎实例上访问并创建数据库。
+- [SQL Server 各版本支持的 Reporting Services 功能](https://docs.microsoft.com/sql/reporting-services/reporting-services-features-supported-by-the-editions-of-sql-server-2016)概述了 SQL Server 各版本之间的差异。
+* 运行安装程序的用户帐户必须是本地管理员组的成员。
+* 运行 Reporting Services 配置管理器的用户帐户必须有权在托管报表服务器数据库的数据库引擎实例上访问并创建数据库。
 * 安装程序必须能够使用默认值来保留 URL，从而提供对报表服务器和 Web 门户的访问权限。 这些值为端口 80、强通配符以及格式为 ReportServer 和 Reports 的虚拟目录名称。
 
 ## <a name="read-only-domain-controller-rodc"></a>只读域控制器 (RODC)
- 虽然报表服务器可以安装在包含只读域控制器 (RODC) 的环境中，但 Reporting Services 必须有权访问读/写域控制器，才能正常工作。 如果 Reporting Services 仅有权访问 RODC，那么你可能会在尝试管理服务时看到错误消息。
+ 可以在具有只读域控制器 (RODC) 的环境中安装报表服务器。 但是，Reporting Services 需要访问读-写域控制器才能正常工作。 如果 Reporting Services 仅有权访问 RODC，那么你可能会在尝试管理服务时看到错误消息。
 
 ## <a name="power-bi-reports-and-analysis-services-live-connections"></a>Power BI 报表和 Analysis Services 实时连接
 你可以使用针对表格或多维实例的实时连接。 Analysis Services 服务器必须满足适当的版本要求，才能正常工作。

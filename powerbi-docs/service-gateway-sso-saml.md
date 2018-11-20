@@ -1,5 +1,5 @@
 ---
-title: 在本地网关上使用 SAML 进行从 Power BI 到本地数据源的单一登录 (SSO)
+title: 使用 SAML 启用到本地数据源的单一登录 (SSO)
 description: 使用安全断言标记语言 (SAML) 配置网关以启用从 Power BI 到本地数据源的单一登录 (SSO)。
 author: mgblythe
 ms.author: mblythe
@@ -10,12 +10,12 @@ ms.component: powerbi-gateways
 ms.topic: conceptual
 ms.date: 10/10/2018
 LocalizationGroup: Gateways
-ms.openlocfilehash: 4fbfa38bd235d37fea730bda8d200e97530f0ce9
-ms.sourcegitcommit: 2c4a075fe16ccac8e25f7ca0b40d404eacb49f6d
+ms.openlocfilehash: 8762e575574b717965ac55d4cf32a5c925c298ab
+ms.sourcegitcommit: a1b7ca499f4ca7e90421511e9dfa61a33333de35
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/20/2018
-ms.locfileid: "49474237"
+ms.lasthandoff: 11/10/2018
+ms.locfileid: "51507775"
 ---
 # <a name="use-security-assertion-markup-language-saml-for-single-sign-on-sso-from-power-bi-to-on-premises-data-sources"></a>使用安全断言标记语言 (SAML) 进行从 Power BI 到本地数据源的单一登录 (SSO)
 

@@ -10,12 +10,12 @@ ms.component: powerbi-admin
 ms.topic: conceptual
 ms.date: 10/30/2018
 LocalizationGroup: Administration
-ms.openlocfilehash: 3e125061766d6ade0daeaacb208d3070d8e9bd9b
-ms.sourcegitcommit: d20f74d5300197a0930eeb7db586c6a90403aabc
+ms.openlocfilehash: b03e9da87aa507812045378b1fa3e581b7de159c
+ms.sourcegitcommit: b23fdcc0ceff5acd2e4d52b15b310068236cf8c7
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/03/2018
-ms.locfileid: "50973249"
+ms.lasthandoff: 11/07/2018
+ms.locfileid: "51266107"
 ---
 # <a name="power-bi-admin-portal"></a>Power BI 管理门户
 
@@ -296,6 +296,15 @@ Office 365 中的全局管理员或分配有 Power BI 服务管理员角色的�
 ### <a name="import-data-into-power-bi"></a>将数据导入 Power BI
 
 组织中的用户可以将数据导入服务，如在 Power BI Desktop 中发布报表、上传 Power BI 报表文件，以及直接从服务连接到数据。 [了解详细信息](desktop-upload-desktop-files.md)
+
+## <a name="dataflow-settings-preview"></a>数据流设置（预览）
+
+### <a name="create-and-use-dataflows-preview"></a>创建和使用数据流（预览）
+
+组织中的用户可以创建和使用数据流。 [了解详细信息](service-dataflows-overview.md)
+
+> [!NOTE]
+> 此设置应用于整个组织，并且不能限制为特定组。
 
 ## <a name="capacity-settings"></a>容量设置
 

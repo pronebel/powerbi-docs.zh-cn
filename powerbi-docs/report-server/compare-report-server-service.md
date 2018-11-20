@@ -4,22 +4,24 @@ description: 本文将 Power BI 报表服务器和 Power BI 服务的功能进�
 keywords: ''
 author: maggiesMSFT
 ms.author: maggies
-ms.date: 05/07/2018
+ms.date: 11/06/2018
 ms.topic: overview
 ms.service: powerbi
 ms.component: powerbi-report-server
 manager: kfile
 ms.custom: mvc
-ms.openlocfilehash: f78638097ea33f9954f3db78c117f1935a68530b
-ms.sourcegitcommit: 52ac456bf2ac025b22ea634c28482f22e1cc19ac
+ms.openlocfilehash: a693eef85f7eafe7cfac2a02cbccc346201a6f13
+ms.sourcegitcommit: a1b7ca499f4ca7e90421511e9dfa61a33333de35
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/10/2018
-ms.locfileid: "48908522"
+ms.lasthandoff: 11/10/2018
+ms.locfileid: "51507683"
 ---
 # <a name="comparing-power-bi-report-server-and-the-power-bi-service"></a>比较 Power BI 报表服务器和 Power BI 服务
 
 Power BI 报表服务器和 Power BI 服务有许多相似之处和一些关键区别。 此表对其分别进行介绍。
+
+## <a name="features-of-power-bi-report-server-and-the-power-bi-service"></a>Power BI 报表服务器和 Power BI 服务的功能
 
 | 功能 | Power BI 报表服务器 | Power BI 服务 | 注意
 |---------|---------|---------|---------|
@@ -39,14 +41,14 @@ Power BI 报表服务器和 Power BI 服务有许多相似之处和一些关键�
 | 问答 | 否 | 是 | [Power BI 服务和 Power BI Desktop 中的问答](../consumer/end-user-q-and-a.md) 
 | 快速见解 | 否 | 是 | [通过 Power BI 自动生成数据见解](../consumer/end-user-insights.md) 
 | 在 Excel 中分析 | 否 | 是 | [在 Excel 中分析](../service-analyze-in-excel.md) 
-| 分页报表 | 是 | 否 | 分页报表在 Power BI 服务中不可用，但可以[将分页报表项固定到 Power BI 仪表板](https://docs.microsoft.com/sql/reporting-services/pin-reporting-services-items-to-power-bi-dashboards)
+| 分页报表 | 是 | 是 | [Power BI 服务中提供的分页报表](../paginated-reports-report-builder-power-bi.md)处于预览状态
 | Power BI 移动应用 | 是 | 是 | [Power BI 移动应用概述](../consumer/mobile/mobile-apps-for-mobile-devices.md) 
 | ARC GIS 地图 | 否 | 是 | [Power BI 服务和 Power BI Desktop 中通过 Esri 实现的 ArcGIS 地图](../power-bi-visualization-arcgis.md)
 | Power BI 报表的电子邮件订阅 | 否 | 是 | 在 Power BI 服务中[订阅报表或仪表板](../consumer/end-user-subscribe.md) 
 | 分页报表的电子邮件订阅 | 是 | 否 | [Reporting Services 中的电子邮件传递](https://docs.microsoft.com/sql/reporting-services/subscriptions/e-mail-delivery-in-reporting-services)  
 | 数据警报 | 否 | 是 | Power BI 服务中的[数据警报](../service-set-data-alerts.md)
 | 行级别安全性 | 只能通过 DirectQuery 模式下的数据源 | 在 DirectQuery（数据源）和导入模式下均可用 | Power BI [行级别安全性 (RLS)](../service-admin-rls.md) 
-| 全屏模式 | 否 | 是 | Power BI 服务中的[全屏模式](../service-fullscreen-mode.md) 
+| 全屏模式 | 否 | 是 | Power BI 服务中的[全屏模式](../consumer/end-user-focus.md) 
 | 高级 Office 365 协作 | 否 | 是 | 使用 Office 365 [在应用工作区中协作](../service-collaborate-power-bi-workspace.md) 
 | R 视觉对象 | 否 | 是 | 在 Power BI 服务中[创建 R 视觉对象](../visuals/service-r-visuals.md)  
 | 预览功能 | 否 | 是 | [选择使用 Power BI 服务预览](../consumer/end-user-preview-features.md)功能 

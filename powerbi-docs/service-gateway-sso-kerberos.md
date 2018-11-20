@@ -1,5 +1,5 @@
 ---
-title: 在本地网关上使用 Kerberos 进行从 Power BI 到本地数据源的（单一登录）SSO
+title: 使用 Kerberos 启用到本地数据源的单一登录 (SSO)
 description: 使用 Kerberos 配置网关以启用从 Power BI 到本地数据源的 SSO
 author: mgblythe
 ms.author: mblythe
@@ -10,12 +10,12 @@ ms.component: powerbi-gateways
 ms.topic: conceptual
 ms.date: 10/10/2018
 LocalizationGroup: Gateways
-ms.openlocfilehash: b66799df83095ce2104196b076482cc232c9bfae
-ms.sourcegitcommit: 60fb46b61ac73806987847d9c606993c0e14fb30
+ms.openlocfilehash: ed9281ba14ad25e2acb347a2394ec729e9d4465c
+ms.sourcegitcommit: a1b7ca499f4ca7e90421511e9dfa61a33333de35
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/25/2018
-ms.locfileid: "50101614"
+ms.lasthandoff: 11/10/2018
+ms.locfileid: "51508028"
 ---
 # <a name="use-kerberos-for-single-sign-on-sso-from-power-bi-to-on-premises-data-sources"></a>使用 Kerberos 进行从 Power BI 到本地数据源的单一登录 (SSO)
 
@@ -27,8 +27,10 @@ ms.locfileid: "50101614"
 
 * SQL Server
 * SAP HANA
+* SAP BW
 * Teradata
 * Spark
+* Impala
 
 我们还通过[安全断言标记语言 (SAML)](service-gateway-sso-saml.md) 支持 SAP HANA。
 
@@ -158,7 +160,7 @@ ms.locfileid: "50101614"
 
 1. 从“用户权限分配”下的策略列表中，选择“以操作系统方式执行”(SeTcbPrivilege)。 确保网关服务帐户也包括在帐户列表中。
 
-18. 重启“本地数据网关”服务进程。
+1. 重启“本地数据网关”服务进程。
 
 如果使用 SAP HANA，我们建议执行以下附加步骤，这些步骤可以小幅度提升性能。
 
@@ -200,9 +202,11 @@ ms.locfileid: "50101614"
 
 了解了 Kerberos 如何与网关配合使用后，接下来可以为 SAP Business Warehouse (SAP BW) 配置 SSO。 以下步骤假设你已经[为 Kerberos 约束委派做好了准备](#preparing-for-kerberos-constrained-delegation)（如本文前面部分所述）。
 
-### <a name="install-sap-bw-components"></a>安装 SAP BW 组件
+本指南尝试尽可能全面地进行介绍。 如果你已经完成了其中的一些步骤，可以跳过这些步骤：例如，已经为 BW 服务器创建了一个服务用户并将 SPN 映射到该服务用户，或者已经安装了 gsskrb5 库。
 
-如果尚未在客户端计算机和 SAP BW 应用程序服务器上设置 SAP gsskrb5 和 gx64krb5，请完成此部分。 如果已完成此设置（已为 BW 服务器创建了服务用户并将 SPN 映射到该服务用户），则可以跳过本节的某些部分。
+### <a name="setup-gsskrb5-on-client-machines-and-the-bw-server"></a>在客户端计算机和 BW 服务器上设置 gsskrb5
+
+客户端和服务器必须使用 gsskrb5 才能通过网关完成 SSO 连接。 目前不支持 Common Crypto Library (sapcrypto)。
 
 1. 从 [SAP Note 2115486](https://launchpad.support.sap.com/) 下载 gsskrb5/gx64krb5（需要是 SAP 用户）。 请确保至少有 1.0.11.x 版本的 gsskrb5.dll 和 gx64krb5.dll。
 
@@ -212,15 +216,15 @@ ms.locfileid: "50101614"
 
 1. 在客户端和服务器计算机上，将 SN\_LIB 和 SNC\_LIB\_64 环境变量分别设置为指向 gsskrb5.dll 和 gx64krb5.dll 的位置。
 
-### <a name="complete-the-gateway-configuration-for-sap-bw"></a>完成 SAP BW 的网关配置
+### <a name="create-a-bw-service-user-and-enable-snc-communication-using-gsskrb5-on-the-bw-server"></a>创建 BW 服务用户并在 BW 服务器上使用 gsskrb5 启用 SNC 通信
 
 除了已经完成的网关配置，还有一些 SAP BW 特定的额外步骤。 文档中的[在网关服务帐户上配置委派设置](#configure-delegation-settings-on-the-gateway-service-account)部分假设你已为基础数据源配置了 SPN。 要为 SAP BW 完成此配置：
 
-1. 在 Active Directory 域控制器上，为 Active Directory 环境中的 BW 应用程序服务器创建服务用户（最初只是普通的 Active Directory 用户）。 然后为其分配 SPN。
+1. 在 Active Directory 域控制器服务器上，为 Active Directory 环境中的 BW 应用程序服务器创建服务用户（最初只是普通的 Active Directory 用户）。 然后为其分配 SPN。
 
-    分配的 SPN 必须以 SAP/ 开头。 SAP/ 之后的内容可自行决定；一种选择是使用 BW 服务器服务用户的用户名。 例如，如果创建 BWServiceUser@ \<域\>作为服务用户，则可以使用 SPN SAP/BWServiceUser。 设置 SPN 映射的一种方法是使用 setspn 命令。 例如，要在我们刚创建的服务用户上设置 SPN，需要从域控制器计算机上的 cmd 窗口中执行以下命令：`setspn -s SAP/ BWServiceUser DOMAIN\ BWServiceUser`。
+    SAP 建议使用 SAP/ 启动 SPN，但应该也能使用其他前缀，例如 HTTP/。 SAP/ 之后的内容可自行决定；一种选择是使用 BW 服务器服务用户的用户名。 例如，如果创建 BWServiceUser@ \<域\>作为服务用户，则可以使用 SPN SAP/BWServiceUser。 设置 SPN 映射的一种方法是使用 setspn 命令。 例如，要在我们刚创建的服务用户上设置 SPN，需要从域控制器计算机上的 cmd 窗口中执行以下命令：`setspn -s SAP/ BWServiceUser DOMAIN\ BWServiceUser`。 有关详细信息，请参阅 SAP BW 文档。
 
-1. 授予服务用户访问 BW 应用程序服务器实例的权限：
+1. 授予服务用户访问 BW 应用程序服务器的权限：
 
     1. 在 BW 服务器计算机上，将服务用户添加到 BW 服务器的本地管理员组：打开“计算机管理”程序，然后双击服务器的“本地管理员组”。
 
@@ -238,7 +242,7 @@ ms.locfileid: "50101614"
 
 1. 在 SAP GUI/Logon 中登录服务器，并使用 RZ10 事务设置以下配置文件参数：
 
-    1. 将 snc/identity/as 配置文件参数设置为：p:\<已创建的 BW 服务用户\>，例如 p:BWServiceUser@MYDOMAIN.COM。 请注意服务用户 UPN 之前的“p:”。
+    1. 将 snc/identity/as 配置文件参数设置为：p:\<已创建的 BW 服务用户\>，例如 p:BWServiceUser@MYDOMAIN.COM。 请注意服务用户的 UPN 前面的 p: 不是 p:CN=，与用作 SNC 库时的 Common Crypto Lib 不一样。
 
     1. 将 snc/gssapi\_lib 配置文件参数设置为\<服务器计算机上 gsskrb5.dll/gx64krb5.dll 的路径（要使用的库取决于操作系统位数）\>。 请务必将库放在 BW 应用程序服务器可以访问的位置。
 
@@ -259,7 +263,7 @@ ms.locfileid: "50101614"
 
 1. 设置这些配置文件参数后，在服务器计算机上打开 SAP 管理控制台并重启 BW 实例。 如果服务器无法启动，请仔细检查是否正确设置了配置文件参数。 有关配置文件参数设置的详细信息，请参阅 [SAP 文档](https://help.sap.com/saphelp_nw70ehp1/helpdata/en/e6/56f466e99a11d1a5b00000e835363f/frameset.htm)。 如果遇到问题，还可以参考本节后面的故障排除信息部分。
 
-### <a name="map-azure-ad-users-to-sap-bw-users"></a>将 Azure AD 用户映射到 SAP BW 用户
+### <a name="map-a-bw-user-to-an-active-directory-user"></a>将 BW 用户映射到 Active Directory 用户
 
 将 Active Directory 用户映射到 SAP BW 应用程序服务器用户，并在 SAP GUI/Logon 中测试 SSO 连接。
 
@@ -275,7 +279,7 @@ ms.locfileid: "50101614"
 
 1. 选择保存图标（屏幕左上角附近的“软盘”）。
 
-### <a name="verify-sign-in-using-sso"></a>使用 SSO 验证登录
+### <a name="test-sign-in-using-sso"></a>使用 SSO 测试登录
 
 验证是否能以刚为其启用了 SSO 访问权限的 Active Directory 用户的身份来使用 SAP Logon/SAP GUI 通过 SSO 登录服务器。
 
@@ -287,11 +291,11 @@ ms.locfileid: "50101614"
 
 1. 在下一页填写相应的详细信息，包括应用程序服务器，实例编号和系统 ID，然后选择“完成”。
 
-1. 右键单击新连接，然后选择“属性”。 选择“网络”选项卡。在“SNC 名称”窗口中输入 p:\<BW 服务用户的 UPN\>，例如 p:BWServiceUser@MYDOMAIN.COM。
+1. 右键单击新连接，然后选择“属性”。 选择“网络”选项卡。在“SNC 名称”窗口中输入 p:\<BW 服务用户的 UPN\>，例如 p:BWServiceUser@MYDOMAIN.COM，然后选择“确定”。
 
     ![系统条目属性](media/service-gateway-sso-kerberos/system-entry-properties.png)
 
-1. 选择**确定**。 现在，双击刚才创建的连接以尝试与服务建立 SSO 连接。 如果连接成功，请继续执行下一步。 否则，请查看本文档中先前的步骤以确保它们已正确完成，或查看下面的故障排除部分。 请注意，如果在此上下文中无法通过 SSO 连接到 BW 服务器，你将无法在网关上下文中使用 SSO 连接到 BW 服务器。
+1. 双击刚才创建的连接，尝试与 BW 服务器建立 SSO 连接。 如果连接成功，请继续执行下一步。 否则，请查看本文档中先前的步骤以确保它们已正确完成，或查看下面的故障排除部分。 请注意，如果在此上下文中无法通过 SSO 连接到 BW 服务器，你将无法在网关上下文中使用 SSO 连接到 BW 服务器。
 
 ### <a name="troubleshoot-installation-and-connections"></a>安装和连接故障排除
 
@@ -309,15 +313,33 @@ ms.locfileid: "50101614"
 
 1. “（SNC 错误）找不到指定模块”：这通常是因为将放置 gsskrb5.dll/gx64krb5.dll 的位置需要提升权限（管理员权限）才能访问。
 
-### <a name="add-registry-entries"></a>添加注册表项
+### <a name="add-registry-entries-to-the-gateway-machine"></a>将注册表项添加到网关计算机
 
-将所需的注册表项添加到安装网关的计算机的注册表中。 然后设置所需的网关配置参数。
+将所需的注册表项添加到安装网关的计算机的注册表中。
 
 1. 在 cmd 窗口中执行以下命令：
 
     1. REG ADD HKLM\SOFTWARE\Wow6432Node\SAP\gsskrb5 /v ForceIniCredOK /t REG\_DWORD /d 1 /f
 
     1. REG ADD HKLM\SOFTWARE\SAP\gsskrb5 /v ForceIniCredOK /t REG\_DWORD /d 1 /f
+
+### <a name="set-configuration-parameters-on-the-gateway-machine"></a>设置网关计算机上的配置参数
+
+设置配置参数有两种选择，具体取决于你是否配置了 Azure AD DirSync，以便用户可以作为 Azure Ad 用户登录 Power BI 服务。
+
+如果配置了 Azure AD DirSync，请按照以下步骤操作。
+
+1. 打开主网关配置文件 Microsoft.PowerBI.DataMovement.Pipeline.GatewayCore.dll。 默认情况下，此文件存储在 C:\Program Files\On-premises data gateway 中。
+
+1. 请务必将“FullDomainResolutionEnabled”属性设置为 True，将“SapHanaSsoRemoveDomainEnabled”属性设置为 False。
+
+1. 保存配置文件。
+
+1. 通过任务管理器的“服务”选项卡重启网关服务（右键单击“重启”）
+
+    ![重启网关](media/service-gateway-sso-kerberos/restart-gateway.png)
+
+如果未配置 Azure AD DirSync，请为要映射到 Azure AD 用户的所有 Power BI 服务用户执行以下步骤。 以下步骤会将 Power BI Service 用户手动链接到具有登录 BW 的权限的 Active Directory 用户。
 
 1. 打开主网关配置文件 Microsoft.PowerBI.DataMovement.Pipeline.GatewayCore.dll。 默认情况下，此文件存储在 C:\Program Files\On-premises data gateway。
 
@@ -327,19 +349,21 @@ ms.locfileid: "50101614"
 
     ![重启网关](media/service-gateway-sso-kerberos/restart-gateway.png)
 
-### <a name="set-azure-ad-properties"></a>设置 Azure AD 属性
+1. 将映射到 BW 用户的 Active Directory 用户的 msDS-cloudExtensionAttribute1 属性设置为要为其启用 Kerberos SSO 的 Power BI 服务用户。 设置 msDS-cloudExtensionAttribute1 属性的一种方法是通过 Active Directory 用户和计算机 MMC 管理单元（请注意，也可以使用其他方法）。
 
-将映射到 BW 用户的 Active Directory 用户（在“将 Azure AD 用户映射到 SAP BW 用户”步骤中）的 msDS-cloudExtensionAttribute1 属性设置为要为其启用 Kerberos SSO 的 Power BI 服务用户。 设置 msDS-cloudExtensionAttribute1 属性的一种方法是通过 Active Directory 用户和计算机 MMC 管理单元（请注意，也可以使用其他方法）。
+    1. 以管理员用户身份登录到域控制器计算机。
 
-1. 以管理员用户身份登录到域控制器计算机。
+    1. 在管理单元窗口中打开“用户”文件夹，然后双击映射到 BW 用户的 Active Directory 用户。
 
-1. 在管理单元窗口中打开“用户”文件夹，然后双击映射到 BW 用户的 Active Directory 用户。
+    1. 选择“属性编辑器”选项卡。
 
-1. 选择“属性编辑器”选项卡。如果没有看到此选项卡，则需要搜索有关如何启用它的说明或使用其他方法设置 msDS-cloudExtensionAttribute1 属性。 选择其中一个属性，然后选择“m”键以导航到以“m”开头的Active Directory 属性。 找到 msDS cloudExtensionAttribute1 属性并双击。 将值设置为用于登录 Power BI 服务的用户名。 选择**确定**。
+        如果没有看到此选项卡，则需要搜索有关如何启用它的说明或使用其他方法设置 msDS-cloudExtensionAttribute1 属性。 选择其中一个属性，然后选择“m”键以导航到以“m”开头的Active Directory 属性。 找到 msDS cloudExtensionAttribute1 属性并双击。 将值设置为用于登录 Power BI 服务的用户名，格式为 YourUser@YourDomain。
 
-    ![编辑属性](media/service-gateway-sso-kerberos/edit-attribute.png)
+    1. 选择**确定**。
 
-1. 选择**应用**。 验证是否已在“值”列中设置了正确的值。
+        ![编辑属性](media/service-gateway-sso-kerberos/edit-attribute.png)
+
+    1. 选择**应用**。 验证是否已在“值”列中设置了正确的值。
 
 ### <a name="add-a-new-bw-application-server-data-source-to-the-power-bi-service"></a>将新的 BW 应用程序服务器数据源添加到 Power BI 服务
 
@@ -347,7 +371,7 @@ ms.locfileid: "50101614"
 
 1. 在数据源配置窗口中，与从 Power BI Desktop 登录到 BW 服务器一样，输入应用程序服务器的“主机名”、“系统编号”和”客户端 ID”。 对于“身份验证方法”，选择“Windows”********。
 
-1. 在“SNC 合作伙伴名称”字段中，输入存储在服务器的 snc/identity/as 配置文件参数中的值，其中“SAP/”添加在“p:”和其余标识之间。 例如，如果服务器的 snc 标识为 p:BWServiceUser@MYDOMAIN.COM，则应在“SNC 合作伙伴名称”输入框中输入 p:SAP/BWServiceUser@MYDOMAIN.COM 。
+1. 在“SNC 合作伙伴名称”字段中，输入 p: \<映射到 BW 服务用户的 SPN\>。 例如，如 SPN 为 SAP/BWServiceUser@MYDOMAIN.COM，则应在“SNC 合作伙伴名称”字段中输入 p:SAP/BWServiceUser@MYDOMAIN.COM。
 
 1. 对于 SNC 库，请选择 SNC\_LIB 或 SNC\_LIB\_64。
 
@@ -355,9 +379,11 @@ ms.locfileid: "50101614"
 
 1. 勾选“通过 Kerberos 使用 SSO 执行 DirectQuery 查询”框并选择“应用”。 如果测试连接不成功，请验证先前的设置和配置步骤是否已正确完成。
 
+    网关始终使用键入的凭据建立与服务器的测试连接，并执行基于导入的报表的计划刷新。 如果勾选了“通过 Kerberos 使用 SSO 执行 DirectQuery 查询”，并且用户正在访问基于直接查询的报表或数据集，则网关仅尝试建立 SSO 连接。
+
 ### <a name="test-your-setup"></a>测试设置
 
-将 Power BI Desktop 中的 DirectQuery 报表发布到 Power BI 服务以测试设置。 请确保以你将 msDS-cloudExtensionAttribute1 属性设置为的用户身份登录到 Power BI 服务。 如果设置已成功完成，应该能够创建基于 Power BI 服务中的已发布数据集的报表，并通过报表中的视觉对象拉取数据。
+将 Power BI Desktop 中的 DirectQuery 报表发布到 Power BI 服务以测试设置。 确保以 Azure AD 用户或已映射到 Azure AD 用户的 msDS-cloudExtensionAttribute1 属性的用户身份登录 Power BI 服务。 如果设置已成功完成，应该能够创建基于 Power BI 服务中的已发布数据集的报表，并通过报表中的视觉对象拉取数据。
 
 ### <a name="troubleshooting-gateway-connectivity-issues"></a>网关连接问题故障排除
 

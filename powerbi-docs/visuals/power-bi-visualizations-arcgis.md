@@ -4,19 +4,18 @@ description: 作为 Power BI 报表使用者在读取视图中使用 ArcGis 地�
 author: mihart
 manager: kvivek
 ms.reviewer: ''
-tags: power bi, service, desktop, mobile
 featuredvideoid: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 10/23/2018
+ms.date: 11/06/2018
 ms.author: mihart
-ms.openlocfilehash: dd7bca6782327700f087b6b9ca60a9654fa362d8
-ms.sourcegitcommit: 42475ac398358d2725f98228247b78aedb8cbc4f
+ms.openlocfilehash: 0454d2ea0e69a77482d9ba9587497679819daf06
+ms.sourcegitcommit: b23fdcc0ceff5acd2e4d52b15b310068236cf8c7
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/25/2018
-ms.locfileid: "50003262"
+ms.lasthandoff: 11/07/2018
+ms.locfileid: "51266015"
 ---
 # <a name="interacting-with-arcgis-maps-in-power-bi"></a>在 Power BI 中与 ArcGIS 地图交互
 本主题是从在 Power BI 服务、Power BI Desktop 或 Power BI 移动应用中使用 ArcGIS 地图的人员的角度进行编写。 创建者与你共享 ArcGIS 地图后，便可以通过多种方式与相应地图进行交互。  若要详细了解如何创建 ArcGIS 地图，请参阅 [ESRI ArcGIS 地图教程](../power-bi-visualization-arcgis.md)。
@@ -24,7 +23,7 @@ ms.locfileid: "50003262"
 ArcGIS 地图和 Power BI 的结合将超越地图点表示法的地图绘制技术提升到全新水平。 可以使用“基本地图”、“位置类型”、“主题”、“符号样式”和“引用层”选项，创建极具描述性的地图可视化效果。 将地图上的权威数据层（如统计数据）与空间分析相结合，可以让用户更深入地了解可视化效果中的数据。
 
 > [!TIP]
-> GIS 指的是地理信息科学。
+> GIS 指的是地理信息系统。
 > 
 
 我们使用的示例就是在 [ESRI ArcGIS 地图教程](../power-bi-visualization-arcgis.md)中创建的 ArcGIS 地图。 它按城市显示去年销售额，并使用街道基本地图、表示大小的气泡符号和平均家庭收入引用层。 此地图包含 3 个大头针和一个驾驶时间半径区域（紫色）。

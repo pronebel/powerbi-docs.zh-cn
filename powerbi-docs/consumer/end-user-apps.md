@@ -7,22 +7,22 @@ ms.reviewer: lukaszp
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 10/18/2018
+ms.date: 11/09/2018
 ms.author: mihart
 LocalizationGroup: Share your work
-ms.openlocfilehash: bc68be50917b113371fc168d1b6e3defa2b5001e
-ms.sourcegitcommit: 2c4a075fe16ccac8e25f7ca0b40d404eacb49f6d
+ms.openlocfilehash: 9c9a99e2bfe0ae90607da4f27d77cb0a2a78a7c8
+ms.sourcegitcommit: a1b7ca499f4ca7e90421511e9dfa61a33333de35
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/20/2018
-ms.locfileid: "49473419"
+ms.lasthandoff: 11/10/2018
+ms.locfileid: "51507637"
 ---
 # <a name="install-and-use-apps-with-dashboards-and-reports-in-power-bi"></a>在 Power BI 中安装和使用包含仪表板和报表的应用
 在 Power BI 中，应用将相关仪表板和报表汇总到一处。 组织中的人员创建并发布包含关键业务信息的应用。 可能已使用的[外部服务](end-user-connect-to-services.md)（如 Google Analytics 和 Microsoft Dynamics CRM）也提供 Power BI 应用。 
 
 ![Power BI 中的“应用”](./media/end-user-apps/power-bi-apps-navbar.png)
 
-可以在 Power BI 服务 ([app.powerbi.com](https:app.powerbi.com)) 和移动设备上轻松找到并安装应用。 安装应用后，无需记住许多不同仪表板的名称，因为它们已全部汇总到应用、浏览器或移动设备中。
+可以在 Power BI 服务和移动设备上轻松找到并安装应用。 安装应用后，无需记住许多不同仪表板的名称，因为它们已全部汇总到应用、浏览器或移动设备中。
 
 借助应用，只要应用作者发布更新，就会自动看到变化。 作者还可以控制数据的计划刷新频率，这样就不必担心要不断更新了。 
 

@@ -10,12 +10,12 @@ ms.component: powerbi-gateways
 ms.topic: conceptual
 ms.date: 08/08/2018
 LocalizationGroup: Gateways
-ms.openlocfilehash: 2a4fb3bdf4e1041ceb90cde9b6c5f26fcb9a3871
-ms.sourcegitcommit: 60fb46b61ac73806987847d9c606993c0e14fb30
+ms.openlocfilehash: 795f97403ea80caad52e57e54edc3d54a4c5d952
+ms.sourcegitcommit: 3b1a1f55465e5dca88783046c6b4c073e4e22e4b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/25/2018
-ms.locfileid: "50101637"
+ms.lasthandoff: 11/13/2018
+ms.locfileid: "51580531"
 ---
 # <a name="troubleshooting-the-on-premises-data-gateway"></a>本地数据网关故障排除
 
@@ -103,17 +103,14 @@ ms.locfileid: "50101637"
 3. 重新安装网关。
 4. 酌情应用恢复密钥以还原现有网关。
 
-### <a name="support-for-tls-1112"></a>对 TLS 1.1/1.2 的支持
+## <a name="support-for-tls-12"></a>对 TLS 1.2 的支持
 
-自 2017 年 8 月更新起，本地数据网关默认使用传输层安全 (TLS) 1.1 或 1.2 与 Power BI 服务进行通信。 以前版本的本地数据网关默认使用 TLS 1.0。 必须将本地数据网关安装升级到 2017 年 8 月版本或更新版本，以确保网关继续运行。
+默认情况下，本地数据网关使用传输层安全 (TLS) 1.2 与 Power BI 服务进行通信。 若要确保所有网关流量使用 TLS 1.2，必须在运行网关服务的计算机上添加或修改以下注册表项：
 
->[!NOTE]
->对 TLS 1.0 的支持已于 2017 年 11 月 1 日结束。
-
-值得注意的是，TLS 1.0 在 2017 年 11 月 1 日之前仍受本地数据网关支持，并由网关用作回退机制。 要确保所有网关流量使用 TLS 1.1 或 1.2（并防止在网关上使用 TLS 1.0），必须在运行网关服务的计算机上添加或修改以下注册表项：
-
-        [HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\.NETFramework\v4.0.30319]"SchUseStrongCrypto"=dword:00000001
-        [HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Microsoft\.NETFramework\v4.0.30319]"SchUseStrongCrypto"=dword:00000001
+```
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\.NETFramework\v4.0.30319]"SchUseStrongCrypto"=dword:00000001
+[HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Microsoft\.NETFramework\v4.0.30319]"SchUseStrongCrypto"=dword:00000001
+```
 
 > [!NOTE]
 > 添加或修改这些注册表项会将更改应用于所有 .NET 应用程序。 有关影响其他应用程序的 TLS 的注册表更改的信息，请参阅[传输层安全性 (TLS) 注册表设置](https://docs.microsoft.com/windows-server/security/tls/tls-registry-settings)。

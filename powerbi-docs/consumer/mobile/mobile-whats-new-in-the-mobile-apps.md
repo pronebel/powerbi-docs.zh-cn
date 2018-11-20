@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-mobile
 ms.topic: conceptual
-ms.date: 09/14/2018
+ms.date: 11/08/2018
 ms.author: maggies
-ms.openlocfilehash: 798b1daa13079e69788bc977f37748531e38f431
-ms.sourcegitcommit: 52ac456bf2ac025b22ea634c28482f22e1cc19ac
+ms.openlocfilehash: 9d73e7b4e9b303f1a774c14fc813572805f7b093
+ms.sourcegitcommit: 5eb0f37f59b5fec15c0caecbbd1f8d688c7f0013
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/10/2018
-ms.locfileid: "48909236"
+ms.lasthandoff: 11/09/2018
+ms.locfileid: "51297219"
 ---
 # <a name="whats-new-in-the-mobile-apps-for-power-bi"></a>Power BI 移动应用中的新功能
 有关相关的“新增功能”的信息，请参阅：
@@ -22,6 +22,26 @@ ms.locfileid: "48909236"
 * [适用于移动应用的 Power BI 工作组日志](https://powerbi.microsoft.com/blog/tag/mobile/)
 * [Power BI Desktop 中的新增功能](../../desktop-latest-update.md)  
 * [Power BI 服务中的最近更新](../../service-whats-new.md)  
+
+## <a name="october-2018"></a>2018 年 10 月
+
+### <a name="paginated-report-preview-all-devices"></a>分页报表预览（所有设备）
+
+现在可以在 Power BI 服务中使用分页报表。 有权访问 Power BI 服务中的分页报表的用户也可以从他们的移动应用中访问这些报表。 
+
+请阅读 Power BI [有关移动应用中的分页报表的博客文章](https://powerbi.microsoft.com/en-us/blog/power-bi-paginated-reports-also-available-in-power-bi-mobile-apps-preview/)。
+
+### <a name="shared-credentials-ios"></a>共享凭据 (iOS)
+
+从移动应用登录到 Power BI 从未如此简单。 借助共享凭据，我们通过在设备上使用其他 Office 365 应用凭据在 Power BI 服务中对用户进行身份验证，简化了登录过程。
+
+### <a name="in-app-urls-ios"></a>应用内 URL (iOS) 
+
+报表中指向其他 Power BI 项目的链接现在可直接在应用内打开。 这样，用户就能够生成自定义导航流，例如，从报表链接到仪表板内。
+
+### <a name="ios12-and-watchos-5-support"></a>iOS12 和 watchOS 5 支持 
+
+我们已更新 iOS 版 Power BI 应用，支持与移动设备和 Watch 上的新操作系统无缝协作。
 
 ## <a name="september-2018"></a>2018 年 9 月
 
@@ -41,10 +61,11 @@ ms.locfileid: "48909236"
 
 单一登录 (SSO) 是适用于 Windows 的 Power BI 移动版的最需要的功能之一。 现在，你使用主组织帐户既可以登录到已加入域的 Windows 移动设备，也可以无缝登录到 Power BI 服务。 详细了解 [SSO 和 Windows 移动应用](mobile-windows-10-app-single-sign-on-sso.md)。
 
+## <a name="previous-months"></a>前几个月
 
-## <a name="july-2018"></a>2018 年 7 月
+### <a name="july-2018"></a>2018 年 7 月
 
-### <a name="ios-and-android-only"></a>仅 iOS 和 Android
+#### <a name="ios-and-android-only"></a>仅 iOS 和 Android
 
 **共享的筛选器**
 
@@ -55,127 +76,125 @@ ms.locfileid: "48909236"
 在移动设备上以横向模式查看报表时，可以看到在 Web 上的 Power BI 中查看到的相同背景图像。
 
 
-## <a name="june-2018"></a>2018 年 6 月
+### <a name="june-2018"></a>2018 年 6 月
 
-### <a name="full-canvas-reports"></a>全画布报表
+#### <a name="full-canvas-reports"></a>全画布报表
 
 加载报表后，顶部和底部操作条很快就会消失，因此，可以同时查看多个报表。
 
-### <a name="increased-phone-report-canvas-size"></a>增加了手机报表画布的大小
+#### <a name="increased-phone-report-canvas-size"></a>增加了手机报表画布的大小
 
 我们增加了手机报表画布的大小，提供更多空间容纳更多视觉对象。
 
-## <a name="may-2018"></a>2018 年 5 月
+### <a name="may-2018"></a>2018 年 5 月
 
-### <a name="mobile-drill-through-all-mobile-apps"></a>移动钻取：所有移动应用
+#### <a name="mobile-drill-through-all-mobile-apps"></a>移动钻取：所有移动应用
 
 可以在移动应用中从选定数据点钻取到另一报表页，前提是报表作者已定义此操作。 
 
-### <a name="back-button-all-mobile-apps"></a>“后退”按钮：所有移动应用
+#### <a name="back-button-all-mobile-apps"></a>“后退”按钮：所有移动应用
 
 现在，如果通过轻扫手势、在操作栏中选择报表页或使用钻取功能来浏览整个报表，“后退”按钮会返回到刚才浏览的上一页。 
 
-### <a name="dashboard-themes-all-mobile-apps"></a>仪表板主题：所有移动应用
+#### <a name="dashboard-themes-all-mobile-apps"></a>仪表板主题：所有移动应用
 
 如果报表作者在 Power BI 服务中自定义仪表板主题，移动应用中的仪表板外观也会随之变化。 不过，看不到背景图像。
 
-### <a name="ios-configure-power-bi-ios-mobile-app-access-to-a-report-server-remotely"></a>iOS：远程配置对报表服务器的 Power BI iOS 移动应用访问权限
+#### <a name="ios-configure-power-bi-ios-mobile-app-access-to-a-report-server-remotely"></a>iOS：远程配置对报表服务器的 Power BI iOS 移动应用访问权限
 
 现在，你的 IT 管理员可以使用 MDM 工具配置 Power BI iOS 移动应用对报表服务器的访问权限。 有关详细信息，请参阅[远程配置 Power BI iOS 移动应用对报表服务器的访问权限](../../report-server/configure-powerbi-mobile-apps-remote.md)。
 
-### <a name="power-bi-for-mixed-reality-app-preview"></a>Power BI for Mixed Reality 应用（预览版）
+#### <a name="power-bi-for-mixed-reality-app-preview"></a>Power BI for Mixed Reality 应用（预览版）
 
 Power BI for Mixed Reality 应用现已在 Microsoft Store 上架。 可以沉浸在虚拟世界中查看仪表板和报表，或将它们放在环境的上下文中的特定位置查看。 有关详情，请观看新发布的 [Power BI for HoloLens 简介](https://www.youtube.com/watch?v=J_X_nOFUBss)视频，或阅读与新推出的 [Power BI for Mixed Reality 应用](mobile-mixed-reality-app.md)相关的文章。
 
 
-## <a name="april-2018"></a>2018 年 4 月
+### <a name="april-2018"></a>2018 年 4 月
 
-### <a name="mobile-drill-down-and-drill-up"></a>移动下钻取和向上钻取
+#### <a name="mobile-drill-down-and-drill-up"></a>移动下钻取和向上钻取
 
 现在可以在移动设备上向下钻取和向上钻取以深入了解报表视觉对象。 若要访问此新功能，点击并按住，以便在报表视觉对象上打开工具提示菜单，然后点击“钻取”按钮来深入探索数据。 有关[在移动应用中向上和向下钻取](https://powerbi.microsoft.com/blog/drill-down-up-in-power-bi-mobile-apps/)的详细信息。
 
-### <a name="persistent-filters"></a>永久性筛选器
+#### <a name="persistent-filters"></a>永久性筛选器
 
 我们最近更新了报表筛选器和切片器，因此会自动从 Web 上的 Power BI 保存到 Power BI 移动应用。 现在，在移动应用中设置的筛选器和切片器都将自动保存到 Web 上的 Power BI。
 
 
-## <a name="march-2018"></a>2018 年 3 月
+### <a name="march-2018"></a>2018 年 3 月
 
-### <a name="power-bi-for-mixed-reality-app-preview"></a>Power BI for Mixed Reality 应用（预览版）
+#### <a name="power-bi-for-mixed-reality-app-preview"></a>Power BI for Mixed Reality 应用（预览版）
 
 在最近的数据跟随活动中，我们创建了 Power BI for Mixed Reality 应用。 可以沉浸在虚拟世界中查看仪表板和报表，或将它们放在环境的上下文中的特定位置查看。 详细阅读关于新的 [Power BI for Mixed Reality 应用](mobile-mixed-reality-app.md)的内容。
 
-### <a name="share-reports-and-dashboards-externally"></a>在外部共享报表和仪表板
+#### <a name="share-reports-and-dashboards-externally"></a>在外部共享报表和仪表板
 
 直接从应用与组织外部用户共享仪表板和报表。 外部共享已对组织帐户和社交帐户启用。 
 
-### <a name="persistent-filters"></a>永久性筛选器
+#### <a name="persistent-filters"></a>永久性筛选器
 
 如果在 Power BI 网页版中设置筛选器和切片器，选择的筛选器也会保存到移动应用中，以便用户能够从上次停下的地方继续操作。
 
-### <a name="refresh-reports-on-the-ipad"></a>在 iPad 上刷新报表
+#### <a name="refresh-reports-on-the-ipad"></a>在 iPad 上刷新报表
 
 现在，iPad 应用中有 Power BI 报表刷新按钮。
 
-## <a name="february-2018"></a>2018 年 2 月
+### <a name="february-2018"></a>2018 年 2 月
 
-### <a name="share-reports"></a>共享报表
+#### <a name="share-reports"></a>共享报表
 
 现在可以共享直接来自移动应用的报表。 详细阅读[共享来自移动应用的仪表板和报表](mobile-share-dashboard-from-the-mobile-apps.md)
 
-### <a name="improved-tooltips"></a>改进的工具提示
+#### <a name="improved-tooltips"></a>改进的工具提示
 
 点击并按住报表视觉对象以访问工具提示时，现在可以用手指在此视觉对象上拖动，浏览每个数据点的详细信息。
 
-## <a name="january-2018"></a>2018 年 1 月
+### <a name="january-2018"></a>2018 年 1 月
 
-### <a name="report-favorites"></a>报表收藏夹
+#### <a name="report-favorites"></a>报表收藏夹
 
 将报表标记为收藏，以便它们可以出现在“收藏夹”页上。 阅读有关 [Power BI 移动应用中的收藏夹](mobile-apps-favorites.md) 的更多信息。
 
-### <a name="view-shared-reports"></a>查看共享的报表
+#### <a name="view-shared-reports"></a>查看共享的报表
 
 现在，如果有人与你共享报表，此报表将与仪表板一起列在“与我共享的内容”页上。
 
-### <a name="improved-hyperlink-support"></a>改进的超链接支持
+#### <a name="improved-hyperlink-support"></a>改进的超链接支持
 
 现在可以点击自定义视觉对象中的链接，在移动浏览器中将其打开。
 
-### <a name="intune-integration-android"></a>Intune 集成 (Android)
+#### <a name="intune-integration-android"></a>Intune 集成 (Android)
 
 支持使用 Intune 移动设备管理的条件访问。
 
-## <a name="december-2017"></a>2017 年 12 月
+### <a name="december-2017"></a>2017 年 12 月
 
-### <a name="improved-security-management"></a>改进了安全管理 
+#### <a name="improved-security-management"></a>改进了安全管理 
 
 我们已添加对 Android 设备条件访问 (CA) 和 Microsoft Intune 移动设备管理 (MDM) 的支持，以更好地保护组织数据的安全。 在 iOS 设备上也可使用。
 
-### <a name="improved-permission-management"></a>改进了权限管理
+#### <a name="improved-permission-management"></a>改进了权限管理
 
 我们做出了一些更改，实现了对数据集、仪表板和报表的用户权限的更精细管理。
 
-### <a name="auto-installed-apps"></a>已自动安装应用
+#### <a name="auto-installed-apps"></a>已自动安装应用
 
 完全不需要在 Power BI 中安装某些应用。 组织中的 Power BI 应用创建者可创建包含仪表板和报表集合的应用。 然后，他们可发布应用，并将其设置为在 Power BI 服务和 Power BI 移动应用中自动安装。 当某应用设置为自动安装时，它就会自动显示在“应用”菜单中：
 
 ![在 Power BI 移动应用中的应用](./media/mobile-whats-new-in-the-mobile-apps/power-bi-apps-mobile-apps.png)
 
-## <a name="november-2017"></a>2017 年 11 月
-### <a name="iphone-x-optimization"></a>iPhone X 优化
+### <a name="november-2017"></a>2017 年 11 月
+#### <a name="iphone-x-optimization"></a>iPhone X 优化
 
 我们已针对 iPhone X 优化了应用布局，便于你在每台设备上都可浏览到简洁明快的数据。
 
-## <a name="october-2017"></a>2017 年 10 月
-### <a name="filters-for-phone-reports-in-android"></a>Android 中的电话报表筛选器
+### <a name="october-2017"></a>2017 年 10 月
+#### <a name="filters-for-phone-reports-in-android"></a>Android 中的电话报表筛选器
 
 如果在 Power BI Desktop 中创建包含电话优化页面的报表，并且报表具有筛选器，那么现可在 Android 上的电话报表中应用这些筛选器。 详细了解 Android 上适用于 Power BI 报表的筛选器。
 
-### <a name="show-data-in-reports"></a>在报表中显示数据
+#### <a name="show-data-in-reports"></a>在报表中显示数据
 
 现在，你可以将报表中的视觉对象切换到表视图，以查看数据后面的数字。 要访问此功能，请点击报表上视觉对象菜单中的“显示数据”，或展开的视觉对象操作菜单上的新建图标。
-
-## <a name="previous-months"></a>前几个月
 
 ### <a name="september-2017"></a>2017 年 9 月
 #### <a name="filters-for-phone-reports-in-iphones"></a>iPhone 中的电话报表筛选器

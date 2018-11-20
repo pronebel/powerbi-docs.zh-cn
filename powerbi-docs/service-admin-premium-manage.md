@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/20/2018
 ms.author: mblythe
 LocalizationGroup: Premium
-ms.openlocfilehash: a36b0524006144bfa9fbd24d9ff88b42a1acb3d4
-ms.sourcegitcommit: a764e4b9d06b50d9b6173d0fbb7555e3babe6351
+ms.openlocfilehash: 39429d0f09431da3f860bf0454843c65ce07a524
+ms.sourcegitcommit: b23fdcc0ceff5acd2e4d52b15b310068236cf8c7
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/22/2018
-ms.locfileid: "49641634"
+ms.lasthandoff: 11/07/2018
+ms.locfileid: "51265992"
 ---
 # <a name="manage-capacities-within-power-bi-premium-and-power-bi-embedded"></a>管理 Power BI Premium 和 Power BI Embedded 中的容量
 
@@ -53,6 +53,44 @@ ms.locfileid: "49641634"
 大多数情况下，用户不需要知道他们处于高级容量中。 其仪表板和报表会正常工作。 作为一个可视化提示，高级容量中的工作区旁有一个的菱形图标。
 
 ![显示由高级容量支持的工作区的菱形](media/service-admin-premium-manage/premium-workspace.png)
+
+## <a name="configure-workloads"></a>配置工作负载
+
+将 Power BI 中的工作负载视为可以向用户公开的众多服务之一。 默认情况下，Power BI Premium 和 Power BI Embedded 的容量仅支持与在云中运行 Power BI 查询相关联的工作负载。
+
+我们现在为两个额外的工作负载提供预览支持：分页报表和数据流。 用户可以在 Power BI 管理门户中或通过 Power BI REST API 启用这些工作负载。 还可以设置每个工作负载可以使用的最大内存，从而控制不同工作负载相互影响的方式。
+
+### <a name="enable-workloads-in-the-power-bi-admin-portal"></a>在 Power BI 管理门户中启用工作负载
+
+要启用工作负载，请执行以下步骤。
+
+1. 在“容量设置”下，选择一个容量。
+
+1. 在“更多选项”下，展开“工作负载”。
+
+1. 启用一个或多个工作负载，并设置“最大内存”的值。
+
+    ![在管理门户中配置工作负载](media/service-admin-premium-manage/admin-portal-workloads.png)
+
+1. 选择**应用**。
+
+### <a name="default-memory-settings"></a>默认内存设置
+
+下表根据可用的不同[容量节点](service-premium.md#premium-capacity-nodes)显示默认和最小内存值。 内存动态分配给数据流，但静态分配给分页报表。 有关详细信息，请参阅下一部分：[分页报表的注意事项](#considerations-for-paginated-reports)。
+
+|                     | EM3                      | P1                       | P2                      | P3                       |
+|---------------------|--------------------------|--------------------------|-------------------------|--------------------------|
+| 分页报表 | 不适用 | 默认为 20%，最低为 10% | 默认为 20%，最低为 5% | 默认为 20%，最低为 2.5% |
+| 数据流 | 默认为 15%，最低为 8%  | 默认为 15%，最低为 4%  | 默认为 15%，最低为 2% | 默认为 15%，最低为 1%  |
+| | | | | |
+
+### <a name="considerations-for-paginated-reports"></a>分页报表的注意事项
+
+如果使用分页报表工作负载，请注意以下几点。
+
+* 分页报表中的内存分配：使用分页报表，可以在呈现报表时运行自己的代码（例如根据内容动态更改文本颜色）。 鉴于这一事实，我们通过在容量内的容纳空间中运行分页报表来确保 Power BI 高级容量的安全。 我们将用户指定的最大内存分配给此空间，无论工作负载是否处于活动状态都是如此。 如果使用相同容量的 Power BI 报表或数据流，请务必为分页报表设置足够低的内存，使其不会对其他工作负载产生负面影响。
+
+* 分页报表不可用：在极少数情况下，分页报表工作负载可能变得不可用。 在这种情况下，工作负载在管理门户中显示错误状态，并且用户会看到报表呈现的超时。 要缓解此问题，请禁用工作负载，然后再次启用它。
 
 ## <a name="monitor-capacity-usage"></a>监视容量使用情况
 

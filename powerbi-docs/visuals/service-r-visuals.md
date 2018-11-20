@@ -1,5 +1,5 @@
 ---
-title: 使用 Power BI 中的 R 脚本创建高级分析和可视化效果
+title: 使用 R 脚本创建高级分析和可视化效果
 description: 使用 Power BI 中的 R 脚本创建高级分析和高级可视化效果
 author: mihart
 manager: kvivek
@@ -7,21 +7,21 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 07/24/2018
+ms.date: 10/24/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: a3407458cfe6e395a5a209e136af1d4c9a7aa6a6
-ms.sourcegitcommit: 70192daf070ede3382ac13f6001e0c8b5fb8d934
+ms.openlocfilehash: 409a2ee486d0153e0dec2f715ff0e2ea19e236d7
+ms.sourcegitcommit: 5eb0f37f59b5fec15c0caecbbd1f8d688c7f0013
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/22/2018
-ms.locfileid: "46566340"
+ms.lasthandoff: 11/09/2018
+ms.locfileid: "51297104"
 ---
 # <a name="creating-r-visuals-in-the-power-bi-service"></a>在 Power BI 服务中创建 R 视觉对象
 Power BI 服务支持查看使用 R 脚本创建的视觉对象并与之交互。 使用 R 脚本创建的视觉对象通常称为  *R 视觉对象* ，它可以借助 R 丰富的分析和可视化功能来显示高级数据成型和分析（如预测）。
 
 > [!NOTE]
-> [R 编程语言](https://www.r-project.org/)是统计学家、数据科学家和业务分析师使用最广泛的一种编程语言。 R 语言有一个开放源代码社区，该社区提供超过 7000 个加载项包以及广泛使用的 [R 用户组](http://msdsug.microsoft.com/)。 Power BI 服务中部署的 R 版本为  *Revolution R Open 3.2.2* 。
+> [R 编程语言](https://www.r-project.org/)是统计学家、数据科学家和业务分析师使用最广泛的一种编程语言。 R 语言有一个开放源代码社区，该社区提供超过 7000 个加载项包以及广泛使用的 R 用户组。 Power BI 服务中部署的 R 版本为  *Revolution R Open 3.2.2* 。
 > 
 > 
 
