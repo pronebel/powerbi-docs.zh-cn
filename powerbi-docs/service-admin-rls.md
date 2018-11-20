@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 01/02/2018
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: cd68b265fafa2d16defb5bce43be6cdf5c403f03
-ms.sourcegitcommit: ba3cab4613a2b815d46a213eff07a8a8ec22c17f
+ms.openlocfilehash: b99f346102ae8b5f31db8101e499fb6915d870de
+ms.sourcegitcommit: a186679e8dae85dce23f6365bf5c36d7f407f15b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/13/2018
-ms.locfileid: "39032085"
+ms.lasthandoff: 11/16/2018
+ms.locfileid: "51850398"
 ---
 # <a name="row-level-security-rls-with-power-bi"></a>Power BI 行级别安全性 (RLS)
 Power BI 行级别安全性 (RLS) 可用于限制给定用户的数据访问。 筛选器限制行级别的数据访问，你可以定义角色中的筛选器。 请注意，在 Power BI 服务中，工作区的成员有权访问工作区中的数据集。 RLS 不限制此类数据访问。 
@@ -24,7 +24,7 @@ Power BI 行级别安全性 (RLS) 可用于限制给定用户的数据访问。 
 
 [!INCLUDE [include-short-name](./includes/rls-desktop-define-roles.md)]
 
-默认情况下，行级别安全性筛选采用单双向筛选器，无需考虑关系是设置为单向还是双向。 通过选择关系并勾选“在两个方向上应用安全筛选器”复选框，可手动启用具有行级别安全性的双向交叉筛选器。 在实现[动态行级别安全性](https://docs.microsoft.com/sql/analysis-services/supplemental-lesson-implement-dynamic-security-by-using-row-filters)时应选中此复选框，以便从中基于用户名或登录 ID 提供行级别安全性 
+默认情况下，行级别安全性筛选采用单双向筛选器，无需考虑关系是设置为单向还是双向。 通过选择关系并勾选“在两个方向上应用安全筛选器”复选框，可手动启用具有行级别安全性的双向交叉筛选器。 在实现[动态行级别安全性](https://docs.microsoft.com/sql/analysis-services/supplemental-lesson-implement-dynamic-security-by-using-row-filters)时应选中此复选框，以便从中基于用户名或登录 ID 提供行级别安全性
 
 有关详细信息，请参阅[在 Power BI Desktop 中使用 DirectQuery 的双向交叉筛选](desktop-bidirectional-filtering.md)和[保护表格 BI 语义模型](http://download.microsoft.com/download/D/2/0/D20E1C5F-72EA-4505-9F26-FEF9550EFD44/Securing%20the%20Tabular%20BI%20Semantic%20Model.docx)技术文章。
 

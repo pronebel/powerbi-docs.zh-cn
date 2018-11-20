@@ -1,21 +1,21 @@
 ---
 title: 将某个仪表板中的磁贴固定到另一个仪表板
 description: 将磁贴从一个仪表板固定到另一个仪表板
-author: mihart
+author: maggiesMSFT
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
 ms.date: 03/01/2018
-ms.author: mihart
+ms.author: maggies
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 656f32dd28796ec58b7cfcf774248ee30de0085a
-ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
+ms.openlocfilehash: d8a241a810cc41e908fd99df08f8eae53bac7f47
+ms.sourcegitcommit: 1e4fee6d1f4b7803ea285eb879c8d5a4f7ea8b85
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/21/2018
-ms.locfileid: "46545890"
+ms.lasthandoff: 11/16/2018
+ms.locfileid: "51717116"
 ---
 # <a name="pin-a-tile-from-one-dashboard-to-another-dashboard"></a>将某个仪表板中的磁贴固定到另一个仪表板
 添加新的[仪表板磁贴](consumer/end-user-tiles.md)的一种方法是从另一个仪表板中复制它。 每个磁贴在单击后都是一个返回到磁贴创建位置的链接 -- 在问答或报表中。 

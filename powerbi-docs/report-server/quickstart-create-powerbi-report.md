@@ -9,12 +9,12 @@ ms.component: powerbi-report-server
 ms.topic: conceptual
 ms.date: 09/19/2018
 ms.author: maggies
-ms.openlocfilehash: bb6868784314b369fcc02e3a36caf7c82c3c5966
-ms.sourcegitcommit: 70192daf070ede3382ac13f6001e0c8b5fb8d934
+ms.openlocfilehash: 18fb96573052455034f8c257811daed6cb15529e
+ms.sourcegitcommit: a739a99e1006834a0f56e387c0bd9d945fb8a76b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/22/2018
-ms.locfileid: "46564914"
+ms.lasthandoff: 11/15/2018
+ms.locfileid: "51679217"
 ---
 # <a name="create-a-power-bi-report-for-power-bi-report-server"></a>为 Power BI 报表服务器创建 Power BI 报表
 可以在 Power BI 报表服务器 Web 门户中在本地存储和管理 Power BI 报表，就像在 Power BI 服务 (https://powerbi.com)) 中的云中存储 Power BI 报表一样。 可以在 Power BI Desktop 中创建和编辑报表，并将其发布到 Web 门户中。 接下来，组织中的报表读取器可以在浏览器或移动设备上的 Power BI 移动应用中查看报表。
@@ -31,7 +31,7 @@ ms.locfileid: "46564914"
 
     ![从 Web 门户下载 Power BI Desktop](media/quickstart-create-powerbi-report/report-server-download-web-portal.png)
 
-    或者，在 Microsoft 下载中心直接转到 [Microsoft Power BI Desktop](https://www.microsoft.com/en-us/download/details.aspx?id=57271)（已针对 Power BI 报表服务器进行优化 - 2018 年 8 月版）。
+    或者，在 Microsoft 下载中心直接转到 [Microsoft Power BI Desktop](https://www.microsoft.com/download/details.aspx?id=57271)（已针对 Power BI 报表服务器进行优化 - 2018 年 8 月版）。
 
 2. 在“下载中心”页中，选择“下载”。
 
