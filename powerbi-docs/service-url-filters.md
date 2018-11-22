@@ -9,14 +9,14 @@ featuredvideoid: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 11/01/2018
+ms.date: 11/16/2018
 LocalizationGroup: Reports
-ms.openlocfilehash: d708a4ff07a0d202fcc709f6348e48505d7589d0
-ms.sourcegitcommit: d20f74d5300197a0930eeb7db586c6a90403aabc
+ms.openlocfilehash: 6a2cfd4926089bce8973070949791e450a47cc4b
+ms.sourcegitcommit: a186679e8dae85dce23f6365bf5c36d7f407f15b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/03/2018
-ms.locfileid: "50973364"
+ms.lasthandoff: 11/16/2018
+ms.locfileid: "51850582"
 ---
 # <a name="filter-a-report-using-query-string-parameters-in-the-url"></a>通过在 URL 中添加查询字符串参数来筛选报表
 
@@ -47,7 +47,7 @@ URL?filter=***表***/***字段*** eq '***值***'
 
 * “字符串”必须用单引号括起来 - 'manager name'。
 * “数字”无需特殊格式
-* “日期和时间”必须用单引号括起来，并以“DateTime”开头。
+* “日期和时间”必须用单引号括起来。 在 OData v3 中，它们必须以日期/时间开头，但 OData v4 中无需日期/时间。
 
 如果仍感到困惑，请继续阅读，我们将分部分讲解。  
 
@@ -100,7 +100,7 @@ URL?filter=***表***/***字段*** eq '***值***'
 |运算符  | 定义 | 字符串  | 数字 | 日期 |  示例|
 |---------|---------|---------|---------|---------|---------|
 |**and**     | 并且 |  是      | 是 |  是|  product/price le 200 and price gt 3.5 |
-|**eq**     | 等于 |  是      | 是   |  是       | Address/City eq 'Redmond' |
+|**eq**     | equals |  是      | 是   |  是       | Address/City eq 'Redmond' |
 |**ne**     | 不等于 |   是      | 是  | 是        |  Address/City ne 'London' |
 |**ge**     |  大于或等于       | 否 | 是 |是 |  product/price ge 10
 |**gt**     | 大于        |否 | 是 | 是  | product/price gt 20

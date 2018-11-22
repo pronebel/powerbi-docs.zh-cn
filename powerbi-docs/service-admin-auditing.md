@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-admin
 ms.topic: conceptual
-ms.date: 04/10/2018
+ms.date: 11/16/2018
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: 294fb3a0142908ce0ab068e075ce39f950a0b124
-ms.sourcegitcommit: d20f74d5300197a0930eeb7db586c6a90403aabc
+ms.openlocfilehash: e64496461e7d81d3b39e9a8d7174a3e985d04002
+ms.sourcegitcommit: a186679e8dae85dce23f6365bf5c36d7f407f15b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/03/2018
-ms.locfileid: "50973341"
+ms.lasthandoff: 11/16/2018
+ms.locfileid: "51850467"
 ---
 # <a name="using-auditing-within-your-organization"></a>在组织内使用审核
 
@@ -139,83 +139,100 @@ Search-UnifiedAuditLog -StartDate 9/11/2018 -EndDate 9/15/2018 -RecordType Power
 
 Power BI 审核以下活动。
 
-* AddDatasourceToGateway
-* AddGroupMembers
-* AnalyzedByExternalApplication
-* AnalyzeInExcel
-* AttachDataflowStorageAccount
-* BindToGateway
-* ChangeCapacityState
-* ChangeGatewayAdministrators
-* ChangeGatewayDatasourceUsers
-* CreateApp
-* CreateDashboard
-* CreateDataflow
-* CreateDataset
-* CreateEmailSubscription
-* CreateFolder
-* CreateGateway
-* CreateGroup
-* CreateOrgApp
-* CreateReport
-* DeleteComment
-* DeleteDashboard
-* DeleteDataflow
-* DeleteDataset
-* DeleteEmailSubscription
-* DeleteFolder
-* DeleteGateway
-* DeleteGroup
-* DeleteGroupMembers
-* DeleteOrgApp
-* DeleteReport
-* DownloadReport
-* EditDataset
-* EditReport
-* ExportDataflow
-* ExportReport
-* ExportTile
-* GenerateDataflowSasToken
-* GenerateEmbedToken
-* GetDatasources
-* 导入
-* InstallApp
-* MigrateWorkspaceIntoCapacity
-* OptInForProTrial
-* PostComment
-* PrintDashboard
-* PrintReport
-* PublishToWebReport
-* RefreshDataset
-* RemoveDatasourceFromGateway
-* RemoveWorkspacesFromCapacity
-* RenameDashboard
-* SetAllConnections
-* SetScheduledRefresh
-* SetScheduledRefreshOnDataflow
-* ShareDashboard
-* ShareReport
-* TakeOverDataset
-* TakeOverDatasource
-* UnpublishApp
-* UpdateApp
-* UpdateCapacityAdmins
-* UpdateCapacityDisplayName
-* UpdateCapacityResourceGovernanceSettings
-* UpdateCapacityUsersAssignment
-* UpdatedAdminFeatureSwitch
-* UpdateDataflow
-* UpdateDatasetParameters
-* UpdateDatasourceCredentials
-* UpdateDatasources
-* UpdateEmailSubscription
-* UpdateFolder
-* UpdateFolderAccess
-* ViewDashboard
-* ViewDataflow
-* ViewReport
-* ViewTile
-* ViewUsageMetrics
+| 友好名称                                     | 操作名称                              | 注意                                  |
+|---------------------------------------------------|---------------------------------------------|------------------------------------------|
+| 已将数据源添加到 Power BI 网关             | AddDatasourceToGateway                      |                                          |
+| 已添加 Power BI 文件夹访问权限                      | AddFolderAccess                             | 当前未使用                       |
+| 已添加 Power BI 组成员                      | AddGroupMembers                             |                                          |
+| 管理员已将数据流存储帐户附加到租户 | AdminAttachedDataflowStorageAccountToTenant | 当前未使用                       |
+| 已分析 Power BI 数据集                         | AnalyzedByExternalApplication               |                                          |
+| 已分析 Power BI 报表                          | AnalyzeInExcel                              |                                          |
+| 将 Power BI 数据集绑定到网关                | BindToGateway                               |                                          |
+| 已更改容量状态                            | ChangeCapacityState                         |                                          |
+| 已更改容量用户分配                  | UpdateCapacityUsersAssignment               |                                          |
+| 已更改 Power BI 数据集连接              | SetAllConnections                           |                                          |
+| 已更改 Power BI 网关管理员                   | ChangeGatewayAdministrators                 |                                          |
+| 已更改 Power BI 网关数据源用户        | ChangeGatewayDatasourceUsers                |                                          |
+| 已创建组织的 Power BI 内容包      | CreateOrgApp                                |                                          |
+| 已创建 Power BI 应用                              | CreateApp                                   |                                          |
+| 已创建 Power BI 仪表板                        | CreateDashboard                             |                                          |
+| 已创建 Power BI 数据流                         | CreateDataflow                              |                                          |
+| 已创建 Power BI 数据集                          | CreateDataset                               |                                          |
+| 已创建 Power BI 电子邮件订阅               | CreateEmailSubscription                     |                                          |
+| 已创建 Power BI 文件夹                           | CreateFolder                                |                                          |
+| 已创建 Power BI 网关                          | CreateGateway                               |                                          |
+| 已创建 Power BI 组                            | CreateGroup                                 |                                          |
+| 已创建 Power BI 报表                           | CreateReport                                |                                          |
+| 已迁移到外部存储帐户的数据流     | DataflowMigratedToExternalStorageAccount    | 当前未使用                       |
+| 已添加的数据流权限                        | DataflowPermissionsAdded                    | 当前未使用                       |
+| 已删除的数据流权限                      | DataflowPermissionsRemoved                  | 当前未使用                       |
+| 已删除组织的 Power BI 内容包      | DeleteOrgApp                                |                                          |
+| 已删除 Power BI 注释                          | DeleteComment                               |                                          |
+| 已删除 Power BI 仪表板                        | DeleteDashboard                             | 当前未使用                       |
+| 已删除 Power BI 数据流                         | DeleteDataflow                              | 当前未使用                       |
+| 已删除 Power BI 数据集                          | DeleteDataset                               |                                          |
+| 已删除 Power BI 电子邮件订阅               | DeleteEmailSubscription                     |                                          |
+| 已删除 Power BI 文件夹                           | DeleteFolder                                |                                          |
+| 已删除 Power BI 文件夹访问权限                    | DeleteFolderAccess                          | 当前未使用                       |
+| 已删除 Power BI 网关                          | DeleteGateway                               |                                          |
+| 已删除 Power BI 组                            | DeleteGroup                                 |                                          |
+| 已删除 Power BI 报表                           | DeleteReport                                |                                          |
+| 已发现 Power BI 数据集数据源          | GetDatasources                              |                                          |
+| 已下载 Power BI 报表                        | DownloadReport                              |                                          |
+| 已编辑 Power BI 认证权限          | EditCertificationPermission                 | 当前未使用                       |
+| 已编辑 Power BI 仪表板                         | EditDashboard                               | 当前未使用                       |
+| 已编辑 Power BI 数据集                           | EditDataset                                 |                                          |
+| 已编辑 Power BI 数据集属性                | EditDatasetProperties                       | 当前未使用                       |
+| 已编辑 Power BI 报表                            | EditReport                                  |                                          |
+| 已导出 Power BI 数据流                        | ExportDataflow                              |                                          |
+| 已导出 Power BI 报表可视化数据              | ExportReport                                |                                          |
+| 已导出 Power BI 磁贴数据                       | ExportTile                                  |                                          |
+| 无法添加数据流权限                | FailedToAddDataflowPermissions              | 当前未使用                       |
+| 无法删除数据流权限             | FailedToRemoveDataflowPermissions           | 当前未使用                       |
+| 已生成 Power BI 数据流 SAS 令牌             | GenerateDataflowSasToken                    |                                          |
+| 已生成 Power BI 嵌入令牌                    | GenerateEmbedToken                          |                                          |
+| 已将文件导入到 Power BI                         | 导入                                      |                                          |
+| 已安装 Power BI 应用                            | InstallApp                                  |                                          |
+| 已将工作区迁移到容量                  | MigrateWorkspaceIntoCapacity                |                                          |
+| 已发布 Power BI 注释                           | PostComment                                 |                                          |
+| 已打印 Power BI 仪表板                        | PrintDashboard                              |                                          |
+| 已打印 Power BI 报表页                      | PrintReport                                 |                                          |
+| 已将 Power BI 报表发布到 Web                  | PublishToWebReport                          |                                          |
+| 已从 Key Vault 接收 Power BI 数据流机密  | ReceiveDataflowSecretFromKeyVault           | 当前未使用                       |
+| 已从 Power BI 网关删除数据源         | RemoveDatasourceFromGateway                 |                                          |
+| 已删除 Power BI 组成员                    | DeleteGroupMembers                          |                                          |
+| 已从容量中删除工作区                 | RemoveWorkspacesFromCapacity                |                                          |
+| 已重命名 Power BI 仪表板                        | RenameDashboard                             |                                          |
+| 已请求 Power BI 数据流刷新               | RequestDataflowRefresh                      | 当前未使用                       |
+| 已请求 Power BI 数据集刷新                | RefreshDataset                              |                                          |
+| 已检索 Power BI 工作区                     | GetWorkspaces                               |                                          |
+| 在 Power BI 数据流上设置计划刷新        | SetScheduledRefreshOnDataflow               |                                          |
+| 在 Power BI 数据集上设置计划刷新         | SetScheduledRefresh                         |                                          |
+| 已共享 Power BI 仪表板                         | ShareDashboard                              |                                          |
+| 已共享 Power BI 报表                            | ShareReport                                 |                                          |
+| 已启动 Power BI 延期试用版                   | OptInForExtendedProTrial                    | 当前未使用                       |
+| 已启动 Power BI 免费试用版                            | OptInForProTrial                            |                                          |
+| 已接管 Power BI 数据源                   | TakeOverDatasource                          |                                          |
+| 已接管 Power BI 数据集                        | TakeOverDataset                             |                                          |
+| 未发布 Power BI 应用                          | UnpublishApp                                |                                          |
+| 更新容量资源管理设置      | UpdateCapacityResourceGovernanceSettings    | 当前不在 Office 365 管理门户中 |
+| 已更新容量管理员                            | UpdateCapacityAdmins                        |                                          |
+| 已更新容量显示名称                     | UpdateCapacityDisplayName                   |                                          |
+| 已更新组织的 Power BI 设置          | UpdatedAdminFeatureSwitch                   |                                          |
+| 已更新 Power BI 应用                              | UpdateApp                                   |                                          |
+| 已更新 Power BI 数据流                         | UpdateDataflow                              |                                          |
+| 已更新 Power BI 数据集数据源             | UpdateDatasources                           |                                          |
+| 已更新 Power BI 数据集参数               | UpdateDatasetParameters                     |                                          |
+| 已更新 Power BI 电子邮件订阅               | UpdateEmailSubscription                     |                                          |
+| 已更新 Power BI 文件夹                           | UpdateFolder                                |                                          |
+| 已更新 Power BI 文件夹访问权限                    | UpdateFolderAccess                          |                                          |
+| 已更新 Power BI 网关数据源凭据  | UpdateDatasourceCredentials                 |                                          |
+| 已查看 Power BI 仪表板                         | ViewDashboard                               |                                          |
+| 已查看 Power BI 数据流                          | ViewDataflow                                |                                          |
+| 已查看 Power BI 报表                            | ViewReport                                  |                                          |
+| 已查看 Power BI 磁贴                              | ViewTile                                    |                                          |
+| 已查看 Power BI 使用情况指标                     | ViewUsageMetrics                            |                                          |
+|                                                   |                                             |                                          |
 
 ## <a name="next-steps"></a>后续步骤
 

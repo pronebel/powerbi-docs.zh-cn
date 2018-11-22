@@ -10,12 +10,12 @@ ms.component: powerbi-admin
 ms.topic: conceptual
 ms.date: 10/21/2018
 LocalizationGroup: Premium
-ms.openlocfilehash: 2ca75f191f27bd158b9fab67c7be6902154f8ac1
-ms.sourcegitcommit: a764e4b9d06b50d9b6173d0fbb7555e3babe6351
+ms.openlocfilehash: 451727d473b59afd362e4f31e8aef634d2168f83
+ms.sourcegitcommit: 1e4fee6d1f4b7803ea285eb879c8d5a4f7ea8b85
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/22/2018
-ms.locfileid: "49641220"
+ms.lasthandoff: 11/16/2018
+ms.locfileid: "51717622"
 ---
 # <a name="what-is-microsoft-power-bi-premium"></a>什么是 Microsoft Power BI Premium？
 
@@ -46,7 +46,7 @@ Microsoft Power BI Premium 提供专用于为组织运行 Power BI 服务的资�
 | --- | --- | --- |
 | 刷新频率 |每天 8 次 |每天 48 次 |
 | 专用硬件隔离 |![](media/service-premium/not-available.png "不可用") |![](media/service-premium/available.png "可用") |
-| 面向所有用户的企业分发 | | |
+| 面向所有用户的企业分发__ | | |
 | 应用和共享 |![](media/service-premium/not-available.png "不可用") |![](media/service-premium/available.png "可用")<sup>1</sup> |
 | 嵌入式 API 和控件 |![](media/service-premium/not-available.png "不可用") |![](media/service-premium/available.png "可用")<sup>2</sup> |
 | 在本地发布 Power BI 报表 |![](media/service-premium/not-available.png "不可用") |![](media/service-premium/available.png "可用") |
@@ -83,6 +83,39 @@ Microsoft Power BI Premium 提供专用于为组织运行 Power BI 服务的资�
 * 前端虚拟核心负责 Web 服务、仪表板和报表文档管理、访问 Rights Management、时间安排、API、上传和下载，并大体包括所有与用户体验相关的内容。
 
 * 后端虚拟核心负责完成繁重的任务：查询处理、缓存管理、运行 R 服务器、数据刷新、自然语言处理、实时馈送和在服务器端绘制报表和图像。 后端虚拟核心也可保留一定的内存量。 处理大型数据模型或大量活动数据集时，内存充足尤为重要。
+
+## <a name="workloads-in-premium-capacity"></a>高级容量中的工作负载
+
+将 Power BI 中的工作负载视为可以向用户公开的众多服务之一。 默认情况下，Power BI Premium 和 Power BI Embedded 的容量仅支持与在云中运行 Power BI 查询相关联的工作负载。
+
+我们现在为两个额外的工作负载提供预览支持：分页报表和数据流。 用户可以在 Power BI 管理门户中或通过 Power BI REST API 启用这些工作负载。 还可以设置每个工作负载可以使用的最大内存，从而控制不同工作负载相互影响的方式。 有关详细信息，请参阅[配置工作负载](service-admin-premium-manage.md#configure-workloads)。
+
+### <a name="default-memory-settings"></a>默认内存设置
+
+下表根据可用的不同[容量节点](#premium-capacity-nodes)显示默认和最小内存值。 内存动态分配给数据流，但静态分配给分页报表。 有关详细信息，请参阅下一部分：[分页报表的注意事项](#considerations-for-paginated-reports)。
+
+#### <a name="microsoft-office-skus-for-software-as-a-service-saas-scenarios"></a>用于软件即服务 (SaaS) 方案的 Microsoft Office SKU
+
+|                     | EM3                      | P1                       | P2                      | P3                       |
+|---------------------|--------------------------|--------------------------|-------------------------|--------------------------|
+| 分页报表 | 不适用 | 默认为 20%，最低为 10% | 默认为 20%，最低为 5% | 默认为 20%，最低为 2.5% |
+| 数据流 | 默认为 20%，最低为 8%  | 默认为 20%，最低为 4%  | 默认为 20%，最低为 2% | 默认为 20%，最低为 1%  |
+| | | | | |
+
+#### <a name="microsoft-azure-skus-for-platform-as-a-service-paas-scenarios"></a>用于平台即服务 (PaaS) 方案的 Microsoft Azure SKU
+
+|                  | A1                       | A2                       | A3                      | A4                       | A5                      | A6                        |
+|-------------------|--------------------------|--------------------------|-------------------------|--------------------------|-------------------------|---------------------------|
+| 分页报表 | 不适用                      | 不适用                      | 不适用                     | 默认为 20%，最低为 10% | 默认为 20%，最低为 5% | 默认为 20%，最低为 2.5% |
+| 数据流         | 默认为 27%，最低为 27% | 默认为 20%，最低为 16% | 默认为 20%，最低为 8% | 默认为 20%，最低为 4%  | 默认为 20%，最低为 2% | 默认为 20%，最低为 1%   |
+
+### <a name="considerations-for-paginated-reports"></a>分页报表的注意事项
+
+如果使用分页报表工作负载，请注意以下几点。
+
+* 分页报表中的内存分配：使用分页报表，可以在呈现报表时运行自己的代码（例如根据内容动态更改文本颜色）。 鉴于这一事实，我们通过在容量内的容纳空间中运行分页报表来确保 Power BI 高级容量的安全。 我们将用户指定的最大内存分配给此空间，无论工作负载是否处于活动状态都是如此。 如果使用相同容量的 Power BI 报表或数据流，请务必为分页报表设置足够低的内存，使其不会对其他工作负载产生负面影响。
+
+* 分页报表不可用：在极少数情况下，分页报表工作负载可能变得不可用。 在这种情况下，工作负载在管理门户中显示错误状态，并且用户会看到报表呈现的超时。 要缓解此问题，请禁用工作负载，然后再次启用它。
 
 ## <a name="power-bi-report-server"></a>Power BI 报表服务器
 

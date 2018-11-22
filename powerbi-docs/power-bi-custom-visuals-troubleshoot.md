@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.component: powerbi-developer
 ms.topic: conceptual
 ms.date: 11/06/2018
-ms.openlocfilehash: d6f3f654574e9cca081ae2f8191fd7b9fc017afd
-ms.sourcegitcommit: 02f918a4f27625b6f4e47473193ebc8219db40e2
+ms.openlocfilehash: 3d9e8e46fdd84edbeb5b4ff5e8f7efe4a4291049
+ms.sourcegitcommit: a739a99e1006834a0f56e387c0bd9d945fb8a76b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/07/2018
-ms.locfileid: "51223529"
+ms.lasthandoff: 11/15/2018
+ms.locfileid: "51679229"
 ---
 # <a name="troubleshoot-power-bi-custom-visuals"></a>Power BI 自定义视觉对象疑难解答
 
@@ -37,7 +37,7 @@ ms.locfileid: "51223529"
 
 **无法联系视觉对象服务器**
 
-在终端的命令行中从视觉对象项目的根目录使用命令 `pbiviz start` 运行视觉对象服务器。 如果服务器正在运行，则可能是未正确安装 SSL 证书。
+在终端的命令行中从视觉对象项目的根目录使用命令 `pbiviz start` 运行视觉对象服务器。 如果服务器未运行，则可能是未正确安装 SSL 证书。
 
 ## <a name="next-steps"></a>后续步骤
 

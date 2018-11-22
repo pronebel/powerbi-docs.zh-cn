@@ -1,5 +1,5 @@
 ---
-title: 远程配置 Power BI iOS 移动应用对报表服务器的访问权限
+title: 远程配置 iOS 移动应用对报表服务器的访问权限
 description: 了解如何为报表服务器远程配置 iOS 移动应用。
 author: maggiesMSFT
 manager: kfile
@@ -7,21 +7,20 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-report-server
 ms.topic: conceptual
-ms.date: 05/22/2018
+ms.date: 11/15/2018
 ms.author: maggies
-ms.openlocfilehash: bbade67c9510b8d316364d991c09444712309514
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 538bb802998003dba63b6c63cca2068b2d7b69fa
+ms.sourcegitcommit: 46f1ba3f972f6e64bce05ad0fd527b27c49aedd6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34722169"
+ms.lasthandoff: 11/20/2018
+ms.locfileid: "52157416"
 ---
 # <a name="configure-power-bi-ios-mobile-app-access-to-a-report-server-remotely"></a>远程配置 Power BI iOS 移动应用对报表服务器的访问权限
 
-在本文中，可了解如何使用组织的 MDM 工具来配置 Power BI iOS 移动应用对报表服务器的访问权限。 若要进行此设置，IT 管理员将创建应用配置策略，指定要推送到应用的必要信息。 
+在本文中，可了解如何使用组织的 MDM 工具来配置 Power BI iOS 移动应用对报表服务器的访问权限。 若要配置该权限，IT 管理员将创建应用配置策略，指定要推送到应用的必要信息。 
 
- 然后，由于已配置报表服务器连接，Power BI iOS 移动应用用户就可以更轻松地连接到其组织的报表服务器。 
-
+ 配置报表服务器连接后，Power BI iOS 移动应用用户就可以更轻松地连接到其组织的报表服务器。 
 
 ## <a name="create-the-app-configuration-policy-in-mdm-tool"></a>在 MDM 工具中创建应用配置策略 
 
@@ -39,7 +38,7 @@ ms.locfileid: "34722169"
 | com.microsoft.powerbi.mobile.ServerURL | 字符串 | 报表服务器 URL </br> 应以 http/https 开头 |
 | com.microsoft.powerbi.mobile.ServerUsername | 字符串 | [可选] </br> 要用于连接服务器的用户名。 </br> 如果不存在此项，应用将提示用户键入用于连接的用户名。| 
 | com.microsoft.powerbi.mobile.ServerDisplayName | 字符串 | [可选] </br> 默认值为“报表服务器” </br> 应用中用于表示服务器的友好名称 | 
-| com.microsoft.powerbi.mobile.OverrideServerDetails | 布尔 | 默认值为 True </br> 如果设置为“True”，这将替代移动设备中已有的任何报表服务器定义（将删除已配置的现有服务器）。 </br> 将“替代”设置为 True 还可防止用户删除该配置。 </br> 设置为“False”将添加推送值，并保留任何现有设置。 </br> 如果移动应用中已配置相同的服务器 URL，应用将按原样保留该配置，且不会要求用户为同一服务器重新进行身份验证。 |
+| com.microsoft.powerbi.mobile.OverrideServerDetails | 布尔 | 默认值为 True </br>设置为“True”时，它将替代移动设备中已有的任何报表服务器定义。 已删除已配置的现有服务器。 </br> 将“替代”设置为 True 还可防止用户删除该配置。 </br> 设置为“False”将添加推送值，并保留任何现有设置。 </br> 如果已在移动应用中配置相同的服务器 URL，则应用将按原样保留该配置。 该应用不会要求用户重新验证同一服务器。 |
 
 下面的示例使用 Intune 设置配置策略。
 
@@ -47,7 +46,7 @@ ms.locfileid: "34722169"
 
 ## <a name="end-users-connecting-to-a-report-server"></a>最终用户连接到报表服务器
 
-发布应用配置策略后，为该策略定义的通讯组列表中的用户和设备启动 Power BI iOS 移动应用时，将获得以下体验。 
+ 假设你发布了通讯组列表的应用配置策略。 当该通讯组列表上的用户和设备启动 iOS 移动应用时，他们将有如下体验。 
 
 1. 他们将看到一条消息，表示已为移动应用配置报表服务器，然后点击“登录”。
 

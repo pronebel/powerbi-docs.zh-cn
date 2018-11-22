@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.component: powerbi-developer
 ms.topic: conceptual
 ms.date: 09/17/2018
-ms.openlocfilehash: 56b6c954aa49f8adf0aa479f143fb11b932c107e
-ms.sourcegitcommit: ac63e6a082ca8397909217837e8d98c9389b23ac
+ms.openlocfilehash: 8cdeed0c5575a8405ae5db6d1eaca522ab0597cb
+ms.sourcegitcommit: a739a99e1006834a0f56e387c0bd9d945fb8a76b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/01/2018
-ms.locfileid: "50736955"
+ms.lasthandoff: 11/15/2018
+ms.locfileid: "51679423"
 ---
 # <a name="frequently-asked-questions-about-power-bi-embedded"></a>有关 Power BI Embedded 的常见问题
 
@@ -119,7 +119,7 @@ https://app.powerbi.com/ > ? > 关于 Power BI
 ![关于 Power BI](media/embedded-faq/about-01.png)
 ![租户区域](media/embedded-faq/tenant-location-01.png)
 
-### <a name="what-is-supported-with-the-communicating-sequential-processes-csp-channel"></a>通信顺序进程 (CSP) 通道支持什么内容？
+### <a name="what-is-supported-with-the-cloud-solution-provider-csp-channel"></a>云解决方案提供商 (CSP) 通道支持哪些内容？
 
 * 可以为订阅类型为 CSP 的租户创建 PBIE
 * 合作伙伴帐户可以登录到客户租户并为将客户租户用户指定为 Power BI 容量管理员的客户租户购买 PBIE

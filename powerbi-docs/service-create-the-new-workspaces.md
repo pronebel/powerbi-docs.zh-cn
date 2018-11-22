@@ -7,15 +7,15 @@ ms.reviewer: lukaszp
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 08/24/2018
+ms.date: 11/14/2018
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: cc1f348deb222ce080ac41ac2574f4fb1437e8db
-ms.sourcegitcommit: 52ac456bf2ac025b22ea634c28482f22e1cc19ac
+ms.openlocfilehash: cdc406ddd9c086114ca118130bb4973737de3ed1
+ms.sourcegitcommit: 1e4fee6d1f4b7803ea285eb879c8d5a4f7ea8b85
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/10/2018
-ms.locfileid: "48909006"
+ms.lasthandoff: 11/16/2018
+ms.locfileid: "51717886"
 ---
 # <a name="create-the-new-workspaces-preview-in-power-bi"></a>在 Power BI 中创建新工作区（预览）
 
@@ -168,7 +168,7 @@ Power BI 以预览的形式引入了新工作区体验。 工作区仍是与同�
 
 存在以下已知问题，正在开发修复程序：
 
-- 作为订阅收件人添加到电子邮件的免费用户或用户组可能不会收到电子邮件，尽管他们应该收到这些邮件。 当新工作区体验工作区处于高级容量中，但创建订阅的用户的“我的工作区”不在高级容量中时，会出现此问题。 如果“我的工作区”处于高级容量中，免费用户和用户组都可收到电子邮件。
+- 作为订阅收件人添加到电子邮件的免费用户或用户组可能不会收到电子邮件，尽管他们应该收到这些邮件。 当某一新工作区处于高级容量中，但创建订阅的用户的“我的工作区”不在高级容量中时，会出现此问题。 如果“我的工作区”处于高级容量中，免费用户和用户组都可收到电子邮件。
 - 工作区从高级容量迁移至共享容量后，在某些情况下，免费用户和用户组继续接收电子邮件，尽管他们不应该收到这些邮件。 当创建订阅的用户的“我的工作区”处于高级容量中时，会出现此问题。
 
 ## <a name="next-steps"></a>后续步骤

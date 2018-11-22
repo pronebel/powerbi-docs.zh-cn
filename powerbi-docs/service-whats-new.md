@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/16/2018
 ms.author: nikhilga
 LocalizationGroup: Get started
-ms.openlocfilehash: b54a38f4c5639eae549a36a93c887d87630b7daf
-ms.sourcegitcommit: a3ce866caba24217bcdd011e892b9ea72f3d2400
+ms.openlocfilehash: 0ffcec94d015223df596aa6ac941f7400a89e747
+ms.sourcegitcommit: 1e4fee6d1f4b7803ea285eb879c8d5a4f7ea8b85
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/18/2018
-ms.locfileid: "49396741"
+ms.lasthandoff: 11/16/2018
+ms.locfileid: "51718059"
 ---
 ---
 # <a name="whats-new-in-the-power-bi-service"></a>Power BI 服务中的新功能
@@ -655,7 +655,7 @@ Power BI 团队在整个假期都在忙。 有关所有详细信息，[请访问
 
 **2015 年 4 月 23 日**
 
-* 你现在可以使用我们的新内容包可视化和浏览 **Microsoft Dynamics Marketing** 数据！ 你可以阅读我们的[博客文章](http://blogs.msdn.com/b/powerbi/archive/2015/04/23/monitor-and-explore-your-microsoft-dynamics-marketing-data-with-power-bi.aspx)和[文档](service-connect-to-microsoft-dynamics-marketing.md)来获取更多信息。
+* 你现在可以使用我们的新内容包可视化和浏览 **Microsoft Dynamics Marketing** 数据！ 你可以阅读[博客文章](http://blogs.msdn.com/b/powerbi/archive/2015/04/23/monitor-and-explore-your-microsoft-dynamics-marketing-data-with-power-bi.aspx)来获取更多信息。
 
 **2015 年 4 月 15 日**
 

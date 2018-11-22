@@ -1,5 +1,5 @@
 ---
-title: 教程：在 iOS 应用 Power BI 中向常见问题虚拟分析师询问问题
+title: 教程：在 iOS 应用中向常见问题虚拟分析师询问问题
 description: 在本教程中，在 iOS 设备上的 Power BI 移动应用中以你自己的语言向常见问题虚拟分析师询问关于示例数据的问题。
 author: maggiesMSFT
 manager: kfile
@@ -7,16 +7,16 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-mobile
 ms.topic: tutorial
-ms.date: 05/08/2018
+ms.date: 11/16/2018
 ms.author: maggies
-ms.openlocfilehash: f3ecdb79b8fb5a8d9463eaabbda70a60110191ea
-ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
+ms.openlocfilehash: 9fd0d06b186d84412ec36749270d261ddd01fb2f
+ms.sourcegitcommit: 46f1ba3f972f6e64bce05ad0fd527b27c49aedd6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/21/2018
-ms.locfileid: "46547101"
+ms.lasthandoff: 11/20/2018
+ms.locfileid: "52157140"
 ---
-# <a name="tutorial-ask-questions-about-your-data-with-the-qa-virtual-analyst-in-ios-apps---power-bi"></a>教程：在 iOS 应用 Power BI 中向常见问题虚拟分析师询问关于数据的问题
+# <a name="tutorial-ask-questions-about-your-data-with-the-qa-virtual-analyst-in-the-power-bi-ios-apps"></a>教程：在 Power BI iOS 应用中向常见问题虚拟分析师询问关于数据的问题
 
 了解数据的最简单方式是用自己的话咨询有关数据的问题。 在本教程中，在 iPad、iPhone 和 iPod Touch 上的 Microsoft Power BI 移动应用中向常见问题虚拟分析师询问关于示例数据的问题并查看特别推荐的见解。 
 
@@ -72,7 +72,7 @@ ms.locfileid: "46547101"
 
 4. 选择“机会分析示例”。
  
-    ![商机分析示例](./media/tutorial-mobile-apps-ios-qna/power-bi-oa.png)
+    ![机会分析示例](./media/tutorial-mobile-apps-ios-qna/power-bi-oa.png)
  
 8. 选择“连接”。  
   

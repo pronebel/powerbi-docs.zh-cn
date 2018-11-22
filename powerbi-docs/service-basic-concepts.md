@@ -1,7 +1,7 @@
 ---
 title: Power BI 服务 - 基本概念
 description: Power BI 服务工作区、仪表板、报表、数据集和工作簿。
-author: mihart
+author: maggiesMSFT
 manager: kfile
 ms.reviewer: ''
 featuredvideoid: B2vd4MQrz4M
@@ -9,20 +9,20 @@ ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
 ms.date: 07/19/2018
-ms.author: mihart
+ms.author: maggies
 LocalizationGroup: Get started
-ms.openlocfilehash: 8a95dae913c2069fa3768d66c55d2b1358640000
-ms.sourcegitcommit: a764e4b9d06b50d9b6173d0fbb7555e3babe6351
+ms.openlocfilehash: 9b02bdfd2c0025977dbb69eae44f4e976a527a30
+ms.sourcegitcommit: 1e4fee6d1f4b7803ea285eb879c8d5a4f7ea8b85
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/22/2018
-ms.locfileid: "49641910"
+ms.lasthandoff: 11/16/2018
+ms.locfileid: "51717760"
 ---
 # <a name="power-bi---basic-concepts-for-power-bi-service"></a>Power BI - Power BI 服务的基本概念
 
 本文假设你已[注册 Power BI 服务](service-self-service-signup-for-power-bi.md)，且已[添加了一些数据](service-get-data.md)。
 
-打开 Power BI 服务后，将看到显示一个***仪表板***。 仪表板可以区分 Power BI 服务和 Power BI Desktop。
+打开 Power BI 服务后，将看到显示一个仪表板。 仪表板可以区分 Power BI 服务和 Power BI Desktop。
 
 ![](media/service-basic-concepts/completenewest.png)
 
