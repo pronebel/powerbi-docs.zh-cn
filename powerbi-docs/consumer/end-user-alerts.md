@@ -43,13 +43,13 @@ ms.locfileid: "51223205"
 如果未注册 Power BI，请[免费注册](https://app.powerbi.com/signupredirect?pbi_source=web)后再进行操作。
 
 ## <a name="set-data-alerts-in-power-bi-service"></a>在 Power BI 服务中设置数据警报
-观看 Amanda 将一些警报添加到她的仪表板上的磁贴。 然后按照视频下面的分步说明来自己尝试一下。
+观看视频，了解 Amanda 如何将一些警报添加到她的仪表板上的磁贴。然后可以按照视频下面的分步说明来自己尝试。
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/JbL2-HJ8clE" frameborder="0" allowfullscreen></iframe>
 
 此示例使用[零售分析示例](http://go.microsoft.com/fwlink/?LinkId=529778)仪表板中的卡片磁贴。
 
-1. 在仪表板仪表、KPI 或卡磁贴中，选择省略号。
+1. 在仪表板仪表、KPI 或卡磁贴中，选择省略号图标。
    
    ![总存储磁贴](media/end-user-alerts/powerbi-card.png)
 2. 选择钟形图标 ![警报图标](media/end-user-alerts/power-bi-bell-icon.png) 或“管理警报”，为“总存储”添加一个或多个警报。
@@ -57,7 +57,7 @@ ms.locfileid: "51223205"
 1. 在“管理警报”窗格中，选择“+添加警报规则”。  请确保滑块已设置为“开启”，并为警报提供一个标题。 标题有助于轻松识别警报。
    
    ![管理警报窗口](media/end-user-alerts/powerbi-alert-title.png)
-4. 向下滚动，输入警报的详细信息。  在此示例中，我们将创建一个在总存储数超过 100 时每天提醒一次的警报。 警报将出现在我们的通知中心。 并且，我们还将收到 Power BI 发送的电子邮件。
+4. 向下滚动，输入警报的详细信息。 在此示例中，我们将创建一个在总存储数超过 100 时每天提醒一次的警报。 警报将出现在我们的通知中心。 并且，我们还将收到 Power BI 发送的电子邮件。
    
    ![管理警报窗口，请设置阈值](media/end-user-alerts/power-bi-set-alert-details.png)
 5. 选择“保存并关闭”。
@@ -70,7 +70,7 @@ ms.locfileid: "51223205"
 1. 如果你已设置警报向你发送电子邮件，则你将在收件箱中找到如下内容。
    
    ![警报电子邮件](media/end-user-alerts/powerbi-alerts-email.png)
-2. Power BI 会将消息添加到你的“通知中心”，并会向适用的磁贴添加新的警报图标。
+2. Power BI 会将消息添加到你的“通知中心”，并会对相应磁贴添加新的警报图标。
    
    ![Power BI 服务中的通知图标](media/end-user-alerts/powerbi-alert-notifications.png)
 3. 打开你的通知中心以查看警报详细信息。
@@ -86,7 +86,7 @@ ms.locfileid: "51223205"
 可通过多种方法管理警报：从仪表板磁贴本身、从 Power BI 设置菜单，以及在 [iPhone 上的 Power BI 移动应用](mobile/mobile-set-data-alerts-in-the-mobile-apps.md)或[适用于 Windows 10 的 Power BI 移动应用](mobile/mobile-set-data-alerts-in-the-mobile-apps.md)中各个磁贴。
 
 ### <a name="from-the-tile-itself"></a>从磁贴本身
-1. 如果需要更改或删除磁贴的警报，请通过选择钟形图标 ![警报图标](media/end-user-alerts/power-bi-bell-icon.png)，重新打开“管理警报”。 将显示已为该磁贴设置的所有警报。
+1. 如果需要更改或删除磁贴的警报，请通过选择钟形图标 ![警报图标](media/end-user-alerts/power-bi-bell-icon.png)，重新打开“管理警报”。随即将显示为该磁贴设置的所有警报。
    
     ![管理警报窗口](media/end-user-alerts/powerbi-see-alerts.png)。
 2. 若要修改警报，请选择警报名称左侧的箭头。
