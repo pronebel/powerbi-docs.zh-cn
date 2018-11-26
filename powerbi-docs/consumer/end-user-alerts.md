@@ -43,7 +43,7 @@ ms.locfileid: "51223205"
 如果未注册 Power BI，请[免费注册](https://app.powerbi.com/signupredirect?pbi_source=web)后再进行操作。
 
 ## <a name="set-data-alerts-in-power-bi-service"></a>在 Power BI 服务中设置数据警报
-观看视频，了解 Amanda 如何将一些警报添加到她的仪表板上的磁贴。 之后可以按照视频下面的分步说明来自己尝试设置数据警报。
+观看视频，了解 Amanda 如何将一些警报添加到她的仪表板上的磁贴。然后可以按照视频下面的分步说明来自己尝试。
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/JbL2-HJ8clE" frameborder="0" allowfullscreen></iframe>
 
@@ -86,7 +86,7 @@ ms.locfileid: "51223205"
 可通过多种方法管理警报：从仪表板磁贴本身、从 Power BI 设置菜单，以及在 [iPhone 上的 Power BI 移动应用](mobile/mobile-set-data-alerts-in-the-mobile-apps.md)或[适用于 Windows 10 的 Power BI 移动应用](mobile/mobile-set-data-alerts-in-the-mobile-apps.md)中各个磁贴。
 
 ### <a name="from-the-tile-itself"></a>从磁贴本身
-1. 如果需要更改或删除磁贴的警报，请通过选择钟形图标 ![警报图标](media/end-user-alerts/power-bi-bell-icon.png)，重新打开“管理警报”。查看已为该磁贴设置的所有警报。
+1. 如果需要更改或删除磁贴的警报，请通过选择钟形图标 ![警报图标](media/end-user-alerts/power-bi-bell-icon.png)，重新打开“管理警报”。随即将显示为该磁贴设置的所有警报。
    
     ![管理警报窗口](media/end-user-alerts/powerbi-see-alerts.png)。
 2. 若要修改警报，请选择警报名称左侧的箭头。
