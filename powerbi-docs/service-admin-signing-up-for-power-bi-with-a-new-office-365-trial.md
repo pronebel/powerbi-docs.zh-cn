@@ -10,18 +10,18 @@ ms.topic: conceptual
 ms.date: 10/31/2018
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: ef20b37d781e266de9e72117d2c57e58f802d4fa
-ms.sourcegitcommit: a186679e8dae85dce23f6365bf5c36d7f407f15b
+ms.openlocfilehash: 26fa709eee00607911b2bee2e8bf3f5f1cba732f
+ms.sourcegitcommit: 458e091a0a0bfb71ea3980d44df6408f48bab586
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/16/2018
-ms.locfileid: "51850375"
+ms.lasthandoff: 11/22/2018
+ms.locfileid: "52289096"
 ---
 # <a name="signing-up-for-power-bi-with-a-new-office-365-trial"></a>通过新 Office 365 试用版注册 Power BI
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/gbSuFST-Nx4?showinfo=0" frameborder="0" allowfullscreen></iframe>
 
-本文介绍了另一种可供选择的 Power BI 注册方法，即使用 Office 365 试用版。 如果无法使用工作电子邮件地址注册 Power BI，请先确保[电子邮件地址可用于 Power BI](service-self-service-signup-for-power-bi.md#what-email-address-can-be-used-with-power-bi)。 如果失败，请先尝试注册 Office 365 试用版，再注册 Power BI。 即使在 Office 365 试用版到期后，也仍能使用 Power BI。
+本文介绍了另一种可供选择的 Power BI 注册方法，即使用 Office 365 试用版。 如果无法使用工作电子邮件地址注册 Power BI，请先确保[电子邮件地址可用于 Power BI](service-self-service-signup-for-power-bi.md#supported-email-addresses)。 如果失败，请先尝试注册 Office 365 试用版，再注册 Power BI。 即使在 Office 365 试用版到期后，也仍能使用 Power BI。
 
 1. [在 Office 365 网站上](https://go.microsoft.com/fwlink/p/?LinkID=403802)注册 Office 365 试用版。
 
