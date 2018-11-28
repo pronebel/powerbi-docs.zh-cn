@@ -39,7 +39,7 @@ ms.locfileid: "39327652"
 
 ## <a name="connect-to-data"></a>连接到数据
 
-使用 Power BI Desktop，可以连接到许多不同类型的数据。 可以连接到诸如 Microsoft Excel 文件的基本数据源，并且可以连接到包含各类数据的联机服务，例如 Salesforce、Microsoft Dynamics、Azure Blob 存储等。 
+使用 **Power BI Desktop** 可以连接到许多不同类型的数据。 可以连接到诸如 Microsoft Excel 文件的基本数据源，也可以连接到包含各类数据的联机服务，例如 Salesforce、Microsoft Dynamics、Azure Blob 存储等。 
 
 若要连接到数据，请在“主页”功能区中选择“获取数据”。
 
@@ -55,19 +55,19 @@ Power BI 将提示我们提供想要连接的 Excel 文件的位置。 下载文
 
 ![获取数据](media/desktop-quickstart-connect-to-data/qs-connect-data_04.png)
 
-然后，Power BI Desktop 加载工作簿和读取其内容，并使用“导航器”窗口显示文件中的可用数据，可以在其中选择要将哪些数据加载到 Power BI Desktop。 通过标记每个想要导入的表旁边的复选框来选择表。 在本例中，我们将导入这两个可用的表。
+之后，**Power BI Desktop** 会加载工作簿并读取其内容，然后在“导航器”窗口显示文件中的可用数据，你可以在其中选择要将哪些数据加载到 Power BI Desktop 当中。 通过标记每个想要导入的表旁边的复选框来选择该表。 在本例中，我们将导入这两个可用的表。
 
 ![获取数据](media/desktop-quickstart-connect-to-data/qs-connect-data_05.png)
 
-一旦作出选择，请选择“负载”将数据导入到 Power BI Desktop。
+一旦作出选择，请选择“加载”将数据导入到 Power BI Desktop 当中。
 
 ## <a name="view-data-in-the-fields-pane"></a>在“字段”窗格中查看数据
 
-一旦加载表，“字段”窗格将显示数据。 可以通过选择其名称旁边的三角形展开每个表。 在下图中，“财务”表已展开，其中显示其每个字段。 
+表加载完成后，“字段”窗格将显示导入数据。 可以通过选择其名称旁边的三角形展开每个表。 在下图中，“财务”表已展开并显示其中每个字段。 
 
 ![获取数据](media/desktop-quickstart-connect-to-data/qs-connect-data_06.png)
 
-就是这么简单！ 你已连接到 Power BI Desktop 中的数据并加载该数据，现在可以看到这些表中的所有可用字段。
+就是这么简单！ 你已使用 Power BI Desktop 连接到数据源并加载该数据，现在可以看到这些表中的所有可用字段。
 
 
 ## <a name="next-steps"></a>后续步骤

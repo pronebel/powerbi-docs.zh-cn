@@ -70,7 +70,7 @@ ms.locfileid: "52452582"
 1. 如果你已设置警报向你发送电子邮件，则你将在收件箱中找到如下内容。
    
    ![警报电子邮件](media/end-user-alerts/powerbi-alerts-email.png)
-2. Power BI 会将消息添加到你的“通知中心”，并会向适用的磁贴添加新的警报图标。
+2. Power BI 会将消息添加到你的“通知中心”，并会对相应磁贴添加新的警报图标。
    
    ![Power BI 服务中的通知图标](media/end-user-alerts/powerbi-alert-notifications.png)
 3. 打开你的通知中心以查看警报详细信息。
