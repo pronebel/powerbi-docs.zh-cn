@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 11/01/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 97d9fc6bf7a27b9d681d10ae20ab0780622e5ee8
-ms.sourcegitcommit: 02f918a4f27625b6f4e47473193ebc8219db40e2
+ms.openlocfilehash: 098447f4d0c0b1dc9534c91e84827c4cefb8850c
+ms.sourcegitcommit: fdb54145f9bc93b312409c15c603749f3a4a876e
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/07/2018
-ms.locfileid: "51223389"
+ms.lasthandoff: 11/28/2018
+ms.locfileid: "52452536"
 ---
 # <a name="data-sources-supported-by-directquery-in-power-bi"></a>Power BI 中 DirectQuery 支持的数据源
 Power BI Desktop 和 Power BI 服务有多个可以连接并访问数据的数据源。 本文介绍了支持称为 DirectQuery 的连接方法的 Power BI 数据源。 有关 DirectQuery 的详细信息，请参阅 [Power BI 中的 DirectQuery](desktop-directquery-about.md)。
@@ -62,7 +62,7 @@ Power BI Desktop 和 Power BI 服务有多个可以连接并访问数据的数�
 | Amazon Redshift |否 |
 | Impala（版本 2.x） |是 |
 | Snowflake |是 |
-| Spark (Beta)，版本 0.9 及更高版本 |在 Power BI 服务中尚不受支持 |
+| Spark (Beta)，版本 0.9 及更高版本 |是 |
 | Azure HDInsight Spark (Beta) |否 |
 | IBM Netezza |是 |
 | SAP Business Warehouse 应用程序服务器 |是 |

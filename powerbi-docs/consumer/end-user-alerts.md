@@ -11,12 +11,12 @@ ms.topic: tutorial
 ms.date: 10/08/2018
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: ba27b42d6449d38fef2659507f035144c67f23fd
-ms.sourcegitcommit: 02f918a4f27625b6f4e47473193ebc8219db40e2
+ms.openlocfilehash: 7982c2b29d5d92a992a115c92cbc7f0d128cb9d6
+ms.sourcegitcommit: fdb54145f9bc93b312409c15c603749f3a4a876e
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/07/2018
-ms.locfileid: "51223205"
+ms.lasthandoff: 11/28/2018
+ms.locfileid: "52452582"
 ---
 # <a name="tutorial-set-data-alerts-in-power-bi-service"></a>教程：在 Power BI 服务中设置数据警报
 设置警报，以便在仪表板中的数据更改超出你设置的限制时通知你。 
@@ -43,7 +43,7 @@ ms.locfileid: "51223205"
 如果未注册 Power BI，请[免费注册](https://app.powerbi.com/signupredirect?pbi_source=web)后再进行操作。
 
 ## <a name="set-data-alerts-in-power-bi-service"></a>在 Power BI 服务中设置数据警报
-观看视频，了解 Amanda 如何将一些警报添加到她的仪表板上的磁贴。 然后可以按照视频下面的分步说明来自己尝试。
+观看 Amanda 将一些警报添加到她的仪表板上的磁贴。 然后可以按照视频下面的分步说明来自己尝试。
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/JbL2-HJ8clE" frameborder="0" allowfullscreen></iframe>
 
@@ -75,7 +75,7 @@ ms.locfileid: "51223205"
    ![Power BI 服务中的通知图标](media/end-user-alerts/powerbi-alert-notifications.png)
 3. 打开你的通知中心以查看警报详细信息。
    
-    ![读取警报](media/end-user-alerts/powerbi-alert-notfication.png)
+    ![读取警报](media/end-user-alerts/powerbi-alert-notification.png)
    
    > [!NOTE]
    > 警报仅适用于刷新的数据。 数据刷新时，Power BI 会查看是否为该数据设置了警报。 如果数据已达到了警报的阈值，则会触发警报。

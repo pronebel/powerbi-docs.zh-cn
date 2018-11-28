@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 03/02/2017
 ms.author: maggies
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 33d8911ee819bbc1ac37976f077edabee368f5aa
-ms.sourcegitcommit: a186679e8dae85dce23f6365bf5c36d7f407f15b
+ms.openlocfilehash: 1f60c24a244b05aca93b312921b943e261d4d266
+ms.sourcegitcommit: fdb54145f9bc93b312409c15c603749f3a4a876e
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/16/2018
-ms.locfileid: "51850559"
+ms.lasthandoff: 11/28/2018
+ms.locfileid: "52452674"
 ---
 # <a name="optimize-your-data-for-power-bi-quick-insights"></a>面向 Power BI Quick Insights 优化数据
 想要改善快速见解结果吗？  如果你是数据集所有者，请尝试：
@@ -23,7 +23,7 @@ ms.locfileid: "51850559"
 * 隐藏或取消隐藏数据集中的列。 Power BI 快速见解不会搜索隐藏的列。  因此，请隐藏重复或不必要的列，并取消隐藏相关列。
 * 使用混合的数据类型，例如名称、时间、日期和数字。
 * 避免使用（或隐藏）包含重复信息的列。  这会浪费搜索有意义模式的宝贵时间。  例如，一个列包含省/市/自治区名称的完整拼法，而另一个列包含省/市/自治区名称的缩写。
-* 你是否收到一条错误消息，说数据不具有统计意义？  这可能发生在非常简单的、没有太多数据的模型中，或者没有日期或数字列的模型中。 若要生成见解，数据集需要具有至少一个维度和一个度量值。
+* 你是否收到一条错误消息，说数据不具有统计意义？  这可能发生在非常简单的、没有太多数据的模型中，或者没有日期或数字列的模型中。
 
 ### <a name="next-steps"></a>后续步骤
 [Power BI 快速见解](consumer/end-user-insights.md)

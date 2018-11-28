@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 02/28/2018
 ms.author: maggies
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 52f5d7e8bbf6f22f930ad7b4703587ea3af3dc94
-ms.sourcegitcommit: 1e4fee6d1f4b7803ea285eb879c8d5a4f7ea8b85
+ms.openlocfilehash: cc374da84e269abe18a52270c0d9fd15987cf666
+ms.sourcegitcommit: fdb54145f9bc93b312409c15c603749f3a4a876e
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/16/2018
-ms.locfileid: "51717507"
+ms.lasthandoff: 11/28/2018
+ms.locfileid: "52452605"
 ---
 # <a name="data-alerts-in-power-bi-service"></a>Power BI 服务中的数据警报
 设置警报，以便在仪表板中的数据更改超出你设置的限制时通知你。 
@@ -65,7 +65,7 @@ ms.locfileid: "51717507"
    ![Power BI 服务中的通知图标](media/service-set-data-alerts/powerbi-alert-notifications.png)
 3. 打开你的通知中心以查看警报详细信息。
    
-    ![读取警报](media/service-set-data-alerts/powerbi-alert-notfication.png)
+    ![读取警报](media/service-set-data-alerts/powerbi-alert-notification.png)
    
    > [!NOTE]
    > 警报仅适用于刷新的数据。 数据刷新时，Power BI 会查看是否为该数据设置了警报。 如果数据已达到了警报的阈值，则会触发警报。
@@ -76,7 +76,7 @@ ms.locfileid: "51717507"
 可通过多种方法管理警报：从仪表板磁贴本身、从 Power BI 设置菜单，以及在 [iPhone 上的 Power BI 移动应用](consumer/mobile/mobile-set-data-alerts-in-the-mobile-apps.md)或[适用于 Windows 10 的 Power BI 移动应用](consumer/mobile/mobile-set-data-alerts-in-the-mobile-apps.md)中各个磁贴。
 
 ### <a name="from-the-tile-itself"></a>从磁贴本身
-1. 如果需要更改或删除磁贴的警报，请通过选择钟形图标 ![警报图标](media/service-set-data-alerts/power-bi-bell-icon.png)，重新打开“管理警报”。 将显示已为该磁贴设置的所有警报。
+1. 如果需要更改或删除磁贴的警报，请通过选择钟形图标 ![警报图标](media/service-set-data-alerts/power-bi-bell-icon.png)，重新打开“管理警报”。 随即将显示为该磁贴设置的所有警报。
    
     ![管理警报窗口](media/service-set-data-alerts/powerbi-see-alerts.png)。
 2. 若要修改警报，请选择警报名称左侧的箭头。
