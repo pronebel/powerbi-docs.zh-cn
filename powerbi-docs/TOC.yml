@@ -390,42 +390,54 @@ items:
     items:
     - name: Power BI 服务中的新功能
       href: service-whats-new.md
-    - name: 基本概念
+    - name: 设计器基本概念
       href: service-basic-concepts.md
-    - name: 自助注册
-      href: service-self-service-signup-for-power-bi.md
-    - name: 适用于 Power BI 的 Cortana 简介
-      href: service-cortana-intro.md
-    - name: Power BI 中的数据刷新
-      href: refresh-data.md
-    - name: 适用于美国政府的 Power BI
-      href: service-govus-overview.md
-    - name: 按许可证类型列出的功能
-      href: service-features-license-type.md
     - name: 10 条关于如何获取帮助的提示
       href: service-tips-for-finding-help.md
-    - name: 关于 Power BI 报表中的筛选器和突出显示
-      href: power-bi-reports-filters-and-highlighting.md
-    - name: 从文件中获取数据
-      href: service-get-data-from-files.md
-    - name: 报表编辑器...教程
-      href: service-the-report-editor-take-a-tour.md
-    - name: Power BI 中的可视化效果
-      href: visuals/power-bi-report-visualizations.md
-    - name: Power BI 数据源
-      href: service-get-data.md
-    - name: 激活延长的专业版试用期
-      href: service-extended-pro-trial.md
-    - name: Microsoft Flow 和 Power BI
-      href: service-flow-integration.md
-    - name: 针对德国云客户的 Power BI 常见问题解答
-      href: service-govde-faq.md
-    - name: Power BI 开始使用第三方应用
-      href: service-power-bi-get-started-third-party-apps.md
-    - name: Power BI 中的聚合函数（计算总和、平均值、最大值等）
-      href: service-aggregates.md
-    - name: Power BI 报表中的页面显示设置
-      href: power-bi-report-display-settings.md
+    - name: 许可
+      items:
+      - name: 自助注册
+        href: service-self-service-signup-for-power-bi.md
+      - name: 按许可证类型列出的功能
+        href: service-features-license-type.md
+      - name: 激活延长的专业版试用期
+        href: service-extended-pro-trial.md
+      - name: 适用于美国政府的 Power BI
+        href: service-govus-overview.md
+      - name: 针对德国云客户的常见问题解答
+        href: service-govde-faq.md
+    - name: 数据
+      items:
+      - name: Power BI 数据源
+        href: service-get-data.md
+      - name: 从文件中获取数据
+        href: service-get-data-from-files.md
+      - name: 聚合（求和、平均值、最大值等）
+        href: service-aggregates.md
+      - name: Power BI 中的数据刷新
+        href: refresh-data.md
+      - name: Azure 和 Power BI
+        href: service-azure-and-power-bi.md
+      - name: Power BI 和 Azure 流出量
+        href: service-azure-egress-power-bi.md
+    - name: 报表设计
+      items:
+      - name: 报表编辑器...教程
+        href: service-the-report-editor-take-a-tour.md
+      - name: Power BI 中的可视化效果
+        href: visuals/power-bi-report-visualizations.md
+      - name: 关于报表中的筛选器和突出显示
+        href: power-bi-reports-filters-and-highlighting.md
+      - name: Power BI 报表中的页面显示设置
+        href: power-bi-report-display-settings.md
+      - name: 适用于 Power BI 的 Cortana 简介
+        href: service-cortana-intro.md
+    - name: 其他
+      items:
+      - name: Microsoft Flow 和 Power BI
+        href: service-flow-integration.md
+      - name: 开始使用第三方应用
+        href: service-power-bi-get-started-third-party-apps.md
   - name: 操作方法
     items:
     - name: 常见任务
@@ -548,13 +560,13 @@ items:
         href: service-connect-to-zuora.md
     - name: 文件中的数据
       items:
-      - name: 立刻从 Excel 工作簿变为出色的报表
+      - name: 从 Excel 变成出色的报表
         href: service-from-excel-to-stunning-report.md
       - name: 从 Excel 工作簿文件中获取数据
         href: service-excel-workbook-files.md
       - name: 从 Power BI Desktop 文件获取数据
         href: service-desktop-files.md
-      - name: 数据集的参数设置
+      - name: 编辑参数
         href: service-parameters.md
       - name: 从逗号分隔值 (.csv) 文件中获取数据
         href: service-comma-separated-value-files.md
@@ -562,7 +574,7 @@ items:
         href: service-real-time-streaming.md
       - name: 从 Excel 2016 发布到 Power BI
         href: service-publish-from-excel.md
-      - name: 减小 Excel 工作簿的大小以便在 Power BI 中进行查看
+      - name: 减小 Excel 工作簿的大小
         href: reduce-the-size-of-an-excel-workbook.md
     - name: 数据库中的数据
       items:
@@ -574,23 +586,19 @@ items:
         href: spark-on-hdinsight-with-direct-connect.md
       - name: Power BI 中的 SQL Server Analysis Services 实时数据
         href: sql-server-analysis-services-tabular-data.md
-      - name: Azure 和 Power BI
-        href: service-azure-and-power-bi.md
-      - name: Power BI 和 Azure 流出量
-        href: service-azure-egress-power-bi.md
     - name: 数据刷新
       items:
       - name: 配置计划刷新
         href: refresh-scheduled-refresh.md
-      - name: 刷新从本地的 Power BI Desktop 文件创建的数据集
+      - name: 刷新来自 Power BI Desktop 文件的数据库 - 本地
         href: refresh-desktop-file-local-drive.md
-      - name: 刷新使用云端的 Power BI Desktop 文件创建的数据集
+      - name: 刷新来自 Power BI Desktop 文件的数据库 - 云
         href: refresh-desktop-file-onedrive.md
-      - name: 刷新使用本地 Excel 工作簿创建的数据集
+      - name: 刷新来自 Excel 工作簿的数据集 - 本地
         href: refresh-excel-file-local-drive.md
-      - name: 刷新使用云端 Excel 工作簿创建的数据集
+      - name: 刷新来自 Excel 工作簿的数据集 - 云
         href: refresh-excel-file-onedrive.md
-      - name: 在 OneDrive 上刷新使用逗号分隔值 (.csv) 文件创建的数据集
+      - name: 在 OneDrive 中刷新基于 .csv 文件创建的数据集
         href: refresh-csv-file-onedrive.md
       - name: 刷新方案故障排除
         href: refresh-troubleshooting-refresh-scenarios.md
@@ -604,25 +612,25 @@ items:
         href: service-dashboard-create.md
       - name: 创建仪表板副本
         href: service-dashboard-copy.md
-      - name: 从报表将磁贴固定到 Power BI 仪表板
+      - name: 将磁贴从报表固定到仪表板
         href: service-dashboard-pin-tile-from-report.md
-      - name: 将某个仪表板中的磁贴固定到另一个仪表板
+      - name: 将磁贴从一个仪表板固定到另一个仪表板
         href: service-pin-tile-to-another-dashboard.md
-      - name: 从 Excel 将磁贴固定到 Power BI 仪表板
+      - name: 将磁贴从 Excel 固定到仪表板
         href: service-dashboard-pin-tile-from-excel.md
-      - name: 从“问答”问题框将磁贴固定到 Power BI 仪表板
+      - name: 将磁贴从“问答”固定到仪表板
         href: service-dashboard-pin-tile-from-q-and-a.md
-      - name: 将整个报表页固定到 Power BI 仪表板
+      - name: 将整个报表页固定到仪表板
         href: service-dashboard-pin-live-tile-from-report.md
       - name: 仪表板使用指标
         href: service-usage-metrics.md
-      - name: 向仪表板添加图像、文本框、视频或 Web 代码
+      - name: 向仪表板添加图像、文本框、视频或代码
         href: service-dashboard-add-widget.md
-      - name: 编辑磁贴 - 重设大小、移动、重命名、固定、删除、添加超链接
+      - name: 编辑磁贴
         href: service-dashboard-edit-tile.md
-      - name: 设计出色 Power BI 仪表板的提示
+      - name: 设计出色仪表板的提示
         href: service-dashboards-design-tips.md
-      - name: 面向 Power BI Quick Insights 优化数据
+      - name: 针对快速见解功能优化数据
         href: service-insights-optimize.md
       - name: 创建仪表板电话视图
         href: service-create-dashboard-mobile-phone-view.md
@@ -672,7 +680,7 @@ items:
         href: visuals/power-bi-visualizations-arcgis.md
     - name: 询问数据相关问题
       items:
-      - name: 使用问答创建可视化和生成报表
+      - name: 使用“问答”创建可视化效果和报表
         href: power-bi-tutorial-q-and-a.md
       - name: 让数据支持问答
         href: service-prepare-data-for-q-and-a.md
@@ -708,7 +716,7 @@ items:
         href: service-collaborate-power-bi-workspace.md
       - name: 管理 Power BI 和 Office 365 中的组
         href: service-manage-app-workspace-in-power-bi-and-office-365.md
-      - name: 共享链接到 OneDrive for Business 上 Excel 工作簿的仪表板
+      - name: 共享连接到 OneDrive 上 Excel 工作簿的仪表板
         href: service-share-dashboard-that-links-to-excel-onedrive.md
     - name: 内容包
       items:
@@ -936,6 +944,8 @@ items:
         href: developer/custom-visual-develop-tutorial-format-options.md
     - name: 概念
       items:
+      - name: Power BI 视觉对象指南
+        href: developer/office-store-in-app-purchase-visual-guidelines.md
       - name: 使用功能
         href: https://microsoft.github.io/PowerBI-visuals/docs/concepts/capabilities/
       - name: 数据视图映射
@@ -1255,9 +1265,9 @@ items:
       href: service-admin-governance.md
     - name: Power BI 安全性
       href: service-admin-power-bi-security.md
-ms.openlocfilehash: 6be9e4865dd91817bd4b73c2763d6f7d374e1013
-ms.sourcegitcommit: 458e091a0a0bfb71ea3980d44df6408f48bab586
+ms.openlocfilehash: d6dd88caff9e0f2cdef7f7697c81161fe32c0b35
+ms.sourcegitcommit: 35d763dfc75c229204d36fd8b35c1e860786b707
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/22/2018
-ms.locfileid: "52289280"
+ms.lasthandoff: 11/27/2018
+ms.locfileid: "52331841"
