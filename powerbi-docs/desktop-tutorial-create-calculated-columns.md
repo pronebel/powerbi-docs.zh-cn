@@ -28,11 +28,11 @@ ms.locfileid: "34456217"
 ### <a name="prerequisites"></a>先决条件
 - 本教程面向已熟悉使用 Power BI Desktop 创建更高级的模型的 Power BI 用户。 应该已经了解如何使用“获取数据”和“Power Query 编辑器”来导出数据、使用多个相关表和向报表画布添加字段。 如果刚开始使用 Power BI Desktop，请务必查看 [Power BI Desktop 入门](desktop-getting-started.md)。
   
-- 本教程使用 [Power BI Desktop 的 Contoso 销售示例](http://download.microsoft.com/download/4/6/A/46AB5E74-50F6-4761-8EDB-5AE077FD603C/Contoso%20Sales%20Sample%20for%20Power%20BI%20Desktop.zip)，与[在 Power BI Desktop 中创建你自己的度量值](desktop-tutorial-create-measures.md)教程中所用的示例相同。 这些来自虚构公司 Contoso,inc. 的销售数据从数据库导入，因此你将无法连接到数据源或在 Power Query 编辑器中查看。 在你自己的计算机上下载并提取该文件，然后在 Power BI Desktop 中打开它。
+- 本教程使用 [Power BI Desktop 的 Contoso 销售示例](http://download.microsoft.com/download/4/6/A/46AB5E74-50F6-4761-8EDB-5AE077FD603C/Contoso%20Sales%20Sample%20for%20Power%20BI%20Desktop.zip)，与[在 Power BI Desktop 中创建你自己的度量值](desktop-tutorial-create-measures.md)教程中所用的示例相同。 这些来自虚构公司 Contoso,inc. 的销售数据从数据库导入，因此你将无法连接到数据源或在 Power Query 编辑器中查看。 请在你自己的计算机上下载并提取该文件，然后在 Power BI Desktop 中打开它。
 
 ## <a name="create-a-calculated-column-with-values-from-related-tables"></a>使用相关表中的值创建计算列
 
-在销售报表中，你想要在一个单值内同时展示产品类别和子类别，如“手机 – 附件”、“手机 – 智能手机和 PDA”等等。 “字段”列表中没有任何字段会提供该数据，但有一个“ProductCategory”字段和“ProductSubcategory”字段，每个字段都位于它自己的表中。 可以创建计算列以合并这两个列中的值。 DAX 公式可以利用已有模型的完整功能，包括不同的表之间已存在的关系。 
+在销售报表中，你想要在一个单值内同时展示产品类别和子类别，如“手机 – 附件”、“手机 – 智能手机和 PDA”等等。 “字段”列表中没有任何字段会提供该数据，但有一个“ProductCategory”字段和“ProductSubcategory”字段，每个字段都位于它自己的表中。 可以创建计算列以合并这两个列中的值。 DAX 公式可以利用已有模型的完整功能，包括使用不同的表之间已存在的关联关系。 
 
  ![“字段”列表中的列](media/desktop-tutorial-create-calculated-columns/create1.png)
 
@@ -46,7 +46,7 @@ ms.locfileid: "34456217"
     
 2.  默认情况下，新计算列简单地命名为“列”。 如果不进行重命名，其他新列将命名列 2、列 3，依此类推。 你希望列更易于识别，因此由于“列”名称已在公式栏中突出显示，可以通过键入“ProductFullCategory”来重命名，然后键入等号 (=)。
     
-3.  你希望新列中的值以 ProductCategory 名称开始。 因为此列在不同但相关的表中，可以使用 [RELATED](https://msdn.microsoft.com/library/ee634202.aspx) 函数来帮助获得它。
+3.  你希望新列中的值以 ProductCategory 名称开始。 由于此列在不同但相关的表中，因此可以使用 [RELATED](https://msdn.microsoft.com/library/ee634202.aspx) 函数来帮助获得它。
     
     在等号后键入“r”。 下拉建议列表显示了以字母 R 开头的所有 DAX 函数。选择每个函数都将显示其效果说明。 键入时，建议列表会更接近你所需的函数。 选择“RELATED”，然后按 Enter。
     
@@ -59,7 +59,7 @@ ms.locfileid: "34456217"
 4.  你想要“ProductCategory”表中的“ProductCategory”列。 选择“ProductCategory [ProductCategory]”，按 Enter，然后键入右括号。
     
     > [!TIP]
-    > 语法错误通常由缺少或错放右括号导致，尽管有时 Power BI Desktop 会为你添加。
+    > 尽管有时 Power BI Desktop 会自动添加右括号，但语法错误通常由缺少或错放右括号导致。
     
 4. 若要使用短划线和空格来分隔新值中的 ProductCategories 和 ProductSubcategories，请在第一个表达式的右括号后，键入一个空格、& 号 (&)、双引号 (**"**)、空格、短划线 (-)、另一个空格、另一个双引号和另一个 & 号。 该公式现在应如下所示：
     
