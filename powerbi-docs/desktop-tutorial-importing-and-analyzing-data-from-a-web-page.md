@@ -52,7 +52,7 @@ ms.locfileid: "34813172"
    ![导航器对话框](media/desktop-tutorial-importing-and-analyzing-data-from-a-web-page/tutorialimanaly_navigator.png)
    
    >[!NOTE]
-   >“预览”窗格显示最近选择的表，但当选择“编辑”或“加载”时，并非所有选择的表都加载到“Power Query 编辑器”。 
+   >“预览”窗格显示最近选择的表，但当选择“编辑”或“加载”时，所有选择的表都会加载到“Power Query 编辑器”。 
    
 3. 在“导航器”列表中选择“结果[编辑]”表，然后选择“编辑”。 
    
