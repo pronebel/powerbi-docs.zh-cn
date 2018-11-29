@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 06/05/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: c16fe65d766c6a1c18d809a68b3b0f6af8047db0
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 4c9a8144ba9b8f465f4e607be60d075ea6ccb5fa
+ms.sourcegitcommit: fdb54145f9bc93b312409c15c603749f3a4a876e
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34813333"
+ms.lasthandoff: 11/28/2018
+ms.locfileid: "52452789"
 ---
 # <a name="connect-to-ssas-multidimensional-models-in-power-bi-desktop"></a>连接到 Power BI Desktop 中的 SSAS 多维模型
 使用 Power BI Desktop，你可以访问 **SSAS 多维模型**，通常称为 **SSAS MD**。
@@ -81,6 +81,7 @@ ms.locfileid: "34813333"
 * 服务器必须运行 SQL Server 2012 SP1 CU4 或更高版本的 Analysis Services，才能使 Power BI Desktop SSAS MD 连接器正常工作
 * *操作* 和 *命名集* 不会公开到 Power BI，但你仍然可以连接到包含 *操作* 或 *命名集* 的多维数据集，并创建视觉对象和报表。
 * 可能会遇到以下问题：Power BI 显示 SSAS 模型元数据，但无法从模型检索数据。 如果系统上安装的 MSOLAP 提供程序是 32 位版本，而不是 64 位版本，则会出现此问题。 安装 64 位版本可以解决此问题。
+* 在创作与 SSAS 多维模型实时连接的报表时，无法创建“报表级别”度量值。 唯一可用的度量值是 MD 模型中定义的度量值。
 
 ## <a name="supported-features-of-ssas-md-in-power-bi-desktop"></a>Power BI Desktop 中支持的 SSAS MD 功能
 Power BI Desktop 中支持以下 SSAS MD 功能：

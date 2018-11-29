@@ -10,16 +10,17 @@ ms.topic: quickstart
 ms.date: 10/21/2018
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: 7984f269235084268af57f1bb0d292793aef1f7f
-ms.sourcegitcommit: a764e4b9d06b50d9b6173d0fbb7555e3babe6351
+ms.openlocfilehash: 0784976e1404247d69415bb398f83cbb73ab98a8
+ms.sourcegitcommit: 35d763dfc75c229204d36fd8b35c1e860786b707
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/22/2018
-ms.locfileid: "49641266"
+ms.lasthandoff: 11/27/2018
+ms.locfileid: "52331910"
 ---
 # <a name="purchase-and-assign-power-bi-pro-licenses"></a>购买和分配 Power BI Pro 许可证
 
 Power BI Pro 是单个许可证，允许访问 Power BI 服务中的所有内容和功能，包括共享内容以及与其他 Pro 用户协作的功能。 只有 Pro 用户可以将内容发布到应用工作区，使用这些内容，共享仪表板并订阅仪表板及报表。 有关详细信息，请参阅[按许可证类型划分的 Power BI 功能](service-features-license-type.md)。
+
 本文首先介绍了如何在 Office 365 中购买 Power BI Pro 许可证。 接着说明了可用于将这些许可证分配给各个用户的两个选项：Office 365 和 Azure（选择一个选项）。
 
 ## <a name="prerequisites"></a>先决条件

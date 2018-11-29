@@ -1,31 +1,31 @@
 ---
-title: Power BI 服务中的仪表板磁贴
-description: 关于 Power BI 中的仪表板磁贴的所有信息 这包括从 SQL Server Reporting Services (SSRS) 创建的磁贴。
+title: Power BI 设计器的仪表板磁贴简介
+description: 关于 Power BI 中的仪表板磁贴的所有信息 这包括从 SQL Server Reporting Services (SSRS) 报表创建的磁贴。
 author: maggiesMSFT
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 10/3/2018
+ms.date: 11/21/2018
 ms.author: maggies
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 76b8eaff949ee56d57511eabea913363e6cdc3f6
-ms.sourcegitcommit: 1e4fee6d1f4b7803ea285eb879c8d5a4f7ea8b85
+ms.openlocfilehash: de99c04077a58f1c0c060561674fefa9041fa144
+ms.sourcegitcommit: 35d763dfc75c229204d36fd8b35c1e860786b707
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/16/2018
-ms.locfileid: "51717392"
+ms.lasthandoff: 11/27/2018
+ms.locfileid: "52331956"
 ---
-# <a name="dashboard-tiles-in-power-bi"></a>Power BI 中的仪表板磁贴
-仪表板和仪表板磁贴是 Power BI 服务的一项功能，而不是 Power BI Desktop 的功能。 虽然无法在 Power BI 移动设备中创建或固定仪表板磁贴，但可以[查看和共享](mobile-tiles-in-the-mobile-apps.md)这些磁贴。 在 Power BI 移动设备中，可以[使用 iPhone 应用将照片添加到仪表板](mobile-iphone-app-get-started.md)。
+# <a name="intro-to-dashboard-tiles-for-power-bi-designers"></a>Power BI 设计器的仪表板磁贴简介
 
-## <a name="dashboard-tiles"></a>在推入数据时
+磁贴就是固定到仪表板的数据快照。 可以从报表、数据集、仪表板、问答框、Excel 和 SQL Server Reporting Services (SSRS) 报表等位置创建磁贴。  此屏幕截图显示了固定到仪表板的许多不同的磁贴。
+
 ![Power BI 仪表板](media/service-dashboard-tiles/power-bi-dashboard.png)
 
-磁贴就是固定到仪表板的数据快照。 磁贴可以从报表、数据集、仪表板、问答框、Excel 和 SQL Server Reporting Services (SSRS) 等中创建。  此屏幕截图显示了固定到仪表板的许多不同的磁贴。
+仪表板和仪表板磁贴是 Power BI 服务的一项功能，而不是 Power BI Desktop 的功能。 无法在移动设备上创建仪表板，但可以[查看和共享](mobile-apps-view-dashboard.md)仪表板。
 
-除了固定，还可使用[添加磁贴](service-dashboard-add-widget.md)直接在仪表板上创建独立磁贴。 独立磁贴包含：文本框、图像、视频、流数据和 Web 内容。
+除了固定的磁铁，还可使用[添加磁贴](service-dashboard-add-widget.md)直接在仪表板上创建独立磁贴。 独立磁贴包含：文本框、图像、视频、流数据和 Web 内容。
 
 是否需要了解构成 Power BI 的构建块的帮助？  请参阅 [Power BI - 基本概念](service-basic-concepts.md)。
 
@@ -43,7 +43,7 @@ ms.locfileid: "51717392"
 * [OneDrive for Business 上的 Excel 工作簿](service-dashboard-pin-tile-from-excel.md)
 * [Power BI Publisher for Excel](publisher-for-excel.md)
 * [快速见解](service-insights.md)
-* [SSRS](https://msdn.microsoft.com/library/mt604784.aspx)
+* [Reporting Services](https://docs.microsoft.com/sql/reporting-services/pin-reporting-services-items-to-power-bi-dashboards)
 
 还可以直接在仪表板上使用“[添加磁贴](service-dashboard-add-widget.md)”创建图像、文本框、视频、流数据和 Web 内容的独立磁贴。
 
@@ -78,7 +78,7 @@ ms.locfileid: "51717392"
 3. 若要关闭操作菜单，请在画布中选择空白区域。
 
 ### <a name="select-click-a-tile"></a>选择（单击）磁贴
-选择磁贴时，下一步会发生什么情况取决于创建该磁贴的方式以及其是否有[自定义链接](service-dashboard-edit-tile.md)。 如果它有自定义链接，则选择该磁贴将转到该链接。 否则，选择磁贴将转到报表、Excel 联机工作簿、本地 SSRS 报表或用于创建该磁贴的问答问题。
+选择磁贴时，出现的下一步取决于该磁贴的创建方式。 同样，如果磁贴有[自定义链接](service-dashboard-edit-tile.md)，则选择该磁贴将转到该链接。 否则，选择磁贴将转到报表、Excel Online 工作簿、本地 Reporting Services 报表或用于创建该磁贴的问答问题。
 
 > [!NOTE]
 > 这对在仪表板上直接使用“**添加磁贴**”创建的视频磁贴不适用。 选择视频磁贴（以这种方式创建的）将导致视频直接在仪表板上播放。   
@@ -86,12 +86,13 @@ ms.locfileid: "51717392"
 > 
 
 ## <a name="considerations-and-troubleshooting"></a>注意事项和疑难解答
+
 * 如果未保存用于创建可视化效果的报表，则选择磁贴将不会产生任何操作。
-* 如果该磁贴从 Excel Online 中的工作簿创建，并且你甚至不具有此工作薄的读取权限，则选择该磁贴将不会在 Excel Online 中打开工作簿。
-* 对于使用**添加磁贴**直接在仪表板上创建的磁贴，如果已经设置了自定义超链接，则选择标题、副标题或磁贴都将打开该 URL。  或者，默认情况下，选择直接在仪表板上创建的磁贴的图像、Web 代码或文本框都不会产生任何操作。
-* 如果没有 SSRS 内的报表的权限，选择从 SSRS 创建的磁贴将出现一个页面，指示你没有访问权限 (rsAccessDenied)。
-* 如果你没有 SSRS 服务器所在网络的访问权限，选择从 SSRS 创建的磁贴将出现一个页面，指示找不到服务器 (HTTP 404)。 你的设备需要具有对报表服务器的网络访问权限才能查看该报表。
-* 如果原始可视化效果用于创建磁贴更改，则磁贴不会更改。  例如，如果从报表固定一个折线图，然后将折线图更改为条形图，则仪表板磁贴将继续显示为折线图。 数据将会刷新，但可视化效果类型不会。
+* 如果是从 Excel Online 工作簿创建磁贴，则至少需要该工作簿的“读取”权限。 否则，选择磁贴将不会打开 Excel Online 工作簿。
+* 假设使用“添加磁贴”直接在仪表板上创建磁贴，并为其设置自定义超链接。 此时，选择标题、副标题或磁贴时将打开该 URL。 否则，默认情况下，选择直接在仪表板上创建的图像、Web 代码或文本框磁贴都不会产生任何反应。
+* 如果没有 Reporting Services 内的报表的权限，则选择从 Reporting Services 报表创建的磁贴时，会出现一个页面，表明你没有访问权限 (rsAccessDenied)。
+* 如果没有 Reporting Services 服务器所在网络的访问权限，则选择从 Reporting Services 创建的磁贴时，会出现一个页面，表明找不到服务器 (HTTP 404)。 设备需要具有对报表服务器的网络访问权限方可查看该报表。
+* 如果原始可视化效果用于创建磁贴更改，则磁贴不会更改。  例如，如果从报表固定一个折线图，然后将折线图更改为条形图，则仪表板磁贴会继续显示为折线图。 数据将会刷新，但可视化效果类型不会。
 
 ## <a name="next-steps"></a>后续步骤
 [为仪表板创建卡片（大数字磁贴）](power-bi-visualization-card.md)

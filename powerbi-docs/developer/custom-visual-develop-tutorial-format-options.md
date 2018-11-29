@@ -8,13 +8,13 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-developer
 ms.topic: tutorial
-ms.date: 11/06/2018
-ms.openlocfilehash: a3d36f988847df283576dae6cfe5870b707c6f98
-ms.sourcegitcommit: 02f918a4f27625b6f4e47473193ebc8219db40e2
+ms.date: 11/21/2018
+ms.openlocfilehash: 56de3745d59e4a26dffbb988e9543c294de261e3
+ms.sourcegitcommit: 458e091a0a0bfb71ea3980d44df6408f48bab586
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/07/2018
-ms.locfileid: "51223251"
+ms.lasthandoff: 11/22/2018
+ms.locfileid: "52289165"
 ---
 # <a name="tutorial-adding-formatting-options-to-a-power-bi-custom-visual"></a>教程：向 Power BI 自定义视觉对象添加格式设置选项
 
@@ -32,7 +32,7 @@ ms.locfileid: "51223251"
 
     应看到一条消息 - 格式设置选项对此视觉对象不可用。
 
-    ![格式设置画笔](media/custom-visual-develop-tutorial/format-paintbrush.png)
+    ![格式设置画笔](media/custom-visual-develop-tutorial-format-options/format-paintbrush.png)
 
 2. 在“Visual Studio Code”中，打开“capabilities.json”文件。
 
@@ -41,7 +41,7 @@ ms.locfileid: "51223251"
     ```json
     "objects": {},
     ```
-    ![添加对象](media/custom-visual-develop-tutorial/add-objects.png)
+    ![添加对象](media/custom-visual-develop-tutorial-format-options/add-objects.png)
 
 4. 保存“capabilities.json”文件。
 
@@ -50,13 +50,13 @@ ms.locfileid: "51223251"
     > [!Note]
     > 如果没有看到格式设置选项更改，则选择“重新加载自定义视觉对象”。
 
-    ![查看格式设置选项](media/custom-visual-develop-tutorial/view-formatting-options.png)
+    ![查看格式设置选项](media/custom-visual-develop-tutorial-format-options/view-formatting-options.png)
 
 6. 将“标题”选项设置为“关闭”。 请注意，视觉对象不再在左上角显示度量值名称。
 
-    ![磁贴选项处于关闭状态](media/custom-visual-develop-tutorial/tile-option-off.png)
+    ![磁贴选项处于关闭状态](media/custom-visual-develop-tutorial-format-options/tile-option-off.png)
 
-    ![没有名称磁贴](media/custom-visual-develop-tutorial/no-name-tile.png)
+    ![没有名称磁贴](media/custom-visual-develop-tutorial-format-options/no-name-tile.png)
 
 ### <a name="adding-custom-formatting-options"></a>添加自定义格式设置选项
 
@@ -64,7 +64,7 @@ ms.locfileid: "51223251"
 
 1. 在 PowerShell 中，停止定义视觉对象。
 
-2. 在 Visual Studio Code 中的“capabilities.json”文件中，将以下 JSON 片段插入到“objects”对象。
+2. 在 Visual Studio Code 中的 capabilities.json 文件中，将以下 JSON 片段插入标记为 objects 的对象。
 
     ```json
     "circle": {
@@ -89,12 +89,12 @@ ms.locfileid: "51223251"
                  }
              }
          }
-     }
+     },
     ```
 
     JSON 片段描述一个名为 circle 的组，该组包含名为 circleColor 和 circleThickness 的两个选项。
 
-   ![圆圈粗细代码](media/custom-visual-develop-tutorial/circle-thickness-code.png)
+   ![圆圈粗细代码](media/custom-visual-develop-tutorial-format-options/circle-thickness-code.png)
 
 3. 保存“capabilities.json”文件。
 
@@ -112,7 +112,7 @@ ms.locfileid: "51223251"
     }
     ```
 
-    ![模块类](media/custom-visual-develop-tutorial/module-classes.png)
+    ![模块类](media/custom-visual-develop-tutorial-format-options/module-classes.png)
 
     此模块类定义两个类。 CircleSettings 类定义两个属性，其中含有匹配在“capabilities.json”文件（circleColor 和 circleThickness）中定义的对象的名称，并设置默认值。 VisualSettings 类继承 DataViewObjectParser 类并添加命名为“circle”的属性，该属性匹配“capabilities.json”文件中定义的对象，并返回“CircleSettings” 的实例。
 
@@ -127,7 +127,7 @@ ms.locfileid: "51223251"
     ```
     此属性存储“VisualSettings”对象的引用，描述视觉对象设置。
 
-    ![添加 visual 类](media/custom-visual-develop-tutorial/visual-class-add-on.png)
+    ![添加 visual 类](media/custom-visual-develop-tutorial-format-options/visual-class-add-on.png)
 
 9. 在“Visual”类中，在“更新”方法前添加以下方法。 此方法用于填充格式设置选项。
 
@@ -140,7 +140,7 @@ ms.locfileid: "51223251"
     ```
     此方法用于填充格式设置选项。
 
-    ![视觉对象设置对象](media/custom-visual-develop-tutorial/visual-settings-object.png)
+    ![视觉对象设置对象](media/custom-visual-develop-tutorial-format-options/visual-settings-object.png)
 
 10. 在“更新”方法中，在“radius”变量的声明后，添加以下代码。
 
@@ -150,7 +150,7 @@ ms.locfileid: "51223251"
     ```
     此代码检索格式选项。 它将调整传递到“circleThickness”属性的任何值，如果为负值，则将其转换为 0，如果为大于 10 的值，则将其转换为 10。
 
-    ![Radius 变量](media/custom-visual-develop-tutorial/radius.png)
+    ![Radius 变量](media/custom-visual-develop-tutorial-format-options/radius.png)
 
 11. 对于“circle 元素”，将传递到“填充样式”的值修改为以下表达式。
 
@@ -158,7 +158,7 @@ ms.locfileid: "51223251"
     this.visualSettings.circle.circleColor
     ```
 
-    ![填充 circle 元素](media/custom-visual-develop-tutorial/circle-element-fill.png)
+    ![填充 circle 元素](media/custom-visual-develop-tutorial-format-options/circle-element-fill.png)
 
 12. 对于“circle 元素”，将传递到“笔划宽度样式”的值修改为以下表达式。
 
@@ -166,7 +166,7 @@ ms.locfileid: "51223251"
     this.visualSettings.circle.circleThickness
     ```
 
-    ![Circle 笔划宽度](media/custom-visual-develop-tutorial/circle-stroke-width.png)
+    ![Circle 笔划宽度](media/custom-visual-develop-tutorial-format-options/circle-stroke-width.png)
 
 13. 保存 visual.ts 文件。
 
@@ -180,7 +180,7 @@ ms.locfileid: "51223251"
 
 16. 在“视觉对象格式”选项中，展开“Circle”。
 
-    ![Circle 格式](media/custom-visual-develop-tutorial/circle-format.png)
+    ![Circle 格式](media/custom-visual-develop-tutorial-format-options/circle-format.png)
 
     修改“颜色”和“粗细”选项。
 
@@ -198,7 +198,7 @@ ms.locfileid: "51223251"
 
     在“可视化效果”窗格中，将鼠标悬停在图标上方将显示显示名称。
 
-    ![“显示名称”视觉对象](media/custom-visual-develop-tutorial/display-name-viz.png)
+    ![“显示名称”视觉对象](media/custom-visual-develop-tutorial-format-options/display-name-viz.png)
 
 4. 对于“description”属性，请输入以下文本。
 
@@ -216,7 +216,7 @@ ms.locfileid: "51223251"
 
 10. 查看图标。
 
-    ![Viz 窗格图像](media/custom-visual-develop-tutorial/viz-pane-image.png)
+    ![Viz 窗格图像](media/custom-visual-develop-tutorial-format-options/viz-pane-image.png)
 
 11. 在 Visual Studio Code 中，确保已保存所有文件。
 
@@ -226,7 +226,7 @@ ms.locfileid: "51223251"
     pbiviz package
     ```
 
-    ![Dist 文件夹](media/custom-visual-develop-tutorial/dist-folder.png)
+    ![Dist 文件夹](media/custom-visual-develop-tutorial-format-options/dist-folder.png)
 
 现在，包被输出到项目的 dist 文件夹。 该包包含将自定义视觉对象导入到 Power BI 服务或 Power BI Desktop 报表所需的所有内容。 现在已打包自定义视觉对象，且它现在可供使用。
 
@@ -238,7 +238,7 @@ ms.locfileid: "51223251"
 
 2. 在“可视化效果”窗格中，选择“省略号”，然后从文件中选择“导入”。
 
-    ![将自定义 viz 添加到桌面](media/custom-visual-develop-tutorial/add-custom-viz-to-desktop.png)
+    ![将自定义 viz 添加到桌面](media/custom-visual-develop-tutorial-format-options/add-custom-viz-to-desktop.png)
 
 3. 在“导入窗口”中，选择“导入”。
 
@@ -250,7 +250,7 @@ ms.locfileid: "51223251"
 
 7. 验证视觉对象已被添加到“可视化效果”窗格。
 
-    ![在“PBI Desktop viz”窗格中查看](media/custom-visual-develop-tutorial/view-in-desktop-viz-pane.png)
+    ![在“PBI Desktop viz”窗格中查看](media/custom-visual-develop-tutorial-format-options/view-in-desktop-viz-pane.png)
 
 8. 将鼠标悬停在“Circle Card”图标，并注意显示的工具提示。
 

@@ -1,56 +1,73 @@
 ---
-title: 认证的 Power BI 自定义可视化效果
+title: 认证的 Power BI 自定义视觉对象
 description: 提交自定义视觉对象以供认证的要求和过程。 已认证的自定义视觉对象的列表。
-author: mihart
-ms.author: mihart
+author: markingmyname
+ms.author: maghan
 manager: kfile
 ms.reviewer: ''
 featuredvideoid: ''
 ms.service: powerbi
 ms.component: powerbi-developer
 ms.topic: conceptual
-ms.date: 10/30/2018
-ms.openlocfilehash: 72b09083c50a88e2d22e9aa22f54ff014dafa998
-ms.sourcegitcommit: 02f918a4f27625b6f4e47473193ebc8219db40e2
+ms.date: 11/21/2018
+ms.openlocfilehash: fd352cd78225e647acf53c2af899e4d2fc662376
+ms.sourcegitcommit: 458e091a0a0bfb71ea3980d44df6408f48bab586
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/07/2018
-ms.locfileid: "51223435"
+ms.lasthandoff: 11/22/2018
+ms.locfileid: "52289257"
 ---
-# <a name="getting-a-custom-visual-certified"></a>让自定义视觉对象取得认证
+# <a name="certified-custom-visuals"></a>认证的自定义视觉对象
 
-## <a name="what-is-meant-by-certified"></a>取得认证是指什么？
+## <a name="what-are-certified-custom-visuals"></a>什么是“认证的”自定义视觉对象？
 
-取得认证的自定义视觉对象是指已满足一系列代码要求且已通过严格的安全测试。  自定义视觉对象取得认证后，它可以[导出到 PowerPoint 中](consumer/end-user-powerpoint.md)，并显示在用户[订阅报表页](consumer/end-user-subscribe.md)后收到的电子邮件中。 当然，它还可以用作[标准自定义视觉对象](power-bi-custom-visuals.md)，添加到 Power BI 服务和 Power BI Desktop 报表中，并在 Power BI 移动中查看和嵌入。
+认证的自定义视觉对象是市场中满足经 Microsoft Power BI 团队测试和批准的某些指定代码要求的视觉对象。 自定义视觉对象一旦通过认证，将提供更多功能。 例如，可[导出到 PowerPoint](consumer/end-user-powerpoint.md)，并且如果用户[订阅了报表页](consumer/end-user-subscribe.md)，则可在收到的电子邮件中的显示视觉对象。
 
-你是 Web 开发者吗？对创建自己的可视化效果，并将它们添加到 [Microsoft AppSource](https://appsource.microsoft.com) 感兴趣吗？ 请参阅[开发 Power BI 自定义视觉对象](developer/custom-visual-develop-tutorial.md)，了解如何操作。
+认证的自定义视觉对象的用法类似于[标准自定义视觉对象](power-bi-custom-visuals.md)。 可将认证的自定义视觉对象添加到 Power BI 服务、Power BI Desktop 报表，并通过 Power BI 移动版和 Power BI Embedded 查看。
 
-## <a name="certification-requirements"></a>认证要求
+执行的测试旨在检查视觉对象是否会访问外部服务或资源。 Microsoft 不是第三方自定义视觉对象的作者，建议客户直接与作者联系，验证此类视觉对象的功能。
 
-* Microsoft AppSource 已批准
-* 自定义视觉对象是使用经版本控制的 API 1.2 或更高版本进行编写
-* 代码存储库可供审核（例如，可通过 GitHub 审核视觉对象代码）
-* 仅使用可审核的公共 OSS 组件
-* 不访问外部服务或资源
+认证过程是一个可选过程，由开发人员决定是否让其在市场中的视觉对象接受认证。  
 
-> 提示：建议结合使用 EsLint 与默认安全规则集，以便在提交之前预先验证代码。
+未经认证的自定义视觉对象并不一定是不安全的视觉对象。 某些视觉对象未经认证，是因为它们与一个或多个[认证要求](https://docs.microsoft.com/power-bi/power-bi-custom-visuals-certified?#certification-requirements)不符。 例如，连接到外部服务的地图视觉对象，或使用商业库的视觉对象。
+
+你是 Web 开发者吗？对创建自己的可视化效果，并将它们添加到 [Microsoft AppSource](https://appsource.microsoft.com) 感兴趣吗 ****？ 请参阅[开发 Power BI 自定义视觉对象，了解如何操作](developer/custom-visual-develop-tutorial.md) ****。
+
+## <a name="removal-of-power-bi-certified-custom-visuals"></a>删除 Power BI 认证的自定义视觉对象
+
+Microsoft 可自行从[经认证列表](#list-of-custom-visuals-that-have-been-certified)中删除视觉对象。
+
+## <a name="getting-a-custom-visualcertified"></a>让自定义视觉对象取得认证
+
+### <a name="certification-requirements"></a>认证要求
+
+若要让自定义视觉对象[获得认证](#certified-custom-visuals)，自定义视觉对象必须符合以下要求：  
+
+* 经 Microsoft AppSource 批准。 自定义视觉对象应位于我们的[市场](https://appsource.microsoft.com/marketplace/apps?page=1&product=power-bi-visuals)中。
+* 自定义视觉对象是使用经版本控制的 API 1.2 或更高版本编写的。
+* 可供 PowerBI 团队查看的代码存储库（例如，通过 GitHub 提供的人工可读格式的源代码（JavaSCript 或 TypeScript））。
+
+    >[!Note]
+    > 无需在 Github 中公开共享代码。
+
+* 仅使用可审核的公共 OSS 组件（公共的 JS 库或 TypeScript。 源代码可供审核，且无已知漏洞）。 我们无法验证使用商业组件的自定义视觉对象。
+
+* 不访问外部服务或资源，包括但不限于，没有从 Power BI 到任何服务的 HTTP/S 或 WebSocket 请求。 
+
+> [!TIP]
+> 建议结合使用 EsLint 与默认安全规则集，以便在提交之前预先验证代码。
 
 ## <a name="process-for-submitting-a-custom-visual-for-certification"></a>提交自定义视觉对象以供认证的过程
 
 提交自定义视觉对象以供认证：
 
-1. 向 Power BI 自定义视觉对象支持人员 (pbicvsupport@microsoft.com) 发送电子邮件。 在电子邮件中，添加以下信息：    
+1. 向 Power BI 自定义视觉对象支持团队 (pbicvsupport@microsoft.com) 发送电子邮件。 在电子邮件中，添加以下信息：
+    * 标题：视觉对象认证申请
+    * 指向托管人工可读源代码的 GitHub 存储库的链接
+    * [符合要求](#certification-requirements)
+    * 通过代码审查
 
-   * 标题：视觉对象认证申请
-   * 指向托管视觉对象源代码的 GitHub 存储库的链接
-   * 符合要求（见上文）
-   * 通过代码和安全审核
-
-2. Microsoft 自定义视觉对象团队会通知你自定义视觉对象已取得认证并添加到“取得认证”列表（见下文）中，或自定义视觉对象已遭拒，并随附一份报告，在其中列出需要解决的问题。 开发者负责维护与 Microsoft 建立开放式沟通渠道，并根据需要更新取得认证的视觉对象。
-
-## <a name="removal-of-power-bi-certified-custom-visuals"></a>删除 Power BI 认证的自定义视觉对象
-
-Microsoft 可能会自行从“取得认证”列表中删除视觉对象。  
+2. Microsoft 自定义视觉对象团队会通知你自定义视觉对象已取得认证，并添加到了[经认证列表](#list-of-custom-visuals-that-have-been-certified)中，或自定义视觉对象已遭拒，并随附一份报告，在其中列出需要解决的问题。 由开发者负责维护与 Microsoft 间的开放式沟通渠道，并根据需要更新经认证的视觉对象。
 
 ## <a name="list-of-custom-visuals-that-have-been-certified"></a>取得认证的自定义视觉对象的列表
 

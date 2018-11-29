@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 03/02/2018
 ms.author: mihart
 LocalizationGroup: Common tasks
-ms.openlocfilehash: 7fcf7411e7785f4403e08d1e3094a60bd93bcf57
-ms.sourcegitcommit: 70192daf070ede3382ac13f6001e0c8b5fb8d934
+ms.openlocfilehash: 46b943b9de7e8bae29c20617f957c81de2d49f94
+ms.sourcegitcommit: fdb54145f9bc93b312409c15c603749f3a4a876e
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/22/2018
-ms.locfileid: "46565052"
+ms.lasthandoff: 11/28/2018
+ms.locfileid: "52452490"
 ---
 # <a name="favorite-dashboards-reports-and-apps-in-power-bi-service"></a>在 Power BI 服务中收藏仪表板、报表和应用
 收藏内容后，可从所有工作区访问它。  收藏夹中通常放置最常访问的内容。
@@ -54,7 +54,7 @@ ms.locfileid: "46565052"
    ![将鼠标悬停在应用上](./media/end-user-favorite/power-bi-favorite-app.png)
 
 ## <a name="working-with-favorites"></a>使用*收藏夹*
-1. 若要访问收藏的项，请在任意工作区中，选择“收藏夹”右侧的箭头。  在此处可以选择一个收藏来打开它。 仅列出五个收藏项（按字母顺序排列）。 如果收藏数量超过五个，可选择“查看全部”打开“收藏夹”屏幕（请参阅下面的第 2 点）。 
+1. 若要访问收藏的项，请在任意工作区中，选择“收藏夹”右侧的浮出控件箭头。  在此处可以选择一个收藏来打开它。 仅列出五个收藏项（按字母顺序排列）。 如果收藏数量超过五个，可选择“查看全部”打开“收藏夹”屏幕（请参阅下面的第 2 点）。 
    
    ![收藏夹浮出控件](./media/end-user-favorite/power-bi-favorite-flyout-new.png)
 2. 要查看已加入收藏夹的“所有”内容，请在左侧导航窗格中选择“收藏夹”或“收藏”![星形图标](./media/end-user-favorite/power-bi-favorites-icon.png) 图标。  
