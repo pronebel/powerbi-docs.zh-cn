@@ -19,9 +19,9 @@ ms.locfileid: "34456217"
 ---
 # <a name="tutorial-create-calculated-columns-in-power-bi-desktop"></a>教程：创建 Power BI Desktop 中的计算列
 
-有时，当前分析的数据不包含获取所期望结果时所需的特定字段。 这就是计算列的有用之处。 计算列使用数据分析表达式 (DAX) 公式来定义列值，包括从组合几个不同列中的文本值到通过其他值计算数值的任何操作。 例如，假设你的数据中含有“城市”和“州”两个字段，但你想要使同时含有这两个列的单一“位置”字段，如“迈阿密，佛罗里达州”。 这正是计算列的作用。
+有时，当前分析的数据不包含获取期望结果所需的特定字段。 此时就可以引入计算列。 计算列使用数据分析表达式 (DAX) 公式来定义列值，可执行从组合几个不同列中的文本值到通过其他值来计算数值中涉及的任何操作。 例如，假设你的数据中含有“城市”和“州”两个字段，但你想要使用单一“位置”字段来同时含这两项内容，如“迈阿密，佛罗里达州”。 这正符合计算列的用途。
 
-计算列类似于[度量值](desktop-tutorial-create-measures.md)，因为二者都基于 DAX 公式，但它们的区别在于如何使用。 通常会在可视化效果的“值”区域中使用度量值，以基于其他字段计算结果。 可以使用计算列作为可视化效果的行、轴、图例和组区域中的新字段。
+计算列类似于[度量值](desktop-tutorial-create-measures.md)，因为二者都基于 DAX 公式，但它们的区别在于使用方式。 通常会在可视化效果的“值”区域中使用度量值，以基于其他字段计算结果。 可以将计算列用作可视化效果的行、轴、图例和组区域中的新字段。
 
 本教程将指导你了解和创建一些计算列，并在 Power BI Desktop 的报表可视化效果中使用它们。 
 
@@ -44,11 +44,11 @@ ms.locfileid: "34456217"
     
     ![公式栏](media/desktop-tutorial-create-calculated-columns/create3.png)
     
-2.  默认情况下，新计算列简单地命名为“列”。 如果不进行重命名，其他新列将命名列 2、列 3，依此类推。 你希望列更易于识别，因此由于“列”名称已在公式栏中突出显示，可以通过键入“ProductFullCategory”来重命名，然后键入等号 (=)。
+2.  默认情况下，新计算列简单地命名为“列”。 如果不进行重命名，其他新列将命名为“列 2”、“列 3”，依此类推。 你希望列更易于识别，因此鉴于“列”名称已在公式栏中突出显示，可以通过键入**ProductFullCategory**来重命名，然后键入等号 (**=**)。
     
 3.  你希望新列中的值以 ProductCategory 名称开始。 由于此列在不同但相关的表中，因此可以使用 [RELATED](https://msdn.microsoft.com/library/ee634202.aspx) 函数来帮助获得它。
     
-    在等号后键入“r”。 下拉建议列表显示了以字母 R 开头的所有 DAX 函数。选择每个函数都将显示其效果说明。 键入时，建议列表会更接近你所需的函数。 选择“RELATED”，然后按 Enter。
+    在等号后键入“r”。 下拉建议列表显示了以字母 R 开头的所有 DAX 函数。选中每个函数时都将显示其效果说明。 键入时，建议列表会更接近你所需的函数。 选择“RELATED”，然后按 Enter。
     
     ![选择“RELATED”](media/desktop-tutorial-create-calculated-columns/create4.png)
     
@@ -89,7 +89,7 @@ ms.locfileid: "34456217"
    
    ![ProductFullCategory 表](media/desktop-tutorial-create-calculated-columns/vis1.png)
     
-2. 从“销售”表选择“SalesAmount”字段或将其拖动到表，以显示每个产品完整类别的销售额。
+2. 从“销售”表选择**SalesAmount**字段或将其拖动到表上，以显示每个产品完整类别的销售额。
    
    ![按 ProductFullCategory 排列的 SalesAmount 表](media/desktop-tutorial-create-calculated-columns/vis2.png)
     
@@ -106,7 +106,7 @@ Contoso 销售示例包括针对活跃商店和非活跃商店的销售数据。
     
     ![选择“IF”](media/desktop-tutorial-create-calculated-columns/if1.png)
     
-3.  IF 第一个参数是商店状态是否为“开”的逻辑测试。 键入一个左括号 [，它从“商店”表中列出列，然后选择“[Status]”。
+3.  IF 第一个参数是商店状态是否为“开”的逻辑测试。 键入一个左括号 **[**，它会从“商店”表中列出列，然后选择 **[Status]**。
     
     ![选择“Status”](media/desktop-tutorial-create-calculated-columns/if2.png)
     
