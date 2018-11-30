@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/15/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 73be85644fd320bd44372a0df6c844705c3cf602
-ms.sourcegitcommit: b8461c1876bfe47bf71c87c7820266993f82c0d3
+ms.openlocfilehash: f4825e8d8d47f755b01748c847b0fcf110db030a
+ms.sourcegitcommit: fdb54145f9bc93b312409c15c603749f3a4a876e
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/15/2018
-ms.locfileid: "49336912"
+ms.lasthandoff: 11/28/2018
+ms.locfileid: "52452858"
 ---
 # <a name="use-the-sap-bw-connector-in-power-bi-desktop"></a>在 Power BI Desktop 中使用 SAP BW 连接器
 使用 Power BI Desktop 可以访问 SAP BusinessWarehouse (BW) 数据。
@@ -197,11 +197,28 @@ Implementation 2.0 支持以下选项：
            </item>
    
    为了修复此错误，用户必须要求他们的 SAP 管理员授予在 Power BI 中使用的 SAPBW 用户执行 *BAPI_USER_GET_DETAIL* 的权限。 需要确定的另一点是，用户是否具有必需的 *DCPFM* 值，如本故障排除解决方案前面的内容所述。
+   
 2. **SAP BEx 查询的连接**
    
    你可以通过启用特定属性执行 Power BI Desktop 中的“BEx”查询，如下图所示：
    
    ![](media/desktop-sap-bw-connector/sap_bw_8.png)
+   
+3. “导航器”窗口不显示数据预览，而是提供“对象引用未设置为对象实例”的错误消息。
+   
+   SAP 用户需要访问特定 BAPI 功能模块才能获取元数据，并从 SAP BW 的 InfoProviders 中检索数据。 其中包括：
+   * BAPI_MDPROVIDER_GET_CATALOGS
+   * BAPI_MDPROVIDER_GET_CUBES
+   * BAPI_MDPROVIDER_GET_DIMENSIONS
+   * BAPI_MDPROVIDER_GET_HIERARCHYS
+   * BAPI_MDPROVIDER_GET_LEVELS
+   * BAPI_MDPROVIDER_GET_MEASURES
+   * BAPI_MDPROVIDER_GET_MEMBERS
+   * BAPI_MDPROVIDER_GET_VARIABLES
+   * BAPI_IOBJ_GETDETAIL
+
+   要解决此问题，请验证用户是否有权访问各种 MDPROVIDER 模块以及 BAPI_IOBJ_GETDETAIL。 要进一步解决此问题或类似问题，请在 Power BI Desktop“选项”的“诊断”窗口中选择“启用跟踪”。 在跟踪处于活动状态时尝试从 SAP BW 检索数据，并检查跟踪文件以获取更多详细信息。
+
 
 ## <a name="next-steps"></a>后续步骤
 有关 SAP 和 DirectQuery 的详细信息，请查看以下资源：
