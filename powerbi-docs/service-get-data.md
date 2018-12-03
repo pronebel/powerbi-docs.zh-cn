@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 07/27/2018
+ms.date: 11/28/2018
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: 4b61ff56ea1aec64a3e88db46836f948c4190d60
-ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
+ms.openlocfilehash: 2a23a725ecad5641c3f82fa4c57ee1a0bc951e28
+ms.sourcegitcommit: 2ae660a7b70fce23eb58b159d049eca44a664f2c
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/21/2018
-ms.locfileid: "46547444"
+ms.lasthandoff: 11/30/2018
+ms.locfileid: "52670332"
 ---
 # <a name="data-sources-for-the-power-bi-service"></a>Power BI 服务数据源
 数据是 Power BI 的核心。 当研究数据、创建图表和仪表板，以及使用问答进行提问时，所看到上述全部可视化效果和答案实际上均是从数据集获得其基础数据的。 但是，数据集来自何处呢？ 它来自数据源。
