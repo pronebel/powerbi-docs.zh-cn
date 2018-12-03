@@ -1,4 +1,4 @@
----
+﻿---
 title: 教程：使用 Power BI Desktop 从网页导入和分析数据
 description: 教程：使用 Power BI Desktop 从网页导入和分析数据
 author: davidiseminger
@@ -52,7 +52,7 @@ ms.locfileid: "52578833"
    ![导航器对话框](media/desktop-tutorial-importing-and-analyzing-data-from-a-web-page/tutorialimanaly_navigator.png)
    
    >[!NOTE]
-   >“预览”窗格只显示最近选择的表，但当选择“编辑”或“加载”时，所有被选中的表都会加载到**Power Query 编辑器**中。 
+   >“预览”窗格显示最近选择的表，但当选择“编辑”或“加载”时，所有选择的表都会加载到“Power Query 编辑器”。 
    
 3. 字段自动更改为“年份计数”度量值，地图可视化效果现在针对锦标赛获胜次数较多的国家/地区会显示较大数据点。 
    
