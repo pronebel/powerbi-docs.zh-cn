@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: quickstart
-ms.date: 07/27/2018
+ms.date: 11/28/2018
 ms.author: davidi
 LocalizationGroup: quickstart
-ms.openlocfilehash: f7266691573c0d02bafa7120b5d4a28ff0c03076
-ms.sourcegitcommit: f01a88e583889bd77b712f11da4a379c88a22b76
+ms.openlocfilehash: 01f36c65c63527256ce11c63f66c3ce4bc0a76c5
+ms.sourcegitcommit: 2ae660a7b70fce23eb58b159d049eca44a664f2c
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/27/2018
-ms.locfileid: "39327652"
+ms.lasthandoff: 11/30/2018
+ms.locfileid: "52670799"
 ---
 # <a name="quickstart-connect-to-data-in-power-bi-desktop"></a>快速入门：连接到 Power BI Desktop 中的数据
 
@@ -33,7 +33,7 @@ ms.locfileid: "39327652"
 
 ## <a name="launch-power-bi-desktop"></a>启动 Power BI Desktop
 
-安装 Power BI Desktop 后，启动应用程序，以便它在本地计算机上运行。 此时将显示空白画布，你将在其中通过连接的数据创建视觉对象和报表。 
+安装 Power BI Desktop 后，启动应用程序，以便它在本地计算机上运行。 将看到空白画布，你将在其中通过连接的数据创建视觉对象和报表。 
 
 ![Power BI Desktop - 空白画布](media/desktop-quickstart-connect-to-data/qs-connect-data_01.png)
 
@@ -51,7 +51,7 @@ ms.locfileid: "39327652"
 
 由于这是 Excel 文件，我们从“获取数据”窗口中选择“Excel”，然后选择“连接”按钮。
 
-Power BI 将提示我们提供想要连接的 Excel 文件的位置。 下载文件名为“财务示例”，因此我们会选择该文件，然后选择“打开”。
+我们将提示你提供我们想要连接的 Excel 文件的位置。 下载文件名为“财务示例”，因此我们会选择该文件，然后选择“打开”。
 
 ![获取数据](media/desktop-quickstart-connect-to-data/qs-connect-data_04.png)
 

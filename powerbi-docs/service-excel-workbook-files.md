@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 07/27/2018
+ms.date: 11/28/2018
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: 47fab5ad2e7b43d98e54e2379e3add775ec39469
-ms.sourcegitcommit: f01a88e583889bd77b712f11da4a379c88a22b76
+ms.openlocfilehash: 85f7dd131806cd808c28c23cb70230a0c719e0a1
+ms.sourcegitcommit: 2ae660a7b70fce23eb58b159d049eca44a664f2c
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/27/2018
-ms.locfileid: "39329399"
+ms.lasthandoff: 11/30/2018
+ms.locfileid: "52670178"
 ---
 # <a name="get-data-from-excel-workbook-files"></a>从 Excel 工作簿文件中获取数据
 ![](media/service-excel-workbook-files/excel_icon.png)
@@ -116,7 +116,7 @@ Power BI 支持以下数据类型：整数、十进制数、货币、日期、Tr
 ## <a name="publish-from-excel-2016-to-your-power-bi-site"></a>从 Excel 2016 发布到 Power BI 网站
 使用 Excel 2016 中的**发布到 Power BI** 功能实际上与使用 Power BI 中的“获取数据”导入或连接到你的文件相同。 我们在此将不会进行详细介绍，但你可以查看[从 Excel 2016 发布到 Power BI](service-publish-from-excel.md) 了解详细信息。
 
-## <a name="troubleshooting"></a>故障排除
+## <a name="troubleshooting"></a>疑难解答
 工作簿文件太大？ 查阅[减小 Excel 工作簿的大小以便在 Power BI 中进行查看](reduce-the-size-of-an-excel-workbook.md)。
 
 目前，当你选择“导入”时，Power BI 只会导入属于已命名表或数据模型的数据。 因此，如果工作簿不包含已命名表、Power View 表或 Excel 数据模型，你可能会看到如下错误：“我们在 Excel 工作簿中找不到任何数据”。 [本文](service-admin-troubleshoot-excel-workbook-data.md)介绍如何修复你的工作簿，然后重新导入。

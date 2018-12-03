@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
 ms.date: 10/22/2018
-ms.openlocfilehash: e62d39f13e2b171456d667ec9683acd4ebdc5516
-ms.sourcegitcommit: 46f1ba3f972f6e64bce05ad0fd527b27c49aedd6
+ms.openlocfilehash: 47fb90ba0f73bba2b210a9003b782a477dbf8214
+ms.sourcegitcommit: 05303d3e0454f5627eccaa25721b2e0bad2cc781
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/20/2018
-ms.locfileid: "52157117"
+ms.lasthandoff: 11/28/2018
+ms.locfileid: "52578718"
 ---
 # <a name="power-bi-urls"></a>Power BI URL
 
@@ -29,7 +29,7 @@ Power BI 联机服务只需针对列出的终结点打开 TCP 端口 443。
 通配符 (*) 表示根域下的所有级别，并且在信息不可用时，我们将使用 N/A。 “目标”列是包含 FQDN/域和外部站点链接的列表，其中包含更多终结点信息。
 
 >[!Important]
->下表中的信息并不代表美国政府云、德国云或中国云。
+>下表中的信息并不代表美国政府云、德国云或中国云**。
 
 ## <a name="authentication"></a>身份验证
 
@@ -91,7 +91,7 @@ Power BI 依赖于特定终结点，以便能够查看和访问自定义视觉�
 | 行 | 用途 | 目标 | 端口 |
 | --- | --- | --- | --- |
 | 1 | 必需：从市场接口或从文件导入自定义视觉对象 | *.azureedge.net </br> *.blob.core.windows.net </br> store.office.com | TCP 443 |
-| 2 | 可选：必应地图 | bing.com </br> platform.bing.com </br> *.dynamic.tiles.virtualearth.net </br> *.virtualearth.net | TCP 443 |
+| 2 | 可选：必应地图 | bing.com </br> platform.bing.com </br> *.virtualearth.net | TCP 443 |
 | 3 | 可选：PowerApps | 请参阅 PowerApps 系统要求站点中的[必需的服务](https://docs.microsoft.com/powerapps/maker/canvas-apps/limits-and-config#required-services)部分 | 不适用 |
 | 4 | 可选：Visio | 请参阅 Office 365 文档，了解 [Office Online 和常用 URL](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges#microsoft-365-common-and-office-online) 以及 [SharePoint Online 和 OneDrive for Business](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges#sharepoint-online-and-onedrive-for-business) | 不适用 |
 | | | |
@@ -103,7 +103,7 @@ Power BI 可链接到其他相关站点。 包括文档、支持、新功能请�
 | 行 | 用途 | 目标 | 端口 |
 | --- | --- | --- | --- |
 | 1 | 可选：社区站点 | community.powerbi.com </br> oxcrx34285.i.lithium.com | TCP 443 |
-| 2 | 可选：文档站点 | docs.microsoft.com </br> img-prod-cms-rt-microsoft-com.akamaized.net </br> statics-uhf-eas.akamaized.net </br> cdnssl.clicktale.neting-district.clicktale.net | TCP 443 |
+| 2 | 可选：文档站点 | docs.microsoft.com </br> img-prod-cms-rt-microsoft-com.akamaized.net </br> statics-uhf-eas.akamaized.net </br> cdnssl.clicktale.net </br> ing-district.clicktale.net | TCP 443 |
 | 3 | 可选：下载站点（用于 Power BI Desktop 等） | download.microsoft.com | TCP 443 |
 | 4 | 可选：外部重定向 | aka.ms </br> go.microsoft.com | TCP 443 |
 | 5 | 可选：意见反馈网站| ideas.powerbi.com </br> powerbi.uservoice.com | TCP 443 |

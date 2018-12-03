@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 07/27/2018
+ms.date: 11/28/2018
 ms.author: davidi
 LocalizationGroup: Transform and shape data
-ms.openlocfilehash: 33462cbdac69d13d64d396a1dd93a6e1922a9e2c
-ms.sourcegitcommit: a739a99e1006834a0f56e387c0bd9d945fb8a76b
+ms.openlocfilehash: 0c972a218e8cf1197aef5b2948519b3fe997aee0
+ms.sourcegitcommit: 2ae660a7b70fce23eb58b159d049eca44a664f2c
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/15/2018
-ms.locfileid: "51679338"
+ms.lasthandoff: 11/30/2018
+ms.locfileid: "52670661"
 ---
 # <a name="common-query-tasks-in-power-bi-desktop"></a>Power BI Desktop 中的常见查询任务
 使用 Power BI Desktop 的**查询编辑器**窗口时，可执行很多常用任务。 本文档演示了这些常见的任务，并提供其他信息的链接。 
@@ -58,7 +58,7 @@ ms.locfileid: "51679338"
 
 选择**确定**；和以前一样，Power BI Desktop 将检查工作簿，并呈现其在**导航器**窗口中找到的数据。
 
-连接其他数据与此类似。 如果需要身份验证才能建立数据连接，Power BI Desktop 将提示你提供相应凭据。
+其他数据连接与此类似。 如果需要身份验证才能建立数据连接，Power BI Desktop 将提示你提供相应凭据。
 
 有关连接到 Power BI Desktop 中数据的分步演示，请参阅[连接到 Power BI Desktop 中的数据](https://docs.microsoft.com/power-bi/desktop-connect-to-data)。
 

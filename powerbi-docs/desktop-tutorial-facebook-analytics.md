@@ -7,17 +7,17 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: tutorial
-ms.date: 05/21/2018
+ms.date: 11/28/2018
 ms.author: davidi
 LocalizationGroup: Learn more
-ms.openlocfilehash: b7aac59c9d3848db37211475cd82447d6359b459
-ms.sourcegitcommit: fecea174721d0eb4e1927c1116d2604a822e4090
+ms.openlocfilehash: ec90e63de1e42350ff205febdc66abf4ba6ee626
+ms.sourcegitcommit: 05303d3e0454f5627eccaa25721b2e0bad2cc781
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/31/2018
-ms.locfileid: "34456013"
+ms.lasthandoff: 11/28/2018
+ms.locfileid: "52578488"
 ---
-# <a name="tutorial-facebook-analytics-using-power-bi-desktop"></a>教程︰使用 Power BI Desktop 进行 Facebook 分析
+# <a name="tutorial-facebook-analytics-using-power-bi-desktop"></a>教程：使用 Power BI Desktop 的 Facebook 分析
 
 在本教程中，你将学习如何导入来自 Facebook 的数据并在 Power BI Desktop 中使用该数据。 将从 Power BI Facebook 页面连接和导入数据，将转换应用于导入的数据，并在报表可视化效果中使用数据。
 
@@ -226,7 +226,7 @@ ms.locfileid: "34456013"
 
 尝试使用其他格式设置选项和设置来改变可视化效果的外观。 
 
-![可视化效果](media/desktop-tutorial-facebook-analytics/vis-1.png)
+![可视化](media/desktop-tutorial-facebook-analytics/vis-1.png)
 
 ## <a name="create-more-visualizations"></a>创建更多可视化效果
 

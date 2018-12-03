@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 07/27/2018
+ms.date: 11/28/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: aca4e2419de7a1b4e55f9e8ac095ef7622bb373e
-ms.sourcegitcommit: f01a88e583889bd77b712f11da4a379c88a22b76
+ms.openlocfilehash: ba5d0a0a09326db4991d3737dd552ff31a3e3325
+ms.sourcegitcommit: 2ae660a7b70fce23eb58b159d049eca44a664f2c
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/27/2018
-ms.locfileid: "39330227"
+ms.lasthandoff: 11/30/2018
+ms.locfileid: "52669380"
 ---
 # <a name="directquery-for-oracle-and-teradata-databases"></a>Oracle 和 Teradata 数据库的 DirectQuery
 有关数据源和 DirectQuery 的信息，请参阅 [DirectQuery 数据源](desktop-directquery-data-sources.md)。

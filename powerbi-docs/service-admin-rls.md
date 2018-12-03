@@ -7,18 +7,19 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-admin
 ms.topic: conceptual
-ms.date: 01/02/2018
 ms.author: mblythe
+ms.date: 01/02/2018
 LocalizationGroup: Administration
-ms.openlocfilehash: b99f346102ae8b5f31db8101e499fb6915d870de
-ms.sourcegitcommit: a186679e8dae85dce23f6365bf5c36d7f407f15b
+ms.openlocfilehash: 920fa426f98098768583e07d8f2b6c9825bfad1b
+ms.sourcegitcommit: 05303d3e0454f5627eccaa25721b2e0bad2cc781
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/16/2018
-ms.locfileid: "51850398"
+ms.lasthandoff: 11/28/2018
+ms.locfileid: "52578419"
 ---
 # <a name="row-level-security-rls-with-power-bi"></a>Power BI 行级别安全性 (RLS)
-Power BI 行级别安全性 (RLS) 可用于限制给定用户的数据访问。 筛选器限制行级别的数据访问，你可以定义角色中的筛选器。 请注意，在 Power BI 服务中，工作区的成员有权访问工作区中的数据集。 RLS 不限制此类数据访问。 
+
+Power BI 行级别安全性 (RLS) 可用于限制给定用户的数据访问。 筛选器限制行级别的数据访问，你可以定义角色中的筛选器。 请注意，在 Power BI 服务中，工作区的成员有权访问工作区中的数据集。 RLS 不限制此类数据访问。
 
 可以使用 Power BI Desktop 为导入到 Power BI 的数据模型配置 RLS。 你还可以在使用 DirectQuery（如 SQL Server）的数据集上配置 RLS。 在此之前，你只能在 Power BI 外的本地 Analysis Services 模型中实现 RLS。 对于 Analysis Services 的实时连接，你可以在本地模型上配置行级别安全性。 实时连接数据集不会显示安全选项。
 
@@ -34,6 +35,7 @@ Power BI 行级别安全性 (RLS) 可用于限制给定用户的数据访问。 
 [!INCLUDE [include-short-name](./includes/rls-desktop-view-as-roles.md)]
 
 ## <a name="manage-security-on-your-model"></a>管理模型上的安全性
+
 若要管理数据模型上的安全性，你需要执行以下操作。
 
 1. 为数据集选择“省略号(...)”。
@@ -46,7 +48,9 @@ Power BI 行级别安全性 (RLS) 可用于限制给定用户的数据访问。 
 你只能创建或修改 Power BI Desktop 中的角色。
 
 ## <a name="working-with-members"></a>使用成员
+
 ### <a name="add-members"></a>添加成员
+
 你可以通过键入邮件地址、用户姓名、你想要添加的安全组或通讯组列表，以向你的角色添加成员。 此成员需在你的组织内。 不能添加在 Power BI 内创建的组。
 
 ![](media/service-admin-rls/rls-add-member.png)
@@ -56,11 +60,13 @@ Power BI 行级别安全性 (RLS) 可用于限制给定用户的数据访问。 
 ![](media/service-admin-rls/rls-member-count.png)
 
 ### <a name="remove-members"></a>移除成员
+
 你可以通过选择成员名称旁的 X 来移除成员。 
 
 ![](media/service-admin-rls/rls-remove-member.png)
 
 ## <a name="validating-the-role-within-the-power-bi-service"></a>验证 Power BI 服务中的角色
+
 你可以通过测试角色来验证你定义的角色是否正常工作。 
 
 1. 选择角色旁的“省略号 (...)”。
@@ -83,12 +89,11 @@ Power BI 行级别安全性 (RLS) 可用于限制给定用户的数据访问。 
 [!INCLUDE [include-short-name](./includes/rls-usernames.md)]
 
 ## <a name="using-rls-with-app-workspaces-in-power-bi"></a>在 Power BI 中使用 RLS 和应用工作区
+
 如果将 Power BI Desktop 报表发布到 Power BI 服务中的应用工作区，这些角色将应用于只读成员。 将需要指示这些成员只可以查看应用工作区设置中的 Power BI 内容。
 
 > [!WARNING]
 > 如果已配置应用工作区，因此成员具有编辑权限，那么将不会向这些成员应用 RLS 角色。 用户将能看到所有数据。
-> 
-> 
 
 ![](media/service-admin-rls/rls-group-settings.png)
 
@@ -100,4 +105,3 @@ Power BI 行级别安全性 (RLS) 可用于限制给定用户的数据访问。 
 [Power BI Desktop 行级别安全性 (RLS)](desktop-rls.md)  
 
 更多问题？ [尝试咨询 Power BI 社区](http://community.powerbi.com/)
-

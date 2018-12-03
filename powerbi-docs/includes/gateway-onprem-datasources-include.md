@@ -20,6 +20,7 @@
 | SAP HANA |是 |是 |
 | SharePoint 列表（本地） |否 |是 |
 | Snowflake |是 |是 |
+| Spark |是 |是 |
 | SQL Server |是 |是 |
 | Sybase |否 |是 |
 | Teradata |是 |是 |

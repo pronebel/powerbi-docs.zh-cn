@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 05/17/2018
+ms.date: 11/28/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: d513c68dba27bb6e37a158eaad4059b24bc8db6a
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: bbfb4a33c8413fe47f1c7749b001bf602dd4956c
+ms.sourcegitcommit: 05303d3e0454f5627eccaa25721b2e0bad2cc781
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34481983"
+ms.lasthandoff: 11/28/2018
+ms.locfileid: "52578120"
 ---
 # <a name="publish-from-power-bi-desktop"></a>从 Power BI Desktop 进行发布
 将 **Power BI Desktop** 文件发布到 **Power BI 服务**后，模型中的数据以及你在“**报表**”视图中生成的所有报表都会发布到 Power BI 工作区。 你将看一个同名的新数据集以及工作区导航器中的任何报表。

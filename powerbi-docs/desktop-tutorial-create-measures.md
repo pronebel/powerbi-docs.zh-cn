@@ -7,18 +7,18 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: tutorial
-ms.date: 05/21/2018
+ms.date: 11/28/2018
 ms.author: davidi
 LocalizationGroup: Learn more
-ms.openlocfilehash: 8cfa3190acd4ef2ae2e1123f22d8f6221147afb1
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 85c16822a51bc3c4a59bbfaa363f742f77552b72
+ms.sourcegitcommit: 05303d3e0454f5627eccaa25721b2e0bad2cc781
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34456079"
+ms.lasthandoff: 11/28/2018
+ms.locfileid: "52578626"
 ---
 # <a name="tutorial-create-your-own-measures-in-power-bi-desktop"></a>教程：在 Power BI Desktop 中创建你自己的度量值
-通过使用度量值，可以在 Power BI Desktop 中创建某些功能强大的数据分析解决方案。 度量值可在你与报表进行交互时帮助对数据执行计算。 本教程将引导你了解度量值并在 Power BI Desktop 中创建自己的基本度量值。
+通过使用度量值，可以在 Power BI Desktop 中创建某些功能强大的数据分析解决方案。 度量值可在与报表进行交互时帮助对数据执行计算。 本教程将引导你了解度量值并在 Power BI Desktop 中创建自己的基本度量值。
 
 ### <a name="prerequisites"></a>先决条件
 - 本教程面向已熟悉使用 Power BI Desktop 创建更高级的模型的 Power BI 用户。 你应该已经熟悉使用“获取数据”和“查询编辑器”来导出数据、使用多个相关表和向报表画布添加字段。 如果刚开始使用 Power BI Desktop，请务必查看 [Power BI Desktop 入门](desktop-getting-started.md)。
@@ -27,27 +27,27 @@ ms.locfileid: "34456079"
 
 ## <a name="understand-measures"></a>了解度量值
 
-通常会自动为用户创建度量值。 在 Contoso 销售示例文件中，在“字段”框的“Sales”表中，选中“SalesAmount”字段旁边的复选框，或将“SalesAmount”拖动到报表画布上。 随即将出现新列图表可视化效果，显示“Sales”表的“SalesAmount”列中所有值的总和。
+通常自动为用户创建度量值。 在 Contoso 销售示例文件中，在“字段”框的“Sales”表中，选中“SalesAmount”字段旁边的复选框，或将“SalesAmount”拖动到报表画布上。 将出现新列图表可视化效果，显示“Sales”表的“SalesAmount”列中所有值的总和。
 
 ![SalesAmount 图表](media/desktop-tutorial-create-measures/meastut_salesamountchart.png)
 
-在“字段”框内，任何带有 sigma 图标 ![sigma 图标](media/desktop-tutorial-create-measures/meastut_sigma.png) 的字段都为数值字段，其值都可以进行聚合。 当 Power BI Desktop 检测到数字类型数据列时，它不会直接显示包含 200 万行 SalesAmount 值的表，而是自动创建度量值来计算聚合数据。 求和是数字类型数据的默认聚合方式，但可以轻松应用不同类型的聚合方式，如平均值或计数。 理解聚合是了解度量值的基础，因为每个度量值都将执行某种类型的聚合操作。 
+显示在“字段”框中且带有一个 sigma 图标 ![sigma 图标](media/desktop-tutorial-create-measures/meastut_sigma.png) 的任何字段为数值，并且其值可以聚合。 当 Power BI Desktop 检测到数字类型数据列时，它不会直接显示包含 200 万行 SalesAmount 值的表，而是自动创建度量值来计算聚合数据。 求和是数字类型数据的默认聚合方式，但可以轻松应用不同类型的聚合方式，如平均值或计数。 理解聚合是了解度量值的基础，因为每个度量值都将执行某种类型的聚合操作。 
 
 要将图表聚合更改为平均值，在“可视化效果”窗格“值”区域中，单击**SalesAmount**旁边的向下箭头，并选择“平均值”。 “SalesAmount”字段中的可视化效果将更改为所有销售额的平均值。
 
 ![SalesAmount 平均值图表](media/desktop-tutorial-create-measures/meastut_salesamountaveragechart.png)
 
-可以根据想要的结果来更改聚合的类型，但并非所有类型的聚合都能应用于所有数字类型数据。 例如，对于“SalesAmount”字段，总和和平均值是有意义的。 最小值和最大值也有它们的意义。 但是，计数对于“SalesAmount”字段则没有太大实际意义，因为虽然它的值是数值，但它们实际上代表的是货币。
+可以根据想要的结果来更改聚合的类型，但并非所有类型的聚合都能应用于所有数字数据类型。 例如，对于“SalesAmount”字段，总和和平均值是有意义的。 最小值和最大值也有它们的意义。 但是，计数对于“SalesAmount”字段则没有太大实际意义，因为虽然它的值是数值，但它们实际上代表的是货币。
 
-度量值计算结果会随用户与报表的交互而发生变化。 例如，将“RegionCountryName”字段从“Geography”表拖动到图表，则会显示每个国家/地区的平均销售额。
+通过度量值计算的值随用户与报表的交互而发生变化。 例如，将“RegionCountryName”字段从“Geography”表拖动到图表，则会显示每个国家/地区的平均销售额。
 
 ![按国家/地区划分的销售额](media/desktop-tutorial-create-measures/meastut_salesamountavchartbyrcn.png)
 
-由于与报表进行交互而导致度量值更改时，也会影响度量值的上下文。 每当与报表可视化效果交互时，都会改变度量值计算和显示其结果所在的上下文。
+由于与报表进行交互而导致度量值更改时，也会影响度量值的上下文。 每当与报表可视化效果交互时，都会改变上下文中度量值的计算和其显示的结果。
 
 ## <a name="create-and-use-your-own-measures"></a>创建和使用自己的度量值
 
-在大多数情况下，Power BI 会根据所选择的字段和聚合的类型自动计算和返回值，但在某些情况下，你可能想要创建自己的度量值来执行更复杂的独特计算。 使用 Power BI Desktop，可以创建自己的具有数据分析表达式 (DAX) 公式语言的度量值。 
+在大多数情况下，Power BI 会根据所选择的字段和聚合的类型自动计算和返回值，但在某些情况下，你可能想要创建自己的度量值来执行更复杂的唯一计算。 使用 Power BI Desktop，可以创建自己的具有数据分析表达式 (DAX) 公式语言的度量值。 
 
 DAX 公式使用许多与 Excel 公式相同的函数、运算符和语法。 但是，DAX 函数用于在你与报表进行交互时处理关系数据，并执行更动态的计算。 超过 200 个 DAX 函数可以执行任何计算，从总和和平均值的简单聚合到更复杂的统计和筛选函数。 有许多资源可帮助你详细了解 DAX。 完成本教程后，请务必参阅 [Power BI Desktop 中的 DAX 基础知识](desktop-quickstart-learn-dax-basics.md)。
 
@@ -103,7 +103,7 @@ DAX 公式使用许多与 Excel 公式相同的函数、运算符和语法。 �
     
     ![完成公式](media/desktop-tutorial-create-measures/meastut_netsales_newmeasure_formula_discamount.png)
     
-6.  按 Enter 或单击公式栏中的复选标记完成并验证公式。 经验证后的度量值已准备好在“Sales”表的“字段”列表中使用。 
+6.  按 Enter 或单击公式栏中的复选标记完成并验证公式。 经验证典度量值现已准备好在“Sales”表的“字段”列表中使用。 
     
     ![“字段”列表中的度量值](media/desktop-tutorial-create-measures/meastut_netsales_newmeasure_complete.png)
     
@@ -116,7 +116,7 @@ DAX 公式使用许多与 Excel 公式相同的函数、运算符和语法。 �
 ![展开的公式](media/desktop-tutorial-create-measures/meastut_netsales_newmeasure_formula_expanded.png)
 
 ### <a name="use-your-measure-in-the-report"></a>在报表中使用度量值
-现在可以将“Net Sales”度量值添加到报表画布上，并根据添加到报表中的任何其他字段来计算净销售额。 按国家/地区查看净销售额：
+现在可以将“Net Sales”度量值添加到报表画布，并对添加到报表中的任何其他字段计算净销售额。 按国家/地区查看净销售额：
 
 1. 从“Sales”表中选择“Net Sales”度量值或将其拖动到报表画布。
     
@@ -150,7 +150,7 @@ DAX 公式使用许多与 Excel 公式相同的函数、运算符和语法。 �
 
     ![更改为切片器](media/desktop-tutorial-create-measures/meastut_netsales_year_changetoslicer.png)
     
-5.  选择“Year”切片器中的任意值，以相应地筛选“按国家/地区划分的净销售额和销售额”图表。 Net Sales 和 SalesAmount 度量值会重新计算，并在所选“Year”字段的上下文中显示结果。 
+5.  选择“Year”切片器中的任意值，以相应地筛选“按国家/地区划分的净销售额和销售额”图表。 Net Sales 和 SalesAmount 度量值重新计算，并在所选“Year”字段的上下文中显示结果。 
     
     ![按年份切分的图表](media/desktop-tutorial-create-measures/meastut_netsales_chartslicedbyyear.png)
 
@@ -172,7 +172,7 @@ DAX 公式使用许多与 Excel 公式相同的函数、运算符和语法。 �
     
     `Net Sales per Unit = [Net Sales] / SUM(Sales[SalesQuantity])`
     
-4. 从“Sales”表中选择“Net Sales per Unit”度量值，或将其拖到报表画布的空白区域。 图表显示了所有已售产品每单位的净销售额，但这并未提供多少有用信息。 
+4. 从“Sales”表中选择“Net Sales per Unit”度量值，或将其拖到报表画布的空白区域。 图表显示了所有已售产品每单位的净销售额，这并未提供多少有用信息。 
     
     ![每单位总体净销售额](media/desktop-tutorial-create-measures/meastut_nspu_chart.png)
     

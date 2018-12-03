@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: tutorial
-ms.date: 06/05/2018
+ms.date: 11/28/2018
 ms.author: davidi
 LocalizationGroup: Learn more
-ms.openlocfilehash: 32de597b594fe8b148a2b0471352e4784d596cec
-ms.sourcegitcommit: fbb7924603f8915d07b5e6fc8f4d0c7f70c1a1e1
+ms.openlocfilehash: d0c37ff2a48315b72c699ab53238416eeb0f04b5
+ms.sourcegitcommit: 05303d3e0454f5627eccaa25721b2e0bad2cc781
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/02/2018
-ms.locfileid: "34813172"
+ms.lasthandoff: 11/28/2018
+ms.locfileid: "52578833"
 ---
 # <a name="tutorial-analyze-web-page-data-using-power-bi-desktop"></a>教程：使用 Power BI Desktop 分析网页数据
 
@@ -111,7 +111,7 @@ ms.locfileid: "34813172"
    
 ## <a name="import-the-query-into-report-view"></a>将查询导入报表视图
 
-现已按所需的方式修整完数据，即可将查询命名为“欧洲杯获胜队”并将其导入报表。
+既然已按所需的方式修整数据，你可以准备命名查询“欧洲杯获胜队”并将其导入报表。
 
 1. 在“查询设置”窗格的“名称”文字框中，输入“欧洲杯获胜队”，然后按“Enter”。
    
@@ -141,7 +141,7 @@ ms.locfileid: "34813172"
 
    ![放大地图](media/desktop-tutorial-importing-and-analyzing-data-from-a-web-page/webpage14.png)
    
-3. 地图针对每个欧洲杯锦标赛获胜国家/地区显示相同大小的数据点。 若要使每个数据点的大小反映国家/地区的获胜频率，可将“年份”字段拖动到“可视化效果”窗格下半部分“大小”处的位置。 字段自动更改为“年份计数”度量值，地图可视化效果现在针对锦标赛获胜次数较多的国家/地区显示较大数据点。 
+3. 地图针对每个欧洲杯锦标赛获胜国家/地区显示相同的数据点。 若要使每个数据点的大小反映国家/地区的获胜频率，将“年份”字段拖动到“可视化效果”窗格下半部分“大小”下的“将数据字段拖至此处”。 字段自动更改为“年份计数”度量值，地图可视化效果现在针对锦标赛获胜次数较多的国家/地区显示较大数据点。 
    
    ![](media/desktop-tutorial-importing-and-analyzing-data-from-a-web-page/webpage15.png)
    
