@@ -53,7 +53,7 @@ Power BI Desktop 提供**报表视图**，可在其中创建任何数量具有�
 ![向报表添加页面](media/desktop-report-view/pbi_reportviewinpbidesigner_deletepage.png)
 
 > [!NOTE]
-> 报表和可视化对象无法从Power BI Desktop中固定到仪表板上。 为此，需要[从 Power BI Desktop 发布](desktop-upload-desktop-files.md)到 Power BI 站点。
+> 报表和可视化对象无法从 Power BI Desktop 固定到仪表板上。 为此，需要[从 Power BI Desktop 发布](desktop-upload-desktop-files.md)到 Power BI 站点。
 
 ## <a name="copy-and-paste-between-reports"></a>在报表之间复制和粘贴
 
