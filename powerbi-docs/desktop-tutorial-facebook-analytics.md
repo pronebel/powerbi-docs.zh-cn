@@ -7,7 +7,7 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: tutorial
-ms.date: 11/28/2018
+ms.date: 12/04/2018
 ms.author: davidi
 LocalizationGroup: Learn more
 ms.openlocfilehash: ec90e63de1e42350ff205febdc66abf4ba6ee626
@@ -31,7 +31,7 @@ ms.locfileid: "52578488"
    
    ![获取数据](media/desktop-tutorial-facebook-analytics/t_fb_getdataother.png)
    
-   随即出现一个对话框，提醒你如果使用第三方服务，将产生风险。
+   随即会出现一个对话框，提醒你如果使用第三方服务，将产生风险。
    
    ![第三方警告](media/desktop-tutorial-facebook-analytics/t_fb_connectingtotps.png)
    
@@ -41,7 +41,7 @@ ms.locfileid: "52578488"
    
    ![连接](media/desktop-tutorial-facebook-analytics/2.png)
    
-5. 在系统提示输入凭据时，请登录到 Facebook 帐户，并允许通过帐户进行 Power BI 访问。
+5. 在系统提示输入凭据时，请登录到 Facebook 帐户，并允许通过 Power BI 访问该账户。
    
    ![凭据](media/desktop-tutorial-facebook-analytics/facebookcredentials.png)
 
@@ -61,11 +61,11 @@ ms.locfileid: "52578488"
    
    ![数据预览编辑](media/desktop-tutorial-facebook-analytics/t_fb_1-editpreview.png)
    
-   Power BI Desktop“Power Query 编辑器”会在新窗口中打开，并显示来自 Power BI Facebook 页面的数据预览。 
+   Power BI Desktop会打开“Power Query 编辑器”，并显示来自 Power BI Facebook 页面的数据预览。 
    
    ![Power Query 编辑器](media/desktop-tutorial-facebook-analytics/t_fb_1-intoqueryeditor.png)
    
-2. 选择“created_time”列。 请注意，它当前为“文本”数据类型，由列标题中的“ABC”图标表示。 右键单击标题，然后选择下拉列表中的“拆分列”>“按分隔符”，或者选择功能区“主页”选项卡中“转换”下的“拆分列”>“按分隔符”。  
+2. 选择“created_time”列。 请注意，从列标题中的“ABC”图标指示可知，它当前为“文本”数据类型。 右键单击标题，然后选择下拉列表中的“拆分列”>“按分隔符”，或者选择功能区“主页”选项卡中“转换”下的“拆分列”>“按分隔符”。  
    
    ![按分隔符拆分列](media/desktop-tutorial-facebook-analytics/delimiter1.png)
    
@@ -73,7 +73,7 @@ ms.locfileid: "52578488"
    
    ![“按分隔符拆分列”对话框](media/desktop-tutorial-facebook-analytics/delimiter2.png)
    
-   列将拆分为两个列，其中包含“T”分隔符之前和之后的字符串，名称分别为“created_time.1”和“created_time.2”。 请注意，已自动检测到 Power BI，并已将第一列的数据类型更改为“日期”，将第二列的数据类型更改为“时间”，并设置了日期和时间值格式，使其更易于识读。
+   列将按照“T”分隔符被拆分为前后两个字符串并存储在两个列中，名称分别为“created_time.1”和“created_time.2”。 请注意，Power BI 会自动进行检测，并将第一列的数据类型更改为“日期”，将第二列的数据类型更改为“时间”，并设置了日期和时间值格式，使其更易于识读。
    
 4. 若要重命名列，可以双击每个列标题，或选中每个列，然后选择功能区“转换”选项卡“任何列”组中的“重命名”，并分别键入新的列标题“created_date”和“created_time”。
    
@@ -81,7 +81,7 @@ ms.locfileid: "52578488"
    
 ### <a name="expand-the-nested-column"></a>展开嵌套列
 
-现在日期和时间数据以你期望的形式显示，接下来将通过展开嵌套列来显示评论数据。 
+现在日期和时间数据已按照你期望的形式进行了显示，接下来将通过展开嵌套列来显示评论数据。 
 
 1. 选择“object_link”列，然后选择![展开图标](media/desktop-tutorial-facebook-analytics/14.png)图标以打开“展开/聚合”对话框。 选择“连接”，然后选择“确定”。 
    
@@ -94,17 +94,17 @@ ms.locfileid: "52578488"
    
    ![聚合评论](media/desktop-tutorial-facebook-analytics/expand2.png)
    
-   列现在显示每个消息的评论数。 
+   现在列会显示每个消息的评论数。 
    
 4. 将“object_link.connections.comments.id 计数”列重命名为“评论数”。
    
-5. 选择“评论数”标题旁的向下箭头，然后选择“降序排序”以查看从评论数最多到评论数最少排序的帖子。 
+5. 选择“评论数”标题旁的向下箭头，然后选择“降序排序”方式按照评论数最多到最少的顺序查看帖子。 
    
    ![每个消息的评论](media/desktop-tutorial-facebook-analytics/data-fixed.png)
    
 ### <a name="review-query-steps"></a>查看查询步骤
 
-在“Power Query 编辑器”中调整和转换数据后，每个步骤都已记录到“Power Query 编辑器”窗口右侧“查询设置”窗格的“应用的步骤”区域。 可以通过“应用的步骤”返回以查看所做的具体更改，并视需要编辑、删除或重新排列它们（尽管这样做可能存在风险，因为更改前面的步骤可能会中断后续步骤）。 
+在“Power Query 编辑器”中调整和转换数据后，每个步骤都已记录到“Power Query 编辑器”窗口右侧“查询设置”窗格的“应用的步骤”区域。 可以通过“应用的步骤”返回以查看所做的具体更改，并视需要再次编辑、删除或更改排列步骤（尽管这样做可能存在风险，因为更改前面的步骤可能会中断后续步骤）。 
 
 在应用数据转换之后，“应用的步骤”应如下所示：
    
@@ -119,7 +119,7 @@ ms.locfileid: "52578488"
    
    ![关闭并应用](media/desktop-tutorial-facebook-analytics/t_fb_1-loadandclose.png)
    
-   将看到一个对话框，显示向 Power BI Desktop 数据模型加载数据的进度。 
+   将看到一个对话框，显示向 Power BI Desktop 数据模型中加载数据的进度。 
    
    ![正在加载数据](media/desktop-tutorial-facebook-analytics/t_fb_1-loading.png)
    
@@ -129,15 +129,15 @@ ms.locfileid: "52578488"
    
 ## <a name="use-the-data-in-report-visualizations"></a>在报表可视化效果中使用数据 
 
-现在，已从 Facebook 页面导入数据，可以使用可视化效果快速轻松地深入了解数据。 创建可视化效果的操作很简单；只需选择一个字段或将其从“字段”列拖动到报表画布。
+现在，已从 Facebook 页面导入数据，可以使用可视化效果快速轻松地深入了解数据。 创建可视化效果的操作很简单；只需选择一个字段或将其从“字段”列拖动到报表画布上。
 
 ### <a name="create-a-bar-chart"></a>创建条形图
 
-1. 在“Power BI Desktop 报表”视图中，从“字段”列表中选择“消息”，或将其拖至画布。 显示所有帖子消息的表格将显示在画布上。 
+1. 在“Power BI Desktop 报表”视图中，从“字段”列表中选择“消息”，或将其拖至画布。 包含所有帖子消息的表格将显示在画布上。 
    
    ![新建查询](media/desktop-tutorial-facebook-analytics/table-viz.png)
    
-2. 在选中该表格后，同时从“字段”列表选择“评论数”，或将其拖动到表格中。 
+2. 在选中该表格后，从“字段”列表选择“评论数”，或将其拖动到表格中。 
    
 3. 在“可视化效果”窗格中，选择“堆积条形图”图标。 表格将更改为条形图，显示每个帖子的评论数量。 
    
@@ -147,7 +147,7 @@ ms.locfileid: "52578488"
    
    ![按评论数排序](media/desktop-tutorial-facebook-analytics/barchart2.png)
    
-5. 请注意，大多数评论与“空白”消息相关联（这些帖子可能包含应用场景、链接、视频或其他非文本内容）。 若要筛选出“空白”行，请选择“可视化效果”窗格底部“筛选器”下的“消息(全部)”，选择“全选”，然后选择“空白”以取消选中此选项。 “筛选器”条目将更改为“消息不为(空白)”，且“空白”行会从图表可视化效果中消失。 
+5. 请注意，大多数评论与“空白”消息相关联（这些帖子可能包含应用场景、链接、视频或其他非文本内容）。 若要过滤掉“空白”行，请选择“可视化效果”窗格底部“筛选器”下的“消息(全部)”，选择“全选”，然后选择“空白”以取消此选项的选中状态。 “筛选器”条目将更改为“消息不为(空白)”，且“空白”行会从图表可视化效果中消失。 
    
    ![筛选出空白](media/desktop-tutorial-facebook-analytics/barchart3.png)
    
@@ -160,31 +160,31 @@ ms.locfileid: "52578488"
 2. 选中图表后，在“可视化效果”窗格中选择“格式”图标（油漆滚筒）。
    
 3. 选择“Y 轴”旁边的向下箭头，然后将“最大大小”旁的滑块拖动到最右边 (50%)。 
-4. 另外，将“文本大小”减小到“10”以适应更多文本。
+4. 另外，将“文本大小”减小到“10”以适应更多文本内容。
    
    ![格式设置更改](media/desktop-tutorial-facebook-analytics/barchart4.png)
    
-   图表现在显示更多帖子内容。 
+   图表现在可以显示更多帖子内容。 
    
    ![显示更多帖子](media/desktop-tutorial-facebook-analytics/barchart5.png)
    
-图表的 X 轴（评论数）不显示确切值，并且看起来在图表底部不存在。 如果决定改用数据标签，请执行以下操作： 
+图表的 X 轴（评论数）不显示确切值，并且看起来在图表底部不存在。 可以改用数据标签显示评论数，操作如下： 
 
 1. 选择“格式”图标，然后选择“X 轴”旁边的滑块将其“关闭”。 
    
-2. 选择“数据标签”旁边的滑块以将其“打开”。 现在图表显示每个帖子的确切评论数。
+2. 选择“数据标签”旁边的滑块以将其“打开”。 现在图表可以显示每个帖子的确切评论数。
    
    ![应用数据标签](media/desktop-tutorial-facebook-analytics/barchart6.png)
    
 ### <a name="edit-the-data-type"></a>编辑数据类型
 
-这样效果更好，但所有数据标签都有一个“.0”小数位数，这会让人分散注意力并具有误导性，因为“帖子数”必须为整数。 需要将“帖子数”列的数据类型更改为“整数”。
+虽然显示效果变得更好，但所有数据标签都有一个“.0”小数位数，这会分散人的注意力并具有误导性，因为“帖子数”肯定是整数。 为了解决该问题，需要将“帖子数”列的数据类型更改为“整数”。
 
-1. 要编辑数据类型，右键单击“字段”列表中的“Query1”，或将鼠标悬停在上面，选择“更多选项”省略号 (...)，然后选择“编辑查询”。 另外，还可以从功能区“主页”选项卡的“外部数据”区域选择“编辑查询”，然后从下拉列表选择“编辑查询”。 Power BI Desktop“Power Query 编辑器”在单独窗口中打开。
+1. 要编辑数据类型，右键单击“字段”列表中的“Query1”，或将鼠标悬停在上面，选择“更多选项”省略号 (...)，然后选择“编辑查询”。 另外，还可以从功能区“主页”选项卡的“外部数据”区域选择“编辑查询”，然后从下拉列表选择“编辑查询”。 Power BI Desktop的“Power Query 编辑器”在另外一个窗口中打开。
    
    ![从“字段”列表编辑查询](media/desktop-tutorial-facebook-analytics/editquery1.png)     ![从功能区编辑查询](media/desktop-tutorial-facebook-analytics/t_fb_editquery.png)
    
-2. 在“Power Query 编辑器”中，选择“评论数”列，并通过以下任一方法将数据类型更改为“整数”： 
+2. 在“Power Query 编辑器”中，选择“评论数”列，并通过以下任意一种方法将数据类型更改为“整数”： 
    - 选择“评论数”列标题旁边的“1.2”图标，并从下拉列表中选择“整数”，或
    - 右键单击列标题，然后选择“更改类型”>“整数”，或
    - 选择“主页”选项卡“转换”组中的“数据类型: 小数”，或选择”转换”选项卡的”任意列“组，然后选择”整数“。
@@ -199,7 +199,7 @@ ms.locfileid: "52578488"
    
 ### <a name="create-a-date-slicer"></a>创建日期切片器
 
-你想要使一段时间内帖子的评论数呈现可视化效果。 可以创建切片器可视化效果，将图表数据筛选到不同的时间范围。 
+你想要将一段时间内帖子的评论数用可视化效果进行呈现。 可以创建切片器可视化工具，对图表数据的时间范围进行筛选。 
 
 1. 单击画布的空白区域，然后选择“可视化效果”窗格中的“切片器”图标。 将显示一个空白的切片器可视化效果。 
    
@@ -224,7 +224,7 @@ ms.locfileid: "52578488"
 
 ![设置图表标题格式](media/desktop-tutorial-facebook-analytics/formatting1.png)
 
-尝试使用其他格式设置选项和设置来改变可视化效果的外观。 
+请尝试使用其他格式选项和设置来改变可视化效果的外观。 
 
 ![可视化](media/desktop-tutorial-facebook-analytics/vis-1.png)
 
