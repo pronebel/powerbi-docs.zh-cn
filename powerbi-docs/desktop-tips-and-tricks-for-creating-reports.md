@@ -1,7 +1,7 @@
 ---
 title: 在 Power BI 中创建报表的相关提示和技巧
 description: 在 Power BI 服务和 Power BI Desktop 中创建报表的相关提示和技巧
-author: mihart
+author: davidi
 manager: kfile
 ms.reviewer: willthom
 ms.service: powerbi
@@ -9,14 +9,14 @@ ms.component: powerbi-service
 ms.topic: conceptual
 ms.date: 11/28/2018
 ms.author: davidi
-ms.openlocfilehash: 13324ca27ae1c77f6ea735bb71b1081587cc413d
-ms.sourcegitcommit: 2ae660a7b70fce23eb58b159d049eca44a664f2c
+ms.openlocfilehash: ae1c54ee0c5c5de54fc5069f7215c39175cedf8d
+ms.sourcegitcommit: e17fc3816d6ae403414cf5357afbf6a492822ab8
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/30/2018
-ms.locfileid: "52670319"
+ms.lasthandoff: 12/04/2018
+ms.locfileid: "52830277"
 ---
-# <a name="tips-and-tricks-for-creating-reports-in-power-bi-desktop"></a>有关在 Power BI Desktop 中创建报表的提示和技巧
+# <a name="tips-and-tricks-for-creating-reports-in-power-bi-desktop"></a>在 Power BI Desktop 创建报表的相关提示和技巧
 若要充分利用你的数据，有时你还需要一点帮助。 我们整理了一些提示和技巧，以便你在 Microsoft Power BI Desktop *及*启用了 Power Pivot 加载项且安装和启用了 Power Query 的 Microsoft Excel 2016 或 Excel 2013 Pro-Plus 版本中创建报表时可加以使用。 
 
 ## <a name="learning-to-use-the-query-editor"></a>了解如何使用查询编辑器

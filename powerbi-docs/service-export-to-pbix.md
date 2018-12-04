@@ -1,21 +1,21 @@
 ---
 title: 如何将报表从 Power BI 服务导出到 Power BI Desktop（预览）
 description: 将报表从 Power BI 服务下载到 Power BI Desktop 文件
-author: mihart
+author: maggiesMSFT
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
 ms.date: 03/02/2018
-ms.author: mihart
+ms.author: maggies
 LocalizationGroup: Reports
-ms.openlocfilehash: 2f7133bb376cc04e181eed2d90a45e3361190d0b
-ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
+ms.openlocfilehash: 3e1a87b1ec2439b2f72ba07009ca8d6dd6cf5c40
+ms.sourcegitcommit: e17fc3816d6ae403414cf5357afbf6a492822ab8
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/21/2018
-ms.locfileid: "46547008"
+ms.lasthandoff: 12/04/2018
+ms.locfileid: "52830346"
 ---
 # <a name="export-a-report-from-power-bi-service-to-desktop-preview"></a>将报表从 Power BI 服务导出到 Power BI Desktop（预览）
 在 Power BI Desktop 中，可以通过保存报表并选择“ **发布** ”来导出（也称为“ *下载* ”）报表至 Power BI 服务。 也可以从其他方向导出，并将报表从 Power BI 服务下载至 Desktop。 无论导出方向如何，导出文件的扩展名都是 .pbix。

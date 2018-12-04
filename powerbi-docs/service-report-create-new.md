@@ -10,19 +10,17 @@ ms.topic: conceptual
 ms.date: 03/24/2018
 ms.author: maggies
 LocalizationGroup: Reports
-ms.openlocfilehash: 96b46e595ffd2373a2d59776cb8c2b4314727d89
-ms.sourcegitcommit: 1e4fee6d1f4b7803ea285eb879c8d5a4f7ea8b85
+ms.openlocfilehash: a5762964b75d73d8dabceac58c47f616753b94cc
+ms.sourcegitcommit: e17fc3816d6ae403414cf5357afbf6a492822ab8
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/16/2018
-ms.locfileid: "51718036"
+ms.lasthandoff: 12/04/2018
+ms.locfileid: "52830163"
 ---
 # <a name="create-a-new-report-in-power-bi-service-by-importing-a-dataset"></a>通过导入数据集在 Power BI 服务中创建新报表
 你已经阅读了 [Power BI 中的报表](consumer/end-user-reports.md)，并且现在想要创建你自己的仪表板。 创建报表有许多不同的方式，在本文中，我们将通过使用 Power BI 服务从 Excel 数据集创建一个非常基本的报表开始。 了解创建报表的基础知识后，单击底部的**下一步**可转到更高级的报表主题。  
 
-> **提示**：若要通过复制现有报表创建报表，请参阅[复制报表](power-bi-report-copy.md)
-> 
-> ### <a name="prerequisites"></a>先决条件
+## <a name="prerequisites"></a>先决条件
 > - Power BI 服务（有关使用 Power BI Desktop 创建报表的信息，请参阅 [Desktop 报表视图](desktop-report-view.md)）  
 > - 零售分析示例数据集
 
@@ -93,7 +91,7 @@ CMO 还需要我们回答一些其他问题。 她还希望了解本年度销售
 继续浏览数据并添加可视化效果。 当你发现尤为值得关注的见解时，[将它们固定到仪表板](service-dashboard-pin-tile-from-report.md)。
 
 ## <a name="next-steps"></a>后续步骤
-* [向报表添加新页面](power-bi-report-add-page.md)  
+
 * 了解如何[将可视化效果固定到仪表板](service-dashboard-pin-tile-from-report.md)   
 * 更多问题？ [尝试参与 Power BI 社区](http://community.powerbi.com/)
 

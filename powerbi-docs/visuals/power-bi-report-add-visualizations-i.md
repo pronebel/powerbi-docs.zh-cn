@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 08/23/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: df53cf238a52502cecb4d1f77482b7b1a09c6b7a
-ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
+ms.openlocfilehash: f2edbd7b0b977b378d25634a0f9505101350d73b
+ms.sourcegitcommit: e17fc3816d6ae403414cf5357afbf6a492822ab8
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/21/2018
-ms.locfileid: "46545259"
+ms.lasthandoff: 12/04/2018
+ms.locfileid: "52829794"
 ---
 # <a name="part-i-add-visualizations-to-a-power-bi-report"></a>第 1 部分，向 Power BI 报表添加可视化效果
 本文简要介绍如何使用 Power BI 服务或 Power BI Desktop 在报表中创建可视化效果。  有关更进一步的内容，请[参阅第 II 部分](power-bi-report-add-visualizations-ii.md)。 观看 Amanda 演示在报表画布上创建、编辑视觉对象并对其进行格式设置的一些不同的方法。 然后使用[销售和市场营销示例](../sample-datasets.md)创建自己的报表并自行体验。
@@ -29,7 +29,7 @@ ms.locfileid: "46545259"
 2. 如果看不到“字段”窗格，请选择箭头图标打开它。 
    
    ![](media/power-bi-report-add-visualizations-i/pbi_nancy_fieldsfiltersarrow.png)
-3. [向报表添加空白页面](../power-bi-report-add-page.md)。
+3. 向报表添加空白页。
 
 ## <a name="add-visualizations-to-the-report"></a>将可视化效果添加到报表
 1. 通过从“字段”窗格中选择字段来创建可视化效果。  

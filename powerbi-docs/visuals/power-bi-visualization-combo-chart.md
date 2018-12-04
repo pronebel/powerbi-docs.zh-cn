@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 09/27/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 1855b65277fe778a20bd9e4629f8db1e7b9000a3
-ms.sourcegitcommit: 769ef3c8cbafd9ad5979eb4023a394ac7dba8d02
+ms.openlocfilehash: 5d2a33b8dc50a4a30bb79406462f1342953528d9
+ms.sourcegitcommit: e17fc3816d6ae403414cf5357afbf6a492822ab8
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/28/2018
-ms.locfileid: "47448951"
+ms.lasthandoff: 12/04/2018
+ms.locfileid: "52830369"
 ---
 # <a name="combo-chart-in-power-bi"></a>Power BI 中的组合图
 在 Power BI 中，组合图是将折线图和柱形图合并在一起的单个可视化效果。 通过将两个图表合并为一个图表可以进行更快的数据比较。
@@ -45,7 +45,7 @@ Power BI 服务和 Power BI Desktop 均支持组合图。 本教程使用 Power 
 
 1. 从“零售分析示例”仪表板中，选择**总商店数**磁贴以打开“零售分析示例”报表。
 2. 选择**编辑报表**在编辑视图中打开报表。
-3. [添加新报表页](../power-bi-report-add-page.md)。
+3. 添加新报表页。
 4. 创建按月显示本年度销售额和毛利的组合图。
 
     a.  从“字段”窗格，选择**销售额** \> **本年度销售额**  >  **值**。
