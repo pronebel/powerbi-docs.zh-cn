@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 05/02/2018
 ms.author: maggies
 LocalizationGroup: Create reports
-ms.openlocfilehash: 327ba72c46aa5a6a2edea723bd5450cd5bbbcdb4
-ms.sourcegitcommit: fb1885da7cf11367660edbf7b7346dc039ee9b5d
+ms.openlocfilehash: 3a0ef369aa690044dbef9c4ef0cda070565b9922
+ms.sourcegitcommit: e17fc3816d6ae403414cf5357afbf6a492822ab8
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/26/2018
-ms.locfileid: "47187320"
+ms.lasthandoff: 12/04/2018
+ms.locfileid: "52829886"
 ---
 # <a name="use-power-bi-service-or-power-bi-desktop-to-create-a-custom-answer-page-for-cortana"></a>使用 Power BI 服务或 Power BI Desktop 为 Cortana 创建自定义回复页
 使用 Power BI 的全部功能创建专为回答 Cortana 问题而设计的专用报表页，称为“Cortana 回复页”（有时称为“Cortana 回复卡”）。
@@ -41,7 +41,7 @@ ms.locfileid: "47187320"
 ## <a name="create-a-cortana-answer-page-designed-specifically-for-cortana"></a>创建专为 Cortana 设计的 Cortana 回复页
 报表中的 Cortana 回复页的大小专为 Cortana 而设，以便 Cortana 可以在屏幕中将其显示为某个问题的答案。 为 Cortana 创建回复页：
 
-1. 我们建议从[空白报表页](power-bi-report-add-page.md)开始。
+1. 建议从空白报表页入手。
 2. 在“可视化效果”窗格中，选择滚动油漆刷图标，然后选择“页面大小” > “类型” > “Cortana”。
    
     ![](media/service-cortana-answer-cards/pbi-cortana-page-size-new.png)

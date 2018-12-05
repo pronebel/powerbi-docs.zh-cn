@@ -10,12 +10,12 @@ ms.service: powerbi
 ms.component: powerbi-developer
 ms.topic: conceptual
 ms.date: 11/21/2018
-ms.openlocfilehash: fd352cd78225e647acf53c2af899e4d2fc662376
-ms.sourcegitcommit: 458e091a0a0bfb71ea3980d44df6408f48bab586
+ms.openlocfilehash: 7830aa829dc05e29ec0b8dc23d7f35b58991b007
+ms.sourcegitcommit: e17fc3816d6ae403414cf5357afbf6a492822ab8
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/22/2018
-ms.locfileid: "52289257"
+ms.lasthandoff: 12/04/2018
+ms.locfileid: "52830139"
 ---
 # <a name="certified-custom-visuals"></a>认证的自定义视觉对象
 
@@ -138,6 +138,7 @@ Microsoft 可自行从[经认证列表](#list-of-custom-visuals-that-have-been-c
 | [MAQ 软件环形图](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380824) | [视频](https://youtu.be/pDToHDFHnq8) |
 | [MAQ 软件旋转图](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104381007) | [视频](https://youtu.be/d5xBCMmb3hU) |
 | [Sankey 图表](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380777) | [视频](https://youtu.be/WWP9wVUHGaA) |
+| [Akvelon 散点图](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104381703) | |
 | [滚动条](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104381018) | |
 | [Smart Filter by OKViz](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380859) | [视频](https://youtu.be/gcJsDDRQq28) |
 | [Sparkline by OKViz](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380910) | [视频](https://youtu.be/0m3Vnvso9tY) |

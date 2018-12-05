@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 09/26/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 9654e2838b1b62dcc856e2870b3fcc1e5301641c
-ms.sourcegitcommit: 07beb155ec0ea1cdcc741085251ed06d7bc8581c
+ms.openlocfilehash: b15d285774f0b6735fbc5df0ca2d00a81b944012
+ms.sourcegitcommit: e17fc3816d6ae403414cf5357afbf6a492822ab8
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "48874566"
+ms.lasthandoff: 12/04/2018
+ms.locfileid: "52829932"
 ---
 # <a name="card-visualizations"></a>卡片可视化对象
 有时在 Power BI 仪表板或报表中想要跟踪的最重要的信息就是一个数字，例如总销售额、同比市场份额或商机总数。 此类可视化对象称为“卡片”。 与几乎所有的本机 Power BI 可视化对象一样，可以使用报表编辑器或“问答”创建卡片。
@@ -25,7 +25,7 @@ ms.locfileid: "48874566"
 ## <a name="create-a-card-using-the-report-editor"></a>使用报表编辑器创建卡片
 以下说明使用零售分析示例。 若要继续学习，请[下载](../sample-datasets.md)适用于 Power BI 服务 (app.powerbi.com) 或 Power BI Desktop 的示例。   
 
-1. 首先打开一个[空白报表页](../power-bi-report-add-page.md)，然后选择“商店”\>“打开商店计数”字段。 如果使用的是 Power BI 服务，则需要在 [“编辑视图”](../service-interact-with-a-report-in-editing-view.md) 中打开报表。
+1. 从空白报表页入手，依次选择“商店”\>“打开商店计数”字段。 如果使用的是 Power BI 服务，则需要在 [“编辑视图”](../service-interact-with-a-report-in-editing-view.md) 中打开报表。
 
     Power BI 将创建一个包含一个数字的柱形图。
 

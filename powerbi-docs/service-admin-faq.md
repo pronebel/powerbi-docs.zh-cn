@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 11/16/2018
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: 4379caf909360688e602601795066f51c9660633
-ms.sourcegitcommit: 46f1ba3f972f6e64bce05ad0fd527b27c49aedd6
+ms.openlocfilehash: fe81c8e972a4fe36f88da495e4e0dce97a39d32c
+ms.sourcegitcommit: e17fc3816d6ae403414cf5357afbf6a492822ab8
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/20/2018
-ms.locfileid: "52157071"
+ms.lasthandoff: 12/04/2018
+ms.locfileid: "52830300"
 ---
 # <a name="administering-power-bi---frequently-asked-questions-faq"></a>管理 Power BI - 常见问题 (FAQ)
 
@@ -174,11 +174,15 @@ Power BI 提供了可便于你查看使用情况统计信息的管理门户，�
 
 ### <a name="what-is-the-process-to-manage-a-tenant-created-by-microsoft-for-my-users"></a>管理 Microsoft 为我的用户创建的租户的过程是怎样的？
 
-如果 Microsoft 创建了某个租户，则你可以通过执行以下步骤来声明并管理该租户：
+注册使用 Azure AD 的云服务后，自助服务用户便会根据电子邮件域被添加到非托管 Azure AD 目录中。 可以声明和管理通过“管理员接管”流程创建的租户。 所执行的接管类型取决于是否现有与域关联的托管租户：
 
-1. 使用与要管理的租户域一致的电子邮件地址域注册 Power BI，从而加入租户。 例如，如果 Microsoft 创建了 contoso.com 租户，你需要使用以 @contoso.com 结尾的电子邮件地址加入此租户。
+* “内部接管”类型用于为域新建托管租户。
 
-1. 通过验证域所有权来声明管理员控制权：处于租户中之后，你可以通过验证域所有权将自己提升为 *全局管理员* 角色。 为此，请按照 [Office 365 文档](/office365/admin/misc/become-the-admin)中的步骤操作。
+* “外部接管”类型用于将域移到现有托管租户中。
+
+有关详细信息，请参阅[在 Azure Active Directory 中以管理员身份接管非托管目录](/azure/active-directory/users-groups-roles/domains-admin-takeover)。
+
+如果执行的是外部接管，在接管前创建的 Power BI 内容位于 [Power BI 存档工作区](service-admin-power-bi-archived-workspace.md)中。 必须手动迁移要在新租户中使用的任何内容。
 
 ### <a name="if-i-have-multiple-domains-can-i-control-the-office-365-tenant-that-users-are-added-to"></a>如果我有多个域，是否可以控制向其中添加用户的 Office 365 租户？
 

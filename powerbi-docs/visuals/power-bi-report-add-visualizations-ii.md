@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 08/23/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: a15975f456bab94fd04fa7501760c9874fabf952
-ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
+ms.openlocfilehash: 01051ab47304713fe3cf0f9128f5cd99af58bffe
+ms.sourcegitcommit: e17fc3816d6ae403414cf5357afbf6a492822ab8
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/12/2018
-ms.locfileid: "44728912"
+ms.lasthandoff: 12/04/2018
+ms.locfileid: "52830208"
 ---
 # <a name="part-2-add-visualizations-to-a-power-bi-report"></a>第 2 部分，向 Power BI 报表添加可视化效果
 在[第 1 部分](power-bi-report-add-visualizations-ii.md)中，通过选中字段名称旁边的复选框来创建基本可视化对象。  在第 2 部分中，你将了解如何使用拖放功能并充分利用“字段”和“可视化对象”窗格创建和修改可视化对象。
@@ -32,7 +32,7 @@ ms.locfileid: "44728912"
 1. 打开 Power BI Desktop 中的零售分析示例 .PBIX 文件。 
    ![](media/power-bi-report-add-visualizations-ii/power-bi-open-desktop.png)   
 
-2.  通过选择画布底部的黄色加号图标[添加新页面](../power-bi-report-add-page.md)。
+2. 选择画布底部的黄色加号图标，以添加新页面。
 
 ### <a name="add-a-visualization-that-looks-at-this-years-sales-compared-to-last-year"></a>添加查看本年度销售额（与上一年相比）的可视化对象。
 1. 从“销售额”表中，选择“本年度销售额” > **值**和“去年销售额”。 Power BI 将创建柱形图。  这挺有趣的，你可能想要深入了解。 每月销售额看上去如何？  

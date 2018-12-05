@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 10/16/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: af39332bdc1c9e1529d56f55215b0b32ab86f3e7
-ms.sourcegitcommit: a3ce866caba24217bcdd011e892b9ea72f3d2400
+ms.openlocfilehash: f6cb53eadb3c5ddf14b8f8b3b3882e0d7b509a3f
+ms.sourcegitcommit: e17fc3816d6ae403414cf5357afbf6a492822ab8
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/18/2018
-ms.locfileid: "49396790"
+ms.lasthandoff: 12/04/2018
+ms.locfileid: "52830093"
 ---
 # <a name="export-data-from-visualizations"></a>从可视化效果导出数据
 若要查看用于创建可视化效果的数据，可以在 Power BI 中显示该数据或将这些数据以 .xlsx 或.csv 文件形式导出到 Excel。 导出数据的选项需要 Pro 或 Premium 许可证以及对数据集和报表的编辑权限。 
@@ -38,7 +38,7 @@ Watch 将从其报表中的其中一个可视化效果导出数据，将其保�
     ![](media/power-bi-visualization-export-data/pbi-export-to-excel.png)
 
 ## <a name="from-a-visualization-in-a-report"></a>从报表中的可视化效果
-为此，打开“[编辑视图](../consumer/end-user-reading-view.md)”中的“[采购分析示例报表](../sample-procurement.md)”。 [添加新的空白报表页](../power-bi-report-add-page.md)。 然后按照以下步骤来添加聚合和可视化效果级别筛选器。
+为此，打开“[编辑视图](../consumer/end-user-reading-view.md)”中的“[采购分析示例报表](../sample-procurement.md)”。 添加新的空白报表页。 然后按照以下步骤来添加聚合和可视化效果级别筛选器。
 
 1. 创建一个新的柱形图。  从字段窗格中，选择“位置 > 城市”和“发票 > 折扣百分比”。  需要将“折扣百分比”移动到“值”一列中。 
 
