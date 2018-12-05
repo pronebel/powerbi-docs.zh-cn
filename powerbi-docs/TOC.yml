@@ -282,6 +282,8 @@ items:
         href: desktop-create-phone-report.md
       - name: 使用“查看数据”和“查看记录”
         href: desktop-see-data-see-records.md
+      - name: 有关创建报表的提示
+        href: desktop-tips-and-tricks-for-creating-reports.md
     - name: 可视化效果
       items:
       - name: 可视化最佳实践
@@ -312,7 +314,7 @@ items:
         href: power-bi-reports-add-text-and-shapes.md
       - name: 自定义 X 轴和 Y 轴属性
         href: visuals/power-bi-visualization-customize-x-axis-and-y-axis.md
-      - name: Power BI 中的 ArcGIS
+      - name: Power BI 中的 ArcGIS 地图
         href: power-bi-visualization-arcgis.md
       - name: 基本分区图
         href: visuals/power-bi-visualization-basic-area-chart.md
@@ -346,6 +348,8 @@ items:
         href: visuals/power-bi-visualization-treemaps.md
       - name: Power BI 中的瀑布图
         href: visuals/power-bi-visualization-waterfall-charts.md
+      - name: 创建动态参考行
+        href: service-analytics-pane.md
     - name: 故障排除
       items:
       - name: 解决在 Power BI Desktop 和 Power Query 中导入 Access 数据库和 Excel 电子表格时出现的问题
@@ -382,10 +386,10 @@ items:
       href: power-bi-overview.md
   - name: 教程
     items:
-    - name: 连接到 GitHub 示例
-      href: service-tutorial-connect-to-github.md
     - name: 开始使用 Power BI
       href: service-get-started.md
+    - name: 连接到 GitHub 示例
+      href: service-tutorial-connect-to-github.md
   - name: 概念
     items:
     - name: Power BI 服务中的新功能
@@ -618,7 +622,7 @@ items:
         href: service-pin-tile-to-another-dashboard.md
       - name: 将磁贴从 Excel 固定到仪表板
         href: service-dashboard-pin-tile-from-excel.md
-      - name: 将磁贴从“问答”固定到仪表板
+      - name: 从问答将磁贴固定到仪表板
         href: service-dashboard-pin-tile-from-q-and-a.md
       - name: 将整个报表页固定到仪表板
         href: service-dashboard-pin-live-tile-from-report.md
@@ -644,40 +648,28 @@ items:
         href: service-dashboard-themes.md
     - name: 报表
       items:
-      - name: 从现有报表中创建新报表
-        href: power-bi-report-copy.md
-      - name: 向报表添加页面
-        href: power-bi-report-add-page.md
+      - name: 从数据集中创建新报表
+        href: service-report-create-new.md
       - name: 向报表添加筛选器
         href: power-bi-report-add-filter.md
       - name: 在 Power BI 中保存报表
         href: service-report-save.md
-      - name: 从数据集中创建新报表
-        href: service-report-create-new.md
       - name: 在“编辑视图”中与报表交互
         href: service-interact-with-a-report-in-editing-view.md
       - name: 在 Excel 中分析
         href: service-analyze-in-excel.md
       - name: 创建报表的提示和技巧
         href: power-bi-reports-tips-and-tricks-for-creating.md
-      - name: 分析窗格
-        href: service-analytics-pane.md
       - name: 报表使用指标
         href: service-usage-metrics.md
       - name: 为报表创建 QR 代码
         href: service-create-qr-code-for-report.md
-      - name: 重新排序报表页面
-        href: service-report-reorder-pages.md
-      - name: 复制报表页
-        href: power-bi-report-copy-paste-page.md
       - name: 将报表从服务导出到 Power BI Desktop（预览版）
         href: service-export-to-pbix.md
       - name: 使用 URL 参数筛选报表
         href: service-url-filters.md
       - name: 生成快速可靠报表的最佳做法
         href: power-bi-reports-performance.md
-      - name: 与 ArcGIS 地图交互
-        href: visuals/power-bi-visualizations-arcgis.md
     - name: 询问数据相关问题
       items:
       - name: 使用“问答”创建可视化效果和报表
@@ -792,6 +784,30 @@ items:
         href: service-dataflows-developer-resources.md
       - name: 连接到 Power BI Desktop 中的数据流
         href: desktop-connect-dataflows.md
+    - name: Power BI 中的分页报表
+      items:
+      - name: 什么是分页报表？ （预览）
+        href: paginated-reports-report-builder-power-bi.md
+      - name: 分页报表常见问题解答
+        href: paginated-reports-faq.md
+      - name: 创建分页报表并进行上传
+        href: paginated-reports-quickstart-aw.md
+      - name: 处理报表设计视图
+        href: paginated-reports-report-design-view.md
+      - name: 直接在分页报表中输入数据
+        href: paginated-reports-enter-data.md
+      - name: 创建嵌入的数据源
+        href: paginated-reports-embedded-data-source.md
+      - name: 创建嵌入的数据集
+        href: paginated-reports-create-embedded-dataset.md
+      - name: 创建参数
+        href: paginated-reports-parameters.md
+      - name: 发布分页报表
+        href: paginated-reports-save-to-power-bi-service.md
+      - name: 查看分页报表
+        href: paginated-reports-view-power-bi-service.md
+      - name: 与参数进行交互
+        href: paginated-reports-view-parameters.md
   - name: 资源
     items:
     - name: 视频
@@ -802,38 +818,6 @@ items:
       href: supported-languages-countries-regions.md
     - name: 白皮书
       href: whitepapers.md
-- name: Power BI 中的分页报表
-  items:
-  - name: 概述
-    items:
-    - name: 什么是分页报表？ （预览）
-      href: paginated-reports-report-builder-power-bi.md
-  - name: 教程
-    items:
-    - name: 创建分页报表并进行上传
-      href: paginated-reports-quickstart-aw.md
-  - name: 概念
-    items:
-    - name: 处理报表设计视图
-      href: paginated-reports-report-design-view.md
-    - name: 分页报表常见问题解答
-      href: paginated-reports-faq.md
-  - name: 操作方法
-    items:
-    - name: 直接在分页报表中输入数据
-      href: paginated-reports-enter-data.md
-    - name: 创建嵌入的数据源
-      href: paginated-reports-embedded-data-source.md
-    - name: 创建嵌入的数据集
-      href: paginated-reports-create-embedded-dataset.md
-    - name: 创建参数
-      href: paginated-reports-parameters.md
-    - name: 发布分页报表
-      href: paginated-reports-save-to-power-bi-service.md
-    - name: 查看分页报表
-      href: paginated-reports-view-power-bi-service.md
-    - name: 与参数进行交互
-      href: paginated-reports-view-parameters.md
 - name: 面向开发人员的 Power BI
   items:
   - name: 开发人员可以使用 Power BI 做什么
@@ -1265,9 +1249,9 @@ items:
       href: service-admin-governance.md
     - name: Power BI 安全性
       href: service-admin-power-bi-security.md
-ms.openlocfilehash: d6dd88caff9e0f2cdef7f7697c81161fe32c0b35
-ms.sourcegitcommit: 35d763dfc75c229204d36fd8b35c1e860786b707
+ms.openlocfilehash: a9156a07a1677c5cac424eef7349949bd47e79e0
+ms.sourcegitcommit: e17fc3816d6ae403414cf5357afbf6a492822ab8
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/27/2018
-ms.locfileid: "52331841"
+ms.lasthandoff: 12/04/2018
+ms.locfileid: "52830392"
