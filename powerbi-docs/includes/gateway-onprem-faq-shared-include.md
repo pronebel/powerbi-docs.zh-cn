@@ -43,8 +43,8 @@
 **问：** 是否可以强制网关使用 Azure 服务总线的 HTTPS 流入量来代替 TCP？  
 **答：** 是的。 尽管这会大大降低性能。 你会想要修改 *Microsoft.PowerBI.DataMovement.Pipeline.GatewayCore.dll.config* 文件。 你会想要将值从 `AutoDetect` 更改为 `Https`。 默认情况下，此文件位于 *C:\Program Files\On-premises data gateway* 。
 
-**问：** 需要将 Azure 数据中心 IP 列表列入白名单吗？ 在何处可以获取此列表？  
-**答：** 如果你要拦截出站 IP 流量，则可能需要将 Azure 数据中心 IP 列表列入白名单。 目前，网关使用 IP 地址以及完全限定的域名与 Azure 服务总线进行通信。 Azure 数据中心 IP 列表每周更新一次。 可以下载 [Microsoft Azure 数据中心 IP 列表](https://www.microsoft.com/download/details.aspx?id=41653)。
+**问：** 需要将 Azure 数据中心 IP 列表列入允许列表吗？ 在何处可以获取此列表？  
+**答：** 如果你要拦截出站 IP 流量，则可能需要将 Azure 数据中心 IP 列表列入允许列表。 目前，网关使用 IP 地址以及完全限定的域名与 Azure 服务总线进行通信。 Azure 数据中心 IP 列表每周更新一次。 可以下载 [Microsoft Azure 数据中心 IP 列表](https://www.microsoft.com/download/details.aspx?id=41653)。
 
 ```
 <setting name="ServiceBusSystemConnectivityModeString" serializeAs="String">

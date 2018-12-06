@@ -32,7 +32,7 @@ ms.locfileid: "52578212"
 ### <a name="resolution-3-run-power-bi-desktop-with-administrator-privilege"></a>解决方案 3：使用管理员特权运行 Run Power BI Desktop
 或者，可以管理员身份启动 Power BI Desktop，这也会使其成功启动。 仍建议安装最新版 Power BI 本地数据网关，如本文先前部分中所述。
 
-值得注意的是，Power BI Desktop 是作为多进程体系结构设计的，其中一些进程使用 Windows 命名管道进行通信。 可能会有其他进程干扰这些命名管道。 此类干扰最常见原因是安全性，包括防病毒软件或防火墙可能会阻止管道或将流量重定向到特定端口的情况。 使用管理员权限启动 Power BI Desktop 可以解决该问题。 如果无法使用管理员权限启动，请与管理员联系，确定应用了哪些阻止命名管道正确通信的安全规则，并将 Power BI Desktop 及其各自的子进程列入白名单。
+值得注意的是，Power BI Desktop 是作为多进程体系结构设计的，其中一些进程使用 Windows 命名管道进行通信。 可能会有其他进程干扰这些命名管道。 此类干扰最常见原因是安全性，包括防病毒软件或防火墙可能会阻止管道或将流量重定向到特定端口的情况。 使用管理员权限启动 Power BI Desktop 可以解决该问题。 如果无法使用管理员权限启动，请与管理员联系，确定应用了哪些阻止命名管道正确通信的安全规则，并将 Power BI Desktop 及其各自的子进程列入允许列表。
 
 ## <a name="resolve-issues-when-connecting-to-sql-server"></a>解决连接到 SQL Server 时发生的问题
 如果连接 SQL Server 数据库时遇到类似以下错误消息，通常可以管理员身份启动 Power BI Desktop，然后连接 SQL Server，以解决此问题：

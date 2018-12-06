@@ -169,7 +169,7 @@ Add-WebApplicationProxyApplication -Name "Contoso Reports" -ExternalPreauthentic
 | --- | --- |
 | **ADFSRelyingPartyName** |这是在 ADFS 内创建的作为应用程序组的一部分的 Web API 名称。 |
 | **ExternalCertificateThumbprint** |这是用于外部用户的证书。 此证书在移动设备上有效且来自受信任的证书颁发机构，这一点很重要。 |
-| **BackendServerUrl** |这是从 WAP 服务器指向报表服务器的 URL。 如果 WAP 服务器位于 DMZ 中，则需要使用完全限定的域名。 请确保可以从 WAP 服务器上的 Web 浏览器命中此 URL。 |
+| **BackendServerUrl** |这是从 WAP 服务器指向报表服务器的 URL。 如果 WAP 服务器位于外围网络中，则需要使用完全限定的域名。 请确保可以从 WAP 服务器上的 Web 浏览器命中此 URL。 |
 | **BackendServerAuthenticationSPN** |这是创建的作为 Reporting Services 配置一部分的 SPN。 |
 
 ### <a name="setting-integrated-authentication-for-the-wap-application"></a>为 WAP 应用程序设置集成身份验证
