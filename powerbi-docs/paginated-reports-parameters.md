@@ -1,5 +1,5 @@
 ---
-title: 为 Power BI 服务中的分页报表创建参数 | Microsoft Docs
+title: 为 Power BI 服务中的分页报表创建参数（预览）
 description: 本文介绍了如何为 Power BI 服务中的分页报表创建参数。
 author: maggiesMSFT
 manager: kfile
@@ -9,14 +9,14 @@ ms.component: report-builder
 ms.topic: conceptual
 ms.date: 11/05/2018
 ms.author: maggies
-ms.openlocfilehash: 3a1d497f112e84aeb958b86658ee3ffae3e87c6d
-ms.sourcegitcommit: b23fdcc0ceff5acd2e4d52b15b310068236cf8c7
+ms.openlocfilehash: d36f8e26282ae794976b0d679feb426ea04a981b
+ms.sourcegitcommit: b03912343a5a214c6bb972aaa6aa051c2a5f4332
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/07/2018
-ms.locfileid: "51266621"
+ms.lasthandoff: 12/05/2018
+ms.locfileid: "52900281"
 ---
-# <a name="create-parameters-for-paginated-reports-in-the-power-bi-service"></a>为 Power BI 服务中的分页报表创建参数
+# <a name="create-parameters-for-paginated-reports-in-the-power-bi-service-preview"></a>为 Power BI 服务中的分页报表创建参数（预览）
 
 本文介绍了如何为 Power BI 服务中的分页报表创建参数。  报表参数提供了一种选择报表数据和更改报表显示内容的方法。 用户可以提供默认值和可用值列表，报表读者可以更改选择。  
 
