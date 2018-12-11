@@ -4,18 +4,19 @@ description: 通过 Power BI Desktop 轻松连接并使用网页数据
 author: davidiseminger
 manager: kfile
 ms.reviewer: ''
+ms.custom: seodec18
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 11/28/2018
+ms.date: 12/06/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 2aef47ab1716464c0896b624069a6ebbeb4adc54
-ms.sourcegitcommit: 05303d3e0454f5627eccaa25721b2e0bad2cc781
+ms.openlocfilehash: a0d7eeccede8f6402256eb8655657ca12dde075b
+ms.sourcegitcommit: 72c9d9ec26e17e94fccb9c5a24301028cebcdeb5
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/28/2018
-ms.locfileid: "52578373"
+ms.lasthandoff: 12/07/2018
+ms.locfileid: "53026560"
 ---
 # <a name="connect-to-a-web-page-from-power-bi-desktop"></a>通过 Power BI Desktop 连接到网页
 用户可以连接到网页，然后将其数据导入到 Power BI Desktop 并在视觉对象和数据模型中使用该数据。
@@ -44,7 +45,7 @@ ms.locfileid: "52578373"
 
 若要更深入地了解连接到网页，请查看 [Power BI Desktop 入门指南](desktop-getting-started.md)。
 
-### <a name="next-steps"></a>后续步骤
+## <a name="next-steps"></a>后续步骤
 你可以使用 Power BI Desktop 连接到各种数据。 有关数据源的详细信息，请参阅下列资源：
 
 * [Power BI Desktop 中的数据源](desktop-data-sources.md)

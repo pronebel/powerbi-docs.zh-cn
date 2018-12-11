@@ -4,18 +4,19 @@ description: 在 Power BI Desktop 中使用 SAP HANA
 author: davidiseminger
 manager: kfile
 ms.reviewer: ''
+ms.custom: seodec18
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 11/28/2018
+ms.date: 12/06/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: ba49fc09fb7b5a3885dbbcdf61086026e822ae03
-ms.sourcegitcommit: 2ae660a7b70fce23eb58b159d049eca44a664f2c
+ms.openlocfilehash: 7f4ff77522f083c103210dce4cdc3a7cd2325ec5
+ms.sourcegitcommit: 72c9d9ec26e17e94fccb9c5a24301028cebcdeb5
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/30/2018
-ms.locfileid: "52669603"
+ms.lasthandoff: 12/07/2018
+ms.locfileid: "53025132"
 ---
 # <a name="use-sap-hana-in-power-bi-desktop"></a>在 Power BI Desktop 中使用 SAP HANA
 使用 Power BI Desktop，你现在可以访问 **SAP HANA** 数据库。 若要使用 **SAP HANA**，必须在本地客户端计算机上按顺序安装 SAP HANA ODBC 驱动程序，以使 Power BI Desktop **SAP HANA** 数据连接能够正常运行。 可以从 [SAP 软件下载中心](https://support.sap.com/swdc)下载 SAP HANA ODBC 驱动程序。 在这里，搜索 Windows 计算机的 SAP HANA 客户端。 由于 **SAP 软件下载中心**的结构经常发生变化，因此没有有关站点导航的更多具体指导。
@@ -30,7 +31,7 @@ ms.locfileid: "52669603"
 
 在此版本中，Power BI Desktop 和 Power BI 服务支持 [DirectQuery](desktop-directquery-sap-hana.md) 模式中的 SAP HANA，而且对于使用 DirectQuery 模式中的 SAP HANA 的报表，用户可将其发布和上传到 Power BI 服务。 在 DirectQuery 模式中不使用 **SAP HANA** 时你也可以向 Power BI Service 发布和上传报表。
 
-### <a name="supported-features-for-sap-hana"></a>SAP HANA 支持的功能
+## <a name="supported-features-for-sap-hana"></a>SAP HANA 支持的功能
 此版本有很多适用于 **SAP HANA** 的功能，如以下列表所示：
 
 * 适用于 SAP HANA 的 Power BI 连接器使用 SAP ODBC 驱动程序，以提供最佳使用体验
@@ -40,8 +41,7 @@ ms.locfileid: "52669603"
 * 包括对 HANA 模型的优化导航
 * Power BI 支持 **SAP HANA** 变量和输入参数
 
-### <a name="installing-the-sap-hana-odbc-driver"></a>安装 SAP HANA ODBC 驱动程序
-### <a name="limitations-of-sap-hana"></a>SAP HANA 的限制
+## <a name="limitations-of-sap-hana"></a>SAP HANA 的限制
 **SAP HANA** 的使用也具有一些限制，如下所示：
 
 * NVARCHAR 字符串截断的最大长度为 4000 个 Unicode 字符

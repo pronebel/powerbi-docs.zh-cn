@@ -4,18 +4,19 @@ description: 在 Power BI Desktop 中轻松连接到并使用 Excel 工作簿数
 author: davidiseminger
 manager: kfile
 ms.reviewer: ''
+ms.custom: seodec18
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 11/28/2018
+ms.date: 12/06/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 36c01851138ae8b8e74acd60b39f5b358e20e392
-ms.sourcegitcommit: 2ae660a7b70fce23eb58b159d049eca44a664f2c
+ms.openlocfilehash: cff8950526393fd2243dbe5a4a8dcc16fcc44821
+ms.sourcegitcommit: 72c9d9ec26e17e94fccb9c5a24301028cebcdeb5
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/30/2018
-ms.locfileid: "52669051"
+ms.lasthandoff: 12/07/2018
+ms.locfileid: "53025231"
 ---
 # <a name="connect-to-excel-in-power-bi-desktop"></a>在 Power BI Desktop 中连接到 Excel
 从 Power BI Desktop 连接到 Excel 工作簿很简单，本文将指导你完成所有步骤。
@@ -45,7 +46,7 @@ Power BI Desktop 会从“导航器”窗口的工作簿中展示其他数据元
 
 你现在已准备好在 Power BI Desktop 中使用从 Excel 工作簿导入的数据来创建视觉对象、报表或与你可能想要连接和导入的其他数据（如 Excel 工作簿、数据库或任何其他数据源）进行交互。
 
-### <a name="next-steps"></a>后续步骤
+## <a name="next-steps"></a>后续步骤
 你可以使用 Power BI Desktop 连接到各种数据。 有关数据源的详细信息，请参阅下列资源：
 
 * [什么是 Power BI Desktop？](desktop-what-is-desktop.md)

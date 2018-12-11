@@ -7,18 +7,18 @@ ms.reviewer: lukaszp
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 11/09/2018
+ms.date: 11/14/2018
 ms.author: mihart
 LocalizationGroup: Share your work
-ms.openlocfilehash: 9c9a99e2bfe0ae90607da4f27d77cb0a2a78a7c8
-ms.sourcegitcommit: a1b7ca499f4ca7e90421511e9dfa61a33333de35
+ms.openlocfilehash: cba5f971e81a425de661e03ac66c5c6d5fe82049
+ms.sourcegitcommit: 4f46d71ff6026c1c158f007425aefdcb501f48ee
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/10/2018
-ms.locfileid: "51507637"
+ms.lasthandoff: 12/06/2018
+ms.locfileid: "52979366"
 ---
 # <a name="install-and-use-apps-with-dashboards-and-reports-in-power-bi"></a>在 Power BI 中安装和使用包含仪表板和报表的应用
-在 Power BI 中，应用将相关仪表板和报表汇总到一处。 组织中的人员创建并发布包含关键业务信息的应用。 可能已使用的[外部服务](end-user-connect-to-services.md)（如 Google Analytics 和 Microsoft Dynamics CRM）也提供 Power BI 应用。 
+在 Power BI 中，应用将相关仪表板和报表汇总到一处。 组织中的人员创建并发布包含关键业务信息的应用。 可能已使用的[外部服务](../service-connect-to-services.md)（如 Google Analytics 和 Microsoft Dynamics CRM）也提供 Power BI 应用。 
 
 ![Power BI 中的“应用”](./media/end-user-apps/power-bi-apps-navbar.png)
 
@@ -63,5 +63,5 @@ ms.locfileid: "51507637"
 
 
 ## <a name="next-steps"></a>后续步骤
-[适用于外部服务的 Power BI 应用](end-user-connect-to-services.md)
+[适用于外部服务的 Power BI 应用](../service-connect-to-services.md)
 

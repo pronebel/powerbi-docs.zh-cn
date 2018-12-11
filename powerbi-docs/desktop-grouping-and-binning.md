@@ -4,25 +4,26 @@ description: 了解如何在 Power BI Desktop 中对元素进行分组和装箱
 author: davidiseminger
 manager: kfile
 ms.reviewer: ''
+ms.custom: seodec18
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 11/28/2018
+ms.date: 12/06/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 6363cbe3afdce351acc728fe29af8662702b8254
-ms.sourcegitcommit: 2ae660a7b70fce23eb58b159d049eca44a664f2c
+ms.openlocfilehash: 64ec167a295255a6813244ef6cb222b4eccb50f3
+ms.sourcegitcommit: 72c9d9ec26e17e94fccb9c5a24301028cebcdeb5
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/30/2018
-ms.locfileid: "52670684"
+ms.lasthandoff: 12/07/2018
+ms.locfileid: "53025213"
 ---
 # <a name="use-grouping-and-binning-in-power-bi-desktop"></a>在 Power BI Desktop 中使用分组和装箱
 在创建视觉对象后，Power BI Desktop 会根据基础数据中的值，将数据分入各区块（或组）。 这通常不会出现问题，但你有时可能会想要优化这些区块的显示方式。 例如，你可能想要在一个更宽泛的类别（ *组* ）中设置三个产品类别。 或者，你可能希望将销售额数据按 1,000,000 美元大小进行装箱，而不是等分 923,983 美元。
 
 在 Power BI Desktop 中，你可以对数据点进行分组，以便更清楚地查看、分析和浏览视觉对象中的数据和趋势。 还可以定义装箱大小（通常称为“装箱”），将值归入大小相同的组，更有助于你执行合理的数据可视化。
 
-### <a name="using-grouping"></a>使用分组
+## <a name="using-grouping"></a>使用分组
 若要使用分组，请在按住 Ctrl 的同时单击选择多个元素，从而选择视觉对象上的两个或多个元素。 然后，右键单击所选多个元素中的一个，并从随即显示的菜单中选择“分组”。
 
 ![](media/desktop-grouping-and-binning/grouping-binning_1.png)
@@ -45,10 +46,8 @@ ms.locfileid: "52670684"
 
 > [!NOTE]
 > 也可以为“字段”中的任意字段创建组，而无需选择现有视觉对象中的多个元素。 只需右键单击相应字段，然后从随即显示的菜单中选择“新建组”即可。
-> 
-> 
 
-### <a name="using-binning"></a>使用装箱
+## <a name="using-binning"></a>使用装箱
 可以在 **Power BI Desktop** 中设置数字和时间字段的装箱大小。 借助装箱，可以合理精简 **Power BI Desktop** 显示的数据。
 
 若要应用装箱大小，请右键单击“字段”，然后选择“新建组”。
