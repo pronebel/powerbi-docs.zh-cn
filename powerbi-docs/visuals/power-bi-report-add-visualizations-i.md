@@ -8,7 +8,7 @@ featuredvideoid: IkJda4O7oGs
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 12/07/2018
+ms.date: 08/23/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
 ms.openlocfilehash: f2edbd7b0b977b378d25634a0f9505101350d73b
