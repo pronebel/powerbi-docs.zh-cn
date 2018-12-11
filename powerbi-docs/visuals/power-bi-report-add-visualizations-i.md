@@ -42,7 +42,7 @@ ms.locfileid: "52829794"
    
    ![](media/power-bi-report-add-visualizations-i/pbi_agif_createchart3.gif)
    
-   或从地理字段开始，如“地区”>“城市”。 Power BI 与必应地图创建地图可视化效果。
+   或从地理字段开始，如“地区”>“城市”。 Power BI 会结合必应地图创建地图可视化效果。
    
    ![](media/power-bi-report-add-visualizations-i/power-bi-map.png)
 2. 创建可视化效果，然后更改其类型。 选择“产品”>“类别”，然后选择“产品”>“产品计数”，将其添加到“值”框中。

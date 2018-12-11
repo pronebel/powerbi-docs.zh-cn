@@ -9,12 +9,12 @@ ms.component: powerbi-mobile
 ms.topic: conceptual
 ms.date: 06/28/2018
 ms.author: maggies
-ms.openlocfilehash: 1b5f62e965a5a5df97a16c20f60043db534b8f77
-ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
+ms.openlocfilehash: 9738660ced6b8dbe32e7308b86f671f21c8c312c
+ms.sourcegitcommit: 4f46d71ff6026c1c158f007425aefdcb501f48ee
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/21/2018
-ms.locfileid: "46547582"
+ms.lasthandoff: 12/06/2018
+ms.locfileid: "52979481"
 ---
 # <a name="view-dashboards-and-reports-in-the-power-bi-mobile-apps"></a>查看 Power BI 移动应用中的仪表板和报表
 适用于：
@@ -31,7 +31,7 @@ ms.locfileid: "46547582"
 要在移动设备上查看仪表板和报表，则需要在 Web 浏览器中创建或连接它们。 
 
 1. 转到 Power BI 服务 ([https://www.powerbi.com](https://www.powerbi.com)) 和[注册帐户](../../service-self-service-signup-for-power-bi.md)。
-2. [创建你自己的 Power BI 仪表板和报表](../../service-get-started.md)，或连接到各种不同服务的现有 [Power BI 应用](../end-user-connect-to-services.md)，如 [Microsoft Dynamics CRM](../../service-connect-to-microsoft-dynamics-crm.md) 和 [Adobe Analytics](../../service-connect-to-adobe-analytics.md)。
+2. [创建你自己的 Power BI 仪表板和报表](../../service-get-started.md)，或连接到各种不同服务的现有 [Power BI 应用](../../service-connect-to-services.md)，如 [Microsoft Dynamics CRM](../../service-connect-to-microsoft-dynamics-crm.md) 和 [Adobe Analytics](../../service-connect-to-adobe-analytics.md)。
 
 此处是一个 Power BI 服务中的 Power BI 仪表板：
 
@@ -196,5 +196,5 @@ ms.locfileid: "46547582"
 * 从 Google play [下载 Android 应用](http://go.microsoft.com/fwlink/?LinkID=544867)  
 * [适用于 Power BI 的 Android 应用入门](mobile-android-app-get-started.md)  
 * [什么是 Power BI？](../../power-bi-overview.md)
-* 是否有任何问题？ [尝试咨询 Power BI 社区](http://community.powerbi.com/)
+* 是否有任何问题? [尝试咨询 Power BI 社区](http://community.powerbi.com/)
 
