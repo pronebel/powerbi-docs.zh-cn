@@ -9,15 +9,15 @@ ms.component: powerbi-service
 ms.topic: conceptual
 ms.date: 10/09/2017
 ms.author: maggies
-ms.openlocfilehash: 723aa8e1a6817551f5e8f1c0cf096d185b1e53ae
-ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
+ms.openlocfilehash: 23a8875479197f1d200a9f086fcfd27d483faf40
+ms.sourcegitcommit: b03912343a5a214c6bb972aaa6aa051c2a5f4332
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/21/2018
-ms.locfileid: "46543764"
+ms.lasthandoff: 12/05/2018
+ms.locfileid: "52900212"
 ---
 # <a name="template-content-pack-experiences-in-power-bi"></a>Power BI 中的模板内容包体验
-本节重点介绍了连接到 ISV [内容包](consumer/end-user-connect-to-services.md)的用户典型体验。
+本节重点介绍了连接到 ISV [内容包](service-connect-to-services.md)的用户典型体验。
 
 通过连接到已发布的内容包，亲自尝试连接体验，地址是 https://app.powerbi.com/getdata/services（例如以下所述的 [GitHub 内容包](https://app.powerbi.com/getdata/services/github)）。
 

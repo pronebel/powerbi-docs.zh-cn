@@ -10,20 +10,16 @@ ms.topic: conceptual
 ms.date: 10/30/2018
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: 861b9c411b3088b6c16b7ad601f374bd771b13ed
-ms.sourcegitcommit: 35d763dfc75c229204d36fd8b35c1e860786b707
+ms.openlocfilehash: ce44e87144d9338fbd88f0bc7183daf1b5339b35
+ms.sourcegitcommit: b03912343a5a214c6bb972aaa6aa051c2a5f4332
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/27/2018
-ms.locfileid: "52331979"
+ms.lasthandoff: 12/05/2018
+ms.locfileid: "52900465"
 ---
 # <a name="power-bi-licensing-in-your-organization"></a>组织中的 Power BI 许可
 
-在 Power BI 服务中，用户基于两种类型的许可证定义了功能：
-
-* 每用户 - Power BI Pro 许可和免费许可。 Power BI Pro 许可证允许访问 Power BI 服务中的所有内容和功能，包括共享内容以及与其他 Pro 用户协作的功能。 只有 Pro 用户可以将内容发布到应用工作区，使用这些内容，共享仪表板并订阅仪表板及报表。 免费许可证允许访问某些 Power BI 服务的功能。 有关详细信息，请参阅[按许可证类型的 Power BI 服务功能](service-features-license-type.md)。
-
-* 基于容量 - Power BI Premium 许可。 Premium 提供专用容量，在 Power BI 中具有更高的一致性并支持更大的数据量。 对于个人用户，Premium 还允许 Pro 用户广泛分发内容，且不要求查看内容的收件人都提供 Pro 许可证。 有关详细信息，请参阅[什么是 Power BI Premium？](service-premium.md)。
+[!INCLUDE [license-capabilities](includes/license-capabilities.md)]
 
 本文从管理员角度重点介绍每用户许可。
 

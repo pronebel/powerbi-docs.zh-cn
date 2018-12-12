@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 11/28/2018
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: 2a23a725ecad5641c3f82fa4c57ee1a0bc951e28
-ms.sourcegitcommit: 2ae660a7b70fce23eb58b159d049eca44a664f2c
+ms.openlocfilehash: e0721efaaca879ffb2915315af9aea4dbafca3ca
+ms.sourcegitcommit: b03912343a5a214c6bb972aaa6aa051c2a5f4332
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/30/2018
-ms.locfileid: "52670332"
+ms.lasthandoff: 12/05/2018
+ms.locfileid: "52900235"
 ---
 # <a name="data-sources-for-the-power-bi-service"></a>Power BI 服务数据源
 数据是 Power BI 的核心。 当研究数据、创建图表和仪表板，以及使用问答进行提问时，所看到上述全部可视化效果和答案实际上均是从数据集获得其基础数据的。 但是，数据集来自何处呢？ 它来自数据源。
@@ -44,7 +44,7 @@ ms.locfileid: "52670332"
 
 内容包包含为你准备好的所有所需数据和报表。 在 Power BI 中，有两种类型的内容包；来自 Google Analytics、Marketo 或 Salesforce 等服务的内容包以及你的组织中的其他用户创建和共享的内容包。
 
-服务 - 差不多有数十个具有适用于 Power BI 内容包的服务，而且随时都有更多服务添加进来。 大多数服务要求你拥有一个帐户。 若要了解详细信息，请参阅[连接到服务](consumer/end-user-connect-to-services.md)。
+服务 - 差不多有数十个具有适用于 Power BI 内容包的服务，而且随时都有更多服务添加进来。 大多数服务要求你拥有一个帐户。 若要了解详细信息，请参阅[连接到服务](service-connect-to-services.md)。
 
 组织 - 如果你和组织中的其他用户拥有 Power BI Pro 帐户，则可以创建、共享和使用内容包。 若要了解详细信息，请参阅[组织内容包](service-organizational-content-pack-introduction.md)。
 

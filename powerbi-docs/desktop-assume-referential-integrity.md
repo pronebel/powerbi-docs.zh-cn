@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 07/27/2018
+ms.date: 11/28/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: bd609d5d5444bd5ed44b68c3d5afde473b4b1629
-ms.sourcegitcommit: f01a88e583889bd77b712f11da4a379c88a22b76
+ms.openlocfilehash: 30aba9dc78008c933c34b24d1d367d18fb26c36c
+ms.sourcegitcommit: 05303d3e0454f5627eccaa25721b2e0bad2cc781
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/27/2018
-ms.locfileid: "39328341"
+ms.lasthandoff: 11/28/2018
+ms.locfileid: "52578442"
 ---
 # <a name="assume-referential-integrity-settings-in-power-bi-desktop"></a>Power BI Desktop 中的假设引用完整性设置
 当连接到使用 **DirectQuery** 的数据源时，你可以使用“假设引用完整性”，以对数据源运行更高效的查询。 此功能对基础数据有要求，并且仅在使用 **DirectQuery** 时可用。
@@ -50,7 +50,7 @@ ms.locfileid: "39328341"
 
 ![](media/desktop-assume-referential-integrity/assume-referential-integrity_1.png)
 
-选中后，将对数据验证此设置，以确保没有 *Null* 或不匹配的行。 *但是* ，在值的数量非常大的情况下，验证不能保证没有引用完整性问题。
+选中后，将对数据验证此设置，以确保没有 *Null* 或不匹配的行。  *但是* ，在值的数量非常大的情况下，验证不能保证没有引用完整性问题。
 
 此外，验证将在编辑关系时执行，并且 *不* 反映数据的任何后续更改。
 

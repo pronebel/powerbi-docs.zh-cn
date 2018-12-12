@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 11/28/2018
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: f2e3ad8528108e63a5573a3df502f90fee6d4c55
-ms.sourcegitcommit: 2ae660a7b70fce23eb58b159d049eca44a664f2c
+ms.openlocfilehash: a27e192c5ccc1fb3a7af9bafbc9c4fd14ccabf4c
+ms.sourcegitcommit: b03912343a5a214c6bb972aaa6aa051c2a5f4332
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/30/2018
-ms.locfileid: "52670155"
+ms.lasthandoff: 12/05/2018
+ms.locfileid: "52900097"
 ---
 # <a name="power-bi-for-us-government-customers"></a>适用于美国政府客户的 Power BI
 **Power BI 服务**有一个可供美国政府客户使用的版本，作为 **Office 365 美国政府社区**订阅的一部分。 本文中讨论的 **Power BI 服务**版本是为美国政府客户专门设计的，独立且不同于 **Power BI 服务**的商业版本。
@@ -37,7 +37,7 @@ ms.locfileid: "52670155"
 * 从 Excel、CSV 和 Power BI Desktop 文件中[导入数据](service-get-data.md)和报表
 * 数据管理网关
 * 所有数据都在 Azure SQL 和 Blob 存储中为 Power BI 加密
-* 连接到包含[内容包](consumer/end-user-connect-to-services.md)的服务
+* 连接到包含[内容包](service-connect-to-services.md)的服务
 
 ## <a name="connectivity-between-government-and-public-azure-cloud-services"></a>政府版本和公共 Azure 云服务之间的连接 
 
