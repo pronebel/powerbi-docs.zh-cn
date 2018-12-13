@@ -14,7 +14,7 @@ ms.openlocfilehash: d4b0ad34d200e3d94c60c7e3a3f524a3f3ed09cf
 ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/13/2018
+ms.lasthandoff: 09/21/2018
 ms.locfileid: "46549997"
 ---
 # <a name="measures-in-power-bi-desktop"></a>Power BI Desktop 中的度量值
