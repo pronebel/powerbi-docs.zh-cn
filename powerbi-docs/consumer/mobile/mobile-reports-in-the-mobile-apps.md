@@ -9,12 +9,12 @@ ms.component: powerbi-mobile
 ms.topic: conceptual
 ms.date: 08/17/2018
 ms.author: maggies
-ms.openlocfilehash: 7a5c60eea81eeb3a1f4e8a7f5b807fd8c7bfb6b5
-ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
+ms.openlocfilehash: 694ae2cd6f77fbcf898a984b135fb65b9163a43b
+ms.sourcegitcommit: f25464d5cae46691130eb7b02c33f42404011357
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/21/2018
-ms.locfileid: "46547237"
+ms.lasthandoff: 12/10/2018
+ms.locfileid: "53180981"
 ---
 # <a name="explore-reports-in-the-power-bi-mobile-apps"></a>在 Power BI 移动应用中浏览报表
 适用于：
@@ -105,6 +105,16 @@ Power BI 报表作者可以创建专门针对手机进行优化的报表布局�
 钻取时，使用返回按钮即可返回到之前的报表页。
 
 了解如何[在 Power BI Desktop 中添加钻取](../../desktop-drillthrough.md)。
+
+## <a name="show-data-and-copy-values"></a>显示数据和复制值
+
+通过选择手机报表中的可视化效果右上角的菜单选项省略号 (...)，然后选择“显示数据”，可以查看基础可视化效果数据。
+
+![Power BI 移动版显示数据菜单选项](./media/mobile-reports-in-the-mobile-apps/copy-data-visual.png)
+
+长时间点击显示的表中的单元格将会弹出本机选择和复制菜单，因此你将能够从表（或整个表）中选择复制数据。
+
+![Power BI 移动版钻取报表](./media/mobile-reports-in-the-mobile-apps/copy-data-table.png)
 
 ## <a name="next-steps"></a>后续步骤
 * [查看手机优化版 Power BI 报表并与之交互](mobile-apps-view-phone-report.md)

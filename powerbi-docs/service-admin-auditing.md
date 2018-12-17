@@ -9,13 +9,14 @@ ms.component: powerbi-admin
 ms.topic: conceptual
 ms.date: 11/16/2018
 ms.author: mblythe
+ms.custom: seodec18
 LocalizationGroup: Administration
-ms.openlocfilehash: e64496461e7d81d3b39e9a8d7174a3e985d04002
-ms.sourcegitcommit: a186679e8dae85dce23f6365bf5c36d7f407f15b
+ms.openlocfilehash: cb508681950cd5bb585da1208683deb31c8b6e64
+ms.sourcegitcommit: 72c9d9ec26e17e94fccb9c5a24301028cebcdeb5
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/16/2018
-ms.locfileid: "51850467"
+ms.lasthandoff: 12/07/2018
+ms.locfileid: "53026813"
 ---
 # <a name="using-auditing-within-your-organization"></a>在组织内使用审核
 
@@ -73,13 +74,13 @@ ms.locfileid: "51850467"
 
 如果所选日期范围大于 90 天，将显示错误。 如果使用最大日期范围 90 天，请选择当前时间作为“开始日期”。 否则将收到错误，提醒开始日期早于结束日期。 如果是在过去 90 天内启用审核，日期范围的开始日期不得早于审核启用日期。
 
-![](media/service-admin-auditing/search-audit-log-by-date.png)
+![按日期搜索](media/service-admin-auditing/search-audit-log-by-date.png)
 
 ## <a name="search-the-audit-logs-by-users"></a>按用户搜索审核日志
 
 可搜索特定用户所执行活动的审核日志条目。 为此，请在“用户”字段中输入一个或多个用户名。 用户名类似于电子邮件地址；它是用户登录 Power BI 时使用的帐户。 将此框留空以返回组织中所有用户（和服务帐户）的条目。
 
-![按日期搜索](media/service-admin-auditing/search-audit-log-by-user.png)
+![按用户搜索](media/service-admin-auditing/search-audit-log-by-user.png)
 
 ## <a name="view-search-results"></a>查看搜索结果
 

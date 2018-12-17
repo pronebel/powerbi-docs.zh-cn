@@ -1,23 +1,23 @@
 ---
 title: Power BI Premium 中的分页报表是什么？ （预览）
-description: 分页报表是可打印或共享的报表。 用户可以精确控制报表布局。 例如，即使某个表跨多个页，分页报表也能显示表中的所有数据。
+description: 长期以来，分页报表一直是 SQL Server Reporting Services 中的标准报表格式，现在可在 Power BI 服务中使用。 可以打印或共享这些报表。 用户可以精确控制报表布局。 例如，即使某个表跨多个页，分页报表也能显示表中的所有数据。
 author: maggiesMSFT
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.component: report-builder
 ms.topic: overview
-ms.date: 11/20/2018
+ms.date: 12/05/2018
 ms.author: maggies
-ms.openlocfilehash: 7a39d7b3bdbbd592afc6481c5936efc76569ad11
-ms.sourcegitcommit: 458e091a0a0bfb71ea3980d44df6408f48bab586
+ms.openlocfilehash: d79299f469062ec74c49ff4b7e9edda26c3409a3
+ms.sourcegitcommit: 72c9d9ec26e17e94fccb9c5a24301028cebcdeb5
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/22/2018
-ms.locfileid: "52289211"
+ms.lasthandoff: 12/07/2018
+ms.locfileid: "53026108"
 ---
 # <a name="what-are-paginated-reports-in-power-bi-premium-preview"></a>Power BI Premium 中的分页报表是什么？ （预览）
-长期以来，分页报表一直是 SQL Server Reporting Services 中的标准报表格式，现在可在 Power BI 服务中使用。 分页报表是设计用于打印或共享的报表。 它们被称为“分页”，因为它们已进行了格式化，以适应页面。 即使某个表跨多个页，分页报表也能显示表中的所有数据。 它们有时被称为“像素完美”，因为用户可以准确地控制其报表页面布局。 分页报表基于 SQL Server Reporting Services 中的 RDL 报表技术。 报表生成器是用于创作分页报表的独立工具。 
+长期以来，分页报表一直是 SQL Server Reporting Services 中的标准报表格式，现在可在 Power BI 服务中使用。 可以打印或共享这些报表。 它们被称为“分页”，因为它们已进行了格式化，以适应页面。 即使某个表跨多个页，分页报表也能显示表中的所有数据。 它们有时被称为“像素完美”，因为用户可以准确地控制其报表页面布局。 分页报表基于 SQL Server Reporting Services 中的 RDL 报表技术。 报表生成器是用于创作分页报表的独立工具。 
 
 分页报表可以有很多页。 例如，此报表有 563 页。 每页都采用精准布局，每个发票占一页，重复页眉和页脚。
 
@@ -43,11 +43,11 @@ ms.locfileid: "52289211"
 
 ### <a name="create-paginated-reports-with-matrix-chart-and-free-form-layouts"></a>创建具有矩阵、图表和自由格式布局的分页报表
 
-为基于列的数据创建表报表，为汇总数据创建矩阵报表（如交叉表或数据透视表报表），为图形数据创建图表报表，为其他任何数据创建自由格式的列表报表（如发票）。 
+表格报表非常适用于基于列的数据。 矩阵报表（如交叉表或数据透视表报表）适用于汇总数据。 图表报表以图形格式显示数据，自由格式列表报表几乎可以显示任何其他内容，例如发票。 
   
 可以从其中一个报表生成器向导开始操作。 表、矩阵和图表向导将引导用户创建嵌入数据源连接和嵌入数据集。 然后拖放字段以创建数据集查询，选择布局和样式，以及自定义报表。  
   
-使用“地图”向导，可以创建根据地理或几何背景显示聚合数据的报表。 地图数据可能是来自 Transact-SQL 查询或美国环境系统研究所公司 (ESRI) 形状文件的空间数据。 除此之外，还可以添加 Microsoft 必应地图图块背景。  
+使用“地图”向导，可以创建根据地理或几何背景显示聚合数据的报表。 地图数据可能是来自 Transact-SQL 查询或美国环境系统研究所公司(ESRI) 形状文件的空间数据。 除此之外，还可以添加 Microsoft 必应地图图块背景。  
 
 ### <a name="add-more-to-your-report"></a>向报表添加更多内容
 
@@ -66,7 +66,7 @@ ms.locfileid: "52289211"
 
 以下是初始版本中不支持的一些其他功能：
 
-- 将报表页或视觉对象固定到 Power BI 仪表板。
+- 将报表页或视觉对象固定到 Power BI 仪表板。 用户仍可以从 Power BI 报表服务器或 Reporting Services 报表服务器上的本地分页报表将可视化效果固定到 Power BI 仪表板。 有关详细信息，请参阅[将 Reporting Services 项目固定到 Power BI 仪表板](https://docs.microsoft.com/sql/reporting-services/pin-reporting-services-items-to-power-bi-dashboards)。
 - 交互功能，如文档映射和显示/隐藏按钮。
 - 子报表和钻取报表。
 - 订阅。

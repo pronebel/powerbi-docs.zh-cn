@@ -1,31 +1,32 @@
 ---
-title: 为组织将 Power BI 内容嵌入应用程序
-description: 了解如何通过使用 Power BI API，为组织将报表、仪表板或磁贴集成或嵌入到 Web 应用中。
+title: 为组织将 Power BI 内容嵌入到应用程序的嵌入式分析
+description: 了解如何通过使用适用于嵌入式分析的 Power BI API，为组织将报表、仪表板或磁贴集成或嵌入到应用程序中。 了解如何使用嵌入式分析软件、嵌入式分析工具或嵌入式商业智能工具将 Power BI 集成到应用程序。
 author: markingmyname
 ms.author: maghan
 manager: kfile
-ms.topic: tutorial
+ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-developer
-ms.custom: mvc
-ms.date: 10/17/2018
-ms.openlocfilehash: 92ed5530ba2e3e72ec4d4e7d7c317993bdf9c04b
-ms.sourcegitcommit: a3ce866caba24217bcdd011e892b9ea72f3d2400
+ms.topic: tutorial
+ms.custom: seodec18
+ms.date: 12/10/2018
+ms.openlocfilehash: 541e6e62ac075922cdb301343361ac328a3db28e
+ms.sourcegitcommit: f25464d5cae46691130eb7b02c33f42404011357
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/18/2018
-ms.locfileid: "49396856"
+ms.lasthandoff: 12/10/2018
+ms.locfileid: "53180751"
 ---
-# <a name="tutorial-embed-a-power-bi-report-dashboard-or-tile-into-an-application-for-your-organization"></a>教程：为组织将 Power BI 报表、仪表板或磁贴嵌入应用程序
+# <a name="tutorial-embed-a-power-bi-report-dashboard-or-tile-into-an-application-for-your-organization"></a>教程：为组织将 Power BI 报表、仪表板或磁贴嵌入到应用程序
 
-本教程演示了如何将报表集成到应用程序。 通过将 Power BI.NET SDK 和 Power BI JavaScript API 结合使用，可为你的组织将 Power BI 嵌入应用程序。 在 Power BI 中，可以使用“用户拥有数据”将报表、仪表板或磁贴嵌入应用程序。 借助“用户拥有数据”，应用程序可以扩展 Power BI 服务。
+在 Power BI 中，可以使用“用户拥有数据”将报表、仪表板或磁贴嵌入应用程序。 借助“用户拥有数据”，应用程序可以扩展 Power BI 服务以使用嵌入式分析。 本教程演示了如何将报表集成到应用程序。 通过将 Power BI.NET SDK 和 Power BI JavaScript API 结合使用，可为组织将 Power BI 嵌入应用程序。
 
 ![Power BI 嵌入报表](media/embed-sample-for-your-organization/embed-sample-for-your-organization-035.png)
 
 在本教程中，将学习以下任务：
->[!div class="checklist"]
->* 在 Azure 中注册应用程序。
->* 将 Power BI 报表嵌入到应用程序。
+> [!div class="checklist"]
+> * 在 Azure 中注册应用程序。
+> * 将 Power BI 报表嵌入到应用程序。
 
 ## <a name="prerequisites"></a>先决条件
 
@@ -40,9 +41,9 @@ ms.locfileid: "49396856"
 
 在开始将报表、仪表板和磁贴嵌入到应用程序中之前，请确保环境已设置为允许嵌入。 在设置过程中，执行以下操作之一：
 
-- 可跟随[嵌入设置工具](https://aka.ms/embedsetup/UserOwnsData)完成操作，以便快速开始并下载示例应用程序，它会逐步引导你创建环境并嵌入报表。
+* 可跟随[嵌入设置工具](https://aka.ms/embedsetup/UserOwnsData)完成操作，以便快速开始并下载示例应用程序，它会逐步引导用户创建环境并嵌入报表。
 
-- 如果选择手动设置环境，请执行以下各部分中的操作。
+* 如果选择手动设置环境，请执行以下各部分中的操作。
 
 ### <a name="register-an-application-in-azure-active-directory"></a>在 Azure Active Directory 中注册应用程序
 
@@ -60,13 +61,13 @@ ms.locfileid: "49396856"
 
     ![新应用注册](media/embed-sample-for-your-organization/embed-sample-for-your-organization-004.png)
 
-4. 按照提示进行操作，并创建新的应用程序。 对于“用户拥有数据”，使用“Web 应用/API”作为应用程序类型。 此外，还必须提供“登录 URL”，Azure AD 会使用其返回令牌响应。 输入特定于应用程序的值。 例如，`http://localhost:13526/`。
+4. 按照提示进行操作，并创建新的应用程序。 对于“用户拥有数据”，使用“Web 应用/API”作为应用程序类型。 提供 Azure AD 用于返回令牌资源的登录 URL。 输入特定于应用程序的值。 例如，`http://localhost:13526/`。
 
     ![创建应用](media/embed-sample-for-your-organization/embed-sample-for-your-organization-005.png)
 
 ### <a name="apply-permissions-to-your-application-within-azure-active-directory"></a>在 Azure Active Directory 中向应用授予权限
 
-除了在应用注册页中提供的信息之外，还必须为应用程序启用权限。 使用全局管理员帐户登录才可启用权限。
+除了在应用注册页中提供的信息之外，还为应用程序启用权限。 使用全局管理员帐户登录才可启用权限。
 
 ### <a name="use-the-azure-active-directory-portal"></a>使用 Azure Active Directory 门户
 
@@ -158,7 +159,7 @@ ms.locfileid: "49396856"
 
     ![“用户拥有数据”应用程序示例](media/embed-sample-for-your-organization/embed-sample-for-your-organization-026.png)
 
-2. 在示例应用程序中打开 Cloud.config 文件。 必须先填充以下几个字段，然后才能成功运行应用：“ApplicationID”和“ApplicationSecret”。
+2. 在示例应用程序中打开 Cloud.config 文件。 必须填充几个字段才能成功运行该应用程序：ApplicationID和 ApplicationSecret。
 
     ![Cloud.config 文件](media/embed-sample-for-your-organization/embed-sample-for-your-organization-030.png)
 
@@ -168,69 +169,69 @@ ms.locfileid: "49396856"
 
     1. 登录 [Azure 门户](https://portal.azure.com)。
 
-        ![Azure 门户仪表板](media/embed-sample-for-your-organization/embed-sample-for-your-organization-002.png)
+       ![Azure 门户仪表板](media/embed-sample-for-your-organization/embed-sample-for-your-organization-002.png)
 
-    1. 在左侧导航窗格中，依次选择“所有服务”和“应用注册”。
+    2. 在左侧导航窗格中，依次选择“所有服务”和“应用注册”。
 
-        ![应用注册搜索](media/embed-sample-for-your-organization/embed-sample-for-your-organization-003.png)
+       ![应用注册搜索](media/embed-sample-for-your-organization/embed-sample-for-your-organization-003.png)
 
-    1. 选择需要使用“ApplicationID”的应用。
+    3. 选择需要使用“ApplicationID”的应用。
 
-        ![选择一个应用](media/embed-sample-for-your-organization/embed-sample-for-your-organization-006.png)
+       ![选择一个应用](media/embed-sample-for-your-organization/embed-sample-for-your-organization-006.png)
 
-    1. 你应该会看到列为 GUID 的“应用程序 ID”。 使用此“应用 ID”作为应用的“ApplicationID”。
+    4. 你应该会看到列为 GUID 的“应用程序 ID”。 使用此“应用 ID”作为应用的“ApplicationID”。
 
         ![ApplicationID](media/embed-sample-for-your-organization/embed-sample-for-your-organization-007.png)
 
-    1. 将 Azure 的“应用注册”部分中的“密钥”部分信息填入“ApplicationSecret”字段。
+    将 Azure 的“应用注册”部分中的“密钥”部分信息填入“ApplicationSecret”字段。
 
-    1. 若要获取“ApplicationSecret”，请按以下步骤操作：
+    若要获取“ApplicationSecret”，请按以下步骤操作：
 
-        1. 登录 [Azure 门户](https://portal.azure.com)。
+    1. 登录 [Azure 门户](https://portal.azure.com)。
 
-            ![Azure 门户](media/embed-sample-for-your-organization/embed-sample-for-your-organization-002.png)
+       ![Azure 门户](media/embed-sample-for-your-organization/embed-sample-for-your-organization-002.png)
 
-        1. 在左侧导航窗格中，依次选择“所有服务”和“应用注册”。
+    2. 在左侧导航窗格中，依次选择“所有服务”和“应用注册”。
 
-            ![应用注册搜索](media/embed-sample-for-your-organization/embed-sample-for-your-organization-003.png)
+       ![应用注册搜索](media/embed-sample-for-your-organization/embed-sample-for-your-organization-003.png)
 
-        1. 选择需要使用“ApplicationSecret”的应用。
+    3. 选择需要使用“ApplicationSecret”的应用。
 
-            ![选择一个应用](media/embed-sample-for-your-organization/embed-sample-for-your-organization-006.png)
+       ![选择一个应用](media/embed-sample-for-your-organization/embed-sample-for-your-organization-006.png)
 
-        1. 选择**设置**。
+    4. 选择**设置**。
 
-            ![选择“设置”](media/embed-sample-for-your-organization/embed-sample-for-your-organization-038.png)
+       ![选择“设置”](media/embed-sample-for-your-organization/embed-sample-for-your-organization-038.png)
 
-        1. 选择“密钥”。
+    5. 选择“密钥”。
 
-            ![选择“密钥”](media/embed-sample-for-your-organization/embed-sample-for-your-organization-039.png)
+       ![选择“密钥”](media/embed-sample-for-your-organization/embed-sample-for-your-organization-039.png)
 
-    1. 在“说明”框中输入一个名称并选择持续时间。 然后选择“保存”为应用程序获取“值”。 如果在保存密钥值后关闭“密钥”窗格，值字段会仅显示为隐藏状态。 此时，你无法检索密钥值。 如果忘记了密钥值，请在 Azure 门户中新建密钥值。
+    6. 在“说明”框中输入一个名称并选择持续时间。 然后选择“保存”为应用程序获取“值”。 如果在保存密钥值后关闭“密钥”窗格，值字段会仅显示为隐藏状态。 此时，你无法检索密钥值。 如果忘记了密钥值，请在 Azure 门户中新建密钥值。
 
-        ![密钥值](media/embed-sample-for-your-organization/embed-sample-for-your-organization-031.png)
+          ![密钥值](media/embed-sample-for-your-organization/embed-sample-for-your-organization-031.png)
 
-    1. 对于“groupId”，输入 Power BI 中的应用工作区 GUID。
+    7. 对于“groupId”，输入 Power BI 中的应用工作区 GUID。
 
-        ![输入 groupId](media/embed-sample-for-customers/embed-sample-for-customers-031.png)
+       ![输入 groupId](media/embed-sample-for-customers/embed-sample-for-customers-031.png)
 
-    1. 对于“reportId”，输入 Power BI 中的报表 GUID。
+    8. 对于“reportId”，输入 Power BI 中的报表 GUID。
 
-        ![输入 reportId](media/embed-sample-for-customers/embed-sample-for-customers-032.png)
+       ![输入 reportId](media/embed-sample-for-customers/embed-sample-for-customers-032.png)
 
 3. 运行应用程序：
 
-    1. 首先在 Visual Studio 中选择“运行”。
+    在“Visual Studio”中选择“运行”。
 
-        ![运行应用程序](media/embed-sample-for-your-organization/embed-sample-for-your-organization-033.png)
+    ![运行应用程序](media/embed-sample-for-your-organization/embed-sample-for-your-organization-033.png)
 
-    1. 然后选择“获取报表”。
+    然后选择“获取报表”。
 
-        ![选择内容](media/embed-sample-for-your-organization/embed-sample-for-your-organization-034.png)
+    ![选择内容](media/embed-sample-for-your-organization/embed-sample-for-your-organization-034.png)
 
-    1. 现在，可以在示例应用程序查看报表。
+    现在，可以在示例应用程序查看报表。
 
-        ![在应用程序中查看报表](media/embed-sample-for-your-organization/embed-sample-for-your-organization-035.png)
+    ![在应用程序中查看报表](media/embed-sample-for-your-organization/embed-sample-for-your-organization-035.png)
 
 ## <a name="embed-your-content-within-your-application"></a>在应用程序中嵌入内容
 

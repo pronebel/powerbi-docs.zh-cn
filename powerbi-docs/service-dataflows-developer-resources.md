@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 11/06/2018
+ms.date: 12/06/2018
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: d2b2449985a4380d78e7055ecf87f99a65a9a67e
-ms.sourcegitcommit: b23fdcc0ceff5acd2e4d52b15b310068236cf8c7
+ms.openlocfilehash: a56dbb713f3d853094c2612a19edecb8bf4d7b24
+ms.sourcegitcommit: f25464d5cae46691130eb7b02c33f42404011357
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/07/2018
-ms.locfileid: "51266632"
+ms.lasthandoff: 12/10/2018
+ms.locfileid: "53180590"
 ---
 # <a name="developer-resources-for-power-bi-dataflows-preview"></a>Power BI 数据流的开发人员资源（预览）
 
@@ -29,7 +29,7 @@ ms.locfileid: "51266632"
 
 | 数据流资源 | 说明 |
 | --- | --- |
-| [Power BI 数据流 REST API 参考](http://download.microsoft.com/download/5/4/0/540DAA5B-6760-4BDF-A089-8C3DBA8BB4DD/Power%20BI%20dataflow%20REST%20API%20reference.docx)    | 数据流 REST API 的完整参考指南。|
+| [Power BI 数据流 REST API 参考](https://go.microsoft.com/fwlink/?linkid=2047629)    | 数据流 REST API 的完整参考指南。|
 
 
 ## <a name="next-steps"></a>后续步骤
@@ -41,10 +41,15 @@ ms.locfileid: "51266632"
 * [在 Power BI Premium 上使用计算实体（预览）](service-dataflows-computed-entities-premium.md)
 * [将数据流与本地数据源配合使用（预览）](service-dataflows-on-premises-gateways.md)
 
+有关 CDM 开发和教程资源的信息，请参阅以下内容：
+* [通用数据模型 - 概述](https://docs.microsoft.com/powerapps/common-data-model/overview)
+* [CDM 文件夹](https://go.microsoft.com/fwlink/?linkid=2045304)
+* [CDM 模型文件定义](https://go.microsoft.com/fwlink/?linkid=2045521)
+
+
 有关 Power Query 和计划刷新的详细信息，可以阅读以下文章：
 * [Power BI Desktop 中的查询概述](desktop-query-overview.md)
 * [配置计划刷新](refresh-scheduled-refresh.md)
 
-有关通用数据模型的详细信息，可以阅读其概述文章：
-* [通用数据模型 - 概述](https://docs.microsoft.com/powerapps/common-data-model/overview)
+
 

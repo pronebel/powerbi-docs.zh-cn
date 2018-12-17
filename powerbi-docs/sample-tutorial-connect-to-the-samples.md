@@ -1,37 +1,36 @@
 ---
-title: 使用 Power BI 示例
-description: 使用 Power BI 示例
+title: 连接到 Power BI 服务中的示例
+description: 了解如何安装和浏览 Power BI 服务中的示例。
 author: maggiesMSFT
 manager: kfile
 ms.reviewer: amac
+ms.custom: seodec18
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 06/23/2018
+ms.date: 12/06/2018
 ms.author: maggies
 LocalizationGroup: Samples
-ms.openlocfilehash: 10ba57b203c100dffafa6563e85fd06b7af2eecb
-ms.sourcegitcommit: 1e4fee6d1f4b7803ea285eb879c8d5a4f7ea8b85
+ms.openlocfilehash: fc27054b79497658249b49d832a81223987b7be8
+ms.sourcegitcommit: f25464d5cae46691130eb7b02c33f42404011357
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/16/2018
-ms.locfileid: "51718013"
+ms.lasthandoff: 12/10/2018
+ms.locfileid: "53180958"
 ---
-# <a name="the-power-bi-samples"></a>Power BI 示例
+#  <a name="connect-to-the-samples-in-the-power-bi-service"></a>连接到 Power BI 服务中的示例
 
-我们建议从文章 [Power BI 示例数据集](sample-datasets.md)开始着手。 在本文章中，你将了解这些示例的全部信息；如何获取，在何处保存，如何使用这些示例，以及每个示例所表示的一些应用场景。 然后，请在了解基本知识后，再返回到本教程。   
+本教程教你如何： 
+- 导入示例内容包、将其添加到 Power BI 服务以及打开内容。 内容包是一种示例类型，其中，数据集与仪表板和报表捆绑在一起。 
+- 在 Power BI Desktop 中打开示例 .pbix 文件。
 
-### <a name="prerequisites"></a>先决条件
+如果想先了解更多背景知识，我们建议从文章 [Power BI 示例数据集](sample-datasets.md)开始着手。 在本文章中，你将了解这些示例的全部信息；如何获取，在何处保存，如何使用这些示例，以及每个示例所表示的一些应用场景。 然后，请在了解基本知识后，再返回到本教程。   
+
+## <a name="prerequisites"></a>先决条件
 Power BI 服务和 Power BI Desktop 均支持该示例。 要继续学习，我们将使用零售分析示例。
 
 本教程使用的零售分析示例内容包包含仪表板、报表和数据集。
 为了熟悉此特定内容包及其应用场景，你可能需要在开始学习本教程之前先[浏览零售分析示例](sample-retail-analysis.md)。
-
-## <a name="about-this-tutorial"></a>关于本教程
-本教程教你如何 
-- 导入示例内容包、将其添加到 Power BI 服务、以及打开内容。 内容包是一种示例类型，其中，数据集与仪表板和报表捆绑在一起。 
--  在 Power BI Desktop 中打开示例 .pbix 文件。
-
 
 ## <a name="samples-and-power-bi-service"></a>示例和 Power BI 服务
 
@@ -117,7 +116,7 @@ Power BI 服务和 Power BI Desktop 均支持该示例。 要继续学习，我�
 
     数据视图有助于你检查、浏览和了解 Power BI Desktop 模型中的数据。 它与你在查询编辑器中查看表、列和数据的方式不同。 在数据视图中，你所看到的数据是在将其加载到模型之后的样子。
 
-    建模数据时，有时想要在报表画布上未创建视觉对象的情况下，查看表或列中的实际内容，通常会查看到行级别。 特别是当你要创建度量值和计算列时，或者需要识别数据类型或数据类别时。
+    进行数据建模时，有时想要查看表或列中的实际内容而不想在报表画布上创建视觉对象，通常需要查看到行级别。 特别是当你要创建度量值和计算列时，或者需要识别数据类型或数据类别时。
 
 1. 选择图标 ![类似 3 个连接框的图标](media/sample-tutorial-connect-to-the-samples/power-bi-desktop-relationship-icon.png) 切换到[关系视图](desktop-relationship-view.md)。
  

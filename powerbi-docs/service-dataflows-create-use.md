@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 11/06/2018
+ms.date: 12/06/2018
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: d7e39d0ee048f51066783b1cc9c98333e0352dcf
-ms.sourcegitcommit: b23fdcc0ceff5acd2e4d52b15b310068236cf8c7
+ms.openlocfilehash: 9e7f43780048a222b9d024b39d983968f45c59f7
+ms.sourcegitcommit: f25464d5cae46691130eb7b02c33f42404011357
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/07/2018
-ms.locfileid: "51266641"
+ms.lasthandoff: 12/10/2018
+ms.locfileid: "53180567"
 ---
 # <a name="creating-and-using-dataflows-in-power-bi-preview"></a>在 Power BI 中创建和使用数据流（预览）
 
@@ -143,6 +143,10 @@ Power BI 数据流使用 Power BI 数据刷新过程使数据保持最新状态�
 
 选择实体并选择“加载”按钮后，相应的实体会显示在 Power BI Desktop 的“字段”窗格中，并且其外观和行为与任何其他数据集中的表相似。
 
+## <a name="using-dataflows-stored-in-azure-data-lake-storage-gen2"></a>使用存储在 Azure Data Lake Storage Gen2 中的数据流
+
+某些组织可能希望使用自己的存储来创建和管理数据流。 如果遵循要求并正确管理权限，则可以将数据流与 Azure Data Lake Storage Gen2 集成。 可以从概述文档[数据流和 Azure Data Lake 集成（预览）](service-dataflows-azure-data-lake-integration.md)开始，找到有关此方法的所有要求的文档。
+
 
 ## <a name="troubleshooting-data-connections"></a>数据连接故障排除
 
@@ -160,6 +164,7 @@ Power BI 数据流使用 Power BI 数据刷新过程使数据保持最新状态�
 * [在 Power BI Premium 上使用计算实体（预览）](service-dataflows-computed-entities-premium.md)
 * [将数据流与本地数据源配合使用（预览）](service-dataflows-on-premises-gateways.md)
 * [Power BI 数据流的开发人员资源（预览）](service-dataflows-developer-resources.md)
+* [数据流和 Azure Data Lake 集成（预览）](service-dataflows-azure-data-lake-integration.md)
 
 有关通用数据模型的详细信息，可以阅读其概述文章：
 * [通用数据模型 - 概述](https://docs.microsoft.com/powerapps/common-data-model/overview)

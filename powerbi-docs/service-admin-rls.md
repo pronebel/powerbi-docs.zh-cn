@@ -9,13 +9,14 @@ ms.component: powerbi-admin
 ms.topic: conceptual
 ms.author: mblythe
 ms.date: 01/02/2018
+ms.custom: seodec18
 LocalizationGroup: Administration
-ms.openlocfilehash: 920fa426f98098768583e07d8f2b6c9825bfad1b
-ms.sourcegitcommit: 05303d3e0454f5627eccaa25721b2e0bad2cc781
+ms.openlocfilehash: 466e91786dcb75f09db808306ba7d9d9f486718b
+ms.sourcegitcommit: 72c9d9ec26e17e94fccb9c5a24301028cebcdeb5
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/28/2018
-ms.locfileid: "52578419"
+ms.lasthandoff: 12/07/2018
+ms.locfileid: "53025111"
 ---
 # <a name="row-level-security-rls-with-power-bi"></a>Power BI 行级别安全性 (RLS)
 
@@ -41,7 +42,7 @@ Power BI 行级别安全性 (RLS) 可用于限制给定用户的数据访问。 
 1. 为数据集选择“省略号(...)”。
 2. 选择“安全”。
    
-   ![](media/service-admin-rls/rls-security.png)
+   ![在两个方向上应用安全筛选器](media/service-admin-rls/rls-security.png)
 
 这将转到 RLS 页面，使你可以为 Power BI Desktop 中创建的角色添加成员。 只有数据集的所有者才能看到可用的安全性。 如果数据集在某个组中，则只有该组的管理员才能看到安全选项。 
 
@@ -53,17 +54,17 @@ Power BI 行级别安全性 (RLS) 可用于限制给定用户的数据访问。 
 
 你可以通过键入邮件地址、用户姓名、你想要添加的安全组或通讯组列表，以向你的角色添加成员。 此成员需在你的组织内。 不能添加在 Power BI 内创建的组。
 
-![](media/service-admin-rls/rls-add-member.png)
+![添加成员](media/service-admin-rls/rls-add-member.png)
 
 你还可以通过角色名称或“成员”旁边的括号内的数字看到有多少成员属于该角色。
 
-![](media/service-admin-rls/rls-member-count.png)
+![角色中的成员](media/service-admin-rls/rls-member-count.png)
 
 ### <a name="remove-members"></a>移除成员
 
 你可以通过选择成员名称旁的 X 来移除成员。 
 
-![](media/service-admin-rls/rls-remove-member.png)
+![移除成员](media/service-admin-rls/rls-remove-member.png)
 
 ## <a name="validating-the-role-within-the-power-bi-service"></a>验证 Power BI 服务中的角色
 
@@ -72,15 +73,15 @@ Power BI 行级别安全性 (RLS) 可用于限制给定用户的数据访问。 
 1. 选择角色旁的“省略号 (...)”。
 2. 选择“作为角色测试数据”
 
-![](media/service-admin-rls/rls-test-role.png)
+![以角色身份测试](media/service-admin-rls/rls-test-role.png)
 
 然后你会看到对该角色可用的报表。 仪表板不在此视图中显示。 在上面的蓝色栏中，你将看到被应用的内容。
 
-![](media/service-admin-rls/rls-test-role2.png)
+![现在以 <角色> 身份查看](media/service-admin-rls/rls-test-role2.png)
 
 可通过选择“立即以此角色查看”来测试其他角色或角色组合。
 
-![](media/service-admin-rls/rls-test-role3.png)
+![测试其他角色](media/service-admin-rls/rls-test-role3.png)
 
 可选择以特定人员的身份查看数据，或选择可用角色的组合以验证它们是否工作。 
 
@@ -95,7 +96,7 @@ Power BI 行级别安全性 (RLS) 可用于限制给定用户的数据访问。 
 > [!WARNING]
 > 如果已配置应用工作区，因此成员具有编辑权限，那么将不会向这些成员应用 RLS 角色。 用户将能看到所有数据。
 
-![](media/service-admin-rls/rls-group-settings.png)
+![组设置](media/service-admin-rls/rls-group-settings.png)
 
 [!INCLUDE [include-short-name](./includes/rls-limitations.md)]
 

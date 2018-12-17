@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 11/06/2018
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: b69b84c7c61227ef7a827722c86f54100bd2f3b7
-ms.sourcegitcommit: b23fdcc0ceff5acd2e4d52b15b310068236cf8c7
+ms.openlocfilehash: 258b526c08615a81f3cc940fc3b9f2fcda063a12
+ms.sourcegitcommit: f25464d5cae46691130eb7b02c33f42404011357
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/07/2018
-ms.locfileid: "51266630"
+ms.lasthandoff: 12/10/2018
+ms.locfileid: "53180636"
 ---
 # <a name="link-entities-between-dataflows-in-power-bi-preview"></a>在 Power BI 中链接数据流之间的实体（预览）
 
@@ -32,6 +32,12 @@ ms.locfileid: "51266630"
 链接的实体需要刷新 [Power BI Premium](service-premium.md)订阅。 在 Power BI 高级容量上托管的工作区的任何数据流中都可以使用链接的实体。 对源数据流没有任何限制。
 
 链接的实体只能在新的 Power BI 工作区中正常工作。 可以了解[新 Power BI 工作区](service-create-the-new-workspaces.md)的详细信息。 所有链接的数据流必须位于新工作区中才能正常工作。
+
+> [!NOTE]
+> 实体分为标准实体和计算实体。 标准实体（通常仅称为实体）可对外部数据源进行查询，例如 SQL 数据库。 计算实体在 Power BI 上需要高级容量，并且可对已位于 Power BI 存储中的数据运行其转换。 
+>
+>如果数据流不在高级容量工作区中，则只要转换未定义为存储内转换，就仍可以引用单个查询，或合并两个或更多查询。 此类引用被视为标准实体。 若要执行此操作，请为引用的查询关闭“启用加载”选项，以防止数据具体化和引入到存储。 此后，可以引用这些“启用加载 = false”查询，并仅针对要进行具体化的生成查询将“启用加载”设置为“打开”。
+
 
 ## <a name="how-to-link-entities-between-dataflows"></a>如何链接数据流之间的实体
 

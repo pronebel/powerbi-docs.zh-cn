@@ -1,28 +1,30 @@
 ---
-title: 如何将超链接添加到表格
-description: 表中的超链接
-author: maggiesMSFT
-manager: kfile
+title: 向表中添加超链接
+description: 使用 Power BI Desktop 创建超链接。 然后使用 Desktop 或 Power BI 服务将这些超链接添加到报表表格和矩形图。
+author: mihart
+manager: kvivek
 ms.reviewer: ''
+ms.custom: seodec18
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 01/22/2018
-ms.author: maggies
+ms.date: 12/06/2018
+ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 9c1fc61d4a667b10728af8b7496e20803d024a83
-ms.sourcegitcommit: fb1885da7cf11367660edbf7b7346dc039ee9b5d
+ms.openlocfilehash: 92224e00da95714125a8e15c27432e8d305ae0f7
+ms.sourcegitcommit: f25464d5cae46691130eb7b02c33f42404011357
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/26/2018
-ms.locfileid: "47187550"
+ms.lasthandoff: 12/10/2018
+ms.locfileid: "53180544"
 ---
-# <a name="hyperlinks-in-tables"></a>表中的超链接
-本主题介绍如何使用 Power BI Desktop 创建超链接。 创建后，使用 Desktop 或 Power BI 服务将这些超链接添加到你的报表表格和矩形图。 
+# <a name="add-hyperlinks-to-a-table"></a>向表中添加超链接
+本主题介绍如何使用 Power BI Desktop 创建超链接。 然后使用 Desktop 或 Power BI 服务将这些超链接添加到报表表格和矩形图。 
 
-![](media/power-bi-hyperlinks-in-tables/hyperlinkedtable.png)
+![具有超链接的表](media/power-bi-hyperlinks-in-tables/hyperlinkedtable.png)
 
-> **注意**：[仪表板上的磁贴](service-dashboard-edit-tile.md)和[仪表板上的文本框](service-dashboard-add-widget.md)中的超链接可使用 Power BI 服务实时创建。 [报表中的文本框](service-add-hyperlink-to-text-box.md)中的超链接可以使用 Power BI 服务和 Power BI Desktop 实时创建。
+> [!NOTE]
+> [仪表板上的磁贴](service-dashboard-edit-tile.md)和[仪表板上的文本框](service-dashboard-add-widget.md)中的超链接可使用 Power BI 服务实时创建。 [报表中的文本框](service-add-hyperlink-to-text-box.md)中的超链接可以使用 Power BI 服务和 Power BI Desktop 实时创建。
 > 
 > 
 
@@ -36,17 +38,20 @@ ms.locfileid: "47187550"
 1. 如果超链接尚未作为数据集中的字段存在，则使用 Desktop 将其添加为 [自定义列](desktop-common-query-tasks.md)。
 2. 在“数据”视图中，选择该列，并在“建模”选项卡上选择“数据类别”下拉列表。
    
-    ![](media/power-bi-hyperlinks-in-tables/pbi_data_category.png)
+    ![数据类别下拉列表](media/power-bi-hyperlinks-in-tables/pbi_data_category.png)
 3. 选择 **Web URL**。
 4. 切换到报表视图，并使用归类为 Web URL 的字段创建表或矩阵。 超链接为蓝色并带有下划线。
-    ![](media/power-bi-hyperlinks-in-tables/power-bi-table-with-hyperlinks2.png)
-> **请注意**：URL 必须以 **http:// 、 https://** 或 **www** 开头。
-> 
->   
-5. 如果不想在表中显示长 URL，可以改为显示超链接图标 ![](media/power-bi-hyperlinks-in-tables/power-bi-hyperlink-icon.png)。 请注意，不能在矩阵中显示图标。
+
+    ![蓝色并带有下划线的链接](media/power-bi-hyperlinks-in-tables/power-bi-table-with-hyperlinks2.png)
+
+    > [!NOTE]
+    > URL 必须以 http://、 https:// 或 www 开头。
+    >
+   
+1. 如果不想在表中显示长 URL，则可以改为显示超链接  ![超链接图标](media/power-bi-hyperlinks-in-tables/power-bi-hyperlink-icon.png) 。 请注意，不能在矩阵中显示图标。
    
    * 选择图表，使其处于活动状态。
-   * 选择滚动油漆刷图标 ![](media/power-bi-hyperlinks-in-tables/power-bi-paintroller.png)，打开“格式”选项卡。
+   * 选择滚动油漆刷图标 ![滚动油漆刷图标](media/power-bi-hyperlinks-in-tables/power-bi-paintroller.png) 打开“格式设置”选项卡。
    * 展开“**值**”，找到 **URL 图标** 并将其**打开。**
 6. （可选）[将报表从 Desktop 发布到 Power BI 服务](guided-learning/publishingandsharing.yml?tutorial-step=2)，并在 Power BI 服务中打开报表。 超链接也将在那里运作。
 
@@ -64,26 +69,27 @@ ms.locfileid: "47187550"
 1. 在 Excel 中打开工作簿。
 2. 选择 **PowerPivot** 选项卡，然后选择**管理**。
    
-   ![](media/power-bi-hyperlinks-in-tables/createhyperlinkinpowerpivot2.png)
-3. Power Pivot 打开时，选择“**高级**”选项卡。
+   ![在 Excel 中打开 PowerPivot](media/power-bi-hyperlinks-in-tables/createhyperlinkinpowerpivot2.png)
+1. Power Pivot 打开时，选择“**高级**”选项卡。
    
-   ![](media/power-bi-hyperlinks-in-tables/createhyperlinkinpowerpivot3.png)
+   ![PowerPivot 高级选项卡](media/power-bi-hyperlinks-in-tables/createhyperlinkinpowerpivot3.png)
 4. 将光标置于包含你想要将其转换为 Power BI 表中的超链接的 URL 的列。
    
-   > **请注意**：URL 必须以 **http:// 、 https://** 或 **www** 开头。
-   > 
+   > [!NOTE]
+   > URL 必须以 http://、 https:// 或 www 开头。
    > 
 5. 在 **Reporting 属性**组中，选择**数据类别**下拉列表，然后选择 **Web URL**。 
    
-   ![](media/power-bi-hyperlinks-in-tables/createhyperlinksnew.png)
+   ![Excel 中的数据类别下拉列表](media/power-bi-hyperlinks-in-tables/createhyperlinksnew.png)
+
 6. 从 Power BI 服务或 Power BI Desktop 连接到或导入此工作簿。
 7. 创建一个包含 URL 字段的表可视化效果。
    
-   ![](media/power-bi-hyperlinks-in-tables/hyperlinksintables.gif)
+   ![使用 URL 字段在 Power BI 中创建表](media/power-bi-hyperlinks-in-tables/hyperlinksintables.gif)
 
 ## <a name="considerations-and-troubleshooting"></a>注意事项和疑难解答
 问：是否可以使用自定义 URL 作为表或矩阵中的超链接？    
-答：不可以。 可以使用链接图标。 如需为你的超链接使用自定义文本且你的 URL 列表较短，请考虑改用文本框。
+答：否。 可以使用链接图标。 如需为你的超链接使用自定义文本且你的 URL 列表较短，请考虑改用文本框。
 
 
 ## <a name="next-steps"></a>后续步骤

@@ -1,21 +1,22 @@
 ---
-title: 使用 Power BI Desktop 中的见解来解释视觉对象中的增长和下降（预览版）
+title: 使用见解来解释视觉对象中的增长和下降（预览版）
 description: 在 Power BI Desktop 中轻松获得有关增加或减少情况的见解
 author: davidiseminger
 manager: kfile
 ms.reviewer: ''
+ms.custom: seodec18
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 11/01/2018
+ms.date: 12/06/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: c01af129e15025b97925f59532d1be7a6671b47f
-ms.sourcegitcommit: 0611860a896e636ceeb6e30ce85243bfd8e7b61d
+ms.openlocfilehash: ca4e1ac208b0056c6a3052e77769624118f0e54f
+ms.sourcegitcommit: 72c9d9ec26e17e94fccb9c5a24301028cebcdeb5
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/01/2018
-ms.locfileid: "50909608"
+ms.lasthandoff: 12/07/2018
+ms.locfileid: "53026675"
 ---
 # <a name="use-insights-in-power-bi-desktop-to-explain-increases-and-decreases-seen-in-visuals-preview"></a>使用 Power BI Desktop 中的见解来解释视觉对象中显示的增长和下降（预览版）
 

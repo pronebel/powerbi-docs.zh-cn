@@ -1,21 +1,22 @@
 ---
-title: 了解在 Power BI 中使用和创建 R 脚本支持哪些 R 程序包
+title: 了解支持哪些 R 包
 description: Power BI 中支持的和不支持的 R 程序包
 author: davidiseminger
 manager: kfile
 ms.reviewer: ''
+ms.custom: seodec18
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 11/28/2018
+ms.date: 12/06/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 6c890b830ca38e15bb6cc0efe36c93488ed951b4
-ms.sourcegitcommit: 2ae660a7b70fce23eb58b159d049eca44a664f2c
+ms.openlocfilehash: b88b17e428633e9d610724a8c3daa145c9928ae2
+ms.sourcegitcommit: 72c9d9ec26e17e94fccb9c5a24301028cebcdeb5
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/30/2018
-ms.locfileid: "52670822"
+ms.lasthandoff: 12/07/2018
+ms.locfileid: "53026859"
 ---
 # <a name="r-packages-in-the-power-bi-service"></a>Power BI 服务中的 R 程序包
 可以使用功能强大的 [R 编程语言](https://www.r-project.org/)在 Power BI 服务中创建视觉对象。 许多 R 程序包在 Power BI 服务中受到支持（并且更多包始终受支持），某些包不受支持。

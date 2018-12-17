@@ -1,29 +1,30 @@
 ---
-title: 为客户将 Power BI 内容嵌入应用中
-description: 了解如何使用 Power BI API，为客户将报表、仪表板或磁贴集成到或嵌入 Web 应用中。
+title: 为客户将 Power BI 内容嵌入到应用程序的嵌入式分析
+description: 了解如何通过使用适用于嵌入式分析的 Power BI API，为客户将报表、仪表板或磁贴集成或嵌入到应用程序中。 了解如何使用嵌入式分析软件、嵌入式分析工具或嵌入式商业智能工具将 Power BI 集成到应用程序。
 author: markingmyname
 ms.author: maghan
 manager: kfile
+ms.reviewer: ''
 ms.topic: tutorial
 ms.service: powerbi
 ms.component: powerbi-developer
-ms.custom: mvc
-ms.date: 10/17/2018
-ms.openlocfilehash: cb517d62e64e8ef17be07315112faac331b534d3
-ms.sourcegitcommit: fdb54145f9bc93b312409c15c603749f3a4a876e
+ms.custom: seodec18
+ms.date: 12/10/2018
+ms.openlocfilehash: e396f46987ef14aac9361e8f7ef41e90b2d8383e
+ms.sourcegitcommit: f25464d5cae46691130eb7b02c33f42404011357
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/28/2018
-ms.locfileid: "52452697"
+ms.lasthandoff: 12/10/2018
+ms.locfileid: "53180866"
 ---
 # <a name="tutorial-embed-a-power-bi-report-dashboard-or-tile-into-an-application-for-your-customers"></a>教程：为客户将 Power BI 报表、仪表板或磁贴嵌入应用程序中
 
-使用“Azure 中的 Power BI Embedded”，可以借助“应用拥有数据”将报表、仪表板或磁贴嵌入到应用程序中。 **应用拥有数据**是指将使用 Power BI 的应用程序作为其嵌入式分析平台。 使用“应用拥有数据”通常是一种“ISV 开发人员”方案。 ISV 开发者可以创建 Power BI 内容以便在完全集成并交互的应用程序中显示报表、仪表板或磁贴，应用程序的用户无需 Power BI 许可证。 本教程演示当针对使用“应用拥有数据”的客户使用“Azure 中的 Power BI Embedded”时，如何使用 Power BI .NET SDK 以及 Power BI JavaScript API 将报表集成到应用程序中。
+使用“Azure 中的 Power BI Embedded”，可以借助“应用拥有数据”将报表、仪表板或磁贴嵌入到应用程序中。 **应用拥有数据**是指将使用 Power BI 的应用程序作为其嵌入式分析平台。 ISV 开发者可以创建 Power BI 内容以便在完全集成并交互的应用程序中显示报表、仪表板或磁贴，用户无需 Power BI 许可证。 本教程演示当针对客户使用“Azure 中的 Power BI Embedded”时，如何使用 Power BI .NET SDK 以及 Power BI JavaScript API 将报表集成到应用程序中。
 
 在本教程中，了解如何：
->[!div class="checklist"]
->* 在 Azure 中注册应用程序。
->* 将 Power BI 报表嵌入到应用程序。
+> [!div class="checklist"]
+> * 在 Azure 中注册应用程序。
+> * 将 Power BI 报表嵌入到应用程序。
 
 ## <a name="prerequisites"></a>先决条件
 
@@ -63,11 +64,11 @@ ms.locfileid: "52452697"
 
 ### <a name="apply-permissions-to-your-application-within-azure-active-directory"></a>在 Azure Active Directory 中向应用授予权限
 
-除了应用注册页中提供的权限之外，还可以为应用启用其他权限。 使用嵌入内容时所用的主帐户登录。 主帐户必须是全局管理员帐户。
+可以为应用启用其他权限，包括应用注册页中提供的权限。 使用嵌入内容时所用的主帐户登录。 主帐户必须是全局管理员帐户。
 
 ### <a name="use-the-azure-active-directory-portal"></a>使用 Azure Active Directory 门户
 
-1. 在 Azure 门户中，转到[应用注册](https://portal.azure.com/#blade/Microsoft_AAD_IAM/ApplicationsListBlade)，再选择要用于嵌入内容的应用。
+1. 在 Azure 门户中，转到[应用注册](https://portal.azure.com/#blade/Microsoft_AAD_IAM/ApplicationsListBlade)，然后选择要用于嵌入内容的应用。
 
     ![选择应用](media/embed-sample-for-customers/embed-sample-for-customers-006.png)
 
@@ -115,7 +116,7 @@ ms.locfileid: "52452697"
 
     ![命名工作区](media/embed-sample-for-customers/embed-sample-for-customers-021.png)
 
-3. 需要设置几个选项。 如果你选择“公开”，则组织中的任何人都可以看到工作区内容。 而如果选择“专用”，则意味着只有工作区的成员可以查看其内容。
+3. 需要设置几个选项。 如果你选择“公开”，则组织中的任何人都可以看到工作区内容。 若选择“专用”，则只有工作区的成员可以查看其内容。
 
     ![私有/公共](media/embed-sample-for-customers/embed-sample-for-customers-022.png)
 
@@ -214,7 +215,7 @@ ms.locfileid: "52452697"
 
 客户在应用程序中嵌入内容时，需要从 Azure AD 获取主帐户的访问令牌。 必须为使用“应用拥有数据”的 Power BI 应用程序获取 [Azure AD 访问令牌](get-azuread-access-token.md#access-token-for-non-power-bi-users-app-owns-data)，这样才能对 [Power BI REST API](https://docs.microsoft.com/rest/api/power-bi/) 进行调用。
 
-若要使用访问令牌创建 Power BI 客户端，不妨创建便于与 [Power BI REST API](https://docs.microsoft.com/rest/api/power-bi/) 进行交互的 Power BI 客户端对象。 为此，请使用 Microsoft.Rest.TokenCredentials 对象包装 AccessToken。
+若要使用访问令牌创建 Power BI 客户端，不妨创建便于与 [Power BI REST API](https://docs.microsoft.com/rest/api/power-bi/) 进行交互的 Power BI 客户端对象。 使用 Microsoft.Rest.TokenCredentials 对象包装 AccessToken，以创建 Power BI 客户端对象。
 
 ```csharp
 using Microsoft.IdentityModel.Clients.ActiveDirectory;
@@ -223,7 +224,7 @@ using Microsoft.PowerBI.Api.V2;
 
 var tokenCredentials = new TokenCredentials(authenticationResult.AccessToken, "Bearer");
 
-// Create a Power BI Client object. It is used to call Power BI APIs.
+// Create a Power BI Client object. it's used to call Power BI APIs.
 using (var client = new PowerBIClient(new Uri(ApiUrl), tokenCredentials))
 {
     // Your code to embed items.
@@ -251,7 +252,7 @@ Report report = reports.Value.FirstOrDefault();
 
 ### <a name="create-the-embed-token"></a>创建嵌入令牌
 
-需要生成嵌入令牌，以便能够通过 JavaScript API 使用此令牌。 嵌入令牌特定于要嵌入的项。 因此，只要嵌入 Power BI 内容，就需要为其新建嵌入令牌。 有关详细信息（包括要使用哪个 accessLevel），请参阅 [GenerateToken API](https://msdn.microsoft.com/library/mt784614.aspx)。
+生成了嵌入令牌，能够通过 JavaScript API 使用此令牌。 嵌入令牌特定于要嵌入的项。 因此，只要嵌入 Power BI 内容，就需要为其新建嵌入令牌。 有关详细信息（包括要使用哪个 accessLevel），请参阅 [GenerateToken API](https://msdn.microsoft.com/library/mt784614.aspx)。
 
 下面是关于将报表嵌入令牌添加到应用程序的示例。
 
@@ -274,13 +275,13 @@ var embedConfig = new EmbedConfig()
 };
 ```
 
-假设为 EmbedConfig 和 TileEmbedConfig 创建了类。 Models\EmbedConfig.cs 文件和 Models\TileEmbedConfig.cs 文件中提供了相关示例。
+为 EmbedConfig 和 TileEmbedConfig 创建了类。 Models\EmbedConfig.cs 文件和 Models\TileEmbedConfig.cs 文件中提供了示例。
 
 ### <a name="load-an-item-using-javascript"></a>使用 JavaScript 加载项
 
 可以使用 JavaScript 将报表加载到网页上的 div 元素中。
 
-有关使用 JavaScript API 的完整示例，可以使用[演练工具](https://microsoft.github.io/PowerBI-JavaScript/demo)。 这是演练不同类型的 Power BI Embedded 示例的快速方法。 还可以通过访问 [PowerBI JavaScript wiki](https://github.com/Microsoft/powerbi-javascript/wiki) 页，获取有关 JavaScript API 的详细信息。
+有关使用 JavaScript API 的完整示例，可以使用[演练工具](https://microsoft.github.io/PowerBI-JavaScript/demo)。 操场工具是演练不同类型的 Power BI Embedded 示例的快速方法。 还可以通过访问 [PowerBI JavaScript wiki](https://github.com/Microsoft/powerbi-javascript/wiki) 页，获取有关 JavaScript API 的详细信息。
 
 此示例对报表使用 EmbedConfig 模型和 TileEmbedConfig 模型及视图。
 
@@ -329,7 +330,7 @@ var embedConfig = new EmbedConfig()
 
 ## <a name="move-to-production"></a>移动到生产环境
 
-现在你已完成应用程序的开发，接下来请回到应用工作区了解专用容量。 移动到生产环境需要专用容量。
+至此，你已完成应用程序的开发，接下来请回到应用工作区了解专用容量。 移动到生产环境需要专用容量。
 
 ### <a name="create-a-dedicated-capacity"></a>创建专用容量
 
@@ -346,15 +347,15 @@ var embedConfig = new EmbedConfig()
 | A5 |16 个 V 核心 |8 核、50GB RAM |8 个核心 |每秒 60 个 |2,401-4,800 |
 | A6 |32 个 V 核心 |16 核、100GB RAM |16 个核心 |每秒 120 个 |4,801-9600 |
 
-**_使用 A SKU 时，无法使用免费的 Power BI 许可证访问 Power BI 内容。_**
+使用 A SKU 时，无法使用免费的 Power BI 许可证访问 Power BI 内容。
 
-使用 PRO 许可证的嵌入令牌仅用于开发测试，因此 Power BI 主帐户生成的嵌入令牌数量有限。 必须购买专用容量才能嵌入到生产环境。 为专用容量生成嵌入令牌时，可生成的数量不受限制。 转到[可用功能](https://docs.microsoft.com/rest/api/power-bi/availablefeatures/getavailablefeatures)查看使用量值，该值以百分比表示当前嵌入使用量。 使用量基于每个主帐户。
+使用 PRO 许可证的嵌入令牌仅用于开发测试，因此 Power BI 主帐户生成的嵌入令牌数量有限。 必须具备专用容量才能嵌入到生产环境。 为专用容量生成嵌入令牌时，可生成的数量不受限制。 转到[可用功能](https://docs.microsoft.com/rest/api/power-bi/availablefeatures/getavailablefeatures)查看使用量值，该值以百分比表示当前嵌入使用量。 使用量基于每个主帐户。
 
 有关详细信息，请参阅[嵌入式分析容量规划白皮书](https://aka.ms/pbiewhitepaper)。
 
 ### <a name="assign-an-app-workspace-to-a-dedicated-capacity"></a>为应用工作区分配专用容量
 
-创建专用容量后，可将该专用容量分配给应用工作区。 要完成此操作，请按照下列步骤执行。
+创建专用容量后，可将该专用容量分配给应用工作区。 若要为工作区分配专用容量，请按照以下步骤操作。
 
 1. 在“Power BI 服务”中，展开工作区并针对要嵌入内容的工作区选择相应省略号。 然后选择“编辑工作区”。
 

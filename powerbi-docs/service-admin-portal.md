@@ -9,15 +9,16 @@ ms.service: powerbi
 ms.component: powerbi-admin
 ms.topic: conceptual
 ms.date: 10/30/2018
+ms.custom: seodec18
 LocalizationGroup: Administration
-ms.openlocfilehash: 663a6bb9629e98dabab9934c7647bba6f7c14cd4
-ms.sourcegitcommit: a13abdb5a6c0c6a397b328ec2d68788ce3afa866
+ms.openlocfilehash: 5f377f60935f23b62b90731c5d7bc16c8119ab83
+ms.sourcegitcommit: 72c9d9ec26e17e94fccb9c5a24301028cebcdeb5
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/21/2018
-ms.locfileid: "52268357"
+ms.lasthandoff: 12/07/2018
+ms.locfileid: "53026698"
 ---
-# <a name="power-bi-admin-portal"></a>Power BI 管理门户
+# <a name="administering-power-bi-in-the-admin-portal"></a>在管理门户中管理 Power BI
 
 借助管理门户，用户可以管理组织中的 Power BI 租户。 门户包括诸如使用情况指标、对 Office 365 管理中心的访问以及设置这类项目。
 
@@ -105,15 +106,15 @@ Office 365 中的全局管理员或分配有 Power BI 服务管理员角色的�
 
 设置可以有三种状态：
 
-* “针对整个组织禁用”：组织中的任何人都不能使用此功能。
+* **已为整个组织禁用**：组织中无人可以使用此功能。
 
     ![禁用所有设置](media/service-admin-portal/powerbi-admin-tenant-settings-disabled.png)
 
-* “针对整个组织启用”：组织中的每个人都可以使用此功能。
+* **已为整个组织启用**：组织中每个人均可以使用此功能。
 
     ![启用所有设置](media/service-admin-portal/powerbi-admin-tenant-settings-enabled.png)
 
-* “针对组织的子集启用”：组织中特定子集的用户或组可以使用此功能。
+* **针对组织的子集启用**：组织中特定子集的用户或组可以使用此功能。
 
     可以为除特定用户组之外的整个组织启用此功能。
 

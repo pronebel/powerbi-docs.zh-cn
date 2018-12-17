@@ -1,44 +1,42 @@
 ---
-title: Power BI 免费版与 Power BI Pro
-description: Power BI 中的每个用户都是免费版用户或 Power BI Pro 用户。 了解这两种用户类型之间的区别是非常有帮助的。
+title: 按许可证类型列出的 Power BI 服务功能
+description: 在 Power BI 服务中，用户基于两种类型的许可证定义了功能：每用户（免费和 Pro 版）和基于容量。
 author: mgblythe
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 02/13/2018
+ms.date: 12/06/2018
 ms.author: mblythe
+ms.custom: seodec18
 LocalizationGroup: Get started
-ms.openlocfilehash: 62d6a274b7cfb784f4f61b0973bad22ea6194698
-ms.sourcegitcommit: a764e4b9d06b50d9b6173d0fbb7555e3babe6351
+ms.openlocfilehash: fab6181997fd57448a152fe315efcadf076e4fbb
+ms.sourcegitcommit: 72c9d9ec26e17e94fccb9c5a24301028cebcdeb5
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/22/2018
-ms.locfileid: "49641289"
+ms.lasthandoff: 12/07/2018
+ms.locfileid: "53025847"
 ---
-# <a name="power-bi-free-vs-pro"></a>Power BI 免费版与 Power BI Pro
+# <a name="power-bi-service-features-by-license-type"></a>按许可证类型列出的 Power BI 服务功能
 
-Power BI 中的每个用户都是免费版用户或 Power BI Pro 用户。 了解这两种用户类型之间的区别是非常有帮助的。
+[!INCLUDE [license-capabilities](includes/license-capabilities.md)]
 
-服务中的所有用户不是免费用户就是 Pro 用户。 免费版用户或 Power BI Pro 用户之间的主要区别集中在共享和协作方面。 只有 Power BI Pro 用户可以将内容发布到应用工作区，无需高级容量即可使用应用，共享仪表板并订阅仪表板及报表。 免费用户现在可以通过所有像 DirectQuery、实时连接这样的连接选项或者数据网关的使用连接到所有数据源。
+## <a name="per-user-license-type-comparison"></a>每用户许可证类型比较
 
-对于已发布的应用，如果已向其针对的应用工作区分配高级容量，则免费版用户也可以使用这些应用。
-
-## <a name="free-vs-pro-comparison"></a>免费版与 Power BI Pro 比较
-下表列出了用户类型支持的功能。
+下表列出了每用户许可证类型支持的功能。
 
 |  | 免费 | Power BI Pro |
 | --- | --- | --- |
 | 连接到 70 多个数据源 |![功能可用](media/features-license-type/available.png) |![功能可用](media/features-license-type/available.png) |
 | 发布到 Web |![功能可用](media/features-license-type/available.png) |![功能可用](media/features-license-type/available.png) |
-| 对等共享 |![功能不可用](media/features-license-type/not-available.png) |![功能可用](media/features-license-type/available.png) |
 | 导出到 PowerPoint、Excel 和 CSV |![功能可用](media/features-license-type/available.png) |![功能可用](media/features-license-type/available.png) |
 | 企业分发 | | |
 | 应用 |![功能不可用](media/features-license-type/not-available.png) |![功能可用](media/features-license-type/available.png) |
 | 电子邮件订阅 |![功能不可用](media/features-license-type/not-available.png) |![功能可用](media/features-license-type/available.png) |
 | 嵌入 API 和控件 |![功能不可用](media/features-license-type/not-available.png) |![功能可用](media/features-license-type/available.png) |
 | **协作** | | |
+| 对等共享 |![功能不可用](media/features-license-type/not-available.png) |![功能可用](media/features-license-type/available.png) |
 | 应用工作区 |![功能不可用](media/features-license-type/not-available.png) |![功能可用](media/features-license-type/available.png) |
 | 在 Excel 和 Power BI Desktop 中分析 |![功能不可用](media/features-license-type/not-available.png) |![功能可用](media/features-license-type/available.png) |
 

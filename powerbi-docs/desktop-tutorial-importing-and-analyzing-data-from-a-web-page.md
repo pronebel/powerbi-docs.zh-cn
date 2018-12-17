@@ -1,21 +1,22 @@
-﻿---
-title: 教程：使用 Power BI Desktop 从网页导入和分析数据
+---
+title: 教程：导入和分析网页中的数据
 description: 教程：使用 Power BI Desktop 从网页导入和分析数据
 author: davidiseminger
 manager: kfile
 ms.reviewer: ''
+ms.custom: seodec18
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: tutorial
-ms.date: 11/28/2018
+ms.date: 12/06/2018
 ms.author: davidi
 LocalizationGroup: Learn more
-ms.openlocfilehash: d0c37ff2a48315b72c699ab53238416eeb0f04b5
-ms.sourcegitcommit: 05303d3e0454f5627eccaa25721b2e0bad2cc781
+ms.openlocfilehash: 0c712807ad5fd855986c3929a760c2542b33f01f
+ms.sourcegitcommit: 72c9d9ec26e17e94fccb9c5a24301028cebcdeb5
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/28/2018
-ms.locfileid: "52578833"
+ms.lasthandoff: 12/07/2018
+ms.locfileid: "53026607"
 ---
 # <a name="tutorial-analyze-web-page-data-using-power-bi-desktop"></a>教程：使用 Power BI Desktop 分析网页数据
 
@@ -52,7 +53,7 @@ ms.locfileid: "52578833"
    ![导航器对话框](media/desktop-tutorial-importing-and-analyzing-data-from-a-web-page/tutorialimanaly_navigator.png)
    
    >[!NOTE]
-   >“预览”窗格显示最近选择的表，但当选择“编辑”或“加载”时，所有选择的表都会加载到“Power Query 编辑器”。 
+   >“预览”窗格只显示最近选择的表，但当选择“编辑”或“加载”时，所有被选中的表都会加载到**Power Query 编辑器**中。 
    
 3. 字段自动更改为“年份计数”度量值，地图可视化效果现在针对锦标赛获胜次数较多的国家/地区会显示较大数据点。 
    

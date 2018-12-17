@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 11/06/2018
+ms.date: 12/06/2018
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: 360ffdd61525244bd75e57c8c9c9aad25131a13d
-ms.sourcegitcommit: b23fdcc0ceff5acd2e4d52b15b310068236cf8c7
+ms.openlocfilehash: 92af01b7020f734f286d927650e58a5fea5d8047
+ms.sourcegitcommit: f25464d5cae46691130eb7b02c33f42404011357
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/07/2018
-ms.locfileid: "51266628"
+ms.lasthandoff: 12/10/2018
+ms.locfileid: "53180820"
 ---
 # <a name="self-service-data-prep-in-power-bi-preview"></a>Power BI 中的自助服务数据准备（预览）
 
@@ -68,6 +68,7 @@ Power BI 引入数据流，以帮助组织统一来自不同来源的数据并�
 
 Power BI 还可以使用通用数据模型格式的系统化数据连接到文件夹，这些数据存储在组织的 Azure Data Lake Storage 帐户中。 这些文件夹可以由 Azure 数据服务等服务创建。 通过连接到这些文件夹，分析人员可以在 Power BI 中无缝地处理这些数据。 
 
+有关 Azure Data Lake Storage Gen2 和数据流集成的详细信息（包括如何创建驻留在组织 Azure Data Lake 中的数据流），请参阅[数据流和 Azure Data Lake 集成（预览）](service-dataflows-azure-data-lake-integration.md)。
 
 ## <a name="dataflow-capabilities-on-power-bi-premium"></a>Power BI Premium 上的数据流功能
 
@@ -105,9 +106,6 @@ Power BI 还可以使用通用数据模型格式的系统化数据连接到文�
 * 面向开发人员的数据流入门
 
 
-
-
-
 ## <a name="next-steps"></a>后续步骤
 
 本文概述了 Power BI 中大数据的自助服务数据准备，以及可以使用它的多种方法。 以下文章详细介绍了数据流的常见使用方案。 
@@ -116,6 +114,7 @@ Power BI 还可以使用通用数据模型格式的系统化数据连接到文�
 * [在 Power BI Premium 上使用计算实体（预览）](service-dataflows-computed-entities-premium.md)
 * [将数据流与本地数据源配合使用（预览）](service-dataflows-on-premises-gateways.md)
 * [Power BI 数据流的开发人员资源（预览）](service-dataflows-developer-resources.md)
+* [数据流和 Azure Data Lake 集成（预览）](service-dataflows-azure-data-lake-integration.md)
 
 有关 Power Query 和计划刷新的详细信息，可以阅读以下文章：
 * [Power BI Desktop 中的查询概述](desktop-query-overview.md)

@@ -1,23 +1,23 @@
 ---
-title: 在 Power BI Desktop 中使用矩阵视觉对象
-description: 了解矩阵视觉对象如何在 Power BI Desktop 中实现阶梯布局和细化突出显示
+title: 在 Power BI 中使用矩阵视觉对象
+description: 了解矩阵视觉对象如何在 Power BI 中实现阶梯布局和细化突出显示
 author: mihart
 manager: kvivek
 ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 10/25/2018
+ms.date: 12/05/2018
 ms.author: mihart
 LocalizationGroup: Create reports
-ms.openlocfilehash: 96b2fb3cb1558f862c792b3bed77c9f0c2bc61a5
-ms.sourcegitcommit: 60fb46b61ac73806987847d9c606993c0e14fb30
+ms.openlocfilehash: 123cb794a1ba307439a47bdb949e2c76297e7ba2
+ms.sourcegitcommit: 4f46d71ff6026c1c158f007425aefdcb501f48ee
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/25/2018
-ms.locfileid: "50101361"
+ms.lasthandoff: 12/06/2018
+ms.locfileid: "52979528"
 ---
-# <a name="use-the-matrix-visual-in-power-bi-desktop"></a>在 Power BI Desktop 中使用“矩阵”视觉对象
+# <a name="use-the-matrix-visual-in-power-bi"></a>在 Power BI 中使用矩阵视觉对象
 借助“矩阵”视觉对象功能，可以在“Power BI Desktop”和“Power BI 服务”报表中创建矩阵视觉对象（有时亦称为“表”），并能使用其他视觉对象交叉突出显示矩阵内的元素。 此外，还可以选择行、列和各个单元格进行交叉突出显示。 可将单个单元格和多个单元格选择复制并粘贴到其他应用程序。 最后，为了更好地利用布局空间，矩阵视觉对象支持阶梯布局。
 
 ![](media/desktop-matrix-visual/matrix-visual_2a.png)
@@ -39,7 +39,25 @@ ms.locfileid: "50101361"
 
 查看总计和小计时，请注意这些值是基于基础数据的，并不仅仅基于可见值。 
 
+<!-- use Nov blog post video
 
+## Expanding and collapsing row headers
+There are two ways you can expand row headers. The first is through the right-click menu. You’ll see options to expand the specific row header you clicked on, the entire level or everything down to the very last level of the hierarchy. You have similar options for collapsing row headers as well.
+
+![](media/desktop-matrix-visual/power-bi-expand1.png)
+
+You can also add +/- buttons to the row headers through the formatting pane under the row headers card. By default, the icons will match the formatting of the row header, but you can customize the icons’ color and size separately if you want. 
+Once the icons are turned on, they work similarly to the icons from PivotTables in Excel.
+
+![](media/desktop-matrix-visual/power-bi-expand2.png)
+
+The expansion state of the matrix will save with your report. It can be pinned to dashboards as well, but consumers will need to open up the report to change the state. Conditional formatting will only apply to the inner most visible level of the hierarchy. Note that this expand/collapse experience is not currently supported when connecting to AS servers older than 2016 or MD servers.
+
+![](media/desktop-matrix-visual/power-bi-expand3.png)
+
+Watch the following video to learn more about expand/collapse in the matrix:
+
+-->
 ## <a name="using-drill-down-with-the-matrix-visual"></a>结合使用向下钻取功能和矩阵视觉对象
 借助“矩阵”视觉对象，可以执行之前无法实现的各种有意思的向下钻取活动。 这包括向下钻取行、列、单独分区和单元格。 让我们来看看每种向下钻取活动的工作原理。
 

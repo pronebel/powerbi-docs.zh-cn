@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-report-server
 ms.topic: conceptual
-ms.date: 09/19/2018
+ms.date: 12/07/2018
 ms.author: maggies
-ms.openlocfilehash: 1d74ed5e39d73252d0779458d0ba8619908c99f2
-ms.sourcegitcommit: 70192daf070ede3382ac13f6001e0c8b5fb8d934
+ms.openlocfilehash: a4914bf0fb6945bc5ee45bdf6559ca75bbd7c2b5
+ms.sourcegitcommit: f25464d5cae46691130eb7b02c33f42404011357
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/22/2018
-ms.locfileid: "46565903"
+ms.lasthandoff: 12/10/2018
+ms.locfileid: "53180935"
 ---
 # <a name="install-power-bi-report-server"></a>安装 Power BI 报表服务器
 
@@ -26,6 +26,10 @@ ms.locfileid: "46565903"
 
 ## <a name="before-you-begin"></a>开始之前
 建议在安装 Power BI 报表服务器之前先查看[安装 Power BI 报表服务器所要满足的硬件和软件要求](system-requirements.md)。
+
+ > [!IMPORTANT]
+ > 虽然可以将 Power BI 报表服务器安装在包含只读域控制器 (RODC) 的环境中，但 Power BI 报表服务器需要有权访问读/写域控制器才能正常工作。 如果 Power BI 报表服务器仅有权访问 RODC，那么用户可能会在尝试管理服务时看到错误消息。
+
 
 ### <a name="power-bi-report-server-product-key"></a>Power BI 报表服务器产品密钥
 

@@ -1,5 +1,5 @@
 ---
-title: 管理 Power BI 的网关
+title: 管理 Power BI 本地网关
 description: 了解如何管理网关，以便可以连接到 Power BI 中的本地数据。
 author: mgblythe
 manager: kfile
@@ -9,15 +9,16 @@ ms.component: powerbi-gateways
 ms.topic: conceptual
 ms.date: 04/18/2018
 ms.author: mblythe
+ms.custom: seodec18
 LocalizationGroup: Gateways
-ms.openlocfilehash: 8369566712e24c035ac0ec07cc7d5a219041a400
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 21eaca02502ae67ba5ecddff8e1b8890e0a049af
+ms.sourcegitcommit: 72c9d9ec26e17e94fccb9c5a24301028cebcdeb5
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34755153"
+ms.lasthandoff: 12/07/2018
+ms.locfileid: "53026376"
 ---
-# <a name="manage-a-power-bi-gateway"></a>管理 Power BI 网关
+# <a name="manage-a-power-bi-on-premises-gateway"></a>管理 Power BI 本地网关
 
 [安装 Power BI 数据网关](service-gateway-install.md)后，根据需求管理网关。 本主题介绍了如何添加和删除数据源和用户、如何重启网关，以及如何迁移、还原、接管和删除网关。 
 

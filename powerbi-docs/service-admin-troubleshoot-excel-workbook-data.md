@@ -1,6 +1,6 @@
 ---
-title: '错误: 我们在你的 Excel 工作簿中找不到任何数据'
-description: '错误: 我们在你的 Excel 工作簿中找不到任何数据'
+title: 错误：我们在你的 Excel 工作簿中找不到任何数据
+description: 错误：我们在你的 Excel 工作簿中找不到任何数据
 author: mgblythe
 manager: kfile
 ms.reviewer: ''
@@ -9,24 +9,25 @@ ms.component: powerbi-service
 ms.topic: conceptual
 ms.date: 12/06/2017
 ms.author: mblythe
+ms.custom: seodec18
 LocalizationGroup: Troubleshooting
-ms.openlocfilehash: 90fd71c59059f1b1b2c1b7d1d2da582d228c7a88
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: ea5312178d33986ebc3f4b9e8610012c87d54216
+ms.sourcegitcommit: 72c9d9ec26e17e94fccb9c5a24301028cebcdeb5
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34242355"
+ms.lasthandoff: 12/07/2018
+ms.locfileid: "53026022"
 ---
-# <a name="error-we-couldnt-find-any-data-in-your-excel-workbook"></a>错误: 我们在你的 Excel 工作簿中找不到任何数据
+# <a name="error-we-couldnt-find-any-data-in-your-excel-workbook"></a>错误：我们在你的 Excel 工作簿中找不到任何数据
 
 >[!NOTE]
 >本文适用于 Excel 2007 及更高版本。
 
 将 Excel 工作簿导入 Power BI 时，你可能会看到以下错误：
 
-*错误: 我们在你的 Excel 工作簿中找不到任何数据。你的数据可能格式不正确。你需要在 Excel 中编辑工作簿，然后再次导入它。*
+*错误:我们在你的 Excel 工作簿中找不到任何数据。你的数据可能格式不正确。你需要在 Excel 中编辑工作簿，然后再次导入它。*
 
-![](media/service-admin-troubleshoot-excel-workbook-data/pbi_wecouldntfindanydata.png)
+![在工作簿中找不到数据](media/service-admin-troubleshoot-excel-workbook-data/pbi_wecouldntfindanydata.png)
 
 ## <a name="quick-solution"></a>快速解决方案
 1. 在 Excel 中编辑工作簿。
@@ -46,28 +47,28 @@ ms.locfileid: "34242355"
     >[!NOTE]
     >此处的图片属于 Excel 2013。 如果你在不同版本，则显示内容可能稍有不同，但步骤是相同的。
     
-    ![](media/service-admin-troubleshoot-excel-workbook-data/pbi_trb_xlwksht1.png)
+    ![打开工作簿](media/service-admin-troubleshoot-excel-workbook-data/pbi_trb_xlwksht1.png)
 2. 选择包含你的数据的单元格范围。 第一行应包含列标题（列名）：
    
-    ![](media/service-admin-troubleshoot-excel-workbook-data/pbi_trb_xlwksht2.png)
+    ![选择单元格范围](media/service-admin-troubleshoot-excel-workbook-data/pbi_trb_xlwksht2.png)
 3. 在功能区中**插入**选项卡上，单击**表**。 （或者，作为快捷方式，按 **Ctrl + T**。）
    
-    ![](media/service-admin-troubleshoot-excel-workbook-data/pbi_trb_xlwksht3.png)
+    ![插入表](media/service-admin-troubleshoot-excel-workbook-data/pbi_trb_xlwksht3.png)
 4. 你会看到以下对话框。 请确保**表包含标题**已选中，然后选择**确定**：
    
-    ![](media/service-admin-troubleshoot-excel-workbook-data/pbi_trb_xlcreatetbl.png)
+    ![创建表](media/service-admin-troubleshoot-excel-workbook-data/pbi_trb_xlcreatetbl.png)
 5. 现在数据格式化为表：
    
-    ![](media/service-admin-troubleshoot-excel-workbook-data/pbi_trb_xltbl.png)
+    ![格式化为表格的数据](media/service-admin-troubleshoot-excel-workbook-data/pbi_trb_xltbl.png)
 6. 保存工作簿。
 7. 返回到 Power BI。 选择左侧导航窗格底部的“获取数据”。
    
-    ![](media/service-admin-troubleshoot-excel-workbook-data/pbi_getdata.png)
+    ![获取数据](media/service-admin-troubleshoot-excel-workbook-data/pbi_getdata.png)
 8. 在**文件**框中，选择**获取**。
    
-    ![](media/service-admin-troubleshoot-excel-workbook-data/pbi_getfiles.png)
+    ![获取文件](media/service-admin-troubleshoot-excel-workbook-data/pbi_getfiles.png)
 9. 再次导入 Excel 工作簿。 这次导入应找到表并且成功。
    
     如果导入仍失败，请单击帮助菜单中的**“社区”**来告诉我们：
    
-    ![](media/service-admin-troubleshoot-excel-workbook-data/pbi_questionmenucommunity.png)
+    ![社区链接](media/service-admin-troubleshoot-excel-workbook-data/pbi_questionmenucommunity.png)

@@ -1,21 +1,22 @@
 ---
-title: 适用于 Excel 的 Power BI 发布服务器
+title: 使用 Power BI publisher for Excel
 description: 了解如何使用 Power BI Publisher for Excel
 author: davidiseminger
 manager: kfile
 ms.reviewer: ''
+ms.custom: seodec18
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 11/28/2018
+ms.date: 12/06/2018
 ms.author: davidi
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 2b8cc8f32ae85d4ba06860972c415b91ede223c5
-ms.sourcegitcommit: 2ae660a7b70fce23eb58b159d049eca44a664f2c
+ms.openlocfilehash: 7371b871db54411e97f8ec1f4f01ba2e56f6023c
+ms.sourcegitcommit: 72c9d9ec26e17e94fccb9c5a24301028cebcdeb5
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/30/2018
-ms.locfileid: "52670707"
+ms.lasthandoff: 12/07/2018
+ms.locfileid: "53026537"
 ---
 # <a name="power-bi-publisher-for-excel"></a>适用于 Excel 的 Power BI 发布服务器
 使用 Microsoft **Power BI Publisher for Excel**，可以在 Excel 中获取最重要的数据洞察快照，如数据透视表、图表和区域，并将它们固定到 Power BI 中的仪表板。

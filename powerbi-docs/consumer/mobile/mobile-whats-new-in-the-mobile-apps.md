@@ -9,12 +9,12 @@ ms.component: powerbi-mobile
 ms.topic: conceptual
 ms.date: 11/08/2018
 ms.author: maggies
-ms.openlocfilehash: 9d73e7b4e9b303f1a774c14fc813572805f7b093
-ms.sourcegitcommit: 5eb0f37f59b5fec15c0caecbbd1f8d688c7f0013
+ms.openlocfilehash: 37995f52882d1a5062b8aa03fb7b0480063a4f77
+ms.sourcegitcommit: 4f46d71ff6026c1c158f007425aefdcb501f48ee
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/09/2018
-ms.locfileid: "51297219"
+ms.lasthandoff: 12/06/2018
+ms.locfileid: "52979529"
 ---
 # <a name="whats-new-in-the-mobile-apps-for-power-bi"></a>Power BI 移动应用中的新功能
 有关相关的“新增功能”的信息，请参阅：
@@ -100,7 +100,7 @@ ms.locfileid: "51297219"
 
 如果报表作者在 Power BI 服务中自定义仪表板主题，移动应用中的仪表板外观也会随之变化。 不过，看不到背景图像。
 
-#### <a name="ios-configure-power-bi-ios-mobile-app-access-to-a-report-server-remotely"></a>iOS：远程配置对报表服务器的 Power BI iOS 移动应用访问权限
+#### <a name="ios-configure-power-bi-ios-mobile-app-access-to-a-report-server-remotely"></a>iOS：远程配置 Power BI iOS 移动应用对报表服务器的访问权限
 
 现在，你的 IT 管理员可以使用 MDM 工具配置 Power BI iOS 移动应用对报表服务器的访问权限。 有关详细信息，请参阅[远程配置 Power BI iOS 移动应用对报表服务器的访问权限](../../report-server/configure-powerbi-mobile-apps-remote.md)。
 
@@ -115,7 +115,7 @@ Power BI for Mixed Reality 应用现已在 Microsoft Store 上架。 可以沉�
 
 现在可以在移动设备上向下钻取和向上钻取以深入了解报表视觉对象。 若要访问此新功能，点击并按住，以便在报表视觉对象上打开工具提示菜单，然后点击“钻取”按钮来深入探索数据。 有关[在移动应用中向上和向下钻取](https://powerbi.microsoft.com/blog/drill-down-up-in-power-bi-mobile-apps/)的详细信息。
 
-#### <a name="persistent-filters"></a>永久性筛选器
+#### <a name="persistent-filters"></a>永久筛选器
 
 我们最近更新了报表筛选器和切片器，因此会自动从 Web 上的 Power BI 保存到 Power BI 移动应用。 现在，在移动应用中设置的筛选器和切片器都将自动保存到 Web 上的 Power BI。
 
@@ -219,9 +219,9 @@ Power BI for Mixed Reality 应用现已在 Microsoft Store 上架。 可以沉�
 
 ### <a name="may-2017"></a>2017 年 5 月
 #### <a name="all-devices"></a>所有设备
-新菜单：与我共享 - 转到移动应用菜单中的“与我共享”，查看已与你共享的所有内容。
+**新菜单：与我共享** - 转到移动应用菜单中的“与我共享”，查看已与你共享的所有内容。
 
-新菜单：应用 - 应用是组织生成的仪表板和报表集合，用于交付关键指标以实现更快速方便的数据驱动型决策。
+**新菜单：应用** - 应用是组织生成的仪表板和报表集合，用于交付关键指标以实现更快速方便的数据驱动型决策。
 
 详细了解[组织 Power BI 内容的方法](mobile-apps-quickstart-view-dashboard-report.md)。
 
@@ -300,7 +300,7 @@ Power BI 报表服务器预览 - 在本地创建和发布 Power BI 报表。 然
 #### <a name="android"></a>Android
 使用 Active Directory 联合身份验证服务 (ADFS) 预览进行 SSRS 身份验证 - 现在可以使用组织帐户从移动设备登录本地 SQL Server Reporting Services 服务器。 详细详细如何[使用 OAuth 连接 SSRS 服务器](mobile-oauth-ssrs.md)。
 
-经过改进的新增功能：快速批注并共享见解 - 批注并共享功能现已完全适用于 Android 设备。 使用改进后的菜单，不仅可以更轻松快速地批注并共享见解，还可直接从 Power BI 应用共享经过批注的报表。
+**经过改进的新增功能：快速批注并共享见解** - 批注并共享功能现已完全适用于 Android 设备。 使用改进后的菜单，不仅可以更轻松快速地批注并共享见解，还可直接从 Power BI 应用共享经过批注的报表。
 
 ### <a name="december-2016"></a>2016 年 12 月
 请参阅 [2016 年 12 月移动应用博客功能摘要](https://powerbi.microsoft.com/blog/power-bi-mobile-apps-feature-summary-december-2016)。
@@ -346,7 +346,7 @@ Apple Watch 改进
 * [在 Android 平板电脑上浏览 Reporting Services 移动报表和 KPI](mobile-app-ssrs-kpis-mobile-on-premises-reports.md)
 
 #### <a name="android-devices"></a>Android 设备
-预览阶段：Intune 移动应用程序管理 - 对于使用 Android 设备的 Power BI Pro 用户，Power BI 对 Microsoft Intune 移动应用程序管理器 (MAM) 的支持现已处于预览阶段。 
+**预览阶段：Intune 移动应用程序管理** - 对于使用 Android 设备的 Power BI Pro 用户，Power BI 对 Microsoft Intune 移动应用程序管理器 (MAM) 的支持现已处于预览阶段。 
 
 收藏夹 - 在 Android 设备上将常用仪表板添加到收藏夹，然后在一个方便访问的位置上集中查看所有[常用 Power BI 仪表板和 Reporting Services 移动报表及 KPI](mobile-android-app-get-started.md#view-your-favorite-dashboards-kpis-and-reports)。 
 
@@ -458,9 +458,9 @@ Power BI 移动应用中的通知中心将显示与你共享的新数据或仪�
 ### <a name="may-2016"></a>2016 年 5 月
 #### <a name="ios-devices-and-android-phones"></a>iOS 设备和 Android 手机
 * QR 码现也可用于报表。 使用 Power BI 应用扫描图码，可直接转到相关报表，而无需任何导航或搜索。
-* 为 SQL Server 2016 Reporting Services 改进了数据管理功能 - 减少了设备的加载时间和数据流量消耗。
-* SQL Server 2016 主题移动报表 - 请查看设备上的移动报表主题。
-* 地理位置筛选 - 通过当前位置筛选报告。
+* **为 SQL Server 2016 Reporting Services 改进了数据管理功能** - 减少了设备的加载时间和数据流量消耗。
+* **SQL Server 2016 主题移动报表** - 请查看设备上的移动报表主题。
+* **地理位置筛选** - 通过当前位置筛选报告。
 
 ### <a name="april-2016"></a>2016 年 4 月
 有关更多详细信息，请参阅 [April Power BI Mobile Apps blog（Power BI 移动应用博客 - 4 月）](https://powerbi.microsoft.com/blog/power-bi-mobile-apps-update-april-2016/)。
@@ -523,7 +523,7 @@ SQL Server 2016 移动报表和 KPI - [查看 SQL Server 2016 移动报表和 KP
 
 [在 Windows 10 手机上查看报表](mobile-reports-in-the-mobile-apps.md)。
 
-[在 Windows 10 移动仪表板上快速洞察数据](mobile-tiles-in-the-mobile-apps.md)：共享磁贴快照或直接从仪表板中打开报表。
+[在 Windows 10 移动仪表板上快速洞察数据](mobile-tiles-in-the-mobile-apps.md) - 共享磁贴快照或直接从仪表板中打开报表。
 
 ### <a name="january-2016"></a>2016 年 1 月
 2015 年 12 月发布的新的[适用于 Windows 10 手机的 Power BI 应用](mobile-windows-10-phone-app-get-started.md)已包括所有一月份的改进功能。 现在正在向其他适用于移动设备的 Power BI 应用推出这些改进功能。 阅读有关以下改进功能的博客文章。
@@ -536,7 +536,7 @@ SQL Server 2016 移动报表和 KPI - [查看 SQL Server 2016 移动报表和 KP
 
 R 磁贴和 Web 小组件 - 在移动设备上的仪表板中查看新磁贴类型。
 
-必应仪表板 - 在 Power BI 服务中，你现在可以[使用必应搜索结果创建仪表板](../end-user-connect-to-services.md)，并在移动设备上查看它们。
+必应仪表板 - 在 Power BI 服务中，你现在可以[使用必应搜索结果创建仪表板](../../service-connect-to-services.md)，并在移动设备上查看它们。
 
 将报表页作为磁贴固定到仪表板 - 现在可以在 Power BI 服务中将整个报表页固定到仪表板，所以可以在 iPhone 或 Android 手机上的 Power BI 应用中查看报表页。
 
@@ -600,21 +600,21 @@ R 磁贴和 Web 小组件 - 在移动设备上的仪表板中查看新磁贴类�
 Power BI 移动应用中的改进 -- Android、iOS（iPhone 和 iPad）和 Windows。 阅读 [9 月中旬的 Power BI 移动博客文章](http://blogs.msdn.com/b/powerbi/archive/2015/09/23/power-bi-mobile-mid-september-updates-are-here.aspx)。
 
 #### <a name="android"></a>Android
-* 对组工作区的支持：与组工作区中的同事协作。 
-* 支持未经身份验证的用户：对于用户未能或无法登录应用的少数情况，我们添加了快速、便利的途径来联系支持部门和发送反馈。
+* 支持组工作区 - 与组工作区中的同事协作。 
+* 支持未经身份验证的用户 - 对于用户未能或无法登录应用的少数情况，我们添加了快速、便利的途径来联系支持部门和发送反馈。
 * 改善了使用基于角色的安全性访问仪表板时的用户体验。          
 * 改进了图表的数据格式设置和所有仪表板磁贴的对齐方式。 
 
 #### <a name="ios-iphone-and-ipad"></a>iOS（iPhone 和 iPad）
-* 新增及改进的导航功能：新增的抽屉式导航可以最大化屏幕的实际空间，并改进整个应用的导航。 
-* 组工作区：与组工作区中的同事协作。 
+* 新增及改进的导航功能 - 新增的抽屉式导航可以最大化屏幕的实际空间，并改进整个应用的导航。 
+* 组工作区 - 与组工作区中的同事协作。 
 * 身份验证过程升级质量、性能和功能方面的提升改进了应用程序身份验证过程，其中包括对 SSO（单一登录）的支持。 
 * 改进了折线图磁贴的数据的表示形式，以更好地压缩 x 轴。
 * 改善了使用基于角色的安全性时的用户体验。
-* 矩形图磁贴的触控优化：现在你可以轻松滚动矩形数据并轻松、直观地查看其所有数据。
+* 矩形图磁贴的触控优化 - 现在你可以轻松滚动矩形数据并轻松、直观地查看其所有数据。
 * 改进了图表的数据格式设置和仪表板磁贴的对齐方式。 
-* 取消了对 iOS 7 的支持：为了维护 Power BI 的最高安全标准，我们将不再支持安装 iOS 7 的设备。 要求安装 iOS 8 和更高版本。 
-* 在应用中新增发送反馈和评级功能：在应用中增加了发送反馈和提供评级的功能，因此，我们可以增强社区对我们的路线图的影响，并且非常容易和直接地从应用中发现并反馈问题。
+* 取消了对 iOS 7 的支持 - 为了维护 Power BI 的最高安全标准，我们将不再支持安装 iOS 7 的设备。 要求安装 iOS 8 和更高版本。 
+* 在应用中新增发送反馈和评级功能 - 在应用中增加了发送反馈和提供评级的功能，因此，我们可以增强社区对我们的路线图的影响，并且非常容易和直接地从应用中发现并反馈问题。
 
 #### <a name="windows"></a>Windows
 * 改进了焦点模式下地图磁贴的呈现方式以最大化屏幕的实际空间。

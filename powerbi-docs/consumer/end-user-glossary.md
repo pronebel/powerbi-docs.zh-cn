@@ -5,14 +5,14 @@ services: power-bi
 author: mihart
 ms.service: powerbi-service
 ms.topic: resource
-ms.date: 11/09/2018
+ms.date: 11/12/2018
 ms.author: mihart
-ms.openlocfilehash: d8238ae96bb57c580c0b74725b105ad7f4332136
-ms.sourcegitcommit: a1b7ca499f4ca7e90421511e9dfa61a33333de35
+ms.openlocfilehash: fd7974024fdbfce38b93f1598fa389ef71a47dd9
+ms.sourcegitcommit: 72c9d9ec26e17e94fccb9c5a24301028cebcdeb5
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/10/2018
-ms.locfileid: "51508005"
+ms.lasthandoff: 12/07/2018
+ms.locfileid: "53026330"
 ---
 # <a name="glossary-for-power-bi-service"></a>Power BI 服务词汇表
 Power BI 服务可能会引入不熟悉或容易混淆的术语。 词汇表是查找术语的好地方，可能需要将其加入书签。 了解构成 Power BI 服务的构建块的另一个极佳资源是[基本概念](end-user-basic-concepts.md)。 “基本概念”提供 Power BI 组件及其如何连接的简要概述。
@@ -40,9 +40,9 @@ Power BI 服务可能会引入不熟悉或容易混淆的术语。 词汇表是�
  
 **应用工作区** Power BI 中除“我的工作区”之外的所有工作区现在都是应用工作区。 内容可绑定到 Power BI 应用。 Premium 容量中存储的内容可与免费用户共享。 个人工作区（在“我的工作区”下）可托管于 Premium 容量中。  
 
-**AppSource**
+**AppSource** 集中式联机存储库，可以在此处浏览和发现要下载的仪表板、报表、数据集和应用。
 
-**ArcGIS for Power BI** ArcGIS 是由 ESRI 公司创建的地图和分析平台。 Power BI 视觉对象库中包括的视觉对象称为 ArcGIS for Power BI。
+**ArcGIS Maps for Power BI** ArcGIS 是由 ESRI 公司创建的地图和分析平台。 Power BI 视觉对象库中包括的视觉对象称为 ArcGIS Maps for Power BI。
 
 **分配** [Power BI Premium] 动词，将工作区移入或移出专用容量。 请不要使用“提升”将工作区移到专用容量，因为它具有优先于共享容量的“专用”的含义。  
 
@@ -69,7 +69,7 @@ Power BI 服务可能会引入不熟悉或容易混淆的术语。 词汇表是�
 
 **内容列表** 应用的内容索引。
 
-**内容包**
+**内容包** 预打包的数据集、报表和仪表板的集合。 现在为**应用**，了解[新工作区体验](https://docs.microsoft.com/en-us/power-bi/service-create-the-new-workspaces)。 
 
 **内容视图**
 
@@ -92,11 +92,11 @@ Power BI 服务可能会引入不熟悉或容易混淆的术语。 词汇表是�
 **数据模型，Excel 数据模型**
 
 
-**数据集**与**数据源**
+**数据集**和**数据源** 数据集是用于创建可视化效果和报表的数据的集合。
 
 **专用容量** [Power BI Premium] 在 Microsoft 云数据中心中的专用硬件上运行的数据模型，可帮助确保大规模的一致性能。 BI 解决方案提供给整个组织，不论有没有 Power BI 许可证。
 
-**Desktop** 第一次出现：Power BI Desktop，后面提及：Desktop
+**Desktop** 首个实例：Power BI Desktop 后续提及：桌面
 
 
 **钻石** Power BI Premium。 图标形状，表示该工作区是 Premium 容量工作区。
@@ -110,6 +110,8 @@ Power BI 服务可能会引入不熟悉或容易混淆的术语。 词汇表是�
 **省略号** ...
 
 **嵌入代码** Internet 中的一个常用标准。 在 Power BI 中，客户可以生成嵌入代码并进行复制以在网站或博客上放置报表视觉对象等内容。
+
+**Embedded** 参阅 Power BI Embedded。 
 
 **嵌入** 在 Power BI 开发人员产品中，使用 BI REST API 和 Power BI SDK 将分析集成到应用的过程。
 
@@ -133,7 +135,7 @@ Power BI 服务可能会引入不熟悉或容易混淆的术语。 词汇表是�
 
 ## <a name="g"></a>G
 
-**网关**或**本地数据网关** 连接基础数据源的桥梁。 它可在 Power BI 服务与支持刷新的本地数据源之间提供快速安全的数据传输。 通常由 IT 管理。 本地数据网关
+**网关**或**本地数据网关** 连接基础数据源的桥梁。 它可在 Power BI 服务与支持刷新的本地数据源之间提供快速安全的数据传输。 通常由 IT 管理。 
 
 ## <a name="h"></a>H
 **高密度视觉对象** 具有比 Power BI 所能呈现的更多的数据点的视觉对象。 Power BI 对数据进行取样以显示形状和离群值。
@@ -160,7 +162,7 @@ Power BI 服务可能会引入不熟悉或容易混淆的术语。 词汇表是�
 
 ## <a name="m"></a>M
 
-**度量值** 使用 DAX 代码或快速度量值在 Power BI Desktop 中写入的自定义计算值。
+**移动应用** 允许你在 iOS、Android 和 Windows 设备上运行 Power BI 的应用。
 
 **建模** [Power BI Desktop] 让已连接的数据可在 Power BI 中使用。 这包括，在多个数据源的表中创建关系，创建度量值，以及分配指标。
 
@@ -180,6 +182,9 @@ Power BI 服务可能会引入不熟悉或容易混淆的术语。 词汇表是�
 ## <a name="o"></a>O
 
 **OneDrive for Business** 与 **OneDrive** OneDrive 是个人帐户，而 OneDrive for Business 适用于工作帐户。  
+
+**本地数据网关**
+
 
 
 ## <a name="p"></a>P
@@ -202,7 +207,7 @@ Power BI 服务可能会引入不熟悉或容易混淆的术语。 词汇表是�
 
 **Power BI**、**Power BI 服务**、**Power BI Desktop**、**Power BI 移动版**、一些其他 Power BI 产品。 *Power BI* 是一个泛称。 通常在首次提及完整产品名称之后用于代替完整产品名称，例如 Power BI 服务和 Power BI 移动版。
 
-**Power BI Desktop** 也称为 *Desktop*。
+**Power BI Desktop** 也称为 *Desktop*。 可在本地计算机上安装的免费的 Windows Power BI 应用程序，可用于连接到数据、转换数据并实现数据的可视化效果。 由报表设计人员和管理员使用。 有关详细信息，请参阅[什么是 Power BI？](../power-bi-overview.md)。
 
 **Power BI Embedded** 由开发人员使用，将 Power BI 仪表板和报表嵌入自己的应用、站点和工具。
 
@@ -210,8 +215,9 @@ Power BI 服务可能会引入不熟悉或容易混淆的术语。 词汇表是�
 
 **Power BI Pro 许可证** 每月用户许可证，可提供构建仪表板、对共享数据进行协同合作、自动保持最新、审核和监管数据的访问和使用以及将内容打包以进行分发等功能（Power BI 应用）。
 
-**Power BI 报表服务器** SSRS 的一个新品牌产品，与 Power BI Premium 一起发布，让组织可以构建已分发的混合 BI 系统（云和本地部署的混合体）。
-基于具有丰富的分页报表功能的 SQL Server Reporting Services，以及提供能够使用 Power BI Desktop 创建的 Power BI 报表的移动报表，并在 Power BI 移动应用中呈现这些报表。 Classic SSRS 一直有售。
+**Power BI 报表服务器** SSRS 的一个新品牌产品，与 Power BI Premium 一起发布，让组织可以构建已分发的混合 BI 系统（云和本地部署的混合体）。 Embedded 提供了存储和管理 Power BI 报表的本地化方法。
+
+**Power BI 服务** 联机 SaaS（软件即服务）服务。 有关详细信息，请参阅[什么是 Power BI？](../power-bi-overview.md)。
 
 **Power BI 服务连接器** 此连接器让 Power BI Desktop 用户能够从 Desktop 连接到 Power BI 服务中的数据集。 他们可以创建一次模型，然后在许多报表和仪表板中重复使用。
 

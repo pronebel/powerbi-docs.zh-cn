@@ -1,6 +1,6 @@
 ---
-title: 使用 Power BI 嵌入
-description: Power BI 提供用于将仪表板和报表嵌入应用的 API。
+title: Power BI 嵌入式分析
+description: Power BI 提供用于使用嵌入式分析将仪表板和报表嵌入到应用程序的 API。 了解有关如何使用 Power BI 嵌入式分析软件、嵌入式分析工具或嵌入式商业智能工具嵌入到 PaaS 环境和 SaaS 环境中的详细信息。
 author: markingmyname
 ms.author: maghan
 manager: kfile
@@ -8,15 +8,16 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-developer
 ms.topic: overview
-ms.date: 07/31/2018
-ms.openlocfilehash: 7b96e671a6fe9b450fff683ced3caa611ae70bd7
-ms.sourcegitcommit: 698b788720282b67d3e22ae5de572b54056f1b6c
+ms.custom: seodec18
+ms.date: 12/10/2018
+ms.openlocfilehash: a4c0a66fb70797cc8b42094c65b23c71944b67a2
+ms.sourcegitcommit: f25464d5cae46691130eb7b02c33f42404011357
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/17/2018
-ms.locfileid: "45973761"
+ms.lasthandoff: 12/10/2018
+ms.locfileid: "53180314"
 ---
-# <a name="embedding-with-power-bi"></a>使用 Power BI 嵌入
+# <a name="embedded-analytics-with-power-bi"></a>Power BI 嵌入式分析
 
 Azure (PaaS) 中的 Power BI 服务 (SaaS) 和 Power BI 嵌入式服务具有用于嵌入仪表板和报表的 API。 此功能意味着，在嵌入内容时，拥有一组功能以及对最新 Power BI 功能（如仪表板、网关和应用工作区）的访问权限。
 
@@ -43,11 +44,11 @@ Azure (PaaS) 中的 Power BI 服务 (SaaS) 和 Power BI 嵌入式服务具有用
 
 为组织嵌入内容的示例包括内部应用程序，如 [SharePoint Online](https://powerbi.microsoft.com/blog/integrate-power-bi-reports-in-sharepoint-online/)、[Microsoft Teams 集成（必须拥有管理员权限）](https://powerbi.microsoft.com/blog/power-bi-teams-up-with-microsoft-teams/)以及 [Microsoft Dynamics](https://docs.microsoft.com/dynamics365/customer-engagement/basics/add-edit-power-bi-visualizations-dashboard)。
 
-若要为组织嵌入内容，请参阅以下演练：
+若要为组织嵌入内容，请参阅以下内容：
 
 * [将报表集成到应用](embed-sample-for-your-organization.md)
 
-为 Power BI 用户进行嵌入时，通过 [JavaScript API](https://github.com/Microsoft/PowerBI-JavaScript) 可使用编辑和保存等自助服务功能。
+为 Power BI 用户嵌入内容时，通过 [JavaScript API](https://github.com/Microsoft/PowerBI-JavaScript) 可使用编辑和保存等自助服务功能。
 
 可浏览用于为组织嵌入的[嵌入安装程序工具](https://aka.ms/embedsetup/UserOwnsData)以快速开始并下载示例应用程序，它会逐步引导你为组织集成报表。
 
@@ -61,7 +62,7 @@ Azure (PaaS) 中的 Power BI 服务 (SaaS) 和 Power BI 嵌入式服务具有用
 
 Power BI Embedded 可让 ISV、其开发人员和客户受益。 例如，ISV 可以使用 Power BI Desktop 开始免费创建视觉对象。 ISV 可以通过尽量减少视觉分析开发工作而更快推向市场，并借由差异化数据体验在竞争中脱颖而出。 ISV 还可以选择对嵌入式分析创造的附加价值收取相关费用。
 
-使用 Power BI Embedded，客户无需了解有关 Power BI 的任何信息。 只需要一个 Power BI Pro 帐户即可创建嵌入式应用程序。 Power BI Pro 帐户充当应用程序的主帐户（将其视为代理帐户）。 借助 Power BI Pro 帐户，还可以生成嵌入令牌，用于访问应用程序拥有/管理的 Power BI 服务中的仪表板和报表。
+使用 Power BI Embedded，客户无需了解有关 Power BI 的任何信息。 只需要一个 Power BI Pro 帐户即可创建嵌入式应用程序。 Power BI Pro 帐户充当应用程序的主帐户（将此主帐户视为代理帐户）。 借助 Power BI Pro 帐户，还可以生成嵌入令牌，用于访问应用程序拥有/管理的 Power BI 服务中的仪表板和报表。
 
 使用 Power BI Embedded，开发人员可以更专注于构建其应用程序的核心竞争力，而不是花时间开发视觉对象和分析。 开发人员可以快速满足客户的报表和仪表板需求，并可以通过具有完整存档的 API 和 SDK 轻松嵌入。 通过在应用中启用易于导航的数据浏览，ISV 让客户能够使用任意设备在上下文中快速作出数据驱动型决策。
 

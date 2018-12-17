@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 11/06/2018
+ms.date: 12/06/2018
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: 8131722d0e035f28fcb88827b1a68c2da97959cb
-ms.sourcegitcommit: b23fdcc0ceff5acd2e4d52b15b310068236cf8c7
+ms.openlocfilehash: b63b8a601040751cda81e022d571d3a0ed6d501f
+ms.sourcegitcommit: f25464d5cae46691130eb7b02c33f42404011357
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/07/2018
-ms.locfileid: "51266639"
+ms.lasthandoff: 12/10/2018
+ms.locfileid: "53180659"
 ---
 # <a name="using-computed-entities-on-power-bi-premium-preview"></a>在 Power BI Premium 上使用计算实体（预览）
 
@@ -77,16 +77,21 @@ ms.locfileid: "51266639"
 
 请务必注意，如果将工作区从 Power BI Premium 容量中删除，则相关联的数据流将不再刷新。 
 
+使用组织的 Azure Data Lake Storage Gen2 帐户中专门创建的数据流时，仅当链接实体和计算实体位于同一存储帐户中时，这些实体才能正常工作。 有关详细信息，请参阅[连接 Azure Data Lake Storage Gen2 以存储数据流（预览）](service-dataflows-connect-azure-data-lake-storage-gen2.md)。
+
+此外，链接实体不适用于 CDM 文件夹中创建的数据流。 请参阅[将 CDM 文件夹添加到 Power BI 作为数据流（预览）](service-dataflows-add-cdm-folder.md)。
 
 ## <a name="next-steps"></a>后续步骤
 
 本文介绍了 Power BI 服务中可用的计算实体和数据流。 下面列出了一些可能有用的文章。
 
-
 * [数据流自助服务数据准备](service-dataflows-overview.md)
 * [在 Power BI 中创建和使用数据流](service-dataflows-create-use.md)
 * [将数据流与本地数据源配合使用（预览）](service-dataflows-on-premises-gateways.md)
 * [Power BI 数据流的开发人员资源（预览）](service-dataflows-developer-resources.md)
+* [配置工作区数据流设置（预览）](service-dataflows-configure-workspace-storage-settings.md)
+* [将 CDM 文件夹添加到 Power BI 作为数据流（预览）](service-dataflows-add-cdm-folder.md)
+* [连接 Azure Data Lake Storage Gen2 以存储数据流（预览）](service-dataflows-connect-azure-data-lake-storage-gen2.md)
 
 有关 Power Query 和计划刷新的详细信息，可以阅读以下文章：
 * [Power BI Desktop 中的查询概述](desktop-query-overview.md)

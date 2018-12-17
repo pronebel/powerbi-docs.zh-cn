@@ -1,21 +1,22 @@
 ---
-title: 在 Power BI Desktop (Beta) 中连接到 Azure 使用情况见解数据
+title: 连接到 Azure 使用见解数据 (Beta)
 description: 使用 Power BI Desktop 轻松连接到 Azure，并获取有关使用情况的见解
 author: davidiseminger
 manager: kfile
 ms.reviewer: ''
+ms.custom: seodec18
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 11/13/2018
+ms.date: 12/06/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: c770423b81c6d5cd4135539d8d44c3cc46f8b6fe
-ms.sourcegitcommit: 6a6f552810a596e1000a02c8d144731ede59c0c8
+ms.openlocfilehash: 622a236ba2a240202a570a07e7b6abb201da9dde
+ms.sourcegitcommit: 72c9d9ec26e17e94fccb9c5a24301028cebcdeb5
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/14/2018
-ms.locfileid: "51619600"
+ms.lasthandoff: 12/07/2018
+ms.locfileid: "53026768"
 ---
 # <a name="connect-to-azure-consumption-insights-in-power-bi-desktop-beta"></a>在 Power BI Desktop (Beta) 中连接到 Azure 使用情况见解
 借助 Azure 使用情况见解连接器，可以使用 Power BI Desktop 连接到 Azure，并获取有关组织 Azure 服务使用情况更详细的数据和信息。 还可以创建度量值、自定义列和视觉对象来报告和共享组织的 Azure 使用情况。 此版本的 Azure 使用情况和见解连接器处于测试阶段，随时可能更改。
@@ -50,15 +51,15 @@ ms.locfileid: "51619600"
   ![](media/desktop-connect-azure-consumption-insights/azure-consumption-insights_09.png)
 
 提供“访问密钥”并选择“连接”后，将出现“导航”窗口并显示九个可用的表： 
-* 预算：提供预算详细信息，以查看针对现有预算目标的实际成本或使用情况。 
-* 市场：提供基于使用情况的 Azure市场费用。
-* 价目表：为注册提供适用的费率（由指示器计费）。
-* RICharges：提供过去 24 个月与你的保留实例相关联的费用。
-* RIRecommendations_Single：提供基于过去 7 天、30 天或 60 天单个订阅上的使用趋势的保留实例购买建议。
-* RIRecommendations_Shared：提供基于过去 7 天、30 天或 60 天所有订阅上的使用趋势的保留实例购买建议。
-* RIUsage：提供上个月现有保留实例的使用情况详细信息。
-* 摘要：提供余额、新购买、Azure 市场服务费用、调整和超额费用的月度摘要。
-* UsageDetails：提供已使用量的明细和注册的估计费用。
+* **预算**：提供预算详细信息，以查看针对现有预算目标的实际成本或使用情况。 
+* **市场**：提供基于使用情况的 Azure市场费用。
+* **价目表**：为注册提供适用的费率（由指示器计费）。
+* **RICharges**：提供过去 24 个月与保留实例相关联的费用。
+* **RIRecommendations_Single**：提供基于过去 7 天、30 天或 60 天单个订阅上的使用趋势的保留实例购买建议。
+* **RIRecommendations_Shared**：提供基于过去 7 天、30 天或 60 天所有订阅上的使用趋势的保留实例购买建议。
+* **RIUsage**：提供上个月现有保留实例的使用情况详细信息。
+* **摘要**：提供余额、新购买、Azure 市场服务费用、调整和超额费用的月度摘要。
+* **UsageDetails**：提供已使用量的明细和注册的估计费用。
 
 可以选中任意表旁边的复选框来查看预览。 可以通过勾选表名称旁边的框来选择一个或多个表，然后选择“加载”。
 
@@ -108,7 +109,7 @@ Azure 还包括一些可以使用空查询检索的示例自定义查询的集�
 
 为了帮助客户过渡到较新的 Azure 使用情况见解连接器，并保留他们在创建自定义仪表板或报表方面所做的工作，以下步骤显示如何移至新的连接器。
 
-### <a name="step-1-connect-to-azure-using-the-new-connector"></a>步骤1：使用新的连接器连接到 Azure
+### <a name="step-1-connect-to-azure-using-the-new-connector"></a>步骤 1：使用新的连接器连接到 Azure
 第一步是使用 Azure 使用情况见解连接器进行连接，这在本文前面的部分中进行了详细介绍。 在此步骤中，在 Power BI Desktop 的“主页”功能区中选择“获取数据”>“空查询”。
 
 ### <a name="step-2-use-the-advanced-editor-to-create-a-query"></a>步骤 2：使用高级编辑器创建查询
@@ -178,7 +179,7 @@ Azure 门户中的列和名称详细信息与 API 和连接器中的相关信息
 | Meter Region |meterRegion |Meter Region |否 |
 | Meter Sub-Category |meterSubCategory |Meter Sub-Category |否 |
 | MeterId |meterId |Meter ID |否 |
-| 月份 | |月份 |否 |
+| 月 | |月 |否 |
 | 产品 |产品 |产品 |否 |
 | ProductId |productId | |是 |
 | Resource Group |resourceGroup |Resource Group |否 |

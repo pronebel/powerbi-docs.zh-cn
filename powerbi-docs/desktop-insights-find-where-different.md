@@ -1,21 +1,22 @@
 ---
-title: 使用 Power BI Desktop 中的见解找出分布的不同之处（预览版）
+title: 使用见解查找分布不同的位置（预览）
 description: 在 Power BI Desktop 中轻松获取见解以找出图表中显示的分布的不同之处
 author: davidiseminger
 manager: kfile
 ms.reviewer: ''
+ms.custom: seodec18
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 11/28/2018
+ms.date: 12/06/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 5a355e3d19a781def54a1dcf747f404ed7852444
-ms.sourcegitcommit: 2ae660a7b70fce23eb58b159d049eca44a664f2c
+ms.openlocfilehash: 1966c39fef818d6df84b9b47039b1d762374ce28
+ms.sourcegitcommit: 72c9d9ec26e17e94fccb9c5a24301028cebcdeb5
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/30/2018
-ms.locfileid: "52670868"
+ms.lasthandoff: 12/07/2018
+ms.locfileid: "53026769"
 ---
 # <a name="use-insights-in-power-bi-desktop-to-find-where-a-distribution-is-different-preview"></a>使用 Power BI Desktop 中的见解找出分布的不同之处（预览版）
 

@@ -7,23 +7,21 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 10/16/2018
+ms.date: 12/05/2018
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 1e86403dbdb2972cc83b379efff8bbc17173a4e1
-ms.sourcegitcommit: 35d763dfc75c229204d36fd8b35c1e860786b707
+ms.openlocfilehash: b4ce5c811b2aa18803483ed9780c6b73a6b04bb1
+ms.sourcegitcommit: 4f46d71ff6026c1c158f007425aefdcb501f48ee
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/27/2018
-ms.locfileid: "52331887"
+ms.lasthandoff: 12/06/2018
+ms.locfileid: "52979228"
 ---
 # <a name="dashboard-tiles-in-power-bi"></a>Power BI 中的仪表板磁贴
-仪表板和仪表板磁贴是 Power BI 服务的一项功能，而不是 Power BI Desktop 的功能。 虽然无法在 Power BI 移动设备中创建或固定仪表板磁贴，但可以[查看和共享](mobile/mobile-tiles-in-the-mobile-apps.md)这些磁贴。 
+磁贴是数据的快照，由“设计者”固定到仪表板。 可以从报表、数据集、仪表板、问答问题框、Excel 和 SQL Server Reporting Services (SSRS) 等位置创建磁贴。  此屏幕截图显示了固定到仪表板的许多不同的磁贴。
 
-## <a name="dashboard-tiles"></a>在推入数据时
 ![Power BI 仪表板](./media/end-user-tiles/power-bi-dashboard.png)
 
-磁贴是数据的快照，由“设计者”固定到仪表板。 可以从报表、数据集、仪表板、问答问题框、Excel 和 SQL Server Reporting Services (SSRS) 等位置创建磁贴。  此屏幕截图显示了固定到仪表板的许多不同的磁贴。
 
 除了从报表中固定磁贴，“设计者”可以使用“添加磁贴”直接在仪表板上添加独立磁贴。 独立磁贴包含：文本框、图像、视频、流数据和 Web 内容。
 
@@ -32,7 +30,6 @@ ms.locfileid: "52331887"
 
 ## <a name="interacting-with-tiles-on-a-dashboard"></a>与仪表板上的磁贴进行交互
 
-### <a name="hover-over-a-tile-to-change-the-appearance-and-behavior"></a>将鼠标悬停在磁贴上以更改外观和行为
 1. 将鼠标悬停在磁贴上以显示省略号。
    
     ![磁贴省略号](./media/end-user-tiles/ellipses_new.png)
@@ -68,7 +65,7 @@ ms.locfileid: "52331887"
 选择磁贴时，下一步会发生什么情况取决于创建该磁贴的方式以及其是否有[自定义链接](../service-dashboard-edit-tile.md)。 如果它有自定义链接，则选择该磁贴将转到该链接。 否则，选择磁贴将转到报表、Excel 联机工作簿、本地 SSRS 报表或用于创建该磁贴的问答问题。
 
 > [!NOTE]
-> 这对在仪表板上直接使用“**添加磁贴**”创建的视频磁贴不适用。 选择视频磁贴（以这种方式创建的）将导致视频直接在仪表板上播放。   
+> 这对在仪表板上直接使用“添加磁贴”创建的视频磁贴不适用。 选择视频磁贴（以这种方式创建的）将导致视频直接在仪表板上播放。   
 > 
 > 
 

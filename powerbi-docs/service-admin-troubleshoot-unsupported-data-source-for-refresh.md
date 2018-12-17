@@ -9,13 +9,14 @@ ms.component: powerbi-service
 ms.topic: conceptual
 ms.date: 12/06/2017
 ms.author: mblythe
+ms.custom: seodec18
 LocalizationGroup: Troubleshooting
-ms.openlocfilehash: 864e7a3d78386f6996d866f45558add3b51faa69
-ms.sourcegitcommit: ba447d7cc94418d7d3cf6fdcb686ec1a859258a8
+ms.openlocfilehash: 08931086d05ca3fe7edba2cd195a4f6f61cfccc7
+ms.sourcegitcommit: 72c9d9ec26e17e94fccb9c5a24301028cebcdeb5
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/02/2018
-ms.locfileid: "37145180"
+ms.lasthandoff: 12/07/2018
+ms.locfileid: "53025861"
 ---
 # <a name="troubleshooting-unsupported-data-source-for-refresh"></a>刷新不支持的数据源故障排除
 尝试为计划的刷新配置数据集时，你可能会遇到错误。
@@ -28,13 +29,13 @@ ms.locfileid: "37145180"
 如果你不确定所使用的数据源，则可以在 Power BI Desktop 中使用以下步骤来查找该数据源。  
 
 1. 在 Power BI Desktop 中，请确保你处于**报表**窗格上。  
-   ![](media/service-admin-troubleshoot-unsupported-data-source-for-refresh/tshoot-report-pane.png)
+   ![Desktop 报表窗格](media/service-admin-troubleshoot-unsupported-data-source-for-refresh/tshoot-report-pane.png)
 2. 从功能区栏中选择**编辑查询**。  
-   ![](media/service-admin-troubleshoot-unsupported-data-source-for-refresh/tshoot-edit-queries.png)
+   ![编辑查询](media/service-admin-troubleshoot-unsupported-data-source-for-refresh/tshoot-edit-queries.png)
 3. 选择**高级编辑器**。  
-   ![](media/service-admin-troubleshoot-unsupported-data-source-for-refresh/tshoot-advanced-editor.png)
+   ![高级编辑器](media/service-admin-troubleshoot-unsupported-data-source-for-refresh/tshoot-advanced-editor.png)
 4. 记下为源列出的提供程序。  在此示例中，提供程序是 ActiveDirectory。  
-   ![](media/service-admin-troubleshoot-unsupported-data-source-for-refresh/tshoot-provider.png)
+   ![数据源提供程序](media/service-admin-troubleshoot-unsupported-data-source-for-refresh/tshoot-provider.png)
 5. 将提供程序与[在 Power BI 中刷新数据](refresh-data.md)中的不支持数据源列表进行比较。  你会发现 Active Directory 不是刷新支持的数据源。  
 
 ## <a name="next-steps"></a>后续步骤

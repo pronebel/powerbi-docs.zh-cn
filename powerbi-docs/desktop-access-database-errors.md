@@ -4,29 +4,30 @@ description: 解决在 Power BI Desktop 和 Power Query 中导入 Access 数据�
 author: davidiseminger
 manager: kfile
 ms.reviewer: ''
+ms.custom: seodec18
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 11/28/2018
+ms.date: 12/06/2018
 ms.author: davidi
 LocalizationGroup: Troubleshooting
-ms.openlocfilehash: 76423f26203da23658b621d7d01565c04ca21709
-ms.sourcegitcommit: 05303d3e0454f5627eccaa25721b2e0bad2cc781
+ms.openlocfilehash: a1a350a8348dce5ba2553873077a0dfb102a187c
+ms.sourcegitcommit: 72c9d9ec26e17e94fccb9c5a24301028cebcdeb5
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/28/2018
-ms.locfileid: "52578166"
+ms.lasthandoff: 12/07/2018
+ms.locfileid: "53024720"
 ---
 # <a name="resolve-issues-importing-access-and-xls-files-in-power-bi-desktop"></a>解决在 Power BI Desktop 中导入 Access 和 .XLS 文件出现的问题
 在 Power BI Desktop 中，Access 数据库和旧版 Excel 工作簿（Excel 97-2003 的 .XLS 文件类型）均使用 Access 数据库引擎。 有三种常见情形可能会导致 Access 数据库引擎无法正常运行：
 
-### <a name="situation-1-no-access-database-engine-installed"></a>情况 1：未安装 Access 数据库引擎
+## <a name="situation-1-no-access-database-engine-installed"></a>情况 1：未安装 Access 数据库引擎
 当 Power BI Desktop 错误消息指示未安装 Access 数据库引擎时，必须安装与你的 Power BI Desktop 版本匹配的 Access 数据库引擎版本（32 位或 64 位）。 可以从[下载页](http://www.microsoft.com/download/details.aspx?id=13255)安装 Access 数据库引擎。
 
 >[!NOTE]
 >如果安装的 Access 数据库引擎位版本不同于 Microsoft Office 安装的位版本，则 Office 应用程序将不能使用 Access 数据库引擎。
 
-### <a name="situation-2-the-access-database-engine-bit-version-32-bit-or-64-bit-is-different-from-your-power-bi-desktop-bit-version"></a>情况 2：Access 数据库引擎位版本（32 位或 64 位）不同于你的 Power BI Desktop 位版本
+## <a name="situation-2-the-access-database-engine-bit-version-32-bit-or-64-bit-is-different-from-your-power-bi-desktop-bit-version"></a>情况 2：Access 数据库引擎位版本（32 位或 64 位）不同于用户的 Power BI Desktop 位版本
 当安装的 Microsoft Office 版本为 32 位，而安装的 Power BI Desktop 版本为 64 位时，通常会发生这种情况。 相反的情况也会发生，无论属于上述哪种情况，都是位版本不一致（如果使用的是 Office 365 订阅，请参阅**情形 3** 了解不同的问题和解决方法）。 以下任何一种解决方案都可以修复此位版本不一致错误：
 
 1. 更改 Power BI Desktop 的版本以匹配 Microsoft Office 安装的位版本。 若要更改 Power BI Desktop 的位版本，请卸载 Power BI Desktop，然后安装与 Office 安装匹配的 Power BI Desktop 版本。 若要选择 Power BI Desktop 的版本，请在桌面下载页上选择**高级下载选项**。
@@ -47,11 +48,11 @@ ms.locfileid: "52578166"
    
        c:\users\joe\downloads\AccessDatabaseEngine_x64.exe /passive
 
-### <a name="situation-3-trouble-using-access-or-xls-files-with-an-office-365-subscription"></a>情形 3：无法结合使用 Office 365 订阅和 Access 或 .XLS 文件
+## <a name="situation-3-trouble-using-access-or-xls-files-with-an-office-365-subscription"></a>情况 3：无法结合使用 Office 365 订阅和 Access 或 .XLS 文件
 如果使用的是 Office 365 订阅，无论是 **Office 2013** 还是 **Office 2016**，Access 数据库引擎提供程序是在*仅*供 Office 进程访问的虚拟注册表位置中进行注册。 因此，不是 Office 进程的 Mashup 引擎（负责运行非 Office 365 Excel 和 Power BI Desktop）不能使用 Access 数据库引擎提供程序。
 
 若要纠正这种情形，可以[下载并安装与 Power BI Desktop 安装位版本匹配的 Access 数据库引擎可再发行组件](http://www.microsoft.com/download/details.aspx?id=13255)（请参阅前面的部分，了解有关位版本的详细信息）。
 
-### <a name="other-situations-that-cause-import-issues"></a>导致导入问题发生的其他情形
+## <a name="other-situations-that-cause-import-issues"></a>导致导入问题发生的其他情形
 我们会尽可能地收录 Access 或 .XLS 文件出现的问题。 如果遇到本文未收录的问题，请将问题提交给 [Power BI 支持团队](https://powerbi.microsoft.com/support/)。 我们会定期查看可能会对大量客户造成影响的问题，并将其收录到我们的文章中。
 

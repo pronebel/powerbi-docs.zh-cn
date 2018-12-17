@@ -9,13 +9,14 @@ ms.service: powerbi
 ms.component: powerbi-admin
 ms.topic: conceptual
 ms.date: 10/21/2018
+ms.custom: seodec18
 LocalizationGroup: Premium
-ms.openlocfilehash: 451727d473b59afd362e4f31e8aef634d2168f83
-ms.sourcegitcommit: 1e4fee6d1f4b7803ea285eb879c8d5a4f7ea8b85
+ms.openlocfilehash: cbfee8034639a65517f9adc57cc95dd1271e6044
+ms.sourcegitcommit: 72c9d9ec26e17e94fccb9c5a24301028cebcdeb5
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/16/2018
-ms.locfileid: "51717622"
+ms.lasthandoff: 12/07/2018
+ms.locfileid: "53025433"
 ---
 # <a name="what-is-microsoft-power-bi-premium"></a>什么是 Microsoft Power BI Premium？
 
@@ -45,11 +46,11 @@ Microsoft Power BI Premium 提供专用于为组织运行 Power BI 服务的资�
 |  | 共享容量 | Power BI 高级容量 |
 | --- | --- | --- |
 | 刷新频率 |每天 8 次 |每天 48 次 |
-| 专用硬件隔离 |![](media/service-premium/not-available.png "不可用") |![](media/service-premium/available.png "可用") |
+| 专用硬件隔离 |![不可用](media/service-premium/not-available.png) |![可用](media/service-premium/available.png) |
 | 面向所有用户的企业分发__ | | |
-| 应用和共享 |![](media/service-premium/not-available.png "不可用") |![](media/service-premium/available.png "可用")<sup>1</sup> |
-| 嵌入式 API 和控件 |![](media/service-premium/not-available.png "不可用") |![](media/service-premium/available.png "可用")<sup>2</sup> |
-| 在本地发布 Power BI 报表 |![](media/service-premium/not-available.png "不可用") |![](media/service-premium/available.png "可用") |
+| 应用和共享 |![不可用](media/service-premium/not-available.png) |![可用](media/service-premium/available.png) |
+| 嵌入式 API 和控件 |![不可用](media/service-premium/not-available.png) |![可用](media/service-premium/available.png)<sup>2</sup> |
+| 在本地发布 Power BI 报表 |![不可用](media/service-premium/not-available.png) |![可用](media/service-premium/available.png) |
 | | | |
 
 *<sup>1</sup> 有关详细信息，请参阅[按许可证类型列出的功能](service-features-license-type.md)*。  
@@ -98,7 +99,7 @@ Microsoft Power BI Premium 提供专用于为组织运行 Power BI 服务的资�
 
 |                     | EM3                      | P1                       | P2                      | P3                       |
 |---------------------|--------------------------|--------------------------|-------------------------|--------------------------|
-| 分页报表 | 不适用 | 默认为 20%，最低为 10% | 默认为 20%，最低为 5% | 默认为 20%，最低为 2.5% |
+| 分页报表 | N/A | 默认为 20%，最低为 10% | 默认为 20%，最低为 5% | 默认为 20%，最低为 2.5% |
 | 数据流 | 默认为 20%，最低为 8%  | 默认为 20%，最低为 4%  | 默认为 20%，最低为 2% | 默认为 20%，最低为 1%  |
 | | | | | |
 
@@ -106,16 +107,16 @@ Microsoft Power BI Premium 提供专用于为组织运行 Power BI 服务的资�
 
 |                  | A1                       | A2                       | A3                      | A4                       | A5                      | A6                        |
 |-------------------|--------------------------|--------------------------|-------------------------|--------------------------|-------------------------|---------------------------|
-| 分页报表 | 不适用                      | 不适用                      | 不适用                     | 默认为 20%，最低为 10% | 默认为 20%，最低为 5% | 默认为 20%，最低为 2.5% |
+| 分页报表 | N/A                      | 不适用                      | N/A                     | 默认为 20%，最低为 10% | 默认为 20%，最低为 5% | 默认为 20%，最低为 2.5% |
 | 数据流         | 默认为 27%，最低为 27% | 默认为 20%，最低为 16% | 默认为 20%，最低为 8% | 默认为 20%，最低为 4%  | 默认为 20%，最低为 2% | 默认为 20%，最低为 1%   |
 
 ### <a name="considerations-for-paginated-reports"></a>分页报表的注意事项
 
 如果使用分页报表工作负载，请注意以下几点。
 
-* 分页报表中的内存分配：使用分页报表，可以在呈现报表时运行自己的代码（例如根据内容动态更改文本颜色）。 鉴于这一事实，我们通过在容量内的容纳空间中运行分页报表来确保 Power BI 高级容量的安全。 我们将用户指定的最大内存分配给此空间，无论工作负载是否处于活动状态都是如此。 如果使用相同容量的 Power BI 报表或数据流，请务必为分页报表设置足够低的内存，使其不会对其他工作负载产生负面影响。
+* **分页报表中的内存分配**：使用分页报表，可以在呈现报表时运行自己的代码（例如根据内容动态更改文本颜色）。 鉴于这一事实，我们通过在容量内的容纳空间中运行分页报表来确保 Power BI 高级容量的安全。 我们将用户指定的最大内存分配给此空间，无论工作负载是否处于活动状态都是如此。 如果使用相同容量的 Power BI 报表或数据流，请务必为分页报表设置足够低的内存，使其不会对其他工作负载产生负面影响。
 
-* 分页报表不可用：在极少数情况下，分页报表工作负载可能变得不可用。 在这种情况下，工作负载在管理门户中显示错误状态，并且用户会看到报表呈现的超时。 要缓解此问题，请禁用工作负载，然后再次启用它。
+* **分页报表不可用**：在极少数情况下，分页报表工作负载可能变得不可用。 在这种情况下，工作负载在管理门户中显示错误状态，并且用户会看到报表呈现的超时。 要缓解此问题，请禁用工作负载，然后再次启用它。
 
 ## <a name="power-bi-report-server"></a>Power BI 报表服务器
 
