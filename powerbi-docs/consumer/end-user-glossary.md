@@ -2,17 +2,18 @@
 title: Power BI 使用者词汇表
 description: Power BI 引入了许多新术语和常见术语的新用法。 请使用我们的词汇表熟悉 Power BI 术语。
 services: power-bi
+ms.custom: seodec18
 author: mihart
 ms.service: powerbi-service
 ms.topic: resource
-ms.date: 11/12/2018
+ms.date: 12/06/2018
 ms.author: mihart
-ms.openlocfilehash: fd7974024fdbfce38b93f1598fa389ef71a47dd9
-ms.sourcegitcommit: 72c9d9ec26e17e94fccb9c5a24301028cebcdeb5
+ms.openlocfilehash: f0e81c72fde0275467c3a914d19e916dab604cce
+ms.sourcegitcommit: cd85d88fba0d9cc3c7a4dc03d2f35d2bd096759b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/07/2018
-ms.locfileid: "53026330"
+ms.lasthandoff: 12/12/2018
+ms.locfileid: "53280779"
 ---
 # <a name="glossary-for-power-bi-service"></a>Power BI 服务词汇表
 Power BI 服务可能会引入不熟悉或容易混淆的术语。 词汇表是查找术语的好地方，可能需要将其加入书签。 了解构成 Power BI 服务的构建块的另一个极佳资源是[基本概念](end-user-basic-concepts.md)。 “基本概念”提供 Power BI 组件及其如何连接的简要概述。
@@ -42,7 +43,7 @@ Power BI 服务可能会引入不熟悉或容易混淆的术语。 词汇表是�
 
 **AppSource** 集中式联机存储库，可以在此处浏览和发现要下载的仪表板、报表、数据集和应用。
 
-**ArcGIS Maps for Power BI** ArcGIS 是由 ESRI 公司创建的地图和分析平台。 Power BI 视觉对象库中包括的视觉对象称为 ArcGIS Maps for Power BI。
+**ArcGIS for Power BI** ArcGIS 是由 ESRI 公司创建的地图和分析平台。 Power BI 视觉对象库中包括的视觉对象称为 ArcGIS for Power BI。
 
 **分配** [Power BI Premium] 动词，将工作区移入或移出专用容量。 请不要使用“提升”将工作区移到专用容量，因为它具有优先于共享容量的“专用”的含义。  
 
