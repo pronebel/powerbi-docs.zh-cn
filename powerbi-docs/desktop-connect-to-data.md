@@ -21,7 +21,7 @@ ms.locfileid: "53025548"
 # <a name="connect-to-data-in-power-bi-desktop"></a>连接到 Power BI Desktop 中的数据
 通过 Power BI Desktop，可以轻松连接到持续扩展的数据世界。 如果没有 Power BI Desktop，你可以[下载](http://go.microsoft.com/fwlink/?LinkID=521662)并进行安装。
 
-Power BI Desktop.中有 *各种* 可用数据源。 下图显示了如何通过依次选择**文件**功能区、**获取数据\>更多**来连接到数据。
+Power BI Desktop 中有各种可用数据源。 下图显示了如何通过依次选择“文件”功能区、“获取数据”\>“更多”来连接到数据。
 
 ![](media/desktop-connect-to-data/getdatavid_smallv2.gif)
 
@@ -38,7 +38,7 @@ Power BI Desktop.中有 *各种* 可用数据源。 下图显示了如何通过�
 
 ![](media/desktop-connect-to-data/connecttodata_3.png)
 
-选择**确定**后，Power BI Desktop 的**查询**功能就会开始运行。 Power BI Desktop 会联系 Web 资源，**导航器**窗口将返回它在该网页上找到的结果。 在本例中，它找到一个表（表格 0）和整份文档。 我们对该表有兴趣，因此我们从列表中选择它。 **导航器**窗口会显示预览。
+选择“确定”后，Power BI Desktop 的“查询”功能就会开始运行。 Power BI Desktop 会连接到 Web 资源，“导航器”窗口将返回它在该网页上找到的结果。 在本例中，它找到一个表（表格 0）和整份文档。 我们对该表有兴趣，因此我们从列表中选择它。 导“导航器”窗口会显示预览信息。
 
 ![](media/desktop-connect-to-data/datasources_fromnavigatordialog.png)
 
