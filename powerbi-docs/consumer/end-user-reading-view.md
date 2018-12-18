@@ -5,21 +5,21 @@ services: powerbi
 documentationcenter: ''
 author: mihart
 manager: kvivek
-backup: ''
+ms.custom: seodec18
 editor: ''
 tags: ''
 ms.service: powerbi
 ms.topic: quickstart
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 10/17/2018
+ms.date: 12/06/2018
 ms.author: mihart
-ms.openlocfilehash: 1da43fb6bc0604cfa356f19aa212256612350c65
-ms.sourcegitcommit: a3ce866caba24217bcdd011e892b9ea72f3d2400
+ms.openlocfilehash: 84ce069913b1c262ce4e91138f8496cf3f19dddd
+ms.sourcegitcommit: cd85d88fba0d9cc3c7a4dc03d2f35d2bd096759b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/18/2018
-ms.locfileid: "49396511"
+ms.lasthandoff: 12/12/2018
+ms.locfileid: "53280112"
 ---
 <!-- once the sample aps are live, change this so consumers can follow along -->
 # <a name="quickstart-learn-about-the-power-bi-capabilities-for-consumers"></a>快速入门：了解面向使用者的 Power BI 功能
@@ -175,7 +175,7 @@ Power BI 服务中的另一种报表模式是，向报表设计者提供的[编�
 
 ![“焦点”模式](media/end-user-reading-view/powerbi-focus-mode.png)
 
-若要显示相同的可视化效果而不受菜单栏、筛选器窗格和其他部件的干扰，请从顶部菜单栏 ![](media/end-user-reading-view/power-bi-focus-icon.png) 选择“全屏”图标。
+若要显示相同的可视化效果而不受菜单栏、筛选器窗格和其他部件的干扰，请从顶部菜单栏选择“全屏”图标![“全屏”图标](media/end-user-reading-view/power-bi-focus-icon.png)。
 
 ![全屏模式](media/end-user-reading-view/power-bi-full-screen.png)
 

@@ -5,18 +5,19 @@ author: mihart
 manager: kvivek
 ms.reviewer: ''
 featuredvideoid: JbL2-HJ8clE
+ms.custom: seodec18
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: tutorial
-ms.date: 10/08/2018
+ms.date: 12/06/2018
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 7982c2b29d5d92a992a115c92cbc7f0d128cb9d6
-ms.sourcegitcommit: fdb54145f9bc93b312409c15c603749f3a4a876e
+ms.openlocfilehash: 0d614b6028fa4d7e11ac5bf82e05d44a95e4f234
+ms.sourcegitcommit: cd85d88fba0d9cc3c7a4dc03d2f35d2bd096759b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/28/2018
-ms.locfileid: "52452582"
+ms.lasthandoff: 12/12/2018
+ms.locfileid: "53280848"
 ---
 # <a name="tutorial-set-data-alerts-in-power-bi-service"></a>教程：在 Power BI 服务中设置数据警报
 设置警报，以便在仪表板中的数据更改超出你设置的限制时通知你。 

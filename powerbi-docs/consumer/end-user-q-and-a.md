@@ -1,21 +1,22 @@
 ---
-title: Power BI 服务和 Power BI Desktop 中的 Power BI 问答概述
+title: Power BI 服务中的 Power BI 问答概述
 description: Power BI 问答自然语言查询的文档概述主题。
 author: mihart
 manager: kvivek
 ms.reviewer: ''
+ms.custom: seodec18
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 10/16/2018
+ms.date: 12/06/2018
 ms.author: mihart
 LocalizationGroup: Ask questions of your data
-ms.openlocfilehash: 361c71c979d65e5c71ada6889bc7312ef64da23e
-ms.sourcegitcommit: a3ce866caba24217bcdd011e892b9ea72f3d2400
+ms.openlocfilehash: 3548041be39705c3013d09740040afc3e7f1c9e7
+ms.sourcegitcommit: cd85d88fba0d9cc3c7a4dc03d2f35d2bd096759b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/18/2018
-ms.locfileid: "49396350"
+ms.lasthandoff: 12/12/2018
+ms.locfileid: "53279569"
 ---
 # <a name="qa-for-power-bi-consumers"></a>面向 Power BI 使用者的问答
 ## <a name="what-is-qa"></a>“问答”是什么？

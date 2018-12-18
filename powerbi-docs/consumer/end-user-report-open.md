@@ -1,23 +1,24 @@
 ---
-title: 在面向使用者的 Power BI 服务中查看报表。
+title: 查看报表
 description: 本主题介绍 Power BI 使用者和最终用户必须打开并查看 Power BI 报告。
 author: mihart
 manager: kvivek
 ms.reviewer: ''
+ms.custom: seodec18
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 10/17/2018
+ms.date: 12/06/2018
 ms.author: mihart
-ms.openlocfilehash: 15259d472ad315eb0a6274e59ebb30b94f48a302
-ms.sourcegitcommit: a3ce866caba24217bcdd011e892b9ea72f3d2400
+ms.openlocfilehash: df28cd585998b8877a788e709eaf6b22474e6122
+ms.sourcegitcommit: cd85d88fba0d9cc3c7a4dc03d2f35d2bd096759b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/18/2018
-ms.locfileid: "49396925"
+ms.lasthandoff: 12/12/2018
+ms.locfileid: "53280986"
 ---
 # <a name="view-a-report-in-power-bi-service-for-consumers"></a>在面向使用者的 Power BI 服务中查看报表
-报表由一页或多页的视觉对象组成。 报表由 Power BI 报表设计器创建，[并且直接与使用者共享](end-user-shared-with-me.md)或作为[应用](end-user-apps.md)的一部分共享。 
+报表由一页或多页的视觉对象组成。 报表是由 Power BI 报表设计者创建，[并直接与使用者共享](end-user-shared-with-me.md)或作为[应用](end-user-apps.md)的一部分共享。 
 
 打开报表有许多不同的方式，我们将介绍其中两种：从“主页”页面打开以及从“仪表板”打开。 
 

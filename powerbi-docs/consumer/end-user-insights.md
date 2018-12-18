@@ -1,24 +1,25 @@
 ---
-title: 通过 Power BI 自动生成数据见解
-description: 了解如何获取有关数据集和仪表板磁贴的见解。
+title: 运行和查看有关仪表板磁贴的见解
+description: 作为 Power BI 最终用户，了解如何获取有关仪表板磁贴的见解。
 author: mihart
 manager: kvivek
 ms.reviewer: ''
 featuredvideoid: et_MLSL2sA8
+ms.custom: seodec18
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 10/10/2018
+ms.date: 12/06/2018
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: f68e962eacf04005d83ec0def10cf8e0e24f6e10
-ms.sourcegitcommit: dc8b8a2cf2dcc96ccb46159802ebd9342a7fa840
+ms.openlocfilehash: dd59f572da6bb3b62fa142ea7b7eab4aef5a3466
+ms.sourcegitcommit: f25464d5cae46691130eb7b02c33f42404011357
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/11/2018
-ms.locfileid: "49112029"
+ms.lasthandoff: 12/10/2018
+ms.locfileid: "53180521"
 ---
-# <a name="automatically-generate-data-insights-with-power-bi"></a>通过 Power BI 自动生成数据见解
+# <a name="view-data-insights-on-dashboard-tiles-with-power-bi"></a>使用 Power BI 查看有关仪表板磁贴的数据见解
 仪表板上的每个可视化效果磁贴都是数据探索的入口。 当选择磁贴时，它将打开一个报表，可以在其中筛选、排序以及深入挖掘此报表背后的数据集。 当运行见解时，Power BI 会为你进行数据探索。
 
 运行快速见解便可基于你的数据生成有趣的交互式可视化效果。 快速见解可以在特定的仪表板磁贴上运行，你甚至可以在一个见解上运行见解！
@@ -40,7 +41,9 @@ ms.locfileid: "49112029"
 4. 你是否对某个见解产生了兴趣？ 选择该见解卡片以深入进行了解。 选中的见解显示在左侧，而完全根据该见解中的数据获得的新见解卡片显示在右侧。    
 
  ## <a name="interact-with-the-insight-cards"></a>与见解卡片交互
-   * 筛选可视化效果。  若要显示筛选器，请选择右上角的箭头以展开“筛选器”窗格。
+打开某个见解后，继续探索。
+
+   * 筛选画布上的视觉对象。  若要显示筛选器，请选择右上角的箭头以展开“筛选器”窗格。
 
      ![深入查看已展开的“筛选器”菜单](./media/end-user-insights/power-bi-insights-on-insights.png)
    

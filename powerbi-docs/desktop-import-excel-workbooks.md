@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 11/28/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 56f25730730a6f218f2dbaa678abdf182470f177
-ms.sourcegitcommit: 2ae660a7b70fce23eb58b159d049eca44a664f2c
+ms.openlocfilehash: eea68f0a17deff3aaa5a39558ffc2165b4c2b6f6
+ms.sourcegitcommit: cd85d88fba0d9cc3c7a4dc03d2f35d2bd096759b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/30/2018
-ms.locfileid: "52670247"
+ms.lasthandoff: 12/12/2018
+ms.locfileid: "53280343"
 ---
 # <a name="import-excel-workbooks-into-power-bi-desktop"></a>将 Excel 工作簿导入 Power BI Desktop
 通过 Power BI Desktop，可将 Excel 工作簿轻松导入带有 Power Query 查询、Power Pivot 模型和 Power View 工作表的 Power BI Desktop。 报表和可视化效果均基于 Excel 工作簿自动创建，导入后，你可以使用 Power BI Desktop 的现有功能以及其每月更新的新功能继续改善和优化报表。
@@ -42,7 +42,7 @@ ms.locfileid: "52670247"
 
 ![](media/desktop-import-excel-workbooks/importexceltopbi_3.png)
 
-选择**关闭**后，将在 Power BI Desktop 中加载该报表。 下图显示了导入 Excel 工作簿后 Power BI Desktop 的状态：Power BI Desktop 基于工作簿内容自动加载报表。
+选择**关闭**后，将在 Power BI Desktop 中加载该报表。 下图显示了导入 Excel 工作簿后的 Power BI Desktop：Power BI Desktop 根据工作簿内容自动加载了报表。
 
 ![](media/desktop-import-excel-workbooks/importexceltopbi_4.png)
 
@@ -55,7 +55,7 @@ Power BI Desktop 可导入以下元素，在 Excel 中通常称为*对象*。
 | --- | --- |
 | Power Query 查询 |Excel 中的所有 Power Query 查询都会转换为 Power BI Desktop 中的查询。 如果 Excel 工作簿中已定义查询组，那么将在 Power BI Desktop 中复制相同组织。 除非已在 Excel 中设置为“仅创建连接”的查询，否则请加载其他所有查询。 可在 Power BI Desktop **查询编辑器**的**开始**选项卡中的**属性**对话框自定义加载行为。 |
 | Power Pivot 外部数据连接 |所有 Power Pivot 外部数据连接将都转换为 Power BI Desktop 中的查询。 |
-| 链接表或当前工作簿表 |如果 Excel 中有工作表数据表链接到数据模型或链接到查询（通过使用“从表格”或 M 中的 Excel.CurrentWorkbook() 函数），将显示下列选项：1. 将表导入到 Power BI Desktop 文件。 该表格是数据的一次性快照，之后将不能编辑 Power BI Desktop 中的表数据。 使用此选项创建的表有大小限制，字数上限为 100 万个字符（总数，包括所有列标题和单元格）。 2. 保留与原始工作簿的连接。 你还可以保留与原始 Excel 工作簿的连接，Power BI Desktop 每次刷新时都会检索表中的最新内容，就像在 Power BI Desktop 中针对 Excel 工作簿创建的其他查询一样。 |
+| 链接表或当前工作簿表 |如果 Excel 中有工作表数据表链接到数据模型或链接到查询（通过使用“从表格”或 M 中的 Excel.CurrentWorkbook() 函数），将显示下列选项： <ol><li>将表导入到 Power BI Desktop 文件。 该表格是数据的一次性快照，之后将不能编辑 Power BI Desktop 中的表数据。 使用此选项创建的表有大小限制，字数上限为 100 万个字符（总数，包括所有列标题和单元格）。</li><li>保留与原始工作簿的连接。 你还可以保留与原始 Excel 工作簿的连接，Power BI Desktop 每次刷新时都会检索表中的最新内容，就像在 Power BI Desktop 中针对 Excel 工作簿创建的其他查询一样。</li></ul> |
 | 数据模型计算列、度量值、KPI、数据类别和数据关系 |这些数据模型对象将转换为 Power BI Desktop 中的等效对象。 注意：某些数据类别在 Power BI Desktop 中不可用，例如图像。 在这些情况下，将对有问题的相关列重置数据类别信息。 |
 | Power View 工作表 |为每个 Power View Excel 工作表创建新报表页。 报表的名称和报表页面顺序与原始 Excel 工作簿匹配。 |
 
@@ -65,7 +65,7 @@ Power BI Desktop 可导入以下元素，在 Excel 中通常称为*对象*。
 * **Analysis Services 表格模型的外部连接：** 在 Excel 2013 中，无需导入数据就可创建 SQL Server Analysis Services 表格模型的连接，并在这些模型之上创建 Power View 报表。 目前不支持使用这种连接类型将 Excel 工作簿导入 Power BI Desktop。 解决方法是，必须在 Power BI Desktop 中重新建立这些外部连接。
 * **层次结构：** Power BI Desktop 目前不支持这种数据模型对象类型。 因此，将 Excel 工作簿导入 Power BI Desktop 时会略过层次结构。
 * **二进制数据列：** Power BI Desktop 目前不支持这种数据模型列类型。 Power BI Desktop 生成的表中已删除二进制数据列。
-* 不支持的 Power View 元素：Power BI Desktop 目前尚未提供 Power View 中的一些功能，例如布景主题或特定可视化效果类型（具有播放轴的散点图、向下钻取行为等）。 这些不支持的可视化效果会导致在 Power BI Desktop 报表中的对应位置出现*可视化效果不受支持*的消息，你可以根据需要删除或重新配置。
-* 使用 **Power Query** 中的***从表***或使用 **M** 中的 ***Excel.CurrentWorkbook*** **：** 目前不支持将这个名称范围数据导入 Power BI Desktop，但 Power BI Desktop 已计划此更新。 目前，这些名称范围会当做外部 Excel 工作簿的连接，加载到 Power BI Desktop。
-* **SSRS 的 PowerPivot：** 由于 Power BI Desktop 目前不提供该数据源，因此目前不支持 SQL Server Reporting Services (SSRS) 的PowerPivot 外部连接。
+* **不支持的 Power View 元素：** Power BI Desktop 目前尚未提供 Power View 中的一些功能，例如布景主题或特定可视化效果类型（具有播放轴的散点图、向下钻取行为等）。 这些不支持的可视化效果会导致在 Power BI Desktop 报表中的对应位置出现*可视化效果不受支持*的消息，你可以根据需要删除或重新配置。
+* **命名范围使用 Power Query 中的*****从表*****或使用 M 中的** ***Excel.CurrentWorkbook*****：** 目前不支持将这个名称范围数据导入 Power BI Desktop，但 Power BI Desktop 已计划此更新。 目前，这些名称范围会当做外部 Excel 工作簿的连接，加载到 Power BI Desktop。
+* **PowerPivot 至 SSRS：** 由于 Power BI Desktop 目前不提供该数据源，因此目前不支持 SQL Server Reporting Services (SSRS) 的 PowerPivot 外部连接。
 

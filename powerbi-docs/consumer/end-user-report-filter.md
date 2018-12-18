@@ -1,21 +1,22 @@
 ---
-title: 添加报表筛选器
+title: 向报表添加筛选器
 description: 如何在面向使用者的 Power BI 服务中向报表添加筛选器
 author: mihart
 manager: kvivek
 ms.reviewer: ''
+ms.custom: seodec18
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 10/19/2018
+ms.date: 12/06/2018
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: 31b3584b0cbd2481db64160bcf502caf46e7acc3
-ms.sourcegitcommit: 2c4a075fe16ccac8e25f7ca0b40d404eacb49f6d
+ms.openlocfilehash: ea219071b475bf5bb9123e1aa3bbaca412507a8e
+ms.sourcegitcommit: cd85d88fba0d9cc3c7a4dc03d2f35d2bd096759b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/20/2018
-ms.locfileid: "49473798"
+ms.lasthandoff: 12/12/2018
+ms.locfileid: "53280756"
 ---
 # <a name="take-a-tour-of-the-report-filters-pane"></a>浏览报表“筛选器”窗格
 本文将介绍 Power BI 服务中的报表“筛选器”窗格。
@@ -36,7 +37,7 @@ ms.locfileid: "49473798"
 ## <a name="open-the-filters-pane"></a>打开“筛选器”窗格
 打开报表时，“筛选器”窗格显示在报表画布的右侧。 如果未看到窗格，请选择右上角的箭头以将其展开。  
 
-在此示例中，我们选择了具有 6 个筛选器的视觉对象。 报表页也有筛选器，列于“页面级筛选器”标题下。 有一个[钻取筛选器](../power-bi-report-add-filter.md)，整个报表也有筛选器：“FiscalYear”为 2013 或 2014。
+在此示例中，我们选择了具有 6 个筛选器的视觉对象。 报表页也有筛选器，列于“页面级筛选器”标题下。 有一个[钻取筛选器](../power-bi-report-add-filter.md)，整个报表也有筛选器：“会计年度”为 2013 或 2014。
 
 ![筛选器列表](media/end-user-report-filter/power-bi-filter-list.png)
 

@@ -1,21 +1,22 @@
 ---
-title: 面向 Power BI 使用者的可视化效果概述
+title: 使用可视化效果
 description: Power BI 概念和术语 - 可视化效果、视觉对象。 什么是 Power BI 可视化效果、视觉对象。
 author: mihart
 manager: kvivek
 ms.reviewer: ''
+ms.custom: seodec18
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 09/30/2018
+ms.date: 12/06/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 5a347771504dcf41796d8bd6673cab30043c416b
-ms.sourcegitcommit: dc8b8a2cf2dcc96ccb46159802ebd9342a7fa840
+ms.openlocfilehash: 5ac7f8a09b39065b4ea9cfd274c0341bf905826b
+ms.sourcegitcommit: cd85d88fba0d9cc3c7a4dc03d2f35d2bd096759b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/11/2018
-ms.locfileid: "49112213"
+ms.lasthandoff: 12/12/2018
+ms.locfileid: "53280319"
 ---
 # <a name="visualizations-for-power-bi-consumers"></a>Power BI 使用者的可视化效果
 
@@ -32,7 +33,7 @@ ms.locfileid: "49112213"
 
 
 
-|Column1  |在仪表板上  |在报表中  | 在问答中
+|列 1  |在仪表板上  |在报表中  | 在问答中
 |---------|---------|---------|--------|
 |[在可视化效果中添加注释或与同事发起一次有关可视化效果的对话](end-user-comment.md)。     |  是       |   否      |  否  |
 |[打开并浏览已创建可视化效果的报表](end-user-tiles.md)。     |    是     |   na      |  na |

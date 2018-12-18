@@ -4,25 +4,26 @@ description: 用于对 Power BI 工作区中的内容进行搜索和排序的文
 author: mihart
 manager: kvivek
 ms.reviewer: ''
+ms.custom: seodec18
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 09/25/2018
+ms.date: 12/06/2018
 ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: 3c66a428fabadaf53e2b1f7745b6de9668a9e532
-ms.sourcegitcommit: dc8b8a2cf2dcc96ccb46159802ebd9342a7fa840
+ms.openlocfilehash: 7f56cb4ec9859750c218975d25f3b8e2dd8a0469
+ms.sourcegitcommit: cd85d88fba0d9cc3c7a4dc03d2f35d2bd096759b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/11/2018
-ms.locfileid: "49112676"
+ms.lasthandoff: 12/12/2018
+ms.locfileid: "53280457"
 ---
 # <a name="navigation-searching-finding-and-sorting-content-in-power-bi-service"></a>导航：在 Power BI 服务中搜索、查找和排序内容
 可通过多种方法在 Power BI 服务中导航内容。 工作区中的内容已按类型进行组织：仪表板、报表、工作簿和数据集。  此外，内容已按使用情况进行组织：收藏夹、最近、应用、与我共享和特色。 为实现一站式导航，主页将全部内容组织在同一页面上。 通过这些不同的内容浏览途径可以在 Power BI 服务中快速找到所需的内容。  
 
 ## <a name="navigation-within-workspaces"></a>在工作区中导航
 
-Power BI *使用者*通常只有一个工作区：“我的工作区”。 仅当下载了 Microsoft 示例、创建或下载了自己的内容时，“我的工作区”中才会包含内容。  
+Power BI 使用者通常只有一个工作区：“我的工作区”。 仅当下载了 Microsoft 示例、创建或下载了自己的内容时，“我的工作区”中才会包含内容。  
 
 在我的工作区中，Power BI 服务按类型区分内容：仪表板、报表、工作簿和数据集。 选择工作区时，可以看到这种组织形式。 在此示例中，“我的工作区”包含一个仪表板、两个报表、两个数据集，不包含工作簿。
 

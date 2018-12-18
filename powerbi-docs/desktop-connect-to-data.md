@@ -30,7 +30,7 @@ Power BI Desktop.中有 *各种* 可用数据源。 下图显示了如何通过�
 
 假设你即将退休 - 你希望居住到一个阳光充足、税制合理且具备良好卫生保健的地方。 或者... 也许你是一位数据分析人员，并且你需要该信息来帮助你的客户 - 例如，帮助你的雨衣制造客户将目标市场定位在 *经常* 下雨的地方。
 
-无论如何，你都可以在下列 Web 资源中找到这些主题的相关有趣数据和详细信息：
+无论哪种需求，你都可以在下列 Web 资源中找到与这些主题相关的有趣数据和详细信息：
 
 [*http://www.bankrate.com/finance/retirement/best-places-retire-how-state-ranks.aspx*](http://www.bankrate.com/finance/retirement/best-places-retire-how-state-ranks.aspx)
 
@@ -48,7 +48,7 @@ Power BI Desktop.中有 *各种* 可用数据源。 下图显示了如何通过�
 
 ![](media/desktop-connect-to-data/designer_gsg_editquery.png)
 
-所有分数都是文本而非数字，而我们需要使用数字。 没问题 – 只需右键单击列标题，然后选择**更改类型 \> 整数**来对其进行更改。 若要选择多列，请先选择一列然后按住 **Shift**，再选择其他相邻列，然后右键单击列标题以更改所有选中的列。 使用 **Ctrl** 来选择不相邻的列。
+所有得分都是文本而非数字，而我们需要使用数字。 没问题 – 只需右键单击列标题，然后选择**更改类型 \> 整数**来对其进行更改。 若要选择多列，请先选择一列然后按住 **Shift**，再选择其他相邻列，然后右键单击列标题以更改所有选中的列。 使用 **Ctrl** 来选择不相邻的列。
 
 ![](media/desktop-connect-to-data/designer_gsg_changedatatype.png)
 

@@ -5,18 +5,19 @@ author: mihart
 manager: kvivek
 ms.reviewer: ''
 featuredvideoid: G26dr2PsEpk
+ms.custom: seodec18
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: quickstart
-ms.date: 10/18/2018
+ms.date: 12/06/2018
 ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: 1d093c9eb39b312e1883b2635de473dac6db5192
-ms.sourcegitcommit: 2c4a075fe16ccac8e25f7ca0b40d404eacb49f6d
+ms.openlocfilehash: 3b3eaa33879a1f0c6d51aecaa93cae6ce5c90d10
+ms.sourcegitcommit: cd85d88fba0d9cc3c7a4dc03d2f35d2bd096759b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/20/2018
-ms.locfileid: "49473856"
+ms.lasthandoff: 12/12/2018
+ms.locfileid: "53280802"
 ---
 # <a name="quickstart---getting-around-in-power-bi-service"></a>快速入门 - 使用 Power BI 服
 
@@ -40,7 +41,7 @@ ms.locfileid: "49473856"
 
     Power BI 服务导入示例并显示仪表板。 仪表板可以区分 Power BI 服务和 Power BI Desktop。 该示例还包含一个报表和数据库（稍后将用到）。
 
-    ![](media/end-user-experience/power-bi-dashboard.png)
+    ![仪表板显示](media/end-user-experience/power-bi-dashboard.png)
 
 请观看下面的视频，Amanda 将带你感受 Power BI 服务导航体验。  然后，按照视频下方的分步说明操作，自行进行探索。
 

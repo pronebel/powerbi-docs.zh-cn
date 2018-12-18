@@ -1,33 +1,34 @@
 ---
-title: 更改 Power BI 报表中的图表排序方式
+title: 更改报表中的图表排序方式
 description: 更改 Power BI 报表中的图表排序方式
 author: mihart
 manager: kvivek
 ms.reviewer: ''
+ms.custom: seodec18
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: Conceptual
-ms.date: 09/20/2018
+ms.date: 12/06/2018
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: f4ca6633eb401e7df8041ea385284210c14995ad
-ms.sourcegitcommit: 4f46d71ff6026c1c158f007425aefdcb501f48ee
+ms.openlocfilehash: 191dfdeba436322052befdbc6548fd08f96f0738
+ms.sourcegitcommit: cd85d88fba0d9cc3c7a4dc03d2f35d2bd096759b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/06/2018
-ms.locfileid: "52979321"
+ms.lasthandoff: 12/12/2018
+ms.locfileid: "53279997"
 ---
 # <a name="change-how-a-chart-is-sorted-in-a-power-bi-report"></a>更改 Power BI 报表中的图表排序方式
 在 Power BI 报表中，可以按图表中类别名称的字母顺序，或者每个类别的数值对大多数可视化对象排序。 例如，下图按“商店名称”类别排序。
 
-![](media/end-user-change-sort/pbi_chartsortcategory.png)
+![按 X 轴的字母顺序排序的条形图](media/end-user-change-sort/pbi_chartsortcategory.png)
 
 可以轻松地将排序依据从类别（商店名称）更改为值（每平方英尺销售额）。
 
 1. 选择省略号 (…)，然后选择“排序依据”>“每平方英尺销售额”。
 2. 如有必要，再次选择省略号，然后选择“降序排序”。
 
-   ![](media/end-user-change-sort/sort.gif)
+   ![显示选择排序依据，然后选择升序、降序的视频](media/end-user-change-sort/sort.gif)
 
    **注意**：并非所有视觉对象都可以进行排序。  例如，以下视觉对象不能进行排序：树状图、地图、着色地图、散点图、仪表、卡、多行卡、瀑布图。
 

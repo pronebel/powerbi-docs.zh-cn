@@ -1,21 +1,22 @@
 ---
-title: 为客户将报表从 Power BI 导出到 PowerPoint
+title: 将报表从 Power BI 导出到 PowerPoint
 description: 了解如何将 Power BI 报表导出到 PowerPoint。
 author: mihart
 manager: kvivek
+ms.custom: seodec18
 ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 11/13/2018
+ms.date: 12/06/2018
 ms.author: mihart
 LocalizationGroup: Share your work
-ms.openlocfilehash: a865c98a5bacd526a553354ea828e86fa0155a79
-ms.sourcegitcommit: 4f46d71ff6026c1c158f007425aefdcb501f48ee
+ms.openlocfilehash: 9f17cd76a733dff22ebf0b54eabc3d9b6c8f6839
+ms.sourcegitcommit: cd85d88fba0d9cc3c7a4dc03d2f35d2bd096759b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/06/2018
-ms.locfileid: "52979251"
+ms.lasthandoff: 12/12/2018
+ms.locfileid: "53280996"
 ---
 # <a name="export-reports-from-power-bi-to-powerpoint"></a>将报表从 Power BI 导出到 PowerPoint
 借助 Power BI，可以将报表发布到 Microsoft PowerPoint，并根据 Power BI 报表轻松地创建幻灯片平台。 **导出到 PowerPoint** 时，会发生以下情况：
@@ -29,35 +30,35 @@ ms.locfileid: "52979251"
 ## <a name="how-to-export-your-power-bi-report-to-powerpoint"></a>如何将 Power BI 报表导出到 PowerPoint
 在 Power BI 服务中，选择要在画布上显示的报表。 还可以从左侧导航窗格上的“主页”页面、“应用”或任何其他部分中选择报表。
 
-![](media/end-user-powerpoint/power-bi-publish.png)
+![从菜单栏中选择“文件”，箭头指向“导出到 PowerPoint”](media/end-user-powerpoint/power-bi-publish.png)
 
 想要导出到 PowerPoint 的报表显示在画布上时，在 Power BI 服务的菜单栏中选择“文件”>“导出到 PowerPoint”。
 
-![](media/end-user-powerpoint/powerbi_to_powerpoint_1.png)
+![关闭左侧导航栏，并选中“我的工作区”和“文件”下拉列表](media/end-user-powerpoint/powerbi_to_powerpoint_1.png)
 
 将看到 Power BI 服务浏览器窗口右上角的通知横幅，显示报表正在导入到 PowerPoint。 这可能需要几分钟的时间。在导出报表的同时，可以在 Power BI 中继续进行操作。
 
-![](media/end-user-powerpoint/powerbi_to_powerpoint_2.png)
+![“正在导出到 PowerPoint”通知](media/end-user-powerpoint/powerbi_to_powerpoint_2.png)
 
 导入完成后，通知横幅会发生变化以通知你 Power BI 服务已完成导出过程。
 
-![](media/end-user-powerpoint/powerbi_to_powerpoint_3.png)
+![将显示成功消息](media/end-user-powerpoint/powerbi_to_powerpoint_3.png)
 
 在浏览器显示下载文件的位置，文件是可用的。 在下图中，它显示为浏览器窗口底部的下载横幅。
 
-![](media/end-user-powerpoint/powerbi_to_powerpoint_4.png)
+![箭头指向屏幕底部的浏览器通知](media/end-user-powerpoint/powerbi_to_powerpoint_4.png)
 
 以上是其中包含的全部内容。 可以下载该文件，使用 PowerPoint 将其打开，然后像对任何其他 PowerPoint 系列幻灯片一样对其进行修改或增强。
 
 ## <a name="checking-out-your-exported-powerpoint-file"></a>检查已导出的 PowerPoint 文件
 打开 Power BI 导出的 PowerPoint 文件时，会发现几个很酷且很有用的元素。 看一看下图，然后查看下面描述一些很酷功能的编号元素。
 
-![](media/end-user-powerpoint/powerbi_to_powerpoint_5.png)
+![将打开 PowerPoint](media/end-user-powerpoint/powerbi_to_powerpoint_5.png)
 
 1. 幻灯片平台的第一页包括报表名称和链接，以便能**在 Power BI 中查看**幻灯片平台所基于的报表。
 2. 还可以获取有关报表的一些有用信息，包括导出的报表所基于的 *上次数据刷新时间* *下载* 时间和日期，这是 Power BI 报表导出为 PowerPoint 文件的时间和日期。
 3. 每个报表页面都是单独的幻灯片，如左侧导航窗格所示。 
-4. 已发布的报表根据 Power BI 设置或者根据你所用浏览器的区域设置以相应的语言呈现。 若要查看或设置语言首选项，请选择齿轮图标 ![](media/end-user-powerpoint/power-bi-settings-icon.png) >“设置”>“常规”>“语言”。 有关区域设置信息，请参阅 [Power BI 支持的语言和国家/地区](../supported-languages-countries-regions.md)。
+4. 已发布的报表根据 Power BI 设置或者根据你所用浏览器的区域设置以相应的语言呈现。 若要查看或设置语言首选项，请选择齿轮图标![齿轮图标](media/end-user-powerpoint/power-bi-settings-icon.png) >“设置”>“常规”>“语言”。 有关区域设置信息，请参阅 [Power BI 支持的语言和国家/地区](../supported-languages-countries-regions.md)。
 5. PowerPoint 演示文稿包括封面幻灯片，其中包含以正确的时区显示的导出时间。
 
 转到各个幻灯片时，将会发现每个报表页都是独立图像。
@@ -66,7 +67,7 @@ ms.locfileid: "52979251"
 > 为每个报表页提供单个视觉对象是新行为。 为每个视觉对象提供独立图像的旧行为将不再实现。 
  
 
-![](media/end-user-powerpoint/powerbi_to_powerpoint_6.png)
+![显示每个视觉对象的图像是单独的图像](media/end-user-powerpoint/powerbi_to_powerpoint_6.png)
 
 如何处理 PowerPoint 系列幻灯片或任何一张高分辨率图像，这取决于你自己！
 
@@ -84,7 +85,7 @@ ms.locfileid: "52979251"
 * Power BI 租户域之外的用户拥有的报表（如组织外部人员拥有且与你共享的报表）无法发布到 PowerPoint。
 * 如果与组织外部人员（即位于 Power BI 租户之外的用户）共享仪表板，此用户将无法把共享仪表板的关联报表导出到 PowerPoint。 例如，如果你是 aaron@contoso.com，虽然可以与 david@cohowinery.com 共享内容， 但 david@cohowinery.com 无法将关联报表导出到 PowerPoint。
 * 如上所述，每个报表页导出为 PowerPoint 文件中的单张图像。
-* Power BI 服务将你的 Power BI 语言设置用作 Power BI 导出的语言。 若要查看或设置语言首选项，请选择齿轮图标 ![](media/end-user-powerpoint/power-bi-settings-icon.png) >“设置”>“常规”>“语言”。
+* Power BI 服务将你的 Power BI 语言设置用作 Power BI 导出的语言。 若要查看或设置语言首选项，请选择齿轮图标![齿轮图标](media/end-user-powerpoint/power-bi-settings-icon.png) >“设置”>“常规”>“语言”。
 * 导出的 PowerPoint 文件的封面幻灯片上的下载时间被设置为导出时计算机的时区。
 
 ## <a name="next-steps"></a>后续步骤

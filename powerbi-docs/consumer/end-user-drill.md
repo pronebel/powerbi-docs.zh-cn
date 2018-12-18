@@ -1,22 +1,23 @@
 ---
-title: Power BI 可视化效果中的钻取模式
+title: 在可视化效果中向下钻取和向上钻取
 description: 本文档演示如何在 Microsoft Power BI 服务和 Power BI Desktop 中的可视化效果中向下钻取。
 author: mihart
 manager: kvivek
 ms.reviewer: ''
 featuredvideoid: MNAaHw4PxzE
+ms.custom: seodec18
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 05/26/2018
+ms.date: 12/06/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: b8d51bef94a046d7e59962b565d13ba623b5bcc4
-ms.sourcegitcommit: a739a99e1006834a0f56e387c0bd9d945fb8a76b
+ms.openlocfilehash: b24a58556c35a3213f3360b70d604a0e9b51b074
+ms.sourcegitcommit: cd85d88fba0d9cc3c7a4dc03d2f35d2bd096759b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/15/2018
-ms.locfileid: "51679470"
+ms.lasthandoff: 12/12/2018
+ms.locfileid: "53280943"
 ---
 # <a name="drill-mode-in-a-visualization-in-power-bi"></a>Power BI 可视化效果中的钻取模式
 
@@ -26,8 +27,8 @@ ms.locfileid: "51679470"
 可以向你拥有的报表添加层次结构，但不能向与你共享的报表添加层次结构。
 不确定哪个 Power BI 可视化效果包含层次结构？  将鼠标悬停在可视化效果上，如果在顶部边角看到这些钻取控件，则你的可视化效果具有层次结构。
 
-![](./media/end-user-drill/power-bi-drill-icon4.png)  ![](./media/end-user-drill/power-bi-drill-icon2.png)  ![](./media/end-user-drill/power-bi-drill-icon3.png)
-![](./media/end-user-drill/power-bi-drill-icon5.png) ![](./media/end-user-drill/power-bi-drill-icon6.png)  
+![向下钻取一个级别](./media/end-user-drill/power-bi-drill-icon4.png)  ![打开/关闭向下钻取](./media/end-user-drill/power-bi-drill-icon2.png)  ![“一次性向下钻取所有字段”图标](./media/end-user-drill/power-bi-drill-icon3.png)
+![“向上钻取”图标](./media/end-user-drill/power-bi-drill-icon5.png) ![“向下展开”图标](./media/end-user-drill/power-bi-drill-icon6.png)  
 
 日期是层次结构的唯一类型。 向可视化效果添加日期字段时，Power BI 自动添加包含年、季度、月和天的时间层次结构。 有关详细信息，请参阅[视觉对象层次结构和向下钻取行为](../guided-learning/visualizations.yml?tutorial-step=18)或观看下面的视频。
 
@@ -44,7 +45,7 @@ ms.locfileid: "51679470"
    
 2. 要跟随操作，请[打开零售分析示例](../sample-datasets.md)并创建一个树状图，其中按“区域”、“城市”、“邮政编码”和“名称”（组）显示本年度总销量（值）。  该树状图具有一个层次结构，它由区域、城市、邮政编码和城市名称所组成。 每个区域均包含一个或多个城市，而每个城市均包含一个或多个邮政编码等。 默认情况下，可视化效果仅显示区域数据，因为在列表中首先显示“区域”。
    
-   ![](media/end-user-drill/power-bi-hierarcy-list.png)
+   ![选择“区域”](media/end-user-drill/power-bi-hierarcy-list.png)
 
 2. 了解各种钻取图标如何协同工作可能很难，因此，请筛选树状图，使其仅显示其中 2 个较小的区域：KY 和 TN。 选择树状图，在“视觉对象级别筛选器”下展开“区域”，并选择“KY”和“TN”。
 
@@ -67,11 +68,11 @@ ms.locfileid: "51679470"
 
 - 在 Power BI 菜单栏上，选择“浏览”按钮。
 
-   ![](media/end-user-drill/power-bi-explore.png)
+   ![选择“浏览”后显示钻取图标和选项](media/end-user-drill/power-bi-explore.png)
 
 ## <a name="drill-pathways"></a>钻取路径
 ### <a name="drill-down"></a>向下钻取
-可通过多种方法来深入了解你的可视化效果。 ***向下钻取***可转到层次结构中的下一个级别，因此如果正在查看“区域”级别，可以依次向下钻取到城市、邮政编码和名称级别。 在这一路径中每向前一步，都会显示出新的信息。
+可通过多种方法来深入了解你的可视化效果。 向下钻取可转到层次结构中的下一个级别，因此如果正在查看“区域”级别，可以依次向下钻取到城市、邮政编码和名称级别。 在这一路径中每向前一步，都会显示出新的信息。
 
 ![钻取途径](./media/end-user-drill/power-bi-drill-path.png)
 
@@ -87,9 +88,9 @@ ms.locfileid: "51679470"
 
 1. 从显示 KY 和 TN 数据的树状图顶层开始。 选择某个句柄并向右拖动，以扩大树状图。 
 
-    ![显示 2 个州的树状图](./media/end-user-drill/power-bi-drill-down.png) 。
+    ![显示两个州的树状图](./media/end-user-drill/power-bi-drill-down.png) 。
 
-2. 要一次性向下钻取所有字段，请选择可视化效果左上角的双箭头 ![双重向下钻取图标](./media/end-user-drill/power-bi-drill-icon3.png)。 该树状图现在显示了肯塔基州和田纳西州的城市数据。 
+2. 要一次性向下钻取所有字段，请选择可视化效果左上角的双箭头![双重向下钻取图标](./media/end-user-drill/power-bi-drill-icon3.png)。 该树状图现在显示了肯塔基州和田纳西州的城市数据。 
 
     ![双重钻取图标](./media/end-user-drill/power-bi-drill-down1.png)
    
@@ -97,25 +98,25 @@ ms.locfileid: "51679470"
 
     ![双重钻取图标](./media/end-user-drill/power-bi-drill-down2.png)
 
-3. 要向上钻取，请选择可视化效果左上角的向上箭头 ![](./media/end-user-drill/power-bi-drill-icon5.png)。
+3. 要向上钻取，请选择可视化效果左上角的向上箭头 ![“向上钻取一个级别”图标](./media/end-user-drill/power-bi-drill-icon5.png)。
 
 
 ## <a name="drill-down-one-field-at-a-time"></a>逐一向下钻取字段
 此方法使用向下钻取图标，该图标显示在可视化效果本身的右上角。 
 
-1. 选择向下钻取图标，将其打开 ![已打开向下钻取](./media/end-user-drill/power-bi-drill-icon2.png)。 现在，可以逐一向下钻取字段。 
+1. 选择向下钻取图标，将其打开![已打开向下钻取](./media/end-user-drill/power-bi-drill-icon2.png)。 现在，可以逐一向下钻取字段。 
    
-   ![](media/end-user-drill/power-bi-drill-icon-new.png)
+   ![指向“打开/关闭向下钻取”图标的箭头](media/end-user-drill/power-bi-drill-icon-new.png)
 
    如果不打开钻取，则选择视觉对象元素（如条形图、气泡图或叶节点）时，不会向下钻取，而将交叉筛选报表页上的其他图表。
 
 2. 选择“TN”对应的叶节点。 树状图现在将显示田纳西州有商店的所有城市。 
 
-    ![](media/end-user-drill/power-bi-drill-down-one1.png)
+    ![树状图仅显示田纳西州的数据](media/end-user-drill/power-bi-drill-down-one1.png)
 
 2. 此时，可继续向下钻取田纳西州，或者向下钻取田纳西州的特定城市，或者改为展开（请参阅下面的“同时展开所有字段”）。 让我们继续逐一向下钻取字段。  选择“诺克斯维尔，TN”。 树状图现在将显示诺克斯维尔市商店的邮政编码。 
 
-   ![](media/end-user-drill/power-bi-drill-down-one2.png)
+   ![树状图显示 37919](media/end-user-drill/power-bi-drill-down-one2.png)
 
     请注意，标题随向下钻取和再次向上钻取而进行更改。  
 
@@ -128,7 +129,7 @@ ms.locfileid: "51679470"
 
 2. 若要查看田纳西州全部 4 级层次结构的数据，请选择向上钻取箭头，直到达到树状图的第二个级别，即“本年度总销量(按区域和城市)”。 
 
-    ![](media/end-user-drill/power-bi-drill-down-one1.png)
+    ![树状图显示田纳西州的所有数据](media/end-user-drill/power-bi-drill-down-one1.png)
 
 
 3. 请确保向下钻取仍处于打开状态 ![已打开向下钻取](./media/end-user-drill/power-bi-drill-icon2.png)，然后选择“向下展开”图标 ![“向下展开”图标](./media/end-user-drill/power-bi-drill-icon6.png)。 树状图现在将显示一些额外的详细信息：不是仅显示州和城市，现在还显示了邮政编码。 
@@ -168,7 +169,7 @@ ms.locfileid: "51679470"
 
 实际上，考虑这两种类型分层数据会很方便：
 - 日期和时间数据 - 如果具有日期/时间数据类型的数据字段，则已经具有分层数据。 Power BI 自动为任何数据字段创建一个层次结构，这些数据字段的值可以解析为[日期/时间](https://msdn.microsoft.com/library/system.datetime.aspx)结构。 仅需将一个“日期/时间”字段添加到“轴”或“组”井。
-- 分类数据 - 如果数据派生自包含子集合的集合，或者具有多行共享公用值的数据，则具有分层数据
+- 分类数据 - 如果数据派生自包含子集合的集合，或者具有多行共享公用值的数据，则具有分层数据。
 
 Power BI 使你可通过一个或所有子集扩展。 可以通向下钻取过数据以查看每个级别的单个子集，或同时查看每个级别的所有子集。 例如，可以向下钻取特定年份，或沿着层次结构查看每年的所有结果。 相反，可以用相同方式向上钻取。
 
@@ -179,11 +180,11 @@ Power BI 使你可通过一个或所有子集扩展。 可以通向下钻取过�
 
 即使轴数据字段为“月份”，它仍在“轴”井中创建“年份”。 这是因为 Power BI 为它读取的所有值提供完整的日期/时间结构。 层次结构的顶部显示年份的数据。
 
-![](media/end-user-drill/power-bi-hierarchical-axis-datetime-1.png)
+![以年份为分组依据显示数据的单个栏](media/end-user-drill/power-bi-hierarchical-axis-datetime-1.png)
 
 启用向下钻取模式后，单击图表中的条形图以转到层次结构的下一级别。 随即显示三个可用的季度数据条形图。 然后从左上角图标选择“将层次结构的下一级别全部展开”。 然后再执行一次该操作，以达到层次结构的最低级别，其中显示每月的结果。
 
-![](media/end-user-drill/power-bi-hierarchical-axis-datetime-2.png)
+![显示每个月的栏的条形图](media/end-user-drill/power-bi-hierarchical-axis-datetime-2.png)
 
 除了可视化效果，我们还可以看到每个报表呈现的数据中反映的层次结构。 下表显示从单个月份或所有月份向下钻取的报表中“显示数据”的结果。 
 
@@ -192,35 +193,35 @@ Power BI 使你可通过一个或所有子集扩展。 可以通向下钻取过�
 
 |展开模式|年份|季度|月份|日|
 | ---|:---:|:---:|:---:|---|
-|单向|![](./media/end-user-drill/power-bi-hierarchical-year.png)|![](media/end-user-drill/power-bi-hierarchical-quarter.png)|![](./media/end-user-drill/power-bi-hierarchical-one-month.png)|![](media/end-user-drill/power-bi-hierarchical-one-day.png)|
-|全部|![](./media/end-user-drill/power-bi-hierarchical-year.png)|![](media/end-user-drill/power-bi-hierarchical-quarter.png)|![](./media/end-user-drill/power-bi-hierarchical-all-month.png)|![](media/end-user-drill/power-bi-hierarchical-all-day.png)|
+|单向|![单个年份](./media/end-user-drill/power-bi-hierarchical-year.png)|![单个季度](media/end-user-drill/power-bi-hierarchical-quarter.png)|![单个月](./media/end-user-drill/power-bi-hierarchical-one-month.png)|![单天](media/end-user-drill/power-bi-hierarchical-one-day.png)|
+|全部|![所有年份](./media/end-user-drill/power-bi-hierarchical-year.png)|![所有季度](media/end-user-drill/power-bi-hierarchical-quarter.png)|![所有月份](./media/end-user-drill/power-bi-hierarchical-all-month.png)|![所有天数](media/end-user-drill/power-bi-hierarchical-all-day.png)|
 
 
 ### <a name="hierarchical-category-data"></a>分层类别数据
 从集合和子集合建模的数据是分层的。 位置数据就是一个很好的例子。 请考虑其列是“国家/地区”、“省/自治区/直辖市”、“城市”和“邮政编码”的数据源中的表。 共享相同的“国家/地区”、“省/自治区/直辖市”、“城市”的数据是分层的。
 
-在此示例中，请按照[零售分析示例](../sample-datasets.md)操作。 创建堆积柱形图可视化效果，按“区域”、“城市”、“邮政编码”和“名称”（组）显示“本年度单位总数”（值）。  
+在此示例中，请按照[零售分析示例](../sample-datasets.md)操作。 创建堆积柱形图可视化效果，按“区域”、“城市”、“邮政编码”和“名称”（组）显示“本年度总销量”（值）。  
 
-![](media/end-user-drill/power-bi-hierarchical-axis-category-1.png)
+![按区域显示“本年度总销量”的条形图](media/end-user-drill/power-bi-hierarchical-axis-category-1.png)
 
 启用向下钻取模式后，从左上角图标选择三次“将层次结构的下一级别全部展开”。
 你应该处于层次结构的最低级别，该级别显示“区域”、“城市”、“邮政编码”的结果。
 
-![](media/end-user-drill/power-bi-hierarchical-axis-category-2.png)
+![显示层次结构的最低级别且最详细的条形图](media/end-user-drill/power-bi-hierarchical-axis-category-2.png)
 
 除了可视化效果，我们还可以看到每个报表呈现的数据中反映的层次结构。 下表显示向下钻取单个区域或所有区域的报告中“显示数据”的结果。 向下钻取时，你就会明白单个报表如何变得更为具体，“所有区域”如何包含更多数据。
 
 
 | 展开模式|区域|市/县|邮政|名称|
 | ---|:---:|:---:|:---:|---|
-|单向|![](./media/end-user-drill/power-bi-hierarchical-territory.png)|![](media/end-user-drill/power-bi-hierarchical-one-territory-city.png)|![](./media/end-user-drill/power-bi-hierarchical-one-territory-city-postal.png)|![](media/end-user-drill/power-bi-hierarchical-one-territory-city-postal-name.png)|
-|全部|![](./media/end-user-drill/power-bi-hierarchical-territory.png)|![](media/end-user-drill/power-bi-hierarchical-all-territory-city.png)|![](./media/end-user-drill/power-bi-hierarchical-all-territory-city-postal.png)|![](media/end-user-drill/power-bi-hierarchical-all-territory-city-postal-name.png)|
+|单向|![单个区域](./media/end-user-drill/power-bi-hierarchical-territory.png)|![单个城市](media/end-user-drill/power-bi-hierarchical-one-territory-city.png)|![单个邮政编码](./media/end-user-drill/power-bi-hierarchical-one-territory-city-postal.png)|![单个名称](media/end-user-drill/power-bi-hierarchical-one-territory-city-postal-name.png)|
+|全部|![所有区域](./media/end-user-drill/power-bi-hierarchical-territory.png)|![所有城市](media/end-user-drill/power-bi-hierarchical-all-territory-city.png)|![所有邮政编码](./media/end-user-drill/power-bi-hierarchical-all-territory-city-postal.png)|![所有名称](media/end-user-drill/power-bi-hierarchical-all-territory-city-postal-name.png)|
 
 
 ## <a name="considerations-and-limitations"></a>注意事项和限制
 * 如果向可视化效果添加日期字段不会创建层次结构，则可能是因为“日期”字段实际上并未另存为日期。 如果拥有数据集，则在 Power BI Desktop 中的“数据”视图下打开，选择包含日期的列，然后在“建模”选项卡中将“数据类型”更改为“日期”或“日期/时间”。 如果已与你共享该报表，则与所有者联系以请求更改。  
   
-  ![](media/end-user-drill/power-bi-change-data-type2.png)
+  ![选择数据视图，然后右上方显示“数据类型”](media/end-user-drill/power-bi-change-data-type2.png)
 
 ## <a name="next-steps"></a>后续步骤
 [Power BI 报表中的可视化效果](../visuals/power-bi-report-visualizations.md)

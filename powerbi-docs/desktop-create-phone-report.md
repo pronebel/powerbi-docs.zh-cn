@@ -1,30 +1,30 @@
 ---
-title: 创建针对 Power BI 手机应用的优化报表
-description: 了解如何通过创建专用于手机的报表版本来优化 Power BI 手机应用的报表页。
+title: 生成更适合移动应用的报表
+description: 了解如何通过创建专用于手机和平板电脑的纵向报表版本来优化 Power BI 移动应用的报表页。
 author: maggiesMSFT
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 09/14/2018
+ms.date: 12/10/2018
 ms.author: maggies
 LocalizationGroup: Create reports
-ms.openlocfilehash: 22f4d6bf3c715c390c9760593ba5afdc72ce3bf7
-ms.sourcegitcommit: 698b788720282b67d3e22ae5de572b54056f1b6c
+ms.openlocfilehash: 64d3faf9fd720d1e50fa69b5ccd914e6b3ac1294
+ms.sourcegitcommit: cd85d88fba0d9cc3c7a4dc03d2f35d2bd096759b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/17/2018
-ms.locfileid: "45973945"
+ms.lasthandoff: 12/12/2018
+ms.locfileid: "53280894"
 ---
-# <a name="create-reports-optimized-for-the-power-bi-phone-apps"></a>创建针对 Power BI 手机应用的优化报表
-通过创建专用于手机的报表版本，可以改善在手机的移动应用中查看报表的体验。 在 Power BI Desktop 和 Power BI 服务中，通过重新排列和调整视觉对象（或许不包括所有视觉对象）可以为手机调整报表，以便获得最佳体验。 此外，还可以创建[响应式视觉对象](#optimize-a-visual-for-any-size)和[响应式切片器](#enhance-slicers-to-to-work-well-in-phone-reports)，它们可以流畅地重设大小，以供在手机上显示。 另外，如果向报表添加筛选器，这些筛选器会自动显示在手机报表中。 报表阅读者可以查看它们，并使用这些筛选器筛选报表。
+# <a name="create-reports-optimized-for-the-power-bi-mobile-apps"></a>创建针对 Power BI 移动应用的优化报表
+可以改善在手机或平板电脑的移动应用中查看报表的体验。 创建报表的纵向布局，以专用于手机和平板电脑。 在 Power BI Desktop 和 Power BI 服务中，通过重新排列和调整纵向布局中的视觉对象来调整报表，以便获得最佳体验。 无需包括所有视觉对象。 此外，还可以创建[响应式视觉对象](#optimize-a-visual-for-any-size)和[响应式切片器](#enhance-slicers-to-to-work-well-in-phone-reports)，它们可以流畅地重设大小，以供在手机上显示。 另外，如果向报表添加筛选器，这些筛选器会自动显示在优化的报表中。 报表阅读者可以查看它们，并使用这些筛选器筛选报表。
 
 ![更适合在手机上显示的报表](media/desktop-create-phone-report/desktop-create-phone-report-1.png)
 
-## <a name="lay-out-a-report-page-for-the-phone"></a>为手机设计报表页布局
+## <a name="lay-out-a-portrait-version-of-a-report-page"></a>设计报表页的纵向版本
 
-创建报表后，可以针对手机对其进行优化。
+创建报表后，可以针对手机和平板电脑对其进行优化。
 
 1. 在 Power BI Desktop 中的报表视图的“视图”选项卡上，选择“手机布局”。  
    
@@ -32,7 +32,7 @@ ms.locfileid: "45973945"
    
     在 Power BI 服务中，选择“编辑报表” > “移动布局”。
 
-    你会看到空白手机画布。 原始报表页上的所有视觉对象将列在右侧的“可视化效果”窗格中。
+    可以看到一个形状类似手机的空白画布。 原始报表页上的所有视觉对象将列在右侧的“可视化效果”窗格中。
 
 3. 要将视觉对象添加到手机布局中，请将它从“可视化效果”窗格拖动到手机画布中。
    
@@ -49,9 +49,9 @@ ms.locfileid: "45973945"
    ![重设视觉对象大小](media/desktop-create-phone-report/desktop-create-phone-report-5.gif)
 
 ## <a name="optimize-a-visual-for-any-size"></a>将视觉对象优化为适应任意大小
-可以将仪表板或报表中的视觉对象设置为响应式，即动态缩放，尽可能显示最多的数据和见解，无论屏幕大小如何。 
+可以将仪表板或报表中的视觉对象设置为“响应式”。 它们可大幅度更改以显示最大数量的数据和见解的视觉对象，与屏幕大小无关。 
 
-在视觉对象缩放时，Power BI 会优先确保显示数据视图。例如，自动删除填充，并将图例移至视觉对象顶部，这样即便视觉对象变小，也仍可提供信息。
+在视觉对象缩放时，Power BI 会优先确保显示数据视图。 例如，它可以自动删除填充，并将图例移至视觉对象顶部，这样即便视觉对象变小，也仍可提供信息。
 
 ![响应式视觉对象重设大小](media/desktop-create-phone-report/desktop-create-phone-report-6.gif)
 
@@ -89,7 +89,7 @@ ms.locfileid: "45973945"
   
     阅读有关 [Power BI 中的共享和权限](service-how-to-collaborate-distribute-dashboards-reports.md) 的详细信息。
 
-## <a name="view-optimized-and-unoptimized-reports-on-a-phone"></a>在手机上查看优化和未优化的报表
+## <a name="view-optimized-and-unoptimized-reports-on-a-phone-or-tablet"></a>在手机或平板电脑上查看优化和未优化的报表
 在手机上的移动应用中，Power BI 将自动检测优化和未优化手机报表。 如果存在优化的手机报表，Power BI 手机应用将自动在手机报表模式下打开报表。
 
 如果没有更适合在手机上显示的报表，报表会以未优化的横向视图打开。  
@@ -100,7 +100,7 @@ ms.locfileid: "45973945"
 
 ![手机页未优化](media/desktop-create-phone-report/desktop-create-phone-report-9.png)
 
-报表读取器可使手机转向一侧，以查看横向模式页。 详细了解如何[与更适合在手机上显示的 Power BI 报表进行交互](consumer/mobile/mobile-apps-view-phone-report.md)。
+报表读取器可使手机或平板电脑转向一侧，以查看横向模式页。 详细了解如何[与更适合纵向模式显示的 Power BI 报表进行交互](consumer/mobile/mobile-apps-view-phone-report.md)。
 
 ## <a name="next-steps"></a>后续步骤
 * [在 Power BI 中创建仪表板电话视图](service-create-dashboard-mobile-phone-view.md)

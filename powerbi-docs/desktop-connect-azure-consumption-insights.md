@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 12/06/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 622a236ba2a240202a570a07e7b6abb201da9dde
-ms.sourcegitcommit: 72c9d9ec26e17e94fccb9c5a24301028cebcdeb5
+ms.openlocfilehash: 706fe9f3014ef14ff34100ff336fbf04b44e709c
+ms.sourcegitcommit: cd85d88fba0d9cc3c7a4dc03d2f35d2bd096759b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/07/2018
-ms.locfileid: "53026768"
+ms.lasthandoff: 12/12/2018
+ms.locfileid: "53280954"
 ---
 # <a name="connect-to-azure-consumption-insights-in-power-bi-desktop-beta"></a>在 Power BI Desktop (Beta) 中连接到 Azure 使用情况见解
 借助 Azure 使用情况见解连接器，可以使用 Power BI Desktop 连接到 Azure，并获取有关组织 Azure 服务使用情况更详细的数据和信息。 还可以创建度量值、自定义列和视觉对象来报告和共享组织的 Azure 使用情况。 此版本的 Azure 使用情况和见解连接器处于测试阶段，随时可能更改。
@@ -70,7 +70,7 @@ ms.locfileid: "53026768"
 > 
 > 
 
-选择“加载”时，数据将加载到 Power BI Desktop。
+选择“加载”时，数据将加载到 Power BI Desktop。  连接器将根据表的默认时间段加载数据。  如果需要自定义时间段，[可以设置自定义查询](https://docs.microsoft.com/en-us/power-bi/desktop-connect-azure-consumption-insights#using-azure-consumption-insights)。
 
 ![](media/desktop-connect-azure-consumption-insights/azure-consumption-insights_05.png)
 

@@ -1,24 +1,25 @@
 ---
-title: Power BI 通知中心
+title: 在通知中心查看消息
 description: 通知中心是与 Power BI 体验相关的依序信息提要。
 author: mihart
 manager: kvivek
 ms.reviewer: ''
 featuredvideoid: bZMSv5KAlcE
+ms.custom: seodec18
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 03/02/2018
+ms.date: 12/06/2018
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: e8b380194bf0e0214b791149d059a138f1bd337e
-ms.sourcegitcommit: 70192daf070ede3382ac13f6001e0c8b5fb8d934
+ms.openlocfilehash: 47329053fa774634f4af44c2bed549222d68a4a0
+ms.sourcegitcommit: cd85d88fba0d9cc3c7a4dc03d2f35d2bd096759b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/22/2018
-ms.locfileid: "46565719"
+ms.lasthandoff: 12/12/2018
+ms.locfileid: "53280043"
 ---
-# <a name="power-bi-notifications"></a>Power BI 通知
+# <a name="view-power-bi-notifications"></a>查看 Power BI 通知
 通知中心是与 Power BI 体验相关的依序信息提要。 打开通知中心，将能看到与你共享的新仪表板、组空间变动、Power BI 事件和会议相关消息、设置的警告等。 可以[在 Power BI 服务中设置警报](../service-set-data-alerts.md)，也可以在 Power BI 移动应用中进行设置。
 
 观看 Amanda 是如何查看、管理和响应她收到的通知的。 然后按照视频下的说明来亲自尝试。

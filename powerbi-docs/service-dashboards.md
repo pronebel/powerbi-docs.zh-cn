@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 11/21/2018
+ms.date: 12/10/2018
 ms.author: maggies
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 709518924fbb9d83201eb5c070b7a3e93838ec79
-ms.sourcegitcommit: 35d763dfc75c229204d36fd8b35c1e860786b707
+ms.openlocfilehash: 7a1187373304387ac511053d241e5cfb31f7fcd9
+ms.sourcegitcommit: cd85d88fba0d9cc3c7a4dc03d2f35d2bd096759b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/27/2018
-ms.locfileid: "52331933"
+ms.lasthandoff: 12/12/2018
+ms.locfileid: "53280572"
 ---
 # <a name="intro-to-dashboards-for-power-bi-designers"></a>Power BI 设计器的仪表板简介
 
@@ -48,15 +48,15 @@ Power BI“仪表板”是通过可视化效果讲述故事的单个页面，常
 | --- | --- | --- |
 | 页面 |一个页面 |一个或多个页面 |
 | 数据源 |每个仪表板的一个或多个报表和一个或多个数据集 |每个报表的单个数据集 |
-| 可用于 Power BI Desktop |否 |是，创建者可在 Desktop 中生成和查看报表 |
+| 可用于 Power BI Desktop |否 | 可在 Power BI Desktop 中生成和查看报表 |
 | 订阅 |可订阅仪表板 |可以订阅报表页面 |
 | 筛选 |无法筛选或切片 |许多不同的方式来筛选、突出显示和切片 |
 | 特色 |可以将一个仪表板设置为“精选”仪表板 |无法创建精选报表 |
 | 收藏夹 | 可将仪表板设置为“收藏夹” | 可将报表设置为“收藏夹”
 | 设置警报 |可在某些情况下用于仪表板磁贴 |从报表不可用 |
-| 自然语言查询 |从仪表板可用 |从报表不可用 |
+| 自然语言查询（“问答”） |在仪表板中可用 | 在报表中可用 |
 | 可以看到基础数据集表和字段 |不行。 可以导出数据，但看不到仪表板本身的表和字段。 |是的。 可以查看数据集表和字段以及值。 |
-| 自定义 |否 |在“阅读”视图中，你可以发布、嵌入、筛选、导出、下载为 .pbix，查看相关内容，生成 QR 码，在 Excel 中进行分析等。  |
+
 
 ## <a name="next-steps"></a>后续步骤
 * 通过参观我们的[示例仪表板](sample-tutorial-connect-to-the-samples.md)之一，轻松了解仪表板的使用。

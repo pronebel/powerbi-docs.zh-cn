@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 12/05/2018
+ms.date: 12/10/2018
 ms.author: maggies
 LocalizationGroup: Reports
-ms.openlocfilehash: 3d4bcff012a8abb53d82dea2a8514d654056736a
-ms.sourcegitcommit: 72c9d9ec26e17e94fccb9c5a24301028cebcdeb5
+ms.openlocfilehash: fb25ae7408ddb19d7e8bc9c91c0e1b0f65d2bf42
+ms.sourcegitcommit: cd85d88fba0d9cc3c7a4dc03d2f35d2bd096759b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/07/2018
-ms.locfileid: "53026238"
+ms.lasthandoff: 12/12/2018
+ms.locfileid: "53280618"
 ---
 # <a name="the-new-filter-experience-in-power-bi-reports-preview"></a>Power BI 报表中的新筛选器体验（预览）
 
@@ -34,11 +34,11 @@ ms.locfileid: "53026238"
 
 ## <a name="turn-on-the-new-filter-experience"></a>打开新筛选器体验 
 
-在 Power BI Desktop 中启用新体验。 然后，可在此处或在 Power BI 服务 (https://app.powerbi.com)) 中修改筛选器。 因为这一新筛选器体验为预览功能，所以必须先在 Power BI Desktop 启用该功能。 
+在 Power BI Desktop 中启用新体验。 然后，可在此处或在 Power BI 服务 (https://app.powerbi.com)) 中修改筛选器。 因为这一新筛选器体验为预览功能，所以必须先在 Power BI Desktop 启用该功能。 如果先在 Power BI 服务中创建报表，则不会有新筛选器。
 
 ### <a name="turn-on-new-filters-for-all-new-reports"></a>打开所有新报表的新筛选器
 
-1. 选择“文件” > “选项和设置” > “选项” > “预览功能”，然后选择“新筛选器体验”复选框。 
+1. 在 Power BI Desktop 中，选择“文件” > “选项和设置” > “选项” > “预览功能”，然后选中“新筛选器体验”复选框。 
 2. 重新启动 Power BI Desktop 以查看所有新报表中的新筛选器体验。
 
 重新启动 Power BI Desktop 后，默认情况下为你创建的所有新报表启用它。  
@@ -47,7 +47,7 @@ ms.locfileid: "53026238"
 
 也可以启用现有报表的新筛选器。
 
-1. 在现有报表中，选择“文件” > “选项和设置” > “选项”
+1. 在 Power BI Desktop 的现有报表中，选择“文件” > “选项和设置” > “选项”
 2. 在“报表设置”下，选择“启用更新后的筛选器窗格，并在视觉对象标头中显示此报表的筛选器”。
 
 ## <a name="build-the-new-filter-pane"></a>生成新筛选器窗格

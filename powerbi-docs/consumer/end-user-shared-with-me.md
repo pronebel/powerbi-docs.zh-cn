@@ -1,22 +1,23 @@
 ---
-title: 显示已与我共享的 Power BI 内容
+title: 显示已与我共享的仪表板和报表
 description: 在 Power BI 中与我共享的文档
 author: mihart
 manager: kvivek
 ms.reviewer: ''
 featuredvideoid: G26dr2PsEpk
+ms.custom: seodec18
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 09/28/2018
+ms.date: 12/06/2018
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: e06f0157476207bfe50abba01bd31d7605236a95
-ms.sourcegitcommit: dc8b8a2cf2dcc96ccb46159802ebd9342a7fa840
+ms.openlocfilehash: d1147f02e357984ce7dc7660898317b9071b3a86
+ms.sourcegitcommit: cd85d88fba0d9cc3c7a4dc03d2f35d2bd096759b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/11/2018
-ms.locfileid: "49112167"
+ms.lasthandoff: 12/12/2018
+ms.locfileid: "53280687"
 ---
 # <a name="display-the-dashboards-and-reports-that-have-been-shared-with-me"></a>显示已与我共享的仪表板和报表
 ## <a name="shared-with-me"></a>与我共享

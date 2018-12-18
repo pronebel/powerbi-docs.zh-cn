@@ -9,12 +9,12 @@ ms.component: powerbi-mobile
 ms.topic: conceptual
 ms.date: 11/08/2018
 ms.author: maggies
-ms.openlocfilehash: 37995f52882d1a5062b8aa03fb7b0480063a4f77
-ms.sourcegitcommit: 4f46d71ff6026c1c158f007425aefdcb501f48ee
+ms.openlocfilehash: f272d0e40de5c65de9134c3d184195889233496b
+ms.sourcegitcommit: cd85d88fba0d9cc3c7a4dc03d2f35d2bd096759b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/06/2018
-ms.locfileid: "52979529"
+ms.lasthandoff: 12/12/2018
+ms.locfileid: "53280917"
 ---
 # <a name="whats-new-in-the-mobile-apps-for-power-bi"></a>Power BI 移动应用中的新功能
 有关相关的“新增功能”的信息，请参阅：
@@ -22,6 +22,36 @@ ms.locfileid: "52979529"
 * [适用于移动应用的 Power BI 工作组日志](https://powerbi.microsoft.com/blog/tag/mobile/)
 * [Power BI Desktop 中的新增功能](../../desktop-latest-update.md)  
 * [Power BI 服务中的最近更新](../../service-whats-new.md)  
+
+## <a name="november-2018"></a>2018 年 11 月
+
+### <a name="modern-visual-header"></a>新式视觉对象标头 
+
+使用全新“新式视觉对象标头”的报表将不再分配标头空间，这样空白空间就会减少，以腾出更多空间来展示可视化效果。
+
+### <a name="enhance-presentation-mode-windows"></a>增强演示模式 (Windows)
+
+适用于 Surface Hub 和 Windows 10 设备的增强演示模式。  用户可畅享增强 Surface Hub 会议室体验，包括使用改进后的演示和协作工具，以及无边框的大屏幕优化视图。这样一来，用户便能重点关注数据。 演示模式还提供诸如墨迹书写的工具，可帮助你有效地显示并讨论数据。 可在[此处](https://powerbi.microsoft.com/en-us/blog/presentation-mode-in-power-bi-windows-app/)阅读有关演示模式的详细信息。
+
+### <a name="portrait-report-layout-in-tablets-ios-and-android"></a>平板电脑（iOS 和 Android）中的纵向报表布局
+
+我们现在使用手机报表布局（若有）在平板电脑上以纵向模式显示报表。 阅读有关[如何在 Power BI 服务或 Power BI Desktop 中创建手机布局](https://docs.microsoft.com/en-us/power-bi/desktop-create-phone-report/)的详细信息。
+
+### <a name="supporting-report-query-string"></a>支持报表查询字符串 
+
+打开包含查询字符串的报表链接现在将在移动应用中打开，并根据查询字符串中定义的条件进行预筛选。 了解有关[如何使用查询字符串创建报表 URL](https://docs.microsoft.com/en-us/power-bi/service-url-filters/) 的详细信息。  
+
+### <a name="shared-credentials-now-in-android"></a>共享凭据（现在为 Android）
+
+从移动应用登录到 Power BI 从未如此简单。 借助共享凭据，我们通过在设备上使用其他 Office 365 应用凭据在 Power BI 服务中对用户进行身份验证，简化了登录过程。
+
+### <a name="in-app-urls-now-in-android"></a>应用内 URL（现在为 Android） 
+
+报表中指向其他 Power BI 项目的链接现在可直接在应用内打开。 这样，用户就能够生成自定义导航流，例如，从报表链接到仪表板内。
+
+### <a name="show-data-and-copy-values"></a>显示数据和复制值
+
+报表视觉对象操作菜单 (...) 现在包含以表格形式显示基础数据的选项。 一旦在表中，即可长时间点击以选择并复制该表中的值（假定没有 Intune 策略限制复制）。
 
 ## <a name="october-2018"></a>2018 年 10 月
 

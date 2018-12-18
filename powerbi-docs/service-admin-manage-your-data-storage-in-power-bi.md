@@ -1,31 +1,33 @@
 ---
-title: 管理数据存储
-description: 了解如何管理个人数据存储或应用工作区，以确保可以继续发布报表和数据集。
+title: 管理工作区中的数据存储
+description: 了解如何管理个人或应用工作区中的数据存储，以确保可以继续发布报表和数据集。
 author: maggiesMSFT
 manager: kfile
 ms.reviewer: ''
+ms.custom: seodec18
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 06/28/2017
+ms.date: 12/06/2018
 ms.author: maggies
 LocalizationGroup: Administration
-ms.openlocfilehash: 864d50d8850a8ceed964f128cea71b0daf5d8322
-ms.sourcegitcommit: ac63e6a082ca8397909217837e8d98c9389b23ac
+ms.openlocfilehash: 239cc7e0574c9c6a4d76cdff83e14cf6af742689
+ms.sourcegitcommit: f25464d5cae46691130eb7b02c33f42404011357
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/01/2018
-ms.locfileid: "50736863"
+ms.lasthandoff: 12/10/2018
+ms.locfileid: "53180452"
 ---
-# <a name="manage-your-data-storage"></a>管理数据存储
-了解如何管理个人数据存储或应用工作区，以确保可以继续发布报表和数据集。
+# <a name="manage-data-storage-in-power-bi-workspaces"></a>管理 Power BI 工作区中的数据存储
 
-用户和应用工作区有自己的数据容量
+了解如何管理个人或应用工作区中的数据存储，以确保可以继续发布报表和数据集。
 
-* 所有用户的数据存储上限均为 10GB。
-* 拥有 Power BI Pro 许可证的用户可以创建应用工作区，每个工作区的数据存储上限为 10GB。
+用户和应用工作区有自己的数据容量：
 
-在租户一级，跨租户中的所有 Pro 用户和应用工作区，每个 Pro 用户的总使用量不得超过 10GB。
+* 所有用户的数据存储上限均为 10 GB。
+* 拥有 Power BI Pro 许可证的用户可以创建应用工作区，每个工作区的数据存储上限为 10 GB。
+
+在租户一级，跨租户中的所有 Pro 版用户和应用工作区，每个 Pro 版用户的总使用量不能超过 10GB。
 
 了解有关 [Power BI 定价模型](https://powerbi.microsoft.com/pricing)的其他功能。
 
@@ -44,36 +46,36 @@ ms.locfileid: "50736863"
 
 1. 若要管理你自己的存储，请转到左侧导航窗格中的“我的工作区”。
    
-    ![](media/service-admin-manage-your-data-storage-in-power-bi/pbi_myworkspace.png)
-2. 依次选择右上角的齿轮图标 ![](media/service-admin-manage-your-data-storage-in-power-bi/pbi_gearicon.png) \>“管理个人存储”。
+    ![我的工作区](media/service-admin-manage-your-data-storage-in-power-bi/pbi_myworkspace.png)
+2. 依次选择右上角的齿轮图标![齿轮图标](media/service-admin-manage-your-data-storage-in-power-bi/pbi_gearicon.png) \>“管理个人存储”。
    
     顶部栏会显示你已使用的存储限制量。
    
-    ![](media/service-admin-manage-your-data-storage-in-power-bi/pbi_persnlstorage.png)
+    ![管理存储空间上限](media/service-admin-manage-your-data-storage-in-power-bi/pbi_persnlstorage.png)
    
     数据集和报表会分为两个选项卡：
    
     **由我所有：** 这些是你已上载到 Power BI 帐户的报表和数据集，包括服务数据集（如 Salesforce 和 Dynamics CRM）。  
     **由他人所有：** 其他人与你共享了这些报表和数据集。
-3. 若要删除数据集或报表，请选择垃圾桶图标 ![](media/service-admin-manage-your-data-storage-in-power-bi/pbi_deleteicon.png)。
+3. 若要删除数据集或报表，请选择垃圾桶图标 ![垃圾桶图标](media/service-admin-manage-your-data-storage-in-power-bi/pbi_deleteicon.png)。
 
 请记住，你或其他人可能会具有基于某个数据集的报表和仪表板。 如果删除该数据集，则这些报表和仪表板将无法再正常工作。
 
 ## <a name="manage-your-app-workspace"></a>管理应用工作区
 1. 依次选择“工作区”旁边的箭头 \> 应用工作区的名称。
    
-    ![](media/service-admin-manage-your-data-storage-in-power-bi/pbi_groupworkspaces.png)
-2. 依次选择右上角的齿轮图标 ![](media/service-admin-manage-your-data-storage-in-power-bi/pbi_gearicon.png) \>“管理组存储”。
+    ![选择应用工作区](media/service-admin-manage-your-data-storage-in-power-bi/pbi_groupworkspaces.png)
+2. 依次选择右上角的齿轮图标![齿轮图标](media/service-admin-manage-your-data-storage-in-power-bi/pbi_gearicon.png) \>“管理组存储”。
    
     顶部栏会显示已使用的组存储限制量。
    
-    ![](media/service-admin-manage-your-data-storage-in-power-bi/pbi_groupstorage.png)
+    ![管理应用工作区存储](media/service-admin-manage-your-data-storage-in-power-bi/pbi_groupstorage.png)
    
     数据集和报表会分为两个选项卡：
    
     **由我们所有：** 这些是你或其他人已上传到组的 Power BI 帐户的报表和数据集，包括服务数据集（如 Salesforce 和 Dynamics CRM）。
-    **由他人所有：** 其他人与你的组共享了这些报表和数据集。
-3. 若要删除数据集或报表，请选择垃圾桶图标 ![](media/service-admin-manage-your-data-storage-in-power-bi/pbi_deleteicon.png)。
+    **由他人所有：** 其他人与你共享了组内的这些报表和数据集。
+3. 若要删除数据集或报表，请选择垃圾桶图标 ![垃圾桶图标](media/service-admin-manage-your-data-storage-in-power-bi/pbi_deleteicon.png)。
    
    > [!NOTE]
    > 应用工作区中拥有编辑权限的任何成员都有权从应用工作区中删除数据集和报表。
@@ -88,17 +90,17 @@ ms.locfileid: "50736863"
 ## <a name="what-happens-when-you-hit-a-limit"></a>达到限制时会发生什么情况
 达到可以执行对其执行操作的数据容量限制时，你会在服务中看到提示。 
 
-选择齿轮图标 ![](media/service-admin-manage-your-data-storage-in-power-bi/pbi_gearicon.png) 时，你会看到一个红色条，指示你已超过数据容量限制。
+如果选择齿轮图标 ![齿轮图标](media/service-admin-manage-your-data-storage-in-power-bi/pbi_gearicon.png)你会看到一个红色条，指示你已超过数据容量限制。
 
-![](media/service-admin-manage-your-data-storage-in-power-bi/manage-storage-limit.png)
+![超过存储空间上限]](media/service-admin-manage-your-data-storage-in-power-bi/manage-storage-limit.png)
 
 你还会在**管理个人存储**中看到指示这一点。
 
- ![](media/service-admin-manage-your-data-storage-in-power-bi/manage-storage-limit2.png)
+ ![管理个人存储，超过存储空间上限](media/service-admin-manage-your-data-storage-in-power-bi/manage-storage-limit2.png)
 
  尝试执行的操作达到某个限制时，你会看到一个提示，指示你超过该限制。 将能够[管理](#manage)存储来减少存储量，从而符合限制要求。
 
- ![](media/service-admin-manage-your-data-storage-in-power-bi/powerbi-pro-over-limit.png)
+ ![超出存储空间上限](media/service-admin-manage-your-data-storage-in-power-bi/powerbi-pro-over-limit.png)
 
  更多问题？ [尝试咨询 Power BI 社区](http://community.powerbi.com/)
 

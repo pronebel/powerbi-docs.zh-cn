@@ -8,15 +8,15 @@ featuredvideoid: 0tUwn8DHo3s
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 08/02/2018
+ms.date: 12/10/2018
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 8644bc01aa845ff91950169f011cb70fb161ecb1
-ms.sourcegitcommit: 833cf1252807721fb1b3000487bd032bfd6c8c98
+ms.openlocfilehash: abddbf3e4ae0b51dbb46f949e6d4f287d084f873
+ms.sourcegitcommit: cd85d88fba0d9cc3c7a4dc03d2f35d2bd096759b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "48271754"
+ms.lasthandoff: 12/12/2018
+ms.locfileid: "53280962"
 ---
 # <a name="share-your-power-bi-dashboards-and-reports-with-coworkers-and-others"></a>与同事和其他人共享 Power BI 仪表板和报表
 共享是一种使多人能够访问你的仪表板和报表的有效方式。 Power BI 还提供了[其他多种开展协作和分发仪表板及报表的方式](service-how-to-collaborate-distribute-dashboards-reports.md)。
@@ -30,7 +30,7 @@ ms.locfileid: "48271754"
 你也可以[在任何 Power BI 移动应用中共享仪表板](consumer/mobile/mobile-share-dashboard-from-the-mobile-apps.md)。 可以从 Power BI 服务和 Power BI 移动应用（而非 Power BI Desktop）共享仪表板。
 
 ## <a name="video-share-a-dashboard"></a>视频：共享仪表板
-观看 Amanda 在她的公司内部和外部与同事共享她的仪表板。 然后按照视频下面的分步说明来自己尝试一下。
+观看 Amanda 在她的公司内部和外部与同事共享她的仪表板。 然后可以按照视频下面的分步说明来自己尝试。
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/0tUwn8DHo3s?list=PL1N57mwBHtN0JFoKSR0n-tBkUJHeMP2cP" frameborder="0" allowfullscreen></iframe>
 
@@ -111,7 +111,7 @@ ms.locfileid: "48271754"
 
 * 通常，你和同事将在仪表板或报表中会看到相同的数据。 因此，如果你有权限比他们查看更多的数据，他们将能够在仪表板或报表中看到你的所有数据。 但是，如果[行级别安全性 (RLS)](service-admin-rls.md) 应用于仪表板或报表下面的数据集，则每个人的凭据将用于确定他们可以访问哪些数据。
 * 与之共享的每个人都可以查看仪表板，并在[阅读视图](consumer/end-user-reading-view.md)中与相关报表交互。 他们不能创建报表或将更改保存到现有报表。
-* 没有人可以查看或下载数据集。
+* 任何人都不可以查看或下载数据集，但他们可以使用“在 Excel 中分析”功能来直接访问数据集。 管理员可以通过限制组内每个人的能力来限制人们使用“在 Excel 中分析”的能力。 但此限制适用于组内的每个人和该组所隶属的每个工作区。
 * 每个人都可以手动[刷新数据](refresh-data.md)。
 * 如果使用 Office 365 收发电子邮件，可以通过输入与通讯组关联的电子邮件地址，与通讯组成员进行共享。
 * 电子邮件域与你相同的同事，以及域不同但在相同租户中注册的同事可以与他人共享仪表板。 例如，假设域 contoso.com 和 contoso2.com 是在同一租户中注册的。 如果你的电子邮件地址为 konrads@contoso.com，则 ravali@contoso.com 和 gustav@contoso2.com 均可以共享（只要你向它们授予了共享权限）。
@@ -155,5 +155,5 @@ ms.locfileid: "48271754"
 * 想提供反馈？ 请转到 [Power BI 社区站点](https://community.powerbi.com/)提出你的建议。
 * [应如何针对仪表板及报表开展协作并进行共享？](service-how-to-collaborate-distribute-dashboards-reports.md)
 * [共享筛选的 Power BI 报表](service-share-reports.md)
-* 是否有任何问题？ [尝试参与 Power BI 社区](http://community.powerbi.com/)。
+* 是否有任何问题? [尝试参与 Power BI 社区](http://community.powerbi.com/)。
 

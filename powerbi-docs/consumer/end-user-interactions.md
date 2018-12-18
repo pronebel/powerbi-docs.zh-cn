@@ -1,22 +1,22 @@
 ---
-title: 视觉对象如何在报表中彼此交叉筛选（适用于报表使用者）
+title: 了解视觉对象在报表中的交互方式
 description: 适用于 Power BI 最终用户的文档，此文档介绍了视觉对象在报表页面上的交互方式。
 author: mihart
 manager: kvivek
-ms.reviewer: ''
 ms.custom: seodec18
+ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
 ms.date: 12/06/2018
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: 838b881622dd19eb881aa53ac895f223cf9bc460
-ms.sourcegitcommit: f25464d5cae46691130eb7b02c33f42404011357
+ms.openlocfilehash: 406f1f6428d5ce26401720220eaffe32314a9bbd
+ms.sourcegitcommit: cd85d88fba0d9cc3c7a4dc03d2f35d2bd096759b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/10/2018
-ms.locfileid: "53180498"
+ms.lasthandoff: 12/12/2018
+ms.locfileid: "53280411"
 ---
 # <a name="how-visuals-cross-filter-each-other-in-a-power-bi-report"></a>视觉对象如何在 Power BI 报表中彼此交叉筛选
 Power BI 的强大功能之一是报表页上所有视觉对象的互连方式。 如果在某个视觉对象上选择一个数据点，此页面上包含该数据的其他所有视觉对象将根据所选内容而更改。 
