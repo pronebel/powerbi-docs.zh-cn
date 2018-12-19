@@ -1,4 +1,4 @@
----
+﻿---
 title: 在 Power BI 中使用组织自定义视觉对象
 description: 在 Power BI 中使用、管理和创建组织的自定义视觉对象
 author: markingmyname
