@@ -114,7 +114,7 @@ Power BI Embedded 是一组 API，可供开发人员在平台即服务产品中�
 
 可使用 PBI 门户了解 PBI 租户区域的内容。
 
-https://app.powerbi.com/ > ? > 关于 Power BI
+[https://app.powerbi.com/](https://app.powerbi.com/) > ? > 关于 Power BI
 
 ![关于 Power BI](media/embedded-faq/about-01.png)
 ![租户区域](media/embedded-faq/tenant-location-01.png)
