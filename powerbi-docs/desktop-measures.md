@@ -36,12 +36,12 @@ ms.locfileid: "46549997"
 
 ## <a name="data-analysis-expressions"></a>数据分析表达式
 
-度量值将计算表达式公式的结果。 在创建自己的度量值时，将使用[数据分析表达式](https://msdn.microsoft.com/library/gg413422.aspx) (DAX) 公式语言。 DAX 包括一个超过 200 个函数、运算符和构造的库。 它的库在创建度量值时提供巨大的灵活性，可以计算几乎任何数据分析需求的结果。
+度量值将计算表达式公式的结果。 在创建自己的度量值时，将使用[数据分析表达式](https://msdn.microsoft.com/library/gg413422.aspx) (DAX) 公式语言。 DAX 包括一个超过 200 个函数、运算符和构造的库。 这个库为创建度量值提供了巨大的灵活性，几乎可以计算任何数据分析所需的结果。
 
 DAX 公式与 Excel 公式非常相似。 DAX 甚至具有许多与 Excel 相同的函数，例如 DATE、SUM 和 LEFT。 但是，DAX 的函数用于处理关系数据，类似于 Power BI Desktop 中的关系数据。
 
 ## <a name="lets-look-at-an-example"></a>我们来看一个示例
-Jan 是 Contoso 的销售经理。 她接到要求，要提供下一个会计年度的经销商销售预测。 Jan 决定根据去年的销售额做出预测，并加上从未来六个月计划的各种促销结果得出的六个百分点的年增长率。
+Jan 是 Contoso 的销售经理。 她接到要求，要提供下一个会计年度的经销商销售预测。 Jan 决定根据去年的销售额做出预测，并加上根据未来六个月计划的各种促销结果预估的六个百分点的年增长率。
 
 为了报告这些估计值，Jan 将上一年的销售数据导入了 Power BI Desktop 中。 在“Reseller Sale”表中，她找到了“SalesAmount”字段。 由于导入的数据仅包含上一年的销售额，Jan 将“SalesAmount”字段重新命名为“Last Years Sales”。 然后，Jan 将“Last Years Sales”拖动到报表画布上。 该字段在图表可视化效果中显示为去年所有经销商销售额总和的单一值。
 
@@ -55,11 +55,11 @@ Jan 注意到，即使自己没有指定计算，系统已经自动提供了一�
 
 ![](media/desktop-measures/measuresinpbid_lastyearsales.png)
 
-只需要最小的工作量，Jan 很快就可拥有用于计算预测销售额的度量值。 通过筛选特定的经销商或将其他字段添加到她的报表中，Jan 可以进一步分析她的预测。
+只需要最小的工作量，Jan 很快就拥有了用于计算预测销售额的度量值。 通过筛选特定的经销商或将其他字段添加到她的报表中，Jan 可以进一步分析她的预测。
 
 ## <a name="data-categories-for-measures"></a>度量值的数据类别
 
-此外，还可以为度量值选取数据类别。 
+还可以为度量值选取数据类别。 
 
 此外，这还可让你使用度量值来动态创建 URL，并将数据类别标记为 Web URL。 
 
