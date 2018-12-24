@@ -14,7 +14,7 @@ ms.openlocfilehash: 15f8716a42372cb0a02f88ea37531963e9a0557a
 ms.sourcegitcommit: 02f918a4f27625b6f4e47473193ebc8219db40e2
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/04/2018
+ms.lasthandoff: 11/07/2018
 ms.locfileid: "51223298"
 ---
 # <a name="custom-visuals-in-power-bi"></a>在 Power BI 中自定义视觉对象
@@ -30,31 +30,31 @@ ms.locfileid: "51223298"
 自定义视觉对象可以采用 3 种部署形式：
 
 * 自定义视觉对象文件
-* 组织级视觉对象
-* 市场级视觉对象
+* 组织视觉对象
+* 市场视觉对象
 
 ## <a name="custom-visual-files"></a>自定义视觉对象文件
 
-自定义视觉对象是包含用于呈现数据代码的包来为数据提供自定义视觉服务。 任何人都可以创建自定义视觉对象并将其打包为可导入 Power BI 报表的单个 `.pbiviz` 文件。
+自定义视觉对象是包含代码的包，这些代码用于呈现提供给它们的数据。任何人都可以创建自定义视觉对象并将其打包为可导入 Power BI 报表的单个 `.pbiviz` 文件。
 
 > [!WARNING]
-> 自定义视觉对象可包含存在安全或隐私风险的代码；在将其导入报表之前，请务必确认你可以信任自定义视觉对象的作者和来源。
+> 自定义视觉对象可能包含存在安全或隐私风险的代码；在将其导入报表之前，请务必确认你可以信任自定义视觉对象的作者和来源。
 
-## <a name="organization-visuals"></a>组织级视觉对象
+## <a name="organization-visuals"></a>组织视觉对象
 
 Power BI 管理员可以将自定义视觉对象部署到他们的组织中，使报表作者可以轻松发现和使用管理员已批准在组织内使用的自定义视觉对象。 管理员有权限选择要在组织中部署的特定自定义视觉对象，以及设定一种简便的方法来管理（例如，更新版本、禁用/启用）此类视觉对象。 对于报表作者而言，这是一种很简单的发现组织中独特使用的视觉对象以及对这些视觉对象进行无缝更新的方法。
 
 若要详细了解组织自定义视觉对象，可[详细了解组织视觉对象](power-bi-custom-visuals-organization.md)。
 
-## <a name="marketplace-visuals"></a>市场级视觉对象
+## <a name="marketplace-visuals"></a>市场视觉对象
 
-社区成员包括 Microsoft 将自定义视觉对象公开发布到 [AppSource](https://appsource.microsoft.com/en-us/marketplace/apps?product=power-bi-visuals) 市场。 可以下载这些视觉对象，并将它们添加到 Power BI 报表中。 所有这些自定义视觉对象都已经通过测试并获得 Microsoft 的功能和质量批准。
+社区成员以及 Microsoft 已经将自定义视觉对象公开发布到 [AppSource](https://appsource.microsoft.com/en-us/marketplace/apps?product=power-bi-visuals) 市场。 可以下载这些视觉对象，并将它们添加到 Power BI 报表。 所有这些自定义视觉对象都已经过测试并通过 Microsoft 的功能和质量审核。
 
-什么是 [AppSource](developer/office-store.md)？ 简而言之，可以在其中查找 Microsoft 软件相关的应用、加载项和扩展。 [AppSource](https://appsource.microsoft.com/en-us/) 为 Office 365、Azure、Dynamics 365、Cortana 和 Power BI 等产品的数百万用户提供解决方案，帮助他们更高效、更有见地、更为完美地完成工作。
+什么是 [AppSource](developer/office-store.md)？ 简而言之，它是可以在其中查找与 Microsoft 软件相关的应用、加载项和扩展的地方。 [AppSource](https://appsource.microsoft.com/en-us/) 为 Office 365、Azure、Dynamics 365、Cortana 和 Power BI 等产品的数百万用户提供解决方案，帮助他们更高效、更有见地或更为完美地完成工作。
 
 ### <a name="certified-visuals"></a>已认证的视觉对象
 
-Power BI 取得认证的视觉对象是指已通过额外严格质量测试的市场视觉对象，可被用于其他情形，如[电子邮件订阅](https://docs.microsoft.com/power-bi/service-report-subscribe)和[导出到 PowerPoint](https://docs.microsoft.com/power-bi/service-publish-to-powerpoint)。
+Power BI 取得认证的视觉对象是指已通过额外严格质量测试的市场视觉对象，可用于其他情形，如[电子邮件订阅](https://docs.microsoft.com/power-bi/service-report-subscribe)和[导出到 PowerPoint](https://docs.microsoft.com/power-bi/service-publish-to-powerpoint)。
 若要查看已认证的自定义视觉对象列表或提交你自己的自定义视觉对象，请参阅[已认证的自定义视觉对象](https://docs.microsoft.com/power-bi/power-bi-custom-visuals-certified)。
 
 你是 Web 开发者吗？对创建自己的可视化效果，并将它们添加到 AppSource 感兴趣吗？ 请参阅[开发 Power BI 自定义视觉对象](developer/custom-visual-develop-tutorial.md)，了解如何[将自定义视觉对象发布到 AppSource](https://appsource.microsoft.com/en-us/marketplace/apps?product=power-bi-visuals)。
@@ -73,7 +73,7 @@ Power BI 取得认证的视觉对象是指已通过额外严格质量测试的�
 
     ![已导入的 CV](media/power-bi-custom-visuals/power-bi-custom-visual-imported.png)
 
-### <a name="import-organization-visuals"></a>导入组织级视觉对象
+### <a name="import-organization-visuals"></a>导入组织视觉对象
 
 1. 选择“可视化效果”窗格底部的省略号。
 
@@ -151,7 +151,7 @@ Power BI 取得认证的视觉对象是指已通过额外严格质量测试的�
 
     ![下载](media/power-bi-custom-visuals/powerbi-custom-download.png)
 
-    下载页还介绍了如何将自定义视觉对象导入到 Power BI Desktop 和 Power BI 服务中。
+    下载页还介绍了如何将自定义视觉对象导入 Power BI Desktop 和 Power BI 服务。
 
     还可以下载包含自定义视觉对象并展示其功能的示例报表。
 
