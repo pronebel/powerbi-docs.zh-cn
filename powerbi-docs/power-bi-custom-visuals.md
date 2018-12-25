@@ -1,4 +1,4 @@
-﻿---
+---
 title: Power BI 中的自定义可视化效果
 description: Power BI 中的自定义可视化效果
 author: markingmyname
@@ -50,7 +50,7 @@ Power BI 管理员可以将自定义视觉对象部署到他们的组织中，�
 
 社区成员以及 Microsoft 已经将自定义视觉对象公开发布到 [AppSource](https://appsource.microsoft.com/en-us/marketplace/apps?product=power-bi-visuals) 市场。 可以下载这些视觉对象，并将它们添加到 Power BI 报表。 所有这些自定义视觉对象都已经过测试并通过 Microsoft 的功能和质量审核。
 
-什么是 [AppSource](developer/office-store.md)？ 简而言之，它是可以在其中查找与 Microsoft 软件相关的应用、加载项和扩展的地方。 [AppSource](https://appsource.microsoft.com/en-us/) 为 Office 365、Azure、Dynamics 365、Cortana 和 Power BI 等产品的数百万用户提供解决方案，帮助他们更高效、更有见地或更为完美地完成工作。
+什么是 [AppSource](developer/office-store.md)？ 简而言之，可以在其中查找 Microsoft 软件的应用、加载项和扩展。 [AppSource](https://appsource.microsoft.com/en-us/) 为 Office 365、Azure、Dynamics 365、Cortana 和 Power BI 等产品的数百万用户提供解决方案，帮助他们更高效、更有见地或更为完美地完成工作。
 
 ### <a name="certified-visuals"></a>已认证的视觉对象
 
@@ -135,7 +135,7 @@ Power BI 取得认证的视觉对象是指已通过额外严格质量测试的�
 
     ![AppSource](media/power-bi-custom-visuals/power-bi-appsource-apps.png)
 
-2. 转到[应用结果页](https://appsource.microsoft.com/en-us/marketplace/apps)。在此页中，可以查看每种类别的热门应用，包括 Power BI 应用。 由于要找的是自定义视觉对象，因此可以选择左侧导航列表中的“Power BI 视觉对象”，从而缩小结果范围。
+2. 转到[应用结果页](https://appsource.microsoft.com/en-us/marketplace/apps)。在此页中，可以查看每种类别的热门应用，包括 Power BI 应用。 不过，由于要找的是自定义视觉对象，因此现在选择左侧导航列表中的“Power BI 视觉对象”，从而缩小结果范围。
 
     ![AppSource 视觉对象](media/power-bi-custom-visuals/power-bi-appsource-visuals.png)
 
@@ -143,7 +143,7 @@ Power BI 取得认证的视觉对象是指已通过额外严格质量测试的�
 
     ![自定义选择视觉对象](media/power-bi-custom-visuals/powerbi-custom-select-visual.png)
 
-4. 在详细信息页中，可以查看屏幕截图、视频、详细说明等内容。 通过选择“立即获取”，并同意使用条款，可以下载自定义视觉对象。
+4. 在详细信息页中，可以查看屏幕截图、视频、详细说明等内容。 选择“立即获取”，并同意使用条款，下载自定义视觉对象。
 
     ![AppSource 获取](media/power-bi-custom-visuals/power-bi-appsource-get.png)
 
@@ -163,7 +163,7 @@ Power BI 取得认证的视觉对象是指已通过额外严格质量测试的�
 
 ## <a name="considerations-and-limitations"></a>注意事项和限制
 
-* 导入完成后，自定义视觉对象就已添加到特定报表中。 若要在其他报表中使用此视觉对象，还需要将它导入到相应报表。 使用“另存为”选项保存包含自定义视觉对象的报表时，自定义视觉对象的副本会与新报表一同保存。
+* 导入完成后，自定义视觉对象就已添加到特定报表。 若要在其他报表中使用此视觉对象，还需要将它导入相应报表。 使用“另存为”选项保存包含自定义视觉对象的报表时，自定义视觉对象的副本与新报表一同保存。
 
 * 如果看不到“可视化效果”窗格，表示无权编辑报表。  只能将自定义视觉对象添加到有权编辑的报表，不能添加到与自己共享的报表。
 
