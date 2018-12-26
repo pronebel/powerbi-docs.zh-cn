@@ -1,4 +1,4 @@
----
+﻿---
 title: 在 Power BI Desktop 中使用度量
 description: Power BI Desktop 中的度量值
 author: davidiseminger
@@ -19,13 +19,13 @@ ms.locfileid: "46549997"
 ---
 # <a name="measures-in-power-bi-desktop"></a>Power BI Desktop 中的度量值
 
-使用 **Power BI Desktop**，只需点几下鼠标，即可创建数据见解。 但有时候，这些数据并不包含解决某些重要问题所需的所有内容。 度量值可以帮助你解决问题。
+使用 Power BI Desktop，只需点几下鼠标，即可创建数据见解。 但有时候，这些数据并不包含解决某些重要问题所需的全部内容。 度量值可以帮助你解决该问题。
 
 度量值用于一些最常见的数据分析。 例如，求和、平均值、最小值或最大值、计数，或自己使用 DAX 公式创建的更高级的计算。 度量值的计算结果也始终随着你与的报表的交互而改变，以便进行快速和动态的临时数据浏览。 让我们仔细了解下。
 
 ## <a name="understanding-measures"></a>了解度量值
 
-在 **Power BI Desktop** 中，可以在“报表视图”或“数据视图”中创建和使用度量值。 你自己创建的度量值将显示在带有计算器图标的“字段”列表中。 你可以随心所欲地为你的度量值命名，并将它们添加到新的或现有的可视化效果中，正如其他字段一样。
+在 Power BI Desktop 中，可以在“报表视图”或“数据视图”中创建和使用度量值。 你自己创建的度量值将显示在带有计算器图标的“字段”列表中。 你可以随心所欲地为你的度量值命名，并将它们添加到新的或现有的可视化效果中，就如其他字段一样。
 
 ![](media/desktop-measures/measuresinpbid_measinfieldlist.png)
 
@@ -36,7 +36,7 @@ ms.locfileid: "46549997"
 
 ## <a name="data-analysis-expressions"></a>数据分析表达式
 
-度量值将计算表达式公式的结果。 在创建自己的度量值时，将使用[数据分析表达式](https://msdn.microsoft.com/library/gg413422.aspx) (DAX) 公式语言。 DAX 包括一个超过 200 个函数、运算符和构造的库。 这个库为创建度量值提供了巨大的灵活性，几乎可以计算任何数据分析所需的结果。
+度量值将计算表达式公式的结果。在创建自己的度量值时，将使用[数据分析表达式](https://msdn.microsoft.com/library/gg413422.aspx) (DAX) 公式语言。DAX 包括一个超过 200 个函数、运算符和构造的库。这个库为创建度量值提供了巨大的灵活性，几乎可以计算任何数据分析所需的结果。
 
 DAX 公式与 Excel 公式非常相似。 DAX 甚至具有许多与 Excel 相同的函数，例如 DATE、SUM 和 LEFT。 但是，DAX 的函数用于处理关系数据，类似于 Power BI Desktop 中的关系数据。
 
