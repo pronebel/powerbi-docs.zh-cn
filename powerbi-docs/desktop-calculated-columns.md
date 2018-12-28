@@ -1,4 +1,4 @@
----
+﻿---
 title: 使用 Power BI Desktop 中的计算列
 description: Power BI Desktop 中的计算列
 author: davidiseminger
