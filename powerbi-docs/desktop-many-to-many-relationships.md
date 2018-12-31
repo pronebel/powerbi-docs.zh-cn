@@ -19,11 +19,11 @@ ms.locfileid: "49473765"
 ---
 # <a name="many-to-many-relationships-in-power-bi-desktop-preview"></a>Power BI Desktop 中的多对多关系（预览版）
 
-借助 Power BI Desktop 中的多对多关系功能，可以联接使用“多对多”基数的表。 此外，还能更轻松、更直观地创建包含两个或多个数据源的数据模型。 多对多关系功能属于 Power BI Desktop 中更大的复合模型功能。
+借助 Power BI Desktop 中的多对多关系功能，可以联接有“多对多”基数关系的表。 此外，还能更轻松、更直观地创建包含两个或多个数据源的数据模型。 多对多关系功能是 Power BI Desktop 处理大型复合模型能力中的一部分。
 
 ![“编辑关系”窗格中的多对多关系](media/desktop-many-to-many-relationships/many-to-many-relationships_01.png)
 
-Power BI Desktop 中的多对多关系功能是以下三个相关功能之一：
+Power BI Desktop 中处理多对多关系能力是指以下三个相关功能之一：
 
 * **复合模型**：允许报表有任意组合的两个或多个数据连接，包括 DirectQuery 连接或“导入”。 有关详细信息，请参阅 [Power BI Desktop 中的复合模型（预览版）](desktop-composite-models.md)。
 
@@ -45,7 +45,7 @@ Power BI Desktop 中的多对多关系功能是以下三个相关功能之一：
 
 在多对多关系功能推出前，两个表之间的关系是在 Power BI 中进行定义。 关系中涉及的至少一个表列必须包含唯一值。 不过，通常没有列包含唯一值。 
 
-例如，两个表有一个标记为“Country”的列，但两个表中的“Country”值都不唯一。 必须创建解决办法，才能联接此类表。 其中一种解决办法是，在模型中引入包含必要唯一值的附加表。 借助多对多关系功能，可使用基数为“多对多”的关系直接联接此类表。  
+例如，两个表有一个标记为“Country”的列，但两个表中的“Country”值都不唯一。 必须创造一个变通方法，才能联接此类表。 其中一种解决办法是，在模型中引入包含必要唯一值的附加表。 借助多对多关系功能，可使用基数为“多对多”的关系直接联接此类表。  
 
 ## <a name="use-many-to-many-relationships"></a>使用多对多关系功能
 
@@ -67,15 +67,15 @@ Power BI Desktop 中的多对多关系功能是以下三个相关功能之一：
 
 ![显示产品名称、价格和数量的视觉对象](media/desktop-many-to-many-relationships/many-to-many-relationships_05.png)
 
-如上图所示，有与产品 C 的销售额关联的空白“ProductName”行。此空行导致以下问题发生：
+如上图所示，出现一个与产品 C 的销售额相关联的空白“ProductName”行。此空行说明以下信息：
 
-* “ProductSales”表中的任何行在“Product”表中都没有对应的行。 存在引用完整性问题，就像此示例中的产品 C 一样。
+* “ProductSales”表中任何与“Product”表没有对应关系的行。 此处反应的是引用完整性问题，就像此示例中的产品 C 一样。
 
-* “ProductSales”表中所有行的外键列都为空。 
+* “ProductSales”表中所有外键列是空的行。 
 
-因此，在这两种情况下，空白行是导致未知 ProductName 和 Price 对应的销售额出问题的原因所在。
+因此，在这两种情况下，空白行表示 ProductName 和 Price 未知的销售。
 
-有时，表是通过两个列联接起来，但这两个列都不是唯一的。 例如下面的两个表：
+有时，表是通过两个列联接起来，但这两个列都不是由唯一值构成的。 例如下面的两个表：
 
 * “Sales”表按“State”显示销售额数据，其中每一行都包含相应州采用的销售类型对应的销售额。 州包括“CA”、“WA”和“TX”。 
 
@@ -87,60 +87,60 @@ Power BI Desktop 中的多对多关系功能是以下三个相关功能之一：
 
 尽管两个表中都有“State”列，并且按州和各州的总人口报告总销售额是合理需求，但存在一个问题，即“State”列在这两个表中都不是唯一的。 
 
-## <a name="the-previous-workaround"></a>旧解决办法
+## <a name="the-previous-workaround"></a>旧的解决办法
 
 在低于 2018 年 7 月版的 Power BI Desktop 中，用户无法在这些表之间建立直接关系。 常见解决办法如下：
 
 * 创建仅包含唯一州 ID 的第三个表。 此表可为以下任意或所有表：
   * 计算表（使用数据分析表达式 [DAX] 定义）。
-  * 基于查询编辑器中定义的查询的表，可显示从表之一中提取的唯一 ID。
-  * 组合的完整集。
+  * 基于查询编辑器中定义查询条件生成的表，可显示从一张表中提取的唯一 ID。
+  * 整合后的完整数据集。
 
 * 使用常见的多对一关系，将这两个原始表关联到此新表。
 
-可以让解决办法表一直处于可见状态，也可以隐藏它，这样它就不会出现在“字段”列表中了。 如果隐藏此表，多对一关系通常会设置为在两个方向上进行筛选，并且两个表中的“State”字段都可以使用。 随后的交叉筛选会传播到另一个表。 这种方法如下图所示：
+附加表可以是一直可见状态，也可以将其设置为隐藏，这样它就不会出现在“字段”列表中。 如果隐藏此表，多对一关系通常会设置为在两个方向上进行筛选，并且两个表中的“State”字段都可以使用。 随后的交叉筛选会传播到另一个表上。 这种方法实现效果如下图所示：
 
 ![关系视图](media/desktop-many-to-many-relationships/many-to-many-relationships_08.png)
 
-显示“State”（来自“CityData”表）以及总“Population”和总“Sales”的视觉对象如下所示：
+显示“State”（来自“CityData”表）以及总“Population”和总“Sales”信息的视觉对象如下所示：
 
 ![表视觉对象](media/desktop-many-to-many-relationships/many-to-many-relationships_09.png)
 
 > [!NOTE]
-> 因为此解决办法使用了“CityData”表中的州，所以只会列出这个表中的州（也就不包括“TX”）。 此外，与多对一关系不同，虽然总计行包含所有销售额（包括 TX 的销售额），但详细信息中并没有涉及此类不匹配行的空白行。 同样，也没有空白行涉及值为空的州的销售额。
+> 因为此解决办法使用了“CityData”表中的州，所以只会列出这个表中的州（也就不包括“TX”）。 此外，与多对一关系不同，虽然总计行包含所有销售额（包括 TX 的销售额），但详细信息中并没有一个空白行来对应不匹配行信息。 同样，也没有空白行来对应值为空的州的销售额。
 
-如果还向此视觉对象添加了“City”，尽管每个城市的人口是已知的，但针对“City”显示的“Sales”只会重复相应“State”的“Sales”。 如果列中的分组与某聚合度量值无关，通常就会发生这种情况，如下图所示：
+如下图所示，如果还向此视觉对象中添加了“City”列，尽管每个城市的人口是已知的，但针对“City”显示的“Sales”信息只会重复相应“State”的“Sales”值。 当列中的分组与某聚合度量值无关时，通常就会发生这种情况。
 
 ![表视觉对象](media/desktop-many-to-many-relationships/many-to-many-relationships_10.png)
 
-如果将新的“Sales”表定义为此解决办法中所有“States”的组合，并且让它在“字段”列表中一直可见，相同的视觉对象就会同时显示“State”（在新表上）、总“Population”和总“Sales”，如下图所示：
+如果在这个变通方案中将新的“Sales”表定义为显示所有“States”的组合，并且让它在“字段”列表中一直可见，相同的视觉对象就会同时显示“State”信息（在新表上）、总“Population”数据和总“Sales”数据，如下图所示：
 
 ![表视觉对象](media/desktop-many-to-many-relationships/many-to-many-relationships_11.png)
 
-可以看到，表中“TX”的“Sales”数据已知，但“Population”数据未知，而“New York”的“Population”数据已知，但“Sales”数据未知。 这种解决办法并不是最佳的，也存在很多问题。 通过创建多对多关系，可以解决产生的这些问题，如下一部分所述。
+可以看到，表中“TX”的“Sales”数据已知，但“Population”数据未知，而“New York”的“Population”数据已知，但“Sales”数据未知。 这种变通方案并不是最佳的，也存在很多问题。 通过创建多对多关系可以解决产生的这些问题，具体方法如下一部分所述。
 
 ## <a name="use-many-to-many-relationships-instead-of-the-workaround"></a>使用多对多关系功能取代解决办法
 
-自 Power BI Desktop 2018 年 7 月版起，可以直接关联表（如之前介绍的表），再也不用无奈地采用类似解决办法了。 现在可以将关系基数设置为“多对多”。 此设置表明，两个表都不包含唯一值。 对于这种关系，仍可以控制哪个表筛选另一个表，也能应用双向筛选（即每个表都进行相互筛选）。  
+自 Power BI Desktop 2018 年 7 月版起，可以直接关联表（如之前介绍的表），再也不用无奈地采用类似变通方案了。 现在可以将关系基数设置为“多对多”。 此设置表明，两个表都不包含唯一值。 对于这种关系，仍可以控制哪个表筛选另一个表，也能应用双向筛选（即每个表都进行相互筛选）。  
 
 > [!NOTE]
-> 多对多关系功能处于预览阶段。 在处于预览阶段期间，无法向使用多对多关系的 Power BI 服务模型发布数据。 
+> 用于创建多对多关系的功能处于预览阶段。 在处于预览阶段期间，无法向使用多对多关系的 Power BI 服务模型发布数据。 
 
-在 Power BI Desktop 中，默认基数为“多对多”，用于确定两个表都不包含关系中列的唯一值。 在这种情况下，系统会显示一条警告消息，以确认关系设置为预期行为，不是由数据问题导致的非预期效应。 
+在 Power BI Desktop 中，当两个表中的关系列都不包含唯一值时，默认基数会被设置为“多对多”。 在这种情况下，系统会显示一条警告消息，以确认关系设置为预期行为，而不是由数据问题导致的非预期效果。 
 
-例如，如果你直接在“CityData”和“Sales”之间建立关系（其中筛选器应从“CityData”流向“Sales”），Power BI Desktop 显示“编辑关系”窗口，如下图所示：
+例如，如果直接在“CityData”和“Sales”之间建立关系（其中筛选器应从“CityData”流向“Sales”），Power BI Desktop 会显示“编辑关系”窗口，如下图所示：
 
 ![“编辑关系”窗口](media/desktop-many-to-many-relationships/many-to-many-relationships_01.png)
 
-随即生成的“关系”视图显示两个表之间的直接多对多关系。 表在“字段”列表中可见，表在视觉对象创建时的后续行为与应用解决办法时的行为相似。 在解决办法中，显示唯一“State”数据的额外表不可见。 例如，如上一部分所述，显示“State”、“Population”和“Sales”数据的视觉对象如下所示：
+随即生成的“关系”视图显示两个表之间的直接多对多关系。 表在“字段”列表中的显示以及表在视觉对象创建时的后续行为与应用解决办法时的行为相似。 在解决办法中，显示唯一“State”数据的额外表不可见。 例如，如上一部分所述，显示“State”、“Population”和“Sales”数据的视觉对象如下所示：
 
 ![表视觉对象](media/desktop-many-to-many-relationships/many-to-many-relationships_12.png)
 
 多对多关系与更典型的多对一关系的主要区别如下：
 
-* 显示的值不包括导致另一个表中出现不匹配行的空白行。 也不包括导致另一个表中关系使用的列为空的行。
-* 无法使用 `RELATED()` 函数，因为可以关联多行。
-* 对一个表使用 `ALL()` 函数不会删除通过多对多关系应用于其他相关表的筛选器。 在前面的示例中，下面脚本中定义的度量值不会删除对相关“CityData”表中列应用的筛选器：
+* 显示的值不包括说明另一个表中存在不匹配行的空白行，也不包括在另一个表的关系中使用的列为空的行。
+* 无法使用 `RELATED()` 函数，因为可能会关联多行。
+* 对一个表使用 `ALL()` 函数不会删除与其通过多对多关系相连的其它表中的筛选器。 在前面的示例中，下面脚本中定义的度量值不会删除关联表“CityData”列中应用的筛选器：
 
     ![脚本示例](media/desktop-many-to-many-relationships/many-to-many-relationships_13.png)
 
@@ -148,7 +148,7 @@ Power BI Desktop 中的多对多关系功能是以下三个相关功能之一：
 
     ![表视觉对象](media/desktop-many-to-many-relationships/many-to-many-relationships_14.png)
 
-在注意到上述差异的同时，请确保使用 `ALL(\<Table>)` 的计算（如在总计中所占的百分比）返回的结果符合预期。 
+在注意到上述差异的同时，请确保使用 `ALL(\<Table>)` 函数进行计算（如在总计中所占的百分比）以便返回预期结果。 
 
 
 ## <a name="limitations-and-considerations"></a>限制和注意事项
@@ -163,9 +163,9 @@ Power BI Desktop 中的多对多关系功能是以下三个相关功能之一：
 * Power BI 数据集
 * Azure Analysis Services
 
-使用 DirectQuery 连接到这些多维数据源时，既无法同时连接到另一个 DirectQuery 源，也无法将它与导入数据相结合。
+当使用 DirectQuery 连接到这些多维数据源时，既无法同时连接到另一个 DirectQuery 源，也无法将它与导入数据相结合。
 
-使用多对多关系时，仍要遵守现有的 DirectQuery 使用限制。 现在每个表都要遵循其中许多限制，具体视表的存储模式而定。 例如，导入表中的计算列可以引用其他表，但 DirectQuery 表中的计算列仍只能引用同一表中的列。 如果模型中的任意表是 DirectQuery，其他限制适用于整个模型。 例如，如果模型中任意表的存储模式为“DirectQuery”，QuickInsights 和问答功能对模型不可用。 
+使用多对多关系时，仍要遵守现有的 DirectQuery 使用限制。 现在每个表都要遵循其中许多限制，具体视表的存储模式而定。 例如，导入表中的计算列可以引用其他表，但 DirectQuery 表中的计算列仍只能引用同一表中的列。 如果模型中的任意表都使用 DirectQuery 进行连接，其限制适用于整个模型。 例如，如果模型中任意表的存储模式为“DirectQuery”，QuickInsights 和问答功能对模型不可用。 
 
 ## <a name="next-steps"></a>后续步骤
 
