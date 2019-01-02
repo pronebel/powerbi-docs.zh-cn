@@ -10,12 +10,12 @@ ms.component: powerbi-developer
 ms.topic: tutorial
 ms.custom: seodec18
 ms.date: 12/10/2018
-ms.openlocfilehash: 541e6e62ac075922cdb301343361ac328a3db28e
-ms.sourcegitcommit: f25464d5cae46691130eb7b02c33f42404011357
+ms.openlocfilehash: ea4292fd95fa72a553d9f91b39ff0bc5de71a584
+ms.sourcegitcommit: 9913c213d40b45ba83c6c3b3a7ef0b757800e3ad
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/10/2018
-ms.locfileid: "53180751"
+ms.lasthandoff: 12/12/2018
+ms.locfileid: "53301841"
 ---
 # <a name="tutorial-embed-a-power-bi-report-dashboard-or-tile-into-an-application-for-your-organization"></a>教程：为组织将 Power BI 报表、仪表板或磁贴嵌入到应用程序
 
@@ -429,17 +429,16 @@ function updateEmbedReport() {
 
 下表列出了 [Microsoft Office 365](../service-admin-premium-purchase.md) 中可用的 Power BI Premium SKU：
 
-| 容量节点 | vCore 总数<br/>（后端 + 前端） | 后端 vCore | 前端 vCore | DirectQuery/实时连接限制 | 高峰时间的最大显示页数 |
+| 容量节点 | vCore 总数<br/>（后端 + 前端） | 后端 vCore | 前端 vCore | DirectQuery/实时连接限制 |
 | --- | --- | --- | --- | --- | --- |
-| EM1 |1 个 vCore |0.5 个 vCore，10 GB RAM |0.5 个 vCore |每秒 3.75 |150-300 |
-| EM2 |2 个 vCore |1 个 vCore，10 GB RAM |1 个 vCore |每秒 7.5 |301-600 |
-| EM3 |4 个 vCore |2 个 vCore，10 GB RAM |2 个 vCore |每秒 15 个 |601-1,200 |
-| P1 |8 个 vCore |4 个 vCore，25 GB RAM |4 个 vCore |每秒 30 个 |1,201-2,400 |
-| P2 |16 个 vCore |8 个 vCore，50 GB RAM |8 个 vCore |每秒 60 个 |2,401-4,800 |
-| P3 |32 个 vCore |16 个 vCore，100 GB RAM |16 个 vCore |每秒 120 个 |4,801-9,600 |
-| P4 |64 个 vCore |32 个 vCore，200 GB RAM |32 个 vCore |每秒 240 个 |9,601-19,200 |
-| P5 |128 个 vCore |64 vCore，400 GB RAM |64 个 vCore |每秒 480 个 |19,201-38,400 |
-
+| EM1 |1 个 vCore |0.5 个 vCore，10 GB RAM |0.5 个 vCore |每秒 3.75 |
+| EM2 |2 个 vCore |1 个 vCore，10 GB RAM |1 个 vCore |每秒 7.5 |
+| EM3 |4 个 vCore |2 个 vCore，10 GB RAM |2 个 vCore |每秒 15 个 |
+| P1 |8 个 vCore |4 个 vCore，25 GB RAM |4 个 vCore |每秒 30 个 |
+| P2 |16 个 vCore |8 个 vCore，50 GB RAM |8 个 vCore |每秒 60 个 |
+| P3 |32 个 vCore |16 个 vCore，100 GB RAM |16 个 vCore |每秒 120 个 |
+| P4 |64 个 vCore |32 个 vCore，200 GB RAM |32 个 vCore |每秒 240 个 |
+| P5 |128 个 vCore |64 vCore，400 GB RAM |64 个 vCore |每秒 480 个 |
 > [!NOTE]
 > - 当你尝试嵌入到 Microsoft Office 应用时，可以使用 EM SKU 访问具有免费 Power BI 许可证的内容。 但是，如果使用 Powerbi.com 或 Power BI 移动版时，将无法使用免费 Power BI 许可证访问内容。
 > - 在尝试使用 Powerbi.com 或 Power BI 移动版嵌入到 Microsoft Office 应用时，可以使用免费 Power BI 许可证访问内容。

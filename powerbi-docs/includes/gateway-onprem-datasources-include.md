@@ -6,7 +6,7 @@
 | Analysis Services 多维 |是 |是 |
 | 文件 |否 |是 |
 | 文件夹 |否 |是 |
-| IBM DB2 |否 |是 |
+| IBM DB2 |是 |是 |
 | IBM Informix 数据库 |否 |是 |
 | IBM Netezza |是 |是 |
 | Impala |是 |是 |

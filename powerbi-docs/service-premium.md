@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 10/21/2018
 ms.custom: seodec18
 LocalizationGroup: Premium
-ms.openlocfilehash: cbfee8034639a65517f9adc57cc95dd1271e6044
-ms.sourcegitcommit: 72c9d9ec26e17e94fccb9c5a24301028cebcdeb5
+ms.openlocfilehash: ea26ba39a9ec06b79330719afd4fb3b3a572d912
+ms.sourcegitcommit: 9913c213d40b45ba83c6c3b3a7ef0b757800e3ad
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/07/2018
-ms.locfileid: "53025433"
+ms.lasthandoff: 12/12/2018
+ms.locfileid: "53301795"
 ---
 # <a name="what-is-microsoft-power-bi-premium"></a>什么是 Microsoft Power BI Premium？
 
@@ -71,14 +71,14 @@ Microsoft Power BI Premium 提供专用于为组织运行 Power BI 服务的资�
 >[!NOTE]
 >只有拥有 Office 365 全局管理员角色的用户，才能正常访问此表中的链接。 其他人会收到 404 错误。
 
-| 容量节点 | 总虚拟核心<br/>（后端 + 前端） | 后端虚拟核心 | 前端虚拟核心 | DirectQuery/实时连接限制 | 高峰时间的最大显示页数 | 是否支持 |
+| 容量节点 | 总虚拟核心<br/>（后端 + 前端） | 后端虚拟核心 | 前端虚拟核心 | DirectQuery/实时连接限制 | 是否支持 |
 | --- | --- | --- | --- | --- | --- | --- |
-| [EM1（按月）](https://portal.office.com/SubscriptionDetails?OfferId=4004702D-749C-4F74-BF47-3048F1833780&adminportal=1) |1 个虚拟核心 |0.5 个 V 核心，2.5 GB RAM |0.5 个 V 核心 |每秒 3.75 |150-300 |可用 |
-| [EM2（按月）](https://portal.office.com/SubscriptionDetails?OfferId=4004702D-749C-4F74-BF47-3048F1833780&adminportal=1) |2 个虚拟核心 |1 个 V 核心，5 GB RAM |1 个虚拟核心 |每秒 7.5 |301-600 |可用 |
-| [EM3（按月）](https://portal.office.com/SubscriptionDetails?OfferId=4004702D-749C-4F74-BF47-3048F1833780&adminportal=1) |4 个虚拟核心 |2 个 V 核心，10 GB RAM |2 个虚拟核心 | |601-1,200 |可用 |
-| [P1](https://portal.office.com/SubscriptionDetails?OfferId=b3ec5615-cc11-48de-967d-8d79f7cb0af1&adminportal=1) |8 个虚拟核心 |4 个 V 核心，25 GB RAM |4 个虚拟核心 |每秒 30 个 |1,201-2,400 |可用（也可以[按月](https://portal.office.com/SubscriptionDetails?OfferId=E4C8EDD3-74A1-4D42-A738-C647972FBE81&adminportal=1)） |
-| [P2](https://portal.office.com/SubscriptionDetails?OfferId=062F2AA7-B4BC-4B0E-980F-2072102D8605&adminportal=1) |16 个虚拟核心 |8 个 V 核心，50 GB RAM |8 个虚拟核心 |每秒 60 个 |2,401-4,800 |可用 |
-| [P3](https://portal.office.com/SubscriptionDetails?OfferId=40c7d673-375c-42a1-84ca-f993a524fed0&adminportal=1) |32 个虚拟核心 |16 个 V 核心，100 GB RAM |16 个虚拟核心 |每秒 120 个 |4,801-9600 |可用 |
+| [EM1（按月）](https://portal.office.com/SubscriptionDetails?OfferId=4004702D-749C-4F74-BF47-3048F1833780&adminportal=1) |1 个虚拟核心 |0.5 个 V 核心，2.5 GB RAM |0.5 个 V 核心 |每秒 3.75 |可用 |
+| [EM2（按月）](https://portal.office.com/SubscriptionDetails?OfferId=4004702D-749C-4F74-BF47-3048F1833780&adminportal=1) |2 个虚拟核心 |1 个 V 核心，5 GB RAM |1 个虚拟核心 |每秒 7.5 |可用 |
+| [EM3（按月）](https://portal.office.com/SubscriptionDetails?OfferId=4004702D-749C-4F74-BF47-3048F1833780&adminportal=1) |4 个虚拟核心 |2 个 V 核心，10 GB RAM |2 个虚拟核心 | |可用 |
+| [P1](https://portal.office.com/SubscriptionDetails?OfferId=b3ec5615-cc11-48de-967d-8d79f7cb0af1&adminportal=1) |8 个虚拟核心 |4 个 V 核心，25 GB RAM |4 个虚拟核心 |每秒 30 个 |可用（也可以[按月](https://portal.office.com/SubscriptionDetails?OfferId=E4C8EDD3-74A1-4D42-A738-C647972FBE81&adminportal=1)） |
+| [P2](https://portal.office.com/SubscriptionDetails?OfferId=062F2AA7-B4BC-4B0E-980F-2072102D8605&adminportal=1) |16 个虚拟核心 |8 个 V 核心，50 GB RAM |8 个虚拟核心 |每秒 60 个 |可用 |
+| [P3](https://portal.office.com/SubscriptionDetails?OfferId=40c7d673-375c-42a1-84ca-f993a524fed0&adminportal=1) |32 个虚拟核心 |16 个 V 核心，100 GB RAM |16 个虚拟核心 |每秒 120 个 |可用 |
 | | | | | | | |
 
 * 前端虚拟核心负责 Web 服务、仪表板和报表文档管理、访问 Rights Management、时间安排、API、上传和下载，并大体包括所有与用户体验相关的内容。

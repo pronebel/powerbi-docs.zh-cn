@@ -10,12 +10,12 @@ ms.service: powerbi
 ms.component: powerbi-developer
 ms.custom: seodec18
 ms.date: 12/10/2018
-ms.openlocfilehash: e396f46987ef14aac9361e8f7ef41e90b2d8383e
-ms.sourcegitcommit: f25464d5cae46691130eb7b02c33f42404011357
+ms.openlocfilehash: 96cd04385bec6d4b9b47e3e05a30820b2f19f3dd
+ms.sourcegitcommit: 9913c213d40b45ba83c6c3b3a7ef0b757800e3ad
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/10/2018
-ms.locfileid: "53180866"
+ms.lasthandoff: 12/12/2018
+ms.locfileid: "53301864"
 ---
 # <a name="tutorial-embed-a-power-bi-report-dashboard-or-tile-into-an-application-for-your-customers"></a>教程：为客户将 Power BI 报表、仪表板或磁贴嵌入应用程序中
 
@@ -338,14 +338,14 @@ var embedConfig = new EmbedConfig()
 
 使用下表确定哪种 Power BI Embedded 容量最适合你的需求。
 
-| 容量节点 | 总核心数<br/>（后端 + 前端） | 后端核心数 | 前端核心数 | DirectQuery/实时连接限制 | 高峰时间的最大显示页数 |
+| 容量节点 | 总核心数<br/>（后端 + 前端） | 后端核心数 | 前端核心数 | DirectQuery/实时连接限制|
 | --- | --- | --- | --- | --- | --- |
-| A1 |1 个 V 核心 |0.5 核、3GB RAM |0.5 核 |每秒 0.5 个 |1-300 |
-| A2 |2 个 V 核心 |1 核、5GB RAM |1 个核心 | 每秒 10 个 |301-600 |
-| A3 |4 个 V 核心 |2 核、10GB RAM |2 个核心 | 每秒 15 个 |601-1,200 |
-| A4 |8 个 V 核心 |4 核、25GB RAM |4 个核心 |每秒 30 个 |1,201-2,400 |
-| A5 |16 个 V 核心 |8 核、50GB RAM |8 个核心 |每秒 60 个 |2,401-4,800 |
-| A6 |32 个 V 核心 |16 核、100GB RAM |16 个核心 |每秒 120 个 |4,801-9600 |
+| A1 |1 个 V 核心 |0.5 核、3GB RAM |0.5 核 |每秒 0.5 个 |
+| A2 |2 个 V 核心 |1 核、5GB RAM |1 个核心 | 每秒 10 个 |
+| A3 |4 个 V 核心 |2 核、10GB RAM |2 个核心 | 每秒 15 个 |
+| A4 |8 个 V 核心 |4 核、25GB RAM |4 个核心 |每秒 30 个 |
+| A5 |16 个 V 核心 |8 核、50GB RAM |8 个核心 |每秒 60 个 |
+| A6 |32 个 V 核心 |16 核、100GB RAM |16 个核心 |每秒 120 个 |
 
 使用 A SKU 时，无法使用免费的 Power BI 许可证访问 Power BI 内容。
 

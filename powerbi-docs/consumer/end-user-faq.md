@@ -8,15 +8,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 12/06/2018
+ms.date: 12/21/2018
 ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: e329b40c0be55ce164ab487b7eb1d3006062b15a
-ms.sourcegitcommit: cd85d88fba0d9cc3c7a4dc03d2f35d2bd096759b
+ms.openlocfilehash: be92d60e2f1fd6a9ea21cac37325ccfd58ba0687
+ms.sourcegitcommit: 2c77439e4bf66d239baf19ae2ce0eed6c5c7f13c
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/12/2018
-ms.locfileid: "53280664"
+ms.lasthandoff: 12/22/2018
+ms.locfileid: "53748527"
 ---
 # <a name="frequently-asked-questions-about-power-bi"></a>有关 Power BI 的常见问题
 * 如果你有其他问题，请[尝试询问 Power BI 社区](http://community.powerbi.com/)。
@@ -29,6 +29,10 @@ Power BI 服务是一种基于云的业务分析服务，使任何人能够用�
 Power BI Pro 是单个许可证，允许访问 Power BI 服务中的所有内容和功能，包括共享内容以及与其他 Pro 用户协作的功能。 只有 Pro 用户可以将内容发布到应用工作区，使用这些内容，共享仪表板并订阅仪表板及报表。 
 
 Premium 提供专用容量，在 Power BI 中具有更高的一致性并支持更大的数据量。 对于个人用户，Premium 还允许 Pro 用户广泛分发内容，且不要求查看内容的每个收件人用户都提供许可证。
+
+## <a name="what-happens-if-my-power-bi-pro-license-expires"></a>如果我的 Power BI Pro 许可证已过期，会发生什么情况？
+Power BI Pro 许可证过期后，还有 30 天宽限期。
+Power BI Pro 的订阅生命周期与 Office 365 相同。 有关详细信息，请参阅 [Office 365 商业版订阅过期时，我的数据和访问权限会发生什么变化？](https://support.office.com/article/What-happens-to-my-data-and-access-when-my-Office-365-for-business-subscription-ends-4436582f-211a-45ec-b72e-33647f97d8a3)
 
 ## <a name="what-if-i-have-questions-about-power-bi-premium"></a>如果有关于 Power BI Premium 的问题，应该怎么办？
 与 Power BI Premium 相关的问题，请参阅 [Power BI Premium 常见问题解答](../service-premium-faq.md)。

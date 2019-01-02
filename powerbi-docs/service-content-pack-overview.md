@@ -10,11 +10,11 @@ ms.topic: conceptual
 ms.date: 11/20/2018
 ms.author: maggies
 ms.openlocfilehash: f97393a8a7fe8dc9c413a0cb0cda8be0e965da5b
-ms.sourcegitcommit: 458e091a0a0bfb71ea3980d44df6408f48bab586
+ms.sourcegitcommit: 6c6aa214dc36c26a01b29e823598d217a3e2b8a1
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/22/2018
-ms.locfileid: "52289188"
+ms.lasthandoff: 12/17/2018
+ms.locfileid: "53451343"
 ---
 # <a name="overview-of-the-power-bi-service-content-pack-program"></a>Power BI 服务内容包程序概述
 内容包是一组全新的内容，允许用户立即获取源中的见解。 内容包通常集中在特定业务方案，提供关于角色、域或工作流的见解。
@@ -23,7 +23,7 @@ ISV 可以生成模板内容包，允许客户使用其自己的帐户连接并�
 
 可以将这些 ISV 生成模板内容包提交到 Power BI 团队，以在 Power BI 内容包库 (app.powerbi.com/getdata/services) 和 Microsoft AppSource (appsource.microsoft.com) 上公开发布。 单击[此处](template-content-pack-experience.md)可查看公用内容包体验的示例。
 
-## <a name="overview"></a>概述
+## <a name="overview"></a>概览
 开发并提交模板内容包的常规过程包括多个步骤。
 
  ![过程](media/service-content-pack-overview/developer-content-pack-overview.png)
