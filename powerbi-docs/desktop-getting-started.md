@@ -148,7 +148,7 @@ Power BI Desktop 中的查询编辑器除能在功能区中提供可用的工作
 
 * *更改表格名称* - **表格 0**不是有用的描述符，但更改它很简单
 
-每个步骤都演示于**[在 Power BI Desktop 中调整和合并数据](desktop-shape-and-combine-data.md)**。 欢迎参阅该页面，或继续阅读这份文档，了解你接下来要做什么。 下一部分会在应用上述更改之后继续。
+每个步骤都演示于 **[在 Power BI Desktop 中调整和合并数据](desktop-shape-and-combine-data.md)** 。 欢迎参阅该页面，或继续阅读这份文档，了解你接下来要做什么。 下一部分会在应用上述更改之后继续。
 
 ## <a name="combine-data"></a>合并数据
 有关各州的那份数据很有趣，而且适用于生成其他分析工作和查询。 但是有一个问题：大多数数据使用两个字母的州名代码缩写，而不是该州的完整名称。 我们需要某种方式来建立州名及其缩写的关联。
@@ -161,7 +161,7 @@ Power BI Desktop 中的查询编辑器除能在功能区中提供可用的工作
 
  ![](media/desktop-getting-started/designer_gsg_usstateabbreviationsnavigator.png)
 
-我们选择**编辑表**，因为它包含我们想要的数据，但它需要大量调整才能将表格中的数据削减到所需数据。 每个步骤都演示于**[在 Power BI Desktop 中调整和合并数据](desktop-shape-and-combine-data.md)**。 汇总这些步骤，下面是我们要执行的操作：
+我们选择**编辑表**，因为它包含我们想要的数据，但它需要大量调整才能将表格中的数据削减到所需数据。 每个步骤都演示于 **[在 Power BI Desktop 中调整和合并数据](desktop-shape-and-combine-data.md)** 。 汇总这些步骤，下面是我们要执行的操作：
 
 选择**编辑**，然后：
 
