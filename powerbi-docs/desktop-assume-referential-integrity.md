@@ -46,11 +46,11 @@ ms.locfileid: "52578442"
    ![](media/desktop-assume-referential-integrity/assume-referential-integrity_4.png)
 
 ## <a name="setting-assume-referential-integrity"></a>设置假设引用完整性
-若要启用此功能，请选中“假设引用完整性”旁边的复选框（如下图所示）。
+若要启用此功能，请选中“**假设引用完整性**”旁边的复选框（如下图所示）。
 
 ![](media/desktop-assume-referential-integrity/assume-referential-integrity_1.png)
 
-选中后，将对数据验证此设置，以确保没有 *Null* 或不匹配的行。  *但是* ，在值的数量非常大的情况下，验证不能保证没有引用完整性问题。
+选中后，将对数据验证此设置，以确保没有 *Null* 或不匹配的行。 *但是* ，在值的数量非常大的情况下，验证不能保证没有引用完整性问题。
 
 此外，验证将在编辑关系时执行，并且 *不* 反映数据的任何后续更改。
 
