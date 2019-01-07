@@ -11,11 +11,11 @@ ms.date: 08/06/2018
 ms.author: maggies
 LocalizationGroup: Share your work
 ms.openlocfilehash: f12974d4e53217fc6c29ad172153ec9c51ecc44e
-ms.sourcegitcommit: fdb54145f9bc93b312409c15c603749f3a4a876e
+ms.sourcegitcommit: 6c6aa214dc36c26a01b29e823598d217a3e2b8a1
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/28/2018
-ms.locfileid: "52452628"
+ms.lasthandoff: 12/17/2018
+ms.locfileid: "53451412"
 ---
 # <a name="create-workspaces-with-your-colleagues-in-power-bi"></a>与同事一起在 Power BI 中创建工作区
 
@@ -94,4 +94,4 @@ ms.locfileid: "52452628"
 ## <a name="next-steps"></a>后续步骤
 * [在 Power BI 中安装并使用应用](service-create-distribute-apps.md)
 - [创建新工作区（预览）](service-create-the-new-workspaces.md)
-* 是否有任何问题？ [尝试咨询 Power BI 社区](http://community.powerbi.com/)
+* 是否有任何问题? [尝试咨询 Power BI 社区](http://community.powerbi.com/)

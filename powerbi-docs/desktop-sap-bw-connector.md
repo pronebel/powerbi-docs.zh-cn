@@ -11,11 +11,11 @@ ms.date: 10/15/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
 ms.openlocfilehash: f4825e8d8d47f755b01748c847b0fcf110db030a
-ms.sourcegitcommit: fdb54145f9bc93b312409c15c603749f3a4a876e
+ms.sourcegitcommit: 6c6aa214dc36c26a01b29e823598d217a3e2b8a1
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/28/2018
-ms.locfileid: "52452858"
+ms.lasthandoff: 12/17/2018
+ms.locfileid: "53451435"
 ---
 # <a name="use-the-sap-bw-connector-in-power-bi-desktop"></a>在 Power BI Desktop 中使用 SAP BW 连接器
 使用 Power BI Desktop 可以访问 SAP BusinessWarehouse (BW) 数据。
@@ -66,7 +66,7 @@ SAP 连接器的 Implementation 2.0 需要使用 SAP .NET 连接器 3.0。 可�
 
 ![SAP 服务器连接设置](media/desktop-sap-bw-connector/sap_bw_3a.png)
 
-你还可以指定两个额外的“高级选项”：语言代码和针对指定服务器运行的自定义 MDX 语句。
+还可以指定两个其他高级选项：语言代码以及针对指定服务器运行的自定义 MDX 语句。
 
 ![其他连接信息](media/desktop-sap-bw-connector/sap_bw_4a.png)
 
@@ -78,7 +78,7 @@ SAP 连接器的 Implementation 2.0 需要使用 SAP .NET 连接器 3.0。 可�
 
 **导航器**窗口也提供了一些**显示选项**，允许你执行以下操作：
 
-* **显示仅选定项与所有项（默认视图）：** 此选项在验证最后一组选定项时十分有用。 查看此类容的另一种方法是选择预览区域中的列名称。
+* **显示“仅选定的项”与显示“所有项”（默认视图）**：此选项可用于验证最终选定的一组项。 查看此类容的另一种方法是选择预览区域中的列名称。
 * **启用数据预览（默认行为）：** 还可以控制是否应在此对话框中显示数据预览。 禁用数据预览会减少服务器调用的数量，因其将不再请求数据以进行预览。
 * **技术名称：** 对于多维数据集中的对象，SAP BW 支持技术名称的概念。 技术名称允许多维数据集所有者公开多维数据集对象的用户友好名称，而不是仅公开多维数据集中的那些对象的物理名称。
 

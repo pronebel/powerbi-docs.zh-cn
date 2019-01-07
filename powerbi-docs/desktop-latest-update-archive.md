@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 11/13/2018
+ms.date: 12/10/2018
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: 3e8e8359742a422049751a348bce6a5d4015bd72
-ms.sourcegitcommit: 6a6f552810a596e1000a02c8d144731ede59c0c8
+ms.openlocfilehash: 129649367efa3a2b23fbf3be181e14df158eba02
+ms.sourcegitcommit: 298db44200b78b1281b3ae6dfe7cce7a89865ec9
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/14/2018
-ms.locfileid: "51619853"
+ms.lasthandoff: 12/13/2018
+ms.locfileid: "53329846"
 ---
 # <a name="previous-monthly-updates-to-power-bi-desktop"></a>此前的 Power BI Desktop 月度更新
 
@@ -33,6 +33,57 @@ ms.locfileid: "51619853"
 也可以通过单击更新列表下的视频图像上的“**播放**”按钮，从头观看本文中的**最新更新**视频。
 
 以下各节描述了 **Power BI Desktop** 之前月份的更新。
+
+## <a name="november-2018-update-2645285461"></a>2018 年 11 月更新 (2.64.5285.461)
+
+我们 11 月的更新推出了一系列新特性和功能。 所以，可以与你的数据和分析爱好者围坐在一起，准备好薯片，深入了解我们的更新盛宴。 
+
+以下是 11 月针对 Power BI Desktop 推出的更新：
+
+### <a name="reporting"></a>报表
+
+* 展开和折叠矩阵行标题  [[视频]](https://youtu.be/1xsXXoyTxfk?t=16)  [[文章]](power-bi-reports-filters-and-highlighting.md)  [[博客]](https://powerbi.microsoft.com/blog/power-bi-desktop-november-2018-feature-summary/%23expandCollapse) 
+* 在 Desktop 文件之间复制和粘贴 [[视频]](https://youtu.be/1xsXXoyTxfk?t=199)  [[文章]](desktop-report-view.md#copy-and-paste-between-reports)  [[博客]](https://powerbi.microsoft.com/blog/power-bi-desktop-november-2018-feature-summary/%23copyPaste)
+* 更新了筛选体验（预览）[[视频]](https://youtu.be/1xsXXoyTxfk?t=410)   [[文章]](power-bi-reports-filters-and-highlighting.md)  [[博客]](https://powerbi.microsoft.com/blog/power-bi-desktop-november-2018-feature-summary/%23filterPane)
+* 报表辅助功能改进 [[视频]](https://youtu.be/1xsXXoyTxfk?t=1036)  [[文章]](desktop-accessibility.md)  [[博客]](https://powerbi.microsoft.com/blog/power-bi-desktop-november-2018-feature-summary/%23reportAccessibility)
+
+### <a name="analytics"></a>分析
+
+* 视觉对象上的色彩饱和度升级为使用条件格式设置 [[视频]](https://youtu.be/1xsXXoyTxfk?t=1224)  [[博客]](https://powerbi.microsoft.com/blog/power-bi-desktop-november-2018-feature-summary/%23conditionalFormatting) 
+* 问答资源管理器中的后续问题 [[视频]](https://youtu.be/1xsXXoyTxfk?t=1429)  [[博客]](https://powerbi.microsoft.com/blog/power-bi-desktop-november-2018-feature-summary/%23relatedQuestions) 
+
+
+### <a name="modeling"></a>建模
+
+* 新的建模视图（预览）[[视频]](https://youtu.be/1xsXXoyTxfk?t=1642)  [[文章]](desktop-modeling-view.md)  [[博客]](https://powerbi.microsoft.com/blog/power-bi-desktop-november-2018-feature-summary/%23modellingView) 
+* 复合模型现已公开发布 [[视频]](https://youtu.be/1xsXXoyTxfk?t=1941)  [[文章]](desktop-composite-models.md)  [[博客]](https://powerbi.microsoft.com/blog/power-bi-desktop-november-2018-feature-summary/%23compositeModels) 
+* 建模辅助功能改进 [[视频]](https://youtu.be/1xsXXoyTxfk?t=2023)  [[文章]](desktop-accessibility.md)  [[博客]](https://powerbi.microsoft.com/blog/power-bi-desktop-november-2018-feature-summary/%23modellingAccessibility) 
+* 新 DAX 函数 [[视频]](https://youtu.be/1xsXXoyTxfk?t=2066)  [[博客]](https://powerbi.microsoft.com/blog/power-bi-desktop-november-2018-feature-summary/%23dax) 
+
+### <a name="custom-visuals"></a>自定义视觉对象
+
+* 五个新自定义视觉对象  [[视频]](https://youtu.be/1xsXXoyTxfk?t=2108)  [[博客]](https://powerbi.microsoft.com/blog/power-bi-desktop-november-2018-feature-summary/%23customVisuals) 
+
+### <a name="data-connectivity"></a>数据连接
+
+* Azure DevOps Server 连接器 [[视频]](https://youtu.be/1xsXXoyTxfk?t=2641)  [[博客]](https://powerbi.microsoft.com/blog/power-bi-desktop-november-2018-feature-summary/%23devOps) 
+* PDF 连接器支持起始页和结束页参数  [[视频]](https://youtu.be/1xsXXoyTxfk?t=2667)   [[文章]](desktop-connect-pdf.md)  [[博客]](https://powerbi.microsoft.com/blog/power-bi-desktop-november-2018-feature-summary/%23pdf) 
+* 改进了 Azure Consumption Insights 连接器  [[视频]](https://youtu.be/1xsXXoyTxfk?t=2704)  [[文章]](desktop-connect-azure-consumption-insights.md)  [[博客]](https://powerbi.microsoft.com/blog/power-bi-desktop-november-2018-feature-summary/%23consumptionInsights) 
+
+
+> [!NOTE]
+> 还可以[查看 Power BI Desktop 可用的所有数据源](desktop-data-sources.md)；我们的列表始终在不断增加内容，请时常返回查看。
+
+想了解有关这些更新的详细信息？ 请查看[博客文章](https://powerbi.microsoft.com/blog/power-bi-desktop-november-2018-feature-summary)，你可以在其中获取有关上述每项新增功能的更为详细的信息（此博客文章即为上文列表引用的博客文章）。
+
+
+以下视频通道介绍和展示了上述的每项更新。 你还可以从博客文章查看该视频。
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/1xsXXoyTxfk?controls=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+> [!NOTE]
+> 你可能还有兴趣了解 [Power BI 服务中的新增功能](service-whats-new.md)，请同时查看 [Power BI 移动应用中的新增功能](consumer/mobile/mobile-whats-new-in-the-mobile-apps.md)。
+
 
 ## <a name="october-2018-update-263327240262"></a>2018 年 10 月更新 (2.63.3272.40262)
 
@@ -363,7 +414,7 @@ ms.locfileid: "51619853"
 ### <a name="analytics"></a>分析
 
 * 更新语言架构  [[视频]](https://youtu.be/W_Nb73Od_AI?t=22m)  [[文章]](power-bi-custom-visuals-organization.md)  [[博客]](https://powerbi.microsoft.com/blog/power-bi-desktop-april-2018-feature-summary/#linguisticSchema) 
-* 新 DAX 函数：COMBINEVALUES()  [[视频]](https://youtu.be/W_Nb73Od_AI?t=23m37s)  [[博客]](https://powerbi.microsoft.com/blog/power-bi-desktop-april-2018-feature-summary/#combineValues) 
+* 新的 DAX 函数：COMBINEVALUES()  [[视频]](https://youtu.be/W_Nb73Od_AI?t=23m37s)  [[博客]](https://powerbi.microsoft.com/blog/power-bi-desktop-april-2018-feature-summary/#combineValues) 
 
 ### <a name="custom-visuals"></a>自定义视觉对象
 
@@ -373,7 +424,7 @@ ms.locfileid: "51619853"
 ### <a name="data-connectivity"></a>数据连接
 
 * Adobe Analytics 连接器现已公开发布  [[视频]](https://youtu.be/kuI6MMzDh34?t=32m)  [[文章]](desktop-multi-select.md)  [[博客]](https://powerbi.microsoft.com/blog/power-bi-desktop-april-2018-feature-summary/#adobeAnalytics) 
-* SAP HANA 连接器改进：端口选项  [[视频]](https://youtu.be/kuI6MMzDh34?t=32m44s)  [[文章]](desktop-directquery-sap-hana.md)  [[博客]](https://powerbi.microsoft.com/blog/power-bi-desktop-april-2018-feature-summary/#sapHana) 
+* SAP HANA 连接器改进：端口选择  [[视频]](https://youtu.be/kuI6MMzDh34?t=32m44s)  [[文章]](desktop-directquery-sap-hana.md)  [[博客]](https://powerbi.microsoft.com/blog/power-bi-desktop-april-2018-feature-summary/#sapHana) 
 * Dynamics 365 Business Central 连接器  [[视频]](https://youtu.be/kuI6MMzDh34?t=34m10s)  [[文章]](desktop-directquery-sap-hana.md)  [[博客]](https://powerbi.microsoft.com/blog/power-bi-desktop-april-2018-feature-summary/#dynamics365BusinessCentral) 
 
 
@@ -1612,8 +1663,8 @@ ms.locfileid: "51619853"
 -   查看视觉对象背后的数据（包括将数据导出到 CSV）
 -   地图改进 - 仅使用纬度/经度绘制地图
 -   KPI 消耗发布支持（包括对 SSAS MD 的导航层次结构支持及其 KPI 趋势）
--   SSAS 浏览模式：针对**字段**窗格中**显示**文件夹的支持
--   功能区布局改进：**报表工具**的“上下文”功能区选项卡
+-   SSAS 浏览模式：针对“字段”窗格中“显示”文件夹的支持
+-   功能区布局改进：报表工具的上下文功能区选项卡
 -   新的 KPI 视觉对象
 -   在保存报表时可见的同一页面中打开报表
 -   “字段”窗格（**报表** & **数据**视图）中表格上下文菜单中的**编辑查询**选项
@@ -1711,7 +1762,7 @@ ms.locfileid: "51619853"
 
 -   可视化效果的增强功能：
     - **表格**视觉对象中的排序状态的视觉提示
-    - 新视觉对象：**堆积面积**图
+    - 新增视觉对象：堆积面积图
     - 鼠标悬停时的**面积**图和**折线**图的智能工具提示
     - 能够为**笛卡尔**视觉对象创建参考线/区域
     - 改进了**饼**图和**散点**图的数据标签
@@ -1913,7 +1964,7 @@ ms.locfileid: "51619853"
 - “刷新全部预览”，用于一键式刷新所有查询编辑器预览
 - 性能改进：
     - 选择列对话框：提升了宽表格处理速度
-    - “自动筛选和展开/聚合”弹出窗口：更快地处理大量值/字段
+    - 自动筛选和展开/聚合弹出窗口：针对值/字段量较大的情况提升了处理速度
 
 下面的视频对这些功能进行了更为详尽的介绍。
 

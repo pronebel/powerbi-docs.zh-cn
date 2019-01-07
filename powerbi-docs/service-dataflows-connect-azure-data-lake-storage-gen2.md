@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 12/10/2018
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: 58c9d41769179b84d9d7cdc79d02f66bc4c99953
-ms.sourcegitcommit: 76b07d55e85110a6ae8c49e08e80e4fa63826166
+ms.openlocfilehash: 72c3c2fde92de45d3a93f087d217af1f50e50601
+ms.sourcegitcommit: bb4cf3469b44e451153c469725a9069dcd548809
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/11/2018
-ms.locfileid: "53200640"
+ms.lasthandoff: 12/20/2018
+ms.locfileid: "53649036"
 ---
 # <a name="connect-azure-data-lake-storage-gen2-for-dataflow-storage-preview"></a>连接 Azure Data Lake Storage Gen2 以存储数据流（预览）
 
@@ -76,7 +76,7 @@ ms.locfileid: "53200640"
 
 在将存储帐户添加到 Power BI 之前，必须创建名为 powerbi 的文件系统。 创建此类文件系统的方法有多种，包括使用 Azure Databricks、HDInsight、AZCopy 或 Azure 存储资源管理器创建。 本节介绍使用 Azure 存储资源管理器创建文件系统的简单方法。
 
-此步骤要求安装 Azure 存储资源管理器。 要安装适用于 Windows、Macintosh 或 Linux 的 Azure 存储资源管理器，请参阅 [Azure 存储资源管理器](https://azure.microsoft.com/features/storage-explorer/)。
+此步骤要求安装 Azure 存储资源管理器 1.6.1 版本或更高版本。 要安装适用于 Windows、Macintosh 或 Linux 的 Azure 存储资源管理器，请参阅 [Azure 存储资源管理器](https://azure.microsoft.com/features/storage-explorer/)。
 
 1. 成功安装 Azure 存储资源管理器后，首次启动时将显示 Microsoft Azure 存储资源管理器 - 连接窗口。 虽然存储资源管理器提供了多种连接存储帐户的方法，但目前只支持一种方式进行所需的设置。 
 
@@ -108,11 +108,11 @@ ms.locfileid: "53200640"
 
     ![AAD 企业应用程序](media/service-dataflows-connect-azure-data-lake-storage-gen2/dataflows-connect-adlsg2_06.jpg)
 
-4. 在搜索栏中，键入 Power，将显示 Power BI 和 Power Query 应用程序的对象 ID 集合。
+4. 在搜索栏中，键入 Power，将显示 Power BI 和 Power Query 应用程序的对象 ID 集合。 需要在后续步骤中用到这三个值。  
 
     ![搜索 Power 应用程序](media/service-dataflows-connect-azure-data-lake-storage-gen2/dataflows-connect-adlsg2_07.jpg)
 
-5. 从搜索结果中选择并复制 Power BI 服务的对象 ID。 准备好在后续步骤中粘贴该值。
+5. 从搜索结果中选择并复制 Power BI 服务和 Power BI Premium 的对象 ID。 准备好在后续步骤中粘贴这些值。
 
 7. 接下来，使用 Azure存储资源管理器导航到在上一节中创建的 powerbi 文件系统。 按照[使用 Azure 存储资源管理器设置文件和目录级别权限](https://docs.microsoft.com/azure/storage/blobs/data-lake-storage-how-to-set-permissions-storage-explorer)一文的[管理访问权限](https://docs.microsoft.com/azure/storage/blobs/data-lake-storage-how-to-set-permissions-storage-explorer#managing-access)部分中的说明进行操作。
 
@@ -120,7 +120,7 @@ ms.locfileid: "53200640"
 
    ![将全部三个访问权限分配给两个对象 ID](media/service-dataflows-connect-azure-data-lake-storage-gen2/dataflows-connect-adlsg2_07a.jpg)
 
-9. 对于在步骤 5 中收集的 Power Query Online 对象 ID，将写入、执行访问权限和默认 ACL 分配给 powerbi 文件系统。
+9. 对于在步骤 4 中收集的 Power Query Online 对象 ID，将写入、执行访问权限和默认 ACL 分配给 powerbi 文件系统。
 
    ![接下来，分配写入和执行权限](media/service-dataflows-connect-azure-data-lake-storage-gen2/dataflows-connect-adlsg2_07b.jpg)
 

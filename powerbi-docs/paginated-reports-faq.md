@@ -9,12 +9,12 @@ ms.component: report-builder
 ms.topic: overview
 ms.date: 11/05/2018
 ms.author: maggies
-ms.openlocfilehash: 0ddf95563c52af135ac7ae4fe71aeddcd2ce7313
-ms.sourcegitcommit: b23fdcc0ceff5acd2e4d52b15b310068236cf8c7
+ms.openlocfilehash: d3fdf9b568aa13ba5a8437c684835e0fce803d19
+ms.sourcegitcommit: bb4cf3469b44e451153c469725a9069dcd548809
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/07/2018
-ms.locfileid: "51266638"
+ms.lasthandoff: 12/20/2018
+ms.locfileid: "53649436"
 ---
 # <a name="paginated-reports-in-power-bi-faq-preview"></a>Power BI 中的分页报表：常见问题解答（预览）
 
@@ -59,7 +59,7 @@ Office 365 审核日志在以下事件下详细记录此报表类型的使用情
 
 ### <a name="can-i-monitor-this-workload-through-the-premium-capacity-monitoring-app"></a>我可以通过高级容量监视应用来监视此工作负载吗？
 
-目前还不行。 我们将在公共预览版中提供监视功能，作为现有报表中的新选项卡，它具有与 Power BI 数据集中相同的相关详细信息。
+可以，已增添了新的选项卡“监视”，其中包含了 Power BI 数据集的相关详细信息。
 
 ### <a name="do-i-need-a-pro-license-to-create-and-publish-paginated-reports"></a>我是否需要具有 Pro 许可证才能创建和发布分页报表？
 
@@ -73,9 +73,9 @@ Office 365 审核日志在以下事件下详细记录此报表类型的使用情
 
 每个高级 SKU 支持的分页报表的默认内存为：
 
-- P1/A4：默认为 20%，最低为 10%
-- P2/A5：默认为 10%，最低为 5%
-- P3/A6：默认为 5%，最低为 2.5%
+- **P1/A4**：默认为 20%，最低为 10%
+- **P2/A5**：默认为 20%，最低为 5%
+- **P3/A6**：默认为 20%，最低为 2.5%
 
 ## <a name="general"></a>常规
 
@@ -113,15 +113,12 @@ Power BI 报表针对浏览和交互性进行了优化。  例如，对于销售
 - 书签
 - 必应地图层
 - 自定义字体
-- 隐藏参数
-
-尚不支持切换和交互式排序，但预计不久就会推出这些功能。    
 
 如果你尝试上传具有在 Power BI 服务中不受支持的功能的文件，则将收到一条错误消息，而不是切换/排序。
 
 ### <a name="what-data-sources-do-you-support-currently-for-paginated-reports"></a>分页报表当前支持的数据源有哪些？
 
-我们支持 Azure SQL 数据库以及使用本地网关的 SQL Server 和 SQL Server Analysis Services (SSAS) 表格模型。 我们当前不支持 SSAS 多维 (MDX) 模型。
+我们支持 Azure SQL 数据库以及使用本地网关的 SQL Server、SQL Server Analysis Services (SSAS) 表格 (DAX) 和多维 (MDX) 模型。
 
 通过网关访问 SSAS 时，存储凭据的用户需要 SSAS 中提升的权限才能通过网关。
 
@@ -135,7 +132,7 @@ Power BI 报表针对浏览和交互性进行了优化。  例如，对于销售
 
 ### <a name="can-i-use-stored-procedures-through-the-gateway"></a>我可以在通过网关时使用存储的过程吗？
 
-你可以在通过网关时使用存储过程，但如果存储的过程含有参数，则无法执行此操作。
+可以在通过网关时使用存储过程，但如果存储过程具有参数，在某些情况下可能会出现问题。
 
 ### <a name="what-export-formats-are-available-for-my-report-in-the-power-bi-service"></a>Power BI 服务中针对我的报表提供的导出格式有哪些？
 
@@ -143,15 +140,15 @@ Power BI 报表针对浏览和交互性进行了优化。  例如，对于销售
 
 ### <a name="can-i-print-paginated-reports"></a>我可以打印分页报表吗？
 
-目前可以导出为 PDF 并打印文件。 将很快推出从分页报表直接打印的功能。 
+可以，打印可用于分页报表，并提供经过改进的全新打印预览体验。 
 
 ### <a name="are-e-mail-subscriptions-available-yet-for-paginated-reports"></a>分页报表目前提供电子邮件订阅吗？
 
-不，将在以后提供电子邮件订阅。
+不，但即将推出电子邮件订阅。
 
 ### <a name="what-features-from-ssrs-will-you-be-supporting-in-the-power-bi-service"></a>Power BI 服务中会支持 SSRS 中的哪些功能？
 
-我们的计划是尽可能提供这两种产品之间的功能的互通性。  尝试更改有关 SSRS 和 Power BI 的某些事项以适应现有 SSRS 模式可能没有太大意义，例如 Power BI 中不同的权限模型，但我们会了解来自客户和合作伙伴的反馈，以做出此类决策。
+我们的计划是为大多数场景提供功能奇偶一致性，但是尝试更改 SSRS 和 Power BI 的某些相关内容以适应现有 SSRS 模式可能没有意义。  例如，Power BI 中的不同权限模型无法映射回 SSRS。  我们期望收到客户与合作伙伴的反馈，以便制定此类决策。
 
 ### <a name="can-i-run-custom-code-in-my-report"></a>我可以在我的报表中运行自定义代码吗？
 
@@ -171,7 +168,7 @@ Power BI 报表针对浏览和交互性进行了优化。  例如，对于销售
 
 ### <a name="can-i-share-my-paginated-report-content-through-a-power-bi-app"></a>我可以通过 Power BI 应用共享我的分页报表内容吗？
 
-目前，你可以通过门户中的共享操作将个人的分页报表与其他用户共享。 我们尚不支持在应用中共享，但计划很快推出此功能。 我们也将在工具栏中设置共享按钮。
+目前，你可以通过门户中的共享操作或通过工具栏将个人的分页报表与其他用户共享。 我们尚不支持在应用中共享，但计划很快推出此功能。 
 
 ### <a name="will-other-report-specific-features-in-power-bi-like-pinning-to-report-tiles-to-dashboards-work-with-paginated-reports"></a>Power BI 中的其他特定于报表的功能（例如，将报表磁贴固定到仪表板）也适用于分页报表吗？
 
@@ -179,15 +176,15 @@ Power BI 报表针对浏览和交互性进行了优化。  例如，对于销售
 
 ### <a name="are-you-planning-to-create-a-new-authoring-tool-for-paginated-reports-in-the-power-bi-service--we-cant-do-everything-we-need-to-with-report-builder-today"></a>你是否计划在 Power BI 服务中为分页报表创建一个新的创作工具？  我们现在还不能使用报表生成器实现所有功能。
 
-我们仍在探索各种不同的理想工具，但请放心，我们将提供对各功能的支持，例如 ALM、自定义扩展等功能，以及可能仅在 SSRS 的其中一个创作工具中包含的其他功能。 
+但我们一直在持续研究不同的选项，期望在 Power BI 中部署最佳的分页报表工具。 
 
 ### <a name="is-a-migration-tool-planned-so-ssrs-customers-can-move-their-existing-reports-and-assets-to-power-bi"></a>是否计划了迁移工具以便 SSRS 客户可以将其现有报表和资产移动到 Power BI？
 
-是，但我们将在 Power BI 服务中的一组核心的支持的功能完成后计划此迁移工具。
+我们正在评估各种选项，以实现通过自动化方式将内容移动到 Power BI，但在正式上市之前尚无法提供此功能。
 
 ### <a name="will-i-ever-be-able-to-create-both-paginated-reports-and-power-bi-reports-in-a-single-authoring-tool"></a>我可以在单个创作工具中同时创建分页报表和 Power BI 报表吗？
 
-我们当前还没有计划单个创作工具，但我们正在探索方法，以将创作工具一起分发为单个 BI 套件或具有单独下载/品牌打造。
+这是有可能的。  我们当前正在研究实现此场景的方式，琢磨是将创作工具一起分发为单个 BI 套件还是提供单独下载/品牌打造功能。
 
 ### <a name="is-there-a-report-viewer-control-for-paginated-reports-in-the-power-bi-service"></a>Power BI 服务中是否有针对分页报表的报表查看器控件？
 

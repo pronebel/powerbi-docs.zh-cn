@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 11/13/2018
+ms.date: 12/10/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: a49b433af32e6c0f03d43333a424864c5463ddd3
-ms.sourcegitcommit: 6a6f552810a596e1000a02c8d144731ede59c0c8
+ms.openlocfilehash: e09c08780011ffaac7d37468e6018b079c41c669
+ms.sourcegitcommit: 298db44200b78b1281b3ae6dfe7cce7a89865ec9
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/14/2018
-ms.locfileid: "51619807"
+ms.lasthandoff: 12/13/2018
+ms.locfileid: "53329731"
 ---
 # <a name="data-sources-in-power-bi-desktop"></a>Power BI Desktop 中的数据源
 使用 Power BI Desktop，你可以连接到来自许多不同的源的数据。 在此页面底部列出了可用数据源的完整清单。
@@ -65,7 +65,7 @@ ms.locfileid: "51619807"
 * SQL Server Analysis Services 数据库
 * Oracle 数据库
 * IBM DB2 数据库
-* IBM Informix 数据库(Beta)
+* IBM Informix 数据库 (Beta)
 * IBM Netezza
 * MySQL 数据库
 * PostgreSQL 数据库
@@ -78,6 +78,7 @@ ms.locfileid: "51619807"
 * Impala
 * Google BigQuery
 * Snowflake
+* Essbase (Beta)
 * BI 连接器
 * Exasol
 * Dremio (Beta)
@@ -94,7 +95,7 @@ ms.locfileid: "51619807"
 “Power BI”类别提供下列数据连接：
 
 * Power BI 数据集
-* Power BI 数据流(Beta)
+* Power BI 数据流 (Beta)
 
 下图显示 Power BI 的“获取数据”窗口。
 
@@ -122,12 +123,12 @@ ms.locfileid: "51619807"
 
 * SharePoint Online 列表
 * Microsoft Exchange Online
-* Dynamics 365（联机）
+* Dynamics 365 (联机)
 * Dynamics NAV
 * Dynamics 365 Business Central
 * Dynamics 365 Business Central（本地）
 * Common Data Service for Apps (Beta)
-* Microsoft Azure 使用情况见解 (Beta)
+* Microsoft Azure 使用见解 (Beta)
 * Azure DevOps (Beta)
 * Azure DevOps Server (Beta)
 * Salesforce 对象
@@ -177,7 +178,7 @@ ms.locfileid: "51619807"
 * OLE DB
 * Denado
 * Paxata (Beta)
-* 空查询
+* 空白查询
 
 下图显示**其他**的**获取数据**窗口。
 

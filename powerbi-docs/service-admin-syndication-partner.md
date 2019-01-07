@@ -11,10 +11,10 @@ ms.date: 11/01/2018
 ms.author: mblythe
 LocalizationGroup: Administration
 ms.openlocfilehash: 912ed0be1e6a732db46e83f8a9b0757ad2801dab
-ms.sourcegitcommit: 46f1ba3f972f6e64bce05ad0fd527b27c49aedd6
+ms.sourcegitcommit: 13fdc8d62960f20c6d9ca1ab292f98992b47083b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/20/2018
+ms.lasthandoff: 12/18/2018
 ms.locfileid: "52157393"
 ---
 # <a name="unable-to-add-power-bi-to-office-365-partner-subscription"></a>无法将 Power BI 添加到 Office 365 合作伙伴订阅
@@ -53,7 +53,7 @@ ms.locfileid: "52157393"
 
 ### <a name="enable-ad-hoc-subscriptions"></a>启用临时订阅
 
-默认情况下，个人注册（亦称为“临时订阅”）处于禁用状态。 在这种情况下，你会在尝试注册时看到以下消息：“IT 部门已禁止注册 Microsoft Power BI”。
+默认情况下，个人注册（亦称为“临时订阅”）处于禁用状态。 在此情况下，如果尝试注册，会显示以下消息：你的 IT 部门已禁用注册 Microsoft Power BI。
 
 ![“抱歉...”图像](media/service-admin-syndication-partner/sorry.png)
 

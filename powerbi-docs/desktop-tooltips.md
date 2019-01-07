@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 09/27/2018
+ms.date: 12/10/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 8ec638eefa95ef70ab04606881bee421f82b7f11
-ms.sourcegitcommit: 02f918a4f27625b6f4e47473193ebc8219db40e2
+ms.openlocfilehash: 0b5693dfa53feba35acb559bf8606b1d03f97fdb
+ms.sourcegitcommit: 298db44200b78b1281b3ae6dfe7cce7a89865ec9
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/07/2018
-ms.locfileid: "51223299"
+ms.lasthandoff: 12/13/2018
+ms.locfileid: "53329777"
 ---
 # <a name="create-tooltips-based-on-report-pages-in-power-bi-desktop"></a>根据 Power BI Desktop 中的报表页创建工具提示
 根据 Power BI Desktop 中创建的报表页，可创建直观丰富的报表工具提示，这些提示在你将鼠标悬停在视觉对象上时显示。 通过创建用作工具提示的报表页，使自定义工具提示包含视觉对象、图像以及在报表页中创建的项的所有其他集合。 
@@ -25,17 +25,6 @@ ms.locfileid: "51223299"
 可根据需要创建任意数量的工具提示页。 每个工具提示页都可与报表中的一个或多个字段关联，以便在你将鼠标悬停在包含所选字段的视觉对象上时，将显示在工具提示页上创建的工具提示。在将鼠标悬停在该视觉对象上时，将根据鼠标悬停在其上的数据点进行筛选。 
 
 可通过报表工具提示执行各种有趣的操作。 接下来介绍如何创建工具提示以及配置工具提示时的必备操作。
-
-### <a name="enable-the-tooltips-preview"></a>启用工具提示预览 
-从 2018 年 9 月版 Power BI Desktop 开始，工具提示将普遍可用，无需启用。 
-
-如果使用早期版本的 Power BI Desktop，可以通过在 Power BI Desktop 中选择“文件”>“选项和设置”>“选项”>“预览功能”，然后选择“报表页工具提示”旁边的复选框，将其作为预览功能启用。 
-
-![启用报表工具提示的预览功能](media/desktop-tooltips/desktop-tooltips_01.png)
-
-选择启用报表工具提示的预览版本后，需重启 Power BI Desktop。
-
-始终建议升级到最新版 Power BI Desktop，可通过[获取 Power BI Desktop](desktop-get-the-desktop.md) 中的链接获取最新版。 
 
 ## <a name="create-a-report-tooltip-page"></a>创建报表工具提示页
 首先，通过单击 + 按钮创建新的报表页（该按钮位于页选项卡区域的 Power BI Desktop 画布底部）。 该按钮位于报表最后一页的旁边。 
@@ -123,8 +112,7 @@ ms.locfileid: "51223299"
 ## <a name="limitations-and-considerations"></a>限制和注意事项
 关于工具提示，有几点限制和注意事项需要牢记。
 
-* 从 2018 年 9 月版 Power BI Desktop 开始，工具提示将普遍可用，“卡片”视觉对象也支持工具提示。
-* 自 2018 年 7 月发布“Power BI Desktop”以来，工具提示支持表和矩阵视觉对象。 
+* 从 2018 年 12 月发布的 Power BI Desktop 开始，按钮视觉对象也支持工具提示。
 * 在移动应用中查看报表时，不支持报表工具提示。 
 * 自定义视觉对象不可使用报表工具提示。 
 * 当前不支持将群集作为可在报表工具提示中显示的字段。 

@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 11/21/2018
 ms.author: maggies
 LocalizationGroup: Dashboards
-ms.openlocfilehash: db6ed98f246eebba55b87fe383ffcab95c22f6dc
-ms.sourcegitcommit: f25464d5cae46691130eb7b02c33f42404011357
+ms.openlocfilehash: c4601ea54d2e55e55f0b94f4bd4c69673bb00e53
+ms.sourcegitcommit: bb4cf3469b44e451153c469725a9069dcd548809
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/10/2018
-ms.locfileid: "53180843"
+ms.lasthandoff: 12/20/2018
+ms.locfileid: "53649117"
 ---
 # <a name="intro-to-dashboard-tiles-for-power-bi-designers"></a>Power BI 设计器的仪表板磁贴简介
 
@@ -90,7 +90,7 @@ ms.locfileid: "53180843"
 
 * 如果未保存用于创建可视化效果的报表，则选择磁贴将不会产生任何操作。
 * 如果是从 Excel Online 工作簿创建磁贴，则至少需要该工作簿的“读取”权限。 否则，选择磁贴将不会打开 Excel Online 工作簿。
-* 假设使用“添加磁贴”直接在仪表板上创建磁贴，并为其设置自定义超链接。 此时，选择标题、副标题或磁贴时将打开该 URL。 否则，默认情况下，选择直接在仪表板上创建的图像、Web 代码或文本框磁贴都不会产生任何反应。
+* 假设使用“添加磁贴”直接在仪表板上创建磁贴，并为其设置自定义超链接。 这样在选择标题、副标题或磁贴时便会打开该 URL。 否则，默认情况下，选择直接在仪表板上创建的图像、Web 代码或文本框磁贴都不会产生任何反应。
 * 如果没有 Reporting Services 内的报表的权限，则选择从 Reporting Services 报表创建的磁贴时，会出现一个页面，表明你没有访问权限 (rsAccessDenied)。
 * 如果没有 Reporting Services 服务器所在网络的访问权限，则选择从 Reporting Services 创建的磁贴时，会出现一个页面，表明找不到服务器 (HTTP 404)。 设备需要具有对报表服务器的网络访问权限方可查看该报表。
 * 如果原始可视化效果用于创建磁贴更改，则磁贴不会更改。  例如，如果从报表固定一个折线图，然后将折线图更改为条形图，则仪表板磁贴会继续显示为折线图。 数据将会刷新，但可视化效果类型不会。

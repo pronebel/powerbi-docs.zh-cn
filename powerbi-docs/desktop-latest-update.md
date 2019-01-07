@@ -7,21 +7,21 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 11/13/2018
+ms.date: 12/10/2018
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: 3b2d751a174aa87a9c0c134d2579f15b084322a2
-ms.sourcegitcommit: 6a6f552810a596e1000a02c8d144731ede59c0c8
+ms.openlocfilehash: 0883d3fdd9d57b04b839fb9062b12e8bfcc17c45
+ms.sourcegitcommit: 298db44200b78b1281b3ae6dfe7cce7a89865ec9
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/14/2018
-ms.locfileid: "51619531"
+ms.lasthandoff: 12/13/2018
+ms.locfileid: "53329662"
 ---
 # <a name="whats-new-in-the-latest-power-bi-desktop-update"></a>最新 Power BI Desktop 更新中有哪些新增功能？ 
 
-## <a name="november-2018-update-2645285461"></a>2018 年 11 月更新 (2.64.5285.461)
+## <a name="december-2018-update-2655313501"></a>2018 年 12 月更新 (2.65.5313.501)
 
-我们 11 月的更新推出了一系列新特性和功能。 所以，与你的数据和分析爱好者围坐在一起，准备好薯片，深入了解我们的更新盛宴。 
+我们 12 月的更新很有可能会让你的脑海“开启糖果派对”，或至少会出现这些“小糖果”的数据驱动的视觉对象。 所以请坐在火炉旁，喝一杯美味热饮，然后开启我们的 12 月更新。 
 
 你现在可以[下载最新版本的 Power BI Desktop](https://powerbi.microsoft.com/desktop)。 如果运行的是 Windows 10，还可以从 Windows 应用商店获取 Power BI Desktop。 无论以何种方式安装 Power BI Desktop，月度版本是相同的，虽然二者的版本编号可能不同。 请参阅[本文](desktop-get-the-desktop.md)，了解详细信息。 
 
@@ -38,44 +38,56 @@ ms.locfileid: "51619531"
 
 ### <a name="reporting"></a>报表
 
-* 展开和折叠矩阵行标题  [[视频]](https://youtu.be/1xsXXoyTxfk?t=16)  [[文章]](power-bi-reports-filters-and-highlighting.md)  [[博客]](https://powerbi.microsoft.com/blog/power-bi-desktop-november-2018-feature-summary/%23expandCollapse) 
-* 在 Desktop 文件之间复制和粘贴 [[视频]](https://youtu.be/1xsXXoyTxfk?t=199)  [[文章]](desktop-report-view.md#copy-and-paste-between-reports)  [[博客]](https://powerbi.microsoft.com/blog/power-bi-desktop-november-2018-feature-summary/%23copyPaste)
-* 更新了筛选体验（预览）[[视频]](https://youtu.be/1xsXXoyTxfk?t=410)   [[文章]](power-bi-reports-filters-and-highlighting.md)  [[博客]](https://powerbi.microsoft.com/blog/power-bi-desktop-november-2018-feature-summary/%23filterPane)
-* 报表辅助功能改进 [[视频]](https://youtu.be/1xsXXoyTxfk?t=1036)  [[文章]](desktop-accessibility.md)  [[博客]](https://powerbi.microsoft.com/blog/power-bi-desktop-november-2018-feature-summary/%23reportAccessibility)
+* 用于对齐页面上对象的智能参考线  [[视频]](https://youtu.be/AHNlkjRFdYI?t=11)  [[文章]](power-bi-reports-filters-and-highlighting.md)  [[博客]](https://powerbi.microsoft.com/blog/power-bi-desktop-december-2018-feature-summary/#smartGuides) 
+* ArcGIS Maps for Power BI 更新  [[视频]](https://youtu.be/AHNlkjRFdYI?t=84)  [[文章]](power-bi-visualization-arcgis.md)  [[博客]](https://powerbi.microsoft.com/blog/power-bi-desktop-december-2018-feature-summary/#arcGIS) 
+* 字段列表辅助功能支持 [[视频]](https://youtu.be/AHNlkjRFdYI?t=464)  [[文章]](desktop-report-view.md#copy-and-paste-between-reports)  [[博客]](https://powerbi.microsoft.com/blog/power-bi-desktop-december-2018-feature-summary/#fieldList)
+* 设置页面上对象的 Tab 键顺序 [[视频]](https://youtu.be/AHNlkjRFdYI?t=643)  [[文章]](power-bi-reports-filters-and-highlighting.md)  [[博客]](https://powerbi.microsoft.com/blog/power-bi-desktop-december-2018-feature-summary/#tabOrder)
+* 按钮视觉对象的工具提示 [[视频]](https://youtu.be/AHNlkjRFdYI?t=884)  [[文章]](desktop-accessibility.md)  [[博客]](https://powerbi.microsoft.com/blog/power-bi-desktop-december-2018-feature-summary/#tooltips)
+* 已更新的视觉对象交互图标 [[视频]](https://youtu.be/AHNlkjRFdYI?t=974)  [[文章]](desktop-accessibility.md)  [[博客]](https://powerbi.microsoft.com/blog/power-bi-desktop-december-2018-feature-summary/#icons)
+
+
 
 ### <a name="analytics"></a>分析
 
-* 视觉对象上的色彩饱和度升级为使用条件格式设置 [[视频]](https://youtu.be/1xsXXoyTxfk?t=1224)  [[博客]](https://powerbi.microsoft.com/blog/power-bi-desktop-november-2018-feature-summary/%23conditionalFormatting) 
-* 问答资源管理器中的后续问题 [[视频]](https://youtu.be/1xsXXoyTxfk?t=1429)  [[博客]](https://powerbi.microsoft.com/blog/power-bi-desktop-november-2018-feature-summary/%23relatedQuestions) 
+* 问答（预览）的实时连接支持 [[视频]](https://youtu.be/AHNlkjRFdYI?t=1037)  [[博客]](https://powerbi.microsoft.com/blog/power-bi-desktop-december-2018-feature-summary/#liveConnectQA) 
 
 
 ### <a name="modeling"></a>建模
 
-* 新的建模视图（预览）[[视频]](https://youtu.be/1xsXXoyTxfk?t=1642)  [[文章]](desktop-modeling-view.md)  [[博客]](https://powerbi.microsoft.com/blog/power-bi-desktop-november-2018-feature-summary/%23modellingView) 
-* 复合模型现已公开发布 [[视频]](https://youtu.be/1xsXXoyTxfk?t=1941)  [[文章]](desktop-composite-models.md)  [[博客]](https://powerbi.microsoft.com/blog/power-bi-desktop-november-2018-feature-summary/%23compositeModels) 
-* 建模辅助功能改进 [[视频]](https://youtu.be/1xsXXoyTxfk?t=2023)  [[文章]](desktop-accessibility.md)  [[博客]](https://powerbi.microsoft.com/blog/power-bi-desktop-november-2018-feature-summary/%23modellingAccessibility) 
-* 新 DAX 函数 [[视频]](https://youtu.be/1xsXXoyTxfk?t=2066)  [[博客]](https://powerbi.microsoft.com/blog/power-bi-desktop-november-2018-feature-summary/%23dax) 
+* DAX 编辑栏更新 [[视频]](https://youtu.be/AHNlkjRFdYI?t=1132)  [[文章]](desktop-modeling-view.md)  [[博客]](https://powerbi.microsoft.com/blog/power-bi-desktop-december-2018-feature-summary/#daxFormulaBar) 
+* 数据视图辅助功能支持 [[视频]](https://youtu.be/AHNlkjRFdYI?t=1253)  [[文章]](desktop-composite-models.md)  [[博客]](https://powerbi.microsoft.com/blog/power-bi-desktop-december-2018-feature-summary/#dataView) 
+
 
 ### <a name="custom-visuals"></a>自定义视觉对象
 
-* 五个新自定义视觉对象  [[视频]](https://youtu.be/1xsXXoyTxfk?t=2108)  [[博客]](https://powerbi.microsoft.com/blog/power-bi-desktop-november-2018-feature-summary/%23customVisuals) 
+* 一个新自定义视觉对象  [[视频]](https://youtu.be/AHNlkjRFdYI?t=1370)  [[博客]](https://powerbi.microsoft.com/blog/power-bi-desktop-december-2018-feature-summary/#customVisuals) 
 
 ### <a name="data-connectivity"></a>数据连接
 
-* Azure DevOps Server 连接器 [[视频]](https://youtu.be/1xsXXoyTxfk?t=2641)  [[博客]](https://powerbi.microsoft.com/blog/power-bi-desktop-november-2018-feature-summary/%23devOps) 
-* PDF 连接器支持起始页和结束页参数  [[视频]](https://youtu.be/1xsXXoyTxfk?t=2667)   [[文章]](desktop-connect-pdf.md)  [[博客]](https://powerbi.microsoft.com/blog/power-bi-desktop-november-2018-feature-summary/%23pdf) 
-* 改进了 Azure Consumption Insights 连接器  [[视频]](https://youtu.be/1xsXXoyTxfk?t=2704)  [[文章]](desktop-connect-azure-consumption-insights.md)  [[博客]](https://powerbi.microsoft.com/blog/power-bi-desktop-november-2018-feature-summary/%23consumptionInsights) 
+* AtScale 连接器 (Beta) [[视频]](https://youtu.be/AHNlkjRFdYI?t=1449)  [[博客]](https://powerbi.microsoft.com/blog/power-bi-desktop-december-2018-feature-summary/#atScale) 
+* Oracle Essbase 连接器 (Beta)  [[视频]](https://youtu.be/AHNlkjRFdYI?t=1449)   [[文章]](desktop-connect-pdf.md)  [[博客]](https://powerbi.microsoft.com/blog/power-bi-desktop-december-2018-feature-summary/#essbase) 
+
+
+### <a name="data-preparation"></a>数据准备
+
+* 模糊合并 - 支持前 N 个最佳匹配 [[视频]](https://youtu.be/AHNlkjRFdYI?t=1480)  [[博客]](https://powerbi.microsoft.com/blog/power-bi-desktop-december-2018-feature-summary/#fuzzyMerge) 
+
+
+### <a name="other"></a>其他
+* 对所有窗格和报表页脚的高对比度支持 [[视频]](https://youtu.be/AHNlkjRFdYI?t=1631)   [[文章]](desktop-connect-pdf.md)  [[博客]](https://powerbi.microsoft.com/blog/power-bi-desktop-december-2018-feature-summary/#highContrast) 
+* 已更新的键盘快捷方式对话框 [[视频]](https://youtu.be/AHNlkjRFdYI?t=1654)   [[文章]](desktop-accessibility.md)  [[博客]](https://powerbi.microsoft.com/blog/power-bi-desktop-december-2018-feature-summary/#keyboardShortcuts) 
+
 
 
 > [!NOTE]
 > 还可以[查看 Power BI Desktop 可用的所有数据源](desktop-data-sources.md)；我们的列表始终在不断增加内容，请时常返回查看。
 
-想了解有关这些更新的详细信息？ 请查看[博客文章](https://powerbi.microsoft.com/blog/power-bi-desktop-november-2018-feature-summary)，你可以在其中获取有关上述每项新增功能的更为详细的信息（此博客文章即为上文列表引用的博客文章）。
+想了解有关这些更新的详细信息？ 请查看[博客文章](https://powerbi.microsoft.com/blog/power-bi-desktop-december-2018-feature-summary)，你可以在其中获取有关上述每项新增功能的更为详细的信息（此博客文章即为上文列表引用的博客文章）。
 
 
 以下视频通道介绍和展示了上述的每项更新。 你还可以从博客文章查看该视频。
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/1xsXXoyTxfk?controls=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/AHNlkjRFdYI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 > [!NOTE]
 > 你可能还有兴趣了解 [Power BI 服务中的新增功能](service-whats-new.md)，请同时查看 [Power BI 移动应用中的新增功能](consumer/mobile/mobile-whats-new-in-the-mobile-apps.md)。

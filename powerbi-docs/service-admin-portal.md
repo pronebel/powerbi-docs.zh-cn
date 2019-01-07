@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 10/30/2018
 ms.custom: seodec18
 LocalizationGroup: Administration
-ms.openlocfilehash: 5f377f60935f23b62b90731c5d7bc16c8119ab83
-ms.sourcegitcommit: 72c9d9ec26e17e94fccb9c5a24301028cebcdeb5
+ms.openlocfilehash: 6fff11d37b0f099effeafb6b88dbfa68af88f3d6
+ms.sourcegitcommit: f5e39e9ead37445bbeab795890b3d80633383032
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/07/2018
-ms.locfileid: "53026698"
+ms.lasthandoff: 12/21/2018
+ms.locfileid: "53735560"
 ---
 # <a name="administering-power-bi-in-the-admin-portal"></a>在管理门户中管理 Power BI
 
@@ -298,7 +298,7 @@ Office 365 中的全局管理员或分配有 Power BI 服务管理员角色的�
 
 组织中的用户可以将数据导入服务，如在 Power BI Desktop 中发布报表、上传 Power BI 报表文件，以及直接从服务连接到数据。 [了解详细信息](desktop-upload-desktop-files.md)
 
-## <a name="dataflow-settings-preview"></a>数据流设置（预览）
+## <a name="dataflow-settings-preview"></a>数据流设置(预览版)
 
 ### <a name="create-and-use-dataflows-preview"></a>创建和使用数据流（预览）
 
@@ -386,6 +386,18 @@ Office 365 中的全局管理员或分配有 Power BI 服务管理员角色的�
 若要更新组织存储中的视觉对象，请选择齿轮图标。 浏览并上传新版视觉对象。
 
 确保视觉对象 ID 保持不变。 新文件将替换整个组织中所有报表的旧文件。 但是，如果新版本的视觉对象可能会破坏以前版本的视觉对象的任何使用情况或数据结构，则它们不会取代以前的版本。 相反，应创建新版本视觉对象的新列表。 例如，向新列出的视觉对象的标题添加新版本号（版本 X.X）。 通过这种方式，很明显可以看到，它还是相同的版本，只不过更新了版本号，因此现有报表不会破坏它们的功能。 同样，确保视觉对象 ID 保持不变。 然后，下一次用户从 Power BI Desktop 进入组织存储库时，他们就可以导入新版本，系统会提示他们替换报表中存在的当前版本。
+
+有关详细信息，请访问[关于组织的自定义视觉对象的常见问题解答](https://docs.microsoft.com/en-us/power-bi/power-bi-custom-visuals-faq#organizational-custom-visuals)
+
+## <a name="dataflow-storage-preview"></a>数据流存储(预览版)
+
+默认情况下，Power BI 中使用的数据存储在由 Power BI 提供的内部存储中。 通过数据流与 Azure Data Lake Storage Gen2 (ADLS Gen2) 的集成，可将数据流存储在组织的 Azure Data Lake Storage Gen2 帐户中。 有关详细信息，请参阅[数据流和 Azure Data Lake 集成（预览）](service-dataflows-azure-data-lake-integration.md)。
+
+## <a name="workspaces-preview"></a>工作区（预览）
+
+作为管理员，可以查看租户中存在的工作区。 可以对列表中的工作区进行排序和筛选并显示每个工作区的详细信息。 请注意，表列对应于由 [Power BI 管理员 Rest API](/rest/api/power-bi/admin) 为工作区返回的属性。 个人工作区的类型是 PersonalGroup，旧版工作区的类型是 Group，新式工作区的类型是 Workspace。 有关详细信息，请参阅[在 Power BI 中创建新工作区（预览）](service-create-the-new-workspaces.md)。
+
+![工作区列表](media/service-admin-portal/workspaces-list.png)
 
 ## <a name="next-steps"></a>后续步骤
 
