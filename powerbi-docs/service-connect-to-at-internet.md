@@ -5,17 +5,17 @@ author: SarinaJoan
 manager: kfile
 ms.reviewer: maggiesMSFT
 ms.service: powerbi
-ms.component: powerbi-service
+ms.subservice: powerbi-template-apps
 ms.topic: conceptual
 ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: c65cc7052a3a056280561643c7734212b92769be
-ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
+ms.openlocfilehash: 5afb79f52c4717887ba16d9ca43f913ba3446627
+ms.sourcegitcommit: 750f0bfab02af24c8c72e6e9bbdd876e4a7399de
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/21/2018
-ms.locfileid: "46549402"
+ms.lasthandoff: 01/04/2019
+ms.locfileid: "54008364"
 ---
 # <a name="connect-to-at-internet-bridge-with-power-bi"></a>使用 Power BI 连接到 AT Internet Bridge
 AT Internet 可帮助你使用其统一数字分析平台 Analytics Suite 从你的数据中提取即时值。 适用于 Power BI 的 AT Internet Bridge 内容包中包含你站点的访问、源、本地化和设备这些方面的数据。

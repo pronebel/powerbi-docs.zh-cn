@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 11/28/2018
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: 2800eb5b01e8203632ae60c9b304a5ed9ce28b69
-ms.sourcegitcommit: 2ae660a7b70fce23eb58b159d049eca44a664f2c
+ms.openlocfilehash: 281e84b1dd3a3c21a7aaebce4784551a8afb31ba
+ms.sourcegitcommit: 88ae40a25ea54ef7153885dd04ef57d12522d4e1
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/30/2018
-ms.locfileid: "52670186"
+ms.lasthandoff: 01/04/2019
+ms.locfileid: "54056055"
 ---
 # <a name="enroll-your-us-government-organization-in-the-power-bi-service"></a>在 Power BI 服务中注册你的美国政府组织
 **Power BI 服务**有一个可供美国政府客户使用的版本，作为 **Office 365 美国政府社区**订阅的一部分。 本文中讨论的 **Power BI 服务**版本是为美国政府客户专门设计的，独立且不同于 **Power BI 服务**的商业版本。
@@ -100,9 +100,9 @@ ms.locfileid: "52670186"
 * 所有免费版许可证用户将无法再使用 **Power BI Desktop** 登录到 Power BI，并且将遇到下一部分中所述的功能缺陷。
 * 分配到美国政府 Pro 许可证的所有客户端将按照预期方式运行，包括使用网关、Power BI Desktop 和移动应用。
 
-使用免费版和美国政府版租户中的 Pro 许可证的组合并完成 *列入允许列表* 过程后，预计将出现以下情况：
+使用免费版和美国政府版租户中的 Pro 许可证的组合并完成*列入允许列表*过程后，预计将出现以下情况：
 
-**在*列入允许列表之前***：
+**在_列入允许列表_之前**：
 
 * 具有免费版许可证的用户在商业云中运行
 * 门户中显示 Pro 美国政府版许可证，并且管理员可以将这些许可证分配给用户。 管理员分配美国政府 Pro 许可证后，Pro 美国政府版用户将不会丢失其免费版许可证中的数据。 分配有许可证的用户可以访问适用于美国政府版客户的 Power BI Pro 功能，但是将存在下列项目符号列表功能缺陷，直至成功将租户*列入允许列表*：
@@ -112,7 +112,7 @@ ms.locfileid: "52670186"
   * 必须从商业版 Power BI 服务手动上传 PBIX 文件
   * Power BI 移动应用不可用
 
-**在*列入允许列表之后***：
+**在_列入允许列表_之后**：
 
 * 在商业版 Power BI 服务中运行的免费版用户可以继续运行，但是它将按预期方式停止进行身份验证。
 * 美国政府版云中运行的 Pro 用户可以按预期方式使用**适用于美国政府版客户的 Power BI** 服务。

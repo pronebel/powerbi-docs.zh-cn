@@ -5,17 +5,17 @@ author: SarinaJoan
 manager: kfile
 ms.reviewer: maggiesMSFT
 ms.service: powerbi
-ms.component: powerbi-service
+ms.subservice: powerbi-template-apps
 ms.topic: conceptual
 ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 370613fb4436eb71ae0b6af6c0b5166e8bb7b434
-ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
+ms.openlocfilehash: 8d95ab3675fdced31641a8abbffa31ed0a6643c1
+ms.sourcegitcommit: 750f0bfab02af24c8c72e6e9bbdd876e4a7399de
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/21/2018
-ms.locfileid: "46546685"
+ms.lasthandoff: 01/04/2019
+ms.locfileid: "54008295"
 ---
 # <a name="connect-to-azure-mobile-engagement-with-power-bi"></a>使用 Power BI 连接到 Azure Mobile Engagement
 通过 Power BI Azure Mobile Engagement 内容包可以快速深入了解应用数据。

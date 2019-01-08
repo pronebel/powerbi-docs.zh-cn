@@ -5,17 +5,17 @@ author: SarinaJoan
 manager: kfile
 ms.reviewer: maggiesMSFT
 ms.service: powerbi
-ms.component: powerbi-service
+ms.subservice: powerbi-template-apps
 ms.topic: conceptual
 ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 475f3ddf646ddc9c5f29409854f93128ce94dd51
-ms.sourcegitcommit: 52ac456bf2ac025b22ea634c28482f22e1cc19ac
+ms.openlocfilehash: 465e54c811691a7149dfff03d48bec797474ca66
+ms.sourcegitcommit: 750f0bfab02af24c8c72e6e9bbdd876e4a7399de
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/10/2018
-ms.locfileid: "48908822"
+ms.lasthandoff: 01/04/2019
+ms.locfileid: "54008801"
 ---
 # <a name="connect-to-microsoft-dynamics-crm-with-power-bi"></a>使用 Power BI 连接到 Microsoft Dynamics CRM
 用于 Power BI 的 Microsoft Dynamics CRM Online 使你能够轻松地访问和分析数据。 Power BI 使用 OData 数据源以创建描述性模型，其中具有所需的所有实体和度量值，如帐户、活动、商机、产品、潜在客户、用户等。 安装应用后，可以在 Power BI 服务 ([https://powerbi.com](https://powerbi.com)) 和 Power BI 移动应用中查看仪表板和报表。 
@@ -137,7 +137,7 @@ ms.locfileid: "48908822"
 
 Power BI 仅支持 Dynamics CRM 2016 终结点。 该连接不适用于早期版本的 CRM Online。 使用 Power BI Desktop 直接连接到你的帐户。
 
-## <a name="troubleshooting"></a>疑难解答
+## <a name="troubleshooting"></a>故障排除
 如果你遇到连接问题，请确认：  
 
 * 你提供的是正确的实例 URL（使用管理员帐户检查）  

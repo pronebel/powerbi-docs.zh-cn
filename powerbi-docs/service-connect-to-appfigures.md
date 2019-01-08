@@ -5,17 +5,17 @@ author: SarinaJoan
 manager: kfile
 ms.reviewer: maggiesMSFT
 ms.service: powerbi
-ms.component: powerbi-service
+ms.subservice: powerbi-template-apps
 ms.topic: conceptual
 ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: f5d1b07a4066b897aaa0946c6f5417a9de4f458f
-ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
+ms.openlocfilehash: 2a19cc832f7e03acfd224c6ab2409016ce8da770
+ms.sourcegitcommit: 750f0bfab02af24c8c72e6e9bbdd876e4a7399de
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/21/2018
-ms.locfileid: "46549481"
+ms.lasthandoff: 01/04/2019
+ms.locfileid: "54008713"
 ---
 # <a name="connect-to-appfigures-with-power-bi"></a>使用 Power BI 连接到 appFigures
 可使用 Power BI 和 appFigures 内容包轻松地跟踪有关应用的重要统计信息。 Power BI 会检索数据（包括应用销售量、下载量和广告统计信息），然后生成默认仪表板以及基于该数据的相关报表。

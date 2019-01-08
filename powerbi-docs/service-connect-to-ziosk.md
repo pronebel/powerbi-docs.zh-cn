@@ -5,17 +5,17 @@ author: SarinaJoan
 manager: kfile
 ms.reviewer: maggiesMSFT
 ms.service: powerbi
-ms.component: powerbi-service
+ms.subservice: powerbi-template-apps
 ms.topic: conceptual
 ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 4b47e620c0469ed56a7afb413a5775cf2a34c4d4
-ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
+ms.openlocfilehash: d22f67f52d0abe0621e244874def845c7d25c15b
+ms.sourcegitcommit: 750f0bfab02af24c8c72e6e9bbdd876e4a7399de
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/21/2018
-ms.locfileid: "46546527"
+ms.lasthandoff: 01/04/2019
+ms.locfileid: "54008751"
 ---
 # <a name="connect-to-ziosk-survey-analytics-with-power-bi"></a>使用 Power BI 连接到 Ziosk 调查分析
 通过 Power BI 的 Ziosk 调查分析内容包，使用 Ziosk 平板电脑的餐厅可以非常方便地访问 Ziosk 调查数据所提供的见解，包括按日期、位置、员工等进行的分段。

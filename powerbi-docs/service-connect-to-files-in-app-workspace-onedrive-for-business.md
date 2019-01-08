@@ -5,17 +5,17 @@ author: maggiesMSFT
 manager: kfile
 ms.reviewer: lukasz
 ms.service: powerbi
-ms.component: powerbi-service
+ms.subservice: powerbi-template-apps
 ms.topic: conceptual
 ms.date: 08/02/2018
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: c732d1128719db500e13194d36ba1db2605efd2c
-ms.sourcegitcommit: 52ac456bf2ac025b22ea634c28482f22e1cc19ac
+ms.openlocfilehash: 1b40cf858fd42e9e73a64e926fef0caf917ed064
+ms.sourcegitcommit: 750f0bfab02af24c8c72e6e9bbdd876e4a7399de
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/10/2018
-ms.locfileid: "48908688"
+ms.lasthandoff: 01/04/2019
+ms.locfileid: "54008893"
 ---
 # <a name="connect-to-files-stored-in-onedrive-for-your-power-bi-app-workspace"></a>连接到用于 Power BI 应用工作区的 OneDrive 中存储的文件
 [在 Power BI 中创建应用工作区](service-create-distribute-apps.md)后，可以将 Excel、CSV 和 Power BI Desktop 文件存储在 Power BI 应用工作区的 OneDrive for Business 上。 可以继续更新已存储在 OneDrive 中的文件，这些更新会按文件自动反映在 Power BI 报表和仪表板中。 

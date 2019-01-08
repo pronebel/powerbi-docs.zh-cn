@@ -5,17 +5,17 @@ author: SarinaJoan
 manager: kfile
 ms.reviewer: maggiesMSFT
 ms.service: powerbi
-ms.component: powerbi-service
+ms.subservice: powerbi-template-apps
 ms.topic: conceptual
 ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 49fab6884a4acd548ccb5c17913c003763af8cab
-ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
+ms.openlocfilehash: c8c17fe5349486d9583b8f44ccee1af36e86c761
+ms.sourcegitcommit: 750f0bfab02af24c8c72e6e9bbdd876e4a7399de
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/21/2018
-ms.locfileid: "46549698"
+ms.lasthandoff: 01/04/2019
+ms.locfileid: "54008711"
 ---
 # <a name="connect-to-circuit-id-with-power-bi"></a>使用 Power BI 连接到 Circuit ID
 借助 Power BI 轻松分析 Circuit ID 的通信数据。 Power BI 检索数据，然后生成默认的仪表板并基于此数据生成相关的报表。 创建连接后，你可以根据需要管理数据并自定义仪表板。 数据每日自动刷新。

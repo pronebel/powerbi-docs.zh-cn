@@ -5,17 +5,17 @@ author: SarinaJoan
 manager: kfile
 ms.reviewer: maggiesMSFT
 ms.service: powerbi
-ms.component: powerbi-service
+ms.subservice: powerbi-template-apps
 ms.topic: conceptual
 ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 0bb592d508e959267df31e705aa833394aa4d19e
-ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
+ms.openlocfilehash: 4537f2845d89361cf06bc93a6a9c435275d9464d
+ms.sourcegitcommit: 750f0bfab02af24c8c72e6e9bbdd876e4a7399de
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/21/2018
-ms.locfileid: "46544868"
+ms.lasthandoff: 01/04/2019
+ms.locfileid: "54008134"
 ---
 # <a name="connect-to-twilio-with-power-bi"></a>使用 Power BI 连接到 Twilio
 适用于 Power BI 的 Microsoft Twilio 内容包允许将数据导入 Power BI 并创建全新的 [Twilio 仪表板](https://powerbi.microsoft.com/integrations/twilio) 和报表，呈现你对数据的见解。 你还可以对 Power BI 创建的数据集创建报表和仪表板。 数据将每天刷新一次，因此你看到的始终都是最新数据。

@@ -5,17 +5,17 @@ author: SarinaJoan
 manager: kfile
 ms.reviewer: maggiesMSFT
 ms.service: powerbi
-ms.component: powerbi-service
+ms.subservice: powerbi-template-apps
 ms.topic: conceptual
 ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: ef59d5f42ba913e4ecad79116dea635744534198
-ms.sourcegitcommit: 52ac456bf2ac025b22ea634c28482f22e1cc19ac
+ms.openlocfilehash: 8ea62f894b01143997850f3c15f2a069b93d7c26
+ms.sourcegitcommit: 750f0bfab02af24c8c72e6e9bbdd876e4a7399de
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/10/2018
-ms.locfileid: "48908569"
+ms.lasthandoff: 01/04/2019
+ms.locfileid: "54008686"
 ---
 # <a name="connect-to-adobe-analytics-with-power-bi"></a>使用 Power BI 连接到 Adobe Analytics
 通过 Power BI 连接到 Adobe Analytics 首先会连接到你的 Adobe Analytics 市场营销云帐户。 你将获得一个带 Power BI 仪表板和一组 Power BI 报表的应用，这些报表会提供网站流量和用户维度的相关见解。 此数据每天自动刷新一次。 可以与仪表板和报表进行交互，但不能保存更改。
@@ -88,7 +88,7 @@ Power BI 使用 Adobe Analytics 报表 API 为以下表定义和运行报表：
 
 ![](media/service-connect-to-adobe-analytics/reportsuiteid.png)
 
-## <a name="troubleshooting"></a>疑难解答
+## <a name="troubleshooting"></a>故障排除
 如果你在提供凭据之后看到指示你没有权限的错误，请向管理员确认你有权访问 Adobe Analytics API。 还需确认提供的 Adobe ID 链接到市场营销云组织（关联到 Adobe Analytics 公司）。
 
 如果你在遇到错误之前已成功通过凭据屏幕，则可能是报表完成花费的时间太长。 常见错误形式如下：*“未能从 Adobe Analytics 报表获取数据。内容包括&quot;引用方，页面&quot;，大致持续时间为 xx 秒”*。 请查看“包含的内容”部分，并与 Adobe 实例的大小进行比较。 遗憾的是，目前尚无法解决此超时问题。 但我们正考虑进行更新以支持较大实例，请在 https://ideas.powerbi.com 向我们的 Power BI 团队提供反馈
