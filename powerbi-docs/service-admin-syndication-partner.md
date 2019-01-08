@@ -11,10 +11,10 @@ ms.date: 11/01/2018
 ms.author: mblythe
 LocalizationGroup: Administration
 ms.openlocfilehash: 912ed0be1e6a732db46e83f8a9b0757ad2801dab
-ms.sourcegitcommit: 13fdc8d62960f20c6d9ca1ab292f98992b47083b
+ms.sourcegitcommit: c09241803664643e1b2ba0c150e525e1262ca466
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/18/2018
+ms.lasthandoff: 01/08/2019
 ms.locfileid: "52157393"
 ---
 # <a name="unable-to-add-power-bi-to-office-365-partner-subscription"></a>无法将 Power BI 添加到 Office 365 合作伙伴订阅
