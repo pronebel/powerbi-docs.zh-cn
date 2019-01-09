@@ -98,18 +98,12 @@ items:
       href: desktop-connect-to-data.md
     - name: 从 Power BI Desktop 进行发布
       href: desktop-upload-desktop-files.md
-    - name: Power BI 中的自定义可视化效果
-      href: power-bi-custom-visuals.md
-    - name: Power BI 中适用于组织的自定义视觉对象
-      href: power-bi-custom-visuals-organization.md
     - name: 第 1 部分，向 Power BI 报表添加可视化效果
       href: visuals/power-bi-report-add-visualizations-i.md
     - name: 第 2 部分，向 Power BI 报表添加可视化效果
       href: visuals/power-bi-report-add-visualizations-ii.md
     - name: 自定义可视化效果的标题、背景和图例
       href: visuals/power-bi-visualization-customize-title-background-and-legend.md
-    - name: 自定义视觉对象疑难解答
-      href: power-bi-custom-visuals-troubleshoot.md
     - name: 连接到数据
       items:
       - name: Power BI Desktop 中的数据源
@@ -358,7 +352,7 @@ items:
         href: visuals/power-bi-visualization-waterfall-charts.md
       - name: 创建动态参考行
         href: service-analytics-pane.md
-    - name: 故障排除
+    - name: 疑难解答
       items:
       - name: 解决在 Power BI Desktop 和 Power Query 中导入 Access 数据库和 Excel 电子表格时出现的问题
         href: desktop-access-database-errors.md
@@ -618,7 +612,7 @@ items:
         href: service-share-dashboard-that-links-to-excel-onedrive.md
       - name: Power BI Publisher for Excel
         href: publisher-for-excel.md
-    - name: 故障排除
+    - name: 疑难解答
       items:
       - name: 忘记了 Power BI 的密码？
         href: service-admin-forgot-your-password.md
@@ -880,7 +874,7 @@ items:
         href: developer/power-bi-permissions.md
     - name: 操作方法
       items:
-      - name: 如何从应用嵌入
+      - name: 从应用中嵌入
         href: developer/embed-from-apps.md
       - name: 创建 Azure Active Directory 租户
         href: developer/create-an-azure-active-directory-tenant.md
@@ -890,8 +884,6 @@ items:
         href: developer/get-azuread-access-token.md
       - name: 嵌入式常见问题解答
         href: developer/qanda.md
-      - name: 嵌入式应用程序疑难解答
-        href: developer/embedded-troubleshoot.md
       - name: 在 Azure 中管理容量
         items:
         - name: 在 Azure 中创建容量
@@ -902,6 +894,10 @@ items:
           href: developer/azure-pbie-scale-capacity.md
         - name: 在 Azure 中暂停和启动容量
           href: developer/azure-pbie-pause-start.md
+      - name: 疑难解答
+        items:
+        - name: 嵌入式应用程序疑难解答
+          href: developer/embedded-troubleshoot.md
       - name: 从工作区集合进行迁移
         items:
         - name: 如何从 Power BI 工作区集合进行迁移
@@ -944,12 +940,12 @@ items:
         href: https://go.microsoft.com/fwlink/?linkid=848280
       - name: Stack Overflow
         href: https://go.microsoft.com/fwlink/?linkid=848281
-  - name: 开发自定义视觉对象
+  - name: 自定义视觉对象
     items:
     - name: 概览
       items:
-      - name: 将自定义视觉对象添加到 Power BI 中
-        href: https://microsoft.github.io/PowerBI-visuals/docs/latest/overview/
+      - name: 在 Power BI 中自定义视觉对象
+        href: power-bi-custom-visuals.md
     - name: 教程
       items:
       - name: 开发 Power BI 自定义视觉对象
@@ -958,6 +954,8 @@ items:
         href: developer/custom-visual-develop-tutorial-format-options.md
     - name: 概念
       items:
+      - name: Power BI 中适用于组织的自定义视觉对象
+        href: power-bi-custom-visuals-organization.md
       - name: Power BI 视觉对象指南
         href: developer/office-store-in-app-purchase-visual-guidelines.md
       - name: 自定义视觉对象常见问题解答
@@ -978,8 +976,12 @@ items:
         href: power-bi-custom-visuals-certified.md
       - name: 将自定义视觉对象发布到 AppSource
         href: developer/office-store.md
-      - name: 自定义视觉对象疑难解答
-        href: power-bi-custom-visuals-troubleshoot.md
+      - name: 在 Power BI 中使用 R 驱动的自定义视觉对象
+        href: desktop-r-powered-custom-visuals.md
+      - name: 疑难解答
+        items:
+        - name: 排查自定义视觉对象开发方面的问题
+          href: power-bi-custom-visuals-troubleshoot.md
     - name: 参考
       items:
       - name: API
@@ -1283,9 +1285,9 @@ items:
       href: service-admin-governance.md
     - name: Power BI 安全性
       href: service-admin-power-bi-security.md
-ms.openlocfilehash: bb2600fea9af9578ab9b9dd7260e358a8de7e646
-ms.sourcegitcommit: 750f0bfab02af24c8c72e6e9bbdd876e4a7399de
+ms.openlocfilehash: 2e6a77d0aadd85cce05d8dc4fb5fdb60e4cbe91d
+ms.sourcegitcommit: c09241803664643e1b2ba0c150e525e1262ca466
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/04/2019
-ms.locfileid: "54008870"
+ms.lasthandoff: 01/08/2019
+ms.locfileid: "54072327"
