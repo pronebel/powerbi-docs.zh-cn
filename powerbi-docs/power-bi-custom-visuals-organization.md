@@ -1,5 +1,5 @@
-﻿---
-title: 在 Power BI 中使用组织自定义视觉对象
+---
+title: Power BI 中的组织自定义视觉对象
 description: 在 Power BI 中使用、管理和创建组织的自定义视觉对象
 author: markingmyname
 ms.author: maghan
@@ -8,18 +8,18 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 10/29/2018
+ms.date: 12/11/2018
 LocalizationGroup: Visualizations
-ms.openlocfilehash: e34491ebc1cc7554e8c8c000da7528754b5a673b
-ms.sourcegitcommit: 02f918a4f27625b6f4e47473193ebc8219db40e2
+ms.openlocfilehash: 6622625f27f62d9d8ffc35ecfddf4550f2a7e16e
+ms.sourcegitcommit: c09241803664643e1b2ba0c150e525e1262ca466
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/07/2018
-ms.locfileid: "51223090"
+ms.lasthandoff: 01/08/2019
+ms.locfileid: "54072143"
 ---
-# <a name="use-organizational-custom-visuals-in-power-bi"></a>在 Power BI 中使用组织级的自定义视觉对象
+# <a name="organizational-custom-visuals-in-power-bi"></a>Power BI 中的组织自定义视觉对象
 
-可以在 Power BI 中使用自定义视觉对象创建为你量身定做的唯一视觉对象类型或你尝试传达的数据见解。 自定义视觉对象通常由开发人员进行创建，当 Power BI 中包含的众多视觉对象不能充分满足他们的需求时，常常会创建自定义视觉对象。 
+可以在 Power BI 中使用自定义视觉对象创建为你量身定做的唯一视觉对象类型。 自定义视觉对象由开发人员进行创建，当 Power BI 中包含的众多视觉对象不能充分满足他们的需求时，常常会创建自定义视觉对象。
 
 在某些组织中，自定义视觉对象甚至更为重要，可能必须使用它们才能传递组织特有的具体数据或见解，它们可能具有特殊的数据要求，或者可以突出显示专用业务方法。 此类组织需要开发自定义视觉对象，在其整个组织中共享这些视觉对象，并确保对其进行正常维护。 Power BI 自定义视觉对象可让组织实现上述目的。
 
@@ -29,11 +29,11 @@ ms.locfileid: "51223090"
 
 Power BI 管理员从“管理”门户部署和管理组织视觉对象。 一旦将视觉对象部署到组织的存储库后，组织中的用户便可以轻松发现它们，并直接从 Power BI Desktop 将自定义组织视觉对象导入到其报表中。
 
-若要详细了解如何在创建的报表中使用自定义组织视觉对象，请参阅以下文章：[详细了解如何将组织视觉对象导入报表](power-bi-custom-visuals.md)。
+若要详细了解如何在创建的报表中使用组织自定义视觉对象，请参阅以下文章：[详细了解如何将组织视觉对象导入报表](power-bi-custom-visuals.md)。
 
 ## <a name="administer-organizational-custom-visuals"></a>管理组织自定义视觉对象
 
-若要详细了解如何执行、部署和管理组织中的自定义视觉对象，请参阅以下文章：[详细了解如何部署和管理自定义组织视觉对象](https://go.microsoft.com/fwlink/?linkid=866790)。
+若要详细了解如何执行、部署和管理组织中的自定义视觉对象，请参阅以下文章：[详细了解如何部署和管理组织自定义视觉对象](https://go.microsoft.com/fwlink/?linkid=866790)。
 
 > [!WARNING]
 > 自定义视觉对象可能包含存在安全或隐私风险的代码。 在将任何自定义视觉对象部署到组织存储库之前，请确保你信任其作者和来源。

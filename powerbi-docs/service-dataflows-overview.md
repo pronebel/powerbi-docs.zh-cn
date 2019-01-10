@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 12/06/2018
+ms.date: 01/03/2019
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: 92af01b7020f734f286d927650e58a5fea5d8047
-ms.sourcegitcommit: f25464d5cae46691130eb7b02c33f42404011357
+ms.openlocfilehash: d9cd9c812aa2fdd1d336dbd63ea280516a96e4d9
+ms.sourcegitcommit: c09241803664643e1b2ba0c150e525e1262ca466
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/10/2018
-ms.locfileid: "53180820"
+ms.lasthandoff: 01/08/2019
+ms.locfileid: "54072212"
 ---
 # <a name="self-service-data-prep-in-power-bi-preview"></a>Power BI 中的自助服务数据准备（预览）
 
@@ -79,7 +79,7 @@ Power BI 还可以使用通用数据模型格式的系统化数据连接到文�
 
 |数据流功能 | Power BI Pro |   Power BI Premium |
 |---------|---------|---------|
-|计划的刷新| 每天 8 次|  48|
+|计划内刷新| 每天 8 次|  48|
 |存储总量| 10 GB/用户  |100 TB/节点|
 |使用 Power Query Online 进行数据流创作|    +   |+|
 |Power BI 中的数据流管理|   +|  +|
@@ -92,7 +92,7 @@ Power BI 还可以使用通用数据模型格式的系统化数据连接到文�
 |数据流链接实体| |        +|
 |标准化架构/通用数据模型的内置支持|  +|  +|
 
-
+有关如何在高级容量上启用数据流工作负载的详细信息，请参阅 Power BI Premium 的[配置工作负载](service-admin-premium-manage.md#configure-workloads)一文。
 
 ## <a name="summary-of-self-service-data-prep-for-big-data-in-power-bi"></a>Power BI 中大数据的自助服务数据准备摘要
 如本文前面所述，有多种方案和示例，其中数据流可以使用户从业务数据中获得更好的控制和更快的见解。 使用通用数据模型定义的标准数据模型（架构），数据流可以导入有价值的业务数据，并且可以在很短的时间内准备好数据以进行建模和创建 BI 见解，而过去这需要几个月的时间，甚至更长的时间才能创建。 

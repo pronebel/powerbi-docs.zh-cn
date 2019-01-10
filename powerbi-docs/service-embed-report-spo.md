@@ -11,12 +11,12 @@ ms.component: powerbi-service
 ms.topic: conceptual
 LocalizationGroup: Share your work
 ms.date: 11/01/2018
-ms.openlocfilehash: fc0234536415c758992cec629452a3e629c46ad1
-ms.sourcegitcommit: d20f74d5300197a0930eeb7db586c6a90403aabc
+ms.openlocfilehash: 3ad4335cabac159aee38d54fbfff0f689009fd68
+ms.sourcegitcommit: b3af4f7ef486c95cea173caea5a31d0472816ddd
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/03/2018
-ms.locfileid: "50973318"
+ms.lasthandoff: 01/09/2019
+ms.locfileid: "54136590"
 ---
 # <a name="embed-with-report-web-part-in-sharepoint-online"></a>使用报表 Web 部件在 SharePoint Online 中嵌入报表
 
@@ -75,7 +75,7 @@ ms.locfileid: "50973318"
 
     ![加载的 SP 报表](media/service-embed-report-spo/powerbi-sharepoint-report-loaded.png)
 
-## <a name="granting-access-to-reports"></a>授予报表访问权限
+## <a name="grant-access-to-reports"></a>授予报表访问权限
 
 在 SharePoint Online 中嵌入报表不会自动授予用户报表查看权限。 需要在 Power BI 服务中设置报表查看权限。
 
@@ -90,7 +90,7 @@ ms.locfileid: "50973318"
 
 2. 作者在应用工作区中创建报表。 若要与 Power BI（免费）用户共享，必须将应用工作区设置为“Premium 工作区”。
 
-3. 作者发布并安装应用。 作者务必要安装应用，才有权访问用于在 SharePoint Online 中嵌入报表的报表 URL。
+3. 作者发布并安装应用。 *作者务必要安装应用，才有权访问用于在 SharePoint Online 中嵌入报表的报表 URL。*
 
 4. 此时，所有最终用户也必须要安装应用。 不过，可使用“自动安装应用”功能（可以在 [Power BI 管理门户](service-admin-portal.md)中启用），将应用设置为对最终用户预安装。
 
@@ -152,7 +152,7 @@ Power BI Web 部件中可能无法加载报表，并显示以下消息。
 
 ## <a name="known-issues-and-limitations"></a>已知问题和限制
 
-* 错误：“出错，请尝试注销并重新登录，然后重新访问此页。 相关 ID: 未定义; http 响应状态: 400; 服务器错误代码: 10001; 消息: 缺少刷新令牌”
+* 错误：“出错，请尝试注销并重新登录，然后重新访问此页。 相关 ID: 未定义，http 响应状态: 400，服务器错误代码 10001，消息: 缺少刷新令牌”
   
   如果收到此错误，请尝试以下故障排除步骤之一。
   
@@ -174,9 +174,10 @@ Power BI Web 部件中可能无法加载报表，并显示以下消息。
 
 ## <a name="next-steps"></a>后续步骤
 
-[允许或禁止最终用户创建新式网站页面](https://support.office.com/article/Allow-or-prevent-creation-of-modern-site-pages-by-end-users-c41d9cc8-c5c0-46b4-8b87-ea66abc6e63b)  
-[在 Power BI 中构建和分发应用](service-create-distribute-apps.md)  
-[与同事和其他人共享仪表板](service-share-dashboards.md)  
-[什么是 Power BI Premium？](service-premium.md)  
+* [允许或禁止最终用户创建新式网站页面](https://support.office.com/article/Allow-or-prevent-creation-of-modern-site-pages-by-end-users-c41d9cc8-c5c0-46b4-8b87-ea66abc6e63b)  
+* [在 Power BI 中构建和分发应用](service-create-distribute-apps.md)  
+* [与同事和其他人共享仪表板](service-share-dashboards.md)  
+* [什么是 Power BI Premium？](service-premium.md)
+* [在安全门户或网站中嵌入报表](service-embed-secure.md)
 
 更多问题？ [尝试咨询 Power BI 社区](http://community.powerbi.com/)

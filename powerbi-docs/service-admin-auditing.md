@@ -11,30 +11,32 @@ ms.date: 11/16/2018
 ms.author: mblythe
 ms.custom: seodec18
 LocalizationGroup: Administration
-ms.openlocfilehash: cb508681950cd5bb585da1208683deb31c8b6e64
-ms.sourcegitcommit: 72c9d9ec26e17e94fccb9c5a24301028cebcdeb5
+ms.openlocfilehash: d9cf6255cfa57790c13ee1fc9d3201860552863b
+ms.sourcegitcommit: c09241803664643e1b2ba0c150e525e1262ca466
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/07/2018
-ms.locfileid: "53026813"
+ms.lasthandoff: 01/08/2019
+ms.locfileid: "54072350"
 ---
 # <a name="using-auditing-within-your-organization"></a>在组织内使用审核
 
 了解 Power BI 租户中谁正在对何项目执行何种操作对帮助组织满足其需求非常关键（如满足法规遵从性和记录管理需求）。 Power BI 审核可用于审核用户执行的操作，如“查看报表”和“查看仪表板”。 无法使用审核来审核权限。
 
-若要使用审核，请使用 Office 365 安全与合规中心或 PowerShell。 本文对这两种方法都进行了介绍。 可按日期范围、用户、仪表板、报表、数据集和活动类型筛选审核数据。 还可将活动下载到 CSV（逗号分隔值）文件供脱机分析。
+若要使用审核，请使用 Office 365 安全与合规中心或 PowerShell。 审核依赖于 Exchange Online 中的功能，该功能可自动进行预配以支持 Power BI。
+
+可按日期范围、用户、仪表板、报表、数据集和活动类型筛选审核数据。 还可将活动下载到 CSV（逗号分隔值）文件供脱机分析。
 
 ## <a name="requirements"></a>要求
 
 必须满足以下要求才能访问审核日志：
 
-- 若要访问 Office 365 安全性和符合性中心的审核部分，必须具有 Exchange Online 许可证（Office 365 企业版 E3 和 E5 订阅已随附）。
+* 必须成为全局管理员或在 Exchange Online 中分配有“审核日志”或“仅查看审核日志”角色才能访问审核日志。 默认情况下，这些角色将分配给 Exchange 管理中心的“权限”页上的“符合性管理”和“组织管理”角色组。
 
-- 或者，必须是全局管理员，或者是有权访问审核日志的 Exchange 管理员角色。 Exchange 管理员角色通过 Exchange 管理员中心进行控制。 有关详细信息，请参阅 [Exchange Online 中的权限](/exchange/permissions-exo/permissions-exo/)。
+    若要为非管理员帐户提供访问审核日志的权限，必须将该用户添加为其中一个角色组的成员。 或者，可以在 Exchange 管理中心中创建自定义角色组、将“审核日志”或“仅查看审核日志”角色分配给此组，然后将非管理员帐户添加到新角色组。 有关详细信息，请参阅[在 Exchange Online 中管理角色组](/Exchange/permissions-exo/role-groups)。
 
-- 如果你有权访问审核日志但不是全局管理员或 Power BI 服务管理员，则无法访问 Power BI 管理员门户。 在这种情况下，必须获取 [Office 365 安全与合规中心](https://sip.protection.office.com/#/unifiedauditlog)的直接链接。
+    如果无法从 Office 365 管理中心访问 Exchange 管理中心，请转到 https://outlook.office365.com/ecp 并使用你的凭据登录。
 
-- 若要在租户中查看 Power BI 审核日志，则租户中需要至少有一个 Exchange 邮箱许可证。
+* 如果你有权访问审核日志但不是全局管理员或 Power BI 服务管理员，则无法访问 Power BI 管理员门户。 在这种情况下，必须使用 [Office 365 安全与合规中心](https://sip.protection.office.com/#/unifiedauditlog)的直接链接。
 
 ## <a name="accessing-your-audit-logs"></a>访问审核日志
 
@@ -51,8 +53,6 @@ ms.locfileid: "53026813"
 1. 选择“转到 O365 管理中心”。
 
    ![转到 O365 管理中心](media/service-admin-auditing/audit-log-o365-admin-center.png)
-
-若要向非管理员帐户授予对审核日志的访问权限，必须在 Exchange Online 管理中心内分配权限。 例如，可以将用户分配至“组织管理”等现有角色组，或者可以创建一个新的包含“审核日志”角色的角色组。 有关详细信息，请参阅 [Exchange Online 中的权限](/exchange/permissions-exo/permissions-exo/)。
 
 ## <a name="search-only-power-bi-activities"></a>仅搜索 Power BI 活动
 
@@ -119,9 +119,7 @@ ms.locfileid: "53026813"
 
 ## <a name="use-powershell-to-search-audit-logs"></a>使用 PowerShell 搜索审核日志
 
-也可以使用 PowerShell 根据登录名来访问审核日志。 下面的示例展示了如何使用 [Search-UnifiedAuditLog](/powershell/module/exchange/policy-and-compliance-audit/search-unifiedauditlog?view=exchange-ps/) 命令拉取 Power BI 审核日志条目。
-
-帐户必须分配有 Exchange Online 许可证，且你必须有权访问租户的审核日志，才能运行 [New-PSSession](/powershell/module/microsoft.powershell.core/new-pssession/) 命令。 有关连接到 Exchange Online 的详细信息，请参阅[连接到 Exchange Online PowerShell](/powershell/exchange/exchange-online/connect-to-exchange-online-powershell/connect-to-exchange-online-powershell/)。
+也可以使用 PowerShell 根据登录名来访问审核日志。 下面的示例展示了如何连接到 Exchange Online PowerShell，然后使用 [Search-UnifiedAuditLog](/powershell/module/exchange/policy-and-compliance-audit/search-unifiedauditlog?view=exchange-ps/) 命令拉取 Power BI 审核日志条目。 若要运行该脚本，你必须分配有相应的权限，如[要求](#requirements)部分中所述。
 
 ```powershell
 Set-ExecutionPolicy RemoteSigned
@@ -134,7 +132,7 @@ Import-PSSession $Session
 Search-UnifiedAuditLog -StartDate 9/11/2018 -EndDate 9/15/2018 -RecordType PowerBI -ResultSize 1000 | Format-Table | More
 ```
 
-有关展示了如何对审核日志使用 PowerShell 的其他示例，请参阅[使用 Power BI 审核日志和 PowerShell 分配 Power BI Pro 许可证](https://powerbi.microsoft.com/blog/using-power-bi-audit-log-and-powershell-to-assign-power-bi-pro-licenses/)。
+有关连接到 Exchange Online 的详细信息，请参阅[连接到 Exchange Online PowerShell](/powershell/exchange/exchange-online/connect-to-exchange-online-powershell/connect-to-exchange-online-powershell/)。 有关展示了如何对审核日志使用 PowerShell 的其他示例，请参阅[使用 Power BI 审核日志和 PowerShell 分配 Power BI Pro 许可证](https://powerbi.microsoft.com/blog/using-power-bi-audit-log-and-powershell-to-assign-power-bi-pro-licenses/)。
 
 ## <a name="activities-audited-by-power-bi"></a>Power BI 审核的活动
 

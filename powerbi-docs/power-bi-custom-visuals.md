@@ -1,5 +1,5 @@
 ---
-title: Power BI 中的自定义可视化效果
+title: 在 Power BI 中自定义视觉对象
 description: Power BI 中的自定义可视化效果
 author: markingmyname
 ms.author: maghan
@@ -8,19 +8,18 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.subservice: powerbi-custom-visuals
-ms.date: 11/06/2018
+ms.date: 12/18/2018
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 4d38cf108a4c2e863811cfee68fc2d0b95c1990e
-ms.sourcegitcommit: 88ae40a25ea54ef7153885dd04ef57d12522d4e1
+ms.openlocfilehash: 0d634d7fc7753f7aaaf7d7118cfad1ab90b6e82a
+ms.sourcegitcommit: c09241803664643e1b2ba0c150e525e1262ca466
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/04/2019
-ms.locfileid: "54056032"
+ms.lasthandoff: 01/08/2019
+ms.locfileid: "54072235"
 ---
 # <a name="custom-visuals-in-power-bi"></a>在 Power BI 中自定义视觉对象
 
-创建或编辑 Power BI 报表时，可以使用多种不同类型的视觉对象。 这些视觉对象显示在“可视化效果”窗格中。 下载 Power BI Desktop 或打开 Power BI 服务 (app.powerbi.com) 时，这组视觉对象都已“预打包”。
+创建或编辑 Power BI 报表时，可以使用多种不同类型的视觉对象。 这些视觉对象显示在“可视化效果”窗格中。 下载 [Power BI Desktop](https://powerbi.microsoft.com/en-us/desktop/) 或打开 [Power BI 服务](https://app.powerbi.com)时，这组视觉对象都已“预打包”。
 
 ![可视化效果](media/power-bi-custom-visuals/power-bi-visualizations.png)
 
@@ -41,7 +40,7 @@ ms.locfileid: "54056032"
 > [!WARNING]
 > 自定义视觉对象可能包含存在安全或隐私风险的代码；在将其导入报表之前，请务必确认你可以信任自定义视觉对象的作者和来源。
 
-## <a name="organization-visuals"></a>组织视觉对象
+## <a name="organizational-visuals"></a>组织视觉对象
 
 Power BI 管理员可以将自定义视觉对象部署到他们的组织中，使报表作者可以轻松发现和使用管理员已批准在组织内使用的自定义视觉对象。 管理员有权限选择要在组织中部署的特定自定义视觉对象，以及设定一种简便的方法来管理（例如，更新版本、禁用/启用）此类视觉对象。 对于报表作者而言，这是一种很简单的发现组织中独特使用的视觉对象以及对这些视觉对象进行无缝更新的方法。
 
@@ -74,7 +73,7 @@ Power BI 取得认证的视觉对象是指已通过额外严格质量测试的�
 
     ![已导入的 CV](media/power-bi-custom-visuals/power-bi-custom-visual-imported.png)
 
-### <a name="import-organization-visuals"></a>导入组织视觉对象
+### <a name="import-organizational-visuals"></a>导入组织视觉对象
 
 1. 选择“可视化效果”窗格底部的省略号。
 
@@ -132,7 +131,7 @@ Power BI 取得认证的视觉对象是指已通过额外严格质量测试的�
 
 ### <a name="download-and-import-custom-visuals-from-microsoft-appsource"></a>从 Microsoft AppSource 下载和导入自定义视觉对象
 
-1. 首先，访问 [Microsoft AppSource](https://appsource.microsoft.com)，并选择“应用”选项卡。 
+1. 首先，访问 [Microsoft AppSource](https://appsource.microsoft.com)，并选择“应用”选项卡。
 
     ![AppSource](media/power-bi-custom-visuals/power-bi-appsource-apps.png)
 
@@ -175,5 +174,9 @@ Power BI 取得认证的视觉对象是指已通过额外严格质量测试的�
 ## <a name="faq"></a>常见问题解答
 
 有关详细信息和问题的答案，请访问[关于 Power BI 自定义视觉对象的常见问题解答](power-bi-custom-visuals-faq.md#organizational-custom-visuals)。
+
+## <a name="next-steps"></a>后续步骤
+
+* [Power BI 中的可视化效果](visuals/power-bi-report-visualizations.md)
 
 更多问题？ [尝试参与 Power BI 社区](http://community.powerbi.com/)。
