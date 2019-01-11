@@ -25,7 +25,7 @@ ms.locfileid: "53026721"
 > [!NOTE]
 > 仅在使用的模型包含已导入的数据时，才可使用“问答”功能。 不可实时连接到 SSAS 和 DirectQuery 模型。
 >
-> 如果使用 Windows 10 之前的 Windows 版本，问答需要以下 C 运行时更新。 可以尝试通过 Windows 更新安装重要更新，也可以尝试通过 Microsoft (KB2999226) 手动安装必需组件。 https://support.microsoft.com/en-us/help/2999226/update-for-universal-c-runtime-in-windows
+> 如果使用 Windows 10 之前的 Windows 版本，问答需要以下 C 运行时更新。 可以尝试通过 Windows 更新安装重要更新，也可以尝试通过 Microsoft (KB2999226) 手动安装必需组件。 [https://support.microsoft.com/en-us/help/2999226/update-for-universal-c-runtime-in-windows](https://support.microsoft.com/en-us/help/2999226/update-for-universal-c-runtime-in-windows)
 >
 >
 
