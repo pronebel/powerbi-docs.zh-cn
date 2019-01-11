@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.component: powerbi-embedded
 ms.topic: conceptual
 ms.date: 12/12/2018
-ms.openlocfilehash: d0f4ca29e30e5f6e6176f036dc535601eb580471
-ms.sourcegitcommit: 298db44200b78b1281b3ae6dfe7cce7a89865ec9
+ms.openlocfilehash: e28801a15cf50351d737af63bc48f655ca85d28f
+ms.sourcegitcommit: 750f0bfab02af24c8c72e6e9bbdd876e4a7399de
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/13/2018
-ms.locfileid: "53329869"
+ms.lasthandoff: 01/04/2019
+ms.locfileid: "54008157"
 ---
 # <a name="power-bi-embedded-performance-best-practices"></a>Power BI Embedded 性能最佳做法
 
@@ -71,6 +71,6 @@ Powerbi.preload() 会下载 javascript、css 文件和其他项目，稍后会�
 
 ## <a name="next-steps"></a>后续步骤
 
-* [报表性能](../power-bi-reports-performance.md)
+* [Power BI 报表性能最佳做法](../power-bi-reports-performance.md)
 * [如何对 Power BI Embedded 问题进行故障排除](embedded-troubleshoot.md)
 * [Power BI Embedded 常见问题解答](embedded-faq.md)

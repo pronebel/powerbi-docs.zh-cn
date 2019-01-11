@@ -7,25 +7,25 @@ ms.reviewer: lukaszp
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 08/06/2018
+ms.date: 12/21/2018
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: f12974d4e53217fc6c29ad172153ec9c51ecc44e
-ms.sourcegitcommit: 6c6aa214dc36c26a01b29e823598d217a3e2b8a1
+ms.openlocfilehash: 55f592101954ae5c0724fb5b48fb2571a1bdfc51
+ms.sourcegitcommit: 5206651c12f2b91a368f509470b46f3f4c5641e6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/17/2018
-ms.locfileid: "53451412"
+ms.lasthandoff: 01/02/2019
+ms.locfileid: "53983683"
 ---
 # <a name="create-workspaces-with-your-colleagues-in-power-bi"></a>与同事一起在 Power BI 中创建工作区
 
-可在 Power BI 中创建工作区，可与同事在工作区中协作，创建和优化仪表板和报表集合。 然后可将这些内容捆绑到应用，并可将该应用分发到整个组织或特定人员或组。 
+可在 Power BI 中创建工作区，可与同事在工作区中协作，创建和优化仪表板和报表集合。 然后可将这些集合捆绑到应用，并可将该应用分发到整个组织或特定人员或组。 
 
 ![Power BI 应用](media/service-create-workspaces/power-bi-apps-left-nav.png)
 
-创建工作区时，将创建关联的基础 Office 365 组。 所有工作区管理操作都在 Office 365 中进行。 可以以成员或管理员身份将同事添加到这些工作区。 在工作区中，所有人可协作处理计划向更广大受众发布的仪表板、报表和其他文章。 添加到应用工作区中的每个人都需要 Power BI Pro 许可证。 
+创建工作区时，将创建关联的基础 Office 365 组。 所有工作区管理操作都在 Office 365 中进行。 可以以成员或管理员身份将同事添加到这些工作区。 在工作区中，所有人可协作处理计划向更广大受众发布的仪表板、报表和其他项目。 添加到应用工作区中的每个人都需要 Power BI Pro 许可证。 
 
-**你知道吗？** Power BI 正在提供新工作区体验预览。 阅读[创建新工作区（预览）](service-create-the-new-workspaces.md)，查看工作区将来如何更改。 
+**你知道吗？** Power BI 正在提供新工作区体验预览。 有关新工作区的详细信息，请参阅[在新工作区（预览版）中组织工作](service-new-workspaces.md)。 
 
 ## <a name="video-apps-and-app-workspaces"></a>视频：应用和应用工作区
 <iframe width="640" height="360" src="https://www.youtube.com/embed/Ey5pyrr7Lk8?showinfo=0" frameborder="0" allowfullscreen></iframe>
@@ -84,12 +84,12 @@ ms.locfileid: "53451412"
 ### <a name="how-are-apps-different-from-organizational-content-packs"></a>应用与组织内容包有什么不同？
 应用由组织内容包演变而来。 如果你已具有组织内容包，它们将继续与应用并行工作。 应用和内容包有几个主要区别。 
 
-* 业务用户在安装内容包后，它将失去其分组的标识：它只是穿插了其他仪表板和报表的仪表板和报表列表。 另一方面，应用即使在安装后也会维护其分组和标识。 因此，随着时间的推移，业务用户能够继续轻松地导航到应用。
+* 业务用户在安装内容包后，它将失去其分组的标识：它只是穿插了其他仪表板和报表的仪表板和报表列表。 另一方面，应用即使在安装后也会维护其分组和标识。 因此，随着时间的推移，此分组使业务用户能够继续轻松地导航到应用。
 * 你可以从任何工作区创建多个内容包，但应用与其工作区具备一对一的关系。 
 * 随着时间的推移，我们计划弃用组织内容包，因此，我们建议你从现在开始构建应用。  
 * 通过新工作区体验预览，我们迈出了弃用组织内容包的第一步。 无法在预览工作区中使用或创建它们。
 
-请参阅[新应用工作区与现有应用工作区有何不同？](service-create-the-new-workspaces.md#how-are-the-new-app-workspaces-different-from-current-app-workspaces)来比较当前应用工作区和新应用工作区。 
+请参阅[新应用工作区与现有应用工作区有何不同？](service-new-workspaces.md#how-are-the-new-workspaces-different-from-current-workspaces)来比较两者。 
 
 ## <a name="next-steps"></a>后续步骤
 * [在 Power BI 中安装并使用应用](service-create-distribute-apps.md)

@@ -1,5 +1,5 @@
 ---
-title: 应如何在 Power BI 中开展协作并进行共享？
+title: 工作共享方式
 description: 在 Power BI 中，可以通过不同的方式针对仪表板、报表、磁贴和应用开展协作并进行共享。 每种方法都各有千秋。
 author: maggiesMSFT
 manager: kfile
@@ -7,23 +7,23 @@ ms.reviewer: lukaszp
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 08/02/2018
+ms.date: 12/17/2018
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: bcec05211d3748e992f0e0cf68acd6460b2715d4
-ms.sourcegitcommit: 52ac456bf2ac025b22ea634c28482f22e1cc19ac
+ms.openlocfilehash: bc4f58920feaf5219d63761116ef9a742edd4eed
+ms.sourcegitcommit: 5206651c12f2b91a368f509470b46f3f4c5641e6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/10/2018
-ms.locfileid: "48908960"
+ms.lasthandoff: 01/02/2019
+ms.locfileid: "53983522"
 ---
-# <a name="how-should-i-collaborate-and-share-in-power-bi"></a>应如何在 Power BI 中开展协作并进行共享？
+# <a name="ways-to-share-your-work-in-power-bi"></a>Power BI 中的工作共享方式
 
-你已创建仪表板和报表。 可能也会和同事协作处理它们。 这样就需要其他人有权限访问它们。 分发的最好方式是什么？
+你已创建仪表板和报表。 可能也会和同事协作处理它们。 现在想让其他人有权限访问它们。 分发的最好方式是什么？
 
 在本文中，我们将对比 Power BI 中这些用于协作和共享选项： 
 
-* 在应用工作区中与同事进行协作，创建有价值的报表和仪表板。
+* 在工作区中与同事进行协作，创建有价值的报表和仪表板。
 * 将这些仪表板和报表打包为应用，并将其发布到到更大的组或整个组织。
 * 在服务或 Power BI 移动应用中与几位用户共享仪表板或报表。
 - 打印报告。
@@ -35,25 +35,25 @@ ms.locfileid: "48908960"
 
 Power BI 服务中的应用
 
-## <a name="collaborate-with-coworkers-in-an-app-workspace"></a>在应用工作区中与同事协作
+## <a name="collaborate-with-coworkers-in-a-workspace"></a>在工作区中与同事进行协作
 
-当团队协同工作时，他们需要访问相同的文档，以便快速协作。 Power BI 中的应用工作区提供了一个位置，供团队一同在其中共享重要仪表板、报表、数据集以及工作簿的所有权和管理。 Power BI 用户组有时根据组织结构组织其工作区，而在其他时候为特定项目创建工作区。 仍有一些组织使用多个工作区来存储所用报表或仪表板的不同版本。 
+当团队协同工作时，他们需要访问相同的文档，以便快速协作。 Power BI 中的工作区提供了一个位置，供团队一同在其中共享重要仪表板、报表、数据集以及工作簿的所有权和管理。 Power BI 用户组有时根据组织结构组织其工作区，而在其他时候为特定项目创建工作区。 仍有一些组织使用多个工作区来存储所用报表或仪表板的不同版本。 
 
-应用工作区提供的角色可确定同事拥有的权限。 可使用这些角色来确定可以管理整个工作区或只可向其中提供内容的人员。
+工作区提供的角色可确定同事拥有的权限。 可使用这些角色来确定可以管理整个工作区或只可向其中提供内容的人员。
 
-![应用工作区](media/service-how-to-collaborate-distribute-dashboards-reports/power-bi-apps-workspaces.png)
+![工作区](media/service-how-to-collaborate-distribute-dashboards-reports/power-bi-apps-workspaces.png)
 
-某些用户自然而然地将内容放在“我的工作区”中，并与外部共享。应用工作区比“我的工作区”更适于协作，因为前者提供内容的共同所有权。 用户和整个团队可以轻松进行更新或为其他人授予访问权限。 “我的工作区”最适合个人用于一次性或个人内容。
+某些用户自然而然地将内容放在“我的工作区”中，并与外部共享。工作区比“我的工作区”更适于协作，因为前者提供内容的共同所有权。 用户和整个团队可以轻松进行更新或为其他人授予访问权限。 “我的工作区”最适合个人用于一次性或个人内容。
 
-假设需要与同事共享已完成的仪表板。 为他们提供仪表板访问权限的最佳方法是什么？ 答案取决于多种因素。 如果特定同事需要拥有仪表板并使其保持最新，或需要访问应用工作区中的所有内容，则最好将其添加到工作区。 如果同事只需要查看该仪表板而不是工作区中的所有内容，则可以再次从一组备选方案中进行选择。 如果仪表板是需要分发给许多同事的众多内容的一部分，那么发布应用可能是最好的选择。 但是，如果同事只需要一个仪表板，那么共享仪表板可能是最佳方法。 
+假设需要与同事共享已完成的仪表板。 为他们提供仪表板访问权限的最佳方法是什么？ 答案取决于多种因素。 如果特定同事需要拥有仪表板并使其保持最新，或需要访问工作区中的所有内容，则最好将其添加到工作区。 如果同事只需要查看该仪表板而不是工作区中的所有内容，则可以再次从一组备选方案中进行选择。 如果仪表板是需要分发给许多同事的众多内容的一部分，那么发布应用可能是最好的选择。 但是，如果同事只需要一个仪表板，那么共享仪表板可能是最佳方法。 
 
-详细了解如何[创建应用工作区](service-create-workspaces.md)。
+详细了解[创建工作区](service-create-workspaces.md)。
 
 **你知道吗？** Power BI 正在提供新工作区体验预览。 阅读[创建新工作区（预览）](service-create-the-new-workspaces.md)，查看工作区将来如何更改。 
 
 ## <a name="distribute-data-and-insights-by-creating-an-app"></a>通过创建应用分发数据和见解
 
-假设你想要将仪表板分发给广泛的受众。 你和同事创建了一个应用工作区，然后在此应用工作区中创建并优化了仪表板、报表和数据集。 现在选择所需的仪表板和报表，并将其作为应用发布 - 发布到组或整个组织。 
+假设你想要将仪表板分发给广泛的受众。 你和同事创建了工作区，然后在此工作区中创建并优化了仪表板、报表和数据集。 现在选择所需的仪表板和报表，并将其作为应用发布 - 发布到组或整个组织。 
 
 ![“发布应用”图标](media/service-how-to-collaborate-distribute-dashboards-reports/power-bi-app-publish-600.png)
 
@@ -66,7 +66,7 @@ Power BI 服务中的应用
 也可以将应用发布给组织外部的人员。 他们可以查看应用内容并与之交互，但无法与他人共享。
 
 ## <a name="share-dashboards-and-reports"></a>共享仪表板和报表
-假设已在自己的“我的工作区”或应用工作区中完成仪表板和报表，并且希望某些其他人有权访问它。 一种用于访问的方法是共享它。 
+假设已在自己的“我的工作区”或工作区中完成仪表板和报表，并且希望某些其他人有权访问它。 一种用于访问的方法是共享它。 
 
 ![“共享”图标](media/service-how-to-collaborate-distribute-dashboards-reports/power-bi-share-in-situ.png)
 

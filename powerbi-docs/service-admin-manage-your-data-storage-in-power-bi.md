@@ -8,15 +8,15 @@ ms.custom: seodec18
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 12/06/2018
+ms.date: 12/21/2018
 ms.author: maggies
 LocalizationGroup: Administration
-ms.openlocfilehash: 239cc7e0574c9c6a4d76cdff83e14cf6af742689
-ms.sourcegitcommit: f25464d5cae46691130eb7b02c33f42404011357
+ms.openlocfilehash: e1f1a8fdc5094fd13fc2894d9728951d9f6bde96
+ms.sourcegitcommit: 5206651c12f2b91a368f509470b46f3f4c5641e6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/10/2018
-ms.locfileid: "53180452"
+ms.lasthandoff: 01/02/2019
+ms.locfileid: "53983545"
 ---
 # <a name="manage-data-storage-in-power-bi-workspaces"></a>管理 Power BI 工作区中的数据存储
 
@@ -26,22 +26,24 @@ ms.locfileid: "53180452"
 
 * 所有用户的数据存储上限均为 10 GB。
 * 拥有 Power BI Pro 许可证的用户可以创建应用工作区，每个工作区的数据存储上限为 10 GB。
+* 高级容量中的应用工作区不计入 Power BI Pro 用户的存储。
 
 在租户一级，跨租户中的所有 Pro 版用户和应用工作区，每个 Pro 版用户的总使用量不能超过 10GB。
 
 了解有关 [Power BI 定价模型](https://powerbi.microsoft.com/pricing)的其他功能。
 
-数据存储中包含你自己的数据集和 Excel 报表，以及其他人与你共享的内容。 数据集是你已上载或连接到的任何数据源，包括你使用的 Power BI Desktop 文件和 Excel 工作簿。 以下内容也包含在数据容量中。
+数据存储中包含你自己的数据集和 Excel 报表，以及某人与你共享的这些项。 数据集是任何已上传或连接到的数据源。 这些数据源包括正在使用的 Power BI Desktop 文件和 Excel 工作簿。 以下内容也包含在数据容量中。
 
 * 固定到仪表板的 Excel 范围。
 * 固定到 Power BI 仪表板的 Reporting Services 本地可视化效果。
 * 已上载的图像。
 
-共享仪表板的大小因其上固定内容而有所不同。 例如，如果固定分属两个数据集的两个报表中的项，则其大小将可包括这两个数据集。
+共享仪表板的大小因其上的固定内容而有所不同。 例如，如果固定分属两个数据集的两个报表中的项，则其大小包括这两个数据集。
 
 <a name="manage"/>
 
-## <a name="manage-items-owned-by-you"></a>管理你所拥有的项目
+## <a name="manage-items-you-own"></a>管理拥有的项
+
 确定你 Power BI 帐户中的数据存储使用情况，并管理帐户。
 
 1. 若要管理你自己的存储，请转到左侧导航窗格中的“我的工作区”。
@@ -55,9 +57,9 @@ ms.locfileid: "53180452"
    
     数据集和报表会分为两个选项卡：
    
-    **由我所有：** 这些是你已上载到 Power BI 帐户的报表和数据集，包括服务数据集（如 Salesforce 和 Dynamics CRM）。  
+    **由我所有：** 你已将这些报表和数据集上传到 Power BI 帐户，包括服务数据集（如 Salesforce 和 Dynamics CRM）。  
     **由他人所有：** 其他人与你共享了这些报表和数据集。
-3. 若要删除数据集或报表，请选择垃圾桶图标 ![垃圾桶图标](media/service-admin-manage-your-data-storage-in-power-bi/pbi_deleteicon.png)。
+1. 若要删除数据集或报表，请选择垃圾桶图标 ![垃圾桶图标](media/service-admin-manage-your-data-storage-in-power-bi/pbi_deleteicon.png)。
 
 请记住，你或其他人可能会具有基于某个数据集的报表和仪表板。 如果删除该数据集，则这些报表和仪表板将无法再正常工作。
 
@@ -73,7 +75,7 @@ ms.locfileid: "53180452"
    
     数据集和报表会分为两个选项卡：
    
-    **由我们所有：** 这些是你或其他人已上传到组的 Power BI 帐户的报表和数据集，包括服务数据集（如 Salesforce 和 Dynamics CRM）。
+    **由我们所有：** 你或其他人已将这些表和数据集上传到组的 Power BI 帐户，包括服务数据集（如 Salesforce 和 Dynamics CRM）。
     **由他人所有：** 其他人与你共享了组内的这些报表和数据集。
 3. 若要删除数据集或报表，请选择垃圾桶图标 ![垃圾桶图标](media/service-admin-manage-your-data-storage-in-power-bi/pbi_deleteicon.png)。
    
@@ -85,20 +87,20 @@ ms.locfileid: "53180452"
 请记住，你或组中的其他人可能会具有基于某个数据集的报表和仪表板。 如果删除该数据集，则这些报表和仪表板将无法再正常工作。
 
 ## <a name="dataset-limits"></a>数据集限制
-导入到 Power BI 中的每个数据集都有 1 GB 的限制。 如果选择保留 Excel 体验，而不是导入数据，则对于数据集会限制为 250 MB。
+导入到 Power BI 中的每个数据集都有 1 GB 的限制。 如果选择保留 Excel 体验，而不是导入数据，则数据集的限制为 250 MB。
 
-## <a name="what-happens-when-you-hit-a-limit"></a>达到限制时会发生什么情况
-达到可以执行对其执行操作的数据容量限制时，你会在服务中看到提示。 
+## <a name="what-happens-when-you-reach-a-limit"></a>达到限制时，会发生什么情况
+达到可以执行的操作的数据容量限制时，你会在服务中看到提示。 
 
-如果选择齿轮图标 ![齿轮图标](media/service-admin-manage-your-data-storage-in-power-bi/pbi_gearicon.png)你会看到一个红色条，指示你已超过数据容量限制。
+如果选择齿轮图标 ![齿轮图标](media/service-admin-manage-your-data-storage-in-power-bi/pbi_gearicon.png)，你会看到一个红色条，指示你已超过数据容量限制。
 
-![超过存储空间上限]](media/service-admin-manage-your-data-storage-in-power-bi/manage-storage-limit.png)
+![已达到存储限制](media/service-admin-manage-your-data-storage-in-power-bi/manage-storage-limit.png)
 
-你还会在**管理个人存储**中看到指示这一点。
+此限制也会显示在“管理个人存储空间”中。
 
  ![管理个人存储，超过存储空间上限](media/service-admin-manage-your-data-storage-in-power-bi/manage-storage-limit2.png)
 
- 尝试执行的操作达到某个限制时，你会看到一个提示，指示你超过该限制。 将能够[管理](#manage)存储来减少存储量，从而符合限制要求。
+ 尝试执行的操作达到某个限制时，你会看到一条超出限制的消息。 可以[管理](#manage)存储，以减少存储量，从而符合限制要求。
 
  ![超出存储空间上限](media/service-admin-manage-your-data-storage-in-power-bi/powerbi-pro-over-limit.png)
 

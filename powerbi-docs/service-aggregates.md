@@ -1,24 +1,24 @@
 ---
-title: 可视化效果中的聚合函数（求和、求平均值、求最大值等）
-description: 在 Power BI 中更改图表中的聚合函数（计算总和、平均值、最大值等）
+title: 使用 Power BI 服务中的聚合函数（求和、平均值等）
+description: 了解如何在 Power BI 服务中更改图表中的聚合函数（求和、平均值、最大值等）。
 author: mgblythe
-manager: kvivek
+manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 08/29/2018
+ms.date: 12/21/2018
 ms.author: mblythe
 ms.custom: seodec18
 LocalizationGroup: Reports
-ms.openlocfilehash: dfc3006c37d6055bac435fceb05febd596f0cd1a
-ms.sourcegitcommit: 72c9d9ec26e17e94fccb9c5a24301028cebcdeb5
+ms.openlocfilehash: 7a88cc7f210c6119e57a5dcf30920a95e180b85f
+ms.sourcegitcommit: 5206651c12f2b91a368f509470b46f3f4c5641e6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/07/2018
-ms.locfileid: "53026468"
+ms.lasthandoff: 01/02/2019
+ms.locfileid: "53983706"
 ---
-# <a name="aggregates-in-power-bi-visualizations"></a>Power BI 可视化效果中的聚合函数
+# <a name="work-with-aggregates-sum-average-etc-in-the-power-bi-service"></a>使用 Power BI 服务中的聚合函数（求和、平均值等）
 ## <a name="what-is-an-aggregate"></a>什么是聚合函数？
 有时需要通过数学方式合并数据中的值。 数学运算可以是求和、平均值、最大值、计数等。当你合并数据中的值时，就称其为聚合。 该数学运算的结果是聚合。 
 
@@ -70,16 +70,16 @@ ms.locfileid: "53026468"
 
 聚合字段时可用的某些选项：
 
-* **不求和**。 如果选择此选项，该字段中的每个值会分开处理且不求和。 此选项常用于不应该求和的数值 ID 列。
-* **求和**。 这会对该字段中的所有值求和。
+* **不求和**。 如果选择此选项，该字段中的每个值会分开处理且不求和。 如果存在不应求和的数值 ID 列，请使用此选项。
+* **求和**。 对该字段中的所有值求和。
 * **平均值**。 求出值的算术平均值。
 * **最小值**。 显示最小的值。
 * **最大值**。 显示最大的值。
-* **计数（非空白）**。 这会计算该字段中非空白值的数目。
-* **计数（非重复）**。 这会计算该字段中不同值的数目。
+* **计数（非空白）**。 计算该字段中非空白值的数目。
+* **计数（非重复）**。 计算该字段中不同值的数目。
 * **标准偏差**。
 * **方差**。
-* **中值**。  显示中间值。 这是上下具有相同项数的值。  如果有两个中值，Power BI 会取其平均值。
+* **中值**。  显示中间值。 此值的上下项数相同。  如果有两个中值，Power BI 会取其平均值。
 
 例如，下列数据：
 
@@ -141,11 +141,11 @@ ms.locfileid: "53026468"
 >[!NOTE]
 >上述规则有一个例外，就是散点图，这种图表需要 X 轴和 Y 轴的聚合值。
 
-问：为什么无法聚合 SSAS 数据源的文本字段？
+问：为什么无法聚合 SQL Server Analysis Services (SSAS) 数据源的文本字段？
 
-答：到 SSAS MD 的实时连接不允许任何客户端的聚合。 这包括“第一个”、“最后一个”、“平均值”、“最小值”、“最大值”和“总和”。
+答：与 SSAS 多维模型的实时连接不允许任何客户端的聚合函数，包括第一个、最后一个、平均值、最小值、最大值和求和。
 
-问：我有一个散点图，但希望不聚合字段。  该怎么办？
+问：我有一个散点图，但希望不聚合字段。  如何操作？
 
 答：请将字段添加到“详细信息”存储桶，而不是 X 轴或 Y 轴存储桶中。
 

@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 07/25/2018
 ms.author: gepopell
 LocalizationGroup: Connect to data
-ms.openlocfilehash: bba674df9864697199a274698a1b17320b8ccd80
-ms.sourcegitcommit: 9d6f37fd32b965592bd7b108dea87b8e53b11334
+ms.openlocfilehash: eaf76f2ba762a603bf37385ea00cd714499db4b5
+ms.sourcegitcommit: 5206651c12f2b91a368f509470b46f3f4c5641e6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/18/2018
-ms.locfileid: "40257181"
+ms.lasthandoff: 01/02/2019
+ms.locfileid: "53983407"
 ---
 # <a name="connector-extensibility-in-power-bi"></a>Power BI 中的连接器扩展性
 
@@ -42,7 +42,7 @@ ms.locfileid: "40257181"
 * （推荐）仅允许加载经过认证的扩展
 * （不推荐）允许加载任何插件而不发出警告
 
-如果计划使用“自定义连接器”或者自行或第三方开发并分发的连接器，则必须选择“(不推荐)允许加载任何扩展而不发出警告”。 除非计划运行“自定义连接器”，否则不建议使用该安全设置。
+如果计划使用“自定义连接器”或者自行或第三方开发并分发的连接器，则必须选择“(不推荐)允许加载任何扩展而不发出警告”。 除非绝对信任自定义连接器，否则不建议使用安全设置，因为其中的代码可以处理凭据（包括通过 HTTP 发送的凭据）并忽略隐私级别。
 
 使用“(推荐)”安全设置时，如果系统中存在自定义连接器，则会显示错误，说明由于安全原因而无法加载连接器。
 

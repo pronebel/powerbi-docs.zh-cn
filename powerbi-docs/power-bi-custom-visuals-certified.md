@@ -9,13 +9,14 @@ featuredvideoid: ''
 ms.service: powerbi
 ms.component: powerbi-developer
 ms.topic: conceptual
+ms.subservice: powerbi-custom-visuals
 ms.date: 11/21/2018
-ms.openlocfilehash: 7830aa829dc05e29ec0b8dc23d7f35b58991b007
-ms.sourcegitcommit: e17fc3816d6ae403414cf5357afbf6a492822ab8
+ms.openlocfilehash: e839fabffc685ac0f97146cb7ee5218039df1c18
+ms.sourcegitcommit: 88ae40a25ea54ef7153885dd04ef57d12522d4e1
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/04/2018
-ms.locfileid: "52830139"
+ms.lasthandoff: 01/04/2019
+ms.locfileid: "54056170"
 ---
 # <a name="certified-custom-visuals"></a>认证的自定义视觉对象
 
@@ -62,7 +63,7 @@ Microsoft 可自行从[经认证列表](#list-of-custom-visuals-that-have-been-c
 提交自定义视觉对象以供认证：
 
 1. 向 Power BI 自定义视觉对象支持团队 (pbicvsupport@microsoft.com) 发送电子邮件。 在电子邮件中，添加以下信息：
-    * 标题：视觉对象认证申请
+    * 标题：视觉对象认证请求
     * 指向托管人工可读源代码的 GitHub 存储库的链接
     * [符合要求](#certification-requirements)
     * 通过代码审查
@@ -73,6 +74,7 @@ Microsoft 可自行从[经认证列表](#list-of-custom-visuals-that-have-been-c
 
 | AppSource 链接 | 链接到视频 |
 | --- | --- |
+| [3AG 系统 - 具有相对方差的柱形图](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104381803) | |
 | [星状体图](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380759) | |
 | [Beyondsoft 日历](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104381096) | |
 | [MAQ 软件蝴蝶结图](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380838) | [视频](https://youtu.be/So5xKMSpVJI) |

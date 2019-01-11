@@ -8,13 +8,13 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-developer
 ms.topic: conceptual
-ms.date: 11/27/2018
-ms.openlocfilehash: 71cbae5f282883ca26a5bf0b2ae7b5609b86eb58
-ms.sourcegitcommit: 05303d3e0454f5627eccaa25721b2e0bad2cc781
+ms.date: 12/20/2018
+ms.openlocfilehash: 3971651caf9be7e754f4232ffec8b4e4dbfdfe6d
+ms.sourcegitcommit: 750f0bfab02af24c8c72e6e9bbdd876e4a7399de
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/28/2018
-ms.locfileid: "52578787"
+ms.lasthandoff: 01/04/2019
+ms.locfileid: "54008410"
 ---
 # <a name="frequently-asked-questions-about-power-bi-embedded"></a>有关 Power BI Embedded 的常见问题
 
@@ -23,7 +23,7 @@ ms.locfileid: "52578787"
 
 ## <a name="general"></a>常规
 
-### <a name="what-is-power-bi-embedded"></a>什么是 Power BI Embedded？
+### <a name="what-is-power-bi-embedded"></a>Power BI Embedded 是什么?
 
 通过 Microsoft Power BI Embedded (PBIE)，应用程序开发人员将令人震撼的完全交互式报表嵌入到应用程序中，无需花费时间和费用重新生成自己的数据可视化和控件。
 
@@ -104,7 +104,7 @@ Power BI Embedded 是一组 API，可供开发人员在平台即服务产品中�
 
 ### <a name="why-creatingscalingresuming-a-capacity-results-in-putting-the-capacity-into-a-suspended-state"></a>为什么创建/缩放/恢复容量会导致将容量置于挂起状态？
 
-预配容量（缩放/恢复/创建）可能会失败。 预配调用的调用方应使用获取详细信息 API（[容量 - 获取详细信息](https://docs.microsoft.com/rest/api/power-bi-embedded/capacities/getdetails)）检查容量的预配状态。
+预配容量（缩放/恢复/创建）可能会失败。 预配调用的调用方应使用获取详细信息 API：[容量 - 获取详细信息](https://docs.microsoft.com/rest/api/power-bi-embedded/capacities/getdetails)来检查容量的预配状态。
 
 ### <a name="why-can-i-only-create-pbie-in-a-specific-region"></a>为什么只能在特定区域创建 PBIE？
 
@@ -321,3 +321,7 @@ Power BI Embedded 解决方案中引入了 Power BI 工作区集合无法实现�
 有关详细信息，请参阅[嵌入应用程序疑难解答](embedded-troubleshoot.md)
 
 更多问题？ [尝试参与 Power BI 社区](http://community.powerbi.com/)
+
+### <a name="what-are-the-best-practices-to-improve-performance"></a>提高性能的最佳做法有哪些？
+
+[Power BI Embedded 性能](embedded-performance-best-practices.md)

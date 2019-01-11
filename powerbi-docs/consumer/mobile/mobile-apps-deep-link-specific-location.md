@@ -9,12 +9,12 @@ ms.component: powerbi-mobile
 ms.topic: conceptual
 ms.date: 06/28/2018
 ms.author: maggies
-ms.openlocfilehash: 63b9129c56b064f224eef0720e5f585c86d80a93
-ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
+ms.openlocfilehash: 1f9503980ba19b290fa5d0fd1f521bb85ef93759
+ms.sourcegitcommit: 5206651c12f2b91a368f509470b46f3f4c5641e6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/12/2018
-ms.locfileid: "44730211"
+ms.lasthandoff: 01/02/2019
+ms.locfileid: "53983568"
 ---
 # <a name="create-a-link-to-a-specific-location-in-the-power-bi-mobile-apps"></a>创建指向 Power BI 移动应用中特定位置的链接
 可以创建和使用统一资源标识符 (URI) 链接到所有移动平台（iOS、Android 设备和 Windows 10）上 Power BI 移动应用中的特定位置（即 *深层链接* ）。
@@ -69,6 +69,12 @@ mspbi://app/OpenDashboard?DashboardObjectId=e684af3a-9e7f-44ee-b679-b9a1c59b5d60
 若要查找包含 36 个字符的报表对象 ID，请转到 Power BI 服务 (https://powerbi.com)) 中的特定报表。 有关示例，请参阅以下 URL 中的突出显示部分：
 
 `https://powerbi.com/groups/me/reports/df9f0e94-31df-450b-b97f-4461a7e4d300`
+
+如果报表位于“我的工作区”以外的组中，请在报表 ID 前面或后面添加 `&GroupObjectId=<36-character-group-id>`。 例如： 
+
+mspbi://app/OpenReport?ReportObjectId=e684af3a-9e7f-44ee-b679-b9a1c59b5d60 **&GroupObjectId=8cc900cc-7339-467f-8900-fec82d748248**
+
+请注意两者之间的 & 号。
 
 ## <a name="open-to-a-specific-report-page"></a>打开特定报表页
 此 URI 可打开 Power BI 移动应用中的特定报表页：

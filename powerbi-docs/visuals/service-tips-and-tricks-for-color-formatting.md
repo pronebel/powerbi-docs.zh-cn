@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 07/19/2018
+ms.date: 12/19/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 04e00537db4ffbcb6c1a154cb69fb2c856bd7596
-ms.sourcegitcommit: 70192daf070ede3382ac13f6001e0c8b5fb8d934
+ms.openlocfilehash: 09c505d114eaa951978f23061d9c79c1b6870fad
+ms.sourcegitcommit: 5206651c12f2b91a368f509470b46f3f4c5641e6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/22/2018
-ms.locfileid: "46565650"
+ms.lasthandoff: 01/02/2019
+ms.locfileid: "53983361"
 ---
 # <a name="tips-and-tricks-for-color-formatting-in-power-bi"></a>Power BI 中颜色格式设置的提示和技巧
 Power BI 提供了自定义仪表板和报表的多种方法。 本文详细介绍了一些技巧，可以让你的 Power BI 可视化效果更引人注目、生动有趣，并可根据你的需求进行自定义。
@@ -29,38 +29,35 @@ Power BI 提供了自定义仪表板和报表的多种方法。 本文详细介�
 * 使用发散色阶
 * 如何在 Power BI 中撤消操作
 
-要进行任何更改都必须编辑报表：从**我的工作区**窗格中选择**报表**，然后从顶部的菜单区域选择**编辑报表**，如下图所示。
+要进行任何更改都必须编辑报表：从**我的工作区**窗格中选择**报表**，然后从顶部的菜单区域选择**编辑报表**，如下图所示。 本示例使用“人力资源示例”。
 
-![](media/service-tips-and-tricks-for-color-formatting/tipstrickscolor_1.png)
+![突出显示“编辑报表”的报表画布](media/service-tips-and-tricks-for-color-formatting/power-bi-edit.png)
 
 当**可视化效果**窗格出现在**报表**画布的右侧时，即可开始进行自定义操作。
 
-![](media/service-tips-and-tricks-for-color-formatting/tipstrickscolor_2.png)
+![显示“格式设置”窗格的报表](media/service-tips-and-tricks-for-color-formatting/power-bi-formatting-pane.png)
 
 ## <a name="change-the-color-of-a-single-data-point"></a>更改单个数据点的颜色
-有时你想突出显示某个特定的数据点。 该数据点可能是推出的新产品的销售数据，或是推出新计划后增加的质量分数。 使用 Power BI 可以通过更改其颜色来突出显示某个特定的数据点。
+有时你想突出显示某个特定的数据点。 该数据点可能是推出的新产品的销售数据，或是推出新计划后增加的质量分数。 使用 Power BI，针对大多数视觉对象类型，可以通过更改特定数据点的颜色来突出显示特定数据点。
 
-以下可视化效果按生活费用对各个州进行了排序。 
+以下可视化效果使用默认颜色，按员工显示销售纯利率。 
 
-![](media/service-tips-and-tricks-for-color-formatting/tipstrickscolor_3.png)
+![分区图](media/service-tips-and-tricks-for-color-formatting/power-bi-area-chart.png)
 
-现在假设你想通过使用颜色来快速显示出华盛顿在该排名列表中的位置。 步骤如下：
+很难看到 Annelie 的区域，因此让我们使用颜色使该区域更加突出。 步骤如下：
 
 展开**数据颜色**部分。 将出现以下内容。
 
-![](media/service-tips-and-tricks-for-color-formatting/tipstrickscolor_4.png)
+![数据颜色选择区域位于“格式设置”下](media/service-tips-and-tricks-for-color-formatting/power-bi-data-colors.png)
 
-将**显示全部**设置为**开启**。 此操作将显示可视化效果中每个数据元素的颜色。 将鼠标悬停在数据点上时，将启用滚动，此时你可以修改任何数据点。
 
-![](media/service-tips-and-tricks-for-color-formatting/tipstrickscolor_5.png)
+在此例中，请选择一种与 Valery 使用的颜色不同的深而明亮的颜色。 选择 Annelie 的颜色框中的向下键，选择“自定义颜色”，并选择亮蓝色。
 
-在本案例中，我们将**华盛顿**更改为绿色。 向下滚动到**华盛顿**并选择其颜色框中的向下箭头，之后将出现颜色选择窗口。
+![颜色选择](media/service-tips-and-tricks-for-color-formatting/tipstrickscolor_6.png)
 
-![](media/service-tips-and-tricks-for-color-formatting/tipstrickscolor_6.png)
+选择颜色后，Annelie 的区域更容易与其他员工的区域分开来。 
 
-选择颜色后，**华盛顿**数据点将显示为美丽的绿色阴影，自然就很显眼了。
-
-![](media/service-tips-and-tricks-for-color-formatting/tipstrickscolor_7.png)
+![区域图表，Annalie 的区域现在是亮蓝色](media/service-tips-and-tricks-for-color-formatting/power-bi-color.png)
 
 即使更改了可视化效果类型，返回时 Power BI 仍会记住你的选择，并将**华盛顿**保留为绿色。
 

@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 11/28/2018
+ms.date: 01/02/2019
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: f997ee7574c5dd9dc6b4d28767d599a97bf297ed
-ms.sourcegitcommit: 2ae660a7b70fce23eb58b159d049eca44a664f2c
+ms.openlocfilehash: a2402872744b3029e37bf49eaaeae27a3ad95734
+ms.sourcegitcommit: 5206651c12f2b91a368f509470b46f3f4c5641e6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/30/2018
-ms.locfileid: "52669833"
+ms.lasthandoff: 01/02/2019
+ms.locfileid: "53983614"
 ---
 # <a name="use-the-numeric-range-slicer-in-power-bi-desktop"></a>在 Power BI Desktop 中使用数值范围切片器
 借助**数值范围切片器**，可以将各种类型的筛选器应用于数据模型中的任意数值列。 可以选择“介于”（某数字范围）、“小于或等于”（某数字）或“大于或等于”（某数字）来进行筛选。 虽然这听起来可能很简单，但在筛选数据方面这却是功能十分强大的一种方法。
@@ -54,6 +54,14 @@ ms.locfileid: "52669833"
 ## <a name="snap-to-whole-numbers-with-the-numeric-range-slicer"></a>使用数值范围切片器对齐到整数
 
 如果基础字段的数据类型为“整数”，数值范围切片器将对齐到整数。 这样一来，切片器就可以清晰地对齐整数。 “十进制数字”类型字段允许输入或选择数字的小数部分。 文本框中应用的格式与为该字段设置的格式匹配，即使可以键入或选择更精确的数字也是如此。
+
+## <a name="display-formatting-with-the-date-range-slicer"></a>使用日期范围切片器显示格式设置
+
+使用切片器来显示或设置日期范围内时，将始终使用“短日期”格式显示日期的格式，具体取决于用户的浏览器或操作系统区域设置。 无论基础数据或模型的数据类型设置如何，这都是显示格式。 
+
+例如，可以为基础数据类型使用长日期格式（例如，dddd、MMMM、yyyy），该格式将在其他视觉对象或其他情况下将日期格式化为（2001 年 3 月 14 日，星期三）；但是在日期范围切片器中，该日期将显示为 2001/03/14。
+
+在切片器中显示“短日期”格式可确保字符串的长度在切片器中保持一致和简洁。 
 
 
 ## <a name="limitations-and-considerations"></a>限制和注意事项
