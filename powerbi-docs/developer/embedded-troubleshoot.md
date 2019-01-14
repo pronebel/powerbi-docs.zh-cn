@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.component: powerbi-developer
 ms.topic: conceptual
 ms.date: 12/20/2018
-ms.openlocfilehash: 5ee6758093969a2db1d932a88f21c965380bab5c
-ms.sourcegitcommit: 750f0bfab02af24c8c72e6e9bbdd876e4a7399de
+ms.openlocfilehash: db782cea1d47dc31abf2908b82a756404fda513d
+ms.sourcegitcommit: b3af4f7ef486c95cea173caea5a31d0472816ddd
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/04/2019
-ms.locfileid: "54008433"
+ms.lasthandoff: 01/09/2019
+ms.locfileid: "54136521"
 ---
 # <a name="troubleshoot-your-embedded-application"></a>嵌入式应用程序疑难解答
 
@@ -219,6 +219,10 @@ Add-AzureADServicePrincipalPolicy -Id $sp.ObjectId -RefObjectId $policy.Id
 
 ## <a name="content-rendering"></a>内容呈现
 
+### <a name="performance"></a>性能
+
+[Power BI Embedded 性能](embedded-performance-best-practices.md)
+
 ### <a name="rendering-or-consumption-of-embedded-content-fails-or-times-out"></a>呈现或使用嵌入内容失败或超时
 
 请确保嵌入的标记未过期。 请确保检查嵌入令牌是否过期并刷新。 有关详细信息，请参阅[使用 JavaScript SDK 刷新标记](https://github.com/Microsoft/PowerBI-JavaScript/wiki/Refresh-token-using-JavaScript-SDK-example)。
@@ -292,6 +296,8 @@ Add-AzureADServicePrincipalPolicy -Id $sp.ObjectId -RefObjectId $policy.Id
 
 如需进一步的帮助，请[联系支持人员](https://powerbi.microsoft.com/en-us/support/pro/?Type=documentation&q=power+bi+embedded)或[通过 Azure 门户创建支持票证](https://ms.portal.azure.com/#blade/Microsoft_Azure_Support/HelpAndSupportBlade/newsupportrequest)，并提供你遇到的错误消息。
 
-## <a name="performance"></a>性能
+## <a name="next-steps"></a>后续步骤
 
-[Power BI Embedded 性能](embedded-performance-best-practices.md)
+有关详细信息，请参阅[常见问题解答](embedded-faq.md)。
+
+更多问题？ [尝试参与 Power BI 社区](http://community.powerbi.com/)

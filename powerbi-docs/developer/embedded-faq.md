@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.component: powerbi-developer
 ms.topic: conceptual
 ms.date: 12/20/2018
-ms.openlocfilehash: 3971651caf9be7e754f4232ffec8b4e4dbfdfe6d
-ms.sourcegitcommit: 750f0bfab02af24c8c72e6e9bbdd876e4a7399de
+ms.openlocfilehash: 106d971a06777f7d22d1fb3cd2ba3995b95a21d9
+ms.sourcegitcommit: b3af4f7ef486c95cea173caea5a31d0472816ddd
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/04/2019
-ms.locfileid: "54008410"
+ms.lasthandoff: 01/09/2019
+ms.locfileid: "54136636"
 ---
 # <a name="frequently-asked-questions-about-power-bi-embedded"></a>有关 Power BI Embedded 的常见问题
 
@@ -204,6 +204,10 @@ var authenticationResult = await context.AcquireTokenAsync(resourceId, clientAss
 
 有关详细信息，请参阅 [RLS 与 JavaScript 筛选器](embedded-row-level-security.md#using-rls-vs-javascript-filters)。
 
+### <a name="what-are-the-best-practices-to-improve-performance"></a>提高性能的最佳做法有哪些？
+
+[Power BI Embedded 性能](embedded-performance-best-practices.md)
+
 ## <a name="licensing"></a>许可
 
 ### <a name="how-do-i-purchase-power-bi-embedded"></a>如何购买 Power BI Embedded？
@@ -264,8 +268,8 @@ Power BI Embedded 可用于某些[主权云](embed-sample-for-customers-sovereig
 
 3. 为生产做好准备后，购买 Power BI Embedded 专用容量，并将你的 Power BI 内容（工作区）分配给该容量。
 
-> [!Note]
-> 当使用 Power BI Embedded 解决方案并行生成时，可以继续使用 Power BI 工作区集合。 准备就绪后，可以让客户迁移到新的 Power BI Embedded 解决方案，停用 Power BI 工作区集合解决方案。
+    > [!Note]
+    > 当使用 Power BI Embedded 解决方案并行生成时，可以继续使用 Power BI 工作区集合。 准备就绪后，可以让客户迁移到新的 Power BI Embedded 解决方案，停用 Power BI 工作区集合解决方案。
 
 有关详细信息，请参考[如何将 Power BI 工作区集合内容迁移到 Power BI Embedded](https://docs.microsoft.com/power-bi/developer/migrate-from-powerbi-embedded)
 
@@ -318,10 +322,6 @@ Power BI Embedded 解决方案中引入了 Power BI 工作区集合无法实现�
 
 可以在[这里](https://docs.microsoft.com/power-bi/service-basic-concepts)了解如何编辑 Power BI 数据。
 
-有关详细信息，请参阅[嵌入应用程序疑难解答](embedded-troubleshoot.md)
+有关详细信息，请参阅[嵌入应用程序疑难解答](embedded-troubleshoot.md)。
 
 更多问题？ [尝试参与 Power BI 社区](http://community.powerbi.com/)
-
-### <a name="what-are-the-best-practices-to-improve-performance"></a>提高性能的最佳做法有哪些？
-
-[Power BI Embedded 性能](embedded-performance-best-practices.md)
