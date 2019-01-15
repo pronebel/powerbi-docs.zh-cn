@@ -6,17 +6,17 @@ manager: kvivek
 ms.custom: seodec18
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-service
+ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 12/21/2018
 ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: be92d60e2f1fd6a9ea21cac37325ccfd58ba0687
-ms.sourcegitcommit: 2c77439e4bf66d239baf19ae2ce0eed6c5c7f13c
+ms.openlocfilehash: b292e6df7cb01e26b610ffb99ec5b794df933bfa
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/22/2018
-ms.locfileid: "53748527"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54287552"
 ---
 # <a name="frequently-asked-questions-about-power-bi"></a>有关 Power BI 的常见问题
 * 如果你有其他问题，请[尝试询问 Power BI 社区](http://community.powerbi.com/)。

@@ -5,16 +5,16 @@ author: markingmyname
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-developer
+ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 08/11/2017
 ms.author: maghan
-ms.openlocfilehash: 51ad188479c11f5a0d16768eee8c533bdc71c59c
-ms.sourcegitcommit: fecea174721d0eb4e1927c1116d2604a822e4090
+ms.openlocfilehash: f97376477ff3938280bf00b14f4aa511b977d8c7
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/31/2018
-ms.locfileid: "39359923"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54286952"
 ---
 # <a name="authenticate-users-and-get-an-azure-ad-access-token-for-your-power-bi-app"></a>对用户进行身份验证并获取 Power BI 应用的 Azure AD 访问令牌
 了解如何在 Power BI 应用中对用户进行身份验证，并检索要用于 REST API 的访问令牌。

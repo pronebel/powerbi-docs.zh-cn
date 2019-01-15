@@ -5,17 +5,17 @@ author: otarb
 manager: rajatt
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-desktop
+ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 06/18/2018
 ms.author: otarb
 LocalizationGroup: Connect to data
-ms.openlocfilehash: c3664eee2d3836fc802d1728bbfe7fce3e03e18d
-ms.sourcegitcommit: 5eb0f37f59b5fec15c0caecbbd1f8d688c7f0013
+ms.openlocfilehash: d97c59b7c5d25e85dee5f3b5b5b6ae8d24ae6cb2
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/09/2018
-ms.locfileid: "51297196"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54283313"
 ---
 # <a name="using-python-in-query-editor"></a>在查询编辑器中使用 Python
 你可以在 Power BI Desktop 查询编辑器中使用 Python，Python 是统计学家、数据科学家和数据分析师使用最广泛的一种编程语言。 查询编辑器中集成的 Python 可让你用 Python 来执行数据清理，并在数据集中执行高级数据调整和分析，包括丢失数据补全、预测和聚类分析，此处仅举几例。 Python 是一种功能强大的语言，可用于在“查询编辑器”中准备你的数据模型并创建报表。

@@ -5,17 +5,17 @@ author: mihart
 manager: kvivek
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-desktop
+ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 08/20/2017
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 2b1e5c28bd705e064dc4e0e3283eb3941452647b
-ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
+ms.openlocfilehash: 201e4e75c9a1ce0d05c85112457191a8d306c596
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/21/2018
-ms.locfileid: "46547009"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54287016"
 ---
 # <a name="change-the-type-of-visualization-in-a-power-bi-report"></a>更改 Power BI 报表中的可视化效果类型
 请在 Power BI 服务和 Power BI Desktop 中尝试不同类型的可视化对象，看哪一种最能阐释数据。 
