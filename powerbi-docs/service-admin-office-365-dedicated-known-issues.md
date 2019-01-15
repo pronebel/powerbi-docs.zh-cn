@@ -5,18 +5,18 @@ author: mgblythe
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-service
+ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 06/28/2017
 ms.author: mblythe
 ms.custom: seodec18
 LocalizationGroup: Troubleshooting
-ms.openlocfilehash: 8f9ab0a9a4beddf9be3fc933174f92ac4ae96a6b
-ms.sourcegitcommit: 72c9d9ec26e17e94fccb9c5a24301028cebcdeb5
+ms.openlocfilehash: 9461609b7ecaa674d3ef4d01482752a78071dbe2
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/07/2018
-ms.locfileid: "53026491"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54295733"
 ---
 # <a name="office-365-dedicated-customers---known-issues"></a>Office 365 专用客户 - 已知问题
 现在针对 Office 365 专用客户支持 Power BI。  如果你是 O365 专用客户，则可以使用来自该租户的帐户进行登录，并使用 Power BI。 当前有两个已知问题。

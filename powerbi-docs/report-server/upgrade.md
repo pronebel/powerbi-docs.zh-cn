@@ -5,16 +5,16 @@ author: markingmyname
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-report-server
+ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 09/05/2017
 ms.author: maghan
-ms.openlocfilehash: 82b42f97a92a52203b80d31abef4aeee456d6d4e
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: 058f437d671ecca6699eff021ae6f1c072119d40
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34482029"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54295675"
 ---
 # <a name="upgrade-power-bi-report-server"></a>升级 Power BI 报表服务器
 了解如何升级 Power BI 报表服务器。

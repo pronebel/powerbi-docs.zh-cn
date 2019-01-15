@@ -4,17 +4,17 @@ description: 了解 Power BI Premium 容量内存管理和优化。
 ms.date: 10/18/2018
 ms.topic: conceptual
 ms.service: powerbi
-ms.component: powerbi-admin
+ms.subservice: powerbi-admin
 ms.author: mblythe
 ms.reviewer: mblythe
 author: mgblythe
 manager: kfile
-ms.openlocfilehash: 534c06c66d561a04dbffc04412095d6924c92781
-ms.sourcegitcommit: b23fdcc0ceff5acd2e4d52b15b310068236cf8c7
+ms.openlocfilehash: efb0f1dfd340c0defcba8a67e0e46051d0d9be25
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/07/2018
-ms.locfileid: "51266061"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54293826"
 ---
 # <a name="microsoft-power-bi-premium-capacity-resource-management-and-optimization"></a>Microsoft Power BI Premium 容量资源管理和优化
 

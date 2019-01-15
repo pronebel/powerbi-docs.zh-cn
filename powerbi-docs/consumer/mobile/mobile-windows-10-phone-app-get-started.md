@@ -1,20 +1,20 @@
 ---
 title: 适用于 Windows 10 的 Power BI 移动应用入门
 description: 适用于 Windows 10 的 Power BI 移动应用支持在平板电脑或手机上对业务信息进行最新的、可触控移动式访问。
-author: maggiesMSFT
+author: mshenhav
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-mobile
+ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 06/28/2018
-ms.author: maggies
-ms.openlocfilehash: 00f4f63630efd36b55da5e15ce28f1733edaf84f
-ms.sourcegitcommit: 52ac456bf2ac025b22ea634c28482f22e1cc19ac
+ms.author: mshenhav
+ms.openlocfilehash: aa41e1e2869ad4d2f77224e3bec99dc00c59c536
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/10/2018
-ms.locfileid: "48908661"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54291432"
 ---
 # <a name="get-started-with-the-power-bi-mobile-app-for-windows-10"></a>适用于 Windows 10 的 Power BI 移动应用入门
 适用于 Windows 10 的 Power BI 移动应用让你可以在平板电脑或手机上使用 Power BI，可提供对业务信息的最新的、可触控移动式访问。 在任何地方查看公司仪表板并与之进行交互&#151;就在 [Windows 开始屏幕](mobile-pin-dashboard-start-screen-windows-10-phone-app.md)上查看。
@@ -122,5 +122,5 @@ ms.locfileid: "48908661"
 ## <a name="next-steps"></a>后续步骤
 * 从 Windows 应用商店[下载 Power BI 应用](http://go.microsoft.com/fwlink/?LinkID=526478)。  
 * [什么是 Power BI？](../../power-bi-overview.md)
-* 是否有任何问题？ [尝试咨询 Power BI 社区](http://community.powerbi.com/)
+* 是否有任何问题? [尝试咨询 Power BI 社区](http://community.powerbi.com/)
 

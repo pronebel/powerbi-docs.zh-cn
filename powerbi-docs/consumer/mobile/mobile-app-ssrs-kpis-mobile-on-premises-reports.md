@@ -1,20 +1,20 @@
 ---
 title: 在 Power BI 移动应用中查看本地报表和 KPI
 description: 使用 Power BI 移动应用，可以通过触控移动设备实时访问 SQL Server Reporting Services 和 Power BI 报表服务器中的本地业务信息。
-author: maggiesMSFT
+author: mshenhav
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-mobile
+ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 06/13/2018
-ms.author: maggies
-ms.openlocfilehash: fcc548829ae5a1a661ae55603544e25a51b0204c
-ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
+ms.author: mshenhav
+ms.openlocfilehash: c735b5e1abbed0c733ca4414e15fc44b741349d8
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/12/2018
-ms.locfileid: "44730247"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54287913"
 ---
 # <a name="view-on-premises-report-server-reports-and-kpis-in-the-power-bi-mobile-apps"></a>在 Power BI 移动应用中查看本地报表服务器报表和 KPI
 
@@ -133,5 +133,5 @@ Power BI 报表、Reporting Services 移动报表和 KPI 的文件夹与它们�
 
 ## <a name="next-steps"></a>后续步骤
 * [什么是 Power BI？](../../power-bi-overview.md)  
-* 是否有任何问题？ [尝试咨询 Power BI 社区](http://community.powerbi.com/)
+* 是否有任何问题? [尝试咨询 Power BI 社区](http://community.powerbi.com/)
 

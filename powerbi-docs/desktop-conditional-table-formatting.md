@@ -5,17 +5,17 @@ author: davidiseminger
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-desktop
+ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 08/06/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 324a9b7f8a3718c6da0efb7533751d88dd717bcf
-ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
+ms.openlocfilehash: 4b45c6708f2f4c1ec0f8df2a330dcbb683210926
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/12/2018
-ms.locfileid: "44728079"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54292012"
 ---
 # <a name="conditional-formatting-in-tables"></a>表格中的条件格式设置 
 通过表格的条件格式设置，可根据单元格值或其他值/字段指定自定义单元格颜色，包括使用渐变色。 也可用数据条显示单元格值。 
@@ -47,7 +47,7 @@ ms.locfileid: "44728079"
 
 ![背景色阶对话框](media/desktop-conditional-table-formatting/table-formatting-1-color-by-rules-dialog.png)
 
-### <a name="color-by-rules"></a>根据规则着色
+### <a name="color-by-rules"></a>按规则切换颜色
 
 选择“根据规则着色”后，可以输入一个或多个值范围，每个范围使用一种设定的颜色。  每个值范围以“如果”值条件、“和”值条件和一种颜色开头。
 
@@ -82,7 +82,7 @@ ms.locfileid: "44728079"
 
 ![使用字体色阶的示例表](media/desktop-conditional-table-formatting/table-formatting-2-table.png)
 
-## <a name="data-bars"></a>数据条
+## <a name="data-bars"></a>数据栏
 
 选择“条件格式”和“数据条”后，将显示以下对话框。 
 

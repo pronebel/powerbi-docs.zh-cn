@@ -5,17 +5,17 @@ author: mihart
 manager: kvivek
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-desktop
+ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 11/02/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 125787bab3892f2e9616866a9d5487837131d0ed
-ms.sourcegitcommit: 4f46d71ff6026c1c158f007425aefdcb501f48ee
+ms.openlocfilehash: 52f679ee143e1009068c7de1ed9ce13e82e957dc
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/06/2018
-ms.locfileid: "52981482"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54295365"
 ---
 # <a name="data-point-limits-and-strategies-by-visual-type"></a>数据点限制和策略（按视觉对象类型）
 

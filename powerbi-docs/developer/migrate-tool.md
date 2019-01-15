@@ -5,16 +5,16 @@ author: markingmyname
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-developer
+ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 06/30/2018
 ms.author: maghan
-ms.openlocfilehash: b520eb2758088feadff963f86ddf310ae7a7ed8b
-ms.sourcegitcommit: 06f59902105c93700e71e913dff8453e221e4f82
+ms.openlocfilehash: cd88270c75b46267217147d8f02fc707eeef26ab
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/01/2018
-ms.locfileid: "39388631"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54290377"
 ---
 # <a name="power-bi-embedded-migration-tool"></a>Power BI Embedded 迁移工具
 此迁移工具可用于将报表从 Power BI Embedded Azure 服务 (PaaS) 复制到 Power BI 服务 (SaaS)。
@@ -84,7 +84,7 @@ ms.locfileid: "39388631"
     ![](media/migrate-tool/migrate-tool-open-plan.png)
 2. 选择迁移文件，然后选择“打开”。
 
-## <a name="step-1-analyze--plan-migration"></a>第 1 步：分析与计划迁移
+## <a name="step-1-analyze--plan-migration"></a>步骤 1：分析与计划迁移
 可以在“分析与计划迁移”选项卡上查看 Azure 订阅的资源组中的现有内容。
 
 ![“分析与计划迁移”选项卡](media/migrate-tool/migrate-tool-step1.png)
@@ -137,7 +137,7 @@ PaaS 拓扑是“资源组”>“工作区集合”>“工作区”的列表。 
 > 
 > 
 
-## <a name="step-2-download"></a>第 2 步：下载
+## <a name="step-2-download"></a>步骤 2：下载
 在“下载”选项卡上可以看到报表和关联元数据的列表。 可以查看现在的导出状态和以前的导出状态。
 
 ![](media/migrate-tool/migrate-tool-download-tab.png)
@@ -153,7 +153,7 @@ PaaS 拓扑是“资源组”>“工作区集合”>“工作区”的列表。 
 
 下载完成后，选择“创建组”选项卡。
 
-## <a name="step-3-create-groups"></a>第 3 步：创建组
+## <a name="step-3-create-groups"></a>步骤 3：创建组
 下载可用报表后，可以转到“创建组”选项卡。此选项卡将根据之前创建的迁移计划在 Power BI 服务内创建应用工作区。 它会使用“分析与计划迁移”中“上传”选项卡上提供的名称创建应用工作区。
 
 ![](media/migrate-tool/migrate-tool-create-groups.png)
@@ -172,7 +172,7 @@ PaaS 拓扑是“资源组”>“工作区集合”>“工作区”的列表。 
 
 创建工作区后，可以移到“上传”选项卡。
 
-## <a name="step-4-upload"></a>第 4 步：上传
+## <a name="step-4-upload"></a>步骤 4：上传
 在“上传”选项卡上进行操作可以将报表上传到 Power BI 服务。 在此可以看到之前在“下载”选项卡上下载的一系列报表，以及基于迁移计划的目标组名称。
 
 ![](media/migrate-tool/migrate-tool-upload-tab.png)

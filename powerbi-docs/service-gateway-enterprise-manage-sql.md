@@ -5,17 +5,17 @@ author: mgblythe
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-gateways
+ms.subservice: powerbi-gateways
 ms.topic: conceptual
 ms.date: 01/24/2018
 ms.author: mblythe
 LocalizationGroup: Gateways
-ms.openlocfilehash: ff770320e0e6cd3f591e3318637a04977152e488
-ms.sourcegitcommit: 60fb46b61ac73806987847d9c606993c0e14fb30
+ms.openlocfilehash: 5bd1ee87d540fc4d4c212313483c78d168d7e104
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/25/2018
-ms.locfileid: "50101395"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54277610"
 ---
 # <a name="manage-your-data-source---sql-server"></a>管理数据源 - SQL Server
 安装本地数据网关之后，可以添加可与该网关结合使用的数据源。 本文将探讨如何使用网关和数据源。 你可以使用 SQL Server 数据源进行计划刷新或 DirectQuery。

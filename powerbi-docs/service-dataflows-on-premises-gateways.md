@@ -5,17 +5,17 @@ author: davidiseminger
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-service
+ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 12/06/2018
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: 82cc459bcfd33d2aa576529899b7f893b0854c37
-ms.sourcegitcommit: f25464d5cae46691130eb7b02c33f42404011357
+ms.openlocfilehash: 82c8bbb5361730b306cacd14dc9598ca12035027
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/10/2018
-ms.locfileid: "53180291"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54276459"
 ---
 # <a name="using-dataflows-with-on-premises-data-sources-preview"></a>将数据流与本地数据源配合使用（预览）
 

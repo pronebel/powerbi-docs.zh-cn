@@ -6,17 +6,17 @@ manager: kfile
 ms.reviewer: ''
 ms.custom: seodec18
 ms.service: powerbi
-ms.component: powerbi-desktop
+ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 12/06/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: f58c5ec46cb59ba65d6ecbedb7a119d73572ea4b
-ms.sourcegitcommit: 72c9d9ec26e17e94fccb9c5a24301028cebcdeb5
+ms.openlocfilehash: 9d1e326e9b2481c4b5dc4ab61a0bd49d477fc592
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/07/2018
-ms.locfileid: "53025571"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54274872"
 ---
 # <a name="enter-data-directly-into-power-bi-desktop"></a>直接在 Power BI Desktop 中输入数据
 使用 Power BI Desktop，你可以直接输入数据并在报表和可视化效果中使用该数据。 例如，可以复制部分工作簿或网页，然后将其粘贴到 Power BI Desktop。

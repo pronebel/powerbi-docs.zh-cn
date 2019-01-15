@@ -1,20 +1,20 @@
 ---
 title: 使用 iPhone 上的 Power BI 移动应用扫描条形码
 description: 扫描现实生活中的条形码，直接转到在 Power BI 移动应用中筛选后的 BI 信息。
-author: maggiesMSFT
+author: mshenhav
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-mobile
+ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 10/13/2017
-ms.author: maggies
-ms.openlocfilehash: d221cfdc849a18ba934ebacaf58ef40999ac0117
-ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
+ms.author: mshenhav
+ms.openlocfilehash: 3fd2d4888f76490a01c0742e68e6820c7055326e
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/21/2018
-ms.locfileid: "46543304"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54291340"
 ---
 # <a name="scan-a-barcode-with-your-iphone-from-the-power-bi-mobile-app"></a>使用 iPhone 上的 Power BI 移动应用扫描条形码
 扫描现实生活中的条形码，直接转到在 Power BI 移动应用中筛选后的 BI 信息。

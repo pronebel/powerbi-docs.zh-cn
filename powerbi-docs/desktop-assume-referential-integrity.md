@@ -5,17 +5,17 @@ author: davidiseminger
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-desktop
+ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 11/28/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 30aba9dc78008c933c34b24d1d367d18fb26c36c
-ms.sourcegitcommit: 05303d3e0454f5627eccaa25721b2e0bad2cc781
+ms.openlocfilehash: 33e38505111c625c4325a380b62309aea7170736
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/28/2018
-ms.locfileid: "52578442"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54274481"
 ---
 # <a name="assume-referential-integrity-settings-in-power-bi-desktop"></a>Power BI Desktop 中的假设引用完整性设置
 当连接到使用 **DirectQuery** 的数据源时，你可以使用“假设引用完整性”，以对数据源运行更高效的查询。 此功能对基础数据有要求，并且仅在使用 **DirectQuery** 时可用。

@@ -5,16 +5,16 @@ author: maggiesMSFT
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-service
+ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 11/06/2018
+ms.date: 01/09/2019
 ms.author: maggies
-ms.openlocfilehash: bff5e42b239fee572ea0a453301f154da3b999b3
-ms.sourcegitcommit: b23fdcc0ceff5acd2e4d52b15b310068236cf8c7
+ms.openlocfilehash: 76ea3250c3032c253b87f5f2b0713460a805787e
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/07/2018
-ms.locfileid: "51266084"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54295781"
 ---
 # <a name="whitepapers-for-power-bi"></a>Power BI 白皮书
 
@@ -26,7 +26,7 @@ ms.locfileid: "51266084"
 | [Microsoft Power BI Premium](https://aka.ms/pbipremiumwhitepaper) |介绍了 Power BI Premium 刚刚面世时的情况以及它的发展趋势。 | 2017 年 10 月 |
 | [Power BI Premium 规划和部署](https://aka.ms/Premium-Capacity-Planning-Deployment)| 本文介绍了如何针对已定义的工作负载规划和部署高级容量，以及相应的最佳做法。| 2017 年 11 月 |
 | [使用 Power BI Premium规划嵌入式分析的容量](https://aka.ms/pbiewhitepaper) |本文为应用开发人员/ISV 提供有关如何为其业务确定最合适容量的指导。 | 2017 年 10 月 |
-| [规划 Power BI Enterprise 部署](https://aka.ms/pbienterprisedeploy) |此技术白皮书简要介绍了性能良好且安全的 Power BI 组织部署的注意事项。 | 2018 年 7 月 |
+| [规划 Power BI Enterprise 部署](https://go.microsoft.com/fwlink/?linkid=2057861) |此技术白皮书简要介绍了性能良好且安全的 Power BI 组织部署的注意事项。 | 2018 年 7 月 |
 | [Power BI 报表服务器容量计划指南](report-server/capacity-planning.md) |本文旨在通过共享针对报表服务器的各种工作负载的大量加载测试执行的结果，提供 Power BI 报表服务器的容量计划指南。 | 2018 年 3 月 |
 | [安全性](service-admin-power-bi-security.md) |详细介绍了 Power BI 中的安全性。 | 2018 年 7 月 |
 | [使用 Azure Active Directory B2B 将 Power BI 内容分发给外部来宾用户](https://aka.ms/powerbi-b2b-whitepaper)|本白皮书概述了如何使用 Azure Active Directory 企业到企业 (AAD B2B) 的集成将内容分发给组织外的用户。| 2018 年 3 月 |

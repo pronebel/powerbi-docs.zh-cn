@@ -1,20 +1,20 @@
 ---
 title: iOS 版 Power BI 移动应用入门
 description: 了解如何使用 iOS 版 Microsoft Power BI 移动应用随时随地通过移动设备访问本地和云中的业务信息。
-author: maggiesMSFT
+author: mshenhav
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-mobile
+ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 06/27/2018
-ms.author: maggies
-ms.openlocfilehash: a09fc4471f9af3a9406dcbcdd80d5bcc7a3632f6
-ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
+ms.author: mshenhav
+ms.openlocfilehash: b0de20cc32c32360f4f37c70e673dba01740a860
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/12/2018
-ms.locfileid: "44730382"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54281772"
 ---
 # <a name="get-started-with-the-power-bi-mobile-app-on-ios-devices"></a>iOS 设备上的 Power BI 移动应用入门
 iPhone、 iPad 或 iPod Touch 上的 iOS 版 Microsoft Power BI 应用提供了 Power BI、Power BI 报表服务器和 Reporting Services 的移动 BI 体验。 通过触控移动设备实现的实时访问，可以随时随地查看本地和云中的公司仪表板，并与之进行交互。 然后，可以浏览仪表板中的数据，并通过电子邮件或短信的方式将数据与同事共享。 在你的 [Apple Watch](mobile-apple-watch.md) 上保持最新的数据。  
@@ -110,6 +110,6 @@ iPhone、 iPad 或 iPod Touch 上的 iOS 版 Microsoft Power BI 应用提供了 
 ## <a name="next-steps"></a>后续步骤
 
 * [什么是 Power BI？](../../power-bi-overview.md)
-* 是否有任何问题？ [尝试咨询 Power BI 社区](http://community.powerbi.com/)
+* 是否有任何问题? [尝试咨询 Power BI 社区](http://community.powerbi.com/)
 
 

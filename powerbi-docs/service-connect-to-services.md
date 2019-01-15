@@ -5,23 +5,22 @@ author: maggiesMSFT
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.subservice: powerbi-template-apps
 ms.topic: conceptual
-ms.date: 01/29/2018
+ms.date: 01/11/2019
 ms.author: maggies
 LocalizationGroup: Connect to services
-ms.openlocfilehash: c2a6e25cae2fcd1a2d84a5ffe6941559593f75c0
-ms.sourcegitcommit: 750f0bfab02af24c8c72e6e9bbdd876e4a7399de
+ms.openlocfilehash: 8006e3ff2849e98aed8b25e667d430af9407ede2
+ms.sourcegitcommit: 4695f5ef54cc9929828320132f890317b4c3018e
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/04/2019
-ms.locfileid: "54008548"
+ms.lasthandoff: 01/12/2019
+ms.locfileid: "54238959"
 ---
 # <a name="connect-to-the-services-you-use-with-power-bi"></a>使用 Power BI 连接到要使用的服务
 可以连接到许多用以运行你的业务的服务，例如 Salesforce、Microsoft Dynamics 和 Google Analytics。 Power BI 通过使用你的凭据连接到服务，然后创建包含仪表板的 Power BI 应用和一组 Power BI 报表，这些报表可自动显示数据并提供业务视觉对象见解。
 
 
-登录到 Power BI，查看所有[可以连接到的服务](https://app.powerbi.com/getdata/services)。 Power BI 团队定期添加新的服务。
+登录到 Power BI，查看所有[可以连接到的服务](https://app.powerbi.com/getdata/services)。 
 
 ![AppSource 应用](media/service-connect-to-services/overview.png)
 

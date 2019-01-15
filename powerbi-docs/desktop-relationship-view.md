@@ -5,20 +5,20 @@ author: davidiseminger
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-desktop
+ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 11/28/2018
 ms.author: davidi
 LocalizationGroup: Model your data
-ms.openlocfilehash: 6f855ff38d7c3f82fe4fa0456deb8a22ce6379e0
-ms.sourcegitcommit: 2ae660a7b70fce23eb58b159d049eca44a664f2c
+ms.openlocfilehash: 178f3cd9015af503ff12875548822ba1ab5365c3
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/30/2018
-ms.locfileid: "52669902"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54272756"
 ---
 # <a name="relationship-view-in-power-bi-desktop"></a>Power BI Desktop 中的关系视图
-**关系视图**显示模型中的所有表、列和关系。 当模型中包含许多关系十分复杂的表时尤其有用。
+**关系视图**显示模型中的所有表、列和关系。 这在模型包含许多表且其关系十分复杂时尤其有用。
 
 让我们来看一下。
 

@@ -5,16 +5,16 @@ author: maggiesMSFT
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: report-builder
+ms.subservice: report-builder
 ms.topic: overview
 ms.date: 11/05/2018
 ms.author: maggies
-ms.openlocfilehash: d3fdf9b568aa13ba5a8437c684835e0fce803d19
-ms.sourcegitcommit: bb4cf3469b44e451153c469725a9069dcd548809
+ms.openlocfilehash: d86f52b45dfac4252dfd2e7de29de64c16a566ca
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/20/2018
-ms.locfileid: "53649436"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54294009"
 ---
 # <a name="paginated-reports-in-power-bi-faq-preview"></a>Power BI 中的分页报表：常见问题解答（预览）
 

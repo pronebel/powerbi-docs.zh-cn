@@ -5,17 +5,17 @@ author: davidiseminger
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-desktop
+ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 12/10/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: e09c08780011ffaac7d37468e6018b079c41c669
-ms.sourcegitcommit: 298db44200b78b1281b3ae6dfe7cce7a89865ec9
+ms.openlocfilehash: f5fc52df86faa69683fa1e76f8893fb1d1a09ab9
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/13/2018
-ms.locfileid: "53329731"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54281151"
 ---
 # <a name="data-sources-in-power-bi-desktop"></a>Power BI Desktop 中的数据源
 使用 Power BI Desktop，你可以连接到来自许多不同的源的数据。 在此页面底部列出了可用数据源的完整清单。
@@ -126,7 +126,7 @@ ms.locfileid: "53329731"
 * Dynamics 365 (联机)
 * Dynamics NAV
 * Dynamics 365 Business Central
-* Dynamics 365 Business Central（本地）
+* Dynamics 365 Business Central (本地)
 * Common Data Service for Apps (Beta)
 * Microsoft Azure 使用见解 (Beta)
 * Azure DevOps (Beta)

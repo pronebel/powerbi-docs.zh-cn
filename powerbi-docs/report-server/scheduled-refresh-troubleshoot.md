@@ -5,16 +5,16 @@ author: markingmyname
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-report-server
+ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 11/01/2017
 ms.author: maghan
-ms.openlocfilehash: a90f22c262a314b50981be94121e2573f9fe525a
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: 3aa4047f5a4b0146c534a5734d8d13a42c46fe58
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34296356"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54287798"
 ---
 # <a name="troubleshoot-scheduled-refresh-in-power-bi-report-server"></a>对 Power BI 报表服务器中的计划刷新进行故障排除
 本文将讨论可用于解决 Power BI 报表服务器中计划刷新问题的资源。

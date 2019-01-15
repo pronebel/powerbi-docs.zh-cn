@@ -6,17 +6,17 @@ manager: kfile
 ms.reviewer: ''
 ms.custom: seodec18
 ms.service: powerbi
-ms.component: powerbi-desktop
+ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 12/06/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 10431709fd77089fb98524b7060711ce6acc76fd
-ms.sourcegitcommit: 72c9d9ec26e17e94fccb9c5a24301028cebcdeb5
+ms.openlocfilehash: 35448142ecad249289542493261dfff612a348ad
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/07/2018
-ms.locfileid: "53026101"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54283336"
 ---
 # <a name="using-r-in-query-editor"></a>在查询编辑器中使用 R
 你可以在 Power BI Desktop **查询编辑器**中使用 **R**，R 是统计学家、数据科学家和数据分析师使用最广泛的一种编程语言。 **查询编辑器**中集成的 R 可使你用 R 来执行数据清理，并在数据集中执行高级数据调整和分析，包括丢失数据补全、预测和聚类分析，此处仅举几例。 **R** 是功能强大的语言，可用于在“查询编辑器”中准备你的数据模型并创建报表。

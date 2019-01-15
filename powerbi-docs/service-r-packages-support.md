@@ -6,17 +6,17 @@ manager: kfile
 ms.reviewer: ''
 ms.custom: seodec18
 ms.service: powerbi
-ms.component: powerbi-desktop
+ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 12/06/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: b88b17e428633e9d610724a8c3daa145c9928ae2
-ms.sourcegitcommit: 72c9d9ec26e17e94fccb9c5a24301028cebcdeb5
+ms.openlocfilehash: e74b0399ffdf2b5ca79eecb6451ccd676c1095db
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/07/2018
-ms.locfileid: "53026859"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54296699"
 ---
 # <a name="r-packages-in-the-power-bi-service"></a>Power BI 服务中的 R 程序包
 可以使用功能强大的 [R 编程语言](https://www.r-project.org/)在 Power BI 服务中创建视觉对象。 许多 R 程序包在 Power BI 服务中受到支持（并且更多包始终受支持），某些包不受支持。
@@ -677,7 +677,7 @@ R 程序包存在大量要求和限制：
 |relimp| 1.0-5| https://cran.r-project.org/web/packages/relimp/index.html |
 |rematch| 1.0.1| https://cran.r-project.org/web/packages/rematch/index.html |
 |Renext| 3.1-0| https://cran.r-project.org/web/packages/Renext/index.html |
-|可视化| 0.1.4| https://cran.r-project.org/web/packages/reports/index.html |
+|报表| 0.1.4| https://cran.r-project.org/web/packages/reports/index.html |
 |reshape| 0.8.6| https://cran.r-project.org/web/packages/reshape/index.html |
 |reshape2| stats| stats4|
 |reshape2| scales (>= 0.4.1)| stats|

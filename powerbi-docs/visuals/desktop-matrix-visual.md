@@ -5,17 +5,17 @@ author: mihart
 manager: kvivek
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-desktop
+ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 12/05/2018
 ms.author: mihart
 LocalizationGroup: Create reports
-ms.openlocfilehash: 123cb794a1ba307439a47bdb949e2c76297e7ba2
-ms.sourcegitcommit: 4f46d71ff6026c1c158f007425aefdcb501f48ee
+ms.openlocfilehash: acd2ad2afe9b380a8888dee7a4b9d4707d79b41f
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/06/2018
-ms.locfileid: "52979528"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54279817"
 ---
 # <a name="use-the-matrix-visual-in-power-bi"></a>在 Power BI 中使用矩阵视觉对象
 借助“矩阵”视觉对象功能，可以在“Power BI Desktop”和“Power BI 服务”报表中创建矩阵视觉对象（有时亦称为“表”），并能使用其他视觉对象交叉突出显示矩阵内的元素。 此外，还可以选择行、列和各个单元格进行交叉突出显示。 可将单个单元格和多个单元格选择复制并粘贴到其他应用程序。 最后，为了更好地利用布局空间，矩阵视觉对象支持阶梯布局。

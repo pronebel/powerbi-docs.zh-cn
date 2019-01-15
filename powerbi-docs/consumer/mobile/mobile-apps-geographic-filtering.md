@@ -1,19 +1,19 @@
 ---
 title: 在 Power BI 移动应用中按地理位置筛选报表
 description: 了解如何在报表所有者设置地理位置标记的情况下在 Microsoft Power BI 移动应用中按地理位置筛选报表。
-author: maggiesMSFT
+author: mshenhav
 manager: kfile
 ms.service: powerbi
-ms.component: powerbi-mobile
+ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 02/09/2018
-ms.author: maggies
-ms.openlocfilehash: c694b7e04ff0611a73adf5c69cd1872796dc4c54
-ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
+ms.author: mshenhav
+ms.openlocfilehash: 828dcb4aeb8b7c5e69292685470f112a2d85cb71
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/12/2018
-ms.locfileid: "44730314"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54274642"
 ---
 # <a name="filter-a-report-by-geographic-location-in-the-power-bi-mobile-apps"></a>在 Power BI 移动应用中按地理位置筛选报表
 适用于：

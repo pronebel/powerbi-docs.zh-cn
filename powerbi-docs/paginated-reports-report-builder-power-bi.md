@@ -5,16 +5,16 @@ author: maggiesMSFT
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: report-builder
+ms.subservice: report-builder
 ms.topic: overview
 ms.date: 12/05/2018
 ms.author: maggies
-ms.openlocfilehash: d79299f469062ec74c49ff4b7e9edda26c3409a3
-ms.sourcegitcommit: 72c9d9ec26e17e94fccb9c5a24301028cebcdeb5
+ms.openlocfilehash: 7ce0e90e3166ce6f84c5e53e05d56e9fcc4e790d
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/07/2018
-ms.locfileid: "53026108"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54282830"
 ---
 # <a name="what-are-paginated-reports-in-power-bi-premium-preview"></a>Power BI Premium 中的分页报表是什么？ （预览）
 长期以来，分页报表一直是 SQL Server Reporting Services 中的标准报表格式，现在可在 Power BI 服务中使用。 可以打印或共享这些报表。 它们被称为“分页”，因为它们已进行了格式化，以适应页面。 即使某个表跨多个页，分页报表也能显示表中的所有数据。 它们有时被称为“像素完美”，因为用户可以准确地控制其报表页面布局。 分页报表基于 SQL Server Reporting Services 中的 RDL 报表技术。 报表生成器是用于创作分页报表的独立工具。 
@@ -23,7 +23,7 @@ ms.locfileid: "53026108"
 
 ![Power BI 服务中的分页报表](media/paginated-reports-report-builder-power-bi/power-bi-paginated-wwi-report-page.png)
 
-可以在报表生成器中预览报表，然后将报表发布到 Power BI 服务： http://app.powerbi.com 。 需要具有 Power BI Pro 许可证才能将报表发布到服务。 只要工作区处于 Power BI 高级容量中，就可以在“我的工作区”或应用工作区中发布和共享分页报表。 另外，Power BI 管理员需要在 Power BI 管理门户中启用分页报表。 详细了解如何[配置工作负载](service-admin-premium-manage.md#configure-workloads)。 
+可以在报表生成器中预览报表，然后将报表发布到 Power BI 服务： http://app.powerbi.com。 需要具有 Power BI Pro 许可证才能将报表发布到服务。 只要工作区处于 Power BI 高级容量中，就可以在“我的工作区”或应用工作区中发布和共享分页报表。 另外，Power BI 管理员需要在 Power BI 管理门户中启用分页报表。 详细了解如何[配置工作负载](service-admin-premium-manage.md#configure-workloads)。 
 
 ## <a name="create-reports-in-report-builder"></a>在报表生成器中创建报表
 

@@ -5,17 +5,17 @@ author: otarb
 manager: rajatt
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-desktop
+ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 06/18/2018
 ms.author: otarb
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 634acc9e456462e2ca6d1a09bb6d97b87e75605b
-ms.sourcegitcommit: 698b788720282b67d3e22ae5de572b54056f1b6c
+ms.openlocfilehash: 3e7169e1aa54db93488f0c55e701188667f70305
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/17/2018
-ms.locfileid: "45974980"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54289247"
 ---
 # <a name="use-an-external-python-ide-with-power-bi"></a>将外部 Python IDE 与 Power BI 一起使用
 借助 Power BI Desktop，可以使用外部的 Python IDE（集成开发环境）创建并优化 Python 脚本，然后将这些脚本用于 Power BI 中。

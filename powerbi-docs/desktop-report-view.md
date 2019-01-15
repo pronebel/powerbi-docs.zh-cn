@@ -5,20 +5,20 @@ author: davidiseminger
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-desktop
+ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 11/13/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: c4b4114d21d7afc6652d8706235dab4ad0ba0c37
-ms.sourcegitcommit: 6a6f552810a596e1000a02c8d144731ede59c0c8
+ms.openlocfilehash: d569bbde70949f553a391062c41358038ec92f34
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/14/2018
-ms.locfileid: "51619763"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54275429"
 ---
 # <a name="report-view-in-power-bi-desktop"></a>Power BI Desktop 中的报表视图
-如果你一直在使用 Power BI，就会知道它可以非常方便的为数据创建动态透视和提供深入见解的报表。 在 Power BI Desktop 中，Power BI 还具有更高级的功能。 通过 Power BI Desktop，可创建高级查询、混合多个源中的数据和创建表格之间的关系等。
+如果你一直在使用 Power BI，就知道它非常便于创建可为数据提供动态透视和深入见解的报表。 在 Power BI Desktop 中，Power BI 还具有更高级的功能。 通过 Power BI Desktop，可创建高级查询、混合多个源中的数据和创建表格之间的关系等。
 
 Power BI Desktop 提供**报表视图**，可在其中创建任何数量具有可视化内容的报表页。 此处报表视图所提供的设计体验与 Power BI 中报表的编辑视图所提供的几乎相同。 可四处移动可视化内容，进行复制粘贴、合并等。
 
@@ -59,11 +59,11 @@ Power BI Desktop 提供**报表视图**，可在其中创建任何数量具有�
 
 可以轻松提取 Power BI Desktop 报表中的视觉对象并将其粘贴到其他报表中。 只需使用键盘快捷键 **CTRL+C** 来复制报表视觉对象，然后在其他 Power BI Desktop 报表中，使用 **CTRL+V** 将视觉对象粘贴到其报表中。 可以一次选择一个视觉对象，或者可以选择页面上的所有视觉对象来进行复制，然后粘贴到目标 Power BI Desktop 报表中。 
 
-对于频繁生成和更新多个报表的用户来说，复制和粘贴视觉对象的功能很有用。 在文件之间复制时，已在“格式设置”窗格中明确设定过的格式设置将继续保持，而依赖于主题或默认设置的视觉对象元素将自动更新来匹配目标报表的主题。 所以，当将视觉对象样式和外观设置为你所期望的结果后，可以复制该视觉对象然后将其粘贴到新报表，并保留其所有既定的格式设置。
+对于频繁生成和更新多个报表的用户来说，复制和粘贴视觉对象的功能很有用。 在文件之间复制时，已在“格式设置”窗格中显式设置的设置和格式设置将继续保持，而依赖于主题或默认设置的视觉对象元素将自动更新为匹配目标报表的主题。 所以，当你获得设置了格式的视觉对象且其外观与你期望的完全相同时，可以复制该视觉对象并将其粘贴到新报表，并保留其所有合适的格式设置。
 
 ![复制/粘贴视觉对象出错 - 没有数据字段](media/desktop-report-view/report-view_05.png)
 
-如果你模型中的字段不同，则将在视觉对象上看到错误消息和有关哪些字段不存在的警告。 该错误类似于删除视觉对象正在使用的模型中的字段时看到的错误。 若要修正此错误，只需将中断的字段替换为粘贴后视觉对象报表模型中使用的字段即可。 如果使用自定义视觉对象，还必须将该自定义视觉对象导入到目标报表。
+如果你的模型中的字段不同，则将在视觉对象上看到错误消息和有关哪些字段不存在的警告。 该错误类似于删除视觉对象正在使用的模型中的字段时看到的错误。 若要更正此错误，只需将中断的字段替换为你想要从粘贴视觉对象的报表中的模型中使用的字段。 如果使用自定义视觉对象，还必须将该自定义视觉对象导入到目标报表。
 
 
 

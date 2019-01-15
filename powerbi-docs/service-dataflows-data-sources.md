@@ -5,17 +5,17 @@ author: davidiseminger
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-service
+ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 12/06/2018
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: 7e26074d0ee8e45740513e17b4c4346cae5dfcf5
-ms.sourcegitcommit: 5206651c12f2b91a368f509470b46f3f4c5641e6
+ms.openlocfilehash: cef34e7be0767ce16b84b066663318b66bcbd2d0
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53984266"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54280534"
 ---
 # <a name="connect-to-data-sources-for-power-bi-dataflows-preview"></a>连接到 Power BI 数据流的数据源（预览）
 

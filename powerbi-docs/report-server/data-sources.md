@@ -5,16 +5,16 @@ author: markingmyname
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-report-server
+ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 05/17/2018
 ms.author: maghan
-ms.openlocfilehash: 0f06d5c3742ea5187ff41f6f8974c8a81e5d1d33
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: de16c10a03654802e4c65bfa92e60259e2f9510d
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34310443"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54291736"
 ---
 # <a name="power-bi-report-data-sources-in-power-bi-report-server"></a>Power BI 报表服务器中 Power BI 报表数据源
 Power BI 报表可以连接到多个数据源。 根据数据使用方式，可以提供不同的数据源。 可以导入数据，或者可以直接使用 DirectQuery 或与 SQL Server Analysis Services 的实时连接查询数据。
@@ -44,7 +44,7 @@ Power BI 报表可以连接到多个数据源。 根据数据使用方式，可�
 | Azure HDInsight (HDFS) |是 |否 |否 |
 | Azure HDInsight (Spark) |是 |是 |否 |
 | Azure 表存储 |是 |是 |否 |
-| Dynamics 365（联机） |是 |否 |否 |
+| Dynamics 365 (联机) |是 |否 |否 |
 | Facebook |是 |否 |否 |
 | 文件夹 |是 |是 |否 |
 | Google Analytics |是 |否 |否 |
@@ -55,7 +55,7 @@ Power BI 报表可以连接到多个数据源。 根据数据使用方式，可�
 | Microsoft Exchange |是 |否 |否 |
 | Microsoft Exchange Online |是 |否 |否 |
 | MySQL 数据库 |是 |是 |否 |
-| OData 数据源 |是 |是 |否 |
+| OData 源 |是 |是 |否 |
 | ODBC |是 |是 |否 |
 | OLE DB |是 |是 |否 |
 | Oracle 数据库 |是 |是 |是 |
@@ -67,7 +67,7 @@ Power BI 报表可以连接到多个数据源。 根据数据使用方式，可�
 | SAP Business Warehouse 服务器 |是 |是 |是 |
 | SAP HANA 数据库 |是 |是 |是 |
 | SharePoint 文件夹（本地） |是 |是 |否 |
-| SharePoint 列表（本地） |是 |是 |否 |
+| SharePoint 列表(本地) |是 |是 |否 |
 | SharePoint Online 列表 |是 |否 |否 |
 | Snowflake |是 |否 |否 |
 | Sybase 数据库 |是 |是 |否 |
@@ -85,17 +85,17 @@ Power BI 报表可以连接到多个数据源。 根据数据使用方式，可�
 | Dynamics 365 for Financials (Beta) |是 |否 |否 |
 | GitHub (Beta) |是 |否 |否 |
 | Google BigQuery (Beta) |是 |否 |否 |
-| IBM Informix 数据库(Beta) |是 |否 |否 |
+| IBM Informix 数据库 (Beta) |是 |否 |否 |
 | IBM Netezza (Beta) |是 |否 |否 |
 | Kusto (Beta) |是 |否 |否 |
 | MailChimp (Beta) |是 |否 |否 |
-| Microsoft Azure 使用情况见解 (Beta) |是 |否 |否 |
+| Microsoft Azure 使用见解 (Beta) |是 |否 |否 |
 | Mixpanel (Beta) |是 |否 |否 |
 | Planview Enterprise (Beta) |是 |否 |否 |
 | Projectplace (Beta) |是 |否 |否 |
 | QuickBooks Online (Beta) |是 |否 |否 |
 | Smartsheet |是 |否 |否 |
-| Spark (Beta) |是 |否 |否 |
+| Spark (Beta 版本) |是 |否 |否 |
 | SparkPost (Beta) |是 |否 |否 |
 | SQL Sentry (Beta) |是 |否 |否 |
 | Stripe (Beta) |是 |否 |否 |
@@ -103,7 +103,7 @@ Power BI 报表可以连接到多个数据源。 根据数据使用方式，可�
 | Troux (Beta) |是 |否 |否 |
 | Twilio (Beta) |是 |否 |否 |
 | tyGraph (Beta) |是 |否 |否 |
-| Vertica (Beta) |是 |否 |否 |
+| Vertica (Beta 版本) |是 |否 |否 |
 | Visual Studio Team Services (Beta) |是 |否 |否 |
 | Webtrends (Beta) |是 |否 |否 |
 | Zendesk (Beta) |是 |否 |否 |
@@ -131,7 +131,7 @@ Power BI 报表服务器不支持将基于 OAuth 的身份验证用于模型刷�
 | Azure HDInsight (HDFS) |否 |否 |否 |否 |
 | Azure HDInsight (Spark) |是 |是 |否 |否 |
 | Azure 表存储 |否 |是 |否 |否 |
-| Dynamics 365（联机） |否 |否 |否 |否 |
+| Dynamics 365 (联机) |否 |否 |否 |否 |
 | Facebook |否 |否 |否 |否 |
 | 文件夹 |否 |否 |否 |是 |
 | Google Analytics |否 |否 |否 |否 |
@@ -141,7 +141,7 @@ Power BI 报表服务器不支持将基于 OAuth 的身份验证用于模型刷�
 | Microsoft Exchange |否 |否 |否 |否 |
 | Microsoft Exchange Online |否 |否 |否 |否 |
 | MySQL 数据库 |否 |否 |是 |是 |
-| OData 数据源 |是 |是 |是 |是 |
+| OData 源 |是 |是 |是 |是 |
 | ODBC |是 |否 |是 |是 |
 | OLE DB |是 |否 |是 |是 |
 | Oracle 数据库 |否 |否 |是 |是 |
@@ -153,7 +153,7 @@ Power BI 报表服务器不支持将基于 OAuth 的身份验证用于模型刷�
 | SAP Business Warehouse 服务器 |否 |否 |是 |否 |
 | SAP HANA 数据库 |否 |否 |是 |是 |
 | SharePoint 文件夹（本地） |是 |否 |否 |是 |
-| SharePoint 列表（本地） |是 |否 |否 |是 |
+| SharePoint 列表(本地) |是 |否 |否 |是 |
 | SharePoint Online 列表 |否 |否 |否 |否 |
 | Snowflake |否 |否 |否 |否 |
 | Sybase 数据库 |否 |否 |是 |是 |
@@ -168,17 +168,17 @@ Power BI 报表服务器不支持将基于 OAuth 的身份验证用于模型刷�
 | Dynamics 365 for Financials (Beta) |否 |否 |否 |否 |
 | GitHub (Beta) |否 |否 |否 |否 |
 | Google BigQuery (Beta) |否 |否 |否 |否 |
-| IBM Informix 数据库(Beta) |否 |否 |否 |否 |
+| IBM Informix 数据库 (Beta) |否 |否 |否 |否 |
 | IBM Netezza (Beta) |否 |否 |否 |否 |
 | Kusto (Beta) |否 |否 |否 |否 |
 | MailChimp (Beta) |否 |否 |否 |否 |
-| Microsoft Azure 使用情况见解 (Beta) |否 |否 |否 |否 |
+| Microsoft Azure 使用见解 (Beta) |否 |否 |否 |否 |
 | Mixpanel (Beta) |否 |否 |否 |否 |
 | Planview Enterprise (Beta) |否 |否 |否 |否 |
 | Projectplace (Beta) |否 |否 |否 |否 |
 | QuickBooks Online (Beta) |否 |否 |否 |否 |
 | Smartsheet |否 |否 |否 |否 |
-| Spark (Beta) |否 |否 |否 |否 |
+| Spark (Beta 版本) |否 |否 |否 |否 |
 | SparkPost (Beta) |否 |否 |否 |否 |
 | SQL Sentry (Beta) |否 |否 |否 |否 |
 | Stripe (Beta) |否 |否 |否 |否 |
@@ -186,7 +186,7 @@ Power BI 报表服务器不支持将基于 OAuth 的身份验证用于模型刷�
 | Troux (Beta) |否 |否 |否 |否 |
 | Twilio (Beta) |否 |否 |否 |否 |
 | tyGraph (Beta) |否 |否 |否 |否 |
-| Vertica (Beta) |否 |否 |否 |否 |
+| Vertica (Beta 版本) |否 |否 |否 |否 |
 | Visual Studio Team Services (Beta) |否 |否 |否 |否 |
 | Webtrends (Beta) |否 |否 |否 |否 |
 | Zendesk (Beta) |否 |否 |否 |否 |

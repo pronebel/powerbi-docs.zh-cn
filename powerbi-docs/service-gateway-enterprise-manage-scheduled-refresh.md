@@ -5,17 +5,17 @@ author: mgblythe
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-gateways
+ms.subservice: powerbi-gateways
 ms.topic: conceptual
 ms.date: 12/06/2017
 ms.author: mblythe
 LocalizationGroup: Gateways
-ms.openlocfilehash: 17c608b017123b5ae7111ef6d97703cdbc30940d
-ms.sourcegitcommit: 001ea0ef95fdd4382602bfdae74c686de7dc3bd8
+ms.openlocfilehash: 8f45fbed0b2c4e5de62f8ef18ee9a552bf05486b
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/11/2018
-ms.locfileid: "38937318"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54293756"
 ---
 # <a name="manage-your-data-source---importscheduled-refresh"></a>管理数据源 - 导入/计划刷新
 安装本地数据网关之后，需要添加可与该网关结合使用的数据源。 本文将介绍如何结合使用网关和用于计划刷新的数据源，而不是 DirectQuery 或实时连接。

@@ -6,17 +6,17 @@ manager: kfile
 ms.reviewer: ''
 ms.custom: seodec18
 ms.service: powerbi
-ms.component: powerbi-service
+ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 12/06/2018
 ms.author: davidi
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 7371b871db54411e97f8ec1f4f01ba2e56f6023c
-ms.sourcegitcommit: 72c9d9ec26e17e94fccb9c5a24301028cebcdeb5
+ms.openlocfilehash: ca4af083e616023196b7a983d6f04dcdd97826a9
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/07/2018
-ms.locfileid: "53026537"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54279909"
 ---
 # <a name="power-bi-publisher-for-excel"></a>适用于 Excel 的 Power BI 发布服务器
 使用 Microsoft **Power BI Publisher for Excel**，可以在 Excel 中获取最重要的数据洞察快照，如数据透视表、图表和区域，并将它们固定到 Power BI 中的仪表板。

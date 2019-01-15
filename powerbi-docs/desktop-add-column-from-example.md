@@ -5,17 +5,17 @@ author: davidiseminger
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-desktop
+ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 11/28/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 2c092d75b6cc1dfb9e639f6421d6f1622f47d134
-ms.sourcegitcommit: 05303d3e0454f5627eccaa25721b2e0bad2cc781
+ms.openlocfilehash: 02ef382ffa4199255612c4ae6c782a55efb2f7ff
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/28/2018
-ms.locfileid: "52578534"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54281933"
 ---
 # <a name="add-a-column-from-an-example-in-power-bi-desktop"></a>在 Power BI Desktop 中通过示例添加列
 自 2017 年 4 月发布的 **Power BI Desktop** 起，只需提供新列的一个或多个示例值，即可使用**查询编辑器**向模型添加新的数据列。 可以根据当前所选内容，或通过根据给定表中的所有（或选定）列提供输入数据，创建新列示例。

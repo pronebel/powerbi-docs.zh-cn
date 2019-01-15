@@ -5,16 +5,16 @@ author: maggiesMSFT
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: report-builder
+ms.subservice: report-builder
 ms.topic: conceptual
 ms.date: 11/05/2018
 ms.author: maggies
-ms.openlocfilehash: 404ec820b766716810b2881351f8be8e77902803
-ms.sourcegitcommit: b03912343a5a214c6bb972aaa6aa051c2a5f4332
+ms.openlocfilehash: 7229b1bdc540ecf5756a37122df7fa4064728bc9
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/05/2018
-ms.locfileid: "52900143"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54288948"
 ---
 # <a name="view-parameters-for-paginated-reports-in-the-power-bi-service-preview"></a>查看 Power BI 服务中分页报表的参数（预览）
 
