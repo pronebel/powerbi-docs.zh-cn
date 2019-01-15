@@ -6,17 +6,17 @@ manager: kfile
 ms.reviewer: ''
 featuredvideoid: JbL2-HJ8clE
 ms.service: powerbi
-ms.component: powerbi-service
+ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 02/28/2018
 ms.author: maggies
 LocalizationGroup: Dashboards
-ms.openlocfilehash: cc374da84e269abe18a52270c0d9fd15987cf666
-ms.sourcegitcommit: fdb54145f9bc93b312409c15c603749f3a4a876e
+ms.openlocfilehash: 6d818252d60c2e6e123e4dff0c64dd5e2408cad2
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/28/2018
-ms.locfileid: "52452605"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54285728"
 ---
 # <a name="data-alerts-in-power-bi-service"></a>Power BI 服务中的数据警报
 设置警报，以便在仪表板中的数据更改超出你设置的限制时通知你。 
@@ -60,7 +60,7 @@ ms.locfileid: "52452605"
 1. 如果你已设置警报向你发送电子邮件，则你将在收件箱中找到如下内容。
    
    ![警报电子邮件](media/service-set-data-alerts/powerbi-alerts-email.png)
-2. Power BI 会将消息添加到你的“通知中心”，并会向适用的磁贴添加新的警报图标。
+2. Power BI 会将消息添加到你的“通知中心”，并会对相应磁贴添加新的警报图标。
    
    ![Power BI 服务中的通知图标](media/service-set-data-alerts/powerbi-alert-notifications.png)
 3. 打开你的通知中心以查看警报详细信息。

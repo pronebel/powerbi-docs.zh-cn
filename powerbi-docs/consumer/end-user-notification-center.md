@@ -7,17 +7,17 @@ ms.reviewer: ''
 featuredvideoid: bZMSv5KAlcE
 ms.custom: seodec18
 ms.service: powerbi
-ms.component: powerbi-service
+ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 12/06/2018
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 47329053fa774634f4af44c2bed549222d68a4a0
-ms.sourcegitcommit: cd85d88fba0d9cc3c7a4dc03d2f35d2bd096759b
+ms.openlocfilehash: 7bd0f1d45015e099d3950907ed100ed34d55e431
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/12/2018
-ms.locfileid: "53280043"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54279081"
 ---
 # <a name="view-power-bi-notifications"></a>查看 Power BI 通知
 通知中心是与 Power BI 体验相关的依序信息提要。 打开通知中心，将能看到与你共享的新仪表板、组空间变动、Power BI 事件和会议相关消息、设置的警告等。 可以[在 Power BI 服务中设置警报](../service-set-data-alerts.md)，也可以在 Power BI 移动应用中进行设置。

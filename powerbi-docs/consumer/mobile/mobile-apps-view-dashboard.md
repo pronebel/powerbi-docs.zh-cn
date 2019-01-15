@@ -1,20 +1,20 @@
 ---
 title: 查看 Power BI 移动应用中的仪表板和报表
 description: 在 Power BI 服务中创建或连接仪表板和报表。 然后可以在 Power BI 移动应用中对其进行查看。
-author: maggiesMSFT
+author: mshenhav
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-mobile
+ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 06/28/2018
-ms.author: maggies
-ms.openlocfilehash: 9738660ced6b8dbe32e7308b86f671f21c8c312c
-ms.sourcegitcommit: 4f46d71ff6026c1c158f007425aefdcb501f48ee
+ms.author: mshenhav
+ms.openlocfilehash: dc117c9b17e9d20d1e5be6e6fedd18cb7aa3ae61
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/06/2018
-ms.locfileid: "52979481"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54279219"
 ---
 # <a name="view-dashboards-and-reports-in-the-power-bi-mobile-apps"></a>查看 Power BI 移动应用中的仪表板和报表
 适用于：

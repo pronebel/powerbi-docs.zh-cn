@@ -5,17 +5,17 @@ author: davidiseminger
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-service
+ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 12/10/2018
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: 516f468702b9731347d3ceacf3ee77ab8ac7f5aa
-ms.sourcegitcommit: f25464d5cae46691130eb7b02c33f42404011357
+ms.openlocfilehash: 96b6e1a8a92b19181463de404967625b37418582
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/10/2018
-ms.locfileid: "53181149"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54291938"
 ---
 # <a name="configure-workspace-dataflow-settings-preview"></a>配置工作区数据流设置（预览）
 
@@ -41,7 +41,7 @@ ms.locfileid: "53181149"
 
 在“创建应用工作区”对话框中，会出现标题为“预览改进的工作区”的黄色框。 在该区域中选择“立即试用”。
 
-![预览改进的工作区](media/service-dataflows-configure-workspace-storage-settings/dataflow-storage-settings_02.jpg)
+![预览改进后的工作区](media/service-dataflows-configure-workspace-storage-settings/dataflow-storage-settings_02.jpg)
 
 可以在出现的对话框中为新工作区提供一个唯一的名称。 不要选择“保存”，因为还需要进行高级设置。
 

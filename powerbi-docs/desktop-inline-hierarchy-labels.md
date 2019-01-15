@@ -5,17 +5,17 @@ author: davidiseminger
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-desktop
+ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 11/28/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: c698d3abc7931437c0bd2b15385714c9c8282dc7
-ms.sourcegitcommit: 2ae660a7b70fce23eb58b159d049eca44a664f2c
+ms.openlocfilehash: f854177e146478c9038d7ec696a8d4ca7facd486
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/30/2018
-ms.locfileid: "52670270"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54293757"
 ---
 # <a name="use-inline-hierarchy-labels-in-power-bi-desktop"></a>在 Power BI Desktop 中使用内联层次结构标签
 **Power BI Desktop** 支持使用**内联层次结构标签**，它是旨在提升分层钻取的两种功能中的第一种。 第二种功能当前正处于开发阶段，即使用嵌套层次结构标签的功能（请持续关注 - 我们经常发布更新）。   
@@ -64,7 +64,7 @@ ms.locfileid: "52670270"
 > 
 > 
 
-## <a name="troubleshooting"></a>疑难解答
+## <a name="troubleshooting"></a>故障排除
 在展开的内联层次结构级别状态中，你的视觉对象可能出现卡顿。 在某些情况下，你可能发现在展开模式时，某些视觉对象会出现卡顿，向上钻取也不起作用。 如果你碰巧执行了以下步骤则会出现此问题（解决方法位于这些步骤 *下面* ）：
 
 在展开状态下可能会使你的视觉对象出现卡顿的操作：
