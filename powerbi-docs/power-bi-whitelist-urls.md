@@ -1,23 +1,23 @@
 ---
-title: 列入白名单的 Power BI URL
+title: 列入允许列表的 Power BI URL
 description: 本文介绍客户使用 Power BI 时应可访问的终结点。
 author: mgblythe
 ms.author: mblythe
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-service
+ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 10/22/2018
 ms.custom: seodec18
-ms.openlocfilehash: dcf51f26aac018acdd58e4244f21e41a1b6f1bc6
-ms.sourcegitcommit: 72c9d9ec26e17e94fccb9c5a24301028cebcdeb5
+ms.openlocfilehash: 39a62950260789b50be034c2f55808e6991764db
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/07/2018
-ms.locfileid: "53026610"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54293995"
 ---
-# <a name="power-bi-urls-for-whitelisting"></a>列入白名单的 Power BI URL
+# <a name="power-bi-urls-for-whitelisting"></a>列入允许列表的 Power BI URL
 
 Power BI 联机服务也称为 Power BI SaaS（服务型软件）应用程序，需要连接 Internet。 下面的终结点应可供使用 Power BI 联机服务的客户访问。
 
@@ -30,7 +30,7 @@ Power BI 联机服务只需针对列出的终结点打开 TCP 端口 443。
 通配符 (*) 表示根域下的所有级别，并且在信息不可用时，我们将使用 N/A。 “目标”列是包含 FQDN/域和外部站点链接的列表，其中包含更多终结点信息。
 
 >[!Important]
->下表中的信息并不代表美国政府云、德国云或中国云。
+>下表中的信息并不代表美国政府云、德国云或中国云**。
 
 ## <a name="authentication"></a>身份验证
 
