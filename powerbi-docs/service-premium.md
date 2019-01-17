@@ -8,19 +8,19 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
-ms.date: 10/21/2018
+ms.date: 01/15/2019
 ms.custom: seodec18
 LocalizationGroup: Premium
-ms.openlocfilehash: 1749fc932b3aa6cfb86de87bc9ecd71f78d92af5
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 6cc26f386a77ad8482d7f1af69fd0fdf2b7de5ac
+ms.sourcegitcommit: a20825ebd0ef4c2cb77232e3dd0e9f8260cacf71
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54281956"
+ms.lasthandoff: 01/16/2019
+ms.locfileid: "54324011"
 ---
 # <a name="what-is-microsoft-power-bi-premium"></a>什么是 Microsoft Power BI Premium？
 
-Microsoft Power BI Premium 提供专用于为组织运行 Power BI 服务的资源。 可提供更可靠的性能和更大的数据卷。 使用 Premium，还可以广泛分发内容，无需为内容使用者购买每用户 Pro 许可证。 有关购买信息，请参阅[如何购买 Power BI Premium](service-admin-premium-purchase.md)。
+Microsoft Power BI Premium 提供专用于为组织运行 Power BI 服务的资源。 可提供更可靠的性能和更大的数据卷。 使用 Premium，还可以广泛分发内容，无需为内容使用者购买每用户 Pro 许可证。 有关购买信息，请参阅[如何购买 Power BI Premium](service-admin-premium-purchase.md)。   
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/lNQDkN0GXzU?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
 
@@ -41,24 +41,21 @@ Microsoft Power BI Premium 提供专用于为组织运行 Power BI 服务的资�
 
 在共享容量中，为了确保所有用户的体验质量，Power BI 会对单个用户施加更多的限制。 默认情况下，你的工作区在共享容量中，包括个人“我的工作区”和应用工作区。
 
-下表总结了共享容量与高级容量的区别。
+下表总结了共享容量与高级容量的区别：
 
 |  | 共享容量 | Power BI 高级容量 |
 | --- | --- | --- |
 | 刷新频率 |每天 8 次 |每天 48 次 |
-| 专用硬件隔离 |![不可用](media/service-premium/not-available.png) |![可用](media/service-premium/available.png) |
-| 面向所有用户的企业分发__ | | |
-| 应用和共享 |![不可用](media/service-premium/not-available.png) |![可用](media/service-premium/available.png) |
-| 嵌入式 API 和控件 |![不可用](media/service-premium/not-available.png) |![可用](media/service-premium/available.png)<sup>2</sup> |
-| 在本地发布 Power BI 报表 |![不可用](media/service-premium/not-available.png) |![可用](media/service-premium/available.png) |
+| 与专用硬件隔离 |![不可用](media/service-premium/not-available.png) |![](media/service-premium/available.png) |
+| 面向所有用户的企业版 | | |
+| 应用和共享 |![不可用](media/service-premium/not-available.png) |![](media/service-premium/available.png) |
+| 嵌入式 API 和控件 |![不可用](media/service-premium/not-available.png) |![](media/service-premium/available.png)<sup>[1](#fnt1)</sup> |
+| 在本地发布 Power BI 报表 |![不可用](media/service-premium/not-available.png) |![](media/service-premium/available.png) |
 | | | |
 
-*<sup>1</sup> 有关详细信息，请参阅[按许可证类型列出的功能](service-features-license-type.md)*。  
-<sup>2</sup> Power BI Premium 即将推出的增强功能。
+<a name="fnt1">1</a> Power BI Premium 今后即将推出的增强功能。
 
-若要深入了解如何将工作区分配到高级容量，请查阅[管理 Power BI Premium](service-admin-premium-manage.md)。
 
-<a name="premiumskus"/>
 
 ### <a name="premium-capacity-nodes"></a>高级容量节点
 
@@ -68,22 +65,19 @@ Microsoft Power BI Premium 提供专用于为组织运行 Power BI 服务的资�
 
 * EM 节点只能用于嵌入式部署。 EM 节点无权使用高级功能，如与没有 Power BI Pro 许可证的用户共享应用。
 
->[!NOTE]
->只有拥有 Office 365 全局管理员角色的用户，才能正常访问此表中的链接。 其他人会收到 404 错误。
-
-| 容量节点 | 总虚拟核心<br/>（后端 + 前端） | 后端虚拟核心 | 前端虚拟核心 | DirectQuery/实时连接限制 | 是否支持 |
-| --- | --- | --- | --- | --- | --- | --- |
-| [EM1（按月）](https://portal.office.com/SubscriptionDetails?OfferId=4004702D-749C-4F74-BF47-3048F1833780&adminportal=1) |1 个虚拟核心 |0.5 个 V 核心，2.5 GB RAM |0.5 个 V 核心 |每秒 3.75 |可用 |
-| [EM2（按月）](https://portal.office.com/SubscriptionDetails?OfferId=4004702D-749C-4F74-BF47-3048F1833780&adminportal=1) |2 个虚拟核心 |1 个 V 核心，5 GB RAM |1 个虚拟核心 |每秒 7.5 |可用 |
-| [EM3（按月）](https://portal.office.com/SubscriptionDetails?OfferId=4004702D-749C-4F74-BF47-3048F1833780&adminportal=1) |4 个虚拟核心 |2 个 V 核心，10 GB RAM |2 个虚拟核心 | |可用 |
-| [P1](https://portal.office.com/SubscriptionDetails?OfferId=b3ec5615-cc11-48de-967d-8d79f7cb0af1&adminportal=1) |8 个虚拟核心 |4 个 V 核心，25 GB RAM |4 个虚拟核心 |每秒 30 个 |可用（也可以[按月](https://portal.office.com/SubscriptionDetails?OfferId=E4C8EDD3-74A1-4D42-A738-C647972FBE81&adminportal=1)） |
-| [P2](https://portal.office.com/SubscriptionDetails?OfferId=062F2AA7-B4BC-4B0E-980F-2072102D8605&adminportal=1) |16 个虚拟核心 |8 个 V 核心，50 GB RAM |8 个虚拟核心 |每秒 60 个 |可用 |
-| [P3](https://portal.office.com/SubscriptionDetails?OfferId=40c7d673-375c-42a1-84ca-f993a524fed0&adminportal=1) |32 个虚拟核心 |16 个 V 核心，100 GB RAM |16 个虚拟核心 |每秒 120 个 |可用 |
+| 容量节点 | 总虚拟核心<br/>（后端 + 前端）  | 后端 V 核心 <sup>[1](#fn1)</sup> | 前端 V 核心 <sup>[2](#fn2)</sup> | DirectQuery/实时连接限制 | 最大并发刷新次数 |  是否支持
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| EM1（按月） |1 个虚拟核心 |0.5 个 V 核心，2.5 GB RAM |0.5 个 V 核心 |每秒 3.75 |  1 | 可用 |
+| EM2（按月） |2 个虚拟核心 |1 个 V 核心，5 GB RAM |1 个虚拟核心 |每秒 7.5 |  2 | 可用 |
+| EM3（按月） |4 个虚拟核心 |2 个 V 核心，10 GB RAM |2 个虚拟核心 | | 3 |  可用 |
+| P1 |8 个虚拟核心 |4 个 V 核心，25 GB RAM |4 个虚拟核心 |每秒 30 个 | 6 | 可用（也可以按月） |
+| P2 |16 个虚拟核心 |8 个 V 核心，50 GB RAM |8 个虚拟核心 |每秒 60 个 | 12 | 可用 |
+| P3 |32 个虚拟核心 |16 个 V 核心，100 GB RAM |16 个虚拟核心 |每秒 120 个 | 24 | 可用 |
 | | | | | | | |
 
-* 前端虚拟核心负责 Web 服务、仪表板和报表文档管理、访问 Rights Management、时间安排、API、上传和下载，并大体包括所有与用户体验相关的内容。
+<a name="fn1">1</a>：前端 V 核心负责完成 Web 服务。 例如，仪表板和报表文档管理、访问权限管理、计划安排、API、上传和下载，一般包括所有与用户体验相关的服务。 
 
-* 后端虚拟核心负责完成繁重的任务：查询处理、缓存管理、运行 R 服务器、数据刷新、自然语言处理、实时馈送和在服务器端绘制报表和图像。 后端虚拟核心也可保留一定的内存量。 处理大型数据模型或大量活动数据集时，内存充足尤为重要。
+<a name="fn2">2</a>：后端 V 核心负责完成繁重的任务，如查询处理、缓存管理、运行 R 服务器、数据刷新、自然语言处理、实时馈送以及报表和图像的服务器端呈现。 后端虚拟核心也可保留一定的内存量。 处理大型数据模型或大量活动数据集时，内存充足尤为重要。
 
 ## <a name="workloads-in-premium-capacity"></a>高级容量中的工作负载
 
@@ -112,11 +106,9 @@ Microsoft Power BI Premium 提供专用于为组织运行 Power BI 服务的资�
 
 ### <a name="considerations-for-paginated-reports"></a>分页报表的注意事项
 
-如果使用分页报表工作负载，请注意以下几点。
+如果使用的是分页报表工作负载，请注意，分页报表可便于在呈现报表时运行你自己的代码（如根据内容动态更改文本颜色）。 鉴于这一事实，我们通过在容量内的容纳空间中运行分页报表来确保 Power BI 高级容量的安全。 我们将用户指定的最大内存分配给此空间，无论工作负载是否处于活动状态都是如此。 如果使用相同容量的 Power BI 报表或数据流，请务必为分页报表设置足够低的内存，使其不会对其他工作负载产生负面影响。
 
-* **分页报表中的内存分配**：使用分页报表，可以在呈现报表时运行自己的代码（例如根据内容动态更改文本颜色）。 鉴于这一事实，我们通过在容量内的容纳空间中运行分页报表来确保 Power BI 高级容量的安全。 我们将用户指定的最大内存分配给此空间，无论工作负载是否处于活动状态都是如此。 如果使用相同容量的 Power BI 报表或数据流，请务必为分页报表设置足够低的内存，使其不会对其他工作负载产生负面影响。
-
-* **分页报表不可用**：在极少数情况下，分页报表工作负载可能变得不可用。 在这种情况下，工作负载在管理门户中显示错误状态，并且用户会看到报表呈现的超时。 要缓解此问题，请禁用工作负载，然后再次启用它。
+在极少数情况下，分页报表工作负载可能变得不可用。 在这种情况下，工作负载在管理门户中显示错误状态，并且用户会看到报表呈现的超时。 要缓解此问题，请禁用工作负载，然后再次启用它。
 
 ## <a name="power-bi-report-server"></a>Power BI 报表服务器
 
@@ -129,6 +121,5 @@ Power BI Premium 还包括在组织内部运行本地 Power BI 报表服务器�
 [管理 Power BI Premium](service-admin-premium-manage.md)
 [Microsoft Power BI Premium 白皮书](https://aka.ms/pbipremiumwhitepaper)
 [白皮书：计划 Power BI Enterprise 部署](https://aka.ms/pbienterprisedeploy)
-[在组织中管理 Power BI](service-admin-administering-power-bi-in-your-organization.md)
 
 更多问题？ [尝试咨询 Power BI 社区](https://community.powerbi.com/)
