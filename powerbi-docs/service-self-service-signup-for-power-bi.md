@@ -5,17 +5,17 @@ author: mgblythe
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-service
+ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 11/21/2018
 ms.author: mblythe
 LocalizationGroup: Get started
-ms.openlocfilehash: 9792ccf04d31d0a5d97ac050639f17f5364be2bd
-ms.sourcegitcommit: 458e091a0a0bfb71ea3980d44df6408f48bab586
+ms.openlocfilehash: d62793ea5f33c8d098a9a1e9d7f808d600e0de54
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/22/2018
-ms.locfileid: "52289234"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54292990"
 ---
 # <a name="signing-up-for-power-bi-as-an-individual"></a>以个人身份注册 Power BI
 

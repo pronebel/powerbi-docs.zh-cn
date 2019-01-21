@@ -1,20 +1,20 @@
 ---
 title: 在 Power BI 移动应用中共享仪表板或报表
 description: 通过从 Power BI 移动应用共享链接，邀请他人查看仪表板和报表。 了解如何操作。
-author: maggiesMSFT
+author: mshenhav
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-mobile
+ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 03/20/2018
-ms.author: maggies
-ms.openlocfilehash: 4484eca5e810da7674d20e368383429c9c6f5508
-ms.sourcegitcommit: 833cf1252807721fb1b3000487bd032bfd6c8c98
+ms.author: mshenhav
+ms.openlocfilehash: 69532ea9ad98edc7655fb77aec13b69eec6566bf
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "48271638"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54283658"
 ---
 # <a name="share-a-dashboard-or-report-from-the-power-bi-mobile-apps"></a>在 Power BI 移动应用中共享仪表板或报表
 适用于：
@@ -52,7 +52,7 @@ ms.locfileid: "48271638"
    使用下列短语，可以看到你已经和其共享仪表板或报表的同事列表：
    
    * **可以查看**：他们可以查看，但不能共享。
-   * **可以查看和邀请**：他们可以查看，并且与其他同事共享。
+   * **可以查看和邀请**：他们可以查看，并与其他同事共享。
 1. 点击**编辑**。
    
     ![“编辑”图标](./media/mobile-share-dashboard-from-the-mobile-apps/power-bi-iphone-edit-invite-dashboard.png)
@@ -81,7 +81,7 @@ ms.locfileid: "48271638"
    使用下列短语，可以看到你已经和其共享仪表板或报表的同事列表：
    
    * **可以查看**：他们可以查看，但不能共享。
-   * **可以查看和邀请**：他们可以查看，并且与其他同事共享。
+   * **可以查看和邀请**：他们可以查看，并与其他同事共享。
 2. 点击**编辑**。
 3. 若要停止共享，请点击名称旁边的红色圆圈，然后点击**删除**。
 
@@ -94,7 +94,7 @@ ms.locfileid: "48271638"
     如果你是仪表板所有者，你将看到与之共享此仪表板或报表的同事的列表，并附有以下说明：
 
     -   **可以查看**：他们可以查看，但不能共享。
-    -   **可以查看和重新共享**：他们可以查看并与其他同事共享。
+    -   **可以查看和重新共享**：他们可以查看，并与其他同事共享。
 
 1. 键入电子邮件地址以及仪表板邀请随附的消息。 否则 Power BI 会发送默认消息。
 2. 若要允许再次共享，请选中**允许收件人共享此仪表板**选项。
@@ -128,7 +128,7 @@ ms.locfileid: "48271638"
    
    **可以查看**：他们可以查看，但不能共享。
    
-   **可以查看和重新共享**：他们可以查看并与其他同事共享。
+   **可以查看和重新共享**：他们可以查看，并与其他同事共享。
 2. 键入电子邮件地址以及邀请随附的消息。 否则 Power BI 会发送默认消息。
    
    ![“邀请”对话框](./media/mobile-share-dashboard-from-the-mobile-apps/power-bi-windows-10-share-dashboard.png)
@@ -147,5 +147,5 @@ ms.locfileid: "48271638"
 ## <a name="next-steps"></a>后续步骤
 * [在移动应用中批注并共享磁贴、报表或视觉对象的快照](mobile-annotate-and-share-a-tile-from-the-mobile-apps.md)
 * [共享 Power BI 中的仪表板或报表](../../service-share-dashboards.md)
-* 是否有任何问题？ [尝试咨询 Power BI 社区](http://community.powerbi.com/)
+* 是否有任何问题? [尝试咨询 Power BI 社区](http://community.powerbi.com/)
 

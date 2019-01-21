@@ -5,16 +5,16 @@ author: maikelson
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-service
+ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 11/26/2018
 ms.author: maikelson
-ms.openlocfilehash: b144f3101606a58b2cd0b48db976a70477442d40
-ms.sourcegitcommit: 2ae660a7b70fce23eb58b159d049eca44a664f2c
+ms.openlocfilehash: 24d023d726183119a3bd098c61db75cb68969c52
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/30/2018
-ms.locfileid: "52670408"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54283130"
 ---
 # <a name="power-bi-webinars"></a>Power BI 网络研讨会
 
@@ -112,7 +112,7 @@ ms.locfileid: "52670408"
 <br>作者：来自 Avanade 的 Ed Bobrin
 <br>[注册并立即观看](https://info.microsoft.com/applied-intelligence-for-sales-service.html?Is=Website)
 
-**制造商：你的行业正在经历数字化转型 - 通过利用分析来保持领先地位，实现利润最大化**
+**制造商：你的行业正在经历数字化转型 - 利用分析来保持领先地位，实现利润最大化**
 <br>作者：来自 Blue Margin 的 Jon Thompson 和来自 Elgin Fastener Group 的 Jim Pastor
 <br>[注册并立即观看](https://info.microsoft.com/digital-transformation-in-manufacturing.html?Is=Website)
 
@@ -155,11 +155,11 @@ ms.locfileid: "52670408"
 
 **[Power BI 采用框架网络研讨会系列](https://info.microsoft.com/ww-landing-powerbi-adoption-framework-series.html?Is=Website)**
 <br>作者：Manu Kanwarpal 和 Paul Henwood
-<br>[注册并立即观看 - 第 1 部分 - 采用：采用数据驱动的区域性](https://info.microsoft.com/ww-landing-powerbi-adoption-ondemand.html?Is=Website)
-<br>[注册并立即观看 - 第 2 部分 - 监管：管理 Power BI 的使用](https://info.microsoft.com/ww-ondemand-powerbi-governance.html?Is=Website)
+<br>[注册并立即观看 - 第 1 部分 - 采用：采用数据驱动的文化](https://info.microsoft.com/ww-landing-powerbi-adoption-ondemand.html?Is=Website)
+<br>[注册并立即观看 - 第 2 部分 - 监管：监管 Power BI 的使用](https://info.microsoft.com/ww-ondemand-powerbi-governance.html?Is=Website)
 <br>[注册并立即观看 - 第 3 部分 - 服务管理：Power BI 服务管理见解](https://info.microsoft.com/ww-landing-pbi-adoption-framework-part3.html?Is=Website)
-<br>[注册并立即观看 - 第 4 部分 - 安全性：使用 Power BI 保护数据](https://info.microsoft.com/ww-landing-pbi-adoption-framework-part4.html?Is=Website)
-<br>[注册并立即观看第 5 部分 - 推出：成功推出 Power BI](https://info.microsoft.com/ww-landing-powerbi-adoption-part5-rollout.html?Is=Website)
+<br>[注册并立即观看 - 第 4 部分 - 安全性：使用 Power BI 保护数据安全](https://info.microsoft.com/ww-landing-pbi-adoption-framework-part4.html?Is=Website)
+<br>[注册并立即观看 - 第 5 部分 - 推出：成功推出 Power BI](https://info.microsoft.com/ww-landing-powerbi-adoption-part5-rollout.html?Is=Website)
 
 **Office 365 金融专业人员网络研讨会系列**
 <br>主讲人：Mark Traverso、Carlos Otero、Johnnie Thomas、Amanda Cofsky 和 Miguel Martinez

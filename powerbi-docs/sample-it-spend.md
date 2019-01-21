@@ -1,23 +1,23 @@
 ---
-title: Power BI 的 IT 支出分析示例教程
-description: Power BI 的 IT 支出分析示例教程
+title: Power BI 的 IT 支出分析示例：参观
+description: Power BI 的 IT 支出分析示例：参观
 author: maggiesMSFT
 manager: kfile
 ms.reviewer: amac
 ms.service: powerbi
-ms.component: powerbi-desktop
+ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 06/23/2018
 ms.author: maggies
 LocalizationGroup: Samples
-ms.openlocfilehash: 66a1999637f31083681a6984d4698d78815dc1c1
-ms.sourcegitcommit: 1e4fee6d1f4b7803ea285eb879c8d5a4f7ea8b85
+ms.openlocfilehash: 910e4de20d777281f7617727889befa5eb80dfe1
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/16/2018
-ms.locfileid: "51717461"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54290053"
 ---
-# <a name="it-spend-analysis-sample-for-power-bi-take-a-tour"></a>Power BI 的 IT 支出分析示例教程
+# <a name="it-spend-analysis-sample-for-power-bi-take-a-tour"></a>Power BI 的 IT 支出分析示例：参观
 
 ## <a name="overview-of-the-it-spend-analysis-sample"></a>“IT 支出分析示例”概述
 IT 支出分析[内容包](service-organizational-content-pack-introduction.md)（仪表板、报表和数据集）分析比较了 IT 部门的计划成本与实际成本。 这种比较可以帮助我们了解公司年度计划的效果如何并调查与计划有巨大偏差的区域。 在此示例中，公司将经历年度计划周期，然后分季度生成新的最新估计 (LE)，以帮助分析过去财年中 IT 支出的变化。
@@ -119,5 +119,5 @@ IT 支出分析[内容包](service-organizational-content-pack-introduction.md)�
 
 这是一个安全的试验环境。 你可以始终选择不保存所做的更改。 但是，如果保存更改，则可以始终转到“获取数据”来获得本示例的新副本。
 
-## <a name="next-steps-connect-to-your-data"></a>后续步骤：连接到你的数据
+## <a name="next-steps-connect-to-your-data"></a>后续步骤：连接到数据
 我们希望本教程介绍了 Power BI 仪表板、问题解答和报表如何能够帮助深入了解 IT 支出数据。 现在轮到你了 — 连接到你自己的数据。 借助 Power BI，你可以连接到各种数据源。 了解 [Power BI 入门](service-get-started.md)的详细信息。

@@ -5,19 +5,19 @@ author: maggiesMSFT
 manager: kfile
 ms.reviewer: lukaszp
 ms.service: powerbi
-ms.component: powerbi-service
+ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 08/02/2018
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 37cfca811b7e60bde832396e67b246933d4e0a8e
-ms.sourcegitcommit: 52ac456bf2ac025b22ea634c28482f22e1cc19ac
+ms.openlocfilehash: f42e9f69c3cdab945c0f000a0cc2ae4654d9ec9b
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/10/2018
-ms.locfileid: "48908408"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54296101"
 ---
-# <a name="organizational-content-packs-copy-refresh-and-get-access"></a>组织内容包：复制、刷新和获取访问权限
+# <a name="organizational-content-packs-copy-refresh-and-get-access"></a>组织内容包：复制、刷新和访问
 
 组织内容包发布后，所有收件人都会看到相同的仪表板、报表、Excel 工作簿、数据集和数据（SQL Server Analysis Services (SSAS) 数据源除外）。  [只有内容包创建者可以编辑和重新发布](service-organizational-content-pack-manage-update-delete.md)内容包。  但是，所有收件人均可保存内容包的副本，该副本可与原始内容包并存。
 

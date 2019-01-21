@@ -5,17 +5,17 @@ author: maggiesMSFT
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-desktop
+ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 05/02/2018
 ms.author: maggies
 LocalizationGroup: Create reports
-ms.openlocfilehash: 3a0ef369aa690044dbef9c4ef0cda070565b9922
-ms.sourcegitcommit: e17fc3816d6ae403414cf5357afbf6a492822ab8
+ms.openlocfilehash: e1748c478f9f58b568b901f3a243e64e4658f6a6
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/04/2018
-ms.locfileid: "52829886"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54273044"
 ---
 # <a name="use-power-bi-service-or-power-bi-desktop-to-create-a-custom-answer-page-for-cortana"></a>使用 Power BI 服务或 Power BI Desktop 为 Cortana 创建自定义回复页
 使用 Power BI 的全部功能创建专为回答 Cortana 问题而设计的专用报表页，称为“Cortana 回复页”（有时称为“Cortana 回复卡”）。
@@ -32,7 +32,7 @@ ms.locfileid: "52829886"
 
 **文章 1**：[了解 Cortana 和 Power BI 如何协同工作](service-cortana-intro.md)
 
-**文章 2**：[对于搜索 Power BI 报表：启用 Cortana - Power BI - Windows 集成](service-cortana-enable.md)
+**文章 2**：[对于搜索 Power BI 报告：启用 Cortana - Power BI - Windows 集成](service-cortana-enable.md)
 
 **文章 3**：本文
 

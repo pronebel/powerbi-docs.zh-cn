@@ -5,17 +5,17 @@ author: davidiseminger
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-desktop
+ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 11/28/2018
 ms.author: davidi
 LocalizationGroup: Troubleshooting
-ms.openlocfilehash: 78cfcd51a951095353ce5d0f25c4511cc720c632
-ms.sourcegitcommit: 05303d3e0454f5627eccaa25721b2e0bad2cc781
+ms.openlocfilehash: f527fa17ab242f6835ca99a3ff3ef3e2525a001f
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/28/2018
-ms.locfileid: "52578212"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54277126"
 ---
 # <a name="resolve-issues-when-power-bi-desktop-will-not-launch"></a>解决 Power BI Desktop 不启动时的问题
 在 Power BI Desktop 中，已安装且正在运行旧版 Power BI 本地数据网关的用户可能无法启动 Power BI Desktop，因为 Power BI 本地网关对本地计算机的命名管道施加了管理策略限制。 
@@ -29,7 +29,7 @@ ms.locfileid: "52578212"
 ### <a name="resolution-2-uninstall-or-stop-the-power-bi-on-premises-data-gateway-windows-service"></a>解决方案 2：卸载或停止运行 Power BI 本地数据网关 Windows 服务
 如果不再需要使用 Power BI 本地数据网关，可以卸载或停止运行 Power BI 本地数据网关 Windows 服务。这样一来，便会撤消策略限制，并允许启动 Power BI Desktop。
 
-### <a name="resolution-3-run-power-bi-desktop-with-administrator-privilege"></a>解决方案 3：使用管理员特权运行 Run Power BI Desktop
+### <a name="resolution-3-run-power-bi-desktop-with-administrator-privilege"></a>解决方案 3：使用管理员特权运行 Power BI Desktop
 或者，可以管理员身份启动 Power BI Desktop，这也会使其成功启动。 仍建议安装最新版 Power BI 本地数据网关，如本文先前部分中所述。
 
 值得注意的是，Power BI Desktop 是作为多进程体系结构设计的，其中一些进程使用 Windows 命名管道进行通信。 可能会有其他进程干扰这些命名管道。 此类干扰最常见原因是安全性，包括防病毒软件或防火墙可能会阻止管道或将流量重定向到特定端口的情况。 使用管理员权限启动 Power BI Desktop 可以解决该问题。 如果无法使用管理员权限启动，请与管理员联系，确定应用了哪些阻止命名管道正确通信的安全规则，并将 Power BI Desktop 及其各自的子进程列入允许列表。

@@ -4,17 +4,17 @@ description: 了解如何发布应用（仪表板和报表的集合，旨在为�
 author: maggiesMSFT
 manager: kfile
 ms.service: powerbi
-ms.component: powerbi-service
+ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 10/24/2018
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 3881e37fa5e97939265e9bb9362cee65a1030e67
-ms.sourcegitcommit: 60fb46b61ac73806987847d9c606993c0e14fb30
+ms.openlocfilehash: 451b5967dd648d982132282d2debbd4c4f86780f
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/25/2018
-ms.locfileid: "50100809"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54293996"
 ---
 # <a name="publish-apps-with-dashboards-and-reports-in-power-bi"></a>在 Power BI 中发布包含仪表板和报表的应用
 
@@ -38,7 +38,7 @@ ms.locfileid: "50100809"
 应用工作区的每个成员都需要 Power BI Pro 许可证。 对于应用用户，有两种选项。
 
 * 选项 1：所有业务用户需要 Power BI Pro 许可证才能查看应用。 
-* 选项 2：如果应用驻留在 Power BI 高级容量中，则组织中的免费用户可以查看应用内容。 请阅读[什么是 Power BI Premium？](service-premium.md)了解详细信息。
+* 选项 2：如果应用驻留在 Power BI Premium 容量中，则组织中的免费用户可以查看应用内容。 请阅读[什么是 Power BI Premium？](service-premium.md)了解详细信息。
 
 ## <a name="publish-your-app"></a>发布应用
 工作区中的仪表板和报表准备就绪后，选择要发布的仪表板和报表，然后将其作为应用发布。 你可以向更广大受众发送一个直接链接，他们也可以通过转到“从 AppSource 下载并浏览更多应用”，在“应用”选项卡中找到你的应用。 
@@ -133,4 +133,4 @@ ms.locfileid: "50100809"
 * [在 Power BI 中安装并使用应用](consumer/end-user-apps.md)
 * [适用于外部服务的 Power BI 应用](service-connect-to-services.md)
 * [Power BI 管理门户](https://docs.microsoft.com/power-bi/service-admin-portal)
-* 是否有任何问题？ [尝试咨询 Power BI 社区](http://community.powerbi.com/)
+* 是否有任何问题? [尝试咨询 Power BI 社区](http://community.powerbi.com/)

@@ -5,17 +5,17 @@ author: davidiseminger
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-desktop
+ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 11/13/2018
+ms.date: 01/11/2019
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: d57d31e87197ee9d764a8d263dd4ee6dd0c75ac3
-ms.sourcegitcommit: 6a6f552810a596e1000a02c8d144731ede59c0c8
+ms.openlocfilehash: d0c6222c4b10307985ad039c3b391c8648614979
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/14/2018
-ms.locfileid: "51619623"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54280047"
 ---
 # <a name="accessibility-in-power-bi-desktop-reports"></a>Power BI Desktop 报表中的辅助功能
 Power BI 具有使残疾人士能够更轻松地使用 Power BI 报表并与之进行交互的功能。 这些功能包括通过键盘或屏幕阅读器使用报表、通过按 Tab 键将焦点移动到页面中的各个对象以及在可视化效果中方便地使用标记。
@@ -36,7 +36,7 @@ Power BI 具有使残疾人士能够更轻松地使用 Power BI 报表并与之�
 * 当焦点位于报表页选项卡上时，使用 Tab 或箭头键将焦点从一个报表页移到下一个报表页。 无论当前是否被选中，屏幕阅读器都会读出报表页的标题。 若要加载当前焦点所在的报表页，使用 Enter 或空格键。
 * 当焦点位于已加载的报表页上时，使用 Tab 键将焦点转移到页面上的每个对象，其中包括所有文本框、图像、形状和图表。 屏幕阅读器可读取对象类型、对象标题（如果有）和对象说明（如果报表作者已提供）。 
 
-在视觉对象之间导航时，如果要与其进一步交互，可按 Alt+Shift+F10 将焦点移到该视觉对象标头，其中包括排序、导出图表背后的数据和焦点模式等多种选项。 
+在视觉对象之间导航时，可按 Alt+Shift+F10 将焦点移到该视觉对象标头，其中包括排序、导出图表背后的数据和焦点模式等多种选项。 
 
 ![在 Power BI Desktop 中按 Alt+Shift+F10 可将焦点移到该视觉对象标头](media/desktop-accessibility/accessibility_08.png)
 
@@ -49,7 +49,7 @@ Power BI 具有使残疾人士能够更轻松地使用 Power BI 报表并与之�
 
 自 2018 年 7 月发布“Power BI Desktop”以来，切片器还具有内置的辅助功能。 选择切片器时，若要调整切片器的值，使用 CTRL+向右键（控制键加向右键）可移动切片器内的各种控件。 例如，最初按 CTRL+向右键时，焦点位于橡皮擦上，按下空格键等同于单击橡皮擦按钮，这样便可擦除切片器上的所有值。 
 
-可以通过按 TAB 键移动切片器中的控件。 位于橡皮擦上时，按 TAB 键移动到下拉按钮，按另一个 TAB 则移动到第一个切片器值（如果切片器有多个值，如一个范围）。 
+可以通过按 TAB 键移动切片器中的控件。 位于橡皮擦上时，按 TAB 键移动到下拉按钮。 按另一个 TAB 则移动到第一个切片器值（如果切片器有多个值，如一个范围）。 
 
 ![在 Power BI Desktop 中按 CTRL+（向右键）可调整切片器中的要素或值，按 SPACE 可选择元素并调整其值](media/desktop-accessibility/accessibility_07.png)
 
@@ -170,7 +170,10 @@ Power BI 服务还尝试检测 Windows 选择的高对比度设置，但该检�
 | 选择当前所选内容的所有匹配项 | Ctrl + Shift + L |
 | 选择当前词语的所有匹配项 | Ctrl + F2 |
 
-
+### <a name="enter-data"></a>输入数据
+| 如何执行此操作           | 操作方法                |
+| :------------------- | :------------------- |
+| 退出可编辑网格 | Ctrl + Tab 键 |
 
 
 ## <a name="next-steps"></a>后续步骤

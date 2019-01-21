@@ -5,17 +5,17 @@ author: davidiseminger
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-desktop
+ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 11/28/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 102198c4524903098ad0c6b0b9fd7e231c3f1fdc
-ms.sourcegitcommit: 05303d3e0454f5627eccaa25721b2e0bad2cc781
+ms.openlocfilehash: 703ccbc0c1c541fe161f409480701788d0cd12af
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/28/2018
-ms.locfileid: "52578281"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54280232"
 ---
 # <a name="using-analysis-services-tabular-data-in-power-bi-desktop"></a>在 Power BI Desktop 中使用 Analysis Services 表格数据
 借助 Power BI Desktop，你有两种方法可以连接到 SQL Server Analysis Services 表格模型并从中获取数据：通过使用实时连接浏览或选择项目并将其导入到 Power BI Desktop。
@@ -54,7 +54,7 @@ ms.locfileid: "52578281"
 ## <a name="frequently-asked-questions"></a>常见问题
 **问：** 我是否需要一个本地数据网关？
 
-**答：** 这个需要视情况而定。 如果你使用 Power BI Desktop 实时连接到表格模型，但不打算发布到 Power BI 站点，则不需要网关。 另一方面，如果你确实想将其发布到 Power BI 站点，则数据网关是必需的，以确保 Power BI 服务与你的本地 Analysis Services 服务器之间的通信安全。 请务必在安装数据网关之前与 Analysis Services 服务器管理员联系。
+**答：** 这视具体情况而定。 如果你使用 Power BI Desktop 实时连接到表格模型，但不打算发布到 Power BI 站点，则不需要网关。 另一方面，如果你确实想将其发布到 Power BI 站点，则数据网关是必需的，以确保 Power BI 服务与你的本地 Analysis Services 服务器之间的通信安全。 请务必在安装数据网关之前与 Analysis Services 服务器管理员联系。
 
 如果你选择了选择项目并获取数据，则你会将表格模型数据直接导入到 Power BI Desktop 文件中，因此不需要网关。
 
@@ -64,15 +64,15 @@ ms.locfileid: "52578281"
 
 **问：** 如果我创建了实时连接，我能否连接到同一个 Power BI Desktop 文件中的其他数据源？
 
-**答：** 不能。 你不能在同一文件中浏览实时数据并连接到其他类型的数据源。 如果你已导入数据或连接到 Power BI Desktop 文件中的另一个数据源，你则需要新建一个文件来实时浏览。
+**答：** 否。 你不能在同一文件中浏览实时数据并连接到其他类型的数据源。 如果你已导入数据或连接到 Power BI Desktop 文件中的另一个数据源，你则需要新建一个文件来实时浏览。
 
 **问：** 如果我创建了实时连接，我可以在 Power BI Desktop 中编辑模型或进行查询吗？
 
-答：可以在 Power BI Desktop 中创建报表级别度量值，但当浏览实时数据时会禁用所有其他查询和建模功能。
+**答：** 可以在 Power BI Desktop 中创建报表级别度量值，但当浏览实时数据时会禁用所有其他查询和建模功能。
 
 **问：** 如果我创建了实时连接，它是安全的吗？
 
-**答：** 是的。 你当前的 Windows 凭据用于连接到 Analysis Services 服务器。 在实时浏览时，你不能在 Power BI 服务或 Power BI Desktop 中使用基本或存储的凭据。
+**答：** 是。 你当前的 Windows 凭据用于连接到 Analysis Services 服务器。 在实时浏览时，你不能在 Power BI 服务或 Power BI Desktop 中使用基本或存储的凭据。
 
 **问：** 在导航器中，我看到模型和透视。 有什么区别？
 
@@ -89,7 +89,7 @@ ms.locfileid: "52578281"
    ![](media/desktop-analysis-services-tabular-data/pbid_sqlas_chname_dialog.png)
    
    
-## <a name="troubleshooting"></a>疑难解答 
+## <a name="troubleshooting"></a>故障排除 
 以下列表介绍了连接到 SQL Server Analysis Services (SSAS) 或 Azure Analysis Services 时出现的所有已知问题。 
 
 * **错误：无法加载模型架构** - 当用户连接到 Analysis Services 而无法访问数据库/模型时，通常会出现此错误。

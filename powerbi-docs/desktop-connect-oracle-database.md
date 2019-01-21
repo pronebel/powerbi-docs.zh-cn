@@ -5,17 +5,17 @@ author: davidiseminger
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-desktop
+ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 11/28/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 5b5dc41ee3f4d41f2e38053470054a8f453e4fb3
-ms.sourcegitcommit: 2ae660a7b70fce23eb58b159d049eca44a664f2c
+ms.openlocfilehash: dc26d6de5ca22fdabfd80bd7ba1d9830e274f808
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/30/2018
-ms.locfileid: "52670277"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54284486"
 ---
 # <a name="connect-to-an-oracle-database"></a>连接到 Oracle 数据库
 若要将 Oracle 数据库与 **Power BI Desktop** 连接，运行 Power BI Desktop 的计算机上必须安装了正确的 Oracle 客户端软件。 你使用的 Oracle 客户端软件取决于已安装的 Power BI Desktop 版本 - **32 位**版本或 **64 位**版本。
@@ -42,7 +42,7 @@ ms.locfileid: "52670277"
 1. 在“获取数据”窗口中，选择**数据库 > Oracle 数据库**
    
    ![](media/desktop-connect-oracle-database/connect-oracle-database_2.png)
-2. 在出现的 **Oracle 数据库**对话框中，提供服务器的名称，并选择**连接**。 如果需要 SID，则可以使用格式 ServerName/SID 进行指定，其中 SID 是数据库的唯一名称。 如果 ServerName/SID 格式无效，则尝试使用 ServerName/ServiceName，其中 ServiceName 是连接时使用的别名。
+2. 在出现的 **Oracle 数据库**对话框中，提供服务器的名称，并选择**连接**。 如果需要 SID，则可以指定使用格式ServerName/SID，其中 SID 是数据库的唯一名称。 如果 ServerName/SID 格式无效，则尝试使用 ServerName/ServiceName，其中 ServiceName 是连接时使用的别名。
    
    ![](media/desktop-connect-oracle-database/connect-oracle-database_3.png)
 3. 如果想要使用本机数据库查询导入数据，可以将你的查询放在 **SQL 语句**框中，通过展开 **Oracle 数据库**对话框的**高级选项**分区实现。

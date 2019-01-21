@@ -5,17 +5,17 @@ author: maggiesMSFT
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-service
+ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 06/28/2018
 ms.author: maggies
 LocalizationGroup: Get started
-ms.openlocfilehash: f4d16a5694dde63b66dcb001f1a5375ed92d978c
-ms.sourcegitcommit: fbb7924603f8915d07b5e6fc8f4d0c7f70c1a1e1
+ms.openlocfilehash: 2cb8e7b6c2744f80891c5424f620b9812eee1acb
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/02/2018
-ms.locfileid: "37137160"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54285360"
 ---
 # <a name="10-tips-for-getting-help-with-your-power-bi-questions"></a>有关获取 Power BI 问题解答的 10 个提示
 使用 Power BI 时，是否会因遇到的 Power BI 问题得不到及时解答（即“实时”帮助）感到灰心失望或很费劲？ 
@@ -30,7 +30,7 @@ ms.locfileid: "37137160"
 Power BI 团队在不断更新和改进 Power BI 文档和培训内容。 可以在其中找到精彩内容，包括录制的在线讲座、白皮书、引导式学习以及涵盖所有最新功能的博文链接。
 
 ## <a name="3-read-the-power-bi-blog-for-the-latest-news"></a>提示 3：阅读 Power BI 博客，了解最新资讯
-Power BI 团队在其 [Power BI 博客文章](https://powerbi.microsoft.com/blog/)中定期介绍所有新增功能。 可以了解一切最新资讯，从 Power BI Desktop 到 Power BI 移动应用，无所不包。 请养成经常回来看看博文的习惯，了解最新资讯：每周花几分钟的时间来浏览博客。 说不定你就会从数月前看到的一点信息中获益。
+Power BI 团队在其 [Power BI 博客文章](https://powerbi.microsoft.com/blog/)中定期介绍所有新增功能。 可以了解一切最新资讯，从 Power BI Desktop 到 Power BI 移动应用，无所不包。 请习惯性地经常返回查看新增内容：每周花几分钟时间浏览博客。 说不定你就会从数月前看到的一点信息中获益。
 
 ## <a name="4-try-twitter"></a>提示 4：尝试 Twitter
 很多 Power BI 客户和专家都在使用 Twitter。 通过推文提问。 添加井号标签 #powerbi 和 #powerbihelp，以便了解情况的人可以看到你的推文。

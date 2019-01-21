@@ -4,17 +4,17 @@ description: 介绍了如何使用 Power BI 问答在仪表板或报表中新建
 author: maggiesMSFT
 manager: kfile
 ms.service: powerbi
-ms.component: powerbi-service
+ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 10/16/2018
 ms.author: maggies
 LocalizationGroup: Ask questions of your data
-ms.openlocfilehash: 9ca771d200f5bd4b50dfbddbd8eb67931be375c1
-ms.sourcegitcommit: e17fc3816d6ae403414cf5357afbf6a492822ab8
+ms.openlocfilehash: c139d5561a19dab147610914bc11e1bfd9e9e481
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/04/2018
-ms.locfileid: "52830001"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54277356"
 ---
 # <a name="tutorial-how-to-use-qa-to-create-visualizations-and-build-reports"></a>教程：如何使用 Power BI 问答创建可视化效果和生成报表
 [问答概述](consumer/end-user-q-and-a.md)介绍了 Power BI 问答，并对使用者（与其共享了仪表板和报表）和创建者（拥有基础报表和数据集）进行了区分。 本教程的第一部分主要是面向通过 Power BI 服务使用仪表板的用户。 第二部分是面向使用 Power BI 服务或 Power BI Desktop 创建报表的用户。 [Power BI 问答和 Power BI 移动版](consumer/mobile/mobile-apps-ios-qna.md)以及 [Power BI Embedded 中的 Power BI 问答](developer/qanda.md)均通过单篇文章进行介绍。

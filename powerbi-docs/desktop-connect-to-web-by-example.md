@@ -5,17 +5,17 @@ author: davidiseminger
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-desktop
+ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 10/23/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 9d7012006ca18cf43c530c4d79ed02e6ed73f33f
-ms.sourcegitcommit: a739a99e1006834a0f56e387c0bd9d945fb8a76b
+ms.openlocfilehash: ec221939d6eb96567469a3221f914509a6789839
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/15/2018
-ms.locfileid: "51679221"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54280070"
 ---
 # <a name="get-data-from-a-web-page-by-providing-an-example"></a>通过提供示例从网页获取数据
 
@@ -52,7 +52,7 @@ ms.locfileid: "51679221"
 
 ![通过示例提取数据](media/desktop-connect-to-web-by-example/web-by-example_06.png)
 
-> 请注意：建议的值仅含长度小于或等于 128 个字符的值。
+> 注意：建议的值仅含长度小于或等于 128 个字符的值。
 
 对从网页提取的数据感到满意后，选择“确定”转到查询编辑器，其中可以应用更多转换或修整数据，例如将此数据与其他数据源进行合并。
 

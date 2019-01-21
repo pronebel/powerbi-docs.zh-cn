@@ -5,17 +5,17 @@ author: maggiesMSFT
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-service
+ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 08/28/2018
 ms.author: maggies
 LocalizationGroup: Data from files
-ms.openlocfilehash: e3b7a6ca4471fb1a6454f6efb9fba1f89b8ae1da
-ms.sourcegitcommit: e17fc3816d6ae403414cf5357afbf6a492822ab8
+ms.openlocfilehash: d1e3d6b50b91643dc7c1e658094a5ae7763edc8f
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/04/2018
-ms.locfileid: "52829978"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54290375"
 ---
 # <a name="from-excel-workbook-to-stunning-report-in-no-time"></a>立刻从 Excel 工作簿变为出色的报表
 你的经理在下班前想要查看有关你最新的销售数据以及上一市场活动影响的报表。 但最新数据位于各种第三方系统上以及便携式计算机上的文件中。 以前，创建视觉对象和设置报表格式需要几个小时。 你开始感到焦虑。
@@ -67,7 +67,7 @@ Power BI 导入 Excel 文件后，将开始生成报表。 “你的数据集已
 
 ![报表编辑器中的柱形图](media/service-from-excel-to-stunning-report/pbi_report_pin-new.png)
 
-> **提示**：如果你的图表外观与你所期望的不同，请检查你的聚合。 例如，在“值”上右键单击你刚才添加的字段，并确保数据以你期望的方式进行聚合。  在此示例中，我们使用 **Sum**。
+> **提示**：如果图表外观与你的期望不符，请检查聚合。 例如，在“值”上右键单击你刚才添加的字段，并确保数据以你期望的方式进行聚合。  在此示例中，我们使用 **Sum**。
 > 
 > 
 

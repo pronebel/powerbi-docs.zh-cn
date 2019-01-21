@@ -5,17 +5,17 @@ author: davidiseminger
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-desktop
+ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 11/28/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 0a739e963039e61aa66e398d27fa82982eb26bb0
-ms.sourcegitcommit: 2ae660a7b70fce23eb58b159d049eca44a664f2c
+ms.openlocfilehash: c1a4ba0a89f84cb0fce205373f1d0f00cc1479ac
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/30/2018
-ms.locfileid: "52670500"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54278559"
 ---
 # <a name="create-power-bi-visuals-using-r"></a>使用 R 创建 Power BI 视觉对象
 借助 **Power BI Desktop**，可以使用 **R** 将数据可视化。
@@ -107,7 +107,7 @@ Power BI Desktop 既不包括，也不会部署或安装 R 引擎。 若要在 *
 
     ![](media/desktop-r-visuals/r-visuals-9.png)
 
-    > **R 脚本安全性：** R 视觉对象从 R 脚本创建，这可能包含具有安全风险或隐私风险的代码。 当尝试查看 R 视觉对象或首次与其交互时，用户会看到一条安全警告消息。 仅当你信任作者和来源，或者在查看并了解 R 脚本之后，才启用 R 视觉对象。
+    > R 脚本安全性：R 视觉对象是根据 R 脚本创建的，其中可能包含具有安全风险或隐私风险的代码。 当尝试查看 R 视觉对象或首次与其交互时，用户会看到一条安全警告消息。 仅当你信任作者和来源，或者在查看并了解 R 脚本之后，才启用 R 视觉对象。
     > 
     > 
 

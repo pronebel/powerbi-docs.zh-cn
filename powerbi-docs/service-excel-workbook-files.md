@@ -5,17 +5,17 @@ author: davidiseminger
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-service
+ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 11/28/2018
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: 85f7dd131806cd808c28c23cb70230a0c719e0a1
-ms.sourcegitcommit: 2ae660a7b70fce23eb58b159d049eca44a664f2c
+ms.openlocfilehash: 6a44443918fe0bb9c25343c8960aaaadd5a6977e
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/30/2018
-ms.locfileid: "52670178"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54285613"
 ---
 # <a name="get-data-from-excel-workbook-files"></a>从 Excel 工作簿文件中获取数据
 ![](media/service-excel-workbook-files/excel_icon.png)
@@ -43,7 +43,7 @@ Power BI 支持导入或连接至在 Excel 2007 和更高版本中创建的工�
 PowerView 表和数据透视表以及图表在 Power BI 中是否会显示取决于工作簿文件的保存位置以及你选择将其导入 Power BI 的方式。 下面我们将进行详细说明。
 
 ## <a name="data-types"></a>数据类型
-Power BI 支持以下数据类型：整数、十进制数、货币、日期、True/False、文本。 将数据标记为 Excel 中的特定数据类型将改善 Power BI 体验。
+Power BI 支持以下数据类型：整数、小数、货币、日期、True/False、文本。 将数据标记为 Excel 中的特定数据类型将改善 Power BI 体验。
 
 ## <a name="prepare-your-workbook-for-power-bi"></a>为 Power BI 准备工作簿
 观看此有用的视频，了解有关如何确保为 Power BI 准备好 Excel 工作簿的详细信息。
@@ -116,10 +116,10 @@ Power BI 支持以下数据类型：整数、十进制数、货币、日期、Tr
 ## <a name="publish-from-excel-2016-to-your-power-bi-site"></a>从 Excel 2016 发布到 Power BI 网站
 使用 Excel 2016 中的**发布到 Power BI** 功能实际上与使用 Power BI 中的“获取数据”导入或连接到你的文件相同。 我们在此将不会进行详细介绍，但你可以查看[从 Excel 2016 发布到 Power BI](service-publish-from-excel.md) 了解详细信息。
 
-## <a name="troubleshooting"></a>疑难解答
+## <a name="troubleshooting"></a>故障排除
 工作簿文件太大？ 查阅[减小 Excel 工作簿的大小以便在 Power BI 中进行查看](reduce-the-size-of-an-excel-workbook.md)。
 
-目前，当你选择“导入”时，Power BI 只会导入属于已命名表或数据模型的数据。 因此，如果工作簿不包含已命名表、Power View 表或 Excel 数据模型，你可能会看到如下错误：“我们在 Excel 工作簿中找不到任何数据”。 [本文](service-admin-troubleshoot-excel-workbook-data.md)介绍如何修复你的工作簿，然后重新导入。
+目前，当你选择“导入”时，Power BI 只会导入属于已命名表或数据模型的数据。 因此，如果工作簿不包含已命名表、Power View 表或 Excel 数据模型，你可能会看到如下错误：“我们在你的 Excel 工作簿中找不到任何数据”。 [本文](service-admin-troubleshoot-excel-workbook-data.md)介绍如何修复你的工作簿，然后重新导入。
 
 ## <a name="next-steps"></a>后续步骤
 **浏览你的数据** - 将文件中的数据和报表导入到 Power BI 后，就可以浏览文件了。 只需右键单击新的数据集，然后单击“浏览”。 如果你在步骤 4 中选择连接到 OneDrive 上的工作簿文件，你的工作簿将显示在报表中。 单击工作簿时，它将在 Power BI 中打开，就像在 Excel Online 中一样。

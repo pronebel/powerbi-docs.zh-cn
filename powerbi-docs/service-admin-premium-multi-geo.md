@@ -6,16 +6,16 @@ ms.author: mblythe
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-admin
+ms.subservice: powerbi-admin
 ms.topic: conceptual
 ms.date: 11/20/2018
 LocalizationGroup: Premium
-ms.openlocfilehash: 91e1880e1a879ee98d65d6ad91b26e534e807040
-ms.sourcegitcommit: a13abdb5a6c0c6a397b328ec2d68788ce3afa866
+ms.openlocfilehash: 4b91ac08001118c6a0241cdd1caf32ebfd9098f2
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/21/2018
-ms.locfileid: "52268288"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54291708"
 ---
 # <a name="multi-geo-support-for-power-bi-premium-preview"></a>Power BI Premium 的 Multi-Geo 支持（预览）
 
@@ -98,7 +98,7 @@ Power BI Embedded 现在也提供 Multi-Geo 功能。 有关详细信息，请�
 
 ## <a name="next-steps"></a>后续步骤
 
-- [什么是 Power BI Premium？](service-premium.md)
+- [Power BI Premium：这是什么？](service-premium.md)
 - [Power BI Embedded 的 Multi-Geo 功能](developer/embedded-multi-geo.md)
 
 更多问题？ [尝试咨询 Power BI 社区](http://community.powerbi.com/)

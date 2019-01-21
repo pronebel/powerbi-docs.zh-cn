@@ -1,23 +1,23 @@
 ---
-title: Power BI 的机会分析示例：教程
-description: Power BI 的机会分析示例：教程
+title: Power BI 的机会分析示例：参观
+description: Power BI 的机会分析示例：参观
 author: maggiesMSFT
 manager: kfile
 ms.reviewer: amac
 ms.service: powerbi
-ms.component: powerbi-desktop
+ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 05/20/2018
 ms.author: maggies
 LocalizationGroup: Samples
-ms.openlocfilehash: 12bc6039f7b6580782d3dfac181443caa6557447
-ms.sourcegitcommit: 1e4fee6d1f4b7803ea285eb879c8d5a4f7ea8b85
+ms.openlocfilehash: 7f7b9d09b3761a5a02bdf4f706c6470b7d8cf2b6
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/16/2018
-ms.locfileid: "51717484"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54275499"
 ---
-# <a name="opportunity-analysis-sample-for-power-bi-take-a-tour"></a>Power BI 的机会分析示例：教程
+# <a name="opportunity-analysis-sample-for-power-bi-take-a-tour"></a>Power BI 的机会分析示例：参观
 
 ## <a name="overview-of-the-opportunity-analysis-sample"></a>“机会分析示例”概述
 “机会分析示例”包含采用以下 2 种销售渠道的软件公司的仪表板（和关联报表）：直接销售和合作伙伴销售。 销售经理创建此仪表板以按照区域、成交额和渠道来跟踪商机和收入。
@@ -121,7 +121,7 @@ ms.locfileid: "51717484"
 
 这是一个安全的试验环境。 你可以始终选择不保存所做的更改。 但是，如果保存更改，则可以始终转到**获取数据**来获取本示例的新副本。
 
-## <a name="next-steps-connect-to-your-data"></a>后续步骤：连接到你的数据
+## <a name="next-steps-connect-to-your-data"></a>后续步骤：连接到数据
 本教程讨论了 Power BI 仪表板、问答和报表如何能够帮助深入了解机会跟踪数据。 现在轮到你了 — 连接到你自己的数据 借助 Power BI，你可以连接到各种数据源。 了解 [Power BI 入门](service-get-started.md)的详细信息。
 
 [下载示例](sample-datasets.md)  

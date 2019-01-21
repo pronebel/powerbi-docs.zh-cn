@@ -5,17 +5,17 @@ author: davidiseminger
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-desktop
+ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 11/01/2018
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: 5eb2e63d9bac7249e106ad4c4b525ca3f3ab5cf8
-ms.sourcegitcommit: 0611860a896e636ceeb6e30ce85243bfd8e7b61d
+ms.openlocfilehash: be4ebfdfa7dca5ce212c2b5d242d87b0001b7750
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/01/2018
-ms.locfileid: "50909585"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54281910"
 ---
 # <a name="get-power-bi-desktop"></a>获取 Power BI Desktop
 **Power BI Desktop** 允许用户生成高级查询、模型和实现数据可视化效果的报表。 通过 Power BI Desktop，可以生成数据模型、创建报表，并通过发布到 Power BI 服务共享工作。  **Power BI Desktop** 可免费下载。
@@ -94,8 +94,8 @@ ms.locfileid: "50909585"
 * Windows 7/Windows Server 2008 R2 或更高版本
 * .NET 4.5
 * Internet Explorer 9 或更高版本
-* **内存 (RAM)：** 可用量至少为 1 GB，建议量为 1.5 GB 或以上。
-* **显示：** 建议分辨率至少为 1440x900 或 1600x900 (16:9)。 不建议使用如 1024x768 或 1280x800 等较低分辨率，原因是某些控件（如关闭启动屏幕）需要更高的分辨率才能显示。
+* **内存 (RAM)：** 可用内存至少为 1 GB，建议为 1.5 GB 或以上。
+* **显示器：** 建议分辨率至少为 1440x900 或 1600x900 (16:9)。 不建议使用如 1024x768 或 1280x800 等较低分辨率，原因是某些控件（如关闭启动屏幕）需要更高的分辨率才能显示。
 * **Windows 显示设置：** 如果将显示设置设为将文本、应用和其他项的大小更改为大于 100%，可能看不到某些必须先关闭或响应才能继续使用 Power BI Desktop 的对话框。 如果遇到此问题，请在 Windows 中依次转到“设置”>“系统”>“显示”，检查“显示设置”，再使用滑块将显示设置恢复为 100%。
 * **CPU：** 建议为 1 千兆赫 (GHz) 或更快的 x86 或 x64 位处理器。
 
@@ -115,7 +115,7 @@ ms.locfileid: "50909585"
 建议更新到最新版 Power BI Desktop，以利用功能、性能、稳定性和其他改进方面的进步优势。 一些组织可能不希望用户更新到每个新版本。 若要禁用通知，可按以下步骤操作来修改注册表：
 
 1. 使用注册表编辑器转到 HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Microsoft Power BI Desktop
-2. 在其中新建包含以下设置的条目：REG_DWORD : DisableUpdateNotification
+2. 使用以下设置创建新条目：REG_DWORD :*DisableUpdateNotification*
 3. 将新条目的值设置为“1”。
 
 必须重启计算机，更改才能生效。
@@ -125,7 +125,7 @@ ms.locfileid: "50909585"
 在某些情况下（包括特定屏幕分辨率配置），一些用户可能会发现 Power BI Desktop 呈现的内容包含大块黑色区域。 这通常是由于最新操作系统更新所致（它们影响了项的呈现方式），并不是 Power BI Desktop 内容呈现方式的直接结果。 无论如何，大块黑色区域并不像优质视觉对象那样有吸引力，因此，请按以下步骤操作来解决此问题：
 
 1. 按“开始”键，再在随即显示的搜索栏中键入“模糊”一词。
-2. 在随即显示的对话框中，选择“让 Windows 修复模糊应用”选项。
+2. 在出现的对话框中，选择选项：让 Windows 修复模糊应用。
 3. 重启 Power BI Desktop。
 
 在后续 Windows 更新发布后，此问题可能就会得到解决。 

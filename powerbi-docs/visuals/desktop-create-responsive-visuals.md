@@ -5,20 +5,20 @@ author: mihart
 manager: kvivek
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-desktop
+ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 04/13/2018
 ms.author: mihart
 LocalizationGroup: Create reports
-ms.openlocfilehash: 1260f2c69a4ab913f7451671ab7821ee250998c0
-ms.sourcegitcommit: fb1885da7cf11367660edbf7b7346dc039ee9b5d
+ms.openlocfilehash: 4372f37cf6afc8fe51d6650ddd888bd41d3ea678
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/26/2018
-ms.locfileid: "47187228"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54280116"
 ---
 # <a name="optimize-a-power-bi-visual-for-any-size"></a>将 Power BI 视觉对象优化为适应任意大小
-默认情况下，在创建新报表时，视觉对象为响应式：它们会动态缩放，尽可能显示最多的数据和见解，无论屏幕大小如何。 对于较旧的报表，也可以将其视觉对象设置为动态重设大小。
+默认情况下，在创建新报表时，视觉对象是“响应式”：它们大幅度更改以显示最大数量的数据和见解的视觉对象，与屏幕大小无关。 对于较旧的报表，也可以将其视觉对象设置为动态重设大小。
 
 在视觉对象缩放时，Power BI 会优先确保显示数据视图。例如，自动删除填充，并将图例移至视觉对象顶部，这样即便视觉对象变小，也仍可提供信息。 在手机上的 Power BI 移动应用中，响应式视觉对象尤为有用。
 

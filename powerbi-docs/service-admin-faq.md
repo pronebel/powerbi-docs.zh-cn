@@ -5,17 +5,17 @@ author: mgblythe
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-admin
+ms.subservice: powerbi-admin
 ms.topic: conceptual
 ms.date: 11/16/2018
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: fe81c8e972a4fe36f88da495e4e0dce97a39d32c
-ms.sourcegitcommit: e17fc3816d6ae403414cf5357afbf6a492822ab8
+ms.openlocfilehash: 494612b9c8ef448756dfe2d516bfca68e69d2e7a
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/04/2018
-ms.locfileid: "52830300"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54296814"
 ---
 # <a name="administering-power-bi---frequently-asked-questions-faq"></a>管理 Power BI - 常见问题 (FAQ)
 
@@ -156,13 +156,13 @@ Get-MsolCompanyInformation | fl allow*
 
 有三种方案可以适用于组织中的用户：
 
-* **方案 1**：如果组织已有 Office 365 环境，并且组织中的所有用户都有 Office 365 帐户，那么标识管理方式没有变化。
+* **方案 1**：如果组织已有 Office 365 环境，并且组织中的所有用户都有 Office 365 帐户，那么你管理标识的方式没有变化。
 
 * **方案 2**：如果组织已有 Office 365 环境，但并非组织中的所有用户都有 Office 365 帐户，那么我们会在租户中创建用户，并根据此用户的工作或学校电子邮件地址分配许可证。
 
     也就是说，在任何特定时间管理的用户数随组织中注册服务的用户数一起增加。
 
-* **方案 3**：如果组织没有已连接到你的电子邮件域的 Office 365 环境，那么标识管理方式没有变化。
+* **方案 3**：如果你的组织没有已连接到你的电子邮件域的 Office 365 环境，那么你管理标识的方式没有变化。
 
     用户被添加到仅限云的新用户目录中，你可以视需要选择以租户管理员的身份控制并管理他们。
 
@@ -186,7 +186,7 @@ Power BI 提供了可便于你查看使用情况统计信息的管理门户，�
 
 ### <a name="if-i-have-multiple-domains-can-i-control-the-office-365-tenant-that-users-are-added-to"></a>如果我有多个域，是否可以控制向其中添加用户的 Office 365 租户？
 
-如果你什么也不做，系统也会为每个用户电子邮件域和子域创建租户。 如果希望所有用户都在同一租户中，而不管其电子邮件地址扩展名如何：提前创建目标租户，或使用现有租户，并添加要在此租户中合并的所有现有域和子域。 然后，电子邮件地址以这些域和子域结尾的所有用户便会在注册时自动加入目标租户。
+如果你什么也不做，系统也会为每个用户电子邮件域和子域创建租户。 如果你希望所有用户都处于相同租户中（不考虑其电子邮件地址扩展）：提前创建目标租户，或使用现有租户，添加你希望在该租户中合并的所有现有域和子域。 然后，电子邮件地址以这些域和子域结尾的所有用户便会在注册时自动加入目标租户。
 
 > [!IMPORTANT]
 > 创建租户后，则不存在支持将用户跨租户迁移的自动机制。 若要了解有关域添加到单个 Office 365 租户的信息，请参阅[将用户和域添加到 Office 365](/office365/admin/setup/add-domain/)。

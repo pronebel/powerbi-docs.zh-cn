@@ -1,23 +1,23 @@
 ---
-title: Power BI 的客户盈利率示例：教程
-description: Power BI 的客户盈利率示例：教程
+title: Power BI 的客户盈利率示例：参观
+description: Power BI 的客户盈利率示例：参观
 author: maggiesMSFT
 manager: kfile
 ms.reviewer: amac
 ms.service: powerbi
-ms.component: powerbi-desktop
+ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 06/23/2018
 ms.author: maggies
 LocalizationGroup: Samples
-ms.openlocfilehash: a47a63311dd28f2f1f313bc0a5cfcd68cdb0401b
-ms.sourcegitcommit: 1e4fee6d1f4b7803ea285eb879c8d5a4f7ea8b85
+ms.openlocfilehash: 3dd4f5f0404737685757400202d3a92767e44189
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/16/2018
-ms.locfileid: "51717967"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54280811"
 ---
-# <a name="customer-profitability-sample-for-power-bi-take-a-tour"></a>Power BI 的客户盈利率示例：教程
+# <a name="customer-profitability-sample-for-power-bi-take-a-tour"></a>Power BI 的客户盈利率示例：参观
 
 ## <a name="overview-of-the-customer-profitability-sample"></a>客户盈利率示例概述
 “客户盈利率示例”内容包包括生产营销材料的一家公司的仪表板、报表和数据集。 此仪表板由 CFO 创建，用于查看有关她的 5 名业务部门经理（即主管人员）、产品、客户和毛利 (GM) 的关键指标。 她一眼就能看出影响盈利性的因素所在。
@@ -195,7 +195,7 @@ ms.locfileid: "51717967"
 
 还可以[仅下载本示例的数据集（Excel 工作簿）](http://go.microsoft.com/fwlink/?LinkId=529781)。
 
-## <a name="next-steps-connect-to-your-data"></a>后续步骤：连接到你的数据
+## <a name="next-steps-connect-to-your-data"></a>后续步骤：连接到数据
 本教程介绍了 Power BI 仪表板、问答和报表如何能够帮助深入了解客户数据。 现在轮到你了 — 连接到你自己的数据。 借助 Power BI，你可以连接到各种数据源。 了解 [Power BI 入门](service-get-started.md)的详细信息。
 
 [回到 Power BI 中的示例](sample-datasets.md)  

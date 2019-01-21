@@ -6,17 +6,17 @@ manager: kfile
 ms.reviewer: ''
 featuredvideoid: B2vd4MQrz4M
 ms.service: powerbi
-ms.component: powerbi-service
+ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 06/22/2018
 ms.author: maggies
 LocalizationGroup: Get started
-ms.openlocfilehash: 6de9427a11ae5aa43563ce9e21371d231a1dd3a9
-ms.sourcegitcommit: b03912343a5a214c6bb972aaa6aa051c2a5f4332
+ms.openlocfilehash: 2a033e6893cffb71c4a898f1260aca615ae4e4b8
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/05/2018
-ms.locfileid: "52900519"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54291966"
 ---
 # <a name="tutorial-get-started-with-power-bi-service-apppowerbicom"></a>教程：Power BI 服务入门 (app.powerbi.com)
 本教程将帮助你开启使用 ***Power BI 服务*** 之旅。 若要了解 Power BI 服务如何适应其他 Power BI 产品/服务，我们强烈建议你先阅读[什么是 Power BI](power-bi-overview.md)。
@@ -93,7 +93,7 @@ Microsoft Power BI 服务有时也称为 Power BI 在线版或 app.powerbi.com�
    > 
  
 
-## <a name="step-2-start-exploring-your-dataset"></a>步骤 2 ：着手了解你的数据集
+## <a name="step-2-start-exploring-your-dataset"></a>步骤 2：着手了解你的数据集
 连接到数据后，请开始浏览数据。  发现有趣的内容后，可以创建仪表板来监视内容，并查看内容在不同时间的变化。 我们来看看具体的工作方式。
     
 1. 在报表编辑器中，使用页面右侧的“字段”窗格生成可视化对象。  选中“**销售总额**”和“**日期**”旁边的复选框。

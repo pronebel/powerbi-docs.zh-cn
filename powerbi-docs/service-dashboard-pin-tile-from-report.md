@@ -6,17 +6,17 @@ manager: kfile
 ms.reviewer: ''
 featuredvideoid: lJKgWnvl6bQ
 ms.service: powerbi
-ms.component: powerbi-service
+ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 03/02/2018
 ms.author: maggies
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 8ee878efe78e0f266e27b7404aa645dc8a0fd3bf
-ms.sourcegitcommit: 1e4fee6d1f4b7803ea285eb879c8d5a4f7ea8b85
+ms.openlocfilehash: a9d3856f643eed0ccb5383f2dda55ea57a32908a
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/16/2018
-ms.locfileid: "51717714"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54284923"
 ---
 # <a name="pin-a-tile-to-a-power-bi-dashboard-from-a-report"></a>从报表将磁贴固定到 Power BI 仪表板
 ## <a name="pinning-tiles-from-a-report"></a>从报表固定磁贴
@@ -26,7 +26,7 @@ ms.locfileid: "51717714"
 
 不能固定与你共享的报表中的磁贴，也不能固定 Power BI Desktop 中的磁贴。 
 
-> 提示：某些可视化效果使用背景图像。 如果背景图像太大，可能无法固定。  请尝试减小图像大小或压缩图像。  
+> **提示**：某些可视化效果使用背景图像。 如果背景图像太大，可能无法固定。  请尝试减小图像大小或压缩图像。  
 > 
 > 
 

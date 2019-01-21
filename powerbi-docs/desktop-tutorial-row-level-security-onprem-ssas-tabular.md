@@ -6,17 +6,17 @@ manager: amitaro
 ms.reviewer: davidi
 editor: davidi
 ms.service: powerbi
-ms.component: powerbi-desktop
+ms.subservice: powerbi-desktop
 ms.topic: tutorial
 ms.date: 10/21/2017
 ms.author: selvar
 LocalizationGroup: Connect to data
-ms.openlocfilehash: c2d4dc5d8c11db035cc2470c0c44d64a6b78cd1a
-ms.sourcegitcommit: fdb54145f9bc93b312409c15c603749f3a4a876e
+ms.openlocfilehash: 546ae48aac10ae6c72a062665c7d8f448432a194
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/28/2018
-ms.locfileid: "52452743"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54292628"
 ---
 # <a name="dynamic-row-level-security-with-analysis-services-tabular-model"></a>通过 Analysis Services 表格模型实现动态行级别安全性
 本教程演示在 Analysis Services 表格模型中实现“行级别安全性”的所需步骤，以及如何将其用于 Power BI 报表。 本教程中的步骤在示例数据集上完成，旨在让您了解必需的步骤。
@@ -34,7 +34,7 @@ ms.locfileid: "52452743"
 
 执行本教程中的步骤需要使用 AdventureworksDW2012 数据库（可以通过[存储库](https://github.com/Microsoft/sql-server-samples/releases/tag/adventureworks)下载）。
 
-## <a name="task-1-create-the-user-security-table-and-define-data-relationship"></a>任务 1︰创建用户安全表并定义数据关系
+## <a name="task-1-create-the-user-security-table-and-define-data-relationship"></a>任务 1：创建用户安全表并定义数据关系
 很多已发布的文章都介绍了如何通过 **SQL Server Analysis Services (SSAS) 表格**模型定义行级别动态安全。 我们的示例遵照文章[通过使用行筛选器实现动态安全性](https://msdn.microsoft.com/library/hh479759.aspx)中所述的内容。 以下步骤引导完成本教程的第一项任务：
 
 1. 本示例中，我们采用 **AdventureworksDW2012** 关系数据库。 在该数据库中创建 **DimUserSecurity** 表，如下图所示。 本示例中，我们使用 SQL Server Management Studio (SSMS) 来创建表。
@@ -55,7 +55,7 @@ ms.locfileid: "52452743"
    ![](media/desktop-tutorial-row-level-security-onprem-ssas-tabular/createusersecuritytable_join_users.png)
 5. 请注意，上图显示了诸如销售区域的负责用户等信息。 由于我们已在**步骤 2** 中创建关系，所以会显示此数据。 另请注意，用户 **Jon Doe 属于澳大利亚销售区域**。 我们会在即将执行的步骤和任务中再度讨论 John Doe。
 
-## <a name="task-2-create-the-tabular-model-with-facts-and-dimension-tables"></a>任务 2︰创建含事实数据表和维度表的表格模型
+## <a name="task-2-create-the-tabular-model-with-facts-and-dimension-tables"></a>任务 2：创建含事实数据表和维度表的表格模型
 1. 在准备好关系数据仓库后，即可定义您的表格模型。 可以使用 **SQL Server Data Tools (SSDT)** 创建该模型。 有关如何定义表格模型的详细信息，请参阅[创建新的表格模型项目](https://msdn.microsoft.com/library/hh231689.aspx)。
 2. 将所有必需表导入模型，如下所示。
    

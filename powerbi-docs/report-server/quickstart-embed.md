@@ -6,17 +6,17 @@ ms.author: maghan
 ms.date: 05/04/2018
 ms.topic: quickstart
 ms.service: powerbi
-ms.component: powerbi-report-server
+ms.subservice: powerbi-report-server
 ms.custom: mvc
 manager: kfile
-ms.openlocfilehash: 802107ce9c12075ffc51461375ca3e9a313f2be1
-ms.sourcegitcommit: 9c3a9ec14c111d766ef5703366c316e72f6e588f
+ms.openlocfilehash: a0224188a0205cf134f2b2ee123bf5a3ac7ef0d0
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/13/2018
-ms.locfileid: "45558415"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54288488"
 ---
-# <a name="quickstart-embed-a-power-bi-report-server-report-using-an-iframe-in-sharepoint-server"></a>快速入门：在 SharePoint Server 中使用 iFrame 嵌入 Power BI 报表服务器报表
+# <a name="quickstart-embed-a-power-bi-report-server-report-using-an-iframe-in-sharepoint-server"></a>快速入门：在 SharePoint Server 中使用 iFrame 嵌入“Power BI 报表服务器”报表
 
 在本快速入门中，你将了解如何通过在 SharePoint 页面中使用 iFrame 嵌入 Power BI 报表服务器报表。 如果正在使用 SharePoint Online，则必须可以公开访问 Power BI 报表服务器。 在 SharePoint Online 中，使用 Power BI 服务的 Power BI Web 部件不会使用 Power BI 报表服务器。 
 

@@ -1,23 +1,23 @@
 ---
-title: Power BI 的零售分析示例：教程
-description: Power BI 的零售分析示例：教程
+title: Power BI 的零售分析示例：参观
+description: Power BI 的零售分析示例：参观
 author: maggiesMSFT
 manager: kfile
 ms.reviewer: amac
 ms.service: powerbi
-ms.component: powerbi-desktop
+ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 06/24/2018
 ms.author: maggies
 LocalizationGroup: Samples
-ms.openlocfilehash: c07c33cb6ae859c9cf202ae67119dbfb8dd45e26
-ms.sourcegitcommit: 1e4fee6d1f4b7803ea285eb879c8d5a4f7ea8b85
+ms.openlocfilehash: e4cb314af1522c71de85e4576572acbb1d2e88b3
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/16/2018
-ms.locfileid: "51717668"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54291455"
 ---
-# <a name="retail-analysis-sample-for-power-bi-take-a-tour"></a>Power BI 的零售分析示例：教程
+# <a name="retail-analysis-sample-for-power-bi-take-a-tour"></a>Power BI 的零售分析示例：参观
 
 此行业示例仪表板和基础报表分析了跨多个商店和地区销售的商品的零售数据。 指标将本年度的绩效与去年在以下领域的绩效进行比较：销售、单位、毛利和方差，以及新店铺分析。 这些来自 obviEnce [(www.obvience.com)](http://www.obvience.com) 的真实数据都已进行匿名处理。
 

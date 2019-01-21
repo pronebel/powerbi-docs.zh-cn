@@ -5,17 +5,17 @@ author: mihart
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-service
+ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 10/16/2018
 ms.author: nikhilga
 LocalizationGroup: Get started
-ms.openlocfilehash: daada8a7f69c600acf6fc45669ed6a42c2fdd831
-ms.sourcegitcommit: b03912343a5a214c6bb972aaa6aa051c2a5f4332
+ms.openlocfilehash: c35f418362c5036331030bf100d9bfca6b943a4a
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/05/2018
-ms.locfileid: "52900649"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54295782"
 ---
 ---
 # <a name="whats-new-in-the-power-bi-service"></a>Power BI 服务中的新功能
@@ -147,20 +147,20 @@ ms.locfileid: "52900649"
 
 ## <a name="2016"></a>2016
 ### <a name="november-2016"></a>2016 年 11 月
-* 预览阶段：尝试 [Power BI 服务 (powerbi.com) 的全新导航方式](https://powerbi.microsoft.com/blog/announcing-the-new-power-bi-navigation-preview/)
-* 预览阶段：[将 Power BI 报表导出到 PowerPoint 中](https://powerbi.microsoft.com/blog/export-power-bi-report-to-powerpoint-preview/)。
-* 预览阶段：从 Power BI 服务[下载 Power BI 报表（PBIX 文件）](https://powerbi.microsoft.com/blog/announcing-preview-of-download-power-bi-desktop-files-from-the-web/)，以便在 Power BI Desktop 中进行编辑。
+* 预览：尝试 [Power BI 服务 (powerbi.com) 的全新导航方式](https://powerbi.microsoft.com/blog/announcing-the-new-power-bi-navigation-preview/)
+* 预览：[将 Power BI 报表导出到 PowerPoint 中](https://powerbi.microsoft.com/blog/export-power-bi-report-to-powerpoint-preview/)。
+* 预览：从 Power BI 服务[下载 Power BI 报表（PBIX 文件）](https://powerbi.microsoft.com/blog/announcing-preview-of-download-power-bi-desktop-files-from-the-web/)，以便在 Power BI Desktop 中进行编辑。
 * 创建[液态填充仪表](https://powerbi.microsoft.com/blog/visual-awesomeness-unlocked-liquid-fill-gauge/)，即通过液体波纹动画表示百分比值的圆形仪表。
 * 使用此 Power BI 内容包研究 [Jira 项目管理数据](https://powerbi.microsoft.com/blog/explore-your-jira-data-with-power-bi/)
 * 使用此 Power BI 内容包研究 [Insightcentr 数据](https://powerbi.microsoft.com/blog/explore-your-insightcentr-data-with-power-bi/)
 * 使用[信息图设计器自定义视觉对象](https://powerbi.microsoft.com/blog/quickly-create-infographics-with-the-infographic-designer-custom-visual-for-power-bi/)快速创建信息图
-* 内部预览阶段：[Azure 流分析](https://powerbi.microsoft.com/blog/announcing-private-preview-of-azure-stream-analytics-outputting-to-power-bi-streaming-datasets/)输出 Power BI 流数据集，可用来创建流磁贴。
-* 预览阶段：将 [ESRI ArcGIS 地图可视化效果](https://powerbi.microsoft.com/blog/arcgis-maps-for-powerbi-available-in-powerbi-service/)添加到报表和仪表板中
+* 内部预览：[Azure 流分析](https://powerbi.microsoft.com/blog/announcing-private-preview-of-azure-stream-analytics-outputting-to-power-bi-streaming-datasets/)输出 Power BI 流数据集，可用来创建流磁贴。
+* 预览：将 [ESRI ArcGIS 地图可视化效果](https://powerbi.microsoft.com/blog/arcgis-maps-for-powerbi-available-in-powerbi-service/)添加到报表和仪表板中
 
 ### <a name="october-2016"></a>2016 年 10 月
 * 利用 [Power BI 与全新 Microsoft 团队的集成](https://powerbi.microsoft.com/blog/power-bi-teams-up-with-microsoft-teams/)。
 * 无需掌握 R 即可在 Power BI 中设计 [R 可视化效果](https://powerbi.microsoft.com/blog/r-powered-custom-visuals/)。
-* 预览阶段：使用 [Azure Analysis Services](https://powerbi.microsoft.com/blog/introducing-azure-analysis-services/)，BI 专业人员可以根据驻留在云中或本地的数据创建 BI 语义模型，从而向业务用户提供简化的数据视图。
+* 预览：使用 [Azure Analysis Services](https://powerbi.microsoft.com/blog/introducing-azure-analysis-services/)，BI 专业人员可以根据驻留在云中或本地的数据创建 BI 语义模型，从而向业务用户提供简化的数据视图。
 * 可以向应有 Power BI 管理门户访问权限（而不是其他 Office 365 管理访问权限）的用户分配全新的 [Power BI 服务管理员角色](https://powerbi.microsoft.com/blog/making-it-easier-to-administer-power-bi/)。
 * [使用 Power BI 研究 MYOB 高级数据](https://powerbi.microsoft.com/blog/explore-your-myob-advanced-data-with-power-bi/)。
 * 非管理员如何查看 [Power BI 审核日志](https://powerbi.microsoft.com/blog/tech-tip-thursday-power-bi-auditing-for-a-non-administrator/)
@@ -184,7 +184,7 @@ ms.locfileid: "52900649"
 ### <a name="june-2016"></a>2016 年 6 月
 ***快速见解***
 
-* 带有复杂筛选器的 Quick Insights：我们非常高兴地宣布，局限于单个磁贴的 Quick Insights 现在能使用复杂筛选器了。
+* 带有复杂筛选器的“快速见解”：我们非常高兴地宣布，局限于单个磁贴的“快速见解”现在能使用复杂筛选器了。
 
 有关所有详细信息，[请访问 Power BI 团队博客](https://powerbi.microsoft.com/blog/smarter-auto-generated-insights-with-complex-filters/)
 
@@ -192,38 +192,38 @@ ms.locfileid: "52900649"
 ***获取数据***
 
 * 文件大小限制增加到 1 GB：我们将 Excel 工作簿和 Power BI Desktop 文件大小限制增加到了 1 GB。
-* 通过企业网关和其他网关更新查找 SSAS 服务器设置：现在当你安装企业网关时，你的公司用户将可以通过“获取数据”页面访问 Power BI 服务中的这些服务器。 我们还增加了对刷新数据集（包括使用网关的 SAP Business Warehouse 服务器中的数据）以及通过网关使用 Analysis Services 时创建 UPN 映射规则的支持。
+* 通过企业网关和其他网关更新查找 SSAS 服务器设置：现在当你安装企业网关时，贵公司用户将可以通过“获取数据”页面访问 Power BI 服务中的这些服务器。 我们还增加了对刷新数据集（包括使用网关的 SAP Business Warehouse 服务器中的数据）以及通过网关使用 Analysis Services 时创建 UPN 映射规则的支持。
 
 ***行级别安全性 (RLS)***
 
 * Azure Active Directory (AAD) 组支持：用户现在可以向角色分配 AAD 组（安全组和通讯组列表）。 使向大型用户组分配角色变得更加容易。
 * [通过由已有 RLS 数据支持的报表来测试你的 RLS 角色](service-admin-rls.md#validating-the-role-within-power-bi-desktop)：我们为 RLS 预览增加了这项功能，使你可以作为特定角色测试数据集。 从而确保在任何用户操作你的仪表板之前，角色按照你的预期工作。
-* 定义 RLS 并将其应用到基于云模型的直接查询：你现在可以为直接查询数据源创建并应用 RLS 规则。
+* 定义 RLS 并将其应用到基于直接查询的云模型：你现在可以为直接查询数据源创建并应用 RLS 规则。
 
 ***仪表板***
 
-* 收藏仪表板：为帮助你访问最常使用的仪表板，我们增加了一种收藏这些仪表板的方法，使你可以从所有工作区中轻松访问它们。
+* 将仪表板加入收藏夹：为了帮助你快速转到最常访问的仪表板，我们新增了一种功能，可方便你将这些仪表板加入收藏夹，并能从所有工作区轻松访问它们。
 
 ***在 Excel 中分析***
 
-* 改进了下载体验：通过新的对话框体验，可以轻松下载“使用 Excel 分析”功能的更新。
+* 改进了下载体验：通过新的对话框，可以轻松下载“使用 Excel 分析”功能的更新。
 * 对 RLS 的支持：设置 RLS 后，当用户使用 Excel 分析数据时，应用到数据的这些规则现在会流动。
-* 改进了本地 Analysis Services 数据库的错误消息：在此之前，如果你为不受支持的数据源选择了“使用 Excel 分析”功能，则必须等待下载 ODC 文件并尝试连接到 Power BI 完成之后，才会收到不支持的错误消息。 现在只要你为我们不支持的数据源选择了“使用 Excel 分析”功能，你就会看到一条消息，提示你我们尚不支持该数据源。
+* 改进了本地 Analysis Services 数据库的错误消息传送：在此之前，如果你为不受支持的数据源选择了“使用 Excel 分析”功能，则必须等待下载了 ODC 文件并尝试连接到 Power BI 完成之后，才会收到不支持的错误消息。 现在只要你为我们不支持的数据源选择了“使用 Excel 分析”功能，你就会看到一条消息，提示你我们尚不支持该数据源。
 
 有关所有详细信息，[请访问 Power BI 团队博客](https://powerbi.microsoft.com/blog/power-bi-service-may-update-file-size-increase-to-1-gb/)
 
 * [Power BI 问答对 SQL Server 2016 Analysis Services 表格模型的支持](service-q-and-a-direct-query.md)：我们非常高兴地宣布，我们不仅增强了 Power BI 问答的用户体验，并且针对连接数据源的企业网关，我们还推出了 Power BI 问答公共预览版，提供了对 SQL Server 2016 Analysis Services 表格模型的初始支持。 有关所有详细信息，[请参阅博客文章](https://powerbi.microsoft.com/blog/power-bi-q-a-for-enterprise-gateway-connected-data-sources-now-available-in-public-preview/)
-* [Excel 报表的本地文件支持](service-excel-workbook-files.md#local-excel-workbooks)：现在你可以从本地驱动器或其他存储服务上传你的 Excel 文件，并且可以通过 Power BI 的新添优势来按你想要的方式使用该 Excel 报表，如同在 Excel Online 中使用那样。 有关所有详细信息，[请参阅博客文章](https://powerbi.microsoft.com/blog/powerbi-upload-excel-reports-from-local-files/)
+* [Excel 报表的本地文件支持](service-excel-workbook-files.md#local-excel-workbooks)：现在你可以从本地驱动器或其他存储服务上传你的 Excel 文件，并且可以通过 Power BI 的新增优势来按你想要的方式使用该 Excel 报表，如同在 Excel Online 中使用那样。 有关所有详细信息，[请参阅博客文章](https://powerbi.microsoft.com/blog/powerbi-upload-excel-reports-from-local-files/)
 
 **2016 年 4 月 28 日**
 
-* [仪表板磁贴上的 Quick Insights](consumer/end-user-insights.md)：当在“焦点”模式中查看磁贴时，单击“获得见解”可在几秒内自动搜索磁贴及其相关项、离群值、趋势、季节性、趋势变化点和主要因素的相关数据。
+* [有关仪表板磁贴的快速见解](consumer/end-user-insights.md)：当在“焦点”模式中查看磁贴时，单击“获得见解”可在几秒内自动搜索磁贴及其相关项、离群值、趋势、季节性、趋势变化点和主要因素等相关数据。
 
 有关所有详细信息，[请访问 Power BI 团队博客](https://powerbi.microsoft.com/blog/find-more-insights-in-your-dashboards-with-quick-insights/)
 
 **2016 年 4 月 26 日**
 
-* Power BI 叙述：当你与你的数据和可视化效果进行交互时，自定义视觉对象会以叙述的方式动态传递见解，就如你希望分析师可以编写一样。 此视觉对象是由 [Narrative Science Quill](https://www.narrativescience.com/quill) 推动的。
+* Power BI 叙述：当你与数据和可视化效果进行交互时，此自定义视觉对象会以叙述的方式动态传递见解，就如你希望分析师会编写的一样。 此视觉对象是由 [Narrative Science Quill](https://www.narrativescience.com/quill) 推动的。
 
 有关所有详细信息，[请访问 Power BI 团队博客](https://powerbi.microsoft.com/blog/get-natural-language-narratives-in-power-bi-reports/)
 
@@ -266,7 +266,7 @@ ms.locfileid: "52900649"
 
 ***问答***
 
-* 自动完成“是”：如果你键入列名，并且后跟“是”，则问答将建议一些值。
+* 自动完成“is”：如果你键入列名，并且后跟“is”，则问答将提供一些建议值。
 
 ***移动***
 
@@ -403,7 +403,7 @@ Power BI 团队在整个假期都在忙。 有关所有详细信息，[请访问
 * 可视化效果的增强功能：
   
   1. 表格视觉对象中的排序状态的视觉提示
-  2. 新视觉对象：堆积面积图
+  2. 新建视觉对象：堆积面积图
   3. 鼠标悬停时的面积图和折线图的智能工具提示
   4. 为笛卡尔视觉对象创建参考线/区域的功能
   5. 改进的饼图和散点图的数据标签

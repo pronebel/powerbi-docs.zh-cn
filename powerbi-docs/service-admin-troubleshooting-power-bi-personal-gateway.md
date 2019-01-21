@@ -5,17 +5,17 @@ author: mgblythe
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-service
+ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 12/06/2017
 ms.author: mblythe
 LocalizationGroup: Troubleshooting
-ms.openlocfilehash: d5f2fa0abe6f0503ce5f41387f66db928ae0267e
-ms.sourcegitcommit: ba447d7cc94418d7d3cf6fdcb686ec1a859258a8
+ms.openlocfilehash: 642bd39cb9348bae2a1f30dbc9ee026e11ff7401
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/02/2018
-ms.locfileid: "37145401"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54284509"
 ---
 # <a name="troubleshooting-power-bi-gateway---personal"></a>Power BI 网关故障排除 - 个人
 以下介绍使用 Power BI 个人网关时可能遇到的一些常见问题。
@@ -45,13 +45,13 @@ ms.locfileid: "37145401"
  **代理服务器配置** 如果你的环境需要使用代理服务器，可能会遇到与配置个人网关相关的问题。 若要了解有关如何配置代理服务器信息的详细信息，请参阅[配置 Power BI 网关的代理服务器设置](service-gateway-proxy.md)
 
 ## <a name="schedule-refresh"></a>计划刷新
-**错误：云中存储的凭据丢失。**
+**错误:云中存储的凭据丢失。**
 
 如果你已计划刷新，然后卸载并重新安装个人网关，则在 \<dataset\> 的设置中会出现此错误。 当你卸载个人网关时，针对刷新配置的数据集的数据源凭据将从 Power BI 服务中删除。
 
-**解决方案：** 在 Power BI 中，转到数据集的刷新设置。 在“管理数据源”中，对于任何存在错误的数据源，单击“编辑凭据”并再次登录到数据源。
+解决方案：在 Power BI 中，转到数据集的刷新设置。 在“管理数据源”中，对于任何存在错误的数据源，单击“编辑凭据”并再次登录到数据源。
 
-**错误：为数据集提供的凭据无效。请通过刷新更新凭据或在“数据源设置”对话框中更新凭据以继续执行操作。**
+**错误:为数据集提供的凭据无效。请通过刷新更新凭据或在“数据源设置”对话框中更新凭据以继续执行操作。**
 
 **解决方案**：如果收到凭据消息，这可能意味着：
 
@@ -60,9 +60,9 @@ ms.locfileid: "37145401"
   
   这是一个已知问题，我们正在调查。 若要解决此问题，为云源和本地源配备单独的查询，并使用合并或追加查询以将它们合并。
 
-**错误：数据源不受支持。**
+**错误:数据源不受支持。**
 
-**解决方案：** 如果在计划刷新设置中出现数据源不受支持的消息，这可能意味着： 
+解决方案：如果在“计划刷新”设置中出现数据源不受支持的消息，这可能意味着： 
 
 * Power BI 中当前不支持数据源进行刷新。 
 * Excel 工作簿不包含数据模型，仅包含工作表数据。 如果已上载的 Excel 工作簿包含数据模型，Power BI 当前只支持刷新。 当在 Excel 中使用 Power Query 导入数据时，请务必选择此选项将数据加载到数据模型。 这可确保数据导入到数据模型。 
@@ -71,11 +71,11 @@ ms.locfileid: "37145401"
 
 **解决方案**：此错误是由于隐私级别限制和正在使用的数据源类型所导致。
 
-**错误：数据源错误：无法将值“\[Table\]”转换为 Table 类型。**
+**错误:数据源错误:无法将值“\[Table\]”转换为 Table 类型。**
 
 **解决方案**：此错误是由于隐私级别限制和正在使用的数据源类型所导致。
 
-**错误：对于此行没有足够的空间。**
+**错误:对于此行没有足够的空间。**
 
 如果有大于 4 MB 大小的单个行，则会出现此错误。 需要从数据源确定行是什么，并尝试将其筛选出或减少该行的大小。
 
@@ -91,7 +91,7 @@ ms.locfileid: "37145401"
 
   ![](media/service-admin-troubleshooting-power-bi-personal-gateway/pbi_pg_credentialserror.jpg.png)
 
-**错误：为使用 ACE OLEDB 的数据源选择 Windows 身份验证时出现登录错误** - 如果为使用 ACE OLEDB 提供程序的数据源输入数据源凭据时出现以下错误：
+**错误:为使用 ACE OLEDB 的数据源选择 Windows 身份验证时出现登录错误** - 如果为使用 ACE OLEDB 提供程序的数据源输入数据源凭据时出现以下错误：
 
 ![](media/service-admin-troubleshooting-power-bi-personal-gateway/aceoledberror.png)
 

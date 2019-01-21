@@ -270,6 +270,12 @@ items:
         href: desktop-rls.md
       - name: 自定义工具提示
         href: desktop-custom-tooltips.md
+      - name: 报表中的文本框和形状
+        href: power-bi-reports-add-text-and-shapes.md
+      - name: 向文本框添加超链接
+        href: service-add-hyperlink-to-text-box.md
+      - name: 表中的超链接
+        href: power-bi-hyperlinks-in-tables.md
       - name: 条件表格式设置
         href: desktop-conditional-table-formatting.md
       - name: 在 Power BI Desktop 中按列排序
@@ -302,18 +308,12 @@ items:
         href: visuals/power-bi-visualization-export-data.md
       - name: 在表中移动可视化效果、重设它的大小和弹出可视化效果
         href: visuals/power-bi-visualization-move-and-resize.md
-      - name: 表中的超链接
-        href: power-bi-hyperlinks-in-tables.md
-      - name: 向报表中的文本框添加超链接
-        href: service-add-hyperlink-to-text-box.md
       - name: 更改视觉对象在报表中的交互方式
         href: service-reports-visual-interactions.md
       - name: 直方图
         href: visuals/service-histograms.md
       - name: 用于 Power BI 地图可视化效果的提示和技巧
         href: visuals/power-bi-map-tips-and-tricks.md
-      - name: Power BI 报表中的文本框
-        href: power-bi-reports-add-text-and-shapes.md
       - name: 自定义 X 轴和 Y 轴属性
         href: visuals/power-bi-visualization-customize-x-axis-and-y-axis.md
       - name: Power BI 中的 ArcGIS 地图
@@ -1293,9 +1293,9 @@ items:
       href: service-admin-governance.md
     - name: Power BI 安全性
       href: service-admin-power-bi-security.md
-ms.openlocfilehash: a3abfd814e95ca00c433b66e7fe6aad665f8426f
-ms.sourcegitcommit: 4695f5ef54cc9929828320132f890317b4c3018e
+ms.openlocfilehash: b3553d493940b831e3e604fe43176ace125fe995
+ms.sourcegitcommit: 658b0de4f5a544d0906665b40925552804a61880
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/12/2019
-ms.locfileid: "54239281"
+ms.lasthandoff: 01/19/2019
+ms.locfileid: "54406721"

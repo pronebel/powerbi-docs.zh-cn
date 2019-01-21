@@ -6,16 +6,16 @@ ms.author: mblythe
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-gateways
+ms.subservice: powerbi-gateways
 ms.topic: conceptual
 ms.date: 08/08/2018
 LocalizationGroup: Gateways
-ms.openlocfilehash: 795f97403ea80caad52e57e54edc3d54a4c5d952
-ms.sourcegitcommit: 3b1a1f55465e5dca88783046c6b4c073e4e22e4b
+ms.openlocfilehash: 623eb93c27f0ec762b2c9d063b646d757c3b1f0c
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/13/2018
-ms.locfileid: "51580531"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54296561"
 ---
 # <a name="troubleshooting-the-on-premises-data-gateway"></a>本地数据网关故障排除
 
@@ -117,7 +117,7 @@ ms.locfileid: "51580531"
 
 ## <a name="data-sources"></a>数据源
 
-### <a name="error-unable-to-connect-details-invalid-connection-credentials"></a>错误：无法连接。 详细信息：“无效的连接凭据”
+### <a name="error-unable-to-connect-details-invalid-connection-credentials"></a>错误：无法连接。 详细信息:“连接凭据无效”
 
 在“显示详细信息”中，显示从数据源收到的错误消息。 对于 SQL Server，可看到如下所示的内容。
 
@@ -125,7 +125,7 @@ ms.locfileid: "51580531"
 
 验证你具有正确的用户名和密码。 另外，验证这些凭据是否可以成功地连接到数据源。 请确保所使用的帐户与**身份验证方法**匹配。
 
-### <a name="error-unable-to-connect-details-cannot-connect-to-the-database"></a>错误：无法连接。 详细信息：“无法连接到数据库”
+### <a name="error-unable-to-connect-details-cannot-connect-to-the-database"></a>错误：无法连接。 详细信息:“无法连接到数据库”
 
 我们可以连接到服务器，但不能连接所提供的数据库。 验证该数据库的名称以及该用户凭据有适当的权限来访问该数据库。
 
@@ -133,7 +133,7 @@ ms.locfileid: "51580531"
 
     Cannot open database "AdventureWorks" requested by the login. The login failed. Login failed for user 'username'.
 
-### <a name="error-unable-to-connect-details-unknown-error-in-data-gateway"></a>错误：无法连接。 详细信息：“数据网关中的未知错误”
+### <a name="error-unable-to-connect-details-unknown-error-in-data-gateway"></a>错误：无法连接。 详细信息:“数据网关中发生未知错误”
 
 此错误可能会由于不同的原因发生。 请务必验证你可以从承载网关的计算机连接到数据源。 这可能是不可访问的服务器的结果。
 
@@ -141,7 +141,7 @@ ms.locfileid: "51580531"
 
 还可以查看“事件日志”>“应用程序和服务日志” > “本地数据网关服务”，了解更多详细信息。
 
-### <a name="error-we-encountered-an-error-while-trying-to-connect-to-server-details-we-reached-the-data-gateway-but-the-gateway-cant-access-the-on-premises-data-source"></a>错误：我们在尝试连接到<server>时遇到错误。 详细信息：“我们已连接到数据网关，但此网关无法访问本地数据源。”
+### <a name="error-we-encountered-an-error-while-trying-to-connect-to-server-details-we-reached-the-data-gateway-but-the-gateway-cant-access-the-on-premises-data-source"></a>错误：尝试连接到 <server> 时遇到错误。 详细信息:“我们已连接到数据网关，但网关无法访问本地数据源。”
 
 我们无法连接指定的数据源。 请务必验证为该数据源所提供的信息。
 
@@ -313,7 +313,7 @@ ms.locfileid: "51580531"
 
 ### <a name="microsoftpowerbidatamovementpipelinegatewaycoredllconfig"></a>Microsoft.PowerBI.DataMovement.Pipeline.GatewayCore.dll.config
 
-在 Microsoft.PowerBI.DataMovement.Pipeline.GatewayCore.dll.config 文件中将 `EmitQueryTraces` 的值从 `False` 更改为 `True`。 默认情况下，此文件位于 C:\Program Files\On-premises data gateway。 启用 `EmitQueryTraces` 可开始对从网关发送到数据源的查询进行日志记录。
+在 Microsoft.PowerBI.DataMovement.Pipeline.GatewayCore.dll.config 文件中将 `EmitQueryTraces` 的值从 `False` 更改为 `True`。 默认情况下，此文件位于 *C:\Program Files\On-premises data gateway* 。 启用 `EmitQueryTraces` 可开始对从网关发送到数据源的查询进行日志记录。
 
 > [!IMPORTANT]
 > 启用 EmitQueryTraces 可能会根据网关使用情况显著增加日志大小。 完成日志审阅后，需要将 EmitQueryTraces 设置为 False。 不建议长期将此设置保留为启用状态。
@@ -355,7 +355,7 @@ GROUP BY [t0].[ProductCategoryName],[t0].[FiscalYear] </pi>"
 
 ### <a name="microsoftpowerbidatamovementpipelinediagnosticsdllconfig"></a>Microsoft.PowerBI.DataMovement.Pipeline.Diagnostics.dll.config
 
-在 Microsoft.PowerBI.DataMovement.Pipeline.Diagnostics.dll.config 文件中将 `TracingVerbosity` 的值从 `4` 更改为 `5`。 默认情况下，此文件位于 C:\Program Files\On-premises data gateway。 更改此设置可将详细条目写入网关日志。 其中包括显示持续时间的条目。 此外，还可以通过启用本地网关应用程序中的“附加日志记录”按钮来启用详细条目。
+在 Microsoft.PowerBI.DataMovement.Pipeline.Diagnostics.dll.config 文件中将 `TracingVerbosity` 的值从 `4` 更改为 `5`。 默认情况下，此文件位于 *C:\Program Files\On-premises data gateway* 。 更改此设置可将详细条目写入网关日志。 其中包括显示持续时间的条目。 此外，还可以通过启用本地网关应用程序中的“附加日志记录”按钮来启用详细条目。
 
    ![附加日志记录](media/service-gateway-onprem-tshoot/additional-logging.png)
 
@@ -459,7 +459,7 @@ ImpersonationLevel 与 SPN 设置或本地策略设置相关。
 1. 为本地网关设置 SPN
 2. 在 Active Directory (AD) 中设置约束委派
 
-### <a name="failedtoimpersonateuserexception-failed-to-create-windows-identity-for-user-userid"></a>FailedToImpersonateUserException: 未能为用户 userid 创建 Windows 标识
+### <a name="failedtoimpersonateuserexception-failed-to-create-windows-identity-for-user-userid"></a>FailedToImpersonateUserException:未能为用户 userid 创建 Windows 标识
 
 如果无法代表其他用户进行模拟，将出现 FailedToImpersonateUserException。 如果尝试模拟的帐户来自另一个域，而不是网关服务域所在的域（这是一个限制），也可能会发生这种情况。
 

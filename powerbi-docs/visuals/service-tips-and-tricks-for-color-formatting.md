@@ -5,17 +5,17 @@ author: mihart
 manager: kvivek
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-desktop
+ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 12/19/2018
+ms.date: 01/09/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 09c505d114eaa951978f23061d9c79c1b6870fad
-ms.sourcegitcommit: 5206651c12f2b91a368f509470b46f3f4c5641e6
+ms.openlocfilehash: 71ed70344281dec3353b73c8698594d62ef32eae
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53983361"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54285590"
 ---
 # <a name="tips-and-tricks-for-color-formatting-in-power-bi"></a>Power BI 中颜色格式设置的提示和技巧
 Power BI 提供了自定义仪表板和报表的多种方法。 本文详细介绍了一些技巧，可以让你的 Power BI 可视化效果更引人注目、生动有趣，并可根据你的需求进行自定义。
@@ -29,41 +29,38 @@ Power BI 提供了自定义仪表板和报表的多种方法。 本文详细介�
 * 使用发散色阶
 * 如何在 Power BI 中撤消操作
 
-要进行任何更改都必须编辑报表：从**我的工作区**窗格中选择**报表**，然后从顶部的菜单区域选择**编辑报表**，如下图所示。 本示例使用“人力资源示例”。
+若要进行任何更改，必须编辑报表。 打开报表，从顶部菜单区域选择“编辑报表”，如下图所示。
 
-![突出显示“编辑报表”的报表画布](media/service-tips-and-tricks-for-color-formatting/power-bi-edit.png)
+![](media/service-tips-and-tricks-for-color-formatting/power-bi-edit.png)
 
-当**可视化效果**窗格出现在**报表**画布的右侧时，即可开始进行自定义操作。
+当**可视化效果**窗格出现在**报表**画布的右侧时，即可开始进行自定义操作。 如果未显示该窗格，请从右上角选择箭头以将其打开。
 
-![显示“格式设置”窗格的报表](media/service-tips-and-tricks-for-color-formatting/power-bi-formatting-pane.png)
+![](media/service-tips-and-tricks-for-color-formatting/power-bi-formatting-pane.png)
 
 ## <a name="change-the-color-of-a-single-data-point"></a>更改单个数据点的颜色
-有时你想突出显示某个特定的数据点。 该数据点可能是推出的新产品的销售数据，或是推出新计划后增加的质量分数。 使用 Power BI，针对大多数视觉对象类型，可以通过更改特定数据点的颜色来突出显示特定数据点。
+有时你想突出显示某个特定的数据点。 该数据点可能是推出的新产品的销售数据，或是推出新计划后增加的质量分数。 使用 Power BI 可以通过更改其颜色来突出显示某个特定的数据点。
 
-以下可视化效果使用默认颜色，按员工显示销售纯利率。 
+以下可视化效果对按产品细分销售的单位进行排名。 
 
-![分区图](media/service-tips-and-tricks-for-color-formatting/power-bi-area-chart.png)
+![](media/service-tips-and-tricks-for-color-formatting/power-bi-grey.png)
 
-很难看到 Annelie 的区域，因此让我们使用颜色使该区域更加突出。 步骤如下：
+现在，假设你想通过使用颜色来调出“便利性”细分，以展示这个全新细分的效果。 步骤如下：
 
-展开**数据颜色**部分。 将出现以下内容。
+展开“数据颜色”部分，然后启用“全部显示”滑块。 此操作将显示可视化效果中每个数据元素的颜色。 将鼠标悬停在数据点上时，将启用滚动，此时你可以修改任何数据点。
 
-![数据颜色选择区域位于“格式设置”下](media/service-tips-and-tricks-for-color-formatting/power-bi-data-colors.png)
+![](media/service-tips-and-tricks-for-color-formatting/power-bi-show-all.png)
 
+将“便利性”设置为橙色。 
 
-在此例中，请选择一种与 Valery 使用的颜色不同的深而明亮的颜色。 选择 Annelie 的颜色框中的向下键，选择“自定义颜色”，并选择亮蓝色。
+![](media/service-tips-and-tricks-for-color-formatting/power-bi-orange.png)
 
-![颜色选择](media/service-tips-and-tricks-for-color-formatting/tipstrickscolor_6.png)
+选择颜色后，“便利性”数据点将显示为美丽的橙色阴影，自然就很显眼了。
 
-选择颜色后，Annelie 的区域更容易与其他员工的区域分开来。 
+即使更改了可视化效果类型，返回时 Power BI 仍会记住你的选择，并将“便利性”保留为橙色。
 
-![区域图表，Annalie 的区域现在是亮蓝色](media/service-tips-and-tricks-for-color-formatting/power-bi-color.png)
+可以更改可视化效果中的一个、多个或全部数据元素的数据点颜色。 也许你希望视觉对象模拟企业颜色。 
 
-即使更改了可视化效果类型，返回时 Power BI 仍会记住你的选择，并将**华盛顿**保留为绿色。
-
-你也可以更改多个数据元素的数据点的颜色。 在下图中，**亚利桑那**为红色，**华盛顿**仍为绿色。
-
-![](media/service-tips-and-tricks-for-color-formatting/tipstrickscolor_8.png)
+![](media/service-tips-and-tricks-for-color-formatting/power-bi-corporate.png)
 
 可以使用颜色进行各种操作。 在下一部分中，我们将来了解渐变。
 
@@ -73,16 +70,27 @@ Power BI 提供了自定义仪表板和报表的多种方法。 本文详细介�
 以下部分演示了根据数值设置颜色的不同方式。
 
 ## <a name="base-the-color-of-data-points-on-a-value"></a>根据数值设置数据点的颜色
-若要根据数值更改颜色，请将你想设置颜色的字段拖动到**字段**窗格中的**色彩饱和度**区域。 在下图中，已将**税前收益**拖动到**色彩饱和度**区域中。 可以看到，尽管**维络城**具有更高的**总销售额**（该列更高），但**阿马里亚**具有更大的**税前收益**（该列的颜色饱和度更大）。
+若要根据数值更改颜色，请将你想设置颜色的字段拖动到“字段”窗格中的“色彩饱和度”区域。 在下图中，已将“%市场份额 SPLY YTD”拖动到“色彩饱和度”区域中。 
 
-![](media/service-tips-and-tricks-for-color-formatting/tipstrickscolor_9.png)
+![](media/service-tips-and-tricks-for-color-formatting/power-bi-color-saturation.png)
+
+在“格式”窗格的“数据颜色”下，确定“%市场份额 SPLY YTD”的值将如何更改柱形图中的颜色和底纹。 在本示例中，较低的“%市场份额”将为浅蓝色，较高的值将为深蓝色。
+
+
+![](media/service-tips-and-tricks-for-color-formatting/power-bi-data-colors2.png)
+
+
+可以看出，尽管我们已经销售了“生产力”和“极限值”（它们的柱更高）的更多单位，但“适度性”具有更高的“%市场份额 SPLY YTD”（它的柱具有更大的色彩饱和度）。
+
+![](media/service-tips-and-tricks-for-color-formatting/power-bi-saturation.png)
 
 ## <a name="customize-the-colors-used-in-the-color-scale"></a>在色阶中自定义使用的颜色
-你还可以在色阶中自定义使用的颜色。 展开**数据颜色**，你会看到让数据出现可视化效果的颜色渐变。 默认情况下，数据中的最低值对应饱和度最小的颜色，而最高值对应饱和度最大的颜色。
+你还可以在色阶中自定义使用的颜色。 默认情况下，数据中的最低值对应饱和度最小的颜色，而最高值对应饱和度最大的颜色。 在上图中，我们使用了蓝色渐变。 
 
-色域通过渐变栏进行显示，显示介于**最小值**和**最大值**的颜色值之间的色谱。**最小值**的颜色位于左侧，**最大值**的颜色位于右侧。
+展开**数据颜色**，你会看到让数据出现可视化效果的颜色渐变。 色域通过渐变栏进行显示，显示介于**最小值**和**最大值**的颜色值之间的色谱。**最小值**的颜色位于左侧，**最大值**的颜色位于右侧。
 
-![](media/service-tips-and-tricks-for-color-formatting/tipstrickscolor_10.png)
+![](media/service-tips-and-tricks-for-color-formatting/power-bi-data-colors2.png)
+
 
 若要更改色阶以使用其他的色域，请选择**最小值**或**最大值**旁边的颜色下拉菜单并选择一种颜色。 下图展示了将“**最大值**”颜色更改为黑色。渐变栏展示了介于“**最小值**”到“**最大值**”之间的新色谱。
 

@@ -6,17 +6,17 @@ manager: kvivek
 ms.reviewer: ''
 featuredvideoid: IkJda4O7oGs
 ms.service: powerbi
-ms.component: powerbi-desktop
+ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 08/23/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: f2edbd7b0b977b378d25634a0f9505101350d73b
-ms.sourcegitcommit: e17fc3816d6ae403414cf5357afbf6a492822ab8
+ms.openlocfilehash: 52c0211aea0462e0bf79d7a48808f1f826c09fb6
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/04/2018
-ms.locfileid: "52829794"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54296078"
 ---
 # <a name="part-i-add-visualizations-to-a-power-bi-report"></a>第 1 部分，向 Power BI 报表添加可视化效果
 本文简要介绍如何使用 Power BI 服务或 Power BI Desktop 在报表中创建可视化效果。  有关更多内容，请[参阅第 II 部分](power-bi-report-add-visualizations-ii.md)。 请观看 Amanda 的视频演示，她将介绍如何在报表画布上创建、编辑视觉对象并对其进行格式设置的一些不同方法。 然后使用[销售和市场营销示例](../sample-datasets.md)来创建自己的报表并进行体验。
@@ -38,7 +38,7 @@ ms.locfileid: "52829794"
    
    ![](media/power-bi-report-add-visualizations-i/pbi_onecolchart.png)
    
-   或从类别字段开始，例如“名称”或“产品”：Power BI 创建一个表并将该字段添加到“值”框中。
+   从类别字段开始，例如“名称”或“产品”：Power BI 创建一个表并将该字段添加到“值”框中。
    
    ![](media/power-bi-report-add-visualizations-i/pbi_agif_createchart3.gif)
    
@@ -57,7 +57,7 @@ ms.locfileid: "52829794"
   
 
 ## <a name="next-steps"></a>后续步骤
- 继续[第 2 部分：向 Power BI 报表添加可视化效果](power-bi-report-add-visualizations-ii.md)
+ 继续进行[第 2 部分：向 Power BI 报表添加可视化效果](power-bi-report-add-visualizations-ii.md)
    
    在报表中[与可视化效果交互](../consumer/end-user-reading-view.md)。
    

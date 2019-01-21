@@ -5,17 +5,17 @@ author: mgblythe
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-admin
+ms.subservice: powerbi-admin
 ms.topic: conceptual
 ms.date: 10/31/2018
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: dfd9aab419d0a097721c4f2b49e382c11be82541
-ms.sourcegitcommit: 0611860a896e636ceeb6e30ce85243bfd8e7b61d
+ms.openlocfilehash: f685a900465cc0f1b635aad7609aaae4356da6b3
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/01/2018
-ms.locfileid: "50909493"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54284624"
 ---
 # <a name="find-power-bi-users-that-have-signed-in"></a>查找已登录的 Power BI 用户
 
@@ -32,7 +32,7 @@ ms.locfileid: "50909493"
 
 * 租户必须有关联的 Azure AD Premium 许可证。
 
-* 必须是以下角色之一：全局管理员、安全管理员或安全读者。
+* 必须属于以下角色之一：全局管理员、安全管理员或安全读者。
 
 ## <a name="use-the-azure-portal-to-view-sign-ins"></a>使用 Azure 门户查看登录活动
 

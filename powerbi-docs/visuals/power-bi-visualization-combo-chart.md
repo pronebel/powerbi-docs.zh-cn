@@ -6,17 +6,17 @@ manager: kvivek
 ms.reviewer: ''
 featuredvideoid: lnv66cTZ5ho
 ms.service: powerbi
-ms.component: powerbi-desktop
+ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 09/27/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 5d2a33b8dc50a4a30bb79406462f1342953528d9
-ms.sourcegitcommit: e17fc3816d6ae403414cf5357afbf6a492822ab8
+ms.openlocfilehash: 896c415028b99db8662e93b5d709b76520996fef
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/04/2018
-ms.locfileid: "52830369"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54275746"
 ---
 # <a name="combo-chart-in-power-bi"></a>Power BI 中的组合图
 在 Power BI 中，组合图是将折线图和柱形图合并在一起的单个可视化效果。 通过将两个图表合并为一个图表可以进行更快的数据比较。
@@ -57,7 +57,7 @@ Power BI 服务和 Power BI Desktop 均支持组合图。 本教程使用 Power 
     ![](media/power-bi-visualization-combo-chart/combotutorial1new.png)
 5. 在可视化效果的右上角选择省略号 (...)，然后选择“按会计月份排序”。 要更改排序顺序，请再次选择省略号并选择“升序排序”或“降序排序”。
 
-6. 将柱形图转换为组合图。 有两个组合图表：“折线和堆积柱形图”和“折线和簇状柱形图”。 在选择了柱形图的情况下，从“可视化效果”窗格中选择“折线和簇状柱形图”。
+6. 将柱形图转换为组合图。 提供了两个组合图表：“折线图和堆积柱形图”和“折线图和簇状柱形图”。 在选择了柱形图的情况下，从“可视化效果”窗格中选择“折线和簇状柱形图”。
 
     ![](media/power-bi-visualization-combo-chart/converttocombo_new2.png)
 7. 从**字段**窗格，将**销售额** \> **去年销售额**拖动到**行值**存储段。

@@ -6,16 +6,16 @@ manager: kvivek
 ms.reviewer: ''
 featuredvideoid: ''
 ms.service: powerbi
-ms.component: powerbi-service
+ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 11/06/2018
 ms.author: mihart
-ms.openlocfilehash: 0454d2ea0e69a77482d9ba9587497679819daf06
-ms.sourcegitcommit: b23fdcc0ceff5acd2e4d52b15b310068236cf8c7
+ms.openlocfilehash: 37e3e16a17e163d1acfeb43e1a1ede9fba1eca1e
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/07/2018
-ms.locfileid: "51266015"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54279357"
 ---
 # <a name="interacting-with-arcgis-maps-in-power-bi"></a>在 Power BI 中与 ArcGIS 地图交互
 本主题是从在 Power BI 服务、Power BI Desktop 或 Power BI 移动应用中使用 ArcGIS 地图的人员的角度进行编写。 创建者与你共享 ArcGIS 地图后，便可以通过多种方式与相应地图进行交互。  若要详细了解如何创建 ArcGIS 地图，请参阅 [ESRI ArcGIS 地图教程](../power-bi-visualization-arcgis.md)。
@@ -145,7 +145,7 @@ ArcGIS Maps for Power BI 由 Esri (www.esri.com) 提供。 使用 ArcGIS Maps fo
 否，Power BI 需要网络连接才能显示地图。
 
 ## <a name="next-steps"></a>后续步骤
-获取帮助：Esri 提供了有关适用于 Power BI 的 ArcGIS 地图功能集的[综合文档](https://go.microsoft.com/fwlink/?LinkID=828772)。
+获取帮助：Esri 针对 ArcGIS Maps for Power BI 的功能集提供[综合文档](https://go.microsoft.com/fwlink/?LinkID=828772)。
 
 可以在 [Power BI 社区中与**适用于 Power BI 的 ArcGIS 地图**相关的帖子](https://go.microsoft.com/fwlink/?LinkID=828771)中提问题和查找最新信息，报告问题并查找答案。
 

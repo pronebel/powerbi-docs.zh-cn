@@ -5,16 +5,16 @@ author: maggiesMSFT
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-report-server
+ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 09/19/2018
 ms.author: maggies
-ms.openlocfilehash: 18fb96573052455034f8c257811daed6cb15529e
-ms.sourcegitcommit: a739a99e1006834a0f56e387c0bd9d945fb8a76b
+ms.openlocfilehash: dd3da287d976b9fe84ab56b425a5f08fba31d224
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/15/2018
-ms.locfileid: "51679217"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54288350"
 ---
 # <a name="create-a-power-bi-report-for-power-bi-report-server"></a>为 Power BI 报表服务器创建 Power BI 报表
 可以在 Power BI 报表服务器 Web 门户中在本地存储和管理 Power BI 报表，就像在 Power BI 服务 (https://powerbi.com)) 中的云中存储 Power BI 报表一样。 可以在 Power BI Desktop 中创建和编辑报表，并将其发布到 Web 门户中。 接下来，组织中的报表读取器可以在浏览器或移动设备上的 Power BI 移动应用中查看报表。
@@ -23,7 +23,7 @@ ms.locfileid: "51679217"
 
 可以遵循以下四个步骤入门。
 
-## <a name="step-1-install-power-bi-desktop-optimized-for-power-bi-report-server"></a>步骤 1：安装已针对 Power BI 报表服务器进行优化的 Power BI Desktop
+## <a name="step-1-install-power-bi-desktop-optimized-for-power-bi-report-server"></a>步骤 1：安装更适合 Power BI 报表服务器的 Power BI Desktop
 
 如果已在 Power BI Desktop 中创建 Power BI 报表，便可以开始为 Power BI 报表服务器创建 Power BI 报表。 建议安装更适合 Power BI 报表服务器的 Power BI Desktop 版本，这样就能确定服务器和应用始终同步。可以在同一台计算机上安装两个版本的 Power BI Desktop。
 
@@ -53,7 +53,7 @@ ms.locfileid: "51679217"
    
     ![Power BI Desktop 开始屏幕](media/quickstart-create-powerbi-report/report-server-powerbi-desktop-start.png)
 
-## <a name="step-2-select-a-data-source"></a>第 2 步：选择数据源
+## <a name="step-2-select-a-data-source"></a>步骤 2：选择数据源
 可以连接到各种数据源。 详细了解如何[连接数据源](connect-data-sources.md)。
 
 1. 在欢迎屏幕上，选择“获取数据”。
@@ -69,7 +69,7 @@ ms.locfileid: "51679217"
    
     ![报表服务器选择](media/quickstart-create-powerbi-report/report-server-select-server.png)
 
-## <a name="step-3-design-your-report"></a>第 3 步：设计报表
+## <a name="step-3-design-your-report"></a>步骤 3：设计报表
 有意思的是，可以创建视觉对象来显示数据。
 
 例如，可以创建按年收入显示客户和组值的漏斗图。
@@ -82,7 +82,7 @@ ms.locfileid: "51679217"
 
 请阅读有关[设计 Power BI 报表](../desktop-report-view.md)的详细信息。
 
-## <a name="step-4-save-your-report-to-the-report-server"></a>第 4 步：将报表保存到报表服务器
+## <a name="step-4-save-your-report-to-the-report-server"></a>步骤 4：将报表保存到报表服务器
 创建并设计完报表后，可以将其保存到步骤 2 中所选的 Power BI 报表服务器。
 
 1. 在“文件”菜单上，依次选择“另存为” > “Power BI 报表服务器”。

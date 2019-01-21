@@ -5,17 +5,17 @@ author: davidiseminger
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-service
+ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 11/28/2018
 ms.author: davidi
 LocalizationGroup: Troubleshooting
-ms.openlocfilehash: f8ceeddea7a8a9b7a63043cc7e91269da570790b
-ms.sourcegitcommit: 2ae660a7b70fce23eb58b159d049eca44a664f2c
+ms.openlocfilehash: a07f266ccdc0b02cd6a18f84b48b5e2b3564b642
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/30/2018
-ms.locfileid: "52670967"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54278985"
 ---
 # <a name="troubleshooting-sign-in-for-power-bi-desktop"></a>Power BI Desktop 登录问题疑难解答
 在尝试登录 **Power BI Desktop** 时，可能有时会遇到错误。 登录时遇到问题的两个主要原因有：代理身份验证错误和非 HTTPS URL 重定向错误。 
@@ -34,7 +34,7 @@ ms.locfileid: "52670967"
 Power BI Desktop 跟踪文件中的以下异常与此错误相关联：
 
 * Microsoft.PowerBI.Client.Windows.Services.PowerBIWebException
-* HttpStatusCode: ProxyAuthenticationRequired
+* *HttpStatusCode：ProxyAuthenticationRequired*
 
 出现此错误时，最可能的原因是网络上的代理身份验证服务器阻止 Power BI Desktop 发出 Web 请求。 
 

@@ -5,17 +5,17 @@ author: davidiseminger
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-service
+ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 01/03/2019
+ms.date: 01/10/2019
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: d9cd9c812aa2fdd1d336dbd63ea280516a96e4d9
-ms.sourcegitcommit: c09241803664643e1b2ba0c150e525e1262ca466
+ms.openlocfilehash: 83961f3ad469a4a7a76ceb6e1e4dba846a6edb04
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/08/2019
-ms.locfileid: "54072212"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54287615"
 ---
 # <a name="self-service-data-prep-in-power-bi-preview"></a>Power BI 中的自助服务数据准备（预览）
 
@@ -92,7 +92,7 @@ Power BI 还可以使用通用数据模型格式的系统化数据连接到文�
 |数据流链接实体| |        +|
 |标准化架构/通用数据模型的内置支持|  +|  +|
 
-有关如何在高级容量上启用数据流工作负载的详细信息，请参阅 Power BI Premium 的[配置工作负载](service-admin-premium-manage.md#configure-workloads)一文。
+有关如何在高级容量上启用数据流工作负载的详细信息，请参阅 Power BI Premium 的[配置工作负载](service-admin-premium-manage.md#configure-workloads)一文。 数据流工作负载当前在多地理位置容量中不可用。
 
 ## <a name="summary-of-self-service-data-prep-for-big-data-in-power-bi"></a>Power BI 中大数据的自助服务数据准备摘要
 如本文前面所述，有多种方案和示例，其中数据流可以使用户从业务数据中获得更好的控制和更快的见解。 使用通用数据模型定义的标准数据模型（架构），数据流可以导入有价值的业务数据，并且可以在很短的时间内准备好数据以进行建模和创建 BI 见解，而过去这需要几个月的时间，甚至更长的时间才能创建。 

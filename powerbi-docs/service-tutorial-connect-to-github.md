@@ -5,21 +5,21 @@ author: maggiesMSFT
 manager: kfile
 ms.reviewer: SarinaJoan
 ms.service: powerbi
-ms.component: powerbi-service
+ms.subservice: powerbi-service
 ms.custom: connect-to-services
 ms.topic: tutorial
 ms.date: 05/17/2018
 ms.author: maggies
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 88be0aa477b5e4b2df4f53c42dfb6fde3dda0184
-ms.sourcegitcommit: b03912343a5a214c6bb972aaa6aa051c2a5f4332
+ms.openlocfilehash: bad76adc42fc9f70c1439c6da0cfe2d149bbbe43
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/05/2018
-ms.locfileid: "52900488"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54295589"
 ---
 # <a name="tutorial-connect-to-a-github-sample-with-power-bi"></a>教程：使用 Power BI 连接到 GitHub 示例
-在本教程中，使用 Power BI 连接到 GitHub 服务中的真实数据，Power BI 即会自动创建仪表板和报表。 连接到 Power BI 内容公共存储库（也称为存储库），同时查看以下信息：有多少人参与编辑 Power BI 公共内容？ 谁贡献最多？ 一周中哪天的贡献最大？ 同时回答其他问题。 
+在本教程中，使用 Power BI 连接到 GitHub 服务中的真实数据，Power BI 即会自动创建仪表板和报表。 连接到 Power BI 内容公共存储库（也称为“存储库”），同时查看以下信息：有多少人参与编辑 Power BI 公共内容？ 谁贡献最多？ 一周中哪天的贡献最大？ 同时回答其他问题。 
 
 ![Power BI 中的 GitHub 报表](media/service-tutorial-connect-to-github/power-bi-github-app-tutorial-punch-card.png)
 

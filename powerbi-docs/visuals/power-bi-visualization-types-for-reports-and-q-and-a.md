@@ -5,17 +5,17 @@ author: mihart
 manager: kvivek
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-service
+ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 12/03/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: ebec34690001293e93dafd69dd76f7bdbf54981c
-ms.sourcegitcommit: b03912343a5a214c6bb972aaa6aa051c2a5f4332
+ms.openlocfilehash: dc756e98a58d30edd476112ca249dae032d0d79a
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/05/2018
-ms.locfileid: "52900511"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54296791"
 ---
 # <a name="visualization-types-in-power-bi"></a>Power BI 中的可视化效果类型
 ## <a name="power-bi-visualizations"></a>Power BI 可视化效果
@@ -45,7 +45,7 @@ ms.locfileid: "52900511"
 ### <a name="cards-multi-row"></a>卡片：多行
 ![](media/power-bi-visualization-types-for-reports-and-q-and-a/multi-row-card.png)
 
-### <a name="cards-single-number"></a>卡片：一个数字
+### <a name="cards-single-number"></a>卡片：单个数字
 ![](media/power-bi-visualization-types-for-reports-and-q-and-a/pbi_nancy_viz_card.png)
 
 有关详细信息，请参阅[创建卡片（大数字磁贴）](power-bi-visualization-card.md)。
@@ -109,7 +109,7 @@ ms.locfileid: "52900511"
 
 有关详细信息，请参阅 [Power BI 中的 ArcGIS 地图](../power-bi-visualization-arcgis.md)。
 
-### <a name="maps-filled-maps-choropleth"></a>地图：着色地图（地区分布图）
+### <a name="maps-filled-maps-choropleth"></a>地图：着色地图（等值线图）
 ![](media/power-bi-visualization-types-for-reports-and-q-and-a/pbi_nancy_viz_filledmap.png)
 
 >[!TIP]
@@ -117,7 +117,7 @@ ms.locfileid: "52900511"
 
 有关详细信息，请参阅 [Power BI 中的着色地图](power-bi-visualization-filled-maps-choropleths.md)。
 
-### <a name="maps-shape-maps"></a>地图：形状图
+### <a name="maps-shape-maps"></a>地图：形状地图
 ![](media/power-bi-visualization-types-for-reports-and-q-and-a/power-bi-shape-map2.png)
 
 >[!TIP]
@@ -160,7 +160,7 @@ ms.locfileid: "52900511"
 
 有关详细信息，请参阅 [Add an image widget to a dashboard（将图像小组件添加到仪表板）](../service-dashboard-add-widget.md)。
 
-### <a name="tables"></a>表格
+### <a name="tables"></a>表
 ![](media/power-bi-visualization-types-for-reports-and-q-and-a/tabletype.png)
 
 >[!TIP]

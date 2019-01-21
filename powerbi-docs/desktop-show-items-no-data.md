@@ -5,17 +5,17 @@ author: davidiseminger
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-service
+ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 01/03/2019
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: f4c9fec65f9c006095470a8983f889d44f3ce460
-ms.sourcegitcommit: c09241803664643e1b2ba0c150e525e1262ca466
+ms.openlocfilehash: a687e42ef2963ce5e85bd1e0be72c2562afa5b6c
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/08/2019
-ms.locfileid: "54072879"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54279978"
 ---
 # <a name="show-items-with-no-data-in-power-bi"></a>显示 Power BI 中不含数据的项目
 
@@ -65,7 +65,7 @@ Power BI 允许你可视化来自各种源的各种数据。 创建视觉对象�
 
 **4.来自不同且不相关的表的组**
 
-示例模型没有此组合，但如果存在来自不同且不相关的表的组，Power BI 将无法关联两个列，结果将是每个列的所有值的叉积。 在这种情况下，Power BI 会引发“无约束联接”类型的错误，因为此类叉积在数据库中计算的成本很高，并且不会向用户提供非常多的信息。 
+示例模型没有此组合，但如果存在来自不同且不相关的表的组，Power BI 将无法关联两个列。 结果将是每个列的所有值的叉积。 在这种情况下，Power BI 会引发“无约束联接”类型的错误，因为此类叉积在数据库中计算的成本很高，并且不会向用户提供非常多的信息。 
 
 ![无约束联接所显示的错误](media/desktop-show-items-no-data/show-items-no-data_01.png)
 
@@ -76,7 +76,7 @@ Power BI 允许你可视化来自各种源的各种数据。 创建视觉对象�
 
 通过“显示不含数据的项目”功能，就可以完全实现上述目的 - 包括不含度量值数据（空度量值）的数据行和列。
 
-若要启用“显示不含数据的项目”功能，请选择一个视觉对象，然后在“字段”中，右键单击该字段并从显示的菜单中选择“显示不含数据的项目”，如下图所示。
+若要启用“显示不含数据的项目”功能，请选择一个视觉对象，然后在“字段”中，右键单击该字段并从显示的菜单中选择“显示不含数据的项目”，如下图所示：
 
 ![如何启用“显示不含数据的项目”功能](media/desktop-show-items-no-data/show-items-no-data_02.png)
 
@@ -193,6 +193,6 @@ Power BI 允许你可视化来自各种源的各种数据。 创建视觉对象�
 
 ## <a name="next-steps"></a>后续步骤
 
-本文介绍了如何在 Power BI 中启用“显示不含数据的项目”功能。 你可能还会对以下文章感兴趣。 
+本文介绍了如何在 Power BI 中启用“显示不含数据的项目”功能。 你可能还会对以下文章感兴趣： 
 
-* [Power BI Desktop 中的数据源](desktop-data-sources.md)
+* [Power BI 中多维模型的默认成员](desktop-default-member-multidimensional-models.md)

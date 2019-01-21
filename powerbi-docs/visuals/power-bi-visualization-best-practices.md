@@ -5,17 +5,17 @@ author: mihart
 manager: kvivek
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-desktop
+ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 06/22/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 77802d2db59ddff94123991e209441b4c491f98b
-ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
+ms.openlocfilehash: e426d781f7a2e663687f443c423e1fc326624289
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/21/2018
-ms.locfileid: "46548594"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54296704"
 ---
 # <a name="best-design-practices-for-reports-and-visuals"></a>设计报表和视觉对象的最佳做法
 <!-- Shared newnav Include -->
@@ -65,7 +65,7 @@ ms.locfileid: "46548594"
 
 ![](media/power-bi-visualization-best-practices/power-bi-example1newa.png)
 
-图 1：此报表页面非常难看，有许多需要改进的地方
+**图 1：  此报表页面非常难看，有许多需要改进的地方**
 
 上述示例存在许多与空间相关的（布局）设计问题，具体如下：
 
@@ -95,21 +95,21 @@ ms.locfileid: "46548594"
 
 ![](media/power-bi-visualization-best-practices/power-bi-example2new.png)
 
-图 2：改进并修改了难看的示例报表的布局
+**图 2：  改进并修改了难看的示例报表的布局**
 
-Power BI 提供帮助你对齐视觉对象的工具。 在 Power BI Desktop 中，如果选择多个视觉对象，可以使用“视觉对象”功能区选项卡上的“对齐和分布”选项来对齐视觉对象。
+Power BI 提供帮助你对齐视觉对象的工具。 在 Power BI Desktop 中，如果选择多个视觉对象，可以使用“**视觉对象**”功能区选项卡上的“**对齐和分布**”选项来对齐视觉对象。
 
 ![](media/power-bi-visualization-best-practices/power-bi-visualization.png)
 
-图 3：在 Power BI Desktop 中对齐视觉对象
+**图 3：  在 Power BI Desktop 中对齐视觉对象**
 
-在联机 Power BI 和 Power BI Desktop 中，还可以使用格式窗格上的“常规”选项卡精确控制所有视觉对象的大小和位置：
+在联机 Power BI 和 Power BI Desktop 中，还可以使用格式窗格上的“**常规**”选项卡精确控制所有视觉对象的大小和位置：
 
 ![](media/power-bi-visualization-best-practices/power-bi-align-vizs.png)
 
-图 4：设置视觉对象的确切位置
+**图 4：  设置视觉对象的确切位置**
 
-在我们的示例报表页面（图 2）中，2 张卡片和一个大边框的“X 位置”设置为 200。
+在我们的示例报表页面（图 2）中，2 张卡片和一个大边框的“**X 位置**”设置为 200。
 
 #### <a name="fit-to-the-space"></a>填满整个空间
 请充分利用现有空间。  如果已确定报表的查看/显示方式，请在设计时注意这一点。 减少空白区域，填满整个画布。  尽量不要对各个视觉对象使用滚动条。  在填满整个空间的同时，确保视觉对象看起来没有狭促感。
@@ -121,19 +121,19 @@ Power BI 提供帮助你对齐视觉对象的工具。 在 Power BI Desktop 中�
 
 ![](media/power-bi-visualization-best-practices/power-bi-page-view-before.png)
 
-图 5a：采用 4:3 页面宽高比的报表
+**图 5a：  采用 4:3 页面宽高比的报表**
 
 ![](media/power-bi-visualization-best-practices/power-bi-page-view-after.png)
 
-图 5b：采用 16:9 页面宽高比的报表
+**图 5b：  采用 16:9 页面宽高比的报表**
 
 你的报表是采用 4:3、16:9，还是其他宽高比？ 小屏幕还是大屏幕？ 还是要适应所有可能的屏幕宽高比和尺寸？  请在设计时注意这一点。
 
-我们的示例报表页面看起来有点狭促。 在未选择任何视觉对象的情况下，选择滚动油漆刷图标，打开格式窗格。 展开“页面尺寸”，然后将“高度”更改为 900。
+我们的示例报表页面看起来有点狭促。 在未选择任何视觉对象的情况下，选择滚动油漆刷图标，打开格式窗格。 展开“**页面尺寸**”，然后将“**高度**”更改为 900。
 
 ![](media/power-bi-visualization-best-practices/power-bi-page-size.png)
 
-图 6：增加页面高度
+**图 6：  增加页面高度**
 
 #### <a name="reduce-clutter"></a>整齐有序
 杂乱无章的报表页面很难一眼就理解，甚至可能会令读者感到不知所措，干脆不看。  请删除所有不必要的报表元素。 不要添加对信息理解或浏览没有促进作用的附加项。 报表页面必须尽可能明确、快速、一致地传达信息。
@@ -146,7 +146,7 @@ Edward Tufte 在他的《定量信息的视觉显示》一书中将这称为“�
 
 ![](media/power-bi-visualization-best-practices/power-bi-example3newer.png)
 
-图 7：难看的示例报表变得整齐有序
+**图 7：  难看的示例报表变得整齐有序**
 
 ### <a name="tell-a-story-at-a-glance"></a>信息传达一目了然
 总体测试应为，在事先完全不知道的情况下，无需其他人说明解释即可快速理解报表。 读者应能够在快速概览后迅速获取页面以及每个图表/表所要传达的信息。   
@@ -156,17 +156,17 @@ Edward Tufte 在他的《定量信息的视觉显示》一书中将这称为“�
 #### <a name="text-boxes"></a>文本框
 有时，可视化效果的标题不足以传达信息。  请添加文本框，向报表读者传达信息。  文本框可以描述报表页面、一组视觉对象或单个视觉对象。 可用于阐述结果或更好地定义视觉对象、视觉对象中的组件或视觉对象之间的关系。 文本框可用于根据文本框中突出显示的不同条件来吸引读者注意力。
 
-在 Power BI 服务中，选择顶部菜单栏中的“文本框”。 （在 Power BI Desktop 中，选择“插入”功能区中的“文本框”。）
+在 Power BI 服务中，选择顶部菜单栏中的“文本框”。 （在 Power BI Desktop 中，选择“**插入**”功能区中的“**文本框**”。）
 
 ![](media/power-bi-visualization-best-practices/power-bi-text-boxes.png)
 
-图 8：添加文本框
+**图 8：  添加文本框**
 
 在空框中键入内容，然后使用底部控件设置字体、字号、对齐方式等。 使用图柄可调整文本框的大小。
 
 ![](media/power-bi-visualization-best-practices/power-bi-text-box-edit.png)
 
-图 9：设置文本框格式
+**图 9：  设置文本框格式**
 
 不过，也不要矫枉过正！ 如果报表上有太多的文本，会分散读者对视觉对象的注意力。 当你发现报表页面需要大量文本才能被读者理解时，请重新开始。  能否选取其他视觉对象来更好地传达信息？ 能否调整视觉对象的原生标题，使其更易于理解？   
 
@@ -174,21 +174,21 @@ Edward Tufte 在他的《定量信息的视觉显示》一书中将这称为“�
 请创建文字样式指南，应用于所有报表页面。 只选取少量字体、字号和颜色。  此样式指南不仅可应用于文本元素，还可用于为可视化效果的标题和标签选择字体（见下文中的“可视化效果的标题和标签”）。 请设置规则，规定何时使用粗体、斜体、特定颜色、增大字号等。  尽量避免全部字母大写或使用下划线。
 
 #### <a name="shapes"></a>形状
-形状也有助于信息浏览和理解。 使用形状可以将相关信息归到一起、突出显示重要数据，还可以使用箭头引导读者视线。 形状有助于读者了解从何处开始查看以及如何理解报表。 在设计术语中，这通常称为 对比。
+形状也有助于信息浏览和理解。 使用形状可以将相关信息归到一起、突出显示重要数据，还可以使用箭头引导读者视线。 形状有助于读者了解从何处开始查看以及如何理解报表。 在设计术语中，这通常称为*对比*。
 
 ![](media/power-bi-visualization-best-practices/shapes.png)
 
-图 10a：Power BI 服务中的“形状”
+**图 10a：  Power BI 服务中的“形状”**
 
 ![](media/power-bi-visualization-best-practices/power-bi-desktop-shapes2new.png)
 
-图 10b：Power BI Desktop 中的“形状”
+**图 10b：  Power BI Desktop 中的“形状”**
 
 我们的示例页面现在看上去怎么样？  图 11 展示的页面更加清晰明确、整齐有序，其中字体、字号和颜色的使用一致。  左上角的页面标题对页面进行了介绍。
 
 ![](media/power-bi-visualization-best-practices/power-bi-example4new.png)
 
-图 11：应用了文本指南并添加了标题的示例报表
+**图 11：  应用了文本指南并添加了标题的示例报表**
 
 在示例报表中，报表页面标题添加在左上角，即读者首先注意到的位置。 标题的字号为 28，字体为 Segoe Bold，有助于与页面的其余内容区分开来。  我们的文本样式指南要求无背景、黑色标题、图例和标签，应用于页面上的所有可编辑视觉对象（组合图坐标轴和标签不可编辑）。  此外：
 
@@ -205,7 +205,7 @@ Edward Tufte 在他的《定量信息的视觉显示》一书中将这称为“�
 
 ![](media/power-bi-visualization-best-practices/power-bi-page-background.png)
 
-图 12：设置报表背景
+**图 12：设置报表背景**
 
 你不是要创作艺术作品，而是要生成功能报表。 请选择可提高可读性并突出报表元素的颜色。  
 
@@ -221,7 +221,7 @@ Edward Tufte 在他的《定量信息的视觉显示》一书中将这称为“�
 
 ![](media/power-bi-visualization-best-practices/power-bi-text-box-title.png)
 
-图 13：添加页面标题
+**图 13：添加页面标题**
 
 卡片
 
@@ -233,25 +233,25 @@ Edward Tufte 在他的《定量信息的视觉显示》一书中将这称为“�
 
 ![](media/power-bi-visualization-best-practices/power-bi-slicer-background.png)
 
-图 14：更改切片器背景色
+**图 14：更改切片器背景色**
 
 添加细白框。
 
 ![](media/power-bi-visualization-best-practices/power-bi-slicer-outline.png)
 
-图 15：为切片器添加边框
+**图 15：为切片器添加边框**
 
 由于在水绿色背景上灰色字体显示不清，因此，请将“项”颜色更改为白色。
 
 ![](media/power-bi-visualization-best-practices/power-bi-slicer-items.png)
 
-图 16：更改切片器字体颜色
+**图 16：更改切片器字体颜色**
 
 最后，在“标题”下方，将“字体颜色”更改为白色，并添加黑色作为“背景色”。
 
 ![](media/power-bi-visualization-best-practices/power-bi-card-formatting.png)
 
-图 17：设置切片器标题格式
+**图 17：设置切片器标题格式**
 
 矩形
 
@@ -259,7 +259,7 @@ Edward Tufte 在他的《定量信息的视觉显示》一书中将这称为“�
 
 ![](media/power-bi-visualization-best-practices/power-bi-shape-format.png)
 
-图 18：设置形状格式
+**图 18：设置形状格式**
 
 柱形图、气泡图、着色地图和树状图
 
@@ -267,15 +267,15 @@ Edward Tufte 在他的《定量信息的视觉显示》一书中将这称为“�
 
 ![](media/power-bi-visualization-best-practices/power-bi-background.png)
 
-图 19：为其余可视化效果添加白色背景
+**图 19：为其余可视化效果添加白色背景**
 
 ![](media/power-bi-visualization-best-practices/power-bi-example5a.png)
 
-图 20：应用了颜色最佳做法（黑色背景）的示例报表
+**图 20：应用了颜色最佳做法（黑色背景）的示例报表**
 
 ![](media/power-bi-visualization-best-practices/power-bi-example5b.png)
 
-图 21：应用了颜色最佳做法（白色背景）的示例报表
+**图 21：  应用了颜色最佳做法（白色背景）的示例报表**
  
 
 ### <a name="aesthetics"></a>美观
@@ -319,13 +319,13 @@ TDI 博主和 TechTarget 行业分析师 Wayne Eckerson 打了一个非常形象
 
 ![](media/power-bi-visualization-best-practices/corp-success-distorted.png)
 
-图 22：歪曲事实的图表
+**图 22：  歪曲事实的图表**
 
 在此示例中，好像 4 家公司之间的差距巨大，而且公司 B 的业绩要远远高于其他 3 家公司。  但请注意，X 轴并不是从 0 开始，所以各家公司之间的差距很可能就在误差范围之内。  下面是数据相同但 X 轴从零开始的图表。
 
 ![](media/power-bi-visualization-best-practices/corp-success.png)
 
-图 23：反映事实的图表
+**图 23：  反映事实的图表**
 
 读者往往认为 X 轴是从零开始的。 如果你决定不从零开始，请不要歪曲事实，考虑添加视觉提示或文本框，提醒读者注意这一非常规做法。  
 
@@ -347,11 +347,11 @@ TDI 博主和 TechTarget 行业分析师 Wayne Eckerson 打了一个非常形象
 
 ![](media/power-bi-visualization-best-practices/power-bi-multiples-before.png)
 
-图 24：改进前
+**图 24：  改进前**
 
 ![](media/power-bi-visualization-best-practices/power-bi-multiples-after.png)
 
-图 25：改进后
+**图 25：  改进后**
 
 启用和禁用坐标轴标题的具体操作
 
@@ -359,7 +359,7 @@ TDI 博主和 TechTarget 行业分析师 Wayne Eckerson 打了一个非常形象
 
 ![](media/power-bi-visualization-best-practices/power-bi-axis-titles.png)
 
-图 26：启用和禁用坐标轴标题
+**图 26：  启用和禁用坐标轴标题**
 
 启用和禁用坐标轴标签的具体操作
 
@@ -367,7 +367,7 @@ TDI 博主和 TechTarget 行业分析师 Wayne Eckerson 打了一个非常形象
 
 ![](media/power-bi-visualization-best-practices/power-bi-axis-labels.png)
 
-图 27：启用和禁用坐标轴标签
+**图 27：启用和禁用坐标轴标签**
 
 > [!TIP]
 > 如果启用了“数据标签”，可能需要禁用 Y 轴标签。
@@ -380,7 +380,7 @@ TDI 博主和 TechTarget 行业分析师 Wayne Eckerson 打了一个非常形象
 
 ![](media/power-bi-visualization-best-practices/power-bi-title-off.png)
 
-图 28：从视觉对象中删除标题
+**图 28：  从视觉对象中删除标题**
 
 请考虑读者是如何查看报表的，并确保视觉对象和文本的大小和颜色深浅足以方便读者阅读。 如果页面上有一个比例较大的视觉对象，读者可能会认为它是最重要的。 请在视觉对象之间留有足够的空白区域，让报表看起来整齐有序、易于理解。  对齐视觉对象有助于引导读者视线。
 
@@ -390,7 +390,7 @@ TDI 博主和 TechTarget 行业分析师 Wayne Eckerson 打了一个非常形象
 
 ![](media/power-bi-visualization-best-practices/power-bi-drag-handles.png)
 
-图 29：调整视觉对象大小
+**图 29：调整视觉对象大小**
 
 移动视觉对象的具体操作
 
@@ -398,7 +398,7 @@ TDI 博主和 TechTarget 行业分析师 Wayne Eckerson 打了一个非常形象
 
 ![](media/power-bi-visualization-best-practices/power-bi-move.png)
 
-图 30：移动视觉对象
+**图 30：移动视觉对象**
 
 #### <a name="titles-and-labels-that-are-part-of-the-visualizations"></a>可视化效果的标题和标签
 请确保标题和标签清晰可辨、直观明了。 标题和标签中的文本必须采用最适合的字号，以及可突出显示的颜色（如黑色，而不是默认的灰色）。 还记得我们的样式指南（见上文中的“文本”）吗？ 请限制颜色和字号的数量。太多不同的字号和颜色会让页面看起来有狭促感，且令人困惑。  请考虑对报表页面上所有视觉对象的标题使用相同的字体颜色和字号，并对报表页面上的所有标题使用相同的对齐方式。  
@@ -409,13 +409,13 @@ TDI 博主和 TechTarget 行业分析师 Wayne Eckerson 打了一个非常形象
 
 ![](media/power-bi-visualization-best-practices/power-bi-paintbrush.png)
 
-图 31：打开格式窗格
+**图 31：打开格式窗格**
 
-然后，选择要调整的视觉对象元素，并确保将其设置为“开”。 可视对象元素示例包括“X 轴”、“Y 轴”、“标题”、“数据标签”和“图例”。 以下示例展示了“标题”元素。
+然后，选择要调整的视觉对象元素，并确保将其设置为“开”。 视觉对象元素示例包括：X 轴、Y 轴、标题、数据标签和图例。 以下示例展示了“标题”元素。
 
 ![](media/power-bi-visualization-best-practices/power-bi-title-formatting.png)
 
-图 32：设置视觉对象的标题格式
+**图 32：设置视觉对象的标题格式**
 
 设置字号
 
@@ -443,7 +443,7 @@ TDI 博主和 TechTarget 行业分析师 Wayne Eckerson 打了一个非常形象
 
 ![](media/power-bi-visualization-best-practices/power-bi-text-box-edit.png)
 
-图 33：设置文本框中的字体格式
+**图 33：设置文本框中的字体格式**
 
 #### <a name="sorting"></a>排序
 若要更快速地提供见解，真正简单的方式是设置视觉对象排序。 例如，按升序或降序对条形图中的值进行排序，可快速显示重要的增量信息，而无需占用更多实际空间。
@@ -455,7 +455,7 @@ Power BI 最具吸引力的功能之一就是，能够修改图表的相互交�
 
 ![](media/power-bi-visualization-best-practices/power-bi-visual-interactions.png)
 
-图 34：视觉对象交互
+**图 34：视觉对象交互**
 
 然后，对于页面上的每个视觉对象，确定要让选定视觉对象进行筛选、突出显示，还是不执行任何操作。 并非所有视觉对象都可以突出显示。对于无法突出显示的视觉对象，突出显示控件将不可用。 有关详细信息，请参阅 [Power BI 中的视觉对象交互](../consumer/end-user-interactions.md)。
 
@@ -485,13 +485,13 @@ Power BI 最具吸引力的功能之一就是，能够修改图表的相互交�
 
 ![](media/power-bi-visualization-best-practices/power-bi-data-color.png)
 
-图 35：使用颜色传达信息
+**图 35：  使用颜色传达信息**
 
 可以在格式窗格的“数据颜色”选项卡中更改数据点颜色。 若要单独自定义各个数据点，请务必将“全部显示”设置为“开”。
 
 ![](media/power-bi-visualization-best-practices/power-bi-colors.png)
 
-图 36：设置数据点颜色
+**图 36：设置数据点颜色**
 
 > [!NOTE]
 > Power BI 对报表视觉对象应用默认主题。  已选择的主题颜色可以确保多样性和对比度。 若不想使用默认主题调色板，请选择“自定义颜色”。
@@ -500,13 +500,13 @@ Power BI 最具吸引力的功能之一就是，能够修改图表的相互交�
 
 ![](media/power-bi-visualization-best-practices/power-bi-custom-color.png)
 
-图 37：选择自定义颜色
+**图 37：选择自定义颜色**
 
 在 Power BI Desktop 中，你甚至可以使用第二个序列突出显示离群值或一部分线条：
 
 ![](media/power-bi-visualization-best-practices/power-bi-outliers.png)
 
-图 38：使用 Desktop 绘制离群值
+**图 38：  使用 Desktop 绘制离群值**
 
 其中，只有当平均 8 月温度低于 60，“离群值”序列中才有值。 为此，请使用以下公式创建 DAX 计算列：
 
@@ -524,13 +524,13 @@ Power BI 最具吸引力的功能之一就是，能够修改图表的相互交�
 
 ![](media/power-bi-visualization-best-practices/power-bi-bubble-color.png)
 
-图 39：应用了默认颜色
+**图 39：应用了默认颜色**
 
 Power BI 默认使用的颜色可以很好地区分分类值，以便读者可以轻松区分。 有时，为了与企业架构匹配等原因，有人会更改这些颜色，但这样做可能会导致问题出现。
 
 ![](media/power-bi-visualization-best-practices/power-bi-bubble-color2.png)
 
-图 40：应用了一种颜色的不同色调
+**图 40：应用了一种颜色的不同色调**
 
 此视觉对象只使用颜色浓度不同的一种色调，这会让读者误以为分类之间存在排序关系。 它会暗示深色调气泡在某方面高于或低于浅色调气泡。 与按字母顺序排序不同，这种分类值通常没有固有的排序顺序。
 若要更改默认颜色，请打开格式窗格，然后选择“数据颜色”。
@@ -541,39 +541,39 @@ Power BI 默认使用的颜色可以很好地区分分类值，以便读者可�
 
 ![](media/power-bi-visualization-best-practices/power-bi-saturation.png)
 
-图 41：按值对数据点进行着色
+**图 41：按值对数据点进行着色**
 
 若要创建此图表，请在“颜色饱和度”字段中添加值，然后在格式窗格中调整这些颜色。
 
 ![](media/power-bi-visualization-best-practices/power-bi-saturation2.png)
 
-图 42：在“颜色饱和度”字段中添加值
+**图 42：在“颜色饱和度”字段中添加值**
 
 ![](media/power-bi-visualization-best-practices/power-bi-color-controls.png)
 
-图 43：调整对饱和度使用的颜色
+**图 43：调整对饱和度使用的颜色**
 
 此外，还可以使用颜色来强调与中间值的偏差。 例如，将正值设置为绿色，将负值设置为红色。 为正值或负值设置颜色时，请注意文化差异；并非在所有文化中，红色都表示“不好”，而绿色都表示“好”！
 
 ![](media/power-bi-visualization-best-practices/power-bi-color.png)
 
-图 44：强调与中间值偏差的着色
+**图 44：  强调与中间值偏差的着色**
  
 
 ### <a name="principles-of-visual-design--applied-to-example-report-page"></a>可视对象设计原则 - 应用于示例报表页面
 现在，让我们将上文所述的可视对象设计原则应用于我们的示例报表。
 
-改进前
+先于
 
 ![](media/power-bi-visualization-best-practices/power-bi-example5a.png)
 
-图 45：示例报表（改进前）
+**图 45：  示例报表（改进前）**
 
-改进后
+晚于
 
 ![](media/power-bi-visualization-best-practices/power-bi-example6anew.png)
 
-图 46：示例报表（改进后）
+**图 46：示例报表（改进后）**
 
 #### <a name="what-did-we-do"></a>我们做了哪些改进？
 1. 切片器：通过添加页面级别筛选器，并且只选择了金牌、银牌、铜牌，从切片器中删除了“空白”选项。 对于“单选”和“全选”，将“选择控件”更改为“关”。
@@ -595,7 +595,7 @@ Power BI 在本地提供许多视觉对象类型。  可以添加 Microsoft 和 
 
 ![](media/power-bi-visualization-best-practices/power-bi-line-chart.png)
 
-图 47：折线图
+**图 47：  折线图**
 
 #### <a name="best-practices"></a>最佳做法
 * 查看折线图时，读者首先会注意到曲线形状。  也就是说，你需要设置让曲线有意义的 X 轴，如时间或分布类别。  如果在 X 轴上设置产品或地理位置等分类字段，折线图就不引人入胜，因为曲线形状未提供任何有意义的信息。
@@ -604,7 +604,7 @@ Power BI 在本地提供许多视觉对象类型。  可以添加 Microsoft 和 
   
   ![](media/power-bi-visualization-best-practices/power-bi-start-end.png)
   
-  图 48：设置起点和终点
+  **图 48：设置起点和终点**
 * 明确设置起点和终点的另一个原因是，需要通过相同的 Y 轴字段比较同一页面上的两个或多个图表。  例如，如果显示的是累积比赛计数，英国的计数范围介于 1 到 70，而澳大利亚的计数范围介于 1 到 12，那么这两个折线图将显示截然不同的 Y 轴（图 x）。 这样一来，就很难一目了然地进行比较。 请将图表设置为改用相同的 Y 轴范围（图 x）。
   
   ![](media/power-bi-visualization-best-practices/power-bi-line-chart2.png)
@@ -628,14 +628,14 @@ Power BI 在本地提供许多视觉对象类型。  可以添加 Microsoft 和 
 
 ![](media/power-bi-visualization-best-practices/power-bi-horizontal-scroll.png)
 
-图 51：水平条形图
+**图 51：水平条形图**
 
 #### <a name="best-practices"></a>最佳做法
 * 请显示值的数据标签。  这样更易于标识特定值。 为此，请打开格式窗格，然后将“数据标签”设置为“开”。
   
   ![](media/power-bi-visualization-best-practices/power-bi-data-labels.png)
   
-  图 52：启用数据标签
+  **图 52：启用数据标签**
 * 上述条形图非常适用于在一个时间点比较一个度量值与多个度量值。  上述折线图展示了一段时间内的数据变化，而上述条形图则展示了一个类别在特定时间点的变化趋势。  在条形图中，我们一眼就会发现西班牙是世界上失业率最高的国家之一，其失业率高达 25%。
 * 如果所分配的空间不够显示整个条形图/柱形图，Power BI 会添加滚动条。 如果可以，尽量生成能够显示整个图表的视觉对象和报表，以便读者可以概览整个分布。  遗憾的是，鉴于全世界有太多的国家/地区，我们的示例还是需要使用滚动条。
   
@@ -644,7 +644,7 @@ Power BI 在本地提供许多视觉对象类型。  可以添加 Microsoft 和 
   
   ![](media/power-bi-visualization-best-practices/power-bi-drill.png)
   
-  图 53：向下钻取
+  **图 53：向下钻取**
 
 如需了解条形图和柱形图的更多详情，请参阅：
 
@@ -659,13 +659,13 @@ Power BI 在本地提供许多视觉对象类型。  可以添加 Microsoft 和 
 
 ![](media/power-bi-visualization-best-practices/power-bi-deloite.png)
 
-图 54：堆积柱形图
+**图 54：堆积柱形图**
 
 此堆积柱形图显示总收入随着时间的推移不断增长，而且商业和广播类别收入也随着时间的推移稳定增长，使得总收入不断增长。  不过，此图表难以比较 3 个类别的相互影响。 例如，商业收入增长相比广播或比赛日的收入增长如何？  最好使用折线图或将折线图用作伴随视觉对象来呈现此数据。  
 
 ![](media/power-bi-visualization-best-practices/power-bi-deloite2.png)
 
-图 55：转换成折线图
+**图 55：转换成折线图**
 
 在此折线图中，更容易看出商业收入增长的幅度最大，随后是广播和比赛日收入增长。
 
@@ -678,7 +678,7 @@ Power BI 在本地提供许多视觉对象类型。  可以添加 Microsoft 和 
   
   ![](media/power-bi-visualization-best-practices/power-bi-deloite3.png)
   
-  图 56：水平堆积图
+  **图 56：水平堆积图**
 
 有关堆积图的详细信息，请参阅：
 
@@ -688,7 +688,7 @@ Power BI 在本地提供许多视觉对象类型。  可以添加 Microsoft 和 
 ### <a name="combo-barcolumn-charts"></a>组合条形图/柱形图
 ![](media/power-bi-visualization-best-practices/power-bi-combo.png)
 
-在 Power BI 中，可以将柱形图和折线图合并到组合图中。 可以选择生成折线图和堆积柱形图，以及折线图和簇状柱形图。 将两个单独的视觉对象合并为一个，可以节省宝贵的画布空间。
+在 Power BI 中，可以将柱形图和折线图合并到组合图中。 选项包括：折线图和堆积柱形图，以及折线图和簇状柱形图。 将两个单独的视觉对象合并为一个，可以节省宝贵的画布空间。
 
 下面的两个屏幕截图展示了合并前后的情况。  第一个屏幕截图中有两个单独的视觉对象，分别是呈现一段时间内人口变化情况的柱形图，以及呈现一段时间内 GDP 变化情况的折线图。 这两个图表非常适合合并到组合图中，因为它们的 X 轴（年）和值（2002 年到 2012 年）均相同。  为什么不合并这两个图表呢？这样一来，就可以在一个视觉对象上比较这两大趋势了。  合并这两个图表后，可以更快速地比较数据。
 
@@ -696,11 +696,11 @@ Power BI 在本地提供许多视觉对象类型。  可以添加 Microsoft 和 
 
 ![](media/power-bi-visualization-best-practices/power-bi-spain-line.png)
 
- 图 57：两个单独的图表
+ **图 57：两个单独的图表**
 
 ![](media/power-bi-visualization-best-practices/power-bi-spain-combo.png)
 
- 图 58：一个组合图
+ **图 58：一个组合图**
 
 #### <a name="best-practices"></a>最佳做法
 当两个视觉对象至少有一个坐标轴相同时，组合图的效果最佳。
@@ -709,7 +709,7 @@ Power BI 在本地提供许多视觉对象类型。  可以添加 Microsoft 和 
 
    ![](media/power-bi-visualization-best-practices/power-bi-dual-line.png)
 
-   图 59：不成功的折线图
+   **图 59：不成功的折线图**
 
 同样，如果柱形图和折线图使用 2 个不同的度量值，而且你也没有创建双轴，那么组合图也将毫无意义。  例如，美元与百分比。 请务必添加双轴，这样有助于读者理解图表，同时还请考虑添加坐标轴标签。
 
@@ -717,11 +717,11 @@ Power BI 在本地提供许多视觉对象类型。  可以添加 Microsoft 和 
 
 ![](media/power-bi-visualization-best-practices/power-bi-show-secondary-new.png)
 
-图 60：显示次坐标轴
+**图 60：显示次坐标轴**
 
 ![](media/power-bi-visualization-best-practices/power-bi-combo-chart.png)
 
-图 61：改为创建组合图
+**图 61：改为创建组合图**
 
 * 请充分利用双轴。 它可用于比较值范围不同的多个度量值。 还可用于阐释一个视觉对象中两个度量值之间的关联。
 
@@ -741,7 +741,7 @@ Power BI 在本地提供许多视觉对象类型。  可以添加 Microsoft 和 
 
 ![](media/power-bi-visualization-best-practices/power-bi-bubble.png)
 
-图 62：显示南美 GDP 和人口的气泡图
+**图 62：显示南美 GDP 和人口的气泡图**
 
 如果添加播放轴，你就可以假装自己是 Hans Rosling，呈现数据在一段时间内的变化情况 (https://www.youtube.com/watch?v=PbaDBJWCeD4)。 若要添加播放轴，请将日期时间字段也拖到“播放轴”中。
 
@@ -766,13 +766,13 @@ Power BI 在本地提供许多视觉对象类型。  可以添加 Microsoft 和 
 
 ![](media/power-bi-visualization-best-practices/power-bi-treemap3.png)
 
-图 63：比较南美 GDP 的树状图
+**图 63：比较南美 GDP 的树状图**
 
 在此图表中，我们还添加了一个级别的数据，即地区。我们可以了解各地区在 GDP 总值中的占比，以及每个地区内的各国家/地区在 GDP 总值中的占比。 请务必使用非求和度量值（如平均值），因为汇总详细信息可能无法反映聚合一级的实际值。
 
 ![](media/power-bi-visualization-best-practices/power-bi-treemap2.png)
 
-图 64：按地区和国家显示 GDP 的树状图
+**图 64：按地区和国家显示 GDP 的树状图**
 
 有关树状图的详细信息，请单击以下链接。
 
@@ -809,7 +809,7 @@ KPI 占用的空间相同，但却显示了值、状态、目标、与目标的�
 现在，是时候验证这些最佳做法了。  请与我们保持联系，分享你自己的最佳做法。 不同意我们的建议，或有令人信服的理由来“违反规则”？  我们也很想听听你的这些想法。  
 
 ### <a name="book-recommendations"></a>书籍推荐
-现今有很多非常好的书籍可以帮助团队研究可视对象设计技术。 Stephen Few 的《信息仪表板设计》 一书是必读的。 他在其他两本书（《向我展示数据》和《现在你明白了》）中更深入地进行了探究。 Few 和其他作者均从 Edward R. Tufte 身上汲取灵感。Tufte 的《定量信息的视觉显示》被视为该领域的经典之作。 此外，Tufte 还编写了《视觉解释》、《构想信息》和《美丽的证据》。 Andy Kirk 的新书 数据可视化效果：数据驱动设计手册》也是不错的选择。 我们还推荐了其他一些作者，包括 Lachlan James、William McKnight、Boris Evelson (Forrester) 和 Darkhorse Analytics。
+现今有很多非常好的书籍可以帮助团队研究可视对象设计技术。 Stephen Few 的《信息仪表板设计》 一书是必读的。 他在其他两本书（《向我展示数据》和《现在你明白了》）中更深入地进行了探究。 Few 和其他作者均从 Edward R. Tufte 身上汲取灵感。Tufte 的《定量信息的视觉显示》被视为该领域的经典之作。 此外，Tufte 还编写了《视觉解释》、《构想信息》和《美丽的证据》。 Andy Kirk 的新书《数据可视化效果：*数据驱动设计手册》* 也是不错的选择。 我们还推荐了其他一些作者，包括：Lachlan James、William McKnight、Boris Evelson (Forrester) 和 Darkhorse Analytics。
 
 更多问题？ [尝试参与 Power BI 社区](http://community.powerbi.com/)
 

@@ -5,17 +5,17 @@ author: maggiesMSFT
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-service
+ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 09/28/2018
 ms.author: maggies
 LocalizationGroup: Reports
-ms.openlocfilehash: e364d2ceac3d1a30b0742ceac2bd56e2bc66d9ba
-ms.sourcegitcommit: d20f74d5300197a0930eeb7db586c6a90403aabc
+ms.openlocfilehash: ace392570dbabc65d128941fc735231622f2c008
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/03/2018
-ms.locfileid: "50973226"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54285314"
 ---
 # <a name="about-filters-and-highlighting-in-power-bi-reports"></a>关于 Power BI 报表中的筛选器和突出显示
  本文介绍如何在 Power BI 服务中进行筛选和突出显示。 这与 Power BI Desktop 中的体验几乎完全相同。 ***筛选器***可保留你最关切的数据，而将其他所有数据删除。 突出显示功能不筛选数据。 它不会删除数据，而是突出显示部分可见数据；未突出显示的数据虽然仍可见，但会变暗。

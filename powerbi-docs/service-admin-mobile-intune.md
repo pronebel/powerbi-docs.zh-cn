@@ -5,17 +5,17 @@ author: mgblythe
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-admin
+ms.subservice: powerbi-admin
 ms.topic: conceptual
 ms.date: 11/01/2018
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: 428ea77de2151f4ec3417f62819b3d6481c17ae2
-ms.sourcegitcommit: 0611860a896e636ceeb6e30ce85243bfd8e7b61d
+ms.openlocfilehash: 65c2de2d505866b3b00a88eaaa309d7c61a7625d
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/01/2018
-ms.locfileid: "50909677"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54296216"
 ---
 # <a name="configure-mobile-apps-with-microsoft-intune"></a>使用 Microsoft Intune 配置移动应用
 
@@ -30,7 +30,7 @@ Microsoft Intune 可以在 Office 365 中与移动设备管理 (MDM) 共存。 �
 > [!NOTE]
 > 当你配置 Intune 后，iOS 或 Android 设备上的 Power BI 移动应用便会禁用后台数据刷新。 Power BI 在你进入应用时刷新 Power BI 服务网页版中的数据。
 
-## <a name="step-1-get-the-url-for-the-application"></a>第 1 步：获取应用 URL
+## <a name="step-1-get-the-url-for-the-application"></a>步骤 1：获取应用程序的 URL
 
 必须先获取应用 URL，然后才能在 Intune 中创建应用。 对于 iOS，我们会从 iTunes 收到此 url。 对于 Android，可以从 Power BI 移动页面获取它。
 
@@ -96,7 +96,7 @@ Microsoft Intune 可以在 Office 365 中与移动设备管理 (MDM) 共存。 �
 
 1. 选择**上载**。
 
-1. 如果列表中没有列出此应用，请刷新页面：先转到“概述”，再返回到“应用”。
+1. 如果列表中没有列出此应用，请刷新页面：转到“概述”，然后返回到“应用”。
 
     ![“应用”选项卡](media/service-admin-mobile-intune/intune-add-software-ios2.png)
 
@@ -106,13 +106,13 @@ Microsoft Intune 可以在 Office 365 中与移动设备管理 (MDM) 共存。 �
 
 1. 输入从[第 1 步](#step-1-get-the-URL-for-the-application)中获取的应用 URL，再选择“下一步”。
 
-    ![软件安装：Android](media/service-admin-mobile-intune/intune-add-software-android1.png)
+    ![软件安装程序：Android](media/service-admin-mobile-intune/intune-add-software-android1.png)
 
 1. 提供**发布者**、**名称**和**说明**。 你可以根据需要提供**图标**。 **类别**用于公司门户应用。 完成之后，可选择**下一步**。
 
 1. 选择**上载**。
 
-1. 如果列表中没有列出此应用，请刷新页面：先转到“概述”，再返回到“应用”。
+1. 如果列表中没有列出此应用，请刷新页面：转到“概述”，然后返回到“应用”。
 
     ![“应用”选项卡](media/service-admin-mobile-intune/intune-add-software-android2.png)
 

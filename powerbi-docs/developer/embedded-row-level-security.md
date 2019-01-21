@@ -4,17 +4,17 @@ description: 了解在应用程序中嵌入 Power BI 内容所需的步骤。
 author: markingmyname
 ms.author: maghan
 manager: kfile
-ms.reviewer: ''
+ms.reviewer: nishalit
 ms.service: powerbi
-ms.component: powerbi-developer
+ms.subservice: powerbi-developer
 ms.topic: conceptual
-ms.date: 11/28/2018
-ms.openlocfilehash: 901c087c486598019e905598ee83382664842cc8
-ms.sourcegitcommit: 05303d3e0454f5627eccaa25721b2e0bad2cc781
+ms.date: 12/20/2018
+ms.openlocfilehash: 785461290493db59c534a58b548620b6d2f58cd7
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/28/2018
-ms.locfileid: "52578764"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54284164"
 ---
 # <a name="use-row-level-security-with-power-bi-embedded-content"></a>对 Power BI 已嵌入内容使用行级别安全性
 
@@ -48,7 +48,7 @@ RLS 在 Power BI Desktop 中进行编写。 当打开数据集和报表时，我
 下面介绍了此架构的几个注意事项：
 
 * 所有度量值（例如，总销售额）均存储在“销售”事实数据表中。
-* 有四个其他的相关维度表：“项目”、“时间”、“商店”和“地区”。
+* 另外还有四个相关维度表：“项目”、“时间”、“商店”和“地区”。
 * 关系行上的箭头指示筛选器从一个表流向另一个表的方式。 例如，如果筛选器位于“时间[日期]”上，在当前架构中，它将仅筛选出“销售”表中的值。 由于关系行上的所有箭头均指向“销售”表，不会改变，因此，其他表不会受此筛选器的影响。
 * “地区”表指示每个区的经理：
   
@@ -141,7 +141,7 @@ var tokenResponse = await client.Reports.GenerateTokenInGroupAsync("groupId", "r
 
 ### <a name="using-the-customdata-feature"></a>使用 CustomData 功能
 
-CustomData 功能仅适用于驻留在 Azure Analysis Services 中的模型，并且仅在“实时连接”模式下才起作用。 与用户和角色不同的是，无法在 .pbix 文件中设置 CustomData 功能。 必须有用户名，才能使用 CustomData 功能生成令牌。
+CustomData 功能仅适用于驻留在 Azure Analysis Services 中的模型，并且仅在“实时连接”模式下才起作用。 与用户和角色不同的是，CustomData 功能不能在 .pbix 文件中设置。 必须有用户名，才能使用 CustomData 功能生成令牌。
 
 借助 CustomData 功能，可以在应用程序中查看将 Azure Analysis Services 用作数据源的 Power BI 数据（在应用程序中查看已连接到 Azure Analysis Services 的 Power BI 数据）时添加行筛选器。
 
@@ -220,7 +220,7 @@ public EffectiveIdentity(string username, IList<string> datasets, IList<string> 
 
     查看用于添加 CustomData 功能的[代码](#customdata-sdk-additions)。
 
-8. 现在可以在应用程序中查看在应用一个或多个 CustomData 值前的报表，以查看报表包含的所有数据。
+8. 现在可以在应用 CustomData 值前查看应用程序中的报表，以查看报表包含的所有数据。
 
     ![应用 CustomData 前](media/embedded-row-level-security/customdata-before.png)
 
@@ -239,6 +239,75 @@ public EffectiveIdentity(string username, IList<string> datasets, IList<string> 
 
 使用 [JavaScript 筛选器](https://github.com/Microsoft/PowerBI-JavaScript/wiki/Filters#page-level-and-visual-level-filters)，可允许用户使用已减少、已限定范围或已筛选的数据视图。 不过，用户仍有权访问模型架构表、列和度量值，并能访问其中任意数据。 限制数据访问只能通过 RLS 应用，不能通过客户端筛选 API 应用。
 
+## <a name="token-based-identity-with-azure-sql-database-preview"></a>基于令牌的标识与 Azure SQL 数据库（预览）
+
+基于令牌的标识允许你指定嵌入令牌的有效标识，方法是为 Azure SQL 数据库使用 Azure Active Directory (AAD) 访问令牌。
+
+将数据保存在 Azure SQL数据库中的客户，现在可以在与 Power BI Embedded 集成时，使用新功能来管理用户以及他们对 Azure SQL 中数据的访问。
+
+在生成嵌入令牌时，可以在 Azure SQL 中指定用户的有效标识。 通过将 AAD 访问令牌传递到服务器，可以指定用户的有效标识。 访问令牌仅用于从 Azure SQL 中为特定会话提取该用户的相关数据。
+
+它可以用于在 Azure SQL 中管理每个用户的视图，或者以多租户数据库中特定客户的身份登录到 Azure SQL。 还可以用于在 Azure SQL 中对该会话应用行级别安全性，并且只检索该会话的相关数据，而无需在 Power BI 中管理 RLS。
+
+此类有效标识问题直接应用于 Azure SQL Server 上的 RLS 规则。 Power BI Embedded 在从 Azure SQL Server 查询数据时使用提供的访问令牌。 可通过 USER_NAME() SQL 函数访问用户的UPN（已为其提供访问令牌）。
+
+基于令牌的标识只适用于专用容量上的 DirectQuery 模型 - 连接到 Azure SQL 数据库，该数据库被配置为允许进行 AAD 身份验证（[详细了解 Azure SQL 数据库的 AAD 身份验证](https://docs.microsoft.com/azure/sql-database/sql-database-manage-logins)）。 数据集的数据源必须配置为使用最终用户的 OAuth2 凭据，以使用基于令牌的标识。
+
+   ![配置 Azure SQL 服务器](media/embedded-row-level-security/token-based-configure-azure-sql-db.png)
+
+### <a name="token-based-identity-sdk-additions"></a>基于令牌的标识 SDK 添加件
+
+标识 blob 属性已添加到令牌生成方案中的有效标识。
+
+```JSON
+[JsonProperty(PropertyName = "identityBlob")]
+public IdentityBlob IdentityBlob { get; set; }
+```
+
+IdentityBlob 类型是包含值字符串属性的简单 JSON 结构
+
+```JSON
+[JsonProperty(PropertyName = "value")]
+public string value { get; set; }
+```
+
+借助以下调用，可使用标识 blob 创建 EffectiveIdentity：
+
+```C#
+public EffectiveIdentity(string username, IList<string> datasets, IList<string> roles = null, string customData = null, IdentityBlob identityBlob = null);
+```
+
+可以使用以下调用创建标识 blob。
+
+```C#
+public IdentityBlob(string value);
+```
+
+### <a name="token-based-identity-rest-api-usage"></a>基于令牌的标识 REST API 的使用情况
+
+若要调用 [REST API](https://docs.microsoft.com/rest/api/power-bi/embedtoken/reports_generatetoken#definitions)，可以在每个标识中添加标识 blob。
+
+```JSON
+{
+    "accessLevel": "View",
+    "identities": [
+        {
+            "datasets": ["fe0a1aeb-f6a4-4b27-a2d3-b5df3bb28bdc"],
+        “identityBlob”: {
+            “value”: “eyJ0eXAiOiJKV1QiLCJh….”
+         }
+        }
+    ]
+}
+```
+
+标识 blob 中提供的值应是 Azure SQL Server 的有效访问令牌（资源 URL 为 (<https://database.windows.net/>)）。
+
+   > [!Note]
+   > 要为 Azure SQL 创建访问令牌，应用程序必须在 Azure 门户中的 AAD 应用程序注册配置上具有“访问 Azure SQL DB 和数据仓库”的委派权限，以访问 Azure SQL 数据库 API。
+
+   ![应用注册](media/embedded-row-level-security/token-based-app-reg-azure-portal.png)
+
 ## <a name="considerations-and-limitations"></a>注意事项和限制
 
 * 使用嵌入令牌时，在 Power BI 服务中将用户分配到角色不会影响 RLS。
@@ -248,5 +317,11 @@ public EffectiveIdentity(string username, IList<string> datasets, IList<string> 
 * 如果基础数据集不需要 RLS，则 GenerateToken 请求不得包含有效的标识。
 * 如果基础数据集是云模型（已缓存模型或 DirectQuery），有效标识至少必须包含一个角色，否则无法执行角色分配。
 * 使用标识列表可以嵌入仪表板的多个标识标记。 对于其他所有项目，该列表包含单个标识。
+
+### <a name="token-based-identity-limitations-preview"></a>基于令牌的标识限制（预览）
+
+* 此功能将限制仅用于 Power BI Premium。
+* 此功能不适用于本地 SQL Server。
+* 此功能不适用于多地理位置。
 
 更多问题？ [尝试咨询 Power BI 社区](https://community.powerbi.com/)

@@ -5,17 +5,17 @@ author: mgblythe
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-admin
+ms.subservice: powerbi-admin
 ms.topic: conceptual
 ms.date: 11/02/2018
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: dee5c14d2ee714872409352b5e42d646e561c271
-ms.sourcegitcommit: a1b7ca499f4ca7e90421511e9dfa61a33333de35
+ms.openlocfilehash: 7e76f03a3795976aebd1480dc77a579c9245ed9e
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/10/2018
-ms.locfileid: "51507752"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54282048"
 ---
 # <a name="distribute-power-bi-content-to-external-guest-users-with-azure-ad-b2b"></a>使用 Azure AD B2B 将 Power BI 内容分发给外部来宾用户
 
@@ -101,6 +101,6 @@ Power BI 与 Azure Active Directory 企业到企业 (Azure AD B2B) 集成，便�
 
 ## <a name="next-steps"></a>后续步骤
 
-有关详细信息（包括行级别安全性的工作原理），请参阅以下白皮书：[使用 Azure AD B2B 向外部来宾用户分发 Power BI 内容](https://aka.ms/powerbi-b2b-whitepaper)。
+有关详细信息（包括行级别安全性的工作方式），请查看白皮书：[使用 Azure AD B2B 将 Power BI 内容分发给外部来宾用户](https://aka.ms/powerbi-b2b-whitepaper)。
 
 若要了解 Azure AD B2B，请参阅[什么是 Azure AD B2B 协作？](/azure/active-directory/active-directory-b2b-what-is-azure-ad-b2b/)。

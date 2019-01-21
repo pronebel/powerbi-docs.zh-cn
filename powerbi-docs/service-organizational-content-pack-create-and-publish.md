@@ -5,17 +5,17 @@ author: maggiesMSFT
 manager: kfile
 ms.reviewer: lukaszp
 ms.service: powerbi
-ms.component: powerbi-service
+ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 08/02/2018
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 4638842217127c1d80ec115e05f8db1a6d3eb36c
-ms.sourcegitcommit: a739a99e1006834a0f56e387c0bd9d945fb8a76b
+ms.openlocfilehash: 3a434c418e8a385db921dd910f354bda04ad8edd
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/15/2018
-ms.locfileid: "51679032"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54289316"
 ---
 # <a name="create-and-publish-a-power-bi-organizational-content-pack-tutorial"></a>创建和发布 Power BI 组织内容包（教程）
 
@@ -53,7 +53,7 @@ ms.locfileid: "51679032"
       > 
       > 
    
-   3. 推荐：添加**说明**。 这有助于同事更轻松地找到所需的内容包。 除了说明外，还请添加你的同事在搜索此内容包时可能输入的关键字。 添加联系人信息，方便同事有疑问或需要帮助时使用。
+   3. 推荐：添加说明。 这有助于同事更轻松地找到所需的内容包。 除了说明外，还请添加你的同事在搜索此内容包时可能输入的关键字。 添加联系人信息，方便同事有疑问或需要帮助时使用。
    
    4. **上载图像或徽标**，方便组成员更轻松地查找内容包，因为浏览图像比浏览文本更快。 在下面的屏幕截图中，我们使用了机会计数百分比堆积柱形图磁贴的图像。
    

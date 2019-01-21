@@ -6,22 +6,22 @@ manager: kfile
 ms.reviewer: ''
 featuredvideoid: E1mIAyEXuF4
 ms.service: powerbi
-ms.component: powerbi-service
+ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 03/01/2018
 ms.author: maggies
 LocalizationGroup: Ask questions of your data
-ms.openlocfilehash: 02663648002f7924725791e378e10532fadc1128
-ms.sourcegitcommit: 1e4fee6d1f4b7803ea285eb879c8d5a4f7ea8b85
+ms.openlocfilehash: 7e57233dac635cadf8f1dc31b4956b4f8e503083
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/16/2018
-ms.locfileid: "51716932"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54284003"
 ---
 # <a name="create-featured-questions-for-power-bi-qa"></a>创建 Power BI 问答的精选问题
 如果你拥有一个数据集，你可以向该数据集添加自己精选的问题。  Power BI 问答会向使用数据集的同事显示这些问题。  精选问题会让你的同事了解他们可以就数据集询问哪些类型的问题。 你添加的精选问题都由你决定 -- 可以添加常见问题、显示有趣结果的问题，或可能会很难组织描述的问题。
 
-请观看 Will 将向 Power BI 问答添加一些精选问题，然后使用这些精选问题来浏览他的数据集。 然后按照视频下面的分步说明来自己尝试一下。
+请观看 Will 将向 Power BI 问答添加一些精选问题，然后使用这些精选问题来浏览他的数据集。 然后可以按照视频下面的分步说明来自己尝试。
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/E1mIAyEXuF4" frameborder="0" allowfullscreen></iframe>
 

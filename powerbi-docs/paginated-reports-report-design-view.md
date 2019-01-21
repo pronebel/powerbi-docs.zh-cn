@@ -5,16 +5,16 @@ author: maggiesMSFT
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: report-builder
+ms.subservice: report-builder
 ms.topic: overview
 ms.date: 11/05/2018
 ms.author: maggies
-ms.openlocfilehash: dc811c5f6c6a7d5d428591eb7afd1665cda6dbb0
-ms.sourcegitcommit: b03912343a5a214c6bb972aaa6aa051c2a5f4332
+ms.openlocfilehash: 85950e2510147c3bed36d4911360f7c365c79da6
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/05/2018
-ms.locfileid: "52900442"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54283520"
 ---
 # <a name="getting-around-in-report-design-view-for-paginated-reports-preview"></a>介绍分页报表的报表设计视图（预览）
 
@@ -88,9 +88,9 @@ ms.locfileid: "52900442"
  根据属性，可以从下拉列表中设置属性值，键入值，或选择 `<Expression>` 以创建表达式。  
   
 ### <a name="changing-the-properties-pane-view"></a>更改“属性”窗格视图  
- 默认情况下，会将“属性”窗格中显示的属性组织成大类，例如“操作”、“边框”、“填充”、“字体”和“常规”。 每个类别都有一组与之关联的属性。 例如，“字体”类别中会列出以下属性：Color、FontFamily、FontSize、FontStyle、FontWeight、LineHeight 和 TextDecoration。 如果愿意，可以按字母顺序排列窗格中列出的所有属性。 这将删除类别并按字母顺序列出所有属性，而不考虑类别。  
+ 默认情况下，会将“属性”窗格中显示的属性组织成大类，例如“操作”、“边框”、“填充”、“字体”和“常规”。 每个类别都有一组与之关联的属性。 例如，在“字体”类别中列出以下属性：Color、FontFamily、FontSize、FontStyle、FontWeight、LineHeight 和 TextDecoration。 如果愿意，可以按字母顺序排列窗格中列出的所有属性。 这将删除类别并按字母顺序列出所有属性，而不考虑类别。  
   
- “属性”窗格在窗格顶部有三个按钮：“类别”、“按字母顺序”和“属性页”。 选择“类别”和“按字母顺序”按钮可在“属性”窗格视图之间切换。 选择“属性页”按钮以打开所选报表项的属性对话框。  
+ “属性”窗格在窗格顶部有三个按钮：“类别”、“按字母顺序排列”和“属性页”。 选择“类别”和“按字母顺序”按钮可在“属性”窗格视图之间切换。 选择“属性页”按钮以打开所选报表项的属性对话框。  
   
   
 ## <a name="5-grouping-pane"></a>5 “分组”窗格

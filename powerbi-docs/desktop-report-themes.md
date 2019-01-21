@@ -5,17 +5,17 @@ author: davidiseminger
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-desktop
+ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 09/10/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 215b4c8f46b2d39c6dcc5853c07e4e6526027881
-ms.sourcegitcommit: b343e44dbafc0b718c564402593d4b6e3a8ce97c
+ms.openlocfilehash: 5c383cf3c7fcbae88be6943bb418026c849db196
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/06/2018
-ms.locfileid: "51027451"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54277425"
 ---
 # <a name="use-report-themes-in-power-bi-desktop"></a>在 Power BI Desktop 中使用报表主题
 借助报表主题，可以将颜色主题应用于整个报表，如企业品牌颜色、流行色或其他颜色主题。 在你应用报表主题后，报表中的所有视觉对象都会使用选定主题中的颜色。 也存在少数例外情况，本文稍后将进行介绍。
@@ -87,7 +87,7 @@ ms.locfileid: "51027451"
 
 * **dataColors**：要对 Power BI Desktop 视觉对象数据使用的十六进制颜色代码列表。 可以视需要在此列表中添加任意数量的颜色。
 
-* **background**、**foreground** 和 **tableAccent**：应该应用于各种视觉对象的颜色。 
+* background、foreground 和 tableAccent：应该应用于各种视觉对象类型的颜色。 
   - **foreground**：应用于文本框文本、KPI 目标文本、多行卡片文本、卡片值文本、仪表标注文本、垂直切片器元素文本、表和矩阵总计以及值文本。 
   - **background**：应用于按钮填充和组合图标签背景。 这些颜色的使用方式取决于所应用的具体视觉对象样式。 
   - 表和矩阵视觉对象默认应用这些样式。
@@ -124,7 +124,7 @@ ms.locfileid: "51027451"
 
 “格式”面板的“数据颜色”部分反映了报表主题。 例如，在应用“圣帕特里克节”主题中的大量绿色和棕色后，选择一个视觉对象。 然后，依次转到“格式”>“数据颜色”，可以看到如下信息：
 
-![可视化效果](media/desktop-report-themes/report-themes_8.png)
+![可视化](media/desktop-report-themes/report-themes_8.png)
 
 看到所有这些绿色了吗？ 这是因为我们导入并应用的报表主题包含这些颜色。
 
@@ -180,7 +180,7 @@ ms.locfileid: "51027451"
 
 * **name**：主题名称，也是唯一的必填字段。
 * **dataColors**：要对 Power BI Desktop 视觉对象数据使用的十六进制颜色代码列表。 可以视需要在此列表中添加任意数量的颜色。
-* **background**、**foreground** 和 **tableAccent**：应该应用于各种视觉对象的颜色。 foreground 应用于文本框文本、KPI 目标文本、多行卡片文本、卡片值文本、仪表标注文本、垂直切片器元素文本、表和矩阵总计以及值文本。 **background**：应用于按钮填充和组合图标签背景。 这些颜色的使用方式取决于所应用的具体视觉对象样式。 表和矩阵视觉对象默认应用这些样式。
+* background、foreground 和 tableAccent：应该应用于各种视觉对象类型的颜色。 foreground 应用于文本框文本、KPI 目标文本、多行卡片文本、卡片值文本、仪表标注文本、垂直切片器元素文本、表和矩阵总计以及值文本。 **background**：应用于按钮填充和组合图标签背景。 这些颜色的使用方式取决于所应用的具体视觉对象样式。 表和矩阵视觉对象默认应用这些样式。
 
 若要创建扩展格式的 JSON 文件，并能更精细地控制格式设置，还需要向 JSON 文件添加“visualStyles”部分。 在“visualStyles”部分中，嵌套格式设置具体内容。 “visualStyles”部分的格式如下所示：
 
@@ -248,57 +248,57 @@ ms.locfileid: "51027451"
 
 | **cardName** |
 | --- |
-| axis: Gauge axis |
-| breakdown: Breakdown |
-| bubbles: Bubbles |
-| calloutValue: Callout Value |
-| card: Card |
-| cardTitle: Card Title |
-| categoryAxis: X-Axis |
-| categoryLabels: Category labels |
-| columnFormatting: Field formatting |
-| columnHeaders: Column headers |
-| dataLabels: Data labels |
-| fill: Fill |
-| fillPoint: Fill point |
-| forecast: Forecast |
-| general: General |
-| goals: Goals |
-| grid: Grid |
-| header: Header |
-| imageScaling: Scaling |
-| indicator: Indicator |
-| items: Items |
-| labels: Data labels |
-| legend: Legend |
-| lineStyles: Shapes |
-| mapControls: Map controls |
-| mapStyles: Map styles |
-| numericInputStyle: Numeric inputs |
-| percentBarLabel: Conversion Rate Label |
-| plotArea: Plot Area |
-| plotAreaShading: Symmetry shading |
-| ratioLine: Ratio line |
-| referenceLine: Constant Line |
-| ribbonChart: Ribbons |
-| rotation: Rotation |
-| rowHeaders: Row headers |
-| selection: Selection Controls |
-| sentimentColors: Sentiment colors |
-| shape: Shape |
-| slider: Slider |
-| status: Color coding |
-| subTotals: Subtotals |
-| target: Target |
-| total: Grand total |
-| trend: Trend Line |
-| trendline: Trend axis |
-| valueAxis: Y-Axis |
-| values: Values |
-| wordWrap: Word wrap |
-| xAxisReferenceLine: X-Axis Constant Line |
-| y1AxisReferenceLine: Constant Line |
-| zoom: Zoom |
+| axis:测量轴 |
+| breakdown:明细 |
+| bubbles:气泡 |
+| calloutValue:标注值 |
+| card:卡片 |
+| cardTitle:卡片标题 |
+| categoryAxis:X 轴 |
+| categoryLabels:类别标签 |
+| columnFormatting:字段格式 |
+| columnHeaders:列标题 |
+| dataLabels:数据标签 |
+| fill:填充 |
+| fillPoint:填充点 |
+| forecast:预测 |
+| general:常规 |
+| goals:目标 |
+| grid:网格 |
+| header:标题 |
+| imageScaling:正在缩放 |
+| indicator:指示器 |
+| items:项 |
+| labels:数据标签 |
+| legend:图例 |
+| lineStyles:形状 |
+| mapControls:地图控件 |
+| mapStyles:地图样式 |
+| numericInputStyle:数值输入 |
+| percentBarLabel:转换率标签 |
+| plotArea:绘图区 |
+| plotAreaShading:对称底纹 |
+| ratioLine:比率线 |
+| referenceLine:恒线 |
+| ribbonChart:功能区 |
+| rotation:旋转 |
+| rowHeaders:行标题 |
+| selection:选择控件 |
+| sentimentColors:消费意愿颜色 |
+| shape:形状 |
+| slider:滑块 |
+| status:颜色编码 |
+| subTotals:小计 |
+| target:目标 |
+| total:总计 |
+| trend:走向线 |
+| trendline:趋势轴 |
+| valueAxis:Y 轴 |
+| values:值 |
+| wordWrap:自动换行 |
+| xAxisReferenceLine:X 轴恒线 |
+| y1AxisReferenceLine:恒线 |
+| zoom:缩放 |
 
 ### <a name="properties-within-each-card"></a>每个卡中的属性
 以下部分定义了每个卡片中的属性：

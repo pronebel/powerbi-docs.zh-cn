@@ -6,17 +6,17 @@ manager: kfile
 ms.reviewer: ''
 featuredvideoid: l8JoB7w0zJA
 ms.service: powerbi
-ms.component: powerbi-service
+ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 05/02/2018
 ms.author: maggies
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 1ef0ecdfaea51a9ca50e0f105b51b8239ebc4fa1
-ms.sourcegitcommit: 1e4fee6d1f4b7803ea285eb879c8d5a4f7ea8b85
+ms.openlocfilehash: ad044a5b3f6ddcb4b8e1dbffa1bb2a7dac01eb31
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/16/2018
-ms.locfileid: "51717530"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54284969"
 ---
 # <a name="pin-a-tile-to-a-power-bi-dashboard-from-excel"></a>从 Excel 将磁贴固定到 Power BI 仪表板
 若要从 Excel 工作簿固定磁贴，请将该工作簿连接到 Power BI 服务 (app.powerbi.com)。 实际上，连接工作簿会将该工作簿链接的只读版本引入 Power BI 服务，并允许用户将区域固定到仪表板。 甚至可以将整个工作表固定到仪表板。  

@@ -6,17 +6,17 @@ manager: kfile
 ms.reviewer: lukaszp
 featuredvideoid: EKVvOZmxg9s
 ms.service: powerbi
-ms.component: powerbi-desktop
+ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 11/06/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 81867ba36e79a26acb168c1b02fc31e228bd6439
-ms.sourcegitcommit: b23fdcc0ceff5acd2e4d52b15b310068236cf8c7
+ms.openlocfilehash: e559cb3ed460c8d81406ae8c8b01fe33eceaf461
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/07/2018
-ms.locfileid: "51266038"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54293898"
 ---
 # <a name="arcgis-maps-in-power-bi-service-and-power-bi-desktop-by-esri"></a>在 Power BI 服务和 Power BI Desktop 中创建 ESRI ArcGIS 地图
 本教程是从 ArcGIS 地图创建者的角度进行编写。 创建者与同事共享 ArcGIS 地图后，此同事便可以查看相应的地图并与之交互，但无法保存更改。 若要详细了解如何查看 ArcGIS 地图，请参阅[与 ArcGIS 地图交互](visuals/power-bi-visualizations-arcgis.md)。
@@ -207,7 +207,7 @@ ArcGIS Online 允许组织发布公共的 Web 地图。 另外，Esri 还通过 
 2. 输入搜索词，然后选择一个地图图层。 在本例中我们选择美国参议院选区分布图。
    
     ![](media/power-bi-visualization-arcgis/power-bi-esri-demographics-esri2-new.png)
-3. 若要查看详细信息，请选择阴影区域以打开“从引用层选择”：对引用层上的所选区域的边界或对象使用引用层选择工具。
+3. 若要查看详细信息，请选择阴影区域以打开“从引用层选择”：对引用层上的所选内容边界或对象使用引用层选择工具。
 
 <br/>
 
@@ -325,7 +325,7 @@ ArcGIS Maps for Power BI 由 Esri (www.esri.com) 提供。 使用 ArcGIS Maps fo
 
 **我在 Power BI Desktop 中看到关于缓存已满的错误消息**
 
-我们正在修复此 bug。  在此期间，若要清除缓存，请尝试删除 C:\Users\\AppData\Local\Microsoft\Power BI Desktop\CEF 位置中的文件，再重启 Power BI。
+我们正在修复此 bug。  在此期间，若要清除缓存，请尝试删除以下位置的文件：C:\Users\\AppData\Local\Microsoft\Power BI Desktop\CEF，然后重启 Power BI。
 
 适用于 Power BI 的 ArcGIS 地图是否支持 Esri 形状文件？
 

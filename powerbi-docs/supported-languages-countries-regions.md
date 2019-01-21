@@ -5,17 +5,17 @@ author: maggiesMSFT
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-service
+ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 04/13/2018
 ms.author: maggies
 LocalizationGroup: Get started
-ms.openlocfilehash: e474081a5f094bc04f6fc93b985b8d81efee1a0b
-ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
+ms.openlocfilehash: 98c637692b3c31e598a11c3039b60be3dec61348
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/12/2018
-ms.locfileid: "44728102"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54281174"
 ---
 # <a name="supported-languages-and-countriesregions-for-power-bi"></a>Power BI 支持的语言和国家/地区
 
@@ -116,7 +116,7 @@ Power BI 根据你的计算机上的语言首选项检测你的语言。 你访�
    你可能需要关闭并重新打开浏览器才能看见更改。
 
 ## <a name="choose-the-language-or-locale-of-power-bi-desktop"></a>选择 Power BI Desktop 的语言或区域设置
-获取 Power BI Desktop 的方法有两种：可以直接下载，也可以通过 Windows 应用商店安装。
+有两种方法可以获取 Power BI Desktop：可以下载它，或从 Windows 应用商店进行安装。
 
 * 如果[通过 Windows 应用商店安装 Power BI Desktop](#choose-a-language-for-power-bi-desktop-installed-from-the-windows-store)，将安装所有语言，并显示与 Windows 默认语言对应的语言。
 * 如果[直接下载 Power BI Desktop](#choose-a-language-when-you-download-power-bi-desktop)，将在下载时选择语言。 

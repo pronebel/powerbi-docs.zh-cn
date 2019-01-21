@@ -6,17 +6,17 @@ manager: kfile
 ms.reviewer: ''
 featuredvideoid: _3q6VEBhGew
 ms.service: powerbi
-ms.component: powerbi-desktop
+ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 03/22/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 617809e072a492fb9887930e58bafd89ca8201e8
-ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
+ms.openlocfilehash: 937e15f5cd56f7c720afa945598f9fc1641468f7
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/21/2018
-ms.locfileid: "46544916"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54295526"
 ---
 # <a name="static-content-in-power-bi-reports"></a>Power BI 报表中的静态内容
 使用 Power BI 服务和 Power BI Desktop 可将文本框和形状添加到报表。 在这两种情况下，必须具有报表的编辑权限。 如果已在 Power BI 服务中与你共享报表，你将没有编辑权限。 
@@ -58,7 +58,7 @@ Watch Will 使用 Power BI Desktop [向报表添加静态图像](guided-learning
    ![](media/power-bi-reports-add-text-and-shapes/power-bi-arrrow.png)
 3. 若要放置形状，请选择顶部的灰色区域，然后拖动。 若要重设形状大小，请选择并拖动任意边框图柄。 在文本框中，也可以为形状创建准确大小和位置。
 
-> 注意：形状无法固定到仪表板（除非在[固定活动页面](service-dashboard-pin-live-tile-from-report.md)时作为视觉对象之一）。 
+> **注意**：形状无法固定到仪表板（除非在[固定活动页面](service-dashboard-pin-live-tile-from-report.md)时作为视觉对象之一）。 
 > 
 > 
 

@@ -6,15 +6,15 @@ ms.author: maghan
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-developer
+ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 08/01/2018
-ms.openlocfilehash: 7608d9098177805849ec61f0427ee5bc662d58c9
-ms.sourcegitcommit: 146b505b42f0d95d3ee73762441a43b6f3b3a891
+ms.openlocfilehash: 0337e35a67a852e1bb82209e095df4945c5de84a
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/02/2018
-ms.locfileid: "39475651"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54275286"
 ---
 # <a name="step-5-add-rows-to-a-power-bi-table"></a>步骤 5：向 Power BI 表中添加行
 本文是[将数据推送到数据集](walkthrough-push-data.md)的分步演练的一部分。
@@ -33,7 +33,7 @@ ms.locfileid: "39475651"
 > 
 > 
 
-1. 在步骤 2：用以推送数据的演练，[获取身份验证访问令牌](walkthrough-push-data-get-token.md) 中创建的控制台应用程序项目中，添加以下代码。
+1. 在步骤 2 中创建的控制台应用程序项目中：推送数据演练、[获取身份验证访问令牌](walkthrough-push-data-get-token.md)、添加以下代码。
 2. 运行控制台应用，并登录到你的 Power BI 帐户。 应可看到控制台窗口中的**添加行**。 还可以登录到 Power BI 来查看已添加到数据集中的行。
 
 **将数据推送到数据集示例**

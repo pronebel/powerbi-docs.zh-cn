@@ -6,16 +6,16 @@ manager: kfile
 ms.reviewer: ''
 featuredvideoid: ''
 ms.service: powerbi
-ms.component: powerbi-service
+ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 10/02/2018
 ms.author: maggies
-ms.openlocfilehash: 28a282ff6a35061422995c46fbbcd34c21b533a7
-ms.sourcegitcommit: 1e4fee6d1f4b7803ea285eb879c8d5a4f7ea8b85
+ms.openlocfilehash: c42aa07fd78430c5692067ae8476b22288470c8c
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/16/2018
-ms.locfileid: "51717415"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54294240"
 ---
 # <a name="create-a-power-bi-dashboard-from-a-report"></a>从报表创建 Power BI 仪表板
 你已经阅读了 [Power BI 中的仪表板](service-dashboards.md)，并且现在想要创建你自己的仪表板。 有许多不同的方法可用于创建仪表板：从报表、从头开始、从数据集、通过复制现有仪表板等。  
@@ -31,7 +31,7 @@ ms.locfileid: "51717415"
 
 ![仪表板](media/service-dashboard-create/power-bi-completed-dashboard-small.png)
 
-## <a name="video-create-a-dashboard-by-pinning-visuals-and-images-from-a-report"></a>视频：通过从报表中固定视觉对象和图像创建仪表板
+## <a name="video-create-a-dashboard-by-pinning-visuals-and-images-from-a-report"></a>视频：通过从报表中固定视觉效果和图像创建新仪表板
 观看 Amanda 通过从报表中固定可视化效果来创建新仪表板。 然后，使用采购分析示例，按照视频下面的步骤亲自尝试。
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/lJKgWnvl6bQ" frameborder="0" allowfullscreen></iframe>
@@ -65,7 +65,7 @@ ms.locfileid: "51717415"
 1. 在同一工作区中，选择“报表”选项卡。新导入的报表显示有黄色星号。 选择报表名称以打开它。
 
     ![报表选项卡](media/service-dashboard-create/power-bi-reports.png)
-2. 此时，报表会在阅读视图中打开。 请注意，它的底部包含两个选项卡：折扣分析和支出概况。 每个选项卡表示报表的一页。
+2. 此时，报表会在阅读视图中打开。 请注意它在底部有两个选项卡：“折扣分析”和“支出概述”。 每个选项卡表示报表的一页。
     选择“编辑报表”在编辑视图中打开报表。
 
     ![“阅读”视图中的报表](media/service-dashboard-create/power-bi-reading-view.png)

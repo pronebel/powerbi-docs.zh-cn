@@ -6,15 +6,15 @@ ms.author: maghan
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-developer
+ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 01/05/2017
-ms.openlocfilehash: 01bcc545d3ba8edb23ef583467322401780e657d
-ms.sourcegitcommit: 698b788720282b67d3e22ae5de572b54056f1b6c
+ms.openlocfilehash: 0990f6ddaf458d5723cd04fedf0b34f497de16cb
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/17/2018
-ms.locfileid: "45974175"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54278484"
 ---
 # <a name="push-data-into-a-power-bi-dataset"></a>将数据推送到 Power BI 数据集
 
@@ -24,10 +24,10 @@ ms.locfileid: "45974175"
 
 ## <a name="steps-to-push-data-into-a-dataset"></a>将数据推送到数据集的步骤
 
-* 步骤 1：[将应用注册到 Azure AD](walkthrough-push-data-register-app-with-azure-ad.md)
+* 步骤 1：[使用 Azure AD 注册应用](walkthrough-push-data-register-app-with-azure-ad.md)
 * 步骤 2：[获取身份验证访问令牌](walkthrough-push-data-get-token.md)
 * 步骤 3：[在 Power BI 中创建数据集](walkthrough-push-data-create-dataset.md)
-* 步骤 4：[获取数据集以向 Power BI 表中添加行](walkthrough-push-data-get-datasets.md)
+* 步骤 4：[获取数据集以将行添加到 Power BI 表](walkthrough-push-data-get-datasets.md)
 * 步骤 5：[向 Power BI 表中添加行](walkthrough-push-data-add-rows.md)
 
 下一部分是关于推送数据的 Power BI API 操作的一般讨论。
@@ -59,7 +59,7 @@ ms.locfileid: "45974175"
         ]
     }
 
-因此，对于我们的“市场部市场营销”数据集示例，将传递类似以下示例的 JSON 字符串。 在此示例中，**SalesMarketing** 是该数据集的名称，**产品**是表的名称。 定义表后，再定义表架构。 对于 **SalesMarketing** 数据集，表架构具有这些列：ProductID、制造商、类别、市场细分、产品和 IsCompete。
+因此，对于我们的“市场部市场营销”数据集示例，将传递类似以下示例的 JSON 字符串。 在此示例中，**SalesMarketing** 是该数据集的名称，**产品**是表的名称。 定义表后，再定义表架构。 对于 SalesMarketing 数据集，表架构包含以下列：ProductID、制造商、类别、段、产品和 IsCompete。
 
 **数据集对象 JSON 示例**
 

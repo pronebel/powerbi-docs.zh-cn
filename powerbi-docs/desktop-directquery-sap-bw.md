@@ -5,17 +5,17 @@ author: davidiseminger
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-desktop
+ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 11/28/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 6c47fb847ff5360031f4bfe2974db9c405a4ce5f
-ms.sourcegitcommit: 2ae660a7b70fce23eb58b159d049eca44a664f2c
+ms.openlocfilehash: 61de19e50437cf8cb5920d2a413821e325da2a1a
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/30/2018
-ms.locfileid: "52670730"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54278069"
 ---
 # <a name="directquery-and-sap-business-warehouse-bw"></a>DirectQuery 和 SAP Business Warehouse (BW)
 可以使用 DirectQuery 直接连接到 SAP Business Warehouse (BW) 数据源。 鉴于 SAP BW 的 OLAP/多维特性，SAP BW 的 DirectQuery 与 SQL Server 等关系源之间存在许多重要区别。 这些区别总结如下：
@@ -32,19 +32,19 @@ ms.locfileid: "52670730"
 ## <a name="additional-modeling-restrictions"></a>其他建模限制
 在 Power BI 中使用 DirectQuery 连接到 SAP BW 时的主要其他建模限制如下所示：
 
-* 不支持计算列：创建计算列的功能处于禁用状态。 这也意味着创建计算列的“分组”和“聚类分析”功能不可用。
-* 针对度量值的其他限制：对可在度量值中使用的 DAX 表达式规定有其他限制，以反映 SAP BW 提供的支持级别。
-* 不支持定义关系：关系是外部 SAP 源中固有的，并且无法在模型中定义其他关系。
-* 没有数据视图：数据视图通常显示表中的详细信息级别数据。 鉴于 OLAP 源（如 SAP BW）的性质，此视图不适用于 SAP BW。
-* 列和度量值详细信息固定：字段列表中所示的列和度量值列表由基础源固定，不能修改。 例如，不能删除列，也不能更改其数据类型（但是，可以将其重命名）。
-* DAX 中的其他限制：DAX 中存在可在度量值定义中使用的其他限制，以反映源中的限制。 例如，不能在表中使用聚合函数。
+* **不支持计算列：** 创建计算列的功能处于禁用状态。 这也意味着创建计算列的“分组”和“聚类分析”功能不可用。
+* **针对度量值的其他限制：** 对可在度量值中使用的 DAX 表达式规定有其他限制，以反映 SAP BW 提供的支持级别。
+* **不支持定义关系：** 关系是外部 SAP 源中固有的，并且无法在模型中定义其他关系。
+* **没有数据视图：** 数据视图通常在表格中显示详细信息级别数据。 鉴于 OLAP 源（如 SAP BW）的性质，此视图不适用于 SAP BW。
+* **列和度量值详细信息是固定的：** 字段列表中所示的列和度量值列表由基础源固定，不能修改。 例如，不能删除列，也不能更改其数据类型（但是，可以将其重命名）。
+* **DAX 中的其他限制：** DAX 中存在可在度量值定义中使用的其他限制，以反映源中的限制。 例如，不能在表中使用聚合函数。
 
 ## <a name="additional-visualization-restrictions"></a>其他可视化效果限制
 在 Power BI 中使用 DirectQuery 连接到 SAP BW 时，可视化效果中的其他主要限制如下所示：
 
 * **没有列聚合：** 不能更改视觉对象上的列的聚合；它始终为“不汇总”
-* 禁用度量值筛选：禁用度量值筛选以反映 SAP BW 提供的支持。
-* 多重选择和包括/排除：如果点表示来自多个列的值，则禁用在视觉对象上多重选择数据点的功能。 例如，给定的条形图显示按国家/地区划分的销售额，图例中含有类别，则将不能选择表示（美国，自行车）和（法国，服装）的点。 同样，不能选择表示（美国，自行车）的点并将其从视觉对象中排除。 这两个限制都是为了反映 SAP BW 提供的支持。
+* **禁用度量值筛选：** 禁用度量值筛选以反映 SAP BW 提供的支持。
+* **多重选择和包括/排除：** 如果点表示来自多个列的值，则禁用在视觉对象上选择多个数据点的功能。 例如，给定的条形图显示按国家/地区划分的销售额，图例中含有类别，则将不能选择表示（美国，自行车）和（法国，服装）的点。 同样，不能选择表示（美国，自行车）的点并将其从视觉对象中排除。 这两个限制都是为了反映 SAP BW 提供的支持。
 
 ## <a name="support-for-sap-bw-features"></a>对 SAP BW 功能的支持
 下表列出了使用 Power BI 时不完全支持，或行为方式不同的所有 SAP BW 功能。   

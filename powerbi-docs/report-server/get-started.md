@@ -7,15 +7,15 @@ ms.author: maggies
 ms.date: 11/20/2018
 ms.topic: overview
 ms.service: powerbi
-ms.component: powerbi-report-server
+ms.subservice: powerbi-report-server
 manager: kfile
 ms.custom: mvc
-ms.openlocfilehash: ee8086a149e752d68aa8d6801844676d038257e3
-ms.sourcegitcommit: 458e091a0a0bfb71ea3980d44df6408f48bab586
+ms.openlocfilehash: 4db2f7ca5a84563e86b3a3033daae6d83bffcf5e
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/22/2018
-ms.locfileid: "52289142"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54291962"
 ---
 # <a name="what-is-power-bi-report-server"></a>什么是 Power BI 报表服务器？
 

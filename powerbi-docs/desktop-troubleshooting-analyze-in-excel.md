@@ -5,17 +5,17 @@ author: davidiseminger
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-service
+ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 11/28/2018
 ms.author: davidi
 LocalizationGroup: Troubleshooting
-ms.openlocfilehash: 99ca79a676d103a5e3d2a297b9ac0752ee524295
-ms.sourcegitcommit: 2ae660a7b70fce23eb58b159d049eca44a664f2c
+ms.openlocfilehash: f50ab78ff6a96beb127376ff9a8b1c7396dd2cc5
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/30/2018
-ms.locfileid: "52670086"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54282868"
 ---
 # <a name="troubleshooting-analyze-in-excel"></a>Analyze in Excel 故障排除
 有时，在使用 Analyze in Excel 期间可会能收意外的结果，或功能未按预期工作。 此页提供针对 Analyze in Excel 常见问题的解决方案。
@@ -99,7 +99,7 @@ C:\Users\davidi\Desktop\powerbi-content-pr\articles\media\powerbi-desktop-troubl
 ## <a name="next-steps"></a>后续步骤
 [在 Excel 中分析](service-analyze-in-excel.md)
 
-[教程：在 Power BI Desktop 中创建自己的度量值](desktop-tutorial-create-measures.md)
+[教程：在 Power BI Desktop 中创建你自己的度量值](desktop-tutorial-create-measures.md)
 
 [PowerPivot 中的度量值](https://msdn.microsoft.com/library/gg399077.aspx)
 

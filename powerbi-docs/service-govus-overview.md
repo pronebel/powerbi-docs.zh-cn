@@ -5,17 +5,17 @@ author: davidiseminger
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-service
+ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 11/28/2018
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: a27e192c5ccc1fb3a7af9bafbc9c4fd14ccabf4c
-ms.sourcegitcommit: b03912343a5a214c6bb972aaa6aa051c2a5f4332
+ms.openlocfilehash: a48ad26b9da5d5dba9fa04ab74301da7e1265d0b
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/05/2018
-ms.locfileid: "52900097"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54292019"
 ---
 # <a name="power-bi-for-us-government-customers"></a>适用于美国政府客户的 Power BI
 **Power BI 服务**有一个可供美国政府客户使用的版本，作为 **Office 365 美国政府社区**订阅的一部分。 本文中讨论的 **Power BI 服务**版本是为美国政府客户专门设计的，独立且不同于 **Power BI 服务**的商业版本。
@@ -73,29 +73,29 @@ Azure 分布在多个云中。 默认情况下，租户可以打开对云专属�
 ## <a name="frequently-asked-questions-faq-for-the-us-government-version-of-the-power-bi-service"></a>Power BI 服务的美国政府版本的常见问题 (FAQ)
 下面提供的问题（和解答）可帮助你快速获取所需的有关服务的信息。
 
-**问题：** 如何将 商业版的**Power BI** 数据迁移到适用于美国政府的 **Power BI 服务**？
+**问：** 如何将商业版的**Power BI** 数据迁移到适用于美国政府的 **Power BI 服务**？
 
-**解答：** 你的管理员必须在单独的美国政府特定的订阅下创建 **Power BI** 的新实例。 然后，你可以在适用于美国政府的 **Power BI 服务**中复制你的商业数据、删除你的商业许可，以及将你的现有域关联到新的美国政府特定的服务。
+**答：** 你的管理员必须在单独的美国政府特定的订阅下创建 **Power BI** 的新实例。 然后，你可以在适用于美国政府的 **Power BI 服务**中复制你的商业数据、删除你的商业许可，以及将你的现有域关联到新的美国政府特定的服务。
 
-**问题：** 为什么无法连接到特定的内容包？
+**问：** 为什么无法连接到特定的内容包？
 
-**解答：** 你需要确保在连接到该内容包之前启用你的订阅。
+**答：** 你需要确保在连接到该内容包之前启用你的订阅。
 
-**问题：** 我有兴趣为我的美国政府组织获得 **Power BI**。 如何开始？
+**问：** 我有兴趣为我的美国政府组织获得 **Power BI**。 如何开始？
 
-**解答：** 根据你的现有许可证和订阅，注册（通常称为载入）过程可能会有所不同。 有关更多信息，请参阅[注册适用于美国政府的 Power BI](service-govus-signup.md) 一文。
+**答：** 根据你的现有许可证和订阅，注册（通常称为载入）过程可能会有所不同。 有关更多信息，请参阅[注册适用于美国政府的 Power BI](service-govus-signup.md) 一文。
 
-**问题：** 用于连接到适用于美国政府的 **Power BI** 的 URL 是否与商业 **Power BI** URL 有所不同？
+**问：** 用于连接到适用于美国政府的 **Power BI** 的 URL 是否与商业 **Power BI** URL 有所不同？
 
-**解答：** 是的，URL 是不同的。 下表显示了每个 URL：
+**答：** 是的，URL 是不同的。 下表显示了每个 URL：
 
 | 商业版本 URL | 美国政府版本 URL |
 | --- | --- |
 | https://app.powerbi.com/ |[https://app.powerbigov.us](https://app.powerbigov.us) |
 
-问：我的帐户在多个主权云中预配。 使用 **Power BI Desktop** 时，如何选择连接到什么云？
+**问：** 我的帐户在多个主权云中预配。 使用 **Power BI Desktop** 时，如何选择连接到什么云？
 
-答：从 Power BI Desktop 2018 年 7 月版开始，可在登录 Power BI Desktop 时选择要使用的云。
+**答：** 从 Power BI Desktop 2018 年 7 月版开始，可在登录 Power BI Desktop 时选择要使用的云。
 
 
 ## <a name="next-steps"></a>后续步骤

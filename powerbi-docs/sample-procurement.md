@@ -1,23 +1,23 @@
 ---
-title: 采购分析示例：教程
-description: Power BI 的采购分析示例：教程
+title: 采购分析示例：参观
+description: Power BI 的采购分析示例：参观
 author: maggiesMSFT
 manager: kfile
 ms.reviewer: amac
 ms.service: powerbi
-ms.component: powerbi-desktop
+ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 06/23/2018
 ms.author: maggies
 LocalizationGroup: Samples
-ms.openlocfilehash: 3b0c6fcc72e5b2f95b06f1184341298d449bf57e
-ms.sourcegitcommit: 1e4fee6d1f4b7803ea285eb879c8d5a4f7ea8b85
+ms.openlocfilehash: 18b99bf86f49f1355d4ab9f20ff6e8a83c89731d
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/16/2018
-ms.locfileid: "51717139"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54287339"
 ---
-# <a name="procurement-analysis-sample-for-power-bi-take-a-tour"></a>Power BI 的采购分析示例：教程
+# <a name="procurement-analysis-sample-for-power-bi-take-a-tour"></a>Power BI 的采购分析示例：参观
 
 ## <a name="overview-of-the-procurement-analysis-sample"></a>“采购分析示例”概述
 此行业示例仪表板与基础报表按类别和位置来分析一家制造公司对供应商的花费。 本示例探讨以下几方面：
@@ -71,10 +71,10 @@ ms.locfileid: "51717139"
 
 请注意下列事项：
 
-* 在**按月份和类别划分的发票总计**折线图中：**直接**类别的支出相当一致，**物流**的支出高峰为十二月，而**其他**支出在二月有所激增。
-* 在**按国家/地区划分的发票总计**地图中：我们大部分的支出都是在美国。
-* 在**按子类别划分的发票总计**柱形图中：**硬件**和**间接货物与服务**是最大的支出类别。
-* 在“按层划分的发票总计”条形图中：我们大多数的业务都是与第 1 层（前 10 大）供应商合作完成的。 这有助于更妥善地管理供应商关系。
+* 在“按月份和类别划分的发票总计”折线图中：“直接”类别的支出相当一致，“物流”的支出高峰在十二月，而“其他”支出在二月有所激增。
+* 在“按国家/地区划分的发票总计”地图中：我们的大部分支出都在美国。
+* 在“按子类别划分的发票总计”柱形图中：“硬件”和“间接商品与服务”是最大的支出类别。
+* 在“按层级划分的发票总计”条形图中：我们的大多数业务都是通过我们的第 1 层级（前 10 名）供应商完成的。 这有助于更妥善地管理供应商关系。
 
 ## <a name="spending-in-mexico"></a>墨西哥的支出
 让我们来浏览墨西哥的支出部分。
@@ -139,5 +139,5 @@ ms.locfileid: "51717139"
 
 这是一个安全的试验环境。 你可以始终选择不保存所做的更改。 如果保存更改，则可以始终转到**获取数据**来获取本示例的新副本。
 
-## <a name="next-steps-connect-to-your-data"></a>后续步骤：连接到你的数据
+## <a name="next-steps-connect-to-your-data"></a>后续步骤：连接到数据
 我们希望本教程已经演示 Power BI 仪表板和报表如何帮助深入了解采购数据。 现在轮到你了 — 连接到你自己的数据。 借助 Power BI，你可以连接到各种数据源。 了解 [Power BI 入门](service-get-started.md)的详细信息。

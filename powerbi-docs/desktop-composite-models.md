@@ -5,17 +5,17 @@ author: davidiseminger
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-desktop
+ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 11/12/2018
 ms.author: davidi
 LocalizationGroup: Transform and shape data
-ms.openlocfilehash: ffb82303584249641454c81f61e399d2b1d4f574
-ms.sourcegitcommit: fdb54145f9bc93b312409c15c603749f3a4a876e
+ms.openlocfilehash: 734af04ae515b1cae19b5afc99166619a85ab828
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/28/2018
-ms.locfileid: "52452766"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54290435"
 ---
 # <a name="use-composite-models-in-power-bi-desktop"></a>在 Power BI Desktop 中使用复合模型
 
@@ -27,7 +27,7 @@ Power BI Desktop 中的复合模型功能包括三个相关功能：
 
 * **复合模型**：允许报表任意组合多个数据连接（包括 DirectQuery 连接或导入）。 本文详细介绍了复合模型。
 
-* **多对多关系**：使用复合模型，可以在表之间建立多对多关系。 这种方法删除了对表中唯一值的要求。 它还去掉了以前的变通方法，例如仅引入新表来建立关系。 有关详细信息，请参阅 [Power BI Desktop 中的多对多关系（预览）](desktop-many-to-many-relationships.md)。
+* **多对多关系**：借助复合模型，可以在表之间建立多对多关系。 这种方法删除了对表中唯一值的要求。 它还去掉了以前的变通方法，例如仅引入新表来建立关系。 有关详细信息，请参阅 [Power BI Desktop 中的多对多关系（预览版）](desktop-many-to-many-relationships.md)。
 
 * **存储模式**：现在可以指定哪些视觉对象需要查询后端数据源。 导入的是不需要查询的视觉对象，即使基于 DirectQuery，也不例外。 该功能帮助提高性能并减少后端负载。 在此之前，即使是切片器这样的简单视觉对象，也会启动发送至后端源的查询。 有关详细信息，请参阅 [Power BI Desktop 中的存储模式（预览版）](desktop-storage-mode.md)。
 
@@ -156,11 +156,11 @@ Power BI Desktop 中的复合模型功能包括三个相关功能：
 
 使用复合模型有更多的性能注意事项。 一个视觉对象会导致向多个源发送查询，这通常将结果从一个查询传递到第二个源。 这种情况可能会导致以下执行形式：
 
-* **包含大量文字值的 SQL 查询**：例如，为一组选定的“Product Managers”请求总“Sales Amount”的视觉对象首先需要查找由这些产品经理管理的“Products”。 此序列必须在视觉对象发送包含“WHERE”子句中的所有产品 ID 的 SQL 查询之前发生。
+* 包含大量文字值的 SQL 查询：例如，为一组选定的“Product Managers”请求总“Sales Amount”的视觉对象首先需要查找由这些产品经理管理的“Products”。 此序列必须在视觉对象发送包含“WHERE”子句中的所有产品 ID 的 SQL 查询之前发生。
 
-* **在较低粒度级别进行查询、然后在本地聚合数据的 SQL 查询**：随着满足“Product Manager”筛选条件的“Products”的数量增加，将所有产品包含在“WHERE”子句中可能会效率低下或不可行。 于是，有必要在“Product”的较低级别查询关系源，然后在本地聚合结果。 如果“Products”基数超过 100 万限制，则查询失败。
+* 在较低粒度级别进行查询、然后在本地聚合数据的 SQL 查询：随着满足“Product Manager”筛选条件的“Products”的数量增加，将所有产品包含在“WHERE”子句中可能会效率低下或不可行。 于是，有必要在“Product”的较低级别查询关系源，然后在本地聚合结果。 如果“Products”基数超过 100 万限制，则查询失败。
 
-* **多个 SQL 查询，按值一个组一个**：如果聚合使用 DistinctCount 并按来自另一个源的某个列分组，且外部源不支持有效传递定义分组的多个文本值，则需要按值每组发送一个 SQL 查询。 
+* 多个 SQL 查询，按值一个组一个：如果聚合使用 DistinctCount 并按来自另一个源的某个列分组，且外部源不支持有效传递定义分组的多个文本值，则需要按值每组发送一个 SQL 查询。 
 
    例如，请求按“Product Manager”（从电子表格导入）排布的不同数量的 CustomerAccountNumber（来自 SQL Server 表）的视觉对象，需要在发送到 SQL Server 的查询中传递来自“Product Managers”表的详细信息。 通过其他源（例如 Redshift），此操作不可行。 而是会针对每个“Sales Manager”发送一个 SQL 查询 &mdash; 直到某个实际的限制，这时查询就会失败。 
 

@@ -5,17 +5,17 @@ author: davidiseminger
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-desktop
+ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 09/17/2018
 ms.author: davidi
 LocalizationGroup: Transform and shape data
-ms.openlocfilehash: 379f80e1e87181ffdacdaab01d87ff435f2a9501
-ms.sourcegitcommit: 2c4a075fe16ccac8e25f7ca0b40d404eacb49f6d
+ms.openlocfilehash: 8d32ad24fd41c33d0b1e1f37f11be39292e82742
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/20/2018
-ms.locfileid: "49473765"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54291064"
 ---
 # <a name="many-to-many-relationships-in-power-bi-desktop-preview"></a>Power BI Desktop 中的多对多关系（预览版）
 
@@ -45,7 +45,7 @@ Power BI Desktop 中处理多对多关系能力是指以下三个相关功能之
 
 在多对多关系功能推出前，两个表之间的关系是在 Power BI 中进行定义。 关系中涉及的至少一个表列必须包含唯一值。 不过，通常没有列包含唯一值。 
 
-例如，两个表有一个标记为“Country”的列，但两个表中的“Country”值都不唯一。 必须创造一个变通方法，才能联接此类表。 其中一种解决办法是，在模型中引入包含必要唯一值的附加表。 借助多对多关系功能，可使用基数为“多对多”的关系直接联接此类表。  
+例如，两个表有一个标记为“Country”的列，但两个表中的“Country”值都不唯一。 必须创建解决办法，才能联接此类表。 其中一种解决办法是，在模型中引入包含必要唯一值的附加表。 借助多对多关系功能，可使用基数为“多对多”的关系直接联接此类表。  
 
 ## <a name="use-many-to-many-relationships"></a>使用多对多关系功能
 
@@ -93,7 +93,7 @@ Power BI Desktop 中处理多对多关系能力是指以下三个相关功能之
 
 * 创建仅包含唯一州 ID 的第三个表。 此表可为以下任意或所有表：
   * 计算表（使用数据分析表达式 [DAX] 定义）。
-  * 基于查询编辑器中定义查询条件生成的表，可显示从一张表中提取的唯一 ID。
+  * 基于查询编辑器中定义的查询的表，可显示从表之一中提取的唯一 ID。
   * 组合的完整集。
 
 * 使用常见的多对一关系，将这两个原始表关联到此新表。
@@ -139,7 +139,7 @@ Power BI Desktop 中处理多对多关系能力是指以下三个相关功能之
 多对多关系与更典型的多对一关系的主要区别如下：
 
 * 显示的值不包括说明另一个表中存在不匹配行的空白行， 也不包括在另一个表的关系中使用的列为空的行。
-* 无法使用 `RELATED()` 函数，因为可能会关联多行。
+* 无法使用 `RELATED()` 函数，因为可以关联多行。
 * 对一个表使用 `ALL()` 函数不会删除通过多对多关系应用于其他相关表的筛选器。 在前面的示例中，下面脚本中定义的度量值不会删除对相关“CityData”表中列应用的筛选器：
 
     ![脚本示例](media/desktop-many-to-many-relationships/many-to-many-relationships_13.png)

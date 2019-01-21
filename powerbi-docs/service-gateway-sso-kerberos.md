@@ -6,20 +6,20 @@ ms.author: mblythe
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-gateways
+ms.subservice: powerbi-gateways
 ms.topic: conceptual
 ms.date: 10/10/2018
 LocalizationGroup: Gateways
-ms.openlocfilehash: ed9281ba14ad25e2acb347a2394ec729e9d4465c
-ms.sourcegitcommit: a1b7ca499f4ca7e90421511e9dfa61a33333de35
+ms.openlocfilehash: 7256de8dd36c25af9959e7103186666d65123360
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/10/2018
-ms.locfileid: "51508028"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54295250"
 ---
 # <a name="use-kerberos-for-single-sign-on-sso-from-power-bi-to-on-premises-data-sources"></a>使用 Kerberos 进行从 Power BI 到本地数据源的单一登录 (SSO)
 
-使用 [Kerberos 约束委派](https://technet.microsoft.com/library/jj553400.aspx)启用无缝单一登录连接。 启用 SSO 后，Power BI 报表和仪表板可以轻松通过本地源刷新数据。
+使用 [Kerberos 约束委派](/windows-server/security/kerberos/kerberos-constrained-delegation-overview)启用无缝单一登录连接。 启用 SSO 后，Power BI 报表和仪表板可以轻松通过本地源刷新数据。
 
 ## <a name="supported-data-sources"></a>支持的数据源
 
@@ -112,7 +112,7 @@ ms.locfileid: "51508028"
 在以下步骤中，我们假设本地环境中有两台计算机：网关计算机和运行 SQL Server 数据库的服务器。 针对本示例，我们还假设以下设置和名称：
 
 * 网关计算机名：PBIEgwTestGW
-* 网关服务帐户：PBIEgwTest\GatewaySvc（帐户显示名：网关连接器）
+* 网关服务帐户：PBIEgwTest\GatewaySvc（帐户显示名称：网关连接器）
 * SQL Server 数据源计算机名：PBIEgwTestSQL
 * SQL Server 数据源服务帐户：PBIEgwTest\SQLService
 
@@ -164,7 +164,7 @@ ms.locfileid: "51508028"
 
 如果使用 SAP HANA，我们建议执行以下附加步骤，这些步骤可以小幅度提升性能。
 
-1. 在网关安装目录中，找到并打开此配置文件：Microsoft.PowerBI.DataMovement.Pipeline.GatewayCore.dll.config。
+1. 在网关安装目录中找到并打开此配置文件：Microsoft.PowerBI.DataMovement.Pipeline.GatewayCore.dll.config。
 
 1. 找到“FullDomainResolutionEnabled”属性，并将其值更改为“True”。
 
@@ -202,7 +202,7 @@ ms.locfileid: "51508028"
 
 了解了 Kerberos 如何与网关配合使用后，接下来可以为 SAP Business Warehouse (SAP BW) 配置 SSO。 以下步骤假设你已经[为 Kerberos 约束委派做好了准备](#preparing-for-kerberos-constrained-delegation)（如本文前面部分所述）。
 
-本指南尝试尽可能全面地进行介绍。 如果你已经完成了其中的一些步骤，可以跳过这些步骤：例如，已经为 BW 服务器创建了一个服务用户并将 SPN 映射到该服务用户，或者已经安装了 gsskrb5 库。
+本指南尝试尽可能全面地进行介绍。 如果你已经完成了其中的一些步骤，则可以跳过这些步骤：例如，已经为 BW 服务器创建了一个服务用户并将 SPN 映射到该服务用户，或者已经安装了 gsskrb5 库。
 
 ### <a name="setup-gsskrb5-on-client-machines-and-the-bw-server"></a>在客户端计算机和 BW 服务器上设置 gsskrb5
 

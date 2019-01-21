@@ -1,20 +1,20 @@
 ---
 title: 快速入门：浏览移动应用中的仪表板和报表
 description: 在此快速入门中，将浏览 Power BI 移动应用中的示例仪表板和报表。
-author: maggiesMSFT
+author: mshenhav
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-mobile
+ms.subservice: powerbi-mobile
 ms.topic: quickstart
 ms.date: 11/16/2018
-ms.author: maggies
-ms.openlocfilehash: 6d5d543c3654da13592b24f4c70bc964eb7bddff
-ms.sourcegitcommit: 46f1ba3f972f6e64bce05ad0fd527b27c49aedd6
+ms.author: mshenhav
+ms.openlocfilehash: 9bb6dec4cdb689d2a21812b1dab8ebeb49090542
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/20/2018
-ms.locfileid: "52157255"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54279104"
 ---
 # <a name="quickstart-explore-dashboards-and-reports-in-the-power-bi-mobile-apps"></a>快速入门：浏览 Power BI 移动应用中的仪表板和报表
 在此快速入门中，将浏览 Android 手机上的 Power BI 移动应用中的示例仪表板和报表。 你也可以在其他移动应用中按照本文操作。 
@@ -153,5 +153,5 @@ Power BI 可以在运行 Android 5.0 操作系统或更高版本的 Android 设�
 在此快速入门中，将浏览 Android 设备上的示例仪表板和报表。 详细了解 Power BI 服务中的工作。 
 
 > [!div class="nextstepaction"]
-> [快速入门：浏览 Power BI 服务](../end-user-experience.md)
+> [快速入门：了解 Power BI 服务](../end-user-experience.md)
 

@@ -5,17 +5,17 @@ author: mihart
 manager: kvivek
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-desktop
+ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 09/11/2018
 ms.author: mihart
 LocalizationGroup: Transform and shape data
-ms.openlocfilehash: 71dbdd79e6bedee3f1377f0e7c29fcc6efbbba03
-ms.sourcegitcommit: ce8332a71d4d205a1f005b703da4a390d79c98b6
+ms.openlocfilehash: 163fc60052c4124e7c6cbac60f1486a185c35f17
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/27/2018
-ms.locfileid: "47417317"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54290880"
 ---
 # <a name="shape-maps-in-power-bi-desktop-preview"></a>Power BI Desktop 中的形状地图（预览版）
 创建“形状地图”视觉对象以使用颜色比较地图上的区域 与“地图”视觉对象不同，“形状地图”无法在地图上显示数据点的精确地理位置。 相反，其主要目的是通过不同方式对地图上的区域着色来显示这些区域的相对比较。
@@ -176,7 +176,7 @@ https://www.justice.gov/usao/resources/annual-statistical-reports
 | 争议区域 3 |
 | 争议区域 4 |
 
-### <a name="canada-provinces"></a>加拿大：省
+### <a name="canada-provinces"></a>加拿大：省/地区
 
 | `id` | `iso` | `name` | `postal` |
 | --- | --- | --- | --- |
@@ -194,7 +194,7 @@ https://www.justice.gov/usao/resources/annual-statistical-reports
 | ca-bc |CA-BC |不列颠哥伦比亚 |BC |
 | ca-ab |CA-AB |亚伯达 |AB |
 
-### <a name="france-regions"></a>法国：区域
+### <a name="france-regions"></a>法国：大区
 
 | `id` | `name` | `name-en` |
 | --- | --- | --- |
@@ -273,7 +273,7 @@ https://www.justice.gov/usao/resources/annual-statistical-reports
 | 卡文 |
 | 卡洛 |
 
-### <a name="italy-regions"></a>意大利：区域
+### <a name="italy-regions"></a>意大利：大区
 
 | `id` | `iso` | `name` | `name-en` | `postal` |
 | --- | --- | --- | --- | --- |
@@ -352,7 +352,7 @@ https://www.justice.gov/usao/resources/annual-statistical-reports
 | nl-fl |NL-FL |弗莱福兰 |弗莱福兰 |
 | nl-dr |NL-DR |德伦特 |德伦特 |
 
-### <a name="uk-countries"></a>英国：国家/地区
+### <a name="uk-countries"></a>英国：个国家/地区
 
 | `id` | `iso` | `name` |
 | --- | --- | --- |

@@ -5,17 +5,17 @@ author: markingmyname
 manager: kfile
 ms.author: maghan
 ms.service: power-bi-embedded
-ms.component: ''
+ms.subservice: ''
 ms.devlang: csharp, javascript
 ms.topic: conceptual
 ms.reviewer: ''
 ms.date: 07/31/2018
-ms.openlocfilehash: f364bb725c492c1bffd2493c1e2a48ee8c442a9e
-ms.sourcegitcommit: 6be2c54f2703f307457360baef32aee16f338067
+ms.openlocfilehash: caab7ce649687ec22d171e112382aa13d7652fb9
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/30/2018
-ms.locfileid: "43300037"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54288534"
 ---
 # <a name="create-power-bi-embedded-capacity-in-the-azure-portal"></a>在 Azure 门户中创建 Power BI Embedded 容量
 
@@ -29,7 +29,7 @@ ms.locfileid: "43300037"
 
 若要完成本快速入门教程，需要以下内容：
 
-* **Azure订阅：** 访问 [Azure 免费试用版](https://azure.microsoft.com/free/)，创建一个帐户。
+* **Azure 订阅：** 访问 [Azure 免费试用版](https://azure.microsoft.com/free/)，创建一个帐户。
 * **Azure Active Directory：** 订阅必须与 Azure Active Directory (AAD) 租户关联。 此外，***需要使用该租户中的帐户登录 Azure***。 不支持 Microsoft 帐户。 若要了解详细信息，请参阅[身份验证和用户权限](https://docs.microsoft.com/azure/analysis-services/analysis-services-manage-users)。
 * **Power BI 租户：** AAD 租户中至少必须有一个帐户已注册 Power BI。
 * **资源组：** 使用已有的资源组或[创建新的资源组](https://docs.microsoft.com/azure/azure-resource-manager/resource-group-overview)。

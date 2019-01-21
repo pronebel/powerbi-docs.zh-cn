@@ -5,18 +5,18 @@ author: markingmyname
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-developer
+ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 08/10/2017
 ms.author: maghan
-ms.openlocfilehash: 44fbf1e651c36c95694e397c64050977f3ee730a
-ms.sourcegitcommit: 695c65629d6d1faba61db2e1570324f65f235dde
+ms.openlocfilehash: f6396747dc21ddc94ab1abda6939e8e423c649e7
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/29/2018
-ms.locfileid: "37092543"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54296171"
 ---
-# <a name="step-4-get-a-dataset-to-add-rows-into-a-power-bi-table"></a>步骤 4：获取数据集以向 Power BI 表中添加行
+# <a name="step-4-get-a-dataset-to-add-rows-into-a-power-bi-table"></a>步骤 4：获取数据集以将行添加到 Power BI 表
 本文是[将数据推送到数据集](walkthrough-push-data.md)的分步演练的一部分。
 
 在将数据推送到数据集的**步骤 3**（[在 Power BI 中创建数据集](walkthrough-push-data-create-dataset.md)）中，你调用了[创建数据集](https://docs.microsoft.com/rest/api/power-bi/datasets)操作以在 Power BI 中创建数据集。 在此步骤中，你将使用[获取数据集](https://docs.microsoft.com/rest/api/power-bi/datasets/getdatasets)操作和 Newtonsoft.Json 来获取数据集 ID。在步骤 4 中使用数据集 ID 向数据集添加行。 
@@ -30,7 +30,7 @@ ms.locfileid: "37092543"
 > 
 > 
 
-1. 在步骤 2：推送数据 - [获取身份验证访问令牌](walkthrough-push-data-get-token.md)演练中创建的控制台应用程序项目中，安装 Newtonsoft.Json NuGet 包。 下面介绍了安装此程序包的方法：
+1. 在步骤 2 中创建的控制台应用程序项目中：推送数据演练，[获取身份验证访问令牌](walkthrough-push-data-get-token.md)，安装 Newtonsoft.Json NuGet 包。 下面介绍了安装此程序包的方法：
    
      a. 在 Visual Studio 2015 中，选择**工具** > **NuGet 包管理器** > **程序包管理器控制台**。
    

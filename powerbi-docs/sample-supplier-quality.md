@@ -1,23 +1,23 @@
 ---
-title: Power BI 的供应商质量分析示例：教程
-description: Power BI 的供应商质量分析示例：教程
+title: Power BI 的供应商质量分析示例：参观
+description: Power BI 的供应商质量分析示例：参观
 author: maggiesMSFT
 manager: kfile
 ms.reviewer: amac
 ms.service: powerbi
-ms.component: powerbi-desktop
+ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 08/06/2018
 ms.author: maggies
 LocalizationGroup: Samples
-ms.openlocfilehash: 0b214e2c08e6a39e4b09643c02bccedb56d5b9f4
-ms.sourcegitcommit: 1e4fee6d1f4b7803ea285eb879c8d5a4f7ea8b85
+ms.openlocfilehash: 3ef48bbe55793825693382252ac143068549d7a8
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/16/2018
-ms.locfileid: "51717645"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54292962"
 ---
-# <a name="supplier-quality-analysis-sample-for-power-bi-take-a-tour"></a>Power BI 的供应商质量分析示例：教程
+# <a name="supplier-quality-analysis-sample-for-power-bi-take-a-tour"></a>Power BI 的供应商质量分析示例：参观
 
 ## <a name="a-brief-overview-of-the-supplier-quality-analysis-sample"></a>“供应商质量分析示例”简要概述
 此行业示例仪表板与基础报表着重于传统供应链的其中一项挑战 - 供应商质量分析。
@@ -167,5 +167,5 @@ ms.locfileid: "51717645"
 
 这是一个安全的试验环境。 你可以始终选择不保存所做的更改。 但是，如果保存更改，则可以始终转到**获取数据**来获取本示例的新副本。
 
-## <a name="next-steps-connect-to-your-data"></a>后续步骤：连接到你的数据
+## <a name="next-steps-connect-to-your-data"></a>后续步骤：连接到数据
 我们希望本教程已经演示 Power BI 仪表板、问答和报表如何帮助深入了解供应商质量数据。 现在轮到你了 — 连接到你自己的数据。 借助 Power BI，你可以连接到各种数据源。 了解 [Power BI 入门](service-get-started.md)的详细信息。

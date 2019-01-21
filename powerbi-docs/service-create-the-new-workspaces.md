@@ -5,17 +5,17 @@ author: maggiesMSFT
 manager: kfile
 ms.reviewer: lukaszp
 ms.service: powerbi
-ms.component: powerbi-service
+ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 12/19/2018
+ms.date: 01/11/2019
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: a93c676775fe6e826ea83cfad91498b7fe3e2103
-ms.sourcegitcommit: 5206651c12f2b91a368f509470b46f3f4c5641e6
+ms.openlocfilehash: eba4e740f6fd08ffd60b95dfc437551dfb95e7b8
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53983591"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54293686"
 ---
 # <a name="create-the-new-workspaces-preview-in-power-bi"></a>在 Power BI 中创建新工作区（预览）
 
@@ -63,7 +63,7 @@ Power BI 以预览的形式引入了新工作区体验。 工作区仍是与同�
 
 1. 选择“访问”。
 
-1. 将安全组、通讯组列表、Office 365 组或个人作为成员、参与者或管理员添加到这些工作区中。 有关不同角色的说明，请参阅后文的[新工作区中的角色](#roles-in-the-new-workspaces)。
+1. 将安全组、通讯组列表、Office 365 组或个人作为成员、参与者或管理员添加到这些工作区中。 有关不同角色的说明，请参阅[新工作区中的角色](service-new-workspaces.md#roles-in-the-new-workspaces)。
 
     ![在工作区中添加成员、管理员、参与者](media/service-create-the-new-workspaces/power-bi-access-add-members.png)
 

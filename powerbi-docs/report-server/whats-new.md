@@ -6,15 +6,15 @@ ms.author: maggies
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-report-server
+ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 08/16/2018
-ms.openlocfilehash: a365cab0420fdf373d62f5b1774a4d86985adfe3
-ms.sourcegitcommit: 60fb46b61ac73806987847d9c606993c0e14fb30
+ms.openlocfilehash: 91179ca37b8ba5c883785501588c9b12a02d644d
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/25/2018
-ms.locfileid: "50101246"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54292444"
 ---
 # <a name="whats-new-in-power-bi-report-server"></a>Power BI 报表服务器中的新增功能
 
@@ -122,7 +122,7 @@ Power BI 报表现在提供使用 Kerberos 的 SAP HANA SSO 直接查询支持�
 
 ### <a name="analytics"></a>分析
 
-- [新 DAX 函数：COMBINEVALUES()](https://powerbi.microsoft.com/blog/power-bi-report-server-update-august-2018/#combineValues)
+- [新的 DAX 函数：COMBINEVALUES()](https://powerbi.microsoft.com/blog/power-bi-report-server-update-august-2018/#combineValues)
 - [度量值钻取](https://powerbi.microsoft.com/blog/power-bi-report-server-update-august-2018/#measureDrillthrough)
 - [通过不同字段设置条件格式](https://powerbi.microsoft.com/blog/power-bi-report-server-update-august-2018/#conditionalFormattingField)
 - [通过值设置条件格式](https://powerbi.microsoft.com/blog/power-bi-report-server-update-august-2018/#conditionalFormattingValue)
@@ -216,7 +216,7 @@ Power BI 报表现在提供使用 Kerberos 的 SAP HANA SSO 直接查询支持�
 - [钻取筛选其他视觉对象](https://powerbi.microsoft.com/blog/power-bi-desktop-december-feature-summary/#drillFiltersOtherVisuals)
 - [适用于多行卡片的多维 AS 模型的单元格级格式设置](https://powerbi.microsoft.com/blog/power-bi-desktop-november-2017-feature-summary/#cellLevelFormatting)
 
-### <a name="performance"></a>Performance
+### <a name="performance"></a>性能
 
 - [筛选功能性能改进](https://powerbi.microsoft.com/blog/power-bi-desktop-november-2017-feature-summary/#filtering)
 - [DirectQuery 性能改进](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2018-feature-summary/#dqPerf)
@@ -272,7 +272,7 @@ Power BI 报表服务器中的 Power BI 报表可以连接到各种数据源。 
 * MaxFileSizeMb：默认值现在为 1000
 * ModelCleanupCycleMinutes：检查并从内存中收回模型的频率
 * ModelExpirationMinutes：根据上次使用时间，定义模型过期并被收回的时长
-* ScheduleRefreshTimeoutMinutes：一个模型的数据刷新可能需要的时长。 默认情况下，此值为两个小时。  没有固定上限。
+* ScheduleRefreshTimeoutMinutes：一个模型的数据刷新需要多长时间。 默认情况下，此值为两个小时。  没有固定上限。
 
 **配置文件 rsreportserver.config**
 

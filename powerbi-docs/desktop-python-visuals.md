@@ -5,17 +5,17 @@ author: otarb
 manager: rajatt
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-desktop
+ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 06/18/2018
 ms.author: otarb
 LocalizationGroup: Create reports
-ms.openlocfilehash: 588b8cd6289c1f5d1242ade73dea149474bfed38
-ms.sourcegitcommit: 698b788720282b67d3e22ae5de572b54056f1b6c
+ms.openlocfilehash: 7390f029144e5cb37830921071ad5c2c678b2d4d
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/17/2018
-ms.locfileid: "45975210"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54275470"
 ---
 # <a name="create-power-bi-visuals-using-python"></a>使用 Python 创建 Power BI 视觉对象
 借助 Power BI Desktop，可以使用 Python 将数据可视化。
@@ -107,7 +107,7 @@ Power BI Desktop 既不包括，也不会部署或安装 Python 引擎。 若要
 
     ![](media/desktop-python-visuals/python-visuals-8.png)
 
-    > Python 脚本安全性：Python 视觉对象是基于 Python 脚本创建的，这可能包含具有安全风险或隐私风险的代码。 当尝试查看 Python 视觉对象或首次与其交互时，用户会看到一条安全警告消息。 仅当你信任作者和来源，或者在查看并了解 Python 脚本之后，才启用 Python 视觉对象。
+    > **Python 脚本安全性：** Python 视觉对象是基于 Python 脚本创建的，这可能包含具有安全风险或隐私风险的代码。 当尝试查看 Python 视觉对象或首次与其交互时，用户会看到一条安全警告消息。 仅当你信任作者和来源，或者在查看并了解 Python 脚本之后，才启用 Python 视觉对象。
     > 
     > 
 

@@ -5,16 +5,16 @@ author: markingmyname
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-report-server
+ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 05/25/2018
 ms.author: maghan
-ms.openlocfilehash: 08c8075fe275ff1472d3e9845f954ef4d029b373
-ms.sourcegitcommit: 49570ab8f5b5cd5bab4cd388f4281b1372bcb80b
+ms.openlocfilehash: b7423a5b15f314050ee21b7eed5c3ea7ad960985
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/09/2018
-ms.locfileid: "35250421"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54291662"
 ---
 # <a name="develop-with-the-rest-apis-for-power-bi-report-server"></a>使用适用于 Power BI 报表服务器的 REST API 进行开发
 
@@ -30,7 +30,7 @@ REST API 请求/响应对可以分为五个组件：
 
 * 请求 URI，其中包括：`{URI-scheme} :// {URI-host} / {resource-path} ? {query-string}`。 尽管请求 URI 包含在请求消息标头中，但我们还是可以在此单独调出，因为大多数语言或框架都要求你单独将其从请求消息传递出去。
   
-  * URI 方案：指示用来传输请求的协议。 例如 `http` 或 `https`。
+  * URL 方案：指示用来传输请求的协议。 例如 `http` 或 `https`。
   * URI 主机：指定托管 REST 服务终结点的服务器的域名或 IP 地址，如 `myserver.contoso.com`。
   * 资源路径：指定资源或资源集合，其可能包括服务使用的用于确定资源选择的多个段。 例如：`CatalogItems(01234567-89ab-cdef-0123-456789abcdef)/Properties` 可用于获取 CatalogItem 的指定属性。
   * 查询字符串（可选）：提供附加的简单参数，如 API 版本或资源选择条件。

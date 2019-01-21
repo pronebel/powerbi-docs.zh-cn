@@ -5,17 +5,17 @@ author: maggiesMSFT
 manager: kfile
 ms.reviewer: willthom
 ms.service: powerbi
-ms.component: powerbi-service
+ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 10/17/2018
 ms.author: maggies
 LocalizationGroup: Ask questions of your data
-ms.openlocfilehash: 09bf82d86301967fb46b8724822e183a21008b92
-ms.sourcegitcommit: fdb54145f9bc93b312409c15c603749f3a4a876e
+ms.openlocfilehash: 760335b0a08156b3c5b594ffc27be4cb0ad12342
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/28/2018
-ms.locfileid: "52452720"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54289914"
 ---
 # <a name="edit-qa-linguistic-schema-and-add-phrasings-in-power-bi-desktop"></a>在 Power BI Desktop 中编辑“问答”功能的语言架构并添加短语 
 使用常用短语和自然语言来查询数据是一个非常有用的功能。 在用数据回答问题时，该项功能更为强大，而这就是 Power BI“问答”功能的作用。 向 Power BI“问答”功能提问时，它会尽力给出正确答案。 
@@ -78,7 +78,7 @@ ms.locfileid: "52452720"
 
 
 ## <a name="edit-a-linguistic-schema"></a>编辑语言架构
-首次从 Power BI Desktop 导出语言架构时，文件中的大部分或全部内容将由问答引擎自动生成。 使用“状态: 已生成”标记来指定所生成的实体、单词（同义词）、关系和短语，同时将其包含在文件中（主要供参考，但可在自行更改时以此为起点）。 
+首次从 Power BI Desktop 导出语言架构时，文件中的大部分或全部内容将由问答引擎自动生成。 这些生成的实体、单词（同义词）、关系和短语被指定为“状态：**已生成”** 标记并包含在文件中，主要用于提供信息，但是对于你自己的更改来说，这是一个有用的起点。 
 
 > [!NOTE]
 > 在本教程中包含的示例 YAML 文件中，没有“状态: 已生成”或“状态: 已删除”标记，因为它是专为本教程准备的。 要查看这些标记，请在关系视图中打开未编辑的 .pbix 文件并导出语言架构。
@@ -86,7 +86,7 @@ ms.locfileid: "52452720"
 ![显示“已生成:状态”的 YAML](media/power-bi-q-and-a-linguistic-schema/power-bi-generated-state.png)
 
 
-将语言架构文件重新导入 Power BI Desktop 时，将忽略标记为“状态：已生成”的所有内容（稍后重新生成），因此如果要更改某些已生成的内容，请确保同时删除相应的“状态：已生成”标记。 同样，如果要删除某些生成的内容，需要将“状态: 已生成”标记更改为“状态: 已删除”，以便在导入语言架构文件时不会重新生成该标记。
+当你将语言架构文件导入回 Power BI Desktop，任何标记为“状态：**生成”** 的内容都会被忽略（稍后会重新生成），因此，如果想对某些生成的内容进行更改，请确保删除相应的“状态：**已生成”** 标记。 同样，如果想删除一些生成的内容，则需要将“状态：**已生成”** 标记更改为“状态：**已删除”**，以便在导入语言架构文件时不会重新生成。
 
 1. 在 Power BI Desktop 关系视图中打开数据集。 
 2. 选择“建模”选项卡，然后选择“导出语言架构”。

@@ -5,17 +5,17 @@ author: davidiseminger
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-desktop
+ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 11/13/2018
 ms.author: davidi
 LocalizationGroup: Transform and shape data
-ms.openlocfilehash: 18d5b2ca504ec3533e2ded0e5480885ea862fb3a
-ms.sourcegitcommit: 6a6f552810a596e1000a02c8d144731ede59c0c8
+ms.openlocfilehash: 26ab2ec7dfd7a091a6a7df89ee4492dc124ed60c
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/14/2018
-ms.locfileid: "51619485"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54279173"
 ---
 # <a name="storage-mode-in-power-bi-desktop-preview"></a>Power BI Desktop 中的存储模式（预览版）
 
@@ -29,9 +29,9 @@ ms.locfileid: "51619485"
 
 * **大型数据集**：未缓存表不会出于缓存目的占用内存。 可以对大型数据集启用交互式分析，这些数据集因过大或过于昂贵而无法完全缓存到内存中。 可以选择哪些表值得缓存，而哪些不值得。
 
-* **数据刷新优化**：无需刷新未缓存表。 可以只缓存满足服务级别协议和业务需求所需的数据，从而减少刷新次数。
+* **数据刷新优化**：无需刷新未缓存的表。 可以只缓存满足服务级别协议和业务需求所需的数据，从而减少刷新次数。
 
-* **准实时需求**：不缓存可能会让具有准实时需求的表受益，以减少数据延迟。
+* **准实时需求**：不进行缓存可能会让具有准实时需求的表受益，以减少数据延迟。
 
 * **写回**：借助写回，业务用户可以更改单元格值，从而探索模拟方案。 自定义应用程序可以将更改应用到数据源。 未缓存表可以立即显示更改，可便于执行即时效果分析。
 
@@ -55,7 +55,7 @@ Power BI Desktop 中的存储模式设置是以下三个相关功能之一：
 
 存储模式有以下三个值：
 
-* **导入**：如果你将值设置为“导入”，系统缓存的是导入表。 如果查询提交到 Power BI 数据集，且返回“导入”模式表数据，那么就只能通过缓存数据完成。
+* **导入**：如果你将值设置为“导入”，则系统会缓存导入的表。 如果查询提交到 Power BI 数据集，且返回“导入”模式表数据，那么就只能通过缓存数据完成。
 
 * **DirectQuery**：如果你使用此设置，系统不会缓存 DirectQuery 表。 如果查询提交到 Power BI 数据集（例如，数据分析表达式 (DAX) 查询），且返回 DirectQuery 表数据，那么就只能通过对数据源执行按需查询完成。 提交到数据源的查询使用相应数据源的查询语言（例如，SQL）。
 

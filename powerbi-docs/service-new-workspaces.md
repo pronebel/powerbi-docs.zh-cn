@@ -5,17 +5,17 @@ author: maggiesMSFT
 manager: kfile
 ms.reviewer: lukaszp
 ms.service: powerbi
-ms.component: powerbi-service
+ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 12/21/2018
+ms.date: 01/11/2019
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 8856a8641b38b7a8256b199acccd54e030bdce40
-ms.sourcegitcommit: 5206651c12f2b91a368f509470b46f3f4c5641e6
+ms.openlocfilehash: dd4ee055501974345c819f7604ff30174cd4c5ba
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53984263"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54278982"
 ---
 # <a name="organize-work-in-the-new-workspaces-preview-in-power-bi"></a>组织 Power BI 中的新工作区中的工作（预览）
 
@@ -43,7 +43,7 @@ ms.locfileid: "53984263"
 
 ## <a name="roles-in-the-new-workspaces"></a>新工作区中的角色
 
-可将用户组或个人作为成员、参与者或管理员添加到新工作区中。 用户组中的每个人都会获得定义的角色。 如果某个人是多个用户组的成员，则其获得角色提供的最高级别的权限。  有关不同角色的说明，请参阅后文的[新工作区中的角色](#roles-in-the-new-workspaces)。
+可将用户组或个人作为成员、参与者或管理员添加到新工作区中。 用户组中的每个人都会获得定义的角色。 如果某个人是多个用户组的成员，则其获得角色提供的最高级别的权限。
 
 添加到工作区中的每个人都需要 Power BI Pro 许可证。 在工作区中，这些用户全都可协作处理计划向更广泛的受众，甚至整个组织发布的仪表板和报表。 如果要将内容分发给组织内的其他人，可将 Power BI Pro 许可证分配给这些用户，或将工作区置于 Power BI 高级容量中。
 
@@ -83,9 +83,7 @@ ms.locfileid: "53984263"
 
 当新工作区共正式发布 (GA) 后，用户可以选择自动迁移旧工作区。 在 GA 后的某个时刻，必须进行迁移。
 
-## <a name="power-bi-apps-faq"></a>Power BI 应用常见问题
-
-### <a name="how-are-the-new-workspaces-different-from-current-workspaces"></a>新工作区与当前工作区有何不同？
+## <a name="how-are-the-new-workspaces-different-from-current-workspaces"></a>新工作区与当前工作区有何不同？
 
 我们正在重新设计新工作区的某些功能。 以下是可以预见的对预览版的永久性更改。 
 
@@ -94,6 +92,13 @@ ms.locfileid: "53984263"
 - 可以从当前工作区创建组织内容包。 无法从新工作区创建组织内容包。
 - 可以从当前工作区使用组织内容包。 无法从新工作区使用组织内容包。
 - 在预览期间，新工作区尚未启用某些功能。 有关详细信息，请参阅下一节[计划的新工作区功能](service-new-workspaces.md#planned-new-workspace-preview-features)。
+
+## <a name="limitations-and-considerations"></a>限制和注意事项
+
+要注意的限制：
+
+- 工作区最多可以包含 1,000 个数据集，或每个数据集最多可以包含 1,000 个报表。 
+- 具有 Power BI Pro 许可证的人员最多可以成为 250 个工作区的成员。
 
 ## <a name="planned-new-workspace-preview-features"></a>计划的新工作区预览功能
 

@@ -5,16 +5,16 @@ author: markingmyname
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-developer
+ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 08/10/2017
 ms.author: maghan
-ms.openlocfilehash: 660f79eab32ae7ade5cea990c6fc152bb9507297
-ms.sourcegitcommit: fbb7924603f8915d07b5e6fc8f4d0c7f70c1a1e1
+ms.openlocfilehash: db3184f7bc3c181b685c22d0bcad27206b4a0f8f
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/02/2018
-ms.locfileid: "34285959"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54296354"
 ---
 # <a name="step-1-register-an-app-with-azure-ad"></a>步骤 1：将应用注册到 Azure AD
 本文是[将数据推送到数据集](walkthrough-push-data.md)的分步演练的一部分。

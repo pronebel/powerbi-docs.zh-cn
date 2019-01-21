@@ -5,17 +5,17 @@ author: davidiseminger
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-service
+ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 09/27/2018
 ms.author: davidi
 LocalizationGroup: Data refresh
-ms.openlocfilehash: bb29cd9edc5e44293344b7194ec94af482bd0166
-ms.sourcegitcommit: ce8332a71d4d205a1f005b703da4a390d79c98b6
+ms.openlocfilehash: 097f0ae9da29d193fd7a337c9a164ab8c67dc4d9
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/27/2018
-ms.locfileid: "47417363"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54277655"
 ---
 # <a name="data-refresh-in-power-bi"></a>Power BI 中的数据刷新
 确保始终获得最新数据对于制定正确决策通常是至关重要的。 你可能已在 Power BI 中使用“获取数据”连接到并上载一些数据，创建了一些报表和仪表板。 现在，你要确保数据确实是最新且最好的。

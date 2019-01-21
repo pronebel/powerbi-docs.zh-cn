@@ -1,23 +1,23 @@
 ---
-title: 教程︰使用 Power BI Desktop 进行 Facebook 分析
-description: 教程︰使用 Power BI Desktop 进行 Facebook 分析
+title: 教程：使用 Power BI Desktop 进行 Facebook 分析
+description: 教程：使用 Power BI Desktop 进行 Facebook 分析
 author: davidiseminger
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-desktop
+ms.subservice: powerbi-desktop
 ms.topic: tutorial
 ms.date: 11/28/2018
 ms.author: davidi
 LocalizationGroup: Learn more
-ms.openlocfilehash: ec90e63de1e42350ff205febdc66abf4ba6ee626
-ms.sourcegitcommit: 05303d3e0454f5627eccaa25721b2e0bad2cc781
+ms.openlocfilehash: ae2d40d5a53a7a84c0f6070a7be1011968d7ed7b
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/28/2018
-ms.locfileid: "52578488"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54276965"
 ---
-# <a name="tutorial-facebook-analytics-using-power-bi-desktop"></a>教程：使用 Power BI Desktop 的 Facebook 分析
+# <a name="tutorial-facebook-analytics-using-power-bi-desktop"></a>教程：使用 Power BI Desktop 进行 Facebook 分析
 
 在本教程中，你将学习如何导入来自 Facebook 的数据并在 Power BI Desktop 中使用该数据。 将从 Power BI Facebook 页面连接和导入数据，将转换应用于导入的数据，并在报表可视化效果中使用数据。
 
@@ -187,7 +187,7 @@ ms.locfileid: "52578488"
 2. 在“Power Query 编辑器”中，选择“评论数”列，并通过以下任一方法将数据类型更改为“整数”： 
    - 选择“评论数”列标题旁边的“1.2”图标，并从下拉列表中选择“整数”，或
    - 右键单击列标题，然后选择“更改类型”>“整数”，或
-   - 选择“主页”选项卡“转换”组中的“数据类型: 小数”，或选择”转换”选项卡的”任意列“组，然后选择”整数“。
+   - 选择“主页”选项卡 **“转换”组中的“数据类型: 小数”**，或选择“转换”选项卡的“任意列”组，然后选择“整数”。
    
    列标题中的图标更改为“123”，表示“整数”数据类型。
    

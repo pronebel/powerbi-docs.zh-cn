@@ -6,17 +6,17 @@ manager: kvivek
 ms.reviewer: ''
 featuredvideoid: ''
 ms.service: powerbi
-ms.component: powerbi-desktop
+ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 03/23/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 92c5ad6be98e77c7fb844d45ab135bfb9d1cd141
-ms.sourcegitcommit: e17fc3816d6ae403414cf5357afbf6a492822ab8
+ms.openlocfilehash: 6b438b9d9e66d336b94122fe96a707f0602261b4
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/04/2018
-ms.locfileid: "52829955"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54277964"
 ---
 # <a name="add-a-hyperlink-to-a-text-box-in-a-report"></a>向报表中的文本框添加超链接
 可以将文本框添加到报表，从报表固定到仪表板，然后直接添加到仪表板。 可将超链接添加到任意位置的文本框。  

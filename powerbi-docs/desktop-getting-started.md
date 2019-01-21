@@ -5,17 +5,17 @@ author: davidiseminger
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-desktop
+ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 11/28/2018
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: 5f202597fa641bf68b8e49c461ed5c25ea987c3e
-ms.sourcegitcommit: 2ae660a7b70fce23eb58b159d049eca44a664f2c
+ms.openlocfilehash: 019ee7985c27c72ca41a09c8d13754316fd60232
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/30/2018
-ms.locfileid: "52670914"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54291639"
 ---
 # <a name="getting-started-with-power-bi-desktop"></a>Power BI Desktop 入门
 欢迎使用 **Power BI Desktop 入门指南**。 此 Power BI Desktop 简短教学课程能让你熟悉它的运作方式、示范它的功能以及加速你构建稳固数据模型的能力 - 以令人惊叹的报表增强你的商业智慧工作。 
@@ -69,9 +69,9 @@ Power BI Desktop 会当作一个应用程序进行安装，并在桌面上运行
 
 ![](media/desktop-getting-started/designer_gsg_blankreport.png)
 
-Power BI Desktop 中有三种视图：**报表**视图、**数据**视图和**关系**视图。 Power BI Desktop 还包含 **查询编辑器**，其会在单独的窗口打开。 在**查询编辑器**中，你可以生成查询和转换数据，然后将经过优化的数据模型加载到 Power BI Desktop，并创建报表。
+在 Power BI Desktop 中有三种视图：“报表”视图、“数据”视图和“关系”视图。 Power BI Desktop 还包含 **查询编辑器**，其会在单独的窗口打开。 在**查询编辑器**中，你可以生成查询和转换数据，然后将经过优化的数据模型加载到 Power BI Desktop，并创建报表。
 
-下面的屏幕沿 Power BI Desktop 左侧自上而下显示了三个视图图标：**报表**、**数据**和**关系**。 当前显示的视图以左侧的黄色条表示。 在此示例中，当前显示了**报表**视图。 你可以通过选择这三个图标的任意一个更改视图。
+下面的屏幕沿 Power BI Desktop 左侧自上而下显示了三个视图图标：“报表”、“数据”和“关系”。 当前显示的视图以左侧的黄色条表示。 在此示例中，当前显示了**报表**视图。 你可以通过选择这三个图标的任意一个更改视图。
 
 ![](media/desktop-getting-started/designer_gsg_viewtypes.png)
 
@@ -94,7 +94,7 @@ Power BI Desktop 中有三种视图：**报表**视图、**数据**视图和**�
 
  ![](media/desktop-getting-started/gettingstarted_8.png)
 
-选择**确定**后，Power BI Desktop 的**查询**功能就会开始运行。 查询会联系 Web 资源，**导航器**窗口将返回它在此网页上找到的信息。 在本例中，它找到一个表格（ *表格 0* ）和整个 Web 文档。 我们对该表有兴趣，因此我们从列表中选择它。 **导航器**窗口会显示预览。
+选择**确定**后，Power BI Desktop 的**查询**功能就会开始运行。 查询会联系 Web 资源，**导航器**窗口将返回它在此网页上找到的信息。 在本例中，它找到一个表格（ *表格 0* ）和整个 Web 文档。 我们对该表有兴趣，因此我们从列表中选择它。 导“导航器”窗口会显示预览信息。
 
  ![](media/desktop-getting-started/datasources_fromnavigatordialog.png)
 
