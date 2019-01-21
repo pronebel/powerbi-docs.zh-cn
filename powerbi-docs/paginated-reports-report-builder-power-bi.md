@@ -23,7 +23,7 @@ ms.locfileid: "54282830"
 
 ![Power BI 服务中的分页报表](media/paginated-reports-report-builder-power-bi/power-bi-paginated-wwi-report-page.png)
 
-可以在报表生成器中预览报表，然后将报表发布到 Power BI 服务： http://app.powerbi.com。 需要具有 Power BI Pro 许可证才能将报表发布到服务。 只要工作区处于 Power BI 高级容量中，就可以在“我的工作区”或应用工作区中发布和共享分页报表。 另外，Power BI 管理员需要在 Power BI 管理门户中启用分页报表。 详细了解如何[配置工作负载](service-admin-premium-manage.md#configure-workloads)。 
+可以在报表生成器中预览报表，然后将报表发布到 Power BI 服务： http://app.powerbi.com 。 需要具有 Power BI Pro 许可证才能将报表发布到服务。 只要工作区处于 Power BI 高级容量中，就可以在“我的工作区”或应用工作区中发布和共享分页报表。 另外，Power BI 管理员需要在 Power BI 管理门户中启用分页报表。 详细了解如何[配置工作负载](service-admin-premium-manage.md#configure-workloads)。 
 
 ## <a name="create-reports-in-report-builder"></a>在报表生成器中创建报表
 
