@@ -5,17 +5,17 @@ author: davidiseminger
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-desktop
+ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 09/27/2018
 ms.author: davidi
 LocalizationGroup: Model your data
-ms.openlocfilehash: a171dd2aa375f8d12830b051dd8ce6437e4b3236
-ms.sourcegitcommit: a739a99e1006834a0f56e387c0bd9d945fb8a76b
+ms.openlocfilehash: 323391268e930d3b7b2926590f3377b850b65624
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/15/2018
-ms.locfileid: "51679446"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54282577"
 ---
 # <a name="dax-basics-in-power-bi-desktop"></a>Power BI Desktop 中的 DAX 基本概念
 本文适用于刚开始使用 Power BI Desktop 的用户。 其目的是为你提供有关如何使用数据分析表达式 (DAX) 的快速而简单的介绍，以便解决一些基本计算和数据分析问题。 我们将逐一探讨一些概念性信息、一系列可以完成的任务以及测试所学内容的几项测验。 学习完本文后，你便可充分了解 DAX 中最重要的基本概念。
@@ -33,10 +33,10 @@ DAX 是公式或表达式中可用于计算并返回一个或多个值的函数�
 
 **示例工作簿**
 
-了解 DAX 的最佳方式是创建一些基本公式，用它来处理一些实际数据，并亲自查看结果。 此处的示例和任务使用 Power BI Desktop Preview 的 Contoso 销售示例文件。 这是在[《教程：在 Power BI Desktop 中创建自己的度量值》](desktop-tutorial-create-measures.md)一文中所用的相同示例文件。 以下是要下载的[示例文件](http://download.microsoft.com/download/4/6/A/46AB5E74-50F6-4761-8EDB-5AE077FD603C/Contoso%20Sales%20for%20Power%20BI%20Designer.zip)。
+了解 DAX 的最佳方式是创建一些基本公式，用它来处理一些实际数据，并亲自查看结果。 此处的示例和任务使用 Power BI Desktop Preview 的 Contoso 销售示例文件。 这是在[教程：在 Power BI Desktop 中创建你自己的度量值](desktop-tutorial-create-measures.md)一文中使用的相同示例文件。 以下是要下载的[示例文件](http://download.microsoft.com/download/4/6/A/46AB5E74-50F6-4761-8EDB-5AE077FD603C/Contoso%20Sales%20for%20Power%20BI%20Designer.zip)。
 
 ## <a name="lets-begin"></a>现在就开始吧！
-我们将围绕三个基本概念来了解 DAX：语法、函数和上下文。 当然，DAX 还有其他重要概念，但了解这三个概念将为你学习 DAX 技能奠定最佳基础。
+我们将围绕三个基本概念来阐述对 DAX 的理解：语法、函数和上下文。 当然，DAX 还有其他重要概念，但了解这三个概念将为你学习 DAX 技能奠定最佳基础。
 
 ### <a name="syntax"></a>语法
 创建你自己的公式之前，我们来看看 DAX 公式语法。 语法包括组成公式的各种元素，简单来说就是公式的编写方式。 例如，我们来看一下某个度量值的简单 DAX 公式。
@@ -83,9 +83,9 @@ DAX 是公式或表达式中可用于计算并返回一个或多个值的函数�
 ### <a name="task-create-a-measure-formula"></a>任务：创建度量值公式
 若要完成此任务，需要打开 Power BI Desktop 的 Contoso 销售示例文件。
     
-1. 在“报表”视图的字段列表中，右键单击 **Sales** 表，然后单击新度量值。
+1. 在“报表”视图的字段列表中，右键单击 **Sales** 表，然后单击**新度量值**。
     
-2. 在编辑栏中，通过键入新的度量值名称 Previous Quarter Sales 来替换**度量值**。
+2. 在编辑栏中，通过键入新的度量值名称 **Previous Quarter Sales** 来替换**度量值**。
     
 3. 在等号后键入前几个字母 CAL，然后双击要使用的函数。 在此公式中，需要使用 CALCULATE 函数。
 
@@ -134,7 +134,7 @@ DAX 是公式或表达式中可用于计算并返回一个或多个值的函数�
 ### <a name="functions"></a>函数
 函数是通过使用特定值、调用参数，并按特定顺序或结构来执行计算的预定义公式。 参数可以是其他函数、另一个公式、表达式、列引用、数字、文本、逻辑值（如 TRUE 或 FALSE）或者常量。
 
-DAX 包括以下函数类别：[日期和时间](https://msdn.microsoft.com/library/ee634786.aspx)函数、[时间智能](https://msdn.microsoft.com/library/ee634763.aspx)函数、[信息](https://msdn.microsoft.com/library/ee634552.aspx)函数、[逻辑](https://msdn.microsoft.com/library/ee634365.aspx)函数、[数学](https://msdn.microsoft.com/library/ee634241.aspx)函数、[统计](https://msdn.microsoft.com/library/ee634822.aspx)函数、[文本](https://msdn.microsoft.com/library/ee634938.aspx)函数、[父/子](https://msdn.microsoft.com/library/mt150102.aspx)函数和[其他](https://msdn.microsoft.com/library/mt150101.aspx)函数。 如果你熟悉 Excel 公式中的函数，那么 DAX 中的很多函数都会让你觉得相似；但是，DAX 函数在以下方面是独一无二的：
+DAX 包含以下函数类别：[日期和时间](https://msdn.microsoft.com/library/ee634786.aspx)函数、[时间智能](https://msdn.microsoft.com/library/ee634763.aspx)函数、[信息](https://msdn.microsoft.com/library/ee634552.aspx)函数、[逻辑](https://msdn.microsoft.com/library/ee634365.aspx)函数、[数学](https://msdn.microsoft.com/library/ee634241.aspx)函数、[统计](https://msdn.microsoft.com/library/ee634822.aspx)函数、[文本](https://msdn.microsoft.com/library/ee634938.aspx)函数、[父/子](https://msdn.microsoft.com/library/mt150102.aspx)函数和[其他](https://msdn.microsoft.com/library/mt150101.aspx)函数。 如果你熟悉 Excel 公式中的函数，那么 DAX 中的很多函数都会让你觉得相似；但是，DAX 函数在以下方面是独一无二的：
 
 * DAX 函数始终引用完整列或表。 如果你仅想使用某个表或列中的特定值，则可以向公式添加筛选器。
 * 如果需要逐行自定义计算，DAX 提供可让你将当前行值或相关值用作一种参数的函数，以便执行因上下文而变的计算。 稍后你将了解有关上下文的详细信息。
@@ -160,7 +160,7 @@ DAX 包括以下函数类别：[日期和时间](https://msdn.microsoft.com/libr
 
 **筛选器上下文**
 
-筛选上下文比行上下文稍微更难理解。 最简单的做法就是将筛选上下文想象成：决定结果或值的计算中所应用的一个或多个筛选器。
+筛选上下文比行上下文稍微更难理解。 可以非常轻松地将筛选器上下文视为：决定结果或值的计算中所应用的一个或多个筛选器。
 
 筛选上下文并非原本就存在于行上下文中；而是另外应用到行上下文。 例如，若要进一步缩小要包括在计算中的值，可以应用筛选上下文，该筛选上下文不仅要指定行上下文，还要仅指定该行上下文中的特定值（筛选）。
 

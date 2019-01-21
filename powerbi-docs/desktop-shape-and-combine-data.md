@@ -5,17 +5,17 @@ author: davidiseminger
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-desktop
+ms.subservice: powerbi-desktop
 ms.topic: tutorial
 ms.date: 11/28/2018
 ms.author: davidi
 LocalizationGroup: Transform and shape data
-ms.openlocfilehash: e23182b1e607498c5187882740b556455657ba1d
-ms.sourcegitcommit: 2ae660a7b70fce23eb58b159d049eca44a664f2c
+ms.openlocfilehash: f39f5ae569c757072a55647becb5697c881abbe2
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/30/2018
-ms.locfileid: "52670889"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54285660"
 ---
 # <a name="tutorial-shape-and-combine-data-in-power-bi-desktop"></a>教程：在 Power BI Desktop 中调整和合并数据
 
@@ -81,7 +81,7 @@ ms.locfileid: "52670889"
 
 ![](media/desktop-shape-and-combine-data/shapecombine_removecolumnscostofliving.png)
 
-请注意，新排名值未发生更改；其原因在于步骤的顺序。 由于查询编辑器按顺序记录步骤，但各个步骤相互独立，因此可在序列中上下移动每个**所应用步骤**。 只需右键单击任意步骤，查询编辑器就会提供一个菜单，让你执行下述操作：**重命名**、**删除**、**删除** **到末尾**（删除当前步骤及所有后续步骤）、**上移**或**下移**。 请继续，并将最后一步“已删除列”上移至“已添加自定义”步骤的正上方。
+请注意，新排名值未发生更改；其原因在于步骤的顺序。 由于查询编辑器按顺序记录步骤，但各个步骤相互独立，因此可在序列中上下移动每个**所应用步骤**。 只需右键单击任意步骤，查询编辑器就会提供一个菜单，让你执行下述操作：重命名、删除、删除到末尾（删除当前步骤及所有后续步骤）、上移或下移。 请继续，并将最后一步“已删除列”上移至“已添加自定义”步骤的正上方。
 
 ![](media/desktop-shape-and-combine-data/shapecombine_movestep.png)
 
@@ -179,7 +179,7 @@ ms.locfileid: "52670889"
 
 ![](media/desktop-shape-and-combine-data/shapecombine_filterdc.png)
 
-* 删除一些不需要的列 - 只需将州映射到其两个字母的官方缩写，因此可删除以下列：Column1、Column3、Column4，然后是 Column6 到 Column11。 首先选择“Column1”，然后按住 CTRL 键并选择要删除的其他列（可由此选择多个不相邻的列）。 从功能区的“开始”选项卡上，选择**删除列 \> 删除列**。
+* 删除一些不必要的列 – 只需将州映射到其两个字母的官方缩写，因此可以删除下面的数据列：列 1、列 3、列 4，然后删除列 6 到列 11。 首先选择“Column1”，然后按住 CTRL 键并选择要删除的其他列（可由此选择多个不相邻的列）。 从功能区的“开始”选项卡上，选择**删除列 \> 删除列**。
 
 ![](media/desktop-shape-and-combine-data/shapecombine_removecolumns.png)
 
