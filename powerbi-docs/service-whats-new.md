@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/16/2018
 ms.author: nikhilga
 LocalizationGroup: Get started
-ms.openlocfilehash: 32a052ca009c613b262d5277a0fd85b186c8e148
-ms.sourcegitcommit: 658b0de4f5a544d0906665b40925552804a61880
+ms.openlocfilehash: acfc4062677a28824458781b900b271bedd51eb8
+ms.sourcegitcommit: 2c49a7cee9c77f46830ddfa59fdedbf30186d389
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/19/2019
-ms.locfileid: "54406744"
+ms.lasthandoff: 01/23/2019
+ms.locfileid: "54488905"
 ---
 ---
 # <a name="whats-new-in-the-power-bi-service"></a>Power BI 服务中的新功能
@@ -197,7 +197,7 @@ ms.locfileid: "54406744"
 ***行级别安全性 (RLS)***
 
 * Azure Active Directory (AAD) 组支持：用户现在可以向角色分配 AAD 组（安全组和通讯组列表）。 使向大型用户组分配角色变得更加容易。
-* [通过由已有 RLS 数据支持的报表来测试你的 RLS 角色](service-admin-rls.md#validating-the-role-within-power-bi-desktop)：我们为 RLS 预览增加了这项功能，使你可以作为特定角色测试数据集。 从而确保在任何用户操作你的仪表板之前，角色按照你的预期工作。
+* [通过由已有 RLS 数据支持的报表来测试你的 RLS 角色](service-admin-rls.md#validate-the-roles-within-power-bi-desktop)：我们为 RLS 预览增加了这项功能，使你可以作为特定角色测试数据集。 从而确保在任何用户操作你的仪表板之前，角色按照你的预期工作。
 * 定义 RLS 并将其应用到基于直接查询的云模型：你现在可以为直接查询数据源创建并应用 RLS 规则。
 
 ***仪表板***
