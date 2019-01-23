@@ -1,7 +1,7 @@
 ---
 title: Power BI 与 Microsoft Flow 的集成
 description: 了解如何创建由 Power BI 数据警报触发的流。
-author: mihart
+author: mgblythe
 manager: kfile
 ms.reviewer: ''
 featuredvideoid: YhmNstC39Mw
@@ -9,14 +9,14 @@ ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 03/01/2018
-ms.author: mihart
+ms.author: mblythe
 LocalizationGroup: Get started
-ms.openlocfilehash: 2d73710b9fc41a8cb6a3d8287dc939323d71f7dd
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: f39912f5813f67ed65afde10a0e157385e98b7b7
+ms.sourcegitcommit: 658b0de4f5a544d0906665b40925552804a61880
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54289799"
+ms.lasthandoff: 01/19/2019
+ms.locfileid: "54406606"
 ---
 # <a name="microsoft-flow-and-power-bi"></a>Microsoft Flow 和 Power BI
 
@@ -100,7 +100,7 @@ ms.locfileid: "54289799"
 4. 填写事件字段。 在你选择字段的同时，Flow 会显示可以包含的动态内容。
    
    ![继续生成流](media/service-flow-integration/power-bi-flow-event.png)
-5. 完成后，选择“**创建流**”。  此时，Flow 会保存并计算流。 如果没有错误，请选择“**完成**”运行此流。  此时，系统会将这一新流添加到“**我的流**”页中。
+5. 完成后，选择“创建流”。  此时，Flow 会保存并计算流。 如果没有错误，请选择“**完成**”运行此流。  此时，系统会将这一新流添加到“**我的流**”页中。
    
    ![完成流](media/service-flow-integration/power-bi-flow-running.png)
 6. 当 Power BI 数据警报触发流时，你会收到如下 Outlook 事件通知。

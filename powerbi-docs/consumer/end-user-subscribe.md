@@ -1,6 +1,6 @@
 ---
-title: 在 Power BI 服务中订阅报表和仪表板
-description: 了解如何为你自己和其他人订阅 Power BI 报表和仪表板快照。
+title: 为 Power BI 使用者订阅报表和仪表板
+description: 了解如何为你自己订阅 Power BI 报表和仪表板的电子邮件快照。
 author: mihart
 manager: kvivek
 ms.reviewer: ''
@@ -8,15 +8,14 @@ featuredvideoid: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 12/06/2018
-ms.author: mihart
+ms.date: 01/17/2019
 LocalizationGroup: Common tasks
-ms.openlocfilehash: 226d36690d2e3e98588802aa1e4fd9d5f7128ef0
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: b07d3c1d8dec979c70eed86c01307f69af3e8396
+ms.sourcegitcommit: ccbe76a0a43c5c5e87354a33e617bf3cb291608e
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54293001"
+ms.lasthandoff: 01/18/2019
+ms.locfileid: "54394639"
 ---
 # <a name="subscribe-to-a-report-or-dashboard-in-power-bi-service"></a>在 Power BI 服务中订阅报表和仪表板 
 现在，及时更新最重要的仪表板和报表，比以前更加轻松。 订阅最重要的报表页和仪表板，Power BI 将会通过电子邮件将快照发送到收件箱。 告知 Power BI 所需的电子邮件接收频率：从每天一次到每周一次。 

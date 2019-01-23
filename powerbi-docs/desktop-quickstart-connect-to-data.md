@@ -10,12 +10,12 @@ ms.topic: quickstart
 ms.date: 11/28/2018
 ms.author: davidi
 LocalizationGroup: quickstart
-ms.openlocfilehash: 4b8cd79eca1711b424d772737b27400f9291cef0
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 4d121a469257c79e37212ab0e357bb9ee8be68ec
+ms.sourcegitcommit: 19b4d45db8f55cdbb5d7de0d61f6be5163a2852e
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54279196"
+ms.lasthandoff: 01/22/2019
+ms.locfileid: "54420777"
 ---
 # <a name="quickstart-connect-to-data-in-power-bi-desktop"></a>快速入门：连接到 Power BI Desktop 中的数据
 
@@ -39,13 +39,13 @@ ms.locfileid: "54279196"
 
 ## <a name="connect-to-data"></a>连接到数据
 
-使用 **Power BI Desktop** 可以连接到许多不同类型的数据。 可以连接到诸如 Microsoft Excel 文件的基本数据源，也可以连接到包含各类数据的联机服务，例如 Salesforce、Microsoft Dynamics、Azure Blob 存储等。 
+使用 **Power BI Desktop** 可以连接到许多不同类型的数据。 可以连接到诸如 Microsoft Excel 文件的基本数据源，也可以连接到包含各类数据的联机服务，例如 Salesforce、Microsoft Dynamics、Azure Blob 存储等。
 
 若要连接到数据，请在“主页”功能区中选择“获取数据”。
 
 ![获取数据](media/desktop-quickstart-connect-to-data/qs-connect-data_02.png)
 
-“获取数据”窗口随即出现，可在其中从 Power BI Desktop 可以连接到的众多不同数据源中进行选择。 在本快速入门教程，我们使用已下载的 Excel 工作簿，如本文开头的“先决条件”部分所述。 
+“获取数据”窗口随即出现，可在其中从 Power BI Desktop 可以连接到的众多不同数据源中进行选择。 在本快速入门教程，我们使用已下载的 Excel 工作簿，如本文开头的“先决条件”部分所述。
 
 ![获取数据](media/desktop-quickstart-connect-to-data/qs-connect-data_03.png)
 
@@ -69,10 +69,8 @@ ms.locfileid: "54279196"
 
 就是这么简单！ 你已使用 Power BI Desktop 连接到数据源并加载该数据，现在可以看到这些表中的所有可用字段。
 
-
 ## <a name="next-steps"></a>后续步骤
+
 一旦连接到数据，便可以通过 Power BI Desktop 执行各类操作，如创建视觉对象和报表。 请参阅以下资源继续：
 
 * [Power BI Desktop 入门指南](desktop-getting-started.md)
-
-

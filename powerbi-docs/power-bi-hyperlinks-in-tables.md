@@ -1,22 +1,22 @@
 ---
 title: 向表中添加超链接
 description: 使用 Power BI Desktop 创建超链接。 然后使用 Desktop 或 Power BI 服务将这些超链接添加到报表表格和矩形图。
-author: mihart
-manager: kvivek
+author: maggiesMSFT
+manager: kfile
 ms.reviewer: ''
 ms.custom: seodec18
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 12/06/2018
-ms.author: mihart
+ms.date: 01/16/2019
+ms.author: maggies
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 637253e3cffebcba7df0a3bc3ce44e943b909364
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 972abb3781cbaaff8a9617b70988c21f7389d4f9
+ms.sourcegitcommit: 658b0de4f5a544d0906665b40925552804a61880
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54279886"
+ms.lasthandoff: 01/19/2019
+ms.locfileid: "54406652"
 ---
 # <a name="add-hyperlinks-to-a-table"></a>向表中添加超链接
 本主题介绍如何使用 Power BI Desktop 创建超链接。 然后使用 Desktop 或 Power BI 服务将这些超链接添加到报表表格和矩形图。 
@@ -25,7 +25,6 @@ ms.locfileid: "54279886"
 
 > [!NOTE]
 > [仪表板上的磁贴](service-dashboard-edit-tile.md)和[仪表板上的文本框](service-dashboard-add-widget.md)中的超链接可使用 Power BI 服务实时创建。 [报表中的文本框](service-add-hyperlink-to-text-box.md)中的超链接可以使用 Power BI 服务和 Power BI Desktop 实时创建。
-> 
 > 
 
 ## <a name="to-create-a-hyperlink-in-a-table-or-matrix-using-power-bi-desktop"></a>使用 Power BI Desktop 创建表或矩阵中的超链接
@@ -52,11 +51,11 @@ ms.locfileid: "54279886"
    
    * 选择图表，使其处于活动状态。
    * 选择滚动油漆刷图标 ![滚动油漆刷图标](media/power-bi-hyperlinks-in-tables/power-bi-paintroller.png) 打开“格式设置”选项卡。
-   * 展开“**值**”，找到 **URL 图标** 并将其**打开。**
+   * 展开“值”，找到“URL 图标”并将其“打开”。
 6. （可选）[将报表从 Desktop 发布到 Power BI 服务](guided-learning/publishingandsharing.yml?tutorial-step=2)，并在 Power BI 服务中打开报表。 超链接也将在那里运作。
 
 ### <a name="for-data-connected-with-directquery"></a>对于与 DirectQuery 连接的数据
-将无法在 DirectQuery 模式下创建一个新列。  但是，如果数据已包含 URL，可以将这些数据转变为超链接。
+无法在 DirectQuery 模式下创建一个新列。  但是，如果数据已包含 URL，可以将这些数据转变为超链接。
 
 1. 在报表视图中，使用含有 URL 的字段创建表。
 2. 选择该列，并在“**建模**”选项卡上选择“**数据类别**”下拉列表。

@@ -8,15 +8,15 @@ ms.custom: seodec18
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: Conceptual
-ms.date: 12/06/2018
+ms.date: 01/17/2019
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: 28dcba5a44da4d0acd8f1b6d0a1bfce655eb46bd
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: e648257ecd657b07d02fbff69a3424159b636059
+ms.sourcegitcommit: ccbe76a0a43c5c5e87354a33e617bf3cb291608e
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54280093"
+ms.lasthandoff: 01/18/2019
+ms.locfileid: "54394681"
 ---
 # <a name="change-how-a-chart-is-sorted-in-a-power-bi-report"></a>更改 Power BI 报表中的图表排序方式
 在 Power BI 报表中，可以按图表中类别名称的字母顺序，或者每个类别的数值对大多数可视化对象排序。 例如，下图按“商店名称”类别排序。
@@ -33,17 +33,17 @@ ms.locfileid: "54280093"
    **注意**：并非所有视觉对象都可以进行排序。  例如，以下视觉对象不能进行排序：树状图、地图、着色地图、散点图、仪表、卡、多行卡、瀑布图。
 
 ## <a name="saving-changes-you-make-to-sort-order"></a>保存对排序顺序的更改
-Power BI 报表可保留你对筛选器、切片器、排序和其他数据视图的更改。 因此，如果离开报表并在稍后返回，会保存你的更改。  如果想要将更改还原为报表创建者的设置，请选择顶部菜单栏中的“重置为默认值”。 
+Power BI 报表可保留你对筛选器、切片器、排序和其他数据视图的更改。 因此，如果离开报表并在稍后返回，会保存你的更改。  如果想要将更改还原为报表设计者的设置，请选择顶部菜单栏中的“重置为默认值”。 
 
 ![持久性排序](media/end-user-change-sort/power-bi-reset-to-default.png)
 
-但是，如果“重置为默认值”按钮灰显，则表示创建者已禁用保存（保留）更改的功能。
+但是，如果“重置为默认值”按钮灰显，则表示设计者已禁用保存（保留）更改的功能。
 
 <a name="other"></a>
 ## <a name="sorting-using-other-criteria"></a>使用其他条件排序
 有时候，你想使用不同的字段或其他条件对视觉对象排序。  例如，你可能想按月份（而不是字母顺序）排序，或者按整个数值而不是数字排序（例如 0、1、9、20，而不是 0、1、20、9）。  
 
-在某些情况下，你可以按照你想要的方式对视觉对象进行排序，例如按月。  但如果不是，可能是因为报表背后的数据集需要一些调整。 要求报表创建者更新数据集。
+在某些情况下，你可以按照你想要的方式对视觉对象进行排序，例如按月。  但如果不是，可能是因为报表背后的数据集需要一些调整。 要求报表设计者更新数据集。
 
 ## <a name="next-steps"></a>后续步骤
 [Power BI 报表中的可视化对象](end-user-visualizations.md)的详细信息。

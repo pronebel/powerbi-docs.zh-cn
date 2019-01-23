@@ -1,6 +1,6 @@
 ---
-title: 适用于 Power BI 使用者的常见问题
-description: Power BI 常见问题
+title: Power BI 中有关最终用户的常见问题
+description: 浏览有关 Power BI 服务和 Power BI 移动应用的常见问题和解答列表。
 author: mihart
 manager: kvivek
 ms.custom: seodec18
@@ -8,15 +8,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 12/21/2018
+ms.date: 01/16/2019
 ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: b292e6df7cb01e26b610ffb99ec5b794df933bfa
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 8eb428857e98a696ffb368c729525acd80e268f2
+ms.sourcegitcommit: ccbe76a0a43c5c5e87354a33e617bf3cb291608e
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54287552"
+ms.lasthandoff: 01/18/2019
+ms.locfileid: "54394773"
 ---
 # <a name="frequently-asked-questions-about-power-bi"></a>有关 Power BI 的常见问题
 * 如果你有其他问题，请[尝试询问 Power BI 社区](http://community.powerbi.com/)。
@@ -41,7 +41,7 @@ Power BI Pro 的订阅生命周期与 Office 365 相同。 有关详细信息，
 可查看 Power BI 的 Azure Active Directory 集成应用程序报表，从而发现组织中的活跃用户。 Azure AD 报表并不会指出每个用户拥有的许可证类型。 它只报告哪些用户已登录到 Power BI 及其登录时间。 有关详细信息，请参阅[查找已登录的 Power BI 用户](../service-admin-access-usage.md)。
 
 ## <a name="what-is-power-bi-desktop"></a>什么是 Power BI Desktop？
-Power BI Desktop 是一款免费的桌面应用程序，可将其直接安装在自己的计算机上。 Power BI Desktop 通过提供具有高度交互性的可视化效果的高级数据浏览、定型、建模和报告创建功能，紧密配合 Power BI 服务进行工作。 你可以将工作保存到文件，并将数据和报表直接发布到 Power BI 站点，以与其他人共享。 阅读有关[什么是 Power BI Desktop](../desktop-what-is-desktop.md) 的详细信息。
+Power BI Desktop 是一款免费的应用程序，用户可将其直接安装在他们的计算机上。 Power BI Desktop 与 Power BI 服务紧密配合工作。  数据科学家、管理员和开发人员使用 Power BI Desktop 来生成报表，并将其提供给像你这样的 Power BI 服务用户。 阅读有关[什么是 Power BI Desktop](../desktop-what-is-desktop.md) 的详细信息。
 
 ## <a name="what-do-i-need-to-use-power-bi-service"></a>使用 Power BI 服务需要什么？
 仅需要 Web 浏览器和工作电子邮件地址。 可使用 .gov 和 .mil 电子邮件地址进行注册。 有关详细信息，请参阅[在 Power BI 服务中注册你的美国政府组织](../service-govus-signup.md) 
@@ -49,14 +49,8 @@ Power BI Desktop 是一款免费的桌面应用程序，可将其直接安装在
 ## <a name="why-do-i-have-to-sign-up-with-my-work-email"></a>为什么必须使用我的工作电子邮件注册？
 Power BI 不支持由使用者电子邮件服务或电信提供商提供的电子邮件地址。 了解有关 [Power BI 自助服务注册过程](../service-self-service-signup-for-power-bi.md)的详细信息。
 
-## <a name="is-power-bi-available-on-premises"></a>Power BI 在本地可用吗？
-Power BI 服务 [https://powerbi.com](https://powerbi.com) 不可用作专用的内部云服务。 但是，还有其他三个选项可用于查看和处理本地数据。 
-
-### <a name="on-premises-data-gateway"></a>本地数据网关
-通过 Power BI 和 Power BI Desktop，可以安全地连接到自己的本地数据源。 通过[本地数据网关](../service-gateway-onprem.md)，可以实时连接到本地 SQL Server Analysis Services 服务器以及其他数据源。 还可以使用集中式网关设置计划刷新。 如果网关不可用，则可以使用 [Power BI Gateway - Personal](../service-gateway-personal-mode.md) 从本地数据源刷新数据。
-
-### <a name="power-bi-mobile-apps"></a>Power BI 移动应用
-还可以[通过 Power BI 移动应用查看本地 Power BI 报表、Reporting Services 移动报表和 KPI](mobile/mobile-app-ssrs-kpis-mobile-on-premises-reports.md)。
+## <a name="is-government-academic-and-nonprofit-pricing-available-for-power-bi"></a>Power BI 是否提供政府部门、学术机构和非营利性组织定价？
+是的，从 Microsoft 直接购买时，可提供非营利性组织定价。 可通过 [Microsoft 非营利性组织](https://www.microsoft.com/en-us/nonprofits/power-bi)网站了解详细信息并注册。 政府部门和学术机构定价通过 MOSP/Direct、EA 和 Open 授权计划提供。 政府定价也适用于联合。 
 
 ## <a name="does-power-bi-support-mobile-devices"></a>Power BI 是否支持移动设备？
 是的。 Power BI 拥有适用于 Android 手机和平板电脑、iOS 设备和 Windows 10 设备的本机应用。 从对应的应用商店下载以下 [Power BI 移动应用](https://powerbi.microsoft.com/mobile)之一：  
@@ -96,6 +90,11 @@ Power BI 服务 [https://powerbi.com](https://powerbi.com) 不可用作专用的
 可以直接购买或者通过在 [www.powerbi.com](http://www.powerbi.com) 与代表聊天的方式购买 Power BI Pro 许可证。
 
 你还可以找到 [Microsoft 合作伙伴](https://partner.microsoft.com/)以帮助你实现 Power BI。
+
+## <a name="what-happens-if-my-power-bi-pro-license-expires"></a>如果我的 Power BI Pro 许可证已过期，会发生什么情况？
+Power BI Pro 许可证过期后，还有一个宽限期。 对于批量购买的许可证，宽限期为 90 天。 如果是直接购买许可证，则宽限期为 30 天。
+
+Power BI Pro 的订阅生命周期与 Office 365 相同。 有关详细信息，请参阅 [Office 365 商业版订阅过期时，我的数据和访问权限会发生什么变化？](https://support.office.com/article/What-happens-to-my-data-and-access-when-my-Office-365-for-business-subscription-ends-4436582f-211a-45ec-b72e-33647f97d8a3)
 
 ## <a name="does-power-bi-meet-national-regional-and-industry-specific-compliance-requirements"></a>Power BI 是否满足特定于国家、地区和行业的合规性要求？
 在 [Microsoft 信任中心](http://go.microsoft.com/fwlink/?LinkId=785324)了解有关 Power BI 合规性的详细信息。

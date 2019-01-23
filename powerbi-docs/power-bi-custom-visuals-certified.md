@@ -10,12 +10,12 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: conceptual
 ms.date: 11/21/2018
-ms.openlocfilehash: bfe3421b2c2328ee65cb8f34b43b34de8fe98723
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 03b18d4d603b09d34dd3f99decc841c3bae934f4
+ms.sourcegitcommit: ccbe76a0a43c5c5e87354a33e617bf3cb291608e
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54280208"
+ms.lasthandoff: 01/18/2019
+ms.locfileid: "54394842"
 ---
 # <a name="certified-custom-visuals"></a>认证的自定义视觉对象
 
@@ -74,6 +74,10 @@ Microsoft 可自行从[经认证列表](#list-of-custom-visuals-that-have-been-c
 | AppSource 链接 | 链接到视频 |
 | --- | --- |
 | [3AG 系统 - 具有相对方差的柱形图](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104381803) | |
+| [高级环形图视觉对象](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104381941) | |
+| [高级网络可视化效果](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104381942) | |
+| [高级 TimeSeries 视觉对象](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104381943) | |
+| [高级组合图视觉对象](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104381944) | |
 | [星状体图](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380759) | |
 | [Beyondsoft 日历](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104381096) | |
 | [MAQ 软件蝴蝶结图](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380838) | [视频](https://youtu.be/So5xKMSpVJI) |
