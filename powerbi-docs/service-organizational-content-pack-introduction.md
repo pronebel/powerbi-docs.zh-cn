@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 08/02/2018
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 3fa76b19e187f7a27dc8b9268dad4d9b5ab8f101
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: f7e8d58e5fd738e5da678723ef239f5303be5070
+ms.sourcegitcommit: 54907bb59a5c31b25d368d83a0c4faa5e2f0db66
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54286372"
+ms.lasthandoff: 01/24/2019
+ms.locfileid: "54838453"
 ---
 # <a name="intro-to-organizational-content-packs-in-power-bi"></a>Power BI 中的组织内容包简介
 > [!NOTE]
@@ -41,8 +41,6 @@ ms.locfileid: "54286372"
 发布组织内容包会将它添加到 AppSource 中。  通过此集中存储库，各成员可以轻松浏览和发现为其发布的仪表板、报表和数据集。  
 
 * 若要查看 AppSource，请依次选择“获取数据” > “我的组织” > “获取”。
-
-阅读有关[查找和打开组织内容包](consumer/end-user-content-pack.md)的详细信息。
 
 ## <a name="the-life-cycle-of-an-organizational-content-pack"></a>组织内容包的生命周期
 任何 Power BI Pro 用户都可以创建、发布和访问组织内容包。 只有内容包创建者才能修改工作簿和数据集、安排刷新以及删除内容包。
