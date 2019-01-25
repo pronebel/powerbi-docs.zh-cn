@@ -9,18 +9,41 @@ ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 03/31/2018
 ms.author: jtarquino
-ms.openlocfilehash: edf953f2512550660fd914d2fe54c28dcd01fa24
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 18a2d6833f0013f95ac0a5dea5f1930e5b666dd6
+ms.sourcegitcommit: 2c49a7cee9c77f46830ddfa59fdedbf30186d389
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54292008"
+ms.lasthandoff: 01/23/2019
+ms.locfileid: "54488859"
 ---
 # <a name="changelog-for-power-bi-report-server"></a>Power BI 报表服务器的更改日志
 
 此更改日志适用于 Power BI 报表服务器，并列出了新项和每次发布版本的 bug 修复。
 
 有关新功能的详细信息，请参阅[Power BI 报表服务器中的新增功能](whats-new.md)。 
+
+## <a name="january-2019"></a>2019 年 1 月
+- **Power BI 报表服务器**            
+    - 版本 1.4.6960.38798（内部版本 15.0.1102.222），发布日期：2019 年 1 月 22日
+        - 功能
+            - Power BI 报表 
+                - 支持行级别安全性
+                - 展开和折叠矩阵行标题
+                - 在 .pbix 文件之间复制和粘贴
+                - 智能对齐参考线
+                - 对 SAP BW 2.0 连接器的支持
+            - 管理员
+                - 限制可上传到报表服务器的资源扩展的功能
+                - 限制受支持超链接方案的功能
+        - Bug 修复
+            - HTML 注入漏洞
+            - “导出为 PDF”未显示欧元符号
+            - 在 Power BI 报表中保存具有多个数据源的密码会使未更改的密码失效
+            - 在 Power BI 移动应用中，视觉对象空闲时会显示问题
+
+- Power BI Desktop（已针对 Power BI 报表服务器进行优化）
+    - *版本：2.65.5313.1421（2019 年 1 月），发布日期：* 2019 年 1 月 22日
+        - 包含与 Power BI 报表服务器连接所需的更改（2019 年 1 月）  
 
 ## <a name="august-2018"></a>2018 年 8 月
 - **Power BI 报表服务器**

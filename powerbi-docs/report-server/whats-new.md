@@ -8,31 +8,47 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
-ms.date: 08/16/2018
-ms.openlocfilehash: 91179ca37b8ba5c883785501588c9b12a02d644d
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.date: 01/22/2019
+ms.openlocfilehash: 2a65baf94abcb79dac7bb9419ad67124f2b65bb8
+ms.sourcegitcommit: 2c49a7cee9c77f46830ddfa59fdedbf30186d389
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54292444"
+ms.lasthandoff: 01/23/2019
+ms.locfileid: "54488928"
 ---
 # <a name="whats-new-in-power-bi-report-server"></a>Power BI 报表服务器中的新增功能
 
 了解 Power BI 报表服务器中的新增功能。 本文涉及主要功能方面，并会在新功能发布时随之进行更新。
 
-若要下载 Power BI 报表服务器和针对 Power BI 报表服务器进行了优化的 Power BI Desktop，请转到[使用 Power BI 报表服务器进行本地报告](https://powerbi.microsoft.com/report-server/)。
-
-此外查看下面这些源，以便随时了解 Power BI 报表服务器中的新增功能。
-
-* [Microsoft Power BI 博客](https://powerbi.microsoft.com/blog/)
-* [SQL Server Reporting Services 团队博客](https://blogs.msdn.microsoft.com/sqlrsteamblog/)
-* [Guy in a Cube YouTube 频道](https://aka.ms/guyinacube)
+若要下载最新版本的 Power BI 报表服务器和针对 Power BI 报表服务器进行了优化的 Power BI Desktop，请转到[使用 Power BI 报表服务器进行本地报告](https://powerbi.microsoft.com/report-server/)。
 
 若要了解相关的 Power BI“新增功能”信息，请参阅：
 
 * [Power BI 服务中的最近更新](../service-whats-new.md)
 * [Power BI Desktop 中的新增功能](../desktop-latest-update.md)
 * [Power BI 移动应用中的新增功能](../consumer/mobile/mobile-whats-new-in-the-mobile-apps.md)
+
+## <a name="january-2019"></a>2019 年 1 月
+
+Power BI 报表中支持以下功能：
+
+[**行级别安全性**](row-level-security-report-server.md)使用 Power BI 报表服务器设置行级别安全性 (RLS) 可以限制指定用户的数据访问。 筛选器限制行级别的数据访问，你可以定义角色中的筛选器。
+
+[**展开和折叠矩阵行标题**](https://powerbi.microsoft.com/blog/power-bi-desktop-november-2018-feature-summary/#expandCollapse)我们添加了扩展和折叠单个行标题的功能，这是需求最大的可视化功能之一。
+
+[**在 .pbix 文件之间复制和粘贴**](https://powerbi.microsoft.com/blog/power-bi-desktop-november-2018-feature-summary/#copyPaste)可以在 .pbix 文件之间复制视觉对象（从视觉对象的上下文菜单中复制，或者使用标准的 Ctrl+C 键盘快捷方式复制），然后使用 Ctrl+V 将其粘贴到另一个报告中。
+
+[**智能对齐参考线**](https://powerbi.microsoft.com/blog/power-bi-desktop-december-2018-feature-summary/#smartGuides)在报表页面上移动对象时，可看到智能对齐参考线，如 PowerPoint 中所示的那样，有助于对齐页面上的所有内容。 只要在页面上拖动或调整某些内容，就会看到智能参考线。 将对象移动到另一个对象附近时，该参考线会快速移动到与另一个对象对齐的位置。
+
+**辅助功能**要列出的辅助功能太多：例如，[字段列表窗格辅助功能支持](https://powerbi.microsoft.com/blog/power-bi-desktop-december-2018-feature-summary/#fieldList)。 字段列表窗格完全可供访问。 可以浏览窗格，仅需使用键盘和屏幕阅读器即可实现，还可以使用上下文菜单将字段添加到报告页面。
+
+### <a name="administrator-settings"></a>管理员设置
+
+管理员可以在服务器场的 SSMS 高级属性中设置以下属性：
+
+**AllowedResourceExtensionsForUpload** 设置可以上传到报表服务器的资源扩展。 不要求包含内置文件类型的扩展，如 &ast;.rdl 和 &ast;.pbix。 默认为“&ast;、&ast;.xml、&ast;.xsd、&ast;.xsl、&ast;.png、&ast;.gif、&ast;.jpg、&ast;.tif、&ast;.jpeg、&ast;.tiff、&ast;.bmp、&ast;.pdf、&ast;.svg、&ast;.rtf、&ast;.txt、&ast;.doc、&ast;.docx、&ast;.pps、&ast;.ppt、&ast;.pptx”。 
+
+**SupportedHyperlinkSchemes** 设置以逗号分隔的 URI 方案列表，这些方案可以在允许呈现的超链接操作上定义，或设置“&ast;”，启用所有超链接方案。 例如，设置“http,https”将允许指向“https://www. contoso.com”的超链接，但会删除指向“mailto:bill@contoso.com”或“javascript:window.open(‘www.contoso.com’, ‘_blank’)”的超链接。 默认为“&ast;”。
 
 ## <a name="august-2018"></a>2018 年 8 月
 
@@ -325,10 +341,10 @@ Power BI 报表服务器现在支持新的 Power BI 表和矩阵视觉对象。 
 
 ## <a name="next-steps"></a>后续步骤
 
-[什么是 Power BI 报表服务器？](get-started.md) 
-[管理员手册](admin-handbook-overview.md)  
-[安装 Power BI 报表服务器](install-report-server.md)  
-[下载报表生成器](https://www.microsoft.com/download/details.aspx?id=53613)  
-[下载 SQL Server Data Tools (SSDT)](http://go.microsoft.com/fwlink/?LinkID=616714)
+查看下面这些源，以便随时了解 Power BI 报表服务器中的新增功能。
+
+* [Microsoft Power BI 博客](https://powerbi.microsoft.com/blog/)
+* [SQL Server Reporting Services 团队博客](https://blogs.msdn.microsoft.com/sqlrsteamblog/)
+* [Guy in a Cube YouTube 频道](https://aka.ms/guyinacube)
 
 更多问题？ [尝试咨询 Power BI 社区](https://community.powerbi.com/)
