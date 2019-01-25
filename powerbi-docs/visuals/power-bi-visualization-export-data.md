@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 12/26/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 06ff1326c902c723614b3b89c0b5c1217fa06ea3
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 83ca49a3307a12e8a92c01de4175fcb117e3163d
+ms.sourcegitcommit: 54907bb59a5c31b25d368d83a0c4faa5e2f0db66
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54295571"
+ms.lasthandoff: 01/24/2019
+ms.locfileid: "54838430"
 ---
 # <a name="export-data-from-visualizations"></a>从可视化效果导出数据
 若要查看用于创建可视化效果的数据，[可以在 Power BI 中显示该数据](service-reports-show-data.md)或将这些数据以 .xlsx 或.csv 文件形式导出到 Excel。 导出数据的选项需要 Pro 或 Premium 许可证以及对数据集和报表的编辑权限。 
@@ -83,7 +83,7 @@ Watch 将从其报表中的其中一个可视化效果导出数据，将其保�
 | 视觉对象包含 |                                                                              将在导出中看到的内容                                                                              |
 |-----------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 |   聚合    |                                                 第一个聚合和来自该聚合的整个表的非隐藏数据                                                  |
-|   聚合    | 相关数据 - 如果视觉对象使用的是其他数据表中的数据，即与包含聚合的数据表 *\*\*相关*\*（只要该关系是\*: 1 个或 1:1） |
+|   聚合    | 相关数据 - 如果视觉对象使用的数据来自其他数据表，且这些表与包含聚合的数据表相关（只要关系是 \*:1 或 1:1） |
 |    度量值     |                                      视觉对象中的所有度量值和任何数据表中的所有度量值，其中数据表包含在视觉对象中使用的某个度量值                                      |
 |    度量值     |                                       包含该度量值的表中的所有非隐藏数据（只要该关系是 \*: 1 或 1:1）                                       |
 |    度量值     |                                      与包含度量值的表相关的所有表中的所有数据（只要该关系为 \*: 1 或 1:1）                                      |

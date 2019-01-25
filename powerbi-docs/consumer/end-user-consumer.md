@@ -1,22 +1,23 @@
 ---
 title: 什么是 Power BI“使用者”？
-description: 概述了 Power BI 以及如何完美组合使用各种产品（Power BI Desktop、Power BI 服务、Power BI 移动版、报表服务器、Power BI Embedded）。
+description: 面向 Power BI 使用者（亦称为“业务用户”或“最终用户”）的概述。
 author: mihart
 manager: kvivek
 ms.service: powerbi
 ms.custom: seodec18
 ms.subservice: powerbi-service
 ms.topic: overview
-ms.date: 12/06/2018
+ms.date: 01/22/2019
 ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: cd78e281fd9e16857c2a36e7e4f1f253a919c4de
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 38c2161fe0d1bb02975caa405b8047799991d8c2
+ms.sourcegitcommit: 54907bb59a5c31b25d368d83a0c4faa5e2f0db66
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54291731"
+ms.lasthandoff: 01/24/2019
+ms.locfileid: "54838338"
 ---
+<!-- fold this topic into existing topics -->
 # <a name="power-bi-for-consumers"></a>面向使用者的 Power BI
 使用 Power BI 交互的方式取决于你的工作角色。 作为最终用户或使用者，你就是从同事那里接收仪表板、报表和应用的人。 你使用 Power BI 服务审核此内容并与之交互以制定业务决策。
 
