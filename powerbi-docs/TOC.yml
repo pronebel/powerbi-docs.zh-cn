@@ -64,7 +64,7 @@ items:
       href: desktop-many-to-many-relationships.md
     - name: Power BI Desktop 中的存储模式（预览）
       href: desktop-storage-mode.md
-    - name: 在 Power BI Desktop（预览版）中进行双向交叉筛选
+    - name: 在 Power BI Desktop 中进行双向交叉筛选
       href: desktop-bidirectional-filtering.md
     - name: Power BI 和 DirectQuery
       href: desktop-directquery-about.md
@@ -1110,13 +1110,15 @@ items:
         href: report-server/quickstart-create-powerbi-report.md
       - name: 管理报表服务器中的内容
         href: report-server/getting-around.md
+      - name: 报表服务器中的行级别安全性 (RLS)
+        href: report-server/row-level-security-report-server.md
       - name: 为报表服务器创建分页报表
         href: report-server/quickstart-create-paginated-report.md
       - name: 直接在分页报表中输入数据
         href: paginated-reports-enter-data.md
       - name: 使用 KPI
         href: https://go.microsoft.com/fwlink/?linkid=849021
-      - name: '通过 OData 源访问共享数据集 '
+      - name: 通过 OData 源访问共享数据集
         href: report-server/access-dataset-odata.md
       - name: 配置计划刷新
         href: report-server/configure-scheduled-refresh.md
@@ -1293,9 +1295,9 @@ items:
       href: service-admin-governance.md
     - name: Power BI 安全性
       href: service-admin-power-bi-security.md
-ms.openlocfilehash: b3553d493940b831e3e604fe43176ace125fe995
-ms.sourcegitcommit: 658b0de4f5a544d0906665b40925552804a61880
+ms.openlocfilehash: ae98cdee3793186b590ded6143546b5b79062685
+ms.sourcegitcommit: 2c49a7cee9c77f46830ddfa59fdedbf30186d389
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/19/2019
-ms.locfileid: "54406721"
+ms.lasthandoff: 01/23/2019
+ms.locfileid: "54488882"
