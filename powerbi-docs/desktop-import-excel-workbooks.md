@@ -66,6 +66,6 @@ Power BI Desktop 可导入以下元素，在 Excel 中通常称为*对象*。
 * **层次结构：** Power BI Desktop 目前不支持这种数据模型对象类型。 因此，将 Excel 工作簿导入 Power BI Desktop 时会略过层次结构。
 * **二进制数据列：** Power BI Desktop 目前不支持这种数据模型列类型。 Power BI Desktop 生成的表中已删除二进制数据列。
 * **不支持的 Power View 元素：** Power BI Desktop 目前尚未提供 Power View 中的一些功能，例如布景主题或特定可视化效果类型（具有播放轴的散点图、向下钻取行为等）。 这些不支持的可视化效果会导致在 Power BI Desktop 报表中的对应位置出现*可视化效果不受支持*的消息，你可以根据需要删除或重新配置。
-* **命名范围使用 Power Query 中的*****从表*****或使用 M 中的** ***Excel.CurrentWorkbook*****：** 目前不支持将这个名称范围数据导入 Power BI Desktop，但 Power BI Desktop 已计划此更新。 目前，这些名称范围会当做外部 Excel 工作簿的连接，加载到 Power BI Desktop。
+* **命名范围使用 Power Query 中的** ***从表*** **或使用 M 中的**  ***Excel.CurrentWorkbook*** **：** 目前不支持将这个名称范围数据导入 Power BI Desktop，但 Power BI Desktop 已计划此更新。 目前，这些名称范围会当做外部 Excel 工作簿的连接，加载到 Power BI Desktop。
 * **PowerPivot 至 SSRS：** 由于 Power BI Desktop 目前不提供该数据源，因此目前不支持 SQL Server Reporting Services (SSRS) 的 PowerPivot 外部连接。
 
