@@ -10,12 +10,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 LocalizationGroup: Gateways
 ms.date: 06/05/2018
-ms.openlocfilehash: 4bc704eb5aeb2bf6da18a43a6d4502b5541ce249
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: eea6fe12fdd8821c803863b63ede93179bf67f07
+ms.sourcegitcommit: 3c8196be5626a0f037599abb6ccbd294fb1249df
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54287890"
+ms.lasthandoff: 01/24/2019
+ms.locfileid: "54899241"
 ---
 # <a name="on-premises-data-gateway"></a>本地数据网关
 
@@ -96,7 +96,9 @@ ms.locfileid: "54287890"
 
 ## <a name="tenant-level-administration"></a>租户级别管理
 
-目前没有一个集中位置供租户管理员在其中管理其他用户已安装并配置的所有网关。  如果你是租户管理员，建议你请求组织中的用户将你添加为他们所安装的每个网关的管理员。 这样你便可以通过“网关设置”页或通过 [PowerShell 命令](https://docs.microsoft.com/power-bi/service-gateway-high-availability-clusters#powershell-support-for-gateway-clusters)管理组织中的所有网关。 
+租户管理员可以查看租户中安装的所有本地数据网关并对其进行管理。 此功能目前以公共预览版提供。 有关详细信息，请参阅 [Power 平台管理中心文档](/power-platform/admin/onpremises-data-gateway-management)。
+
+或者，如果你是租户管理员，建议你请求组织中的用户将你添加为他们所安装的每个网关的管理员。 这样你便可以通过“网关设置”页或通过 [PowerShell 命令](service-gateway-high-availability-clusters.md#powershell-support-for-gateway-clusters)管理组织中的所有网关。 
 
 ## <a name="enabling-outbound-azure-connections"></a>启用出站 Azure 连接
 
