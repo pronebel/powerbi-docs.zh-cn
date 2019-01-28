@@ -36,7 +36,7 @@ ms.locfileid: "54286395"
    
     ![](media/mobile-tiles-in-the-mobile-apps/power-bi-iphone-line-tile-values.png)
    
-   *例如，在此折线图中，所选的值为**本年度**和**上年度****八月份**的销售额。*  
+   *例如，在此折线图中，所选的值为 **本年度** 和 **上年度** **八月份** 的销售额。*  
    
    在饼图中，点击饼图的一个扇区以显示饼图顶部扇区的值。  
    

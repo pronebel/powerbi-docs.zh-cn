@@ -64,7 +64,7 @@ ms.locfileid: "54008019"
 
 连接到的数据中心取决于在 comScore 中导航到的 URL。
 
-如果使用 https://dax.comscore.com，请输入“US”；如果使用 https://dax.comscore.eu，输入“EU”。
+如果使用 https://dax.comscore.com ，请输入“US”；如果使用 https://dax.comscore.eu ，输入“EU”。
 
 ![](media/service-connect-to-connect-to/comscore_url.png) 
 
