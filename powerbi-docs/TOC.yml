@@ -410,10 +410,10 @@ items:
         href: service-get-data.md
       - name: 报表编辑器导览
         href: service-the-report-editor-take-a-tour.md
-      - name: 整理工作
-        href: service-new-workspaces.md
     - name: Power BI 中的工作流
       items:
+      - name: 整理工作
+        href: service-new-workspaces.md
       - name: 工作共享方式
         href: service-how-to-collaborate-distribute-dashboards-reports.md
       - name: 保证数据处于最新状态
@@ -1295,9 +1295,9 @@ items:
       href: service-admin-governance.md
     - name: Power BI 安全性
       href: service-admin-power-bi-security.md
-ms.openlocfilehash: ae98cdee3793186b590ded6143546b5b79062685
-ms.sourcegitcommit: 2c49a7cee9c77f46830ddfa59fdedbf30186d389
+ms.openlocfilehash: 6278920f313261f1e25d72093058fd61dbb13803
+ms.sourcegitcommit: 5bd9bd890db9a7f9d5988c81232f40b9b260a96f
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "54488882"
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "55147510"
