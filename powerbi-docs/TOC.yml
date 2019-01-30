@@ -316,8 +316,8 @@ items:
         href: visuals/power-bi-map-tips-and-tricks.md
       - name: 自定义 X 轴和 Y 轴属性
         href: visuals/power-bi-visualization-customize-x-axis-and-y-axis.md
-      - name: Power BI 中的 ArcGIS 地图
-        href: power-bi-visualization-arcgis.md
+      - name: ArcGIS 地图
+        href: visuals/power-bi-visualization-arcgis.md
       - name: 基本分区图
         href: visuals/power-bi-visualization-basic-area-chart.md
       - name: Power BI 中的卡片（大数字磁贴）
@@ -1295,9 +1295,9 @@ items:
       href: service-admin-governance.md
     - name: Power BI 安全性
       href: service-admin-power-bi-security.md
-ms.openlocfilehash: 6278920f313261f1e25d72093058fd61dbb13803
-ms.sourcegitcommit: 5bd9bd890db9a7f9d5988c81232f40b9b260a96f
+ms.openlocfilehash: 070efc5b3775b8d675e7f053094f108edabd3115
+ms.sourcegitcommit: 2954de034f5e1be655dd02cc756ff34f126d3034
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "55147510"
+ms.lasthandoff: 01/30/2019
+ms.locfileid: "55234476"

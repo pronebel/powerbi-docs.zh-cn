@@ -1,6 +1,6 @@
 ---
-title: Power BI 服务（Power BI 在线版）入门
-description: Power BI 在线版入门 (app.powerbi.com)
+title: Power BI 服务入门
+description: Power BI 在线服务入门 (app.powerbi.com)
 author: maggiesMSFT
 manager: kfile
 ms.reviewer: ''
@@ -8,20 +8,20 @@ featuredvideoid: B2vd4MQrz4M
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 06/22/2018
+ms.date: 01/25/2019
 ms.author: maggies
 LocalizationGroup: Get started
-ms.openlocfilehash: 2a033e6893cffb71c4a898f1260aca615ae4e4b8
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 06b60e5d493532efbdb49932ace48897e17961c1
+ms.sourcegitcommit: 5bd9bd890db9a7f9d5988c81232f40b9b260a96f
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54291966"
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "55147487"
 ---
-# <a name="tutorial-get-started-with-power-bi-service-apppowerbicom"></a>教程：Power BI 服务入门 (app.powerbi.com)
-本教程将帮助你开启使用 ***Power BI 服务*** 之旅。 若要了解 Power BI 服务如何适应其他 Power BI 产品/服务，我们强烈建议你先阅读[什么是 Power BI](power-bi-overview.md)。
+# <a name="tutorial-get-started-with-the-power-bi-service-apppowerbicom"></a>教程：Power BI 服务入门 (app.powerbi.com)
+本教程可帮助你开始使用 Power BI 服务。 若要了解 Power BI 服务如何适应其他 Power BI 产品/服务，请务必先阅读[什么是 Power BI](power-bi-overview.md)。
 
-![显示桌面、服务和移动之间的关系的图片](media/service-get-started/power-bi-components.png)
+![显示 Power BI Desktop、服务和移动之间的关系的图片](media/service-get-started/power-bi-components.png)
 
 在本教程中，将完成以下步骤：
 
@@ -35,14 +35,14 @@ ms.locfileid: "54291966"
 > * 使用问答自然语言工具将另一个可视化效果添加到仪表板
 > * 删除数据集、报表和仪表板，清理资源
 
-## <a name="sign-up-for-power-bi-service"></a>注册 Power BI 服务
+## <a name="sign-up-for-the-power-bi-service"></a>注册 Power BI 服务
 如果未注册 Power BI，请先[注册一个 Power BI Pro 免费试用版](https://app.powerbi.com/signupredirect?pbi_source=web)，再进行操作。
 
 如果已创建帐户，则只需打开浏览器并键入 app.powerbi.com 即可打开 Power BI 服务。 
 
 ![登录或免费注册](media/service-get-started/power-bi-sign-up.png)
 
-如果你需要有关使用 Power BI Desktop 的帮助，请参阅 [Desktop 入门](desktop-getting-started.md)。 如果正在寻找有关 Power BI 移动端的帮助，请参阅[适用于移动设备的 Power BI 应用](consumer/mobile/mobile-apps-for-mobile-devices.md)。
+如果需要 Power BI Desktop 方面的帮助，请参阅 [Power BI Desktop 入门](desktop-getting-started.md)。 如果正在寻找有关 Power BI 移动端的帮助，请参阅[适用于移动设备的 Power BI 应用](consumer/mobile/mobile-apps-for-mobile-devices.md)。
 
 > [!TIP]
 > 更喜欢可以自主掌控进度的免费培训课程？ [在 EdX 上注册学习我们的“数据分析和可视化”课程](http://aka.ms/edxpbi)。
@@ -52,8 +52,8 @@ ms.locfileid: "54291966"
 > <iframe width="560" height="315" src="https://www.youtube.com/embed/B2vd4MQrz4M" frameborder="0" allowfullscreen></iframe>
 > 
 
-## <a name="what-is-power-bi-service"></a>什么是 Power BI 服务？
-Microsoft Power BI 服务有时也称为 Power BI 在线版或 app.powerbi.com。 Power BI 可帮助你及时掌握对你重要的信息。  借助 Power BI 服务，***仪表板***可帮助你对企业状况了如指掌。  你的仪表板显示各种***磁贴***，你可单击这些磁贴打开***报表***来进一步了解详情。  连接到多个***数据集***将所有相关数据组合在一起。 是否需要了解构成 Power BI 的构建块的帮助？  请参阅 [Power BI - 基本概念](consumer/end-user-basic-concepts.md)。
+## <a name="what-is-the-power-bi-service"></a>什么是 Power BI 服务？
+Microsoft Power BI 服务有时也称为 Power BI 在线版或 app.powerbi.com。 Power BI 可帮助你及时掌握对你重要的信息。  借助 Power BI 服务，仪表板可帮助你对企业状况了如指掌。  你的仪表板显示各种***磁贴***，你可单击这些磁贴打开***报表***来进一步了解详情。  连接到多个***数据集***将所有相关数据组合在一起。 是否需要了解构成 Power BI 的构建块的帮助？  请参阅 [Power BI - 基本概念](consumer/end-user-basic-concepts.md)。
 
 如果你在 Excel 或 CSV 文件中具有重要数据，你可以创建 Power BI 仪表板以便随时随地掌握最新信息，并与他人分享自己的见解。  你是否订阅了 SaaS 应用程序（如 Salesforce）？  从连接到 Salesforce 开始，基于该数据自动创建仪表板，或[查看可以连接到的所有其他 SaaS 应用](service-get-data.md)。 如果你是组织成员，请查看是否已向你发布任何[应用](service-create-distribute-apps.md)。
 
@@ -72,7 +72,7 @@ Microsoft Power BI 服务有时也称为 Power BI 在线版或 app.powerbi.com�
 4. 浏览到计算机上的该文件，然后选择“打开”。 如果已将文件保存在 OneDrive for Business 中，请选择相应的选项。 如果已将文件保存在本地，请选择“本地文件”。 
    
    ![“获取数据”>“文件”屏幕](media/service-get-started/gs2.png)
-5. 在本教程中，我们将选择“导入”，以将 Excel 文件添加为数据集，然后就可以使用它来创建报表和仪表板。 如果选择“上传”，则整个 Excel 工作簿将上传至 Power BI，然后可以在 Excel Online 中打开它并进行编辑。
+5. 在本教程中，我们将选择“导入，以将 Excel 文件添加为数据集，然后就可以使用它来创建报表和仪表板”。 如果选择“上传”，则整个 Excel 工作簿将上传至 Power BI，然后可以在 Excel Online 中打开它并进行编辑。
    
    ![选择“导入”](media/service-get-started/power-bi-import.png)
 6. 数据集准备就绪后，选择“查看数据集”在报表编辑器中打开它。 
@@ -108,7 +108,7 @@ Microsoft Power BI 服务有时也称为 Power BI 在线版或 app.powerbi.com�
    
    ![“固定”图标](media/service-get-started/pinnew.png)
 
-4. 由于这是新报表，因此在将可视化对象固定到仪表板之前，系统会提示保存。 为报表命名（例如“按时间的销售额”），然后选择“保存并继续”。 
+4. 由于此报表是新建的，因此在将可视化对象固定到仪表板之前，系统会提示保存。 为报表命名（例如“按一段时间内的销售额”），然后选择“保存并继续”。 
    
    ![“保存报表”对话框](media/service-get-started/pbi_getstartsaveb4pinnew.png)
    

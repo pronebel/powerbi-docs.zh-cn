@@ -8,21 +8,21 @@ featuredvideoid: IkJda4O7oGs
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 12/19/2018
+ms.date: 01/25/2019
 ms.author: maggies
 LocalizationGroup: Reports
-ms.openlocfilehash: 70eb50c493c6828ca03b1161138e1a4f4b1fae8e
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 51a99d59c74160d229c0d18defe2c5e7be4f48fb
+ms.sourcegitcommit: 5bd9bd890db9a7f9d5988c81232f40b9b260a96f
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54284398"
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "55147395"
 ---
-# <a name="tour-of-the-report-editor-in-power-bi"></a>Power BI 中的报表编辑器概览
+# <a name="tour-the-report-editor-in-power-bi"></a>Power BI 中的报表编辑器导览
 
 Power BI 服务中的报表编辑器和 Power BI Desktop 中的报表编辑器非常相似。 该视频演示的是 Power BI Desktop 中的报表编辑器，而本文介绍的是 Power BI 服务中的报表编辑器。 
 
-报表创建者可以创建和编辑仪表板和报表。 然后将其分发给报表使用者。 他们可以在 Power BI 服务的“阅读视图”中与仪表板和报表进行交互，但不能编辑它们。 阅读有关 [Power BI 服务中的报表“阅读视图”与“编辑视图”](consumer/end-user-reading-view.md)之间的差异的更多信息 
+报表创建者可以创建和编辑仪表板和报表。 然后将其分发给报表使用者。 他们可以在 Power BI 服务的“阅读视图”中与仪表板和报表进行交互，但不能编辑它们。 详细聊耳机[报表使用者可在 Power BI 服务中执行哪些操作](consumer/end-user-reading-view.md) 
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/IkJda4O7oGs" frameborder="0" allowfullscreen></iframe>
 
@@ -65,7 +65,7 @@ Power BI 报表编辑器包含 3 个部分：
 有关详细信息，请参阅[向 Power BI 报表添加可视化效果](visuals/power-bi-report-add-visualizations-i.md)。
 
 ### <a name="format-your-visuals"></a>格式化视觉对象
-选择滚动油漆刷图标，以显示“格式设置”窗格。 可用的选项取决于所选可视化效果的类型。
+选择滚动油漆刷图标，以显示“格式设置”窗格。 可用选项取决于所选可视化效果的类型。
 
 ![报表编辑器中的“格式设置”窗格](media/service-the-report-editor-take-a-tour/power-bi-formatting.png)
 
@@ -76,7 +76,7 @@ Power BI 报表编辑器包含 3 个部分：
 * [自定义 X 轴和 Y 轴属性](visuals/power-bi-visualization-customize-x-axis-and-y-axis.md)
 
 ### <a name="add-analytics-to-your-visualizations"></a>将分析添加到可视化效果
-选择放大镜图标以显示“分析”窗格。 可用的选项取决于所选可视化效果的类型。
+选择放大镜图标以显示“分析”窗格。 可用选项取决于所选可视化效果的类型。
 
 ![报表编辑器中的“分析”窗格](media/service-the-report-editor-take-a-tour/power-bi-analytics.png)    
 通过 Power BI 服务中的“分析”窗格，可以将动态参考行添加到可视化效果，并重点关注重要趋势或见解。 若要了解详细信息，请参阅 [Power BI 服务中的“分析”窗格](service-analytics-pane.md)或 [Power BI Desktop 中的“分析”窗格](desktop-analytics-pane.md)。
@@ -85,7 +85,7 @@ Power BI 报表编辑器包含 3 个部分：
 ## <a name="the-filters-pane"></a>“筛选器”窗格
 使用“筛选器”窗格可在页面、报表、钻取和视觉对象级别查看、设置和修改报表的持久筛选器。 是的，你可以对报表页和视觉对象执行即席筛选，方法是选择视觉对象元素，或使用切片器等工具，但如果使用“筛选器”窗格，筛选器状态会与报表一起保存。 
 
-“筛选器”窗格还具有另一个强大功能 - 使用尚未在报表其中一个视觉对象中使用的字段进行筛选的能力。 我来解释一下。 在创建报表页时，Power BI 会自动将在可视化效果中使用的所有字段添加到“筛选器”窗格的视觉对象级别筛选器区域。  但是，如果希望通过当前未在可视化效果中使用的字段来设置视觉对象、页面、钻取或报表筛选器，只需将其拖到其中一个筛选器 Bucket。   
+“筛选器”窗格还有一项强大功能，即可使用尚未在报表中任意视觉对象中用过的字段来进行筛选。 我来解释一下。 在创建报表页时，Power BI 会自动将在可视化效果中使用的所有字段添加到“筛选器”窗格的视觉对象级别筛选器区域。  但是，如果希望通过当前未在可视化效果中使用的字段来设置视觉对象、页面、钻取或报表筛选器，只需将其拖到其中一个筛选器 Bucket。   
 
 ![“筛选器”窗格](media/service-the-report-editor-take-a-tour/power-bi-formatting-pane.png)
 
@@ -109,7 +109,7 @@ Power BI 报表编辑器包含 3 个部分：
 各个计算字段都具有其自己的硬编码公式。 不能更改此计算，例如，如果该计算是求和，则只能进行求和。 有关详细信息，请参阅[了解度量值](desktop-measures.md)
 
 ![唯一字段图标](media/service-the-report-editor-take-a-tour/icon.png)唯一字段  
-具有此图标的字段是从 Excel 导入的，因此将被设置为显示全部值，即使它们具有重复项也是如此。 例如，你的数据可能有两条人名为 John Smith 的记录，每一条都将被视为唯一（不会总结这两条）。  
+具有此图标的字段是从 Excel 导入的，因此将被设置为显示全部值，即使它们具有重复项也是如此。 例如，你的数据可能有两条人名为 John Smith 的记录，每一条都将被视为唯一（它们不合成一条）。  
 
 ![地理位置图标](media/service-the-report-editor-take-a-tour/pbi_geo_icon.png)地理位置字段  
 地理字段可用于创建地图可视化效果。 
@@ -121,7 +121,7 @@ Power BI 报表编辑器包含 3 个部分：
 顶部导航栏中可用的操作有很多；新操作一直在增加。 有关特定操作的信息，请使用 Power BI 文档目录或搜索框。
 
 ## <a name="3-the-report-canvas"></a>3.报表画布
-报表画布是显示工作内容的地方。 使用“字段”、“筛选器”和“可视化效果”窗格创建视觉对象时，将在报表画布中生成和显示这些视觉对象。 画布底部的各个选项卡表示报表中的页。 选择某个选项卡将打开该页。 
+报表画布是显示工作内容的地方。 使用“字段”、“筛选器”和“可视化效果”窗格创建视觉对象时，将在报表画布中生成和显示这些视觉对象。 画布底部的每个选项卡均表示报表中的一个页面。 选择某个选项卡将打开该页。 
 
 ## <a name="next-steps"></a>后续步骤
 [创建报表](service-report-create-new.md)

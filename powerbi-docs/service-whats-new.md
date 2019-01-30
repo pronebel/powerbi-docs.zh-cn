@@ -10,23 +10,23 @@ ms.topic: conceptual
 ms.date: 10/16/2018
 ms.author: nikhilga
 LocalizationGroup: Get started
-ms.openlocfilehash: acfc4062677a28824458781b900b271bedd51eb8
-ms.sourcegitcommit: 2c49a7cee9c77f46830ddfa59fdedbf30186d389
+ms.openlocfilehash: ed519f920fc872c8f13d5a10d59ce0f2f531f2fc
+ms.sourcegitcommit: 5bd9bd890db9a7f9d5988c81232f40b9b260a96f
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "54488905"
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "55147556"
 ---
 ---
 # <a name="whats-new-in-the-power-bi-service"></a>Power BI 服务中的新功能
 请阅读此页，了解 Power BI 服务中的已知问题和最近发布的功能。 有关相关的“新增功能”的信息，请参阅：
 
+- [2018 年 10 月商业智能](https://docs.microsoft.com/business-applications-release-notes/October18/intelligence-platform/planned-features)发行说明（由 Microsoft 商务应用程序团队提供）：针对业务应用程序的最新更新。
 - [Power BI Desktop 中的新增功能](desktop-latest-update.md)  
 - [Power BI 移动应用中的新增功能](consumer/mobile/mobile-whats-new-in-the-mobile-apps.md)  
 - [Power BI 团队博客](https://powerbi.microsoft.com/blog/)
-- Dynamics 365 [2018 年春季商业应用程序发行说明](http://aka.ms/businessappsreleasenotes)：我们推出了商业应用程序的最新更新，以及在我们平台的基础之上生成应用程序和扩展的新功能。 
 
-还可以查看 YouTube 频道，了解“新增功能”和功能的相关信息。
+此外，可查看 YouTube 频道，了解“新增功能”和功能的相关信息。
 
 * [Microsoft Power BI (YouTube)](https://www.youtube.com/channel/UCy--PYvwBwAeuYaR8JLmrfg)
 * [Guy in a Cube (YouTube)](https://www.youtube.com/channel/UCFp1vaKzpfvoGai0vE5VJ0w)

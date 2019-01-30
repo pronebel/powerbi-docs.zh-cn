@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 01/02/2019
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: a45ddbef861ad29f5823edee213b12af068d48eb
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 26c7c1b428f513fe2b79a3377085004506412604
+ms.sourcegitcommit: 3c8196be5626a0f037599abb6ccbd294fb1249df
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54277218"
+ms.lasthandoff: 01/24/2019
+ms.locfileid: "54899287"
 ---
 # <a name="data-sources-for-the-power-bi-service"></a>Power BI 服务数据源
 数据是 Power BI 的核心。 当研究数据、创建图表和仪表板，以及使用问答进行提问时，所看到上述全部可视化效果和答案实际上均是从数据集获得其基础数据的。 但是，数据集来自何处呢？ 它来自数据源。
@@ -29,7 +29,7 @@ ms.locfileid: "54277218"
 ## <a name="files"></a>文件
 ![](media/service-get-data/pbi_getdata_files.png)
 
-**Excel**（.xlsx、xlxm） - Excel 的与众不同之处就在于，工作薄可以拥有你自行输入到工作表的数据，也可以通过使用 Power Query（Excel 2016 中的“获取和转换”）或 Power Pivot 从外部数据源查询和加载数据。 你可以导入工作表的表中的数据（数据必须在表中），或导入加载到数据模型中的数据。 若要了解详细信息，请参阅[从 Excel 中获取数据](service-get-data-from-files.md)。
+**Excel**（.xlsx、.xlsm） - Excel 的与众不同之处就在于，工作薄可以拥有你自行输入到工作表的数据，也可以通过使用 Power Query（Excel 2016 中的“获取和转换”）或 Power Pivot 从外部数据源查询和加载数据。 你可以导入工作表的表中的数据（数据必须在表中），或导入加载到数据模型中的数据。 若要了解详细信息，请参阅[从 Excel 中获取数据](service-get-data-from-files.md)。
 
 **Power BI Desktop** (.pbix) - 可以使用 Power BI Desktop 查询和加载外部数据源中的数据，还可以扩展数据模型的度量值和关系，并创建报表。 你可以将你的 Power BI Desktop 文件导入 Power BI 站点。 Power BI Desktop 最适合于非常了解其数据源、数据查询和转换，以及数据建模概念的更高级的用户。 若要了解详细信息，请参阅[连接到 Power BI Desktop 中的数据](desktop-connect-to-data.md)。
 

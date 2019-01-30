@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 11/28/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: dc26d6de5ca22fdabfd80bd7ba1d9830e274f808
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 826338a5e5524bb54c2ebb2207a3d438a8d428b1
+ms.sourcegitcommit: 3c8196be5626a0f037599abb6ccbd294fb1249df
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54284486"
+ms.lasthandoff: 01/24/2019
+ms.locfileid: "54899218"
 ---
 # <a name="connect-to-an-oracle-database"></a>连接到 Oracle 数据库
 若要将 Oracle 数据库与 **Power BI Desktop** 连接，运行 Power BI Desktop 的计算机上必须安装了正确的 Oracle 客户端软件。 你使用的 Oracle 客户端软件取决于已安装的 Power BI Desktop 版本 - **32 位**版本或 **64 位**版本。
@@ -51,3 +51,11 @@ ms.locfileid: "54284486"
 4. 一旦你的 Oracle 数据库信息输入 Oracle 数据库对话框（包括如 SID 或本机数据库查询的任何可选信息），请选择**确定**以连接。
 5. 如果 Oracle 数据库需要数据库用户凭据，请在出现提示时，输入这些凭据。
 
+
+## <a name="troubleshooting"></a>故障排除
+
+如果已从 Microsoft Store 下载 Power BI Desktop，则 Oracle 驱动程序问题可能导致你无法连接到 Oracle 数据库。 如果遇到此问题，则返回的消息为“未设置对象引用”。 要解决此问题，请执行下列操作之一：
+
+* 转而从 https://powerbi.microsoft.com/desktop 下载 Power BI Desktop。
+
+* 若要使用 Microsoft Store 中的版本，请在本地计算机上，将 12.X.X\client_X 中的 oraons.dll 复制到 12.X.X\client_X\bin。 X 表示版本和目录编号。

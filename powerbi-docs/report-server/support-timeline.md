@@ -8,22 +8,22 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
-ms.date: 08/16/2018
-ms.openlocfilehash: e24cf43c5797293f83c7f678dee328d502ac2243
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.date: 01/24/2019
+ms.openlocfilehash: b2ddf1e55f54b9c671a92df497c0a2ae1afdcced
+ms.sourcegitcommit: d12d84583e65ebecc8aa947b0cd5720cffdc7978
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54280531"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "54907503"
 ---
 # <a name="support-timeline-for-power-bi-report-server"></a>Power BI 报表服务器的支持日程表
 
-Power BI 报表服务器每年都会发布几次。 安全更新和关键更新在下一版本全面推出 (GA) 前发布。 在下一版本推出后，旧版本将在 12 个月的发行生命周期的剩余时间里继续接收安全更新程序。
+Power BI 报表服务器每年发布数次。 在下一版本成为正式版 (GA) 之后，安全更新和关键更新才可用。 在下次发布之后，历史版本将继续在 12 个月版本生命周期的剩余时间内接收安全更新。
 
 借助此支持策略，我们可以向客户快速提供更新，同时保证灵活性，以便客户能够按照自己的进度来采用更新。
 
-* 安全更新程序和关键更新服务阶段 - 如果运行最新版 Power BI 报表服务器，可以接收安全更新程序和关键更新。
-* 仅安全更新程序服务阶段 - 在新版本发布后，对旧版本的支持减少为在 12 个月的支持生命周期的剩余时间里仅提供安全更新程序（如图 1 所示）。
+* 安全更新和关键更新维护阶段 - 运行 Power BI 报表服务器的最新版时，你将同时收到安全更新和关键更新。
+* 仅安全更新维护阶段 - 在发布新版本后，仅在 12 个月版本生命周期的剩余时间内对旧版提供支持且仅提供安全更新（参见图 1）。
 
     ![说明支持时间范围的关系图](media/support-timeline/report-server-support-timeline-overall.png)
 
@@ -31,10 +31,11 @@ Power BI 报表服务器每年都会发布几次。 安全更新和关键更新�
 
 | **版本** | **可用日期** | **支持结束日期** |
 | --- | --- | --- |
-| 2017 年 6 月 |2017 年 6 月 12 日 |不支持 |
-| 2017 年 10 月 |2017 年 10 月 31 日 |2018 年 10 月 31 日 |
+| 2017 年 6 月 |2017 年 6 月 12 日 |不再支持 |
+| 2017 年 10 月 |2017 年 10 月 31 日 | 不再支持 |
 | 2018 年 3 月 | 2018 年 3 月 19 日 | 2019 年 3 月 19 日 |
 | 2018 年 8 月 | 2018 年 8 月 15 日 | 2019 年 8 月 15 日 |
+| 2019 年 1 月 | 2019 年 1 月 23 日 | 2020 年 1 月 23 日 |
 
 若要下载 Power BI 报表服务器和针对 Power BI 报表服务器进行了优化的 Power BI Desktop，请转到[使用 Power BI 报表服务器进行本地报告](https://powerbi.microsoft.com/report-server/)。
 
