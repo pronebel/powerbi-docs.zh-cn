@@ -10,12 +10,12 @@ ms.service: powerbi
 ms.subservice: powerbi-report-server
 manager: kfile
 ms.custom: mvc
-ms.openlocfilehash: 95055f19ed4187124d940e0fe7f70068dffc71c5
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 4c7724baf63b1ff4e9e6f3d566da113557ab1b06
+ms.sourcegitcommit: 2954de034f5e1be655dd02cc756ff34f126d3034
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54289753"
+ms.lasthandoff: 01/30/2019
+ms.locfileid: "55234384"
 ---
 # <a name="comparing-power-bi-report-server-and-the-power-bi-service"></a>比较 Power BI 报表服务器和 Power BI 服务
 
@@ -43,7 +43,7 @@ Power BI 报表服务器和 Power BI 服务有许多相似之处和一些关键�
 | 在 Excel 中分析 | 否 | 是 | [在 Excel 中分析](../service-analyze-in-excel.md) 
 | 分页报表 | 是 | 是 | [Power BI 服务中提供的分页报表](../paginated-reports-report-builder-power-bi.md)在高级容量中处于预览状态
 | Power BI 移动应用 | 是 | 是 | [Power BI 移动应用概述](../consumer/mobile/mobile-apps-for-mobile-devices.md) 
-| ARC GIS 地图 | 否 | 是 | [Power BI 服务和 Power BI Desktop 中通过 Esri 实现的 ArcGIS 地图](../power-bi-visualization-arcgis.md)
+| ARC GIS 地图 | 否 | 是 | [Power BI 服务和 Power BI Desktop 中通过 Esri 实现的 ArcGIS 地图](../visuals/power-bi-visualization-arcgis.md)
 | Power BI 报表的电子邮件订阅 | 否 | 是 | 在 Power BI 服务中[订阅报表或仪表板](../consumer/end-user-subscribe.md) 
 | 分页报表的电子邮件订阅 | 是 | 否 | [Reporting Services 中的电子邮件传递](https://docs.microsoft.com/sql/reporting-services/subscriptions/e-mail-delivery-in-reporting-services)  
 | 数据警报 | 否 | 是 | Power BI 服务中的[数据警报](../service-set-data-alerts.md)

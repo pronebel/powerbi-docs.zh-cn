@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 10/30/2018
 ms.custom: seodec18
 LocalizationGroup: Administration
-ms.openlocfilehash: d26de4b093af31ab4d8730193a501dc0d6eac2c3
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 2f7d43649079f63fe18bfb4316557c2b5322f204
+ms.sourcegitcommit: 2954de034f5e1be655dd02cc756ff34f126d3034
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54285849"
+ms.lasthandoff: 01/30/2019
+ms.locfileid: "55234453"
 ---
 # <a name="administering-power-bi-in-the-admin-portal"></a>在管理门户中管理 Power BI
 
@@ -228,7 +228,7 @@ Office 365 中的全局管理员或分配有 Power BI 服务管理员角色的�
 
 ### <a name="use-arcgis-maps-for-power-bi"></a>使用 ArcGIS Maps for Power BI
 
-组织中的用户可以使用 Esri 提供的 ArcGIS Maps for Power BI 可视化效果。 [了解详细信息](power-bi-visualization-arcgis.md)
+组织中的用户可以使用 Esri 提供的 ArcGIS Maps for Power BI 可视化效果。 [了解详细信息](visuals/power-bi-visualization-arcgis.md)
 
 ### <a name="use-global-search-for-power-bi-preview"></a>使用 Power BI（预览版）的全局搜索
 
