@@ -10,12 +10,12 @@ ms.subservice: powerbi-developer
 ms.topic: tutorial
 ms.custom: seodec18
 ms.date: 12/10/2018
-ms.openlocfilehash: 3f2d0913095d61999bb85979770c69725b9f9b88
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: b535e3cc42956818fce0c1c127fd775b6b4d4664
+ms.sourcegitcommit: a36f82224e68fdd3489944c9c3c03a93e4068cc5
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54283635"
+ms.lasthandoff: 01/31/2019
+ms.locfileid: "55431283"
 ---
 # <a name="tutorial-embed-a-power-bi-report-dashboard-or-tile-into-an-application-for-your-organization"></a>教程：为组织将 Power BI 报表、仪表板或磁贴嵌入到应用程序
 
@@ -32,7 +32,7 @@ ms.locfileid: "54283635"
 
 若要开始操作，你需要拥有 Power BI Pro 帐户和 Microsoft Azure 订阅：
 
-* 如果未注册 Power BI Pro，请在开始之前[注册免费试用版](https://powerbi.microsoft.com/en-us/pricing/)。
+* 如果未注册 Power BI Pro，请在开始之前[注册免费试用版](https://powerbi.microsoft.com/pricing/)。
 * 如果没有 Azure 订阅，请在开始之前先创建一个[免费帐户](https://azure.microsoft.com/free/?WT.mc_id=A261C142F)。
 * 设置你自己的 [Azure Active Directory (Azure AD) 租户](create-an-azure-active-directory-tenant.md)。
 * 安装 [Visual Studio](https://www.visualstudio.com/) 2013 版或更高版本。

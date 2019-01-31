@@ -9,12 +9,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 10/09/2017
 ms.author: maggies
-ms.openlocfilehash: 2ceb8440cd64b05966caaadc9346771dd28cba82
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 8a5382a5e435f916599b05310f89d9b1f0327023
+ms.sourcegitcommit: a36f82224e68fdd3489944c9c3c03a93e4068cc5
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54281220"
+ms.lasthandoff: 01/31/2019
+ms.locfileid: "55430662"
 ---
 # <a name="testing-template-content-packs-for-power-bi"></a>测试 Power BI 的模板内容包
 提交内容包进行发布之前，有多种方法测试你的内容包。  
@@ -68,7 +68,7 @@ ms.locfileid: "54281220"
 <a name="submission"></a>
 
 ## <a name="submission"></a>提交
-通过 [Microsoft AppSource](https://appsource.microsoft.com/en-us/partners/list-an-app) 进行的提交过程将允许你在 PowerBI.com 的服务内容包库中发布你的模板内容包，并在 [Microsoft AppSource](http://appsource.microsoft.com) 中列出内容包。
+通过 [Microsoft AppSource](https://appsource.microsoft.com/partners/list-an-app) 进行的提交过程将允许你在 PowerBI.com 的服务内容包库中发布你的模板内容包，并在 [Microsoft AppSource](http://appsource.microsoft.com) 中列出内容包。
 
 ### <a name="before-submission"></a>提交之前
 * 查看内容包中每个项目的创作提示
@@ -77,7 +77,7 @@ ms.locfileid: "54281220"
 * 为确保内容包对问答响应良好，建议对整个数据模型进行至少 30 个不同问题的测试。 （如果你开发自己的自定义[数据连接器](https://aka.ms/DataConnectors)，则跳过此步骤）
 
 ### <a name="submission"></a>提交
-准备好进行提交后，请访问 AppSource 上的[应用提交页](https://appsource.microsoft.com/en-us/partners/list-an-app)，并提交你的信息。 请务必从可用的产品列表中选择 Power BI
+准备好进行提交后，请访问 AppSource 上的[应用提交页](https://appsource.microsoft.com/partners/list-an-app)，并提交你的信息。 请务必从可用的产品列表中选择 Power BI
 
 Power BI 团队会审查你的提交内容，并与你联系以确保所有项目都符合提交要求。 除确保完整以外，我们还将验证提供的仪表板和报表的质量以确保它们满足应用程序中所述的业务方案。
 

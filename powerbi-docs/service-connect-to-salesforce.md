@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 05/30/2018
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 02b98d807ccc84aa83826ae5e9eecdbdd1987a91
-ms.sourcegitcommit: 750f0bfab02af24c8c72e6e9bbdd876e4a7399de
+ms.openlocfilehash: ca035762f16d2e8e6c7ffb59220a2457daf10545
+ms.sourcegitcommit: a36f82224e68fdd3489944c9c3c03a93e4068cc5
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/04/2019
-ms.locfileid: "54008571"
+ms.lasthandoff: 01/31/2019
+ms.locfileid: "55430800"
 ---
 # <a name="connect-to-salesforce-with-power-bi"></a>使用 Power BI 连接到 Salesforce
 你可以使用 Power BI 轻松连接到你的 Salesforce.com 帐户。 创建此连接可检索你的数据，并自动提供基于数据的仪表板和相关报表。
@@ -61,10 +61,8 @@ ms.locfileid: "54008571"
 **下一步？**
 
 * 尝试在仪表板顶部的[在“问答”框中提问](consumer/end-user-q-and-a.md)
-* 在仪表板中[更改磁贴](service-dashboard-edit-tile.md) <<<<<<< 头
-* [选择磁贴](consumer/end-user-tiles.md)以打开基础报表 =======
+* 在仪表板中[更改磁贴](service-dashboard-edit-tile.md)
 * [选择磁贴](service-dashboard-tiles.md)以打开基础报表。
->>>>>>> 66fe62d8f200efd9cfeb465eeb5f370dbbaa63be
 * 虽然数据集将按计划每日刷新，但你可以更改刷新计划或根据需要使用“立即刷新”来尝试刷新
 
 ## <a name="system-requirements-and-considerations"></a>系统要求和注意事项

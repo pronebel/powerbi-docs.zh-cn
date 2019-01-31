@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 11/28/2018
 ms.author: davidi
 LocalizationGroup: Transform and shape data
-ms.openlocfilehash: 03fc8430317905294e735da928b8b65d93be3545
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 0d78b38928ee807ca9c8b62a90645a1c21daab55
+ms.sourcegitcommit: a36f82224e68fdd3489944c9c3c03a93e4068cc5
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54277011"
+ms.lasthandoff: 01/31/2019
+ms.locfileid: "55431030"
 ---
 # <a name="common-query-tasks-in-power-bi-desktop"></a>Power BI Desktop 中的常见查询任务
 使用 Power BI Desktop 的**查询编辑器**窗口时，可执行很多常用任务。 本文档演示了这些常见的任务，并提供其他信息的链接。 
@@ -142,7 +142,7 @@ ms.locfileid: "54277011"
 
 ![](media/desktop-common-query-tasks/queryformulas_advancededitorbutton.png)
 
-下面来看看**高级编辑器**，它显示了与 **USA\_StudentEnrollment** 查询关联的查询步骤。 这些步骤是使用 Power Query 公式语言（通常称为 **M**）进行创建的。相关信息，请参阅[了解 Power 查询公式](https://support.office.com/article/Learn-about-Power-Query-formulas-6bc50988-022b-4799-a709-f8aafdee2b2f?ui=en-US&rs=en-US&ad=US)。 若要查看语言规范本身，请参阅 [Microsoft Power Query for Excel 公式语言规范](http://go.microsoft.com/fwlink/?linkid=320633)。
+下面来看看**高级编辑器**，它显示了与 **USA\_StudentEnrollment** 查询关联的查询步骤。 这些步骤是使用 Power Query 公式语言（通常称为 **M**）进行创建的。相关信息，请参阅[了解 Power 查询公式](https://support.office.com/article/Learn-about-Power-Query-formulas-6bc50988-022b-4799-a709-f8aafdee2b2f)。 若要查看语言规范本身，请参阅 [Microsoft Power Query for Excel 公式语言规范](http://go.microsoft.com/fwlink/?linkid=320633)。
 
 ![](media/desktop-common-query-tasks/queryformulas_advancededitor.png)
 

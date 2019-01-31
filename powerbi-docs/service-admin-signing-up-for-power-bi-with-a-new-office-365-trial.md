@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/31/2018
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: e603ff1de1a7129280b888d08e9a77d919ebb186
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: ad049837dff46058cf703d58720129e1e0742555
+ms.sourcegitcommit: a36f82224e68fdd3489944c9c3c03a93e4068cc5
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54280806"
+ms.lasthandoff: 01/31/2019
+ms.locfileid: "55430455"
 ---
 # <a name="signing-up-for-power-bi-with-a-new-office-365-trial"></a>通过新 Office 365 试用版注册 Power BI
 
@@ -33,7 +33,7 @@ ms.locfileid: "54280806"
 
 ## <a name="important-considerations"></a>重要注意事项
 
-使用这种注册方法，就是在新建组织租户，你也将成为此租户的管理员。 有关详细信息，请参阅[什么是 Power BI 管理？](service-admin-administering-power-bi-in-your-organization.md)。 可以先将新用户添加到租户中，然后再与他们共享（如 [Office 365 管理文档](https://support.office.com/en-sg/article/Add-users-individually-to-Office-365---Admin-Help-1970f7d6-03b5-442f-b385-5880b9c256ec?ui=en-US&rs=en-SG&ad=SG)所述）。
+使用这种注册方法，就是在新建组织租户，你也将成为此租户的管理员。 有关详细信息，请参阅[什么是 Power BI 管理？](service-admin-administering-power-bi-in-your-organization.md)。 可以先将新用户添加到租户中，然后再与他们共享（如 [Office 365 管理文档](https://support.office.com/en-sg/article/Add-users-individually-to-Office-365---Admin-Help-1970f7d6-03b5-442f-b385-5880b9c256ec)所述）。
 
 ## <a name="next-steps"></a>后续步骤
 

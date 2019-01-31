@@ -12,12 +12,12 @@ ms.topic: conceptual
 ms.date: 12/06/2018
 ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: 660f76b5bf04f742d435df928e068e434ca70531
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: e8e27c55cdcd85fd9f88a3b1ad425829cfa9cf0d
+ms.sourcegitcommit: a36f82224e68fdd3489944c9c3c03a93e4068cc5
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54281979"
+ms.lasthandoff: 01/31/2019
+ms.locfileid: "55430593"
 ---
 # <a name="basic-concepts-for-power-bi-service-consumers"></a>Power BI 服务使用者的基本概念
 
@@ -37,7 +37,7 @@ ms.locfileid: "54281979"
 ![Power BI 服务的欢迎屏幕](media/end-user-basic-concepts/power-bi-open.png)
 
 使用 Power BI 时，可对每次打开网站时看到的内容进行个性化设置。  例如，有的人希望 Power BI 打开主页，而有的人希望首先看到常用仪表板。 别担心，我们会教你如何执行此操作。 
-- [主页预览](https://powerbi.microsoft.com/en-us/blog/introducing-power-bi-home-and-global-search)    
+- [主页预览](https://powerbi.microsoft.com/blog/introducing-power-bi-home-and-global-search)    
 - [将内容设置为精选](end-user-featured.md) 
 
 ![显示主页视图和仪表板视图](media/end-user-basic-concepts/power-bi-first.png)

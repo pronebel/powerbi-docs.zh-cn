@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 11/02/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 52f679ee143e1009068c7de1ed9ce13e82e957dc
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 6b5f2fa44a45cca06f90474d8c76fd6f06cae3ce
+ms.sourcegitcommit: a36f82224e68fdd3489944c9c3c03a93e4068cc5
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54295365"
+ms.lasthandoff: 01/31/2019
+ms.locfileid: "55430432"
 ---
 # <a name="data-point-limits-and-strategies-by-visual-type"></a>数据点限制和策略（按视觉对象类型）
 
@@ -40,7 +40,7 @@ ms.locfileid: "54295365"
 ## <a name="statistics"></a>统计信息
 某些模型可以提供有关某些列的值数量的统计信息。 显示此类信息时，如果视觉对象不显式覆盖策略的值计数，我们将利用该信息来跨多个层次结构提供更好的平衡。
 
-有关详细信息，请参阅 [Analysis Services 中的新增功能](https://docs.microsoft.com/en-us/sql/analysis-services/what-s-new-in-analysis-services?view=sql-server-2017)
+有关详细信息，请参阅 [Analysis Services 中的新增功能](https://docs.microsoft.com/sql/analysis-services/what-s-new-in-analysis-services?view=sql-server-2017)
 
 ## <a name="dynamic-limits"></a>动态限制
 除了上述策略之外，具有分组列的两个层次结构（轴和图例或类别和系列）的视觉对象还会使用一个名为“动态限制”的其他策略。  动态限制旨在更好地平衡数据点。 
@@ -128,7 +128,7 @@ ms.locfileid: "54295365"
 - 值：通过一次使用 200 行的窗口进行虚拟化
 
 ### <a name="scatter-chart-high-density"></a>散点图（高密度）
-请参阅[高密度散点图](https://docs.microsoft.com/en-us/power-bi/visuals/desktop-high-density-scatter-charts)
+请参阅[高密度散点图](https://docs.microsoft.com/power-bi/visuals/desktop-high-density-scatter-charts)
 
 ### <a name="pie"></a>饼图
 - 最大点数：3,500

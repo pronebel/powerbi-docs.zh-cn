@@ -10,16 +10,16 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 12/18/2018
 LocalizationGroup: Visualizations
-ms.openlocfilehash: cac436c97515f6b6f7b6cfc110469615e7afc4c6
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 1ebb9633451ab8e2f1b8cbf8ada743ce6c42692e
+ms.sourcegitcommit: a36f82224e68fdd3489944c9c3c03a93e4068cc5
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54289252"
+ms.lasthandoff: 01/31/2019
+ms.locfileid: "55431122"
 ---
 # <a name="custom-visuals-in-power-bi"></a>在 Power BI 中自定义视觉对象
 
-创建或编辑 Power BI 报表时，可以使用多种不同类型的视觉对象。 这些视觉对象显示在“可视化效果”窗格中。 下载 [Power BI Desktop](https://powerbi.microsoft.com/en-us/desktop/) 或打开 [Power BI 服务](https://app.powerbi.com)时，这组视觉对象都已“预打包”。
+创建或编辑 Power BI 报表时，可以使用多种不同类型的视觉对象。 这些视觉对象显示在“可视化效果”窗格中。 下载 [Power BI Desktop](https://powerbi.microsoft.com/desktop/) 或打开 [Power BI 服务](https://app.powerbi.com)时，这组视觉对象都已“预打包”。
 
 ![可视化效果](media/power-bi-custom-visuals/power-bi-visualizations.png)
 
@@ -48,16 +48,16 @@ Power BI 管理员可以将自定义视觉对象部署到他们的组织中，�
 
 ## <a name="marketplace-visuals"></a>市场视觉对象
 
-社区成员以及 Microsoft 已经将自定义视觉对象公开发布到 [AppSource](https://appsource.microsoft.com/en-us/marketplace/apps?product=power-bi-visuals) 市场。 可以下载这些视觉对象，并将它们添加到 Power BI 报表。 所有这些自定义视觉对象都已经过测试并通过 Microsoft 的功能和质量审核。
+社区成员以及 Microsoft 已经将自定义视觉对象公开发布到 [AppSource](https://appsource.microsoft.com/marketplace/apps?product=power-bi-visuals) 市场。 可以下载这些视觉对象，并将它们添加到 Power BI 报表。 所有这些自定义视觉对象都已经过测试并通过 Microsoft 的功能和质量审核。
 
-什么是 [AppSource](developer/office-store.md)？ 简而言之，它是可以在其中查找与 Microsoft 软件相关的应用、加载项和扩展的地方。 [AppSource](https://appsource.microsoft.com/en-us/) 为 Office 365、Azure、Dynamics 365、Cortana 和 Power BI 等产品的数百万用户提供解决方案，帮助他们更高效、更有见地或更为完美地完成工作。
+什么是 [AppSource](developer/office-store.md)？ 简而言之，它是可以在其中查找与 Microsoft 软件相关的应用、加载项和扩展的地方。 [AppSource](https://appsource.microsoft.com/) 为 Office 365、Azure、Dynamics 365、Cortana 和 Power BI 等产品的数百万用户提供解决方案，帮助他们更高效、更有见地或更为完美地完成工作。
 
 ### <a name="certified-visuals"></a>已认证的视觉对象
 
 Power BI 取得认证的视觉对象是指已通过额外严格质量测试的市场视觉对象，可用于其他情形，如[电子邮件订阅](https://docs.microsoft.com/power-bi/service-report-subscribe)和[导出到 PowerPoint](https://docs.microsoft.com/power-bi/service-publish-to-powerpoint)。
 若要查看已认证的自定义视觉对象列表或提交你自己的自定义视觉对象，请参阅[已认证的自定义视觉对象](https://docs.microsoft.com/power-bi/power-bi-custom-visuals-certified)。
 
-你是 Web 开发者吗？对创建自己的可视化效果，并将它们添加到 AppSource 感兴趣吗？ 请参阅[开发 Power BI 自定义视觉对象](developer/custom-visual-develop-tutorial.md)，了解如何[将自定义视觉对象发布到 AppSource](https://appsource.microsoft.com/en-us/marketplace/apps?product=power-bi-visuals)。
+你是 Web 开发者吗？对创建自己的可视化效果，并将它们添加到 AppSource 感兴趣吗？ 请参阅[开发 Power BI 自定义视觉对象](developer/custom-visual-develop-tutorial.md)，了解如何[将自定义视觉对象发布到 AppSource](https://appsource.microsoft.com/marketplace/apps?product=power-bi-visuals)。
 
 ### <a name="import-a-custom-visual-from-a-file"></a>从文件导入自定义视觉对象
 
@@ -135,7 +135,7 @@ Power BI 取得认证的视觉对象是指已通过额外严格质量测试的�
 
     ![AppSource](media/power-bi-custom-visuals/power-bi-appsource-apps.png)
 
-2. 转到[应用结果页](https://appsource.microsoft.com/en-us/marketplace/apps)。在此页中，可以查看每种类别的热门应用，包括 Power BI 应用。 由于要找的是自定义视觉对象，因此可以选择左侧导航列表中的“Power BI 视觉对象”，从而缩小结果范围。
+2. 转到[应用结果页](https://appsource.microsoft.com/marketplace/apps)。在此页中，可以查看每种类别的热门应用，包括 Power BI 应用。 由于要找的是自定义视觉对象，因此可以选择左侧导航列表中的“Power BI 视觉对象”，从而缩小结果范围。
 
     ![AppSource 视觉对象](media/power-bi-custom-visuals/power-bi-appsource-visuals.png)
 

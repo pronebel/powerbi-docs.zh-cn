@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 12/05/2018
 ms.author: maggies
 LocalizationGroup: Create reports
-ms.openlocfilehash: 474001a183540edb65d8e2b2ed4c0d6c55dc28d9
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 440874b96b4bf01023c86e3ef053e8c77e9ef289
+ms.sourcegitcommit: a36f82224e68fdd3489944c9c3c03a93e4068cc5
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54283474"
+ms.lasthandoff: 01/31/2019
+ms.locfileid: "55430088"
 ---
 # <a name="use-qa-in-power-bi-desktop-for-natural-language-queries"></a>使用 Power BI Desktop 中的“问答”功能进行自然语言查询
 使用常用短语和自然语言来查询数据是一个非常有用的功能。 而数据在回答问题时的功能更为强大，这就是 **Power BI Desktop** 中的“问答”功能所实现的。
@@ -25,7 +25,7 @@ ms.locfileid: "54283474"
 > [!NOTE]
 > 仅在使用的模型包含已导入的数据时，才可使用“问答”功能。 不可实时连接到 SSAS 和 DirectQuery 模型。
 >
-> 如果使用 Windows 10 之前的 Windows 版本，问答需要以下 C 运行时更新。 可以尝试通过 Windows 更新安装重要更新，也可以尝试通过 Microsoft (KB2999226) 手动安装必需组件。 [https://support.microsoft.com/en-us/help/2999226/update-for-universal-c-runtime-in-windows](https://support.microsoft.com/en-us/help/2999226/update-for-universal-c-runtime-in-windows)
+> 如果使用 Windows 10 之前的 Windows 版本，问答需要以下 C 运行时更新。 可以尝试通过 Windows 更新安装重要更新，也可以尝试通过 Microsoft (KB2999226) 手动安装必需组件。 [https://support.microsoft.com/en-us/help/2999226/update-for-universal-c-runtime-in-windows](https://support.microsoft.com/help/2999226/update-for-universal-c-runtime-in-windows)
 >
 >
 

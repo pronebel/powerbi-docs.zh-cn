@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: powerbi - developer
 ms.topic: conceptual
 ms.date: 01/11/2019
-ms.openlocfilehash: d09312ecf462e557ef33851d9d2b1f91ec936dae
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 7bb805877cf2e7453148d667f863cbbc8b01ee52
+ms.sourcegitcommit: a36f82224e68fdd3489944c9c3c03a93e4068cc5
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54289201"
+ms.lasthandoff: 01/31/2019
+ms.locfileid: "55430708"
 ---
 # <a name="manage-multi-tenancy-with-power-bi-embedded-analytics"></a>使用 Power BI 嵌入式分析来管理多租户
 
@@ -29,7 +29,7 @@ ms.locfileid: "54289201"
 
 ## <a name="concepts-and-terminology"></a>概念和术语
 
-**[AAD](https://docs.microsoft.com/en-us/azure/active-directory/fundamentals/active-directory-whatis)** - Azure Active Directory。
+**[AAD](https://docs.microsoft.com/azure/active-directory/fundamentals/active-directory-whatis)** - Azure Active Directory。
 
 **AAD 应用程序** - AAD 中的应用程序标识。 身份验证需要 AAD 应用程序。
 
@@ -105,7 +105,7 @@ Power BI Embedded 支持多地理位置部署（预览功能）。 [多地理位
 
 ### <a name="cost"></a>开销
 
-[Power BI Embedded](https://azure.microsoft.com/en-us/services/power-bi-embedded/) 具有基于资源的购买模型，如 Power BI Premium。 你可以购买一个或多个具有固定计算能力和内存的容量。 使用 Power BI Embedded 时，此容量是主要成本项。 使用容量的用户数没有限制。 唯一限制是容量性能。 [Power BI Pro 许可证](../service-admin-licensing-organization.md)是需要访问 Power BI 门户的每个主用户或特定用户所必需的。
+[Power BI Embedded](https://azure.microsoft.com/services/power-bi-embedded/) 具有基于资源的购买模型，如 Power BI Premium。 你可以购买一个或多个具有固定计算能力和内存的容量。 使用 Power BI Embedded 时，此容量是主要成本项。 使用容量的用户数没有限制。 唯一限制是容量性能。 [Power BI Pro 许可证](../service-admin-licensing-organization.md)是需要访问 Power BI 门户的每个主用户或特定用户所必需的。
 
 建议通过模拟实际环境和使用情况，并在容量上运行负载测试，来测试和衡量容量上的预期负载。 可以使用 Azure 容量或[高级容量指标应用程序](../service-admin-premium-monitor-capacity.md)中可用的各种指标来衡量负载和性能。
 
@@ -132,17 +132,17 @@ Power BI Embedded 支持多地理位置部署（预览功能）。 [多地理位
 
 如果 SaaS 应用程序存储为每个租户保留一个单独的数据库，自然选择在 Power BI 中使用单租户数据集，每个数据集的连接字符串指向匹配的数据库。
 
-如果 SaaS 应用程序存储为所有租户使用多租户数据库，很容易通过工作区将租户分隔开来。 可以使用仅检索相关租户数据的参数化数据库查询来配置 Power BI 数据集的数据库连接。 可以使用 [Power BI Desktop](../desktop-query-overview.md) 或使用 [API](https://docs.microsoft.com/rest/api/power-bi/datasets/updatedatasourcesingroup) 与查询上的[参数](https://docs.microsoft.com/en-us/rest/api/power-bi/datasets/updateparametersingroup)更新连接。
+如果 SaaS 应用程序存储为所有租户使用多租户数据库，很容易通过工作区将租户分隔开来。 可以使用仅检索相关租户数据的参数化数据库查询来配置 Power BI 数据集的数据库连接。 可以使用 [Power BI Desktop](../desktop-query-overview.md) 或使用 [API](https://docs.microsoft.com/rest/api/power-bi/datasets/updatedatasourcesingroup) 与查询上的[参数](https://docs.microsoft.com/rest/api/power-bi/datasets/updateparametersingroup)更新连接。
 
 ### <a name="data-isolation"></a>数据隔离
 
-此租赁模型中的数据都在工作区级别隔离。 工作区和租户之间的简单映射可防止一个租户中的用户看到另一个租户的内容。 使用单个主用户要求你有权访问所有不同工作区。 显示最终用户的数据的配置是在[生成嵌入令牌](https://docs.microsoft.com/en-us/rest/api/power-bi/embedtoken)期间定义的，这是一个仅后端进程，最终用户无法看到或更改。
+此租赁模型中的数据都在工作区级别隔离。 工作区和租户之间的简单映射可防止一个租户中的用户看到另一个租户的内容。 使用单个主用户要求你有权访问所有不同工作区。 显示最终用户的数据的配置是在[生成嵌入令牌](https://docs.microsoft.com/rest/api/power-bi/embedtoken)期间定义的，这是一个仅后端进程，最终用户无法看到或更改。
 
 若要添加其他隔离，应用程序开发人员可以为每个工作区定义一个主用户或应用程序，而不是有权访问多个工作区的单个主用户或应用程序。 这样一来，可以确保任何人为错误或凭据泄漏不会导致多个客户的数据被公开。
 
 ### <a name="scalability"></a>可伸缩性
 
-此模型的一个优点是，将数据划分到每个租户的多个数据集中可以克服[单个数据集的大小限制](https://docs.microsoft.com/en-us/power-bi/service-premium-large-datasets)（当前容量为 10 GB）。 当容量过载时，[可以删除未使用的数据集](../service-premium-understand-how-it-works.md)为活动数据集释放内存。 此任务不适用于单个大型数据集。 如果需要，还可以使用多个数据集将租户划分为多个 Power BI 容量。 [了解有关容量如何运行的更多信息](../service-admin-premium-manage.md)。
+此模型的一个优点是，将数据划分到每个租户的多个数据集中可以克服[单个数据集的大小限制](https://docs.microsoft.com/power-bi/service-premium-large-datasets)（当前容量为 10 GB）。 当容量过载时，[可以删除未使用的数据集](../service-premium-understand-how-it-works.md)为活动数据集释放内存。 此任务不适用于单个大型数据集。 如果需要，还可以使用多个数据集将租户划分为多个 Power BI 容量。 [了解有关容量如何运行的更多信息](../service-admin-premium-manage.md)。
 
 尽管有这些优势，还必须考虑 SaaS 应用程序在未来可能达到的规模。 例如，用户可能会在可管理项目的数量上遇到限制。 请参阅本文后续部分中的部署[限制](#summary-comparison-of-the-different-approaches)，获取详细信息。 SKU 使用的容量限制了数据集需要适应的内存大小、[可以同时运行的刷新数](../service-premium-understand-how-it-works.md)以及数据刷新的最大频率。 建议在管理数百或数千个数据集时进行测试。 此外建议考虑平均使用量和峰值使用量，以及与其他租户管理方式不同的具有大型数据集或不同使用模式的任何特定租户。
 

@@ -9,12 +9,12 @@ ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 11/08/2018
 ms.author: mshenhav
-ms.openlocfilehash: b7301d46279d9b975a07b07506c023e19437631b
-ms.sourcegitcommit: a20825ebd0ef4c2cb77232e3dd0e9f8260cacf71
+ms.openlocfilehash: 771b7361efaea436d67c26ee05741f6dc3eba810
+ms.sourcegitcommit: a36f82224e68fdd3489944c9c3c03a93e4068cc5
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/16/2019
-ms.locfileid: "54324034"
+ms.lasthandoff: 01/31/2019
+ms.locfileid: "55431237"
 ---
 # <a name="whats-new-in-the-mobile-apps-for-power-bi"></a>Power BI 移动应用中的新功能
 有关相关的“新增功能”的信息，请参阅：
@@ -37,15 +37,15 @@ ms.locfileid: "54324034"
 
 ### <a name="enhance-presentation-mode-windows"></a>增强演示模式 (Windows)
 
-适用于 Surface Hub 和 Windows 10 设备的增强演示模式。  用户可畅享增强 Surface Hub 会议室体验，包括使用改进后的演示和协作工具，以及无边框的大屏幕优化视图。这样一来，用户便能重点关注数据。 演示模式还提供诸如墨迹书写的工具，可帮助你有效地显示并讨论数据。 可在[此处](https://powerbi.microsoft.com/en-us/blog/presentation-mode-in-power-bi-windows-app/)阅读有关演示模式的详细信息。
+适用于 Surface Hub 和 Windows 10 设备的增强演示模式。  用户可畅享增强 Surface Hub 会议室体验，包括使用改进后的演示和协作工具，以及无边框的大屏幕优化视图。这样一来，用户便能重点关注数据。 演示模式还提供诸如墨迹书写的工具，可帮助你有效地显示并讨论数据。 可在[此处](https://powerbi.microsoft.com/blog/presentation-mode-in-power-bi-windows-app/)阅读有关演示模式的详细信息。
 
 ### <a name="portrait-report-layout-in-tablets-ios-and-android"></a>平板电脑（iOS 和 Android）中的纵向报表布局
 
-我们现在使用手机报表布局（若有）在平板电脑上以纵向模式显示报表。 阅读有关[如何在 Power BI 服务或 Power BI Desktop 中创建手机布局](https://docs.microsoft.com/en-us/power-bi/desktop-create-phone-report/)的详细信息。
+我们现在使用手机报表布局（若有）在平板电脑上以纵向模式显示报表。 阅读有关[如何在 Power BI 服务或 Power BI Desktop 中创建手机布局](https://docs.microsoft.com/power-bi/desktop-create-phone-report/)的详细信息。
 
 ### <a name="supporting-report-query-string"></a>支持报表查询字符串 
 
-打开包含查询字符串的报表链接现在将在移动应用中打开，并根据查询字符串中定义的条件进行预筛选。 了解有关[如何使用查询字符串创建报表 URL](https://docs.microsoft.com/en-us/power-bi/service-url-filters/) 的详细信息。  
+打开包含查询字符串的报表链接现在将在移动应用中打开，并根据查询字符串中定义的条件进行预筛选。 了解有关[如何使用查询字符串创建报表 URL](https://docs.microsoft.com/power-bi/service-url-filters/) 的详细信息。  
 
 ### <a name="shared-credentials-now-in-android"></a>共享凭据（现在为 Android）
 
@@ -65,7 +65,7 @@ ms.locfileid: "54324034"
 
 现在可以在 Power BI 服务中使用分页报表。 有权访问 Power BI 服务中的分页报表的用户也可以从他们的移动应用中访问这些报表。 
 
-请阅读 Power BI [有关移动应用中的分页报表的博客文章](https://powerbi.microsoft.com/en-us/blog/power-bi-paginated-reports-also-available-in-power-bi-mobile-apps-preview/)。
+请阅读 Power BI [有关移动应用中的分页报表的博客文章](https://powerbi.microsoft.com/blog/power-bi-paginated-reports-also-available-in-power-bi-mobile-apps-preview/)。
 
 ### <a name="shared-credentials-ios"></a>共享凭据 (iOS)
 

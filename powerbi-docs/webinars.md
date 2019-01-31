@@ -9,12 +9,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 11/26/2018
 ms.author: maikelson
-ms.openlocfilehash: 24d023d726183119a3bd098c61db75cb68969c52
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: fb2b169650360a7dc6a4afaee1c43abb733255c9
+ms.sourcegitcommit: a36f82224e68fdd3489944c9c3c03a93e4068cc5
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54283130"
+ms.lasthandoff: 01/31/2019
+ms.locfileid: "55430984"
 ---
 # <a name="power-bi-webinars"></a>Power BI 网络研讨会
 
@@ -24,7 +24,7 @@ ms.locfileid: "54283130"
 
 尚无举办网络研讨会的计划。 请稍后再查看更多近期活动安排。
 
->[Power BI 社区即将举行的网络研讨会](https://powerbi.microsoft.com/en-us/blog/tag/community-webinars/?Is=Website)
+>[Power BI 社区即将举行的网络研讨会](https://powerbi.microsoft.com/blog/tag/community-webinars/?Is=Website)
 
 ## <a name="featured-webinars"></a>特别推荐的网络研讨会
 

@@ -10,12 +10,12 @@ ms.subservice: powerbi-gateways
 ms.topic: conceptual
 ms.date: 10/10/2018
 LocalizationGroup: Gateways
-ms.openlocfilehash: 04f67f82552f7915f8ca4fc6e639de3e616c2f8a
-ms.sourcegitcommit: 5bd9bd890db9a7f9d5988c81232f40b9b260a96f
+ms.openlocfilehash: bb626d8afeb999c85d001abaa2e936314cff78e5
+ms.sourcegitcommit: a36f82224e68fdd3489944c9c3c03a93e4068cc5
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "55147579"
+ms.lasthandoff: 01/31/2019
+ms.locfileid: "55431053"
 ---
 # <a name="use-kerberos-for-single-sign-on-sso-from-power-bi-to-on-premises-data-sources"></a>使用 Kerberos 进行从 Power BI 到本地数据源的单一登录 (SSO)
 
@@ -44,7 +44,7 @@ ms.locfileid: "55147579"
   * [HANA 1 SP 12 Rev 122.13](https://launchpad.support.sap.com/#/notes/2528439)
 * 在网关计算机上，安装 SAP 的最新 HANA ODBC 驱动程序。  最低版本为 2017 年 8 月发布的 HANA ODBC 版本 2.00.020.00。
 
-有关使用 Kerberos 设置和配置 SAP HANA 单一登录的详细信息，请参阅 SAP HANA 安全指南中的主题[使用 Kerberos 进行单一登录](https://help.sap.com/viewer/b3ee5778bc2e4a089d3299b82ec762a7/2.0.03/en-US/1885fad82df943c2a1974f5da0eed66d.html)和该页中的链接，尤其是 SAP 注释 1837331 – HOWTO HANA DBSSO Kerberos/Active Directory]。
+有关使用 Kerberos 设置和配置 SAP HANA 单一登录的详细信息，请参阅 SAP HANA 安全指南中的主题[使用 Kerberos 进行单一登录](https://help.sap.com/viewer/b3ee5778bc2e4a089d3299b82ec762a7/2.0.03/1885fad82df943c2a1974f5da0eed66d.html)和该页中的链接，尤其是 SAP 注释 1837331 – HOWTO HANA DBSSO Kerberos/Active Directory]。
 
 ## <a name="preparing-for-kerberos-constrained-delegation"></a>准备 Kerberos 约束委派
 

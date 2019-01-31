@@ -11,12 +11,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 12/19/2018
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 6d4148eef42f01035fde5601e3dd88b3572c8320
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 57beee741ecf51aaf306f6a80d59b7c49653eedc
+ms.sourcegitcommit: a36f82224e68fdd3489944c9c3c03a93e4068cc5
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54292467"
+ms.lasthandoff: 01/31/2019
+ms.locfileid: "55430283"
 ---
 # <a name="monitor-usage-metrics-for-power-bi-dashboards-and-reports"></a>监视 Power BI 仪表板和报表的使用情况指标
 
@@ -159,7 +159,7 @@ ms.locfileid: "54292467"
 
 ## <a name="usage-metrics-in-national-clouds"></a>国家云中的使用情况指标
 
-Power BI 在单独的国家云中可用。 这些云提供与 Power BI 全局版本相同级别的安全性、隐私、符合性和透明度，以及服务交付、数据驻留、访问和控制相关地方法规的唯一模型。 由于本地法规的这种唯一模式，使用情况指标不适用于国家云。 有关详细信息，请参阅[国家云](https://powerbi.microsoft.com/en-us/clouds/)。
+Power BI 在单独的国家云中可用。 这些云提供与 Power BI 全局版本相同级别的安全性、隐私、符合性和透明度，以及服务交付、数据驻留、访问和控制相关地方法规的唯一模型。 由于本地法规的这种唯一模式，使用情况指标不适用于国家云。 有关详细信息，请参阅[国家云](https://powerbi.microsoft.com/clouds/)。
 
 ## <a name="considerations-and-limitations"></a>注意事项和限制
 
@@ -169,7 +169,7 @@ Power BI 在单独的国家云中可用。 这些云提供与 Power BI 全局版
 * 某些类型的视图未包含在使用指标中，如本文中所述。
 * 对于客户端刷新而无需发送回 Power BI 服务的请求的情况，使用指标有时可能多计算活动数。
 
-## <a name="frequently-asked-questions"></a>常见问题
+## <a name="frequently-asked-questions"></a>常见问题解答
 
 除了使用指标和审核日志之间的潜在差异以外，有关使用指标的以下问题和解答还可能对用户和管理员有所帮助：
 

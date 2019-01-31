@@ -9,18 +9,18 @@ ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 10/13/2017
 ms.author: mshenhav
-ms.openlocfilehash: 2d43fe5e0248d3876f70878bbbe8a1c9b6387df7
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: a99d18d424421949ede9bacd5642235b04170659
+ms.sourcegitcommit: a36f82224e68fdd3489944c9c3c03a93e4068cc5
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54278897"
+ms.lasthandoff: 01/31/2019
+ms.locfileid: "55430892"
 ---
 # <a name="explore-your-data-in-the-power-bi-mobile-app-on-your-apple-watch"></a>在 Apple Watch 上的 Power BI 移动应用中浏览数据
 Power BI Apple Watch 应用可以让你在手表上从 Power BI 仪表板查看 KPI 和卡磁贴。 KPI 和卡磁贴最适合在小屏幕上提供心跳测量。 可以从 iPhone 或 Watch 自身刷新仪表板。
 
 ## <a name="install-the-apple-watch-app"></a>安装 Apple Watch 应用
-因为 Power BI Apple Watch 应用绑定了适用于 iOS 的 Power BI 应用，所以当你从 Apple 应用商店[将 Power BI 应用下载到你的 iPhone] (http://go.microsoft.com/fwlink/?LinkId=522062 "下载 iPhone 应用")时，你也会自动下载 Power BI Watch 应用。 Apple 指南说明了如何[安装 Apple Watch 应用程序](https://support.apple.com/en-us/HT204784)。
+因为 Power BI Apple Watch 应用绑定了适用于 iOS 的 Power BI 应用，所以当你从 Apple 应用商店[将 Power BI 应用下载到你的 iPhone] (http://go.microsoft.com/fwlink/?LinkId=522062 "下载 iPhone 应用")时，你也会自动下载 Power BI Watch 应用。 Apple 指南说明了如何[安装 Apple Watch 应用程序](https://support.apple.com/HT204784)。
 
 ## <a name="use-the-power-bi-app-on-the-apple-watch"></a>在 Apple Watch 上使用 Power BI 应用
 从手表的 springboard 或直接从手表表盘单击 Power BI 小组件（如果已配置），以获取 Power BI Apple Watch 应用。
@@ -69,7 +69,7 @@ Power BI 将显示仪表板已同步到手表的指示器。
 Power BI Apple Watch 小组件更新的时间接近数据更新的时间，请将所需的信息始终保持最新状态。
 
 ### <a name="add-a-power-bi-widget-to-your-watch-face"></a>向手表表盘添加 Power BI 小组件
-请参阅 Apple 指南中的[自定义你的 Apple Watch 表盘](https://support.apple.com/en-us/HT205536)。
+请参阅 Apple 指南中的[自定义你的 Apple Watch 表盘](https://support.apple.com/HT205536)。
 
 ### <a name="change-the-text-on-the-widget"></a>更改小组件上的文本
 针对 Apple Watch 表盘上的小空间，Power BI Apple Watch 应用可以让你更改小组件的标题以适应小空间。

@@ -10,12 +10,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 LocalizationGroup: Gateways
 ms.date: 06/05/2018
-ms.openlocfilehash: eea6fe12fdd8821c803863b63ede93179bf67f07
-ms.sourcegitcommit: 3c8196be5626a0f037599abb6ccbd294fb1249df
+ms.openlocfilehash: f477cbd5f2d767333c16a43308b4793527665806
+ms.sourcegitcommit: a36f82224e68fdd3489944c9c3c03a93e4068cc5
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/24/2019
-ms.locfileid: "54899241"
+ms.lasthandoff: 01/31/2019
+ms.locfileid: "55430777"
 ---
 # <a name="on-premises-data-gateway"></a>本地数据网关
 
@@ -91,7 +91,7 @@ ms.locfileid: "54899241"
 
 * 暂不支持 [Azure 信息保护](https://docs.microsoft.com/microsoft-365/enterprise/protect-files-with-aip
 )。
-* 暂不支持 [Access Online](https://products.office.com/en-us/access)。
+* 暂不支持 [Access Online](https://products.office.com/access)。
 * 仅当在个人模式下运行网关时，才支持 R 脚本。
 
 ## <a name="tenant-level-administration"></a>租户级别管理
@@ -102,7 +102,7 @@ ms.locfileid: "54899241"
 
 ## <a name="enabling-outbound-azure-connections"></a>启用出站 Azure 连接
 
-本地数据网关依赖 Azure 服务总线提供云连接，并相应地建立到其关联 Azure 区域的出站连接。 默认情况下，这是你的 Power BI 租户的位置。 查看我的 [Power BI 租户位于何处？](https://powerbi.microsoft.com/en-us/documentation/powerbi-admin-where-is-my-tenant-located/)
+本地数据网关依赖 Azure 服务总线提供云连接，并相应地建立到其关联 Azure 区域的出站连接。 默认情况下，这是你的 Power BI 租户的位置。 查看我的 [Power BI 租户位于何处？](https://powerbi.microsoft.com/documentation/powerbi-admin-where-is-my-tenant-located/)
 如果防火墙阻止出站连接，则必须配置防火墙，使其允许从本地数据网关到其关联 Azure 区域的出站连接。 请参阅 [Microsoft Azure 数据中心 IP 范围](https://www.microsoft.com/download/details.aspx?id=41653)详细了解每个 Azure 数据中心 IP 地址范围。
 > [!NOTE]
 > IP 地址范围可能随时间而变化，因此请确保定期下载最新信息。 

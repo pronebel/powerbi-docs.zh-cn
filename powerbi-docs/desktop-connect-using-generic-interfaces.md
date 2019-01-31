@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 11/28/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: c1671c820b6de4cddac169c67103168ac46ffc1f
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: c680ebea23c479202b8b49ed0376f2416a9cffa3
+ms.sourcegitcommit: a36f82224e68fdd3489944c9c3c03a93e4068cc5
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54296032"
+ms.lasthandoff: 01/31/2019
+ms.locfileid: "55430616"
 ---
 # <a name="connect-to-data-using-generic-interfaces-in-power-bi-desktop"></a>使用 Power BI Desktop 中的泛型接口连接到数据
 使用从**访问数据库**到 **Zendesk** 资源的内置数据连接器，可以连接到 **Power BI Desktop** 中多种不同的数据源，如“**获取数据**”窗口中所示。 还可使用 Power BI Desktop 中内置的泛型接口（如 ODBC 或 REST API）连接到所有其他类型的数据源，进而进一步增加连接选项。
@@ -49,7 +49,7 @@ ms.locfileid: "54296032"
 | Power BI Desktop 泛型连接器 | 外部数据源 | 有关详细信息的链接 |
 | --- | --- | --- |
 | ODBC |Cassandra |[Cassandra ODBC 驱动程序](http://www.simba.com/drivers/cassandra-odbc-jdbc/) |
-| ODBC |Couchbase DB |[Couchbase 和 Power BI](https://powerbi.microsoft.com/en-us/blog/visualizing-data-from-couchbase-server-v4-using-power-bi/) |
+| ODBC |Couchbase DB |[Couchbase 和 Power BI](https://powerbi.microsoft.com/blog/visualizing-data-from-couchbase-server-v4-using-power-bi/) |
 | ODBC |DynamoDB |[DynamoDB ODBC 驱动程序](http://www.simba.com/drivers/dynamodb-odbc-jdbc/) |
 | ODBC |Google BigQuery |[BigQuery ODBC 驱动程序](http://www.simba.com/drivers/bigquery-odbc-jdbc/) |
 | ODBC |Hbase |[Hbase ODBC 驱动程序](http://www.simba.com/drivers/hbase-odbc-jdbc/) |
@@ -91,7 +91,7 @@ ms.locfileid: "54296032"
 
 | Power BI Desktop 泛型连接器 | 外部数据源 | 有关详细信息的链接 |
 | --- | --- | --- |
-| REST API |Couchbase DB |[Couchbase REST API 信息](https://powerbi.microsoft.com/en-us/blog/visualizing-data-from-couchbase-server-v4-using-power-bi/) |
+| REST API |Couchbase DB |[Couchbase REST API 信息](https://powerbi.microsoft.com/blog/visualizing-data-from-couchbase-server-v4-using-power-bi/) |
 
 ## <a name="data-sources-accessible-through-r-script"></a>数据源可以通过 R 脚本访问
 可以使用 **R 脚本**访问数据源，并使用 **Power BI Desktop** 中的数据。

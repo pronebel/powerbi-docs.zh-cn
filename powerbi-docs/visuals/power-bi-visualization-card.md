@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 09/26/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 2bd35e5c2bc92ee660a9524754a3daef95e6e83d
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 164385fc232774999a21e1870b02fcb59b74ad50
+ms.sourcegitcommit: a36f82224e68fdd3489944c9c3c03a93e4068cc5
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54275792"
+ms.lasthandoff: 01/31/2019
+ms.locfileid: "55430179"
 ---
 # <a name="card-visualizations"></a>卡片可视化对象
 有时在 Power BI 仪表板或报表中想要跟踪的最重要的信息就是一个数字，例如总销售额、同比市场份额或商机总数。 此类可视化对象称为“卡片”。 与几乎所有的本机 Power BI 可视化对象一样，可以使用报表编辑器或“问答”创建卡片。
@@ -49,7 +49,7 @@ ms.locfileid: "54275792"
 
 
 ## <a name="create-a-card-from-the-qa-question-box"></a>通过“问答”问题框创建卡片
-最简单的方法是使用“问答”问题框制作卡片。 Power BI 服务的仪表板或报表和 Desktop 报表视图中提供了“问答”问题框。 以下步骤说明如何通过 Power BI 服务仪表板创建卡片。 若要在 Power BI Desktop 中使用“问答”创建卡片，请遵照适用于 Desktop 报表的“问答”预览功能的[这些说明](https://powerbi.microsoft.com/en-us/blog/power-bi-desktop-december-feature-summary/#QandA)。
+最简单的方法是使用“问答”问题框制作卡片。 Power BI 服务的仪表板或报表和 Desktop 报表视图中提供了“问答”问题框。 以下步骤说明如何通过 Power BI 服务仪表板创建卡片。 若要在 Power BI Desktop 中使用“问答”创建卡片，请遵照适用于 Desktop 报表的“问答”预览功能的[这些说明](https://powerbi.microsoft.com/blog/power-bi-desktop-december-feature-summary/#QandA)。
 
 1. 创建[仪表板](../service-dashboards.md)和[获取数据](../service-get-data.md)。 此示例使用[机会分析示例](../sample-opportunity-analysis.md)。
 

@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: conceptual
 ms.date: 11/26/2018
-ms.openlocfilehash: f95b778daa9112324c20b0f358e21dd004092060
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 280f60d0ae60a445d94a640af974a2624c73bb83
+ms.sourcegitcommit: a36f82224e68fdd3489944c9c3c03a93e4068cc5
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54293980"
+ms.lasthandoff: 01/31/2019
+ms.locfileid: "55429995"
 ---
 # <a name="guidelines-for-power-bi-visuals-with-additional-purchases"></a>额外购买的 Power BI 视觉对象指南
 
@@ -62,7 +62,7 @@ IAP 视觉对象是免费的视觉对象，提供免费功能，但也有额外�
 
 ## <a name="faq"></a>常见问题解答
 
-有关详细信息和问题的答案，请访问[关于额外购买的视觉对象的常见问题解答](https://docs.microsoft.com/en-us/power-bi/power-bi-custom-visuals-faq#visuals-with-additional-purchases)。
+有关详细信息和问题的答案，请访问[关于额外购买的视觉对象的常见问题解答](https://docs.microsoft.com/power-bi/power-bi-custom-visuals-faq#visuals-with-additional-purchases)。
 
 ## <a name="next-steps"></a>后续步骤
 

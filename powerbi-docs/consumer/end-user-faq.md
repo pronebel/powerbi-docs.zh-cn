@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 01/16/2019
 ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: 8eb428857e98a696ffb368c729525acd80e268f2
-ms.sourcegitcommit: ccbe76a0a43c5c5e87354a33e617bf3cb291608e
+ms.openlocfilehash: 001fab5caae7663a70b0f4d4272a1f9abbb1765e
+ms.sourcegitcommit: a36f82224e68fdd3489944c9c3c03a93e4068cc5
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/18/2019
-ms.locfileid: "54394773"
+ms.lasthandoff: 01/31/2019
+ms.locfileid: "55429903"
 ---
 # <a name="frequently-asked-questions-about-power-bi"></a>有关 Power BI 的常见问题
 * 如果你有其他问题，请[尝试询问 Power BI 社区](http://community.powerbi.com/)。
@@ -50,7 +50,7 @@ Power BI Desktop 是一款免费的应用程序，用户可将其直接安装在
 Power BI 不支持由使用者电子邮件服务或电信提供商提供的电子邮件地址。 了解有关 [Power BI 自助服务注册过程](../service-self-service-signup-for-power-bi.md)的详细信息。
 
 ## <a name="is-government-academic-and-nonprofit-pricing-available-for-power-bi"></a>Power BI 是否提供政府部门、学术机构和非营利性组织定价？
-是的，从 Microsoft 直接购买时，可提供非营利性组织定价。 可通过 [Microsoft 非营利性组织](https://www.microsoft.com/en-us/nonprofits/power-bi)网站了解详细信息并注册。 政府部门和学术机构定价通过 MOSP/Direct、EA 和 Open 授权计划提供。 政府定价也适用于联合。 
+是的，从 Microsoft 直接购买时，可提供非营利性组织定价。 可通过 [Microsoft 非营利性组织](https://www.microsoft.com/nonprofits/power-bi)网站了解详细信息并注册。 政府部门和学术机构定价通过 MOSP/Direct、EA 和 Open 授权计划提供。 政府定价也适用于联合。 
 
 ## <a name="does-power-bi-support-mobile-devices"></a>Power BI 是否支持移动设备？
 是的。 Power BI 拥有适用于 Android 手机和平板电脑、iOS 设备和 Windows 10 设备的本机应用。 从对应的应用商店下载以下 [Power BI 移动应用](https://powerbi.microsoft.com/mobile)之一：  

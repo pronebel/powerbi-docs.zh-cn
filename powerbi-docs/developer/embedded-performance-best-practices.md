@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: powerbi-embedded
 ms.topic: conceptual
 ms.date: 12/12/2018
-ms.openlocfilehash: 025d843158795e7c36a5a278f2022349a9b72ca6
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 50fbb175640e38431db62df34276417f1080e42a
+ms.sourcegitcommit: a36f82224e68fdd3489944c9c3c03a93e4068cc5
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54277149"
+ms.lasthandoff: 01/31/2019
+ms.locfileid: "55430341"
 ---
 # <a name="power-bi-embedded-performance-best-practices"></a>Power BI Embedded 性能最佳做法
 
@@ -26,7 +26,7 @@ Powerbi.embed() 方法接收几个参数，用于嵌入报表、仪表板或磁�
 
 ### <a name="embed-url"></a>嵌入 URL
 
-避免自己生成嵌入 URL。 确保通过调用[获取报表](https://na01.safelinks.protection.outlook.com/?url=https%3A%2F%2Fdocs.microsoft.com%2Fen-us%2Frest%2Fapi%2Fpower-bi%2Freports%2Fgetreportsingroup&data=02%7C01%7CMark.Ghanayem%40microsoft.com%7C07ca68ceb37a48e3f3de08d64968707a%7C72f988bf86f141af91ab2d7cd011db47%7C1%7C0%7C636777110256168308&sdata=22lkqRM2w1MQfrM8dooedaPqqIU8PufTq9TT4VDzRo0%3D&reserved=0)、[获取仪表板](https://na01.safelinks.protection.outlook.com/?url=https%3A%2F%2Fdocs.microsoft.com%2Fen-us%2Frest%2Fapi%2Fpower-bi%2Fdashboards%2Fgetdashboardsingroup&data=02%7C01%7CMark.Ghanayem%40microsoft.com%7C07ca68ceb37a48e3f3de08d64968707a%7C72f988bf86f141af91ab2d7cd011db47%7C1%7C0%7C636777110256168308&sdata=nfWRgbSoXVF42Rg%2Ba9491u19uksXp%2FAyz%2Fa%2Ba7%2FCtdA%3D&reserved=0)或[获取磁贴](https://na01.safelinks.protection.outlook.com/?url=https%3A%2F%2Fdocs.microsoft.com%2Fen-us%2Frest%2Fapi%2Fpower-bi%2Fdashboards%2Fgettilesingroup&data=02%7C01%7CMark.Ghanayem%40microsoft.com%7C07ca68ceb37a48e3f3de08d64968707a%7C72f988bf86f141af91ab2d7cd011db47%7C1%7C0%7C636777110256178318&sdata=LgZ27TynNpqQJDrb3aHWGQXIS%2FzichAO9De5M2uhF1Q%3D&reserved=0) API 来获取嵌入 URL。 我们将一个名为 config 的参数添加到了 URL，用于改进性能。
+避免自己生成嵌入 URL。 确保通过调用[获取报表](/rest/api/power-bi/reports/getreportsingroup)、[获取仪表板](/rest/api/power-bi/dashboards/getdashboardsingroup)或[获取磁贴](/rest/api/power-bi/dashboards/gettilesingroup) API 来获取嵌入 URL。 我们将一个名为 config 的参数添加到了 URL，用于改进性能。
 
 ### <a name="permissions"></a>权限
 
@@ -58,7 +58,7 @@ Powerbi.preload() 会下载 javascript、css 文件和其他项目，稍后会�
 
 使工具和 SDK 包保持最新。
 
-* 始终使用最新版本的 [Power BI Desktop](https://powerbi.microsoft.com/en-us/desktop/)。
+* 始终使用最新版本的 [Power BI Desktop](https://powerbi.microsoft.com/desktop/)。
 
 * 安装最新版本的 [Power BI 客户端 SDK](https://github.com/Microsoft/PowerBI-JavaScript)。 我们将持续发布增强功能，请持续关注并跟进后续发布。
 

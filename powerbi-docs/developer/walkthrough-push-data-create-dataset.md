@@ -9,12 +9,12 @@ ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 08/10/2017
 ms.author: maghan
-ms.openlocfilehash: 004f1b16474f738f8354585c83cd7707799e6dbb
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: b05a0182fd360fc407a0cc00ad31b94f70648749
+ms.sourcegitcommit: a36f82224e68fdd3489944c9c3c03a93e4068cc5
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54288562"
+ms.lasthandoff: 01/31/2019
+ms.locfileid: "55430318"
 ---
 # <a name="step-3-create-a-dataset-in-power-bi"></a>步骤 3：在 Power BI 中创建数据集
 本文是[将数据推送到数据集](walkthrough-push-data.md)的分步演练的一部分。
@@ -153,7 +153,7 @@ ms.locfileid: "54288562"
                 string resourceUri = "https://analysis.windows.net/powerbi/api";
 
                 //OAuth2 authority Uri
-                string authorityUri = "https://login.windows.net/common/oauth2/authorize";
+                string authorityUri = "https://login.microsoftonline.net/common/";
 
                 //Get access token:
                 // To call a Power BI REST operation, create an instance of AuthenticationContext and call AcquireToken

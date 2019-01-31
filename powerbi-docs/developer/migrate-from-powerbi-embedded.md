@@ -7,17 +7,17 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 06/30/2018
 ms.author: maghan
-ms.openlocfilehash: a52902e22572503b4be6c21f87abf62a90f60476
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: be1c1e489cd29fc67ade95886f77a5a08697ff99
+ms.sourcegitcommit: a36f82224e68fdd3489944c9c3c03a93e4068cc5
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54296607"
+ms.lasthandoff: 01/31/2019
+ms.locfileid: "55431007"
 ---
 # <a name="how-to-migrate-power-bi-workspace-collection-content-to-power-bi-embedded"></a>如何将 Power BI 工作区集合内容迁移到 Power BI Embedded
 了解如何从 Power BI 工作区集合迁移到 Power BI Embedded，以及如何利用此改进功能在应用中嵌入内容。
 
-Microsoft 最近[发布了 Power BI Embedded](https://powerbi.microsoft.com/en-us/blog/power-bi-embedded-capacity-based-skus-coming-to-azure/)，这是一个基于容量的新许可模型，可提高用户访问、共享和分发内容的灵活性。 此产品还提高了系统的可伸缩性和性能。
+Microsoft 最近[发布了 Power BI Embedded](https://powerbi.microsoft.com/blog/power-bi-embedded-capacity-based-skus-coming-to-azure/)，这是一个基于容量的新许可模型，可提高用户访问、共享和分发内容的灵活性。 此产品还提高了系统的可伸缩性和性能。
 
 借助 Power BI Embedded，可在嵌入内容时拥有一个 API 外围和一组一致的功能，还可访问 Power BI 最新功能（例如仪表板、网管和应用工作区）。 再进一步的说，用户将能够使用 Power BI Desktop，然后能够借助 Power BI Embedded 实现部署。
 

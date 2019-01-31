@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/16/2018
 ms.author: maggies
 LocalizationGroup: Ask questions of your data
-ms.openlocfilehash: 76027ff6e75071fde178ae05a8656c1596d36598
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 627a94097d4235f39414c1165ac8cbbc806508a3
+ms.sourcegitcommit: a36f82224e68fdd3489944c9c3c03a93e4068cc5
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54291685"
+ms.lasthandoff: 01/31/2019
+ms.locfileid: "55430042"
 ---
 # <a name="how-to-make-your-excel-data-work-well-with-qa-in-power-bi"></a>如何有效结合使用 Excel 数据和 Power BI 问答
 如果你是创建数据模型或生成用于 Power BI 的 Excel 工作簿的人员，请阅读...
@@ -34,7 +34,7 @@ ms.locfileid: "54291685"
 
 以下是有关充分利用工作簿中的“问答”的一些提示。
 
-* 请确保你的数据在 Excel 表中。 下面是 [how to create an Excel table](https://support.office.com/article/Create-an-Excel-table-in-a-worksheet-e81aa349-b006-4f8a-9806-5af9df0ac664?ui=en-US&rs=en-US&ad=US)（如何创建 Excel 表）。
+* 请确保你的数据在 Excel 表中。 下面是 [how to create an Excel table](https://support.office.com/article/Create-an-Excel-table-in-a-worksheet-e81aa349-b006-4f8a-9806-5af9df0ac664)（如何创建 Excel 表）。
 * 确保表、列和计算字段的名称通俗易懂。
   
   例如，如果表格中含有销售数据，请将此表命名为“Sales”。 像“Year”、“Product”、“Sales Rep”和“Amount”等列名称对“问答”也很适用。

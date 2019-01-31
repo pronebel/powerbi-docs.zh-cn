@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 11/26/2018
-ms.openlocfilehash: 96f91eefeab038419ce64e31c7b4b5755d6adf2c
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: c05dddbddc2dd19fed1bfbec25bcd9e378df543f
+ms.sourcegitcommit: a36f82224e68fdd3489944c9c3c03a93e4068cc5
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54286579"
+ms.lasthandoff: 01/31/2019
+ms.locfileid: "55430144"
 ---
 # <a name="register-an-azure-ad-app-to-embed-power-bi-content"></a>注册 Azure AD 应用以便嵌入 Power BI 内容
 
@@ -138,7 +138,7 @@ ms.locfileid: "54286579"
 
 ### <a name="applying-permissions-programmatically"></a>以编程方式应用权限
 
-1. 需要获取租户中的现有服务主体（用户）。 有关如何执行该操作的信息，请参阅 [Get servicePrincipal](https://developer.microsoft.com/en-us/graph/docs/api-reference/beta/api/serviceprincipal_get)。
+1. 需要获取租户中的现有服务主体（用户）。 有关如何执行该操作的信息，请参阅 [Get servicePrincipal](https://developer.microsoft.com/graph/docs/api-reference/beta/api/serviceprincipal_get)。
 
     可以调用 Get servicePrincipal API 而无需使用 {id}，这将使用户获取租户中的所有服务主体。
 2. 使用作为“appId”属性的应用客户端 ID 检查服务主体。
