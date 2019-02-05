@@ -1,5 +1,5 @@
 ---
-title: 使用可视化效果
+title: 作为使用者来使用可视化效果
 description: Power BI 概念和术语 - 可视化效果、视觉对象。 什么是 Power BI 可视化效果、视觉对象。
 author: mihart
 manager: kvivek
@@ -8,15 +8,15 @@ ms.custom: seodec18
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 12/06/2018
+ms.date: 01/29/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 875f5cef31ea61fffff29404b03af5bbbfc9f0c6
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 5eadf12fc1b54e8f5ac657685826816f0fca318d
+ms.sourcegitcommit: 2954de034f5e1be655dd02cc756ff34f126d3034
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54287620"
+ms.lasthandoff: 01/30/2019
+ms.locfileid: "55234338"
 ---
 # <a name="visualizations-for-power-bi-consumers"></a>Power BI 使用者的可视化效果
 
@@ -53,4 +53,5 @@ ms.locfileid: "54287620"
 
 ## <a name="next-steps"></a>后续步骤
 返回[面向使用者的基本概念](end-user-basic-concepts.md)    
-[选择可视化效果以打开报表](end-user-report-open.md)
+[选择可视化效果以打开报表](end-user-report-open.md)    
+[Power BI 中可用的可视化效果类型](end-user-visual-type.md)

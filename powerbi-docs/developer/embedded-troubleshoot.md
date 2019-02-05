@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 12/20/2018
-ms.openlocfilehash: 4fff6b19b9a17b626d11545a8d4baa8464ffc324
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: a53ddf70e82c191af520f2dbba5b5d3d1b0ced42
+ms.sourcegitcommit: a36f82224e68fdd3489944c9c3c03a93e4068cc5
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54294012"
+ms.lasthandoff: 01/31/2019
+ms.locfileid: "55431214"
 ---
 # <a name="troubleshoot-your-embedded-application"></a>嵌入式应用程序疑难解答
 
@@ -99,6 +99,14 @@ Azure 门户或 Power BI 应用注册页面中的错误消息提到权限不足�
 
 ## <a name="authentication"></a>身份验证
 
+### <a name="authentication-failed-with-aadsts90002-tenant-authorize-not-found"></a>身份验证失败并显示 AADSTS90002：找不到租户“authorize”
+
+ 如果在登录时收到消息（如 ***“错误: invalid_request，error_description:AADSTS90002:找不到租户‘authorize’”***），则这是因为 ADAL 4.x 不支持将“https://login.microsoftonline.com/{Tenant}/oauth2/authorize/”作为颁发机构 url。
+ 
+若要解决此问题，应从颁发机构 url 末尾剪裁“oauth2/authorize/”，请参阅 [Power BI 开发人员示例](https://github.com/Microsoft/PowerBI-Developer-Samples)以供参考。
+
+ 查看 ADAL 4.x 发行说明中的[更好的颁发机构验证](https://github.com/AzureAD/azure-activedirectory-library-for-dotnet/wiki/Changes-adalnet-4.0#better-authority-validation)。
+ 
 ### <a name="authentication-failed-with-aadsts70002-or-aadsts50053"></a>身份验证失败并显示 AADSTS70002 或 AADSTS50053
 
 **_(AADSTS70002:验证凭据时出错。AADSTS50053:使用不正确的用户 ID 或密码尝试登录的次数过多)_**
@@ -243,7 +251,7 @@ Add-AzureADServicePrincipalPolicy -Id $sp.ObjectId -RefObjectId $policy.Id
 
 请先验证你具备所有适当先决条件，然后再使用嵌入安装程序工具。 需要 Power BI Pro 帐户和 Microsoft Azure 订阅。
 
-* 如果未注册 Power BI Pro，请在开始之前[注册以获得免费试用](https://powerbi.microsoft.com/en-us/pricing/)。
+* 如果未注册 Power BI Pro，请在开始之前[注册以获得免费试用](https://powerbi.microsoft.com/pricing/)。
 * 如果没有 Azure 订阅，请在开始之前先创建一个[免费帐户](https://azure.microsoft.com/free/?WT.mc_id=A261C142F)。
 * 你需要具有自己的 [Azure Active Directory 租户](create-an-azure-active-directory-tenant.md)安装程序。
 * 你需要安装 [Visual Studio](https://www.visualstudio.com/)（2013 版或更高版本）。
@@ -294,7 +302,7 @@ Add-AzureADServicePrincipalPolicy -Id $sp.ObjectId -RefObjectId $policy.Id
 
 更多问题？ [尝试参与 Power BI 社区](http://community.powerbi.com/)
 
-如需进一步的帮助，请[联系支持人员](https://powerbi.microsoft.com/en-us/support/pro/?Type=documentation&q=power+bi+embedded)或[通过 Azure 门户创建支持票证](https://ms.portal.azure.com/#blade/Microsoft_Azure_Support/HelpAndSupportBlade/newsupportrequest)，并提供你遇到的错误消息。
+如需进一步的帮助，请[联系支持人员](https://powerbi.microsoft.com/support/pro/?Type=documentation&q=power+bi+embedded)或[通过 Azure 门户创建支持票证](https://ms.portal.azure.com/#blade/Microsoft_Azure_Support/HelpAndSupportBlade/newsupportrequest)，并提供你遇到的错误消息。
 
 ## <a name="next-steps"></a>后续步骤
 

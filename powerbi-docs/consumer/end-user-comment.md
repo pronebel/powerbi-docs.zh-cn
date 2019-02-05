@@ -12,12 +12,12 @@ ms.topic: conceptual
 ms.date: 01/18/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 085860fb9d8e9e01bf0694896a561f34a5627b53
-ms.sourcegitcommit: ccbe76a0a43c5c5e87354a33e617bf3cb291608e
+ms.openlocfilehash: 7d76d874712f328344b60fc8b146f69e1aca55db
+ms.sourcegitcommit: 2954de034f5e1be655dd02cc756ff34f126d3034
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/18/2019
-ms.locfileid: "54394649"
+ms.lasthandoff: 01/30/2019
+ms.locfileid: "55234522"
 ---
 # <a name="add-comments-to-a-dashboard"></a>将注释添加到仪表板
 添加个人注释或与同事开始有关仪表板的对话。 注释功能只是使用者可与他人协作的方式之一。 
@@ -73,7 +73,7 @@ ms.locfileid: "54394649"
 5. 选择“关闭”返回仪表板或报表。
 
 ### <a name="get-your-colleagues-attention-by-using-the--sign"></a>通过使用 @ 符号引起同事的注意
-无论是创建仪表板注释还是对特定视觉对象进行注释，都可以通过使用“@”符号来吸引同事的注意。  当键入“@”符号时，Power BI 会打开一个下拉菜单，你可以在其中搜索并从组织中选择单个人员。 任何以“@”符号开头的经过验证的名称都会以蓝色字体显示。 
+无论是创建仪表板注释还是对特定视觉对象进行注释，都可以通过使用“\@”符号来吸引同事的注意。  当键入“\@”符号时，Power BI 会打开一个下拉菜单，你可以在其中搜索并从组织中选择单个人员。 任何以“\@”符号开头的经过验证的名称都会以蓝色字体显示。 
 
 下面是我与可视化效果设计人员的对话。 他使用 @ 符号确保我可以看到这条注释。 我知道这个注释是给我的。 当我在 Power BI 中打开此应用仪表板时，我从标头中选择“注释”。 “注释”窗格随即会显示我们的对话。
 

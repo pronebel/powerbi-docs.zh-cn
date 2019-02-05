@@ -11,12 +11,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 12/06/2018
 LocalizationGroup: Reports
-ms.openlocfilehash: 74d261098ee8385721a0b72d808a6ecb1b89be7c
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 2a6fe04f3e905a1e2ce02bceed123b6f117e62c8
+ms.sourcegitcommit: 2954de034f5e1be655dd02cc756ff34f126d3034
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54283796"
+ms.lasthandoff: 01/30/2019
+ms.locfileid: "55234430"
 ---
 # <a name="filter-a-report-using-query-string-parameters-in-the-url"></a>通过在 URL 中添加查询字符串参数来筛选报表
 
@@ -106,10 +106,10 @@ URL?filter=***表***/***字段*** eq '***值***'
 |**gt**     | 大于        |否 | 是 | 是  | product/price gt 20
 |**le**     |   小于或等于      | 否 | 是 | 是  | product/price le 100
 |**lt**     |  小于       | 否 | 是 | 是 |  product/price lt 20
-|**in****     |  包括       | 是 | 是 |  是 | Student/Age in (27, 29)
+|**in\*\***     |  包括       | 是 | 是 |  是 | Student/Age in (27, 29)
 
 
-\** 使用 in 时，in 右侧的值可以是括在括号中的逗号分隔列表，也可以是返回集合的单个表达式。
+\*\* 使用 in 时，in 右侧的值可以是括在括号中的逗号分隔列表，也可以是返回集合的单个表达式。
 
 ### <a name="numeric-data-types"></a>数值数据类型
 

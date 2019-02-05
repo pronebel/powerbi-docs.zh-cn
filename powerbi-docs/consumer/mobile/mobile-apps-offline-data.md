@@ -9,12 +9,12 @@ ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 06/27/2018
 ms.author: mshenhav
-ms.openlocfilehash: 36a3026ebbdf1290d7f809f5c1ccaac7f5fbd7d0
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: b4977bd043cec08c86fbd3c8893e8f1e185dc1fc
+ms.sourcegitcommit: a36f82224e68fdd3489944c9c3c03a93e4068cc5
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54292388"
+ms.lasthandoff: 01/31/2019
+ms.locfileid: "55430547"
 ---
 # <a name="view-your-data-offline-in-the-power-bi-mobile-apps"></a>在 Power BI 移动应用中查看你的脱机数据
 适用于：
@@ -57,6 +57,7 @@ ms.locfileid: "54292388"
 * 在 Power BI 中整个 Excel 工作簿脱机时将不可用。
 * 如果你在连接时查看了 Reporting Services 移动报表和 KPI，那么脱机时也可以对其进行查看。 不会在后台刷新报表和 KPI。 而是每次打开它们时将其刷新。
 * 在 Power BI 移动应用中，看不到已保存到 Power BI 报表服务器的 Power BI Desktop (.pbix) 文件。 
+* 在网络处于脱机状态时，分页报表 (RDL) 不可用。
 
 ## <a name="next-steps"></a>后续步骤
 你的反馈将帮助我们决定未来要做什么，如果你想在 Power BI 移动应用中看到其他功能，别忘了向我们提出你的建议。 

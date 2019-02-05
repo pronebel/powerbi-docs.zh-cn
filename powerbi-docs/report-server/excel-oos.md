@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 08/21/2018
-ms.openlocfilehash: 2a0fc921ba576803f02ede8fd269370584c61efe
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 157808d7378b40cb097c2cb667eb9d237654e66d
+ms.sourcegitcommit: 2954de034f5e1be655dd02cc756ff34f126d3034
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54284210"
+ms.lasthandoff: 01/30/2019
+ms.locfileid: "55234407"
 ---
 # <a name="configure-your-report-server-to-host-excel-workbooks-using-office-online-server-oos"></a>使用 Office Online Server (OOS) 将报表服务器配置为托管 Excel 工作簿
 
@@ -57,7 +57,7 @@ ms.locfileid: "54284210"
 1. 从[批量许可服务中心 (VLSC)](http://go.microsoft.com/fwlink/p/?LinkId=256561) 下载 Office Online Server。 下载位置在 VLSC 门户上的 Office 产品下方。 出于开发目的，可以从 MSDN 订阅者下载页面下载 OOS。
 2. 运行 Setup.exe。
 3. 在“阅读 Microsoft 软件许可条款”页上，选择“我接受此协议的条款”，然后选择“继续”。
-4. 在“选择文件位置”页上，选择想要安装 Office Online Server 文件的文件夹（例如，C:\Program Files\Microsoft Office Web Apps*），然后选择“立即安装”。 如果你指定的文件夹不存在，安装程序将为你创建一个。
+4. 在“选择文件位置”页上，选择想要安装 Office Online Server 文件的文件夹（例如，C:\Program Files\Microsoft Office Web Apps\*），然后选择“立即安装”。 如果你指定的文件夹不存在，安装程序将为你创建一个。
 
     建议将 Office Online Server 安装在系统驱动器上。
 

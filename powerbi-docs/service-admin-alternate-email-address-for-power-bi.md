@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 11/01/2018
 ms.author: mblythe
 LocalizationGroup: Troubleshooting
-ms.openlocfilehash: 5998f4b63a168c3056a5464844d008bd657ef7c9
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: a37daca38c13cff08be13da619735214002646a3
+ms.sourcegitcommit: a36f82224e68fdd3489944c9c3c03a93e4068cc5
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54294238"
+ms.lasthandoff: 01/31/2019
+ms.locfileid: "55430524"
 ---
 # <a name="using-an-alternate-email-address"></a>使用备用电子邮件地址
 
@@ -64,7 +64,7 @@ Power BI 根据以下顺序选择要使用的电子邮件地址：
 
 1. 如果 Azure AD 用户对象中有邮件属性，Power BI 便会对电子邮件地址使用此邮件属性。
 
-1. 如果 UPN 电子邮件地址不是 **\*.onmicrosoft.com** 域电子邮件地址（“@”符号后面的信息），Power BI 便会对电子邮件地址使用此邮件属性。
+1. 如果 UPN 电子邮件地址不是 **\*.onmicrosoft.com** 域电子邮件地址（“\@”符号后面的信息），Power BI 便会对电子邮件地址使用此邮件属性。
 
 1. 如果 Azure AD 用户对象中有“其他电子邮件地址”数组属性，Power BI 便会使用此列表中的第一个电子邮件地址（因为此属性中可能有电子邮件地址列表）。
 

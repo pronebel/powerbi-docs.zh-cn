@@ -7,15 +7,15 @@ ms.reviewer: maggiesMSFT
 ms.service: powerbi
 ms.subservice: powerbi-template-apps
 ms.topic: conceptual
-ms.date: 10/16/2017
+ms.date: 01/30/2019
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 7a6e6979a6281ef6b00a84cff138818869b113e6
-ms.sourcegitcommit: 750f0bfab02af24c8c72e6e9bbdd876e4a7399de
+ms.openlocfilehash: 49ac1f917a5f3095c1dbc13c644061859389fe74
+ms.sourcegitcommit: 7df786871b196725a1c5422ee561c7557660894e
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/04/2019
-ms.locfileid: "54008019"
+ms.lasthandoff: 01/31/2019
+ms.locfileid: "55482674"
 ---
 # <a name="connect-to-comscore-digital-analytix-with-power-bi"></a>使用 Power BI 连接到 comScore Digital Analytix
 通过 Power BI 内容包可视化和浏览 Power BI 中的 comScore Digital Analytix 数据。 此数据将每天自动刷新一次。
@@ -63,8 +63,6 @@ ms.locfileid: "54008019"
 **数据中心**
 
 连接到的数据中心取决于在 comScore 中导航到的 URL。
-
-如果使用 https://dax.comscore.com ，请输入“US”；如果使用 https://dax.comscore.eu ，输入“EU”。
 
 ![](media/service-connect-to-connect-to/comscore_url.png) 
 
