@@ -2,22 +2,21 @@
 title: 包含 Power BI 嵌入式内容的自定义布局
 description: 了解在应用程序中嵌入 Power BI 内容时的自定义布局。
 author: markingmyname
+ms.author: maghan
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 12/19/2017
-ms.author: maghan
-ms.openlocfilehash: 641369a4410741269a260e036ac3a7930f385e76
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: e812fde896072762e113c81b1dd728091a8ff190
+ms.sourcegitcommit: 0abcbc7898463adfa6e50b348747256c4b94e360
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54288925"
+ms.lasthandoff: 02/06/2019
+ms.locfileid: "55762297"
 ---
 # <a name="custom-layouts"></a>自定义布局
-
 
 使用自定义布局可以嵌入采用不同于原始报表的布局的报表。 定义新布局的过程根据是仅定义页面大小、控制视觉大小还是控制位置和可见性而有所不同。
 
@@ -115,7 +114,6 @@ enum VisualContainerDisplayMode {
 - `width`、height：定义视觉对象的新大小。
 - `displayState`：定义视觉对象的可见性。
 
-
 ## <a name="update-layout"></a>更新布局
 
 加载报表时，随时可以使用 updateSettings 方法更新报表布局。 请参阅[更新设置](https://github.com/Microsoft/PowerBI-JavaScript/wiki/Update-Settings)。
@@ -173,9 +171,7 @@ var embedContainer = document.getElementById('embedContainer');
 var report = powerbi.embed(embedContainer, embedConfiguration);
 ```
 
-
 ## <a name="see-also"></a>另请参阅
 
 [嵌入 Power BI 仪表板、报表和磁贴](embedding-content.md)   
 [在 Power BI 社区提问](https://community.powerbi.com/)
-

@@ -2,21 +2,22 @@
 title: Power BI Embedded 中的问答
 description: Power BI Embedded 提供了一种将问答融入应用的方法，使用户能够使用自然语言提问。
 author: markingmyname
+ms.author: maghan
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 11/20/2017
-ms.author: maghan
-ms.openlocfilehash: 208c1e2a0e188622f989faa6ba391d9742dd7967
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 23e0f7a938116185e05e583f5c7f208efed3ca4d
+ms.sourcegitcommit: 0abcbc7898463adfa6e50b348747256c4b94e360
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54277959"
+ms.lasthandoff: 02/06/2019
+ms.locfileid: "55761906"
 ---
 # <a name="qa-in-power-bi-embedded"></a>Power BI Embedded 中的问答
+
 Power BI Embedded 提供了一种将问答融入应用的方法，使用户能够使用自然语言提问并收到视觉对象（例如图表和图形）形式的即时答复。
 
 ![嵌入框架中的问答交互式问题](media/qanda/embedded-qanda.gif)
@@ -47,13 +48,14 @@ var qna = powerbi.embed(qnaContainer, config);
 ```
 
 ## <a name="set-question"></a>已设置问题
+
 如果将“结果模式”与已设置问题结合使用，可以将其他问题注入框架，并立即显示这些问题的解答，从而替换之前的结果。 与新问题匹配的新视觉对象将呈现。
 
 此用法的一个示例是常见问题列表。 用户可以浏览这些问题并在同一个嵌入部分中进行回答。
 
 JS SDK 用法的代码片段：  
 
-```        
+```
 // Get a reference to the embedded Q&A HTML element
 var qnaContainer = $('#qnaContainer')[0];
 
@@ -70,6 +72,7 @@ qna.setQuestion("This year sales")
 ```
 
 ## <a name="visual-rendered-event"></a>视觉对象呈现的事件
+
 对于“交互式”模式，每当呈现的视觉对象发生更改以在键入更新的输入查询时针对该更新查询，则会通过数据更改事件通知应用。
 
 通过侦听 visualRendered 事件，可以保存问题，以供日后使用。 
@@ -93,10 +96,11 @@ qna.on("visualRendered", function(event) {
 ```
 
 ## <a name="embed-token"></a>嵌入令牌
+
 创建数据集的嵌入令牌以启动问答部分。 有关详细信息，请参阅[生成令牌](https://docs.microsoft.com/rest/api/power-bi/embedtoken)。
 
 ## <a name="next-steps"></a>后续步骤
+
 若要尝试问答嵌入，请查看 [JavaScript 嵌入示例](https://microsoft.github.io/PowerBI-JavaScript/demo/)。
 
 更多问题？ [尝试咨询 Power BI 社区](http://community.powerbi.com/)
-

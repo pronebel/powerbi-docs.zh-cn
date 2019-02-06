@@ -4,19 +4,20 @@ description: 用以推送数据的演练 - 向 Power BI 表中添加行
 author: markingmyname
 ms.author: maghan
 manager: kfile
-ms.reviewer: ''
+ms.reviewer: madia
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
-ms.date: 08/01/2018
-ms.openlocfilehash: 798bfbb5d1ebf127e7b958e02166dea5f1af81ef
-ms.sourcegitcommit: a36f82224e68fdd3489944c9c3c03a93e4068cc5
+ms.date: 02/05/2019
+ms.openlocfilehash: 52ee2dec11029f7c529362fdb44e2291846449c1
+ms.sourcegitcommit: 0abcbc7898463adfa6e50b348747256c4b94e360
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/31/2019
-ms.locfileid: "55430479"
+ms.lasthandoff: 02/06/2019
+ms.locfileid: "55761975"
 ---
 # <a name="step-5-add-rows-to-a-power-bi-table"></a>步骤 5：向 Power BI 表中添加行
+
 本文是[将数据推送到数据集](walkthrough-push-data.md)的分步演练的一部分。
 
 在“将数据推送到数据集”的**步骤 4**（[获取数据集以向 Power BI 表中添加行](walkthrough-push-data-get-datasets.md)）中，你使用了[获取数据集](https://docs.microsoft.com/rest/api/power-bi/datasets/getdatasets)操作和 Newtonsoft.Json 来获取数据集 ID。在此步骤中，将该数据集 ID 用于 [PostRows](https://docs.microsoft.com/rest/api/power-bi/pushdatasets/datasets_postrows) 操作，将行添加到 **Power BI** 数据集。 
@@ -28,10 +29,9 @@ ms.locfileid: "55430479"
 下面介绍了如何使用 Power BI API 将行添加到数据集。
 
 ## <a name="add-rows-to-a-power-bi-table"></a>向 Power BI 表中添加行
+
 > [!NOTE]
 > 在开始之前，先确保已按[将数据推送到数据集](walkthrough-push-data.md)演练中之前的步骤进行了操作。
-> 
-> 
 
 1. 在步骤 2 中创建的控制台应用程序项目中：推送数据演练、[获取身份验证访问令牌](walkthrough-push-data-get-token.md)、添加以下代码。
 2. 运行控制台应用，并登录到你的 Power BI 帐户。 应可看到控制台窗口中的**添加行**。 还可以登录到 Power BI 来查看已添加到数据集中的行。
@@ -57,7 +57,8 @@ ms.locfileid: "55430479"
   
        //Add rows to a Power BI table
        AddRows(datasetId, "Product");
-   }     
+   }
+
   ```
 * 添加 AddRows() 方法：
 

@@ -2,21 +2,22 @@
 title: 安装更适合 Power BI 报表服务器的 Power BI Desktop
 description: 了解如何安装更适合 Power BI 报表服务器的 Power BI Desktop
 author: maggiesMSFT
+ms.author: maggies
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 01/24/2019
-ms.author: maggies
-ms.openlocfilehash: c118e3c2f8b30635982a37c47da9fb9e337aff05
-ms.sourcegitcommit: d12d84583e65ebecc8aa947b0cd5720cffdc7978
+ms.openlocfilehash: 63550950b21231909c32ac63f5f2930ebf93c0af
+ms.sourcegitcommit: 0abcbc7898463adfa6e50b348747256c4b94e360
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/25/2019
-ms.locfileid: "54907502"
+ms.lasthandoff: 02/06/2019
+ms.locfileid: "55762205"
 ---
 # <a name="install-power-bi-desktop-optimized-for-power-bi-report-server"></a>安装更适合 Power BI 报表服务器的 Power BI Desktop
+
 了解如何安装更适合 Power BI 报表服务器的 Power BI Desktop。
 
 若要为 Power BI 报表服务器创建 Power BI 报表，需要下载并安装已针对 Power BI 报表服务器进行优化的 Power BI Desktop。 此版本不同于用于 Power BI 服务的 Power BI Desktop。 例如，用于 Power BI 服务的 Power BI Desktop 版本包含预览版功能，而这些功能在发布后才包含在 Power BI 报表服务器版本中。 使用此版本可确保报表服务器能够与已知版本的报表和模型交互。 
@@ -44,7 +45,7 @@ ms.locfileid: "54907502"
 1. 下载安装程序后，运行 Power BI Desktop（2019 年 1 月版）安装向导。
 
 2. 安装结束时，请选中“立即启动 Power BI Desktop”。
-   
+
     此时，它会自动启动，可以开始使用了。
 
 ## <a name="verify-youre-using-the-correct-version"></a>验证当前使用的版本是否正确。
@@ -64,9 +65,11 @@ Power BI 服务的 Power BI Desktop 版本不会在标题栏中显示发行月�
 如果从 Power BI 报表服务器内部编辑 Power BI 报表，或者通过 Web 门户创建新的 Power BI 报表，则始终打开正确版本的 Power BI Destop。
 
 ## <a name="considerations-and-limitations"></a>注意事项和限制
+
 Power BI 报表服务器、Power BI 服务 (http://app.powerbi.com)) 和 Power BI 移动应用中 Power BI 报表的行为几乎完全相同，但有一些功能不同。
 
 ### <a name="in-a-browser"></a>在浏览器中
+
 Power BI 报表服务器报表支持所有可视化效果，包括：
 
 * 自定义视觉对象
@@ -79,6 +82,7 @@ Power BI 报表服务器报表不支持：
 * Power BI Desktop 预览功能
 
 ### <a name="in-the-power-bi-mobile-apps"></a>在 Power BI 移动应用中
+
 Power BI 报表服务器报表支持 [Power BI 移动应用](../consumer/mobile/mobile-apps-for-mobile-devices.md)中的所有基本功能，其中包括：
 
 * [手机报表布局](../desktop-create-phone-report.md)：可以优化 Power BI 移动应用的报表。 在移动手机上，优化后的报表具有一个特定图标 ![手机报表布局图标](media/install-powerbi-desktop/power-bi-rs-mobile-optimized-icon.png) 和布局。
@@ -100,10 +104,10 @@ Power BI 报表服务器报表不支持 Power BI 移动应用中的如下功能�
 - Microsoft Power BI Desktop（[已针对 Power BI 报表服务器优化 - 2018 年 8 月](https://www.microsoft.com/download/details.aspx?id=57271)）
 
 ## <a name="next-steps"></a>后续步骤
+
 至此，已安装 Power BI Desktop，可以开始创建 Power BI 报表了。
 
 [为 Power BI 报表服务器创建 Power BI 报表](quickstart-create-powerbi-report.md)  
 [什么是 Power BI 报表服务器？](get-started.md)
 
 更多问题？ [尝试咨询 Power BI 社区](https://community.powerbi.com/)
-

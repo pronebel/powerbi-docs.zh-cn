@@ -4,19 +4,19 @@ description: Power BI Embedded 是一个嵌入式分析工具，旨在简化 ISV
 author: markingmyname
 ms.author: maghan
 manager: kfile
-ms.reviewer: ''
+ms.reviewer: nishalit
 ms.service: power-bi-embedded
 ms.subservice: ''
 ms.devlang: csharp, javascript
 ms.topic: overview
 ms.custom: seodec18
 ms.date: 12/10/2018
-ms.openlocfilehash: 175e4409022192b7e34c4670b2738fc56166a122
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 2e60d29602fb412f66f74d5258081003610c30cd
+ms.sourcegitcommit: 0abcbc7898463adfa6e50b348747256c4b94e360
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54288971"
+ms.lasthandoff: 02/06/2019
+ms.locfileid: "55762067"
 ---
 # <a name="what-is-power-bi-embedded-in-azure"></a>Azure 中的 Power BI Embedded 是指什么？
 

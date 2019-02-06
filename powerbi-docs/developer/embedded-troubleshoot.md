@@ -8,13 +8,13 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
-ms.date: 12/20/2018
-ms.openlocfilehash: a53ddf70e82c191af520f2dbba5b5d3d1b0ced42
-ms.sourcegitcommit: a36f82224e68fdd3489944c9c3c03a93e4068cc5
+ms.date: 02/05/2019
+ms.openlocfilehash: b8f78821ccd6f32f9b943b55a45de20b720f3f3c
+ms.sourcegitcommit: 0abcbc7898463adfa6e50b348747256c4b94e360
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/31/2019
-ms.locfileid: "55431214"
+ms.lasthandoff: 02/06/2019
+ms.locfileid: "55762090"
 ---
 # <a name="troubleshoot-your-embedded-application"></a>嵌入式应用程序疑难解答
 
@@ -106,7 +106,7 @@ Azure 门户或 Power BI 应用注册页面中的错误消息提到权限不足�
 若要解决此问题，应从颁发机构 url 末尾剪裁“oauth2/authorize/”，请参阅 [Power BI 开发人员示例](https://github.com/Microsoft/PowerBI-Developer-Samples)以供参考。
 
  查看 ADAL 4.x 发行说明中的[更好的颁发机构验证](https://github.com/AzureAD/azure-activedirectory-library-for-dotnet/wiki/Changes-adalnet-4.0#better-authority-validation)。
- 
+
 ### <a name="authentication-failed-with-aadsts70002-or-aadsts50053"></a>身份验证失败并显示 AADSTS70002 或 AADSTS50053
 
 **_(AADSTS70002:验证凭据时出错。AADSTS50053:使用不正确的用户 ID 或密码尝试登录的次数过多)_**

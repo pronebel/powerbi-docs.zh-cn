@@ -2,26 +2,28 @@
 title: 完整代码清单
 description: 推送数据的演练 - 完整代码清单
 author: markingmyname
+ms.author: maghan
 manager: kfile
-ms.reviewer: ''
+ms.reviewer: madia
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
-ms.date: 08/10/2017
-ms.author: maghan
-ms.openlocfilehash: 96620449e8be8dbbfa13a00484fff29f2370fe19
-ms.sourcegitcommit: a36f82224e68fdd3489944c9c3c03a93e4068cc5
+ms.date: 02/05/2019
+ms.openlocfilehash: 95aadefab6a98413a22dd9386bfb4fc06cb482cb
+ms.sourcegitcommit: 0abcbc7898463adfa6e50b348747256c4b94e360
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/31/2019
-ms.locfileid: "55429927"
+ms.lasthandoff: 02/06/2019
+ms.locfileid: "55762228"
 ---
 # <a name="push-data-to-a-dataset-complete-code-listing"></a>将数据推送到数据集的完整代码清单
+
 本文是[将数据推送到数据集](walkthrough-push-data.md)的分步演练的一部分。
 
 执行**将数据推送到数据集**中的步骤 2 到 5 后，完整源代码应如下所示。
 
 ## <a name="push-data-to-dataset-code"></a>将数据推送到数据集代码
+
       using System;
       using Microsoft.IdentityModel.Clients.ActiveDirectory;
       using System.Net;
@@ -219,8 +221,8 @@ ms.locfileid: "55429927"
           }
       }
 
-
 ## <a name="next-steps"></a>后续步骤
+
 [将数据推送到 Power BI 数据集](walkthrough-push-data.md)  
 [演练 - 将数据推送到 Power BI 数据集](walkthrough-push-data.md)  
 [使用 Azure AD 注册应用](walkthrough-push-data-register-app-with-azure-ad.md)  
@@ -231,6 +233,4 @@ ms.locfileid: "55429927"
 [Power BI REST API 引用](https://docs.microsoft.com/rest/api/power-bi/)  
 [Power BI REST API 概述](overview-of-power-bi-rest-api.md)  
 
-
 更多问题？ [尝试参与 Power BI 社区](http://community.powerbi.com/)
-
