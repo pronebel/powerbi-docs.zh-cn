@@ -9,12 +9,12 @@ ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 03/31/2018
 ms.author: jtarquino
-ms.openlocfilehash: 18a2d6833f0013f95ac0a5dea5f1930e5b666dd6
-ms.sourcegitcommit: 2c49a7cee9c77f46830ddfa59fdedbf30186d389
+ms.openlocfilehash: 034fc149dcd76102ae83864fe65d53c55b57c96a
+ms.sourcegitcommit: 7df786871b196725a1c5422ee561c7557660894e
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "54488859"
+ms.lasthandoff: 01/31/2019
+ms.locfileid: "55482743"
 ---
 # <a name="changelog-for-power-bi-report-server"></a>Power BI 报表服务器的更改日志
 
@@ -24,6 +24,17 @@ ms.locfileid: "54488859"
 
 ## <a name="january-2019"></a>2019 年 1 月
 - **Power BI 报表服务器**            
+    - *版本 1.4.6969.7395（内部版本 15.0.1102.235），发布日期：2019 年 1 月 30 日*
+        - Bug 修复
+            - Power BI 报表
+                - 修复了使用直接查询时基本凭证的问题
+                - 修复了应用行级别安全筛选器的双向关系
+                - 修复了在扩展环境中刷新模型后的过时数据
+                - 修复了 Firefox 63 + 上用于表/矩阵的双滚动条
+                - 修复了 Internet Explorer 中的 +/- 图标大小
+            - 分页报表
+                - 修复了更新报表共享数据源使用的问题
+
     - 版本 1.4.6960.38798（内部版本 15.0.1102.222），发布日期：2019 年 1 月 22日
         - 功能
             - Power BI 报表 
@@ -35,6 +46,10 @@ ms.locfileid: "54488859"
             - 管理员
                 - 限制可上传到报表服务器的资源扩展的功能
                 - 限制受支持超链接方案的功能
+            - 可编程性
+                - 新 Web API：/PowerBIReports({Id})/DataModelRoles (GET)
+                - 新 Web API：/PowerBIReports({Id})/DataModelRoleAssignments (GET & PUT)
+                - 有关更多详细信息，请参阅 [Power BI 报表服务器 REST API](https://app.swaggerhub.com/apis/microsoft-rs/PBIRS/2.0)
         - Bug 修复
             - HTML 注入漏洞
             - “导出为 PDF”未显示欧元符号
@@ -42,6 +57,10 @@ ms.locfileid: "54488859"
             - 在 Power BI 移动应用中，视觉对象空闲时会显示问题
 
 - Power BI Desktop（已针对 Power BI 报表服务器进行优化）
+    - *版本：2.65.5313.1562（2019 年 1 月），发布日期：2019 年 1 月 30 日*
+        - 卸载 Power BI 报表服务器后快捷方式和固定图标仍保留
+        - 修复了将 Power BI 报表服务器固定到开始菜单的问题 - 在黑色图标上显示黑色文本
+
     - *版本：2.65.5313.1421（2019 年 1 月），发布日期：* 2019 年 1 月 22日
         - 包含与 Power BI 报表服务器连接所需的更改（2019 年 1 月）  
 

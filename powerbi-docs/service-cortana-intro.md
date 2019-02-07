@@ -6,15 +6,15 @@ manager: kfile
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 10/24/2018
+ms.date: 01/30/2019
 ms.author: maggies
 LocalizationGroup: Ask questions of your data
-ms.openlocfilehash: bcd07bb0cb53ea4818195e15c1492a27f424cf38
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 26bd41c8fa2d1300a0f9e106c7899777ac5950f7
+ms.sourcegitcommit: 7df786871b196725a1c5422ee561c7557660894e
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54292582"
+ms.lasthandoff: 01/31/2019
+ms.locfileid: "55482720"
 ---
 # <a name="quickly-find-and-view-your-power-bi-data-using-cortana-for-power-bi"></a>使用 Power BI 的 Cortana 快速查找和查看 Power BI 数据
 在 Windows 10 设备上使用 Cortana 获取重要业务问题的即时答案。 通过与 Power BI 集成，Cortana 可以直接从 Power BI 仪表板和报表检索关键信息。 需要 Windows 10 的 2015 年 11 月版本或更高版本、Cortana、 Power BI，并访问至少一个数据集。
@@ -22,7 +22,7 @@ ms.locfileid: "54292582"
 ![Cortana 搜索字段](media/service-cortana-intro/power-bi-cortana-searchbox.png)
 
 ## <a name="preview-the-new-cortana-dashboard-search-experience-for-windows-10"></a>预览 Windows 10 的新 Cortana 仪表板搜索体验
-一段时间以来，你已经能够[使用 Cortana 检索某些类型的报表页](service-cortana-answer-cards.md)。 现在，我们添加了新体验，即同时还能够检索仪表板。 请进行尝试并[向我们发送反馈](mailto:pbicortanasg@microsoft.com)。 最终，新体验将得以扩展，将对报表的 Cortana 搜索也包括在内。  新体验的主要优点之一是，无需执行任何特殊的设置操作（即无需启用 Cortana 或配置 Windows 10）。 它就能正常工作。
+一段时间以来，你已经能够[使用 Cortana 检索某些类型的报表页](service-cortana-answer-cards.md)。 现在，我们添加了新体验，即同时还能够检索仪表板。 请进行尝试并[在 Power BI Ideas 向我们发送反馈](https://ideas.powerbi.com/forums/265200-power-bi)。 最终，新体验将得以扩展，将对报表的 Cortana 搜索也包括在内。  新体验的主要优点之一是，无需执行任何特殊的设置操作（即无需启用 Cortana 或配置 Windows 10）。 它就能正常工作。
 
 > [!NOTE]
 > 如果它无法“正常工作”，请参阅[疑难解答文章](service-cortana-troubleshoot.md)寻求帮助。
@@ -127,7 +127,8 @@ Cortana 可以在你拥有的仪表板和已与你共享的仪表板中找到答
 * Power BI 的 Cortana 目前仅以英语提供。
 * Power BI 的 Cortana 仅在 Windows 移动设备上可用。
 
-更多问题？ [尝试参与 Power BI 社区](http://community.powerbi.com/)
+更多问题？ [尝试参与 Power BI 社区](http://community.powerbi.com/)。
+想要提供反馈？ [将反馈发送到 Power BI Ideas](https://ideas.powerbi.com/forums/265200-power-bi)。
 
 ## <a name="next-steps"></a>后续步骤
 [为报表启用 Cortana - Power BI - Windows 集成](service-cortana-enable.md)
