@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 01/24/2019
 ms.author: mihart
 LocalizationGroup: Consumer
-ms.openlocfilehash: 174886acf1d827497b48d660bb89e2b4057b09b9
-ms.sourcegitcommit: 2954de034f5e1be655dd02cc756ff34f126d3034
+ms.openlocfilehash: 35d5a6f9911afea7b91b37299225c191cd4d7ac9
+ms.sourcegitcommit: 54d44deb6e03e518ad6378656c769b06f2a0b6dc
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/30/2019
-ms.locfileid: "55234553"
+ms.lasthandoff: 02/07/2019
+ms.locfileid: "55794849"
 ---
 # <a name="visualization-types-in-power-bi"></a>Power BI 中的可视化效果类型
 你会在报表、仪表板、应用和问答中找到可视化效果。 其中某些可视化效果类型与 Power BI 打包在一起，另有一些是自定义视觉对象。 自定义视觉对象在 Power BI 外部创建，其创建方式使报表设计器可以将它们添加到 Power BI 报表、仪表板和应用。 
@@ -26,7 +26,7 @@ ms.locfileid: "55234553"
 > 若要了解自定义视觉对象，请在 [Microsoft AppSource](https://appsource.microsoft.com/marketplace/apps?product=power-bi-visuals) 的“Power BI 视觉对象”部分中搜索它们。 对于每个视觉对象，你会找到说明、创建者信息以及屏幕截图或视频。 
 
 ## <a name="list-of-visualizations-available-in-power-bi"></a>Power BI 中可用的可视化效果列表
-所有这些可视化效果都可以在 Power BI 应用、仪表板、报表中找到，以及[在问答中指定](#gna)。
+所有这些可视化效果都可以在 Power BI 应用、仪表板、报表中找到，以及[在问答中指定](#qna)。 若要了解如何与可视化效果进行交互，请参阅[与报表、仪表板和应用中的可视化效果交互](end-user-visualizations.md)
 
 ### <a name="area-charts-basic-layered-and-stacked"></a>分区图：基本（分层）和堆积
 ![分区图](../visuals/media/power-bi-visualization-types-for-reports-and-q-and-a/basicareamapsmall.png)
@@ -232,5 +232,5 @@ ArcGIS 地图和 Power BI 的结合将超越地图点表示法的地图绘制技
 ![问答会话](../visuals/media/power-bi-visualization-types-for-reports-and-q-and-a/qatreemap.png)
 
 ## <a name="next-steps"></a>后续步骤
-[Power BI 报表中的可视化效果](end-user-visualizations.md)    
+[与报表、仪表板和应用中的可视化效果交互](end-user-visualizations.md)    
 [sqlbi.com 中正确的视觉对象引用](http://www.sqlbi.com/wp-content/uploads/videotrainings/dashboarddesign/visuals-reference-may2017-A3.pdf)

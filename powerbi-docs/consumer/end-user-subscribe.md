@@ -3,22 +3,22 @@ title: 为自己订阅报表和仪表板
 description: 了解如何为自己和同事订阅 Power BI 报表或仪表板的电子邮件快照。
 author: mihart
 manager: kvivek
-ms.reviewer: ''
+ms.reviewer: cmfinlan
 featuredvideoid: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 01/29/2019
+ms.date: 02/05/2019
 LocalizationGroup: Common tasks
-ms.openlocfilehash: a35067af531f6da29edef7638fc9a743c948b8ce
-ms.sourcegitcommit: a36f82224e68fdd3489944c9c3c03a93e4068cc5
+ms.openlocfilehash: df167f8693708c08bc44e935cff184917d8aaf54
+ms.sourcegitcommit: 54d44deb6e03e518ad6378656c769b06f2a0b6dc
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/31/2019
-ms.locfileid: "55430248"
+ms.lasthandoff: 02/07/2019
+ms.locfileid: "55794323"
 ---
 # <a name="subscribe-to-a-report-or-dashboard-in-power-bi-service"></a>在 Power BI 服务中订阅报表和仪表板 
-现在，及时更新最重要的仪表板和报表，比以前更加轻松。 订阅最重要的报表页和仪表板，Power BI 将会通过电子邮件将快照发送到收件箱。 告知 Power BI 所需的电子邮件接收频率：每天、每周或是在数据刷新时。 甚至可以为 Power BI 发送电子邮件设置特定时间。  
+现在，及时更新最重要的仪表板和报表，比以前更加轻松。 订阅最重要的报表页和仪表板，Power BI 将会通过电子邮件将快照发送到收件箱。 告知 Power BI 所需的电子邮件接收频率：每天、每周或是在数据刷新时。 甚至可以为 Power BI 发送电子邮件设置特定时间或立即运行此操作。  
 
 电子邮件和快照将使用在 Power BI 设置中设置的语言（请参阅 [Power BI 的支持语言和国家/地区](../supported-languages-countries-regions.md)）。 如果未定义任何语言，Power BI 会根据当前浏览器中的区域设置使用语言。 要查看或设置语言首选项，请选择齿轮图标 ![齿轮图标](./media/end-user-subscribe/power-bi-settings-icon.png) > “设置”>“常规”>“语言”。 
 
@@ -40,23 +40,23 @@ ms.locfileid: "55430248"
    
    ![订阅图标](./media/end-user-subscribe/power-bi-subscribe-icon.png)
 
-   ![订阅窗口](./media/end-user-subscribe/power-bi-emails2.png)
+   ![订阅窗口](./media/end-user-subscribe/power-bi-emails-new.png)
     
     在处于某个仪表板上并选择“订阅”时，左侧屏幕会出现。 在处于某个报表页上并选择“订阅”时，右侧屏幕会出现。 要订阅报表中的多个页，请选择“添加其他订阅”并选择另一页。 
 
-3. 使用黄色滑块可启用和禁用订阅。  将滑块设置为“关”不会删除订阅。 若要删除订阅，请选择垃圾桶图标。
+4. 使用黄色滑块可启用和禁用订阅。  将滑块设置为“关”不会删除订阅。 若要删除订阅，请选择垃圾桶图标。
 
 4. 填写电子邮件详细信息（可选）。 
 
 5. 选择订阅的“频率”。  可以选择“每天”、“每周”或“数据刷新后(每天)”。  若要仅在某些天接收订阅电子邮件，请选择“每周”，然后选择要在哪几天接收电子邮件。  例如，如果要仅在工作日收到订阅电子邮件，则对频率选择“每周”，并取消选中“周六”和“周日”的对应框。   
 
-
 6. 通过对频率选择“每天”或“每周”，并为订阅输入“计划时间”，来计划发送电子邮件的时间。   
 
 7. 通过在日期字段中输入日期来计划开始和结束日期。 默认情况下，订阅的开始时间会是创建它的日期，而结束日期会是一年后。 当订阅达到结束日期时，它会停止，直到重新启用。  你会在计划结束日期之前收到通知，询问是否要延长它。     
 
+8. 若要查看你的订阅并进行测试，请选择“立即运行”。  它将立即向你发送电子邮件。 
 
-5. 选择“**保存并关闭**”，保存订阅。 你会收到所设置的计划中的仪表板或报表的电子邮件和快照。 频率设置为“数据刷新后”的所有订阅都只会在该天的第一次计划刷新之后发送电子邮件。
+8. 如果看起来一切正常，请选择“保存并关闭”，保存订阅。 你会收到所设置的计划中的仪表板或报表的电子邮件和快照。 频率设置为“数据刷新后”的所有订阅都只会在该天的第一次计划刷新之后发送电子邮件。
    
    ![仪表板的电子邮件快照](media/end-user-subscribe/power-bi-subscribe-email.png)
    
@@ -83,6 +83,5 @@ ms.locfileid: "55430248"
 * 如果超过两个月一直没有人访问仪表板和报表，那么 Power BI 会自动暂停刷新与它们关联的数据集。  不过，如果添加对仪表板或报表的订阅，即使无人访问，也不会暂停刷新。    
 
 ## <a name="next-steps"></a>后续步骤
-* 更多问题？ [尝试咨询 Power BI 社区](http://community.powerbi.com/)    
-* [阅读博客文章](https://powerbi.microsoft.com/blog/introducing-dashboard-email-subscriptions-a-360-degree-view-of-your-business-in-your-inbox-every-day/)
 
+[对内容进行搜索和排序](end-user-search-sort.md)

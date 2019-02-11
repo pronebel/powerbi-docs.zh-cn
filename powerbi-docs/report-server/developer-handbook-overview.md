@@ -9,28 +9,28 @@ ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 11/01/2017
 ms.author: maghan
-ms.openlocfilehash: df77d4b9642a6df511af8af054e3e983c0120f77
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 9b1357d2e10214cdf578bff4d2aa7fca8fc19033
+ms.sourcegitcommit: 54d44deb6e03e518ad6378656c769b06f2a0b6dc
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54291608"
+ms.lasthandoff: 02/07/2019
+ms.locfileid: "55794709"
 ---
 # <a name="developer-handbook-overview-power-bi-report-server"></a>开发者手册概述：Power BI 报表服务器
 欢迎阅读 Power BI 报表服务器的开发者手册。Power BI 报表服务器是用于存储和管理 Power BI 报表、移动报表和分页报表的本地位置。
 
 ![](media/developer-handbook-overview/admin-handbook.png)
 
-本手册将重点介绍开发者可以使用的 Power BI 报表服务器选项。
+本手册重点介绍开发者可以使用的 Power BI 报表服务器选项。
 
 ## <a name="embedding"></a>嵌入
-对于 Power BI 报表服务器中的任何报表，都可以将查询字符串参数 `?rs:Embed=true` 添加到 URL 中，从而将报表嵌入 iFrame 内。 这适用于 Power BI 报表以及其他任何类型报表。
+对于 Power BI 报表服务器中的任何报表，都可以将查询字符串参数 `?rs:Embed=true` 添加到 URL 中，从而将报表嵌入 iFrame 内。 此方法适用于 Power BI 报表以及其他任何类型报表。
 
 ### <a name="report-viewer-control"></a>报告查看器控件
-对于分页报表，可以利用报表查看器控件。 这样一来，可以将此控件嵌入 .NET Windows 或 Web 应用中。 有关详细信息，请参阅[报表查看器控件入门](https://docs.microsoft.com/sql/reporting-services/application-integration/integrating-reporting-services-using-reportviewer-controls-get-started)。
+对于分页报表，可以利用报表查看器控件。 使用它，可以将此控件嵌入 .NET Windows 或 Web 应用中。 有关详细信息，请参阅[报表查看器控件入门](https://docs.microsoft.com/sql/reporting-services/application-integration/integrating-reporting-services-using-reportviewer-controls-get-started)。
 
 ## <a name="apis"></a>API
-可以通过多个 API 选项与 Power BI 报表服务器进行交互。 具体选项如下。
+可以通过多个 API 选项与 Power BI 报表服务器进行交互。 此方法包括以下内容。
 
 * [REST API](rest-api.md)
 * [URL 访问](https://docs.microsoft.com/sql/reporting-services/url-access-ssrs)

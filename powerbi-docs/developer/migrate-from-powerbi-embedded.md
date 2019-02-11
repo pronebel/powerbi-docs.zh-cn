@@ -2,19 +2,20 @@
 title: 如何将 Power BI 工作区集合内容迁移到 Power BI
 description: 了解如何从 Power BI 工作区集合迁移到 Power BI Embedded，以及如何利用此改进功能在应用中嵌入内容。
 author: markingmyname
+ms.author: maghan
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 06/30/2018
-ms.author: maghan
-ms.openlocfilehash: be1c1e489cd29fc67ade95886f77a5a08697ff99
-ms.sourcegitcommit: a36f82224e68fdd3489944c9c3c03a93e4068cc5
+ms.openlocfilehash: 9901d5a60c0fe3127dada9523e659d48fbe7bf8b
+ms.sourcegitcommit: 0abcbc7898463adfa6e50b348747256c4b94e360
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/31/2019
-ms.locfileid: "55431007"
+ms.lasthandoff: 02/06/2019
+ms.locfileid: "55762182"
 ---
 # <a name="how-to-migrate-power-bi-workspace-collection-content-to-power-bi-embedded"></a>如何将 Power BI 工作区集合内容迁移到 Power BI Embedded
+
 了解如何从 Power BI 工作区集合迁移到 Power BI Embedded，以及如何利用此改进功能在应用中嵌入内容。
 
 Microsoft 最近[发布了 Power BI Embedded](https://powerbi.microsoft.com/blog/power-bi-embedded-capacity-based-skus-coming-to-azure/)，这是一个基于容量的新许可模型，可提高用户访问、共享和分发内容的灵活性。 此产品还提高了系统的可伸缩性和性能。
@@ -25,75 +26,77 @@ Microsoft 最近[发布了 Power BI Embedded](https://powerbi.microsoft.com/blog
 
 > [!IMPORTANT]
 > 虽然 Power BI Embedded 上的迁移具有依赖项，但在使用嵌入令牌时，Power BI 上没有为应用程序的用户提供依赖项。 用户不需要注册 Power BI 来查看应用程序中嵌入的内容。 可为嵌入的非 Power BI 用户使用此嵌入方法。
-> 
 
-![](media/migrate-from-powerbi-embedded/powerbi-embed-flow.png)
+![嵌入流](media/migrate-from-powerbi-embedded/powerbi-embed-flow.png)
 
 开始迁移到新的 Power BI Embedded 之前，可以快速完成一个演练，它可以帮助你使用[嵌入安装工具](https://aka.ms/embedsetup)来设置新的 Power BI Embedded 环境。
 
 选择最适合你的解决方案：
 * **为客户嵌入** - 适用于对[应用拥有数据](https://aka.ms/embedsetup/AppOwnsData)解决方案感兴趣的用户。 通过[为客户嵌入内容](embedding.md#embedding-for-your-customers)，可为没有 Power BI 帐户的用户嵌入仪表板和报表。 
+
 * **为组织嵌入** - 适用于对[用户拥有数据](https://aka.ms/embedsetup/UserOwnsData)解决方案感兴趣的用户。 通过[为组织嵌入内容](embedding.md#embedding-for-your-organization)，可以扩展 Power BI 服务。
 
 ## <a name="prepare-for-the-migration"></a>迁移准备
+
 需要完成一些准备工作才能从 Power BI 工作区集合迁移到 Power BI Embedded。 你将需要一个可用的租户，以及具有 Power BI Pro 许可证的用户。
 
 1. 请确保你有权访问 Azure Active Directory (Azure AD) 租户。
-   
+
     你需要确定要使用的租户设置。
-   
+
    * 使用现有公司 Power BI 租户？
    * 为应用程序使用单独的租户？
    * 为每个客户使用单独的租户？
-     
+
      如果决定为应用程序或每个客户创建一个新租户，请参阅[创建 Azure Active Directory 租户](create-an-azure-active-directory-tenant.md)或[如何获取 Azure Active Directory 租户](https://docs.microsoft.com/azure/active-directory/develop/active-directory-howto-tenant)。
 2. 在此新租户中创建一个用户，作为应用程序“主”帐户。 该帐户需要注册 Power BI，并获得 Power BI Pro 许可证。
 
 ## <a name="accounts-within-azure-ad"></a>Azure AD 中的帐户
+
 租户中必须有以下帐户。
 
 > [!NOTE]
 > 这些帐户需要具有 Power BI Pro 许可证才能使用应用工作区。
->
 
 1. 租户管理员用户。
-   
+
     建议此用户成为为实现嵌入而创建的所有应用工作区的成员。
+
 2. 将创建内容的分析师帐户。
-   
+
     应根据需要将这些用户分配到应用工作区。
+
 3. 应用程序主用户帐户或嵌入帐户。
-   
+
     应用程序后端将存储此帐户的凭据，并将其用于获取与 Power BI REST API 一起使用的 Azure AD 身份验证令牌。 此帐户将用于生成应用程序的嵌入令牌。 此帐户还必须是为实现嵌入而创建的应用工作区的管理员。
-   
+
 > [!NOTE]
 > 这只是组织中用于嵌入用途的常规用户帐户。
->
 
 ## <a name="app-registration-and-permissions"></a>应用注册和权限
+
 你将需要在 Azure AD 中注册应用程序，并授予某些权限。
 
 ### <a name="register-an-application"></a>注册应用程序
+
 必须向 Azure AD 注册应用，才能执行 REST API 调用。 除了转到 Power BI 应用注册页，这还包括转到 Azure 门户来应用其他配置。 有关详细信息，请参阅[注册 Azure AD 应用以便嵌入 Power BI 内容](register-app.md)。
 
 应使用应用主帐户来注册应用。
 
 ## <a name="create-app-workspaces-required"></a>创建应用工作区（必需）
+
 如果应用程序服务多个客户，则可以利用应用工作区提供更好的隔离。 将在客户之间隔离仪表板和报表。 然后可以使用每个应用工作区的 Power BI 帐户以进一步隔离客户之间的应用程序体验。
 
 > [!IMPORTANT]
 > 不能使用个人工作区来利用嵌入到非 Power BI 用户功能。
-> 
-> 
 
 你将需要具有 Pro 许可证的用户才能在 Power BI 中创建应用工作区。 默认情况下，创建应用工作区的 Power BI 用户将成为该工作区的管理员。
 
 > [!NOTE]
 > 应用主帐户必须是工作区的管理员。
-> 
-> 
 
 ## <a name="content-migration"></a>内容迁移
+
 在执行当前解决方案时，可同时将内容从工作区集合迁移到 Power BI Embedded，不需要停机处理。
 
 可使用迁移工具，更轻松地将 Power BI 工作区集合中的内容复制到 Power BI Embedded。 尤其是有大量内容时。 有关详细信息，请参阅 [Power BI Embedded 迁移工具](migrate-tool.md)。
@@ -106,9 +109,11 @@ Microsoft 最近[发布了 Power BI Embedded](https://powerbi.microsoft.com/blog
 有关相关的代码片段，请参阅[用于迁移 Power BI 工作区集合内容的代码片段](migrate-code-snippets.md)。
 
 ### <a name="report-types"></a>报表类型
+
 有多种类型的报表，每种报表的迁移流程都稍有不同。
 
 #### <a name="cached-dataset--report"></a>缓存数据集和报表
+
 缓存数据集是指已导入数据的 PBIX 文件，而不是采用实时连接或 DirectQuery 连接。
 
 流
@@ -118,6 +123,7 @@ Microsoft 最近[发布了 Power BI Embedded](https://powerbi.microsoft.com/blog
 3. 将导入 PBIX 调用到 SaaS 工作区。
 
 #### <a name="directquery-dataset--report"></a>DirectQuery 数据集和报表
+
 流
 
 1. 调用 GET https://api.powerbi.com/v1.0/collections/{collection_id}/workspaces/{wid}/datasets/{dataset_id}/Default.GetBoundGatewayDataSources 并保存收到的连接字符串。
@@ -129,6 +135,7 @@ Microsoft 最近[发布了 Power BI Embedded](https://powerbi.microsoft.com/blog
 7. 通过调用 PATCH 更新用户凭据 https://api.powerbi.com/v1.0/myorg/gateways/{gateway_id}/datasources/{datasource_id}
 
 #### <a name="old-dataset--reports"></a>旧数据集和报表
+
 这些数据集/报表是在 2016 年 10 月之前创建的。 下载 PBIX 不支持 2016 年 10 月之前上传的 PBIX
 
 流
@@ -137,6 +144,7 @@ Microsoft 最近[发布了 Power BI Embedded](https://powerbi.microsoft.com/blog
 2. 将导入 PBIX 调用到 SaaS 工作区。
 
 #### <a name="push-dataset--report"></a>推送数据集和报表
+
 下载 PBIX 不支持推送 API 数据集。 无法将推送 API 数据集从 PaaS 移植到 SaaS。
 
 流
@@ -154,34 +162,40 @@ Microsoft 最近[发布了 Power BI Embedded](https://powerbi.microsoft.com/blog
 6. 将报表重新绑定到推送 API 数据集。
 
 ## <a name="create-and-upload-new-reports"></a>创建并上传新报表
+
 除了迁移自 Power BI 工作区集合的内容外，还可使用 Power BI Desktop 创建报表和数据集，然后将它们发布到应用工作区。 发布报表的最终用户需要拥有 Power BI Pro 许可证才可发布到应用工作区。
 
 ## <a name="rebuild-your-application"></a>重新生成应用程序
+
 1. 需要修改应用程序以使用 Power BI REST API 和 powerbi.com 中的报表位置。
 2. 使用应用程序的*主*帐户重新生成 AuthN/AuthZ 身份验证。 可以使用[嵌入令牌](https://docs.microsoft.com/rest/api/power-bi/embedtoken)来允许此用户代表其他用户执行操作。
 3. 将报表从 powerbi.com 嵌入到应用程序。
 
 ## <a name="map-your-users-to-a-power-bi-user"></a>将用户映射到 Power BI 用户
+
 在应用程序中，将在应用程序中管理的用户映射到应用程序的*主* Power BI 凭据。 此 Power BI *主*帐户的凭据将存储在应用程序中，并且可用于创建嵌入令牌。
 
 ## <a name="what-to-do-when-you-are-ready-for-production"></a>做好生产准备时应执行的操作
+
 准备好迁移到生产环境时，需要执行以下操作。
 
 * 如果要使用单独的租户进行开发，则需要确保应用工作区以及仪表板和报表在生产环境中可用。 还需要确保在 Azure AD 中为生产租户创建了应用程序，并按照步骤 1 中所述分配了适当的应用权限。
 * 购买符合需求的容量。 若要更好地了解所需容量的数量和类型，请参阅[Power BI Embedded 容量规划白皮书](https://aka.ms/pbiewhitepaper)。 可以在 Azure 中[购买容量](https://portal.azure.com/#create/Microsoft.PowerBIDedicated)。
 * 编辑应用工作区，并在“高级”下将其分配给 Premium 容量。
- 
-    ![](media/migrate-from-powerbi-embedded/powerbi-embedded-premium-capacity02.png)
-    
+
+    ![高级容量](media/migrate-from-powerbi-embedded/powerbi-embedded-premium-capacity02.png)
+
 * 将更新后的应用程序部署到生产环境，并开始通过 Power BI Embedded 嵌入报表。
 
 ## <a name="after-migration"></a>迁移后
+
 应在 Azure 中执行一些清理操作。
 
 * 删除 Azure Power BI Embedded 工作区集合中部署的解决方案的所有工作区。
 * 删除 Azure 中存在的任何工作区集合。
 
 ## <a name="next-steps"></a>后续步骤
+
 [使用 Power BI 嵌入](embedding.md)  
 [Power BI 工作区集合迁移工具](migrate-tool.md)  
 [用于迁移 Power BI 工作区集合内容的代码片段](migrate-code-snippets.md)  

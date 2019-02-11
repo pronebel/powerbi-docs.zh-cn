@@ -8,13 +8,13 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
-ms.date: 01/17/2018
-ms.openlocfilehash: da005c7b1dcf04a61873f2b712083b10a5365329
-ms.sourcegitcommit: a36f82224e68fdd3489944c9c3c03a93e4068cc5
+ms.date: 02/05/2019
+ms.openlocfilehash: 54d768e4d2ad1b2eab4559ee5d9db0705fb55542
+ms.sourcegitcommit: 0abcbc7898463adfa6e50b348747256c4b94e360
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/31/2019
-ms.locfileid: "55430570"
+ms.lasthandoff: 02/06/2019
+ms.locfileid: "55762642"
 ---
 # <a name="frequently-asked-questions-about-power-bi-embedded"></a>有关 Power BI Embedded 的常见问题
 
@@ -25,7 +25,7 @@ ms.locfileid: "55430570"
 
 ### <a name="what-is-power-bi-embedded"></a>Power BI Embedded 是什么?
 
-通过 Microsoft Power BI Embedded (PBIE)，应用程序开发人员将令人震撼的完全交互式报表嵌入到应用程序中，无需花费时间和费用重新生成自己的数据可视化和控件。
+通过 [Microsoft Power BI Embedded (PBIE)](azure-pbie-what-is-power-bi-embedded.md)，应用程序开发人员将令人震撼的完全交互式报表嵌入到应用程序中，无需花费时间和费用生成自己的数据可视化和控件。
 
 ### <a name="who-is-the-target-audience-for-power-bi-embedded"></a>Power BI Embedded 的目标受众是谁？
 
@@ -33,7 +33,7 @@ ms.locfileid: "55430570"
 
 ### <a name="how-is-power-bi-embedded-different-from-power-bi-the-service"></a>Power BI Embedded 与 Power BI 服务有什么不同？
 
-Power BI Embedded 适用于以下 ISV 或开发人员：正在构建应用程序和希望将视觉对象嵌入到这些应用程序中，以帮助他们的客户做出决策，而无需从头开始构建分析解决方案。 嵌入式分析使业务用户能够访问业务数据并执行查询，以在应用程序中使用这些数据获得洞察力。
+Power BI Embedded 适用于以下 ISV 或开发人员：正在构建应用程序和希望将视觉对象嵌入到这些应用程序中，以帮助他们的客户做出决策，而无需从头开始构建分析解决方案。 [嵌入式分析](embedding.md)使业务用户能够访问业务数据并执行查询，以在应用程序中使用该数据获得洞察力。
 
 Power BI 是“软件即服务”分析解决方案，为组织提供最关键业务数据的单一视图。
 
@@ -43,7 +43,7 @@ Power BI 是“软件即服务”分析解决方案，为组织提供最关键�
 
 Power BI Embedded 适用于正在构建应用程序和希望将视觉对象嵌入到这些应用程序中的 ISV 或开发人员。 由于 Power BI Embedded 适用于应用程序开发人员，应用程序的客户可以使用存储在 Power BI Embedded 容量上的内容（包括组织内外的任何人），因此 Power BI Embedded 能帮助你的客户做出决策。 Power BI Embedded 容量内容无法通过“一键式发布到 Web”或“一键式发布到 SharePoint”进行共享，并且不支持 SSRS 报表。
 
-### <a name="what-is-the-microsoft-recommendation-for-when-a-customer-should-buy-power-bi-premium-vs-power-bi-embedded"></a>Microsoft 建议客户购买 Power BI Premium 还是 Power BI Embedded？
+### <a name="what-is-the-microsoft-recommendation-for-when-a-customer-should-buy-power-bi-premium-vs-power-bi-embedded"></a>Microsoft 建议客户购买 Power BI Premium 还是Power BI Embedded？
 
 Microsoft 建议企业购买企业级自助服务云 BI 解决方案 Power BI Premium，建议 ISV 购买云助力的嵌入式分析组件 Power BI Embedded。 但是，客户可以购买哪种产品没有限制。
 
@@ -51,13 +51,13 @@ Microsoft 建议企业购买企业级自助服务云 BI 解决方案 Power BI Pr
 
 ### <a name="how-many-embed-tokens-can-i-create"></a>我可以创建多少嵌入令牌？
 
-使用 PRO 许可证的嵌入令牌仅用于开发测试，因此 Power BI 主帐户生成的嵌入令牌数量有限。 必须[购买容量](#technical)，才能在生产环境中嵌入。 购买容量后，便能生成任意多个嵌入令牌。 转到[可用功能](https://docs.microsoft.com/rest/api/power-bi/availablefeatures)查看使用量值，该值以百分比表示当前嵌入使用量。
+使用 PRO 许可证的嵌入令牌仅用于开发测试，因此 Power BI 主帐户或[服务主体](embed-service-principal.md)可生成的嵌入令牌数量有限。 [购买容量](#technical)以便在生产环境中嵌入。 购买容量后，便能生成任意多个嵌入令牌。 转到[可用功能](https://docs.microsoft.com/rest/api/power-bi/availablefeatures)查看使用量值，该值以百分比表示当前嵌入使用量。
 
 ## <a name="technical"></a>技术
 
 ### <a name="what-is-the-difference-between-the-a-skus-in-azure-and-the-em-skus-in-office-365"></a>Azure 中的 A SKU 与 Office 365 中的 EM SKU 之间有什么区别？
 
-PowerBI.com 是一个企业解决方案，包括软件即服务套餐中的许多功能，例如社交协作、电子邮件订阅等
+PowerBI.com 是一个企业解决方案，包括许多功能，例如社交协作、电子邮件订阅等其他功能。 在软件即服务产品中
 
 Power BI Embedded 是一组 API，可供开发人员在平台即服务产品中创建嵌入式分析解决方案。 对于嵌入式分析方案，PowerBI.com 可帮助 ISV 和开发人员管理他们的嵌入式分析解决方案内容和租户级设置。
 
@@ -86,7 +86,7 @@ Power BI Embedded 是一组 API，可供开发人员在平台即服务产品中�
 
 ### <a name="what-are-the-prerequisites-to-create-a-pbie-capacity-in-azure"></a>在 Azure 中创建 PBIE 容量的先决条件是什么？
 
-* 需要登录到组织目录（不支持 MSA 帐户）。
+* 登录到组织目录（不支持 MSA 帐户）。
 * 必须有 Power BI 租户，即目录中至少有一个用户注册了 Power BI。 
 * 需要在组织目录中有 Azure 订阅。
 
@@ -98,9 +98,9 @@ Power BI Embedded 是一组 API，可供开发人员在平台即服务产品中�
 
 * 使用 [Azure 诊断日志记录](azure-pbie-diag-logs.md)。
 
-### <a name="will-my-capacity-scale-automatically-to-adjust-to-the-consumption-of-my-app"></a>我的容量缩放是否会自动调整以适应应用消耗量？
+### <a name="can-my-capacity-scale-automatically-to-adjust-to-the-consumption-of-my-app"></a>我的容量缩放能否自动调整以适应应用消耗量？
 
-虽然现在没有自动缩放，但是所有 API 都可以在任何时候缩放。
+尽管现在没有自动缩放，但所有 API 均可随时缩放。
 
 ### <a name="why-creatingscalingresuming-a-capacity-results-in-putting-the-capacity-into-a-suspended-state"></a>为什么创建/缩放/恢复容量会导致将容量置于挂起状态？
 
@@ -119,7 +119,7 @@ Power BI Embedded 是一组 API，可供开发人员在平台即服务产品中�
 ![关于 Power BI](media/embedded-faq/about-01.png)
 ![租户区域](media/embedded-faq/tenant-location-01.png)
 
-### <a name="what-is-supported-with-the-cloud-solution-provider-csp-channel"></a>云解决方案提供商 (CSP) 通道支持哪些内容？
+### <a name="what-is-supported-by-the-cloud-solution-provider-csp-channel"></a>云解决方案提供商 (CSP) 通道支持哪些内容？
 
 * 可以为订阅类型为 CSP 的租户创建 PBIE
 * 合作伙伴帐户可以登录到客户租户并为将客户租户用户指定为 Power BI 容量管理员的客户租户购买 PBIE
@@ -157,15 +157,15 @@ Power BI 要求使用组织帐户注册。 不支持使用 MSA（Microsoft 帐�
 
 ### <a name="what-is-the-authentication-model-for-power-bi-embedded"></a>什么是 Power BI Embedded 的身份验证模型？
 
-Power BI Embedded 会继续使用 Azure AD 对主用户（指定的 Power BI Pro 许可用户）进行身份验证，进而对 Power BI 中的应用程序进行身份验证。
+Power BI Embedded 会继续使用 Azure AD 对主用户（指定的 Power BI Pro 许可用户）进行身份验证，或使用[服务主体](embed-service-principal.md)对 Power BI 中的应用程序进行身份验证。  
 
-应用程序用户的身份验证和授权由 ISV 执行，ISV 可以为其应用程序实施自己的身份验证。
+应用程序用户的身份验证和授权由 ISV 执行，ISV 可以为其应用程序实施身份验证。
 
 如果你已有 Azure AD 租户，则可以使用现有的目录，也可以创建新的 Azure AD 租户以确保你的嵌入式应用程序内容安全。
 
-若要获取 AAD 令牌，可以使用 Azure Active Directory 身份验证库 (https://docs.microsoft.com/azure/active-directory/develop/active-directory-authentication-libraries) 之一。 有适用于多个平台的客户端库。
+若要获取 AAD 令牌，可以使用 [Azure Active Directory 身份验证库](https://docs.microsoft.com/azure/active-directory/develop/active-directory-authentication-libraries)之一。 有适用于多个平台的客户端库。
 
-### <a name="my-application-already-uses-aad-for-user-authentication-how-can-we-use-this-identity-when-authenticating-to-power-bi-in-an-user-owns-data-scenario"></a>我的应用程序已使用 AAD 进行用户身份验证。 在“用户拥有数据”方案中对 Power BI 进行身份验证时，如何使用此标识？
+### <a name="my-application-already-uses-aad-for-user-authentication-how-can-we-use-this-identity-when-authenticating-to-power-bi-in-a-user-owns-data-scenario"></a>我的应用程序已使用 AAD 进行用户身份验证。 对“用户拥有数据”方案中的 Power BI 进行身份验证时，如何才能使用此标识？
 
 它是标准 OAuth 代理流 (https://docs.microsoft.com/azure/active-directory/develop/active-directory-authentication-scenarios#web-application-to-web-api) 需要配置应用程序，使其具有访问 Power BI 服务的权限（在要求的范围内），用户获得应用令牌后，只需使用用户访问令牌调用 ADAL API AcquireTokenAsync 并将 PowerBI 资源 URL 指定为资源 ID 即可，请参阅以下代码片段了解操作方法：
 
@@ -178,7 +178,7 @@ var authenticationResult = await context.AcquireTokenAsync(resourceId, clientAss
 
 ### <a name="how-is-power-bi-embedded-different-from-other-azure-services"></a>Power BI Embedded 与其他 Azure 服务有什么不同？
 
-购买 Azure 中的 Power BI Embedded 之前，ISV/开发人员必须拥有 Power BI 帐户。 你的 Power BI Embedded 部署区域由你的 Power BI 帐户决定。 管理你在 Azure 中的 Power BI Embedded 资源，以便：
+购买 Azure 中的 Power BI Embedded 之前，ISV/开发人员必须拥有 Power BI 帐户。 你的 Power BI Embedded 部署区决定 Power BI 帐户。 管理你在 Azure 中的 Power BI Embedded 资源，以便：
 
 * 纵向/横向扩展
 * 添加容量管理员
@@ -192,7 +192,7 @@ var authenticationResult = await context.AcquireTokenAsync(resourceId, clientAss
 
 ### <a name="what-type-of-content-pack-data-can-be-embedded"></a>可以嵌入哪种类型的内容包数据？
 
-无法嵌入基于内容包数据集创建的仪表板和磁贴，但可嵌入基于内容包数据集创建的报表。
+无法嵌入基于内容包数据集构建的仪表板和磁贴，但可嵌入基于内容包数据集构建的报表。
 
 ### <a name="what-is-the-difference-between-using-rls-vs-javascript-filters"></a>使用 RLS 与 JavaScript 筛选器有何区别？
 
@@ -203,6 +203,34 @@ var authenticationResult = await context.AcquireTokenAsync(resourceId, clientAss
 对于客户端筛选 (JavaScript)，ISV 可能会决定最终用户在初始视图中看到的内容，但 ISV 无法控制最终用户可能会应用于视图本身的更改。 虽然数据筛选可以在后端进行，但它是由 JavaScript 客户端代码触发，因此可以由最终用户更改，也就不能被视为安全。
 
 有关详细信息，请参阅 [RLS 与 JavaScript 筛选器](embedded-row-level-security.md#using-rls-vs-javascript-filters)。
+
+### <a name="how-do-i-manage-permissions-for-service-principals-with-power-bi"></a>如何管理 Power BI 的服务主体的权限？
+
+在使[服务主体](embed-service-principal.md)可用于 Power BI 后，应用程序的 AD 权限将不再有效。 然后，将通过 Power BI 管理门户管理应用程序权限。
+
+服务主体继承其安全组中的所有 Power BI 租户设置的权限。 若要限制权限，请为服务主体创建专用的安全组并将其添加到相关已启用 Power BI 设置的“除特定安全组以外”列表。
+
+当你以管理员身份将服务主体添加到新工作区时，这种情况很重要。 可以通过 [API](https://docs.microsoft.com/rest/api/power-bi/groups/addgroupuser) 或使用 Power BI 服务管理此任务。
+
+### <a name="when-to-use-an-application-id-vs-a-service-principal-object-id"></a>何时使用应用程序 ID 与服务主体对象 ID？
+
+传递应用程序 ID 进行身份验证时，[应用程序 ID](embed-sample-for-customers.md#application-id) 用于创建访问令牌。
+
+若要引用服务主体用于操作或进行更改，请使用[服务主体对象 ID](embed-service-principal.md#how-to-get-the-service-principal-object-id) - 例如，以管理员身份将服务主体应用于工作区。
+
+### <a name="can-you-manage-an-on-premises-data-gateway-with-service-principal"></a>能否使用服务主体管理本地数据网关？
+
+无法像使用主帐户一样，使用[服务主体](embed-service-principal.md)管理本地数据网关（数据网关）。
+
+使用主帐户，可以安装数据网关，向网关添加用户，连接数据源和执行其他管理任务。
+
+使用服务主体，可以使用 SQL Server Analysis Services (SSAS) 本地实时连接数据源配置[行级别安全性 (RLS)](embedded-row-level-security.md#on-premises-data-gateway-with-service-principal-preview)。 使用服务主体与 Power BI Premium Embedded 集成时，可以通过这种方式管理用户及其对 SSAS 中数据的访问权限。
+
+### <a name="can-you-sign-into-the-power-bi-service-with-service-principal"></a>能否使用服务主体登录 Power BI 服务？
+
+否，无法使用服务主体登录 Power BI。
+
+此外，还无法以用户身份使用外部应用程序（SaaS 嵌入）中的内容，只有在生成嵌入令牌时才可以。
 
 ### <a name="what-are-the-best-practices-to-improve-performance"></a>提高性能的最佳做法有哪些？
 
@@ -232,11 +260,11 @@ Power BI Embedded 是通过 Azure 提供的。
 
 ### <a name="who-needs-a-power-bi-pro-license-for-power-bi-embedded-and-why"></a>谁需要 Power BI Embedded 的 Power BI Pro 许可证，为什么？
 
-需要将报表添加到 Power BI 工作区的任何分析人员都需要具有 Power BI 许可证。 任何需要使用 REST API 的开发人员都需要 Power BI Pro 许可证。 需要管理 Power BI 租户和容量的任何租户管理员都需要具有 Power BI Pro 许可证。
+任何需要使用 REST API 的开发人员都需要 Power BI Pro 许可证或[服务主体](embed-service-principal.md)。 需要将报表添加到 Power BI 工作区的任何分析人员都可以具有 Power BI Pro 许可证或使用服务主体。 需要管理 Power BI 租户和容量的任何租户管理员都需要具有 Power BI Pro 许可证。
 
 由于 Power BI Embedded 允许使用 Power BI 门户来管理和验证嵌入式内容，因此需要使用 Power BI Pro 许可证对 PowerBI.com 内部的应用进行身份验证，这样才能访问相应存储库中的报表。
 
-不过，若要在自己的应用程序中[创建/编辑已嵌入报表](https://github.com/Microsoft/PowerBI-JavaScript/wiki/Create-Report-in-Embed-View)，最终用户无需 Pro 许可证，因为该用户根本就不需要是 Power BI 用户。
+不过，若要在应用程序中[创建/编辑已嵌入报表](https://github.com/Microsoft/PowerBI-JavaScript/wiki/Create-Report-in-Embed-View)，最终用户无需 Pro 许可证，因为该用户根本就不需要是 Power BI 用户。
 
 ### <a name="can-i-get-started-for-free"></a>开始我可以免费使用吗？
 
@@ -289,7 +317,7 @@ Power BI Embedded 可用于某些[主权云](embed-sample-for-customers-sovereig
 
 ### <a name="why-should-i-migrate-from-pbi-workspace-collection-to-power-bi-embedded"></a>为什么应当从 PBI 工作区集合迁移到 Power BI Embedded？
 
-Power BI Embedded 解决方案中引入了 Power BI 工作区集合无法实现的新特性和新功能。
+Power BI Embedded 解决方案中引入了一些 Power BI 工作区集合无法实现的新特性和新功能。
 
 一些功能为：
 

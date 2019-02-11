@@ -8,17 +8,17 @@ ms.custom: seodec18
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 01/29/2019
+ms.date: 01/30/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 5eadf12fc1b54e8f5ac657685826816f0fca318d
-ms.sourcegitcommit: 2954de034f5e1be655dd02cc756ff34f126d3034
+ms.openlocfilehash: f7e83c2d0cd2f1c3344bf61f9f90ca43f09f7189
+ms.sourcegitcommit: 54d44deb6e03e518ad6378656c769b06f2a0b6dc
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/30/2019
-ms.locfileid: "55234338"
+ms.lasthandoff: 02/07/2019
+ms.locfileid: "55794304"
 ---
-# <a name="visualizations-for-power-bi-consumers"></a>Power BI 使用者的可视化效果
+# <a name="interact-with-visualizations-in-reports-dashboards-and-apps"></a>与报表、仪表板和应用中的可视化效果交互
 
 从最基本的含义来说，可视化效果（或视觉对象）是 Power BI 设计器使用报表和数据集中的数据生成的一种图表类型。 
 
@@ -27,13 +27,14 @@ ms.locfileid: "55234338"
 
 ## <a name="what-can-i-do-with-visualizations"></a>使用可视化效果可以做什么？
 
-可视化效果是通过报表和仪表板设计器创建的，并会共享给使用者。 使用者拥有许多与可视化效果进行交互的选项，并可使用这些选项获取见解和制定数据驱动的业务决策。 下面列出了所有这些选项，并提供了分步说明的链接。
+可视化效果是通过报表和仪表板设计器创建的，并会共享给使用者。 使用者拥有许多与可视化效果进行交互的选项，并可使用这些选项获取见解和制定数据驱动的业务决策。 下表列出了所有这些选项，并提供了分步说明的链接。
 
-但这里先来简单介绍一下问答功能。 问答是 Power BI 的自然语言搜索工具。 用户使用自然语言输入问题，问答以可视化效果的形式回答问题。 问答是一种使用者可以用来创建其自己的可视化效果的方式。 但无法保存使用问答功能创建的可视化效果。 但是，如果需要从数据中了解某些特定信息，而设计器没有将其包含在报表或仪表板中，那么问答会是一个不错的选择。 要了解有关问答的详细信息，请参阅[使用者问答](end-user-q-and-a.md)。
+> [!IMPORTANT]
+> 但这里先来简单介绍一下问答功能。 问答是 Power BI 的自然语言搜索工具。 用户使用自然语言输入问题，问答以可视化效果的形式回答问题。 问答是一种使用者可以用来创建其自己的可视化效果的方式。 但无法保存使用问答功能创建的可视化效果。 但是，如果需要从数据中了解某些特定信息，而设计器没有将其包含在报表或仪表板中，那么问答会是一个不错的选择。 要了解有关问答的详细信息，请参阅[使用者问答](end-user-q-and-a.md)。
 
 
 
-|列 1  |在仪表板上  |在报表中  | 在问答中
+|任务  |在仪表板上  |在报表中  | 在问答中
 |---------|---------|---------|--------|
 |[在可视化效果中添加注释或与同事发起一次有关可视化效果的对话](end-user-comment.md)。     |  是       |   否      |  否  |
 |[打开并浏览已创建可视化效果的报表](end-user-tiles.md)。     |    是     |   na      |  na |

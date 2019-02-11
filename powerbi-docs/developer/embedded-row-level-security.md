@@ -8,15 +8,15 @@ ms.reviewer: nishalit
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
-ms.date: 12/20/2018
-ms.openlocfilehash: 785461290493db59c534a58b548620b6d2f58cd7
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.date: 02/05/2019
+ms.openlocfilehash: f50305eed647bfc94bc5c19ee1a298cb9ac9c782
+ms.sourcegitcommit: 0abcbc7898463adfa6e50b348747256c4b94e360
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54284164"
+ms.lasthandoff: 02/06/2019
+ms.locfileid: "55762688"
 ---
-# <a name="use-row-level-security-with-power-bi-embedded-content"></a>对 Power BI 已嵌入内容使用行级别安全性
+# <a name="row-level-security-with-power-bi-embedded"></a>Power BI Embedded 的行级安全性
 
 行级别安全性 (RLS) 可用于限制用户访问仪表板、磁贴、报表和数据集中的数据。 这样一来，各个用户虽然处理的是相同项目，但看到的数据却不同。 嵌入支持 RLS。
 
@@ -247,7 +247,7 @@ public EffectiveIdentity(string username, IList<string> datasets, IList<string> 
 
 在生成嵌入令牌时，可以在 Azure SQL 中指定用户的有效标识。 通过将 AAD 访问令牌传递到服务器，可以指定用户的有效标识。 访问令牌仅用于从 Azure SQL 中为特定会话提取该用户的相关数据。
 
-它可以用于在 Azure SQL 中管理每个用户的视图，或者以多租户数据库中特定客户的身份登录到 Azure SQL。 还可以用于在 Azure SQL 中对该会话应用行级别安全性，并且只检索该会话的相关数据，而无需在 Power BI 中管理 RLS。
+它可以用于在 Azure SQL 中管理每个用户的视图，或者以多租户数据库中特定客户的身份登录到 Azure SQL。 还可以在 Azure SQL 中对该会话应用行级别安全性，并且只检索该会话的相关数据，而无需在 Power BI 中管理 RLS。
 
 此类有效标识问题直接应用于 Azure SQL Server 上的 RLS 规则。 Power BI Embedded 在从 Azure SQL Server 查询数据时使用提供的访问令牌。 可通过 USER_NAME() SQL 函数访问用户的UPN（已为其提供访问令牌）。
 
@@ -307,6 +307,18 @@ public IdentityBlob(string value);
    > 要为 Azure SQL 创建访问令牌，应用程序必须在 Azure 门户中的 AAD 应用程序注册配置上具有“访问 Azure SQL DB 和数据仓库”的委派权限，以访问 Azure SQL 数据库 API。
 
    ![应用注册](media/embedded-row-level-security/token-based-app-reg-azure-portal.png)
+
+## <a name="on-premises-data-gateway-with-service-principal-preview"></a>使用服务主体的本地数据网关（预览版）
+
+如果与 Power BI Embedded 集成，则使用 SQL Server Analysis Services (SSAS) 本地实时连接数据源配置行级别安全性 (RLS) 的客户能够享受使用新的[服务主体](embed-service-principal.md)功能管理用户及其对 SSAS 中数据的访问权限。
+
+通过 [Power BI REST API](https://docs.microsoft.com/rest/api/power-bi/) 可以使用[服务主体对象](https://docs.microsoft.com/azure/active-directory/develop/app-objects-and-service-principals#service-principal-object)为嵌入令牌指定 SSAS 本地实时连接的有效标识。
+
+到目前为止，为能够指定 SSAS 本地实时连接的有效标识，生成嵌入令牌的主用户必须是网关管理员。现在，不需要用户是网关管理员，网关管理员可为该数据源授予用户专用权限，这使用户能够在生成嵌入令牌时覆盖有效标识。 此项新功能支持使用实时 SSAS 连接的服务主体进行嵌入。
+
+若要支持此方案，网关管理员使用[添加数据源用户 REST API](https://docs.microsoft.com/rest/api/power-bi/gateways/adddatasourceuser) 对服务主体授予 Power BI Embedded 的 ReadOverrideEffectiveIdentity 权限。
+
+无法通过管理门户设置此权限。 只能使用 API 设置此权限。 在管理门户中，可以看到具有此类权限的用户和 SPN 指示。
 
 ## <a name="considerations-and-limitations"></a>注意事项和限制
 

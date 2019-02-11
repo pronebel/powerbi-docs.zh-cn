@@ -9,15 +9,15 @@ ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: tutorial
 ms.custom: seodec18
-ms.date: 12/10/2018
-ms.openlocfilehash: 790c06dd84d7db3a382ef547c8fcc16237273951
-ms.sourcegitcommit: a36f82224e68fdd3489944c9c3c03a93e4068cc5
+ms.date: 02/05/2019
+ms.openlocfilehash: 69ce8088903cbdddef504dbf5e9b2ecc2a8ab9d4
+ms.sourcegitcommit: 0abcbc7898463adfa6e50b348747256c4b94e360
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/31/2019
-ms.locfileid: "55431145"
+ms.lasthandoff: 02/06/2019
+ms.locfileid: "55762665"
 ---
-# <a name="tutorial-embed-a-power-bi-dashboard-tile-or-report-into-your-application-for-sovereign-clouds"></a>教程：将 Power BI 仪表板、磁贴或报表嵌入主权云应用程序中
+# <a name="tutorial-embed-a-power-bi-content-into-your-application-for-sovereign-clouds"></a>教程：将 Power BI 内容嵌入主权云的应用程序
 
 了解如何为主权云将分析内容嵌入到业务流程应用程序中。 可以结合使用 Power BI .NET SDK 与 Power BI JavaScript API 将报表、仪表板或磁贴嵌入到 Web 应用程序中。
 
@@ -37,7 +37,7 @@ Power BI 还支持主权（私有）云。
 
 ![嵌入的仪表板](media/embed-sample-for-customers/powerbi-embed-dashboard.png)
 
-若要开始本演练，需要一个 Power BI 帐户。 如果未设置帐户，则可以根据主权云类型，注册[美国政府 Power BI 帐户](../service-govus-signup.md)、[Power BI for Germany 云帐户](https://powerbi.microsoft.com/power-bi-germany/?ru=https%3A%2F%2Fapp.powerbi.de%2F%3FnoSignUpCheck%3D1)或 [Power BI for China 云帐户](http://www.21vbluecloud.com/powerbi/)。
+若要开始本演练，需要一个 Power BI 帐户。 如果未设置任何帐户，则可以根据政府或国家/地区的类型，选择合适的主权云。 可以注册[美国政府 Power BI 帐户](../service-govus-signup.md)、[Power BI for Germany 云帐户](https://powerbi.microsoft.com/power-bi-germany/?ru=https%3A%2F%2Fapp.powerbi.de%2F%3FnoSignUpCheck%3D1)或 [Power BI for China 云帐户](http://www.21vbluecloud.com/powerbi/)。
 
 > [!NOTE]
 > 要改为为组织嵌入仪表板？ 请参阅[为组织将仪表板集成到应用中](integrate-dashboard.md)。
@@ -435,7 +435,7 @@ var embedConfig = new TileEmbedConfig()
 
 * [如何将 Power BI 工作区集合内容迁移到 Power BI](migrate-from-powerbi-embedded.md)
 
-限制和注意事项
+注意事项和限制
 
 * GCC 帐户现仅支持 P 和 EM 容量
 
