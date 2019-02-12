@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 10/30/2018
 ms.custom: seodec18
 LocalizationGroup: Administration
-ms.openlocfilehash: 8cda803939ee9ae2f864496300fce25890770dac
-ms.sourcegitcommit: a36f82224e68fdd3489944c9c3c03a93e4068cc5
+ms.openlocfilehash: 1bc7539eba4f390c02417edd52ea3f792613abe6
+ms.sourcegitcommit: 3729c88bd991e450fcb2d9b79e6ab478b6e8dc76
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/31/2019
-ms.locfileid: "55430364"
+ms.lasthandoff: 02/08/2019
+ms.locfileid: "55888224"
 ---
 # <a name="administering-power-bi-in-the-admin-portal"></a>在管理门户中管理 Power BI
 
@@ -287,16 +287,6 @@ Office 365 中的全局管理员或分配有 Power BI 服务管理员角色的�
 ### <a name="embed-content-in-apps"></a>在应用中嵌入内容
 
 组织中的用户可以在软件即服务 (SaaS) 应用程序中嵌入 Power BI 仪表板和报表。 禁用此设置会阻止用户使用 REST API 将 Power BI 内容嵌入到其应用程序中。 [了解详细信息](developer/embedding.md)
-
-## <a name="workspaces-and-import-settings"></a>工作区和导入设置
-
-### <a name="author-content-in-workspaces"></a>在工作区中创作内容
-
-组织中的用户可以访问工作区，从而连接到数据并创作内容。 [了解详细信息](service-create-the-new-workspaces.md)
-
-### <a name="import-data-into-power-bi"></a>将数据导入 Power BI
-
-组织中的用户可以将数据导入服务，如在 Power BI Desktop 中发布报表、上传 Power BI 报表文件，以及直接从服务连接到数据。 [了解详细信息](desktop-upload-desktop-files.md)
 
 ## <a name="dataflow-settings-preview"></a>数据流设置(预览版)
 
