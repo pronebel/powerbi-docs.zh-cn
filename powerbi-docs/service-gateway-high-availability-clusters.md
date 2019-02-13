@@ -10,12 +10,12 @@ ms.subservice: powerbi-gateways
 ms.topic: conceptual
 ms.date: 08/08/2018
 LocalizationGroup: Gateways
-ms.openlocfilehash: 51eb5c2947dc6d621e6c2ef6d3e2361a4542a0f1
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: ee7b69bbf8857f12cabb6f7147f8e1d779b2a17e
+ms.sourcegitcommit: 5e83fa6c93a0bc6599f76cc070fb0e5c1fce0082
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54276920"
+ms.lasthandoff: 02/13/2019
+ms.locfileid: "56215058"
 ---
 # <a name="high-availability-clusters-for-on-premises-data-gateway"></a>本地数据网关的高可用性群集
 
@@ -59,13 +59,13 @@ ms.locfileid: "54276920"
 1. 以管理员身份打开 PowerShell 命令窗口
 2. 然后运行以下一次性 PowerShell 命令（假设从未在当前计算机上运行过 PowerShell 命令）：
 
-    ```
+    ```powershell
     Set-ExecutionPolicy -ExecutionPolicy Unrestricted -Force
     ```
 
 3. 接下来，在 PowerShell 窗口中导航到本地数据网关安装文件夹，并使用以下命令导入所需的模块：
 
-    ```
+    ```powershell
     Import-Module .\OnPremisesDataGatewayHAMgmt.psm1
     ```
 

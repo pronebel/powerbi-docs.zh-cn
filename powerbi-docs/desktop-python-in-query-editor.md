@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 06/18/2018
 ms.author: otarb
 LocalizationGroup: Connect to data
-ms.openlocfilehash: d97c59b7c5d25e85dee5f3b5b5b6ae8d24ae6cb2
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 28463c065c965b90beb32feabcd5de029311c612
+ms.sourcegitcommit: 5e83fa6c93a0bc6599f76cc070fb0e5c1fce0082
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54283313"
+ms.lasthandoff: 02/13/2019
+ms.locfileid: "56217036"
 ---
 # <a name="using-python-in-query-editor"></a>在查询编辑器中使用 Python
 你可以在 Power BI Desktop 查询编辑器中使用 Python，Python 是统计学家、数据科学家和数据分析师使用最广泛的一种编程语言。 查询编辑器中集成的 Python 可让你用 Python 来执行数据清理，并在数据集中执行高级数据调整和分析，包括丢失数据补全、预测和聚类分析，此处仅举几例。 Python 是一种功能强大的语言，可用于在“查询编辑器”中准备你的数据模型并创建报表。
@@ -43,10 +43,12 @@ ms.locfileid: "54283313"
    ![](media/desktop-python-in-query-editor/python-in-query-editor-5.png)
 6. 此示例中，请输入以下脚本代码：
    
+    ```python
        import pandas as pd
        completedData = dataset.fillna(method='backfill', inplace=False)
        dataset["completedValues"] =  completedData["SMI missing values"]
-   
+   ```
+
    > [!NOTE]
    > 需要在 Python 环境中安装 pandas 库才能使之前的脚本代码正常运行。 若要安装 pandas，请在 Python 安装中运行以下命令：|      > pip install pandas
    > 

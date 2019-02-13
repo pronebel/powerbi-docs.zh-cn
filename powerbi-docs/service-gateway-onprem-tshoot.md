@@ -10,12 +10,12 @@ ms.subservice: powerbi-gateways
 ms.topic: conceptual
 ms.date: 08/08/2018
 LocalizationGroup: Gateways
-ms.openlocfilehash: 623eb93c27f0ec762b2c9d063b646d757c3b1f0c
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: afc4df99b90d6c6d7016f34983ca3691fb500325
+ms.sourcegitcommit: 80961ace38ff9dac6699f81fcee0f7d88a51edf4
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54296561"
+ms.lasthandoff: 02/13/2019
+ms.locfileid: "56223911"
 ---
 # <a name="troubleshooting-the-on-premises-data-gateway"></a>本地数据网关故障排除
 
@@ -35,11 +35,15 @@ ms.locfileid: "54296561"
 
 * 若要停止服务，则运行该命令：
 
-    '''   net stop PBIEgwService   '''
+    ```
+    net stop PBIEgwService
+    ```
 
 * 若要启动服务，则运行该命令：
 
-    '''   net start PBIEgwService   '''
+    ```
+    net start PBIEgwService
+    ```
 
 ### <a name="log-file-configuration"></a>日志文件配置
 
@@ -318,7 +322,7 @@ ms.locfileid: "54296561"
 > [!IMPORTANT]
 > 启用 EmitQueryTraces 可能会根据网关使用情况显著增加日志大小。 完成日志审阅后，需要将 EmitQueryTraces 设置为 False。 不建议长期将此设置保留为启用状态。
 
-```
+```xml
 <setting name="EmitQueryTraces" serializeAs="String">
     <value>True</value>
 </setting>
@@ -362,7 +366,7 @@ GROUP BY [t0].[ProductCategoryName],[t0].[FiscalYear] </pi>"
 > [!IMPORTANT]
 > 将 TracingVerbosity 设置为 `5` 可能会大大增加日志大小，具体视网关使用情况而定。 完成日志审阅后，需要将 TraceVerbosity 设置为 `4`。 不建议长期将此设置保留为启用状态。
 
-```
+```xml
 <setting name="TracingVerbosity" serializeAs="String">
     <value>5</value>
 </setting>
@@ -486,7 +490,7 @@ ImpersonationLevel 与 SPN 设置或本地策略设置相关。
 
     ![sAMAccount](media/service-gateway-onprem-tshoot/sAMAccount-02.png)
 
-```
+```xml
       <setting name="ADUserNameReplacementProperty" serializeAs="String">
         <value>sAMAccount</value>
       </setting>

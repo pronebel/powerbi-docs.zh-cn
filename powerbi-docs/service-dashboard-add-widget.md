@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 03/02/2018
 ms.author: maggies
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 4dec423e991b695097134d575de8c687b518a66c
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 0cad14c9d00c6d027c0235714305fb33847b5f8a
+ms.sourcegitcommit: 5e83fa6c93a0bc6599f76cc070fb0e5c1fce0082
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54287062"
+ms.lasthandoff: 02/13/2019
+ms.locfileid: "56215690"
 ---
 # <a name="add-image-text-video-and-more-to-your-dashboard"></a>向仪表板添加图像、文本、视频等
 <iframe width="560" height="315" src="https://www.youtube.com/embed/e2PD8m1Q0vU" frameborder="0" allowfullscreen></iframe>
@@ -101,12 +101,12 @@ ms.locfileid: "54287062"
 ## <a name="tips-for-embedding-web-content"></a>嵌入 Web 内容的提示
 * 若为 iframe，请使用安全的源。 如果输入 iframe 嵌入代码却得到空白磁贴，请查看 iframe 源是否使用了 **http**。  如果是，请更改为 **https**。
   
-  ```
+  ```html
   <iframe src="https://xyz.com">
   ```
 * 编辑宽度和高度信息。 此嵌入代码会嵌入视频，并将视频播放器设置为 560 x 315 像素。  当你重设磁贴大小时，这个大小不会更改。
   
-  ```
+  ```html
   <iframe width="560" height="315"
   src="https://www.youtube.com/embed/Cle_rKBpZ28" frameborder="0"
    allowfullscreen></iframe>
@@ -114,14 +114,14 @@ ms.locfileid: "54287062"
   
   如果希望播放器重设大小以适应磁贴大小，请将宽度和高度设为 100%。
   
-  ```
+  ```html
   <iframe width="100%" height="100%"
   src="https://www.youtube.com/embed/Cle_rKBpZ28" frameborder="0"
    allowfullscreen></iframe>
   ```
 * 此代码会嵌入推文，并以独立链接的方式在仪表板上保留 **AFK** 播客、**@GuyInACube 的 Twitter 页面**、**关注**、**#analytics****回复**、**转推**和**喜欢**的链接。  选择磁贴本身会带你前往 Twitter 的播客。
   
-  ```
+  ```html
   <blockquote class="twitter-tweet" data-partner="tweetdeck">
   <p lang="en" dir="ltr">Listen to
   <a href="https://twitter.com/GuyInACube">@GuyInACube</a> talk to

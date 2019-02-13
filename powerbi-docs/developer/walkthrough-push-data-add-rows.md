@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 02/05/2019
-ms.openlocfilehash: 52ee2dec11029f7c529362fdb44e2291846449c1
-ms.sourcegitcommit: 0abcbc7898463adfa6e50b348747256c4b94e360
+ms.openlocfilehash: 353104bcc99b65bdabe83f58edffd2653c48731c
+ms.sourcegitcommit: 5e83fa6c93a0bc6599f76cc070fb0e5c1fce0082
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/06/2019
-ms.locfileid: "55761975"
+ms.lasthandoff: 02/13/2019
+ms.locfileid: "56215909"
 ---
 # <a name="step-5-add-rows-to-a-power-bi-table"></a>步骤 5：向 Power BI 表中添加行
 
@@ -42,7 +42,7 @@ ms.locfileid: "55761975"
 
 * 在 static void Main (string[] args) 中：
   
-  ```
+  ```csharp
    static void Main(string[] args)
    {
   
@@ -62,7 +62,7 @@ ms.locfileid: "55761975"
   ```
 * 添加 AddRows() 方法：
 
-```
+```csharp
     #region Add rows to a Power BI table
     private static void AddRows(string datasetId, string tableName)
     {
@@ -111,6 +111,8 @@ ms.locfileid: "55761975"
 <a name="code"/>
 
 ## <a name="complete-code-listing"></a>完整代码清单
+
+```csharp
     using System;
     using Microsoft.IdentityModel.Clients.ActiveDirectory;
     using System.Net;
@@ -307,6 +309,7 @@ ms.locfileid: "55761975"
             #endregion
         }
     }
+```
 
 虽然我们指定在以上代码中 **_//Get 第一个 ID_**，但正确的做法是按名称搜索数据集。
 

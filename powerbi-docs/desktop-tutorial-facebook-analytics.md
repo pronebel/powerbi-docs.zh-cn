@@ -10,12 +10,12 @@ ms.topic: tutorial
 ms.date: 11/28/2018
 ms.author: davidi
 LocalizationGroup: Learn more
-ms.openlocfilehash: ae2d40d5a53a7a84c0f6070a7be1011968d7ed7b
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 8d80d0a2d976661f2b62476be7742b755d11f1c9
+ms.sourcegitcommit: 5e83fa6c93a0bc6599f76cc070fb0e5c1fce0082
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54276965"
+ms.lasthandoff: 02/13/2019
+ms.locfileid: "56216530"
 ---
 # <a name="tutorial-facebook-analytics-using-power-bi-desktop"></a>教程：使用 Power BI Desktop 进行 Facebook 分析
 

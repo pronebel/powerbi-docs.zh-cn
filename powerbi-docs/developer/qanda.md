@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 11/20/2017
-ms.openlocfilehash: 23e0f7a938116185e05e583f5c7f208efed3ca4d
-ms.sourcegitcommit: 0abcbc7898463adfa6e50b348747256c4b94e360
+ms.openlocfilehash: 4167915c8f8934db458e3aadb8531e9e117dee18
+ms.sourcegitcommit: 5e83fa6c93a0bc6599f76cc070fb0e5c1fce0082
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/06/2019
-ms.locfileid: "55761906"
+ms.lasthandoff: 02/13/2019
+ms.locfileid: "56216990"
 ---
 # <a name="qa-in-power-bi-embedded"></a>Power BI Embedded 中的问答
 
@@ -26,7 +26,7 @@ Power BI Embedded 提供了一种将问答融入应用的方法，使用户能�
 
 下面是 JavaScript 代码的示例。
 
-```
+```javascript
 // Embed configuration used to describe the what and how to embed.
 // This object is used when calling powerbi.embed within the JavaScript API.
 // You can find more information at https://github.com/Microsoft/PowerBI-JavaScript/wiki/Embed-Configuration-Details.
@@ -55,7 +55,7 @@ var qna = powerbi.embed(qnaContainer, config);
 
 JS SDK 用法的代码片段：  
 
-```
+```javascript
 // Get a reference to the embedded Q&A HTML element
 var qnaContainer = $('#qnaContainer')[0];
 
@@ -79,7 +79,7 @@ qna.setQuestion("This year sales")
 
 JS SDK 用法的代码片段：  
 
-```
+```javascript
 // Get a reference to the embedded Q&A HTML element
 var qnaContainer = $('#qnaContainer')[0];
 
