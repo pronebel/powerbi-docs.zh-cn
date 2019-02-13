@@ -3,7 +3,7 @@ items:
   href: power-bi-consumer-landing.md
 - name: 面向使用者的 Power BI 服务
   items:
-  - name: 概览
+  - name: 概述
     items:
     - name: 什么是 Power BI 使用者？
       href: end-user-consumer.md
@@ -61,6 +61,8 @@ items:
         href: ../power-bi-visualizations-arcgis.md
     - name: 常见任务
       items:
+      - name: 查找内容所有者和最近刷新日期
+        href: end-user-fresh.md
       - name: 使用“焦点”和“全屏”模式缩放内容的不同方法
         href: end-user-focus.md
       - name: 在 Power BI 中收藏仪表板、报表和应用
@@ -101,7 +103,7 @@ items:
       href: end-user-insight-types.md
 - name: Power BI 移动应用
   items:
-  - name: 概览
+  - name: 概述
     items:
     - name: 什么是移动应用？
       href: mobile/mobile-apps-for-mobile-devices.md
@@ -191,9 +193,9 @@ items:
     items:
     - name: 移动应用中支持的语言
       href: mobile/mobile-apps-supported-languages.md
-ms.openlocfilehash: 39f29c1fdc719defe1afe1f9bcdb5ef98a34c3c5
-ms.sourcegitcommit: 54d44deb6e03e518ad6378656c769b06f2a0b6dc
+ms.openlocfilehash: f0e5454a60f1434b1098484e7ef3cc74d3ce3be5
+ms.sourcegitcommit: 88ac51106ec7d0ead8c2a1550a11afae0d502bb9
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/07/2019
-ms.locfileid: "55794517"
+ms.lasthandoff: 02/12/2019
+ms.locfileid: "56086554"
