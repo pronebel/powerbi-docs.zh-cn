@@ -8,23 +8,25 @@ featuredvideoid: B2vd4MQrz4M
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 12/18/2018
+ms.date: 02/07/2019
 ms.author: maggies
 LocalizationGroup: Get started
-ms.openlocfilehash: 29e6fe1bfb5a85d2a5ea42db406d4a127a65ec25
-ms.sourcegitcommit: 5bd9bd890db9a7f9d5988c81232f40b9b260a96f
+ms.openlocfilehash: d09ff277ed1c47b9ab11d6ffed4e5c8a57059465
+ms.sourcegitcommit: b717118c44499c8fd8f57534a275f2f78aacc0f1
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "55147441"
+ms.lasthandoff: 02/09/2019
+ms.locfileid: "55971708"
 ---
 # <a name="basic-concepts-for-designers-in-the-power-bi-service"></a>Power BI 服务中设计器的基本概念
 
-本文假设你已[注册 Power BI 服务](service-self-service-signup-for-power-bi.md)，且已[添加了一些数据](service-get-data.md)。 如果还没有任何数据，请尝试安装 [Power BI 示例内容包](sample-datasets.md#the-power-bi-samples-as-content-packs)。
+本文旨在让你了解 Power BI 服务：有哪些不同的元素，它们如何协作，以及如何使用它们。 如果你已[注册 Power BI 服务](service-self-service-signup-for-power-bi.md)并已[添加了一些数据](service-get-data.md)，那么就可以更充分地利用它。 通常情况下，设计人员的典型工作流程是首先在 Power BI Desktop 中创建报表。 然后将报表发布到 Power BI 服务，可在其中继续修改报表。 还可以在 Power BI 服务中根据报表创建仪表板。 
+
+根据本文内容，如果你还没有自己的报表，请尝试安装 [Power BI 示例内容包](sample-datasets.md#the-power-bi-samples-as-content-packs)。
 
 ![浏览器中的 Power BI 服务主页屏幕](media/service-basic-concepts/power-bi-home-screen.png)
 
-以下是在浏览器中打开 Power BI 服务时看到的元素：
+在浏览器中打开 Power BI 服务时，首先进入主屏幕。 可能会看到以下元素：
 
 1. 导航窗格（左侧）
 2. Office 365 应用程序启动程序
@@ -34,9 +36,9 @@ ms.locfileid: "55147441"
 6. 收藏夹仪表板中的磁贴
 7. 收藏的和经常使用的仪表板和报表
 
-我们稍后将深入了解这些功能，不过首先让我们了解一些 Power BI 概念。
+报表和仪表板的最终用户在浏览器的 Power BI 服务中具有相同的启动体验。
 
-或者，你可能想要在阅读本文的剩余部分前先观看该视频。  在视频中，Will 回顾基本概念并提供 Power BI 服务的教程。
+我们稍后将深入了解这些功能，不过首先让我们了解一些 Power BI 概念。 或者你可能想先观看此视频。  在视频中，Will 回顾了基本概念并提供了 Power BI 服务的教程。
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/B2vd4MQrz4M" frameborder="0" allowfullscreen></iframe>
 
@@ -45,13 +47,12 @@ ms.locfileid: "55147441"
 Power BI 的 4 个主要构建基块包括：仪表板、报表和工作簿和数据集。 这些基块一起组织成工作区。 在深入了解 4 个构建基块之前，我们必须先了解工作区。
 
 ## <a name="workspaces"></a>工作区
-工作区是 Power BI 中仪表板、报表、工作簿和数据集的容器。 有两种类型的工作区：“我的工作区”和“应用工作区”。 什么是应用？ Power BI 应用是仪表板和报表的集合，生成应用的目的是为组织提供关键指标。 应用是交互性的，但不可编辑。
+工作区是 Power BI 中仪表板、报表、工作簿和数据集的容器。 有两种类型的工作区：“我的工作区”和“应用工作区”。 什么是应用？ Power BI 应用是仪表板和报表的集合，生成应用的目的是为组织的 Power BI 最终用户提供关键指标。 应用是交互式的，但最终用户无法编辑应用。
 
 - “我的工作区”是个人工作区，供任何 Power BI 客户在其中处理自己的内容。 只有你自己才有权访问你的工作区。 可以从“我的工作区”共享仪表板和报表。 如果想要在仪表板和报表上展开合作或创建应用，那么你会想要在应用工作区中工作。      
 -  应用工作区用于与同事展开协作和共享内容。 也可以在其中为组织创建、发布和管理应用。 可将应用工作区视为构成 Power BI 应用的内容的暂存区域和容器。 可将同事添加到应用工作区，然后在仪表板、报表、工作簿和数据集方面进行协作。 所有应用工作区成员需要 Power BI Pro 许可证，但应用使用者（有权访问应用的同事）不一定需要 Pro 许可证。  
 
-若要了解详细信息，请参阅“目录”中的**共享工作**部分，并从[如何展开协作和共享仪表板与报表](service-how-to-collaborate-distribute-dashboards-reports.md)开始
-
+若要了解详细信息，请首先了解[共享正在处理的仪表板的方式](service-how-to-collaborate-distribute-dashboards-reports.md)。
 
 现在，让我们继续了解 Power BI 构建基块。 仪表板或报表不能没有数据（虽然有空仪表板和空报表，但必须有数据才能让它们发挥作用），因此，让我们先来了解一下“数据集”。
 
@@ -72,7 +73,7 @@ Power BI 的 4 个主要构建基块包括：仪表板、报表和工作簿和�
 
   ![数据集图示](media/service-basic-concepts/drawing2.png)
 
-若要[连接或导入数据集](service-get-data.md)，请选择“获取数据”（左侧导航栏底部），或者选择“+ 创建”>“数据集”（右上角）。 按照说明连接到或导入特定的源，并将该数据集添加到活动的工作区。 新的数据集项目带有黄色星号标记。 你在 Power BI 中所做的工作不会更改基础数据集。
+若要[连接或导入数据集](service-get-data.md)，请选择左侧导航栏底部的“获取数据”。 按照说明连接到或导入特定的源，并将该数据集添加到活动的工作区。 新的数据集项目带有黄色星号标记。 在 Power BI 中所做的工作不会更改基础数据集。
 
 如果你是[应用工作区的一部分](service-collaborate-power-bi-workspace.md)，一个工作区成员添加的数据集也可供其他工作区成员使用。
 
@@ -111,7 +112,7 @@ Power BI 报表是一页或多页可视化对象（如折线图、地图和树�
 * [Power BI 移动应用中的报表](mobile-reports-in-the-mobile-apps.md)
 
 ## <a name="dashboards"></a>仪表板
-可以**在 Power BI 服务中**创建仪表板，或者由同事**在 Power BI 服务中**创建仪表板并与你共享。 它是一个画布，其中包含零个或多个磁贴和小组件。 从报表或[问答](power-bi-q-and-a.md)固定的每个磁贴显示通过数据集创建并固定到仪表板的单个[可视化对象](power-bi-report-visualizations.md)。 可将整个报表页作为单个磁贴固定到仪表板。 有多种方法可将磁贴添加到仪表板中，本概述主题中将会介绍很多。 若要了解详细信息，请参阅 [Power BI 中的仪表板磁贴](service-dashboard-tiles.md)。
+可以在 Power BI 服务中创建仪表板，或者由同事在 Power BI 服务中创建仪表板并与你共享。 它是一个画布，其中包含零个或多个磁贴和小组件。 从报表或[问答](power-bi-q-and-a.md)固定的每个磁贴显示通过数据集创建并固定到仪表板的单个[可视化对象](power-bi-report-visualizations.md)。 可将整个报表页作为单个磁贴固定到仪表板。 有多种方法可将磁贴添加到仪表板中，本概述主题中将会介绍很多。 若要了解详细信息，请参阅 [Power BI 中的仪表板磁贴](service-dashboard-tiles.md)。
 
 人们为什么创建仪表板？  下面只是其中一些原因：
 

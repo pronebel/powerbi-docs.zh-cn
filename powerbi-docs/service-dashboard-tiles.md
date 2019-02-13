@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 11/21/2018
 ms.author: maggies
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 4c6016119bfa41f1b6c91fff7f814474f0f806b2
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: c8b5728c951bc1a25e71da8885997814c5485cd4
+ms.sourcegitcommit: 5e83fa6c93a0bc6599f76cc070fb0e5c1fce0082
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54294394"
+ms.lasthandoff: 02/13/2019
+ms.locfileid: "56215978"
 ---
 # <a name="intro-to-dashboard-tiles-for-power-bi-designers"></a>Power BI 设计器的仪表板磁贴简介
 
@@ -82,7 +82,7 @@ ms.locfileid: "54294394"
 选择磁贴时，出现的下一步取决于该磁贴的创建方式。 同样，如果磁贴有[自定义链接](service-dashboard-edit-tile.md)，则选择该磁贴将转到该链接。 否则，选择磁贴将转到报表、Excel Online 工作簿、本地 Reporting Services 报表或用于创建该磁贴的问答问题。
 
 > [!NOTE]
-> 这对在仪表板上直接使用“**添加磁贴**”创建的视频磁贴不适用。 选择视频磁贴（以这种方式创建的）将导致视频直接在仪表板上播放。   
+> 这对在仪表板上直接使用“添加磁贴”创建的视频磁贴不适用。 选择视频磁贴（以这种方式创建的）将导致视频直接在仪表板上播放。   
 > 
 > 
 

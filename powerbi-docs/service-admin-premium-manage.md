@@ -8,14 +8,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
-ms.date: 02/05/2019
+ms.date: 02/07/2019
 LocalizationGroup: Premium
-ms.openlocfilehash: 82c1a719e757e471b5c278cb26132a3629ca0d74
-ms.sourcegitcommit: 54d44deb6e03e518ad6378656c769b06f2a0b6dc
+ms.openlocfilehash: 2a38d53a121f0a58c18f627370bf81413cf36982
+ms.sourcegitcommit: 3729c88bd991e450fcb2d9b79e6ab478b6e8dc76
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/07/2019
-ms.locfileid: "55794235"
+ms.lasthandoff: 02/08/2019
+ms.locfileid: "55888201"
 ---
 # <a name="manage-capacities-within-power-bi-premium-and-power-bi-embedded"></a>管理 Power BI Premium 和 Power BI Embedded 中的容量
 
@@ -25,7 +25,7 @@ ms.locfileid: "55794235"
 
 ## <a name="what-is-capacity"></a>什么是容量？
 
-容量是 Power BI Premium 和 Power BI Embedded 产品/服务的核心所在。 是为组织专用而保留的资源集。 拥有专用容量后，可向整个组织内的用户发布仪表板、报表和数据集，而无需为他们购买每用户许可证。 还可使容量中的内容具有稳定可靠的性能。 有关详细信息，请参阅[什么是 Power BI Premium？](service-premium.md)。
+容量是 Power BI Premium 和 Power BI Embedded 产品/服务的核心所在。 它是保留以供组织专门使用的资源集。 拥有专用容量后，可向整个组织内的用户发布仪表板、报表和数据集，而无需为他们购买每用户许可证。 还可使容量中的内容具有稳定可靠的性能。 有关详细信息，请参阅[什么是 Power BI Premium？](service-premium.md)。
 
 ### <a name="capacity-admins"></a>容量管理员
 

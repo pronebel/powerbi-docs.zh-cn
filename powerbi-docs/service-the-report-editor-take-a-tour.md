@@ -8,21 +8,23 @@ featuredvideoid: IkJda4O7oGs
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 01/25/2019
+ms.date: 02/07/2019
 ms.author: maggies
 LocalizationGroup: Reports
-ms.openlocfilehash: 51a99d59c74160d229c0d18defe2c5e7be4f48fb
-ms.sourcegitcommit: 5bd9bd890db9a7f9d5988c81232f40b9b260a96f
+ms.openlocfilehash: 66e40462081ee2f1156840d137d4c67ad0eb7b45
+ms.sourcegitcommit: b717118c44499c8fd8f57534a275f2f78aacc0f1
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "55147395"
+ms.lasthandoff: 02/09/2019
+ms.locfileid: "55971685"
 ---
 # <a name="tour-the-report-editor-in-power-bi"></a>Power BI 中的报表编辑器导览
 
-Power BI 服务中的报表编辑器和 Power BI Desktop 中的报表编辑器非常相似。 该视频演示的是 Power BI Desktop 中的报表编辑器，而本文介绍的是 Power BI 服务中的报表编辑器。 
+Power BI 服务中的报表编辑器和 Power BI Desktop 中的报表编辑器非常相似。 通常情况下，首先在 Power BI Desktop 中创建报表。 然后将报表发布到 Power BI 服务，可在其中继续修改报表。 还可以在 Power BI 服务中根据报表创建仪表板。
 
-报表创建者可以创建和编辑仪表板和报表。 然后将其分发给报表使用者。 他们可以在 Power BI 服务的“阅读视图”中与仪表板和报表进行交互，但不能编辑它们。 详细聊耳机[报表使用者可在 Power BI 服务中执行哪些操作](consumer/end-user-reading-view.md) 
+创建仪表板和报表后，将它们分发给报表使用者。 根据具体共享方式，最终用户可以在 Power BI 服务的“阅读”视图中与仪表板和报表进行交互，但不能对其进行编辑。 详细了解[报表使用者可在 Power BI 服务中执行哪些操作](consumer/end-user-reading-view.md)。 
+
+此视频显示 Power BI Desktop 中的报表编辑器。 本文介绍 Power BI 服务中的报表编辑器。 
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/IkJda4O7oGs" frameborder="0" allowfullscreen></iframe>
 
@@ -90,6 +92,12 @@ Power BI 报表编辑器包含 3 个部分：
 ![“筛选器”窗格](media/service-the-report-editor-take-a-tour/power-bi-formatting-pane.png)
 
 有关详细信息，请参阅[向报表添加筛选器](power-bi-report-add-filter.md)。
+
+新的筛选器体验当前处于预览状态。 在新筛选器中，可以将它们的格式设置为类似于报表本身的格式。 还可以锁定筛选器或对报表使用者隐藏这些筛选器。 
+
+![新筛选器体验](media/service-the-report-editor-take-a-tour/power-bi-filter-reading.png)
+
+了解有关[新筛选器体验](power-bi-report-filter-preview.md)的详细信息。
 
 - - -
 ## <a name="the-fields-pane"></a>“字段”窗格

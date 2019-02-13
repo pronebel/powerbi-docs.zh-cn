@@ -9,12 +9,12 @@ ms.subservice: power-bi-developer
 ms.topic: conceptual
 ms.custom: ''
 ms.date: 02/05/2019
-ms.openlocfilehash: a0b1722a54f1e5ea5bf01d8e5bb5fb4753351a60
-ms.sourcegitcommit: 0abcbc7898463adfa6e50b348747256c4b94e360
+ms.openlocfilehash: 81a40e021ecd094e5e678504f2dd60300802d909
+ms.sourcegitcommit: b717118c44499c8fd8f57534a275f2f78aacc0f1
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/06/2019
-ms.locfileid: "55763038"
+ms.lasthandoff: 02/09/2019
+ms.locfileid: "55971662"
 ---
 # <a name="service-principal-with-power-bi-preview"></a>Power BI 的服务主体（预览版）
 
@@ -108,9 +108,6 @@ ms.locfileid: "55763038"
     Add-AzureADGroupMember -ObjectId $($group.ObjectId) -RefObjectId $($sp.ObjectId)
     ```
 
-    > [!Note]
-    > 只能由 AAD 全局管理员创建 AAD 安全组。
-
 3. Power BI 管理员需要启用 Power BI 管理门户中“开发人员设置”中的服务主体。 将 Azure AD 中创建的安全组添加到“开发人员设置”中的“特定安全组”部分。
 
    > [!Important]
@@ -173,6 +170,7 @@ ms.locfileid: "55763038"
 * 在 Power BI 管理门户的开发人员设置中启用服务主体需要 Power BI 管理权限。
 * 无法使用服务主体安装或管理本地数据网关。
 * [为组织嵌入内容](embed-sample-for-your-organization.md)应用程序无法使用服务主体。
+* 不支持[数据流](../service-dataflows-overview.md)管理。
 
 ## <a name="next-steps"></a>后续步骤
 
