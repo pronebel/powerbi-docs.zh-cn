@@ -43,7 +43,7 @@
 
 可以使用 HTTPS 替代直接 TCP，以强制网关与 Azure 服务总线通信。 使用 HTTPS 可能会对性能产生影响。 若要执行此操作，请通过将值从 `AutoDetect` 更改为 `Https` 来修改 *Microsoft.PowerBI.DataMovement.Pipeline.GatewayCore.dll.config* 文件，如紧接本段后面的代码片段中所示。 默认情况下，此文件位于 *C:\Program Files\On-premises data gateway* 。
 
-```
+```xml
 <setting name="ServiceBusSystemConnectivityModeString" serializeAs="String">
     <value>Https</value>
 </setting>
