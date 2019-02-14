@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 10/30/2018
 ms.custom: seodec18
 LocalizationGroup: Administration
-ms.openlocfilehash: 1bc7539eba4f390c02417edd52ea3f792613abe6
-ms.sourcegitcommit: 3729c88bd991e450fcb2d9b79e6ab478b6e8dc76
+ms.openlocfilehash: f7e28ce1f72a58fe2bb52103b79fa0106a0024ca
+ms.sourcegitcommit: 88ac51106ec7d0ead8c2a1550a11afae0d502bb9
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/08/2019
-ms.locfileid: "55888224"
+ms.lasthandoff: 02/12/2019
+ms.locfileid: "56086462"
 ---
 # <a name="administering-power-bi-in-the-admin-portal"></a>在管理门户中管理 Power BI
 
@@ -236,12 +236,17 @@ Office 365 中的全局管理员或分配有 Power BI 服务管理员角色的�
 
 ## <a name="custom-visuals-settings"></a>自定义视觉对象设置
 
-### <a name="enable-custom-visuals-for-the-entire-organization"></a>为整个组织启用自定义视觉对象
+### <a name="add-and-use-custom-visuals"></a>添加和使用自定义视觉对象
 
 组织中的用户可以与自定义视觉对象进行交互并共享。 [了解详细信息](power-bi-custom-visuals.md)
 
 > [!NOTE]
-> 此设置应用于整个组织，并且不能限制为特定组。
+> 此设置可以应用于整个组织，也可以限制为特定组。
+
+### <a name="allow-only-certified-visuals"></a>仅允许已认证的视觉对象
+
+组织中已获得添加和使用自定义视觉对象权限的用户（由“添加和使用自定义视觉对象”设置表示）将只能够使用[已认证的自定义视觉对象](https://go.microsoft.com/fwlink/?linkid=2002010)（未经认证的视觉对象将受阻，并在使用时显示错误消息）。 
+
 
 ## <a name="r-visuals-settings"></a>R 视觉对象设置
 

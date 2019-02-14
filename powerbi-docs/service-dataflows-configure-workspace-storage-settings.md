@@ -10,18 +10,18 @@ ms.topic: conceptual
 ms.date: 12/10/2018
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: 96b6e1a8a92b19181463de404967625b37418582
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: bcde69d25b6b73787a4b9d16e4ba2b39b183ffd7
+ms.sourcegitcommit: 88ac51106ec7d0ead8c2a1550a11afae0d502bb9
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54291938"
+ms.lasthandoff: 02/12/2019
+ms.locfileid: "56086416"
 ---
 # <a name="configure-workspace-dataflow-settings-preview"></a>配置工作区数据流设置（预览）
 
 使用 Power BI 和数据流时，可以在 Azure Data Lake Storage Gen2 中存储工作区的数据流定义文件和数据文件。 工作区管理员可以将 Power BI 配置为执行此操作，本文介绍了实现此目标所需的步骤。 
 
-公司的全局管理员必须将组织的存储帐户连接到 Power BI，并启用对该存储帐户的存储分配权限，之后你才可以配置工作区的数据流存储位置。 * [连接 Azure Data Lake Storage Gen2 以存储数据流（预览）](service-dataflows-connect-azure-data-lake-storage-gen2.md) 
+公司的全局管理员必须将组织的存储帐户连接到 Power BI，并启用对该存储帐户的存储分配权限，之后你才可以配置工作区的数据流存储位置。 [连接 Azure Data Lake Storage Gen2 以存储数据流（预览）](service-dataflows-connect-azure-data-lake-storage-gen2.md) 
 
 有两种配置工作区数据流存储设置的方法： 
 

@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 12/06/2018
 ms.author: davidi
 LocalizationGroup: Troubleshooting
-ms.openlocfilehash: bc53bdf6c0fd013d446c6d74cf2a422a84302f6a
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: bfb6178908a9d6a4bcfe81f8d3d9771ac5b12b9d
+ms.sourcegitcommit: 88ac51106ec7d0ead8c2a1550a11afae0d502bb9
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54289776"
+ms.lasthandoff: 02/12/2019
+ms.locfileid: "56086623"
 ---
 # <a name="troubleshooting-tile-errors"></a>磁贴错误故障排除
 下面是使用磁贴可能会遇到的常见错误以及错误说明。
@@ -30,11 +30,16 @@ ms.locfileid: "54289776"
 **Power BI 加载模型时遇到意外错误。请稍后再试。**
 或**无法检索数据模型。请联系仪表板所有者，确保数据源和模型存在并且可访问。**
 
-我们无法访问你的数据，因为数据源不可访问。 如果数据源已删除、重命名、移动、脱机或权限已更改，则可能会发生这种情况。 确认源是否仍处于我们指向的位置，你是否仍有权访问该源。 如果这不是问题，可能是源速度比较慢。 请稍后在源上的负载较小时重试。 如果是本地源，数据源所有者可以提供详细信息。
+我们无法访问你的数据，因为数据源不可访问。 如果数据源已删除、重命名、移动、脱机或权限已更改，则可能出现此问题。 确认源是否仍处于我们指向的位置，你是否仍有权访问该源。 如果这不是问题，可能是源速度比较慢。 请稍后在源上的负载较小时重试。 如果是本地源，数据源所有者可以提供详细信息。
 
 **你没有权限查看此磁贴或打开该工作簿。**
 
-请联系仪表板所有者，确保数据源和模型存在并且你的帐户可以访问。
+联系仪表板所有者，确保数据源和模型存在并且你的帐户可以访问。
+
+自定义视觉对象已由管理员禁用。
+
+Power BI 管理员已禁用组织或安全组的自定义视觉对象。 将无法从 [Microsoft 市场](https://appsource.microsoft.com/en-us/marketplace/apps?page=1&product=power-bi-visuals)使用自定义视觉对象或从文件导入专用视觉对象。 将仅能够使用预先打包的一组视觉对象。
+
 
 **数据形状必须至少包含一个输出数据的组或计算。请联系仪表板所有者。**
 
@@ -42,7 +47,7 @@ ms.locfileid: "54289776"
 
 **无法显示数据，因为 Power BI 无法确定两个或多个字段之间的关系。**
 
-正在尝试使用不相关的表中的两个或多个字段。 你需要从可视化对象中删除不相关的字段，然后创建表之间的关系。 完成此操作后，你可以将字段添加回可视化对象。 这可在 Power BI Desktop 或 Power Pivot for Excel 中完成。 [了解详细信息](desktop-create-and-manage-relationships.md)
+正在尝试使用不相关的表中的两个或多个字段。 你需要从可视化对象中删除不相关的字段，然后创建表之间的关系。 完成此更改后，可以将字段添加回视觉对象。 这可在 Power BI Desktop 或 Power Pivot for Excel 中完成。 [了解详细信息](desktop-create-and-manage-relationships.md)
 
 **主坐标轴和辅助坐标轴中的组重叠。主坐标轴中的组拥有的密钥不能与辅助坐标轴中的组拥有的相同。**
 
@@ -58,10 +63,10 @@ ms.locfileid: "54289776"
 
 **无法检索该可视化对象的数据。请稍后再试。**
 
-这通常是暂时性问题。 如果你稍后再试，仍看到此消息，请与支持部门联系。
+这通常是暂时性问题。 如果稍后再试，仍看到此消息，请与支持部门联系。
 
 ## <a name="contact-support"></a>与支持部门联系
-如果你仍然有问题，请[与支持部门联系](https://support.powerbi.com)做进一步调查。
+如果仍有问题，请[与支持部门联系](https://support.powerbi.com)做进一步调查。
 
 ## <a name="next-steps"></a>后续步骤
 [本地数据网关故障排除](service-gateway-onprem-tshoot.md)  

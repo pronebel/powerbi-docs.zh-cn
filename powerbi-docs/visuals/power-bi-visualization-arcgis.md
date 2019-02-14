@@ -6,24 +6,24 @@ manager: kvivek
 ms.reviewer: lukaszp
 featuredvideoid: EKVvOZmxg9s
 ms.service: powerbi
-ms.subservice: powerbi-desktop
+ms.subservice: powerbi-visuals
 ms.topic: conceptual
-ms.date: 01/29/2019
+ms.date: 02/10/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 279fea3f1b36a86e7606f3b6d69f19ab42763805
-ms.sourcegitcommit: 2954de034f5e1be655dd02cc756ff34f126d3034
+ms.openlocfilehash: 6b3f1c3780b60efc2ade444960a92234afecc71e
+ms.sourcegitcommit: 88ac51106ec7d0ead8c2a1550a11afae0d502bb9
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/30/2019
-ms.locfileid: "55234552"
+ms.lasthandoff: 02/12/2019
+ms.locfileid: "56086577"
 ---
 # <a name="arcgis-maps-in-power-bi-service-and-power-bi-desktop-by-esri"></a>在 Power BI 服务和 Power BI Desktop 中创建 ESRI ArcGIS 地图
-本教程是从 ArcGIS 地图创建者的角度进行编写。 创建者与同事共享 ArcGIS 地图后，此同事便可以查看相应的地图并与之交互，但无法保存更改。 若要详细了解如何查看 ArcGIS 地图，请参阅[与 ArcGIS 地图交互](../consumer/power-bi-visualizations-arcgis.md)。
+本教程是从 ArcGIS 地图创建者的角度进行编写。 创建者与同事共享 ArcGIS 地图后，此同事便可以查看相应的地图并与之交互，但无法保存更改。 若要详细了解如何查看 ArcGIS 地图，请参阅[与 ArcGIS 地图交互](power-bi-visualizations-arcgis.md)。
 
 ArcGIS 地图和 Power BI 的结合将超越地图点表示法的地图绘制技术提升到全新水平。 从基本地图、位置类型、主题、符号样式和引用层中进行选择，创建丰富多彩的信息性地图可视化效果。 地图上权威数据层与空间分析的结合可传达出可视化效果中数据的更深层次的理解。
 
- 虽然无法在移动设备上创建 ArcGIS 地图，但可以查看它并与之交互。 请参阅[与 ArcGIS 地图交互](../consumer/power-bi-visualizations-arcgis.md)。
+ 虽然无法在移动设备上创建 ArcGIS 地图，但可以查看它并与之交互。 请参阅[与 ArcGIS 地图交互](power-bi-visualizations-arcgis.md)。
 
 > [!TIP]
 > GIS 指的是地理信息系统。
@@ -175,7 +175,8 @@ ArgGIS Maps for Power BI 自动检测在地图上显示数据的最佳方法。 
     ![](media/power-bi-visualization-arcgis/power-bi-esri-drive-time.png)
 
 1. 选择“驾驶时间”选项卡，再选择单选或多选工具。 单选华盛顿特区的大头针。
-    ![](media/power-bi-visualization-arcgis/power-bi-esri-single-select.png)
+
+   ![](media/power-bi-visualization-arcgis/power-bi-esri-single-select.png)
    
    > [!TIP]
    > 如果放大地图（使用“+”图标），选择位置将更加容易。
@@ -340,7 +341,7 @@ ArcGIS Maps for Power BI 自动检测诸如国家/地区、州/省，以及邮�
 目前还不行。 [投票支持此建议](https://ideas.powerbi.com/forums/265200-power-bi-ideas/suggestions/9154765-arcgis-geodatabases)吧。等我们着手开发此功能时，我们会向你发送一封电子邮件。  
 
 ## <a name="next-steps"></a>后续步骤
-[与已与你共享的 ArcGIS 地图交互](../consumer/power-bi-visualizations-arcgis.md)
+[与已与你共享的 ArcGIS 地图交互](power-bi-visualizations-arcgis.md)
 
 [宣布推出适用于 Power BI 的 ArcGIS 地图的博客文章](https://powerbi.microsoft.com/blog/announcing-arcgis-maps-for-power-bi-by-esri-preview/)
 

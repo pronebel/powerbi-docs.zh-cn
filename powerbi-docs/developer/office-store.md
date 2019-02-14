@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: conceptual
 ms.date: 10/30/2018
-ms.openlocfilehash: 850d4c01248a16029b3874548b61c2f9170560bb
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: bedf9092e48b0e28c14ec510f1f3b4431e81ea27
+ms.sourcegitcommit: 88ac51106ec7d0ead8c2a1550a11afae0d502bb9
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54281496"
+ms.lasthandoff: 02/12/2019
+ms.locfileid: "56086393"
 ---
 # <a name="publish-custom-visuals-to-appsource"></a>将自定义视觉对象发布到 AppSource
 
@@ -30,7 +30,7 @@ AppSource 是查找 Microsoft 产品和服务的 SaaS 应用与加载项的位�
 
 ## <a name="preparing-to-submit-your-custom-visual"></a>准备提交自定义视觉对象
 
-对自定义视觉对象进行编码和测试并将其打包到 pbiviz 文件后，还应准备以下信息用于提交。
+对自定义视觉对象进行编码和[测试自定义视觉对象](https://github.com/Microsoft/PowerBI-visuals/blob/master/Tutorial/SubmissionTesting.md)并将其打包到 pbiviz 文件后，还应准备以下信息用于提交。
 
 | 项 | 必填 | 说明 |
 | --- | --- | --- |
