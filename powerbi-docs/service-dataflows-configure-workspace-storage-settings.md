@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 12/10/2018
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: bcde69d25b6b73787a4b9d16e4ba2b39b183ffd7
-ms.sourcegitcommit: 88ac51106ec7d0ead8c2a1550a11afae0d502bb9
+ms.openlocfilehash: 8c17a7b4ad455077d383eaff9b35a5d1004fce11
+ms.sourcegitcommit: 80961ace38ff9dac6699f81fcee0f7d88a51edf4
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/12/2019
-ms.locfileid: "56086416"
+ms.lasthandoff: 02/13/2019
+ms.locfileid: "56223619"
 ---
 # <a name="configure-workspace-dataflow-settings-preview"></a>配置工作区数据流设置（预览）
 
@@ -35,7 +35,7 @@ ms.locfileid: "56086416"
 
 ## <a name="create-a-new-workspace-configure-its-dataflow-storage"></a>创建新工作区，配置其数据流存储
 
-若要在 Power BI 服务中创建新应用工作区，请依次选择“工作区 > 创建应用工作区”。
+若要在 Power BI 服务中创建新应用工作区，请依次选择“工作区”>“创建应用工作区”。
 
 ![添加新工作区](media/service-dataflows-configure-workspace-storage-settings/dataflow-storage-settings_01.jpg)
 
