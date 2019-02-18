@@ -111,7 +111,7 @@ IAP 自定义视觉对象取得认证后，视觉对象可以导出到 PowerPoin
 
 ### <a name="how-to-get-support"></a>如何获取支持？
 
-请随时联系自定义视觉对象支持团队： *pbicvsupport@microsoft.com* 可咨询任何相关问题或提供反馈意见。  
+请随时联系自定义视觉对象支持团队：  *pbicvsupport@microsoft.com*  可咨询任何相关问题或提供反馈意见。  
 
 ## <a name="next-steps"></a>后续步骤
 
