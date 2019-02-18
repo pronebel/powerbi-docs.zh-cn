@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 01/10/2019
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: d48df3287813229e673bbc523281cdb2218ec384
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 8cc1201c506e98ae33b68ef0cf802dae20b6f493
+ms.sourcegitcommit: 5e83fa6c93a0bc6599f76cc070fb0e5c1fce0082
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54277264"
+ms.lasthandoff: 02/13/2019
+ms.locfileid: "56216507"
 ---
 # <a name="connect-azure-data-lake-storage-gen2-for-dataflow-storage-preview"></a>连接 Azure Data Lake Storage Gen2 以存储数据流（预览）
 
@@ -63,7 +63,7 @@ ms.locfileid: "54277264"
 
 ### <a name="grant-the-power-bi-service-a-reader-role"></a>授予 Power BI 服务读取者角色
 
-接下来，需要在创建的存储帐户中授予 Power BI 服务读取者角色。 这是一个内置角色，因而步骤很简单。 
+接下来，需要在创建的存储帐户中授予 Power BI 服务读取者角色。 这是内置角色，因而步骤很简单。 
 
 按照[向安全主体分配角色](https://docs.microsoft.com/azure/storage/common/storage-auth-aad-rbac#assign-a-role-to-a-security-principal)一文中的步骤操作。
 

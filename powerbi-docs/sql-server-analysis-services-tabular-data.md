@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 08/10/2017
 ms.author: maghan
 LocalizationGroup: Data from databases
-ms.openlocfilehash: 6e29e750a22bbd6843e203a5cd93b5c0628b1d05
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 2716696f4884b967735778db46a2300385a86988
+ms.sourcegitcommit: 5e83fa6c93a0bc6599f76cc070fb0e5c1fce0082
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54288764"
+ms.lasthandoff: 02/13/2019
+ms.locfileid: "56215817"
 ---
 # <a name="sql-server-analysis-services-live-data-in-power-bi"></a>Power BI 中的 SQL Server Analysis Services 实时数据
 在 Power BI 中，有两种方法可以连接到实时的 SQL Server Analysis Services 服务器。 获取数据时，可以连接到 SQL Server Analysis Services 服务器，或者可以连接到已连接到 Analysis Services 服务器的 [Power BI Desktop 文件](service-desktop-files.md)或 [Excel 工作簿](service-excel-workbook-files.md)。 根据最佳做法，Microsoft 强烈建议使用 Power BI Desktop，因为它提供丰富的工具集，并且能够在本地维护 Power BI Desktop 文件的备份副本。
@@ -35,14 +35,14 @@ ms.locfileid: "54288764"
 3. 选择 **SQL Server Analysis Services** > **连接**。 
    
    ![](media/sql-server-analysis-services-tabular-data/connecttoas_getdata_2.png)
-4. 选择一个服务器。 如果你未看见此处列出任何服务器，则表示未配置网关和数据源，或者在网关中的数据源的**用户**选项卡中未列出你的帐户。 请与你的管理员确认。
+4. 选择一个服务器。 如果你未看见此处列出任何服务器，则表示未配置网关和数据源，或者在网关中的数据源的**用户**选项卡中未列出你的帐户。 请与管理员确认。
 5. 选择想要连接到的模型。 该模型可以是表格或多维模型。
 
 连接到模型后，该模型将在 Power BI 站点的**我的工作区/数据集**中显示。 如果切换到组工作区，那么数据集将在组中显示。
 
 ![](media/sql-server-analysis-services-tabular-data/connecttoas_dataset_5.png)
 
-## <a name="dashboard-tiles"></a>仪表板磁贴
+## <a name="dashboard-tiles"></a>在推入数据时
 如果将视觉对象从报表固定到仪表板，那么将每 10 分钟自动刷新固定的磁贴。 如果更新了本地 Analysis Services 服务器中的数据，那么 10 分钟后会自动更新磁贴。
 
 ## <a name="common-issues"></a>常见问题

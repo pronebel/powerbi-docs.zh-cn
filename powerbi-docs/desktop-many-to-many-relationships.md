@@ -1,53 +1,43 @@
 ---
-title: Power BI Desktop 中的多对多关系（预览版）
-description: 使用 Power BI Desktop 的多对多关系
+title: Power BI Desktop 中的多对多关系
+description: 使用 Power BI Desktop 中具有多对多基数的关系
 author: davidiseminger
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 09/17/2018
+ms.date: 02/13/2019
 ms.author: davidi
 LocalizationGroup: Transform and shape data
-ms.openlocfilehash: 8d32ad24fd41c33d0b1e1f37f11be39292e82742
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 3f3c901140ca4f2ae2d93d1c3bc17bb519d41212
+ms.sourcegitcommit: d010b10bc14097a1948daeffbc91b864bd91f7c8
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54291064"
+ms.lasthandoff: 02/13/2019
+ms.locfileid: "56225951"
 ---
-# <a name="many-to-many-relationships-in-power-bi-desktop-preview"></a>Power BI Desktop 中的多对多关系（预览版）
+# <a name="relationships-with-a-many-many-cardinality-in-power-bi-desktop"></a>Power BI Desktop 中具有多对多基数的关系
 
-借助 Power BI Desktop 中的多对多关系功能，可以联接有“多对多”基数关系的表。 此外，还能更轻松、更直观地创建包含两个或多个数据源的数据模型。 多对多关系功能是 Power BI Desktop 处理大型复合模型能力中的一部分。
+借助 Power BI Desktop 中的“具有多对多基数的关系”功能，可以联接使用“多对多”基数的表。 此外，还能更轻松、更直观地创建包含两个或多个数据源的数据模型。 “具有多对多基数的关系”功能是 Power BI Desktop 中大型“复合模型”能力的一部分。
 
 ![“编辑关系”窗格中的多对多关系](media/desktop-many-to-many-relationships/many-to-many-relationships_01.png)
 
-Power BI Desktop 中处理多对多关系能力是指以下三个相关功能之一：
+Power BI Desktop 中的“具有多对多基数的关系”能力是以下三个相关功能之一：
 
 * **复合模型**：允许报表有任意组合的两个或多个数据连接，包括 DirectQuery 连接或“导入”。 有关详细信息，请参阅 [Power BI Desktop 中的复合模型（预览版）](desktop-composite-models.md)。
 
-* **多对多关系**：借助复合模型，可以在表之间建立多对多关系。 这种方法删除了对表中唯一值的要求。 它还删除了旧解决办法，如为建立关系而仅引入新表。 本文进一步介绍了此功能。
+* **具有多对多基数的关系**：借助“复合模型”，可以在表之间建立“具有多对多基数的关系”。 这种方法删除了对表中唯一值的要求。 它还删除了旧解决办法，如为建立关系而仅引入新表。 本文进一步介绍了此功能。
 
 * **存储模式**：现在可以指定哪些视觉对象需要查询后端数据源。 导入的是不需要查询的视觉对象，即使基于 DirectQuery，也不例外。 此功能有助于提升性能，并减少后端负载。 以前，即使是切片器等简单视觉对象，也会启动发送至后端源的查询。 有关详细信息，请参阅 [Power BI Desktop 中的存储模式（预览版）](desktop-storage-mode.md)。
 
-## <a name="enable-the-many-to-many-relationships-preview-feature"></a>启用多对多关系预览功能
+## <a name="what-relationships-with-a-many-many-cardinality-solves"></a>“具有多对多基数的关系”所解决的问题
 
-必须在 Power BI Desktop 中启用多对多关系功能。 若要启用复合模型，请依次选择“文件” > “选项和设置” > “选项” > “预览功能”，再选中“复合模型”复选框。
+“具有多对多基数的关系”功能推出之前，两个表之间的关系是在 Power BI 中定义的。 关系中涉及的至少一个表列必须包含唯一值。 不过，通常没有列包含唯一值。 
 
-![“预览功能”窗格](media/desktop-composite-models/composite-models_02.png)
+例如，两个表有一个标记为“Country”的列，但两个表中的“Country”值都不唯一。 必须创建解决办法，才能联接此类表。 其中一种解决办法是，在模型中引入包含必要唯一值的附加表。 借助“具有多对多基数的关系”功能，可以使用具有“多对多”基数的关系直接联接此类表。  
 
-必须重启 Power BI Desktop，才能启用此功能。
-
-![“功能需要重启”窗口](media/desktop-composite-models/composite-models_03.png)
-
-## <a name="what-many-to-many-relationships-solves"></a>多对多关系功能解决的问题
-
-在多对多关系功能推出前，两个表之间的关系是在 Power BI 中进行定义。 关系中涉及的至少一个表列必须包含唯一值。 不过，通常没有列包含唯一值。 
-
-例如，两个表有一个标记为“Country”的列，但两个表中的“Country”值都不唯一。 必须创建解决办法，才能联接此类表。 其中一种解决办法是，在模型中引入包含必要唯一值的附加表。 借助多对多关系功能，可使用基数为“多对多”的关系直接联接此类表。  
-
-## <a name="use-many-to-many-relationships"></a>使用多对多关系功能
+## <a name="use-relationships-with-a-many-many-cardinality"></a>使用“具有多对多基数的关系”
 
 在 Power BI 中定义两个表之间的关系时，必须定义关系基数。 例如，ProductSales 和 Product 之间的关系（使用列 ProductSales[ProductCode] 和 Product[ProductCode]）定义为“多对一”。 之所以这样定义关系是因为，每个产品都会有很多销售额，而且 “Product”表中的 (ProductCode) 列是唯一的。 当你将关系基数定义为“多对一”、“一对多”或“1 对 1”后，Power BI 会验证基数，以便确保选定基数与实际数据匹配。
 
@@ -117,14 +107,11 @@ Power BI Desktop 中处理多对多关系能力是指以下三个相关功能之
 
 ![表视觉对象](media/desktop-many-to-many-relationships/many-to-many-relationships_11.png)
 
-可以看到，表中“TX”的“Sales”数据已知，但“Population”数据未知，而“New York”的“Population”数据已知，但“Sales”数据未知。 这种解决办法并不是最佳的，也存在很多问题。 通过创建多对多关系，可以解决产生的这些问题，如下一部分所述。
+可以看到，表中“TX”的“Sales”数据已知，但“Population”数据未知，而“New York”的“Population”数据已知，但“Sales”数据未知。 这种解决办法并不是最佳的，也存在很多问题。 通过创建具有多对多基数的关系，可以解决所产生的问题，如下一部分所述。
 
-## <a name="use-many-to-many-relationships-instead-of-the-workaround"></a>使用多对多关系功能取代解决办法
+## <a name="use-relationships-with-a-many-many-cardinality-instead-of-the-workaround"></a>使用“具有多对多基数的关系”，而非该解决办法
 
 自 Power BI Desktop 2018 年 7 月版起，可以直接关联表（如之前介绍的表），再也不用无奈地采用类似解决办法了。 现在可以将关系基数设置为“多对多”。 此设置表明，两个表都不包含唯一值。 对于这种关系，仍可以控制哪个表筛选另一个表，也能应用双向筛选（即每个表都进行相互筛选）。  
-
-> [!NOTE]
-> 用于创建多对多关系的功能处于预览阶段。 在处于预览阶段期间，无法向使用多对多关系的 Power BI 服务模型发布数据。 
 
 在 Power BI Desktop 中，当两个表中的关系列都不包含唯一值时，默认基数会被设置为“多对多”。 在这种情况下，系统会显示一条警告消息，以确认关系设置为预期行为，而不是由数据问题导致的非预期效果。  
 
@@ -136,7 +123,7 @@ Power BI Desktop 中处理多对多关系能力是指以下三个相关功能之
 
 ![表视觉对象](media/desktop-many-to-many-relationships/many-to-many-relationships_12.png)
 
-多对多关系与更典型的多对一关系的主要区别如下：
+“具有多对多基数的关系”与更典型的“多对一”关系的主要区别如下：
 
 * 显示的值不包括说明另一个表中存在不匹配行的空白行， 也不包括在另一个表的关系中使用的列为空的行。
 * 无法使用 `RELATED()` 函数，因为可以关联多行。
@@ -153,7 +140,7 @@ Power BI Desktop 中处理多对多关系能力是指以下三个相关功能之
 
 ## <a name="limitations-and-considerations"></a>限制和注意事项
 
-这一版的多对多关系和复合模型有一些限制。
+此版本的“具有多对多基数的关系”和复合模型存在一些限制。
 
 以下 Live Connect（多维）源无法用于复合模型：
 
@@ -165,7 +152,7 @@ Power BI Desktop 中处理多对多关系能力是指以下三个相关功能之
 
 使用 DirectQuery 连接到这些多维数据源时，既无法同时连接到另一个 DirectQuery 源，也无法将它与导入数据相结合。
 
-使用多对多关系时，仍要遵守现有的 DirectQuery 使用限制。 现在每个表都要遵循其中许多限制，具体视表的存储模式而定。 例如，导入表中的计算列可以引用其他表，但 DirectQuery 表中的计算列仍只能引用同一表中的列。 如果模型中的任意表是 DirectQuery，其他限制适用于整个模型。 例如，如果模型中任意表的存储模式为“DirectQuery”，QuickInsights 和问答功能对模型不可用。 
+使用“具有多对多基数的关系”时，仍要遵守现有的 DirectQuery 使用限制。 现在每个表都要遵循其中许多限制，具体视表的存储模式而定。 例如，导入表中的计算列可以引用其他表，但 DirectQuery 表中的计算列仍只能引用同一表中的列。 如果模型中的任意表是 DirectQuery，其他限制适用于整个模型。 例如，如果模型中任意表的存储模式为“DirectQuery”，QuickInsights 和问答功能对模型不可用。 
 
 ## <a name="next-steps"></a>后续步骤
 

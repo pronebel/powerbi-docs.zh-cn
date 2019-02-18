@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 12/10/2018
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: 763b331fd0a5ff47263ea54d17f6cb17516de79d
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 1c503492da52592730b82857725b388ca440f2bd
+ms.sourcegitcommit: 5e83fa6c93a0bc6599f76cc070fb0e5c1fce0082
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54296768"
+ms.lasthandoff: 02/13/2019
+ms.locfileid: "56215572"
 ---
 # <a name="dataflows-and-azure-data-lake-integration-preview"></a>数据流和 Azure Data Lake 集成（预览）
 
@@ -65,7 +65,7 @@ Power BI 使用由 Azure Data Lake Storage Gen2. 提供的 Active Directory OAut
 
 通过 Active Directory OAuth 持有者令牌和 POSIX ACL 将 CDM 文件夹与数据使用者（例如，需要读取数据的用户或服务）共享的过程进行了简化。 执行此操作可为管理员提供监视访问了 CDM 文件夹的用户的功能。 所需的唯一操作是向所选的 Active Directory 对象（例如用户组或服务）授予对 CDM 文件夹的访问权限。 我们建议将对 CDM 文件夹的所有访问（除数据生成者以外的任何身份）授予只读权限。 执行此操作可保护生成者生成的数据的完整性。
 
-若要将 CDM 文件夹添加到 Power BI，添加 CDM 文件夹的用户应具有对 CDM 文件夹本身和其中的任何文件或文件夹的只读 Access ACL 权限。 此外，还具有对 CDM 文件夹本身和其中的任何文件夹中执行 Access ACL 的权限。 建议查看[文件和目录上的访问控制列表](https://docs.microsoft.com/azure/storage/blobs/data-lake-storage-access-control#access-control-lists-on-files-and-directories)和[使用 Azure Data Lake Storage Gen2 的最佳做法](https://docs.microsoft.com/azure/storage/blobs/data-lake-storage-best-practices)一文以了解详细信息。
+若要将 CDM 文件夹添加到 Power BI，添加 CDM 文件夹的用户应具有对 CDM 文件夹本身和其中的任何文件或文件夹的只读 Access ACL 权限。 此外，还具有对 CDM 文件夹本身和其中的任何文件夹中执行 Access ACL 的权限。 建议查看[文件和目录上的访问控制列表](https://docs.microsoft.com/azure/storage/blobs/data-lake-storage-access-control#access-control-lists-on-files-and-directories)和[使用 Azure Data Lake Storage Gen2 的最佳做法](https://docs.microsoft.com/azure/storage/blobs/data-lake-storage-best-practices)以了解详细信息。
 
 
 ### <a name="alternative-forms-of-authorization"></a>授权的替代形式

@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 11/01/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 95bbbd8402fd2f489af5d4276616ba045d1c938b
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 509eebfdf2d96a2cc77d5c9413c664a10309ab9c
+ms.sourcegitcommit: 5e83fa6c93a0bc6599f76cc070fb0e5c1fce0082
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54287729"
+ms.lasthandoff: 02/13/2019
+ms.locfileid: "56216403"
 ---
 # <a name="use-bookmarks-to-share-insights-and-build-stories-in-power-bi"></a>在 Power BI 中使用书签共享见解和创建情景 
 使用 Power BI 中的“书签”，可以帮助捕获当前配置的报表页视图（包括视觉对象的筛选器和状态），然后只需选择保存的书签即可恢复相应状态。 
@@ -117,7 +117,7 @@ ms.locfileid: "54287729"
 
 从 2018 年 8 月版 Power BI Desktop 开始，可以创建并使用书签组。 书签组是指定书签的集合，可按照组的形式显示和排列。 
 
-若要创建书签组，请按住 Ctrl 键并选择想要添加到组中的书签，单击任何选定书签旁边的省略号，然后从显示的菜单中选择“组”。
+若要创建书签组，请按住 Ctrl 并选择想要添加到组中的书签，单击任何选定书签旁边的省略号，然后从显示的菜单中选择“组”。
 
 ![创建书签组](media/desktop-bookmarks/bookmarks_15.png)
 

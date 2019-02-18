@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 03/24/2018
 ms.author: maggies
 LocalizationGroup: Reports
-ms.openlocfilehash: 31a7221d3b284e6342b192384f92616a52e12631
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: b46896a06c9d7ed66e643aa218ec7dbd3da8c9ee
+ms.sourcegitcommit: 5e83fa6c93a0bc6599f76cc070fb0e5c1fce0082
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54280233"
+ms.lasthandoff: 02/13/2019
+ms.locfileid: "56216944"
 ---
 # <a name="create-a-new-report-in-power-bi-service-by-importing-a-dataset"></a>通过导入数据集在 Power BI 服务中创建新报表
 你已经阅读了 [Power BI 中的报表](consumer/end-user-reports.md)，并且现在想要创建你自己的仪表板。 创建报表有许多不同的方式，在本文中，我们将通过使用 Power BI 服务从 Excel 数据集创建一个非常基本的报表开始。 了解创建报表的基础知识后，单击底部的**下一步**可转到更高级的报表主题。  
@@ -56,7 +56,7 @@ ms.locfileid: "54280233"
 1. 在“字段”窗格中，选择“销售额” > “本年度销售额” > “值”。
    
     ![报表编辑器中的条形图](media/service-report-create-new/power-bi-report-step1.png)
-2. 从“可视化效果”窗格中，选择仪表模板 ![仪表图标](media/service-report-create-new/powerbi-gauge-icon.png)，将视觉对象转换为仪表。
+2. 从“可视化效果”窗格中，选择仪表模板![仪表图标](media/service-report-create-new/powerbi-gauge-icon.png)，将视觉对象转换为仪表。
    
     ![报表编辑器中的仪表视觉对象](media/service-report-create-new/power-bi-report-step2.png)
 3. 将“销售额” > “本年度销售额” > “目标”拖动到“目标值”框。 似乎已经非常接近我们的目标。
@@ -73,7 +73,7 @@ CMO 还需要我们回答一些其他问题。 她还希望了解本年度销售
 2. 取消选中仪表。 在“字段”窗格中，选择“销售额” > “本年度销售额” > “值”，然后选择“销售额” > “去年销售额”。
    
     ![具有仪表和条形图的报表编辑器](media/service-report-create-new/power-bi-report-step4.png)
-3. 从“可视化效果”窗格中，选择区域图表模板 ![图表图标](media/service-report-create-new/power-bi-areachart-icon.png)，将视觉对象转换为区域图表。
+3. 从“可视化效果”窗格中，选择区域图表模板![图表图标](media/service-report-create-new/power-bi-areachart-icon.png)，将视觉对象转换为区域图表。
 4. 选择“时间” > “时间段”以将其添加到“轴”框。
    
     ![区域图表处于活动状态的报表编辑器](media/service-report-create-new/power-bi-report-step5.png)

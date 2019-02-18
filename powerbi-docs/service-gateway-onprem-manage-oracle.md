@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 01/24/2018
 ms.author: mblythe
 LocalizationGroup: Gateways
-ms.openlocfilehash: 5e737978b7c39abd331f51fbb12e24656d54e838
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: f2c7cff36639007276622b095980a9460e539285
+ms.sourcegitcommit: 5e83fa6c93a0bc6599f76cc070fb0e5c1fce0082
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54275907"
+ms.lasthandoff: 02/13/2019
+ms.locfileid: "56216737"
 ---
 # <a name="manage-your-data-source---oracle"></a>管理数据源 - Oracle
 安装本地数据网关之后，需要添加可与该网关结合使用的数据源。 本文将探讨如何使用网关和数据源。 你可以使用 Oracle 数据源进行计划刷新或 DirectQuery。
@@ -155,7 +155,7 @@ CONTOSO =
 ![](media/service-gateway-onprem-manage-oracle/powerbi-gateway-enterprise-schedule-refresh.png)
 
 ## <a name="troubleshooting"></a>故障排除
-当命名语法不正确或未正确配置时，可能会遇到来自 Oracle 的多种错误。
+命名语法不正确或未正确配置时，可能会遇到来自 Oracle 的多种错误。
 
 * ORA-12154：TNS：无法解析指定的连接标识符  
 * ORA-12514：TNS 侦听器目前不知道连接描述符所需的服务  

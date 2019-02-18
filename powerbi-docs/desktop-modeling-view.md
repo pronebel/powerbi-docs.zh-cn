@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 11/13/2018
 ms.author: davidi
 LocalizationGroup: Transform and shape data
-ms.openlocfilehash: 84e2bc663a4e3912608279c7315bc494b3c9844a
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: ccb78c8d22fdb7b9fecbb202dca488c44d36a15d
+ms.sourcegitcommit: 5e83fa6c93a0bc6599f76cc070fb0e5c1fce0082
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54296515"
+ms.lasthandoff: 02/13/2019
+ms.locfileid: "56216300"
 ---
 # <a name="modeling-view-in-power-bi-desktop-preview"></a>Power BI Desktop 中的建模视图（预览）
 
@@ -24,7 +24,7 @@ ms.locfileid: "54296515"
 
 ## <a name="enabling-the-modeling-view-preview-feature"></a>启用建模视图预览功能
 
-建模视图为预览功能，必须在 Power BI Desktop 中启用该功能。 若要启用建模视图，请选择“文件 > 选项和设置 > 选项 > 预览功能”，然后选中“建模视图”复选框，如下图中所示。
+建模视图为预览功能，必须在 Power BI Desktop 中启用该功能。 若要启用建模视图，请选择“文件”>“选项和设置”>“选项”>“预览功能”，然后选中“建模视图”复选框，如下图中所示。
 
 ![在 Power BI Desktop 中启用建模视图预览功能](media/desktop-modeling-view/modeling-view_01.png)
 

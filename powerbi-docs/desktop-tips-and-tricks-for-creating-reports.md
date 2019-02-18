@@ -1,7 +1,7 @@
 ---
 title: 在 Power BI 中创建报表的相关提示和技巧
 description: 了解在 Power BI 服务和 Power BI Desktop 中生成报表的最佳做法
-author: davidi
+author: davidiseminger
 manager: kfile
 ms.reviewer: willthom
 ms.custom: seodec18
@@ -10,12 +10,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 12/06/2018
 ms.author: davidi
-ms.openlocfilehash: bd1889605773b1d9eed888550676b8bbc9933b2f
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: fa3d24de1f54be127f3f9b23ca33677987464150
+ms.sourcegitcommit: 80961ace38ff9dac6699f81fcee0f7d88a51edf4
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54295986"
+ms.lasthandoff: 02/13/2019
+ms.locfileid: "56223849"
 ---
 # <a name="tips-and-tricks-for-creating-reports-in-power-bi-desktop"></a>在 Power BI Desktop 创建报表的相关提示和技巧
 若要充分利用你的数据，有时你还需要一点帮助。 我们整理了一些提示和技巧，以便你在 Microsoft Power BI Desktop *及*启用了 Power Pivot 加载项且安装和启用了 Power Query 的 Microsoft Excel 2016 或 Excel 2013 Pro-Plus 版本中创建报表时可加以使用。 
@@ -143,7 +143,7 @@ Power BI 与必应相集成，提供默认地图坐标（一个称为地理编�
 4. 在 **CustomerNames** 查询中，选择功能区中的**追加**选项，然后选择 **Temp** 查询。
 5. 在 **CustomerNames** 查询中，选择**删除重复项**。
 
-现在你拥有一个维度表，可用于关联到 CustomerIndicents 和包含各查询中所有值的 WorkItems。  
+现在你拥有一个维度表，可用于关联到 CustomerIncidents 和包含各查询中所有值的 WorkItems。  
 
 ## <a name="patterns-to-jump-start-your-use-of-the-query-editor"></a>跳转以开始使用查询编辑器的模式
 查询编辑器功能非常强大，它可操作数据以对其进行整理和清理，使数据可用于进行可视化和建模。 下面是需注意的几种模式。

@@ -9,19 +9,19 @@ ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 11/01/2017
 ms.author: maghan
-ms.openlocfilehash: b9fcd2dbd664ac4f119c3f00c3d1a173b9251bd3
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 5342f509fdd0705b2752aab3315a4968d610b681
+ms.sourcegitcommit: 80961ace38ff9dac6699f81fcee0f7d88a51edf4
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54296172"
+ms.lasthandoff: 02/13/2019
+ms.locfileid: "56223757"
 ---
 # <a name="configure-kerberos-to-use-power-bi-reports"></a>配置 Kerberos 以使用 Power BI 报表
 <iframe width="640" height="360" src="https://www.youtube.com/embed/vCH8Fa3OpQ0?showinfo=0" frameborder="0" allowfullscreen></iframe>
 
 了解如何将报表服务器配置为对在分布式环境的 Power BI 报表中使用的数据源进行 Kerberos 身份验证。
 
-Power BI 报表服务器提供 Power BI 报表托管功能。 报表服务器可支持许多数据源。 虽然本文着重介绍 SQL Server Analysis Services，但你可以使用这些概念并将其应用于 SQL Server 等其他数据源。
+Power BI 报表服务器提供 Power BI 报表托管功能。 报表服务器可支持许多数据源。 尽管本文着重介绍 SQL Server Analysis Services，但你可以使用这些概念并将其应用于 SQL Server 等其他数据源。
 
 可以在一台计算机上安装 Power BI 报表服务器、SQL Server 和 Analysis Services，一切都应正常运转，而无需执行其他任何配置。 这非常适合测试环境。 如果在称为“分布式环境”的独立计算机上安装这些服务，可能会看到错误消息。 在此环境中，必须使用 Kerberos 身份验证。 必须通过执行其他配置来实现此解决方案。 
 
@@ -63,7 +63,7 @@ Power BI 报表服务器提供 Power BI 报表托管功能。 报表服务器可
 
 我们需要确保 RSWindowsNegotiate 被列为身份验证类型列表中的第一个类型。 它应类似于下面这样。
 
-```
+```xml
 <AuthenticationTypes>
     <RSWindowsNegotiate/>
     <RSWindowsNTLM/>

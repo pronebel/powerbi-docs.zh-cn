@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 06/30/2018
-ms.openlocfilehash: 41ab7f06da3038e48e2d1188edc8b91edeee8d4f
-ms.sourcegitcommit: 0abcbc7898463adfa6e50b348747256c4b94e360
+ms.openlocfilehash: 76e6ebec14d5feefd319213c05fddb0839a55ccd
+ms.sourcegitcommit: 5e83fa6c93a0bc6599f76cc070fb0e5c1fce0082
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/06/2019
-ms.locfileid: "55762343"
+ms.lasthandoff: 02/13/2019
+ms.locfileid: "56216369"
 ---
 # <a name="power-bi-embedded-migration-tool"></a>Power BI Embedded 迁移工具
 
@@ -189,7 +189,7 @@ PaaS 拓扑是“资源组”>“工作区集合”>“工作区”的列表。 
 
 在“上传”选项卡上进行操作可以将报表上传到 Power BI 服务。 在此可以看到之前在“下载”选项卡上下载的一系列报表，以及基于迁移计划的目标组名称。
 
-![上传选项卡](media/migrate-tool/migrate-tool-upload-tab.png)
+![“上传”选项卡](media/migrate-tool/migrate-tool-upload-tab.png)
 
 可以上传选定报表，也可以上传所有报表。 也可以将上传状态重置为重新上传项。
 
@@ -207,7 +207,7 @@ PaaS 拓扑是“资源组”>“工作区集合”>“工作区”的列表。 
 
 在上面的示例中，有一个复制报表失败，其原因是存在具有相同名称的报表。 如果查看迁移计划 XML，可以看到以下内容。
 
-```
+```xml
 <ReportMigrationData>
     <PaaSWorkspaceCollectionName>SampleWorkspaceCollection</PaaSWorkspaceCollectionName>
     <PaaSWorkspaceId>4c04147b-d8fc-478b-8dcb-bcf687149823</PaaSWorkspaceId>
@@ -229,7 +229,7 @@ PaaS 拓扑是“资源组”>“工作区集合”>“工作区”的列表。 
 
 建议更改失败项的 SaaSTargetReportName 名称。
 
-```
+```xml
 <SaaSTargetReportName>cloned2</SaaSTargetReportName>
 ```
 
@@ -245,7 +245,7 @@ PaaS 拓扑是“资源组”>“工作区集合”>“工作区”的列表。 
 
 可以上传本地版本的 Power BI Desktop 文件。 需要关闭工具、编辑 XML 并在“PbixPath”属性中输入本地 PBIX 的完整路径。
 
-```
+```xml
 <PbixPath>[Full Path to PBIX file]</PbixPath>
 ```
 
@@ -255,9 +255,9 @@ PaaS 拓扑是“资源组”>“工作区集合”>“工作区”的列表。 
 
 ### <a name="directquery-reports"></a>DirectQuery 报表
 
-需要进行更新，以便更新 DirectQuery 报表的连接字符串。 在 powerbi.com 中完成此操作，也可以通过编程方式从 Power BI Embedded (Paas) 查询连接字符串。 有关示例，请参阅[从 PaaS 报表提取 DirectQuery 连接字符串](migrate-code-snippets.md#extract-directquery-connection-string-from-paas-report)。
+需要进行更新，以便更新 DirectQuery 报表的连接字符串。 可以在 powerbi.com 中完成此操作，也可以通过编程方式从 Power BI Embedded (PaaS) 查询连接字符串。 有关示例，请参阅[从 PaaS 报表提取 DirectQuery 连接字符串](migrate-code-snippets.md#extract-directquery-connection-string-from-paas-report)。
 
-然后可以在 Power BI 服务 (Saas) 中更新数据集的连接字符串，并设置数据源的凭据。 请参阅以下示例，了解如何执行此操作。
+然后可以在 Power BI 服务 (SaaS) 中更新数据集的连接字符串，并设置数据源的凭据。 请参阅以下示例，了解如何执行此操作。
 
 * [在 SaaS 工作区中更新 DirectQuery 连接字符串](migrate-code-snippets.md#update-directquery-connection-string-is-saas-workspace)
 * [在 SaaS 工作区中设置 DirectQuery 凭据](migrate-code-snippets.md#set-directquery-credentials-in-saas-workspace)

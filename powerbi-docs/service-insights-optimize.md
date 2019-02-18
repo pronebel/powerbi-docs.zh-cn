@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 03/02/2017
 ms.author: maggies
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 9e31bd087d65bf0b4f0fa7088b6713ec981392b4
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 2d2a0cca984776ea67fca45b39f91e280fe02afa
+ms.sourcegitcommit: 5e83fa6c93a0bc6599f76cc070fb0e5c1fce0082
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54293825"
+ms.lasthandoff: 02/13/2019
+ms.locfileid: "56215150"
 ---
 # <a name="optimize-your-data-for-power-bi-quick-insights"></a>面向 Power BI Quick Insights 优化数据
 想要改善快速见解结果吗？  如果你是数据集所有者，请尝试：

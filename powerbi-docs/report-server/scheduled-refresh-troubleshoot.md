@@ -9,12 +9,12 @@ ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 11/01/2017
 ms.author: maghan
-ms.openlocfilehash: 3aa4047f5a4b0146c534a5734d8d13a42c46fe58
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: e829d0cf174cc81148287ce1b25449246300606c
+ms.sourcegitcommit: 5e83fa6c93a0bc6599f76cc070fb0e5c1fce0082
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54287798"
+ms.lasthandoff: 02/13/2019
+ms.locfileid: "56216691"
 ---
 # <a name="troubleshoot-scheduled-refresh-in-power-bi-report-server"></a>对 Power BI 报表服务器中的计划刷新进行故障排除
 本文将讨论可用于解决 Power BI 报表服务器中计划刷新问题的资源。
@@ -60,7 +60,7 @@ ms.locfileid: "54287798"
 
 **rsreportserver.config 中的设置：**
 
-```
+```xml
 <Configuration>
     <Service>
         <PollingInterval>10</PollingInterval>
@@ -145,7 +145,7 @@ Power BI 报表的执行日志条目不同于其他报表类型的条目。
     * **SaveToCatalog**：每当将数据模型保存回目录时。
 
 ## <a name="analysis-services"></a>Analysis Services
-有时你可能需要修改 Analysis Services 以诊断问题，或者调整内存限制。
+有时你可能要修改 Analysis Services 以诊断问题，或者调整内存限制。
 
 > [!IMPORTANT]
 > 这些设置将在升级报表服务器时重置。 请务必保留更改的副本，并根据需要重新应用。

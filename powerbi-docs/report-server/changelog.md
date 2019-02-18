@@ -9,12 +9,12 @@ ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 03/31/2018
 ms.author: jtarquino
-ms.openlocfilehash: 034fc149dcd76102ae83864fe65d53c55b57c96a
-ms.sourcegitcommit: 7df786871b196725a1c5422ee561c7557660894e
+ms.openlocfilehash: 346e1a3d096ba5e8ea8d16b49d49e02c0c65e54a
+ms.sourcegitcommit: 80961ace38ff9dac6699f81fcee0f7d88a51edf4
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/31/2019
-ms.locfileid: "55482743"
+ms.lasthandoff: 02/13/2019
+ms.locfileid: "56224033"
 ---
 # <a name="changelog-for-power-bi-report-server"></a>Power BI 报表服务器的更改日志
 

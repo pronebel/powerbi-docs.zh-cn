@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 11/14/2018
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: 842d29978fa6a4a714b42b1665112661e0704357
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: ce99539e1804746970eae20dc9396f0f0536afea
+ms.sourcegitcommit: 80961ace38ff9dac6699f81fcee0f7d88a51edf4
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54293732"
+ms.lasthandoff: 02/13/2019
+ms.locfileid: "56223688"
 ---
 # <a name="create-dynamic-reference-lines-for-visuals-in-the-power-bi-service"></a>在 Power BI 服务中创建视觉对象的动态参考行
 
@@ -50,7 +50,7 @@ ms.locfileid: "54293732"
 
 3. 若要创建新行，请选择“+ 添加”并确定用于创建行的度量值。  “度量值”下拉列表中会自动填充来自选定可视化对象的可用数据。 让我们使用“打开商店计数”。
 
-5. 对于线条提供了各种选项，例如可以颜色、透明度、样式和位置（与视觉对象的数据元素相关）。 若要为线条添加标签，请为它提供一个标题，然后将“数据标签”滑块移至“开”。  在本示例中，我们为该线条指定标题“平均# 打开商店”，并对其他几个选项进行自定义，如下所示。
+5. 对于线条提供了各种选项，例如颜色、透明度、样式和位置（与视觉对象的数据元素相关）。 若要为线条添加标签，请为它提供一个标题，然后将“数据标签”滑块移至“开”。  在本示例中，我们为该线条指定标题“平均# 打开商店”，并对其他几个选项进行自定义，如下所示。
    
    ![自定义平均线分析](media/service-analytics-pane/power-bi-average-line2.png)
 

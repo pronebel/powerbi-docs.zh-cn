@@ -12,12 +12,12 @@ ms.topic: conceptual
 ms.date: 12/06/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: d935b044e5cbe1a2c84ce5749c3a0b58c528bab0
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: bc5033df204fafcc7316d6708d7b39429e8e9cba
+ms.sourcegitcommit: 5e83fa6c93a0bc6599f76cc070fb0e5c1fce0082
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54282347"
+ms.lasthandoff: 02/13/2019
+ms.locfileid: "56216576"
 ---
 # <a name="drill-mode-in-a-visualization-in-power-bi"></a>Power BI 可视化效果中的钻取模式
 
@@ -129,7 +129,7 @@ ms.locfileid: "54282347"
 
 2. 若要查看田纳西州全部 4 级层次结构的数据，请选择向上钻取箭头，直到达到树状图的第二个级别，即“本年度总销量(按区域和城市)”。 
 
-    ![树状图显示田纳西州的所有数据](media/end-user-drill/power-bi-drill-down-one1.png)
+    ![显示田纳西州所有数据的树状图](media/end-user-drill/power-bi-drill-down-one1.png)
 
 
 3. 请确保向下钻取仍处于打开状态 ![已打开向下钻取](./media/end-user-drill/power-bi-drill-icon2.png)，然后选择“向下展开”图标 ![“向下展开”图标](./media/end-user-drill/power-bi-drill-icon6.png)。 树状图现在将显示一些额外的详细信息：不是仅显示州和城市，现在还显示了邮政编码。 
@@ -212,7 +212,7 @@ Power BI 使你可通过一个或所有子集扩展。 可以通向下钻取过�
 除了可视化效果，我们还可以看到每个报表呈现的数据中反映的层次结构。 下表显示向下钻取单个区域或所有区域的报告中“显示数据”的结果。 向下钻取时，你就会明白单个报表如何变得更为具体，“所有区域”如何包含更多数据。
 
 
-| 展开模式|区域|市/县|邮政|名称|
+| 展开模式|区域|城市|邮政|名称|
 | ---|:---:|:---:|:---:|---|
 |单向|![单个区域](./media/end-user-drill/power-bi-hierarchical-territory.png)|![单个城市](media/end-user-drill/power-bi-hierarchical-one-territory-city.png)|![单个邮政编码](./media/end-user-drill/power-bi-hierarchical-one-territory-city-postal.png)|![单个名称](media/end-user-drill/power-bi-hierarchical-one-territory-city-postal-name.png)|
 |全部|![所有区域](./media/end-user-drill/power-bi-hierarchical-territory.png)|![所有城市](media/end-user-drill/power-bi-hierarchical-all-territory-city.png)|![所有邮政编码](./media/end-user-drill/power-bi-hierarchical-all-territory-city-postal.png)|![所有名称](media/end-user-drill/power-bi-hierarchical-all-territory-city-postal-name.png)|

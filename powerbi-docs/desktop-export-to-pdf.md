@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 08/08/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 59e1f4eda6bf48e85841d4646824407d3c839485
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 7b835231356ad14ab434b86a2d1f99aa7212358d
+ms.sourcegitcommit: 5e83fa6c93a0bc6599f76cc070fb0e5c1fce0082
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54290605"
+ms.lasthandoff: 02/13/2019
+ms.locfileid: "56215614"
 ---
 # <a name="export-reports-to-pdf-from-power-bi-desktop"></a>从 Power BI Desktop 中将报表导出到 PDF
 在 Power BI Desktop 中，可将报表导出到 PDF 文件，从而从该 PDF 中轻松共享或打印报表。
@@ -43,7 +43,7 @@ ms.locfileid: "54290605"
 
 
 ## <a name="next-steps"></a>后续步骤
-Power BI Desktop 中提供各种有趣的视觉对象元素和功能。 有关详细信息，请参阅下列资源：
+Power BI Desktop 中提供各种有趣的视觉对象元素和功能。 有关详细信息，请参阅以下资源：
 
 * [使用视觉对象元素增强 Power BI 报表](desktop-visual-elements-for-reports.md)
 * [什么是 Power BI Desktop？](desktop-what-is-desktop.md)

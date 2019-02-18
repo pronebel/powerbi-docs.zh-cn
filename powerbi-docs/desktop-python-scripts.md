@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 06/18/2018
 ms.author: otarb
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 5eab760a3bfbb590a1a6242984aa1be88064409f
-ms.sourcegitcommit: a20825ebd0ef4c2cb77232e3dd0e9f8260cacf71
+ms.openlocfilehash: fcfbf4fb7be34739364fba176b28ea42934d5562
+ms.sourcegitcommit: 5e83fa6c93a0bc6599f76cc070fb0e5c1fce0082
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/16/2019
-ms.locfileid: "54323942"
+ms.lasthandoff: 02/13/2019
+ms.locfileid: "56216024"
 ---
 # <a name="run-python-scripts-in-power-bi-desktop"></a>在 Power BI Desktop 中运行 Python 脚本
 你可以直接在 Power BI Desktop 中运行 Python 脚本，并将结果数据集导入 Power BI Desktop 数据模型。
@@ -24,7 +24,7 @@ ms.locfileid: "54323942"
 若要在 Power BI Desktop 中运行 Python 脚本，需要在本地计算机上安装 Python。 可以从很多位置免费下载并安装 Python，其中包括 [Python 官方下载页面](https://www.python.org/)和 [Anaconda](https://anaconda.org/anaconda/python/)。 Power BI Desktop 中当前版本的 Python 脚本在安装路径中支持 Unicode 字符以及空格（空字符）。
 
 ### <a name="install-required-python-packages"></a>安装必需 Python 包
-必须安装两个 Python 包（Pandas 和 Matplotlib），才能执行 Power BI Python 集成。  使用 pip 命令行工具来安装以下两个包。
+必须安装两个 Python 包（Pandas 和 Matplotlib），才能执行 Power BI Python 集成。  使用 pip 命令行工具来安装以下两个包，
 
 ```
 pip install pandas

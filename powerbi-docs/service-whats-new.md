@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 10/16/2018
+ms.date: 2/9/2019
 ms.author: nikhilga
 LocalizationGroup: Get started
-ms.openlocfilehash: d811ff6c68155d354df1785ae722829e1187543c
-ms.sourcegitcommit: a36f82224e68fdd3489944c9c3c03a93e4068cc5
+ms.openlocfilehash: 5a9fa6b5e854fc51487f0a0b4feaef8650b94057
+ms.sourcegitcommit: 5e83fa6c93a0bc6599f76cc070fb0e5c1fce0082
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/31/2019
-ms.locfileid: "55431076"
+ms.lasthandoff: 02/13/2019
+ms.locfileid: "56216852"
 ---
 ---
 # <a name="whats-new-in-the-power-bi-service"></a>Power BI 服务中的新功能
@@ -31,10 +31,41 @@ ms.locfileid: "55431076"
 * [Microsoft Power BI (YouTube)](https://www.youtube.com/channel/UCy--PYvwBwAeuYaR8JLmrfg)
 * [Guy in a Cube (YouTube)](https://www.youtube.com/channel/UCFp1vaKzpfvoGai0vE5VJ0w)
 
-## <a name="september-2018"></a>2018 年 9 月
-* Power BI 服务中的[仪表板评论](https://powerbi.microsoft.com/blog/announcing-dashboard-comments-in-power-bi/)。
 
-## <a name="previous-months-2018"></a>前几个月 (2018)
+## <a name="february-2019"></a>2019 年 2 月
+* [容量监视应用](https://powerbi.microsoft.com/blog/new-monitoring-capabilities-for-power-bi-premium-capacities/)中的工作负载和活动的数据集大小指标。
+* 导出为 PDF 和按需电子邮件订阅 (service-report-subscribe.md)。
+* 在管理门户中批量操作。
+
+## <a name="previous-months-2019"></a>前几个月 (2019)
+### <a name="january-2019"></a>2019 年 1 月
+* 在内部门户或网站中[嵌入的安全 Power BI 报表](service-embed-secure.md)。
+* 具有新连接器的[数据流](service-dataflows-overview.md)编辑器的更新，和对本机 SQL 查询以及 Power Query 联机转换的支持。
+* Power BI 服务中的[个人书签](https://powerbi.microsoft.com/en-us/blog/announcing-personal-bookmarks-in-the-power-bi-service/)。
+* 基于时间的、具有电子邮件订阅的日程安排。
+
+## <a name="2018"></a>2018
+### <a name="december-2018"></a>2018 年 12 月
+* Power BI 主页中 AI 支持的[推荐应用](https://powerbi.microsoft.com/en-us/blog/announcing-ai-powered-app-recommendations-getting-the-right-insights-to-the-right-people/)。
+* 管理门户中的[工作区管理](https://powerbi.microsoft.com/en-us/blog/workspace-management-in-the-admin-portal/)。
+* [数据流](service-dataflows-overview.md)中 Power BI 数据流与 Azure Data Lake Storage Gen2 集成的预览版。
+* Power BI 解决方案模板已转为开源。
+
+### <a name="november-2018"></a>2018 年 11 月
+* Power BI 数据准备适用于[数据流](service-dataflows-overview.md)的公开预览版。
+* Power BI Premium 中的[分页报表](paginated-reports-report-builder-power-bi.md)的公开预览版。
+* [容量监视应用](https://powerbi.microsoft.com/blog/new-monitoring-capabilities-for-power-bi-premium-capacities/)的内存中的数据大小和数据集数量。
+
+### <a name="october-2018"></a>2018 年 10 月
+* Power BI 服务中的聚合[desktop-aggregations.md]。
+* Power BI 已扩展到三个新区域：印度中部、澳大利亚东部和美国中部（爱荷华）。 
+* 已正式发布“导出到 PowerPoint”。
+
+### <a name="september-2018"></a>2018 年 9 月
+* Power BI 服务中的[仪表板评论](https://powerbi.microsoft.com/blog/announcing-dashboard-comments-in-power-bi/)。
+* [Power BI 主页和全局搜索](https://powerbi.microsoft.com/en-us/blog/introducing-power-bi-home-and-global-search/)的公开预览版。
+* [容量监视应用](https://powerbi.microsoft.com/blog/new-monitoring-capabilities-for-power-bi-premium-capacities/)中的[监视查询](https://powerbi.microsoft.com/en-us/blog/query-metrics-available-in-power-bi-premium-capacity-metrics-app/)能力。
+
 ### <a name="august-2018"></a>2018 年 8 月
 * Power BI Premium 的[容量监视应用](https://powerbi.microsoft.com/blog/new-monitoring-capabilities-for-power-bi-premium-capacities/)。
 * Power BI [报表 URL 筛选器](service-url-filters.md)改进。
@@ -78,7 +109,7 @@ ms.locfileid: "55431076"
 *   针对 Azure Analysis Services (AAS) 的计划刷新支持。
 
 ## <a name="previous-months-2017"></a>前几个月 (2017)
-## <a name="october-and-november-2017"></a>2017 年 10 月和 11 月
+### <a name="october-and-november-2017"></a>2017 年 10 月和 11 月
 *   通过 [Power BI 应用](service-create-distribute-apps.md)进行内容选择性发布。
 *   使用 [Azure Active Directory B2B](https://powerbi.microsoft.com/blog/power-bi-expands-access-to-intelligence-for-external-guest-users/preview/) 进行外部用户分发。
 * 由 AI 提供支持的应用建议。
@@ -86,7 +117,7 @@ ms.locfileid: "55431076"
 * 针对应用的电子邮件订阅支持。 
 * 针对[发布到 Web](https://docs.microsoft.com/power-bi/service-admin-portal#export-and-sharing-settings) 的具体管理员控制。
 
-## <a name="september-2017"></a>2017 年 9 月
+### <a name="september-2017"></a>2017 年 9 月
 * 在高级容量中，与没有 Power BI Pro 许可证的用户共享仪表板。
 * 分配容量以使用 V 核心池满足业务需要。
 * 通过一次单击立即增加或减少容量。

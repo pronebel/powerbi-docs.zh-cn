@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 12/06/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 416313f9271950c2f12a554107ab74933c5c31b7
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 82844a1e928d30db12ba5659edcee7b07eaaf7b3
+ms.sourcegitcommit: 5e83fa6c93a0bc6599f76cc070fb0e5c1fce0082
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54277747"
+ms.lasthandoff: 02/13/2019
+ms.locfileid: "56215335"
 ---
 # <a name="use-insights-in-power-bi-desktop-to-find-where-a-distribution-is-different-preview"></a>使用 Power BI Desktop 中的见解找出分布的不同之处（预览版）
 
@@ -131,7 +131,7 @@ ms.locfileid: "54277747"
 * 度量值筛选器
 * 非数值度量值
 * 使用“值显示为”
-* 筛选后的度量值：筛选后的度量值是指应用了特定筛选器的视觉对象级计算（例如，*法国总销售额*），用于见解功能创建的某些视觉对象
+* 筛选后的度量值：筛选后的度量值是指应用了特定筛选器的视觉对象级计算（例如，法国总销售额），用于见解功能创建的某些视觉对象
 
 此外，目前不支持见解的以下模型类型和数据源：
 

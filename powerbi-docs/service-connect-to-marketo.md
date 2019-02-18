@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 4ad7ce28c512f69e144af98098ab9f13a15b6023
-ms.sourcegitcommit: 750f0bfab02af24c8c72e6e9bbdd876e4a7399de
+ms.openlocfilehash: 4131758dad29b28de56e3ac450bed22d64c25e46
+ms.sourcegitcommit: 80961ace38ff9dac6699f81fcee0f7d88a51edf4
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/04/2019
-ms.locfileid: "54008617"
+ms.lasthandoff: 02/13/2019
+ms.locfileid: "56223780"
 ---
 # <a name="connect-to-marketo-with-power-bi"></a>使用 Power BI 连接到 Marketo
 使用 Power BI 的 Marketo 内容包，你可以通过有关潜在客户的数据及其活动，深入了解 Marketo 帐户。创建此连接将检索数据，并自动提供以该数据为基础的仪表板和相关报表。
@@ -59,7 +59,7 @@ ms.locfileid: "54008617"
 | 表名 | 说明 |
 | --- | --- |
 | EmailActivities |有关发送给潜在客户/联系人的电子邮件的数据，包含有关设备、类别、退信计数和百分比、点击计数和百分比、打开计数和百分比以及计划名称的详细信息。 Power BI 中所示的电子邮件活动是绝对的电子邮件送达情况报表，不对数据应用任何其他逻辑。 因此，你可能在 Marketo 客户端和 Power BI 之中看到不同结果。 |
-| ProgramActivites |有关具有已更改状态的项目的数据。 此数据包含以下详细信息：原因、成功、计划采用计数和百分比，以及计划成功计数和百分比。 |
+| ProgramActivities |有关具有已更改状态的项目的数据。 此数据包含以下详细信息：原因、成功、计划采用计数和百分比，以及计划成功计数和百分比。 |
 | WebPageActivities |来自用户网页访问的数据，包括搜索代理、用户代理、网页和时间。 |
 | Datetable |过去一年内的日期。  允许你按日期分析 Marketo 数据。 |
 | 潜在客户 |潜在客户信息，如公司、收入规模、员工数量、国家/地区、潜在客户评分和潜在客户状态。 将根据潜在客户是否存在于电子邮件、计划和网页活动数据中进行检索。 |

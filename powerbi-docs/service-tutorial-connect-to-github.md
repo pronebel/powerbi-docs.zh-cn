@@ -11,12 +11,12 @@ ms.topic: tutorial
 ms.date: 05/17/2018
 ms.author: maggies
 LocalizationGroup: Connect to services
-ms.openlocfilehash: bad76adc42fc9f70c1439c6da0cfe2d149bbbe43
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 8f44356f79b8a77ef06fe464671dbbaaaa4187e9
+ms.sourcegitcommit: 5e83fa6c93a0bc6599f76cc070fb0e5c1fce0082
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54295589"
+ms.lasthandoff: 02/13/2019
+ms.locfileid: "56215564"
 ---
 # <a name="tutorial-connect-to-a-github-sample-with-power-bi"></a>教程：使用 Power BI 连接到 GitHub 示例
 在本教程中，使用 Power BI 连接到 GitHub 服务中的真实数据，Power BI 即会自动创建仪表板和报表。 连接到 Power BI 内容公共存储库（也称为“存储库”），同时查看以下信息：有多少人参与编辑 Power BI 公共内容？ 谁贡献最多？ 一周中哪天的贡献最大？ 同时回答其他问题。 

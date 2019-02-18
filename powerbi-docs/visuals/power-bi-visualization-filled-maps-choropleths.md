@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 09/27/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 67055f855ad2872a7cf175aba85aefae7945f670
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: ef03a562351b8f4487e4822ef28b89009ee5cbb4
+ms.sourcegitcommit: 80961ace38ff9dac6699f81fcee0f7d88a51edf4
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54276298"
+ms.lasthandoff: 02/13/2019
+ms.locfileid: "56223481"
 ---
 # <a name="filled-maps-choropleths-in-power-bi"></a>Power BI 中的着色地图（等值线图）
 着色地图使用明暗度、颜色或图案来显示不同地理位置或区域之间的值在比例上有何不同。  使用从浅（不太频繁/较低）到深（较频繁/较多）的明暗度快速显示这些相对差异。    
@@ -111,7 +111,7 @@ Power BI 让你可以充分控制着色地图的外观。
 
     ![选中的“情绪”选项卡](media/power-bi-visualization-filled-maps-choropleths/power-bi-sentiment-tab.png)
 
-4. 移动页面上的可视化效果并调整大小以创建一些空间，然后按 CTRL-V 粘贴上一报表中的着色地图。
+4. 移动页面上的可视化效果并调整大小以腾出一些空间，然后按 CTRL-V 粘贴上一报表中的着色地图。
 
    ![已添加到“情绪”页面的着色地图](media/power-bi-visualization-filled-maps-choropleths/power-bi-map.png)
 

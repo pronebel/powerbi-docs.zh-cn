@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 87e2ff9bf8e4eb87b4b915492bf8cfa4a97a9150
-ms.sourcegitcommit: 750f0bfab02af24c8c72e6e9bbdd876e4a7399de
+ms.openlocfilehash: d09936f2cce1d7835efdb82929d9e8eed2291163
+ms.sourcegitcommit: 80961ace38ff9dac6699f81fcee0f7d88a51edf4
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/04/2019
-ms.locfileid: "54008847"
+ms.lasthandoff: 02/13/2019
+ms.locfileid: "56223343"
 ---
 # <a name="connect-to-xero-with-power-bi"></a>使用 Power BI 连接到 Xero
 Xero 是易于使用的专为小型企业设计的在线会计软件。 基于带有此 Power BI 内容包的 Xero 财务状况创建引人注目的可视化效果。 你的默认仪表板包括许多小型企业指标，如现金头寸、收入和支出、盈亏趋势、应收帐款天数和投资回报。

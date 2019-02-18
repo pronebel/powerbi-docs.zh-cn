@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 11/28/2018
 ms.author: davidi
 LocalizationGroup: Model your data
-ms.openlocfilehash: 10264540a1ec0b8eb79e446590b86df855505d76
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: ffa49cc65c28e0fafb8ca72cb7a1a5bbde798861
+ms.sourcegitcommit: 5e83fa6c93a0bc6599f76cc070fb0e5c1fce0082
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54275171"
+ms.lasthandoff: 02/13/2019
+ms.locfileid: "56216323"
 ---
 # <a name="using-calculated-tables-in-power-bi-desktop"></a>使用 Power BI Desktop 中的计算表
 借助计算表，可以将新表添加到模型中。 但是，你会创建定义表值的数据分析表达式 (DAX) 公式，而非从数据源中查询值，并将值加载到新表的列中。 在 Power BI Desktop 中，计算表是通过使用报表视图或数据视图中的“新建表”功能创建的。
@@ -35,7 +35,7 @@ Jeff，Contoso 的项目经理，拥有一个西北部员工的表和一个西�
 
  ![](media/desktop-calculated-tables/calctables_nwempl.png)
 
-**SoutwestEmployees**
+SouthwestEmployees
 
  ![](media/desktop-calculated-tables/calctables_swempl.png)
 

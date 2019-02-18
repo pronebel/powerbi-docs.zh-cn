@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 09/27/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: c219a7ac9ce88d3dca9d01a09868835062fe93ce
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 3835bedc1b4ab2df87abf4704ef338ff7f4abc5d
+ms.sourcegitcommit: 5e83fa6c93a0bc6599f76cc070fb0e5c1fce0082
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54291892"
+ms.lasthandoff: 02/13/2019
+ms.locfileid: "56215035"
 ---
 # <a name="waterfall-charts-in-power-bi"></a>Power BI 中的瀑布图
 瀑布图显示随着值的增加或减少的不断变化的总数。 该图对于了解一系列正值和负值更改如何影响初始值（例如，净收益）很有用。

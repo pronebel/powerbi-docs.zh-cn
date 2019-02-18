@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 11/01/2018
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: be4ebfdfa7dca5ce212c2b5d242d87b0001b7750
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 0f2443ac5dff167e633d89834a23d186c19f858b
+ms.sourcegitcommit: 5e83fa6c93a0bc6599f76cc070fb0e5c1fce0082
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54281910"
+ms.lasthandoff: 02/13/2019
+ms.locfileid: "56216599"
 ---
 # <a name="get-power-bi-desktop"></a>获取 Power BI Desktop
 **Power BI Desktop** 允许用户生成高级查询、模型和实现数据可视化效果的报表。 通过 Power BI Desktop，可以生成数据模型、创建报表，并通过发布到 Power BI 服务共享工作。  **Power BI Desktop** 可免费下载。
@@ -62,7 +62,7 @@ ms.locfileid: "54281910"
 
 * **自动更新** - Windows 自动在后台下载已发布的最新版本，以便始终可以不断更新版本。
 * **较小下载** - Microsoft Store 可确保只将每次更新中更改的组件下载到计算机，从而减少每次更新的下载量。
-* **不需要管理员权限** - 直接下载并安装 MSI 时，必须是管理员，才能成功完成安装。 从 Microsoft Store 获取 Power BI Desktop 时，则不需要管理员权限。
+* 不需要管理员权限 - 直接下载 MSI 并安装后，必须成为管理员才能成功完成安装。 如果从 Microsoft Store 获取 Power BI Desktop，则不需要管理员权限。
 * **已启用 IT 推出** - 可更轻松地部署 Microsoft Store 版本，或向组织中的所有人推出版本，并可通过适用于企业的 Microsoft Store 提供 Power BI Desktop。
 * **语言检测** - Microsoft Store 版本包括所有受支持的语言，并在每次启动计算机时查看所使用的语言。 这还会影响 Power BI Desktop 中创建的模型的本地化；例如，内置日期层次结构将匹配创建 .pbix 文件时 Power BI Desktop 所使用的语言。
 

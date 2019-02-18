@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 12/10/2018
+ms.date: 02/13/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: f5fc52df86faa69683fa1e76f8893fb1d1a09ab9
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: da269e3bb025e8d53ee3bb7707f3bb78d592e011
+ms.sourcegitcommit: d010b10bc14097a1948daeffbc91b864bd91f7c8
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54281151"
+ms.lasthandoff: 02/13/2019
+ms.locfileid: "56225905"
 ---
 # <a name="data-sources-in-power-bi-desktop"></a>Power BI Desktop 中的数据源
 使用 Power BI Desktop，你可以连接到来自许多不同的源的数据。 在此页面底部列出了可用数据源的完整清单。
@@ -50,7 +50,7 @@ ms.locfileid: "54281151"
 * 文本/CSV
 * XML
 * JSON
-* 文件夹
+* Folder
 * PDF (Beta)
 * SharePoint 文件夹
 
@@ -77,11 +77,14 @@ ms.locfileid: "54281151"
 * Amazon Redshift
 * Impala
 * Google BigQuery
+* Vertica
 * Snowflake
 * Essbase (Beta)
-* BI 连接器
+* Dremio
 * Exasol
-* Dremio (Beta)
+* MarkLogic (Beta)
+* AtScale 多维数据集 (Beta)
+* BI 连接器
 * Jethro (Beta)
 * Kyligence Enterprise (Beta)
 
@@ -104,7 +107,7 @@ ms.locfileid: "54281151"
 **Azure** 类别提供下列数据连接：
 
 * Azure SQL 数据库
-* Azure SQL 数据仓库
+* Azure SQL Data Warehouse
 * Azure Analysis Services 数据库
 * Azure Blob 存储
 * Azure 表存储
@@ -136,8 +139,6 @@ ms.locfileid: "54281151"
 * Google Analytics
 * Adobe Analytics
 * appFigures (Beta)
-* comScore Digital Analytix (Beta)
-* Dynamics 365 for Customer Insights (Beta)
 * Data.World - 获取数据集 (Beta)
 * Facebook
 * GitHub (Beta)
@@ -157,6 +158,8 @@ ms.locfileid: "54281151"
 * Webtrends (Beta)
 * Zendesk (Beta)
 * TeamDesk (Beta)
+* Emigo 数据源 (Beta)
+* Microsoft Graph Security (Beta)
 
 下图显示 **Online Services** 的**获取数据**窗口。
 
@@ -164,7 +167,6 @@ ms.locfileid: "54281151"
 
 **其他**类别提供下列数据连接：
 
-* Vertica
 * Web
 * SharePoint 列表
 * OData 数据源
@@ -176,8 +178,12 @@ ms.locfileid: "54281151"
 * Python 脚本
 * ODBC
 * OLE DB
+* 工作人员维度 (Beta)
 * Denado
 * Paxata (Beta)
+* SurveyMonkey (Beta)
+* QubolePresto (Beta)
+* Quick Base (Beta)
 * 空白查询
 
 下图显示**其他**的**获取数据**窗口。
@@ -190,7 +196,7 @@ ms.locfileid: "54281151"
 ## <a name="connecting-to-a-data-source"></a>连接到数据源
 若要连接到数据源，请从**获取数据**窗口选择数据源，然后选择**连接**。 在下图中，已从**其他**数据连接类别中选择了 **Web**。
 
-![连接到 Web](media/desktop-data-sources/data-sources_08a.png)
+![连接到 Web](media/desktop-data-sources/data-sources_08.png)
 
 将显示特定于数据连接类型的连接窗口。 如果需要提供凭据，将提示你提供凭据。 下图显示输入 URL 以便连接到 Web 数据源。
 

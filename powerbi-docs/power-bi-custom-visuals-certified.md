@@ -10,12 +10,12 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: conceptual
 ms.date: 11/21/2018
-ms.openlocfilehash: ab8da0a7b1fb42158a399b5443bf737718e6a81f
-ms.sourcegitcommit: a36f82224e68fdd3489944c9c3c03a93e4068cc5
+ms.openlocfilehash: 812ac76266f8ef3299fa72b575c9ff68d2e75a79
+ms.sourcegitcommit: 5e83fa6c93a0bc6599f76cc070fb0e5c1fce0082
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/31/2019
-ms.locfileid: "55430409"
+ms.lasthandoff: 02/13/2019
+ms.locfileid: "56216346"
 ---
 # <a name="certified-custom-visuals"></a>认证的自定义视觉对象
 
@@ -45,7 +45,7 @@ Microsoft 可自行从[经认证列表](#list-of-custom-visuals-that-have-been-c
 
 * 经 Microsoft AppSource 批准。 自定义视觉对象应位于我们的[市场](https://appsource.microsoft.com/marketplace/apps?page=1&product=power-bi-visuals)中。
 * 自定义视觉对象是使用经版本控制的 API 1.2 或更高版本编写的。
-* 可供 PowerBI 团队查看的代码存储库（例如，通过 GitHub 提供的人工可读格式的源代码（JavaSCript 或 TypeScript））。
+* 可供 Power BI 团队查看的代码存储库（例如，通过 GitHub 提供的人工可读格式的源代码 [JavaSCript 或 TypeScript]）。
 
     >[!Note]
     > 无需在 Github 中公开共享代码。

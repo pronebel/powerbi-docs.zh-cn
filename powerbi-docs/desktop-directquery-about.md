@@ -7,18 +7,18 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 11/28/2018
+ms.date: 02/13/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: a15707a36a34e083458da5fa407034e33dd570c0
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 1126a2cbdac7e6ed1b465d2d0ba881ae2b4f5338
+ms.sourcegitcommit: d010b10bc14097a1948daeffbc91b864bd91f7c8
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54284141"
+ms.lasthandoff: 02/13/2019
+ms.locfileid: "56226020"
 ---
 # <a name="using-directquery-in-power-bi"></a>在 Power BI 中使用 DirectQuery
-使用 Power BI Desktop 或 Power BI 服务时，可以连接各种类型的数据源，并且可以通过不同的方式连接这些数据。 可以将数据导入 Power BI，也可以在其原始源存储库中直接连接数据，前者是获取数据最常见的方法，后者称为 DirectQuery。 本文介绍 DirectQuery 及其功能，具体包括以下主题：
+使用 Power BI Desktop 或 Power BI 服务时，可以连接各种不同类型的数据源，并且可以通过不同的方式连接这些数据。 可以将数据导入 Power BI，也可以在其原始源存储库中直接连接数据，前者是获取数据最常见的方法，后者称为 DirectQuery。 本文介绍 DirectQuery 及其功能：
 
 * DirectQuery 的各种连接选项
 * 何时应考虑使用 DirectQuery 而非导入的相关指导
@@ -27,8 +27,8 @@ ms.locfileid: "54284141"
 
 简而言之，使用 DirectQuery 和导入的最佳做法是：
 
-* 如可能，应使用“导入”将数据导入 Power BI。 这样做可以充分利用 Power BI 的高性能查询引擎，并提供高度交互和功能完善的数据体验。
-* 如果通过导入数据无法实现目标，则可以考虑使用 DirectQuery。 例如，如果数据被频繁更改并且报表必须反映最新数据，DirectQuery 可能是最佳选择。 但是，通常只有当基础数据源可以为典型聚合查询提供交互式查询（少于 5 秒）并且能够处理生成的查询负载时，使用 DirectQuery 才可行。 此外，考虑结合使用 DirectQuery 的限制列表时应格外慎重，以确保仍然能够实现目标。
+* 如可能，应使用“导入”将数据导入 Power BI。 导入利用 Power BI 的高性能查询引擎，并提供高度交互和功能完善的数据体验。
+* 如果通过导入数据无法实现目标，则可以考虑使用 DirectQuery。 例如，如果数据被频繁更改并且报表必须反映最新数据，DirectQuery 可能是最佳选择。 但是，通常只有当基础数据源可以为典型聚合查询提供交互式查询（少于 5 秒）并且能够处理生成的查询负载时，使用 DirectQuery 才可行。 此外，考虑结合使用 DirectQuery 的限制列表时应格外慎重。
 
 Power BI 为两种连接模式（导入和 DirectQuery）提供的功能集将随时间的推移不断改进。 这将包括在使用导入数据时提供更强的灵活性，以便可以在更多情况下使用导入模式，以及消除使用 DirectQuery 时带来的的一些弊端。 无论如何改进，使用 DirectQuery 时都会始终将基础数据源的性能作为主要考虑因素。 如果该基础数据源速度缓慢，则对该数据源使用 DirectQuery 将仍然不可行。
 
@@ -37,7 +37,7 @@ Power BI 为两种连接模式（导入和 DirectQuery）提供的功能集将�
 本文重点介绍 DirectQuery 的建议工作流、在 Power BI Desktop 中创建报表的位置，以及如何在 Power BI 服务中直接连接数据。
 
 ## <a name="power-bi-connectivity-modes"></a>Power BI 连接模式
-Power BI 可连接大量不同类型的数据源，包括：
+Power BI 连接大量不同类型的数据源，包括：
 
 * 联机服务（Salesforce、Dynamics 365 等）
 * 数据库（SQL Server、Access、Amazon Redshift 等）
@@ -55,7 +55,7 @@ SQL Server Analysis Services 是一个特例。 连接到 SQL Server Analysis Se
 
 * 在初始“获取数据”体验期间，所选的每个表定义一个将返回一组数据的查询（可以在加载数据之前对这些查询进行编辑，例如应用筛选器、聚合数据或联接不同的表）。
 * 加载时，这些查询定义的所有数据都将被导入 Power BI 高速缓存。
-* 在 Power BI Desktop 中生成视觉对象时，将查询导入的数据。 Power BI 存储可确保查询速度非常快，因此可立即反映视觉对象的所有更改。
+* 在 Power BI Desktop 中生成视觉对象时，将查询导入的数据。 Power BI 存储可确保查询速度迅速，因此可立即反映视觉对象的所有更改。
 * 但对基础数据的任何更改都不会反映在任何视觉对象中。 必须先“刷新”，然后重新导入数据。
 * 报表（.pbix 文件）发布到 Power BI 服务时，就会创建一个数据集并上传到 Power BI 服务。  该数据集包含导入的数据。 随后可以对该数据设置按计划刷新，例如每天重新导入数据。 可能必须配置本地数据网关，具体取决于原始数据源的位置。
 * 在 Power BI 服务中打开现有报表或创作新报表时，将再次查询导入的数据，确保交互性。
@@ -106,7 +106,7 @@ SSAS 报表发布到 Power BI 服务时，其行为在以下方面与 DirectQuer
 * 数据主权限制应用
 * 源是包含度量值（如 SAP BW）的多维度源
 
-请注意，上一列表中的详细信息仅涉及 Power BI 的使用。 另外，始终可以选择使用外部 SQL Server Analysis Services（或 Azure Analysis Services）模型导入数据，然后使用 Power BI 连接该模型。 虽然这种方法需要其他技能，但它可以提供更强的灵活性。 例如，可以导入更多大容量数据，并且刷新数据的频率不受限制。
+上一列表中的详细信息仅涉及 Power BI 的使用。 另外，始终可以选择使用外部 SQL Server Analysis Services（或 Azure Analysis Services）模型导入数据，然后使用 Power BI 连接该模型。 虽然这种方法需要其他技能，但它可以提供更强的灵活性。 例如，可以导入更多大容量数据，并且刷新数据的频率不受限制。
 
 ## <a name="implications-of-using-directquery"></a>使用 DirectQuery 的影响
 如本节内容所述，使用 DirectQuery 确实存在潜在的负面影响。 其中一些限制因使用的具体数据源不同而略有不同。 这在适当情况下会被提及，差异显著的数据源将由单独的主题介绍。  
@@ -208,7 +208,7 @@ SSAS 报表发布到 Power BI 服务时，其行为在以下方面与 DirectQuer
 * **对任何查询可以返回的行数限制为一百万行：** 对于基础数据源的任何单个查询，可以返回的行数限制为固定的一百万行。 这通常没有实际意义，视觉对象本身不会显示那么多行。 但如果 Power BI 未完全优化发送的查询，并且有一些中间请求结果超出此限制，则可能会受此限制。 在生成达到更合理最终状态的视觉对象过程中，也可能会受此限制。 例如，如果有超过 1 百万的客户，如果不应用某些筛选器，则 Customer 和 TotalSalesQuantity 将达到此限制。
   
   返回的错误将是“外部数据源的查询结果集超过了允许的最大行数 1000000 行。”
-* **无法将导入模式更改为 DirectQuery 模式：** 请注意，通常可以将模型从 DirectQuery 模式切换到导入模式，这意味着必须导入所有需要的数据。 它无法切换回来（主要是由于 DirectQuery 模式下不支持此功能集）。 由于外部度量值的处理方式完全不同，多维数据源（如 SAP BW）的 DirectQuery 模型也不能从 DirectQuery 切换到导入。
+* **无法将导入模式更改为 DirectQuery 模式：** 尽管可以将模型从 DirectQuery 模式切换到导入模式，但这意味着必须导入所有需要的数据。 它无法切换回来（主要是由于 DirectQuery 模式下不支持此功能集）。 由于外部度量值的处理方式完全不同，多维数据源（如 SAP BW）的 DirectQuery 模型也不能从 DirectQuery 切换到导入。
 
 ## <a name="directquery-in-the-power-bi-service"></a>Power BI 服务中的 DirectQuery
 Power BI Desktop 支持所有数据源。 某些数据源还可直接在 Power BI 服务中使用。 例如，企业用户可以使用 Power BI 连接其 Salesforce 中的数据并立即获得仪表板，而无需使用 Power BI Desktop。
@@ -216,17 +216,17 @@ Power BI Desktop 支持所有数据源。 某些数据源还可直接在 Power B
 启用了 DirectQuery 的数据源中，只有两个数据源可以直接在服务中使用：
 
 * Spark
-* Azure SQL 数据仓库
+* Azure SQL Data Warehouse
 
-但是，强烈建议在 Power BI Desktop 中对这两个数据源使用 DirectQuery。 原因是，当最初在 Power BI 服务中进行连接时，会应用许多关键限制，这意味着虽然开始时很容易（从Power BI 服务开始），但是会进一步限制生成报表的功能（例如，不能创建任何计算或使用许多分析功能，甚至不能刷新元数据以反映对基础架构的任何更改）。   
+但是，建议在 Power BI Desktop 中对这两个数据源使用 DirectQuery。 原因是，当最初在 Power BI 服务中进行连接时，会应用许多关键限制，这意味着虽然开始时很容易（从Power BI 服务开始），但是会进一步限制生成报表的功能（例如，不能创建任何计算或使用许多分析功能，甚至不能刷新元数据以反映对基础架构的任何更改）。   
 
 ## <a name="guidance-for-using-directquery-successfully"></a>成功使用 DirectQuery 的指南
 如果要使用 DirectQuery，此节提供一些有关如何确保使用成功的高级指导。 此部分中的指导源自本文所述的使用 DirectQuery 的影响。
 
 ### <a name="backend-data-source-performance"></a>后端数据源性能
-强烈建议验证简单的视觉对象是否可以在合理的时间内刷新。 要提供合理的交互体验，刷新时间应在 5 秒内。 当然，如果视觉对象刷新时间超过 30 秒，发布报表后很可能会出现进一步的问题，这会使解决方案无效。
+应验证简单的视觉对象是否能够在合理时间内进行刷新，若要获得尚可的交互体验，时长应在 5 秒内。 当然，如果视觉对象刷新时间超过 30 秒，发布报表后很可能会出现进一步的问题，这会使解决方案无效。
 
-如果查询速度慢，则最先检查发送到基础数据源的查询，以及所观测到的查询性能不佳的原因。 本主题不涉及各种在完整的一组潜在基础数据源中优化数据库的最佳做法，但却适用于适合大多数情况的标准数据库实践：
+如果查询速度慢，则最先检查发送到基础数据源的查询，以及所观测到的查询性能不佳的原因。 本文不涉及各种在完整的一组潜在基础数据源中优化数据库的最佳做法，但却适用于适合大多数情况的标准数据库做法：
 
 * 基于整数列的关系通常比其他数据类型的列的联接更好
 * 应创建相应的索引，这通常意味着在支持列存储索引的数据源（如 SQL Server）中使用它们。
@@ -237,7 +237,7 @@ Power BI Desktop 支持所有数据源。 某些数据源还可直接在 Power B
 
 * 避免在查询编辑器中定义复杂的查询。 在查询编辑器中定义的查询将转换为单个 SQL 查询，然后包含在发送到该表的每个查询的子选择中。 如果查询很复杂，则可能导致所发送的每个查询出现性能问题。 可以通过选择查询编辑器中的最后一步，并从上下文菜单中选择“查看本地查询”来获取一组步骤的实际 SQL 查询。
 * 简化度量值。 至少在开始时，建议将度量值限制为简单聚合。 如果这些度量值的执行令人满意，可以定义更复杂的度量值，但要注意每个度量值的性能。
-* 避免定义计算列上的关系。 这与需要执行多列联接的数据库尤其相关。 Power BI 目前不允许基于多列作为 FK/PK 的关系。 常见的解决方法是使用计算列来连接列，然后在其上创建联接。 尽管此解决方法对于导入数据是合理的，但在 DirectQuery 情况下，会导致表达式联接，通常会阻止使用任何索引，并导致性能不佳。 唯一的解决方法是，在基础数据库中将多列具体化为单列。
+* 避免定义计算列上的关系。 这与需要执行多列联接的数据库相关。 Power BI 目前不允许基于多列作为 FK/PK 的关系。 常见的解决方法是使用计算列来连接列，然后在其上创建联接。 尽管此解决方法对于导入数据是合理的，但在 DirectQuery 情况下，会导致表达式联接，通常会阻止使用任何索引，并导致性能不佳。 唯一的解决方法是，在基础数据库中将多列具体化为单列。
 * 避免定义 uniqueidentifier 列上的关系。 Power BI 在本机上不支持 uniqueidentifier 数据类型。 因此，定义 uniqueidentifier 列之间的关系将导致一个包含涉及 Cast 的联接的查询。 这通常也会导致性能不佳。 在进行特别优化之前，唯一的解决方法是在基础数据库中具体化替代类型的列。
 * 隐藏关系中的 to 列 **。** 应隐藏关系中的 to 列（通常是 to 表中的主键），使其不出现在字段列表中，从而不在视觉对象中使用。 通常，关系所在的列实际上是系统列（例如，数据仓库中的代理键），隐藏这些列总是很好的做法。 如果该列确实有意义，则引入一个可见并且具有等于主键的简单表达式的计算列。 例如：
   
@@ -298,6 +298,20 @@ Power BI Desktop 支持所有数据源。 某些数据源还可直接在 Power B
 
 * **考虑关闭视觉对象的总计信息：** 表格和矩阵默认显示总计和小计。 在许多情况下，必须将单独的查询发送到基础源以获取此类总计值。 无论何时使用 DistinctCount 聚合，或在任何情况下在 SAP BW 或 SAP HANA 上使用 DirectQuery 时，这一条都适用。 如果不需要，应（使用“格式”窗格）关闭此类总计。 
 
+### <a name="maximum-number-of-connections-option-for-directquery"></a>DirectQuery 的最大连接数选项
+
+可以设置 DirectQuery 为每个底层数据源打开的最大连接数，从而控制同时发送到每个数据源的查询数。 
+
+DirectQuery 打开的并发连接的默认最大数量为 10 个。 可以转到“文件”>“选项和设置”>“选项”，对 Power BI Desktop 中的当前文件进行更改，然后在左窗格的“当前文件”部分中选择 DirectQuery。 
+
+![启用最大的 DirectQuery 连接数](media/desktop-directquery-about/directquery-about_05b.png)
+
+此设置仅在当前报表中至少有一个 DirectQuery 源时启用。 该值适用于所有 DirectQuery 源，以及添加到同一报表中的任何新的 DirectQuery 源。
+
+增加“最大连接数”值确保更多查询（最多为指定的最大数）可以发送到底层数据源，这在单个页面上有许多视觉对象或多个用户同时访问报表时很有用。 达到最大连接数后，超出的查询就会排队，直到连接可用。 增加此限制确实会导致底层源上的负载增加，因此该设置不保证提高总体性能。
+
+报表发布后，发送到底层数据源的最大并发查询数也取决于固定限制，该限制取决于报表所发布到的目标环境。 不同环境（如 Power BI、Power BI Premium 或 Power BI 报表服务器）中的每一个都可以施加不同限制。
+
 ### <a name="diagnosing-performance-issues"></a>诊断性能问题
 本部分介绍如何诊断性能问题，或如何获取更详细的信息以优化报表。
 
@@ -349,7 +363,7 @@ Power BI Desktop 支持所有数据源。 某些数据源还可直接在 Power B
 2. 输入当前打开的 Power BI 会话的跟踪文件路径，如：
    
          C:\Users\<user>\AppData\Local\Microsoft\Power BI Desktop\AnalysisServicesWorkspaces\AnalysisServicesWorkspace2058279583\Data
-3. 打开 FilghtRecorderCurrent.trc
+3. 打开 FlightRecorderCurrent.trc
 
 将显示当前会话的所有事件。 注释示例如下所示，其中突出显示了事件组。 每个组具有以下内容：
 
@@ -367,14 +381,14 @@ Power BI Desktop 支持所有数据源。 某些数据源还可直接在 Power B
 * **Duration：** 执行 DAX 或 SQL 查询的持续时间，以毫秒为单位。
 * **Error：** 指示是否发生了错误（发生错误时，该事件显示为红色）。
 
-请注意，在上图中，缩小了部分重要性较低的列，以便更容易看到重要性较高的列。
+在上图中，缩小了部分重要性较低的列，以便更容易看到重要性较高的列。
 
 建议使用以下方法捕获跟踪以帮助诊断潜在性能问题：
 
 * 打开单个 Power BI Desktop 会话（避免多个工作区的文件夹产生混淆）
 * 在 Power BI Desktop 执行一组意向操作。 再执行一些额外的操作，确保将意向操作事件刷新到跟踪文件中。
 * 打开 SQL Server Profiler 并检查跟踪，如前面所述。 请记住，关闭 Power BI Desktop 时将删除跟踪文件。 此外，在 Power BI Desktop 中的进一步操作将不会立刻显示 – 应关闭跟踪文件并重新打开以查看新事件。
-* 保持较短的单个会话时间（10 秒的操作时间，而不是数百秒的操作时间），使跟踪文件更容易解释（并且因为跟踪文件的大小有限制，因此在时间很长的会话中可能会丢弃早期事件）。
+* 保持较短的单个会话时间（10 秒的操作时间，而不是数百秒的操作时间），使跟踪文件更容易解释（并且因为跟踪文件的大小有限制，因此在时间长的会话中可能会丢弃早期事件）。
 
 #### <a name="understanding-the-form-of-query-sent-by-power-bi-desktop"></a>了解 Power BI Desktop 发送的查询的形式
 Power BI Desktop 创建和发送的查询的一般格式会对每个引用的表使用子选项，其中子查询由“查询编辑器”中定义的查询定义。 例如，假设 SQL Server 中有以下 TPC-DS 表：
@@ -396,7 +410,7 @@ Power BI 使用此模式的原因之一是，所使用的 SQL 查询可直接由
 ![](media/desktop-directquery-about/directquery-about_12.png)
 
 ## <a name="next-steps"></a>后续步骤
-本文介绍了所有数据源中常见的 DirectQuery 的各个方面。 某些细节特定于某些数据源。 请参阅以下涵盖特定数据源的主题：
+本文介绍了所有数据源中常见的 DirectQuery 的各个方面。 某些细节特定于某些数据源。 请参阅以下涵盖特定数据源的文章：
 
 * [DirectQuery 和 SAP HANA](desktop-directquery-sap-hana.md)
 * [DirectQuery 和 SAP BW](desktop-directquery-sap-bw.md)

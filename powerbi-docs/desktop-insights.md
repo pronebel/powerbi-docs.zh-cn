@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 12/06/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 4b8c436088bcd7538c09d4acf0fd5d529f9c8a8f
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: f5896505d724c0704e22c95df132ee3318b23009
+ms.sourcegitcommit: 80961ace38ff9dac6699f81fcee0f7d88a51edf4
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54278828"
+ms.lasthandoff: 02/13/2019
+ms.locfileid: "56224010"
 ---
 # <a name="use-insights-in-power-bi-desktop-to-explain-increases-and-decreases-seen-in-visuals-preview"></a>使用 Power BI Desktop 中的见解来解释视觉对象中显示的增长和下降（预览版）
 
@@ -116,7 +116,7 @@ ms.locfileid: "54278828"
 * 度量值筛选器
 * 非数值度量值
 * 使用“值显示为”
-* 筛选后的度量值：筛选后的度量值是指应用了特定筛选器的视觉对象级计算（例如，*法国总销售额*），用于见解功能创建的某些视觉对象
+* 筛选后的度量值：筛选后的度量值是指应用了特定筛选器的视觉对象级计算（例如，法国总销售额），用于见解功能创建的某些视觉对象
 * X 轴上的类别列（根据列将排序定义为标量的情况除外）。 如果使用层次结构，则有效层次结构中的每一列必须与此条件相匹配
 
 

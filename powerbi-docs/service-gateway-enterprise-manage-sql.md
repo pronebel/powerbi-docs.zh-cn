@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 01/24/2018
 ms.author: mblythe
 LocalizationGroup: Gateways
-ms.openlocfilehash: 5bd1ee87d540fc4d4c212313483c78d168d7e104
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 6771e2da33448fe3aa54a0184a220437ffb54fce
+ms.sourcegitcommit: 5e83fa6c93a0bc6599f76cc070fb0e5c1fce0082
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54277610"
+ms.lasthandoff: 02/13/2019
+ms.locfileid: "56215847"
 ---
 # <a name="manage-your-data-source---sql-server"></a>管理数据源 - SQL Server
 安装本地数据网关之后，可以添加可与该网关结合使用的数据源。 本文将探讨如何使用网关和数据源。 你可以使用 SQL Server 数据源进行计划刷新或 DirectQuery。

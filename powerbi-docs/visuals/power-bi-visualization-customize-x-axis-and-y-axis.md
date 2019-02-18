@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 11/06/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: c6395785c3d3e386aa2ac735439a265f5fe3fb02
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 1bb6cfa195e3e6158259c9ff23cb3efdc3da4a09
+ms.sourcegitcommit: 80961ace38ff9dac6699f81fcee0f7d88a51edf4
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54286993"
+ms.lasthandoff: 02/13/2019
+ms.locfileid: "56223297"
 ---
 # <a name="customize-x-axis-and-y-axis-properties"></a>自定义 X 轴和 Y 轴属性
 在本教程中，你会学习很多用于自定义视觉对象的 X 轴和 Y 轴的不同方式。 并非所有视觉对象都具有轴或是可以自定义；例如，饼图没有轴。 而且自定义选项因视觉对象而异，选项太多，无法在一篇文章中进行介绍。 因此我们讨论一些最常用的轴自定义，使你可以熟练地在 Power BI 报表画布中使用视觉对象格式设置选项卡。  
@@ -136,7 +136,7 @@ ms.locfileid: "54286993"
 ## <a name="next-steps"></a>后续步骤
 有关 [Power BI 报表中的可视化效果](power-bi-report-visualizations.md)的详细信息
 
-[自定义](power-bi-visualization-customize-title-background-and-legend.md)[标题、背景和图例](power-bi-visualization-customize-title-background-and-legend.md)
+[自定义标题、背景和图例](power-bi-visualization-customize-title-background-and-legend.md)
 
 [自定义颜色和轴属性](service-getting-started-with-color-formatting-and-axis-properties.md)
 

@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 08/06/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: bef307678c471303fde7382e3c1be1648d49f0db
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 457861d17aea03303df9c271c52e7f962f525bbc
+ms.sourcegitcommit: 80961ace38ff9dac6699f81fcee0f7d88a51edf4
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54280300"
+ms.lasthandoff: 02/13/2019
+ms.locfileid: "56223251"
 ---
 # <a name="use-visual-elements-to-enhance-power-bi-reports"></a>使用视觉对象元素增强 Power BI 报表
 

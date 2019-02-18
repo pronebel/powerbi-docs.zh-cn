@@ -5,51 +5,45 @@ author: christianwade
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.subservice: powerbi-admin
+ms.component: powerbi-admin
 ms.topic: conceptual
-ms.date: 10/19/2018
+ms.date: 01/24/2019
 ms.author: chwade
 LocalizationGroup: Premium
-ms.openlocfilehash: 92bd4043e4cfa37bd8f712491ccbc2990dc0b6a9
-ms.sourcegitcommit: 54d44deb6e03e518ad6378656c769b06f2a0b6dc
+ms.openlocfilehash: caa350274b7af62078098d9ef7730046f6e14627
+ms.sourcegitcommit: d010b10bc14097a1948daeffbc91b864bd91f7c8
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/07/2019
-ms.locfileid: "55794359"
+ms.lasthandoff: 02/13/2019
+ms.locfileid: "56225974"
 ---
 # <a name="incremental-refresh-in-power-bi-premium"></a>Power BI Premium 中的增量刷新
 
 增量刷新功能可在 Power BI Premium 服务中启用大型数据集，且具备以下优势：
 
-- **刷新速度更快。** 仅已更改的数据需要刷新。 例如，只刷新 10 年数据集中最近 5 天的数据。
+- **刷新更快捷** - 只需刷新已更改的数据。 例如，只刷新 10 年数据集中最近 5 天的数据。
 
-- **刷新更可靠。** 例如，无需维护与不稳定的源系统的长期连接。
+- **刷新更可靠** - 不再需要维护与不稳定的源系统的长期连接。
 
-- **资源消耗更少。** 要刷新的数据量减少，这降低了内存和其他资源的整体消耗。
+- **降低资源消耗** - 要刷新的数据量减少，这降低了内存和其他资源的整体消耗。
 
-## <a name="how-to-use-incremental-refresh"></a>如何使用增量刷新
+## <a name="configure-incremental-refresh"></a>配置增量刷新
 
-增量刷新策略在 Power BI Desktop 中进行定义，并在发布到 Power BI 服务后即刻应用。
+增量刷新策略在 Power BI Desktop 中进行定义，并在发布到 Power BI 服务时应用。
 
-首先启用预览版功能中的增量刷新。
+若要开始，请启用“预览版功能”中的增量刷新。
 
 ![选项 - 预览版功能](media/service-premium-incremental-refresh/preview-features.png)
 
 ### <a name="filter-large-datasets-in-power-bi-desktop"></a>在 Power BI Desktop 中筛选大型数据集
 
-Power BI Desktop 可能不适合处理具有数十亿行的大型数据集，因为该软件通常受到用户台式电脑上可用资源的限制。 因此，这些数据集通常在导入时进行筛选以适应 Power BI Desktop。 不管是否使用增量刷新，情况都将如此。
+Power BI Desktop 模型可能不适合处理具有可能数十亿行的大型数据集，因为 PBIX 文件通常受台式计算机上可用内存资源的限制。 因此，这些数据集通常在导入时进行筛选。 无论是否使用增量刷新，这种类型的筛选都适用。 对于增量刷新，使用 Power Query 日期/时间参数进行筛选。
 
 #### <a name="rangestart-and-rangeend-parameters"></a>RangeStart 和 RangeEnd 参数
 
-要使用 Power BI 服务中的增量刷新，需要使用名称为 RangeStart 和 RangeEnd 的 Power Query 日期/时间参数进行筛选（其中名称为保留名称且不区分大小写）。
+对于增量刷新，数据集使用名称为 RangeStart 和 RangeEnd（为保留名称且区分大小写）的 Power Query 日期/时间参数进行筛选。 这些参数用于筛选导入 Power BI Desktop 的数据，还用于在将数据发布到 Power BI 服务后将其动态地划分为多个范围。 参数值由服务进行替换，以筛选每个分区。 发布后，Power BI 服务会自动替代参数值。 无需在服务的数据集设置中进行设置。 发布后，Power BI 服务会自动替代参数值。 
 
-发布后，Power BI 服务会自动替代参数值。 无需在服务的数据集设置中进行设置。
-
-在提交查询以执行刷新操作时，请务必将筛选器推送到源系统。 将筛选器向下推送，这意味着数据源应支持“查询折叠”。 大多数支持 SQL 查询的数据源都支持查询折叠。 平面文件、blob、Web 和 OData 源等数据源通常不支持。 由于已对每个数据源提供各种级别的查询折叠支持，建议验证源查询中是否包含筛选器逻辑。 如果数据源后端不支持筛选器，则无法将其向下推送。 在这种情况下，混合引擎会在本地补偿和应用筛选器，这可能需要从数据源中检索完整数据集。 此操作可能导致增量刷新非常慢，并且该进程可能耗尽 Power BI 服务或本地数据网关（如果使用）中的资源。
-
-筛选器用于将数据分区到 Power BI 服务中的范围。 它不支持更新筛选的日期列。 更新将被解释为插入和删除（而不是更新）。 如果删除发生在历史范围内，而不是增量范围内，则不会被删除。 这可能会因分区键冲突而导致数据刷新失败。
-
-在 Power Query 编辑器中，选择“管理参数”以使用默认值定义参数。
+若要使用默认值定义参数，请选择 Power Query 编辑器中的“管理参数”。
 
 ![管理参数](media/service-premium-incremental-refresh/manage-parameters.png)
 
@@ -67,6 +61,18 @@ Power BI Desktop 可能不适合处理具有数十亿行的大型数据集，因
 > `(x as datetime) => Date.Year(x)*10000 + Date.Month(x)*100 + Date.Day(x)`
 
 在 Power Query 编辑器中选择“关闭并应用”。 必须具备 Power BI Desktop 中数据集的子集。
+
+#### <a name="filter-date-column-updates"></a>筛选日期列更新
+
+对日期列的筛选用于动态地将数据划分为 Power BI 服务中的多个范围。 增量刷新不支持源系统中筛选后的日期列已更新的情况。 更新将体现为插入和删除，而非实际更新。 如果删除发生在历史范围内，而不是增量范围内，则不会被删除。 这可能会因分区键冲突而导致数据刷新失败。
+
+#### <a name="query-folding"></a>查询折叠
+
+提交查询以执行刷新操作时，请务必将分区筛选器推送到源系统。 将筛选器向下推送，这意味着数据源应支持“查询折叠”。 大多数支持 SQL 查询的数据源都支持查询折叠。 但是，平面文件、blob、Web 和 OData 源等数据源通常不支持。 如果数据源后端不支持筛选器，则无法将其向下推送。 在这种情况下，混合引擎会在本地补偿和应用筛选器，这可能需要从数据源中检索完整数据集。 此操作可能导致增量刷新非常慢，并且该进程可能耗尽 Power BI 服务或本地数据网关（如果使用）中的资源。
+
+由于已对每个数据源提供各种级别的查询折叠支持，建议执行验证以确保源查询中包含筛选器逻辑。 为简化此操作，Power BI Desktop 会尝试执行此验证。 如果无法验证，则定义增量刷新策略时，增量刷新对话框中会显示警告。 基于 SQL 的数据源（如 SQL、Oracle 和 Teradata）可以依赖此警告。 如果没有跟踪查询，其他数据源可能无法进行验证。 如果 Power BI Desktop 无法进行确认，则显示以下警告。
+
+ ![查询折叠](media/service-premium-incremental-refresh/query-folding.png)
 
 ### <a name="define-the-refresh-policy"></a>定义刷新策略
 
@@ -87,11 +93,11 @@ Power BI Desktop 可能不适合处理具有数十亿行的大型数据集，因
 
 - 仅可在高级容量的工作区中使用增量刷新功能。 刷新策略是在 Power BI Desktop 中定义的，通过服务中的刷新操作进行应用。
 
-- 即使能够从 Power BI 服务下载包含增量刷新策略的 PBIX 文件，也不可 Power BI Desktop 中打开该文件。 该文件即将取消下载。 虽然未来可能会支持此功能，但请记住，这些数据集可能变得很大，以至于无法在典型的台式电脑中下载和打开它们。
+- 即使能够从 Power BI 服务下载包含增量刷新策略的 PBIX 文件，也无法在 Power BI Desktop 中打开该文件。 虽然未来可能会支持此功能，但请记住，这些数据集可能变得很大，以至于无法在典型的台式计算机中下载和打开它们。
 
 #### <a name="refresh-ranges"></a>刷新范围
 
-以下示例定义了一个刷新策略，用于存储五个完整日历年的数据以及当年至今的数据，并以增量方式刷新 10 天的数据。 第一次刷新操作将加载历史数据。 后续刷新将为增量刷新并执行以下操作（如果计划为每天运行）。
+以下示例定义了一个刷新策略，用于存储五个完整日历年的数据以及当年至今的数据，并以增量方式刷新 10 天的数据。 第一次刷新操作会加载历史数据。 后续刷新为增量刷新并执行以下操作（如果计划为每天运行）：
 
 - 添加新的一天的数据。
 
@@ -103,13 +109,14 @@ Power BI 服务中的第一次刷新可能需要更长时间才能导入全部�
 
 ![刷新范围](media/service-premium-incremental-refresh/refresh-ranges.png)
 
-如果上述范围的定义是你所需的全部内容，可直接转到下面的发布步骤。其他下拉菜单适用于高级功能。
+> [!NOTE]
+> 如果上述范围的定义是你所需的全部内容，可直接转到下面的发布步骤。 其他下拉菜单适用于高级功能。
 
 ### <a name="advanced-policy-options"></a>高级策略选项
 
 #### <a name="detect-data-changes"></a>检测数据更改
 
-10 天的增量刷新当然比 5 年的完全刷新更有效。 但是，我们可能能够进一步改进。 如果选中“检测数据更改”复选框，则可选择用于仅标识和刷新数据更改日期的日期/时间列。 此操作假定源系统中存在通常用于审核的列。 这不应与用于使用 RangeStart/RangeEnd 参数对数据进行分区的列相同。 将针对增量范围中的每个周期评估此列的最大值。 如果自上次刷新后未更改，则无需刷新周期。 在示例中，这可将增量刷新的天数从 10 天进一步减少到 2 天。
+10 天的增量刷新比 5 年的完全刷新更有效。 但是，还可以做得更好。 如果选中“检测数据更改”复选框，则可选择用于仅标识和刷新数据更改日期的日期/时间列。 此操作假定源系统中存在通常用于审核的列。 这不应与用于使用 RangeStart/RangeEnd 参数对数据进行分区的列相同。 将针对增量范围中的每个周期评估此列的最大值。 如果自上次刷新后未更改，则无需刷新周期。 在示例中，这可将增量刷新的天数从 10 天进一步减少到 2 天左右。
 
 ![检测更改](media/service-premium-incremental-refresh/detect-changes.png)
 
