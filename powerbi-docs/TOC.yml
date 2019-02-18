@@ -1272,6 +1272,8 @@ items:
         href: service-admin-signing-up-for-power-bi-with-a-new-office-365-trial.md
       - name: 使用 Office 365 合作伙伴添加 Power BI
         href: service-admin-syndication-partner.md
+    - name: 使用管理门户
+      href: service-admin-portal.md
     - name: 我的租户位于何处？
       href: service-admin-where-is-my-tenant-located.md
     - name: 找到已登录的用户
@@ -1307,9 +1309,9 @@ items:
       href: service-admin-governance.md
     - name: Power BI 安全性
       href: service-admin-power-bi-security.md
-ms.openlocfilehash: 260f8eea522543804fc8b2b56eece82f91894659
-ms.sourcegitcommit: 8207c9269363f0945d8d0332b81f1e78dc2414b0
+ms.openlocfilehash: d7cf2ab01727a120c5bac4b8dbc9e9eb9ccc483a
+ms.sourcegitcommit: 91ac6185f7026ddbaa925dc54057bb742b4fa411
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/14/2019
-ms.locfileid: "56249289"
+ms.lasthandoff: 02/16/2019
+ms.locfileid: "56325211"
