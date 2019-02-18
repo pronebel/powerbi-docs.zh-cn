@@ -12,12 +12,12 @@ ms.topic: conceptual
 ms.date: 12/06/2018
 ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: e8e27c55cdcd85fd9f88a3b1ad425829cfa9cf0d
-ms.sourcegitcommit: a36f82224e68fdd3489944c9c3c03a93e4068cc5
+ms.openlocfilehash: c363d71b9d8796f1bd05ac01e12e9424a499a439
+ms.sourcegitcommit: 5e83fa6c93a0bc6599f76cc070fb0e5c1fce0082
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/31/2019
-ms.locfileid: "55430593"
+ms.lasthandoff: 02/13/2019
+ms.locfileid: "56216185"
 ---
 # <a name="basic-concepts-for-power-bi-service-consumers"></a>Power BI 服务使用者的基本概念
 
@@ -61,7 +61,7 @@ ms.locfileid: "55430593"
 
     有关详细信息，请参阅 [Power BI 使用者仪表板](end-user-dashboards.md)
 
-* ![报表图标](media/end-user-basic-concepts/report.png) 报表由含交互式视觉对象、文字和图形的一个或多个页面组成。 报表以单个数据集为基础。 Oten 报表将多个页面组织起来，每个页面提供一个主要关注领域的信息或解答一个问题。
+* ![报表图标](media/end-user-basic-concepts/report.png) 报表由含交互式视觉对象、文字和图形的一个或多个页面组成。 报表以单个数据集为基础。 通常报表将多个页面组织起来，每个页面提供一个主要关注领域的信息或解答一个问题。
 
     有关详细信息，请参阅 [Power BI 使用者报表](end-user-reports.md)
 
