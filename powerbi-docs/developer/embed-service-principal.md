@@ -9,12 +9,12 @@ ms.subservice: power-bi-developer
 ms.topic: conceptual
 ms.custom: ''
 ms.date: 02/05/2019
-ms.openlocfilehash: 81a40e021ecd094e5e678504f2dd60300802d909
-ms.sourcegitcommit: b717118c44499c8fd8f57534a275f2f78aacc0f1
+ms.openlocfilehash: c5915f4f2792496a1521a868180d4ffc2dca3557
+ms.sourcegitcommit: 8207c9269363f0945d8d0332b81f1e78dc2414b0
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/09/2019
-ms.locfileid: "55971662"
+ms.lasthandoff: 02/14/2019
+ms.locfileid: "56248898"
 ---
 # <a name="service-principal-with-power-bi-preview"></a>Power BI 的服务主体（预览版）
 
@@ -53,7 +53,7 @@ ms.locfileid: "55971662"
 
 使用服务主体和标准主帐户（Power BI Pro 许可证）进行身份验证之间存在差异。 下表突出显示部分显著差异。
 
-| 函数 | 主用户帐户 </br> （Power BI Pro 许可证） | 服务主体 </br> （仅限应用的令牌） |
+| 函数 | 主用户帐户 <br> （Power BI Pro 许可证） | 服务主体 <br> （仅限应用的令牌） |
 |------------------------------------------------------|---------------------|-------------------|
 | 可以登录 Power BI 服务  | 是 | 否 |
 | 在 Power BI 管理门户中启用 | 否 | 是 |

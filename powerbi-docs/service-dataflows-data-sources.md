@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 12/06/2018
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: cef34e7be0767ce16b84b066663318b66bcbd2d0
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 5bf9694c42a3a70fbc65085326a03618ae62a8f6
+ms.sourcegitcommit: 91ac6185f7026ddbaa925dc54057bb742b4fa411
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54280534"
+ms.lasthandoff: 02/16/2019
+ms.locfileid: "56324912"
 ---
 # <a name="connect-to-data-sources-for-power-bi-dataflows-preview"></a>连接到 Power BI 数据流的数据源（预览）
 
@@ -76,6 +76,7 @@ ms.locfileid: "54280534"
 * SQL Server 数据库
 * Sybase 数据库
 * Teradata 数据库
+* Vertica
 
 “Power BI”类别包括以下用于数据流的可用数据连接：
 
@@ -91,7 +92,8 @@ ms.locfileid: "54280534"
 
 “联机服务”类别包括以下用于数据流的可用数据连接：
 
-* 用于应用的 Common Data Service
+* Amazon Redshift
+* 面向应用程序的 Common Data Service
 * Microsoft Exchange Online
 * Salesforce 对象
 * Salesforce 报表
@@ -154,12 +156,8 @@ ms.locfileid: "54280534"
 
 以下列表显示了通过复制 M 查询并将其粘贴到空白查询，当前可以使用的连接器：
 
-* Amazon Redshift
 * SAP Business Warehouse 
-* SAP HANA
-* Analysis Services
 * Azure Analysis Services
-* Google Analytics
 * Adobe Analytics
 * ODBC
 * OLE DB
@@ -170,7 +168,6 @@ ms.locfileid: "54280534"
 * Azure HDInsight (HDFS)
 * Hadoop 文件 HDFS
 * Informix (beta)
-* Vertica
 
 这就是连接到 Power BI 数据流中的数据源的所有相关信息。
 

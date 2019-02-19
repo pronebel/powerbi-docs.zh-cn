@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 12/20/2017
 ms.author: maggies
 LocalizationGroup: Ask questions of your data
-ms.openlocfilehash: d768956f26256bd06516981b2bae0ab17ef3ca90
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 5aac4b32fc90720af4954dff2afa61243b1f1587
+ms.sourcegitcommit: 8207c9269363f0945d8d0332b81f1e78dc2414b0
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54296308"
+ms.lasthandoff: 02/14/2019
+ms.locfileid: "56249036"
 ---
 # <a name="troubleshoot-cortana-for-power-bi"></a>对用于 Power BI 的 Cortana 进行故障排除
 本文是系列文章中的一部分。 如果你尚未执行上述操作，我们建议阅读以下三篇文章。
@@ -79,7 +79,7 @@ ms.locfileid: "54296308"
 
    ![回复卡](media/service-cortana-troubleshoot/power-bi-answer-card-new.png)
 
-   </br>
+   <br>
 
    ![Power BI 中的“回复卡”选项卡](media/service-cortana-troubleshoot/power-bi-answer-card2.png)
 4. 有时，在第一次将内容键入到“**查询文本**”字段时，不会执行任何操作。 将其当作启动系统；让疑难解答工具知道应该启动了。 再次剪切和粘贴或重新键入到“**查询文本**”字段。 在本示例中，我们回复卡的名称是**Cortana 存储**。 将 **Cortana 商店**粘贴或键入到工具中，生成在 **解释** 字段中显示的单个结果。 单击可查看 Cortana 窗口中显示的回复卡，本示例中为“Cortana 商店”。

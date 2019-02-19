@@ -2,20 +2,20 @@
 title: 比较 Power BI 报表服务器和 Power BI 服务
 description: 本文将 Power BI 报表服务器和 Power BI 服务的功能进行比较。
 keywords: ''
-author: maggiesMSFT
-ms.author: maggies
+author: markingmyname
+ms.author: maghan
 ms.date: 02/06/2019
 ms.topic: overview
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 manager: kfile
 ms.custom: mvc
-ms.openlocfilehash: 66f8e03469b28ee4f29c9c679add02e326732943
-ms.sourcegitcommit: 54d44deb6e03e518ad6378656c769b06f2a0b6dc
+ms.openlocfilehash: 11b910d687830e525e0495a785153daa32db042d
+ms.sourcegitcommit: 91ac6185f7026ddbaa925dc54057bb742b4fa411
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/07/2019
-ms.locfileid: "55794333"
+ms.lasthandoff: 02/16/2019
+ms.locfileid: "56324452"
 ---
 # <a name="comparing-power-bi-report-server-and-the-power-bi-service"></a>比较 Power BI 报表服务器和 Power BI 服务
 

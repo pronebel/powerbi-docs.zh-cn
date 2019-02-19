@@ -1,20 +1,20 @@
 ---
 title: 远程配置 iOS 移动应用对报表服务器的访问权限
 description: 了解如何为报表服务器远程配置 iOS 移动应用。
-author: maggiesMSFT
+author: markingmyname
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 11/15/2018
-ms.author: maggies
-ms.openlocfilehash: 6a815d3b8042a53bd7196902e59019d3a6b61220
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.author: maghan
+ms.openlocfilehash: c50f9c482ba689fe81ee22b2b52564dec3cbf1d6
+ms.sourcegitcommit: 91ac6185f7026ddbaa925dc54057bb742b4fa411
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54293571"
+ms.lasthandoff: 02/16/2019
+ms.locfileid: "56324360"
 ---
 # <a name="configure-power-bi-ios-mobile-app-access-to-a-report-server-remotely"></a>远程配置 Power BI iOS 移动应用对报表服务器的访问权限
 
@@ -35,10 +35,10 @@ ms.locfileid: "54293571"
 
 |密钥  |类型  |说明  |
 |---------|---------|---------|
-| com.microsoft.powerbi.mobile.ServerURL | 字符串 | 报表服务器 URL </br> 应以 http/https 开头 |
-| com.microsoft.powerbi.mobile.ServerUsername | 字符串 | [可选] </br> 要用于连接服务器的用户名。 </br> 如果不存在此项，应用将提示用户键入用于连接的用户名。| 
-| com.microsoft.powerbi.mobile.ServerDisplayName | 字符串 | [可选] </br> 默认值为“报表服务器” </br> 应用中用于表示服务器的友好名称 | 
-| com.microsoft.powerbi.mobile.OverrideServerDetails | 布尔 | 默认值为 True </br>设置为“True”时，它将替代移动设备中已有的任何报表服务器定义。 已删除已配置的现有服务器。 </br> 将“替代”设置为 True 还可防止用户删除该配置。 </br> 设置为“False”将添加推送值，并保留任何现有设置。 </br> 如果已在移动应用中配置相同的服务器 URL，则应用将按原样保留该配置。 该应用不会要求用户重新验证同一服务器。 |
+| com.microsoft.powerbi.mobile.ServerURL | 字符串 | 报表服务器 URL <br> 应以 http/https 开头 |
+| com.microsoft.powerbi.mobile.ServerUsername | 字符串 | [可选] <br> 要用于连接服务器的用户名。 <br> 如果不存在此项，应用将提示用户键入用于连接的用户名。| 
+| com.microsoft.powerbi.mobile.ServerDisplayName | 字符串 | [可选] <br> 默认值为“报表服务器” <br> 应用中用于表示服务器的友好名称 | 
+| com.microsoft.powerbi.mobile.OverrideServerDetails | 布尔 | 默认值为 True <br>设置为“True”时，它将替代移动设备中已有的任何报表服务器定义。 已删除已配置的现有服务器。 <br> 将“替代”设置为 True 还可防止用户删除该配置。 <br> 设置为“False”将添加推送值，并保留任何现有设置。 <br> 如果已在移动应用中配置相同的服务器 URL，则应用将按原样保留该配置。 该应用不会要求用户重新验证同一服务器。 |
 
 下面的示例使用 Intune 设置配置策略。
 

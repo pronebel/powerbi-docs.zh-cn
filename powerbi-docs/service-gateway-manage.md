@@ -11,18 +11,18 @@ ms.date: 04/18/2018
 ms.author: mblythe
 ms.custom: seodec18
 LocalizationGroup: Gateways
-ms.openlocfilehash: ff9f75b216ba64dfdb0b8244bb99016d0edd4ede
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 9a2fac64959ece431471eb8d3f32961c9d592c66
+ms.sourcegitcommit: 91ac6185f7026ddbaa925dc54057bb742b4fa411
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54276988"
+ms.lasthandoff: 02/16/2019
+ms.locfileid: "56324819"
 ---
 # <a name="manage-a-power-bi-on-premises-gateway"></a>管理 Power BI 本地网关
 
-[安装 Power BI 数据网关](service-gateway-install.md)后，根据需求管理网关。 本主题介绍了如何添加和删除数据源和用户、如何重启网关，以及如何迁移、还原、接管和删除网关。 
+[安装 Power BI 数据网关](service-gateway-install.md)后，根据需求管理网关。 本主题介绍了如何添加和删除数据源和用户、如何重启网关，以及如何迁移、还原、接管和删除网关。
 
-可以通过 Power BI 服务的“管理网关”部分、本地计算机上的网关应用和 PowerShell 脚本来管理网关。 本文重点介绍 Power BI 服务。 
+可以通过 Power BI 服务的“管理网关”部分、本地计算机上的网关应用和 PowerShell 脚本来管理网关。 本文重点介绍 Power BI 服务。
 
 如果刚安装了网关，我们建议你接下来[添加数据源](#add-a-data-source)，然后[添加用户](#add-users-to-a-data-source)，以便他们可以访问数据源。
 

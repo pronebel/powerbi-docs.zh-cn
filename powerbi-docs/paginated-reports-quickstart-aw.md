@@ -1,20 +1,20 @@
 ---
 title: 教程：创建分页报表并将其上传到 Power BI 服务（预览）
 description: 在本教程中，你将连接到一个示例 Azure SQL 数据库。 然后，使用报表生成器中的向导创建分页报表。 接着将分页报表上传到 Power BI 服务高级容量中的工作区。
-author: maggiesMSFT
+author: markingmyname
+ms.author: maghan
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: tutorial
 ms.date: 11/06/2018
-ms.author: maggies
-ms.openlocfilehash: 05805ea7b30f0ab0bd14265caecbb04a4e975300
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 15c7d9e922ef7041c6b0f021382cae8d2aca84e9
+ms.sourcegitcommit: 91ac6185f7026ddbaa925dc54057bb742b4fa411
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54296415"
+ms.lasthandoff: 02/16/2019
+ms.locfileid: "56325234"
 ---
 # <a name="tutorial-create-a-paginated-report-and-upload-it-to-the-power-bi-service-preview"></a>教程：创建分页报表并将其上传到 Power BI 服务（预览）
 

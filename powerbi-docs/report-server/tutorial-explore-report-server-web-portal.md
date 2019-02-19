@@ -1,20 +1,20 @@
 ---
 title: 教程：浏览 VM 中的 Power BI 报表服务器
 description: 在本教程中，使用已安装的 Power BI 报表服务器创建虚拟机，并浏览 Web 门户。
-author: maggiesMSFT
+author: markingmyname
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: tutorial
 ms.date: 05/18/2018
-ms.author: maggies
-ms.openlocfilehash: 4eb9f5dc7e45006d1b5697f35b79d0e9d11fa2df
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.author: maghan
+ms.openlocfilehash: 098aa1cd2c031a200e3ce246890a467a6e15149d
+ms.sourcegitcommit: 91ac6185f7026ddbaa925dc54057bb742b4fa411
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54281381"
+ms.lasthandoff: 02/16/2019
+ms.locfileid: "56325073"
 ---
 # <a name="tutorial-explore-the-power-bi-report-server-web-portal-in-a-vm"></a>教程：浏览 VM 中的 Power BI 报表服务器 Web 门户
 在本教程中，使用已安装的 Power BI 报表服务器创建 Azure 虚拟机，以便可以查看、编辑和管理示例 Power BI、分页报表和 KPI。
