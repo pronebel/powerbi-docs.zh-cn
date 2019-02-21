@@ -8,15 +8,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
-ms.date: 10/30/2018
+ms.date: 01/24/2019
 ms.custom: seodec18
 LocalizationGroup: Administration
-ms.openlocfilehash: f7e28ce1f72a58fe2bb52103b79fa0106a0024ca
-ms.sourcegitcommit: 88ac51106ec7d0ead8c2a1550a11afae0d502bb9
+ms.openlocfilehash: 868c1226b70bd12762c20c3af5b0ee1ff59857e5
+ms.sourcegitcommit: a2f274cfb392fe3b1b466a39ec7eaf58a7c5ce00
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/12/2019
-ms.locfileid: "56086462"
+ms.lasthandoff: 02/19/2019
+ms.locfileid: "56408175"
 ---
 # <a name="administering-power-bi-in-the-admin-portal"></a>在管理门户中管理 Power BI
 
@@ -172,11 +172,11 @@ Office 365 中的全局管理员或分配有 Power BI 服务管理员角色的�
 > [!NOTE]
 > 禁用“导出数据”还会阻止用户使用“在 Excel 中分析”功能，同时也会阻止用户使用 Power BI 服务实时连接。
 
-### <a name="export-reports-as-powerpoint-presentations"></a>将报表导出为 PowerPoint 演示文稿
+### <a name="export-reports-as-powerpoint-presentations-or-pdf-documents"></a>将报表导出为 PowerPoint 演示文稿或 PDF 文档
 
-组织中的用户可以将 Power BI 报表导出为 PowerPoint 文件。 [了解详细信息](consumer/end-user-powerpoint.md)
+组织中的用户可以将 Power BI 报表导出为 PowerPoint 文件或 PDF 文档。 [了解详细信息](consumer/end-user-powerpoint.md)
 
-下图显示了在启用“将报表导出为 PowerPoint 演示文稿”设置时报表的“文件”菜单。
+下图显示了在启用“将报表导出为 PowerPoint 演示文稿或 PDF 文档”设置时报表的“文件”菜单。
 
 ![将报表导出为 PowerPoint 演示文稿](media/service-admin-portal/powerbi-admin-powerpoint.png)
 
@@ -202,9 +202,9 @@ Office 365 中的全局管理员或分配有 Power BI 服务管理员角色的�
 
 ![向组织发布内容包](media/service-admin-portal/powerbi-admin-publish-entire-org.png)
 
-### <a name="create-template-organizational-content-packs-and-apps"></a>创建模板组织内容包和应用
+### <a name="create-template-apps"></a>创建模板应用
 
-组织中的用户可以创建使用 Power BI Desktop 内置数据集的模板内容包。 [了解详细信息](template-content-pack-authoring.md)
+组织中的用户可以创建使用 Power BI Desktop 内置数据集的模板应用。 详细了解[模板应用](template-content-pack-authoring.md)
 
 ### <a name="push-apps-to-end-users"></a>将应用推送给最终用户
 
@@ -293,7 +293,7 @@ Office 365 中的全局管理员或分配有 Power BI 服务管理员角色的�
 
 组织中的用户可以在软件即服务 (SaaS) 应用程序中嵌入 Power BI 仪表板和报表。 禁用此设置会阻止用户使用 REST API 将 Power BI 内容嵌入到其应用程序中。 [了解详细信息](developer/embedding.md)
 
-## <a name="dataflow-settings-preview"></a>数据流设置(预览版)
+## <a name="dataflow-settings-preview"></a>数据流设置(预览)
 
 ### <a name="create-and-use-dataflows-preview"></a>创建和使用数据流（预览）
 
@@ -301,6 +301,18 @@ Office 365 中的全局管理员或分配有 Power BI 服务管理员角色的�
 
 > [!NOTE]
 > 此设置应用于整个组织，并且不能限制为特定组。
+
+## <a name="template-apps-settings-preview"></a>模板应用设置（预览版）
+
+两个设置控制模板应用。 
+
+![Power BI 管理门户模板应用设置](media/service-admin-portal/power-bi-admin-portal-template-apps.png)
+
+第一个设置“创建模板应用”，控制组织中的哪些人可以创建模板应用。 然后，模板应用创建者可以通过 AppSource 或其他分发方法将它们分发给组织外部的客户端。
+
+![Power BI 管理门户的创建模板应用设置](media/service-admin-portal/power-bi-admin-portal-template-app-settings.png)
+
+使用第二个设置“安装模板应用”，可以控制组织中的哪些人可以从 AppSource 或其他源下载和安装模板应用
 
 ## <a name="capacity-settings"></a>容量设置
 
