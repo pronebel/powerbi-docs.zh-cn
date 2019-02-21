@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 01/29/2019
 ms.author: maggies
 LocalizationGroup: Common tasks
-ms.openlocfilehash: a7c9c72dfbb75958be3119db61fa3aa03ac89171
-ms.sourcegitcommit: a36f82224e68fdd3489944c9c3c03a93e4068cc5
+ms.openlocfilehash: 09539bfd26685ffdd9866810b566699e5cdb4a41
+ms.sourcegitcommit: a2f274cfb392fe3b1b466a39ec7eaf58a7c5ce00
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/31/2019
-ms.locfileid: "55430938"
+ms.lasthandoff: 02/19/2019
+ms.locfileid: "56408106"
 ---
 # <a name="subscribe-yourself-and-others-to-a-report-or-dashboard-in-the-power-bi-service"></a>在 Power BI 服务中为自己和他人订阅报表或仪表板
 
@@ -60,12 +60,10 @@ ms.locfileid: "55430938"
 7. 选择“保存并关闭”。 订阅者会按所选频率和时间收到仪表板或报表页的电子邮件和快照。 总共可以创建对每个报表或仪表板创建最多 24 个订阅，并可以为每个订阅提供独有的收件人、时间和频率。  对仪表板或报表设置为“数据刷新后”的所有订阅仍然只会在第一次计划刷新之后发送电子邮件。   
       
    > [!TIP]
-   > 想立即查看电子邮件？ 刷新一个与仪表板或报表相关联的数据集，从而触发电子邮件。 如果你没有对数据集的编辑权限，请要求具有这些权限的人为你刷新它。 要查看相关数据集，请选择“查看相关内容”图标 ![查看相关内容图标](media/service-report-subscribe/power-bi-view-related.png) 打开相关内容，然后选择刷新图标 ![刷新图标](media/service-report-subscribe/power-bi-refresh.png)。 
+   > 想立即通过订阅或随时按需发送电子邮件吗？ 选择“立即运行”以获取要发送的仪表板或报表的订阅。 你将看到一封电子邮件正发送给每个人的通知，通知内容是关于该特定订阅的。  可以根据需要随时执行此操作。 它不计入每天每个报表或仪表板的 24 次预定订阅运行的限制。 请注意，这不会引起基础数据集的数据刷新。 
    > 
    > 
    
-   ![相关数据集](media/service-report-subscribe/power-bi-view-related-screen.png)
-
 ## <a name="email-languages"></a>电子邮件语言
 
 电子邮件和快照将使用在 Power BI 设置中设置的语言（请参阅 [Power BI 的支持语言和国家/地区](supported-languages-countries-regions.md)）。 如果未定义任何语言，Power BI 会根据当前浏览器中的区域设置使用语言。 要查看或设置语言首选项，请选择齿轮图标 ![齿轮图标](media/service-report-subscribe/power-bi-settings-icon.png) > “设置”>“常规”>“语言”。 
@@ -84,6 +82,7 @@ ms.locfileid: "55430938"
 如果 Pro 许可证已到期、所有者删除仪表板或报表或用于创建订阅的用户帐户被删除，那么订阅会结束。
 
 ## <a name="considerations-and-troubleshooting"></a>注意事项和疑难解答
+* 具有超过 25 个固定磁贴或 4 个固定活动报表页面的仪表板可能无法完全呈现在发送给用户的订阅电子邮件中。  将不会阻止对超过这些磁贴数量的仪表板订阅，但是，如果遇到问题，将认为它们不受支持，应相应地进行修改以使其处于受支持的范围内。
 * 对于仪表板电子邮件说明，如果任何磁贴应用了行级别安全性 (RLS)，则不会显示这些磁贴。  对于报表电子邮件说明，如果数据集使用 RLS，则无法创建订阅。
 * 报表页订阅与报表页面的名称是相关联的。 如果你订阅一个报表页，随后将其重命名，则必须重新创建订阅。
 * 组织可能在 Azure Active Directory 中配置的某些设置会限制 Power BI 中电子邮件订阅的使用。  这些限制包括但不限于针对资源访问设置多重身份验证或 IP 范围限制。

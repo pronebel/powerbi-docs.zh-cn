@@ -7,21 +7,24 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 01/30/2019
+ms.date: 02/14/2019
 ms.author: maggies
 LocalizationGroup: Reports
-ms.openlocfilehash: 13ab7ccf690c834168da8f9c6dcb0932178651ca
-ms.sourcegitcommit: 7df786871b196725a1c5422ee561c7557660894e
+ms.openlocfilehash: b130ccbe6b3fe6fa09b9a4c4efe388f79350c500
+ms.sourcegitcommit: f07520591db6c3f27ab6490612cc56384abc6633
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/31/2019
-ms.locfileid: "55482697"
+ms.lasthandoff: 02/15/2019
+ms.locfileid: "56298813"
 ---
 # <a name="the-new-filter-experience-in-power-bi-reports-preview"></a>Power BI 报表中的新筛选器体验（预览）
 
 本文详细介绍了新的筛选器体验：Power BI 中的筛选器添加了新功能和新设计。 在 Power BI Desktop 或 Power BI 服务中设计报表时，可以使筛选器窗格的外观类似于整个报表并与其一起使用。 在新体验中，旧筛选器窗格充当筛选器编辑窗格，而新筛选器窗格是报表使用者能够看到的唯一窗格。 
  
 ![默认视图（未应用其他自定义项）](media/power-bi-report-filter-preview/power-bi-filter-reading.png)
+
+> [!NOTE]
+> 新的筛选器体验处于预览状态。 新版本可能会覆盖已设置的格式。
 
 作为报表设计器，以下是使用新筛选器可以实现的功能：
 
@@ -83,6 +86,7 @@ ms.locfileid: "55482697"
 - 背景透明度
 - 筛选器窗格边框打开或关闭
 - 筛选器窗格边框颜色
+- 筛选器窗格标题和标头字体、颜色和文本大小
 
 也可以设置这些筛选器卡的元素的格式，具体取决于是否应用了这些元素（设置为某些内容）或其是否可用（清除）： 
 
@@ -90,6 +94,8 @@ ms.locfileid: "55482697"
 - 背景透明度
 - 边框：打开或关闭
 - 边框颜色
+- 字体、颜色和文本大小
+- 输入框颜色
 
 ### <a name="set-the-format-for-the-filters-pane-and-cards"></a>设置筛选器窗格和筛选器卡的格式
 
@@ -100,11 +106,11 @@ ms.locfileid: "55482697"
 
 1. 展开“筛选器窗格”以设置背景色、图标和左边框，以补充报表页。
 
-    ![展开筛选器窗格](media/power-bi-report-filter-preview/power-bi-filter-format-pane.png)
+    ![展开筛选器窗格](media/power-bi-report-filter-preview/power-bi-filter-format-pane-font.png)
 
 1. 展开“筛选器卡”以设置“可用”的“已应用”颜色和边框。 如果将可用和已应用卡设置为不同的颜色，则可以明显地区分所应用的筛选器。 
   
-    ![展开筛选器卡](media/power-bi-report-filter-preview/power-bi-filter-format-card.png)
+    ![展开筛选器卡](media/power-bi-report-filter-preview/power-bi-filter-format-card-font.png)
 
 ## <a name="view-filters-for-a-visual-in-reading-mode"></a>在阅读模式下查看视觉对象的筛选器
 

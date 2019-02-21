@@ -8,12 +8,12 @@ ms.reviewer: ''
 ms.service: power-bi-embedded
 ms.topic: conceptual
 ms.date: 08/13/2018
-ms.openlocfilehash: bdb9e2dcf5e8e22aaaa3bf35035b746777a387b9
-ms.sourcegitcommit: 1574ecba7530e6e0ee97235251a3138fb0e4789b
+ms.openlocfilehash: 93181a7ecaad0ec5bcd837f55ad7863fae53772c
+ms.sourcegitcommit: 8207c9269363f0945d8d0332b81f1e78dc2414b0
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/14/2018
-ms.locfileid: "40126446"
+ms.lasthandoff: 02/14/2019
+ms.locfileid: "56249128"
 ---
 # <a name="diagnostic-logging-for-power-bi-embedded-in-azure"></a>Azure 中 Power BI Embedded 的诊断日志记录
 
@@ -114,13 +114,13 @@ ms.locfileid: "40126446"
 |    Audit Logout    |    记录自跟踪启动后从引擎事件断开的所有连接。    |
 |    错误    |    记录自跟踪启动后的所有引擎错误事件。    |
 
-</br>
-</br>
+<br>
+<br>
 
 | 属性名称 | Vertipaq Query End 示例 | 属性说明 |
 |-------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------|
 | EventClass | XM_SEQUERY_END | 事件类用于对事件进行分类。 |
-| EventSubclass | 0 | 事件子类提供有关每个事件类的其他信息。 （例如，0: VertiPaq Scan） |
+| EventSubclass | 0 | 事件子类提供有关每个事件类的其他信息。 （例如，0：VertiPaq 扫描） |
 | RootActivityId | ff217fd2-611d-43c0-9c12-19e202a94f70 | 根活动 ID。 |
 | CurrentTime | 2018-04-06T18:30:11.9137358Z | 事件（如果可用）的启动时间。 |
 | StartTime | 2018-04-06T18:30:11.9137358Z | 事件（如果可用）的启动时间。 |
@@ -138,7 +138,7 @@ ms.locfileid: "40126446"
 | 严重性 | 0 | 异常错误的严重级别。 |
 | 成功 | 1 | 1 = 成功。 0 = 失败（例如，1 表示权限检查成功，而 0 表示权限检查失败）。 |
 | 错误 | 0 | 给定事件的错误号。 |
-| TextData | SET DC_KIND=\"AUTO\";  SELECT  [SalesLT Customer (464)].[rowguid (606)] AS [SalesLT Customer (464)$rowguid (606)]  FROM [SalesLT Customer (464)]; [Estimated size (volume marshalling bytes): 850 6800] | 与事件相关联的文本数据。 |
+| TextData | SET DC_KIND=\"AUTO\";  SELECT  [SalesLT Customer (464)].[rowguid (606)] AS [SalesLT Customer (464)$rowguid (606)]  FROM [SalesLT Customer (464)]; [Estimated size (volume marshalling bytes):850 6800] | 与事件相关联的文本数据。 |
 | ConnectionID | 3 | 唯一连接 ID。 |
 | DatasetID | 5eaa550e-06ac-4adf-aba9-dbf0e8fd1527 | 正在运行用户语句的数据集的 ID。 |
 | SessionID | 3D063F66-A111-48EE-B960-141DEBDA8951 | 会话 GUID。 |

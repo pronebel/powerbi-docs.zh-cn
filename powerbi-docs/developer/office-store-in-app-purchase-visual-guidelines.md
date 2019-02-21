@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: conceptual
 ms.date: 11/26/2018
-ms.openlocfilehash: 280f60d0ae60a445d94a640af974a2624c73bb83
-ms.sourcegitcommit: a36f82224e68fdd3489944c9c3c03a93e4068cc5
+ms.openlocfilehash: 097095cda1e0ffea4f43059351f22638c502e8b4
+ms.sourcegitcommit: a2f274cfb392fe3b1b466a39ec7eaf58a7c5ce00
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/31/2019
-ms.locfileid: "55429995"
+ms.lasthandoff: 02/19/2019
+ms.locfileid: "56408060"
 ---
 # <a name="guidelines-for-power-bi-visuals-with-additional-purchases"></a>额外购买的 Power BI 视觉对象指南
 
@@ -22,6 +22,10 @@ ms.locfileid: "55429995"
 
 > [!Note]
 > 要认证的视对象觉不得访问外部服务或资源。
+
+> [!Note]
+> 所有免费视觉效果应保留以前提供的相同免费功能。 可以在旧版免费功能基础上添加可选的高级付费功能。 我们建议将具有高级功能的 IAP 视觉效果作为新视觉效果提交，而不是更新旧版免费视觉效果。
+
 
 ## <a name="whats-changing-in-the-submission-process"></a>提交过程有什么变化？
 

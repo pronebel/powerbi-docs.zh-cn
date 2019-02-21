@@ -8,15 +8,15 @@ ms.reviewer: cmfinlan
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 02/04/2019
+ms.date: 02/14/2019
 ms.author: mihart
 LocalizationGroup: Share your work
-ms.openlocfilehash: c18257f1f4e4e3f325c8d4d895e3b6abf88e900c
-ms.sourcegitcommit: 54d44deb6e03e518ad6378656c769b06f2a0b6dc
+ms.openlocfilehash: 1aaa57006b9a5aac2b077d3326ed6a39e6a4206d
+ms.sourcegitcommit: f07520591db6c3f27ab6490612cc56384abc6633
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/07/2019
-ms.locfileid: "55794979"
+ms.lasthandoff: 02/15/2019
+ms.locfileid: "56298859"
 ---
 # <a name="export-reports-from-power-bi-to-pdf"></a>从 Power BI 将报表导出为 PDF
 借助 Power BI，可以将报表发布为 PDF 格式，并根据 Power BI 报表轻松地创建文档。 如果选择“导出为 PDF”，则 Power BI 报表中的每页都将变为 PDF 文档中的单独页。
@@ -28,6 +28,10 @@ ms.locfileid: "55794979"
 
     ![从菜单栏中选择“文件”，箭头指向“导出为 PDF”](media/end-user-pdf/power-bi-export-pdf.png)
 
+    将出现一个弹出窗口，可以选择“当前视图”或“默认视图”。  “当前视图”以当前状态导出报表，其中包括对切片器和筛选器值所做的有效更改。  大多数用户选择此选项。  或者，选择“默认视图”以原始状态导出报表（在作者共享此报表时），并不反映对该原始状态所做的任何更改。
+    
+    此外，还有一个复选框，用于选择是否导出报表的隐藏选项卡。  如果只想在浏览器中导出可浏览的报表选项卡，只需选中此框即可。  如果希望将所有隐藏选项卡作为导出的一部分，则不选中此选项。  如果该复选框显示为灰色，则报表中没有隐藏选项卡。  完成选择后，单击“导出”按钮以继续。
+    
     右上角将显示一个进度栏。 导出可能需要几分钟的时间。在导出报表的同时，可以在 Power BI 中继续进行操作。
 
     ![导出进度消息](media/end-user-pdf/power-bi-export-message.png)
@@ -43,8 +47,6 @@ ms.locfileid: "55794979"
 
 ## <a name="limitations-and-considerations"></a>限制和注意事项
 在使用“导出为 PDF”功能时，有几个注意事项和限制需要牢记。
-
-- 导出为 PDF 时，尚不支持会话内交互性，例如突出显示和筛选、向下钻取等功能。 已导出的 PDF 显示原始视觉对象，因为它们已保存在报表中。 如果已应用筛选器和切片器并希望在导出时保留，请保存报表，然后执行导出。
 
 * 目前不支持 R 视觉对象。 在 PDF 中，这些视觉对象将为空，并显示一条错误消息。  
 

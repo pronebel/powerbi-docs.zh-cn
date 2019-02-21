@@ -10,12 +10,12 @@ ms.subservice: powerbi-developer
 ms.topic: tutorial
 ms.custom: seodec18
 ms.date: 12/10/2018
-ms.openlocfilehash: 2d095f117fdaafa34a1b9636d03045d0119f4dd8
-ms.sourcegitcommit: 0abcbc7898463adfa6e50b348747256c4b94e360
+ms.openlocfilehash: 6a6dc71d68fa7ff136d35cbfb185b96db8e0589e
+ms.sourcegitcommit: 8207c9269363f0945d8d0332b81f1e78dc2414b0
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/06/2019
-ms.locfileid: "55762458"
+ms.lasthandoff: 02/14/2019
+ms.locfileid: "56249427"
 ---
 # <a name="tutorial-embed-power-bi-content-into-an-application-for-your-organization"></a>教程：为组织将 Power BI 内容嵌入应用程序
 
@@ -57,7 +57,7 @@ ms.locfileid: "55762458"
 
 3. 在左侧导航窗格中，依次选择“所有服务”和“应用注册”。 然后选择“新应用程序注册”。
 
-    ![应用注册搜索](media/embed-sample-for-your-organization/embed-sample-for-your-organization-003.png)</br>
+    ![应用注册搜索](media/embed-sample-for-your-organization/embed-sample-for-your-organization-003.png)<br>
 
     ![新应用注册](media/embed-sample-for-your-organization/embed-sample-for-your-organization-004.png)
 
@@ -367,7 +367,7 @@ window.onload = function () {
     // client side click to embed a selected report.
     var el = document.getElementById("bEmbedReportAction");
     if (el.addEventListener) {
-        el.addEventListener("click", updateEmbedReporte, false);
+        el.addEventListener("click", updateEmbedReport, false);
     } else {
         el.attachEvent('onclick', updateEmbedReport);
     }

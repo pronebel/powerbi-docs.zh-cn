@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 10/15/2018
+ms.date: 02/14/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: f1ddcee1e39f8704eda7cc94cffb27c1a8b6b75f
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: c45900d98dfa25dd991ae0cee1f165a41964c51e
+ms.sourcegitcommit: 91ac6185f7026ddbaa925dc54057bb742b4fa411
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54290328"
+ms.lasthandoff: 02/16/2019
+ms.locfileid: "56324759"
 ---
 # <a name="use-the-sap-bw-connector-in-power-bi-desktop"></a>在 Power BI Desktop 中使用 SAP BW 连接器
 使用 Power BI Desktop 可以访问 SAP BusinessWarehouse (BW) 数据。
@@ -218,6 +218,29 @@ Implementation 2.0 支持以下选项：
    * BAPI_IOBJ_GETDETAIL
 
    要解决此问题，请验证用户是否有权访问各种 MDPROVIDER 模块以及 BAPI_IOBJ_GETDETAIL。 要进一步解决此问题或类似问题，请在 Power BI Desktop“选项”的“诊断”窗口中选择“启用跟踪”。 在跟踪处于活动状态时尝试从 SAP BW 检索数据，并检查跟踪文件以获取更多详细信息。
+
+## <a name="sap-bw-connection-support"></a>SAP BW 连接支持
+
+下表详细说明了当前对 SAP BW 的支持。
+
+
+
+|产品  |模型  |身份验证  |连接器  |SNC 库  |支持  |
+|---------|---------|---------|---------|---------|---------|
+|Power BI Desktop     |任何         | 用户/密钥  | 应用程序服务 | N/A  | 是  |
+|Power BI Desktop     |任何         | Windows          | 应用程序服务 | sapcrypto + gsskrb5/gx64krb5  | 是  |
+|Power BI Desktop     |任何         | 通过模拟的 Windows | 应用程序服务 | sapcrypto + gsskrb5/gx64krb5  | 是  |
+|Power BI Desktop     |任何         | 用户/密钥        | 消息服务器 | N/A  | 是  |
+|Power BI Desktop     |任何         | Windows        | 消息服务器 | sapcrypto + gsskrb5/gx64krb5  | 是  |
+|Power BI Desktop     |任何         | 通过模拟的 Windows | 消息服务器 | sapcrypto + gsskrb5/gx64krb5  | 是  |
+|Power BI Gateway     |导入      | 与 Power BI Desktop 相同 |         |   |   |
+|Power BI Gateway     |DirectQuery | 用户/密钥        | 应用程序服务 | N/A  | 是  |
+|Power BI Gateway     |DirectQuery | 通过模拟的 Windows（固定用户、无 SSO） | 应用程序服务 | sapcrypto + gsskrb5/gx64krb5  | 是  |
+|Power BI Gateway     |DirectQuery | 通过 Kerberos 使用 SSO 进行 DirectQuery 查询选项 | 应用程序服务 | 仅限 gsskrb5 / gx64krb5   | 是  |
+|Power BI Gateway     |DirectQuery | 用户/密钥        | 消息服务器 | N/A  | 是  |
+|Power BI Gateway     |DirectQuery | 通过模拟的 Windows（固定用户、无 SSO） | 消息服务器 | sapcrypto + gsskrb5/gx64krb5  | 是  |
+|Power BI Gateway     |DirectQuery | 通过 Kerberos 使用 SSO 进行 DirectQuery 查询选项 | 消息服务器 | sapcrypto + gsskrb5/gx64krb5  | 否  |
+
 
 
 ## <a name="next-steps"></a>后续步骤

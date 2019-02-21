@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 01/10/2019
+ms.date: 02/14/2019
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: 68d350035732d8335079bf76a859919d696e2721
-ms.sourcegitcommit: 80961ace38ff9dac6699f81fcee0f7d88a51edf4
+ms.openlocfilehash: 5e1bd67ba14ed35a97d91e5ed76f7a3bd8de56ea
+ms.sourcegitcommit: 91ac6185f7026ddbaa925dc54057bb742b4fa411
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/13/2019
-ms.locfileid: "56223665"
+ms.lasthandoff: 02/16/2019
+ms.locfileid: "56324799"
 ---
 # <a name="self-service-data-prep-in-power-bi-preview"></a>Power BI 中的自助服务数据准备（预览）
 
@@ -52,6 +52,9 @@ Power BI 引入数据流，以帮助组织统一来自不同来源的数据并�
 ## <a name="how-to-use-dataflows"></a>如何使用数据流
 
 前一部分介绍了可使用数据流在 Power BI 中快速创建强大分析的一些方法。 在本部分中，你将了解使用组织中的数据流创建见解的速度有多快，并快速了解 BI 专业人员如何创建自己的数据流以及如何为他们自己的组织自定义见解。
+
+> [!NOTE]
+> 必须拥有付费的 Power BI 帐户才能使用数据流，例如 Power BI Pro 或 Power BI Premium 帐户，但不会因使用数据流而单独收费。 
 
 ### <a name="extend-the-common-data-model-for-your-business-needs"></a>扩展通用数据模型以满足业务需求
 对于希望扩展通用数据模型 (CDM) 的组织，数据流可使商业智能专业人员自定义标准实体或创建新实体。 然后，可以将这种自定义数据模型的自助服务方法与数据流一起使用，以生成针对组织定制的应用和 Power BI 仪表板。

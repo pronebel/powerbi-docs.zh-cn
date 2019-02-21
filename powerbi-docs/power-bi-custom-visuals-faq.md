@@ -10,12 +10,12 @@ ms.subservice: powerbi-custom-visuals
 ms.topic: conceptual
 ms.custom: ''
 ms.date: 12/17/2018
-ms.openlocfilehash: 0418016fd7a194ff2e37e979219b97e94520f9ae
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 9b4ff995b1cfaede1608e976bf2715feece0ade6
+ms.sourcegitcommit: a2f274cfb392fe3b1b466a39ec7eaf58a7c5ce00
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54282094"
+ms.lasthandoff: 02/19/2019
+ms.locfileid: "56408129"
 ---
 # <a name="frequently-asked-questions-about-power-bi-custom-visuals"></a>有关 Power BI 自定义视觉对象的常见问题
 
@@ -98,6 +98,9 @@ IAP 自定义视觉对象取得认证后，视觉对象可以导出到 PowerPoin
 如果自定义视觉对象中有徽标，请确保它符合徽标规范（颜色、位置、大小和操作触发）。
 
 规范中还提供了最佳做法说明。  
+> [!Note]
+> 所有免费视觉效果应保留以前提供的相同免费功能。 可以在旧版免费功能基础上添加可选的高级付费功能。 我们建议将具有高级功能的 IAP 视觉效果作为新视觉效果提交，而不是更新旧版免费视觉效果。
+
 
 ### <a name="can-i-get-my-iap-custom-visual-certified"></a>我的 IAP 自定义视觉对象可获取认证吗？
 

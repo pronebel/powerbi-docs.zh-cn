@@ -1,3 +1,16 @@
+---
+author: mgblythe
+ms.service: powerbi
+ms.topic: include
+ms.date: 02/15/2019
+ms.author: mblythe
+ms.openlocfilehash: 44ef0aa9d436f3a8a02f9a6b831847d5c996558a
+ms.sourcegitcommit: 91ac6185f7026ddbaa925dc54057bb742b4fa411
+ms.translationtype: HT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 02/16/2019
+ms.locfileid: "56333862"
+---
 ## <a name="limitations"></a>限制
 
 以下是云模型上有关行级安全性的当前限制列表。
@@ -8,7 +21,7 @@
 
 * 仅支持 ETL 和 DirectQuery 连接。 在本地模型上处理到 Analysis Services 的实时连接。
 
-* 问答和 Cortana 此时不受 RLS 的支持。 如果对所有模型配置了 RLS，你将无法看到仪表板的问与答输入框。 这还在规划之中，但具体日程尚不可知。
+* Cortana 目前不受 RLS 的支持。
 
 ## <a name="known-issues"></a>已知问题
 

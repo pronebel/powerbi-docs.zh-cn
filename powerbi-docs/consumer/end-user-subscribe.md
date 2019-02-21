@@ -8,14 +8,14 @@ featuredvideoid: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 02/05/2019
+ms.date: 12/14/2019
 LocalizationGroup: Common tasks
-ms.openlocfilehash: df167f8693708c08bc44e935cff184917d8aaf54
-ms.sourcegitcommit: 54d44deb6e03e518ad6378656c769b06f2a0b6dc
+ms.openlocfilehash: 26ba6d0ea23451863d05b13a79e57d483b15881f
+ms.sourcegitcommit: f07520591db6c3f27ab6490612cc56384abc6633
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/07/2019
-ms.locfileid: "55794323"
+ms.lasthandoff: 02/15/2019
+ms.locfileid: "56298836"
 ---
 # <a name="subscribe-to-a-report-or-dashboard-in-power-bi-service"></a>在 Power BI 服务中订阅报表和仪表板 
 现在，及时更新最重要的仪表板和报表，比以前更加轻松。 订阅最重要的报表页和仪表板，Power BI 将会通过电子邮件将快照发送到收件箱。 告知 Power BI 所需的电子邮件接收频率：每天、每周或是在数据刷新时。 甚至可以为 Power BI 发送电子邮件设置特定时间或立即运行此操作。  
@@ -73,6 +73,7 @@ ms.locfileid: "55794323"
 如果 Pro 许可证到期、所有者删除仪表板或报表，或用于创建订阅的用户帐户被删除，那么订阅将结束。
 
 ## <a name="considerations-and-troubleshooting"></a>注意事项和疑难解答
+* 具有超过 25 个固定磁贴或四个固定活动报表页面的仪表板可能无法完全呈现在发送给用户的订阅电子邮件中。 我们建议将固定磁贴减少到 25 个以下，并将固定活动报表固定为少于 4 个，以确保电子邮件正确呈现。  
 * 对于仪表板电子邮件说明，如果任何磁贴应用了行级别安全性 (RLS)，则不会显示这些磁贴。  对于报表电子邮件说明，如果数据集使用 RLS，则无法创建订阅。
 * 报表页订阅与报表页面的名称是相关联的。 如果你订阅一个报表页，而后将其重命名，则必须重新创建订阅
 * 如果无法使用订阅功能，请与系统管理员联系。 组织可能出于身份验证或其他原因禁用了此功能。  

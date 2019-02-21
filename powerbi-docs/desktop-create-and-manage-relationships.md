@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 11/28/2018
 ms.author: davidi
 LocalizationGroup: Model your data
-ms.openlocfilehash: f8b9f775b43f2c1b26b7ef56c5bb0985fc3f7ca2
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: d4f1936f02edf4ece60b4761d4e541801384a5d2
+ms.sourcegitcommit: 8207c9269363f0945d8d0332b81f1e78dc2414b0
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54292016"
+ms.lasthandoff: 02/14/2019
+ms.locfileid: "56249335"
 ---
 # <a name="create-and-manage-relationships-in-power-bi-desktop"></a>在 Power BI Desktop 中创建和管理关系
 导入多个表时，你很可能要使用所有这些表中的数据来执行一些分析。 为准确计算结果并在报表中显示正确信息，这些表格之间的关系是必需的。 Power BI Desktop 可轻松创建这些关系。 事实上，在大多数情况下你无需执行任何操作，自动检测功能将替你执行。 但在某些情况下，你可能需要自行创建关系，或者可能需要对关系进行一些更改。 无论哪种方法，都有必要了解 Power BI Desktop 中的关系及其创建和编辑方式。
@@ -58,6 +58,8 @@ ms.locfileid: "54292016"
 **多对一 (\*:1)** - 这是最常见的默认类型。 这意味着一个表中的列可具有一个值的多个实例，而另一个相关表（常称为查找表）仅具有一个值的一个实例。
 
 **一对一 (1:1)** -这意味着一个表中的列仅具有特定值的一个实例，而另一个相关表也是如此。
+
+**多对多关系**：借助复合模型，可以在表之间建立多对多关系。 这种方法删除了对表中唯一值的要求。 它还删除了旧解决办法，如为建立关系而仅引入新表。 有关详细信息，请参阅[具有多对多基数的关系](https://docs.microsoft.com/power-bi/desktop-many-to-many-relationships)。 
 
 有关何时更改基数的更多详细信息，请参阅本文后面的“了解其他选项”部分。
 

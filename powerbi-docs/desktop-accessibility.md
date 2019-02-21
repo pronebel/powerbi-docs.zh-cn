@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 01/11/2019
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: d0c6222c4b10307985ad039c3b391c8648614979
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 18872e65154f70e882c4f6f60c04420b17038d32
+ms.sourcegitcommit: 8207c9269363f0945d8d0332b81f1e78dc2414b0
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54280047"
+ms.lasthandoff: 02/14/2019
+ms.locfileid: "56249105"
 ---
 # <a name="accessibility-in-power-bi-desktop-reports"></a>Power BI Desktop 报表中的辅助功能
 Power BI 具有使残疾人士能够更轻松地使用 Power BI 报表并与之进行交互的功能。 这些功能包括通过键盘或屏幕阅读器使用报表、通过按 Tab 键将焦点移动到页面中的各个对象以及在可视化效果中方便地使用标记。
@@ -141,6 +141,11 @@ Power BI 服务还尝试检测 Windows 选择的高对比度设置，但该检�
 ### <a name="pane-navigation"></a>窗格导航
 | 如何执行此操作           | 操作方法                |
 | :------------------- | :------------------- |
+| 多选 | Ctrl + 空格键 |
+| 折叠单个表 | 左箭头键 |
+| 展开单个表 | 右箭头键 |
+| 折叠所有表 | Alt + Shift + 1 |
+| 展开所有表 | Alt + Shift + 9 |
 | 打开上下文菜单 | <ul><li>Windows 键盘：Windows 上下文键 + F10。  Windows 上下文键位于左 Alt 键和向左键之间</li><li>其他键盘：Shift + F10</li></ul> |
 
 ### <a name="slicer"></a>切片器

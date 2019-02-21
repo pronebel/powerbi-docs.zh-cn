@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 11/01/2018
+ms.date: 02/14/2019
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 509eebfdf2d96a2cc77d5c9413c664a10309ab9c
-ms.sourcegitcommit: 5e83fa6c93a0bc6599f76cc070fb0e5c1fce0082
+ms.openlocfilehash: fda2732ff33c324377a73ceb93480fbbcdd404bd
+ms.sourcegitcommit: 91ac6185f7026ddbaa925dc54057bb742b4fa411
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/13/2019
-ms.locfileid: "56216403"
+ms.lasthandoff: 02/16/2019
+ms.locfileid: "56325031"
 ---
 # <a name="use-bookmarks-to-share-insights-and-build-stories-in-power-bi"></a>在 Power BI 中使用书签共享见解和创建情景 
 使用 Power BI 中的“书签”，可以帮助捕获当前配置的报表页视图（包括视觉对象的筛选器和状态），然后只需选择保存的书签即可恢复相应状态。 
@@ -61,7 +61,7 @@ ms.locfileid: "56216403"
 
 添加书签后，只需单击“书签”窗格中的书签，即可显示它。 
 
-还可以选择是否每个书签都将应用“数据”属性（如筛选器和切片器）、“显示”属性（如聚焦及其可见性），以及页面更改，显示添加书签时可见的页面。 使用书签在视觉对象类型之间切换时，这些功能非常有用，在这种情况下，你可能希望关闭数据属性，因此当用户更改视觉对象类型时，筛选器不会重置。 
+还可以选择是否每个书签都将应用“数据”属性（如筛选器和切片器）、“显示”属性（如聚焦及其可见性），以及页面更改，显示添加书签时可见的页面。 使用书签在报表视图或视觉对象选择之间切换时，这些功能非常有用，在这种情况下，你可能希望关闭数据属性，因此当用户通过选择书签切换视图时，不会重置筛选器。 
 
 要做出此类更改，请选择书签名称旁的省略号，如上图所示，然后勾选或取消选中“数据”、“显示”及其他控件旁边的复选标记。 
 

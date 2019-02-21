@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 12/06/2017
 ms.author: mblythe
 LocalizationGroup: Gateways
-ms.openlocfilehash: ef4f9de49619a26e17fbdf2b0df47bc56ba23f4d
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 18458820f98bcea32eb5288389d57808646d462c
+ms.sourcegitcommit: 91ac6185f7026ddbaa925dc54057bb742b4fa411
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54279311"
+ms.lasthandoff: 02/16/2019
+ms.locfileid: "56325005"
 ---
 # <a name="on-premises-data-gateway-in-depth"></a>深入了解本地数据网关
 组织中的用户可以访问本地数据（他们已经具有该数据的访问授权），但在这些用户可以连接到本地数据源之前，需要安装和配置本地数据网关。 该网关便于云中的用户与你的本地数据源相互进行快速安全的后台通信，然后返回到云。
@@ -90,7 +90,7 @@ Power BI 允许映射 Analysis Services 数据源的用户名。 你可以配置
 > 
 
 ## <a name="now-this-is-where-the-gateway-comes-in"></a>现在，这就网关起作用的地方
-网关充当云和本地服务器之间的桥梁。 [Azure 服务总线](/azure/service-bus-messaging/service-bus-messaging-overview)可保护云和网关之间的数据传输。 服务总线通过网关上的出站连接在云和本地服务器之间创建一条安全通道。  你不需要在本地防火墙上打开任何入站连接。
+网关充当云和本地服务器之间的桥梁。 [Azure 服务总线](/azure/service-bus-messaging/service-bus-messaging-overview)可保护云和网关之间的数据传输。 服务总线通过网关上的出站连接在云和本地服务器之间创建一条安全通道。  你不需要在本地防火墙上打开任何入站连接。 Power BI 为你管理服务总线，因此无需额外成本或配置步骤。
 
 如果有 Analysis Services 数据源，你需要在加入到与 Analysis Services 服务器位于同一个林/域的计算机上安装网关。
 
