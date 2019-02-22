@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: conceptual
 ms.date: 11/26/2018
-ms.openlocfilehash: 097095cda1e0ffea4f43059351f22638c502e8b4
-ms.sourcegitcommit: a2f274cfb392fe3b1b466a39ec7eaf58a7c5ce00
+ms.openlocfilehash: 4cbd17a08a8cb7c7253f60f29a19341598c9800f
+ms.sourcegitcommit: 654fae0af739bd599e029d692f142faeba0a502f
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/19/2019
-ms.locfileid: "56408060"
+ms.lasthandoff: 02/20/2019
+ms.locfileid: "56426530"
 ---
 # <a name="guidelines-for-power-bi-visuals-with-additional-purchases"></a>额外购买的 Power BI 视觉对象指南
 
@@ -33,7 +33,10 @@ ms.locfileid: "56408060"
 
 ## <a name="what-is-a-power-bi-visual-with-iap-features"></a>什么是具有 IAP 功能的 Power BI 视觉对象？
 
-IAP 视觉对象是免费的视觉对象，提供免费功能，但也有额外的功能，要使用额外功能可能需要额外付费。 开发人员必须在视觉对象描述中告知用户哪些功能需要额外付费。 目前，Microsoft 不支持在应用程序和加载项中购买本机应用程序编程接口 (API)。开发人员可使用各种第三方支付系统进行购买。 请参阅我们的应用商店[政策](https://docs.microsoft.com/office/dev/store/validation-policies#2-apps-or-add-ins-can-display-certain-ads)。
+IAP 视觉对象是免费的视觉对象，提供免费功能，但也有额外的高级功能，要使用额外功能可能需要额外付费。 开发人员必须在视觉对象描述中告知用户哪些功能需要额外付费。 目前，Microsoft 不支持在应用程序和加载项中购买本机应用程序编程接口 (API)。开发人员可使用各种第三方支付系统进行购买。 请参阅我们的应用商店[政策](https://docs.microsoft.com/office/dev/store/validation-policies#2-apps-or-add-ins-can-display-certain-ads)。
+
+> [!NOTE]
+> 不允许在免费功能上设置水印。 如果在没有有效许可证的情况下使用高级付费功能，开发人员可能会显示一个弹出窗口或水印。  
 
 ## <a name="logo-guidelines"></a>徽标指南
 

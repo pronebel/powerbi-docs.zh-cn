@@ -3,19 +3,19 @@ title: 关键影响因素可视化效果教程
 description: 教程 - 在 Power BI 中创建关键影响因素可视化效果
 author: mihart
 manager: kvivek
-ms.reviewer: justyna
+ms.reviewer: juluczni
 ms.service: powerbi
 ms.component: powerbi-visuals
 ms.topic: tutorial
-ms.date: 02/10/2019
+ms.date: 02/12/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: d7ad1cc4ffb339aeb1a64cd28274fde4f8ef6af6
-ms.sourcegitcommit: 91ac6185f7026ddbaa925dc54057bb742b4fa411
+ms.openlocfilehash: c937104d570409023373a5ccbcf94e1b66e6aaab
+ms.sourcegitcommit: 654fae0af739bd599e029d692f142faeba0a502f
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/16/2019
-ms.locfileid: "56325142"
+ms.lasthandoff: 02/20/2019
+ms.locfileid: "56426783"
 ---
 # <a name="key-influencers-visualization"></a>关键影响因素可视化效果
 关键影响因素视觉对象有助于理解驱动你所关注指标的因素。 它可分析数据，对重要因素进行排序，并将其显示为“关键影响因素”。 例如，你想了解影响员工流动（流失）的因素。 一大因素可能是就业合同时限，另一大因素可能是员工年龄。 
@@ -46,7 +46,7 @@ ms.locfileid: "56325142"
 
 6. ***右窗格*** - 右窗格包含一个视觉对象。 在此情况下，列图显示左窗格中已选中“关键影响因素，主题”的所有值。 左窗格中的特定值（“可用性”）为绿色，而“主题”的所有其他值为黑色。
 
-7. ***平均线*** - 除可用性以外，已计算“主题”的所有其他可能值的平均值。 因此该计算适用于所有黑色的值。 这可告知其他“主题”给我们低评级的可能性。 换言之，客户给出评级时，该客户还会说明该评级的原因或“主题”。 某些主题是可用性、速度、安全性等。根据左窗格中的视觉对象，“主题”为“可用性”是导致低评级的第二大关键因素。 如果对所有其他主题以及对其导致低评级的影响程度进行平均，我们就会得到此处以红色显示的结果。 
+7. ***平均线*** - 除可用性以外，已计算“主题”的所有其他可能值的平均值。 因此该计算适用于所有黑色的值。 这可告知其他“主题”给我们低评级的可能性。 换言之，客户给出评级时，该客户还会说明该评级的原因或“主题”。 某些主题是可用性、速度、安全性等。根据左窗格中的视觉对象，“主题”为“可用性”是导致低评级的第二大关键因素。 如果对所有其他主题以及对其导致低评级的影响程度进行平均，我们就会得到此处以红色显示的结果。 对于给定的所有其他主题，只有 11.35% 的主题高于可用性。 
 
 8. ***复选框*** - 仅显示是影响因素的值。
 
@@ -217,7 +217,7 @@ ms.locfileid: "56325142"
 
 ![错误 - 已解决](media/power-bi-visualization-influencers/power-bi-error3-solution.png)
 
-**出现了警告：度量值未包含在分析中。这是为什么？** [2052261] 
+**出现了警告：度量值未包含在分析中。这是为什么？** 
 
 ![错误 - 未包含度量值](media/power-bi-visualization-influencers/power-bi-measures-not-included.png)
 

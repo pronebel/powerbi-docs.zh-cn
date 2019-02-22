@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 01/29/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: ee0063d5266c663079a9801777ee2c900957c52f
-ms.sourcegitcommit: 2954de034f5e1be655dd02cc756ff34f126d3034
+ms.openlocfilehash: e77f4d6fe1963b3f229ef7f477fb86b7c5c26713
+ms.sourcegitcommit: 654fae0af739bd599e029d692f142faeba0a502f
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/30/2019
-ms.locfileid: "55234292"
+ms.lasthandoff: 02/20/2019
+ms.locfileid: "56426668"
 ---
 # <a name="visualization-types-in-power-bi"></a>Power BI 中的可视化效果类型
 ## <a name="power-bi-visualizations"></a>Power BI 可视化效果
@@ -82,10 +82,12 @@ ms.locfileid: "55234292"
 
 有关详细信息，请参阅 [Power BI 中的仪表图](power-bi-visualization-radial-gauge-charts.md)。
 
-<!-- ### Key influencers chart
-![key influencer](../visuals/media/power-bi-visualization-types-for-reports-and-q-and-a/power-bi-influencers2.png)
+### <a name="key-influencers-chart"></a>关键影响因素图表
+![关键影响因素](/visuals/media/power-bi-visualization-types-for-reports-and-q-and-a/power-bi-influencers.png)
 
-A key influencer chart displays the major contributors to a selected result or value. -->
+关键影响因素图表显示所选结果或值主要参与者。
+
+有关详细信息，请参阅 [Power BI 中的关键影响因素图表](power-bi-visualization-influencers.md)
 
 ### <a name="kpis"></a>KPI
 ![](media/power-bi-visualization-types-for-reports-and-q-and-a/power-bi-kpi.png)

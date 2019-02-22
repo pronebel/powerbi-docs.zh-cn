@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 11/07/2018
+ms.date: 02/19/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 48e1ddbc498e234c43bf755d3a23a2e10e4cc856
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 1e997f5ac7e916f10c98756f142b9f563adea05a
+ms.sourcegitcommit: 654fae0af739bd599e029d692f142faeba0a502f
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54290193"
+ms.lasthandoff: 02/20/2019
+ms.locfileid: "56426599"
 ---
 # <a name="creating-r-visuals-in-the-power-bi-service"></a>在 Power BI 服务中创建 R 视觉对象
 Power BI 服务支持查看使用 R 脚本创建的视觉对象并与之交互。 使用 R 脚本创建的视觉对象通常称为  *R 视觉对象* ，它可以借助 R 丰富的分析和可视化功能来显示高级数据成型和分析（如预测）。
@@ -33,7 +33,7 @@ R 视觉对象在 [Power BI Desktop 报表](../desktop-get-the-desktop.md)中创
 
 ![](media/service-r-visuals/r-visuals-service_2a.png)
 
-在 **Power BI Desktop** 中生成报表后，便可将包含一个或多个 R 视觉对象的报表发布到 Power BI 服务。 R 视觉对象暂时只能在 **Power BI Desktop** 中创建，然后发布到 Power BI 服务。 有关创建 R 视觉对象的详细信息，请参阅[使用 R (Power BI Desktop) 创建 Power BI 视觉对象](../desktop-r-visuals.md)。
+在 **Power BI Desktop** 中生成报表后，便可将包含一个或多个 R 视觉对象的报表发布到 Power BI 服务。 R 视觉对象暂时只能在 Power BI Desktop 中创建，然后发布到 Power BI 服务。 有关创建 R 视觉对象的详细信息，请参阅[使用 R (Power BI Desktop) 创建 Power BI 视觉对象](../desktop-r-visuals.md)。
 
 请注意，该服务并不支持所有 R 程序包。 有关 Power BI 服务当前支持的程序包的列表，请参阅本文末尾的“支持的程序包”。
 
@@ -66,11 +66,19 @@ Power BI 服务应用了 *沙盒* 技术，可使用户和服务远离安全风�
 ## <a name="licensing"></a>许可
 R 视觉对象需要 [Power BI Pro](../service-self-service-signup-for-power-bi.md) 许可证，才能在报表中呈现、刷新、筛选和交叉筛选。 有关 Power BI Pro 许可证及其与免费许可证的区别的详细信息，请参阅 [Power BI Pro 内容 — 它是什么？](../service-premium.md)
 
-Power BI 的免费用户只能使用共享给他们的磁贴。 有关详细信息，请参阅[购买 Power BI Pro](../service-admin-purchasing-power-bi-pro.md)。
+Power BI 的免费用户只能使用在 Premium 工作区中与其共享的磁贴。 有关详细信息，请参阅[购买 Power BI Pro](../service-admin-purchasing-power-bi-pro.md)。
 
 下表介绍了基于授权的 R 视觉对象功能。
 
-![](media/service-r-visuals/r-visuals-service_6a.png)
+
+|  |在 Power BI Desktop 中创作 R 视觉对象  | 使用 R 视觉对象创建 PBI 服务报表 |查看报表中的 R 视觉对象  | 查看仪表板中的 R 磁贴 |
+|---------|---------|---------|---------|--------|
+|**来宾** (Power BI Embedded)     |  不相关|  不相关       | 不支持  | 不相关 |
+|**非托管租户**（域未验证） | 支持 | 不支持 |  不支持 |支持（B2B 方案） |
+|具有免费许可证的托管租户    |  支持       |  不支持       |    仅高级容量中受支持    | 支持 |
+具有 Pro 许可证的托管租户     |   支持      | 支持      | 支持    |支持|
+
+
 
 ## <a name="known-limitations"></a>已知限制
 Power BI 服务中的 R 视觉对象有几个限制：

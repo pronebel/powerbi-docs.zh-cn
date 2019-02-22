@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 01/30/2019
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: 7446cb9db0f4ebbb20e316365263fa6f09de71bb
-ms.sourcegitcommit: a36f82224e68fdd3489944c9c3c03a93e4068cc5
+ms.openlocfilehash: a5f3f5003eb1d22b0667698691471150f04553d8
+ms.sourcegitcommit: 654fae0af739bd599e029d692f142faeba0a502f
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/31/2019
-ms.locfileid: "55448212"
+ms.lasthandoff: 02/20/2019
+ms.locfileid: "56426553"
 ---
 # <a name="power-bi-high-availability-failover-and-disaster-recovery-faq"></a>Power BI 高可用性、故障转移和灾难恢复常见问题解答
 
@@ -29,7 +29,7 @@ Power BI 是完全托管的软件即服务 (SaaS)。  Microsoft 对它进行设�
 
 Power BI 维护 Azure 数据中心（也称为区域）中每个组件的多个实例，以保证业务连续性。 如果发生中断或导致 Power BI 在区域中无法访问或不可操作的问题，则 Power BI 会使该区域中的所有组件都故障转移到备份实例。 故障转移会将可用性和可操作性还原到新区域中的 Power BI 服务实例（通常在同一地理位置，记录在 [Microsoft 信任中心](https://www.microsoft.com/TrustCenter/CloudServices/business-application-platform/data-location)中）。
 
-进行了故障转移的 Power BI 服务实例仅支持读取操作，这意味着以下操作在故障转移期间不受支持：刷新、报表发布操作、仪表板或报表修改以及其他需要对 Power BI 元数据进行更改的操作（例如在报表中插入注释）。  显示仪表板和显示报表（不基于 Live Connect 到本地数据源上的直接查询）等读取操作仍然可以正常运行。
+进行了故障转移的 Power BI 服务实例仅支持读取操作，这意味着以下操作在故障转移期间不受支持：刷新、报表发布操作、仪表板或报表修改以及其他需要对 Power BI 元数据进行更改的操作（例如在报表中插入注释）。  显示仪表板和显示报表（不基于 Live Connect 到本地数据源上的 DirectQuery）等读取操作仍然可以正常运行。
 
 ## <a name="how-are-backup-instances-kept-in-sync-with-my-data"></a>备份实例如何与我的数据保持同步？
 

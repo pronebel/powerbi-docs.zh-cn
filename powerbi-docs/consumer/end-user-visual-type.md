@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 01/24/2019
+ms.date: 02/12/2019
 ms.author: mihart
 LocalizationGroup: Consumer
-ms.openlocfilehash: 35d5a6f9911afea7b91b37299225c191cd4d7ac9
-ms.sourcegitcommit: 54d44deb6e03e518ad6378656c769b06f2a0b6dc
+ms.openlocfilehash: 0118c9b7bb1d00daf1b6baeb7638916b49d8af49
+ms.sourcegitcommit: 654fae0af739bd599e029d692f142faeba0a502f
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/07/2019
-ms.locfileid: "55794849"
+ms.lasthandoff: 02/20/2019
+ms.locfileid: "56426760"
 ---
 # <a name="visualization-types-in-power-bi"></a>Power BI 中的可视化效果类型
 你会在报表、仪表板、应用和问答中找到可视化效果。 其中某些可视化效果类型与 Power BI 打包在一起，另有一些是自定义视觉对象。 自定义视觉对象在 Power BI 外部创建，其创建方式使报表设计器可以将它们添加到 Power BI 报表、仪表板和应用。 
@@ -98,10 +98,12 @@ ms.locfileid: "55794849"
 - 显示单个指标的健康状况
 - 显示可以快速扫描和理解的信息
 
-<!-- ### Key influencers chart
-![key influencer](../visuals/media/power-bi-visualization-types-for-reports-and-q-and-a/power-bi-influencers2.png)
+ ### <a name="key-influencers-chart"></a>关键影响因素图表
+![关键影响因素](../visuals/media/power-bi-visualization-types-for-reports-and-q-and-a/power-bi-influencer.png)
 
-A key influencer chart displays the major contributors to a selected result or value.  -->
+关键影响因素图表显示所选结果或值主要参与者。
+
+关键影响因素是一个不错的选择，有助于你了解影响关键指标的因素。 例如，是什么影响客户再次下订单或去年 6 月份为什么有那么高的销售额。 
 
 ### <a name="kpis"></a>KPI
 ![kpi](../visuals/media/power-bi-visualization-types-for-reports-and-q-and-a/power-bi-kpi.png)

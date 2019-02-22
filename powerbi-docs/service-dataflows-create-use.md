@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 12/06/2018
+ms.date: 02/19/2019
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: bb550bb2a009c5f227541db41a9bc45fc708d1e1
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: b2b928ea308f546c7cf023c6ef187aa7c516987c
+ms.sourcegitcommit: 654fae0af739bd599e029d692f142faeba0a502f
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54279035"
+ms.lasthandoff: 02/20/2019
+ms.locfileid: "56426622"
 ---
 # <a name="creating-and-using-dataflows-in-power-bi-preview"></a>在 Power BI 中创建和使用数据流（预览）
 
@@ -155,6 +155,10 @@ Power BI 数据流使用 Power BI 数据刷新过程使数据保持最新状态�
 * Salesforce 连接器 - 将 Salesforce 试用帐户用于数据流导致连接失败，且未提供任何信息。 若要解决此问题，请使用 Salesforce 生产帐户或开发人员帐户进行测试。
 
 * SharePoint 连接器 - 确保提供了 SharePoint 站点的根地址，不包含任何子文件夹或文档。 例如，使用类似于以下内容的链接： https://microsoft.sharepoint.com/teams/ObjectModel/。 
+
+* **JSON 文件连接器** - 当前你只可使用基本身份验证连接到 JSON 文件。  当前不支持通过在 URL 中提供凭据来连接到 JSON 文件（例如， https://XXXXX.blob.core.windows.net/path/file.json?sv=2019-01-01&si=something&sr=c&sig=123456abcdefg..。）。  
+
+* **Azure SQL 数据仓库** - 数据流目前不支持对 Azure SQL 数据仓库使用 Azure Active Directory (AAD) 身份验证。 对于此情况请使用基本身份验证。
 
 ## <a name="next-steps"></a>后续步骤
 

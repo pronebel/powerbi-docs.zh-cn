@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 01/10/2019
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: 8cc1201c506e98ae33b68ef0cf802dae20b6f493
-ms.sourcegitcommit: 5e83fa6c93a0bc6599f76cc070fb0e5c1fce0082
+ms.openlocfilehash: dc22c075c479510810b4a914fd999e38118e12e5
+ms.sourcegitcommit: 654fae0af739bd599e029d692f142faeba0a502f
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/13/2019
-ms.locfileid: "56216507"
+ms.lasthandoff: 02/20/2019
+ms.locfileid: "56426714"
 ---
 # <a name="connect-azure-data-lake-storage-gen2-for-dataflow-storage-preview"></a>连接 Azure Data Lake Storage Gen2 以存储数据流（预览）
 
@@ -70,6 +70,8 @@ ms.locfileid: "56216507"
 在“添加角色分配”窗口中，选择要分配给 Power BI 服务的读取者角色。 然后使用搜索来查找 Power BI 服务。 下图显示了分配给 Power BI 服务的读取者角色。
 
 ![已分配读取者角色的 Power BI 服务](media/service-dataflows-connect-azure-data-lake-storage-gen2/dataflows-connect-adlsg2_05.jpg)
+
+注意:请至少留出 30 分钟的时间供权限从门户传播到 Power BI。 每当在门户中更改权限时，应提供 30 分钟时间以便在 Power BI 中重试反映相同的更改。 
 
 
 ### <a name="create-a-file-system-for-power-bi"></a>为 Power BI 创建文件系统
