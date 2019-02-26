@@ -5,17 +5,17 @@ author: mihart
 manager: kvivek
 ms.reviewer: ''
 ms.service: powerbi
-ms.subservice: powerbi-service
+ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 02/12/2019
+ms.date: 02/21/2019
 ms.author: mihart
 LocalizationGroup: Consumer
-ms.openlocfilehash: 0118c9b7bb1d00daf1b6baeb7638916b49d8af49
-ms.sourcegitcommit: 654fae0af739bd599e029d692f142faeba0a502f
+ms.openlocfilehash: ea86970565717d5dae8db865a65765f2c8245bad
+ms.sourcegitcommit: a054782370dec56d49bb205ee10b7e2018f22693
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/20/2019
-ms.locfileid: "56426760"
+ms.lasthandoff: 02/22/2019
+ms.locfileid: "56662379"
 ---
 # <a name="visualization-types-in-power-bi"></a>Power BI 中的可视化效果类型
 你会在报表、仪表板、应用和问答中找到可视化效果。 其中某些可视化效果类型与 Power BI 打包在一起，另有一些是自定义视觉对象。 自定义视觉对象在 Power BI 外部创建，其创建方式使报表设计器可以将它们添加到 Power BI 报表、仪表板和应用。 

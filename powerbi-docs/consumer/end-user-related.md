@@ -7,17 +7,17 @@ ms.reviewer: ''
 featuredvideoid: B2vd4MQrz4M
 ms.custom: seodec18
 ms.service: powerbi
-ms.subservice: powerbi-service
+ms.subservice: powerbi-consumer
 ms.topic: conceptual
 ms.date: 12/09/2018
 ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: e3b7731dec23c6fda49d31716d6e450231ab4bc5
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: abf6052d7cb912f9a8ff33f064b5dc1d44f5ba3e
+ms.sourcegitcommit: a054782370dec56d49bb205ee10b7e2018f22693
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54276597"
+ms.lasthandoff: 02/22/2019
+ms.locfileid: "56662081"
 ---
 # <a name="view-related-content-in-power-bi-service"></a>查看 Power BI 服务中的相关内容
 “相关内容”窗格显示了 Power BI 服务内容（仪表板、报表和数据集）的互连方式。 此外，“相关内容”窗格还是执行某个操作的启动面板。 可从此处刷新、重命名、生成见解等。 选择相关的报表或仪表板即可在 Power BI 工作区中打开。   

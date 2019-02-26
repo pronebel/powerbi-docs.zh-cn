@@ -5,17 +5,17 @@ author: mihart
 manager: kvivek
 ms.service: powerbi
 ms.custom: ''
-ms.subservice: powerbi-service
+ms.subservice: powerbi-consumer
 ms.topic: overview
 ms.date: 02/08/2019
 ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: 5ab305777306d8ee12edf2756404efeffa52e44b
-ms.sourcegitcommit: 88ac51106ec7d0ead8c2a1550a11afae0d502bb9
+ms.openlocfilehash: 4b4bc6398466b4c603126efed5b6591c9c3ad6c0
+ms.sourcegitcommit: a054782370dec56d49bb205ee10b7e2018f22693
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/12/2019
-ms.locfileid: "56086646"
+ms.lasthandoff: 02/22/2019
+ms.locfileid: "56662011"
 ---
 # <a name="your-content-is-up-to-date"></a>内容为最新内容
 作为使用者，你可以与设计人员创建并与你共享的内容进行交互。 你可能想知道该内容是否为最新内容，或者只是想了解该内容上次刷新的时间。 了解到自己使用的是最新内容可让人充满信心。  

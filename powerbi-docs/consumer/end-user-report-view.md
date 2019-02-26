@@ -6,17 +6,17 @@ manager: kvivek
 ms.reviewer: ''
 ms.custom: seodec18
 ms.service: powerbi
-ms.subservice: powerbi-service
+ms.subservice: powerbi-consumer
 ms.topic: conceptual
 ms.date: 12/06/2018
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: 075751a95512a7d06e22eb104aacf056978a93ea
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: d3f526b79f6029943743e66b13745a9d037fe9b9
+ms.sourcegitcommit: a054782370dec56d49bb205ee10b7e2018f22693
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54275769"
+ms.lasthandoff: 02/22/2019
+ms.locfileid: "56661505"
 ---
 # <a name="change-the-size-of-a-report-page"></a>更改报表页的大小
 在[上一篇文章和视频](../power-bi-report-display-settings.md)中，你学习了在 Power BI 报表中控制页面显示的两种方法：“视图”和“页面大小”。 Power BI 服务和 Power BI Desktop 中都有页面“视图”和“页面大小”，而且外观和功能几乎完全相同。尽管如此，本教程将使用 Power BI 服务。

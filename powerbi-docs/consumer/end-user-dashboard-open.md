@@ -6,17 +6,17 @@ manager: kvivek
 ms.custom: seodec18
 ms.reviewer: ''
 ms.service: powerbi
-ms.subservice: powerbi-service
+ms.subservice: powerbi-consumer
 ms.topic: conceptual
 ms.date: 12/06/2018
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: a4dff6ca2020a349c3f06e5c828e186b3e11bdb6
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 62172546e38069253ccc01626dc2101b7e2e4799
+ms.sourcegitcommit: a054782370dec56d49bb205ee10b7e2018f22693
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54288695"
+ms.lasthandoff: 02/22/2019
+ms.locfileid: "56663060"
 ---
 # <a name="view-a-dashboard"></a>查看仪表板
 Power BI 使用者需要花费大量时间查看仪表板。 仪表板旨在突出显示基础报表和数据集中的特定信息。 Power BI 使用者利用这些信息进行跟踪、监视、解答问题、测试等，并制定数据驱动型业务决策。

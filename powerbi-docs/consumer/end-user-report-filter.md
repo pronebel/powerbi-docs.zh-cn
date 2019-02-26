@@ -6,17 +6,17 @@ manager: kvivek
 ms.reviewer: ''
 ms.custom: seodec18
 ms.service: powerbi
-ms.subservice: powerbi-service
+ms.subservice: powerbi-consumer
 ms.topic: conceptual
 ms.date: 12/06/2018
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: 161f699014fcc342ba238cad38d28103f9a63991
-ms.sourcegitcommit: f07520591db6c3f27ab6490612cc56384abc6633
+ms.openlocfilehash: 2303f5b357008de141f084eb0394701420a24dbe
+ms.sourcegitcommit: a054782370dec56d49bb205ee10b7e2018f22693
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2019
-ms.locfileid: "56298928"
+ms.lasthandoff: 02/22/2019
+ms.locfileid: "56661482"
 ---
 # <a name="take-a-tour-of-the-report-filters-pane"></a>浏览报表“筛选器”窗格
 本文将介绍 Power BI 服务中的报表“筛选器”窗格。

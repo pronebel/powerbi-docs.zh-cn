@@ -2,22 +2,23 @@
 title: Power BI 中 DirectQuery 支持的数据源
 description: 获取数据源可以使用 DirectQuery 的列表。
 author: davidiseminger
+ms.author: davidi
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 11/01/2018
-ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: ecb1ba1cf10395a7c193d16281eece80868a52e7
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 84e40e9fbce07716a2250a58bfcbd396a40d2842
+ms.sourcegitcommit: 796bf513bf8669676e2a44627b56221b1629a6a8
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54285544"
+ms.lasthandoff: 02/26/2019
+ms.locfileid: "56826551"
 ---
 # <a name="data-sources-supported-by-directquery-in-power-bi"></a>Power BI 中 DirectQuery 支持的数据源
+
 Power BI Desktop 和 Power BI 服务有多个可以连接并访问数据的数据源。 本文介绍了支持称为 DirectQuery 的连接方法的 Power BI 数据源。 有关 DirectQuery 的详细信息，请参阅 [Power BI 中的 DirectQuery](desktop-directquery-about.md)。
 
 在 Power BI 中，以下数据源支持 DirectQuery：

@@ -6,16 +6,16 @@ manager: kvivek
 ms.reviewer: ''
 ms.custom: seodec18
 ms.service: powerbi
-ms.subservice: powerbi-service
+ms.subservice: powerbi-consumer
 ms.topic: conceptual
 ms.date: 12/06/2018
 ms.author: mihart
-ms.openlocfilehash: 004396150f0301dadee32bd08ac64ce5ae36fb17
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: c094aa3f89e7b4f978f7b20f046eb42a897dabd6
+ms.sourcegitcommit: a054782370dec56d49bb205ee10b7e2018f22693
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54296584"
+ms.lasthandoff: 02/22/2019
+ms.locfileid: "56661376"
 ---
 # <a name="view-a-report-in-power-bi-service-for-consumers"></a>在面向使用者的 Power BI 服务中查看报表
 报表由一页或多页的视觉对象组成。 报表是由 Power BI 报表设计者创建，[并直接与使用者共享](end-user-shared-with-me.md)或作为[应用](end-user-apps.md)的一部分共享。 

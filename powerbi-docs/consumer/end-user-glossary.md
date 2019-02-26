@@ -4,16 +4,17 @@ description: Power BI 引入了许多新术语和常见术语的新用法。 请
 services: power-bi
 ms.custom: seodec18
 author: mihart
-ms.service: powerbi-service
+ms.service: powerbi
+ms.subservice: powerbi-consumer
 ms.topic: resource
 ms.date: 12/06/2018
 ms.author: mihart
-ms.openlocfilehash: 1722c401dfd5d2fdfbba530f440cecf9f1e075f3
-ms.sourcegitcommit: a36f82224e68fdd3489944c9c3c03a93e4068cc5
+ms.openlocfilehash: 91ac7e9990844f6e4f481473d402647a47249ba6
+ms.sourcegitcommit: a054782370dec56d49bb205ee10b7e2018f22693
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/31/2019
-ms.locfileid: "55431260"
+ms.lasthandoff: 02/22/2019
+ms.locfileid: "56662402"
 ---
 # <a name="glossary-for-power-bi-service"></a>Power BI 服务词汇表
 Power BI 服务可能会引入不熟悉或容易混淆的术语。 词汇表是查找术语的好地方，可能需要将其加入书签。 了解构成 Power BI 服务的构建块的另一个极佳资源是[基本概念](end-user-basic-concepts.md)。 “基本概念”提供 Power BI 组件及其如何连接的简要概述。
