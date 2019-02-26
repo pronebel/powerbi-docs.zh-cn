@@ -31,7 +31,7 @@ ms.locfileid: "56216346"
 
 未经认证的自定义视觉对象并不一定是不安全的视觉对象。 某些视觉对象未经认证，是因为它们与一个或多个[认证要求](https://docs.microsoft.com/power-bi/power-bi-custom-visuals-certified?#certification-requirements)不符。 例如，连接到外部服务的地图视觉对象，或使用商业库的视觉对象。
 
-你是 Web 开发者吗？对创建自己的可视化效果，并将它们添加到  **[Microsoft AppSource](https://appsource.microsoft.com)** 感兴趣吗？ 请参阅[开发 Power BI 自定义视觉对象，了解如何操作](developer/custom-visual-develop-tutorial.md)  ****。
+你是 Web 开发者吗？对创建自己的可视化效果，并将它们添加到  **[Microsoft AppSource](https://appsource.microsoft.com)** 感兴趣吗？ 请参阅[开发 Power BI 自定义视觉对象，了解如何操作](developer/custom-visual-develop-tutorial.md)。 ****
 
 ## <a name="removal-of-power-bi-certified-custom-visuals"></a>删除 Power BI 认证的自定义视觉对象
 
