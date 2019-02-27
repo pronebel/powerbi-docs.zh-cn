@@ -9,12 +9,12 @@ ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 11/08/2018
 ms.author: mshenhav
-ms.openlocfilehash: 771b7361efaea436d67c26ee05741f6dc3eba810
-ms.sourcegitcommit: a36f82224e68fdd3489944c9c3c03a93e4068cc5
+ms.openlocfilehash: 7c17d41d4278c292e494fe6f7203a32d93f2714d
+ms.sourcegitcommit: 796bf513bf8669676e2a44627b56221b1629a6a8
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/31/2019
-ms.locfileid: "55431237"
+ms.lasthandoff: 02/26/2019
+ms.locfileid: "56826712"
 ---
 # <a name="whats-new-in-the-mobile-apps-for-power-bi"></a>Power BI 移动应用中的新功能
 有关相关的“新增功能”的信息，请参阅：
@@ -22,6 +22,16 @@ ms.locfileid: "55431237"
 * [适用于移动应用的 Power BI 工作组日志](https://powerbi.microsoft.com/blog/tag/mobile/)
 * [Power BI Desktop 中的新增功能](../../desktop-latest-update.md)  
 * [Power BI 服务中的最近更新](../../service-whats-new.md)  
+
+## <a name="january---february-2019"></a>2019 年 1 月 - 2 月
+ 
+### <a name="visio-visuals"></a>Visio 视觉对象
+
+在 Visio 视觉对象中启用单一登录 (SSO)，以便在应用中查看具有 Visio 视觉对象的报表时不需要额外的登录步骤。 
+
+### <a name="dashboard-commenting-is-coming-to-power-bi-mobile-windows-app"></a>Power BI 移动版 Windows 应用将提供仪表板评论功能
+
+可以直接向仪表板和特定磁贴添加备注来讨论你的数据，查看仪表板的任何人都将看到你的备注。 
 
 ## <a name="december-2018"></a>2018 年 12 月
 

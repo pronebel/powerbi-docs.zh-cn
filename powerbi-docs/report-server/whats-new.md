@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 01/22/2019
-ms.openlocfilehash: ad3025b9649529566972f75e9c447bb7558132b8
-ms.sourcegitcommit: 91ac6185f7026ddbaa925dc54057bb742b4fa411
+ms.openlocfilehash: e645cd84b646e180114027464ea4781277d5245f
+ms.sourcegitcommit: a054782370dec56d49bb205ee10b7e2018f22693
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/16/2019
-ms.locfileid: "56325188"
+ms.lasthandoff: 02/22/2019
+ms.locfileid: "56662448"
 ---
 # <a name="whats-new-in-power-bi-report-server"></a>Power BI 报表服务器中的新增功能
 
@@ -41,6 +41,10 @@ Power BI 报表中支持以下功能：
 [**智能对齐参考线**](https://powerbi.microsoft.com/blog/power-bi-desktop-december-2018-feature-summary/#smartGuides)在报表页面上移动对象时，可看到智能对齐参考线，如 PowerPoint 中所示的那样，有助于对齐页面上的所有内容。 只要在页面上拖动或调整某些内容，就会看到智能参考线。 将对象移动到另一个对象附近时，该参考线会快速移动到与另一个对象对齐的位置。
 
 **辅助功能**要列出的辅助功能太多：例如，[字段列表窗格辅助功能支持](https://powerbi.microsoft.com/blog/power-bi-desktop-december-2018-feature-summary/#fieldList)。 字段列表窗格完全可供访问。 可以浏览窗格，仅需使用键盘和屏幕阅读器即可实现，还可以使用上下文菜单将字段添加到报告页面。
+
+#### <a name="custom-visuals"></a>自定义视觉对象
+
+- 此版本附带的 API 版本为 2.3。
 
 ### <a name="administrator-settings"></a>管理员设置
 
