@@ -372,7 +372,7 @@ ms.locfileid: "55431053"
 
 将 BW 数据源添加到网关：按照本文前面有关[运行报表](#running-a-power-bi-report)的说明进行操作。
 
-1. 在数据源配置窗口中，与从 Power BI Desktop 登录到 BW 服务器一样，输入应用程序服务器的“主机名”、“系统编号”和”客户端 ID”。 对于“身份验证方法”，选择“Windows”********。
+1. 在数据源配置窗口中，与从 Power BI Desktop 登录到 BW 服务器一样，输入应用程序服务器的“主机名”、“系统编号”和”客户端 ID”。 对于“身份验证方法”，选择“Windows”。
 
 1. 在“SNC 合作伙伴名称”字段中，输入 p: \<映射到 BW 服务用户的 SPN\>。 例如，如 SPN 为 SAP/BWServiceUser@MYDOMAIN.COM，则应在“SNC 合作伙伴名称”字段中输入 p:SAP/BWServiceUser@MYDOMAIN.COM。
 
