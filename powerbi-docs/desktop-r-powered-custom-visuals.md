@@ -10,12 +10,12 @@ ms.subservice: powerbi-custom-visuals
 ms.topic: conceptual
 ms.date: 07/27/2018
 LocalizationGroup: Create reports
-ms.openlocfilehash: 47558c5aa7318d3ef3ff5c5e92beb6dd4b4b3d44
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 48eb26d3827f69831f2d565b26c20853906ab41d
+ms.sourcegitcommit: 76772a361e6cd4dd88824b2e4b32af30656e69db
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54290448"
+ms.lasthandoff: 02/27/2019
+ms.locfileid: "56892174"
 ---
 # <a name="use-r-powered-custom-visuals-in-power-bi"></a>在 Power BI 中使用 R 驱动的自定义视觉对象
 
@@ -61,7 +61,7 @@ ms.locfileid: "54290448"
 5. 导入自定义视觉对象时发出警告，如下图所示：
 
    ![R 视觉对象 5](media/desktop-r-powered-custom-visuals/powerbi-r-powered-custom-viz_5.png)
-6. 导航到视觉对象文件保存的位置，然后选择该文件。 Power BI Desktop 自定义可视化效果具有 .pbivisual 扩展名。
+6. 导航到视觉对象文件保存的位置，然后选择该文件。 **Power BI Desktop** 自定义可视化效果具有.pbiviz 扩展名。
 
    ![R 视觉对象 6](media/desktop-r-powered-custom-visuals/powerbi-r-powered-custom-viz_6.png)
 7. 返回 Power BI Desktop 时，你可以在“**可视化效果**”窗格中看到新的视觉对象类型。
