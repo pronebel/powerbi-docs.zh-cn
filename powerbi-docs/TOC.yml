@@ -843,7 +843,13 @@ items:
     - name: 支持的语言和国家/地区
       href: supported-languages-countries-regions.md
     - name: 白皮书
-      href: whitepapers.md
+      items:
+      - name: 白皮书概述
+        href: whitepapers.md
+      - name: Power BI 安全白皮书
+        href: whitepaper-powerbi-security.md
+      - name: Power BI Premium 部署
+        href: whitepaper-powerbi-premium-deployment.md
 - name: 面向开发人员的 Power BI
   items:
   - name: 开发人员可以使用 Power BI 做什么
@@ -1036,6 +1042,8 @@ items:
         href: developer/walkthrough-push-data-get-datasets.md
       - name: 向表中添加行
         href: developer/walkthrough-push-data-add-rows.md
+      - name: 配置凭据
+        href: developer/configure-credentials.md
       - name: 加密凭据
         href: developer/encrypt-credentials.md
     - name: 参考
@@ -1228,7 +1236,7 @@ items:
     items:
     - name: Power BI Premium
       items:
-      - name: Power BI Premium 有哪些特权？
+      - name: 什么是 Power BI Premium？
         href: service-premium.md
       - name: 高级容量内存使用，优化
         href: service-premium-understand-how-it-works.md
@@ -1305,9 +1313,9 @@ items:
       href: service-admin-governance.md
     - name: Power BI 安全性
       href: service-admin-power-bi-security.md
-ms.openlocfilehash: 994d0f82fc92eb8e54aee92f0b4ceefa38cc8a49
-ms.sourcegitcommit: 796bf513bf8669676e2a44627b56221b1629a6a8
+ms.openlocfilehash: 1d95f65528ff52931b9fbe9119f9d593db99655a
+ms.sourcegitcommit: 76772a361e6cd4dd88824b2e4b32af30656e69db
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/26/2019
-ms.locfileid: "56826689"
+ms.lasthandoff: 02/27/2019
+ms.locfileid: "56892427"
