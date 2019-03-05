@@ -9,12 +9,12 @@ ms.author: owend
 ms.reviewer: owend
 author: minewiskan
 manager: kfile
-ms.openlocfilehash: e31f67d978471f4dcc6472860fc5f8315212e563
-ms.sourcegitcommit: 54d44deb6e03e518ad6378656c769b06f2a0b6dc
+ms.openlocfilehash: d7cebbd569d16192f4acfa1c96394130731efa17
+ms.sourcegitcommit: d4d36b6b200f2693b545e4a3e66d94c77a3cfafb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/07/2019
-ms.locfileid: "55794873"
+ms.lasthandoff: 03/01/2019
+ms.locfileid: "57014567"
 ---
 # <a name="microsoft-power-bi-premium-capacity-resource-management-and-optimization"></a>Microsoft Power BI Premium 容量资源管理和优化
 
@@ -55,7 +55,7 @@ Power BI Premium 提供“过度使用”容量的便利。 例如，你可以�
 
 ### <a name="workloads"></a>工作负载
 
-默认情况下，Power BI Premium 和 Power BI Embedded 的容量仅支持与在云中运行 Power BI 查询相关联的工作负载。 我们现在为两个额外的工作负载提供预览支持：分页报表和数据流。 如果启用，这些工作负载可能会影响容量中的内存使用情况。 有关详细信息，请参阅[配置工作负载](service-admin-premium-manage.md#configure-workloads)。
+默认情况下，Power BI Premium 和 Power BI Embedded 的容量仅支持与在云中运行 Power BI 查询相关联的工作负载。 我们现在为两个额外的工作负载提供预览支持：分页报表和数据流。 如果启用，这些工作负载可能会影响容量中的内存使用情况。 
 
 ## <a name="cpu-resource-management-in-premium-capacity"></a>高级容量中的 CPU 资源管理
 
@@ -116,6 +116,3 @@ CPU 资源有两个主要使用者：
 
 在某些情况下，在计算机上打开模型的 Power BI Desktop (.pbix) 文件并检查内存和 CPU 消耗可以发现问题的大量信息。 这对于非常大的模型不会有帮助，但对于某些较小的模型，可以尝试在计算机中打开、刷新和查询模型。 当打开模型时检查模型大小、消耗的内存和 CPU。 尝试刷新和查询。 使用任务管理器来检查本地文件的 CPU 和内存消耗。 有时，计算机本身上的这些度量值表明较低的高级容量（如 P1/P2）可能不适用于你的解决方案。
 
-## <a name="next-steps"></a>后续步骤
-
-[管理 Power BI Premium 和 Power BI Embedded 中的容量](service-admin-premium-manage.md)

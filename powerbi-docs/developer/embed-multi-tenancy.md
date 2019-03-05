@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: powerbi - developer
 ms.topic: conceptual
 ms.date: 01/11/2019
-ms.openlocfilehash: 7bb805877cf2e7453148d667f863cbbc8b01ee52
-ms.sourcegitcommit: a36f82224e68fdd3489944c9c3c03a93e4068cc5
+ms.openlocfilehash: 60441e950eb8ddea386e38731b794a58c2342620
+ms.sourcegitcommit: d4d36b6b200f2693b545e4a3e66d94c77a3cfafb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/31/2019
-ms.locfileid: "55430708"
+ms.lasthandoff: 03/01/2019
+ms.locfileid: "57014245"
 ---
 # <a name="manage-multi-tenancy-with-power-bi-embedded-analytics"></a>使用 Power BI 嵌入式分析来管理多租户
 
@@ -142,7 +142,7 @@ Power BI Embedded 支持多地理位置部署（预览功能）。 [多地理位
 
 ### <a name="scalability"></a>可伸缩性
 
-此模型的一个优点是，将数据划分到每个租户的多个数据集中可以克服[单个数据集的大小限制](https://docs.microsoft.com/power-bi/service-premium-large-datasets)（当前容量为 10 GB）。 当容量过载时，[可以删除未使用的数据集](../service-premium-understand-how-it-works.md)为活动数据集释放内存。 此任务不适用于单个大型数据集。 如果需要，还可以使用多个数据集将租户划分为多个 Power BI 容量。 [了解有关容量如何运行的更多信息](../service-admin-premium-manage.md)。
+此模型的一个优点是，将数据划分到每个租户的多个数据集中可以克服[单个数据集的大小限制](https://docs.microsoft.com/power-bi/service-premium-large-datasets)（当前容量为 10 GB）。 当容量过载时，[可以删除未使用的数据集](../service-premium-understand-how-it-works.md)为活动数据集释放内存。 此任务不适用于单个大型数据集。 如果需要，还可以使用多个数据集将租户划分为多个 Power BI 容量。
 
 尽管有这些优势，还必须考虑 SaaS 应用程序在未来可能达到的规模。 例如，用户可能会在可管理项目的数量上遇到限制。 请参阅本文后续部分中的部署[限制](#summary-comparison-of-the-different-approaches)，获取详细信息。 SKU 使用的容量限制了数据集需要适应的内存大小、[可以同时运行的刷新数](../service-premium-understand-how-it-works.md)以及数据刷新的最大频率。 建议在管理数百或数千个数据集时进行测试。 此外建议考虑平均使用量和峰值使用量，以及与其他租户管理方式不同的具有大型数据集或不同使用模式的任何特定租户。
 

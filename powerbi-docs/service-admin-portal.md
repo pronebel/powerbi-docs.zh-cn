@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 01/24/2019
 ms.custom: seodec18
 LocalizationGroup: Administration
-ms.openlocfilehash: 868c1226b70bd12762c20c3af5b0ee1ff59857e5
-ms.sourcegitcommit: a2f274cfb392fe3b1b466a39ec7eaf58a7c5ce00
+ms.openlocfilehash: a4180f211a2b31a8610d410a74e0cca25dcdad15
+ms.sourcegitcommit: d4d36b6b200f2693b545e4a3e66d94c77a3cfafb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/19/2019
-ms.locfileid: "56408175"
+ms.lasthandoff: 03/01/2019
+ms.locfileid: "57014636"
 ---
 # <a name="administering-power-bi-in-the-admin-portal"></a>在管理门户中管理 Power BI
 
@@ -293,11 +293,11 @@ Office 365 中的全局管理员或分配有 Power BI 服务管理员角色的�
 
 组织中的用户可以在软件即服务 (SaaS) 应用程序中嵌入 Power BI 仪表板和报表。 禁用此设置会阻止用户使用 REST API 将 Power BI 内容嵌入到其应用程序中。 [了解详细信息](developer/embedding.md)
 
-## <a name="dataflow-settings-preview"></a>数据流设置(预览)
+## <a name="dataflow-settings-preview"></a>数据流设置(预览版)
 
 ### <a name="create-and-use-dataflows-preview"></a>创建和使用数据流（预览）
 
-组织中的用户可以创建和使用数据流。 有关数据流的概述信息，请参阅 [Power BI 中的自助服务数据准备（预览）](service-dataflows-overview.md)。 若要启用高级容量中的数据流，请参阅[配置工作负载](service-admin-premium-manage.md#configure-workloads)。
+组织中的用户可以创建和使用数据流。 有关数据流的概述信息，请参阅 [Power BI 中的自助服务数据准备（预览）](service-dataflows-overview.md)。 若要启用高级容量中的数据流，请参阅[配置工作负载](service-admin-premium-workloads.md)。
 
 > [!NOTE]
 > 此设置应用于整个组织，并且不能限制为特定组。
@@ -321,8 +321,6 @@ Office 365 中的全局管理员或分配有 Power BI 服务管理员角色的�
 使用“Power BI Premium”选项卡，可以管理已为组织购买的任何 Power BI Premium 容量（EM 或 P SKU）。 组织中的所有用户都可以看到“Power BI Premium”选项卡；但如果用户被分配为容量管理员或拥有分配权限，则只能看到其中的内容。 如果用户没有任何权限，则显示以下消息。
 
 ![无权访问 Premium 设置](media/service-admin-portal/premium-settings-no-access.png)
-
-有关如何管理 Premium 设置的详细信息，请参阅[管理 Power BI Premium](service-admin-premium-manage.md)。
 
 ### <a name="power-bi-embedded"></a>Power BI Embedded
 
@@ -410,6 +408,5 @@ Office 365 中的全局管理员或分配有 Power BI 服务管理员角色的�
 
 [在组织中管理 Power BI](service-admin-administering-power-bi-in-your-organization.md)、[了解 Power BI 管理员角色](service-admin-role.md)  
 [在组织中审核 Power BI](service-admin-auditing.md)  
-[管理 Power BI Premium](service-admin-premium-manage.md)  
 
 更多问题？ [尝试咨询 Power BI 社区](http://community.powerbi.com/)
