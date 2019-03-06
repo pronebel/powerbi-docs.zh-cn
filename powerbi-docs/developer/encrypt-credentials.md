@@ -2,21 +2,22 @@
 title: 加密凭据
 description: 演练 - 加密本地网关数据源的凭据
 author: mahirdiab
+ms.author: mahirdiab
 manager: eligr
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
-ms.date: 04/02/2019
-ms.author: mahirdiab
-ms.openlocfilehash: 79ab3731abfdf972de1ee9d40456ebb0c5ebfa62
-ms.sourcegitcommit: 80961ace38ff9dac6699f81fcee0f7d88a51edf4
+ms.date: 02/04/2019
+ms.openlocfilehash: 6229d65e7ef28d0c9b6013166cb504cfb976f46d
+ms.sourcegitcommit: 76772a361e6cd4dd88824b2e4b32af30656e69db
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/13/2019
-ms.locfileid: "56223504"
+ms.lasthandoff: 02/27/2019
+ms.locfileid: "56892220"
 ---
 # <a name="encrypt-credentials"></a>加密凭据
+
 如果使用 [Power BI Rest API](https://docs.microsoft.com/rest/api/power-bi/) 在“企业本地网关”下调用 [Create Datasource](https://docs.microsoft.com/rest/api/power-bi/gateways/createdatasource) 或 [Update Datasource](https://docs.microsoft.com/rest/api/power-bi/gateways/updatedatasource)，则需要使用网关的公钥加密凭据值。
 
 请参阅下面的代码示例，了解如何在 .NET 中加密凭据。
@@ -24,27 +25,31 @@ ms.locfileid: "56223504"
 为下面的 EncodeCredentials 方法提供的凭据应该采用以下格式之一，具体取决于凭据类型：
 
 **Basic/Windows 凭据**
+
 ```csharp
 var credentials = "{\"credentialData\":[{\"name\":\"username\", \"value\":\"john\"},{\"name\":\"password\", \"value\":\"*****\"}]}";
 ```
 
 **密钥凭据**
+
 ```csharp
 var credentials = "{\"credentialData\":[{\"name\":\"key\", \"value\":\"ec....LA=\"}]}";
 ```
 
 **OAuth2 凭据**
+
 ```csharp
 var credentials = "{\"credentialData\":[{\"name\":\"accessToken\", \"value\":\"eyJ0....fwtQ\"}]}";
 ```
 
-
 **匿名凭据**
+
 ```csharp
 var credentials = "{\"credentialData\":\"\"}";
 ```
 
 **加密凭据**
+
 ```csharp
 public static class AsymmetricKeyEncryptionHelper
 {

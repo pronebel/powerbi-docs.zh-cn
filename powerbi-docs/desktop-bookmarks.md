@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 02/14/2019
+ms.date: 02/22/2019
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: fda2732ff33c324377a73ceb93480fbbcdd404bd
-ms.sourcegitcommit: 91ac6185f7026ddbaa925dc54057bb742b4fa411
+ms.openlocfilehash: 59d5ccd6a7179ca4c44210854fb66abb5371ac6c
+ms.sourcegitcommit: 76772a361e6cd4dd88824b2e4b32af30656e69db
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/16/2019
-ms.locfileid: "56325031"
+ms.lasthandoff: 02/27/2019
+ms.locfileid: "56892404"
 ---
 # <a name="use-bookmarks-to-share-insights-and-build-stories-in-power-bi"></a>在 Power BI 中使用书签共享见解和创建情景 
 使用 Power BI 中的“书签”，可以帮助捕获当前配置的报表页视图（包括视觉对象的筛选器和状态），然后只需选择保存的书签即可恢复相应状态。 
@@ -25,6 +25,9 @@ ms.locfileid: "56325031"
 ![Power BI 中的书签](media/desktop-bookmarks/bookmarks_01.png)
 
 书签的用途有许多。 可以使用书签跟踪自己的报表创建进度（书签易于添加、删除和重命名），也可以通过创建书签来生成类似于 PowerPoint 的演示文稿，依序逐一展示所有书签，通过报表诠释情景。 书签可能还有其他用途，具体取决于用户认为如何才能最有效地利用书签。
+
+> [!TIP]
+> 有关在 Power BI 服务中使用个人书签的信息，请查看个人书签功能的[博客公告](https://powerbi.microsoft.com/blog/announcing-personal-bookmarks-in-the-power-bi-service/)。 
 
 ### <a name="enable-the-bookmarks-preview-versions-prior-to-march-2018"></a>启用书签预览功能（2018 年 3 月之前的版本）
 自 Power BI Desktop 2018 年 3 月版起，推出通用版的标签功能。 

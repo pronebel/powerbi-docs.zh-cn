@@ -8,21 +8,21 @@ ms.custom: seodec18
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 12/06/2018
+ms.date: 02/21/2019
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: f5896505d724c0704e22c95df132ee3318b23009
-ms.sourcegitcommit: 80961ace38ff9dac6699f81fcee0f7d88a51edf4
+ms.openlocfilehash: 28db4891ad2ca67fefb0f6ec7d993977bbba7043
+ms.sourcegitcommit: 76772a361e6cd4dd88824b2e4b32af30656e69db
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/13/2019
-ms.locfileid: "56224010"
+ms.lasthandoff: 02/27/2019
+ms.locfileid: "56892243"
 ---
 # <a name="use-insights-in-power-bi-desktop-to-explain-increases-and-decreases-seen-in-visuals-preview"></a>使用 Power BI Desktop 中的见解来解释视觉对象中显示的增长和下降（预览版）
 
 在视觉对象中，你通常会看到值大幅上升又急剧下降的情况，并且想知道导致这种波动的原因。 借助 **Power BI Desktop** 中的**见解**，只需单击几下即可了解原因。
 
-以下面的视觉对象为例，它显示了*不同年份*和*不同国家/地区*的*销售额*。 2014 年的销售额大幅下降，*第一季度*与*第二季度*之间的销售额骤减。 在这种情况下，你可以对数据进行研究，以帮助解释发生变化的原因。 
+以下面的视觉对象为例，它显示了不同年份和不同季度的销售额。 2014 年的销售额大幅下降，*第一季度*与*第二季度*之间的销售额骤减。 在这种情况下，你可以对数据进行研究，以帮助解释发生变化的原因。 
 
 ![显示增长和下降的视觉对象](media/desktop-insights/insights_01a.png)
 

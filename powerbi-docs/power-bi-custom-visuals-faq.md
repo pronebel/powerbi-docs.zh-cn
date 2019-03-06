@@ -10,12 +10,12 @@ ms.subservice: powerbi-custom-visuals
 ms.topic: conceptual
 ms.custom: ''
 ms.date: 12/17/2018
-ms.openlocfilehash: 9b4ff995b1cfaede1608e976bf2715feece0ade6
-ms.sourcegitcommit: a2f274cfb392fe3b1b466a39ec7eaf58a7c5ce00
+ms.openlocfilehash: 503a722a387c05952933a4cfa9aaa06eccc164da
+ms.sourcegitcommit: 76772a361e6cd4dd88824b2e4b32af30656e69db
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/19/2019
-ms.locfileid: "56408129"
+ms.lasthandoff: 02/27/2019
+ms.locfileid: "56892312"
 ---
 # <a name="frequently-asked-questions-about-power-bi-custom-visuals"></a>有关 Power BI 自定义视觉对象的常见问题
 
@@ -57,8 +57,44 @@ ms.locfileid: "56408129"
 
 ### <a name="what-are-certified-custom-visuals"></a>什么是认证的自定义视觉对象？
 
-认证的自定义视觉对象是[市场](https://appsource.microsoft.com/marketplace/apps?page=1&product=power-bi-visuals)中满足由 Power BI 团队[指定](power-bi-custom-visuals-certified.md)的代码要求和测试的视觉对象。  执行的测试旨在检查视觉对象是否会访问外部服务或资源。 但 Microsoft 不是第三方自定义视觉对象的作者。 我们建议客户直接与作者联系，验证此类视觉对象的功能。
+认证的自定义视觉对象是[市场](https://appsource.microsoft.com/marketplace/apps?page=1&product=power-bi-visuals)中满足由 Power BI 团队[指定](power-bi-custom-visuals-certified.md)的代码要求和测试的视觉对象。  执行的测试旨在检查视觉对象是否会访问外部服务或资源。 但 Microsoft 不是第三方自定义视觉对象的作者，建议客户直接与作者联系，验证此类视觉对象的功能。
 
+### <a name="what-tests-are-done-during-the-certification-process"></a>在认证过程中完成哪些测试？
+
+认证过程测试包括但不限于：代码评审、静态代码分析、数据泄露测试、数据模糊测试、渗透测试、访问 XSS 测试、恶意数据注入测试、输入验证和功能测试。
+ 
+### <a name="do-you-certify-visuals-every-submission"></a>是否每次提交时都认证视觉对象？
+
+是。 每次向市场提交新版本的认证视觉对象时，视觉对象的版本更新将进行相同的认证检查。
+
+开发人员请注意：如果是提交认证视觉对象的版本更新，则不需要发送单独的电子邮件作为[首次认证请求](https://docs.microsoft.com/power-bi/power-bi-custom-visuals-certified#process-for-submitting-a-custom-visual-for-certification) 版本更新的认证会自动进行，如果出现任何导致拒绝的违规，系统都会发送一封电子邮件，说明需要修复的事项。 
+
+### <a name="is-it-possible-that-a-certified-visual-stops-being-certified-with-a-new-update"></a>经过认证的视觉对象有没有可能因新的更新而停止认证？
+
+不，这不可能。 经过认证的视觉对象不会因新的更新而被取消认证。 该更新将被拒绝。
+ 
+### <a name="do-i-need-to-share-my-code-in-public-repository-if-i-am-submitting-to-the-certification-process"></a>如果我要提交到认证过程，是否需要在公共存储库中共享我的代码？
+
+不，你不需要公开共享你的代码。 但你需要向我们提供检查视觉对象代码的读取权限。 例如 GitHub 中的专用存储库。
+ 
+### <a name="do-we-have-to-publishhttpsdocsmicrosoftcompower-bideveloperoffice-store-the-visual-in-the-marketplacehttpsappsourcemicrosoftcommarketplaceappspage1productpower-bi-visuals-to-certify-it"></a>我们是否必须在[市场](https://appsource.microsoft.com/marketplace/apps?page=1&product=power-bi-visuals)中[发布](https://docs.microsoft.com/power-bi/developer/office-store)视觉对象以进行认证？
+
+是。 接受认证的强制要求是首先将视觉对象发布到市场。
+要认证自定义视觉对象，应将它放在我们的服务器中。 我们无法认证私有视觉对象。
+ 
+### <a name="how-long-does-it-take-to-certify-my-visual"></a>认证视觉对象需要多长时间？
+
+若是更新版本，可能需要最多 2 周。 若是新的提交（首次认证），可能需要最多 3 周。 
+
+### <a name="does-the-certification-process-ensure-that-no-data-leakage-occurs"></a>认证过程是否会确保没有数据泄漏发生？
+
+执行的测试旨在检查视觉对象是否会访问外部服务或资源。 但 Microsoft 不是第三方自定义视觉对象的作者，建议客户直接与作者联系，验证此类视觉对象的功能。
+ 
+### <a name="are-uncertified-custom-visuals-safe-to-use"></a>未经认证的自定义视觉对象使用起来安全码？
+
+未经认证的自定义视觉对象并不一定是不安全的视觉对象。
+某些视觉对象未经认证，是因为它们与一个或多个[认证要求](https://docs.microsoft.com/power-bi/power-bi-custom-visuals-certified?#certification-requirements)不符。 例如，连接到外部服务的地图视觉对象，或使用商业库的视觉对象。
+ 
 ## <a name="visuals-with-additional-purchases"></a>额外付费的视觉对象
 
 ### <a name="what-is-a-visual-with-additional-purchases"></a>什么是额外付费的视觉对象？
@@ -100,7 +136,6 @@ IAP 自定义视觉对象取得认证后，视觉对象可以导出到 PowerPoin
 规范中还提供了最佳做法说明。  
 > [!Note]
 > 所有免费视觉效果应保留以前提供的相同免费功能。 可以在旧版免费功能基础上添加可选的高级付费功能。 我们建议将具有高级功能的 IAP 视觉效果作为新视觉效果提交，而不是更新旧版免费视觉效果。
-
 
 ### <a name="can-i-get-my-iap-custom-visual-certified"></a>我的 IAP 自定义视觉对象可获取认证吗？
 

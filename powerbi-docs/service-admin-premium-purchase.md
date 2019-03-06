@@ -8,39 +8,30 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
-ms.date: 01/14/2019
+ms.date: 02/26/2019
 LocalizationGroup: Premium
-ms.openlocfilehash: c23c85c7afa16844d2e2e0944fa0aed0d760fc28
-ms.sourcegitcommit: 54d44deb6e03e518ad6378656c769b06f2a0b6dc
+ms.openlocfilehash: 8922bb329e4b598745fd259c67e74b063368b7be
+ms.sourcegitcommit: 76772a361e6cd4dd88824b2e4b32af30656e69db
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/07/2019
-ms.locfileid: "55794401"
+ms.lasthandoff: 02/27/2019
+ms.locfileid: "56892381"
 ---
 # <a name="how-to-purchase-power-bi-premium"></a>如何购买 Power BI Premium
 
-本文介绍如何为你的组织购买 Power BI 高级容量。 在 Office 365 管理中心购买 Power BI Premium 容量并在 Power BI 管理门户中[管理容量](service-admin-premium-manage.md)。
+本文介绍如何为你的组织购买 Power BI 高级容量 (P1-P3)。 在 Office 365 管理中心购买 Power BI Premium 容量并在 Power BI 管理门户中[管理容量](service-admin-premium-manage.md)。 有关当前定价和计划的信息，请参阅 [Power BI 定价页](https://powerbi.microsoft.com/pricing/)和 [Power BI Premium 计算器](https://powerbi.microsoft.com/calculator/)。
 
-<iframe width="640" height="360" src="https://www.youtube.com/embed/NkvYs5Qp4iA?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
+即使你的组织使用 Power BI Premium，内容创建者还是需要一个 Power BI Pro 许可证。 请确保为组织购买至少一个 Power BI Pro 许可证。
 
-有关 Power BI Premium 的详细信息，请参阅[什么是 Power BI Premium？](service-premium.md)。 有关当前定价和计划的信息，请参阅 [Power BI 定价页](https://powerbi.microsoft.com/pricing/)和 [Power BI Premium 计算器](https://powerbi.microsoft.com/calculator/)。
-
-> [!IMPORTANT]
-> 即使你的组织使用 Power BI Premium，内容的作者还是需要一个 Power BI Pro 许可证。 请确保为组织购买至少一个 Power BI Pro 许可证。
->
->如果 Premium 订阅到期，将有 30 天的容量完全访问权限。 之后，内容将恢复为共享容量。 共享容量不支持大于 1 GB 的模型。
+如果 Premium 订阅到期，将有 30 天的容量完全访问权限。 之后，内容将恢复为共享容量。 共享容量不支持大于 1 GB 的模型。
 
 ## <a name="create-a-new-tenant-with-power-bi-premium-p1"></a>使用 Power BI Premium P1 新建租户
 
-如果尚无租户并且想要创建一个，可以同时购买 Power BI Premium。 单击以下链接后，可了解创建新租户的过程，并可购买 Power BI Premium：[Power BI Premium P1 套餐](https://signup.microsoft.com/Signup?OfferId=b3ec5615-cc11-48de-967d-8d79f7cb0af1)。
-
-![Power BI Premium P1](media/service-admin-premium-purchase/premium-purchase-with-tenant.png)
-
-创建租户时，将自动为该租户分配 Office 365 全局管理员角色。
+如果尚无租户并且想要创建一个，可以同时购买 Power BI Premium。 单击以下链接后，可了解创建新租户的过程，并可购买 Power BI Premium：[Power BI Premium P1 套餐](https://signup.microsoft.com/Signup?OfferId=b3ec5615-cc11-48de-967d-8d79f7cb0af1)。 创建租户时，将自动为该租户分配 Office 365 全局管理员角色。
 
 ## <a name="purchase-a-power-bi-premium-capacity-for-an-existing-organization"></a>为现有组织购买 Power BI Premium 容量
 
-若有现有组织，则必须具有 Office 365 全局管理员角色或帐务管理员角色才能购买订阅和许可证。 有关详细信息，请参阅[关于 Office 365 管理员角色](https://support.office.com/article/About-Office-365-admin-roles-da585eea-f576-4f55-a1e0-87090b6aaa9d)。
+若有现有组织（租户），则必须具有 Office 365 全局管理员角色或帐务管理员角色才能购买订阅和许可证。 有关详细信息，请参阅[关于 Office 365 管理员角色](https://support.office.com/article/About-Office-365-admin-roles-da585eea-f576-4f55-a1e0-87090b6aaa9d)。
 
 要购买高级容量，请按照下列步骤操作。
 
@@ -59,19 +50,6 @@ ms.locfileid: "55794401"
     ![立即购买](media/service-admin-premium-purchase/premium-purchase.png)
 
 1. 按照以下步骤完成购买。
-
-还可以选中以下链接之一，直接转到该 SKU 的购买页面。 有关这些 SKU 的详细信息，请参阅[什么是 Power BI Premium？](service-premium.md#premium-capacity-nodes)。
-
-> [!IMPORTANT]
-> 若并非 Office 365 全局管理员角色或帐务管理员角色，则选择以下任何链接将出现错误。
-
-| 直接购买链接 |
-| --- |
-| [EM3（按月）SKU](https://portal.office.com/commerce/completeorder.aspx?OfferId=4004702D-749C-4F74-BF47-3048F1833780&adminportal=1) |
-| [P1 SKU](https://portal.office.com/commerce/completeorder.aspx?OfferId=b3ec5615-cc11-48de-967d-8d79f7cb0af1&adminportal=1) |
-| [P1（按月）SKU](https://portal.office.com/commerce/completeorder.aspx?OfferId=E4C8EDD3-74A1-4D42-A738-C647972FBE81&adminportal=1) |
-| [P2 SKU](https://portal.office.com/commerce/completeorder.aspx?OfferId=062F2AA7-B4BC-4B0E-980F-2072102D8605&adminportal=1) |
-| [P3 SKU](https://portal.office.com/commerce/completeorder.aspx?OfferId=40c7d673-375c-42a1-84ca-f993a524fed0&adminportal=1) |
 
 完成购买后，“购买服务”页将显示该项目已购买且处于活动状态。
 
@@ -102,17 +80,13 @@ ms.locfileid: "55794401"
 
 可以在 Office 365 管理中心内取消订阅。 若要取消 Premium 订阅，请执行以下操作。
 
-![取消订阅](media/service-admin-premium-purchase/premium-cancel-subscription.png)
-
 1. 转到 Office 365 管理中心。
 
 1. 依次选择“计费” > “订阅”。
 
 1. 从列表中选择 Power BI Premium 订阅。
 
-1. 在“更多操作”下拉列表中，选择“取消订阅”。
-
-    ![更多操作](media/service-admin-premium-purchase/o365-more-actions.png)
+1. 选择“更多操作” > “取消订阅”。
 
 1. “取消订阅”页会指明是否需要支付[提前终止费](https://support.office.com/article/early-termination-fees-6487d4de-401a-466f-8bc3-c0beb5cc40d3)。 此页还会指明何时删除订阅数据。
 
