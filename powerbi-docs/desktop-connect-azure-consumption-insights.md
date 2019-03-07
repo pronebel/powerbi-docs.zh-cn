@@ -1,5 +1,5 @@
 ---
-title: 连接到 Azure 使用见解数据 (Beta)
+title: 连接到 Power BI Desktop 中的 Azure 成本和使用情况
 description: 使用 Power BI Desktop 轻松连接到 Azure，并获取有关使用情况的见解
 author: davidiseminger
 manager: kfile
@@ -11,21 +11,27 @@ ms.topic: conceptual
 ms.date: 12/06/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 1302ede9c28cc42b3605e55705f07620f2974990
-ms.sourcegitcommit: 5e83fa6c93a0bc6599f76cc070fb0e5c1fce0082
+ms.openlocfilehash: 39678850b2e1acd16c678206feba8cccffa6477d
+ms.sourcegitcommit: e9c45d6d983e8cd4cb5af938f838968db35be0ee
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/13/2019
-ms.locfileid: "56216047"
+ms.lasthandoff: 03/05/2019
+ms.locfileid: "57327978"
 ---
-# <a name="connect-to-azure-consumption-insights-in-power-bi-desktop-beta"></a>在 Power BI Desktop (Beta) 中连接到 Azure 使用情况见解
-借助 Azure 使用情况见解连接器，可以使用 Power BI Desktop 连接到 Azure，并获取有关组织 Azure 服务使用情况更详细的数据和信息。 还可以创建度量值、自定义列和视觉对象来报告和共享组织的 Azure 使用情况。 此版本的 Azure 使用情况和见解连接器处于测试阶段，随时可能更改。
+# <a name="analyze-azure-cost-and-usage-data-in-power-bi-desktop"></a>分析 Power BI Desktop 中的 Azure 成本和使用情况数据
 
-![](media/desktop-connect-azure-consumption-insights/azure-consumption-insights_01.png)
+Power BI Desktop 可以连接到 Azure，并获取有关组织的 Azure 服务使用情况的深度数据。 可以使用这些数据创建自定义报表和度量值，更好地了解和分析 Azure 支出。
 
-在本文中，你将了解如何使用 Azure 使用情况见解连接器进行连接并获取所需的数据和如何使用 Azure 企业连接器进行迁移，此外还会找到 ACI（Azure 使用情况见解）API 中提供的“使用情况详细信息列”的映射。
+Power BI 目前支持连接到企业协议和客户协议的计费帐户。
 
-## <a name="connect-to-azure-consumption-insights"></a>连接到 Azure 使用情况见解
+企业协议用户应与 Azure 使用见解连接器连接。 客户协议帐户用户应与 Azure 成本管理连接器连接。
+
+## <a name="connect-with-azure-consumption-insights"></a>使用 Azure 使用见解连接
+
+通过 Azure 使用见解可连接到 Azure 企业协议计费帐户。
+
+在本部分中，你将了解如何连接以获取所需的数据，如何使用 Azure 企业连接器进行迁移，且还会找到 ACI（Azure 使用见解）API 中提供的“使用情况详细信息列”的映射。
+
 要使用 Azure 使用情况见解连接器成功连接，需要能够访问 Azure 门户中的“企业”功能。
 
 要使用 Azure 使用情况见解连接器进行连接，请从“Power BI Desktop”的“主页”功能区中选择“获取数据”。 从左侧类别中选择“联机服务”，会看到“Microsoft Azure 使用情况见解 (Beta)”。 选择“连接”。
@@ -70,7 +76,7 @@ ms.locfileid: "56216047"
 > 
 > 
 
-选择“加载”时，数据将加载到 Power BI Desktop。  连接器将根据表的默认时间段加载数据。  如果需要自定义时间段，[可以设置自定义查询](https://docs.microsoft.com/power-bi/desktop-connect-azure-consumption-insights#using-azure-consumption-insights)。
+选择“加载”时，数据将加载到 Power BI Desktop。
 
 ![](media/desktop-connect-azure-consumption-insights/azure-consumption-insights_05.png)
 
@@ -195,12 +201,77 @@ Azure 门户中的列和名称详细信息与 API 和连接器中的相关信息
 | Store Service Identifier |storeServiceIdentifier |Store Service Identifier |否 |
 | StoreServiceIdentifierId | | |是 |
 | 订阅名称 |subscriptionName |订阅名称 |否 |
-| 标记 |tags |标记 |否 |
+| 标记 |标记 |标记 |否 |
 | TagsId | | |是 |
 | Unit Of Measure |unitOfMeasure |Unit Of Measure |否 |
 | 年份 | |年份 |否 |
 | SubscriptionId |subscriptionId |SubscriptionId |是 |
 | SubscriptionGuid |subscriptionGuid |SubscriptionGuid |否 |
+
+## <a name="connect-with-azure-cost-management"></a>使用 Azure 成本管理连接
+
+本部分介绍如何连接到客户协议计费帐户。
+
+要使用“Azure 成本管理”连接器进行连接，请从“Power BI Desktop”的“主页”功能区中选择“获取数据”。  从左侧的类别中选择“Azure”，可看到 Azure 成本管理（Beta 版）。 选择“连接”。
+
+![](media/desktop-connect-azure-consumption-insights/azure-cost-management-00.png)
+
+在显示的对话框中，输入“计费对象信息 ID”。
+
+![](media/desktop-connect-azure-consumption-insights/azure-cost-management-01.png)
+
+可以从 [Azure 门户](https://portal.azure.com)获取计费对象信息 ID。  导航至“成本管理和计费”，选择计费帐户，然后在边栏中选择“计费对象信息”。  选择自己的计费对象信息，然后在边栏中选择“属性”。  复制计费对象信息 ID。
+
+![](media/desktop-connect-azure-consumption-insights/azure-cost-management-02.png)
+
+系统将提示你使用 Azure 电子邮件和密码登录。  进行身份验证后，将看到一个“导航器”窗口，其中包含 12 个表：
+
+* **计费事件**：提供新发票、信用卡购买等的事件日志。
+* **预算**：提供预算详细信息，以查看针对现有预算目标的实际成本或使用情况。 
+* **费用**：提供 Azure 使用情况、市场费用和单独计费的月级别小结。
+* **额度批次**：为提供的计费对象信息提供 Azure 额度批次购买详情。
+* **额度摘要**：为提供的计费对象信息提供额度摘要。
+* **市场**：提供基于使用情况的 Azure市场费用。
+* **价目表**：为计费对象信息提供按流量计费的适用费率。
+* **RI 费用**：提供过去 24 个月与保留实例相关联的费用。
+* **RI 建议（单个）**：提供基于过去 7 天、30 天或 60 天单个订阅上的使用趋势的保留实例购买建议。
+* **RI 建议（共享）**：提供基于过去 7 天、30 天或 60 天所有订阅上的使用趋势的保留实例购买建议。
+* **RI 使用情况**：提供上个月现有保留实例的使用情况详细信息。
+* **使用情况详细信息**：提供给定计费对象信息 ID 的已使用量的明细和估计费用。
+
+可以选中任意表旁边的复选框来查看预览。  可以通过勾选表名称旁边的框来选择一个或多个表，并选择“加载”。
+
+![](media/desktop-connect-azure-consumption-insights/azure-cost-management-03.png)
+
+选择“加载”时，数据将加载到 Power BI Desktop。
+
+![](media/desktop-connect-azure-consumption-insights/azure-consumption-insights_05.png)
+
+加载所选数据后，可以在“字段”窗格中看到选择的表和字段。
+
+![](media/desktop-connect-azure-consumption-insights/azure-cost-management-05.png)
+
+## <a name="writing-custom-queries"></a>编写自定义查询
+
+如果要自定义月数，更改 API 版本或对返回的数据执行更多高级逻辑，就可以创建自定义 M 查询。
+
+转到“Power BI Desktop”的“主页”功能区，选择“获取数据”中的下拉列表，然后选择“空查询”。  此外，还可以在“查询编辑器”中执行此操作，方法是右键单击左侧的“查询”窗格，然后从显示的菜单中选择“新建查询”>”空白菜单”。
+
+在“公式栏”中，键入以下内容，将 `billingProfileId` 替换为实际 ID，并将“费用”替换为任何有效的表名（上文已列出）。
+
+```
+let
+    Source = AzureCostManagement.Tables(billingProfileId, [ numberOfMonths = 3 ]),
+    charges = Source{[Key="charges"]}[Data]
+in
+    charges
+```
+
+除了将 `numberOfMonths` 修改为 1 到 36 之间的任何值之外，还可以提供：
+
+* `apiVersion` 自定义查询将调用的 API 版本。
+* `lookbackWindow`，用于 RI 建议（单个或共享），以修改要从中生成建议的窗口（有效选择：7、30 或 60 天）
+
 
 ## <a name="next-steps"></a>后续步骤
 你可以使用 Power BI Desktop 连接到各种数据。 有关数据源的详细信息，请参阅下列资源：

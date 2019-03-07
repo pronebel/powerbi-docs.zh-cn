@@ -8,18 +8,21 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
-ms.date: 02/26/2019
+ms.date: 02/28/2019
 LocalizationGroup: Premium
-ms.openlocfilehash: 8922bb329e4b598745fd259c67e74b063368b7be
-ms.sourcegitcommit: 76772a361e6cd4dd88824b2e4b32af30656e69db
+ms.openlocfilehash: b4f2d58b9e33e603b6e2dbc97972bb54c66f065c
+ms.sourcegitcommit: d4d36b6b200f2693b545e4a3e66d94c77a3cfafb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/27/2019
-ms.locfileid: "56892381"
+ms.lasthandoff: 03/01/2019
+ms.locfileid: "57014130"
 ---
 # <a name="how-to-purchase-power-bi-premium"></a>如何购买 Power BI Premium
 
-本文介绍如何为你的组织购买 Power BI 高级容量 (P1-P3)。 在 Office 365 管理中心购买 Power BI Premium 容量并在 Power BI 管理门户中[管理容量](service-admin-premium-manage.md)。 有关当前定价和计划的信息，请参阅 [Power BI 定价页](https://powerbi.microsoft.com/pricing/)和 [Power BI Premium 计算器](https://powerbi.microsoft.com/calculator/)。
+> [!NOTE]
+> 本文目前正在更新，以说明新功能，提供更多详细信息并提高可读性。 
+
+本文介绍如何为你的组织购买 Power BI 高级容量 (P1-P3)。 在 Office 365 管理中心购买 Power BI Premium 容量并在 Power BI 管理门户中管理容量。 有关当前定价和计划的信息，请参阅 [Power BI 定价页](https://powerbi.microsoft.com/pricing/)和 [Power BI Premium 计算器](https://powerbi.microsoft.com/calculator/)。
 
 即使你的组织使用 Power BI Premium，内容创建者还是需要一个 Power BI Pro 许可证。 请确保为组织购买至少一个 Power BI Pro 许可证。
 

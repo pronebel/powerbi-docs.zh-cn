@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 02/22/2019
+ms.date: 03/01/2019
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: d388812985ce30b5692a385fc44e3cf7fc49161f
-ms.sourcegitcommit: 76772a361e6cd4dd88824b2e4b32af30656e69db
+ms.openlocfilehash: 4c32f27a04b055eb67015d9c8308866b972c06a7
+ms.sourcegitcommit: 364ffa1178cdfb0a20acffc0fd79922ebc892d72
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/27/2019
-ms.locfileid: "56892335"
+ms.lasthandoff: 03/02/2019
+ms.locfileid: "57226080"
 ---
 # <a name="self-service-data-prep-in-power-bi-preview"></a>Power BI 中的自助服务数据准备（预览）
 
@@ -75,9 +75,7 @@ Power BI 还可以使用通用数据模型格式的系统化数据连接到文�
 
 ## <a name="dataflow-capabilities-on-power-bi-premium"></a>Power BI Premium 上的数据流功能
 
-对于要在 Power BI Premium 订阅上运行的数据流功能和工作负载，必须启用该高级容量的数据流工作负载。 可以在[什么是 Power BI Premium](service-premium.md) 一文中了解有关 Power BI Premium 的更多信息。 
-
-下表介绍了使用 Power BI Pro 帐户时的数据流功能及其容量，以及与使用 Power BI Premium 相比的情况。
+对于要在 Power BI Premium 订阅上运行的数据流功能和工作负载，必须启用该高级容量的数据流工作负载。 下表介绍了使用 Power BI Pro 帐户时的数据流功能及其容量，以及与使用 Power BI Premium 相比的情况。
 
 
 |数据流功能 | Power BI Pro |   Power BI Premium |
@@ -95,7 +93,7 @@ Power BI 还可以使用通用数据模型格式的系统化数据连接到文�
 |数据流链接实体| |        +|
 |标准化架构/通用数据模型的内置支持|  +|  +|
 
-有关如何在高级容量上启用数据流工作负载的详细信息，请参阅 Power BI Premium 的[配置工作负载](service-admin-premium-manage.md#configure-workloads)一文。 数据流工作负载当前在多地理位置容量中不可用。
+有关如何对高级容量启用数据流工作负载的详细信息，请参阅[在高级容量中配置工作负载](service-admin-premium-workloads.md)。 数据流工作负载当前在多地理位置容量中不可用。
 
 ## <a name="summary-of-self-service-data-prep-for-big-data-in-power-bi"></a>Power BI 中大数据的自助服务数据准备摘要
 如本文前面所述，有多种方案和示例，其中数据流可以使用户从业务数据中获得更好的控制和更快的见解。 使用通用数据模型定义的标准数据模型（架构），数据流可以导入有价值的业务数据，并且可以在很短的时间内准备好数据以进行建模和创建 BI 见解，而过去这需要几个月的时间，甚至更长的时间才能创建。 

@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 08/02/2018
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: f42e9f69c3cdab945c0f000a0cc2ae4654d9ec9b
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 6a1834c88fbd7077f49560bc56b545539917ed3e
+ms.sourcegitcommit: 086b610cdfd1df5de61abb47acf97589df128a4c
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54296101"
+ms.lasthandoff: 03/01/2019
+ms.locfileid: "57196427"
 ---
 # <a name="organizational-content-packs-copy-refresh-and-get-access"></a>组织内容包：复制、刷新和访问
 
@@ -36,6 +36,12 @@ ms.locfileid: "54296101"
 2. 选择**保存**。  
 
 现在，你有一个可以更改的副本。 其他所有人都看不到你做出的更改。
+
+> [!NOTE]
+> 以前，每次安装内容包或创建副本时，新数据集都会显示在工作区内容列表中。 最近的更新简化了体验，使用新的引用数据集图标只显示一个项：
+>
+> ![带链接图标的数据库](media/service-organizational-content-pack-copy-refresh-access/power-bi-dataset-reference-icon.png)
+> 
 
 ## <a name="help--i-can-no-longer-access-the-content-pack"></a>帮助！  我再也无法访问该内容包
 这可能是多种原因引起的：

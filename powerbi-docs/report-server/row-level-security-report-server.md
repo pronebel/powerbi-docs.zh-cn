@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 01/22/2019
-ms.openlocfilehash: 8fe48becd106a91c0a57d145eab4b546985e2ba6
-ms.sourcegitcommit: 91ac6185f7026ddbaa925dc54057bb742b4fa411
+ms.openlocfilehash: 254b0c5c2e5a9b39f5d04f002a2791f1cd432c52
+ms.sourcegitcommit: 364ffa1178cdfb0a20acffc0fd79922ebc892d72
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/16/2019
-ms.locfileid: "56324935"
+ms.lasthandoff: 03/02/2019
+ms.locfileid: "57226195"
 ---
 # <a name="row-level-security-rls-in-power-bi-report-server"></a>Power BI 报表服务器中的行级别安全性 (RLS)
 
@@ -48,7 +48,7 @@ ms.locfileid: "56324935"
 1. 在 Power BI Desktop 中，将报表保存到 Power BI 报表服务器。 需要使用更适合 Power BI 报表服务器的 Power BI Desktop 版本。
 2. 在 Power BI 报表服务中，请选择报表旁边的省略号(…) 。 
 
-3. 选择“管理” > “行级别安全性” ****。 
+3. 选择“管理” > “行级别安全性”。 
 
      ![管理行级别安全性](media/row-level-security-report-server/power-bi-report-server-rls-dialog.png)
 

@@ -10,12 +10,12 @@ ms.subservice: powerbi-custom-visuals
 ms.topic: conceptual
 ms.custom: ''
 ms.date: 12/17/2018
-ms.openlocfilehash: 503a722a387c05952933a4cfa9aaa06eccc164da
-ms.sourcegitcommit: 76772a361e6cd4dd88824b2e4b32af30656e69db
+ms.openlocfilehash: c33ec747af514611df0ef00832acb785f04c40f1
+ms.sourcegitcommit: d4d36b6b200f2693b545e4a3e66d94c77a3cfafb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/27/2019
-ms.locfileid: "56892312"
+ms.lasthandoff: 03/01/2019
+ms.locfileid: "57014153"
 ---
 # <a name="frequently-asked-questions-about-power-bi-custom-visuals"></a>有关 Power BI 自定义视觉对象的常见问题
 
@@ -99,7 +99,7 @@ ms.locfileid: "56892312"
 
 ### <a name="what-is-a-visual-with-additional-purchases"></a>什么是额外付费的视觉对象？
 
-额外付费的视觉对象类似于市场中的应用内购买 (IAP) 加载项，这些加载项具有一个价格标记：  **可能需要额外付费** 。
+额外付费的视觉对象类似于市场中的应用内购买 (IAP) 加载项，这些加载项具有一个价格标记：“可能需要额外付费”。
 
 IAP 自定义视觉对象是可免费下载的自定义视觉对象 - 用户无需付费即可从市场中下载这些自定义视觉对象。 IAP 视觉对象提供可选的应用内购买选项，可用于购买高级功能。  
 

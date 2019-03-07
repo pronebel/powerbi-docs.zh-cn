@@ -10,12 +10,12 @@ ms.subservice: powerbi-gateways
 ms.topic: conceptual
 ms.date: 10/10/2018
 LocalizationGroup: Gateways
-ms.openlocfilehash: cb4d53166c848bcdb111b667ff413d96da9e72d5
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: f6a17a3e4033d5a97c5ae7744fef955aeed16eeb
+ms.sourcegitcommit: e9c45d6d983e8cd4cb5af938f838968db35be0ee
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54290512"
+ms.lasthandoff: 03/05/2019
+ms.locfileid: "57327725"
 ---
 # <a name="use-security-assertion-markup-language-saml-for-single-sign-on-sso-from-power-bi-to-on-premises-data-sources"></a>使用安全断言标记语言 (SAML) 进行从 Power BI 到本地数据源的单一登录 (SSO)
 
@@ -57,54 +57,7 @@ ms.locfileid: "54290512"
 
     ![选择标识提供者](media/service-gateway-sso-saml/select-identity-provider.png)
 
-接下来，通过 [xmlsec1 工具](http://sgros.blogspot.com/2013/01/signing-xml-document-using-xmlsec1.html)使用 SAML 断言验证设置。
-
-1. 将下面的断言保存为 assertion-template.xml。 将 \<MyUserId\> 替换为在步骤 7 中输入的 Power BI 用户 UPN。
-
-    ```xml
-    <?xml version="1.0" encoding="UTF-8" ?>
-    <saml2:Assertion ID="Assertion12345789" IssueInstant="2015-07-16T04:47:49.858Z" Version="2.0" xmlns:saml2="urn:oasis:names:tc:SAML:2.0:assertion">
-      <saml2:Issuer></saml2:Issuer> 
-      <Signature xmlns="http://www.w3.org/2000/09/xmldsig#">
-        <SignedInfo>
-          <CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"/>
-          <SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1"/>
-          <Reference URI="">
-            <Transforms>
-              <Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
-              <Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
-            </Transforms>
-            <DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/>
-            <DigestValue />
-          </Reference>
-        </SignedInfo>
-        <SignatureValue />
-        <KeyInfo>
-          <X509Data />
-        </KeyInfo>
-      </Signature>
-      <saml2:Subject>
-        <saml2:NameID Format="urn:oasis:names:tc:SAML:1.1:nameid-format:unspecified"><MyUserId></saml2:NameID>
-      </saml2:Subject>
-      <saml2:Conditions NotBefore="2010-01-01T00:00:00Z" NotOnOrAfter="2050-01-01T00:00:00Z"/>
-    </saml2:Assertion>
-    ```
-
-1. 运行以下命令。 saltiest.key 和 saml test.crt 是步骤 1 中生成的密钥和证书。
-
-    ```
-    xmlsec1 --sign --privkey-pem samltest.key, samltest.crt --output signed.xml assertion-template.xml
-    ```
-
-1. 在 SAP HANA Studio 中，打开 SQL 控制台窗口并运行以下命令。 将 \<SAMLAssertion\> 替换为上一步中的 xml 内容。
-
-    ```SQL
-    CONNECT WITH SAML ASSERTION '<SAMLAssertion>'
-    ```
-
-如果查询成功，表示 SAP HANA SAML SSO 设置成功。
-
-已成功配置证书和标识后，将证书转换为 pfx 格式并配置网关计算机以使用证书。
+配置证书和标识后，将证书转换为 pfx 格式并配置网关计算机以使用证书。
 
 1. 运行以下命令，将证书转换为 pfx 格式。
 

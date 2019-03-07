@@ -1,5 +1,5 @@
 ---
-title: 什么是 Power BI 网关？
+title: 什么是本地数据网关？
 description: 了解有关 Power BI 数据网关的基础知识。
 author: mgblythe
 manager: kfile
@@ -10,14 +10,14 @@ ms.topic: overview
 ms.date: 04/18/2018
 ms.author: mblythe
 LocalizationGroup: Gateways
-ms.openlocfilehash: 9c88a09eccd887007df8d2539be861b964c31b5f
-ms.sourcegitcommit: 91ac6185f7026ddbaa925dc54057bb742b4fa411
+ms.openlocfilehash: f1ae47dcb7c9281db018952d619691607d331003
+ms.sourcegitcommit: 87e81ba92f3d1d65c26f9fc007bf106f96f37bfd
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/16/2019
-ms.locfileid: "56324475"
+ms.lasthandoff: 03/06/2019
+ms.locfileid: "57461640"
 ---
-# <a name="what-are-power-bi-gateways"></a>什么是 Power BI 网关？
+# <a name="what-are-on-premises-data-gateways"></a>什么是本地数据网关？
 
 Power BI 网关是安装在本地网络中的软件；它便于访问该网络中的数据。 这类似于网关守卫侦听连接请求，并仅在用户请求满足特定条件时才授权访问。 这样，组织可以使数据库和其他数据源保留在其本地网络上，但可安全地使用 Power BI 报表和仪表板中的本地数据。
 

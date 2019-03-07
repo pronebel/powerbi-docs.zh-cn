@@ -9,12 +9,12 @@ ms.subservice: power-bi-developer
 ms.topic: conceptual
 ms.custom: ''
 ms.date: 02/05/2019
-ms.openlocfilehash: c5915f4f2792496a1521a868180d4ffc2dca3557
-ms.sourcegitcommit: 8207c9269363f0945d8d0332b81f1e78dc2414b0
+ms.openlocfilehash: 8d91b6cc03bb142d6d4aa101f87d8e3c1e6f3196
+ms.sourcegitcommit: d4d36b6b200f2693b545e4a3e66d94c77a3cfafb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/14/2019
-ms.locfileid: "56248898"
+ms.lasthandoff: 03/01/2019
+ms.locfileid: "57014406"
 ---
 # <a name="service-principal-with-power-bi-preview"></a>Power BI 的服务主体（预览版）
 
@@ -165,7 +165,7 @@ ms.locfileid: "56248898"
 
 * 服务主体仅适用于[新的应用工作区](../service-create-the-new-workspaces.md)。
 * 使用服务主体时，不支持“我的工作区”。
-* 移动到生产环境时，需要[专用容量](../service-admin-premium-manage.md)。
+* 移动到生产环境时需要专用的高级容量。
 * 无法使用服务主体登录 Power BI 门户。
 * 在 Power BI 管理门户的开发人员设置中启用服务主体需要 Power BI 管理权限。
 * 无法使用服务主体安装或管理本地数据网关。
