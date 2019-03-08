@@ -8,14 +8,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-gateways
 ms.topic: conceptual
-ms.date: 10/10/2018
+ms.date: 03/05/2019
 LocalizationGroup: Gateways
-ms.openlocfilehash: f6a17a3e4033d5a97c5ae7744fef955aeed16eeb
-ms.sourcegitcommit: e9c45d6d983e8cd4cb5af938f838968db35be0ee
+ms.openlocfilehash: c1ca797efa2e40bf74384a1e9f2362acd26c6f8f
+ms.sourcegitcommit: 883a58f63e4978770db8bb1cc4630e7ff9caea9a
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/05/2019
-ms.locfileid: "57327725"
+ms.lasthandoff: 03/07/2019
+ms.locfileid: "57555664"
 ---
 # <a name="use-security-assertion-markup-language-saml-for-single-sign-on-sso-from-power-bi-to-on-premises-data-sources"></a>使用安全断言标记语言 (SAML) 进行从 Power BI 到本地数据源的单一登录 (SSO)
 
@@ -38,6 +38,8 @@ ms.locfileid: "57327725"
     ```
 
 1. 在 SAP HANA Studio 中，右键单击 SAP HANA 服务器，然后导航到“安全” > “打开安全控制台” > “SAML 标识提供者” > “OpenSSL 加密库”。
+
+    也可以使用 SAP 加密库（也称为 CommonCryptoLib 或 sapcrypto）来替代 OpenSSL 完成这些设置步骤。 请参阅官方 SAP 文档，了解更多信息。
 
 1. 选择“导入”，导航到 samltest.crt，然后导入它。
 
@@ -121,6 +123,37 @@ ms.locfileid: "57327725"
 现在，可以使用 Power BI 中的“管理网关”页面配置数据源，并在其“高级设置”下启用 SSO。 然后，可以发布绑定到该数据源的报表和数据集。
 
 ![高级设置](media/service-gateway-sso-saml/advanced-settings.png)
+
+## <a name="troubleshooting"></a>故障排除
+
+配置 SSO 后，可能会在 Power BI 门户中看到以下错误：“提供的凭据无法用于 SapHana 源。” 此错误表示 SAP HANA 已拒绝 SAML 凭据。
+
+身份验证跟踪提供详细信息，以对 SAP HANA 上的凭据问题进行故障排除。 按照以下步骤配置 SAP HANA 服务器的跟踪。
+
+1. 在 SAP HANA 服务器上，通过运行以下查询启用身份验证跟踪。
+
+    ```
+    ALTER SYSTEM ALTER CONFIGURATION ('indexserver.ini', 'SYSTEM') set ('trace', 'authentication') = 'debug' with reconfigure 
+    ```
+
+1. 重现所遇到的问题。
+
+1. 在 HANA Studio 中，打开管理控制台，然后转到“诊断文件”选项卡。
+
+1. 打开最新的 indexserver 跟踪并搜索 SAMLAuthenticator.cpp。
+
+    应该会找到一个指示根本原因的详细错误消息，如以下示例所示。
+
+    ```
+    [3957]{-1}[-1/-1] 2018-09-11 21:40:23.815797 d Authentication   SAMLAuthenticator.cpp(00091) : Element '{urn:oasis:names:tc:SAML:2.0:assertion}Assertion', attribute 'ID': '123123123123123' is not a valid value of the atomic type 'xs:ID'.
+    [3957]{-1}[-1/-1] 2018-09-11 21:40:23.815914 i Authentication   SAMLAuthenticator.cpp(00403) : No valid SAML Assertion or SAML Protocol detected
+    ```
+
+1. 完成故障排除后，通过运行以下查询关闭身份验证跟踪。
+
+    ```
+    ALTER SYSTEM ALTER CONFIGURATION ('indexserver.ini', 'SYSTEM') UNSET ('trace', 'authentication');
+    ```
 
 ## <a name="next-steps"></a>后续步骤
 
