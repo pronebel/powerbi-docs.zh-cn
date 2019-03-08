@@ -7,18 +7,18 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 08/08/2018
+ms.date: 02/28/2019
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 7b835231356ad14ab434b86a2d1f99aa7212358d
-ms.sourcegitcommit: 5e83fa6c93a0bc6599f76cc070fb0e5c1fce0082
+ms.openlocfilehash: 2f64973650edd951a9a780090426afba3e8471f5
+ms.sourcegitcommit: 883a58f63e4978770db8bb1cc4630e7ff9caea9a
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/13/2019
-ms.locfileid: "56215614"
+ms.lasthandoff: 03/07/2019
+ms.locfileid: "57555599"
 ---
 # <a name="export-reports-to-pdf-from-power-bi-desktop"></a>从 Power BI Desktop 中将报表导出到 PDF
-在 Power BI Desktop 中，可将报表导出到 PDF 文件，从而从该 PDF 中轻松共享或打印报表。
+在 Power BI Desktop 或 Power BI 服务中，可将报表导出到 PDF 文件，从而从该 PDF 中轻松共享或打印报表。
 
 ![导出到 PDF](media/desktop-export-to-pdf/export-to-pdf_01.png)
 
@@ -35,7 +35,6 @@ ms.locfileid: "56215614"
 ## <a name="considerations-and-limitations"></a>注意事项和限制
 对于“导出到 PDF”功能，需要牢记以下注意事项：
 
-* “导出到 PDF”功能仅适用于 Power BI Desktop，目前不在 Power BI 服务中提供。
 * 该功能可导出自定义视觉对象，但不可导出可能已应用于报表的任何墙纸。
 
 由于墙纸不可导出到 PDF 文件，因此应特别注意使用深色墙纸的报表。 如果报表中的文本为浅色或白色，以使其在深色墙纸中突出显示，那么由于墙纸不会与报表的其余部分一起导出，因此在导出到 PDF 的过程中难以阅读或无法阅读这些文本。 

@@ -1,5 +1,5 @@
 ---
-title: 在 Power BI Desktop 中使用存储模式（预览版）
+title: 使用 Power BI Desktop 中的存储模式
 description: 存储模式可用于控制 Power BI Desktop 是否将数据缓存到报表内存中
 author: davidiseminger
 manager: kfile
@@ -7,17 +7,17 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 11/13/2018
+ms.date: 02/26/2019
 ms.author: davidi
 LocalizationGroup: Transform and shape data
-ms.openlocfilehash: 26ab2ec7dfd7a091a6a7df89ee4492dc124ed60c
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: f84e2f95c8ae209828eb1c21f34253015e07aefa
+ms.sourcegitcommit: 883a58f63e4978770db8bb1cc4630e7ff9caea9a
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54279173"
+ms.lasthandoff: 03/07/2019
+ms.locfileid: "57555869"
 ---
-# <a name="storage-mode-in-power-bi-desktop-preview"></a>Power BI Desktop 中的存储模式（预览版）
+# <a name="storage-mode-in-power-bi-desktop"></a>Power BI Desktop 中的存储模式
 
 在 Microsoft Power BI Desktop 中，可以指定表的存储模式。 借助存储模式，可控制 Power BI Desktop 是否将表数据缓存到报表内存中。 
 
@@ -37,9 +37,9 @@ ms.locfileid: "54279173"
 
 Power BI Desktop 中的存储模式设置是以下三个相关功能之一：
 
-* **复合模型**：允许报表有任意组合的两个或多个数据连接，包括 DirectQuery 连接或“导入”。 有关详细信息，请参阅 [Power BI Desktop 中的复合模型（预览版）](desktop-composite-models.md)。
+* **复合模型**：允许报表有任意组合的两个或多个数据连接，包括 DirectQuery 连接或“导入”。 有关详细信息，请参阅 [Power BI Desktop 中的复合模型](desktop-composite-models.md)。
 
-* **多对多关系**：借助复合模型，可以在表之间建立多对多关系。 多对多关系功能删除了对表中唯一值的要求。 它还删除了旧解决办法，如为建立关系而仅引入新表。 有关详细信息，请参阅 [Power BI Desktop 中的多对多关系（预览版）](desktop-many-to-many-relationships.md)。
+* **多对多关系**：借助复合模型，可以在表之间建立多对多关系。 多对多关系功能删除了对表中唯一值的要求。 它还删除了旧解决办法，如为建立关系而仅引入新表。 有关详细信息，请参阅 [Power BI Desktop 中的多对多关系](desktop-many-to-many-relationships.md)。
 
 * **存储模式**：现在可以指定哪些视觉对象需要查询后端数据源。 导入的是不需要查询的视觉对象，即使基于 DirectQuery，也不例外。 此功能有助于提升性能，并减少后端负载。 以前，甚至是切片器等简单视觉对象，也会启动发送至后端源的查询。 本文进一步介绍了存储模式。
 
@@ -127,13 +127,13 @@ Power BI Desktop 中的存储模式设置是以下三个相关功能之一：
 ![存储模式诊断脚本](media/desktop-storage-mode/storage-mode_08.png)
 
 > [!NOTE]
-> 合并缓存表和非缓存表时，此行为不同于 [Power BI Desktop 中的多对多关系（预览版）](desktop-many-to-many-relationships.md)。
+> 合并缓存表和非缓存表时，此行为不同于 [Power BI Desktop 中的多对多关系](desktop-many-to-many-relationships.md)。
 
 ## <a name="caches-should-be-kept-in-sync"></a>缓存应保持同步
 
 上一部分中显示的查询表明，“双”模式表有时会命中缓存，有时也不会。 因此，如果缓存已过期，可能返回不同的值。 查询执行不会试图掩盖数据问题，例如，通过筛选 DirectQuery 结果以匹配缓存值。 了解数据流是你的责任，并应相应地进行设计。 如有必要，有一些现成的技术可以在源中处理此类情况。
 
-“双”存储模式是一种性能优化。 只有在不影响满足业务需求的情况下，才能使用它。 对于备用行为，请考虑使用 [Power BI Desktop 中的多对多关系（预览版）](desktop-many-to-many-relationships.md)一文中所述的技术。
+“双”存储模式是一种性能优化。 只有在不影响满足业务需求的情况下，才能使用它。 对于备用行为，请考虑使用 [Power BI Desktop 中的多对多关系](desktop-many-to-many-relationships.md)一文中所述的技术。
 
 ## <a name="data-view"></a>数据视图
 如果数据集中至少有一个表的“存储模式”设置为“导入”或“双”，系统便会显示“数据视图”选项卡。
@@ -162,7 +162,7 @@ Power BI Desktop 中的存储模式设置是以下三个相关功能之一：
 ## <a name="next-steps"></a>后续步骤
 
 若要详细了解复合模型和 DirectQuery，请参阅以下文章：
-* [Power BI Desktop 中的复合模型（预览版）](desktop-composite-models.md)
-* [Power BI Desktop 中的多对多关系（预览版）](desktop-many-to-many-relationships.md)
+* [Power BI Desktop 中的复合模型](desktop-composite-models.md)
+* [Power BI Desktop 中的多对多关系](desktop-many-to-many-relationships.md)
 * [在 Power BI 中使用 DirectQuery](desktop-directquery-about.md)
 * [Power BI 中 DirectQuery 支持的数据源](desktop-directquery-data-sources.md)
