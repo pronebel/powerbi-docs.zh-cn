@@ -710,6 +710,8 @@ items:
         href: refresh-troubleshooting-tile-errors.md
       - name: 刷新失败时，如何刷新 Xero 内容包证书
         href: service-refresh-xero-credentials.md
+      - name: 无法登录
+        href: power-bi-cannot-sign-in.md
     - name: 其他任务
       items:
       - name: 重命名 Power BI 中的内容
@@ -1315,9 +1317,9 @@ items:
       href: service-admin-governance.md
     - name: Power BI 安全性
       href: service-admin-power-bi-security.md
-ms.openlocfilehash: 745db3e8002feaa9728a746167e585c62a4420a4
-ms.sourcegitcommit: 378265939126fd7c96cb9334dac587fc80291e97
+ms.openlocfilehash: 45e6ec57f6fd9a0b02c6139b1bb6e3249edcbadc
+ms.sourcegitcommit: f176ba9d52d50d93f264eca21bb3fd987dbf934b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "57580257"
+ms.lasthandoff: 03/12/2019
+ms.locfileid: "57757429"
