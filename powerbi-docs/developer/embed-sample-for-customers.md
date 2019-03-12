@@ -10,16 +10,18 @@ ms.service: powerbi
 ms.component: powerbi-developer
 ms.custom: seodec18
 ms.date: 02/05/2019
-ms.openlocfilehash: adeb3f09e52d039937ba3cf54afb72f8ed1287f3
-ms.sourcegitcommit: 8207c9269363f0945d8d0332b81f1e78dc2414b0
+ms.openlocfilehash: 3e8a4f443a6784020467ef1cf3a918ef5410b209
+ms.sourcegitcommit: f176ba9d52d50d93f264eca21bb3fd987dbf934b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/14/2019
-ms.locfileid: "56249151"
+ms.lasthandoff: 03/12/2019
+ms.locfileid: "57757406"
 ---
 # <a name="tutorial-embed-power-bi-content-into-an-application-for-your-customers"></a>教程：为客户将 Power BI 内容嵌入应用中
 
 使用“Azure 中的 Power BI Embedded”，可以借助“应用拥有数据”将报表、仪表板或磁贴嵌入到应用程序中。 **应用拥有数据**是指将使用 Power BI 的应用程序作为其嵌入式分析平台。 ISV 开发者可以创建 Power BI 内容以便在完全集成并交互的应用程序中显示报表、仪表板或磁贴，用户无需 Power BI 许可证。 本教程演示针对客户使用“Azure 中的 Power BI Embedded”时，如何使用 Power BI .NET SDK 以及 Power BI JavaScript API 将报表集成到应用程序中。
+
+![Power BI 嵌入报表](media/embed-sample-for-customers/embed-sample-for-customers-035.png)
 
 在本教程中，了解如何：
 > [!div class="checklist"]

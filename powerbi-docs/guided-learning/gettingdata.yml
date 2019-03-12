@@ -12,14 +12,14 @@ metadata:
   manager: kfile
   ms.service: powerbi
   ms.topic: conceptual
-  ms.date: 11/28/2018
+  ms.date: 02/26/2019
   ms.author: davidi
-  ms.openlocfilehash: 82fe2cf4978084b4039759e88e3d877c74702821
-  ms.sourcegitcommit: 2ae660a7b70fce23eb58b159d049eca44a664f2c
+  ms.openlocfilehash: 406382ab02cbc8eb576374948a81e0a1c74669cd
+  ms.sourcegitcommit: 883a58f63e4978770db8bb1cc4630e7ff9caea9a
   ms.translationtype: HT
   ms.contentlocale: zh-CN
-  ms.lasthandoff: 11/30/2018
-  ms.locfileid: "52669994"
+  ms.lasthandoff: 03/07/2019
+  ms.locfileid: "57555562"
 items:
 - durationInMinutes: 1
   content: >
@@ -31,14 +31,14 @@ items:
 
 
     [!INCLUDE [](includes/1-1-overview-of-power-bi-desktop.md)]
-- title: 开始使用 Power BI Desktop
+- title: Power BI Desktop 入门
   durationInMinutes: 9
   content: >
     > [!Video https://www.youtube.com/embed/1Bo1BrpR3AY?rel=0]
 
 
     [!INCLUDE [](includes/0-2-get-started-power-bi-desktop.md)]
-- title: 在 Power BI Desktop 中连接到数据源
+- title: 连接到 Power BI Desktop 中的数据源
   durationInMinutes: 8
   content: >
     > [!Video https://www.youtube.com/embed/S6s0osmRCZ4?rel=0]

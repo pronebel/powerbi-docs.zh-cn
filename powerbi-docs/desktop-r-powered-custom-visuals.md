@@ -1,21 +1,21 @@
 ---
 title: 在 Power BI 中使用 R 驱动的自定义视觉对象
 description: 在 Power BI 中使用 R 驱动的自定义视觉对象
-author: markingmyname
-ms.author: maghan
+author: sranins
+ms.author: rasala
 manager: kfile
-ms.reviewer: ''
+ms.reviewer: maghan
 ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: conceptual
 ms.date: 07/27/2018
 LocalizationGroup: Create reports
-ms.openlocfilehash: 48eb26d3827f69831f2d565b26c20853906ab41d
-ms.sourcegitcommit: 76772a361e6cd4dd88824b2e4b32af30656e69db
+ms.openlocfilehash: d79164ea5b66fe003f913742436a817d76d798e0
+ms.sourcegitcommit: d0abedcf07f964418c9e5ea8d8ee3338b0b97a50
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/27/2019
-ms.locfileid: "56892174"
+ms.lasthandoff: 03/09/2019
+ms.locfileid: "57695118"
 ---
 # <a name="use-r-powered-custom-visuals-in-power-bi"></a>在 Power BI 中使用 R 驱动的自定义视觉对象
 

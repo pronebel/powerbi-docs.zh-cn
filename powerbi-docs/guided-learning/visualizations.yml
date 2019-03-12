@@ -1,5 +1,5 @@
 ### YamlMime:Tutorial
-title: 可视化效果
+title: 可视化
 metadata:
   title: 可视化效果 | Microsoft Power BI
   description: 可视化效果让数据融入生活，并展现令人瞩目的出色可视化表示形式所独有的洞察力。 本部分将演示操作方法。
@@ -12,14 +12,14 @@ metadata:
   manager: kfile
   ms.service: powerbi
   ms.topic: conceptual
-  ms.date: 11/28/2018
+  ms.date: 02/26/2019
   ms.author: davidi
-  ms.openlocfilehash: 4ca7b9cb2b0e98d162b9a86587631ee1d333ca91
-  ms.sourcegitcommit: 2ae660a7b70fce23eb58b159d049eca44a664f2c
+  ms.openlocfilehash: 7c7662c3d72f6241f7579f16bae08b21da000cf9
+  ms.sourcegitcommit: 883a58f63e4978770db8bb1cc4630e7ff9caea9a
   ms.translationtype: HT
   ms.contentlocale: zh-CN
-  ms.lasthandoff: 11/30/2018
-  ms.locfileid: "52669695"
+  ms.lasthandoff: 03/07/2019
+  ms.locfileid: "57555743"
 items:
 - durationInMinutes: 1
   content: >

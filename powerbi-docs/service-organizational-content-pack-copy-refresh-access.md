@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 08/02/2018
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 6a1834c88fbd7077f49560bc56b545539917ed3e
-ms.sourcegitcommit: 086b610cdfd1df5de61abb47acf97589df128a4c
+ms.openlocfilehash: f22cac734d98e98cd17a915c09d6705e2cad121a
+ms.sourcegitcommit: 378265939126fd7c96cb9334dac587fc80291e97
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/01/2019
-ms.locfileid: "57196427"
+ms.lasthandoff: 03/07/2019
+ms.locfileid: "57580050"
 ---
 # <a name="organizational-content-packs-copy-refresh-and-get-access"></a>组织内容包：复制、刷新和访问
 
@@ -25,13 +25,13 @@ ms.locfileid: "57196427"
 
 > [!NOTE]
 > 无法在新工作区体验预览中创建或安装组织内容包。 现在正是将内容包升级到应用的最佳时机（如果尚未升级）。 详细了解[新工作区体验](service-create-the-new-workspaces.md)。
-> 
+>
 
 ## <a name="create-a-copy-of-an-organizational-content-pack"></a>创建组织内容包的副本
 创建内容包的专属副本，并对其他用户不可见。
 
 1. 选择内容包仪表板旁边的省略号 (...) >“创建副本”。
-   
+
     ![](media/service-organizational-content-pack-copy-refresh-access/power-bi-create-copy-organizational-content-pack.png)
 2. 选择**保存**。  
 
@@ -41,7 +41,7 @@ ms.locfileid: "57196427"
 > 以前，每次安装内容包或创建副本时，新数据集都会显示在工作区内容列表中。 最近的更新简化了体验，使用新的引用数据集图标只显示一个项：
 >
 > ![带链接图标的数据库](media/service-organizational-content-pack-copy-refresh-access/power-bi-dataset-reference-icon.png)
-> 
+>
 
 ## <a name="help--i-can-no-longer-access-the-content-pack"></a>帮助！  我再也无法访问该内容包
 这可能是多种原因引起的：
@@ -51,7 +51,7 @@ ms.locfileid: "57196427"
 * **安全设置更改**：如果仪表板和报表连接到本地 SSAS 数据源，并且对安全设置进行了更改，则可能会撤销你对该服务器的权限。
 
 ## <a name="how-are-organizational-content-packs-refreshed"></a>如何刷新组织内容包？
-创建内容包时，数据集会继承刷新设置。  如果你复制内容包，新版本会保留指向原始数据集及其刷新计划的链接。 
+创建内容包时，数据集会继承刷新设置。  如果你复制内容包，新版本会保留指向原始数据集及其刷新计划的链接。
 
 请参阅[管理、更新和删除组织内容包](service-organizational-content-pack-manage-update-delete.md)。
 
@@ -59,4 +59,3 @@ ms.locfileid: "57196427"
 * [组织内容包简介](service-organizational-content-pack-introduction.md)
 * [在 Power BI 中创建组](service-create-distribute-apps.md)
 * 更多问题？ [尝试参与 Power BI 社区](http://community.powerbi.com/)
-
