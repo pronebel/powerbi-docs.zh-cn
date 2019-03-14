@@ -1,30 +1,34 @@
 ---
-title: 可能需要额外付费 - Power BI 视觉对象指南
+title: Power BI 视觉对象指南
 description: 了解如何将自定义视觉对象发布到 AppSource 让其他人了解并付费使用。
-author: markingmyname
-ms.author: maghan
+author: sranins
+ms.author: rasala
 manager: kfile
-ms.reviewer: ''
+ms.reviewer: maghan
 ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: conceptual
-ms.date: 11/26/2018
-ms.openlocfilehash: 92d4320026164e523297cbe48ee87ce33d9ab2f7
-ms.sourcegitcommit: 796bf513bf8669676e2a44627b56221b1629a6a8
+ms.date: 03/10/2019
+ms.openlocfilehash: 02ce5146a154583d784de8030a0b0ec84740fcb3
+ms.sourcegitcommit: f176ba9d52d50d93f264eca21bb3fd987dbf934b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/26/2019
-ms.locfileid: "56826574"
+ms.lasthandoff: 03/12/2019
+ms.locfileid: "57757291"
 ---
-# <a name="guidelines-for-power-bi-visuals-with-additional-purchases"></a>额外购买的 Power BI 视觉对象指南
+# <a name="guidelines-for-power-bi-visuals"></a>Power BI 视觉对象指南
 
-一直到最近，市场 (AppSource) 仅接受免费的 Power BI 视觉对象。 此策略已更改，还可以向 AppSource 提交带有“可能需要额外付费”价格标签的视觉对象。 
+## <a name="guidelines-for-power-bi-visuals-with-additional-purchases"></a>额外购买的 Power BI 视觉对象指南
+
+一直到最近，市场 (AppSource) 仅接受免费的 Power BI 视觉对象。 此策略已更改（2018 年 12 月），还可以向 AppSource 提交带有“可能需要额外付费”价格标签的视觉对象。 
 
 “可能需要额外付费”的视觉对象类似于 Office 应用商店中的应用内购买 (IAP) 加载项。 在得到 AppSource 团队的批准，并确保视觉对象符合认证要求后，开发人员还可提交这些视觉对象进行认证。 有关要求的详细信息，请参阅[认证的自定义视觉对象](../power-bi-custom-visuals-certified.md)。
 
 > [!NOTE]
-> * 要认证的视对象觉不得访问外部服务或资源。
-> * 所有免费视觉对象应保留以前提供的相同免费功能。 可以在现有免费功能基础上添加可选的高级付费功能。 我们建议将具有高级功能的 IAP 视觉对象作为新视觉对象提交，而不是更新现有免费视觉对象。
+> 要认证的视对象觉不得访问外部服务或资源。
+
+>[!IMPORTANT]  
+> 如果将视觉对象从免费更新为“可能需要额外付费”，用户必须获得与更新前相同级别的免费功能。 可以在现有免费功能基础上添加可选的高级付费功能。 我们建议将具有高级功能的 IAP 视觉对象作为新视觉对象提交，而不是更新现有免费视觉对象。
 
 
 ## <a name="what-changed-in-the-submission-process"></a>提交过程有什么变化？
@@ -38,13 +42,13 @@ IAP 视觉对象是一个免费的视觉对象，可提供免费功能。 它还
 开发人员可使用各种第三方支付系统进行购买。 有关详细信息，请参阅[我们的应用商店策略](https://docs.microsoft.com/office/dev/store/validation-policies#2-apps-or-add-ins-can-display-certain-ads)。
 
 > [!NOTE]
-> 不允许在免费功能上设置水印。 如果在没有有效许可证的情况下使用高级付费功能，开发人员可能会显示一个弹出窗口或水印。  
+> 不允许在免费功能或免费视觉对象上设置水印。 只能为使用时无有效许可的付费功能使用水印。 如果在无有效许可的情况下使用高级功能，建议显示一个弹出窗口，提示与许可相关的所有信息。  
 
 ## <a name="logo-guidelines"></a>徽标指南
 
 本部分介绍了在视觉对象中添加徽标和标识的规范。
 
-> [!NOTE]
+> [!IMPORTANT]
 > 仅允许在编辑模式下使用徽标。 无法在查看模式下显示徽标。
 
 ![定义](media/office-store-in-app-purchase-visual-guidelines/definitions.png)

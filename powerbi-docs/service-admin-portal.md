@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 01/24/2019
 ms.custom: seodec18
 LocalizationGroup: Administration
-ms.openlocfilehash: a4180f211a2b31a8610d410a74e0cca25dcdad15
-ms.sourcegitcommit: d4d36b6b200f2693b545e4a3e66d94c77a3cfafb
+ms.openlocfilehash: ca9a2eff3d05ec10c83dde90eabb779370ca5e96
+ms.sourcegitcommit: f176ba9d52d50d93f264eca21bb3fd987dbf934b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/01/2019
-ms.locfileid: "57014636"
+ms.lasthandoff: 03/12/2019
+ms.locfileid: "57757337"
 ---
 # <a name="administering-power-bi-in-the-admin-portal"></a>在管理门户中管理 Power BI
 
@@ -192,6 +192,13 @@ Office 365 中的全局管理员或分配有 Power BI 服务管理员角色的�
 
 ![打印报表](media/service-admin-portal/powerbi-admin-print-report.png)
 
+### <a name="allow-external-guest-users-to-edit-and-manage-content-in-the-organization"></a>允许外部来宾用户编辑和管理组织中的内容
+Azure B2B 来宾用户可以编辑和管理组织中的内容。 [了解详细信息](service-admin-azure-ad-b2b.md)
+
+下图显示用于允许外部来宾用户编辑和管理组织中内容的选项。
+
+![允许外部来宾用户编辑和管理组织中的内容](media/service-admin-portal/powerbi-admin-tenant-settings-b2b-guest-edit-manage.png)
+
 ## <a name="content-pack-and-app-settings"></a>内容包和应用设置
 
 ### <a name="publish-content-packs-and-apps-to-the-entire-organization"></a>向整个组织发布内容包和应用
@@ -243,10 +250,45 @@ Office 365 中的全局管理员或分配有 Power BI 服务管理员角色的�
 > [!NOTE]
 > 此设置可以应用于整个组织，也可以限制为特定组。
 
+
+Power BI Desktop（2019 年 3 月版及更高版本）支持通过“组策略”禁止在组织部署的计算机上使用自定义视觉对象。
+
+<table>
+<tr><th>属性</th><th>值</th>
+</tr>
+<td>键</td>
+    <td>Software\Policies\Microsoft\Power BI Desktop\</td>
+<tr>
+<td>值名称</td>
+<td>EnableCustomVisuals</td>
+</tr>
+</table>
+
+十进制值 1 允许在 Power BI 中使用自定义视觉对象（这是默认值）。
+
+十进制值 0 禁止在 Power BI 中使用自定义视觉对象。
+
 ### <a name="allow-only-certified-visuals"></a>仅允许已认证的视觉对象
 
 组织中已获得添加和使用自定义视觉对象权限的用户（由“添加和使用自定义视觉对象”设置表示）将只能够使用[已认证的自定义视觉对象](https://go.microsoft.com/fwlink/?linkid=2002010)（未经认证的视觉对象将受阻，并在使用时显示错误消息）。 
 
+
+Power BI Desktop（2019 年 3 月版及更高版本）支持通过“组策略”禁止在组织部署的计算机上使用未经认证的自定义视觉对象。
+
+<table>
+<tr><th>属性</th><th>值</th>
+</tr>
+<td>键</td>
+    <td>Software\Policies\Microsoft\Power BI Desktop\</td>
+<tr>
+<td>值名称</td>
+<td>EnableUncertifiedVisuals</td>
+</tr>
+</table>
+
+十进制值 1 允许在 Power BI 中使用未经认证的自定义视觉对象（这是默认值）。
+
+十进制值 0 禁止在 Power BI 中使用未经认证的自定义视觉对象（该选项只允许使用[认证的自定义视觉对象](https://go.microsoft.com/fwlink/?linkid=2002010)）。
 
 ## <a name="r-visuals-settings"></a>R 视觉对象设置
 

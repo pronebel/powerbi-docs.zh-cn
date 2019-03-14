@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 12/10/2018
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: a4f10253619393ffd9807b1e33730a4dd37a47ff
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: f96e5235aba6f90e6f80286ebfb409004ccd5052
+ms.sourcegitcommit: 378265939126fd7c96cb9334dac587fc80291e97
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54277379"
+ms.lasthandoff: 03/07/2019
+ms.locfileid: "57580234"
 ---
 # <a name="share-your-power-bi-dashboards-and-reports-with-coworkers-and-others"></a>与同事和其他人共享 Power BI 仪表板和报表
 共享是一种使多人能够访问你的仪表板和报表的有效方式。 Power BI 还提供了[其他多种开展协作和分发仪表板及报表的方式](service-how-to-collaborate-distribute-dashboards-reports.md)。
@@ -98,13 +98,15 @@ ms.locfileid: "54277379"
 
 登录后，就可以在浏览器窗口（而不是常用的 Power BI 门户）中看到没有左侧导航窗格的共享仪表板或报表。 他们需要将该链接保存为书签以便将来访问此仪表板或报表。
 
-组织外的用户不能编辑此仪表板或报表内的任何内容。 他们可以与图表进行交互并更改报表中的筛选器或切片器，但不能保存更改。
+组织外的用户不能编辑此仪表板或报表内的任何内容。 他们可以与图表进行交互并更改报表中的筛选器或切片器，但不能保存更改。 
 
 只有你的直接收件人才能看到共享仪表板或报表。 例如，如果发送电子邮件至 Vicki@contoso.com，只有 Vicki 才能看到仪表板。 其他任何人都看不到该仪表板，即使他们有链接；并且 Vicki 必须使用相同的电子邮件地址来访问该仪表板。 如果她使用任何其他的电子邮件地址进行注册，她也将无权访问该仪表板。
 
 如果角色级或行级安全性是通过本地 Analysis Services 表格模型实现的，组织外的人员将完全无法查看任何数据。
 
 如果从 Power BI 移动应用向组织外部人员发送链接，外部人员单击链接后会在浏览器（而不是 Power BI 移动应用）中打开仪表板。
+
+如果使用[允许外部来宾用户编辑和管理组织中的内容](service-admin-portal.md#export-and-sharing-settings)启用了来宾用户，则不会向她们应用仅默认使用体验。 [了解详细信息](service-admin-azure-ad-b2b.md)
 
 ## <a name="limitations-and-considerations"></a>限制和注意事项
 共享仪表板和报表的注意事项：

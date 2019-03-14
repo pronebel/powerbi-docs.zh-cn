@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 02/28/2019
+ms.date: 03/07/2019
 ms.author: davidi
 LocalizationGroup: Conceptual
-ms.openlocfilehash: 8415e731fd8749397b9604277f9f37f126b5413f
-ms.sourcegitcommit: 76772a361e6cd4dd88824b2e4b32af30656e69db
+ms.openlocfilehash: 957c6d5fe8797f1b03eaab3a54846e7110b302fb
+ms.sourcegitcommit: 378265939126fd7c96cb9334dac587fc80291e97
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/27/2019
-ms.locfileid: "56892634"
+ms.lasthandoff: 03/07/2019
+ms.locfileid: "57580280"
 ---
 # <a name="power-bi-security-whitepaper"></a>Power BI 安全性白皮书
 
@@ -34,7 +34,7 @@ ms.locfileid: "56892634"
 
 Power BI 是 Microsoft 提供的在线软件服务（SaaS 或软件即服务），你可以通过它轻松快速地创建自助式商业智能仪表板、报表、数据集和可视化。 使用 Power BI，可以连接到多个不同的数据源，合并并调整来自这些连接的数据，然后创建可与其他人共享的报表和仪表板。
 
-Power BI 服务受 [Microsoft Online Services 条款](http://www.microsoftvolumelicensing.com/DocumentSearch.aspx?Mode=3&amp;DocumentTypeId=31)和 [Microsoft Enterprise Privacy 声明](http://www.microsoft.com/privacystatement/OnlineServices/Default.aspx)约束。 有关数据处理的位置，请参阅 Microsoft Online Services 条款中的数据处理条款位置。 有关符合性信息，[Microsoft 信任中心](https://www.microsoft.com/trustcenter)提供了适用于 Power BI 的大量资源。 Power BI 团队正在努力为客户提供最新创新和提高生产效率。 Power BI 目前位于 [Office 365 符合性框架](http://go.microsoft.com/fwlink/p/?LinkID=618494)的 D 层。
+Power BI 服务受 [Microsoft Online Services 条款](http://www.microsoftvolumelicensing.com/DocumentSearch.aspx?Mode=3&amp;DocumentTypeId=31)和 [Microsoft Enterprise Privacy 声明](http://www.microsoft.com/privacystatement/OnlineServices/Default.aspx)约束。 有关数据处理的位置，参阅 Microsoft Online Services 条款中的数据处理条款位置。 有关符合性信息，[Microsoft 信任中心](https://www.microsoft.com/trustcenter)提供了适用于 Power BI 的大量资源。 Power BI 团队正在努力为客户提供最新创新和提高生产效率。 Power BI 目前位于 [Office 365 符合性框架](http://go.microsoft.com/fwlink/p/?LinkID=618494)的 D 层。
 
 本文通过以下方式介绍了 Power BI 的安全性：首先说明 Power BI 的体系结构，然后说明用户如何对 Power BI 进行身份验证以及如何建立数据连接，最后描述 Power BI 如何通过服务存储和移动数据。 最后一部分专门讨论与安全相关的问题，并附上了每个问题的答案。
 
@@ -98,7 +98,7 @@ Azure SQL 数据库中存储和更新了用户的 Power BI 订阅相关的元数
 
 创建 Power BI 租户的数据中心应最邻近该国家（或地区）和为 Azure Active Directory 中的租户提供的状态信息，在最初预配 Office 365 或 Power BI 服务时提供了该信息。 当前，Power BI 租户不会从该数据中心位置移动。
 
-### <a name="multiple-geographies-multi-geo---preview"></a>多地理位置 (Multi-geo) - 预览版
+### <a name="multiple-geographies-multi-geo"></a>多地理位置 (Multi-geo)
 
 某些组织因业务需求需要在多个地理位置或区域具有 Power BI。 例如，企业可能在美国拥有其 Power BI 租户，但也可能在其他地理位置区域（如澳大利亚）开展业务，并且需要将 Power BI 服务和数据保留在该远程区域。  从 2018 年下半年开始，在一个地理位置中拥有租户的组织也可以在正确预配后访问其他地理位置中的 Power BI 资源。 为了在本文档中方便阅读和参考，将此功能称为“multi-geo”。
 
@@ -121,46 +121,13 @@ Power BI 根据 Power BI 群集在区域数据中心的部署位置在某些区�
 - [Azure 区域](http://azure.microsoft.com/regions/) - 有关 Azure 全球存在状况和位置的信息
 - [Azure 服务（按区域）](http://azure.microsoft.com/regions/#services) - Microsoft 在每个区域提供的 Azure 服务（基础结构服务和平台服务）的完整列表。
 
-目前，Power BI 服务在以下区域提供，由以下主数据中心提供服务：
+目前，Power BI 服务可用于特定区域，由[Microsoft 信任中心]((https://www.microsoft.com/TrustCenter/CloudServices/business-application-platform/data-location)内所述的数据中心提供服务。 下面的链接显示的是 Power BI 数据中心图，将光标悬停在某个区域上方即可查看位于该区域的数据中心：
 
-- 美国
-  - 美国东部
-  - 美国东部 2
-  - 美国中北部
-  - 美国中南部
-  - 美国西部
-  - 美国西部 2
-- 加拿大
-  - 加拿大中部
-  - 加拿大东部
-- 英国
-  - 英国西部
-  - 英国南部
-- 巴西
-  - 巴西南部
-- 德国
-  - 德国中部
-  - 德国东北部
-- 欧洲
-  - 北欧
-  - 西欧
-- 日本
-  - 日本东部
-  - 日本西部
-- 印度
-  - 印度中部
-  - 印度南部
-  - 印度西部
-- 亚太
-  - 东亚
-  - 东南亚
-- 澳大利亚
-  - 澳大利亚东部
-  - 澳大利亚东南部
+* [Power BI 数据中心](https://www.microsoft.com/TrustCenter/CloudServices/business-application-platform/data-location)
 
 Microsoft 还为国家主权提供数据中心。 有关主权云的 Power BI 服务可用性的详细信息，请参阅 [Power BI 主权云](https://powerbi.microsoft.com/clouds/)。
 
-有关数据存储位置及其使用方式的详细信息，请参阅 [Microsoft 信任中心](https://www.microsoft.com/TrustCenter/Transparency/default.aspx#_You_know_where)。 在 [Microsoft Online Services 条款](http://www.microsoftvolumelicensing.com/DocumentSearch.aspx?Mode=3&amp;DocumentTypeId=31)的“数据处理条款”中指定了有关静态客户数据位置的承诺使用量。
+有关数据存储位置和使用方式的详细信息，请参阅 [Microsoft 信任中心](https://www.microsoft.com/TrustCenter/Transparency/default.aspx#_You_know_where)。 在 [Microsoft Online Services 条款](http://www.microsoftvolumelicensing.com/DocumentSearch.aspx?Mode=3&amp;DocumentTypeId=31)的“数据处理条款”中指定了有关静态客户数据位置的承诺使用量。
 
 ## <a name="user-authentication"></a>用户身份验证
 
@@ -200,11 +167,23 @@ Power BI 服务的用户身份验证序列如下图中的步骤所示。
 
 在 Power BI 服务中，数据要么处于静态（可用于 Power BI 用户的当前未执行此操作的数据），要么在处理中（例如：正在运行的查询、正在执行操作的数据连接和模型、要上传到 Power BI 服务的数据和/或模型，以及用户或 Power BI 服务可能对正在活跃地访问或更新的数据采取的其他操作）。 在处理中的数据也称为“进程内数据”。 Power BI 中的静态数据是加密的。 传输中的数据（即 Power BI 服务发送或接收的数据）也是加密的。
 
-Power BI 服务还根据是使用 DirectQuery 访问数据，还是不使用 DirectQuery 访问数据，以不同的方式管理数据。 因此，Power BI 有两类用户数据：DirectQuery 访问的数据和 DirectQuery 不访问的数据。
+Power BI 服务还根据是使用 DirectQuery 访问数据，还是导入数据，以不同的方式管理数据。 因此，Power BI 有两类用户数据：DirectQuery 访问的数据和 DirectQuery 不访问的数据。
 
 DirectQuery 是一种查询，针对这种查询，Power BI 用户的查询已经从 Microsoft Data Analysis Expressions (DAX) 语言（这是 Power BI 和其他 Microsoft 产品用于创建查询的语言）转换为数据源的本机数据语言（例如，T-SQL 或其他本机数据库语言）。 与 DirectQuery 关联的数据仅通过引用存储，即 DirectQuery 未处于活跃状态时，源数据不会存储在 Power BI 中（用于显示仪表板和报告的可视化数据除外，如下面的“进程内数据（数据移动）”部分所述）。 相反，存储对 DirectQuery 数据的引用，从而允许在运行 DirectQuery 时访问该数据。 DirectQuery 包含执行查询所需的所有信息，包括用于访问数据源的连接字符串和凭据，这些信息允许 DirectQuery 连接到包含的数据源以进行自动刷新。 使用 DirectQuery，可以将基础数据模型信息合并到 DirectQuery 中。
 
-不使用 DirectQuery 的查询由一组 DAX 查询组成，这些查询未直接转换为任何基础数据源的本机语言。 非 DirectQuery 查询不包含基础数据的凭据，并且基础数据会加载到 Power BI 服务中，除非它是通过 [Power BI Gateway](https://powerbi.microsoft.com/documentation/powerbi-gateway-enterprise/) 访问的本地数据。在这种情况下，查询仅存储对本地数据的引用。
+导入数据集的查询由一组 DAX 查询组成，这些查询未直接转换为任何基础数据源的本机语言。 导入查询不包含基础数据的凭据，并且基础数据会加载到 Power BI 服务中，除非它是通过 [Power BI Gateway](service-gateway-onprem.md) 访问的本地数据。在这种情况下，查询仅存储对本地数据的引用。
+
+下表说明基于正在使用的查询类型的 Power BI 数据。 **X** 指示使用关联的查询类型时有 Power BI 数据。
+
+
+|  |导入  |DirectQuery  |实时连接  |
+|---------|---------|---------|---------|
+|架构     |     X    |    X     |         |
+|行数据     |    X     |         |         |
+|视觉对象数据缓存     |    X     |     X    |    X     |
+
+
+
 
 DirectQuery 和其他查询之间的区别决定了 Power BI 服务如何处理静态数据，以及查询本身是否加密。 以下部分介绍静态数据和移动中的数据，并说明用于处理数据的加密、位置和过程。
 
@@ -361,7 +340,7 @@ Power BI 通过以下方式提供数据完整性监视：
 
 借助 Power BI 和 ExpressRoute，可以创建从组织到 Power BI 的专用网络连接（或使用 ISP 的主机托管设施），从而绕过 Internet 以更好地保护敏感 Power BI 数据和连接。
 
-ExpressRoute 是一种 Azure 服务，使你可以在 Azure 数据中心（Power BI 所在的位置）与本地基础结构之间创建专用连接，或是在 Azure 数据中心与主机托管环境之间创建专用连接。 有关详细信息，请参阅 [Power BI 和 ExpressRoute](https://powerbi.microsoft.com/documentation/powerbi-admin-power-bi-expressroute/)一文。
+ExpressRoute 是一种 Azure 服务，使你可以在 Azure 数据中心（Power BI 所在的位置）与本地基础结构之间创建专用连接，或是在 Azure 数据中心与主机托管环境之间创建专用连接。 有关详细信息，请参阅 [Power BI 和 ExpressRoute](service-admin-power-bi-expressroute.md)一文。
 
 ## <a name="power-bi-mobile"></a>Power BI 移动版
 
@@ -391,7 +370,7 @@ Power BI 移动版应用主动与 Power BI 服务进行通信。 遥测用于收
 
 Power BI 移动版的数据缓存在设备上保留两周，或直到：应用程序已删除；用户注销 Power BI 移动版；或者用户无法登录（例如，令牌过期事件或密码更改）。 数据缓存包括以前从 Power BI 移动版应用访问的仪表板和报表。
 
-Power BI 移动版应用程序不查看设备上的文件夹。 你可以[详细了解 Power BI 移动版应用中的脱机数据](https://powerbi.microsoft.com/documentation/powerbi-mobile-offline-android/)。
+Power BI 移动版应用程序不查看设备上的文件夹。 
 
 Power BI 移动版可用的所有三个平台都支持 Microsoft Intune，这是一种提供移动设备和应用程序管理的软件服务。 启用并配置 Intune 后，将加密移动设备上的数据，并且 Power BI 应用程序本身无法安装在 SD 卡上。 你可以[详细了解 Microsoft Intune](http://www.microsoft.com/cloud-platform/microsoft-intune)。
 
@@ -403,7 +382,7 @@ Power BI 移动版可用的所有三个平台都支持 Microsoft Intune，这是
 
 * **Power BI 凭据和域凭据：** 用户使用电子邮件地址登录 Power BI；用户尝试连接到数据资源时，Power BI 会将 Power BI 登录电子邮件地址作为凭据传递。 对于连接了域的资源（无论是本地还是基于云），目录服务将登录电子邮件与用户主体名称 ([UPN](https://msdn.microsoft.com/library/windows/desktop/aa380525(v=vs.85).aspx)) 匹配，以确定是否存在允许访问的足够凭据。 对于使用基于工作的电子邮件地址登录 Power BI 的组织（用于登录工作资源的相同电子邮件，例如 david@contoso.com），映射可以无缝地进行；对于未使用基于工作的电子邮件地址的组织（例如 david@contoso.onmicrosoft.com），必须建立目录映射，才能使用 Power BI 登录凭据访问本地资源。
 
-* **SQL Server Analysis Services 和 Power BI：** 对于使用本地 SQL Server Analysis Services 的组织，Power BI 提供 Power BI 本地数据网关（为上个部分所述的网关）。  Power BI 本地数据网关可以对数据源 (RLS) 强制执行角色级安全性。 有关 RLS 的详细信息，请参阅本文档前面的“对数据源的用户身份验证”。 还可以参阅有关 [Power BI Gateway](https://powerbi.microsoft.com/documentation/powerbi-gateway-enterprise/) 的深层次文章。
+* **SQL Server Analysis Services 和 Power BI：** 对于使用本地 SQL Server Analysis Services 的组织，Power BI 提供 Power BI 本地数据网关（为上个部分所述的网关）。  Power BI 本地数据网关可以对数据源 (RLS) 强制执行角色级安全性。 有关 RLS 的详细信息，请参阅本文档前面的“对数据源的用户身份验证”。 还可以参阅有关 [Power BI Gateway](service-gateway-manage.md) 的深层次文章。
 
   此外，组织可以使用 Kerberos 进行单一登录 (SSO)，并从 Power BI 无缝连接到 SQL Server、SAP HANA 和 Teradata 等本地数据源。 有关更多信息和特定配置要求，请参阅[将 Kerberos 用于从 Power BI 到本地数据源的 SSO](https://docs.microsoft.com/power-bi/service-gateway-kerberos-for-sso-pbi-to-on-premises-data)。
 
@@ -443,7 +422,7 @@ Power BI 移动版可用的所有三个平台都支持 Microsoft Intune，这是
 
 **本地数据网关和个人网关使用哪些端口？是否有任何需要允许用于连接的域名？**
 
-* 有关此问题的详细答案，请访问以下链接：[https://powerbi.microsoft.com/documentation/powerbi-gateway-enterprise](https://powerbi.microsoft.com/documentation/powerbi-gateway-enterprise)
+* 有关此问题的详细答案，请访问以下链接：[Power BI Gateway](service-gateway-manage.md)
 
 **使用本地数据网关时，如何使用恢复密钥以及密钥存储在何处？什么是安全凭据管理？**
 
@@ -462,7 +441,7 @@ Power BI 移动版可用的所有三个平台都支持 Microsoft Intune，这是
 
   - **AMQP 1.0 - TCP + TLS**：该协议要求打开端口 443, 5671-5672 和 9350-9354 以进行传出通信。 此协议是首选方法，因为它具有较低的通信开销。
 
-  - **HTTPS – WebSockets over HTTPS + TLS** :此协议仅使用端口 443。 WebSocket 由单个 HTTP CONNECT 消息发起。 建立通道后，通信实质上是 TCP+TLS。 可以通过修改[本地网关文章](https://powerbi.microsoft.com/documentation/powerbi-gateway-onprem/)中描述的设置，强制网关使用此协议。
+  - **HTTPS – WebSockets over HTTPS + TLS**：此协议仅使用端口 443。 WebSocket 由单个 HTTP CONNECT 消息发起。 建立通道后，通信实质上是 TCP+TLS。 可以通过修改[本地网关文章](service-gateway-manage.md)中描述的设置，强制网关使用此协议。
 
 **Azure CDN 在 Power BI 中的角色是什么？**
 
@@ -476,7 +455,7 @@ Power BI 移动版可用的所有三个平台都支持 Microsoft Intune，这是
 
 **是否有在客户网络外发送信息的其他 Power BI 视觉对象？**
 
-* 是。 必应地图和 ESRI 视觉对象为使用这些服务的视觉对象在 Power BI 服务外部传输数据。 有关 out-of-Power-BI 租户流量的详细信息和详细说明，请参阅 [Power BI 和 ExpressRoute](https://powerbi.microsoft.com/documentation/powerbi-admin-power-bi-expressroute/)。
+* 是。 必应地图和 ESRI 视觉对象为使用这些服务的视觉对象在 Power BI 服务外部传输数据。 有关 out-of-Power-BI 租户流量的详细信息和详细说明，请参阅 [Power BI 和 ExpressRoute](service-admin-power-bi-expressroute.md)。
 
 **什么是数据主权？是否可以在位于特定地理位置的数据中心中预配租户，以确保数据不会离开国家/地区边界？**
 
@@ -500,15 +479,15 @@ Power BI 中的数据存储和数据处理根据是否使用 DirectQuery 访问�
 
 ## <a name="additional-resources"></a>其他资源
 
-有关 Power BI 的其他信息，请参阅以下资源。
+有关 Power BI 的更多信息，请参阅以下资源。
 
 - [Power BI 中的组](https://support.powerbi.com/knowledgebase/articles/654247)
 - [Power BI Desktop 入门](https://support.powerbi.com/knowledgebase/articles/471664)
-- [Power BI Gateway](https://powerbi.microsoft.com/documentation/powerbi-gateway-enterprise/)
+- [Power BI Gateway](service-gateway-manage.md)
 - [Power BI REST API - 概述](https://msdn.microsoft.com/library/dn877544.aspx)
 - [Power BI API 引用](https://msdn.microsoft.com/library/mt147898.aspx)
-- [本地数据网关](https://powerbi.microsoft.com/documentation/powerbi-gateway-onprem/)
-- [Power BI 和 ExpressRoute](https://powerbi.microsoft.com/documentation/powerbi-admin-power-bi-expressroute/)
+- [本地数据网关](service-gateway-manage.md)
+- [Power BI 和 ExpressRoute](service-admin-power-bi-expressroute.md)
 - [Power BI 主权云](https://powerbi.microsoft.com/clouds/)
 - [Power BI Premium](https://aka.ms/pbipremiumwhitepaper)
-- [将 Kerberos 用于从 Power BI 到本地数据源的 SSO](https://docs.microsoft.com/power-bi/service-gateway-kerberos-for-sso-pbi-to-on-premises-data)
+- [将 Kerberos 用于从 Power BI 到本地数据源的 SSO](service-gateway-sso-overview.md)

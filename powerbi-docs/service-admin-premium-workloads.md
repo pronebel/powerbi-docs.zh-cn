@@ -8,14 +8,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
-ms.date: 02/26/2019
+ms.date: 03/11/2019
 LocalizationGroup: Premium
-ms.openlocfilehash: 5b9bec67fef672d219b11bf3b3750959e72410b6
-ms.sourcegitcommit: 364ffa1178cdfb0a20acffc0fd79922ebc892d72
+ms.openlocfilehash: 0baab138ee98d2ec96bc9f47e6e727525a57ed3e
+ms.sourcegitcommit: f176ba9d52d50d93f264eca21bb3fd987dbf934b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/02/2019
-ms.locfileid: "57226057"
+ms.lasthandoff: 03/12/2019
+ms.locfileid: "57757237"
 ---
 # <a name="configure-workloads-in-a-premium-capacity"></a>在高级容量中配置工作负载
 
@@ -23,7 +23,7 @@ ms.locfileid: "57226057"
 
 ## <a name="configure-workloads"></a>配置工作负载
 
-可以为[数据流](service-dataflows-overview.md#dataflow-capabilities-on-power-bi-premium)和[分页报表](paginated-reports-save-to-power-bi-service.md)启用和配置其他工作负载。 这些工作负载的默认内存值基于 SKU 可用的容量节点。 最大内存设置不是累计计算的。 为数据流动态分配并为分页报表静态分配相当于最大指定值的内存。 
+可以为 AI、[数据流](service-dataflows-overview.md#dataflow-capabilities-on-power-bi-premium)和[分页报表](paginated-reports-save-to-power-bi-service.md)启用和配置其他工作负载。 这些工作负载的默认内存值基于 SKU 可用的容量节点。 最大内存设置不是累计计算的。 为 AI 和数据流动态分配并为分页报表静态分配相当于最大指定值的内存。 
 
 ### <a name="to-configure-workloads-in-the-power-bi-admin-portal"></a>在 Power BI 管理门户中配置工作负载
 
