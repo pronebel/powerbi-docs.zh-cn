@@ -398,6 +398,10 @@ items:
       href: service-get-started.md
     - name: 连接到 GitHub 示例
       href: service-tutorial-connect-to-github.md
+    - name: 在 Power BI 中使用认知服务
+      href: service-tutorial-use-cognitive-services.md
+    - name: 集成机器学习与 Power BI
+      href: service-tutorial-invoke-machine-learning-model.md
   - name: 概念
     items:
     - name: Power BI 服务中的新功能
@@ -646,6 +650,10 @@ items:
         href: service-dataflows-configure-workspace-storage-settings.md
       - name: 将 CDM 文件夹添加到 Power BI 作为数据流（预览）
         href: service-dataflows-add-cdm-folder.md
+      - name: 在 Power BI 中集成机器学习
+        href: service-machine-learning-integration.md
+      - name: 在 Power BI 中使用认知服务
+        href: service-cognitive-services.md
     - name: Power BI 中的分页报表
       items:
       - name: 什么是分页报表？ （预览）
@@ -722,7 +730,7 @@ items:
         href: service-delete.md
       - name: 连接到服务
         items:
-        - name: 连接到服务
+        - name: Acumatica
           href: service-connect-to-services.md
         - name: Acumatica
           href: service-connect-to-acumatica.md
@@ -1317,9 +1325,9 @@ items:
       href: service-admin-governance.md
     - name: Power BI 安全性
       href: service-admin-power-bi-security.md
-ms.openlocfilehash: 45e6ec57f6fd9a0b02c6139b1bb6e3249edcbadc
-ms.sourcegitcommit: f176ba9d52d50d93f264eca21bb3fd987dbf934b
+ms.openlocfilehash: ad67a7951e15d579cdea824a3eee69fe2ac0ff11
+ms.sourcegitcommit: cd7a027b532b1bb2dbbcae9e92426c80f80810d3
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/12/2019
-ms.locfileid: "57757429"
+ms.lasthandoff: 03/15/2019
+ms.locfileid: "57964907"
