@@ -38,7 +38,7 @@ ms.locfileid: "56298882"
 
    * 在逻辑应用的第一次运行期间，应用可以通过[应用程序许可体验](https://docs.microsoft.com/azure/active-directory/develop/application-consent-experience)请求 Azure AD 租户管理员同意。
    
-* 用于登录以连接 Microsoft Graph Security Power BI 连接器的用户帐户必须是 Azure AD 中安全读者受限管理员角色（安全读者或安全管理员）的成员。 执行[向用户分配 Azure AD 角色](https://docs.microsoft.com/graph/security-authorization#assign-azure-ad-roles-to-users)一节中的步骤。 
+* 用于登录以连接 Microsoft Graph Security Power BI 连接器的用户帐户必须是 Azure AD 中安全读取者受限管理员角色（安全读取者或安全管理员）的成员。 执行[向用户分配 Azure AD 角色](https://docs.microsoft.com/graph/security-authorization#assign-azure-ad-roles-to-users)一节中的步骤。 
 
 ## <a name="using-the-microsoft-graph-security-connector"></a>使用 Microsoft Graph Security 连接器
 
@@ -54,7 +54,7 @@ ms.locfileid: "56298882"
 
     ![选择版本](media/desktop-connect-graph-security/selectVersion.PNG)
     
-5. 出现提示时，请登录到 Azure Active Directory 帐户。 此帐户需要具有上面先决条件部分中所述的“安全读者”角色。
+5. 出现提示时，请登录到 Azure Active Directory 帐户。 此帐户需要具有上面先决条件部分中所述的“安全读取者”角色。
 
     ![登录](media/desktop-connect-graph-security/SignIn.PNG)
     

@@ -32,7 +32,7 @@ ms.locfileid: "54284624"
 
 * 租户必须有关联的 Azure AD Premium 许可证。
 
-* 必须属于以下角色之一：全局管理员、安全管理员或安全读者。
+* 必须属于以下角色之一：全局管理员、安全管理员或安全读取者。
 
 ## <a name="use-the-azure-portal-to-view-sign-ins"></a>使用 Azure 门户查看登录活动
 
