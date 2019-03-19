@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: overview
 ms.date: 11/05/2018
-ms.openlocfilehash: 2ee381cae5bd0c0ed1e6a8cab1cd33361a05814f
-ms.sourcegitcommit: 91ac6185f7026ddbaa925dc54057bb742b4fa411
+ms.openlocfilehash: 7b84b967a9e6228258027302fc2e4ad4df5b0073
+ms.sourcegitcommit: 8fda7843a9f0e8193ced4a7a0e5c2dc5386059a6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/16/2019
-ms.locfileid: "56324798"
+ms.lasthandoff: 03/18/2019
+ms.locfileid: "58174766"
 ---
 # <a name="getting-around-in-report-design-view-for-paginated-reports-preview"></a>介绍分页报表的报表设计视图（预览）
 
@@ -22,12 +22,12 @@ ms.locfileid: "56324798"
 
 ![报表生成器报表设计视图](media/paginated-reports-report-design-view/power-bi-paginated-report-design-view.png)
 
-1. [“报表数据”窗格](#report-data-pane) 
-2. [报表设计图面](#report-design-surface)  
-3. [“参数”窗格](#parameters-pane) 
-4. [“属性”窗格](#properties-pane) 
-5. [“分组”窗格](#grouping-pane) 
-6. [当前报表状态栏](#current-report-status-bar)  
+1. [“报表数据”窗格](#1-report-data-pane) 
+2. [报表设计图面](#2-report-design-surface)  
+3. [“参数”窗格](#3-parameters-pane) 
+4. [“属性”窗格](#4-properties-pane) 
+5. [“分组”窗格](#5-grouping-pane) 
+6. [当前报表状态栏](#6-current-report-status-bar)  
   
 ## <a name="1-report-data-pane"></a>1 “报表数据”窗格  
  在设计报表布局之前，可以从“报表数据”窗格定义报表所需的报表数据和报表资源。 例如，可以将数据源、数据集、计算字段、报表参数和图像添加到“报表数据”窗格。  

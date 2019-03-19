@@ -10,15 +10,15 @@ ms.topic: conceptual
 ms.date: 12/10/2018
 ms.author: maggies
 LocalizationGroup: Create reports
-ms.openlocfilehash: 8808391d0794ec4a487526cc5bbe4216fe0f75a6
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 760f469ff3b146671292efd70a3c6854aec98b5a
+ms.sourcegitcommit: 8fda7843a9f0e8193ced4a7a0e5c2dc5386059a6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54275309"
+ms.lasthandoff: 03/18/2019
+ms.locfileid: "58174582"
 ---
 # <a name="create-reports-optimized-for-the-power-bi-mobile-apps"></a>创建针对 Power BI 移动应用的优化报表
-可以改善在手机或平板电脑的移动应用中查看报表的体验。 创建报表的纵向布局，以专用于手机和平板电脑。 在 Power BI Desktop 和 Power BI 服务中，通过重新排列和调整纵向布局中的视觉对象来调整报表，以便获得最佳体验。 无需包括所有视觉对象。 此外，还可以创建[响应式视觉对象](#optimize-a-visual-for-any-size)和[响应式切片器](#enhance-slicers-to-to-work-well-in-phone-reports)，它们可以流畅地重设大小，以供在手机上显示。 另外，如果向报表添加筛选器，这些筛选器会自动显示在优化的报表中。 报表阅读者可以查看它们，并使用这些筛选器筛选报表。
+可以改善在手机或平板电脑的移动应用中查看报表的体验。 创建报表的纵向布局，以专用于手机和平板电脑。 在 Power BI Desktop 和 Power BI 服务中，通过重新排列和调整纵向布局中的视觉对象来调整报表，以便获得最佳体验。 无需包括所有视觉对象。 此外，还可以创建[响应式视觉对象](#optimize-a-visual-for-any-size)和[响应式切片器](#enhance-slicers-to-work-well-in-phone-reports)，它们可以流畅地重设大小，以供在手机上显示。 另外，如果向报表添加筛选器，这些筛选器会自动显示在优化的报表中。 报表阅读者可以查看它们，并使用这些筛选器筛选报表。
 
 ![更适合在手机上显示的报表](media/desktop-create-phone-report/desktop-create-phone-report-1.png)
 

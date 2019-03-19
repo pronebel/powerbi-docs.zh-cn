@@ -9,18 +9,18 @@ ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: conceptual
 ms.date: 11/05/2018
-ms.openlocfilehash: d1d1f3c34483737e49129176c833be8384ade999
-ms.sourcegitcommit: 91ac6185f7026ddbaa925dc54057bb742b4fa411
+ms.openlocfilehash: 58fc7a6b8ebc5519c1c4bb1835758ca94ba225d2
+ms.sourcegitcommit: 8fda7843a9f0e8193ced4a7a0e5c2dc5386059a6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/16/2019
-ms.locfileid: "56324706"
+ms.lasthandoff: 03/18/2019
+ms.locfileid: "58174536"
 ---
 # <a name="publish-a-paginated-report-to-the-power-bi-service-preview"></a>将分页报表发布到 Power BI 服务（预览）
 
 本文介绍如何通过从本地计算机上传分页报表将其发布到 Power BI 服务。 只要工作区位于高级容量中，就可以将分页报表上传到“我的工作区”或任何其他工作区。 请查找工作区名称旁边的钻石型图标 ![Power BI 高级容量钻石形图标](media/paginated-reports-save-to-power-bi-service/premium-diamond.png) 。 
 
-如果你的报表数据源位于本地环境中，需要在上传报表后[创建网关](#create-a-gateway-to-an-on-premises-data-source)。
+如果你的报表数据源位于本地环境中，需要在上传报表后[创建网关](#create-a-gateway)。
 
 ## <a name="add-a-workspace-to-a-premium-capacity"></a>将工作区添加到高级容量
 

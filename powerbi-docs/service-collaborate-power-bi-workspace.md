@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 08/02/2018
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 145ef2da33e0d596f03f75c76aaa99e90f58c4c2
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: c1e8e449c2db7e751d719f8fca38b194a9a0042a
+ms.sourcegitcommit: 8fda7843a9f0e8193ced4a7a0e5c2dc5386059a6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54288511"
+ms.lasthandoff: 03/18/2019
+ms.locfileid: "58174559"
 ---
 # <a name="collaborate-in-your-power-bi-app-workspace"></a>在 Power BI 应用工作区中展开协作
 Power BI 应用工作区是在仪表板、报表和数据集上与同事协作以创建应用的好地方。 协作并不限于在 Power BI 中的工作区内进行。 Office 365 提供其他组服务，如共享 OneDrive for Business 上的文件、Exchange 中的对话、共享日历和任务等。 了解有关 [Office 365 中的组](https://support.office.com/article/Create-a-group-in-Office-365-7124dc4c-1de9-40d4-b096-e8add19209e9)的详细信息。
@@ -49,7 +49,7 @@ Power BI 应用工作区是在仪表板、报表和数据集上与同事协作�
 2. 在此菜单中，可以通过以下几种方法来与组进行协作： 
    
    * [在 Office 365 中建立组对话](service-collaborate-power-bi-workspace.md#have-a-group-conversation-in-office-365)。
-   * 在应用的组工作区日历上[安排活动](service-collaborate-power-bi-workspace.md#schedule-an-event-on-the-group-workspace-calendar)。
+   * 在应用的组工作区日历上[安排活动](service-collaborate-power-bi-workspace.md#schedule-an-event-on-the-apps-group-workspace-calendar)。
    
    当你首次前往你在 Office 365 中的应用组工作区时，可能需要一些时间。 等候 15 到 30 分钟，然后刷新浏览器。
 
