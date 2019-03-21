@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 02/05/2019
-ms.openlocfilehash: da5394c0d1e63619229542b914ae7fd4deed7447
-ms.sourcegitcommit: 80961ace38ff9dac6699f81fcee0f7d88a51edf4
+ms.openlocfilehash: 9663c7eb6921718ac4b9690ddc50d78e59c6db3b
+ms.sourcegitcommit: 8fda7843a9f0e8193ced4a7a0e5c2dc5386059a6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/13/2019
-ms.locfileid: "56223734"
+ms.lasthandoff: 03/18/2019
+ms.locfileid: "58174881"
 ---
 # <a name="frequently-asked-questions-about-power-bi-embedded"></a>有关 Power BI Embedded 的常见问题
 
@@ -137,7 +137,7 @@ Power BI 要求使用组织帐户注册。 不支持使用 MSA（Microsoft 帐�
 
 ### <a name="what-is-the-pbi-embedded-dedicated-capacity-role-in-a-pbi-embedded-solution"></a>PBI Embedded 解决方案中的 PBI Embedded 专用容量角色是什么？
 
-为了[将解决方案提升到生产](https://docs.microsoft.com/power-bi/developer/embedding-content#step-3-promote-your-solution-to-production)，需要 Power BI 内容（在要分配给 Power BI Embedded (A SKU) 容量的应用程序中使用的应用工作区）。
+为了[将解决方案提升到生产](embed-sample-for-customers.md#move-to-production)，需要 Power BI 内容（在要分配给 Power BI Embedded (A SKU) 容量的应用程序中使用的应用工作区）。
 
 ### <a name="what-are-the-azure-regions-pbi-embedded-is-available"></a>什么是可使用 PBI Embedded 的 Azure 区域？
 
@@ -167,7 +167,7 @@ Power BI Embedded 会继续使用 Azure AD 对主用户（指定的 Power BI Pro
 
 ### <a name="my-application-already-uses-aad-for-user-authentication-how-can-we-use-this-identity-when-authenticating-to-power-bi-in-a-user-owns-data-scenario"></a>我的应用程序已使用 AAD 进行用户身份验证。 对“用户拥有数据”方案中的 Power BI 进行身份验证时，如何才能使用此标识？
 
-它是标准 OAuth 代理流 (https://docs.microsoft.com/azure/active-directory/develop/active-directory-authentication-scenarios#web-application-to-web-api) 需要配置应用程序，使其具有访问 Power BI 服务的权限（在要求的范围内），用户获得应用令牌后，只需使用用户访问令牌调用 ADAL API AcquireTokenAsync 并将 PowerBI 资源 URL 指定为资源 ID 即可，请参阅以下代码片段了解操作方法：
+它是标准 OAuth 代理流 (<https://docs.microsoft.com/azure/active-directory/develop/web-api>)。 需要将应用程序配置为需要 Power BI 服务权限（具有所需范围）。 获得应用的用户令牌后，只需使用用户访问令牌调用 ADAL API AcquireTokenAsync，并将 Power BI 资源 URL 指定为资源 ID。 请参阅以下代码片段，了解如何执行此操作：
 
 ```csharp
 var context = new AD.AuthenticationContext(authorityUrl);
@@ -344,7 +344,7 @@ Power BI Embedded 解决方案中引入了一些 Power BI 工作区集合无法�
 
 ### <a name="how-can-i-edit-my-registered-application"></a>如何编辑已注册的应用程序？
 
-可以在[这里](https://docs.microsoft.com/azure/active-directory/develop/active-directory-integrating-applications#updating-an-application)了解如何编辑已注册的 AAD 应用程序。
+若要了解如何编辑已注册 Azure AD 的应用程序，请参阅[快速入门：在 Azure Active Directory 中更新应用程序](https://docs.microsoft.com/azure/active-directory/develop/quickstart-v1-update-azure-ad-app)。
 
 ### <a name="how-can-i-edit-my-power-bi-user-profile-or-data"></a>如何编辑我的 Power BI 用户配置文件或数据？
 

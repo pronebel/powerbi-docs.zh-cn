@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 01/24/2019
 ms.custom: seodec18
 LocalizationGroup: Administration
-ms.openlocfilehash: ca9a2eff3d05ec10c83dde90eabb779370ca5e96
-ms.sourcegitcommit: f176ba9d52d50d93f264eca21bb3fd987dbf934b
+ms.openlocfilehash: d592cca246b7d8bf348a9cdd889b6d8ba0e248c1
+ms.sourcegitcommit: ac63b08a4085de35e1968fa90f2f49ea001b50c5
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/12/2019
-ms.locfileid: "57757337"
+ms.lasthandoff: 03/18/2019
+ms.locfileid: "57980372"
 ---
 # <a name="administering-power-bi-in-the-admin-portal"></a>在管理门户中管理 Power BI
 
@@ -42,9 +42,9 @@ Office 365 中的全局管理员或分配有 Power BI 服务管理员角色的�
 * [用户](#users)
 * [审核日志](#audit-logs)
 * [租户设置](#tenant-settings)
-* [Premium 设置](#premium-settings)
+* [容量设置](#capacity-settings)
 * [嵌入代码](#embed-codes)
-* [组织视觉对象](#organization-visuals)
+* [组织视觉对象](#organizational-visuals)
 
 ## <a name="usage-metrics"></a>使用情况指标
 
@@ -81,7 +81,7 @@ Office 365 中的全局管理员或分配有 Power BI 服务管理员角色的�
 
 借助此信息，你可以真正地深入了解用户在组织中如何使用 Power BI，并能够识别在组织中非常活跃的用户和组。
 
-## <a name="users"></a>用户
+## <a name="users"></a>用户数
 
 可以在 Office 365 管理中心中管理 Power BI 用户、组和管理员。 “用户”选项卡为租户提供指向管理中心的链接。
 

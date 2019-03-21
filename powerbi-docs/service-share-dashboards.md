@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 12/10/2018
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: f96e5235aba6f90e6f80286ebfb409004ccd5052
-ms.sourcegitcommit: 378265939126fd7c96cb9334dac587fc80291e97
+ms.openlocfilehash: 61aedc6c6bce52b172a92b938f9a2f278c841d6f
+ms.sourcegitcommit: ac63b08a4085de35e1968fa90f2f49ea001b50c5
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "57580234"
+ms.lasthandoff: 03/18/2019
+ms.locfileid: "57964746"
 ---
 # <a name="share-your-power-bi-dashboards-and-reports-with-coworkers-and-others"></a>与同事和其他人共享 Power BI 仪表板和报表
 共享是一种使多人能够访问你的仪表板和报表的有效方式。 Power BI 还提供了[其他多种开展协作和分发仪表板及报表的方式](service-how-to-collaborate-distribute-dashboards-reports.md)。
@@ -38,12 +38,18 @@ ms.locfileid: "57580234"
 
 1. 在仪表板或报表列，或在打开的仪表板或报表中，选择“共享”![共享图标](media/service-share-dashboards/power-bi-share-icon.png)。
 
-1. 在顶部框中，输入个人、通讯组或安全组的完整电子邮件地址。 不能与动态通讯组列表共享。 
+2. 在顶部框中，输入个人、通讯组或安全组的完整电子邮件地址。 不能与动态通讯组列表共享。 
    
    你可以与地址在组织外部的人员进行共享，但会看到一条警告。
    
    ![关于外部共享的警告](media/service-share-dashboards/power-bi-share-dialog-warning.png) 
  
+   >[!NOTE]
+   >输入框最多支持输入 100 个用户或组。 如果需要与大量用户共享，可以共享多次或与用户组共享。
+   > 
+   > 
+
+
 3. 如果需要，请添加一条消息。 可选。
 4. 若要允许同事与他人共享你的内容，请勾选“允许收件人共享仪表板/报表”。
    
@@ -119,6 +125,7 @@ ms.locfileid: "57580234"
 * 电子邮件域与你相同的同事，以及域不同但在相同租户中注册的同事可以与他人共享仪表板。 例如，假设域 contoso.com 和 contoso2.com 是在同一租户中注册的。 如果你的电子邮件地址为 konrads@contoso.com，则 ravali@contoso.com 和 gustav@contoso2.com 均可以共享（只要你向它们授予了共享权限）。
 * 如果你的同事已经有权访问特定仪表板或报表，则当你在仪表板或报表上时，可以通过复制 URL 发送直接链接。 例如：`https://powerbi.com/dashboards/g12466b5-a452-4e55-8634-xxxxxxxxxxxx`
 * 同样，如果你的同事已经有权访问特定仪表板，你可以[将直接链接发送到基础报表](service-share-reports.md)。 
+* 在一次共享操作中最多可以与 100 个用户或组共享。 但是，可以为超过 500 个用户提供对某个项的访问权限。 为此，要么可以分别指定用户共享多次，要么与包含所有用户的用户组共享。
 
 ## <a name="troubleshoot-sharing"></a>故障排除共享
 

@@ -9,12 +9,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 11/26/2018
 ms.author: maikelson
-ms.openlocfilehash: fb2b169650360a7dc6a4afaee1c43abb733255c9
-ms.sourcegitcommit: a36f82224e68fdd3489944c9c3c03a93e4068cc5
+ms.openlocfilehash: 9fbd47dcefb2daf8d86c6932b5c70617b8bf7ac9
+ms.sourcegitcommit: ac63b08a4085de35e1968fa90f2f49ea001b50c5
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/31/2019
-ms.locfileid: "55430984"
+ms.lasthandoff: 03/18/2019
+ms.locfileid: "57964700"
 ---
 # <a name="power-bi-webinars"></a>Power BI 网络研讨会
 
@@ -22,13 +22,19 @@ ms.locfileid: "55430984"
 
 ## <a name="upcoming-webinars"></a>即将举行的网络研讨会
 
-尚无举办网络研讨会的计划。 请稍后再查看更多近期活动安排。
+**实现消费品制造商和零售商的双赢**
+<br>作者：Liz McCreesh
+<br>[立即注册](https://info.microsoft.com/Achieving-a-Win-Win-for-Consumer-Packaged-Goods-Manufacturers-and-Retailers-registration.html)
 
 >[Power BI 社区即将举行的网络研讨会](https://powerbi.microsoft.com/blog/tag/community-webinars/?Is=Website)
 
 ## <a name="featured-webinars"></a>特别推荐的网络研讨会
 
 开始加入这些受欢迎的按需网络研讨会
+
+**Power BI 与现代企业 BI 的未来**
+<br>作者：Arun Ulag 和 Amir Netz
+<br>[注册并立即观看](https://info.microsoft.com/ww-landing-The-Future-of-Modern-and-Enterprise-BI-video.html?LCID=EN-US)
 
 **开始使用 Power BI**
 <br>作者：Miguel Martinez
@@ -46,13 +52,9 @@ ms.locfileid: "55430984"
 <br>作者：Cory Hrncirik 和 Miguel Martinez
 <br>[注册并立即观看](https://info.microsoft.com/Microsoft-Runs-on-Power-BI-OnDemandRegistration.html?Is=Website)
 
-**Power BI：Analytics 一步到位**
-<br>作者：Gohul Shanmugalingam
-<br>[注册并立即观看](https://info.microsoft.com/CA-PowerBI-WBNR-FY19-11Nov-08-PowerBIAnalyticsDoneRight-MCW0008690_01Registration-ForminBody.html?Is=Website)
-
-**使 Power BI 数据可视化：核心图表类型以及使用方法**
-<br>作者：Miranda Li
-<br>[注册并立即观看](https://info.microsoft.com/Make-your-Power-BI-Data-Visual-Registration.html?Is=Website)
+**使用 Power BI JavaScript API 增强应用程序功能**
+<br>作者：Nimrod Shalit
+<br>[注册并立即观看](https://info.microsoft.com/ww-landing-PBI-JavaScript-API-video.html)
 
 **Power BI、Excel 和 Office 365：优化企业数据**
 <br>作者：Olaf Hubel 和 Miguel Martinez
@@ -62,10 +64,6 @@ ms.locfileid: "55430984"
 <br>作者：Miranda Li
 <br>[注册并立即观看](https://info.microsoft.com/ww-landing-powerbi-tips-for-better-visualization-design.html?Is=Website)
 
-**Microsoft Flow 和 PowerApps 的总体经济影响**
-<br>作者：Jonathan Lipsitz 和 Enrique Plaza Garcia
-<br>[注册并立即观看](https://info.microsoft.com/The-TEI-of-PowerApps-and-Microsoft-Flow-OnDemandRegistration.html?Is=Website)
-
 >[浏览来自我们的社区专家的 Power BI 按需网络研讨会库](https://community.powerbi.com/t5/Webinars-and-Video-Gallery/bd-p/VideoTipsTricks?filter=webinars&featured=yes&Is=Website)
 
 ## <a name="on-demand-webinars"></a>按需网络研讨会
@@ -74,9 +72,25 @@ ms.locfileid: "55430984"
 
 ### <a name="getting-started"></a>入门
 
+**使用 Power BI、PowerApps 和 Microsoft Flow 自动化日常业务流程**
+<br>作者：Wim Coorevits 和 Enrique Plaza Garcia
+<br>[注册并立即观看](https://info.microsoft.com/Automate-Day-to-Day-Business-Processes-with-Power-BI-Power-Apps-and-Microsoft-Flow-OnDemandRegistration.html)
+
+**Power BI：Analytics 一步到位**
+<br>作者：Gohul Shanmugalingam
+<br>[注册并立即观看](https://info.microsoft.com/CA-PowerBI-WBNR-FY19-11Nov-08-PowerBIAnalyticsDoneRight-MCW0008690_01Registration-ForminBody.html?Is=Website)
+
+**使 Power BI 数据可视化：核心图表类型以及使用方法**
+<br>作者：Miranda Li
+<br>[注册并立即观看](https://info.microsoft.com/Make-your-Power-BI-Data-Visual-Registration.html?Is=Website)
+
 **如何设计具有极佳视觉效果的 Power BI 报表**
 <br>作者：Charles Sterling
 <br>[立即观看](https://community.powerbi.com/t5/Webinars-and-Video-Gallery/5-3-17-Webinar-How-to-Design-Visually-Stunning-Power-BI-Reports/m-p/168204?Is=Website)
+
+**Microsoft Flow 和 PowerApps 的总体经济影响**
+<br>作者：Jonathan Lipsitz 和 Enrique Plaza Garcia
+<br>[注册并立即观看](https://info.microsoft.com/The-TEI-of-PowerApps-and-Microsoft-Flow-OnDemandRegistration.html?Is=Website)
 
 **另请参阅：使用 Power BI 的 Excel 用户可以获得的 5 个优势**
 <br>作者：Carlos Otero 和 Miguel Martinez
@@ -100,6 +114,10 @@ ms.locfileid: "55430984"
 
 ### <a name="partners"></a>合作伙伴 ###
 
+**借助 Power BI 将客户数据转化为零售成功**
+<br>作者：来自 Hitachi Solutions 的 Angad Soni
+<br>[注册并立即观看](https://info.microsoft.com/Transform-Your-Customer-Data-into-Retail-Success-OnDemandRegistration.html?LCID=EN-US?wt.mc_id=undefined)
+
 **经过验证的医疗保健解决方案可改进患者治疗成效并可提升收益率**
 <br>作者：来自 US Medical IT 的 Stephen Cracknell 和 Stuart Macanliss
 <br>[注册并立即观看](https://info.microsoft.com/Proven-Techniques-for-Building-Effective-Dashboards-Registration.html?Is=Website)
@@ -111,6 +129,10 @@ ms.locfileid: "55430984"
 **已向销售和服务应用智能**
 <br>作者：来自 Avanade 的 Ed Bobrin
 <br>[注册并立即观看](https://info.microsoft.com/applied-intelligence-for-sales-service.html?Is=Website)
+
+**成功的趋势策展人的 5 个习惯 - Rohit Bhargava**
+<br>作者：《Non-Obvious》的 Rohit Bhargava
+<br>[注册并立即观看](https://info.microsoft.com/ww-landing-5-Habits-of-a-Successful-Trend-Curator-Video.html?LCID=EN-US)
 
 **制造商：你的行业正在经历数字化转型 - 利用分析来保持领先地位，实现利润最大化**
 <br>作者：来自 Blue Margin 的 Jon Thompson 和来自 Elgin Fastener Group 的 Jim Pastor

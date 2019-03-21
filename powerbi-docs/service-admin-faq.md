@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 11/16/2018
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: 9002b1871f5e7db4ef67d4f2f77b6b8769aa1de6
-ms.sourcegitcommit: a36f82224e68fdd3489944c9c3c03a93e4068cc5
+ms.openlocfilehash: 25d6c8020e500096507ba5e80a020a7a1c3052a6
+ms.sourcegitcommit: ac63b08a4085de35e1968fa90f2f49ea001b50c5
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/31/2019
-ms.locfileid: "55430271"
+ms.lasthandoff: 03/18/2019
+ms.locfileid: "57980418"
 ---
 # <a name="administering-power-bi---frequently-asked-questions-faq"></a>管理 Power BI - 常见问题 (FAQ)
 
@@ -84,7 +84,7 @@ ms.locfileid: "55430271"
 
 作为管理员，你可以执行一些步骤来阻止用户加入现有 Office 365 租户。 如果你阻止访问，用户的注册尝试便会失败，并被定向到联系组织管理员。如果已禁用自动许可证分发（例如，通过 Office 365 教育版（学生和教职员工）），无需重复执行此流程。
 
-若要禁止新用户加入托管租户，请运行以下 PowerShell 脚本。 [详细了解 PowerShell](#basic-powershell-information)
+若要禁止新用户加入托管租户，请运行以下 PowerShell 脚本。 （[详细了解 PowerShell][1]）
 
 ```powershell
 $msolcred = get-credential
@@ -98,7 +98,7 @@ Set-MsolCompanySettings -AllowEmailVerifiedUsers $false
 
 ### <a name="how-can-i-allow-users-to-join-my-existing-office-365-tenant"></a>如何允许用户加入现有 Office 365 租户？
 
-若要允许新用户加入托管租户，请运行以下 PowerShell 脚本。 [详细了解 PowerShell](#basic-powershell-information)
+若要允许新用户加入托管租户，请运行以下 PowerShell 脚本。 （[详细了解 PowerShell][1]）
 
 ```powershell
 $msolcred = get-credential
@@ -109,7 +109,7 @@ Set-MsolCompanySettings -AllowEmailVerifiedUsers $true
 
 ### <a name="how-do-i-verify-if-i-have-the-block-on-in-the-tenant"></a>如何验证是否在租户中实施了阻止？
 
-若要验证设置，请运行以下 PowerShell 脚本。 AllowEmailVerifiedUsers 应为 false。 [详细了解 PowerShell](#basic-powershell-information)
+若要验证设置，请运行以下 PowerShell 脚本。 AllowEmailVerifiedUsers 应为 false。 （[详细了解 PowerShell][1]）
 
 ```powershell
 $msolcred = get-credential
@@ -122,7 +122,7 @@ Get-MsolCompanyInformation | fl allow*
 
 控制此操作的 Azure AD 设置为 AllowAdHocSubscriptions。 大多数租户将此设置设为 true（表示已启用此设置）。 如果你是通过合作伙伴获取 Power BI，此设置可能设为 false（表示已禁用此设置）。
 
-若要禁用临时订阅，请运行以下 PowerShell 脚本。 [详细了解 PowerShell](#basic-powershell-information)
+若要禁用临时订阅，请运行以下 PowerShell 脚本。 （[详细了解 PowerShell][1]）
 
 1. 使用 Office 365 凭据登录 Azure Active Directory。 以下 PowerShell 脚本的第一行会提示你输入凭据。 第二行连接到 Azure Active Directory。
 
@@ -270,3 +270,5 @@ Power BI 以 Office 365 的功能为基础而构建，后者进而以 Azure 服�
 [Office 365 组管理](/office365/admin/email/create-edit-or-delete-a-security-group/)  
 
 更多问题？ [尝试咨询 Power BI 社区](http://community.powerbi.com/)
+
+[1]: https://docs.microsoft.com/powershell/scripting/overview

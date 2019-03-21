@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 01/10/2019
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: dc22c075c479510810b4a914fd999e38118e12e5
-ms.sourcegitcommit: 654fae0af739bd599e029d692f142faeba0a502f
+ms.openlocfilehash: 875f30a6e051561f20a7ca54bc48343dd7248e79
+ms.sourcegitcommit: 8fda7843a9f0e8193ced4a7a0e5c2dc5386059a6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/20/2019
-ms.locfileid: "56426714"
+ms.lasthandoff: 03/18/2019
+ms.locfileid: "58174743"
 ---
 # <a name="connect-azure-data-lake-storage-gen2-for-dataflow-storage-preview"></a>连接 Azure Data Lake Storage Gen2 以存储数据流（预览）
 
@@ -65,7 +65,7 @@ ms.locfileid: "56426714"
 
 接下来，需要在创建的存储帐户中授予 Power BI 服务读取者角色。 这是内置角色，因而步骤很简单。 
 
-按照[向安全主体分配角色](https://docs.microsoft.com/azure/storage/common/storage-auth-aad-rbac#assign-a-role-to-a-security-principal)一文中的步骤操作。
+按照[分配内置 RBAC 角色](https://docs.microsoft.com/azure/storage/common/storage-auth-aad-rbac#assign-a-built-in-rbac-role)中的步骤操作。
 
 在“添加角色分配”窗口中，选择要分配给 Power BI 服务的读取者角色。 然后使用搜索来查找 Power BI 服务。 下图显示了分配给 Power BI 服务的读取者角色。
 
@@ -150,6 +150,9 @@ ms.locfileid: "56426714"
 6. 选择“连接”。
 
 成功完成这些步骤后，Azure Data Lake Storage Gen2 帐户已连接到 Power BI。 
+
+> [!NOTE]
+> 若要在 Power BI 管理门户中配置与 Azure Data Lake Storage Gen2 的连接，必须具有全局管理员权限。 但是，全局管理员无法在管理门户中连接外部存储。  
 
 接下来，需要让组织中的人员配置其工作区，这使他们能够使用此存储帐户进行数据流定义和数据存储。 我们将在下一节中执行该操作。 
 

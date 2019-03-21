@@ -10,12 +10,12 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 12/18/2018
 LocalizationGroup: Visualizations
-ms.openlocfilehash: d467839582abb3c66c8bf5a57d1f3c5f7b83d354
-ms.sourcegitcommit: d0abedcf07f964418c9e5ea8d8ee3338b0b97a50
+ms.openlocfilehash: ed61d865756748ccd4e60f54de4a4b1b9adcef8d
+ms.sourcegitcommit: ac63b08a4085de35e1968fa90f2f49ea001b50c5
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/09/2019
-ms.locfileid: "57695026"
+ms.lasthandoff: 03/18/2019
+ms.locfileid: "57980326"
 ---
 # <a name="custom-visuals-in-power-bi"></a>在 Power BI 中自定义视觉对象
 
@@ -159,7 +159,7 @@ Power BI 取得认证的视觉对象是指已通过额外严格质量测试的�
 
 6. 保存“.pbiviz”文件，然后打开 Power BI。
 
-7. 将“.pbiviz”文件导入报表（请参阅上面的[从文件导入自定义视觉对象](#import-a-custom-visuals-from-a-file)部分）
+7. 将“.pbiviz”文件导入报表。 （请参阅上面的[从文件导入自定义视觉对象](#import-a-custom-visual-from-a-file)部分。）
 
 ## <a name="considerations-and-limitations"></a>注意事项和限制
 

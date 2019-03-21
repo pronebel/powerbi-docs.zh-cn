@@ -7,21 +7,21 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 02/13/2019
+ms.date: 03/12/2019
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: 3372526dfd7190a90061f3ca83f483dc74a0555f
-ms.sourcegitcommit: d010b10bc14097a1948daeffbc91b864bd91f7c8
+ms.openlocfilehash: 05df6a2053a5804f99a22651b053dc0ef06ebfd8
+ms.sourcegitcommit: ac63b08a4085de35e1968fa90f2f49ea001b50c5
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/13/2019
-ms.locfileid: "56225882"
+ms.lasthandoff: 03/18/2019
+ms.locfileid: "57964861"
 ---
 # <a name="whats-new-in-the-latest-power-bi-desktop-update"></a>最新 Power BI Desktop 更新中有哪些新增功能？ 
 
-## <a name="february-2019-update-2655313501"></a>2019 年 2 月更新 (2.65.5313.501)
+## <a name="march-2019-update-2655313501"></a>2019 年 3 月更新 (2.65.5313.501)
 
-2 月份的更新将使你着迷于并喜爱上所有新数据连接器、功能和分析增强。 就像一盒巧克力，你永远不知道下一块会是什么味道……但由于这次 2 月份的更新，它们都会很甜且非常美味。 
+3 月份的更新提供了极具吸引力和实用的更新，我们希望这些改进会让你感觉像是发现了四叶草那样幸运。 
 
 你现在可以[下载最新版本的 Power BI Desktop](https://powerbi.microsoft.com/desktop)。 如果运行的是 Windows 10，还可以从 Windows 应用商店获取 Power BI Desktop。 无论以何种方式安装 Power BI Desktop，月度版本是相同的，虽然二者的版本编号可能不同。 请参阅[本文](desktop-get-the-desktop.md)，了解详细信息。 
 
@@ -37,46 +37,49 @@ ms.locfileid: "56225882"
 下面介绍了本月新推出的 Power BI Desktop 更新：
 
 ### <a name="reporting"></a>报表
-* 新筛选器窗格（预览版）的更新  [[视频]](https://youtu.be/dMD25wfElLg?t=11)  [[博客]](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2019-feature-summary/#smartGuides) 
-* 折线图中对单个点的交叉突出显示  [[视频]](https://youtu.be/dMD25wfElLg?t=197)  [[博客]](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2019-feature-summary/#line)
-* 标题上的自动换行  [[视频]](https://youtu.be/dMD25wfElLg?t=298)  [[博客]](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2019-feature-summary/#wordWrap)
-* 更新用于交叉筛选的默认可视交互  [[视频]](https://youtu.be/dMD25wfElLg?t=358)  [[博客]](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2019-feature-summary/#crossFilter)
-* 视觉对象边框的圆角  [[视频]](https://youtu.be/dMD25wfElLg?t=526)  [[博客]](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2019-feature-summary/#roundedCorners)
+* 单项选择切片器 [[视频]](https://youtu.be/rBPGH6eYlT0?t=10)  [[博客]](https://powerbi.microsoft.com/blog/power-bi-desktop-march-2019-feature-summary/#singleSelectSlicer) 
+* 必应地图的热度地图支持  [[视频]](https://youtu.be/rBPGH6eYlT0?t=43)  [[博客]](https://powerbi.microsoft.com/blog/power-bi-desktop-march-2019-feature-summary/#heatMap)
+* 通过轴标签交叉突出显示 [[视频]](https://youtu.be/rBPGH6eYlT0?t=90)  [[博客]](https://powerbi.microsoft.com/blog/power-bi-desktop-march-2019-feature-summary/#crossHighlighting)
+* 默认工具提示格式设置 [[视频]](https://youtu.be/rBPGH6eYlT0?t=132)  [[博客]](https://powerbi.microsoft.com/blog/power-bi-desktop-march-2019-feature-summary/#tooltipFormatting)
+* 按钮、形状和图像的静态 Web URL 支持  [[视频]](https://youtu.be/rBPGH6eYlT0?t=204)  [[博客]](https://powerbi.microsoft.com/blog/power-bi-desktop-march-2019-feature-summary/#staticURL)
+* 筛选器窗格改进  [[视频]](https://youtu.be/rBPGH6eYlT0?t=234)  [[博客]](https://powerbi.microsoft.com/blog/power-bi-desktop-march-2019-feature-summary/#filterPane)
+* 页对齐选项  [[视频]](https://youtu.be/rBPGH6eYlT0?t=253)  [[博客]](https://powerbi.microsoft.com/blog/power-bi-desktop-march-2019-feature-summary/#pageAlignment)
+* 选择窗格改进  [[视频]](https://youtu.be/rBPGH6eYlT0?t=291)  [[博客]](https://powerbi.microsoft.com/blog/power-bi-desktop-march-2019-feature-summary/#selectionPane)
+* 地图格式设置更新  [[视频]](https://youtu.be/rBPGH6eYlT0?t=291)  [[博客]](https://powerbi.microsoft.com/blog/power-bi-desktop-march-2019-feature-summary/#mapFormatting)
+* 可访问的视觉对象交互  [[视频]](https://youtu.be/rBPGH6eYlT0?t=310)  [[博客]](https://powerbi.microsoft.com/blog/power-bi-desktop-march-2019-feature-summary/#accessibility)
+
 
 ### <a name="analytics"></a>分析
-* “关键影响因素”视觉对象（预览版） [[视频]](https://youtu.be/dMD25wfElLg?t=608)  [[博客]](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2019-feature-summary/#keyInfluencers) 
-* 问答中的见解问题 [[视频]](https://youtu.be/dMD25wfElLg?t=1121)  [[博客]](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2019-feature-summary/#insights) 
-* 问答资源管理器中自动生成的建议问题 [[视频]](https://youtu.be/dMD25wfElLg?t=1121)  [[博客]](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2019-feature-summary/#autoSuggestions) 
-* 改进的 Python 和 R 脚本编辑器 [[视频]](https://youtu.be/dMD25wfElLg?t=1282)  [[博客]](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2019-feature-summary/#scriptEditor) 
+* 改进结果的问答建议 [[视频]](https://youtu.be/rBPGH6eYlT0?t=357)  [[博客]](https://powerbi.microsoft.com/blog/power-bi-desktop-march-2019-feature-summary/#QA) 
+* 将日期显示为层次结构现已公开发布 [[视频]](https://youtu.be/rBPGH6eYlT0?t=397)  [[博客]](https://powerbi.microsoft.com/blog/power-bi-desktop-march-2019-feature-summary/#dateHierarchy) 
+
+
+### <a name="modelling"></a>建模
+* 新的建模视图现已公开发布 [[视频]](https://youtu.be/rBPGH6eYlT0?t=417)  [[博客]](https://powerbi.microsoft.com/blog/power-bi-desktop-march-2019-feature-summary/#modellingView) 
+* 新 DAX 函数 [[视频]](https://youtu.be/rBPGH6eYlT0?t=560)  [[博客]](https://powerbi.microsoft.com/blog/power-bi-desktop-march-2019-feature-summary/#DAX) 
 
 ### <a name="custom-visuals"></a>自定义视觉对象
-* 十个新的自定义视觉对象、新的自定义视觉对象功能  [[视频]](https://youtu.be/dMD25wfElLg?t=1324)  [[博客]](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2019-feature-summary/#customVisuals) 
+* 管理门户中新认证的自定义视觉对象设置  [[视频]](https://youtu.be/rBPGH6eYlT0?t=624)  [[博客]](https://powerbi.microsoft.com/blog/power-bi-desktop-march-2019-feature-summary/#certifiedAdminSetting) 
+* 两个新的自定义视觉对象  [[视频]](https://youtu.be/rBPGH6eYlT0?t=693)  [[博客]](https://powerbi.microsoft.com/blog/power-bi-desktop-march-2019-feature-summary/#customVisuals) 
+
 
 ### <a name="data-connectivity"></a>数据连接
 
-* Microsoft Graph Security [[视频]](https://youtu.be/dMD25wfElLg?t=2787)  [[博客]](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2019-feature-summary/#microsoftGraph) 
-* Guidanz 的 OBIEE BI 连接器  [[视频]](https://youtu.be/dMD25wfElLg?t=2807)   [[博客]](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2019-feature-summary/#biConnector) 
-* MarkLogic [[视频]](https://youtu.be/dMD25wfElLg?t=2825)  [[博客]](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2019-feature-summary/#markLogic) 
-* Kronos 工作人员维度 [[视频]](https://youtu.be/dMD25wfElLg?t=2846)  [[博客]](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2019-feature-summary/#kronos) 
-* SurveyMonkey [[视频]](https://youtu.be/dMD25wfElLg?t=2857)  [[博客]](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2019-feature-summary/#surveyMonkey) 
-* Qubole Presto [[视频]](https://youtu.be/dMD25wfElLg?t=2872)  [[博客]](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2019-feature-summary/#qubole) 
-* Quick Base [[视频]](https://youtu.be/dMD25wfElLg?t=2899)  [[博客]](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2019-feature-summary/#quickBase) 
-* Sagra Emigo [[视频]](https://youtu.be/dMD25wfElLg?t=2909)  [[博客]](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2019-feature-summary/#emigo) 
+* PDF 连接器现在支持跨多个页面的表（预览）[[视频]](https://youtu.be/rBPGH6eYlT0?t=990)  [[博客]](https://powerbi.microsoft.com/blog/power-bi-desktop-march-2019-feature-summary/#PDFconnector) 
+* Intelligent Plant 的工业应用商店连接器  [[视频]](https://youtu.be/rBPGH6eYlT0?t=1035)   [[博客]](https://powerbi.microsoft.com/blog/power-bi-desktop-march-2019-feature-summary/#IntelligentPlantsIndustrialAppStore) 
+* Azure 成本管理连接器 [[视频]](https://youtu.be/rBPGH6eYlT0?t=1085)  [[博客]](https://powerbi.microsoft.com/blog/power-bi-desktop-march-2019-feature-summary/#AzureCostManagement) 
 
-
-### <a name="other"></a>其他
-* 改进的实时连接和 DirectQuery 错误消息 [[视频]](https://youtu.be/dMD25wfElLg?t=2926)  [[博客]](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2019-feature-summary/#error) 
 
 
 > [!NOTE]
 > 还可以[查看 Power BI Desktop 可用的所有数据源](desktop-data-sources.md)；我们的列表始终在不断增加内容，请时常返回查看。
 
-想了解有关这些更新的详细信息？ 请查看[博客文章](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2019-feature-summary/)，你可以在其中获取有关上述每项新增功能的更为详细的信息（此博客文章即为上文列表引用的博客文章）。
+想了解有关这些更新的详细信息？ 请查看[博客文章](https://powerbi.microsoft.com/blog/power-bi-desktop-march-2019-feature-summary/)，你可以在其中获取有关上述每项新增功能的更为详细的信息（此博客文章即为上文列表引用的博客文章）。
 
 
 以下视频通道介绍和展示了上述的每项更新。 你还可以从博客文章查看该视频。
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/dMD25wfElLg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/rBPGH6eYlT0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 > [!NOTE]
 > 你可能还有兴趣了解 [Power BI 服务中的新增功能](service-whats-new.md)，请同时查看 [Power BI 移动应用中的新增功能](consumer/mobile/mobile-whats-new-in-the-mobile-apps.md)。

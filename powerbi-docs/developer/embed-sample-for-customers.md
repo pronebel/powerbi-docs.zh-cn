@@ -10,12 +10,12 @@ ms.service: powerbi
 ms.component: powerbi-developer
 ms.custom: seodec18
 ms.date: 02/05/2019
-ms.openlocfilehash: 3e8a4f443a6784020467ef1cf3a918ef5410b209
-ms.sourcegitcommit: f176ba9d52d50d93f264eca21bb3fd987dbf934b
+ms.openlocfilehash: 5bb4a739b6a333ecaf0ddc3ee2596fc210033470
+ms.sourcegitcommit: 8fda7843a9f0e8193ced4a7a0e5c2dc5386059a6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/12/2019
-ms.locfileid: "57757406"
+ms.lasthandoff: 03/18/2019
+ms.locfileid: "58174950"
 ---
 # <a name="tutorial-embed-power-bi-content-into-an-application-for-your-customers"></a>教程：为客户将 Power BI 内容嵌入应用中
 
@@ -214,7 +214,7 @@ Get-PowerBIworkspace -name "App Owns Embed Test" | Get-PowerBIReport
 
 仅[服务主体](embed-service-principal.md) AuthenticationType 需要此属性。
 
-使用 Azure 租户 ID 填写“租户”信息。 登录 Power BI 服务后通过 [Azure AD 门户](https://docs.microsoft.com/onedrive/find-your-office-365-tenant-id#use-the-azure-ad-portal)或使用 Powershell 可以获得该信息。
+使用 Azure 租户 ID 填写“租户”信息。 登录 Power BI 服务后通过 [Azure AD 管理中心](/onedrive/find-your-office-365-tenant-id)或使用 Powershell 可以获得该信息。
 
 ### <a name="run-the-application"></a>运行应用程序
 
@@ -304,7 +304,7 @@ var embedConfig = new EmbedConfig()
 
 此示例对报表使用 EmbedConfig 模型和 TileEmbedConfig 模型及视图。
 
-[示例应用程序](#embed-your-content-within-a-sample-application)的 the Views\Home\EmbedReport.cshtml、Views\Home\EmbedDashboard.cshtml 或 Views\Home\Embedtile.cshtml 文件中提供了为报表、仪表板或磁贴添加视图的示例。
+[示例应用程序](#embed-content-using-the-sample-application)的 Views\Home\EmbedReport.cshtml、Views\Home\EmbedDashboard.cshtml 或 Views\Home\Embedtile.cshtml 文件中提供了为报表、仪表板或磁贴添加视图的示例。
 
 ```javascript
 <script src="~/scripts/powerbi.js"></script>

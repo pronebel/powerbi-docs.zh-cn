@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 10/24/2018
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 451b5967dd648d982132282d2debbd4c4f86780f
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 051609c59e155cb6d5c2a982483a7e6d2d91a665
+ms.sourcegitcommit: ac63b08a4085de35e1968fa90f2f49ea001b50c5
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54293996"
+ms.lasthandoff: 03/18/2019
+ms.locfileid: "57964677"
 ---
 # <a name="publish-apps-with-dashboards-and-reports-in-power-bi"></a>在 Power BI 中发布包含仪表板和报表的应用
 
@@ -121,6 +121,11 @@ ms.locfileid: "54293996"
 
 ## <a name="unpublish-an-app"></a>取消发布应用
 应用工作区的任何成员都可以取消发布应用。
+
+>[!NOTE]
+>取消发布应用后，应用用户将丢失其自定义设置。 这意味着与应用中的内容相关联的任何个人书签、注释或订阅都将丢失。 仅在必须删除应用时才取消发布该应用。
+> 
+> 
 
 * 在应用工作区中，依次选择右上角的省略号（“...”）和“取消发布应用”。
   

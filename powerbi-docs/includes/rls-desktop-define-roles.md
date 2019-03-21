@@ -1,3 +1,11 @@
+---
+ms.openlocfilehash: 240045c05a35a6583b537b785c6639a39c6aa9d4
+ms.sourcegitcommit: ac63b08a4085de35e1968fa90f2f49ea001b50c5
+ms.translationtype: HT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 03/18/2019
+ms.locfileid: "58051915"
+---
 ## <a name="define-roles-and-rules-in-power-bi-desktop"></a>在 Power BI Desktop 中定义角色和规则
 你可以在 Power BI Desktop 中定义角色和规则。 发布到 Power BI 时，它还会发布角色定义。
 
@@ -21,7 +29,7 @@
 7. 输入 DAX 表达式。 此表达式应返回 true 或 false。 例如：[实体 ID] =“值”。
    
    > [!NOTE]
-   > 可以在此表达式内使用 *username()*。 请注意，username() 在 Power BI Desktop 中采用“域\用户名”格式。 在 Power BI 服务和 Power BI 报表服务器中，采用用户的用户主体名称 (UPN) 格式。 或者，可以使用 userprincipalname()，它始终返回采用其用户主体名称格式 username@contoso.com 的用户。
+   > 可以在此表达式内使用 *username()*。 请注意，username() 在 Power BI Desktop 中采用“域\用户名”格式。 在 Power BI 服务和 Power BI 报表服务器中，采用用户的用户主体名称 (UPN) 格式。 或者，可以使用 userprincipalname()，它始终返回采用其用户主体名称格式 username\@contoso.com 的用户。
    > 
    > 
    

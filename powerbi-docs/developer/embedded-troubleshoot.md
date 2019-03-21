@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 02/05/2019
-ms.openlocfilehash: fd311466d244e3ca9297f107edfad7b2cc930bfb
-ms.sourcegitcommit: 80961ace38ff9dac6699f81fcee0f7d88a51edf4
+ms.openlocfilehash: ebe536aad292fbd780d937cd4b35812afaedbdda
+ms.sourcegitcommit: 8fda7843a9f0e8193ced4a7a0e5c2dc5386059a6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/13/2019
-ms.locfileid: "56223826"
+ms.lasthandoff: 03/18/2019
+ms.locfileid: "58174812"
 ---
 # <a name="troubleshoot-your-embedded-application"></a>嵌入式应用程序疑难解答
 
@@ -290,7 +290,7 @@ Add-AzureADServicePrincipalPolicy -Id $sp.ObjectId -RefObjectId $policy.Id
 
 此错误是因为为 web-server 应用程序指定的重定向 URL 不同于示例的 URL。 如果想要注册示例应用程序，请使用 `http://localhost:13526/` 作为重定向 URL。
 
-如果想要编辑已注册的应用程序，请了解如何编辑[已向 AAD 注册的应用程序](https://docs.microsoft.com/azure/active-directory/develop/active-directory-integrating-applications#updating-an-application)，以便应用程序可以向 Web API 提供访问权限。
+如果想要编辑已注册的应用程序，请了解如何[更新已注册 Azure AD 的应用程序](https://docs.microsoft.com/azure/active-directory/develop/quickstart-v1-update-azure-ad-app)，使应用程序可以向 Web API 提供访问权限。
 
 如果想要编辑 Power BI 用户配置文件或数据，请了解如何编辑 [Power BI 数据](https://docs.microsoft.com/power-bi/service-basic-concepts)。
 

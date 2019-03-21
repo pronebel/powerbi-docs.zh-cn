@@ -8,14 +8,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
-ms.date: 02/28/2019
+ms.date: 03/12/2019
 LocalizationGroup: Premium
-ms.openlocfilehash: b4f2d58b9e33e603b6e2dbc97972bb54c66f065c
-ms.sourcegitcommit: d4d36b6b200f2693b545e4a3e66d94c77a3cfafb
+ms.openlocfilehash: 312e010bfa3ea635ef014a0b2dd913fa9e3911b6
+ms.sourcegitcommit: ac63b08a4085de35e1968fa90f2f49ea001b50c5
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/01/2019
-ms.locfileid: "57014130"
+ms.lasthandoff: 03/18/2019
+ms.locfileid: "57964838"
 ---
 # <a name="how-to-purchase-power-bi-premium"></a>如何购买 Power BI Premium
 
@@ -95,13 +95,15 @@ ms.locfileid: "57014130"
 
 1. 请仔细阅读这些信息。若要继续，请选择“取消订阅”。
 
+### <a name="when-canceling-or-your-license-expires"></a>取消订阅或许可证到期时
+
+取消高级订阅或容量许可证到期时，可以在取消或许可证到期之日起的 30 天内继续访问高级容量。 30 天后，将无法再访问高级容量或其中的工作区。
+
 ## <a name="next-steps"></a>后续步骤
 
-[Power BI 定价页](https://powerbi.microsoft.com/pricing/)
-[Power BI Premium 计算器](https://powerbi.microsoft.com/calculator/)
-[什么是 Power BI Premium？](service-premium.md)
-[Power BI Premium 常见问题解答](service-premium-faq.md)
-[Microsoft Power BI Premium 白皮书](https://aka.ms/pbipremiumwhitepaper)
-[规划 Power BI 企业部署白皮书](https://aka.ms/pbienterprisedeploy)
+[Power BI 定价页](https://powerbi.microsoft.com/pricing/)   
+[Power BI Pemium 计算器](https://powerbi.microsoft.com/calculator/)   
+[Power BI Premium 常见问题解答](service-premium-faq.md)   
+[规划 Power BI Enterprise 部署白皮书](https://aka.ms/pbienterprisedeploy)
 
 更多问题？ [尝试咨询 Power BI 社区](http://community.powerbi.com/)

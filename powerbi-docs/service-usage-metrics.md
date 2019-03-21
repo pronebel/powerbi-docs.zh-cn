@@ -11,12 +11,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 12/19/2018
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 57beee741ecf51aaf306f6a80d59b7c49653eedc
-ms.sourcegitcommit: a36f82224e68fdd3489944c9c3c03a93e4068cc5
+ms.openlocfilehash: 55415126ae4c87381f788729f6f4b23807ac6572
+ms.sourcegitcommit: 8fda7843a9f0e8193ced4a7a0e5c2dc5386059a6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/31/2019
-ms.locfileid: "55430283"
+ms.lasthandoff: 03/18/2019
+ms.locfileid: "58174927"
 ---
 # <a name="monitor-usage-metrics-for-power-bi-dashboards-and-reports"></a>监视 Power BI 仪表板和报表的使用情况指标
 
@@ -47,7 +47,7 @@ ms.locfileid: "55430283"
 
 使用情况指标报表不会显示在“最新动态”、“工作区”、“收藏夹”或其他内容列表中。 不能将使用情况指标报表添加到应用。 如果将使用情况指标报表中的磁贴固定到仪表板，则该仪表板无法添加到应用或内容包中。
 
-若要深入挖掘报表数据，或要根据数据集生成自己的报表，可使用“另存为”（请参阅[将使用情况指标报表另存为功能齐全的 Power BI 报表](#Save-the-Usage-Metrics-report-as-a-full-featured-Power-BI-report-(personalize))）。
+若要深入挖掘报表数据，或要根据数据集生成自己的报表，可使用“另存为”（请参阅[将使用情况指标报表另存为功能完备的 Power BI 报表](#save-the-usage-metrics-report-as-a-full-featured-power-bi-report-personalize)）。
 
 ## <a name="open-a-usage-metrics-report-for-a-dashboard-or-report"></a>打开包含使用情况指标的仪表板或报表
 

@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 11/21/2017
 ms.author: mblythe
 LocalizationGroup: Gateways
-ms.openlocfilehash: 7264ef7b1057f64d6eb51ccc77cbec2a74be6d0e
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 2122ce9bd6eb850a51a06188ca1c10faf78f4bb1
+ms.sourcegitcommit: ac63b08a4085de35e1968fa90f2f49ea001b50c5
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54283980"
+ms.lasthandoff: 03/18/2019
+ms.locfileid: "57964654"
 ---
 # <a name="configuring-proxy-settings-for-the-on-premises-data-gateway"></a>为本地数据网关配置代理设置
 你的工作环境可能要求你通过代理访问 Internet。 这会阻止本地数据网关连接到该服务。
@@ -46,24 +46,41 @@ superuser.com 上的以下文章讨论了尝试确定网络上有无代理的可
 ## <a name="configuring-proxy-settings"></a>配置代理设置
 默认代理配置如下。
 
-    <system.net>
-        <defaultProxy useDefaultCredentials="true" />
-    </system.net>
+```
+<system.net>
+    <defaultProxy useDefaultCredentials="true" />
+</system.net>
+```
+
 
 默认配置适用于 Windows 身份验证。 如果你的代理服务器使用另一种形式的身份验证，则你将需要更改设置。 如果你不确定，则应与你的网络管理员联系。 不建议执行基本代理身份验证，如果尝试执行，可能会导致代理身份验证错误出现，进而导致错误配置网关。 若要解决此问题，请使用更强大的代理身份验证机制。
 
 除使用默认凭据外，还可以添加 <proxy> 元素以更详细地定义代理服务器设置。 例如，可以通过将 bypassonlocal 参数设为 false，指定本地数据网关应始终使用代理，即使对于本地资源也是如此。 如果想在代理日志文件中跟踪来自本地数据网关的所有 https 请求，这样做有助于进行故障排除。 下面的示例配置指定所有请求都必须通过 IP 地址为 192.168.1.10 的特定代理。
 
-    <system.net>
-        <defaultProxy useDefaultCredentials="true">
-            <proxy  
-                autoDetect="false"  
-                proxyaddress="http://192.168.1.10:3128"  
-                bypassonlocal="false"  
-                usesystemdefault="true"
-            />  
-        </defaultProxy>
-    </system.net>
+```
+<system.net>
+    <defaultProxy useDefaultCredentials="true">
+        <proxy  
+            autoDetect="false"  
+            proxyaddress="http://192.168.1.10:3128"  
+            bypassonlocal="false"  
+            usesystemdefault="true"
+        />  
+    </defaultProxy>
+</system.net>
+```
+
+此外，对于通过代理连接到云数据源的网关，请更新以下文件：C:\Program Files\On-premises data gateway\Microsoft.Mashup.Container.NetFX45.exe。 在文件中，展开“`<configurations>`”部分以包含以下内容，并使用自己的代理信息更新 `proxyaddress` 属性。 以下示例将通过 IP 地址为 192.168.1.10 的特定代理路由所有云请求。
+
+```
+<configuration>
+<system.net>
+    <defaultProxy useDefaultCredentials="true" enabled="true">
+    <proxy proxyaddress=""http://192.168.1.10:3128" bypassonlocal="true" />
+    </defaultProxy>
+</system.net>
+</configuration>
+```
 
 若要了解有关 .NET 配置文件代理元素配置的详细信息，请参阅 [defaultProxy 元素（网络设置）](https://msdn.microsoft.com/library/kd3cf2ex.aspx)。
 

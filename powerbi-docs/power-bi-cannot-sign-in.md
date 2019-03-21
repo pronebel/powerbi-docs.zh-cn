@@ -10,18 +10,20 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.custom: ''
 ms.date: 03/12/2019
-ms.openlocfilehash: a29d251c629437184ff31de275a17c1d152abff3
-ms.sourcegitcommit: f176ba9d52d50d93f264eca21bb3fd987dbf934b
+ms.openlocfilehash: 1605293474a7cbfefb448d74127639153e29325c
+ms.sourcegitcommit: ac63b08a4085de35e1968fa90f2f49ea001b50c5
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/12/2019
-ms.locfileid: "57757768"
+ms.lasthandoff: 03/18/2019
+ms.locfileid: "57964608"
 ---
 # <a name="troubleshooting-sign-in-issues-for-power-bi"></a>Power BI 登录问题疑难解答
 
-本文介绍如何生成详述解决登录问题的方式的[支持内容](https://powerbi.microsoft.com/support/)。
+本文介绍在遇到 Power BI 登录问题时如何获取[支持](https://powerbi.microsoft.com/support/)。
 
-你需要采取的第一个措施是获得内部支持团队的帮助。 而如果你是组织的租户管理员，且无法登录 Power BI，请继续看以下信息。
+需要采取的第一个措施是获得组织内部支持团队的协助。
+
+而如果你是组织的租户管理员，且仍无法登录 Power BI，请继续了解以下信息。
 
 ## <a name="engage-the-support-team"></a>联系支持团队
 
@@ -30,11 +32,13 @@ ms.locfileid: "57757768"
 如果无法访问 Power BI 支持页，尝试通过 [Office 365 (O365) 支持页](https://support.office.com/home/contact)创建工单。
 
 如果无法通过上述两种方式创建工单，请致电支持部门。
+
 * 位于美国和美洲其他国家/地区的客户致电：+1-800-936-5800
 * 位于欧洲、中东和亚洲 (EMEA) 的客户致电：+44-844-800-2400
 * 位于印度的客户致电：+1-800-419-5666
 
-向 Microsoft 支持部门请求帮助的另一种方式为购买 [Microsoft 顶级支持](https://support.microsoft.com/premier)。 如果知道组织购买了 Microsoft 顶级支持，但你仍不能通过任何 O365 或 Power BI 频道创建事例，可以致电顶级支持部门。
+向 Microsoft 支持部门请求帮助的另一种方式为购买 [Microsoft 顶级支持](https://support.microsoft.com/premier)。 如果知道组织购买了 Microsoft 顶级支持，但你仍无法通过任何 Power BI 或 O365 频道创建事例，可以致电顶级支持部门。
+
 * 位于美国和美洲其他国家/地区的客户致电：+1-800-936-3100
 * 位于欧洲、中东和亚洲 (EMEA) 的客户致电：+44-844-800-8338
 * 位于印度的客户致电：+1-800-425-5666
