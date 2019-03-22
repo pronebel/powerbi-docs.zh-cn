@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 12/06/2018
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: a8a7aa8ed33e5c1baa7319ea65a67b6338c41ca2
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: fc403220ae45fda879802fe480853a3c94fd53c0
+ms.sourcegitcommit: 69c31c15020e2707f961697eeb05cb550c9968f6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54277793"
+ms.lasthandoff: 03/20/2019
+ms.locfileid: "58220945"
 ---
 # <a name="using-computed-entities-on-power-bi-premium-preview"></a>在 Power BI Premium 上使用计算实体（预览）
 
@@ -79,7 +79,9 @@ ms.locfileid: "54277793"
 
 使用组织的 Azure Data Lake Storage Gen2 帐户中专门创建的数据流时，仅当链接实体和计算实体位于同一存储帐户中时，这些实体才能正常工作。 有关详细信息，请参阅[连接 Azure Data Lake Storage Gen2 以存储数据流（预览）](service-dataflows-connect-azure-data-lake-storage-gen2.md)。
 
-此外，链接实体不适用于 CDM 文件夹中创建的数据流。 请参阅[将 CDM 文件夹添加到 Power BI 作为数据流（预览）](service-dataflows-add-cdm-folder.md)。
+链接实体不适用于从通用数据模型 (CDM) 文件夹创建的数据流。 有关详细信息，请参阅[将 CDM 文件夹添加到 Power BI 作为数据流（预览）](service-dataflows-add-cdm-folder.md)。
+
+最佳做法如下：如果要对由本地数据和云数据联接的数据执行计算，可以创建新实体来执行此类计算。 与使用现有实体（例如也从两个源查询数据并执行湖内转换的实体）进行计算相比，这种做法可以提供更好的体验。
 
 ## <a name="next-steps"></a>后续步骤
 

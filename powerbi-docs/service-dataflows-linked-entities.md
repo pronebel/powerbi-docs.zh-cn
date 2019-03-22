@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 11/06/2018
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: 4331878aee591f9e3939c0bb1c239eca160ee61d
-ms.sourcegitcommit: 80961ace38ff9dac6699f81fcee0f7d88a51edf4
+ms.openlocfilehash: 52876f05eba098466b3f0b8cebc614d10a3cd277
+ms.sourcegitcommit: 69c31c15020e2707f961697eeb05cb550c9968f6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/13/2019
-ms.locfileid: "56223642"
+ms.lasthandoff: 03/20/2019
+ms.locfileid: "58220899"
 ---
 # <a name="link-entities-between-dataflows-in-power-bi-preview"></a>在 Power BI 中链接数据流之间的实体（预览）
 
@@ -81,6 +81,7 @@ ms.locfileid: "56223642"
 * 最多有五个引用跃点
 * 不允许链接实体的循环依赖项
 * 数据流必须位于[新 Power BI 工作区](service-create-the-new-workspaces.md)中
+* 链接实体无法与从本地数据源获取数据的常规实体联接
 
 
 ## <a name="next-steps"></a>后续步骤
