@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 11/01/2018
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: f1244535259de2a5b5726d295a64229a0f92f02b
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 635a64c08056e82539d33904d4cce60d4cfc00cd
+ms.sourcegitcommit: 20ae9e9ffab6328f575833be691073de2061a64d
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54296410"
+ms.lasthandoff: 03/22/2019
+ms.locfileid: "58382929"
 ---
 # <a name="unable-to-add-power-bi-to-office-365-partner-subscription"></a>无法将 Power BI 添加到 Office 365 合作伙伴订阅
 
@@ -33,9 +33,9 @@ ms.locfileid: "54296410"
 
 ## <a name="purchase-from-microsoft-or-another-channel"></a>从 Microsoft 或其他渠道购买
 
-可以直接从 Microsoft 或其他合作伙伴处购买 Power BI，具体视与合作伙伴的关系而定。 可以验证能否在 Office 365 管理门户中添加 Power BI 订阅（必须有全局管理员或帐务管理员角色的成员身份）。
+可以直接从 Microsoft 或其他合作伙伴处购买 Power BI，具体视与合作伙伴的关系而定。 可以在 Microsoft 365 管理中心内验证能否添加 Power BI 订阅（必须有全局管理员或计费管理员角色的成员身份）。
 
-1. 转到 [Office 365 管理门户](https://admin.microsoft.com/AdminPortal/Home#/homepage)。
+1. 转到 [MIcrosoft 365 管理中心](https://admin.microsoft.com/AdminPortal/Home#/homepage)。
 
 1. 在左侧菜单中，打开“帐务”：
 
