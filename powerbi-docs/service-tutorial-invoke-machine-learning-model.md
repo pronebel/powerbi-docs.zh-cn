@@ -11,12 +11,12 @@ ms.topic: tutorial
 ms.date: 03/12/2019
 ms.author: davidi
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 54515259d0e258284cd5a2e86432a5ef6be89a9e
-ms.sourcegitcommit: 06ae54ed221979939699c67d63aeccba8b9dfcda
+ms.openlocfilehash: 6c63f0bbcf836c90eecf7407d2d9805fc9ab443a
+ms.sourcegitcommit: 39bc75597b99bc9e8d0a444c38eb02452520e22b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/14/2019
-ms.locfileid: "57965120"
+ms.lasthandoff: 03/25/2019
+ms.locfileid: "58430314"
 ---
 # <a name="tutorial-invoke-a-machine-learning-studio-model-in-power-bi-preview"></a>教程：在 Power BI 中调用机器学习工作室模型（预览版）
 
@@ -92,7 +92,7 @@ ms.locfileid: "57965120"
 
 `https://raw.githubusercontent.com/santoshc1/PowerBI‑AI‑samples/master/Tutorial\_MLStudio\_model\_integration/Automobile%20price%20data%20\_Raw\_.csv`
 
-!Connect to data source](media/service-tutorial-invoke-machine-learning-model/tutorial-invoke-machine-learning-model_08.png)
+![连接到数据源](media/service-tutorial-invoke-machine-learning-model/tutorial-invoke-machine-learning-model_08.png)
 
 Power Query 编辑器显示 CSV 文件中的数据的预览。 从命令功能区中选择“转换表”，然后选择“将第一行用作标题”。  此操作将“提升的标题”查询步骤添加到右侧的“应用步骤”窗格中。 还可以使用右侧窗格将查询重命名为更友好的名称，例如“汽车定价”。
 
@@ -137,7 +137,7 @@ Power Query 编辑器显示 CSV 文件中的数据的预览。 从命令功能�
 
 选择功能区中的“AI 见解”按钮，然后选择左侧导航菜单中的“Azure 机器学习模型”文件夹。
 
-选择“Azure 机器学习模型”文件夹。 已向其授予访问权限的 Azure ML 模型将作为 Power Query 函数列出，前缀为 AzureML。  单击对应于 AutomobilePricePrediction 模型的函数时，模型的 Web 服务的参数将作为函数参数列出。
+已向其授予访问权限的 Azure ML 模型将作为 Power Query 函数列出，前缀为 AzureML。  单击对应于 AutomobilePricePrediction 模型的函数时，模型的 Web 服务的参数将作为函数参数列出。
 
 若要调用 Azure ML 模型，可以从下拉列表中将任一选定的实体的列指定为输入。 此外，还可以通过将列图标切换到输入对话框左侧来指定要用作输入内容的常量值。 当列名称与其中一个函数参数名称匹配时，则系统将自动建议该列作为输入。  如果列名称不匹配，可以从下拉列表中选择它。
 

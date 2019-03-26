@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: conceptual
 ms.date: 03/10/2019
-ms.openlocfilehash: 02ce5146a154583d784de8030a0b0ec84740fcb3
-ms.sourcegitcommit: 8fda7843a9f0e8193ced4a7a0e5c2dc5386059a6
+ms.openlocfilehash: cf9a613e82b4f5b7ce9cc67f5b920760d01ccbf7
+ms.sourcegitcommit: 39bc75597b99bc9e8d0a444c38eb02452520e22b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/18/2019
-ms.locfileid: "58175456"
+ms.lasthandoff: 03/25/2019
+ms.locfileid: "58430291"
 ---
 # <a name="guidelines-for-power-bi-visuals"></a>Power BI 视觉对象指南
 
@@ -29,7 +29,6 @@ ms.locfileid: "58175456"
 
 >[!IMPORTANT]  
 > 如果将视觉对象从免费更新为“可能需要额外付费”，用户必须获得与更新前相同级别的免费功能。 可以在现有免费功能基础上添加可选的高级付费功能。 我们建议将具有高级功能的 IAP 视觉对象作为新视觉对象提交，而不是更新现有免费视觉对象。
-
 
 ## <a name="what-changed-in-the-submission-process"></a>提交过程有什么变化？
 
@@ -51,17 +50,17 @@ IAP 视觉对象是一个免费的视觉对象，可提供免费功能。 它还
 > [!IMPORTANT]
 > 仅允许在编辑模式下使用徽标。 无法在查看模式下显示徽标。
 
-![定义](media/office-store-in-app-purchase-visual-guidelines/definitions.png)
+![定义](media/guidelines-powerbi-visuals/definitions.png)
 
-![需要注意的事项](media/office-store-in-app-purchase-visual-guidelines/things-to-keep-in-mind.png)
+![需要注意的事项](media/guidelines-powerbi-visuals/things-to-keep-in-mind.png)
 
-![需要避免的事项](media/office-store-in-app-purchase-visual-guidelines/things-to-avoid.png)
+![需要避免的事项](media/guidelines-powerbi-visuals/things-to-avoid.png)
 
-![大小和格式](media/office-store-in-app-purchase-visual-guidelines/size-and-format.png)
+![大小和格式](media/guidelines-powerbi-visuals/size-and-format.png)
 
-![边距和大小调整](media/office-store-in-app-purchase-visual-guidelines/margins-and-sizes.png)
+![边距和大小调整](media/guidelines-powerbi-visuals/margins-and-sizes.png)
 
-![编辑模式](media/office-store-in-app-purchase-visual-guidelines/logos-in-edit-mode.png)
+![编辑模式](media/guidelines-powerbi-visuals/logos-in-edit-mode.png)
 
 ## <a name="best-practices"></a>最佳做法
 
