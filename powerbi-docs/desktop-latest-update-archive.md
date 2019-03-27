@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 03/13/2019
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: 48ea3d5e60c6f6a079be1d7040266817fdf5b97b
-ms.sourcegitcommit: ac63b08a4085de35e1968fa90f2f49ea001b50c5
+ms.openlocfilehash: 536e433540d371838b027e06f857609024e213f3
+ms.sourcegitcommit: 39bc75597b99bc9e8d0a444c38eb02452520e22b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/18/2019
-ms.locfileid: "57964976"
+ms.lasthandoff: 03/25/2019
+ms.locfileid: "58430475"
 ---
 # <a name="previous-monthly-updates-to-power-bi-desktop"></a>此前的 Power BI Desktop 月度更新
 
@@ -558,7 +558,7 @@ ms.locfileid: "57964976"
 
 ### <a name="other"></a>其他
 
-* 主权云选择器 [[视频]](https://youtu.be/4VpGtWSrssE?t=27m45s)  [[博客]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-2018-feature-summary/#nationalCloud) 
+* 国家云选择器 [[视频]](https://youtu.be/4VpGtWSrssE?t=27m45s)  [[博客]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-2018-feature-summary/#nationalCloud) 
 
 
 > [!NOTE]
@@ -2231,7 +2231,7 @@ ms.locfileid: "57964976"
 
 -   查询组创建/删除改进（多选等）
 
--   能够拆分查询（即将常见基本步骤重构为新的查询）
+-   能够拆分查询（即，将常见基本步骤重构为新的查询）
 
 -   查询图标，可反映“查询”导航窗格中的查询类型
 
@@ -2250,7 +2250,7 @@ ms.locfileid: "57964976"
 
 已向此更新添加了以下功能：
 
--   **新数据连接器**：appFigures、Quickbooks Online、Zendesk、Github、Twilio 和 SweetIQ。
+-   **新数据连接器**：appFigures、Quickbooks Online、Zendesk、GitHub、Twilio 和 SweetIQ。
 
 -   **新转换**：从文本列提取第一个/最后一个/一定范围的字符；用于在“合并查询”对话框中指定“联接类型”的选项；能够自定义“通过分隔符拆分列”对话框中的“引用样式”。
 

@@ -10,12 +10,12 @@ ms.topic: overview
 ms.date: 10/29/2018
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: d00e6f2a972e6e41d4d9badc51e30a13a6dc98cc
-ms.sourcegitcommit: a36f82224e68fdd3489944c9c3c03a93e4068cc5
+ms.openlocfilehash: 214a8a3ce0fd647cecd9855b48589cef02bf01c8
+ms.sourcegitcommit: 20ae9e9ffab6328f575833be691073de2061a64d
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/31/2019
-ms.locfileid: "55430095"
+ms.lasthandoff: 03/22/2019
+ms.locfileid: "58383305"
 ---
 # <a name="what-is-power-bi-administration"></a>什么是 Power BI 管理？
 
@@ -71,7 +71,7 @@ Power BI 服务管理员角色不授予将许可证分配给用户或在 Office 
 | **工具** | **典型任务** |
 | --- | --- |
 | Power BI 管理门户 |<ul><li>获取和使用 Premium 容量</li><li>确保服务质量</li><li>管理业务数据分类</li><li>帮助强制实施内容发布和共享策略</li><li>管理工作区<br><li>发布自定义视觉对象</li><li>验证用于在其他应用程序中嵌入 Power BI 的代码</li><li>数据访问和其他问题疑难解答</li></ul>|
-| Office 365 管理中心 |<ul><li>管理用户注册</li><li>购买和分配 Pro 许可证</li><li>阻止用户访问 Power BI</li></ul>|
+| MIcrosoft 365 管理中心 |<ul><li>管理用户注册</li><li>购买和分配 Pro 许可证</li><li>阻止用户访问 Power BI</li></ul>|
 | Office 365 安全与合规中心 |<ul><li>查看和管理事件审核</li></ul>|
 | Azure 门户中的 Azure Active Directory (AAD) |<ul><li>通过 AAD 配置对 Power BI 资源的条件访问</li><li>设置 Power BI Embedded 容量</li></ul>|
 | PowerShell cmdlet |<ul><li>通过脚本管理工作区和 Power BI 的其他方面</li></ul>|

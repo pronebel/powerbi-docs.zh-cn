@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/30/2018
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: 65889d1082cee75ed56edc67ece9c99b5f344a6e
-ms.sourcegitcommit: a36f82224e68fdd3489944c9c3c03a93e4068cc5
+ms.openlocfilehash: 5da6b465adc544bf64fd4dfb090a2e1faabee59d
+ms.sourcegitcommit: 20ae9e9ffab6328f575833be691073de2061a64d
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/31/2019
-ms.locfileid: "55430212"
+ms.lasthandoff: 03/22/2019
+ms.locfileid: "58383229"
 ---
 # <a name="power-bi-licensing-in-your-organization"></a>组织中的 Power BI 许可
 
@@ -35,7 +35,7 @@ ms.locfileid: "55430212"
 
 你组织中的个人可以注册 Power BI Pro 试用版。 有关更多信息，请参阅[以个人身份注册 Power BI](service-self-service-signup-for-power-bi.md)。
 
-利用此产品内 Power BI Pro 试用版的用户不会在 Office 365 管理门户内显示为 Power BI Pro 试用版用户（他们显示为 Power BI 免费用户）。 但是，他们会在 Power BI 中管理存储页面上显示为 Power BI Pro 试用版用户。
+利用此产品内 Power BI Pro 试用版的用户不会在 Microsoft 365 管理中心内显示为 Power BI Pro 试用版用户（他们显示为 Power BI 免费用户）。 但是，他们会在 Power BI 中管理存储页面上显示为 Power BI Pro 试用版用户。
 
 ### <a name="power-bi-pro-trial-for-organizations"></a>面向组织提供的 Power BI Pro 试用版
 
@@ -47,7 +47,7 @@ ms.locfileid: "55430212"
 
 * 每个租户限制使用一个组织试用版。 这意味着如果有人已将 Power BI Pro 试用版应用到你的租户，则无法再次应用。 如果需要这方面的帮助，请联系 [Office 365 计费支持](https://support.office.microsoft.com/article/contact-support-for-business-products-admin-help-32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b?CorrelationId=552bbf37-214f-4202-80cb-b94240dcd671)。
 
-1. 导航到 [Office 365 管理中心](https://portal.office.com/adminportal/home#/homepage)。
+1. 导航到 [MIcrosoft 365 管理中心](https://portal.office.com/adminportal/home#/homepage)。
 
 1. 在左侧导航窗格中，依次选择“计费”和“订阅”。
 
@@ -71,7 +71,7 @@ ms.locfileid: "55430212"
 
 组织中的用户可以通过两种不同方式获取对 Power BI 免费许可证的访问权限：
 
-* 可在 Office 365 管理门户内为其分配 Power BI 许可证。
+* 可在 Microsoft 365 管理中心内为其分配 Power BI 许可证。
 
 * 如果用户[注册 Power BI Pro 试用版](service-self-service-signup-for-power-bi.md)且试用版到期，则会为其分配免费许可证。
 
@@ -81,7 +81,7 @@ ms.locfileid: "55430212"
 
 此许可证块会在某人首次以个人身份注册 Power BI 之后可用。 在该过程中，此许可证块会附加到你的组织，一个许可证会分配给进行注册的用户。
 
-1. 在 Office 365 管理中心的“计费” > “许可证”下，检查“无限制”。
+1. 在 Microsoft 365 管理中心的“计费” > “许可证”下，检查“无限制”。
 
     ![无限制的免费许可证块](media/service-admin-licensing-organization/unlimited-licenses.png)
 
@@ -93,7 +93,7 @@ ms.locfileid: "55430212"
 
 如果无限制的 Power BI（免费）许可证块不可用且你不想单独注册，请按照此过程操作。
 
-1. 导航到 [Office 365 管理中心](https://portal.office.com/admin/default.aspx)。
+1. 导航到 [MIcrosoft 365 管理中心](https://portal.office.com/admin/default.aspx)。
 
 1. 在左侧导航窗格中，选择**计帐**  >  **订阅**。
 

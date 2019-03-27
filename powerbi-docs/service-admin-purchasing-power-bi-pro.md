@@ -10,12 +10,12 @@ ms.topic: quickstart
 ms.date: 10/21/2018
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: 76288ca77f184b27b5839377190a1708c69567af
-ms.sourcegitcommit: a36f82224e68fdd3489944c9c3c03a93e4068cc5
+ms.openlocfilehash: 15cd5e021969a050937b9d67eb7695f4fcde07c0
+ms.sourcegitcommit: 20ae9e9ffab6328f575833be691073de2061a64d
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/31/2019
-ms.locfileid: "55430685"
+ms.lasthandoff: 03/22/2019
+ms.locfileid: "58383076"
 ---
 # <a name="purchase-and-assign-power-bi-pro-licenses"></a>购买和分配 Power BI Pro 许可证
 
@@ -33,7 +33,7 @@ Power BI Pro 是单个许可证，允许访问 Power BI 服务中的所有内容
 
 按照以下步骤购买 Power BI Pro 许可证：
 
-1. 打开 [Office 365 管理中心](https://portal.office.com/adminportal/home#/homepage)。
+1. 打开 [MIcrosoft 365 管理中心](https://portal.office.com/adminportal/home#/homepage)。
 
 2. 在左侧导航窗格中，选择**计帐**  >  **订阅**。
 
@@ -71,7 +71,7 @@ Power BI Pro 是单个许可证，允许访问 Power BI 服务中的所有内容
 
 按照以下步骤将 Power BI Pro 许可证分配给个人用户帐户：
 
-1. 打开 [Office 365 管理中心](https://portal.office.com/adminportal/home#/homepage)。
+1. 打开 [MIcrosoft 365 管理中心](https://portal.office.com/adminportal/home#/homepage)。
 
 2. 在左侧导航窗格中，展开“用户”，然后选择“活动用户”。
 

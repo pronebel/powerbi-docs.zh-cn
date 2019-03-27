@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/31/2018
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: f685a900465cc0f1b635aad7609aaae4356da6b3
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 26cf9b10d2a7bfffca151fe36cd45626487b6eef
+ms.sourcegitcommit: 20ae9e9ffab6328f575833be691073de2061a64d
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54284624"
+ms.lasthandoff: 03/22/2019
+ms.locfileid: "58383637"
 ---
 # <a name="find-power-bi-users-that-have-signed-in"></a>查找已登录的 Power BI 用户
 
@@ -24,7 +24,7 @@ ms.locfileid: "54284624"
 <iframe width="640" height="360" src="https://www.youtube.com/embed/1AVgh9w9VM8?showinfo=0" frameborder="0" allowfullscreen></iframe>
 
 > [!NOTE]
-> 虽然此活动报告中的信息很实用，但并未识别每个用户拥有的许可证类型。 请使用 Office 365 管理中心查看许可证。
+> 虽然此活动报告中的信息很实用，但并未识别每个用户拥有的许可证类型。 请使用 Microsoft 365 管理中心查看许可证。
 
 ## <a name="requirements"></a>要求
 

@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 12/06/2017
 ms.author: mblythe
 LocalizationGroup: Gateways
-ms.openlocfilehash: 18458820f98bcea32eb5288389d57808646d462c
-ms.sourcegitcommit: 91ac6185f7026ddbaa925dc54057bb742b4fa411
+ms.openlocfilehash: fa7d10403ca6bd8dc94729b7b4fd631475a3671e
+ms.sourcegitcommit: 20ae9e9ffab6328f575833be691073de2061a64d
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/16/2019
-ms.locfileid: "56325005"
+ms.lasthandoff: 03/22/2019
+ms.locfileid: "58383407"
 ---
 # <a name="on-premises-data-gateway-in-depth"></a>深入了解本地数据网关
 组织中的用户可以访问本地数据（他们已经具有该数据的访问授权），但在这些用户可以连接到本地数据源之前，需要安装和配置本地数据网关。 该网关便于云中的用户与你的本地数据源相互进行快速安全的后台通信，然后返回到云。
@@ -77,7 +77,7 @@ Power BI 允许映射 Analysis Services 数据源的用户名。 你可以配置
 
 1. 可以将帐户手动添加到 Azure Active Directory 中。
    
-   可以在 Azure 门户或 Office 365 管理门户中创建一个帐户，帐户名称与本地 Active Directory 帐户的 UPN 匹配。
+   可以在 Azure 门户或 Microsoft 365 管理中心中创建一个帐户，帐户名称与本地 Active Directory 帐户的 UPN 匹配。
 2. 你可以使用 [Azure AD Connect](/azure/active-directory/hybrid/how-to-connect-sync-whatis) 工具将本地帐户同步到 Azure Active Directory 租户。
    
    Azure AD Connect 工具提供有关目录同步和设置身份验证的选项，包括密码哈希同步、传递身份验证和联合身份验证。 如果你不是租户管理员或本地域管理员，则需要联系 IT 管理员对其进行配置。

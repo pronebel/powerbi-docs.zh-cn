@@ -10,19 +10,19 @@ ms.subservice: powerbi-admin
 ms.topic: conceptual
 ms.date: 03/12/2019
 LocalizationGroup: Premium
-ms.openlocfilehash: 312e010bfa3ea635ef014a0b2dd913fa9e3911b6
-ms.sourcegitcommit: ac63b08a4085de35e1968fa90f2f49ea001b50c5
+ms.openlocfilehash: 25e36334390ad88d7856124c67e275db5c7fcd1c
+ms.sourcegitcommit: 20ae9e9ffab6328f575833be691073de2061a64d
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/18/2019
-ms.locfileid: "57964838"
+ms.lasthandoff: 03/22/2019
+ms.locfileid: "58382999"
 ---
 # <a name="how-to-purchase-power-bi-premium"></a>如何购买 Power BI Premium
 
 > [!NOTE]
 > 本文目前正在更新，以说明新功能，提供更多详细信息并提高可读性。 
 
-本文介绍如何为你的组织购买 Power BI 高级容量 (P1-P3)。 在 Office 365 管理中心购买 Power BI Premium 容量并在 Power BI 管理门户中管理容量。 有关当前定价和计划的信息，请参阅 [Power BI 定价页](https://powerbi.microsoft.com/pricing/)和 [Power BI Premium 计算器](https://powerbi.microsoft.com/calculator/)。
+本文介绍如何为你的组织购买 Power BI 高级容量 (P1-P3)。 在 Microsoft 365 管理中心购买 Power BI Premium 容量并在 Power BI 管理门户中管理容量。 有关当前定价和计划的信息，请参阅 [Power BI 定价页](https://powerbi.microsoft.com/pricing/)和 [Power BI Premium 计算器](https://powerbi.microsoft.com/calculator/)。
 
 即使你的组织使用 Power BI Premium，内容创建者还是需要一个 Power BI Pro 许可证。 请确保为组织购买至少一个 Power BI Pro 许可证。
 
@@ -42,7 +42,7 @@ ms.locfileid: "57964838"
 
     ![Office 365 应用选取器](media/service-admin-premium-purchase/o365-app-picker.png)
 
-    或者，可以浏览到 Office 365 管理中心。 如需访问，请转到 https://portal.office.com 并选择“管理员”。
+    或者，可以浏览到 Microsoft 365 管理中心。 如需访问，请转到 https://portal.office.com 并选择“管理员”。
 
 1. 选择“计费” > “购买服务”。
 
@@ -62,7 +62,7 @@ ms.locfileid: "57964838"
 
 现在已有容量，可随着需求的增长添加更多容量。 可以在组织中使用任何高级容量 SKU（P1 到 P3）组合。 不同的 SKU 提供不同的资源容量。
 
-1. 在 Office 365 管理中心中选择“账单” > “购买服务”。
+1. 在 Microsoft 365 管理中心内，选择“账单” > “购买服务”。
 
 1. 在“其他计划”下找到需额外购买的 Power BI Premium 项目。
 
@@ -81,9 +81,9 @@ ms.locfileid: "57964838"
 
 ## <a name="cancel-your-subscription"></a>取消订阅
 
-可以在 Office 365 管理中心内取消订阅。 若要取消 Premium 订阅，请执行以下操作。
+可以在 Microsoft 365 管理中心内取消订阅。 若要取消 Premium 订阅，请执行以下操作。
 
-1. 转到 Office 365 管理中心。
+1. 浏览到 Microsoft 365 管理中心。
 
 1. 依次选择“计费” > “订阅”。
 

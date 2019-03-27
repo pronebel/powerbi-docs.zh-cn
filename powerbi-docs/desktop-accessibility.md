@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 01/11/2019
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 18872e65154f70e882c4f6f60c04420b17038d32
-ms.sourcegitcommit: 8207c9269363f0945d8d0332b81f1e78dc2414b0
+ms.openlocfilehash: e3dd7d9120b524dd09d6f0d60764385185210d83
+ms.sourcegitcommit: 89e9875e87b8114abecff6ae6cdc0146df40c82a
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/14/2019
-ms.locfileid: "56249105"
+ms.lasthandoff: 03/21/2019
+ms.locfileid: "58306288"
 ---
 # <a name="accessibility-in-power-bi-desktop-reports"></a>Power BI Desktop 报表中的辅助功能
 Power BI 具有使残疾人士能够更轻松地使用 Power BI 报表并与之进行交互的功能。 这些功能包括通过键盘或屏幕阅读器使用报表、通过按 Tab 键将焦点移动到页面中的各个对象以及在可视化效果中方便地使用标记。
@@ -137,6 +137,13 @@ Power BI 服务还尝试检测 Windows 选择的高对比度设置，但该检�
 | :------------------- | :------------------- |
 | 将焦点移动到视觉对象菜单 | Alt + Shift + F10 |
 | 显示数据 | Alt + Shift +F11  |
+| 输入一个视觉对象 | Ctrl + 向右键 |
+| 输入一层 | 输入 |
+| 退出一层或视觉对象 | Esc |
+| 选中或取消选中数据点 | Enter 或空格键 |
+| 多选 | Ctrl + Enter 或 Ctrl + 空格键 |
+| 右键单击 | <ul><li>Windows 键盘：Windows 上下文键 + F10。  Windows 上下文键位于左 Alt 键和向左键之间</li><li>其他键盘：Shift + F10</li></ul> |
+| 清除选定内容 | Ctrl + Shift + C |
 
 ### <a name="pane-navigation"></a>窗格导航
 | 如何执行此操作           | 操作方法                |

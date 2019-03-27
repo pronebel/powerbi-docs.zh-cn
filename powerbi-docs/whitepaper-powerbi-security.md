@@ -2,20 +2,20 @@
 title: Power BI 安全性白皮书
 description: 白皮书讨论并描述了 Power BI 的安全性体系结构和实现
 author: davidiseminger
+ms.author: davidi
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 03/07/2019
-ms.author: davidi
 LocalizationGroup: Conceptual
-ms.openlocfilehash: 957c6d5fe8797f1b03eaab3a54846e7110b302fb
-ms.sourcegitcommit: 378265939126fd7c96cb9334dac587fc80291e97
+ms.openlocfilehash: 8a86d17252bea3dbdb6ad30de35667cfbd844c8b
+ms.sourcegitcommit: 39bc75597b99bc9e8d0a444c38eb02452520e22b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "57580280"
+ms.lasthandoff: 03/25/2019
+ms.locfileid: "58430383"
 ---
 # <a name="power-bi-security-whitepaper"></a>Power BI 安全性白皮书
 
@@ -125,7 +125,7 @@ Power BI 根据 Power BI 群集在区域数据中心的部署位置在某些区�
 
 * [Power BI 数据中心](https://www.microsoft.com/TrustCenter/CloudServices/business-application-platform/data-location)
 
-Microsoft 还为国家主权提供数据中心。 有关主权云的 Power BI 服务可用性的详细信息，请参阅 [Power BI 主权云](https://powerbi.microsoft.com/clouds/)。
+Microsoft 还为国家主权提供数据中心。 有关国家云的 Power BI 服务可用性的详细信息，请参阅 [Power BI 国家云](https://powerbi.microsoft.com/clouds/)。
 
 有关数据存储位置和使用方式的详细信息，请参阅 [Microsoft 信任中心](https://www.microsoft.com/TrustCenter/Transparency/default.aspx#_You_know_where)。 在 [Microsoft Online Services 条款](http://www.microsoftvolumelicensing.com/DocumentSearch.aspx?Mode=3&amp;DocumentTypeId=31)的“数据处理条款”中指定了有关静态客户数据位置的承诺使用量。
 
@@ -151,11 +151,9 @@ Power BI 服务的用户身份验证序列如下图中的步骤所示。
 
 3. WFE 集群使用 Azure Active Directory (AAD) 服务进行检查，以验证用户的 Power BI 服务订阅，并获取 AAD 安全令牌。 AAD 返回成功的用户身份验证并返回 AAD 安全令牌时，WFE 群集将咨询“Power BI**** 全局服务”，该服务维护租户及其 Power BI 后端群集位置的列表，并确定包含用户的租户的 Power BI 服务群集。 然后，WFE 群集将用户定向到其租户所在的 Power BI 群集，并向用户的浏览器返回一系列项：
 
-
       - **AAD 安全令牌**
       - **会话信息**
       - 用户可以与之通信和交互的后端群集的 Web 地址
-
 
 1. 然后，用户的浏览器联系指定的 Azure CDN 或 WFE 的一些文件，以下载启用浏览器与 Power BI 服务交互所必需的指定公共文件的集合。 在 Power BI 服务浏览器会话期间，浏览器页面包含 AAD 令牌、会话信息、关联后端群集的位置以及从 Azure CDN 和 WFE 群集下载的文件集合。
 
@@ -182,9 +180,6 @@ DirectQuery 是一种查询，针对这种查询，Power BI 用户的查询已�
 |行数据     |    X     |         |         |
 |视觉对象数据缓存     |    X     |     X    |    X     |
 
-
-
-
 DirectQuery 和其他查询之间的区别决定了 Power BI 服务如何处理静态数据，以及查询本身是否加密。 以下部分介绍静态数据和移动中的数据，并说明用于处理数据的加密、位置和过程。
 
 ### <a name="data-at-rest"></a>静态数据
@@ -210,9 +205,9 @@ DirectQuery 和其他查询之间的区别决定了 Power BI 服务如何处理�
 #### <a name="datasets"></a>数据集
 
 1. 元数据（表、列、度量值、计算、连接字符串等。）
-      
+
     a. 对于本地 Analysis Services，除了对 Azure SQL 中加密存储的数据库的引用外，服务中不会存储任何内容。
- 
+
     b. ETL、DirectQuery 和推送数据的所有其他元数据都已加密并存储在 Azure Blob 存储中。
 
 1. 原始数据源的凭据
@@ -255,7 +250,7 @@ Power BI 通过以下方式提供数据完整性监视：
    a. 报告可以是 Excel for Office 365 报表，也可以是 Power BI 报表。 以下内容适用于基于报表类型的元数据：
 
        a. Excel Report metadata is stored encrypted in SQL Azure. Metadata is also stored in Office 365.
-       
+
        b. Power BI reports are stored encrypted in Azure SQL database.
 
 2. 静态数据
@@ -358,7 +353,7 @@ Power BI 移动版是为以下三个主要移动平台设计的应用集合：An
 | **Power BI**（登录服务） | 支持 | 支持 | 不支持 |
 | **SSRS ADFS**（连接到 SSRS 服务器） | 不支持 | 支持 | 不支持 |
 
-Power BI 移动版应用主动与 Power BI 服务进行通信。 遥测用于收集移动应用使用情况统计数据和类似数据，这些数据传输到用于监视使用情况和活动的服务；遥测数据中未发送个人可识别信息 (PII)。
+Power BI 移动版应用主动与 Power BI 服务进行通信。 遥测用于收集移动应用使用情况统计数据和类似数据，这些数据传输到用于监视使用情况和活动的服务；遥测数据中未发送个人数据。
 
 设备上的 Power BI 应用程序在设备上存储有助于使用应用的数据：
 
@@ -414,7 +409,7 @@ Power BI 移动版可用的所有三个平台都支持 Microsoft Intune，这是
 
 **Power BI 组是如何工作的？**
 
-* Power BI 组允许用户快速轻松地在已建立的团队中协作创建仪表板、报表和数据模型。 例如，如果你有 Power BI 组，其中包含所在团队中的所有人，则从 Power BI 中选择组便可轻松地与团队中的每个人进行协作。 Power BI 组等同于 Office 365 通用组（可以[了解有关](https://support.office.com/Article/Find-help-about-Groups-in-Office-365-7a9b321f-b76a-4d53-b98b-a2b0b7946de1)、[创建](https://support.office.com/Article/View-create-and-delete-Groups-in-the-Office-365-admin-center-a6360120-2fc4-46af-b105-6a04dc5461c7)和[管理](https://support.office.com/Article/Manage-Group-membership-in-the-Office-365-admin-center-e186d224-a324-4afa-8300-0e4fc0c3000a)的信息），并使用 Azure Active Directory 中使用的相同身份验证机制来保护数据。 可以[在 Power BI 中创建组](https://support.powerbi.com/knowledgebase/articles/654250)，或在 Office 365 管理中心中创建通用组；或者在 Power BI 中创建组的结果与此相同。
+* Power BI 组允许用户快速轻松地在已建立的团队中协作创建仪表板、报表和数据模型。 例如，如果你有 Power BI 组，其中包含所在团队中的所有人，则从 Power BI 中选择组便可轻松地与团队中的每个人进行协作。 Power BI 组等同于 Office 365 通用组（可以[了解有关](https://support.office.com/Article/Find-help-about-Groups-in-Office-365-7a9b321f-b76a-4d53-b98b-a2b0b7946de1)、[创建](https://support.office.com/Article/View-create-and-delete-Groups-in-the-Office-365-admin-center-a6360120-2fc4-46af-b105-6a04dc5461c7)和[管理](https://support.office.com/Article/Manage-Group-membership-in-the-Office-365-admin-center-e186d224-a324-4afa-8300-0e4fc0c3000a)的信息），并使用 Azure Active Directory 中使用的相同身份验证机制来保护数据。 可以[在 Power BI 中创建组](https://support.powerbi.com/knowledgebase/articles/654250)，或在 Microsoft 365 管理中心中创建通用组；或者在 Power BI 中创建组的结果与此相同。
 
   请注意，与 Power BI 组共享的数据具有与 Power BI 中的任何共享数据相同的安全注意事项。 对于非 RLS 数据源，Power BI 不会针对原始数据源重新验证用户身份。将数据上传到 Power BI 后，对源数据进行身份验证的用户负责管理可以查看数据的其他用户和组。 有关详细信息，请参阅本文档前面的“对数据源的用户身份验证”部分。
 
@@ -459,9 +454,9 @@ Power BI 移动版可用的所有三个平台都支持 Microsoft Intune，这是
 
 **什么是数据主权？是否可以在位于特定地理位置的数据中心中预配租户，以确保数据不会离开国家/地区边界？**
 
-* 某些地理位置的某些客户可以选择在主权云中创建租户，其中数据存储和处理与所有其他数据中心分开。 由于单独的数据受托人代表 Microsoft 对主权云 Power BI 服务进行操作，因此主权云的安全性略有不同。
+* 某些地理位置的某些客户可以选择在国家云中创建租户，其中数据存储和处理与所有其他数据中心分开。 由于单独的数据受托人代表 Microsoft 对国家云 Power BI 服务进行操作，因此国家云的安全性略有不同。
 
-  或者，客户也可以在特定区域中设置租户，但此类租户不具有来自 Microsoft 的单独数据受托人。 主权云的定价不同于已公开发布的商业版 Power BI 服务。 有关主权云的 Power BI 服务可用性的详细信息，请参阅 [Power BI 主权云](https://powerbi.microsoft.com/clouds/)。
+  或者，客户也可以在特定区域中设置租户，但此类租户不具有来自 Microsoft 的单独数据受托人。 国家云的定价不同于已公开发布的商业版 Power BI 服务。 有关国家云的 Power BI 服务可用性的详细信息，请参阅 [Power BI 国家云](https://powerbi.microsoft.com/clouds/)。
 
 **Microsoft 如何处理拥有 Power BI Premium 订阅的客户的连接？这些连接是否与为非 Premium Power BI 服务建立的连接不同？**
 
@@ -488,6 +483,6 @@ Power BI 中的数据存储和数据处理根据是否使用 DirectQuery 访问�
 - [Power BI API 引用](https://msdn.microsoft.com/library/mt147898.aspx)
 - [本地数据网关](service-gateway-manage.md)
 - [Power BI 和 ExpressRoute](service-admin-power-bi-expressroute.md)
-- [Power BI 主权云](https://powerbi.microsoft.com/clouds/)
+- [Power BI 国家云](https://powerbi.microsoft.com/clouds/)
 - [Power BI Premium](https://aka.ms/pbipremiumwhitepaper)
 - [将 Kerberos 用于从 Power BI 到本地数据源的 SSO](service-gateway-sso-overview.md)

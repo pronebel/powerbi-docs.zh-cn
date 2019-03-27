@@ -2,21 +2,22 @@
 title: 安装 Power BI 报表服务器所要满足的硬件和软件要求
 description: 本文列出了安装并运行 Power BI 报表服务器所要满足的最低硬件和软件要求。
 author: markingmyname
+ms.author: maghan
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 11/08/2018
-ms.author: maghan
-ms.openlocfilehash: 763b79b50266678a78dc956372f504f30836c4fc
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 28ff098c0f9e228b485a7eb94830ba3736a1463f
+ms.sourcegitcommit: 20ae9e9ffab6328f575833be691073de2061a64d
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54292950"
+ms.lasthandoff: 03/22/2019
+ms.locfileid: "58383499"
 ---
 # <a name="hardware-and-software-requirements-for-installing-power-bi-report-server"></a>安装 Power BI 报表服务器所要满足的硬件和软件要求
+
 本文列出了安装并运行 Power BI 报表服务器所要满足的最低硬件和软件要求。
 
 ## <a name="processor-memory-and-operating-system-requirements"></a>处理器、内存和操作系统要求
@@ -28,14 +29,14 @@ ms.locfileid: "54292950"
 | 内存 |最低：1GB<br/><br/> **推荐：** 不小于 4 GB |
 | 处理器速度 |最小：x64 处理器：1.4 GHz<br/><br/> **推荐：** 2.0 GHz 或更快 |
 | 处理器类型 |x64 处理器:AMD Opteron、AMD Athlon 64、支持 Intel EM64T 的 Intel Xeon、支持 EM64T 的 Intel Pentium IV |
-| 操作系统 |Windows Server 2016 Datacenter<br><br>Windows Server 2016 Standard<br><br>Windows Server 2012 R2 Datacenter<br><br>Windows Server 2012 R2 Standard<br><br>Windows Server 2012 R2 Essentials<br><br>Windows Server 2012 R2 Foundation<br><br>Windows Server 2012 Datacenter<br><br>Windows Server 2012 Standard<br><br>Windows Server 2012 Essentials<br><br>Windows Server 2012 Foundation<br><br>Windows 10 家庭版<br><br>Windows 10 专业版<br><br>Windows 10 企业版<br><br>Windows 8.1<br><br>Windows 8.1 专业版<br><br>Windows 8.1 企业版<br><br>Windows 8<br><br>Windows 8 专业版<br><br>Windows 8 企业版 |
+| 操作系统 |Windows Server 2019 Datacenter<br><br>Windows Server 2019 Standard<br><br>Windows Server 2016 Datacenter<br><br>Windows Server 2016 Standard<br><br>Windows Server 2012 R2 Datacenter<br><br>Windows Server 2012 R2 Standard<br><br>Windows Server 2012 R2 Essentials<br><br>Windows Server 2012 R2 Foundation<br><br>Windows Server 2012 Datacenter<br><br>Windows Server 2012 Standard<br><br>Windows Server 2012 Essentials<br><br>Windows Server 2012 Foundation<br><br>Windows 10 家庭版<br><br>Windows 10 专业版<br><br>Windows 10 企业版<br><br>Windows 8.1<br><br>Windows 8.1 专业版<br><br>Windows 8.1 企业版<br><br>Windows 8<br><br>Windows 8 专业版<br><br>Windows 8 企业版 |
 
 > [!NOTE]
 > 只支持在 x64 处理器上安装 Power BI 报表服务器。
-> 
-> 
+
 
 ## <a name="database-server-version-requirements"></a>数据库服务器版本要求
+
 SQL Server 用于托管报表服务器数据库。 SQL Server 数据库引擎实例可以是本地或远程实例。 以下是可用于托管报表服务器数据的 SQL Server 数据库引擎受支持的版本：
 
 * SQL Server 2017
@@ -46,18 +47,21 @@ SQL Server 用于托管报表服务器数据库。 SQL Server 数据库引擎实
 在远程计算机上创建报表服务器数据库时，必须将连接配置为使用域用户帐户或具有网络访问权限的服务帐户。 如果决定使用远程 SQL Server 实例，请仔细考虑报表服务器应使用哪些凭据来连接到 SQL Server 实例。 有关详细信息，请参阅[配置报表服务器数据库连接](https://docs.microsoft.com/sql/reporting-services/install-windows/configure-a-report-server-database-connection-ssrs-configuration-manager)。
 
 ## <a name="considerations"></a>注意事项
+
 Power BI 报表服务器将安装默认值，以配置报表服务器正常运行所需的核心设置。 具体要求如下：
 
 * 在安装完成之后且在配置报表服务器数据库之前，必须有 SQL Server 数据库引擎。 数据库引擎实例托管 Reporting Services 配置管理器将创建的报表服务器数据库。 实际的安装体验不需要有数据库引擎。
-- [SQL Server 各版本支持的 Reporting Services 功能](https://docs.microsoft.com/sql/reporting-services/reporting-services-features-supported-by-the-editions-of-sql-server-2016)概述了 SQL Server 各版本之间的差异。
+* [SQL Server 各版本支持的 Reporting Services 功能](https://docs.microsoft.com/sql/reporting-services/reporting-services-features-supported-by-the-editions-of-sql-server-2016)概述了 SQL Server 各版本之间的差异。
 * 运行安装程序的用户帐户必须是本地管理员组的成员。
 * 运行 Reporting Services 配置管理器的用户帐户必须有权在托管报表服务器数据库的数据库引擎实例上访问并创建数据库。
 * 安装程序必须能够使用默认值来保留 URL，从而提供对报表服务器和 Web 门户的访问权限。 这些值为端口 80、强通配符以及格式为 ReportServer 和 Reports 的虚拟目录名称。
 
 ## <a name="read-only-domain-controller-rodc"></a>只读域控制器 (RODC)
+
  可以在具有只读域控制器 (RODC) 的环境中安装报表服务器。 但是，Reporting Services 需要访问读-写域控制器才能正常工作。 如果 Reporting Services 仅有权访问 RODC，那么你可能会在尝试管理服务时看到错误消息。
 
 ## <a name="power-bi-reports-and-analysis-services-live-connections"></a>Power BI 报表和 Analysis Services 实时连接
+
 你可以使用针对表格或多维实例的实时连接。 Analysis Services 服务器必须满足适当的版本要求，才能正常工作。
 
 | **服务器版本** | **所需的 SKU** |
@@ -67,6 +71,7 @@ Power BI 报表服务器将安装默认值，以配置报表服务器正常运�
 | 2016 和更高版本 |标准 SKU 或更高版本 |
 
 ## <a name="next-steps"></a>后续步骤
+
 [什么是 Power BI 报表服务器？](get-started.md)  
 [管理员概述](admin-handbook-overview.md)  
 [安装 Power BI 报表服务器](install-report-server.md)  
@@ -74,4 +79,3 @@ Power BI 报表服务器将安装默认值，以配置报表服务器正常运�
 [下载 SQL Server Data Tools (SSDT)](http://go.microsoft.com/fwlink/?LinkID=616714)
 
 更多问题？ [尝试咨询 Power BI 社区](https://community.powerbi.com/)
-

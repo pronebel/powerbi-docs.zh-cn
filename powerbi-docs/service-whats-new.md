@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 2/9/2019
 ms.author: nikhilga
 LocalizationGroup: Get started
-ms.openlocfilehash: 5a9fa6b5e854fc51487f0a0b4feaef8650b94057
-ms.sourcegitcommit: 5e83fa6c93a0bc6599f76cc070fb0e5c1fce0082
+ms.openlocfilehash: 96faaf87c2aa04bdc1175f1b7cb78229bbb87a24
+ms.sourcegitcommit: 20ae9e9ffab6328f575833be691073de2061a64d
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/13/2019
-ms.locfileid: "56216852"
+ms.lasthandoff: 03/22/2019
+ms.locfileid: "58383706"
 ---
 ---
 # <a name="whats-new-in-the-power-bi-service"></a>Power BI 服务中的新功能
@@ -346,7 +346,7 @@ ms.locfileid: "56216852"
 
 ***管理门户***
 
-* 简易的用户管理，包括指向 O365 管理中心的链接
+* 简易的用户管理，包括指向 Microsoft 365 管理中心的链接
 * 禁止发布到 Web 的功能
 * 防止用户将内容包发布到整个组织
 * 禁止向外部用户共享内容的功能
@@ -508,7 +508,7 @@ Power BI 团队在整个假期都在忙。 有关所有详细信息，[请访问
 * Power BI 文档的新站点（已本地化）
 * 改进了报表的加载时间
 * 使用仅限于报表的更改更新组织内容包
-* Office 365 管理门户中 Power BI 的健康状况
+* Microsoft 365 管理中心中的 power BI 运行状况
 * 表、矩形图和卡片中的 KPI 和图像
 
 有关所有详细信息，请访问 [Power BI Blog（Power BI 博客）](http://blogs.msdn.com/b/powerbi/archive/2015/11/11/power-bi-weekly-service-update-1110.aspx)

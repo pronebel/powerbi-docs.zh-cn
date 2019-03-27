@@ -10,12 +10,12 @@ ms.subservice: powerbi-gateways
 ms.topic: conceptual
 ms.date: 03/05/2019
 LocalizationGroup: Gateways
-ms.openlocfilehash: c1ca797efa2e40bf74384a1e9f2362acd26c6f8f
-ms.sourcegitcommit: 883a58f63e4978770db8bb1cc4630e7ff9caea9a
+ms.openlocfilehash: 91a4cf3ff4fef4530c7c45712a86419298da53f4
+ms.sourcegitcommit: 89e9875e87b8114abecff6ae6cdc0146df40c82a
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "57555664"
+ms.lasthandoff: 03/21/2019
+ms.locfileid: "58306495"
 ---
 # <a name="use-security-assertion-markup-language-saml-for-single-sign-on-sso-from-power-bi-to-on-premises-data-sources"></a>使用安全断言标记语言 (SAML) 进行从 Power BI 到本地数据源的单一登录 (SSO)
 
@@ -27,23 +27,43 @@ ms.locfileid: "57555664"
 
 我们使用 [Kerberos](service-gateway-sso-kerberos.md) 支持其他数据源。
 
+请注意，对于 HANA，强烈建议在建立 SAML SSO 连接之前启用加密（即，应将 HANA 服务器配置为接受加密连接，并将网关配置为在与 HANA 服务器通信时使用加密）。 默认情况下，HANA ODBC 驱动程序无法加密 SAML 断言，如果未启用加密，已签名的 SAML 断言将从网关“明文”发送到 HANA 服务器，并且容易被第三方拦截和重用。
+
 ## <a name="configuring-the-gateway-and-data-source"></a>配置网关和数据源
 
-要使用 SAML，首先为 SAML 标识提供者生成证书，然后将 Power BI 用户映射到该标识。
+要使用 SAML，必须在要为其启用 SSO 的 HANA 服务器与网关之间建立信任关系，该网关在此方案中充当 SAML 标识提供者 (IdP)。 有多种方法可以建立这种关系，例如将网关 IdP 的 x509 证书导入 HANA 服务器信任存储区，或者让 HANA 服务器信任的根证书颁发机构 (CA) 签署网关的 X509 证书。 我们在本指南中介绍了后一种方法，但如果更方便，你也可以使用另一种方法。
 
-1. 生成证书。 填写公用名时，请确保使用 SAP HANA 服务器的 FQDN。 证书在 365 天内到期。
+另请注意，虽然本指南使用 OpenSSL 作为 HANA 服务器的加密提供程序，但也可以使用 SAP 加密库（也称为 CommonCryptoLib 或 sapcrypto）代替 OpenSSL 来完成建立信任关系的设置步骤。 有关详细信息，请参阅官方 SAP 文档。
 
-    ```
-    openssl req -newkey rsa:2048 -nodes -keyout samltest.key -x509 -days 365 -out samltest.crt
-    ```
+以下步骤描述了如何使用 HANA 服务器信任的根 CA 对网关 IdP 的 X509 证书进行签名，从而在 HANA 服务器和网关 IdP 之间建立信任关系。
+
+1. 创建根 CA 的 X509 证书和私钥。 例如，要以 .pem 格式创建根 CA 的 X509 证书和私钥，请执行以下步骤：
+
+```
+openssl req -new -x509 -newkey rsa:2048 -days 3650 -sha256 -keyout CA_Key.pem -out CA_Cert.pem -extensions v3_ca
+```
+
+将证书（例如，CA_Cert.pem）添加到 HANA 服务器的信任存储区，以便 HANA 服务器将信任刚刚创建的根 CA 签名的任何证书。 通过检查 ssltruststore 配置设置，可以找到 HANA 服务器的信任存储区的位置。 如果已按照 SAP 文档介绍的步骤配置 OpenSSL，则 HANA 服务器可能已经信任可以重用的根 CA. 有关详细信息，请参阅[如何将 SAP HANA Studio 的 Open SSL 配置到 SAP HANA 服务器](https://archive.sap.com/documents/docs/DOC-39571)。 若具有多个想为 SAML SSO 启用的 HANA 服务器，请确保每个服务器都信任该根 CA。
+
+1. 创建网关 IdP 的 X509 证书。 例如，要创建有效期为一年的证书签名请求 (IdP_Req.pem) 和私钥 (IdP_Key.pem)，请执行以下命令：
+
+```
+ openssl req -newkey rsa:2048 -days 365 -sha256 -keyout IdP_Key.pem -out IdP_Req.pem -nodes
+```
+
+
+使用已将 HANA 服务器配置为信任的根 CA 签署证书签名请求。 例如，要使用 CA_Cert.pem 和 CA_Key.pem（根 CA 的证书和密钥）对 IdP_Req.pem 进行签名，请执行以下命令：
+
+  ```
+openssl x509 -req -days 365 -in IdP_Req.pem -sha256 -extensions usr_cert -CA CA_Cert.pem -CAkey CA_Key.pem -CAcreateserial -out IdP_Cert.pem
+```
+生成的 IdP 证书有效期为一年（请参阅天数选项）。 现在，在 HANA Studio 中导入 IdP 的证书以创建新的 SAML 标识提供者。
 
 1. 在 SAP HANA Studio 中，右键单击 SAP HANA 服务器，然后导航到“安全” > “打开安全控制台” > “SAML 标识提供者” > “OpenSSL 加密库”。
 
-    也可以使用 SAP 加密库（也称为 CommonCryptoLib 或 sapcrypto）来替代 OpenSSL 完成这些设置步骤。 请参阅官方 SAP 文档，了解更多信息。
-
-1. 选择“导入”，导航到 samltest.crt，然后导入它。
-
     ![标识提供者](media/service-gateway-sso-saml/identity-providers.png)
+
+1. 选择“导入”，导航到 IdP_Cert.pem，然后导入它。
 
 1. 在 SAP HANA Studio 中，选择“安全”文件夹。
 
@@ -61,10 +81,10 @@ ms.locfileid: "57555664"
 
 配置证书和标识后，将证书转换为 pfx 格式并配置网关计算机以使用证书。
 
-1. 运行以下命令，将证书转换为 pfx 格式。
+1. 运行以下命令，将证书转换为 pfx 格式。 请注意，此命令将“根”设置为 pfx 文件的密码。
 
     ```
-    openssl pkcs12 -inkey samltest.key -in samltest.crt -export -out samltest.pfx
+    openssl pkcs12 -export -out samltest.pfx -in IdP_Cert.pem -inkey IdP_Key.pem -passin pass:root -passout pass:root
     ```
 
 1. 将 pfx 文件复制到网关计算机：

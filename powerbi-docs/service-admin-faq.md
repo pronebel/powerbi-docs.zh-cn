@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 11/16/2018
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: 25d6c8020e500096507ba5e80a020a7a1c3052a6
-ms.sourcegitcommit: ac63b08a4085de35e1968fa90f2f49ea001b50c5
+ms.openlocfilehash: 54bdc0cb3490cf2149f2fda51939c201cd51518f
+ms.sourcegitcommit: 20ae9e9ffab6328f575833be691073de2061a64d
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/18/2019
-ms.locfileid: "57980418"
+ms.lasthandoff: 03/22/2019
+ms.locfileid: "58383430"
 ---
 # <a name="administering-power-bi---frequently-asked-questions-faq"></a>管理 Power BI - 常见问题 (FAQ)
 
@@ -60,7 +60,7 @@ ms.locfileid: "57980418"
 
 ### <a name="how-do-users-sign-up-for-power-bi"></a>用户如何注册 Power BI？
 
-作为管理员，可通过 [Power BI 网站](https://powerbi.microsoft.com)或 Office 365 管理中心内的[“购买服务”](https://admin.microsoft.com/AdminPortal/Home#/catalog)页来注册 Power BI。 当管理员注册 Power BI 时，他们可以将用户许可证分配给应具有访问权限的用户。
+作为管理员，可通过 [Power BI 网站](https://powerbi.microsoft.com)或 Microsoft 365 管理中心内的[“购买服务”](https://admin.microsoft.com/AdminPortal/Home#/catalog)页来注册 Power BI。 当管理员注册 Power BI 时，他们可以将用户许可证分配给应具有访问权限的用户。
 
 此外，组织中的各个用户能够通过 [Power BI 网站](https://powerbi.microsoft.com)注册 Power BI。 当组织中的某个用户注册 Power BI 时，系统会自动向该用户分配 Power BI 许可证。 有关详细信息，请参阅[以个人身份注册 Power BI](service-self-service-signup-for-power-bi.md) 和[组织中的 Power BI 授权](service-admin-licensing-organization.md)。
 
@@ -169,7 +169,7 @@ Get-MsolCompanyInformation | fl allow*
 
 ### <a name="how-do-we-manage-power-bi"></a>我们如何管理 Power BI？
 
-Power BI 提供了可便于你查看使用情况统计信息的管理门户，并提供了用于管理用户和组的 Office 365 管理中心链接，同时还支持控制整个租户范围内的设置。
+Power BI 提供了可便于你查看使用情况统计信息的管理门户，并提供了用于管理用户和组的 Microsoft 365 管理中心链接，同时还支持控制整个租户范围内的设置。
 
 帐户必须标记为 Office 365 或 Azure Active Directory 中的“全局管理员”，或已分配有 Power BI 服务管理员角色，才能访问 Power BI 管理门户。 有关详细信息，请参阅[了解 Power BI 管理员角色](service-admin-role.md)和 [ Power BI 管理门户](service-admin-portal.md)。
 
@@ -196,7 +196,7 @@ Power BI 提供了可便于你查看使用情况统计信息的管理门户，�
 
 如果用户注册了 Power BI，但你不再希望他们有权访问 Power BI，可以删除此用户的 Power BI 许可证。
 
-1. 导航到 [Office 365 管理中心](https://admin.microsoft.com/AdminPortal/Home#/homepage)。
+1. 导航到 [MIcrosoft 365 管理中心](https://admin.microsoft.com/AdminPortal/Home#/homepage)。
 
 1. 在左侧导航栏中，选择**用户**  >  **活动用户**。
 
@@ -214,7 +214,7 @@ Power BI 提供了可便于你查看使用情况统计信息的管理门户，�
 
 已作为此计划的一部分加入租户的用户会分配有唯一的许可证，你可以在管理仪表板中的活动用户窗格内针对它进行筛选。 若要新建此视图，请按以下步骤操作。
 
-1. 导航到 [Office 365 管理中心](https://admin.microsoft.com/AdminPortal/Home#/homepage)。
+1. 导航到 [MIcrosoft 365 管理中心](https://admin.microsoft.com/AdminPortal/Home#/homepage)。
 
 1. 在左侧导航栏中，选择**用户**  >  **活动用户**。
 
@@ -232,7 +232,7 @@ Power BI 提供了可便于你查看使用情况统计信息的管理门户，�
 
 你可能会遇到密码重置请求增加的情况。 有关此过程的信息，请参阅[重置用户密码](/office365/admin/add-users/reset-passwords)。
 
-你可以在 Office 365 管理中心中通过标准过程从租户中删除用户。 不过，如果用户仍有组织提供的有效电子邮件地址，便能重新加入，除非你阻止所有用户加入。
+你可以在 Microsoft 365 管理中心中通过标准过程从租户中删除用户。 不过，如果用户仍有组织提供的有效电子邮件地址，便能重新加入，除非你阻止所有用户加入。
 
 ### <a name="where-is-my-power-bi-tenant-located"></a>我的 Power BI 租户位于何处？
 

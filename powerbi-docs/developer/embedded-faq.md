@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 02/05/2019
-ms.openlocfilehash: 9663c7eb6921718ac4b9690ddc50d78e59c6db3b
-ms.sourcegitcommit: 8fda7843a9f0e8193ced4a7a0e5c2dc5386059a6
+ms.openlocfilehash: abc45f3c32ee5db81f71295268db85bfce23aafd
+ms.sourcegitcommit: 39bc75597b99bc9e8d0a444c38eb02452520e22b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/18/2019
-ms.locfileid: "58174881"
+ms.lasthandoff: 03/25/2019
+ms.locfileid: "58430429"
 ---
 # <a name="frequently-asked-questions-about-power-bi-embedded"></a>有关 Power BI Embedded 的常见问题
 
@@ -274,9 +274,9 @@ Power BI Embedded 是通过 Azure 提供的。
 
 因为 Power BI Embedded 属于 Azure，所以可利用[注册 Azure 时获得的 200 美元额度](https://azure.microsoft.com/free/)使用此服务。
 
-### <a name="is-power-bi-embedded-available-for-sovereign-clouds-us-government-germany-china"></a>Power BI Embedded 是否适用于主权云（美国政府版、德国版、中国版）？
+### <a name="is-power-bi-embedded-available-for-national-clouds-us-government-germany-china"></a>Power BI Embedded 是否适用于国家云（美国政府版、德国版、中国版）？
 
-Power BI Embedded 可用于某些[主权云](embed-sample-for-customers-sovereign-clouds.md)。 它仍不适用于中国版云。
+Power BI Embedded 也适用于[国家云](embed-sample-for-customers-national-clouds.md)。
 
 ### <a name="is-power-bi-embedded-available-for-non-profits-and-educational"></a>Power BI Embedded 是否适合非营利组织和教育机构？
 

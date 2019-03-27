@@ -10,12 +10,12 @@ ms.subservice: powerbi-admin
 ms.topic: conceptual
 ms.date: 02/05/2019
 LocalizationGroup: Premium
-ms.openlocfilehash: fbb303a85895c08d0dc04630a12076a279e2586f
-ms.sourcegitcommit: 54d44deb6e03e518ad6378656c769b06f2a0b6dc
+ms.openlocfilehash: 6aa9265a006135ad87a61979b39a709c874f8d48
+ms.sourcegitcommit: 20ae9e9ffab6328f575833be691073de2061a64d
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/07/2019
-ms.locfileid: "55794949"
+ms.lasthandoff: 03/22/2019
+ms.locfileid: "58383328"
 ---
 # <a name="power-bi-premium-faq"></a>Power BI Premium 常见问题解答
 
@@ -66,7 +66,7 @@ Power BI Premium 怎样计费？
 Power BI Premium 在做出年度承诺的基础上按月计费。
 
 **如何购买 Power BI Premium？**  
-Office 365 管理中心提供 Power BI Premium。 有关详细信息，请参阅[如何购买 Power BI Premium](service-admin-premium-purchase.md)。 还可以与 Microsoft 代表联系，了解详细信息。
+Microsoft 365 管理中心提供 Power BI Premium。 有关详细信息，请参阅[如何购买 Power BI Premium](service-admin-premium-purchase.md)。 还可以与 Microsoft 代表联系，了解详细信息。
 
 我如何知道需要购买多少 Power BI Premium 容量？  
 使用[费用计算器](https://powerbi.microsoft.com/calculator/)估算所需的 Power BI Premium 容量。

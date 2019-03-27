@@ -11,12 +11,12 @@ ms.date: 11/16/2018
 ms.author: mblythe
 ms.custom: seodec18
 LocalizationGroup: Administration
-ms.openlocfilehash: 59916f904c2905a6858e0c20a67a2c0eae9e8cca
-ms.sourcegitcommit: ac63b08a4085de35e1968fa90f2f49ea001b50c5
+ms.openlocfilehash: 27776b251734d025e4dcde9f525f321008647455
+ms.sourcegitcommit: 20ae9e9ffab6328f575833be691073de2061a64d
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/18/2019
-ms.locfileid: "57980395"
+ms.lasthandoff: 03/22/2019
+ms.locfileid: "58383476"
 ---
 # <a name="using-auditing-within-your-organization"></a>在组织内使用审核
 
@@ -34,7 +34,7 @@ ms.locfileid: "57980395"
 
     若要为非管理员帐户提供访问审核日志的权限，必须将该用户添加为其中一个角色组的成员。 或者，可以在 Exchange 管理中心中创建自定义角色组、将“审核日志”或“仅查看审核日志”角色分配给此组，然后将非管理员帐户添加到新角色组。 有关详细信息，请参阅[在 Exchange Online 中管理角色组](/Exchange/permissions-exo/role-groups)。
 
-    如果无法从 Office 365 管理中心访问 Exchange 管理中心，请转到 https://outlook.office365.com/ecp 并使用你的凭据登录。
+    如果无法从 Microsoft 365 管理中心访问 Exchange 管理中心，请转到 https://outlook.office365.com/ecp 并使用你的凭据登录。
 
 * 如果你有权访问审核日志但不是全局管理员或 Power BI 服务管理员，则无法访问 Power BI 管理员门户。 在这种情况下，必须使用 [Office 365 安全与合规中心](https://sip.protection.office.com/#/unifiedauditlog)的直接链接。
 
@@ -50,9 +50,9 @@ ms.locfileid: "57980395"
 
 1. 选择“审核日志”。
 
-1. 选择“转到 O365 管理中心”。
+1. 选择“转到 MIcrosoft 365 管理中心”。
 
-   ![转到 O365 管理中心](media/service-admin-auditing/audit-log-o365-admin-center.png)
+   ![转到 Microsoft 365 管理中心](media/service-admin-auditing/audit-log-o365-admin-center.png)
 
 ## <a name="search-only-power-bi-activities"></a>仅搜索 Power BI 活动
 
@@ -214,7 +214,7 @@ Power BI 审核以下活动。
 | 已接管 Power BI 数据源                   | TakeOverDatasource                          |                                          |
 | 已接管 Power BI 数据集                        | TakeOverDataset                             |                                          |
 | 未发布 Power BI 应用                          | UnpublishApp                                |                                          |
-| 更新容量资源管理设置      | UpdateCapacityResourceGovernanceSettings    | 当前不在 Office 365 管理门户中 |
+| 更新容量资源管理设置      | UpdateCapacityResourceGovernanceSettings    | 目前不在 Microsoft 365 管理中心 |
 | 已更新容量管理员                            | UpdateCapacityAdmins                        |                                          |
 | 已更新容量显示名称                     | UpdateCapacityDisplayName                   |                                          |
 | 已更新组织的 Power BI 设置          | UpdatedAdminFeatureSwitch                   |                                          |

@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 03/06/2019
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: 4b017ae02ee88df47e426466c212ed6d87a2f92a
-ms.sourcegitcommit: 378265939126fd7c96cb9334dac587fc80291e97
+ms.openlocfilehash: d846a50ab87fe7d9f20034892e25dedde043f9ee
+ms.sourcegitcommit: 39bc75597b99bc9e8d0a444c38eb02452520e22b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "57580027"
+ms.lasthandoff: 03/25/2019
+ms.locfileid: "58430245"
 ---
 # <a name="power-bi-for-us-government-customers"></a>适用于美国政府客户的 Power BI
 **Power BI 服务**有一个可供美国政府客户使用的版本，作为 **Office 365 美国政府社区**订阅的一部分。 本文中讨论的 **Power BI 服务**版本是为美国政府客户专门设计的，独立且不同于 **Power BI 服务**的商业版本。
@@ -39,7 +39,7 @@ ms.locfileid: "57580027"
 * 所有数据都在 Azure SQL 和 Blob 存储中为 Power BI 加密
 * 连接到包含[内容包](service-connect-to-services.md)的服务
 
-## <a name="connectivity-between-government-and-public-azure-cloud-services"></a>政府版本和公共 Azure 云服务之间的连接 
+## <a name="connectivity-between-government-and-global-azure-cloud-services"></a>政府版本和全局 Azure 云服务之间的连接 
 
 Azure 分布在多个云中。 默认情况下，租户可以打开对云专属实例的防火墙规则。不过，跨云网络则不同，必须打开特定防火墙规则，才能在服务之间进行通信。 如果是 Power BI 客户，并且公有云中有需要访问的现有 SQL 实例，必须在 SQL 中为以下数据中心打开对 Azure 政府云 IP 空间的特定防火墙规则：
 
@@ -93,7 +93,7 @@ Azure 分布在多个云中。 默认情况下，租户可以打开对云专属�
 | --- | --- |
 | https://app.powerbi.com/ |[https://app.powerbigov.us](https://app.powerbigov.us) |
 
-**问：** 我的帐户在多个主权云中预配。 使用 **Power BI Desktop** 时，如何选择连接到什么云？
+**问：** 我的帐户在多个国家云中预配。 使用 **Power BI Desktop** 时，如何选择连接到什么云？
 
 **答：** 从 Power BI Desktop 2018 年 7 月版开始，可在登录 Power BI Desktop 时选择要使用的云。
 
