@@ -922,8 +922,6 @@ items:
           href: developer/azure-pbie-scale-capacity.md
         - name: 在 Azure 中暂停和启动容量
           href: developer/azure-pbie-pause-start.md
-      - name: 疑难解答
-        items:
         - name: 嵌入式应用程序疑难解答
           href: developer/embedded-troubleshoot.md
       - name: 从工作区集合进行迁移
@@ -1270,6 +1268,8 @@ items:
         href: service-premium-incremental-refresh.md
       - name: 多地理位置支持
         href: service-admin-premium-multi-geo.md
+      - name: 使用客户端应用程序和工具连接到数据集
+        href: service-premium-connect-tools.md
       - name: Power BI Premium 常见问题解答
         href: service-premium-faq.md
     - name: Office 365 中的管理员角色
@@ -1327,9 +1327,9 @@ items:
       href: service-admin-governance.md
     - name: Power BI 安全性
       href: service-admin-power-bi-security.md
-ms.openlocfilehash: 9c5c6c85422fa9094e28d6e84d3ef6b861a3a324
-ms.sourcegitcommit: 9f31cd41bd92e398717da5a69a074273e8c6f8a6
+ms.openlocfilehash: 3259c3fe3bc8756355dd75324a84dd0322bfef3a
+ms.sourcegitcommit: c98fe18c52cd06a52b12aa9aa09d58e8a406542a
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/26/2019
-ms.locfileid: "58473881"
+ms.lasthandoff: 03/28/2019
+ms.locfileid: "58563657"

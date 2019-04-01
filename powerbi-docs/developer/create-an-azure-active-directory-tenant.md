@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 11/30/2017
-ms.openlocfilehash: eb5befbfc5e96867f0f4cf27eafd62829fb488f4
-ms.sourcegitcommit: 0abcbc7898463adfa6e50b348747256c4b94e360
+ms.openlocfilehash: ec03ba86fdbf57a9898b127aae9b76990837b5ba
+ms.sourcegitcommit: 9f31cd41bd92e398717da5a69a074273e8c6f8a6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/06/2019
-ms.locfileid: "55762136"
+ms.lasthandoff: 03/26/2019
+ms.locfileid: "58473835"
 ---
 # <a name="create-an-azure-active-directory-tenant-to-use-with-power-bi"></a>创建要用于 Power BI 的 Azure Active Directory 租户
 

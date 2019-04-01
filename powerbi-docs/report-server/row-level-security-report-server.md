@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 01/22/2019
-ms.openlocfilehash: 254b0c5c2e5a9b39f5d04f002a2791f1cd432c52
-ms.sourcegitcommit: 364ffa1178cdfb0a20acffc0fd79922ebc892d72
+ms.openlocfilehash: 5a39c976a9b9812754ade2e30eac13aa922fd7f9
+ms.sourcegitcommit: 4aa99a8dde4e98909da888c151a71476f7bbfe81
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/02/2019
-ms.locfileid: "57226195"
+ms.lasthandoff: 03/26/2019
+ms.locfileid: "58489559"
 ---
 # <a name="row-level-security-rls-in-power-bi-report-server"></a>Power BI 报表服务器中的行级别安全性 (RLS)
 
@@ -28,11 +28,11 @@ ms.locfileid: "57226195"
 
 默认情况下，行级别安全性筛选采用单向筛选器，无需考虑关系是设置为单向还是双向。 可以手动启用具有行级别安全性的双向交叉筛选器。
 
-- 选择关系并选中“双向应用安全性筛选器”复选框 **** 。 
+- 选择关系并选中“双向应用安全性筛选器”复选框。 
 
     ![应用安全性筛选器](media/row-level-security-report-server/rls-apply-security-filter.png)
 
-基于用户名或登录 ID 实现 [动态行级别安全性](https://docs.microsoft.com/sql/analysis-services/supplemental-lesson-implement-dynamic-security-by-using-row-filters)时，请选中此框。 
+基于用户名或登录 ID 实现[动态行级别安全性](https://docs.microsoft.com/sql/analysis-services/supplemental-lesson-implement-dynamic-security-by-using-row-filters)时，请选中此框。 
 
 若要了解更多信息，请参阅[在 Power BI Desktop 中使用 DirectQuery 的双向交叉筛选](../desktop-bidirectional-filtering.md)和[保护表格 BI 语义模型](http://download.microsoft.com/download/D/2/0/D20E1C5F-72EA-4505-9F26-FEF9550EFD44/Securing%20the%20Tabular%20BI%20Semantic%20Model.docx)技术白皮书。
 
@@ -85,7 +85,7 @@ ms.locfileid: "57226195"
 
 使用 username() DAX 函数生成报表的用户现在将注意到新的行为，该行为会返回用户主体名称 (UPN)，但配合使用 DirectQuery 和集成安全性时除外。  由于该场景中不考虑 RLS，因此该场景中的行为保持不变。
 
-只能在使用 Power BI Desktop 创建的数据集上定义 RLS。 若要为使用 Excel 创建的数据集启用 RLS，首先必须将你的文件转换为 Power BI Desktop (PBIX) 文件。 了解关于 [Excel 文件](../desktop-import-excel-workbooks.md)的详细信息。
+只能在使用 Power BI Desktop 创建的数据集上定义 RLS。 若要为使用 Excel 创建的数据集启用 RLS，首先必须将你的文件转换为 Power BI Desktop (PBIX) 文件。 了解关于 [Excel 文件](../desktop-import-excel-workbooks.md)的详细信息。
 
 只支持使用已存储凭据的提取、转换、加载 (ETL) 和 DirectQuery 连接。 连接到分析服务的实时连接和使用集成身份验证的 DirectQuery 连接均在底层数据源中进行处理。 
 

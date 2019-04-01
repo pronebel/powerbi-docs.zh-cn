@@ -9,45 +9,28 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 05/25/2018
-ms.openlocfilehash: d8cad602b178dd55184e00e2a318c374433b1a46
-ms.sourcegitcommit: 0abcbc7898463adfa6e50b348747256c4b94e360
+ms.openlocfilehash: 764718ab86e040509790dd4debbbef25b6079a14
+ms.sourcegitcommit: 9f31cd41bd92e398717da5a69a074273e8c6f8a6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/06/2019
-ms.locfileid: "55762320"
+ms.lasthandoff: 03/26/2019
+ms.locfileid: "58473766"
 ---
 # <a name="what-can-developers-do-with-the-power-bi-api"></a>开发人员可以使用 Power BI API 做什么？
 
-Power BI 显示可从众多不同数据源创建和实时更新的交互式仪表板。 通过使用支持 REST 调用的任何编程语言，可以实时创建与 Power BI 仪表板集成的应用。 此外可以将 Power BI 磁贴和报表集成到应用。
+使用 Power BI REST API，可以创建嵌入有 Power BI 报表的应用。 还可以将 Power BI 磁贴和仪表板集成到应用。
 
-开发人员还可以构建他们自己的数据可视化效果（可用于交互报表和仪表板）。
+借助 Power BI REST API，就可以在报表、数据集和工作区等 Power BI 对象上执行管理任务。
 
 以下是一些可以使用 Power BI API 执行的操作。
 
 | **可执行的操作** | **操作结果** |
 | --- | --- |
-| 为 Power BI 用户和非 Power BI 用户（应用拥有数据）嵌入仪表板、报表和磁贴 |[如何嵌入 Power BI 仪表板、报表和磁贴](embedding-content.md) |
-| 扩展现有业务工作流以将关键数据推送到 Power BI 仪表板。 |[将数据推送到仪表板](walkthrough-push-data.md) |
-| 进行 Power BI 身份验证。 |[进行 Power BI 身份验证](get-azuread-access-token.md) |
-| 创建自定义视觉对象。 |[开发 Power BI 自定义视觉对象](custom-visual-develop-tutorial.md) |
+| 为 Power BI 用户和非 Power BI 用户嵌入仪表板、报表和磁贴。 |[如何嵌入 Power BI 仪表板、报表和磁贴](embedding-content.md) |
+| 在 Power BI 对象上执行管理任务。 |[Power BI REST API 引用](https://docs.microsoft.com/rest/api/power-bi/) |
 
 > [!NOTE]
 > Power BI API 仍以组的形式引用应用工作区。 对组的任何引用都意味着正使用应用工作区工作。
-
-## <a name="power-bi-developer-samples"></a>Power BI 开发人员示例
-
-Power BI 开发人员示例包含用于嵌入仪表板、报表和磁贴的项。
-
-[Power BI 开发人员示例](https://github.com/Microsoft/PowerBI-Developer-Samples)
-
-* **应用拥有数据**中的示例适用于为非 Power BI 用户嵌入。
-* **用户拥有数据**中的示例适用于为 Power BI 用户嵌入。
-
-## <a name="github-repositories"></a>GitHub 存储库
-
-* [.NET SDK](https://github.com/Microsoft/PowerBI-CSharp)
-* [JavaScript API](https://github.com/Microsoft/PowerBI-JavaScript)
-* [自定义视觉对象](https://github.com/Microsoft/PowerBI-visuals)
 
 ## <a name="developer-tools"></a>开发人员工具
 
@@ -63,16 +46,10 @@ Power BI 开发人员示例包含用于嵌入仪表板、报表和磁贴的项�
 
 有关使用 JavaScript API 的完整示例，可以使用[演练工具](https://microsoft.github.io/PowerBI-JavaScript/demo)。 此工具是演练不同类型的 Power BI Embedded 示例的快速方法。 还可以通过访问 [PowerBI JavaScript wiki](https://github.com/Microsoft/powerbi-javascript/wiki) 页，获取有关 JavaScript API 的详细信息。
 
-## <a name="push-data-into-power-bi"></a>将数据推送到 Power BI
+## <a name="github-repositories"></a>GitHub 存储库
 
-可以使用 Power BI API 将数据推送到数据集。 借助此功能，可以将行添加到数据集内的表。 新数据随后可以在仪表板的磁贴中以及报表中的视觉对象内反映出来。
-
-![推送数据示例](media/what-can-you-do/powerbi-push-data.png)
-
-## <a name="next-steps"></a>后续步骤
-
-[将数据推送到数据集](walkthrough-push-data.md)  
-[开发 Power BI 自定义视觉对象](custom-visual-develop-tutorial.md)  
-[Power BI REST API 引用](https://docs.microsoft.com/rest/api/power-bi/)  
+* [Power BI 开发人员示例](https://github.com/Microsoft/PowerBI-Developer-Samples)
+* [.NET SDK](https://github.com/Microsoft/PowerBI-CSharp)
+* [JavaScript API](https://github.com/Microsoft/PowerBI-JavaScript)
 
 更多问题？ [尝试咨询 Power BI 社区](http://community.powerbi.com/)

@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 02/14/2019
 ms.author: mihart
 LocalizationGroup: Share your work
-ms.openlocfilehash: c268bd370f32d2089b3b80c7cf4317df33e67280
-ms.sourcegitcommit: 89e9875e87b8114abecff6ae6cdc0146df40c82a
+ms.openlocfilehash: e15cb6e09ff493512bb1b87939004c851b31fa10
+ms.sourcegitcommit: 9f31cd41bd92e398717da5a69a074273e8c6f8a6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/21/2019
-ms.locfileid: "58306472"
+ms.lasthandoff: 03/26/2019
+ms.locfileid: "58473720"
 ---
 # <a name="export-reports-from-power-bi-to-pdf"></a>从 Power BI 将报表导出为 PDF
 借助 Power BI，可以将报表发布为 PDF 格式，并根据 Power BI 报表轻松地创建文档。 如果选择“导出为 PDF”，则 Power BI 报表中的每页都将变为 PDF 文档中的单独页。
@@ -67,6 +67,8 @@ ms.locfileid: "58306472"
 * 将包含背景图像的报表导出为 PDF 时，如果使用“页面背景”的“正常”或“填充”选项，可能会在导出内容中看到扭曲的图像。  为获得最佳效果，建议使用“调整”选项以避免导出文档出现问题。
 
 * Power BI 服务将你的 Power BI 语言设置用作 PDF 导出的语言。 若要查看或设置语言首选项，请选择齿轮图标 >“设置” > “常规” > “语言”。
+
+* 为导出选择了“当前值”时，当前不遵循 URL 筛选器。
 
 ## <a name="next-steps"></a>后续步骤
 [打印报表](end-user-print.md)

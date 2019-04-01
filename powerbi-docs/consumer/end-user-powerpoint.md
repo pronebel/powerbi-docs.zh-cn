@@ -11,18 +11,19 @@ ms.topic: conceptual
 ms.date: 02/28/2019
 ms.author: mihart
 LocalizationGroup: Share your work
-ms.openlocfilehash: 385a2cb41c0fa58ec3df4ea675a6f43a5b868935
-ms.sourcegitcommit: d4d36b6b200f2693b545e4a3e66d94c77a3cfafb
+ms.openlocfilehash: f06b67dc0072c125d9430079fa756d963fd99f23
+ms.sourcegitcommit: 9f31cd41bd92e398717da5a69a074273e8c6f8a6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/01/2019
-ms.locfileid: "57014291"
+ms.lasthandoff: 03/26/2019
+ms.locfileid: "58473789"
 ---
 # <a name="export-reports-from-power-bi-to-powerpoint"></a>将报表从 Power BI 导出到 PowerPoint
 借助 Power BI，可以将报表发布到 Microsoft PowerPoint，并根据 Power BI 报表轻松地创建幻灯片平台。 **导出到 PowerPoint** 时，会发生以下情况：
 
 * Power BI 报表中的每个页面成为 PowerPoint 中单独的幻灯片
-* Power BI 报表中的每个页面导出为 PowerPoint 中的单张高分辨率图像 <!-- * The filters and slicers settings that you added to the report are preserved. -->
+* Power BI 报表中的每个页面导出为 PowerPoint 中的单张高分辨率图像
+<!-- * The filters and slicers settings that you added to the report are preserved. -->
 * 会在 PowerPoint 中创建链接到 Power BI 报表的链接 
 
 将 Power BI 报表导出到 PowerPoint 非常快速。 只需按照下一部分中所述的步骤操作。
@@ -91,6 +92,7 @@ ms.locfileid: "57014291"
 * 如上所述，每个报表页导出为 PowerPoint 文件中的单张图像。
 * Power BI 服务将你的 Power BI 语言设置用作 Power BI 导出的语言。 若要查看或设置语言首选项，请选择齿轮图标![齿轮图标](media/end-user-powerpoint/power-bi-settings-icon.png) >“设置”>“常规”>“语言”。
 * 导出的 PowerPoint 文件的封面幻灯片上的下载时间被设置为导出时计算机的时区。
+* 为导出选择了“当前值”时，当前不遵循 URL 筛选器。
 
 ## <a name="next-steps"></a>后续步骤
 [打印报表](end-user-print.md)
