@@ -500,8 +500,10 @@ items:
         href: refresh-excel-file-local-drive.md
       - name: 刷新来自 Excel 工作簿的数据集 - 云
         href: refresh-excel-file-onedrive.md
-      - name: 在 OneDrive 中刷新基于 .csv 文件创建的数据集
+      - name: 刷新 OneDrive 上来自 .csv 文件的数据集
         href: refresh-csv-file-onedrive.md
+      - name: 在 Power BI Premium 中查询缓存
+        href: power-bi-query-caching.md
       - name: 刷新方案故障排除
         href: refresh-troubleshooting-refresh-scenarios.md
     - name: 仪表板
@@ -1343,9 +1345,9 @@ items:
       href: service-admin-governance.md
     - name: Power BI 安全性
       href: service-admin-power-bi-security.md
-ms.openlocfilehash: acffbdf5b7a4951baae0dc6a4afc624371da560b
-ms.sourcegitcommit: 3a05f34dbeabac62ea8c35c12a045284271971bc
+ms.openlocfilehash: 9790d4bc855411ed54ce12123d03f5ef731d4689
+ms.sourcegitcommit: de0b72915183a8a784d3227838bd704c1c209422
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/03/2019
-ms.locfileid: "58872584"
+ms.lasthandoff: 04/04/2019
+ms.locfileid: "58914204"
