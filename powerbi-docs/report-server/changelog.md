@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 03/31/2018
-ms.openlocfilehash: 9589c2cf5277995459a9f43f573b6e19c4c8f748
-ms.sourcegitcommit: e9c45d6d983e8cd4cb5af938f838968db35be0ee
+ms.openlocfilehash: 3897464cbc2a233f7b1aa6ee2f0fd70d39ff16aa
+ms.sourcegitcommit: 3a05f34dbeabac62ea8c35c12a045284271971bc
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/05/2019
-ms.locfileid: "57327955"
+ms.lasthandoff: 04/03/2019
+ms.locfileid: "58872492"
 ---
 # <a name="changelog-for-power-bi-report-server"></a>Power BI 报表服务器的更改日志
 
@@ -23,6 +23,13 @@ ms.locfileid: "57327955"
 有关新功能的详细信息，请参阅[Power BI 报表服务器中的新增功能](whats-new.md)。 
 
 ## <a name="january-2019"></a>2019 年 1 月
+
+- **Power BI 报表服务器**          
+    - *版本 1.4.7024.16477（内部版本 15.0.1102.299），发布日期：2019 年 3 月 28 日*
+        - Bug 修复
+            - Power BI 报表
+                - 修复了对 SAP Hana 和 SAP BW 使用直接查询时基本凭据方面出现的问题
+                - 修复了显示“无法加载文件或程序集 Microsoft.OData.Core.NetFX35.V7”错误的 OData 源数据刷新失败问题
 
 - **Power BI 报表服务器**            
     - *版本 1.4.6969.7395（内部版本 15.0.1102.235），发布日期：2019 年 1 月 30 日*
@@ -36,7 +43,7 @@ ms.locfileid: "57327955"
             - 分页报表
                 - 修复了更新报表共享数据源使用的问题
 
-    - 版本 1.4.6960.38798（内部版本 15.0.1102.222），发布日期：2019 年 1 月 22日
+    - *版本 1.4.6960.38798（内部版本 15.0.1102.222），发布日期：2019 年 1 月 22 日*
         - 功能
             - Power BI 报表 
                 - 支持行级别安全性
@@ -57,12 +64,12 @@ ms.locfileid: "57327955"
             - 在 Power BI 报表中保存具有多个数据源的密码会使未更改的密码失效
             - 在 Power BI 移动应用中，视觉对象空闲时会显示问题
 
-- Power BI Desktop（已针对 Power BI 报表服务器进行优化）
-    - *版本：2.65.5313.1562（2019 年 1 月），发布日期：2019 年 1 月 30 日*
+- **Power BI Desktop（已针对 Power BI 报表服务器进行优化）**
+    - *版本:2.65.5313.1562（2019 年 1 月），发布日期：2019 年 1 月 30 日*
         - 卸载 Power BI 报表服务器后快捷方式和固定图标仍保留
         - 修复了将 Power BI 报表服务器固定到开始菜单的问题 - 在黑色图标上显示黑色文本
 
-    - *版本：2.65.5313.1421（2019 年 1 月），发布日期：* 2019 年 1 月 22日
+    - *版本:2.65.5313.1421（2019 年 1 月），发布日期：2019 年 1 月 22 日*
         - 包含与 Power BI 报表服务器连接所需的更改（2019 年 1 月）  
 
 ## <a name="august-2018"></a>2018 年 8 月
@@ -83,8 +90,8 @@ ms.locfileid: "57327955"
             - 发布版附带的自定义视觉对象 API - 版本 1.13.0
             - 自定义视觉对象回退到与当前版本的服务器 API 兼容的先前版本（如果可用）
 
-- Power BI Desktop（已针对 Power BI 报表服务器进行优化）
-    - *版本：2.61.5192.641（2018 年 8 月），发布日期：2018 年 8 月 15 日*
+- **Power BI Desktop（已针对 Power BI 报表服务器进行优化）**
+    - *版本:2.61.5192.641（2018 年 8 月），发布日期：2018 年 8 月 15 日*
         - 包含与 Power BI 报表服务器连接所需的更改（2018 年 8 月）         
         
 ## <a name="march-2018"></a>2018 年 3 月
@@ -126,7 +133,7 @@ ms.locfileid: "57327955"
             - 针对分页报表 (RDL)，修复将新数据集分配到现有分页报表 (RDL) 的能力
             - 其他稳定性和可用性的修复内容
 
-- Power BI Desktop（已针对 Power BI 报表服务器进行优化）
+- **Power BI Desktop（已针对 Power BI 报表服务器进行优化）**
     - 版本:2.56.5023.1043（2018 年 3 月），发布日期：2018 年 3 月 19 日
         - 包含与 Power BI 报表服务器连接所需的更改（2018 年 3 月）
 
@@ -168,20 +175,20 @@ ms.locfileid: "57327955"
             - URL 参数 支持 PBIX 文件
             - 辅助功能改进
 
-- Power BI Desktop（已针对 Power BI 报表服务器进行优化）
-    - *版本：2.51.4885.3981（2017 年 10 月），发布日期：2018 年 4 月 10 日*
+- **Power BI Desktop（已针对 Power BI 报表服务器进行优化）**
+    - *版本:2.51.4885.3981（2017 年 10 月），发布日期：2018 年 4 月 10 日*
         - 安全更新
 
-    - *版本：2.51.4885.2501（2017 年 10 月），发布日期：2018 年 1 月 10 日*
+    - *版本:2.51.4885.2501（2017 年 10 月），发布日期：2018 年 1 月 10 日*
         - 安全更新
 
-    - *版本：2.51.4885.1423（2017 年 10 月），发布日期：2017 年 11 月 17 日*
+    - *版本:2.51.4885.1423（2017 年 10 月），发布日期：2017 年 11 月 17 日*
         - Bug 修复
             - 修复了以下问题：32 位 Power BI Desktop 无法在 x86 OS 上运行
             - 对于 Power BI 报表 (PBIX)，修复了 X 轴网格线的显示问题
             - 其他次要缺陷修复
 
-    - *版本：2.51.4885.1041（2017 年 10 月），发布日期：2017 年 10 月 31 日*
+    - *版本:2.51.4885.1041（2017 年 10 月），发布日期：2017 年 10 月 31 日*
         - 功能
             - 包含与 Power BI 报表服务器连接所需的更改（2017 年 10 月）
 
@@ -205,8 +212,8 @@ ms.locfileid: "57327955"
     - *内部版本 14.0.600.271，发布日期：2017 年 6 月 12 日*
         - Power BI 报表服务器初始版本
 
-- Power BI Desktop（已针对 Power BI 报表服务器进行优化）
-    - *版本：2.47.4766.4901（2017 年 6 月），发布日期：2018 年 1 月 10 日*
+- **Power BI Desktop（已针对 Power BI 报表服务器进行优化）**
+    - *版本:2.47.4766.4901（2017 年 6 月），发布日期：2018 年 1 月 10 日*
         - 安全更新
 
 ## <a name="next-steps"></a>后续步骤
@@ -214,7 +221,7 @@ ms.locfileid: "57327955"
 [什么是 Power BI 报表服务器？](get-started.md)
 [管理员概述](admin-handbook-overview.md)  
 [安装 Power BI 报表服务器](install-report-server.md)  
-[下载报表生成器](https://www.microsoft.com/download/details.aspx?id=53613)  
+[下载报表服务器](https://www.microsoft.com/download/details.aspx?id=53613)  
 [下载 SQL Server Data Tools (SSDT)](http://go.microsoft.com/fwlink/?LinkID=616714)
 
-更多问题？ [尝试咨询 Power BI 社区](https://community.powerbi.com/)
+更多问题？ [请尝试咨询 Power BI 社区](https://community.powerbi.com/)

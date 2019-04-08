@@ -596,11 +596,11 @@ items:
         href: service-insights-optimize.md
     - name: Power BI 中的协作
       items:
+      - name: 创建新工作区
+        href: service-create-the-new-workspaces.md
       - name: 创建应用工作区
         href: service-create-workspaces.md
-      - name: 创建新工作区（预览）
-        href: service-create-the-new-workspaces.md
-      - name: 创建和共享应用
+      - name: 从工作区发布应用
         href: service-create-distribute-apps.md
       - name: 管理工作区中的数据存储
         href: service-admin-manage-your-data-storage-in-power-bi.md
@@ -882,18 +882,6 @@ items:
         href: developer/embedding.md
       - name: Azure 中的 Power BI Embedded 是指什么
         href: developer/azure-pbie-what-is-power-bi-embedded.md
-    - name: 快速入门
-      items:
-      - name: 在 Azure 中管理容量
-        items:
-        - name: 在 Azure 中创建容量
-          href: developer/azure-pbie-create-capacity.md
-        - name: 在 Azure 中使用 Multi-Geo 创建容量
-          href: developer/embedded-multi-geo.md
-        - name: 在 Azure 中扩展容量
-          href: developer/azure-pbie-scale-capacity.md
-        - name: 在 Azure 中暂停和启动容量
-          href: developer/azure-pbie-pause-start.md
     - name: 教程
       items:
       - name: 为客户嵌入内容
@@ -930,6 +918,8 @@ items:
         href: developer/get-azuread-access-token.md
       - name: 嵌入式常见问题解答
         href: developer/qanda.md
+      - name: 嵌入式应用程序疑难解答
+        href: developer/embedded-troubleshoot.md
       - name: 在 Azure 中管理容量
         items:
         - name: 在 Azure 中创建容量
@@ -940,8 +930,6 @@ items:
           href: developer/azure-pbie-scale-capacity.md
         - name: 在 Azure 中暂停和启动容量
           href: developer/azure-pbie-pause-start.md
-        - name: 嵌入式应用程序疑难解答
-          href: developer/embedded-troubleshoot.md
       - name: 从工作区集合进行迁移
         items:
         - name: 如何从 Power BI 工作区集合进行迁移
@@ -1048,8 +1036,6 @@ items:
       items:
       - name: 将数据推送到数据集
         href: developer/walkthrough-push-data.md
-      - name: 将应用注册到 Azure AD
-        href: developer/walkthrough-push-data-register-app-with-azure-ad.md
       - name: 获取身份验证访问令牌
         href: developer/walkthrough-push-data-get-token.md
       - name: 创建数据集
@@ -1345,9 +1331,9 @@ items:
       href: service-admin-governance.md
     - name: Power BI 安全性
       href: service-admin-power-bi-security.md
-ms.openlocfilehash: 9790d4bc855411ed54ce12123d03f5ef731d4689
-ms.sourcegitcommit: de0b72915183a8a784d3227838bd704c1c209422
+ms.openlocfilehash: a804129b06b4eb92e67ae18251cbb9f950fe1beb
+ms.sourcegitcommit: ce59fa2b49658d67a2cbc77f81c53a8266a34e36
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/04/2019
-ms.locfileid: "58914204"
+ms.lasthandoff: 04/05/2019
+ms.locfileid: "59053429"
