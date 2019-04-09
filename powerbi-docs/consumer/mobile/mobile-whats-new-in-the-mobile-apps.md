@@ -9,19 +9,29 @@ ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 11/08/2018
 ms.author: mshenhav
-ms.openlocfilehash: 7c17d41d4278c292e494fe6f7203a32d93f2714d
-ms.sourcegitcommit: 796bf513bf8669676e2a44627b56221b1629a6a8
+ms.openlocfilehash: 8755f48653097d5754c4c908f07ea91bdb3c0d53
+ms.sourcegitcommit: 3a05f34dbeabac62ea8c35c12a045284271971bc
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/26/2019
-ms.locfileid: "56826712"
+ms.lasthandoff: 04/03/2019
+ms.locfileid: "58872722"
 ---
 # <a name="whats-new-in-the-mobile-apps-for-power-bi"></a>Power BI 移动应用中的新功能
 有关相关的“新增功能”的信息，请参阅：
 
-* [适用于移动应用的 Power BI 工作组日志](https://powerbi.microsoft.com/blog/tag/mobile/)
+* [面向移动应用的 Power BI 团队博客](https://powerbi.microsoft.com/blog/tag/mobile/)
 * [Power BI Desktop 中的新增功能](../../desktop-latest-update.md)  
-* [Power BI 服务中的最近更新](../../service-whats-new.md)  
+* [Power BI 服务中的新功能](../../service-whats-new.md)  
+
+## <a name="march-2019"></a>2019 年 3 月
+
+### <a name="supporting-external-guest-users-in-power-bi-apps-ios-android"></a>在 Power BI 应用中支持外部来宾用户（iOS 和 Android）
+
+你可直接在应用内访问从其他组织共享给你的 Power BI 内容（也称为 B2B）。 请在[此处](https://powerbi.microsoft.com/blog/power-bi-mobile-apps-now-support-azure-ad-b2b-guest-users/)详细阅读了解 Power BI 移动应用 B2B。
+
+### <a name="enhancing-windows-presentation-mode-with-slideshow-windows"></a>借助幻灯片放映强化 Windows 演示模式 (Windows)
+
+借助[幻灯片放映](https://powerbi.microsoft.com/blog/enhancing-presentation-mode-with-slideshow-in-windows-power-bi-app/)，可使用你的办公室中的公共显示屏来全屏运行 Power BI 报表（该模式会自动翻页）。  
 
 ## <a name="january---february-2019"></a>2019 年 1 月 - 2 月
  
@@ -289,7 +299,7 @@ Power BI 报表服务器预览 - 在本地创建和发布 Power BI 报表。 然
 请参阅 [2017 年 3 月移动应用功能摘要](https://powerbi.microsoft.com/blog/power-bi-mobile-apps-feature-summary-march-2017/)。
 
 #### <a name="all-devices"></a>所有设备
-切片器交互
+**切片器交互**
 
 我们改进了时间切片器的触摸交互。
 
@@ -301,26 +311,26 @@ Power BI 报表服务器预览 - 在本地创建和发布 Power BI 报表。 然
 支持从右向左书写的语言 - Power BI 移动应用现在支持从右向左书写的语言。 在此上下文中，“从右向左书写语言”指的是希伯来语和阿拉伯语书写系统，该系统从右向左书写，而且需要上下文调整。 请查看 [Power BI 移动应用中支持的语言](mobile-apps-supported-languages.md)列表。
 
 #### <a name="android-devices"></a>Android 设备
-连接多台 SSRS 服务器 
+**连接多台 SSRS 服务器** 
 
 现在可以同时连接最多五台 SQL Server Reporting Services (SSRS) 服务器。
 
-请求仪表板的访问权限 
+**请求仪表板的访问权限** 
 
 如果你对不具备访问权限的仪表板的 QR 代码进行扫描，现在可以提交直接从移动应用程序进行访问的请求。
 
 ### <a name="february-2017"></a>2017 年 2 月
 #### <a name="all-devices"></a>所有设备
-滚动浏览更为简单 
+**让滚动浏览更加简单** 
 
 现在可以触摸图表本身（而不是触摸一侧的滚动条）来滚动浏览报表中的条形图和柱形图。
 
 #### <a name="ios-devices"></a>iOS 设备
-使用问答这一预览功能就你的数据提问 
+**使用问答这一预览功能就你的数据提问** 
 
 借助问答功能，可以用自己的话就你的数据提问，然后 Power BI 会回答你的问题。 问答已在 http://powerbi.com 上的 Power BI 服务中提供。 现在它也在 [iPhone 或 iPad 上的移动应用中提供](mobile-apps-ios-qna.md)。
 
-连接多台 SSRS 服务器 
+**连接多台 SSRS 服务器** 
 
 现在可以同时连接最多五台 SQL Server Reporting Services (SSRS) 服务器。
 
@@ -352,33 +362,33 @@ Power BI 报表服务器预览 - 在本地创建和发布 Power BI 报表。 然
 请参阅 [2016 年 12 月移动应用博客功能摘要](https://powerbi.microsoft.com/blog/power-bi-mobile-apps-feature-summary-december-2016)。
 
 #### <a name="all-devices"></a>所有设备
-脱机后台刷新
+**Offline 背景刷新**
 
 若要确保脱机时可以访问最新数据，我们在应用程序后台执行刷新以便你的业务信息保持最新状态，即使在一段时间内未对其进行访问。 若要确保某些仪表板始终保持最新状态，只需将其标记为收藏。 了解更多有关 [Power BI 移动应用中的脱机功能](mobile-apps-offline-data.md)的信息。
 
 #### <a name="ios-devices"></a>iOS 设备
-批注和共享
+**批注并共享**
 
 现在可以从适用于 iOS 的 Power BI 移动应用批注并共享磁贴、报表或可视化效果。 
 
 * [在 iPhone 上](mobile-annotate-and-share-a-tile-from-the-mobile-apps.md)
 * [在 iPad 上](mobile-annotate-and-share-a-tile-from-the-mobile-apps.md)
 
-请求仪表板的访问权限
+**请求仪表板的访问权限**
 
 如果你对不具备访问权限的仪表板的 QR 代码进行扫描，现在可以提交直接从移动应用程序进行访问的请求。
 
-映像磁贴上的自定义 URL
+**图像平铺上的自定义 URL**
 
 如果映像磁贴具有由仪表板所有者定义的自定义 URL，点击磁贴时你将直接转到该 URL，而无需在焦点模式下打开磁贴。 
 
 #### <a name="iphone"></a>iPhone
-Apple Watch 改进
+**Apple Watch 改进**
 
 现在可以刷新直接来自 Watch 应用的 Apple Watch 数据。 在仪表板索引页中，深按以刷新你的数据。 （Power BI 移动应用程序必须在 iPhone 后台运行才能使之生效）。
 
 #### <a name="android"></a>Android
-映像磁贴上的自定义 URL
+**图像平铺上的自定义 URL**
 
 如果映像磁贴具有由仪表板所有者定义的自定义 URL，点击磁贴时你将直接转到该 URL，而无需在焦点模式下打开磁贴。 此外，包含预定义的自定义 URL 的仪表板磁贴现在可以使读者重定向到应用内的报表。
 
