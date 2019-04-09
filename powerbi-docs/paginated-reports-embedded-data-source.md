@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: conceptual
 ms.date: 11/05/2018
-ms.openlocfilehash: 7f919234f7635c76ce50d0bfffa393498f141da8
-ms.sourcegitcommit: 91ac6185f7026ddbaa925dc54057bb742b4fa411
+ms.openlocfilehash: 340b4d26b8beed4dfda5f7af4dc949088f3857ae
+ms.sourcegitcommit: d2805894fd372c35e11d519f724de2be98407fda
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/16/2019
-ms.locfileid: "56324383"
+ms.lasthandoff: 04/08/2019
+ms.locfileid: "59070013"
 ---
 # <a name="create-an-embedded-data-source-for-paginated-reports-in-the-power-bi-service-preview"></a>在 Power BI 服务中为分页报表创建嵌入数据源（预览）
 
@@ -22,7 +22,8 @@ ms.locfileid: "56324383"
 
 - Azure SQL 数据库和数据仓库
 - SQL Server
-- SQL Server Analysis Services 
+- SQL Server Analysis Services
+- Azure Analysis Services
 
 分页报表通过网关连接到本地数据源。 将报表发布到 Power BI 服务后，可以设置网关。 了解有关 [Power BI 网关](service-gateway-getting-started.md)的详细信息。 
 
@@ -61,4 +62,4 @@ ms.locfileid: "56324383"
 ## <a name="next-steps"></a>后续步骤
 
 - [在 Power BI 服务中为分页报表创建嵌入数据集](paginated-reports-create-embedded-dataset.md)
-- [Power BI Premium 中的分页报表是什么？（预览）](paginated-reports-report-builder-power-bi.md)
+- [Power BI Premium 中的分页报表是什么？ （预览）](paginated-reports-report-builder-power-bi.md)

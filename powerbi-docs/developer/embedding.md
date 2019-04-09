@@ -1,6 +1,6 @@
 ---
 title: Power BI 嵌入式分析
-description: Power BI 提供用于使用嵌入式分析将仪表板和报表嵌入到应用程序的 API。 了解有关如何使用 Power BI 嵌入式分析软件、嵌入式分析工具或嵌入式商业智能工具嵌入到 PaaS 环境和 SaaS 环境中的详细信息。
+description: Power BI 提供用于使用嵌入式分析将仪表板和报表嵌入到应用程序的 API。 详细了解如何使用 Power BI 嵌入式分析软件、嵌入式分析工具或嵌入式商业智能工具嵌入到 PaaS 环境和 SaaS 环境中。
 author: markingmyname
 ms.author: maghan
 manager: kfile
@@ -8,14 +8,21 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: overview
+helpviewer_keywords:
+- embedded analytics
+- embedding
+- Power BI embedding
+- app owns data
+- user owns data
+- Power BI APIs
 ms.custom: seodec18
 ms.date: 02/05/2019
-ms.openlocfilehash: ca159fb8cea26f4c707aabc99d9fa2c308a32e1a
-ms.sourcegitcommit: 0abcbc7898463adfa6e50b348747256c4b94e360
+ms.openlocfilehash: 0a4b43bd02697472a0bbdf16171ba655fc014dbc
+ms.sourcegitcommit: 3a05f34dbeabac62ea8c35c12a045284271971bc
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/06/2019
-ms.locfileid: "55762435"
+ms.lasthandoff: 04/03/2019
+ms.locfileid: "58872699"
 ---
 # <a name="embedded-analytics-with-power-bi"></a>Power BI 嵌入式分析
 
@@ -42,7 +49,7 @@ Azure (PaaS) 中的 Power BI 服务 (SaaS) 和 Power BI 嵌入式服务具有用
 
 通过**为组织嵌入内容**，可以扩展 Power BI 服务。 为组织嵌入内容要求应用程序的用户在想要查看内容时登录 Power BI 服务。 组织中的用户登录后，只能访问他们拥有的，或者他们在 Power BI 服务中共享的仪表板和报表。
 
-为组织嵌入内容的示例包括内部应用程序，如 [SharePoint Online](https://powerbi.microsoft.com/blog/integrate-power-bi-reports-in-sharepoint-online/)、[Microsoft Teams 集成（必须拥有管理员权限）](https://powerbi.microsoft.com/blog/power-bi-teams-up-with-microsoft-teams/)以及 [Microsoft Dynamics](https://docs.microsoft.com/dynamics365/customer-engagement/basics/add-edit-power-bi-visualizations-dashboard)。
+*为组织嵌入内容的示例包括内部应用程序，如 [SharePoint Online](https://powerbi.microsoft.com/blog/integrate-power-bi-reports-in-sharepoint-online/)、[Microsoft Teams 集成（必须拥有管理员权限）](https://powerbi.microsoft.com/blog/power-bi-teams-up-with-microsoft-teams/)以及 [Microsoft Dynamics](https://docs.microsoft.com/dynamics365/customer-engagement/basics/add-edit-power-bi-visualizations-dashboard)。*
 
 若要为组织嵌入内容，请参阅以下内容：
 
@@ -85,9 +92,9 @@ Power BI Pro 帐户充当应用程序的主帐户（将此主帐户视为代理�
 > [为组织嵌入内容](embed-sample-for-your-organization.md)
 
 > [!div class="nextstepaction"]
-> [Power BI Embedded 是什么？](azure-pbie-what-is-power-bi-embedded.md)
+> [Power BI Embedded 是什么?](azure-pbie-what-is-power-bi-embedded.md)
 
 > [!div class="nextstepaction"]
 >[为客户嵌入内容](embed-sample-for-customers.md)
 
-更多问题？ [尝试咨询 Power BI 社区](http://community.powerbi.com/)
+更多问题？ [请尝试咨询 Power BI 社区](http://community.powerbi.com/)

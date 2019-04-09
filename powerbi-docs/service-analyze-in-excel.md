@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 12/06/2018
 ms.author: davidi
 LocalizationGroup: Reports
-ms.openlocfilehash: 20faef99f710ebbc3eacebe15b5101726b895688
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: da6ec79a821e7aa9659843d0461ca6ac0b11706d
+ms.sourcegitcommit: de0b72915183a8a784d3227838bd704c1c209422
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54279265"
+ms.lasthandoff: 04/04/2019
+ms.locfileid: "58914158"
 ---
 # <a name="analyze-in-excel"></a>在 Excel 中分析
 有时，你可能希望使用 Excel 查看 Power BI 中的数据集并与之交互。 借助**在 Excel 中分析**，不仅可以做到这一点，还可以基于 Power BI 中存在的数据集访问 Excel 中的数据透视表、图表和切片器功能。
@@ -27,7 +27,8 @@ ms.locfileid: "54279265"
 * Microsoft Excel 2010 SP1 和更高版本支持**在 Excel 中分析**。
 * Excel 数据透视表不支持对数值字段进行拖放聚合。 你在 Power BI 中的数据集 *必须具有预定义的度量值* 。
 * 某些组织可能有组策略规则，导致无法对 Excel 安装所需的**在 Excel 中分析**更新。 如果无法安装更新，请与管理员联系。
-* 在 Excel 中分析需要 Pro 许可证。 若要详细了解许可证类型之间的功能差异，请参阅[按许可证类型划分的 Power BI 功能](service-features-license-type.md)。 
+* “在 Excel 中分析”功能要求数据库位于 Power BI Premium 中或者用户具有 Power BI Pro 许可证。 若要详细了解许可证类型之间的功能差异，请参阅[按许可证类型划分的 Power BI 功能](service-features-license-type.md)。 
+* 如果用户对基本数据集具有读取权限，则可通过 Excel 中的“分析”功能连接到数据集。  用户可通过多种方式获取此权限，例如成为包含此数据集的工作区的成员、他人向其共享了使用该数据集的报表或仪表板，或者具有包含该数据集的应用的权限。
 
 ## <a name="how-does-it-work"></a>工作原理
 从与 **Power BI** 中的数据集或报表关联的省略号菜单 (…) 中选择**在 Excel 中分析**之后，Power BI 会创建一个 .ODC 文件并将其从浏览器下载到你的计算机。
@@ -100,4 +101,4 @@ Excel 已打开并且你有一个空数据透视表，现在可以对 Power BI �
 由于用户需要刷新数据集，但 Excel Online 不支持刷新外部连接，因此，建议用户在其计算机上的桌面版 Excel 中打开工作簿。
 
 ## <a name="troubleshooting"></a>故障排除
-有时，在使用 Analyze in Excel 期间可会能收意外的结果，或功能未按预期工作。 [此页提供针对 Analyze in Excel 常见问题的解决方案](desktop-troubleshooting-analyze-in-excel.md)
+有时，在使用 Analyze in Excel 期间可会能收意外的结果，或功能未按预期工作。 [本页针对在 Excel 中使用分析功能时遇到的常见问题提供解决方案](desktop-troubleshooting-analyze-in-excel.md)

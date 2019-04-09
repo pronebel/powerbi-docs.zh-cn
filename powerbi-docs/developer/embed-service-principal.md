@@ -8,13 +8,13 @@ ms.reviewer: nishalit
 ms.subservice: power-bi-developer
 ms.topic: conceptual
 ms.custom: ''
-ms.date: 02/05/2019
-ms.openlocfilehash: 8d91b6cc03bb142d6d4aa101f87d8e3c1e6f3196
-ms.sourcegitcommit: d4d36b6b200f2693b545e4a3e66d94c77a3cfafb
+ms.date: 03/29/2019
+ms.openlocfilehash: 9b72c1c432e7fa560862452849491c12395d29d1
+ms.sourcegitcommit: 3a05f34dbeabac62ea8c35c12a045284271971bc
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/01/2019
-ms.locfileid: "57014406"
+ms.lasthandoff: 04/03/2019
+ms.locfileid: "58872538"
 ---
 # <a name="service-principal-with-power-bi-preview"></a>Power BI 的服务主体（预览版）
 
@@ -111,13 +111,15 @@ ms.locfileid: "57014406"
 3. Power BI 管理员需要启用 Power BI 管理门户中“开发人员设置”中的服务主体。 将 Azure AD 中创建的安全组添加到“开发人员设置”中的“特定安全组”部分。
 
    > [!Important]
-   > 服务主体继承其安全组中的所有 Power BI 租户设置的权限。 若要限制权限，请为服务主体创建专用的安全组并将其添加到相关已启用 Power BI 设置的“除特定安全组以外”列表。
+   > 服务主体有权访问为整个组织启用的或者为包含服务主体的安全组启用的所有租户设置。 要限制服务主体访问特定租户设置，请只允许访问特定安全组，或者为服务主体创建一个专用安全组并将其排除在外。
 
     ![管理门户](media/embed-service-principal/admin-portal.png)
 
 4. 设置 [Power BI 环境](embed-sample-for-customers.md#set-up-your-power-bi-environment)。
 
 5. 以管理员身份将服务主体添加到创建的新工作区。 可以通过 [API](https://docs.microsoft.com/rest/api/power-bi/groups/addgroupuser) 或使用 Power BI 服务管理此任务。
+
+    ![将服务主体添加到工作区](media/embed-service-principal/add-service-principal-in-the-UI.png)
 
 6. 现在选择在示例应用程序或自己的应用程序中嵌入内容。
 
@@ -171,6 +173,7 @@ ms.locfileid: "57014406"
 * 无法使用服务主体安装或管理本地数据网关。
 * [为组织嵌入内容](embed-sample-for-your-organization.md)应用程序无法使用服务主体。
 * 不支持[数据流](../service-dataflows-overview.md)管理。
+* 服务主体不支持管理员 API。
 
 ## <a name="next-steps"></a>后续步骤
 
