@@ -240,6 +240,8 @@ items:
         href: desktop-what-if.md
       - name: 使用钻取
         href: desktop-drillthrough.md
+      - name: 使用跨报告钻取
+        href: desktop-cross-report-drill-through.md
       - name: 使用相对日期切片器和筛选器
         href: visuals/desktop-slicer-filter-date-range.md
       - name: 使用分组和装箱
@@ -278,6 +280,8 @@ items:
         href: power-bi-hyperlinks-in-tables.md
       - name: 条件表格式设置
         href: desktop-conditional-table-formatting.md
+      - name: 基于条件表达式的标题格式设置
+        href: desktop-conditional-format-visual-titles.md
       - name: 在 Power BI Desktop 中按列排序
         href: desktop-sort-by-column.md
       - name: 生成更适合移动应用的报表
@@ -1331,9 +1335,9 @@ items:
       href: service-admin-governance.md
     - name: Power BI 安全性
       href: service-admin-power-bi-security.md
-ms.openlocfilehash: a804129b06b4eb92e67ae18251cbb9f950fe1beb
-ms.sourcegitcommit: ce59fa2b49658d67a2cbc77f81c53a8266a34e36
+ms.openlocfilehash: 5943c0bb07142be76241c2d4ed415920c99bc382
+ms.sourcegitcommit: 42892c281c7b1682a02efb3613fc1a75530c4830
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/05/2019
-ms.locfileid: "59053429"
+ms.lasthandoff: 04/10/2019
+ms.locfileid: "59479279"
