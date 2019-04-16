@@ -27,7 +27,7 @@ Power BI 允许你可视化来自各种源的各种数据。 创建视觉对象�
 
 若要开始了解 Power BI 如何确定要显示的相关数据，让我们将表作为一个简单的示例。 使用本文末尾的示例部分中介绍的模型，考虑通过以下设置生成一个表：
 
-**1.来自同一个表的组：***Product[Color] - Product[Size]*
+**1.来自同一个表的组：** *Product[Color] - Product[Size]*
 
 |*Product[Color]*  |*Product[Size]*  |
 |---------|---------|
@@ -40,7 +40,7 @@ Power BI 允许你可视化来自各种源的各种数据。 创建视觉对象�
 
 现在让我们看看其他组合：
 
-**2.来自不同但直接相关的表的组且包含一个度量值：***ProductStyle[Finish] - Product[Color] - Sum(Sales[Quantity])*
+**2.来自不同但直接相关的表的组且包含一个度量值：** *ProductStyle[Finish] - Product[Color] - Sum(Sales[Quantity])*
 
 |*ProductStyle[Finish]*  |*Product[Color]*  |*[SumQuantity]*  |
 |---------|---------|---------|
@@ -51,7 +51,7 @@ Power BI 允许你可视化来自各种源的各种数据。 创建视觉对象�
 
 让我们看看其他情况： 
 
-**3.来自不同但相关的表的组且不含度量值：***ProductStyle[Finish] - Product[Color]*
+**3.来自不同但相关的表的组且不含度量值：** *ProductStyle[Finish] - Product[Color]*
 
 |*ProductStyle[Finish]*  |*Product[Color]*  |
 |---------|---------|
@@ -94,7 +94,7 @@ Power BI 允许你可视化来自各种源的各种数据。 创建视觉对象�
 
 让我们看看以下几个有趣的情况，并在关闭和打开“显示不含数据的项目”时进行比较。 
 
-**1.来自同一个表的分组列：***Product[Color] - Product[Size] - Sum(Sales[Quantity])*
+**1.来自同一个表的分组列：** *Product[Color] - Product[Size] - Sum(Sales[Quantity])*
 
 关闭“显示不含数据的项目”功能时的显示方式：
 
@@ -114,7 +114,7 @@ Power BI 允许你可视化来自各种源的各种数据。 创建视觉对象�
 
 注意两个新组合在打开此功能时的显示方式：“蓝色 - 大”和“红色-大”。 这两个条目在“Sales”表中没有相应的“Quantity”。 但是，它们显示在“Product”表中。
 
-**2.来自相关表的分组列：***ProductStyle[Finish] - Product[Color] - Sum(Sales[Quantity])*
+**2.来自相关表的分组列：** *ProductStyle[Finish] - Product[Color] - Sum(Sales[Quantity])*
 
 关闭“显示不含数据的项目”功能时的显示方式：
 
