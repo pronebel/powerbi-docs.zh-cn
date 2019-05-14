@@ -10,12 +10,12 @@ ms.subservice: powerbi-gateways
 ms.topic: conceptual
 ms.date: 03/05/2019
 LocalizationGroup: Gateways
-ms.openlocfilehash: 91a4cf3ff4fef4530c7c45712a86419298da53f4
-ms.sourcegitcommit: 89e9875e87b8114abecff6ae6cdc0146df40c82a
+ms.openlocfilehash: 3c9fd8877347ad0eebf7db059cc791583c89f353
+ms.sourcegitcommit: af2b2238fe77eaa1b2392a19a143a0250b8665cf
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/21/2019
-ms.locfileid: "58306495"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "65533708"
 ---
 # <a name="use-security-assertion-markup-language-saml-for-single-sign-on-sso-from-power-bi-to-on-premises-data-sources"></a>使用安全断言标记语言 (SAML) 进行从 Power BI 到本地数据源的单一登录 (SSO)
 
@@ -75,7 +75,7 @@ openssl x509 -req -days 365 -in IdP_Req.pem -sha256 -extensions usr_cert -CA CA_
 
     ![配置 SAML](media/service-gateway-sso-saml/configure-saml.png)
 
-1. 选择在步骤 2 中创建的标识提供者。 对于“外部标识”，输入 Power BI 用户的 UPN，然后选择“添加”。
+1. 选择在步骤 2 中创建的标识提供者。 有关**外部标识**，输入 Power BI 用户的 UPN （通常是电子邮件地址在用户登录到 Power BI），然后选择**添加**。 请注意，是否您已配置网关使用 ADUserNameReplacementProperty 配置选项应输入的值将替换原始 Power BI 用户的 UPN。 例如，如果将 ADUserNameReplacementProperty SAMAccountName 应输入用户的 SAMAccountName。
 
     ![选择标识提供者](media/service-gateway-sso-saml/select-identity-provider.png)
 
@@ -179,7 +179,7 @@ openssl x509 -req -days 365 -in IdP_Req.pem -sha256 -extensions usr_cert -CA CA_
 
 有关“本地数据网关”和 DirectQuery 的详细信息，请查看以下资源：
 
-* [本地数据网关](service-gateway-onprem.md)
+* [On-premises data gateway (本地数据网关)](service-gateway-onprem.md)
 * [Power BI 中的 DirectQuery](desktop-directquery-about.md)
 * [DirectQuery 支持的数据源](desktop-directquery-data-sources.md)
 * [DirectQuery 和 SAP BW](desktop-directquery-sap-bw.md)
