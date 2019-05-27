@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 11/13/2018
+ms.date: 05/07/2019
 ms.author: davidi
 LocalizationGroup: Transform and shape data
-ms.openlocfilehash: cd9a68d10e0da0aaa883dae1a3979eff6a6b4ce6
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: f14b6878d44510631822dd26458bdaa17c1fe3a0
+ms.sourcegitcommit: b11e908650379913d00673215e3eaf25d712b122
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54290719"
+ms.lasthandoff: 05/07/2019
+ms.locfileid: "65239593"
 ---
 # <a name="aggregations-in-power-bi-desktop-preview"></a>Power BI Desktop 中的聚合（预览）
 
@@ -261,7 +261,7 @@ AVERAGE 函数可以受益于聚合。 以下查询将命中聚合，因为 AVER
 
 ![“Sales Agg”聚合表](media/desktop-aggregations/aggregations-table_04.jpg)
 
-> 注意：由于“Date”表是详细信息表，此模型要求该表处于 DirectQuery 模式以填充管理聚合对话框。 这是预览版限制，我们计划在通用版中将其删除。
+> 注意:由于“Date”表是详细信息表，此模型要求该表处于 DirectQuery 模式以填充管理聚合对话框。 这是预览版限制，我们计划在通用版中将其删除。
 
 ### <a name="query-examples"></a>查询示例
 

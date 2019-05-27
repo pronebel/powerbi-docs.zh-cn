@@ -1,8 +1,8 @@
 ---
 title: Power BI Premium 常见问题解答
 description: 浏览有关 Power BI Premium 服务的常见问题和解答列表。
-author: minewiskan
-ms.author: owend
+author: mgblythe
+ms.author: mblythe
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
@@ -10,16 +10,16 @@ ms.subservice: powerbi-admin
 ms.topic: conceptual
 ms.date: 02/05/2019
 LocalizationGroup: Premium
-ms.openlocfilehash: 6aa9265a006135ad87a61979b39a709c874f8d48
-ms.sourcegitcommit: 20ae9e9ffab6328f575833be691073de2061a64d
+ms.openlocfilehash: 92b515cfa9c4d3ca796d48ac90415cc0d1d5d5a9
+ms.sourcegitcommit: 317980e9f40fb3ed6eeb91b92056f242bd814a2c
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/22/2019
-ms.locfileid: "58383328"
+ms.lasthandoff: 05/14/2019
+ms.locfileid: "65565388"
 ---
 # <a name="power-bi-premium-faq"></a>Power BI Premium 常见问题解答
 
-本文介绍了有关 Power BI Premium 的常见问题。 有关概述，请参阅[什么是 Power BI Premium？](service-premium.md)。
+本文介绍了有关 Power BI Premium 的常见问题。 有关概述，请参阅[什么是 Power BI Premium？](service-premium-what-is.md)。
 
 * 如果你有其他问题，请[尝试询问 Power BI 社区](http://community.powerbi.com/)。
 * 仍有问题？ 请访问 [Power BI 支持页](https://powerbi.microsoft.com/support/)。
@@ -84,7 +84,7 @@ Power BI 报表服务器是一个本地服务器，可用于完全在组织防�
 
 后续步骤
 
-[什么是 Power BI Premium？](service-premium.md)
+[什么是 Power BI Premium？](service-premium-what-is.md)
 [Power BI Premium 发行说明](service-premium-release-notes.md)
 [Microsoft Power BI Premium 白皮书](https://aka.ms/pbipremiumwhitepaper)
 [规划 Power BI 企业部署白皮书](https://aka.ms/pbienterprisedeploy)

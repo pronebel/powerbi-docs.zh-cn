@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 11/01/2018
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: 65c2de2d505866b3b00a88eaaa309d7c61a7625d
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: d28a27d69d6e8799f08ddaa05e734ded62150c8f
+ms.sourcegitcommit: a284c38d42dd8042e468e10c0157f30918c2bdd1
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54296216"
+ms.lasthandoff: 05/16/2019
+ms.locfileid: "65710941"
 ---
 # <a name="configure-mobile-apps-with-microsoft-intune"></a>使用 Microsoft Intune 配置移动应用
 
@@ -86,7 +86,7 @@ Microsoft Intune 可以在 Office 365 中与移动设备管理 (MDM) 共存。 �
 
 1. 从下拉菜单中选择**来自应用程序商店的托管 iOS 应用程序**。
 
-1. 输入从[第 1 步](#step-1-get-the-URL-for-the-application)中获取的应用 URL，再选择“下一步”。
+1. 输入从[第 1 步](#step-1-get-the-url-for-the-application)中获取的应用 URL，再选择“下一步”。
 
     ![软件安装：iOS](media/service-admin-mobile-intune/intune-add-software-ios1.png)
 
@@ -104,7 +104,7 @@ Microsoft Intune 可以在 Office 365 中与移动设备管理 (MDM) 共存。 �
 
 1. 从下拉菜单中选择**外部链接**。
 
-1. 输入从[第 1 步](#step-1-get-the-URL-for-the-application)中获取的应用 URL，再选择“下一步”。
+1. 输入从[第 1 步](#step-1-get-the-url-for-the-application)中获取的应用 URL，再选择“下一步”。
 
     ![软件安装程序：Android](media/service-admin-mobile-intune/intune-add-software-android1.png)
 
