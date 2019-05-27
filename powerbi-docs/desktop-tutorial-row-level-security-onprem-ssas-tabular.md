@@ -8,15 +8,15 @@ editor: davidi
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: tutorial
-ms.date: 10/21/2017
+ms.date: 05/08/2019
 ms.author: selvar
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 546ae48aac10ae6c72a062665c7d8f448432a194
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 57a285b075b17b2229ec4267a476cdd4b86ea7ad
+ms.sourcegitcommit: 10a87c016f497dbeba32f94ed1f3688a70816fea
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54292628"
+ms.lasthandoff: 05/09/2019
+ms.locfileid: "65513592"
 ---
 # <a name="dynamic-row-level-security-with-analysis-services-tabular-model"></a>通过 Analysis Services 表格模型实现动态行级别安全性
 本教程演示在 Analysis Services 表格模型中实现“行级别安全性”的所需步骤，以及如何将其用于 Power BI 报表。 本教程中的步骤在示例数据集上完成，旨在让您了解必需的步骤。

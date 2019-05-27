@@ -1,20 +1,21 @@
 ---
 title: Power BI 的服务主体
 description: 了解如何使用服务主体在 Azure Active Directory 中注册应用程序，以用于嵌入 Power BI 内容。
-author: markingmyname
-ms.author: maghan
+author: rkarlin
+ms.author: rkarlin
 manager: kfile
 ms.reviewer: nishalit
-ms.subservice: power-bi-developer
+ms.service: powerbi
+ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.custom: ''
 ms.date: 03/29/2019
-ms.openlocfilehash: 9b72c1c432e7fa560862452849491c12395d29d1
-ms.sourcegitcommit: 3a05f34dbeabac62ea8c35c12a045284271971bc
+ms.openlocfilehash: 5c97eacbdbf89a9ef828dad3a5da01e794952f15
+ms.sourcegitcommit: a284c38d42dd8042e468e10c0157f30918c2bdd1
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/03/2019
-ms.locfileid: "58872538"
+ms.lasthandoff: 05/16/2019
+ms.locfileid: "65710521"
 ---
 # <a name="service-principal-with-power-bi-preview"></a>Power BI 的服务主体（预览版）
 

@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 11/28/2018
+ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Model your data
-ms.openlocfilehash: 92191c96409a3a75ad44f8d3472805a3e98da7dd
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 5b6bbf7a203d8e87d129b6336be4f4531ae34107
+ms.sourcegitcommit: 2116af72f435cd30f1401bb9c7afdcbc76b1c3ce
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54275700"
+ms.lasthandoff: 05/09/2019
+ms.locfileid: "65454486"
 ---
 # <a name="data-categorization-in-power-bi-desktop"></a>Power BI Desktop 中的数据分类
 在 **Power BI Desktop** 中，你可以为列指定数据类别，以便让 Power BI Desktop 知道如何在可视化效果中处理其值。

@@ -8,15 +8,15 @@ ms.custom: seodec18
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 12/06/2018
+ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: fc39aa35fe19f8964746ba6f3003792bc49163d8
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: b304a917e2b3e09e93f7f01b3b31d75023777bb2
+ms.sourcegitcommit: 2116af72f435cd30f1401bb9c7afdcbc76b1c3ce
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54290535"
+ms.lasthandoff: 05/09/2019
+ms.locfileid: "65454299"
 ---
 # <a name="use-gridlines-and-snap-to-grid-in-power-bi-desktop-reports"></a>在 Power BI Desktop 报表中使用网格线和对齐网格
 Power BI Desktop 报表画布提供网格线功能，以便你可以在报表页上巧妙地对齐视觉对象，并使用对齐网格功能，以便报表中的视觉对象清晰整齐且均匀分布。
