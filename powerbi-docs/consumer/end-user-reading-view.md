@@ -12,23 +12,24 @@ ms.service: powerbi
 ms.topic: quickstart
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/06/2018
+ms.date: 05/13/2019
 ms.author: mihart
-ms.openlocfilehash: 84ce069913b1c262ce4e91138f8496cf3f19dddd
-ms.sourcegitcommit: cd85d88fba0d9cc3c7a4dc03d2f35d2bd096759b
+ms.openlocfilehash: babdcebcdbc45ce3f7f737785ca4becab50cb3be
+ms.sourcegitcommit: 187f306438d53ba8742db2c7a5532f1acc81fa36
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/12/2018
-ms.locfileid: "53280112"
+ms.lasthandoff: 05/14/2019
+ms.locfileid: "65608267"
 ---
-<!-- once the sample aps are live, change this so consumers can follow along -->
+<!-- once the sample apps are live, change this so consumers can follow along -->
 # <a name="quickstart-learn-about-the-power-bi-capabilities-for-consumers"></a>快速入门：了解面向使用者的 Power BI 功能
 本快速入门将介绍如何与 Power BI 交互，以发现数据驱动业务见解。 本文未做深入探讨，只是快速概述了 Power BI 使用者可执行的许多操作。
 
 如果未注册 Power BI，请[免费注册](https://app.powerbi.com/signupredirect?pbi_source=web)后再进行操作。
 
 ## <a name="prerequisites"></a>先决条件
-- Power BI 服务 (app.powerbi.com) <!-- app from AppSource -->
+- Power BI 服务 (app.powerbi.com)
+<!-- app from AppSource -->
 
 ## <a name="reading-view"></a>阅读视图
 Power BI 服务向报表使用者提供了阅读视图。 借助阅读视图，可浏览同事与你共享的报表，并与之交互。 
@@ -185,7 +186,7 @@ Power BI 可视化效果是使用基础数据集中的数据构造而成。 如�
 1. 在 Power BI 服务中，打开报表并选择视觉对象。  
 2. 若要显示视觉对象背后的数据，请依次选择省略号 (...) 和“显示数据”。
    
-   ![选择“显示数据”](./media/end-user-show-data/power-bi-show-data2.png)
+   ![选择“显示数据”](./media/end-user-show-data/power-bi-explore-show-data.png)
 
 本文快速概述了使用者可以使用 Power BI 服务执行的一些操作。  
 

@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 11/28/2018
+ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Troubleshooting
-ms.openlocfilehash: 7b34bd31592f59048899ccf04385d7b302fd3204
-ms.sourcegitcommit: 80961ace38ff9dac6699f81fcee0f7d88a51edf4
+ms.openlocfilehash: f81517bf4d7857b5c86b4fd8d801e989abb0399b
+ms.sourcegitcommit: 10a87c016f497dbeba32f94ed1f3688a70816fea
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/13/2019
-ms.locfileid: "56223274"
+ms.lasthandoff: 05/09/2019
+ms.locfileid: "65514472"
 ---
 # <a name="troubleshooting-sign-in-for-power-bi-desktop"></a>Power BI Desktop 登录问题疑难解答
 在尝试登录 Power BI Desktop 时，可能有时会遇到错误。 登录时遇到问题的两个主要原因有：代理身份验证错误和非 HTTPS URL 重定向错误。 

@@ -8,15 +8,15 @@ ms.custom: seodec18
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 12/06/2018
+ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: e622a61c5c36f2af6ccdd59b69678ce6e850a2b6
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 5eb5cb9bab8b98c19b8c234f5fc7c20af5a2f2b6
+ms.sourcegitcommit: 10a87c016f497dbeba32f94ed1f3688a70816fea
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54290054"
+ms.lasthandoff: 05/09/2019
+ms.locfileid: "65513941"
 ---
 # <a name="connect-to-a-web-page-from-power-bi-desktop"></a>通过 Power BI Desktop 连接到网页
 用户可以连接到网页，然后将其数据导入到 Power BI Desktop 并在视觉对象和数据模型中使用该数据。

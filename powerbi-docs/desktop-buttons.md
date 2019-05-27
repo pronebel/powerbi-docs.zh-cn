@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 11/28/2018
+ms.date: 05/07/2019
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 58ed43768d563adfe3012e030d2c8bb795909380
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 9d884df7fdfa6d0f16e7963c00a1100186d70546
+ms.sourcegitcommit: b11e908650379913d00673215e3eaf25d712b122
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54292421"
+ms.lasthandoff: 05/07/2019
+ms.locfileid: "65239496"
 ---
 # <a name="using-buttons-in-power-bi"></a>使用 Power BI 中的按钮
 使用 Power BI 中的“按钮”，可创建类似于应用的报表和仪表板，从而创建引人入胜的环境，以便用户可悬停鼠标在 Power BI 内容上、单击它并进一步与之交互。 可将按钮添加到 Power BI Desktop 中的报表，并将这些报表共享或发布到 Power BI 服务，以创建为用户提供行为类似于应用的仪表板。
@@ -57,7 +57,7 @@ Power BI 中的按钮有三种状态：默认状态（未悬停或选中时的�
 
 按钮操作的选项如下：
 
-* 上一步
+* 返回
 * 书签
 * 问答
 

@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 08/06/2018
+ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 457861d17aea03303df9c271c52e7f962f525bbc
-ms.sourcegitcommit: 80961ace38ff9dac6699f81fcee0f7d88a51edf4
+ms.openlocfilehash: 87d530bdf966e549e67427f68fa8b23895120e48
+ms.sourcegitcommit: 10a87c016f497dbeba32f94ed1f3688a70816fea
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/13/2019
-ms.locfileid: "56223251"
+ms.lasthandoff: 05/09/2019
+ms.locfileid: "65514006"
 ---
 # <a name="use-visual-elements-to-enhance-power-bi-reports"></a>使用视觉对象元素增强 Power BI 报表
 
