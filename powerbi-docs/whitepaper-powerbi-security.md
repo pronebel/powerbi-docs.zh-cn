@@ -8,14 +8,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 03/07/2019
+ms.date: 05/02/2019
 LocalizationGroup: Conceptual
-ms.openlocfilehash: 8a86d17252bea3dbdb6ad30de35667cfbd844c8b
-ms.sourcegitcommit: 39bc75597b99bc9e8d0a444c38eb02452520e22b
-ms.translationtype: HT
+ms.openlocfilehash: e75810d18b39619d249c3acd9a9140b3d19d5f35
+ms.sourcegitcommit: ec5b6a9f87bc098a85c0f4607ca7f6e2287df1f5
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/25/2019
-ms.locfileid: "58430383"
+ms.lasthandoff: 05/23/2019
+ms.locfileid: "66051362"
 ---
 # <a name="power-bi-security-whitepaper"></a>Power BI 安全性白皮书
 
@@ -46,7 +46,7 @@ Power BI 服务基于 Azure 构建，后者是 Microsoft 的[云计算平台](ht
 
 ![WFE 和后端](media/whitepaper-powerbi-security/powerbi-security-whitepaper_01.png)
 
-Power BI 使用 Azure Active Directory (AAD) 进行帐户身份验证和管理。 Power BI 还使用 Azure 流量管理器 (ATM) 将用户流量定向到最近的数据中心，由针对身份验证进程尝试连接并下载静态内容和文件的客户端的 DNS 记录确定。 Power BI 使用 Azure 内容分发网络 (CDN) 来有效地根据地理区域设置将所需的静态内容和文件分发到用户。
+Power BI 使用 Azure Active Directory (AAD) 进行帐户身份验证和管理。 Power BI 还使用 Azure 流量管理器 (ATM) 将用户流量定向到最近的数据中心，由针对身份验证进程尝试连接并下载静态内容和文件的客户端的 DNS 记录确定。 Power BI 使用地理位置最近且 WFE 来有效地分发所需的静态内容和文件复制到用户，其使用提供的自定义视觉对象除外**Azure 内容交付网络 (CDN)**。
 
 ### <a name="the-wfe-cluster"></a>WFE 群集
 
@@ -125,7 +125,7 @@ Power BI 根据 Power BI 群集在区域数据中心的部署位置在某些区�
 
 * [Power BI 数据中心](https://www.microsoft.com/TrustCenter/CloudServices/business-application-platform/data-location)
 
-Microsoft 还为国家主权提供数据中心。 有关国家云的 Power BI 服务可用性的详细信息，请参阅 [Power BI 国家云](https://powerbi.microsoft.com/clouds/)。
+Microsoft 还为国家/地区主权提供数据中心。 有关国家云的 Power BI 服务可用性的详细信息，请参阅 [Power BI 国家云](https://powerbi.microsoft.com/clouds/)。
 
 有关数据存储位置和使用方式的详细信息，请参阅 [Microsoft 信任中心](https://www.microsoft.com/TrustCenter/Transparency/default.aspx#_You_know_where)。 在 [Microsoft Online Services 条款](http://www.microsoftvolumelicensing.com/DocumentSearch.aspx?Mode=3&amp;DocumentTypeId=31)的“数据处理条款”中指定了有关静态客户数据位置的承诺使用量。
 
@@ -231,7 +231,7 @@ DirectQuery 和其他查询之间的区别决定了 Power BI 服务如何处理�
 
     b. ETL - 在 Azure Blob 存储中加密，但当前在 Power BI 服务的 Azure Blob 存储中的所有数据都使用 [Azure 存储服务加密 (SSE)](https://docs.microsoft.com/azure/storage/common/storage-service-encryption)（也称为服务器端加密）。 Multi-geo 也使用 SSE。
 
-    c. 推送数据 v1 - 在 Azure Blob 存储中加密存储，但当前在 Power BI 服务的 Azure Blob 存储中的所有数据都使用 [Azure 存储服务加密 (SSE)](https://docs.microsoft.com/azure/storage/common/storage-service-encryption)（也称为服务器端加密）。 Multi-geo 也使用 SSE。
+    c. 推送数据 v1 - 在 Azure Blob 存储中加密存储，但当前在 Power BI 服务的 Azure Blob 存储中的所有数据都使用 [Azure 存储服务加密 (SSE)](https://docs.microsoft.com/azure/storage/common/storage-service-encryption)（也称为服务器端加密）。 Multi-geo 也使用 SSE。 推送数据 v1 已停止使用从 2016年开始。 
 
     d. 推送数据 v2 - 在 Azure SQL 中加密存储。
 
@@ -248,22 +248,24 @@ Power BI 通过以下方式提供数据完整性监视：
 1. 元数据（报表定义）
 
    a. 报告可以是 Excel for Office 365 报表，也可以是 Power BI 报表。 以下内容适用于基于报表类型的元数据：
+        
+    &ensp; &ensp; a. Excel 格式的报表元数据存储在 SQL Azure 中加密。 元数据也存储在 Office 365。
 
-       a. Excel Report metadata is stored encrypted in SQL Azure. Metadata is also stored in Office 365.
-
-       b. Power BI reports are stored encrypted in Azure SQL database.
+    &ensp; &ensp; b. Power BI 报表存储在 Azure SQL 数据库中加密。
 
 2. 静态数据
 
    静态数据包括背景图像和自定义视觉对象等项目。
 
-    a. 对于使用 Excel for Office 365 创建的报表，不存储任何内容。
+    &ensp; &ensp; a. 对于使用 Excel for Office 365 创建的报表，不存储任何内容。
 
-    b. 对于 Power BI 报表，在 Azure Blob 存储中存储和加密静态数据。
+    &ensp; &ensp; b. 对于 Power BI 报表，在 Azure Blob 存储中存储和加密静态数据。
 
-3. 缓存 a. 对于使用 Excel for Office 365 创建的报表，不缓存任何内容。
+3. 缓存
 
-    b. 对于 Power BI 报表，在 Azure SQL 数据库中加密缓存显示的视觉对象的数据。
+    &ensp; &ensp; a. 对于使用 Excel for Office 365 创建的报表，不缓存任何内容。
+
+    &ensp; &ensp; b. 对于 Power BI 报表，在 Azure SQL 数据库中加密缓存显示的视觉对象的数据。
  
 
 4. 发布到 Power BI 的原始 Power BI Desktop (.pbix) 或 Excel (.xlsx) 文件
@@ -280,7 +282,7 @@ Power BI 通过以下方式提供数据完整性监视：
 
 ### <a name="data-transiently-stored-on-non-volatile-devices"></a>数据暂时存储在非易失性设备上
 
-以下内容描述了暂时存储在非易失性设备上的数据。
+非易失性设备是不含常量的电源仍然存在的内存。 以下内容描述了暂时存储在非易失性设备上的数据。 
 
 #### <a name="datasets"></a>数据集
 
@@ -293,6 +295,9 @@ Power BI 通过以下方式提供数据完整性监视：
     a. 本地 Analysis Services - 不存储任何内容
 
     b. DirectQuery - 取决于模型是否在服务中直接创建，如果直接创建，则以加密格式存储在连接字符串中，加密密钥以明文形式存储在同一位置（与加密信息一起）；或者取决于是否从 Power BI Desktop 导入模型，如果导入，则凭据不会存储在非易失性设备上。
+
+    > [!NOTE]
+    > 服务端模型创建功能已停止使用从 2017年开始。
 
     c. 推送的数据 - 无（不适用）
 
@@ -311,7 +316,7 @@ Power BI 通过以下方式提供数据完整性监视：
 
 ## <a name="user-authentication-to-data-sources"></a>对数据源的用户身份验证
 
-对于每个数据源，用户基于其登录建立连接，并使用这些凭据访问数据。 然后，用户可以根据基础数据创建查询、仪表板和报表。
+与每个数据源，用户建立依据各自登录帐户的连接并访问使用这些凭据的数据。 然后，用户可以根据基础数据创建查询、仪表板和报表。
 
 用户共享查询、仪表板、报表或任何可视化时，访问该数据和这些可视化取决于基础数据源是否支持 Role Level Security (RLS)。
 
@@ -452,6 +457,12 @@ Power BI 移动版可用的所有三个平台都支持 Microsoft Intune，这是
 
 * 是。 必应地图和 ESRI 视觉对象为使用这些服务的视觉对象在 Power BI 服务外部传输数据。 有关 out-of-Power-BI 租户流量的详细信息和详细说明，请参阅 [Power BI 和 ExpressRoute](service-admin-power-bi-expressroute.md)。
 
+**对于模板应用程序，没有 Microsoft 执行任何安全或隐私评估之前将项发布到库的模板应用？**
+* 否。 应用发布者负责客户的负责审查并确定是否信任模板应用发布者时的内容。 
+
+**是否有可以发送网络外部的客户信息的模板应用？**
+* 是。 客户负责查看发布服务器的隐私策略，并确定是否在租户上安装的模板应用它。 此外，发布服务器是负责要通知的应用程序的行为和功能。
+
 **什么是数据主权？是否可以在位于特定地理位置的数据中心中预配租户，以确保数据不会离开国家/地区边界？**
 
 * 某些地理位置的某些客户可以选择在国家云中创建租户，其中数据存储和处理与所有其他数据中心分开。 由于单独的数据受托人代表 Microsoft 对国家云 Power BI 服务进行操作，因此国家云的安全性略有不同。
@@ -481,7 +492,7 @@ Power BI 中的数据存储和数据处理根据是否使用 DirectQuery 访问�
 - [Power BI Gateway](service-gateway-manage.md)
 - [Power BI REST API - 概述](https://msdn.microsoft.com/library/dn877544.aspx)
 - [Power BI API 引用](https://msdn.microsoft.com/library/mt147898.aspx)
-- [本地数据网关](service-gateway-manage.md)
+- [On-premises data gateway (本地数据网关)](service-gateway-manage.md)
 - [Power BI 和 ExpressRoute](service-admin-power-bi-expressroute.md)
 - [Power BI 国家云](https://powerbi.microsoft.com/clouds/)
 - [Power BI Premium](https://aka.ms/pbipremiumwhitepaper)

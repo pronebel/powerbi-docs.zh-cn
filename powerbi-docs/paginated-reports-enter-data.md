@@ -1,7 +1,7 @@
 ---
 title: 直接在报表生成器的分页报表中输入数据（预览）
 description: 本文介绍如何将数据直接输入到报表生成器的分页报表中。
-author: markingmyname
+author: maggiesMSFT
 ms.author: maggies
 manager: kfile
 ms.reviewer: ''
@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: conceptual
 ms.date: 11/19/2018
-ms.openlocfilehash: 27f8434b336c2d1281fb087d4e9acf83958f7329
-ms.sourcegitcommit: 91ac6185f7026ddbaa925dc54057bb742b4fa411
+ms.openlocfilehash: 3237f4751083f374ac00a959f226429b17757b50
+ms.sourcegitcommit: 244d110b28d4978f360cbece3a7c896e1a645258
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/16/2019
-ms.locfileid: "56324981"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "61424259"
 ---
 # <a name="enter-data-directly-in-a-paginated-report-in-report-builder-preview---power-bi"></a>直接在报表生成器 - Power BI 的分页报表中输入数据（预览）
 
@@ -23,7 +23,7 @@ ms.locfileid: "56324981"
 ## <a name="prerequisites"></a>先决条件
 
 - 若要直接在分页报表中输入数据，请[从 Microsoft 下载中心](https://www.microsoft.com/download/details.aspx?id=53613)安装新版本的报表生成器。 
-- 若要将分页报表保存到 Power BI 服务，则需 [Power BI Pro 帐户](service-self-service-signup-for-power-bi.md)，以及对 [Power BI 高级容量](service-premium.md)中的工作区的写入权限。
+- 若要将分页报表保存到 Power BI 服务，则需 [Power BI Pro 帐户](service-self-service-signup-for-power-bi.md)，以及对 [Power BI 高级容量](service-premium-what-is.md)中的工作区的写入权限。
 - 若要将分页报表保存到报表服务器，则需[编辑 RsReportServer.config 文件](#upload-the-paginated-report-to-a-report-server)的权限。
 
 ## <a name="get-started"></a>开始使用

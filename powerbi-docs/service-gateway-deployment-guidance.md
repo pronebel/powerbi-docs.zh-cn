@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 12/06/2017
 ms.author: mblythe
 LocalizationGroup: Gateways
-ms.openlocfilehash: 5ebc5472ffcbd5d6b493b919b3e2965968261d20
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
-ms.translationtype: HT
+ms.openlocfilehash: e3092c320008df760ef72408c93f601dde26cdef
+ms.sourcegitcommit: ec5b6a9f87bc098a85c0f4607ca7f6e2287df1f5
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54279840"
+ms.lasthandoff: 05/23/2019
+ms.locfileid: "66051158"
 ---
 # <a name="guidance-for-deploying-a-data-gateway-for-power-bi"></a>部署 Power BI 数据网关指南
 
@@ -42,7 +42,7 @@ ms.locfileid: "54279840"
 ### <a name="connection-type"></a>连接类型
 Power BI 提供了两种连接类型：DirectQuery 和 Import。 并非所有数据源都支持这两种连接类型，而且有很多原因可能会导致选择其中一种类型，如安全要求、性能、数据限制和数据模型大小。 可在[本地数据网关](service-gateway-onprem.md)一文的“可用数据源类型列表”部分中详细了解连接类型和支持数据源。
 
-根据所使用的连接类型，网关的使用可能会有所不同。 例如，应尽可能将 DirectQuery 数据源从“计划刷新”数据源中分离出来（假设它们位于不同的报表中并且可以分开）。 这样做可以防止网关将成千上万的 DirectQuery 请求排入队列的时间与上午计划用于公司主仪表板的大型数据模型刷新时间相同。 以下是每种类型需要考虑的内容：
+具体取决于使用哪种类型的连接，网关使用情况可能会不同。 例如，应尽可能将 DirectQuery 数据源从“计划刷新”数据源中分离出来（假设它们位于不同的报表中并且可以分开）。 这样做会阻止将成千上万的网关**DirectQuery**请求排队等候，同时为公司的主仪表板使用大型数据模型的第二天早上的计划刷新。 以下是每种类型需要考虑的内容：
 
 * “计划刷新”：根据查询大小和每天发生的刷新次数，可以选择保持在推荐的最低硬件要求之间或升级到更高性能的计算机。 如果没有折叠给定的查询，网关计算机上会发生转换，因此网关计算机可受益于拥有更多可用的 RAM。
 * DirectQuery：每次任何用户打开报表或查看数据时，都会发送查询。 因此，如果预计有超过 1,000 位用户同时访问数据，那么需要确保计算机具有强大耐用的硬件组件。 更多 CPU 内核可使 DirectQuery 连接有更好的吞吐量。

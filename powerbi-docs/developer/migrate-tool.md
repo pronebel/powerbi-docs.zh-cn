@@ -1,20 +1,20 @@
 ---
 title: Power BI Embedded 迁移工具
 description: 此迁移工具可用于将报表从 Power BI Embedded Azure 服务 (PaaS) 复制到 Power BI 服务 (SaaS)。
-author: markingmyname
-ms.author: maghan
+author: rkarlin
+ms.author: rkarlin
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 06/30/2018
-ms.openlocfilehash: 76e6ebec14d5feefd319213c05fddb0839a55ccd
-ms.sourcegitcommit: 5e83fa6c93a0bc6599f76cc070fb0e5c1fce0082
+ms.openlocfilehash: 9344a1a3dc4f682925da900cde8accfead783f88
+ms.sourcegitcommit: 244d110b28d4978f360cbece3a7c896e1a645258
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/13/2019
-ms.locfileid: "56216369"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "61271862"
 ---
 # <a name="power-bi-embedded-migration-tool"></a>Power BI Embedded 迁移工具
 
@@ -272,7 +272,7 @@ PaaS 拓扑是“资源组”>“工作区集合”>“工作区”的列表。 
 
 [使用 Power BI 嵌入](embedding.md)  
 [如何将 Power BI Embedded 工作区集合内容迁移到 Power BI](migrate-from-powerbi-embedded.md)  
-[什么是 Power BI Premium？](../service-premium.md)  
+[什么是 Power BI Premium？](../service-premium-what-is.md)  
 [JavaScript API Git 存储库](https://github.com/Microsoft/PowerBI-JavaScript)  
 [Power BI C# Git 存储库](https://github.com/Microsoft/PowerBI-CSharp)  
 [JavaScript 嵌入示例](https://microsoft.github.io/PowerBI-JavaScript/demo/)  

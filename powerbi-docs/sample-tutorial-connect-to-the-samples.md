@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 12/06/2018
 ms.author: maggies
 LocalizationGroup: Samples
-ms.openlocfilehash: 63924dd4769b4ce452d2d8de4252228bb6d37d37
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 846f783e2a022504f192cf0c03179ce3f3c00e22
+ms.sourcegitcommit: 1dfabc8596ec2eb66ccccceb11419361f704b607
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54275539"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "65625084"
 ---
 #  <a name="connect-to-the-samples-in-the-power-bi-service"></a>连接到 Power BI 服务中的示例
 
@@ -78,7 +78,7 @@ Power BI 服务和 Power BI Desktop 均支持该示例。 要继续学习，我�
     ![突出显示匹配的视觉对象的报表页](media/sample-tutorial-connect-to-the-samples/power-bi-report.png)
    
    > [!NOTE]
-   > 如果磁贴是使用 [Power BI 问答](consumer/end-user-q-and-a.md)创建的，则会改为打开问答页面。 如果磁贴是[从 Excel 固定](service-dashboard-pin-tile-from-excel.md)的，则 Excel Online 将在 Power BI 内打开。
+   > 如果磁贴是使用 [Power BI 问答](power-bi-tutorial-q-and-a.md)创建的，则会改为打开问答页面。 如果磁贴是[从 Excel 固定](service-dashboard-pin-tile-from-excel.md)的，则 Excel Online 将在 Power BI 内打开。
    > 
    > 
 1. 重新返回“数据集”选项卡，你有多种选项可用于浏览数据集。  你将无法打开它和查看所有的行和列（在 Power BI Desktop 或 Excel 中可以执行这些操作）。  如果有人与同事共享内容包，他们通常想要共享见解，而不是让其同事直接访问数据。 但这并不意味着你不能浏览数据集。  
@@ -129,11 +129,9 @@ Power BI 服务和 Power BI Desktop 均支持该示例。 要继续学习，我�
 
 
 ## <a name="next-steps"></a>后续步骤
-[Power BI 基本概念](consumer/end-user-basic-concepts.md)
 
-[Power BI 服务示例](sample-datasets.md)
-
-[Power BI 数据源](service-get-data.md)
+- [Power BI 基本概念](consumer/end-user-basic-concepts.md)
+- [Power BI 服务示例](sample-datasets.md)
+- [Power BI 数据源](service-get-data.md)
 
 更多问题？ [尝试参与 Power BI 社区](http://community.powerbi.com/)
-

@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 02/13/2019
 ms.author: davidi
 LocalizationGroup: Transform and shape data
-ms.openlocfilehash: 3f3c901140ca4f2ae2d93d1c3bc17bb519d41212
-ms.sourcegitcommit: d010b10bc14097a1948daeffbc91b864bd91f7c8
+ms.openlocfilehash: 97718ee6411d0063aa145e768fd20d3ebb6024b6
+ms.sourcegitcommit: c9080e77ab705f1814a352c0dda6b10910a5018e
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/13/2019
-ms.locfileid: "56225951"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "65941430"
 ---
 # <a name="relationships-with-a-many-many-cardinality-in-power-bi-desktop"></a>Power BI Desktop 中具有多对多基数的关系
 
@@ -25,7 +25,7 @@ ms.locfileid: "56225951"
 
 Power BI Desktop 中的“具有多对多基数的关系”能力是以下三个相关功能之一：
 
-* **复合模型**：允许报表有任意组合的两个或多个数据连接，包括 DirectQuery 连接或“导入”。 有关详细信息，请参阅 [Power BI Desktop 中的复合模型（预览版）](desktop-composite-models.md)。
+* **复合模型**：允许报表有任意组合的两个或多个数据连接，包括 DirectQuery 连接或“导入”。 有关详细信息，请参阅 [Power BI Desktop 中的复合模型](desktop-composite-models.md)。
 
 * **具有多对多基数的关系**：借助“复合模型”，可以在表之间建立“具有多对多基数的关系”。 这种方法删除了对表中唯一值的要求。 它还删除了旧解决办法，如为建立关系而仅引入新表。 本文进一步介绍了此功能。
 
@@ -157,7 +157,7 @@ Power BI Desktop 中的“具有多对多基数的关系”能力是以下三个
 ## <a name="next-steps"></a>后续步骤
 
 若要详细了解复合模型和 DirectQuery，请参阅以下文章：
-* [Power BI Desktop 中的复合模型（预览版）](desktop-composite-models.md)
+* [Power BI Desktop 中的复合模型](desktop-composite-models.md)
 * [Power BI Desktop 中的存储模式（预览版）](desktop-storage-mode.md)
 * [在 Power BI Desktop 中使用 DirectQuery](desktop-directquery-about.md)
 * [Power BI Desktop 中 DirectQuery 支持的数据源](desktop-directquery-data-sources.md)
