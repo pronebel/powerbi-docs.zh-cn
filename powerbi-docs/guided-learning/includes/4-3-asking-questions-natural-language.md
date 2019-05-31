@@ -1,3 +1,11 @@
+---
+ms.openlocfilehash: 2a0ec80120e30d8d652eb2bd28461b9f88f7610a
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61263039"
+---
 Power BI 附带了一个功能强大的语言识别引擎，允许你使用对话性短句和问题提出有关数据的问题。 因此除了使用 Power BI 生成报表和可视化之外，你仅通过询问简单的问题即可创建图表和图形。
 
 要提出有关数据的问题，请在 Power BI 中打开仪表板，屏幕顶部将显示输入框，你可以在其中提出有关所显示数据的问题。 此功能有时称为 *问题与解答* ，更多时候简称 **问答** 。

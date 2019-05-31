@@ -1,54 +1,62 @@
 ---
 title: Power BI 开始使用第三方应用
 description: Power BI 开始使用第三方应用
-author: markingmyname
-manager: kfile
-ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
+author: mgblythe
+ms.author: mblythe
+manager: kfile
+ms.reviewer: ''
+ms.cunstom: ''
 ms.date: 08/10/2017
-ms.author: maghan
 LocalizationGroup: Get started
-ms.openlocfilehash: 9e2c37c6518f3484aa0350203e4e93711a7543ec
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
-ms.translationtype: HT
+ms.openlocfilehash: 11afe27ffbca295eec67fd07731cc646bcca56dc
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54289983"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "64769695"
 ---
 # <a name="get-started-with-third-party-apps"></a>开始使用第三方应用
-借助 Power BI，你可以使用由 Microsoft 以外的其他公司或个人构建的应用。 例如，你可以使用一个第三方应用，该应用将 Power BI 集成到自定义构建的 web 应用程序中。 当你使用第三方应用时，将要求你向应用程序授予对你的 Power BI 帐户和资源的某些权限。 重要的一点是，应仅向你知晓和信任的应用程序授予权限。 可随时撤消已授予应用程序的权限。 请参阅[撤消第三方应用权限](#revoke)。
+
+借助 Power BI，你可以使用由 Microsoft 以外的其他公司或个人构建的应用。 例如，可以使用一个第三方应用，用于将 Power BI 磁贴集成到自定义构建 web 应用程序。 当使用第三方应用时，你将需要授予该应用程序对 Power BI 帐户和资源的特定权限。 重要的一点是，应仅向你知晓和信任的应用程序授予权限。 可随时撤消已授予应用程序的权限。 请参阅[撤消第三方应用权限](#revoke)。
 
 以下是应用程序可以请求的访问权限类型。
 
 ## <a name="power-bi-app-permissions"></a>Power BI 应用权限
+
 * **查看所有仪表板**
   
   * 此权限使应用程序可查看你有权访问的所有仪表板。 其中包括你自己的仪表板、你从内容包获取的仪表板、与你共享的仪表板以及你所属的组中的仪表板。 应用程序不能对仪表板做出任何修改。 此权限的作用之一是，应用程序可将你的仪表板内容嵌入到其体验中。
+
 * **查看所有报表**
   
   * 凭借此权限，应用程序能够查看你有权访问的所有报表。 其中包括你自己的仪表板、你从内容包获取的仪表板以及你所属的组中的仪表板。 作为查看报表的一部分，这意味着应用程序也可以查看其中的数据。 应用程序不能对报表本身进行任何修改。 此权限的作用之一是，应用程序可将你的报表内容嵌入到其体验中。
+
 * **查看所有数据集**
   
   * 凭借此权限，应用程序能够列出你有权访问的所有数据集。 其中包括你自己的数据集、你从内容包获取的数据集以及你所属的组中的数据集。 应用程序能够看到你的全部数据集的名称及其结构，其中包括表格和列名称。 该权限给予读取数据集中数据的能力。 该权限不授予应用程序向数据集进行添加或做出更改的权限。
 * **读取和写入所有数据集**
   
   * 凭借此权限，应用程序能够列出你有权访问的所有数据集。 其中包括你自己的数据集、你从内容包获取的数据集以及你所属的组中的数据集。 应用程序能够看到你的全部数据集的名称及其结构，其中包括表格和列名称。 该权限给予读写数据集中数据的能力。 应用程序还可以创建新的数据集或对现有数据集进行修改。 应用程序通常使用该权限将数据直接发送到 Power BI。
+
 * **查看用户的组**
   
   * 凭借此权限，应用程序能够列出你所属的所有组。 它可以将此权限与列出的某些其他权限配合使用来查看或更新特定组的内容。 应用程序不能对组本身做出任何修改。
 
 <a name="revoke"/>
 
-## <a name="revoke-third-party-app-permissions"></a>撤消第三方应用权限。
-可通过转到 Office 365 我的应用网站撤消向第三方应用授予的权限。
+## <a name="revoke-third-party-app-permissions"></a>撤消第三方应用权限
 
-下面介绍如何在 **Office 365 我的应用**网站上撤消第三方权限：
+通过转到 Office 365 我的应用网站撤消第三方应用的权限。
+
+上**Office 365 我的应用**站点，下面介绍了如何撤消第三方权限：
 
 1. 转到 [Office 365 我的应用网站](https://portal.office.com/myapps)。
-2. 在**我的应用**页上，查找第三方应用。
-3. 将鼠标悬停在该应用磁贴上，单击 **(...)** 按钮，然后单击**删除**。
-   
-   ![](media/service-power-bi-get-started-third-party-apps/remove.png)
 
+2. 上**我的应用**页上，查找第三方应用。
+
+3. 将鼠标悬停在该应用磁贴上，单击 **(...)** 按钮，然后单击**删除**。
+
+   ![删除](media/service-power-bi-get-started-third-party-apps/remove.png)
