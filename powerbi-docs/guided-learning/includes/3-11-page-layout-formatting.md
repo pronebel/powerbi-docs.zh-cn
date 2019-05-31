@@ -1,3 +1,11 @@
+---
+ms.openlocfilehash: e2745c211dbb9f855bcf90589f0fbbe65857b3a3
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61396214"
+---
 Power BI Desktop 使你能够控制报表页面的布局和格式，如大小和方向。
 
 使用“开始”选项卡中的**页面视图**菜单，更改报表页面的缩放方式。 可用选项包括**适应页面**（默认值）、**适应宽度**和**实际大小**。

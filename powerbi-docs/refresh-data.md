@@ -1,21 +1,21 @@
 ---
 title: Power BI 中的数据刷新
 description: Power BI 中的数据刷新
-author: davidiseminger
+author: mgblythe
 manager: kfile
-ms.reviewer: ''
+ms.reviewer: kayu
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 02/21/2019
-ms.author: davidi
+ms.author: mblythe
 LocalizationGroup: Data refresh
-ms.openlocfilehash: 2f5680df2077a306532165c62367fcc09c517227
-ms.sourcegitcommit: 76772a361e6cd4dd88824b2e4b32af30656e69db
-ms.translationtype: HT
+ms.openlocfilehash: 149f6963cc59c70342bee824579f6ae4c97a16d1
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/27/2019
-ms.locfileid: "56892473"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "60974104"
 ---
 # <a name="data-refresh-in-power-bi"></a>Power BI 中的数据刷新
 确保始终获得最新数据对于制定正确决策通常是至关重要的。 你可能已在 Power BI 中使用“获取数据”连接到并上载一些数据，创建了一些报表和仪表板。 现在，你要确保数据确实是最新且最好的。
@@ -27,9 +27,9 @@ ms.locfileid: "56892473"
 ## <a name="understanding-data-refresh"></a>了解数据刷新
 设置刷新之前，请务必了解所刷新的内容以及在何处获取数据。
 
-数据源是在报表和仪表板中浏览的数据的实际来源；例如，联机服务（如 Google Analytics 或 QuickBooks）、云中的数据库（如 Azure SQL 数据库）或者自己组织中的本地计算机或服务器上的数据库或文件。 这些都是数据源。 数据源的类型确定如何刷新其中的数据。 稍后我们会在[可以刷新的内容](#what-can-be-refreshed)部分中介绍每种数据源类型的刷新。
+数据源  是在报表和仪表板中浏览的数据的实际来源；例如，联机服务（如 Google Analytics 或 QuickBooks）、云中的数据库（如 Azure SQL 数据库）或者自己组织中的本地计算机或服务器上的数据库或文件。 这些都是数据源。 数据源的类型确定如何刷新其中的数据。 稍后我们会在[可以刷新的内容](#what-can-be-refreshed)部分中介绍每种数据源类型的刷新。
 
-使用“获取数据”连接到数据以及从内容包、文件上载数据或是连接到实时数据源时，会自动在 Power BI 中创建数据集。 在 Power BI Desktop 和 Excel 2016 中，还可以将文件直接发布到 Power BI 服务（就如同使用“获取数据”一样）。
+使用“获取数据”连接到数据以及从内容包、文件上载数据或是连接到实时数据源时，会自动在 Power BI 中创建  数据集。 在 Power BI Desktop 和 Excel 2016 中，还可以将文件直接发布到 Power BI 服务（就如同使用“获取数据”一样）。
 
 在每种情况下，都会在 Power BI 服务中的“我的工作区”（或“组”）容器中创建并显示数据集。 对数据集选择**省略号 (...)** 时，可以浏览报表中的数据、编辑设置以及设置刷新。
 
@@ -65,7 +65,7 @@ ms.locfileid: "56892473"
 这指的是在 Power BI 服务中使用来自原始数据源的数据刷新数据集。 这使用计划的刷新或立即刷新来进行。 对于本地数据源，这需要网关。
 
 ### <a name="tile-refresh"></a>磁贴刷新
-在数据更改之后，磁贴刷新会为仪表板上的磁贴视觉对象更新缓存。 这大约每十五分钟进行一次。 还可以通过选择仪表板右上角的“省略号 (...)”并选择“刷新仪表板磁贴”来强制进行磁贴刷新。
+在数据更改之后，磁贴刷新会为仪表板上的磁贴视觉对象更新缓存。 这大约每十五分钟进行一次。 还可以通过选择仪表板右上角的“省略号 (...)”  并选择“刷新仪表板磁贴”  来强制进行磁贴刷新。
 
 ![](media/refresh-data/dashboard-tile-refresh.png)
 
@@ -161,12 +161,12 @@ Power BI 中有两种类型的内容包：
 ## <a name="live-connections-and-directquery-to-on-premises-data-sources"></a>与本地数据源之间的实时连接和 DirectQuery
 借助本地数据网关，可以从 Power BI 向本地数据源发出查询。 与可视化效果交互时，查询会从 Power BI 直接发送到数据库。 随后会返回更新的数据并更新可视化效果。 由于 Power BI 与数据库之间存在直接连接，因此无需计划刷新。
 
-使用实时连接连接到 SQL Service Analysis Services (SSAS) 数据源与使用 DirectQuery 不同，与 SSAS 源的实时连接可以针对缓存运行，即使是在加载报表后，也不例外。 此行为提升了报表的加载性能。 可以使用“刷新”按钮，从 SSAS 数据源请求获取最新数据。 SSAS 数据源的所有者可以为数据集配置计划缓存刷新频次，确保报表按照所需的频次不断更新。 
+使用实时连接连接到 SQL Service Analysis Services (SSAS) 数据源与使用 DirectQuery 不同，与 SSAS 源的实时连接可以针对缓存运行，即使是在加载报表后，也不例外。 此行为提升了报表的加载性能。 可以使用“刷新”  按钮，从 SSAS 数据源请求获取最新数据。 SSAS 数据源的所有者可以为数据集配置计划缓存刷新频次，确保报表按照所需的频次不断更新。 
 
 使用本地数据网关配置数据源时，可以将该数据源用作计划的刷新选项。 这会代替使用个人网关。
 
 > [!NOTE]
-> 如果为数据集配置了实时或 DirectQuery 连接，数据集大约会每小时刷新一次，或在发生数据交互时进行刷新。 可以在 Power BI 服务的“计划的缓存刷新”选项中手动调整刷新频率。
+> 如果为数据集配置了实时或 DirectQuery 连接，数据集大约会每小时刷新一次，或在发生数据交互时进行刷新。 可以在 Power BI 服务的“  计划的缓存刷新”选项中手动调整  刷新频率。
 > 
 > 
 
@@ -184,7 +184,7 @@ Power BI 中有两种类型的内容包：
 ## <a name="databases-in-the-cloud"></a>云中的数据库
 使用 DirectQuery 时，Power BI 与云中的数据源之间存在直接连接。 与可视化效果交互时，查询会从 Power BI 直接发送到数据库。 随后会返回更新的数据并更新可视化效果。 而且，由于 Power BI 服务和数据源都处于云中，因此不需要个人网关。
 
-如果可视化效果没有发生用户交互，数据大约会每小时自动刷新一次。 可以使用“计划的缓存刷新”选项更改刷新频率，并能设置刷新频率。
+如果可视化效果没有发生用户交互，数据大约会每小时自动刷新一次。 可以使用“  计划的缓存刷新”选项更改刷新频率，并能设置刷新频率。
 
 若要设置刷新频率，请选择 Power BI 服务右上角的**齿轮**图标，然后选择“**设置**”。
 
@@ -273,7 +273,7 @@ Power BI 中有两种类型的内容包：
 [用于解决刷新问题的工具](service-gateway-onprem-tshoot.md)  
 [刷新方案故障排除](refresh-troubleshooting-refresh-scenarios.md)  
 [Power BI Gateway - Personal](service-gateway-personal-mode.md)  
-[本地数据网关](service-gateway-onprem.md)  
+[On-premises data gateway (本地数据网关)](service-gateway-onprem.md)  
 
 更多问题？ [尝试咨询 Power BI 社区](http://community.powerbi.com/)
 

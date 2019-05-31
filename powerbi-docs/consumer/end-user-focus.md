@@ -13,11 +13,11 @@ ms.date: 12/06/2018
 ms.author: mihart
 LocalizationGroup: Common tasks
 ms.openlocfilehash: abc9671338e916671f243093bad455ed0cb4ef7e
-ms.sourcegitcommit: a054782370dec56d49bb205ee10b7e2018f22693
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/22/2019
-ms.locfileid: "56662034"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61061650"
 ---
 # <a name="display-content-in-more-detail-focus-mode-and-full-screen-mode"></a>更详细地显示内容：焦点模式和全屏模式
 
@@ -38,7 +38,7 @@ ms.locfileid: "56662034"
 
 显示 Power BI 服务内容（仪表板、报表页、磁贴和可视化效果），不受菜单和导航栏的干扰。  可以随时快速获取内容的纯粹而完整的视图。 有时这也称为电视模式。   
 
-要打开全屏模式，请从处于焦点模式的仪表板、报表、磁贴或处于焦点模式的视觉对象上方的 Power BI 服务菜单栏中选择“全屏”图标 ![全屏图标](media/end-user-focus/power-bi-full-screen-icon.png)。  你选择的内容将填满整个屏幕。
+要打开全屏模式，请从处于焦点模式的仪表板、报表、磁贴或处于焦点模式的视觉对象上方的 Power BI 服务菜单栏中选择“全屏”  图标 ![全屏图标](media/end-user-focus/power-bi-full-screen-icon.png)。  你选择的内容将填满整个屏幕。
 如果使用 Power BI 移动版，[全屏可用于 Windows 10 移动应用](./mobile/mobile-windows-10-app-presentation-mode.md)。 
 
 全屏模式的一些用途包括：
@@ -53,7 +53,7 @@ ms.locfileid: "56662034"
 
 ![仪表板全屏模式前后对照](media/end-user-focus/power-bi-focus-compare.png)
 
-在焦点模式下，Power BI 使用者可以与创建此视觉对象时应用的任何筛选器进行交互。  在 Power BI 服务中，可以在仪表板磁贴或报表视觉对象上使用焦点模式。
+在焦点模式下，Power BI 使用者  可以与创建此视觉对象时应用的任何筛选器进行交互。  在 Power BI 服务中，可以在仪表板磁贴或报表视觉对象上使用焦点模式。
 
 ## <a name="working-in-full-screen-mode"></a>在全屏幕模式下运行
 要以全屏模式打开仪表板或报表页，请从顶部导航栏选择全屏图标 ![全屏图标](media/end-user-focus/power-bi-full-screen-icon.png) 。 进入全屏模式后，移动鼠标或光标就会显示上下文菜单。 由于全屏可用于各种各样的内容，因此上下文菜单中的选项也都有所不同，但这些差异一目了然。  只需将鼠标悬停在图标上即可看到定义。
@@ -65,24 +65,24 @@ ms.locfileid: "56662034"
 ![报表菜单](media/end-user-focus/power-bi-report-menu.png)    
 
   * ![返回图标](media/end-user-focus/power-bi-back-icon.png)    
-  使用“返回”按钮导航到浏览器中的前一页。 如果前一页是 Power BI 页面，它也将以全屏模式显示。  全屏模式将一直保持，直到你退出。
+  使用“返回”  按钮导航到浏览器中的前一页。 如果前一页是 Power BI 页面，它也将以全屏模式显示。  全屏模式将一直保持，直到你退出。
 
   * ![打印图标](media/end-user-focus/power-bi-print-icon.png)    
   使用此按钮可以全屏模式打印仪表板或报表页。
 
   * ![适应屏幕图标](media/end-user-focus/power-bi-fit-to-width.png)    
-    使用“适应屏幕”按钮来尽可能以最大大小显示仪表板，而无需使用滚动条。  
+    使用“适应屏幕”  按钮来尽可能以最大大小显示仪表板，而无需使用滚动条。  
 
     ![适应屏幕](media/end-user-focus/power-bi-fit-screen.png)
 
   * ![适应宽度图标](media/end-user-focus/power-bi-fit-width.png)       
-    有时你并不关心滚动条，但希望仪表板能横向填充整个可用空间。 选择“适应宽度”按钮。    
+    有时你并不关心滚动条，但希望仪表板能横向填充整个可用空间。 选择“适应宽度”  按钮。    
 
     ![适应屏幕图标](media/end-user-focus/power-bi-fit-to-width-new.png)
 
   * ![报表导航图标](media/end-user-focus/power-bi-report-nav2.png)       
     在全屏显示的报表中，使用这些箭头在报表页之间移动。    
-  * 若要退出全屏模式，请选择“退出全屏”图标。
+  * 若要退出全屏模式，请选择“退出全屏”  图标。
 
       ![“退出全屏”图标](media/end-user-focus/exit-fullscreen-new.png)
 
@@ -92,7 +92,7 @@ ms.locfileid: "56662034"
 ### <a name="focus-mode-in-dashboards"></a>仪表板中的焦点模式
 1. 在 Power BI 服务中打开仪表板。
 
-2. 将鼠标悬停在仪表板磁贴或报表可视化效果上，选择省略号 (...)，然后选择“以焦点模式打开”。
+2. 将鼠标悬停在仪表板磁贴或报表可视化效果上，选择省略号 (...)，然后选择“以焦点模式打开”  。
 
     ![磁贴的省略号菜单](media/end-user-focus/power-bi-dashboard-focus-mode.png)。
 
@@ -106,7 +106,7 @@ ms.locfileid: "56662034"
 
 4. 通过[修改筛选器](end-user-report-filter.md)并在数据中查找感兴趣的发现浏览更多内容。  
 
-5. 通过选择“退出焦点模式”（位于视觉对象左上角），退出焦点模式并返回仪表板。
+5. 通过选择“退出焦点模式”  （位于视觉对象左上角），退出焦点模式并返回仪表板。
 
     ![退出焦点模式](media/end-user-focus/power-bi-tile-exit-focus.png)    
 
@@ -114,19 +114,19 @@ ms.locfileid: "56662034"
 ## <a name="focus-mode-for-report-visualizations"></a>报表可视化效果的焦点模式
 1. 在 Power BI 服务中打开报表。  在本例中，我们将演示如何使用零售分析示例。
 
-1. 打开报表后，选择“地区每月销售额”选项卡。
+1. 打开报表后，选择“地区每月销售额”  选项卡。
 
-2. 将鼠标悬停在左下角的区域图表上，并选择“焦点模式”图标 ![焦点模式图标](media/end-user-focus/pbi_popout.jpg)。  
+2. 将鼠标悬停在左下角的区域图表上，并选择“焦点模式”  图标 ![焦点模式图标](media/end-user-focus/pbi_popout.jpg)。  
 
    ![焦点图标显示在磁贴上](media/end-user-focus/power-bi-hover-focus.png)
 2. 此可视化效果随即打开并填充整个画布。
 
    ![焦点模式下的视觉对象](media/end-user-focus/power-bi-display-focus-newer2.png)
-3. 可以选择展开“筛选器”窗格，与应用于此视觉对象的筛选器进行交互。 深入探究数据，寻找新的见解和问题的答案。 作为使用者，无法添加新筛选器、更改可视化效果中使用的字段或创建新的可视化效果。  但是，退出 Power BI 时会保存对现有筛选器所做的任何修改。 如果不希望 Power BI 记住你的修改，可选择“重置为默认值”。 ![“重置为默认值”按钮](media/end-user-focus/power-bi-resets.png)  
+3. 可以选择展开“筛选器”窗格，与应用于此视觉对象的筛选器进行交互。 深入探究数据，寻找新的见解和问题的答案。 作为使用者  ，无法添加新筛选器、更改可视化效果中使用的字段或创建新的可视化效果。  但是，退出 Power BI 时会保存对现有筛选器所做的任何修改。 如果不希望 Power BI 记住你的修改，可选择“重置为默认值”  。 ![“重置为默认值”按钮](media/end-user-focus/power-bi-resets.png)  
 
    ![“筛选器”屏幕的焦点模式](media/end-user-focus/power-bi-display-focus-filters3.png)
 
-5. 通过选择“返回报表”（位于视觉对象左上角），退出焦点模式并返回报表。
+5. 通过选择“返回报表”  （位于视觉对象左上角），退出焦点模式并返回报表。
 
     ![退出焦点模式](media/end-user-focus/power-bi-exit-focus-report.png)  
 

@@ -1,3 +1,11 @@
+---
+ms.openlocfilehash: 9aac366f04d53da56b62c10fdb85229d0d412834
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61396216"
+---
 当你将 *日期* 字段添加到 *轴* 字段存储桶的视觉对象中时，Power BI 会自动添加时间层次结构，其中包括 *年* 、 *季度* 、 *月* 和 *天* 。 通过执行此操作，让用户向下钻取这些不同的时间级别，Power BI 可使你的视觉对象与查看你报表的用户进行基于时间的交互。
 
 ![](media/3-11g-visual-hierarchies-drilling/3-11g_1.png)

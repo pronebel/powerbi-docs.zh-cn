@@ -1,20 +1,20 @@
 ---
 title: 对 Power BI 报表服务器中的计划刷新进行故障排除
 description: 本文将讨论可用于解决 Power BI 报表服务器中计划刷新问题的资源。
-author: markingmyname
+author: mgblythe
 manager: kfile
-ms.reviewer: ''
+ms.reviewer: kayu
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 11/01/2017
-ms.author: maghan
-ms.openlocfilehash: e829d0cf174cc81148287ce1b25449246300606c
-ms.sourcegitcommit: 5e83fa6c93a0bc6599f76cc070fb0e5c1fce0082
-ms.translationtype: HT
+ms.author: mblythe
+ms.openlocfilehash: f4638250cb2ae245dc9ce222e43c7a87de6e395d
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/13/2019
-ms.locfileid: "56216691"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61200279"
 ---
 # <a name="troubleshoot-scheduled-refresh-in-power-bi-report-server"></a>对 Power BI 报表服务器中的计划刷新进行故障排除
 本文将讨论可用于解决 Power BI 报表服务器中计划刷新问题的资源。
@@ -125,11 +125,11 @@ C:\Program Files\Microsoft Power BI Report Server\PBIRS\LogFiles\RSPowerBI_*.log
 在 Power BI 报表服务器中启用详细日志记录与 SQL Server Reporting Services 相同。
 
 1. 打开 `<install directory>\PBIRS\ReportServer\bin\ReportingServicesService.exe.config`。
-2. 在 `<system.diagnostics>` 下，将 DefaultTraceSwitch 更改为 4。
-3. 在 `<RStrace>` 下，将 Components 更改为 all:4。 
+2. 在 `<system.diagnostics>` 下，将 DefaultTraceSwitch 更改为 4。  
+3. 在 `<RStrace>` 下，将 Components 更改为 all:4。   
 
 ### <a name="executionlog"></a>ExecutionLog
-每当呈现 Power BI 报表或执行计划刷新计划时，都会向数据库中的执行日志添加新条目。 这些条目可在报表服务器目录数据库内的 ExecutionLog3 视图中查看。
+每当呈现 Power BI 报表或执行计划刷新计划时，都会向数据库中的执行日志添加新条目。 这些条目可在报表服务器目录数据库内的 ExecutionLog3  视图中查看。
 
 Power BI 报表的执行日志条目不同于其他报表类型的条目。
 
@@ -158,9 +158,9 @@ Power BI 报表服务器和 Analysis Services 的默认位置如下所示。
 `C:\Program Files\Microsoft Power BI Report Server\PBIRS\ASEngine`
 
 ### <a name="configuring-analysis-services-settings-msmdsrvini"></a>配置 Analysis Services 设置 (msmdsrv.ini)
-在 `<install directory>\PBIRS\ASEngine` 目录中，将会找到 msmdsrv.ini 文件，其可用于控制 Analysis Services 的不同设置。 打开此文件时，你会很快意识到此文件并没有你所期望的 msmdsrv.ini 文件中的所有设置。 
+在 `<install directory>\PBIRS\ASEngine` 目录中，将会找到 msmdsrv.ini  文件，其可用于控制 Analysis Services 的不同设置。 打开此文件时，你会很快意识到此文件并没有你所期望的 msmdsrv.ini 文件中的所有设置。 
 
-这是因为在 `<install directory>\PBIRS\ASEngine\workspaces` 中启动了由 Power BI 报表服务器运行的实际 Analysis Services 进程。 在该文件夹中，你将看到经常使用的完整 msmdsrv.ini 文件。 重要的是不要修改工作区文件夹内的文件，因为每当 Analysis Services 进程启动时都会重写该文件。 如果你想要控制设置，请通过修改 `<install directory>\PBIRS\ASEngine` 目录中的 msmdsrv.ini 来实现。
+这是因为在 `<install directory>\PBIRS\ASEngine\workspaces` 中启动了由 Power BI 报表服务器运行的实际 Analysis Services 进程。 在该文件夹中，你将看到经常使用的完整 msmdsrv.ini  文件。 重要的是不要修改工作区文件夹内的文件，因为每当 Analysis Services 进程启动时都会重写该文件。 如果你想要控制设置，请通过修改 `<install directory>\PBIRS\ASEngine` 目录中的 msmdsrv.ini 来实现。
 
 每当启动 Analysis Services 进程时，都会重置以下设置。 你对这些设置进行的任何更改都将被忽略。
 
@@ -183,13 +183,13 @@ SQL 事件探查器跟踪可以在本地 Analysis Services 进程上运行，以
 
 SQL Server Profiler 跟踪包含在 [SQL Server Management Studio (SSMS) 下载](https://docs.microsoft.com/sql/ssms/download-sql-server-management-studio-ssms)中。
 
-1. 以管理员身份启动 SQL Server Profiler。
-2. 选择“新建跟踪”按钮。
-3. 在“连接到服务器”对话框中，选择“Analysis Services”，然后输入 localhost:5132 作为服务器名。
-4. 在“跟踪属性”对话框中，选择要捕获的事件，然后选择“运行”。
+1. 以管理员身份启动 SQL Server Profiler  。
+2. 选择“新建跟踪”  按钮。
+3. 在“连接到服务器”  对话框中，选择“Analysis Services”  ，然后输入 localhost:5132  作为服务器名。
+4. 在“跟踪属性”  对话框中，选择要捕获的事件，然后选择“运行”  。
 
 ## <a name="lock-pages-in-memory-windows-privilege"></a>锁定内存页 Windows 特权
-如果发现无法呈现 Power BI 报表，则可将“锁定内存页”特权分配给正在运行 Power BI 报表服务器的服务帐户可能会有所帮助。 有关如何配置“锁定内存页”的详细信息，请参阅[分配给 Analysis Services 服务帐户的 Windows 特权](https://docs.microsoft.com/sql/analysis-services/instances/configure-service-accounts-analysis-services#bkmk_winpriv)。
+如果发现无法呈现 Power BI 报表，则可将“锁定内存页”  特权分配给正在运行 Power BI 报表服务器的服务帐户可能会有所帮助。 有关如何配置“锁定内存页”  的详细信息，请参阅[分配给 Analysis Services 服务帐户的 Windows 特权](https://docs.microsoft.com/sql/analysis-services/instances/configure-service-accounts-analysis-services#bkmk_winpriv)。
 
 更多问题？ [尝试咨询 Power BI 社区](https://community.powerbi.com/)
 

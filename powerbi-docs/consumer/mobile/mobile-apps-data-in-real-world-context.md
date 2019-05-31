@@ -10,11 +10,11 @@ ms.topic: conceptual
 ms.date: 03/13/2018
 ms.author: mshenhav
 ms.openlocfilehash: bc3b6bdab9c0d02b3cc0fe5be4aa1052377e2c88
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54275401"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61338364"
 ---
 # <a name="get-data-from-the-real-world-with-the-power-bi-mobile-apps"></a>使用 Power BI 移动应用获取实际数据
 通过几种不同的方式，Power BI 移动应用可以直接将现实生活连接到相关 BI 信息。 

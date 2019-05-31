@@ -11,29 +11,29 @@ ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Learn more
 ms.openlocfilehash: af5298e548af6a4019cbd5c1bcb1ad9676923d9b
-ms.sourcegitcommit: 10a87c016f497dbeba32f94ed1f3688a70816fea
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/09/2019
+ms.lasthandoff: 05/29/2019
 ms.locfileid: "65514488"
 ---
 # <a name="power-bi-desktop-send-a-smile-privacy-statement"></a>Power BI Desktop“发送微笑”隐私声明
 
-自 Power BI Desktop 的 2018 年 3 月版起，错误报告使用 Windows 错误报告平台，而不是“发送微笑”/“发送哭脸”功能。 有关 Windows 错误报告平台的详细信息，可查看 [Windows 隐私博客](https://blogs.windows.com/windowsexperience/2018/01/24/microsoft-introduces-new-privacy-tools-ahead-of-data-privacy-day/)。 
+自 Power BI Desktop 的 2018 年 3 月版起，错误报告使用 Windows 错误报告平台，而不是“发送微笑”/“发送哭脸”功能    。 有关 Windows 错误报告平台的详细信息，可查看 [Windows 隐私博客](https://blogs.windows.com/windowsexperience/2018/01/24/microsoft-introduces-new-privacy-tools-ahead-of-data-privacy-day/)。 
 
 ## <a name="for-versions-of-power-bi-desktop-prior-to-march-2018"></a>对于 2018 年 3 月之前的 Power BI Desktop 版本
 
-在 Microsoft，我们正在努力保护你的隐私，同时交付可提供你所需性能、功能和便利性的产品。 本隐私声明介绍了很多数据集合及 Microsoft Power BI Desktop 发送微笑反馈的使用惯例。 它不适用于其他联机或脱机 Microsoft 站点、产品或服务。
+在 Microsoft，我们正在努力保护你的隐私，同时交付可提供你所需性能、功能和便利性的产品。 本隐私声明介绍了很多数据集合及 Microsoft Power BI Desktop 发送微笑反馈的使用惯例。  它不适用于其他联机或脱机 Microsoft 站点、产品或服务。
 
-除非本声明中另行规定，否则发送微笑不会向 Microsoft 发送个人信息。 未经你的允许，发送至 Microsoft 的信息不会与 Microsoft 及其受控子公司和关联公司之外的机构进行共享。
+除非本声明中另行规定，否则发送微笑不会向 Microsoft 发送个人信息。  未经你的允许，发送至 Microsoft 的信息不会与 Microsoft 及其受控子公司和关联公司之外的机构进行共享。
 
-通过 Power BI Desktop 的发送微笑功能，你可以随附反馈发送一个电子邮件地址。 此电子邮件用于在 Microsoft 就你的请求需要进一步的信息或说明时与你取得联系。 你无需向 Microsoft 注册电子邮件地址即可使用发送微笑功能。
+通过 Power BI Desktop 的发送微笑功能，你可以随附反馈发送一个电子邮件地址。  此电子邮件用于在 Microsoft 就你的请求需要进一步的信息或说明时与你取得联系。 你无需向 Microsoft 注册电子邮件地址即可使用发送微笑功能。 
 
-通过Power BI Desktop 的发送微笑功能，你可以向 Microsoft 发送反馈，并在需要时随附多张屏幕截图来显示你具有的特定补充或担忧。 虽然发送微笑不会有意收集个人身份信息，但可能在你提供的反馈或屏幕截图中捕获到此类信息。 Microsoft 不会使用此信息来识别你的身份。
+通过Power BI Desktop 的发送微笑功能，你可以向 Microsoft 发送反馈，并在需要时随附多张屏幕截图来显示你具有的特定补充或担忧。  虽然发送微笑不会有意收集个人身份信息，但可能在你提供的反馈或屏幕截图中捕获到此类信息。  Microsoft 不会使用此信息来识别你的身份。
 
-发送微笑功能会自动收集有关系统配置的部分信息、标准计算机信息，以及有关如何使用 Microsoft 产品的基本信息。 此信息将在你选择发送反馈时进行发送。
+发送微笑功能会自动收集有关系统配置的部分信息、标准计算机信息，以及有关如何使用 Microsoft 产品的基本信息。  此信息将在你选择发送反馈时进行发送。
 
-发送微笑功能通常会收集下述相关信息：
+发送微笑功能通常会收集下述相关信息： 
 
 * 系统配置，如所使用的操作系统版本和体系结构（32 位与64 位）。
 * 标准计算机信息，如你正在使用的 Power BI Desktop、Internet Explorer 版本和 CLR 版本。
@@ -60,7 +60,7 @@ Microsoft 可能出于以下目的访问或披露有关你的信息，包括你�
 * 保护 Microsoft 或其客户的权利或财产，包括实施可管理服务使用情况的协议或策略
 * 有充分理由相信保护 Microsoft 员工、客户或公众的人身安全需要此类访问或披露时采用这种行动
 
-Microsoft 收集或发送微笑功能发送至 Microsoft 的信息可能在美国或者 Microsoft 或其子公司、附属机构或服务提供商维护设施所在的任何其他国家/地区进行存储和处理。 Microsoft 遵守由美国商务部就来自欧盟数据的收集、使用和保留所做出的安全庇护规定。
+Microsoft 收集或发送微笑功能发送至 Microsoft 的信息可能在美国或者 Microsoft 或其子公司、附属机构或服务提供商维护设施所在的任何其他国家/地区进行存储和处理。  Microsoft 遵守由美国商务部就来自欧盟数据的收集、使用和保留所做出的安全庇护规定。
 
 ## <a name="security-of-your-information"></a>你信息的安全性
 Microsoft 致力于保护你的个人信息的安全。 我们采用各种安全技术和过程来帮助保护你的个人信息免受未经授权的访问、使用或泄漏。

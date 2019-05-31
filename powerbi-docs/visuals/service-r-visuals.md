@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 02/19/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 1e997f5ac7e916f10c98756f142b9f563adea05a
-ms.sourcegitcommit: 654fae0af739bd599e029d692f142faeba0a502f
-ms.translationtype: HT
+ms.openlocfilehash: 587cc5b5d81ca57e809a3973c700c71a214dc045
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/20/2019
-ms.locfileid: "56426599"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61389215"
 ---
 # <a name="creating-r-visuals-in-the-power-bi-service"></a>在 Power BI 服务中创建 R 视觉对象
 Power BI 服务支持查看使用 R 脚本创建的视觉对象并与之交互。 使用 R 脚本创建的视觉对象通常称为  *R 视觉对象* ，它可以借助 R 丰富的分析和可视化功能来显示高级数据成型和分析（如预测）。
@@ -33,7 +33,7 @@ R 视觉对象在 [Power BI Desktop 报表](../desktop-get-the-desktop.md)中创
 
 ![](media/service-r-visuals/r-visuals-service_2a.png)
 
-在 **Power BI Desktop** 中生成报表后，便可将包含一个或多个 R 视觉对象的报表发布到 Power BI 服务。 R 视觉对象暂时只能在 Power BI Desktop 中创建，然后发布到 Power BI 服务。 有关创建 R 视觉对象的详细信息，请参阅[使用 R (Power BI Desktop) 创建 Power BI 视觉对象](../desktop-r-visuals.md)。
+在 **Power BI Desktop** 中生成报表后，便可将包含一个或多个 R 视觉对象的报表发布到 Power BI 服务。 R 视觉对象暂时只能在 Power BI Desktop  中创建，然后发布到 Power BI 服务。 有关创建 R 视觉对象的详细信息，请参阅[使用 R (Power BI Desktop) 创建 Power BI 视觉对象](../desktop-r-visuals.md)。
 
 请注意，该服务并不支持所有 R 程序包。 有关 Power BI 服务当前支持的程序包的列表，请参阅本文末尾的“支持的程序包”。
 
@@ -55,7 +55,7 @@ Power BI 服务应用了 *沙盒* 技术，可使用户和服务远离安全风�
 这种 *沙盒* 方法会对 Power BI 服务中运行的 R 脚本施加一些限制，例如不能访问 Internet，或者不能访问创建 R 视觉对象时无需使用的其他资源。
 
 ## <a name="r-scripts-error-experience"></a>R 脚本错误体验
-如果 R 脚本发生错误，则不会绘制 R 视觉对象，并且将显示一条错误消息。 若要查看该错误的详细信息，请从画布上的 R 视觉对象错误中选择“查看详细信息”，如下图所示。
+如果 R 脚本发生错误，则不会绘制 R 视觉对象，并且将显示一条错误消息。 若要查看该错误的详细信息，请从画布上的 R 视觉对象错误中选择“查看详细信息”  ，如下图所示。
 
 ![](media/service-r-visuals/r-visuals-service_4.png)
 
@@ -64,7 +64,7 @@ Power BI 服务应用了 *沙盒* 技术，可使用户和服务远离安全风�
 ![](media/service-r-visuals/r-visuals-service_5.png)
 
 ## <a name="licensing"></a>许可
-R 视觉对象需要 [Power BI Pro](../service-self-service-signup-for-power-bi.md) 许可证，才能在报表中呈现、刷新、筛选和交叉筛选。 有关 Power BI Pro 许可证及其与免费许可证的区别的详细信息，请参阅 [Power BI Pro 内容 — 它是什么？](../service-premium.md)
+R 视觉对象需要 [Power BI Pro](../service-self-service-signup-for-power-bi.md) 许可证，才能在报表中呈现、刷新、筛选和交叉筛选。 有关 Power BI Pro 许可证及其与免费许可证的区别的详细信息，请参阅 [Power BI Pro 内容 — 它是什么？](../service-premium-what-is.md)
 
 Power BI 的免费用户只能使用在 Premium 工作区中与其共享的磁贴。 有关详细信息，请参阅[购买 Power BI Pro](../service-admin-purchasing-power-bi-pro.md)。
 
@@ -75,8 +75,8 @@ Power BI 的免费用户只能使用在 Premium 工作区中与其共享的磁�
 |---------|---------|---------|---------|--------|
 |**来宾** (Power BI Embedded)     |  不相关|  不相关       | 不支持  | 不相关 |
 |**非托管租户**（域未验证） | 支持 | 不支持 |  不支持 |支持（B2B 方案） |
-|具有免费许可证的托管租户    |  支持       |  不支持       |    仅高级容量中受支持    | 支持 |
-具有 Pro 许可证的托管租户     |   支持      | 支持      | 支持    |支持|
+|具有免费许可证的托管租户     |  支持       |  不支持       |    仅高级容量中受支持    | 支持 |
+具有 Pro 许可证的托管租户      |   支持      | 支持      | 支持    |支持|
 
 
 
@@ -89,7 +89,7 @@ Power BI 服务中的 R 视觉对象有几个限制：
 * R 视觉对象在数据更新、筛选和突出显示时进行刷新。 但是，图像本身不可交互，并且不支持工具提示。
 * R 视觉对象响应突出显示的其他视觉对象，但你不能单击 R 视觉对象中的元素以进行其他元素的交叉筛选。
 * R 视觉对象目前不支持 *时间* 数据类型。 请改为使用日期/时间。
-* 使用“发布到 Web”时，不会显示 R 视觉对象。
+* 使用“发布到 Web”  时，不会显示 R 视觉对象。
 * R 视觉对象目前不会随仪表板和报表一起打印
 * Analysis Services 的 DirectQuery 模式目前不支持 R 视觉对象
 * 中文、日语和朝鲜语字体需要执行以下所有附加步骤才能在 Power BI 服务中正常工作：

@@ -12,11 +12,11 @@ ms.date: 09/27/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
 ms.openlocfilehash: 3835bedc1b4ab2df87abf4704ef338ff7f4abc5d
-ms.sourcegitcommit: 5e83fa6c93a0bc6599f76cc070fb0e5c1fce0082
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/13/2019
-ms.locfileid: "56215035"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61392918"
 ---
 # <a name="waterfall-charts-in-power-bi"></a>Power BI 中的瀑布图
 瀑布图显示随着值的增加或减少的不断变化的总数。 该图对于了解一系列正值和负值更改如何影响初始值（例如，净收益）很有用。
@@ -37,7 +37,7 @@ ms.locfileid: "56215035"
 ## <a name="create-a-waterfall-chart"></a>创建瀑布图
 我们将创建按月显示销售差额（比较估计销售额与实际销售额）的瀑布图。 要遵循示例执行操作，请登录到 Power BI，然后选择**获取数据 \> 示例 \> 零售分析示例** 。 
 
-1. 选择“数据集”选项卡并滚动到新的“零售分析示例”数据集。  选择“创建报表”图标，在报表编辑视图中打开数据集。 
+1. 选择“数据集”  选项卡并滚动到新的“零售分析示例”数据集。  选择“创建报表”  图标，在报表编辑视图中打开数据集。 
    
     ![突出显示的数据集选项卡](media/power-bi-visualization-waterfall-charts/power-bi-waterfall-report.png)
 2. 从**字段**窗格，选择**销售额 \> 总销售差额**。 
@@ -47,15 +47,15 @@ ms.locfileid: "56215035"
 4. 选择**时间** \> **财月**以将它添加到**类别**框。 
    
     ![瀑布图](media/power-bi-visualization-waterfall-charts/power-bi-waterfall.png)
-5. 按时间顺序对瀑布图排序。 在图表右上角选择省略号 (...)，然后选择“财月”。
+5. 按时间顺序对瀑布图排序。 在图表右上角选择省略号 (...)，然后选择“财月”  。
    
     ![选择按会计月排序](media/power-bi-visualization-waterfall-charts/power-bi-sort-by.png)
    
     ![新升序排序的结果](media/power-bi-visualization-waterfall-charts/power-bi-waterfall-sorted.png)
-6. 进一步了解每月发生变化的最主要原因。 将“应用商店” > “区域”拖动到“细目”桶中。
+6. 进一步了解每月发生变化的最主要原因。 将“应用商店”   > “区域”  拖动到“细目”  桶中。
    
     ![显示明细存储桶中的存储](media/power-bi-visualization-waterfall-charts/power-bi-waterfall-breakdown.png)
-7. 默认情况下，Power BI 按月将前 5 个地区添加到增加结果或减少结果中。 但我们只关注前 2 个地区。  在“格式设置”窗格中，选择“细目”，并将“最大值”设置为 2。
+7. 默认情况下，Power BI 按月将前 5 个地区添加到增加结果或减少结果中。 但我们只关注前 2 个地区。  在“格式设置”窗格中，选择“细目”  ，并将“最大值”  设置为 2。
    
     ![格式设置 > 明细](media/power-bi-visualization-waterfall-charts/power-bi-waterfall-breakdown-maximum.png)
    

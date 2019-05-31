@@ -1,3 +1,11 @@
+---
+ms.openlocfilehash: cff8e70e43496b264fd0dd549759f939bf90e33f
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61271230"
+---
 在本主题中，我们将首先了解一下如何将包含简单**表**的 Excel 工作簿文件从本地驱动器导入 Power BI。 然后了解如何通过在 Power BI 中创建报表开始浏览该表的数据。
 
 ## <a name="make-sure-your-data-is-formatted-as-a-table"></a>确保数据已格式化为表格

@@ -11,11 +11,11 @@ ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
 ms.openlocfilehash: 2a19cc832f7e03acfd224c6ab2409016ce8da770
-ms.sourcegitcommit: 750f0bfab02af24c8c72e6e9bbdd876e4a7399de
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/04/2019
-ms.locfileid: "54008713"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61179690"
 ---
 # <a name="connect-to-appfigures-with-power-bi"></a>使用 Power BI 连接到 appFigures
 可使用 Power BI 和 appFigures 内容包轻松地跟踪有关应用的重要统计信息。 Power BI 会检索数据（包括应用销售量、下载量和广告统计信息），然后生成默认仪表板以及基于该数据的相关报表。
@@ -32,7 +32,7 @@ ms.locfileid: "54008713"
 3. 选择 **appFigures** \> **获取**。
    
    ![](media/service-connect-to-appfigures/appfigures.png)
-4. 对于**身份验证方法**，选择\>oAuth2  **登录**。 出现提示时，输入 appFigures 凭据，然后按照 appFigures 身份验证过程执行。
+4. 对于**身份验证方法**，选择\>oAuth2   **登录**。 出现提示时，输入 appFigures 凭据，然后按照 appFigures 身份验证过程执行。
    
    首次连接时，Power BI 会提示你允许对你的帐户进行只读访问。 选择**允许**以开始导入过程。 这可能需要几分钟时间，具体取决于你帐号中的数据量。
    
@@ -49,7 +49,7 @@ ms.locfileid: "54008713"
 * 尝试在仪表板顶部的[在“问答”框中提问](consumer/end-user-q-and-a.md)
 * 在仪表板中[更改磁贴](service-dashboard-edit-tile.md)。
 * [选择磁贴](consumer/end-user-tiles.md)以打开基础报表。
-* 虽然数据集将按计划每日刷新，但你可以更改刷新计划或根据需要使用“立即刷新”来尝试刷新
+* 虽然数据集将按计划每日刷新，但你可以更改刷新计划或根据需要使用“立即刷新”  来尝试刷新
 
 ## <a name="whats-included"></a>包含的内容
 在 Power BI 中 appFigures 提供以下数据：

@@ -10,11 +10,11 @@ ms.subservice: powerbi-custom-visuals
 ms.topic: conceptual
 ms.date: 03/10/2019
 ms.openlocfilehash: cf9a613e82b4f5b7ce9cc67f5b920760d01ccbf7
-ms.sourcegitcommit: 39bc75597b99bc9e8d0a444c38eb02452520e22b
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/25/2019
-ms.locfileid: "58430291"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61342653"
 ---
 # <a name="guidelines-for-power-bi-visuals"></a>Power BI 视觉对象指南
 
@@ -36,7 +36,7 @@ ms.locfileid: "58430291"
 
 ## <a name="what-is-a-power-bi-visual-with-iap-features"></a>什么是具有 IAP 功能的 Power BI 视觉对象？
 
-IAP 视觉对象是一个免费的视觉对象，可提供免费功能。 它还有一些高级功能，可能需要支付额外费用才能使用这些功能。 在视觉对象的描述中，开发人员必须告知用户哪些功能需要额外付费。 目前，Microsoft 不提供支持购买应用和加载项的本机 API。
+IAP 视觉对象是一个免费的视觉对象，可提供免费功能   。 它还有一些高级功能，可能需要支付额外费用才能使用这些功能。 在视觉对象的描述中，开发人员必须告知用户哪些功能需要额外付费。 目前，Microsoft 不提供支持购买应用和加载项的本机 API。
 
 开发人员可使用各种第三方支付系统进行购买。 有关详细信息，请参阅[我们的应用商店策略](https://docs.microsoft.com/office/dev/store/validation-policies#2-apps-or-add-ins-can-display-certain-ads)。
 
@@ -48,7 +48,7 @@ IAP 视觉对象是一个免费的视觉对象，可提供免费功能。 它还
 本部分介绍了在视觉对象中添加徽标和标识的规范。
 
 > [!IMPORTANT]
-> 仅允许在编辑模式下使用徽标。 无法在查看模式下显示徽标。
+> 仅允许在编辑模式下使用徽标  。 无法在查看模式下显示徽标  。
 
 ![定义](media/guidelines-powerbi-visuals/definitions.png)
 

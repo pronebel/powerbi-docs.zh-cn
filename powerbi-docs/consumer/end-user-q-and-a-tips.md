@@ -12,17 +12,17 @@ ms.date: 12/06/2018
 ms.author: mihart
 LocalizationGroup: Ask questions of your data
 ms.openlocfilehash: 97beaa749855d29f0ac559776a99f4be851489fb
-ms.sourcegitcommit: a054782370dec56d49bb205ee10b7e2018f22693
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/22/2019
-ms.locfileid: "56662248"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61048125"
 ---
 # <a name="tips-for-asking-questions-in-power-bi-qa"></a>在 Power BI 问答中提问的提示
 ## <a name="words-and-terminology-that-qa-recognizes"></a>“问答”识别的单词和术语
 此页上的关键字列表并不详尽。  查看 Power BI 是否识别某个关键字的最佳方法是通过在问题框中键入此关键字来进行试验。  如果字词或术语灰显，则 Power BI 无法识别。
 
-下面的列表使用现在时，但在大多数情况下能识别所有时态。 例如，“is”包括：“are”、“was”、“were”、“will be”、“have”、“has”、“had”、“will have”、“has got”、“do”、“does”、“did”。  “sort”包括：“sorted”和“sorting”。  此外，Power BI 识别并包含某个词的单数和复数形式。 
+下面的列表使用现在时，但在大多数情况下能识别所有时态。 例如，“is”包括：“are”、“was”、“were”、“will be”、“have”、“has”、“had”、“will have”、“has got”、“do”、“does”、“did”。              “sort”包括：“sorted”和“sorting”。    此外，Power BI 识别并包含某个词的单数和复数形式。 
 
 > [!NOTE]
 > [iPad、iPhone 和 iPod Touch 设备上的 iOS 版 Microsoft Power BI 应用](mobile/mobile-apps-ios-qna.md)也支持问答。

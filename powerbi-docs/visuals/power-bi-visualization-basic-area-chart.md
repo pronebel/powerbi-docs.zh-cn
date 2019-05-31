@@ -11,11 +11,11 @@ ms.date: 09/24/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
 ms.openlocfilehash: 02d81a4ebb92ec199887109c7f2d9afcb6449eda
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54276114"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61393166"
 ---
 # <a name="basic-area-chart"></a>基本分区图
 基本面积图（又称为分层分区图）基于折线图。 轴和行之间的区域使用颜色进行填充以指示量。 
@@ -34,7 +34,7 @@ ms.locfileid: "54276114"
  - Power BI 服务
  - 零售分析示例
 
-若要跟着介绍一起操作，请登录 Power BI，并依次选择“获取数据”\>“示例”\>“零售分析示例”>“连接”，再选择“转至仪表板”。 
+若要跟着介绍一起操作，请登录 Power BI，并依次选择“获取数据”\>“示例”\>“零售分析示例”>“连接”  ，再选择“转至仪表板”  。 
 
 ## <a name="create-a-basic-area-chart"></a>创建基本面积图
  
@@ -44,7 +44,7 @@ ms.locfileid: "54276114"
 3. 选择报表底部的黄色加号图标 (+)，添加新报表页。
 4. 创建按月显示本年度销售额和去年销售额的面积图。
    
-   a. 在“字段”窗格中，依次选择“销售额”\>“去年销售额”，再依次选择“今年销售额”>“值”。
+   a. 在“字段”窗格中，依次选择“销售额”\>“去年销售额”  ，再依次选择“今年销售额”>“值”  。
 
    ![](media/power-bi-visualization-basic-area-chart/power-bi-bar-chart.png)
 
@@ -52,10 +52,10 @@ ms.locfileid: "54276114"
 
    ![](media/power-bi-visualization-basic-area-chart/convertchart.png)
    
-   c.  选择“时间”\>“月份”以将其添加到“轴”框。   
+   c.  选择“时间”\>“月份”  以将其添加到“轴”  框。   
    ![](media/power-bi-visualization-basic-area-chart/powerbi-area-chartnew.png)
    
-   d.  若要按月显示图表，请选择“省略号”（视觉对象的右上角）并选择“按月排序”。 要更改排序顺序，请再次选择省略号并选择“升序排序”或“降序排序”。
+   d.  若要按月显示图表，请选择“省略号”（视觉对象的右上角）并选择“按月排序”  。 要更改排序顺序，请再次选择省略号并选择  “升序排序”或“降序排序”  。
 
 ## <a name="highlighting-and-cross-filtering"></a>突出显示和交叉筛选
 有关使用筛选器窗格的信息，请参阅[向报表添加筛选器](../power-bi-report-add-filter.md)。

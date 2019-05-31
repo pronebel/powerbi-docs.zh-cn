@@ -11,11 +11,11 @@ ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
 ms.openlocfilehash: 4131758dad29b28de56e3ac450bed22d64c25e46
-ms.sourcegitcommit: 80961ace38ff9dac6699f81fcee0f7d88a51edf4
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/13/2019
-ms.locfileid: "56223780"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61172694"
 ---
 # <a name="connect-to-marketo-with-power-bi"></a>使用 Power BI 连接到 Marketo
 使用 Power BI 的 Marketo 内容包，你可以通过有关潜在客户的数据及其活动，深入了解 Marketo 帐户。创建此连接将检索数据，并自动提供以该数据为基础的仪表板和相关报表。
@@ -41,7 +41,7 @@ ms.locfileid: "56223780"
    
    ![](media/service-connect-to-marketo/pbi_marketosignin.png)
    
-   这样，Power BI 的 Marketo 内容包将有权访问 [Marketo 分析](https://powerbi.microsoft.com/integrations/marketo)数据，你也能在 Power BI 中分析数据。 数据会每天刷新一次。
+   这样，Power BI 的 Marketo  内容包将有权访问 [Marketo 分析](https://powerbi.microsoft.com/integrations/marketo)数据，你也能在 Power BI 中分析数据。 数据会每天刷新一次。
 6. 连接到 Marketo 帐户后，将加载具有所有数据的仪表板：
    
    ![](media/service-connect-to-marketo/pbi_marketodash.png)
@@ -51,7 +51,7 @@ ms.locfileid: "56223780"
 * 尝试在仪表板顶部的[在“问答”框中提问](consumer/end-user-q-and-a.md)
 * 在仪表板中[更改磁贴](service-dashboard-edit-tile.md)。
 * [选择磁贴](consumer/end-user-tiles.md)以打开基础报表。
-* 虽然数据集将按计划每日刷新，但你可以更改刷新计划或根据需要使用“立即刷新”来尝试刷新
+* 虽然数据集将按计划每日刷新，但你可以更改刷新计划或根据需要使用“立即刷新”  来尝试刷新
 
 ## <a name="whats-included"></a>包含的内容
 对于过去一年间发生的活动，Marketo 可在 Power BI 中提供以下数据：

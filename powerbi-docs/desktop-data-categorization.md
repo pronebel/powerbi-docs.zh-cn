@@ -11,10 +11,10 @@ ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Model your data
 ms.openlocfilehash: 5b6bbf7a203d8e87d129b6336be4f4531ae34107
-ms.sourcegitcommit: 2116af72f435cd30f1401bb9c7afdcbc76b1c3ce
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/09/2019
+ms.lasthandoff: 05/29/2019
 ms.locfileid: "65454486"
 ---
 # <a name="data-categorization-in-power-bi-desktop"></a>Power BI Desktop 中的数据分类
@@ -33,7 +33,7 @@ Power BI Desktop 应该将 GeoCode 列中的代码视为国家/地区或美国�
 **指定数据类别**
 
 1. 在“报表视图”或“数据视图”中的**字段**列表中，选择你想要按不同的分类进行排序的字段。
-2. 在功能区的“建模”选项卡上，单击“数据类别:”下拉列表。  这将显示你可以从列中选择的数据类别列表。  如果某些选项不适用于列的当前数据类型，它们可能会被禁用。  例如，如果列为二进制数据类型，Power BI Desktop 将不允许你选择地理数据类别。 
+2. 在功能区的“建模”选项卡上，单击“数据类别:”下拉列表   。  这将显示你可以从列中选择的数据类别列表。  如果某些选项不适用于列的当前数据类型，它们可能会被禁用。  例如，如果列为二进制数据类型，Power BI Desktop 将不允许你选择地理数据类别。 
 
 ![](media/desktop-data-categorization/datacategorization.gif)
 

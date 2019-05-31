@@ -11,11 +11,11 @@ ms.date: 06/23/2018
 ms.author: maggies
 LocalizationGroup: Samples
 ms.openlocfilehash: 58c5063796a575498ab1c402f0be6aa2492e9060
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54289224"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61233883"
 ---
 # <a name="sales-and-marketing-sample-for-power-bi-take-a-tour"></a>Power BI 销售与市场营销示例：参观
 
@@ -41,7 +41,7 @@ VanArsdel 有许多竞争对手，但仍是业内的市场领导者。 CMO 想�
 3. 在显示的“获取数据”页上选择“**示例**”图标。
    
    ![](media/sample-datasets/power-bi-samples-icon.png)
-4. 依次选择“销售和市场营销示例”和“连接”。  
+4. 依次选择“销售和市场营销示例”  和“连接”  。  
   
    ![销售和市场营销示例](media/sample-sales-and-marketing/sales9.png)
    
@@ -56,7 +56,7 @@ VanArsdel 有许多竞争对手，但仍是业内的市场领导者。 CMO 想�
  * [销售和市场营销示例](http://download.microsoft.com/download/9/7/6/9767913A-29DB-40CF-8944-9AC2BC940C53/Sales%20and%20Marketing%20Sample%20PBIX.pbix)
 
 ### <a name="get-the-excel-workbook-for-this-sample"></a>获取 Excel 工作簿形式的此示例
-还可以针对此示例[仅下载该数据集（Excel 工作簿）](http://go.microsoft.com/fwlink/?LinkId=529785)。 该工作簿包含你可以查看和修改的 Power View 工作表。 若要查看原始数据，请选择“Power Pivot”>“管理”。
+还可以针对此示例[仅下载该数据集（Excel 工作簿）](http://go.microsoft.com/fwlink/?LinkId=529785)。 该工作簿包含你可以查看和修改的 Power View 工作表。 若要查看原始数据，请选择“Power Pivot”>“管理”  。
 
 ## <a name="what-is-our-dashboard-telling-us"></a>仪表板告诉我们什么？
 让我们开始浏览仪表板并查看 CMO 选择固定的磁贴。 我们可以看到我们的市场份额、销售和人气的相关信息。 接着，我们可以看到这些数据按地区、时间和竞争对手细分。
@@ -81,7 +81,7 @@ VanArsdel 有许多竞争对手，但仍是业内的市场领导者。 CMO 想�
 1. 请注意“按制造商和地区划分的单位总量 YTD”磁贴。 我想知道按类别划分的销售单位总量市场份额如何？
 
    ![](media/sample-sales-and-marketing/sales3.png)
-2. 在仪表板顶部的问题框中，键入问题“按制造商和类别划分的 2014 年单位总量树状图”。 请注意当你键入问题时，可视化效果更新的方式。
+2. 在仪表板顶部的问题框中，键入问题“按制造商和类别划分的 2014 年单位总量树状图”  。 请注意当你键入问题时，可视化效果更新的方式。
    ![](media/sample-sales-and-marketing/totalunitsbymanufacturerandcategoryfor2014asatreemap-new.png)
 3. 若要比较其中的发现，可将图表固定到仪表板。 有趣的是，在 2014 年，VanArsdel 只有销售属于**都市**类别的产品。
 4. 导航回仪表板。
@@ -100,7 +100,7 @@ VanArsdel 有许多竞争对手，但仍是业内的市场领导者。 CMO 想�
    a.  展开右侧的“筛选器”窗格。  
    b.  单击选择可视化效果。  
    c.  在“视觉级筛选器”下方，已将**细分市场**筛选为只包含**便利性**和**适度性**。  
-   d.  通过以下方式修改筛选器：选择“细分市场”以展开该部分，然后选中“生产力”以添加该细分市场。  
+   d.  通过以下方式修改筛选器：选择“细分市场”以展开该部分，然后选中“生产力”  以添加该细分市场。  
 3. 在“按月份划分的 VanArsdel 单位总量”中，选择图例中黑色的“是”，以按 VanArsdel 交叉筛选页面。 请注意，我们并未在“生产力”细分市场中参与竞争。
 4. 再次选择黑色的“是”，以删除筛选器。
 5. 查看折线图。 它显示我们的每月市场份额和循环 12 个月的市场份额。 循环 12 个月的数据可缓和每个月的波动并显示长期趋势。 选择条形图中的“便利性”和“适度性”，以查看每个细分市场的市场份额波动情况。 “适度性”细分市场显示的市场份额波动比“便利性”细分市场更大。

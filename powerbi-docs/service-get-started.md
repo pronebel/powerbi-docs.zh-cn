@@ -12,11 +12,11 @@ ms.date: 01/25/2019
 ms.author: maggies
 LocalizationGroup: Get started
 ms.openlocfilehash: 06b60e5d493532efbdb49932ace48897e17961c1
-ms.sourcegitcommit: 5bd9bd890db9a7f9d5988c81232f40b9b260a96f
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "55147487"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61237847"
 ---
 # <a name="tutorial-get-started-with-the-power-bi-service-apppowerbicom"></a>教程：Power BI 服务入门 (app.powerbi.com)
 本教程可帮助你开始使用 Power BI 服务。 若要了解 Power BI 服务如何适应其他 Power BI 产品/服务，请务必先阅读[什么是 Power BI](power-bi-overview.md)。
@@ -63,19 +63,19 @@ Microsoft Power BI 服务有时也称为 Power BI 在线版或 app.powerbi.com�
 下面举例说明如何从 CSV 文件中获取数据。 想要学习此教程吗？ [下载此示例 CSV 文件](http://go.microsoft.com/fwlink/?LinkID=521962)。
 
 1. [登录 Power BI](http://www.powerbi.com/)。 还没有帐户？ 别担心，可以注册一个免费试用版。
-2. Power BI 将在浏览器中打开。 在左侧导航栏底部选择“获取数据”。
+2. Power BI 将在浏览器中打开。 在左侧导航栏底部选择  “获取数据”。
    
    ![获取数据](media/service-get-started/getdata3.png)
-3. 然后，选择“文件”。 
+3. 然后，选择“文件”  。 
    
    ![获取文件](media/service-get-started/gs1.png)
-4. 浏览到计算机上的该文件，然后选择“打开”。 如果已将文件保存在 OneDrive for Business 中，请选择相应的选项。 如果已将文件保存在本地，请选择“本地文件”。 
+4. 浏览到计算机上的该文件，然后选择“打开”  。 如果已将文件保存在 OneDrive for Business 中，请选择相应的选项。 如果已将文件保存在本地，请选择“本地文件”  。 
    
    ![“获取数据”>“文件”屏幕](media/service-get-started/gs2.png)
-5. 在本教程中，我们将选择“导入，以将 Excel 文件添加为数据集，然后就可以使用它来创建报表和仪表板”。 如果选择“上传”，则整个 Excel 工作簿将上传至 Power BI，然后可以在 Excel Online 中打开它并进行编辑。
+5. 在本教程中，我们将选择“导入，以将 Excel 文件添加为数据集，然后就可以使用它来创建报表和仪表板”  。 如果选择“上传”  ，则整个 Excel 工作簿将上传至 Power BI，然后可以在 Excel Online 中打开它并进行编辑。
    
    ![选择“导入”](media/service-get-started/power-bi-import.png)
-6. 数据集准备就绪后，选择“查看数据集”在报表编辑器中打开它。 
+6. 数据集准备就绪后，选择“查看数据集”  在报表编辑器中打开它。 
 
     ![“你的数据集已就绪”对话框](media/service-get-started/power-bi-gs.png)
 
@@ -83,11 +83,11 @@ Microsoft Power BI 服务有时也称为 Power BI 在线版或 app.powerbi.com�
 
     ![空白报表画布](media/service-get-started/power-bi-report-editor.png)
 
-6. 在顶部菜单栏中可以看到，有一个“阅读视图”选项。 出现“阅读视图”选项意味着当前在“编辑视图”中操作。 
+6. 在顶部菜单栏中可以看到，有一个“阅读视图”选项。  出现“阅读视图”选项意味着当前在“编辑视图”中操作。  
 
     ![“阅读视图”选项](media/service-get-started/power-bi-editing-view.png)
 
-    同时，在“编辑视图”中，可以创建和修改报表，因为你是报表的所有者，也是创建者。 与同事共享报表时，他们只能在“阅读视图”中与报表交互，因为他们是使用者。 详细了解[阅读视图和编辑视图](consumer/end-user-reading-view.md)。
+    同时，在“编辑视图”中，可以创建和修改报表，因为你是报表的所有者，也是创建者   。 与同事共享报表时，他们只能在“阅读视图”中与报表交互，因为他们是使用者。  详细了解[阅读视图和编辑视图](consumer/end-user-reading-view.md)。
     
     进行[简要了解](service-the-report-editor-take-a-tour.md)是熟悉报表编辑器的一个不错的方法
    > 
@@ -96,19 +96,19 @@ Microsoft Power BI 服务有时也称为 Power BI 在线版或 app.powerbi.com�
 ## <a name="step-2-start-exploring-your-dataset"></a>步骤 2：着手了解你的数据集
 连接到数据后，请开始浏览数据。  发现有趣的内容后，可以创建仪表板来监视内容，并查看内容在不同时间的变化。 我们来看看具体的工作方式。
     
-1. 在报表编辑器中，使用页面右侧的“字段”窗格生成可视化对象。  选中“**销售总额**”和“**日期**”旁边的复选框。
+1. 在报表编辑器中，使用页面右侧的“字段”窗格生成可视化对象。   选中“**销售总额**”和“**日期**”旁边的复选框。
    
    ![字段列表](media/service-get-started/fields.png)
 
-2. Power BI 会分析数据并创建可视化对象。  如果先选择“日期”，你将看到一个表格。  如果先选择“销售总额”，你将看到一个图表。 切换到不同的数据显示方式。 让我们在折线图中查看此数据。 从**可视化对象窗格**中选择折线图图标（也称为模板）。
+2. Power BI 会分析数据并创建可视化对象。  如果先选择“日期”  ，你将看到一个表格。  如果先选择“销售总额”  ，你将看到一个图表。 切换到不同的数据显示方式。 让我们在折线图中查看此数据。 从**可视化对象窗格**中选择折线图图标（也称为模板）。
    
    ![已选中图标的报表编辑器](media/service-get-started/gettingstart5new.png)
 
-3. 看起来不错，让我们将它固定到仪表板。 将鼠标悬停在可视化对象上，并选择“固定”图标。  固定此可视化对象时，它将存储在仪表板上并会不断更新，由此你可以大致跟踪最新值。
+3. 看起来不错，让我们将它固定到仪表板  。 将鼠标悬停在可视化对象上，并选择“固定”图标。   固定此可视化对象时，它将存储在仪表板上并会不断更新，由此你可以大致跟踪最新值。
    
    ![“固定”图标](media/service-get-started/pinnew.png)
 
-4. 由于此报表是新建的，因此在将可视化对象固定到仪表板之前，系统会提示保存。 为报表命名（例如“按一段时间内的销售额”），然后选择“保存并继续”。 
+4. 由于此报表是新建的，因此在将可视化对象固定到仪表板之前，系统会提示保存。 为报表命名（例如“按一段时间内的销售额”），然后选择“保存并继续”   。 
    
    ![“保存报表”对话框](media/service-get-started/pbi_getstartsaveb4pinnew.png)
    
@@ -116,20 +116,20 @@ Microsoft Power BI 服务有时也称为 Power BI 在线版或 app.powerbi.com�
    
    ![为报表命名](media/service-get-started/power-bi-pin.png)
    
-1. 选择“固定”。
+1. 选择“固定”  。
    
     会显示一条成功消息（右上角附近），告知你可视化效果已作为磁贴添加到你的仪表板中。
    
     ![“已固定到仪表板”对话框](media/service-get-started/power-bi-pin-success.png)
 
-6. 选择“转至仪表板”，查看以磁贴形式固定到新仪表板的折线图。 通过添加更多可视化对象磁贴和[重命名、调整大小、链接和重新定位磁贴](service-dashboard-edit-tile.md)来优化仪表板。
+6. 选择“转至仪表板”，查看以磁贴形式固定到新仪表板的折线图。  通过添加更多可视化对象磁贴和[重命名、调整大小、链接和重新定位磁贴](service-dashboard-edit-tile.md)来优化仪表板。
    
    ![固定了可视化效果的仪表板](media/service-get-started/power-bi-new-dashboard.png)
    
-   在仪表板上选择新的磁贴，以便随时返回到报表。 Power BI 会将你返回到报表编辑器的“阅读视图”。 若要切换回“编辑视图”，请从顶部菜单栏中选择“编辑报表”。 进入“编辑视图”后，请继续浏览和固定磁贴。 
+   在仪表板上选择新的磁贴，以便随时返回到报表。 Power BI 会将你返回到报表编辑器的“阅读视图”。 若要切换回“编辑视图”，请从顶部菜单栏中选择“编辑报表”。  进入“编辑视图”后，请继续浏览和固定磁贴。 
 
 ## <a name="step-3--continue-the-exploration-with-qa-natural-language-querying"></a>步骤 3：使用“问答”继续探索（自然语言查询）
-1. 要快速浏览数据，请尝试在问题解答框中进行询问。 “问答”问题框位于仪表板顶部（“提出有关数据的问题”），以及报表的顶部菜单栏中“提问”）。 例如，尝试键入“哪个市场的收入最高”。
+1. 要快速浏览数据，请尝试在问题解答框中进行询问。 “问答”问题框位于仪表板顶部（“提出有关数据的问题”），以及报表的顶部菜单栏中“提问”）。   例如，尝试键入“哪个市场的收入最高”。
    
    ![问答画布](media/service-get-started/powerbi-qna.png)
 
@@ -145,9 +145,9 @@ Microsoft Power BI 服务有时也称为 Power BI 在线版或 app.powerbi.com�
 ## <a name="clean-up-resources"></a>清理资源
 完成本教程后，现可删除数据集、报表和仪表板。 
 
-1. 在左侧导航栏中，选择“我的工作区”。
-2. 选择“数据集”选项卡并找到本教程导入的数据集。  
-3. 选择省略号 (...)，再选择“删除”。
+1. 在左侧导航栏中，选择“我的工作区”  。
+2. 选择“数据集”  选项卡并找到本教程导入的数据集。  
+3. 选择省略号 (...)，再选择“删除”  。
 
     ![删除数据集](media/service-get-started/power-bi-delete.jpg)
 

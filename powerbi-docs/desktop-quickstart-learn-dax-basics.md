@@ -11,10 +11,10 @@ ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Model your data
 ms.openlocfilehash: 64957fa71249c551b4f69b619a12baf03fae6b06
-ms.sourcegitcommit: 10a87c016f497dbeba32f94ed1f3688a70816fea
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/09/2019
+ms.lasthandoff: 05/29/2019
 ms.locfileid: "65513723"
 ---
 # <a name="dax-basics-in-power-bi-desktop"></a>Power BI Desktop 中的 DAX 基本概念
@@ -36,7 +36,7 @@ DAX 是公式或表达式中可用于计算并返回一个或多个值的函数�
 了解 DAX 的最佳方式是创建一些基本公式，用它来处理一些实际数据，并亲自查看结果。 此处的示例和任务使用 Power BI Desktop Preview 的 Contoso 销售示例文件。 这是在[教程：在 Power BI Desktop 中创建你自己的度量值](desktop-tutorial-create-measures.md)一文中使用的相同示例文件。 以下是要下载的[示例文件](http://download.microsoft.com/download/4/6/A/46AB5E74-50F6-4761-8EDB-5AE077FD603C/Contoso%20Sales%20for%20Power%20BI%20Designer.zip)。
 
 ## <a name="lets-begin"></a>现在就开始吧！
-我们将围绕三个基本概念来阐述对 DAX 的理解：语法、函数和上下文。 当然，DAX 还有其他重要概念，但了解这三个概念将为你学习 DAX 技能奠定最佳基础。
+我们将围绕三个基本概念来阐述对 DAX 的理解：语法  、函数  和上下文  。 当然，DAX 还有其他重要概念，但了解这三个概念将为你学习 DAX 技能奠定最佳基础。
 
 ### <a name="syntax"></a>语法
 创建你自己的公式之前，我们来看看 DAX 公式语法。 语法包括组成公式的各种元素，简单来说就是公式的编写方式。 例如，我们来看一下某个度量值的简单 DAX 公式。
@@ -47,7 +47,7 @@ DAX 是公式或表达式中可用于计算并返回一个或多个值的函数�
 
 **A.** 度量值名称 **Total Sales**。
 
-**B.** 等号运算符 (**=**) 表示公式的开头。 完成计算后将会返回结果。
+**B.** 等号运算符 ( **=** ) 表示公式的开头。 完成计算后将会返回结果。
 
 **C.** DAX 函数 **SUM** 会将 **Sales[SalesAmount]** 列中的所有数字相加。 稍后你将了解有关函数的详细信息。
 
@@ -55,7 +55,7 @@ DAX 是公式或表达式中可用于计算并返回一个或多个值的函数�
 
 **E.** 引用的表 **Sales**。
 
-**F.** Sales 表中的引用列 **[SalesAmount]**。 使用此参数，SUM 函数就知道在哪一列上进行聚合求和。
+**F.** Sales 表中的引用列 **[SalesAmount]** 。 使用此参数，SUM 函数就知道在哪一列上进行聚合求和。
 
 尝试了解 DAX 公式时，将每个元素分解成你平日思考及说出的话语会很有帮助。 例如，你可以将此公式读成：
 
@@ -87,23 +87,23 @@ DAX 是公式或表达式中可用于计算并返回一个或多个值的函数�
     
 2. 在编辑栏中，通过键入新的度量值名称 **Previous Quarter Sales** 来替换**度量值**。
     
-3. 在等号后键入前几个字母 CAL，然后双击要使用的函数。 在此公式中，需要使用 CALCULATE 函数。
+3. 在等号后键入前几个字母 CAL  ，然后双击要使用的函数。 在此公式中，需要使用 CALCULATE  函数。
 
    你将通过我们传递给 CALCULATE 函数的参数，使用 CALCULATE 函数来筛选要求和的金额。 这就是所谓的嵌套函数。 CALCULATE 函数至少有两个参数。 第一个参数是要计算的表达式，第二个参数是筛选器。
    
-4. 在 CALCULATE 函数的左括号 ( 之后，键入 SUM，随后是另一个左括号 ( 现在我们需要将参数传递给 SUM 函数。
+4. 在 CALCULATE 函数的左括号 (   之后，键入 SUM  ，随后是另一个左括号 (  现在我们需要将参数传递给 SUM 函数。
 
-5. 开始键入 Sal，然后选择 Sales[SalesAmount]，后跟右括号 )。 这是 CALCULATE 函数的第一个表达式参数。
+5. 开始键入 Sal  ，然后选择 Sales[SalesAmount]  ，后跟右括号 )  。 这是 CALCULATE 函数的第一个表达式参数。
     
-6. 在空格后键入逗号 (,) 以指定第一个筛选器，然后键入 PREVIOUSQUARTER。 这将是我们的筛选器。
+6. 在空格后键入逗号 (,  ) 以指定第一个筛选器，然后键入 PREVIOUSQUARTER  。 这将是我们的筛选器。
     
    你将使用 PREVIOUSQUARTER 时间智能函数按上一季度来筛选 SUM 结果。
     
-7. 在 PREVIOUSQUARTER 函数的括号 ( 之后，键入 Calendar[DateKey]。
+7. 在 PREVIOUSQUARTER 函数的括号 (  之后，键入 Calendar[DateKey]  。
     
    PREVIOUSQUARTER 函数有一个参数，即包含连续日期范围的列。 在本例中，这是日历表中的 DateKey 列。
     
-8. 请确保传递给 PREVIOUSQUARTER 和 CALCULATE 函数的两个自变量都后跟两个右括号 ))。
+8. 请确保传递给 PREVIOUSQUARTER 和 CALCULATE 函数的两个自变量都后跟两个右括号  ))。
     
    该公式现在应如下所示：
     
@@ -176,7 +176,7 @@ DAX 包含以下函数类别：[日期和时间](https://msdn.microsoft.com/libr
 
 **A.** 度量值名称 **Store Sales**。
 
-**B.** 等号运算符 (**=**) 表示公式的开头。
+**B.** 等号运算符 ( **=** ) 表示公式的开头。
 
 **C.** **CALCULATE** 函数会在根据指定筛选器所修改的上下文中，作为参数来计算表达式。
 
@@ -184,9 +184,9 @@ DAX 包含以下函数类别：[日期和时间](https://msdn.microsoft.com/libr
 
 **E.** 同一表中作为表达式的 **[Total Sales]** 度量值。 Total Sales 度量值的公式为：=SUM(Sales[SalesAmount])。
 
-**F.** 逗号 (**,**) 会分隔第一个表达式参数和筛选参数。
+**F.** 逗号 ( **,** ) 会分隔第一个表达式参数和筛选参数。
 
-**G.** 完全限定的引用列为 **Channel[ChannelName]**。 这是我们的行上下文。 此列中的每行各指定一个通道：Store、Online 等。
+**G.** 完全限定的引用列为 **Channel[ChannelName]** 。 这是我们的行上下文。 此列中的每行各指定一个通道：Store、Online 等。
 
 **H.** 将特定值 **Store** 作为筛选器。 这是我们的筛选上下文。
 

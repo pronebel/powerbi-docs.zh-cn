@@ -1,3 +1,11 @@
+---
+ms.openlocfilehash: 226fdd59b00dc2daa625f9b1941599d21cc35087
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61396209"
+---
 使用 Power BI Desktop，你可以执行解析和统计分析并通过集成 R 来创建引人注目的视觉对象。你可以在 Power BI Desktop 报表内托管这些 R 可视化效果。
 
 你在**可视化效果**窗格中选择 **R 视觉对象**图标时，Power BI 将在画布上创建一个占位符来承载你的 R 视觉对象，然后直接在该画布上提供一个 R 脚本编辑器供你使用。 在你将字段添加到 R 视觉对象时，Power BI Desktop 会将它们添加到 R 脚本编辑器窗格。

@@ -11,14 +11,14 @@ ms.date: 02/08/2019
 ms.author: mihart
 LocalizationGroup: Get started
 ms.openlocfilehash: 4b4bc6398466b4c603126efed5b6591c9c3ad6c0
-ms.sourcegitcommit: a054782370dec56d49bb205ee10b7e2018f22693
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/22/2019
-ms.locfileid: "56662011"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61059714"
 ---
 # <a name="your-content-is-up-to-date"></a>内容为最新内容
-作为使用者，你可以与设计人员创建并与你共享的内容进行交互。 你可能想知道该内容是否为最新内容，或者只是想了解该内容上次刷新的时间。 了解到自己使用的是最新内容可让人充满信心。  
+作为使用者，你可以与设计人员创建并与你共享的内容进行交互   。 你可能想知道该内容是否为最新内容，或者只是想了解该内容上次刷新的时间。 了解到自己使用的是最新内容可让人充满信心。  
  
 ![Power BI 仪表板](media/end-user-consumer/power-bi-service.png)
 
@@ -33,7 +33,7 @@ ms.locfileid: "56662011"
 
 应用屏幕会同时显示设计人员姓名和应用创建日期。  
 
-1. 从左侧导航窗格中，选择“应用”。
+1. 从左侧导航窗格中，选择“应用”  。
 
     ![左侧导航窗格](media/end-user-fresh/power-bi-nav-apps.png)
 
@@ -45,7 +45,7 @@ ms.locfileid: "56662011"
 
 
 ### <a name="shared-with-me"></a>与我共享
-“与我共享”屏幕显示内容所有者的姓名，以及该内容与你共享的日期。
+“与我共享”屏幕显示内容所有者的姓名，以及该内容与你共享的日期  。
 
 ![“与我共享”屏幕显示更改日期和所有者](media/end-user-fresh/power-bi-shared-new.png) 
 
@@ -56,7 +56,7 @@ ms.locfileid: "56662011"
 ### <a name="dashboard-tiles"></a>在推入数据时
 对于仪表板磁贴，在焦点模式下查看磁贴，以查看上次刷新的时间戳。
 
-1. 在仪表板磁贴上，选择省略号 (...)，然后选择“以焦点模式打开”。
+1. 在仪表板磁贴上，选择省略号 (...)，然后选择“以焦点模式打开”  。
 
     ![选择省略号后显示的菜单](media/end-user-fresh/power-bi-focus.png)
 
@@ -65,11 +65,11 @@ ms.locfileid: "56662011"
     ![显示上次刷新的较宽浏览器](media/end-user-fresh/power-bi-last-refresh2.png)
 
 ### <a name="from-dashboards-and-reports"></a>从仪表板和报表
-查找上次刷新日期的另一种方法是使用“相关视图”。  可从 Power BI 上方菜单栏中获取“相关视图”。
+查找上次刷新日期的另一种方法是使用“相关视图”  。  可从 Power BI 上方菜单栏中获取“相关视图”  。
 
 ![从菜单中选择“相关视图”](media/end-user-fresh/power-bi-view-related.png)
 
-“相关内容”窗格显示仪表板或报表基础数据集的上次刷新信息。
+“相关内容”窗格显示仪表板或报表基础数据集的上次刷新信息  。
 
 ![Power BI 仪表板](media/end-user-fresh/power-bi-last-refresh.png)
 

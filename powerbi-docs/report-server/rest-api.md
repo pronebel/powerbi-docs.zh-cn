@@ -1,20 +1,20 @@
 ---
 title: 使用适用于 Power BI 报表服务器的 REST API 进行开发
 description: REST API 提供以编程方式访问 Power BI 报表服务器目录中对象的选项。
-author: markingmyname
-ms.author: maghan
+author: maggiesMSFT
+ms.author: maggies
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 05/25/2018
-ms.openlocfilehash: 154415f3662aebaa086d3452eb84e589333ecd28
-ms.sourcegitcommit: e9c45d6d983e8cd4cb5af938f838968db35be0ee
-ms.translationtype: HT
+ms.openlocfilehash: 8f35b7a3c19751b4537a49fa8cb30f4347f080ed
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/05/2019
-ms.locfileid: "57327840"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "64770762"
 ---
 # <a name="develop-with-the-rest-apis-for-power-bi-report-server"></a>使用适用于 Power BI 报表服务器的 REST API 进行开发
 
@@ -28,7 +28,7 @@ REST API 提供以编程方式访问 Power BI 报表服务器目录中对象的�
 
 REST API 请求/响应对可以分为五个组件：
 
-* 请求 URI，其中包括：`{URI-scheme} :// {URI-host} / {resource-path} ? {query-string}`。 尽管请求 URI 包含在请求消息标头中，但我们还是可以在此单独调出，因为大多数语言或框架都要求你单独将其从请求消息传递出去。
+* 请求 URI  ，其中包括：`{URI-scheme} :// {URI-host} / {resource-path} ? {query-string}`。 尽管请求 URI 包含在请求消息标头中，但我们还是可以在此单独调出，因为大多数语言或框架都要求你单独将其从请求消息传递出去。
   
   * URL 方案：指示用来传输请求的协议。 例如 `http` 或 `https`。
   * URI 主机：指定托管 REST 服务终结点的服务器的域名或 IP 地址，如 `myserver.contoso.com`。
@@ -38,8 +38,8 @@ REST API 请求/响应对可以分为五个组件：
   
   * 必需的 [HTTP 方法](https://www.w3.org/Protocols/rfc2616/rfc2616-sec9.html)（也称为操作或谓词），它会告诉服务所请求的操作类型。 Reporting Services REST API 支持 DELETE、GET、HEAD、PUT、POST 和 PATCH 方法。
   * 指定的 URI 和 HTTP 方法需要的其他可选标头字段。
-* 可选 HTTP“请求消息正文”字段，用于支持 URI 和 HTTP 操作。 例如，POST 操作包含作为复杂的参数传递的 MIME 编码对象。 对于 POST 或 PUT 操作，正文的 MIME 编码类型也应在 `Content-type` 请求标头中指定。 某些服务要求你使用特定的 MIME 类型，如 `application/json`。
-* HTTP“响应消息标头”字段：
+* 可选 HTTP“请求消息正文”  字段，用于支持 URI 和 HTTP 操作。 例如，POST 操作包含作为复杂的参数传递的 MIME 编码对象。 对于 POST 或 PUT 操作，正文的 MIME 编码类型也应在 `Content-type` 请求标头中指定。 某些服务要求你使用特定的 MIME 类型，如 `application/json`。
+* HTTP“响应消息标头”  字段：
   
   * [HTTP 状态代码](http://www.w3.org/Protocols/HTTP/HTRESP.html)涉及的范围从 2xx 成功代码到 4xx 或 5xx 错误代码。 或者，可能会返回服务定义的状态代码，如 API 文档中所指示。
   * 可选的其他标头字段，根据需要支持请求的响应，例如 `Content-type` 响应标头。

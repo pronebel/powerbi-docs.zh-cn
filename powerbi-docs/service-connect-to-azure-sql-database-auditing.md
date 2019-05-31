@@ -11,11 +11,11 @@ ms.date: 11/09/2018
 ms.author: sarinas
 LocalizationGroup: Connect to services
 ms.openlocfilehash: 0d212510fd2856fd509077f35e0f10bb7c5dd4c5
-ms.sourcegitcommit: 750f0bfab02af24c8c72e6e9bbdd876e4a7399de
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/04/2019
-ms.locfileid: "54008712"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61180912"
 ---
 # <a name="sql-database-auditing-content-pack-for-power-bi"></a>适用于 Power BI 的 SQL 数据库审核内容包
 
@@ -57,7 +57,7 @@ ms.locfileid: "54008712"
    - 输入你感兴趣的审核日志的结束日期。 输入“\*”可加载没有时间上限的审核日志。
    
    ![](media/service-connect-to-azure-sql-database-auditing/dbauditing_param.png)
-5. 对于“身份验证方法”，请选择“密钥”，输入你的“帐户密钥”\>，然后选择“登录”。
+5. 对于“身份验证方法”，请选择“密钥”  ，输入你的“帐户密钥”  \>，然后选择“登录”  。
    
    ![](media/service-connect-to-azure-sql-database-auditing/pbi_sqlauditing3.png)
 6. Power BI 导入数据后，你会在左侧的导航窗格中看到新的仪表板、报表和数据集。 新的项目会以黄色星号 \* 标记。
@@ -69,7 +69,7 @@ ms.locfileid: "54008712"
 * 尝试在仪表板顶部的[在“问答”框中提问](consumer/end-user-q-and-a.md)
 * 在仪表板中[更改磁贴](service-dashboard-edit-tile.md)。
 * [选择磁贴](consumer/end-user-tiles.md)以打开基础报表。
-* 虽然数据集将按计划每日刷新，但你可以更改刷新计划或根据需要使用“立即刷新”来尝试刷新
+* 虽然数据集将按计划每日刷新，但你可以更改刷新计划或根据需要使用“立即刷新”  来尝试刷新
 
 ## <a name="next-steps"></a>后续步骤
 [获取 Power BI 数据](service-get-data.md)

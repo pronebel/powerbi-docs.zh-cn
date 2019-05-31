@@ -1,3 +1,11 @@
+---
+ms.openlocfilehash: eeb063707e9a81b3d3551dd4e79e9da01bfe7178
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61254706"
+---
 在本课程中，我们将了解如何通过简单几步在网页上或通过电子邮件共享 Power BI 报表。 这项 Power BI 功能通常被称为“**发布到 Web**”，非常易于使用和管理。
 
 在 Power BI 中，选择要共享的报表，使其显示在画布上。 然后，在菜单中，依次选择“**文件 > 发布到 Web**”。

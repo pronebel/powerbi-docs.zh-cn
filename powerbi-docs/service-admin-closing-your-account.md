@@ -1,54 +1,54 @@
 ---
 title: 关闭 Power BI 帐户
-description: 关闭 Power BI 帐户
+description: 如果不希望再使用 Power BI，可以关闭 Power BI 帐户。
 author: mgblythe
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
-ms.date: 11/01/2018
+ms.date: 04/26/2019
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: e58461df8325871205877b8561308e3cc4f1f048
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
-ms.translationtype: HT
+ms.openlocfilehash: a285c6188e8b9298702645e28ad686e33147c3a9
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54295554"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "65101125"
 ---
-# <a name="closing-your-power-bi-account"></a>关闭 Power BI 帐户
+# <a name="close-your-power-bi-account"></a>关闭 Power BI 帐户
 
-如果不希望再使用 Power BI，可以关闭 Power BI 帐户。  关闭帐户之后，你无法再登录到 Power BI。 根据 Power BI 服务条款中的数据保留策略，在 Power BI 中上传或创建的任何客户数据都会遭删除。
+如果不希望再使用 Power BI，可以关闭 Power BI 帐户。  关闭你的帐户后，你无法登录到 Power BI。 此外，它指出在 Power BI 服务条款中的数据保留策略中，Power BI 中删除已上传或创建的任何客户数据。 它不会保留。
 
 ## <a name="individual-power-bi-users"></a>Power BI 个人用户
 
-如果以个人身份注册 Power BI，可以在“设置”屏幕中关闭帐户。
+如果以个人身份注册 Power BI，可以在“设置”  屏幕中关闭帐户。
 
-1. 在 Power BI 中，依次选择右上角的齿轮图标和“设置”。
+1. 在 Power BI 中，依次选择右上角的齿轮图标和“设置”  。
 
-    ![设置](media/service-admin-closing-your-account/closeaccount-settings.png)
+    ![使用齿轮图标和的设置选项，调出 UI 的右上角的屏幕截图。](media/service-admin-closing-your-account/close-account-settings.png)
 
-1. 在“常规”选项卡上，选择“关闭帐户”。
+1. 在“常规”  选项卡上，选择“关闭帐户”  。
 
-    ![关闭帐户](media/service-admin-closing-your-account/closeaccount-settings2.png)
+    ![使用关闭的帐户选项设置页的左上角的屏幕截图调出。](media/service-admin-closing-your-account/close-account-settings-2.png)
 
 1. 选择关闭帐户的原因（图中的“1”）。 还可以提供更多信息（图中的“2”）。 然后选择**关闭帐户**。
 
-    ![选择原因](media/service-admin-closing-your-account/closeaccount-settings3.png)
+    ![使用关闭的帐户选项，调出关闭帐户对话框的屏幕截图。](media/service-admin-closing-your-account/close-account-settings-3.png)
 
 1. 确认你要关闭帐户。
 
-    ![确认关闭](media/service-admin-closing-your-account/closeaccount-settings4.png)
+    ![关闭帐户确认对话框中使用调出是选项的屏幕截图。](media/service-admin-closing-your-account/close-account-settings-4.png)
 
-    应该会看到确认帐户已关闭的消息。 如有必要，可以从此处重新开启帐户。
+    应看到已关闭你的帐户的 Power BI 的确认消息。 如有必要，可以从此处重新开启帐户。
 
-    ![帐户确认](media/service-admin-closing-your-account/closeaccount-settings5.png)
+    ![屏幕截图你的帐户关闭对话框。](media/service-admin-closing-your-account/close-account-settings-5.png)
 
 ## <a name="managed-tenant-users"></a>托管租户用户
 
 如果组织已为你注册 Power BI，请联系租户管理员。让他们取消向你的帐户分配许可证。
 
-![管理关闭帐户](media/service-admin-closing-your-account/closeaccountmanaged.png)
+![管理关闭帐户](media/service-admin-closing-your-account/close-account-managed.png)
 
 更多问题？ [尝试咨询 Power BI 社区](http://community.powerbi.com/)

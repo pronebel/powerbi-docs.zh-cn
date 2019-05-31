@@ -11,10 +11,10 @@ ms.date: 11/01/2018
 ms.author: mblythe
 LocalizationGroup: Administration
 ms.openlocfilehash: d28a27d69d6e8799f08ddaa05e734ded62150c8f
-ms.sourcegitcommit: a284c38d42dd8042e468e10c0157f30918c2bdd1
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/16/2019
+ms.lasthandoff: 05/29/2019
 ms.locfileid: "65710941"
 ---
 # <a name="configure-mobile-apps-with-microsoft-intune"></a>使用 Microsoft Intune 配置移动应用
@@ -42,7 +42,7 @@ Microsoft Intune 可以在 Office 365 中与移动设备管理 (MDM) 共存。 �
 
 1. 打开 iTunes。
 
-1. 搜索 Power BI。
+1. 搜索 Power BI。 
 
 1. 你应看到在 **iPhone 应用**和 **iPad 应用**下列出了 **Microsoft Power BI**。 两个选项都可以使用，因为获取的 URL 是相同的。
 
@@ -50,11 +50,11 @@ Microsoft Intune 可以在 Office 365 中与移动设备管理 (MDM) 共存。 �
 
     ![iTunes 中的应用 URL](media/service-admin-mobile-intune/itunes-url.png)
 
-应用 URL 如下所示： https://itunes.apple.com/us/app/microsoft-power-bi/id929738808?mt=8。
+应用 URL 如下所示： https://itunes.apple.com/us/app/microsoft-power-bi/id929738808?mt=8  。
 
 ### <a name="get-android-url"></a>获取 Android URL
 
-可以从 [Power BI 移动页](https://powerbi.microsoft.com/mobile/)获取 Google Play URL。 选择“从 Google Play 下载”即可转到应用页。 可以从浏览器地址栏复制 URL。 应用 URL 如下所示： https://play.google.com/store/apps/details?id=com.microsoft.powerbim。
+可以从 [Power BI 移动页](https://powerbi.microsoft.com/mobile/)获取 Google Play URL。 选择“从 Google Play 下载”  即可转到应用页。 可以从浏览器地址栏复制 URL。 应用 URL 如下所示： https://play.google.com/store/apps/details?id=com.microsoft.powerbim  。
 
 ## <a name="step-2-create-a-mobile-application-management-policy"></a>步骤 2：创建移动应用程序管理策略
 
@@ -62,11 +62,11 @@ Microsoft Intune 可以在 Office 365 中与移动设备管理 (MDM) 共存。 �
 
 可以先创建应用程序或策略。 添加它们的顺序并不重要。 它们只需在部署步骤中同时存在。
 
-1. 在 Intune 门户中，依次选择“策略” > “配置策略”。
+1. 在 Intune 门户中，依次选择“策略”   > “配置策略”  。
 
     ![Intune 门户](media/service-admin-mobile-intune/intune-policy.png)
 
-1. 选择**添加…**。
+1. 选择**添加…** 。
 
 1. 在**软件**下，可以为 Android 或 iOS 选择移动应用程序管理。 若要快速开始，可以选择**创建带有推荐设置的策略**，也可以创建自定义策略。
 
@@ -86,7 +86,7 @@ Microsoft Intune 可以在 Office 365 中与移动设备管理 (MDM) 共存。 �
 
 1. 从下拉菜单中选择**来自应用程序商店的托管 iOS 应用程序**。
 
-1. 输入从[第 1 步](#step-1-get-the-url-for-the-application)中获取的应用 URL，再选择“下一步”。
+1. 输入从[第 1 步](#step-1-get-the-url-for-the-application)中获取的应用 URL，再选择“下一步”  。
 
     ![软件安装：iOS](media/service-admin-mobile-intune/intune-add-software-ios1.png)
 
@@ -96,7 +96,7 @@ Microsoft Intune 可以在 Office 365 中与移动设备管理 (MDM) 共存。 �
 
 1. 选择**上载**。
 
-1. 如果列表中没有列出此应用，请刷新页面：转到“概述”，然后返回到“应用”。
+1. 如果列表中没有列出此应用，请刷新页面：转到“概述”  ，然后返回到“应用”  。
 
     ![“应用”选项卡](media/service-admin-mobile-intune/intune-add-software-ios2.png)
 
@@ -104,7 +104,7 @@ Microsoft Intune 可以在 Office 365 中与移动设备管理 (MDM) 共存。 �
 
 1. 从下拉菜单中选择**外部链接**。
 
-1. 输入从[第 1 步](#step-1-get-the-url-for-the-application)中获取的应用 URL，再选择“下一步”。
+1. 输入从[第 1 步](#step-1-get-the-url-for-the-application)中获取的应用 URL，再选择“下一步”  。
 
     ![软件安装程序：Android](media/service-admin-mobile-intune/intune-add-software-android1.png)
 
@@ -112,7 +112,7 @@ Microsoft Intune 可以在 Office 365 中与移动设备管理 (MDM) 共存。 �
 
 1. 选择**上载**。
 
-1. 如果列表中没有列出此应用，请刷新页面：转到“概述”，然后返回到“应用”。
+1. 如果列表中没有列出此应用，请刷新页面：转到“概述”  ，然后返回到“应用”  。
 
     ![“应用”选项卡](media/service-admin-mobile-intune/intune-add-software-android2.png)
 
@@ -161,7 +161,7 @@ Microsoft Intune 可以在 Office 365 中与移动设备管理 (MDM) 共存。 �
 
 ## <a name="step-5-install-the-application-on-a-device"></a>步骤 5：在设备上安装应用程序
 
-通过“公司门户”应用安装应用。 如果你尚未安装公司门户，则可以通过 iOS 平台上的 App Store 或 Android 平台上的应用商店获取它。 你会使用组织登录名登录公司门户。
+通过“公司门户”  应用安装应用。 如果你尚未安装公司门户，则可以通过 iOS 平台上的 App Store 或 Android 平台上的应用商店获取它。 你会使用组织登录名登录公司门户。
 
 1. 打开公司门户应用。
 
@@ -181,7 +181,7 @@ Microsoft Intune 可以在 Office 365 中与移动设备管理 (MDM) 共存。 �
 
     ![应用安装](media/service-admin-mobile-intune/intune-companyportal5.png)
 
-1. 安装应用后，便会看到“应用由公司管理”。 如果在策略中启用了使用 PIN 进行的访问，则你会看到以下内容。
+1. 安装应用后，便会看到“应用由公司管理”  。 如果在策略中启用了使用 PIN 进行的访问，则你会看到以下内容。
 
     ![输入 PIN](media/service-admin-mobile-intune/intune-powerbi-pin.png)
 

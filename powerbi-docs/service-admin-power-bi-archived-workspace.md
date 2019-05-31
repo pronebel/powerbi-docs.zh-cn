@@ -11,11 +11,11 @@ ms.date: 11/02/2018
 ms.author: mblythe
 LocalizationGroup: Administration
 ms.openlocfilehash: d2eeab8241de06f9a4d0e654696173d076e01ad2
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54292352"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61187045"
 ---
 # <a name="power-bi-archived-workspace"></a>Power BI 存档工作区
 
@@ -39,9 +39,9 @@ Power BI 不会删除存档工作区中的内容。 可以继续获取数据、�
 
 若要继续使用 Power BI，应在“我的工作区”中新建内容。 还应计划将存档工作区中的所有内容都迁移到“我的工作区”。  迁移内容的方式取决于内容类型：
 
-* **Excel 或 Power BI Desktop 数据集**：从存档工作区切换到“我的工作区”，然后重新上传 Excel 或 Power BI Desktop 文件（通过选择“我的数据”按钮），可以迁移这些数据集。  如果设置了定期刷新，必须为“我的工作区”中的新数据集重新配置这些设置。
+* **Excel 或 Power BI Desktop 数据集**：从存档工作区切换到“我的工作区”，然后重新上传 Excel 或 Power BI Desktop 文件（通过选择“我的数据”  按钮），可以迁移这些数据集。  如果设置了定期刷新，必须为“我的工作区”中的新数据集重新配置这些设置。
 
-* **其他数据集**：切换到“我的工作区”，然后选择“获取数据”按钮，重新连接在存档工作区中创建的其他任何数据集。  可能需要重新输入安全或连接信息。
+* **其他数据集**：切换到“我的工作区”，然后选择“获取数据”  按钮，重新连接在存档工作区中创建的其他任何数据集。  可能需要重新输入安全或连接信息。
 
 * **报表**：在你重新上传相应 Excel 或 Power BI Desktop 文件后，Excel 或 Power BI Desktop 文件中包含的报表便会自动重新创建。 当你重新连接到内容包时，作为内容包的一部分安装的报表也会重新创建。 如果通过 Power BI 服务创建了你自己的报表，请在“我的工作区”中重新创建这些报表。
 

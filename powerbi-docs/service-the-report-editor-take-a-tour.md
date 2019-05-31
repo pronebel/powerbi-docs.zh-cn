@@ -12,15 +12,15 @@ ms.date: 02/07/2019
 ms.author: maggies
 LocalizationGroup: Reports
 ms.openlocfilehash: 66e40462081ee2f1156840d137d4c67ad0eb7b45
-ms.sourcegitcommit: b717118c44499c8fd8f57534a275f2f78aacc0f1
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/09/2019
-ms.locfileid: "55971685"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61404624"
 ---
 # <a name="tour-the-report-editor-in-power-bi"></a>Power BI 中的报表编辑器导览
 
-Power BI 服务中的报表编辑器和 Power BI Desktop 中的报表编辑器非常相似。 通常情况下，首先在 Power BI Desktop 中创建报表。 然后将报表发布到 Power BI 服务，可在其中继续修改报表。 还可以在 Power BI 服务中根据报表创建仪表板。
+Power BI 服务中的报表编辑器和 Power BI Desktop 中的报表编辑器非常相似  。 通常情况下，首先在 Power BI Desktop 中创建报表。 然后将报表发布到 Power BI 服务，可在其中继续修改报表。 还可以在 Power BI 服务中根据报表创建仪表板。
 
 创建仪表板和报表后，将它们分发给报表使用者。 根据具体共享方式，最终用户可以在 Power BI 服务的“阅读”视图中与仪表板和报表进行交互，但不能对其进行编辑。 详细了解[报表使用者可在 Power BI 服务中执行哪些操作](consumer/end-user-reading-view.md)。 
 
@@ -32,7 +32,7 @@ Power BI 服务中的报表编辑器和 Power BI Desktop 中的报表编辑器�
 
 Power BI 报表编辑器包含 3 个部分：  
 
-1. “字段”、“可视化效果”和“筛选器”窗格
+1. “字段”  、“可视化效果”  和“筛选器”  窗格
 2. 顶部导航栏    
 3. 报表画布     
 
@@ -60,7 +60,7 @@ Power BI 报表编辑器包含 3 个部分：
 此窗格中显示的存储桶（有时称为 *井* ）根据所选择的可视化效果类型而有所不同。  例如，如果选择的是条形图，则会看到以下存储桶：值、轴和图例。 当选择某个字段时，或将其拖到画布上时，Power BI 会将该字段添加到其中一个存储桶。  也可以直接将“字段”列表中的字段拖动到存储桶中。  某些存储桶仅限于特定类型的数据。  例如，**值**将不会接受非数字字段。 因此，如果将**员工姓名**字段拖入**值**存储桶，Power BI 会将其更改为**员工姓名计数**。
 
 ### <a name="remove-a-field"></a>删除字段
-若要从可视化效果中删除字段，请选择字段名称右侧的“X”。
+若要从可视化效果中删除字段，请选择字段名称右侧的“X”  。
 
 ![从图例中删除 StoreType](media/service-the-report-editor-take-a-tour/deletefield.png)
 
@@ -113,16 +113,16 @@ Power BI 报表编辑器包含 3 个部分：
 **∑ 聚合**聚合是一个数值，例如，可对其求和或求平均值。 聚合随数据一起导入（在报表所基于的数据模型中定义）。
 有关详细信息，请参阅 [Power BI 报表中的聚合函数](service-aggregates.md)。
 
-![计算器图标](media/service-the-report-editor-take-a-tour/pbi_calculated_icon.png)计算度量值（亦称为计算字段）  
+![计算器图标](media/service-the-report-editor-take-a-tour/pbi_calculated_icon.png)计算度量值（亦称为计算字段）   
 各个计算字段都具有其自己的硬编码公式。 不能更改此计算，例如，如果该计算是求和，则只能进行求和。 有关详细信息，请参阅[了解度量值](desktop-measures.md)
 
-![唯一字段图标](media/service-the-report-editor-take-a-tour/icon.png)唯一字段  
+![唯一字段图标](media/service-the-report-editor-take-a-tour/icon.png)唯一字段   
 具有此图标的字段是从 Excel 导入的，因此将被设置为显示全部值，即使它们具有重复项也是如此。 例如，你的数据可能有两条人名为 John Smith 的记录，每一条都将被视为唯一（它们不合成一条）。  
 
-![地理位置图标](media/service-the-report-editor-take-a-tour/pbi_geo_icon.png)地理位置字段  
+![地理位置图标](media/service-the-report-editor-take-a-tour/pbi_geo_icon.png)地理位置字段   
 地理字段可用于创建地图可视化效果。 
 
-![层次结构图标](media/service-the-report-editor-take-a-tour/power-bi-hierarchy-icon.png)层次结构  
+![层次结构图标](media/service-the-report-editor-take-a-tour/power-bi-hierarchy-icon.png)层次结构   
 选择箭头以显示构成层次结构的字段。 
 
 ## <a name="2-the-top-navigation-bar"></a>2.顶部导航栏

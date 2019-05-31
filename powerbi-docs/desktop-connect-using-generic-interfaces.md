@@ -7,25 +7,25 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 11/28/2018
+ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: a0a590f6029d273944f3e1fa9e537eec3e38bf97
-ms.sourcegitcommit: 5e83fa6c93a0bc6599f76cc070fb0e5c1fce0082
-ms.translationtype: HT
+ms.openlocfilehash: 6ac121ee5154a9d343a912904b20d3244ebee59c
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/13/2019
-ms.locfileid: "56216422"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "65513717"
 ---
 # <a name="connect-to-data-using-generic-interfaces-in-power-bi-desktop"></a>使用 Power BI Desktop 中的泛型接口连接到数据
-使用从**访问数据库**到 **Zendesk** 资源的内置数据连接器，可以连接到 **Power BI Desktop** 中多种不同的数据源，如“**获取数据**”窗口中所示。 还可使用 Power BI Desktop 中内置的泛型接口（如 ODBC 或 REST API）连接到所有其他类型的数据源，进而进一步增加连接选项。
+使用从**访问数据库**到 **Zendesk** 资源的内置数据连接器，可以连接到 **Power BI Desktop** 中多种不同的数据源，如“**获取数据**”窗口中所示。 还可使用 Power BI Desktop  中内置的泛型接口（如 ODBC  或 REST API  ）连接到所有其他  类型的数据源，进而进一步增加连接选项。
 
 ![](media/desktop-connect-using-generic-interfaces/generic-data-interfaces_1.png)
 
 ## <a name="power-bi-desktop-data-interfaces"></a>Power BI Desktop 数据接口
-**Power BI Desktop** 包括一个不断增长的数据连接器的集合，用于连接到特定数据源。 例如，**SharePoint 列表**数据连接器在为 **SharePoint 列表**设计的连接顺序期间提供特定字段和支持信息，这与选择“**获取数据 > 更多...**”时出现的窗口中的其他数据源的情况相同（如上一张图片中所示）。
+**Power BI Desktop** 包括一个不断增长的数据连接器的集合，用于连接到特定数据源。 例如，**SharePoint 列表**数据连接器在为 **SharePoint 列表**设计的连接顺序期间提供特定字段和支持信息，这与选择“**获取数据 > 更多...** ”时出现的窗口中的其他数据源的情况相同（如上一张图片中所示）。
 
-此外，通过 Power BI Desktop，可采用以下任一泛型数据接口 连接到“获取数据”列表中未标识的数据源：
+此外，通过 Power BI Desktop，可采用以下任一泛型数据接口  连接到“获取数据”  列表中未标识的数据源：
 
 * **ODBC**
 * **OLE DB**
@@ -52,7 +52,7 @@ ms.locfileid: "56216422"
 | ODBC |Couchbase DB |[Couchbase 和 Power BI](https://powerbi.microsoft.com/blog/visualizing-data-from-couchbase-server-v4-using-power-bi/) |
 | ODBC |DynamoDB |[DynamoDB ODBC 驱动程序](http://www.simba.com/drivers/dynamodb-odbc-jdbc/) |
 | ODBC |Google BigQuery |[BigQuery ODBC 驱动程序](http://www.simba.com/drivers/bigquery-odbc-jdbc/) |
-| ODBC |Hbase |[Hbase ODBC 驱动程序](http://www.simba.com/drivers/hbase-odbc-jdbc/) |
+| ODBC |HBase |[HBase ODBC 驱动程序](http://www.simba.com/drivers/hbase-odbc-jdbc/) |
 | ODBC |Hive |[Hive ODBC 驱动程序](http://www.simba.com/drivers/hive-odbc-jdbc/) |
 | ODBC |IBM Netezza |[IBM Netezza 信息](https://www.ibm.com/support/knowledgecenter/SSULQD_7.2.1/com.ibm.nz.datacon.doc/c_datacon_plg_overview.html) |
 | ODBC |Presto |[Presto ODBC 驱动程序](http://www.simba.com/drivers/presto-odbc-jdbc/) |
@@ -107,7 +107,7 @@ ms.locfileid: "56216422"
 | R 脚本 |R 统计文件 |[CRAN 的 R 脚本指南](https://cran.r-project.org/doc/manuals/R-data.html) |
 
 ## <a name="next-steps"></a>后续步骤
-可使用 Power BI Desktop 连接到各种数据源。 有关数据源的详细信息，请参阅下列资源：
+可使用 Power BI Desktop 连接到各种数据源  。 有关数据源的详细信息，请参阅下列资源：
 
 * [什么是 Power BI Desktop？](desktop-what-is-desktop.md)
 * [Power BI Desktop 中的数据源](desktop-data-sources.md)

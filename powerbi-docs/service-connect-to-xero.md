@@ -11,11 +11,11 @@ ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
 ms.openlocfilehash: d09936f2cce1d7835efdb82929d9e8eed2291163
-ms.sourcegitcommit: 80961ace38ff9dac6699f81fcee0f7d88a51edf4
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/13/2019
-ms.locfileid: "56223343"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61156222"
 ---
 # <a name="connect-to-xero-with-power-bi"></a>使用 Power BI 连接到 Xero
 Xero 是易于使用的专为小型企业设计的在线会计软件。 基于带有此 Power BI 内容包的 Xero 财务状况创建引人注目的可视化效果。 你的默认仪表板包括许多小型企业指标，如现金头寸、收入和支出、盈亏趋势、应收帐款天数和投资回报。
@@ -29,13 +29,13 @@ Xero 是易于使用的专为小型企业设计的在线会计软件。 基于�
 2. 在**服务**框中，选择**获取**。
    
    ![](media/service-connect-to-xero/services.png)
-3. 选择“Xero”\>“获取”。
+3. 选择“Xero”  \>“获取”  。
    
    ![](media/service-connect-to-xero/connect.png)
 4. 为与你的 Xero 帐户相关联的组织输入一个昵称。 任何名称均可，这主要是为帮助拥有多个 Xero 组织的用户整理组织。 请参阅[以下](#FindingParams)详细信息。
    
    ![](media/service-connect-to-xero/params.png)
-5. 对于“身份验证方法”，选择“OAuth”，如出现提示，请登录你的 Xero 帐户并选择要连接的组织。 输入登录名后，请选择“登录”以启动加载过程。
+5. 对于“身份验证方法”  ，选择“OAuth”  ，如出现提示，请登录你的 Xero 帐户并选择要连接的组织。 输入登录名后，请选择“登录”  以启动加载过程。
    
     ![](media/service-connect-to-xero/creds.png)
    
@@ -49,7 +49,7 @@ Xero 是易于使用的专为小型企业设计的在线会计软件。 基于�
 * 尝试在仪表板顶部的[在“问答”框中提问](consumer/end-user-q-and-a.md)
 * 在仪表板中[更改磁贴](service-dashboard-edit-tile.md)。
 * [选择磁贴](consumer/end-user-tiles.md)以打开基础报表。
-* 虽然数据集将按计划每日刷新，但你可以更改刷新计划或根据需要使用“立即刷新”来尝试刷新
+* 虽然数据集将按计划每日刷新，但你可以更改刷新计划或根据需要使用“立即刷新”  来尝试刷新
 
 ## <a name="whats-included"></a>包含的内容
 内容包仪表板包括涵盖各个区域的磁贴和指标，有关详细信息，请参阅对应报表：  

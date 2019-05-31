@@ -1,4 +1,12 @@
-在本课程中，我们首先创建组。 **组**定义了一组有权访问特定仪表板、报表和数据的用户。
+---
+ms.openlocfilehash: e3d62b182f9b142f912a608bee693b7356b1a68d
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61254665"
+---
+在本课程中，我们首先创建组。  **组**定义了一组有权访问特定仪表板、报表和数据的用户。
 
 Power BI 中的组基于 Office 365 中的组，因此如果你已使用了 Office 365 组来管理组的电子邮件、日历和文档，那么你会发现 Power BI 提供了相同的功能等。 当你在 Power BI 中创建组时，实际上是在创建 Office 365 组。
 

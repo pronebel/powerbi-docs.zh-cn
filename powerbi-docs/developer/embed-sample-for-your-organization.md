@@ -1,25 +1,25 @@
 ---
 title: 为组织将 Power BI 内容嵌入到应用程序的嵌入式分析
 description: 了解如何通过使用适用于嵌入式分析的 Power BI API，为组织将报表、仪表板或磁贴集成或嵌入到应用程序中。 了解如何使用嵌入式分析软件、嵌入式分析工具或嵌入式商业智能工具将 Power BI 集成到应用程序。
-author: markingmyname
-ms.author: maghan
+author: rkarlin
+ms.author: rkarlin
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: tutorial
 ms.custom: seodec18
-ms.date: 03/12/2019
-ms.openlocfilehash: 34d7ec423f3d4cb0f7487c78eff68c580ff0489e
-ms.sourcegitcommit: f176ba9d52d50d93f264eca21bb3fd987dbf934b
-ms.translationtype: HT
+ms.date: 04/02/2019
+ms.openlocfilehash: 53311929aa6277efd621fb2b944ea062ab99999d
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/12/2019
-ms.locfileid: "57757452"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61354826"
 ---
 # <a name="tutorial-embed-power-bi-content-into-an-application-for-your-organization"></a>教程：为组织将 Power BI 内容嵌入应用程序
 
-在 Power BI 中，可以使用“用户拥有数据”将报表、仪表板或磁贴嵌入应用程序。 借助“用户拥有数据”，应用程序可以扩展 Power BI 服务以使用嵌入式分析。 本教程演示了如何将报表集成到应用程序。 通过将 Power BI.NET SDK 和 Power BI JavaScript API 结合使用，可为组织将 Power BI 嵌入应用程序。
+在 Power BI  中，可以使用“用户拥有数据”将报表、仪表板或磁贴嵌入应用程序。 借助“用户拥有数据”，应用程序可以扩展 Power BI 服务以使用嵌入式分析  。 本教程演示了如何将报表集成到应用程序。 通过将 Power BI.NET SDK 和 Power BI JavaScript API 结合使用，可为组织将 Power BI 嵌入应用程序。
 
 ![Power BI 嵌入报表](media/embed-sample-for-your-organization/embed-sample-for-your-organization-035.png)
 
@@ -36,7 +36,7 @@ ms.locfileid: "57757452"
 * [Microsoft Azure](https://azure.microsoft.com/) 订阅。
 * 需要设置自己的 [Azure Active Directory 租户](create-an-azure-active-directory-tenant.md)。
 
-如果未注册 Power BI Pro，请在开始之前[注册以获得免费试用](https://powerbi.microsoft.com/pricing/)。
+如果未注册 Power BI Pro  ，请在开始之前[注册以获得免费试用](https://powerbi.microsoft.com/pricing/)。
 
 如果没有 Azure 订阅，请在开始之前先创建一个[免费帐户](https://azure.microsoft.com/free/?WT.mc_id=A261C142F)。
 
@@ -52,7 +52,7 @@ ms.locfileid: "57757452"
 
 向 Azure Active Directory [注册应用程序](register-app.md)，以允许应用程序访问 [Power BI REST API](https://docs.microsoft.com/rest/api/power-bi/)。 通过注册应用，可以建立应用标识，并指定对 Power BI REST 资源的权限。
 
-你必须继续注册服务器端 Web 应用程序。 注册服务器端 Web 应用程序以创建应用程序密码。
+你必须继续注册服务器端 Web 应用程序  。 注册服务器端 Web 应用程序以创建应用程序密码。
 
 ## <a name="set-up-your-power-bi-environment"></a>设置 Power BI 环境
 
@@ -92,7 +92,7 @@ ms.locfileid: "57757452"
 
     ![“用户拥有数据”应用程序示例](media/embed-sample-for-your-organization/embed-sample-for-your-organization-026.png)
 
-3. 在示例应用程序中打开 Cloud.config 文件。
+3. 在示例应用程序中打开 Cloud.config 文件。 
 
     必须填写以下字段，才能运行应用程序。
 
@@ -108,55 +108,49 @@ ms.locfileid: "57757452"
 
 ### <a name="application-id"></a>应用程序 ID
 
-将 Azure 中的“应用 ID”填入“applicationId”字段。 应用使用“applicationId”对你向其请求获取权限的用户标识自身。
+将 Azure  中的“应用 ID”  填入“applicationId”  字段。 应用使用“applicationId”  对你向其请求获取权限的用户标识自身。
 
-若要获取“applicationId”，请按以下步骤操作：
+若要获取“applicationId”  ，请按以下步骤操作：
 
 1. 登录到 [Azure 门户](https://portal.azure.com)。
 
-2. 在左侧导航窗格中，依次选择“所有服务”和“应用注册”。
+2. 在左侧导航窗格中，依次选择“所有服务”  和“应用注册”  。
 
-    ![应用注册搜索](media/embed-sample-for-customers/embed-sample-for-customers-003.png)
+3. 选择需要 applicationId 的应用程序  。
 
-3. 选择需要 applicationId 的应用程序。
+    ![选择应用](media/embed-sample-for-your-organization/embed-sample-for-your-organization-042.png)
 
-    ![选择应用](media/embed-sample-for-customers/embed-sample-for-customers-006.png)
+4. 存在列为 GUID 的“应用程序 ID”  。 使用此“应用 ID”  作为应用的“applicationId”  。
 
-4. 存在列为 GUID 的“应用程序 ID”。 使用此“应用 ID”作为应用的“applicationId”。
-
-    ![applicationId](media/embed-sample-for-customers/embed-sample-for-customers-007.png)
+    ![applicationId](media/embed-sample-for-your-organization/embed-sample-for-your-organization-043.png)
 
 ### <a name="application-secret"></a>应用程序密码
 
-将 Azure 的“应用注册”部分中的“密钥”部分信息填入“ApplicationSecret”字段。  使用[服务主体](embed-service-principal.md)时，此属性适用。
+仅[服务主体](embed-service-principal.md) AuthenticationType 需要此属性。
 
-若要获取“ApplicationSecret”，请按以下步骤操作：
+将 Azure  的“应用注册”  部分中的“密钥”  部分信息填入“ApplicationSecret”  字段。  使用[服务主体](embed-service-principal.md)时，此属性适用。
+
+若要获取“ApplicationSecret”  ，请按以下步骤操作：
 
 1. 登录 [Azure 门户](https://portal.azure.com)。
 
-2. 在左侧导航窗格中，依次选择“所有服务”和“应用注册”。
+2. 在左侧导航窗格中，依次选择“所有服务”和“应用注册”   。
 
-    ![应用注册搜索](media/embed-sample-for-your-organization/embed-sample-for-your-organization-003.png)
+3. 选择需要使用“ApplicationSecret”  的应用。
 
-3. 选择需要使用“ApplicationSecret”的应用。
+    ![选择一个应用](media/embed-sample-for-your-organization/embed-sample-for-your-organization-042.png)
 
-    ![选择一个应用](media/embed-sample-for-your-organization/embed-sample-for-your-organization-006.png)
+4. 选择**证书和机密**下**管理**。
 
-4. 选择**设置**。
+5. 选择**新的客户端机密**。
 
-    ![选择“设置”](media/embed-sample-for-your-organization/embed-sample-for-your-organization-038.png)
+6. 在“说明”框中输入一个名称并选择持续时间。  然后选择“保存”为应用程序获取“值”。   如果在保存密钥值后关闭“密钥”窗格，  值字段会仅显示为隐藏状态。 此时，你无法检索密钥值。 如果忘记了密钥值，请在 Azure 门户中新建密钥值。
 
-5. 选择“密钥”。
-
-    ![选择“密钥”](media/embed-sample-for-your-organization/embed-sample-for-your-organization-039.png)
-
-6. 在“说明”框中输入一个名称并选择持续时间。 然后选择“保存”为应用程序获取“值”。 如果在保存密钥值后关闭“密钥”窗格，值字段会仅显示为隐藏状态。 此时，你无法检索密钥值。 如果忘记了密钥值，请在 Azure 门户中新建密钥值。
-
-    ![密钥值](media/embed-sample-for-your-organization/embed-sample-for-your-organization-031.png)
+    ![密钥值](media/embed-sample-for-your-organization/embed-sample-for-your-organization-046.png)
 
 ### <a name="workspace-id"></a>工作区 ID
 
-使用 Power BI 中的“应用工作区(组) GUID”填写“workspaceId”信息。 登录 Power BI 服务或使用 Powershell 时，可获得该信息。
+使用 Power BI 中的“应用工作区(组) GUID”填写“workspaceId”信息  。 登录 Power BI 服务或使用 Powershell 时，可获得该信息。
 
 URL <br>
 
@@ -172,7 +166,7 @@ Get-PowerBIworkspace -name "User Owns Embed Test"
 
 ### <a name="report-id"></a>报表 ID
 
-使用 Power BI 中的“报表 GUID”填写“reportId”信息。 登录 Power BI 服务或使用 Powershell 时，可获得该信息。
+使用 Power BI 中的“报表 GUID”填写“reportId”信息  。 登录 Power BI 服务或使用 Powershell 时，可获得该信息。
 
 URL <br>
 
@@ -188,19 +182,19 @@ Get-PowerBIworkspace -name "User Owns Embed Test" | Get-PowerBIReport
 
 ### <a name="aadauthorityurl"></a>AADAuthorityUrl
 
-填入允许你在组织租户内或通过来宾用户嵌入内容的 URL 的 AADAuthorityUrl 信息。
+填入允许你在组织租户内或通过来宾用户嵌入内容的 URL 的 AADAuthorityUrl 信息  。
 
-如果通过组织租户嵌入，使用 URL： https://login.microsoftonline.com/common/oauth2/authorize。
+如果通过组织租户嵌入，使用 URL： https://login.microsoftonline.com/common/oauth2/authorize  。
 
-如果通过来宾嵌入，使用 URL https://login.microsoftonline.com/report-owner-tenant-id（用报表所有者的租户 ID 替换 report-owner-tenant-id）。
+如果通过来宾嵌入，使用 URL https://login.microsoftonline.com/report-owner-tenant-id（用报表所有者的租户 ID 替换 report-owner-tenant-id）   。
 
 ### <a name="run-the-application"></a>运行应用程序
 
-1. 在“Visual Studio”中选择“运行”。
+1. 在“Visual Studio”  中选择“运行”  。
 
     ![运行应用程序](media/embed-sample-for-your-organization/embed-sample-for-your-organization-033.png)
 
-2. 然后，选择“嵌入报表”。 根据你选择测试使用的内容（报表、仪表板或磁贴），在应用程序中选择该选项。
+2. 然后，选择“嵌入报表”  。 根据你选择测试使用的内容（报表、仪表板或磁贴），在应用程序中选择该选项。
 
     ![选择内容](media/embed-sample-for-your-organization/embed-sample-for-your-organization-034.png)
 
@@ -226,7 +220,7 @@ Get-PowerBIworkspace -name "User Owns Embed Test" | Get-PowerBIReport
 
 [获取报表](https://docs.microsoft.com/rest/api/power-bi/reports/getreports)操作将返回报表的列表。 可以获取报表列表中的一个报表。
 
-若要执行 REST API 调用，必须添加格式为“持有者 {访问令牌}”的授权标头。
+若要执行 REST API 调用，必须添加格式为“持有者 {访问令牌}”  的授权  标头。
 
 #### <a name="get-reports-with-the-rest-api"></a>使用 REST API 获取报表
 
@@ -315,7 +309,7 @@ using (var client = new PowerBIClient(new Uri(ApiUrl), tokenCredentials))
 可以使用 JavaScript 将报表加载到网页上的 div 元素中。 下面的代码示例演示如何从给定工作区检索报表：
 
 > [!NOTE]  
-> [示例应用程序](https://github.com/Microsoft/PowerBI-Developer-Samples)的 Default.aspx.cs 文件中提供了加载要嵌入内容项的示例。
+> [示例应用程序](https://github.com/Microsoft/PowerBI-Developer-Samples)的 Default.aspx.cs 文件中提供了加载要嵌入内容项的示例  。
 
 ```javascript
 <!-- Embed Report-->
@@ -400,7 +394,7 @@ function updateEmbedReport() {
 
 ### <a name="create-a-dedicated-capacity"></a>创建专用容量
 
-通过创建专用容量，则可获得在应用工作区中拥有内容专用资源这一优势。 你可使用 [Power BI Premium](../service-premium.md) 创建专用容量。
+通过创建专用容量，则可获得在应用工作区中拥有内容专用资源这一优势。 你可使用 [Power BI Premium](../service-premium-what-is.md) 创建专用容量。
 
 下表列出了 [Microsoft Office 365](../service-admin-premium-purchase.md) 中可用的 Power BI Premium SKU：
 
@@ -423,15 +417,15 @@ function updateEmbedReport() {
 
 创建专用容量后，可将该专用容量分配给应用工作区。 若要完成此过程，请按照下列步骤执行：
 
-1. 在“Power BI 服务”中，展开工作区并选择用于嵌入内容的工作区的相应省略号。 然后选择“编辑工作区”。
+1. 在“Power BI 服务”中，展开工作区并选择用于嵌入内容的工作区的相应省略号。 然后选择“编辑工作区”  。
 
     ![编辑工作区](media/embed-sample-for-your-organization/embed-sample-for-your-organization-036.png)
 
-2. 展开“高级”，并启用“专用容量”。 选择你创建的专用容量。 然后，选择“保存”。
+2. 展开“高级”  ，并启用“专用容量”  。 选择你创建的专用容量。 然后，选择“保存”  。
 
     ![分配专用容量](media/embed-sample-for-your-organization/embed-sample-for-your-organization-024.png)
 
-3. 选择“保存”后，应用工作区名称旁边应显示一个钻石形状。
+3. 选择“保存”后，应用工作区名称旁边应显示一个钻石形状  。
 
     ![与容量绑定的应用工作区](media/embed-sample-for-your-organization/embed-sample-for-your-organization-037.png)
 

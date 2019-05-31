@@ -1,3 +1,11 @@
+---
+ms.openlocfilehash: 8af5b1cf243d599ab68e9c2db1a3c6003f82c29f
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61273189"
+---
 欢迎使用 Power BI **指导学习**部分，它旨在为你介绍 **DAX**。
 
 **DAX** 代表**数据分析表达式**，它是在整个 Power BI 中使用（它也由 Power BI 在后台使用）的公式语言。 在 Microsoft 的其他产品也能找到 DAX，如 Power Pivot 和 SSAS 表格，但此指导学习集合的主题重点介绍如何在 Power BI 中使用 DAX - 你将如何使用它。
@@ -16,11 +24,11 @@ DAX 是一种 *函数语言* ，这意味着完整的执行代码包含在一个
 
 在 DAX 中，函数可以包含其他内容，例如嵌套函数、条件语句和值引用。 DAX 中的执行从最内部函数或参数开始，逐步向外计算。 在 Power BI 中，DAX 公式在单个行中编写，因此函数的正确格式设置对于可读性很重要。
 
-DAX 的设计用于处理表格，因此它只有两个主要的数据类型：**数字**和**其他**。 **数字**可以包括整数、小数和货币。 **其他**可以包括字符串和二进制对象。 这意味着如果构建 DAX 函数来处理一种类型的数字，那么可以确定该函数可以处理任何其他数字数据。
+DAX 的设计用于处理表，因此它有只需要两个主要的数据类型：**数值**并**其他**。 **数字**可以包括整数  、小数  和货币  。 **其他**可以包括字符串  和二进制对象  。 这意味着如果构建 DAX 函数来处理一种类型的数字，那么可以确定该函数可以处理任何其他数字数据。
 
 DAX 使用运算符重载，这表示可以在计算中混合使用各种数据类型，其结果将根据输入中使用的数据类型进行更改。 数据类型转换将自动发生。 这意味着你无需知道在 Power BI 中使用的列的数据类型，但它还意味着有时转换是以意想不到的方式进行的。 了解你使用的数据是一个不错的做法，这样可以确保运算符按照预期进行工作。
 
-Power BI 中可能大量使用的一种数据类型是：**DateTime**。 **DateTime** 存储为浮点值，包括整数和小数部分。 DateTime 可以用来精确计算 1900 年 3 月 1 日以后的任意时间段。
+具体而言，您将有可能使用大量 Power BI 中还有一种数据类型：**DateTime**。 **DateTime** 存储为浮点值，包括整数和小数部分。 DateTime 可以用来精确计算 1900 年 3 月 1 日以后的任意时间段。
 
 > 视频内容由 [Alberto Ferrari, SQLBI](http://www.sqlbi.com/learning-dax/?utm_source=powerbi&utm_medium=marketing&utm_campaign=after-summit) 提供
 > 

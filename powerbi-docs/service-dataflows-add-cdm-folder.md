@@ -7,40 +7,37 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 12/06/2018
+ms.date: 04/02/2019
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: 3c5b33b4b056a5d2dfeeffd4c72ea878cf7d79c0
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
-ms.translationtype: HT
+ms.openlocfilehash: 6d03097eb886813b934c75b61ddb056b55bde7b8
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54280277"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61160902"
 ---
 # <a name="add-a-cdm-folder-to-power-bi-as-a-dataflow-preview"></a>将 CDM 文件夹添加到 Power BI 作为数据流（预览）
 
-在 Power BI 中，可以添加存储在组织的 Azure Data Lake Store Gen2 中的 Common Data Model (CDM) 文件夹作为数据流。 从 CDM 文件夹创建数据流后，则可以基于置于 CDM 文件夹的数据使用 Power BI Desktop 和 Power BI 服务创建数据集、报表、仪表板和应用。
+在 Power BI 中，可以添加存储在组织的 Azure Data Lake Store Gen2 中的 Common Data Model (CDM) 文件夹作为数据流。 从 CDM 文件夹创建数据流后，则可以基于置于 CDM 文件夹的数据使用 Power BI Desktop 和 Power BI 服务创建数据集、报表、仪表板和应用。  
 
 ![CDM 文件夹中的数据流](media/service-dataflows-add-cdm-folder/dataflow-from-cdm-folder_01.jpg)
 
 下面列出了从 CDM 文件夹创建数据流的几个要求：
 
-* 从 CDM 文件夹创建数据流仅适用于[新的工作区体验](service-create-the-new-workspaces.md)。 
+* 从 CDM 文件夹创建数据流  仅适用于[新的工作区体验](service-create-the-new-workspaces.md)。 
 * 将 CDM 文件夹添加到 Power BI 要求用户添加文件夹以便拥有 [CDM 文件夹及其文件的授权](https://go.microsoft.com/fwlink/?linkid=2029121)。
 * 必须授予对 CDM 文件夹中的所有文件和文件夹的读取和执行权限，以便将其添加到 Power BI。
 
 以下部分介绍了如何从 CDM 文件夹创建数据流。
 
-> [!NOTE]
-> 数据流功能处于预览状态，可能会在正式版推出前更改和更新。
-
 ## <a name="create-a-dataflow-from-a-cdm-folder"></a>从 CDM 文件夹创建数据流
 
-若要开始从 CDM 文件夹创建数据流，请启动“Power BI 服务”，然后从左侧导航窗格中选择“应用工作区”。 也可以新建一个工作区，可用于创建新的工作流。
+若要开始从 CDM 文件夹创建数据流，请启动“Power BI 服务”  ，然后从左侧导航窗格中选择“应用工作区”  。 也可以新建一个工作区，可用于创建新的工作流。
 
 ![在 Power BI 服务中创建数据流](media/service-dataflows-add-cdm-folder/dataflow-from-cdm-folder_02.jpg)
 
-在显示的屏幕中，选择如下图所示的“创建并附加”。
+在显示的屏幕中，选择如下图所示的“创建并附加”  。
 
 ![创建并附加新数据流](media/service-dataflows-add-cdm-folder/dataflow-from-cdm-folder_03.jpg)
 
@@ -48,11 +45,11 @@ ms.locfileid: "54280277"
 
 ![CDM 文件夹中的数据流](media/service-dataflows-add-cdm-folder/dataflow-from-cdm-folder_01.jpg)
 
-提供信息后，请选择“创建并附加”以创建数据流。
+提供信息后，请选择“创建并附加”  以创建数据流。
 
-CDM 文件夹中的数据流显示在 Power BI 中时标有“外部”图标。 在下一部分中，我们将介绍标准数据流与 CDM 文件夹中创建的数据流之间的差异。
+CDM 文件夹中的数据流显示在 Power BI 中时标有  “外部”图标。 在下一部分中，我们将介绍标准数据流与 CDM 文件夹中创建的数据流之间的差异。
 
-按本文前面所述正确设置权限后，可以在 Power BI Desktop 中连接到数据流。
+按本文前面所述正确设置权限后，可以在 Power BI Desktop 中连接到数据流  。
 
 
 ## <a name="considerations-and-limitations"></a>注意事项和限制
@@ -71,11 +68,11 @@ Power BI Desktop：
 
 下面还列出了一些其他注意事项：
 
-* 从 CDM 文件夹创建数据流仅适用于[新的工作区体验](service-create-the-new-workspaces.md)
+* 从 CDM 文件夹创建数据流  仅适用于[新的工作区体验](service-create-the-new-workspaces.md)
 * 链接实体不适用于 CDM 文件夹中创建的数据流
 
 
-Power BI Desktop 客户无法访问存储在 Azure Data Lake Storage Gen2 帐户中的数据流，除非他们是数据流的所有者，或者他们已被显式授权访问数据流的 CDM 文件夹。 请考虑以下情况：
+ Power BI Desktop 客户无法访问存储在 Azure Data Lake Storage Gen2 帐户中的数据流，除非他们是数据流的所有者，或者他们已被显式授权访问数据流的 CDM 文件夹。 请考虑以下情况：
 
 1.  Anna 创建了一个新的应用工作区，并将其配置为存储 CDM 文件夹中的数据流。
 2.  Ben 也是 Anna 所创建工作区的成员，他希望利用 Power BI Desktop 和数据流连接器从 Anna 创建的数据流获取数据。
@@ -99,9 +96,9 @@ Power BI Desktop 客户无法访问存储在 Azure Data Lake Storage Gen2 帐户
 有关总体数据流的信息，请查看以下这些文章：
 
 * [在 Power BI 中创建和使用数据流](service-dataflows-create-use.md)
-* [在 Power BI Premium 上使用计算实体（预览）](service-dataflows-computed-entities-premium.md)
-* [将数据流与本地数据源配合使用（预览）](service-dataflows-on-premises-gateways.md)
-* [Power BI 数据流的开发人员资源（预览）](service-dataflows-developer-resources.md)
+* [使用 Power BI Premium 上的计算的实体](service-dataflows-computed-entities-premium.md)
+* [数据流中使用的本地数据源](service-dataflows-on-premises-gateways.md)
+* [Power BI 数据流的开发人员资源](service-dataflows-developer-resources.md)
 
 有关 Azure 存储的详细信息，可以阅读以下这些文章：
 * [Azure 存储安全指南](https://docs.microsoft.com/azure/storage/common/storage-security-guide)

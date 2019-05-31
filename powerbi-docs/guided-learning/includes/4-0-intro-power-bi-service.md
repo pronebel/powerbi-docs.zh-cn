@@ -1,3 +1,11 @@
+---
+ms.openlocfilehash: 8e5755f632a0cfab8b0b4bc79871c96ee9e2aeef
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61263047"
+---
 欢迎进入 Power BI **引导学习**课程的**研究数据**部分。 既然你已经了解了 Power BI Desktop，以及如何获取数据并让数据呈现可视化效果，那么你已准备好在 Power BI 服务中研究数据。
 
 ![](media/4-0-intro-power-bi-service/4-0_2.png)

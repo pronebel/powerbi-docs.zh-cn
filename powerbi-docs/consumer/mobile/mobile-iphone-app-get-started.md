@@ -10,11 +10,11 @@ ms.topic: conceptual
 ms.date: 06/27/2018
 ms.author: mshenhav
 ms.openlocfilehash: b0de20cc32c32360f4f37c70e673dba01740a860
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54281772"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61137288"
 ---
 # <a name="get-started-with-the-power-bi-mobile-app-on-ios-devices"></a>iOS 设备上的 Power BI 移动应用入门
 iPhone、 iPad 或 iPod Touch 上的 iOS 版 Microsoft Power BI 应用提供了 Power BI、Power BI 报表服务器和 Reporting Services 的移动 BI 体验。 通过触控移动设备实现的实时访问，可以随时随地查看本地和云中的公司仪表板，并与之进行交互。 然后，可以浏览仪表板中的数据，并通过电子邮件或短信的方式将数据与同事共享。 在你的 [Apple Watch](mobile-apple-watch.md) 上保持最新的数据。  
@@ -36,17 +36,17 @@ iPhone、 iPad 或 iPod Touch 上的 iOS 版 Microsoft Power BI 应用提供了 
 可以在 iOS 10 或更高版本的 iPhone 5 及以上版本上运行 Power BI for iOS 应用。 也可在 iOS 10 或更高版本的 iPad 或 iPod Touch 上运行该应用。 
 
 ## <a name="sign-up-for-the-power-bi-service"></a>注册 Power BI 服务
-如果还没有注册，请转到 [powerbi.com](https://powerbi.microsoft.com/get-started/)，在“Power BI - 云协作和共享”下，选择“免费试用”。
+如果还没有注册，请转到 [powerbi.com](https://powerbi.microsoft.com/get-started/)，在“Power BI - 云协作和共享”下，选择“免费试用”   。
 
 
 ## <a name="get-started-with-the-power-bi-app"></a>Power BI 应用入门
 1. 在 iOS 设备中，打开 Power BI 应用。
-2. 若要查看 Power BI 仪表板，请点击“Power BI”。  
-   若要查看 Reporting Services 移动报表和 KPI，请点击“SQL Server Reporting Services”。
+2. 若要查看 Power BI 仪表板，请点击“Power BI”  。  
+   若要查看 Reporting Services 移动报表和 KPI，请点击“SQL Server Reporting Services”  。
    
    ![登录 Power BI 移动应用](./media/mobile-iphone-app-get-started/power-bi-connect-to-login.png)
    
-   进入应用后，只需点击左上角的全局导航按钮 ![全局导航按钮 ](./././media/mobile-iphone-app-get-started/power-bi-iphone-global-nav-button.png) 即可在两者之间切换。 
+   进入应用后，只需点击左上角的全局导航按钮 ![全局导航按钮](./././media/mobile-iphone-app-get-started/power-bi-iphone-global-nav-button.png) 即可在两者之间切换。 
 
 ## <a name="try-the-power-bi-and-reporting-services-samples"></a>体验 Power BI 和 Reporting Services 示例
 即使没有注册，也可以使用 Power BI 和 Reporting Services 示例。 下载应用后，你可以查看或启用这些示例。 无论何时需要，你都可以从全局导航返回到示例。
@@ -54,8 +54,8 @@ iPhone、 iPad 或 iPod Touch 上的 iOS 版 Microsoft Power BI 应用提供了 
 ### <a name="power-bi-samples"></a>Power BI 示例
 可以查看 Power BI 仪表板示例并与之交互，但有一些事项不能对其执行操作。 无法打开仪表板背后的报表、与他人共享示例，或将其加入收藏夹。
 
-1. 点击左上角的 ![全局导航按钮 ](./././media/mobile-iphone-app-get-started/power-bi-iphone-global-nav-button.png) 全局导航按钮。
-2. 点击右上角的齿轮图标 ![Gear icon](././media/mobile-iphone-app-get-started/power-bi-ios-gear-icon.png)，然后点击“Power BI 示例”。
+1. 点击左上角的 ![全局导航按钮](./././media/mobile-iphone-app-get-started/power-bi-iphone-global-nav-button.png) 全局导航按钮。
+2. 点击右上角的齿轮图标 ![Gear icon](././media/mobile-iphone-app-get-started/power-bi-ios-gear-icon.png)，然后点击“Power BI 示例”  。
 3. 选择一个角色，并浏览该角色的示例仪表板。  
    
    ![Power BI 移动示例](./media/mobile-iphone-app-get-started/power-bi-iphone-powerbi-samples.png)
@@ -66,8 +66,8 @@ iPhone、 iPad 或 iPod Touch 上的 iOS 版 Microsoft Power BI 应用提供了 
    > 
 
 ### <a name="reporting-services-mobile-report-samples"></a>Reporting Services 移动报表示例
-1. 点击左上角的 ![全局导航按钮 ](./././media/mobile-iphone-app-get-started/power-bi-iphone-global-nav-button.png) 全局导航按钮。
-2. 点击右上角的齿轮图标 ![Gear icon](././media/mobile-iphone-app-get-started/power-bi-ios-gear-icon.png)，然后点击“Reporting Services 示例”。
+1. 点击左上角的 ![全局导航按钮](./././media/mobile-iphone-app-get-started/power-bi-iphone-global-nav-button.png) 全局导航按钮。
+2. 点击右上角的齿轮图标 ![Gear icon](././media/mobile-iphone-app-get-started/power-bi-ios-gear-icon.png)，然后点击“Reporting Services 示例”  。
 3. 打开零售报表或销售报表文件夹以浏览 KPI 和移动报表。
    
    ![Power BI 移动应用中的 Reporting Services 示例](./media/mobile-iphone-app-get-started/power-bi-reporting-services-samples.png)
@@ -80,7 +80,7 @@ iPhone、 iPad 或 iPod Touch 上的 iOS 版 Microsoft Power BI 应用提供了 
 详细了解如何[在移动应用中查找内容](mobile-apps-quickstart-view-dashboard-report.md)。
 
 ## <a name="view-your-favorite-dashboards-kpis-and-reports"></a>查看你收藏的仪表板、KPI 和报表
-移动应用中的“收藏夹”页上显示了你收藏的所有 Power BI 仪表板，以及 Power BI 报表服务器/Reporting Services KPI 和报表。 在 Power BI 移动应用中收藏某个仪表板后，可以从所有设备（包括浏览器中的 Power BI 服务）中访问该仪表板。 
+移动应用中的“收藏夹”页上显示了你收藏的所有 Power BI 仪表板，以及 Power BI 报表服务器/Reporting Services KPI 和报表。 在 Power BI 移动应用中收藏  某个仪表板后，可以从所有设备（包括浏览器中的 Power BI 服务）中访问该仪表板。 
 
 * 点击**收藏夹**。
   

@@ -12,34 +12,34 @@ ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
 ms.openlocfilehash: 7749953d8a913c25000c282234b3215d1741e129
-ms.sourcegitcommit: 10a87c016f497dbeba32f94ed1f3688a70816fea
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/09/2019
+ms.lasthandoff: 05/29/2019
 ms.locfileid: "65514277"
 ---
 # <a name="connect-to-odata-feeds-in-power-bi-desktop"></a>通过 Power BI Desktop 连接到 OData 数据源
-在 Power BI Desktop 中，你可以连接到“OData 数据源”并在 Power BI Desktop 中同使用其他所有数据源一样使用基础数据。
+在 Power BI Desktop 中，你可以连接到“OData 数据源”  并在 Power BI Desktop 中同使用其他所有数据源一样使用基础数据。
 
-若要连接到 OData 数据源，请在 Power BI Desktop 的“开始”功能区中，选择“获取数据”>“OData 数据源”。
+若要连接到 OData 数据源，请在 Power BI Desktop 的“开始”  功能区中，选择“获取数据”>“OData 数据源”  。
 
 ![](media/desktop-connect-odata/connect-to-odata_1.png)
 
-在出现的“OData 数据源”窗口中，将你的 OData 数据源 URL 键入或粘贴到框中，然后选择“确定”。
+在出现的“OData 数据源”  窗口中，将你的 OData 数据源 URL 键入或粘贴到框中，然后选择“确定”  。
 
 ![](media/desktop-connect-odata/connect-to-odata_2.png)
 
-Power BI Desktop 将连接到 OData 数据源，并显示可用的表和“导航器”窗口中的其他数据元素。 选择一个元素后，“导航器”窗口的右窗格中将显示该数据的预览。 你可以选择导入任意数量的表。 “导航器”窗口将显示当前所选表的预览。
+Power BI Desktop 将连接到 OData 数据源，并显示可用的表和“导航器”  窗口中的其他数据元素。 选择一个元素后，“导航器”  窗口的右窗格中将显示该数据的预览。 你可以选择导入任意数量的表。 “导航器”  窗口将显示当前所选表的预览。
 
 ![](media/desktop-connect-odata/connect-to-odata_3.png)
 
-你可以选择“编辑”按钮，启动“编辑查询器”，在其中你可以在将 OData 数据源中的数据导入 Power BI Desktop 前调整和转换该数据。 或者也可以选择“加载”按钮，然后导入左窗格中所有选定的数据元素。
+你可以选择“编辑”  按钮，启动“编辑查询器”  ，在其中你可以在将 OData 数据源中的数据导入 Power BI Desktop 前调整和转换该数据。 或者也可以选择“加载”  按钮，然后导入左窗格中所有选定的数据元素。
 
-当我们选择“加载”时，Power BI Desktop 将导入所选项目，并显示导入进度的“加载”窗口。
+当我们选择“加载”  时，Power BI Desktop 将导入所选项目，并显示导入进度的“加载”窗口  。
 
 ![](media/desktop-connect-odata/connect-to-odata_4.png)
 
-完成操作后，Power BI Desktop 会使所选表和其他数据元素在 Power BI Desktop 中报表视图右侧的“字段”窗格中可用。
+完成操作后，Power BI Desktop 会使所选表和其他数据元素在 Power BI Desktop 中报表  视图右侧的“字段”  窗格中可用。
 
 ![](media/desktop-connect-odata/connect-to-odata_5.png)
 

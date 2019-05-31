@@ -1,3 +1,11 @@
+---
+ms.openlocfilehash: b42efb2c9237baf85a71be12cfaf61da189601d4
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61253669"
+---
 导入的数据通常包含报表和可视化任务中实际不需要的字段，原因是它为额外信息，或者此数据已在其他列中可用。 Power BI Desktop 提供一些工具，可用于优化数据、使其更利于创建报表和视觉对象，以及查看共享报表。
 
 ## <a name="hiding-fields"></a>隐藏字段

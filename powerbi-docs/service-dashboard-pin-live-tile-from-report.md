@@ -12,11 +12,11 @@ ms.date: 03/02/2018
 ms.author: maggies
 LocalizationGroup: Dashboards
 ms.openlocfilehash: 4a30d01040daffa394ff884c38dda3dd66fa5809
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54285797"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61139907"
 ---
 # <a name="pin-an-entire-report-page-as-a-live-tile-to-a-power-bi-dashboard"></a>将整个报表页以动态磁贴的形式固定到 Power BI 仪表板
 添加新[仪表板磁贴](consumer/end-user-tiles.md)的另一种方法是固定整个报表页。 这是一种一次性固定多个可视化效果的简便方法。  此外，当固定整个页面时，磁贴是 *动态的* ；你可以就在仪表板上与它们进行交互。 并且你对报表编辑器中返回的任何可视化效果所做的更改（如添加筛选器或更改图表中使用的字段）也都会反映在仪表板磁贴中。  
@@ -35,7 +35,7 @@ ms.locfileid: "54285797"
 
 
 1. 在[编辑视图](service-interact-with-a-report-in-editing-view.md)中打开报表。
-2. 在未选择任何视觉化效果的情况下，从菜单栏中选择“固定活动页”。
+2. 在未选择任何视觉化效果的情况下，从菜单栏中选择“固定活动页”  。
    
    ![“固定活动页面”图标](media/service-dashboard-pin-live-tile-from-report/pbi-pin-live-page.png) 
 3. 将磁贴固定到现有仪表板或新仪表板。 请注意突出显示的文本：*如果固定活动页，在刷新页面后，对报表所做的更改将显示在仪表板磁贴中。*

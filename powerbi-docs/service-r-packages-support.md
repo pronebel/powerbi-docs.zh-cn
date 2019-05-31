@@ -12,10 +12,10 @@ ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
 ms.openlocfilehash: 86432033359b24dbae81f9ff5ec1bceb3ea1a2e6
-ms.sourcegitcommit: 10a87c016f497dbeba32f94ed1f3688a70816fea
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/09/2019
+ms.lasthandoff: 05/29/2019
 ms.locfileid: "65514849"
 ---
 # <a name="r-packages-in-the-power-bi-service"></a>Power BI 服务中的 R 程序包
@@ -31,7 +31,7 @@ R 程序包存在大量要求和限制：
 
 * Power BI 服务主要支持带有免费和开源软件许可证（例如 GPL-2、GPL-3、MIT+R 等）的 R 程序包.
 * Power BI 服务支持已在 CRAN 发布的程序包。 此服务不支持专用或自定义 R 程序包。 我们鼓励用户在申请使用 Power BI 服务中提供的包之前，先在 CRAN 上公布其私有包。
-* Power BI Desktop 具有两种 R 程序包变体：
+* Power BI Desktop 具有两种 R 程序包变体  ：
 
   * 对于 R 视觉对象，可以安装任意程序包，包括自定义 R 程序包
   * 对于自定义 R 视觉对象，仅支持公用 CRAN 程序包进行程序包自动安装

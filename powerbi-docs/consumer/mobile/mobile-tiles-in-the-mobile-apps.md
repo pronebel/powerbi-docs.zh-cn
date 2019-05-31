@@ -10,11 +10,11 @@ ms.topic: conceptual
 ms.date: 06/28/2018
 ms.author: mshenhav
 ms.openlocfilehash: aa0827c0be31d65db7bff2c6e2476e5db59b2895
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54286395"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "60977803"
 ---
 # <a name="explore-tiles-in-the-power-bi-mobile-apps"></a>在 Power BI 移动应用中浏览磁贴
 适用于：
@@ -71,7 +71,7 @@ ms.locfileid: "54286395"
    * 点击图表以移动折线图、条形图、柱形图或气泡图中的条，以查看可视化效果中特定点的值。  
    * 点击“共享快照”图标 ![](./media/mobile-tiles-in-the-mobile-apps/pbi_andr_sharesnapicon.png)，[批注并共享磁贴](mobile-annotate-and-share-a-tile-from-the-mobile-apps.md)。
    * 点击“打开报表”图标 ![](./media/mobile-tiles-in-the-mobile-apps/power-bi-android-tablet-open-report-icon.png)，在移动应用中[查看报表](mobile-reports-in-the-mobile-apps.md)。
-3. 有时，仪表板创建者会为磁贴添加链接。 因此，点击垂直省略号 (**...**) 时可看到“打开链接”![](media/mobile-tiles-in-the-mobile-apps/power-bi-iphone-link-icon.png)：
+3. 有时，仪表板创建者会为磁贴添加链接。 因此，点击垂直省略号 ( **...** ) 时可看到“打开链接”  ![](media/mobile-tiles-in-the-mobile-apps/power-bi-iphone-link-icon.png)：
    
     ![](media/mobile-tiles-in-the-mobile-apps/power-bi-android-tile-link.png)
    
@@ -90,10 +90,10 @@ ms.locfileid: "54286395"
    
     [共享磁贴的快照](mobile-windows-10-phone-app-get-started.md)。
    
-    点击“打开报表”![](././media/mobile-tiles-in-the-mobile-apps/power-bi-ipad-open-report-icon.png) 以[查看基础报表](mobile-reports-in-the-mobile-apps.md)。
+    点击“打开报表”  ![](././media/mobile-tiles-in-the-mobile-apps/power-bi-ipad-open-report-icon.png) 以[查看基础报表](mobile-reports-in-the-mobile-apps.md)。
    
     [打开链接](../../service-dashboard-edit-tile.md#hyperlink)（如果有链接）。 链接可以转到 Power BI 仪表板或外部 URL。
-3. 点击“展开磁贴”![](media/mobile-tiles-in-the-mobile-apps/power-bi-windows-10-focus-mode-icon.png)。 将会在焦点模式下打开磁贴，在其中可以很方便地查看和浏览磁贴数据。 在此模式下，你可以：
+3. 点击“展开磁贴”  ![](media/mobile-tiles-in-the-mobile-apps/power-bi-windows-10-focus-mode-icon.png)。 将会在焦点模式下打开磁贴，在其中可以很方便地查看和浏览磁贴数据。 在此模式下，你可以：
    
    旋转饼图显示饼图顶部扇区的值。  
    
@@ -103,9 +103,9 @@ ms.locfileid: "54286395"
    
    ![](media/mobile-tiles-in-the-mobile-apps/pbi_win10ph_bartile0316.png)
    
-   在此条形图中，**Decor** 条的值显示在图表的顶部。
+   在此条形图中，**Decor** 条的值显示在图表的顶部。 
    
-   点击“全屏”图标 ![](media/mobile-tiles-in-the-mobile-apps/power-bi-full-screen-icon.png)，以全屏幕模式打开磁贴而不显示导航和菜单栏。
+   点击“全屏”  图标 ![](media/mobile-tiles-in-the-mobile-apps/power-bi-full-screen-icon.png)，以全屏幕模式打开磁贴而不显示导航和菜单栏。
    
    > [!NOTE]
    > 还可以在 Windows 10 版 Power BI 移动应用中的[全屏模式下查看仪表板和报表](mobile-windows-10-app-presentation-mode.md)。

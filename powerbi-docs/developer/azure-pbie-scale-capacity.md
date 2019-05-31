@@ -2,20 +2,20 @@
 title: 缩放 Power BI Embedded 容量 | Microsoft Docs
 description: 本文介绍如何在 Microsoft Azure 中缩放 Power BI Embedded 容量。
 services: power-bi-embedded
-author: markingmyname
-ms.author: maghan
+author: rkarlin
+ms.author: rkarlin
 manager: kfile
 editor: ''
 tags: ''
 ms.service: power-bi-embedded
 ms.topic: conceptual
 ms.date: 01/31/2019
-ms.openlocfilehash: 862e2dceb261e9f89480f50320bd0e1ce6a27931
-ms.sourcegitcommit: 0abcbc7898463adfa6e50b348747256c4b94e360
-ms.translationtype: HT
+ms.openlocfilehash: b9a632fa39d320d14d1282cee5e59022a8ab0303
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/06/2019
-ms.locfileid: "55762274"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61388386"
 ---
 # <a name="scale-your-power-bi-embedded-capacity-in-the-azure-portal"></a>在 Azure 门户中缩放 Power BI Embedded 容量
 
@@ -30,7 +30,7 @@ ms.locfileid: "55762274"
 
 1. 登录到 [Azure 门户](https://portal.azure.com/)。
 
-2. 选择“所有服务” > “Power BI Embedded”以查看容量。
+2. 选择“所有服务” > “Power BI Embedded”以查看容量   。
 
     ![Azure 门户中的所有服务](media/azure-pbie-scale-capacity/azure-portal-more-services.png)
 
@@ -38,7 +38,7 @@ ms.locfileid: "55762274"
 
     ![Azure 门户中的 Power BI Embedded 容量列表](media/azure-pbie-scale-capacity/azure-portal-capacity-list.png)
 
-4. 在容量内选择“缩放”下的“定价层”。
+4. 在容量内选择“缩放”下的“定价层”   。
 
     ![缩放下的定价层选项](media/azure-pbie-scale-capacity/azure-portal-scale-pricing-tier.png)
 
@@ -46,7 +46,7 @@ ms.locfileid: "55762274"
 
     ![当前的定价层以蓝色框出](media/azure-pbie-scale-capacity/azure-portal-current-tier.png)
 
-5. 若要纵向扩展或减少容量，请选择要移动到的新层。 选择新层时会将所选层用蓝色虚线边框框起来。 选择“选择”以缩放到新层。
+5. 若要纵向扩展或减少容量，请选择要移动到的新层。 选择新层时会将所选层用蓝色虚线边框框起来。 选择“选择”以缩放到新层  。
 
     ![选择新层](media/azure-pbie-scale-capacity/azure-portal-select-new-tier.png)
 

@@ -12,16 +12,16 @@ ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
 ms.openlocfilehash: 1f50fa577cace62adadd0dfc29216445c6c8f269
-ms.sourcegitcommit: 2116af72f435cd30f1401bb9c7afdcbc76b1c3ce
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/09/2019
+ms.lasthandoff: 05/29/2019
 ms.locfileid: "65454356"
 ---
 # <a name="enter-data-directly-into-power-bi-desktop"></a>直接在 Power BI Desktop 中输入数据
 使用 Power BI Desktop，你可以直接输入数据并在报表和可视化效果中使用该数据。 例如，可以复制部分工作簿或网页，然后将其粘贴到 Power BI Desktop。
 
-若要直接输入数据，请从“开始”功能区选择“输入数据”。
+若要直接输入数据，请从“开始”  功能区选择“输入数据”  。
 
 ![](media/desktop-enter-data-directly-into-desktop/enter-data-directly_1.png)
 
@@ -29,9 +29,9 @@ ms.locfileid: "65454356"
 
 ![](media/desktop-enter-data-directly-into-desktop/enter-data-directly_2.png)
 
-如果想要调整你输入（或粘贴）的数据，可以选择“编辑”按钮以打开“查询编辑器”，在其中你可以在将数据引入 Power BI Desktop 前调整和转换数据。 也可以选择“加载”按钮导入数据，如图所示。
+如果想要调整你输入（或粘贴）的数据，可以选择“编辑”按钮以打开“查询编辑器”  ，在其中你可以在将数据引入 Power BI Desktop 前调整和转换数据。 也可以选择“加载”  按钮导入数据，如图所示。
 
-当你选择“加载”时，Power BI Desktop 将根据你的数据创建新表，并使其在“字段”窗格可用。 下图中，Power BI Desktop 显示了我的新表，默认名称为 Table1，以及在该表中创建的两个字段。
+当你选择“加载”  时，Power BI Desktop 将根据你的数据创建新表，并使其在“字段”  窗格可用。 下图中，Power BI Desktop 显示了我的新表，默认名称为 Table1  ，以及在该表中创建的两个字段。
 
 ![](media/desktop-enter-data-directly-into-desktop/enter-data-directly_3.png)
 

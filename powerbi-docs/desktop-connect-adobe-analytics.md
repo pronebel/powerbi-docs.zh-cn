@@ -11,27 +11,27 @@ ms.date: 05/07/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
 ms.openlocfilehash: aa1c75a30d82a818ec82730c1939d1427b751dfc
-ms.sourcegitcommit: b11e908650379913d00673215e3eaf25d712b122
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/07/2019
+ms.lasthandoff: 05/29/2019
 ms.locfileid: "65239401"
 ---
 # <a name="connect-to-adobe-analytics-in-power-bi-desktop"></a>在 Power BI Desktop 中连接到 Adobe Analytics 
-在 Power BI Desktop 中，可连接到“Adobe Analytics”并使用基础数据（就像在 Power BI Desktop 中使用其他所有数据源一样）。 
+在 Power BI Desktop 中，可连接到“Adobe Analytics”并使用基础数据（就像在 Power BI Desktop 中使用其他所有数据源一样）   。 
 
 ![从 Adobe Analytics 中获取数据](media/desktop-connect-adobe-analytics/connect-adobe-analytics_01.png)
 
 ## <a name="connect-to-adobe-analytics-data"></a>连接到 Adobe Analytics 数据
-若要连接到 Adobe Analytics 数据库，请在 Power BI Desktop 中的“主页”功能区选择“获取数据”。 在左侧类别中选择“联机服务”，此时显示“Adobe Analytics 连接器”。
+若要连接到 Adobe Analytics 数据库，请在 Power BI Desktop 中的“主页”功能区选择“获取数据”    。 在左侧类别中选择“联机服务”，此时显示“Adobe Analytics 连接器”   。
 
 ![从 Adobe Analytics 中获取数据](media/desktop-connect-adobe-analytics/connect-adobe-analytics_01.png)
 
-在显示的 Adobe Analytics 窗口中，选择“登录”按钮，然后提供登录到 Adobe Analytics 帐户的凭据。 随即显示 Adobe 登录窗口，如下图所示。
+在显示的 Adobe Analytics  窗口中，选择“登录”  按钮，然后提供登录到 Adobe Analytics 帐户的凭据。 随即显示 Adobe 登录窗口，如下图所示。
 
 ![登录到 Adobe Analytics](media/desktop-connect-adobe-analytics/connect-adobe-analytics_03.png)
 
-出现提示时，输入你的用户名和密码。 建立连接后，可在 Power BI 的“导航器”对话框中预览和选择多个维度和度量值，以创建单个表格输出。 还可提供所选项所需的任何必要输入参数。 
+出现提示时，输入你的用户名和密码。 建立连接后，可在 Power BI 的“导航器”  对话框中预览和选择多个维度和度量值，以创建单个表格输出。 还可提供所选项所需的任何必要输入参数。 
 
 ![使用导航器选择数据](media/desktop-connect-adobe-analytics/connect-adobe-analytics_04.png)
 

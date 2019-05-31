@@ -11,11 +11,11 @@ ms.date: 12/03/2018
 ms.author: mblythe
 LocalizationGroup: Get started
 ms.openlocfilehash: b524f1b995a3eb67147a16617f3451f5e2cae44b
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54289523"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61165894"
 ---
 # <a name="extended-pro-trial-activation"></a>激活延长的专业版试用期
 
@@ -40,18 +40,18 @@ ms.locfileid: "54289523"
 
 * 2016 年 5 月 3 日与 2017 年 5 月 2 日之间的 Power BI（免费）活动用户有资格延长 Pro 试用期。
 
-* 以前曾使用或目前正在使用 60 天产品内 Pro 试用期的用户仍然有资格延长 Pro 试用期。
+* 以前曾使用或目前正在使用 60 天产品内 Pro 试用期  的用户仍然有资格延长 Pro 试用期。
 
 > [!NOTE]
 > 通过 Office 365 内的 Power BI Pro 或 Power BI Pro 试用订阅获得许可证的用户无法享受此优惠。
 
-## <a name="frequently-asked-questions"></a>常见问题
+## <a name="frequently-asked-questions"></a>常见问题解答
 
-2017 年 5 月 3 日之后注册的新用户是怎样的情况？
+2017 年 5 月 3 日之后注册的新用户是怎样的情况？ 
 
 2017 年 5 月 3 日之后注册 Power BI（免费）的用户没有资格延长 Pro 试用期。 但是，他们可以使用标准的 60 天 Pro 试用期。
 
-我如何知道组织中哪些人有资格延长 Pro 试用期？
+我如何知道组织中哪些人有资格延长 Pro 试用期？ 
 
 虽然没有一种直接的甄别方法，但是你可以查看 Azure Active Directory (Azure AD) 中针对 Power BI 的集成应用程序报表，从而发现过去 30 天内组织中的活动用户。 这样你可以知道哪些人符合条件。 有关详细信息，请参阅[查找已登录的 Power BI 用户](service-admin-access-usage.md)。
 
@@ -60,7 +60,7 @@ ms.locfileid: "54289523"
 > [!NOTE]
 > Azure AD 报表不指示用户在 Power BI 中拥有的许可证是免费版还是 Pro。 它只报告哪些用户已登录到 Power BI 及其登录时间。 如果此报表中列出了用户，也并不一定意味着他们符合使用扩展的 Pro 试用版的条件。
 
-管理员可以阻止用户激活延长 Pro 试用期吗？
+管理员可以阻止用户激活延长 Pro 试用期吗？ 
 
 否。 管理员无法阻止用户激活延长 Pro 试用期或 Power BI Pro 的服务内 60 天试用期。
 

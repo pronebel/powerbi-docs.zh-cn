@@ -12,11 +12,11 @@ ms.date: 03/12/2019
 ms.author: davidi
 LocalizationGroup: Connect to services
 ms.openlocfilehash: c0c1ea450a4b386644fd1c83e9831e993c2b8e5a
-ms.sourcegitcommit: 06ae54ed221979939699c67d63aeccba8b9dfcda
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/14/2019
-ms.locfileid: "57965124"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61403519"
 ---
 # <a name="tutorial-use-cognitive-services-in-power-bi"></a>教程：在 Power BI 中使用认知服务
 
@@ -45,25 +45,25 @@ ms.locfileid: "57965124"
 
 ### <a name="step-1-apply-sentiment-scoring-in-power-bi-service"></a>步骤 1：在 Power BI 服务中应用情绪评分
 
-若要开始，请导航到具有高级容量的 Power BI 工作区，并使用屏幕右上方的“创建”按钮来创建一个新的数据流。
+若要开始，请导航到具有高级容量的 Power BI 工作区，并使用屏幕右上方的“创建”  按钮来创建一个新的数据流。
 
 ![创建数据流](media/service-tutorial-using-cognitive-services/tutorial-using-cognitive-services_01.png)
 
-数据流对话框显示创建新数据流的选项，选择“添加新实体”。 接下来，选择数据源菜单中的“文本/CSV”。
+数据流对话框显示创建新数据流的选项，选择“添加新实体”  。 接下来，选择数据源菜单中的“文本/CSV”  。
 
 ![创建数据流](media/service-tutorial-using-cognitive-services/tutorial-using-cognitive-services_02.png)
 
-将此 URL 粘贴到 URL 字段：[https://pbiaitutorials.blob.core.windows.net/textanalytics/FabrikamComments.csv](https://pbiaitutorials.blob.core.windows.net/textanalytics/FabrikamComments.csv) 并单击“下一步”。
+将此 URL 粘贴到 URL 字段：[https://pbiaitutorials.blob.core.windows.net/textanalytics/FabrikamComments.csv](https://pbiaitutorials.blob.core.windows.net/textanalytics/FabrikamComments.csv) 并单击“下一步”  。
 
 ![创建数据流](media/service-tutorial-using-cognitive-services/tutorial-using-cognitive-services_03.png)
 
-在上方功能区中，选择“转换表”，然后选择“将第一行用作标题”。 数据现已可供文本分析使用，并且可以对客户注释列使用情绪评分和关键短语提取。
+在上方功能区中，选择“转换表”  ，然后选择“将第一行用作标题”  。 数据现已可供文本分析使用，并且可以对客户注释列使用情绪评分和关键短语提取。
 
-在 Power Query 编辑器中，选择“AI 见解”
+在 Power Query 编辑器中，选择“AI 见解” 
 
 ![创建数据流](media/service-tutorial-using-cognitive-services/tutorial-using-cognitive-services_04.png)
 
-展开“认知服务”文件夹，然后选择想要使用的函数。 此示例是对注释列的情绪进行评分，但你可以按照相同的步骤来试用语言检测和关键短语提取。
+展开“认知服务”  文件夹，然后选择想要使用的函数。 此示例是对注释列的情绪进行评分，但你可以按照相同的步骤来试用语言检测和关键短语提取。
 
 ![创建数据流](media/service-tutorial-using-cognitive-services/tutorial-using-cognitive-services_05.png)
 
@@ -71,13 +71,13 @@ ms.locfileid: "57965124"
 
 ![创建数据流](media/service-tutorial-using-cognitive-services/tutorial-using-cognitive-services_06.png)
 
-现在，选择“调用”以运行函数。 会将包含每行情绪评分的新列添加到表中。 可以返回到“AI 见解”以相同的方式提取评论文本的关键短语。
+现在，选择“调用”  以运行函数。 会将包含每行情绪评分的新列添加到表中。 可以返回到“AI 见解”  以相同的方式提取评论文本的关键短语。
 
-完成转换后，将查询名称更改为“客户注释”并选择“完成”。
+完成转换后，将查询名称更改为“客户注释”并选择“完成”  。
 
 ![创建数据流](media/service-tutorial-using-cognitive-services/tutorial-using-cognitive-services_07.png)
 
-接下来，“保存”数据流并将其命名为 Fabrikam。 在保存数据流后，选择弹出的“立即刷新”按钮。
+接下来，“保存”  数据流并将其命名为 Fabrikam。 在保存数据流后，选择弹出的“立即刷新”  按钮。
 
 ![创建数据流](media/service-tutorial-using-cognitive-services/tutorial-using-cognitive-services_08.png)
 
@@ -85,9 +85,9 @@ ms.locfileid: "57965124"
 
 ### <a name="step-2-connect-from-power-bi-desktop"></a>步骤 2：从 Power BI Desktop 中连接
 
-打开 Power BI Desktop。 在“主页”功能区中，选择“获取数据”。
+打开 Power BI Desktop。 在“主页”功能区中，选择“获取数据”  。
 
-导航到 Power BI 部分中的“Power BI 数据流(Beta 版)”并选择“连接”。
+导航到 Power BI 部分中的“Power BI 数据流(Beta 版)”  并选择“连接”  。
 
 ![创建数据流](media/service-tutorial-using-cognitive-services/tutorial-using-cognitive-services_09.png)
 
@@ -95,7 +95,7 @@ ms.locfileid: "57965124"
 
 ![创建数据流](media/service-tutorial-using-cognitive-services/tutorial-using-cognitive-services_10.png)
 
-选择刚创建的数据流。 导航到客户注释表，然后单击“加载”。
+选择刚创建的数据流。 导航到客户注释表，然后单击“加载”  。
 
 ![创建数据流](media/service-tutorial-using-cognitive-services/tutorial-using-cognitive-services_11.png)
 
@@ -103,19 +103,19 @@ ms.locfileid: "57965124"
 
 ## <a name="image-tagging"></a>图像标记
 
-导航到具有高级容量的 Power BI 工作区中。 使用屏幕右上方的“创建”按钮创建一个新的数据流。
+导航到具有高级容量的 Power BI 工作区中。 使用屏幕右上方的“创建”  按钮创建一个新的数据流。
 
 ![创建数据流](media/service-tutorial-using-cognitive-services/tutorial-using-cognitive-services_12.png)
 
-选择“添加新实体”。
+选择“添加新实体”  。
 
 ![创建数据流](media/service-tutorial-using-cognitive-services/tutorial-using-cognitive-services_13.png)
 
-在要求选择数据源时，请选择“空查询”。
+在要求选择数据源时，请选择“空查询”  。
 
 ![创建数据流](media/service-tutorial-using-cognitive-services/tutorial-using-cognitive-services_14.png)
 
-在查询编辑器中复制以下查询并单击“下一步”。 可将下面的 URL 路径替换为其他图像或添加更多行。 “Web.Contents”函数将图像 URL 以二进制形式导入。 如果有以二进制形式存储图像的数据源，也可以直接使用它。
+在查询编辑器中复制以下查询并单击“下一步”。 可将下面的 URL 路径替换为其他图像或添加更多行。 “Web.Contents”  函数将图像 URL 以二进制形式导入。 如果有以二进制形式存储图像的数据源，也可以直接使用它。
 
 
 ```python
@@ -129,7 +129,7 @@ in
 
 ![创建数据流](media/service-tutorial-using-cognitive-services/tutorial-using-cognitive-services_15.png)
 
-当系统提示输入凭据时，选择“匿名”。
+当系统提示输入凭据时，选择“匿名”  。
 
 ![创建数据流](media/service-tutorial-using-cognitive-services/tutorial-using-cognitive-services_16.png)
 
@@ -139,15 +139,15 @@ in
 
 系统将提示你为每个单独的 Web 页面输入凭据。
 
-在查询编辑器中，选择“AI 见解”。
+在查询编辑器中，选择“AI 见解”  。
 
 ![创建数据流](media/service-tutorial-using-cognitive-services/tutorial-using-cognitive-services_18.png)
 
-接下来，使用“组织帐户”登录。
+接下来，使用“组织帐户”  登录。
 
 ![创建数据流](media/service-tutorial-using-cognitive-services/tutorial-using-cognitive-services_19.png)
 
-选择“标记图像”函数，在列字段中输入“[Binary]”并在区域性信息字段中输入“en”。 
+选择“标记图像”函数，在列字段中输入“[Binary]”  并在区域性信息字段中输入“en”  。 
 
 > [!NOTE]
 > 当前不能使用下拉列表选取列，将在个人预览版中尽快解决这一问题。
@@ -165,11 +165,11 @@ in
 
 ![创建数据流](media/service-tutorial-using-cognitive-services/tutorial-using-cognitive-services_22.png)
 
-选择“完成”并保存数据流。 刷新一个数据流后，可以使用数据流连接器从 Power BI Desktop 连接到该数据流。 （请参阅本文档第 5 页的步骤）。
+选择“完成”  并保存数据流。 刷新一个数据流后，可以使用数据流连接器从 Power BI Desktop 连接到该数据流。 （请参阅本文档第 5 页的步骤）。
 
 ## <a name="clean-up-resources"></a>清理资源
 
-不再需要资源时，通过右键单击 Power Query 编辑器中的查询名称并选择“删除”来删除查询。
+不再需要资源时，通过右键单击 Power Query 编辑器中的查询名称并选择“删除”  来删除查询。
 
 ## <a name="next-steps"></a>后续步骤
 

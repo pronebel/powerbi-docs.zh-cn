@@ -1,32 +1,102 @@
 ---
 title: Power BI 报表服务器中的新增功能
 description: 了解 Power BI 报表服务器中的新增功能。 本文涉及主要功能方面，并会在新功能发布时随之进行更新。
-author: markingmyname
-ms.author: maghan
+author: maggiesMSFT
+ms.author: maggies
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
-ms.date: 01/22/2019
-ms.openlocfilehash: e645cd84b646e180114027464ea4781277d5245f
-ms.sourcegitcommit: a054782370dec56d49bb205ee10b7e2018f22693
-ms.translationtype: HT
+ms.date: 05/22/2019
+ms.openlocfilehash: 364795a25aaffb92afc4a7148c9bf6b3f88d2ac8
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/22/2019
-ms.locfileid: "56662448"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "66187320"
 ---
 # <a name="whats-new-in-power-bi-report-server"></a>Power BI 报表服务器中的新增功能
 
-了解 Power BI 报表服务器中的新增功能。 本文涉及主要功能方面，并会在新功能发布时随之进行更新。
-
-若要下载最新版本的 Power BI 报表服务器和针对 Power BI 报表服务器进行了优化的 Power BI Desktop，请转到[使用 Power BI 报表服务器进行本地报告](https://powerbi.microsoft.com/report-server/)。
+了解什么是 Power BI 报表服务器和 Power BI Desktop 更适合 Power BI 报表服务器中的新增功能。 本文涉及主要功能方面，并会在新功能发布时随之进行更新。
 
 若要了解相关的 Power BI“新增功能”信息，请参阅：
 
 * [Power BI 服务中的最近更新](../service-whats-new.md)
 * [Power BI Desktop 中的新增功能](../desktop-latest-update.md)
 * [Power BI 移动应用中的新增功能](../consumer/mobile/mobile-whats-new-in-the-mobile-apps.md)
+
+## <a name="may-2019-power-bi-desktop-for-power-bi-report-server"></a>2019 年 5:Power BI 报表服务器的 power BI Desktop
+
+请参阅[Power BI 报表服务器 2019 年 5](https://powerbi.microsoft.com/blog/power-bi-report-server-update-may-2019/)博客文章以获取有关所有新功能的详细信息。
+
+下面是一些版本的重要功能：
+
+### <a name="performance-analyzer"></a>性能分析器 
+
+如果您的报表运行速度比预期缓慢，请尝试在 Power BI Desktop 中性能分析器。 当您启动它时，它与您在报表中执行的每个操作有关的信息创建一个日志文件。 详细了解[性能分析器](../desktop-performance-analyzer.md)。
+
+### <a name="new-modeling-view"></a>新建建模视图
+
+在 Power BI Desktop 中新的建模视图，您可以查看和使用包含多个表的复杂数据集。 突出显示包含多个关系图布局和批量编辑的列、 度量值和表。 详细了解[建模视图](../desktop-modeling-view.md)。
+
+### <a name="accessible-visual-interaction"></a>可访问的可视化交互
+
+你可以立即访问许多使用键盘导航的内置视觉对象上的数据点。 详细了解[Power BI 报表中的可访问性](../desktop-accessibility.md)。
+
+### <a name="conditional-formatting-titles-and-web-url-actions"></a>条件格式设置的标题和 web URL 操作
+
+Power BI 报表是交互式的。 它有意义，在报表中的标题是动态的以反映报表的当前状态。 您可以使用同一绑定表达式的格式设置变成动态地图的按钮、 形状和图像的 Url。 详细了解[基于表达式的标题](../desktop-conditional-format-visual-titles.md)。
+
+### <a name="cross-highlight-by-axis-labels"></a>按轴标签的交叉突出显示
+
+视觉对象，以交叉突出显示的其他元素在页面上，选择轴类别标签，就像将视觉对象中选择数据点。 详细了解[交叉突出显示](../power-bi-reports-filters-and-highlighting.md#ad-hoc-highlighting)。
+
+### <a name="all-the-new-features"></a>所有新功能
+
+下面是所有新功能的列表：
+
+### <a name="reporting"></a>报表
+
+- 在折线图中的单个点上的交叉突出显示 
+- 在标题上的自动换行 
+- 为交叉筛选 ¬ 更新默认 visual 交互
+- 视觉对象边框的圆的角 
+- 单一选择切片器  
+- 必应地图的热度地图支持  
+- 按轴标签的交叉突出显示  
+- 默认格式设置工具提示  
+- 静态 web URL 支持按钮、 形状和图像  
+- 页面对齐选项   
+- 选择窗格改进  
+- 可访问的可视化交互  
+- 条件格式设置的视觉对象的标题  
+- 条件格式设置为按钮、 形状和图像的 web URL 操作
+- 性能分析工具窗格
+- 表和矩阵的键盘导航
+- 行数据标签位置控件
+- KPI 可视指示符文本大小控件
+
+### <a name="analytics"></a>分析
+
+- 日期显示为层次结构现在已公开发布  
+
+### <a name="modeling"></a>建模
+
+- 新建建模视图现已公开发布
+- 新的 DAX 函数
+- 更新到 ALLSELECTED DAX 函数
+- 禁用自动日期表的新报表
+
+## <a name="may-2019-power-bi-report-server"></a>2019 年 5:Power BI 报表服务器
+
+### <a name="support-for-trusted-visuals"></a>支持受信任的视觉对象
+
+我们已添加到 Power BI 报表服务器的支持受信任的视觉对象。 目前我们支持 Mapbox 和电源打开视觉对象。 ESRI、 Visio 和 PowerApps 不支持此版本。）
+
+### <a name="improved-security-features"></a>改进的安全功能
+
+**RestrictedResourceMimeTypeForUpload**，管理员可用于指定一列以逗号分隔的已禁止的 mime 类型，例如 text/html。
 
 ## <a name="january-2019"></a>2019 年 1 月
 
@@ -68,7 +138,7 @@ Power BI 报表中支持以下功能：
 
 #### <a name="report-theming"></a>报表主题
 
-2018 年 8 月版本的 Power BI 报表服务器中添加了报表主题，可快速为整个报表着色，以匹配主题或公司品牌。 导入主题时，所有图表都会自动更新为使用主题颜色，可从调色板访问主题颜色。 可使用“切换主题”按钮下的“导入主题”选项上传主题文件。
+2018 年 8 月版本的 Power BI 报表服务器中添加了报表主题，可快速为整个报表着色，以匹配主题或公司品牌。 导入主题时，所有图表都会自动更新为使用主题颜色，可从调色板访问主题颜色。 可使用“切换主题”按钮下的“导入主题”选项上传主题文件   。
 
 主题文件是一个 JSON 文件，其中包含想要在报表中使用的所有颜色以及要应用于视觉对象的任何默认格式。
 这是一个简单的 JSON 主题示例，它只更新报表的默认颜色：
@@ -89,7 +159,7 @@ Power BI 报表中支持以下功能：
 
 #### <a name="conditional-formatting-by-values"></a>通过值设置条件格式
 
-另一个新的条件格式类型是“按字段设置格式”值。 借助“按字段设置格式”值，可使用通过十六进制代码或名称指定颜色的度量值或列，并将该颜色应用于背景或字体颜色。
+另一个新的条件格式类型是“按字段设置格式”值  。 借助“按字段设置格式”值，可使用通过十六进制代码或名称指定颜色的度量值或列，并将该颜色应用于背景或字体颜色。
 
 #### <a name="report-page-tooltips"></a>报告页工具提示
 
@@ -247,7 +317,7 @@ Power BI 报表现在提供使用 Kerberos 的 SAP HANA SSO 直接查询支持�
 
 #### <a name="export-to-accessible-pdf"></a>导出为可访问的 PDF
 
-现在将分页 (RDL) 报表导出为 PDF 时，可以获取一个可访问/标记的 PDF 文件。 虽然该文件比较大，但更方便屏幕阅读器和其他辅助技术阅读和导航。 通过将 AccessiblePDF 设备信息设置设为“True”，启用可访问的 PDF。 请参阅 [PDF 设备信息设置](https://docs.microsoft.com/sql/reporting-services/pdf-device-information-settings)和[更改设备信息设置](https://docs.microsoft.com/sql/reporting-services/customize-rendering-extension-parameters-in-rsreportserver-config#changing-device-information-settings)。
+现在将分页 (RDL) 报表导出为 PDF 时，可以获取一个可访问/标记的 PDF 文件。 虽然该文件比较大，但更方便屏幕阅读器和其他辅助技术阅读和导航。 通过将 AccessiblePDF 设备信息设置设为“True”，启用可访问的 PDF   。 请参阅 [PDF 设备信息设置](https://docs.microsoft.com/sql/reporting-services/pdf-device-information-settings)和[更改设备信息设置](https://docs.microsoft.com/sql/reporting-services/customize-rendering-extension-parameters-in-rsreportserver-config#changing-device-information-settings)。
 
 ### <a name="other-improvements"></a>其他改进
 
@@ -268,7 +338,7 @@ Power BI 报表服务器中的 Power BI 报表可以连接到各种数据源。 
 
 ### <a name="editing-power-bi-reports-from-the-server"></a>从服务器编辑 Power BI 报表
 
-可以从服务器打开和编辑 Power BI 报表 (.pbix) 文件，而且可以找回上传的原始文件。  这意味着，如果数据已由服务器刷新，则在首次打开该文件时将不会刷新数据。 需要在本地手动刷新才能查看更改。
+可以从服务器打开和编辑 Power BI 报表 (.pbix) 文件，而且可以找回上传的原始文件。  这意味着，如果数据已由服务器刷新，则在首次打开该文件时将不会刷新数据  。 需要在本地手动刷新才能查看更改。
 
 ### <a name="large-file-uploaddownload"></a>大型文件上传/下载
 
@@ -328,7 +398,7 @@ Excel 和 Power BI 包含行业中独一无二的一套工具。 同时，它们
 
 ### <a name="support-for-new-table-and-matrix-visuals"></a>支持新的表和矩阵视觉对象
 
-Power BI 报表服务器现在支持新的 Power BI 表和矩阵视觉对象。 若要创建具有这些视觉对象的报表，需要 2017 年 10 月发布的更新的 Power BI Desktop 版本。 它不能与 Power BI Desktop（2017 年 6 月）版本并行安装。 对于最新版本的 Power BI Desktop，请在 [Power BI 报表服务器下载页](https://powerbi.microsoft.com/report-server/)上选择“高级下载选项”。
+Power BI 报表服务器现在支持新的 Power BI 表和矩阵视觉对象。 若要创建具有这些视觉对象的报表，需要 2017 年 10 月发布的更新的 Power BI Desktop 版本。 它不能与 Power BI Desktop（2017 年 6 月）版本并行安装。 对于最新版本的 Power BI Desktop，请在 [Power BI 报表服务器下载页](https://powerbi.microsoft.com/report-server/)上选择“高级下载选项”  。
 
 ## <a name="june-2017"></a>2017 年 6 月
 
@@ -339,7 +409,7 @@ Power BI 报表服务器现在支持新的 Power BI 表和矩阵视觉对象。 
 * Power BI 报表服务器预览版已发布
 * 可以在本地发布 Power BI 报表
   * 支持自定义视觉对象
-  * 仅支持 Analysis Services 实时连接，今后将会支持更多数据源。
+  * 仅支持 Analysis Services 实时连接，今后将会支持更多数据源  。
   * Power BI 移动应用更新为显示在 Power BI 报表服务器中托管的 Power BI 报表
 * 通过注释增强了报表协作
 

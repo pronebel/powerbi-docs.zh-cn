@@ -11,11 +11,11 @@ ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
 ms.openlocfilehash: e15333af4e2fb8508f76517b193ca4351c2782c7
-ms.sourcegitcommit: 750f0bfab02af24c8c72e6e9bbdd876e4a7399de
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/04/2019
-ms.locfileid: "54007904"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61149550"
 ---
 # <a name="connect-to-prevedere-with-power-bi"></a>使用 Power BI 连接到 Prevedere
 获取独家和关键财务信息的访问权限，从而自信主动地发展你的业务。
@@ -32,13 +32,13 @@ ms.locfileid: "54007904"
 2. 在**服务**框中，选择**获取**。
    
    ![](media/service-connect-to-prevedere/services.png)
-3. 选择 **Prevedere**，然后选择“获取”。
+3. 选择 **Prevedere**，然后选择“获取”  。
    
    ![](media/service-connect-to-prevedere/connect.png)
-4. 对于“身份验证方法”，请选择“密钥”，然后键入你的 Prevedere API 密钥。
+4. 对于“身份验证方法”  ，请选择“密钥”  ，然后键入你的 Prevedere API 密钥。
    
     ![](media/service-connect-to-prevedere/creds.png)
-5. 选择“登录”以开始导入过程。 导入完成后，在导航窗格中将会出现新的仪表板、报表和模型。 选择仪表板查看已导入的数据。
+5. 选择“登录”  以开始导入过程。 导入完成后，在导航窗格中将会出现新的仪表板、报表和模型。 选择仪表板查看已导入的数据。
    
      ![](media/service-connect-to-prevedere/dashboard.png)
 
@@ -47,7 +47,7 @@ ms.locfileid: "54007904"
 * 尝试在仪表板顶部的[在“问答”框中提问](consumer/end-user-q-and-a.md)
 * 在仪表板中[更改磁贴](service-dashboard-edit-tile.md)。
 * [选择磁贴](consumer/end-user-tiles.md)以打开基础报表。
-* 虽然数据集将按计划每日刷新，但你可以更改刷新计划或根据需要使用“立即刷新”来尝试刷新
+* 虽然数据集将按计划每日刷新，但你可以更改刷新计划或根据需要使用“立即刷新”  来尝试刷新
 
 ## <a name="whats-included"></a>包含的内容
 此内容包获取了零售预测、预测模型、主要指标等见解。

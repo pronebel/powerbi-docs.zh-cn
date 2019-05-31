@@ -10,11 +10,11 @@ ms.topic: conceptual
 ms.date: 03/13/2018
 ms.author: mshenhav
 ms.openlocfilehash: 8b994dfd44a999b877a906571027f5fcb55d9924
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54275332"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "60972739"
 ---
 # <a name="scan-a-power-bi-qr-code-from-your-mobile-device"></a>使用移动设备扫描 Power BI QR 码
 适用于：
@@ -36,7 +36,7 @@ Power BI 中的 QR 代码可以将现实生活中的任何项目直接连接到�
 
 ## <a name="scan-a-power-bi-qr-code-on-your-iphone-with-the-power-bi-scanner"></a>使用 Power BI 扫描程序在 iPhone 上扫描 Power BI QR 码
 1. 在 Power BI 移动应用中打开左上方的全局导航菜单 ![](media/mobile-apps-qr-code/power-bi-iphone-global-nav-button.png)。 
-2. 向下滚动到“扫描程序”并选择它。 
+2. 向下滚动到“扫描程序”  并选择它。 
    
     ![](media/mobile-apps-qr-code/power-bi-iphone-scanner-menu.png)
 3. 如果未启用照相机，你需要许可 Power BI 应用使用照相机。 这是一次性允许。 
@@ -54,7 +54,7 @@ Power BI 中的 QR 代码可以将现实生活中的任何项目直接连接到�
 
 ## <a name="scan-a-power-bi-qr-code-on-your-android-device-with-the-power-bi-scanner"></a>使用 Power BI 扫描程序在 Android 设备上扫描 Power BI QR 码
 1. 在 Power BI 移动应用中打开左上方的全局导航按钮 ![](media/mobile-apps-qr-code/power-bi-android-global-nav-icon.png)。 
-2. 向下滚动到“QR 扫描程序”，并选择此选项。
+2. 向下滚动到“QR 扫描程序”  ，并选择此选项。
    
     ![](media/mobile-apps-qr-code/power-bi-android-scanner-menu.png)
 3. 如果未启用照相机，你需要许可 Power BI 应用使用照相机。 此许可为一次性的。 

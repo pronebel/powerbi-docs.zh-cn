@@ -1,3 +1,11 @@
+---
+ms.openlocfilehash: 74be4112071aba3f629d6b44d322cf2caa522f18
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61396220"
+---
 欢迎来到 Power BI **引导学习**课程的**可视化效果**部分。 准备好体验 Power BI 提供的众多可视化效果的趣味十足的启发之旅。 这并还不是全部 - 我们将不断推出更多可视化效果！
 
 ![](media/3-1-intro-visualizations/3-1_1.png)

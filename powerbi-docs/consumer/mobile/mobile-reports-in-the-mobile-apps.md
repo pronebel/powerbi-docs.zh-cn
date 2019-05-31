@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: conceptual
-ms.date: 08/17/2018
+ms.date: 04/21/2019
 ms.author: mshenhav
-ms.openlocfilehash: 037cab2435abddc0988d076f6598ab8313b4dda6
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
-ms.translationtype: HT
+ms.openlocfilehash: bee60dd6f3254b049f2445e6e985c625933caf5b
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54281565"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "65565448"
 ---
 # <a name="explore-reports-in-the-power-bi-mobile-apps"></a>在 Power BI 移动应用中浏览报表
 适用于：
@@ -32,89 +32,78 @@ Power BI 报表是交互式数据视图，使用视觉对象来表示不同的�
 ## <a name="open-a-power-bi-report-in-the-mobile-app"></a>在移动应用中打开 Power BI 报表
 Power BI 报表存储在移动应用中的不同位置，具体取决于从何处获取。 可以位于“应用”、“与我共享”、“工作区”（包括“我的工作区”）或报表服务器中。 有时，可以通过相关仪表板转到报表；有时，其中也会列出报表。
 
-* 在仪表板中，依次点击磁贴右上角的省略号 (...) 和“打开报表”。
+在列表和菜单中，您会发现报表名称旁边的图标帮助您了解此项是报表。 
+
+![我的工作区中的报表](./media/mobile-reports-in-the-mobile-apps/reports-my-workspace.png) 
+
+有两个图标的 Power BI 移动应用中的报表：
+
+* ![报表图标](./media/mobile-reports-in-the-mobile-apps/report-default-icon.png) 表示报表将以横向方式在应用程序提供程序并在浏览器中看上去外观相同。
+
+* ![手机报表图标](./media/mobile-reports-in-the-mobile-apps/report-phone-icon.png) 指示具有至少一个电话优化的报表页上，将纵向时呈现的报表。 
+
+注意:在环境中保存您的电话，则始终会横向布局，即使报表页具有手机布局。 
+
+若要从仪表板转到报表，请点击磁贴右上角的省略号 （...） >**打开报表**。
   
   ![打开报表](./media/mobile-reports-in-the-mobile-apps/power-bi-android-open-report-tile.png)
   
   并非所有磁贴都包含报表打开选项。 例如，通过在问答框中提问而创建的磁贴就无法在获得点击后打开报表。 
   
-  在手机上，报表将在横向模式下打开，除非[经过优化，更适合在手机上查看](mobile-reports-in-the-mobile-apps.md#view-reports-optimized-for-phones)。
-  
-  ![横向模式下的手机报表](./media/mobile-reports-in-the-mobile-apps/power-bi-iphone-report-landscape.png)
+## <a name="interacting-with-reports"></a>与报表交互
+在应用中打开报表后，可以开始使用它。 有许多您可以使用您的报表和其数据执行的操作。 在报表表尾中，您会发现在报告中，并通过点击和长点击您还可以切片和切块数据的报表中显示的数据可执行的操作。
 
-## <a name="view-reports-optimized-for-phones"></a>查看针对手机优化后的报表
-Power BI 报表作者可以创建专门针对手机进行优化的报表布局。 更适合在手机上展示的报表页新增了功能：例如，可以对视觉对象执行向下钻取和排序操作，并能访问[报表作者在报表页中添加的筛选器](mobile-apps-view-phone-report.md#filter-the-report-page-on-a-phone)。 在手机上打开的报表已筛选出网页版报表中筛选的值，并通过消息提示报表页上有活动筛选器。 可以在手机上更改筛选器。
+### <a name="using-tap-and-long-tap"></a>使用点击和长时间点击
+点击等于鼠标单击。 因此，如果你想要交叉突出显示报表基于的数据点上，点击该数据点上。
+点击切片器值，使选择的值且该值通过对报表的其余部分进行切片。 点击链接上，按钮或书签将激活它根据由作者定义的操作。
 
-在报表列表中，优化后的报表具有特殊图标 ![手机报表图标](./media/mobile-reports-in-the-mobile-apps/power-bi-phone-report-icon.png)：
+您可能注意到，点击视觉对象后，将出现一个边框。 在右上角的边框的没有省略号 （...）。点击它将显示一个具有可以在该视觉对象执行的操作菜单。
 
-![打开手机报表](./media/mobile-reports-in-the-mobile-apps/power-bi-android-phone-report.png)
+![报表视觉对象和菜单](./media/mobile-reports-in-the-mobile-apps/report-visual-menu.png)
 
-在手机上查看此类报表时，将在纵向视图中打开。
+### <a name="tooltip-and-drill-actions"></a>工具提示和钻取操作
 
-![纵向视图下的报表](./media/mobile-reports-in-the-mobile-apps/07-power-bi-phone-report-portrait.png)
+在长时间点击 （tap 和 hold） 数据点，工具提示将显示呈现此数据点表示的值。 
 
- 报表可能混合了针对或未针对手机进行优化的报表页。 如果是这样，浏览报表时，每个报表页的视图都会从纵向模式切换为横向模式。
+![报表工具提示](./media/mobile-reports-in-the-mobile-apps/report-tooltip.png)
 
-阅读有关[针对手机视图进行优化的报表](mobile-apps-view-phone-report.md)的详细信息。
+报表作者可以定义层次结构中的数据和报表页之间的关系。 层次结构，允许向下的钻取，向下钻和钻取视觉对象并将值的另一个报表页。 因此，长时间的值，除了工具提示中，点击时相关的钻取选项将显示在页脚中。 
 
-## <a name="use-slicers-to-filter-a-report"></a>使用切片器筛选报表
-在 Power BI Desktop 或 Power BI 服务中设计报表时，请考虑[将切片器添加到报表页](../../visuals/power-bi-visualization-slicers.md)。 你和同事可以使用切片器在浏览器和移动应用中筛选页面。 在手机上查看报表时，可以在横向模式下和在针对手机的纵向模式进行了优化的页面中查看切片器并与之交互。 如果选择切片器中的值或在浏览器中进行筛选，那么在移动应用中查看报表页时，将会发现已选择相应值。 还会通过消息提示报表页上有活动筛选器。  
+![报表钻取操作](./media/mobile-reports-in-the-mobile-apps/report-drill-actions.png)
 
-* 在报表页上的切片器中选择值后，便会筛选报表页上的其他视觉对象。
-  
-  ![报表切片器](./media/mobile-reports-in-the-mobile-apps/power-bi-android-tablet-report-slicer.png)
-  
-  在此插图中，切片器将在列图表中筛选出 7 月的值。
-
-## <a name="cross-filter-and-highlight-a-report"></a>交叉筛选并突出显示报表
-在视觉对象中选择值后，便不会筛选其他视觉对象。 而是会突出显示其他视觉对象中的相关值。
-
-* 点击视觉对象中的值。
-  
-  ![交叉筛选页面](./media/mobile-reports-in-the-mobile-apps/power-bi-android-tablet-report-highlight.png)
-  
-  点击一个视觉对象中的大型列将突出显示其他视觉对象中的相关值。 
-
-## <a name="sort-a-visual-on-an-ipad-or-a-tablet"></a>在 iPad 或平板电脑上对视觉对象进行排序
-* 点击图表，点击省略号 (**...**)，然后点击字段名。
-  
-   ![对视觉对象排序](./media/mobile-reports-in-the-mobile-apps/power-bi-android-tablet-report-sort.png)
-* 若要反向排序，请依次重新点击省略号 (...) 和相同的字段名称。
-
-## <a name="drill-down-and-up-in-a-visual"></a>在视觉对象中向下钻取和向上钻取
-如果报表作者已将向下钻取功能添加到视觉对象，则可以向下钻取视觉对象，查看其中所包含的值。 在 Power BI Desktop 或 Power BI 服务中[向视觉对象添加向下钻取功能](../end-user-drill.md)。 
-
-* 点击并按住视觉对象中的特定栏或点以显示其工具提示。 如果它具有向下钻取功能，则工具提示底部具有可点击的箭头。 
-  
-  ![在视觉对象中向下钻取](./media/mobile-reports-in-the-mobile-apps/power-bi-mobile-drill-down-tooltip.png)
-
-* 要向上钻取，请点击工具提示中的向上箭头。
-  
-  ![向上钻取](./media/mobile-reports-in-the-mobile-apps/power-bi-mobile-drill-up-tooltip.png)
-
-* 还可在视觉对象中向下钻取所有数据点。 在焦点模式下打开数据点，点击“浏览”图标，然后选择显示所有下一级别，或将其展开以显示当前级别和下一级别。
-
-   ![Power BI 向下钻取所有内容](./media/mobile-reports-in-the-mobile-apps/power-bi-drill-down-all.png)
-
-## <a name="drill-through-from-one-page-to-another"></a>从某一页钻取到另一页
-
-通过钻取，Power BI 会在你点击视觉对象的特定部分时，转到报表中的另一页，筛选出点击的值。 报表作者可定义一个或多个钻取操作，每个操作分别转到不同页面。 在这种情况下，可选择所需的钻取操作。 在以下示例中，点击仪表中的值时，可选择钻取“各业务领域的开销”或“各业务领域的计划”。
-
-![Power BI 移动版钻取报表](./media/mobile-reports-in-the-mobile-apps/power-bi-mobile-drill-through-it-spent-report.png)
-
-钻取时，使用返回按钮即可返回到之前的报表页。
+通过钻取，Power BI 会在你点击视觉对象的特定部分时，转到报表中的另一页，筛选出点击的值  。  报表作者可定义一个或多个钻取操作，每个操作分别转到不同页面。 在这种情况下，可选择所需的钻取操作。 后退按钮将返回上一个报表页。
 
 了解如何[在 Power BI Desktop 中添加钻取](../../desktop-drillthrough.md)。
+   
+   > [!IMPORTANT]
+   > 在 Power BI 移动应用中，通过的单元值，而不是由列和行标题启用钻取矩阵和表视觉对象中。
+   
+   
+   
+### <a name="using-the-actions-in-the-report-footer"></a>在报表表尾中使用的操作
+当前报表页上或对整个报表，报表表尾具有可以执行的操作。 页脚具有快速访问最有用的操作，并且所有操作都可以从省略号 （...） 的访问权限。
 
-## <a name="show-data-and-copy-values"></a>显示数据和复制值
+![报表表尾](./media/mobile-reports-in-the-mobile-apps/report-footer.png)
 
-通过选择手机报表中的可视化效果右上角的菜单选项省略号 (...)，然后选择“显示数据”，可以查看基础可视化效果数据。
+可以在页脚中执行的操作包括：
+1) 重置报表筛选器和交叉突出显示选择恢复到其原始状态。
+2) 打开会话窗格可以查看或对此报表中添加注释。
+3) 打开筛选器窗格可以查看和修改当前报表上应用的筛选器。
+4) 列出此报表中的所有页面。 点击页面名称将加载并显示该页面。
+可以通过从屏幕的边缘轻扫，到中心完成报表页间移动。
+5) 查看所有报表操作。
 
-![Power BI 移动版显示数据菜单选项](./media/mobile-reports-in-the-mobile-apps/copy-data-visual.png)
+#### <a name="all-report-actions"></a>所有报表操作
+点击上...选项在报表表尾中，将使你可以对报表执行的所有操作。 
 
-长时间点击显示的表中的单元格将会弹出本机选择和复制菜单，因此你将能够从表（或整个表）中选择复制数据。
+![报告所有操作](./media/mobile-reports-in-the-mobile-apps/report-all-actions.png)
 
-![Power BI 移动版钻取报表](./media/mobile-reports-in-the-mobile-apps/copy-data-table.png)
+某些操作可能已禁用，因为它们依赖于特定的报表功能。
+例如：
+1) **筛选器的当前位置由**当在报表中的数据分类包含地理位置数据的作者，才启用。 [了解如何识别在报表中的地理数据](https://docs.microsoft.com/power-bi/desktop-mobile-geofiltering)。
+2) **扫描，以按条形码筛选报表**在报表中的数据集标记为条形码时，才会启用。 [如何在 Power BI Desktop 中标记条形码](https://docs.microsoft.com/power-bi/desktop-mobile-barcodes)。 
+3) **邀请**您有权与他人共享此报表时，才会启用。 仅当您是报表的所有者或已由所有者授予重新共享权限，您将具有权限。
+4) **批注并共享**是否存在可能会禁用[Intune 保护策略](https://docs.microsoft.com/intune/app-protection-policies)禁止共享 Power BI 移动应用在组织中。 
 
 ## <a name="next-steps"></a>后续步骤
 * [查看手机优化版 Power BI 报表并与之交互](mobile-apps-view-phone-report.md)

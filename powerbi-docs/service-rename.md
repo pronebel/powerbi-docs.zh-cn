@@ -11,11 +11,11 @@ ms.date: 03/01/2018
 ms.author: maggies
 LocalizationGroup: Common tasks
 ms.openlocfilehash: 905ef263084cf531e6b38fb4640286e4d78697ce
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54275609"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61273354"
 ---
 # <a name="rename-almost-anything-in-power-bi-service"></a>在 Power BI 服务中重命名几乎所有内容
 本文介绍如何在 Power BI 服务中重命名仪表板、报表、报表页、工作簿、数据集、应用和工作区。
@@ -34,18 +34,18 @@ ms.locfileid: "54275609"
 | **与我共享的内容**中的内容 |否 |否 |
 
 ## <a name="rename-a-dashboard-report-or-workbook"></a>重命名仪表板、报表或工作簿
-1. 在工作区中，依次选择“仪表板”、“报表”或“工作簿”选项卡。将鼠标悬停在要重命名的项上，并选择齿轮图标 ![齿轮图标](media/service-rename/powerbi-cog-icon.png)。 如果未显示齿轮图标，则表示你无权重命名。
+1. 在工作区中，依次选择“仪表板”  、“报表”  或“工作簿”  选项卡。将鼠标悬停在要重命名的项上，并选择齿轮图标 ![齿轮图标](media/service-rename/powerbi-cog-icon.png)。 如果未显示齿轮图标，则表示你无权重命名。
    
    ![Power BI 服务工作区](media/service-rename/power-bi-workspace-dashboards.png)
-2. 在“设置”页上，键入新名称，然后选择“保存”。
+2. 在“设置”页上，键入新名称，然后选择“保存”  。
    
    ![数据集的设置窗口](media/service-rename/power-bi-rename-dashboard2.png)
 
 ## <a name="rename-a-dataset"></a>重命名数据集
-1. 在工作区中，选择“数据集”选项卡。
+1. 在工作区中，选择“数据集”  选项卡。
    
    ![工作区“数据集”选项卡](media/service-rename/power-bi-ellipses.png)
-2. 将鼠标悬停在要重命名的项上，选择省略号 (...)，并选择“重命名”。  
+2. 将鼠标悬停在要重命名的项上，选择省略号 (...)，并选择“重命名”  。  
    
       ![选择“重命名”](media/service-rename/power-bi-rename-datasets.png)
    
@@ -53,7 +53,7 @@ ms.locfileid: "54275609"
    > 下拉列表中的选项各不相同。
    > 
    > 
-3. 在“设置”页上，键入一个新名称，然后选择“保存”。
+3. 在“设置”页上，键入一个新名称，然后选择“保存”  。
    
      ![“重命名”窗格](media/service-rename/power-bi-rename.png)
 
@@ -61,10 +61,10 @@ ms.locfileid: "54275609"
 具有管理员权限的任何人都可以重命名应用工作区。
 
 1. 在想要重命名的工作区中开始操作。
-2. 在右上角，选择省略号 (...) 并选择“编辑工作区”。 如果未显示此选项，则表示你无权重命名此工作区。 
+2. 在右上角，选择省略号 (...) 并选择“编辑工作区”  。 如果未显示此选项，则表示你无权重命名此工作区。 
    
     ![选项“编辑”工作区](media/service-rename/power-bi-edit-workspace.png)
-3. 键入一个新的工作区名称，然后选择“保存”。
+3. 键入一个新的工作区名称，然后选择“保存”  。
    
    ![编辑工作区窗格](media/service-rename/power-bi-workspace-rename.png)
 
@@ -85,7 +85,7 @@ ms.locfileid: "54275609"
 
 ## <a name="considerations-and-troubleshooting"></a>注意事项和疑难解答
 * 如果要重命名的项已与你共享，或属于内容包的一部分，那么你不会看到齿轮图标并且将无权访问“设置”。
-* 如果在“数据集”选项卡上看不到省略号 (...)，请展开浏览器窗口。
+* 如果在“数据集”  选项卡上看不到省略号 (...)，请展开浏览器窗口。
 
 更多问题？ [尝试参与 Power BI 社区](http://community.powerbi.com/)
 

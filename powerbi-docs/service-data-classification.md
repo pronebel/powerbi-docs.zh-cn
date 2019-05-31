@@ -11,11 +11,11 @@ ms.date: 08/10/2017
 ms.author: amac
 LocalizationGroup: Dashboards
 ms.openlocfilehash: b7d9bdf0982ea7ad4f57225e5a1eaf8c9da90b50
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54276091"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61139205"
 ---
 # <a name="dashboard-data-classification"></a>仪表板数据分类
 每个仪表板都不同，具体取决于你连接到的数据源，你可能会发现你和你与其共享的同事将需要根据数据的敏感性采取不同的预防措施。 一些仪表板永远不应与公司外部的人员共享，或打印出来，而其它仪表板则可以随意共享。 通过使用仪表板数据分类，你将能够提高查看你仪表板的人员应使用何种安全级别方面的意识。 你可以使用公司 IT 部门定义的分类来标记仪表板，以便查看该内容的每个人对于数据的敏感性都有相同层面的理解。
@@ -47,23 +47,23 @@ ms.locfileid: "54276091"
 
 若要更改分类类型，请执行以下操作。
 
-1. 通过选择仪表板名称旁的省略号，然后选择“设置”，转到仪表板设置。
+1. 通过选择仪表板名称旁的省略号  ，然后选择“设置”  ，转到仪表板设置。
    
     ![](media/service-data-classification/dashboard_settings.png)
 2. 在仪表板设置下，你将能够看到仪表板的当前分类，然后使用下拉列表来更改分类类型。
    
     ![](media/service-data-classification/classification_setting_dropdown.png)
-3. 完成时，选择“应用”。
+3. 完成时，选择“应用”  。
 
 应用更改后，你与之共享的任何人都将在下次重新加载仪表板时看到更新。
 
 ## <a name="working-with-data-classification-tags-as-an-admin"></a>作为管理员使用数据分类标签
 通过组织的全局管理员设置数据分类。 若要开启数据分类，请执行以下操作。
 
-1. 选择“设置”齿轮，然后选择“管理门户”。
+1. 选择“设置”齿轮，然后选择“管理门户”  。
    
     ![](media/service-data-classification/admin_portal_in_settings.png)
-2. 在“租户设置”选项卡中，将“仪表板和报表的数据分类”切换为“开启”。
+2. 在“租户设置”  选项卡中，将“仪表板和报表的数据分类”  切换为“开启”  。
    
     ![](media/service-data-classification/data_classification_switch_location.png)
 
@@ -71,11 +71,11 @@ ms.locfileid: "54276091"
 
 ![](media/service-data-classification/blank_classification_form.png)
 
-每个分类都有“名称”和“速记形式”，这将显示在仪表板上。 对于每个分类，通过选择“显示标记”，你可以决定是否在仪表板上显示速记标记。 如果你决定不在仪表板上显示分类类型，所有者将仍然能够通过检查仪表板设置来查看类型。 此外，你可以选择添加一个包含你的组织分类指南和使用要求相关的详细信息的 **URL**。  
+每个分类都有“名称”  和“速记形式”  ，这将显示在仪表板上。 对于每个分类，通过选择“显示标记”  ，你可以决定是否在仪表板上显示速记标记。 如果你决定不在仪表板上显示分类类型，所有者将仍然能够通过检查仪表板设置来查看类型。 此外，你可以选择添加一个包含你的组织分类指南和使用要求相关的详细信息的 **URL**。  
 
 你需要决定的最后一件事是将哪个分类类型作为默认类型。  
 
-使用分类类型填充表单后，请选择“应用”以保存更改。
+使用分类类型填充表单后，请选择“应用”  以保存更改。
 
 ![](media/service-data-classification/filled_in_classification_form.png)
 

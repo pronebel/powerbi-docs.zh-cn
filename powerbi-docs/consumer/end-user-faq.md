@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 01/16/2019
 ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: ef29c6b73a9a430fda35c2274dd278d11bd29dcc
-ms.sourcegitcommit: a054782370dec56d49bb205ee10b7e2018f22693
-ms.translationtype: HT
+ms.openlocfilehash: f32a5704d611153e5b4a0f3a485f2a4a25f93e8b
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/22/2019
-ms.locfileid: "56661942"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61059940"
 ---
 # <a name="frequently-asked-questions-about-power-bi"></a>有关 Power BI 的常见问题
 * 如果你有其他问题，请[尝试询问 Power BI 社区](http://community.powerbi.com/)。
@@ -31,8 +31,9 @@ Power BI Pro 是单个许可证，允许访问 Power BI 服务中的所有内容
 Premium 提供专用容量，在 Power BI 中具有更高的一致性并支持更大的数据量。 对于个人用户，Premium 还允许 Pro 用户广泛分发内容，且不要求查看内容的每个收件人用户都提供许可证。
 
 ## <a name="what-happens-if-my-power-bi-pro-license-expires"></a>如果我的 Power BI Pro 许可证已过期，会发生什么情况？
-Power BI Pro 许可证过期后，还有 30 天宽限期。
-Power BI Pro 的订阅生命周期与 Office 365 相同。 有关详细信息，请参阅 [Office 365 商业版订阅过期时，我的数据和访问权限会发生什么变化？](https://support.office.com/article/What-happens-to-my-data-and-access-when-my-Office-365-for-business-subscription-ends-4436582f-211a-45ec-b72e-33647f97d8a3)
+Power BI Pro 许可证过期后，还有一个宽限期。 对于批量购买的许可证，宽限期为 90 天。 如果是直接购买许可证，则宽限期为 30 天。
+
+Power BI Pro 的订阅生命周期与 Office 365 相同。 有关详细信息，请参阅[时会发生什么情况对我的数据和访问 Office 365 商业版订阅结束？](https://support.office.com/article/What-happens-to-my-data-and-access-when-my-Office-365-for-business-subscription-ends-4436582f-211a-45ec-b72e-33647f97d8a3)。
 
 ## <a name="what-if-i-have-questions-about-power-bi-premium"></a>如果有关于 Power BI Premium 的问题，应该怎么办？
 与 Power BI Premium 相关的问题，请参阅 [Power BI Premium 常见问题解答](../service-premium-faq.md)。
@@ -90,11 +91,6 @@ Power BI 不支持由使用者电子邮件服务或电信提供商提供的电�
 可以直接购买或者通过在 [www.powerbi.com](http://www.powerbi.com) 与代表聊天的方式购买 Power BI Pro 许可证。
 
 你还可以找到 [Microsoft 合作伙伴](https://partner.microsoft.com/)以帮助你实现 Power BI。
-
-## <a name="what-happens-if-my-power-bi-pro-license-expires"></a>如果我的 Power BI Pro 许可证已过期，会发生什么情况？
-Power BI Pro 许可证过期后，还有一个宽限期。 对于批量购买的许可证，宽限期为 90 天。 如果是直接购买许可证，则宽限期为 30 天。
-
-Power BI Pro 的订阅生命周期与 Office 365 相同。 有关详细信息，请参阅 [Office 365 商业版订阅过期时，我的数据和访问权限会发生什么变化？](https://support.office.com/article/What-happens-to-my-data-and-access-when-my-Office-365-for-business-subscription-ends-4436582f-211a-45ec-b72e-33647f97d8a3)
 
 ## <a name="does-power-bi-meet-national-regional-and-industry-specific-compliance-requirements"></a>Power BI 是否满足特定于国家、地区和行业的合规性要求？
 在 [Microsoft 信任中心](http://go.microsoft.com/fwlink/?LinkId=785324)了解有关 Power BI 合规性的详细信息。

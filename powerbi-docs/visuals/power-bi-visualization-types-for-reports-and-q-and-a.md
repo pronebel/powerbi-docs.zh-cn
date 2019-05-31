@@ -11,11 +11,11 @@ ms.date: 02/21/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
 ms.openlocfilehash: 202fa85fa930de45f4f6838202733d8d1098256d
-ms.sourcegitcommit: a054782370dec56d49bb205ee10b7e2018f22693
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/22/2019
-ms.locfileid: "56662333"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61388736"
 ---
 # <a name="visualization-types-in-power-bi"></a>Power BI 中的可视化效果类型
 ## <a name="power-bi-visualizations"></a>Power BI 可视化效果
@@ -54,7 +54,7 @@ ms.locfileid: "56662333"
 ![](media/power-bi-visualization-types-for-reports-and-q-and-a/combosmall.png)
 
 >[!TIP]
->组合图将柱形图和折线图结合在一起。 请在折线图和堆积柱形图和折线图和簇状柱形图中选择。
+>组合图将柱形图和折线图结合在一起。 请在折线图和堆积柱形图  和折线图和簇状柱形图  中选择。
 
 有关详细信息，请参阅 [Power BI 中的组合图](power-bi-visualization-combo-chart.md)。
 

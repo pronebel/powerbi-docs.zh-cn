@@ -1,19 +1,19 @@
 ---
 title: Azure 中 Power BI Embedded 服务的诊断日志记录 | Microsoft Docs
 description: 了解如何在 Azure 中设置 Power BI Embedded 服务的诊断日志记录。
-author: markingmyname
-ms.author: maghan
+author: rkarlin
+ms.author: rkarlin
 manager: kfile
 ms.reviewer: ''
 ms.service: power-bi-embedded
 ms.topic: conceptual
 ms.date: 08/13/2018
-ms.openlocfilehash: 93181a7ecaad0ec5bcd837f55ad7863fae53772c
-ms.sourcegitcommit: 8207c9269363f0945d8d0332b81f1e78dc2414b0
-ms.translationtype: HT
+ms.openlocfilehash: 695d1f219b3438f07125447db04aad3ba971683a
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/14/2019
-ms.locfileid: "56249128"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61385259"
 ---
 # <a name="diagnostic-logging-for-power-bi-embedded-in-azure"></a>Azure 中 Power BI Embedded 的诊断日志记录
 
@@ -30,20 +30,20 @@ ms.locfileid: "56249128"
 
 ### <a name="azure-portal"></a>Azure 门户
 
-1. 在 [Azure 门户](https://portal.azure.com) > Power BI Embedded 资源中，选择左侧导航中的“诊断日志”，然后选择“启用诊断”。
+1. 在 [Azure 门户](https://portal.azure.com) > Power BI Embedded 资源中，选择左侧导航中的“诊断日志”  ，然后选择“启用诊断”  。
 
     ![在 Azure 门户中，为 Power BI Embedded 启用诊断日志记录](media/azure-pbie-diag-logs/azure-pbie-diag-logs-01.png)
 
-2. 在“诊断设置”中，指定以下选项：
+2. 在“诊断设置”  中，指定以下选项：
 
-    * “名称”- 输入要创建的诊断设置的名称。
+    * “名称”  - 输入要创建的诊断设置的名称。
 
-    * “存档到存储帐户”- 若要使用此选项，需要连接到现有存储帐户。 请参阅[创建存储帐户](https://docs.microsoft.com/azure/storage/common/storage-create-storage-account)，并按照说明来创建存储帐户。 然后，在门户中返回该页以选择你的存储帐户。 新创建的存储帐户可能需要几分钟的时间才会显示在下拉菜单中。 日志文件存储为 JSON 格式。
-    * 流式传输到事件中心 - 若要使用此选项，需要连接到现有事件中心命名空间和事件中心。 若要了解详细信息，请参阅[使用 Azure 门户创建事件中心命名空间和事件中心](https://docs.microsoft.com/azure/event-hubs/event-hubs-create)。
-    * 发送到 Log Analytics - 若要使用此选项，请使用现有工作区，或按照门户中[创建新工作区](https://docs.microsoft.com/azure/log-analytics/log-analytics-quick-collect-azurevm#create-a-workspace)的步骤来来创建一个新的 Log Analytics 工作区。 这将利用 [Azure Log Analytics](https://docs.microsoft.com/azure/log-analytics/log-analytics-overview)，它可提供内置分析、仪表板和通知功能。 可以使用 Log Analytics 从其他资源连接更多数据，并跨所有应用程序的资源获取数据的单个和完整视图。 它还可以连接到 [Power BI（只需单击一次）](https://docs.microsoft.com/azure/log-analytics/log-analytics-powerbi)。
+    * “存档到存储帐户”  - 若要使用此选项，需要连接到现有存储帐户。 请参阅[创建存储帐户](https://docs.microsoft.com/azure/storage/common/storage-create-storage-account)，并按照说明来创建存储帐户。 然后，在门户中返回该页以选择你的存储帐户。 新创建的存储帐户可能需要几分钟的时间才会显示在下拉菜单中。 日志文件存储为 JSON 格式。
+    * 流式传输到事件中心  - 若要使用此选项，需要连接到现有事件中心命名空间和事件中心。 若要了解详细信息，请参阅[使用 Azure 门户创建事件中心命名空间和事件中心](https://docs.microsoft.com/azure/event-hubs/event-hubs-create)。
+    * 发送到 Log Analytics  - 若要使用此选项，请使用现有工作区，或按照门户中[创建新工作区](https://docs.microsoft.com/azure/log-analytics/log-analytics-quick-collect-azurevm#create-a-workspace)的步骤来来创建一个新的 Log Analytics 工作区。 这将利用 [Azure Log Analytics](https://docs.microsoft.com/azure/log-analytics/log-analytics-overview)，它可提供内置分析、仪表板和通知功能。 可以使用 Log Analytics 从其他资源连接更多数据，并跨所有应用程序的资源获取数据的单个和完整视图。 它还可以连接到 [Power BI（只需单击一次）](https://docs.microsoft.com/azure/log-analytics/log-analytics-powerbi)。
     有关在 Log Analytics 中查看你的日志的详细信息，请参阅[在 Log Analytics 中查看日志](https://docs.microsoft.com/azure/log-analytics/log-analytics-activity)。
-    * 引擎 - 选择此选项以记录以下[列出的引擎事件](#whats-logged)集。
-    * AllMetrics - 选择此选项以存储[指标](https://docs.microsoft.com/azure/analysis-services/analysis-services-monitor#server-metrics)中的详细数据。 如果要存档到存储帐户，可以为诊断日志选择保持期。 日志将在保持期到期后被自动删除。
+    * 引擎  - 选择此选项以记录以下[列出的引擎事件](#whats-logged)集。
+    * AllMetrics  - 选择此选项以存储[指标](https://docs.microsoft.com/azure/analysis-services/analysis-services-monitor#server-metrics)中的详细数据。 如果要存档到存储帐户，可以为诊断日志选择保持期。 日志将在保持期到期后被自动删除。
 
 3. 选择**保存**。
 
@@ -97,7 +97,7 @@ ms.locfileid: "56249128"
 
 ## <a name="whats-logged"></a>记录哪些内容？
 
-可以选择“引擎”和或“AllMetrics”类别。
+可以选择“引擎”  和或“AllMetrics”  类别。
 
 ### <a name="engine"></a>引擎
 
@@ -151,7 +151,7 @@ ms.locfileid: "56249128"
 
 ### <a name="allmetrics"></a>AllMetrics
 
-查看“AllMetrics”选项记录了可以在 Power BI Embedded 资源中使用的所有指标的数据。
+查看“AllMetrics”  选项记录了可以在 Power BI Embedded 资源中使用的所有指标的数据。
 
    ![显示指标](media/azure-pbie-diag-logs/azure-pbie-diag-logs-02.png)
 
@@ -167,19 +167,19 @@ ms.locfileid: "56249128"
 
 指标和服务器事件与 Log Analytics 中的 xEvents 集成，以用于并行分析。 还可以将 Log Analytics 配置为接收来自其他 Azure 服务的事件，以从整体上展示整个体系结构的诊断日志记录数据。
 
-若要在 Log Analytics 中查看你的诊断数据，请从左侧菜单或管理区域中打开“日志”页面，如下所示。
+若要在 Log Analytics 中查看你的诊断数据，请从左侧菜单或管理区域中打开“日志”  页面，如下所示。
 
 ![Log Analytics 页面](media/azure-pbie-diag-logs/azure-pbie-diag-logs-analytics.png)
 
-启用数据收集后，在“日志”中，选择“收集的所有数据”。
+启用数据收集后，在“日志”  中，选择“收集的所有数据”  。
 
 ![收集的所有数据](media/azure-pbie-diag-logs/azure-pbie-diag-logs-analytics-all-collected-data.png)
 
-在“类型”中，选择“AzureDiagnostics”，然后选择“应用”。 AzureDiagnostics 包括引擎事件。 注意，将实时创建 Log Analytics 查询。
+在“类型”  中，选择“AzureDiagnostics”  ，然后选择“应用”  。 AzureDiagnostics 包括引擎事件。 注意，将实时创建 Log Analytics 查询。
 
 ![Azure 诊断](media/azure-pbie-diag-logs/azure-pbie-diag-logs-analytics-azure-diagnostics.png)
 
-选择 EventClass\_ 或事件名称之一，Log Analytics 将继续构造查询。 请确保保存查询，以便稍后重复使用。
+选择 EventClass\_  或事件名称之一，Log Analytics 将继续构造查询。 请确保保存查询，以便稍后重复使用。
 
 请确保参阅 [Log Analytics](https://docs.microsoft.com/azure/log-analytics/)，它提供了对收集的数据使用增强的查询、仪表板和警报功能的网站。
 

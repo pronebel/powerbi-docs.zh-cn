@@ -11,11 +11,11 @@ ms.date: 06/23/2018
 ms.author: maggies
 LocalizationGroup: Samples
 ms.openlocfilehash: 9fb22a50d68e414e8d75fc004629eaa2633b066c
-ms.sourcegitcommit: 5e83fa6c93a0bc6599f76cc070fb0e5c1fce0082
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/13/2019
-ms.locfileid: "56216484"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61242291"
 ---
 # <a name="customer-profitability-sample-for-power-bi-take-a-tour"></a>Power BI 的客户盈利率示例：参观
 
@@ -38,7 +38,7 @@ ms.locfileid: "56216484"
 3. 在显示的“获取数据”页上选择“**示例**”图标。
 
    ![示例图标](media/sample-datasets/power-bi-samples-icon.png)
-4. 依次选择“客户盈利率示例”和“连接”。  
+4. 依次选择“客户盈利率示例”  和“连接”  。  
 
    ![获取数据](media/sample-customer-profitability/get-supplier-sample.png)
 5. Power BI 导入内容包，并将新的仪表板、报表和数据集添加到当前工作区。 新的内容会以黄色星号标记。 使用这些示例对 Power BI 进行测试运行。  
@@ -52,12 +52,12 @@ ms.locfileid: "56216484"
 
 ### <a name="get-the-excel-workbook-for-this-sample"></a>获取 Excel 工作簿形式的此示例
 
-如果想要深入探究本示例的数据源，还以[（Excel 工作簿）](http://go.microsoft.com/fwlink/?LinkId=529781)的形式提供此示例。 该工作簿包含你可以查看和修改的 Power View 工作表。 若要查看原始数据，请选择“Power Pivot”>“管理”。
+如果想要深入探究本示例的数据源，还以[（Excel 工作簿）](http://go.microsoft.com/fwlink/?LinkId=529781)的形式提供此示例。 该工作簿包含你可以查看和修改的 Power View 工作表。 若要查看原始数据，请选择“Power Pivot”>“管理”  。
 
 
 ## <a name="what-is-our-dashboard-telling-us"></a>仪表板告诉我们什么？
 
-在“我的工作区”下，找到“客户盈利率示例”仪表板：
+在“我的工作区”  下，找到“客户盈利率示例”仪表板：
 
 ![“客户盈利率示例”仪表板](media/sample-customer-profitability/power-bi-dash.png)
 
@@ -97,14 +97,14 @@ ms.locfileid: "56216484"
 1. 选择从 Excel 固定的这两个磁贴之一。 将在 Power BI 服务中打开 Excel Online。
 2. 请注意，该工作簿含有 3 个选项卡的数据。 打开“收入”。
 3. 让我们来看看为什么 Carlos 尚未达到其目标。  
-    a. 在“管理人员”滑块中，选择“Carlos Grilo”。   
+    a. 在“管理人员”滑块中，选择“Carlos Grilo”  。   
     b. 第一个数据透视表告诉我们 Carlos 的热销产品 Primus 的收入同比去年下降了 152%。 而年同比图表显示其大部分月份都低于预算。  
 
     ![数据透视表](media/sample-customer-profitability/power-bi-pivotchart.png)
 
     ![Carlos 的结果](media/sample-customer-profitability/power-bi-carlos.png)
 
-4. 继续浏览，如果发现感兴趣的内容，请从右上角选择“固定”![固定图标](media/sample-customer-profitability/power-bi-excel-pin.png)[将该内容固定到仪表板](service-dashboard-pin-tile-from-excel.md)。
+4. 继续浏览，如果发现感兴趣的内容，请从右上角选择“固定”  ![固定图标](media/sample-customer-profitability/power-bi-excel-pin.png)[将该内容固定到仪表板](service-dashboard-pin-tile-from-excel.md)。
 
 5. 使用浏览器的上一步箭头返回到仪表板。
 
@@ -161,9 +161,9 @@ ms.locfileid: "56216484"
 ## <a name="dig-into-the-data-by-asking-questions-with-qa"></a>请通过“问答”提问进一步分析数据
 我们的分析有助于确定哪个行业为 Valery 带来的收入最多。 使用“问答”提问。
 
-1. 在编辑视图中打开报表，方法是选择“编辑报表”。 编辑视图仅在该报表由你“所有”的情况下才可用，这有时被称为创建者模式。 相反，如果该报表是与你共享的，则你无法在编辑视图中打开它。
+1. 在编辑视图中打开报表，方法是选择“编辑报表”  。 编辑视图仅在该报表由你“所有”的情况下才可用，这有时被称为创建者  模式。 相反，如果该报表是与你共享的，则你无法在编辑视图中打开它。
 
-2.  从顶部菜单栏中，选择“提问”打开“问答”问题框。
+2.  从顶部菜单栏中，选择“提问”  打开“问答”问题框。
 
     ![询问数据相关问题](media/sample-customer-profitability/power-bi-ask-question.png)
 
@@ -180,12 +180,12 @@ ms.locfileid: "56216484"
 2. 不选择报表页上的任何可视化效果，在右侧展开“筛选器”窗格（如果它尚未展开）。 “筛选器”窗格应仅显示页面级别筛选器。  
 
    ![页面级筛选器](media/sample-customer-profitability/power-bi-filters.png)
-3. 找到“行业”筛选器并选择箭头以展开该列表。 让我们为分销行业添加页面筛选器。 首先，通过清除“全选”复选框来清除所有选择。 然后仅选择“分销”。  
+3. 找到“行业”  筛选器并选择箭头以展开该列表。 让我们为分销行业添加页面筛选器。 首先，通过清除“全选”  复选框来清除所有选择。 然后仅选择“分销”  。  
 
    ![分销筛选器](media/sample-customer-profitability/customer7.png)
 4. “按月份和主管姓名划分的毛利率”分区图表明，只有 Valery 和 Tina 在这个行业有客户，而 Valery 仅在 6 月到 11 月负责了该行业。   
-5. 在“按月份和主管划分的毛利率”分区图图例中，依次选择“Tina”和“Valery”。 我们发现，Tina 的“按产品划分的总收入”部分相较于 Valery 真的很少。
-6. 若要查看实际收入，请使用“问答”提问按方案划分的管理人员分销总收入。  
+5. 在“按月份和主管划分的毛利率”分区图图例中，依次选择“Tina”  和“Valery”  。 我们发现，Tina 的“按产品划分的总收入”部分相较于 Valery 真的很少。
+6. 若要查看实际收入，请使用“问答”提问按方案划分的管理人员分销总收入  。  
 
      ![在问题框中键入问题以查看条形图](media/sample-customer-profitability/power-bi-qna2.png)
 

@@ -12,11 +12,11 @@ ms.date: 08/23/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
 ms.openlocfilehash: 52c0211aea0462e0bf79d7a48808f1f826c09fb6
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54296078"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "60978448"
 ---
 # <a name="part-i-add-visualizations-to-a-power-bi-report"></a>第 1 部分，向 Power BI 报表添加可视化效果
 本文简要介绍如何使用 Power BI 服务或 Power BI Desktop 在报表中创建可视化效果。  有关更多内容，请[参阅第 II 部分](power-bi-report-add-visualizations-ii.md)。 请观看 Amanda 的视频演示，她将介绍如何在报表画布上创建、编辑视觉对象并对其进行格式设置的一些不同方法。 然后使用[销售和市场营销示例](../sample-datasets.md)来创建自己的报表并进行体验。
@@ -32,20 +32,20 @@ ms.locfileid: "54296078"
 3. 向报表添加空白页。
 
 ## <a name="add-visualizations-to-the-report"></a>将可视化效果添加到报表
-1. 通过从“字段”窗格中选择字段来创建可视化效果。  
+1. 通过从“字段”窗格中选择字段来创建可视化效果。   
    
-   从数值字段开始，如 SalesFact > Sales $。 Power BI 将创建一个包含单个柱形的柱形图。
+   从数值字段开始  ，如 SalesFact > Sales $。 Power BI 将创建一个包含单个柱形的柱形图。
    
    ![](media/power-bi-report-add-visualizations-i/pbi_onecolchart.png)
    
-   从类别字段开始，例如“名称”或“产品”：Power BI 创建一个表并将该字段添加到“值”框中。
+    从类别字段开始，例如“名称”或“产品”：Power BI 创建一个表并将该字段添加到“值”  框中。
    
    ![](media/power-bi-report-add-visualizations-i/pbi_agif_createchart3.gif)
    
-   或从地理字段开始，如“地区”>“城市”。 Power BI 会结合必应地图创建地图可视化效果。
+    或从地理字段开始，如“地区”>“城市”。 Power BI 会结合必应地图创建地图可视化效果。
    
    ![](media/power-bi-report-add-visualizations-i/power-bi-map.png)
-2. 创建可视化效果，然后更改其类型。 选择“产品”>“类别”，然后选择“产品”>“产品计数”，将其添加到“值”框中。
+2. 创建可视化效果，然后更改其类型。 选择“产品”>“类别”  ，然后选择“产品”>“产品计数”  ，将其添加到“值”  框中。
    
    ![](media/power-bi-report-add-visualizations-i/part1table1.png)
 3. 通过选择柱形图图标将可视化效果更改为柱形图。

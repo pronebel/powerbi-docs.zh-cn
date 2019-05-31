@@ -1,3 +1,11 @@
+---
+ms.openlocfilehash: 8fc17759ea38cc96c69e7639ed25172e782a9d4d
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61263041"
+---
 构建仪表板后，即可在 Power BI 服务中编辑其 * *磁贴* 以进行一些格式更改。
 
 若要对磁贴进行更改，请将鼠标悬停在该磁贴上并选择省略号（三个点）以显示一系列图标，可通过这些图标对磁贴进行更改。

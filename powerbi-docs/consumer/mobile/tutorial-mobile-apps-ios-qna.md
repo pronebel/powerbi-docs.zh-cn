@@ -10,11 +10,11 @@ ms.topic: tutorial
 ms.date: 11/16/2018
 ms.author: mshenhav
 ms.openlocfilehash: 74949d2b71dbdca46bbda9623a962616a72af45e
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54282923"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61337073"
 ---
 # <a name="tutorial-ask-questions-about-your-data-with-the-qa-virtual-analyst-in-the-power-bi-ios-apps"></a>教程：在 Power BI iOS 应用中向常见问题虚拟分析师询问关于数据的问题
 
@@ -58,23 +58,23 @@ ms.locfileid: "54282923"
 
     ![全局导航图标](./media/tutorial-mobile-apps-ios-qna/power-bi-android-quickstart-global-nav-icon.png)
 
-2. 在左侧的导航窗格中，选择“工作区” > “我的工作区”。
+2. 在左侧的导航窗格中，选择“工作区”   > “我的工作区”  。
 
     ![我的工作区](./media/tutorial-mobile-apps-ios-qna/power-bi-android-quickstart-my-workspace.png)
 
-3. 在左下角，选择“获取数据”。
+3. 在左下角，选择“获取数据”  。
    
     ![获取数据](./media/tutorial-mobile-apps-ios-qna/power-bi-get-data.png)
 
-3. 在“获取数据”页上选择“示例”图标。
+3. 在“获取数据”页上选择“示例”  图标。
    
    ![示例图标](./media/tutorial-mobile-apps-ios-qna/power-bi-samples-icon.png)
 
-4. 选择“机会分析示例”。
+4. 选择“机会分析示例”  。
  
     ![商机分析示例](./media/tutorial-mobile-apps-ios-qna/power-bi-oa.png)
  
-8. 选择“连接”。  
+8. 选择“连接”  。  
   
    ![机会分析示例 - 连接](./media/tutorial-mobile-apps-ios-qna/opportunity-connect.png)
    
@@ -87,7 +87,7 @@ ms.locfileid: "54282923"
 ## <a name="try-featured-insights"></a>尝试“特别推荐的见解”
 1. 在 iPhone 或 iPad 上，打开 Power BI 应用，并使用在浏览器中的 Power BI 服务中所用的 Power BI 帐户凭据进行登录。
 
-1.  点击全局导航按钮![全局导航按钮](./media/tutorial-mobile-apps-ios-qna/power-bi-iphone-global-nav-button.png) > “工作区” > “我的工作区”，然后打开“机会分析示例”仪表板。
+1.  点击全局导航按钮![全局导航按钮](./media/tutorial-mobile-apps-ios-qna/power-bi-iphone-global-nav-button.png) > “工作区”   > “我的工作区”  ，然后打开“机会分析示例”仪表板。
 
 2. 点击问答虚拟分析师图标 ![问答虚拟分析师图标](./media/tutorial-mobile-apps-ios-qna/power-bi-ios-q-n-a-icon.png) 。
 
@@ -96,10 +96,10 @@ ms.locfileid: "54282923"
      Power BI 问答虚拟分析师推荐了一些可快速上手的见解。
 
      ![“特别推荐的见解”按钮](./media/tutorial-mobile-apps-ios-qna/power-bi-ios-qna-suggest-insights.png)
-3. 点击“特别推荐的见解”。
+3. 点击“特别推荐的见解”  。
 
      问答虚拟分析师推荐了一些见解。
-4. 向右滚动，再点击“见解 2”。
+4. 向右滚动，再点击“见解 2”  。
 
     ![“见解 2”按钮](./media/tutorial-mobile-apps-ios-qna/power-bi-ios-qna-suggest-insight-2.png)
 
@@ -117,15 +117,15 @@ ms.locfileid: "54282923"
 
 1. 打开 Power BI 服务 (app.powerbi.com) 并登录。
 
-2. 在左侧的导航窗格中，选择“工作区” > “我的工作区”。
+2. 在左侧的导航窗格中，选择“工作区”   > “我的工作区”  。
 
-3. 在“仪表板”选项卡上，选择“机会分析”仪表板旁边的垃圾桶“删除”图标。
+3. 在“仪表板”选项卡上，选择“机会分析”仪表板旁边的垃圾桶“删除”图标   。
 
     ![删除示例仪表板](./media/tutorial-mobile-apps-ios-qna/power-bi-service-delete-opportunity-sample.png)
 
-4. 依次选择“报表”选项卡和“机会分析”报表。
+4. 依次选择“报表”选项卡和“机会分析”报表  。
 
-5. 依次选择“数据集”选项卡和“机会分析”数据集。
+5. 依次选择“数据集”选项卡和“机会分析”数据集  。
 
 
 ## <a name="next-steps"></a>后续步骤

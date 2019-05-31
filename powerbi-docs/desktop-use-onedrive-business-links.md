@@ -11,10 +11,10 @@ ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
 ms.openlocfilehash: 8597904e2753f198b3f99cdcad6062d756b734a0
-ms.sourcegitcommit: 10a87c016f497dbeba32f94ed1f3688a70816fea
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/09/2019
+ms.lasthandoff: 05/29/2019
 ms.locfileid: "65513775"
 ---
 # <a name="use-onedrive-for-business-links-in-power-bi-desktop"></a>在 Power BI Desktop 中使用 OneDrive for Business 链接
@@ -31,7 +31,7 @@ ms.locfileid: "65513775"
    > 
    
    ![](media/desktop-use-onedrive-business-links/odb-links_02.png)
-2. 在 **Excel** 中，选择**文件 > 信息**，然后选择**保护工作簿**按钮上面的链接。 选择“将链接复制到剪贴板”（版本中可能显示“将路径复制到剪贴板”）。
+2. 在 **Excel** 中，选择**文件 > 信息**，然后选择**保护工作簿**按钮上面的链接。 选择“将链接复制到剪贴板”（版本中可能显示“将路径复制到剪贴板”）。  
    
    ![](media/desktop-use-onedrive-business-links/odb-links_03.png)
 
@@ -44,7 +44,7 @@ ms.locfileid: "65513775"
 2. 将链接粘贴到**从 Web** 对话框（**不**要选择“确定”）。
    
     ![](media/desktop-use-onedrive-business-links/odb-links_05.png)
-3. 请注意链接末尾的 *?web=1* 字符串。必须首先 *删除 Web URL 字符串的该部分* ， 然后再选择 **确定** ，以便 **Power BI Desktop** 正确导航到你的文件。
+3. 请注意链接末尾的 *?web=1* 字符串。必须首先 *删除 Web URL 字符串的该部分* ，  然后再选择 **确定** ，以便 **Power BI Desktop** 正确导航到你的文件。
 4. 如果 **Power BI Desktop** 提示你输入凭据，请选择 **Windows**（适用于本地 SharePoint 站点）或**组织帐户**（适用于 Office 365 或 OneDrive for Business 站点）。
    
    ![](media/desktop-use-onedrive-business-links/odb-links_06.png)
@@ -52,7 +52,7 @@ ms.locfileid: "65513775"
 将出现**导航器**窗口，供你从 Excel 工作簿中的表、工作表和范围的列表中进行选择。 在这里，你可以像使用任何其他 Excel 文件一样使用 OneDrive for Business 文件，创建报表并将其用于数据集，就如同你对任何其他数据源执行的操作那样。
 
 > [!NOTE]
-> 若要将 OneDrive for Business 文件用作 Power BI 服务中的数据源，在已为该文件启用“服务刷新”的情况下，请务必在配置刷新设置时选择“OAuth2”作为“身份验证方法”。 否则，可能会在尝试连接或刷新时看到错误消息（如“无法更新数据源凭据”）。 选择“**OAuth2**”作为身份验证方法可修复此凭据错误。
+> 若要将 OneDrive for Business  文件用作 Power BI 服务中的数据源，在已为该文件启用“服务刷新”  的情况下，请务必在配置刷新设置时选择“OAuth2”  作为“身份验证方法”  。 否则，可能会在尝试连接或刷新时看到错误消息（如“无法更新数据源凭据”  ）。 选择“**OAuth2**”作为身份验证方法可修复此凭据错误。
 > 
 > 
 

@@ -1,4 +1,12 @@
-处理 Power BI 服务中的仪表板、报表或数据集时，可让 Power BI 对数据进行快速深入分析。 在 Power BI 中，从左侧窗格中的**数据集**部分，选择你感兴趣的数据集旁边的省略号（三个点）。 将显示选项菜单，并在最右显示名为**快速见解**的选项。
+---
+ms.openlocfilehash: d6424f63d992eaa7c8a4a8a5f76765b6aeb6104d
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61263045"
+---
+处理 Power BI 服务中的仪表板、报表或数据集时，可让 Power BI 对数据进行快速深入分析。 在 Power BI 中，从左侧窗格中的**数据集**部分，选择你感兴趣的数据集旁边的省略号（三个点）。  将显示选项菜单，并在最右显示名为**快速见解**的选项。
 
 ![](media/4-1a-quick-insights/4-1a_1.png)
 

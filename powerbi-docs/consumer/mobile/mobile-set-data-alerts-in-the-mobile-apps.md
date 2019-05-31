@@ -10,11 +10,11 @@ ms.topic: conceptual
 ms.date: 12/18/2017
 ms.author: mshenhav
 ms.openlocfilehash: 65e6414cb31c2b8234bb1f5426c7bff295263308
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54285858"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61380395"
 ---
 # <a name="set-data-alerts-in-the-power-bi-mobile-apps"></a>在 Power BI 移动应用中设置数据警报
 适用于：
@@ -40,7 +40,7 @@ ms.locfileid: "54285858"
    
    ![](media/mobile-set-data-alerts-in-the-mobile-apps/power-bi-iphone-card-visual.png)
 2. 点击钟形图标 ![](media/mobile-set-data-alerts-in-the-mobile-apps/power-bi-iphone-alert-icon.png) 添加警报。  
-3. 点击“添加警报规则”。
+3. 点击“添加警报规则”  。
    
    ![](media/mobile-set-data-alerts-in-the-mobile-apps/power-bi-iphone-add-alert-rule.png)
 4. 选择在大于或小于某个值时接收警报，然后设置值。
@@ -54,7 +54,7 @@ ms.locfileid: "54285858"
    > 
 6. 也可以更改警报标题。
 7. 点击**保存**。
-8. 单个的磁贴可以有超过或低于阈值的值的警报。 在“管理警报”中，点击“添加警报规则”。
+8. 单个的磁贴可以有超过或低于阈值的值的警报。 在“管理警报”  中，点击“添加警报规则”  。
    
    ![](media/mobile-set-data-alerts-in-the-mobile-apps/power-bi-iphone-add-another-alert-rule.png)
 
@@ -122,7 +122,7 @@ ms.locfileid: "54285858"
    > 
 6. 也可以更改警报标题。
 7. 点击复选标记。
-8. 单个的磁贴可以有超过或低于阈值的值的警报。 在“管理警报”中，点击加号 (+)。
+8. 单个的磁贴可以有超过或低于阈值的值的警报。 在“管理警报”  中，点击加号 (+)。
    
    ![](media/mobile-set-data-alerts-in-the-mobile-apps/power-bi-windows-10-add-another-alert.png)
 
@@ -136,7 +136,7 @@ ms.locfileid: "54285858"
 3. 点击该警报以更改值或将其关闭。
    
     ![](media/mobile-set-data-alerts-in-the-mobile-apps/power-bi-windows-10-add-another-alert.png)
-4. 若要完全删除该警报，请单击右键或点击并按住 >“删除”。
+4. 若要完全删除该警报，请单击右键或点击并按住 >“删除”  。
 
 ## <a name="receiving-alerts"></a>接收警报
 在移动设备上或在 Power BI 服务中的 Power BI [通知中心](mobile-apps-notification-center.md) 中接收警报，以及关于他人与你共享的新仪表板的通知。

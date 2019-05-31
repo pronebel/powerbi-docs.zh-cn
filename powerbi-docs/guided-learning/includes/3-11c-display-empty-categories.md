@@ -1,3 +1,11 @@
+---
+ms.openlocfilehash: 50cdaded75f81828542afa10abf104079d09ebd8
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61396218"
+---
 默认情况下，列标题仅显示在包含数据的报表中。 例如，如果你按国家/地区显示收入，并且在挪威没有销售额，则挪威不会显示在可视化效果中的任何位置。
 
 若要显示空的类别，请单击**可视化效果**窗格中你想要更改的字段中的下拉箭头，然后选择**显示无数据项**。

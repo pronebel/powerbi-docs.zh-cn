@@ -1,3 +1,11 @@
+---
+ms.openlocfilehash: 74d45bf5fcaf51c29d1f1818b3d14d85d73ff086
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61396212"
+---
 在本文中，你将了解如何创建新的条形图、饼图和树状图，并自定义它们以适应你的报表。
 
 在 Power BI Desktop 中有两种不同的方式来创建新的可视化效果：

@@ -11,14 +11,14 @@ ms.date: 08/02/2018
 ms.author: maggies
 LocalizationGroup: Share your work
 ms.openlocfilehash: c1e8e449c2db7e751d719f8fca38b194a9a0042a
-ms.sourcegitcommit: 8fda7843a9f0e8193ced4a7a0e5c2dc5386059a6
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/18/2019
-ms.locfileid: "58174559"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61181568"
 ---
 # <a name="collaborate-in-your-power-bi-app-workspace"></a>在 Power BI 应用工作区中展开协作
-Power BI 应用工作区是在仪表板、报表和数据集上与同事协作以创建应用的好地方。 协作并不限于在 Power BI 中的工作区内进行。 Office 365 提供其他组服务，如共享 OneDrive for Business 上的文件、Exchange 中的对话、共享日历和任务等。 了解有关 [Office 365 中的组](https://support.office.com/article/Create-a-group-in-Office-365-7124dc4c-1de9-40d4-b096-e8add19209e9)的详细信息。
+Power BI 应用工作区是在仪表板、报表和数据集上与同事协作以创建应用的好地方。  协作并不限于在 Power BI 中的工作区内进行。 Office 365 提供其他组服务，如共享 OneDrive for Business 上的文件、Exchange 中的对话、共享日历和任务等。 了解有关 [Office 365 中的组](https://support.office.com/article/Create-a-group-in-Office-365-7124dc4c-1de9-40d4-b096-e8add19209e9)的详细信息。
 
 > [!NOTE]
 > 新工作区体验预览将更改 Power BI 工作区与 Office 365 组之间的关系。 每次创建新工作区时，不会自动创建 Office 365 组。 了解如何[创建新工作区（预览版）](service-create-the-new-workspaces.md)
@@ -28,7 +28,7 @@ Power BI 应用工作区是在仪表板、报表和数据集上与同事协作�
 ## <a name="collaborate-on-power-bi-desktop-files-in-your-app-workspace"></a>在应用工作区中的 Power BI Desktop 文件上展开协作
 创建 Power BI Desktop 文件后，如果你将该文件发布到 Power BI 应用工作区，则工作区中的每个人都可以在其上展开协作。
 
-1. 在 Power BI Desktop 中，在“开始”功能区上选择“发布”，然后在“选择目标”框中选择你的应用工作区。
+1. 在 Power BI Desktop 中，在“开始”  功能区上选择“发布”  ，然后在“选择目标”  框中选择你的应用工作区。
    
     ![“发布”图标](media/service-collaborate-power-bi-workspace/power-bi-group-publish-pbix.png)
 2. 在 Power BI 服务中，选择“工作区”旁边的箭头，然后选择你的应用工作区。
@@ -43,7 +43,7 @@ Power BI 应用工作区是在仪表板、报表和数据集上与同事协作�
 ## <a name="collaborate-in-office-365"></a>在 Office 365 中开展协作
 若要在 Office 365 中展开协作，请从 Power BI 中的应用工作区入手。
 
-1. 在 Power BI 服务中，选择“工作区”旁边的箭头，然后选择你的工作区名称旁边的省略号（“…”）。 
+1. 在 Power BI 服务中，选择“工作区”旁边的箭头，然后选择你的工作区名称旁边的省略号（“…”  ）。 
    
    ![“工作区”菜单](media/service-collaborate-power-bi-workspace/power-bi-app-ellipsis.png)
 2. 在此菜单中，可以通过以下几种方法来与组进行协作： 
@@ -54,7 +54,7 @@ Power BI 应用工作区是在仪表板、报表和数据集上与同事协作�
    当你首次前往你在 Office 365 中的应用组工作区时，可能需要一些时间。 等候 15 到 30 分钟，然后刷新浏览器。
 
 ## <a name="have-a-group-conversation-in-office-365"></a>在 Office 365 中建立组对话
-1. 选择应用工作区名称旁边的省略号 (…) \> 然后选择“对话”。 
+1. 选择应用工作区名称旁边的省略号 (…) \> 然后选择“对话”  。 
    
     ![“会话”选项卡](media/service-collaborate-power-bi-workspace/power-bi-app-ellipsis.png)
    
@@ -64,7 +64,7 @@ Power BI 应用工作区是在仪表板、报表和数据集上与同事协作�
 2. 了解有关 [Outlook for Office 365 中的组对话](https://support.office.com/Article/Have-a-group-conversation-a0482e24-a769-4e39-a5ba-a7c56e828b22)的详细信息。
 
 ## <a name="schedule-an-event-on-the-apps-group-workspace-calendar"></a>在应用的组工作区日历上安排活动
-1. 选择应用工作区名称旁的省略号（“…”） \> 然后选择“成员”。 
+1. 选择应用工作区名称旁的省略号（“…”  ） \> 然后选择“成员”  。 
    
    ![“日历”选项卡](media/service-collaborate-power-bi-workspace/power-bi-app-ellipsis.png)
    

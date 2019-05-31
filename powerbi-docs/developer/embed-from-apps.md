@@ -1,20 +1,20 @@
 ---
 title: 从应用嵌入报表或仪表板
 description: 了解如何从 Power BI 应用（而不是从应用工作区）集成或嵌入报表或仪表板。
-author: markingmyname
-ms.author: maghan
+author: rkarlin
+ms.author: rkarlin
 ms.topic: how-to
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.custom: mvc
 manager: kfile
 ms.date: 11/27/2018
-ms.openlocfilehash: 4125f44165fbbc063b782290b7c67da9993d5157
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
-ms.translationtype: HT
+ms.openlocfilehash: 7db8c465652926caae46c25197bd135833f8e628
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54286303"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61374708"
 ---
 # <a name="embed-reports-or-dashboards-from-apps"></a>从应用嵌入报表或仪表板
 
@@ -22,11 +22,11 @@ ms.locfileid: "54286303"
 
 ## <a name="grab-a-report-embedurl-for-embedding"></a>获取供嵌入的报表 embedURL
 
-1. 在用户工作区“我的工作区”中实例化应用程序。 要么与自己分享，要么指导其他用户完成此流程。
+1. 在用户工作区“我的工作区”  中实例化应用程序。 要么与自己分享，要么指导其他用户完成此流程。
 
 2. 在 Power BI 服务中打开所需的报表。
 
-3. 转到“文件” > “嵌入 SharePoint Online”，然后获取报表 embedURL。 embedURL 示例显示在下面的快照中。 或者，你可以调用 GetReports/GetReport REST API 并从响应中提取相应的报表 embedURL 字段。 当应用在用户工作区中实例化时，REST 调用不应将工作区标识符用作 URL 的一部分。
+3. 转到  “文件” >   “嵌入 SharePoint Online”，然后获取报表 embedURL。 embedURL 示例显示在下面的快照中。 或者，你可以调用 GetReports/GetReport REST API 并从响应中提取相应的报表 embedURL 字段。 当应用在用户工作区中实例化时，REST 调用不应将工作区标识符用作 URL 的一部分。
 
     ![从应用嵌入内容](media/embed-from-apps/embed-from-app.png)
 
@@ -34,7 +34,7 @@ ms.locfileid: "54286303"
 
 ## <a name="grab-a-dashboard-embedurl-for-embedding"></a>获取供嵌入的仪表板 embedURL
 
-1. 在用户工作区“我的工作区”中实例化应用程序。 要么与自己分享，要么指导其他用户完成此流程。
+1. 在用户工作区“我的工作区”  中实例化应用程序。 要么与自己分享，要么指导其他用户完成此流程。
 
 2. 调用 GetDashboards REST API 并从响应中提取相应的仪表板 embedURL 字段。 当应用在用户工作区中实例化时，REST 调用不应将工作区标识符用作 URL 的一部分。
 

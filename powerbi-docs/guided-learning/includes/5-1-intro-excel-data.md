@@ -1,3 +1,11 @@
+---
+ms.openlocfilehash: 0e29076a33a17b6097fd3fbf1db411f97ff45818
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61271227"
+---
 欢迎进入 Power BI **引导学习**课程的 **Power BI 和 Excel** 部分。
 
 很可能你已经使用过 **Excel**。 或许你曾使用 Excel 创建或查看报表，或生成饼图或其他视觉对象。 或者你可能曾使用 **Power Pivot** 或 **Power Query** 生成技术性稍强的解决方案。 如果是这样，你将在 Power BI 中感到得心应手，你的工作薄也同样如此。

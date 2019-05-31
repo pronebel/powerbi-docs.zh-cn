@@ -7,45 +7,31 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 09/10/2018
+ms.date: 04/15/2019
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: f30ff44fbc4d99818661abc53cb99bb96cfde673
-ms.sourcegitcommit: 5e83fa6c93a0bc6599f76cc070fb0e5c1fce0082
-ms.translationtype: HT
+ms.openlocfilehash: 5f0f09c3f64795ca0530bbe5ec5cec09de6c7b53
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/13/2019
-ms.locfileid: "56215726"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "60989111"
 ---
 # <a name="use-report-themes-in-power-bi-desktop"></a>在 Power BI Desktop 中使用报表主题
-借助报表主题，可以将颜色主题应用于整个报表，如企业品牌颜色、流行色或其他颜色主题。 在你应用报表主题后，报表中的所有视觉对象都会使用选定主题中的颜色。 也存在少数例外情况，本文稍后将进行介绍。
+借助报表主题  ，可以将颜色主题应用于整个报表，如企业品牌颜色、流行色或其他颜色主题。 在你应用报表主题  后，报表中的所有视觉对象都会使用选定主题中的颜色。 也存在少数例外情况，本文稍后将进行介绍。
 
 ![报表主题](media/desktop-report-themes/report-themes_1.png)
 
-应用报表主题时，需要采用基础结构的 JSON 文件。 然后，可以将此 JSON 文件导入 Power BI Desktop，并将它应用于报表。 JSON 文件结构以及导入流程简单易学，只需单击几下按钮即可完成。
+应用报表主题  时，需要采用基础结构的 JSON 文件。 然后，可以将此 JSON 文件导入 Power BI Desktop，并将它应用于报表。 JSON 文件结构以及导入流程简单易学，只需单击几下按钮即可完成。
 
-自 2017 年 9 月版 Power BI Desktop 起，可使用 JSON 文件定义更多报表主题元素。 还可以自定义和标准化几乎所有元素。 若要自定义元素，请在“格式设置”窗格中手动调整 JSON 文件。 2017 年 9 月版（及更高版本）的目标是，让你能完全精细地控制报表外观。
-
-### <a name="enable-report-themes"></a>启用报表主题
-自 2018 年 8 月版 Power BI Desktop 起，报表主题全面可用，无需启用。 
-
-如果使用的是旧版 Power BI Desktop，可将它启用为预览功能，具体步骤如下： 
-
-1. 选择“文件”>“选项和设置”>“选项”>“预览功能”。 
-2. 接下来，选中“自定义报表主题”旁边的复选框。 
-
-选中此复选框后，需要重启 **Power BI Desktop**。
-
-![自定义报表主题](media/desktop-report-themes/report-themes_2.png)
-
-始终建议升级到最新版 Power BI Desktop，可通过[获取 Power BI Desktop](desktop-get-the-desktop.md) 中的链接获取最新版。 
+还可以自定义和标准化几乎所有元素。 若要自定义元素，请在“格式设置”  窗格中手动调整 JSON 文件。 目标是让你完全控制如何在报表外观和感觉，到精细的级别。
 
 ## <a name="how-report-themes-work"></a>报表主题的工作原理
 若要将报表主题应用于 Power BI Desktop 报表，请从可用的内置报表主题中选择，或导入自定义主题。
 
 | 内置报表主题 | 默认颜色序列    |
 |------ |---------- |
-| 默认值   | ![#01B8AA](https://placehold.it/20/01B8AA/000000?text=+) ![#374649](https://placehold.it/20/374649/000000?text=+) ![#FD625E](https://placehold.it/20/FD625E/000000?text=+) ![#F2C80F](https://placehold.it/20/F2C80F/000000?text=+) ![#5F6B6D](https://placehold.it/20/5F6B6D/000000?text=+) ![#8AD4EB](https://placehold.it/20/8AD4EB/000000?text=+) ![#FE9666](https://placehold.it/20/FE9666/000000?text=+) ![#A66999](https://placehold.it/20/A66999/000000?text=+)|
+| 默认   | ![#01B8AA](https://placehold.it/20/01B8AA/000000?text=+) ![#374649](https://placehold.it/20/374649/000000?text=+) ![#FD625E](https://placehold.it/20/FD625E/000000?text=+) ![#F2C80F](https://placehold.it/20/F2C80F/000000?text=+) ![#5F6B6D](https://placehold.it/20/5F6B6D/000000?text=+) ![#8AD4EB](https://placehold.it/20/8AD4EB/000000?text=+) ![#FE9666](https://placehold.it/20/FE9666/000000?text=+) ![#A66999](https://placehold.it/20/A66999/000000?text=+)|
 | 城市公园     | ![#73B761](https://placehold.it/20/73B761/000000?text=+) ![#4A588A](https://placehold.it/20/4A588A/000000?text=+) ![#ECC846](https://placehold.it/20/ECC846/000000?text=+) ![#CD4C46](https://placehold.it/20/CD4C46/000000?text=+) ![#71AFE2](https://placehold.it/20/71AFE2/000000?text=+) ![#8D6FD1](https://placehold.it/20/8D6FD1/000000?text=+) ![#EE9E64](https://placehold.it/20/EE9E64/000000?text=+) ![#95DABB](https://placehold.it/20/95DABB/000000?text=+)|
 | 教室     | ![#4A8DDC](https://placehold.it/20/4A8DDC/000000?text=+) ![#4C5D8A](https://placehold.it/20/4C5D8A/000000?text=+) ![#F3C911](https://placehold.it/20/F3C911/000000?text=+) ![#DC5B57](https://placehold.it/20/DC5B57/000000?text=+) ![#33AE81](https://placehold.it/20/33AE81/000000?text=+) ![#95C8F0](https://placehold.it/20/95C8F0/000000?text=+) ![#DD915F](https://placehold.it/20/DD915F/000000?text=+) ![#9A64A0](https://placehold.it/20/9A64A0/000000?text=+)|
 | 色盲友好   | ![#074650](https://placehold.it/20/074650/000000?text=+) ![#009292](https://placehold.it/20/009292/000000?text=+) ![#FE6DB6](https://placehold.it/20/FE6DB6/000000?text=+) ![#FEB5DA](https://placehold.it/20/FEB5DA/000000?text=+) ![#480091](https://placehold.it/20/480091/000000?text=+) ![#B66DFF](https://placehold.it/20/B66DFF/000000?text=+) ![#B5DAFE](https://placehold.it/20/B5DAFE/000000?text=+) ![#6DB6FF](https://placehold.it/20/6DB6FF/000000?text=+)|
@@ -54,7 +40,7 @@ ms.locfileid: "56215726"
 | 日落    | ![#B6B0FF](https://placehold.it/20/B6B0FF/000000?text=+) ![#3049AD](https://placehold.it/20/3049AD/000000?text=+) ![#FF994E](https://placehold.it/20/FF994E/000000?text=+) ![#C83D95](https://placehold.it/20/C83D95/000000?text=+) ![#FFBBED](https://placehold.it/20/FFBBED/000000?text=+) ![#42F9F9](https://placehold.it/20/42F9F9/000000?text=+) ![#00B2D9](https://placehold.it/20/00B2D9/000000?text=+) ![#FFD86C](https://placehold.it/20/FFD86C/000000?text=+)|
 | 黄昏  | ![#F17925](https://placehold.it/20/F17925/000000?text=+) ![#004753](https://placehold.it/20/004753/000000?text=+) ![#CCAA14](https://placehold.it/20/CCAA14/000000?text=+) ![#4B4C4E](https://placehold.it/20/4B4C4E/000000?text=+) ![#D82C20](https://placehold.it/20/D82C20/000000?text=+) ![#A3D0D4](https://placehold.it/20/A3D0D4/000000?text=+) ![#536F18](https://placehold.it/20/536F18/000000?text=+) ![#46ABB0](https://placehold.it/20/46ABB0/000000?text=+)|
 
-若要选择可用的内置报表主题，请在“主页”功能区中选择“切换主题”，然后从下拉列表菜单中一个主题。
+若要选择可用的内置报表主题，请在“主页”功能区中选择“切换主题”，然后从下拉列表菜单中一个主题   。
 
 ![选择报表主题](media/desktop-report-themes/report-themes_2a.png)
 
@@ -62,7 +48,7 @@ ms.locfileid: "56215726"
 
 ### <a name="importing-report-themes"></a>导入报表主题
 
-若要导入自定义报表主题，请选择“主页”功能区中的“切换主题”按钮。 然后，选择下拉菜单中的“导入主题”。
+若要导入自定义报表主题，请选择“主页”  功能区中的“切换主题”  按钮。 然后，选择下拉菜单中的“导入主题”  。
 
 ![导入主题](media/desktop-report-themes/report-themes_3.png)
 
@@ -77,7 +63,7 @@ ms.locfileid: "56215726"
 至此，我们已导入主题文件，让我们看看简单明了的 JSON 文件结构。
 
 ## <a name="structure-of-a-report-theme-json-file"></a>报表主题 JSON 文件的结构
- 在编辑器中打开在上一部分中选择的基本 JSON 文件（即 St Patrick's Day.json 文件）后，看到如下屏幕截图：
+ 在编辑器中打开在上一部分中选择的基本 JSON 文件（即 St Patrick's Day.json  文件）后，看到如下屏幕截图：
 
 ![St Patrick's Day.json 文件](media/desktop-report-themes/report-themes_6.png)
 
@@ -87,19 +73,19 @@ ms.locfileid: "56215726"
 
 * **dataColors**：要对 Power BI Desktop 视觉对象数据使用的十六进制颜色代码列表。 可以视需要在此列表中添加任意数量的颜色。
 
-* background、foreground 和 tableAccent：应该应用于各种视觉对象类型的颜色。 
-  - **foreground**：应用于文本框文本、KPI 目标文本、多行卡片文本、卡片值文本、仪表标注文本、垂直切片器元素文本、表和矩阵总计以及值文本。 
+* background  、foreground  和 tableAccent  ：应该应用于各种视觉对象类型的颜色。 
+  - **foreground**：应用于文本框文本、KPI 目标文本、多行卡片文本、卡片值文本、仪表标注文本、垂直切片器元素文本、表  和矩阵  总计以及值文本。 
   - **background**：应用于按钮填充和组合图标签背景。 这些颜色的使用方式取决于所应用的具体视觉对象样式。 
-  - 表和矩阵视觉对象默认应用这些样式。
+  - 表  和矩阵  视觉对象默认应用这些样式。
 
-若要对表或矩阵视觉对象应用样式，请按以下步骤操作： 
+若要对表  或矩阵  视觉对象应用样式，请按以下步骤操作： 
 1. 选择视觉对象。 
-2. 然后，在“可视化效果”窗格中，选择“格式”部分。
-3. 展开“矩阵样式”，再从“样式”下拉列表中选择样式。
+2. 然后，在“可视化效果”  窗格中，选择“格式”  部分。
+3. 展开“矩阵样式”  ，再从“样式”  下拉列表中选择样式。
 
 ![“样式”下拉列表](media/desktop-report-themes/report-themes_7.png)
 
-下面展示了 St Patrick's Day.json 文件的文本，可根据它创建你自己的 JSON 文件：
+下面展示了 St Patrick's Day.json  文件的文本，可根据它创建你自己的 JSON 文件：
 
 ```json
     {
@@ -113,48 +99,48 @@ ms.locfileid: "56215726"
 
 可以在其中为选定颜色输入你自己的十六进制颜色代码。
 
-自 2017 年 9 月版 Power BI Desktop 起，JSON 文件更加详尽。 在 JSON 文件中，只定义要调整的格式设置，而未在 JSON 文件中指定的任何格式设置都会直接恢复到 Power BI 默认设置。
+在 JSON 文件中，只定义要调整的格式设置，而未  在 JSON 文件中指定的任何格式设置都会直接恢复到 Power BI 默认设置。
 
 创建 JSON 文件具有多种优点。 例如，可以指定所有图表都使用字号 12，也可以指定某些视觉对象使用特定字体系列。 还可以对特定图表类型禁用数据标签。
 
 使用具体 JSON 文件时，可创建用于标准化图表和报表的主题文件，以方便组织报表保持一致。
 
-若要详细了解详细 JSON 文件的格式，请参阅本文稍后介绍的“报表主题 JSON 文件格式”部分。
+若要详细了解详细 JSON 文件的格式，请参阅本文稍后介绍的“报表主题 JSON 文件格式”  部分。
 
 ## <a name="how-report-theme-colors-stick-to-your-reports"></a>如何在报表中保留报表主题颜色
 将报表发布到 **Power BI 服务**时，报表主题颜色也会随之一同发布。
 
-“格式”面板的“数据颜色”部分反映了报表主题。 例如，在应用“圣帕特里克节”主题中的大量绿色和棕色后，选择一个视觉对象。 然后，依次转到“格式”>“数据颜色”，可以看到如下信息：
+“格式”  面板的“数据颜色”  部分反映了报表主题。 例如，在应用“圣帕特里克节”  主题中的大量绿色和棕色后，选择一个视觉对象。 然后，依次转到“格式”>“数据颜色”  ，可以看到如下信息：
 
 ![可视化](media/desktop-report-themes/report-themes_8.png)
 
-看到所有这些绿色了吗？ 这是因为我们导入并应用的报表主题包含这些颜色。
+看到所有这些绿色了吗？ 这是因为我们导入并应用的报表主题  包含这些颜色。
 
 ### <a name="situations-when-report-theme-colors-wont-stick-to-your-reports"></a>无法在报表中保留报表主题颜色的情况
-假设将自定义颜色集（或单个颜色）应用于视觉对象中的特定数据点。 应用的报表主题不会替代自定义数据点颜色。
+假设将自定义颜色集（或单个颜色）应用于视觉对象中的特定数据点。 应用的报表主题不会  替代自定义数据点颜色。
 
-也许还要使用“主题颜色”部分手动设置数据点颜色。 在你应用新报表主题后，颜色不会更新。 若要恢复默认颜色（以便在应用新报表主题时更新颜色），可以选择“主题颜色”调色板中的“恢复到默认值”。
+也许还要使用“主题颜色”部分手动设置数据点颜色。 在你应用新报表主题后，颜色不会  更新。 若要恢复默认颜色（以便在应用新报表主题时更新颜色），可以选择“主题颜色”  调色板中的“恢复到默认值”  。
 
 ![还原为默认值](media/desktop-report-themes/report-themes_9.png)
 
-此外，许多自定义视觉对象也不会应用报表主题。
+此外，许多自定义视觉对象  也不会应用报表主题。
 
 ## <a name="report-theme-files-you-can-use-right-now"></a>可以立即使用的报表主题文件
-想开始使用**报表主题**吗？ 以下是一些现成的报表主题 JSON 文件，可以将它们下载并导入 Power BI Desktop 报表中。 我们还添加了应用于本文中报表的报表主题的图像。
+想开始使用**报表主题**吗？ 以下是一些现成的报表主题 JSON 文件，可以将它们下载并导入 Power BI Desktop  报表中。 我们还添加了应用于本文中报表的报表主题的图像。
 
 * 宣布首次推出**报表主题**的[博文](https://powerbi.microsoft.com/blog/power-bi-desktop-march-feature-summary/)中使用的[主题](https://go.microsoft.com/fwlink/?linkid=843924) [*waveform.json*](https://go.microsoft.com/fwlink/?linkid=843924)。
 
   ![waverform.json 主题](media/desktop-report-themes/report-themes_10.png)
 
-* 比默认颜色主题[更易于有视力缺陷的用户阅读的主题](https://go.microsoft.com/fwlink/?linkid=843923)。 文件名为 [ColorblindSafe-Longer.json](https://go.microsoft.com/fwlink/?linkid=843923)。
+* 比默认颜色主题[更易于有视力缺陷的用户阅读的主题](https://go.microsoft.com/fwlink/?linkid=843923)。 文件名为 [ColorblindSafe-Longer.json  ](https://go.microsoft.com/fwlink/?linkid=843923)。
 
   ![ColorblindSafe-Longer.json 主题。](media/desktop-report-themes/report-themes_11.png)
 
-* 打包到 zip 文件中的一组 [Power View 主题](https://go.microsoft.com/fwlink/?linkid=843925)，包括如下所示的 [Apothecary.json](https://go.microsoft.com/fwlink/?linkid=843925) 主题。
+* 打包到 zip 文件中的一组 [Power View 主题](https://go.microsoft.com/fwlink/?linkid=843925)，包括如下所示的 [Apothecary.json  ](https://go.microsoft.com/fwlink/?linkid=843925) 主题。
 
   ![Apothecary.json 主题](media/desktop-report-themes/report-themes_12.png)
 
-* 最后是“情人节”主题。
+* 最后是“情人节”  主题。
 
   ![“情人节”主题](media/desktop-report-themes/report-themes_13.png)
 
@@ -184,9 +170,9 @@ ms.locfileid: "56215726"
 
 * **name**：主题名称，也是唯一的必填字段。
 * **dataColors**：要对 Power BI Desktop 视觉对象数据使用的十六进制颜色代码列表。 可以视需要在此列表中添加任意数量的颜色。
-* background、foreground 和 tableAccent：应该应用于各种视觉对象类型的颜色。 foreground 应用于文本框文本、KPI 目标文本、多行卡片文本、卡片值文本、仪表标注文本、垂直切片器元素文本、表和矩阵总计以及值文本。 **background**：应用于按钮填充和组合图标签背景。 这些颜色的使用方式取决于所应用的具体视觉对象样式。 表和矩阵视觉对象默认应用这些样式。
+* background  、foreground  和 tableAccent  ：应该应用于各种视觉对象类型的颜色。 foreground 应用于文本框文本、KPI 目标文本、多行卡片文本、卡片值文本、仪表标注文本、垂直切片器元素文本、表和矩阵总计以及值文本    。 **background**：应用于按钮填充和组合图标签背景。 这些颜色的使用方式取决于所应用的具体视觉对象样式。 表  和矩阵  视觉对象默认应用这些样式。
 
-若要创建扩展格式的 JSON 文件，并能更精细地控制格式设置，还需要向 JSON 文件添加“visualStyles”部分。 在“visualStyles”部分中，嵌套格式设置具体内容。 “visualStyles”部分的格式如下所示：
+若要创建扩展格式的 JSON 文件，并能更精细地控制格式设置，还需要向 JSON 文件添加“visualStyles”  部分。 在“visualStyles”  部分中，嵌套格式设置具体内容。 “visualStyles”  部分的格式如下所示：
 
     visualStyles: {
         visualName: {
@@ -198,7 +184,7 @@ ms.locfileid: "56215726"
         }
     }
 
-在“visualName”和“cardName”部分中，使用特定视觉对象和 cardName。 若要将此设置应用于包含特定视觉对象的属性的所有视觉对象或卡片，请使用星号（“\*”）。 若要在报表中全局应用设置（如视觉对象的字号或特定字体系列），也可以使用星号（“\*”）。
+在“visualName”  和“cardName”  部分中，使用特定视觉对象和 cardName。 若要将此设置应用于包含特定视觉对象的属性的所有视觉对象或卡片，请使用星号（“\*”）。 若要在报表中全局应用设置（如视觉对象的字号或特定字体系列），也可以使用星号（“\*”）。
 
 > [!NOTE]
 > 只需指定要调整的格式设置元素。 未包含在 JSON 文件中的任何格式设置元素都将恢复为它们的默认值和设置。
@@ -206,13 +192,13 @@ ms.locfileid: "56215726"
 > 
 
 ### <a name="json-file-element-definitions"></a>JSON 文件元素定义
-此部分中的表定义视觉对象名称 (visualName)、卡片名称 (cardName)，以及创建 JSON 文件所需的枚举。
+此部分中的表定义视觉对象名称 (visualName  )、卡片名称 (cardName  )，以及创建 JSON 文件所需的枚举。
 
 使用 dateTime  时，日期必须是用单引号括住的 ISO 日期（以“datetime”开头）。 示例如下：
 
     “datetime’2011-10-05T14:48:00.000Z’”
 
-布尔值为 true 或 false。 字符串必须用双引号括起来，如“这是一个字符串”。
+布尔值为 true  或 false  。 字符串必须用双引号括起来，如“这是一个字符串”。
 
 | **visualName** |
 | --- |
@@ -248,7 +234,7 @@ ms.locfileid: "56215726"
 | 树状图 |
 | waterfallChart |
 
-下表定义了 cardName 值。 每个单元格中的第一个值是 JSON 文件术语。 第二个值是卡片名称，如 Power BI Desktop 用户界面中所示。
+下表定义了 cardName  值。 每个单元格中的第一个值是 JSON 文件术语。 第二个值是卡片名称，如 Power BI Desktop  用户界面中所示。
 
 | **cardName** |
 | --- |

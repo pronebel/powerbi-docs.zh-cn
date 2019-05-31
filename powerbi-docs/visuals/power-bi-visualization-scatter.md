@@ -12,16 +12,16 @@ ms.date: 10/24/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
 ms.openlocfilehash: 26dd55f1084d62f9506b02c5852f0396adba305a
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54290305"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61070267"
 ---
 # <a name="scatter-charts-bubble-charts-and-dot-plot-charts-in-power-bi"></a>Power BI 中的散点图、气泡图和点图
 散点图始终具有两个数值轴以显示水平轴上的一组数值数据和垂直轴上的另一组数值数据。 图表在 x 和 y 数值的交叉处显示点，将这些值单独合并到各个数据点。 根据数据，这些数据点可能均衡或不均衡地分布在水平轴上。
 
-气泡图将数据点替换为气泡，用气泡大小表示数据的其他维度。
+气泡图将数据点替换为气泡，用气泡大小  表示数据的其他维度。
 
 ![气泡图示例](media/power-bi-visualization-scatter/power-bi-bubble-chart.png)
 
@@ -60,9 +60,9 @@ ms.locfileid: "54290305"
 1. 在“编辑”视图中打开报表，再选择黄色加号图标，以创建空白报表页。
  
 2. 从“字段”窗格中，选择以下字段：
-   - “销售额” > “每平方英尺的销售额”
-   - “销售额” > “总销售差额 %”
-   - “地区” > “地区”
+   - “销售额” > “每平方英尺的销售额”  
+   - “销售额” > “总销售差额 %”  
+   - “地区” > “地区”  
 
      ![](media/power-bi-visualization-scatter/power-bi-bar-chart.png)
 
@@ -72,7 +72,7 @@ ms.locfileid: "54290305"
 
    ![](media/power-bi-visualization-scatter/power-bi-scatter-new.png).
 
-4. 将“地区”从“详细信息”拖动到“图例”。 这展示了一个散点图，其中“总销售差额 %”沿 Y 轴绘制，“每平方英尺的销售额”沿 X 轴绘制。 数据点的颜色表示地区：
+4. 将“地区”  从“详细信息”  拖动到  “图例”。 这展示了一个散点图，其中“总销售差额 %”沿 Y 轴绘制，“每平方英尺的销售额”沿 X 轴绘制。   数据点的颜色表示地区：
 
     ![](media/power-bi-visualization-scatter/power-bi-scatter2.png)
 
@@ -80,21 +80,21 @@ ms.locfileid: "54290305"
 
 ## <a name="create-a-bubble-chart"></a>创建气泡图
 
-1. 从字段窗格中，依次将“销售额” > “今年销售额” > “值”拖动到“大小”区域。 数据点扩大到与销售值成正比的量。
+1. 从字段窗格中，依次将“销售额” > “今年销售额” > “值”拖动到“大小”区域。      数据点扩大到与销售值成正比的量。
    
    ![点图将变为气泡图](media/power-bi-visualization-scatter/power-bi-scatter-chart-size.png)
 
-2. 将鼠标悬停在一个气泡上。 该气泡的大小反映了“今年销售额”的值。
+2. 将鼠标悬停在一个气泡上。 该气泡的大小反映了  “今年销售额”的值。
    
     ![工具提示显示](media/power-bi-visualization-scatter/pbi_scatter_chart_hover.png)
 
-3. 若要设置气泡图中显示的数据点数量，请在“可视化效果”窗格的“格式”部分，展开“常规”卡片，并调整“数据量”。 可以将最大数据量设置为 10,000 及以下的任意数量。 随着数据的增加，建议先进行测试，以确保性能良好。 
+3. 若要设置气泡图中显示的数据点数量，请在“可视化效果”窗格的“格式”部分，展开“常规”卡片，并调整“数据量”。     可以将最大数据量设置为 10,000 及以下的任意数量。 随着数据的增加，建议先进行测试，以确保性能良好。 
 
     ![数据量](media/power-bi-visualization-scatter/pbi_scatter_data_volume.png) 
 
    由于数据点越多可能意味着加载时间越长，因此如果选择发布已达到数据点上限的报表，请务必跨网站平台和移动平台测试报表，以确保报表性能符合用户预期。 
 
-4. 可以[设置可视化颜色、标签、标题、背景等等](service-getting-started-with-color-formatting-and-axis-properties.md)。 若要[提高可访问性](../desktop-accessibility.md)，请考虑将标记形状添加到每个行。 对每行使用不同的标记形状可使报表使用者更容易区分行（或区域）。 若要选择标记形状，请展开“形状”卡片，再选择标记形状。
+4. 可以[设置可视化颜色、标签、标题、背景等等](service-getting-started-with-color-formatting-and-axis-properties.md)。 若要[提高可访问性](../desktop-accessibility.md)，请考虑将标记形状添加到每个行。 对每行使用不同的标记形状可使报表使用者更容易区分行（或区域）。 若要选择标记形状，请展开“形状”卡片，再选择标记形状。 
 
       ![标记形状](media/power-bi-visualization-scatter/pbi_scatter_marker.png)
 
@@ -105,7 +105,7 @@ ms.locfileid: "54290305"
 ## <a name="create-a-dot-plot"></a>创建点图
 若要创建点图，将数字 X 轴字段替换为分类字段。
 
-从“X 轴”窗格中，删除“每平方英尺销售额”，并将其替换为“地区 > DM”。
+从“X 轴”  窗格中，删除“每平方英尺销售额”  ，并将其替换为“地区 > DM”  。
    
 ![新点图](media/power-bi-visualization-scatter/power-bi-dot-plot-squares.png)
 
@@ -117,7 +117,7 @@ ms.locfileid: "54290305"
 
 ![](media/power-bi-visualization-scatter/pbi_scatter_tshoot1.png)
 
-将字段添加到“详细信息”区域以告知 Power BI 应如何对值进行分组。 每个要绘制的点必须具有唯一的字段，例如简单的行号或 ID 字段。
+将字段添加到  “详细信息”区域以告知 Power BI 应如何对值进行分组。 每个要绘制的点必须具有唯一的字段，例如简单的行号或 ID 字段。
 
 ![](media/power-bi-visualization-scatter/pbi_scatter_tshoot.png)
 

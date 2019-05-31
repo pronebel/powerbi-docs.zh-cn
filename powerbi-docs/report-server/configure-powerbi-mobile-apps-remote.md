@@ -1,20 +1,20 @@
 ---
 title: 远程配置 iOS 移动应用对报表服务器的访问权限
 description: 了解如何为报表服务器远程配置 iOS 移动应用。
-author: markingmyname
+author: maggiesMSFT
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 11/15/2018
-ms.author: maghan
-ms.openlocfilehash: c50f9c482ba689fe81ee22b2b52564dec3cbf1d6
-ms.sourcegitcommit: 91ac6185f7026ddbaa925dc54057bb742b4fa411
-ms.translationtype: HT
+ms.author: maggies
+ms.openlocfilehash: 27b3aad6f1a96c069f56ed68823b71b38115a98a
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/16/2019
-ms.locfileid: "56324360"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "64770647"
 ---
 # <a name="configure-power-bi-ios-mobile-app-access-to-a-report-server-remotely"></a>远程配置 Power BI iOS 移动应用对报表服务器的访问权限
 
@@ -48,15 +48,15 @@ ms.locfileid: "56324360"
 
  假设你发布了通讯组列表的应用配置策略。 当该通讯组列表上的用户和设备启动 iOS 移动应用时，他们将有如下体验。 
 
-1. 他们将看到一条消息，表示已为移动应用配置报表服务器，然后点击“登录”。
+1. 他们将看到一条消息，表示已为移动应用配置报表服务器，然后点击“登录”  。
 
     ![登录报表服务器](media/configure-powerbi-mobile-apps-remote/power-bi-config-server-sign-in.png)
 
-2.  在“连接到服务器”页上，已填写报表服务器详细信息。 他们将点击“连接”。
+2.  在“连接到服务器”页上，已填写报表服务器详细信息  。 他们将点击“连接”  。
 
     ![已填写报表服务器详细信息](media/configure-powerbi-mobile-apps-remote/power-bi-ios-remote-configure-connect-server.png)
 
-3. 他们将键入密码进行身份验证，然后点击“登录”。 
+3. 他们将键入密码进行身份验证，然后点击“登录”  。 
 
     ![已填写报表服务器详细信息](media/configure-powerbi-mobile-apps-remote/power-bi-config-server-address.png)
 

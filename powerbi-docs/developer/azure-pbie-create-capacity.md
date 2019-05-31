@@ -1,8 +1,8 @@
 ---
 title: 在 Azure 门户中创建 Power BI Embedded 容量 | Microsoft Docs
 description: 本文介绍如何在 Microsoft Azure 中创建 Power BI Embedded 容量。
-author: markingmyname
-ms.author: maghan
+author: rkarlin
+ms.author: rkarlin
 manager: kfile
 ms.service: power-bi-embedded
 ms.subservice: ''
@@ -10,12 +10,12 @@ ms.devlang: csharp, javascript
 ms.topic: conceptual
 ms.reviewer: zakharb
 ms.date: 02/05/2019
-ms.openlocfilehash: 1d829dc31bc6e2419d4f2c187b40d6945f963f69
-ms.sourcegitcommit: 0abcbc7898463adfa6e50b348747256c4b94e360
-ms.translationtype: HT
+ms.openlocfilehash: 7a469de22d0432da595f404e72414fb0a686dbc8
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/06/2019
-ms.locfileid: "55762550"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61385178"
 ---
 # <a name="create-power-bi-embedded-capacity-in-the-azure-portal"></a>在 Azure 门户中创建 Power BI Embedded 容量
 
@@ -40,9 +40,9 @@ ms.locfileid: "55762550"
 
 2. 在搜索框中，搜索  *Power BI Embedded*。
 
-3. 在 Power BI Embedded 中，选择“创建”。
+3. 在 Power BI Embedded 中，选择“创建”  。
 
-4. 填写所需的信息，然后选择“创建”。
+4. 填写所需的信息，然后选择“创建”  。
 
     ![创建新容量需要填写的字段](media/azure-pbie-create-capacity/azure-portal-create-power-bi-embedded.png)
 
@@ -55,7 +55,7 @@ ms.locfileid: "55762550"
     |**位置**|为租户托管 Power BI 的位置。 你的默认位置位于主区域内，但可以使用 [Multi-Geo 选项](embedded-multi-geo.md)更改该位置。
     |**定价层**|选择满足需求的 SKU（v 核心数和内存大小）。  有关详细信息，请参阅 [Power BI Embedded 定价](https://azure.microsoft.com/pricing/details/power-bi-embedded/)|
 
-可导航到“所有服务” > “Power BI Embedded”，查看容量是否已准备就绪。 或者，可以在通知部分或边栏选项卡中选择“固定到仪表板”，导航到仪表板以查看新容量。
+可导航到“所有服务” > “Power BI Embedded”，查看容量是否已准备就绪   。 或者，可以在通知部分或边栏选项卡中选择“固定到仪表板”，导航到仪表板以查看新容量  。
 
 ![提供 Power BI Embedded 容量的 Azure 门户仪表板](media/azure-pbie-create-capacity/azure-portal-dashboard.png)
 

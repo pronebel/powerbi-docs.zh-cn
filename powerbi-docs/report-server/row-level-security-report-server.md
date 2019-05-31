@@ -1,20 +1,20 @@
 ---
 title: Power BI 报表服务器中的行级别安全性 (RLS)
 description: 了解如何使用 Power BI 报表服务器中的行级别安全性 (RLS)。
-author: markingmyname
-ms.author: maghan
+author: maggiesMSFT
+ms.author: maggies
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 01/22/2019
-ms.openlocfilehash: 5a39c976a9b9812754ade2e30eac13aa922fd7f9
-ms.sourcegitcommit: 4aa99a8dde4e98909da888c151a71476f7bbfe81
-ms.translationtype: HT
+ms.openlocfilehash: b4a5d11697cff2cae8d137916636907967a7c276
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/26/2019
-ms.locfileid: "58489559"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "64769822"
 ---
 # <a name="row-level-security-rls-in-power-bi-report-server"></a>Power BI 报表服务器中的行级别安全性 (RLS)
 
@@ -28,7 +28,7 @@ ms.locfileid: "58489559"
 
 默认情况下，行级别安全性筛选采用单向筛选器，无需考虑关系是设置为单向还是双向。 可以手动启用具有行级别安全性的双向交叉筛选器。
 
-- 选择关系并选中“双向应用安全性筛选器”复选框。 
+- 选择关系并选中“双向应用安全性筛选器”复选框  。 
 
     ![应用安全性筛选器](media/row-level-security-report-server/rls-apply-security-filter.png)
 
@@ -46,15 +46,15 @@ ms.locfileid: "58489559"
  如果报表没有所需角色，则需要在 Power BI Desktop 中打开报表，添加或修改角色，然后将其保存回 Power BI 报表服务器。 
 
 1. 在 Power BI Desktop 中，将报表保存到 Power BI 报表服务器。 需要使用更适合 Power BI 报表服务器的 Power BI Desktop 版本。
-2. 在 Power BI 报表服务中，请选择报表旁边的省略号(…) 。 
+2. 在 Power BI 报表服务中，请选择报表旁边的省略号(…)  。 
 
-3. 选择“管理” > “行级别安全性”。 
+3. 选择“管理” > “行级别安全性”   。 
 
      ![管理行级别安全性](media/row-level-security-report-server/power-bi-report-server-rls-dialog.png)
 
-    在“行级别安全性”页上，将成员添加到在 Power BI Desktop 中创建的角色。
+    在“行级别安全性”页上，将成员添加到在 Power BI Desktop 中创建的角色  。
 
-5. 若要添加成员，请选择“添加成员”。
+5. 若要添加成员，请选择“添加成员”  。
 
 1. 在文本框中以用户名格式（域\用户）输入用户或组，并选择要为其分配的角色。 成员需在你的组织内。   
 
@@ -62,9 +62,9 @@ ms.locfileid: "58489559"
 
     根据配置 Active Directory 的方式，在此处输入“用户主体名称”同样有效。 在此情况下，报表服务器会在列表中显示相应用户名。
 
-1. 单击“确定”进行应用。   
+1. 单击“确定”进行应用  。   
 
-8. 若要删除成员，请选择成员名称旁边的框并选择“删除”。  一次可以删除多个成员。 
+8. 若要删除成员，请选择成员名称旁边的框并选择“删除”  。  一次可以删除多个成员。 
 
     ![删除成员](media/row-level-security-report-server/power-bi-report-server-delete-members.png)
 

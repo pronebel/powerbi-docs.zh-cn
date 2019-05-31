@@ -1,65 +1,82 @@
 ---
 title: 使用 Power BI 连接到 Smartsheet
 description: 适用于 Power BI 的 Smartsheet
-author: SarinaJoan
+author: maggiesMSFT
 manager: kfile
-ms.reviewer: maggiesMSFT
+ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-template-apps
 ms.topic: conceptual
-ms.date: 10/16/2017
-ms.author: sarinas
+ms.date: 04/26/2019
+ms.author: maggies
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 55d61e89b1fb01de472d967a312b25340d482951
-ms.sourcegitcommit: 750f0bfab02af24c8c72e6e9bbdd876e4a7399de
-ms.translationtype: HT
+ms.openlocfilehash: 841201aa87139b9630d6fc076d57109fb2b09804
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/04/2019
-ms.locfileid: "54008456"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "64578918"
 ---
 # <a name="connect-to-smartsheet-with-power-bi"></a>使用 Power BI 连接到 Smartsheet
-Smartsheet 提供了协作和文件共享的简单平台。 Power BI 的 Smartsheet 内容包提供仪表板、报表和显示你的 Smartsheet 帐户概述的数据集。 还可以使用 [Power BI Desktop](desktop-connect-to-data.md) 直接连接到你帐户中的单独工作表。 
+本文逐步拉取你从使用 Power BI 模板应用你的 Smartsheet 帐户的数据。 Smartsheet 提供了协作和文件共享的简单平台。 适用于 Power BI 的 Smartsheet 模板应用提供了一个仪表板、 报表和显示的你的 Smartsheet 帐户概述的数据集。 此外可以使用[Power BI Desktop](desktop-connect-to-data.md)直接连接到您的帐户中的各个工作表。 
 
-连接到 Power BI 的 [Smartsheet 内容包](https://app.powerbi.com/groups/me/getdata/services/smartsheet)
+你已安装模板应用后，可以更改仪表板和报表。 然后您可以将其分发到同事的应用为你的组织中。
+
+连接到[Smartsheet 模板应用](https://app.powerbi.com/groups/me/getdata/services/smartsheet)适用于 Power BI。
 
 >[!NOTE]
->最好使用 Smartsheet 管理员帐户连接和加载 Power BI 内容包，因为该帐户具有额外的访问权限。
+>使用 Smartsheet 管理员帐户是首选的连接并加载 Power BI 模板应用，因为它具有额外的访问权限。
 
 ## <a name="how-to-connect"></a>如何连接
-1. 选择左侧导航窗格底部的**获取数据**。
-   
-   ![](media/service-connect-to-smartsheet/pbi_getdata.png)
-2. 在**服务**框中，选择**获取**。
-   
-   ![](media/service-connect-to-smartsheet/pbi_getservices.png) 
-3. 选择 **Smartsheet \> 获取**。
-   
-   ![](media/service-connect-to-smartsheet/smartsheet.png)
+
+[!INCLUDE [powerbi-service-apps-get-more-apps](./includes/powerbi-service-apps-get-more-apps.md)]
+
+3. 选择**Smartsheet** \> **立即获取**。
+4. 在中**安装此 Power BI 应用？** 选择**安装**。
+4. 在中**应用程序**窗格中，选择**Smartsheet**磁贴。
+
+    ![Power BI 的 Smartsheet 应用磁贴](media/service-connect-to-smartsheet/power-bi-smartsheet-tile.png)
+
+6. 在中**开始使用新的应用程序**，选择**将数据连接**。
+
+    ![开始使用新应用](media/service-tutorial-connect-to-github/power-bi-github-app-tutorial-connect-data.png)
+
 4. 对于身份验证方法，选择 **oAuth2 \> 登录**。
    
    出现提示时，输入 Smartsheet 凭据，然后按照身份验证过程进行操作。
    
-   ![](media/service-connect-to-smartsheet/creds.png)
+   ![Smartsheet 凭据](media/service-connect-to-smartsheet/creds.png)
    
-   ![](media/service-connect-to-smartsheet/creds2.png)
-5. Power BI 导入数据后，你将在左侧的导航窗格中看到新的仪表板、报表和数据集。 新的项目会以黄色星号 \* 标记，请选择 Smartsheet 条目。
+   ![Smartsheet 登录](media/service-connect-to-smartsheet/creds2.png)
+
+5. Power BI 导入数据后，将打开 Smartsheet 仪表板。
    
-   ![](media/service-connect-to-smartsheet/dashboard.png)
+   ![Smartsheet 仪表板](media/service-connect-to-smartsheet/power-bi-smartsheet-dashboard.png)
 
-**下一步？**
+## <a name="modify-and-distribute-your-app"></a>修改和分发您的应用程序
 
-* 尝试在仪表板顶部的[在“问答”框中提问](consumer/end-user-q-and-a.md)
-* 在仪表板中[更改磁贴](service-dashboard-edit-tile.md)。
-* [选择磁贴](consumer/end-user-tiles.md)以打开基础报表。
-* 虽然数据集将按计划每日刷新，但你可以更改刷新计划或根据需要使用“立即刷新”来尝试刷新
+已安装 Smartsheet 模板应用。 这意味着还创建了 Smartsheet 应用工作区。 在工作区中，更改报表和仪表板中，，然后将其作为分发*应用*给你的组织中的同事。 
+
+1. 若要查看左侧的导航栏中的新的 Smartsheet 工作区中，所有内容，请选择**工作区** > **Smartsheet**。 
+
+    ![在左侧的导航窗格中的 Smartsheet 工作区](media/service-connect-to-smartsheet/power-bi-smartsheet-workspace.png)
+
+    此视图是工作区内容列表。 在右上角中，您会看到**更新应用**。 如果你已准备好将应用到你的同事分发，这是将开始位置。 
+
+    ![Smartsheet 内容列表](media/service-connect-to-smartsheet/power-bi-smartsheet-workspace-content.png)
+
+2. 选择**报表**并**数据集**若要查看工作区中的其他元素。
+
+    阅读有关[分发应用](service-create-distribute-apps.md)给你的同事。
 
 ## <a name="whats-included"></a>包含的内容
-Power BI 的 Smartsheet 内容包包含你的 Smartsheet 帐户的概述，例如你拥有的工作区、报表和工作表的数量及其修改时间等。管理员用户还将在看到有关系统中用户的一些信息，如顶层工作表创建者。  
+Smartsheet 模板应用的 Power BI 包括你的 Smartsheet 帐户，例如工作区数的概述报表，和工作表，已进行修改后等。管理员用户也在其系统，如顶层工作表创建者中看到大约用户的一些信息。  
 
 若要直接连接到你帐户中的单独工作表，可以使用 [Power BI Desktop](desktop-connect-to-data.md) 中的 Smartsheet 连接器。  
 
-## <a name="next-steps"></a>后续步骤：
+## <a name="next-steps"></a>后续步骤
 
-[什么是 Power BI？](power-bi-overview.md)
-
-[获取 Power BI 的数据](service-get-data.md)
+* [在 Power BI 中创建新的工作区](service-create-the-new-workspaces.md)
+* [在 Power BI 中安装并使用应用](consumer/end-user-apps.md)
+* [连接到外部服务的 Power BI 应用](service-connect-to-services.md)
+* 是否有任何问题? [尝试咨询 Power BI 社区](http://community.powerbi.com/)

@@ -7,34 +7,42 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
-ms.date: 11/02/2018
+ms.date: 05/14/2019
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: 4ab0fe4e3398a37da34af02282a847f316f3f727
-ms.sourcegitcommit: 20ae9e9ffab6328f575833be691073de2061a64d
-ms.translationtype: HT
+ms.openlocfilehash: 37108c88b3a4f1efe2d324d2b182276252072d78
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/22/2019
-ms.locfileid: "58383144"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "65710438"
 ---
 # <a name="track-power-bi-service-health-in-office-365"></a>跟踪 Office 365 中的 Power BI 服务运行状况
 
-Microsoft 365 管理中心为 Power BI 管理员提供重要工具，包括有关服务运行状况的当前和历史信息。 若要访问此信息，必须是以下角色之一：Power BI 服务管理员或 Office 365 全局管理员。 有关角色的详细信息，请参阅[与 Power BI 相关的管理员角色](service-admin-administering-power-bi-in-your-organization.md#administrator-roles-related-to-power-bi)。
+Microsoft 365 管理中心内为 Power BI 管理员提供重要的工具。 这些工具包括有关服务运行状况的当前和历史信息。 若要访问服务运行状况信息，您必须是以下角色之一：
+
+* Power BI 服务管理员
+
+* Office 365 全局管理员
+
+有关角色的详细信息，请参阅[Power BI 管理员角色相关](service-admin-administering-power-bi-in-your-organization.md#administrator-roles-related-to-power-bi)。
 
 1. 登录 [MIcrosoft 365 管理中心](https://portal.office.com/adminportal)。
 
-1. 选择“服务运行状况”磁贴。
+1. 从左侧的导航栏中，选择**显示所有** > **运行状况** > **服务运行状况**。 服务运行状况页将显示：
 
-    ![服务运行状况磁贴](media/service-admin-health/service-health-tile.png)
+    ![Microsoft 365 管理中心内，使用运行状况和服务运行状况选项标注的屏幕截图。](media/service-admin-health/service-health-tile.png)
 
-1. 在当前列表中，选择“N 个公告”或“N 个事件”，并查看结果。 在下面的图形中，可以查看三个活动公告之一。
+1. 从**所有服务**列表中，选择**公告**或**事件**并查看结果。 在下面的屏幕截图，可以看到三个活动的建议之一。
 
-    ![活动公告](media/service-admin-health/active-advisories.png)
+    ![使用 Power BI 和调出显示详细信息选项的三个建议的服务运行状况页屏幕截图。](media/service-admin-health/active-advisories.png)
 
-1. 若要查看详细信息，请选择项的“显示详细信息”。 在下图中，可以查看其他详细信息，包括最近状态更新。
+1. 若要查看详细信息，请选择项的“显示详细信息”  。 下面的屏幕截图，请参阅其他详细信息，包括最新状态更新。
 
-    ![公告详细信息](media/service-admin-health/advisory-details.png)
+    ![咨询屏幕快照的详细信息。](media/service-admin-health/advisory-details.png)
 
     向下滚动以查看更多信息，完成时关闭窗格。
 
-1. 若要查看所有服务的历史信息，在主列表右上方选择“查看历史记录”。 然后，选择“过去 7 天”或“过去 30 天”。 若要返回到当前服务运行状况，请选择“查看当前状态”。
+1. 若要查看的历史信息的右上角中的所有服务跨**服务运行状况**页上，选择**查看历史记录**。 然后，选择“过去 7 天”  或“过去 30 天”  。 
+
+1. 若要返回到当前服务运行状况，请选择“查看当前状态”  。

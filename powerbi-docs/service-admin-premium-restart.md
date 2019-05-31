@@ -1,8 +1,8 @@
 ---
 title: 重启 Power BI 高级容量
 description: 了解如何重启 Power BI 高级容量，以解决性能问题。
-author: minewiskan
-ms.author: owend
+author: mgblythe
+ms.author: mblythe
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
@@ -10,12 +10,12 @@ ms.subservice: powerbi-admin
 ms.topic: conceptual
 ms.date: 02/05/2019
 LocalizationGroup: Premium
-ms.openlocfilehash: 7fbd8bd9c7712dbd2476544fef900547310f35fa
-ms.sourcegitcommit: 54d44deb6e03e518ad6378656c769b06f2a0b6dc
-ms.translationtype: HT
+ms.openlocfilehash: 214b9fe48d5254e1bd2d436dd873b3c2d1d35f98
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/07/2019
-ms.locfileid: "55794954"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "65564915"
 ---
 # <a name="restart-a-power-bi-premium-capacity"></a>重启 Power BI 高级容量
 
@@ -31,21 +31,21 @@ Power BI 不断改进其保护高级容量用户免受此类问题的影响。 �
 
 ## <a name="is-the-restart-process-safe-will-i-lose-any-data"></a>重启过程是否安全？ 是否会丢失任何数据？
 
-重启后，所有保存在容量上的数据、定义、报表和仪表板都保持完整。 重启容量时，将停止所有正在进行的计划和临时刷新。 当容量可用时，将重启刷新。 使用容量进行交互的用户将丢失未保存的工作。 在重启完成后，他们应刷新其浏览器。
+重启后，所有保存在容量上的数据、定义、报表和仪表板都保持完整。 重启容量时，将停止所有正在进行的计划和临时刷新。 服务尝试进行重试刷新时有可用容量。 使用容量进行交互的用户将丢失未保存的工作。 在重启完成后，他们应刷新其浏览器。
 
 ## <a name="how-do-i-restart-a-capacity"></a>如何重启容量？
 
 请按照以下步骤重启容量。
 
-1. 在 Power BI 管理门户中，在“容量设置”选项卡上，导航到你的容量。 
+1. 在 Power BI 管理门户中，在“容量设置”选项卡上，导航到你的容量  。 
 
-1. 将“CapacityRestart”功能标记添加到容量 URL： https://app.powerbi.com/admin-portal/capacities/<YourCapacityId>?capacityRestartButton=true.
+1. 将“CapacityRestart”功能标记添加到容量 URL： https://app.powerbi.com/admin-portal/capacities/<YourCapacityId>?capacityRestartButton=true.  
 
-1. 在“高级设置” > “容量重启”下，请选择“重启容量”。
+1. 在“高级设置” > “容量重启”下，请选择“重启容量”    。
 
     ![重启容量](media/service-admin-premium-restart/restart-capacity.png)
 
-1. 在“容量重启”对话框中，请选择“是，重启容量”。
+1. 在“容量重启”对话框中，请选择“是，重启容量”   。
 
     ![确认重启](media/service-admin-premium-restart/confirm-restart.png)
 
@@ -57,6 +57,6 @@ Power BI 不断改进其保护高级容量用户免受此类问题的影响。 �
 
 ## <a name="next-steps"></a>后续步骤
 
-[什么是 Power BI Premium？](service-premium.md)
+[什么是 Power BI Premium？](service-premium-what-is.md)
 
 更多问题？ [尝试咨询 Power BI 社区](http://community.powerbi.com/)

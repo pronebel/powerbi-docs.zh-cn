@@ -12,11 +12,11 @@ ms.date: 12/21/2018
 ms.author: maggies
 LocalizationGroup: Administration
 ms.openlocfilehash: a46fbb0679de30e554003d858e01756b9b242b1b
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54280714"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61189832"
 ---
 # <a name="manage-data-storage-in-power-bi-workspaces"></a>管理 Power BI 工作区中的数据存储
 
@@ -46,10 +46,10 @@ ms.locfileid: "54280714"
 
 确定你 Power BI 帐户中的数据存储使用情况，并管理帐户。
 
-1. 若要管理你自己的存储，请转到左侧导航窗格中的“我的工作区”。
+1. 若要管理你自己的存储，请转到左侧导航窗格中的“我的工作区”  。
    
     ![我的工作区](media/service-admin-manage-your-data-storage-in-power-bi/pbi_myworkspace.png)
-2. 依次选择右上角的齿轮图标![齿轮图标](media/service-admin-manage-your-data-storage-in-power-bi/pbi_gearicon.png) \>“管理个人存储”。
+2. 依次选择右上角的齿轮图标![齿轮图标](media/service-admin-manage-your-data-storage-in-power-bi/pbi_gearicon.png) \>“管理个人存储”  。
    
     顶部栏会显示你已使用的存储限制量。
    
@@ -64,10 +64,10 @@ ms.locfileid: "54280714"
 请记住，你或其他人可能会具有基于某个数据集的报表和仪表板。 如果删除该数据集，则这些报表和仪表板将无法再正常工作。
 
 ## <a name="manage-your-app-workspace"></a>管理应用工作区
-1. 依次选择“工作区”旁边的箭头 \> 应用工作区的名称。
+1. 依次选择“工作区”  旁边的箭头 \> 应用工作区的名称。
    
     ![选择应用工作区](media/service-admin-manage-your-data-storage-in-power-bi/pbi_groupworkspaces.png)
-2. 依次选择右上角的齿轮图标![齿轮图标](media/service-admin-manage-your-data-storage-in-power-bi/pbi_gearicon.png) \>“管理组存储”。
+2. 依次选择右上角的齿轮图标![齿轮图标](media/service-admin-manage-your-data-storage-in-power-bi/pbi_gearicon.png) \>“管理组存储”  。
    
     顶部栏会显示已使用的组存储限制量。
    
@@ -96,7 +96,7 @@ ms.locfileid: "54280714"
 
 ![已达到存储限制](media/service-admin-manage-your-data-storage-in-power-bi/manage-storage-limit.png)
 
-此限制也会显示在“管理个人存储空间”中。
+此限制也会显示在“管理个人存储空间”中  。
 
  ![管理个人存储，超过存储空间上限](media/service-admin-manage-your-data-storage-in-power-bi/manage-storage-limit2.png)
 

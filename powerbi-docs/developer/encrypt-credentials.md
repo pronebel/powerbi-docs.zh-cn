@@ -10,15 +10,15 @@ ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 02/04/2019
 ms.openlocfilehash: 6229d65e7ef28d0c9b6013166cb504cfb976f46d
-ms.sourcegitcommit: 76772a361e6cd4dd88824b2e4b32af30656e69db
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/27/2019
-ms.locfileid: "56892220"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61341671"
 ---
 # <a name="encrypt-credentials"></a>加密凭据
 
-如果使用 [Power BI Rest API](https://docs.microsoft.com/rest/api/power-bi/) 在“企业本地网关”下调用 [Create Datasource](https://docs.microsoft.com/rest/api/power-bi/gateways/createdatasource) 或 [Update Datasource](https://docs.microsoft.com/rest/api/power-bi/gateways/updatedatasource)，则需要使用网关的公钥加密凭据值。
+如果使用 [Power BI Rest API](https://docs.microsoft.com/rest/api/power-bi/) 在“企业本地网关”下调用 [Create Datasource](https://docs.microsoft.com/rest/api/power-bi/gateways/createdatasource) 或 [Update Datasource](https://docs.microsoft.com/rest/api/power-bi/gateways/updatedatasource)，则需要使用网关的公钥加密凭据值  。
 
 请参阅下面的代码示例，了解如何在 .NET 中加密凭据。
 

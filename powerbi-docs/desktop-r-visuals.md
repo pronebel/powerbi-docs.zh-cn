@@ -11,17 +11,17 @@ ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Create reports
 ms.openlocfilehash: 969dc53f97156724d6c2b6b7dd6036b3fe8310aa
-ms.sourcegitcommit: 10a87c016f497dbeba32f94ed1f3688a70816fea
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/09/2019
+ms.lasthandoff: 05/29/2019
 ms.locfileid: "65514431"
 ---
 # <a name="create-power-bi-visuals-using-r"></a>使用 R 创建 Power BI 视觉对象
 借助 **Power BI Desktop**，可以使用 **R** 将数据可视化。
 
 ## <a name="install-r"></a>安装 R
-Power BI Desktop 既不包括，也不会部署或安装 R 引擎。 若要在 **Power BI Desktop** 中运行 R 脚本，必须在本地计算机上单独安装 **R**。 可以从很多位置免费下载并安装 **R**，其中包括 [Revolution Open 下载页](https://mran.revolutionanalytics.com/download/)，以及 [CRAN 存储库](https://cran.r-project.org/bin/windows/base/)。 **Power BI Desktop** 中的最新版 R 脚本支持在安装路径中使用 Unicode 字符以及空格（空字符）。
+Power BI Desktop  既不包括，也不会部署或安装 R  引擎。 若要在 **Power BI Desktop** 中运行 R 脚本，必须在本地计算机上单独安装 **R**。 可以从很多位置免费下载并安装 **R**，其中包括 [Revolution Open 下载页](https://mran.revolutionanalytics.com/download/)，以及 [CRAN 存储库](https://cran.r-project.org/bin/windows/base/)。 **Power BI Desktop** 中的最新版 R 脚本支持在安装路径中使用 Unicode 字符以及空格（空字符）。
 
 ## <a name="enable-r-visuals"></a>启用 R 视觉对象
 若要启用 R 视觉对象，请选择**文件 > 选项和设置 > 选项**，并在出现的**选项**页中确保本地 R 安装在**选项**窗口的 **R 脚本**部分中指定，如下图所示。 下图中，R 的本地安装路径是 **C:\Program Files\R\R-3.2.0**，并在文本框中显式提供该路径。 请确保显示的路径正确地反映了想要 **Power BI Desktop** 使用的本地 R 安装。
@@ -39,16 +39,16 @@ Power BI Desktop 既不包括，也不会部署或安装 R 引擎。 若要在 *
    
    - 占位符 R 视觉对象图像位于报表画布上。
    
-   - R 脚本编辑器位于中央窗格底部边缘处。
+   - R 脚本编辑器  位于中央窗格底部边缘处。
    
    ![](media/desktop-r-visuals/r-visuals-4.png)
 
 2. 接下来，在“**字段**”的“**值**”部分中添加要在 R 脚本中使用的字段，就像处理其他任何 **Power BI Desktop** 视觉对象一样。 
     
-    只有已添加到“字段”的字段才可供 R 脚本使用。 可以在 Power BI Desktop R 脚本编辑器中处理 R 脚本的同时，添加新字段，或从“字段”中删除不必要的字段。 **Power BI Desktop** 会自动检测已添加或删除的字段。
+    只有已添加到“字段”  的字段才可供 R 脚本使用。 可以在 Power BI Desktop R 脚本编辑器  中处理 R 脚本的同时，添加新字段，或从“字段”  中删除不必要的字段。 **Power BI Desktop** 会自动检测已添加或删除的字段。
    
    > [!NOTE]
-   > R 视觉对象的默认聚合类型是“不汇总”。
+   > R 视觉对象的默认聚合类型是“不汇总”  。
    > 
    > 
    
@@ -70,22 +70,22 @@ Power BI Desktop 既不包括，也不会部署或安装 R 引擎。 若要在 *
    > 
    > 
    
-   生成的数据帧被称为“数据集”，并且可以通过相应所选列名称访问所选列。 例如，gear 字段可通过在 R 脚本中编写 dataset$gear 进行访问。 对于具有空格或特殊字符的字段，请使用单引号。
+   生成的数据帧被称为“数据集”  ，并且可以通过相应所选列名称访问所选列。 例如，gear 字段可通过在 R 脚本中编写 dataset$gear  进行访问。 对于具有空格或特殊字符的字段，请使用单引号。
 
 4. 借助所选字段自动生成的数据帧，就可以编写将导致绘制到 R 默认设备的 R 脚本。 该脚本完成时，从 **R 脚本编辑器**标题栏选择**运行**（**运行**位于标题栏右侧）。
    
-    选择“运行”后，Power BI Desktop 会识别绘图，并在画布上予以呈现。 由于该过程是在本地 R 安装上执行，请确保安装了所需的包。
+    选择“运行”  后，Power BI Desktop  会识别绘图，并在画布上予以呈现。 由于该过程是在本地 R 安装上执行，请确保安装了所需的包。
    
    当以下任一事件发生时，**Power BI Desktop** 会重新绘制视觉对象：
    
-   * 当从“R 脚本编辑器”标题栏选择“运行”
+   * 当从“R 脚本编辑器”  标题栏选择“运行” 
    * 每当数据更改发生时（由于数据刷新、筛选或突出显示所导致）
 
      下图显示相关绘图代码的示例，并绘制不同类型汽车特征间的关联。
 
      ![](media/desktop-r-visuals/r-visuals-6.png)
 
-5. 若要获取可视化效果的较大视图，你可以尽量减小 **R 脚本编辑器**。 当然，如同 Power BI Desktop 中的其他视觉对象，你可以只选择环形视觉对象（在上面的示例图像中，为右侧的圆形视觉对象）中的跑车，交叉筛选相关绘图。
+5. 若要获取可视化效果的较大视图，你可以尽量减小 **R 脚本编辑器**。 当然，如同 Power BI Desktop  中的其他视觉对象，你可以只选择环形视觉对象（在上面的示例图像中，为右侧的圆形视觉对象）中的跑车，交叉筛选相关绘图。
 
     ![](media/desktop-r-visuals/r-visuals-7.png)
 
@@ -107,7 +107,7 @@ Power BI Desktop 既不包括，也不会部署或安装 R 引擎。 若要在 *
 
     ![](media/desktop-r-visuals/r-visuals-9.png)
 
-    > R 脚本安全性：R 视觉对象是根据 R 脚本创建的，其中可能包含具有安全风险或隐私风险的代码。 当尝试查看 R 视觉对象或首次与其交互时，用户会看到一条安全警告消息。 仅当你信任作者和来源，或者在查看并了解 R 脚本之后，才启用 R 视觉对象。
+    >  R 脚本安全性：R 视觉对象是根据 R 脚本创建的，其中可能包含具有安全风险或隐私风险的代码。 当尝试查看 R 视觉对象或首次与其交互时，用户会看到一条安全警告消息。 仅当你信任作者和来源，或者在查看并了解 R 脚本之后，才启用 R 视觉对象。
     > 
     > 
 

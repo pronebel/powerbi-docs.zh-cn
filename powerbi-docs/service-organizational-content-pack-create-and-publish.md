@@ -11,11 +11,11 @@ ms.date: 08/02/2018
 ms.author: maggies
 LocalizationGroup: Share your work
 ms.openlocfilehash: 3a434c418e8a385db921dd910f354bda04ad8edd
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54289316"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61228384"
 ---
 # <a name="create-and-publish-a-power-bi-organizational-content-pack-tutorial"></a>创建和发布 Power BI 组织内容包（教程）
 
@@ -31,7 +31,7 @@ ms.locfileid: "54289316"
 
 假设你是 Contoso 的发布经理，准备推出新产品。  你通过报表创建了仪表板，想要与其他管理发布的员工共享。 你想要对仪表板和报表进行打包的方法，使其作为你的同事使用的解决方案。 
 
-想要跟着做吗？ 在 [Power BI 服务](https://powerbi.com)中，依次转到 **“获取数据”>“示例”>“机会分析示例”** > “**连接**”，获取自己的副本。 
+想要跟着做吗？ 在 [Power BI 服务](https://powerbi.com)中，依次转到 **“获取数据”>“示例”>“机会分析示例”**  > “**连接**”，获取自己的副本。 
 
 1. 在左侧导航窗格中选择**机会分析示例**仪表板。
 2. 从顶部导航栏中，选择齿轮图标 ![](media/service-organizational-content-pack-create-and-publish/cog.png) > “**创建内容包**”。    
@@ -53,7 +53,7 @@ ms.locfileid: "54289316"
       > 
       > 
    
-   3. 推荐：添加说明。 这有助于同事更轻松地找到所需的内容包。 除了说明外，还请添加你的同事在搜索此内容包时可能输入的关键字。 添加联系人信息，方便同事有疑问或需要帮助时使用。
+   3. 推荐：添加说明  。 这有助于同事更轻松地找到所需的内容包。 除了说明外，还请添加你的同事在搜索此内容包时可能输入的关键字。 添加联系人信息，方便同事有疑问或需要帮助时使用。
    
    4. **上载图像或徽标**，方便组成员更轻松地查找内容包，因为浏览图像比浏览文本更快。 在下面的屏幕截图中，我们使用了机会计数百分比堆积柱形图磁贴的图像。
    

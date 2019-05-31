@@ -11,11 +11,11 @@ ms.date: 02/22/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
 ms.openlocfilehash: b28c4ea9b4cacc77a7f98af5bfc006670f40af94
-ms.sourcegitcommit: 76772a361e6cd4dd88824b2e4b32af30656e69db
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/27/2019
-ms.locfileid: "56892266"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61314934"
 ---
 # <a name="connect-to-an-oracle-database"></a>连接到 Oracle 数据库
 若要将 Oracle 数据库与 **Power BI Desktop** 连接，运行 Power BI Desktop 的计算机上必须安装了正确的 Oracle 客户端软件。 你使用的 Oracle 客户端软件取决于已安装的 Power BI Desktop 版本 - **32 位**版本或 **64 位**版本。
@@ -23,7 +23,7 @@ ms.locfileid: "56892266"
 **支持的版本**：Oracle 9 及更高版本、Oracle 客户端软件 8.1.7 及更高版本。
 
 ## <a name="determining-which-version-of-power-bi-desktop-is-installed"></a>确定安装了哪个版本的 Power BI Desktop
-若要确定所安装的 Power BI Desktop 版本，请依次选择“文件”、“帮助”和“关于”，然后查看“版本:”行。 下图中安装的是 64 位版本的 Power BI Desktop：
+若要确定所安装的 Power BI Desktop 版本，请依次选择“文件”、“帮助”和“关于”，然后查看“版本:”行   。 下图中安装的是 64 位版本的 Power BI Desktop：
 
 ![](media/desktop-connect-oracle-database/connect-oracle-database_1.png)
 
@@ -42,7 +42,7 @@ ms.locfileid: "56892266"
 1. 在“获取数据”窗口中，选择**数据库 > Oracle 数据库**
    
    ![](media/desktop-connect-oracle-database/connect-oracle-database_2.png)
-2. 在出现的 **Oracle 数据库**对话框中，提供服务器的名称，并选择**连接**。 如果需要 SID，则可以指定使用格式ServerName/SID，其中 SID 是数据库的唯一名称。 如果 ServerName/SID 格式无效，则尝试使用 ServerName/ServiceName，其中 ServiceName 是连接时使用的别名。
+2. 在出现的 **Oracle 数据库**对话框中，提供服务器的名称，并选择**连接**。 如果需要 SID，则可以指定使用格式ServerName/SID  ，其中 SID 是数据库的唯一名称。 如果 ServerName/SID  格式无效，则尝试使用 ServerName/ServiceName  ，其中 ServiceName 是连接时使用的别名。
 
 
    ![](media/desktop-connect-oracle-database/connect-oracle-database_3.png)
@@ -63,4 +63,4 @@ ms.locfileid: "56892266"
 
 * 转而从 https://powerbi.microsoft.com/desktop 下载 Power BI Desktop。
 
-* 若要使用 Microsoft Store 中的版本，请在本地计算机上，将 12.X.X\client_X 中的 oraons.dll 复制到 12.X.X\client_X\bin。 X 表示版本和目录编号。
+* 若要使用 Microsoft Store 中的版本，请在本地计算机上，将 12.X.X\client_X 中的 oraons.dll 复制到 12.X.X\client_X\bin   。 X 表示版本和目录编号。

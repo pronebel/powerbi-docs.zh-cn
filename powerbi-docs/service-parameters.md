@@ -11,14 +11,14 @@ ms.date: 11/21/2018
 ms.author: maggies
 LocalizationGroup: Create reports
 ms.openlocfilehash: 8db6f106ecc2285cb66ff980bc72fa666456f81a
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54274780"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61225953"
 ---
 # <a name="edit-parameter-settings-in-the-power-bi-service"></a>在 Power BI 服务中编辑参数设置
-报表创建者将查询参数添加到 Power BI Desktop 中的报表。 报表创建者可使用参数根据一个或多个参数“值”将报表组成多个部分。 例如，报表创建者可创建参数，将数据限制到单个国家/地区，或使用参数来限制字段（例如日期、时间和文本）可接受的格式。
+报表创建者将查询参数添加到 Power BI Desktop 中的报表。 报表创建者可使用参数根据一个或多个参数“值”将报表组成多个部分  。 例如，报表创建者可创建参数，将数据限制到单个国家/地区，或使用参数来限制字段（例如日期、时间和文本）可接受的格式。
 
 ![Desktop 中显示“管理参数”选项的“开始”选项卡](media/service-parameters/power-bi-manage-parameters.png)
 
@@ -26,13 +26,13 @@ ms.locfileid: "54274780"
 
 报表创建者可在 Desktop 中定义参数。 [将该报表发布到 Power BI 服务](desktop-upload-desktop-files.md)时，参数设置和选择会随其移动。 可在 Power BI 服务中查看和编辑某些参数设置（例如定义和描述可接受值的参数），但限制可用数据的参数除外。
 
-1. 在 Power BI 服务中，选择齿轮图标 ![齿轮图标](media/service-parameters/power-bi-cog.png) 打开“设置”。
+1. 在 Power BI 服务中，选择齿轮图标 ![齿轮图标](media/service-parameters/power-bi-cog.png) 打开“设置”  。
 
-2. 选择“数据集”选项卡并突出显示列表中的数据集。 
+2. 选择“数据集”  选项卡并突出显示列表中的数据集。 
     
     ![选中了“数据集”选项卡的“设置”窗口](media/service-parameters/power-bi-select-dataset2.png)
 
-3. 展开参数。  如果所选数据集没有参数，则将看到一条消息，其中带有指向“了解有关查询参数的详细信息”的链接。 如果数据集具有参数，但展开参数标题会显示这些参数。 
+3. 展开参数  。  如果所选数据集没有参数，则将看到一条消息，其中带有指向“了解有关查询参数的详细信息”的链接。 如果数据集具有参数，但展开参数  标题会显示这些参数。 
 
     ![参数已展开的“设置”窗口](media/service-parameters/power-bi-settings.png)
 

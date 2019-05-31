@@ -10,11 +10,11 @@ ms.topic: conceptual
 ms.date: 05/05/2018
 ms.author: mshenhav
 ms.openlocfilehash: 433bfc6298632eb9b999a23fe4b54417add507a3
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54278668"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61339188"
 ---
 # <a name="make-and-view-favorites-in-the-power-bi-mobile-apps"></a>在 Power BI 移动应用中收藏和查看
 适用于：
@@ -35,7 +35,7 @@ ms.locfileid: "54278668"
 可以在 Power BI 报表服务器或 Reporting Services Web 门户上将 KPI 和报表标记为收藏项，然后在移动设备上的一个方便使用的文件夹中查看它们，以及收藏的 Power BI 仪表板。
 
 ## <a name="view-your-power-bi-favorites"></a>查看 Power BI 收藏夹
-* 依次点击顶部导航菜单![导航菜单图标](./media/mobile-apps-favorites/power-bi-iphone-global-nav-button.png)和“收藏夹”。
+* 依次点击顶部导航菜单![导航菜单图标](./media/mobile-apps-favorites/power-bi-iphone-global-nav-button.png)和“收藏夹”  。
   
   ![导航菜单中的收藏夹](./media/mobile-apps-favorites/power-bi-ipad-faves-pbi-report-server.png)
   
@@ -44,7 +44,7 @@ ms.locfileid: "54278668"
   ![“收藏夹”页](./media/mobile-apps-favorites/power-bi-ipad-favorites.png)
 
 ## <a name="make-an-app-a-favorite"></a>收藏应用
-1. 在移动应用上的应用列表中，依次点击应用旁边的省略号 (...) 和“收藏”。
+1. 在移动应用上的应用列表中，依次点击应用旁边的省略号 (...) 和“收藏”  。
    
     ![应用收藏夹菜单](./media/mobile-apps-favorites/power-bi-android-favorite-app-ellipsis.png)
    
@@ -65,7 +65,7 @@ ms.locfileid: "54278668"
 ## <a name="make-a-dashboard-or-report-a-favorite-in-the-android-mobile-apps"></a>在 Android 移动应用中收藏仪表板或报表
 可以从仪表板或报表列表或仪表板或报表本身收藏仪表板或报表。
 
-* 在移动应用的仪表板或报表列表中，点击名称旁边的竖省略号 (...)，然后点击“添加到收藏夹”。 此时，![收藏图标](./././media/mobile-apps-favorites/power-bi-mobile-yes-favorite-icon.png)名称旁边会显示黄色五角星。
+* 在移动应用的仪表板或报表列表中，点击名称旁边的竖省略号 (...)，然后点击“添加到收藏夹”  。 此时，![收藏图标](./././media/mobile-apps-favorites/power-bi-mobile-yes-favorite-icon.png)名称旁边会显示黄色五角星。
   
     ![Android 收藏夹菜单](./media/mobile-apps-favorites/power-bi-android-make-favorite.png)
 * 在仪表板或报表上，点击功能区中的空心五角星 ![“未收藏”图标](./././media/mobile-apps-favorites/power-bi-mobile-not-favorite-icon.png)。 五角星会变成深灰色 ![“收藏”图标](./media/mobile-apps-favorites/power-bi-android-favorite-icon.png)。

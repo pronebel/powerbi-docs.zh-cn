@@ -1,3 +1,11 @@
+---
+ms.openlocfilehash: fa891e06c83a21ac8fea299f068e3b95ad019062
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61264361"
+---
 欢迎来到 Power BI **引导学习**课程的第二部分：**获取数据**。 本部分介绍 Power BI 中许多以数据为中心的功能和工具，其中重点介绍 Power BI Desktop。 其中许多工具也适用于 Power BI 服务，所以你对于本部分的学习可以达到事半功倍的效果。
 
 当你获得数据时，有时数据并非你所希望的那样，它的格式不完全正确或者说不是 *干净* 的。 在本部分中，你会学习到如何获取数据，如何让它变为正确的格式（有时称为 *清洗* 或 *转换* 数据），并且还将学习一些高级的技巧，可使数据的获取更轻松。

@@ -11,10 +11,10 @@ ms.date: 05/07/2019
 ms.author: davidi
 LocalizationGroup: Transform and shape data
 ms.openlocfilehash: dc6aa42691c7caa2593b28e441f96985b1e3bcda
-ms.sourcegitcommit: b11e908650379913d00673215e3eaf25d712b122
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/07/2019
+ms.lasthandoff: 05/29/2019
 ms.locfileid: "65239421"
 ---
 # <a name="common-query-tasks-in-power-bi-desktop"></a>Power BI Desktop 中的常见查询任务
@@ -38,17 +38,17 @@ ms.locfileid: "65239421"
 执行连接到这两个数据源的必要步骤就是常见查询任务的开始。
 
 ## <a name="connect-to-data"></a>连接到数据
-若要在 Power BI Desktop 中连接到数据，请从功能区上的“开始”选项卡选择“获取数据”按钮。 Power BI Desktop 将显示一个含有最常见数据源的菜单。 对于 Power BI Desktop 可连接到的数据源的完整列表，请选择菜单底部的“更多... ”按钮。 有关详细信息，请参阅 [Power BI Desktop 中的数据源](https://docs.microsoft.com/power-bi/desktop-data-sources)。
+若要在 Power BI Desktop 中连接到数据，请从功能区上的“开始”选项卡选择“获取数据”按钮。   Power BI Desktop 将显示一个含有最常见数据源的菜单。 对于 Power BI Desktop 可连接到的数据源的完整列表，请选择菜单底部的“更多... ”按钮。  有关详细信息，请参阅 [Power BI Desktop 中的数据源](https://docs.microsoft.com/power-bi/desktop-data-sources)。
 
 ![](media/desktop-common-query-tasks/commonquerytasks_getdata.png)
 
-首先，选择 **Excel** 并导航到该工作簿，然后将其选中。 查询将检查该工作簿，然后在“导航器”窗口中呈现找到的数据。
+首先，选择 **Excel** 并导航到该工作簿，然后将其选中。 查询将检查该工作簿，然后在“导航器”窗口中呈现找到的数据。 
 
 ![](media/desktop-common-query-tasks/commonquerytasks_navigator.png)
 
-在将数据加载到 Power BI Desktop 中之前，可选择**编辑**来调整或组织数据。 在处理想要在加载前进行削减的大型数据集时，先编辑查询再加载数据尤其有用。 我们想要执行此操作，因此选择**编辑**。
+在将数据加载到 Power BI Desktop 中之前，可选择**编辑**来调整或组织数据。  在处理想要在加载前进行削减的大型数据集时，先编辑查询再加载数据尤其有用。 我们想要执行此操作，因此选择**编辑**。
 
-连接到其它类型的数据同样简单。 我们还想要连接到 Web 资源。 选择“获取数据 \>更多...”，然后选择**其他\>Web**。
+连接到其它类型的数据同样简单。 我们还想要连接到 Web 资源。 选择“获取数据 \>更多...”，然后选择**其他\>Web**。 
 
 ![](media/desktop-common-query-tasks/commonquerytasks_getdata_other.png)
 
@@ -56,22 +56,22 @@ ms.locfileid: "65239421"
 
 ![](media/desktop-common-query-tasks/datasources_fromwebbox.png)
 
-选择“确定”；和之前一样，Power BI Desktop 将检查工作簿，并在“导航器”窗口中呈现找到的数据。
+选择“确定”  ；和之前一样，Power BI Desktop 将检查工作簿，并在“导航器”  窗口中呈现找到的数据。
 
 其他数据连接与此类似。 如果需要身份验证才能建立数据连接，Power BI Desktop 将提示你提供相应凭据。
 
 有关连接到 Power BI Desktop 中数据的分步演示，请参阅[连接到 Power BI Desktop 中的数据](https://docs.microsoft.com/power-bi/desktop-connect-to-data)。
 
 ## <a name="shape-and-combine-data"></a>调整和合并数据
-可使用查询编辑器轻松地调整和合并数据。 本部分包括几个有关数据调整方式的示例。 有关如何调整和合并数据的更完整演示，请参阅 **[使用 Power BI Desktop 调整和合并数据](https://docs.microsoft.com/power-bi/desktop-shape-and-combine-data)**。
+可使用查询编辑器轻松地调整和合并数据。 本部分包括几个有关数据调整方式的示例。 有关如何调整和合并数据的更完整演示，请参阅 **[使用 Power BI Desktop 调整和合并数据](https://docs.microsoft.com/power-bi/desktop-shape-and-combine-data)** 。
 
-上一节中，我们连接到两组数据 – Excel 工作簿和 Web 资源。 在“查询编辑器”中加载后，我们将看到以下结果，其中选中了网页中的查询（取自“查询编辑器”窗口左侧的“查询”窗格内列出的可用查询）。
+上一节中，我们连接到两组数据 – Excel 工作簿和 Web 资源。 在“查询编辑器”中加载后，我们将看到以下结果，其中选中了网页中的查询（取自“查询编辑器”窗口左侧的“查询”  窗格内列出的可用查询）。
 
 ![](media/desktop-common-query-tasks/commonquerytasks_querypaneloaded.png)
 
 在调整数据时，可将数据源转换为满足你需求的形式和格式。 此情况下不需要名为 *标题* 的第一列，因此将其删除。
 
-在**查询编辑器**中，可在功能区和上下文相关的右键单击菜单中找到许多命令。 例如，在右键单击“标题”列时，显示的菜单将允许删除此列。 还可选中此列，然后选择功能区中的“删除列”按钮。
+在**查询编辑器**中，可在功能区和上下文相关的右键单击菜单中找到许多命令。 例如，在右键单击“标题”  列时，显示的菜单将允许删除此列。 还可选中此列，然后选择功能区中的“删除列”  按钮。
 
 ![](media/desktop-common-query-tasks/commonquerytasks_removecolumns.png)
 
@@ -88,16 +88,16 @@ ms.locfileid: "65239421"
 
 **分组依据…** 窗口随即出现。 当查询编辑器对行进行分组时，它会创建一个新列，将**分组依据**结果置于其中。 可按照以下方式调整**分组依据**操作：
 
-1. 分组依据 – 这是要进行分组的列；查询编辑器将选择所选列，但可在此窗口中将其更改为表中的任意列。
-2. 新列名 – 查询编辑器会基于它对要进行分组的列所应用的操作为新列建议一个名称；但也可将新列命名为所需的任何名称。
-3. 操作 – 在此处指定查询编辑器将应用的操作。
-4. 添加分组和添加聚合 – 选择“高级”选项后，将显示这些选项。 可在“分组依据”窗口中一次性完成对多个列执行分组操作（分组依据操作）和执行多个聚合。 查询编辑器将创建一个新列来存储多个列上操作的结果（基于此窗口内的所选内容）。 
+1.  分组依据 – 这是要进行分组的列；查询编辑器将选择所选列，但可在此窗口中将其更改为表中的任意列。
+2. 新列名 – 查询编辑器会基于它对要进行分组的列所应用的操作为新列建议一个名称；但也可将新列命名为所需的任何名称。 
+3. 操作 – 在此处指定查询编辑器将应用的操作。 
+4. 添加分组  和添加聚合  – 选择“高级”  选项后，将显示这些选项。 可在“分组依据”窗口中一次性完成对多个列执行分组操作（分组依据操作）和执行多个聚合。   查询编辑器将创建一个新列来存储多个列上操作的结果（基于此窗口内的所选内容）。 
 
-选择“添加分组”或“添加聚合”按钮，向“分组依据”操作添加更多分组或聚合操作。 可依次选择“...”图标和“删除”来删除分组或聚合，因此可以不断尝试相关操作，看看它的显示结果。
+选择“添加分组”或“添加聚合”按钮，向“分组依据”操作添加更多分组或聚合操作。    可依次选择“...”图标和“删除”来删除分组或聚合，因此可以不断尝试相关操作，看看它的显示结果。  
    
    ![](media/desktop-common-query-tasks/commonquerytasks_groupbynumbered.png)
 
-在选择"确定"时，查询将执行"分组依据"操作并返回结果。 嘿，看看这个 – 俄亥俄州、德克萨斯州、伊利诺伊州和加利福尼亚州，每个州现在都有 1,000 多个机构！
+在选择"确定"  时，查询将执行"分组依据"  操作并返回结果。 嘿，看看这个 – 俄亥俄州、德克萨斯州、伊利诺伊州和加利福尼亚州，每个州现在都有 1,000 多个机构！
 
 ![](media/desktop-common-query-tasks/commonquerytasks_groupedresult.png)
 
@@ -110,7 +110,7 @@ ms.locfileid: "65239421"
 
 ![](media/desktop-common-query-tasks/pivotcolumns_pivotbutton.png)
 
-“透视列”窗口随即出现，显示哪一列的值将被用于创建新列 (1)，并且在展开“高级选项” (2) 时，可选择将应用于聚合值 (3) 的函数。
+“透视列”  窗口随即出现，显示哪一列的值将被用于创建新列 (1)，并且在展开“高级选项”  (2) 时，可选择将应用于聚合值 (3) 的函数。
 
 ![](media/desktop-common-query-tasks/pivotcolumns_pivotdialog.png)
 
@@ -121,7 +121,7 @@ ms.locfileid: "65239421"
 ## <a name="create-custom-columns"></a>创建自定义列
 在查询编辑器中，可创建对表中多个列进行操作的自定义公式，然后将此类公式的计算结果放入新的（自定义）列中。 查询编辑器可轻松创建自定义列。
 
-在查询编辑器的功能区上，从“添加列”选项卡中选择“自定义列”。
+在查询编辑器的功能区上，从“添加列”  选项卡中选择“自定义列”  。
 
 ![](media/desktop-common-query-tasks/commonquerytasks_customcolumn.png)
 
@@ -129,12 +129,12 @@ ms.locfileid: "65239421"
 
 ![](media/desktop-common-query-tasks/customcolumn_addcustomcolumndialog.png)
 
-如同查询编辑器中应用的任何其他步骤一样，如果新的自定义列没有提供你要查找的数据，则只需通过选择“已添加自定义”步骤旁边的 **X**，从“查询设置”窗格的“所应用步骤”部分删除该步骤即可。
+如同查询编辑器中应用的任何其他步骤一样，如果新的自定义列没有提供你要查找的数据，则只需通过选择“已添加自定义”  步骤旁边的 **X**，从“查询设置”  窗格的“所应用步骤”  部分删除该步骤即可。
 
 ![](media/desktop-common-query-tasks/customcolumn_addedappliedstep.png)
 
 ## <a name="query-formulas"></a>查询公式
-可修改查询编辑器生成的步骤，还可创建自定义公式，从而精确地控制对数据的连接和调整操作。 每当查询编辑器对数据执行操作时，“公式栏”中都会显示与操作关联的公式。 若要查看“公式栏”，请在功能区的“查看”选项卡中选择“公式栏”旁边的复选框。
+可修改查询编辑器生成的步骤，还可创建自定义公式，从而精确地控制对数据的连接和调整操作。 每当查询编辑器对数据执行操作时，“公式栏”  中都会显示与操作关联的公式。 若要查看“公式栏”  ，请在功能区的“查看”  选项卡中选择“公式栏”  旁边的复选框。
 
 ![](media/desktop-common-query-tasks/queryformulas_formulabar.png)
 

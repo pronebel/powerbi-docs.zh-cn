@@ -1,20 +1,20 @@
 ---
 title: Power BI 报表服务器中 Power BI 报表计划的刷新
 description: Power BI 报表可以连接不同的数据源。 根据数据使用方式，可以提供不同的数据源。
-author: markingmyname
+author: mgblythe
 manager: kfile
-ms.reviewer: ''
+ms.reviewer: kayu
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 11/01/2017
-ms.author: maghan
-ms.openlocfilehash: 81bd3dc166a92f7be6fe9081f4b88feedc7514d3
-ms.sourcegitcommit: ccbe76a0a43c5c5e87354a33e617bf3cb291608e
-ms.translationtype: HT
+ms.author: mblythe
+ms.openlocfilehash: ca2c37a93652bf0f622c7154fe8438faf4c70ac1
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/18/2019
-ms.locfileid: "54394761"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "66051027"
 ---
 # <a name="power-bi-report-scheduled-refresh-in-power-bi-report-server"></a>Power BI 报表服务器中 Power BI 报表计划的刷新
 通过对 Power BI 报表设置计划的刷新，可使报表数据保持最新状态。
@@ -34,9 +34,10 @@ ms.locfileid: "54394761"
 * 在 Analysis Services 实例中加载数据模型。
 * 对于某些数据源，Power Query 混合引擎用于连接数据源并转换数据。 可直接从用于托管 Power BI 报表服务器的数据模型的 Analysis Services 服务连接其他数据源。
 * 新的数据被加载到 Analysis Services 中的数据模型。
+* 在横向扩展配置中，可以在节点之间复制数据模型。
 * Analysis Services 处理数据并执行任何所需的计算。
 
-Power BI 报表服务器为所有计划的操作维护事件队列。 它会每隔一定时间轮询队列以检查新的事件。 默认情况下，以 10 秒的时间间隔扫描队列。 你可以通过修改 RSReportServer.config 文件中的“PollingInterval”、“IsNotificationService”和“IsEventService”配置设置来更改时间间隔。 “IsDataModelRefreshService”还可用于设置报表服务器是否处理计划的事件。
+Power BI 报表服务器为所有计划的操作维护事件队列。 它会每隔一定时间轮询队列以检查新的事件。 默认情况下，以 10 秒的时间间隔扫描队列。 你可以通过修改 RSReportServer.config 文件中的“PollingInterval”  、“IsNotificationService”  和“IsEventService”  配置设置来更改时间间隔。 “IsDataModelRefreshService”  还可用于设置报表服务器是否处理计划的事件。
 
 ### <a name="analysis-services"></a>Analysis Services
 呈现 Power BI 报表和执行计划的刷新需要在 Analysis Services 中加载 Power BI 报表的数据模型。 Analysis Services 进程将与 Power BI 报表服务器一起运行。
@@ -47,11 +48,11 @@ Power BI 报表服务器为所有计划的操作维护事件队列。 它会每�
 
 * 报表包含一个或多个使用实时连接 Analysis Services 数据源。
 * 报表包含一个或多个使用 DirectQuery 的数据源。
-* 报表不包含任何数据源。 例如，通过“输入数据”手动输入数据，或报表仅包含静态内容，如图像、文本等。
+* 报表不包含任何数据源。 例如，通过“输入数据”  手动输入数据，或报表仅包含静态内容，如图像、文本等。
 
-除了上述列表，在“导入”模式下，还有一些含数据源的特定场景，你不能为其创建刷新计划。
+除了上述列表，在“导入”模式下，还有一些含数据源的特定场景，你不能为其创建刷新计划  。
 
-* 如果使用的是“文件”或“文件夹”数据源且文件路径是本地路径（例如 C:\Users\user\Documents），则无法创建刷新计划。 路径必须是报表服务器可以连接到网络共享之类的路径。 例如“\\myshare\Documents”。
+* 如果使用的是“文件”  或“文件夹”  数据源且文件路径是本地路径（例如 C:\Users\user\Documents），则无法创建刷新计划。 路径必须是报表服务器可以连接到网络共享之类的路径。 例如“\\myshare\Documents”  。
 * 如果只能使用 OAuth（例如 Facebook、Google Analytics、Salesforce 等）连接数据源，则无法创建缓存刷新计划。 目前，RS 针对任何数据源均不支持 OAuth 身份验证，无论是针对分页报表、移动报表，还是 Power BI 报表。
 
 ### <a name="memory-limits"></a>内存限制

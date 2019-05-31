@@ -7,23 +7,24 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 02/05/2019
+ms.date: 04/19/2019
 ms.author: maggies
-ms.openlocfilehash: 282638c7c1c8a60ee93292602766d63fd0fe436e
-ms.sourcegitcommit: 8207c9269363f0945d8d0332b81f1e78dc2414b0
-ms.translationtype: HT
+ms.openlocfilehash: 83049a16ecd42b41375da57a5a99a374596a9846
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/14/2019
-ms.locfileid: "56249541"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "65514869"
 ---
 # <a name="tips-for-authoring-template-apps-in-power-bi-preview"></a>在 Power BI（预览）中创作模板应用的提示
 
 在 Power BI 中[创作模板应用](service-template-apps-create.md)时，其中一部分是创建工作区、测试和生产的后勤工作。 但其他重要的部分显然是创作报表和仪表板。 我们可以将创作过程细分为四个主要部分。 使用这些组件有助于创建最佳模板应用：
 
-* 通过“查询”，[连接](desktop-connect-to-data.md)和[转换](desktop-query-overview.md)数据，并定义[参数](https://powerbi.microsoft.com/blog/deep-dive-into-query-parameters-and-power-bi-templates/)。 
-* 在“数据模型”中，可以创建[关系](desktop-create-and-manage-relationships.md)[度量值](desktop-measures.md)和问答的改进。  
-* [报表页](desktop-report-view.md)中包括视觉对象和筛选器，以帮助洞察数据。  
-* [仪表板](consumer/end-user-dashboards.md)和[磁贴](service-dashboard-create.md)提供对内含见解的概览。  
+* 通过“查询”，[连接](desktop-connect-to-data.md)和[转换](desktop-query-overview.md)数据，并定义[参数](https://powerbi.microsoft.com/blog/deep-dive-into-query-parameters-and-power-bi-templates/)  。 
+* 在“数据模型”中，可以创建[关系](desktop-create-and-manage-relationships.md)[度量值](desktop-measures.md)和问答的改进  。  
+* [报表页](desktop-report-view.md)中包括视觉对象和筛选器，以帮助洞察数据  。  
+* [仪表板](consumer/end-user-dashboards.md)和[磁贴](service-dashboard-create.md)提供对内含见解的概览  。
+* 示例数据可容易地发现安装后立即应用。
 
 你可能熟悉其中每个部分（作为现有 Power BI 功能）。 在构建模板应用时，每个部分还有其他考虑事项。 请参阅下面的每个部分以获取更多详细信息。
 
@@ -38,7 +39,7 @@ ms.locfileid: "56249541"
 可以使用 Power BI Desktop 中现成可用的数据连接器连接到 API。 可以使用 Web 数据连接器（获取数据 -> Web）连接到 Rest API 或 OData 连接器（获取数据 -> OData 数据源）来连接到 OData 数据源。 这些连接器只有在你的 API 支持基本身份验证时才是现成可用的。
 
 > [!NOTE]
-> 如果你的 API 使用任何其他身份验证类型，如 OAuth 2.0 或 Web API 密钥，则需要开发你自己的数据连接器，以允许 Power BI Desktop 成功连接到 API，并对其进行身份验证。 有关如何为模板应用开发你自己的数据连接器的详细信息，请查看[数据连接器文档](https://aka.ms/DataConnectors)。 
+> 如果你的 API 使用任何其他身份验证类型，如 OAuth 2.0 或 Web API 密钥，则需要开发你自己的数据连接器，以允许 Power BI Desktop 成功连接到 API，并对其进行身份验证。 必须将自定义连接器添加到模板的应用安装程序能够访问它的 PBI 服务。 <br> 有关如何为模板应用开发你自己的数据连接器的详细信息，请查看[数据连接器文档](https://aka.ms/DataConnectors)。 
 >
 >
 
@@ -70,8 +71,6 @@ Power BI Desktop 中的[参数](https://powerbi.microsoft.com/blog/deep-dive-int
 
 > [!NOTE]
 > 应在[查询](#queries)中执行大部分基本建模（键入功能、列名）。
->
-
 
 ### <a name="qa"></a>问答
 建模还影响问答为客户提供结果的能力。 确保将同义词添加到常用列，并在[查询](#queries)中为列正确命名。
@@ -79,8 +78,9 @@ Power BI Desktop 中的[参数](https://powerbi.microsoft.com/blog/deep-dive-int
 ### <a name="additional-data-model-tips"></a>其他数据模型提示
 
 请确保已完成以下操作：
+
 * 将格式应用于所有值列。 在查询中应用类型。  
-* 将格式应用于所有度量值。 
+* 将格式应用于所有度量值。
 * 设置默认汇总。 特别是“不汇总”（如果适用）（例如，对于唯一值的情况）。  
 * 设置数据类别（如果适用）。  
 * 根据需要设置关系。  
@@ -88,10 +88,6 @@ Power BI Desktop 中的[参数](https://powerbi.microsoft.com/blog/deep-dive-int
 ## <a name="reports"></a>报表
 报表页提供了对更多模板应用中包含的数据的见解。 使用报表中的页面来回答模板应用正尝试解决的关键业务问题。 使用 Power BI Desktop 创建报表。
 
-> [!NOTE]
-> 只能在模板应用中包含一个报表，因此请利用不同的页面调出方案的特定部分。
->
->
 
 ### <a name="additional-report-tips"></a>其他报表提示
 
@@ -110,10 +106,6 @@ Power BI Desktop 中的[参数](https://powerbi.microsoft.com/blog/deep-dive-int
 
 要为模板应用创建仪表板，只需通过“获取数据”>“文件”上传 PBIX 或者直接从 Power BI Desktop 进行发布即可。
 
-> [!NOTE]
-> 模板应用目前需要对每个模板应用使用单个报表和数据集。 请勿将多个报表/数据集的内容固定到模板应用所使用的仪表板中。
->
->
 
 ### <a name="additional-dashboard-tips"></a>其他仪表板提示
 
@@ -123,18 +115,38 @@ Power BI Desktop 中的[参数](https://powerbi.microsoft.com/blog/deep-dive-int
 * 所有仪表板磁贴应具有适当的标题/副标题。  
 * 考虑在仪表板中为不同的方案分组（垂直或水平）。  
 
+## <a name="sample-data"></a>示例数据
+模板应用在应用程序创建阶段，包装的缓存数据的应用程序一部分的工作区中：
+
+* 允许安装程序将数据连接之前，了解功能和用途的应用程序。
+* 创建驱动器安装程序若要进一步探索应用功能，这将导致连接应用数据集的体验。
+
+我们建议在创建应用程序之前让质量示例数据。 请确保使用数据填充的应用报表和仪表板。
+
+## <a name="publishing-on-appsource"></a>在 AppSource 上发布
+模板应用在 AppSource 上发布，将应用提交到 AppSource 之前请遵循以下准则：
+
+* 请确保使用具有吸引力的可帮助了解应用程序可以执行的操作的安装程序的示例数据创建模板应用 （空的报表和仪表板不批准）。
+模板应用支持唯一应用的示例数据，请务必检查静态应用复选框。 [了解详细信息](https://docs.microsoft.com/power-bi/service-template-apps-create#create-the-test-template-app)
+* 具有用于验证团队遵循其中包括凭据和连接到数据所需的参数的说明。
+* 在 Power BI 并 CPP 产品/服务，应用程序必须包含应用图标。 [了解详细信息](https://docs.microsoft.com/power-bi/service-template-apps-create#create-the-test-template-app)
+* 配置的登录页。 [了解详细信息](https://docs.microsoft.com/power-bi/service-template-apps-create#create-the-test-template-app)
+* 请确保文档并遵照[Power BI 应用产品/服务](https://docs.microsoft.com/azure/marketplace/cloud-partner-portal/power-bi/cpp-power-bi-offer)。
+* 如果仪表板是您的应用程序的一部分，请确保它不为空。
+* 安装在提交之前使用的应用链接的应用，请确保可以连接数据集，并且你计划为应用程序体验。
+* 上传之前 bpix 到模板应用工作区，请务必卸载任何不必要的连接。
+* 请按照 Power BI[设计报表和视觉对象的最佳做法](https://docs.microsoft.com/power-bi/visuals/power-bi-visualization-best-practices)以实现对你的用户和获得批准用于分发的最大影响。
+
 ## <a name="known-limitations"></a>已知限制
 
 | 功能 | 已知限制 |
 |---------|---------|
 |目录：数据集   | 应存在一个完整的数据集。 仅支持在 Power BI Desktop（.pbix 文件）中构建的数据集。 <br>不支持：来自其他模板应用、跨工作区数据集、分页报表（.rdl 文件）、Excel 工作簿的数据集 |
-|目录：报表     | 最多一个报表    |
-| 目录：仪表板 | 最多一个非空仪表板 <br>不支持：实时磁贴（即，不支持 PushDataset 或 pubnub） |
-| 目录：数据流 | 不支持：数据流 |
-| 文件内容 | 仅支持 PBIX 文件。 <br>不支持：.rdl 文件（分页报表）、Excel 工作簿   |
-| 数据源 | 可支持云“计划数据”刷新的数据源。 <br>不支持： <br>DirectQuery <br>实时连接（无 Azure AS） <br>本地数据源（不支持个人和企业网关） <br>实时（不支持 pushdataset） <br>复合模型 |
+|目录：仪表板 | 实时磁贴不允许 （即，不支持推送还是流式处理数据集） |
+|目录：数据流 | 不支持：数据流 |
+|文件内容 | 仅支持 PBIX 文件。 <br>不支持：.rdl 文件（分页报表）、Excel 工作簿   |
+| 数据源 | 可支持云“计划数据”刷新的数据源。 <br>不支持： <li> DirectQuery</li><li>实时连接（无 Azure AS）</li> <li>本地数据源 （个人和企业网关不支持）</li> <li>实时 （推送数据集不支持）</li> <li>复合模型</li></ul> |
 | 数据集：跨工作区 | 不支持跨工作区的数据集  |
-| 内容：仪表板 | 不支持使用实时磁贴（即，不支持 PushDataset 或 pubnub） |
 | 查询参数 | 不支持：用于数据集的“Any”或“Binary”类型块刷新操作的参数 |
 | 自定义视觉对象 | 仅支持公开可用的自定义视觉效果。 不支持[组织自定义视觉效果](power-bi-custom-visuals-organization.md) |
 

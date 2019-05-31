@@ -11,11 +11,11 @@ ms.date: 01/30/2019
 ms.author: sarinas
 LocalizationGroup: Connect to services
 ms.openlocfilehash: 49ac1f917a5f3095c1dbc13c644061859389fe74
-ms.sourcegitcommit: 7df786871b196725a1c5422ee561c7557660894e
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/31/2019
-ms.locfileid: "55482674"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61174677"
 ---
 # <a name="connect-to-comscore-digital-analytix-with-power-bi"></a>使用 Power BI 连接到 comScore Digital Analytix
 通过 Power BI 内容包可视化和浏览 Power BI 中的 comScore Digital Analytix 数据。 此数据将每天自动刷新一次。
@@ -29,10 +29,10 @@ ms.locfileid: "55482674"
 1. 选择左侧导航窗格底部的“获取数据”。
    
    ![](media/service-connect-to-connect-to/getdata.png)
-2. 在“服务”框中，选择“获取”。
+2. 在  “服务”框中，选择  “获取”。
    
    ![](media/service-connect-to-connect-to/services.png)
-3. 选择“comScore Digital Analytix”\>“获取”。
+3. 选择“comScore Digital Analytix”  \>  “获取”。
    
    ![](media/service-connect-to-connect-to/comscore.png)
 4. 提供想要连接到的数据中心、comScore 客户端 ID 和站点。 有关如何查找这些值的详细信息，请参阅下面的[查找 comScore 参数](#FindingParams)。
@@ -48,7 +48,7 @@ ms.locfileid: "55482674"
 * 尝试在仪表板顶部的[在“问答”框中提问](consumer/end-user-q-and-a.md)
 * 在仪表板中[更改磁贴](service-dashboard-edit-tile.md)。
 * [选择磁贴](consumer/end-user-tiles.md)以打开基础报表。
-* 虽然数据集将按计划每日刷新，但你可以更改刷新计划或根据需要使用“立即刷新”来尝试刷新
+* 虽然数据集将按计划每日刷新，但你可以更改刷新计划或根据需要使用“立即刷新”  来尝试刷新
 
 <a name="Requirements"></a>
 

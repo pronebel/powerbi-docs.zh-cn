@@ -1,21 +1,21 @@
 ---
 title: 刷新方案故障排除
 description: 刷新方案故障排除
-author: davidiseminger
+author: mgblythe
 manager: kfile
-ms.reviewer: ''
+ms.reviewer: kayu
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 11/28/2018
-ms.author: davidi
+ms.author: mblythe
 LocalizationGroup: Data refresh
-ms.openlocfilehash: 8535787cb66ad2dc897ff3a3e4ecaccddfaa80f0
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
-ms.translationtype: HT
+ms.openlocfilehash: ce353ec70b933319faaabb0040c0df1a31103a27
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54285107"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "64770524"
 ---
 # <a name="troubleshooting-refresh-scenarios"></a>刷新方案故障排除
 此处介绍了关于在 Power BI 服务中刷新数据时可能会遇到的各种情况的信息。
@@ -50,13 +50,16 @@ Azure Active Director (**AAD**) OAuth 令牌由许多不同的数据源使用，
 
 Microsoft 正在研究一个解决方案，允许数据加载过程刷新令牌并继续。 但是，如果你的 Dynamics CRM Online 或 SharePoint Online 实例（或其他 AAD OAuth 数据源）较大，可能会达到两个小时的数据加载阈值，你也可能会遇到 Power BI 服务中数据加载超时的情况。
 
-另请注意，为了使刷新正常工作，请在使用 AAD OAuth 连接到 SharePoint Online 数据源时，务必使用与用于登录 Power BI 服务相同的帐户。
+另请注意，为了使刷新正常工作，请在使用 AAD OAuth 连接到 SharePoint Online  数据源时，务必使用与用于登录 Power BI 服务  相同的帐户。
 
 ## <a name="uncompressed-data-limits-for-refresh"></a>未经压缩数据的刷新限制
 导入到 **Power BI 服务**的数据集的最大大小为 1 GB。 为确保实现高性能，对这些数据集进行了深度压缩。 此外，在共享容量中，服务设定的刷新期间处理的未压缩数据量限制为 10GB。 此限制将压缩考虑在内，因此远大于 1 GB。 Power BI Premium 中的数据集不受此限制的制约。 如果 Power BI 服务中的刷新由于此原因失败，请减少要导入到 Power BI 的数据量，然后重试。
 
 ## <a name="scheduled-refresh-timeout"></a>计划的刷新超时
-导入数据集的计划刷新在两个小时后超时。 对于高级工作区中的数据集，此超时增加到五个小时。 如果你遇到此限制，可以考虑降低数据集的大小或复杂性，或者考虑将数据集拆分为更小的部分。
+导入数据集的计划刷新在两个小时后超时。 对于高级  工作区中的数据集，此超时增加到五个小时。 如果你遇到此限制，可以考虑降低数据集的大小或复杂性，或者考虑将数据集拆分为更小的部分。
+
+## <a name="scheduled-refresh-failures"></a>计划的刷新失败
+如果计划的刷新失败行中的四次，Power BI 会禁用刷新。 解决基础问题，然后重新启用计划的刷新。
 
 ## <a name="access-to-the-resource-is-forbidden"></a>禁止访问该资源  
 缓存凭据过期可能导致发生此错误。 转到 Power BI 签名并转到 https://app.powerbi.com?alwaysPromptForContentProviderCreds=true，以清除 Internet 浏览器缓存。 这将强制更新你的凭据。 

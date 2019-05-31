@@ -11,11 +11,11 @@ ms.date: 02/06/2018
 ms.author: sarinas
 LocalizationGroup: Connect to services
 ms.openlocfilehash: 85872b43e984a1cf9c08500bb03f6ed50baef31e
-ms.sourcegitcommit: 750f0bfab02af24c8c72e6e9bbdd876e4a7399de
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/04/2019
-ms.locfileid: "54008502"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61178832"
 ---
 # <a name="connect-to-azure-audit-logs-with-power-bi"></a>使用 Power BI 连接到 Azure 审核日志
 借助 Azure 审核日志内容包，你可以分析和可视化审核日志中存储的信息。 Power BI 会检索数据，生成现成的仪表板，并基于该数据创建报表。
@@ -32,7 +32,7 @@ ms.locfileid: "54008502"
 3. 选择 **Azure 审核日志**  >  **获取**。  
    
    ![](media/service-connect-to-azure-audit-logs/azureauditlogs.png)
-4. 出现提示时，输入你的 Azure 订阅 ID。请参阅下面有关查找[订阅 ID](#FindingParams) 的详细信息。   
+4. 出现提示时，输入你的 Azure 订阅 ID  。请参阅下面有关查找[订阅 ID](#FindingParams) 的详细信息。   
    
     ![](media/service-connect-to-azure-audit-logs/parameters.png)
 5. 对于**身份验证方法**，选择**oAuth2**\>**登录**。
@@ -50,7 +50,7 @@ ms.locfileid: "54008502"
 * 尝试在仪表板顶部的[在“问答”框中提问](consumer/end-user-q-and-a.md)
 * 在仪表板中[更改磁贴](service-dashboard-edit-tile.md)。
 * [选择磁贴](consumer/end-user-tiles.md)以打开基础报表。
-* 虽然数据集将按计划每日刷新，但你可以更改刷新计划或根据需要使用“立即刷新”来尝试刷新
+* 虽然数据集将按计划每日刷新，但你可以更改刷新计划或根据需要使用“立即刷新”  来尝试刷新
 
 ## <a name="system-requirements"></a>系统要求
 Azure 审核日志内容包需要可以在 Azure 门户中访问审核日志。 [此处](/azure/azure-resource-manager/resource-group-audit/)提供了详细信息。

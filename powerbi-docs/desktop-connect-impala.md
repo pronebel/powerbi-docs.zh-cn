@@ -11,25 +11,25 @@ ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
 ms.openlocfilehash: 0befceba2651ad4f8f414d3669c5830c07ece06d
-ms.sourcegitcommit: 10a87c016f497dbeba32f94ed1f3688a70816fea
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/09/2019
+ms.lasthandoff: 05/29/2019
 ms.locfileid: "65514193"
 ---
 # <a name="connect-to-an-impala-database-in-power-bi-desktop"></a>在 Power BI Desktop 中连接到 Impala 数据库
-在 Power BI Desktop 中，可以连接到 Impala 数据库，并使用基础数据，就像在 Power BI Desktop 中使用其他任何数据源一样。
+在 Power BI Desktop 中，可以连接到 Impala  数据库，并使用基础数据，就像在 Power BI Desktop 中使用其他任何数据源一样。
 
 ## <a name="connect-to-an-impala-database"></a>连接到 Impala 数据库
-若要连接到 Impala 数据库，请按以下步骤操作： 
+若要连接到 Impala  数据库，请按以下步骤操作： 
 
-1. 在 Power BI Desktop 的“主页”功能区中，选择“获取数据”。 
+1. 在 Power BI Desktop 的“主页”  功能区中，选择“获取数据”  。 
 
-2. 从左侧的类别中选择“数据库”。 此时，“Impala”显示。
+2. 从左侧的类别中选择“数据库”  。 此时，“Impala”  显示。
 
     ![获取数据](media/desktop-connect-impala/connect_impala_2.png)
 
-3. 在随即显示的“Impala”窗口中，将 Impala 服务器名称键入或粘贴到框中。 然后，选择“确定”。 可以将数据直接导入 Power BI，也可以使用 DirectQuery。 详细了解如何[使用 DirectQuery](desktop-use-directquery.md)。
+3. 在随即显示的“Impala”  窗口中，将 Impala 服务器名称键入或粘贴到框中。 然后，选择“确定”  。 可以将数据直接导入  Power BI，也可以使用 DirectQuery  。 详细了解如何[使用 DirectQuery](desktop-use-directquery.md)。
 
     ![“Impala”窗口](media/desktop-connect-impala/connect_impala_3a.png)
 
@@ -38,15 +38,15 @@ ms.locfileid: "65514193"
     ![Impala 连接器](media/desktop-connect-impala/connect_impala_4.png)
 
     > [!NOTE]
-    > 在你输入用户名和密码以连接特定 Impala 服务器后，Power BI Desktop 便会在后续连接尝试中使用这些相同的凭据。 可以通过“文件”>“选项和设置”>“数据源设置”来修改这些凭据。
+    > 在你输入用户名和密码以连接特定 Impala  服务器后，Power BI Desktop 便会在后续连接尝试中使用这些相同的凭据。 可以通过“文件”>“选项和设置”>“数据源设置”  来修改这些凭据。
 
 
-5. 连接后，便会看到“导航器”窗口，其中显示服务器上的可用数据。 从此数据中选择要在 Power BI Desktop 中导入并使用的元素。
+5. 连接后，便会看到“导航器”  窗口，其中显示服务器上的可用数据。 从此数据中选择要在 Power BI Desktop  中导入并使用的元素。
 
     ![导航器窗口](media/desktop-connect-impala/connect_impala_5.png)
 
 ## <a name="considerations-and-limitations"></a>注意事项和限制
-对于 Impala 连接器，请牢记以下几点限制和注意事项：
+对于 Impala  连接器，请牢记以下几点限制和注意事项：
 
 * 支持对本地数据网关使用 Impala 连接器（使用三种受支持的身份验证机制中的任意一种）。
 

@@ -11,14 +11,14 @@ ms.date: 04/13/2018
 ms.author: davidi
 LocalizationGroup: Reports
 ms.openlocfilehash: d88a455b5448b92d86719251bfada6bd807a4c91
-ms.sourcegitcommit: 80961ace38ff9dac6699f81fcee0f7d88a51edf4
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/13/2019
-ms.locfileid: "56223803"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "60973469"
 ---
 # <a name="tips-and-tricks-for-creating-reports-in-power-bi-desktop-and-power-bi-service"></a>在 Power BI Desktop 和 Power BI 服务中创建报表的相关提示和技巧
-若要充分利用你的数据，有时你还需要一点帮助。 我们整理了一些提示和技巧，以便你在 Microsoft Power BI Desktop、Power BI 服务，以及启用了 Power Pivot 加载项且安装和启用了 Power Query 的 Microsoft Excel 2016 或 Excel 2013 Pro-Plus 版本中创建报表时可加以使用。
+若要充分利用你的数据，有时你还需要一点帮助。 我们整理了一些提示和技巧，以便你在 Microsoft Power BI Desktop、Power BI 服务，以及  启用了 Power Pivot 加载项且安装和启用了 Power Query 的 Microsoft Excel 2016 或 Excel 2013 Pro-Plus 版本中创建报表时可加以使用。
 
 ## <a name="power-bi-desktop"></a>Power BI Desktop
 
@@ -165,7 +165,7 @@ DAX 是 Power BI Desktop 中的计算公式语言。  它针对 BI 分析进行�
 
 [DAX 资源中心](http://social.technet.microsoft.com/wiki/contents/articles/1088.dax-resource-center.aspx)
 
-## <a name="power-bi-service-and-power-bi-desktop"></a>Power BI 服务和 Power BI Desktop
+## <a name="power-bi-service-and-power-bi-desktop"></a>Power BI 服务和  Power BI Desktop
 
 ### <a name="read-the-whitepaper-principles-for-designing-power-bi-reportsvisualspower-bi-visualization-best-practicesmd"></a>阅读白皮书：[Power BI 报表设计原则](visuals/power-bi-visualization-best-practices.md)
 本白皮书介绍了有关如何在 Power BI 中设计报表的最佳做法。 它从规划入手，介绍了可应用于报表及其页面和各个视觉对象的设计原则。 其中许多最佳做法同样适用于设计仪表板。

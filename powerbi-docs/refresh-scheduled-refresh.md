@@ -1,21 +1,21 @@
 ---
 title: 配置计划刷新
 description: 这包括选择网关和配置计划刷新的步骤。
-author: davidiseminger
+author: mgblythe
 manager: kfile
-ms.reviewer: ''
+ms.reviewer: kayu''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 11/28/2018
-ms.author: davidi
+ms.author: mblythe
 LocalizationGroup: Data refresh
-ms.openlocfilehash: 7eb09f92be6c49756513b095afbdb9f451753d30
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
-ms.translationtype: HT
+ms.openlocfilehash: 9df65c4f6872f2141d0047bb8779f490cec9d6c7
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54289409"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61413757"
 ---
 # <a name="configuring-scheduled-refresh"></a>配置计划刷新
 
@@ -24,21 +24,21 @@ ms.locfileid: "54289409"
 > 
 > 
 
-如果你的数据集支持使用“立即刷新”和“计划刷新”进行计划刷新，要想刷新成功，有几个要求和设置非常重要。 这些设置包括“网关连接”、“数据源凭据”和“计划刷新”。 让我们仔细了解下每个设置。
+如果你的数据集支持使用“立即刷新”和“计划刷新”进行计划刷新，要想刷新成功，有几个要求和设置非常重要。 这些设置包括  “网关连接”、  “数据源凭据”和“计划刷新”  。 让我们仔细了解下每个设置。
 
 这将描述同时可用于 [Power BI Gateway – Personal](service-gateway-personal-mode.md) 和[本地数据网关](service-gateway-onprem.md)的选项。
 
 若要进入计划刷新屏幕，你可以执行以下操作。
 
-1. 选择“数据集”下所列的某个数据集旁边的“省略号 (...)”。
-2. 选择“计划刷新”。
+1. 选择“数据集”  下所列的某个数据集旁边的  “省略号 (...)”。
+2. 选择“计划刷新”  。
    
     ![](media/refresh-scheduled-refresh/dataset-menu.png)
 
 ## <a name="gateway-connection"></a>网关连接
 根据你拥有联机可用的个人网关还是企业网关，将会看到不同的选项。
 
-如果没有网关可用，你将看到“网关设置”处于禁用状态。 你还将看到一条消息，指出如何安装个人网关。
+如果没有网关可用，你将看到“网关设置”  处于禁用状态。 你还将看到一条消息，指出如何安装个人网关。
 
 ![](media/refresh-scheduled-refresh/gateway-not-configured.png)
 
@@ -69,17 +69,17 @@ ms.locfileid: "54289409"
 ![](media/refresh-scheduled-refresh/data-source-credentials-egw.png)
 
 > [!NOTE]
-> 连接到本地 SharePoint 进行数据刷新时，Power BI 仅支持匿名、基本和 Windows (NTLM/Kerberos) 身份验证机制。 对于本地 SharePoint 数据源的数据刷新，Power BI 不支持 *ADFS* 或任何基于表单的身份验证机制。
+> 连接到本地 SharePoint 进行数据刷新时，Power BI 仅支持匿名  、基本  和 Windows (NTLM/Kerberos)  身份验证机制。 对于本地 SharePoint 数据源的数据刷新，Power BI 不支持 *ADFS* 或任何基于表单的身份验证机制。 
 > 
 > 
 
 ## <a name="schedule-refresh"></a>计划刷新
 可在计划刷新部分定义刷新数据集的频率和时间插槽。 某些数据源不需要提供网关用于配置。 其他则需要网关。
 
-必须将“使你的数据保持为最新”滑块设为“是”，才能配置设置。
+必须将“使你的数据保持为最新”  滑块设为“是”  ，才能配置设置。
 
 > [!NOTE]
-> Power BI 服务确定在你计划的刷新时间的 15 分钟内启动数据刷新。
+> Power BI 服务确定在你计划的刷新时间的 15 分钟  内启动数据刷新。
 > 
 > 
 
@@ -124,7 +124,7 @@ ms.locfileid: "54289409"
 ## <a name="next-steps"></a>后续步骤
 [Power BI 中的数据刷新](refresh-data.md)  
 [Power BI Gateway - Personal](service-gateway-personal-mode.md)  
-[本地数据网关](service-gateway-onprem.md)  
+[On-premises data gateway (本地数据网关)](service-gateway-onprem.md)  
 [本地数据网关故障排除](service-gateway-onprem-tshoot.md)  
 [Power BI Gateway - Personal 故障排除](service-admin-troubleshooting-power-bi-personal-gateway.md)  
 

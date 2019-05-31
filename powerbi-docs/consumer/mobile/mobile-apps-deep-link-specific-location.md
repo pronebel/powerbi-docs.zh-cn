@@ -7,101 +7,110 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: conceptual
-ms.date: 06/28/2018
+ms.date: 04/24/2019
 ms.author: mshenhav
-ms.openlocfilehash: ccb3b390b0654c7dc850cf66a7f0c9a7ec02f910
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
-ms.translationtype: HT
+ms.openlocfilehash: 4e09b10e38b018f8e5572343b343a243ace3bf81
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54278391"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "64906535"
 ---
 # <a name="create-a-link-to-a-specific-location-in-the-power-bi-mobile-apps"></a>创建指向 Power BI 移动应用中特定位置的链接
-可以创建和使用统一资源标识符 (URI) 链接到所有移动平台（iOS、Android 设备和 Windows 10）上 Power BI 移动应用中的特定位置（即 *深层链接* ）。
+您可以使用链接直接访问 Power BI 中的特定项：报表、 仪表板和磁贴。
 
-URI 链接可以直接指向仪表板、磁贴和报表。
+有在 Power BI 移动中使用链接的两个主要方案： 
 
-深层链接的目标决定了 URI 的格式。 请按以下步骤操作，创建指向不同位置的深层链接。 
-
-## <a name="open-the-power-bi-mobile-app"></a>打开 Power BI 移动应用
-在任意设备上使用此 URI 打开 Power BI 移动应用：
-
-    mspbi://app/
+* 若要打开从 Power BI**在应用外**，并进入特定内容 （仪表板/报表/应用）。 这通常是集成方案中，当你想要从其他应用程序中打开 Power BI 移动版。 
+* 向**导航**Power BI 中。 这是通常在你想要在 Power BI 中创建自定义导航。
 
 
-## <a name="open-to-a-specific-dashboard"></a>打开特定仪表板
-此 URI 可打开 Power BI 移动应用的特定仪表板：
+## <a name="use-links-from-outside-of-power-bi"></a>使用从 Power BI 外的链接
+当使用 Power BI 应用外部的链接时，你想要确保将通过应用程序中，打开它，如果应用未安装在设备上，然后提供用户安装它。 为了支持这一点，我们已创建特殊的链接格式。 此链接格式，将确保此设备正在使用该应用程序以打开该链接，并且如果在设备上未安装该应用程序，它将提供用户转到应用商店获取它。
 
-    mspbi://app/OpenDashboard?DashboardObjectId=<36-character-dashboard-id>
+该链接应以下列开头  
+```html
+https://app.powerbi.com/Redirect?[**QUERYPARAMS**]
+```
 
-若要查找包含 36 个字符的仪表板对象 ID，请转到 Power BI 服务 (https://powerbi.com)) 中的特定仪表板。 有关示例，请参阅以下 URL 中的突出显示部分：
+> [!IMPORTANT]
+> 如果你的内容托管在特殊的数据中心，例如政府，中国，等等。该链接应以正确的 Power BI 地址，如开头`app.powerbigov.us`或`app.powerbi.cn`。   
+>
 
-`https://powerbi.com/groups/me/dashboards/**61b7e871-cb98-48ed-bddc-6572c921e270**`
 
-如果仪表板位于“我的工作区”以外的组中，请在仪表板 ID 前面或后面添加 `&GroupObjectId=<36-character-group-id>`。 例如： 
+**查询参数**是：
+* **操作**（必需） = OpenApp / OpenDashboard / OpenTile / OpenReport
+* **appId** = 如果你想要打开报表或仪表板的应用的一部分 
+* **groupObjectId** = 如果你想要打开报表或仪表板，其中一部分工作区 （但不是我的工作区）
+* **dashboardObjectId** = 仪表板对象 ID （如果 action 是 OpenDashboard 或 OpenTile）
+* **reportObjectId** = 报表对象 ID （如果操作为 OpenReport）
+* **tileObjectId** = 磁贴对象 ID （如果操作为 OpenTile）
+* **reportPage** = 如果你想要打开特定报表部分 （如果操作是 OpenReport）
+* **ctid** = 项组织 ID （适用于 B2B 方案。 这可以省略如果项属于用户的组织）。
 
-mspbi://app/OpenDashboard?DashboardObjectId=e684af3a-9e7f-44ee-b679-b9a1c59b5d60 **&GroupObjectId=8cc900cc-7339-467f-8900-fec82d748248**
+**示例：**
 
-请注意两者之间的 & 号。
+* 打开应用链接 
+  ```html
+  https://app.powerbi.com/Redirect?action=OpenApp&appId=appidguid&ctid=organizationid
+  ```
 
-## <a name="open-to-a-specific-tile-in-focus"></a>打开处于焦点模式的特定磁贴
-此 URI 可打开 Power BI 移动应用中处于焦点模式的特定磁贴：
+* 打开仪表板，属于应用程序 
+  ```html
+  https://app.powerbi.com/Redirect?action=OpenDashboard&appId=**appidguid**&dashboardObjectId=**dashboardidguid**&ctid=**organizationid**
+  ```
 
-    mspbi://app/OpenTile?DashboardObjectId=<36-character-dashboard-id>&TileObjectId=<36-character-tile-id>
+* 打开工作区中的报表
+  ```html
+  https://app.powerbi.com/Redirect?Action=OpenReport&reportObjectId=**reportidguid**&groupObjectId=**groupidguid**&reportPage=**ReportSectionName**
+  ```
 
-若要查找包含 36 个字符的仪表板和磁贴对象 ID，请转到 Power BI 服务 (https://powerbi.com)) 中的特定仪表板，然后打开处于焦点模式的磁贴。 有关示例，请参阅以下 URL 中的突出显示部分：
+### <a name="how-to-get-the-right-link-format"></a>如何获取的右侧链接格式
 
-`https://powerbi.com/groups/me/dashboards/**3784f99f-b460-4d5e-b86c-b6d8f7ec54b7**/tiles/**565f9740-5131-4648-87f2-f79c4cf9c5f5**/infocus`
+#### <a name="links-of-apps-and-items-in-app"></a>应用程序和应用程序中的项的链接
 
-对于此磁贴，URI 为：
+有关**应用程序和报表和仪表板的应用的一部分**，获取链接的最简单方法是转到应用工作区，然后选择"更新应用"。 这将打开"发布应用"体验，并在访问选项卡，您会发现**链接**部分。 可以使用扩展部分，您将看到该应用程序的列表，并且所有内容都链接直接访问它们。
 
-    mspbi://app/OpenTile?DashboardObjectId=3784f99f-b460-4d5e-b86c-b6d8f7ec54b7&TileObjectId=565f9740-5131-4648-87f2-f79c4cf9c5f5
+![Power BI 发布应用的链接 ](./media/mobile-apps-links/mobile-link-copy-app-links.png)
 
-请注意两者之间的 & 号。
+#### <a name="links-of-items-not-in-app"></a>不在应用中的项的链接 
 
-如果仪表板位于“我的工作区”以外的组中，请添加 `&GroupObjectId=<36-character-group-id>`。
+对于报表和仪表板，不是应用程序的一部分，您需要提取项 URL 中的 Id。
 
-## <a name="open-to-a-specific-report"></a>打开特定报表
-此 URI 可打开 Power BI 移动应用中的特定报表：
+例如，若要查找 36 个字符**仪表板**对象 ID，请导航到 Power BI 服务中的特定仪表板 
 
-    mspbi://app/OpenReport?ReportObjectId=<36-character-report-id>
+```html
+https://app.powerbi.com/groups/me/dashboards/**dashboard guid comes here**?ctid=**organization id comes here**`
+```
 
-若要查找包含 36 个字符的报表对象 ID，请转到 Power BI 服务 (https://powerbi.com)) 中的特定报表。 有关示例，请参阅以下 URL 中的突出显示部分：
+若要查找 36 个字符**报表**对象 ID，请导航到 Power BI 服务中的特定报表。
+这是报表的从"我的工作区"示例
 
-`https://powerbi.com/groups/me/reports/df9f0e94-31df-450b-b97f-4461a7e4d300`
+```html
+https://app.powerbi.com/groups/me/reports/**report guid comes here**/ReportSection3?ctid=**organization id comes here**`
+```
+在上述 URL 还包含特定报表页 **"ReportSection3"** 。
 
-如果报表位于“我的工作区”以外的组中，请在报表 ID 前面或后面添加 `&GroupObjectId=<36-character-group-id>`。 例如： 
+这是报表的从工作区 （不我的工作区） 示例
 
-mspbi://app/OpenReport?ReportObjectId=e684af3a-9e7f-44ee-b679-b9a1c59b5d60 **&GroupObjectId=8cc900cc-7339-467f-8900-fec82d748248**
+```html
+https://app.powerbi.com/groups/**groupid comes here**/reports/**reportid comes here**/ReportSection1?ctid=**organizationid comes here**
+```
 
-请注意两者之间的 & 号。
+## <a name="use-links-inside-power-bi"></a>使用 Power BI 内的链接
 
-## <a name="open-to-a-specific-report-page"></a>打开特定报表页
-此 URI 可打开 Power BI 移动应用中的特定报表页：
+Power BI 中的链接可工作方式与 Power BI 服务完全相同的移动应用中。
 
-    mspbi://app/OpenReport?ReportObjectId=<36-character-report-id>&reportPage=ReportSection<number>
+如果你想要添加到指向另一个 Power BI 项目报表的链接，可以只从浏览器地址栏中复制该项目 URL。 详细了解[如何向报表中的文本框添加超链接](https://docs.microsoft.com/power-bi/service-add-hyperlink-to-text-box)。
 
-此报表页名为“ReportSection（后跟一个数字）”。 同样，在 Power BI 服务 (https://powerbi.com)) 中打开报表，再转到特定的报表页。 
+## <a name="use-report-url-with-filter"></a>使用筛选器使用的报表 URL
+与 Power BI 服务相同，Power BI 移动应用还支持包含筛选器查询参数的报表 URL。 可以在 Power BI 移动应用中打开报表并筛选到特定状态。 例如，此 URL 打开 Sales 报表，并按区域筛选
 
-有关示例，请参阅以下 URL 中的突出显示部分：
+```html
+https://app.powerbi.com/groups/me/reports/**report guid comes here**/ReportSection3?ctid=**organization id comes here**&filter=Store/Territory eq 'NC'
+```
 
-`https://powerbi.com/groups/me/reports/df9f0e94-31df-450b-b97f-4461a7e4d300/ReportSection11`
-
-## <a name="open-in-full-screen-mode"></a>在全屏模式下打开
-添加下面用粗体显示的参数，可以在全屏模式下打开特定报表：
-
-    mspbi://app/OpenReport?ReportObjectId=<36-character-report-id>**&openFullScreen=true**
-
-例如： 
-
-mspbi://app/OpenReport?ReportObjectId=500217de-50f0-4af1-b345-b81027224033&openFullScreen=true
-
-## <a name="add-context-optional"></a>添加上下文（可选）
-还可以在字符串中添加上下文。 如果你需要与我们联系，我们可以使用上下文来筛选我们向你的应用发送的数据。 在链接中添加 `&context=<app-name>`
-
-有关示例，请参阅以下 URL 中的突出显示部分： 
-
-`https://powerbi.com/groups/me/reports/df9f0e94-31df-450b-b97f-4461a7e4d300/&context=SlackDeepLink`
+详细了解[如何生成查询参数来筛选报表](https://docs.microsoft.com/power-bi/service-url-filters)。
 
 ## <a name="next-steps"></a>后续步骤
 你的反馈将帮助我们决定未来要做什么，如果你想在 Power BI 移动应用中看到其他功能，别忘了向我们提出你的建议。 

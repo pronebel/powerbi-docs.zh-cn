@@ -1,20 +1,20 @@
 ---
 title: 嵌入式应用程序疑难解答
 description: 本文介绍了从 Power BI 嵌入内容时可能会遇到的一些常见问题。
-author: markingmyname
-ms.author: maghan
+author: rkarlin
+ms.author: rkarlin
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 02/05/2019
-ms.openlocfilehash: ebe536aad292fbd780d937cd4b35812afaedbdda
-ms.sourcegitcommit: 8fda7843a9f0e8193ced4a7a0e5c2dc5386059a6
-ms.translationtype: HT
+ms.openlocfilehash: 43cb59853e884b1e3e6a49c328aa3385e88b62fc
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/18/2019
-ms.locfileid: "58174812"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "64770471"
 ---
 # <a name="troubleshoot-your-embedded-application"></a>嵌入式应用程序疑难解答
 
@@ -64,7 +64,7 @@ Azure 门户或 Power BI 应用注册页面中的错误消息提到权限不足�
 
 ### <a name="power-bi-service-doesnt-appear-in-the-azure-portal-when-registering-a-new-app"></a>注册新应用时 Power BI 服务不会显示在 Azure 门户中
 
-至少一个用户必须注册 Power BI。 如果没看到 API 列表中列出 Power BI 服务，则表示没有用户注册 Power BI。
+至少一个用户必须注册 Power BI。 如果没看到 API 列表中列出 Power BI 服务，则表示没有用户注册 Power BI  。
 
 ## <a name="rest-api"></a>REST API
 
@@ -109,7 +109,7 @@ Azure 门户或 Power BI 应用注册页面中的错误消息提到权限不足�
 
 ### <a name="authentication-failed-with-aadsts70002-or-aadsts50053"></a>身份验证失败并显示 AADSTS70002 或 AADSTS50053
 
-**_(AADSTS70002:验证凭据时出错。AADSTS50053:使用不正确的用户 ID 或密码尝试登录的次数过多)_**
+** _(AADSTS70002:验证凭据时出错。AADSTS50053:使用不正确的用户 ID 或密码尝试登录的次数过多)_ **
 
 如果使用 Power BI Embedded 并使用 Azure AD 直接身份验证，则会收到以下形式的消息日志记录：***error:unauthorized_client,error_description:AADSTS70002:验证凭据时出错。AADSTS50053:使用不正确的用户 ID 或密码***尝试登录的次数过多，这是因为自 2018 年 6 月 14 日起已默认不再使用直接身份验证。
 
@@ -117,7 +117,7 @@ Azure 门户或 Power BI 应用注册页面中的错误消息提到权限不足�
 
 建议仅逐个应用地启用此策略。
 
-需要是在其中创建和分配策略的目录中的全局管理员才能创建此策略。 以下为创建策略并将其分配到此应用程序的 SP 的示例脚本：
+需要是在其中创建和分配策略的目录中的全局管理员  才能创建此策略。 以下为创建策略并将其分配到此应用程序的 SP 的示例脚本：
 
 1. 安装 [Azure AD 预览版 PowerShell 模块](https://docs.microsoft.com/powershell/azure/active-directory/install-adv2?view=azureadps-2.0)。
 
@@ -161,7 +161,7 @@ Add-AzureADServicePrincipalPolicy -Id $sp.ObjectId -RefObjectId $policy.Id
 
 ### <a name="aadsts90094-the-grant-requires-admin-permission"></a>AADSTS90094:授予需要管理员权限
 
-**表现：**<br>
+**表现：  **<br>
 非管理员用户首次尝试登录到应用程序并授予许可时，会收到以下错误之一：
 
 * ConsentTest 需要具有访问组织中的资源的权限，而只有管理员才能授予此权限。 请让管理员授予访问此应用的权限，否则你将无法使用该应用。
@@ -171,19 +171,23 @@ Add-AzureADServicePrincipalPolicy -Id $sp.ObjectId -RefObjectId $policy.Id
 
 管理员用户可以成功登录并授予许可。
 
-**根本原因：**<br>
+**根本原因：  **<br>
 对租户禁用用户同意。
 
-**可能会出现几个修补程序：**
+**可能会出现几个修补程序：  **
 
-对整个租户（所有用户和所有应用程序）启用用户同意
+对整个租户（所有用户和所有应用程序）启用用户同意 
 
 1. 在 Azure 门户中，导航到“Azure Active Directory”= >“用户和组”= >“用户设置”
 2. 启用“用户可以同意应用代表他们访问公司数据”设置并保存更改
 
     ![同意测试修补程序](media/embedded-troubleshoot/consent-test-02.png)
 
-由管理员授予（整个租户或特定用户）访问应用程序的权限。
+由管理员授予（整个租户或特定用户）访问应用程序的权限  。
+
+### <a name="cs1061-error"></a>CS1061 错误
+
+下载[Microsoft.IdentityModel.Clients.ActiveDirectory](https://www.nuget.org/packages/Microsoft.IdentityModel.Clients.ActiveDirectory/2.22.302111727)如果遇到"AuthenticationContext 不包含 AcquireToken 和接受的第一个参数的类型没有可访问 AcquireToken 的定义AuthenticationContext 找不到 (是否缺少 using 指令或程序集引用？)"错误。
 
 ## <a name="data-sources"></a>数据源
 
@@ -193,9 +197,9 @@ Add-AzureADServicePrincipalPolicy -Id $sp.ObjectId -RefObjectId $policy.Id
 
 ## <a name="troubleshoot-your-embedded-application-with-the-ierror-object"></a>使用 IError 对象对嵌入式应用程序进行故障排查
 
-使用 [JavaScript SDK 的 error 事件中返回的 IError 对象 ](https://github.com/Microsoft/PowerBI-JavaScript/wiki/Troubleshooting-and-debugging-of-embedded-parts)调试应用程序，并更好地了解错误的原因。
+使用 [JavaScript SDK  的 error  事件中返回的 IError 对象  ](https://github.com/Microsoft/PowerBI-JavaScript/wiki/Troubleshooting-and-debugging-of-embedded-parts)调试应用程序，并更好地了解错误的原因。
 
-获取 IError 对象之后，应查找适合你使用的嵌入类型的对应常见错误表。 将 IError 属性与表中的该属性进行比较，查找失败的可能原因。
+获取 IError 对象之后，应查找适合你使用的嵌入类型的对应常见错误表。 将 IError 属性  与表中的该属性进行比较，查找失败的可能原因。
 
 ### <a name="typical-errors-when-embedding-for-power-bi-users"></a>为 Power BI 用户嵌入内容时的典型错误
 
@@ -249,9 +253,9 @@ Add-AzureADServicePrincipalPolicy -Id $sp.ObjectId -RefObjectId $policy.Id
 
 ### <a name="prerequisites"></a>先决条件
 
-请先验证你具备所有适当先决条件，然后再使用嵌入安装程序工具。 需要 Power BI Pro 帐户和 Microsoft Azure 订阅。
+请先验证你具备所有适当先决条件，然后再使用嵌入安装程序工具。 需要 Power BI Pro 帐户和 Microsoft Azure 订阅   。
 
-* 如果未注册 Power BI Pro，请在开始之前[注册以获得免费试用](https://powerbi.microsoft.com/pricing/)。
+* 如果未注册 Power BI Pro  ，请在开始之前[注册以获得免费试用](https://powerbi.microsoft.com/pricing/)。
 * 如果没有 Azure 订阅，请在开始之前先创建一个[免费帐户](https://azure.microsoft.com/free/?WT.mc_id=A261C142F)。
 * 你需要具有自己的 [Azure Active Directory 租户](create-an-azure-active-directory-tenant.md)安装程序。
 * 你需要安装 [Visual Studio](https://www.visualstudio.com/)（2013 版或更高版本）。
@@ -262,9 +266,9 @@ Add-AzureADServicePrincipalPolicy -Id $sp.ObjectId -RefObjectId $policy.Id
 
 #### <a name="using-the-embed-for-your-customers-sample-application"></a>使用“为客户嵌入”示例应用程序
 
-若要采用“为客户嵌入”体验，请保存并解压缩 PowerBI-Developer-Samples.zip 文件。 然后打开 PowerBI-Developer-Samples-master\App Owns Data 文件夹并运行 PowerBIEmbedded_AppOwnsData.sln 文件。
+若要采用“为客户嵌入”  体验，请保存并解压缩 PowerBI-Developer-Samples.zip  文件。 然后打开 PowerBI-Developer-Samples-master\App Owns Data 文件夹并运行 PowerBIEmbedded_AppOwnsData.sln 文件   。
 
-选择“授予权限”（“授予权限”步骤）时，将收到以下错误：
+选择“授予权限”（“授予权限”步骤）时，将收到以下错误  ：
 
     AADSTS70001: Application with identifier <client ID> wasn't found in the directory <directory ID>
 
@@ -282,9 +286,9 @@ Add-AzureADServicePrincipalPolicy -Id $sp.ObjectId -RefObjectId $policy.Id
 
 #### <a name="using-the-embed-for-your-organization-sample-application"></a>为组织示例应用程序使用嵌入
 
-若要采用“为组织嵌入”体验，请保存并解压缩 PowerBI-Developer-Samples.zip 文件。 然后打开 PowerBI-Developer-Samples-master\App Owns Data\integrate-report-web-app 文件夹并运行 pbi-saas-embed-report.sln 文件。
+若要采用“为组织嵌入”  体验，请保存并解压缩 PowerBI-Developer-Samples.zip  文件。 然后打开 PowerBI-Developer-Samples-master\App Owns Data\integrate-report-web-app 文件夹并运行 pbi-saas-embed-report.sln 文件   。
 
-运行“为组织嵌入”示例应用时，将收到以下错误：
+运行“为组织嵌入”示例应用时，将收到以下错误  ：
 
     AADSTS50011: The reply URL specified in the request doesn't match the reply URLs configured for the application: <client ID>
 

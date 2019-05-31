@@ -8,15 +8,15 @@ ms.custom: seodec18
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 12/06/2018
+ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: 5c4bf7c1e1abb8fd87b97c48bfa94b57d5481b00
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
-ms.translationtype: HT
+ms.openlocfilehash: 16114793b190996b3ef9e800e562dd0caf62089c
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54295803"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "65514812"
 ---
 # <a name="frequently-asked-questions-for-power-bi-for-germany-cloud-customers"></a>适用于德国云客户的 Power BI 常见问题解答
 **Power BI 服务**具有可用于欧盟/欧洲自由贸易协议 (EU/EFTA) 客户的版本，通常称为 Microsoft Cloud Deutschland (MCD)。 本文中讨论的 **Power BI 服务**版本是为欧盟/EFTA 客户专门设计的，独立且不同于 **Power BI 服务**的商业版本或为政府客户提供的 Power BI 服务。
@@ -32,10 +32,10 @@ ms.locfileid: "54295803"
    面向欧盟/EFTA 客户的 Power BI 服务（也称为 Microsoft Cloud Deutschland (MCD)）是符合 Power BI 服务要求的欧盟/EFTA 云，从德国数据中心传递。 用于欧盟/EFTA 云的 Power BI 服务中的所有客户数据均以静态方式存储在德国，T 系统作为独立的德国数据被信任方运行，并具有对德国法律所控制数据的物理和逻辑访问权限。 欧盟/EFTA 云的 Power BI 服务要求使用与 Power BI 服务的商业版帐户不同且独立的帐户。 请参阅[此处](https://www.microsoft.com/trustcenter/cloudservices/nationalcloud)，了解有关 Microsoft Cloud Deutschland 的详细信息。
 2. **在哪里可以找到 Power BI Germany 云的定价和注册信息？**
    
-   你可以在 [Power BI Germany 云主页](https://powerbi.microsoft.com/power-bi-germany/)上找到大量信息，其中包括定价信息。 在该页面上，你还可以找到一个用于注册 **Power BI Pro 服务** 30 天试用版（包含 25 个用户许可证）的链接。 作为试用版注册的一部分，你可以根据需要选择购买或添加其他许可证。 此外，我们还提供企业协议 (EA)、政府和非营利性定价。 请联系 Microsoft 客户代表，了解详细信息。
+   你可以在 [Power BI Germany 云主页](https://powerbi.microsoft.com/power-bi-germany/)上找到大量信息，其中包括定价信息。 在该页上，您还可以找到用于注册的链接**Power BI Pro 服务**具有 25 个用户许可证的 30 天试用版。 作为试用版注册的一部分，你可以选择购买或根据需要添加更多的许可证。 此外，我们还提供企业协议 (EA)、政府和非营利性定价。 有关详细信息，请与你的 Microsoft 客户代表联系。
 3. **我有一个德国云租户，它是 Azure Germany 和/或 Office 365 Germany 订阅的一部分。我可以使用现有租户注册 Power BI Germany 吗？**
    
-   是的。 作为注册过程的一部分，你可以选择使用现有德国云租户管理员帐户登录，并将 Power BI Pro 服务许可证添加到德国云中的现有租户。 请注意，德国云租户和用户帐户与德国云的 Power BI 服务不同。
+   是的。 作为注册过程的一部分，你可以选择使用现有德国云租户管理员帐户登录，并将 Power BI Pro 服务许可证添加到德国云中的现有租户。 请注意，德国云租户和用户帐户是不同于德国云的 Power BI 服务。
 4. **德国云的 Power BI 服务是否提供免费服务？**
    
    不行。 我们不会在德国云的 Power BI 服务中提供免费的许可证版本。 但是，如果你的业务需求符合 Power BI 免费产品/服务要求，我们建议你[在我们的公有云中注册Power BI 免费产品/服务](https://powerbi.microsoft.com/get-started/)。
@@ -45,7 +45,7 @@ ms.locfileid: "54295803"
    
    * [Power BI Desktop](https://powerbi.microsoft.com/desktop/)
    * [Power BI 移动](https://powerbi.microsoft.com/mobile/)
-   * [本地数据网关](https://powerbi.microsoft.com/gateway/)
+   * [On-premises data gateway (本地数据网关)](https://powerbi.microsoft.com/gateway/)
    * [Power BI Publisher for Excel](https://powerbi.microsoft.com/excel-dashboard-publisher/)
 6. **德国云的 Power BI 服务是存在任何功能限制？**
    
@@ -56,7 +56,7 @@ ms.locfileid: "54295803"
    * Power BI Embedded（单独计量的 ISV 许可，将在以后通过 [Microsoft Azure Germany](https://azure.microsoft.com/overview/clouds/germany/) 提供）
 7. **在哪里可以找到德国云的 Power BI 服务具体配置信息，以便在我的应用程序中使用和集成？**
    
-   我们更新了 [SaaS 嵌入开发人员示例](https://github.com/Microsoft/PowerBI-Developer-Samples)，以及德国云和其他 Power BI 云的具体配置信息。 请查看示例中的 **Cloud Configs** 文件夹，获取云具体配置终点。 下表列出了德国云的 Power BI 服务（以及用于交叉引用的公有云）的各种配置终点。
+   我们更新了 [SaaS 嵌入开发人员示例](https://github.com/Microsoft/PowerBI-Developer-Samples)，以及德国云和其他 Power BI 云的具体配置信息。 看看**云配置**为特定于云的配置终结点的示例中的文件夹。 下表列出了德国云的 Power BI 服务（以及用于交叉引用的公有云）的各种配置终点。
 
 | **终结点名称和/或使用情况** | **德国云 URL 的 Power BI 服务** | **公有云中的等效 URL（用于交叉引用）** |
 | --- | --- | --- |
@@ -68,7 +68,7 @@ ms.locfileid: "54295803"
 | Power BI 服务资源 URI |[https://analysis.cloudapi.de/powerbi/api](https://analysis.cloudapi.de/powerbi/api) |[https://analysis.windows.net/powerbi/api](https://analysis.windows.net/powerbi/api) |
 | 自定义视觉对象库 |[https://app.powerbi.de/visuals/](https://app.powerbi.de/visuals/) |[https://app.powerbi.com/visuals/](https://app.powerbi.com/visuals/) |
 | 注册用于 Power BI 的应用程序（用于 Embedded） |[https://app.powerbi.de/apps](https://app.powerbi.de/apps) |[https://app.powerbi.com/apps](https://app.powerbi.com/apps) |
-| Azure 门户（用于 Embedded） |[https://portal.microsoftazure.de/](https://portal.microsoftazure.de/) |[https://portal.azure.com/](https://portal.azure.com/) |
+| Azure 门户 (用于 Embedded) |[https://portal.microsoftazure.de/](https://portal.microsoftazure.de/) |[https://portal.azure.com/](https://portal.azure.com/) |
 | 社区 |[https://community.powerbi.com/](https://community.powerbi.com/) |[https://community.powerbi.com/](https://community.powerbi.com/) |
 
 ## <a name="next-steps"></a>后续步骤

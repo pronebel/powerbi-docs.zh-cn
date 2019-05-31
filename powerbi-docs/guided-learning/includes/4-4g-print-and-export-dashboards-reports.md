@@ -1,10 +1,18 @@
+---
+ms.openlocfilehash: 87a55881a9b6551dc9c7814696aa8d8252482a09
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61254631"
+---
 有时可能需要在会议中使用打印的报表或仪表板，以便与他人共享这些内容。 借助 Power BI，即可通过几种方式打印输出视觉对象。
 
 在 Power BI 服务中，选择服务右上方的省略号（三个点），然后选择**打印仪表板**。
 
 ![](media/4-4g-print-and-export-dashboards-reports/4-4g_1.png)
 
-将显示**打印**对话框，你可以从中选择将仪表板发送到哪一台打印机，以及标准打印选项，如纵向或横向打印方向。
+将显示**打印**对话框，你可以从中选择将仪表板发送到哪一台打印机，以及标准打印选项，如纵向  或横向  打印方向。
 
 ![](media/4-4g-print-and-export-dashboards-reports/4-4g_2.png)
 

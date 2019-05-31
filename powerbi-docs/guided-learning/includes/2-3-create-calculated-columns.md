@@ -1,3 +1,11 @@
+---
+ms.openlocfilehash: fcf73962534ec8f1fda009304768fd43aaa0955a
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61253673"
+---
 创建计算列是一种用于丰富并增强数据的简单方法。 **计算列**是通过对以下计算进行定义而创建的新列：转换或合并现有数据的两个或多个元素。 例如，可以通过将两列合并为一列来创建新列。
 
 创建计算列的其中一个有效原因是，当没有可用于建立关系的唯一字段时，在表格之间建立关系。 当在 Power BI Desktop 中创建简单的表格视觉对象时，缺少关系会变得明显，并且所有条目都将获得同样的值，而你知道基础数据是不同的。

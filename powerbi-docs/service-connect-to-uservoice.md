@@ -11,11 +11,11 @@ ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
 ms.openlocfilehash: a12f2821108c5becaf054680e4395295f0979f0b
-ms.sourcegitcommit: 750f0bfab02af24c8c72e6e9bbdd876e4a7399de
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/04/2019
-ms.locfileid: "54008470"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61170981"
 ---
 # <a name="connect-to-uservoice-with-power-bi"></a>使用 Power BI 连接到 UserVoice
 借助 Power BI 和 UserVoice 内容包，可轻松跟踪和浏览你的 UserVoice 数据。 Power BI 可以检索你的数据，包括票证和满意度，然后基于该数据生成全新的仪表板和报表。
@@ -38,7 +38,7 @@ ms.locfileid: "54008470"
 4. 出现提示时，输入你的 UserVoice URL。 URL 需要完全遵循以下模式 `https://fabrikam.uservoice.com` 并将“fabrikam”替换为你的产品或服务名称。
    
    >[!NOTE]
-   >末尾没有尾部斜杠，并且连接使用的是 https。
+   >末尾没有尾部斜杠，并且连接使用的是 https  。
    
    ![](media/service-connect-to-uservoice/capture.png)
 5. 出现提示时，输入 UserVoice 凭据，然后按照 UserVoice 身份验证过程执行。 如果你已经在浏览器中登录到 UserVoice，可能不会出现凭据提示。 通过单击“允许访问”授予 Power BI 应用程序访问数据的权限。
@@ -56,7 +56,7 @@ ms.locfileid: "54008470"
 * 尝试在仪表板顶部的[在“问答”框中提问](consumer/end-user-q-and-a.md)
 * 在仪表板中[更改磁贴](service-dashboard-edit-tile.md)。
 * [选择磁贴](consumer/end-user-tiles.md)以打开基础报表。
-* 虽然数据集将按计划每日刷新，但你可以更改刷新计划或根据需要使用“立即刷新”来尝试刷新
+* 虽然数据集将按计划每日刷新，但你可以更改刷新计划或根据需要使用“立即刷新”  来尝试刷新
 
 ## <a name="troubleshooting"></a>故障排除
 **“参数验证失败，请确保所有参数都是有效的”**

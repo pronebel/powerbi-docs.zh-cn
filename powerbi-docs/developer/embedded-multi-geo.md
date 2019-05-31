@@ -1,30 +1,30 @@
 ---
 title: Power BI Embedded 的 Multi-Geo 支持
 description: 了解如何将内容部署到除 Power BI Embedded 主区域以外区域的数据中心。
-author: markingmyname
-ms.author: maghan
+author: rkarlin
+ms.author: rkarlin
 manager: kfile
 ms.reviewer: nishalit
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 02/05/2019
-ms.openlocfilehash: d139f96b6aec2db23b2eabc54c3fa326e4762766
-ms.sourcegitcommit: bd1f0178fd9df152f9e9be57da415829f42116e9
-ms.translationtype: HT
+ms.openlocfilehash: 57f01a458bad36c73a01adb1bc62bfd5a055a337
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "57572016"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61344890"
 ---
 # <a name="multi-geo-support-for-power-bi-embedded"></a>Power BI Embedded 的 Multi-Geo 支持
 
-Power BI Embedded 的 Multi-Geo 支持意味着，对于使用 Power BI Embedded 构建应用程序并将分析嵌入其应用程序的 ISV 和组织，现在可以在全球不同地区部署其数据。
+Power BI Embedded 的 Multi-Geo 支持意味着，对于使用 Power BI Embedded 构建应用程序并将分析嵌入其应用程序的 ISV 和组织，现在可以在全球不同地区部署其数据  。
 
-现在，使用 Power BI Embedded 的客户可以根据 [Power BI Premium 支持使用 Multi-Geo](../service-admin-premium-Multi-Geo.md) 中的相同功能和限制，通过“Multi-Geo”选项设置 A 容量。
+现在，使用 Power BI Embedded  的客户可以根据 [Power BI Premium 支持使用 Multi-Geo](../service-admin-premium-Multi-Geo.md) 中的相同功能和限制，通过“Multi-Geo”  选项设置 A 容量  。
 
 ## <a name="creating-new-power-bi-embedded-capacity-resource-with-multi-geo"></a>使用 Multi-Geo 创建新的 Power BI Embedded 容量资源
 
-在“创建资源”屏幕中，需要选择容量的位置。 到目前为止，它仅限于你的 Power BI 租户的位置，因此只有一个位置可用。 使用 Multi-Geo，可以在不同区域之间进行选择以部署容量。
+在“创建资源”  屏幕中，需要选择容量的位置。 到目前为止，它仅限于你的 Power BI 租户的位置，因此只有一个位置可用。 使用 Multi-Geo，可以在不同区域之间进行选择以部署容量。
 
 ![Power BI Embedded Multi-Geo 设置](media/embedded-multi-geo/pbie-multi-geo-setup.png)
 
@@ -66,11 +66,11 @@ Power BI Embedded 的 Multi-Geo 支持意味着，对于使用 Power BI Embedded
 
 为通过 API 支持使用 Multi-Geo 管理容量，我们对现有 API 进行了一些更改：
 
-1. [获取容量](https://docs.microsoft.com/rest/api/power-bi/capacities/getcapacities) - API 向用户返回一列具有访问权限的容量。 现在，响应包含一个名为“region”的附加属性，用于指定容量的位置。
+1.  [获取容量](https://docs.microsoft.com/rest/api/power-bi/capacities/getcapacities) - API 向用户返回一列具有访问权限的容量。 现在，响应包含一个名为“region”的附加属性，用于指定容量的位置。
 
-2. [分配到容量](https://docs.microsoft.com/rest/api/power-bi/capacities) - API 允许将给定的工作区分配到容量。 此操作不允许将工作区分配到主区域之外的容量，也不允许在不同区域的容量之间移动工作区。 要执行此操作，用户或[服务主体](embed-service-principal.md)仍需要工作区的管理员权限，以及目标容量的管理或分配权限。
+2.  [分配到容量](https://docs.microsoft.com/rest/api/power-bi/capacities) - API 允许将给定的工作区分配到容量。 此操作不允许将工作区分配到主区域之外的容量，也不允许在不同区域的容量之间移动工作区。 要执行此操作，用户或[服务主体](embed-service-principal.md)仍需要工作区的管理员权限，以及目标容量的管理或分配权限。
 
-3. [Azure 资源管理器 API](https://docs.microsoft.com/rest/api/power-bi-embedded/capacities)：所有 Azure 资源管理器 API 操作（包括创建和删除）都支持 Multi-Geo。
+3.  [Azure 资源管理器 API](https://docs.microsoft.com/rest/api/power-bi-embedded/capacities)：所有 Azure 资源管理器 API 操作（包括创建  和删除  ）都支持 Multi-Geo。
 
 ## <a name="limitations-and-considerations"></a>限制和注意事项
 

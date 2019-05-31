@@ -1,3 +1,11 @@
+---
+ms.openlocfilehash: 605ef74cc97843cc475a677f5fa2ebdbdaec909a
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61263043"
+---
 你可能偶尔会发现，创建仪表板时，你的内容较多，无法在画布上完全呈现。 有几个解决方案，可以帮助你管理仪表板空间的显示方式，以便可以获得全视图的仪表板内容。
 
 在一个屏幕上显示整个仪表板的最简单方式是，选择仪表板右上角的**全屏模式**按钮。

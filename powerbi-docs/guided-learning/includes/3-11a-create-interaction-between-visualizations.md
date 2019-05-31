@@ -1,9 +1,17 @@
+---
+ms.openlocfilehash: 29a274bb847c6c0395d3cdba868024ded326290e
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61396211"
+---
 当同一报表页上具有多个可视化效果时，通过单击或使用切片器选择特定片段将影响该页上的所有视觉对象。 但是，在某些情况下，你可能只想切分特定的视觉对象。 使用散点图等元素时尤其如此，在这些元素中将数据限制为特定片段将删除重要含义。 幸运的是，Power BI Desktop 让你能够控制视觉对象之间交互作用的流向。
 
 若要更改可视化效果之间的交互作用，请从**开始**功能区的“视觉对象”部分选择**编辑**，以切换到**编辑模式**。
 
 >[!NOTE]
->自录制视频后，Power BI Desktop 中的“编辑交互作用”图标即已改变。
+>自录制视频后，Power BI Desktop 中的  “编辑交互作用”图标即已改变。
 > 
 > 
 

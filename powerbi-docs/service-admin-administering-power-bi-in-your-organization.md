@@ -11,11 +11,11 @@ ms.date: 10/29/2018
 ms.author: mblythe
 LocalizationGroup: Administration
 ms.openlocfilehash: 214a8a3ce0fd647cecd9855b48589cef02bf01c8
-ms.sourcegitcommit: 20ae9e9ffab6328f575833be691073de2061a64d
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/22/2019
-ms.locfileid: "58383305"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61198209"
 ---
 # <a name="what-is-power-bi-administration"></a>什么是 Power BI 管理？
 

@@ -1,24 +1,24 @@
 ---
 title: 开发人员可以使用 Power BI 做什么？
 description: Power BI 为开发人员提供了大量选项。 此范围涉及从嵌入到自定义视觉对象到流式处理数据集。
-author: markingmyname
-ms.author: maghan
+author: rkarlin
+ms.author: rkarlin
 manager: kfile
 ms.topic: overview
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.custom: mvc
 ms.date: 03/15/2019
-ms.openlocfilehash: 63ee9ed96ed699d116b8d81b0cd612f76994a68d
-ms.sourcegitcommit: 3a05f34dbeabac62ea8c35c12a045284271971bc
-ms.translationtype: HT
+ms.openlocfilehash: d2e3ba69cde609638e54eaa1206714f0fb420d18
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/03/2019
-ms.locfileid: "58872676"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61262627"
 ---
 # <a name="what-can-developers-do-with-power-bi"></a>开发人员可以使用 Power BI 做什么？
 
-开发人员有不同选项来尝试将 Power BI 内容包含在应用程序中。 作为开发人员，可以使用这些选项，包括“使用 Power BI 嵌入”、“自定义视觉对象”和“将数据推送到 Power BI”。
+开发人员有不同选项来尝试将 Power BI 内容包含在应用程序中。 作为开发人员，可以使用这些选项，包括“使用 Power BI 嵌入”、“自定义视觉对象”和“将数据推送到 Power BI”    。
 
 ## <a name="embedding-power-bi-content"></a>嵌入 Power BI 内容
 

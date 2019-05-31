@@ -11,11 +11,11 @@ ms.date: 06/24/2018
 ms.author: maggies
 LocalizationGroup: Samples
 ms.openlocfilehash: e4cb314af1522c71de85e4576572acbb1d2e88b3
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54291455"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61237871"
 ---
 # <a name="retail-analysis-sample-for-power-bi-take-a-tour"></a>Power BI 的零售分析示例：参观
 
@@ -37,7 +37,7 @@ ms.locfileid: "54291455"
 3. 在显示的“获取数据”页上选择“**示例**”图标。
    
    ![](media/sample-datasets/power-bi-samples-icon.png)
-4. 依次选择“零售分析示例”和“连接”。  
+4. 依次选择“零售分析示例”  和“连接”  。  
   
    ![零售分析示例](media/sample-retail-analysis/retail16.png)
    
@@ -52,7 +52,7 @@ ms.locfileid: "54291455"
  * [零售分析示例](http://download.microsoft.com/download/9/6/D/96DDC2FF-2568-491D-AAFA-AFDD6F763AE3/Retail%20Analysis%20Sample%20PBIX.pbix)
 
 ### <a name="get-the-excel-workbook-for-this-sample"></a>获取 Excel 工作簿形式的此示例
-还可以针对此示例[仅下载该数据集（Excel 工作簿）](http://go.microsoft.com/fwlink/?LinkId=529778)。 该工作簿包含你可以查看和修改的 Power View 工作表。 若要查看原始数据，请选择“Power Pivot”>“管理”。
+还可以针对此示例[仅下载该数据集（Excel 工作簿）](http://go.microsoft.com/fwlink/?LinkId=529778)。 该工作簿包含你可以查看和修改的 Power View 工作表。 若要查看原始数据，请选择“Power Pivot”>“管理”  。
 
 ## <a name="start-on-the-dashboard-and-open-the-report"></a>启动仪表板并打开报表
 1. 在仪表板上，选择“总商店数”磁贴：
@@ -60,7 +60,7 @@ ms.locfileid: "54291455"
    ![](media/sample-retail-analysis/retail-analysis-7.png)  
 
    此时，会转到报表中的“商店销售额概述”页面。 你会看到我们总共有 104 家商店，其中 10 家为新店铺。 我们有两个供应链，Fashions Direct 和 Lindseys。 Fashions Direct 商店平均面积要大一些。
-2. 在饼图中，选择“Fashions Direc”。
+2. 在饼图中，选择“Fashions Direc”  。
 
    ![](media/sample-retail-analysis/retail3.png)  
 
@@ -107,12 +107,12 @@ ms.locfileid: "54291455"
    ![](media/sample-retail-analysis/pbi_sample_retanlsalesvarcol.png)
 
    我们来看看是否可以缩小问题范围。
-2. 选择气泡图，然后选择“020-男性”。
+2. 选择气泡图，然后选择“020-男性”  。
 
    ![](media/sample-retail-analysis/retail11.png)  
 
    观察到男性类别在 4 月的影响不如整体业务严重，但是 1 月和 7 月仍是问题月。
-3. 现在，选择“010-女性气泡”。
+3. 现在，选择“010-女性气泡”  。
 
    ![](media/sample-retail-analysis/retail12.png)
 

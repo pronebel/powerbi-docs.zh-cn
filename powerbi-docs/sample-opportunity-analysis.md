@@ -11,16 +11,16 @@ ms.date: 05/20/2018
 ms.author: maggies
 LocalizationGroup: Samples
 ms.openlocfilehash: 7f7b9d09b3761a5a02bdf4f706c6470b7d8cf2b6
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54275499"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61231207"
 ---
 # <a name="opportunity-analysis-sample-for-power-bi-take-a-tour"></a>Power BI 的机会分析示例：参观
 
 ## <a name="overview-of-the-opportunity-analysis-sample"></a>“机会分析示例”概述
-“机会分析示例”包含采用以下 2 种销售渠道的软件公司的仪表板（和关联报表）：直接销售和合作伙伴销售。 销售经理创建此仪表板以按照区域、成交额和渠道来跟踪商机和收入。
+“机会分析示例”  包含采用以下 2 种销售渠道的软件公司的仪表板（和关联报表）：直接销售  和合作伙伴销售  。 销售经理创建此仪表板以按照区域、成交额和渠道来跟踪商机和收入。
 
 销售管理系统依赖于两个收入度量值：
 
@@ -49,7 +49,7 @@ ms.locfileid: "54275499"
 3. 在显示的“获取数据”页上选择“**示例**”图标。
    
    ![](media/sample-datasets/power-bi-samples-icon.png)
-4. 依次选择“机会分析示例”和“连接”。  
+4. 依次选择“机会分析示例”  和“连接”  。  
   
    ![获取数据](media/sample-opportunity-analysis/opportunity-connect.png)
    
@@ -64,7 +64,7 @@ ms.locfileid: "54275499"
  * [机会分析示例](http://download.microsoft.com/download/9/1/5/915ABCFA-7125-4D85-A7BD-05645BD95BD8/Opportunity%20Analysis%20Sample%20PBIX.pbix)
 
 ### <a name="get-the-excel-workbook-for-this-sample"></a>获取 Excel 工作簿形式的此示例
-还可以针对此示例[仅下载该数据集（Excel 工作簿）](http://go.microsoft.com/fwlink/?LinkId=529782)。 该工作簿包含你可以查看和修改的 Power View 工作表。 若要查看原始数据，请选择“Power Pivot”>“管理”。
+还可以针对此示例[仅下载该数据集（Excel 工作簿）](http://go.microsoft.com/fwlink/?LinkId=529782)。 该工作簿包含你可以查看和修改的 Power View 工作表。 若要查看原始数据，请选择“Power Pivot”>“管理”  。
 
 
 ## <a name="what-is-our-dashboard-telling-us"></a>仪表板告诉我们什么？

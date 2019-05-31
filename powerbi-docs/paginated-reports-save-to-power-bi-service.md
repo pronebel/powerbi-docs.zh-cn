@@ -1,20 +1,20 @@
 ---
 title: 将分页报表发布到 Power BI 服务（预览）
 description: 本教程介绍如何通过从本地计算机上传分页报表将其发布到 Power BI 服务。
-author: markingmyname
-ms.author: maghan
+author: maggiesMSFT
+ms.author: maggies
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: conceptual
 ms.date: 11/05/2018
-ms.openlocfilehash: 58fc7a6b8ebc5519c1c4bb1835758ca94ba225d2
-ms.sourcegitcommit: 8fda7843a9f0e8193ced4a7a0e5c2dc5386059a6
-ms.translationtype: HT
+ms.openlocfilehash: 93b712d385b78ea806e57769da72bdf41fbaefc3
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/18/2019
-ms.locfileid: "58174536"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61423927"
 ---
 # <a name="publish-a-paginated-report-to-the-power-bi-service-preview"></a>将分页报表发布到 Power BI 服务（预览）
 
@@ -26,11 +26,11 @@ ms.locfileid: "58174536"
 
 如果工作区名称旁边中没有钻石形图标 ![Power BI 高级容量钻石形图标](media/paginated-reports-save-to-power-bi-service/premium-diamond.png) ，需要将工作区添加到高级容量。 
 
-1. 选择“工作区”，然后选择工作区名称旁边的省略号 (...)，再选择“编辑工作区”。
+1. 选择“工作区”  ，然后选择工作区名称旁边的省略号 (...  )，再选择“编辑工作区”  。
 
     ![选择“编辑工作区”](media/paginated-reports-save-to-power-bi-service/power-bi-paginated-edit-workspace.png)
 
-1. 在“编辑工作区”对话框中，展开“高级”，然后将“专用容量”的滑块滑动到“开”。
+1. 在“编辑工作区”  对话框中，展开“高级”  ，然后将“专用容量”  的滑块滑动到“开”  。
 
     ![选择“专用容量”](media/paginated-reports-save-to-power-bi-service/power-bi-paginated-edit-workspace-dialog.png)
 
@@ -43,7 +43,7 @@ ms.locfileid: "58174536"
 
 1. 在浏览器中打开 Power BI 服务，然后浏览到要在其中发布报表的“高级”工作区。 请注意名称旁边的钻石形图标 ![Power BI 高级容量钻石形图标](media/paginated-reports-save-to-power-bi-service/premium-diamond.png) 。 
 
-1. 选择“获取数据”。
+1. 选择“获取数据”  。
 
     ![Power BI“获取数据”](media/paginated-reports-save-to-power-bi-service/power-bi-paginated-get-data.png)
 
@@ -51,15 +51,15 @@ ms.locfileid: "58174536"
 
     ![Power BI“获取文件”](media/paginated-reports-save-to-power-bi-service/power-bi-paginated-files-get.png)
 
-1. 选择“本地文件”，浏览到分页报表，然后选择“打开”。
+1. 选择“本地文件”  ，浏览到分页报表，然后选择“打开”  。
 
     ![选择“本地文件”](media/paginated-reports-save-to-power-bi-service/power-bi-paginated-local-file.png)
 
-1. 选择“继续” > “编辑凭据”。
+1. 选择“继续”   > “编辑凭据”  。
 
     ![选择“编辑凭据”](media/paginated-reports-save-to-power-bi-service/power-bi-paginated-select-edit-credentials.png)
 
-1. 配置凭据，然后单击“登录”。
+1. 配置凭据，然后单击“登录”  。
 
     ![编辑凭据](media/paginated-reports-save-to-power-bi-service/power-bi-paginated-credentials.png)
 
@@ -75,7 +75,7 @@ ms.locfileid: "58174536"
 
 同任何其他 Power BI 报表一样，如果报表数据源位于本地环境中，则需要创建或连接到网关才能访问数据。
 
-1. 在报表名称旁边，选择“管理”。
+1. 在报表名称旁边，选择“管理”  。
 
    ![管理分页报表](media/paginated-reports-save-to-power-bi-service/power-bi-paginated-manage.png)
 

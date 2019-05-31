@@ -1,3 +1,11 @@
+---
+ms.openlocfilehash: fa6296485897b983c3ca4044ffa2875de3326dec
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61264362"
+---
 Power BI 可以从几乎任何来源导入数据，其可视化效果和建模工具最适用于列式数据。 有时数据不采用简单列格式，这种情况常出现在 Excel 电子表格中，适合肉眼查看的表格布局不一定是自动查询的最优选择。 例如，以下电子表格具有跨多个列的标题。
 
 ![](media/1-5-cleaning-irregular-data/1-5_1.png)

@@ -1,27 +1,27 @@
 ---
 title: 配置工作区数据流设置
-description: 将 Power BI 中的应用工作区配置为在 Azure Data Lake Storage Gen2 中存储其数据流定义文件和数据文件
+description: 在 Power BI 以将其数据流定义和数据文件存储在 Azure 数据湖存储第 2 代中配置应用工作区
 author: davidiseminger
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 12/10/2018
+ms.date: 04/02/2019
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: 8c17a7b4ad455077d383eaff9b35a5d1004fce11
-ms.sourcegitcommit: 80961ace38ff9dac6699f81fcee0f7d88a51edf4
-ms.translationtype: HT
+ms.openlocfilehash: 52ef3f57276e7f7560b9d7df7bc1be465d842eb3
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/13/2019
-ms.locfileid: "56223619"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61168442"
 ---
 # <a name="configure-workspace-dataflow-settings-preview"></a>配置工作区数据流设置（预览）
 
 使用 Power BI 和数据流时，可以在 Azure Data Lake Storage Gen2 中存储工作区的数据流定义文件和数据文件。 工作区管理员可以将 Power BI 配置为执行此操作，本文介绍了实现此目标所需的步骤。 
 
-公司的全局管理员必须将组织的存储帐户连接到 Power BI，并启用对该存储帐户的存储分配权限，之后你才可以配置工作区的数据流存储位置。 [连接 Azure Data Lake Storage Gen2 以存储数据流（预览）](service-dataflows-connect-azure-data-lake-storage-gen2.md) 
+公司的全局管理员必须将组织的存储帐户连接到 Power BI，并启用对该存储帐户的存储分配权限，之后你才可以配置工作区的数据流存储位置。 [连接 Azure Data Lake Storage Gen2 以存储数据流（预览）](service-dataflows-connect-azure-data-lake-storage-gen2.md)  
 
 有两种配置工作区数据流存储设置的方法： 
 
@@ -35,51 +35,48 @@ ms.locfileid: "56223619"
 
 ## <a name="create-a-new-workspace-configure-its-dataflow-storage"></a>创建新工作区，配置其数据流存储
 
-若要在 Power BI 服务中创建新应用工作区，请依次选择“工作区”>“创建应用工作区”。
+若要在 Power BI 服务中创建新应用工作区，请依次选择“工作区”>“创建应用工作区”  。
 
 ![添加新工作区](media/service-dataflows-configure-workspace-storage-settings/dataflow-storage-settings_01.jpg)
 
-在“创建应用工作区”对话框中，会出现标题为“预览改进的工作区”的黄色框。 在该区域中选择“立即试用”。
+在“创建应用工作区”对话框中，会出现标题为“预览改进的工作区”的黄色框。  在该区域中选择“立即试用”。 
 
 ![预览改进后的工作区](media/service-dataflows-configure-workspace-storage-settings/dataflow-storage-settings_02.jpg)
 
-可以在出现的对话框中为新工作区提供一个唯一的名称。 不要选择“保存”，因为还需要进行高级设置。
+可以在出现的对话框中为新工作区提供一个唯一的名称。 不要选择“保存”，因为还需要进行高级设置。 
 
 ![为新工作区命名](media/service-dataflows-configure-workspace-storage-settings/dataflow-storage-settings_03.jpg)
 
-接下来，展开“创建应用工作区”对话框的“高级”区域，可在该区域打开“数据流存储(预览)”设置。
+接下来，展开“创建应用工作区”对话框的“高级”区域，可在该区域打开“数据流存储(预览)”设置。   
 
 ![新工作区的“高级”设置](media/service-dataflows-configure-workspace-storage-settings/dataflow-storage-settings_04.jpg)
 
-选择“保存”，从而创建新工作区。 现在在此工作区中创建的任何新数据流都会将其定义文件（其 Model.json 文件）和数据存储在组织的 Azure Data Lake Storage Gen2 帐户中。 
-
-> [!NOTE]
-> 数据流功能处于预览状态，可能会在正式版推出前更改和更新。
+选择“保存”，从而创建新工作区。  现在在此工作区中创建的任何新数据流都会将其定义文件（其 Model.json 文件）和数据存储在组织的 Azure Data Lake Storage Gen2 帐户中。 
 
 ## <a name="update-dataflow-storage-for-an-existing-workspace"></a>更新现有工作区的数据流存储
 
 除创建新的工作区外，还可将现有的工作区更新为在组织的 Azure Data Lake Storage Gen2 帐户中存储定义文件和数据。 请注意，只有在工作区尚不包含工作流的情况下，才能更改工作区数据流存储设置。
 
-选择省略号 (...)，然后选择“编辑工作区”，来编辑应用工作区。 
+选择省略号 (...)，然后选择“编辑工作区”，来编辑应用工作区   。 
 
 ![编辑工作区](media/service-dataflows-configure-workspace-storage-settings/dataflow-storage-settings_05.jpg)
 
-在出现的“编辑工作区”窗口中，展开“高级”，然后将“数据流存储(预览)”设置转换为“打开”。 
+在出现的“编辑工作区”窗口中，展开“高级”，然后将“数据流存储(预览)”设置转换为“打开”。     
 
 ![打开数据流存储](media/service-dataflows-configure-workspace-storage-settings/dataflow-storage-settings_06.jpg)
 
-然后选择“保存”，这样在该工作区中创建的任何新数据流都会将其定义文件和数据存储在组织的 Azure Data Lake Storage Gen2 帐户中。
+然后选择“保存”，这样在该工作区中创建的任何新数据流都会将其定义文件和数据存储在组织的 Azure Data Lake Storage Gen2 帐户中。 
 
 
 ## <a name="get-the-uri-of-stored-dataflow-files"></a>获取已存储的数据流文件的 URI
 
-在分配给组织的 Azure Data Lake 帐户的工作区中创建数据流后，可以直接访问该数据流的定义文件和数据文件。 可在“数据流设置”页获取它们的位置。 若要转到此页，请按照下面的步骤操作：
+在分配给组织的 Azure Data Lake 帐户的工作区中创建数据流后，可以直接访问该数据流的定义文件和数据文件。 可在“数据流设置”页获取它们的位置。  若要转到此页，请按照下面的步骤操作：
 
-在工作区的“数据流”下，选择列出的某个数据流旁的省略号 (...)。 在显示的菜单中，选择“设置”。
+在工作区的“数据流”下，选择列出的某个数据流旁的省略号 (...)   。 在显示的菜单中，选择“设置”  。
 
 ![获取数据流文件的 URI](media/service-dataflows-configure-workspace-storage-settings/dataflow-storage-settings_07.jpg)
 
-在显示的信息中，“数据流存储位置”下会显示数据流的 CDM 文件夹位置，如下图所示。
+在显示的信息中，“数据流存储位置”下会显示数据流的 CDM 文件夹位置，如下图所示。 
 
 ![数据流文件的位置](media/service-dataflows-configure-workspace-storage-settings/dataflow-storage-settings_08.jpg)
 
@@ -93,7 +90,7 @@ ms.locfileid: "56223619"
 当数据流存储在 Azure Data Lake Storage Gen2 中时，不支持某些数据流功能： 
 
 Power BI Pro、Premium 和 Embedded 工作区：
-* “链接的实体”功能仅在同一存储帐户中的工作区之间受支持
+* “链接的实体”功能仅在同一存储帐户中的工作区之间受支持 
 * 工作区权限不适用于 Azure Data Lake Storage Gen2 中存储的数据流；仅数据流的所有者可以访问它。
 * 另外，所有数据准备功能与 Power BI 存储中存储的数据流的相应功能完全相同
 
@@ -104,7 +101,7 @@ Power BI Pro、Premium 和 Embedded 工作区：
 * 仅 Azure Data Lake Storage Gen2 中存储的数据流的所有者可以访问其数据。
 * 组织的 Azure Data Lake Storage Gen2 中存储的数据流不支持 Power BI 共享容量中的本地数据源。
 
-Power BI Desktop 客户无法访问存储在 Azure Data Lake Storage Gen2 帐户中的数据流，除非他们是数据流的所有者。 请考虑以下情况：
+ Power BI Desktop 客户无法访问存储在 Azure Data Lake Storage Gen2 帐户中的数据流，除非他们是数据流的所有者。 请考虑以下情况：
 
 1.  Anna 创建了一个新的应用工作区，并将其配置为存储组织 Data Lake 中的数据流。
 2.  Ben 也是 Anna 所创建工作区的成员，他希望利用 Power BI Desktop 和数据流连接器从 Anna 创建的数据流获取数据。
