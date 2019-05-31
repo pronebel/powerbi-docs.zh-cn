@@ -9,12 +9,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 11/26/2018
 ms.author: maikelson
-ms.openlocfilehash: 3a5a84bdb22996fc3b773a861a85e82985cd036c
-ms.sourcegitcommit: 69c31c15020e2707f961697eeb05cb550c9968f6
-ms.translationtype: HT
+ms.openlocfilehash: b0a6b3027e548becf56cc5f0d7036e35c9316cd4
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/20/2019
-ms.locfileid: "58220968"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "66187709"
 ---
 # <a name="power-bi-webinars"></a>Power BI 网络研讨会
 
@@ -22,9 +22,7 @@ ms.locfileid: "58220968"
 
 ## <a name="upcoming-webinars"></a>即将举行的网络研讨会
 
-**实现消费品制造商和零售商的双赢**
-<br>作者：Liz McCreesh
-<br>[立即注册](https://info.microsoft.com/Achieving-a-Win-Win-for-Consumer-Packaged-Goods-Manufacturers-and-Retailers-registration.html)
+尚无举办网络研讨会的计划。 请稍后再查看更多近期活动安排。
 
 >[Power BI 社区即将举行的网络研讨会](https://powerbi.microsoft.com/blog/tag/community-webinars/?Is=Website)
 
@@ -80,6 +78,10 @@ ms.locfileid: "58220968"
 <br>作者：Wim Coorevits 和 Enrique Plaza Garcia
 <br>[注册并立即观看](https://info.microsoft.com/Automate-Day-to-Day-Business-Processes-with-Power-BI-Power-Apps-and-Microsoft-Flow-OnDemandRegistration.html)
 
+**管理 Power BI Embedded 的最佳实践分析为多租户部署**
+<br>作者：Nimrod Shalit
+<br>[注册并立即观看](https://info.microsoft.com/ww-landing-PBI-webinar-Best-Practices-for-Managing-Power-BI-Embedded-video.html?LCID=EN-US)
+
 **Power BI：Analytics 一步到位**
 <br>作者：Gohul Shanmugalingam
 <br>[注册并立即观看](https://info.microsoft.com/CA-PowerBI-WBNR-FY19-11Nov-08-PowerBIAnalyticsDoneRight-MCW0008690_01Registration-ForminBody.html?Is=Website)
@@ -117,6 +119,10 @@ ms.locfileid: "58220968"
 <br>[立即观看](https://community.powerbi.com/t5/Webinars-and-Video-Gallery/Power-BI-Transforming-A-Report-From-Good-to-GREAT/m-p/315119?Is=Website)
 
 ### <a name="partners"></a>合作伙伴 ###
+
+**实现消费品制造商和零售商的双赢**
+<br>通过从 Thorogood Liz McCreesh
+<br>[注册并立即观看](https://info.microsoft.com/Achieving-a-Win-Win-for-Consumer-Packaged-Goods-Manufacturers-and-Retailers-registration.html)
 
 **借助 Power BI 将客户数据转化为零售成功**
 <br>作者：来自 Hitachi Solutions 的 Angad Soni

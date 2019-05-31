@@ -10,11 +10,11 @@ ms.subservice: powerbi-custom-visuals
 ms.topic: conceptual
 ms.date: 11/06/2018
 ms.openlocfilehash: cbda8cca80c32056f06788e53540d7f2d6ed972d
-ms.sourcegitcommit: d0abedcf07f964418c9e5ea8d8ee3338b0b97a50
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/09/2019
-ms.locfileid: "57695003"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61421762"
 ---
 # <a name="troubleshoot-power-bi-custom-visuals"></a>Power BI 自定义视觉对象疑难解答
 
@@ -24,9 +24,9 @@ ms.locfileid: "57695003"
 
 在终端的命令行运行 `pbiviz` 时，可以看到帮助屏幕。 如果未看到，则未正确安装。 请确保至少安装了 NodeJS 4.0。
 
-在“可视化效果”选项卡中找不到调试视觉对象
+在“可视化效果”选项卡中找不到调试视觉对象 
 
-在“可视化效果”选项卡中“调试视觉对象”看上去像一个提示图标。
+在“可视化效果”  选项卡中“调试视觉对象”看上去像一个提示图标。
 
 ![视觉对象选项](media/power-bi-custom-visuals-troubleshoot/powerbi-developer-visual-selection.png)
 
@@ -39,7 +39,7 @@ ms.locfileid: "57695003"
 
 在终端的命令行中从视觉对象项目的根目录使用命令 `pbiviz start` 运行视觉对象服务器。 如果服务器未运行，则可能是未正确安装 SSL 证书。
 
-请随时联系自定义视觉对象支持团队： *pbicvsupport@microsoft.com* 可咨询任何相关问题或提供反馈意见。
+请随时联系自定义视觉对象支持团队： *pbicvsupport@microsoft.com*  可咨询任何相关问题或提供反馈意见。
 
 ## <a name="next-steps"></a>后续步骤
 

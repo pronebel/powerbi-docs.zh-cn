@@ -11,10 +11,10 @@ ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Create reports
 ms.openlocfilehash: 153a77cdc7d4749ac450378723d04c82ef938de6
-ms.sourcegitcommit: 10a87c016f497dbeba32f94ed1f3688a70816fea
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/09/2019
+ms.lasthandoff: 05/29/2019
 ms.locfileid: "65514608"
 ---
 # <a name="report-view-in-power-bi-desktop"></a>Power BI Desktop 中的报表视图
@@ -29,7 +29,7 @@ Power BI Desktop 提供**报表视图**，可在其中创建任何数量具有�
 
 ![Power BI Desktop](media/desktop-report-view/pbi_reportviewinpbidesigner_reportview.png)
 
-通过选择左侧导航栏中的图标，可在报表视图、数据视图和关系视图之间切换：
+通过选择左侧导航栏中的图标，可在报表视图、数据视图和关系视图之间切换    ：
 
 ![报表视图图标](media/desktop-report-view/pbi_reportviewinpbidesigner_changeview.png)
 
@@ -37,14 +37,14 @@ Power BI Desktop 提供**报表视图**，可在其中创建任何数量具有�
 
 ![通过从“字段”窗格拖动来添加视觉对象](media/desktop-report-view/pbid_reportview_addvis.gif)
 
-要更改可视化对象的类型，可在功能区的“可视化”组中将其选中，或者右键单击并从“更改可视化类型”图标中另选一种类型。
+要更改可视化对象的类型，可在功能区的“可视化”组中将其选中，或者右键单击并从“更改可视化类型”图标中另选一种类型   。
 
 ![通过选择新视觉对象来更改视觉对象](media/desktop-report-view/pbid_reportview_changevis.gif)
 
 > [!TIP]
 > 请务必体验不同类型的可视化效果。 可视化对象要能清楚的传达数据中的信息，这一点非常重要。
 
-报表至少会提供一个可使用的空白页进行使用。 页面将显示在画布左侧的浏览器窗格中。 可向页面添加各种类型的可视化效果，但请不要过度添加。 如果页面上的可视化效果太多，将使其看起来杂乱，很难找到正确信息。 可以将新的页面添加到报表中。 只需单击功能区上的“新建页面”即可。
+报表至少会提供一个可使用的空白页进行使用。 页面将显示在画布左侧的浏览器窗格中。 可向页面添加各种类型的可视化效果，但请不要过度添加。 如果页面上的可视化效果太多，将使其看起来杂乱，很难找到正确信息。 可以将新的页面添加到报表中。 只需单击功能区上的“新建页面”即可。 
 
 ![新建页图标](media/desktop-report-view/pbidesignerreportviewnewpage.png)
 
@@ -72,19 +72,19 @@ Power BI Desktop 提供**报表视图**，可在其中创建任何数量具有�
 
 创建报表时，还可以隐藏报表中的页面。 如果需要在报表中创建基础数据或视觉对象，但你不希望这些页面对其他人可见时（例如创建在其他报表页中使用的表格或支持视觉对象时），此功能可能很有用。 还有许多其他富有新意的原因：你可能想要创建报表页，然后在要发布的报表中隐藏该报表页。 
 
-隐藏报表页的操作很简单。 只需右击报表页选项卡，然后在显示的菜单中选择“隐藏”。
+隐藏报表页的操作很简单。 只需右击报表页选项卡，然后在显示的菜单中选择“隐藏”  。
 
 ![隐藏页面选项](media/desktop-report-view/report-view_05.png)
 
 隐藏报表页时需要牢记以下几点注意事项：
 
-* 在 Power BI Desktop 中，即使页面标题变灰，仍然可以看见隐藏的报表视图。在下图中，第 4 页是隐藏的。
+* 在 Power BI Desktop  中，即使页面标题变灰，仍然可以看见隐藏的报表视图。在下图中，第 4 页是隐藏的。
 
     ![灰显隐藏的页面](media/desktop-report-view/report-view_06.png)
 
-* 查看 Power BI 服务中的报表时，无法查看隐藏的报表页。
+* 查看 Power BI 服务  中的报表时，无法  查看隐藏的报表页。
 
-* 隐藏报表页不是一种安全措施。 用户仍然可以访问该页面，并且仍可以使用钻取和其他方法访问页面的内容。
+* 隐藏报表页不  是一种安全措施。 用户仍然可以访问该页面，并且仍可以使用钻取和其他方法访问页面的内容。
 
 * 页面处于隐藏状态时，在视图模式下，不显示任何视图模式导航箭头。
 

@@ -11,11 +11,11 @@ ms.date: 01/16/2019
 ms.author: mihart
 LocalizationGroup: Share your work
 ms.openlocfilehash: a0cf919d184946b23cb9ebc4ddfc24e0652c64d7
-ms.sourcegitcommit: a054782370dec56d49bb205ee10b7e2018f22693
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/22/2019
-ms.locfileid: "56661827"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61064011"
 ---
 # <a name="install-and-use-apps-with-dashboards-and-reports-in-power-bi"></a>在 Power BI 中安装和使用包含仪表板和报表的应用
 现在，[基本了解应用](end-user-apps.md)后，让我们学习如何打开应用并与之交互。 
@@ -43,13 +43,13 @@ ms.locfileid: "56661827"
 ## <a name="get-the-app-from-microsoft-appsource"></a>从 Microsoft AppSource 获取应用
 还可以从 Microsoft AppSource 中查找并安装应用。 仅显示可以访问的应用（即应用作者向你或每个人授予了权限）。
 
-1. 依次选择“应用”![左侧导航窗格中的“应用”](./media/end-user-apps/power-bi-apps-bar.png) > “获取应用”。 
+1. 依次选择“应用”  ![左侧导航窗格中的“应用”](./media/end-user-apps/power-bi-apps-bar.png) > “获取应用”  。 
    
      ![“获取应用”图标](./media/end-user-app-view/power-bi-get-apps.png)
-2. 在 AppSource 的“我的组织”下，可以进行搜索以缩小结果范围，并查找所需的应用。
+2. 在 AppSource 的“我的组织”  下，可以进行搜索以缩小结果范围，并查找所需的应用。
    
      ![AppSource 中的“我的组织”下](./media/end-user-app-view/power-bi-appsource-my-org.png)
-3. 选择“立即获取”，将它添加到应用内容列表中。 
+3. 选择“立即获取”，将它添加到应用内容列表中  。 
 
 ## <a name="interact-with-the-dashboards-and-reports-in-the-app"></a>与应用中的仪表板和报表进行交互
 现在你可以浏览仪表板中的数据和应用中的报表。 有权执行所有标准 Power BI 交互，如筛选、突出显示、排序和向下钻取。 还可以从表或报表中的其他视觉对象[将数据导出到 Excel](end-user-export-data.md)。 阅读如何[与 Power BI 中的报表进行交互](end-user-reading-view.md)。 

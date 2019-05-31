@@ -9,12 +9,12 @@ ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 03/20/2018
 ms.author: mshenhav
-ms.openlocfilehash: b3f0232fdf377ba75a31f5057f1e094bf9fac39d
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
-ms.translationtype: HT
+ms.openlocfilehash: 8d48f7c42ac88f5a3b659bf4aff2ece65a2010e5
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54273584"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61342783"
 ---
 # <a name="annotate-and-share-a-tile-report-or-visual-in-power-bi-mobile-apps"></a>在 Power BI 移动应用中批注并共享磁贴、报表或视觉对象
 适用于：
@@ -29,7 +29,7 @@ ms.locfileid: "54273584"
 
 *具有批注的报表*
 
-如果邮件包含磁贴、报表或视觉对象的快照，则还包括指向 Power BI 服务 ([https://powerbi.com](https://powerbi.com)) 上实际对象的链接。 如果你和你的收件人都具有 Power BI Pro 许可证并且你已与他们共享磁贴、报表或视觉对象，或该内容位于[高级容量](../../service-premium.md)中，则收件人可以单击该链接并直接跳到共享项。 
+如果邮件包含磁贴、报表或视觉对象的快照，则还包括指向 Power BI 服务 ([https://powerbi.com](https://powerbi.com)) 上实际对象的链接。 如果你和你的收件人都具有 Power BI Pro 许可证并且你已与他们共享磁贴、报表或视觉对象，或该内容位于[高级容量](../../service-premium-what-is.md)中，则收件人可以单击该链接并直接跳到共享项。 
 
 还可以[共享适用于 Windows 10 设备的 Power BI 移动应用中的磁贴](mobile-windows-10-phone-app-get-started.md)，但不能批注。
 

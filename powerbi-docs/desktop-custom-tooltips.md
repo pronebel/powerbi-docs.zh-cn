@@ -7,25 +7,25 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 11/28/2018
+ms.date: 05/07/2019
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 5fc013df4526c62a9f2e1aa25328119983aaa30e
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
-ms.translationtype: HT
+ms.openlocfilehash: d5259ba22287a8a2ade3107e4320c39713dcb45e
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54278092"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "65239743"
 ---
 # <a name="customizing-tooltips-in-power-bi-desktop"></a>在 Power BI Desktop 中自定义工具提示
 工具提示是向视觉对象上的数据点提供更多上下文信息和详细信息的一种巧妙方法。 下图展示了应用到 Power BI Desktop 中的图表的工具提示。
 
 ![默认工具提示](media/desktop-custom-tooltips/custom-tooltips-1.png)
 
-创建可视化效果时，默认工具提示会显示数据点的值和类别。 很多能够自定义工具提示信息的实例都非常有用，并可向查看视觉对象的用户提供其他上下文和信息。 自定义工具提示可以指定显示为工具提示一部分的其他数据点。
+创建可视化效果时，默认工具提示会显示数据点的值和类别。 自定义工具提示信息很有用，并可以提供其他上下文和用户查看视觉对象的信息时，有多个实例。 自定义工具提示可以指定显示为工具提示一部分的其他数据点。
 
 ## <a name="how-to-customize-tooltips"></a>自定义工具提示的方式
-若要创建自定义工具提示，只需在**可视化效果**窗格的**字段**框中，将字段拖动到**工具提示**存储桶，如下图所示。 下图中，已将两个字段放入“工具提示”Bucket。
+若要在中创建自定义工具提示**字段**框的**可视化效果**窗格中将字段拖到**工具提示**存储桶，如下图中所示。 下图中，已将两个字段放入“工具提示”Bucket  。
 
 ![添加工具提示字段](media/desktop-custom-tooltips/custom-tooltips-2.png)
 
@@ -38,5 +38,5 @@ ms.locfileid: "54278092"
 
 ![通过快速计算编写工具提示](media/desktop-custom-tooltips/custom-tooltips-4.png)
 
-自定义**工具提示**的方法有很多，使用数据集中的任何可用字段都可向查看仪表板或报表的用户传达快速信息和见解。
+有很多种自定义**工具提示**，使用任何字段在数据集中，可用来传达快速信息和查看仪表板或报表的用户的见解。
 

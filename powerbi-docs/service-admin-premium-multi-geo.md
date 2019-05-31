@@ -1,8 +1,8 @@
 ---
 title: Power BI Premium 的 Multi-Geo 支持
 description: 了解如何将内容部署到除 Power BI 租户主区域以外区域的数据中心。
-author: minewiskan
-ms.author: owend
+author: mgblythe
+ms.author: mblythe
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
@@ -10,14 +10,14 @@ ms.subservice: powerbi-admin
 ms.topic: conceptual
 ms.date: 02/05/2019
 LocalizationGroup: Premium
-ms.openlocfilehash: dfa412e32c49e0b3de406f2665fcd9bd6d1a345e
-ms.sourcegitcommit: bd1f0178fd9df152f9e9be57da415829f42116e9
-ms.translationtype: HT
+ms.openlocfilehash: 7735ce3d6d28f51ca95efbe12394c2e0cb2cba29
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "57571970"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "65564947"
 ---
-# <a name="multi-geo-support-for-power-bi-premium"></a>Power BI Premium 的 Multi-Geo 支持
+# <a name="configure-multi-geo-support-for-power-bi-premium"></a>配置 Power BI Premium 的多地域支持
 
 Multi-Geo（多地理位置）是一项 Power BI Premium 功能，可帮助跨国客户解决地区、特定于行业或组织的数据驻留要求。 作为 Power BI Premium 客户，可以将内容部署到除 Power BI 租户主区域以外区域的数据中心。 一个地区 (geography) 可以包含多个区域。 例如，美国是一个地区，而美国中西部和美国中南部都是美国的区域。 可以选择将内容部署到以下任何地区：
 
@@ -35,9 +35,9 @@ Multi-Geo 不适用于 Power BI Germany、由世纪互联运营的 Power BI Chin
 
 Power BI Embedded 现在也提供 Multi-Geo 功能。 阅读[Power BI Embedded 中的 Multi-Geo 支持](developer/embedded-multi-geo.md)，了解详细信息。
 
-## <a name="using-multi-geo"></a>使用 Multi-Geo
+## <a name="enable-and-configure"></a>启用和配置
 
-对于新容量，可以通过从下拉列表中选择除默认区域以外的区域来启用 Multi-Geo。  每个可用容量显示它当前所在的区域，如美国中西部。
+对于新容量，可以通过从下拉列表中选择除默认区域以外的区域来启用 Multi-Geo。  每个可用容量显示它当前所在的区域，如美国中西部  。
 
 ![容量大小：选择一个区域。 Power BI Multi-Geo](media/service-admin-premium-multi-geo/power-bi-multi-geo-capacity-size.png)
 
@@ -98,7 +98,7 @@ Power BI Embedded 现在也提供 Multi-Geo 功能。 阅读[Power BI Embedded �
 
 ## <a name="next-steps"></a>后续步骤
 
-- [Power BI Premium：这是什么？](service-premium.md)
+- [什么是 Power BI Premium？](service-premium-what-is.md)
 - [Power BI Embedded 的 Multi-Geo 功能](developer/embedded-multi-geo.md)
 
 更多问题？ [尝试咨询 Power BI 社区](http://community.powerbi.com/)

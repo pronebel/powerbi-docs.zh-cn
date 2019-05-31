@@ -1,20 +1,20 @@
 ---
 title: 迁移报表服务器安装
 description: 了解如何将现有 SQL Server Reporting Services 实例迁移到 Power BI 报表服务器实例中。
-author: markingmyname
-ms.author: maghan
+author: maggiesMSFT
+ms.author: maggies
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 01/17/2019
-ms.openlocfilehash: 6c2ea78d4be7cd830c9f9e79da6575366b8de9a3
-ms.sourcegitcommit: 19b4d45db8f55cdbb5d7de0d61f6be5163a2852e
-ms.translationtype: HT
+ms.openlocfilehash: 01c87d425b1ada76e322af411188a4a2717562d0
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/22/2019
-ms.locfileid: "54420754"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "64770193"
 ---
 # <a name="migrate-a-report-server-installation"></a>迁移报表服务器安装
 
@@ -46,7 +46,7 @@ ms.locfileid: "54420754"
 * 安装 Power BI 报表服务器。 如果使用的硬件相同，可以在 SSRS 实例所在的同一服务器上安装 Power BI 报表服务器。 若要详细了解如何安装 Power BI 报表服务器，请参阅[安装 Power BI 报表服务器](install-report-server.md)。
 
 > [!NOTE]
-> Power BI 报表服务器的实例名称为 PBIRS。
+> Power BI 报表服务器的实例名称为 PBIRS  。
 
 * 使用报表服务器配置管理器配置报表服务器，并连接克隆的数据库。
 * 执行 SSRS（本机模式）实例所需的任何清除操作
@@ -59,7 +59,7 @@ ms.locfileid: "54420754"
 
 需要将特定的报表服务器内容从 SharePoint 迁移到 Power BI 报表服务器。 需要已在环境中的某个位置安装 Power BI 报表服务器。 若要详细了解如何安装 Power BI 报表服务器，请参阅[安装 Power BI 报表服务器](install-report-server.md)。
 
-如果要将报表服务器内容从 SharePoint 环境复制到 Power BI 报表服务器中，需要使用 rs.exe 等工具来复制内容。 下面的示例展示了用于将报表服务器内容从 SharePoint 复制到 Power BI 报表服务器的脚本。
+如果要将报表服务器内容从 SharePoint 环境复制到 Power BI 报表服务器中，需要使用 rs.exe 等工具来复制内容  。 下面的示例展示了用于将报表服务器内容从 SharePoint 复制到 Power BI 报表服务器的脚本。
 
 > [!NOTE]
 > 示例脚本应该会对 SharePoint 2010 及更高版本和 SQL Server 2008 Reporting Services 及更高版本产生不利影响。
@@ -86,10 +86,10 @@ rs.exe
 * 备份数据库、应用和配置文件
 * 备份加密密钥
 * 克隆托管报表的报表服务器数据库
-* 安装 Power BI 报表服务器。 无法在要从其迁移的 Power BI 报表服务器所在的同一服务器上安装 Power BI 报表服务器。 若要详细了解如何安装 Power BI 报表服务器，请参阅[安装 Power BI 报表服务器](install-report-server.md)。
+* 安装 Power BI 报表服务器。 无法在要从其迁移的 Power BI 报表服务器所在的同一服务器上安装 Power BI 报表服务器  。 若要详细了解如何安装 Power BI 报表服务器，请参阅[安装 Power BI 报表服务器](install-report-server.md)。
 
 > [!NOTE]
-> Power BI 报表服务器的实例名称为 PBIRS。
+> Power BI 报表服务器的实例名称为 PBIRS  。
 
 * 使用报表服务器配置管理器配置报表服务器，并连接克隆的数据库。
 * 执行旧版 Power BI 报表服务器安装所需的任何清除操作。

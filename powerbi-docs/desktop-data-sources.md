@@ -7,20 +7,20 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 02/13/2019
+ms.date: 05/15/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: da269e3bb025e8d53ee3bb7707f3bb78d592e011
-ms.sourcegitcommit: d010b10bc14097a1948daeffbc91b864bd91f7c8
-ms.translationtype: HT
+ms.openlocfilehash: f045e9076cdd8552d6e35e72b9c5f6e2319add68
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/13/2019
-ms.locfileid: "56225905"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "65853466"
 ---
 # <a name="data-sources-in-power-bi-desktop"></a>Power BI Desktop 中的数据源
 使用 Power BI Desktop，你可以连接到来自许多不同的源的数据。 在此页面底部列出了可用数据源的完整清单。
 
-若要连接到数据，请在**主页**功能区中选择 **获取数据**。 选择向下箭头，或按钮上的“获取数据”文本，将会显示最常见的数据类型菜单，如下图所示：
+若要连接到数据，请在**主页**功能区中选择 **获取数据**。 选择向下箭头，或按钮上的“获取数据”文本，将会显示最常见的数据类型菜单，如下图所示   ：
 
 ![在 Power BI Desktop 中获取数据](media/desktop-data-sources/data-sources_01.png)
 
@@ -29,7 +29,7 @@ ms.locfileid: "56225905"
 ![“获取数据”按钮](media/desktop-data-sources/data-sources_02.png)
 
 > [!NOTE]
-> Power BI 团队正在不断扩展适用于 Power BI Desktop 和 Power BI 服务的数据源。 因此，你通常会看到工作过程中的数据源版本标记为 *Beta* 或*预览*。 标记为 *Beta* 或*预览*的任何数据源所提供的支持和功能有限，不应在生产环境中使用。
+> Power BI 团队正在不断扩展适用于 Power BI Desktop  和 Power BI 服务  的数据源。 因此，你通常会看到工作过程中的数据源版本标记为 *Beta* 或*预览*。 标记为 *Beta* 或*预览*的任何数据源所提供的支持和功能有限，不应在生产环境中使用。
 
 ## <a name="data-sources"></a>数据源
 数据类型分为以下类别：
@@ -50,8 +50,8 @@ ms.locfileid: "56225905"
 * 文本/CSV
 * XML
 * JSON
-* Folder
-* PDF (Beta)
+* 文件夹
+* PDF
 * SharePoint 文件夹
 
 下图显示**文件**的**获取数据**窗口。
@@ -79,44 +79,47 @@ ms.locfileid: "56225905"
 * Google BigQuery
 * Vertica
 * Snowflake
-* Essbase (Beta)
-* Dremio
-* Exasol
-* MarkLogic (Beta)
+* Essbase
 * AtScale 多维数据集 (Beta)
 * BI 连接器
+* Dremio
+* Exasol
+* Indexima （beta 版本）
+* InterSystems 鸢尾花 （beta 版本）
 * Jethro (Beta)
 * Kyligence Enterprise (Beta)
+* MarkLogic (Beta)
 
 > [!NOTE]
-> 某些数据库连接器需要通过选择“文件”>“选项和设置”>“选项”，然后再选择“预览功能”才能启用。 如果你没有看到上面提到的某些连接器，但想使用它们，请检查“预览功能”设置。 另请注意，标记为 *Beta* 或*预览*的任何数据源所提供的支持和功能有限，不应在生产环境中使用。
+> 某些数据库连接器需要通过选择“文件”>“选项和设置”>“选项”，然后再选择“预览功能”才能启用   。 如果你没有看到上面提到的某些连接器，但想使用它们，请检查“预览功能”  设置。 另请注意，标记为 *Beta* 或*预览*的任何数据源所提供的支持和功能有限，不应在生产环境中使用。
 
 下图显示**数据库**的**获取数据**窗口。
 
 ![“获取数据”>“数据库”](media/desktop-data-sources/data-sources_04.png)
 
-“Power BI”类别提供下列数据连接：
+“Power BI”  类别提供下列数据连接：
 
 * Power BI 数据集
-* Power BI 数据流 (Beta)
+* Power BI 数据流
 
-下图显示 Power BI 的“获取数据”窗口。
+下图显示 Power BI  的“获取数据”  窗口。
 
 ![“获取数据”>“Power BI”](media/desktop-data-sources/data-sources_05.png)
 
 **Azure** 类别提供下列数据连接：
 
 * Azure SQL 数据库
-* Azure SQL Data Warehouse
+* Azure SQL 数据仓库
 * Azure Analysis Services 数据库
 * Azure Blob 存储
 * Azure 表存储
 * Azure Cosmos DB (Beta)
-* Azure Data Lake Storage
+* Azure Data Lake Storage Gen1
 * Azure HDInsight (HDFS)
 * Azure HDInsight Spark
 * HDInsight 交互式查询
-* Azure 数据资源管理器 (Beta)
+* Azure 数据资源管理器 (Kusto)
+* Azure 成本的管理 （beta 版本）
 
 下图显示 **Azure** 的**获取数据**窗口。
 
@@ -157,9 +160,10 @@ ms.locfileid: "56225905"
 * tyGraph (Beta)
 * Webtrends (Beta)
 * Zendesk (Beta)
-* TeamDesk (Beta)
 * Emigo 数据源 (Beta)
+* IndustrialAppStore （beta 版本）
 * Microsoft Graph Security (Beta)
+* TeamDesk (Beta)
 
 下图显示 **Online Services** 的**获取数据**窗口。
 
@@ -178,12 +182,16 @@ ms.locfileid: "56225905"
 * Python 脚本
 * ODBC
 * OLE DB
-* 工作人员维度 (Beta)
+* BI360-预算方面和财务报告 （beta 版本）
 * Denado
-* Paxata (Beta)
-* SurveyMonkey (Beta)
+* 信息网格 （beta 版本）
+* Paxata 
 * QubolePresto (Beta)
 * Quick Base (Beta)
+* Roamler （beta 版本）
+* SurveyMonkey (Beta)
+* Tenforce （beta 版本）
+* 工作人员维度 (Beta)
 * 空白查询
 
 下图显示**其他**的**获取数据**窗口。

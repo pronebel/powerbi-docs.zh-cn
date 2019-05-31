@@ -11,11 +11,11 @@ ms.subservice: powerbi-custom-visuals
 ms.custom: ''
 ms.date: 12/17/2018
 ms.openlocfilehash: 9c5d2665f012881f951a186c3ec8c9fd94031a28
-ms.sourcegitcommit: ac63b08a4085de35e1968fa90f2f49ea001b50c5
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/18/2019
-ms.locfileid: "57980349"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "60977193"
 ---
 # <a name="frequently-asked-questions-about-power-bi-custom-visuals"></a>有关 Power BI 自定义视觉对象的常见问题
 
@@ -24,7 +24,7 @@ ms.locfileid: "57980349"
 ### <a name="how-can-the-admin-manage-the-organizational-custom-visuals"></a>管理员如何管理组织的自定义视觉对象？
 
 在管理门户中的“组织的自定义视觉对象”选项卡下，管理员可以查看和[管理企业中所有组织的自定义视觉对象](service-admin-portal.md#organizational-visuals)：添加、禁用、启用和删除。
-无需再通过电子邮件或共享文件夹共享这些视觉对象！ 一旦将视觉对象部署到组织的存储库，组织中的用户便可以轻松发现它们，并直接从 Power BI Desktop 或 Power BI 服务将组织的自定义视觉对象导入其报表。 可以从“我的组织”选项卡下的内置存储（在桌面和服务中）中找到组织的自定义视觉对象。一旦管理员上传新的组织的自定义视觉对像的版本，组织中的每个人都将获得同一更新的版本。 报表作者无需删除其报表中的视觉对象以获取这些视觉对象的新版本，因为使用这些视觉对象的所有报表都将被自动更新！ 更新机制类似于市场视觉对象。
+无需再通过电子邮件或共享文件夹共享这些视觉对象！ 一旦将视觉对象部署到组织的存储库，组织中的用户便可以轻松发现它们，并直接从 Power BI Desktop 或 Power BI 服务将组织的自定义视觉对象导入其报表。 可以从“我的组织”选项卡下的内置存储（在桌面和服务中）中找到组织的自定义视觉对象  。一旦管理员上传新的组织的自定义视觉对像的版本，组织中的每个人都将获得同一更新的版本。 报表作者无需删除其报表中的视觉对象以获取这些视觉对象的新版本，因为使用这些视觉对象的所有报表都将被自动更新！ 更新机制类似于市场视觉对象。
 
 ### <a name="if-an-admin-uploads-a-custom-visual-from-the-public-marketplace-to-the-organization-store-is-it-automatically-updated-once-a-vendor-updates-the-visual-in-the-public-marketplace"></a>如果管理员将自定义视觉对象从公共市场上传到组织存储，当供应商在公共市场更新视觉对象后，它是否会被自动更新？
 
@@ -99,7 +99,7 @@ ms.locfileid: "57980349"
 
 ### <a name="what-is-a-visual-with-additional-purchases"></a>什么是额外付费的视觉对象？
 
-额外付费的视觉对象类似于市场中的应用内购买 (IAP) 加载项，这些加载项具有一个价格标记：“可能需要额外付费”。
+额外付费的视觉对象类似于市场中的应用内购买 (IAP) 加载项，这些加载项具有一个价格标记：“可能需要额外付费”  。
 
 IAP 自定义视觉对象是可免费下载的自定义视觉对象 - 用户无需付费即可从市场中下载这些自定义视觉对象。 IAP 视觉对象提供可选的应用内购买选项，可用于购买高级功能。  
 
@@ -123,7 +123,7 @@ IAP 自定义视觉对象取得认证后，视觉对象可以导出到 PowerPoin
 
 将 IAP 自定义视觉对象提交到市场的过程与提交免费视觉对象的过程相同。 都是通过卖家仪表板操作的。  提交过程的唯一差别是开发人员需要在卖家仪表板的开发人员注释中说明： “存在应用内付费的视觉对象”。 如果必须验证付费/高级功能，还需要提供许可证密钥/令牌。  
 
-卖家仪表板中没有新增选项：免费但存在应用内付费，需将 IAP 视觉对象提交为免费视觉对象。
+卖家仪表板中没有新增选项：免费但存在应用内付费，需将 IAP 视觉对象提交为免费视觉对象   。
 
 此外，需在你的商店里提供详细的描述，让用户知道哪些功能是免费的，哪些功能需要额外付费才能使用。  
 
@@ -149,7 +149,7 @@ IAP 自定义视觉对象取得认证后，视觉对象可以导出到 PowerPoin
 
 ### <a name="how-to-get-support"></a>如何获取支持？
 
-请随时联系自定义视觉对象支持团队：  *pbicvsupport@microsoft.com*  可咨询任何相关问题或提供反馈意见。  
+请随时联系自定义视觉对象支持团队：  *pbicvsupport@microsoft.com*   可咨询任何相关问题或提供反馈意见。  
 
 ## <a name="next-steps"></a>后续步骤
 

@@ -11,11 +11,11 @@ ms.date: 11/01/2018
 ms.author: mblythe
 LocalizationGroup: Administration
 ms.openlocfilehash: 635a64c08056e82539d33904d4cce60d4cfc00cd
-ms.sourcegitcommit: 20ae9e9ffab6328f575833be691073de2061a64d
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/22/2019
-ms.locfileid: "58382929"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61187914"
 ---
 # <a name="unable-to-add-power-bi-to-office-365-partner-subscription"></a>无法将 Power BI 添加到 Office 365 合作伙伴订阅
 
@@ -37,13 +37,13 @@ ms.locfileid: "58382929"
 
 1. 转到 [MIcrosoft 365 管理中心](https://admin.microsoft.com/AdminPortal/Home#/homepage)。
 
-1. 在左侧菜单中，打开“帐务”：
+1. 在左侧菜单中，打开“帐务”  ：
 
-    * 如果看到“订阅”，可以直接从 Microsoft 获取服务，也可以与提供 Power BI 的其他合作伙伴联系。
+    * 如果看到“订阅”  ，可以直接从 Microsoft 获取服务，也可以与提供 Power BI 的其他合作伙伴联系。
 
         ![“帐务”下有“订阅”](media/service-admin-syndication-partner/billingsub.png)
 
-    * 如果看不到“订阅”，便无法直接从 Microsoft 或其他合作伙伴处购买。
+    * 如果看不到“订阅”  ，便无法直接从 Microsoft 或其他合作伙伴处购买。
 
 如果合作伙伴不提供 Power BI，且你无法直接从 Microsoft 或其他合作伙伴处购买，请考虑注册免费试用版。
 
@@ -53,7 +53,7 @@ ms.locfileid: "58382929"
 
 ### <a name="enable-ad-hoc-subscriptions"></a>启用临时订阅
 
-默认情况下，个人注册（亦称为“临时订阅”）处于禁用状态。 在此情况下，如果尝试注册，会显示以下消息：你的 IT 部门已禁用注册 Microsoft Power BI。
+默认情况下，个人注册（亦称为“临时订阅”）处于禁用状态。 在此情况下，如果尝试注册，会显示以下消息：你的 IT 部门已禁用注册 Microsoft Power BI  。
 
 ![“抱歉...”图像](media/service-admin-syndication-partner/sorry.png)
 

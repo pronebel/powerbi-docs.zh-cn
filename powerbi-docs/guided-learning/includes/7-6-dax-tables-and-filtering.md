@@ -1,12 +1,12 @@
 ---
 ms.openlocfilehash: d7f30dd43fe875380939520f3dc54fcbbe2f4c9c
-ms.sourcegitcommit: 883a58f63e4978770db8bb1cc4630e7ff9caea9a
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "57555933"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61273190"
 ---
-**DAX** 和 Excel 公式语言的一个显著区别是 DAX 允许在表达式之间传递整个表，而不仅限于单个值。 DAX 的一项强大功能是允许你在其表达式中筛选表格，然后使用筛选的值集。
+**DAX** 和 Excel 公式语言的一个显著区别是 DAX 允许在表达式之间传递整个表  ，而不仅限于单个值。 DAX 的一项强大功能是允许你在其表达式中筛选表格，然后使用筛选的值集。
 
 ![](media/7-6-dax-tables-and-filtering/dax-tables-filtering_1.png)
 
@@ -29,7 +29,7 @@ DAX 提供一套丰富的**表**函数，包括：
 
 该表达式将筛选整个 *表* ，而忽略当前筛选的任何内容。
 
-DISTINCT 函数返回某一列的各个不同值，这些值在当前上下文中也可见。 因此，以上述 DAX 表达式为例，在表达式中使用“ALL”会忽略筛选，而使用“DISTINCT”替换“ALL”则可查看筛选。
+DISTINCT 函数返回某一列的各个不同值，这些值在当前上下文中也可见。 因此，以上述 DAX 表达式为例，在表达式中使用“ALL”会忽略筛选，而使用“DISTINCT”替换“ALL”则可查看筛选    。
 
 ## <a name="counting-values-with-dax"></a>使用 DAX 对值进行计数
 Power BI 报表生成人员想要回答的一个常见问题是：

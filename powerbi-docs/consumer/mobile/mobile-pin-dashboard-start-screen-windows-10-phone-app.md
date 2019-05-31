@@ -10,20 +10,20 @@ ms.topic: conceptual
 ms.date: 06/28/2018
 ms.author: mshenhav
 ms.openlocfilehash: b0a59e6a3d930bc8a0fa69507cae8e958c6175da
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54288557"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61063082"
 ---
 # <a name="pin-a-dashboard-to-your-windows-10-start-screen-from-the-power-bi-mobile-app"></a>从 Power BI 移动应用将仪表板固定到 Windows 10“开始”屏幕
-可以将 Power BI 仪表板从适用于 Windows 10 的 Power BI 移动应用固定到 Windows “开始”屏幕。 它们即变为动态磁贴。 如果点击“开始”屏幕中的磁贴，仪表板会在适用于 Windows 10 的 Power BI 移动应用中打开。
+可以将 Power BI 仪表板从适用于 Windows 10 的 Power BI 移动应用固定到 Windows “开始”屏幕。 它们即变为动态磁贴  。 如果点击“开始”屏幕中的磁贴，仪表板会在适用于 Windows 10 的 Power BI 移动应用中打开。
 
 ![Windows 动态磁贴](./media/mobile-pin-dashboard-start-screen-windows-10-phone-app/power-bi-windows-10-pin-start-screen.png)
 
 ## <a name="pin-a-dashboard-to-your-start-screen-as-a-live-tile"></a>将仪表板固定到“开始”屏幕以作为动态磁贴
 1. 打开仪表板。
-2. 点击“固定到“开始”屏幕” ![固定到“开始”屏幕图标](./media/mobile-pin-dashboard-start-screen-windows-10-phone-app/power-bi-windows-10-pin-start-icon.png)。
+2. 点击“固定到“开始”屏幕”  ![固定到“开始”屏幕图标](./media/mobile-pin-dashboard-start-screen-windows-10-phone-app/power-bi-windows-10-pin-start-icon.png)。
    
    ![Windows 10 移动应用上栏](./media/mobile-pin-dashboard-start-screen-windows-10-phone-app/power-bi-windows-10-pin-start.png)
    

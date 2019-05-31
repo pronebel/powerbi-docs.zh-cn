@@ -10,11 +10,11 @@ ms.topic: conceptual
 ms.date: 10/13/2017
 ms.author: mshenhav
 ms.openlocfilehash: a99d18d424421949ede9bacd5642235b04170659
-ms.sourcegitcommit: a36f82224e68fdd3489944c9c3c03a93e4068cc5
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/31/2019
-ms.locfileid: "55430892"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61338849"
 ---
 # <a name="explore-your-data-in-the-power-bi-mobile-app-on-your-apple-watch"></a>在 Apple Watch 上的 Power BI 移动应用中浏览数据
 Power BI Apple Watch 应用可以让你在手表上从 Power BI 仪表板查看 KPI 和卡磁贴。 KPI 和卡磁贴最适合在小屏幕上提供心跳测量。 可以从 iPhone 或 Watch 自身刷新仪表板。
@@ -29,7 +29,7 @@ Power BI Apple Watch 应用可以让你在手表上从 Power BI 仪表板查看 
 
 Power BI Apple Watch 应用由两部分组成。
 
-* “索引屏幕”允许快速浏览已同步的仪表板的所有 KPI 和卡磁贴。
+* “索引屏幕”  允许快速浏览已同步的仪表板的所有 KPI 和卡磁贴。
   
   ![Apple Watch](./media/mobile-apple-watch/pbi_aplwatch_indexscreen240.png)
 * **处于焦点的磁贴**：单击索引屏幕上的磁贴以深入查看某个特定磁贴。
@@ -52,7 +52,7 @@ Watch 应用会立即将仪表板与 Power BI 服务中的数据同步。
 还可以从 iPhone 刷新 Apple Watch 上的仪表板。
 
 1. 在 iPhone 上的 Power BI 中，打开你想要同步到 Apple Watch 的仪表板。 
-2. 选择省略号 (...) >“同步到 Watch”。
+2. 选择省略号 (...) >“同步到 Watch”  。
 
 Power BI 将显示仪表板已同步到手表的指示器。
 

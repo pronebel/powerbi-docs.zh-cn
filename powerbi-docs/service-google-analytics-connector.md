@@ -12,10 +12,10 @@ ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
 ms.openlocfilehash: ad2c67e73fe8afbd0f379c149181db56f12e9b17
-ms.sourcegitcommit: 10a87c016f497dbeba32f94ed1f3688a70816fea
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/09/2019
+ms.lasthandoff: 05/29/2019
 ms.locfileid: "65514379"
 ---
 # <a name="google-analytics-connector-for-power-bi-desktop"></a>适用于 Power BI Desktop 的 Google Analytics 连接器
@@ -25,7 +25,7 @@ ms.locfileid: "65514379"
 可以使用 **Google Analytics（分析）** 连接器连接 Google Analytics（分析）数据。 若要连接，请执行以下步骤：
 
 1. 在 **Power BI Desktop** 中，选择“**主页**”功能区选项卡中的“**获取数据**”。
-2. 在“获取数据”窗口中，从左侧窗格的类别中选择“联机服务”。
+2. 在“获取数据”  窗口中，从左侧窗格的类别中选择“联机服务”  。
 3. 从右侧窗格中的选择中选择 **Google Analytics**。
 4. 在窗口底部，选择**连接**。  
    ![](media/service-google-analytics-connector/tps_googleanalytics_1.png)

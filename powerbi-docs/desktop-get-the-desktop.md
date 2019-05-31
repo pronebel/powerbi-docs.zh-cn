@@ -11,21 +11,21 @@ ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Get started
 ms.openlocfilehash: 5e5d143c21ad726e7cdb8a4bc99903238916bb64
-ms.sourcegitcommit: 2116af72f435cd30f1401bb9c7afdcbc76b1c3ce
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/09/2019
+ms.lasthandoff: 05/29/2019
 ms.locfileid: "65454528"
 ---
 # <a name="get-power-bi-desktop"></a>获取 Power BI Desktop
-**Power BI Desktop** 允许用户生成高级查询、模型和实现数据可视化效果的报表。 通过 Power BI Desktop，可以生成数据模型、创建报表，并通过发布到 Power BI 服务共享工作。  **Power BI Desktop** 可免费下载。
+**Power BI Desktop** 允许用户生成高级查询、模型和实现数据可视化效果的报表。 通过 Power BI Desktop  ，可以生成数据模型、创建报表，并通过发布到 Power BI 服务共享工作。  **Power BI Desktop** 可免费下载。
 
-可以通过两种方法获取 Power BI Desktop，以下部分将介绍这两种方法：
+可以通过两种方法获取 Power BI Desktop  ，以下部分将介绍这两种方法：
 
-* 直接下载（在计算机上下载并安装 MSI 包）
+* 直接下载  （在计算机上下载并安装 MSI 包）
 * 作为 **Microsoft Store** 的应用安装
 
-这两种方法都会将最新版本的 Power BI Desktop获取到计算机上，但值得注意的是这两种方法存在一些区别，以下部分将具体介绍。
+这两种方法都会将最新版本的 Power BI Desktop  获取到计算机上，但值得注意的是这两种方法存在一些区别，以下部分将具体介绍。
 
 ## <a name="download-power-bi-desktop"></a>下载 Power BI Desktop
 若要下载最新版 **Power BI Desktop**，可以依次选择 Power BI 服务右上角的下载图标和“**Power BI Desktop**”。
@@ -47,44 +47,44 @@ ms.locfileid: "65454528"
 ![](media/desktop-get-the-desktop/designer_gsg_install.png)
 
 > [!NOTE]
-> 不支持在同一台计算机上安装下载的 (MSI) 版本和 Microsoft Store 版本的 Power BI Desktop（有时称为“并行”安装）。
+> 不支持在同一台计算机上安装下载的 (MSI) 版本和 Microsoft Store  版本的 Power BI Desktop  （有时称为“并行”  安装）。
 > 
 > 
 
 ## <a name="install-as-an-app-from-the-microsoft-store"></a>作为 Microsoft Store 的应用安装
-还可以使用以下链接从 Microsoft Store 获取 Power BI Desktop：
+还可以使用以下链接从 Microsoft Store 获取 Power BI Desktop  ：
 
-* [通过 Microsoft Store 安装 Power BI Desktop](http://aka.ms/pbidesktopstore)
+* [通过 Microsoft Store  安装 Power BI Desktop  ](http://aka.ms/pbidesktopstore)
 
 ![](media/desktop-get-the-desktop/getpbid_04.png)
 
-从 Microsoft Store 获取 Power BI Desktop 有以下几个优点：
+从 Microsoft Store 获取 Power BI Desktop  有以下几个优点：
 
 * **自动更新** - Windows 自动在后台下载已发布的最新版本，以便始终可以不断更新版本。
-* **较小下载** - Microsoft Store 可确保只将每次更新中更改的组件下载到计算机，从而减少每次更新的下载量。
-* 不需要管理员权限 - 直接下载 MSI 并安装后，必须成为管理员才能成功完成安装。 如果从 Microsoft Store 获取 Power BI Desktop，则不需要管理员权限。
-* **已启用 IT 推出** - 可更轻松地部署 Microsoft Store 版本，或向组织中的所有人推出版本，并可通过适用于企业的 Microsoft Store 提供 Power BI Desktop。
-* **语言检测** - Microsoft Store 版本包括所有受支持的语言，并在每次启动计算机时查看所使用的语言。 这还会影响 Power BI Desktop 中创建的模型的本地化；例如，内置日期层次结构将匹配创建 .pbix 文件时 Power BI Desktop 所使用的语言。
+* **较小下载** - Microsoft Store  可确保只将每次更新中更改的组件下载到计算机，从而减少每次更新的下载量。
+*  不需要管理员权限 - 直接下载 MSI 并安装后，必须成为管理员才能成功完成安装。 如果从 Microsoft Store 获取 Power BI Desktop，则不需要管理员权限   。
+* **已启用 IT 推出** - 可更轻松地部署 Microsoft Store  版本，或向组织中的所有人推出  版本，并可通过适用于企业的 Microsoft Store  提供 Power BI Desktop  。
+* **语言检测** - Microsoft Store  版本包括所有受支持的语言，并在每次启动计算机时查看所使用的语言。 这还会影响 Power BI Desktop  中创建的模型的本地化；例如，内置日期层次结构将匹配创建 .pbix 文件时 Power BI Desktop  所使用的语言。
 
-从 Microsoft Store 安装 Power BI Desktop 时，需要注意以下几个注意事项和限制：
+从 Microsoft Store 安装 Power BI Desktop  时，需要注意以下几个注意事项和限制：
 
-* 如果使用 SAP 连接器，可能需要将 SAP 驱动程序文件移动到 Windows\System32 文件夹。
-* 通过 Microsoft Store 安装 Power BI Desktop 的过程不从 MSI 版本复制用户设置。 可能需要重新连接到最新数据源并重新输入数据源凭据。 
+* 如果使用 SAP 连接器，可能需要将 SAP 驱动程序文件移动到 Windows\System32  文件夹。
+* 通过 Microsoft Store 安装 Power BI Desktop  的过程不从 MSI 版本复制用户设置。 可能需要重新连接到最新数据源并重新输入数据源凭据。 
 
 > [!NOTE]
-> 不支持在同一台计算机上安装下载的 (MSI) 版本和 Microsoft Store 版本的 Power BI Desktop（有时称为“并行”安装）。 应先手动卸载 Power BI Desktop，然后再从 Microsoft Store 下载它
+> 不支持在同一台计算机上安装下载的 (MSI) 版本和 Microsoft Store  版本的 Power BI Desktop  （有时称为“并行”  安装）。 应先手动卸载 Power BI Desktop  ，然后再从 Microsoft Store  下载它
 > 
 > [!NOTE]
-> Power BI 报表服务器版本 Power BI Desktop 与本文中介绍的版本分开安装，并且安装步骤也不同。 若要了解 Power BI Desktop 的报表服务器版本，请参阅[创建 Power BI 报表服务器的 Power BI 报表](report-server/quickstart-create-powerbi-report.md)一文。
+> Power BI 报表服务器版本 Power BI Desktop  与本文中介绍的版本分开安装，并且安装步骤也不同。 若要了解 Power BI Desktop  的报表服务器版本，请参阅[创建 Power BI 报表服务器的 Power BI 报表](report-server/quickstart-create-powerbi-report.md)一文。
 > 
 > 
 
 ## <a name="using-power-bi-desktop"></a>使用 Power BI Desktop
-启动 **Power BI Desktop** 时，将显示欢迎屏幕。
+启动 **Power BI Desktop** 时，将显示欢迎屏幕。 
 
 ![](media/desktop-get-the-desktop/getpbid_05.png)
 
-如果用户是首次使用 Power BI Desktop（如果安装不是为了升级），系统会提示填写表单，并回答几道问题，或提示必须先登录 Power BI 服务，然后才能继续操作。
+如果用户是首次使用 Power BI Desktop  （如果安装不是为了升级），系统会提示填写表单，并回答几道问题，或提示必须先登录 Power BI 服务  ，然后才能继续操作。
 
 你可以在此处开始创建数据模型或报表，然后在 Power BI 服务上与他人共享。 请查看文末的**详细信息**链接，以链接到可帮助你开始使用 **Power BI Desktop** 的指南。
 
@@ -96,7 +96,7 @@ ms.locfileid: "65454528"
 * Internet Explorer 9 或更高版本
 * **内存 (RAM)：** 可用内存至少为 1 GB，建议为 1.5 GB 或以上。
 * **显示器：** 建议分辨率至少为 1440x900 或 1600x900 (16:9)。 不建议使用如 1024x768 或 1280x800 等较低分辨率，原因是某些控件（如关闭启动屏幕）需要更高的分辨率才能显示。
-* **Windows 显示设置：** 如果将显示设置设为将文本、应用和其他项的大小更改为大于 100%，可能看不到某些必须先关闭或响应才能继续使用 Power BI Desktop 的对话框。 如果遇到此问题，请在 Windows 中依次转到“设置”>“系统”>“显示”，检查“显示设置”，再使用滑块将显示设置恢复为 100%。
+* **Windows 显示设置：** 如果将显示设置设为将文本、应用和其他项的大小更改为大于 100%，可能看不到某些必须先关闭或响应才能继续使用 Power BI Desktop  的对话框。 如果遇到此问题，请在 Windows 中依次转到“设置”>“系统”>“显示”  ，检查“显示设置”  ，再使用滑块将显示设置恢复为 100%。
 * **CPU：** 建议为 1 千兆赫 (GHz) 或更快的 x86 或 x64 位处理器。
 
 ## <a name="considerations-and-limitations"></a>注意事项和限制
@@ -105,7 +105,7 @@ ms.locfileid: "65454528"
 
 ### <a name="issues-when-using-previous-releases-of-power-bi-desktop"></a>无法使用旧版 Power BI Desktop
 
-一些用户在使用 Power BI Desktop 的过时版本时遇到类似以下错误： 
+一些用户在使用 Power BI Desktop 的过时版本时遇到类似以下错误  ： 
 
     "We weren't able to restore the saved database to the model" 
 
@@ -114,9 +114,9 @@ ms.locfileid: "65454528"
 ### <a name="disabling-notifications"></a>禁用通知
 建议更新到最新版 Power BI Desktop，以利用功能、性能、稳定性和其他改进方面的进步优势。 一些组织可能不希望用户更新到每个新版本。 若要禁用通知，可按以下步骤操作来修改注册表：
 
-1. 使用注册表编辑器转到 HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Microsoft Power BI Desktop
+1. 使用注册表编辑器转到 HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Microsoft Power BI Desktop 
 2. 使用以下设置创建新条目：REG_DWORD :*DisableUpdateNotification*
-3. 将新条目的值设置为“1”。
+3. 将新条目的值设置为“1”  。
 
 必须重启计算机，更改才能生效。
 
@@ -124,8 +124,8 @@ ms.locfileid: "65454528"
 
 在某些情况下（包括特定屏幕分辨率配置），一些用户可能会发现 Power BI Desktop 呈现的内容包含大块黑色区域。 这通常是由于最新操作系统更新所致（它们影响了项的呈现方式），并不是 Power BI Desktop 内容呈现方式的直接结果。 无论如何，大块黑色区域并不像优质视觉对象那样有吸引力，因此，请按以下步骤操作来解决此问题：
 
-1. 按“开始”键，再在随即显示的搜索栏中键入“模糊”一词。
-2. 在出现的对话框中，选择选项：让 Windows 修复模糊应用。
+1. 按“开始”键，再在随即显示的搜索栏中键入“模糊”  一词。
+2. 在出现的对话框中，选择选项：让 Windows 修复模糊应用。 
 3. 重启 Power BI Desktop。
 
 在后续 Windows 更新发布后，此问题可能就会得到解决。 

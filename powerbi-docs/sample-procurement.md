@@ -11,11 +11,11 @@ ms.date: 06/23/2018
 ms.author: maggies
 LocalizationGroup: Samples
 ms.openlocfilehash: 18b99bf86f49f1355d4ab9f20ff6e8a83c89731d
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54287339"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61233561"
 ---
 # <a name="procurement-analysis-sample-for-power-bi-take-a-tour"></a>Power BI 的采购分析示例：参观
 
@@ -43,7 +43,7 @@ ms.locfileid: "54287339"
 3. 在显示的“获取数据”页上选择“**示例**”图标。
    
    ![](media/sample-datasets/power-bi-samples-icon.png)
-4. 依次选择“采购分析示例”和“连接”。  
+4. 依次选择“采购分析示例”  和“连接”  。  
   
    ![获取数据](media/sample-procurement/procurement1a.png)
    
@@ -58,22 +58,22 @@ ms.locfileid: "54287339"
  * [采购分析示例](http://download.microsoft.com/download/D/5/3/D5390069-F723-413B-8D27-5888500516EB/Procurement%20Analysis%20Sample%20PBIX.pbix)
 
 ### <a name="get-the-excel-workbook-for-this-sample"></a>获取 Excel 工作簿形式的此示例
-还可以针对此示例[仅下载该数据集（Excel 工作簿）](http://go.microsoft.com/fwlink/?LinkId=529784)。 该工作簿包含你可以查看和修改的 Power View 工作表。 若要查看原始数据，请选择“Power Pivot”>“管理”。
+还可以针对此示例[仅下载该数据集（Excel 工作簿）](http://go.microsoft.com/fwlink/?LinkId=529784)。 该工作簿包含你可以查看和修改的 Power View 工作表。 若要查看原始数据，请选择“Power Pivot”>“管理”  。
 
 
 ## <a name="spending-trends"></a>支出趋势
 我们先来看按类别和位置划分的支出趋势。  
 
-1. 在工作区中，打开“仪表板”选项卡并选择“采购分析”仪表板。
+1. 在工作区中，打开“仪表板”  选项卡并选择“采购分析”仪表板。
 2. 选择仪表板磁贴**按国家/地区划分的发票总计**。 它会打开“采购分析示例”报表的“支出概况”页面。
 
     ![](media/sample-procurement/procurement2.png)
 
 请注意下列事项：
 
-* 在“按月份和类别划分的发票总计”折线图中：“直接”类别的支出相当一致，“物流”的支出高峰在十二月，而“其他”支出在二月有所激增。
-* 在“按国家/地区划分的发票总计”地图中：我们的大部分支出都在美国。
-* 在“按子类别划分的发票总计”柱形图中：“硬件”和“间接商品与服务”是最大的支出类别。
+* 在“按月份和类别划分的发票总计”  折线图中：  “直接”类别的支出相当一致，  “物流”的支出高峰在十二月，而  “其他”支出在二月有所激增。
+* 在  “按国家/地区划分的发票总计”地图中：我们的大部分支出都在美国。
+* 在  “按子类别划分的发票总计”柱形图中：  “硬件”和  “间接商品与服务”是最大的支出类别。
 * 在“按层级划分的发票总计”条形图中：我们的大多数业务都是通过我们的第 1 层级（前 10 名）供应商完成的。 这有助于更妥善地管理供应商关系。
 
 ## <a name="spending-in-mexico"></a>墨西哥的支出
@@ -95,7 +95,7 @@ ms.locfileid: "54287339"
       ![](media/sample-procurement/pbi_procsample_drill_mexico.png)
 3. 选择图表左上角的向上箭头，以重新向上钻取。
 4. 再次选择该箭头，即可关闭向下钻取。  
-5. 在顶部导航栏中选择“Power BI”以返回到工作区。
+5. 在顶部导航栏中选择“Power BI”  以返回到工作区。
 
 ## <a name="evaluate-different-cities"></a>评估不同的城市
 我们可以使用突出显示来评估不同的城市。

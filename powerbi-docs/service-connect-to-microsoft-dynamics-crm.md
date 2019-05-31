@@ -11,18 +11,18 @@ ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
 ms.openlocfilehash: 465e54c811691a7149dfff03d48bec797474ca66
-ms.sourcegitcommit: 750f0bfab02af24c8c72e6e9bbdd876e4a7399de
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/04/2019
-ms.locfileid: "54008801"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61189812"
 ---
 # <a name="connect-to-microsoft-dynamics-crm-with-power-bi"></a>使用 Power BI 连接到 Microsoft Dynamics CRM
 用于 Power BI 的 Microsoft Dynamics CRM Online 使你能够轻松地访问和分析数据。 Power BI 使用 OData 数据源以创建描述性模型，其中具有所需的所有实体和度量值，如帐户、活动、商机、产品、潜在客户、用户等。 安装应用后，可以在 Power BI 服务 ([https://powerbi.com](https://powerbi.com)) 和 Power BI 移动应用中查看仪表板和报表。 
 
 连接到 Dynamics CRM Online[销售经理](https://msit.powerbi.com/groups/me/getdata/services/dynamics-crm-sales-manager)或[服务管理器](https://msit.powerbi.com/groups/me/getdata/services/dynamics-crm-customer-service)。 阅读有关使用 Power BI 与 [Dynamics CRM Online 集成](https://powerbi.microsoft.com/integrations/microsoft-dynamicscrm)的详细信息。
 
-此连接需要 Microsoft Dynamics CRM Online 2016 或更高版本。 以下是有关[要求](#Requirements)的详细信息。
+此连接需要 Microsoft Dynamics CRM Online 2016 或更高版本  。 以下是有关[要求](#Requirements)的详细信息。
 
 ## <a name="how-to-connect"></a>如何连接
 [!INCLUDE [powerbi-service-apps-get-more-apps](./includes/powerbi-service-apps-get-more-apps.md)]

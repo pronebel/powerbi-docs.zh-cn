@@ -11,11 +11,11 @@ ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
 ms.openlocfilehash: 1166808dc827448f94bb84cc37bf4000df178c1d
-ms.sourcegitcommit: 750f0bfab02af24c8c72e6e9bbdd876e4a7399de
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/04/2019
-ms.locfileid: "54008663"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61137673"
 ---
 # <a name="connect-to-webtrends-with-power-bi"></a>使用 Power BI 连接到 Webtrends
 适用于 Power BI 的 Webtrends 内容包包括各种现成指标，如（按流量源）网页浏览总数和访问总数。 首先通过连接到 Webtrends 帐户将 Power BI 中的 Webtrends 数据可视化。 可以使用提供的仪表板和报表，或自定义它们以突出显示你最关注的信息。  此数据将每天自动刷新一次。
@@ -47,7 +47,7 @@ ms.locfileid: "54008663"
 * 尝试在仪表板顶部的[在“问答”框中提问](consumer/end-user-q-and-a.md)
 * 在仪表板中[更改磁贴](service-dashboard-edit-tile.md)。
 * [选择磁贴](consumer/end-user-tiles.md)以打开基础报表。
-* 虽然数据集将按计划每日刷新，但你可以更改刷新计划或根据需要使用“立即刷新”来尝试刷新
+* 虽然数据集将按计划每日刷新，但你可以更改刷新计划或根据需要使用“立即刷新”  来尝试刷新
 
 ## <a name="whats-included"></a>包含的内容
 <a name="Included"></a>

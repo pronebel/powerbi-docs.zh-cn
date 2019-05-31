@@ -11,11 +11,11 @@ ms.date: 08/06/2018
 ms.author: maggies
 LocalizationGroup: Samples
 ms.openlocfilehash: 3ef48bbe55793825693382252ac143068549d7a8
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54292962"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61238216"
 ---
 # <a name="supplier-quality-analysis-sample-for-power-bi-take-a-tour"></a>Power BI 的供应商质量分析示例：参观
 
@@ -44,7 +44,7 @@ ms.locfileid: "54292962"
 3. 在显示的“获取数据”页上选择“**示例**”图标。
    
    ![](media/sample-datasets/power-bi-samples-icon.png)
-4. 依次选择“供应商质量分析示例”和“连接”。  
+4. 依次选择“供应商质量分析示例”  和“连接”  。  
   
    ![供应商质量分析示例](media/sample-supplier-quality/supplier16.png)
    
@@ -59,7 +59,7 @@ ms.locfileid: "54292962"
  * [供应商质量分析示例 PBIX](http://download.microsoft.com/download/8/C/6/8C661638-C102-4C04-992E-9EA56A5D319B/Supplier-Quality-Analysis-Sample-PBIX.pbix)
 
 ### <a name="get-the-excel-workbook-for-this-sample"></a>获取 Excel 工作簿形式的此示例
-还可以针对此示例[仅下载该数据集（Excel 工作簿）](http://go.microsoft.com/fwlink/?LinkId=529779)。 该工作簿包含你可以查看和修改的 Power View 工作表。 若要查看原始数据，请选择“Power Pivot”>“管理”。
+还可以针对此示例[仅下载该数据集（Excel 工作簿）](http://go.microsoft.com/fwlink/?LinkId=529779)。 该工作簿包含你可以查看和修改的 Power View 工作表。 若要查看原始数据，请选择“Power Pivot”>“管理”  。
 
 
 ## <a name="downtime-caused-by-defective-materials"></a>用料瑕疵所造成的停工时间
@@ -89,7 +89,7 @@ ms.locfileid: "54292962"
     ![](media/sample-supplier-quality/supplier5.png)  
 
    从此树状图中，我们可以看到前八个供应商是树状图左侧的八个区块。 我们也可以看到它们应为约 50% 的停工时间总分钟数承担责任。  
-3. 在顶部导航栏中选择“供应商质量分析示例”，返回到仪表板。
+3. 在顶部导航栏中选择“供应商质量分析示例”  ，返回到仪表板。
 
 ### <a name="comparing-plants"></a>工厂比较
 现在让我们来探索哪些工厂在管理瑕疵用料方面表现较佳，从而缩短了停工时间。  
@@ -107,7 +107,7 @@ ms.locfileid: "54292962"
 3. 在气泡图中选择“物流”气泡，并观察伊利诺斯州斯普林菲尔德市和内伯威尔市的工厂。 内伯威尔市似乎在管理瑕疵供货方面做得更好，因为它的退货量较高，影响量也较小，而斯普林菲尔德市的影响量就较大。  
 
    ![](media/sample-supplier-quality/supplier8.png)  
-4. 在顶部导航栏中选择“供应商质量分析示例”，返回到活动工作区。
+4. 在顶部导航栏中选择“供应商质量分析示例”  ，返回到活动工作区。
 
 ## <a name="which-material-type-is-best-managed"></a>哪种类型的用料管理最佳？
 管理最佳的用料类型是指无论瑕疵品数量如何，都具有最低的停工时间或不造成任何影响的类型。
@@ -127,12 +127,12 @@ ms.locfileid: "54292962"
 很显然，原料受到妥善管理：它们的瑕疵品虽然更多，但停工时间总分钟数较低。
 
 ### <a name="compare-defects-to-downtime-by-year"></a>按年份比较瑕疵品与停工时间的关系
-1. 选择“按工厂和瑕疵类型划分的总瑕疵报表”地图图块，将报表打开至第一个报表页面“供应商质量”。
+1. 选择“按工厂和瑕疵类型划分的总瑕疵报表”  地图图块，将报表打开至第一个报表页面“供应商质量”。
 2. 请注意，2014 年的**瑕疵品数量**比 2013 年高。  
 
     ![](media/sample-supplier-quality/supplier11.png)  
 3. 瑕疵品多代表停工时间一定也更多吗？ 我们可以在“问答”框中提问以找出答案。  
-4. 在顶部导航栏中选择“供应商质量分析示例”，返回到仪表板。  
+4. 在顶部导航栏中选择“供应商质量分析示例”  ，返回到仪表板。  
 5. 既然我们知道“原料”具有最高数量的瑕疵品，可在问题框中键入“显示用料类型、年份和瑕疵品总数”。  
 
     2014 年的原料瑕疵品数量比 2013 年高很多。  

@@ -1,3 +1,11 @@
+---
+ms.openlocfilehash: b7f2dbd4fa58e86598c0258c432d31cf2f775ecf
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61260087"
+---
 让我们快速回顾一下我们在此第一部分中涵盖的内容。
 
 **Power BI** 是软件服务、应用和连接器的集合，它们协同工作以将你的数据转换为交互式见解。 你可使用单一基本源（如 Excel 工作簿）中的数据，或从多个数据库和云源提取数据以创建复杂数据集和报表。 Power BI 可如你想要的那么简单，或者可如你的复杂全局业务所要求的企业级就绪。

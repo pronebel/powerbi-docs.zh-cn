@@ -1,3 +1,11 @@
+---
+ms.openlocfilehash: 4a9d873632853a69c835d7326653102107dd239f
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61263042"
+---
 借助 Power BI，可以添加你为使用仪表板自然语言查询框（通常称为**问答**框）的其他用户提供的建议问题。 用户单击仪表板顶部的输入框时，就会看到这些建议问题。
 
 ![](media/4-3a-suggested-questions/4-3a_1.png)

@@ -1,20 +1,20 @@
 ---
 title: 配置 Kerberos 以使用 Power BI 报表
 description: 了解如何将报表服务器配置为对在分布式环境的 Power BI 报表中使用的数据源进行 Kerberos 身份验证。
-author: markingmyname
+author: maggiesMSFT
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 11/01/2017
-ms.author: maghan
-ms.openlocfilehash: 5342f509fdd0705b2752aab3315a4968d610b681
-ms.sourcegitcommit: 80961ace38ff9dac6699f81fcee0f7d88a51edf4
-ms.translationtype: HT
+ms.author: maggies
+ms.openlocfilehash: 63bf5653ddf17097a44113324011951734f6d13c
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/13/2019
-ms.locfileid: "56223757"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "64770707"
 ---
 # <a name="configure-kerberos-to-use-power-bi-reports"></a>配置 Kerberos 以使用 Power BI 报表
 <iframe width="640" height="360" src="https://www.youtube.com/embed/vCH8Fa3OpQ0?showinfo=0" frameborder="0" allowfullscreen></iframe>
@@ -57,9 +57,9 @@ Power BI 报表服务器提供 Power BI 报表托管功能。 报表服务器可
 5. 报表服务器服务帐户上的委派设置。
 
 ## <a name="authentication-type-within-report-server-configuration"></a>报表服务器配置中的身份验证类型
-我们需要将报表服务器的身份验证类型配置为允许 Kerberos 约束委派。 此操作在 rsreportserver.config 文件中完成。 此文件的默认位置是 `C:\Program Files\Microsoft Power BI Report Server\PBIRS\ReportServer`。
+我们需要将报表服务器的身份验证类型配置为允许 Kerberos 约束委派。 此操作在 rsreportserver.config  文件中完成。 此文件的默认位置是 `C:\Program Files\Microsoft Power BI Report Server\PBIRS\ReportServer`。
 
-在 rsreportserver.config 文件中，需要微调“Authentication/AuthenticationTypes”部分。
+在 rsreportserver.config 文件中，需要微调“Authentication/AuthenticationTypes”  部分。
 
 我们需要确保 RSWindowsNegotiate 被列为身份验证类型列表中的第一个类型。 它应类似于下面这样。
 
@@ -187,24 +187,24 @@ SPN 的放置也类似于 Power BI 报表服务器 SPN 的放置。 不同之处
 
 我们将要通过协议传输来配置约束委派。 使用约束委派时，需要明确要委派哪些服务。 我们将把 Analysis Services 服务 SPN 和 SQL Browser SPN 添加到 Power BI 报表服务器可以委派的列表中。
 
-1. 右键单击报表服务器服务帐户，然后选择“属性”。
+1. 右键单击报表服务器服务帐户，然后选择“属性”  。
 2. 选择“**委派**”选项卡。
-3. 选中“仅信任此计算机来委派指定的服务”。
-4. 选中“使用任意身份验证协议”。
-5. 在“可以由此帐户提供委派凭据的服务:”下，选择“添加”。
-6. 在新对话框中，选择“用户或计算机”。
-7. 输入 Analysis Services 服务的服务帐户，然后选择“确定”。
+3. 选中“仅信任此计算机来委派指定的服务”  。
+4. 选中“使用任意身份验证协议”  。
+5. 在“可以由此帐户提供委派凭据的服务:”  下，选择“添加”  。
+6. 在新对话框中，选择“用户或计算机”  。
+7. 输入 Analysis Services 服务的服务帐户，然后选择“确定”  。
 8. 选择已创建的 SPN。 它以 `MSOLAPSvc.3` 开头。 如果 FQDN 和 NetBIOS SPN 都添加了，两个都会被选中。 你可能只会看到其中一个。
 9. 选择**确定**。  现在，列表中应该会显示 SPN。
-10. 也可以选中“已扩展”，在列表中同时显示 FQDN 和 NetBIOS SPN。
-11. 再次选择“添加”。 现在，我们将添加 SQL Browser SPN。
-12. 在新对话框中，选择“用户或计算机”。
-13. 输入 SQL Browser 服务所在计算机的名称，然后选择“确定”。
+10. 也可以选中“已扩展”  ，在列表中同时显示 FQDN 和 NetBIOS SPN。
+11. 再次选择“添加”  。 现在，我们将添加 SQL Browser SPN。
+12. 在新对话框中，选择“用户或计算机”  。
+13. 输入 SQL Browser 服务所在计算机的名称，然后选择“确定”  。
 14. 选择已创建的 SPN。 它以 `MSOLAPDisco.3` 开头。 如果 FQDN 和 NetBIOS SPN 都添加了，两个都会被选中。 你可能只会看到其中一个。
-15. 选择“确定”。 如果选中“已扩展”，对话框应如下所示。
+15. 选择“确定”  。 如果选中“已扩展”  ，对话框应如下所示。
     
     ![](media/configure-kerberos-powerbi-reports/powerbi-report-config-delegation.png)
-16. 选择“确定”。
+16. 选择“确定”  。
 17. 重启 Power BI 报表服务器。
 
 ## <a name="running-a-power-bi-report"></a>生成 Power BI 报表

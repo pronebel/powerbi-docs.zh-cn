@@ -11,11 +11,11 @@ ms.date: 08/02/2018
 ms.author: maggies
 LocalizationGroup: Share your work
 ms.openlocfilehash: cbca162348092d9d03bef03199c63113ec487165
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54274527"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61226208"
 ---
 # <a name="manage-update-and-delete-organizational-content-packs"></a>管理、更新和删除组织内容包
 > [!NOTE]
@@ -78,8 +78,8 @@ ms.locfileid: "54274527"
 > 
 > 
 
-1. 若要从 AppSource 中删除内容包，请转到在其中创建内容包的应用工作区，再依次选择齿轮图标 ![](media/service-organizational-content-pack-manage-update-delete/cog.png) 和“查看内容包”。
-2. 依次选择“删除”\>“删除”。 
+1. 若要从 AppSource 中删除内容包，请转到在其中创建内容包的应用工作区，再依次选择齿轮图标 ![](media/service-organizational-content-pack-manage-update-delete/cog.png) 和“查看内容包”  。
+2. 依次选择“删除”\>“删除”  。 
    
    * 对于未自定义内容包的组成员，将自动删除与该内容包相关联的仪表板和报表。 这些内容将不再可用，且导航窗格中不会显示该内容包。
    * 对于已自定义内容包的组成员，他们下次打开自定义仪表板时，将不再显示来自原始内容包的所有磁贴。  但仍将呈现固定自其他报表的磁贴。 原始内容包报表和数据集将不再可用，且导航窗格中不会显示该内容包。   

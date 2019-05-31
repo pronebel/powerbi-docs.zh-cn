@@ -12,10 +12,10 @@ ms.author: mblythe
 ms.custom: seodec18
 LocalizationGroup: Get started
 ms.openlocfilehash: 6f44f4b382dacf3850cc5b3aa67f712a607468a6
-ms.sourcegitcommit: 244d110b28d4978f360cbece3a7c896e1a645258
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2019
+ms.lasthandoff: 05/29/2019
 ms.locfileid: "65554424"
 ---
 # <a name="power-bi-service-features-by-license-type"></a>按许可证类型列出的 Power BI 服务功能
@@ -28,10 +28,10 @@ ms.locfileid: "65554424"
 
 |  | 免费 | Power BI Pro |
 | --- | --- | --- |
-| 连接到 70 多个数据源 |![功能可用](media/features-license-type/available.png) |![功能可用](media/features-license-type/available.png) |
+| 连接到 70 多个数据源  |![功能可用](media/features-license-type/available.png) |![功能可用](media/features-license-type/available.png) |
 | **发布到 Web** |![功能可用](media/features-license-type/available.png) |![功能可用](media/features-license-type/available.png) |
-| 导出到 PowerPoint、Excel 和 CSV |![功能可用](media/features-license-type/available.png) |![功能可用](media/features-license-type/available.png) |
-| 企业分发 | | |
+| 导出到 PowerPoint、Excel 和 CSV  |![功能可用](media/features-license-type/available.png) |![功能可用](media/features-license-type/available.png) |
+| 企业分发  | | |
 | 应用 |![功能不可用](media/features-license-type/not-available.png) |![功能可用](media/features-license-type/available.png) |
 | 电子邮件订阅 |![功能不可用](media/features-license-type/not-available.png) |![功能可用](media/features-license-type/available.png) |
 | 嵌入 API 和控件 |![功能不可用](media/features-license-type/not-available.png) |![功能可用](media/features-license-type/available.png) |

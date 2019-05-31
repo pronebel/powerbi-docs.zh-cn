@@ -12,16 +12,16 @@ ms.date: 12/06/2018
 ms.author: maggies
 LocalizationGroup: Samples
 ms.openlocfilehash: 846f783e2a022504f192cf0c03179ce3f3c00e22
-ms.sourcegitcommit: 1dfabc8596ec2eb66ccccceb11419361f704b607
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/15/2019
+ms.lasthandoff: 05/29/2019
 ms.locfileid: "65625084"
 ---
 #  <a name="connect-to-the-samples-in-the-power-bi-service"></a>连接到 Power BI 服务中的示例
 
 本教程教你如何： 
-- 导入示例内容包、将其添加到 Power BI 服务以及打开内容。 内容包是一种示例类型，其中，数据集与仪表板和报表捆绑在一起。 
+- 导入示例内容包、将其添加到 Power BI 服务以及打开内容。 内容包  是一种示例类型，其中，数据集与仪表板和报表捆绑在一起。 
 - 在 Power BI Desktop 中打开示例 .pbix 文件。
 
 如果想先了解更多背景知识，我们建议从文章 [Power BI 示例数据集](sample-datasets.md)开始着手。 在本文章中，你将了解这些示例的全部信息；如何获取，在何处保存，如何使用这些示例，以及每个示例所表示的一些应用场景。 然后，请在了解基本知识后，再返回到本教程。   
@@ -29,33 +29,33 @@ ms.locfileid: "65625084"
 ## <a name="prerequisites"></a>先决条件
 Power BI 服务和 Power BI Desktop 均支持该示例。 要继续学习，我们将使用零售分析示例。
 
-本教程使用的零售分析示例内容包包含仪表板、报表和数据集。
+本教程使用的零售分析  示例内容包包含仪表板、报表和数据集。
 为了熟悉此特定内容包及其应用场景，你可能需要在开始学习本教程之前先[浏览零售分析示例](sample-retail-analysis.md)。
 
 ## <a name="samples-and-power-bi-service"></a>示例和 Power BI 服务
 
 1. 打开并登录到 Power BI 服务 (app.powerbi.com)。
-2. 选择左侧导航窗格底部的**获取数据**。 如果没有看到“获取数据”，请选择 ![汉堡图标](media/sample-tutorial-connect-to-the-samples/expand-nav.png) 展开导航窗格。
+2. 选择左侧导航窗格底部的**获取数据**。 如果没有看到“获取数据”  ，请选择 ![汉堡图标](media/sample-tutorial-connect-to-the-samples/expand-nav.png) 展开导航窗格。
    
    ![“获取数据”图标](media/sample-tutorial-connect-to-the-samples/pbi_getdata.png)
-5. 选择“示例”。  
+5. 选择“示例”  。  
    
    ![“示例”按钮](media/sample-tutorial-connect-to-the-samples/pbi_samplesdownload.png)
-6. 选择“零售分析示例”，然后选择“连接”。   
+6. 选择“零售分析示例”  ，然后选择“连接”  。   
    
    ![“黄色连接”按钮](media/sample-tutorial-connect-to-the-samples/pbi_retailanalysissampleconnect.png)
 
 ## <a name="what-exactly-was-imported"></a>到底导入了什么内容？
-在选择“连接”时，借助示例内容包，Power BI 实际会导入该内容包的副本并将其存储在云中。 创建内容包的人员还会在其中包含数据集、报表和仪表板，而这些正是当你单击“连接”时所获取的内容。 
+在选择“连接”  时，借助示例内容包，Power BI 实际会导入该内容包的副本并将其存储在云中。 创建内容包的人员还会在其中包含数据集、报表和仪表板，而这些正是当你单击“连接”  时所获取的内容。 
 
-1. Power BI 会创建新的仪表板并将其列在“仪表板”选项卡上。通过标注黄色星号，让你知道它是新建的。
+1. Power BI 会创建新的仪表板并将其列在“仪表板”  选项卡上。通过标注黄色星号，让你知道它是新建的。
    
    ![成功消息](media/sample-tutorial-connect-to-the-samples/power-bi-new-dashboard.png)
-2. 打开“报表”选项卡。你将在此处看到名为零售分析示例的新报表。
+2. 打开“报表”  选项卡。你将在此处看到名为零售分析示例  的新报表。
    
    ![零售分析示例和黄色星号附近的红色框](media/sample-tutorial-connect-to-the-samples/power-bi-new-report.png)
    
-   点击“数据集”选项卡。还会出现新的数据集。
+   点击“数据集”  选项卡。还会出现新的数据集。
    
    ![零售分析示例附近的红色框](media/sample-tutorial-connect-to-the-samples/power-bi-new-dataset.png)
 
@@ -67,7 +67,7 @@ Power BI 服务和 Power BI Desktop 均支持该示例。 要继续学习，我�
 > 
 > 
 
-1. 导航返回到“仪表板”选项卡并选择“零售分析示例”仪表板以将其打开。    
+1. 导航返回到“仪表板”  选项卡并选择“零售分析示例”  仪表板以将其打开。    
    
    ![所选的“仪表板”选项卡](media/sample-tutorial-connect-to-the-samples/power-bi-dashboards.png)
 2. 将打开此仪表板。  它具有各种可视化效果磁贴。
@@ -81,14 +81,14 @@ Power BI 服务和 Power BI Desktop 均支持该示例。 要继续学习，我�
    > 如果磁贴是使用 [Power BI 问答](power-bi-tutorial-q-and-a.md)创建的，则会改为打开问答页面。 如果磁贴是[从 Excel 固定](service-dashboard-pin-tile-from-excel.md)的，则 Excel Online 将在 Power BI 内打开。
    > 
    > 
-1. 重新返回“数据集”选项卡，你有多种选项可用于浏览数据集。  你将无法打开它和查看所有的行和列（在 Power BI Desktop 或 Excel 中可以执行这些操作）。  如果有人与同事共享内容包，他们通常想要共享见解，而不是让其同事直接访问数据。 但这并不意味着你不能浏览数据集。  
+1. 重新返回“数据集”  选项卡，你有多种选项可用于浏览数据集。  你将无法打开它和查看所有的行和列（在 Power BI Desktop 或 Excel 中可以执行这些操作）。  如果有人与同事共享内容包，他们通常想要共享见解，而不是让其同事直接访问数据。 但这并不意味着你不能浏览数据集。  
    
    ![“数据集”选项卡](media/sample-tutorial-connect-to-the-samples/power-bi-chart-icon2.png)
    
    * 浏览数据集的一种方法是从头开始创建你自己的可视化效果和报表。  选择图表图标 ![报表图标](media/sample-tutorial-connect-to-the-samples/power-bi-chart-icon4.png) 打开处于报表编辑模式的数据集。
      
        ![全新报表](media/sample-tutorial-connect-to-the-samples/power-bi-report-editing.png)
-   * 浏览数据集的另一种方法是运行[快速见解](consumer/end-user-insights.md)。 选择省略号 (…) 并选择“获取见解”。 见解就绪后，选择“查看见解”。
+   * 浏览数据集的另一种方法是运行[快速见解](consumer/end-user-insights.md)。 选择省略号 (…) 并选择“获取见解”  。 见解就绪后，选择“查看见解”  。
      
        ![见解报表](media/sample-tutorial-connect-to-the-samples/power-bi-insights.png)
 

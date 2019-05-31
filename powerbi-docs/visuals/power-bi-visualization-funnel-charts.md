@@ -12,11 +12,11 @@ ms.date: 09/24/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
 ms.openlocfilehash: 071b45a4ad9cbd9c753c44de5c55a352767bccbf
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54289615"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61067543"
 ---
 # <a name="funnel-charts"></a>漏斗图
 漏斗图可帮助你可视化具有顺序连接的阶段的线性流程。 例如，销售漏斗图可跟踪各个阶段的客户：潜在客户 \> 合格的潜在客户 \> 预期客户 \> 已签订合同的客户 \> 已成交客户。  你可以一眼看出漏斗形状传达了你跟踪的流程的健康状况。
@@ -55,7 +55,7 @@ ms.locfileid: "54289615"
 
 以下说明使用机会分析示例。 若要继续学习，请[下载](../sample-datasets.md)适用于 Power BI 服务 (app.powerbi.com) 或 Power BI Desktop 的示例。   
 
-1. 从空白报表页入手，依次选择“SalesStage”\>“销售阶段”字段。 如果使用的是 Power BI 服务，请确保在 [“编辑视图”](../service-interact-with-a-report-in-editing-view.md) 中打开报表。
+1. 从空白报表页入手，依次选择“SalesStage”  \>“销售阶段”  字段。 如果使用的是 Power BI 服务，请确保在 [“编辑视图”](../service-interact-with-a-report-in-editing-view.md) 中打开报表。
    
     ![选择销售阶段](media/power-bi-visualization-funnel-charts/funnelselectfield_new.png)
 2. [将图表转换](power-bi-report-change-visualization-type.md)漏斗图。 请注意，**销售阶段**位于**组**框中。 
@@ -78,7 +78,7 @@ ms.locfileid: "54289615"
 
 突出显示漏斗图中的某个条可交叉筛选报表页上的其他可视化效果，反之亦然。 若要遵循此示例，请向包含漏斗图的报告页中再添加几个视觉对象。
 
-1. 在漏斗图中，选择“建议”条。 这样可以交叉突出显示页面上的其他可视化效果。 使用 CTRL 键可选择多个。
+1. 在漏斗图中，选择“建议”  条。 这样可以交叉突出显示页面上的其他可视化效果。 使用 CTRL 键可选择多个。
    
    ![显示视觉对象交互的简短视频](media/power-bi-visualization-funnel-charts/funnelchartnoowl.gif)
 2. 若要设置视觉对象如何相互交叉突出显示和交叉筛选的首选项，请参阅 [Visual interactions in Power BI（Power BI 中的可视化交互）](../service-reports-visual-interactions.md)

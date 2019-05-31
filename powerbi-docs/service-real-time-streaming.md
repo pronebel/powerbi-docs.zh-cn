@@ -11,10 +11,10 @@ ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Data from files
 ms.openlocfilehash: 034dc98b1e623bd0d509eb2d174cdc3e3b865067
-ms.sourcegitcommit: 10a87c016f497dbeba32f94ed1f3688a70816fea
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/09/2019
+ms.lasthandoff: 05/29/2019
 ms.locfileid: "65514301"
 ---
 # <a name="real-time-streaming-in-power-bi"></a>Power BI 中的实时流式处理
@@ -40,13 +40,13 @@ ms.locfileid: "65514301"
 
 关于推送数据集中的固定磁贴，有以下两点注意事项：
 
-* 使用“固定活动页”选项固定整个报表**不会**导致数据自动更新。
-* 将视觉对象固定到仪表板后，你可以使用**问答**以自然语言询问推送数据集的问题。 在进行**问答**查询后，你可以将生成的视觉对象再次固定到仪表板，并且该仪表板还会实时更新。
+* 使用“  固定活动页”选项固定整个报表**不会**导致数据自动更新。
+* 将视觉对象固定到仪表板后，你可以使用**问答**以自然语言询问推送数据集的问题。 在进行**问答**查询后，你可以将生成的视觉对象再次固定到仪表板，并且该仪表板  还会实时更新。
 
 ### <a name="streaming-dataset"></a>流式处理数据集
 使用**流式处理数据集**，数据也会推送到 Power BI 服务中，但有一个重要区别：Power BI 仅将数据存储到临时缓存中，该缓存很快就会过期。 临时缓存仅用于显示具有一些暂时性历史感的视觉对象，例如具有一小时的时间窗口的折线图。
 
-使用**流式处理数据集**时，没有基础数据库，因此不能使用从流中流入的数据生成报表视觉对象。 因此，你不能使用报表功能，例如筛选、自定义视觉对象和其他报表功能。
+使用**流式处理数据集**时，  没有基础数据库，因此  不能使用从流中流入的数据生成报表视觉对象。 因此，你不能使用报表功能，例如筛选、自定义视觉对象和其他报表功能。
 
 可视化流式处理数据集的唯一方法是添加磁贴，并将流式处理数据集用作**自定义流式处理数据**的数据源。 基于**流式处理数据集**的自定义流式处理磁贴被优化用于快速显示实时数据。 在将数据推送到 Power BI 服务中时和更新视觉对象时，两者之间存在非常小的延迟，因为不需要将数据输入到数据库中或从数据库中读取数据。
 
@@ -65,7 +65,7 @@ ms.locfileid: "65514301"
 ![](media/service-real-time-streaming/real-time-streaming_11.png)
 
 > [!NOTE]
-> 有关推送限制可推入数据量的信息，请参阅[此文章](https://docs.microsoft.com/power-bi/developer/api-rest-api-limitations)。
+> 有关推送  限制可推入数据量的信息，请参阅[此文章](https://docs.microsoft.com/power-bi/developer/api-rest-api-limitations)。
 > 
 > 
 
@@ -83,12 +83,12 @@ ms.locfileid: "65514301"
 ### <a name="using-power-bi-rest-apis-to-push-data"></a>使用 Power BI REST API 推送数据
 **Power BI REST API** 可用于创建数据并将数据发送到**推送**数据集和**流式处理**数据集。 使用 Power BI REST API 创建数据集时，*defaultMode* 标志指定是推送还是流式处理数据集。 如果未设置 *defaultMode* 标志，则数据集默认为**推送**数据集。
 
-如果 *defaultMode* 值设置为 pushStreaming，则数据集为**推送**和**流式处理**数据集，从而提供这两种数据集类型的优势。 
+如果 *defaultMode* 值设置为  pushStreaming，则数据集为**推送**  和**流式处理**数据集，从而提供这两种数据集类型的优势。 
 
 > [!NOTE]
-> 使用 defaultMode 标志设置为 pushStreaming 的数据集时，如果请求超过流式处理数据集的 15Kb 大小限制，但是小于推送数据集的 16MB 大小限制，则该请求将成功，并且数据将在推送数据集中更新。 但是，任何流式处理磁贴都会暂时失败。
+> 使用 defaultMode  标志设置为 pushStreaming  的数据集时，如果请求超过流式处理  数据集的 15Kb 大小限制，但是小于推送  数据集的 16MB 大小限制，则该请求将成功，并且数据将在推送数据集中更新。 但是，任何流式处理磁贴都会暂时失败。
 
-创建数据集后，使用 REST API 以通过 PostRows[ API](https://docs.microsoft.com/rest/api/power-bi/pushdatasets/datasets_postrows) 推送数据。
+创建数据集后，使用 REST API 以通过 PostRows[  API](https://docs.microsoft.com/rest/api/power-bi/pushdatasets/datasets_postrows) 推送数据。
 
 所有 REST API 请求都使用 **Azure AD OAuth** 加以保护。
 
@@ -101,7 +101,7 @@ ms.locfileid: "65514301"
 
 ![](media/service-real-time-streaming/real-time-streaming_0c.png)
 
-禁用**历史数据分析**时（默认情况下禁用），你将创建一个**流式处理数据集**，如本文前面所述。 启用**历史数据分析**时，创建的数据集将成为**流式处理数据集**和**推送数据集**。 这相当于使用 Power BI REST API 创建其 *defaultMode* 设置为 *pushStreaming* 的数据集，如本文前面所述。
+禁用**历史数据分析**时（默认情况下禁用），你将创建一个**流式处理数据集**，如本文前面所述。 启用  **历史数据分析**时，创建的数据集将成为**流式处理数据集**和**推送数据集**。 这相当于使用 Power BI REST API 创建其 *defaultMode* 设置为 *pushStreaming* 的数据集，如本文前面所述。
 
 > [!NOTE]
 > 对于使用 Power BI 服务 UI 创建的流式处理数据集（如上一段所述），不需要 Azure AD 身份验证。 在此类数据集中，数据集所有者接收具有 rowkey 的 URL，该 rowkey 授权请求者无需使用 Azure AD OAuth 持有者令牌即可将数据推送到数据集中。 不过，现在采用 Azure AD (AAD) 方法仍可将数据推送到数据集中。
@@ -111,7 +111,7 @@ ms.locfileid: "65514301"
 ### <a name="using-azure-stream-analytics-to-push-data"></a>使用 Azure 流分析推送数据
 你可以在 **Azure 流分析** (ASA) 中将 Power BI 添加为输出，然后实时可视化 Power BI 服务中的这些数据流。 本节介绍有关此过程发生的技术详细信息。
 
-Azure 流分析使用 Power BI REST API 创建其到 Power BI 的输出数据流，且 defaultMode 设置为 pushStreaming （有关 defaultMode 的信息，请参阅本文前面的部分），这会导致产生可以利用**推送**和**流式处理**的数据集。 在数据集创建期间，Azure 流分析还会将“retentionPolicy”*标志设为“basicFIFO”；这样设置后，支持其推送数据集的数据库可存储 200,000 行，并且在达到上限后，按照先进先出 (FIFO) 的方式删除行。
+Azure 流分析使用 Power BI REST API 创建其到 Power BI 的输出数据流，且  defaultMode 设置为  pushStreaming （有关  defaultMode 的信息，请参阅本文前面的部分），这会导致产生可以利用**推送**和**流式处理**的数据集。 在数据集创建期间，Azure 流分析还会将“retentionPolicy”*  标志设为“basicFIFO”  ；这样设置后，支持其推送数据集的数据库可存储 200,000 行，并且在达到上限后，按照先进先出 (FIFO) 的方式删除行。
 
 > [!CAUTION]
 > 如果 Azure 流分析查询对 Power BI 产生非常快速的输出（例如，每秒一次或两次），则 Azure 流分析会开始将这些输出批处理到单个请求中。 这可能会导致请求大小超过流式处理磁贴限制。 在这种情况下，如前面各部分所述，流式处理磁贴将无法呈现。 在此类情况下，最佳做法是减慢数据输出到 Power BI 的速率；例如将其设置为超过 10 秒的最大值，而不是每秒的最大值。
@@ -126,15 +126,15 @@ Azure 流分析使用 Power BI REST API 创建其到 Power BI 的输出数据流
 * 附带流式处理数据中的视觉对象的**磁贴**
 * 从 Power BI 中持续存在的流式处理数据中创建的**数据集**
 
-无论采用哪个选项，都需要在 Power BI 中设置**流式处理数据**。 若要执行此操作，请在仪表板（现有仪表板或新仪表板）中选择“添加磁贴”，然后选择“自定义流式处理数据”。
+无论采用哪个选项，都需要在 Power BI 中设置**流式处理数据**。 若要执行此操作，请在仪表板（现有仪表板或新仪表板）中选择“添加磁贴”  ，然后选择“自定义流式处理数据”  。
 
 ![](media/service-real-time-streaming/real-time-streaming_1.png)
 
-如果尚未设置流式处理数据，别担心 - 可以从选择“管理数据”开始使用。
+如果尚未设置流式处理数据，别担心 - 可以从选择“管理数据”  开始使用。
 
 ![](media/service-real-time-streaming/real-time-streaming_2.png)
 
-如果已经创建了流式处理数据集，可以在此页（文本框中）输入流式处理数据集的终结点。 如果还没有流式处理数据集，请选择右上角的加号图标 (**+**) 查看创建流式处理数据集的可用选项。
+如果已经创建了流式处理数据集，可以在此页（文本框中）输入流式处理数据集的终结点。 如果还没有流式处理数据集，请选择右上角的加号图标 ( **+** ) 查看创建流式处理数据集的可用选项。
 
 ![](media/service-real-time-streaming/real-time-streaming_3.png)
 
@@ -153,18 +153,18 @@ Azure 流分析使用 Power BI REST API 创建其到 Power BI 的输出数据流
 以下各节依次说明各选项。
 
 ### <a name="using-the-power-bi-rest-api"></a>使用 POWER BI REST API
-**Power BI REST API** - Power BI REST API 的最新改进旨在使开发人员更容易使用实时流式处理。 当你从“新建流式处理数据集”窗口选择“API”时，将看到 Power BI 要连接到和使用终结点的项：
+**Power BI REST API** - Power BI REST API 的最新改进旨在使开发人员更容易使用实时流式处理。 当你从“新建流式处理数据集”  窗口选择“API”  时，将看到 Power BI 要连接到和使用终结点的项：
 
 ![](media/service-real-time-streaming/real-time-streaming_5.png)
 
-如果希望 Power BI 存储通过此数据流发送的数据，请启用“历史数据分析”，然后你可以对收集的数据流进行报告和分析。 也可以[了解有关 API 的详细信息](https://docs.microsoft.com/rest/api/power-bi/)。
+如果希望 Power BI 存储通过此数据流发送的数据，请启用“历史数据分析”  ，然后你可以对收集的数据流进行报告和分析。 也可以[了解有关 API 的详细信息](https://docs.microsoft.com/rest/api/power-bi/)。
 
-成功创建数据流后，将为你提供 REST API URL 终结点，应用程序可以通过使用 POST 请求调用该终结点，将数据推送到你创建的 Power BI 流式处理数据集中。
+成功创建数据流后，将为你提供 REST API URL 终结点，应用程序可以通过使用 POST  请求调用该终结点，将数据推送到你创建的 Power BI  流式处理数据集中。
 
 发出 *POST* 请求时，应确保请求正文与 Power BI 用户界面提供的示例 JSON 相匹配。 例如，将 JSON 对象包装在一个数组中。
 
 ### <a name="using-pubnub"></a>使用 PubNub
-通过 Power BI 进行 **PubNub** 流式处理集成，可以使用低延迟 **PubNub** 数据流（或创建新的数据流）并在 Power BI 中使用它们。 选择“PubNub”后，选择“下一步”，你将看到以下窗口：
+通过 Power BI 进行 **PubNub** 流式处理集成，可以使用低延迟 **PubNub** 数据流（或创建新的数据流）并在 Power BI 中使用它们。 选择“PubNub”  后，选择“下一步”  ，你将看到以下窗口：
 
 ![](media/service-real-time-streaming/real-time-streaming_7.png)
 
@@ -180,24 +180,24 @@ Azure 流分析使用 Power BI REST API 创建其到 Power BI 的输出数据流
 
 在此示例中，我们使用 **PubNub** 中公开提供的流。 步骤如下：
 
-1. 在“Power BI 服务”中选择仪表板（或创建新仪表板），然后选择“添加磁贴” > “自定义流式处理数据”，然后选择“下一步”按钮。
+1. 在“Power BI 服务”  中选择仪表板（或创建新仪表板），然后选择“添加磁贴”   > “自定义流式处理数据”  ，然后选择“下一步”  按钮。
    
    ![](media/service-real-time-streaming/real-time-streaming_1.png)
-2. 如果没有流式处理数据源，请选择“管理数据”链接（位于“下一步”按钮上方），然后从窗口右上角中的链接中选择“+ 添加流式处理数据”。 选择“PubNub”，然后选择“下一步”。
-3. 为数据集创建名称，然后将以下值粘贴到出现的窗口中，然后选择“下一步”：
+2. 如果没有流式处理数据源，请选择“管理数据”  链接（位于“下一步”  按钮上方），然后从窗口右上角中的链接中选择“+ 添加流式处理数据”  。 选择“PubNub”  ，然后选择“下一步”  。
+3. 为数据集创建名称，然后将以下值粘贴到出现的窗口中，然后选择“下一步”  ：
    
-   订阅密钥：
+   订阅密钥： 
    
        sub-c-5f1b7c8e-fbee-11e3-aa40-02ee2ddab7fe
-   通道：
+   通道： 
    
        pubnub-sensor-network
    
    ![](media/service-real-time-streaming/real-time-streaming_8.png)
-4. 在下面的窗口中，选择默认值（会自动填充），然后选择“创建”。
+4. 在下面的窗口中，选择默认值（会自动填充），然后选择“创建”  。
    
    ![](media/service-real-time-streaming/real-time-streaming_9.png)
-5. 返回 Power BI 工作区，新建仪表板，然后添加磁贴（如有需要，请参阅上述步骤）。 这次在创建磁贴并选择“自定义流式处理数据”时，你将拥有可使用的流式处理数据集。 继续使用它。 将“数字”字段添加到折线图中，然后添加其他磁贴，可以获得如下所示的实时仪表板：
+5. 返回 Power BI 工作区，新建仪表板，然后添加磁贴（如有需要，请参阅上述步骤）。 这次在创建磁贴并选择“自定义流式处理数据”  时，你将拥有可使用的流式处理数据集。 继续使用它。 将“数字”  字段添加到折线图中，然后添加其他磁贴，可以获得如下所示的实时仪表板：
    
    ![](media/service-real-time-streaming/real-time-streaming_10.jpg)
 
@@ -209,12 +209,12 @@ Azure 流分析使用 Power BI REST API 创建其到 Power BI 的输出数据流
 #### <a name="can-i-use-filters-on-push-dataset-how-about-streaming-dataset"></a>我可以对推送数据集使用筛选器吗？ 流式处理数据集呢？
 很遗憾，流式处理数据集不支持筛选。 对于推送数据集，你可以创建报表、筛选报表，然后将筛选的视觉对象固定到仪表板。 然而，没有办法更改仪表板上视觉对象的筛选器。
 
-另外，你可以将活动报表磁贴固定到仪表板，在这种情况下，你可以更改筛选器。 但是，活动报表磁贴不会在数据推入时实时更新；你将需要使用“**更多**”菜单中的“刷新仪表板磁贴”选项手动更新视觉对象。
+另外，你可以将活动报表磁贴固定到仪表板，在这种情况下，你可以更改筛选器。 但是，活动报表磁贴不会在数据推入时实时更新；你将需要使用“**更多**”菜单中的“  刷新仪表板磁贴”选项手动更新视觉对象。
 
-当使用“日期/时间”字段以毫秒精度将筛选器应用到推送数据集时，不支持“等于”运算符。 但是，大于 (>) 或小于 (<) 等运算符可以正常运行。
+当使用“日期/时间”  字段以毫秒精度将筛选器应用到推送数据集时，不支持“等于”  运算符。 但是，大于 (>) 或小于 (<) 等运算符可以正常运行。
 
 #### <a name="how-do-i-see-the-latest-value-on-a-push-dataset-how-about-streaming-dataset"></a>如何查看推送数据集的最新值？ 流式处理数据集呢？
-流式处理数据集设计用于显示最新数据。 你可以使用**卡片图**流式处理视觉对象，轻松查看最新的数值。 遗憾的是，该卡片图不支持日期时间或文本类型的数据。
+流式处理数据集设计用于显示最新数据。 你可以使用**卡片图**流式处理视觉对象，轻松查看最新的数值。 遗憾的是，该卡片图不支持  日期时间或  文本类型的数据。
 对于推送数据集，假设你在架构中有一个时间戳，则可以尝试使用最后一个 N 筛选器创建报表视觉对象。
 
 #### <a name="can-i-connect-to-push-or-streaming-datasets-in-power-bi-desktop"></a>我可以连接到 Power BI Desktop 中的推送或流式处理数据集吗？

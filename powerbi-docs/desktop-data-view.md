@@ -11,36 +11,36 @@ ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Model your data
 ms.openlocfilehash: 567beb29ecdcaf8a07023c8c8c9b32995623534c
-ms.sourcegitcommit: 2116af72f435cd30f1401bb9c7afdcbc76b1c3ce
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/09/2019
+ms.lasthandoff: 05/29/2019
 ms.locfileid: "65454463"
 ---
 # <a name="data-view-in-power-bi-desktop"></a>Power BI Desktop 中的数据视图
-数据视图有助于检查、浏览和了解 Power BI Desktop 模型中的数据。 它与你在查询编辑器中查看表、列和数据的方式不同。 在数据视图中，你所看到的数据是在将其加载到模型之后的样子。
+数据视图有助于检查、浏览和了解 Power BI Desktop 模型中的数据   。 它与你在查询编辑器中查看表、列和数据的方式不同。  在数据视图中，你所看到的数据是在将其加载到模型之后的样子。 
 
 进行数据建模时，有时想要查看表或列中的实际内容而不想在报表画布上创建视觉对象，通常需要查看到行级别。 如果要创建度量值和计算列，或者需要识别数据类型或数据类别，这会非常有用。
 
-让我们进一步了解数据视图中的一些元素。
+让我们进一步了解数据视图中的一些元素  。
 
 ![Power BI Desktop 中的数据视图](media/desktop-data-view/dataview_fullscreen.png)
 
-1. 数据视图图标 - 选择此图标可进入数据视图。
+1. 数据视图图标 - 选择此图标可进入数据视图  。
 
-2. 数据网格 - 显示选中的表以及其中的所有列和行。 报表视图中的隐藏列显示为灰色。右键单击列可获取相关选项。
+2. 数据网格 - 显示选中的表以及其中的所有列和行  。 报表视图中的隐藏列显示为灰色  。右键单击列可获取相关选项。
 
-3. 建模功能区 - 可在此处管理关系、创建计算、更改列的数据类型、格式、数据类别。
+3. 建模功能区 - 可在此处管理关系、创建计算、更改列的数据类型、格式、数据类别  。
 
-4. 公式栏 - 输入度量值和计算列的 DAX 公式。
+4. 公式栏 - 输入度量值和计算列的 DAX 公式  。
 
-5. 搜索 - 在模型中搜索表或列。
+5. 搜索 - 在模型中搜索表或列  。
 
-6. 字段列表 - 选择要在数据网格中查看的表或列。
+6. 字段列表 - 选择要在数据网格中查看的表或列  。
 
 ## <a name="filtering-in-data-view"></a>在数据视图中进行筛选
 
-还可以在数据视图中对数据进行筛选和排序。 每列显示标识排序方向的图表（若适用）。
+还可以在数据视图中对数据进行筛选和排序  。 每列显示标识排序方向的图表（若适用）。
 
 ![在 Power BI Desktop 的数据视图中排序和筛选](media/desktop-data-view/dataview_sort-and-filter.png)
 

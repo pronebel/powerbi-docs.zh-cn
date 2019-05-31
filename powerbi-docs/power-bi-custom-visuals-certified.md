@@ -9,27 +9,27 @@ featuredvideoid: ''
 ms.service: powerbi
 ms.topic: conceptual
 ms.subservice: powerbi-custom-visuals
-ms.date: 03/10/2019
-ms.openlocfilehash: a9f8c6248f9754192009e12bab34d3f1427269c2
-ms.sourcegitcommit: 8fda7843a9f0e8193ced4a7a0e5c2dc5386059a6
-ms.translationtype: HT
+ms.date: 05/9/2019
+ms.openlocfilehash: 8c806f0de021c3857039649876864f47e1fffdb2
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/18/2019
-ms.locfileid: "58174789"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "65454563"
 ---
 # <a name="certified-custom-visuals"></a>认证的自定义视觉对象
 
-## <a name="what-are-certified-custom-visuals"></a>什么是“认证的”自定义视觉对象？
+## <a name="what-are-certified-custom-visuals"></a>什么是“认证的”自定义视觉对象   ？
 
-认证的自定义视觉对象是市场中满足经 Microsoft Power BI 团队测试和批准的某些指定代码要求的视觉对象。 自定义视觉对象一旦通过认证，将提供更多功能。 例如，可[导出到 PowerPoint](consumer/end-user-powerpoint.md)，并且如果用户[订阅了报表页](consumer/end-user-subscribe.md)，则可在收到的电子邮件中的显示视觉对象。
+认证的自定义视觉对象是市场中满足经 Microsoft Power BI 团队测试和批准的某些指定代码要求的视觉对象    。 自定义视觉对象一旦通过认证，将提供更多功能。 例如，可[导出到 PowerPoint](consumer/end-user-powerpoint.md)，并且如果用户[订阅了报表页](consumer/end-user-subscribe.md)，则可在收到的电子邮件中的显示视觉对象。
 
-认证的自定义视觉对象的用法类似于[标准自定义视觉对象](power-bi-custom-visuals.md)。 可将认证的自定义视觉对象添加到 Power BI 服务、Power BI Desktop 报表，并通过 Power BI 移动版和 Power BI Embedded 查看。
+认证的自定义视觉对象的用法类似于[标准自定义视觉对象](power-bi-custom-visuals.md)  。 可将认证的自定义视觉对象添加到 Power BI 服务、Power BI Desktop 报表，并通过 Power BI 移动版和 Power BI Embedded 查看     。
 
-执行的测试旨在检查视觉对象是否会访问外部服务或资源。 Microsoft 不是第三方自定义视觉对象的作者，建议客户直接与作者联系，验证此类视觉对象的功能。
+执行的测试旨在检查视觉对象是否会访问外部服务或资源。 Microsoft 不是第三方自定义视觉对象的作者，建议客户直接与作者联系，验证此类视觉对象的功能   。
 
 认证过程是一个可选过程，由开发人员决定是否让其在市场中的视觉对象接受认证。  
 
-未经认证的自定义视觉对象并不一定是不安全的视觉对象。 某些视觉对象未经认证，是因为它们与一个或多个[认证要求](https://docs.microsoft.com/power-bi/power-bi-custom-visuals-certified?#certification-requirements)不符。 例如，连接到外部服务的地图视觉对象，或使用商业库的视觉对象。
+未经认证的自定义视觉对象并不一定是不安全的视觉对象  。 某些视觉对象未经认证，是因为它们与一个或多个[认证要求](https://docs.microsoft.com/power-bi/power-bi-custom-visuals-certified?#certification-requirements)不符。 例如，连接到外部服务的地图视觉对象，或使用商业库的视觉对象。
 
 你是 Web 开发者吗？对创建自己的可视化效果，并将它们添加到  **[Microsoft AppSource](https://appsource.microsoft.com)** 感兴趣吗？ 请参阅 **[开发 Power BI 自定义视觉对象，了解如何操作](developer/custom-visual-develop-tutorial.md)** 。
 
@@ -44,11 +44,34 @@ Microsoft 可自行从[经认证列表](#list-of-custom-visuals-that-have-been-c
 若要让自定义视觉对象[获得认证](#certified-custom-visuals)，自定义视觉对象必须符合以下要求：  
 
 * 经 Microsoft AppSource 批准。 自定义视觉对象应位于我们的[市场](https://appsource.microsoft.com/marketplace/apps?page=1&product=power-bi-visuals)中。
-* 自定义视觉对象是使用经版本控制的 API 1.2 或更高版本编写的。
-* 可供 Power BI 团队查看的代码存储库（例如，通过 GitHub 提供的人工可读格式的源代码 [JavaSCript 或 TypeScript]）。
+* 使用版本控制编写自定义视觉对象**API 版本 2.5**或更高版本。
+* （对于实例，以人类可读格式的源代码 （JavaScript 或 TypeScript） 是提供给我们，通过 GitHub），代码存储库是适用于 Power BI 团队的评审。
 
     >[!Note]
     > 无需在 Github 中公开共享代码。
+* 代码存储库的要求：
+   * 必须包括文件的最小所需的集：
+      * .gitignore
+      * capabilities.json
+      * pbiviz.json
+      * package.json
+      * package-lock.json
+      * tsconfig.json
+   * 不能包含 node_modules 文件夹 （将 node_modules 添加到.gitingore 文件）
+   * **npm 安装**命令不能返回任何错误。
+   * **npm 审核**命令必须返回使用的高或中等级别的任何警告。
+   * **pbiviz 程序包**命令不能返回任何错误。
+   * 必须包括[TSlint microsoft](https://www.npmjs.com/package/tslint-microsoft-contrib)与没有重写的配置，并且此命令不能返回 lint 的任何错误。
+   * 已编译的包的自定义视觉对象必须与提交的包匹配 （这两个文件的 md5 哈希应等于）。
+* 源的代码要求：
+   * 视觉对象必须支持[呈现事件 API](https://microsoft.github.io/PowerBI-visuals/docs/how-to-guide/rendering-events/)。
+   * 确保运行任何任意/动态代码 (错误： eval （)，不能安全使用的 settimeout()、 requestAnimationFrame()、 setinterval （与用户输入一些函数）、 正在运行的用户输入/数据)。
+   * 确保安全地操作 DOM (错误： innerHTML，D3.html （< 一些用户/数据输入 >），用于清理用户输入/数据前将其添加到 dom。
+   * 请确保在浏览器控制台中的任何输入数据有任何 javascript 错误/异常。 因此，视觉对象必须未失败，用户可能意外数据的不同范围之内使用你的视觉对象。 可以使用[此示例报表](https://github.com/Microsoft/PowerBI-visuals/raw/gh-pages/assets/reports/large_data.pbix)作为测试数据集。
+
+* 如果更改了 capabilities.json 中的任何属性，请确保它们不会中断现有用户的报表。
+
+* 请确保视觉对象符合[Power BI 视觉对象的准则](https://docs.microsoft.com/en-us/power-bi/developer/guidelines-powerbi-visuals#guidelines-for-power-bi-visuals-with-additional-purchases)。 **不允许任何水印**。
 
 * 仅使用可审核的公共 OSS 组件（公共的 JS 库或 TypeScript。 源代码可供审核，且无已知漏洞）。 我们无法验证使用商业组件的自定义视觉对象。
 

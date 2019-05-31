@@ -7,27 +7,27 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 02/04/2019
+ms.date: 04/26/2019
 ms.author: maggies
-ms.openlocfilehash: 445f5f087bd9589b18f798e8db40a63b0ddceafe
-ms.sourcegitcommit: 8207c9269363f0945d8d0332b81f1e78dc2414b0
-ms.translationtype: HT
+ms.openlocfilehash: 0ea8f19fa36bf1f9ceb5f8f0b92bd53ebdfa2a01
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/14/2019
-ms.locfileid: "56249555"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "64578513"
 ---
 # <a name="what-are-power-bi-template-apps-preview"></a>什么是 Power BI 模板应用？ (预览)
 
-新的 Power BI 模板应用使 Power BI 合作伙伴能够在极少编码或没有编码的情况下生成 Power BI 应用，并将它们部署到任何 Power BI 客户。  本文概述了 Power BI 模板应用程序。
+新的 Power BI 模板应用使 Power BI 合作伙伴能够在极少编码或没有编码的情况下生成 Power BI 应用，并将它们部署到任何 Power BI 客户  。  本文概述了 Power BI 模板应用程序。
 
 模板应用是当前服务内容包的替代品。 作为 Power BI 合作伙伴，你可以为客户创建一组现成可用的内容，并自行发布。  
 
 生成模板应用，允许客户使用其自己的帐户连接并实例化。 对于域专业人员而言，可采用便于业务用户使用的方式来解锁数据。  
 
-将合作伙伴生成的模板应用提交到“云合作伙伴门户”。 然后，这些应用将在 Power BI 应用库 (app.powerbi.com/getdata/services) 和 Microsoft AppSource (appsource.microsoft.com) 上公开发布。 以下是公共模板应用体验的示例。  
+提交模板应用到云合作伙伴门户。 然后，这些应用将在 Power BI 应用库 (app.powerbi.com/getdata/services) 和 Microsoft AppSource (appsource.microsoft.com) 上公开发布。 下面是公共模板应用创建体验一下。  
 
-## <a name="overview"></a>概述
-开发和提交模板应用的一般过程涉及几个阶段，其中一些阶段可能同时涉及多个活动。
+## <a name="process"></a>过程
+开发并提交模板应用程序的一般过程涉及到几个阶段。 同时，某些阶段可以包含多个活动。
 
 
 | 阶段 | Power BI Desktop |  |Power BI 服务  |  |云合作伙伴门户  |

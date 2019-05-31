@@ -1,8 +1,8 @@
 ---
 title: 为政府和国家云客户将 Power BI 内容嵌入到应用程序的嵌入式分析
 description: 了解如何通过使用适用于嵌入式分析的 Power BI API，为客户将报表、仪表板或磁贴集成或嵌入到应用程序中。 了解如何使用嵌入式分析软件、嵌入式分析工具或嵌入式商业智能工具为政府和国家云将 Power BI 集成到应用程序。
-author: markingmyname
-ms.author: maghan
+author: rkarlin
+ms.author: rkarlin
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
@@ -10,12 +10,12 @@ ms.subservice: powerbi-service
 ms.topic: tutorial
 ms.custom: seodec18
 ms.date: 02/05/2019
-ms.openlocfilehash: c1148a8f4fe6c9c3751f7d315cf0e7d14e404486
-ms.sourcegitcommit: 39bc75597b99bc9e8d0a444c38eb02452520e22b
-ms.translationtype: HT
+ms.openlocfilehash: bc6b9cf92966dd9e86e789169b9b8134dbfcb2ba
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/25/2019
-ms.locfileid: "58430887"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61374272"
 ---
 # <a name="tutorial-embed-a-power-bi-content-into-your-application-for-national-clouds"></a>教程：将 Power BI 内容嵌入国家云的应用程序
 
@@ -37,7 +37,7 @@ Power BI 还支持[国家云](https://docs.microsoft.com/azure/active-directory/
 
 ![嵌入的仪表板](media/embed-sample-for-customers/powerbi-embed-dashboard.png)
 
-若要开始本演练，需要一个 Power BI 帐户。 如果未设置任何帐户，则可以根据政府或国家/地区的类型，选择合适的国家云。 可以注册[美国政府 Power BI 帐户](../service-govus-signup.md)、[Power BI for Germany 云帐户](https://powerbi.microsoft.com/power-bi-germany/?ru=https%3A%2F%2Fapp.powerbi.de%2F%3FnoSignUpCheck%3D1)或 [Power BI for China 云帐户](http://www.21vbluecloud.com/powerbi/)。
+若要开始本演练，需要一个 Power BI 帐户  。 如果未设置任何帐户，则可以根据政府或国家/地区的类型，选择合适的国家云。 可以注册[美国政府 Power BI 帐户](../service-govus-signup.md)、[Power BI for Germany 云帐户](https://powerbi.microsoft.com/power-bi-germany/?ru=https%3A%2F%2Fapp.powerbi.de%2F%3FnoSignUpCheck%3D1)或 [Power BI for China 云帐户](http://www.21vbluecloud.com/powerbi/)。
 
 > [!NOTE]
 > 要改为为组织嵌入仪表板？ 请参阅[为组织将仪表板集成到应用中](integrate-dashboard.md)。
@@ -142,7 +142,7 @@ Power BI 还支持[国家云](https://docs.microsoft.com/azure/active-directory/
 
 * Power BI for China 云 - ```https://app.powerbi.cn/apps```
 
-如果已下载[“为客户嵌入内容”示例](https://github.com/Microsoft/PowerBI-Developer-Samples/tree/master/App%20Owns%20Data)，请使用获取的 applicationId，以便此示例能够进行 Azure AD 身份验证。 若要配置此示例，请在 web.config 文件中更改 applicationId。
+如果已下载[“为客户嵌入内容”示例](https://github.com/Microsoft/PowerBI-Developer-Samples/tree/master/App%20Owns%20Data)，请使用获取的 applicationId  ，以便此示例能够进行 Azure AD 身份验证。 若要配置此示例，请在 web.config  文件中更改 applicationId  。
 
 ## <a name="step-2---get-an-access-token-from-azure-ad"></a>第 2 步 - 从 Azure AD 获取访问令牌
 
@@ -158,7 +158,7 @@ Power BI 还支持[国家云](https://docs.microsoft.com/azure/active-directory/
 
 * Power BI for China 云 - ```https://login.chinacloudapi.cn```
 
-若要查看这些访问令牌的示例，可以参阅 Controllers\HomeController.cs 文件中的每个内容项任务。
+若要查看这些访问令牌的示例，可以参阅 Controllers\HomeController.cs  文件中的每个内容项任务。
 
 ## <a name="step-3---get-a-content-item"></a>第 3 步 - 获取内容项
 
@@ -166,7 +166,7 @@ Power BI 还支持[国家云](https://docs.microsoft.com/azure/active-directory/
 
 ### <a name="create-the-power-bi-client-with-your-access-token"></a>使用访问令牌创建 Power BI 客户端
 
-你希望使用访问令牌创建 Power BI 客户端对象，以便能够与 Power BI API 进行交互。 使用 Microsoft.Rest.TokenCredentials 对象包装 AccessToken，以创建你的 Power BI 客户端对象。
+你希望使用访问令牌创建 Power BI 客户端对象，以便能够与 Power BI API 进行交互。 使用 Microsoft.Rest.TokenCredentials  对象包装 AccessToken，以创建你的 Power BI 客户端对象。
 
 ```csharp
 using Microsoft.IdentityModel.Clients.ActiveDirectory;
@@ -186,7 +186,7 @@ using (var client = new PowerBIClient(new Uri(ApiUrl), tokenCredentials))
 
 使用 Power BI 客户端对象检索对要嵌入的项的引用。 可以嵌入仪表板、磁贴或报表。 下面的示例展示了如何从给定工作区检索首个仪表板、磁贴或报表。
 
-有关示例，请参阅[“应用拥有数据”示例](https://github.com/Microsoft/PowerBI-Developer-Samples/tree/master/App%20Owns%20Data)的 Controllers\HomeController.cs。
+有关示例，请参阅[“应用拥有数据”示例](https://github.com/Microsoft/PowerBI-Developer-Samples/tree/master/App%20Owns%20Data)的 Controllers\HomeController.cs  。
 
 #### <a name="reports"></a>报表
 
@@ -237,14 +237,14 @@ Tile tile = tiles.Value.FirstOrDefault();
 
 ### <a name="create-the-embed-token"></a>创建嵌入令牌
 
-使用 JavaScript API，可以生成嵌入令牌。 嵌入令牌特定于要嵌入的项。 只要嵌入 Power BI 内容，就需要为其新建嵌入令牌。 有关详细信息（包括要使用哪个 accessLevel），请参阅 [Embed Token](https://docs.microsoft.com/rest/api/power-bi/embedtoken)（嵌入令牌）。
+使用 JavaScript API，可以生成嵌入令牌。 嵌入令牌特定于要嵌入的项。 只要嵌入 Power BI 内容，就需要为其新建嵌入令牌。 有关详细信息（包括要使用哪个 accessLevel），请参阅  [Embed Token](https://docs.microsoft.com/rest/api/power-bi/embedtoken)（嵌入令牌）。
 
 > [!IMPORTANT]
 > 由于嵌入令牌仅用于开发测试，因此 Power BI 主帐户生成的嵌入令牌数量有限。 对于嵌入生产方案，[必须购买容量](https://docs.microsoft.com/power-bi/developer/embedded-faq#technical)。 购买容量后便不会限制嵌入令牌生成。
 
-有关示例，请参阅[“为组织嵌入内容”示例](https://github.com/Microsoft/PowerBI-Developer-Samples/tree/master/App%20Owns%20Data)的 Controllers\HomeController.cs。
+有关示例，请参阅[“为组织嵌入内容”示例](https://github.com/Microsoft/PowerBI-Developer-Samples/tree/master/App%20Owns%20Data)的 Controllers\HomeController.cs  。
 
-为 EmbedConfig 和 TileEmbedConfig 创建了类。 Models\EmbedConfig.cs 和 Models\TileEmbedConfig.cs 中提供了相关示例。
+为 EmbedConfig  和 TileEmbedConfig  创建了类。 Models\EmbedConfig.cs  和 Models\TileEmbedConfig.cs  中提供了相关示例。
 
 #### <a name="reports"></a>报表
 

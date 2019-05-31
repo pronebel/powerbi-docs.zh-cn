@@ -8,15 +8,15 @@ ms.custom: seodec18
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 12/06/2018
+ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Reports
-ms.openlocfilehash: da6ec79a821e7aa9659843d0461ca6ac0b11706d
-ms.sourcegitcommit: de0b72915183a8a784d3227838bd704c1c209422
-ms.translationtype: HT
+ms.openlocfilehash: 7ccbfee788bbada580c02544a4af4b1b25c1a169
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/04/2019
-ms.locfileid: "58914158"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "65514224"
 ---
 # <a name="analyze-in-excel"></a>在 Excel 中分析
 有时，你可能希望使用 Excel 查看 Power BI 中的数据集并与之交互。 借助**在 Excel 中分析**，不仅可以做到这一点，还可以基于 Power BI 中存在的数据集访问 Excel 中的数据透视表、图表和切片器功能。
@@ -27,8 +27,8 @@ ms.locfileid: "58914158"
 * Microsoft Excel 2010 SP1 和更高版本支持**在 Excel 中分析**。
 * Excel 数据透视表不支持对数值字段进行拖放聚合。 你在 Power BI 中的数据集 *必须具有预定义的度量值* 。
 * 某些组织可能有组策略规则，导致无法对 Excel 安装所需的**在 Excel 中分析**更新。 如果无法安装更新，请与管理员联系。
-* “在 Excel 中分析”功能要求数据库位于 Power BI Premium 中或者用户具有 Power BI Pro 许可证。 若要详细了解许可证类型之间的功能差异，请参阅[按许可证类型划分的 Power BI 功能](service-features-license-type.md)。 
-* 如果用户对基本数据集具有读取权限，则可通过 Excel 中的“分析”功能连接到数据集。  用户可通过多种方式获取此权限，例如成为包含此数据集的工作区的成员、他人向其共享了使用该数据集的报表或仪表板，或者具有包含该数据集的应用的权限。
+* “在 Excel 中分析”功能要求数据库位于 Power BI Premium 中或者用户具有 Power BI Pro 许可证  。 若要详细了解许可证类型之间的功能差异，请参阅[按许可证类型划分的 Power BI 功能](service-features-license-type.md)。 
+* 如果它们具有读取权限的基础数据集，用户可以连接到通过在 Excel 中分析数据集。  用户可通过多种方式获取此权限，例如成为包含此数据集的工作区的成员、他人向其共享了使用该数据集的报表或仪表板，或者具有包含该数据集的应用的权限。
 
 ## <a name="how-does-it-work"></a>工作原理
 从与 **Power BI** 中的数据集或报表关联的省略号菜单 (…) 中选择**在 Excel 中分析**之后，Power BI 会创建一个 .ODC 文件并将其从浏览器下载到你的计算机。
@@ -39,7 +39,7 @@ ms.locfileid: "58914158"
 
 .ODC 文件有一个 MSOLAP 连接字符串，该字符串连接到 Power BI 中的数据集。 当你分析或处理数据时，Excel 会在 Power BI 中查询该数据集，并将结果返回到 Excel。 如果该数据集使用 DirectQuery 连接到实时数据源，Power BI 会查询该数据源，并将结果返回到 Excel。
 
-“在 Excel 中分析” 对以下数据集和报表非常有用：连接 *Analysis Services 表格* 或 *多维* 数据库的数据集和报表，或者来自包含数据模型（模型度量值是使用数据分析表达式 (DAX) 创建而成）的 Power BI Desktop 文件或 Excel 工作簿的数据集和报表。
+“在 Excel 中分析”  对以下数据集和报表非常有用：连接 *Analysis Services 表格* 或 *多维* 数据库的数据集和报表，或者来自包含数据模型（模型度量值是使用数据分析表达式 (DAX) 创建而成）的 Power BI Desktop 文件或 Excel 工作簿的数据集和报表。
 
 ## <a name="get-started-with-analyze-in-excel"></a>开始使用“在 Excel 中分析”
 在 Power BI 中，选择报表或数据集旁边的省略号菜单（报表或数据集名称旁边的 ...），然后从出现的菜单中选择**在 Excel 中分析**。
@@ -47,10 +47,10 @@ ms.locfileid: "58914158"
 ![](media/service-analyze-in-excel/power-bi-analyze-menu.png)
 
 ### <a name="install-excel-updates"></a>安装 Excel 更新
-首次使用**在 Excel 中分析**时，需要对 Excel 库安装更新。 系统会提示你下载并运行 Excel 更新（这将启动 *SQL_AS_OLEDDB.msi* Windows Installer 程序包的安装）。 此程序包将安装 **Microsoft AS OLE DB Provider for SQL Server 2016 RC0（预览版）**。
+首次使用**在 Excel 中分析**时，需要对 Excel 库安装更新。 系统会提示你下载并运行 Excel 更新（这将启动 *SQL_AS_OLEDDB.msi* Windows Installer 程序包的安装）。 此程序包将安装 **Microsoft AS OLE DB Provider for SQL Server 2016 RC0（预览版）** 。
 
 > [!NOTE]
-> 务必选中“安装 Excel 更新”对话框中的“不再显示此信息”。 此更新只需安装一次。
+> 务必选中“安装 Excel 更新”对话框中的“不再显示此信息”   。 此更新只需安装一次。
 > 
 > 
 
@@ -76,7 +76,7 @@ ms.locfileid: "58914158"
 ![](media/service-analyze-in-excel/pbi_anlz_excel_enable.png)
 
 > [!NOTE]
-> 本地数据集托管在 Analysis Services (AS) 数据库中的情况下，Power BI 租户的管理员可以使用“Power BI 管理门户”禁用“在 Excel 中分析”。 禁用该选项时，会对 AS 数据库禁用**在 Excel 中分析**，但它仍可用于其他数据集。
+> 本地数据集托管在 Analysis Services (AS) 数据库中的情况下，Power BI 租户的管理员可以使用“Power BI 管理门户”禁用“在 Excel 中分析”   。 禁用该选项时，会对 AS 数据库禁用**在 Excel 中分析**，但它仍可用于其他数据集。
 > 
 > 
 
@@ -86,7 +86,7 @@ Excel 已打开并且你有一个空数据透视表，现在可以对 Power BI �
 ![](media/service-analyze-in-excel/pbi_anlz_excel_chart.png)
 
 > [!NOTE]
-> 请务必了解，使用“在 Excel 中分析”会向具有数据集访问权限的任何用户公开所有详细信息级别的数据。
+> 请务必了解，使用“在 Excel 中分析”会向具有数据集访问权限的任何用户公开所有详细信息级别的数据  。
 > 
 > 
 
@@ -101,4 +101,4 @@ Excel 已打开并且你有一个空数据透视表，现在可以对 Power BI �
 由于用户需要刷新数据集，但 Excel Online 不支持刷新外部连接，因此，建议用户在其计算机上的桌面版 Excel 中打开工作簿。
 
 ## <a name="troubleshooting"></a>故障排除
-有时，在使用 Analyze in Excel 期间可会能收意外的结果，或功能未按预期工作。 [本页针对在 Excel 中使用分析功能时遇到的常见问题提供解决方案](desktop-troubleshooting-analyze-in-excel.md)
+有时，在使用 Analyze in Excel 期间可会能收意外的结果，或功能未按预期工作。 [此页提供针对 Analyze in Excel 常见问题的解决方案](desktop-troubleshooting-analyze-in-excel.md)

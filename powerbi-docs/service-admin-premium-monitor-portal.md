@@ -1,51 +1,123 @@
 ---
 title: 使用管理门户监视 Power BI 高级容量
 description: 使用 Power BI 管理门户，监视高级容量。
-author: minewiskan
-ms.author: owend
+author: mgblythe
+ms.author: mblythe
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
-ms.date: 02/05/2019
+ms.date: 04/10/2019
 LocalizationGroup: Premium
-ms.openlocfilehash: 59097c07719e4bb8db188e8a86db377076aea7a9
-ms.sourcegitcommit: 54d44deb6e03e518ad6378656c769b06f2a0b6dc
-ms.translationtype: HT
+ms.openlocfilehash: 36b03a67e7c02702a70b6486880cc8eabf93e823
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/07/2019
-ms.locfileid: "55794123"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "65564897"
 ---
 # <a name="monitor-capacities-in-the-admin-portal"></a>在管理门户中监视容量
 
-本文介绍如何使用管理门户中的“容量”设置获取容量性能的快速视图。  若要获取有关容量最深度的指标，最好使用 [Power BI Premium Capacity Metrics](service-admin-premium-monitor-capacity.md) 应用。
+**运行状况**选项卡**容量设置**在管理门户中的区域提供有关你的容量和已启用工作负荷摘要指标。  
 
-## <a name="capacity-metrics"></a>容量指标
+![在门户中的容量运行状况选项卡](media/service-admin-premium-monitor-portal/admin-portal-health.png)
 
-管理门户的“容量设置”区域提供了四个仪表，用于指示过去七天的负载和容量所使用的资源。 这四个磁贴以小时为频率工作，指示过去七天内相应指标超过 80% 的小时数。 此指标表明最终用户体验可能会降级。
+如果需要更全面的指标，请使用[Power BI Premium 容量指标](service-admin-premium-monitor-capacity.md)应用。 应用程序提供向下钻取和筛选，和的最详细度量值接近容量性能影响每个方面。 若要了解详细信息，请参阅[与该应用程序监视器高级容量](service-admin-premium-monitor-capacity.md)。
 
-![7 天内的使用情况](media/service-admin-premium-monitor-capacity/usage-in-days.png)
+## <a name="system-metrics"></a>系统指标
+
+上**运行状况**选项卡上，在最高级别，CPU 使用率和内存使用情况提供的容量最重要的指标的快速视图。 这些度量值具有累积性，包括所有启用的容量的工作负荷。
 
 | **指标** | **说明** |
 | --- | --- |
-| CPU |CPU 使用率超过 80% 的次数。 |
-| 内存抖动 |表示后端核心的内存压力。 具体而言，这一指标指示因使用多个数据集产生的内存压力，而从内存清除数据集的次数。 |
-| 内存使用情况 |平均内存使用量，以千兆字节 (GB) 表示。 |
-| DQ/秒 | 直接查询和实时连接数超过限制的 80% 的次数。 <br>  DirectQuery 的总数和每秒实时连接查询数受限。 限制如下：P1、P2、P3 分别为 30/s、60/s 和 120/s。  直接查询和实时连接查询数计入上述限额。 例如，如果一秒内有 15 个 DirectQueries 和 15 次实时连接，则达到限制<br> 这同样适用于本地连接和云连接。 |
-|  |  |
+| CPU 使用率 | 平均 CPU 利用率，以占总可用 CPU。 |
+| 内存使用情况 | 平均内存使用率，以千兆字节 (GB)。|
 
-指标反映的是过去一周的利用率。  如果想要查看更详尽的指标视图，可单击任意摘要磁贴进行查看。  此操作将调出详细图表，显示高级容量的每个指标。 下图显示了 CPU 指标的详细信息。
+## <a name="workload-metrics"></a>工作负荷度量值
 
-![详细的 CPU 使用情况图表](media/service-admin-premium-monitor-capacity/premium-usage-detailed-chart-cpu.png)
+每个工作负荷的容量已启用。 显示 CPU 使用率和内存使用情况。
 
-这些图表过去一周内每小时汇总一次，有助于在高级容量可能出现特定的性能相关事件时进行隔离。
+| **指标** | **说明** |
+| --- | --- |
+| CPU 使用率 | 平均 CPU 利用率，以占总可用 CPU。 |
+| 内存使用情况 | 平均内存使用率，以千兆字节 (GB)。|
 
-也可将指标的基础数据随意导出到 csv 文件。  导出后，过去一周每天每隔三分钟即显示一次详细信息。
+### <a name="detailed-workload-metrics"></a>详细的工作负荷度量值
+
+每个工作负荷的其他度量值。 显示的指标类型取决于工作负荷。 若要查看工作负荷的详细度量值，请单击 （下） 箭头展开。
+
+![展开工作负荷的运行状况](media/service-admin-premium-monitor-portal/admin-portal-health-expand.png)
+
+#### <a name="dataflows"></a>数据流
+
+##### <a name="dataflow-operations"></a>数据流操作
+
+| **指标** | **说明** |
+| --- | --- |
+| 总计数 | 每个数据流的总刷新次数。 |
+| 成功计数 | 每个数据流的总成功刷新。|
+| 平均持续时间 （分钟） | 刷新数据流的平均持续时间（以分钟为单位） |
+| 最大持续时间 （分钟） | 数据流运行时间最长的刷新持续时间（以分钟为单位）。 |
+| 平均等待时间 （分钟） | 计划时间与刷新数据流开始时间之间的平均延迟（以分钟为单位）。 |
+| 最大等待时间 （分钟） | 数据流的最长等待时间（以分钟为单位）。  |
+
+#### <a name="datasets"></a>数据集
+
+##### <a name="refresh"></a>刷新
+
+| **指标** | **说明** |
+| --- | --- |
+| 总计数 | 每个数据集的总刷新次数。 |
+| 成功计数 | 每个数据集刷新成功的总数。 |
+| 失败计数 | 每个数据集的刷新失败的总数。 |
+| 成功率  | 成功刷新除以总刷新以度量值的数目。 可靠性。 |
+| 平均持续时间 （分钟） | 刷新数据集的平均持续时间（以分钟为单位）。  |
+| 最大持续时间 （分钟） | 数据集运行时间最长的刷新持续时间（以分钟为单位）。 |
+| 平均等待时间 （分钟） | 计划时间与刷新数据集开始时间之间的平均延迟（以分钟为单位）。 |
+| 最大等待时间 （分钟） | 数据集的最长等待时间（以分钟为单位）。 |
+
+##### <a name="query"></a>查询
+
+| **指标** | **说明** |
+| --- | --- |
+| 总计数 | 为数据集运行的查询的总数。 |
+| 平均持续时间(毫秒) |数据集的平均查询持续时间（以毫秒为单位）|
+| 最长持续时间(毫秒) |数据集中运行时间最长的查询的持续时间（以毫秒为单位）。 |
+| 平均等待时间（毫秒） |数据集的平均查询等待时间（以毫秒为单位）。 |
+| 最大等待时间 （毫秒） |数据集中等待时间最长的查询的持续时间（以毫秒为单位）。 |
+
+##### <a name="eviction"></a>逐出
+
+| **指标** | **说明** |
+| --- | --- |
+| 模型计数 | 此容量的数据集逐出的总数。 容量面临内存压力时，节点从内存中逐出一个或多个数据集。 首先逐出处于非活动状态（当前没有执行查询/刷新操作）的数据集。 然后按“最近最少使用的项”(LRU) 这一顺序依次逐出。 |
+
+#### <a name="paginated-reports"></a>分页报表
+
+##### <a name="report-execution"></a>报表执行
+
+| **指标** | **说明** |
+| --- | --- |
+| 执行计数  | 报表的执行次数和用户查看。|
+
+##### <a name="report-usage"></a>报告使用情况
+
+| **指标** | **说明** |
+| --- | --- |
+| 成功计数 | 用户查看报表次数。 |
+| 失败计数 |用户查看报表次数。|
+| 行计数 |报表中数据的行数。 |
+| 数据检索持续时间 （毫秒） |检索报表数据所需的平均时间（以毫秒为单位）。 较长的持续时间可能表示查询速度缓慢或其他数据源问题。  |
+| 处理的持续时间 （毫秒） |处理报表数据所需的平均时间（以毫秒为单位）。 |
+| 呈现持续时间 （毫秒） |在浏览器中呈现报表所需的平均时间（以毫秒为单位）。 |
+
+> [!NOTE]
+> 有关详细度量值**AI**工作负载尚不可用。
 
 ## <a name="next-steps"></a>后续步骤
 
 你现已了解如何监视 Power BI Premium 容量，可以了解有关优化容量的更多信息。
 
 > [!div class="nextstepaction"]
-> [Power BI Premium 容量资源管理和优化](service-premium-understand-how-it-works.md)
+> [优化 Power BI Premium 容量](service-premium-capacity-optimize.md)

@@ -11,22 +11,22 @@ ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
 ms.openlocfilehash: c02eda44ec81fe31972055548996ae357bc4c4b9
-ms.sourcegitcommit: 10a87c016f497dbeba32f94ed1f3688a70816fea
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/09/2019
+ms.lasthandoff: 05/29/2019
 ms.locfileid: "65513829"
 ---
 # <a name="connect-to-snowflake-in-power-bi-desktop"></a>在 Power BI Desktop 中连接到 Snowflake
 在 Power BI Desktop 中，你可以连接到 **Snowflake** 计算仓库，并可如同使用 Power BI Desktop 中任何其他数据源一样使用基础数据。 
 
 > [!NOTE]
-> 此外，在使用 **Snowflake** 连接器的计算机上，你必须使用匹配 **Power BI Desktop** 32 位或 64 位安装的体系结构安装 **Snowflake ODBC 驱动程序**。 只需按照以下链接操作，并[下载合适的 Snowflake ODBC 驱动程序](http://go.microsoft.com/fwlink/?LinkID=823762)。
+> 此外，在使用 **Snowflake** 连接器的计算机上，你必须  使用匹配 **Power BI Desktop** 32 位或 64 位安装的体系结构安装 **Snowflake ODBC 驱动程序**。 只需按照以下链接操作，并[下载合适的 Snowflake ODBC 驱动程序](http://go.microsoft.com/fwlink/?LinkID=823762)。
 > 
 > 
 
 ## <a name="connect-to-a-snowflake-computing-warehouse"></a>连接到 Snowflake 计算仓库
-要连接到 Snowflake 计算仓库，请从 Power BI Desktop 中的“开始”功能区选择“获取数据”。 选择左侧类别中的“数据库”，然后便会看到“Snowflake”。
+要连接到 Snowflake 计算仓库，请从 Power BI Desktop 中的“开始”功能区选择“获取数据”    。 选择左侧类别中的“数据库”  ，然后便会看到“Snowflake”  。
 
 ![](media/desktop-connect-snowflake/connect_snowflake_2b.png)
 
@@ -39,11 +39,11 @@ ms.locfileid: "65513829"
 ![](media/desktop-connect-snowflake/connect_snowflake_4.png)
 
 > [!NOTE]
-> 一旦输入用户名和密码以连接特定 Snowflake 服务器，Power BI Desktop 在后续连接尝试中就会使用这些凭据。 可以通过“文件”>“选项和设置”>“数据源设置”来修改这些凭据。
+> 一旦输入用户名和密码以连接特定 Snowflake  服务器，Power BI Desktop 在后续连接尝试中就会使用这些凭据。 可以通过“文件”>“选项和设置”>“数据源设置”  来修改这些凭据。
 > 
 > 
 
-连接成功后，将会出现“导航器”窗口，并显示服务器上可用的数据。你可以从这些数据中选择要在 **Power BI Desktop** 中导入和使用的一个或多个元素。
+连接成功后，将会出现“导航器”  窗口，并显示服务器上可用的数据。你可以从这些数据中选择要在 **Power BI Desktop** 中导入和使用的一个或多个元素。
 
 ![](media/desktop-connect-snowflake/connect_snowflake_5.png)
 

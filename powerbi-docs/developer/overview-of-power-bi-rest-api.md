@@ -1,20 +1,20 @@
 ---
 title: 借助 Power BI API 可以做什么
 description: 借助 Power BI API 可以做什么
-author: markingmyname
-ms.author: maghan
+author: rkarlin
+ms.author: rkarlin
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 03/25/2019
-ms.openlocfilehash: 443aa370ebb4122d0f979f60726ba953ce13195d
-ms.sourcegitcommit: 3a05f34dbeabac62ea8c35c12a045284271971bc
-ms.translationtype: HT
+ms.openlocfilehash: fd49c69a14d3dac6b1a045f6aba407ec7aac0deb
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/03/2019
-ms.locfileid: "58872561"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61269386"
 ---
 # <a name="what-can-developers-do-with-the-power-bi-api"></a>开发人员可以使用 Power BI API 做什么？
 
@@ -24,12 +24,12 @@ ms.locfileid: "58872561"
 
 以下是一些可以使用 Power BI API 执行的操作。
 
-| **了解详细信息** | **参考此信息** |
+| **若要了解详细信息** | **参考此信息** |
 |----------------------------------------------------------------------------------|------------------------------------------------------------------------------------|
-| 为 Power BI 用户和非 Power BI 用户嵌入仪表板、报表和磁贴。 | [如何嵌入 Power BI 仪表板、报表和磁贴 ](embedding-content.md) |
+| 为 Power BI 用户和非 Power BI 用户嵌入仪表板、报表和磁贴。 | [如何嵌入 Power BI 仪表板、 报表和磁贴 ](embedding-content.md) |
 | 在 Power BI 对象上执行管理任务。 | [Power BI REST API 引用](https://docs.microsoft.com/rest/api/power-bi/) |
 | 扩展现有业务工作流以将关键数据推送到 Power BI 仪表板。 | [将数据推送到仪表板 ](walkthrough-push-data.md) |
-| 进行 Power BI 身份验证。 | [进行 Power BI 身份验证 ](get-azuread-access-token.md) |
+| 进行 Power BI 身份验证。 | [向 Power BI 进行身份验证 ](get-azuread-access-token.md) |
 
 > [!NOTE]
 > Power BI API 仍以组的形式引用应用工作区。 对组的任何引用都意味着正使用应用工作区工作。
@@ -38,7 +38,7 @@ ms.locfileid: "58872561"
 
 | 工具 | 说明 |  |  |
 |-------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------|---|---|
-| [操场工具](https://microsoft.github.io/PowerBI-JavaScript/demo) | 体验有关使用 Power BI JavaScript API 的完整示例。 此工具也是演练不同类型的 Power BI Embedded 示例的快速方法。 |  |  |
+| [演练中心工具](https://microsoft.github.io/PowerBI-JavaScript/demo) | 体验有关使用 Power BI JavaScript API 的完整示例。 此工具也是演练不同类型的 Power BI Embedded 示例的快速方法。 |  |  |
 | [Power BI JavaScript wiki](https://github.com/Microsoft/powerbi-javascript/wiki) | 获取有关 Power BI JavaScript API 的详细信息。 |  |  |
 | [Postman](https://www.getpostman.com/) | 运行请求，进行测试、调试和监视，还可运行自动测试等等。 |
 
@@ -58,7 +58,7 @@ ms.locfileid: "58872561"
 
 * [将数据推送到数据集](walkthrough-push-data.md)
 * [开发 Power BI 自定义视觉对象](custom-visual-develop-tutorial.md)
-* [Power BI REST API 引用](rest-api-reference.md)
+* [Power BI REST API 参考](rest-api-reference.md)
 * [Power BI REST API](https://docs.microsoft.com/rest/api/power-bi/)
 
-更多问题？ [请尝试咨询 Power BI 社区](http://community.powerbi.com/)
+更多问题？ [尝试咨询 Power BI 社区](http://community.powerbi.com/)

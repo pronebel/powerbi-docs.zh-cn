@@ -11,11 +11,11 @@ ms.date: 12/10/2018
 ms.author: maggies
 LocalizationGroup: Dashboards
 ms.openlocfilehash: 61d7bf9f9794545e963ca19c8f983d6d6cfefa54
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54286878"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61150365"
 ---
 # <a name="intro-to-dashboards-for-power-bi-designers"></a>Power BI 设计器的仪表板简介
 
@@ -27,7 +27,7 @@ Power BI“仪表板”是通过可视化效果讲述故事的单个页面，常
 
 ## <a name="dashboard-basics"></a>仪表板基础知识 
 
-仪表板上的可视化效果称为“磁贴”。 从报表将磁贴“固定”到仪表板。 如果不熟悉 Power BI，可以通过阅读 [Power BI 基本概念](service-basic-concepts.md)详细了解基础知识。
+仪表板上的可视化效果称为“磁贴”  。 从报表将磁贴“固定”到仪表板  。 如果不熟悉 Power BI，可以通过阅读 [Power BI 基本概念](service-basic-concepts.md)详细了解基础知识。
 
 > [!IMPORTANT]
 > 需要 [Power BI Pro](service-free-vs-pro.md) 许可证方可创建仪表板。
@@ -52,7 +52,7 @@ Power BI“仪表板”是通过可视化效果讲述故事的单个页面，常
 | 订阅 |可订阅仪表板 |可以订阅报表页面 |
 | 筛选 |无法筛选或切片 |许多不同的方式来筛选、突出显示和切片 |
 | 特色 |可以将一个仪表板设置为“精选”仪表板 |无法创建精选报表 |
-| 收藏夹 | 可将仪表板设置为“收藏夹” | 可将报表设置为“收藏夹”
+| 收藏夹 | 可将仪表板设置为“收藏夹”  | 可将报表设置为“收藏夹” 
 | 设置警报 |可在某些情况下用于仪表板磁贴 |从报表不可用 |
 | 自然语言查询（“问答”） |在仪表板中可用 | 在报表中可用 |
 | 可以看到基础数据集表和字段 |不行。 可以导出数据，但看不到仪表板本身的表和字段。 |是的。 可以查看数据集表和字段以及值。 |

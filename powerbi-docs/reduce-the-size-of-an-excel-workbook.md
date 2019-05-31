@@ -11,11 +11,11 @@ ms.date: 01/10/2019
 ms.author: davidi
 LocalizationGroup: Data from files
 ms.openlocfilehash: 111e38fd37bcdfa2a72986bb08a37d89345bbe69
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54282255"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "60972603"
 ---
 # <a name="reduce-the-size-of-an-excel-workbook-to-view-it-in-power-bi"></a>减小 Excel 工作簿的大小以便在 Power BI 中进行查看
 你可以将任何小于 1 GB 的 Excel 工作簿上载到 Power BI。 Excel 工作簿包括两个部分：数据模型和报表的其余部分—核心的工作表内容。 如果报表满足下面的大小限制，那么可以将其保存到 **OneDrive for Business**、从 Power BI 中连接它，以及在 Excel Online 中查看它：
@@ -48,10 +48,10 @@ ms.locfileid: "54282255"
 
 将数据导入 Excel 时，请遵循以下提示：
 
-* 在 Power Query 中：取消选中“加载到工作表”框。
+*  在 Power Query 中：取消选中“加载到工作表”  框。
   
   数据将只导入到数据模型中，Excel 工作表中不含数据。
-* 如果之前在导入向导中勾选了“表格”，则在“Excel 数据”选项卡中：转到“现有连接”\>单击“连接”\>仅创建连接”。 删除在初始导入过程中创建的原始表或表。
+* 如果之前在导入向导中勾选了“表格”  ，则在“Excel 数据”  选项卡中：转到  “现有连接”\>单击“连接”\>仅创建连接”  。 删除在初始导入过程中创建的原始表或表。
 * 在 **Excel 数据**选项卡中：请勿选中**导入数据**框中的**表**。
 
 ## <a name="workbook-size-optimizer"></a>工作簿大小优化器

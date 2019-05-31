@@ -1,3 +1,11 @@
+---
+ms.openlocfilehash: e3f21c41bb0cf97db8b988a80d9792e1ba0b0b4f
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61396221"
+---
 切片器是一种功能强大的可视化效果，尤其是它可作为繁重报表的一部分。 **切片器**是 **Power BI Desktop** 中的一种画布内视觉筛选器，查看报表的任何用户都可使用它按年份或地理位置等特定值来分割数据。
 
 若要向报表添加切片器，请从**可视化效果**窗格中选择**切片器**。

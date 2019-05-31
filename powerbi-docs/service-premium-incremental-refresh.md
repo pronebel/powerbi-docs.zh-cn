@@ -3,19 +3,19 @@ title: Power BI Premium 中的增量刷新
 description: 了解如何在 Power BI Premium 服务中启用大型数据集。
 author: christianwade
 manager: kfile
-ms.reviewer: ''
+ms.reviewer: kayu
 ms.service: powerbi
 ms.component: powerbi-admin
 ms.topic: conceptual
-ms.date: 01/24/2019
+ms.date: 05/10/2019
 ms.author: chwade
 LocalizationGroup: Premium
-ms.openlocfilehash: caa350274b7af62078098d9ef7730046f6e14627
-ms.sourcegitcommit: d010b10bc14097a1948daeffbc91b864bd91f7c8
-ms.translationtype: HT
+ms.openlocfilehash: b338044433d1d87f07ab38d64c15974a1cfaa173
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/13/2019
-ms.locfileid: "56225974"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "65536138"
 ---
 # <a name="incremental-refresh-in-power-bi-premium"></a>Power BI Premium 中的增量刷新
 
@@ -31,7 +31,7 @@ ms.locfileid: "56225974"
 
 增量刷新策略在 Power BI Desktop 中进行定义，并在发布到 Power BI 服务时应用。
 
-若要开始，请启用“预览版功能”中的增量刷新。
+若要开始，请启用“预览版功能”中的增量刷新  。
 
 ![选项 - 预览版功能](media/service-premium-incremental-refresh/preview-features.png)
 
@@ -41,26 +41,26 @@ Power BI Desktop 模型可能不适合处理具有可能数十亿行的大型数
 
 #### <a name="rangestart-and-rangeend-parameters"></a>RangeStart 和 RangeEnd 参数
 
-对于增量刷新，数据集使用名称为 RangeStart 和 RangeEnd（为保留名称且区分大小写）的 Power Query 日期/时间参数进行筛选。 这些参数用于筛选导入 Power BI Desktop 的数据，还用于在将数据发布到 Power BI 服务后将其动态地划分为多个范围。 参数值由服务进行替换，以筛选每个分区。 发布后，Power BI 服务会自动替代参数值。 无需在服务的数据集设置中进行设置。 发布后，Power BI 服务会自动替代参数值。 
+对于增量刷新，数据集使用名称为 RangeStart 和 RangeEnd（为保留名称且区分大小写）的 Power Query 日期/时间参数进行筛选   。 这些参数用于筛选导入 Power BI Desktop 的数据，还用于在将数据发布到 Power BI 服务后将其动态地划分为多个范围。 参数值由服务进行替换，以筛选每个分区。 发布后，Power BI 服务会自动替代参数值。 无需在服务的数据集设置中进行设置。 发布后，Power BI 服务会自动替代参数值。 
 
-若要使用默认值定义参数，请选择 Power Query 编辑器中的“管理参数”。
+若要使用默认值定义参数，请选择 Power Query 编辑器中的“管理参数”  。
 
 ![管理参数](media/service-premium-incremental-refresh/manage-parameters.png)
 
-借助已定义的参数，可通过为列选择“自定义筛选器”菜单选项来应用筛选。
+借助已定义的参数，可通过为列选择“自定义筛选器”菜单选项来应用筛选  。
 
 ![自定义筛选器](media/service-premium-incremental-refresh/custom-filter.png)
 
-当列值在 RangeStart 上或其后且在 RangeEnd 之前时，请务必筛选行。
+当列值在 RangeStart 上或其后且在 RangeEnd 之前时，请务必筛选行     。
 
 ![筛选行](media/service-premium-incremental-refresh/filter-rows.png)
 
 > [!TIP]
-> 虽然参数的数据类型必须是日期/时间，但可进行转换以符合数据源的要求。 例如，下面的 Power Query 函数将日期/时间值转换为类似于 yyyymmdd 形式的整数代理键，这对数据仓库而言非常常见。 此函数可通过筛选步骤调用。
+> 虽然参数的数据类型必须是日期/时间，但可进行转换以符合数据源的要求。 例如，下面的 Power Query 函数将日期/时间值转换为类似于 yyyymmdd 形式的整数代理键，这对数据仓库而言非常常见  。 此函数可通过筛选步骤调用。
 >
 > `(x as datetime) => Date.Year(x)*10000 + Date.Month(x)*100 + Date.Day(x)`
 
-在 Power Query 编辑器中选择“关闭并应用”。 必须具备 Power BI Desktop 中数据集的子集。
+在 Power Query 编辑器中选择“关闭并应用”  。 必须具备 Power BI Desktop 中数据集的子集。
 
 #### <a name="filter-date-column-updates"></a>筛选日期列更新
 
@@ -116,7 +116,7 @@ Power BI 服务中的第一次刷新可能需要更长时间才能导入全部�
 
 #### <a name="detect-data-changes"></a>检测数据更改
 
-10 天的增量刷新比 5 年的完全刷新更有效。 但是，还可以做得更好。 如果选中“检测数据更改”复选框，则可选择用于仅标识和刷新数据更改日期的日期/时间列。 此操作假定源系统中存在通常用于审核的列。 这不应与用于使用 RangeStart/RangeEnd 参数对数据进行分区的列相同。 将针对增量范围中的每个周期评估此列的最大值。 如果自上次刷新后未更改，则无需刷新周期。 在示例中，这可将增量刷新的天数从 10 天进一步减少到 2 天左右。
+10 天的增量刷新比 5 年的完全刷新更有效。 但是，还可以做得更好。 如果选中“检测数据更改”复选框，则可选择用于仅标识和刷新数据更改日期的日期/时间列  。 此操作假定源系统中存在通常用于审核的列。  这不应与用于使用 RangeStart/RangeEnd 参数对数据进行分区的列相同。 将针对增量范围中的每个周期评估此列的最大值。 如果自上次刷新后未更改，则无需刷新周期。 在示例中，这可将增量刷新的天数从 10 天进一步减少到 2 天左右。
 
 ![检测更改](media/service-premium-incremental-refresh/detect-changes.png)
 
@@ -160,3 +160,7 @@ let
 in
     #"Filtered Rows"
 ```
+
+## <a name="limitations"></a>限制
+
+当前，对于[复合模型](desktop-composite-models.md)，增量刷新支持 SQL、 Oracle 和 Teradata 数据源仅。

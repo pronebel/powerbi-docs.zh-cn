@@ -12,11 +12,11 @@ ms.date: 01/24/2019
 ms.author: mihart
 LocalizationGroup: Getting started
 ms.openlocfilehash: d828748cf4b625ee555bbc98b91b3ec0c6d85365
-ms.sourcegitcommit: a054782370dec56d49bb205ee10b7e2018f22693
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/22/2019
-ms.locfileid: "56661439"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61049793"
 ---
 # <a name="sign-in-to-power-bi-service"></a>登录 Power BI 服务
 
@@ -26,7 +26,7 @@ ms.locfileid: "56661439"
 ## <a name="sign-in-for-the-first-time"></a>首次登录
 
 ### <a name="step-one-open-a-browser"></a>第一步：打开浏览器
-Power BI 服务在浏览器中运行。  因此，第一步是打开偏好的浏览器并输入 app.powerbi.com。
+Power BI 服务在浏览器中运行。  因此，第一步是打开偏好的浏览器并输入 app.powerbi.com  。
 
 ![进行输入的浏览器字段](media/end-user-sign-in/power-bi-sign-in.png)
 
@@ -40,14 +40,14 @@ Power BI 服务在浏览器中运行。  因此，第一步是打开偏好的浏
 
  
 ### <a name="step-three-create-a-new-password"></a>第三步：创建新密码
-如果 Power BI 管理员发送了临时密码，请在“当前密码”字段中输入它。 如果尚未在电子邮件中收到此密码，请与 Power BI 管理员联系。
+如果 Power BI 管理员发送了临时密码，请在“当前密码”  字段中输入它。 如果尚未在电子邮件中收到此密码，请与 Power BI 管理员联系。
 
 ![在“登录”字段中输入的电子邮件地址](media/end-user-sign-in/power-bi-login2.png)
 
 Power BI 会记住凭据，你无需在下次登录时输入用户名（电子邮件地址）。 
 
 ### <a name="step-four-review-your-home-page"></a>第四步：查看主页
-进行首次访问之后，Power BI 会打开你的“主页”。 如果“主页”未打开，请从左侧导航窗格选择它。 
+进行首次访问之后，Power BI 会打开你的“主页”  。 如果“主页”  未打开，请从左侧导航窗格选择它。 
 
 ![在“登录”字段中输入的电子邮件地址](media/end-user-sign-in/power-bi-home-select.png)
 
@@ -55,10 +55,10 @@ Power BI 会记住凭据，你无需在下次登录时输入用户名（电子�
 
 ![在“登录”字段中输入的电子邮件地址](media/end-user-sign-in/power-bi-home2.png)
 
-如果不希望 Power BI 打开到“主页”，则可以改为[设置“特色”仪表板或报表](end-user-featured.md)进行打开。 
+如果不希望 Power BI 打开到“主页”，则可以改为[设置“特色”  仪表板或报表](end-user-featured.md)进行打开。 
 
 ## <a name="safely-interact-with-content"></a>安全地与内容交互
-作为使用者，其他人会与你共享内容，而你会与该内容交互以浏览数据并进行业务决策。  进行筛选、切片、订阅、导出和调整大小时，不要担心 — 你的工作不会影响基础数据集或原始共享内容（仪表板和报表）。 Power BI 是供你进行探索和试验的安全空间。 这并不意味着无法保存更改 — 可以保存。 但这些更改只会影响你的内容视图。 还原为原始默认视图如同单击按钮一样简单。
+作为使用者，其他人会与你共享内容，而你会与该内容交互以浏览数据并进行业务决策。  进行筛选、切片、订阅、导出和调整大小时，不要担心 — 你的工作不会影响基础数据集或原始共享内容（仪表板和报表）。 Power BI 是供你进行探索和试验的安全空间。 这并不意味着无法保存更改 — 可以保存。 但这些更改只会影响你的  内容视图。 还原为原始默认视图如同单击按钮一样简单。
 
 ## <a name="sign-out-of-power-bi-service"></a>注销 Power BI 服务
 关闭或注销 Power BI 时，更改会保存，因此可以就在离开的位置处继续。
@@ -67,7 +67,7 @@ Power BI 会记住凭据，你无需在下次登录时输入用户名（电子�
 
 ![选择 x 以关闭选项卡](media/end-user-sign-in/power-bi-close.png) 
 
-如果共享计算机，则建议在每次关闭 Power BI 时注销。  若要注销，请从右上角选择个人资料图片，然后选择“注销”。否则在完成时，只需关闭浏览器选项卡。
+如果共享计算机，则建议在每次关闭 Power BI 时注销。  若要注销，请从右上角选择个人资料图片，然后选择“注销”  。否则在完成时，只需关闭浏览器选项卡。
 
 ![选择了个人资料](media/end-user-sign-in/power-bi-sign-out.png) 
 

@@ -9,14 +9,14 @@ featuredvideoid: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 01/31/2019
+ms.date: 04/24/2019
 LocalizationGroup: Reports
-ms.openlocfilehash: 3f9195ecb4b8679ab65ad6535a85d4d271582d7d
-ms.sourcegitcommit: e05b3863c7758f639894d771193b98b12b93022a
-ms.translationtype: HT
+ms.openlocfilehash: cf640be131e1bffb571ad3c2ae2713dee1c4c0ca
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/02/2019
-ms.locfileid: "55648688"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "66051296"
 ---
 # <a name="filter-a-report-using-query-string-parameters-in-the-url"></a>通过在 URL 中添加查询字符串参数来筛选报表
 
@@ -38,24 +38,24 @@ URL?filter=***表***/***字段*** eq '***值***'
 
 ![带筛选器的 URL](media/service-url-filters/power-bi-filter-urls7b.png)
 
-* “表”和“字段”名称区分大小写，“值”不区分大小写。
+* “表”和“字段”名称区分大小写，“值”不区分大小写    。
 * 报表视图中隐藏的字段仍可供筛选。
 
 ### <a name="reports-in-apps"></a>应用中的报表
 
-如果要向应用中的报表添加 URL 筛选器，格式会略有不同。 应用中的报表链接有一个添加到 URL 中的查询参数 (ctid)。 查询参数需要用和号 (&) 分隔。 你需要在查询后面添加“&filter=”（在 ctid 参数后）而不是“?filter=”。 
+如果要向应用中的报表添加 URL 筛选器，格式会略有不同。 应用中的报表链接有一个添加到 URL 中的查询参数 (ctid)。 使用与符号分隔的查询参数 (&)。 保留"？ 筛选器 ="，并且将 ctid 参数移动到的 URL，末尾前面带有与号 (&)。 
 
 如以下示例所示：
 
-app.powerbi.com/groups/me/apps/*app-id*/reports/*report-id*/ReportSection?ctid=*ctid*&filter=*Table*/*Field* eq '*value*'
+app.powerbi.com/groups/me/apps/*应用程序 id*/reports/*报表 id*/ReportSection？ 筛选器 =*表*/*字段*eq '*值*& ctid =*ctid*
 
 ### <a name="field-types"></a>字段类型
 
 字段类型可以是数字、日期/时间或字符串，使用的类型必须与数据集中设置的类型匹配。  例如，如果要在设置为“日期”的数据集列集中查找日期/时间或数值（如 Table/StringColumn eq 1），无法将表列的类型指定为“字符串”。
 
-* “字符串”必须用单引号括起来 - 'manager name'。
-* “数字”无需特殊格式
-* “日期和时间”必须用单引号括起来。 在 OData v3 中，它们必须以日期/时间开头，但 OData v4 中无需日期/时间。
+* “字符串”必须用单引号括起来 - 'manager name'  。
+* “数字”无需特殊格式 
+* “日期和时间”必须用单引号括起来  。 在 OData v3 中，它们必须以日期/时间开头，但 OData v4 中无需日期/时间。
 
 如果仍感到困惑，请继续阅读，我们将分部分讲解。  
 
@@ -78,12 +78,12 @@ app.powerbi.com/groups/me/apps/*app-id*/reports/*report-id*/ReportSection?ctid=*
 ![带筛选器的 URL](media/service-url-filters/power-bi-filter-urls7.png)
 
 >[!NOTE]
->NC 是“Store”表的“Territory”字段中存储的值。
+>NC  是“Store”  表的“Territory”  字段中存储的值。
 > 
 
 我们的报表针对北卡罗来纳州进行了筛选；报表页上的所有可视化效果都只显示北卡罗来纳州的数据。
 
-![](media/service-url-filters/power-bi-report4.png)
+![报表针对北卡罗来纳筛选](media/service-url-filters/power-bi-report4.png)
 
 ## <a name="filter-on-multiple-fields"></a>筛选多个字段
 
@@ -93,7 +93,7 @@ app.powerbi.com/groups/me/apps/*app-id*/reports/*report-id*/ReportSection?ctid=*
 ?filter=Store/Territory eq 'NC'
 ```
 
-若要对其他字段进行筛选，请添加“and”和另一个采用上述相同格式的字段。 示例如下。
+若要对其他字段进行筛选，请添加“and”  和另一个采用上述相同格式的字段。 示例如下。
 
 ```
 ?filter=Store/Territory eq 'NC' and Store/Chain eq 'Fashions Direct'
@@ -103,7 +103,7 @@ app.powerbi.com/groups/me/apps/*app-id*/reports/*report-id*/ReportSection?ctid=*
 
 ## <a name="operators"></a>运算符
 
-除了“and”之外，Power BI 还支持其他许多运算符。 下表列出了这些运算符及其支持的内容类型。
+除了“and”  之外，Power BI 还支持其他许多运算符。 下表列出了这些运算符及其支持的内容类型。
 
 |运算符  | 定义 | 字符串  | 数字 | 日期 |  示例|
 |---------|---------|---------|---------|---------|---------|
@@ -117,7 +117,7 @@ app.powerbi.com/groups/me/apps/*app-id*/reports/*report-id*/ReportSection?ctid=*
 |**in\*\***     |  包括       | 是 | 是 |  是 | Student/Age in (27, 29)
 
 
-\*\* 使用 in 时，in 右侧的值可以是括在括号中的逗号分隔列表，也可以是返回集合的单个表达式。
+\*\* 使用 in  时，in  右侧的值可以是括在括号中的逗号分隔列表，也可以是返回集合的单个表达式。
 
 ### <a name="numeric-data-types"></a>数值数据类型
 
@@ -133,31 +133,31 @@ Power BI URL 筛选器可包含以下格式的数字。
 
 ### <a name="date-data-types"></a>日期数据类型
 
-Power BI 支持 Date 和 DateTimeOffset 数据类型 OData V3 和 V4。  由于日期的表示形式为 EDM 格式 (2019-02-12T00:00:00)，因此当你将日期指定为 YYYY-MM-DD 时，Power BI 将它解释为 YYYY-MM-DDT00:00:00。
+Power BI 支持 Date 和 DateTimeOffset 数据类型 OData V3 和 V4   。  使用 EDM 格式表示日期 (2019年-02-12T00:00:00)，因此，当指定为年-月-日日期时，Power BI 会将它解释为 YYYY-MM-DDT00:00:00。
 
-为什么这种区别很重要？ 假设你创建了一个查询字符串参数 Table/Date gt 2018-08-03。  结果是包括 2018 年 8 月 3 日，还是始于 2018 年 8 月 4 日？ 由于 Power BI 将查询转换为 Table/Date gt 2018-08-03T00:00:00，因此结果包含具有非零时间部分的任何日期，因为这些日期大于 2018-08-03T00:00:00。
+为什么这种区别很重要？ 假设您创建的查询字符串参数**表/日期 g t 2018年-08-03**。  结果是包括 2018 年 8 月 3 日，还是始于 2018 年 8 月 4 日？ 由于 Power BI 将转换到查询**表/日期 g t"2018年-08-03T00:00:00'** ，你的结果包含具有非零时间部分，因为这些日期将大于任何日期 **"2018年-08-03T00:00:00'** .
 
 ## <a name="special-characters-in-url-filters"></a>URL 筛选器中的特殊字符
 
-特殊字符和空格需要一些额外的格式设置。 如果查询包含空格、破折号或其他非 ASCII 字符，请使用转义码为这些特殊字符添加前缀，即以下划线字符和 X 开头 (_x)，后面依次跟四位 Unicode 和另一个下划线字符。 如果 Unicode 少于四个字符，需要用零填充。 下面是一些示例。
+特殊字符和空格需要一些额外的格式设置。 如果查询包含空格、破折号或其他非 ASCII 字符，请使用转义码  为这些特殊字符添加前缀，即以下划线字符和 X 开头 (_x  )，后面依次跟四位 Unicode  和另一个下划线字符。 如果 Unicode 少于四个字符，需要用零填充。 下面是一些示例。
 
 |标识符  |Unicode  | Power BI 的编码  |
 |---------|---------|---------|
 |**表名**     | 空间是 0x20        |  Table_x0020_Name       |
 |**Column**@**Number**     |   @ 是 0x40     |  Column_x0040_Number       |
-|**[Column]**     |  [ is 0x0058 ] 是 0x0050       |  _x0058_Column_x0050       |
+|**[Column]**     |  [ is 0x0058 ] 是 0x0050       |  _x0058_Column_x0050_       |
 |**Column+Plus**     | + 是 0x2B        |  Column_x002B_Plus       |
 
 Table_x0020_Name/Column_x002B_Plus eq 3![表视觉对象呈现特殊字符](media/service-url-filters/power-bi-special-characters1.png)
 
 
-Table_x0020_Special/x005B_Column_x0020_Brackets_x005D eq '[C]' ![表视觉对象呈现特殊字符](media/service-url-filters/power-bi-special-characters2.png)
+Table_x0020_Special/x005B_Column_x0020_Brackets_x005D eq '[C]' ![表视觉对象呈现特殊字符](media/service-url-filters/power-bi-special-characters2.png) 
 
 ## <a name="use-dax-to-filter-on-multiple-values"></a>使用 DAX 来对多个值进行筛选
 
 对多个字段进行筛选的另一方法是创建将两个字段合并成一个值的计算列。 然后，便可以筛选此值。
 
-例如，我们有以下两个字段：“Territory”和“Chain”。 在 Power BI Desktop 中，[新建一个计算列](desktop-tutorial-create-calculated-columns.md)（字段），并将其命名为“TerritoryChain”。 请注意，“字段”名称中不能有任何空格。 下面是此计算列的 DAX 公式。
+例如，我们有以下两个字段：“Territory”和“Chain”。 在 Power BI Desktop 中，[新建一个计算列](desktop-tutorial-create-calculated-columns.md)（字段），并将其命名为“TerritoryChain”。 请注意，  “字段”名称中不能有任何空格。 下面是此计算列的 DAX 公式。
 
 TerritoryChain = [Territory] & " - " & [Chain]
 
@@ -175,9 +175,9 @@ TerritoryChain = [Territory] & " - " & [Chain]
 
 使用查询字符串参数时，需要注意两点。
 
-* 使用 in 运算符时，in 右侧的值必须是括在括号中的逗号分隔列表。    
+* 使用 in 运算符时，in 右侧的值必须是括在括号中的逗号分隔列表   。    
 * 在 Power BI 报表服务器中，可以通过将报表参数包含到报表 URL 中来[传递报表参数](https://docs.microsoft.com/sql/reporting-services/pass-a-report-parameter-within-a-url?view=sql-server-2017.md)。 这些 URL 参数不带前缀，因为它们被直接传递到报表处理引擎。
-* 无法结合使用查询字符串筛选和[发布到 Web](service-publish-to-web.md)。
+* 查询字符串筛选不适用于[发布到 web](service-publish-to-web.md)或[导出为 PDF](consumer/end-user-pdf.md)。
 * [使用报表 Web 部件在 SharePoint Online 中嵌入报表](service-embed-report-spo.md)不支持 URL 筛选器。
 * 由于 Javascript 限制，长数据类型限制为 (2^53-1)。
 * 报表 URL 筛选器有 10 个表达式限制（通过 AND 连接的 10 个筛选器）。

@@ -1,20 +1,20 @@
 ---
 title: 使用 Office Online Server (OOS) 托管 Excel 工作簿 - Power BI 报表服务器
 description: 除了在 Web 门户中查看 Power BI 报表之外，Power BI 报表服务器也可以使用 Office Online Server (OOS) 来托管 Excel 工作簿。
-author: markingmyname
-ms.author: maghan
+author: maggiesMSFT
+ms.author: maggies
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 08/21/2018
-ms.openlocfilehash: bb87bc95e9d0bbde4d9239d172d341cbebb716cc
-ms.sourcegitcommit: 5e83fa6c93a0bc6599f76cc070fb0e5c1fce0082
-ms.translationtype: HT
+ms.openlocfilehash: 5585750fcd5e6237f3cb00591cf5841f91393b84
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/13/2019
-ms.locfileid: "56216829"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "64769586"
 ---
 # <a name="configure-your-report-server-to-host-excel-workbooks-using-office-online-server-oos"></a>使用 Office Online Server (OOS) 将报表服务器配置为托管 Excel 工作簿
 
@@ -56,12 +56,12 @@ ms.locfileid: "56216829"
 
 1. 从[批量许可服务中心 (VLSC)](http://go.microsoft.com/fwlink/p/?LinkId=256561) 下载 Office Online Server。 下载位置在 VLSC 门户上的 Office 产品下方。 出于开发目的，可以从 MSDN 订阅者下载页面下载 OOS。
 2. 运行 Setup.exe。
-3. 在“阅读 Microsoft 软件许可条款”页上，选择“我接受此协议的条款”，然后选择“继续”。
-4. 在“选择文件位置”页上，选择想要安装 Office Online Server 文件的文件夹（例如，C:\Program Files\Microsoft Office Web Apps\*），然后选择“立即安装”。 如果你指定的文件夹不存在，安装程序将为你创建一个。
+3. 在“阅读 Microsoft 软件许可条款”  页上，选择“我接受此协议的条款”  ，然后选择“继续”  。
+4. 在“选择文件位置”  页上，选择想要安装 Office Online Server 文件的文件夹（例如，C:\Program Files\Microsoft Office Web Apps\*），然后选择“立即安装”  。 如果你指定的文件夹不存在，安装程序将为你创建一个。
 
     建议将 Office Online Server 安装在系统驱动器上。
 
-5. 当安装程序完成 Office Online Server 安装时，选择“关闭”。
+5. 当安装程序完成 Office Online Server 安装时，选择“关闭”  。
 
 ### <a name="install-language-packs-for-office-web-apps-server-optional"></a>为 Office Web Apps 服务器安装语言包（可选）
 
@@ -70,9 +70,9 @@ Office Online Server 语言包可让用户以多种语言查看基于 Web 的 Of
 若要安装语言包，请按照下列步骤操作。
 
 1. 从 [Microsoft 下载中心](http://go.microsoft.com/fwlink/p/?LinkId=798136)下载 Office Online Server 语言包。
-2. 运行 wacserverlanguagepack.exe。
-3. 在 Office Online Server 语言包向导中的“阅读 Microsoft 软件许可条款”页上，选择“我接受此协议的条款”，然后选择“继续”。
-4. 当安装程序完成 Office Online Server 安装时，选择“关闭”。
+2. 运行 wacserverlanguagepack.exe  。
+3. 在 Office Online Server 语言包向导中的“阅读 Microsoft 软件许可条款”  页上，选择“我接受此协议的条款”  ，然后选择“继续”  。
+4. 当安装程序完成 Office Online Server 安装时，选择“关闭”  。
 
 ## <a name="deploy-office-online-server"></a>部署 Office Online Server
 
@@ -86,9 +86,9 @@ New-OfficeWebAppsFarm -InternalUrl "https://server.contoso.com" -ExternalUrl "ht
 
 **参数**
 
-* –InternalURL 是运行 Office Online Server 的服务器的完全限定的域名 (FQDN)，如 `http://servername.contoso.com`。
-* –ExternalURL 是在 Internet 上可访问的 FQDN。
-* –CertificateName 是证书的友好名称。
+*  –InternalURL 是运行 Office Online Server 的服务器的完全限定的域名 (FQDN)，如 `http://servername.contoso.com`。
+*  –ExternalURL 是在 Internet 上可访问的 FQDN。
+*  –CertificateName 是证书的友好名称。
 
 ### <a name="create-the-office-online-server-farm-http"></a>创建 Office Online Server 场 (HTTP)
 
@@ -100,12 +100,12 @@ New-OfficeWebAppsFarm -InternalURL "http://servername" -AllowHttp
 
 **参数**
 
-* –InternalURL 是运行 Office Online Server 的服务器的名称，如 `http://servername`。
-* –AllowHttp 将场配置为使用 HTTP。
+*  –InternalURL 是运行 Office Online Server 的服务器的名称，如 `http://servername`。
+*  –AllowHttp 将场配置为使用 HTTP。
 
 ### <a name="verify-that-the-office-online-server-farm-was-created-successfully"></a>验证 Office Online Server 场是否已成功创建
 
-创建场后，有关场的详细信息将显示在 Windows PowerShell 提示符下。 要验证 Office Online Server 是否已正确安装和配置，请使用 Web 浏览器访问 Office Online Server 发现 URL，如以下示例所示。 发现 URL 是配置 Office Online Server 场时指定的 InternalUrl 参数，后跟 /hosting/discovery，例如：
+创建场后，有关场的详细信息将显示在 Windows PowerShell 提示符下。 要验证 Office Online Server 是否已正确安装和配置，请使用 Web 浏览器访问 Office Online Server 发现 URL，如以下示例所示。 发现 URL 是配置 Office Online Server 场时指定的 InternalUrl  参数，后跟 /hosting/discovery  ，例如：
 
 ```
 <InternalUrl>/hosting/discovery
@@ -148,7 +148,7 @@ Set-OfficeWebAppsFarm -ExcelWarnOnDataRefresh:$false
 
 ## <a name="configure-a-power-pivot-instance-for-data-models"></a>配置数据模型的 Power Pivot 实例
 
-安装 Analysis Services Power Pivot 模式实例可让你使用正在使用 Power Pivot 的 Excel 工作簿。 请确保实例名称是 POWERPIVOT。 将 OOS 服务器的计算机帐户添加为 Analysis Services Power Pivot 模式实例的管理员。 为此，需要 Management Studio for SQL Server 2016 或更高版本。
+安装 Analysis Services Power Pivot 模式实例可让你使用正在使用 Power Pivot 的 Excel 工作簿。 请确保实例名称是 POWERPIVOT  。 将 OOS 服务器的计算机帐户添加为 Analysis Services Power Pivot 模式实例的管理员。 为此，需要 Management Studio for SQL Server 2016 或更高版本。
 
 为了使 OOS 使用 Power Pivot 模式实例，请运行以下命令。
 
@@ -164,19 +164,19 @@ Set-OfficeWebAppsFarm -ExcelAllowExternalData:$true
 
 ### <a name="firewall-considerations"></a>防火墙注意事项
 
-若要避免防火墙问题，可能需要打开端口 2382 和 2383。 还可以为 Power Pivot 实例添加 msmdsrv.exe 作为应用程序防火墙策略。
+若要避免防火墙问题，可能需要打开端口 2382 和 2383。 还可以为 Power Pivot 实例添加 msmdsrv.exe  作为应用程序防火墙策略。
 
 ## <a name="configure-power-bi-report-server-to-use-the-oos-server"></a>将 Power BI 报表服务器配置为使用 OOS 服务器
 
-在“站点设置”的“常规”页上，输入 OOS 发现 URL。 OOS 发现 URL 是 InternalUrl，在部署 OOS 服务器时使用，后跟 /hosting/discovery。 例如，`http://servername/hosting/discovery`（用于 HTTP）。 而 `https://server.contoso.com/hosting/discovery`（用于 HTTPS）。
+在“站点设置”的“常规”  页  上，输入 OOS 发现 URL。 OOS 发现 URL 是 InternalUrl  ，在部署 OOS 服务器时使用，后跟 /hosting/discovery  。 例如，`http://servername/hosting/discovery`（用于 HTTP）。 而 `https://server.contoso.com/hosting/discovery`（用于 HTTPS）。
 
-若要转到“站点设置”，请选择右上角的齿轮图标，然后选择“站点设置”。
+若要转到“站点设置”  ，请选择右上角的齿轮图标，然后选择“站点设置”   。
 
-只有具有“系统管理员”角色的用户才可看到 Office Online Server 发现 URL 设置。
+只有具有“系统管理员”角色的用户才可看到 Office Online Server 发现 URL 设置  。
 
 ![Power BI 报表服务器的站点设置。](media/excel-oos/reportserver-site-settings.png)
 
-输入发现 URL 并选择“应用”，在 Web 门户中选择 Excel 工作簿时，应在 Web 门户中显示该工作簿。
+输入发现 URL 并选择“应用”  ，在 Web 门户中选择 Excel 工作簿时，应在 Web 门户中显示该工作簿。
 
 ## <a name="limitations-and-considerations"></a>限制和注意事项
 

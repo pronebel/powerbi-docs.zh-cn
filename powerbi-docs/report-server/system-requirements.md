@@ -1,20 +1,20 @@
 ---
 title: 安装 Power BI 报表服务器所要满足的硬件和软件要求
 description: 本文列出了安装并运行 Power BI 报表服务器所要满足的最低硬件和软件要求。
-author: markingmyname
-ms.author: maghan
+author: maggiesMSFT
+ms.author: maggies
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 11/08/2018
-ms.openlocfilehash: 28ff098c0f9e228b485a7eb94830ba3736a1463f
-ms.sourcegitcommit: 20ae9e9ffab6328f575833be691073de2061a64d
-ms.translationtype: HT
+ms.openlocfilehash: 063ab8083c3091a7a41ca30e9045ce3a791112d2
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/22/2019
-ms.locfileid: "58383499"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "64770031"
 ---
 # <a name="hardware-and-software-requirements-for-installing-power-bi-report-server"></a>安装 Power BI 报表服务器所要满足的硬件和软件要求
 
@@ -26,8 +26,8 @@ ms.locfileid: "58383499"
 | --- | --- |
 | .NET Framework |4.6<br><br>可以从[适用于 Windows 的 Microsoft.NET Framework 4.6（Web 安装程序）](http://support.microsoft.com/kb/3045560)手动安装 .NET Framework。<br/><br/> 有关 .NET Framework 4.6 的详细信息、建议和指南，请参阅[面向开发者的 .NET Framework 部署指南](http://msdn.microsoft.com/library/ee942965\(v=vs.110\).aspx)。<br/><br/>Windows 8.1 和 Windows Server 2012 R2 中必须有 [KB2919355](http://support.microsoft.com/kb/2919355)，才能安装 .NET Framework 4.6。 |
 | 硬盘 |Power BI 报表服务器至少需要 1 GB 的可用硬盘空间。<br><br>托管报表服务器数据库的数据库服务器上必须有额外空间。 |
-| 内存 |最低：1GB<br/><br/> **推荐：** 不小于 4 GB |
-| 处理器速度 |最小：x64 处理器：1.4 GHz<br/><br/> **推荐：** 2.0 GHz 或更快 |
+| 内存 |最低：  1GB<br/><br/> **推荐：** 不小于 4 GB |
+| 处理器速度 |最小：  x64 处理器：1.4 GHz<br/><br/> **推荐：** 2.0 GHz 或更快 |
 | 处理器类型 |x64 处理器:AMD Opteron、AMD Athlon 64、支持 Intel EM64T 的 Intel Xeon、支持 EM64T 的 Intel Pentium IV |
 | 操作系统 |Windows Server 2019 Datacenter<br><br>Windows Server 2019 Standard<br><br>Windows Server 2016 Datacenter<br><br>Windows Server 2016 Standard<br><br>Windows Server 2012 R2 Datacenter<br><br>Windows Server 2012 R2 Standard<br><br>Windows Server 2012 R2 Essentials<br><br>Windows Server 2012 R2 Foundation<br><br>Windows Server 2012 Datacenter<br><br>Windows Server 2012 Standard<br><br>Windows Server 2012 Essentials<br><br>Windows Server 2012 Foundation<br><br>Windows 10 家庭版<br><br>Windows 10 专业版<br><br>Windows 10 企业版<br><br>Windows 8.1<br><br>Windows 8.1 专业版<br><br>Windows 8.1 企业版<br><br>Windows 8<br><br>Windows 8 专业版<br><br>Windows 8 企业版 |
 
@@ -54,7 +54,7 @@ Power BI 报表服务器将安装默认值，以配置报表服务器正常运�
 * [SQL Server 各版本支持的 Reporting Services 功能](https://docs.microsoft.com/sql/reporting-services/reporting-services-features-supported-by-the-editions-of-sql-server-2016)概述了 SQL Server 各版本之间的差异。
 * 运行安装程序的用户帐户必须是本地管理员组的成员。
 * 运行 Reporting Services 配置管理器的用户帐户必须有权在托管报表服务器数据库的数据库引擎实例上访问并创建数据库。
-* 安装程序必须能够使用默认值来保留 URL，从而提供对报表服务器和 Web 门户的访问权限。 这些值为端口 80、强通配符以及格式为 ReportServer 和 Reports 的虚拟目录名称。
+* 安装程序必须能够使用默认值来保留 URL，从而提供对报表服务器和 Web 门户的访问权限。 这些值为端口 80、强通配符以及格式为 ReportServer  和 Reports  的虚拟目录名称。
 
 ## <a name="read-only-domain-controller-rodc"></a>只读域控制器 (RODC)
 

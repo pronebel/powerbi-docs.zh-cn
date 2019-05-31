@@ -12,11 +12,11 @@ ms.date: 10/24/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
 ms.openlocfilehash: 0106c59c5fc4d122205a144d85a6e7f643c5a429
-ms.sourcegitcommit: 80961ace38ff9dac6699f81fcee0f7d88a51edf4
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/13/2019
-ms.locfileid: "56223389"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61279476"
 ---
 # <a name="tables-in-power-bi-reports-and-dashboards"></a>Power BI 报表和仪表板中的表
 表是以逻辑序列的行和列表示的包含相关数据的网格。 它还包含标头和合计行。 表格可以进行数量比较，可以在其中查看单个类别的多个值。 例如，该表显示了**类别**的 5 个不同的度量值。
@@ -40,13 +40,13 @@ ms.locfileid: "56223389"
 - 零售分析示例
 
 ## <a name="create-a-table"></a>创建表
-我们将创建上图所示的表，以按项目类别显示销售值。 若要跟着介绍一起操作，请登录 Power BI 服务，并依次选择“获取数据”**\>“示例”\>“零售分析示例”>“连接”**，再选择“转至仪表板”。 创建可视化效果需要对数据集和报表拥有编辑权限。 幸运的是，所有 Power BI 示例都是可以编辑的。 如果报表已与你共享，则无法在报表中创建可视化效果。
+我们将创建上图所示的表，以按项目类别显示销售值。 若要跟着介绍一起操作，请登录 Power BI 服务，并依次选择“获取数据” **\>“示例”\>“零售分析示例”>“连接”** ，再选择“转至仪表板”。  创建可视化效果需要对数据集和报表拥有编辑权限。 幸运的是，所有 Power BI 示例都是可以编辑的。 如果报表已与你共享，则无法在报表中创建可视化效果。
 
-1. 在左侧导航窗格中，选择“工作区 > 我的工作区”。    
-2. 选择“数据集”选项卡，然后向下滚动到你刚才添加的“零售分析示例”数据集。  选择“创建报表”图标。
+1. 在左侧导航窗格中，选择“工作区 > 我的工作区”  。    
+2. 选择“数据集”选项卡，然后向下滚动到你刚才添加的“零售分析示例”数据集。  选择“创建报表”  图标。
 
     ![指向报表图标](media/power-bi-visualization-tables/power-bi-create-report.png)
-2. 在报表编辑器中，选择“项” > “类别”。  Power BI 会自动创建一个表，该表列出所有类别。
+2. 在报表编辑器中，选择“项”   > “类别”  。  Power BI 会自动创建一个表，该表列出所有类别。
 
     ![添加类别的结果](media/power-bi-visualization-tables/power-bi-table1.png)
 3. 选择“**销售 > 平均单价**和“**销售 > 去年销售额**”以及“**销售 > 本年度销售额**”，并选择所有 3 个选项（值、目标和状态）。   
@@ -71,7 +71,7 @@ ms.locfileid: "56223389"
 
     ![表中的标题格式](media/power-bi-visualization-tables/power-bi-table-column2.png)
 
-* 甚至可以将格式设置应用于单个列和列标题。 首先展开“字段格式设置”，并从下拉列表选择要设置格式的列。 根据列值，字段格式设置允许你设置以下内容：显示单位、字体颜色、小数位数、背景、对齐方式等等。 在调整设置后，确定是否将这些设置应用到标头和总计行。
+* 甚至可以将格式设置应用于单个列和列标题。 首先展开“字段格式设置”  ，并从下拉列表选择要设置格式的列。 根据列值，字段格式设置允许你设置以下内容：显示单位、字体颜色、小数位数、背景、对齐方式等等。 在调整设置后，确定是否将这些设置应用到标头和总计行。
 
     ![本年度销售额的字段格式](media/power-bi-visualization-tables/power-bi-field-formatting.png)
 
@@ -80,44 +80,44 @@ ms.locfileid: "56223389"
     ![到目前为止包含所有格式的表](media/power-bi-visualization-tables/power-bi-table-format.png)
 
 ### <a name="conditional-formatting"></a>条件格式
-一种类型的格式设置称为条件格式设置，可应用于 Power BI 服务或桌面的“可视化效果”窗格的“值”框的字段中。 
+一种类型的格式设置称为条件格式设置  ，可应用于 Power BI 服务或桌面的“可视化效果”  窗格的“值”  框的字段中。 
 
 通过表的条件格式设置，可以根据单元格值指定自定义单元格背景色和字体颜色，包括使用渐变色。 
 
-1. 在 Powr BI Desktop 服务或桌面的“可视化效果”窗格中，在要设置其格式的“值”框中，选择值旁边的向下箭头（或右键单击该字段）。 只能管理“字段”格的“值”区域中字段的条件格式。
+1. 在 Powr BI Desktop 服务或桌面的“可视化效果”  窗格中，在要设置其格式的“值”  框中，选择值旁边的向下箭头（或右键单击该字段）。 只能管理“字段”  格的“值”  区域中字段的条件格式。
 
     ![背景色阶的路径](media/power-bi-visualization-tables/power-bi-conditional-formatting-background.png)
-2. 选择“背景色阶”。 在随即显示的对话框中，可以配置颜色，以及最小和最大值。 如果选择“散射”框，还可以配置一个可选的“居中”值。
+2. 选择“背景色阶”  。 在随即显示的对话框中，可以配置颜色，以及最小和最大值。   如果选择“散射”  框，还可以配置一个可选的“居中”  值。
 
     ![背景色阶屏幕](media/power-bi-visualization-tables/power-bi-conditional-formatting-background2.png)
 
-    我们将某些自定义格式设置应用于“平均单价”值。 选择“散射”，添加一些颜色，然后选择“确定”。 
+    我们将某些自定义格式设置应用于“平均单价”值。 选择“散射”  ，添加一些颜色，然后选择“确定”  。 
 
     ![显示散射色的表](media/power-bi-visualization-tables/power-bi-conditional-formatting-data-background.png)
-3. 将新字段添加到具有正值和负值的表中。  选择“销售额”>“总销售差额”。 
+3. 将新字段添加到具有正值和负值的表中。  选择“销售额”>“总销售差额”  。 
 
     ![显示一个最右侧的新字段](media/power-bi-visualization-tables/power-bi-conditional-formatting2.png)
-4. 添加数据条条件格式设置，方法是选择“总销售差额”旁边的向下箭头，然后选择“条件格式设置”>“数据条”。
+4. 添加数据条条件格式设置，方法是选择“总销售差额”  旁边的向下箭头，然后选择“条件格式设置”>“数据条”  。
 
     ![用于选择数据栏的路径](media/power-bi-visualization-tables/power-bi-conditional-formatting-data-bars.png)
-5. 在出现的对话框中，依次设置“正值条形图”、“负值条形图”的颜色，在“仅显示数据条”旁边放置一个选中标记，并进行所需的任何其他更改。
+5. 在出现的对话框中，依次设置“正值条形图”  、“负值条形图”  的颜色，在“仅显示数据条”  旁边放置一个选中标记，并进行所需的任何其他更改。
 
     ![用于仅显示条形图的选中标记](media/power-bi-visualization-tables/power-bi-data-bars.png)
 
-    当选择“确定”时，数据条会替换表格中的数字值，使其更易于扫描。
+    当选择“确定”  时，数据条会替换表格中的数字值，使其更易于扫描。
 
     ![相同的表但在最后一列中有条形](media/power-bi-visualization-tables/power-bi-conditional-formatting-data-bars2.png)
 6. 若要从可视化效果中删除条件格式，只需再次右键单击该字段，并选择**删除条件格式**即可。
 
 > [!TIP]
-> 还可以在“格式设置”窗格（滚动油漆刷图标）中进行条件格式设置。 选择要设置其格式的值，然后将“色阶”或“数据条”设置为“打开”以应用默认设置，或者，若要自定义设置，请选择“高级控件”。
+> 还可以在“格式设置”窗格（滚动油漆刷图标）中进行条件格式设置。 选择要设置其格式的值，然后将“色阶”  或“数据条”  设置为“打开”  以应用默认设置，或者，若要自定义设置，请选择“高级控件”  。
 > 
 ## <a name="copy-values-from-power-bi-tables-for-use-in-other-applications"></a>复制 Power BI 表中的值以供在其他应用程序中使用
 
 表或矩阵可能具有你想要在其他应用程序中使用的内容，例如 Dynamics CRM、Excel、甚至其他 Power BI 报表。 通过右键单击 Power BI，可以将单个单元格或选定的单元格复制到剪贴板，并粘贴到其他应用程序。
 
 
-* 若要复制单个单元格的值，选择单元格，右键单击，并选择“复制值”。 现在可以将此剪贴板上未格式化的单元格值粘贴到其他应用程序。
+* 若要复制单个单元格的值，选择单元格，右键单击，并选择“复制值”  。 现在可以将此剪贴板上未格式化的单元格值粘贴到其他应用程序。
 
     ![复制选项](media/power-bi-visualization-tables/power-bi-copy-value.png)
 
@@ -135,7 +135,7 @@ ms.locfileid: "56223389"
 ![调整列大小的视频特写](media/power-bi-visualization-tables/resizetable.gif)
 
 ## <a name="considerations-and-troubleshooting"></a>注意事项和疑难解答
-* 应用列格式时，每列只能选择一个对齐选项：自动、左对齐、居中和右对齐。 通常情况下，一个列包含的内容全部为文本或全部为数字，而不是二者的混合。 但如果某列同时包含数字和文本，选择“自动”选项时，文本左对齐、数字右对齐。 此行为支持从左往右阅读的语言。   
+* 应用列格式时，每列只能选择一个对齐选项：自动、左对齐、居中和右对齐。 通常情况下，一个列包含的内容全部为文本或全部为数字，而不是二者的混合。 但如果某列同时包含数字和文本，选择“自动”选项时，文本左对齐、数字右对齐  。 此行为支持从左往右阅读的语言。   
 
 ## <a name="next-steps"></a>后续步骤
 

@@ -1,62 +1,59 @@
 ---
 title: 使用 Premium Capacity Metrics 应用监视 Power BI Premium 功能。
 description: 使用 Power BI 管理门户和 Power BI Premium Capacity Metrics 应用
-author: minewiskan
-ms.author: owend
+author: mgblythe
+ms.author: mblythe
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
-ms.date: 02/25/2019
+ms.date: 03/27/2019
 LocalizationGroup: Premium
-ms.openlocfilehash: ac6559ccc9e6dbdf8c4be0550d8522765a4a8b23
-ms.sourcegitcommit: 8fda7843a9f0e8193ced4a7a0e5c2dc5386059a6
-ms.translationtype: HT
+ms.openlocfilehash: 5a8db746606e42b4e9b094dc6d17d6d2e0f08f67
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/18/2019
-ms.locfileid: "58174904"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "65565314"
 ---
 # <a name="monitor-premium-capacities-with-the-app"></a>使用应用监视高级容量
 
-监视容量对于正确决定如何充分利用高级容量资源至关重要。 可以在管理门户中或使用 Power BI Premium Capacity Metrics 应用监视容量。 本文介绍如何使用 Premium Capacity Metrics 应用。 应用提供有关容量性能的深度信息。 有关过去七天内平均使用量指标的更高级别概述，可以使用管理门户。 要了解在门户中监视的详细信息，请参阅[在管理门户中监视高级容量](service-admin-premium-monitor-portal.md)。
+监视容量对于正确决定如何充分利用高级容量资源至关重要。 可以在管理门户中或使用 Power BI Premium Capacity Metrics 应用监视容量  。 本文介绍如何使用 Premium Capacity Metrics 应用。 应用提供有关容量性能的深度信息。 有关过去七天内平均使用量指标的更高级别概述，可以使用管理门户。 要了解在门户中监视的详细信息，请参阅[在管理门户中监视高级容量](service-admin-premium-monitor-portal.md)。
 
-应用定期更新新特性和新功能。 请确保正在运行最新版本。   
-**应用的最新版本为 1.10.1.2（2019 年 2 月 22 日）**。   
-如果已安装上个版本，则最好将其从应用中删除，然后按 Ctrl+F5 进行刷新。 
+应用定期更新新特性和新功能。 请确保你运行的最新版本。 如果已安装上个版本，则最好将其从应用中删除，然后按 Ctrl+F5 进行刷新。 
 
 ## <a name="install-the-app"></a>安装应用
 
 可以直接转到 [Premium Capacity Metrics 应用](https://app.powerbi.com/groups/me/getapps/services/capacitymetrics)，也可以像在 Power BI 中操作其他应用一样安装它。
 
 
-1. 在 Power BI 中，单击“应用”。   
+1. 在 Power BI 中，单击“应用”  。   
     ![转到应用](media/service-admin-premium-monitor-capacity/apps.png)
 
-2. 在右侧，单击“获取应用”。
-3. 在“应用”类别中，搜索“Power BI Premium Capacity Metrics 应用”。
+2. 在右侧，单击“获取应用”  。
+3. 在“应用”  类别中，搜索“Power BI Premium Capacity Metrics 应用”  。
 4. 订阅以安装应用。
 
 请耐心等待。 安装和刷新指标需要几分钟。 如果应用显示空白指标，请按 F5 刷新浏览器。
 
-
 ## <a name="get-app-refresh-history"></a>获取应用刷新历史记录
 
-要查看上一次刷新 Premium Capacity Metrics 应用的时间，请单击“设置” > “数据集” > “Power BI Premium Capacity Metrics” > “刷新历史记录”。 
+要查看上一次刷新 Premium Capacity Metrics 应用的时间，请单击“设置” > “数据集” > “Power BI Premium Capacity Metrics” > “刷新历史记录”     。 
 
 ![“设置”中的刷新历史记录](media/settings-refresh-history.png)
 
-随即显示上次刷新时间，或单击“刷新历史记录”查看计划或按需刷新。
+随即显示上次刷新时间，或单击“刷新历史记录”查看计划或按需刷新  。
 
 ![上次刷新时间](media/service-admin-premium-monitor-capacity/settings-last-refresh.png)
 
 ## <a name="monitor-capacities-with-the-app"></a>使用应用监视容量
 
-现在你已经安装了应用，可以查看有关组织容量的指标。 应用提供[仪表板](#Dashboard)，其中包含指标摘要和详细指标[报表](#Reports)。
+现在你已经安装了应用，可以查看有关组织容量的指标。 应用程序提供仪表板使用指标摘要和详细的指标报告。
 
 ### <a name="dashboard"></a>仪表板
 
-若要查看汇总了你作为管理员的主要容量指标的仪表板，请在“仪表板”中单击“Power BI Premium 容量指标”。 随即将出现仪表板。
+若要查看汇总了你作为管理员的主要容量指标的仪表板，请在“仪表板”  中单击“Power BI Premium 容量指标”  。 随即将出现仪表板。
 
 ![指标应用仪表板](media/service-admin-premium-monitor-capacity/app-dashboard.png)
 
@@ -136,34 +133,48 @@ ms.locfileid: "58174904"
 | 内存 - 分页报表平均消耗量 (GB) | 过去七天内分页报表工作负载的平均内存消耗。 |
 |||
 
+#### <a name="ai-summary"></a>AI 摘要
+
+| 指标 | 说明 |
+| --- | --- |
+| 刷新总计 | 过去七天内的刷新总次数。 |
+| 刷新可靠性 (%) | 过去七天内成功刷新的次数除以刷新总次数。 |
+| CPU 最大值 （%）| 在过去七天中最大 CPU 消耗量的 AI 工作负荷。 |
+| 最大内存 (GB) | 最大的内存使用情况的 AI 工作负荷中过去七天。|
+| 刷新最大等待时间 （毫秒） | 最大开始刷新之前的时间量。 |
+| 刷新平均等待时间 （毫秒）| 启动刷新之前的平均时间量。 |
+| 刷新最长持续时间 （毫秒） | 最大到完成刷新的时间量。 |
+| 刷新平均持续时间 （毫秒）| 完成刷新的平均时间量。 |
+| | |
 
 ### <a name="reports"></a>报表
 
-报表提供了更详细的指标。 若要查看你作为管理员的容量的报表，在“报表”中单击“Power BI Premium 容量指标”。 或者，从仪表板单击指标单元格，转到基础报表。 
+报表提供了更详细的指标。 若要查看你作为管理员的容量的报表，在“报表”  中单击“Power BI Premium 容量指标”  。 或者，从仪表板单击指标单元格，转到基础报表。 
 
-在报表底部，有五个选项卡：
+在报表底部，有五个选项卡  ：
 
-[**数据集**](#datasets) - 提供容量内有关 Power BI 数据集运行状况的详细指标。   
-[**分页报表**](#paginated-reports) - 提供容量中分页报表运行状况的详细指标。   
-[**数据流**](#dataflows) - 提供容量中数据流的刷新详细指标。   
-[**资源消耗量**](#resource-consumption) - 提供详细资源指标，包括内存和 CPU 高使用率。    
-[ID 和 Info](#ids-and-info) - 容量、工作区和工作负荷的名称、ID 和所有者。
+[**数据集**](#datasets) - 提供容量内有关 Power BI 数据集运行状况的详细指标。
+[**分页报表**](#paginated-reports) - 提供容量中分页报表运行状况的详细指标。
+[**数据流**](#dataflows) - 提供容量中数据流的刷新详细指标。
+[**AI** ](#ai) -用容量中的 AI 函数的运行状况提供详细的指标。
+[**资源消耗量**](#resource-consumption) - 提供详细资源指标，包括内存和 CPU 高使用率。
+[ID 和 Info](#ids-and-info) - 容量、工作区和工作负荷的名称、ID 和所有者  。
 
 每个选项卡打开一个页面，可以按容量和日期范围筛选指标。 如果未选择任何筛选器，则报表会默认显示报告了指标的所有容量过去一周的指标。 
 
 ### <a name="datasets"></a>数据集
 
-“数据集”页上包含各种区域，其中包括“刷新”、“查询持续时间”、“查询等待”和“数据集”。 可使用页面顶部的按钮导航到各不同区域。
+“数据集”页上包含各种区域  ，其中包括“刷新”  、“查询持续时间”  、“查询等待”  和“数据集”  。 可使用页面顶部的按钮导航到各不同区域。
 
 #### <a name="refreshes-area"></a>“刷新”区域
 
 | 报表区域 | 指标 |
 | --- | --- |
-| 刷新 |  总计：每个数据集的总刷新次数。<br>  可靠性：针对每个数据集完成的刷新百分比。<br>  平均等待时间：计划时间与刷新数据集开始时间之间的平均延迟（以分钟为单位）。<br>  最长等待时间：数据集的最长等待时间（以分钟为单位）。<br>  平均持续时间：刷新数据集的平均持续时间（以分钟为单位）。<br>  最长持续时间：数据集运行时间最长的刷新持续时间（以分钟为单位）。 |
+| 刷新 |  总计：每个数据集的总刷新次数。<br>  可靠性：完成每个数据集的刷新的百分比。<br>  平均等待时间：计划时间与刷新数据集开始时间之间的平均延迟（以分钟为单位）。<br>  最长等待时间：数据集的最长等待时间（以分钟为单位）。<br>  平均持续时间：刷新数据集的平均持续时间（以分钟为单位）。<br>  最长持续时间：数据集运行时间最长的刷新持续时间（以分钟为单位）。 |
 | 平均持续时间（分钟）排名前 5 的数据集 |  具有最长平均刷新持续时间的五个数据集（以分钟为单位）。 |
 | 平均等待时间（分钟）排名前 5 的数据集 |  具有最长平均刷新等待时间的五个数据集（以分钟为单位）。 |
 | 每小时刷新计数和内存消耗(GB) |  成功、失败和内存占用率，按一小时的时间段划分，以 UTC 时间报告。 |
-| 每小时平均刷新等待时间（分钟） |  平均刷新等待时间，按一小时的时间段划分，以 UTC 时间报告。 多个高刷新等待时间峰值表示容量过度运行。 |
+| 每小时平均刷新等待时间(分钟) |  平均刷新等待时间，按一小时的时间段划分，以 UTC 时间报告。 多个高刷新等待时间峰值表示容量过度运行。 |
 |  |  |
 
 #### <a name="query-durations-area"></a>“查询持续时间”区域
@@ -192,7 +203,7 @@ ms.locfileid: "58174904"
 | **报表区域** | **指标** |
 | --- | --- |
 | 数据集大小  |  最大大小：显示的时间段内数据集的最大大小（以 MB 为单位）。 |
-| 数据集逐出计数 |  总计:为每个容量执行数据集逐出的总数。 容量面临内存压力时，节点从内存中逐出一个或多个数据集。 首先逐出处于非活动状态（当前没有执行查询/刷新操作）的数据集。 然后按“最近最少使用的项”(LRU) 这一顺序依次逐出。|
+| 数据集逐出计数 |  总计:为每个容量执行数据集逐出的总数  。 容量面临内存压力时，节点从内存中逐出一个或多个数据集。 首先逐出处于非活动状态（当前没有执行查询/刷新操作）的数据集。 然后按“最近最少使用的项”(LRU) 这一顺序依次逐出。|
 | 每小时加载的数据集计数 |  加载到内存中的数据集数与内存占用率（以 GB 为单位），按一小时的时间段划分，以 UTC 时间报告。 |
 | 每小时数据集逐出和内存占用率 |  数据集逐出与内存占用率（以 GB 为单位），按一小时的时间段划分，以 UTC 时间报告。 |
 | 占用内存百分比 |  内存中活动的总数据集（总内存的百分比）。 活动数据集和可以逐出的所有定义数据集之间的增量。 过去七天按小时显示。 |
@@ -213,12 +224,23 @@ ms.locfileid: "58174904"
 
 | **报表区域** | **指标** |
 | --- | --- |
-| 刷新 |  总计:每个数据流的总刷新次数。<br>  可靠性：针对每个数据流完成的刷新百分比。<br>  平均等待时间：计划时间与刷新数据流开始时间之间的平均延迟（以分钟为单位）。<br>  最长等待时间：数据流的最长等待时间（以分钟为单位）。<br>  平均持续时间：刷新数据流的平均持续时间（以分钟为单位）。<br>  最长持续时间：数据流运行时间最长的刷新持续时间（以分钟为单位）。 |
+| 刷新 |  总计:每个数据流的总刷新次数。<br>  可靠性：刷新的每个数据流完成的百分比。<br>  平均等待时间：计划时间与刷新数据流开始时间之间的平均延迟（以分钟为单位）。<br>  最长等待时间：数据流的最长等待时间（以分钟为单位）。<br>  平均持续时间：刷新数据流的平均持续时间（以分钟为单位）。<br>  最长持续时间：数据流运行时间最长的刷新持续时间（以分钟为单位）。 |
 | 按平均刷新持续时间排列的前 5 个数据流 |  具有最长平均刷新持续时间的五个数据流（以分钟为单位）。 |
 | 按平均等待时间排列的前 5 个数据流 |  具有最长平均刷新等待时间的五个数据流（以分钟为单位）。 |
 | 每小时平均刷新等待时间 |  平均刷新等待时间，按一小时的时间段划分，以 UTC 时间报告。 多个高刷新等待时间峰值表示容量过度运行。 |
 | 每小时刷新计数和内存占用率 |  成功、失败和内存占用率，按一小时的时间段划分，以 UTC 时间报告。 |
 |  |  |
+
+### <a name="ai"></a>AI
+
+| **报表区域** | **指标** |
+| --- | --- |
+| 总体使用情况 | 总数：工作区或数据流中的 AI 函数数目。 <br> 可靠性：刷新已完成的百分比。<br> 平均值等待时间：计划的时间与开始刷新，以毫秒为单位之间的平均延迟。<br> 最长等待时间：最长等待时间，以毫秒为单位。<br> 平均值持续时间：刷新，以毫秒为单位的平均持续时间。<br> 最长持续时间：最长运行刷新，以毫秒为单位的持续时间。<br> 平均输入大小：平均输入的大小，以字节为单位，AI 函数执行的数据流刷新。<br> Avg 输出大小：平均输出的大小，以字节为单位，AI 函数执行的数据流刷新。 |
+| 按平均持续时间的前 5 个 AI 函数 | 这五个函数具有最长平均刷新持续时间，以毫秒为单位。 |
+| 按平均输入大小的前 5 个 AI 函数 | 这五个函数的最大的平均数据输入大小 （字节）。 |
+| 每小时刷新计数和内存占用率 | 成功、失败和内存占用率，按一小时的时间段划分，以 UTC 时间报告。 |
+| 每小时的平均持续时间 | 以 UTC 时间报告，刷新，拆分为一小时存储桶的平均持续时间。 |
+| | |
 
 ### <a name="resource-consumption"></a>资源消耗
 
@@ -230,7 +252,7 @@ ms.locfileid: "58174904"
 
 ### <a name="ids-and-info"></a>ID 和信息
 
-“ID 和信息”选项卡包含以下区域：“容量”、“工作区”、“数据集”、“分页报表”和“数据流”。
+“ID 和信息”  选项卡包含以下区域：“容量”  、“工作区”  、“数据集”  、“分页报表”  和“数据流”  。
 
 #### <a name="capacities-area"></a>容量区域
 
@@ -270,11 +292,11 @@ ms.locfileid: "58174904"
 
 ## <a name="monitor-power-bi-embedded-capacity"></a>监视 Power BI Embedded 容量
 
-可以使用 Power BI Premium Capacity Metrics 应用监视 Power BI Embedded 中的 A SKU 容量。 只要你是容量管理员，这些容量就会显示在报告中。 但是，除非你在 A SKU 上向 Power BI 授予某些权限，否则报告刷新将失败：
+可以使用 Power BI Premium Capacity Metrics 应用监视 Power BI Embedded 中的 A SKU 容量  。 只要你是容量管理员，这些容量就会显示在报告中。 但是，除非你在 A SKU 上向 Power BI 授予某些权限，否则报告刷新将失败：
 
 1. 在 Azure 门户中打开你的容量。
 
-1. 单击“访问控制 (IAM)”，然后将“Power BI Premium”应用添加到读取者角色。 如果无法按名称找到该应用，也可以通过客户端 ID 来添加它：`cb4dc29f-0bf4-402a-8b30-7511498ed654`。
+1. 单击“访问控制 (IAM)”  ，然后将“Power BI Premium”  应用添加到读取者角色。 如果您不能按名称查找该应用程序，您还可以添加它由客户端标识符： `cb4dc29f-0bf4-402a-8b30-7511498ed654`。
 
     ![Power BI Embedded 权限](media/service-admin-premium-monitor-capacity/embedded-permissions.png)
 
@@ -285,4 +307,4 @@ ms.locfileid: "58174904"
 ## <a name="next-steps"></a>后续步骤
 
 > [!div class="nextstepaction"]
-> [Power BI Premium 容量资源管理和优化](service-premium-understand-how-it-works.md)
+> [优化 Power BI Premium 容量](service-premium-capacity-optimize.md)

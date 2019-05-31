@@ -11,18 +11,18 @@ ms.date: 11/02/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
 ms.openlocfilehash: 6b5f2fa44a45cca06f90474d8c76fd6f06cae3ce
-ms.sourcegitcommit: a36f82224e68fdd3489944c9c3c03a93e4068cc5
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/31/2019
-ms.locfileid: "55430432"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61276390"
 ---
 # <a name="data-point-limits-and-strategies-by-visual-type"></a>数据点限制和策略（按视觉对象类型）
 
 在 Power BI 中呈现视觉对象时，可视化效果必须快速而准确。 这就需要为每个视觉对象类型配置的基础算法。 Power BI 中的视觉对象必须足够灵活以处理不同大小的数据集。 某些数据集只有少量数据点，而其他数据集具有数千万亿字节的数据点。 本文介绍了 Power BI 用于呈现可视化效果的策略。
 
 ## <a name="data-reduction-strategies"></a>数据缩减策略
-每个视觉对象采用一个或多个数据缩减策略以便处理要分析的大量数据。 即使是简单的表也会采用策略来避免将整个数据集加载到客户端。  所使用的缩减策略因视觉对象类型而异。 在生成发送到服务器的数据请求的过程中，每个视觉对象会从支持的数据缩减策略中进行选择。 
+每个视觉对象采用一个或多个数据缩减策略  以便处理要分析的大量数据。 即使是简单的表也会采用策略来避免将整个数据集加载到客户端。  所使用的缩减策略因视觉对象类型而异。 在生成发送到服务器的数据请求的过程中，每个视觉对象会从支持的数据缩减策略  中进行选择。 
 
 每个视觉对象可控制这些策略中的参数来影响数据总量。   
 
@@ -43,7 +43,7 @@ ms.locfileid: "55430432"
 有关详细信息，请参阅 [Analysis Services 中的新增功能](https://docs.microsoft.com/sql/analysis-services/what-s-new-in-analysis-services?view=sql-server-2017)
 
 ## <a name="dynamic-limits"></a>动态限制
-除了上述策略之外，具有分组列的两个层次结构（轴和图例或类别和系列）的视觉对象还会使用一个名为“动态限制”的其他策略。  动态限制旨在更好地平衡数据点。 
+除了上述策略之外，具有分组列的两个层次结构（轴和图例或类别和系列）的视觉对象还会使用一个名为“动态限制”  的其他策略。  动态限制旨在更好地平衡数据点。 
 
 动态限制比静态限制提供更好的稀疏数据点选择。 例如，可以将视觉对象配置为选择 100 个类别和 10 个系列，总共包含 1000 个点。 但实际数据具有 50 个类别和 20 个系列。  在查询运行时，动态限制选择所有 20 个系列以填充请求的 1000 个点。
 
@@ -73,7 +73,7 @@ ms.locfileid: "55430432"
 - 值：通过一次使用 200 行的窗口进行虚拟化
 
 ### <a name="combo-chart"></a>组合图
- 使用相同策略作为柱形图。 请注意，组合图中的行不会使用折线图使用的高密度算法。
+ 使用相同策略作为柱形图。 请注意，组合图中的行  不会使用折线图  使用的高密度算法。
 
 ### <a name="custom-visuals"></a>自定义视觉对象
 最多可以获得 30,000 个，但由视觉对象作者指示要使用的策略

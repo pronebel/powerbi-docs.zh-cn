@@ -13,11 +13,11 @@ ms.date: 12/06/2018
 ms.author: mihart
 LocalizationGroup: Dashboards
 ms.openlocfilehash: fcfb16de53b4e6c67b7c46fec87ab614d07cb9b1
-ms.sourcegitcommit: a054782370dec56d49bb205ee10b7e2018f22693
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/22/2019
-ms.locfileid: "56661551"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61049057"
 ---
 # <a name="view-data-insights-on-dashboard-tiles-with-power-bi"></a>使用 Power BI 查看有关仪表板磁贴的数据见解
 仪表板上的每个可视化效果磁贴都是数据探索的入口。 当选择磁贴时，它将打开一个报表，可以在其中筛选、排序以及深入挖掘此报表背后的数据集。 当运行见解时，Power BI 会为你进行数据探索。
@@ -30,7 +30,7 @@ ms.locfileid: "56661551"
 当在仪表板磁贴上运行见解时，Power BI 仅搜索用于创建该单个仪表板磁贴的数据。 
 
 1. [打开仪表板](end-user-dashboards.md).
-2. 将鼠标悬停在一个磁上。 选择省略号 (…)，然后选择“查看见解”。 
+2. 将鼠标悬停在一个磁上。 选择省略号 (…)，然后选择“查看见解”  。 
 
     ![省略号菜单模式](./media/end-user-insights/power-bi-hover.png)
 
@@ -47,7 +47,7 @@ ms.locfileid: "56661551"
 
      ![深入查看已展开的“筛选器”菜单](./media/end-user-insights/power-bi-insights-on-insights.png)
    
-   * 在见解卡自身上运行见解。 这通常称为“相关见解”。 在右上角，选择灯泡图标 ![获取见解图标](./media/end-user-insights/power-bi-bulb-icon.png)或选择“获取见解”。
+   * 在见解卡自身上运行见解。 这通常称为“相关见解”  。 在右上角，选择灯泡图标 ![获取见解图标](./media/end-user-insights/power-bi-bulb-icon.png)或选择“获取见解”  。
      
      ![菜单栏显示“获取见解”图标](./media/end-user-insights/power-bi-autoinsights-tile.png)
      
@@ -55,11 +55,11 @@ ms.locfileid: "56661551"
      
      ![对见解的见解](./media/end-user-insights/power-bi-insights-on-insights-new.png)
 
-若要返回到最初的见解画布，请从左上角选择“退出焦点模式”。
+若要返回到最初的见解画布，请从左上角选择“退出焦点模式”  。
 
 ## <a name="considerations-and-troubleshooting"></a>注意事项和疑难解答
 - **查看见解**不适用于 DirectQuery - 仅适用于上传到 Power BI 的数据。
-- **查看见解**不适用于所有仪表板磁贴类型。 例如，它不适用于自定义视觉对象。<!--[custom visuals](end-user-custom-visuals.md)-->
+- **查看见解**不适用于所有仪表板磁贴类型。 例如，不可用自定义视觉对象。<!--[custom visuals](end-user-custom-visuals.md)-->
 
 
 ## <a name="next-steps"></a>后续步骤

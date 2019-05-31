@@ -1,20 +1,20 @@
 ---
 title: 管理 Power BI 报表服务器 Web 门户中的内容
 description: 阅读有关管理 Power BI 报表服务器 Web 门户中的内容的信息。
-author: markingmyname
+author: maggiesMSFT
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 05/24/2018
-ms.author: maghan
-ms.openlocfilehash: dcb0507e5812ae35b5be8405ce0a2e347077511b
-ms.sourcegitcommit: 91ac6185f7026ddbaa925dc54057bb742b4fa411
-ms.translationtype: HT
+ms.author: maggies
+ms.openlocfilehash: e7a9b4da760f02672f51aa7ace0f3bb19c501834
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/16/2019
-ms.locfileid: "56324498"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "64770136"
 ---
 # <a name="manage-content-in-the-web-portal"></a>管理 Web 门户中的内容 
 Power BI 报表服务器 Web 门户是用于查看、存储和管理 Power BI 报表、移动报表和分页报表以及 KPI 的本地位置。
@@ -23,8 +23,8 @@ Power BI 报表服务器 Web 门户是用于查看、存储和管理 Power BI �
 
 可以在任意新式浏览器中查看 Web 门户。 在 Web 门户中，可以将报表和 KPI 整理到文件夹中，并将它们标记为收藏项。 此外，还可以在门户上存储 Excel 工作簿。 在 Web 门户中，可以启动创建报表所需的工具：
 
-* 使用 Power BI Desktop 创建的 Power BI 报表：可以在 Web 门户和 Power BI 移动应用中查看此类报表。
-* 在报表生成器中创建的分页报表：更适合打印的布局固定的新式文档。
+* 使用 Power BI Desktop 创建的 Power BI 报表  ：可以在 Web 门户和 Power BI 移动应用中查看此类报表。
+* 在报表生成器中创建的分页报表  ：更适合打印的布局固定的新式文档。
 * 直接在 Web 门户中创建了 **KPI**。
 
 在 Web 门户中，可以浏览报表服务器文件夹，也可以搜索特定报表。 可以查看报表及其常规属性，以及在报表历史记录中捕获的报表过往副本。 还可以订阅报表，将其传送到电子邮件收件箱或文件系统上的共享文件夹，具体视权限而定。
@@ -56,7 +56,7 @@ Web 门户应用程序在浏览器中运行。 启动 Web 门户后看到的具�
 ## <a name="manage-items-in-the-web-portal"></a>管理 Web 门户中的项目
 Power BI 报表服务器允许对 Web 门户中存储的项目进行精细化控制。 例如，可以对各个分页报表设置订阅、缓存、快照和安全保护措施。
 
-1. 依次选择项目右上角的省略号（“...”）和“管理”。
+1. 依次选择项目右上角的省略号（“...”）和“管理”  。
    
     ![选择“管理”](media/getting-around/report-server-web-portal-manage-ellipsis.png)
 2. 选择要设置的属性或其他功能。

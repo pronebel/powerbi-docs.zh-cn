@@ -12,14 +12,14 @@ ms.date: 05/06/2019
 ms.author: davidi
 LocalizationGroup: Troubleshooting
 ms.openlocfilehash: 6e504d472e4fabb5c336f36e1bef50ae4920ef17
-ms.sourcegitcommit: b11e908650379913d00673215e3eaf25d712b122
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/07/2019
+ms.lasthandoff: 05/29/2019
 ms.locfileid: "65239784"
 ---
 # <a name="resolve-issues-importing-access-and-xls-files-in-power-bi-desktop"></a>解决在 Power BI Desktop 中导入 Access 和 .XLS 文件出现的问题
-在 Power BI Desktop 中，Access 数据库和旧版 Excel 工作簿（Excel 97-2003 的 .XLS 文件类型）均使用 Access 数据库引擎。 有三种常见情形可能会导致 Access 数据库引擎无法正常运行：
+在 Power BI Desktop  中，Access 数据库  和旧版 Excel 工作簿  （Excel 97-2003 的 .XLS 文件类型）均使用 Access 数据库引擎  。 有三种常见情形可能会导致 Access 数据库引擎无法正常运行：
 
 ## <a name="situation-1-no-access-database-engine-installed"></a>情况 1：未安装 Access 数据库引擎
 当 Power BI Desktop 错误消息指示未安装 Access 数据库引擎时，必须安装与你的 Power BI Desktop 版本匹配的 Access 数据库引擎版本（32 位或 64 位）。 可以从[下载页](http://www.microsoft.com/download/details.aspx?id=13255)安装 Access 数据库引擎。

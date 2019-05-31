@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 03/12/2019
+ms.date: 04/02/2019
 ms.author: davidi
 LocalizationGroup: conceptual
-ms.openlocfilehash: f2921ac581416d519e224f10de53a24db442b969
-ms.sourcegitcommit: 06ae54ed221979939699c67d63aeccba8b9dfcda
-ms.translationtype: HT
+ms.openlocfilehash: 63de805b357fd5b4d15aeea2231dc952ec9e7077
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/14/2019
-ms.locfileid: "57965125"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61181919"
 ---
 # <a name="cognitive-services-in-power-bi-preview"></a>Power BI 中的认知服务（预览版）
 
@@ -35,7 +35,7 @@ ms.locfileid: "57965125"
 
 ![编辑数据流](media/service-cognitive-services/cognitive-services_02.png)
 
-选择 Power Query 编辑器顶部功能区中的“AI 见解”按钮。
+选择 Power Query 编辑器顶部功能区中的“AI 见解”按钮  。
 
 ![Power Query 编辑器中的 AI 见解](media/service-cognitive-services/cognitive-services_03.png)
 
@@ -43,7 +43,7 @@ ms.locfileid: "57965125"
 
 ![选择一个函数](media/service-cognitive-services/cognitive-services_04.png)
 
-Cultureinfo 是一个可选输入，用于指定文本的语言。 此字段中应输入 ISO 代码。 可以使用一个列作为 Cultureinfo 的输入，也可以使用静态字段。 在本例中，将整个列的语言指定为“英语 (en)”。 如果将此字段留空，Power BI 会在应用该函数之前自动检测语言。 接下来，选择“调用”。
+Cultureinfo 是一个可选输入，用于指定文本的语言  。 此字段中应输入 ISO 代码。 可以使用一个列作为 Cultureinfo 的输入，也可以使用静态字段。 在本例中，将整个列的语言指定为“英语 (en)”。 如果将此字段留空，Power BI 会在应用该函数之前自动检测语言。 接下来，选择“调用”  。
 
 ![选择“调用”](media/service-cognitive-services/cognitive-services_05.png)
 
@@ -69,13 +69,13 @@ Cultureinfo 是一个可选输入，用于指定文本的语言。 此字段中�
 
 ### <a name="extract-key-phrases"></a>**提取关键短语**
 
-关键短语提取函数评估非结构化的文本，并为每个文本字段返回一个关键短语列表。 该函数需要一个文本字段作为输入，并接受 Cultureinfo 的可选输入。 （请参阅本文前面的“入门”部分）。
+关键短语提取函数评估非结构化的文本，并为每个文本字段返回一个关键短语列表  。 该函数需要一个文本字段作为输入，并接受 Cultureinfo 的可选输入  。 （请参阅本文前面的“入门”部分）  。
 
 提供更大的文本块进行处理时，最适合使用关键短语提取。 这与情绪分析相反，情绪分析处理较小文本块的效果更好。 若要使两个操作都获得最佳结果，请考虑相应地重构输入。
 
 ### <a name="score-sentiment"></a>**情绪评分**
 
-情绪评分函数计算文本输入，并为每个文档返回一个范围从 0（消极）到 1（积极）的情绪分数。 此函数对于检测社交媒体、客户评论和论坛中的积极和消极情绪非常有用。
+情绪评分函数计算文本输入，并为每个文档返回一个范围从 0（消极）到 1（积极）的情绪分数  。 此函数对于检测社交媒体、客户评论和论坛中的积极和消极情绪非常有用。
 
 文本分析使用机器学习分类算法生成 0 到 1 之间的情绪分数。 接近 1 的分数表示积极情绪，接近 0 的分数表示消极情绪。 该模型经过预先训练，包含具有情绪关联的大量文本。 目前，无法提供你自己的训练数据。 该模型在文本分析过程中使用了多种技术，包括文本处理、词性分析、字词放置和字词关联。 有关算法的详细信息，请参阅[文本分析简介](https://blogs.technet.microsoft.com/machinelearning/2015/04/08/introducing-text-analytics-in-the-azure-ml-marketplace/)。
 
@@ -85,7 +85,7 @@ Cultureinfo 是一个可选输入，用于指定文本的语言。 此字段中�
 
 ### <a name="tag-images"></a>**标记图像**
 
-标记图像函数基于超过 2000 个可识别物体、生物、风景和动作返回标记。 如果标记不明确或不常见，输出会提供“提示”，以便在已知环境的上下文中阐明标记的含义。 标记不是作为分类法组织的，并且不存在继承层次结构。 内容标记的集合构成图像“说明”的基础，图像“说明”显示为完整句子格式的人类可读语言。
+标记图像函数基于超过 2000 个可识别物体、生物、风景和动作返回标记  。 如果标记不明确或不常见，输出会提供“提示”，以便在已知环境的上下文中阐明标记的含义。 标记不是作为分类法组织的，并且不存在继承层次结构。 内容标记的集合构成图像“说明”的基础，图像“说明”显示为完整句子格式的人类可读语言。
 
 上传图像或指定图像 URL 后，计算机视觉算法会根据图像中标识的物体、生物和动作输出标记。 标记不局限于主要主题（例如前景中的人物），它还可以包括背景（室内或室外）、家具、工具、植物、动物、配饰，小配件等元素。
 
@@ -102,7 +102,7 @@ Cultureinfo 是一个可选输入，用于指定文本的语言。 此字段中�
 
 有关数据流的详细信息，可以阅读以下这些文章：
 * [在 Power BI 中创建和使用数据流](service-dataflows-create-use.md)
-* [在 Power BI Premium 上使用计算实体（预览）](service-dataflows-computed-entities-premium.md)
-* [将数据流与本地数据源配合使用（预览）](service-dataflows-on-premises-gateways.md)
-* [Power BI 数据流的开发人员资源（预览）](service-dataflows-developer-resources.md)
+* [使用 Power BI Premium 上的计算的实体](service-dataflows-computed-entities-premium.md)
+* [数据流中使用的本地数据源](service-dataflows-on-premises-gateways.md)
+* [Power BI 数据流的开发人员资源](service-dataflows-developer-resources.md)
 * [数据流和 Azure Data Lake 集成（预览）](service-dataflows-azure-data-lake-integration.md)

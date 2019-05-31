@@ -1,3 +1,11 @@
+---
+ms.openlocfilehash: 94ff18339d2eb14faebf124786cab7f9ac66393e
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61263048"
+---
 Power BI 中的**仪表板**是在 Power BI 服务内创建的单页的可视化效果集合。 通过**固定**使用 Power BI Desktop 创作和发布的报表的可视化效果，或者在 Power BI 服务内创建的可视化效果来创建仪表板。 将可视化效果**固定**到仪表板就如同将图片固定到墙上的软木板 - 将可视化效果固定在此处的某个特定点上，供他人观看。 要固定可视化效果，请在 Power BI 服务上打开其报表。 将鼠标悬停在想要固定的可视化效果上方，然后选择**固定**图标。
 
 ![](media/4-2-create-configure-dashboards/4-2_1.png)

@@ -1,3 +1,11 @@
+---
+ms.openlocfilehash: d6755233733c4500865615c28850793aae7972d9
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61263044"
+---
 我们已经了解了 Power BI 如何帮助你找到数据，如何在数据模型中收集数据以及如何使用该数据生成报表和可视化效果。 我们还了解了如何将这些报表发布到 Power BI 服务，以及如何创建仪表板，帮助你监视随时而变的信息。 当你在组织中与他人共享你的见解时，所有这些功能会更加强大。 幸运的是，共享仪表板非常简单。
 
 若要共享仪表板，在 Power BI 服务中打开它，然后选择右上角的**共享**链接。

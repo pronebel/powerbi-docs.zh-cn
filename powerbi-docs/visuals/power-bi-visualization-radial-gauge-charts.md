@@ -12,11 +12,11 @@ ms.date: 09/21/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
 ms.openlocfilehash: 079494a47452ca0ca043032f78fa35c7d1755d11
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54282554"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61067618"
 ---
 # <a name="radial-gauge-charts-in-power-bi"></a>Power BI 中的径向仪表图
 径向仪表盘有一个圆弧，并且显示单个值，该值用于衡量针对目标/KPI 的进度。  使用直线（针）表示目标或目标值。 使用明暗度表示针对目标的进度。  表示进度的值在圆弧内以粗体显示。所有可能的值沿圆弧均匀分布，从最小值（最左边的值）到最大值（最右边的值）。
@@ -47,9 +47,9 @@ ms.locfileid: "54282554"
 ### <a name="step-1-open-the-financial-sample-excel-file"></a>步骤 1：打开“Excel 财务示例”文件
 1. [下载“Excel 财务示例”文件](../sample-financial-download.md)（如果还没有的话）。 记住此文件的保存位置。
 
-2. 在 Power BI 服务中打开此文件，具体方法是依次选择“获取数据”\>“文件”，并转到此文件的保存位置。 选择“导入”。 会将该财务示例作为数据集添加到你的工作区。
+2. 在 Power BI 服务中打开此文件，具体方法是依次选择“获取数据”\>“文件”  ，并转到此文件的保存位置。 选择“导入”  。 会将该财务示例作为数据集添加到你的工作区。
 
-3. 在“数据集”内容列表中，选择“财务示例”，在浏览模式下打开它。
+3. 在“数据集”  内容列表中，选择“财务示例”  ，在浏览模式下打开它。
 
     ![](media/power-bi-visualization-radial-gauge-charts/power-bi-dataset.png)
 

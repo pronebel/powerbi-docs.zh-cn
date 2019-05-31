@@ -11,10 +11,10 @@ ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
 ms.openlocfilehash: 188669525a210afc516cc9740d5d7e7c5682ea93
-ms.sourcegitcommit: 10a87c016f497dbeba32f94ed1f3688a70816fea
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/09/2019
+ms.lasthandoff: 05/29/2019
 ms.locfileid: "65514717"
 ---
 # <a name="run-r-scripts-in-power-bi-desktop"></a>在 Power BI Desktop 中运行 R 脚本
@@ -41,7 +41,7 @@ ms.locfileid: "65514717"
 * 在 R 脚本中设置工作目录时，*必须*定义工作目录的完整路径，而非相对路径
 
 ### <a name="run-your-r-script-and-import-data"></a>运行 R 脚本并导入数据
-1. 在 Power BI Desktop 中，可在**获取数据**中找到 R 脚本数据连接器。 要运行 R 脚本，请选择“获取数据”&gt;“更多...”，然后选择“其他”&gt;“R 脚本”，如下图所示：
+1. 在 Power BI Desktop 中，可在**获取数据**中找到 R 脚本数据连接器。 要运行 R 脚本，请选择“获取数据”&gt;“更多...”，然后选择“其他”&gt;“R 脚本”，如下图所示   ：
    
    ![](media/desktop-r-scripts/r-scripts-1.png)
 2. 如果本地计算机上安装了 R，则会选择已安装的最新版本作为 R 引擎。 只需将脚本复制到脚本窗口，然后选择**确定**。
@@ -51,9 +51,9 @@ ms.locfileid: "65514717"
    
    ![](media/desktop-r-scripts/r-scripts-3.png)
    
-   如果已安装 R 但无法识别，可在展开“R 安装设置”时提供的文本框中显式提供其位置。 在上图中，已在文本框中以显式形式输入路径 *C:\Program Files\R\R-3.2.0*。
+   如果已安装 R 但无法识别，可在展开“R 安装设置”时提供的文本框中显式提供其位置  。 在上图中，已在文本框中以显式形式输入路径 *C:\Program Files\R\R-3.2.0*。
    
-   R 安装设置集中位于“选项”对话框的 R 脚本部分。 要指定 R 安装设置，请选择“文件”和“选项和设置”，再依次选择“选项”和“R 脚本”。 如果有多个 R 安装可用，则会显示一个下拉菜单，让你选择要使用的安装。
+   R 安装设置集中位于“选项”对话框的 R 脚本部分。 要指定 R 安装设置，请选择“文件”和“选项和设置”，再依次选择“选项”和“R 脚本”   。 如果有多个 R 安装可用，则会显示一个下拉菜单，让你选择要使用的安装。
    
    ![](media/desktop-r-scripts/r-scripts-4.png)
 4. 选择**确定**运行 R 脚本。 脚本成功运行后，即可选择要将其添加到 Power BI 模型的所得数据帧。

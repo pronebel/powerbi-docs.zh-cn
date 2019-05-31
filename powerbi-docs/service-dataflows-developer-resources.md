@@ -1,5 +1,5 @@
 ---
-title: Power BI 数据流的开发人员资源（预览）
+title: Power BI 数据流的开发人员资源
 description: 查找用于开发和 Power BI 数据流的资源
 author: davidiseminger
 manager: kfile
@@ -7,17 +7,17 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 12/06/2018
+ms.date: 04/02/2019
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: 20bd8cd06e2a183d284752dc378a8aa1440c3aef
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
-ms.translationtype: HT
+ms.openlocfilehash: 9a4caed97881e176d075527c90ae8d5eff213676
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54274678"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61136748"
 ---
-# <a name="developer-resources-for-power-bi-dataflows-preview"></a>Power BI 数据流的开发人员资源（预览）
+# <a name="developer-resources-for-power-bi-dataflows"></a>Power BI 数据流的开发人员资源
 
 通过在 Power BI 服务中创建或连接到实体并在 Power BI Desktop 中连接到这些实体，有许多方法可以使用无需编写代码的数据流。 许多组织希望灵活地开发自己的解决方案。 本文介绍 Power BI REST API 和其他开发人员资源。
 
@@ -38,8 +38,8 @@ ms.locfileid: "54274678"
 
 * [数据流自助服务数据准备](service-dataflows-overview.md)
 * [在 Power BI 中创建和使用数据流](service-dataflows-create-use.md)
-* [在 Power BI Premium 上使用计算实体（预览）](service-dataflows-computed-entities-premium.md)
-* [将数据流与本地数据源配合使用（预览）](service-dataflows-on-premises-gateways.md)
+* [使用 Power BI Premium 上的计算的实体](service-dataflows-computed-entities-premium.md)
+* [数据流中使用的本地数据源](service-dataflows-on-premises-gateways.md)
 
 有关 CDM 开发和教程资源的信息，请参阅以下内容：
 * [通用数据模型 - 概述](https://docs.microsoft.com/powerapps/common-data-model/overview)

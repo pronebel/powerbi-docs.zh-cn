@@ -12,11 +12,11 @@ ms.date: 01/16/2019
 ms.author: maggies
 LocalizationGroup: Visualizations
 ms.openlocfilehash: 6484046f6c69f47e01e14b56c38c4c9a5871b28b
-ms.sourcegitcommit: 658b0de4f5a544d0906665b40925552804a61880
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/19/2019
-ms.locfileid: "54406583"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61199417"
 ---
 # <a name="add-a-hyperlink-to-a-text-box-in-a-report"></a>向报表中的文本框添加超链接
 可以将文本框添加到报表，将其从报表固定到仪表板，然后将其直接添加到仪表板。 无论文本框位于何处，你都可以向其添加超链接。  
@@ -50,7 +50,7 @@ ms.locfileid: "54406583"
 1. 在文本框中，选择超链接以突出显示它，
    
      ![删除超链接](media/service-add-hyperlink-to-text-box/power-bi-hyperlink-remove.png)
-2. 选择“删除”。 
+2. 选择“删除”  。 
 
 ## <a name="next-steps"></a>后续步骤
 [Power BI 报表中的文本框](power-bi-reports-add-text-and-shapes.md)

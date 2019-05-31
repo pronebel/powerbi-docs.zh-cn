@@ -10,11 +10,11 @@ ms.date: 01/16/2018
 ms.author: maggies
 LocalizationGroup: Model your data
 ms.openlocfilehash: b8887ba39d3c6d3123d3308eddba2994fbfe6485
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54286946"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61295943"
 ---
 # <a name="set-geographic-filters-in-power-bi-desktop-for-the-mobile-apps"></a>在 Power BI Desktop 中为移动应用设置地理筛选器
 在 Power BI Desktop 中，可以针对列进行[地理数据分类](desktop-data-categorization.md)，以便 Power BI Desktop 知道如何处理报表中可视化对象的值。 还有一个好处就是，当你或你的同事在 Power BI 移动应用中查看相应的报表时，Power BI 会自动提供与你所在地理位置匹配的地理位置筛选器。 
@@ -31,18 +31,18 @@ ms.locfileid: "54286946"
 2. 选择含地理数据的列&#151;，例如“城市”列。
    
     ![“城市”列](media/desktop-mobile-geofiltering/power-bi-desktop-geo-column.png)
-3. 在“建模”选项卡上，选择“数据类别”，那么本示例中的正确类别&#151;为“城市”。
+3. 在“建模”  选项卡上，选择“数据类别”  ，那么本示例中的正确类别&#151;为“城市”  。
    
     ![数据类别框](media/desktop-mobile-geofiltering/power-bi-desktop-geo-category.png)
 4. 在模型中为其他任何字段继续设置地理数据类别。 
    
    > [!NOTE]
-   > 可以为模型中的每个数据类别设置多个列，但如果这样做，模型就无法在 Power BI 移动应用中筛选地理。 若要在移动应用中使用地理筛选，则为每个数据类别&#151;仅设置一列，例如一个“城市”列、一个“省/自治区”列和一个“国家/地区”列。 
+   > 可以为模型中的每个数据类别设置多个列，但如果这样做，模型就无法在 Power BI 移动应用中筛选地理。 若要在移动应用中使用地理筛选，则为每个数据类别&#151;仅设置一列，例如一个“城市”  列、一个“省/自治区”  列和一个“国家/地区”  列。 
    > 
    > 
 
 ## <a name="create-visuals-with-your-geographic-data"></a>使用地理数据创建视觉对象
-1. 切换到报表视图  ![报表视图图标，](media/desktop-mobile-geofiltering/power-bi-desktop-report-icon.png)然后创建使用数据中的地理字段的视觉对象。 
+1. 切换到报表视图 ![报表视图图标，](media/desktop-mobile-geofiltering/power-bi-desktop-report-icon.png)然后创建使用数据中的地理字段的视觉对象。 
    
     ![带有地图的报表](media/desktop-mobile-geofiltering/power-bi-desktop-geo-report.png)
    

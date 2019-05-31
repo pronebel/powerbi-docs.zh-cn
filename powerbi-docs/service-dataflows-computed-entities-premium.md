@@ -7,23 +7,23 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 12/06/2018
+ms.date: 04/02/2019
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: fc403220ae45fda879802fe480853a3c94fd53c0
-ms.sourcegitcommit: 69c31c15020e2707f961697eeb05cb550c9968f6
-ms.translationtype: HT
+ms.openlocfilehash: ccd8569650bd4f3da1a05c0999ad510029e5ab49
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/20/2019
-ms.locfileid: "58220945"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61137758"
 ---
-# <a name="using-computed-entities-on-power-bi-premium-preview"></a>在 Power BI Premium 上使用计算实体（预览）
+# <a name="using-computed-entities-on-power-bi-premium"></a>在 Power BI Premium 上使用计算实体
 
-在 Power BI Premium 订阅中使用“数据流”时，可以执行“存储中计算”。 这让你能够对现有数据流执行计算，并返回让你能够专注于报表创建和分析的结果。 
+在 Power BI Premium 订阅中使用“数据流”  时，可以执行“存储中计算”  。 这让你能够对现有数据流执行计算，并返回让你能够专注于报表创建和分析的结果。 
 
 ![Power BI Premium 中的计算实体](media/service-dataflows-computed-entities-premium/computed-entities-premium_00.png)
 
-若要执行“存储中计算”，首先必须创建数据流并将数据导入该 Power BI 数据流存储。 一旦具有包含数据的数据流后，就可以创建“计算实体”，它们是执行存储中计算的实体。 
+若要执行“存储中计算”  ，首先必须创建数据流并将数据导入该 Power BI 数据流存储。 一旦具有包含数据的数据流后，就可以创建“计算实体”  ，它们是执行存储中计算的实体。 
 
 有两种方法可以将数据流数据连接到 Power BI：
 
@@ -32,21 +32,17 @@ ms.locfileid: "58220945"
 
 以下部分介绍如何在数据流数据上创建计算实体。
 
-> [!NOTE]
-> 数据流功能处于预览状态，可能会在正式版推出前更改和更新。
-
-
 ## <a name="how-to-create-computed-entities"></a>如何创建计算实体 
 
 一旦具有含有实体列表的数据流后，就可以在这些实体上执行计算。
 
-在 Power BI 服务中的数据流创作工具中，选择“编辑实体”，然后右键单击想要用作计算实体基础的实体和想要执行计算的实体。 在上下文菜单中，选择“引用”。
+在 Power BI 服务中的数据流创作工具中，选择“编辑实体”  ，然后右键单击想要用作计算实体基础的实体和想要执行计算的实体。 在上下文菜单中，选择“引用”  。
 
-若要使实体符合计算实体的条件，必须选中“启用加载”，如下图中所示。 右键单击实体以显示此上下文菜单。
+若要使实体符合计算实体的条件，必须选中“启用加载”  ，如下图中所示。 右键单击实体以显示此上下文菜单。
 
 ![选中右击上下文菜单中的“启用加载”](media/service-dataflows-computed-entities-premium/computed-entities-premium_01.png)
 
-选择“启用加载”，将创建一个新的实体，其源是引用的实体。 图标更改并显示“计算”图标，如下图中所示。
+选择“启用加载”  ，将创建一个新的实体，其源是引用的实体。 图标更改并显示“计算”  图标，如下图中所示。
 
 ![Power BI Premium 中的计算实体](media/service-dataflows-computed-entities-premium/computed-entities-premium_00.png)
 
@@ -55,19 +51,19 @@ ms.locfileid: "58220945"
 ### <a name="example-use-cases"></a>示例用例
 可以使用计算实体执行哪些类型的转换？ 在执行存储中计算时，将支持所有通常使用 Power BI 或 M 编辑器中的转换用户界面指定的任何转换。 
 
-请考虑以下示例：你具有含有来自 Dynamics 365 订阅的所有客户的原始数据的帐户实体。 你还具有来自服务中心的 ServiceCalls 原始数据，其中包含每年每天从不同的帐户执行的支持调用的数据。
+请考虑以下示例：你具有含有来自 Dynamics 365 订阅的所有客户的原始数据的帐户  实体。 你还具有来自服务中心的 ServiceCalls  原始数据，其中包含每年每天从不同的帐户执行的支持调用的数据。
 
-假设你想要使用 ServiceCalls 中的数据扩充帐户实体。 
+假设你想要使用 ServiceCalls  中的数据扩充帐户  实体。 
 
 首先，需要聚合来自 ServiceCalls 的数据，以计算最后一年为每个帐户执行的支持调用数。 
 
 ![Power BI Premium 中计算实体的示例](media/service-dataflows-computed-entities-premium/computed-entities-premium_02.png)
 
-接下来，你想要将帐户实体与 ServiceCallsAggregated 实体合并，以计算浓集缩的“帐户”表。
+接下来，你想要将帐户  实体与 ServiceCallsAggregated  实体合并，以计算浓集缩的“帐户”  表。
 
 ![Power BI Premium 中计算实体的示例](media/service-dataflows-computed-entities-premium/computed-entities-premium_03.png)
 
-然后可以看到结果，在下图中显示为 EnrichedAccount。
+然后可以看到结果，在下图中显示为 EnrichedAccount  。
 
 ![Power BI Premium 中的计算实体的结果](media/service-dataflows-computed-entities-premium/computed-entities-premium_04.png)
 
@@ -89,8 +85,8 @@ ms.locfileid: "58220945"
 
 * [数据流自助服务数据准备](service-dataflows-overview.md)
 * [在 Power BI 中创建和使用数据流](service-dataflows-create-use.md)
-* [将数据流与本地数据源配合使用（预览）](service-dataflows-on-premises-gateways.md)
-* [Power BI 数据流的开发人员资源（预览）](service-dataflows-developer-resources.md)
+* [数据流中使用的本地数据源](service-dataflows-on-premises-gateways.md)
+* [Power BI 数据流的开发人员资源](service-dataflows-developer-resources.md)
 * [配置工作区数据流设置（预览）](service-dataflows-configure-workspace-storage-settings.md)
 * [将 CDM 文件夹添加到 Power BI 作为数据流（预览）](service-dataflows-add-cdm-folder.md)
 * [连接 Azure Data Lake Storage Gen2 以存储数据流（预览）](service-dataflows-connect-azure-data-lake-storage-gen2.md)

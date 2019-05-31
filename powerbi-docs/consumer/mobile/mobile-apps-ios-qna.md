@@ -10,11 +10,11 @@ ms.topic: conceptual
 ms.date: 05/05/2018
 ms.author: mshenhav
 ms.openlocfilehash: 0517299240137bf63ace8aca6a1da577a4443d2d
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54278691"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "60976977"
 ---
 # <a name="qa-virtual-analyst-in-ios-apps---power-bi"></a>iOS 应用中的问答虚拟分析师 - Power BI
 
@@ -49,21 +49,21 @@ ms.locfileid: "54278691"
 
 1. 打开 Power BI 服务 (app.powerbi.com) 并登录。
 
-2. 在左侧的导航窗格中，选择“工作区”>“我的工作区”。
+2. 在左侧的导航窗格中，选择“工作区”>“我的工作区”   。
 
-3. 在左下角，选择“获取数据”。
+3. 在左下角，选择“获取数据”  。
    
     ![](media/mobile-apps-ios-qna/power-bi-get-data.png)
 
-3. 在“获取数据”页上选择“示例”图标。
+3. 在“获取数据”页上选择“示例”  图标。
    
    ![](media/mobile-apps-ios-qna/power-bi-samples-icon.png)
 
-4. 选择“零售分析示例”。
+4. 选择“零售分析示例”  。
  
     ![零售分析示例](./media/mobile-apps-ios-qna/power-bi-rs.png)
  
-8. 选择“连接”。  
+8. 选择“连接”  。  
   
    ![零售分析示例](./media/mobile-apps-ios-qna/retail16.png)
    
@@ -73,18 +73,18 @@ ms.locfileid: "54278691"
 
 **获取机会分析示例**
 
-- 完成为零售分析示例执行的相同步骤，但在步骤 4 中，选择“机会分析示例”。
+- 完成为零售分析示例执行的相同步骤，但在步骤 4 中，选择“机会分析示例”  。
 
     ![零售分析示例](./media/mobile-apps-ios-qna/power-bi-oa.png)
   
 好了，你已准备好在 iOS 设备上查看这些示例。
 
 ## <a name="try-asking-questions-on-your-iphone-or-ipad"></a>尝试在 iPhone 或 iPad 上提问
-1. 在你的 iPhone 或 iPad 上，点击全局导航按钮![全局导航按钮](./media/mobile-apps-ios-qna/power-bi-iphone-global-nav-button.png) > “工作区” > “我的工作区”，然后打开零售分析示例仪表板。
+1. 在你的 iPhone 或 iPad 上，点击全局导航按钮![全局导航按钮](./media/mobile-apps-ios-qna/power-bi-iphone-global-nav-button.png) > “工作区”   > “我的工作区”  ，然后打开零售分析示例仪表板。
 
 2. 点击页面底部（如果是 iPad，则位于页面顶部）操作菜单中的“问答虚拟分析师”图标![“问答虚拟分析师”图标](././media/mobile-apps-ios-qna/power-bi-ios-q-n-a-icon.png)。
      问答虚拟分析师推荐了一些可快速上手的见解。
-3. 键入“显示”，点击建议列表中的“销售”，再点击“发送”![“发送”图标](./media/mobile-apps-ios-qna/power-bi-ios-qna-send-icon.png)。
+3. 键入“显示”  ，点击建议列表中的“销售”  ，再点击“发送”  ![“发送”图标](./media/mobile-apps-ios-qna/power-bi-ios-qna-send-icon.png)。
 
     ![显示销售额](./media/mobile-apps-ios-qna/power-bi-ios-q-n-a-show-sales.png)
 4. 点击关键字中的“**by**”，然后依次点击建议列表中的“**item**”和“**发送**”![](./media/mobile-apps-ios-qna/power-bi-ios-qna-send-icon.png)。
@@ -118,7 +118,7 @@ ms.locfileid: "54278691"
 
     ![](media/mobile-apps-ios-qna/power-bi-ios-qna-mic-on.png)
 
-1. 当麦克风图标处于活动状态时，开始说出你的问题。 例如，请说“按时间显示平均单价”，然后点击“发送”![](./media/mobile-apps-ios-qna/power-bi-ios-qna-send-icon.png)。
+1. 当麦克风图标处于活动状态时，开始说出你的问题。 例如，请说“按时间显示平均单价”，然后点击“发送”  ![](./media/mobile-apps-ios-qna/power-bi-ios-qna-send-icon.png)。
 
     ![](media/mobile-apps-ios-qna/power-bi-ios-qna-speech-complete.png)
 

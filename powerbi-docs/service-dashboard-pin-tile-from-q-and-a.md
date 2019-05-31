@@ -11,11 +11,11 @@ ms.date: 03/02/2018
 ms.author: maggies
 LocalizationGroup: Dashboards
 ms.openlocfilehash: 33598798104d88f3044a6689effa54e9b4256274
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54285176"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61139043"
 ---
 # <a name="pin-a-tile-to-a-dashboard-from-qa"></a>从问答将磁贴固定到仪表板
 ## <a name="how-to-pin-a-tile-from-qa"></a>如何从“问答”中固定磁贴
@@ -42,17 +42,17 @@ ms.locfileid: "54285176"
    * 现有仪表板：从下拉列表中选择仪表板的名称。 所做的选择仅限当前工作区中的这些仪表板。
    * 新仪表板：键入新仪表板的名称，它将被添加到当前工作区。
 
-6. 选择“固定”。
+6. 选择“固定”  。
 
    会显示一条成功消息（右上角附近），告知你可视化效果已作为磁贴添加到你的仪表板中。  
 
    ![已固定到仪表板](media/service-dashboard-pin-tile-from-q-and-a/power-bi-pin.png)
-7. 选择“转到仪表板”以查看新磁贴。 随后，可以在仪表板上执行[重命名、重设大小、添加超链接、重新定位磁贴等操作](service-dashboard-edit-tile.md)。
+7. 选择“转到仪表板”  以查看新磁贴。 随后，可以在仪表板上执行[重命名、重设大小、添加超链接、重新定位磁贴等操作](service-dashboard-edit-tile.md)。
 
    ![包含磁贴的仪表板](media/service-dashboard-pin-tile-from-q-and-a/power-bi-pinned.png)
 
 ## <a name="considerations-and-troubleshooting"></a>注意事项和疑难解答
-* 开始键入问题时，问答将立即从与当前仪表板关联的所有数据集搜索最佳答案。  “当前仪表板”是顶部导航栏中列出的仪表板。 例如，在属于“mihart”应用工作区的“零售分析示例”仪表板中提出此问题。
+* 开始键入问题时，问答将立即从与当前仪表板关联的所有数据集搜索最佳答案。  “当前仪表板”是顶部导航栏中列出的仪表板。 例如，在属于“mihart”  应用工作区的“零售分析示例”  仪表板中提出此问题。
 
   ![痕迹导航](media/service-dashboard-pin-tile-from-q-and-a/power-bi-navbar.png)
 * **问答如何知道要使用哪个数据集**？  Power BI 问答有权访问至少有一个可视化效果固定到相应仪表板的所有数据集。

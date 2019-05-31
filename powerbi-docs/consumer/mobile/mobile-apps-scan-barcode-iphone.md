@@ -10,11 +10,11 @@ ms.topic: conceptual
 ms.date: 10/13/2017
 ms.author: mshenhav
 ms.openlocfilehash: 3fd2d4888f76490a01c0742e68e6820c7055326e
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54291340"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61137190"
 ---
 # <a name="scan-a-barcode-with-your-iphone-from-the-power-bi-mobile-app"></a>使用 iPhone 上的 Power BI 移动应用扫描条形码
 扫描现实生活中的条形码，直接转到在 Power BI 移动应用中筛选后的 BI 信息。
@@ -27,7 +27,7 @@ ms.locfileid: "54291340"
 
 ## <a name="scan-a-barcode-with-the-power-bi-scanner"></a>使用 Power BI 扫描器扫描条形码
 1. 在 Power BI 移动应用中打开左上方的主导航菜单 ![](media/mobile-apps-scan-barcode-iphone/pbi_iph_navmenu.png)。 
-2. 向下滚动到“扫描程序”并选择它。 
+2. 向下滚动到“扫描程序”  并选择它。 
    
     ![](media/mobile-apps-scan-barcode-iphone/power-bi-scanner.png)
 3. 如果未启用照相机，你需要许可 Power BI 应用使用照相机。 此许可为一次性的。 
@@ -45,8 +45,8 @@ ms.locfileid: "54291340"
 无论哪种方式，点击该图标均可打开带有浮动扫描器的小菜单。
 
 * 将扫描器对准新项目，以将报表的筛选器更改为不同的条形码值。 
-* 选择“清除条形码筛选器”以返回到未筛选的报表。
-* 选择“按最近条形码筛选”，将报表筛选器更改为已在当前会话中扫描的一个条形码。
+* 选择“清除条形码筛选器”  以返回到未筛选的报表。
+* 选择“按最近条形码筛选”  ，将报表筛选器更改为已在当前会话中扫描的一个条形码。
 
 ## <a name="issues-with-scanning-a-barcode"></a>扫描条形码时出现的问题
 以下是在扫描产品上的条形码时可能会看到的一些消息。

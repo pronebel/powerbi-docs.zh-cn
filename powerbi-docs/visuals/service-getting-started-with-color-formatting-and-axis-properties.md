@@ -11,20 +11,20 @@ ms.date: 08/06/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
 ms.openlocfilehash: 340e32d6d3b29e266d81253378feb4266c01d000
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54274504"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61389266"
 ---
 # <a name="getting-started-with-color-formatting-and-axis-properties"></a>颜色格式设置和轴属性入门
-在 Power BI 中，可以更改数据系列、数据点和可视化效果背景的颜色。 如果你能完全控制仪表板和报表的显示方式，你还可以更改 X 轴和 Y 轴的显示方式。
+在 Power BI  中，可以更改数据系列、数据点和可视化效果背景的颜色。 如果你能完全控制仪表板和报表的显示方式，你还可以更改 X 轴和 Y 轴的显示方式。
 
 若要开始，请从**我的工作区**窗格中选择**报表**。 然后从顶部菜单区域，选择**编辑报表**。  
 
 ![](media/service-getting-started-with-color-formatting-and-axis-properties/gettingstartedcolor_1a.png)
 
-在你编辑报表并已经选择了可视化效果时，将出现让你可添加或更改可视化效果的**可视化效果**窗格。 可用可视化效果的正下方有三个图标：“字段”图标（叠放的条形）、“格式”图标（滚筒刷）和“分析”图标（放大镜）。 以下图像中，**字段**图标处于选中状态，图标下方以黄色栏指示。
+在你编辑报表并已经选择了可视化效果时，将出现让你可添加或更改可视化效果的**可视化效果**窗格。 可用可视化效果的正下方有三个图标：“字段”  图标（叠放的条形）、“格式”  图标（滚筒刷）和“分析”  图标（放大镜）。 以下图像中，**字段**图标处于选中状态，图标下方以黄色栏指示。
 
 ![](media/service-getting-started-with-color-formatting-and-axis-properties/gettingstartedcolor_2a.png)
 
@@ -64,7 +64,7 @@ ms.locfileid: "54274504"
 4. **数据颜色**将向下展开以显示其可用的自定义项。  
    ![](media/service-getting-started-with-color-formatting-and-axis-properties/gettingstartedcolor_4a.png)
 
-我们来做一些更改。 我可以选择颜色旁边的向下箭头来对每个可用的数据系列进行更改。 我将“生活费用”设为黄色，将“天气”设为橙色，并将“社区福祉”设为绿色。 以下屏幕将在上一步，即更改**生活成本**向我显示。  
+我们来做一些更改。 我可以选择颜色旁边的向下箭头来对每个可用的数据系列进行更改。 我将“生活费用”  设为黄色，将“天气”  设为橙色，并将“社区福祉”  设为绿色。 以下屏幕将在上一步，即更改**生活成本**向我显示。  
 
 ![](media/service-getting-started-with-color-formatting-and-axis-properties/gettingstartedcolor_5a.png)
 
@@ -83,7 +83,7 @@ ms.locfileid: "54274504"
 
 如果你想要折叠 **X 轴**选项，只需选择**X 轴**旁边的向上箭头图标。
 
-通过切换 X 轴旁边的单选按钮，可以完全删除 X 轴标签。 还可以通过选择**标题**旁的单选按钮来选择是否打开或关闭轴标题。  
+通过切换 X 轴  旁边的单选按钮，可以完全删除 X 轴标签。 还可以通过选择**标题**旁的单选按钮来选择是否打开或关闭轴标题。  
 
 有各种类型的颜色可供选择，并且可以对 Power BI 报表和仪表板应用更多的自定义项。
 
@@ -93,7 +93,7 @@ ms.locfileid: "54274504"
 
 ## <a name="setting-color-from-text-values"></a>设置文本值颜色
 
-从 2018 年 8 月版 Power BI Desktop 更新开始，对于给定报表元素，可按文本值设置颜色。 有关详细信息，请参阅[表格中的条件格式设置](../desktop-conditional-table-formatting.md)。
+从 2018 年 8 月版 Power BI Desktop 更新开始，对于给定报表元素，可按文本值设置颜色  。 有关详细信息，请参阅[表格中的条件格式设置](../desktop-conditional-table-formatting.md)。
 
 
 ## <a name="next-steps"></a>后续步骤

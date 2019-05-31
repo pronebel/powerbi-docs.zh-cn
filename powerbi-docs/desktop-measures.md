@@ -11,10 +11,10 @@ ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Model your data
 ms.openlocfilehash: 4395884dfbc7ef5ebfb0df34e416d69ee553ebd3
-ms.sourcegitcommit: 10a87c016f497dbeba32f94ed1f3688a70816fea
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/09/2019
+ms.lasthandoff: 05/29/2019
 ms.locfileid: "65514159"
 ---
 # <a name="measures-in-power-bi-desktop"></a>Power BI Desktop 中的度量值
@@ -25,12 +25,12 @@ ms.locfileid: "65514159"
 
 ## <a name="understanding-measures"></a>了解度量值
 
-在 **Power BI Desktop** 中，可以在“报表视图”或“数据视图”中创建和使用度量值。 你自己创建的度量值将显示在带有计算器图标的“字段”列表中。 你可以随心所欲地为你的度量值命名，并将它们添加到新的或现有的可视化效果中，就如其他字段一样。
+在 **Power BI Desktop** 中，可以在“报表视图”  或“数据视图”  中创建和使用度量值。 你自己创建的度量值将显示在带有计算器图标的“字段”列表中。 你可以随心所欲地为你的度量值命名，并将它们添加到新的或现有的可视化效果中，就如其他字段一样。
 
 ![](media/desktop-measures/measuresinpbid_measinfieldlist.png)
 
 > [!NOTE]
-> 你可能还会对快速度量值感兴趣，它们是可以在对话框中选择的现成度量值。 既是快速创建度量值的绝佳方法，也是学习 DAX 语法的绝佳方法，因为可以查看快速度量值自动创建的 DAX 公式。 请参阅[快速度量值](desktop-quick-measures.md)这篇文章。
+> 你可能还会对快速度量值感兴趣，它们是可以在对话框中选择的现成度量值  。 既是快速创建度量值的绝佳方法，也是学习 DAX 语法的绝佳方法，因为可以查看快速度量值自动创建的 DAX 公式。 请参阅[快速度量值](desktop-quick-measures.md)这篇文章。
 > 
 > 
 

@@ -12,11 +12,11 @@ ms.date: 01/02/2018
 ms.custom: seodec18
 LocalizationGroup: Administration
 ms.openlocfilehash: d57cd2db38e099fffc73c813f0298cfea5a34aad
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54296147"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61193584"
 ---
 # <a name="row-level-security-rls-with-power-bi"></a>Power BI 行级别安全性 (RLS)
 
@@ -26,7 +26,7 @@ Power BI 行级别安全性 (RLS) 可用于限制给定用户的数据访问。 
 
 [!INCLUDE [include-short-name](./includes/rls-desktop-define-roles.md)]
 
-默认情况下，行级别安全性筛选采用单双向筛选器，无需考虑关系是设置为单向还是双向。 通过选择关系并勾选“在两个方向上应用安全筛选器”复选框，可手动启用具有行级别安全性的双向交叉筛选器。 在实现[动态行级别安全性](https://docs.microsoft.com/sql/analysis-services/supplemental-lesson-implement-dynamic-security-by-using-row-filters)时应选中此复选框，以便从中基于用户名或登录 ID 提供行级别安全性
+默认情况下，行级别安全性筛选采用单双向筛选器，无需考虑关系是设置为单向还是双向。 通过选择关系并勾选  “在两个方向上应用安全筛选器”复选框，可手动启用具有行级别安全性的双向交叉筛选器。 在实现[动态行级别安全性](https://docs.microsoft.com/sql/analysis-services/supplemental-lesson-implement-dynamic-security-by-using-row-filters)时应选中此复选框，以便从中基于用户名或登录 ID 提供行级别安全性
 
 有关详细信息，请参阅[在 Power BI Desktop 中使用 DirectQuery 的双向交叉筛选](desktop-bidirectional-filtering.md)和[保护表格 BI 语义模型](http://download.microsoft.com/download/D/2/0/D20E1C5F-72EA-4505-9F26-FEF9550EFD44/Securing%20the%20Tabular%20BI%20Semantic%20Model.docx)技术文章。
 
@@ -39,8 +39,8 @@ Power BI 行级别安全性 (RLS) 可用于限制给定用户的数据访问。 
 
 若要管理数据模型上的安全性，你需要执行以下操作。
 
-1. 为数据集选择“省略号(...)”。
-2. 选择“安全”。
+1. 为数据集选择“省略号(...)”  。
+2. 选择“安全”  。
    
    ![在两个方向上应用安全筛选器](media/service-admin-rls/rls-security.png)
 
@@ -70,8 +70,8 @@ Power BI 行级别安全性 (RLS) 可用于限制给定用户的数据访问。 
 
 你可以通过测试角色来验证你定义的角色是否正常工作。 
 
-1. 选择角色旁的“省略号 (...)”。
-2. 选择“作为角色测试数据”
+1. 选择角色旁的“省略号 (...)”  。
+2. 选择“作为角色测试数据” 
 
 ![以角色身份测试](media/service-admin-rls/rls-test-role.png)
 
@@ -79,13 +79,13 @@ Power BI 行级别安全性 (RLS) 可用于限制给定用户的数据访问。 
 
 ![现在以 <角色> 身份查看](media/service-admin-rls/rls-test-role2.png)
 
-可通过选择“立即以此角色查看”来测试其他角色或角色组合。
+可通过选择“立即以此角色查看”  来测试其他角色或角色组合。
 
 ![测试其他角色](media/service-admin-rls/rls-test-role3.png)
 
 可选择以特定人员的身份查看数据，或选择可用角色的组合以验证它们是否工作。 
 
-选择“返回到行级安全性”以返回到正常查看。
+选择“返回到行级安全性”  以返回到正常查看。
 
 [!INCLUDE [include-short-name](./includes/rls-usernames.md)]
 

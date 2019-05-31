@@ -9,12 +9,12 @@ ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 03/20/2018
 ms.author: mshenhav
-ms.openlocfilehash: 69532ea9ad98edc7655fb77aec13b69eec6566bf
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
-ms.translationtype: HT
+ms.openlocfilehash: 75d315463601110dee61d293a7a41abbf30aaa2d
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54283658"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61274273"
 ---
 # <a name="share-a-dashboard-or-report-from-the-power-bi-mobile-apps"></a>在 Power BI 移动应用中共享仪表板或报表
 适用于：
@@ -23,21 +23,21 @@ ms.locfileid: "54283658"
 |:--- |:--- |:--- |:--- |:--- |
 | iPhone |iPad |Android 手机 |Android 平板电脑 |Windows 10 设备 |
 
-使用 [Power BI Pro 许可证](../../service-features-license-type.md)，可以从 Power BI 移动应用共享链接，邀请他人查看仪表板和报表。 可以与组织内外的任何人共享，无论他/她是否拥有公司邮件帐户。 共享对象也必须具有 Power BI Pro 许可证，否则内容必须位于[高级容量](../../service-premium.md)中。
+使用 [Power BI Pro 许可证](../../service-features-license-type.md)，可以从 Power BI 移动应用共享链接，邀请他人查看仪表板和报表。 可以与组织内外的任何人共享，无论他/她是否拥有公司邮件帐户。 共享对象也必须具有 Power BI Pro 许可证，否则内容必须位于[高级容量](../../service-premium-what-is.md)中。
 
 从适用于 iOS 和 Android 的 Power BI 移动应用中，还可以[批注并共享磁贴、报表或视觉对象的快照](mobile-annotate-and-share-a-tile-from-the-mobile-apps.md)。 
 
 ## <a name="share-from-your-iphone"></a>从 iPhone 中共享
-1. 在仪表板或报表底部的操作栏中，点击“共享”图标 ![共享图标](././media/mobile-share-dashboard-from-the-mobile-apps/power-bi-iphone-share-dashboard-icon.png)。
+1. 在仪表板或报表底部的操作栏中，点击“共享”图标 ![共享图标](././media/mobile-share-dashboard-from-the-mobile-apps/power-bi-iphone-share-dashboard-icon.png)。 
    
    ![iPhone 共享图标](./media/mobile-share-dashboard-from-the-mobile-apps/power-bi-iphone-dashboard-invite.png)
 2. 键入名称（用逗号隔开）和随附在邀请中的消息。
-3. 若要允许重新共享，请选中“允许收件人重新共享”。
+3. 若要允许重新共享，请选中“允许收件人重新共享”。 
    
    允许再次共享后，你的同事可以通过 Web 或移动应用向组织中的其他人转发此电子邮件邀请。
 5. 点击右上角的**发送**。
    
-   收件人会收到电子邮件邀请，其中包含指向仪表板或报表的直接链接。 该邀请将在一个月后过期。 他们在浏览器或 Power BI 移动应用中打开该邀请时，邀请会添加到其 Power BI 帐户的“与我共享”部分。
+   收件人会收到电子邮件邀请，其中包含指向仪表板或报表的直接链接。 该邀请将在一个月后过期。 他们在浏览器或 Power BI 移动应用中打开该邀请时，邀请会添加到其 Power BI 帐户的“与我共享”  部分。
    
    ![与我共享](./././media/mobile-share-dashboard-from-the-mobile-apps/power-bi-iphone-shared-with-me-left-nav.png)
    
@@ -46,7 +46,7 @@ ms.locfileid: "54283658"
 ### <a name="unshare-from-your-iphone"></a>取消从 iPhone 中共享
 只有你是所有者才能取消共享。
 
-1. 在仪表板或报表底部的操作栏中，点击“共享”图标 ![共享图标](././media/mobile-share-dashboard-from-the-mobile-apps/power-bi-iphone-share-dashboard-icon.png)。
+1. 在仪表板或报表底部的操作栏中，点击“共享”图标 ![共享图标](././media/mobile-share-dashboard-from-the-mobile-apps/power-bi-iphone-share-dashboard-icon.png)。 
 2. 点击“**邀请同事**”。
    
    使用下列短语，可以看到你已经和其共享仪表板或报表的同事列表：
@@ -59,15 +59,15 @@ ms.locfileid: "54283658"
 4. 若要停止共享，请点击名称旁边的红色圆圈，然后点击**删除**。
 
 ## <a name="share-from-your-ipad"></a>从 iPad 中共享
-1. 在仪表板或报表的右上角点击“共享”图标 ![共享图标](././media/mobile-share-dashboard-from-the-mobile-apps/pbi_ipad_shareiconblk.png)。
+1. 在仪表板或报表的右上角点击“共享”图标 ![共享图标](././media/mobile-share-dashboard-from-the-mobile-apps/pbi_ipad_shareiconblk.png)。 
 2. 键入电子邮件地址以及邀请随附的消息。
-3. 若要允许重新共享，请选中“允许收件人重新共享”。
+3. 若要允许重新共享，请选中“允许收件人重新共享”。 
    
    允许再次共享后，你的同事可以通过 Web 或移动应用向组织中的其他人转发此电子邮件邀请。 
 
 4. 点击右上角的**发送**。
    
-   收件人会收到电子邮件邀请，其中包含指向仪表板或报表的直接链接。 该邀请将在一个月后过期。 他们在浏览器或 Power BI 移动应用中打开该邀请时，邀请会添加到其 Power BI 帐户的“与我共享”部分
+   收件人会收到电子邮件邀请，其中包含指向仪表板或报表的直接链接。 该邀请将在一个月后过期。 他们在浏览器或 Power BI 移动应用中打开该邀请时，邀请会添加到其 Power BI 帐户的“与我共享”  部分
    
    ![与我共享](./././media/mobile-share-dashboard-from-the-mobile-apps/power-bi-iphone-shared-with-me-left-nav.png)
    
@@ -76,7 +76,7 @@ ms.locfileid: "54283658"
 ### <a name="unshare-from-your-ipad"></a>取消从 iPad 中共享
 只有你是所有者才能取消共享。
 
-1. 在仪表板或报表的右上角点击“共享”图标 ![共享图标](././media/mobile-share-dashboard-from-the-mobile-apps/pbi_ipad_shareiconblk.png)。
+1. 在仪表板或报表的右上角点击“共享”图标 ![共享图标](././media/mobile-share-dashboard-from-the-mobile-apps/pbi_ipad_shareiconblk.png)。 
    
    使用下列短语，可以看到你已经和其共享仪表板或报表的同事列表：
    
@@ -86,7 +86,7 @@ ms.locfileid: "54283658"
 3. 若要停止共享，请点击名称旁边的红色圆圈，然后点击**删除**。
 
 ## <a name="share-from-your-android-device"></a>从 Android 设备中共享
-1. 在仪表板或报表的主页上，点击省略号 (...)，然后点击“邀请同事”。
+1. 在仪表板或报表的主页上，点击省略号 (...)，然后点击“邀请同事”。 
    
    ![邀请同事](./media/mobile-share-dashboard-from-the-mobile-apps/power-bi-android-tablet-share-dashboard.png)
 2. 也可以点击仪表板或报表中的“邀请”图标 ![邀请图标](././media/mobile-share-dashboard-from-the-mobile-apps/power-bi-android-invite-icon.png)。
@@ -101,9 +101,9 @@ ms.locfileid: "54283658"
    
    允许再次共享后，你的同事可以通过浏览器或移动应用向组织中的其他人转发此电子邮件邀请。
    
-1. 点击右上角的“发送”图标 ![发送图标](./media/mobile-share-dashboard-from-the-mobile-apps/pbi_andr_sendplane.png) 发送邮件。
+1. 点击右上角的“发送”图标 ![发送图标](./media/mobile-share-dashboard-from-the-mobile-apps/pbi_andr_sendplane.png) 发送邮件。 
    
-   收件人会收到电子邮件邀请，其中包含指向仪表板的直接链接。 该邀请将在一个月后过期。 他们在浏览器或 Power BI 移动应用中打开该邀请时，邀请会添加到其 Power BI 帐户的“与我共享”部分
+   收件人会收到电子邮件邀请，其中包含指向仪表板的直接链接。 该邀请将在一个月后过期。 他们在浏览器或 Power BI 移动应用中打开该邀请时，邀请会添加到其 Power BI 帐户的“与我共享”  部分
    
    ![与我共享](./media/mobile-share-dashboard-from-the-mobile-apps/power-bi-android-shared-with-me-left-nav.png)
    
@@ -115,12 +115,12 @@ ms.locfileid: "54283658"
 1. 在仪表板或报表的右上角点击邀请图标 ![邀请图标](././media/mobile-share-dashboard-from-the-mobile-apps/power-bi-android-invite-icon.png)。 
    
    可以看到你已经与之共享仪表板或报表的同事列表。
-2. 要停止与同事共享，请点击名称旁边的“X”\> “删除”。
+2. 要停止与同事共享，请点击名称旁边的“X”\> “删除”。  
 
 ## <a name="share-from-your-windows-10-device"></a>在你的 Windows 10 设备上共享
 1. 在仪表板或报表中，点击“邀请”图标 ![邀请图标](./media/mobile-share-dashboard-from-the-mobile-apps/pbi_andr_inviteicon.png)。
    
-   或者，在仪表板或报表主页上，右键单击或长按，然后点击“邀请”。
+   或者，在仪表板或报表主页上，右键单击或长按，然后点击“邀请”。 
    
    ![邀请](./media/mobile-share-dashboard-from-the-mobile-apps/pbi_win10_sharedash.png)
    
@@ -132,13 +132,13 @@ ms.locfileid: "54283658"
 2. 键入电子邮件地址以及邀请随附的消息。 否则 Power BI 会发送默认消息。
    
    ![“邀请”对话框](./media/mobile-share-dashboard-from-the-mobile-apps/power-bi-windows-10-share-dashboard.png)
-3. 若要允许重新共享，请选中“允许收件人重新共享”。
+3. 若要允许重新共享，请选中“允许收件人重新共享”。 
    
    允许重新共享后，你的同事可以通过浏览器或移动应用与组织中的其他人共享。
    
-1. 点击“发送”图标 ![发送图标](./media/mobile-share-dashboard-from-the-mobile-apps/pbi_win10ph_sendicon.png)。
+1. 点击“发送”图标 ![发送图标](./media/mobile-share-dashboard-from-the-mobile-apps/pbi_win10ph_sendicon.png)。 
    
-   收件人会收到电子邮件邀请，其中包含指向仪表板或报表的直接链接。 该邀请将在一个月后过期。 他们在浏览器或 Power BI 移动应用中打开该邀请时，邀请会添加到其 Power BI 帐户的“与我共享”部分
+   收件人会收到电子邮件邀请，其中包含指向仪表板或报表的直接链接。 该邀请将在一个月后过期。 他们在浏览器或 Power BI 移动应用中打开该邀请时，邀请会添加到其 Power BI 帐户的“与我共享”  部分
    
    ![与我共享](./././media/mobile-share-dashboard-from-the-mobile-apps/power-bi-iphone-shared-with-me-left-nav.png)
    

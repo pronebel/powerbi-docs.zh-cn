@@ -1,20 +1,20 @@
 ---
 title: 使用 Power BI 嵌入式分析来管理多租户
 description: 使用嵌入式分析设计多租户应用程序。
-author: markingmyname
-ms.author: maghan
+author: rkarlin
+ms.author: rkarlin
 manager: kfile
 ms.reviewer: nishalit
 ms.service: powerbi
 ms.subservice: powerbi - developer
 ms.topic: conceptual
 ms.date: 01/11/2019
-ms.openlocfilehash: 60441e950eb8ddea386e38731b794a58c2342620
-ms.sourcegitcommit: d4d36b6b200f2693b545e4a3e66d94c77a3cfafb
-ms.translationtype: HT
+ms.openlocfilehash: 31222828d1a12a5f46fd7c04b3aa32240ff35736
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/01/2019
-ms.locfileid: "57014245"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61374641"
 ---
 # <a name="manage-multi-tenancy-with-power-bi-embedded-analytics"></a>使用 Power BI 嵌入式分析来管理多租户
 
@@ -33,7 +33,7 @@ ms.locfileid: "57014245"
 
 **AAD 应用程序** - AAD 中的应用程序标识。 身份验证需要 AAD 应用程序。
 
-**SaaS 应用程序（软件即服务）** - 由企业或 ISV 实现的通常为联机服务的系统。 它还是服务多个客户租户（组织）的相关软件系统。 在本文中，SaaS 应用程序使用 Power BI Embedded 将分析内容提供给不同租户。 Power BI Embedded 也适用于联机连接的所有类型的应用程序。
+**SaaS 应用程序（软件即服务）** - 由企业或 ISV 实现的通常为联机服务的系统。 它还是服务多个客户租户（组织）的相关软件系统。 在本文中，SaaS 应用程序使用 Power BI Embedded 将分析内容提供给不同租户  。 Power BI Embedded 也适用于联机连接的所有类型的应用程序。
 
 **租户** – 使用 SaaS 应用程序的单个客户（组织）以及该客户为 SaaS 应用程序带来的任何资源或数据。
 
@@ -51,9 +51,9 @@ ms.locfileid: "57014245"
 
 **主用户** - 表示 Power BI 中的 SaaS 应用程序以及 SaaS 应用程序在调用 Power BI API 时使用的标识。 必须是具有 Power BI Pro 许可证的 AAD 用户。
 
-**AAD 应用程序用户（服务主体）** - 表示 Power BI 中的 SaaS 应用程序以及 SaaS 应用程序在调用 Power BI API 时使用的标识。 必须是 AAD Web 应用程序。 可以替换主用户以使用 Power BI 进行身份验证。
+**AAD 应用程序用户（服务主体）** - 表示 Power BI 中的 SaaS 应用程序以及 SaaS 应用程序在调用 Power BI API 时使用的标识。 必须是 AAD Web 应用程序。 可以替换主  用户以使用 Power BI 进行身份验证。
 
-**容量** - 一组专用于运行 Power BI 服务的资源。 [Power BI Premium 容量](../service-premium.md)适用于在内部使用 Power BI 的企业公司，而 [Power BI Embedded 容量](azure-pbie-create-capacity.md)旨在让应用程序开发人员开发第三方 SaaS 应用程序。
+**容量** - 一组专用于运行 Power BI 服务的资源。 [Power BI Premium 容量](../service-premium-what-is.md)适用于在内部使用 Power BI 的企业公司，而 [Power BI Embedded 容量](azure-pbie-create-capacity.md)旨在让应用程序开发人员开发第三方 SaaS 应用程序。
 
 **[Power BI Pro 许可证](../service-admin-purchasing-power-bi-pro.md)** - 基于用户的许可证，授权将内容发布到应用工作区，无需高级容量即可使用应用，共享仪表板并订阅仪表板及报表。
 
@@ -105,7 +105,7 @@ Power BI Embedded 支持多地理位置部署（预览功能）。 [多地理位
 
 ### <a name="cost"></a>开销
 
-[Power BI Embedded](https://azure.microsoft.com/services/power-bi-embedded/) 具有基于资源的购买模型，如 Power BI Premium。 你可以购买一个或多个具有固定计算能力和内存的容量。 使用 Power BI Embedded 时，此容量是主要成本项。 使用容量的用户数没有限制。 唯一限制是容量性能。 [Power BI Pro 许可证](../service-admin-licensing-organization.md)是需要访问 Power BI 门户的每个主用户或特定用户所必需的。
+[Power BI Embedded](https://azure.microsoft.com/services/power-bi-embedded/) 具有基于资源的购买模型，如 Power BI Premium  。 你可以购买一个或多个具有固定计算能力和内存的容量。 使用 Power BI Embedded  时，此容量是主要成本项。 使用容量的用户数没有限制。 唯一限制是容量性能。 [Power BI Pro 许可证](../service-admin-licensing-organization.md)是需要访问 Power BI 门户的每个主  用户或特定用户所必需的。
 
 建议通过模拟实际环境和使用情况，并在容量上运行负载测试，来测试和衡量容量上的预期负载。 可以使用 Azure 容量或[高级容量指标应用程序](../service-admin-premium-monitor-capacity.md)中可用的各种指标来衡量负载和性能。
 
@@ -119,7 +119,7 @@ Power BI Embedded 支持多地理位置部署（预览功能）。 [多地理位
 
 ## <a name="power-bi-workspace-based-isolation"></a>基于 Power BI 工作区的隔离
 
-借助基于 Power BI 工作区的隔离，SaaS 应用程序支持单个 Power BI 租户中的多个租户。 基于工作区的隔离包含不同租户使用的所有 Power BI 内容。 通过创建多个工作区，租户分离在 Power BI 工作区级别完成。 每个工作区都包含该租户相关的数据集、报表和仪表板。 此外，每个工作区仅连接到该租户的数据。 如果需要其他隔离，可以为每个工作区及其内容创建主用户或服务主体。
+借助基于 Power BI 工作区的隔离，SaaS 应用程序支持单个 Power BI 租户中的多个租户。 基于工作区的隔离包含不同租户使用的所有 Power BI 内容。 通过创建多个工作区，租户分离在 Power BI 工作区级别完成。 每个工作区都包含该租户相关的数据集、报表和仪表板。 此外，每个工作区仅连接到该租户的数据。 如果需要其他隔离，可以为每个工作区及其内容创建主  用户或服务主体。
 
 ![工作区](media/multi-tenant-saas/multi-tenant-saas-workspace.png)
 
@@ -136,15 +136,15 @@ Power BI Embedded 支持多地理位置部署（预览功能）。 [多地理位
 
 ### <a name="data-isolation"></a>数据隔离
 
-此租赁模型中的数据都在工作区级别隔离。 工作区和租户之间的简单映射可防止一个租户中的用户看到另一个租户的内容。 使用单个主用户要求你有权访问所有不同工作区。 显示最终用户的数据的配置是在[生成嵌入令牌](https://docs.microsoft.com/rest/api/power-bi/embedtoken)期间定义的，这是一个仅后端进程，最终用户无法看到或更改。
+此租赁模型中的数据都在工作区级别隔离。 工作区和租户之间的简单映射可防止一个租户中的用户看到另一个租户的内容。 使用单个主  用户要求你有权访问所有不同工作区。 显示最终用户的数据的配置是在[生成嵌入令牌](https://docs.microsoft.com/rest/api/power-bi/embedtoken)期间定义的，这是一个仅后端进程，最终用户无法看到或更改。
 
-若要添加其他隔离，应用程序开发人员可以为每个工作区定义一个主用户或应用程序，而不是有权访问多个工作区的单个主用户或应用程序。 这样一来，可以确保任何人为错误或凭据泄漏不会导致多个客户的数据被公开。
+若要添加其他隔离，应用程序开发人员可以为每个工作区定义一个主  用户或应用程序，而不是有权访问多个工作区的单个主  用户或应用程序。 这样一来，可以确保任何人为错误或凭据泄漏不会导致多个客户的数据被公开。
 
 ### <a name="scalability"></a>可伸缩性
 
-此模型的一个优点是，将数据划分到每个租户的多个数据集中可以克服[单个数据集的大小限制](https://docs.microsoft.com/power-bi/service-premium-large-datasets)（当前容量为 10 GB）。 当容量过载时，[可以删除未使用的数据集](../service-premium-understand-how-it-works.md)为活动数据集释放内存。 此任务不适用于单个大型数据集。 如果需要，还可以使用多个数据集将租户划分为多个 Power BI 容量。
+此模型的一个优点是，将数据划分到每个租户的多个数据集中可以克服[单个数据集的大小限制](https://docs.microsoft.com/power-bi/service-premium-large-datasets)（当前容量为 10 GB）。 当重载容量时，它可以收回未使用的数据集来释放内存的活动数据集。 此任务不适用于单个大型数据集。 如果需要，还可以使用多个数据集将租户划分为多个 Power BI 容量。
 
-尽管有这些优势，还必须考虑 SaaS 应用程序在未来可能达到的规模。 例如，用户可能会在可管理项目的数量上遇到限制。 请参阅本文后续部分中的部署[限制](#summary-comparison-of-the-different-approaches)，获取详细信息。 SKU 使用的容量限制了数据集需要适应的内存大小、[可以同时运行的刷新数](../service-premium-understand-how-it-works.md)以及数据刷新的最大频率。 建议在管理数百或数千个数据集时进行测试。 此外建议考虑平均使用量和峰值使用量，以及与其他租户管理方式不同的具有大型数据集或不同使用模式的任何特定租户。
+尽管有这些优势，还必须考虑 SaaS 应用程序在未来可能达到的规模。 例如，用户可能会在可管理项目的数量上遇到限制。 请参阅本文后续部分中的部署[限制](#summary-comparison-of-the-different-approaches)，获取详细信息。 SKU 使用的容量引入的数据集需要适应在中，可以在同一时间和数据刷新的最大频率运行多少刷新的内存大小限制。 建议在管理数百或数千个数据集时进行测试。 此外建议考虑平均使用量和峰值使用量，以及与其他租户管理方式不同的具有大型数据集或不同使用模式的任何特定租户。
 
 ### <a name="automation--operational-complexity"></a>自动化和操作复杂性
 
@@ -194,7 +194,7 @@ Power BI Embedded 支持多地理位置部署（预览功能）。 [多地理位
 
 ### <a name="scalability"></a>可伸缩性
 
-使用基于行级别安全性的隔离，数据需要符合数据集的大小限制（当前为 10 GB）。 随着[增量刷新](../service-premium-incremental-refresh.md)的引入和即将发布的 Power BI 数据集的 XMLA 终结点，预计数据集大小限制将显著增加。 但是，数据仍然需要适合容量内存，有足够的剩余内存来运行数据刷新。 大规模部署需要大容量，以避免用户由于内存超过当前容量的限制而遇到问题。 大规模处理的其他方法包括使用[聚合](../desktop-aggregations.md)或直接使用 DirectQuery 或实时连接连接到数据源，而不是在 Power BI 容量中缓存所有数据。
+使用基于行级别安全性的隔离，数据需要符合数据集的大小限制（当前为 10 GB）。 随着[增量刷新](../service-premium-incremental-refresh.md)的引入和即将发布的 Power BI 数据集的 XMLA 终结点，预计数据集大小限制将显著增加。 但是，数据仍然需要适合容量内存，有足够的剩余内存来运行数据刷新。 大规模部署需要大容量，以避免用户由于内存超过当前容量的限制而遇到问题。 大规模处理的其他方法包括使用[聚合](../desktop-aggregations.md)  或直接使用 DirectQuery 或实时连接连接到数据源，而不是在 Power BI 容量中缓存所有数据。
 
 ### <a name="automation--operational-complexity"></a>自动化和操作复杂性
 
@@ -235,27 +235,27 @@ Power BI 还没有修改或创建 RLS 角色和规则的 API。 只能在 Power 
 
 ## <a name="deployment-considerations-and-limitations"></a>部署注意事项和限制
 
-Power BI 项目限制：
+Power BI 项目限制： 
 
 * 单个用户/应用程序可以是成员/管理员的工作区 V1（组）的数量是 250。
 * 单个用户/应用程序可以是成员/管理员的工作区 V2（文件夹）的数量是 1000。
 * 单个工作区中的数据集数量为 1000。
 * 连接到单个数据集的报表/仪表板数为 1000。
-* 上传 .pbix 文件的数据集内存大小限制为 10 GB。
+* 上传 .pbix  文件的数据集内存大小限制为 10 GB。
 
-Power BI 容量注意事项和限制：
+Power BI 容量注意事项和限制： 
 
-* 每个容量只能根据[购买的 SKU](../service-premium.md) 使用其已分配的内存和 V 核心。
-* 有关每个 SKU 建议的数据集大小，请参考[高级大型数据集](../service-premium-large-datasets.md)。
+* 每个容量只能根据[购买的 SKU](../service-premium-what-is.md) 使用其已分配的内存和 V 核心。
+* 有关每个 SKU 建议的数据集大小，请参考[高级大型数据集](../service-premium-what-is.md#large-datasets)。
 * 专用容量的最大数据集大小为 10 GB。
-* 一天中导入模式数据集的计划刷新数是 48。
-* 导入模式数据集的计划刷新的间隔时间是 30 分钟。
-* 有关可以在一个容量上同时运行的刷新数目，请参考[资源管理和优化](../service-premium-understand-how-it-works.md)。
+* 一天中导入模式  数据集的计划刷新数是 48。
+* 导入模式  数据集的计划刷新的间隔时间是 30 分钟。
+* 有关可以在一个容量上同时运行的刷新数目，请参考[资源管理和优化](../service-premium-what-is.md#capacity-nodes)。
 * 缩放容量的平均时间为 1 到 2 分钟。 在此期间，容量不可用。 建议使用扩展方法[避免停机时间](https://powerbi.microsoft.com/blog/power-bi-developer-community-november-update-2018/#scale-script)。
 
 ## <a name="next-steps"></a>后续步骤
 
 * [Power BI 嵌入式分析](embedding.md)
 * [Power BI Embedded](azure-pbie-what-is-power-bi-embedded.md)
-* [Power BI Premium](../service-premium.md)
+* [Power BI Premium](../service-premium-what-is.md)
 * [行级别安全性](embedded-row-level-security.md)

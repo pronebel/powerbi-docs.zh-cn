@@ -1,30 +1,32 @@
 ---
 title: 安装 Power BI 报表服务器
 description: 了解如何安装 Power BI 报表服务器。
-author: markingmyname
-ms.author: maghan
+author: maggiesMSFT
+ms.author: maggies
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
-ms.date: 12/07/2018
-ms.openlocfilehash: 109c0f98705f81d48811f756c49150c8cb286e27
-ms.sourcegitcommit: d4d36b6b200f2693b545e4a3e66d94c77a3cfafb
-ms.translationtype: HT
+ms.date: 05/22/2019
+ms.openlocfilehash: 02104acdbff6e6a1a4e785553b689a3e74183a4d
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/01/2019
-ms.locfileid: "57014429"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "66187726"
 ---
 # <a name="install-power-bi-report-server"></a>安装 Power BI 报表服务器
 
 了解如何安装 Power BI 报表服务器。
 
- 下载 ![下载](media/install-report-server/download.png "下载")
+## <a name="download-power-bi-report-server"></a>下载 Power BI 报表服务器
 
-要下载 Power BI 报表服务器，请转到[使用 Power BI 报表服务器进行本地报告](https://powerbi.microsoft.com/report-server/)并选择“下载免费试用版”。 
+[下载 Power BI 报表服务器](https://www.microsoft.com/download/details.aspx?id=56722)从 Microsoft 下载中心获得。
 
-## <a name="before-you-begin"></a>开始之前
+此外还有免费的试用版。 上[使用 Power BI 报表服务器的报告](https://powerbi.microsoft.com/report-server/)页上，选择**下载免费试用版**。
+
+## <a name="before-you-install"></a>在安装之前
 
 建议在安装 Power BI 报表服务器之前先查看[安装 Power BI 报表服务器所要满足的硬件和软件要求](system-requirements.md)。
 
@@ -33,13 +35,20 @@ ms.locfileid: "57014429"
 
 ### <a name="power-bi-report-server-product-key"></a>Power BI 报表服务器产品密钥
 
+您可以从两个不同的源获取 Power BI 报表服务器的产品密钥：
+
+- Power BI Premium
+- SQL Server Enterprise 软件保障 (SA)
+
+有关详细信息请继续阅读。
+
 #### <a name="power-bi-premium"></a>Power BI Premium
 
-如果已购买 Power BI Premium，则可以在 Power BI 管理门户的“Premium 设置”选项卡中访问 Power BI 报表服务器产品密钥。 这仅适用于分配了 Power BI 服务管理员角色的全局管理员或用户。
+如果已购买 Power BI Premium，则可以在 Power BI 管理门户的“Premium 设置”  选项卡中访问 Power BI 报表服务器产品密钥。 这仅适用于分配了 Power BI 服务管理员角色的全局管理员或用户。
 
 ![高级设置](../report-server/media/install-report-server/pbirs-product-key.png "Premium 设置中的 Power BI 报表服务器密钥")
 
-选择“Power BI 报表服务器密钥”会显示包含产品密钥的对话框。 可以复制该密钥并用来进行安装。
+选择“Power BI 报表服务器密钥”  会显示包含产品密钥的对话框。 可以复制该密钥并用来进行安装。
 
 ![产品密钥](../report-server/media/install-report-server/pbirs-product-key-dialog.png "Power BI 报表服务器产品密钥")
 
@@ -55,10 +64,10 @@ ms.locfileid: "57014429"
 
 1. 查找 PowerBIReportServer.exe，然后启动安装程序。
 
-2. 选择“安装 Power BI 报表服务器”。
+2. 选择“安装 Power BI 报表服务器”  。
 
     ![安装 Power BI 报表服务器](media/install-report-server/pbireportserver-install.png)
-3. 选择要安装的版本，然后选择“下一步”。
+3. 选择要安装的版本，然后选择“下一步”  。
 
     ![选择安装版本](media/install-report-server/pbireportserver-choose-edition.png)
 
@@ -66,26 +75,26 @@ ms.locfileid: "57014429"
 
     ![版本 2](media/install-report-server/pbireportserver-choose-edition2.png)
 
-    否则，可以为服务器输入从 Power BI 服务或批量许可服务中心获取的产品密钥。 有关如何获取产品密钥的详细信息，请参阅[开始之前](#before-you-begin)部分。
-4. 阅读并同意许可条款和条件，然后选择“下一步”。
+    否则，输入从 Power BI 服务或批量许可服务中心获取的产品密钥。 有关如何获取您的产品密钥的详细信息，请参阅[在安装之前](#before-you-install)上面一节。
+4. 阅读并同意许可条款和条件，然后选择**下一步**。
 
     ![许可条款](media/install-report-server/pbireportserver-eula.png)
-5. 需要使用数据库引擎来存储报表服务器数据库。 选择“下一步”，仅安装报表服务器。
+5. 需要使用数据库引擎来存储报表服务器数据库。 选择“下一步”  ，仅安装报表服务器。
 
     ![仅安装文件](media/install-report-server/pbireportserver-install-files-only.png)
-6. 指定报表服务器的安装位置。 选择“安装”即可继续。
+6. 指定报表服务器的安装位置。 选择“安装”  即可继续。
 
     ![指定安装路径](media/install-report-server/pbireportserver-install-file-path.png)
 
     默认路径为 C:\Program Files\Microsoft Power BI Report Server。
 
-7. 在成功安装后，选择“配置报表服务器”，启动 Reporting Services 配置管理器。
+7. 在成功安装后，选择“配置报表服务器”  ，启动 Reporting Services 配置管理器。
 
     ![配置报表服务器](media/install-report-server/pbireportserver-configure.png)
 
-## <a name="configuring-your-report-server"></a>配置报表服务器
+## <a name="configure-your-report-server"></a>配置报表服务器
 
-在安装程序中选择“配置报表服务器”后，便会看到 Reporting Services 配置管理器。 有关详细信息，请参阅 [Reporting Services 配置管理器](https://docs.microsoft.com/sql/reporting-services/install-windows/reporting-services-configuration-manager-native-mode)。
+在安装程序中选择“配置报表服务器”  后，便会看到 Reporting Services 配置管理器。 有关详细信息，请参阅 [Reporting Services 配置管理器](https://docs.microsoft.com/sql/reporting-services/install-windows/reporting-services-configuration-manager-native-mode)。
 
 必须[创建报表服务器数据库](https://docs.microsoft.com/sql/reporting-services/install-windows/ssrs-report-server-create-a-report-server-database)，才能完成 Reporting Services 的初始配置。 若要完成此步骤，必须要有 SQL Server 数据库服务器。
 
@@ -105,7 +114,7 @@ ms.locfileid: "57014429"
 
 ## <a name="windows-service"></a>Windows 服务
 
-Windows 服务是在安装过程中创建的。 它显示为“Power BI 报表服务器”。 服务名称是“PowerBIReportServer”。
+Windows 服务是在安装过程中创建的。 它显示为“Power BI 报表服务器”  。 服务名称是“PowerBIReportServer”  。
 
 ![报表服务器 Windows 服务](media/install-report-server/pbireportserver-windows-service.png)
 
@@ -120,7 +129,7 @@ URL 保留项由前缀、主机名、端口和虚拟目录组成：
 | 前缀 |默认前缀为 HTTP。 如果以前安装了安全套接字层 (SSL) 证书，安装程序会尝试创建使用 HTTPS 前缀的 URL 保留项。 |
 | 主机名 |默认主机名为强通配符 (+)。 它指定报表服务器接受针对解析为计算机的任何主机名从指定端口发出的任何 HTTP 请求，包括 `http://<computername>/reportserver`、`http://localhost/reportserver` 或 `http://<IPAddress>/reportserver.` |
 | 端口 |默认端口为 80。 如果使用的端口不是 80，则需要在浏览器窗口中打开 Web 门户时，将其明确添加到 URL 中。 |
-| 虚拟目录 |默认情况下，对于报表服务器 Web 服务，虚拟目录的创建格式为 ReportServer；对于 Web 门户，虚拟目录的创建格式为 Reports。 对于报表服务器 Web 服务，默认虚拟目录为 reportserver。 对于 Web 门户，默认虚拟目录为 reports。 |
+| 虚拟目录 |默认情况下，对于报表服务器 Web 服务，虚拟目录的创建格式为 ReportServer；对于 Web 门户，虚拟目录的创建格式为 Reports。 对于报表服务器 Web 服务，默认虚拟目录为 reportserver  。 对于 Web 门户，默认虚拟目录为 reports  。 |
 
 完整 URL 字符串的示例如下所示：
 

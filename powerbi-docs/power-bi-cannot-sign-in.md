@@ -11,19 +11,19 @@ ms.topic: conceptual
 ms.custom: ''
 ms.date: 03/12/2019
 ms.openlocfilehash: 830d75aaddd60ce0b678d6abdbeca7cd79a3ab28
-ms.sourcegitcommit: 2df541facab8a1621953e91dbbee18c7d4e9a3c3
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/28/2019
+ms.lasthandoff: 05/29/2019
 ms.locfileid: "64769846"
 ---
 # <a name="troubleshooting-sign-in-issues-for-power-bi"></a>Power BI 登录问题疑难解答
 
 本文介绍在遇到 Power BI 登录问题时如何获取[支持](https://powerbi.microsoft.com/support/)。
 
-需要采取的第一个措施是获得组织内部支持团队的协助。
+需要采取的第一个措施是获得组织内部支持团队的协助  。
 
-而如果你是组织的租户管理员，且仍无法登录 Power BI，请继续了解以下信息。
+而如果你是组织的租户管理员，且仍无法登录 Power BI，请继续了解以下信息  。
 
 ## <a name="engage-the-support-team"></a>联系支持团队
 

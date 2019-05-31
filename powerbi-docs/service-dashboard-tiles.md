@@ -12,11 +12,11 @@ ms.date: 11/21/2018
 ms.author: maggies
 LocalizationGroup: Dashboards
 ms.openlocfilehash: c8b5728c951bc1a25e71da8885997814c5485cd4
-ms.sourcegitcommit: 5e83fa6c93a0bc6599f76cc070fb0e5c1fce0082
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/13/2019
-ms.locfileid: "56215978"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61138382"
 ---
 # <a name="intro-to-dashboard-tiles-for-power-bi-designers"></a>Power BI 设计器的仪表板磁贴简介
 
@@ -43,7 +43,7 @@ ms.locfileid: "56215978"
 * [其他仪表板](service-pin-tile-to-another-dashboard.md)
 * [OneDrive for Business 上的 Excel 工作簿](service-dashboard-pin-tile-from-excel.md)
 * [Power BI Publisher for Excel](publisher-for-excel.md)
-* [快速见解](service-insights.md)
+* [Quick Insights (快速见解)](service-insights.md)
 * [Reporting Services](https://docs.microsoft.com/sql/reporting-services/pin-reporting-services-items-to-power-bi-dashboards)
 
 还可以直接在仪表板上使用“[添加磁贴](service-dashboard-add-widget.md)”创建图像、文本框、视频、流数据和 Web 内容的独立磁贴。
@@ -82,7 +82,7 @@ ms.locfileid: "56215978"
 选择磁贴时，出现的下一步取决于该磁贴的创建方式。 同样，如果磁贴有[自定义链接](service-dashboard-edit-tile.md)，则选择该磁贴将转到该链接。 否则，选择磁贴将转到报表、Excel Online 工作簿、本地 Reporting Services 报表或用于创建该磁贴的问答问题。
 
 > [!NOTE]
-> 这对在仪表板上直接使用“添加磁贴”创建的视频磁贴不适用。 选择视频磁贴（以这种方式创建的）将导致视频直接在仪表板上播放。   
+> 这对在仪表板上直接使用“添加磁贴”  创建的视频磁贴不适用。 选择视频磁贴（以这种方式创建的）将导致视频直接在仪表板上播放。   
 > 
 > 
 
@@ -90,7 +90,7 @@ ms.locfileid: "56215978"
 
 * 如果未保存用于创建可视化效果的报表，则选择磁贴将不会产生任何操作。
 * 如果是从 Excel Online 工作簿创建磁贴，则至少需要该工作簿的“读取”权限。 否则，选择磁贴将不会打开 Excel Online 工作簿。
-* 假设使用“添加磁贴”直接在仪表板上创建磁贴，并为其设置自定义超链接。 这样在选择标题、副标题或磁贴时便会打开该 URL。 否则，默认情况下，选择直接在仪表板上创建的图像、Web 代码或文本框磁贴都不会产生任何反应。
+* 假设使用“添加磁贴”直接在仪表板上创建磁贴，并为其设置自定义超链接  。 这样在选择标题、副标题或磁贴时便会打开该 URL。 否则，默认情况下，选择直接在仪表板上创建的图像、Web 代码或文本框磁贴都不会产生任何反应。
 * 如果没有 Reporting Services 内的报表的权限，则选择从 Reporting Services 报表创建的磁贴时，会出现一个页面，表明你没有访问权限 (rsAccessDenied)。
 * 如果没有 Reporting Services 服务器所在网络的访问权限，则选择从 Reporting Services 创建的磁贴时，会出现一个页面，表明找不到服务器 (HTTP 404)。 设备需要具有对报表服务器的网络访问权限方可查看该报表。
 * 如果原始可视化效果用于创建磁贴更改，则磁贴不会更改。  例如，如果从报表固定一个折线图，然后将折线图更改为条形图，则仪表板磁贴会继续显示为折线图。 数据将会刷新，但可视化效果类型不会。

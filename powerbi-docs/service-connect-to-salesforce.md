@@ -11,11 +11,11 @@ ms.date: 05/30/2018
 ms.author: sarinas
 LocalizationGroup: Connect to services
 ms.openlocfilehash: ca035762f16d2e8e6c7ffb59220a2457daf10545
-ms.sourcegitcommit: a36f82224e68fdd3489944c9c3c03a93e4068cc5
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/31/2019
-ms.locfileid: "55430800"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61171903"
 ---
 # <a name="connect-to-salesforce-with-power-bi"></a>使用 Power BI 连接到 Salesforce
 你可以使用 Power BI 轻松连接到你的 Salesforce.com 帐户。 创建此连接可检索你的数据，并自动提供基于数据的仪表板和相关报表。
@@ -52,7 +52,7 @@ ms.locfileid: "55430800"
      ![](media/service-connect-to-salesforce/pbi_salesforcereports.png)
      
      如果看不到任何报表，请在你的 Salesforce 帐户中添加或创建它们，然后再次尝试连接。
-7. 单击“连接”以开始导入过程。 导入过程中，你会看到显示导入正在进行的通知。 导入完成后，你会看到其中有你的 Salesforce 数据的仪表板、报表和数据集，全都列在左侧导航窗格中。
+7. 单击  “连接”以开始导入过程。 导入过程中，你会看到显示导入正在进行的通知。 导入完成后，你会看到其中有你的 Salesforce 数据的仪表板、报表和数据集，全都列在左侧导航窗格中。
    
    ![](media/service-connect-to-salesforce/pbi_getdatasalesforcedash.png)
 
@@ -63,7 +63,7 @@ ms.locfileid: "55430800"
 * 尝试在仪表板顶部的[在“问答”框中提问](consumer/end-user-q-and-a.md)
 * 在仪表板中[更改磁贴](service-dashboard-edit-tile.md)
 * [选择磁贴](service-dashboard-tiles.md)以打开基础报表。
-* 虽然数据集将按计划每日刷新，但你可以更改刷新计划或根据需要使用“立即刷新”来尝试刷新
+* 虽然数据集将按计划每日刷新，但你可以更改刷新计划或根据需要使用“立即刷新”  来尝试刷新
 
 ## <a name="system-requirements-and-considerations"></a>系统要求和注意事项
 - 与已启用 API 访问的 Salesforce 生产帐户连接

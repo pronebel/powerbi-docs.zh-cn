@@ -1,33 +1,33 @@
 ---
 title: 如何配置 Power BI 报表计划的刷新
 description: 若要刷新 Power BI 报表中的数据，必须创建计划的刷新计划。
-author: markingmyname
+author: mgblythe
 manager: kfile
-ms.reviewer: ''
+ms.reviewer: kayu
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 11/01/2017
-ms.author: maghan
-ms.openlocfilehash: 4ca6d7c5ed47433614dc194db7d09162d5e96eae
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
-ms.translationtype: HT
+ms.author: mblythe
+ms.openlocfilehash: f502ae89eb4c413dd900077272dbed5a4a9c4c6f
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54285705"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61219210"
 ---
 # <a name="how-to-configure-power-bi-report-scheduled-refresh"></a>如何配置 Power BI 报表计划的刷新
-若要刷新 Power BI 报表中的数据，必须创建计划的刷新计划。 此项操作需要在 Power BI 报表的“管理”区域内完成。
+若要刷新 Power BI 报表中的数据，必须创建计划的刷新计划。 此项操作需要在 Power BI 报表的“管理”  区域内完成。
 
 ![Power BI 报表成功的计划刷新](media/configure-scheduled-refresh/scheduled-refresh-success.png)
 
 ## <a name="configure-data-source-credentials"></a>配置数据源凭据
-在创建计划数据刷新计划之前，需要为在 Power BI 报表中使用的“每个数据源”设置凭据。
+在创建计划数据刷新计划之前，需要为在 Power BI 报表中使用的“每个数据源”  设置凭据。
 
-1. 在 Web 门户中，右键单击 Power BI 报表，然后选择“管理”。
+1. 在 Web 门户中，右键单击 Power BI 报表，然后选择“管理”  。
    
     ![从 Power BI 报表上下文菜单中选择“管理”](media/configure-scheduled-refresh/manage-power-bi-report.png)
-2. 在左侧菜单中，选择“数据源”选项卡。
+2. 在左侧菜单中，选择“数据源”  选项卡。
 3. 对于出现的每个数据源，请选择连接该数据源时要使用的身份验证的类型。 输入适当的凭据。
    
     ![管理报表屏幕中的数据源凭据](media/configure-scheduled-refresh/data-source-credentials.png)
@@ -35,41 +35,41 @@ ms.locfileid: "54285705"
 ## <a name="creating-a-schedule-refresh-plan"></a>创建计划的刷新计划
 按照以下步骤创建计划的刷新计划。
 
-1. 在 Web 门户中，右键单击 Power BI 报表，然后选择“管理”。
+1. 在 Web 门户中，右键单击 Power BI 报表，然后选择“管理”  。
    
     ![从 Power BI 报表上下文菜单中选择“管理”](media/configure-scheduled-refresh/manage-power-bi-report.png)
-2. 在左侧菜单中，选择“计划的刷新”选项卡。
-3. 在“计划的刷新”页上，选择“新建计划刷新计划”。
+2. 在左侧菜单中，选择“计划的刷新”  选项卡。
+3. 在“计划的刷新”  页上，选择“新建计划刷新计划”  。
    
     ![新建计划的刷新计划](media/configure-scheduled-refresh/new-scheduled-refresh-plan.png)
-4. 在“新建计划刷新计划”页上，输入描述并在想要刷新数据模型时设置计划。
-5. 完成时选择“创建计划的刷新计划”。
+4. 在“新建计划刷新计划”  页上，输入描述并在想要刷新数据模型时设置计划。
+5. 完成时选择“创建计划的刷新计划”  。
    
     ![创建计划的刷新计划](media/configure-scheduled-refresh/create-scheduled-refresh-plan.png)
 
 ## <a name="modifying-a-schedule-refresh-plan"></a>修改计划的刷新计划
 修改计划的刷新计划与创建操作类似。
 
-1. 在 Web 门户中，右键单击 Power BI 报表，然后选择“管理”。
+1. 在 Web 门户中，右键单击 Power BI 报表，然后选择“管理”  。
    
     ![从 Power BI 报表上下文菜单中选择“管理”](media/configure-scheduled-refresh/manage-power-bi-report.png)
-2. 在左侧菜单中，选择“计划的刷新”选项卡。
-3. 在“计划的刷新”页上，选择想要管理的刷新计划旁边的“编辑”。
+2. 在左侧菜单中，选择“计划的刷新”  选项卡。
+3. 在“计划的刷新”  页上，选择想要管理的刷新计划旁边的“编辑”  。
    
     ![选择你想要编辑的计划旁边的“编辑”](media/configure-scheduled-refresh/edit-scheduled-refresh-plan.png)
-4. 在“编辑计划的刷新计划”页上，输入描述并在想要刷新数据模型时设置计划。
-5. 完成时选择“应用”。
+4. 在“编辑计划的刷新计划”  页上，输入描述并在想要刷新数据模型时设置计划。
+5. 完成时选择“应用”  。
    
     ![编辑计划的刷新计划页与创建屏幕类似](media/configure-scheduled-refresh/edit-scheduled-refresh-plan-page.png)
 
 ## <a name="viewing-the-status-of-schedule-refresh-plan"></a>查看计划刷新计划的状态
 在 Web 门户中，查看计划刷新计划的状态。
 
-1. 在 Web 门户中，右键单击 Power BI 报表，然后选择“管理”。
+1. 在 Web 门户中，右键单击 Power BI 报表，然后选择“管理”  。
    
     ![从 Power BI 报表上下文菜单中选择“管理”](media/configure-scheduled-refresh/manage-power-bi-report.png)
-2. 在左侧菜单中，选择“计划的刷新”选项卡。
-3. 在“计划的刷新”页上，最右边的列用于显示计划状态。
+2. 在左侧菜单中，选择“计划的刷新”  选项卡。
+3. 在“计划的刷新”  页上，最右边的列用于显示计划状态。
    
    | **状态** | **说明** |
    | --- | --- |

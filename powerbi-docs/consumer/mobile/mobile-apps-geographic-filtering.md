@@ -9,11 +9,11 @@ ms.topic: conceptual
 ms.date: 02/09/2018
 ms.author: mshenhav
 ms.openlocfilehash: 828dcb4aeb8b7c5e69292685470f112a2d85cb71
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54274642"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61348619"
 ---
 # <a name="filter-a-report-by-geographic-location-in-the-power-bi-mobile-apps"></a>在 Power BI 移动应用中按地理位置筛选报表
 适用于：
@@ -31,7 +31,7 @@ ms.locfileid: "54274642"
 
 ## <a name="filter-your-report-by-your-geographic-location"></a>按地理位置筛选报表
 1. 在移动设备上，在 Power BI 移动应用中打开报表。
-2. 如果报表具有地理数据，则会看到一条消息，要求允许 Power BI 访问你的位置。 单击“允许”，然后再次点击“允许”。
+2. 如果报表具有地理数据，则会看到一条消息，要求允许 Power BI 访问你的位置。 单击“允许”  ，然后再次点击“允许”  。
 3. 点击图钉 ![推送固定图标](./media/mobile-apps-geographic-filtering/power-bi-mobile-geo-icon.png)。 可以对市/县、省/自治区/直辖市或国家/地区进行筛选，具体取决于报表中的数据。 筛选器只列出与你当前的位置相匹配的选项。
    
     ![推送固定筛选器](./media/mobile-apps-geographic-filtering/power-bi-mobile-geo-map-set-filter.png)

@@ -12,10 +12,10 @@ ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Data from files
 ms.openlocfilehash: 8eeb8431f3f4e5fff15bb1eb2984826c73826b34
-ms.sourcegitcommit: 10a87c016f497dbeba32f94ed1f3688a70816fea
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/09/2019
+ms.lasthandoff: 05/29/2019
 ms.locfileid: "65511911"
 ---
 # <a name="get-data-from-files-for-power-bi"></a>从 Power BI 文件获取数据
@@ -42,7 +42,7 @@ ms.locfileid: "65511911"
 > 
 
 ## <a name="where-your-file-is-saved-makes-a-difference"></a>保存文件的位置具有重要意义
-**本地** - 如果你将文件保存到计算机上的本地驱动器中或者组织中的其他位置，则在 Power BI 中，你可以将文件导入到 Power BI。 你的文件实际上一直保存在本地驱动器中，因此整个文件并未真正导入到 Power BI。 实际上，在 Power BI 网站中创建新的数据集，数据（某些情况下为数据模型）将加载到数据集中。 如果你的文件有任何报表，则这些报表会显示在你的 Power BI 网站中的“报表”下。
+**本地** - 如果你将文件保存到计算机上的本地驱动器中或者组织中的其他位置，则在 Power BI 中，你可以将文件导入到 Power BI。  你的文件实际上一直保存在本地驱动器中，因此整个文件并未真正导入到 Power BI。 实际上，在 Power BI 网站中创建新的数据集，数据（某些情况下为数据模型）将加载到数据集中。 如果你的文件有任何报表，则这些报表会显示在你的 Power BI 网站中的“报表”下。
 
 **OneDrive - 企业** – 如果你有 OneDrive for Business，并且使用登录 Power BI 的同一帐户登录到其中，这是将 Excel Power BI Desktop 或 .CSV 文件中的工作与你在 Power BI 中的数据集、报表和仪表板保持同步的有史以来最有效的方法。由于 Power BI 和 OneDrive 都位于云中，Power BI 大约每小时会连接你在 OneDrive 上的文件一次。 如果发现任何更改，你的数据集、报表和仪表板会在 Power BI 中自动更新。
 

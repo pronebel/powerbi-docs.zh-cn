@@ -11,11 +11,11 @@ ms.date: 06/25/2018
 ms.author: mblythe
 LocalizationGroup: Administration
 ms.openlocfilehash: 86a90396c82a597e8b4f535b71e029bfa21328a4
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54280880"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61187225"
 ---
 # <a name="powershell-cmdlets-rest-apis-and-net-sdk-for-power-bi-administration"></a>使用 PowerShell cmdlet、REST API 和 .NET SDK 进行 Power BI 管理
 通过 Power BI，管理员可以使用 PowerShell cmdlet 编写常见任务的脚本。 还可以利用其中的 REST API 和 .NET SDK 开发管理解决方案。 本主题列出了一系列 cmdlet 和相应的 SDK 方法以及 REST API 终结点。 有关详细信息，请参阅：

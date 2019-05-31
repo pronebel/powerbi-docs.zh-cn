@@ -11,11 +11,11 @@ ms.date: 06/26/2018
 ms.author: maggies
 LocalizationGroup: Samples
 ms.openlocfilehash: 4b36c02abe0ca0bbd2d117559855a69edff370db
-ms.sourcegitcommit: 5e83fa6c93a0bc6599f76cc070fb0e5c1fce0082
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/13/2019
-ms.locfileid: "56216645"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61233712"
 ---
 # <a name="human-resources-sample-for-power-bi-take-a-tour"></a>Power BI 的人力资源示例：参观
 
@@ -43,7 +43,7 @@ ms.locfileid: "56216645"
 3. 在显示的“获取数据”页上选择“**示例**”图标。
    
    ![](media/sample-datasets/power-bi-samples-icon.png)
-4. 依次选择“人力资源示例”和“连接”。  
+4. 依次选择“人力资源示例”  和“连接”  。  
    
    ![获取数据](media/sample-human-resources/pbi_hr_sample_connect.png)
 5. Power BI 导入内容包，并将新的仪表板、报表和数据集添加到当前工作区。 新的内容会以黄色星号标记。 
@@ -57,13 +57,13 @@ ms.locfileid: "56216645"
  * [人力资源示例 PBIX](http://download.microsoft.com/download/6/9/5/69503155-05A5-483E-829A-F7B5F3DD5D27/Human%20Resources%20Sample%20PBIX.pbix)
 
 ### <a name="get-the-excel-workbook-for-this-sample"></a>获取 Excel 工作簿形式的此示例
-还可以针对此示例[仅下载该数据集（Excel 工作簿）](http://go.microsoft.com/fwlink/?LinkId=529780)。 该工作簿包含你可以查看和修改的 Power View 工作表。 若要查看原始数据，请选择“Power Pivot”>“管理”。
+还可以针对此示例[仅下载该数据集（Excel 工作簿）](http://go.microsoft.com/fwlink/?LinkId=529780)。 该工作簿包含你可以查看和修改的 Power View 工作表。 若要查看原始数据，请选择“Power Pivot”>“管理”  。
 
 ## <a name="new-hires"></a>新员工
 首先来了解一下新员工。
 
-1. 在工作区中，选择“仪表板”选项卡，并打开“人力资源”仪表板。
-2. 在仪表板上，选择“新员工计数、上一年同时段的新员工和在职员工的**按月**增长率变化”磁贴。  
+1. 在工作区中，选择“仪表板”  选项卡，并打开“人力资源”仪表板。
+2. 在仪表板上，选择“新员工计数、上一年同时段的新员工和在职员工的**按月**增长率变化”  磁贴。  
    ![](media/sample-human-resources/hr2.png)  
 
    将打开“人力资源示例”报表的**新员工**页。  
@@ -133,7 +133,7 @@ ms.locfileid: "56216645"
 1. 单击“问答”问题框。 请注意，在开始键入之前，问答框中提供了以下建议：
 
    ![](media/sample-human-resources/pbi_hr_sample_qabox.png)
-2. 你可以选择其中一个建议或类型：“显示区域为东部的去年同期的年龄组、性别和差员工”。  
+2. 你可以选择其中一个建议或类型：“显示区域为东部的去年同期的年龄组、性别和差员工”  。  
 
    ![](media/sample-human-resources/pbi_hr_sample_qa_answer.png)
 

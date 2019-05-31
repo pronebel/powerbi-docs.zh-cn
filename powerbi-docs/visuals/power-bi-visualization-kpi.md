@@ -12,11 +12,11 @@ ms.date: 11/24/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
 ms.openlocfilehash: 3d197da63be256825efc44c9e97988648d049efa
-ms.sourcegitcommit: a36f82224e68fdd3489944c9c3c03a93e4068cc5
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/31/2019
-ms.locfileid: "55430731"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61067460"
 ---
 # <a name="kpi-visuals"></a>KPI 视觉对象
 关键绩效指标 (KPI) 是一个视觉提示，用于传达针对可度量目标已完成的进度。 有关 KPI 的详细信息，请参阅 [Microsoft Developer Network](https://msdn.microsoft.com/library/hh272050)。
@@ -34,7 +34,7 @@ ms.locfileid: "55430731"
 * 要衡量与目标的距离（我提前或落后了多少？）   
 
 ## <a name="kpi-requirements"></a>KPI 要求
-关键绩效指标 (KPI) 基于特定的指标值，旨在帮助你针对定义的目标评估指标的当前值和状态。 因此，KPI 视觉对象需要一个用于计算值的基础指标值、一个目标指标或指标值，以及一个阈值或目标。
+关键绩效指标 (KPI) 基于特定的指标值，旨在帮助你针对定义的目标评估指标的当前值和状态。 因此，KPI 视觉对象需要一个用于计算值的  基础指标值、一个  目标指标或指标值，以及一个阈值或目标。  
 
 目前 KPI 数据集需要包含 KPI 的目标值。 如果数据集不包含目标，则可以通过向数据模型或 PBIX 文件添加带目标的 Excel 工作表来创建目标。
 
@@ -47,9 +47,9 @@ ms.locfileid: "55430731"
 <iframe width="560" height="315" src="https://www.youtube.com/embed/xmja6EpqaO0?list=PL1N57mwBHtN0JFoKSR0n-tBkUJHeMP2cP" frameborder="0" allowfullscreen></iframe>
 
 1. 在“报表”视图中打开报表，再选择黄色选项卡，以添加新页面。    
-2. 从“字段”窗格，选择“销售额”>“本年度单位总额”。  这是指标。
-3. 添加“时间”>“财政月”。  这用于表示趋势。
-4. 重要说明：按财政月对图表进行排序。 在将可视化效果转换为 KPI 后，没有要进行排序的选项。
+2. 从“字段”窗格，选择“销售额”>“本年度单位总额”  。  这是指标。
+3. 添加“时间”>“财政月”  。  这用于表示趋势。
+4. 重要说明：按财政月  对图表进行排序。 在将可视化效果转换为 KPI 后，没有要进行排序的选项。
 
     ![](media/power-bi-visualization-kpi/power-bi-chart.png)
 5. 在“可视化”窗格中选择 KPI 图标，以便将可视化效果转换为 KPI。
@@ -63,13 +63,13 @@ ms.locfileid: "55430731"
    * **指标** - 控制指标的显示单位和小数位数。
    * **趋势轴** - 当设置为**开**时，趋势轴显示为 KPI 视觉对象的背景。  
    * **目标值** - 当设置为**开**时，视觉对象将显示目标值和相对于目标的距离百分比。
-   * **颜色编码 > 方向** - 一些 KPI 被视为值越高越好，一些则视为值越低越好。 例如，收入与等待时间。 通常更高的收入值好于更高的等待时间值。 选择“越高越好”，并选择性地更改颜色设置。
+   * **颜色编码 > 方向** - 一些 KPI 被视为值越高越好，一些则视为值越低越好   。 例如，收入与等待时间。 通常更高的收入值好于更高的等待时间值。 选择“越高越好”，并选择性地更改颜色设置  。
 
 
 KPI 还可以在 Power BI 服务和移动设备中使用 – 让你始终保持与业务中心的联系。
 
 ## <a name="considerations-and-troubleshooting"></a>注意事项和疑难解答
-* 如果 KPI 并非如上所示，则可能是因为需要按财政月进行排序。 由于 KPI 没有排序选项，则需要先按财政月排序，然后将可视化效果转换为 KPI。
+* 如果 KPI 并非如上所示，则可能是因为需要按财政月进行排序。 由于 KPI 没有排序选项，则需要先按财政月排序，然后  将可视化效果转换为 KPI。
 
 ## <a name="next-steps"></a>后续步骤
 

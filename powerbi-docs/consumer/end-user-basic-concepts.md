@@ -13,18 +13,18 @@ ms.date: 12/06/2018
 ms.author: mihart
 LocalizationGroup: Get started
 ms.openlocfilehash: 8172934357c24516a40a670c68e008521bd4d82d
-ms.sourcegitcommit: 378265939126fd7c96cb9334dac587fc80291e97
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "57580096"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61051125"
 ---
 # <a name="basic-concepts-for-power-bi-service-consumers"></a>Power BI 服务使用者的基本概念
 
-## <a name="power-bi-consumers-and-designers"></a>Power BI 使用者和设计者
+## <a name="power-bi-consumers-and-designers"></a>Power BI 使用者和设计者  
 本文假设你已阅读 [Power BI 概述](../power-bi-overview.md)并确定自己为 Power BI 使用者。 使用者接收来自同事的 Power BI 内容，例如仪表板和报表。 使用者使用 Power BI 服务，该服务其实就是网站版 Power BI。
 
-毫无疑问，你会听到“Power BI Desktop”或“Desktop”一词，这是指与你一起生成和共享仪表板和报表的设计者所使用的独立工具。 请务必知晓，还有其他 Power BI 工具，但只要你是使用者，就只能使用 Power BI 服务。 且本文仅适用于 Power BI 服务。
+毫无疑问，你会听到“Power BI Desktop”或“Desktop”一词，这是指与你一起生成和共享仪表板和报表的设计者所使用的独立工具  。 请务必知晓，还有其他 Power BI 工具，但只要你是使用者，就只能使用 Power BI 服务。 且本文仅适用于 Power BI 服务。
 
 ## <a name="terminology-and-concepts"></a>术语和概念
 本文不是 Power BI 的简介，也不是动手教程。 而是一篇概述文章，旨在帮助你熟悉 Power BI 术语和概念。 教你术语并帮助你了解相关情况。 有关 Power BI 服务及其导航的介绍，请访问[学习](end-user-experience.md)。
@@ -32,13 +32,13 @@ ms.locfileid: "57580096"
 ## <a name="open-power-bi-service-for-the-first-time"></a>第一次打开 Power BI 服务
 大多数 Power BI 使用者获得 Power BI 服务的方式是 1）他们的公司购买许可证；2）管理员将这些许可证分配给像你这样的员工。
 
-要开始使用，只需打开浏览器并输入“app.powerbi.com”即可。 第一次打开 Power BI 服务时，会看到如下图所示内容。
+要开始使用，只需打开浏览器并输入“app.powerbi.com”即可  。 第一次打开 Power BI 服务时，会看到如下图所示内容。
 
 ![Power BI 服务的欢迎屏幕](media/end-user-basic-concepts/power-bi-open.png)
 
 使用 Power BI 时，可对每次打开网站时看到的内容进行个性化设置。  例如，有的人希望 Power BI 打开主页，而有的人希望首先看到常用仪表板。 别担心，我们会教你如何执行此操作。
 - [主页预览](https://powerbi.microsoft.com/blog/introducing-power-bi-home-and-global-search)    
-- [将内容设置为精选](end-user-featured.md)
+- [将内容设置为精选](end-user-featured.md) 
 
 ![显示主页视图和仪表板视图](media/end-user-basic-concepts/power-bi-first.png)
 
@@ -46,26 +46,26 @@ ms.locfileid: "57580096"
 
 ## <a name="power-bi-content"></a>Power BI 内容
 ### <a name="introduction-to-building-blocks"></a>构建基块介绍
-对于 Power BI 使用者，5 个构建块为：可视化效果、仪表板、报表、应用和数据集。 它们有时也称为 Power BI 内容。 内容在工作区中。 典型工作流涉及上述所有构建基块：Power BI 设计者（下图中黄色所示）从数据集收集数据，将其引入 Power BI 进行分析，创建突出相关事实和见解的所有可视化效果的报表，将可视化效果从报表固定到仪表板，并以应用或其他类型的共享内容的形式与像你这样的使用者（下图中黑色所示）共享报表和仪表板。
+对于 Power BI 使用者，5 个构建块为：可视化效果、仪表板、报表、应用和数据集。 它们有时也称为 Power BI 内容  。 内容在工作区中  。 典型工作流涉及上述所有构建基块：Power BI 设计者（下图中黄色所示）从数据集收集数据，将其引入 Power BI 进行分析，创建突出相关事实和见解的所有可视化效果的报表，将可视化效果从报表固定到仪表板，并以应用或其他类型的共享内容的形式与像你这样的使用者（下图中黑色所示）共享报表和仪表板       。
 
 ![流程图及基本概念](media/end-user-basic-concepts/power-bi-workflow.png)
 
 基本概念如下。
-* ![可视化效果图标](media/end-user-basic-concepts/visual.png) 可视化效果（或视觉对象）是 Power BI 设计者使用报表和数据集中的数据生成的一类图表。 设计者通常在 Power BI Desktop 中生成视觉对象。
+* ![可视化效果图标](media/end-user-basic-concepts/visual.png) 可视化效果（或视觉对象）是 Power BI 设计者使用报表和数据集中的数据生成的一类图表     。 设计者通常在 Power BI Desktop 中生成视觉对象  。
 
-    有关详细信息，请参阅 [Power BI 使用者的可视化效果](end-user-visualizations.md)
+    有关详细信息，请参阅 [Power BI 使用者的可视化效果](end-user-visualizations.md) 
 
-* ![数据库图标](media/end-user-basic-concepts/power-bi-dataset-icon.png) 数据集就是数据容器。 例如，它可能是世界卫生组织的 Excel 文件、公司拥有的客户数据库或者 Salesforce 文件。  
+* ![数据库图标](media/end-user-basic-concepts/power-bi-dataset-icon.png) 数据集就是数据容器  。 例如，它可能是世界卫生组织的 Excel 文件、公司拥有的客户数据库或者 Salesforce 文件。  
 
-* ![仪表板图标](media/end-user-basic-concepts/dashboard.png) 仪表板是一个包含交互式视觉对象、文字和图形的屏幕。 仪表板在一个屏幕上收集最重要的指标，以便呈现某个事实或回答某个问题。 仪表板内容来自一个或多个报表以及一个或多个数据集。
+* ![仪表板图标](media/end-user-basic-concepts/dashboard.png) 仪表板是一个包含交互式视觉对象、文字和图形的屏幕  。 仪表板在一个屏幕上收集最重要的指标，以便呈现某个事实或回答某个问题。 仪表板内容来自一个或多个报表以及一个或多个数据集。
 
-    有关详细信息，请参阅 [Power BI 使用者仪表板](end-user-dashboards.md)
+    有关详细信息，请参阅 [Power BI 使用者仪表板](end-user-dashboards.md) 
 
-* ![报表图标](media/end-user-basic-concepts/report.png) 报表由含交互式视觉对象、文字和图形的一个或多个页面组成。 报表以单个数据集为基础。 通常报表将多个页面组织起来，每个页面提供一个主要关注领域的信息或解答一个问题。
+* ![报表图标](media/end-user-basic-concepts/report.png) 报表由含交互式视觉对象、文字和图形的一个或多个页面组成  。 报表以单个数据集为基础。 通常报表将多个页面组织起来，每个页面提供一个主要关注领域的信息或解答一个问题。
 
-    有关详细信息，请参阅 [Power BI 使用者报表](end-user-reports.md)
+    有关详细信息，请参阅 [Power BI 使用者报表](end-user-reports.md) 
 
-* ![应用图标](media/end-user-basic-concepts/app.png) 应用是设计者捆绑和共享相关仪表板和报表的方式。 使用者自动接收某些应用，亦可搜索由同事或社区创建的其他应用。 例如，可能已使用的外部服务（如 Google Analytics 和 Microsoft Dynamics CRM）也提供 Power BI 应用。
+* ![应用图标](media/end-user-basic-concepts/app.png) 应用是设计者捆绑和共享相关仪表板和报表的方式   。 使用者自动接收某些应用，亦可搜索由同事或社区创建的其他应用  。 例如，可能已使用的外部服务（如 Google Analytics 和 Microsoft Dynamics CRM）也提供 Power BI 应用。
 
 要明确的是，如果你是新用户且是第一次登录 Power BI，则没有仪表板、应用或报表。
 _______________________________________________________
@@ -73,7 +73,7 @@ _______________________________________________________
 
 
 ## <a name="datasets"></a>数据集
-数据集是设计者导入或连接后用于生成报表和仪表板的数据的集合。 作为使用者，你不会直接与数据集交互，但了解它们的工作原理大有裨益。  
+数据集是设计者导入或连接后用于生成报表和仪表板的数据的集合   。 作为使用者，你不会直接与数据集交互，但了解它们的工作原理大有裨益。  
 
 每个数据集表示一个数据源，例如，OneDrive 上的 Excel 工作簿，或本地 SSAS 表格数据集或 Salesforce 数据集。 支持多种不同的数据源。
 
@@ -104,15 +104,15 @@ __________________________________________________________
 
    ![8 个示例视觉对象](media/end-user-basic-concepts/power-bi-visuals.png)
 
-社区也提供可视化效果，它们称为自定义视觉对象。 如果收到的报表含不知道的视觉对象，它可能是自定义视觉对象。 如果在解读自定义视觉对象方面需要帮助，请<!--[look up the name of the report or dashboard *designer*](end-user-owner.md)-->查找报表或仪表板设计者的名字并与之联系。
+社区也提供可视化效果，它们称为自定义视觉对象  。 如果收到的报表含不知道的视觉对象，它可能是自定义视觉对象。 如果需要帮助解释自定义视觉对象， <!--[look up the name of the report or dashboard *designer*](end-user-owner.md)-->查找报表或仪表板的名称*设计器*和联系他或她。
 
-报表中的可视化效果
+报表中的可视化效果 
 
 * 可以通过复制/粘贴的方式在同一报表中反复使用。
 * 可以在多个不同的仪表板上使用
 __________________________________________________
 ## <a name="reports"></a>报表
-Power BI 报表是一页或多页可视化效果、图形和文本。 报表中所有可视化对象来自单个数据集。 设计者与[阅读视图中与报表交互](end-user-reading-view.md)的使用者共享报表。
+Power BI 报表是一页或多页可视化效果、图形和文本。 报表中所有可视化对象来自单个数据集。 设计者与[阅读视图中与报表交互](end-user-reading-view.md)的使用者共享报表    。
 
 ![含选项卡的报表](media/end-user-basic-concepts/power-bi-report2.png)
 
@@ -127,11 +127,11 @@ Power BI 报表是一页或多页可视化效果、图形和文本。 报表中�
 ________________________________________________
 
 ## <a name="dashboards"></a>仪表板
-仪表板代表一个自定义视图，其中包含基础数据集的某个子集。 设计者单独或作为应用的一部分生成仪表板并与使用者共享。 仪表板是包含磁贴、图形和文本的画布。
+仪表板代表一个自定义视图，其中包含基础数据集的某个子集。 设计者单独或作为应用的一部分生成仪表板并与使用者共享   。 仪表板是包含磁贴、图形和文本的画布  。
 
   ![示例仪表板](media/end-user-basic-concepts/power-bi-dashboard.png)
 
-磁贴呈现设计者固定（例如，从报表固定到仪表板）的视觉对象。  固定的每个磁贴均显示一个从数据集创建并固定到该仪表板的[可视化效果](end-user-visualizations.md)。 磁贴还可以包含整个报表页面，并且可以包含实时传送视频流数据或视频。 设计者可通过多种方法可将磁贴添加到仪表板中，本概述主题不一一介绍。 若要了解详细信息，请参阅 [Power BI 中的仪表板磁贴](end-user-tiles.md)。
+磁贴呈现设计者固定（例如，从报表固定到仪表板）的视觉对象   。  固定的每个磁贴均显示一个从数据集创建并固定到该仪表板的[可视化效果](end-user-visualizations.md)。 磁贴还可以包含整个报表页面，并且可以包含实时传送视频流数据或视频。 设计者可通过多种方法可将磁贴添加到仪表板中，本概述主题不一一介绍  。 若要了解详细信息，请参阅 [Power BI 中的仪表板磁贴](end-user-tiles.md)。
 
 使用者不能编辑仪表板。 但可以进行添加注释、查看相关数据、将其设置为收藏项、订阅等操作。
 
@@ -154,7 +154,7 @@ ________________________________________________
 ________________________________________________
 
 ## <a name="apps"></a>应用
-这些仪表板和报表集合将相关内容组织到一个包中。 Power BI 设计者生成仪表板和报表并与个人、团体、整个组织或公众共享。 使用者可以确信能与同事使用相同的数据（单个版本的真实可信的数据）。
+这些仪表板和报表集合将相关内容组织到一个包中。 Power BI 设计者生成仪表板和报表并与个人、团体、整个组织或公众共享  。 使用者可以确信能与同事使用相同的数据（单个版本的真实可信的数据）。
 
 ![在左侧导航中选定“应用”](media/end-user-basic-concepts/power-bi-app.png)
 

@@ -1,10 +1,18 @@
+---
+ms.openlocfilehash: 867e528c43126ae9073c0113905d59a835c46a96
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61396207"
+---
 除了支持大量图表外，Power BI Desktop 还支持许多表格式可视化效果。 在实际操作中，当你获取分类字段或文本字段并将其拖动到报表画布时，默认情况下你会获得一张结果表。 你可以向上或向下滚动浏览表，初始情况下它会按字母顺序排序。
 
 ![](media/3-6-create-tables-matrixes/3-6_1.png)
 
 如果表中有数字信息，例如收入，总金额将会显示在底部。 你可以通过单击其标题来切换升序或降序的顺序，以按列进行手动排序。 如果列的宽度不足以显示其全部内容，单击并拖动侧向的标题可增大列宽。
 
-**可视化效果**窗格中值存储桶中的字段顺序决定了它们在表内的显示顺序。
+**可视化效果**窗格中值存储桶中的字段顺序决定了它们在表内的显示顺序。 
 
 ![](media/3-6-create-tables-matrixes/3-6_2.png)
 

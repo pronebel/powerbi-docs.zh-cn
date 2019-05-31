@@ -1,94 +1,94 @@
 ---
 title: 在安全门户或网站中嵌入报表
-description: 借助 Power BI 安全嵌入功能，可以使用户轻松且安全地在内部 Web 门户中嵌入报表。
-author: markingmyname
-ms.author: maghan
+description: Power BI 嵌入到功能使用户轻松并安全地在内部 web 门户中嵌入报表。
+author: rkarlin
+ms.author: rkarlin
 manager: kfile
 ms.reviewer: lukaszp
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 01/08/2019
+ms.date: 05/20/2019
 LocalizationGroup: Share your work
-ms.openlocfilehash: b816b504d3eed3aa91eb25c0bb3c6189d3075d1f
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
-ms.translationtype: HT
+ms.openlocfilehash: bf9d7bcdf6ddaf7d0063843a5314233989b2dadd
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54285820"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "66222240"
 ---
 # <a name="embed-a-report-in-a-secure-portal-or-website"></a>在安全门户或网站中嵌入报表
 
-使用 Power BI 中报表的新安全“嵌入”选项，用户可以轻松且安全地在内部 Web 门户中嵌入报表，无论是基于云的，还是托管在本地的，例如 SharePoint 2019。 以这种方式嵌入的报表通过行级别安全性 (RLS) 尊重所有项目权限和数据安全性。 该功能旨在允许无代码嵌入到任何接受 URL 或 iFrame 嵌入的门户中。
+与新**嵌入**选项适用于 Power BI 报告，可以方便且安全地嵌入报表在内部 web 门户中。 这些门户可以是**云端**或**托管在本地**，如 SharePoint 2019。 嵌入的报表是否遵循通过的所有项的权限和数据安全性[行级别安全性 (RLS)](service-admin-rls.md)。 它们提供无需编写代码嵌入到可接受的 URL 或 iFrame 的任何门户。 
 
-“嵌入”选项还支持 [URL 筛选器](service-url-filters.md)和 URL 设置。 通过“嵌入”选项，可以使用只需要基本 HTML 和 JavaScript 知识的低代码方法来与门户集成。
+**嵌入**选项支持[URL 筛选器](service-url-filters.md)和 URL 设置。 它允许您将与使用低代码方法需要仅基本 HTML 和 JavaScript 知识的门户网站进行集成。
 
-## <a name="how-to-embed-power-bi-reports-into-portals"></a>如何将 Power BI 报表嵌入门户
+## <a name="how-to-embed-power-bi-reports-into-portals"></a>如何将  Power BI 报表嵌入门户
 
-1. 在 Power BI 服务中报表的“文件”菜单上提供新的“嵌入”选项。
+1. 在 Power BI 服务中报表的“文件”  菜单上提供新的“嵌入”  选项。
 
     ![“安全嵌入”选项下拉选项](media/service-embed-secure/secure-embed-drop-down-menu.png)
 
-2. 选择“嵌入”选项可打开一个对话框，该对话框提供一个链接和一个用于安全嵌入报表的 iFrame。
+2. 选择**嵌入**选项可打开一个对话框，提供一个链接和可用于安全地嵌入报表的 iFrame。
 
     ![“嵌入”选项对话框](media/service-embed-secure/secure-embed-code-dialog.png)
 
-3. 将 URL 嵌入 Web 门户后，或者如果直接打开 URL，用户将在可以访问报表之前先进行身份验证。 在下面的示例中，用户尚未在浏览器会话中登录 Power BI。 当他们按“登录”时，可能需要打开新的浏览器窗口或选项卡。 如果未提示进行登录，请检查弹出窗口阻止程序。
+3. 无论用户打开报表 URL 直接，还是一个嵌入式 web 门户中，报表访问权限要求身份验证。 如果用户未登录到 Power BI 在其浏览器会话中，会显示以下屏幕。 当他们选择**登录**，可以打开一个新浏览器窗口或选项卡。 让他们检查弹出窗口阻止程序，如果它们不会提示登录。
 
     ![登录以查看此报表](media/service-embed-secure/secure-embed-sign-in.png)
 
-4. 用户登录后，将打开报表，显示数据并允许用户在页面之间导航和设置筛选器。 仅向有权在 Power BI 中查看报表的用户显示此报表。 此外，还应用了所有行级别安全性 (RLS) 规则。 最后，用户需要获得正确许可，要么需要 Power BI Pro 许可证，要么报表必须位于处于 Power BI Premium 容量范围内的工作区中。 用户每次打开新的浏览器窗口时都需要进行登录，但是在登录一次后，就会自动加载其他报表。
+4. 用户登录后，报表将打开，显示数据并使页面导航和筛选器设置。 仅具有查看权限的用户可以看到在 Power BI 中的报表。 所有[行级别安全性 (RLS)](service-admin-rls.md)也会应用规则。 最后，用户需要获得正确许可，要么需要 Power BI Pro 许可证，要么报表必须位于处于 Power BI Premium 容量范围内的工作区中。 用户需要在每次打开新浏览器窗口登录。 但是，登录后，其他报表将自动加载。
 
     ![嵌入报表](media/service-embed-secure/secure-embed-report.png)
 
-5. 使用 iFrame 选项时，最好编辑提供的 HTML，指定所需的高度和宽度以适合门户网页。
+5. 当使用 iFrame，您可能需要编辑**高度**并**宽度**，使其适合你的门户网页中。
 
     ![设置高度和宽度](media/service-embed-secure/secure-embed-size.png)
 
-## <a name="granting-access-to-reports"></a>授予报表访问权限
+## <a name="granting-report-access"></a>授予报表访问权限
 
-“嵌入”选项不会自动允许用户查看报表。 需要在 Power BI 服务中设置报表查看权限。
+**嵌入**选项不会自动允许用户查看报表。 在 Power BI 服务中设置的视图权限。
 
-要在 Power BI 服务中提供对报表的访问，可以与需要访问嵌入报表的用户共享该报表。 如果使用的是 Office 365 组，请在 Power BI 服务中将用户列为应用工作区的成员。 有关详细信息，请参阅如何[管理应用工作区](service-manage-app-workspace-in-power-bi-and-office-365.md)。
+在 Power BI 服务中，可以与需要访问权限的用户共享嵌入的报表。 如果要使用 Office 365 组，可以将用户列为应用工作区成员。 有关详细信息，请参阅如何[管理 Power BI 和 Office 365 中的应用工作区](service-manage-app-workspace-in-power-bi-and-office-365.md)。
 
 ## <a name="licensing"></a>许可
 
-查看嵌入报表的用户需要具有 Power BI Pro 许可证，或该内容需要位于处于 [Power BI Premium 容量（EM 或 P SKU）](service-admin-premium-purchase.md)范围内的工作区中。
+若要查看嵌入的报表，用户需要 Power BI Pro 许可证或内容需要位于在工作区[Power BI Premium 容量 （EM 或 P SKU）](service-admin-premium-purchase.md)。
 
 ## <a name="customize-your-embed-experience-using-url-settings"></a>使用 URL 设置自定义嵌入体验
 
-嵌入 URL 支持多种输入设置，可帮助你自定义用户体验。 如果使用的是提供的 iFrame，请确保在 iFrame 的 src 设置中更新该 URL。
+可以自定义使用嵌入 URL 输入的设置的用户体验。 可以在提供的 iFrame 中更新的 URL **src**设置。
 
 | 属性  | 说明  |  |  |  |
 |--------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---|---|---|
-| pageName  | 可以使用 pageName 查询字符串参数来设置要打开的报表页面。 在 Power BI 服务中查看报表时，pageName 值对应于报表 URL 的末尾，如下所示。 |  |  |  |
-| URL 筛选器  | 可以在从 Power BI UI 接收到的嵌入 URL 中使用 [URL 筛选器](service-url-filters.md)来筛选嵌入的内容。 借助这种方式，可以通过基本 HTML 和 JavaScript 体验生成低代码集成。  |  |  |  |
+| pageName  | 可以使用**pageName**查询字符串参数来设置要打开的报表页面。 您可以找到此值在报表 URL 的结尾在 Power BI 服务中，查看报表时，如下所示。 |  |  |  |
+| URL 筛选器  | 可以使用[URL 筛选器](service-url-filters.md)收到从 Power BI UI 来筛选嵌入内容中嵌入 URL。 借助这种方式，可以通过基本 HTML 和 JavaScript 体验生成低代码集成。  |  |  |  |
 
-## <a name="set-which-page-opens-when-the-report-is-embedded"></a>设置嵌入报表时打开的页面
+## <a name="set-which-page-opens-for-an-embedded-report"></a>集的页将打开嵌入报表 
 
-pageName 设置中提供的值对应于在 Power BI 服务中查看报表时报表 URL 的末尾。
+您可以找到**pageName** Power BI 服务中查看报表时报表 URL 的末尾处的值。
 
-1. 从 Web 浏览器中的 Power BI 服务打开报表，然后从地址栏复制该 URL。
+1. 从 Power BI 服务中 web 浏览器中，打开报表，然后复制地址栏 URL。
 
     ![报表区域](media/service-embed-secure/secure-embed-report-section.png)
 
-2. 将 pageName 设置追加到此 URL。
+2. 将 pageName  设置追加到此 URL。
 
     ![追加 pageName](media/service-embed-secure/secure-embed-append-page-name.png)
 
-## <a name="filter-report-content-using-url-filters"></a>使用 URL 筛选器筛选报表内容
+## <a name="filter-report-content-using-url-filters"></a>使用 URL 筛选器筛选报表内容 
 
-对于某些高级功能，可以通过 [URL 筛选器](service-url-filters.md)来使用报表生成更多体验。 例如，下面的 URL 筛选报表以显示能源行业的数据。
+可以使用[URL 筛选器](service-url-filters.md)来提供不同的报表视图。 例如，下面的 URL 筛选报表以显示能源行业的数据。
 
-将 pageName 和 [URL 筛选器](service-url-filters.md)结合使用的功能非常强大。 可以使用基本 HTML 和 JavaScript 生成体验。
+将 pageName  和 [URL 筛选器](service-url-filters.md)结合使用的功能非常强大。 可以使用基本 HTML 和 JavaScript 生成体验。
 
-例如，以下是如何向 HTML 页添加按钮：
+例如，下面是可以添加到 HTML 页的按钮：
 
 ```html
 <button class="textLarge" onclick='show("ReportSection", "Energy");' style="display: inline-block;">Show Energy</button>
 ```
 
-按下按钮时，该按钮会调用一个函数以使用更新的 URL 来更新 iFrame，其中包括能源行业的筛选器。
+选中时，按钮将调用一个函数来使用更新的 URL，其中包括能源行业筛选器更新 iFrame。
 
 ```javascript
 function show(pageName, filterValue)
@@ -124,20 +124,20 @@ report.src = newUrl;
 
 * 安全嵌入适用于发布到 Power BI 服务的报表。
 
-* 用户需要在每次打开新浏览器窗口时进行登录才能查看报表。
+* 用户需要登录以查看报表，只要他们打开新浏览器窗口。
 
-* 某些浏览器要求用户在登录后刷新页面，尤其是在使用 InPrivate 或 Incognito 模式的情况下。
+* 某些浏览器要求你在登录后刷新页面，尤其是在使用 InPrivate 或 Incognito 模式。
 
-* 要实现单一登录体验，请使用“在 SharePoint Online 中嵌入”选项，或使用[用户拥有数据](developer/embed-sample-for-your-organization.md)方法生成自定义集成。 了解有关[用户拥有数据](developer/embed-sample-for-your-organization.md)的详细信息。
+* 若要实现单一登录体验，在 SharePoint Online 选项中，使用嵌入或自定义集成使用生成[用户拥有数据](developer/embed-sample-for-your-organization.md)嵌入方法。 
 
-* 随“嵌入”选项提供的自动身份验证功能不适用于 Power BI JavaScript API。 对于 Power BI JavaScript API，请使用[用户拥有数据](developer/embed-sample-for-your-organization.md)方法进行嵌入。 了解有关[用户拥有数据](developer/embed-sample-for-your-organization.md)的详细信息。
+* 随“嵌入”  选项提供的自动身份验证功能不适用于 Power BI JavaScript API。 对于 Power BI JavaScript API，请使用[用户拥有数据](developer/embed-sample-for-your-organization.md)嵌入方法。 
 
 ## <a name="next-steps"></a>后续步骤
 
-* [工作共享方式](service-how-to-collaborate-distribute-dashboards-reports.md)
+* [共享 Power BI 中的工作方式](service-how-to-collaborate-distribute-dashboards-reports.md)
 
-* [URL 筛选器](service-url-filters.md)
+* [筛选报表的 URL 中使用查询字符串参数](service-url-filters.md)
 
-* [SharePoint Online 报表 Web 部件](service-embed-report-spo.md)
+* [使用报表 web 部件在 SharePoint Online 中嵌入](service-embed-report-spo.md)
 
-* [发布到 Web](service-publish-to-web.md)
+* [从 Power BI 发布到 Web](service-publish-to-web.md)

@@ -11,10 +11,10 @@ ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Transform and shape data
 ms.openlocfilehash: 56c38a4e42dcdb3fb22e9dc92446c7e963f50e3e
-ms.sourcegitcommit: 10a87c016f497dbeba32f94ed1f3688a70816fea
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/09/2019
+ms.lasthandoff: 05/29/2019
 ms.locfileid: "65513552"
 ---
 # <a name="query-overview-in-power-bi-desktop"></a>Power BI Desktop 中的查询概述
@@ -37,19 +37,19 @@ Power BI Desktop 还附带有**查询编辑器**，其中你可连接到一个�
 但首先让我们了解**查询编辑器**。
 
 ## <a name="the-query-editor"></a>查询编辑器
-若要访问“查询编辑器”，请从 Power BI Desktop“开始”选项卡选择“编辑查询”。  
+若要访问“查询编辑器”  ，请从 Power BI Desktop“开始”  选项卡选择“编辑查询”  。  
 
 ![](media/desktop-query-overview/queryoverview_queryview.png)
 
-没有数据连接时，“查询编辑器”显示为空白窗格，准备处理数据。  
+没有数据连接时，“查询编辑器”  显示为空白窗格，准备处理数据。  
 
 ![](media/desktop-query-overview/queryoverview_blankpane.png)
 
-加载查询后，“查询编辑器”视图将变得更加有趣。 如果我们连接到以下 Web 数据源，“查询编辑器”将加载有关数据的信息，随后就可以开始调整数据。
+加载查询后，“查询编辑器”  视图将变得更加有趣。 如果我们连接到以下 Web 数据源，“查询编辑器”  将加载有关数据的信息，随后就可以开始调整数据。
 
 [*http://www.bankrate.com/finance/retirement/best-places-retire-how-state-ranks.aspx*](http://www.bankrate.com/finance/retirement/best-places-retire-how-state-ranks.aspx)
 
-下面是建立数据连接后“查询编辑器”的显示方式：
+下面是建立数据连接后“查询编辑器”  的显示方式：
 
 1. 在功能区中，许多按钮当前处于活动状态，以与查询中的数据进行交互
 2. 在左窗格中，列出了查询，可供你选择、查看和调整
@@ -61,7 +61,7 @@ Power BI Desktop 还附带有**查询编辑器**，其中你可连接到一个�
 在以下章节中，我们将了解这四个区域中的每一个 - 功能区、查询窗格、数据视图和查询设置窗格。
 
 ## <a name="the-query-ribbon"></a>查询功能区
-“查询编辑器”中的功能区包含四个选项卡 - “开始”、“转换”、“添加列”和“视图”。
+“查询编辑器”  中的功能区包含四个选项卡 - “开始”  、“转换”  、“添加列”  和“视图”  。
 
 **开始**选项卡提供了常见的查询任务，包括任何查询中的第一步，即**获取数据**。 下图显示**开始**功能区。  
 
@@ -110,9 +110,9 @@ Power BI Desktop 还附带有**查询编辑器**，其中你可连接到一个�
 
 当其他调整步骤应用于该查询时，它们将在**所应用步骤**部分反映。
 
-务必了解基础数据不会更改；相反，查询编辑器调整其数据视图，并且与基础数据进行的任何交互将基于查询编辑器调整和修改的数据视图而发生。
+务必了解基础数据不会更改；相反，查询编辑器调整其数据视图，并且与基础数据进行的任何交互将基于查询编辑器调整和修改的数据视图而发生。 
 
-在**查询设置**窗格中，可以根据你的需要重命名步骤、删除步骤，或对步骤重新排序。 若要执行此操作，请右键单击**所应用步骤**部分中的步骤，然后从出现的菜单中选择。 所有查询步骤将按照“所应用步骤”窗格中显示的顺序执行。
+在**查询设置**窗格中，可以根据你的需要重命名步骤、删除步骤，或对步骤重新排序。 若要执行此操作，请右键单击**所应用步骤**部分中的步骤，然后从出现的菜单中选择。 所有查询步骤将按照“所应用步骤”  窗格中显示的顺序执行。
 
 ![](media/desktop-query-overview/queryoverview_querysettings_rename.png)
 

@@ -11,18 +11,18 @@ ms.date: 03/06/2019
 ms.author: davidi
 LocalizationGroup: Get started
 ms.openlocfilehash: 9cf3eea99813d315c72f3210f3938deae94505b0
-ms.sourcegitcommit: 9f31cd41bd92e398717da5a69a074273e8c6f8a6
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/26/2019
-ms.locfileid: "58473858"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61234447"
 ---
 # <a name="power-bi-for-us-government-customers"></a>适用于美国政府客户的 Power BI
 **Power BI 服务**有一个可供美国政府客户使用的版本，作为 **Office 365 美国政府社区**订阅的一部分。 本文中讨论的 **Power BI 服务**版本是为美国政府客户专门设计的，独立且不同于 **Power BI 服务**的商业版本。
 
 ![](media/service-govus-overview/service_usgov_overview-1.png)
 
-以下各节介绍了 **Power BI 服务**的美国政府版本可用的功能，阐明了一些限制，列出了常见问题 (**FAQ**) 和解答（包括如何注册），并提供了有关更多信息的链接。
+以下各节介绍了 **Power BI 服务**的美国政府版本可用的功能  ，阐明了一些限制  ，列出了常见问题 (**FAQ**) 和解答（包括如何注册），并提供了有关更多信息的链接。
 
 ## <a name="features-of-power-bi-us-government"></a>Power BI 美国政府版功能
 请务必注意，**Power BI 美国政府版**仅可用作 **Pro 许可证**，不能用作免费版许可证。 Power BI 服务的某些功能适用于该服务的 **Power BI 美国政府版**。
@@ -52,9 +52,9 @@ Azure 分布在多个云中。 默认情况下，租户可以打开对云专属�
 
 
 ## <a name="limitations-of-power-bi-us-government"></a>Power BI 美国政府版限制
-**Power BI 服务**的商业版本中提供的某些功能在适用于美国政府客户的 **Power BI 服务**中不可用。 Power BI 团队正在积极致力于使这些功能适用于美国政府客户，并将在这些功能变为可用时更新本文。
+**Power BI 服务**的商业版本中提供的某些功能在适用于美国政府客户的 **Power BI 服务**中不  可用。 Power BI 团队正在积极致力于使这些功能适用于美国政府客户，并将在这些功能变为可用时更新本文。
 
-* 在 SharePoint Online 中嵌入 - 不能使用 Power BI Web 部件在 SharePoint Online 中嵌入内容。 但，确实可以使用[嵌入 Web 部件](https://docs.microsoft.com/power-bi/service-embed-secure)安全的嵌入内容。 必须将 app.powerbigov.us 添加到例外列表中，可以按[允许或限制在 SharePoint 页面上嵌入内容的功能](https://support.office.com/article/allow-or-restrict-the-ability-to-embed-content-on-sharepoint-pages-e7baf83f-09d0-4bd1-9058-4aa483ee137b)一文中的说明添加。
+*  在 SharePoint Online 中嵌入 - 不能使用 Power BI Web 部件在 SharePoint Online 中嵌入内容。 但，确实可以使用[嵌入 Web 部件](https://docs.microsoft.com/power-bi/service-embed-secure)安全的嵌入内容  。 必须将 app.powerbigov.us 添加到例外列表中，可以按[允许或限制在 SharePoint 页面上嵌入内容的功能](https://support.office.com/article/allow-or-restrict-the-ability-to-embed-content-on-sharepoint-pages-e7baf83f-09d0-4bd1-9058-4aa483ee137b)一文中的说明添加  。
 * **Power BI 美国政府版**仅可用作 **Pro** 许可证。 在管理门户中（或作为用户）对 Power BI（免费版）许可证的所有引用均在商业版 Power BI 服务云中运行。
 * **审核** - 自 2018 年 6 月起，可通过 Office 365 安全与合规门户进行审核。
 * **Cortana 中的 Power BI 内容** - Power BI 结果不会显示在 Cortana 搜索结果中，包括 Power BI 内容（仪表板、报表、应用）结果，以及显示特定关键字的 Cortana 优化报表页的结果。
@@ -84,7 +84,7 @@ Azure 分布在多个云中。 默认情况下，租户可以打开对云专属�
 
 **问：** 我有兴趣为我的美国政府组织获得 **Power BI**。 如何开始？
 
-**答：** 根据你的现有许可证和订阅，注册（通常称为载入）过程可能会有所不同。 有关更多信息，请参阅[注册适用于美国政府的 Power BI](service-govus-signup.md) 一文。
+**答：** 根据你的现有许可证和订阅，注册（通常称为载入  ）过程可能会有所不同。 有关更多信息，请参阅[注册适用于美国政府的 Power BI](service-govus-signup.md) 一文。
 
 **问：** 用于连接到适用于美国政府的 **Power BI** 的 URL 是否与商业 **Power BI** URL 有所不同？
 
@@ -96,7 +96,7 @@ Azure 分布在多个云中。 默认情况下，租户可以打开对云专属�
 
 **问：** 我的帐户在多个国家云中预配。 使用 **Power BI Desktop** 时，如何选择连接到什么云？
 
-**答：** 从 Power BI Desktop 2018 年 7 月版开始，可在登录 Power BI Desktop 时选择要使用的云。
+**答：** 从 Power BI Desktop 2018 年 7 月版开始，可在登录 Power BI Desktop 时选择要使用的云   。
 
 
 ## <a name="next-steps"></a>后续步骤

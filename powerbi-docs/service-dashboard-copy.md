@@ -12,11 +12,11 @@ ms.date: 03/02/2018
 ms.author: maggies
 LocalizationGroup: Dashboards
 ms.openlocfilehash: 59ffa05d34b86ba2a4673e3d9db39e15f030fb17
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54293088"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61136418"
 ---
 # <a name="create-a-copy-of-a-dashboard-in-power-bi-service"></a>在 Power BI 服务中创建仪表板副本
 ![仪表板](media/service-dashboard-copy/power-bi-dashboard.png)
@@ -25,13 +25,13 @@ ms.locfileid: "54293088"
 
 仪表板是使用 Power BI 服务进行创建（和复制），可以在 Power BI 移动版和 Power BI Embedded 中进行查看。  Power BI Desktop 不支持仪表板。 
 
-必须是仪表板创建者，才能复制仪表板。 不能复制已作为应用与你共享的仪表板。
+必须是仪表板创建者  ，才能复制仪表板。 不能复制已作为应用与你共享的仪表板。
 
 1. 打开仪表板。
-2. 在右上角选择省略号 (...)，然后选择“复制仪表板”。
+2. 在右上角选择省略号 (...)，然后选择“复制仪表板”  。
    
    ![省略号菜单](media/service-dashboard-copy/power-bi-dulicate.png)
-3. 为仪表板命名并选择“复制”。 
+3. 为仪表板命名并选择“复制”  。 
    
    ![“复制仪表板”对话框](media/service-dashboard-copy/power-bi-name.png)
 4. 新仪表板将与原始仪表板保存在同一工作区中。 
@@ -40,10 +40,10 @@ ms.locfileid: "54293088"
 
 5.    打开新仪表板，并根据需要进行编辑。 接下来，不妨执行下列操作：    
     a. [移动、重命名、重设大小或删除磁贴](service-dashboard-edit-tile.md)。  
-    b. 依次选择磁贴省略号 (...) 和“编辑详细信息”，编辑磁贴详细信息和超链接。  
-    c. [通过仪表板菜单栏添加新磁贴](service-dashboard-add-widget.md)（添加磁贴）  
+    b. 依次选择磁贴省略号 (...) 和“编辑详细信息”  ，编辑磁贴详细信息和超链接。  
+    c. [通过仪表板菜单栏添加新磁贴](service-dashboard-add-widget.md)（添加磁贴  ）  
     d. [通过 Power BI 问答](service-dashboard-pin-tile-from-q-and-a.md)或[通过报表](service-dashboard-pin-tile-from-report.md)固定新磁贴。  
-    e. 在仪表板的“设置”窗格中，重命名仪表板、启用或禁用 Power BI 问答并设置磁贴流。  （依次选择仪表板省略号 (...) 下拉列表和“设置”）  
+    e. 在仪表板的“设置”窗格中，重命名仪表板、启用或禁用 Power BI 问答并设置磁贴流。  （依次选择仪表板省略号 (...) 下拉列表和“设置”  ）  
     f. 将仪表板直接与同事共享，或作为 Power BI 应用的一部分共享。 
 
 

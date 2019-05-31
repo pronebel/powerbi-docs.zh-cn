@@ -1,3 +1,11 @@
+---
+ms.openlocfilehash: 7415008e3e1faf3aa2665c643523db2e861bfe85
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61396206"
+---
 除了绑定数据的视觉对象外，你还可以添加静态元素（如文本框、图像和形状）来改进报表的视觉设计。 若要添加视觉元素，请从**开始**选项卡选择**文本框**、**图像**或**形状**。
 
 ![](media/3-10-create-shapes-images/3-10_1.png)

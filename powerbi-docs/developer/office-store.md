@@ -8,13 +8,13 @@ ms.reviewer: maghan
 ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: conceptual
-ms.date: 10/30/2018
-ms.openlocfilehash: 2db993a9521b25db28973a5a987edfde4271c5cd
-ms.sourcegitcommit: d0abedcf07f964418c9e5ea8d8ee3338b0b97a50
-ms.translationtype: HT
+ms.date: 3/27/2019
+ms.openlocfilehash: cf9b3335b10b7a2cd3abcc3f02c651ed4416184e
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/09/2019
-ms.locfileid: "57695187"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61269587"
 ---
 # <a name="publish-custom-visuals-to-appsource"></a>将自定义视觉对象发布到 AppSource
 
@@ -26,11 +26,11 @@ ms.locfileid: "57695187"
 
 ## <a name="what-is-appsource"></a>什么是 AppSource？
 
-AppSource 是查找 Microsoft 产品和服务的 SaaS 应用与加载项的位置。 [AppSource](https://appsource.microsoft.com/marketplace/apps?product=power-bi-visuals) 为 Office 365、Dynamics 365、Cortana Intelligence 和其他产品的数百万用户提供解决方案，帮助他们更高效、更有见地或更为完美地完成工作。
+AppSource  是查找 Microsoft 产品和服务的 SaaS 应用与加载项的位置。 [AppSource](https://appsource.microsoft.com/marketplace/apps?product=power-bi-visuals) 为 Office 365、Dynamics 365、Cortana Intelligence 和其他产品的数百万用户提供解决方案，帮助他们更高效、更有见地或更为完美地完成工作。
 
 ## <a name="preparing-to-submit-your-custom-visual"></a>准备提交自定义视觉对象
 
-对自定义视觉对象进行编码和[测试自定义视觉对象](https://github.com/Microsoft/PowerBI-visuals/blob/master/Tutorial/SubmissionTesting.md)并将其打包到 pbiviz 文件后，还应准备以下信息用于提交。
+一旦你完成了读取我们[Power BI 视觉对象准则](guidelines-powerbi-visuals.md)、 编码和[测试自定义视觉对象](https://github.com/Microsoft/PowerBI-visuals/blob/master/Tutorial/SubmissionTesting.md)并将其打包到 pbiviz 文件中，你还应以下内容以供你提交的内容。
 
 | 项 | 必填 | 说明 |
 | --- | --- | --- |
@@ -51,7 +51,7 @@ AppSource 是查找 Microsoft 产品和服务的 SaaS 应用与加载项的位�
 > [!IMPORTANT]
 > 必须在 pbiviz.json 文件中填写以下字段：“description”、“supportUrl”、“author”、“name”和“email”，然后再创建 .pbiviz 包。
 
-在电子邮件中附加 .pbiviz 文件和示例报表 .pbix 文件。 Power BI 团队会回复你，并在回复邮件中添加说明以及要上传的应用包 XML 文件。 必须有此 XML 应用包，才能通过 Office 开发人员中心提交视觉对象。
+在电子邮件中附加 .pbiviz 文件  和示例报表 .pbix 文件  。 Power BI 团队会回复你，并在回复邮件中添加说明以及要上传的应用包 XML 文件。 必须有此 XML 应用包，才能通过 Office 开发人员中心提交视觉对象。
 
 > [!NOTE]
 > 为了提高质量并确保现有报表不会中断，在应用商店中得到批准后，还将需要两周时间更新现有视觉对象，然后再步入生产环境。
@@ -70,13 +70,13 @@ AppSource 是查找 Microsoft 产品和服务的 SaaS 应用与加载项的位�
 
 请按照以下步骤来完成提交。
 
-1. 选择“添加新应用”。
+1. 选择“添加新应用”  。
 
     ![添加应用](media/office-store/powerbi-custom-visual-add-an-app.png)
 
-2. 选择“Power BI 自定义视觉对象”，然后选择“下一步”。
+2. 选择“Power BI 自定义视觉对象”  ，然后选择“下一步”  。
 
-3. 选择“应用包”下的 **+**，然后在打开文件对话框中选择从 Power BI 团队获得的应用包 XML 文件。
+3. 选择“应用包”  下的 **+** ，然后在打开文件对话框中选择从 Power BI 团队获得的应用包 XML 文件。
 
     ![应用包](media/office-store/powerbi-custom-visual-apppackage.png)
 
@@ -84,7 +84,7 @@ AppSource 是查找 Microsoft 产品和服务的 SaaS 应用与加载项的位�
 
     ![批准的清单](media/office-store/powerbi-custom-visual-manifest-approved.png)
 
-5. 填写“常规信息”详细信息。
+5. 填写“常规信息”  详细信息。
 
    * *提交标题：* 提交在开发人员中心中的命名方式
    * *版本：* 版本号通过加载项应用包自动填充。
@@ -93,11 +93,11 @@ AppSource 是查找 Microsoft 产品和服务的 SaaS 应用与加载项的位�
    * *测试说明：* 可选，如果你想要为 Microsoft 测试人员提供一些说明，则可以填写此项
    * *我的应用调用、支持、包含或使用加密：* 保持未选中状态
    * *在 iPad 的 Office 外接程序目录中提供此外接程序：* 保持未选中状态
-6. 通过选择“应用徽标”下的“+”上载视觉对象的徽标。 然后，选择打开文件对话框中的图标文件。 文件格式必须为 .png、.jpg、.jpeg 或 .gif。 必须正好为 300 像素（宽度）x 300 像素（高度），且大小不得超过 512 KB。
+6. 通过选择“应用徽标”  下的“+”  上载视觉对象的徽标。 然后，选择打开文件对话框中的图标文件。 文件格式必须为 .png、.jpg、.jpeg 或 .gif。 必须正好为 300 像素（宽度）x 300 像素（高度），且大小不得超过 512 KB。
 
     ![应用徽标](media/office-store/powerbi-custom-visual-app-logo.png)
 
-7. 填写“支持文档”详细信息。
+7. 填写“支持文档”  详细信息。
 
    * 支持文档链接
    * 隐私文档链接
@@ -106,9 +106,9 @@ AppSource 是查找 Microsoft 产品和服务的 SaaS 应用与加载项的位�
 
        必须上载 EULA 文件。 这可以是你自己的 EULA，也可以使用 Office 应用商店中适用于 Power BI 自定义视觉对象的默认 EULA。 若要使用默认 EULA，请将以下 URL 粘贴到卖家面板的“最终用户许可协议”文件上传对话框中：[https://visuals.azureedge.net/app-store/Power BI - Default Custom Visual EULA.pdf](https://visuals.azureedge.net/app-store/Power%20BI%20-%20Default%20Custom%20Visual%20EULA.pdf)。
 
-8. 选择“下一步”以前往**详细信息**页。
+8. 选择“下一步”  以前往**详细信息**页。
 
-9. 选择“语言”，并从列表中选择一种语言。
+9. 选择“语言”  ，并从列表中选择一种语言。
 
     ![语言](media/office-store/powerbi-custom-visual-language.png)
 
@@ -120,20 +120,20 @@ AppSource 是查找 Microsoft 产品和服务的 SaaS 应用与加载项的位�
 
 11. 至少上载一个屏幕截图。 格式可以为 .png、.jpg、.jpeg 或 .gif。 它必须正好为 1366 像素（宽度）x 768 像素（高度）。 文件大小不得超过 1024 KB。 *为了实现更好的利用率，添加文本气泡以阐明每个屏幕截图中所示的主要功能的价值主张。*
 
-12. 如果想要添加更多语言，请选择“添加语言”，然后重复步骤 10 和 11。 添加更多语言可帮助用户以他们自己的语言查看自定义视觉对象详细信息。 未列出的语言将默认为所选的第一语言。
+12. 如果想要添加更多语言，请选择“添加语言”  ，然后重复步骤 10 和 11。 添加更多语言可帮助用户以他们自己的语言查看自定义视觉对象详细信息。 未列出的语言将默认为所选的第一语言。
 
-13. 添加语言完成后，选择“下一步”以前往**阻止访问**页。
+13. 添加语言完成后，选择“下一步”  以前往**阻止访问**页。
 
 14. 如果你想要阻止特定国家或地区的客户使用或购买你的应用，请选中此框，然后从列表中进行选择。
 
-15. 选择“下一步”以前往**定价**页。
+15. 选择“下一步”  以前往**定价**页。
 
-16. 目前，仅支持免费视觉对象，不允许视觉对象内有附加购买（应用内购买）内容。 选择“此应用免费”。
+16. 目前，仅支持免费视觉对象，不允许视觉对象内有附加购买（应用内购买）内容。  选择“此应用免费”  。
 
     > [!NOTE]
     > 如果没有选择免费选项，或提交的视觉对象中有应用内购买内容，那么提交会遭拒。
 
-17. 现在，可以选择“另存为草稿”并于稍后提交，也可以选择“提交供审批”，将自定义视觉对象提交到 Office 应用商店。
+17. 现在，可以选择“另存为草稿”并于稍后提交，也可以选择“提交供审批”，将自定义视觉对象提交到 Office 应用商店。  
 
 ## <a name="tracking-submission-status-and-usage"></a>跟踪提交状态和使用情况
 
@@ -143,13 +143,13 @@ AppSource 是查找 Microsoft 产品和服务的 SaaS 应用与加载项的位�
 
 ## <a name="certify-your-visual"></a>认证视觉对象
 
-创建视觉对象后，可以选择让视觉对象取得认证。 这意味着它可以在 Power BI 服务中运行，与该服务的其他功能一起使用，例如导出到 PowerPoint。 有关详细信息，请参阅[让自定义视觉对象取得认证](../power-bi-custom-visuals-certified.md)。
+创建视觉对象后，可以选择让视觉对象取得认证。 这意味着它可以在 Power BI 服务中运行，与该服务的其他功能一起使用，例如导出到 PowerPoint。 有关详细信息，请参阅[让自定义视觉对象取得认证](../power-bi-custom-visuals-certified.md)  。
 
 ## <a name="next-steps"></a>后续步骤
 
 [开发 Power BI 自定义视觉对象](custom-visual-develop-tutorial.md)  
 [Power BI 中的可视化效果](../visuals/power-bi-report-visualizations.md)  
 [Power BI 中的自定义可视化效果](../power-bi-custom-visuals.md)  
-[让自定义视觉对象取得认证](../power-bi-custom-visuals-certified.md)
+[让自定义视觉对象取得认证](../power-bi-custom-visuals-certified.md) 
 
 更多问题？ [尝试咨询 Power BI 社区](http://community.powerbi.com/)

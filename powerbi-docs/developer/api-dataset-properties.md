@@ -1,20 +1,20 @@
 ---
 title: Power BI 数据集属性
 description: 了解 Power BI 数据集 API 的属性
-author: markingmyname
-ms.author: maghan
+author: rkarlin
+ms.author: rkarlin
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 06/08/2018
-ms.openlocfilehash: d272914fc41c8bd4abc78ae36a46de9e53817c81
-ms.sourcegitcommit: 8207c9269363f0945d8d0332b81f1e78dc2414b0
-ms.translationtype: HT
+ms.openlocfilehash: 508f304e2f5033c301db683e3b7557856fb3731b
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/14/2019
-ms.locfileid: "56248921"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61386284"
 ---
 # <a name="dataset-properties"></a>数据集属性
 
@@ -31,7 +31,7 @@ ID     |  Guid       | 数据集系统范围内的唯一标识符。        | Tr
 名称     | 字符串        | 用户定义的数据集的名称。        | False        | True        
 表     | Table[]        | 表的集合。        |  False       | False        
 关系     | Relationship[]        | 表之间的关系的集合。        | False        |  False  
-defaultMode     | 字符串        | 确定是否使用“Push”、“Streaming”和“PushStreaming”的值推送、流式处理或既推送又流式处理数据集。         | False        |  False
+defaultMode     | 字符串        | 确定数据集推送、 流式处理，或两者，值为"推送"和"流式处理。"         | False        |  False
 
 ## <a name="table"></a>表
 

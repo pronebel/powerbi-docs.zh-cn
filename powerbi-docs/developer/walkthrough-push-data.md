@@ -1,26 +1,26 @@
 ---
 title: 将数据推送到数据集
 description: 将数据推送到 Power BI 数据集
-author: markingmyname
-ms.author: maghan
+author: rkarlin
+ms.author: rkarlin
 manager: kfile
 ms.reviewer: madia
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
-ms.date: 02/05/2019
-ms.openlocfilehash: 642a8e7dd118838b5ea12c8758841ee44a8e6595
-ms.sourcegitcommit: 0abcbc7898463adfa6e50b348747256c4b94e360
-ms.translationtype: HT
+ms.date: 05/22/2019
+ms.openlocfilehash: 9eb81610044f795b6f9dc5c58aeefad13de06542
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/06/2019
-ms.locfileid: "55762251"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "66222161"
 ---
 # <a name="push-data-into-a-power-bi-dataset"></a>将数据推送到 Power BI 数据集
 
-借助 Power BI API，你可以将数据推送到 Power BI 数据集。 例如，想要扩展现有业务工作流以将关键数据推送到数据集时，即可使用它。 在本例中，你想要将带有“产品”表的“市场部市场营销”数据集推送到数据集。
+Power BI API 可以将数据推送到 Power BI 数据集。 在本文中，我们演示您如何将推送到的现有数据集包含 Product 表的市场部市场营销数据集。
 
-在开始将数据推送到数据集之前，你需要 Azure Active Directory (Azure AD) 和 [Power BI 帐户](create-an-azure-active-directory-tenant.md)。
+开始之前，你需要 Azure Active Directory (Azure AD) 和一个[Power BI 帐户](create-an-azure-active-directory-tenant.md)。
 
 ## <a name="steps-to-push-data-into-a-dataset"></a>将数据推送到数据集的步骤
 
@@ -34,7 +34,7 @@ ms.locfileid: "55762251"
 
 ## <a name="power-bi-api-operations-to-push-data"></a>推送数据的 Power BI API 操作
 
-借助 Power BI REST API，你可以将数据源推送到 Power BI。 当应用向数据集添加行时，将使用更新的数据自动更新仪表板上的磁贴。 若要推送数据，请使用 [PostDataset](https://docs.microsoft.com/rest/api/power-bi/pushdatasets) 操作和 [PostRows](https://docs.microsoft.com/rest/api/power-bi/pushdatasets/datasets_postrows) 操作。 若要查找数据集，请使用[获取数据集](https://docs.microsoft.com/rest/api/power-bi/datasets/getdatasets)操作。 进行以上任意操作时，可以传递组 ID 以将其用于组。 使用[获取组](https://docs.microsoft.com/rest/api/power-bi/groups/getgroups)操作以获取组 ID 的列表。
+借助 Power BI REST API，你可以将数据源推送到 Power BI。 当应用程序将行添加到数据集时，仪表板磁贴，会自动使用新数据更新。 若要将数据推送，使用[PostDataset](https://docs.microsoft.com/rest/api/power-bi/pushdatasets/datasets_postdataset)并[PostRows](https://docs.microsoft.com/rest/api/power-bi/pushdatasets/datasets_postrows)操作。 若要查找的数据集，请使用[获取数据集](https://docs.microsoft.com/rest/api/power-bi/datasets/getdatasets)操作。 可以传递组 ID，以便使用上述任何操作的组。 若要获取组 ID 列表，请使用[获取组](https://docs.microsoft.com/rest/api/power-bi/groups/getgroups)操作。
 
 将数据推送到数据集的操作如下：
 
@@ -59,7 +59,7 @@ ms.locfileid: "55762251"
         ]
     }
 
-因此，对于我们的“市场部市场营销”数据集示例，将传递类似以下示例的 JSON 字符串。 在此示例中，**SalesMarketing** 是该数据集的名称，**产品**是表的名称。 定义表后，再定义表架构。 对于 SalesMarketing 数据集，表架构包含以下列：ProductID、制造商、类别、段、产品和 IsCompete。
+市场部市场营销数据集示例中，将传递 JSON 字符串，如下所示。 在此示例中，**市场营销**是数据集名称，并**产品**表的名称。 用于定义的表后, 你定义的表架构。 对于 SalesMarketing  数据集，表架构包含以下列：ProductID、制造商、类别、段、产品和 IsCompete。
 
 **数据集对象 JSON 示例**
 
@@ -105,9 +105,9 @@ ms.locfileid: "55762251"
 | **数据类型** | **限制** |
 | --- | --- |
 | Int64 |不允许使用 Int64.MaxValue 和 Int64.MinValue。 |
-| 双精度 |不允许使用 Double.MaxValue 和 Double.MinValue 值。 NaN 某些函数（例如 Min、Max）中不支持使用正无穷和负无穷。 |
+| 双精度 |不允许使用 Double.MaxValue 和 Double.MinValue 值。 不支持 NaN。 + 正无穷和负无穷大不支持某些函数 （例如，最小，最大）。 |
 | 布尔 |无 |
-| 日期时间 |在数据加载期间，我们将不足一天的值量化为 1/300 秒（3.33 毫秒）的整数倍。 |
+| 日期时间 |数据加载，我们将量化天到 1/300 秒 （3.33 毫秒） 的整数倍的小数部分的值。 |
 | 字符串 |当前允许最多 12.8 万个字符。 |
 
 ## <a name="learn-more-about-pushing-data-into-power-bi"></a>了解有关将数据推送到 Power BI 的详细信息

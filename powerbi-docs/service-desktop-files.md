@@ -11,10 +11,10 @@ ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Data from files
 ms.openlocfilehash: 5e0ad4ed93fac06ace7c8e0569ebb0c2aeac9a87
-ms.sourcegitcommit: 10a87c016f497dbeba32f94ed1f3688a70816fea
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/09/2019
+ms.lasthandoff: 05/29/2019
 ms.locfileid: "65513087"
 ---
 # <a name="get-data-from-power-bi-desktop-files"></a>从 Power BI Desktop 文件获取数据
@@ -25,9 +25,9 @@ ms.locfileid: "65513087"
 将数据导入 **Power BI Desktop** 并生成几个报表后，即可将保存的文件导入 **Power BI 服务**。
 
 ## <a name="where-your-file-is-saved-makes-a-difference"></a>保存文件的位置具有重要意义
-**本地** - 如果你将文件保存到计算机上的本地驱动器中或者组织中的其他位置，则可导入或从 Power BI Desktop 发布文件，以便将其数据和报表加入 Power BI。 你的文件实际上一直保存在本地驱动器中，因此整个文件并未真正移动到 Power BI。 实际上，在 Power BI 中创建的新数据集以及 Power BI Desktop 中的数据和数据模型将加载到数据集中。 如果你的文件有任何报表，则这些报表会显示在你的 Power BI 网站中的“报表”下。
+**本地** - 如果你将文件保存到计算机上的本地驱动器中或者组织中的其他位置，则可导入  或从 Power BI Desktop 发布  文件，以便将其数据和报表加入 Power BI。 你的文件实际上一直保存在本地驱动器中，因此整个文件并未真正移动到 Power BI。 实际上，在 Power BI 中创建的新数据集以及 Power BI Desktop 中的数据和数据模型将加载到数据集中。 如果你的文件有任何报表，则这些报表会显示在你的 Power BI 网站中的“报表”下。
 
-**OneDrive - 企业** – 如果你有 OneDrive for Business，并且使用登录 Power BI 的同一帐户登录到其中，这是将 Power BI Desktop 中的工作与你在 Power BI 中的数据集、报表和仪表板保持同步的有史以来最有效的方法。由于 Power BI 和 OneDrive 都位于云中，Power BI 大约每小时会连接你在 OneDrive 上的文件一次。 如果发现任何更改，你的数据集、报表和仪表板会在 Power BI 中自动更新。
+**OneDrive - 企业** – 如果你有 OneDrive for Business，并且使用登录 Power BI 的同一帐户登录到其中，这是将 Power BI Desktop 中的工作与你在 Power BI 中的数据集、报表和仪表板保持同步的有史以来最有效的方法。由于 Power BI 和 OneDrive 都位于云中，Power BI 大约每小时会连接  你在 OneDrive 上的文件一次。 如果发现任何更改，你的数据集、报表和仪表板会在 Power BI 中自动更新。
 
 **OneDrive - 个人** – 如果你将文件保存到自己的 OneDrive 帐户，你会像使用 OneDrive for Business 那样获得很多相同优势。 最大的不同之处在于，当你首次连接至你的文件（使用“获取数据 > 文件 > OneDrive – 个人”）时，你将需要使用 Microsoft 帐户登录 OneDrive，这通常与你用于登录到 Power BI 的帐户不同。 当使用你的 Microsoft 帐户登录 OneDrive 时，请务必选择“使我保持登录状态”选项。 这样一来，Power BI 将能够大约每小时连接你的文件一次，并确保你在 Power BI 中的数据集同步。
 
@@ -40,7 +40,7 @@ ms.locfileid: "65513087"
 1. 在 Power BI 的导航窗格中，单击**“获取数据”**。
    
    ![](media/service-desktop-files/pbid_get_data_button.png)
-2. 在“文件”中，单击“获取”。
+2. 在“文件”  中，单击“获取”  。
    
    ![](media/service-desktop-files/pbid_files_get.png)
 3. 查找你的文件。 Power BI Desktop 文件具有 .PBIX 扩展名。

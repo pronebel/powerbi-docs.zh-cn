@@ -11,50 +11,50 @@ ms.date: 06/18/2018
 ms.author: otarb
 LocalizationGroup: Create reports
 ms.openlocfilehash: 7390f029144e5cb37830921071ad5c2c678b2d4d
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54275470"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61285241"
 ---
 # <a name="create-power-bi-visuals-using-python"></a>使用 Python 创建 Power BI 视觉对象
-借助 Power BI Desktop，可以使用 Python 将数据可视化。
+借助 Power BI Desktop  ，可以使用 Python  将数据可视化。
 
 ## <a name="install-python"></a>安装 Python
-Power BI Desktop 既不包括，也不会部署或安装 Python 引擎。 若要在 Power BI Desktop 中运行 Python 脚本，必须在本地计算机上单独安装 Python。 你可以从很多位置免费下载并安装 Python，其中包括 [Python 官方下载页面](https://www.python.org/)和 [Anaconda](https://anaconda.org/anaconda/python/)。 Power BI Desktop 中当前版本的 Python 脚本在安装路径中支持 Unicode 字符以及空格（空字符）。
+Power BI Desktop  既不包括，也不会部署或安装 Python  引擎。 若要在 Power BI Desktop  中运行 Python 脚本，必须在本地计算机上单独安装 Python  。 你可以从很多位置免费下载并安装 Python  ，其中包括 [Python 官方下载页面](https://www.python.org/)和 [Anaconda](https://anaconda.org/anaconda/python/)。 Power BI Desktop 中当前版本的 Python 脚本在安装路径中支持 Unicode 字符以及空格（空字符）。
 
 ## <a name="enable-python-visuals"></a>启用 Python 视觉对象
-若要启用 Python 视觉对象，请选择“文件”>“选项和设置”>“选项”，并在出现的“选项”页中确保本地 Python 安装在“选项”窗口的“Python 脚本”部分中指定，如下图所示。 下图中，Python 的本地安装路径是 C:\Python27，并在文本框中显式提供该路径。 请确保显示的路径正确地反映了想要 Power BI Desktop 使用的本地 Python 安装。
+若要启用 Python 视觉对象，请选择“文件”>“选项和设置”>“选项”  ，并在出现的“选项”  页中确保本地 Python 安装在“选项”  窗口的“Python 脚本”  部分中指定，如下图所示。 下图中，Python 的本地安装路径是 C:\Python27  ，并在文本框中显式提供该路径。 请确保显示的路径正确地反映了想要 Power BI Desktop  使用的本地 Python 安装。
    
    ![](media/desktop-python-visuals/python-visuals-1.png)
 
 一旦指定 Python 安装，就可以开始创建 Python 视觉对象。
 
 ## <a name="create-python-visuals-in-power-bi-desktop"></a>在 Power BI Desktop 中创建 Python 视觉对象
-1. 在“可视化效果”窗格中选择“Python 视觉对象”图标，以添加 Python 视觉对象，如下图所示。
+1. 在“可视化效果”  窗格中选择“Python 视觉对象”  图标，以添加 Python 视觉对象，如下图所示。
    
    ![](media/desktop-python-visuals/python-visuals-2.png)
 
-   向报表添加 Python 视觉对象后，Power BI Desktop 执行以下任务：
+   向报表添加 Python 视觉对象后，Power BI Desktop  执行以下任务：
    
    - 占位符 Python 视觉对象图像位于报表画布上。
    
-   - Python 脚本编辑器位于中央窗格底部边缘处。
+   - Python 脚本编辑器  位于中央窗格底部边缘处。
    
    ![](media/desktop-python-visuals/python-visuals-3.png)
 
-2. 接下来，在“字段”的“值”部分添加要在 Python 脚本中使用的字段，就像处理其他任何 Power BI Desktop 视觉对象一样。 
+2. 接下来，在“字段”  的“值”  部分添加要在 Python 脚本中使用的字段，就像处理其他任何 Power BI Desktop  视觉对象一样。 
     
-    只有已添加到“字段”的字段才可供 Python 脚本使用。 在“Power BI Desktop Python 脚本编辑器”中处理 Python 脚本的同时，可以添加新字段或从“字段”中删除不必要的字段。 **Power BI Desktop** 会自动检测已添加或删除的字段。
+    只有已添加到“字段”  的字段才可供 Python 脚本使用。 在“Power BI Desktop Python 脚本编辑器”  中处理 Python 脚本的同时，可以添加新字段或从“字段”  中删除不必要的字段。 **Power BI Desktop** 会自动检测已添加或删除的字段。
    
    > [!NOTE]
-   > Python 视觉对象的默认聚合类型是“不汇总”。
+   > Python 视觉对象的默认聚合类型是“不汇总”  。
    > 
    > 
    
 3. 现在你可以使用你选择用来创建绘图的数据。 
 
-    在你选择这些字段时，“Python 脚本编辑器”将基于编辑器窗格顶部旁边灰色部分中的选择生成支持 Python 脚本绑定代码。 在你选择或删除其他字段时，Python 脚本编辑器中的支持代码将相应地被自动生成或删除。
+    在你选择这些字段时，“Python 脚本编辑器”  将基于编辑器窗格顶部旁边灰色部分中的选择生成支持 Python 脚本绑定代码。 在你选择或删除其他字段时，Python 脚本编辑器中的支持代码将相应地被自动生成或删除。
    
    下图所示示例中，选择了三个字段：hp、gear 和 drat。 基于这些选择，Python 脚本编辑器将生成以下绑定代码：
    
@@ -70,22 +70,22 @@ Power BI Desktop 既不包括，也不会部署或安装 Python 引擎。 若要
    > 
    > 
    
-   生成的数据帧被称为“数据集”，并且可以通过相应所选列名称访问所选列。 例如，gear 字段可通过在 Python 脚本中编写 dataset["gear"] 进行访问。
+   生成的数据帧被称为“数据集”  ，并且可以通过相应所选列名称访问所选列。 例如，gear 字段可通过在 Python 脚本中编写 dataset["gear"]  进行访问。
 
-4. 借助所选字段自动生成的数据帧，就可以编写将导致绘制到 Python 默认设备的 Python 脚本。 该脚本完成时，从“Python 脚本编辑器”标题栏选择“运行”（“运行”位于标题栏右侧）。
+4. 借助所选字段自动生成的数据帧，就可以编写将导致绘制到 Python 默认设备的 Python 脚本。 该脚本完成时，从“Python 脚本编辑器”  标题栏选择“运行”  （  “运行”位于标题栏右侧）。
    
-    选择“运行”后，Power BI Desktop 会识别绘图，并在画布上予以呈现。 由于该过程是在本地 Python 安装上执行，请确保安装了所需的包。
+    选择“运行”  后，Power BI Desktop  会识别绘图，并在画布上予以呈现。 由于该过程是在本地 Python 安装上执行，请确保安装了所需的包。
    
    当以下任一事件发生时，**Power BI Desktop** 会重新绘制视觉对象：
    
-   * 当从“Python 脚本编辑器”标题栏选择“运行”时
+   * 当从“Python 脚本编辑器”  标题栏选择“运行”  时
    * 每当数据更改发生时（由于数据刷新、筛选或突出显示所导致）
 
     下图显示相关绘图代码的示例，并绘制不同类型汽车特征间的关联。
 
     ![](media/desktop-python-visuals/python-visuals-5.png)
 
-5. 若要获取可视化效果的较大视图，你可以尽量减小 Python 脚本编辑器。 当然，如同 Power BI Desktop 中的其他视觉对象，你可以只选择环形视觉对象（在上面的示例图像中，为右侧的圆形视觉对象）中的跑车，交叉筛选相关绘图。
+5. 若要获取可视化效果的较大视图，你可以尽量减小 Python 脚本编辑器  。 当然，如同 Power BI Desktop  中的其他视觉对象，你可以只选择环形视觉对象（在上面的示例图像中，为右侧的圆形视觉对象）中的跑车，交叉筛选相关绘图。
 
     ![](media/desktop-python-visuals/python-visuals-6.png)
 
@@ -103,7 +103,7 @@ Power BI Desktop 既不包括，也不会部署或安装 Python 引擎。 若要
 
     ![](media/desktop-python-visuals/python-visuals-7.png)
 
-    如果执行 Python 脚本时导致错误，则不会绘制 Python 视觉对象，并且画布上将显示一条错误消息。 有关该错误的详细信息，请从画布上的 Python 视觉对象错误中选择“查看详细信息”。
+    如果执行 Python 脚本时导致错误，则不会绘制 Python 视觉对象，并且画布上将显示一条错误消息。 有关该错误的详细信息，请从画布上的 Python 视觉对象错误中选择“查看详细信息”  。
 
     ![](media/desktop-python-visuals/python-visuals-8.png)
 
@@ -112,7 +112,7 @@ Power BI Desktop 既不包括，也不会部署或安装 Python 引擎。 若要
     > 
 
 ## <a name="known-limitations"></a>已知限制
-Power BI Desktop 中的 Python 视觉对象有一些限制：
+Power BI Desktop  中的 Python 视觉对象有一些限制：
 
 * 数据大小限制 - Python 视觉对象用于绘制的数据仅限 150,000 行。 如果选择了 150,000 行以上，则只会使用前 150,000 行，且在图像上显示一条消息。
 * 计算时间限制 - 如果 Python 视觉对象计算时间超过 5 分钟，则执行将超时并生成一个错误。

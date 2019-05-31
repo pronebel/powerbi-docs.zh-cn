@@ -1,20 +1,20 @@
 ---
 title: 使用 OAuth 连接到 Power BI 报表服务器和 SSRS
 description: 了解如何将环境配置为支持 OAuth 对 Power BI 移动应用进行身份验证以连接到 SQL Server Reporting Services 2016 或更高版本。
-author: markingmyname
-ms.author: maghan
+author: maggiesMSFT
+ms.author: maggies
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 06/07/2018
-ms.openlocfilehash: 6e0b1c5d4a067925e4898cf23968cc14fd3f8fd6
-ms.sourcegitcommit: 20ae9e9ffab6328f575833be691073de2061a64d
-ms.translationtype: HT
+ms.openlocfilehash: ae56a27393ba476828ff87d7f458815318ea79c1
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/22/2019
-ms.locfileid: "58383614"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "64770367"
 ---
 # <a name="using-oauth-to-connect-to-power-bi-report-server-and-ssrs"></a>使用 OAuth 连接到 Power BI 报表服务器和 SSRS
 
@@ -25,7 +25,7 @@ ms.locfileid: "58383614"
 可使用 OAuth 连接到 Power BI 报表服务器和 Reporting Services，以显示移动报表或 KPI。 Windows Server 2016 向 Web 应用程序代理 (WAP) 角色提供了一些改进，以允许此种类型的身份验证。
 
    > [!NOTE]
-   > 目前不正式支持查看在使用 WAP 进行身份验证的 Power BI 报表服务器中托管的 Power BI 报表。
+   > 查看 Power BI 报表服务器中托管的 Power BI 报表使用 WAP 进行身份验证目前支持仅在 iOS 应用程序中。 在此时间不正式支持的 android 应用程序。
 
 ## <a name="requirements"></a>要求
 
@@ -85,7 +85,7 @@ SPN 是使用 Kerberos 身份验证的服务的唯一标识符。 需要确保�
 
 可以按照以下步骤创建应用程序组。
 
-1. 在“AD FS 管理”应用上，右键单击“**应用程序组**”，并选择“**添加应用程序组…**”
+1. 在“AD FS 管理”应用上，右键单击“**应用程序组**”，并选择“**添加应用程序组…** ”
 
    ![ADFS 添加应用程序](media/mobile-oauth-ssrs/adfs-add-application-group.png)
 
@@ -97,7 +97,7 @@ SPN 是使用 Kerberos 身份验证的服务的唯一标识符。 需要确保�
 
 4. 为正在添加的应用程序提供“**名称**”。 
 
-5. “**客户端 ID**”将会自动生成，对于 iOS 和 Android 会输入 484d54fc-b481-4eee-9505-0258a1913020。
+5. “**客户端 ID**”将会自动生成，对于 iOS 和 Android 会输入 484d54fc-b481-4eee-9505-0258a1913020。 
 
 6. 需要添加以下“**重定向 URL**”：
 
@@ -118,7 +118,7 @@ SPN 是使用 Kerberos 身份验证的服务的唯一标识符。 需要确保�
    > [!NOTE]
    > 此 URL 区分大小写！
 
-   *https://<url to report server>/reports*
+   *https://< 报表服务器 url > / 报告*
 
    ![ADFS 应用程序组向导 03](media/mobile-oauth-ssrs/adfs-application-group-wizard3.png)
 9. 选择**下一步**。
@@ -159,17 +159,17 @@ SPN 是使用 Kerberos 身份验证的服务的唯一标识符。 需要确保�
 
 4. 选择“**委派**”选项卡。
 
-5. 选择“**仅信任此计算机来委派指定的服务**”然后选择“**使用任意身份验证协议”**。
+5. 选择“**仅信任此计算机来委派指定的服务**”然后选择“**使用任意身份验证协议”** 。
 
    ![WAP 约束](media/mobile-oauth-ssrs/wap-contrained-delegation1.png)
 
    此操作设置了此 WAP 服务器计算机帐户的约束委派。 然后我们需要指定允许该计算机委派到的服务。
 
-6. 在服务框下选择“**添加…**” 。
+6. 在服务框下选择“**添加…** ” 。
 
    ![WAP 约束 02](media/mobile-oauth-ssrs/wap-contrained-delegation2.png)
 
-7. 选择“**用户或计算机…**”
+7. 选择“**用户或计算机…** ”
 
 8. 输入用于 Reporting Services 的服务帐户。 这是在 Reporting Services 配置中将 SPN 添加到其中的帐户。
 
@@ -191,7 +191,7 @@ SPN 是使用 Kerberos 身份验证的服务的唯一标识符。 需要确保�
 可以在“报表访问管理控制台”中发布应用程序，但我们需要通过 PowerShell 构建应用程序。 以下是添加应用程序的命令。
 
 ```powershell
-Add-WebApplicationProxyApplication -Name "Contoso Reports" -ExternalPreauthentication ADFS -ExternalUrl https://reports.contoso.com/reports/ -ExternalCertificateThumbprint "0ff79c75a725e6f67e3e2db55bdb103efc9acb12" -BackendServerUrl http://ContosoSSRS/reports/ -ADFSRelyingPartyName "Reporting Services - Web API" -BackendServerAuthenticationSPN "http/ContosoSSRS.contoso.com" -UseOAuthAuthentication
+Add-WebApplicationProxyApplication -Name "Contoso Reports" -ExternalPreauthentication ADFS -ExternalUrl https://reports.contoso.com/ -ExternalCertificateThumbprint "0ff79c75a725e6f67e3e2db55bdb103efc9acb12" -BackendServerUrl http://ContosoSSRS/ -ADFSRelyingPartyName "Reporting Services - Web API" -BackendServerAuthenticationSPN "http/ContosoSSRS.contoso.com" -UseOAuthAuthentication
 ```
 
 | 参数 | 注释 |

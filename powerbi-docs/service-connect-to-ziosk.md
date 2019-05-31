@@ -11,11 +11,11 @@ ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
 ms.openlocfilehash: d22f67f52d0abe0621e244874def845c7d25c15b
-ms.sourcegitcommit: 750f0bfab02af24c8c72e6e9bbdd876e4a7399de
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/04/2019
-ms.locfileid: "54008751"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61137872"
 ---
 # <a name="connect-to-ziosk-survey-analytics-with-power-bi"></a>使用 Power BI 连接到 Ziosk 调查分析
 通过 Power BI 的 Ziosk 调查分析内容包，使用 Ziosk 平板电脑的餐厅可以非常方便地访问 Ziosk 调查数据所提供的见解，包括按日期、位置、员工等进行的分段。
@@ -46,7 +46,7 @@ ms.locfileid: "54008751"
 * 尝试在仪表板顶部的[在“问答”框中提问](consumer/end-user-q-and-a.md)
 * 在仪表板中[更改磁贴](service-dashboard-edit-tile.md)。
 * [选择磁贴](consumer/end-user-tiles.md)以打开基础报表。
-* 虽然数据集将按计划每日刷新，但你可以更改刷新计划或根据需要使用“立即刷新”来尝试刷新
+* 虽然数据集将按计划每日刷新，但你可以更改刷新计划或根据需要使用“立即刷新”  来尝试刷新
 
 ## <a name="whats-included"></a>包含的内容
 该内容包中包括来自下列表的数据：  

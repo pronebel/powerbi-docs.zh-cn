@@ -1,3 +1,11 @@
+---
+ms.openlocfilehash: 48e553ebd81632cb0baa9a2c9c6a761860c3c9c6
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61253674"
+---
 使用 Power BI 分析基于时间的数据非常容易。 Power BI Desktop 中的建模工具自动包括一些生成字段，在这些字段中，你可通过一次单击深化到年份、季度、月份和日期。  
 
 当你在报表中使用日期字段创建表格可视化效果时，Power BI Desktop 将自动包括按时间段分解的信息。 例如，Power BI 会自动将**日期**表中的单个日期字段分为年、季度、月和日，如下图中所示。
@@ -23,7 +31,7 @@
 ![](media/2-6a-explore-time-based-data/2-6a_5.png)
 
 ## <a name="next-steps"></a>后续步骤
-**祝贺你！** 你已经完成了本部分的 Power BI **引导学习**课程。 了解有关数据 *建模* 的信息后，即可学习下一部分中的有趣知识： **可视化** 。
+**祝贺你！** 你已经完成了本部分的 Power BI **引导学习**课程。 现在，您知道的关于*建模*已准备好了解的有趣知识的数据，正在等待下一节中的内容：**可视化效果**。
 
 如上所述，本课程按照 Power BI 中的常见工作流构建知识：
 

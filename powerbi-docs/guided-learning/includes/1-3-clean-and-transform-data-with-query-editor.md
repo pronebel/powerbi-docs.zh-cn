@@ -1,3 +1,11 @@
+---
+ms.openlocfilehash: e8b920763ea619fe74af2b71730164183f333a95
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61264364"
+---
 **Power BI Desktop** 包括**查询编辑器**，这是一款强大的工具，可将数据具体化并进行转换，以使其可供你的模型和可视化效果使用。 当你在“导航器”中选择“编辑”时，此时将启动“查询编辑器”并使用你从数据源中选择的表或其他实体进行填充。
 
 你还可以使用**开始**功能区中的**编辑查询**按钮直接从 **Power BI Desktop** 启动**查询编辑器**。

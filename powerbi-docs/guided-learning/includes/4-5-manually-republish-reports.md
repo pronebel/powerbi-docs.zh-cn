@@ -1,3 +1,11 @@
+---
+ms.openlocfilehash: 68645069b22163ca7ae2a64310e43f1a801434f5
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61254650"
+---
 你可以更新已从 Power BI Desktop 发布到 Power BI 服务的报表和数据集。 若要执行此操作，请从功能区的**主页**选项卡上选择**发布**。
 
 ![](media/4-5-manually-republish-reports/4-5_0.png)

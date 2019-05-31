@@ -1,20 +1,20 @@
 ---
 title: 使用 iFrame 嵌入报表
 description: 在 SharePoint Server 的 iFrame 中嵌入 Power BI 报表服务器报表
-author: markingmyname
-ms.author: maghan
+author: maggiesMSFT
+ms.author: maggies
 ms.date: 05/04/2018
 ms.topic: quickstart
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.custom: mvc
 manager: kfile
-ms.openlocfilehash: 4730bef0e7f1fc47a4a59a0129640760714fe2e0
-ms.sourcegitcommit: 80961ace38ff9dac6699f81fcee0f7d88a51edf4
-ms.translationtype: HT
+ms.openlocfilehash: ca26770c652c12573bf28e24b218b214bf1196fa
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/13/2019
-ms.locfileid: "56223320"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "64769864"
 ---
 # <a name="quickstart-embed-a-power-bi-report-server-report-using-an-iframe-in-sharepoint-server"></a>快速入门：在 SharePoint Server 中使用 iFrame 嵌入“Power BI 报表服务器”报表
 
@@ -32,15 +32,15 @@ ms.locfileid: "56223320"
 
     ![下载示例 PBIX 文件](media/quickstart-embed/quickstart_embed_14.png)
 
-2. 在“更适合 Power BI 报表服务器的 Power BI Desktop”中从 GitHub 打开示例 PBIX 文件。
+2. 在“更适合 Power BI 报表服务器的 Power BI Desktop”  中从 GitHub 打开示例 PBIX 文件。
 
     ![PBI RS 桌面工具](media/quickstart-embed/quickstart_embed_02.png)
 
-3. 将报表保存到 Power BI 报表服务器。 
+3. 将报表保存到 Power BI 报表服务器  。 
 
     ![PBI RS 保存](media/quickstart-embed/quickstart_embed_03.png)
 
-4. 在 Web 门户中查看报表。
+4. 在 Web 门户  中查看报表。
 
     ![Web 门户](media/quickstart-embed/quickstart_embed_04.png)
 
@@ -54,7 +54,7 @@ ms.locfileid: "56223320"
     ```
 ## <a name="embedding-a-power-bi-report-server-report-in-a-sharepoint-iframe"></a>在 SharePoint iFrame 中嵌入 Power BI 报表服务器报表
 
-1. 导航到 SharePoint“网站内容”页面。
+1. 导航到 SharePoint“网站内容”  页面。
 
     ![网站内容页面](media/quickstart-embed/quickstart_embed_05.png)
 
@@ -62,23 +62,23 @@ ms.locfileid: "56223320"
 
     ![网站内容页面应用](media/quickstart-embed/quickstart_embed_06.png)
 
-3. 选择右上方的齿轮，然后选择“编辑页面”。
+3. 选择右上方的齿轮，然后选择“编辑页面”  。
 
     ![“编辑页面”选项](media/quickstart-embed/quickstart_embed_07.png)
 
-4. 选择“添加 Web 部件”。
+4. 选择“添加 Web 部件”  。
 
     ![添加 Web 部件](media/quickstart-embed/quickstart_embed_08.png)
 
-5. 在“类别”下选择“媒体和内容”，在“部件”下选择“内容编辑器”，然后选择“添加”。
+5. 在“类别”下选择“媒体和内容”，在“部件”下选择“内容编辑器”，然后选择“添加”。     
 
     ![选择内容编辑器 Web 部件](media/quickstart-embed/quickstart_embed_09.png)![选择添加](media/quickstart-embed/quickstart_embed_091.png)
 
-6. 选择“单击此处以添加新内容”。
+6. 选择“单击此处以添加新内容”  。
 
     ![添加新内容](media/quickstart-embed/quickstart_embed_10.png)
 
-7. 在功能区中选择“格式文本”选项卡，然后选择“编辑源”。
+7. 在功能区中选择“格式文本”  选项卡，然后选择“编辑源”  。
 
      ![编辑源](media/quickstart-embed/quickstart_embed_11.png)
 
@@ -91,7 +91,7 @@ ms.locfileid: "56223320"
      <iframe width="800" height="600" src="http://myserver/reports/powerbi/Sales?rs:embed=true" frameborder="0" allowFullScreen="true"></iframe>
      ```
 
-9. 在功能区中选择“页面”选项卡，然后选择“停止编辑”。
+9. 在功能区中选择“页面”  选项卡，然后选择“停止编辑”  。
 
     ![停止编辑](media/quickstart-embed/quickstart_embed_13.png)
 

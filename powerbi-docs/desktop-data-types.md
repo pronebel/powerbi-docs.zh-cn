@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: reference
-ms.date: 11/28/2018
+ms.date: 04/10/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: e8f659f0eb7b016f18e17ed88bc0ff1d5f928766
-ms.sourcegitcommit: 5e83fa6c93a0bc6599f76cc070fb0e5c1fce0082
-ms.translationtype: HT
+ms.openlocfilehash: 00ff6a901ef4056e15ccc0087f0783826b1a64b2
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/13/2019
-ms.locfileid: "56216461"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61308966"
 ---
 # <a name="data-types-in-power-bi-desktop"></a>Power BI Desktop 中的数据类型
 本文介绍 Power BI Desktop 和数据分析表达式 (DAX) 中支持的数据类型。 
@@ -35,7 +35,7 @@ ms.locfileid: "56216461"
 
 ![](media/desktop-data-types/pbiddatatypesindatareportview.png)
 
-查询编辑器中的“数据类型”下拉列表中有两种数据类型在当前数据或报表视图中不存在，分别是：“日期/时间/时区”和“持续时间”。 当将使用这些数据类型的列加载到模型中，并在数据或报表视图中进行查看时，使用日期/时间/时区数据类型的列将会被转换为日期/时间，而使用持续时间数据类型的列将会被转换为十进制数字。
+查询编辑器中的“数据类型”下拉列表中有两种数据类型在当前数据或报表视图中不存在，分别是：“日期/时间/时区”  和“持续时间”  。 当将使用这些数据类型的列加载到模型中，并在数据或报表视图中进行查看时，使用日期/时间/时区数据类型的列将会被转换为日期/时间，而使用持续时间数据类型的列将会被转换为十进制数字。
 
 ### <a name="number-types"></a>数字类型
 Power BI Desktop 支持三种数字类型：

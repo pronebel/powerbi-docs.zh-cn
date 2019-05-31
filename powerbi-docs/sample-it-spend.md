@@ -11,11 +11,11 @@ ms.date: 06/23/2018
 ms.author: maggies
 LocalizationGroup: Samples
 ms.openlocfilehash: 0a71a0e0fe7af3c074c94ab26083839ff114f815
-ms.sourcegitcommit: 5e83fa6c93a0bc6599f76cc070fb0e5c1fce0082
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/13/2019
-ms.locfileid: "56216093"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61232601"
 ---
 # <a name="it-spend-analysis-sample-for-power-bi-take-a-tour"></a>Power BI 的 IT 支出分析示例：参观
 
@@ -39,7 +39,7 @@ IT 支出分析[内容包](service-organizational-content-pack-introduction.md)�
 3. 在显示的“获取数据”页上选择“**示例**”图标。
    
    ![](media/sample-datasets/power-bi-samples-icon.png)
-4. 依次选择“IT 支出分析示例”和“连接”。  
+4. 依次选择“IT 支出分析示例”  和“连接”  。  
   
    ![获取数据](media/sample-it-spend/it-connect.png)
    
@@ -54,11 +54,11 @@ IT 支出分析[内容包](service-organizational-content-pack-introduction.md)�
  * [IT 支出分析示例](http://download.microsoft.com/download/E/9/8/E98CEB6D-CEBB-41CF-BA2B-1A1D61B27D87/IT%20Spend%20Analysis%20Sample%20PBIX.pbix)
 
 ### <a name="get-the-excel-workbook-for-this-sample"></a>获取 Excel 工作簿形式的此示例
-还可以针对此示例[仅下载该数据集（Excel 工作簿）](http://go.microsoft.com/fwlink/?LinkId=529783)。 该工作簿包含你可以查看和修改的 Power View 工作表。 若要查看原始数据，请选择“Power Pivot”>“管理”。
+还可以针对此示例[仅下载该数据集（Excel 工作簿）](http://go.microsoft.com/fwlink/?LinkId=529783)。 该工作簿包含你可以查看和修改的 Power View 工作表。 若要查看原始数据，请选择“Power Pivot”>“管理”  。
 
 
 ## <a name="the-it-spend-analysis-sample-dashboard"></a>IT 支出分析示例仪表板
-仪表板上的两个数字磁贴，**差额计划 %** 和**第 3 季度最新估计差额 %**，为我们提供了和计划和最新的季度评估（LE3 = 第 3 季度最新估计）相比，我们的表现程度的概况。 总体上，我们与计划大约有 6% 的差额。 让我们按时间、地点和类别研究一下导致此差额的原因。
+仪表板上的两个数字磁贴，**差额计划 %** 和**第 3 季度最新估计差额 %** ，为我们提供了和计划和最新的季度评估（LE3 = 第 3 季度最新估计）相比，我们的表现程度的概况。 总体上，我们与计划大约有 6% 的差额。 让我们按时间、地点和类别研究一下导致此差额的原因。
 
 ## <a name="ytd-it-spend-trend-analysis-page"></a>“YTD IT 开支趋势分析”页
 选择**按销售地区的差额计划 %** 仪表板磁贴将转到 IT 支出分析示例报表的“IT 支出趋势分析”页。 一眼就可以看出我们在美国和欧洲为正差额，而在加拿大、拉丁美洲和澳大利则为负差额。 美国最近估计约有 6% 的正差额，而澳大利亚最近估计约有 7% 的负差额。
@@ -75,7 +75,7 @@ IT 支出分析[内容包](service-organizational-content-pack-introduction.md)�
     因此我们把范围缩小到美国，下一步呢？ 我们来探讨一下是美国的哪类商品造成了差额。
 
 ## <a name="ask-questions-of-the-data"></a>提出有关数据的问题
-1. 在顶部导航栏中选择“IT 支出分析示例”以返回到仪表板。
+1. 在顶部导航栏中选择“IT 支出分析示例”  以返回到仪表板。
 2. 在问题框中键入“显示 IT 区域、差额计划 % 和第 3 季度最新估计差额 % 条形图”。
 
    ![](media/sample-it-spend/it4.png)

@@ -1,20 +1,20 @@
 ---
 title: 为 Power BI 报表服务器创建分页报表
 description: 了解如何通过执行简单几步为 Power BI 报表服务器创建分页报表。
-author: markingmyname
+author: maggiesMSFT
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 10/22/2018
-ms.author: maghan
-ms.openlocfilehash: 135bd3c127135961016b78eb0156d49ec1c1967d
-ms.sourcegitcommit: 91ac6185f7026ddbaa925dc54057bb742b4fa411
-ms.translationtype: HT
+ms.author: maggies
+ms.openlocfilehash: 9e3a45e7648fd38413c2d45582981bac5e91cd2a
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/16/2019
-ms.locfileid: "56324659"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "64770515"
 ---
 # <a name="create-a-paginated-report-for-power-bi-report-server"></a>为 Power BI 报表服务器创建分页报表
 顾名思义，分页报表可以生成很多页。 它们以固定格式布局，并允许进行精准自定义。 分页报表是 .rdl 文件。
@@ -28,12 +28,12 @@ ms.locfileid: "56324659"
 ## <a name="step-1-install-and-start-report-builder"></a>步骤 1：安装并启动报表生成器
 可能已安装报表生成器来为 SSRS 服务器创建报表。 可以使用相同版本的报表生成器来为 Power BI 报表服务器创建报表。 如果尚未安装，也不用担心，操作过程非常简单。
 
-1. 在 Power BI 报表服务器 Web 门户中，选择“新建” > “分页报表”。
+1. 在 Power BI 报表服务器 Web 门户中，选择“新建”   > “分页报表”  。
    
     ![新建分页报表菜单](media/quickstart-create-paginated-report/reportserver-new-paginated-report-menu.png)
    
     如果尚未安装报表生成器，现在系统会引导你逐步完成安装过程。
-2. 安装后，报表生成器中会打开“新建报表或数据集”屏幕。
+2. 安装后，报表生成器中会打开“新建报表或数据集”  屏幕。
    
     ![新建报表或数据集屏幕](media/quickstart-create-paginated-report/reportserver-paginated-new-report-screen.png)
 3. 选择要创建的报表种类所对应的向导：
@@ -51,9 +51,9 @@ ms.locfileid: "56324659"
 
 分页报表可以连接各种数据源，包括 Microsoft SQL Server 和 Microsoft Azure SQL 数据库、Oracle、Hyperion 等。 了解[分页报表支持的数据源](connect-data-sources.md)。
 
-在“图表向导”的第 1 页中，选择一个数据集。可以创建数据集，也可以选择服务器上的共享数据集。 数据集通过查询外部数据源返回报表数据。
+在“图表向导”的第 1 页中，选择一个数据集  。可以创建数据集，也可以选择服务器上的共享数据集。 数据集  通过查询外部数据源返回报表数据。
 
-1. 依次选择“浏览”、服务器上的共享数据集、“打开” > “下一步”。
+1. 依次选择“浏览”  、服务器上的共享数据集、“打开”   > “下一步”  。
    
     ![图表向导：选择数据集](media/quickstart-create-paginated-report/reportserver-paginated-choose-dataset.png)
    
@@ -61,20 +61,20 @@ ms.locfileid: "56324659"
 2. 选择图表类型，在此示例中，选择“条形图”。
    
     ![图表向导：图表类型](media/quickstart-create-paginated-report/reportserver-paginated-choose-chart-type.png)
-3. 将字段拖到“类别”、“系列”和“值”框中进行排列。
+3. 将字段拖到“类别”  、“系列”  和“值”  框中进行排列。
    
     ![图表向导：排列字段](media/quickstart-create-paginated-report/reportserver-paginated-arrange-fields.png)
-4. 选择“下一步” > “完成”。
+4. 选择“下一步”   > “完成”  。
 
 ## <a name="step-3-design-your-report"></a>步骤 3：设计报表
 现在位于“报表设计”视图中。 请注意，数据为占位符数据，不是你的数据。
 
 ![报表设计视图](media/quickstart-create-paginated-report/reportserver-paginated-preview-report.png)
 
-* 若要查看你的数据，请选择“生成”。
+* 若要查看你的数据，请选择“生成”  。
   
      ![运行报表](media/quickstart-create-paginated-report/reportserver-paginated-run-report.png)
-* 若要返回到设计视图，请选择“设计”。
+* 若要返回到设计视图，请选择“设计”  。
 
 可以修改刚刚创建的图表：更改布局、值、图例（实际上可以更改一切内容）。
 
@@ -85,7 +85,7 @@ ms.locfileid: "56324659"
 ## <a name="step-4-save-your-report-to-the-report-server"></a>步骤 4：将报表保存到报表服务器
 创建并设计完报表后，可以将其保存到 Power BI 报表服务器。
 
-1. 在“文件”菜单上，选择“另存为”，然后将其保存到报表服务器。 
+1. 在“文件”  菜单上，选择“另存为”  ，然后将其保存到报表服务器。 
 2. 现在可以在浏览器中查看报表。
    
     ![浏览器中的分页报表](media/quickstart-create-paginated-report/reportserver-paginated-report.png)

@@ -11,19 +11,19 @@ ms.topic: conceptual
 ms.date: 01/22/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: cce99c8a0e0908ef901408cbb19397fa098bac38
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
-ms.translationtype: HT
+ms.openlocfilehash: d7a8c1600de65ba39b075d89f3c2d95e0b0c7cde
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54289592"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "66051234"
 ---
 # <a name="customize-visualization-titles-legends-and-backgrounds"></a>自定义可视化效果的标题、图例和背景
 在本教程中，你将学习一些用于自定义可视化效果的不同方式。   有许多选项用于自定义可视化效果，了解所有这些选项的最佳方法是：浏览格式设置窗格（选择 paintroller 图标）。  为了帮助你入门，本文演示了如何自定义可视化效果的标题、图例和背景。  
 
 并非所有可视化效果都可以进行自定义，[查看完整列表](#list)。  
 
-请观看下面的视频，Amanda 将演示如何在报表中自定义可视化效果（快进到视频的 4:50）。 然后，按照视频下方的分步说明操作，用自己的数据自行尝试一下。
+快进到 4:50 视频中有关如何自定义可视化效果的演示。 然后，按照视频下方的分步说明操作，用自己的数据自行尝试一下。
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/IkJda4O7oGs" frameborder="0" allowfullscreen></iframe>
 
@@ -40,7 +40,7 @@ ms.locfileid: "54289592"
 > 
 
 1. 导航到报表的“新建商店”页面，并选择“按开业月份划分的开业商店计数...”柱形图。
-2. 在可视化效果窗格中，选择 paintroller 图标以显示格式设置选项。  然后选择“标题”展开此部分。  
+2. 在可视化效果窗格中，选择 paintroller 图标以显示格式设置选项。  然后选择“标题”  展开此部分。  
 
    ![](media/power-bi-visualization-customize-title-background-and-legend/power-bi-formatting-menu.png)
 3. 通过选择“打开”（或“关闭”）滑块来打开和关闭**标题**。 现在，将它保留为**打开**。  
@@ -58,7 +58,7 @@ ms.locfileid: "54289592"
 7. 我们对图表标题进行的最后一个自定义是使它在可视化效果中居中。 标题位置默认为左对齐。  
    ![](media/power-bi-visualization-customize-title-background-and-legend/customizealign.png)
 
-    此时在教程中，柱形图“标题”应如下所示：  
+    此时在教程中，柱形图“标题”  应如下所示：  
     ![](media/power-bi-visualization-customize-title-background-and-legend/tutorialprogress1.png)
 
     要恢复目前为止我们进行的所有标题自定义，请在**标题**自定义窗格底部选择**默认到默认值**。  
@@ -70,7 +70,7 @@ ms.locfileid: "54289592"
 1. 通过选择“打开”（或“关闭”）滑块来打开和关闭背景。 现在，将它保留为**打开**。
 2. 将背景色更改为 74% 灰色。
 
-   * 选择下拉菜单，然后从“主题颜色”、“最近使用的颜色”或“自定义颜色”中选择灰色。
+   * 选择下拉菜单，然后从“主题颜色”  、“最近使用的颜色”  或“自定义颜色”  中选择灰色。
    * 将透明度更改为 74%。   
      ![](media/power-bi-visualization-customize-title-background-and-legend/power-bi-customize-background.png)
 

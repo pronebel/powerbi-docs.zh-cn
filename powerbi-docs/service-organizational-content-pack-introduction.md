@@ -11,18 +11,18 @@ ms.date: 08/02/2018
 ms.author: maggies
 LocalizationGroup: Share your work
 ms.openlocfilehash: f7e8d58e5fd738e5da678723ef239f5303be5070
-ms.sourcegitcommit: 54907bb59a5c31b25d368d83a0c4faa5e2f0db66
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/24/2019
-ms.locfileid: "54838453"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61226081"
 ---
 # <a name="intro-to-organizational-content-packs-in-power-bi"></a>Power BI 中的组织内容包简介
 > [!NOTE]
 > 无法在新工作区体验预览中创建或安装组织内容包。 现在正是将内容包升级到应用的最佳时机（如果尚未升级）。 详细了解[新工作区体验](service-create-the-new-workspaces.md)。
 > 
 
-你是否通过电子邮件向团队成员定期分发报表？ 改为试试下面这种做法：打包仪表板、报表、Excel 工作簿和数据集，以组织内容包的形式将它们发布到团队。 你的团队可以轻松找到你创建的内容包，因为它们都位于 AppSource 中。 因为它们是 Power BI 的一部分，所以它们将利用 Power BI 的所有功能，包括交互式数据浏览、新增视觉对象、问答、与其他数据源集成、数据刷新等。
+你是否通过电子邮件向团队成员定期分发报表？ 改为试试下面这种做法：打包仪表板、报表、Excel 工作簿和数据集，以组织内容包  的形式将它们发布到团队。 你的团队可以轻松找到你创建的内容包，因为它们都位于 AppSource 中。 因为它们是 Power BI 的一部分，所以它们将利用 Power BI 的所有功能，包括交互式数据浏览、新增视觉对象、问答、与其他数据源集成、数据刷新等。
 
 ![](media/service-organizational-content-pack-introduction/power-bi-org-content-packs.png)
 
@@ -40,7 +40,7 @@ ms.locfileid: "54838453"
 ## <a name="what-is-appsource"></a>什么是 *AppSource*？
 发布组织内容包会将它添加到 AppSource 中。  通过此集中存储库，各成员可以轻松浏览和发现为其发布的仪表板、报表和数据集。  
 
-* 若要查看 AppSource，请依次选择“获取数据” > “我的组织” > “获取”。
+* 若要查看 AppSource，请依次选择“获取数据”   > “我的组织”   > “获取”  。
 
 ## <a name="the-life-cycle-of-an-organizational-content-pack"></a>组织内容包的生命周期
 任何 Power BI Pro 用户都可以创建、发布和访问组织内容包。 只有内容包创建者才能修改工作簿和数据集、安排刷新以及删除内容包。

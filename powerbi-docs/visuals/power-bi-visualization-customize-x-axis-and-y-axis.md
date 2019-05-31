@@ -12,11 +12,11 @@ ms.date: 11/06/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
 ms.openlocfilehash: 1bb6cfa195e3e6158259c9ff23cb3efdc3da4a09
-ms.sourcegitcommit: 80961ace38ff9dac6699f81fcee0f7d88a51edf4
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/13/2019
-ms.locfileid: "56223297"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61067818"
 ---
 # <a name="customize-x-axis-and-y-axis-properties"></a>自定义 X 轴和 Y 轴属性
 在本教程中，你会学习很多用于自定义视觉对象的 X 轴和 Y 轴的不同方式。 并非所有视觉对象都具有轴或是可以自定义；例如，饼图没有轴。 而且自定义选项因视觉对象而异，选项太多，无法在一篇文章中进行介绍。 因此我们讨论一些最常用的轴自定义，使你可以熟练地在 Power BI 报表画布中使用视觉对象格式设置选项卡。  
@@ -48,16 +48,16 @@ ms.locfileid: "56223297"
 3. 通过选择“打开”（或“关闭”）滑块来打开和关闭 X 轴。 现在，将它保留为**打开**。  导致用户想要禁用 Y 轴的一个原因是，节省空间以显示更多数据。
 
     ![](media/power-bi-visualization-customize-x-axis-and-y-axis/onoffslider.png)
-4. 设置文字颜色、文本大小和字体。 在此示例中，我们已将“文字颜色”设置为“黑色”，将“文本大小”设置为“14”，并将“字体”设置为“Arial Black”。  
-5. 启用 X 轴标题，并显示 X 轴的名称（在此例中，为 FiscalMonth）。  
-6. 设置标题的文字颜色、文本大小和字体。  在此示例中，我们已将“标题颜色”设置为“橙色”，将“轴标题”更改为“会计月份”，并将“标题文本大小”设置为“21”。
-7. 若要按 FiscalMonth 排序，请依次选择图表右上角的省略号 (...) 和“按 FiscalMonth 排序”。
+4. 设置文字颜色、文本大小和字体。 在此示例中，我们已将“文字颜色”  设置为“黑色”，将“文本大小”  设置为“14”，并将“字体”  设置为“Arial Black”。  
+5. 启用  X 轴标题，并显示 X 轴的名称（在此例中，为 FiscalMonth  ）。  
+6. 设置标题的文字颜色、文本大小和字体。  在此示例中，我们已将“标题颜色”  设置为“橙色”，将“轴标题”  更改为“会计月份”  ，并将“标题文本大小”  设置为“21”。
+7. 若要按 FiscalMonth 排序，请依次选择图表右上角的省略号 (...) 和“按 FiscalMonth 排序”  。
 
     进行这些自定义之后，柱形图应如下所示：
 
      ![](media/power-bi-visualization-customize-x-axis-and-y-axis/power-bi-customize-axis.png)
 
-若要还原现已完成的所有 X 轴自定义，请选择“X 轴”自定义窗格底部的“还原为默认值”。
+若要还原现已完成的所有 X 轴自定义，请选择“X 轴”  自定义窗格底部的“还原为默认值”  。
 
 ## <a name="customize-the-y-axis"></a>自定义 Y 轴
 1. 展开“Y 轴”选项。
@@ -67,11 +67,11 @@ ms.locfileid: "56223297"
 2. 选择“开”（或“关”）滑块，启用（或禁用）Y 轴。 现在，将它保留为**打开**。  导致用户要禁用 Y 轴的一个原因是，为了节省空间以显示更多数据。
    
     ![](media/power-bi-visualization-customize-x-axis-and-y-axis/onoffslider.png)
-3. 将 Y 轴的“位置”改为“右”。
-4. 设置文字颜色、文本大小和字体。 在此示例中，我们已将“文字颜色”设置为“黑色”，将“文本大小”设置为“14”，并将“字体”设置为“Arial Black”。  
-5. 保持“显示单元”设置为“百万”，且“值小数位”设置为“零”不变。
-6. 对于此可视化效果，显示 Y 轴标题并不会优化视觉对象，所以保持“标题”设置为“关”不变。  
-7. 让我们将“颜色”更改为“深灰色”，并将“笔划”增至“2”，以突出显示网格线。
+3. 将 Y 轴的“位置”  改为“右”。
+4. 设置文字颜色、文本大小和字体。 在此示例中，我们已将“文字颜色”  设置为“黑色”，将“文本大小”  设置为“14”，并将“字体”  设置为“Arial Black”。  
+5. 保持“显示单元”  设置为“百万”，且“值小数位”  设置为“零”不变。
+6. 对于此可视化效果，显示 Y 轴标题并不会优化视觉对象，所以保持“标题”设置为“关”不变  。  
+7. 让我们将“颜色”  更改为“深灰色”，并将“笔划”  增至“2”，以突出显示网格线。
 
     进行这些自定义之后，柱形图应如下所示：
 
@@ -81,7 +81,7 @@ ms.locfileid: "56223297"
 首先会创建一个组合图，它显示商店计数对销售额的影响。  此图表与[组合图教程](power-bi-visualization-combo-chart.md)中创建的图表相同。 随后你会对双 Y 轴设置格式。
 
 ### <a name="create-a-chart-with-two-y-axes"></a>创建具有两个 Y 轴的图表
-1. 新建折线图，按“时间 > FiscalMonth”跟踪“销售额 > 去年毛利率”。
+1. 新建折线图，按“时间 > FiscalMonth”  跟踪“销售额 > 去年毛利率”  。
 2. 通过选择省略号 (...)，然后选择“**按月进行排序**”来按月对视觉对象排序。
 
     ![](media/power-bi-visualization-customize-x-axis-and-y-axis/power-bi-line-chart.png)
@@ -90,7 +90,7 @@ ms.locfileid: "56223297"
 
     一月的 GM% 是 35%，在四月达到峰值 45%，在七月下降，在八月再次达到峰值。 去年和本年度的销售额是否会呈现类似模式？
      
-3. 将**本年度销售额 > 值**和**去年销售额**添加到折线图。 “去年毛利率”的比例尺（沿 0% 去年毛利率网格线的蓝线）比“销售额”的比例尺小得多，这样就更难比较了。 而且，Y 轴标签百分比很不合理。      
+3. 将**本年度销售额 > 值**和**去年销售额**添加到折线图。 “去年毛利率”  的比例尺（沿 0% 去年毛利率网格线的蓝线）比“销售额”  的比例尺小得多，这样就更难比较了。 而且，Y 轴标签百分比很不合理。      
 
     ![](media/power-bi-visualization-customize-x-axis-and-y-axis/flatline_new.png)
 

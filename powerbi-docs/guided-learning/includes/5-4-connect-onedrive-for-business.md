@@ -1,3 +1,11 @@
+---
+ms.openlocfilehash: cda7b38aa89e368028f966c3cd00c00ee2cb4e84
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61271226"
+---
 将 Excel 工作簿保存到 OneDrive 时，在 Power BI 和 Excel 之间实现无缝集成。
 
 ![](media/5-4-connect-onedrive-for-business/5-4_1.png)
