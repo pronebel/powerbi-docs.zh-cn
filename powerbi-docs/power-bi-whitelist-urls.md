@@ -11,26 +11,26 @@ ms.topic: conceptual
 ms.date: 10/22/2018
 ms.custom: seodec18
 ms.openlocfilehash: 07441bd0446e37353984efe97e435ac83d2c355d
-ms.sourcegitcommit: 8207c9269363f0945d8d0332b81f1e78dc2414b0
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/14/2019
-ms.locfileid: "56249059"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "60978364"
 ---
 # <a name="power-bi-urls-for-whitelisting"></a>列入允许列表的 Power BI URL
 
-Power BI 联机服务也称为 Power BI SaaS（服务型软件）应用程序，需要连接 Internet。 下面的终结点应可供使用 Power BI 联机服务的客户访问。
+Power BI 联机服务也称为 Power BI SaaS（服务型软件）应用程序，需要连接 Internet  。 下面的终结点应可供使用 Power BI 联机服务的客户访问。
 
-若要使用 Power BI 联机服务，必须有权连接到下表中标记为“必需”的终结点，以及链接站点上任何标记为“必需”的终结点。 如果指向外部站点的链接表示特定部分，只需查看该部分中的终结点即可。
+若要使用 Power BI 联机服务，必须有权连接到下表中标记为“必需”的终结点，以及链接站点上任何标记为“必需”的终结点   。 如果指向外部站点的链接表示特定部分，只需查看该部分中的终结点即可。
 
-为使特定功能正常运行，标记为“可选”的终结点也可能列入允许列表。
+为使特定功能正常运行，标记为“可选”的终结点也可能列入允许列表   。
 
 Power BI 联机服务只需针对列出的终结点打开 TCP 端口 443。
 
-通配符 (*) 表示根域下的所有级别，并且在信息不可用时，我们将使用 N/A。 “目标”列是包含 FQDN/域和外部站点链接的列表，其中包含更多终结点信息。
+通配符 (*) 表示根域下的所有级别，并且在信息不可用时，我们将使用 N/A。 “目标”列是包含 FQDN/域和外部站点链接的列表，其中包含更多终结点信息  。
 
 >[!Important]
->下表中的信息并不代表美国政府云、德国云或中国云 。
+>下表中的信息并不代表美国政府云、德国云或中国云 **   。
 
 ## <a name="authentication"></a>身份验证
 

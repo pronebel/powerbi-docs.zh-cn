@@ -10,10 +10,10 @@ ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 02/05/2019
 ms.openlocfilehash: a355f09984bc454f74dfab8ef137e29fd5aed110
-ms.sourcegitcommit: a284c38d42dd8042e468e10c0157f30918c2bdd1
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/16/2019
+ms.lasthandoff: 05/29/2019
 ms.locfileid: "65710395"
 ---
 # <a name="step-5-add-rows-to-a-power-bi-table"></a>步骤 5：向 Power BI 表中添加行
@@ -311,7 +311,7 @@ ms.locfileid: "65710395"
     }
 ```
 
-虽然我们指定在以上代码中 **_//Get 第一个 ID_**，但正确的做法是按名称搜索数据集。
+虽然我们指定在以上代码中 ** _//Get 第一个 ID_** ，但正确的做法是按名称搜索数据集。
 
 ## <a name="next-steps"></a>后续步骤
 [将数据推送到 Power BI 仪表板](walkthrough-push-data.md)  
