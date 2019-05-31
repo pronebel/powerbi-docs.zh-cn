@@ -1,3 +1,11 @@
+---
+ms.openlocfilehash: d600581b9d1df8c8436da45e9629fccb79873c21
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61260092"
+---
 正如我们所了解的，Power BI 中的常见工作流是在 Power BI Desktop 中创建报表、将其发布到 Power BI 服务，然后与其他人进行共享，让他们可以在服务中或在移动应用上查看到。
 
 有些人会在 Power BI 服务中开始，因此，让我们快速了解该服务，了解一种在 Power BI 中快速创建视觉对象的简单常用的方法： *内容包* 。

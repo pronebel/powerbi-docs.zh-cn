@@ -7,19 +7,18 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 2/9/2019
+ms.date: 05/28/2019
 ms.author: nikhilga
 LocalizationGroup: Get started
-ms.openlocfilehash: b65acda3ceb8d375cb34393828b74e191b2e5504
-ms.sourcegitcommit: 4aa99a8dde4e98909da888c151a71476f7bbfe81
-ms.translationtype: HT
+ms.openlocfilehash: 06ba5835a568b7158a204ea6676e92844d40414d
+ms.sourcegitcommit: 8bf2419b7cb4bf95fc975d07a329b78db5b19f81
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/26/2019
-ms.locfileid: "58489582"
----
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "66375262"
 ---
 # <a name="whats-new-in-the-power-bi-service"></a>Power BI 服务中的新功能
-请阅读此页，了解 Power BI 服务中的已知问题和最近发布的功能。 有关相关的“新增功能”的信息，请参阅：
+请阅读此页，了解 Power BI 服务中的已知问题和最近发布的功能  。 有关相关的“新增功能”的信息，请参阅：
 
 - [2018 年 10 月商业智能](https://docs.microsoft.com/business-applications-release-notes/October18/intelligence-platform/planned-features)发行说明（由 Microsoft 商务应用程序团队提供）：针对业务应用程序的最新更新。
 - [Power BI Desktop 中的新增功能](desktop-latest-update.md)  
@@ -31,12 +30,28 @@ ms.locfileid: "58489582"
 * [Microsoft Power BI (YouTube)](https://www.youtube.com/channel/UCy--PYvwBwAeuYaR8JLmrfg)
 * [Guy in a Cube (YouTube)](https://www.youtube.com/channel/UCFp1vaKzpfvoGai0vE5VJ0w)
 
-
-## <a name="march-2019"></a>2019 年 3 月
-* 正式发布适用于 Power BI Premium 的 Multi-Geo 功能。
-* 编辑和管理 Azure B2B 的 Power BI 内容支持。
+## <a name="may-2019"></a>2019 年 5
+* [自定义导航](service-create-distribute-apps.md)为 Power BI 应用。
+* 其他的附件 （PPTX、 XLSX、 DOCX、 CSV、 XML） 的可用类型分页报表中的电子邮件订阅。
 
 ## <a name="previous-months-2019"></a>前几个月 (2019)
+### <a name="april-2019"></a>2019 年 4 月
+* Power BI 的公开上市[数据流](service-dataflows-overview.md)。
+* 新的工作区体验的公开上市。
+* 法国和韩国的新 Power BI 区域。
+* 已更新的问与答仪表板的体验。
+* Azure Analysis services 中支持[分页报表](paginated-reports-report-builder-power-bi.md)。
+* 在 Power BI 应用中受支持的分页的报表。
+* [电子邮件订阅](https://powerbi.microsoft.com/en-us/blog/e-mail-subscriptions-for-paginated-reports-is-now-available/)与分页报表的 PDF 附件。
+* Power BI Premium 摘要和工作负荷度量值在管理门户中支持
+* [查询缓存](power-bi-query-caching.md)Power BI Premium 中提供。
+* 公开上市[Power BI 主页](https://powerbi.microsoft.com/en-us/blog/announcing-power-bi-home-general-availability-ga-roadmap/)。
+
+### <a name="march-2019"></a>2019 年 3 月
+* 正式发布适用于 Power BI Premium 的 Multi-Geo 功能。
+* 编辑和管理 Azure B2B 的 Power BI 内容支持。
+* 公共预览版的只读[XMLA 终结点](https://powerbi.microsoft.com/en-us/blog/power-bi-open-platform-connectivity-with-xmla-endpoints-public-preview/)。
+
 ### <a name="february-2019"></a>2019 年 2 月
 * [容量监视应用](https://powerbi.microsoft.com/blog/new-monitoring-capabilities-for-power-bi-premium-capacities/)中的工作负载和活动的数据集大小指标。
 * 将 Power BI 报表导出为 PDF。
@@ -72,8 +87,8 @@ ms.locfileid: "58489582"
 
 ### <a name="september-2018"></a>2018 年 9 月
 * Power BI 服务中的[仪表板评论](https://powerbi.microsoft.com/blog/announcing-dashboard-comments-in-power-bi/)。
-* [Power BI 主页和全局搜索](https://powerbi.microsoft.com/en-us/blog/introducing-power-bi-home-and-global-search/)的公开预览版。
-* [容量监视应用](https://powerbi.microsoft.com/blog/new-monitoring-capabilities-for-power-bi-premium-capacities/)中的[监视查询](https://powerbi.microsoft.com/en-us/blog/query-metrics-available-in-power-bi-premium-capacity-metrics-app/)能力。
+* 公共预览版[主页 Power BI 和全局搜索](https://powerbi.microsoft.com/en-us/blog/introducing-power-bi-home-and-global-search/)。
+* 能够[监视查询](https://powerbi.microsoft.com/en-us/blog/query-metrics-available-in-power-bi-premium-capacity-metrics-app/)中[容量监视应用](https://powerbi.microsoft.com/blog/new-monitoring-capabilities-for-power-bi-premium-capacities/)。
 
 ### <a name="august-2018"></a>2018 年 8 月
 * Power BI Premium 的[容量监视应用](https://powerbi.microsoft.com/blog/new-monitoring-capabilities-for-power-bi-premium-capacities/)。
@@ -194,7 +209,7 @@ ms.locfileid: "58489582"
 * 使用此 Power BI 内容包研究 [Jira 项目管理数据](https://powerbi.microsoft.com/blog/explore-your-jira-data-with-power-bi/)
 * 使用此 Power BI 内容包研究 [Insightcentr 数据](https://powerbi.microsoft.com/blog/explore-your-insightcentr-data-with-power-bi/)
 * 使用[信息图设计器自定义视觉对象](https://powerbi.microsoft.com/blog/quickly-create-infographics-with-the-infographic-designer-custom-visual-for-power-bi/)快速创建信息图
-* 内部预览：[Azure 流分析](https://powerbi.microsoft.com/blog/announcing-private-preview-of-azure-stream-analytics-outputting-to-power-bi-streaming-datasets/)输出 Power BI 流数据集，可用来创建流磁贴。
+* 预览：[Azure 流分析](https://powerbi.microsoft.com/blog/announcing-private-preview-of-azure-stream-analytics-outputting-to-power-bi-streaming-datasets/)输出 Power BI 流数据集，可用来创建流磁贴。
 * 预览：将 [ESRI ArcGIS 地图可视化效果](https://powerbi.microsoft.com/blog/arcgis-maps-for-powerbi-available-in-powerbi-service/)添加到报表和仪表板中
 
 ### <a name="october-2016"></a>2016 年 10 月
@@ -222,7 +237,7 @@ ms.locfileid: "58489582"
 有关所有详细信息，[请访问 Power BI 团队博客](https://powerbi.microsoft.com/blog/power-bi-july-update-for-service-and-mobile/)
 
 ### <a name="june-2016"></a>2016 年 6 月
-***快速见解***
+***Quick Insights (快速见解)***
 
 * 带有复杂筛选器的“快速见解”：我们非常高兴地宣布，局限于单个磁贴的“快速见解”现在能使用复杂筛选器了。
 
@@ -333,9 +348,9 @@ ms.locfileid: "58489582"
 * 全屏模式：展开磁贴以填充整个画布，并通过选择**适应宽度**删除多余的空白区域
 * 使用磁贴流使磁贴自动向画布的左上角对齐。
 
-***快速见解***
+***Quick Insights (快速见解)***
 
-* 现在通过趋势和相关性洞察的趋势线可以更加容易地查看数据中的模式。
+* 趋势和相关见解，现可趋势线可以更加轻松地查看数据中的模式。
 
 ***问答***
 
@@ -487,7 +502,7 @@ Power BI 团队在整个假期都在忙。 有关所有详细信息，[请访问
 * [可视化 Power BI 中的 VMob 数据](http://blogs.msdn.com/b/powerbi/archive/2015/11/25/visualize-your-vmob-data-in-power-bi.aspx)
 * [Power BI 与 Cortana 的集成](http://blogs.msdn.com/b/powerbi/archive/2015/12/01/announcing-power-bi-integration-with-cortana-and-new-ways-to-quickly-find-insights-in-your-data.aspx)
 * [Power BI 企业网关的预览](http://blogs.msdn.com/b/powerbi/archive/2015/12/02/announcing-preview-of-power-bi-gateway-for-enterprise-deployments.aspx)
-* 推出新的内容包：[Power BI 仪表板上的必应的搜索分析](http://blogs.msdn.com/b/powerbi/archive/2015/12/02/search-analytics-from-bing-on-your-power-bi-dashboards.aspx)
+* 引入了新的内容包：[Power BI 仪表板上的必应的搜索分析](http://blogs.msdn.com/b/powerbi/archive/2015/12/02/search-analytics-from-bing-on-your-power-bi-dashboards.aspx)
 * 新的针对开发人员的增强功能：[两个新的 API 和更方便的应用程序注册](http://blogs.msdn.com/b/powerbi/archive/2015/12/02/power-bi-for-developers-reports-api-and-a-simple-app-registration-experience.aspx)
 
 **2015 年 11 月 24 日**
@@ -699,15 +714,15 @@ Power BI 团队在整个假期都在忙。 有关所有详细信息，[请访问
 
 **2015 年 4 月 15 日**
 
-* 你现在可以使用我们的新内容包可视化和浏览 **Google Analytics** 数据！ 凭借 Google Analytics 内容包你将获得仪表板、报表和数据集，使你能够深入了解过去 6 个月你的网站的使用情况。 你可以阅读[我们的博客文章](http://blogs.msdn.com/b/powerbi/archive/2015/04/15/visualize-and-explore-your-google-analytics-data-with-power-bi.aspx)和[文档](service-connect-to-google-analytics.md)来获取更多信息。
+* 你现在可以使用我们的新内容包可视化和浏览 **Google Analytics** 数据！ 凭借 Google Analytics 内容包你将获得仪表板、报表和数据集，使你能够深入了解过去 6 个月你的网站的使用情况。 可以读取[我们的博客文章](http://blogs.msdn.com/b/powerbi/archive/2015/04/15/visualize-and-explore-your-google-analytics-data-with-power-bi.aspx)。
 * 除包含问答和报表中的 KPI 和图像的卡片之外，你现在可以**固定所有卡片**。
 * 通过在查询的末尾使用短语“as card”，你可以**在问答中使用卡片**
 
 **2015 年 3 月 31 日**
 
-* GitHub 仪表板新增了关注社区构建的视觉对象，不仅优化了计算，还改进了布局
-* SendGrid 仪表板新增了视觉对象和布局，有助于你获取更有意义的见解
-* 现在可以在查询的末尾使用短语“as treemap”，从而在问答中使用树状图
+* GitHub  仪表板新增了关注社区构建的视觉对象，不仅优化了计算，还改进了布局
+* SendGrid  仪表板新增了视觉对象和布局，有助于你获取更有意义的见解
+* 现在可以在查询的末尾使用短语“as treemap”，从而在问答中使用树状图 
 * 你现在可以固定问答和报表中的**树状图** 
 * 修复了大量 bug！
 
