@@ -8,26 +8,23 @@ featuredvideoid: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 12/20/2017
+ms.date: 05/29/2019
 ms.author: maggies
 LocalizationGroup: Ask questions of your data
-ms.openlocfilehash: 5aac4b32fc90720af4954dff2afa61243b1f1587
-ms.sourcegitcommit: 8207c9269363f0945d8d0332b81f1e78dc2414b0
-ms.translationtype: HT
+ms.openlocfilehash: 449d47606829c8555e0b64e7f07d1b414b99fea7
+ms.sourcegitcommit: 8bf2419b7cb4bf95fc975d07a329b78db5b19f81
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/14/2019
-ms.locfileid: "56249036"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "66375214"
 ---
 # <a name="troubleshoot-cortana-for-power-bi"></a>对用于 Power BI 的 Cortana 进行故障排除
-本文是系列文章中的一部分。 如果你尚未执行上述操作，我们建议阅读以下三篇文章。
+本文是系列文章中的一部分。 
 
-**文章 1**：[了解 Cortana 和 Power BI 如何协同工作来搜索 Power BI 仪表板和报表](service-cortana-intro.md)
+> [!IMPORTANT]
+> Cortana 集成 Power BI 中已弃用。 从 6 月 11 日，Cortana 将不再适用于任何仪表板和报表中。
 
-**文章 2**：[对于搜索报表：启用 Cortana - Power BI - Windows 集成](service-cortana-enable.md)
-
-**文章 3**：[对于搜索报表：创建特殊的 *Cortana 回复卡*](service-cortana-answer-cards.md)
-
-如果在将 Cortana 与 Power BI 集成时仍存在问题，下面正好要介绍如何解决这一问题。 请按照以下步骤来诊断和修复问题。
+如果遇到问题 Cortana 与 Power BI 集成，您找对了正确的位置。 请按照以下步骤来诊断和修复问题。
 
 ## <a name="why-doesnt-cortana-find-answers-from-my-power-bi-reports-or-dashboards"></a>为什么 Cortana 从我的 Power BI 报表或仪表板找不到答案？
 1. 是否有 Power BI 帐户？  如果没有，请[注册免费试用版](https://powerbi.microsoft.com/get-started/)。
@@ -54,7 +51,7 @@ ms.locfileid: "56249036"
 12. 你的 Power BI 管理员可以“选择退出”。 请与你的管理员确认是否属于这种情况。
 
 ## <a name="reports-only-why-doesnt-cortana-find-answers-from-my-power-bi-reports"></a>仅限报表：为什么 Cortana 从我的 Power BI 报表找不到答案
-1. 如果你正在报表中寻找答案，你是否有包含 Cortana 回复卡的任何报表？ 回复卡是 Cortana 能在 Power BI 报表中找到答案的唯一途径。  通过阅读[在 Power BI 服务和 Power BI Desktop 中创建 Cortana 回复卡](service-cortana-answer-cards.md)，了解如何创建回复卡。
+1. 如果你正在报表中寻找答案，你是否有包含 Cortana 回复卡的任何报表  ？ 回复卡是 Cortana 能在 Power BI 报表中找到答案的唯一途径。  通过阅读[在 Power BI 服务和 Power BI Desktop 中创建 Cortana 回复卡](service-cortana-answer-cards.md)，了解如何创建回复卡。
 2. 是否运行的是 Windows 版本 1511 或更高版本？  通过打开 Windows 设置，然后选择“**系统 > 关于**”进行查找。 如果不是，请更新你的 Windows 版本。
 3. 你的 Windows 和 Power BI 帐户是否已关联？ 这可能会造成混淆。 按照[为 Power BI 启用 Cortana](service-cortana-enable.md#add-your-power-bi-credentials-to-windows) 中的说明操作。
 4. 已为 Cortana 启用基础数据集？ 或许某个同事已共享她已为 Cortana 启用的数据集。 但如果没有，请[了解如何自行为 Cortana 启用数据集](service-cortana-enable.md)。 这一操作快速而简单。
@@ -75,21 +72,21 @@ ms.locfileid: "56249036"
    app.powerbi.com/cortana/test
 
    ![打开 Cortana 工具](media/service-cortana-troubleshoot/power-bi-cortana-tool2.png)
-3. 在“查询文本”字段中，要对报表进行故障排除，请严格按 Power BI 选项卡中显示的 Cortana 回复卡名称键入其名称。
+3. 在“查询文本”  字段中，要对报表进行故障排除，请严格按 Power BI 选项卡中显示的 Cortana 回复卡名称键入其名称。
 
    ![回复卡](media/service-cortana-troubleshoot/power-bi-answer-card-new.png)
 
    <br>
 
    ![Power BI 中的“回复卡”选项卡](media/service-cortana-troubleshoot/power-bi-answer-card2.png)
-4. 有时，在第一次将内容键入到“**查询文本**”字段时，不会执行任何操作。 将其当作启动系统；让疑难解答工具知道应该启动了。 再次剪切和粘贴或重新键入到“**查询文本**”字段。 在本示例中，我们回复卡的名称是**Cortana 存储**。 将 **Cortana 商店**粘贴或键入到工具中，生成在 **解释** 字段中显示的单个结果。 单击可查看 Cortana 窗口中显示的回复卡，本示例中为“Cortana 商店”。
+4. 有时，在第一次将内容键入到“**查询文本**”字段时，不会执行任何操作。 将其当作启动系统；让疑难解答工具知道应该启动了。 再次剪切和粘贴或重新键入到“**查询文本**”字段。 在本示例中，我们回复卡的名称是**Cortana 存储**。 将 **Cortana 商店**粘贴或键入到工具中，生成在 **解释** 字段中显示的单个结果。 单击可查看 Cortana 窗口中显示的回复卡，本示例中为“Cortana 商店”  。
 
    ![“查询文本”字段中的 Cortana 商店](media/service-cortana-troubleshoot/power-bi-utterance.png)
 
    我们已得到一个结果，现在知道 Cortana **已**在 Power BI 中启用。 这可减少 Windows 端或 Cortana 语言设置或为 Cortana 启用超过 100 个数据集可能出现的问题。
 
 ### <a name="having-trouble-retrieving-answers-from-a-dashboard"></a>从仪表板中检索答案时遇到问题？
-要查找已与你共享的仪表板？  打开“Power BI”> **与我共享**，并找到该仪表板的名称。  然后将该名称键入到“查询文本”字段。
+要查找已与你共享的仪表板？  打开“Power BI”> **与我共享**，并找到该仪表板的名称。  然后将该名称键入到“查询文本”字段。 
 
 ![在 Power BI 中打开“与我共享”](media/service-cortana-troubleshoot/power-bi-cortana-shared-with-me.png)
 

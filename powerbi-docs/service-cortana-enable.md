@@ -6,23 +6,21 @@ manager: kfile
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 12/20/2017
+ms.date: 05/29/2019
 ms.author: maggies
 LocalizationGroup: Ask questions of your data
-ms.openlocfilehash: ff99fc731b5388acd4dbb7c98fe13b227e7d5789
-ms.sourcegitcommit: 5e83fa6c93a0bc6599f76cc070fb0e5c1fce0082
-ms.translationtype: HT
+ms.openlocfilehash: 584dacbb3823f1a7c2475c780124985992a4b1d4
+ms.sourcegitcommit: 8bf2419b7cb4bf95fc975d07a329b78db5b19f81
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/13/2019
-ms.locfileid: "56216748"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "66375162"
 ---
 # <a name="enable-cortana-to-access-power-bi-reports-and-their-underlying-datasets"></a>使 Cortana 能够访问 Power BI 报表（及其基础数据集）
 你已阅读 [Cortana 和 Power BI 简介](service-cortana-intro.md)（如果未阅读，请先阅读简介，然后再返回此步骤）。 并且，现在想要自己尝试一下。  在 Cortana 中使用自然语言提问，并从存储在 Power BI 报表的数据中找到答案之前，有几个要求需要注意。 具体而言，需要执行以下操作。
 
-> [!NOTE]
-> 如果你尝试预览 Cortana 和 Power BI 仪表板，则可以跳过本文的其余部分。 无需对 Cortana 进行任何设置即可搜索 Power BI 仪表板。
-> 
-> 
+> [!IMPORTANT]
+> Cortana 集成 Power BI 中已弃用。 从 6 月 11 日，Cortana 将不再适用于任何仪表板和报表中。
 
 在 Power BI 服务中
 
@@ -38,16 +36,16 @@ ms.locfileid: "56216748"
 
 将需要登录 Power BI 服务（而不是 Power BI Desktop），并对希望 Cortana 能够访问的每个数据集重复这些步骤。
 
-1. 确定要启用的数据集。 从报表内容列表中，选择你想要 Cortana 访问的报表，并选择“相关视图”图标 ![](media/service-cortana-enable/power-bi-cortana-view-related-icon.png)。
+1. 确定要启用的数据集。 从报表内容列表中，选择你想要 Cortana 访问的报表，并选择“相关视图”  图标 ![](media/service-cortana-enable/power-bi-cortana-view-related-icon.png)。
    
     ![查看相关内容](media/service-cortana-enable/power-bi-view-related.png)
-2. 与此报表关联的数据集是 Contoso 销售额。
+2. 与此报表关联的数据集是 Contoso 销售额  。
    
     ![Contoso 销售额数据集](media/service-cortana-enable/power-bi-identify-dataset.png)
-3. 在数据集名称的右侧，选择省略号 (...) >“设置”。  
+3. 在数据集名称的右侧，选择省略号 (...) >“设置”  。  
    
     ![选择“设置”](media/service-cortana-enable/power-bi-settings-cortana.png)
-4. 选择“问答和 Cortana” > “允许 Cortana 访问此数据集” > “应用”。
+4. 选择“问答和 Cortana”   > “允许 Cortana 访问此数据集”   > “应用”  。
    
    ![Cortana 访问数据集](media/service-cortana-enable/power-bi-cortana-enable-new.png)
    
@@ -63,19 +61,19 @@ ms.locfileid: "56216748"
 ## <a name="add-your-power-bi-credentials-to-windows"></a>将 Power BI 凭据添加到 Windows
 需要运行 Windows 10 版本 1511 或更高版本。
 
-1. 确定正在运行的 Windows 10 版本。 打开“设置”。
+1. 确定正在运行的 Windows 10 版本。 打开“设置”。 
     ![打开“Windows 设置”](media/service-cortana-enable/power-bi-cortana-windows.png)
 
-    然后选择“系统”>“关于”。 屏幕底部会显示“Windows 规范”>“版本”
+    然后选择“系统”>“关于”  。 屏幕底部会显示“Windows 规范”>“版本” 
 
    * 如果安装有 Windows 10 版本 1511（Windows 10 的 2015 年 11 月更新程序）至版本 1607，请添加工作或学校帐户以及 Microsoft 帐户（完成下面的第 2 和 3 步）。
    * 如果安装有 Windows 10 版本 1607（Windows 10 的 2016 年 7 月更新程序）或更高版本，请添加工作或学校帐户（仅完成下面的第 2 步）。
 1. 为 Cortana 添加工作或学校帐户。
    
-   * 打开“设置” > “帐户”。
+   * 打开“设置”   > “帐户”  。
      
        ![设置 - 帐户](media/service-cortana-enable/power-bi-windows-accounts.png)
-   * 滚动到底部并选择“添加工作或学校帐户”。 或者在“帐户”页中选择“访问工作或学校帐户”>“连接”。
+   * 滚动到底部并选择“添加工作或学校帐户”  。 或者在“帐户”页中选择“访问工作或学校帐户”>“连接”   。
      
      ![添加工作帐户](media/service-cortana-enable/power-bi-add-work-account2.png)
 
