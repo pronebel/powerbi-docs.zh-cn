@@ -10,12 +10,12 @@ ms.subservice: powerbi-gateways
 ms.topic: conceptual
 ms.date: 10/15/2018
 LocalizationGroup: Gateways
-ms.openlocfilehash: bfd40c991f461e57f2f1d2de8a46b3627aa7fbc1
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
-ms.translationtype: HT
+ms.openlocfilehash: 9e91c162c9b748fd0ef122aed8fc7ffee6dba5fc
+ms.sourcegitcommit: c539726c9c180e899a8a34443e3fda2b9848beb2
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54274205"
+ms.lasthandoff: 05/31/2019
+ms.locfileid: "66448288"
 ---
 # <a name="overview-of-single-sign-on-sso-for-gateways-in-power-bi"></a>Power BI 中网关的单一登录 (SSO) 概述
 
@@ -29,6 +29,7 @@ ms.locfileid: "54274205"
 * Teradata ([Kerberos](service-gateway-sso-kerberos.md))
 * Spark ([Kerberos](service-gateway-sso-kerberos.md))
 * Impala ([Kerberos](service-gateway-sso-kerberos.md))
+* SSO 也是可能[其他数据源](desktop-directquery-data-sources.md#single-sign-on-sso-for-directquery-sources)而无需使用数据网关
 
 当用户与 Power BI 服务中的 DirectQuery 报表进行交互时，每个交叉筛选、切片、排序和报表编辑操作都可能会导致针对基础的本地数据源执行实时查询。  为数据源配置了 SSO 时，查询将以与 Power BI 交互的用户标识（即通过 Web 体验或 Power BI 移动应用）执行。 因此，每个用户都可以精确地看到自己在基础数据源中拥有权限的数据 - 配置单一登录后，不同用户之间没有共享的数据缓存。
 
@@ -43,11 +44,11 @@ ms.locfileid: "54274205"
 
 以下是有关这些步骤的其他详细信息：
 
-1. 对于每个查询，当向配置的网关发送查询请求时，Power BI 服务包括用户主体名称 (UPN)。
+1. 对于每个查询，当向配置的网关发送查询请求时，Power BI 服务  包括用户主体名称  (UPN)。
 
 2. 网关需要将 Azure Active Directory UPN 映射到本地 Active Directory 标识。
 
-   a.  如果已配置 Azure AD DirSync（也称为“Azure AD Connect”），则会自动在网关中进行映射。
+   a.  如果已配置 Azure AD DirSync（也称为“Azure AD Connect”），则会自动在网关中进行映射  。
 
    b.  或者，网关可以通过在本地 Active Directory 域进行查找的方式来查找 Azure AD UPN，并将其映射到本地用户。
 
