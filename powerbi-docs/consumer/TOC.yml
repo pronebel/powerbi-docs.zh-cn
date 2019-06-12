@@ -176,12 +176,20 @@
           items:
             - name: 开始使用 iOS 应用
               href: mobile/mobile-iphone-app-get-started.md
+            - name: 使用 Face ID、Touch ID 或密码进行保护
+              href: mobile/mobile-ios-native-secure-access.md
             - name: iOS 移动应用中的问答虚拟分析师
               href: mobile/mobile-apps-ios-qna.md
+            - name: 使用 Siri 快捷方式的 Power BI 移动应用集成
+              href: mobile/mobile-apps-iOS-siri-Shortcuts.md
+            - name: iOS 设备搜索集成
+              href: mobile/mobile-apps-iOS-search-integration.md
             - name: Power BI Apple Watch 应用
               href: mobile/mobile-apple-watch.md
             - name: 使用 iPhone 上的应用扫描条形码
               href: mobile/mobile-apps-scan-barcode-iphone.md
+            - name: 使用移动设备管理进行配置
+              href: mobile/mobile-app-configuration.md
         - name: Android 设备
           items:
             - name: Android 应用入门

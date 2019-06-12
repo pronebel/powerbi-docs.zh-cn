@@ -681,9 +681,9 @@
               href: service-dataflows-configure-workspace-storage-settings.md
             - name: 将 CDM 文件夹添加到 Power BI 作为数据流（预览）
               href: service-dataflows-add-cdm-folder.md
-            - name: 在 Power BI （预览）中集成机器学习
+            - name: 在 Power BI 中集成机器学习
               href: service-machine-learning-integration.md
-            - name: 在 Power BI 中使用认知服务（预览版）
+            - name: 在 Power BI 中使用认知服务
               href: service-cognitive-services.md
             - name: Power BI 中的自动机器学习（预览）
               href: service-machine-learning-automated.md
@@ -745,8 +745,6 @@
               href: service-admin-troubleshooting-power-bi-personal-gateway.md
             - name: 刷新不支持的数据源故障排除
               href: service-admin-troubleshoot-unsupported-data-source-for-refresh.md
-            - name: 排查嵌套值作为文本返回这一问题
-              href: service-troubleshooting-nested-values.md
             - name: Azure SQL 数据库计划刷新中的故障排除
               href: service-admin-troubleshooting-scheduled-refresh-azure-sql-databases.md
             - name: 错误：我们在你的 Excel 工作簿中找不到任何数据
@@ -927,6 +925,8 @@
           href: service-premium-incremental-refresh.md
         - name: 配置多地理位置
           href: service-admin-premium-multi-geo.md
+        - name: 引入你自己的加密密钥
+          href: service-encryption-byok.md
         - name: 重新开始高级容量
           href: service-admin-premium-restart.md
         - name: 使用客户端应用程序和工具连接到数据集
