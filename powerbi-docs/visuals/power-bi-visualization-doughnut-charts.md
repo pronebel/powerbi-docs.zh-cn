@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 09/24/2018
+ms.date: 06/11/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 4c69113d245d47a4d2702f16f6cea21a6cbd3b0b
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: cd78fc1411f1eb4e9148bb12ddf6d9805954cfd7
+ms.sourcegitcommit: 797bb40f691384cb1b23dd08c1634f672b4a82bb
+ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61136030"
+ms.lasthandoff: 06/12/2019
+ms.locfileid: "66839712"
 ---
 # <a name="doughnut-charts-in-power-bi"></a>Power BI 中的圆环图
 圆环图类似于饼图，因为它显示部分与整体的关系。 唯一的区别是中心为空，因而有空间可用于标签或图标。

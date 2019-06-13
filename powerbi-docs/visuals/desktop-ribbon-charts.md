@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 01/30/2019
+ms.date: 06/10/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 08a2de32b092ba24b66ddd9f173be1eaea8819ab
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 3400071c6b8cee472bb61475e6d3482189680563
+ms.sourcegitcommit: 797bb40f691384cb1b23dd08c1634f672b4a82bb
+ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61394382"
+ms.lasthandoff: 06/12/2019
+ms.locfileid: "66840110"
 ---
 # <a name="use-ribbon-charts-in-power-bi"></a>在 Power BI 中使用功能区图表
 可以使用功能区图表来直观显示数据，并快速发现哪个数据类别具有最高排名（最大值）。 功能区图表能够高效地显示排名变化，并且会在每个时间段内始终将最高排名（值）显示在最顶部。 
@@ -27,7 +27,7 @@ ms.locfileid: "61394382"
 
 1. 若要创建功能区图表，请在“可视化效果”  面板中选择“功能区图表”  。
 
-    ![可视化效果模板](media/desktop-ribbon-charts/ribbon-charts_02.png)
+    ![可视化效果模板](media/desktop-ribbon-charts/power-bi-template.png)
 
     功能区图表使用功能区在可视化时间连续区间内连接一个数据类别，从而使你可以看到某个给定的类别在图表的 x 轴（通常是时间线）范围内是如何排名的。
 

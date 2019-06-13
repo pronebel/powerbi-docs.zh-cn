@@ -1,5 +1,5 @@
 ---
-title: 将分页报表发布到 Power BI 服务（预览）
+title: 将分页报表发布到 Power BI 服务
 description: 本教程介绍如何通过从本地计算机上传分页报表将其发布到 Power BI 服务。
 author: maggiesMSFT
 ms.author: maggies
@@ -9,14 +9,14 @@ ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: conceptual
 ms.date: 11/05/2018
-ms.openlocfilehash: 93b712d385b78ea806e57769da72bdf41fbaefc3
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 1e5f4a4fda8c6d11ead487ce2891e5c085463b75
+ms.sourcegitcommit: 797bb40f691384cb1b23dd08c1634f672b4a82bb
+ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61423927"
+ms.lasthandoff: 06/12/2019
+ms.locfileid: "66839594"
 ---
-# <a name="publish-a-paginated-report-to-the-power-bi-service-preview"></a>将分页报表发布到 Power BI 服务（预览）
+# <a name="publish-a-paginated-report-to-the-power-bi-service"></a>将分页报表发布到 Power BI 服务
 
 本文介绍如何通过从本地计算机上传分页报表将其发布到 Power BI 服务。 只要工作区位于高级容量中，就可以将分页报表上传到“我的工作区”或任何其他工作区。 请查找工作区名称旁边的钻石型图标 ![Power BI 高级容量钻石形图标](media/paginated-reports-save-to-power-bi-service/premium-diamond.png) 。 
 
@@ -89,5 +89,5 @@ ms.locfileid: "61423927"
 ## <a name="next-steps"></a>后续步骤
 
 - [在 Power BI 服务中查看分页报表](paginated-reports-view-power-bi-service.md)
-- [Power BI Premium 中的分页报表是什么？（预览）](paginated-reports-report-builder-power-bi.md)
+- [Power BI Premium 中的分页报表是什么？](paginated-reports-report-builder-power-bi.md)
 

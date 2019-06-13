@@ -2,19 +2,19 @@
 title: 加密凭据
 description: 演练 - 加密本地网关数据源的凭据
 author: mahirdiab
-ms.author: mahirdiab
+ms.author: madia
 manager: eligr
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 02/04/2019
-ms.openlocfilehash: 6229d65e7ef28d0c9b6013166cb504cfb976f46d
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 0952867ef9660a9dab6fc532df055ed619bf47fc
+ms.sourcegitcommit: 81ba3572531cbe95ea0b887b94e91f94050f3129
+ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61341671"
+ms.lasthandoff: 06/06/2019
+ms.locfileid: "66750928"
 ---
 # <a name="encrypt-credentials"></a>加密凭据
 

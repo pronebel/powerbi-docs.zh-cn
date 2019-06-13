@@ -1,5 +1,5 @@
 ---
-title: 在 Power BI 服务中查看分页报表（预览）
+title: 在 Power BI 服务中查看分页报表
 description: 本教程介绍如何在 Power BI 服务中查看分页报表。
 author: maggiesMSFT
 ms.author: maggies
@@ -9,14 +9,14 @@ ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: conceptual
 ms.date: 11/05/2018
-ms.openlocfilehash: 8a87cb292da1a1fb3f4fc3e14d569ad8c97c60b6
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: f80b13ccd1393e98199acbcaabfbf80ad63707c8
+ms.sourcegitcommit: 797bb40f691384cb1b23dd08c1634f672b4a82bb
+ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "64769675"
+ms.lasthandoff: 06/12/2019
+ms.locfileid: "66839572"
 ---
-# <a name="view-a-paginated-report-in-the-power-bi-service-preview"></a>在 Power BI 服务中查看分页报表（预览）
+# <a name="view-a-paginated-report-in-the-power-bi-service"></a>在 Power BI 服务中查看分页报表
 
 本文介绍在 Power BI 服务中查看分页报表的方法。 分页报表是在报表生成器中创建并上传到高级容量中的任何工作区的报表。 请查找工作区名称旁边的钻石型图标 ![Power BI 高级容量钻石形图标](media/paginated-reports-save-to-power-bi-service/premium-diamond.png) 。 
 
@@ -55,4 +55,4 @@ ms.locfileid: "64769675"
 
 ## <a name="next-steps"></a>后续步骤
 
-[Power BI Premium 中的分页报表是什么？（预览）](paginated-reports-report-builder-power-bi.md)
+[Power BI Premium 中的分页报表是什么？](paginated-reports-report-builder-power-bi.md)

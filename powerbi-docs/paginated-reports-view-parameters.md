@@ -1,5 +1,5 @@
 ---
-title: 查看 Power BI 服务中分页报表的参数（预览）
+title: 查看 Power BI 服务中分页报表的参数
 description: 本文介绍了如何与 Power BI 服务中分页报表的参数进行交互。
 author: maggiesMSFT
 ms.author: maggies
@@ -9,14 +9,14 @@ ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: conceptual
 ms.date: 11/05/2018
-ms.openlocfilehash: ea186b5fa3bbbe7968c386604066f91b90ec5821
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 100d8b5d25f7d844ea4f44d63a4d2cb9737f57a9
+ms.sourcegitcommit: 797bb40f691384cb1b23dd08c1634f672b4a82bb
+ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61422190"
+ms.lasthandoff: 06/12/2019
+ms.locfileid: "66839520"
 ---
-# <a name="view-parameters-for-paginated-reports-in-the-power-bi-service-preview"></a>查看 Power BI 服务中分页报表的参数（预览）
+# <a name="view-parameters-for-paginated-reports-in-the-power-bi-service"></a>查看 Power BI 服务中分页报表的参数
 
 本文介绍了如何与 Power BI 服务中分页报表的参数进行交互。  报表参数提供了一种筛选报表数据的方法。 参数提供可用值的列表，你可以选择一个或多个值。 有时参数具有默认值，有时你必须先选择一个值才能看到报表。  
 
