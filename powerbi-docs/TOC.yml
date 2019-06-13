@@ -257,8 +257,6 @@
               href: desktop-add-column-from-example.md
             - name: 添加自定义列
               href: desktop-add-custom-column.md
-            - name: 在 Power BI 中创建响应式视觉对象
-              href: visuals/desktop-create-responsive-visuals.md
             - name: 在 Power BI Desktop 中使用内联层次结构标签
               href: desktop-inline-hierarchy-labels.md
             - name: 使用数字范围切片器
@@ -689,24 +687,6 @@
               href: service-machine-learning-automated.md
         - name: Power BI 中的分页报表
           items:
-            - name: 什么是分页报表？ （预览）
-              href: paginated-reports-report-builder-power-bi.md
-            - name: 分页报表常见问题解答（预览）
-              href: paginated-reports-faq.md
-            - name: 创建分页报表并进行上传（预览）
-              href: paginated-reports-quickstart-aw.md
-            - name: 处理报表设计视图（预览）
-              href: paginated-reports-report-design-view.md
-            - name: 直接在分页报表中输入数据（预览）
-              href: paginated-reports-enter-data.md
-            - name: 创建嵌入的数据源（预览）
-              href: paginated-reports-embedded-data-source.md
-            - name: 创建嵌入的数据集（预览）
-              href: paginated-reports-create-embedded-dataset.md
-            - name: 创建参数（预览）
-              href: paginated-reports-parameters.md
-            - name: 发布分页报表（预览）
-              href: paginated-reports-save-to-power-bi-service.md
             - name: 查看分页报表（预览）
               href: paginated-reports-view-power-bi-service.md
             - name: 与参数进行交互（预览）
@@ -931,6 +911,52 @@
           href: service-admin-premium-restart.md
         - name: 使用客户端应用程序和工具连接到数据集
           href: service-premium-connect-tools.md
+- name: Power BI 分页报表生成器
+  items:
+    - name: 概述
+      items:
+        - name: 什么是分页报表？
+          href: paginated-reports-report-builder-power-bi.md
+        - name: Power BI 中的报表生成器
+          href: report-builder-power-bi.md
+    - name: 教程
+      items:
+        - name: 创建分页报表并上传 Interact
+          href: paginated-reports-quickstart-aw.md
+    - name: 概念
+      items:
+        - name: 处理报表设计视图
+          href: paginated-reports-report-design-view.md
+        - name: 规划报表
+          href: report-builder-planning-report.md
+        - name: 报表生成器数据
+          href: report-builder-data.md
+        - name: 设计提示
+          href: report-builder-design-tips.md
+        - name: 表、矩阵、列表
+          href: report-builder-tables-matrices-lists.md
+        - name: 参数
+          href: report-builder-parameters.md
+        - name: 表达式
+          href: report-builder-expressions.md
+        - name: 表达式示例
+          href: report-builder-expression-examples.md
+        - name: 预览报表
+          href: report-builder-previewing-reports.md
+        - name: 分页报表常见问题解答
+          href: paginated-reports-faq.md
+    - name: 操作方法
+      items:
+        - name: 直接在分页报表中输入数据
+          href: paginated-reports-enter-data.md
+        - name: 创建嵌入的数据源
+          href: paginated-reports-embedded-data-source.md
+        - name: 创建嵌入的数据集
+          href: paginated-reports-create-embedded-dataset.md
+        - name: 创建参数
+          href: paginated-reports-parameters.md
+        - name: 发布分页报表
+          href: paginated-reports-save-to-power-bi-service.md
 - name: 面向开发人员的 Power BI
   items:
     - name: 开发人员可以使用 Power BI 做什么
