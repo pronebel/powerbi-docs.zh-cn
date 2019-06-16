@@ -27,52 +27,52 @@ ms.locfileid: "61386284"
 
 名称  |类型  |说明  |只读  |必填
 ---------|---------|---------|---------|---------
-ID     |  Guid       | 数据集系统范围内的唯一标识符。        | True        | False        
-名称     | 字符串        | 用户定义的数据集的名称。        | False        | True        
-表     | Table[]        | 表的集合。        |  False       | False        
-关系     | Relationship[]        | 表之间的关系的集合。        | False        |  False  
-defaultMode     | 字符串        | 确定数据集推送、 流式处理，或两者，值为"推送"和"流式处理。"         | False        |  False
+id     |  Guid       | 数据集系统范围内的唯一标识符。        | True        | False        
+name     | String        | 用户定义的数据集的名称。        | False        | True        
+tables     | Table[]        | 表的集合。        |  False       | False        
+relationships     | Relationship[]        | 表之间的关系的集合。        | False        |  False  
+defaultMode     | String        | 确定数据集推送、 流式处理，或两者，值为"推送"和"流式处理。"         | False        |  False
 
 ## <a name="table"></a>表
 
 名称  |类型  |说明  |只读  |必填
 ---------|---------|---------|---------|---------
-名称     | 字符串        |  用户定义的表的名称。 还可用作该表的标识符。       | False        |  True       
-列     |  column[]       |  列的集合。       | False        |  True       
-度量值     | measure[]        |  度量值的集合。       | False        |  False       
-isHidden     | 布尔        | 如果为 True，表将从客户端工具中隐藏。        | False        | False        
+name     | String        |  用户定义的表的名称。 还可用作该表的标识符。       | False        |  True       
+columns     |  column[]       |  列的集合。       | False        |  True       
+measures     | measure[]        |  度量值的集合。       | False        |  False       
+isHidden     | Boolean        | 如果为 True，表将从客户端工具中隐藏。        | False        | False        
 
 ## <a name="column"></a>列
 
 名称  |类型  |说明  |只读  |必填
 ---------|---------|---------|---------|---------
-名称     |  字符串        | 用户定义的列的名称。        |  False       | True       
-dataType     |  字符串       |  受支持的 [EDM 数据类型](https://msdn.microsoft.com/library/ee382832.aspx)(#edm-数据类型) 和限制。 请参阅 [数据类型限制](#DataTypeRestrictions)(#数据类型限制)。      |  False       | True        
-formatString     | 字符串        | 描述如何在显示值时对值进行格式化。 若要了解字符串格式化的详细信息，请参阅 [FORMAT_STRING 内容](https://msdn.microsoft.com/library/ms146084.aspx)(#format_string-内容)。      | False        | False        
-sortByColumn    | 字符串        |   在同一个表中用于排序当前列的某一列的字符串名称。     | False        | False       
-dataCategory     | 字符串        |  用于描述了该列中数据的数据类别的字符串值。 一些公用值包括：Address、City、Continent、Country、Image、ImageUrl、Latitude、Longitude、Organization、Place、PostalCode、StateOrProvince、WebUrl       |  False       | False        
-isHidden    |  布尔       |  指示视图中是否隐藏该列的属性。 默认值为 False。       | False        | False        
-summarizeBy     | 字符串        |  列的默认聚合方法。 值包括：default、none、sum、min、max、count、average、distinctCount     |  False       | False
+name     |  String        | 用户定义的列的名称。        |  False       | True       
+dataType     |  String       |  受支持的 [EDM 数据类型](https://msdn.microsoft.com/library/ee382832.aspx)(#edm-数据类型) 和限制。 请参阅 [数据类型限制](#DataTypeRestrictions)(#数据类型限制)。      |  False       | True        
+formatString     | String        | 描述如何在显示值时对值进行格式化。 若要了解字符串格式化的详细信息，请参阅 [FORMAT_STRING 内容](https://msdn.microsoft.com/library/ms146084.aspx)(#format_string-内容)。      | False        | False        
+sortByColumn    | String        |   在同一个表中用于排序当前列的某一列的字符串名称。     | False        | False       
+dataCategory     | String        |  用于描述了该列中数据的数据类别的字符串值。 一些公用值包括：Address、City、Continent、Country、Image、ImageUrl、Latitude、Longitude、Organization、Place、PostalCode、StateOrProvince、WebUrl       |  False       | False        
+isHidden    |  Boolean       |  指示视图中是否隐藏该列的属性。 默认值为 False。       | False        | False        
+summarizeBy     | String        |  列的默认聚合方法。 值包括：default、none、sum、min、max、count、average、distinctCount     |  False       | False
 
 ## <a name="measure"></a>度量值
 
 名称  |类型  |说明  |只读  |必填
 ---------|---------|---------|---------|---------
-名称     | 字符串        |  用户定义的度量值的名称。       |  False       | True        
-表达式     | 字符串        | 有效的 DAX 表达式。        | False        |  True       
-formatString     | 字符串        |  描述如何在显示值时对值进行格式化。 若要了解字符串格式化的详细信息，请参阅 [FORMAT_STRING 内容](https://msdn.microsoft.com/library/ms146084.aspx)(#format_string-内容)。       | False        | False        
-isHidden     | 字符串        |  如果为 True，表将从客户端工具中隐藏。       |  False       | False       
+name     | String        |  用户定义的度量值的名称。       |  False       | True        
+expression     | String        | 有效的 DAX 表达式。        | False        |  True       
+formatString     | String        |  描述如何在显示值时对值进行格式化。 若要了解字符串格式化的详细信息，请参阅 [FORMAT_STRING 内容](https://msdn.microsoft.com/library/ms146084.aspx)(#format_string-内容)。       | False        | False        
+isHidden     | String        |  如果为 True，表将从客户端工具中隐藏。       |  False       | False       
 
 ## <a name="relationship"></a>关系
 
 名称  |类型  |说明  |只读  |必填 
 ---------|---------|---------|---------|---------
-名称     | 字符串        | 用户定义的关系的名称。 还可用作该关系的标识符。        | False       | True        
-crossFilteringBehavior     | 字符串        |    关系的筛选方向：OneDirection（默认）、BothDirections、Automatic       | False        | False        
-fromTable     | 字符串        | 外键表的名称。        | False        | True         
-fromColumn    | 字符串        | 外键列的名称。        | False        | True         
-toTable    | 字符串        | 主键表的名称。        | False        | True         
-toColumn     | 字符串        | 主键列的名称。        | False        | True        
+name     | String        | 用户定义的关系的名称。 还可用作该关系的标识符。        | False       | True        
+crossFilteringBehavior     | String        |    关系的筛选方向：OneDirection（默认）、BothDirections、Automatic       | False        | False        
+fromTable     | String        | 外键表的名称。        | False        | True         
+fromColumn    | String        | 外键列的名称。        | False        | True         
+toTable    | String        | 主键表的名称。        | False        | True         
+toColumn     | String        | 主键列的名称。        | False        | True        
 
 <a name="DataTypeRestrictions"/>
 
@@ -81,11 +81,11 @@ toColumn     | 字符串        | 主键列的名称。        | False        | 
 数据类型  |限制  
 ---------|---------
 Int64     |   不允许使用 Int64.MaxValue 和 Int64.MinValue。      
-双精度     |  不允许使用 Double.MaxValue 和 Double.MinValue 值。 NaN 某些函数（例如 Min、Max）中不支持使用正无穷和负无穷。       
-布尔     |   True 或 False。
-日期时间    |   在数据加载期间，我们将不足一天的值量化为 1/300 秒（3.33 毫秒）的整数倍。      
-字符串     |  目前允许每个字符串值最多 4000 个字符。
-小数|精度 = 28，小数位数 = 4
+Double     |  不允许使用 Double.MaxValue 和 Double.MinValue 值。 NaN 某些函数（例如 Min、Max）中不支持使用正无穷和负无穷。       
+Boolean     |   True 或 False。
+Datetime    |   在数据加载期间，我们将不足一天的值量化为 1/300 秒（3.33 毫秒）的整数倍。      
+String     |  目前允许每个字符串值最多 4000 个字符。
+Decimal|精度 = 28，小数位数 = 4
 
 ## <a name="example"></a>示例
 以下代码示例包括以下多个属性：
