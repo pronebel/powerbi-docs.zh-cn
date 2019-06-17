@@ -11,12 +11,12 @@ ms.reviewer: ''
 ms.custom: ''
 ms.date: 06/20/2018
 LocalizationGroup: Data from databases
-ms.openlocfilehash: 896e58b95f253c403bf7cd4bc3e1c069b3628f69
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 69b40b81677de8af259f9c8ce871c39f5303c09a
+ms.sourcegitcommit: c539726c9c180e899a8a34443e3fda2b9848beb2
+ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "64770248"
+ms.lasthandoff: 05/31/2019
+ms.locfileid: "66448431"
 ---
 # <a name="azure-sql-data-warehouse-with-directquery"></a>具有 DirectQuery 的 Azure SQL 数据仓库
 
@@ -40,7 +40,7 @@ ms.locfileid: "64770248"
 
 在 SQL 数据仓库与 Power BI 之间移动的最简单方法是使用 Azure 门户中的“在 Power BI 中打开”  按钮。 通过此按钮可以无缝地开始在 Power BI 中创建新仪表板。
 
-1. 若要开始，请在 Azure 门户中导航到 SQL 数据仓库实例。 请注意，SQL 数据仓库当前只在 Azure 预览门户中存在。
+1. 若要开始，请在 Azure 门户中导航到 SQL 数据仓库实例。 请注意，SQL 数据仓库当前只在 Azure 门户中存在。
 
 2. 单击**在 Power BI 中打开**按钮
 
@@ -56,7 +56,7 @@ SQL 数据仓库还在 Power BI 获取数据页面上列出。
 
 1. 选择左侧导航窗格底部的**获取数据**。  
 
-    ![获取数据按钮](media/service-azure-sql-data-warehouse-with-direct-connect/getdatabutton.png)
+    ![“获取数据”按钮](media/service-azure-sql-data-warehouse-with-direct-connect/getdatabutton.png)
 
 2. 在**数据库**中，选择**获取**。
 
@@ -64,13 +64,13 @@ SQL 数据仓库还在 Power BI 获取数据页面上列出。
 
 3. 选择**SQL 数据仓库** \> **连接**。
 
-    ![使用 direct 的 azure SQL 数据仓库连接](media/service-azure-sql-data-warehouse-with-direct-connect/azuresqldatawarehouseconnect.png)
+    ![具有直接连接的 Azure SQL 数据仓库](media/service-azure-sql-data-warehouse-with-direct-connect/azuresqldatawarehouseconnect.png)
 
-4. 输入所需信息进行连接。 下面的**查找参数**部分显示此数据 Azure 门户中可能所处的位置。
+4. 输入所需信息进行连接。 下面的“查找参数”部分介绍了此数据在 Azure 门户中可能所处的位置  。
 
     ![服务器名称](media/service-azure-sql-data-warehouse-with-direct-connect/servername.png)
 
-    ![高级的服务器名称](media/service-azure-sql-data-warehouse-with-direct-connect/servernamewithadvanced.png)
+    ![高级服务器名称](media/service-azure-sql-data-warehouse-with-direct-connect/servernamewithadvanced.png)
 
     ![用户名](media/service-azure-sql-data-warehouse-with-direct-connect/username.png)
 
@@ -83,16 +83,18 @@ SQL 数据仓库还在 Power BI 获取数据页面上列出。
 
 6. 你可以浏览所有表和列。 选择某列会将查询发送回源，从而动态创建视觉对象。 筛选器也会转换为返回到数据仓库的查询。 这些视觉对象可以保存在新报表中，并重新固定到仪表板。
 
-    ![探索 3](media/service-azure-sql-data-warehouse-with-direct-connect/explore3.png)
+    ![浏览 3](media/service-azure-sql-data-warehouse-with-direct-connect/explore3.png)
 
 ## <a name="finding-parameter-values"></a>查找参数值
 
-可以在 Azure 门户中找到你的完全限定的服务器名称和数据库名称。 请注意，SQL 数据仓库当前只在 Azure 预览门户中存在。
+可以在 Azure 门户中找到你的完全限定的服务器名称和数据库名称。 请注意，SQL 数据仓库当前只在 Azure 门户中存在。
 
 ![Azure 门户](media/service-azure-sql-data-warehouse-with-direct-connect/azureportal.png)
 
 > [!NOTE]
 > 如果 Power BI 租户与 Azure SQL 数据仓库位于相同区域，则不会产生流出费用。 可按照[这些说明](https://docs.microsoft.com/power-bi/service-admin-where-is-my-tenant-located)查找 Power BI 租户的所在位置。
+
+[!INCLUDE [direct-query-sso](includes/direct-query-sso.md)]
 
 ## <a name="next-steps"></a>后续步骤
 

@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 12/06/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 383d28a9e24165b12cda73ee254541a32db4391c
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 4c2ef62dc3ea8aac9c4a0d30ba4dba58e2279490
+ms.sourcegitcommit: 57a12aa42c8549debc60ff1c8e78533dc42e1b86
+ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61324134"
+ms.lasthandoff: 06/03/2019
+ms.locfileid: "66469823"
 ---
 # <a name="analyze-azure-cost-and-usage-data-in-power-bi-desktop"></a>分析 Power BI Desktop 中的 Azure 成本和使用情况数据
 
@@ -24,15 +24,15 @@ Power BI Desktop 可以连接到 Azure，并获取有关组织的 Azure 服务�
 
 Power BI 目前支持连接到企业协议和客户协议的计费帐户。
 
-* **企业协议**用户应使用连接**Azure 使用情况见解连接器**。
+* 企业协议用户应与 Azure 使用见解连接器连接   。
 
-* **客户协议**用户应使用连接**Azure 成本管理连接器**。
+* 客户协议用户应与 Azure 成本管理连接器连接   。
 
 ## <a name="connect-with-azure-consumption-insights"></a>使用 Azure 使用见解连接
 
 通过 Azure 使用见解可连接到 Azure 企业协议计费帐户。
 
-在本部分中，你将了解如何连接以获取所需的数据，如何使用 Azure 企业连接器进行迁移，且还会找到 ACI（Azure 使用见解）API 中提供的“使用情况详细信息列”的映射   。
+在本部分中，你将了解如何获取所需的数据，如何使用 Azure 企业连接器进行迁移，且还会找到 ACI（Azure 使用见解）API 中提供的“使用情况详细信息列”的映射   。
 
 要使用 Azure 使用情况见解  连接器成功连接，需要能够访问 Azure 门户中的“企业”功能。
 
@@ -45,9 +45,9 @@ Power BI 目前支持连接到企业协议和客户协议的计费帐户。
 ![](media/desktop-connect-azure-consumption-insights/azure-consumption-insights_02.png)
 
 * 可以从 [Azure Enterprise Portal](https://ea.azure.com) 获取合约编号，获取位置如下图所示：
-  
+
   ![](media/desktop-connect-azure-consumption-insights/azure-consumption-insights_08.png)
-  
+
   此版本的连接器仅支持来自 https://ea.azure.com 的企业合约。 目前尚不支持中国合约。
 
 接下来，提供“访问密钥”  进行连接。
@@ -55,11 +55,11 @@ Power BI 目前支持连接到企业协议和客户协议的计费帐户。
 ![](media/desktop-connect-azure-consumption-insights/azure-consumption-insights_03.png)
 
 * 合约的访问密钥可在 [Azure Enterprise Portal](https://ea.azure.com) 上找到。
-  
+
   ![](media/desktop-connect-azure-consumption-insights/azure-consumption-insights_09.png)
 
-提供“访问密钥”  并选择“连接”  后，将出现“导航”  窗口并显示九个可用的表： 
-* **预算**：提供预算详细信息，以查看针对现有预算目标的实际成本或使用情况。 
+提供“访问密钥”  并选择“连接”  后，将出现“导航”  窗口并显示九个可用的表：
+* **预算**：提供预算详细信息，以查看针对现有预算目标的实际成本或使用情况。
 * **市场**：提供基于使用情况的 Azure市场费用。
 * **价目表**：为注册提供适用的费率（由指示器计费）。
 * **RICharges**：提供过去 24 个月与保留实例相关联的费用。
@@ -75,8 +75,8 @@ Power BI 目前支持连接到企业协议和客户协议的计费帐户。
 
 > [!NOTE]
 > “摘要”和“价目表”这两个表仅适用于注册级 API 密钥   。 此外，这些表中的数据默认包含“使用情况”  和“价目表”  的当前月份数据。 未将“摘要”  和“市场”  这两个表限制到当前月份。
-> 
-> 
+>
+>
 
 选择“加载”  时，数据将加载到 Power BI Desktop  。
 
@@ -141,7 +141,7 @@ Azure 还包括一些可以使用空查询检索的示例自定义查询的集�
 
 1. 打开记事本（或其他文本编辑器）。
 2. 选择要移动的度量值，从“公式”字段中复制文本并粘贴到记事本中  。
-   
+
    ![](media/desktop-connect-azure-consumption-insights/azure-consumption-insights_11.png)
 3. 将 Query1  重命名为原始详细信息表名称。
 4. 右键单击表格并选择“新建度量值”，然后剪切并粘贴已存储的度量值和列，完成在表中创建新的度量值和自定义列操作  。
@@ -150,7 +150,7 @@ Azure 还包括一些可以使用空查询检索的示例自定义查询的集�
 许多仪表板包含用于查找或筛选的其他表，例如日期表或用于自定义项目的表。 重新建立这些关系可解决大部分遗留问题。 下面介绍如何执行该操作。
 
 - 在 Power BI Desktop  的“建模”  选项卡中，选择“管理关系”  会弹出允许你管理模型中关系的窗口。 根据需要重新关联表。
-   
+
     ![](media/desktop-connect-azure-consumption-insights/azure-consumption-insights_12.png)
 
 ### <a name="step-5-verify-your-visuals-and-adjust-field-formatting-as-needed"></a>步骤 5：验证视觉对象，并根据需要调整字段格式
@@ -215,9 +215,9 @@ Azure 门户中的列和名称详细信息与 API 和连接器中的相关信息
 本部分介绍如何连接到客户协议计费帐户。
 
 > [!NOTE]
-> Azure 成本管理连接器当前支持的客户上**客户协议**。  **企业协议**客户应使用 Microsoft Azure Consumption Insights 连接器。
-> 
-> 
+> Azure 成本管理连接器目前支持客户协议上的客户  。  企业协议客户应使用 Microsoft Azure 使用见解连接器  。
+>
+>
 
 要使用“Azure 成本管理”连接器进行连接，请从“Power BI Desktop”的“主页”功能区中选择“获取数据”     。  从左侧的类别中选择“Azure”，可看到 Azure 成本管理（Beta 版）   。 选择“连接”  。
 
@@ -234,7 +234,7 @@ Azure 门户中的列和名称详细信息与 API 和连接器中的相关信息
 系统将提示你使用 Azure 电子邮件和密码登录。  进行身份验证后，将看到一个“导航器”窗口，其中包含 12 个表  ：
 
 * **计费事件**：提供新发票、信用卡购买等的事件日志。
-* **预算**：提供预算详细信息，以查看针对现有预算目标的实际成本或使用情况。 
+* **预算**：提供预算详细信息，以查看针对现有预算目标的实际成本或使用情况。
 * **费用**：提供 Azure 使用情况、市场费用和单独计费的月级别小结。
 * **额度批次**：为提供的计费对象信息提供 Azure 额度批次购买详情。
 * **额度摘要**：为提供的计费对象信息提供额度摘要。
@@ -257,6 +257,8 @@ Azure 门户中的列和名称详细信息与 API 和连接器中的相关信息
 加载所选数据后，可以在“字段”  窗格中看到选择的表和字段。
 
 ![](media/desktop-connect-azure-consumption-insights/azure-cost-management-05.png)
+
+观看[如何使用 Azure 使用见解分析 Power BI 中的支出](https://www.youtube.com/watch?v=QKBMXXrlpEk)视频，了解关于使用 Azure 使用见解连接器查看 Power BI Desktop 中成本数据的信息。
 
 ## <a name="writing-custom-queries"></a>编写自定义查询
 
@@ -288,4 +290,3 @@ in
 * [使用 Power BI Desktop 调整和合并数据](desktop-shape-and-combine-data.md)
 * [通过 Power BI Desktop 连接到 Excel 工作簿](desktop-connect-excel.md)   
 * [直接将数据输入到 Power BI Desktop 中](desktop-enter-data-directly-into-desktop.md)   
-

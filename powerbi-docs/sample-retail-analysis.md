@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 06/24/2018
 ms.author: maggies
 LocalizationGroup: Samples
-ms.openlocfilehash: e4cb314af1522c71de85e4576572acbb1d2e88b3
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 04676ee789b90eb09cbed3bafb623e8e9b89e4e4
+ms.sourcegitcommit: 762857c8ca09ce222cc3f8b006fa1b65d11e4ace
+ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61237871"
+ms.lasthandoff: 06/05/2019
+ms.locfileid: "66720872"
 ---
 # <a name="retail-analysis-sample-for-power-bi-take-a-tour"></a>Power BI 的零售分析示例：参观
 
@@ -165,5 +165,5 @@ ms.locfileid: "61237871"
 * [下载所有示例文件的 zip 文件](http://go.microsoft.com/fwlink/?LinkId=535020)    
 * [下载此 Power BI 示例的 Excel 工作簿](http://go.microsoft.com/fwlink/?LinkId=529778)    
 * [获取 Power BI 的数据](service-get-data.md)    
-* [Power BI - 基本概念](consumer/end-user-basic-concepts.md)    
+* [Power BI 服务中设计器的基本概念](service-basic-concepts.md)    
 * 更多问题？ [尝试参与 Power BI 社区](http://community.powerbi.com/)

@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 00212258a145bf7d161d650a4b1cfa9f054a4508
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: efea81ab0a65b336e01c7a69af2189e31ae5d9f8
+ms.sourcegitcommit: 762857c8ca09ce222cc3f8b006fa1b65d11e4ace
+ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61161797"
+ms.lasthandoff: 06/05/2019
+ms.locfileid: "66721164"
 ---
 # <a name="connect-to-mandrill-with-power-bi"></a>使用 Power BI 连接到 Mandrill
 Power BI 内容包将从你的 Mandrill 帐户拉取数据，并生成一个仪表板、一组报表和一个数据集以便你浏览数据。 使用 Mandrill 的分析快速深入了解时事通讯或营销活动。 该数据设置为每日刷新，确保你正在监视的数据时刻保持最新。
@@ -49,5 +49,5 @@ Power BI 内容包将从你的 Mandrill 帐户拉取数据，并生成一个仪�
 ## <a name="next-steps"></a>后续步骤
 [什么是 Power BI？](power-bi-overview.md)
 
-[Power BI - 基本概念](consumer/end-user-basic-concepts.md)
+[Power BI 服务中设计器的基本概念](service-basic-concepts.md)
 

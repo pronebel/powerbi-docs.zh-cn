@@ -6,15 +6,15 @@ ms.author: rkarlin
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.subservice: powerbi-embedded
+ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 12/12/2018
-ms.openlocfilehash: ac8052b78e452f5da1f3db8988a180923c08e0b6
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: d2e4a29b3dd7e36081458ff6ca51b0006a10466f
+ms.sourcegitcommit: 81ba3572531cbe95ea0b887b94e91f94050f3129
+ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61343159"
+ms.lasthandoff: 06/06/2019
+ms.locfileid: "66750933"
 ---
 # <a name="power-bi-embedded-performance-best-practices"></a>Power BI Embedded 性能最佳做法
 
@@ -26,7 +26,7 @@ Powerbi.embed() 方法接收几个参数，用于嵌入报表、仪表板或磁�
 
 ### <a name="embed-url"></a>嵌入 URL
 
-避免自己生成嵌入 URL。 确保通过调用[获取报表](/rest/api/power-bi/reports/getreportsingroup)、[获取仪表板](/rest/api/power-bi/dashboards/getdashboardsingroup)或[获取磁贴](/rest/api/power-bi/dashboards/gettilesingroup) API 来获取嵌入 URL。 我们将一个名为 config 的参数添加到了 URL，用于改进性能  。
+避免自己生成嵌入 URL。 确保通过调用[获取报表](/rest/api/power-bi/reports/getreportsingroup)、[获取仪表板](/rest/api/power-bi/dashboards/getdashboardsingroup)或[获取磁贴](/rest/api/power-bi/dashboards/gettilesingroup) API 来获取嵌入 URL。 我们将一个名为 config 的参数添加到了 URL，用于改进性能    。
 
 ### <a name="permissions"></a>权限
 

@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 08/28/2018
 ms.author: maggies
 LocalizationGroup: Data from files
-ms.openlocfilehash: d1e3d6b50b91643dc7c1e658094a5ae7763edc8f
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: cd75aebb09c7b6c54c1ff3f68635bfd5033c7f80
+ms.sourcegitcommit: 762857c8ca09ce222cc3f8b006fa1b65d11e4ace
+ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61139231"
+ms.lasthandoff: 06/05/2019
+ms.locfileid: "66721464"
 ---
 # <a name="from-excel-workbook-to-stunning-report-in-no-time"></a>立刻从 Excel 工作簿变为出色的报表
 你的经理在下班前想要查看有关你最新的销售数据以及上一市场活动影响的报表。 但最新数据位于各种第三方系统上以及便携式计算机上的文件中。 以前，创建视觉对象和设置报表格式需要几个小时。 你开始感到焦虑。
@@ -98,6 +98,6 @@ Power BI 将显示“共享仪表板”页面。 在顶部区域中，输入收�
 
 * [Power BI 服务入门](service-get-started.md)
 * [Power BI Desktop 入门](desktop-getting-started.md)
-* [Power BI - 基本概念](consumer/end-user-basic-concepts.md)
+* [Power BI 服务中设计器的基本概念](service-basic-concepts.md)
 * 更多问题？ [尝试参与 Power BI 社区](http://community.powerbi.com/)
 

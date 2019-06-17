@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 01/25/2019
 ms.author: maggies
 LocalizationGroup: Get started
-ms.openlocfilehash: 06b60e5d493532efbdb49932ace48897e17961c1
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 7eb30d00cdb03c0f0f879d0cb4b0ab152d1dae37
+ms.sourcegitcommit: 762857c8ca09ce222cc3f8b006fa1b65d11e4ace
+ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61237847"
+ms.lasthandoff: 06/05/2019
+ms.locfileid: "66721508"
 ---
 # <a name="tutorial-get-started-with-the-power-bi-service-apppowerbicom"></a>教程：Power BI 服务入门 (app.powerbi.com)
 本教程可帮助你开始使用 Power BI 服务。 若要了解 Power BI 服务如何适应其他 Power BI 产品/服务，请务必先阅读[什么是 Power BI](power-bi-overview.md)。
@@ -53,7 +53,7 @@ ms.locfileid: "61237847"
 > 
 
 ## <a name="what-is-the-power-bi-service"></a>什么是 Power BI 服务？
-Microsoft Power BI 服务有时也称为 Power BI 在线版或 app.powerbi.com。 Power BI 可帮助你及时掌握对你重要的信息。  借助 Power BI 服务，仪表板可帮助你对企业状况了如指掌。  你的仪表板显示各种***磁贴***，你可单击这些磁贴打开***报表***来进一步了解详情。  连接到多个***数据集***将所有相关数据组合在一起。 是否需要了解构成 Power BI 的构建块的帮助？  请参阅 [Power BI - 基本概念](consumer/end-user-basic-concepts.md)。
+Microsoft Power BI 服务有时也称为 Power BI 在线版或 app.powerbi.com。 Power BI 可帮助你及时掌握对你重要的信息。  借助 Power BI 服务，仪表板可帮助你对企业状况了如指掌。  你的仪表板显示各种***磁贴***，你可单击这些磁贴打开***报表***来进一步了解详情。  连接到多个***数据集***将所有相关数据组合在一起。 是否需要了解构成 Power BI 的构建块的帮助？  请参阅 [Power BI 服务中设计器的基本概念](service-basic-concepts.md)。
 
 如果你在 Excel 或 CSV 文件中具有重要数据，你可以创建 Power BI 仪表板以便随时随地掌握最新信息，并与他人分享自己的见解。  你是否订阅了 SaaS 应用程序（如 Salesforce）？  从连接到 Salesforce 开始，基于该数据自动创建仪表板，或[查看可以连接到的所有其他 SaaS 应用](service-get-data.md)。 如果你是组织成员，请查看是否已向你发布任何[应用](service-create-distribute-apps.md)。
 
