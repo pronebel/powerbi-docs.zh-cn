@@ -12,7 +12,7 @@ ms.author: davidi
 LocalizationGroup: Data from files
 ms.openlocfilehash: 4507490fc2986ec7934af4c9e7417585523c7a05
 ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: zh-CN
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "61143118"
@@ -151,9 +151,9 @@ Power BI 数据流使用 Power BI 数据刷新过程使数据保持最新状态�
 
 * Salesforce 连接器  - 将 Salesforce 试用帐户用于数据流导致连接失败，且未提供任何信息。 若要解决此问题，请使用 Salesforce 生产帐户或开发人员帐户进行测试。
 
-* SharePoint 连接器  - 确保提供了 SharePoint 站点的根地址，不包含任何子文件夹或文档。 例如，使用类似于以下内容的链接： https://microsoft.sharepoint.com/teams/ObjectModel/。 
+* SharePoint 连接器  - 确保提供了 SharePoint 站点的根地址，不包含任何子文件夹或文档。 例如，使用类似于以下内容的链接： https://microsoft.sharepoint.com/teams/ObjectModel/ 。 
 
-* **JSON 文件连接器** - 当前你只可使用基本身份验证连接到 JSON 文件。  当前不支持通过在 URL 中提供凭据来连接到 JSON 文件（例如， https://XXXXX.blob.core.windows.net/path/file.json?sv=2019-01-01&si=something&sr=c&sig=123456abcdefg..。）  。  
+* **JSON 文件连接器** - 当前你只可使用基本身份验证连接到 JSON 文件。  当前不支持通过在 URL 中提供凭据来连接到 JSON 文件（例如， https://XXXXX.blob.core.windows.net/path/file.json?sv=2019-01-01&si=something&sr=c&sig=123456abcdefg.. 。 ）  。  
 
 * **Azure SQL 数据仓库** - 数据流目前不支持对 Azure SQL 数据仓库使用 Azure Active Directory (AAD) 身份验证。 对于此情况请使用基本身份验证。
 
