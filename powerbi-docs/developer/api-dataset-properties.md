@@ -11,7 +11,7 @@ ms.topic: conceptual
 ms.date: 06/08/2018
 ms.openlocfilehash: 508f304e2f5033c301db683e3b7557856fb3731b
 ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: zh-CN
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "61386284"
@@ -27,28 +27,28 @@ ms.locfileid: "61386284"
 
 名称  |类型  |说明  |只读  |必填
 ---------|---------|---------|---------|---------
-ID     |  Guid       | 数据集系统范围内的唯一标识符。        | True        | False        
-名称     | 字符串        | 用户定义的数据集的名称。        | False        | True        
-表     | Table[]        | 表的集合。        |  False       | False        
-关系     | Relationship[]        | 表之间的关系的集合。        | False        |  False  
-defaultMode     | 字符串        | 确定数据集推送、 流式处理，或两者，值为"推送"和"流式处理。"         | False        |  False
+id     |  Guid       | 系统范围内数据集的唯一标识符。        | True        | False        
+name     | String        | 用户定义的数据集名称。        | False        | True        
+tables     | Table[]        | 表的集合。        |  False       | False        
+relationships     | Relationship[]        | 表之间的关系的集合。        | False        |  False  
+defaultMode     | String        | 确定是推送还是流式处理数据集，还是同时执行两个操作，值为 "Push" 和"Streaming"。         | False        |  False
 
 ## <a name="table"></a>表
 
 名称  |类型  |说明  |只读  |必填
 ---------|---------|---------|---------|---------
-名称     | 字符串        |  用户定义的表的名称。 还可用作该表的标识符。       | False        |  True       
-列     |  column[]       |  列的集合。       | False        |  True       
-度量值     | measure[]        |  度量值的集合。       | False        |  False       
-isHidden     | 布尔        | 如果为 True，表将从客户端工具中隐藏。        | False        | False        
+name     | String        |  用户定义的表名称。 同时用作该表的标识符。       | False        |  True       
+columns     |  column[]       |  列的集合。       | False        |  True       
+measures     | measure[]        |  度量值的集合。       | False        |  False       
+isHidden     | Boolean        | 如果为 True，表在客户端工具中为隐藏状态。        | False        | False        
 
 ## <a name="column"></a>列
 
 名称  |类型  |说明  |只读  |必填
 ---------|---------|---------|---------|---------
-名称     |  字符串        | 用户定义的列的名称。        |  False       | True       
-dataType     |  字符串       |  受支持的 [EDM 数据类型](https://msdn.microsoft.com/library/ee382832.aspx)(#edm-数据类型) 和限制。 请参阅 [数据类型限制](#DataTypeRestrictions)(#数据类型限制)。      |  False       | True        
-formatString     | 字符串        | 描述如何在显示值时对值进行格式化。 若要了解字符串格式化的详细信息，请参阅 [FORMAT_STRING 内容](https://msdn.microsoft.com/library/ms146084.aspx)(#format_string-内容)。      | False        | False        
+name     |  String        | 用户定义的列名称。        |  False       | True       
+dataType     |  String       |  受支持的 [EDM 数据类型](https://msdn.microsoft.com/library/ee382832.aspx)(#edm-数据类型) 和限制。 请参阅 [数据类型限制](#DataTypeRestrictions)(#数据类型限制)。      |  False       | True        
+formatString     | String        | 一个描述如何在显示值时对值进行格式化的字符串。 若要了解字符串格式化的详细信息，请参阅 [FORMAT_STRING 内容](https://msdn.microsoft.com/library/ms146084.aspx)(#format_string-内容)。      | False        | False        
 sortByColumn    | 字符串        |   在同一个表中用于排序当前列的某一列的字符串名称。     | False        | False       
 dataCategory     | 字符串        |  用于描述了该列中数据的数据类别的字符串值。 一些公用值包括：Address、City、Continent、Country、Image、ImageUrl、Latitude、Longitude、Organization、Place、PostalCode、StateOrProvince、WebUrl       |  False       | False        
 isHidden    |  布尔       |  指示视图中是否隐藏该列的属性。 默认值为 False。       | False        | False        
@@ -60,7 +60,7 @@ summarizeBy     | 字符串        |  列的默认聚合方法。 值包括：de
 ---------|---------|---------|---------|---------
 名称     | 字符串        |  用户定义的度量值的名称。       |  False       | True        
 表达式     | 字符串        | 有效的 DAX 表达式。        | False        |  True       
-formatString     | 字符串        |  描述如何在显示值时对值进行格式化。 若要了解字符串格式化的详细信息，请参阅 [FORMAT_STRING 内容](https://msdn.microsoft.com/library/ms146084.aspx)(#format_string-内容)。       | False        | False        
+formatString     | String        |  一个描述如何在显示值时对值进行格式化的字符串。 若要了解字符串格式化的详细信息，请参阅 [FORMAT_STRING 内容](https://msdn.microsoft.com/library/ms146084.aspx)(#format_string-内容)。       | False        | False        
 isHidden     | 字符串        |  如果为 True，表将从客户端工具中隐藏。       |  False       | False       
 
 ## <a name="relationship"></a>关系
