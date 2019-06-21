@@ -11,7 +11,7 @@ ms.topic: conceptual
 ms.date: 06/08/2018
 ms.openlocfilehash: 508f304e2f5033c301db683e3b7557856fb3731b
 ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: zh-CN
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "61386284"
@@ -26,31 +26,36 @@ ms.locfileid: "61386284"
 ## <a name="dataset"></a>数据集
 
 名称  |类型  |说明  |只读  |必填
----------|---------|---------|---------|---------
+
 id | Guid | 系统范围内数据集的唯一标识符。 | True | False        
 name | String | 用户定义的数据集名称。 | False | True        
 tables     | Table[]        | 表的集合。        |  False       | False        
 relationships     | Relationship[]        | 表之间的关系的集合。        | False        |  False  
 defaultMode | String | 确定是推送还是流式处理数据集，还是同时执行两个操作，值为 "Push" 和"Streaming"。 | False | False
 
+
 ## <a name="table"></a>表
 
 名称  |类型  |说明  |只读  |必填
 ---------|---------|---------|---------|---------
+
 name | String | 用户定义的表名称。同时用作该表的标识符。 | False | True       
 columns     |  column[]       |  列的集合。       | False        |  True       
 measures     | measure[]        |  度量值的集合。       | False        |  False       
 isHidden | Boolean | 如果为 True，表在客户端工具中为隐藏状态。 | False | False        
 
+
 ## <a name="column"></a>列
 
 名称  |类型  |说明  |只读  |必填
 ---------|---------|---------|---------|---------
+
 name | String | 用户定义的列名称。 | False | True       
 dataType     |  String       |  受支持的 [EDM 数据类型](https://msdn.microsoft.com/library/ee382832.aspx)(#edm-数据类型) 和限制。 请参阅 [数据类型限制](#DataTypeRestrictions)(#数据类型限制)。      |  False       | True        
 formatString | String | 一个描述如何在显示值时对值进行格式化的字符串。 若要了解字符串格式化的详细信息，请参阅 [FORMAT_STRING 内容](https://msdn.microsoft.com/library/ms146084.aspx)(#format_string-内容)。 | False | False        
 sortByColumn | String | 同一个表中用于对当前列进行排序的另一个列的字符串名称。 | False | False       
 dataCategory | String | 用于描述该列中数据的数据类别的字符串值。一些常见值包括：Address、City、Continent、Country、Image、ImageUrl、Latitude、Longitude、Organization、Place、PostalCode、StateOrProvince、WebUrl | False | False        
+
 isHidden    |  Boolean       |  指示视图中是否隐藏该列的属性。 默认值为 False。       | False        | False        
 summarizeBy     | String        |  列的默认聚合方法。 值包括：default、none、sum、min、max、count、average、distinctCount     |  False       | False
 
@@ -60,7 +65,9 @@ summarizeBy     | String        |  列的默认聚合方法。 值包括：defau
 ---------|---------|---------|---------|---------
 name     | String        |  用户定义的度量值的名称。       |  False       | True        
 expression     | String        | 有效的 DAX 表达式。        | False        |  True       
+
 formatString     | String        |  描述如何在显示值时对值进行格式化。 若要了解字符串格式化的详细信息，请参阅 [FORMAT_STRING 内容](https://msdn.microsoft.com/library/ms146084.aspx)(#format_string-内容)。       | False        | False        
+
 isHidden     | String        |  如果为 True，表将从客户端工具中隐藏。       |  False       | False       
 
 ## <a name="relationship"></a>关系
@@ -84,7 +91,9 @@ Int64     |   不允许使用 Int64.MaxValue 和 Int64.MinValue。
 Double     |  不允许使用 Double.MaxValue 和 Double.MinValue 值。 NaN 某些函数（例如 Min、Max）中不支持使用正无穷和负无穷。       
 Boolean     |   True 或 False。
 Datetime    |   在数据加载期间，我们将不足一天的值量化为 1/300 秒（3.33 毫秒）的整数倍。      
+
 String | 目前允许每个字符串值最多包含 4000 个字符。
+
 Decimal|精度 = 28，小数位数 = 4
 
 ## <a name="example"></a>示例

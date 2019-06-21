@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.subservice: powerbi-custom-visuals
 ms.custom: ''
 ms.date: 12/17/2018
-ms.openlocfilehash: 9c5d2665f012881f951a186c3ec8c9fd94031a28
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 0fcb3451249c121281790dca77bd6008c39deaef
+ms.sourcegitcommit: 24781cdab5fbe43fc14248db636169cc54ef6721
+ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "60977193"
+ms.lasthandoff: 06/04/2019
+ms.locfileid: "66497934"
 ---
 # <a name="frequently-asked-questions-about-power-bi-custom-visuals"></a>有关 Power BI 自定义视觉对象的常见问题
 
@@ -84,7 +84,7 @@ ms.locfileid: "60977193"
  
 ### <a name="how-long-does-it-take-to-certify-my-visual"></a>认证视觉对象需要多长时间？
 
-若是更新版本，可能需要最多 2 周。 若是新的提交（首次认证），可能需要最多 3 周。 
+若是更新版本，可能需要最多 3 周。 若是新的提交（首次验证），可能需要最多 4 周。 
 
 ### <a name="does-the-certification-process-ensure-that-no-data-leakage-occurs"></a>认证过程是否会确保没有数据泄漏发生？
 

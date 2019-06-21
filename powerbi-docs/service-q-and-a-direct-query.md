@@ -10,16 +10,16 @@ ms.topic: conceptual
 ms.date: 10/16/2018
 ms.author: maggies
 LocalizationGroup: Ask questions of your data
-ms.openlocfilehash: 9836cd88bef5066f61a8ae44eabe7685196e2bed
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 59c9488def297537cc2ea944f6c0fc4f59ba29ba
+ms.sourcegitcommit: 762857c8ca09ce222cc3f8b006fa1b65d11e4ace
+ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "65624927"
+ms.lasthandoff: 06/05/2019
+ms.locfileid: "66720893"
 ---
 # <a name="enable-qa-for-live-connections-in-power-bi"></a>为 Power BI 中的实时连接启用问答
 ## <a name="what-is-the-on-premises-data-gateway--what-is-a-live-connection"></a>什么是本地数据网关？  什么是实时连接？
-可以将 Power BI 中的数据集导入到 Power BI，也可以创建与它们的实时连接。 作为"本地"实时的连接数据集通常称为。 使用[网关](service-gateway-onprem.md)管理实时连接并使用实时查询来回发送数据和查询。
+可以将 Power BI 中的数据集导入到 Power BI，也可以创建与它们的实时连接。 实时连接数据集通常称为“本地”。 使用[网关](service-gateway-onprem.md)管理实时连接并使用实时查询来回发送数据和查询。
 
 ## <a name="qa-for-on-premises-data-gateway-datasets"></a>关于本地数据网关数据集的问答
 如果你想要使用通过网关访问的数据集中的问答，首先你需要启用它们。
@@ -33,7 +33,7 @@ ms.locfileid: "65624927"
 有关详细信息，请参阅：
 
 * 什么是[本地数据网关](service-gateway-onprem.md)？
-* [对于使用者的 power BI 问答](consumer/end-user-q-and-a.md)
+* [面向使用者的 Power BI 问答](consumer/end-user-q-and-a.md)
 
 ## <a name="enable-qa"></a>启用问答
 设置数据网关后，请从 Power BI 连接数据。  使用本地数据创建仪表板，或使用本地数据上传 .pbix 文件。  可能已与你共享的仪表板、报表和数据集中已存在本地数据。
@@ -52,18 +52,18 @@ ms.locfileid: "65624927"
 当启用本地数据的问答时，数据的其中一个子集将缓存到服务中。 这是用来保证问答具有良好的性能。 Power BI 可以从缓存中排除长于 24 个字符的值。 当你通过取消选中**启用此数据集的问答**，或当你删除你的数据集时，缓存将在几小时内删除。
 
 ## <a name="considerations-and-troubleshooting"></a>注意事项和疑难解答
-此功能有一些限制：
+此功能具有一些限制：
 
-* 最初此功能只可用于 SQL Server 2016 Analysis Services 表格数据源。 此功能非常适合用于处理表格格式数据。 问答体验尚不支持的多维度。 今后将逐渐推出本地数据网关支持的其他数据源。
-* 最初，对 SQL Server Analysis Services 中定义的行级别安全性的完全支持不可用。 在问答中提问，时"自动完成"的问题而键入可以显示的字符串值的用户不具有访问权限。 但是，由于考虑对在模型中定义的 RLS 使用报表和图表视觉对象，因此不能公开任何基础数值数据。 将在接下来的更新中发布选项以控制此行为。
-* 不支持对象级安全性 (OLS)。 问题与解答不遵循对象级安全性，并且可能会泄漏到不具有对其进行访问的用户表或列名称。 应启用 RLS，确保也相应地保护数据值。 
-* 仅在使用本地数据网关时支持实时连接。 因此，这不能用于个人网关。
+* 最初此功能只可用于 SQL Server 2016 Analysis Services 表格数据源。 此功能非常适合用于处理表格格式数据。 多维度尚不支持问答体验。 今后将逐渐推出本地数据网关支持的其他数据源。
+* 最初并不完全支持 SQL Server Analysis Services 中定义的行级别安全性。 在问答中提问时，输入时“自动完成”的问题可以显示用户无权访问的字符串值。 但是，由于考虑对在模型中定义的 RLS 使用报表和图表视觉对象，因此不能公开任何基础数值数据。 将在接下来的更新中发布选项以控制此行为。
+* 不支持对象级别安全性 (OLS)。 “问答”不受对象级别安全性的限制，并且可能向不具备访问权限的用户显示表或列名称。 应启用 RLS，确保也相应地保护数据值。 
+* 仅在使用本地数据网关时支持实时连接。 因此，这不能与个人网关一起使用。
 
 ## <a name="next-steps"></a>后续步骤
 
 - [本地数据网关](service-gateway-onprem.md)  
 - [管理数据源 - Analysis Services](service-gateway-enterprise-manage-ssas.md)  
-- [Power BI：基本概念](consumer/end-user-basic-concepts.md)  
+- [Power BI 服务中设计器的基本概念](service-basic-concepts.md)  
 - [Power BI 问答概述](consumer/end-user-q-and-a.md)  
 
 更多问题？ [尝试咨询 Power BI 社区](http://community.powerbi.com/)

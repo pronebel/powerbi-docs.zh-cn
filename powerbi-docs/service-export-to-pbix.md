@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 03/02/2018
 ms.author: maggies
 LocalizationGroup: Reports
-ms.openlocfilehash: 5c42b633b3c8746d2e26656eb5310b1f74cb2500
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 296970466505f01ae9ad11f994fe2008563f4884
+ms.sourcegitcommit: 762857c8ca09ce222cc3f8b006fa1b65d11e4ace
+ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61159708"
+ms.lasthandoff: 06/05/2019
+ms.locfileid: "66720196"
 ---
 # <a name="export-a-report-from-power-bi-service-to-desktop-preview"></a>将报表从 Power BI 服务导出到 Power BI Desktop（预览）
 在 Power BI Desktop 中，可以通过保存报表并选择“ **发布** ”来导出（也称为“ *下载* ”）报表至 Power BI 服务。 也可以从其他方向导出，并将报表从 Power BI 服务下载至 Desktop。 无论导出方向如何，导出文件的扩展名都是 .pbix  。
@@ -68,7 +68,7 @@ ms.locfileid: "61159708"
 此外，还有一些其他文章，可帮助你了解如何使用 **Power BI 服务**：
 
 * [Power BI 中的报表](consumer/end-user-reports.md)
-* [Power BI - 基本概念](consumer/end-user-basic-concepts.md)
+* [Power BI 服务中设计器的基本概念](service-basic-concepts.md)
 
 一旦安装了 **Power BI Desktop**，以下内容可帮助你快速启动和运行：
 

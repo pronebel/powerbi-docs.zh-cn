@@ -1,6 +1,6 @@
 ---
 title: 向表中添加超链接
-description: 使用 Power BI Desktop 创建超链接。 然后使用 Power BI Desktop 或 Power BI 服务将这些超链接添加到你的报表表格和矩形图。
+description: 使用 Power BI Desktop 创建超链接。 然后使用 Power BI Desktop 或 Power BI 服务将这些超链接添加到报表表格和矩形图。
 author: maggiesMSFT
 manager: kfile
 ms.reviewer: ''
@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 04/09/2019
 ms.author: maggies
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 9611d8cd45eba89854fd6cbb485c52097f77f4c0
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 386c52908d54833e350a7b1a6d846f78c7b88c6d
+ms.sourcegitcommit: 762857c8ca09ce222cc3f8b006fa1b65d11e4ace
+ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61421498"
+ms.lasthandoff: 06/05/2019
+ms.locfileid: "66721383"
 ---
 # <a name="add-hyperlinks-to-a-table"></a>向表中添加超链接
 本主题介绍如何使用 Power BI Desktop 创建超链接。 然后使用 Desktop 或 Power BI 服务将这些超链接添加到报表表格和矩形图。 
@@ -24,11 +24,11 @@ ms.locfileid: "61421498"
 ![具有超链接的表](media/power-bi-hyperlinks-in-tables/hyperlinkedtable.png)
 
 > [!NOTE]
-> 您可以创建中的超链接[仪表板上的磁贴](service-dashboard-edit-tile.md)并[仪表板上的文本框](service-dashboard-add-widget.md)上动态使用 Power BI 服务。 您可以创建中的超链接[报表中文本框](service-add-hyperlink-to-text-box.md)上动态使用 Power BI 服务和 Power BI Desktop。
+> 可使用 Power BI 服务实时创建[仪表板上的磁贴](service-dashboard-edit-tile.md)和[仪表板上的文本框](service-dashboard-add-widget.md)中的超链接。 可以使用 Power BI 服务和 Power BI Desktop 实时创建[报表中的文本框](service-add-hyperlink-to-text-box.md)中的超链接。
 > 
 
 ## <a name="to-create-a-hyperlink-in-a-table-or-matrix-using-power-bi-desktop"></a>使用 Power BI Desktop 创建表或矩阵中的超链接
-可以在表和矩形图在 Power BI Desktop 中，但不是在 Power BI 服务中创建超链接。 此外可以创建超链接在 Excel Power Pivot 工作簿导入 Power BI 之前。 这两种方法都在下面进行了介绍。
+可以在 Power BI Desktop 中的表和矩形图中创建超链接，但不能在 Power BI 服务中进行此操作。 在将工作簿导入 Power BI 之前，还可以在 Excel Power Pivot 中创建超链接。 这两种方法都在下面进行了介绍。
 
 ## <a name="create-a-table-or-matrix-hyperlink-in-power-bi-desktop"></a>在 Power BI Desktop 中创建表或矩形图超链接
 添加超链接的过程取决于是否已导入数据或使用 DirectQuery 连接至此。 这两种方案都在下面进行了介绍。
@@ -99,7 +99,7 @@ ms.locfileid: "61421498"
 ## <a name="next-steps"></a>后续步骤
 [Power BI 报表中的可视化效果](visuals/power-bi-report-visualizations.md)
 
-[Power BI - 基本概念](consumer/end-user-basic-concepts.md)
+[Power BI 服务中设计器的基本概念](service-basic-concepts.md)
 
 更多问题？ [尝试参与 Power BI 社区](http://community.powerbi.com/)
 

@@ -1,6 +1,6 @@
 ---
-title: 你自己和其他人订阅报表和仪表板-Power BI
-description: 了解如何订阅自己和他人的 Power BI 报表页、 仪表板中或分页的报表的快照。
+title: 为自己和他人订阅报表和仪表板 - Power BI
+description: 了解如何为自己和他人订阅 Power BI 报表页、仪表板或分页报表的快照。
 author: maggiesMSFT
 manager: kfile
 ms.reviewer: ''
@@ -11,16 +11,16 @@ ms.topic: conceptual
 ms.date: 05/20/2019
 ms.author: maggies
 LocalizationGroup: Common tasks
-ms.openlocfilehash: a344e3cdd93fbd237387b61fb4735b41f22625e3
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: b1d0914f146ea56697ada2a64c59744690595054
+ms.sourcegitcommit: 24781cdab5fbe43fc14248db636169cc54ef6721
+ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "65991137"
+ms.lasthandoff: 06/04/2019
+ms.locfileid: "66498068"
 ---
 # <a name="subscribe-yourself-and-others-to-reports-and-dashboards-in-the-power-bi-service"></a>在 Power BI 服务中为自己和他人订阅报表和仪表板
 
-您可以订阅你自己和你的同事为报表页、 仪表板和对你最重要的分页的报表。 Power BI 的电子邮件收件箱到快照。 告知 Power BI 所需的电子邮件接收频率：每天、每周或是一天一次在初始数据刷新之后。  如果您选择每天或每周，可以选择的时间想要运行订阅。  总共可以为每个报表页和仪表板每天设置最多 24 个不同的订阅。
+你可以为自己和同事订阅对你来说最重要的报表页、仪表板和分页报表。 Power BI 以电子邮件形式将快照发送到你的收件箱。 告知 Power BI 所需的电子邮件接收频率：每天、每周或是一天一次在初始数据刷新之后。  如果选择每天或每周，则可以选择要使订阅运行的时间。  总共可以为每个报表页和仪表板每天设置最多 24 个不同的订阅。
 
 ![仪表板的电子邮件快照](media/service-report-subscribe/power-bi-dashboard-email-new.jpg) 
 
@@ -30,13 +30,12 @@ ms.locfileid: "65991137"
 
 - 创建订阅是一项 Power BI Pro 功能  。
 - 无需内容（仪表板或报表）编辑权限即可为自己创建订阅，但必须拥有编辑权限才能为他人创建订阅。 
-- 自 2019 年 1 月起，不再必须设置数据集刷新才能运行订阅。  它会独立于设置的任何计划刷新而运行。  
 
-## <a name="subscribe-to-a-dashboard-report-page-or-paginated-report"></a>订阅仪表板、 报表页上或分页的报表
+## <a name="subscribe-to-a-dashboard-report-page-or-paginated-report"></a>订阅仪表板、报表页或分页报表
 
-您要订阅仪表板、 报表，或分页的报表、 过程是类似的。 使用同一按钮，即可订阅 Power BI 服务仪表板和报表。
+无论是订阅仪表板、报表还是分页报表，订阅过程都类似。 使用同一按钮，即可订阅 Power BI 服务仪表板和报表。
 
-订阅分页报表是稍有不同。 请参阅[你自己和其他人订阅 Power BI 服务中的分页报表到](paginated-reports-subscriptions.md)有关详细信息。
+订阅分页报表略有不同。 请参阅[在 Power BI 服务中为自己和他人订阅分页报表](paginated-reports-subscriptions.md)，获取详细信息。
  
 ![选择“订阅”图标](media/service-report-subscribe/power-bi-subscribe-orientation.png)。
 
@@ -64,7 +63,7 @@ ms.locfileid: "65991137"
 7. 选择“保存并关闭”  。 订阅者会按所选频率和时间收到仪表板或报表页的电子邮件和快照。 总共可以创建对每个报表或仪表板创建最多 24 个订阅，并可以为每个订阅提供独有的收件人、时间和频率。  对仪表板或报表设置为“数据刷新后”  的所有订阅仍然只会在第一次计划刷新之后发送电子邮件。   
       
    > [!TIP]
-   > 想立即通过订阅或随时按需发送电子邮件吗？ 选择“立即运行”以获取要发送的仪表板或报表的订阅  。 你将看到一封电子邮件正发送给每个人的通知，通知内容是关于该特定订阅的。  根据需要，您可能将作为通常执行此操作。 它不计入每天每个报表或仪表板的 24 次预定订阅运行的限制。 它不会触发数据刷新的基础数据集。 
+   > 想立即通过订阅或随时按需发送电子邮件吗？ 选择“立即运行”以获取要发送的仪表板或报表的订阅  。 你将看到一封电子邮件正发送给每个人的通知，通知内容是关于该特定订阅的。  可以根据需要随时执行此操作。 它不计入每天每个报表或仪表板的 24 次预定订阅运行的限制。 这不会引起基础数据集的数据刷新。 
    > 
    > 
    
@@ -87,10 +86,11 @@ ms.locfileid: "65991137"
 
 ## <a name="considerations-and-troubleshooting"></a>注意事项和疑难解答
 
-* 具有超过 25 个固定磁贴或 4 个固定活动报表页面的仪表板可能无法完全呈现在发送给用户的订阅电子邮件中。  对这些数量磁贴的仪表板的订阅不会受到阻止。 但是，它们是被视为不受支持的如果遇到问题。 请考虑相应地修改它们以在受支持的范围内。
-* 设置电子邮件订阅，请的注意订阅作业启动时，有很之间的延迟和电子邮件发送的确切时间。  若要降至最低两者之间的延迟，设置为比计划时你的电子邮件订阅来运行你计划的数据刷新不同的时间。
-* 对于仪表板的电子邮件订阅，如果任何磁贴具有行级别安全性 (RLS) 应用，这些磁贴不显示。  
-* 对于报表电子邮件订阅，如果此数据集使用 RLS，你可以订阅为自己创建。 您不能向报表订阅其他人具有行级别安全性 (RLS) 应用。
+* 具有超过 25 个固定磁贴或 4 个固定活动报表页面的仪表板可能无法完全呈现在发送给用户的订阅电子邮件中。  不会阻止通过大量磁贴订阅仪表板。 但如果遇到问题，它们会视为不受支持。 考虑对其进行相应修改，使其处于受支持的范围内。
+* 此次是订阅作业开始时。 某些情况下，可能需要几分钟才能将电子邮件传送到收件箱。
+* 在极少数情况下，电子邮件订阅可能需要超过 15 分钟才能发送到收件人。 如果发生这种情况，请在不同时间运行数据刷新和电子邮件订阅，以确保及时交付。 如果问题仍然存在，请联系 Power BI 支持。
+* 对于仪表板电子邮件说明，如果任何磁贴应用了行级别安全性 (RLS)，则不会显示这些磁贴。  
+* 对于报表电子邮件说明，如果数据集使用 RLS，你可以为自己创建订阅。 如果应用了行级别安全性 (RLS)，则无法为其他用户订阅报表。
 * 报表页订阅与报表页面的名称是相关联的。 如果你订阅一个报表页，随后将其重命名，则必须重新创建订阅。
 * 组织可能在 Azure Active Directory 中配置的某些设置会限制 Power BI 中电子邮件订阅的使用。  这些限制包括但不限于针对资源访问设置多重身份验证或 IP 范围限制。
 * 为其他用户订阅时，当前不支持使用实时连接数据集的报表和仪表板的电子邮件订阅。
@@ -105,6 +105,6 @@ ms.locfileid: "65991137"
 
 ## <a name="next-steps"></a>后续步骤
 
-- [你自己和其他人订阅到 Power BI 服务中的分页报表](paginated-reports-subscriptions.md)
+- [在 Power BI 服务中为自己和他人订阅分页报表](paginated-reports-subscriptions.md)
 - 更多问题？ [尝试咨询 Power BI 社区](http://community.powerbi.com/)    
 - [阅读博客文章](https://powerbi.microsoft.com/blog/introducing-dashboard-email-subscriptions-a-360-degree-view-of-your-business-in-your-inbox-every-day/)

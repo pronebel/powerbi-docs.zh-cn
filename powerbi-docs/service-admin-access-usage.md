@@ -1,6 +1,6 @@
 ---
 title: 查找已登录的 Power BI 用户
-description: 如果你是租户管理员，并且想要查看谁具有登录到 Power BI，可以使用 Azure Active Directory 访问和使用情况报告来监控。
+description: 如果你是租户管理员，想查看已登录 Power BI 的用户，则可以使用 Azure Active Directory 访问和使用情况报告进行查看。
 author: mgblythe
 manager: kfile
 ms.reviewer: ''
@@ -10,27 +10,25 @@ ms.topic: conceptual
 ms.date: 04/23/2019
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: e513607dd89aee15f10145cf62bd461621cc12c0
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 7149d8601aa7a834f91a8d98f3a7a9deac7bf43b
+ms.sourcegitcommit: 762857c8ca09ce222cc3f8b006fa1b65d11e4ace
+ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "64906760"
+ms.lasthandoff: 06/05/2019
+ms.locfileid: "66721340"
 ---
 # <a name="find-power-bi-users-that-have-signed-in"></a>查找已登录的 Power BI 用户
 
-如果你是租户管理员，并且想要查看到 Power BI 中使用签名者[Azure Active Directory 访问和使用情况报告](/azure/active-directory/reports-monitoring/concept-sign-ins)获得可见性。
-
-<iframe width="640" height="360" src="https://www.youtube.com/embed/1AVgh9w9VM8?showinfo=0" frameborder="0" allowfullscreen></iframe>
+如果你是租户管理员，并想要确定已登录 Power BI 的用户，请查看 [Azure Active Directory 访问和使用情况报告](/azure/active-directory/reports-monitoring/concept-sign-ins)了解相关信息。
 
 > [!NOTE]
-> **登录名**报表提供了有用的信息，但它不会识别每个用户具有的许可证的类型。 请使用 Microsoft 365 管理中心查看许可证。
+> “登录”报表提供了有用的信息，但它并未标识每个用户拥有的许可证类型  。 请使用 Microsoft 365 管理中心查看许可证。
 
 ## <a name="requirements"></a>要求
 
 任何用户（包括非管理员）都可以查看自己的登录活动报告，但必须符合以下要求，才能查看所有用户的报告。
 
-* 租户必须具有与之关联的 Azure Active Directory Premium 许可证。
+* 租户必须将 Azure Active Directory Premium 许可证与其关联。
 
 * 必须属于以下角色之一：全局管理员、安全管理员或安全读取者。
 
@@ -42,29 +40,29 @@ ms.locfileid: "64906760"
 
 1. 在“监视”  下，选择“登录活动”  。
    
-    ![使用 Azure Active Directory 和登录名选项突出显示 Azure UI 的屏幕截图。](media/service-admin-access-usage/azure-portal-sign-ins.png)
+    ![Azure UI 的屏幕截图，其中突出显示了“Azure Active Directory”和“登录”选项。](media/service-admin-access-usage/azure-portal-sign-ins.png)
 
 1. 按“Microsoft Power BI”  或“Power BI Gateway”  筛选应用，再选择“应用”  。
 
-    **Microsoft Power BI**登录活动筛选器与服务相关的而**Power BI Gateway**登录特定于活动的本地数据网关的筛选器。
+    “Microsoft Power BI”筛选出与服务相关的登录活动，而“Power BI Gateway”则筛选出本地数据网关专属登录活动   。
    
-    ![与应用程序字段突出显示的登录名筛选器的屏幕截图。](media/service-admin-access-usage/sign-in-filter.png)
+    ![登录筛选器的屏幕截图，突出显示“应用程序”字段。](media/service-admin-access-usage/sign-in-filter.png)
 
 ## <a name="export-the-data"></a>导出数据
 
-你可以[下载的登录报告](/azure/active-directory/reports-monitoring/quickstart-download-sign-in-report)两种格式之一： CSV 文件或 JSON 文件。
+你可以以两种格式之一[下载登录报表](/azure/active-directory/reports-monitoring/quickstart-download-sign-in-report)：CSV 文件或 JSON 文件。
 
-![下载按钮的屏幕截图。](media/service-admin-access-usage/download-sign-in-data-csv.png)
+![“下载”按钮的屏幕截图。](media/service-admin-access-usage/download-sign-in-data-csv.png)
 
-在顶部**登录名**报表中，选择**下载**，然后选择下列选项之一：
+在“登录”报告的顶部，选择“下载”，然后选择以下选项之一   ：
 
-* **CSV**以下载当前已筛选数据的 CSV 文件。
+* **XSV**：下载当前已筛选数据的 CSV 文件。
 
-* **JSON**以下载当前已筛选数据的 JSON 文件。
+* **JSON**：下载当前已筛选数据的 JSON 文件。
 
 ## <a name="data-retention"></a>数据保留期
 
-与登录活动相关的数据最长可保留 30 天。 有关详细信息，请参阅[Azure Active Directory 报告保留策略](/azure/active-directory/reports-monitoring/reference-reports-data-retention)。
+与登录活动相关的数据最长可保留 30 天。 有关详细信息，请参阅 [Azure Active Directory 报表保留策略](/azure/active-directory/reports-monitoring/reference-reports-data-retention)。
 
 ## <a name="next-steps"></a>后续步骤
 

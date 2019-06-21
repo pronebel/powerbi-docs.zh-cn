@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 08/02/2018
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 9a99344438108d2f092220dfa1c66895355aeda0
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 7157ddd66c651519f59eb964f5fcf95eb127943c
+ms.sourcegitcommit: 762857c8ca09ce222cc3f8b006fa1b65d11e4ace
+ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61402940"
+ms.lasthandoff: 06/05/2019
+ms.locfileid: "66721453"
 ---
 # <a name="share-a-power-bi-dashboard-that-links-to-an-excel-file-in-onedrive"></a>共享链接到 OneDrive 中 Excel 文件的 Power BI 仪表板
 在 Power BI 中，你可以[连接到 OneDrive for Business 上的 Excel 工作簿](service-excel-workbook-files.md)并将该工作簿中的磁贴固定到仪表板。 共享该仪表板或创建包含该仪表板的内容包时：
@@ -56,6 +56,6 @@ ms.locfileid: "61402940"
 
 ## <a name="next-steps"></a>后续步骤
 * [从 Excel 将磁贴固定到 Power BI 仪表板](service-dashboard-pin-tile-from-excel.md)
-* [Power BI 基本概念](consumer/end-user-basic-concepts.md)
+* [Power BI 服务中设计器的基本概念](service-basic-concepts.md)
 * 更多问题？ [尝试参与 Power BI 社区](http://community.powerbi.com/)
 
