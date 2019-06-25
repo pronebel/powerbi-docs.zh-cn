@@ -11,11 +11,11 @@ ms.date: 03/07/2018
 ms.author: maggies
 LocalizationGroup: Dashboards
 ms.openlocfilehash: cab65ad12255b7a5ff2e37902684437f0e191723
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54280185"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61169005"
 ---
 # <a name="create-a-qr-code-for-a-tile-in-power-bi-to-use-in-the-mobile-apps"></a>在 Power BI 中为磁贴创建 QR 码以供在移动应用中使用
 Power BI 中的 QR 代码可以将现实生活中的任何东西直接连接到相关的 BI 信息 &#151; 无需进行导航或搜索。
