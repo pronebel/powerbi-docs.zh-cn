@@ -9,12 +9,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 06/01/2019
 ms.author: v-tatero
-ms.openlocfilehash: 1050cf5ee5060a19e4f38b98fb6766b6e5510451
-ms.sourcegitcommit: 81ba3572531cbe95ea0b887b94e91f94050f3129
+ms.openlocfilehash: 3465d9280af84a97ebf2ea5ec90ff60daf9e96fa
+ms.sourcegitcommit: 1c96b65a03ec0a0612e851dd58c363f4d56bca38
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/06/2019
-ms.locfileid: "66750990"
+ms.lasthandoff: 06/25/2019
+ms.locfileid: "67389537"
 ---
 # <a name="power-bi-webinars"></a>Power BI 网络研讨会
 
@@ -23,10 +23,6 @@ ms.locfileid: "66750990"
 ## <a name="upcoming-webinars"></a>即将举行的网络研讨会
 
 注册以听取 Power BI 专家的建议并参加实时问答会话。
-
-**Microsoft 在 Power BI 上运行：将 Power BI 用于现代财政部门**
-<br>作者：Pankaj Gudimella 和 Guru Kirthigavasan
-<br>[注册后于 6 月 25 日上午 10:00–11:00（太平洋标准时间）观看](https://info.microsoft.com/Microsoft-Runs-on-Power-BI-Using-Power-BI-in-Modern-Treasury-Registration.html?LCID=EN-US)
 
 **Power BI：如何从工作日 HR 数据中获得见解**
 <br>作者：Iman Eftekhari、来自 Agile Analytics 的 Julia Paton 和来自 QBE Insurance 的 Shahram Karimi
@@ -62,6 +58,10 @@ ms.locfileid: "66750990"
 <br>作者：Cory Hrncirik 和 Miguel Martinez
 <br>[注册并立即观看](https://info.microsoft.com/Microsoft-Runs-on-Power-BI-OnDemandRegistration.html?Is=Website)
 
+**Microsoft 在 Power BI 上运行：将 Power BI 用于现代财政部门**
+<br>作者：Pankaj Gudimella 和 Guru Kirthigavasan
+<br>[注册并立即观看](https://info.microsoft.com/Microsoft-Runs-on-Power-BI-Using-Power-BI-in-Modern-Treasury-Registration.html?LCID=EN-US)
+
 **使用 Power BI JavaScript API 增强应用程序功能**
 <br>作者：Nimrod Shalit
 <br>[注册并立即观看](https://info.microsoft.com/ww-landing-PBI-JavaScript-API-video.html)
@@ -80,7 +80,7 @@ ms.locfileid: "66750990"
 
 随时观看录制的会话
 
-### <a name="getting-started"></a>入门
+### <a name="getting-started"></a>开始使用
 
 **使用 Power BI、PowerApps 和 Microsoft Flow 自动化日常业务流程**
 <br>作者：Wim Coorevits 和 Enrique Plaza Garcia
@@ -141,17 +141,9 @@ ms.locfileid: "66750990"
 <br>作者：来自 US Medical IT 的 Stephen Cracknell 和 Stuart Macanliss
 <br>[注册并立即观看](https://info.microsoft.com/Proven-Techniques-for-Building-Effective-Dashboards-Registration.html?Is=Website)
 
-**使用位置智能提升 BI**
-<br>作者：来自 Esri 的 Scott Ball 和来自 Microsoft 的 Enrique Plaza
-<br>[注册并立即观看](https://info.microsoft.com/ww-ondeamnd-boost-powerbi-with-arcgis.html?Is=Website)
-
 **已向销售和服务应用智能**
 <br>作者：来自 Avanade 的 Ed Bobrin
 <br>[注册并立即观看](https://info.microsoft.com/applied-intelligence-for-sales-service.html?Is=Website)
-
-**成功的趋势策展人的 5 个习惯 - Rohit Bhargava**
-<br>作者：《Non-Obvious》的 Rohit Bhargava
-<br>[注册并立即观看](https://info.microsoft.com/ww-landing-5-Habits-of-a-Successful-Trend-Curator-Video.html?LCID=EN-US)
 
 **制造商：你的行业正在经历数字化转型 - 利用分析来保持领先地位，实现利润最大化**
 <br>作者：来自 Blue Margin 的 Jon Thompson 和来自 Elgin Fastener Group 的 Jim Pastor
@@ -160,6 +152,14 @@ ms.locfileid: "66750990"
 **使用新的 Power BI 和 data.world 连接器查看公用或专用数据集**
 <br>作者：Patrick McGarry 和 Miguel Martinez
 <br>[注册并立即观看](https://info.microsoft.com/data-world-connector-powerbi.html?Is=Website)
+
+**使用位置智能提升 BI**
+<br>作者：来自 Esri 的 Scott Ball 和来自 Microsoft 的 Enrique Plaza
+<br>[注册并立即观看](https://info.microsoft.com/ww-ondeamnd-boost-powerbi-with-arcgis.html?Is=Website)
+
+**成功的趋势策展人的 5 个习惯 - Rohit Bhargava**
+<br>作者：《Non-Obvious》的 Rohit Bhargava
+<br>[注册并立即观看](https://info.microsoft.com/ww-landing-5-Habits-of-a-Successful-Trend-Curator-Video.html?LCID=EN-US)
 
 ### <a name="community"></a>社区 ###
 
