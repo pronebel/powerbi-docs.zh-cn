@@ -10,14 +10,15 @@ ms.topic: conceptual
 ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Troubleshooting
-ms.openlocfilehash: 083d78552c124c3a53d669357678fb473dfcd5f2
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 0a80a75765d6e25f42163953e28b544171e8fdb2
+ms.sourcegitcommit: 58c649ec5fd2447a0f9ca4c4d45a0e9fff2f1b6a
+ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "65514560"
+ms.lasthandoff: 06/27/2019
+ms.locfileid: "67408323"
 ---
 # <a name="troubleshooting-analyze-in-excel"></a>Analyze in Excel 故障排除
+
 有时，在使用 Analyze in Excel 期间可会能收意外的结果，或功能未按预期工作。 此页提供针对 Analyze in Excel 常见问题的解决方案。
 
 > [!NOTE]
@@ -57,8 +58,6 @@ Excel 库的位级别必须与 Windows 版本的位级别匹配。 如果已经�
 如果你的 Excel OLE DB 提供程序客户端库是最新版本，则会显示一个对话框，如下所示︰
 
 ![](media/desktop-troubleshooting-analyze-in-excel/troubleshoot-analyze-excel_3.png)
-
-C:\Users\davidi\Desktop\powerbi-content-pr\articles\media\powerbi-desktop-troubleshooting-analyze-in-excel
 
 或者，如果你正安装的版本比计算机上已安装的版本更高，将显示以下对话框︰
 
