@@ -12,7 +12,7 @@ ms.date: 10/22/2018
 ms.custom: seodec18
 ms.openlocfilehash: 07441bd0446e37353984efe97e435ac83d2c355d
 ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: zh-CN
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "60978364"
@@ -30,7 +30,7 @@ Power BI 联机服务只需针对列出的终结点打开 TCP 端口 443。
 通配符 (*) 表示根域下的所有级别，并且在信息不可用时，我们将使用 N/A。 “目标”列是包含 FQDN/域和外部站点链接的列表，其中包含更多终结点信息  。
 
 >[!Important]
->下表中的信息并不代表美国政府云、德国云或中国云 **   。
+>下表中的信息并不代表美国政府云、德国云或中国云    。
 
 ## <a name="authentication"></a>身份验证
 

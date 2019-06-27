@@ -12,7 +12,7 @@ ms.author: davidi
 LocalizationGroup: Connect to data
 ms.openlocfilehash: b90ef66d2c118a70f1b18ed4fe302ce1db23e45c
 ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: zh-CN
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "64769735"
@@ -57,7 +57,7 @@ SWITCH (
 
 若要选择的字段，并将其应用，请转到**可视化效果**窗格。 在中**格式**区域中，选择**标题**以显示该视觉对象标题选项。 
 
-右键单击时**标题文本**，将显示上下文菜单，可以选择 ***fx * 条件格式设置**。 选择该菜单项时**标题文本**对话框随即出现。 
+右键单击时**标题文本**，将显示上下文菜单，可以选择 ***fx* 条件格式设置**。 选择该菜单项时**标题文本**对话框随即出现。 
 
 ![屏幕截图的标题文本对话框](media/desktop-conditional-formatting-visual-titles/expression-based-title-02b.png)
 
