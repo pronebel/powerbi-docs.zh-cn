@@ -1,279 +1,327 @@
 ---
 title: Power BI 中的数据刷新
-description: Power BI 中的数据刷新
+description: 本文从概念层面介绍了 Power BI 的数据刷新功能及其依赖项。
 author: mgblythe
 manager: kfile
 ms.reviewer: kayu
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 02/21/2019
+ms.date: 06/12/2019
 ms.author: mblythe
 LocalizationGroup: Data refresh
-ms.openlocfilehash: 149f6963cc59c70342bee824579f6ae4c97a16d1
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 24a559fe35291c5256a5280b3c7d63d110868f4a
+ms.sourcegitcommit: 69a0e340b1bff5cbe42293eed5daaccfff16d40a
+ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "60974104"
+ms.lasthandoff: 06/13/2019
+ms.locfileid: "67039057"
 ---
 # <a name="data-refresh-in-power-bi"></a>Power BI 中的数据刷新
-确保始终获得最新数据对于制定正确决策通常是至关重要的。 你可能已在 Power BI 中使用“获取数据”连接到并上载一些数据，创建了一些报表和仪表板。 现在，你要确保数据确实是最新且最好的。
 
-在许多情况下，完全无需执行任何操作。 某些数据（如来自 Salesforce 或 Marketo 内容包的数据）会自动为你刷新。 如果连接使用了实时连接或 DirectQuery，则数据会更新为最新状态。 但是在其他情况下，与连接到外部联机或本地数据源的 Excel 工作簿或 Power BI Desktop 文件一样，需要手动刷新或设置刷新计划，以便 Power BI 可以为你刷新报表和仪表板中的数据。
+借助 Power BI，你可以快速完成从数据到洞察再到操作的过程，但必须确保 Power BI 报表和仪表板中的数据是最新的。 了解如何刷新数据通常对于提供准确的结果至关重要。
 
-本文以及一些其他文章旨在帮助你了解 Power BI 中的数据刷新的实际工作原理、是否需要设置刷新计划以及成功刷新数据所需要完成的工作。
+本文从概念层面介绍了 Power BI 的数据刷新功能及其依赖项。 它还提供了避免常见刷新问题的最佳做法和技巧。 该内容为帮助你了解数据刷新的工作原理奠定了基础。 有关配置数据刷新的有针对性的分步说明，请参阅本文末尾的“后续步骤”部分中列出的教程和操作指南。
 
 ## <a name="understanding-data-refresh"></a>了解数据刷新
-设置刷新之前，请务必了解所刷新的内容以及在何处获取数据。
 
-数据源  是在报表和仪表板中浏览的数据的实际来源；例如，联机服务（如 Google Analytics 或 QuickBooks）、云中的数据库（如 Azure SQL 数据库）或者自己组织中的本地计算机或服务器上的数据库或文件。 这些都是数据源。 数据源的类型确定如何刷新其中的数据。 稍后我们会在[可以刷新的内容](#what-can-be-refreshed)部分中介绍每种数据源类型的刷新。
+每当你刷新数据时，Power BI 都必须查询基础数据源，可能要将源数据加载到数据集中，然后更新报表或仪表板中依赖于该更新数据集的所有可视化效果。 整个过程由多个阶段组成，具体取决于数据集的存储模式，如以下各节所述。
 
-使用“获取数据”连接到数据以及从内容包、文件上载数据或是连接到实时数据源时，会自动在 Power BI 中创建  数据集。 在 Power BI Desktop 和 Excel 2016 中，还可以将文件直接发布到 Power BI 服务（就如同使用“获取数据”一样）。
+若要了解 Power BI 如何刷新数据集、报表和仪表板，必须了解以下概念：
 
-在每种情况下，都会在 Power BI 服务中的“我的工作区”（或“组”）容器中创建并显示数据集。 对数据集选择**省略号 (...)** 时，可以浏览报表中的数据、编辑设置以及设置刷新。
+- **存储模式和数据集类型**：Power BI 支持的存储模式和数据集类型具有不同的刷新要求。 你可以选择将数据重新导入 Power BI 来查看发生的所有更改，也可以选择直接在源中查询数据。
+- **Power BI 刷新类型**：无论数据集的具体情况如何，了解各种刷新类型都可以帮助你了解 Power BI 在刷新操作期间将时间花在哪些地方。 将这些详细信息与存储模式细节相结合有助于了解为数据集选择“立即刷新”时 Power BI 的确切执行情况  。
 
-![](media/refresh-data/dataset-menu.png)
+### <a name="storage-modes-and-dataset-types"></a>存储模式和数据集类型
 
-数据集可以从一个或多个数据源获取数据。 例如，可以使用 Power BI Desktop 从组织中的 SQL 数据库中获取数据，并从联机 OData 源获取其他数据。 随后在将文件发布到 Power BI 中时，会创建单个数据集，但是它同时包含用于 SQL 数据库和 OData 源的数据源。
+Power BI 数据集可以在下列模式之一中运行，以访问各种数据源中的数据。 有关详细信息，请参阅 [Power BI Desktop 中的存储模式](desktop-storage-mode.md)。
 
-数据集包含有关数据源的信息、数据源凭据以及（在大多数情况下）从数据源复制的数据的子集。 在报表和仪表板中创建可视化效果时，你会查看数据集中的数据，或对于实时连接（如 Azure SQL 数据库），数据集会定义你直接从数据源查看的数据。 对于与 Analysis Services 之间的实时连接，数据集定义直接来自 Analysis Services。
+- 导入模式
+- DirectQuery 模式
+- LiveConnect 模式
+- 推送模式
 
-> *刷新数据时，会从数据源更新存储在 Power BI 中的数据集中的数据。此刷新是完全刷新，不是增量刷新。*
-> 
-> 
+下图阐释了基于存储模式的不同数据流。 最重要的一点是，只有导入模式数据集才需要刷新源数据。 之所以需要刷新，是因为只有这种数据集才会从其数据源导入数据，并且导入的数据可能会定期或临时更新。 DirectQuery 数据集以及在 LiveConnect 模式下连接到 Analysis Services 的数据集不导入数据；它们通过每次用户交互查询基础数据源。 推送模式下的数据集不直接访问任何数据源，但需要你将数据推送到 Power BI 中。 数据集刷新要求因存储模式/数据集类型而异。
 
-每次刷新数据集中的数据时（无论是使用“立即刷新”还是通过设置刷新计划），Power BI 都会使用数据集中的信息连接到为其定义的数据源，查询更新的数据，然后将更新的数据加载到数据集中。 报表或仪表板中基于这些数据的任何可视化效果都会自动更新。
+![存储模式和数据集类型](media/refresh-data/storage-modes-dataset-types-diagram.png)
 
-继续讨论之前，有其他一些需要了解的重要事项：
+#### <a name="datasets-in-import-mode"></a>导入模式下的数据集
 
-> *无论以何种频率刷新数据集，或是以何种频率查看实时数据，都必须首先更新数据源中的数据。*
-> 
-> 
+Power BI 将数据从原始数据源导入到数据集中。 提交到数据集的 Power BI 报表和仪表板查询从导入的表和列中返回结果。 可以将此类数据集视为时间点副本。 由于 Power BI 复制数据，因此必须刷新数据集以从基础数据源提取更改。
 
-大多数组织一天处理一次数据（通常在晚上）。 如果针对从连接到本地数据库的 Power BI Desktop 文件创建的数据集计划刷新，并且 IT 部门在晚上对该 SQL 数据库运行一次处理，则只需将计划的刷新设置为一天运行一次。 例如，对数据库进行处理之后，但是在你进入工作之前。 当然，并非总是这种情况。 Power BI 提供了许多方法来连接到经常更新甚至是实时更新的数据源。
+由于 Power BI 缓存数据，因此导入模式数据集可能会很大。 有关每种容量的最大数据集大小，请参阅下表。 通过将数据集大小保持在远低于最大大小的水平，可避免在刷新操作期间数据集需要的资源超过可用资源上限时出现刷新问题。
 
-## <a name="types-of-refresh"></a>刷新的类型
-在 Power BI 中进行的刷新有四种主要类型。 包刷新、模型/数据刷新、磁贴刷新和视觉对象容器刷新。
+| 容量类型 | 最大数据集大小 |
+| --- | --- |
+| 共享、A1、A2 或 A3 | 1GB |
+| A4 或 P1 | 3 GB |
+| A4 或 P2 | 6 GB |
+| A6 或 P3 | 10GB |
+| | |
 
-### <a name="package-refresh"></a>包刷新
-这会在 Power BI 服务与 OneDrive（或 SharePoint Online）之间同步 Power BI Desktop（或 Excel）文件。 这不会从原始数据源请求数据。 Power BI 中的数据集只使用 OneDrive（或 SharePoint Online）中的文件内容进行更新。
+#### <a name="datasets-in-directqueryliveconnect-mode"></a>DirectQuery/LiveConnect 模式下的数据集
 
-![](media/refresh-data/package-refresh.png)
+Power BI 不会通过在 DirectQuery/LiveConnect 模式下运行的连接导入数据。 相反，只要报表或仪表板查询数据集，数据集就会从基础数据源返回结果。 Power BI 转换查询并将其转发到数据源。
 
-### <a name="modeldata-refresh"></a>模型/数据刷新
-这指的是在 Power BI 服务中使用来自原始数据源的数据刷新数据集。 这使用计划的刷新或立即刷新来进行。 对于本地数据源，这需要网关。
+尽管在 DirectQuery 模式和 LiveConnect 模式下，Power BI 都会将查询转发到源，但值得注意的是，Power BI 在 LiveConnect 模式下不必转换查询。 查询直接转到托管数据库的 Analysis Services 实例，而不会消耗共享容量或高级容量上的资源。
 
-### <a name="tile-refresh"></a>磁贴刷新
-在数据更改之后，磁贴刷新会为仪表板上的磁贴视觉对象更新缓存。 这大约每十五分钟进行一次。 还可以通过选择仪表板右上角的“省略号 (...)”  并选择“刷新仪表板磁贴”  来强制进行磁贴刷新。
+由于 Power BI 不导入数据，因此无需运行数据刷新。 但是，Power BI 仍执行磁贴刷新，还有可能执行报表刷新，如介绍刷新类型的下一节所述。 磁贴是固定到仪表板的报表视觉对象，仪表板磁贴大约每隔一小时刷新一次，以便磁贴显示最新的结果。 可以在数据集设置中更改计划，如下面的屏幕截图所示，或使用“立即刷新”选项手动强制更新仪表板  。
 
-![](media/refresh-data/dashboard-tile-refresh.png)
-
-有关常见磁贴刷新错误的详细信息，请参阅[磁贴错误故障排除](refresh-troubleshooting-tile-errors.md)。
-
-### <a name="visual-container-refresh"></a>视觉对象容器刷新
-在数据更改之后，刷新视觉对象容器会在报表中更新缓存的报表视觉对象。
-
-## <a name="what-can-be-refreshed"></a>可以刷新的内容
-在 Power BI 中，通常使用“获取数据”从位于本地驱动器、OneDrive 或 SharePoint Online 上的文件导入数据、从 Power BI Desktop 发布报表或直接连接到你自己组织的云环境中的数据库。 可以刷新 Power BI 中的几乎任何数据，不过是否需要则取决于创建数据集的方式以及它连接到的数据源。 我们来看看在每种情况下如何刷新数据。
-
-继续讨论之前，下面是一些需要了解的重要定义：
-
-**自动刷新** - 这表示无需进行任何用户配置，数据集即可定期刷新。 由 Power BI 为你配置数据刷新设置。 对于联机服务提供程序，刷新通常一天进行一次。 对于从 OneDrive 加载的文件，大约每小时针对不是来自外部数据源的数据进行一次自动刷新。 虽然可以配置不同的计划刷新设置以及手动刷新，不过可能不需要。
-
-**用户配置的手动或计划的刷新** – 这表示可以使用“立即刷新”来手动刷新数据集，或是使用数据集设置中的“计划刷新”来设置刷新计划。 对于连接到外部联机和本地数据源的 Power BI Desktop 文件和 Excel 工作簿，需要这种类型的刷新。
+![刷新计划](media/refresh-data/refresh-schedule.png)
 
 > [!NOTE]
-> 配置计划刷新的时间后，可能会滞后长达 1 小时才能开始刷新数据。
-> 
-> 
+> “数据集”选项卡的“计划的缓存刷新”部分不适用于导入模式下的数据集   。 这些数据集不需要单独刷新磁贴，因为 Power BI 会在每次计划或按需数据刷新期间自动刷新磁贴。
 
-**实时/DirectQuery** – 这表示 Power BI 与数据源之间存在实时连接。 对于本地数据源，管理员需要在企业网关中配置数据源，但是可能不需要用户交互。
+#### <a name="push-datasets"></a>推送数据集
 
-> [!NOTE]
-> 为了增强性能，具有使用 DirectQuery 连接的数据的仪表板会自动更新。 你也可以随时使用磁贴上的“**更多**”菜单手动刷新该磁贴。
-> 
-> 
-
-## <a name="local-files-and-files-on-onedrive-or-sharepoint-online"></a>本地文件和 OneDrive 或 SharePoint Online 上的文件
-对于连接到外部联机或本地数据源的 Power BI Desktop 文件和 Excel 工作簿，支持数据刷新。 这只会为 Power BI 服务中的数据集刷新数据。 它不会更新本地文件。
-
-将文件保留在 OneDrive（或 SharePoint Online）上并从 Power BI 连接到它们可提供非常高的灵活性。 不过与这一灵活性随之而来的，是它也成为最难以理解的情况之一。 针对存储在 OneDrive（或 SharePoint Online）中的文件的计划的刷新与包刷新不同。 可以在[刷新的类型](#types-of-refresh)部分中了解详细信息。
-
-### <a name="power-bi-desktop-file"></a>Power BI Desktop 文件
-
-| **数据源** | **自动刷新** | **用户配置的手动或计划的刷新** | **需要网关** |
-| --- | --- | --- | --- |
-| “获取数据”（在功能区中）用于连接到任何列出的联机数据源并从中查询数据。 |否 |是 |否（见下文） |
-| “获取数据”用于连接到并浏览实时 Analysis Services 数据库。 |是 |否 |是 |
-| “获取数据”用于连接到并浏览支持的本地 DirectQuery 数据源。 |是 |否 |是 |
-| “获取数据”用于连接到 Azure SQL 数据库、Azure SQL 数据仓库、Azure HDInsight Spark 并从中查询数据。 |是 |是 |否 |
-| “获取数据”用于连接到任何列出的本地数据源（Hadoop 文件 (HDFS) 和 Microsoft Exchange 除外）并从中查询数据。 |否 |是 |是 |
+推送数据集不包含数据源的正式定义，因此它们不要求你在 Power BI 中执行数据刷新。 可以通过使用外部服务或进程（例如 Azure 流分析）将数据推送到数据集来刷新它们。 这是使用 Power BI 进行实时分析的常用方法。 Power BI 仍会对基于推送数据集使用的所有磁贴执行缓存刷新。 有关详细演练，请参阅[教程：流分析和 Power BI：针对流式处理数据的实时分析仪表板](/azure/stream-analytics/stream-analytics-power-bi-dashboard)。
 
 > [!NOTE]
-> 使用 [**Web.Page**](https://msdn.microsoft.com/library/mt260924.aspx) 功能时，如果已重新发布 2016 年 11 月 18 日之后的数据集或报表，将需要网关。
-> 
-> 
+> 如 [Power BI REST API 限制](developer/api-rest-api-limitations.md)中所述，推送模式存在若干限制。
 
-有关详细信息，请参阅[刷新从 OneDrive 上的 Power BI Desktop 文件创建的数据集](refresh-desktop-file-onedrive.md)。
+### <a name="power-bi-refresh-types"></a>Power BI 刷新类型
 
-### <a name="excel-workbook"></a>Excel 工作簿
+Power BI 刷新操作可以包含多种刷新类型，包括数据刷新、OneDrive 刷新、查询缓存刷新、磁贴刷新和报表视觉对象刷新。 虽然 Power BI 会自动确定给定数据集所需的刷新步骤，但你应该知道它们如何影响刷新操作的复杂性和持续时间。 有关快速参考，请参阅下表。
 
-| **数据源** | **自动刷新** | **用户配置的手动或计划的刷新** | **需要网关** |
-| --- | --- | --- | --- |
-| 未加载到 Excel 数据模型中的工作表中的数据表。 |是，每小时 *（仅限 OneDrive/SharePoint Online）* |仅限手动 *（仅限 OneDrive/SharePoint Online）* |否 |
-| 链接到 Excel 数据模型中的表（链接表）的工作表中的数据表。 |是，每小时 *（仅限 OneDrive/SharePoint Online）* |仅限手动 *（仅限 OneDrive/SharePoint Online）* |否 |
-| Power Query* 用于连接到任何列出的联机数据源并从中查询数据，以及将数据加载到 Excel 数据模型中。 |否 |是 |否 |
-| Power Query* 用于连接到任何列出的本地数据源（Hadoop 文件 (HDFS) 和 Microsoft Exchange 除外）并从中查询数据，以及将数据加载到 Excel 数据模型中。 |否 |是 |是 |
-| Power Pivot 用于连接到任何列出的联机数据源并从中查询数据，以及将数据加载到 Excel 数据模型中。 |否 |是 |否 |
-| Power Pivot 用于连接到任何列出的本地数据源并从中查询数据，以及将数据加载到 Excel 数据模型中。 |否 |是 |是 |
+| 存储模式 | 数据刷新 | OneDrive 刷新 | 查询缓存 | 磁贴刷新 | 报表视觉对象 |
+| --- | --- | --- | --- | --- | --- |
+| 导入 | 计划和按需 | 是，针对已连接的数据集 | 如果已在高级容量上启用 | 自动和按需 | 否 |
+| DirectQuery | 不适用 | 是，针对已连接的数据集 | 如果已在高级容量上启用 | 自动和按需 | 否 |
+| LiveConnect | 不适用 | 是，针对已连接的数据集 | 如果已在高级容量上启用 | 自动和按需 | 是 |
+| 推送 | 不适用 | 不适用 | 不可行 | 自动和按需 | 否 |
+| | | | | | |
 
-*\*Power Query 在 Excel 2016 中名为“获取并转换数据”。*
+#### <a name="data-refresh"></a>数据刷新
 
-有关详细信息，请参阅[刷新从 OneDrive 上的 Excel 工作簿创建的数据集](refresh-excel-file-onedrive.md)。
+对 Power BI 用户而言，刷新数据通常意味着根据刷新计划或按需将数据从原始数据源导入到数据集。 可以每天执行多次数据集刷新，如果基础源数据经常更改，则可能必须执行多次刷新。 Power BI 将共享容量上的数据集限制为每天最多刷新 8 次。 如果数据集驻留在高级容量上，则每天最多可执行 48 次刷新。 有关详细信息，请参阅本文后面的“配置计划刷新”。
 
-### <a name="comma-separated-value-csv-file-on-onedrive-or-sharepoint-online"></a>OneDrive 或 SharePoint Online 上的逗号分隔值 (.csv) 文件
+还有一点非常重要，即，每日刷新限制适用于计划刷新和按需刷新，而且计两者之和。 可以通过在数据集菜单中选择“立即刷新”来触发按需刷新，如下面的屏幕截图所示  。 也可以使用 Power BI REST API 以编程方式触发数据刷新。 如果你有兴趣生成自己的刷新解决方案，请参阅[数据集 - 刷新数据集](/rest/api/power-bi/datasets/refreshdataset)。
 
-| **数据源** | **自动刷新** | **用户配置的手动或计划的刷新** | **需要网关** |
-| --- | --- | --- | --- |
-| 简单的逗号分隔值 |是，每小时 |仅限手动 |否 |
-
-有关详细信息，请参阅[刷新从 OneDrive 上的逗号分隔值 (.csv) 文件创建的数据集](refresh-csv-file-onedrive.md)。
-
-## <a name="content-packs"></a>内容包
-Power BI 中有两种类型的内容包：
-
-**来自联机服务的内容包**：如 Adobe Analytics、SalesForce 和 Dynamics CRM Online。 从联机服务创建的数据集一天自动刷新一次。 尽管可能不需要，不过可以手动刷新或设置刷新计划。 由于联机服务处于云中，因此不需要网关。
-
-**组织内容包**：由你自己组织中的用户创建并共享。 内容包使用者无法设置刷新计划或手动刷新。 只有内容包创建者才能为内容包中的数据集设置刷新。 刷新设置随数据集一起继承。
-
-### <a name="content-packs-from-online-services"></a>来自联机服务的内容包
-
-| **数据源** | **自动刷新** | **用户配置的手动或计划的刷新** | **需要网关** |
-| --- | --- | --- | --- |
-| “获取数据”&gt;“服务”中的联机服务 |是 |是 |否 |
-
-### <a name="organizational-content-packs"></a>组织内容包
-包含在组织内容包中的数据集的刷新功能取决于数据集。 请参阅上面与本地文件、OneDrive 或 SharePoint Online 相关的信息。
-
-若要了解详细信息，请参阅[组织内容包简介](service-organizational-content-pack-introduction.md)。
-
-## <a name="live-connections-and-directquery-to-on-premises-data-sources"></a>与本地数据源之间的实时连接和 DirectQuery
-借助本地数据网关，可以从 Power BI 向本地数据源发出查询。 与可视化效果交互时，查询会从 Power BI 直接发送到数据库。 随后会返回更新的数据并更新可视化效果。 由于 Power BI 与数据库之间存在直接连接，因此无需计划刷新。
-
-使用实时连接连接到 SQL Service Analysis Services (SSAS) 数据源与使用 DirectQuery 不同，与 SSAS 源的实时连接可以针对缓存运行，即使是在加载报表后，也不例外。 此行为提升了报表的加载性能。 可以使用“刷新”  按钮，从 SSAS 数据源请求获取最新数据。 SSAS 数据源的所有者可以为数据集配置计划缓存刷新频次，确保报表按照所需的频次不断更新。 
-
-使用本地数据网关配置数据源时，可以将该数据源用作计划的刷新选项。 这会代替使用个人网关。
+![立即刷新](media/refresh-data/refresh-now.png)
 
 > [!NOTE]
-> 如果为数据集配置了实时或 DirectQuery 连接，数据集大约会每小时刷新一次，或在发生数据交互时进行刷新。 可以在 Power BI 服务的“  计划的缓存刷新”选项中手动调整  刷新频率。
-> 
-> 
+> 数据刷新必须在 2 小时内完成。 如果数据集需要进行更长时间的刷新操作，请考虑将数据集移到高级容量上。 在高级容量上，最长刷新持续时间为 5 小时。
 
-| **数据源** | **实时/DirectQuery** | **用户配置的手动或计划的刷新** | **需要网关** |
-| --- | --- | --- | --- |
-| Analysis Services 表格 |是 |是 |是 |
-| Analysis Services 多维 |是 |是 |是 |
-| SQL Server |是 |是 |是 |
-| SAP HANA |是 |是 |是 |
-| Oracle |是 |是 |是 |
-| Teradata |是 |是 |是 |
+#### <a name="onedrive-refresh"></a>OneDrive 刷新
 
-若要了解详细信息，请参阅[本地数据网关](service-gateway-onprem.md)。
+如果数据集和报表是基于 OneDrive 或 SharePoint Online 上的 Power BI Desktop 文件、Excel 工作簿或逗号分隔值 (.csv) 文件创建的，则 Power BI 会执行另一种类型的刷新，称为 OneDrive 刷新。 有关详细信息，请参阅[从 Power BI 文件获取数据](service-get-data-from-files.md)。
 
-## <a name="databases-in-the-cloud"></a>云中的数据库
-使用 DirectQuery 时，Power BI 与云中的数据源之间存在直接连接。 与可视化效果交互时，查询会从 Power BI 直接发送到数据库。 随后会返回更新的数据并更新可视化效果。 而且，由于 Power BI 服务和数据源都处于云中，因此不需要个人网关。
+OneDrive 刷新与 Power BI 将数据从数据源导入到数据集的数据集刷新不同，它会将数据集和报表与其源文件同步。 默认情况下，Power BI 以大约每小时一次的频率检查连接到 OneDrive 或 SharePoint Online 上的文件的数据集是否需要同步。 若要查看过去的同步周期，请检查刷新历史记录中的 OneDrive 选项卡。 以下屏幕截图显示了示例数据集的完整同步周期。
 
-如果可视化效果没有发生用户交互，数据大约会每小时自动刷新一次。 可以使用“  计划的缓存刷新”选项更改刷新频率，并能设置刷新频率。
+![刷新历史记录](media/refresh-data/refresh-history.png)
 
-若要设置刷新频率，请选择 Power BI 服务右上角的**齿轮**图标，然后选择“**设置**”。
+如上面的屏幕截图所示，Power BI 将此 OneDrive 刷新标识为**计划**刷新，但无法配置刷新间隔。 只能在数据集设置中停用 OneDrive 刷新。 如果不希望 Power BI 中的数据集和报表自动从源文件中获取任何更改，则停用刷新非常有用。
 
-![](media/refresh-data/refresh-data_2.png)
+请注意，仅当数据集连接到 OneDrive 或 SharePoint Online 中的文件时，数据集设置页面才会显示“OneDrive 凭据”和“OneDrive 刷新”部分，如以下屏幕截图所示   。 未连接到 OneDrive 或 SharePoint Online 中的源文件的数据集不显示这些部分。
 
-此时，你会看到“**设置**”页，可以在其中选择要调整其刷新频率的数据集。 在此页上，选择最上面一列中的“**数据集**”选项卡。
+![OneDrive 凭据和 OneDrive 刷新](media/refresh-data/onedrive-credentials-refresh.png)
 
-![](media/refresh-data/refresh-data_3.png)
+为数据集禁用 OneDrive 刷新后，仍可以通过在数据集菜单中选择“立即刷新”来按需同步数据集  。 在按需刷新过程中，Power BI 会检查 OneDrive 或 SharePoint Online 上的源文件是否比 Power BI 中的数据集更新，如果是，则同步数据集。 “刷新历史记录”会在“OneDrive”选项卡上将这些活动列为按需刷新   。
 
-选择数据集，然后右窗格中会显示此数据集适用的一组选项。 对于 DirectQuery/实时连接，可以使用相关的下拉菜单设置刷新频率（从 15 分钟刷新一次到每周刷新一次），如下图所示。
+请记住，OneDrive 刷新不会从原始数据源中请求数据， 而只是使用 .pbix、.xlsx 或 .csv 文件中的元数据和数据更新 Power BI 中的资源，如下图所示。 为确保数据集具有数据源中的最新数据，Power BI 还会在按需刷新过程中触发数据刷新。 你可以在“刷新历史记录”中切换到“计划”选项卡来对此进行验证   。
 
-![](media/refresh-data/refresh-data_1.png)
+![OneDrive 刷新图](media/refresh-data/onedrive-refresh-diagram.png)
 
-| **数据源** | **实时/DirectQuery** | **用户配置的手动或计划的刷新** | **需要网关** |
-| --- | --- | --- | --- |
-| SQL Azure 数据仓库 |是 |是 |否 |
-| HDInsight 上的 Spark |是 |是 |否 |
+如果为连接 OneDrive 或 SharePoint Online 的数据集一直启用 OneDrive 刷新，并且希望按计划执行数据刷新，请确保配置计划，以便 Power BI 在 OneDrive 刷新后执行数据刷新。 例如，如果你创建自己的服务或进程，以在每天凌晨 1 点更新 OneDrive 或 SharePoint Online 中的源文件，则可以将计划刷新配置为凌晨 2:30，以便为 Power BI 提供足够的时间来完成 OneDrive 刷新，然后再启动数据刷新。
 
-若要了解详细信息，请参阅 [Azure 和 Power BI](service-azure-and-power-bi.md)。
+#### <a name="refresh-of-query-caches"></a>查询缓存刷新
 
-## <a name="real-time-dashboards"></a>实时仪表板
-实时仪表板使用 Microsoft Power BI REST API 或 Microsoft Stream Analytics 来确保数据是最新状态。 由于实时仪表板不需要用户配置刷新，因此它们不在本文讨论范围之内。
+如果数据集驻留在高级容量上，则可以通过启用查询缓存来提高所有关联报表和仪表板的性能，如以下屏幕截图所示。 查询缓存会指示高级容量使用其本地缓存服务来维护查询结果，避免基本数据源计算这些结果。 有关详细信息，请参阅 [Power BI Premium 中的查询缓存](power-bi-query-caching.md)。
 
-| **数据源** | **自动** | **用户配置的手动或计划的刷新** | **需要网关** |
-| --- | --- | --- | --- |
-| 使用 Power BI Rest API 或 Microsoft Stream Analytics 开发的自定义应用 |是，实时流式处理 |否 |否 |
+![查询缓存](media/refresh-data/query-caching.png)
+
+但是，在进行数据刷新之后，先前缓存的查询结果便不再有效。 Power BI 会丢弃这些缓存结果，并且必须重新生成它们。 因此，对于与经常刷新（例如每天 48 次）的数据集关联的报表和仪表板，使用查询缓存的意义不大。
+
+#### <a name="tile-refresh"></a>磁贴刷新
+
+Power BI 为仪表板上的每个磁贴视觉对象维护一个缓存，并在数据更改时主动更新磁贴缓存。 换句话说，在数据刷新之后会自动进行磁贴刷新。 计划刷新操作和按需刷新操作都是如此。 还可以通过选择仪表板右上角的省略号 (...) 并选择“刷新仪表板磁贴”来强制进行磁贴刷新  。
+
+![刷新仪表板磁贴](media/refresh-data/refresh-dashboard-tiles.png)
+
+由于它是自动发生的，因此可以将磁贴刷新视为数据刷新固有的一部分。 此外，你可能会注意到刷新持续时间随着磁贴数量的增加而增加。 磁贴刷新开销可能很大。
+
+默认情况下，Power BI 为每个磁贴维护一个缓存，但如果使用动态安全性根据用户角色来限制数据访问（如 [Power BI 行级别安全性 (RLS)](service-admin-rls.md) 一文所述），则 Power BI 必须为每个角色和每个磁贴维护一个缓存。 磁贴缓存的数量乘以角色的数量。
+
+如教程[通过 Analysis Services 表格模型实现动态行级别安全性](desktop-tutorial-row-level-security-onprem-ssas-tabular.md)中所强调的那样，如果数据集通过 RLS 实时连接到 Analysis Services 数据模型，则情况会更加复杂。 在这种情况下，Power BI 必须为每个磁贴和每个查看过仪表板的用户维护和刷新缓存。 此类数据刷新操作的磁贴刷新部分会远远超出从源提取数据所花费的时间，且这种情况并不少见。 有关磁贴刷新的更多详细信息，请参阅[磁贴错误故障排除](refresh-troubleshooting-tile-errors.md)。
+
+#### <a name="refresh-of-report-visuals"></a>报表视觉对象刷新
+
+此刷新过程不太重要，因为它仅与 Analysis Services 的实时连接有关。 对于这些连接，Power BI 会缓存报表视觉对象的最后一个状态，这样一来，当你再次查看报表时，Power BI 就不必查询 Analysis Services 表格模型。 当你与报表交互时（例如通过更改报表筛选器），Power BI 会查询表格模型并自动更新报表视觉对象。 如果你怀疑报表显示过时数据，还可以选择报表的“刷新”按钮来触发所有报表视觉对象的刷新操作，如以下屏幕截图所示。
+
+![刷新报表视觉对象](media/refresh-data/refresh-report-visuals.png)
+
+## <a name="review-data-infrastructure-dependencies"></a>查看数据基础结构依赖项
+
+无论采用哪种存储模式，都必须能够访问基础数据源，否则将无法成功刷新数据。 有三种主要的数据访问方案：
+
+- 数据集使用驻留在本地的数据源
+- 数据集使用云中的数据源
+- 数据集使用来自本地源和云源的数据
+
+### <a name="connecting-to-on-premises-data-sources"></a>连接到本地数据源
+
+如果数据集使用 Power BI 无法通过直接网络连接访问的数据源，则必须先为此数据集配置网关连接，然后才能启用刷新计划或执行按需数据刷新。 有关数据网关及其工作原理的详细信息，请参阅[什么是本地数据网关？](service-gateway-getting-started.md)
+
+你有以下选择：
+
+- 选择具有所需数据源定义的企业数据网关
+- 部署个人数据网关
+
+> [!NOTE]
+> 可以在[管理数据源 - 导入/计划刷新](service-gateway-enterprise-manage-scheduled-refresh.md)一文中找到需要数据网关的数据源类型列表。
+
+#### <a name="using-an-enterprise-data-gateway"></a>使用企业数据网关
+
+Microsoft 建议使用企业数据网关（而不是个人网关）将数据集连接到本地数据源。 请确保正确配置网关，这意味着网关必须具有最新的更新和所有必需的数据源定义。 数据源定义可为 Power BI 提供给定源的连接信息，包括连接终结点、身份验证模式和凭据。 有关在网关上管理数据源的详细信息，请参阅[管理数据源 - 导入/计划刷新](service-gateway-enterprise-manage-scheduled-refresh.md)。
+
+如果你是网关管理员，则将数据集连接到企业网关相对来说比较简单。 必要时，可以使用管理员权限立即更新网关并添加缺少的数据源。 事实上，可以直接从数据集设置页面向网关添加缺少的数据源。 展开切换按钮以查看数据源，然后选择“添加到网关”链接，如以下屏幕截图所示  。 但是，如果你不是网关管理员，请使用所显示的联系信息向网关管理员发送请求，以添加所需的数据源定义。
+
+![添加到网关](media/refresh-data/add-to-gateway.png)
+
+> [!NOTE]
+> 一个数据集只能使用一个网关连接。 换句话说，不能跨多个网关连接访问本地数据源。 因此，必须将所有必需的数据源定义添加到同一网关。
+
+#### <a name="deploying-a-personal-data-gateway"></a>部署个人数据网关
+
+如果你无权访问企业数据网关，并且你是唯一管理数据集的人员，因此无需与其他人共享数据源，则可以在个人模式下部署数据网关。 在“网关连接”部分的“未安装个人网关”下，选择“立即安装”    。 如[本地数据网关（个人模式）](service-gateway-personal-mode.md)中所述，个人数据网关存在若干限制。
+
+与企业数据网关不同，你无需向个人网关添加数据源定义， 而是使用数据集设置中的“数据源凭据”部分来管理数据源配置，如以下屏幕截图所示  。
+
+![配置网关的数据源凭据](media/refresh-data/configure-data-source-credentials-gateway.png)
+
+> [!NOTE]
+> 个人数据网关不支持 DirectQuery/LiveConnect 模式下的数据集。 数据集设置页面可能会提示你安装它，但如果你只有个人网关，则无法配置网关连接。 请确保安装企业数据网关来支持这些类型的数据集。
+
+### <a name="accessing-cloud-data-sources"></a>访问云数据源
+
+如果 Power BI 可以与云数据源（如 Azure SQL DB）建立直接网络连接，则使用该源的数据集不需要数据网关。 相应地，可以使用数据集设置中的“数据源凭据”部分来管理这些数据源的配置  。 如以下屏幕截图所示，你无需配置网关连接。
+
+![在没有网关的情况下配置数据源凭据](media/refresh-data/configure-data-source-credentials.png)
+
+### <a name="accessing-on-premises-and-cloud-sources-in-the-same-source-query"></a>在同一源查询中访问本地源和云源
+
+数据集可以从多个源获取数据，这些源可以驻留在本地或云中。 但是，如前所述，一个数据集只能使用一个网关连接。 虽然云数据源不一定需要网关，但如果数据集在单个糅合查询中同时连接到本地源和云源，则需要网关。 在此方案中，Power BI 也必须使用网关来访问云数据源。 下图阐释了此类数据集如何访问其数据源。
+
+![云和本地数据源](media/refresh-data/cloud-on-premises-data-sources-diagram.png)
+
+> [!NOTE]
+> 如果数据集使用不同的糅合查询连接到本地源和云源，则 Power BI 使用网关连接访问本地源，使用直接网络连接访问云源。 如果糅合查询合并或追加​​来自本地源和云源的数据，则即使是云源，Power BI 也会切换为使用网关连接。
+
+Power BI 数据集依靠 Power Query 来访问和检索源数据。 以下糅合列表显示了合并来自本地源和云源的数据的基本查询示例。
+
+```
+Let
+
+    OnPremSource = Sql.Database("on-premises-db", "AdventureWorks"),
+
+    CloudSource = Sql.Databases("cloudsql.database.windows.net", "AdventureWorks"),
+
+    TableData1 = OnPremSource{[Schema="Sales",Item="Customer"]}[Data],
+
+    TableData2 = CloudSource {[Schema="Sales",Item="Customer"]}[Data],
+
+    MergedData = Table.NestedJoin(TableData1, {"BusinessEntityID"}, TableData2, {"BusinessEntityID"}, "MergedData", JoinKind.Inner)
+
+in
+
+    MergedData
+```
+
+可通过以下两种方式来配置数据网关，以支持合并或追加来自本地源和云源的​​数据：
+
+- 除本地数据源外，将云源的数据源定义也添加到数据网关。
+- 启用复选框“允许用户的云数据源通过此网关群集刷新”  。
+
+![通过网关群集刷新](media/refresh-data/refresh-gateway-cluster.png)
+
+如果启用复选框“允许用户的云数据源通过网关配置中的此网关群集刷新”（如上面的屏幕截图所示），Power BI 可以使用用户在数据集设置中的“数据源凭据”下为云源定义的配置   。 这有助于降低网关配置开销。 但是，如果希望更好地控制网关建立的连接，则不应启用此复选框。 在这种情况下，必须向网关添加要支持的每个云源的显式数据源定义。 也可以启用该复选框，并向网关添加云源的显式数据源定义。 在这种情况下，网关会使用所有匹配源的数据源定义。
+
+### <a name="configuring-query-parameters"></a>配置查询参数
+
+使用 Power Query 创建的糅合或 M 查询的复杂程度可能不同，既有可能是简单的步骤，也有可能是复杂的参数化构造。 以下列表显示了一个小型糅合查询示例，它使用两个名为 _SchemaName_ 和 _TableName_ 的参数来访问 AdventureWorks 数据库中的给定表。
+
+```
+let
+
+    Source = Sql.Database("SqlServer01", "AdventureWorks"),
+
+    TableData = Source{[Schema=SchemaName,Item=TableName]}[Data]
+
+in
+
+    TableData
+```
+
+> [!NOTE]
+> 查询参数仅适用于导入模式数据集。 DirectQuery/LiveConnect 模式不支持查询参数定义。
+
+若要确保参数化数据集访问正确的数据，必须在数据集设置中配置糅合查询参数。 也可以使用 [Power BI REST API](/rest/api/power-bi/datasets/updateparametersingroup) 以编程方式更新参数。 以下屏幕截图显示了一个用户界面，可在其中配置使用上述糅合查询的数据集的查询参数。
+
+![配置查询参数](media/refresh-data/configure-query-parameters.png)
+
+> [!NOTE]
+> Power BI 当前不支持参数化数据源定义，也称为动态数据源。 例如，无法参数化数据访问函数 Sql.Database("SqlServer01", "AdventureWorks")。 如果数据集依赖于动态数据源，Power BI 会通知你它检测到未知或不受支持的数据源。 如果希望 Power BI 能够识别并连接到数据源，则必须使用静态值替换数据访问函数中的参数。 有关详细信息，请参阅[不支持刷新的数据源故障排除](service-admin-troubleshoot-unsupported-data-source-for-refresh.md)。
 
 ## <a name="configure-scheduled-refresh"></a>配置计划刷新
-若要了解如何配置计划的刷新，请参阅[配置计划的刷新](refresh-scheduled-refresh.md)
 
-## <a name="common-data-refresh-scenarios"></a>常见数据刷新方案
-有时，了解 Power BI 中的数据刷新的最佳方法是查看示例。 下面是一些较常见的数据刷新方案：
+配置数据刷新时，在 Power BI 和数据源之间建立连接是目前为止最具挑战性的任务。 其余步骤（包括设置刷新计划和启用刷新失败通知）相对来说比较简单。 有关分步说明，请参阅操作指南[配置计划刷新](refresh-scheduled-refresh.md)。
 
-### <a name="excel-workbook-with-tables-of-data"></a>包含数据表的 Excel 工作簿
-你的 Excel 工作簿包含多个数据表，但它们都未加载到 Excel 数据模型中。 你使用“获取数据”将工作簿文件从本地驱动器上载到 Power BI 中，然后创建一个仪表板。 但是，现在你在本地驱动器上对工作簿的几个表进行了一些更改，要使用新数据在 Power BI 中更新仪表板。
+### <a name="setting-a-refresh-schedule"></a>设置刷新计划
 
-遗憾的是，此方案中不支持刷新。 若要为仪表板刷新数据集，你必须重新上载工作簿。 但是，有一个确实很棒的解决方案：将工作簿文件置于 OneDrive 或 SharePoint Online 上！
+可在“计划刷新”部分定义数据集的刷新频率和时间段  。 如前所述，如果数据集位于共享容量上，则可以配置每天最多 8 个时间段，如果位于 Power BI Premium 上，则可以配置每天最多 48 个时间段。 以下屏幕截图显示了时间间隔为 12 小时的刷新计划。
 
-连接到 OneDrive 或 SharePoint Online 上的文件时，报表和仪表板会按照文件中的形式显示数据。 在此例中，这是你的 Excel 工作簿。 Power BI 会大约每小时自动检查文件是否存在更新。 如果对工作簿（存储在 OneDrive 或 SharePoint Online 中）进行了更改，则这些更改会在一小时内反映在仪表板和报表中。 完全无需设置刷新。 但是，如果需要在 Power BI 中立即看到更新，则可以使用“立即刷新”来手动刷新数据集。
+![配置计划刷新](media/refresh-data/configure-scheduled-refresh.png)
 
-有关详细信息，请参阅 [Power BI 中的 Excel 数据](service-excel-workbook-files.md)或[刷新根据 OneDrive 上 Excel 工作簿创建的数据集](refresh-excel-file-onedrive.md)。
+配置完刷新计划后，数据集设置页面会通知你下一个刷新时间，如上面的屏幕截图所示。 如果要更快地刷新数据，以便测试网关和数据源配置，或实现诸如此类的目的，请使用左侧导航窗格中数据集菜单中的“立即刷新”选项执行按需刷新。 按需刷新不会影响下一个计划刷新时间，但它们会计入每日刷新限制，如本文前面所述。
 
-### <a name="excel-workbook-connects-to-a-sql-database-in-your-company"></a>Excel 工作簿连接到公司中的 SQL 数据库
-我们假设你在本地计算机上具有一个名为 SalesReport.xlsx 的 Excel 工作簿。 Excel 中的 Power Query 用于连接到公司中服务器上的 SQL 数据库，并查询加载到数据模型中的销售数据。 每天早上，你会打开该工作簿并点击“刷新”来更新数据透视表。
-
-现在你要在 Power BI 中浏览销售数据，因此你使用“获取数据”连接到并上载本地驱动器中的 SalesReport.xlsx 工作簿。
-
-在这种情况下，可以手动刷新 SalesReport.xlsx 数据集中的数据或设置刷新计划。 因为数据实际来自公司中的 SQL 数据库，所以你需要下载并安装网关。 安装并配置了网关之后，你需要进入 SalesReport 数据集的设置并登录数据源；但是，你只需要执行此操作一次。 随后可以设置刷新计划，以便 Power BI 自动连接到 SQL 数据库并获取更新的数据。 报表和仪表板也会自动更新。
+另请注意，配置的刷新时间可能不是 Power BI 启动下一个计划进程的确切时间。 Power BI 会尽最大努力启动计划刷新。 目标是在计划时间段的 15 分钟内启动刷新，但如果服务无法更快地分配所需资源，则可能会延迟最多一小时。
 
 > [!NOTE]
-> 此操作仅会更新 Power BI 服务中数据集内的数据。 本地文件不会作为刷新的一部分进行更新。
-> 
-> 
+> Power BI 会在连续四次失败后或当服务检测到需要配置更新的不可恢复错误（例如无效或过期的凭据）时停用刷新计划。 无法更改连续失败阈值。
 
-若要了解详细信息，请参阅 [Power BI 中的 Excel 数据](service-excel-workbook-files.md)、[Power BI Gateway - Personal](service-gateway-personal-mode.md)、[本地数据网关](service-gateway-onprem.md)、[刷新从本地驱动器上的 Excel 工作簿创建的数据集](refresh-excel-file-local-drive.md)。
+### <a name="getting-refresh-failure-notifications"></a>获取刷新失败通知
 
-### <a name="power-bi-desktop-file-with-data-from-an-odata-feed"></a>包含来自 OData 源的数据的 Power BI Desktop 文件
-在此例中，使用 Power BI Desktop 中的“获取数据”连接到 OData 源并从中导入人口普查数据。  在 Power BI Desktop 中创建多个报表，随后将文件命名为 WACensus 并将它保存在公司中的共享上。 随后将该文件发布到 Power BI 服务。
+默认情况下，Power BI 通过电子邮件将刷新失败通知发送给数据集所有者，以便在发生刷新问题时，所有者可以及时采取行动。 当服务因连续失败而禁用你的计划时，Power BI 也会向你发送通知。 Microsoft 建议将复选框“向我发送刷新失败通知电子邮件”保留为启用状态  。
 
-在这种情况下，可以手动刷新 WACensus 数据集中的数据或设置刷新计划。 因为数据源中的数据来自联机 OData 源，所以无需安装网关，但需要进入 WACensus 数据集的设置并登录 OData 数据源。 随后可以设置刷新计划，以便 Power BI 自动连接到 OData 源并获取更新的数据。 报表和仪表板也会自动更新。
+请注意，Power BI 不仅会在刷新失败时发送通知，还会在服务因数据集不活动而暂停计划刷新时发送通知。 两个月后，如果没有用户访问过基于数据集生成的任何仪表板或报表，Power BI 会将数据集视为不活动。 在这种情况下，Power BI 会向数据集所有者发送一封电子邮件，指示服务已禁用数据集的刷新计划。 有关此类通知的示例，请参阅以下屏幕截图。
 
-若要了解详细信息，请参阅[从 Power BI Desktop 发布](desktop-upload-desktop-files.md)、[刷新从本地驱动器上的 Power BI Desktop 文件创建的数据集](refresh-desktop-file-local-drive.md)、[刷新从 OneDrive 上的 Power BI Desktop 文件创建的数据集](refresh-desktop-file-onedrive.md)。
+![关于暂停刷新的电子邮件](media/refresh-data/email-paused-refresh.png)
 
-### <a name="shared-content-pack-from-another-user-in-your-organization"></a>来自组织中其他用户的共享内容包
-你已连接到一个组织内容包。 它包含一个仪表板、几个报表和一个数据集。
+若要恢复计划刷新，请访问使用此数据集生成的报表或仪表板，或使用“立即刷新”选项手动刷新数据集  。
 
-在此方案中，你无法为数据集设置刷新。 创建内容包的数据分析师负责确保根据使用的数据源来刷新数据集。
+### <a name="checking-refresh-status-and-history"></a>检查刷新状态和历史记录
 
-如果未更新内容包中的仪表板和报表，则你要与创建内容包的数据分析师进行讨论。
+除了失败通知之外，最好定期检查数据集是否存在刷新错误。 一种快速方法是查看工作区中的数据集列表。 有错误的数据集会显示一个小警告图标。 选中警告图标可获取附加信息，如以下屏幕截图所示。 有关解决特定刷新错误的详细信息，请参阅[刷新方案故障排除](refresh-troubleshooting-refresh-scenarios.md)。
 
-若要了解详细信息，请参阅[组织内容包简介](service-organizational-content-pack-introduction.md)、[使用组织内容包](service-organizational-content-pack-copy-refresh-access.md)。
+![刷新状态警告](media/refresh-data/refresh-status-warning.png)
 
-### <a name="content-pack-from-an-online-service-provider-like-salesforce"></a>来自联机服务提供程序（如 Salesforce）的内容包
-在 Power BI 中，你已使用“获取数据”连接到联机服务提供程序（如 Salesforce）并从中导入数据。 好了，现在没有太多工作要做。 Salesforce 数据集自动计划为一天刷新一次。 
+警告图标有助于指示当前的数据集问题，但偶尔检查刷新历史记录也不失为一个好办法。 顾名思义，通过刷新历史记录可以查看过去同步周期的成功或失败状态。 例如，网关管理员可能已更新一组过期的数据库凭据。 如以下屏幕截图所示，刷新历史记录显示受影响的刷新何时再次开始工作。
 
-与大多数联机服务提供程序一样，Salesforce 一天更新数据一次（通常在夜间）。 可以手动刷新 Salesforce 数据集，或设置刷新计划，但是这不是必需的，因为 Power BI 会自动刷新数据集，报表和仪表板也会进行更新。
+![刷新历史记录消息](media/refresh-data/refresh-history-messages.png)
 
-若要了解详细信息，请参阅[适用于 Power BI 的 Salesforce 内容包](service-connect-to-salesforce.md)。
+> [!NOTE]
+> 可以在数据集设置中找到显示刷新历史记录的链接。 也可以使用 [Power BI REST API](/rest/api/power-bi/datasets/getrefreshhistoryingroup) 以编程方式检索刷新历史记录。 通过使用自定义解决方案，可以集中监视多个数据集的刷新历史记录。
 
-## <a name="troubleshooting"></a>故障排除
-出现问题时，通常是因为 Power BI 无法登录数据源，或数据集连接到本地数据源，而网关处于脱机状态。 确保 Power BI 可以登录数据源。 如果用于登录数据源的密码更改，或 Power BI 已从数据源注销，请务必在数据源凭据中再次尝试登录数据源。
+## <a name="best-practices"></a>最佳做法
 
-有关故障排除的详细信息，请参阅[用于刷新问题故障排除的工具](service-gateway-onprem-tshoot.md)和[刷新方案故障排除](refresh-troubleshooting-refresh-scenarios.md)。
+若要确保报表和仪表板使用当前数据，定期检查数据集的刷新历史记录是可采用的最重要的最佳做法之一。 一旦发现问题，请及时解决，并在必要时跟进数据源所有者和网关管理员。
+
+此外，请考虑以下建议，以便为数据集建立和维护可靠的数据刷新过程：
+
+- 将刷新安排在较空闲的时间进行，特别是当数据集位于 Power BI Premium 上时。 如果在更宽的时间范围内分配数据集的刷新周期，则可以帮助避开可能过度占用可用资源的高峰时间段。 延迟启动刷新周期意味着资源过载。 如果 Premium 容量完全耗尽，Power BI 甚至有可能跳过刷新周期。
+- 记住刷新限制。 如果源数据频繁更改或数据量很大，并且源中增加的负载以及对查询性能的影响是可接受的，则考虑使用 DirectQuery/LiveConnect 模式而不是导入模式。 避免不断刷新导入模式数据集。 但是，如[在 Power BI Desktop 中使用 DirectQuery](desktop-use-directquery.md) 所述，DirectQuery/LiveConnect 模式存在一些限制，例如返回数据的行数限制为一百万行，运行查询的响应时间限制为 225 秒。 这些限制可能会导致你仍然使用导入模式。 对于非常大的数据量，请考虑使用 [Power BI 中的聚合](desktop-aggregations.md)。
+- 确保数据集刷新时间不超过最大刷新持续时间。 使用 Power BI Desktop 检查刷新持续时间。 如果需要超过 2 小时，请考虑将数据集移至 Power BI Premium。 数据集可能无法在共享容量上刷新。 另考虑对大于 1GB 或刷新时间长达几小时的数据集使用 [Power BI Premium 中的增量刷新](service-premium-incremental-refresh.md)。
+- 优化数据集以仅包括报表和仪表板使用的表和列。 优化糅合查询，如有可能，避免使用动态数据源定义和高成本的 DAX 计算。 特别是避免使用测试表中每一行的 DAX 函数，因为这种函数的内存消耗和处理开销非常高。
+- 应用与 Power BI Desktop 中相同的隐私设置，确保 Power BI 可以生成有效的源查询。 记住，Power BI Desktop 不会发布隐私设置。 发布数据集后，必须手动重新应用数据源定义中的设置。
+- 限制仪表板上视觉对象的数量，尤其是在使用[行级别安全性 (RLS)](service-admin-rls.md) 时。 如本文前面所述，过多的仪表板磁贴会显著增加刷新持续时间。
+- 使用可靠的企业数据网关部署将数据集连接到本地数据源。 如果发现与网关相关的刷新故障（例如网关不可用或过载），请让网关管理员向现有群集添加其他网关或部署新群集（纵向扩展与横向扩展），直至问题得到解决。
+- 为导入数据集和 DirectQuery/LiveConnect 数据集使用不同的数据网关，以使计划刷新期间的数据导入不影响基于 DirectQuery/LiveConnect 数据集（通过每次用户交互查询数据源）的报表和仪表板的性能。
+- 确保 Power BI 可以向你的邮箱发送刷新失败通知。 垃圾邮件筛选器可能会阻止电子邮件或将其移至你可能不会立即注意到的单独文件夹中。
 
 ## <a name="next-steps"></a>后续步骤
+
+[配置计划刷新](refresh-scheduled-refresh.md)  
 [用于解决刷新问题的工具](service-gateway-onprem-tshoot.md)  
 [刷新方案故障排除](refresh-troubleshooting-refresh-scenarios.md)  
-[Power BI Gateway - Personal](service-gateway-personal-mode.md)  
-[On-premises data gateway (本地数据网关)](service-gateway-onprem.md)  
 
 更多问题？ [尝试咨询 Power BI 社区](http://community.powerbi.com/)
-

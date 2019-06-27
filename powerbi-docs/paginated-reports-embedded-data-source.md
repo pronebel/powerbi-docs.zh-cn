@@ -1,5 +1,5 @@
 ---
-title: Power BI 服务中分页报表的嵌入数据源（预览）
+title: Power BI 服务中分页报表的嵌入数据源
 description: 本文介绍如何在 Power BI 服务中创建和修改分页报表的嵌入数据源。
 author: maggiesMSFT
 ms.author: maggies
@@ -8,15 +8,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: conceptual
-ms.date: 05/16/2019
-ms.openlocfilehash: 4dd9ad935a9f7b286aa64d977a78364f2aed0e0f
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.date: 06/06/2019
+ms.openlocfilehash: 7b687fd67f844e000811ae00a53772ab9403ab90
+ms.sourcegitcommit: 797bb40f691384cb1b23dd08c1634f672b4a82bb
+ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "65853379"
+ms.lasthandoff: 06/12/2019
+ms.locfileid: "66838939"
 ---
-# <a name="create-an-embedded-data-source-for-paginated-reports-in-the-power-bi-service-preview"></a>在 Power BI 服务中为分页报表创建嵌入数据源（预览）
+# <a name="create-an-embedded-data-source-for-paginated-reports-in-the-power-bi-service"></a>在 Power BI 服务中为分页报表创建嵌入数据源
 
 本文介绍如何在 Power BI 服务中为分页报表创建和修改嵌入数据源。 可以在单个报表中定义嵌入数据源，并且仅在该报表中使用它。 目前，发布到 Power BI 服务的分页报表需要嵌入的数据集和嵌入的数据源，并且可以连接到这些数据源：
 
@@ -26,12 +26,14 @@ ms.locfileid: "65853379"
 - Oracle 
 - Teradata 
 
-对于这些数据源，使用[SQL Server Analysis Services 连接](service-premium-connect-tools.md)选项：
+对于以下数据源，请使用“SQL Server Analysis Services 连接”选项[](service-premium-connect-tools.md)：
 
 - Azure Analysis Services
-- Power BI 高级数据集
+- Power BI Premium 数据集
 
-分页报表通过网关连接到本地数据源。 将报表发布到 Power BI 服务后，可以设置网关。 了解有关 [Power BI 网关](service-gateway-getting-started.md)的详细信息。 
+分页报表通过 [Power BI 网关](service-gateway-getting-started.md)连接到本地数据源。 将报表发布到 Power BI 服务后，可以设置网关。
+
+有关更多详细信息，请参阅 [Power BI 报表生成器中的报表数据](report-builder-data.md)。
 
 ## <a name="create-an-embedded-data-source"></a>创建嵌入的数据源
   
@@ -68,4 +70,4 @@ ms.locfileid: "65853379"
 ## <a name="next-steps"></a>后续步骤
 
 - [在 Power BI 服务中为分页报表创建嵌入数据集](paginated-reports-create-embedded-dataset.md)
-- [Power BI Premium 中的分页报表是什么？（预览）](paginated-reports-report-builder-power-bi.md)
+- [Power BI Premium 中的分页报表是什么？](paginated-reports-report-builder-power-bi.md)

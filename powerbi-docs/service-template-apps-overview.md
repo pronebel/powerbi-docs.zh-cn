@@ -5,16 +5,16 @@ author: maggiesMSFT
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-service
+ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 04/26/2019
 ms.author: maggies
-ms.openlocfilehash: 0ea8f19fa36bf1f9ceb5f8f0b92bd53ebdfa2a01
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 600e2ed603773cada415f603202cc72f22e0d25b
+ms.sourcegitcommit: 81ba3572531cbe95ea0b887b94e91f94050f3129
+ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "64578513"
+ms.lasthandoff: 06/06/2019
+ms.locfileid: "66751105"
 ---
 # <a name="what-are-power-bi-template-apps-preview"></a>什么是 Power BI 模板应用？ (预览)
 
@@ -24,10 +24,10 @@ ms.locfileid: "64578513"
 
 生成模板应用，允许客户使用其自己的帐户连接并实例化。 对于域专业人员而言，可采用便于业务用户使用的方式来解锁数据。  
 
-提交模板应用到云合作伙伴门户。 然后，这些应用将在 Power BI 应用库 (app.powerbi.com/getdata/services) 和 Microsoft AppSource (appsource.microsoft.com) 上公开发布。 下面是公共模板应用创建体验一下。  
+将模板应用提交到云合作伙伴门户。 然后，这些应用将在 Power BI 应用库 (app.powerbi.com/getdata/services) 和 Microsoft AppSource (appsource.microsoft.com) 上公开发布。 下文深入介绍了公共模板应用创建体验。  
 
 ## <a name="process"></a>过程
-开发并提交模板应用程序的一般过程涉及到几个阶段。 同时，某些阶段可以包含多个活动。
+开发和提交模板应用的常规过程涉及多个步骤。 某些阶段可能同时包含多个活动。
 
 
 | 阶段 | Power BI Desktop |  |Power BI 服务  |  |云合作伙伴门户  |

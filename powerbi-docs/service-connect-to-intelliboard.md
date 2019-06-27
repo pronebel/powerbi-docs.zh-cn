@@ -10,15 +10,15 @@ ms.topic: conceptual
 ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 1eed656b768b7e05b8fc9d97557cb2a43755d336
-ms.sourcegitcommit: 762857c8ca09ce222cc3f8b006fa1b65d11e4ace
+ms.openlocfilehash: ab5ded52c6d8d8bfa150ce3f53e89516dc025cb2
+ms.sourcegitcommit: 797bb40f691384cb1b23dd08c1634f672b4a82bb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/05/2019
-ms.locfileid: "66721153"
+ms.lasthandoff: 06/12/2019
+ms.locfileid: "66838910"
 ---
 # <a name="connect-to-intelliboard-with-power-bi"></a>使用 Power BI 连接到 IntelliBoard
-使用 IntelliBoard 可以通过报biao服务轻松访问 Moodle Learning Management System 数据。 适用于 Power BI 的 IntelliBoard 内容包还提供其他分析，包括有关课程的指标、已注册的用户、整体表现和你的 LMS 活动。
+使用 IntelliBoard 可以通过 Reporting Services 轻松访问 Moodle Learning Management System 数据。 适用于 Power BI 的 IntelliBoard 内容包还提供其他分析，包括有关课程的指标、已注册的用户、整体表现和你的 LMS 活动。
 
 连接到适用于 Power BI 的[IntelliBoard 内容包](https://app.powerbi.com/getdata/services/intelliboard)
 
@@ -46,7 +46,7 @@ ms.locfileid: "66721153"
 * 尝试在仪表板顶部的[在“问答”框中提问](consumer/end-user-q-and-a.md)
 * 在仪表板中[更改磁贴](service-dashboard-edit-tile.md)。
 * [选择磁贴](consumer/end-user-tiles.md)以打开基础报表。
-* 虽然数据集将按计划每日刷新，但你可以更改刷新计划或根据需要使用“立即刷新”来尝试刷新
+* 虽然数据集将按计划每日刷新，但你可以更改刷新计划或根据需要使用“立即刷新”  来尝试刷新
 
 ## <a name="whats-included"></a>包含的内容
 该内容包中包括来自下列表的数据：  

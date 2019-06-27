@@ -1,5 +1,5 @@
 ---
-title: 教程：创建分页报表并将其上传到 Power BI 服务（预览）
+title: 教程：创建分页报表并将其上传到 Power BI 服务
 description: 在本教程中，你将连接到一个示例 Azure SQL 数据库。 然后，使用报表生成器中的向导创建分页报表。 接着将分页报表上传到 Power BI 服务高级容量中的工作区。
 author: maggiesMSFT
 ms.author: maggies
@@ -9,16 +9,16 @@ ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: tutorial
 ms.date: 11/06/2018
-ms.openlocfilehash: e7baff9a6427578266e08e7bde91be664e46edb9
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 44af74b722e5d21c7475a382f8097f453854230d
+ms.sourcegitcommit: 797bb40f691384cb1b23dd08c1634f672b4a82bb
+ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "60989464"
+ms.lasthandoff: 06/12/2019
+ms.locfileid: "66839730"
 ---
-# <a name="tutorial-create-a-paginated-report-and-upload-it-to-the-power-bi-service-preview"></a>教程：创建分页报表并将其上传到 Power BI 服务（预览）
+# <a name="tutorial-create-a-paginated-report-and-upload-it-to-the-power-bi-service"></a>教程：创建分页报表并将其上传到 Power BI 服务
 
-在本教程中，你将连接到一个示例 Azure SQL 数据库。 然后您使用向导在 Power BI 报表生成器中使用换行到多个页的表中创建分页的报表。 接着将分页报表上传到 Power BI 服务高级容量中的工作区。 Power BI 服务中的分页报表目前处于预览状态。
+在本教程中，你将连接到一个示例 Azure SQL 数据库。 然后，使用 Power BI 报表生成器中的向导创建一个分页报表，其中包含涵盖多个页的表。 接着将分页报表上传到 Power BI 服务高级容量中的工作区。
 
 ![Power BI 服务中的分页报表](media/paginated-reports-quickstart-aw/power-bi-paginated-report-service.png)
 
@@ -26,7 +26,7 @@ ms.locfileid: "60989464"
 
 > [!div class="checklist"]
 > * 创建 Azure 示例数据库。
-> * 向导的帮助，在 Power BI 报表生成器中创建一个矩阵。
+> * 借助向导在 Power BI 报表生成器中创建矩阵。
 > * 设置每页包含标题、页码和列标题的报表的格式。
 > * 设置货币格式。
 > * 将报表上传到 Power BI 服务。
@@ -37,7 +37,7 @@ ms.locfileid: "60989464"
 
 以下时创建分页报表的先决条件：
 
-- 安装[Power BI 报表生成器从 Microsoft 下载中心获得](https://go.microsoft.com/fwlink/?linkid=2086513)。 
+- 安装 [Microsoft 下载中心的 Power BI 报表生成器](https://go.microsoft.com/fwlink/?linkid=2086513)。 
 
 - 按照快速入门，[在 Azure 门户中创建 Azure SQL 数据库示例](https://docs.microsoft.com/azure/sql-database/sql-database-get-started-portal)。 复制并保存“概述”  选项卡上“服务器名称”  框中的值。记住你在 Azure 中创建的用户名和密码。
 
@@ -48,7 +48,7 @@ ms.locfileid: "60989464"
 
 ## <a name="create-the-matrix-with-a-wizard"></a>使用向导创建矩阵
   
-1.  从您的计算机启动 Power BI 报表生成器。  
+1.  从计算机启动 Power BI 报表生成器。  
   
      随即将打开“入门”  对话框。  
   
@@ -287,7 +287,7 @@ ms.locfileid: "60989464"
 
 既然已经创建了这个分页报表，现在是时候将它上传到 Power BI 服务了。
 
-1. 在 Power BI 服务中（左侧导航中的 http://app.powerbi.com)，选择“工作区”   > “创建应用工作区”  。
+1. 在 Power BI 服务中（左侧导航中的 http://app.powerbi.com) ，选择“工作区”   > “创建应用工作区”  。
 
 2. 将工作区命名为“Azure AW”  或其他唯一名称。 现在，你是唯一的成员。 
 
@@ -329,5 +329,5 @@ ms.locfileid: "60989464"
 
 ## <a name="next-steps"></a>后续步骤
 
-[Power BI Premium 中的分页报表是什么？（预览）](paginated-reports-report-builder-power-bi.md)
+[Power BI Premium 中的分页报表是什么？](paginated-reports-report-builder-power-bi.md)
 

@@ -1,20 +1,20 @@
 ---
 title: Power BI 网络研讨会
 description: Power BI 网络研讨会
-author: maikelson
+author: v-tatero
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 11/26/2018
-ms.author: maikelson
-ms.openlocfilehash: a2db3f8c88231663ecb115c4609d3af177d96292
-ms.sourcegitcommit: 9da792d470dfe43dc6e15ddef5d471f3f6c50970
+ms.date: 06/01/2019
+ms.author: v-tatero
+ms.openlocfilehash: 1050cf5ee5060a19e4f38b98fb6766b6e5510451
+ms.sourcegitcommit: 81ba3572531cbe95ea0b887b94e91f94050f3129
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/31/2019
-ms.locfileid: "66453779"
+ms.lasthandoff: 06/06/2019
+ms.locfileid: "66750990"
 ---
 # <a name="power-bi-webinars"></a>Power BI 网络研讨会
 
@@ -22,7 +22,15 @@ ms.locfileid: "66453779"
 
 ## <a name="upcoming-webinars"></a>即将举行的网络研讨会
 
-尚无举办网络研讨会的计划。 请稍后再查看更多近期活动安排。
+注册以听取 Power BI 专家的建议并参加实时问答会话。
+
+**Microsoft 在 Power BI 上运行：将 Power BI 用于现代财政部门**
+<br>作者：Pankaj Gudimella 和 Guru Kirthigavasan
+<br>[注册后于 6 月 25 日上午 10:00–11:00（太平洋标准时间）观看](https://info.microsoft.com/Microsoft-Runs-on-Power-BI-Using-Power-BI-in-Modern-Treasury-Registration.html?LCID=EN-US)
+
+**Power BI：如何从工作日 HR 数据中获得见解**
+<br>作者：Iman Eftekhari、来自 Agile Analytics 的 Julia Paton 和来自 QBE Insurance 的 Shahram Karimi
+<br>[注册后于 6 月 27 日下午 1:30–2:30（太平洋标准时间）观看](https://info.microsoft.com/How-to-Get-insights-from-Your-Workday-HR-Data-Registration.html?Lcid=en-us)
 
 >[Power BI 社区即将举行的网络研讨会](https://powerbi.microsoft.com/blog/tag/community-webinars/?Is=Website)
 
@@ -72,7 +80,7 @@ ms.locfileid: "66453779"
 
 随时观看录制的会话
 
-### <a name="getting-started"></a>开始使用
+### <a name="getting-started"></a>入门
 
 **使用 Power BI、PowerApps 和 Microsoft Flow 自动化日常业务流程**
 <br>作者：Wim Coorevits 和 Enrique Plaza Garcia

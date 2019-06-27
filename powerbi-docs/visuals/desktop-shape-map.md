@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 09/11/2018
+ms.date: 06/10/2019
 ms.author: mihart
 LocalizationGroup: Transform and shape data
-ms.openlocfilehash: 163fc60052c4124e7c6cbac60f1486a185c35f17
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 0789d7e77e3ae501cc2aec92c366c9c2608edd52
+ms.sourcegitcommit: 797bb40f691384cb1b23dd08c1634f672b4a82bb
+ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61394629"
+ms.lasthandoff: 06/12/2019
+ms.locfileid: "66839290"
 ---
 # <a name="shape-maps-in-power-bi-desktop-preview"></a>Power BI Desktop 中的形状地图（预览版）
 创建  “形状地图”视觉对象以使用颜色比较地图上的区域 与  “地图”视觉对象不同，  “形状地图”无法在地图上显示数据点的精确地理位置。 相反，其主要目的是通过不同方式对地图上的区域着色来显示这些区域的相对比较。
@@ -27,15 +27,15 @@ ms.locfileid: "61394629"
 
 **形状地图**视觉对象为预览功能，必须在 Power BI Desktop 中启用。 若要启用“形状地图”  ，请选择“文件”>“选项和设置”>“选项”>“预览功能”  ，然后选中“形状地图视觉对象”  复选框。 完成选择后需要重启 Power BI Desktop。
 
-![](media/desktop-shape-map/shape-map_1a.png)
+![启用形状地图预览功能](media/desktop-shape-map/power-bi-preview-features.png)
 
-启用“形状地图”  后，即可单击“可视化效果”  窗格中的“形状地图”  控件。
+启用“形状地图”后，即可选择“可视化效果”窗格中的“形状地图”图标    。
 
-![](media/desktop-shape-map/shape-map_2.png)
+![选择形状地图的模板](media/desktop-shape-map/power-bi-shape-map-template2.png)
 
 Power BI Desktop 将创建一个空的“形状地图”  视觉对象设计画布。
 
-![](media/desktop-shape-map/shape-map_3.png)
+![画布上会出现空的形状地图](media/desktop-shape-map/shape-map-3.png)
 
 通过执行以下步骤创建**形状地图**：
 
@@ -46,26 +46,23 @@ Power BI Desktop 将创建一个空的“形状地图”  视觉对象设计画�
    > 
    > 
 
-   ![](media/desktop-shape-map/shape-map_3a.png)
+   ![生成形状地图](media/desktop-shape-map/shape-map-3a.png)
 2. 在“格式”  设置窗格中，展开“形状”  ，并从“标准地图”  下拉列表中选择某个地图来显示你的数据。 此时将出现一个绘制工具，如下图所示。
 
-   ![](media/desktop-shape-map/shape-map_3b.png)
+   ![打开“格式设置”窗格并选择“形状”](media/desktop-shape-map/shape-map-3b-new.png)
 
    > [!NOTE]
    > 本文末尾的“区域键”  一节中有一组具有地图区域键的表，可以使用这些区域键来测试  “形状地图”视觉对象。
    > 
    > 
-3. 然后，可以从“格式”  设置窗格中修改地图投影和缩放设置，以及数据点的颜色。 还可以修改缩放设置。 例如，可以更改颜色、设置最大值和最小值等等。
-
-   ![](media/desktop-shape-map/shape-map_3d.png)
-4. 还可以向“图例”  存储段添加一个类别数据列，并基于类别对地图区域分类。
+3. 然后，可以使用“格式设置”选项修改地图，例如“默认颜色”、“缩放”，等等   。 还可以向“图例”存储桶添加类别数据列，并基于类别对地图区域分类  。
 
 ## <a name="use-custom-maps"></a>使用自定义地图
 只要自定义地图为 **TopoJSON** 格式，你可以将其与“形状地图”  一同使用。 如果你的地图是另一种格式，则可以使用在线工具（如[**地图整形程序**](http://mapshaper.org/)）来转换*形状文件*或将 *GeoJSON* 地图转换为 **TopoJSON** 格式。
 
 若要使用 TopoJSON  地图文件，请将 ShapeMap 视觉对象添加到报表，并向“位置”  和“色彩饱和度”  Bucket 添加一些数据。 然后，在选中“格式”  部分（如下图 (1) 中所示）的“可视化效果”  窗格中，展开“形状”  部分，选择“+ 添加地图”  。
 
-![](media/desktop-shape-map/shape-map_6.png)
+![打开“格式设置”窗格并选择“添加地图”](media/desktop-shape-map/shape-map-6-new.png)
 
 ## <a name="sample-custom-map"></a>自定义地图示例
 美国律师办事处发布了关于诉讼和案件数量数据的年度财务报告  。  在下面的链接中可以找到他们的所有报告，
@@ -74,11 +71,11 @@ https://www.justice.gov/usao/resources/annual-statistical-reports
 
 由于可以将州分为多个区，我们需要使用自定义形状地图。  通过将美国司法区的 TopoJSON 地图导入到 Power BI Desktop，我们可以直观表示年度财务区律师数据   。  下图展示了此地图的示例。
 
-![](media/desktop-shape-map/shape-map_7a.png)
+![自定义形状地图](media/desktop-shape-map/shape-map-7a.png)
 
 你也能对单个州地图进行一些有趣的操作，并基于它所包含的区显示更多详细信息。 
 
-![](media/desktop-shape-map/shape-map_7b.png)
+![德克萨斯州形状地图](media/desktop-shape-map/shape-map-7b.png)
 
 如果想试验该数据集和可视化效果，可以从下列链接下载用于生成此报表的原始 PBIX 文件。
 
@@ -87,11 +84,11 @@ https://www.justice.gov/usao/resources/annual-statistical-reports
 ## <a name="getting-map-data"></a>获取地图数据
 若要将数据快速导入模型以便测试“形状地图”  ，你可以复制本文末尾的其中一个表，然后从“主页”  功能区中选择“输入数据”  。
 
-![](media/desktop-shape-map/shape-map_4.png)
+![在桌面中，选择“输入数据”](media/desktop-shape-map/shape-map-4-new.png)
 
 如果你的数据有多个列，则需要使用 Excel 等编辑器来粘贴数据，然后分别复制每个数据列。 接着，可以将该数据粘贴到 Power BI Desktop 中。 最上面的一行自动标识为标题。
 
-![](media/desktop-shape-map/shape-map_5.png)
+![“创建表”窗格](media/desktop-shape-map/shape-map-5.png)
 
 只需键入新的列名称（在右侧的空白列中），就可以输入一个新列，然后在每个单元格中添加值，就像在 Excel 中一样。 完成后，选择“加载”  ，该表将添加到 Power BI Desktop 的数据模型中。
 

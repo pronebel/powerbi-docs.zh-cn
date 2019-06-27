@@ -1,5 +1,5 @@
 ---
-title: 为 Power BI 服务中的分页报表创建参数（预览）
+title: 为 Power BI 服务中的分页报表创建参数
 description: 本文介绍了如何为 Power BI 服务中的分页报表创建参数。
 author: maggiesMSFT
 ms.author: maggies
@@ -8,19 +8,19 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: conceptual
-ms.date: 11/05/2018
-ms.openlocfilehash: d58d1c84199c698089f4b3abccb26f9dbaea76d6
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.date: 06/06/2019
+ms.openlocfilehash: adec7af0032772022a330e3ab25377205de9ace5
+ms.sourcegitcommit: 797bb40f691384cb1b23dd08c1634f672b4a82bb
+ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "60987642"
+ms.lasthandoff: 06/12/2019
+ms.locfileid: "66838985"
 ---
-# <a name="create-parameters-for-paginated-reports-in-the-power-bi-service-preview"></a>为 Power BI 服务中的分页报表创建参数（预览）
+# <a name="create-parameters-for-paginated-reports-in-the-power-bi-service"></a>为 Power BI 服务中的分页报表创建参数
 
 本文介绍了如何为 Power BI 服务中的分页报表创建参数。  报表参数提供了一种选择报表数据和更改报表显示内容的方法。 用户可以提供默认值和可用值列表，报表读者可以更改选择。  
 
-下图显示了设计视图在 Power BI 报表生成器中使用的参数的报表@BuyingGroup， @Customer， @FromDate，和@ToDate。 
+下图显示 Power BI 报表生成器中包含 @BuyingGroup、@Customer、@FromDate 和 @ToDate 参数的报表的“设计”视图。 
   
 ![报表生成器中的参数](media/paginated-reports-parameters/power-bi-paginated-parameters-report-builder.png)
   
@@ -37,7 +37,7 @@ ms.locfileid: "60987642"
   
 ## <a name="create-or-edit-a-report-parameter"></a>创建或编辑报表参数  
   
-1.  在 Power BI 报表生成器中打开分页的报表。
+1.  在 Power BI 报表生成器中打开分页报表。
 
 1. 在“报表数据”  窗格中，右键单击“参数”  节点 >“添加参数”  。 “报表参数属性”  对话框随即打开。  
   
@@ -67,4 +67,4 @@ ms.locfileid: "60987642"
 
 请参阅[查看分页报表的参数](paginated-reports-view-parameters.md)，了解在 Power BI 服务中显示的参数。
 
-有关分页报表中参数的详细信息，请参阅 SQL Server Reporting Services 文档中的[报表参数（报表生成器和报表设计器）](https://docs.microsoft.com/sql/reporting-services/report-design/report-parameters-report-builder-and-report-designer)一文  
+有关分页报表中参数的详细信息，请参阅 [Power BI 报表生成器中的报表参数](report-builder-parameters.md)。

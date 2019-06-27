@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 05/22/2019
-ms.openlocfilehash: 02104acdbff6e6a1a4e785553b689a3e74183a4d
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: c0e3666a5838ae8e3849f5defd3858c9ea205a42
+ms.sourcegitcommit: 797bb40f691384cb1b23dd08c1634f672b4a82bb
+ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "66187726"
+ms.lasthandoff: 06/12/2019
+ms.locfileid: "66839432"
 ---
 # <a name="install-power-bi-report-server"></a>安装 Power BI 报表服务器
 
@@ -22,11 +22,11 @@ ms.locfileid: "66187726"
 
 ## <a name="download-power-bi-report-server"></a>下载 Power BI 报表服务器
 
-[下载 Power BI 报表服务器](https://www.microsoft.com/download/details.aspx?id=56722)从 Microsoft 下载中心获得。
+从 Microsoft 下载中心[下载 Power BI 报表服务器](https://www.microsoft.com/download/details.aspx?id=56722)。
 
-此外还有免费的试用版。 上[使用 Power BI 报表服务器的报告](https://powerbi.microsoft.com/report-server/)页上，选择**下载免费试用版**。
+还有免费试用版。 在“使用 Power BI 报表服务器进行本地报告”页，选择“下载免费试用版”[](https://powerbi.microsoft.com/report-server/)  。
 
-## <a name="before-you-install"></a>在安装之前
+## <a name="before-you-install"></a>安装之前
 
 建议在安装 Power BI 报表服务器之前先查看[安装 Power BI 报表服务器所要满足的硬件和软件要求](system-requirements.md)。
 
@@ -35,12 +35,12 @@ ms.locfileid: "66187726"
 
 ### <a name="power-bi-report-server-product-key"></a>Power BI 报表服务器产品密钥
 
-您可以从两个不同的源获取 Power BI 报表服务器的产品密钥：
+可以从两个不同的来源获取 Power BI 报表服务器的产品密钥：
 
 - Power BI Premium
 - SQL Server Enterprise 软件保障 (SA)
 
-有关详细信息请继续阅读。
+有关详细信息，请继续阅读。
 
 #### <a name="power-bi-premium"></a>Power BI Premium
 
@@ -75,8 +75,8 @@ ms.locfileid: "66187726"
 
     ![版本 2](media/install-report-server/pbireportserver-choose-edition2.png)
 
-    否则，输入从 Power BI 服务或批量许可服务中心获取的产品密钥。 有关如何获取您的产品密钥的详细信息，请参阅[在安装之前](#before-you-install)上面一节。
-4. 阅读并同意许可条款和条件，然后选择**下一步**。
+    否则，请输入从 Power BI 服务或批量许可服务中心获取的产品密钥。 有关如何获取产品密钥的详细信息，请参阅以上[安装之前](#before-you-install)部分。
+4. 阅读并同意许可条款和条件，然后选择“下一步”  。
 
     ![许可条款](media/install-report-server/pbireportserver-eula.png)
 5. 需要使用数据库引擎来存储报表服务器数据库。 选择“下一步”  ，仅安装报表服务器。

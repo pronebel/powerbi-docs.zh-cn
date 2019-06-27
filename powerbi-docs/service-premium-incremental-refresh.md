@@ -1,21 +1,21 @@
 ---
 title: Power BI Premium 中的增量刷新
 description: 了解如何在 Power BI Premium 服务中启用大型数据集。
-author: christianwade
+author: mgblythe
 manager: kfile
 ms.reviewer: kayu
 ms.service: powerbi
-ms.component: powerbi-admin
+ms.subservice: powerbi-admin
 ms.topic: conceptual
 ms.date: 05/10/2019
-ms.author: chwade
+ms.author: mblythe
 LocalizationGroup: Premium
-ms.openlocfilehash: b338044433d1d87f07ab38d64c15974a1cfaa173
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: ee5ec87e04517ce93589b371e97116acbcb02e87
+ms.sourcegitcommit: 58c649ec5fd2447a0f9ca4c4d45a0e9fff2f1b6a
+ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "65536138"
+ms.lasthandoff: 06/27/2019
+ms.locfileid: "67408587"
 ---
 # <a name="incremental-refresh-in-power-bi-premium"></a>Power BI Premium 中的增量刷新
 
@@ -41,7 +41,7 @@ Power BI Desktop 模型可能不适合处理具有可能数十亿行的大型数
 
 #### <a name="rangestart-and-rangeend-parameters"></a>RangeStart 和 RangeEnd 参数
 
-对于增量刷新，数据集使用名称为 RangeStart 和 RangeEnd（为保留名称且区分大小写）的 Power Query 日期/时间参数进行筛选   。 这些参数用于筛选导入 Power BI Desktop 的数据，还用于在将数据发布到 Power BI 服务后将其动态地划分为多个范围。 参数值由服务进行替换，以筛选每个分区。 发布后，Power BI 服务会自动替代参数值。 无需在服务的数据集设置中进行设置。 发布后，Power BI 服务会自动替代参数值。 
+对于增量刷新，数据集使用名称为 RangeStart 和 RangeEnd（为保留名称且区分大小写）的 Power Query 日期/时间参数进行筛选   。 这些参数用于筛选导入 Power BI Desktop 的数据，还用于在将数据发布到 Power BI 服务后将其动态地划分为多个范围。 参数值由服务进行替换，以筛选每个分区。 无需在服务的数据集设置中进行设置。 发布后，Power BI 服务会自动替代参数值。
 
 若要使用默认值定义参数，请选择 Power Query 编辑器中的“管理参数”  。
 
@@ -163,4 +163,4 @@ in
 
 ## <a name="limitations"></a>限制
 
-当前，对于[复合模型](desktop-composite-models.md)，增量刷新支持 SQL、 Oracle 和 Teradata 数据源仅。
+对于[复合模型](desktop-composite-models.md)，增量刷新当前仅支持 SQL、Oracle 和 Teradata 数据源。

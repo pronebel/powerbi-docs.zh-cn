@@ -5,24 +5,24 @@ author: maggiesMSFT
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-service
+ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 04/19/2019
 ms.author: maggies
-ms.openlocfilehash: 2b7b2630e665fca9013920718ff58dd973f01392
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 0671dfb324b3d66a9dee9585f94d3cb6825fb5eb
+ms.sourcegitcommit: 81ba3572531cbe95ea0b887b94e91f94050f3129
+ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "64578559"
+ms.lasthandoff: 06/06/2019
+ms.locfileid: "66751231"
 ---
 # <a name="install-and-distribute-template-apps-in-your-organization---power-bi-preview"></a>在组织中安装和分发模板应用 - Power BI（预览）
 
-是否是 Power BI 的分析师？ 因此，此文章介绍了如何安装如果*模板应用*连接到多个服务，用于运行你的业务，例如 Salesforce、 Microsoft Dynamics 和 Google Analytics。 可以修改仪表板和报表以满足你组织的需求，然后将其分发到作为你的同事*应用*。 
+你是 Power BI 分析师吗？ 如果是，本文将向你介绍如何安装模板应用以连接到多个运行 Salesforce、Microsoft Dynamics 和 Google Analytics 等业务的服务  。 可以修改仪表板和报表来满足组织的需要，然后将其作为应用分发给同事  。 
 
 ![已安装 Power BI 应用](media/service-template-apps-install-distribute/power-bi-get-apps.png)
 
-如果你有兴趣创建自己分发的模板应用，请参阅[在 Power BI 中创建模板应用](service-template-apps-create.md)。 Power BI 合作伙伴生成很少或无需进行编码，Power BI 应用并将其部署到 Power BI 客户。 
+如果你有兴趣创建自己分发的模板应用，请参阅[在 Power BI 中创建模板应用](service-template-apps-create.md)。 Power BI 合作伙伴几乎无需编码，即可构建 Power BI 应用，并将其部署到 Power BI 客户。 
 
 ## <a name="prerequisites"></a>先决条件  
 

@@ -7,21 +7,21 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 05/15/2019
+ms.date: 06/10/2019
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: 2ac622c33aaf9ed72c00e37af4b6ab765cc04113
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 8833f9f4cc4bea23d2070ce19fe34f9400d6bac4
+ms.sourcegitcommit: e48ef4c88e4a1a0b259bf899d85d520c4edd5751
+ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "65853319"
+ms.lasthandoff: 06/10/2019
+ms.locfileid: "66823261"
 ---
 # <a name="whats-new-in-the-latest-power-bi-desktop-update"></a>最新 Power BI Desktop 更新中有哪些新增功能？ 
 
-## <a name="may-2019-update-26954671251"></a>2019 年 5 更新 (2.69.5467.1251)
+## <a name="june-2019-update-2705494561"></a>2019 年 6 月更新 (2.70.5494.561)
 
-我们可能更新目前百花齐放中具有引人注目的新功能和完整的色彩缤纷的精美视觉对象花卉 pot 出色报告该菜园。 
+6 月份的更新在你的报表中播撒阳光和蓝天，为 Power BI Desktop 带来清爽明亮的新配色方案，以及一系列其他改进。 
 
 你现在可以[下载最新版本的 Power BI Desktop](https://powerbi.microsoft.com/desktop)。 如果运行的是 Windows 10，还可以从 Windows 应用商店获取 Power BI Desktop  。 无论以何种方式安装 Power BI Desktop，月度版本是相同的，虽然二者的版本编号可能不同  。 请参阅[本文](desktop-get-the-desktop.md)，了解详细信息。 
 
@@ -37,49 +37,54 @@ ms.locfileid: "65853319"
 下面介绍了本月新推出的 Power BI Desktop  更新：
 
 ### <a name="reporting"></a>报表
-* 性能分析工具窗格[[视频]](https://youtu.be/O8GlHDz8xUQ?t=10)[[文章]](desktop-performance-analyzer.md)[[博客]    ](https://powerbi.microsoft.com/blog/power-bi-desktop-may-2019-feature-summary/#perfAnalyzer) 
-* 筛选窗格改进 （预览） [[视频]](https://youtu.be/O8GlHDz8xUQ?t=377)[[博客]  ](https://powerbi.microsoft.com/blog/power-bi-desktop-may-2019-feature-summary/#filterPane)
-* 表和矩阵使用键盘导航[[视频]](https://youtu.be/O8GlHDz8xUQ?t=518)[[博客]  ](https://powerbi.microsoft.com/blog/power-bi-desktop-may-2019-feature-summary/#accessibility)
-* 行数据标签位置控件[[视频]](https://youtu.be/O8GlHDz8xUQ?t=572)[[博客]  ](https://powerbi.microsoft.com/blog/power-bi-desktop-may-2019-feature-summary/#dataLabels)
-* KPI 可视的指示器文本大小控件[[视频]](https://youtu.be/O8GlHDz8xUQ?t=664)[[博客]  ](https://powerbi.microsoft.com/blog/power-bi-desktop-may-2019-feature-summary/#kpi)
+* 更新的窗格设计 [[视频]](https://youtu.be/7k-nP38uHyQ?t=8)  [[博客]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-2019-feature-summary/#panes) 
+* 用于切片器的视觉对象级别筛选器 [[视频]](https://youtu.be/7k-nP38uHyQ?t=116)  [[博客]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-2019-feature-summary/#slicerFilters)
+* 性能分析器窗格的排序 [[视频]](https://youtu.be/7k-nP38uHyQ?t=237)  [[博客]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-2019-feature-summary/#perfAnalyzer)
+* 格式设置选项的条件格式设置更新 [[视频]](https://youtu.be/7k-nP38uHyQ?t=311)  [[博客]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-2019-feature-summary/#conditionalFormatting)
+* 视觉对象标头工具提示 [[视频]](https://youtu.be/7k-nP38uHyQ?t=530)  [[博客]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-2019-feature-summary/#headerTooltips)
+* 表格和矩阵总计标签自定义 [[视频]](https://youtu.be/7k-nP38uHyQ?t=722)  [[博客]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-2019-feature-summary/#totalLabels)
+* 层次结构切片器的同步切片器支持 [[视频]](https://youtu.be/7k-nP38uHyQ?t=859)  [[博客]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-2019-feature-summary/#syncSlicer)
+* 视觉对象之间的一致字体大小 [[视频]](https://youtu.be/7k-nP38uHyQ?t=962)  [[博客]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-2019-feature-summary/#fontSizes)
 
 
 ### <a name="analytics"></a>分析
-* 关键影响因素 visual 改进功能 （预览版） [[视频]](https://youtu.be/O8GlHDz8xUQ?t=717)[[博客]  ](https://powerbi.microsoft.com/blog/power-bi-desktop-may-2019-feature-summary/#keyInfluencers) 
-    * 装箱的支持 
-    * 格式设置选项
-    * 移动设备的支持
-
+* 关键影响因素视觉对象更新（预览版）[[视频]](https://youtu.be/7k-nP38uHyQ?t=1064)  [[博客]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-2019-feature-summary/#keyInfluencers) 
+    * 关键影响因素与到 Power BI 数据集的实时连接
+    * 关键影响因素辅助功能
+    * 云 RLS 支持
+* 管理聚合对话框辅助功能 [[视频]](https://youtu.be/7k-nP38uHyQ?t=1213)  [[博客]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-2019-feature-summary/#aggregationsAccessibility) 
 
 ### <a name="modeling"></a>建模
-* 禁用自动日期表的新报表[[视频]](https://youtu.be/O8GlHDz8xUQ?t=984)[[博客]  ](https://powerbi.microsoft.com/blog/power-bi-desktop-may-2019-feature-summary/#autoDate) 
-* ALLSELECTED DAX 函数的更新[[视频]](https://youtu.be/O8GlHDz8xUQ?t=1080)[[博客]  ](https://powerbi.microsoft.com/blog/power-bi-desktop-may-2019-feature-summary/#dax) 
+* 新的 == DAX 比较运算符 [[视频]](https://youtu.be/7k-nP38uHyQ?t=1267)  [[博客]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-2019-feature-summary/#dax) 
 
 
 ### <a name="visuals"></a>视觉对象
-* 有关更新的 Power BI 的 ArcGIS 地图[[视频]](https://youtu.be/O8GlHDz8xUQ?t=1093)[[博客]  ](https://powerbi.microsoft.com/blog/power-bi-desktop-may-2019-feature-summary/#esri) 
-* 六个新的自定义视觉对象和更新[[视频]](https://youtu.be/O8GlHDz8xUQ?t=1199)[[博客]  ](https://powerbi.microsoft.com/blog/power-bi-desktop-may-2019-feature-summary/#mapbox) 
+* 个性化可视化效果窗格（预览版）[[视频]](https://youtu.be/7k-nP38uHyQ?t=1349)  [[博客]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-2019-feature-summary/#personalizedVizPane) 
+* 三个新的自定义视觉对象和更新 [[视频]](https://youtu.be/7k-nP38uHyQ?t=1391)  [[博客]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-2019-feature-summary/#synopticVisual) 
 
 
 ### <a name="data-connectivity"></a>数据连接
-* Essbase 连接器-支持的本机查询 (MDX) [[视频]](https://youtu.be/O8GlHDz8xUQ?t=2518)[[博客]  ](https://powerbi.microsoft.com/blog/power-bi-desktop-may-2019-feature-summary/#essbase) 
-* Intune 数据仓库连接器[[视频]](https://youtu.be/O8GlHDz8xUQ?t=2538)[[博客]   ](https://powerbi.microsoft.com/blog/power-bi-desktop-may-2019-feature-summary/#intune) 
-* Tenforce 连接器[[视频]](https://youtu.be/O8GlHDz8xUQ?t=2560)[[博客]  ](https://powerbi.microsoft.com/blog/power-bi-desktop-may-2019-feature-summary/#tenforce) 
-* Roamler 连接器[[视频]](https://youtu.be/O8GlHDz8xUQ?t=2596)[[博客]  ](https://powerbi.microsoft.com/blog/power-bi-desktop-may-2019-feature-summary/#roamler) 
+* 连接到共享和认证数据集 [[视频]](https://youtu.be/7k-nP38uHyQ?t=1739)  [[博客]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-2019-feature-summary/#sharedCertifiedDatasets) 
+* Common Data Service 连接器现已正式发布 [[视频]](https://youtu.be/7k-nP38uHyQ?t=1807)  [[博客]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-2019-feature-summary/#cds) 
+* Azure 数据资源管理器连接器现已正式发布 [[视频]](https://youtu.be/7k-nP38uHyQ?t=1823)  [[博客]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-2019-feature-summary/#azureDataExplorer) 
+* Cosmos DB 连接器增强功能 [[视频]](https://youtu.be/7k-nP38uHyQ?t=1835)  [[博客]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-2019-feature-summary/#cosmosDB)
+* Entersoft 数据连接器 [[视频]](https://youtu.be/7k-nP38uHyQ?t=1851)  [[博客]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-2019-feature-summary/#entersoft) 
 
 
-### <a name="other"></a>其他
-* Power BI Desktop 的自动查询取消[[博客]](https://powerbi.microsoft.com/blog/power-bi-desktop-may-2019-feature-summary/#queryCancellation) 
+### <a name="data-preparation"></a>数据准备
+* M Intellisense 增强功能 [[视频]](https://youtu.be/7k-nP38uHyQ?t=1866)  [[博客]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-2019-feature-summary/#intellisense) 
+
 
 > [!NOTE]
 > 还可以[查看 Power BI Desktop 可用的所有数据源](desktop-data-sources.md)；我们的列表始终在不断增加内容，请时常返回查看。
 
-想了解有关这些更新的详细信息？ 请查看[博客文章](https://powerbi.microsoft.com/blog/power-bi-desktop-may-2019-feature-summary/)，你可以在其中获取有关上述每项新增功能的更为详细的信息（此博客文章即为上文列表引用的博客文章）。
+想了解有关这些更新的详细信息？ 请查看[博客文章](https://powerbi.microsoft.com/blog/power-bi-desktop-june-2019-feature-summary/)，你可以在其中获取有关上述每项新增功能的更为详细的信息（此博客文章即为上文列表引用的博客文章）。
 
 
 以下视频介绍和展示了上述的每项更新。 你还可以从博客文章查看该视频。
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/O8GlHDz8xUQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/7k-nP38uHyQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 
 > [!NOTE]
 > 你可能还有兴趣了解 [Power BI 服务中的新增功能](service-whats-new.md)，请同时查看 [Power BI 移动应用中的新增功能](consumer/mobile/mobile-whats-new-in-the-mobile-apps.md)。

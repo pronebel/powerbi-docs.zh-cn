@@ -6,15 +6,15 @@ ms.custom: seodec18
 author: mihart
 ms.service: powerbi
 ms.subservice: powerbi-consumer
-ms.topic: resource
+ms.topic: conceptual
 ms.date: 05/14/2019
 ms.author: mihart
-ms.openlocfilehash: 4a67e7ef8171b3f342530d187590e9e018f584df
-ms.sourcegitcommit: d88cc6a87d4ba82ad2c4d496a3634f927e4ac529
-ms.translationtype: MT
+ms.openlocfilehash: 6a66d134a3399fed3ee03eddd7059265b5cf7c13
+ms.sourcegitcommit: 81ba3572531cbe95ea0b887b94e91f94050f3129
+ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/30/2019
-ms.locfileid: "66412907"
+ms.lasthandoff: 06/06/2019
+ms.locfileid: "66751008"
 ---
 # <a name="glossary-for-power-bi-service"></a>Power BI 服务词汇表
 Power BI 服务可能会引入不熟悉或容易混淆的术语。 词汇表是查找术语的好地方，可能需要将其加入书签。 了解构成 Power BI 服务的构建块的另一个极佳资源是[基本概念](end-user-basic-concepts.md)。 “基本概念”提供 Power BI 组件及其如何连接的简要概述。 
@@ -142,7 +142,7 @@ Power BI 服务可能会引入不熟悉或容易混淆的术语。 词汇表是�
 ## <a name="h"></a>H
 **high-density visuals (高密度视觉对象)** 具有比 Power BI 所能呈现的更多的数据点的视觉对象。 Power BI 对数据进行取样以显示形状和离群值。
 
-**主页**默认登录 Power BI 服务用户的年龄。 不会修改任何内容。 可以调用 Power BI 主页或只是主页。
+**主页** Power BI 服务用户的默认登陆页面。 不修改任何内容。 可称为“Power BI 主页”或仅“主页”。
 
 ## <a name="i"></a>I
 

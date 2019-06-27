@@ -1,5 +1,5 @@
 ---
-title: Power BI Premium 中的分页报表是什么？ （预览）
+title: Power BI Premium 中的分页报表是什么？
 description: 长期以来，分页报表一直是 SQL Server Reporting Services 中的标准报表格式，现在可在 Power BI 服务中使用。 可以打印或共享这些报表。 用户可以精确控制报表布局。 例如，即使某个表跨多个页，分页报表也能显示表中的所有数据。
 author: maggiesMSFT
 ms.author: maggies
@@ -8,41 +8,42 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: overview
-ms.date: 05/20/2019
-ms.openlocfilehash: 8da24bb8f7d3b8d507dbb6792556004083b673fe
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.date: 06/06/2019
+ms.openlocfilehash: f7cf5091c60a6a916b24d6170eae96b3c1ee64dc
+ms.sourcegitcommit: 797bb40f691384cb1b23dd08c1634f672b4a82bb
+ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "65991069"
+ms.lasthandoff: 06/12/2019
+ms.locfileid: "66839638"
 ---
-# <a name="what-are-paginated-reports-in-power-bi-premium-preview"></a>Power BI Premium 中的分页报表是什么？ （预览）
+# <a name="what-are-paginated-reports-in-power-bi-premium"></a>Power BI Premium 中的分页报表是什么？
 
 长期以来，分页报表一直是 SQL Server Reporting Services 中的标准报表格式，现在可在 Power BI 服务中使用。 可以打印或共享这些报表。 它们被称为“分页”，因为它们已进行了格式化，以适应页面。 即使某个表跨多个页，分页报表也能显示表中的所有数据。 它们有时被称为“像素完美”，因为用户可以准确地控制其报表页面布局。 分页报表基于 SQL Server Reporting Services 中的 RDL 报表技术。 报表生成器是用于创作分页报表的独立工具。 
 
 分页报表可以有很多页。 例如，此报表有 563 页。 每页都采用精准布局，每个发票占一页，重复页眉和页脚。
 
-![Power BI 服务中的分页报表](media/paginated-reports-report-builder-power-bi/power-bi-paginated-wwi-report-page.png)
+![分页](media/paginated-reports-report-builder-power-bi/power-bi-paginated-wwi-report-page.png)
 
-可以在报表生成器中预览报表，然后将报表发布到 Power BI 服务： http://app.powerbi.com 。 需要具有 Power BI Pro 许可证才能将报表发布到服务。 只要工作区处于 Power BI 高级容量中，就可以在“我的工作区”或应用工作区中发布和共享分页报表。 另外，Power BI 管理员需要在 Power BI 管理门户中启用分页报表。 
+![Power BI 服务中的分页报表](media/report-builder-power-bi/report-builder-get-started-paginated-report.png)
+
+可以在报表生成器中预览报表，然后将报表发布到 Power BI 服务： http://app.powerbi.com 。 需要具有 Power BI Pro 许可证才能将报表发布到服务。 只要工作区处于 Power BI 高级容量中，就可以在“我的工作区”或应用工作区中发布和共享分页报表。 另外，Power BI 管理员需要在 Power BI 管理门户的[高级容量部分](service-admin-premium-workloads.md#paginated-reports-preview)中启用分页报表。 
 
 ## <a name="create-reports-in-power-bi-report-builder"></a>在 Power BI 报表生成器中创建报表
 
-分页的报表都具有其自己的设计工具，Power BI 报表生成器。 它是共享基础您以前曾使用 Power BI 报表服务器或 SQL Server Reporting Services (SSRS) 中创建分页的报表的工具相同的新工具。 实际上，为 SSRS 2016 和 2017 或为本地 Power BI 报表服务器创建的分页报表与 Power BI 服务兼容。 Power BI 服务保持向后兼容性，因此，用户可以向前移动报表，并且可以升级任何旧版分页报表。 在发布时，并非所有报表功能都可用。 有关详细信息，请参阅本文中的[限制和注意事项](#limitations-and-considerations)。
+分页报表具有其自己的设计工具，即 Power BI 报表生成器。 它是一款新工具，与以前用于为 Power BI 报表服务器或 SQL Server Reporting Services (SSRS) 创建分页报表的工具共享同一基础。 实际上，为 SSRS 2016 和 2017 或为本地 Power BI 报表服务器创建的分页报表与 Power BI 服务兼容。 Power BI 服务保持向后兼容性，因此，用户可以向前移动报表，并且可以升级任何旧版分页报表。 在发布时，并非所有报表功能都可用。 有关详细信息，请参阅本文中的[限制和注意事项](#limitations-and-considerations)。
      
 ## <a name="report-from-a-variety-of-data-sources"></a>来自各种数据源的报表
 
-一个分页报表可能包含许多不同的数据源。 与 Power BI 报表不同的是，它没有基础数据模型。 对于 Power BI 服务中分页报表的初始发布，可以在报表本身创建嵌入数据源和数据集。 尚无法使用共享数据源或共享数据集。 可以在本地计算机上的报表生成器中创建报表。 如果报表连接到本地数据，则在将报表上传到 Power BI 服务后，需要创建网关并重定向数据连接。 下面是这一次可以连接到的数据源：
+一个分页报表可能包含许多不同的数据源。 与 Power BI 报表不同的是，它没有基础数据模型。 对于 Power BI 服务中分页报表的初始发布，可以在报表本身创建嵌入数据源和数据集。 尚无法使用共享数据源或共享数据集。 可以在本地计算机上的报表生成器中创建报表。 如果报表连接到本地数据，则在将报表上传到 Power BI 服务后，需要创建网关并重定向数据连接。 以下是目前可以连接到的数据源：
 
 - Azure SQL 数据库和数据仓库
-- Azure Analysis Services （通过 SSO)
+- Azure Analysis Services（通过 SSO）
 - 通过网关连接的 SQL Server
 - 通过网关连接的 SQL Server Analysis Services
-- Power BI 高级数据集
+- Power BI Premium 数据集
 - Oracle
 - Teradata
- 
-预览期间将会出现更多数据源。
+- 所添加的其他数据源
 
 ## <a name="design-your-report"></a>设计报表  
 
@@ -62,16 +63,16 @@ ms.locfileid: "65991069"
 
 ## <a name="creating-a-report-definition"></a>创建报表定义
 
-在设计分页报表时，实际上要创建报表定义  。 它不包含数据。 它指定获取数据的位置、要获取的数据以及如何显示数据。 运行报表时，报表处理器将获取用户指定的报表定义、检索数据，并将其与报表布局组合以生成报表。 可以将报表定义上传到 Power BI 服务：[http://app.powerbi.com](http://app.powerbi.com)，以上传到“我的工作区”或与同事共享的工作区中。 如果报表数据源位于本地环境中，则在上传报表后，可以将数据源连接重定向到网关。 
+在设计分页报表时，实际上要创建报表定义  。 它不包含数据。 它指定获取数据的位置、要获取的数据以及如何显示数据。 运行报表时，报表处理器将获取用户指定的报表定义、检索数据，并将其与报表布局组合以生成报表。 可以将报表定义上传到 Power BI 服务：[http://app.powerbi.com](http://app.powerbi.com )，以上传到“我的工作区”或与同事共享的工作区中。 如果报表数据源位于本地环境中，则在上传报表后，可以将数据源连接重定向到网关。 
 
 ## <a name="view-your-paginated-report"></a>查看分页报表
 可以通过浏览器在 Power BI 服务中查看分页报表，也可以在 Power BI 移动应用中查看。 在 Power BI 服务中，可以将报表导出为多种格式，例如 HTML、MHTML、PDF、XML、CSV、TIFF、Word 和 Excel。 还可以与其他人共享它。  
 
-## <a name="create-a-subscription-to-your-report"></a>创建报表的订阅
+## <a name="create-a-subscription-to-your-report"></a>创建报表订阅
 
-现在可以设置 Power BI 服务中的分页报表为你自己和其他人的电子邮件订阅。 一般情况下，该过程是相同订阅报表和 Power BI 服务中的仪表板。 设置订阅，选择你想要接收电子邮件的频率： 每日、 每周或每小时。 该订阅包含整个报表输出的 PDF 附件。
+现在可以在 Power BI 服务中为自己和他人设置分页报表的电子邮件订阅。 一般而言，该过程与在 Power BI 服务中订阅报表和仪表板的过程相同。 设置订阅时，可以选择接收电子邮件的频率：每天、每周或每小时。 订阅包含有关整个报表输出的 PDF 附件。
 
-有关详细信息，请参阅文章[你自己和其他人订阅 Power BI 服务中的分页报表到](paginated-reports-subscriptions.md)。 
+有关详细信息，请参阅[在 Power BI 服务中为自己和他人订阅分页报表](paginated-reports-subscriptions.md)一文。 
 
 ## <a name="limitations-and-considerations"></a>限制和注意事项
 

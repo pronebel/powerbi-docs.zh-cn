@@ -8,27 +8,27 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
-ms.date: 02/05/2019
-ms.openlocfilehash: a38547807fbbcf3c76366f32caa46945e57ca8bc
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.date: 06/04/2019
+ms.openlocfilehash: f0e8a9931248860e11f783d04fead6172559afc1
+ms.sourcegitcommit: 88e2a80b95b3e735689e75da7c35d84e24772e13
+ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "65710321"
+ms.lasthandoff: 06/07/2019
+ms.locfileid: "66814263"
 ---
 # <a name="get-an-azure-ad-access-token-for-your-power-bi-application"></a>获取 Power BI 应用程序的 Azure AD 访问令牌
 
-了解如何在 Power BI 应用中对用户进行身份验证，并检索要用于 REST API 的访问令牌。
+本文介绍如何在 Power BI 应用程序中对用户进行身份验证，以及如何检索要与 [Power BI REST API](https://docs.microsoft.com/rest/api/power-bi/) 配合使用的访问令牌。
 
-必须先获取 Azure Active Directory (Azure AD) 身份验证访问令牌  （简称“访问令牌”），才能调用 Power BI REST API。 使用访问令牌允许应用访问 Power BI 仪表板、磁贴和报表   。 若要了解有关 Azure Active Directory **访问令牌**流的详细信息，请参阅 [Azure AD 授权代码授予流](https://docs.microsoft.com/azure/active-directory/develop/v1-protocols-oauth-code)。
+需要先获取 Azure Active Directory (Azure AD) **身份验证访问令牌**，然后应用才能调用该 REST API。 应用使用令牌获取对 Power BI 仪表板、磁贴和报表的访问权限。 若要了解详细信息，请参阅[使用 OAuth 2.0 代码授予流授予对 Azure Active Directory Web 应用程序的访问权限](https://docs.microsoft.com/azure/active-directory/develop/v1-protocols-oauth-code)。
 
-访问令牌的检索方式不同，具体视内容的嵌入方式而定。 本文使用了两种不同方法。
+访问令牌的检索方式不同，具体视内容的嵌入方式而定。 本文介绍两种不同的方法。
 
 ## <a name="access-token-for-power-bi-users-user-owns-data"></a>Power BI 用户（用户拥有数据）的访问令牌
 
-此示例适用于用户使用组织登录名手动登录 Azure AD 的情况。 在嵌入 Power BI 用户（这些用户访问可以使用 Power BI 服务的内容）的内容时，使用此任务。
+此示例适用于用户使用其组织登录名手动登录 Azure AD 的情况。 此任务用于为具有 Power BI 服务访问权限的用户嵌入内容的情况。
 
-### <a name="get-an-authorization-code-from-azure-ad"></a>从 Azure AD 获取授权代码
+### <a name="get-an-azure-ad-authorization-code"></a>获取 Azure AD 授权代码
 
 获取**访问令牌**的第一步是从 **Azure AD** 获取授权代码。 构造具有以下属性的查询字符串，并重定向到 Azure AD  。
 
@@ -54,7 +54,7 @@ var @params = new NameValueCollection
 };
 ```
 
-构造查询字符串后，重定向到 **Azure AD** 以获取**授权代码**。  下面是构造**授权代码**查询字符串的并重定向到 **Azure AD** 的完整 C# 方法。 获取授权代码后，将使用**授权代码**获取**访问令牌**。
+构造查询字符串后，重定向到 **Azure AD** 以获取**授权代码**。  下面是构造**授权代码**查询字符串的并重定向到 **Azure AD** 的完整 C# 方法。 随后使用**授权代码**获取**访问令牌**。
 
 在 redirect.aspx.cs 中，调用 [AuthenticationContext.AcquireTokenByAuthorizationCode](https://docs.microsoft.com/dotnet/api/microsoft.identitymodel.clients.activedirectory.authenticationcontext.acquiretokenbyauthorizationcodeasync?view=azure-dotnet#Microsoft_IdentityModel_Clients_ActiveDirectory_AuthenticationContext_AcquireTokenByAuthorizationCodeAsync_System_String_System_Uri_Microsoft_IdentityModel_Clients_ActiveDirectory_ClientCredential_System_String_) 生成令牌。
 
@@ -98,9 +98,9 @@ protected void signInButton_Click(object sender, EventArgs e)
 
 ### <a name="get-an-access-token-from-authorization-code"></a>通过授权代码获取访问令牌
 
-现在应该已有从 Azure AD 获取的授权代码。 **Azure AD** 使用**授权代码**重定向回 Web 应用后，请使用**授权代码**获取访问令牌。 下面的 C# 示例可用于重定向页和 default.aspx 页的 Page_Load 事件。
+在 **Azure AD** 使用**授权代码**重定向回 Web 应用后，可使用授权代码来获取访问令牌。 下面的 C# 示例可用于重定向页面和 default.aspx 的 `Page_Load` 事件。
 
-可以从 [Active Directory 身份验证库](https://www.nuget.org/packages/Microsoft.IdentityModel.Clients.ActiveDirectory/) NuGet 包检索 Microsoft.IdentityModel.Clients.ActiveDirectory  命名空间。
+可从 [Active Directory 身份验证库](https://www.nuget.org/packages/Microsoft.IdentityModel.Clients.ActiveDirectory/) NuGet 包检索 **Microsoft.IdentityModel.Clients.ActiveDirectory** 命名空间。
 
 ```powershell
 Install-Package Microsoft.IdentityModel.Clients.ActiveDirectory
@@ -165,11 +165,11 @@ protected void Page_Load(object sender, EventArgs e)
 
 ## <a name="access-token-for-non-power-bi-users-app-owns-data"></a>非 Power BI 用户（应用拥有数据）的访问令牌
 
-这种方法通常用于 ISV 类型的应用，即应用拥有数据访问权限。 用户不一定是 Power BI 用户，且应用程序控制最终用户的身份验证和访问权限。
+此方法通常用于独立软件供应商 (ISV) 类型的应用程序，即应用拥有数据访问权限。 用户不一定是 Power BI 用户，且应用程序控制用户身份验证和访问。
 
 ### <a name="access-token-with-a-master-account"></a>主帐户的访问令牌
 
-若要使用这种方法，请使用一个是 Power BI Pro 用户的主帐户  。 此帐户的凭据存储在应用名下。 应用程序使用这些存储的凭据进行 Azure AD 身份验证。 下面显示的示例代码来自[“应用拥有数据”示例](https://github.com/guyinacube/PowerBI-Developer-Samples)
+若要使用这种方法，请使用一个是 Power BI Pro 用户的主帐户  。 帐户凭据存储在应用程序中。 应用程序使用这些存储的凭据进行 Azure AD 身份验证。 下面显示的示例代码来自[“应用拥有数据”示例](https://github.com/guyinacube/PowerBI-Developer-Samples)
 
 ### <a name="access-token-with-service-principal"></a>服务主体的访问令牌
 
@@ -199,10 +199,12 @@ m_tokenCredentials = new TokenCredentials(authenticationResult.AccessToken, "Bea
 
 ## <a name="troubleshoot"></a>疑难解答
 
-* 下载[Microsoft.IdentityModel.Clients.ActiveDirectory](https://www.nuget.org/packages/Microsoft.IdentityModel.Clients.ActiveDirectory/2.22.302111727)如果遇到"AuthenticationContext 不包含 AcquireToken 和接受的第一个参数的类型没有可访问 AcquireToken 的定义AuthenticationContext 找不到 (是否缺少 using 指令或程序集引用？)"错误。
+错误消息：“'AuthenticationContext' 不包含 'AcquireToken' 的定义，并且找不到接受 'AuthenticationContext' 类型的第一个参数的可访问 'AcquireToken' (是否缺少 using 指令或程序集引用?)”。
+
+   如果看到此错误，请尝试下载 [Microsoft.IdentityModel.Clients.ActiveDirectory](https://www.nuget.org/packages/Microsoft.IdentityModel.Clients.ActiveDirectory/2.22.302111727)。
 
 ## <a name="next-steps"></a>后续步骤
 
-至此，已拥有访问令牌，可以调用 Power BI REST API 嵌入内容了。 有关如何嵌入内容的信息，请参阅[如何嵌入 Power BI 内容](embed-sample-for-customers.md#embed-content-within-your-application)。
+至此，已拥有访问令牌，可以调用 Power BI REST API 嵌入内容了。 有关信息，请参阅[如何嵌入 Power BI 内容](embed-sample-for-customers.md#embed-content-within-your-application)。
 
 更多问题？ [尝试咨询 Power BI 社区](http://community.powerbi.com/)

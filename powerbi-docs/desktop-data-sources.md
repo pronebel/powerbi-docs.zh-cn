@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 05/15/2019
+ms.date: 06/10/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: f045e9076cdd8552d6e35e72b9c5f6e2319add68
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: b689a4d0718c92608fe7fc0cdb34d27803015269
+ms.sourcegitcommit: e48ef4c88e4a1a0b259bf899d85d520c4edd5751
+ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "65853466"
+ms.lasthandoff: 06/10/2019
+ms.locfileid: "66823518"
 ---
 # <a name="data-sources-in-power-bi-desktop"></a>Power BI Desktop 中的数据源
 使用 Power BI Desktop，你可以连接到来自许多不同的源的数据。 在此页面底部列出了可用数据源的完整清单。
@@ -84,8 +84,8 @@ ms.locfileid: "65853466"
 * BI 连接器
 * Dremio
 * Exasol
-* Indexima （beta 版本）
-* InterSystems 鸢尾花 （beta 版本）
+* Indexima (Beta)
+* InterSystems IRIS (Beta)
 * Jethro (Beta)
 * Kyligence Enterprise (Beta)
 * MarkLogic (Beta)
@@ -119,7 +119,7 @@ ms.locfileid: "65853466"
 * Azure HDInsight Spark
 * HDInsight 交互式查询
 * Azure 数据资源管理器 (Kusto)
-* Azure 成本的管理 （beta 版本）
+* Azure 成本管理 (Beta)
 
 下图显示 **Azure** 的**获取数据**窗口。
 
@@ -133,7 +133,7 @@ ms.locfileid: "65853466"
 * Dynamics NAV
 * Dynamics 365 Business Central
 * Dynamics 365 Business Central (本地)
-* Common Data Service for Apps (Beta)
+* Common Data Service
 * Microsoft Azure 使用见解 (Beta)
 * Azure DevOps (Beta)
 * Azure DevOps Server (Beta)
@@ -161,8 +161,11 @@ ms.locfileid: "65853466"
 * Webtrends (Beta)
 * Zendesk (Beta)
 * Emigo 数据源 (Beta)
-* IndustrialAppStore （beta 版本）
+* Entersoft Business Suite (Beta)
+* Industrial App Store
+* Intune 数据仓库 (Beta)
 * Microsoft Graph Security (Beta)
+* Quick Base
 * TeamDesk (Beta)
 
 下图显示 **Online Services** 的**获取数据**窗口。
@@ -182,15 +185,14 @@ ms.locfileid: "65853466"
 * Python 脚本
 * ODBC
 * OLE DB
-* BI360-预算方面和财务报告 （beta 版本）
+* BI360 - Budgeting & Financial Reporting (Beta)
 * Denado
-* 信息网格 （beta 版本）
+* Information Grid (Beta)
 * Paxata 
 * QubolePresto (Beta)
-* Quick Base (Beta)
-* Roamler （beta 版本）
+* Roamler (Beta)
 * SurveyMonkey (Beta)
-* Tenforce （beta 版本）
+* Tenforce (Smart)List (Beta)
 * 工作人员维度 (Beta)
 * 空白查询
 

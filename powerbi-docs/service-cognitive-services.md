@@ -1,5 +1,5 @@
 ---
-title: Power BI 中的认知服务（预览版）
+title: Power BI 中的认知服务
 description: 了解如何使用 Power BI 中的认知服务
 author: davidiseminger
 manager: kfile
@@ -7,17 +7,17 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 04/02/2019
+ms.date: 06/10/2019
 ms.author: davidi
 LocalizationGroup: conceptual
-ms.openlocfilehash: 63de805b357fd5b4d15aeea2231dc952ec9e7077
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 267534198d40b91a5550321162b42ecd45500673
+ms.sourcegitcommit: e48ef4c88e4a1a0b259bf899d85d520c4edd5751
+ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61181919"
+ms.lasthandoff: 06/10/2019
+ms.locfileid: "66823501"
 ---
-# <a name="cognitive-services-in-power-bi-preview"></a>Power BI 中的认知服务（预览版）
+# <a name="cognitive-services-in-power-bi"></a>Power BI 中的认知服务 
 
 借助 Power BI 中的认知服务，可以在数据流自助服务数据准备中应用 [Azure 认知服务](https://azure.microsoft.com/services/cognitive-services/)中的不同算法来丰富数据。
 
@@ -25,7 +25,7 @@ ms.locfileid: "61181919"
 
 ## <a name="enabling-ai-features"></a>**启用 AI 功能**
 
-高级容量节点 EM2、A2 或 P1 及更高版本均支持认知服务。 容量上的单独 AI 工作负载用于运行认知服务。 在公共预览期间，默认禁用此工作负载。 在 Power BI 中使用认知服务之前，需要在管理门户的容量设置中启用 AI 工作负载。 可以在工作负载部分启用 AI 工作负载，并定义希望此工作负载使用的最大内存量。 建议的内存限制为 20%。 超过此限制会导致查询速度变慢。
+高级容量节点 EM2、A2 或 P1 及更高版本均支持认知服务。 容量上的单独 AI 工作负载用于运行认知服务。 公共预览期间（2019 年 6 月之前），默认情况下禁用此工作负载。 在 Power BI 中使用认知服务之前，需要在管理门户的容量设置中启用 AI 工作负载。 可以在工作负载部分启用 AI 工作负载，并定义希望此工作负载使用的最大内存量。 建议的内存限制为 20%。 超过此限制会导致查询速度变慢。
 
 ![Power BI 中的认知服务](media/service-cognitive-services/cognitive-services_01.png)
 
@@ -95,14 +95,14 @@ Cultureinfo 是一个可选输入，用于指定文本的语言  。 此字段�
 
 本文简要介绍了如何将认知服务与 Power BI 服务一起使用。 以下文章也应该会非常有趣且实用。 
 
-* [教程：在 Power BI 中调用机器学习工作室模型（预览版）](service-tutorial-invoke-machine-learning-model.md)
-* [Power BI 中的 Azure 机器学习集成（预览版）](service-machine-learning-integration.md)
+* [教程：在 Power BI 中调用机器学习工作室模型](service-tutorial-invoke-machine-learning-model.md)
+* [Power BI 中的 Azure 机器学习集成](service-machine-learning-integration.md)
 * [教程：在 Power BI 中使用认知服务](service-tutorial-use-cognitive-services.md)
 
 
 有关数据流的详细信息，可以阅读以下这些文章：
 * [在 Power BI 中创建和使用数据流](service-dataflows-create-use.md)
-* [使用 Power BI Premium 上的计算的实体](service-dataflows-computed-entities-premium.md)
-* [数据流中使用的本地数据源](service-dataflows-on-premises-gateways.md)
+* [在 Power BI Premium 上使用计算实体](service-dataflows-computed-entities-premium.md)
+* [将数据流与本地数据源配合使用](service-dataflows-on-premises-gateways.md)
 * [Power BI 数据流的开发人员资源](service-dataflows-developer-resources.md)
 * [数据流和 Azure Data Lake 集成（预览）](service-dataflows-azure-data-lake-integration.md)

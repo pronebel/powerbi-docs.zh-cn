@@ -1,5 +1,5 @@
 ---
-title: 为 Power BI 分页报表创建嵌入数据集（预览）
+title: 为 Power BI 分页报表创建嵌入数据集
 description: 本文介绍如何在 Power BI 服务中基于嵌入数据源为分页报表创建嵌入数据集。
 author: maggiesMSFT
 ms.author: maggies
@@ -9,22 +9,22 @@ ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: conceptual
 ms.date: 11/5/2018
-ms.openlocfilehash: 3e095da10e9f96c7ec0f10ffbb94995d44effab4
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: cf41b404385139561a97f1d5b081ae1c48ff2885
+ms.sourcegitcommit: 797bb40f691384cb1b23dd08c1634f672b4a82bb
+ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61423686"
+ms.lasthandoff: 06/12/2019
+ms.locfileid: "66839038"
 ---
-# <a name="create-an-embedded-dataset-for-a-paginated-report-in-the-power-bi-service-preview"></a>在 Power BI 服务中为分页报表创建嵌入数据集（预览）
+# <a name="create-an-embedded-dataset-for-a-paginated-report-in-the-power-bi-service"></a>在 Power BI 服务中为分页报表创建嵌入数据集
 
-本文介绍如何在 Power BI 服务中基于嵌入数据源为分页报表创建嵌入数据集。 嵌入数据集包含在单个分页报表中，并在该报表中使用。 目前，发布到 Power BI 服务的分页报表需要嵌入的数据集和嵌入的数据源。 创建嵌入的数据源和数据集在 Power BI 报表生成器中，而你要创建报表。 
+本文介绍如何在 Power BI 服务中基于嵌入数据源为分页报表创建嵌入数据集。 嵌入数据集包含在单个分页报表中，并在该报表中使用。 目前，发布到 Power BI 服务的分页报表需要嵌入的数据集和嵌入的数据源。 创建报表时，可以在 Power BI 报表生成器中创建嵌入数据源和数据集。 
 
 在创建数据集之前，首先需要创建数据源。 若要了解详细信息，请参阅 Power BI 服务中[分页报表的嵌入数据源](paginated-reports-embedded-data-source.md)。
   
 ## <a name="create-an-embedded-dataset"></a>创建嵌入的数据集
   
-1. 在 Power BI 报表生成器中的报表数据窗格中，选择**新建** > **数据集**。
+1. 在 Power BI 报表生成器的“报表数据”窗格中，选择“新建” > “数据集”   。
 
 1. 在“数据集属性”  对话框的“查询”  选项卡中，为数据集提供一个名称。 嵌入的数据源已存在于“数据源”  框中，或者，可以选择“新建”  ，创建其他嵌入数据源。
  
@@ -56,7 +56,7 @@ ms.locfileid: "61423686"
  
 ## <a name="next-steps"></a>后续步骤 
 
-- [Power BI Premium 中的分页报表是什么？（预览）](paginated-reports-report-builder-power-bi.md)  
+- [Power BI Premium 中的分页报表是什么？](paginated-reports-report-builder-power-bi.md)  
 - [教程：创建分页报表并将其上传到 Power BI 服务](paginated-reports-quickstart-aw.md)
 - [将分页报表发布到 Power BI 服务](paginated-reports-save-to-power-bi-service.md)
 

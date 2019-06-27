@@ -7,18 +7,18 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 09/24/2018
+ms.date: 06/11/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 02d81a4ebb92ec199887109c7f2d9afcb6449eda
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: fe1d2a6f086831a4ae6bd78d8669dce9459bffad
+ms.sourcegitcommit: 797bb40f691384cb1b23dd08c1634f672b4a82bb
+ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61393166"
+ms.lasthandoff: 06/12/2019
+ms.locfileid: "66839863"
 ---
 # <a name="basic-area-chart"></a>基本分区图
-基本面积图（又称为分层分区图）基于折线图。 轴和行之间的区域使用颜色进行填充以指示量。 
+基本分区图（又称为分层分区图）在折线图的基础上构建。 轴和行之间的区域使用颜色进行填充以指示量。 
 
 分区图强调变化随时间推移的度量值，可以用于吸引人们关注某个趋势间的总值。 例如，可以在分区图中绘制表示随时间推移的利润的数据以强调总利润。
 
@@ -40,11 +40,11 @@ ms.locfileid: "61393166"
  
 
 1. 从“零售分析示例”仪表板中，选择**总商店数**磁贴以打开“零售分析示例”报表。
-2. 选择**编辑报表**在编辑视图中打开报表。
+2. 选择“编辑”以在“编辑”视图中打开报表  。
 3. 选择报表底部的黄色加号图标 (+)，添加新报表页。
 4. 创建按月显示本年度销售额和去年销售额的面积图。
    
-   a. 在“字段”窗格中，依次选择“销售额”\>“去年销售额”  ，再依次选择“今年销售额”>“值”  。
+   a. 在“字段”窗格中，依次选择“销售额”\>“去年销售额”，再依次选择“今年销售额 > 值”   。
 
    ![](media/power-bi-visualization-basic-area-chart/power-bi-bar-chart.png)
 

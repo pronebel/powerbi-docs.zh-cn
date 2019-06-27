@@ -1,7 +1,7 @@
 ---
 title: Power BI 报表服务器的更改日志
 description: 此更改日志适用于 Power BI 报表服务器，并列出了新项和每次发布版本的 bug 修复。
-ms.author: jtarquino
+ms.author: jaimeta
 author: jtarquino
 manager: kfile
 ms.reviewer: maggies
@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 03/31/2018
-ms.openlocfilehash: bb25bfb9b3278ef5eccfd54436a6de430d17677d
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: d7d3bf85661284835271b68c476ee53ec2c474bc
+ms.sourcegitcommit: 81ba3572531cbe95ea0b887b94e91f94050f3129
+ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "65990624"
+ms.lasthandoff: 06/06/2019
+ms.locfileid: "66751131"
 ---
 # <a name="changelog-for-power-bi-report-server"></a>Power BI 报表服务器的更改日志
 
@@ -22,34 +22,34 @@ ms.locfileid: "65990624"
 
 有关新功能的详细信息，请参阅[Power BI 报表服务器中的新增功能](whats-new.md)。 
 
-## <a name="may-2019"></a>2019 年 5
+## <a name="may-2019"></a>2019 年 5 月
 
 - **Power BI 报表服务器**          
-    - *版本发布 1.5.7074.36177 （内部版本 15.0.1102.371）：2019 年 5 月 21 日，*
+    - *版本 1.5.7074.36177（内部版本 15.0.1102.371），发布日期：2019 年 5 月 21 日*
         - Bug 修复
             - 分页报表
-                - 若要始终启用 pdf 字体嵌入的修补程序。
-                - 修复设置通过作为安全的 https 发送的 cookie
-                - 修复问题的 pop 到 ups 由于脚本错误
-                - 针对移动应用的 Android 手机上的显示问题的修复程序
-                - 修复移动报表时间导航器以显示正确的周数，而不考虑会计年度的开始
-                - 添加了 RestrictedResourceMimeTypeForUpload 为管理员指定的可配置属性禁止 mime 类型
+                - 修复了问题：始终启用 pdf 字体嵌入。
+                - 修复了问题：通过 https 发送的 cookie 设置为“安全”
+                - 修复了问题：脚本错误导致弹出窗口
+                - 修复了 Android 手机上移动应用的显示问题
+                - 修复了移动报表时间导航器的问题，使其能够显示正确的周数，而不考虑会计年度的开始日期
+                - 为管理员添加了可配置属性“RestrictedResourceMimeTypeForUpload”，用于指定禁止的 mime 类型
          - 功能
-            - 将支持受信任的视觉对象添加到 PBIRS
+            - 向 PBIRS 添加了对信任视觉对象的支持
 
 - Power BI Desktop（已针对 Power BI 报表服务器进行优化） 
-    - *版本：2.69.5467.1801 （2019 年 5），发布：2019 年 5 月 21 日，*
+    - *版本：2.69.5467.1801（2019 年 5 月），发布日期：2019 年 5 月 21 日*
         - Bug 修复
-            - 修复，可避免在 PBIX 上传到 PBIRS 过程中重新输入凭据
-            - 打开文档的文件名中的 # 开头的修补程序
-            - 添加了更容易 PBIRS 选择窗口上的后退导航链接
-            - 修复为 PBIRS 以显示后退按钮，显示警告 visual 消息中的高对比度模式。
-            - UI 修补程序，用于选择窗格中，画布缩放。
+            - 修复了问题：在 PBIX 上传到 PBIRS 期间重新输入凭据
+            - 修复了问题：打开文件名中带 # 的文档
+            - 添加了用于在 PBIRS 选择窗口上执行后退导航操作的更便捷的链接
+            - 修复了 PBIRS 中的高对比度模式问题：显示后退按钮，显示视觉警告消息。
+            - 修复了“选择”窗格和画布缩放的 UI 问题。
 
 ## <a name="january-2019"></a>2019 年 1 月
 
 - **Power BI 报表服务器**          
-    - *版本发布 1.4.7024.16477 （内部版本 15.0.1102.299）：2019 年 3 月 28日日*
+    - *版本 1.4.7024.16477（内部版本 15.0.1102.299），发布日期：2019 年 3 月 28 日*
         - Bug 修复
             - Power BI 报表
                 - 修复了对 SAP Hana 和 SAP BW 使用直接查询时基本凭据方面出现的问题

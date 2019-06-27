@@ -1,5 +1,5 @@
 ---
-title: 直接在报表生成器的分页报表中输入数据（预览）
+title: 直接在报表生成器的分页报表中输入数据
 description: 本文介绍如何将数据直接输入到报表生成器的分页报表中。
 author: maggiesMSFT
 ms.author: maggies
@@ -8,15 +8,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: conceptual
-ms.date: 11/19/2018
-ms.openlocfilehash: 3237f4751083f374ac00a959f226429b17757b50
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.date: 06/06/2019
+ms.openlocfilehash: fd000ffd0d47935f36e72f6d0000d548623edf0a
+ms.sourcegitcommit: 797bb40f691384cb1b23dd08c1634f672b4a82bb
+ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61424259"
+ms.lasthandoff: 06/12/2019
+ms.locfileid: "66839096"
 ---
-# <a name="enter-data-directly-in-a-paginated-report-in-report-builder-preview---power-bi"></a>直接在报表生成器 - Power BI 的分页报表中输入数据（预览）
+# <a name="enter-data-directly-in-a-paginated-report-in-report-builder---power-bi"></a>直接在报表生成器 - Power BI 的分页报表中输入数据
 
 本文介绍新版 SQL Server 2016 报表生成器中的一项功能，使用该功能可将数据作为嵌入数据集直接输入 RDL 报表。  此功能类似于 Power BI Desktop。 可以直接在报表的数据集中键入数据，也可从其他程序（如 Microsoft Excel）中粘贴数据。 通过输入数据创建数据集后，可像使用任何其他已创建的嵌入数据集一样使用它。 此外，可以添加多个表，并使用一个表作为另一个表的筛选器。 此功能对可能要用于报表的小型静态数据集（如报表参数）特别有用。
  
@@ -76,7 +76,7 @@ ms.locfileid: "61424259"
 
 ## <a name="upload-the-paginated-report-to-the-power-bi-service"></a>将分页报表上传到 Power BI 服务
 
-现在预览版 Power BI 服务支持分页报表，可将分页报表上传到高级容量。 有关详细信息，请参阅[上传分页报表](paginated-reports-save-to-power-bi-service.md#upload-a-paginated-report)。
+Power BI 服务现在支持分页报表，因此可将分页报表上传到高级容量。 有关详细信息，请参阅[上传分页报表](paginated-reports-save-to-power-bi-service.md#upload-a-paginated-report)。
 
 ## <a name="upload-the-paginated-report-to-a-report-server"></a>将分页报表上传到报表服务器
 
@@ -98,5 +98,5 @@ ms.locfileid: "61424259"
 
 ## <a name="next-steps"></a>后续步骤
 
-- [Power BI Premium 中的分页报表是什么？（预览）](paginated-reports-report-builder-power-bi.md)
+- [Power BI Premium 中的分页报表是什么？](paginated-reports-report-builder-power-bi.md)
 - [什么是 Power BI 报表服务器？](report-server/get-started.md)

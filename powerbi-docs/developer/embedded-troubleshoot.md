@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 02/05/2019
-ms.openlocfilehash: 43cb59853e884b1e3e6a49c328aa3385e88b62fc
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 6e28af5a03fd799f088d428f16621358c2a4f7c5
+ms.sourcegitcommit: e48ef4c88e4a1a0b259bf899d85d520c4edd5751
+ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "64770471"
+ms.lasthandoff: 06/10/2019
+ms.locfileid: "66823313"
 ---
 # <a name="troubleshoot-your-embedded-application"></a>嵌入式应用程序疑难解答
 
@@ -80,6 +80,7 @@ Azure 门户或 Power BI 应用注册页面中的错误消息提到权限不足�
 * Azure AD 身份验证标记已过期。
 * 经过身份验证的用户不是组（应用工作区）的成员。
 * 经过身份验证的用户不是组（应用工作区）的管理员。
+* 经过身份验证的用户没有权限。 可以使用 [refreshUserPermissions API](https://docs.microsoft.com/en-us/rest/api/power-bi/users/refreshuserpermissions) 更新权限
 * 可能不会正确列出身份验证标头。 请确保没有拼写错误。
 
 应用程序的后端在调用 GenerateToken 前可能需要刷新身份验证标记。
@@ -187,7 +188,7 @@ Add-AzureADServicePrincipalPolicy -Id $sp.ObjectId -RefObjectId $policy.Id
 
 ### <a name="cs1061-error"></a>CS1061 错误
 
-下载[Microsoft.IdentityModel.Clients.ActiveDirectory](https://www.nuget.org/packages/Microsoft.IdentityModel.Clients.ActiveDirectory/2.22.302111727)如果遇到"AuthenticationContext 不包含 AcquireToken 和接受的第一个参数的类型没有可访问 AcquireToken 的定义AuthenticationContext 找不到 (是否缺少 using 指令或程序集引用？)"错误。
+如果遇到“'AuthenticationContext' 不包含 'AcquireToken' 的定义，并且找不到接受 'AuthenticationContext' 类型的第一个参数的可访问 'AcquireToken' (是否缺少 using 指令或程序集引用?)”错误，请下载 [Microsoft.IdentityModel.Clients.ActiveDirectory](https://www.nuget.org/packages/Microsoft.IdentityModel.Clients.ActiveDirectory/2.22.302111727)。
 
 ## <a name="data-sources"></a>数据源
 

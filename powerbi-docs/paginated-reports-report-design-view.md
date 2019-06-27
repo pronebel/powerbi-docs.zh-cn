@@ -1,5 +1,5 @@
 ---
-title: 介绍分页报表的报表设计视图（预览）
+title: 介绍分页报表的报表设计视图
 description: 报表生成器中的报表设计视图是用于创建可以在 Power BI 服务中发布的分页报表的设计空间。
 author: maggiesMSFT
 ms.author: maggies
@@ -9,16 +9,16 @@ ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: overview
 ms.date: 11/05/2018
-ms.openlocfilehash: 2e9c402c09bc6f504729b8d6057ef5052f489f41
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 76c12cf411f49fda9f9fe042a6d1aafa457bf914
+ms.sourcegitcommit: 797bb40f691384cb1b23dd08c1634f672b4a82bb
+ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61423328"
+ms.lasthandoff: 06/12/2019
+ms.locfileid: "66839532"
 ---
-# <a name="getting-around-in-report-design-view-for-paginated-reports-preview"></a>介绍分页报表的报表设计视图（预览）
+# <a name="getting-around-in-report-design-view-for-paginated-reports"></a>介绍分页报表的报表设计视图
 
-在 Power BI 报表生成器中的报表设计视图是用于创建可以发布到 Power BI 服务的分页的报表的设计空间。 设计图面位于报表生成器中间，其周围是功能区和窗格。 可在设计图面中添加和组织报表项。 本文介绍了用于添加、选择和组织报表资源以及更改报表项属性的窗格。  
+Power BI 报表生成器中的报表设计视图是用于创建可以发布到 Power BI 服务的分页报表的设计空间。 设计图面位于报表生成器中间，其周围是功能区和窗格。 可在设计图面中添加和组织报表项。 本文介绍了用于添加、选择和组织报表资源以及更改报表项属性的窗格。  
 
 ![报表生成器报表设计视图](media/paginated-reports-report-design-view/power-bi-paginated-report-design-view.png)
 
@@ -109,7 +109,7 @@ ms.locfileid: "61423328"
 
 ## <a name="next-steps"></a>后续步骤
 
-[Power BI Premium 中的分页报表是什么？（预览）](paginated-reports-report-builder-power-bi.md) 
+[Power BI Premium 中的分页报表是什么？](paginated-reports-report-builder-power-bi.md) 
 
   
   

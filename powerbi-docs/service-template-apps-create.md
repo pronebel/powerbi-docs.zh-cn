@@ -5,24 +5,24 @@ author: maggiesMSFT
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-service
+ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 04/22/2019
 ms.author: maggies
-ms.openlocfilehash: 653050fbe5c860ef1902a4700c3a70a8af2f7092
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 2dc9ae7eb7ecd82cdd6c9ea7ddbc6aa1fc70ca8b
+ms.sourcegitcommit: 81ba3572531cbe95ea0b887b94e91f94050f3129
+ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "65514916"
+ms.lasthandoff: 06/06/2019
+ms.locfileid: "66751189"
 ---
 # <a name="create-a-template-app-in-power-bi-preview"></a>在 Power BI 中创建模板应用（预览）
 
 新的 Power BI 模板应用使 Power BI 合作伙伴能够在极少编码或没有编码的情况下生成 Power BI 应用，并将它们部署到任何 Power BI 客户  。  本文包含创建 Power BI 模板应用的分步说明。
 
-如果可以创建 Power BI 报表和仪表板，您可以将成为*模板应用程序生成器*和生成并打包到分析内容*应用*。 可能会将您的应用程序部署到通过任何可用的平台，如 AppSource，或通过使用 web 服务中其他 Power BI 租户。 作为一个生成器中，您可以让你创建用于分发的受保护的分析包。
+如果可以创建 Power BI 报表和仪表板，那么你可成为模板应用构建者，可以生成分析内容并将其打包到“应用”中   。 可以通过任何可用平台（例如 AppSource）或者通过在自己的 Web 服务中使用应用，将应用部署其他 Power BI 租户。 作为构建者，可以创建用于分发的受保护的分析包。
 
-Power BI 租户管理员管理和控制组织中谁可以创建模板应用，以及谁可以安装它们。 已获得授权的用户可以安装应用模板，然后对其进行修改并将其分发给其组织中的 Power BI 使用者。
+Power BI 租户管理员管理和控制组织中谁可以创建模板应用，以及谁可以安装它们。 获得授权的这些用户可以安装模板应用，然后对其进行修改并将其分发给组织中的 Power BI 使用者。
 
 ## <a name="prerequisites"></a>先决条件
 
@@ -30,7 +30,7 @@ Power BI 租户管理员管理和控制组织中谁可以创建模板应用，�
 
 - 一个 [Power BI Pro 许可证](service-self-service-signup-for-power-bi.md)
 - [安装 Power BI Desktop](desktop-get-the-desktop.md)（可选）
-- 熟悉[的 Power BI 基本概念](service-basic-concepts.md)
+- 熟悉 [Power BI 的基本概念](service-basic-concepts.md)
 - 创建模板应用的权限。 有关详细信息，请参阅 Power BI [管理门户、模板应用设置](service-admin-portal.md#template-apps-settings-preview)。
 
 ## <a name="enable-app-developer-mode"></a>启用应用开发人员模式
@@ -66,7 +66,7 @@ Power BI 租户管理员管理和控制组织中谁可以创建模板应用，�
 
 5. 选择**保存**。
 >[!NOTE]
->从 Power BI 管理员升级模板应用需要权限。
+>需要 Power BI 管理员授权才能提升模板应用。
 
 ## <a name="create-the-content-in-your-template-app"></a>在模板应用中创建内容
 
@@ -86,43 +86,43 @@ Power BI 租户管理员管理和控制组织中谁可以创建模板应用，�
 
     ![创建应用](media/service-template-apps-create/power-bi-create-app.png)
 
-    在这里，你填充其他生成选项中模板中的应用，五个类别：
+    此处，可以在五个类别中为模板应用填写其他构建选项：
 
     **品牌**
 
     ![品牌](media/service-template-apps-create/power-bi-create-branding.png)
     - 应用名称
     - 说明
-    - 支持站点 （链接显示在应用信息下重新发布模板为组织应用的应用程序后）
-    - 应用徽标 （45 万个文件大小限制，1:1 的纵横比，.png.jpg.jpeg 格式）
+    - 支持网站（将模板应用重新分发为组织应用后，应用信息下会显示链接）
+    - 应用徽标（文件大小限不超过 45K，1:1 纵横比，.png、.jpg、.jpeg 格式）
     - 应用主题颜色
 
     **内容**
 
-    **应用登陆页面：** 定义报表或仪表板是您的应用程序的登录页，使用的登录页将提供良好的印象：
+    应用登陆页面：  将报表或仪表板定义为应用的登陆页面，使用观感良好的登陆页面：
 
     ![内容](media/service-template-apps-create/power-bi-create-content.png)
 
     **控件**
 
-    设置限制和局限性的应用程序用户将具有与你的应用程序的内容。 此控件可用于应用程序中保护知识产权。
+    对应用程序用户设置有关应用程序内容的限制。 可以使用此控件来保护应用中的知识产权。
 
-    ![控件](media/service-template-apps-create/power-bi-create-control.png)
+    ![控制](media/service-template-apps-create/power-bi-create-control.png)
 
     >[!NOTE]
-    >将导出为.pbix 格式始终阻止用户安装应用。
+    >安装应用的用户始终无法导出为 .pbix 格式。
 
     **参数**
 
-    此类别用于连接到数据源时管理参数行为。 详细了解如何[创建查询参数](https://powerbi.microsoft.com/blog/deep-dive-into-query-parameters-and-power-bi-templates/)。
+    使用此类别在连接到数据源时管理参数行为。 详细了解如何[创建查询参数](https://powerbi.microsoft.com/blog/deep-dive-into-query-parameters-and-power-bi-templates/)。
 
     ![参数](media/service-template-apps-create/power-bi-create-parameters.png)
-    - **值**： 默认参数值。
-    - **所需**： 用于需要安装程序来输入特定于用户的参数。
-    - **锁**:锁定可阻止安装程序更新参数。
-    - **静态**:启用应用程序包含的情况下*仅*示例数据。 当选择**静态**，安装向导不会询问用户要将数据源连接。
+    - **值**：默认参数值。
+    - **必需**：可用于要求安装程序输入特定于用户的参数。
+    - **锁定**：锁定阻止安装程序更新参数。
+    - **静态**：在应用仅包含示例数据的情况下启用  。 选择“静态”时，安装向导不要求用户连接数据源  。
 
-    **访问**在测试阶段，决定哪些其他人在你的组织中可以安装和测试您的应用程序。 别担心，始终可以返回，并在稍后更改这些设置 （设置不会影响分布式模板应用程序的访问权限）。
+    **访问**在测试阶段，确定组织中的其他人可以安装和测试应用。 不用担心，可在以后随时返回和更改这些设置（设置不会影响对分布式模板应用的访问）。
 
 2. 选择“创建应用”  。
 
@@ -141,9 +141,9 @@ Power BI 租户管理员管理和控制组织中谁可以创建模板应用，�
 - 将预生产包提升到生产：生产版本。
 - 删除任何包或从上一阶段重新开始。
 
-URL 不会更改在发布阶段之间移动。 升级不会影响本身的 URL。
+在发布阶段之间转移时，URL 不会更改。 提升不影响 URL 本身。
 
-让我们通过阶段：
+让我们来了解各个阶段：
 
 1. 在模板应用工作区中，选择“发布管理”  。
 
@@ -171,15 +171,15 @@ URL 不会更改在发布阶段之间移动。 升级不会影响本身的 URL�
     ![开始使用应用](media/service-template-apps-create/power-bi-template-app-get-started.png)
 8. 选择“浏览应用”以使用示例数据验证测试应用  。
 9. 若要进行任何更改，请返回到原始工作区中的应用。 更新测试应用，直到满意为止。
-10. 如果你已准备好将你的应用进行进一步的测试租户之外的预生产升级，请返回到**Release Management**窗格，然后选择**提升应用**。 
+10. 准备好将应用提升到预生产以在租户之外进行进一步测试时，请返回“发布管理”窗格，然后选择“提升应用”   。 
 
     ![将应用提升到预生产](media/service-template-apps-create/power-bi-template-app-promote.png)
 
     >[!NOTE]
-    > 提升应用程序时它将成为你组织的外部公开可用。
+    > 应用提升后，将在组织外部变得公开可用。
 
 11. 选择“提升”以确认选择  。
-12. 复制此新 URL 以在租户外共享以供测试。 此链接也是的一个提交以开始将应用在 AppSource 上的分发通过创建的过程[新的云合作伙伴门户产品/服务](https://docs.microsoft.com/azure/marketplace/cloud-partner-portal/power-bi/cpp-publish-offer)。 提交仅预生产云合作伙伴门户的链接。 仅应用获得批准并获取在 AppSource 中发布的通知后，你可以升级到生产环境在 Power BI 中此包。
+12. 复制此新 URL 以在租户外共享以供测试。 此链接也是开始通过创建[新的云合作伙伴门户产品和服务](https://docs.microsoft.com/azure/marketplace/cloud-partner-portal/power-bi/cpp-publish-offer)在 AppSource 上分发应用时要提交的链接。 仅提交云合作伙伴门户的预生产链接。 只有在应用获得批准且你收到应用已在 AppSource 中发布的通知后，才能在 Power BI 中将此包提升到生产。
 13. 当应用准备好通过 AppSource 进行生产或共享时，请返回“发布管理”窗格，然后选择“预生产”旁边的“提升应用”    。
 14. 选择“提升”以确认选择  。
 
@@ -202,11 +202,11 @@ URL 不会更改在发布阶段之间移动。 升级不会影响本身的 URL�
 
     ![两个版本的模板应用](media/service-template-apps-create/power-bi-template-app-2-versions.png)
 
-5. 如果你已准备好将你的应用进行进一步的测试租户之外的预生产升级，请返回到版本管理窗格并选择**提升应用**旁边**测试**。
-6. 你的链接现已推出，按照以下步骤在云合作伙伴门户重新提交它[产品/服务的 Power BI 应用更新](https://docs.microsoft.com/azure/marketplace/cloud-partner-portal/power-bi/cpp-update-existing-offer)。
+5. 准备好将应用提升到预生产以在租户之外进行进一步测试时，请返回“发布管理”窗格，然后选择“测试”旁边的“提升应用”   。
+6. 链接现已生效，请按照 [Power BI 应用产品/服务更新](https://docs.microsoft.com/azure/marketplace/cloud-partner-portal/power-bi/cpp-update-existing-offer) 中的步骤再次将其提交给云合作伙伴门户。
 
 >[!NOTE]
->通过云合作伙伴门户批准您的应用程序和其发布后才将提升到生产阶段应用程序。
+>只有在应用获得云合作伙伴门户的批准且将其已发布后，才能将应用提升到生产阶段。
 
 ## <a name="next-steps"></a>后续步骤
 

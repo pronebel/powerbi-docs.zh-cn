@@ -7,19 +7,21 @@ ms.reviewer: chbraun
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 05/31/2019
+ms.date: 06/07/2019
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: a5e4b41b36dfbf6cca14a348268b96eaad21b00e
-ms.sourcegitcommit: 7c426a5209d4fdd1360fc3d0442d57991be1984d
+ms.openlocfilehash: d893088978d7a412d0e005ca7b3280824974c76c
+ms.sourcegitcommit: 206806d8ddb6bdfc322c1a46fb34a1b0678acba2
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2019
-ms.locfileid: "66461847"
+ms.lasthandoff: 06/10/2019
+ms.locfileid: "66816686"
 ---
 # <a name="use-datasets-across-workspaces-preview"></a>跨工作区使用数据集（预览）
 
 商业智能是协作活动。 务必建立可能是一个真实源的标准化数据集。 发现和重用这些标准化数据集是关键所在。 组织中的专家数据建模人员创建和共享优化的数据集时，报表创建者可以从这些数据集开始生成精确的报表。 这样，你的组织就具有一致数据，可用于决策和健康的数据文化。
+
+![选择共享数据集](media/service-datasets-across-workspaces/power-bi-select-shared-dataset.png)
 
 Power BI 使数据集创建者可以轻松地验证或推广数据集，以便其他人能够发现。 然后报表创建者可找到高质量的正式数据集，可在 Power BI 中的任意位置使用。 数据集所有者可以使用[生成权限](service-datasets-build-permissions.md#build-permissions-for-shared-datasets)来控制有权访问其数据的人选。 租户管理员具有新的租户设置，可以[跨工作区治理数据集的使用](service-datasets-admin-across-workspaces.md)。
 

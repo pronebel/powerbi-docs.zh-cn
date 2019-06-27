@@ -8,20 +8,20 @@ featuredvideoid: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 09/27/2018
+ms.date: 06/12/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: ef03a562351b8f4487e4822ef28b89009ee5cbb4
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 2fa8fa5248ee1e4330804205b2cedb64021b1913
+ms.sourcegitcommit: 797bb40f691384cb1b23dd08c1634f672b4a82bb
+ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61143550"
+ms.lasthandoff: 06/12/2019
+ms.locfileid: "66839822"
 ---
 # <a name="filled-maps-choropleths-in-power-bi"></a>Power BI 中的着色地图（等值线图）
 着色地图使用明暗度、颜色或图案来显示不同地理位置或区域之间的值在比例上有何不同。  使用从浅（不太频繁/较低）到深（较频繁/较多）的明暗度快速显示这些相对差异。    
 
-![美国地图](media/power-bi-visualization-filled-maps-choropleths/large_map.png)
+![美国地图](media/power-bi-visualization-filled-maps-choropleths/large-map.png)
 
 ## <a name="what-is-sent-to-bing"></a>发动到必应的数据
 Power BI 与必应相集成，提供默认地图坐标（一个称为地理编码的过程）。 在 Power BI 服务或 Power BI Desktop 中创建地图可视化效果时，“位置”  、“纬度”  和“经度”  存储桶中的数据（用于创建该可视化效果）将发送到必应。
@@ -55,10 +55,11 @@ Power BI 与必应相集成，提供默认地图坐标（一个称为地理编�
 <iframe width="560" height="315" src="https://www.youtube.com/embed/ajTPGNpthcg" frameborder="0" allowfullscreen></iframe>
 
 ### <a name="get-data-and-add-a-new-blank-page-to-the-report"></a>获取数据并在报表中添加新的空白页面
-1. 若要创建你自己的着色地图，请[下载销售和市场营销示例](../sample-datasets.md)，具体方法是登录 Power BI，然后依次选择“获取数据” **\>“示例”“销售和市场营销”\>\>“连接”。**
-2. 出现成功消息时，将其关闭并选择“报表”选项卡  。然后选择“销售和市场营销示例”  以打开报表。
+1. 若要创建你自己的着色地图，请[下载销售和市场营销示例](../sample-datasets.md)，具体方法是登录 Power BI，然后依次选择“获取数据” **\>“示例”“销售和市场营销”\>\>“连接”。** 或者在 appsource.com 上获取 Power BI 销售和市场营销应用  。 
 
-   ![报表内容列表](media/power-bi-visualization-filled-maps-choropleths/power-bi-content-reports2.png)
+2. 打开“销售和市场营销”报表。
+
+   ![销售和市场营销报表随即打开](media/power-bi-visualization-filled-maps-choropleths/power-bi-report-canvas.png)
 3. Power BI 将打开报表。 选择“编辑报表”  在[编辑视图](../service-interact-with-a-report-in-editing-view.md)中打开报表。
 
 4. 通过选择报表画布底部的黄色加号添加新页面。
@@ -89,7 +90,7 @@ Power BI 与必应相集成，提供默认地图坐标（一个称为地理编�
 9. [保存报表](../service-report-save.md)。
 ##    <a name="adjust-the-color-formatting"></a>调整颜色格式
 Power BI 让你可以充分控制着色地图的外观。
-1. 选择滚动油漆刷图标，打开格式窗格。
+1. 选择“油漆滚刷”图标，打开“格式设置”窗格。
 
     ![“格式设置”窗格](media/power-bi-visualization-filled-maps-choropleths/power-bi-data-colors.png)
 
@@ -123,13 +124,13 @@ Power BI 让你可以充分控制着色地图的外观。
 ## <a name="considerations-and-troubleshooting"></a>注意事项和疑难解答
 地图数据可以是模棱两可的。  例如，可以有法国的巴黎，但也可以有德克萨斯州的巴黎。 地理数据可能存储在单独的列中 – 城市名称的列、州或省名称的列，等等 — 因此必应可能无法区分巴黎是哪个巴黎。 如果数据集已经包含纬度和经度数据，那么 Power BI 可以提供特殊的字段使地图数据不再模棱两可。 只需将包含纬度数据的字段拖放到“可视化效果”\>“纬度”区域。  对经度数据执行相同操作。    
 
-![“可视化效果”和“字段”窗格](media/power-bi-visualization-filled-maps-choropleths/pbi_latitude.png)
+![“可视化效果”和“字段”窗格](media/power-bi-visualization-filled-maps-choropleths/pbi-latitude.png)
 
 如果你具有编辑 Power BI Desktop 中的数据集的权限，则观看该视频有助于解决地图数据的模糊性。
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/Co2z9b-s_yM" frameborder="0" allowfullscreen></iframe>
 
-如果你没有访问纬度和经度数据的权限，则[按照这些说明来更新你的数据集](https://support.office.com/article/Maps-in-Power-View-8A9B2AF3-A055-4131-A327-85CC835271F7)。
+如果无法访问纬度和经度数据，但确实可以对数据集进行编辑，则[按照这些说明来更新数据集](https://support.office.com/article/Maps-in-Power-View-8A9B2AF3-A055-4131-A327-85CC835271F7)。
 
 有关地图可视化效果的更多帮助，请参阅 [Tips and tricks for map visualizations（地图可视化效果的提示和技巧）](../power-bi-map-tips-and-tricks.md)。
 
