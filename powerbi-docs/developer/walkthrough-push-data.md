@@ -105,10 +105,10 @@ Power BI API 可以将数据推送到 Power BI 数据集。 在本文中，我�
 | **数据类型** | **限制** |
 | --- | --- |
 | Int64 |不允许使用 Int64.MaxValue 和 Int64.MinValue。 |
-| 双精度 |不允许使用 Double.MaxValue 和 Double.MinValue 值。 不支持 NaN。 + 正无穷和负无穷大不支持某些函数 （例如，最小，最大）。 |
-| 布尔 |无 |
-| 日期时间 |数据加载，我们将量化天到 1/300 秒 （3.33 毫秒） 的整数倍的小数部分的值。 |
-| 字符串 |当前允许最多 12.8 万个字符。 |
+| Double |不允许使用 Double.MaxValue 和 Double.MinValue 值。 不支持 NaN。 + 正无穷和负无穷大不支持某些函数 （例如，最小，最大）。 |
+| Boolean |无 |
+| Datetime |数据加载，我们将量化天到 1/300 秒 （3.33 毫秒） 的整数倍的小数部分的值。 |
+| String |当前允许最多 12.8 万个字符。 |
 
 ## <a name="learn-more-about-pushing-data-into-power-bi"></a>了解有关将数据推送到 Power BI 的详细信息
 
