@@ -112,7 +112,7 @@ ms.locfileid: "61385259"
 |    Query End    |    记录自跟踪启动后的所有查询结束事件。    |
 |    Vertipaq Query End    |    记录自跟踪启动后的所有 VertiPaq SE 查询结束事件。    |
 |    Audit Logout    |    记录自跟踪启动后从引擎事件断开的所有连接。    |
-|    错误    |    记录自跟踪启动后的所有引擎错误事件。    |
+|    Error    |    记录自跟踪启动后的所有引擎错误事件。    |
 
 <br>
 <br>
@@ -131,13 +131,13 @@ ms.locfileid: "61385259"
 | ObjectPath | 5eaa550e-06ac-4adf-aba9-dbf0e8fd1527.Model.SalesLT Customer | 对象路径。 以逗号分隔的父级列表，以该对象的父级开头。 |
 | ObjectReference | <Object><Table>SalesLT 客户</Table><Model>Model</Model><Database>5eaa550e-06ac-4adf-aba9-dbf0e8fd1527</Database></Object> | 对象引用。 对所有父级都进行 XML 编码，使用标记来描述对象。 |
 | EndTime | 2018-04-06T18:30:11.9137358Z | 事件的结束时间。 |
-| 持续时间 | 0 | 事件使用的时间（毫秒）。 |
+| Duration | 0 | 事件使用的时间（毫秒）。 |
 | SessionType | 用户 | 会话类型（哪个实体导致了该操作）。 |
 | ProgressTotal | 0 | 总进度。 |
 | IntegerData | 0 | 整型数据。 |
-| 严重性 | 0 | 异常错误的严重级别。 |
-| 成功 | 1 | 1 = 成功。 0 = 失败（例如，1 表示权限检查成功，而 0 表示权限检查失败）。 |
-| 错误 | 0 | 给定事件的错误号。 |
+| Severity | 0 | 异常错误的严重级别。 |
+| Success | 1 | 1 = 成功。 0 = 失败（例如，1 表示权限检查成功，而 0 表示权限检查失败）。 |
+| Error | 0 | 给定事件的错误号。 |
 | TextData | SET DC_KIND=\"AUTO\";  SELECT  [SalesLT Customer (464)].[rowguid (606)] AS [SalesLT Customer (464)$rowguid (606)]  FROM [SalesLT Customer (464)]; [Estimated size (volume marshalling bytes):850 6800] | 与事件相关联的文本数据。 |
 | ConnectionID | 3 | 唯一连接 ID。 |
 | DatasetID | 5eaa550e-06ac-4adf-aba9-dbf0e8fd1527 | 正在运行用户语句的数据集的 ID。 |
