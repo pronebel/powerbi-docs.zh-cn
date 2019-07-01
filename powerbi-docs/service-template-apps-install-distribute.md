@@ -1,22 +1,22 @@
 ---
-title: 在组织中分发模板应用 - Power BI（预览）
+title: 在组织中分发模板应用 - Power BI
 description: 了解如何在 Power BI 中安装、自定义和分发组织中的模板应用。
-author: maggiesMSFT
+author: teddybercovitz
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 04/19/2019
-ms.author: maggies
-ms.openlocfilehash: 0671dfb324b3d66a9dee9585f94d3cb6825fb5eb
-ms.sourcegitcommit: 81ba3572531cbe95ea0b887b94e91f94050f3129
+ms.date: 06/10/2019
+ms.author: tebercov
+ms.openlocfilehash: 158345c44f8801a98e19dcd9b4c7dde14aa6126b
+ms.sourcegitcommit: 8c52b3256f9c1b8e344f22c1867e56e078c6a87c
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/06/2019
-ms.locfileid: "66751231"
+ms.lasthandoff: 06/19/2019
+ms.locfileid: "67264531"
 ---
-# <a name="install-and-distribute-template-apps-in-your-organization---power-bi-preview"></a>在组织中安装和分发模板应用 - Power BI（预览）
+# <a name="install-and-distribute-template-apps-in-your-organization---power-bi"></a>在组织中安装和分发模板应用 - Power BI
 
 你是 Power BI 分析师吗？ 如果是，本文将向你介绍如何安装模板应用以连接到多个运行 Salesforce、Microsoft Dynamics 和 Google Analytics 等业务的服务  。 可以修改仪表板和报表来满足组织的需要，然后将其作为应用分发给同事  。 
 
@@ -55,14 +55,13 @@ ms.locfileid: "66751231"
 
 3. 浏览或搜索该应用，然后选择“立即获取”  。
 
-2. 在对话框中，选择“安装”  。
+4. 在对话框中，选择“安装”  。
 
-    如果拥有 Power BI Pro 许可证，则会安装该应用及其关联的应用工作区。 可以在关联的工作区中自定义应用。
+    ![安装应用](media/service-template-apps-install-distribute/power-install-dialog.png) 如果拥有 Power BI Pro 许可证，则会安装该应用及其关联的应用工作区。 可以在关联的工作区中自定义应用。
 
-    安装成功后，会看到新应用已就绪的通知。 
-
-3. 选择“转到应用”  。
-4. 在“开始使用新应用”中，请选择以下三个选项之一  ：
+    安装成功后，会看到新应用已就绪的通知。
+4. 选择“转到应用”  。
+5. 在“开始使用新应用”中，请选择以下三个选项之一  ：
 
     ![开始使用应用](media/service-template-apps-create/power-bi-template-app-get-started.png)
 
@@ -70,13 +69,22 @@ ms.locfileid: "66751231"
     - **连接数据**：将数据源从示例数据更改为自己的数据源。 可以重新定义数据集参数和数据源凭据。 请参阅模板应用提示文章中的[已知限制](service-template-apps-tips.md#known-limitations)。 
     - “转到工作区”（最高级选项）：可以进行应用生成器允许的任何更改  。
 
-    或者跳过此对话框并直接通过左侧导航窗格中的“工作区”访问关联的工作区  。   
+    或者跳过此对话框并直接通过左侧导航窗格中的“工作区”访问关联的工作区  。
+    >[!NOTE]
+    >安装模板应用，会同时安装组织应用和应用工作区   。 详细了解如何[在 Power BI 中分发应用](service-create-distribute-apps.md)。
  
-5. 在与同事共享之前，需要连接到自己的数据。 可能还希望修改报表或仪表板，使其适用于组织。 还可以在此处添加其他报表或仪表板。
+6. 在与同事共享之前，需要连接到自己的数据。 可能还希望修改报表或仪表板，使其适用于组织。 还可以在此处添加其他报表或仪表板。
+
+   如果选择未在 AppSource 上列出的应用的安装链接，将获得要求你确认所作选择的验证对话框。
+
+   ![安装应用](media/service-template-apps-install-distribute/power-install-unvalidated-dialog.png)
+
+   >[!NOTE]
+   >要安装未在 AppSource 上列出的模板应用，需要从管理员权限进行请求。 有关详细信息，请参阅 Power BI [管理门户的模板应用设置](service-admin-portal.md#template-apps-settings)。
 
 ## <a name="update-and-distribute-the-app"></a>更新并分发应用
 
-在为组织更新应用后，即可将其发布。 这些步骤与发布任何其他应用的步骤相同。 
+在为组织更新应用后，即可将其发布。 这些步骤与发布任何其他应用的步骤相同。
 
 1. 完成自定义后，在工作区列表视图中选择右上角的“更新应用”  。  
 

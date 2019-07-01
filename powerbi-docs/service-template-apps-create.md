@@ -1,22 +1,22 @@
 ---
-title: 在 Power BI 中创建模板应用（预览）
+title: 在 Power BI 中创建模板应用
 description: 如何在 Power BI 中创建可以分发给任何 Power BI 客户的模板应用。
-author: maggiesMSFT
+author: teddybercovitz
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 04/22/2019
-ms.author: maggies
-ms.openlocfilehash: 2dc9ae7eb7ecd82cdd6c9ea7ddbc6aa1fc70ca8b
-ms.sourcegitcommit: 81ba3572531cbe95ea0b887b94e91f94050f3129
+ms.date: 06/10/2019
+ms.author: tebercov
+ms.openlocfilehash: 8e08557c475f06c8a32cebb0b7ca0fe1054cf266
+ms.sourcegitcommit: 8c52b3256f9c1b8e344f22c1867e56e078c6a87c
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/06/2019
-ms.locfileid: "66751189"
+ms.lasthandoff: 06/19/2019
+ms.locfileid: "67264548"
 ---
-# <a name="create-a-template-app-in-power-bi-preview"></a>在 Power BI 中创建模板应用（预览）
+# <a name="create-a-template-app-in-power-bi"></a>在 Power BI 中创建模板应用
 
 新的 Power BI 模板应用使 Power BI 合作伙伴能够在极少编码或没有编码的情况下生成 Power BI 应用，并将它们部署到任何 Power BI 客户  。  本文包含创建 Power BI 模板应用的分步说明。
 
@@ -31,20 +31,7 @@ Power BI 租户管理员管理和控制组织中谁可以创建模板应用，�
 - 一个 [Power BI Pro 许可证](service-self-service-signup-for-power-bi.md)
 - [安装 Power BI Desktop](desktop-get-the-desktop.md)（可选）
 - 熟悉 [Power BI 的基本概念](service-basic-concepts.md)
-- 创建模板应用的权限。 有关详细信息，请参阅 Power BI [管理门户、模板应用设置](service-admin-portal.md#template-apps-settings-preview)。
-
-## <a name="enable-app-developer-mode"></a>启用应用开发人员模式
-
-若要创建可以分发给其他 Power BI 租户的模板应用，需要处于应用开发人员模式。 否则，只能在自己的组织中为 Power BI 消费者创建应用。
-
-1. 在浏览器中打开 Power BI 服务。
-2. 转到“设置” > “常规” > “开发人员” > “启用模板应用开发模式”     。
-
-    ![启用模板应用](media/service-template-apps-create/power-bi-dev-template-app.png)
-
-    如果没有看到该选项，请与你的 Power BI 管理员联系，以向你授予管理门户中[模板应用开发权限](service-admin-portal.md#template-apps-settings-preview)。
-
-3. 选择**应用**。
+- 用于公开共享模板应用的权限。 有关详细信息，请参阅 Power BI [管理门户的模板应用设置](service-admin-portal.md#template-apps-settings)。
 
 ## <a name="create-the-template-app-workspace"></a>创建模板应用工作区
 
@@ -54,9 +41,9 @@ Power BI 租户管理员管理和控制组织中谁可以创建模板应用，�
 
     ![创建应用工作区](media/service-template-apps-create/power-bi-new-workspace.png)
 
-2. 在“创建应用工作区”的“预览改进的工作区”中，选择“立即试用”    。
+2. 在“创建应用工作区”中，选择“升级到新版”   。
 
-    ![请试用新的工作区](media/service-template-apps-create/power-bi-try-now-new-workspace.png)
+    ![请试用新的工作区](media/service-template-apps-create/power-bi-upgrade-new.png)
 
 3. 为应用工作区输入名称、说明（可选）和徽标图像（可选）。
 
@@ -70,13 +57,13 @@ Power BI 租户管理员管理和控制组织中谁可以创建模板应用，�
 
 ## <a name="create-the-content-in-your-template-app"></a>在模板应用中创建内容
 
-与常规 Power BI 应用工作区一样，下一步是在工作区中创建内容。  在此预览版的模板应用中，我们最多只支持每种类型中的一种：一个数据集、一个报表和一个仪表板。
+与常规 Power BI 应用工作区一样，下一步是在工作区中创建内容。  
 
 - 在应用工作区中[创建 Power BI 内容](power-bi-creator-landing.md)。
 
 如果在 Power Query 中使用参数，请确保这些参数具有明确定义的类型（例如，Text）。 不支持 Any 和 Binary 类型。
 
-[在Power BI（预览）中创作模板应用的提示](service-template-apps-tips.md)在为模板应用创建报表和仪表板时提供了一些建议。
+在[有关在 Power BI 中创作模板应用的提示](service-template-apps-tips.md)中，可找到为模板应用创建报表和仪表板时要考虑的一些建议。
 
 ## <a name="create-the-test-template-app"></a>创建测试模板应用
 
@@ -174,10 +161,10 @@ Power BI 租户管理员管理和控制组织中谁可以创建模板应用，�
 10. 准备好将应用提升到预生产以在租户之外进行进一步测试时，请返回“发布管理”窗格，然后选择“提升应用”   。 
 
     ![将应用提升到预生产](media/service-template-apps-create/power-bi-template-app-promote.png)
-
     >[!NOTE]
     > 应用提升后，将在组织外部变得公开可用。
 
+    如果没有看到该选项，请与你的 Power BI 管理员联系，以向你授予管理门户中[模板应用开发权限](service-admin-portal.md#template-apps-settings)。
 11. 选择“提升”以确认选择  。
 12. 复制此新 URL 以在租户外共享以供测试。 此链接也是开始通过创建[新的云合作伙伴门户产品和服务](https://docs.microsoft.com/azure/marketplace/cloud-partner-portal/power-bi/cpp-publish-offer)在 AppSource 上分发应用时要提交的链接。 仅提交云合作伙伴门户的预生产链接。 只有在应用获得批准且你收到应用已在 AppSource 中发布的通知后，才能在 Power BI 中将此包提升到生产。
 13. 当应用准备好通过 AppSource 进行生产或共享时，请返回“发布管理”窗格，然后选择“预生产”旁边的“提升应用”    。
@@ -188,25 +175,6 @@ Power BI 租户管理员管理和控制组织中谁可以创建模板应用，�
     ![生产中的应用](media/service-template-apps-create/power-bi-template-app-production.png)
 
 为了让应用广泛适用于全球数千名 Power BI 用户，我们建议将该应用提交到 AppSource。 有关详细信息，请参阅 [Power BI 应用程序产品/服务](https://docs.microsoft.com/azure/marketplace/cloud-partner-portal/power-bi/cpp-power-bi-offer)。
-
-## <a name="update-your-app"></a>更新应用
-
-现在应用已投入生产，可以在测试阶段重新开始，无需中断生产中的应用。
-
-1. 在“发布管理”窗格中，选择“创建应用”   。
-2. 返回应用创建过程。
-3. 设置“品牌”、“内容”、“控件”和“访问权限”后，再次选择“创建应用”      。
-4. 选择“关闭”，然后返回“发布管理”   。
-
-   现有两个版本：生产中的版本，以及测试中的新版本。
-
-    ![两个版本的模板应用](media/service-template-apps-create/power-bi-template-app-2-versions.png)
-
-5. 准备好将应用提升到预生产以在租户之外进行进一步测试时，请返回“发布管理”窗格，然后选择“测试”旁边的“提升应用”   。
-6. 链接现已生效，请按照 [Power BI 应用产品/服务更新](https://docs.microsoft.com/azure/marketplace/cloud-partner-portal/power-bi/cpp-update-existing-offer) 中的步骤再次将其提交给云合作伙伴门户。
-
->[!NOTE]
->只有在应用获得云合作伙伴门户的批准且将其已发布后，才能将应用提升到生产阶段。
 
 ## <a name="next-steps"></a>后续步骤
 

@@ -8,14 +8,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
-ms.date: 06/10/2019
+ms.date: 06/18/2019
 LocalizationGroup: Premium
-ms.openlocfilehash: 7adcfeec771796aa9fe322512f8ca8584559cea0
-ms.sourcegitcommit: c122c1a8c9f502a78ccecd32d2708ab2342409f0
+ms.openlocfilehash: 5c93a50ce481c5fad899c1911b30100dca7cb841
+ms.sourcegitcommit: 8c52b3256f9c1b8e344f22c1867e56e078c6a87c
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2019
-ms.locfileid: "66829379"
+ms.lasthandoff: 06/19/2019
+ms.locfileid: "67264484"
 ---
 # <a name="bring-your-own-encryption-keys-for-power-bi-preview"></a>为 Power BI 引入自己的加密密钥（预览版）
 
@@ -27,18 +27,17 @@ BYOK 让满足有关指定与云服务提供商（在本例中为 Microsoft）�
 
 ## <a name="data-source-and-storage-considerations"></a>数据源和存储注意事项
 
-若要使用 BYOK，必须从 Power BI Desktop (PBIX) 文件将数据上传到 Power BI 服务。 在 Power BI Desktop 中连接到数据源时，必须指定“导入”的存储模式。 不能在以下方案中使用 BYOK：
+若要使用 BYOK，必须从 Power BI Desktop (PBIX) 文件将数据上传到 Power BI 服务。 不能在以下方案中使用 BYOK：
 
-- DirectQuery
 - Analysis Services 实时连接
 - Excel 工作簿（除非是首次将数据导入 Power BI Desktop）
 - 推送数据集
 
-在下一部分中学习如何配置 Azure 密钥保管库，这是存储 BYOK 加密密钥的位置。
+BYOK 仅适用于与 PBIX 文件关联的数据集，不适合图块和视觉对象的查询结果缓存。
 
 ## <a name="configure-azure-key-vault"></a>配置 Azure 密钥保管库
 
-Azure 密钥保管库是一款用于安全存储和访问机密（如加密密钥）的工具。 可以使用现有密钥保管库来存储加密密钥，也可以创建专门与 Power BI 配合使用的新密钥保管库。
+在此部分中，你将学习如何配置 Azure Key Vault - 一种用于安全存储和访问加密密钥等机密的工具。 可以使用现有密钥保管库来存储加密密钥，也可以创建专门与 Power BI 配合使用的新密钥保管库。
 
 本部分中的说明假定具有 Azure 密钥保管库基本知识。 有关详细信息，请参阅[什么是 Azure 密钥保管库？](/azure/key-vault/key-vault-whatis)。 按以下方式配置密钥保管库：
 
@@ -80,13 +79,13 @@ Azure 密钥保管库是一款用于安全存储和访问机密（如加密密�
 
 ### <a name="soft-delete-option"></a>“软删除”选项
 
-我们建议在密钥保管库中启用“软删除”，以防止在意外删除密钥或密钥保险库时丢失数据[](/azure/key-vault/key-vault-ovw-soft-delete)。 必须使用 [PowerShell 在密钥保管库中启用“软删除”属性](/azure/key-vault/key-vault-soft-delete-powershell)，因为 Azure 门户尚未提供此选项。
+我们建议在密钥保管库中启用[软删除](/azure/key-vault/key-vault-ovw-soft-delete)，以防止在意外删除密钥或密钥保险库时丢失数据。 必须使用 [PowerShell 在密钥保管库中启用“软删除”属性](/azure/key-vault/key-vault-soft-delete-powershell)，因为 Azure 门户尚未提供此选项。
 
 正确配置 Azure 密钥保管库后，即可在租户上启用 BYOK。
 
 ## <a name="enable-byok-on-your-tenant"></a>在租户上启用 BYOK
 
-使用 PowerShell 在租户级别启用 BYOK 时，首先会向 Power BI 租户引入在 Azure 密钥保管库中创建和存储的加密密钥。 然后，可以为每个高级容量分配这些加密密钥，以加密容量中的内容。
+使用 [PowerShell](https://www.powershellgallery.com/packages/MicrosoftPowerBIMgmt.Admin) 在租户级别启用 BYOK 时，首先会向 Power BI 租户引入在 Azure Key Vault 中创建和存储的加密密钥。 然后，可以为每个高级容量分配这些加密密钥，以加密容量中的内容。
 
 ### <a name="important-considerations"></a>重要注意事项
 
@@ -98,35 +97,39 @@ Azure 密钥保管库是一款用于安全存储和访问机密（如加密密�
 
 ### <a name="enable-byok"></a>启用 BYOK
 
-若要启用 BYOK，你必须是使用 `Connect-PowerBIServiceAccount` cmdlet 登录的 Power BI 服务的租户管理员。 然后，使用 `Add-PowerBIEncryptionKey` 启用 BYOK，如以下示例所示：
+若要启用 BYOK，你必须是使用 `Connect-PowerBIServiceAccount` cmdlet 登录的 Power BI 服务的租户管理员。 然后，使用 [`Add-PowerBIEncryptionKey`](/powershell/module/microsoftpowerbimgmt.admin/Add-PowerBIEncryptionKey) 启用 BYOK，如下例所示：
 
 ```powershell
 Add-PowerBIEncryptionKey -Name'Contoso Sales' -KeyVaultKeyUri'https://contoso-vault2.vault.azure.net/keys/ContosoKeyVault/b2ab4ba1c7b341eea5ecaaa2wb54c4d2'
 ```
 
-cmdlet 接受三个影响当前和未来容量加密的开关参数。 默认情况下，未设置其中任何开关：
+cmdlet 接受两个影响当前和未来容量加密的开关参数。 默认情况下，未设置其中任何开关：
 
 - `-Activate`：表示此密钥将用于租户中的所有现有容量。
 
 - `-Default`：表示此密钥现在是整个租户的默认密钥。 创建新容量时，容量会继承此密钥。
 
-- `-DefaultAndActivate`：表示此密钥将用于所有现有容量以及创建的任何新容量。
+如果指定 `-Default`，则之后在此租户上创建的所有容量都将使用指定的密钥（或更新的默认密钥）进行加密。 无法撤消默认操作，因此无法创建不在租户中使用 BYOK 的高级容量。
 
-如果指定 `-Default` 或 `-DefaultAndActivate`，则之后在此租户上创建的所有容量都将使用指定的密钥（或更新的默认密钥）进行加密。 无法撤消默认操作，因此无法创建不在租户中使用 BYOK 的高级容量。
-
-可以控制在租户中使用 BYOK 的方式。 例如，若要加密单个容量，请在不调用 `-Activate`、`-Default` 或 `-DefaultAndActivate` 的情况下调用 `Add-PowerBIEncryptionKey`。 然后，为想要在其中启用 BYOK 的容量调用 `Set-PowerBICapacityEncryptionKey`。
+可以控制在租户中使用 BYOK 的方式。 例如，若要加密单个容量，请在不调用 `-Activate` 或 `-Default` 的情况下调用 `Add-PowerBIEncryptionKey`。 然后，为想要在其中启用 BYOK 的容量调用 `Set-PowerBICapacityEncryptionKey`。
 
 ## <a name="manage-byok"></a>管理 BYOK
 
 Power BI 提供其他 cmdlet 来帮助在租户中管理 BYOK：
 
-- 使用 `Get-PowerBIEncryptionKey` 获取租户当前正在使用的密钥：
+- 使用 [`Get-PowerBICapacity`](/powershell/module/microsoftpowerbimgmt.capacities/get-powerbicapacity) 获取容量当前正在使用的密钥：
+
+    ```powershell
+    Get-PowerBICapacity -Scope Organization -ShowEncryptionKey
+    ```
+
+- 使用 [`Get-PowerBIEncryptionKey`](/powershell/module/microsoftpowerbimgmt.admin/get-powerbiencryptionkey) 获取租户当前正在使用的密钥：
 
     ```powershell
     Get-PowerBIEncryptionKey
     ```
 
-- 使用 `Get-PowerBIWorkspaceEncryptionStatus` 查看工作区中的数据集是否已加密，以及其加密状态是否与工作区同步：
+- 使用 [`Get-PowerBIWorkspaceEncryptionStatus`](/powershell/module/microsoftpowerbimgmt.admin/get-powerbiworkspaceencryptionstatus) 查看工作区中的数据集是否已加密，以及其加密状态是否与工作区同步：
 
     ```powershell
     Get-PowerBIWorkspaceEncryptionStatus -Name'Contoso Sales'
@@ -134,13 +137,13 @@ Power BI 提供其他 cmdlet 来帮助在租户中管理 BYOK：
 
     请注意，加密在容量级别启用，但指定工作区的加密状态在数据集级别获取。
 
-- 使用 `Set-PowerBICapacityEncryptionKey` 更新 Power BI 容量的加密密钥：
+- 使用 [`Set-PowerBICapacityEncryptionKey`](/powershell/module/microsoftpowerbimgmt.admin/set-powerbicapacityencryptionkey) 更新 Power BI 容量的加密密钥：
 
     ```powershell
     Set-PowerBICapacityEncryptionKey-CapacityId 08d57fce-9e79-49ac-afac-d61765f97f6f -KeyName 'Contoso Sales'
     ```
 
-- `Use Switch-PowerBIEncryptionKey` 用于切换（或_旋转_）当前用于加密的密钥。 cmdlet 只更新密钥 `-Name` 的 `-KeyVaultKeyUri`：
+- 使用 [`Switch-PowerBIEncryptionKey` ](/powershell/module/microsoftpowerbimgmt.admin/switch-powerbiencryptionkey) 切换（或_旋转_）要用于加密的密钥的版本。 cmdlet 只更新密钥 `-Name` 的 `-KeyVaultKeyUri`：
 
     ```powershell
     Switch-PowerBIEncryptionKey -Name'Contoso Sales' -KeyVaultKeyUri'https://contoso-vault2.vault.azure.net/keys/ContosoKeyVault/b2ab4ba1c7b341eea5ecaaa2wb54c4d2'

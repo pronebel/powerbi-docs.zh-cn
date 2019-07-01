@@ -1,22 +1,22 @@
 ---
-title: 什么是 Power BI 模板应用？ (预览)
+title: 什么是 Power BI 模板应用？
 description: 本文概述了 Power BI 模板应用程序。 了解如何在具有极少编码或无编码的情况下生成 Power BI 应用，并将其部署到任何 Power BI 客户。
-author: maggiesMSFT
+author: teddybercovitz
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 04/26/2019
-ms.author: maggies
-ms.openlocfilehash: 600e2ed603773cada415f603202cc72f22e0d25b
-ms.sourcegitcommit: 81ba3572531cbe95ea0b887b94e91f94050f3129
+ms.date: 06/24/2019
+ms.author: tebercov
+ms.openlocfilehash: c05b53a5fd61d348b6d304b17123d5f2497ab647
+ms.sourcegitcommit: 58c649ec5fd2447a0f9ca4c4d45a0e9fff2f1b6a
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/06/2019
-ms.locfileid: "66751105"
+ms.lasthandoff: 06/27/2019
+ms.locfileid: "67408216"
 ---
-# <a name="what-are-power-bi-template-apps-preview"></a>什么是 Power BI 模板应用？ (预览)
+# <a name="what-are-power-bi-template-apps"></a>什么是 Power BI 模板应用？
 
 新的 Power BI 模板应用使 Power BI 合作伙伴能够在极少编码或没有编码的情况下生成 Power BI 应用，并将它们部署到任何 Power BI 客户  。  本文概述了 Power BI 模板应用程序。
 
@@ -37,7 +37,7 @@ ms.locfileid: "66751105"
 | **三** | |  | 在 Power BI 租户之外将测试包提升到预生产以进行验证，并将其提交给 AppSource  |  | 使用预生产包，创建 Power BI 模板应用产品/服务并启动验证过程 |
 | **四** | |  | 将预生产包提升到生产 |  | 投入使用 |
 
-## <a name="requirements"></a>要求
+## <a name="before-you-begin"></a>开始之前
 
 若要创建模板应用，需要权限以进行创建。 有关详细信息，请参阅 Power BI 管理门户的模板应用设置。 
 
@@ -57,7 +57,7 @@ ms.locfileid: "66751105"
 
 1. 创建测试包以在组织内自己测试模板应用。 
 
-1. 将测试应用提升到预生产，以便在 AppSource 中提交应用以进行验证，并在自己的租户之外进行测试。 
+1. 将测试应用提升到预生产，以在 AppSource 中提交应用进行验证，并在自己的租户之外进行测试。 
 
 1. 将内容提交到“云合作伙伴平台”进行发布。 
 
@@ -66,9 +66,11 @@ ms.locfileid: "66751105"
 
 ## <a name="requirements"></a>要求
 
-若要创建模板应用，需要权限以进行创建。 有关详细信息，请参阅 Power BI [管理门户的模板应用设置](service-admin-portal.md#template-apps-settings-preview)。 
+若要创建模板应用，需要权限以进行创建。 有关详细信息，请参阅 Power BI [管理门户的模板应用设置](service-admin-portal.md#template-apps-settings)。 
 
 若要将模板应用发布到 Power BI 服务和 AppSource，必须满足[成为云市场发布者](https://docs.microsoft.com/azure/marketplace/become-publisher)的要求。
+ > [!NOTE] 
+ > 模板应用提交内容在[云合作伙伴门户](https://cloudpartner.azure.com)中进行管理。 使用同一 Microsoft 开发人员中心注册帐户进行登录。 你的 AppSource 产品/服务应只有一个 Microsoft 帐户。 帐户不得特定于单个服务或产品。
 
 ## <a name="tips"></a>提示 
 
@@ -78,7 +80,7 @@ ms.locfileid: "66751105"
 - 考虑为分开的独特方案提供多个模板应用。 
 - 启用数据自定义，例如，安装程序支持自定义连接和参数配置。
 
-有关更多建议，请参阅[在 Power BI 中创作模板应用的提示（预览）](service-template-apps-tips.md)。
+要获取更多建议，请参阅[有关在 Power BI 创作模板应用的提示](service-template-apps-tips.md)。
 
 ## <a name="support"></a>支持
 若要在开发过程中获取支持，请访问 [https://powerbi.microsoft.com/support](https://powerbi.microsoft.com/support)。 我们积极监视和管理此网站。 客户事件可快速找到通往合适团队的方法。

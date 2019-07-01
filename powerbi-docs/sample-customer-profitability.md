@@ -7,27 +7,30 @@ ms.reviewer: amac
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 06/11/2019
+ms.date: 06/20/2019
 ms.author: maggies
 LocalizationGroup: Samples
-ms.openlocfilehash: 2b89125cd2ad45bdad18bd198385e1117b5e3f16
-ms.sourcegitcommit: 69a0e340b1bff5cbe42293eed5daaccfff16d40a
+ms.openlocfilehash: 70f47e4885b3abeb6ee17bea23dec35a230d57ec
+ms.sourcegitcommit: a2c4f912af1729fdfdf20369bf3eff67c3927eec
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/13/2019
-ms.locfileid: "67039406"
+ms.lasthandoff: 06/25/2019
+ms.locfileid: "67349316"
 ---
 # <a name="customer-profitability-sample-for-power-bi-take-a-tour"></a>Power BI 的客户盈利率示例：参观
 
 ## <a name="overview-of-the-customer-profitability-sample"></a>客户盈利率示例概述
-“客户盈利率示例”内容包包含生产营销材料的一家公司的仪表板、报表和数据集。 此仪表板由 CFO 创建，用于查看有关她的五名业务部门经理（管理人员）、产品、客户和毛利 (GM) 的关键指标。 她一眼就能看出影响盈利率的因素所在。
+“客户盈利率示例”内容包中有一家生产营销材料的公司的仪表板、报表和数据集。 此仪表板由 CFO 创建，用于查看有关她的五名业务部门经理（管理人员）、产品、客户和毛利 (GM) 的关键指标。 她一眼就能看出影响盈利率的因素所在。
 
-![Power BI 仪表板](media/sample-customer-profitability/power-bi-dash.png)
+![“客户盈利率示例”仪表板](media/sample-customer-profitability/power-bi-dash.png)
 
-此示例是一系列教程的一部分，该系列教程阐明如何将 Power BI 与面向业务的数据、报表及仪表板搭配使用。 此示例是使用来自 obviEnce ([www.obvience.com](http://www.obvience.com/)) 的真实数据创建的，这些数据已进行匿名处理。 数据可采用以下几种格式：内容包/应用程序、 Excel 工作簿或 .pbix Power BI Desktop 文件。 请参阅 [Power BI 示例](sample-datasets.md)。
+此示例是一系列教程的一部分，它展示了如何将 Power BI 与面向业务的数据、报表及仪表板搭配使用。 它是使用来自 [obviEnce](http://www.obvience.com/) 的真实数据创建的，这些数据已经过匿名处理。 数据可采用以下几种格式：内容包/应用、.pbix Power BI Desktop 文件或 Excel 工作簿。 请参阅 [Power BI 示例](sample-datasets.md)。 
+
+本教程使用 Power BI 服务和“客户盈利率示例”内容包。 因为报表体验非常相似，所以也可以使用 Power BI Desktop 和示例 .pbix 文件按步骤操作。 
 
 ## <a name="prerequisites"></a>先决条件
-想要跟着做吗？ 本教程使用 Power BI 服务和“客户盈利率示例”内容包。 因为报表体验非常相似，所以也可以使用 Power BI Desktop 和示例 .pbix 文件按步骤操作。 以下部分提供了有关如何连接到内容包和 .pbix 文件的说明。
+
+必须先将示例下载为[内容包](#get-the-content-pack-for-this-sample)、[.pbix 文件](#get-the-pbix-file-for-this-sample)或 [Excel 工作簿](#get-the-excel-workbook-for-this-sample)，然后才能使用它。
 
 ### <a name="get-the-content-pack-for-this-sample"></a>获取内容包形式的此示例
 
@@ -35,26 +38,23 @@ ms.locfileid: "67039406"
 
 2. 在左下角，选择“获取数据”  。
 
-    ![获取数据](media/sample-datasets/power-bi-get-data.png)
+   ![选择“获取数据”](media/sample-datasets/power-bi-get-data.png)
 3. 在显示的“获取数据”页上，选择“示例”   。
 
 4. 依次选择“客户盈利率示例”和“连接”   。  
 
-   ![获取数据](media/sample-customer-profitability/get-supplier-sample.png)
+    ![连接到示例](media/sample-customer-profitability/get-supplier-sample.png)
 5. Power BI 导入内容包，然后向当前工作区添加新的仪表板、报表和数据集。
 
-   ![客户盈利率示例条目](media/sample-customer-profitability/customer-profitability-sample-entry.png)
+    ![客户盈利率示例条目](media/sample-customer-profitability/customer-profitability-sample-entry.png)
 
 ### <a name="get-the-pbix-file-for-this-sample"></a>获取 .pbix 文件形式的此示例
 
-也可以将[客户盈利率示例](http://download.microsoft.com/download/6/A/9/6A93FD6E-CBA5-40BD-B42E-4DCAE8CDD059/Customer%20Profitability%20Sample%20PBIX.pbix)下载为 .pbix 文件，这是专为 Power BI Desktop 量身定制的文件格式。
-
+也可将[客户盈利率示例](http://download.microsoft.com/download/6/A/9/6A93FD6E-CBA5-40BD-B42E-4DCAE8CDD059/Customer%20Profitability%20Sample%20PBIX.pbix)下载为 .pbix 文件，这是专为 Power BI Desktop 量身定制的文件格式。
 
 ### <a name="get-the-excel-workbook-for-this-sample"></a>获取 Excel 工作簿形式的此示例
 
 如果要查看此示例的数据源，还可以获取它的 [Excel 工作簿](http://go.microsoft.com/fwlink/?LinkId=529781)形式。 该工作簿包含你可以查看和修改的 Power View 工作表。 若要查看原始数据，请启用数据分析加载项，然后选择“Power Pivot”>“管理”  。 若要启用 Power View 和 Power Pivot 加载项，请参阅[从 Excel 内查看 Excel 示例](sample-datasets.md#optional-take-a-look-at-the-excel-samples-from-inside-excel-itself)以了解详细信息。
-
-
 
 ## <a name="what-is-our-dashboard-telling-us"></a>仪表板告诉我们什么？
 
@@ -69,13 +69,13 @@ ms.locfileid: "67039406"
 
     ![经理磁贴](media/sample-customer-profitability/power-bi-manager.png)
 
-- 公司的毛利为 42.5%。
-- 它有 80 个客户。
-- 它销售五种不同的产品。
-- 它在二月份收入与预算的差额百分比最小，三月份收入与预算的差额百分比最大。
-- 我们的大部分收入来自于东部和北部区域。 毛利从未超出过预算，其中 ER-0 和 MA-0 业务部门需要进一步调查。
-- 该年的总收入接近预算。
-
+   请注意下列详细信息：
+   - 公司的毛利为 42.5%。
+   - 它有 80 个客户。
+   - 它销售五种不同的产品。
+   - 它在二月份收入与预算的差额百分比最小，三月份收入与预算的差额百分比最大。
+   - 我们的大部分收入来自于东部和北部区域。 毛利从未超出过预算，其中 ER-0 和 MA-0 业务部门需要进一步调查。
+   - 该年的总收入接近预算。
 
 ### <a name="manager-specific-dashboard-tiles"></a>特定于经理的仪表板磁贴
 仪表板右侧的磁贴提供团队计分卡。 CFO 需要对她的经理进行跟踪，而这些磁贴使用 GM% 为她提供了利润的简要概述。 如果对任一经理的 GM% 趋势在意料之外，她就会进一步调查。
@@ -100,8 +100,10 @@ ms.locfileid: "67039406"
 1. 选择从 Excel 固定的这两个磁贴之一。 将在 Power BI 服务中打开 Excel Online。
 2. 请注意，该工作簿含有三个选项卡的数据。 打开“收入”  。
 3. 让我们来看看为什么 Carlos 尚未达到其目标：  
+
     a. 从“管理人员”滑块中选择“Carlos Grilo”   。   
-    b. 第一个数据透视表告诉我们 Carlos 的热销产品 Primus 的收入增长同比去年下降了 152%。 年同比收入差额图显示其大部分月份都低于预算。  
+
+    b. 第一个数据透视表告诉我们 Carlos 的热销产品 Primus 的收入增长同比去年下降了 152%。 年同比收入差额图显示其大部分月份都低于预算  。  
 
     ![数据透视表](media/sample-customer-profitability/power-bi-pivotchart.png)
 
@@ -129,38 +131,41 @@ ms.locfileid: "67039406"
 ### <a name="team-scorecard-page"></a>“团队记分卡”页
 ![“团队记分卡”报表页](media/sample-customer-profitability/customer2.png)
 
-我们来了解一下零售团队成员中的两名成员，看一看可以获得哪些见解。 在左侧的“管理人员”框中，选择 Andrew 的名字，将报表页面筛选为仅显示 Andrew 的相关数据  。
+我们来了解一下零售团队成员中的两名成员，看一看可获得哪些见解： 
 
-* 为快速了解 KPI，可查看 Andrew 的“收入状态(全年)”；该项显示为绿色，表明他的表现还不错  。
-* “收入与预算差额百分比(按月和管理人员)”图显示，除 2 月份有所下降以外，Andrew 的整体绩效都非常不错  。 他的主要区域是东部并负责 49 个客户和 5 款产品（共 7 款）。 他的 GM% 既不是最高的，也不是最低的。
-* “全年总收入和按月划分的收入与预算差额百分比”图显示了一种稳定的盈亏平衡情况  。 但当通过选择区域树状图中的“中部”方块进行筛选时，你会发现 Andrew 仅在 3 月份才有收入，并且仅限于印第安纳州  。 这是有意为之还是别有隐情？
+1. 在左侧的“管理人员”框中，选择 Andrew 的名字，将报表页面筛选为仅显示 Andrew 的相关数据  ：
 
-现在转向 Valery。 在“管理人员”框中，选择 Valery 的名字，将报表页面筛选为仅显示她的相关数据  。 
+   * 为快速了解 KPI，可查看 Andrew 的“收入状态(全年)”；该项显示为绿色，表明他的表现还不错  。
+   * “收入与预算差额百分比(按月和管理人员)”图显示，除 2 月份有所下降以外，Andrew 的整体绩效都非常不错  。 他的主要区域是东部并负责 49 个客户和 5 款产品（共 7 款）。 他的 GM% 既不是最高的，也不是最低的。
+   * “全年总收入和按月划分的收入与预算差额百分比”图显示了一种稳定的盈亏平衡情况  。 但当通过选择区域树状图中的“中部”方块进行筛选时，你会发现 Andrew 仅在 3 月份才有收入，并且仅限于印第安纳州  。 这是有意为之还是别有隐情？
 
-![Valery 的数据](media/sample-customer-profitability/customer3.png)
+2. 现在转向 Valery。 在“管理人员”切片器中，选择 Valery 的名字，将报表页面筛选为仅显示她的相关数据  。 
 
-* 请注意，“收入状态(全年)”的 KPI 为红色  。 此项肯定需要进一步调查。
-* 她的收入差也令人担心；她没有达到她的收入毛利率。
-* Valery 只有 9 个客户，只负责 2 款产品，合作的客户几乎全部位于北部区域。 这种特殊性可以解释她的指标中存在的大范围波动。
-* 如果选择树状图中的“北部”方块，则会显示 Valery 在北部区域的毛利率与她的整体利润保持一致  。
-* 选择其他“各区域的总收入”方块出现了很有趣的现象：她的 GM% 范围为 23% 到 79%  。 她在除北部区域外的所有区域中的收入数字非常具有季节性。
+   ![Valery 的数据](media/sample-customer-profitability/customer3.png)
 
-继续探索，找出 Valery 的区域表现不佳的原因。 看一看各个区域、其他业务部门以及该报表的下一页：“行业利润率分析”  。
+   * 请注意，“收入状态(全年)”的 KPI 为红色  。 此项肯定需要进一步调查。
+   * 她的收入差也令人担心；她没有达到她的收入毛利率。
+   * Valery 只有 9 个客户，只负责 2 款产品，合作的客户几乎全部位于北部区域。 这种特殊性可以解释她的指标中存在的大范围波动。
+   * 如果选择树状图中的“北部”方块，则会显示 Valery 在北部区域的毛利率与她的整体利润保持一致  。
+   * 选择其他每个“各区域的总收入”方块出现了很有趣的现象：她的毛利率范围为 23% 到 79%  。 她在除北部区域外的所有区域中的收入数字非常具有季节性。
+
+3. 继续探索，找出 Valery 的区域表现不佳的原因。 看一看各个区域、其他业务部门以及该报表的下一页：“行业利润率分析”  。
 
 ### <a name="industry-margin-analysis"></a>行业利润率分析
 此报表页提供了不同的数据片段。 通过分析细分市场，介绍了整个行业的毛利率。 CFO 利用此页将公司和业务部门指标与行业指标进行比较，以帮助其阐释趋势和盈利性。 你可能会想“按月和管理人员划分的毛利率百分比”图为什么会出现在此页，因为它是特定于团队的  。 在此处列出可让我们按业务部门经理筛选页面。  
 
 ![“行业利润率分析”报表页](media/sample-customer-profitability/customer6.png)
 
-盈利性如何随行业而变化？ 如何按行业细分产品和客户？ 若要回答这些问题，请从左上方选择一个或多个行业（从 CPG 行业开始）。 若要清除筛选器，可选择橡皮擦图标。
+1. 盈利性如何随行业而变化？ 如何按行业细分产品和客户？ 若要回答这些问题，请从左上方选择一个或多个行业（从 CPG 行业开始）。 若要清除筛选器，可选择橡皮擦图标。
 
-在气泡图（“按行业划分的收入与预算差额百分比、毛利率百分比和全年总收入”）中，CFO 要查找最大的气泡，因为它们对收入产生的影响最大  。 若要轻松查看行业细分市场对各经理产生的影响，请通过单击分区图中各经理的名字来筛选页面。
+2. 在“按行业划分的收入与预算差额百分比、毛利率百分比和全年总收入”气泡图中，CFO 要查找最大的气泡，因为它们对收入产生的影响最大  。 要按行业细分市场轻松查看对各经理产生的影响，请依次选择分区图中各经理的名字来筛选页面。
 
-* Andrew 受影响的区域跨度许多不同行业的细分市场，GM%（大部分是正面影响）和 Var% 变化都很大。
-* Annelie 的图表与之相似，只是她只集中在一小部分行业细分市场，专注于“联邦”细分市场和 Gladius 产品。
-* Carlos 主要侧重于“服务”细分市场，利润很好。 他显著提高了“高科技”细分市场和他的新细分市场（工业）的差额百分比，与预算相比，表现异常出色。
-* Tina 负责少量细分市场，GM% 最高，但她的气泡大部分都是小气泡，这表示她对公司的账本底线产生的影响最小。
-* Valery 只负责一款产品，并且只负责五个行业细分市场。 她的行业影响也具有季节性，但始终会产生大气泡，表明对公司的账本底线影响较大。 行业细分市场是否能解释她的消极表现？
+3. 在图表中选择每位经理时，请注意下列详细信息：
+   * Andrew 受影响的区域跨度许多不同行业的细分市场，GM%（大部分是正面影响）和 Var% 变化都很大。
+   * Annelie 的图表与之相似，只是她只集中在一小部分行业细分市场，专注于“联邦”细分市场和 Gladius 产品。
+   * Carlos 主要侧重于“服务”细分市场，利润很好。 他显著提高了“高科技”细分市场和他的新细分市场（工业）的差额百分比，与预算相比，表现异常出色。
+   * Tina 负责少量细分市场，GM% 最高，但她的气泡大部分都是小气泡，这表示她对公司的账本底线产生的影响最小。
+   * Valery 只负责一款产品，并且只负责五个行业细分市场。 她的行业影响也具有季节性，但始终会产生大气泡，表明对公司的账本底线影响较大。 行业细分市场是否能解释她的消极表现？
 
 ### <a name="executive-scorecard"></a>管理人员记分卡
 将此页的格式设置为 Cortana 回复页。 若要了解详细信息，请参阅[为 Cortana 创建自定义回复页](service-cortana-answer-cards.md)。
@@ -168,15 +173,15 @@ ms.locfileid: "67039406"
 ## <a name="dig-into-the-data-by-asking-questions-with-qa"></a>请通过“问答”提问进一步分析数据
 我们的分析可能有助于确定哪个行业为 Valery 带来的收入最多。 使用“问答”提问。
 
-1. 在编辑视图中打开报表，方法是选择“编辑报表”  。 只有拥有报表时，编辑视图才可用。 此视图有时称为“创建者”模式  。 相反，如果你只是共享该报表，则无法在编辑视图中打开它。
+1. 选择“编辑报表”  在编辑视图中打开报表。 只有拥有报表时，编辑视图才可用。 此视图有时称为“创建者”模式  。 相反，如果你只是共享该报表，则无法在编辑视图中打开它。
 
-2.  从顶部菜单栏中，选择“提问”打开“问答”问题框  。
+2.  从仪表板的顶部，选择“提问”来打开“问答”问题框  。
 
     ![询问数据相关问题](media/sample-customer-profitability/power-bi-ask-question.png)
 
-3. 键入 *Valery Ushakov 各行业总收入*。 请注意当你键入问题时，可视化效果更新的方式。
+3. 在问题框中键入“Valery 各行业总收入”  。 请注意当你键入问题时，可视化效果更新的方式。
 
-    ![将问题键入问题框](media/sample-customer-profitability/power-bi-qna.png)
+    ![在问题框中键入问题](media/sample-customer-profitability/power-bi-qna.png)
 
    如你所见，分销行业是 Valery 最大的收入来源。
 
@@ -187,22 +192,20 @@ ms.locfileid: "67039406"
 2. 不选择报表页上的任何可视化效果，在右侧展开“筛选器”窗格（如果它尚未展开）。 “筛选器”窗格应仅显示“页面级筛选器”   。  
 
    ![页面级筛选器](media/sample-customer-profitability/power-bi-filters.png)
-3. 找到“行业”  筛选器并选择箭头以展开该列表。 让我们为分销行业添加页面筛选器。 首先，通过清除“全选”  复选框来清除所有选择。 然后仅选择“分销”  。  
+3. 找到“行业”  筛选器并选择箭头以展开该列表。 让我们为分销行业添加页面筛选器。 首先，通过清除“全选”  复选框来清除所有选择。 再选择“分发”即可  。  
 
    ![分销筛选器](media/sample-customer-profitability/customer7.png)
 4. “按月和管理人员划分的毛利率百分比”图表明，只有 Valery 和 Tina 在这个行业有客户，而 Valery 仅在 6 月到 11 月负责了该行业  。   
 5. 在“按月和管理人员划分的毛利率”图表图例中，依次选择“Tina”和“Valery”    。 我们发现，在“按产品划分的总收入”图中，Tina 的总收入比 Valery 要少得多  。
-6. 若要查看实际收入，请使用“问答”输入*按方案划分的管理人员分销总收入*。  
+6. 要查看实际收入，请在仪表板中选择问答框，再输入“按方案划分的管理人员分销总收入”  。  
 
-     ![在问题框中键入问题以查看条形图](media/sample-customer-profitability/power-bi-qna2.png)
+     ![在问答框中键入问题](media/sample-customer-profitability/power-bi-qna2.png)
 
     我们可以采用相似的方式分析其他行业，甚至将客户加入到我们的视觉对象分析当中，以了解 Valery 的表现的原因。
 
-此环境是一个安全的试验环境。 你可以始终选择不保存所做的更改。 但是，如果保存更改，则可以始终选择“获取数据”来获取本示例的新副本  。
-
-还可以[仅下载本示例的数据集（Excel 工作簿）](http://go.microsoft.com/fwlink/?LinkId=529781)。
+可在此环境中安全操作，因为你可选择不保存所作更改。 但是，如果保存更改，则可以始终选择“获取数据”来获取本示例的新副本  。
 
 ## <a name="next-steps-connect-to-your-data"></a>后续步骤：连接到数据
-本教程介绍了 Power BI 仪表板、问答和报表如何能够帮助深入了解客户数据。 现在轮到你了；连接到你自己的数据。 借助 Power BI，你可以连接到各种数据源。 详细了解 [Power BI 入门](service-get-started.md)。
+本教程介绍了 Power BI 仪表板、问答和报表如何能够帮助深入了解客户数据。 现在轮到你了；连接到你自己的数据。 借助 Power BI，你可以连接到各种数据源。 要了解详细信息，请参阅 [Power BI 服务入门](service-get-started.md)。
 
 [Power BI 示例](sample-datasets.md)  
