@@ -223,14 +223,16 @@
               href: desktop-qna-in-reports.md
             - name: Power BI Desktop 中的分析窗格
               href: desktop-analytics-pane.md
-            - name: 使用见解说明增长和减少情况
+            - name: 通过见解解释增减现象
               href: desktop-insights.md
-            - name: 使用见解查找图表中分销不同的地方
+            - name: 通过见解查找图表中分布的差异之处
               href: desktop-insights-find-where-different.md
             - name: Power BI 中的书签
               href: desktop-bookmarks.md
             - name: 使用报表主题
               href: desktop-report-themes.md
+            - name: 筛选器类型
+              href: power-bi-report-filter-types.md
             - name: 试用新筛选器体验
               href: power-bi-report-filter-preview.md
             - name: 使用快速测量值
@@ -523,8 +525,6 @@
               href: refresh-csv-file-onedrive.md
             - name: 在 Power BI Premium 中查询缓存
               href: power-bi-query-caching.md
-            - name: 刷新方案故障排除
-              href: refresh-troubleshooting-refresh-scenarios.md
         - name: 仪表板
           items:
             - name: 仪表板简介
@@ -705,6 +705,8 @@
           items:
             - name: 忘记了 Power BI 的密码？
               href: service-admin-forgot-your-password.md
+            - name: 无法登录？
+              href: power-bi-cannot-sign-in.md
             - name: 捕获 Power BI 的其他诊断信息
               href: service-admin-capturing-additional-diagnostic-information-for-power-bi.md
             - name: 用于 Power BI 的备用电子邮件地址
@@ -713,26 +715,26 @@
               href: service-admin-how-to-use-the-same-account-as-azure.md
             - name: Office 365 专用 - 已知问题
               href: service-admin-office-365-dedicated-known-issues.md
-            - name: Cortana 故障排除
-              href: service-cortana-troubleshoot.md
-            - name: “在 Excel 中分析”故障排查
-              href: desktop-troubleshooting-analyze-in-excel.md
-            - name: 本地数据网关故障排查
-              href: service-gateway-onprem-tshoot.md
-            - name: Power BI Gateway - Personal 故障排查
-              href: service-admin-troubleshooting-power-bi-personal-gateway.md
-            - name: 刷新不支持的数据源故障排除
+            - name: 刷新方案疑难解答
+              href: refresh-troubleshooting-refresh-scenarios.md
+            - name: 排查刷新不支持的数据源
               href: service-admin-troubleshoot-unsupported-data-source-for-refresh.md
-            - name: Azure SQL 数据库计划刷新中的故障排除
+            - name: 排查 Azure SQL 数据库计划刷新方面的问题
               href: service-admin-troubleshooting-scheduled-refresh-azure-sql-databases.md
+            - name: 图块错误疑难解答
+              href: refresh-troubleshooting-tile-errors.md
+            - name: 本地数据网关疑难解答
+              href: service-gateway-onprem-tshoot.md
+            - name: Power BI 网关疑难解答 - 个人
+              href: service-admin-troubleshooting-power-bi-personal-gateway.md
+            - name: “在 Excel 中分析”疑难解答
+              href: desktop-troubleshooting-analyze-in-excel.md
             - name: 错误：我们在你的 Excel 工作簿中找不到任何数据
               href: service-admin-troubleshoot-excel-workbook-data.md
-            - name: 磁贴错误故障排除
-              href: refresh-troubleshooting-tile-errors.md
+            - name: Cortana 故障排除
+              href: service-cortana-troubleshoot.md
             - name: 刷新失败时，如何刷新 Xero 内容包证书
               href: service-refresh-xero-credentials.md
-            - name: 无法登录
-              href: power-bi-cannot-sign-in.md
         - name: 其他任务
           items:
             - name: 重命名 Power BI 中的内容
@@ -855,9 +857,9 @@
                   href: service-organizational-content-pack-manage-update-delete.md
                 - name: 删除内容包的连接
                   href: service-organizational-content-pack-disconnect.md
-        - name: 参考
-          items:
-            - name: 支持的语言和国家/地区
+    - name: 参考
+      items:
+        - name: 支持的语言和国家/地区
           href: supported-languages-countries-regions.md
     - name: 资源
       items:
@@ -1331,7 +1333,7 @@
           href: service-gateway-personal-mode.md
         - name: 自定义连接器
           href: service-gateway-custom-connectors.md
-        - name: 本地数据网关故障排查
+        - name: 本地数据网关疑难解答
           href: service-gateway-onprem-tshoot.md
     - name: 资源
       items:
