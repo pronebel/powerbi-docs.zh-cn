@@ -10,16 +10,15 @@ ms.topic: conceptual
 ms.date: 06/20/2019
 ms.author: maggies
 LocalizationGroup: Samples
-ms.openlocfilehash: 70f47e4885b3abeb6ee17bea23dec35a230d57ec
-ms.sourcegitcommit: a2c4f912af1729fdfdf20369bf3eff67c3927eec
+ms.openlocfilehash: af20d5842664311a0d543ee189ef671f7865058b
+ms.sourcegitcommit: 8dee40f07d284ec84a8afa0100359f146e1dd88b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/25/2019
-ms.locfileid: "67349316"
+ms.lasthandoff: 06/27/2019
+ms.locfileid: "67418766"
 ---
 # <a name="customer-profitability-sample-for-power-bi-take-a-tour"></a>Power BI 的客户盈利率示例：参观
 
-## <a name="overview-of-the-customer-profitability-sample"></a>客户盈利率示例概述
 “客户盈利率示例”内容包中有一家生产营销材料的公司的仪表板、报表和数据集。 此仪表板由 CFO 创建，用于查看有关她的五名业务部门经理（管理人员）、产品、客户和毛利 (GM) 的关键指标。 她一眼就能看出影响盈利率的因素所在。
 
 ![“客户盈利率示例”仪表板](media/sample-customer-profitability/power-bi-dash.png)
@@ -203,9 +202,8 @@ ms.locfileid: "67349316"
 
     我们可以采用相似的方式分析其他行业，甚至将客户加入到我们的视觉对象分析当中，以了解 Valery 的表现的原因。
 
+## <a name="next-steps-connect-to-your-data"></a>后续步骤：连接到数据
 可在此环境中安全操作，因为你可选择不保存所作更改。 但是，如果保存更改，则可以始终选择“获取数据”来获取本示例的新副本  。
 
-## <a name="next-steps-connect-to-your-data"></a>后续步骤：连接到数据
 本教程介绍了 Power BI 仪表板、问答和报表如何能够帮助深入了解客户数据。 现在轮到你了；连接到你自己的数据。 借助 Power BI，你可以连接到各种数据源。 要了解详细信息，请参阅 [Power BI 服务入门](service-get-started.md)。
 
-[Power BI 示例](sample-datasets.md)  
