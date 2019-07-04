@@ -9,12 +9,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 06/01/2019
 ms.author: v-tatero
-ms.openlocfilehash: 3465d9280af84a97ebf2ea5ec90ff60daf9e96fa
-ms.sourcegitcommit: 1c96b65a03ec0a0612e851dd58c363f4d56bca38
+ms.openlocfilehash: ec50369715efdd7bcb9ab764a3240acceb72508e
+ms.sourcegitcommit: 8dee40f07d284ec84a8afa0100359f146e1dd88b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/25/2019
-ms.locfileid: "67389537"
+ms.lasthandoff: 06/27/2019
+ms.locfileid: "67418651"
 ---
 # <a name="power-bi-webinars"></a>Power BI 网络研讨会
 
@@ -22,11 +22,7 @@ ms.locfileid: "67389537"
 
 ## <a name="upcoming-webinars"></a>即将举行的网络研讨会
 
-注册以听取 Power BI 专家的建议并参加实时问答会话。
-
-**Power BI：如何从工作日 HR 数据中获得见解**
-<br>作者：Iman Eftekhari、来自 Agile Analytics 的 Julia Paton 和来自 QBE Insurance 的 Shahram Karimi
-<br>[注册后于 6 月 27 日下午 1:30–2:30（太平洋标准时间）观看](https://info.microsoft.com/How-to-Get-insights-from-Your-Workday-HR-Data-Registration.html?Lcid=en-us)
+尚无举办网络研讨会的计划。 请稍后再查看更多近期活动安排。
 
 >[Power BI 社区即将举行的网络研讨会](https://powerbi.microsoft.com/blog/tag/community-webinars/?Is=Website)
 
@@ -128,6 +124,10 @@ ms.locfileid: "67389537"
 
 ### <a name="partner-solutions-series"></a>合作伙伴解决方案系列 ###
 [观看此系列](https://info.microsoft.com/ww-landing-PartnerWebinarSeriesPage.html)
+
+**Power BI：如何从工作日 HR 数据中获得见解**
+<br>作者：Iman Eftekhari、来自 Agile Analytics 的 Julia Paton 和来自 QBE Insurance 的 Shahram Karimi
+<br>[注册并立即观看](https://info.microsoft.com/How-to-Get-insights-from-Your-Workday-HR-Data-Registration.html?Lcid=en-us)
 
 **实现消费品制造商和零售商的双赢**
 <br>作者：来自 Thorogood 的 Liz McCreesh
