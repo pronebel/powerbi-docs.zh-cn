@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 05/20/2019
 ms.author: maggies
 LocalizationGroup: Common tasks
-ms.openlocfilehash: b1d0914f146ea56697ada2a64c59744690595054
-ms.sourcegitcommit: 24781cdab5fbe43fc14248db636169cc54ef6721
+ms.openlocfilehash: e7b2f03d561faa7df582b4ad5a975d09d617f98f
+ms.sourcegitcommit: 8c52b3256f9c1b8e344f22c1867e56e078c6a87c
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/04/2019
-ms.locfileid: "66498068"
+ms.lasthandoff: 06/19/2019
+ms.locfileid: "67264625"
 ---
 # <a name="subscribe-yourself-and-others-to-reports-and-dashboards-in-the-power-bi-service"></a>在 Power BI 服务中为自己和他人订阅报表和仪表板
 
@@ -28,8 +28,12 @@ ms.locfileid: "66498068"
 
 ## <a name="requirements"></a>要求
 
-- 创建订阅是一项 Power BI Pro 功能  。
-- 无需内容（仪表板或报表）编辑权限即可为自己创建订阅，但必须拥有编辑权限才能为他人创建订阅。 
+创建  订阅可由以下人员完成：
+
+- 有 Power BI Pro 许可证的用户
+- 在 Premium 工作区或应用中查看内容的用户，即使没有 Power BI Pro 许可证，也可以订阅其中的内容。
+
+无需内容（仪表板或报表）编辑权限即可为自己创建订阅，但必须拥有编辑权限才能为他人创建订阅。 
 
 ## <a name="subscribe-to-a-dashboard-report-page-or-paginated-report"></a>订阅仪表板、报表页或分页报表
 
@@ -87,7 +91,6 @@ ms.locfileid: "66498068"
 ## <a name="considerations-and-troubleshooting"></a>注意事项和疑难解答
 
 * 具有超过 25 个固定磁贴或 4 个固定活动报表页面的仪表板可能无法完全呈现在发送给用户的订阅电子邮件中。  不会阻止通过大量磁贴订阅仪表板。 但如果遇到问题，它们会视为不受支持。 考虑对其进行相应修改，使其处于受支持的范围内。
-* 此次是订阅作业开始时。 某些情况下，可能需要几分钟才能将电子邮件传送到收件箱。
 * 在极少数情况下，电子邮件订阅可能需要超过 15 分钟才能发送到收件人。 如果发生这种情况，请在不同时间运行数据刷新和电子邮件订阅，以确保及时交付。 如果问题仍然存在，请联系 Power BI 支持。
 * 对于仪表板电子邮件说明，如果任何磁贴应用了行级别安全性 (RLS)，则不会显示这些磁贴。  
 * 对于报表电子邮件说明，如果数据集使用 RLS，你可以为自己创建订阅。 如果应用了行级别安全性 (RLS)，则无法为其他用户订阅报表。

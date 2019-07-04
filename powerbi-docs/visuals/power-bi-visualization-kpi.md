@@ -1,6 +1,6 @@
 ---
-title: KPI 视觉对象
-description: 在 Power BI 中创建 KPI 视觉对象
+title: 关键绩效指标 (KPI) 视觉对象
+description: 在 Power BI 中创建关键绩效指标 (KPI) 视觉对象
 author: mihart
 manager: kvivek
 ms.reviewer: ''
@@ -8,71 +8,97 @@ featuredvideoid: xmja6EpqaO0
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: tutorial
-ms.date: 11/24/2018
+ms.date: 06/24/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 3d197da63be256825efc44c9e97988648d049efa
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 8fa39c7cc57e24f0c19e1a484c0e925bfeec94f7
+ms.sourcegitcommit: 1c96b65a03ec0a0612e851dd58c363f4d56bca38
+ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61067460"
+ms.lasthandoff: 06/25/2019
+ms.locfileid: "67389588"
 ---
-# <a name="kpi-visuals"></a>KPI 视觉对象
-关键绩效指标 (KPI) 是一个视觉提示，用于传达针对可度量目标已完成的进度。 有关 KPI 的详细信息，请参阅 [Microsoft Developer Network](https://msdn.microsoft.com/library/hh272050)。
+# <a name="key-performance-indicator-kpi-visuals"></a>关键绩效指标 (KPI) 视觉对象
 
-如果未注册 Power BI，请[免费注册](https://app.powerbi.com/signupredirect?pbi_source=web)后再进行操作。
+关键绩效指标 (KPI) 是一个视觉提示，用于传达针对可度量目标已完成的进度。 若要详细了解 KPI，请参阅 [PowerPivot 中的关键绩效指标 (KPI)](/previous-versions/sql/sql-server-2012/hh272050(v=sql.110))。
 
-## <a name="prerequisites"></a>先决条件
-* [Power BI Desktop 是免费的！](https://powerbi.microsoft.com/get-started/)
-* [零售分析示例 PBIX 文件](http://download.microsoft.com/download/9/6/D/96DDC2FF-2568-491D-AAFA-AFDD6F763AE3/Retail%20Analysis%20Sample%20PBIX.pbix)
-
-## <a name="when-to-use-a-kpi"></a>何时使用 KPI
-当存在以下情况时，KPI 是一个不错的选择：
-
-* 要衡量进度（我是超前了还是落后了？）
-* 要衡量与目标的距离（我提前或落后了多少？）   
-
-## <a name="kpi-requirements"></a>KPI 要求
-关键绩效指标 (KPI) 基于特定的指标值，旨在帮助你针对定义的目标评估指标的当前值和状态。 因此，KPI 视觉对象需要一个用于计算值的  基础指标值、一个  目标指标或指标值，以及一个阈值或目标。  
-
-目前 KPI 数据集需要包含 KPI 的目标值。 如果数据集不包含目标，则可以通过向数据模型或 PBIX 文件添加带目标的 Excel 工作表来创建目标。
-
-
-## <a name="how-to-create-a-kpi"></a>如何创建 KPI
-要继续学习，请打开 Power BI Desktop 中的[零售分析 .PBIX 文件](http://download.microsoft.com/download/9/6/D/96DDC2FF-2568-491D-AAFA-AFDD6F763AE3/Retail%20Analysis%20Sample%20PBIX.pbix)。 我们将创建一个 KPI 来衡量针对销售目标我们已完成的进度。
-
-或观看 Will 介绍如何创建单个指标视觉：仪表、卡片和 KPI。
+请观看下面的视频，Will 在其中介绍了如何创建各个指标视觉对象：仪表、卡片和 KPI。
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/xmja6EpqaO0?list=PL1N57mwBHtN0JFoKSR0n-tBkUJHeMP2cP" frameborder="0" allowfullscreen></iframe>
 
-1. 在“报表”视图中打开报表，再选择黄色选项卡，以添加新页面。    
-2. 从“字段”窗格，选择“销售额”>“本年度单位总额”  。  这是指标。
-3. 添加“时间”>“财政月”  。  这用于表示趋势。
-4. 重要说明：按财政月  对图表进行排序。 在将可视化效果转换为 KPI 后，没有要进行排序的选项。
+## <a name="when-to-use-a-kpi"></a>何时使用 KPI
 
-    ![](media/power-bi-visualization-kpi/power-bi-chart.png)
-5. 在“可视化”窗格中选择 KPI 图标，以便将可视化效果转换为 KPI。
-   
-    ![](media/power-bi-visualization-kpi/power-bi-kpi-template.png)
-6. 添加目标值。 添加上年度销售额作为目标值。 将**上年度总单位数**拖到**目标**字段。
-   
-    ![](media/power-bi-visualization-kpi/power-bi-kpi-done.png)
-7. 你也可以根据需要选择滚动油漆刷图标打开“格式”窗格来设置 KPI 格式。
-   
-   * **指标** - 控制指标的显示单位和小数位数。
-   * **趋势轴** - 当设置为**开**时，趋势轴显示为 KPI 视觉对象的背景。  
-   * **目标值** - 当设置为**开**时，视觉对象将显示目标值和相对于目标的距离百分比。
-   * **颜色编码 > 方向** - 一些 KPI 被视为值越高越好，一些则视为值越低越好   。 例如，收入与等待时间。 通常更高的收入值好于更高的等待时间值。 选择“越高越好”，并选择性地更改颜色设置  。
+当存在以下情况时，KPI 是一个不错的选择：
 
+* 若要度量进度。 回答问题：“我是领先还是落后？”
 
-KPI 还可以在 Power BI 服务和移动设备中使用 – 让你始终保持与业务中心的联系。
+* 若要度量与目标的距离。 回答问题：“我领先或落后了多远？”
+
+## <a name="kpi-requirements"></a>KPI 要求
+
+设计人员将 KPI 视觉对象建立在特定度量值的基础上。 KPI 旨在根据已定义目标来评估指标的当前值和状态。 KPI 视觉对象需要用于评估值的基础  度量值、目标  度量值或值，以及阈值  或目标  。
+
+KPI 数据集需要包含 KPI 目标值。 如果数据集不包含目标值，你可以创建它们，具体方法是向数据模型或 PBIX 文件添加含目标的 Excel 工作表。
+
+## <a name="prerequisites"></a>先决条件
+
+如果未注册 Power BI，请[免费注册](https://app.powerbi.com/signupredirect?pbi_source=web)后再进行操作。
+
+* [Power BI Desktop](https://powerbi.microsoft.com/get-started/) - 免费！
+
+* [零售分析示例 PBIX 文件](http://download.microsoft.com/download/9/6/D/96DDC2FF-2568-491D-AAFA-AFDD6F763AE3/Retail%20Analysis%20Sample%20PBIX.pbix)
+
+## <a name="how-to-create-a-kpi"></a>如何创建 KPI
+
+要继续学习，请打开 Power BI Desktop 中的[零售分析 .PBIX 文件](http://download.microsoft.com/download/9/6/D/96DDC2FF-2568-491D-AAFA-AFDD6F763AE3/Retail%20Analysis%20Sample%20PBIX.pbix)。 你将创建一个 KPI，用于度量你在实现销售目标方面的进度。
+
+1. 在报表视图 ![报表视图图标的屏幕截图。](media/power-bi-visualization-kpi/power-bi-report-view.png) 中，打开“零售分析示例”  。
+
+1. 选择 ![黄色选项卡的屏幕截图。](media/power-bi-visualization-kpi/power-bi-yellow-tab.png) ，以添加新报表页。
+
+1. 在“字段”  窗格中，依次选择“销售额”>“今年总销售单位数”  。  此值为指标。
+
+1. 添加“时间”>“财政月”  。  此值表示趋势。
+
+1. 选择视觉对象右上角的省略号，并检查 Power BI 是否按“会计月份”  升序排序柱形。
+
+    > [!IMPORTANT]
+    > 将可视化效果转换为 KPI 后，便无  排序选项。 必须现在进行正确排序。
+
+    ![同时选择了“升序排序”和“会计月份”的已展开省略号菜单的屏幕截图。](media/power-bi-visualization-kpi/power-bi-ascending-by-fiscal-month.png)
+
+    正确排序后，视觉对象如下所示：
+
+    ![正确排序的视觉对象的屏幕截图。](media/power-bi-visualization-kpi/power-bi-chart.png)
+
+1. 选择“可视化效果”  窗格中的“KPI”  图标，将视觉对象转换为 KPI。
+
+    ![突出显示“KPI”的“可视化效果”窗格屏幕截图。](media/power-bi-visualization-kpi/power-bi-kpi-template.png)
+
+1. 若要添加目标，请将“去年总销售单位数”  拖到“目标”  字段中。
+
+    ![已完成 KPI 视觉对象和包含描述值的“字段”窗格的屏幕截图。](media/power-bi-visualization-kpi/power-bi-kpi-done.png)
+
+1. 你也可以根据需要选择滚动油漆刷图标打开“格式”窗格来设置 KPI 格式。
+
+    * **指标** - 控制指标的显示单位和小数位数。
+
+    * **趋势轴** - 如果设置为“开”  ，视觉对象将趋势轴显示为 KPI 视觉对象的背景。  
+
+    * **目标** - 如果设置为“开”  ，视觉对象显示目标，以及与目标的距离百分比。
+
+    * **颜色编码 > 方向** - 人们认为一些 KPI 值越高越好  ，而另一些 KPI 值则越低越好  。 例如，收入与等待时间。 通常更高的收入值好于更高的等待时间值。 选择“越高越好”  ，并视需要更改颜色设置。
+
+KPI 也适用于 Power BI 服务和移动设备。 这样，可以始终连接到业务检测信号。
 
 ## <a name="considerations-and-troubleshooting"></a>注意事项和疑难解答
-* 如果 KPI 并非如上所示，则可能是因为需要按财政月进行排序。 由于 KPI 没有排序选项，则需要先按财政月排序，然后  将可视化效果转换为 KPI。
+
+如果 KPI 并非如上所示，可能是因为你未按“会计月份”  进行排序。 KPI 没有排序选项。 必须重新开始，并先按“会计月份”  排序，再  将可视化效果转换为 KPI。
 
 ## <a name="next-steps"></a>后续步骤
 
-[Power BI 中的基本地图](power-bi-map-tips-and-tricks.md)
+* [关于 Power BI 地图可视化效果的提示和技巧](power-bi-map-tips-and-tricks.md)
 
-[Power BI 中的可视化效果类型](power-bi-visualization-types-for-reports-and-q-and-a.md)
+* [Power BI 中的可视化效果类型](power-bi-visualization-types-for-reports-and-q-and-a.md)
+
+更多问题？ [尝试参与 Power BI 社区](http://community.powerbi.com/)

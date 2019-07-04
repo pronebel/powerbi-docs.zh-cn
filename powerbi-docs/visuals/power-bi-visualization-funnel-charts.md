@@ -8,15 +8,15 @@ featuredvideoid: maTzOJSRB3g
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 09/24/2018
+ms.date: 06/12/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 071b45a4ad9cbd9c753c44de5c55a352767bccbf
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: b12b2035d7686667535dfdddba42b4b8ca014d96
+ms.sourcegitcommit: 4ae1257c5d7b33aa2fafd91caf8b353a985c6771
+ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61067543"
+ms.lasthandoff: 06/17/2019
+ms.locfileid: "67161141"
 ---
 # <a name="funnel-charts"></a>漏斗图
 漏斗图可帮助你可视化具有顺序连接的阶段的线性流程。 例如，销售漏斗图可跟踪各个阶段的客户：潜在客户 \> 合格的潜在客户 \> 预期客户 \> 已签订合同的客户 \> 已成交客户。  你可以一眼看出漏斗形状传达了你跟踪的流程的健康状况。
@@ -53,7 +53,7 @@ ms.locfileid: "61067543"
 
 现在让我们创建自己的漏斗图，该图用于显示在每个销售阶段我们所拥有的机会数。
 
-以下说明使用机会分析示例。 若要继续学习，请[下载](../sample-datasets.md)适用于 Power BI 服务 (app.powerbi.com) 或 Power BI Desktop 的示例。   
+以下说明使用机会分析示例。 若要跟着本教程一起操作，请[下载适用于 Power BI 服务 (app.powerbi.com) 或 Power BI Desktop 的示例](../sample-datasets.md)。   
 
 1. 从空白报表页入手，依次选择“SalesStage”  \>“销售阶段”  字段。 如果使用的是 Power BI 服务，请确保在 [“编辑视图”](../service-interact-with-a-report-in-editing-view.md) 中打开报表。
    
@@ -61,7 +61,7 @@ ms.locfileid: "61067543"
 2. [将图表转换](power-bi-report-change-visualization-type.md)漏斗图。 请注意，**销售阶段**位于**组**框中。 
 3. 从**字段**窗格中选择**事实** \> **机会计数**。
    
-    ![生成漏斗图](media/power-bi-visualization-funnel-charts/power-bi-funnel.png)
+    ![生成漏斗图](media/power-bi-visualization-funnel-charts/power-bi-funnel-2.png)
 4. 将鼠标悬停在条形图上可显示大量的信息。
    
    * 阶段的名称

@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: tutorial
 ms.date: 03/15/2019
-ms.openlocfilehash: e7afdddc6d87b9494fa9264bdd253a3f93de6192
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: d21a0ab1bada981a563e04ba26815f661664f51a
+ms.sourcegitcommit: 4ae1257c5d7b33aa2fafd91caf8b353a985c6771
+ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61383066"
+ms.lasthandoff: 06/17/2019
+ms.locfileid: "67161218"
 ---
 # <a name="tutorial-developing-a-power-bi-custom-visual"></a>教程：开发 Power BI 自定义视觉对象
 
@@ -73,21 +73,15 @@ ms.locfileid: "61383066"
 
 #### <a name="windows"></a>Windows
 
-1. 若要创建证书，请输入以下命令。
-
-    ```powershell
-    pbiviz --create-cert
-    ```
-
-  它将返回生成通行短语  的结果。 在本例中，通行短语  是 15105661266553327  。
-
-  ![通过 PowerShell 创建的证书](media/custom-visual-develop-tutorial/cert-create.png)
-
-2. 现在，我们需要安装证书。 若要安装证书，请输入以下命令。
+1. 若要创建和安装证书，请输入以下命令。
 
     ```powershell
     pbiviz --install-cert
     ```
+
+  它将返回生成通行短语  的结果。 在此示例中，启动证书导入向导的密码  是 _15105661266553327_  。
+
+  ![通过 PowerShell 创建的证书](media/custom-visual-develop-tutorial/cert-create.png)
 
 3. 在“证书导入向导”中，验证存储位置设置为“当前用户”。 选择“下一步”  。
 
@@ -559,14 +553,14 @@ ms.locfileid: "61383066"
 
     此语句将 dataView  分配给一个变量以方便访问，并声明变量来引用 dataView  对象。
 
-2. 在中**更新**方法中，替换 **.text("Value")** 以下。
+2. 在 update  方法中，将 .text(“Value”)  替换为以下内容。
 
     ```typescript
     .text(dataView.single.value as string)
     ```
     ![替换 textValue](media/custom-visual-develop-tutorial/text-value-replace.png)
 
-3. 在中**更新**方法中，替换 **.text("Label")** 以下。
+3. 在 update  方法中，将 .text(“Label”)  替换为以下内容。
 
     ```typescript
     .text(dataView.metadata.columns[0].displayName)

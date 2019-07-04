@@ -8,15 +8,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
-ms.date: 05/31/2019
+ms.date: 06/18/2019
 ms.custom: seodec18
 LocalizationGroup: Premium
-ms.openlocfilehash: b671d2f55135312fb529d4b4b30af3941c525a26
-ms.sourcegitcommit: c539726c9c180e899a8a34443e3fda2b9848beb2
+ms.openlocfilehash: 48513ea163847ee3bf1df07151e9985c5bce9656
+ms.sourcegitcommit: 5f22dcda8885d840b7da344d38e89329d02b14fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/31/2019
-ms.locfileid: "66448320"
+ms.lasthandoff: 06/18/2019
+ms.locfileid: "67235071"
 ---
 # <a name="connect-to-datasets-with-client-applications-and-tools-preview"></a>使用客户端应用程序和工具连接到数据集（预览）
 
@@ -100,6 +100,10 @@ Power BI Premium 使用 [XML for Analysis](https://docs.microsoft.com/bi-referen
 Power BI 服务不支持以下数据集：   
 
 - 具有到 Power BI 数据集的实时连接的数据集。
+
+### <a name="roles-and-role-memberships"></a>角色和角色成员身份
+
+目前，无法使用 XMLA 终结点发现或显示模型角色和角色成员身份。
 
 ## <a name="audit-logs"></a>审核日志 
 

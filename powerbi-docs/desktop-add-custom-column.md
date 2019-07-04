@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 05/07/2019
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: e2412fe72d62549277001b64121ecf9db2ea5502
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 5633370259662141296550aa3d5d2343ac4fedaa
+ms.sourcegitcommit: 58c649ec5fd2447a0f9ca4c4d45a0e9fff2f1b6a
+ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "65239541"
+ms.lasthandoff: 06/27/2019
+ms.locfileid: "67408551"
 ---
 # <a name="add-a-custom-column-in-power-bi-desktop"></a>在 Power BI Desktop 中添加自定义列
 你可以使用 **Power BI Desktop** 中的“查询编辑器”  轻松地向模型添加新的自定义数据列。 可以使用易用按钮创建可定义自定义列的 [M 公式](https://msdn.microsoft.com/library/mt270235.aspx)，来创建和重命名自定义列。 M 公式包含[全面的函数引用内容集](https://msdn.microsoft.com/library/mt779182.aspx)。 
@@ -68,6 +68,5 @@ ms.locfileid: "65239541"
 创建自定义列还有一些其他方法，包括根据你向**查询编辑器**提供的示例创建列。 有关根据示例创建自定义列的详细信息，请参阅以下文章：
 
 * [在 Power BI Desktop 中通过示例添加列](desktop-add-column-from-example.md)
-* [M 公式语言简介](https://msdn.microsoft.com/library/mt270235.aspx)
-* [M 函数引用](https://msdn.microsoft.com/library/mt779182.aspx)  
+* [Power Query M 参考](/powerquery-m/power-query-m-reference)  
 

@@ -1,74 +1,89 @@
 ---
-title: 在 Power BI 中的折线图
-description: 在 Power BI 中的折线图
+title: Power BI 中的折线图
+description: Power BI 中的折线图
 author: mihart
 manager: kvivek
-ms.reviewer: ''
+ms.reviewer: amac
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 05/07/2019
+ms.date: 06/26/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 0654dccf55b1e13f26d8ecaabee0349f0e56afc6
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 4b2c7c237393fd0a8e76b7ca27987c479b5c411d
+ms.sourcegitcommit: 58c649ec5fd2447a0f9ca4c4d45a0e9fff2f1b6a
+ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "65535781"
+ms.lasthandoff: 06/27/2019
+ms.locfileid: "67408636"
 ---
-# <a name="line-charts-in-power-bi"></a>在 Power BI 中的折线图
-线图是一系列表示点，并由直线连接的数据点。 折线图可能具有一个或多个行。 具有折线图的 X 和 Y 轴。 
+# <a name="line-charts-in-power-bi"></a>Power BI 中的折线图
+折线图是一系列用点表示并用直线连接的数据点。 折线图可能会有一条或多条折线。 折线图有 X 轴和 Y 轴。 
 
 ![简单折线图](media/power-bi-line-charts/power-bi-line.png)
 
 ## <a name="create-a-line-chart"></a>创建折线图
-这些说明使用销售和市场营销示例应用程序创建一个线图，按类别显示本年度的销售额。 若要跟着介绍一起操作，请从 appsource.com 获取示例应用程序。
+下面的说明使用“销售和市场营销示例”应用，以创建按类别显示今年销售额的折线图。 若要跟着本教程一起操作，请从 appsource.com 获取示例应用。
 
-1. 从空白报表页入手。 如果使用的是 Power BI 服务，请确保在 [“编辑视图”](../service-interact-with-a-report-in-editing-view.md) 中打开报表。
+1. 从空白报表页入手。 如果使用的是 Power BI 服务，请务必在[编辑视图](../service-interact-with-a-report-in-editing-view.md)中打开报表。
 
-2. 从字段窗格中，选择**消费意愿** \> **总单位数**，然后选择**日期** > **月**。  Power BI 报表画布上创建柱形图。
+2. 在“字段”窗格中，依次选择“销售事实”  \>“总单位数”  ，再依次选择“日期”   > “月份”  。  此时，Power BI 在报表画布上创建柱形图。
 
-    ![从字段窗格中选择](media/power-bi-line-charts/power-bi-step1.png)
+    ![在“字段”窗格中进行选择](media/power-bi-line-charts/power-bi-step1.png)
 
-4. 从可视化效果窗格中选择行图表模板转换为折线图。 
+4. 选择“可视化效果”窗格中的“折线图”模板，将视觉对象转换为折线图。 
 
-    ![将转换为线图](media/power-bi-line-charts/power-bi-convert-to-line.png)
+    ![转换为折线图](media/power-bi-line-charts/power-bi-convert-to-line.png)
    
 
-4. 折线图，显示 2012年 2014年年份的数据的筛选器。 如果筛选器窗格处于折叠状态，请现在将其展开。 从字段窗格中，选择**日期** \> **年**并将它拖到筛选器窗格。 删除标题下**此视觉对象上的筛选器**。 
+4. 将折线图筛选为仅显示 2012 年 - 2014 年的数据。 如果“筛选器”窗格处于折叠状态，立即展开它。 在“字段”窗格中，依次选择“日期”  \>“年份”  ，并将它拖到“筛选器”窗格中。 将它放在“此视觉对象中的筛选器”  标题下。 
      
-    ![旁边字段窗格的行](media/power-bi-line-charts/power-bi-year-filter.png)
+    ![“字段”窗格旁边的折线图](media/power-bi-line-charts/power-bi-year-filter.png)
 
-    更改**高级筛选器**到**基本的筛选器**，然后选择**2012年**， **2013年**并**2014年**。
+    将“高级筛选器”  更改为“基本筛选器”  ，并选中“2012 年”  、“2013 年”  和“2014 年”  。
 
-    ![一年的筛选器](media/power-bi-line-charts/power-bi-filter-year.png)
+    ![“年份”筛选器](media/power-bi-line-charts/power-bi-filter-year.png)
 
 6. （可选）[调整大小和图表文本的颜色](power-bi-visualization-customize-title-background-and-legend.md)。 
 
-    ![增加字体大小和更改 Y axisfont](media/power-bi-line-charts/power-bi-line-3years.png)
+    ![增加字体大小并更改 Y 轴字体](media/power-bi-line-charts/power-bi-line-3years.png)
 
-## <a name="add-additional-lines-to-the-chart"></a>将其他行添加到图表
-折线图可以有许多不同的行。 和的线条上的值可能在某些情况下，因此同名的不同，它们不很好地一起显示。 让我们看看添加到我们当前的其他行图表，然后了解如何设置图表格式时的直线表示的值有很大差异。 
+## <a name="add-additional-lines-to-the-chart"></a>向折线图添加其他折线
+折线图可以有许多不同的折线。 而且，在某些情况下，折线上的值可能会高度相异，导致不能很好地一起显示。 接下来，将先介绍如何在当前折线图中添加其他折线，再介绍如何在折线所代表的值高度相异时设置图表的格式。 
 
-### <a name="add-additional-lines"></a>添加其他行
-而不是作为单个行图表上查看所有区域的总单位数，让我们来拆分按区域的总单位数。 添加其他行，通过拖动**异地** > **区域**到图例格式。
+### <a name="add-additional-lines"></a>添加其他折线
+我们将按区域拆分总单位数，而不是将所有区域的总单位数视为折线图上的一条折线。 添加其他折线，具体方法是依次转到“地理位置”   > “区域”  ，并将“区域”拖到“图例”井中。
 
-   ![每个区域的的一个行](media/power-bi-line-charts/power-bi-line-regions.png)
+   ![每个区域对应一条折线](media/power-bi-line-charts/power-bi-line-regions.png)
 
 
 ### <a name="use-two-y-axes"></a>使用两个 Y 轴
-如果你想要查看总销售额和同一个图表上的总单位数？ 因此要远远高于单元数值，从而线图不可用的销售数字。 事实上，总单位数的红线显示为零。
+若要在同一折线图上研究总销售额和总单位数，该怎么办？ 销售额数字远高于单位数数字，导致折线图无法使用。 事实上，总单位数对应的红色折线似乎为零。
 
-   ![高度背离值](media/power-bi-line-charts/power-bi-diverging.png)
+   ![高度相异值](media/power-bi-line-charts/power-bi-diverging.png)
 
-若要在一个图表上显示高发散的值，请使用组合图。 通过阅读了解有关组合图的所有信息[Power BI 中的组合图](power-bi-visualization-combo-chart.md)。 下面的示例，我们可以显示销售额和总单位一起在一个图表上通过添加第二个 Y 轴。 
+若要在一个图表上显示高度相异值，请使用组合图。 有关组合图的所有信息，可以阅读 [Power BI 中的组合图](power-bi-visualization-combo-chart.md)。 在下面的示例中，可以通过添加第二个 Y 轴，在一个组合图上同时显示销售额和总单位数。 
 
-   ![高度背离值](media/power-bi-line-charts/power-bi-dual-axes.png)
+   ![高度相异值](media/power-bi-line-charts/power-bi-dual-axes.png)
+
+## <a name="highlighting-and-cross-filtering"></a>突出显示和交叉筛选
+有关使用筛选器窗格的信息，请参阅[向报表添加筛选器](../power-bi-report-add-filter.md)。
+
+选择折线图上的数据点可交叉突出显示和交叉筛选报表页上的其他可视化效果，反之亦然。 若要跟着本教程一起操作，请打开“市场占有率”  选项卡。  
+
+在折线图上，一个数据点是 X 轴和 Y 轴上值的交点。 在你选择数据点后，Power BI 会添加标记，以指明哪个点（对于一条折线）或哪些点（如果有两条或更多条折线）是报表页上其他视觉对象的交叉突出显示和交叉筛选来源。 如果视觉对象非常密集，Power BI 会选择最靠近你在视觉对象上单击位置的点。
+
+在此示例中，我们选择的数据点包含以下值：在 2014 年 7 月，单位数市场占有率 R12 为 33.16%，单位数市场占有率为 34.74%。
+
+![选择折线图上的一个数据点](media/power-bi-line-charts/power-bi-single-select.png)
+
+请注意柱形图是如何交叉突出显示的，仪表是如何交叉筛选的。
+
+若要管理图表相互交叉突出显示和交叉筛选的方式，请参阅 [Visualization interactions in a Power BI report（Power BI 报表中的可视化效果交互）](../service-reports-visual-interactions.md)
 
 ## <a name="considerations-and-troubleshooting"></a>注意事项和疑难解答
-* 一个折线图不能具有双 Y 轴。  你将需要改为使用组合图。
-* 在上面的示例中，图表已格式化为增大字体大小、 更改字体颜色、 添加轴标题、 中心图表标题和图例、 启动两个轴在零，和的详细信息。 格式窗格 （滚动油漆刷图标） 有一表面上无休止的使图表看起来按照您希望的方式的选项。 若要了解的最佳方法是打开格式窗格并浏览。
+* 一个折线图不能有两个 Y 轴。  必须改用组合图。
+* 在上面的示例中，图表的格式设置为，增加字体大小、更改字体颜色、添加坐标轴标题、居中对齐图表标题和图例、让两个坐标轴从零开始等。 “格式设置”窗格（“滚动油漆刷”图标）有一组似乎无穷无尽的选项，可以让图表按照你希望的方式显示。 最佳学习方式是，打开“格式设置”窗格并进行探索。
 
 ## <a name="next-steps"></a>后续步骤
 

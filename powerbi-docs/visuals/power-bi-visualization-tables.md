@@ -8,120 +8,169 @@ featuredvideoid: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 10/24/2018
+ms.date: 06/24/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 0106c59c5fc4d122205a144d85a6e7f643c5a429
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: a0525d448d5337c2c1613d8bc8f6d332a05b13e3
+ms.sourcegitcommit: 58c649ec5fd2447a0f9ca4c4d45a0e9fff2f1b6a
+ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61279476"
+ms.lasthandoff: 06/27/2019
+ms.locfileid: "67409478"
 ---
 # <a name="tables-in-power-bi-reports-and-dashboards"></a>Power BI 报表和仪表板中的表
-表是以逻辑序列的行和列表示的包含相关数据的网格。 它还包含标头和合计行。 表格可以进行数量比较，可以在其中查看单个类别的多个值。 例如，该表显示了**类别**的 5 个不同的度量值。
 
-![](media/power-bi-visualization-tables/table.png)
+表是以逻辑序列的行和列表示的包含相关数据的网格。 它还包含标头和合计行。 表非常适合定量比较，即研究一个类别的多个值。 例如，下表显示“类别”  的五个不同度量值。
 
-在报表中创建表，并将表内元素与同一报表页面上的其他视觉对象进行交叉突出显示。  此外，还可以选择行、列和各个单元格进行交叉突出显示。 可将单个单元格和多个单元格选择复制并粘贴到其他应用程序。
+![显示“类别”的五个不同度量值的表的屏幕截图。](media/power-bi-visualization-tables/table.png)
+
+可以在报表中创建表，并能将表内的元素与同一报表页上的其他视觉对象一起交叉突出显示。 可以选择行、列和各个单元格，并交叉突出显示。 还可以将选择的单个单元格和多个单元格复制并粘贴到其他应用程序。
 
 ## <a name="when-to-use-a-table"></a>何时使用表
+
 在以下情况下选择表是不错的选择：
 
-* 查看并比较详细数据和精确值（而不是可视化表示形式）时
-* 以表格格式显示数据时
-* 按类别显示数值数据时   
+* 若要查看并比较详细数据和精确值（而不是视觉对象表示形式）。
+
+* 若要以表格格式显示数据。
+
+* 若要按类别显示数值数据。
 
 > [!NOTE]
-> 如果表格具有过多值，请考虑将其转换为矩形图和/或使用向下钻取。 表格显示的最大数据点数为 3,500。
+> 如果表有过多值，建议将它转换为矩阵和/或使用向下钻取。 表格显示的最大数据点数为 3,500。
 
 ## <a name="prerequisites"></a>先决条件
-- Power BI 服务或 Power BI Desktop
-- 零售分析示例
+
+* Power BI 服务或 Power BI Desktop
+
+* “零售分析示例”报表
+
+## <a name="get-the-retail-analysis-sample-report"></a>获取“零售分析示例”报表
+
+以下说明使用零售分析示例。 创建可视化效果需要对数据集和报表拥有编辑权限。 幸运的是，所有 Power BI 示例都是可以编辑的。 如果有人与你共享报表，你无法在报表中创建可视化效果。 若要跟着本教程一起操作，请获取[“零售分析示例”报表](../sample-datasets.md)。
+
+获取“零售分析示例”  数据集后，可以开始操作了。
 
 ## <a name="create-a-table"></a>创建表
-我们将创建上图所示的表，以按项目类别显示销售值。 若要跟着介绍一起操作，请登录 Power BI 服务，并依次选择“获取数据” **\>“示例”\>“零售分析示例”>“连接”** ，再选择“转至仪表板”。  创建可视化效果需要对数据集和报表拥有编辑权限。 幸运的是，所有 Power BI 示例都是可以编辑的。 如果报表已与你共享，则无法在报表中创建可视化效果。
 
-1. 在左侧导航窗格中，选择“工作区 > 我的工作区”  。    
-2. 选择“数据集”选项卡，然后向下滚动到你刚才添加的“零售分析示例”数据集。  选择“创建报表”  图标。
+你将创建本文开头所示的表，以按商品类别显示销售额值。
 
-    ![指向报表图标](media/power-bi-visualization-tables/power-bi-create-report.png)
-2. 在报表编辑器中，选择“项”   > “类别”  。  Power BI 会自动创建一个表，该表列出所有类别。
+1. 在“我的工作区”  中，依次选择“数据集”   > “创建报表”  。
+
+    ![“数据集”>“创建报表”屏幕截图。](media/power-bi-visualization-tables/power-bi-create-a-report.png)
+
+1. 在“字段”  窗格中，依次选择“商品”   > “类别”  。
+
+    Power BI 会自动创建一个表，该表列出所有类别。
 
     ![添加类别的结果](media/power-bi-visualization-tables/power-bi-table1.png)
-3. 选择“**销售 > 平均单价**和“**销售 > 去年销售额**”以及“**销售 > 本年度销售额**”，并选择所有 3 个选项（值、目标和状态）。   
-4. 在可视化效果窗格中，找到“**值**”一列并拖放值，直到图表列的顺序与该页的第一个图像相匹配。  “值”列应如下所示。
+
+1. 依次选择“销售额”>“平均单价”  ，以及“销售额”>“去年销售额” 
+
+1. 然后，依次选择“销售额”>“今年销售额”  ，并选择以下所有三个选项：“值”  、“目标”  和“状态”  。
+
+1. 在“可视化效果”  窗格中，找到“值”  井并拖动值，直到表列的顺序与本页上的第一个图像一致。 “值”  井如下所示：
 
     ![“值”列](media/power-bi-visualization-tables/power-bi-table2.png)
-5. 通过选择大头针图标将该表固定到仪表板  
 
-     ![图钉](media/power-bi-visualization-tables/pbi_pintile.png)
+1. 通过选择大头针图标将该表固定到仪表板 ![图钉](media/power-bi-visualization-tables/pbi_pintile.png) 。
 
 ## <a name="format-the-table"></a>设置表格格式
-有多种设置表格格式的方法，这里只介绍其中几种。 若要了解其他格式设置选项，请打开“格式设置”窗格（滚动油漆刷图标 ![paintroller](media/power-bi-visualization-tables/power-bi-format.png)）并进行浏览。
 
-* 尝试设置表格中网格的格式。 此处我们已添加蓝色垂直网格，为行添加了空间，并稍微增加了边框和文本的大小。
+设置表格式的方式有很多。 本文仅介绍了其中几种。 了解其他格式设置选项的绝佳方式是，打开“格式”  窗格（“滚动油漆刷”图标 ![滚动油漆刷](media/power-bi-visualization-tables/power-bi-format.png)），并进行浏览。
+
+* 尝试设置表格中网格的格式。 接下来，将添加蓝色垂直网格、为行添加空间，并增加边框和文本大小。
 
     ![网格卡](media/power-bi-visualization-tables/power-bi-table-gridnew.png)
 
     ![显示结果的表](media/power-bi-visualization-tables/power-bi-table-grid3.png)
-* 对于列标题，我们更改了背景色、添加了边框，并增加了字体大小。 
+
+* 对于列标题，更改背景色、添加边框，并增加字体大小。
 
     ![列标题卡](media/power-bi-visualization-tables/power-bi-table-column-headers.png)
 
     ![表中的标题格式](media/power-bi-visualization-tables/power-bi-table-column2.png)
 
-* 甚至可以将格式设置应用于单个列和列标题。 首先展开“字段格式设置”  ，并从下拉列表选择要设置格式的列。 根据列值，字段格式设置允许你设置以下内容：显示单位、字体颜色、小数位数、背景、对齐方式等等。 在调整设置后，确定是否将这些设置应用到标头和总计行。
+* 甚至可以将格式设置应用于单个列和列标题。 首先，展开“字段格式设置”  ，并从下拉列表中选择要设置格式的列。 根据列值，可以在“字段格式设置”  中进行以下设置：显示单位、字体颜色、小数位数、背景、对齐方式等。 在调整设置后，确定是否将这些设置应用到标头和总计行。
 
-    ![本年度销售额的字段格式](media/power-bi-visualization-tables/power-bi-field-formatting.png)
+    ![“今年销售额”的字段格式设置](media/power-bi-visualization-tables/power-bi-field-formatting.png)
 
-* 进行了一些其他格式设置后，最终表格如下。 由于格式设置选项较多，最好的了解方法是从默认信息入手，打开“格式设置”窗格 ![](media/power-bi-visualization-tables/power-bi-format.png)，然后开始浏览。 
+    ![表中“今年销售额”的字段格式设置](media/power-bi-visualization-tables/power-bi-field-formatting-1.png)
+
+* 进行其他一些格式设置后，最终表如下所示。
 
     ![到目前为止包含所有格式的表](media/power-bi-visualization-tables/power-bi-table-format.png)
 
 ### <a name="conditional-formatting"></a>条件格式
-一种类型的格式设置称为条件格式设置  ，可应用于 Power BI 服务或桌面的“可视化效果”  窗格的“值”  框的字段中。 
 
-通过表的条件格式设置，可以根据单元格值指定自定义单元格背景色和字体颜色，包括使用渐变色。 
+条件格式  是一种格式设置类型。 Power BI 向“可视化效果”  窗格的“值”  井中的字段应用条件格式。
 
-1. 在 Powr BI Desktop 服务或桌面的“可视化效果”  窗格中，在要设置其格式的“值”  框中，选择值旁边的向下箭头（或右键单击该字段）。 只能管理“字段”  格的“值”  区域中字段的条件格式。
+通过表的条件格式设置，可以根据单元格值指定自定义单元格背景色和字体颜色，包括使用渐变色。
+
+1. 在“可视化效果”  窗格中，选择“字段”  图标 ![“字段”图标](media/power-bi-visualization-tables/power-bi-fields-icon.png)。
+
+1. 在“值”  井中，选择要设置其格式的值旁边的向下箭头（或右键单击此字段）。
+
+    > [!NOTE]
+    > 只能管理“字段”  格的“值”  区域中字段的条件格式。
 
     ![背景色阶的路径](media/power-bi-visualization-tables/power-bi-conditional-formatting-background.png)
-2. 选择“背景色阶”  。 在随即显示的对话框中，可以配置颜色，以及最小和最大值。   如果选择“散射”  框，还可以配置一个可选的“居中”  值。
+
+1. 选择“背景色”  。
+
+1. 在随即显示的对话框中，可以配置颜色、“最小值”  和“最大值”  。 如果选中“散射”  选项，还可以配置可选的“居中”  值。
 
     ![背景色阶屏幕](media/power-bi-visualization-tables/power-bi-conditional-formatting-background2.png)
 
-    我们将某些自定义格式设置应用于“平均单价”值。 选择“散射”  ，添加一些颜色，然后选择“确定”  。 
+    我们将某些自定义格式设置应用于“平均单价”值。 选中“散射”  ，添加一些颜色，再选择“确定”  。
 
     ![显示散射色的表](media/power-bi-visualization-tables/power-bi-conditional-formatting-data-background.png)
-3. 将新字段添加到具有正值和负值的表中。  选择“销售额”>“总销售差额”  。 
+1. 将新字段添加到具有正值和负值的表中。 选择“销售额”>“总销售差额”  。
 
     ![显示一个最右侧的新字段](media/power-bi-visualization-tables/power-bi-conditional-formatting2.png)
-4. 添加数据条条件格式设置，方法是选择“总销售差额”  旁边的向下箭头，然后选择“条件格式设置”>“数据条”  。
+
+1. 添加数据条条件格式设置，方法是选择“总销售差额”  旁边的向下箭头，然后选择“条件格式设置”>“数据条”  。
 
     ![用于选择数据栏的路径](media/power-bi-visualization-tables/power-bi-conditional-formatting-data-bars.png)
-5. 在出现的对话框中，依次设置“正值条形图”  、“负值条形图”  的颜色，在“仅显示数据条”  旁边放置一个选中标记，并进行所需的任何其他更改。
+
+1. 在随即显示的对话框中，依次设置“正数据栏”  和“负数据栏”  的颜色，选中“仅显示数据栏”  选项，并进行所需的其他任何更改。
 
     ![用于仅显示条形图的选中标记](media/power-bi-visualization-tables/power-bi-data-bars.png)
 
-    当选择“确定”  时，数据条会替换表格中的数字值，使其更易于扫描。
+1. 选择**确定**。
+
+    数据栏会替换表中的数字值，让它更易于浏览。
 
     ![相同的表但在最后一列中有条形](media/power-bi-visualization-tables/power-bi-conditional-formatting-data-bars2.png)
-6. 若要从可视化效果中删除条件格式，只需再次右键单击该字段，并选择**删除条件格式**即可。
+
+若要从可视化效果中删除条件格式，请再次右键单击相应字段，并选择“删除条件格式”  。
 
 > [!TIP]
-> 还可以在“格式设置”窗格（滚动油漆刷图标）中进行条件格式设置。 选择要设置其格式的值，然后将“色阶”  或“数据条”  设置为“打开”  以应用默认设置，或者，若要自定义设置，请选择“高级控件”  。
-> 
+> 还可以在“格式”  窗格中进行条件格式。 选择要设置其格式的值，然后将“色阶”  或“数据条”  设置为“打开”  以应用默认设置，或者，若要自定义设置，请选择“高级控件”  。
+
 ## <a name="copy-values-from-power-bi-tables-for-use-in-other-applications"></a>复制 Power BI 表中的值以供在其他应用程序中使用
 
-表或矩阵可能具有你想要在其他应用程序中使用的内容，例如 Dynamics CRM、Excel、甚至其他 Power BI 报表。 通过右键单击 Power BI，可以将单个单元格或选定的单元格复制到剪贴板，并粘贴到其他应用程序。
+表或矩阵可能具有你想要在其他应用程序中使用的内容，例如 Dynamics CRM、Excel、甚至其他 Power BI 报表。 在 Power BI 中，右键单击单元格后，可以将单个单元格或多个单元格的集合中的数据复制到剪贴板，并将数据粘贴到其他应用程序。
 
+若要复制单个单元格的值，请执行以下操作：
 
-* 若要复制单个单元格的值，选择单元格，右键单击，并选择“复制值”  。 现在可以将此剪贴板上未格式化的单元格值粘贴到其他应用程序。
+1. 选择要复制的单元格。
+
+1. 右键单击此单元格。
+
+1. 依次选择“复制”   > “复制值”  。
 
     ![复制选项](media/power-bi-visualization-tables/power-bi-copy-value.png)
 
-* 若要复制多个单元格，选择单元格范围或使用 CTRL 来选择一个或多个单元格。 复制将包括列标题和行标题。
+    借助剪贴板上的无格式单元格值，可以将它粘贴到其他应用程序。
+
+若要复制多个单元格，请执行以下操作：
+
+1. 选择一个单元格范围，或使用 Ctrl  来选择一个或多个单元格。
+
+1. 右键单击已选择的单元格之一。
+
+1. 依次选择“复制”   > “复制选择”  。
 
     ![复制选项](media/power-bi-visualization-tables/power-bi-copy-selection.png)
 
@@ -130,15 +179,17 @@ ms.locfileid: "61279476"
     ![粘贴到 Excel](media/power-bi-visualization-tables/power-bi-paste-selection.png)
 
 ## <a name="adjust-the-column-width-of-a-table"></a>调整表的列宽度的大小
-有时 Power BI 会截断仪报表中或仪表板上的列标题。 若要显示整个列名称，将鼠标悬停在标题右侧的空白处以显示双箭头，然后选择并拖动它。
+
+有时 Power BI 会截断仪报表中或仪表板上的列标题。 若要显示整个列名，请将鼠标悬停在标题右侧的空白之上，以显示双箭头，然后选择并拖动它。
 
 ![调整列大小的视频特写](media/power-bi-visualization-tables/resizetable.gif)
 
 ## <a name="considerations-and-troubleshooting"></a>注意事项和疑难解答
-* 应用列格式时，每列只能选择一个对齐选项：自动、左对齐、居中和右对齐。 通常情况下，一个列包含的内容全部为文本或全部为数字，而不是二者的混合。 但如果某列同时包含数字和文本，选择“自动”选项时，文本左对齐、数字右对齐  。 此行为支持从左往右阅读的语言。   
+
+应用列格式时，每列只能选择一个对齐选项：“自动”  、“左对齐”  、“居中”  和“右对齐”  。 通常情况下，一个列包含的内容全部为文本或全部为数字，而不是二者的混合。 如果列中同时包含数字和文本，选择“自动”  选项会将文本左对齐，并将数字右对齐。 此行为支持从左往右阅读的语言。
 
 ## <a name="next-steps"></a>后续步骤
 
-[Power BI 中的树状图](power-bi-visualization-treemaps.md)
+* [Power BI 中的树状图](power-bi-visualization-treemaps.md)
 
-[Power BI 中的可视化效果类型](power-bi-visualization-types-for-reports-and-q-and-a.md)
+* [Power BI 中的可视化效果类型](power-bi-visualization-types-for-reports-and-q-and-a.md)

@@ -7,42 +7,42 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 05/16/2019
+ms.date: 06/25/2019
 ms.author: maggies
 LocalizationGroup: Reports
-ms.openlocfilehash: 0a9e4986ae2f686eb8a8fd2d9fa07b169661ce60
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 6a95ddd8f13be2407736c126b087723ceb5d9f31
+ms.sourcegitcommit: 58c649ec5fd2447a0f9ca4c4d45a0e9fff2f1b6a
+ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "65853478"
+ms.lasthandoff: 06/27/2019
+ms.locfileid: "67409149"
 ---
 # <a name="the-new-filter-experience-in-power-bi-reports-preview"></a>Power BI 报表中的新筛选器体验（预览）
 
-在 Power BI 中的筛选器具有新功能和新的设计。 当您选择新的筛选器体验时，可以设置格式筛选器窗格中以看起来像报表的其余部分。 可以锁定，并甚至隐藏筛选器。 在设计报表时，不再会看到旧筛选器窗格可视化效果窗格中的一切。 不要编辑和单个筛选器窗格中的格式设置所有筛选器。 
+Power BI 中的筛选器新增了功能，并采用了新设计。 选择启用新筛选器体验后，可以将“筛选器”窗格的格式设置为，与报表的其余部分类似。 可以锁定甚至隐藏筛选器。 设计报表时，根本不会再在“可视化效果”窗格中看到旧“筛选器”窗格。 可以在一个“筛选器”窗格中执行所有筛选器编辑和格式设置操作。 
 
 ![新筛选器体验](media/power-bi-report-filter-preview/power-bi-filter-reading.png)
 
 > [!NOTE]
 > 新的筛选器体验处于预览状态。 新版本可能会覆盖已设置的格式。
 
-为报表设计器中，下面是可以在新的单个筛选器窗格中执行的操作：
+作为报表设计人员，可以在全新的一个“筛选器”窗格中执行下列操作：
 
-- 添加和删除要作为筛选依据的字段。 
+- 添加和删除要筛选的字段。 
 - 更改筛选器状态。
-- 格式化并自定义筛选器窗格中，以便它感觉您的报表的一部分。
+- 设置和自定义“筛选器”窗格的格式，让它与报表融为一体。
 - 定义当使用者打开报表时，筛选器窗格在默认情况下为打开状态还是折叠状态。
-- 隐藏整个筛选器窗格或不希望报表使用者，若要查看的特定筛选器。
-- 控制和可见性，甚至书签打开，并且折叠新筛选器窗格的状态。
+- 隐藏不想让报表使用者看到的整个“筛选器”窗格或特定筛选器。
+- 控制新“筛选器”窗格的可见、打开和折叠状态，甚至为之添加书签。
 - 锁定你不希望使用者编辑的筛选器。
 
-使用新的筛选器体验，报表使用者还可以悬停任何视觉对象以查看所有筛选器或切片器会影响该视觉对象的只读列表。
+借助新筛选器体验，报表使用者还可以将鼠标悬停在任意视觉对象之上，以查看影响相应视觉对象的所有筛选器或切片器的只读列表。
 
-![筛选器的视觉对象的列表](media/power-bi-report-filter-preview/power-bi-filter-visual.png)
+![视觉对象的筛选器列表](media/power-bi-report-filter-preview/power-bi-filter-visual.png)
 
 ## <a name="turn-on-the-new-filter-experience"></a>打开新筛选器体验 
 
-在 Power BI Desktop 中启用新体验。 然后，可在此处或在 Power BI 服务 (https://app.powerbi.com)) 中修改筛选器。 因为这一新筛选器体验为预览功能，所以必须先在 Power BI Desktop 启用该功能。 如果先在 Power BI 服务中创建报表，则不会有新筛选器。
+在 Power BI Desktop 中启用新体验。 然后，可在此处或在 Power BI 服务 (https://app.powerbi.com) ) 中修改筛选器。 因为这一新筛选器体验为预览功能，所以必须先在 Power BI Desktop 启用该功能。 如果先在 Power BI 服务中创建报表，则不会有新筛选器。
 
 ### <a name="turn-on-new-filters-for-all-new-reports"></a>打开所有新报表的新筛选器
 
@@ -56,12 +56,12 @@ ms.locfileid: "65853478"
 也可以启用现有报表的新筛选器。
 
 1. 在 Power BI Desktop 的现有报表中，选择“文件”   > “选项和设置”   > “选项” 
-2. 在左侧的导航栏中下,**当前文件**，选择**报告设置**。
-3. 下**筛选体验**，选择**启用更新筛选器窗格中，并在该报表视觉对象标头中显示的筛选器**。
+2. 在左侧导航栏的“当前文件”  下，选择“报表设置”  。
+3. 在“筛选体验”  下，选择“启用更新后的‘筛选器’窗格，并在此报表的视觉对象标头中显示筛选器”  。
 
 ## <a name="view-filters-for-a-visual-in-reading-mode"></a>在阅读模式下查看视觉对象的筛选器
 
-在阅读模式下，将鼠标悬停在视觉对象的筛选器图标上方，可看到一个弹出窗口，其中含有影响该视觉对象的所有筛选器、切片器等。 弹出窗口中的格式设置是相同的筛选器窗格的格式设置。 
+在阅读模式下，将鼠标悬停在视觉对象的筛选器图标上方，可看到一个弹出窗口，其中含有影响该视觉对象的所有筛选器、切片器等。 弹出窗口的格式设置与“筛选器”窗格的格式设置相同。 
 
 ![影响视觉对象的筛选器](media/power-bi-report-filter-preview/power-bi-filter-per-visual.png)
 
@@ -77,39 +77,39 @@ ms.locfileid: "65853478"
 - 包括/排除筛选器
 - 通过 URL 传递的筛选器
 
-## <a name="build-the-new-filters-pane"></a>生成新的筛选器窗格
+## <a name="build-the-new-filters-pane"></a>生成新“筛选器”窗格
 
-启用新的筛选器窗格后，你看不到报表页上，根据当前报表设置的默认值进行格式设置的右侧。 使用新的筛选器窗格配置以包括，并更新新窗格中的现有筛选器的筛选器。 新的筛选器窗格中显示哪些报表使用者将看到当您发布报表时。 
+启用新“筛选器”窗格后，便会在报表页右侧看到此窗格，它的格式设置默认基于当前报表设置。 可以使用新“筛选器”窗格来配置要添加的筛选器，并在新窗格中更新现有筛选器。 新“筛选器”窗格显示，报表使用者在报表发布后看到的内容。 
 
-1. 默认情况下，报表使用者可以看到筛选器窗格。 如果不希望他们看到它，选择的眼睛图标旁边**筛选器**。
+1. 默认情况下，报表使用者可以看到“筛选器”窗格。 如果你不希望报表使用者看到此窗格，请选择“筛选器”  旁边的睛形图标。
 
-    ![Power BI 筛选器眼睛图标](media/power-bi-report-filter-preview/power-bi-filter-eye.png)
+    ![Power BI 筛选器睛形图标](media/power-bi-report-filter-preview/power-bi-filter-eye.png)
 
-2. 若要开始构建新的筛选器窗格中，作为视觉对象，页上，将感兴趣的字段拖到新的筛选器窗格或报表级筛选器。
+2. 若要开始生成新“筛选器”窗格，请将相关字段作为视觉对象级别、报表页级别或报表级别筛选器拖到新“筛选器”窗格中。
 
-将视觉对象添加到报表画布，Power BI 自动将筛选器添加到视觉对象中的每个字段的筛选器窗格。 
+当你将视觉对象添加到报表画布后，Power BI 会为视觉对象中的每个字段，自动将筛选器添加到“筛选器”窗格中。 
 
 ## <a name="lock-or-hide-filters"></a>锁定或隐藏筛选器
 
 可以锁定或隐藏单个筛选器卡。 如果锁定某个筛选器，则报表使用者可以查看它，但不能更改它。 如果隐藏它，则报表使用者甚至无法看到它。 当你需要隐藏排除空值或意外值的数据清除筛选器时，隐藏筛选器卡很有用。 
 
-- 在新的筛选器窗格中，选中或清除**锁筛选器**或**隐藏筛选器**筛选器卡中的图标。
+- 在新“筛选器”窗格中，选择或取消选择筛选器卡片中的“锁定筛选器”  或“隐藏筛选器”  图标。
 
    ![隐藏或锁定筛选器](media/power-bi-report-filter-preview/power-bi-filter-lock-hide.png)
 
-随着新的筛选器窗格中启用和禁用这些设置，会出现在报表中反映的更改。 隐藏的筛选器不会显示在视觉对象的筛选器弹出窗口中。
+在新“筛选器”窗格中启用和禁用这些设置时，便会看到报表反映这些更改。 隐藏的筛选器不会显示在视觉对象的筛选器弹出窗口中。
 
-此外可以配置要与您的报表书签流的新筛选器窗格状态。 窗格的打开、关闭和可见性状态都可以使用书签进行标记。
+还可以将新“筛选器”窗格状态配置为，可添加报表书签。 窗格的打开、关闭和可见性状态都可以使用书签进行标记。
  
 ## <a name="format-the-new-filters-pane"></a>设置新筛选器窗格的格式
 
-此新体验的重要部分是报表的您可以设置格式的筛选器窗格，以匹配您的外观。 您可以设置不同的方式针对报表中的每个页面的筛选器窗格的格式。 以下是可以设置格式的元素： 
+此新体验的重要组成部分是，可以将“筛选器”窗格的格式设置为，与报表外观匹配。 可以为报表中的每个报表页设置不同格式的“筛选器”窗格。 以下是可以设置格式的元素： 
 
 - 背景色
 - 背景透明度
-- 边框打开或关闭
+- 启用或禁用边框
 - 边框颜色
-- 标题和页眉的字体、 颜色和文本大小
+- 标题和标头字体、颜色和文本大小
 
 也可以设置这些筛选器卡的元素的格式，具体取决于是否应用了这些元素（设置为某些内容）或其是否可用（清除）： 
 
@@ -120,10 +120,10 @@ ms.locfileid: "65853478"
 - 字体、颜色和文本大小
 - 输入框颜色
 
-### <a name="format-the-filters-pane-and-cards"></a>设置格式的筛选器窗格和卡
+### <a name="format-the-filters-pane-and-cards"></a>设置“筛选器”窗格和卡片的格式
 
 1. 在报表中，单击报表本身或背景（墙纸  ），然后在“可视化效果”  窗格中，选择“格式”  。 
-    请参阅设置格式的报表页、 墙纸、 和还筛选器窗格和筛选器卡的选项。
+    此时会看到报表页、壁纸以及“筛选器”窗格和“筛选器”卡片的格式设置选项。
 
     ![选择格式图标](media/power-bi-report-filter-preview/power-bi-filter-format.png)    
 
@@ -135,8 +135,8 @@ ms.locfileid: "65853478"
   
     ![展开筛选器卡](media/power-bi-report-filter-preview/power-bi-filter-format-card-font.png)
 
-## <a name="theming-for-filter-pane"></a>筛选器窗格中的主题设置
-现在可以与主题文件中修改筛选器窗格的默认设置。 下面是帮助你入门的示例主题代码段：
+## <a name="theming-for-filter-pane"></a>“筛选器”窗格的主题设置
+现在可以使用主题文件来修改“筛选器”窗格的默认设置。 下面是入门示例主题代码片段：
 
  
 ```
@@ -207,41 +207,42 @@ ms.locfileid: "65853478"
 }] 
 ```
 
-## <a name="sort-the-filter-pane"></a>排序筛选器窗格
+## <a name="sort-the-filter-pane"></a>对“筛选器”窗格排序
 
-自定义排序功能是新的筛选器窗格体验的一部分。 报表创建者可以拖放筛选器，以便他们所需的顺序重新排列它们。
+新“筛选器”窗格体验提供自定义排序功能。 报表创建者可以拖放筛选器，以按照自己所需的顺序重新排列它们。
 
 ![重新排列筛选器排序顺序](media/power-bi-report-filter-preview/power-bi-filter-sort.gif)
 
-默认的排序顺序是按字母顺序的筛选器。 若要开始自定义排序模式下，只需将任何筛选器拖至新位置。 您只能在排序中的级别应用于-例如，视觉对象级别、 页面级别或报表级筛选器的筛选器。
+筛选器的默认排序顺序是按字母顺序。 若要启动自定义排序模式，只需将任意筛选器拖到新位置即可。 只能在筛选器所属的级别内对筛选器进行排序（例如，视觉对象级别、报表页级别或报表级别筛选器）。
 
-## <a name="filters-pane-scaling"></a>筛选器窗格缩放
+## <a name="filters-pane-scaling"></a>“筛选器”窗格缩放
 
-新的筛选器窗格会随着报表页和视觉对象，因此报表页和筛选器窗格中保留在与每个其他的比例。
+新“筛选器”窗格随报表页和视觉对象一起缩放，所以报表页和“筛选器”窗格相互保持比例一致。
 
-## <a name="improved-filters-pane-accessibility"></a>改进了筛选器窗格的辅助功能
+## <a name="improved-filters-pane-accessibility"></a>改进了“筛选器”窗格辅助功能
 
-我们改进了新的筛选器窗格中的键盘导航。 可以通过筛选器窗格中的每个部分选项卡，并使用键盘或 Shift + F10 上下文键打开上下文菜单。
+我们改进了新“筛选器”窗格的键盘导航。 可以按 Tab 键遍历“筛选器”窗格的各个部分，并使用键盘上的上下文快捷键或 Shift+F10 来打开上下文菜单。
 
-![筛选器窗格可访问性](media/power-bi-report-filter-preview/power-bi-filter-accessible.png)
+![“筛选器”窗格辅助功能](media/power-bi-report-filter-preview/power-bi-filter-accessible.png)
 
 ## <a name="rename-filters"></a>重命名筛选器
-当编辑筛选器窗格时，可以双击该标题以对其进行编辑。 重命名为你想要更新筛选器卡以更有意义的最终用户的情况下很有用。 请记住重命名筛选器卡 does*不*重命名字段列表中的字段的显示名称。 它只需更改筛选器卡中使用的显示名称。
+编辑“筛选器”窗格时，可以双击标题进行编辑。 若要更新“筛选器”卡片以更易于最终用户理解，就会发现重命名非常实用。 请注意，重命名“筛选器”卡片不会  重命名字段在字段列表中的显示名称。 它只会更改“筛选器”卡片中使用的显示名称。
 
 ![重命名筛选器](media/power-bi-report-filter-preview/power-bi-filter-rename.png)
 
-## <a name="restrict-changes-to-filter-type"></a>若要筛选器类型的更改限制
+## <a name="restrict-changes-to-filter-type"></a>限制更改筛选器类型
 
-在筛选体验有一个选项来控制如果用户可以更改筛选器类型的报表设置的部分。
+在报表设置的“筛选体验”部分下，可以视需要控制用户能否更改筛选器类型。
 
 ![限制更改筛选器类型](media/power-bi-report-filter-preview/power-bi-filter-restrict-change.png)
 
 ## <a name="next-steps"></a>后续步骤
 
-试用新筛选器体验。 向我们提供的这项功能及如何我们继续改进它，在你的反馈[Power BI Ideas 站点](https://ideas.powerbi.com/forums/265200-power-bi)。 
+试用新筛选器体验。 在 [Power BI Ideas 网站](https://ideas.powerbi.com/forums/265200-power-bi)上，提供有关此功能的反馈，以及如何继续改进它。 
 
 - [如何使用报表筛选器](consumer/end-user-report-filter.md)
 - [报表中的筛选器和突出显示](power-bi-reports-filters-and-highlighting.md)
+- [Power BI 中不同种类的筛选器](power-bi-report-filter-types.md)
 
 更多问题？ [尝试参与 Power BI 社区](http://community.powerbi.com/)
 

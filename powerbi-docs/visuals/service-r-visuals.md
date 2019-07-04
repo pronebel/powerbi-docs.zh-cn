@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 02/19/2019
+ms.date: 06/24/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 587cc5b5d81ca57e809a3973c700c71a214dc045
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 0af278171a00c792e466bbd0e21a3efb5ffa8962
+ms.sourcegitcommit: 1c96b65a03ec0a0612e851dd58c363f4d56bca38
+ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61389215"
+ms.lasthandoff: 06/25/2019
+ms.locfileid: "67389729"
 ---
 # <a name="creating-r-visuals-in-the-power-bi-service"></a>在 Power BI 服务中创建 R 视觉对象
 Power BI 服务支持查看使用 R 脚本创建的视觉对象并与之交互。 使用 R 脚本创建的视觉对象通常称为  *R 视觉对象* ，它可以借助 R 丰富的分析和可视化功能来显示高级数据成型和分析（如预测）。
@@ -64,7 +64,7 @@ Power BI 服务应用了 *沙盒* 技术，可使用户和服务远离安全风�
 ![](media/service-r-visuals/r-visuals-service_5.png)
 
 ## <a name="licensing"></a>许可
-R 视觉对象需要 [Power BI Pro](../service-self-service-signup-for-power-bi.md) 许可证，才能在报表中呈现、刷新、筛选和交叉筛选。 有关 Power BI Pro 许可证及其与免费许可证的区别的详细信息，请参阅 [Power BI Pro 内容 — 它是什么？](../service-premium-what-is.md)
+R 视觉对象需要 [Power BI Pro](../service-self-service-signup-for-power-bi.md) 许可证，才能在报表中呈现、刷新、筛选和交叉筛选。 有关 Power BI Pro 许可证及其与免费许可证的区别的详细信息，请参阅 [Power BI Pro 内容 — 它是什么？](../service-admin-purchasing-power-bi-pro.md)
 
 Power BI 的免费用户只能使用在 Premium 工作区中与其共享的磁贴。 有关详细信息，请参阅[购买 Power BI Pro](../service-admin-purchasing-power-bi-pro.md)。
 
@@ -73,7 +73,7 @@ Power BI 的免费用户只能使用在 Premium 工作区中与其共享的磁�
 
 |  |在 Power BI Desktop 中创作 R 视觉对象  | 使用 R 视觉对象创建 PBI 服务报表 |查看报表中的 R 视觉对象  | 查看仪表板中的 R 磁贴 |
 |---------|---------|---------|---------|--------|
-|**来宾** (Power BI Embedded)     |  不相关|  不相关       | 不支持  | 不相关 |
+|**来宾** (Power BI Embedded)     |  支持|  不支持      | 仅在高级容量/Azure 容量中受支持  | 仅在高级容量/Azure 容量中受支持 |
 |**非托管租户**（域未验证） | 支持 | 不支持 |  不支持 |支持（B2B 方案） |
 |具有免费许可证的托管租户     |  支持       |  不支持       |    仅高级容量中受支持    | 支持 |
 具有 Pro 许可证的托管租户      |   支持      | 支持      | 支持    |支持|

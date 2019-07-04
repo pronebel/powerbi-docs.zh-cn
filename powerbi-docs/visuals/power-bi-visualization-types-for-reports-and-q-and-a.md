@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 02/21/2019
+ms.date: 06/12/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 202fa85fa930de45f4f6838202733d8d1098256d
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: c039f4adc196e619dc81af38fb52cd07e89992f0
+ms.sourcegitcommit: 4ae1257c5d7b33aa2fafd91caf8b353a985c6771
+ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61388736"
+ms.lasthandoff: 06/17/2019
+ms.locfileid: "67161170"
 ---
 # <a name="visualization-types-in-power-bi"></a>Power BI 中的可视化效果类型
 ## <a name="power-bi-visualizations"></a>Power BI 可视化效果
@@ -27,7 +27,7 @@ ms.locfileid: "61388736"
 所有这些可视化效果可以被添加到 Power BI 报表、在问答中指定和固定到仪表板。
 
 ### <a name="area-charts-basic-layered-and-stacked"></a>分区图：基本（分层）和堆积
-![](media/power-bi-visualization-types-for-reports-and-q-and-a/basicareamapsmall.png)
+![分区图](media/power-bi-visualization-types-for-reports-and-q-and-a/basicareamapsmall.png)
 
 >[!TIP]
 >基本分区图是在折线图的基础上增加了坐标轴和填充的线之间的区域。
@@ -35,23 +35,23 @@ ms.locfileid: "61388736"
 有关详细信息，请参阅[基本分区图](power-bi-visualization-basic-area-chart.md)。
 
 ### <a name="bar-and-column-charts"></a>条形图和柱形图
-![](media/power-bi-visualization-types-for-reports-and-q-and-a/pbi_nancy_viz_bar.png)
+![条形图](media/power-bi-visualization-types-for-reports-and-q-and-a/pbi_nancy_viz_bar.png)
 
- ![](media/power-bi-visualization-types-for-reports-and-q-and-a/pbi_nancy_viz_col.png)
+ ![柱形图](media/power-bi-visualization-types-for-reports-and-q-and-a/pbi_nancy_viz_col.png)
 
 >[!TIP]
 >条形图是查看跨不同类别的特定值的标准格式。
 
 ### <a name="cards-multi-row"></a>卡片：多行
-![](media/power-bi-visualization-types-for-reports-and-q-and-a/multi-row-card.png)
+![多行卡片图](media/power-bi-visualization-types-for-reports-and-q-and-a/multi-row-card.png)
 
 ### <a name="cards-single-number"></a>卡片：单个数字
-![](media/power-bi-visualization-types-for-reports-and-q-and-a/pbi_nancy_viz_card.png)
+![数字卡片](media/power-bi-visualization-types-for-reports-and-q-and-a/pbi_nancy_viz_card.png)
 
 有关详细信息，请参阅[创建卡片（大数字磁贴）](power-bi-visualization-card.md)。
 
 ### <a name="combo-charts"></a>组合图
-![](media/power-bi-visualization-types-for-reports-and-q-and-a/combosmall.png)
+![组合图](media/power-bi-visualization-types-for-reports-and-q-and-a/combosmall.png)
 
 >[!TIP]
 >组合图将柱形图和折线图结合在一起。 请在折线图和堆积柱形图  和折线图和簇状柱形图  中选择。
@@ -59,7 +59,7 @@ ms.locfileid: "61388736"
 有关详细信息，请参阅 [Power BI 中的组合图](power-bi-visualization-combo-chart.md)。
 
 ### <a name="doughnut-charts"></a>圆环图
-![](media/power-bi-visualization-types-for-reports-and-q-and-a/donutsmall.png)
+![圆环图](media/power-bi-visualization-types-for-reports-and-q-and-a/donutsmall.png)
 
 >[!TIP]
 >圆环图类似于饼图。  它们显示部分与整体的关系。
@@ -67,7 +67,7 @@ ms.locfileid: "61388736"
 有关详细信息，请参阅 [Power BI 中的圆环图](power-bi-visualization-doughnut-charts.md)。
 
 ### <a name="funnel-charts"></a>漏斗图
-![](media/power-bi-visualization-types-for-reports-and-q-and-a/pbi_nancy_viz_funnel.png)
+![漏斗图](media/power-bi-visualization-types-for-reports-and-q-and-a/pbi_nancy_viz_funnel.png)
 
 >[!TIP]
 >漏斗图用于可视化包含阶段和从一个阶段按顺序流到下一个阶段的项目的流程。  当阶段之间存在顺序流时使用漏斗图，例如销售过程以潜在客户为起点，以购买完成为终点。
@@ -75,7 +75,7 @@ ms.locfileid: "61388736"
 有关详细信息，请参阅 [Power BI 中的漏斗图](power-bi-visualization-funnel-charts.md)。
 
 ### <a name="gauge-charts"></a>仪表盘
-![](media/power-bi-visualization-types-for-reports-and-q-and-a/gauge_m.png)
+![径向仪表图](media/power-bi-visualization-types-for-reports-and-q-and-a/gauge_m.png)
 
 >[!TIP]
 >显示相对于目标的当前状态。
@@ -90,7 +90,7 @@ ms.locfileid: "61388736"
 有关详细信息，请参阅 [Power BI 中的关键影响因素图表](power-bi-visualization-influencers.md)
 
 ### <a name="kpis"></a>KPI
-![](media/power-bi-visualization-types-for-reports-and-q-and-a/power-bi-kpi.png)
+![KPI 图](media/power-bi-visualization-types-for-reports-and-q-and-a/power-bi-kpi.png)
 
 >[!TIP]
 >显示可衡量目标的进程。
@@ -98,13 +98,13 @@ ms.locfileid: "61388736"
 有关详细信息，请参阅 [Power BI 中的 KPI](power-bi-visualization-kpi.md)。
 
 ### <a name="line-charts"></a>折线图
-![](media/power-bi-visualization-types-for-reports-and-q-and-a/pbi_nancy_viz_line.png)
+![折线图](media/power-bi-visualization-types-for-reports-and-q-and-a/pbi_nancy_viz_line.png)
 
 >[!TIP]
 >强调一系列值的整体形状，通常以时间的推移来显示。
 
 ### <a name="maps-basic-maps"></a>地图：基本地图
-![](media/power-bi-visualization-types-for-reports-and-q-and-a/pbi-nancy_viz_map.png)
+![基本地图](media/power-bi-visualization-types-for-reports-and-q-and-a/pbi-nancy_viz_map.png)
 
 >[!TIP]
 >用于将分类和定量信息与空间位置相关联。
@@ -112,12 +112,12 @@ ms.locfileid: "61388736"
 有关详细信息，请参阅[映射视觉对象的提示和技巧](power-bi-map-tips-and-tricks.md)。
 
 ### <a name="maps-arcgis-maps"></a>地图：ArcGIS 地图
-![](media/power-bi-visualization-types-for-reports-and-q-and-a/power-bi-esri-map-theme2.png)
+![ArcGIS 地图](media/power-bi-visualization-types-for-reports-and-q-and-a/power-bi-esri-map-theme2.png)
 
 有关详细信息，请参阅 [Power BI 中的 ArcGIS 地图](power-bi-visualization-arcgis.md)。
 
 ### <a name="maps-filled-maps-choropleth"></a>地图：着色地图（等值线图）
-![](media/power-bi-visualization-types-for-reports-and-q-and-a/pbi_nancy_viz_filledmap.png)
+![着色地图](media/power-bi-visualization-types-for-reports-and-q-and-a/pbi_nancy_viz_filledmap.png)
 
 >[!TIP]
 >颜色越深表示值越大。
@@ -125,7 +125,7 @@ ms.locfileid: "61388736"
 有关详细信息，请参阅 [Power BI 中的着色地图](power-bi-visualization-filled-maps-choropleths.md)。
 
 ### <a name="maps-shape-maps"></a>地图：形状地图
-![](media/power-bi-visualization-types-for-reports-and-q-and-a/power-bi-shape-map2.png)
+![德克萨斯州的形状地图](media/power-bi-visualization-types-for-reports-and-q-and-a/power-bi-shape-map2.png)
 
 >[!TIP]
 >将区域的颜色进行比较。
@@ -134,22 +134,37 @@ ms.locfileid: "61388736"
 
 
 ### <a name="matrix"></a>矩形图
-![](media/power-bi-visualization-types-for-reports-and-q-and-a/matrix.png)
+![矩形图](media/power-bi-visualization-types-for-reports-and-q-and-a/matrix.png)
+
+>[!TIP]
+>表支持两个维度，但使用矩阵，可以更轻松地跨多个维度有目的地显示数据，因为它支持梯级布局。 矩阵自动聚合数据，并启用向下钻取。 
 
 有关详细信息，请参阅 [Power BI 中的 Matrix 视觉对象](desktop-matrix-visual.md)。
 
 ### <a name="pie-charts"></a>饼图
-![](media/power-bi-visualization-types-for-reports-and-q-and-a/pbi_nancy_viz_pie.png)
+![饼图](media/power-bi-visualization-types-for-reports-and-q-and-a/pbi_nancy_viz_pie.png)
 
-饼图显示部分与整体的关系。 
+>[!TIP]
+>饼图显示部分与整体的关系。 
+
+### <a name="r-script-visuals"></a>R 脚本视觉对象
+![R 视觉对象](media/power-bi-visualization-types-for-reports-and-q-and-a/power-bi-r-visuals.png)
+
+>[!TIP]
+>使用 R 脚本创建的视觉对象通常称为“R 视觉对象”  ，它可以借助 R 丰富的分析和可视化效果功能来呈现高级数据整理和分析（如预测）。R 视觉对象可以在 Power BI Desktop 中创建，并发布到 Power BI 服务。   
+
+有关详细信息，请参阅 [Power BI 中的 R 视觉对象](service-r-visuals.md)。
 
 ### <a name="ribbon-chart"></a>带状图
 ![带状图](../visuals/media/power-bi-visualization-types-for-reports-and-q-and-a/power-bi-ribbon.png)
 
-功能区图表显示具有最高排名（最大值）的数据类别。 功能区图表能够高效地显示排名变化，并且会在每个时间段内始终将最高排名（值）显示在最顶部。
+>[!TIP]
+>功能区图表显示具有最高排名（最大值）的数据类别。 功能区图表能够高效地显示排名变化，并且会在每个时间段内始终将最高排名（值）显示在最顶部。
+
+有关详细信息，请参阅 [Power BI 中的功能区图](desktop-ribbon-charts.md)。
 
 ### <a name="scatter-and-bubble-charts"></a>散点图和气泡图
-![](media/power-bi-visualization-types-for-reports-and-q-and-a/pbi_nancy_viz_bubble.png)
+![气泡图](media/power-bi-visualization-types-for-reports-and-q-and-a/pbi_nancy_viz_bubble.png)
 
 >[!TIP]
 >显示两个（散点）或三个（气泡）量化指标之间的关系 -- 是否存在关系，按什么顺序等等
@@ -157,7 +172,7 @@ ms.locfileid: "61388736"
 有关详细信息，请参阅 [Power BI 中的散点图](power-bi-visualization-scatter.md)。
 
 ### <a name="scatter-high-density"></a>高密度散点图
-![](media/power-bi-visualization-types-for-reports-and-q-and-a/density-scatter.png)
+![高密度散点图](media/power-bi-visualization-types-for-reports-and-q-and-a/density-scatter.png)
 
 >[!TIP]
 >视觉对象上过多的数据点可能会阻碍它，因此使用复杂的采样算法来确保可视化效果的准确性。
@@ -165,17 +180,17 @@ ms.locfileid: "61388736"
 有关详细信息，请参阅 [Power BI 中的高密度散点图](desktop-high-density-scatter-charts.md)。
 
 ### <a name="slicers"></a>切片器
-![](media/power-bi-visualization-types-for-reports-and-q-and-a/pbi_slicer.png)
+![切片器](media/power-bi-visualization-types-for-reports-and-q-and-a/pbi_slicer.png)
 
 有关详细信息，请参阅 [Power BI 中的切片器](power-bi-visualization-slicers.md)。
 
 ### <a name="standalone-images"></a>独立图像
-![](media/power-bi-visualization-types-for-reports-and-q-and-a/pbi_nancy_viz_image.png)
+![独立图像视觉对象](media/power-bi-visualization-types-for-reports-and-q-and-a/pbi_nancy_viz_image.png)
 
 有关详细信息，请参阅 [Add an image widget to a dashboard（将图像小组件添加到仪表板）](../service-dashboard-add-widget.md)。
 
 ### <a name="tables"></a>表
-![](media/power-bi-visualization-types-for-reports-and-q-and-a/tabletype.png)
+![表视觉对象](media/power-bi-visualization-types-for-reports-and-q-and-a/tabletype.png)
 
 >[!TIP]
 >适用于多种类别项目之间的定量比较。
@@ -183,7 +198,7 @@ ms.locfileid: "61388736"
 有关详细信息，请参阅[使用 Power BI 中的表](power-bi-visualization-tables.md)。
 
 ### <a name="treemaps"></a>树状图
-![](media/power-bi-visualization-types-for-reports-and-q-and-a/pbi_nancy_viz_tree.png)
+![树状图](media/power-bi-visualization-types-for-reports-and-q-and-a/pbi_nancy_viz_tree.png)
 
 有关详细信息，请参阅 [Power BI 中的树状图](power-bi-visualization-treemaps.md)。
 
@@ -191,7 +206,7 @@ ms.locfileid: "61388736"
 >包含带颜色的矩形的图，用矩形大小表示值。  具有层次结构，主矩形内可以嵌套矩形。
 
 ### <a name="waterfall-charts"></a>瀑布图
-![](media/power-bi-visualization-types-for-reports-and-q-and-a/waterfallsmall.png)
+![瀑布图](media/power-bi-visualization-types-for-reports-and-q-and-a/waterfallsmall.png)
 
 >[!TIP]
 >瀑布图显示随着值的增加或减少的不断变化的总数。

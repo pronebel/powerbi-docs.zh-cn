@@ -8,21 +8,21 @@ ms.custom: seodec18
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 12/06/2018
+ms.date: 06/26/2019
 ms.author: mihart
 LocalizationGroup: Ask questions of your data
-ms.openlocfilehash: 97beaa749855d29f0ac559776a99f4be851489fb
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 4f6dc7167d64385182ecbd448b6c400fa7f829df
+ms.sourcegitcommit: 58c649ec5fd2447a0f9ca4c4d45a0e9fff2f1b6a
+ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61048125"
+ms.lasthandoff: 06/27/2019
+ms.locfileid: "67408197"
 ---
 # <a name="tips-for-asking-questions-in-power-bi-qa"></a>在 Power BI 问答中提问的提示
 ## <a name="words-and-terminology-that-qa-recognizes"></a>“问答”识别的单词和术语
 此页上的关键字列表并不详尽。  查看 Power BI 是否识别某个关键字的最佳方法是通过在问题框中键入此关键字来进行试验。  如果字词或术语灰显，则 Power BI 无法识别。
 
-下面的列表使用现在时，但在大多数情况下能识别所有时态。 例如，“is”包括：“are”、“was”、“were”、“will be”、“have”、“has”、“had”、“will have”、“has got”、“do”、“does”、“did”。              “sort”包括：“sorted”和“sorting”。    此外，Power BI 识别并包含某个词的单数和复数形式。 
+下面的列表使用现在时，但在大多数情况下能识别所有时态。 例如，“is”包括：“are”、“was”、“were”、“will be”、“have”、“has”、“had”、“will have”、“has got”、“do”、“does”、“did”。              “sort”包括：“sorted”和“sorting”。    此外，Power BI 还识别并添加单数和复数形式的单词。 
 
 > [!NOTE]
 > [iPad、iPhone 和 iPod Touch 设备上的 iOS 版 Microsoft Power BI 应用](mobile/mobile-apps-ios-qna.md)也支持问答。
@@ -41,7 +41,7 @@ ms.locfileid: "61048125"
 |     |         |         |
 |**连词**     |  和、或、每个、与、比较、&、和、但是、也不、加之、除了       |         
 |          |         |
-|**缩约词**     |  Q&A 可识别几乎所有的缩约词，请尝试一下。下面是一些示例：didn’t、haven’t、he’d、he’s、isn’t、it’s、she’ll、they’d、weren’t、where’ll、who’s、won’t、wouldn’t          |
+|**缩约词**     |  Q&A 可识别几乎所有的缩约词，请尝试一下。比如下面这几个例子：didn’t、haven’t、he’d、he’s、isn’t、it’s、she’ll、they’d、weren’t、who’s、won’t、wouldn’t          |
 |        |         |
 |**日期**     |       Power BI 可识别大多数日期术语（日、周、月、年、季度、十年等）以及以多种不同格式编写的日期（见下文）。 Power BI 还可识别下列关键字：月份名称、1 - 31 日、十年。 示例：January 3rd of 1995（1995 年 1 月 3 日）、January 3rd 1995、jan 03 1995、3 Jan 1995、the 3rd of January、January 1995（1995 年 1 月）、1995 January、1995-01、01/1995（1995/01）、月份名称         |
 |        |         |
@@ -62,27 +62,27 @@ ms.locfileid: "61048125"
 |**范围**     |      大于、多于、较大、以上、超过、>、少于、较小、较少、以下、低于、<、至少、不少于、>=、最多、不多于、<=、在…中、在…间、在…范围、从…中、更晚、更早、早于、晚于、在（某天）、在（某时间）、比…晚、晚于、从…起、以…开始、从…开始、以…结束           |
 |        |         |
 **时间**  |am（上午）、pm（下午）、…点钟、中午、午夜、小时、分钟、秒、时:分:秒  |
-|  |  示例：10 pm（下午 10 点）、10:35 pm（下午 10:35）、10:35:15 pm（下午 10:35:15）、10 点钟、中午、午夜、小时、分钟、秒。  |
+|  |  示例：10 pm、10:35 pm、10:35:15 pm、10 o clock、noon、midnight、hour、minute、second。  |
 |  |  |
 |**前 N 个**     |     （排序、排名）：前...名、后...名、最高、最低、第一、最后、下个、最早、最新、最旧、最新的、最近的、下一个            |
 |        |         |
-|**视觉对象类型**     |  来源于 Power BI 的所有视觉对象。  如果是“可视化效果”面板中的选项，那么你可以将其包含在你的问题中。  除你已手动添加到“可视化效果”面板的[自定义视觉对象](../power-bi-custom-visuals.md)以外。  |
+|**视觉对象类型**     |  来源于 Power BI 的所有视觉对象。  如果是“可视化效果”面板中的选项，那么你可以将其包含在你的问题中。  此规则的例外是，你已手动添加到“可视化效果”窗格的[自定义视觉对象](../power-bi-custom-visuals.md)。  |
 |  |  示例：按照月份和销售总额以条形图显示地区               |
 |        |         |
 |**疑问词（关系、限定）**  | 时间、哪里、哪个、谁、多少、多少次、多久一次、金额、数字、数量、多久、什么                |
 
 ## <a name="qa-helps-you-phrase-the-question"></a>“问答”帮助你组织描述问题
-“问答”尽力理解并回答所提问的问题。 它通过以下几种方式做到这一点。 对于所有这些问题，你可以全部、部分或者根本不接受操作。 当你键入问题时，“问答”：
+“问答”尽力理解并回答所提问的问题。 它将尝试从几个方面去理解。 对于所有这些表述，可以全部、部分接受或根本不接受操作。 当你键入问题时，“问答”：
 
-* 会自动完成单词和问题。 它使用各种策略，包括自动完成识别的单词和已返回有效回复的以前用过的问题。 如果有多个自动完成选项可用，则会出现在下拉列表中。
+* 会自动完成单词和问题。 它使用各种策略，包括自动完成已识别的单词、已存储的问题和已返回有效回复的以前用过问题。 如果有多个自动完成选项可用，则会出现在下拉列表中。
 * 更正拼写。
-* 以可视化效果的形式提供答案预览。 可视化效果在你键入和编辑问题时进行更新（它不会等待你按下 Enter 键）。
+* 以视觉对象的形式提供答案预览。 视觉对象会在你键入和编辑问题的同时更新（它不会等你按下 Enter 才更新）。
 * 当你在问题框中将光标往回移动时，建议来自基础数据集的替换术语。
 * 根据基础数据集中的数据重述问题。 “问答”采用来自基础数据集中的同义词替换你所用的单词。 通过查看重述，你将了解“问答”是否理解了你的问题。 
 * 不能理解的模糊词。
 
 ## <a name="dont-stop-now"></a>暂不停止
-“问答”显示结果后，请保持继续谈话！ 使用可视化效果和“问答”的交互功能发现更多见解。
+“问答”显示结果后，请保持继续谈话！ 使用视觉对象和问答的交互功能发掘更多见解。
 
 ## <a name="next-steps"></a>后续步骤
 返回到 [Power BI 中的问答](end-user-q-and-a.md)  

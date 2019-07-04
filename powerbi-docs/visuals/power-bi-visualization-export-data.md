@@ -8,127 +8,190 @@ featuredvideoid: jtlLGRKBvXY
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 12/26/2018
+ms.date: 06/19/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 83ca49a3307a12e8a92c01de4175fcb117e3163d
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: d001c75d006838f46ce40a8f81bad0a9a058b148
+ms.sourcegitcommit: 90aa7ea5fcc7cf0fd7f6c3c1efeff5f27e8ef0dd
+ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61067630"
+ms.lasthandoff: 06/20/2019
+ms.locfileid: "67299446"
 ---
 # <a name="export-data-from-visualizations"></a>从可视化效果导出数据
-若要查看用于创建可视化效果的数据，[可以在 Power BI 中显示该数据](service-reports-show-data.md)或将这些数据以 .xlsx 或.csv 文件形式导出到 Excel。 导出数据的选项需要 Pro 或 Premium 许可证以及对数据集和报表的编辑权限。 
 
-Watch 将从其报表中的其中一个可视化效果导出数据，将其保存为 .xlsx 文件，并在 Excel 中打开它。 然后按照视频下面的分步说明来自己尝试一下。
+若要查看 Power BI 用来创建可视化效果的数据，可以[在 Power BI 中显示此类数据](service-reports-show-data.md)。 还可以将此类数据以 .xlsx  或 .csv  文件形式导出至 Excel。 导出数据的选项需要 Pro 或 Premium 许可证以及对数据集和报表的编辑权限。
+
+请观看下面的视频，Will 在其中导出自己报表中一个可视化效果内的数据，将数据保存为 .xlsx  文件，并在 Excel 中打开它。 然后可以按照视频下面的分步说明来自己尝试。
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/KjheMTGjDXw" frameborder="0" allowfullscreen></iframe>
 
-## <a name="from-a-visualization-on-a-power-bi-dashboard"></a>Power BI 仪表板上的可视化效果
+## <a name="export-data-from-a-power-bi-dashboard"></a>导出 Power BI 仪表板中的数据
+
 1. 选择可视化效果右上角的省略号。
 
-    ![](media/power-bi-visualization-export-data/pbi-export-tile3.png)
-2. 选择导出数据  图标。
+    ![箭头指向省略号按钮的可视化效果屏幕截图。](media/power-bi-visualization-export-data/pbi-export-tile3.png)
 
-    ![](media/power-bi-visualization-export-data/pbi_export_dash.png)
-3. 数据导出到.csv 文件中。 如果筛选了视觉对象，那么下载的数据也将进行筛选。    
-4. 你的浏览器将提示你保存该文件。  保存后，在 Excel 中打开该 .csv 文件。
+1. 选择“导出数据”  图标。
 
-    ![](media/power-bi-visualization-export-data/pbi-export-to-excel.png)
+    ![突出显示“导出数据”选项的省略号下拉列表屏幕截图。](media/power-bi-visualization-export-data/pbi_export_dash.png)
 
-## <a name="from-a-visualization-in-a-report"></a>从报表中的可视化效果
+1. 此时，Power BI 会将数据导出至 .csv  文件。 如果你已筛选可视化效果，此应用会筛选已下载的数据。
+
+1. 你的浏览器将提示你保存该文件。  保存后，在 Excel 中打开此 .csv  文件。
+
+    ![显示已导出数据的 .csv 文件屏幕截图。](media/power-bi-visualization-export-data/pbi-export-to-excel.png)
+
+## <a name="export-data-from-a-report"></a>导出报表中的数据
+
 为此，请打开“编辑视图”中的[采购分析示例报表](../sample-procurement.md)。 添加新的空白报表页。 然后按照以下步骤来添加聚合和可视化效果级别筛选器。
 
-1. 创建一个新的柱形图。  从字段窗格中，选择“位置 > 城市”  和“发票 > 折扣百分比”  。  需要将“折扣百分比”移动到“值”一列中  。 
+1. 新建一个堆积柱形图  。
 
-    ![](media/power-bi-visualization-export-data/power-bi-export-data3.png)
-2. 将折扣百分比  的聚合从“计数”  更改为“平均”  。 在“值”一列中，选择“折扣百分比”  右侧的箭头（它可能显示“折扣百分比计数”  ），然后选择“平均”  。
+1. 在“字段”  窗格中，依次选择“位置”>“城市”  和“发票”>“折扣百分比”  。  需要将“折扣百分比”  移到“值”  井中。
 
-    ![](media/power-bi-visualization-export-data/power-bi-export-data6.png)
-3. 向“城市”  添加筛选器以删除“亚特兰大”  。
+    ![使用突出显示的“城市”和“折扣百分比计数”生成的可视化效果的屏幕截图。](media/power-bi-visualization-export-data/power-bi-export-data3.png)
 
-   ![](media/power-bi-visualization-export-data/power-bi-export-data4.png)
+1. 将折扣百分比  的聚合从“计数”  更改为“平均”  。 在“值”  井中，选择“折扣百分比”  （可能显示的是“折扣百分比计数”  ）右侧的箭头，再选择“平均”  。
 
-   现在准备尝试使用两个选项导出数据。 
+    ![突出显示“平均”选项的聚合列表屏幕截图。](media/power-bi-visualization-export-data/power-bi-export-data6.png)
 
-4. 选择可视化效果右上角的省略号。 选择导出数据  。
+1. 向“城市”  添加筛选器，选中所有城市，再取消选中“亚特兰大”  。
 
-   ![](media/power-bi-visualization-export-data/power-bi-export-data2.png)
-5. 在 Power BI 在线版中，如果可视化效果具有聚合（一个示例是如果将“计数”更改为“平均”、“总和”或“最小”），则具有两个选项     ：“汇总数据”和“基础数据”   。 Power BI Desktop 中仅提供“汇总数据”选项  。 如需有关了解聚合的帮助，请参阅 [Power BI 中的聚合](../service-aggregates.md)。
-    ![](media/power-bi-visualization-export-data/power-bi-export-data5.png)
-6. 选择“汇总数据  ” > “导出”  并选择 .xlsx 或 .csv。 Power BI 导出数据。  如果已将筛选器应用到可视化效果，则导出的数据将在筛选后导出。 选择“导出”  时，浏览器会提示你保存文件。 保存后，在 Excel 中打开该文件。
+    ![突出显示已取消选中“亚特兰大(GA)”复选框的“城市”筛选器屏幕截图。](media/power-bi-visualization-export-data/power-bi-export-data4.png)
 
-   **汇总数据**：希望导出在该视频中看到的数据时可选择此选项。  这种类型的导出仅显示所选用于创建视觉对象的数据（列和度量值）。  如果视觉对象具有聚合，则将导出聚合数据。 例如，如果有一个显示 4 条的条形图，则将获得 4 行数据。 汇总数据可作为 .xlsx 和 .csv。
+   现在准备尝试使用两个选项导出数据。
 
-   在此示例中，Excel 导出会显示每个城市的总计。 由于已筛选出亚特兰大，因此它并不包含在结果中。  电子表格的第一行显示的是我们在从 Power BI 提取数据时所使用的筛选器。
+1. 选择可视化效果右上角的省略号。 选择“导出数据”  。
 
-   ![](media/power-bi-visualization-export-data/power-bi-export-data7.png)
-7. 现在尝试选择“基础数据”   > “导出”  并选择 .xlsx。 Power BI 导出数据。 如果已将筛选器应用到可视化效果，则导出的数据将在筛选后导出。 选择“导出”  时，浏览器会提示你保存文件。 保存后，在 Excel 中打开该文件。
+    ![突出显示省略号按钮和“导出数据”选项的右上角屏幕截图。](media/power-bi-visualization-export-data/power-bi-export-data2.png)
 
-   >[!WARNING]
-   >使用导出基础数据功能，用户可以查看所有详细的数据（数据中的每列）。 Power BI 服务管理员可以为其组织关闭此功能。 如果你是数据集的所有者，则可以将专有列设置为“隐藏”，这样它们就不会出现在 Desktop 或 Power BI 服务的“字段”列表中。
+    在 Power BI 联机版中，如果可视化效果有聚合（例如将“计数”  更改为“平均”  、“总和”  或“最小”  ），你可以使用下面两个选项：
 
+    - **汇总数据**
 
-   **基础数据**：希望查看视觉对象中的数据***和***模型中的其他数据时可选择此选项（请参阅下表了解详细信息）。  如果可视化效果具有聚合，则选择基础数据  会删除聚合。 选择“导出”  时，数据将导出到 .xlsx 文件，并且你的浏览器会提示你保存该文件。 保存后，在 Excel 中打开该文件。
+    - **基础数据**
 
-   在此示例中，Excel 导出显示我们的数据集中每一个城市行的一行，以及该单个条目的折扣百分比。 换言之，数据平展而不聚合。 电子表格的第一行显示的是我们在从 Power BI 提取数据时所使用的筛选器。  
+    Power BI Desktop 中仅提供“汇总数据”选项  。 如需有关了解聚合的帮助，请参阅 [Power BI 中的聚合](../service-aggregates.md)。
 
-   ![](media/power-bi-visualization-export-data/power-bi-export-data8.png)
+1. 在“导出数据”  中，选中“汇总数据”  ，再依次选择“.xlsx”  或“.csv”  和“导出”  。 Power BI 导出数据。
+
+    ![突出显示“汇总数据”、“.xlsx”和“导出”选项的“导出数据”屏幕截图。](media/power-bi-visualization-export-data/power-bi-export-data5.png)
+
+    如果你已将筛选器应用于可视化效果，已导出数据将作为筛选后的数据导出。 选择“导出”  时，浏览器会提示你保存文件。 保存后，在 Excel 中打开该文件。
+
+    **汇总数据**：若要导出在相应视觉对象中看到的数据，请选中此选项。  这种类型的导出仅显示所选用于创建视觉对象的数据（列和度量值）。  如果视觉对象具有聚合，则将导出聚合数据。 例如，如果有一个条形图显示四个条形，就会导出四行数据。 汇总数据可以 .xlsx  和 .csv  形式导出。
+
+    在此示例中，Excel 导出会显示每个城市的总计。 由于已筛选掉亚特兰大，因此它并不包含在结果中。 电子表格的第一行显示，Power BI 在提取数据时使用的筛选器。
+
+    ![显示已导出数据的 .csv 文件屏幕截图。](media/power-bi-visualization-export-data/power-bi-export-data7.png)
+
+1. 现在尝试选中“基础数据”  ，再依次选择“.xlsx”  和“导出”  。 Power BI 导出数据。 
+
+    > [!NOTE]
+    > 用于导出基础数据的选项不一定有，具体视报表设置而定。
+
+    如果你已将筛选器应用于可视化效果，已导出数据将作为筛选后的数据导出。 选择“导出”  时，浏览器会提示你保存文件。 保存后，在 Excel 中打开该文件。
+
+    >[!WARNING]
+    >导出基础数据可便于用户查看所有详细数据（数据中的每一列）。 Power BI 服务管理员可以为自己的组织禁用此功能。 如果你是数据集所有者，可以将专有列设置为“隐藏”  ，这样它们就不会出现在 Power BI Desktop 或 Power BI 服务的“字段”  列表中。
+
+    **基础数据**：若要查看视觉对象中的数据和模型中的其他数据，请选中此选项（有关详细信息，请参阅下图）。 如果可视化效果具有聚合，则选择基础数据  会删除聚合。 在你选择“导出”  后，Power BI 会将数据导出至 .xlsx  文件，浏览器会提示你保存此文件。 保存后，在 Excel 中打开该文件。
+
+    在此示例中，Excel 导出文件的每一行显示数据集中每一个“城市”行，以及每个条目的折扣百分比。 Power BI 会合并数据， 但不会聚合数据。 电子表格的第一行显示，Power BI 在提取数据时使用的筛选器。  
+
+    ![显示已导出数据的 .csv 文件屏幕截图。](media/power-bi-visualization-export-data/power-bi-export-data8.png)
 
 ## <a name="export-underlying-data-details"></a>导出基础数据的详细信息
-选择基础数据  时看到的内容可能会有所不同。 如需了解这些内容的详细信息，请联系管理员或 IT 部门获取帮助。 在 Power BI Desktop 或 Power BI 服务中，在报表视图中，带有计算器图标 ![显示图标](media/power-bi-visualization-export-data/power-bi-calculator-icon.png) 的字段中将显示一个度量值  。 度量值是在 Power BI Desktop 中而不是 Power BI 服务中创建的。
 
+选择基础数据  时看到的内容可能会有所不同。 若要理解这些详细信息，可能需要向管理员或 IT 部门寻求帮助。 在 Power BI Desktop 或 Power BI 服务的报表视图中，带有计算器图标 ![显示图标](media/power-bi-visualization-export-data/power-bi-calculator-icon.png) 的度量值  显示在“字段”  列表中。 Power BI Desktop 可创建度量值， 而 Power BI 服务则无法创建。
 
-| 视觉对象包含 |                                                                              将在导出中看到的内容                                                                              |
-|-----------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|   聚合    |                                                 第一个  聚合和来自该聚合的整个表的非隐藏数据                                                  |
-|   聚合    | 相关数据 - 如果视觉对象使用的数据来自其他数据表，且这些表与包含聚合的数据表相关  （只要关系是 \*:1 或 1:1） |
-|    度量值     |                                      视觉对象中的所有度量值和  任何数据表中的所有度量值，其中数据表包含在视觉对象中使用的某个度量值                                      |
-|    度量值     |                                       包含该度量值的表中的所有非隐藏数据（只要该关系是 \*: 1 或 1:1）                                       |
-|    度量值     |                                      与包含度量值的表相关的所有表中的所有数据（只要该关系为 \*: 1 或 1:1）                                      |
-|  仅度量值  |                                                   所有相关表中的所有非隐藏列（以便展开度量值）                                                   |
-|  仅度量值  |                                                             模型度量值的任何重复行的汇总数据。                                                              |
+| 视觉对象包含 | 将在导出中看到的内容  |
+|---------------- | ---------------------------|
+| 聚合 | 第一个  聚合和来自该聚合的整个表的非隐藏数据 |
+| 聚合 | 相关数据 - 如果视觉对象使用的数据来自其他数据表，且这些表与包含聚合的数据表相关  （只要关系是 \*:1 或 1:1） |
+| 度量值 | 视觉对象中的所有度量值，以及  任何包含视觉对象中所用度量值的数据表中的全部度量值 |
+| 度量值 | 包含相应度量值的表中的所有非隐藏数据（只要关系是 \*:1 或 1:1） |
+| 度量值 | 与包含度量值的一个或多个表相关的所有表中的全部数据（通过链 \*:1 或 1:1） |
+| 仅度量值 | 所有相关表中的全部非隐藏列（以便展开度量值） |
+| 仅度量值 | 模型度量值的任何重复行的汇总数据 |
 
 ### <a name="set-the-export-options"></a>设置导出选项
+
 Power BI 报表设计器控制向使用者提供的数据导出选项的类型。 选项包括：
-- 仅允许导出汇总数据（这是新报表的默认选项） 
-- 允许导出汇总数据和基础数据（这是 2018 年 10 月之前的默认选项） 
-- 不允许导出任何数据  
+
+- 允许最终用户从 Power BI 服务或 Power BI 报表服务器导出汇总数据
+
+- 允许最终用户从 Power BI 服务或 Power BI 报表服务器导出汇总数据和基础数据
+
+- 禁止最终用户从 Power BI 服务或 Power BI 报表服务器导出任何数据
 
     > [!IMPORTANT]
     > 建议报表设计人员重新访问旧报表，并根据需要手动重置导出选项。
 
-1. 若要设置上述选项，请在 Power BI Desktop 中操作。
+若要设置这些选项，请执行以下操作：
 
-2. 在左上角选择“文件” > “选项和设置” > “选项”    。 
+1. 启动 Power BI Desktop。
 
-3. 在“当前文件”下，选择“报表设置”   。
+1. 在左上角选择“文件” > “选项和设置” > “选项”    。
+
+1. 在“当前文件”  下，选择“报表设置”  。
 
     ![桌面报表设置](media/power-bi-visualization-export-data/desktop-report-settings.png)
 
-4. 在“导出数据”下拉列表中进行选择  。
+1. 在“导出数据”  部分中，选中相应选项。
 
-此外，还可在 Power BI 服务中更新此设置。  
+此外，还可在 Power BI 服务中更新此设置。
 
-务必注意，如果 Power BI 管理门户设置与导出数据的报表设置冲突，管理设置将替代导出数据设置。 
+请务必注意，如果 Power BI 管理门户设置与报表的数据导出设置冲突，管理设置会替代数据导出设置。
 
 ## <a name="limitations-and-considerations"></a>限制和注意事项
-* 最多可将 30,000 行从 **Power BI Desktop** 和 **Power BI 服务**导出到 .csv。
-* 可以导出到 .xlsx 的最大行数是 150,000。
-* 如果数据源是 Analysis Services 实时连接、版本低于 2016 且模型中的表没有唯一键，则无法使用“基础数据”  进行导出。  
-* 如果为要导出的可视化效果启用了“显示不含数据的项”  选项，则无法使用“基础数据”  进行导出。
-* 使用 DirectQuery 时，最多可以导出 16MB 数据。 这可能会导致导出的行数少于上限，尤其是当有许多列、难以压缩的数据以及其他增加文件大小但减少导出行数的因素时。
-* 如果视觉对象使用的数据来自多个数据表，并且这些表在数据模型中不存在任何关系，则只导出第一个表中的数据。 
-* 目前不支持自定义视觉对象和 R 视觉对象。
-* 不可以对使用已与其共享的仪表板的组织外用户导出数据。 
-* 在 Power BI 中，双击字段并键入新的名称，即可对该字段（列）进行重命名。  这个新的名称叫作别名  。 Power BI 报表可以包含重复的字段名称，但 Excel 不允许重复。  因此，将数据导出到 Excel 后，字段别名将还原为其原始字段（列）名称。  
-* 如果 .csv 文件中存在 unicode 字符，那么 Excel 中的文本可能不会正常显示。 不过，在记事本中打开它则会正常显示。 Unicode 字符的示例是货币符号和外语单词。 对此的解决方法是将 csv 文件导入到 Excel 中，而不是直接打开 csv 文件。 如何执行此操作：
+这些限制和注意事项适用于 Power BI Desktop 和 Power BI 服务，包括 Power BI Pro 和 Power BI Premium。
 
-  1. 打开 Excel
-  2. 从“数据”  选项卡上，选择“获取外部数据”   > “从文本”  。
-* Power BI 管理员可以禁用数据导出功能。
+- 必须[有权生成基础数据集](https://docs.microsoft.com/power-bi/service-datasets-build-permissions#build-permissions-for-shared-datasets)，才能导出视觉对象中的数据。
 
+-  Power BI Desktop  和 Power BI 服务  最多可以将 30,000 行导出至 .csv  文件。
+
+- 这些应用最多可以将 150,000 行导出至 .xlsx  文件。
+
+- 在以下情况下，无法使用“基础数据”  导出数据：
+
+  - 数据源是 Analysis Services 实时连接。
+
+  - 版本低于 2016。
+
+  - 模型中的表没有唯一键。
+    
+  -  管理员或报表设计人员已禁用此功能。
+
+- 如果为 Power BI 要导出的可视化效果启用“显示不含数据的项”  选项，无法使用“基础数据”  导出数据。
+
+- 使用 DirectQuery 时，Power BI 最多可以导出 16MB 数据。 可能出现的意外结果是，导出数据低于行数上限。 在以下情况下，可能会出现这样的结果：
+
+    - 有许多列。
+
+    - 有难以压缩的数据。
+
+    - 其他因素导致文件大小增加，但 Power BI 可以导出的行数减少。
+
+- 如果可视化效果使用多个数据表中的数据，但这些表在数据模型中没有任何关系，Power BI 只导出第一个表中的数据。
+
+- 暂不支持自定义视觉对象和 R 视觉对象。
+
+- 使用内部用户已与其共享的仪表板的组织外部用户无法导出数据。
+
+- 在 Power BI 中，可以双击字段并键入新名称，从而重命名字段（列）。 Power BI 将新名称称为“别名”  。 虽然 Power BI 报表可以包含重复的字段名称，但 Excel 禁止重复。 因此，当 Power BI 将数据导出至 Excel 后，字段别名还原为原始字段（列）名称。  
+
+- 如果 .csv  文件中有 Unicode 字符，Excel 中的文本可能无法正常显示。 Unicode 字符示例包括，货币符号和外来词。 可以在记事本中打开此文件，这样 Unicode 就能正确显示了。 若要在 Excel 中打开此文件，解决方法是导入 .csv  。 若要将此文件导入 Excel，请执行以下操作：
+
+  1. 打开 Excel。
+
+  1. 转到“数据”  选项卡。
+  
+  1. 依次选择“获取外部数据”   > “自文本”  。
+  
+  1. 转到存储此文件的本地文件夹，并选择“.csv”  。
+
+- Power BI 管理员可以禁用数据导出功能。
 
 更多问题？ [尝试咨询 Power BI 社区](http://community.powerbi.com/)
-

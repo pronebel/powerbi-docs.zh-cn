@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 05/20/2019
 ms.custom: seodec18
 LocalizationGroup: Administration
-ms.openlocfilehash: 6c9d59bbc2c6bf81242166bef4cd7584f52fb633
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 992524d3467ebe9bb130b3c61476301ab2bc563c
+ms.sourcegitcommit: 58c649ec5fd2447a0f9ca4c4d45a0e9fff2f1b6a
+ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "65941613"
+ms.lasthandoff: 06/27/2019
+ms.locfileid: "67409173"
 ---
 # <a name="administering-power-bi-in-the-admin-portal"></a>在管理门户中管理 Power BI
 
@@ -34,7 +34,7 @@ Office 365 中的全局管理员或分配有 Power BI 服务管理员角色的�
 
     ![管理门户的设置](media/service-admin-portal/powerbi-admin-settings.png)
 
-在门户中有九个选项卡。 本文的其余部分提供了有关每个选项卡的信息。
+门户中有九个选项卡。 本文的其余部分提供了有关每个选项卡的信息。
 
 ![管理门户导航](media/service-admin-portal/powerbi-admin-landing-page.png)
 
@@ -44,8 +44,8 @@ Office 365 中的全局管理员或分配有 Power BI 服务管理员角色的�
 * [租户设置](#tenant-settings)
 * [容量设置](#capacity-settings)
 * [嵌入代码](#embed-codes)
-* [组织视觉对象](#organization-visuals)
-* [数据流存储 （预览版）](#dataflowStorage)
+* [组织视觉对象](#organizational-visuals)
+* [数据流存储（预览版）](#dataflowStorage)
 * [工作区](#workspaces)
 
 ## <a name="usage-metrics"></a>使用情况指标
@@ -59,11 +59,11 @@ Office 365 中的全局管理员或分配有 Power BI 服务管理员角色的�
 
 下面是每个磁贴中显示的内容的细分：
 
-* 用户工作区中的所有仪表板、报表和数据集的非重复计数
+* 用户工作区中的所有仪表板、报表和数据集的非重复计数。
   
     ![仪表板、报表和数据集的非重复计数](media/service-admin-portal/powerbi-admin-usage-metrics-number-tiles.png)
 
-* 按可以进行访问的用户数划分的使用量最大的仪表板。 例如，如果你将 1 个仪表板与 3 个用户共享，并且还将它添加到 2 个不同用户连接到的内容包，则其计数会是 6 (1 + 3 + 2)
+* 按可以进行访问的用户数划分的使用量最大的仪表板。 例如，如果你将 1 个仪表板与 3 个用户共享，并且还将它添加到 2 个不同用户连接到的内容包，计数为 6 (1 + 3 + 2)。
   
     ![使用最多的仪表板](media/service-admin-portal/powerbi-admin-usage-metrics-top-dashboards.png)
 
@@ -75,7 +75,7 @@ Office 365 中的全局管理员或分配有 Power BI 服务管理员角色的�
   
     ![主要用户 - 仪表板](media/service-admin-portal/powerbi-admin-usage-metrics-top-users-dashboards.png)
 
-* 基于用户具有的报表数的排名靠前用户视图
+* 排名靠前的用户视图（以用户拥有的报表数为依据）。
   
     ![主要用户 - 报表](media/service-admin-portal/powerbi-admin-usage-metrics-top-users-reports.png)
 
@@ -130,21 +130,21 @@ Office 365 中的全局管理员或分配有 Power BI 服务管理员角色的�
 
 ## <a name="help-and-support-settings"></a>帮助和支持设置
 
-### <a name="publish-get-help-information"></a>将"获取帮助"信息发布
+### <a name="publish-get-help-information"></a>发布“获取帮助”信息
 
-组织中的用户可以转到内部技术，并支持从 Power BI 帮助菜单资源。 具体而言，这些参数更改的了解、 社区和获取帮助菜单项的行为。
+组织中的用户可以通过 Power BI 帮助菜单获取内部帮助和支持资源。 具体而言，这些参数更改“Learn”、“社区”和“获取帮助”菜单项的行为。
 
-还有可能要指定要将用户定向到授权请求的自定义解决方案的 URL。 此参数可自定义 Power BI Pro 许可证的情况下用户可以更新到 Power BI Pro 的对话框中以及在管理个人存储页中找到的升级帐户按钮的目标 URL。
+也可以指定 URL，用于将用户定向到许可请求的自定义解决方案。 此参数自定义“升级帐户”按钮的目标 URL，没有 Power BI Pro 许可证的用户可以在“更新到 Power BI Pro”对话框和“管理个人存储”页中找到此 URL。
 
 ## <a name="workspace-settings"></a>工作区设置
 
 ### <a name="create-workspaces"></a>创建工作区
 
-管理员使用**创建工作区**指示组织中的哪些用户可以创建应用工作区协作处理仪表板、 报表和其他内容设置。 详细了解如何[应用工作区](service-create-the-new-workspaces.md)。
+管理员使用“创建工作区”  设置，指明组织中的哪些用户可以创建应用工作区，以就仪表板、报表和其他内容开展协作。 详细了解[应用工作区](service-create-the-new-workspaces.md)。
 
-在管理门户有关你的租户中的工作区具有另一个部分中的设置。 在该部分中，可以进行排序和筛选工作区的列表并显示每个工作区的详细信息。 请参阅[工作区](#workspaces)有关详细信息。
+管理门户还有另一个设置部分是关于租户中的工作区。 在此部分中，可以对工作区列表进行排序和筛选，并显示每个工作区的详细信息。 有关详细信息，请参阅[工作区](#workspaces)。
 
-在管理门户中，您还控制哪些用户有权将应用分发给组织。 请参阅[向整个组织发布内容包和应用](#publish-content-packs-and-apps-to-the-entire-organization)在本文中有关详细信息。
+在管理门户中，还可以控制哪些用户有权将应用分发给组织。 有关详细信息，请参阅本文中的[向整个组织发布内容包和应用](#publish-content-packs-and-apps-to-the-entire-organization)。
 
 ## <a name="export-and-sharing-settings"></a>导出和共享设置
 
@@ -213,23 +213,28 @@ Azure B2B 来宾用户可以编辑和管理组织中的内容。 [了解详细�
 
 ![允许外部来宾用户编辑和管理组织中的内容](media/service-admin-portal/powerbi-admin-tenant-settings-b2b-guest-edit-manage.png)
 
+### <a name="email-subscriptions"></a>电子邮件订阅
+组织中的用户可以创建电子邮件订阅。 详细了解[订阅](service-report-subscribe.md)。
+
+![启用电子邮件订阅](media/service-admin-portal/power-bi-manage-email-subscriptions.png)
+
 ## <a name="content-pack-and-app-settings"></a>内容包和应用设置
 
 ### <a name="publish-content-packs-and-apps-to-the-entire-organization"></a>向整个组织发布内容包和应用
 
-管理员使用此设置来确定哪些用户可以将内容包和应用发布到整个组织，而不只是特定组。 详细了解如何[发布应用](service-create-distribute-apps.md)。
+管理员使用此设置，以确定哪些用户可以向整个组织发布内容包和应用，而不仅仅是特定组。 详细了解[如何发布应用](service-create-distribute-apps.md)。
 
 下图展示了创建内容包时可用的“我的整个组织”  选项。
 
 ![向组织发布内容包](media/service-admin-portal/powerbi-admin-publish-entire-org.png)
 
-### <a name="create-template-apps-and-organizational-content-packs"></a>创建模板应用程序和组织内容包
+### <a name="create-template-apps-and-organizational-content-packs"></a>创建模板应用和组织内容包
 
-组织中的用户可以创建模板的应用和使用基于 Power BI Desktop 中的一个数据源的数据集的组织内容包。 详细了解如何[模板应用](template-content-pack-authoring.md)。
+组织中的用户可以创建模板应用和组织内容包，它们使用基于 Power BI Desktop 中一个数据源生成的数据集。 详细了解[模板应用](template-content-pack-authoring.md)。
 
 ### <a name="push-apps-to-end-users"></a>将应用推送给最终用户
 
-报表创建者可以共享应用直接与最终用户无需从安装[AppSource](https://appsource.microsoft.com)。 详细了解如何[自动为最终用户安装应用](service-create-distribute-apps.md#automatically-install-apps-for-end-users)。
+报表创建者可以直接与最终用户共享应用，而无需从 [AppSource](https://appsource.microsoft.com) 安装。 详细了解[如何自动为最终用户安装应用](service-create-distribute-apps.md#automatically-install-apps-for-end-users)。
 
 ## <a name="integration-settings"></a>集成设置
 
@@ -351,7 +356,7 @@ Power BI Desktop（2019 年 3 月版及更高版本）支持通过“组策略�
 
 ### <a name="allow-service-principals-to-use-power-bi-apis"></a>允许服务主体使用 Power BI API
 
-在 Azure Active Directory (Azure AD) 中注册的 web 应用将使用分配的服务主体已登录用户的情况下访问 Power BI Api。 若要允许的应用程序使用服务主体身份验证服务主体必须包含允许的安全组中。 [了解详细信息](developer/embed-service-principal.md)
+在 Azure Active Directory (Azure AD) 中注册的 Web 应用将使用已分配的服务主体来访问 Power BI API，而无需用户登录。 若要允许应用使用服务主体身份验证，必须包含在允许的安全组中添加它的服务主体。 [了解详细信息](developer/embed-service-principal.md)
 
 > [!NOTE]
 > 服务主体继承其安全组中的所有 Power BI 租户设置的权限。 若要限制权限，请为服务主体创建专用的安全组并将其添加到相关已启用 Power BI 设置的“除特定安全组以外”列表。
@@ -360,29 +365,34 @@ Power BI Desktop（2019 年 3 月版及更高版本）支持通过“组策略�
 
 ### <a name="create-and-use-dataflows"></a>创建和使用数据流
 
-组织中的用户可以创建和使用数据流。 数据流的概述，请参阅[在 Power BI 中的自助服务数据准备](service-dataflows-overview.md)。 若要启用高级容量中的数据流，请参阅[配置工作负载](service-admin-premium-workloads.md)。
+组织中的用户可以创建和使用数据流。 若要概览数据流，请参阅 [Power BI 中的自助式数据准备](service-dataflows-overview.md)。 若要启用高级容量中的数据流，请参阅[配置工作负载](service-admin-premium-workloads.md)。
 
 > [!NOTE]
 > 此设置应用于整个组织，并且不能限制为特定组。
 
-## <a name="template-apps-settings-preview"></a>模板应用设置（预览版）
+## <a name="template-apps-settings"></a>模板应用设置
 
-两个设置控制模板应用。 
+三种模板应用设置控制能否发布或安装模板应用。
 
 ![Power BI 管理门户模板应用设置](media/service-admin-portal/power-bi-admin-portal-template-apps.png)
 
-### <a name="create-template-apps-preview"></a>创建模板应用(预览版)
+### <a name="publish-template-apps"></a>发布模板应用
 
-组织中的用户可以创建模板的应用。 模板应用创建者可以然后将它们分发给你的组织通过外部的客户端[AppSource](https://appsource.microsoft.com)或其他分发方法。
+组织中的用户可以创建模板应用工作区。 控制哪些用户可以通过 [AppSource](https://appsource.microsoft.com) 或其他分发方法，将模板应用发布或分发给组织外部客户端。
 
 ![Power BI 管理门户的创建模板应用设置](media/service-admin-portal/power-bi-admin-portal-template-app-settings.png)
 
-### <a name="install-template-apps-preview"></a>安装模板的应用 （预览版）
+### <a name="install-template-apps-listed-on-appsource"></a>安装 AppSource 上列出的模板应用
 
-组织中的用户可以下载并安装的应用模板[AppSource](https://appsource.microsoft.com)或另一个源。
+组织中的用户只能  从 [AppSource](https://appsource.microsoft.com) 下载并安装模板应用。 控制哪些特定用户或安全组可以安装 AppSource 中的模板应用。
 
-> [!NOTE]
-> 此设置确定哪些用户可以安装在其 Power BI 帐户上的模板应用。
+![Power BI 管理门户中的“安装模板应用”设置](media/service-admin-portal/power-bi-admin-portal-template-app-settings-installer-appsource.png)
+
+### <a name="install-template-apps-not-listed-on-appsource"></a>安装 AppSource 上未列出的模板应用
+
+控制组织中哪些用户可以下载并安装 [AppSource](https://appsource.microsoft.com) 上未列出  的模板应用。
+
+![Power BI 管理门户中的“安装模板应用”设置](media/service-admin-portal/power-bi-admin-portal-template-app-settings-installer-nonappsource.png)
 
 ## <a name="capacity-settings"></a>容量设置
 
@@ -394,7 +404,7 @@ Power BI Desktop（2019 年 3 月版及更高版本）支持通过“组策略�
 
 ### <a name="power-bi-embedded"></a>Power BI Embedded
 
-使用“Power BI Embedded”  选项卡，可以查看已为客户购买的 Power BI Embedded (A SKU) 容量。 由于你仅可以从 Azure 购买 Sku 您[管理 Azure 中的嵌入的容量](developer/azure-pbie-create-capacity.md)从**在 Azure 门户**。
+使用“Power BI Embedded”  选项卡，可以查看已为客户购买的 Power BI Embedded (A SKU) 容量。 由于只能从 Azure 购买 A SKU，因此是在 Azure 门户  中[管理 Azure 中的嵌入容量](developer/azure-pbie-create-capacity.md)。
 
 有关如何管理 Power BI Embedded (A SKU) 设置的详细信息，请参阅[什么是 Power BI Embedded](developer/azure-pbie-what-is-power-bi-embedded.md)。
 
@@ -404,7 +414,7 @@ Power BI Desktop（2019 年 3 月版及更高版本）支持通过“组策略�
 
 ![在 Power BI 管理门户中嵌入代码](media/service-admin-portal/embed-codes.png)
 
-## <a name="organizational-visuals">组织视觉对象</a>
+ ## <a name="organizational-visuals">组织视觉对象</a> 
 
 使用“组织视觉对象”  选项卡，可以部署和管理组织内的自定义视觉对象。 使用组织视觉对象，可以在组织中轻松部署专有的视觉对象，以便报表作者能够从 Power BI Desktop 中发现这些视觉对象，并将它们导入自己的报表中。 [了解详细信息](power-bi-custom-visuals-organization.md)
 
@@ -464,13 +474,13 @@ Power BI Desktop（2019 年 3 月版及更高版本）支持通过“组策略�
 
 有关详细信息，请访问[关于组织的自定义视觉对象的常见问题解答](https://docs.microsoft.com/power-bi/power-bi-custom-visuals-faq#organizational-custom-visuals)
 
-## <a name="dataflowStorage">数据流存储 （预览版）</a>
+## <a name="dataflowStorage">数据流存储（预览版）</a>
 
 默认情况下，Power BI 中使用的数据存储在由 Power BI 提供的内部存储中。 通过数据流与 Azure Data Lake Storage Gen2 (ADLS Gen2) 的集成，可将数据流存储在组织的 Azure Data Lake Storage Gen2 帐户中。 有关详细信息，请参阅[数据流和 Azure Data Lake 集成（预览）](service-dataflows-azure-data-lake-integration.md)。
 
 ## <a name="workspaces"></a>工作区
 
-作为管理员，可以查看租户中存在的工作区。 可以对列表中的工作区进行排序和筛选并显示每个工作区的详细信息。 表中的列对应于返回的属性[Rest API 的 Power BI 管理员](/rest/api/power-bi/admin)针对工作区。 个人工作区的类型是**PersonalGroup**，经典的工作区的类型是**组**，，新的工作区体验工作区的类型**工作区**。 有关详细信息，请参阅[Power BI 中创建新工作区](service-create-the-new-workspaces.md)。
+作为管理员，可以查看租户中存在的工作区。 可以对列表中的工作区进行排序和筛选并显示每个工作区的详细信息。 表列对应于由 [Power BI 管理员 Rest API](/rest/api/power-bi/admin) 为工作区返回的属性。 个人工作区的类型是“PersonalGroup”  ，经典工作区的类型是“Group”  ，提供新工作区体验的工作区的类型是“Workspace”  。 有关详细信息，请参阅[在 Power BI 中创建新工作区](service-create-the-new-workspaces.md)。
 
 ![工作区列表](media/service-admin-portal/workspaces-list.png)
 

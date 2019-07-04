@@ -1,5 +1,5 @@
 ---
-title: Power BI 中的分页报表：常见问题解答（预览）
+title: Power BI 中的分页报表：常见问题解答
 description: 本文将解答有关分页报表的常见问题。 这些报表是高度格式化且像素效果完美的输出，已针对打印或 PDF 生成进行了优化。
 author: maggiesMSFT
 ms.author: maggies
@@ -8,15 +8,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: overview
-ms.date: 11/05/2018
-ms.openlocfilehash: cedf72585d7aa4f2ece39739dc0bdba33ca66e21
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.date: 06/18/2019
+ms.openlocfilehash: 10ac6ed9f49241103d03f2667ccc8db5d619db6c
+ms.sourcegitcommit: a42c6758aa255c21ece6366a3257b0dd82f3606b
+ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "60987776"
+ms.lasthandoff: 06/24/2019
+ms.locfileid: "67345512"
 ---
-# <a name="paginated-reports-in-power-bi-faq-preview"></a>Power BI 中的分页报表：常见问题解答（预览）
+# <a name="paginated-reports-in-power-bi-faq"></a>Power BI 中的分页报表：常见问题解答 
 
 本文将解答有关分页报表的常见问题。 这些报表是高度格式化且像素效果完美的输出，已针对打印或 PDF 生成进行了优化。 它们被称为“分页”，因为它们已进行了格式化，以适应多个页面。 分页报表基于 SQL Server Reporting Services 中的 RDL 报表技术。 
 
@@ -26,11 +26,11 @@ ms.locfileid: "60987776"
 
 ### <a name="what-size-premium-capacity-do-i-need-for-paginated-reports"></a>用于分页报表的的高级容量的大小是多少？
 
-分页报表工作负载在公共预览版的 P1 – P3 SKU 上可用。  你还可以在 A4 – A6 SKU 中将其用于测试/开发应用场景。
+分页报表工作负荷可用于 P1 - P3 SKU。  对于 SaaS 嵌入方案，还可以将它用于 A4 - A6 SKU。
 
 ### <a name="what-is-the-maximum-memory-threshold-i-can-put-for-paginated-reports-in-my-capacity"></a>可以在我的容量中为分页报表保留的最大内存阈值是多少？
 
-当前，仅能为此工作负载保留 50% 的内存。 
+到 2019 年 6 月底，最多可以对此工作负荷使用全部内存。 
 
 ### <a name="how-does-user-access-work-for-paginated-reports"></a>用户如何访问分页报表中的工作？
 
@@ -38,7 +38,7 @@ ms.locfileid: "60987776"
 
 ### <a name="how-do-i-turn-onoff-my-paginated-reports-workload"></a>我如何打开/关闭我的分页报表工作负载？
 
-容量管理员可以在容量管理门户页面启用或禁用分页报表工作负载。  
+容量管理员可以在容量管理门户页面启用或禁用分页报表工作负载。  默认情况下，此工作负荷对你新建的任何容量都处于启用状态。  
 
 ### <a name="how-can-i-monitor-usage-of-paginated-reports-in-my-tenant"></a>我如何在我的租户中监视分页报表的使用？
 
@@ -63,7 +63,7 @@ Office 365 审核日志在以下事件下详细记录此报表类型的使用情
 
 ### <a name="do-i-need-a-pro-license-to-create-and-publish-paginated-reports"></a>我是否需要具有 Pro 许可证才能创建和发布分页报表？
 
-是。 在没有 Pro 许可证的情况下，你将无法将报表上传到工作区。 我们鼓励您下载和使用 Power BI 报表生成器，即使没有 Pro 许可证，但不能发布没有它创建的分页的报表。 
+可以在没有 Pro 许可证的情况下，将分页报表上传到“我的工作区”，但前提是在高级容量中。  对于其他工作区，必须有 Pro 许可证，才能创作内容并发布到工作区中。 建议下载和使用 Power BI 报表生成器（即使没有 Pro 许可证），但无法发布在没有 Pro 许可证的情况下创建的分页报表。 
 
 ### <a name="what-if-i-have-a-paginated-report-in-a-workspace-and-the-paginated-report-workload-is-turned-off"></a>如果我在工作区中有一个分页报表但分页报表工作负载已关闭，该如何处理？
 
@@ -85,13 +85,13 @@ Office 365 审核日志在以下事件下详细记录此报表类型的使用情
 
 Power BI 报表针对浏览和交互性进行了优化。  例如，对于销售报表（其中不同的销售人员想要在同一区域针对其特定区域/行业/客户切分数据并查看数字的变化情况），Power BI 报表将是最理想的选择。
 
-### <a name="the-documentation-says-power-bi-report-builder-is-the-preferred-authoring-tool-can-i-create-paginated-reports-in-sql-server-data-tools-for-power-bi"></a>文档中指出，Power BI 报表生成器是首选的创作工具。 我可以在适用于 Power BI 的 SQL Server Data Tools 中创建分页报表吗？
+### <a name="the-documentation-says-power-bi-report-builder-is-the-preferred-authoring-tool-can-i-create-paginated-reports-in-sql-server-data-tools-for-power-bi"></a>文档中提到 Power BI 报表生成器是首选创作工具。 我可以在适用于 Power BI 的 SQL Server Data Tools 中创建分页报表吗？
 
 可以，但 Power BI 服务仅允许你一次上传一个项目，因此，作者使用 SQL Server Data Tools (SSDT) 的许多应用场景尚未受支持。 在此常见问题解答中查看以后提供的完整的[不受支持的功能的列表](#what-paginated-report-features-in-ssrs-arent-yet-supported-in-power-bi)。  
 
 ### <a name="what-versions-of-report-builder-do-you-support"></a>支持哪些报表生成器版本？
 
-我们最近为 Power BI 服务中的分页报表的主要创作工具发布了 Power BI 报表生成器。 安装[Power BI 报表生成器从 Microsoft 下载中心获得](https://go.microsoft.com/fwlink/?linkid=2086513)。
+我们最近发布了 Power BI 报表生成器，作为 Power BI 服务中分页报表的主要创作工具。 [从 Microsoft 下载中心安装 Power BI 报表生成器](https://go.microsoft.com/fwlink/?linkid=2086513)。
 
 ### <a name="how-do-i-move-existing-reports-i-have-saved-in-sql-server-reporting-services-to-power-bi"></a>我如何将保存在 SQL Server Reporting Services 中的报表移动到 Power BI？
 
@@ -99,7 +99,7 @@ Power BI 报表针对浏览和交互性进行了优化。  例如，对于销售
 
 ### <a name="can-i-open-reports-and-publish-directly-to-the-service"></a>我可以打开报表并直接发布到服务吗？
 
-目前还不行。 我们添加了支持用于打开报表并将其发布与服务直接从 Power BI 报表生成器之前正式上市时，像你可以使用 Power BI Desktop。
+是。 我们最近开始支持，在 Power BI 报表生成器中打开报表，并将报表直接发布到 Power BI 服务中。
 
 ### <a name="what-paginated-report-features-in-ssrs-arent-yet-supported-in-power-bi"></a>Power BI 中有哪些在 SSRS 中尚不支持的分页报表功能？
 
@@ -108,9 +108,8 @@ Power BI 报表针对浏览和交互性进行了优化。  例如，对于销售
 - 共享数据源
 - 共享的数据集
 - 子报表
-- 单击和钻取操作
+- 钻取到和单击后到达其他报表
 - 链接报表
-- 书签
 - 必应地图层
 - 自定义字体
 
@@ -118,27 +117,28 @@ Power BI 报表针对浏览和交互性进行了优化。  例如，对于销售
 
 ### <a name="what-data-sources-do-you-support-currently-for-paginated-reports"></a>分页报表当前支持的数据源有哪些？
 
-我们支持以下数据源- 
+支持以下数据源 - 
 
-- Power BI 高级数据集
-- Azure Analysis Services （通过单一登录 (SSO)）
-- Azure SQL 数据库
+- Power BI Premium 数据集
+- Azure Analysis Services（通过单一登录 (SSO) 和 oAuth）
+- Azure SQL 数据仓库
+- Azure SQL 数据库（用户名/密码和 oAuth）
 - SQL Server*
-- SQL Server Analysis Services (SSAS) 表格 (DAX) 和多维 (MDX) 模型 * 
+- SQL Server Analysis Services (SSAS) 表格 (DAX) 和多维 (MDX) 模型* 
 - Oracle* 
-- Teradata * 
+- Teradata* 
 
-* 需要在本地网关。
+* 需要本地网关。
 
 通过网关访问 SSAS 时，存储凭据的用户需要 SSAS 中提升的权限才能通过网关。
 
 ### <a name="what-authentication-methods-do-you-support"></a>支持的身份验证方法有哪些？
 
-我们支持 Azure Analysis Services 和 Power BI Premium 的数据源的 SSO。  对于所有其他数据源，当前需要存储的用户名和密码与数据源中的门户或网关。  
+支持对 Azure Analysis Services 和 Power BI Premium 数据源使用 SSO，并支持对 Azure SQL 数据库使用 oAuth 和 SSO。  对于其他数据源，目前需要将用户名和密码与数据源一起存储在门户或网关中。  
 
 ### <a name="can-i-use-a-power-bi-dataset-as-a-data-source-for-my-paginated-report"></a>我可以将 Power BI 数据集用作我的分页报表的数据源吗？
 
-是的我们现在还支持 Power BI 高级数据集作为分页报表的数据源。
+能，支持将 Power BI Premium 数据集用作分页报表的数据源。
 
 ### <a name="can-i-use-stored-procedures-through-the-gateway"></a>我可以在通过网关时使用存储的过程吗？
 
@@ -150,27 +150,19 @@ Power BI 报表针对浏览和交互性进行了优化。  例如，对于销售
 
 ### <a name="can-i-print-paginated-reports"></a>我可以打印分页报表吗？
 
-是的可用于分页报表中，包括新的和改进的打印预览体验打印。 
+能，打印功能可用于分页报表，包括经过改进的全新打印预览体验。 
 
 ### <a name="are-e-mail-subscriptions-available-yet-for-paginated-reports"></a>分页报表目前提供电子邮件订阅吗？
 
-不，但即将推出电子邮件订阅。
-
-### <a name="what-features-from-ssrs-will-you-be-supporting-in-the-power-bi-service"></a>Power BI 服务中会支持 SSRS 中的哪些功能？
-
-我们的计划是为大多数场景提供功能奇偶一致性，但是尝试更改 SSRS 和 Power BI 的某些相关内容以适应现有 SSRS 模式可能没有意义。  例如，Power BI 中的不同权限模型无法映射回 SSRS。  我们期望收到客户与合作伙伴的反馈，以便制定此类决策。
+能，分页报表完全支持电子邮件订阅，并支持六个不同的文件格式和参数值。
 
 ### <a name="can-i-run-custom-code-in-my-report"></a>我可以在我的报表中运行自定义代码吗？
 
 可以，支持在你的报表中运行代码，这与在 SSRS 中一样。
 
-### <a name="does-this-mean-ssrs-is-going-away"></a>这是否意味着 SSRS 将被弃用？
-
-完全不会。  这一新的产品/服务为客户提供了针对其分页报表的基于云的选项。  
-
 ### <a name="can-i-use-power-bi-embedded-to-embed-my-paginated-reports-into-an-app-im-hosting"></a>我可以使用 Power BI Embedded 将我的分页报表嵌入到我正在管理的应用中吗？
 
-我们计划在现有的 Power BI API 中支持此方案，但我们尚不确定何时推出此方案。
+我们将在 6 月支持 SaaS 嵌入。  我们还计划对现有 Power BI API 支持 SaaS 嵌入，但尚未确定何时推出此方案。
 
 ### <a name="can-i-drill-through-from-a-power-bi-report-to-a-paginated-report"></a>我是否可以从 Power BI 报表钻取到分页报表？
 
@@ -178,7 +170,7 @@ Power BI 报表针对浏览和交互性进行了优化。  例如，对于销售
 
 ### <a name="can-i-share-my-paginated-report-content-through-a-power-bi-app"></a>我可以通过 Power BI 应用共享我的分页报表内容吗？
 
-是的分页的报表支持与 v1 和 v2 工作区中的应用一起部署。 
+能，支持使用 v1 和 v2 工作区内的应用部署分页报表。 
 
 ### <a name="will-other-report-specific-features-in-power-bi-like-pinning-to-report-tiles-to-dashboards-work-with-paginated-reports"></a>Power BI 中的其他特定于报表的功能（例如，将报表磁贴固定到仪表板）也适用于分页报表吗？
 
@@ -190,7 +182,7 @@ Power BI 报表针对浏览和交互性进行了优化。  例如，对于销售
 
 ### <a name="will-i-ever-be-able-to-create-both-paginated-reports-and-power-bi-reports-in-a-single-authoring-tool"></a>我可以在单个创作工具中同时创建分页报表和 Power BI 报表吗？
 
-这是有可能的。  我们当前正在研究实现此场景的方式，琢磨是将创作工具一起分发为单个 BI 套件还是提供单独下载/品牌打造功能。
+我们已经研究了启用此方案的方法，但暂未将此方案纳入我们的计划。
 
 ### <a name="is-there-a-report-viewer-control-for-paginated-reports-in-the-power-bi-service"></a>Power BI 服务中是否有针对分页报表的报表查看器控件？
 
@@ -198,7 +190,7 @@ Power BI 报表针对浏览和交互性进行了优化。  例如，对于销售
 
 ### <a name="can-you-search-for-paginated-reports-from-the-new-home-experience-in-the-power-bi-service"></a>可以在 Power BI 服务中的新主页体验中搜索分页报表吗？
 
-不可以，目前还不能从主页搜索分页报表。  但可以在新主页体验的其他部分看到它们。
+能，现在可以从“主页”搜索分页报表。  还可以在新“主页”体验的其他部分中看到它们。
 
 ## <a name="next-steps"></a>后续步骤
 
