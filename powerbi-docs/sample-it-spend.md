@@ -10,16 +10,15 @@ ms.topic: conceptual
 ms.date: 06/20/2019
 ms.author: maggies
 LocalizationGroup: Samples
-ms.openlocfilehash: 3fc93f255d6645ffa6f15676b9a70f24326fcfdc
-ms.sourcegitcommit: a2c4f912af1729fdfdf20369bf3eff67c3927eec
+ms.openlocfilehash: eea93888cf3a8ea5c7ca7b6eb9389cbabc79dc9c
+ms.sourcegitcommit: 8dee40f07d284ec84a8afa0100359f146e1dd88b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/25/2019
-ms.locfileid: "67349282"
+ms.lasthandoff: 06/27/2019
+ms.locfileid: "67418728"
 ---
 # <a name="it-spend-analysis-sample-for-power-bi-take-a-tour"></a>Power BI 的 IT 支出分析示例：参观
 
-## <a name="overview-of-the-it-spend-analysis-sample"></a>“IT 支出分析示例”概述
 IT 支出分析示例内容包中有仪表板、报表和数据集，分析了 IT 部门的计划成本与实际成本。 这种比较可以帮助我们了解公司年度计划的效果如何并调查与计划有巨大偏差的区域。 此示例中的公司经历了一个年度计划周期，然后按季度生成新的最新估计 (LE)，以帮助分析会计年度中的 IT 支出变化。
 
 ![IT 支出分析示例仪表板](media/sample-it-spend/it1.png)
@@ -124,7 +123,7 @@ IT 支出分析示例内容包中有仪表板、报表和数据集，分析了 I
 * 更改每个图表的可视化效果类型。
 * 将相关图表固定到仪表板。
 
+## <a name="next-steps-connect-to-your-data"></a>后续步骤：连接到数据
 可以在此环境中安全操作，因为能够选择不保存更改。 不过，如果确实保存了更改，可随时选择“获取数据”  来获取此示例的新副本。
 
-## <a name="next-steps-connect-to-your-data"></a>后续步骤：连接到数据
 我们希望本教程介绍了 Power BI 仪表板、问题解答和报表如何能够帮助深入了解 IT 支出数据。 现在轮到你了；立即连接到你自己的数据。 借助 Power BI，可以连接到各种数据源。 若要了解详细信息，请参阅 [Power BI 服务入门](service-get-started.md)。

@@ -10,16 +10,15 @@ ms.topic: conceptual
 ms.date: 06/20/2019
 ms.author: maggies
 LocalizationGroup: Samples
-ms.openlocfilehash: ae2e4dcfe1fdcd88c3e6ff9e4942afdedf9d126b
-ms.sourcegitcommit: a2c4f912af1729fdfdf20369bf3eff67c3927eec
+ms.openlocfilehash: 762a28d2340a691316b1aaf26b7ce62d45cc7496
+ms.sourcegitcommit: 8dee40f07d284ec84a8afa0100359f146e1dd88b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/25/2019
-ms.locfileid: "67349525"
+ms.lasthandoff: 06/27/2019
+ms.locfileid: "67418743"
 ---
 # <a name="human-resources-sample-for-power-bi-take-a-tour"></a>Power BI 的人力资源示例：参观
 
-## <a name="overview-of-the-human-resources-sample"></a>“人力资源示例”概述
 人力资源示例内容包中有面向人力资源部门的仪表板、报表和数据集。 在此示例中，人力资源部门跨不同公司使用相同的报表模型，即使公司所处的行业或规模不同，也不例外。 此示例研究新员工数、在职员工数和离职员工数。 它力求发掘雇佣策略中的任何趋势。 我们的主要目标是要了解：
 
 * 我们招聘的员工
@@ -159,7 +158,7 @@ ms.locfileid: "67349525"
 
    请注意，大多数女性差员工年龄都在 30 岁以下。
 
+## <a name="next-steps-connect-to-your-data"></a>后续步骤：连接到数据
 可以在此环境中安全操作，因为能够选择不保存更改。 不过，如果确实保存了更改，可随时选择“获取数据”  来获取此示例的新副本。
 
-## <a name="next-steps-connect-to-your-data"></a>后续步骤：连接到数据
 本教程讨论了 Power BI 仪表板、问答和报表如何能够帮助深入了解人力资源数据。 现在轮到你了；立即连接到你自己的数据。 借助 Power BI，可以连接到各种数据源。 若要了解详细信息，请参阅 [Power BI 服务入门](service-get-started.md)。
