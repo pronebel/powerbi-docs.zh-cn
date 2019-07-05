@@ -683,9 +683,9 @@
               href: service-machine-learning-automated.md
         - name: Power BI 中的分页报表
           items:
-            - name: 查看分页报表（预览）
+            - name: 查看分页报表
               href: paginated-reports-view-power-bi-service.md
-            - name: 与参数进行交互（预览）
+            - name: 与参数进行交互
               href: paginated-reports-view-parameters.md
             - name: 自己或他人订阅
               href: paginated-reports-subscriptions.md
