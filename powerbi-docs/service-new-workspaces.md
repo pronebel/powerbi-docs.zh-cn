@@ -1,5 +1,5 @@
 ---
-title: 在新工作区中整理工作 - Power BI
+title: 在 Power BI 的新工作区中整理工作
 description: 了解新工作区，即旨在为组织提供关键指标的仪表板和报表的集合。
 author: maggiesMSFT
 manager: kfile
@@ -7,15 +7,15 @@ ms.reviewer: lukaszp
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 04/18/2019
+ms.date: 06/26/2019
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 419cd2137b8924f153009843d6f60db594219059
-ms.sourcegitcommit: a42c6758aa255c21ece6366a3257b0dd82f3606b
+ms.openlocfilehash: a3982716ac2eb64f7512ba6ef606af299f1c5f46
+ms.sourcegitcommit: 8dee40f07d284ec84a8afa0100359f146e1dd88b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/24/2019
-ms.locfileid: "67345540"
+ms.lasthandoff: 06/27/2019
+ms.locfileid: "67418675"
 ---
 # <a name="organize-work-in-the-new-workspaces-in-power-bi"></a>在 Power BI 的新工作区中整理工作
 
@@ -135,7 +135,7 @@ Power BI 不会将配置为拥有工作区访问权限的用户或组的权限�
 - 成员可以或无法重新共享：替换为参与者角色
 - 只读工作区：向用户分配查看者角色，此角色对对工作区中内容的权限与只读访问权限类似，而不是向用户授予对工作区的只读访问权限。
 - 如果工作区位于 Power BI 高级容量中，没有 Power BI Pro 许可证的用户可以访问工作区，即使用户只有查看者角色，也不例外。
-- 若要允许具有查看者角色的用户导出数据，请确保他们有权在工作区中生成数据集。
+- 若要允许具有查看者角色的用户导出数据，请确保他们有权在工作区中生成数据集。 详细了解[数据集的“生成”权限](service-datasets-build-permissions.md#build-permissions-for-shared-datasets)。
 - 没有“退出工作区”按钮  。
 
 ## <a name="frequently-asked-questions"></a>常见问题解答
