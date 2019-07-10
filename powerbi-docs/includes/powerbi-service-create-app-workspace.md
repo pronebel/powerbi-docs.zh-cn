@@ -1,28 +1,49 @@
-1. 首先，创建工作区。 选择“工作区” > “创建应用工作区”。 
+---
+title: 创建工作区 - Power BI
+description: 如何创建工作区 - 包括
+services: powerbi
+author: maggiesMSFT
+ms.service: powerbi
+ms.topic: include
+ms.date: 04/04/2019
+ms.author: maggies
+ms.custom: include file
+ms.openlocfilehash: bbd1f47b2d798e662f84f009b3260a11d39cb23d
+ms.sourcegitcommit: e67bacbfc5638ee97e3d2e0e7f5bd2d9aac78f9c
+ms.translationtype: HT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 07/02/2019
+ms.locfileid: "67534584"
+---
+1. 首先，创建工作区。 选择“工作区”   > “创建应用工作区”  。 
    
      ![创建应用工作区](media/powerbi-service-create-app-workspace/power-bi-create-app-workspace.png)
    
-    这里将放置你和你的同事协作处理的内容。
+    此处将放置你和你的同事协作处理的内容。
 
-2. 为工作区命名。 如果对应的“工作区 ID”不可用，则进行编辑以给定一个唯一的 ID。
+2. 在“正在创建已升级的工作区”横幅中，请点击“还原为经典”   。 
+
+    ![“还原为经典”工作区选项](media/powerbi-service-create-app-workspace/power-bi-revert-classic-workspace.png)
+
+3. 为工作区命名。 如果对应的“工作区 ID”  不可用，则进行编辑以给定一个唯一的 ID。
    
-     这也是应用的名称。
+     该应用将具有相同的名称。
    
      ![命名工作区](media/powerbi-service-create-app-workspace/power-bi-apps-create-workspace-name.png)
 
-3. 需要设置几个选项。 如果你选择“公开”，则组织中的任何人都可以看到工作区内容。 而如果选择“专用”，则意味着只有工作区的成员可以查看其内容。
+3. 需要设置几个选项。 如果你选择“公开”  ，则组织中的任何人都可以看到工作区内容。 “专用”是指只有工作区的成员可查看其内容  。
    
      ![设置专用或公用](media/powerbi-service-create-app-workspace/power-bi-apps-create-workspace-private-public.png)
    
     创建组后，将不能更改公共/私有设置。
 
-4. 还可以选择成员是可以“编辑”还是具有“仅查看”访问权限。
+4. 还可以选择成员是可以“编辑”  还是具有“仅查看”  访问权限。
    
      ![设置编辑或仅查看](media/powerbi-service-create-app-workspace/power-bi-apps-create-workspace-members-edit.png)
    
      仅向应用工作区添加用户，以便他们能够编辑内容。 如果他/她只是要查看内容，请勿将其添加到工作区。 可以在发布应用时对其进行添加。
 
-5. 添加你要允许其访问工作区的用户的电子邮件地址，然后选择“添加”。 无法添加组别名，只能添加单个用户别名。
+5. 添加你要允许其访问工作区的用户的电子邮件地址，然后选择“添加”  。 无法添加组别名，只能添加单个用户别名。
 
 6. 确定每个人员的身份是成员还是管理员。
    

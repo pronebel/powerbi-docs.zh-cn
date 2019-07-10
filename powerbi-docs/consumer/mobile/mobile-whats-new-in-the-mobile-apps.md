@@ -9,12 +9,12 @@ ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 04/08/2019
 ms.author: mshenhav
-ms.openlocfilehash: d491855a268c57d7958d52b7c1e9e9191c28601e
-ms.sourcegitcommit: 69a0e340b1bff5cbe42293eed5daaccfff16d40a
+ms.openlocfilehash: a6718ed8f582150ad8f13d638308700f9004a354
+ms.sourcegitcommit: 9278540467765043d5cb953bcdd093934c536d6d
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/13/2019
-ms.locfileid: "67038920"
+ms.lasthandoff: 07/03/2019
+ms.locfileid: "67558995"
 ---
 # <a name="whats-new-in-the-mobile-apps-for-power-bi"></a>Power BI 移动应用中的新功能
 有关相关的“新增功能”的信息，请参阅：
@@ -22,6 +22,15 @@ ms.locfileid: "67038920"
 * [适用于移动应用的 Power BI 工作组日志](https://powerbi.microsoft.com/blog/tag/mobile/)
 * [Power BI Desktop 中的新增功能](../../desktop-latest-update.md)  
 * [Power BI 服务中的最近更新](../../service-whats-new.md)  
+
+## <a name="june-2019"></a>2019 年 6 月
+
+### <a name="barcode-scanning-is-now-available-in-android"></a>现可在 Android 中使用条形码扫描功能
+现可使用 Android（手机和平板电脑）上的 Power BI 应用扫描印在产品或商店货架上的条形码，以显示按扫描值筛选的相关 Power BI 报表。 查看关于[使用条形码筛选数据](mobile-apps-scan-barcode-iphone.md)的详细信息。
+
+### <a name="supporting-pbix-reports-hosted-in-pbi-rs-over-adfs-configuration-ios-android"></a>支持通过 ADFS 配置托管在 PBI-RS 中的 PBIX 报表（iOS、Android）
+
+现还可在 Power BI 移动应用中访问通过 ADFS 配置托管在 PBI-RS 中的 Power BI 报表 (PBIX)。
 
 ## <a name="may-2019"></a>2019 年 5 月
 

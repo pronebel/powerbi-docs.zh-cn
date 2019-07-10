@@ -1,5 +1,5 @@
 ---
-title: 使用 Power BI Desktop 中的形状地图（预览版）
+title: 使用 Power BI Desktop 中的形状地图（预览）
 description: 使用 Power BI Desktop 中的形状地图创建区域的相对比较
 author: mihart
 manager: kvivek
@@ -7,20 +7,20 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 06/10/2019
+ms.date: 06/24/2019
 ms.author: mihart
 LocalizationGroup: Transform and shape data
-ms.openlocfilehash: 0789d7e77e3ae501cc2aec92c366c9c2608edd52
-ms.sourcegitcommit: 797bb40f691384cb1b23dd08c1634f672b4a82bb
+ms.openlocfilehash: 2e0fc8ae6a6d2b01121ffb1c52c29652af21f21e
+ms.sourcegitcommit: e67bacbfc5638ee97e3d2e0e7f5bd2d9aac78f9c
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/12/2019
-ms.locfileid: "66839290"
+ms.lasthandoff: 07/02/2019
+ms.locfileid: "67533023"
 ---
 # <a name="shape-maps-in-power-bi-desktop-preview"></a>Power BI Desktop 中的形状地图（预览版）
 创建  “形状地图”视觉对象以使用颜色比较地图上的区域 与  “地图”视觉对象不同，  “形状地图”无法在地图上显示数据点的精确地理位置。 相反，其主要目的是通过不同方式对地图上的区域着色来显示这些区域的相对比较。
 
- “形状地图”视觉对象基于 ESRI/TopoJSON 地图，它有一项极具吸引力的功能，即，使用你可以创建的自定义地图。 例如地理位置、座位安排、楼层平面图等等。 在预览版“形状地图”中无法使用自定义地图  。
+ “形状地图”视觉对象基于 ESRI/TopoJSON 地图，它有一项极具吸引力的功能，即，使用你可以创建的自定义地图。 自定义地图包括地理位置、座位安排和楼层平面图等等。 在预览版“形状地图”中无法使用自定义地图  。
 
 ## <a name="creating-shape-maps"></a>创建形状地图
 你可以使用与此预览版本一同发行的地图测试“形状地图”  控件，或者你可以使用自定义地图，只要它满足以下**使用自定义映射**章节中列出的要求。
@@ -108,11 +108,12 @@ https://www.justice.gov/usao/resources/annual-statistical-reports
 *  “形状地图”视觉对象最多可绘制 1,000 个数据点。
 
 ## <a name="region-keys"></a>区域键
-在此预览版中使用以下**区域键**来测试**形状地图**。
+
+在此预览版中使用下列区域键来测试形状地图   。
 
 ### <a name="australia-states"></a>澳大利亚：州
 
-| `id` | `abbr` | `iso` | `name` | `postal` |
+| ID | 缩写 | iso | 名称 | 邮政编码 |
 | --- | --- | --- | --- | --- |
 | au-wa |WA |AU-WA |西澳大利亚 |WA |
 | au-vic |Vic |AU-VIC |维多利亚州 |VIC |
@@ -125,7 +126,7 @@ https://www.justice.gov/usao/resources/annual-statistical-reports
 
 ### <a name="austria-states"></a>奥地利：州
 
-| `id` | `iso` | `name` | `name-en` | `postal` |
+| ID | iso | 名称 | 中文名称 | 邮政编码 |
 | --- | --- | --- | --- | --- |
 | at-wi |AT-9 |维也纳 |维也纳 |WI |
 | at-vo |AT-8 |福尔贝格州 |福尔贝格州 |VO |
@@ -139,7 +140,7 @@ https://www.justice.gov/usao/resources/annual-statistical-reports
 
 ### <a name="brazil-states"></a>巴西：州
 
-| `id` |
+| ID |
 | --- |
 | 托刊亭斯州 |
 | 伯南布哥 |
@@ -173,9 +174,9 @@ https://www.justice.gov/usao/resources/annual-statistical-reports
 | 争议区域 3 |
 | 争议区域 4 |
 
-### <a name="canada-provinces"></a>加拿大：省/地区
+### <a name="canada-provinces"></a>加拿大：省
 
-| `id` | `iso` | `name` | `postal` |
+| ID | iso | 名称 | 邮政编码 |
 | --- | --- | --- | --- |
 | ca-nu |CA-NU |努勒维特 |NU |
 | ca-nt |CA-NT |西北地区 |NT |
@@ -193,7 +194,7 @@ https://www.justice.gov/usao/resources/annual-statistical-reports
 
 ### <a name="france-regions"></a>法国：大区
 
-| `id` | `name` | `name-en` |
+| ID | 名称 | 中文名称 |
 | --- | --- | --- |
 | 阿尔萨斯 |阿尔萨斯 |阿尔萨斯 |
 | 罗纳-阿尔卑斯大区 |罗纳-阿尔卑斯大区 |罗纳-阿尔卑斯大区 |
@@ -220,7 +221,7 @@ https://www.justice.gov/usao/resources/annual-statistical-reports
 
 ### <a name="germany-states"></a>德国：州
 
-| `id` | `iso` | `name` | `name-en` | `postal` |
+| ID | iso | 名称 | 中文名称 | 邮政编码 |
 | --- | --- | --- | --- | --- |
 | de-be |DE-BE |柏林 |柏林 |BE |
 | de-th |DE-TH |图林根 |图林根 |TH |
@@ -241,7 +242,7 @@ https://www.justice.gov/usao/resources/annual-statistical-reports
 
 ### <a name="ireland-counties"></a>爱尔兰：郡
 
-| `id` |
+| ID |
 | --- |
 | 威克洛 |
 | 韦克斯福德 |
@@ -272,7 +273,7 @@ https://www.justice.gov/usao/resources/annual-statistical-reports
 
 ### <a name="italy-regions"></a>意大利：大区
 
-| `id` | `iso` | `name` | `name-en` | `postal` |
+| ID | iso | 名称 | 中文名称 | 邮政编码 |
 | --- | --- | --- | --- | --- |
 | it-vn |IT-34 |威尼托 |威尼托 |VN |
 | it-vd |IT-23 |瓦莱达奥斯塔 |瓦莱达奥斯塔 |VD |
@@ -297,7 +298,7 @@ https://www.justice.gov/usao/resources/annual-statistical-reports
 
 ### <a name="mexico-states"></a>墨西哥：州
 
-| `id` | `abreviatura` | `iso` | `name` | `name-en` | `postal` |
+| ID | 缩写 | iso | 名称 | 中文名称 | 邮政编码 |
 | --- | --- | --- | --- | --- | --- |
 | mx-zac |Zac. |MX-ZAC |萨卡特卡斯 |萨卡特卡斯 |ZA |
 | mx-yuc |Yuc. |MX-YUC |尤卡坦 |尤卡坦 |YU |
@@ -334,7 +335,7 @@ https://www.justice.gov/usao/resources/annual-statistical-reports
 
 ### <a name="netherlands-provinces"></a>荷兰：省
 
-| `id` | `iso` | `name` | `name-en` |
+| ID | iso | 名称 | 中文名称 |
 | --- | --- | --- | --- |
 | nl-zh |NL-ZH |南荷兰 |南荷兰 |
 | nl-ze |NL-ZE |泽兰 |泽兰 |
@@ -351,7 +352,7 @@ https://www.justice.gov/usao/resources/annual-statistical-reports
 
 ### <a name="uk-countries"></a>英国：个国家/地区
 
-| `id` | `iso` | `name` |
+| ID | iso | 名称 |
 | --- | --- | --- |
 | gb-wls |GB-WLS |威尔士 |
 | gb-sct |GB-SCT |苏格兰 |
@@ -360,7 +361,7 @@ https://www.justice.gov/usao/resources/annual-statistical-reports
 
 ### <a name="usa-states"></a>美国：州
 
-| `id` | `name` | `postal` |
+| ID | 名称 | 邮政编码 |
 | --- | --- | --- |
 | us-mi |密歇根 |MI |
 | us-ak |阿拉斯加 |AK |
@@ -415,6 +416,7 @@ https://www.justice.gov/usao/resources/annual-statistical-reports
 | us-wa |华盛顿 |WA |
 
 ## <a name="next-steps"></a>后续步骤
-[Power BI 中的矩阵视觉对象](desktop-matrix-visual.md)
 
-[Power BI 中的可视化效果类型](power-bi-visualization-types-for-reports-and-q-and-a.md)
+* [Power BI 中的矩阵视觉对象](desktop-matrix-visual.md)
+
+* [Power BI 中的可视化效果类型](power-bi-visualization-types-for-reports-and-q-and-a.md)

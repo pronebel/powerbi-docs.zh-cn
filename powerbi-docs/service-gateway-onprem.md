@@ -10,12 +10,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 LocalizationGroup: Gateways
 ms.date: 06/05/2018
-ms.openlocfilehash: f477cbd5f2d767333c16a43308b4793527665806
-ms.sourcegitcommit: a36f82224e68fdd3489944c9c3c03a93e4068cc5
+ms.openlocfilehash: 7e2e0e7a980c72f203f93baf552685dce6f43bbd
+ms.sourcegitcommit: 8dee40f07d284ec84a8afa0100359f146e1dd88b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/31/2019
-ms.locfileid: "55430777"
+ms.lasthandoff: 06/27/2019
+ms.locfileid: "67418811"
 ---
 # <a name="on-premises-data-gateway"></a>本地数据网关
 
@@ -47,7 +47,7 @@ ms.locfileid: "55430777"
 
 ## <a name="download-and-install-the-on-premises-data-gateway"></a>下载并安装本地数据网关
 
-若要下载网关，请选择“下载”菜单下的“数据网关”。 下载[本地数据网关](http://go.microsoft.com/fwlink/?LinkID=820925)。
+若要下载网关，请选择“下载”菜单下的“数据网关”  。 下载[本地数据网关](http://go.microsoft.com/fwlink/?LinkID=820925)。
 
 请注意：通过重新安装网关来更新本地数据网关，如本部分中所述。 只要安装较新版本的网关，就会保留现有设置。 如果安装同一版本，则它会将其视为完全重新安装，且不会保留你的设置。
 
@@ -79,7 +79,7 @@ ms.locfileid: "55430777"
 
 ## <a name="storing-encrypted-credentials-in-the-cloud"></a>在云中存储加密凭据
 
-将数据源添加到网关时，需要为该数据源提供凭据。 将使用这些凭据运行对数据源的所有查询。 云中存储凭据之前，使用非对称加密安全地加密凭据，以阻止在云中对其进行解密。 将凭据发送到运行网关的计算机，以便在访问数据源时对其进行本机解密。
+将数据源添加到网关时，需要为该数据源提供凭据。 将使用这些凭据运行对数据源的所有查询。 在云中存储凭据之前，使用对称加密安全地加密凭据，使其在云中无法被解密。 将凭据发送到运行网关的计算机，以便在访问数据源时对其进行本机解密。
 
 <!-- Account and Port information -->
 [!INCLUDE [gateway-onprem-accounts-ports-more](./includes/gateway-onprem-accounts-ports-more.md)]

@@ -11,12 +11,12 @@ ms.date: 04/18/2018
 ms.author: mblythe
 ms.custom: seodec18
 LocalizationGroup: Gateways
-ms.openlocfilehash: 5d9e468ecf3bf1fdc2e138ac06202820bbd96bcf
-ms.sourcegitcommit: 57a12aa42c8549debc60ff1c8e78533dc42e1b86
-ms.translationtype: MT
+ms.openlocfilehash: 8acc0e403c983de79657cd01a7aa7f458bfb01ad
+ms.sourcegitcommit: 9278540467765043d5cb953bcdd093934c536d6d
+ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2019
-ms.locfileid: "66469794"
+ms.lasthandoff: 07/03/2019
+ms.locfileid: "67559062"
 ---
 # <a name="manage-a-power-bi-on-premises-gateway"></a>管理 Power BI 本地网关
 
@@ -31,6 +31,8 @@ ms.locfileid: "66469794"
 
 Power BI 支持多个本地数据源，每个都具有自己的要求。 网关可用于一个数据源，也可用于多个数据源。 对于此示例，我们将向你演示如何添加 SQL Server 作为数据源，但步骤与其他数据源的步骤类似。
 
+> [!NOTE]
+> 网关管理员现可创建多个连接到同一源的数据源（每个数据源使用不同的凭据），并根据用户的访问级别向每个数据源添加用户。
 
 ### <a name="add-a-data-source"></a>添加数据源
 
@@ -53,7 +55,12 @@ Power BI 支持多个本地数据源，每个都具有自己的要求。 网关�
 
 1. 对于 SQL Server，你可以选择 Windows 或“基本”的“身份验证方法”    （SQL 身份验证）。  如果选择“基本”  ，则输入数据源的凭据。
 
-1. 在“高级设置”下，可以选择配置数据源的  [“隐私级别”](https://support.office.com/article/Privacy-levels-Power-Query-CC3EDE4D-359E-4B28-BC72-9BEE7900B540)（不适用于 [DirectQuery](desktop-directquery-about.md)）。
+1. 如果此数据源当前不可用或速度较慢，请选择“跳过测试连接”  。 否则，数据源创建可能会失败。
+
+    > [!NOTE]
+    > Analysis Services 不支持跳过测试连接。
+
+1. 在“高级设置”下，可以选择配置数据源的[隐私级别](https://support.office.com/article/Privacy-levels-Power-Query-CC3EDE4D-359E-4B28-BC72-9BEE7900B540)（不适用于 [DirectQuery](desktop-directquery-about.md)）  。
 
     ![高级设置](media/service-gateway-manage/advanced-settings.png)
 
@@ -74,7 +81,7 @@ Power BI 支持多个本地数据源，每个都具有自己的要求。 网关�
 
 ## <a name="manage-users-and-administrators"></a>管理角色和管理员
 
-将数据源添加到网关后，将为用户和安全组提供对特定数据源（不是整个网关）的访问权限。 数据源用户列表仅控制有权发布包含来自数据源的数据的报表的用户。 报表所有者可以创建仪表板、内容包和应用，然后与其他用户共享它们。
+将数据源添加到网关后，将为用户和启用电子邮件的安全组提供对特定数据源（不是整个网关）的访问权限。 数据源用户列表仅控制有权发布包含来自数据源的数据的报表的用户。 报表所有者可以创建仪表板、内容包和应用，然后与其他用户共享它们。
 
 还可以为用户和安全组提供对网关的管理访问权限。
 
@@ -98,14 +105,14 @@ Power BI 支持多个本地数据源，每个都具有自己的要求。 网关�
 
 ### <a name="remove-users-from-a-data-source"></a>从数据源中删除用户
 
-在数据源的“用户”  选项卡上，可以删除使用此数据源的用户和安全组。
+在数据源的“用户”选项卡上，可删除使用此数据源的用户和启用电子邮件的安全组  。
 
 ![删除用户](media/service-gateway-manage/remove-user.png)
 
 
 ### <a name="add-and-remove-administrators"></a>添加和删除管理员
 
-在网关的“管理员”  选项卡上，可以添加和删除能够管理网关的用户（或安全组）。
+在网关的“管理员”选项卡上，可添加和删除能够管理网关的用户（或启用电子邮件的安全组）  。
 
 ![“管理员”选项卡](media/service-gateway-manage/administrators-tab.png)
 

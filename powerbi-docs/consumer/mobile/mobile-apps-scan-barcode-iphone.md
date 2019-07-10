@@ -1,5 +1,5 @@
 ---
-title: 使用 iPhone 上的 Power BI 移动应用扫描条形码
+title: 从 Power BI 移动应用中扫描条形码
 description: 扫描现实生活中的条形码，直接转到在 Power BI 移动应用中筛选后的 BI 信息。
 author: mshenhav
 manager: kfile
@@ -9,21 +9,28 @@ ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 10/13/2017
 ms.author: mshenhav
-ms.openlocfilehash: 3fd2d4888f76490a01c0742e68e6820c7055326e
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 432b65f8d7f461ac1942cf8996f9cc67e756fc7f
+ms.sourcegitcommit: 9278540467765043d5cb953bcdd093934c536d6d
+ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61137190"
+ms.lasthandoff: 07/03/2019
+ms.locfileid: "67559003"
 ---
-# <a name="scan-a-barcode-with-your-iphone-from-the-power-bi-mobile-app"></a>使用 iPhone 上的 Power BI 移动应用扫描条形码
+# <a name="scan-a-barcode-with-your-device-from-the-power-bi-mobile-app"></a>使用设备上的 Power BI 移动应用扫描条形码
 扫描现实生活中的条形码，直接转到在 Power BI 移动应用中筛选后的 BI 信息。
 
-![](media/mobile-apps-scan-barcode-iphone/power-bi-barcode-scanner.png)
+
+适用于：
+
+| ![iPhone](./media/mobile-apps-quickstart-view-dashboard-report/iphone-logo-30-px.png) | ![Android](./media/mobile-apps-quickstart-view-dashboard-report/android-logo-30-px.png) | 
+|:--- |:--- |
+| iPhone | Android（手机、平板电脑） | 
 
 假设有一个同事已[标记 Power BI Desktop 报表中的条形码字段](../../desktop-mobile-barcodes.md)并与你共享该报表。 
 
-当你使用 iPhone 上的 Power BI 应用中的扫描器扫描产品条形码时，可以看到具有该条形码的报表（或报表列表）。 你可以在 iPhone 上打开筛选为该条形码的报表。
+![](media/mobile-apps-scan-barcode-iphone/power-bi-barcode-scanner.png)
+
+使用设备上 Power BI 应用中的扫描器扫描产品条形码时，可看到具有该条形码的报表（或报表列表）。 可打开筛选显示此条形码的报表。
 
 ## <a name="scan-a-barcode-with-the-power-bi-scanner"></a>使用 Power BI 扫描器扫描条形码
 1. 在 Power BI 移动应用中打开左上方的主导航菜单 ![](media/mobile-apps-scan-barcode-iphone/pbi_iph_navmenu.png)。 
@@ -34,10 +41,10 @@ ms.locfileid: "61137190"
 4. 将扫描器指向产品上的条形码。 
    
     你将看到与该条形码相关联的报表列表。
-5. 点击报表名称以在你的 iPhone 上打开自动为该条形码筛选的报表。
+5. 点击报表名称在设备上将其打开，自动筛选显示出该条形码。
 
 ## <a name="filter-by-other-barcodes-while-in-a-report"></a>在报表中由其他条形码筛选
-在 iPhone 上查看通过条形码筛选的报表时，你可能希望通过不同条形码筛选同一个报表。
+在设备上查看通过条形码筛选的报表时，你可能希望通过不同条形码筛选同一个报表。
 
 * 如果条形码图标有筛选器 ![](media/mobile-apps-scan-barcode-iphone/power-bi-barcode-filtered-icon-black.png)，筛选器将处于活动状态并且报表已通过条形码筛选。 
 * 如果条码图标没有筛选器 ![](media/mobile-apps-scan-barcode-iphone/power-bi-barcode-unfiltered-icon.png)，筛选器将不会处于活动状态并且报表未通过条形码筛选。 

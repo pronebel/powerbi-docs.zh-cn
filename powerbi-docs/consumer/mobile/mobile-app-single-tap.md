@@ -1,6 +1,6 @@
 ---
-title: 配置到单一 tap 的报表交互
-description: 了解如何配置到单引号或双引号 tap 的报表交互。
+title: 将报表交互配置为单击
+description: 了解如何将报表交互配置为单击或双击。
 author: mshenhav
 manager: kfile
 ms.reviewer: ''
@@ -9,14 +9,14 @@ ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 04/08/2019
 ms.author: mshenhav
-ms.openlocfilehash: c7f5476ed9d47cc42f275d51801a44c4ee3482ca
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: c553b921ebeb30b8fb8ec7ba9f7bce74f6c31dee
+ms.sourcegitcommit: 9278540467765043d5cb953bcdd093934c536d6d
+ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61340568"
+ms.lasthandoff: 07/03/2019
+ms.locfileid: "67558963"
 ---
-# <a name="configure-report-interaction-to-single-tap-or-double-tap-preview"></a>配置为通过单击或双击 （预览版） 的报表交互
+# <a name="configure-report-interaction-to-single-tap-or-double-tap"></a>将报表交互配置为单击或双击
 适用于：
 
 | ![iPhone](././media/mobile-reports-in-the-mobile-apps/ios-logo-40-px.png) | ![Android 手机](././media/mobile-reports-in-the-mobile-apps/android-logo-40-px.png) | 
@@ -25,24 +25,24 @@ ms.locfileid: "61340568"
 
 Power BI 报表是交互式数据视图，使用视觉对象来表示不同的数据发现和见解。
 
-你可以配置如何与你的数据进行交互。 您可以决定你想要具有单个重击交互或双点击交互。
+可配置与数据交互的方式。 可决定是要进行单击交互还是双击交互。
 
-* 双击交互使用在第一个视觉对象上的点击选择它，并仅视觉对象中的第二个分流执行操作本身，例如切片器项选择、 交叉突出显示或单击链接、 按钮，依次类推。
+* 通过双击交互，第一次点击视觉对象会将其选中，只有在视觉对象中再点击一次才会执行动作本身，例如切片器项选择、交叉突出显示或单击链接、按钮等。
 
-* 通过单击交互点击一次可同时做到这-选择视觉对象，并执行操作。
-![Power BI 移动单个点击](./media/mobile-app-single-tap/single-tap-2.gif)
+* 通过单击交互，点击一下即可同时选择视觉对象并执行操作。
+![Power BI 移动版单击](./media/mobile-app-single-tap/single-tap-2.gif)
 
 
-从适用于 Android 的 Power BI 应用程序版本 18.0 适用于 iOS 和 112540，所有新安装将配置单个点击为默认行为。
-若要切换到点击一下则将提供已有 Power BI 手机上安装并将升级到这些新版本的用户。
+自 iOS 版 Power BI 应用 18.0 和 Android 版本 112540 起，所有新安装的配置都将单击作为默认行为。
+用户如果已在手机上安装 Power BI 且将升级到这些新版本，则可切换到单击模式。
 
 ## <a name="change-interaction-behavior"></a>更改交互行为
 
-若要更改的交互行为，可以转到应用设置，并开启/关闭单个重击交互。
+要更改交互行为，可转到应用设置，然后打开/关闭单击交互。
 
 ![Power BI 移动版更改报表交互](./media/mobile-app-single-tap/configure-single-tap.png)
 
-本文适用同时横向和手机报表。
+本文同时适用于横向显示的报表和手机报表。
 
 ## <a name="next-steps"></a>后续步骤
 * [查看手机优化版 Power BI 报表并与之交互](mobile-apps-view-phone-report.md)

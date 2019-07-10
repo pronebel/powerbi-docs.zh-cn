@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 06/07/2018
-ms.openlocfilehash: ae56a27393ba476828ff87d7f458815318ea79c1
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 9673217cfd7c5af70bdd293e8d5df51e5e7dee07
+ms.sourcegitcommit: 9278540467765043d5cb953bcdd093934c536d6d
+ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "64770367"
+ms.lasthandoff: 07/03/2019
+ms.locfileid: "67559070"
 ---
 # <a name="using-oauth-to-connect-to-power-bi-report-server-and-ssrs"></a>使用 OAuth 连接到 Power BI 报表服务器和 SSRS
 
@@ -25,7 +25,7 @@ ms.locfileid: "64770367"
 可使用 OAuth 连接到 Power BI 报表服务器和 Reporting Services，以显示移动报表或 KPI。 Windows Server 2016 向 Web 应用程序代理 (WAP) 角色提供了一些改进，以允许此种类型的身份验证。
 
    > [!NOTE]
-   > 查看 Power BI 报表服务器中托管的 Power BI 报表使用 WAP 进行身份验证目前支持仅在 iOS 应用程序中。 在此时间不正式支持的 android 应用程序。
+   > iOS 和 Android 应用现支持查看在使用 WAP 进行身份验证的 Power BI 报表服务器中托管的 Power BI 报表。
 
 ## <a name="requirements"></a>要求
 
@@ -63,7 +63,7 @@ SPN 是使用 Kerberos 身份验证的服务的唯一标识符。 需要确保�
 
 ### <a name="enabling-negotiate-authentication"></a>启用协商身份验证
 
-若要使报表服务器可以使用 Kerberos 身份验证，需要将报表服务器的身份验证类型配置为 RSWindowsNegotiate。 此操作在 rsreportserver.config 文件中完成。
+若要使报表服务器可以使用 Kerberos 身份验证，需要将报表服务器的身份验证类型配置为 RSWindowsNegotiate。 可在 rsreportserver.config 文件中执行此操作。
 
 ```xml
 <AuthenticationTypes>  
@@ -113,12 +113,12 @@ SPN 是使用 Kerberos 身份验证的服务的唯一标识符。 需要确保�
    ![ADFS 应用程序组向导 02](media/mobile-oauth-ssrs/adfs-application-group-wizard2.png)
 7. 选择**下一步**。
 
-8. 提供报表服务器的 URL。 这是将命中 Web 应用程序代理的外部 URL。 格式应如下所示。
+8. 提供报表服务器的 URL。 该 URL 是将命中 Web 应用程序代理的外部 URL。 格式应如下所示。
 
    > [!NOTE]
    > 此 URL 区分大小写！
 
-   *https://< 报表服务器 url > / 报告*
+   *https://< report server url >/reports*
 
    ![ADFS 应用程序组向导 03](media/mobile-oauth-ssrs/adfs-application-group-wizard3.png)
 9. 选择**下一步**。
@@ -239,7 +239,7 @@ Set-WebApplicationProxyApplication -id 30198C7F-DDE4-0D82-E654-D369A47B1EE5 -Bac
 
 ## <a name="troubleshooting"></a>故障排除
 
-### <a name="you-receive-the-error-failed-to-login-to-ssrs-server-please-verify-server-configuration"></a>收到错误消息“无法登录 SSRS 服务器。 请验证服务器配置。
+### <a name="you-receive-the-error-failed-to-login-to-ssrs-server-verify-server-configuration"></a>收到错误消息“无法登录 SSRS 服务器。 请验证服务器配置。
 
 ![](media/mobile-oauth-ssrs/powerbi-mobile-error.png)
 
