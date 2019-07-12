@@ -24,7 +24,7 @@ ms.locfileid: "66839432"
 
 从 Microsoft 下载中心[下载 Power BI 报表服务器](https://www.microsoft.com/download/details.aspx?id=56722)。
 
-还有免费试用版。 在“使用 Power BI 报表服务器进行本地报告”页，选择“下载免费试用版”[](https://powerbi.microsoft.com/report-server/)  。
+还有免费试用版。 在 [使用 Power BI 报表服务器进行本地报告](https://powerbi.microsoft.com/report-server/) 页，选择“下载免费试用版”  。
 
 ## <a name="before-you-install"></a>安装之前
 
