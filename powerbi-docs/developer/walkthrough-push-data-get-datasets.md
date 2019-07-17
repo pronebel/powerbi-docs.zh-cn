@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 02/05/2019
-ms.openlocfilehash: c0a70339e8336f3e7b93b40ad8a99dcb87715812
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: f7dc84c9c6c84a30417d97f37d984b5f01ec9cd7
+ms.sourcegitcommit: 3e72c6d564d930304886d51cdf12b8fc166aa33c
+ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "65710254"
+ms.lasthandoff: 07/05/2019
+ms.locfileid: "67596460"
 ---
 # <a name="step-4-get-a-dataset-to-add-rows-into-a-power-bi-table"></a>步骤 4：获取数据集以将行添加到 Power BI 表
 
@@ -22,7 +22,7 @@ ms.locfileid: "65710254"
 
 在将数据推送到数据集的**步骤 3**（[在 Power BI 中创建数据集](walkthrough-push-data-create-dataset.md)）中，你调用了[创建数据集](https://docs.microsoft.com/rest/api/power-bi/datasets)操作以在 Power BI 中创建数据集。 在此步骤中，你将使用[获取数据集](https://docs.microsoft.com/rest/api/power-bi/datasets/getdatasets)操作和 Newtonsoft.Json 来获取数据集 ID。在步骤 4 中使用数据集 ID 向数据集添加行。 
 
-要将数据推送到 Power BI 数据集，需要引用数据集中的表。 要引用数据集中的表，首先需要获取**数据集 ID**。 使用“按 ID 获取数据集”[操作获取数据集 ID](https://docs.microsoft.com/rest/api/power-bi/datasets/getdatasetbyid)  。 “按 ID 获取数据集”操作将返回一个 JSON 字符串，它包含 Power BI 中所有数据集的列表  。 对 JSON 字符串进行反序列化的推荐的方法是使用 [Newtonsoft.Json](http://www.newtonsoft.com/json)。
+要将数据推送到 Power BI 数据集，需要引用数据集中的表。 要引用数据集中的表，首先需要获取**数据集 ID**。 使用[获取数据集](/rest/api/power-bi/datasets/getdatasets)操作获取数据集 ID  。 “获取数据集”  操作将返回一个 JSON 字符串，它包含 Power BI 中所有数据集的列表。 对 JSON 字符串进行反序列化的推荐的方法是使用 [Newtonsoft.Json](http://www.newtonsoft.com/json)。
 
 下面介绍如何获取数据集。
 

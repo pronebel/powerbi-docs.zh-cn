@@ -8,15 +8,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
-ms.date: 05/20/2019
+ms.date: 06/27/2019
 ms.custom: seodec18
 LocalizationGroup: Administration
-ms.openlocfilehash: 992524d3467ebe9bb130b3c61476301ab2bc563c
-ms.sourcegitcommit: 58c649ec5fd2447a0f9ca4c4d45a0e9fff2f1b6a
+ms.openlocfilehash: a871a7475dd8282f9ce63646c371182548504357
+ms.sourcegitcommit: b439ded53bfbbb58be27ecedf93d618f5158df33
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/27/2019
-ms.locfileid: "67409173"
+ms.lasthandoff: 07/04/2019
+ms.locfileid: "67568092"
 ---
 # <a name="administering-power-bi-in-the-admin-portal"></a>在管理门户中管理 Power BI
 
@@ -50,7 +50,7 @@ Office 365 中的全局管理员或分配有 Power BI 服务管理员角色的�
 
 ## <a name="usage-metrics"></a>使用情况指标
 
-通过“使用情况指标”  ，你可以监视组织的使用情况。 通过它还可以查看对于组织，哪些用户和组在 Power BI 中最活跃。
+通过“使用情况指标”  ，你可以监视组织的使用情况。 通过它还可以查看对于组织，哪些用户和组在 Power BI 中最活跃。 
 
 > [!NOTE]
 > 首次访问仪表板时，或在长时间未查看仪表板后再次进行访问之后，你可能会在我们加载仪表板时看到加载屏幕。
@@ -82,6 +82,40 @@ Office 365 中的全局管理员或分配有 Power BI 服务管理员角色的�
 第二个部分显示相同类型的信息，不过是基于组。 这样，就可以查看组织中最活跃的组以及它们所使用的内容种类。
 
 借助此信息，你可以真正地深入了解用户在组织中如何使用 Power BI，并能够识别在组织中非常活跃的用户和组。
+
+## <a name="control-usage-metrics"></a>控制使用指标
+
+使用情况指标报表是 Power BI 或 Office 365 管理员可以启用或禁用的一项功能。 管理员可以对哪些用户有权访问使用指标进行精细控制。 对于组织中的所有用户，默认情况下处于“打开”  状态。
+
+管理员还可以确定内容创建者是否可以查看使用指标中的每个用户数据。 
+
+有关报表本身的详细信息，请参阅[监视 Power BI 仪表板和报表的使用指标](service-usage-metrics.md)。
+
+### <a name="usage-metrics-for-content-creators"></a>内容创建者的使用指标
+
+1. 在“管理门户”中，选择“租户设置”   > “内容创建者的使用指标”  。
+
+    ![管理门户租户设置使用指标](media/service-admin-portal/power-bi-admin-usage-metrics.png)
+
+1. 启用（或禁用）使用指标 >“应用”  。
+
+    ![已启用使用情况指标](media/service-usage-metrics/power-bi-tenant-settings-updated.png)
+
+
+### <a name="per-user-data-in-usage-metrics"></a>使用指标中的每个用户数据
+
+默认情况下，每个用户的数据都启用了使用指标并在指标报表中包含内容使用者帐户信息。 如果不希望某些或所有用户包含此信息，请为特定安全组或整个组织禁用此功能。 帐户信息随后会在报表中显示为“未命名”  。
+
+![每个用户使用数据](media/service-admin-portal/power-bi-admin-per-user-usage-data.png)
+
+### <a name="delete-all-existing-usage-metrics-content"></a>删除所有现有的使用指标内容
+
+当禁用整个组织的使用指标时，管理员还可以选择以下一个或两个选项：
+
+- **删除所有现有的使用指标内容**，可删除通过使用指标报表和数据集构建的所有现有报表和仪表板磁贴。 此选项可以删除组织中可能已在使用的所有用户对使用指标数据的所有访问内容。 
+- **删除当前使用指标内容中的所有现有每个用户数据** 此选项可以删除组织中可能已在使用的所有用户对使用指标数据的所有访问内容。 
+
+请谨慎操作，因为删除现有的使用指标内容和每个用户指标内容是不可逆转的操作。
 
 ## <a name="users"></a>用户数
 

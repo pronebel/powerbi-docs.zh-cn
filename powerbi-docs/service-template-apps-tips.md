@@ -9,12 +9,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 06/26/2019
 ms.author: tebercov
-ms.openlocfilehash: 59d581697091df68df827ec699c8999a6993daef
-ms.sourcegitcommit: 58c649ec5fd2447a0f9ca4c4d45a0e9fff2f1b6a
+ms.openlocfilehash: 5e34601c3ebacb3cfd8a4a5ddeb282756d0f700b
+ms.sourcegitcommit: 1789815c87e306b1427a5838655d30d3b9ba1d29
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/27/2019
-ms.locfileid: "67408355"
+ms.lasthandoff: 07/11/2019
+ms.locfileid: "67791809"
 ---
 # <a name="tips-for-authoring-template-apps-in-power-bi"></a>在 Power BI 中创作模板应用的提示
 
@@ -126,6 +126,7 @@ Power BI Desktop 中的[参数](https://powerbi.microsoft.com/blog/deep-dive-int
 
 * 确保你创建的模板应用包含有吸引力的示例数据，有助于安装人员了解应用的用途（空的报表和仪表板不会获准）。
 模板应用支持仅包含示例数据的应用，请务必选中静态应用复选框。 [了解详细信息](https://docs.microsoft.com/power-bi/service-template-apps-create#create-the-test-template-app)
+* 一般情况下，只有具有有价值功能的应用程序可以在 AppSource 上获得常用批准。 只包含示例数据内容的应用程序必须具有指导或统计价值。
 * 制定可供验证团队遵循的说明，其中包括连接到数据所需的凭据和参数。
 * 应用必须在 Power BI 中和 CPP 产品/服务上添加“应用”图标。 [了解详细信息](https://docs.microsoft.com/power-bi/service-template-apps-create#create-the-test-template-app)
 * 已配置登陆页面。 [了解详细信息](https://docs.microsoft.com/power-bi/service-template-apps-create#create-the-test-template-app)

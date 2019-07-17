@@ -7,15 +7,15 @@ ms.reviewer: amac
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 06/20/2019
+ms.date: 07/05/2019
 ms.author: maggies
 LocalizationGroup: Samples
-ms.openlocfilehash: af20d5842664311a0d543ee189ef671f7865058b
-ms.sourcegitcommit: 8dee40f07d284ec84a8afa0100359f146e1dd88b
+ms.openlocfilehash: 333403ca74c5c5a13c94cbd41100915c7260e304
+ms.sourcegitcommit: 1789815c87e306b1427a5838655d30d3b9ba1d29
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/27/2019
-ms.locfileid: "67418766"
+ms.lasthandoff: 07/11/2019
+ms.locfileid: "67792006"
 ---
 # <a name="customer-profitability-sample-for-power-bi-take-a-tour"></a>Power BI 的客户盈利率示例：参观
 
@@ -23,27 +23,31 @@ ms.locfileid: "67418766"
 
 ![“客户盈利率示例”仪表板](media/sample-customer-profitability/power-bi-dash.png)
 
-此示例是一系列教程的一部分，它展示了如何将 Power BI 与面向业务的数据、报表及仪表板搭配使用。 它是使用来自 [obviEnce](http://www.obvience.com/) 的真实数据创建的，这些数据已经过匿名处理。 数据可采用以下几种格式：内容包/应用、.pbix Power BI Desktop 文件或 Excel 工作簿。 请参阅 [Power BI 示例](sample-datasets.md)。 
+此示例是一系列教程的一部分，它展示了如何将 Power BI 与面向业务的数据、报表及仪表板搭配使用。 它是使用 [obviEnce](http://www.obvience.com/) 提供的真实数据（已经过匿名处理）进行创建。 数据可采用以下几种格式：内容包、.pbix Power BI Desktop 文件或 Excel 工作簿。 请参阅[用于 Power BI 的示例](sample-datasets.md)。 
 
-本教程使用 Power BI 服务和“客户盈利率示例”内容包。 因为报表体验非常相似，所以也可以使用 Power BI Desktop 和示例 .pbix 文件按步骤操作。 
+本教程探讨了 Power BI 服务中的“客户盈利率示例”内容包。 由于报表体验在 Power BI Desktop 和服务中非常相似，因此也可以使用 Power BI Desktop 中的示例 .pbix 文件跟着本教程一起操作。 
 
-## <a name="prerequisites"></a>先决条件
+不需要 Power BI 许可证即可在 Power BI Desktop 中查看示例。 如果没有 Power BI Pro 许可证，可以将该示例保存到 Power BI 服务中的“我的工作区”。 
+
+## <a name="get-the-sample"></a>获取示例
 
 必须先将示例下载为[内容包](#get-the-content-pack-for-this-sample)、[.pbix 文件](#get-the-pbix-file-for-this-sample)或 [Excel 工作簿](#get-the-excel-workbook-for-this-sample)，然后才能使用它。
 
 ### <a name="get-the-content-pack-for-this-sample"></a>获取内容包形式的此示例
 
-1. 打开 Power BI 服务 (app.powerbi.com)，登录并打开要保存该示例的工作区。
+1. 打开并登录 Power BI 服务 (app.powerbi.com)，然后打开要在其中保存此示例的工作区。
 
-2. 在左下角，选择“获取数据”  。
+   如果没有 Power BI Pro 许可证，可以将该示例保存到“我的工作区”。
+
+2. 选择左下角的“获取数据”  。
 
    ![选择“获取数据”](media/sample-datasets/power-bi-get-data.png)
-3. 在显示的“获取数据”页上，选择“示例”   。
+3. 在随即显示的“获取数据”  页上，选择“示例”  。
 
 4. 依次选择“客户盈利率示例”和“连接”   。  
 
     ![连接到示例](media/sample-customer-profitability/get-supplier-sample.png)
-5. Power BI 导入内容包，然后向当前工作区添加新的仪表板、报表和数据集。
+5. 此时，Power BI 导入内容包，然后向当前工作区添加新的仪表板、报表和数据集。
 
     ![客户盈利率示例条目](media/sample-customer-profitability/customer-profitability-sample-entry.png)
 
@@ -53,7 +57,7 @@ ms.locfileid: "67418766"
 
 ### <a name="get-the-excel-workbook-for-this-sample"></a>获取 Excel 工作簿形式的此示例
 
-如果要查看此示例的数据源，还可以获取它的 [Excel 工作簿](http://go.microsoft.com/fwlink/?LinkId=529781)形式。 该工作簿包含你可以查看和修改的 Power View 工作表。 若要查看原始数据，请启用数据分析加载项，然后选择“Power Pivot”>“管理”  。 若要启用 Power View 和 Power Pivot 加载项，请参阅[从 Excel 内查看 Excel 示例](sample-datasets.md#optional-take-a-look-at-the-excel-samples-from-inside-excel-itself)以了解详细信息。
+若要查看此示例的数据源，还可以将它下载为 [Excel 工作簿](http://go.microsoft.com/fwlink/?LinkId=529781)。 该工作簿包含你可以查看和修改的 Power View 工作表。 若要查看原始数据，请启用“数据分析”加载项，再依次选择“Power Pivot”>“管理”  。 若要启用 Power View 和 Power Pivot 加载项，请参阅[从 Excel 本身内查看 Excel 示例](sample-datasets.md#optional-take-a-look-at-the-excel-samples-from-inside-excel-itself)，以了解详细信息。
 
 ## <a name="what-is-our-dashboard-telling-us"></a>仪表板告诉我们什么？
 
@@ -135,8 +139,8 @@ ms.locfileid: "67418766"
 1. 在左侧的“管理人员”框中，选择 Andrew 的名字，将报表页面筛选为仅显示 Andrew 的相关数据  ：
 
    * 为快速了解 KPI，可查看 Andrew 的“收入状态(全年)”；该项显示为绿色，表明他的表现还不错  。
-   * “收入与预算差额百分比(按月和管理人员)”图显示，除 2 月份有所下降以外，Andrew 的整体绩效都非常不错  。 他的主要区域是东部并负责 49 个客户和 5 款产品（共 7 款）。 他的 GM% 既不是最高的，也不是最低的。
-   * “全年总收入和按月划分的收入与预算差额百分比”图显示了一种稳定的盈亏平衡情况  。 但当通过选择区域树状图中的“中部”方块进行筛选时，你会发现 Andrew 仅在 3 月份才有收入，并且仅限于印第安纳州  。 这是有意为之还是别有隐情？
+   * “收入与预算差额百分比(按月和管理人员)”  图显示，除 2 月份有所下降以外，Andrew 的绩效非常不错。 他的主要区域是东部并负责 49 个客户和 5 款产品（共 7 款）。 他的 GM% 既不是最高的，也不是最低的。
+   * “全年总收入和按月划分的收入与预算差额百分比”图显示了一种稳定的盈亏平衡情况  。 但当通过选择区域树状图中的“中部”方块进行筛选时，你会发现 Andrew 仅在 3 月份才有收入，并且仅限于印第安纳州  。 这种趋势是有意为之还是别有隐情？
 
 2. 现在转向 Valery。 在“管理人员”切片器中，选择 Valery 的名字，将报表页面筛选为仅显示她的相关数据  。 
 
@@ -202,8 +206,8 @@ ms.locfileid: "67418766"
 
     我们可以采用相似的方式分析其他行业，甚至将客户加入到我们的视觉对象分析当中，以了解 Valery 的表现的原因。
 
-## <a name="next-steps-connect-to-your-data"></a>后续步骤：连接到数据
-可在此环境中安全操作，因为你可选择不保存所作更改。 但是，如果保存更改，则可以始终选择“获取数据”来获取本示例的新副本  。
+## <a name="next-steps-connect-to-your-data"></a>后续步骤：连接到你的数据
+可以在此环境中安全操作，因为能够选择不保存更改。 不过，如果确实保存了更改，可随时选择“获取数据”  来获取此示例的新副本。
 
-本教程介绍了 Power BI 仪表板、问答和报表如何能够帮助深入了解客户数据。 现在轮到你了；连接到你自己的数据。 借助 Power BI，你可以连接到各种数据源。 要了解详细信息，请参阅 [Power BI 服务入门](service-get-started.md)。
+我们希望本教程已经演示 Power BI 仪表板、问答和报表如何能够帮助深入了解示例数据。 现在轮到你了；立即连接到你自己的数据。 借助 Power BI，可以连接到各种数据源。 若要了解详细信息，请参阅 [Power BI 服务入门](service-get-started.md)。
 

@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 04/02/2019
 ms.author: mblythe
 LocalizationGroup: Data from files
-ms.openlocfilehash: 1bc9e0d5de909c5d0859b6d31185cf0cb27bda23
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 7e9d8779480eb7a00dacfc9fc52fc81987629e7b
+ms.sourcegitcommit: 1789815c87e306b1427a5838655d30d3b9ba1d29
+ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61136452"
+ms.lasthandoff: 07/11/2019
+ms.locfileid: "67791932"
 ---
 # <a name="using-incremental-refresh-with-power-bi-dataflows"></a>将增量刷新与 Power BI 数据流配合使用
 
@@ -33,7 +33,7 @@ ms.locfileid: "61136452"
 
 数据流可以包含许多实体。 在实体级别设置增量刷新，允许一个数据流保存完全刷新的实体和增量刷新的实体。
 
-若要设置增量刷新实体，请首先像配置任何其他实体一样配置实体。 若要了解有关设置的数据流的详细信息，请参阅[在 Power BI 中的自助服务数据准备](service-dataflows-overview.md)。
+若要设置增量刷新实体，请首先像配置任何其他实体一样配置实体。 若要了解有关数据流设置的详细信息，请参阅 [Power BI 中的自助服务数据准备](service-dataflows-overview.md)。
 
 创建并保存数据流后，在实体视图中选择“增量刷新”  图标，如下图所示：
 
@@ -156,7 +156,7 @@ ms.locfileid: "61136452"
 
 * [数据流自助服务数据准备](service-dataflows-overview.md)
 * [在 Power BI 中创建和使用数据流](service-dataflows-create-use.md)
-* [数据流中使用的本地数据源](service-dataflows-on-premises-gateways.md)
+* [将数据流与本地数据源配合使用](service-dataflows-on-premises-gateways.md)
 * [Power BI 数据流的开发人员资源](service-dataflows-developer-resources.md)
 
 有关 Power Query 和计划刷新的详细信息，可以阅读以下文章：

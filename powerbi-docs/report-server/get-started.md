@@ -10,12 +10,12 @@ ms.service: powerbi
 ms.subservice: powerbi-report-server
 manager: kfile
 ms.custom: mvc
-ms.openlocfilehash: 37751117853c8bca686585992108c006c6c76b70
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 59913e5d17d15dad8729cd5c96582d09f708c30a
+ms.sourcegitcommit: 1789815c87e306b1427a5838655d30d3b9ba1d29
+ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "66187482"
+ms.lasthandoff: 07/11/2019
+ms.locfileid: "67791838"
 ---
 # <a name="what-is-power-bi-report-server"></a>什么是 Power BI 报表服务器？
 
@@ -24,7 +24,7 @@ Power BI 报表服务器是一个本地报表服务器，其中包含一个可�
 ![Power BI 报表服务器 Web 门户](media/get-started/power-bi-report-server-overview.png)
 
 ## <a name="comparing-power-bi-report-server"></a>比较 Power BI 报表服务器 
-Power BI 报表服务器类似于 SQL Server Reporting Services 和 Power BI 联机服务，但采用不同的方式。 类似于 Power BI 服务中，Power BI 报表服务器托管 Power BI 报表 (。PBIX) Excel 文件和分页的报表 (。RDL)。 Reporting Services，如 Power BI 报表服务器是在本地。 Power BI 报表服务器功能是 Reporting Services 的一个超集： 你可以执行的所有 Reporting Services 中，就可以使用 Power BI 报表服务器，同时还支持 Power BI 报表的。 有关详细信息，请参阅[比较 Power BI 报表服务器和 Power BI 服务](compare-report-server-service.md)。
+Power BI 报表服务器类似于 SQL Server Reporting Services 和 Power BI 联机服务，但采用不同的方式。 像 Power BI 服务一样，Power BI 报表服务器可托管 Power BI 报表 (.PBIX)、Excel 文件和分页报表 (.RDL)。 和 Reporting Services 一样，Power BI 报表服务器是本地服务器。 Power BI 报表服务器功能是 Reporting Services 的超集：Reporting Services 可执行的所有操作均可由 Power BI 报表服务器执行，后者还支持 Power BI 报表。 有关详细信息，请参阅[比较 Power BI 报表服务器和 Power BI 服务](compare-report-server-service.md)。
 
 ## <a name="licensing-power-bi-report-server"></a>授权 Power BI 报表服务器
 可以通过以下两个不同许可证来访问 Power BI 报表服务器：带软件保障的 [Power BI Premium](../service-premium-what-is.md) 和 [SQL Server Enterprise Edition](https://www.microsoft.com/sql-server/sql-server-2017-editions)。 使用 Power BI Premium 许可证可以创建混合云和本地的混合部署。  
@@ -55,7 +55,7 @@ Power BI 报表是数据模型的多角度视图，使用可视化效果表示�
 
 ![Power BI 报表服务器中的分页报表](media/get-started/paginated-reports.png)
 
-可以创建分页的报表中使用[报表生成器](https://docs.microsoft.com/sql/reporting-services/report-builder/report-builder-in-sql-server-2016)或报表设计器中[SQL Server Data Tools (SSDT)](https://docs.microsoft.com/sql/reporting-services/tools/reporting-services-in-sql-server-data-tools-ssdt)。
+可以使用 [SQL Server Data Tools (SSDT)](https://docs.microsoft.com/sql/reporting-services/tools/reporting-services-in-sql-server-data-tools-ssdt) 中的[报表生成器](https://docs.microsoft.com/sql/reporting-services/report-builder/report-builder-in-sql-server-2016)或报表设计器来创建分页报表。
 
 ## <a name="reporting-services-mobile-reports"></a>Reporting Services 移动报表
 移动报表连接到本地数据，并且具有可适应不同的设备以及不同的屏幕方向的响应式布局。 使用 SQL Server 移动报表发布服务器创建这些报表。

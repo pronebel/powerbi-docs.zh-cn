@@ -7,15 +7,15 @@ ms.reviewer: chbraun
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 05/31/2019
+ms.date: 07/03/2019
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: e790afee5b57b73a756ca3c1afd564b00e778186
-ms.sourcegitcommit: 7c426a5209d4fdd1360fc3d0442d57991be1984d
+ms.openlocfilehash: 915fb9d10b69142621554f29a7fd77e7a41932e5
+ms.sourcegitcommit: b439ded53bfbbb58be27ecedf93d618f5158df33
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2019
-ms.locfileid: "66461318"
+ms.lasthandoff: 07/04/2019
+ms.locfileid: "67567341"
 ---
 # <a name="certify-datasets-preview"></a>验证数据集（预览）
 
@@ -23,8 +23,8 @@ ms.locfileid: "66461318"
 
 Power BI 用户现可访问许多不同的数据集，因此企业需要引导他们访问可靠、高质量的数据集。 Power BI 提供了两种认可数据集的方法  ：
 
-- **推广**：数据集所有者可在其自己的数据集准备就绪可供广泛使用时对其进行推广。 有关详细信息，请参阅[推广数据集](service-datasets-promote.md)。 
-- **验证**：数据集所有者可请求对已推广数据集进行验证。 “数据集验证”租户管理设置中定义的选定用户组确定哪些数据集可验证  。
+- **推广**：数据集所有者和工作区的其他人可在其数据集准备就绪可供广泛使用时对其进行推广。 有关详细信息，请参阅[推广数据集](service-datasets-promote.md)。 
+- **验证**：数据集所有者可请求对已推广数据集进行验证。 “数据集验证”租户管理设置中定义的选定用户组确定哪些数据集可验证  。 在数据集发现体验期间，验证数据集的人员的名称显示在工具提示中；将鼠标悬停在“认证”  标签上将看到它。
 
 ## <a name="certify-a-dataset"></a>验证数据集
 

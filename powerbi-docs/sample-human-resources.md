@@ -7,15 +7,15 @@ ms.reviewer: amac
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 06/20/2019
+ms.date: 07/05/2019
 ms.author: maggies
 LocalizationGroup: Samples
-ms.openlocfilehash: 762a28d2340a691316b1aaf26b7ce62d45cc7496
-ms.sourcegitcommit: 8dee40f07d284ec84a8afa0100359f146e1dd88b
+ms.openlocfilehash: bf10d6a87cb97e1c1ca5164580d0aa556ffc86fc
+ms.sourcegitcommit: 1789815c87e306b1427a5838655d30d3b9ba1d29
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/27/2019
-ms.locfileid: "67418743"
+ms.lasthandoff: 07/11/2019
+ms.locfileid: "67791943"
 ---
 # <a name="human-resources-sample-for-power-bi-take-a-tour"></a>Power BI 的人力资源示例：参观
 
@@ -27,17 +27,21 @@ ms.locfileid: "67418743"
 
 ![人力资源示例仪表板](media/sample-human-resources/hr1.png)
 
-此示例是一系列示例的一部分，展示了如何将 Power BI 与面向业务的数据、报表和仪表板结合使用。 它是使用 [obviEnce](http://www.obvience.com/) 提供的真实数据（已经过匿名处理）进行创建。 数据可采用以下几种格式：内容包/应用、.pbix Power BI Desktop 文件或 Excel 工作簿。 请参阅[用于 Power BI 的示例](sample-datasets.md)。 
+此示例是一系列示例的一部分，展示了如何将 Power BI 与面向业务的数据、报表和仪表板结合使用。 它是使用 [obviEnce](http://www.obvience.com/) 提供的真实数据（已经过匿名处理）进行创建。 数据可采用以下几种格式：内容包、.pbix Power BI Desktop 文件或 Excel 工作簿。 请参阅[用于 Power BI 的示例](sample-datasets.md)。 
 
-本教程使用 Power BI 服务和人力资源示例内容包。 由于报表体验非常相似，因此也可以使用 Power BI Desktop 和示例 .pbix 文件跟着本教程一起操作。 
+本教程探讨了 Power BI 服务中的“人力资源示例”内容包。 由于报表体验在 Power BI Desktop 和服务中非常相似，因此也可以使用 Power BI Desktop 中的示例 .pbix 文件跟着本教程一起操作。 
 
-## <a name="prerequisites"></a>先决条件
+不需要 Power BI 许可证即可在 Power BI Desktop 中查看示例。 如果没有 Power BI Pro 许可证，可以将该示例保存到 Power BI 服务中的“我的工作区”。 
+
+## <a name="get-the-sample"></a>获取示例
 
 必须先将示例下载为[内容包](#get-the-content-pack-for-this-sample)、[.pbix 文件](#get-the-pbix-file-for-this-sample)或 [Excel 工作簿](#get-the-excel-workbook-for-this-sample)，然后才能使用它。
 
 ### <a name="get-the-content-pack-for-this-sample"></a>获取内容包形式的此示例
 
 1. 打开并登录 Power BI 服务 (app.powerbi.com)，然后打开要在其中保存此示例的工作区。
+
+   如果没有 Power BI Pro 许可证，可以将该示例保存到“我的工作区”。
 
 2. 选择左下角的“获取数据”  。
    
@@ -158,7 +162,7 @@ ms.locfileid: "67418743"
 
    请注意，大多数女性差员工年龄都在 30 岁以下。
 
-## <a name="next-steps-connect-to-your-data"></a>后续步骤：连接到数据
+## <a name="next-steps-connect-to-your-data"></a>后续步骤：连接到你的数据
 可以在此环境中安全操作，因为能够选择不保存更改。 不过，如果确实保存了更改，可随时选择“获取数据”  来获取此示例的新副本。
 
-本教程讨论了 Power BI 仪表板、问答和报表如何能够帮助深入了解人力资源数据。 现在轮到你了；立即连接到你自己的数据。 借助 Power BI，可以连接到各种数据源。 若要了解详细信息，请参阅 [Power BI 服务入门](service-get-started.md)。
+我们希望本教程已经演示 Power BI 仪表板、问答和报表如何能够帮助深入了解示例数据。 现在轮到你了；立即连接到你自己的数据。 借助 Power BI，可以连接到各种数据源。 若要了解详细信息，请参阅 [Power BI 服务入门](service-get-started.md)。

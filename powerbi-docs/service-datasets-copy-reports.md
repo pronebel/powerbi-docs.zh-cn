@@ -7,21 +7,19 @@ ms.reviewer: chbraun
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 05/31/2019
+ms.date: 07/03/2019
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 507af4de9d57d2d54fe3e28bca8b1aff7da5cf30
-ms.sourcegitcommit: 7c426a5209d4fdd1360fc3d0442d57991be1984d
+ms.openlocfilehash: 2db4c23b50071e387913ed79b4d01daeafb928a4
+ms.sourcegitcommit: b439ded53bfbbb58be27ecedf93d618f5158df33
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2019
-ms.locfileid: "66461456"
+ms.lasthandoff: 07/04/2019
+ms.locfileid: "67567370"
 ---
 # <a name="copy-reports-from-other-workspaces-preview"></a>从其他工作区复制报表（预览）
 
-了解如何从一个工作区复制报表并将其保存到其他工作区。 然后，你可以修改该报表，添加或删除视觉对象和其他元素。
-
-在工作区或应用中找到自己喜欢的报表时，你可以复制它，然后根据自己的需要进行修改。 无需担心如何创建数据模型。 它已为你创建。 修改现有报表比从头开始创建要容易得多。
+在工作区或应用中找到自己喜欢的报表时，你可以复制它，然后将其保存到不同工作区。 然后，你可以修改该报表，添加或删除视觉对象和其他元素。 无需担心如何创建数据模型。 它已为你创建。 修改现有报表比从头开始创建要容易得多。 但是，不能从新工作区的应用中发布报表副本。 请参阅“跨工作区使用数据集”一文中的其他[注意事项和限制](service-datasets-across-workspaces.md#considerations-and-limitations)列表。
 
 ## <a name="save-a-copy-of-a-report"></a>保存报表的副本
 
@@ -61,6 +59,21 @@ ms.locfileid: "66461456"
 1. “相关内容”对话框显示所有相关项  。 在此列表中，数据集与任何其他数据集类似。 你无法判断它位于不同的工作区。 这是一个已知问题。
  
     ![“相关内容”对话框](media/service-datasets-copy-reports/power-bi-dataset-related.png)
+
+## <a name="delete-a-report-and-its-shared-dataset"></a>删除报表及其共享数据集
+
+你可能决定不再需要工作区中的报表及其关联的共享数据集。
+
+1. 删除报表。 在工作区的报表列表中，选择“删除”  图标。
+
+    ![删除报表图表](media/service-datasets-across-workspaces/power-bi-datasets-delete-report.png)
+
+2. 在数据集列表中，可以看到共享数据集没有“删除”  图标。 刷新页面，或转到其他页，然后返回。 数据集将消失。 如果没有，请查看“相关视图”  。 它可能与工作区中的另一个表相关。
+
+    ![相关视图图标](media/service-datasets-across-workspaces/power-bi-dataset-view-related-icon.png)
+
+    > [!NOTE]
+    > 删除此工作区中的共享数据集不会删除数据集。 它只是删除对它的引用。
 
 
 ## <a name="next-steps"></a>后续步骤

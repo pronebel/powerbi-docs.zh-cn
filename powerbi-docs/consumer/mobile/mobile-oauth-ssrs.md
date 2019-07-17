@@ -8,19 +8,19 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: conceptual
-ms.date: 06/07/2018
-ms.openlocfilehash: 9673217cfd7c5af70bdd293e8d5df51e5e7dee07
-ms.sourcegitcommit: 9278540467765043d5cb953bcdd093934c536d6d
+ms.date: 07/03/2019
+ms.openlocfilehash: 7067d4c7fdc3fc328db417e5d6733569ecc7be01
+ms.sourcegitcommit: b439ded53bfbbb58be27ecedf93d618f5158df33
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/03/2019
-ms.locfileid: "67559070"
+ms.lasthandoff: 07/04/2019
+ms.locfileid: "67567809"
 ---
 # <a name="using-oauth-to-connect-to-power-bi-report-server-and-ssrs"></a>使用 OAuth 连接到 Power BI 报表服务器和 SSRS
 
 了解如何将环境配置为支持 OAuth 对 Power BI 移动应用进行身份验证以连接到 Power BI Report Server 和 SQL Server Reporting Services 2016 或更高版本。
 
-![](media/mobile-oauth-ssrs/powerbi-mobile-oauth.png)
+![连接到服务器](media/mobile-oauth-ssrs/powerbi-mobile-oauth.png)
 
 可使用 OAuth 连接到 Power BI 报表服务器和 Reporting Services，以显示移动报表或 KPI。 Windows Server 2016 向 Web 应用程序代理 (WAP) 角色提供了一些改进，以允许此种类型的身份验证。
 
@@ -118,7 +118,7 @@ SPN 是使用 Kerberos 身份验证的服务的唯一标识符。 需要确保�
    > [!NOTE]
    > 此 URL 区分大小写！
 
-   *https://< report server url >/reports*
+   *https://< report server url >/*
 
    ![ADFS 应用程序组向导 03](media/mobile-oauth-ssrs/adfs-application-group-wizard3.png)
 9. 选择**下一步**。
@@ -209,7 +209,7 @@ Add-WebApplicationProxyApplication -Name "Contoso Reports" -ExternalPreauthentic
 Get-WebApplicationProxyApplication “Contoso Reports” | fl
 ```
 
-![](media/mobile-oauth-ssrs/wap-application-id.png)
+![添加应用程序组](media/mobile-oauth-ssrs/wap-application-id.png)
 
 运行以下命令，使用 WAP 应用程序的 ID 设置 BackendServerAuthenticationMode。
 
@@ -217,21 +217,19 @@ Get-WebApplicationProxyApplication “Contoso Reports” | fl
 Set-WebApplicationProxyApplication -id 30198C7F-DDE4-0D82-E654-D369A47B1EE5 -BackendServerAuthenticationMode IntegratedWindowsAuthentication
 ```
 
-![](media/mobile-oauth-ssrs/wap-application-backendauth.png)
+![添加应用程序组向导](media/mobile-oauth-ssrs/wap-application-backendauth.png)
 
 ## <a name="connecting-with-the-power-bi-mobile-app"></a>连接 Power BI 移动应用
 
 在 Power BI 移动应用中，需要连接到 Reporting Services 实例。 若要执行此操作，需要提供 WAP 应用程序的“**外部 URL**”。
 
-![](media/mobile-oauth-ssrs/powerbi-mobile-app1.png)
+![键入服务器地址](media/mobile-oauth-ssrs/powerbi-mobile-app1.png)
 
-选择“**连接**”后，将定向到 ADFS 登录页。 输入域的有效凭据。
+选择“连接”  后，将定向到 ADFS 登录页。 输入域的有效凭据。
 
-![](media/mobile-oauth-ssrs/powerbi-mobile-app2.png)
+![登录到 ADFS](media/mobile-oauth-ssrs/powerbi-mobile-app2.png)
 
 选择“**登录**”后，将看到 Reporting Services 服务器中的元素。
-
-![](media/mobile-oauth-ssrs/powerbi-mobile-app2.png)
 
 ## <a name="multi-factor-authentication"></a>多重身份验证
 
@@ -239,9 +237,9 @@ Set-WebApplicationProxyApplication -id 30198C7F-DDE4-0D82-E654-D369A47B1EE5 -Bac
 
 ## <a name="troubleshooting"></a>故障排除
 
-### <a name="you-receive-the-error-failed-to-login-to-ssrs-server-verify-server-configuration"></a>收到错误消息“无法登录 SSRS 服务器。 请验证服务器配置。
+### <a name="you-receive-the-error-failed-to-login-to-ssrs-server"></a>收到错误消息“无法登录 SSRS 服务器”
 
-![](media/mobile-oauth-ssrs/powerbi-mobile-error.png)
+![“无法登录 SSRS 服务器”错误](media/mobile-oauth-ssrs/powerbi-mobile-error.png)
 
 可以设置 [Fiddler](http://www.telerik.com/fiddler) 作为移动设备的代理，来查看请求的进度。 若要为手机设备启用 Fiddler 代理，需要在运行 Fiddler 的计算机上安装适用于 [iOS 和 Android 的 CertMaker](http://www.telerik.com/fiddler/add-ons)。 这是 Telerik 提供的用于 Fiddler 的加载项。
 
