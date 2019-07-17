@@ -10,12 +10,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 05/02/2019
 LocalizationGroup: Conceptual
-ms.openlocfilehash: 9aa80c336fa7918632b71b25f8f57b2798fa52e5
-ms.sourcegitcommit: 8dee40f07d284ec84a8afa0100359f146e1dd88b
+ms.openlocfilehash: dd656f81cb0fdb32f9637f969ef538e263e20053
+ms.sourcegitcommit: 277fadf523e2555004f074ec36054bbddec407f8
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/27/2019
-ms.locfileid: "67418693"
+ms.lasthandoff: 07/16/2019
+ms.locfileid: "68271989"
 ---
 # <a name="power-bi-security-whitepaper"></a>Power BI 安全性白皮书
 
@@ -225,7 +225,7 @@ DirectQuery 和其他查询之间的区别决定了 Power BI 服务如何处理�
         - 如果数据集设置为刷新，则凭据将加密存储在数据移动的 Azure SQL 数据库中。 加密密钥存储在客户基础结构上运行网关的计算机上。
         - 如果数据集未设置为刷新，则不存储数据源的凭据
 
-1. 数据
+1. Data
 
     a. 本地 Analysis Services 和 DirectQuery - Power BI 服务中不存储任何内容。
 
@@ -249,23 +249,23 @@ Power BI 通过以下方式提供数据完整性监视：
 
    a. 报告可以是 Excel for Office 365 报表，也可以是 Power BI 报表。 以下内容适用于基于报表类型的元数据：
         
-    &ensp; &ensp; a. Excel 格式的报表元数据存储在 SQL Azure 中加密。 元数据也存储在 Office 365。
+    &ensp; &ensp; 一个。 Excel 格式的报表元数据存储在 SQL Azure 中加密。 元数据也存储在 Office 365。
 
-    &ensp; &ensp; b. Power BI 报表存储在 Azure SQL 数据库中加密。
+    &ensp; &ensp; b。 Power BI 报表存储在 Azure SQL 数据库中加密。
 
 2. 静态数据
 
    静态数据包括背景图像和自定义视觉对象等项目。
 
-    &ensp; &ensp; a. 对于使用 Excel for Office 365 创建的报表，不存储任何内容。
+    &ensp; &ensp; 一个。 对于使用 Excel for Office 365 创建的报表，不存储任何内容。
 
-    &ensp; &ensp; b. 对于 Power BI 报表，在 Azure Blob 存储中存储和加密静态数据。
+    &ensp; &ensp; b。 对于 Power BI 报表，在 Azure Blob 存储中存储和加密静态数据。
 
 3. 缓存
 
-    &ensp; &ensp; a. 对于使用 Excel for Office 365 创建的报表，不缓存任何内容。
+    &ensp; &ensp; 一个。 对于使用 Excel for Office 365 创建的报表，不缓存任何内容。
 
-    &ensp; &ensp; b. 对于 Power BI 报表，在 Azure SQL 数据库中加密缓存显示的视觉对象的数据。
+    &ensp; &ensp; b。 对于 Power BI 报表，在 Azure SQL 数据库中加密缓存显示的视觉对象的数据。
  
 
 4. 发布到 Power BI 的原始 Power BI Desktop (.pbix) 或 Excel (.xlsx) 文件
@@ -302,7 +302,7 @@ Power BI 通过以下方式提供数据完整性监视：
     c. 推送的数据 - 无（不适用）
 
     d. ETL - 无（没有任何内容存储在计算节点上，也不同于上述“静态数据”部分中所述  ）
-4. 数据
+4. Data
 
     一些数据项目可以在有限的时间内存储在计算节点的磁盘上。
 
@@ -382,7 +382,7 @@ Power BI 移动版可用的所有三个平台都支持 Microsoft Intune，这是
 
 * **Power BI 凭据和域凭据：** 用户使用电子邮件地址登录 Power BI；用户尝试连接到数据资源时，Power BI 会将 Power BI 登录电子邮件地址作为凭据传递。 对于连接了域的资源（无论是本地还是基于云），目录服务将登录电子邮件与用户主体名称 ([UPN](https://msdn.microsoft.com/library/windows/desktop/aa380525(v=vs.85).aspx)) 匹配，以确定是否存在允许访问的足够凭据  。 对于使用基于工作的电子邮件地址登录 Power BI 的组织（用于登录工作资源的相同电子邮件，例如 david@contoso.com），映射可以无缝地进行；对于未使用基于工作的电子邮件地址的组织（例如 david@contoso.onmicrosoft.com），必须建立目录映射，才能使用 Power BI 登录凭据访问本地资源   。
 
-* **SQL Server Analysis Services 和 Power BI：** 对于使用本地 SQL Server Analysis Services 的组织，Power BI 提供 Power BI 本地数据网关（为上个部分所述的网关）  。  Power BI 本地数据网关可以对数据源 (RLS) 强制执行角色级安全性。 有关 RLS 的详细信息，请参阅本文档前面的“对数据源的用户身份验证”  。 还可以参阅有关 [Power BI Gateway](service-gateway-manage.md) 的深层次文章。
+* **SQL Server Analysis Services 和 Power BI：** 对于使用本地 SQL Server Analysis Services 的组织，Power BI 提供 Power BI 本地数据网关（为上个部分所述的网关）  。  Power BI 本地数据网关可以对数据源 (RLS) 强制执行角色级安全性。 有关 RLS 的详细信息，请参阅本文档前面的“对数据源的用户身份验证”  。 有关网关的详细信息，请参阅[的本地数据网关](service-gateway-onprem.md)。
 
   此外，组织可以使用 Kerberos 进行单一登录 (SSO)，并从 Power BI 无缝连接到 SQL Server、SAP HANA 和 Teradata 等本地数据源  。 有关更多信息和特定配置要求，请参阅[将 Kerberos 用于从 Power BI 到本地数据源的 SSO](https://docs.microsoft.com/power-bi/service-gateway-kerberos-for-sso-pbi-to-on-premises-data)  。
 
@@ -422,7 +422,7 @@ Power BI 移动版可用的所有三个平台都支持 Microsoft Intune，这是
 
 **本地数据网关和个人网关使用哪些端口？是否有任何需要允许用于连接的域名？**
 
-* 有关此问题的详细答案，请访问以下链接：[Power BI Gateway](service-gateway-manage.md)
+* 有关此问题的详细答案，请访问以下链接：[网关端口](/data-integration/gateway/service-gateway-communication#ports)
 
 **使用本地数据网关时，如何使用恢复密钥以及密钥存储在何处？什么是安全凭据管理？**
 
@@ -438,7 +438,7 @@ Power BI 移动版可用的所有三个平台都支持 Microsoft Intune，这是
 
   - **AMQP 1.0 - TCP + TLS**：该协议要求打开端口 443, 5671-5672 和 9350-9354 以进行传出通信。 此协议是首选方法，因为它具有较低的通信开销。
 
-  - **HTTPS – WebSockets over HTTPS + TLS**：此协议仅使用端口 443。 WebSocket 由单个 HTTP CONNECT 消息发起。 建立通道后，通信实质上是 TCP+TLS。 可以通过修改[本地网关文章](service-gateway-manage.md)中描述的设置，强制网关使用此协议。
+  - **HTTPS – WebSockets over HTTPS + TLS**：此协议仅使用端口 443。 WebSocket 由单个 HTTP CONNECT 消息发起。 建立通道后，通信实质上是 TCP+TLS。 您可以强制网关通过修改中所述的设置来使用此协议[的本地网关文章](/data-integration/gateway/service-gateway-communication#force-https-communication-with-azure-service-bus)。
 
 **Azure CDN 在 Power BI 中的角色是什么？**
 
@@ -470,7 +470,7 @@ Power BI 移动版可用的所有三个平台都支持 Microsoft Intune，这是
 
 * 为具有 Power BI Premium 订阅的客户建立的连接实施 [Azure 企业对企业 (B2B)](https://docs.microsoft.com/azure/active-directory/active-directory-b2b-what-is-azure-ad-b2b)授权过程，使用 Azure Active Directory (AD) 启用访问控制和授权。 Power BI 处理从 Power BI 订阅者到 Power BI 资源的连接，就像处理任何其他 Azure AD 用户一样。
 
-## <a name="conclusion"></a>结论
+## <a name="conclusion"></a>结束语
 
 Power BI 服务体系结构基于两个群集 - Web 前端 (WFE) 群集和后端群集。 WFE 群集负责执行初始连接并对 Power BI 服务进行身份验证，经过身份验证后后，后端会处理所有后续的用户交互。 Power BI 使用 Azure Active Directory (AAD) 来存储和管理用户身份，并分别使用 Azure Blob 和 Azure SQL Database 管理数据和元数据存储。
 
@@ -486,10 +486,9 @@ Power BI 中的数据存储和数据处理根据是否使用 DirectQuery 访问�
 
 - [Power BI 中的组](https://support.powerbi.com/knowledgebase/articles/654247)
 - [Power BI Desktop 入门](https://support.powerbi.com/knowledgebase/articles/471664)
-- [Power BI Gateway](service-gateway-manage.md)
 - [Power BI REST API - 概述](https://msdn.microsoft.com/library/dn877544.aspx)
 - [Power BI API 引用](https://msdn.microsoft.com/library/mt147898.aspx)
-- [On-premises data gateway (本地数据网关)](service-gateway-manage.md)
+- [On-premises data gateway (本地数据网关)](service-gateway-onprem.md)
 - [Power BI 和 ExpressRoute](service-admin-power-bi-expressroute.md)
 - [Power BI 国家云](https://powerbi.microsoft.com/clouds/)
 - [Power BI Premium](https://aka.ms/pbipremiumwhitepaper)
