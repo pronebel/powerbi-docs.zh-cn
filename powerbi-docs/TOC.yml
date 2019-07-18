@@ -1289,8 +1289,6 @@
           href: service-gateway-onprem-indepth.md
         - name: 本地数据网关(个人模型)
           href: service-gateway-personal-mode.md
-        - name: 管理用户和管理员
-          href: service-gateway-manage-admins.md
         - name: 管理数据源
           items:
             - name: 管理数据源
