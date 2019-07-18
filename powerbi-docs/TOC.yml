@@ -723,10 +723,6 @@
               href: service-admin-troubleshooting-scheduled-refresh-azure-sql-databases.md
             - name: 图块错误疑难解答
               href: refresh-troubleshooting-tile-errors.md
-            - name: 本地数据网关疑难解答
-              href: service-gateway-onprem-tshoot.md
-            - name: Power BI 网关疑难解答 - 个人
-              href: service-admin-troubleshooting-power-bi-personal-gateway.md
             - name: “在 Excel 中分析”疑难解答
               href: desktop-troubleshooting-analyze-in-excel.md
             - name: 错误：我们在你的 Excel 工作簿中找不到任何数据
@@ -1279,38 +1275,38 @@
   items:
     - name: 概述
       items:
-        - name: 什么是 Power BI 网关？
-          href: service-gateway-getting-started.md
-    - name: 教程
-      items:
-        - name: 连接到 SQL Server 数据
-          href: service-gateway-sql-tutorial.md
+        - name: 本地数据网关是什么？
+          href: service-gateway-onprem.md
     - name: 概念
       items:
         - name: 部署数据网关指南
           href: service-gateway-deployment-guidance.md
         - name: 本地数据网关常见问题
-          href: service-gateway-onprem-faq.md
+          href: service-gateway-power-bi-faq.md
     - name: 操作方法
       items:
-        - name: 安装网关
-          href: service-gateway-install.md
-        - name: 管理网关
-          href: service-gateway-manage.md
-        - name: 监视网关性能
-          href: service-gateway-performance-monitoring.md
-        - name: 管理企业数据源 - Analysis Services
-          href: service-gateway-enterprise-manage-ssas.md
-        - name: 管理企业数据源 - SAP HANA
-          href: service-gateway-enterprise-manage-sap.md
-        - name: 管理企业数据源 - SQL
-          href: service-gateway-enterprise-manage-sql.md
-        - name: 管理数据源 - Oracle
-          href: service-gateway-onprem-manage-oracle.md
-        - name: 管理企业数据源 - 导入/计划刷新
-          href: service-gateway-enterprise-manage-scheduled-refresh.md
-        - name: 合并本地和云数据源
-          href: service-gateway-mashup-on-premises-cloud.md
+        - name: 本地数据网关 - 深入了解
+          href: service-gateway-onprem-indepth.md
+        - name: 本地数据网关(个人模型)
+          href: service-gateway-personal-mode.md
+        - name: 管理用户和管理员
+          href: service-gateway-manage-admins.md
+        - name: 管理数据源
+          items:
+            - name: 管理数据源
+              href: service-gateway-data-sources.md
+            - name: 管理企业数据源 - Analysis Services
+              href: service-gateway-enterprise-manage-ssas.md
+            - name: 管理企业数据源 - SAP HANA
+              href: service-gateway-enterprise-manage-sap.md
+            - name: 管理企业数据源 - SQL
+              href: service-gateway-enterprise-manage-sql.md
+            - name: 管理数据源 - Oracle
+              href: service-gateway-onprem-manage-oracle.md
+            - name: 管理企业数据源 - 导入/计划刷新
+              href: service-gateway-enterprise-manage-scheduled-refresh.md
+            - name: 合并本地和云数据源
+              href: service-gateway-mashup-on-premises-cloud.md
         - name: 启用单一登录 (SSO)
           items:
             - name: 单一登录 (SSO) - 概述
@@ -1321,24 +1317,16 @@
               href: service-gateway-sso-kerberos-resource.md
             - name: 单一登录 (SSO) - SAML
               href: service-gateway-sso-saml.md
-        - name: 配置代理设置
-          href: service-gateway-proxy.md
-        - name: 本地数据网关的高可用性群集
-          href: service-gateway-high-availability-clusters.md
-        - name: 本地数据网关
-          href: service-gateway-onprem.md
-        - name: 本地数据网关 - 深入了解
-          href: service-gateway-onprem-indepth.md
-        - name: 本地数据网关(个人模型)
-          href: service-gateway-personal-mode.md
-        - name: 自定义连接器
-          href: service-gateway-custom-connectors.md
-        - name: 本地数据网关疑难解答
+        - name: 对网关进行故障排除
           href: service-gateway-onprem-tshoot.md
+        - name: 对网关进行故障排除（个人模式）
+          href: service-admin-troubleshooting-power-bi-personal-gateway.md
+        - name: 使用自定义连接器
+          href: service-gateway-custom-connectors.md
     - name: 资源
       items:
         - name: 每月网关更新
-          href: service-gateway-monthly-updates.md
+          href: 'https://review.docs.microsoft.com/data-integration/gateway/service-gateway-monthly-updates?branch=master'
 - name: 管理
   items:
     - name: 概述
