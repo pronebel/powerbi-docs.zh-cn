@@ -110,7 +110,7 @@ Azure 门户或 Power BI 应用注册页面中的错误消息提到权限不足�
 
 ### <a name="authentication-failed-with-aadsts70002-or-aadsts50053"></a>身份验证失败并显示 AADSTS70002 或 AADSTS50053
 
-** _(AADSTS70002:验证凭据时出错。AADSTS50053:使用不正确的用户 ID 或密码尝试登录的次数过多)_ **
+** _(AADSTS70002:验证凭据时出错。AADSTS50053:使用不正确的用户 ID 或密码尝试登录的次数过多)_**
 
 如果使用 Power BI Embedded 并使用 Azure AD 直接身份验证，则会收到以下形式的消息日志记录：***error:unauthorized_client,error_description:AADSTS70002:验证凭据时出错。AADSTS50053:使用不正确的用户 ID 或密码***尝试登录的次数过多，这是因为自 2018 年 6 月 14 日起已默认不再使用直接身份验证。
 
@@ -162,7 +162,7 @@ Add-AzureADServicePrincipalPolicy -Id $sp.ObjectId -RefObjectId $policy.Id
 
 ### <a name="aadsts90094-the-grant-requires-admin-permission"></a>AADSTS90094:授予需要管理员权限
 
-**表现：  **<br>
+**表现： **<br>
 非管理员用户首次尝试登录到应用程序并授予许可时，会收到以下错误之一：
 
 * ConsentTest 需要具有访问组织中的资源的权限，而只有管理员才能授予此权限。 请让管理员授予访问此应用的权限，否则你将无法使用该应用。
@@ -172,10 +172,10 @@ Add-AzureADServicePrincipalPolicy -Id $sp.ObjectId -RefObjectId $policy.Id
 
 管理员用户可以成功登录并授予许可。
 
-**根本原因：  **<br>
+**根本原因： **<br>
 对租户禁用用户同意。
 
-**可能会出现几个修补程序：  **
+**可能会出现几个修补程序： **
 
 对整个租户（所有用户和所有应用程序）启用用户同意 
 
