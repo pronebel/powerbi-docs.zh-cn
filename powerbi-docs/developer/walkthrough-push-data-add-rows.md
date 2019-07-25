@@ -311,7 +311,7 @@ ms.locfileid: "65710395"
     }
 ```
 
-虽然我们指定在以上代码中 ** _//Get 第一个 ID_** ，但正确的做法是按名称搜索数据集。
+虽然我们指定在以上代码中 **_//Get 第一个 ID_** ，但正确的做法是按名称搜索数据集。
 
 ## <a name="next-steps"></a>后续步骤
 [将数据推送到 Power BI 仪表板](walkthrough-push-data.md)  
