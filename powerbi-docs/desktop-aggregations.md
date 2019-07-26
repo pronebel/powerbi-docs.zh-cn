@@ -1,5 +1,5 @@
 ---
-title: 使用 Power BI Desktop 中的聚合（预览）
+title: 在 Power BI Desktop 中使用聚合
 description: 在 Power BI Desktop 中对大数据执行交互式分析
 author: davidiseminger
 manager: kfile
@@ -10,14 +10,14 @@ ms.topic: conceptual
 ms.date: 05/07/2019
 ms.author: davidi
 LocalizationGroup: Transform and shape data
-ms.openlocfilehash: f14b6878d44510631822dd26458bdaa17c1fe3a0
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 54264a645160542d7bda6a964164af65bfa45dfd
+ms.sourcegitcommit: fe8a25a79f7c6fe794d1a30224741e5281e82357
+ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "65239593"
+ms.lasthandoff: 07/18/2019
+ms.locfileid: "68325217"
 ---
-# <a name="aggregations-in-power-bi-desktop-preview"></a>Power BI Desktop 中的聚合（预览）
+# <a name="aggregations-in-power-bi-desktop"></a>Power BI Desktop 中的聚合
 
 使用 Power BI 中的“聚合”  ，通过以前无法实现的方式对大数据执行交互式分析。 聚合可以大幅度降低为制定决策而解锁大型数据集的成本  。
 
@@ -36,16 +36,6 @@ ms.locfileid: "65239593"
 聚合可与表示维度模型的数据源一起使用，例如数据仓库、数据市场以及基于 Hadoop 的大数据源。 本文介绍每种数据源在 Power BI 中的典型建模差异。
 
 所有 Power BI 导入和 DirectQuery 源（非多维）都可与聚合一起使用。
-
-## <a name="enabling-the-aggregations-preview-feature"></a>启用聚合预览功能
-
-聚合功能处于预览阶段，必须在 Power BI Desktop 中启用   。 若要启用聚合，请选择“文件”>“选项和设置”>“选项”>“预览功能”，然后选中“复合模型”和“管理聚合”复选框     。 
-
-![启用预览功能](media/desktop-aggregations/aggregations_01.jpg)
-
-需要重新启动 Power BI Desktop  才能启用该功能。
-
-![需要重新启动，更改才会生效](media/desktop-composite-models/composite-models_03.png)
 
 ## <a name="aggregations-based-on-relationships"></a>基于关系的聚合
 
@@ -103,8 +93,10 @@ ms.locfileid: "65239593"
 
 有关不依赖于关系的跨源  聚合命中率，请参阅以下有关基于分组依据列的聚合部分。
 
-### <a name="aggregation-table-is-hidden"></a>隐藏了聚合表
-隐藏了“Sales Agg”  表。 应对数据集使用者始终隐藏聚合表。 使用者和查询可引用详细信息表，而不是聚合表；他们甚至无需知道存在聚合表。
+### <a name="aggregation-tables-are-not-addressable"></a>聚合表不可寻址
+对数据集具有只读访问权限的用户无法查询聚合表。 这可以避免与 RLS 一起使用时的安全问题。 使用者和查询可引用详细信息表，而不是聚合表；他们甚至无需知道存在聚合表。
+
+出于此原因，应隐藏“销售聚合”表  。 如果不是，则在单击“全部应用”按钮时，管理聚合对话框会将其设置为隐藏。
 
 ### <a name="manage-aggregations-dialog"></a>管理聚合对话框
 接下来将定义聚合。 右键单击“Sales Agg”表，选择“管理聚合”上下文菜单   。
@@ -136,11 +128,7 @@ ms.locfileid: "65239593"
 * 所选详细信息列的数据类型必须与聚合列相同，“计数”和“计算表行数”汇总函数除外。 “计数”和“计算表行数”仅用于整数聚合列，且无需匹配的数据类型。
 * 不允许使用涉及三个（及以上）表的链式聚合。 例如，如果表 B 的聚合引用表 C，则不能在表 A 上设置引用表 B 的聚合    。
 * 不允许使用重复聚合，重复聚合是指两个项使用相同的汇总函数并引用相同的详细信息表/列。
-
-使用此公共预览版聚合期间，还会强制执行以下验证  。 我们计划在通用版发布后删除这些验证。
-
-* 聚合不能用于行级别安全性 (RLS)。 公共预览版限制。 
-* 详细信息表必须为 DirectQuery 模式，不能为“导入”模式。 公共预览版限制。 
+* 详细信息表必须为 DirectQuery 模式，不能为“导入”模式。
 
 大多数此类验证可通过禁用下拉值并在工具提示中显示解释性文本实施，如下图所示。
 
@@ -149,6 +137,9 @@ ms.locfileid: "65239593"
 ### <a name="group-by-columns"></a>按列分组
 
 在此示例中，三个 GroupBy 项是可选的；它们不会影响聚合行为（DISTINCTCOUNT 示例查询除外，图示将随后附上）。 将它们包含在内主要是为了阅读方便。 如果不使用这些 GroupBy 项，聚合仍可根据关系命中。 这种行为不同于使用不带关系的聚合，本文后面部分的大数据示例将对此进行介绍。
+
+### <a name="inactive-relationships"></a>非活动关系
+不支持通过由非活动关系使用的外键列进行分组以及依赖 USERELATIONSHIP 函数进行聚合命中。
 
 ### <a name="detecting-whether-aggregations-are-hit-or-missed-by-queries"></a>检测查询是否命中聚合
 
@@ -191,6 +182,17 @@ AVERAGE 函数可以受益于聚合。 以下查询将命中聚合，因为 AVER
 
 ![查询示例](media/desktop-aggregations/aggregations-code_07.jpg)
 
+### <a name="rls"></a>RLS
+行级别安全性 (RLS) 表达式应同时筛选聚合表和详细信息表，以便正常工作。 在此示例中，“地理位置”表上的 RLS 表达式将起作用，因为“销售”表和“销售聚合”表的关系筛选都可筛选地理位置    。 无论查询是否命中聚合表，都将成功应用 RLS。
+
+![聚合管理角色](media/desktop-aggregations/manage-roles.jpg)
+
+“产品”表上的 RLS 表达式将仅筛选“销售”表，而不筛选“销售聚合”表    。 不建议这样做。 使用此角色访问数据集的用户所提交的查询无法将从聚合命中中获益。 由于聚合表是详细信息表中相同数据的另一种表示形式，因此应答聚合表中的查询是不安全的，因为无法应用 RLS 筛选器。
+
+“销售聚合”表本身的 RLS 表达式将仅筛选聚合表而不筛选详细信息表  。 不允许这样。
+
+![聚合管理角色](media/desktop-aggregations/filter-agg-error.jpg)
+
 ## <a name="aggregations-based-on-group-by-columns"></a>基于分组依据列的聚合 
 
 基于 Hadoop 的大数据模型的特征与维度模型不同。 为避免大型表之间出现联接，它们通常不依赖关系。 相反，维度属性通常非规范化为事实表。 可以使用基于分组依据列的聚合解锁此类大数据模型，以便进行交互式分析  。
@@ -225,6 +227,10 @@ AVERAGE 函数可以受益于聚合。 以下查询将命中聚合，因为 AVER
 
 ![筛选器对话框](media/desktop-aggregations/aggregations_12.jpg)
 
+### <a name="rls"></a>RLS
+
+以上详述的 RLS 规则不仅适用于基于关系的聚合，对于 RLS 表达式是否可以筛选聚合表和/或详细信息表，它也适用于基于按列分组的聚合。 在此示例中，应用于“驾驶员活动”表的 RLS 表达式可用于筛选“驾驶员活动聚合”表，因为聚合表中的所有按列分组数据都涵盖在详细信息表中   。 另一方面，“驾驶员活动聚合”表上的 RLS 筛选器不能应用于“驾驶员活动”表，因此不允许使用   。
+
 ## <a name="aggregation-precedence"></a>聚合优先级
 
 聚合优先级允许单个子查询使用多个聚合表。
@@ -232,8 +238,11 @@ AVERAGE 函数可以受益于聚合。 以下查询将命中聚合，因为 AVER
 请考虑以下示例。 它是包含多个 DirectQuery 源的[复合模型](desktop-composite-models.md)。
 
 * “Driver Activity Agg2”导入表的粒度很高，因为分组依据属性较少且基数较低  。 行数可以低至数千个，如此即可轻松放入内存中缓存。 这些属性恰好由高配置执行仪表板所用，因此引用它们的查询的运行速度应该很快。
-* “Driver Activity Agg”表是 DirectQuery 模式的中间聚合表  。 它包含数十亿行，并已使用列存储索引在源处优化。
+* “Driver Activity Agg”表是 DirectQuery 模式的中间聚合表  。 它在 Azure SQL DW 中包含数十亿行，并已使用列存储索引在源处优化。
 * “Driver Activity”表为 DirectQuery 模式，且包含源于大数据系统的数十亿行 IoT 数据  。 它充当钻取查询，用于查看受控制筛选器上下文中的各个 IoT 读数。
+
+> [!NOTE]
+> 只有当聚合表来自 SQL Server、Azure SQL 或 Azure SQL DW 源时，才支持将使用不同数据源的 DirectQuery 聚合表用于详细信息表。
 
 此模型的内存占用量相对较小，但可解锁大型数据集。 它表示一种平衡的体系结构，因为它可根据使用查询负载的各体系结构组件的优势，将查询负载分散于各个组件。
 
@@ -261,8 +270,6 @@ AVERAGE 函数可以受益于聚合。 以下查询将命中聚合，因为 AVER
 
 ![“Sales Agg”聚合表](media/desktop-aggregations/aggregations-table_04.jpg)
 
-> 注意:由于“Date”  表是详细信息表，此模型要求该表处于 DirectQuery 模式以填充管理聚合对话框。 这是预览版限制，我们计划在通用版中将其删除。
-
 ### <a name="query-examples"></a>查询示例
 
 下面的查询将命中聚合，因为聚合表中包含 CalendarMonth，且 CategoryName 可通过一对多关系访问。 将使用 SalesAmount 的 Sum 聚合  。
@@ -285,9 +292,9 @@ AVERAGE 函数可以受益于聚合。 以下查询将命中聚合，因为 AVER
 
 以下文章提供了更多有关复合模型的信息，并详细介绍了 DirectQuery。
 
-* [Power BI Desktop 中的复合模型（预览）](desktop-composite-models.md)
-* [Power BI Desktop 中的多对多关系（预览）](desktop-many-to-many-relationships.md)
-* [Power BI Desktop 中的存储模式（预览）](desktop-storage-mode.md)
+* [Power BI Desktop 中的复合模型](desktop-composite-models.md)
+* [Power BI Desktop 中的多对多关系](desktop-many-to-many-relationships.md)
+* [Power BI Desktop 中的存储模式](desktop-storage-mode.md)
 
 DirectQuery 文章：
 

@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 02/28/2019
+ms.date: 07/18/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: bf41700b367b7c3c2302eeec9c03b93fa294ed3f
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 775abf014f571b508832c5cb9a52a62aad455a7b
+ms.sourcegitcommit: fe8a25a79f7c6fe794d1a30224741e5281e82357
+ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61348774"
+ms.lasthandoff: 07/18/2019
+ms.locfileid: "68324795"
 ---
 # <a name="use-directquery-in-power-bi-desktop"></a>在 Power BI Desktop 中使用 DirectQuery
 使用 **Power BI Desktop** 时，若已连接数据源，始终可以将数据副本导入 **Power BI Desktop**。 对于某些数据源，还可使用另一种方法︰使用 **DirectQuery** 直接连接到数据源。
@@ -50,12 +50,10 @@ ms.locfileid: "61348774"
 
 * 除非使用[复合模型](desktop-composite-models.md)，否则所有表必须来自单个数据库
 * 如果“查询编辑器”  查询过于复杂，将会出错。 要更正错误，必须在“查询编辑器”  中删除有问题的步骤，或者导入  数据，而不是使用 DirectQuery  。 对于 SAP Business Warehouse 等多维度源而言，没有查询编辑器 
-* 关系筛选操作仅限于在单方向上执行，而不能在两个方向上执行（尽管可能要在 DirectQuery  的两个方向上启用作为预览功能的交叉筛选）。 对于 SAP Business Warehouse 等多维源而言，模型中未定义任何关系
+* 关系筛选操作仅限于在单方向上执行，而不能在两个方向上执行（尽管可在 DirectQuery 的两个方向上启用交叉筛选）  。 对于 SAP Business Warehouse 等多维源而言，模型中未定义任何关系
 * **DirectQuery** 不提供时间智能功能。 例如，DirectQuery  模式不支持日期列（年、季度、月、日等）的特殊处理方式。
-* 默认情况下，会限制允许在度量值中使用的 DAX 表达式；请参阅下一段落（在此项目符号列表后）了解详细信息
+* 为确保发送到基础数据源的查询具有可接受的性能，对度量值中的可用 DAX 表达式进行了限制。
 * 使用 DirectQuery  时，返回数据有 100 万行的限制。 此限制不影响用于创建使用 DirectQuery  返回的数据集的聚合或计算，仅影响返回的行。 例如，你可以使用在数据源上运行的查询聚合 1000 万行，并且只要返回到 Power BI 的数据不超过 100 万行，即可使用 **DirectQuery** 将该聚合的结果准确地返回到 Power BI。 如果从 **DirectQuery** 返回的结果超过 100 万行，则 Power BI 返回错误。
-
-为了确保发送到基础数据源的查询具有可接受的性能，默认情况下对度量值进行了限制。 高级用户可以选择绕过此限制，方法是依次选择“文件”>“选项和设置”>“选项”>“DirectQuery”，然后选择选项“允许 DirectQuery 模式下的度量值不受限制”    。 选中该选项后，即可使用对度量值有效的任何 DAX 表达式。 但是，用户必须知道，可在导入数据的情况下正常工作的某些表达式，在 DirectQuery 模式下则可能会导致针对后端数据源的查询速度缓慢。
 
 ## <a name="important-considerations-when-using-directquery"></a>使用 DirectQuery 的重要注意事项
 使用 **DirectQuery** 时，应考虑以下三点：

@@ -8,15 +8,41 @@ ms.reviewer: maghan
 ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: conceptual
-ms.date: 03/10/2019
-ms.openlocfilehash: cf9a613e82b4f5b7ce9cc67f5b920760d01ccbf7
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.date: 07/16/2019
+ms.openlocfilehash: ea1ae18f877793da9ac47023c236ba8a24f78ccf
+ms.sourcegitcommit: 277fadf523e2555004f074ec36054bbddec407f8
+ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61342653"
+ms.lasthandoff: 07/16/2019
+ms.locfileid: "68271191"
 ---
 # <a name="guidelines-for-power-bi-visuals"></a>Power BI 视觉对象指南
+在将视觉对象[发布](https://docs.microsoft.com/power-bi/developer/office-store)到 AppSource 供其他人发现和使用之前，请确保遵循指导原则为用户创造好的体验。 
+
+## <a name="context-menu"></a>上下文菜单
+上下文菜单是在用户将鼠标悬停在视觉对象上时显示的右键单击菜单。
+所有 Power BI 视觉对象都应启用上下文菜单，以带来统一的体验。 请查看[本文](https://github.com/Microsoft/PowerBI-visuals/blob/gh-pages/tutorials/building-bar-chart/adding-context-menu-to-the-bar.md)了解如何添加上下文菜单。
+
+
+## <a name="logo-guidelines"></a>徽标指南
+
+本部分介绍了在视觉对象中添加徽标和标识的规范。
+
+> [!IMPORTANT]
+> 仅允许在编辑模式下使用徽标  。 无法在查看模式下显示徽标  。
+
+![定义](media/guidelines-powerbi-visuals/definitions.png)
+
+![需要注意的事项](media/guidelines-powerbi-visuals/things-to-keep-in-mind.png)
+
+![需要避免的事项](media/guidelines-powerbi-visuals/things-to-avoid.png)
+
+![大小和格式](media/guidelines-powerbi-visuals/size-and-format.png)
+
+![边距和大小调整](media/guidelines-powerbi-visuals/margins-and-sizes.png)
+
+![编辑模式](media/guidelines-powerbi-visuals/logos-in-edit-mode.png)
+
 
 ## <a name="guidelines-for-power-bi-visuals-with-additional-purchases"></a>额外购买的 Power BI 视觉对象指南
 
@@ -43,24 +69,6 @@ IAP 视觉对象是一个免费的视觉对象，可提供免费功能   。 它
 > [!NOTE]
 > 不允许在免费功能或免费视觉对象上设置水印。 只能为使用时无有效许可的付费功能使用水印。 如果在无有效许可的情况下使用高级功能，建议显示一个弹出窗口，提示与许可相关的所有信息。  
 
-## <a name="logo-guidelines"></a>徽标指南
-
-本部分介绍了在视觉对象中添加徽标和标识的规范。
-
-> [!IMPORTANT]
-> 仅允许在编辑模式下使用徽标  。 无法在查看模式下显示徽标  。
-
-![定义](media/guidelines-powerbi-visuals/definitions.png)
-
-![需要注意的事项](media/guidelines-powerbi-visuals/things-to-keep-in-mind.png)
-
-![需要避免的事项](media/guidelines-powerbi-visuals/things-to-avoid.png)
-
-![大小和格式](media/guidelines-powerbi-visuals/size-and-format.png)
-
-![边距和大小调整](media/guidelines-powerbi-visuals/margins-and-sizes.png)
-
-![编辑模式](media/guidelines-powerbi-visuals/logos-in-edit-mode.png)
 
 ## <a name="best-practices"></a>最佳做法
 

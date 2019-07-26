@@ -7,15 +7,15 @@ ms.reviewer: kayu
 ms.service: powerbi
 ms.subservice: powerbi-gateways
 ms.topic: tutorial
-ms.date: 05/03/2018
+ms.date: 07/15/2019
 ms.author: mblythe
 LocalizationGroup: Gateways
-ms.openlocfilehash: 1c77c272bf5c03ce7df0a5173d194a4c0583ccf2
-ms.sourcegitcommit: 3e72c6d564d930304886d51cdf12b8fc166aa33c
+ms.openlocfilehash: 54ef11b51fb02b6913b4d591967a140c5affc1b8
+ms.sourcegitcommit: 9d13ef7a257b5006fca5f92acf5b611f5cd143a2
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/05/2019
-ms.locfileid: "67596640"
+ms.lasthandoff: 07/18/2019
+ms.locfileid: "68307396"
 ---
 # <a name="refresh-data-from-an-on-premises-sql-server-database"></a>从本地 SQL Server 数据库刷新数据
 
@@ -36,7 +36,7 @@ ms.locfileid: "67596640"
 - 如果你还没有，请在开始之前注册 [Power BI 免费试用版](https://app.powerbi.com/signupredirect?pbi_source=web)。
 - 在本地计算机上[安装 Power BI Desktop](https://powerbi.microsoft.com/desktop/)。
 - 在本地计算机上[安装 SQL Server ](/sql/database-engine/install-windows/install-sql-server)，并还原[来自备份的示例数据库](https://github.com/Microsoft/sql-server-samples/releases/download/adventureworks/AdventureWorksDW2017.bak)。 有关 AdventureWorks 的详细信息，请参阅 [AdventureWorks 安装和配置](/sql/samples/adventureworks-install-configure)。
-- 在与 SQL Server 相同的本地计算机上[安装本地数据网关](service-gateway-install.md)（在生产环境中，通常为其他计算机）。
+- 在与 SQL Server 相同的本地计算机上[安装本地数据网关](service-gateway-onprem.md)（在生产环境中，通常为其他计算机）。
 
 > [!NOTE]
 > 如果你不是网关管理员且不想自己安装网关，请与组织中的网关管理员联系。 他们可创建所需的数据源定义，以将数据集连接到 SQL Server 数据库。
@@ -202,6 +202,6 @@ WHERE EnglishProductName ='Road-250 Red, 58'
 
 在本教程中，你学习了如何将本地 SQL Server 数据库中的数据导入 Power BI 数据集，还学习了如何按计划和按需刷新此数据集，让使用此数据集的报表和仪表板在 Power BI 中保持更新状态。 接下来，你可在 Power BI 中详细了解如何管理数据网关和数据源。 查看“Power BI 中的数据刷新”这篇概念性文章可能也是一个好方法。
 
-- [管理 Power BI 本地网关](service-gateway-manage.md)
+- [管理本地数据网关](/data-integration/gateway/service-gateway-manage)
 - [管理数据源 - 导入/计划刷新](service-gateway-enterprise-manage-scheduled-refresh.md)
 - [Power BI 中的数据刷新](refresh-data.md)

@@ -9,12 +9,12 @@ ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 04/08/2019
 ms.author: mshenhav
-ms.openlocfilehash: a6718ed8f582150ad8f13d638308700f9004a354
-ms.sourcegitcommit: 9278540467765043d5cb953bcdd093934c536d6d
+ms.openlocfilehash: 8600dce5012abb41c37b202dcc8eb204da11fa33
+ms.sourcegitcommit: acd9f8212c9b0c6d3d8c4d56bba3c285246f3122
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/03/2019
-ms.locfileid: "67558995"
+ms.lasthandoff: 07/16/2019
+ms.locfileid: "68230198"
 ---
 # <a name="whats-new-in-the-mobile-apps-for-power-bi"></a>Power BI 移动应用中的新功能
 有关相关的“新增功能”的信息，请参阅：
@@ -22,6 +22,18 @@ ms.locfileid: "67558995"
 * [适用于移动应用的 Power BI 工作组日志](https://powerbi.microsoft.com/blog/tag/mobile/)
 * [Power BI Desktop 中的新增功能](../../desktop-latest-update.md)  
 * [Power BI 服务中的最近更新](../../service-whats-new.md)  
+
+## <a name="july-2019"></a>2019 年 7 月
+
+### <a name="report-page-tooltips"></a>报告页工具提示
+
+现在在移动应用中查看报表时，支持报表页工具提示。 只需按住一个与报表工具提示绑定的视觉对象，即可显示该工具提示。  
+
+![报表画布工具提示](./media/mobile-whats-new-in-the-mobile-apps/report-canvas-tooltip.png)
+
+> [!NOTE]
+> 大于 640 像素和 320 视区的设备支持报表工具提示。 小型设备使用默认工具提示。
+
 
 ## <a name="june-2019"></a>2019 年 6 月
 

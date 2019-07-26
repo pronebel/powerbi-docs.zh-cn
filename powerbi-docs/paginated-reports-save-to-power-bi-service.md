@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: conceptual
 ms.date: 11/05/2018
-ms.openlocfilehash: 1e5f4a4fda8c6d11ead487ce2891e5c085463b75
-ms.sourcegitcommit: 797bb40f691384cb1b23dd08c1634f672b4a82bb
+ms.openlocfilehash: 81e079be6c8bec27c006c68eccb3ea1091b813df
+ms.sourcegitcommit: 277fadf523e2555004f074ec36054bbddec407f8
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/12/2019
-ms.locfileid: "66839594"
+ms.lasthandoff: 07/16/2019
+ms.locfileid: "68271220"
 ---
 # <a name="publish-a-paginated-report-to-the-power-bi-service"></a>将分页报表发布到 Power BI 服务
 
@@ -79,7 +79,7 @@ ms.locfileid: "66839594"
 
    ![管理分页报表](media/paginated-reports-save-to-power-bi-service/power-bi-paginated-manage.png)
 
-1. 请参阅 Power BI 服务文章[安装网关](service-gateway-install.md)，了解详细信息和后续步骤。
+1. 请参阅 Power BI 服务文章[本地数据网关是什么](service-gateway-onprem.md)，了解详细信息和后续步骤。
 
 ### <a name="gateway-limitations"></a>网关限制
 

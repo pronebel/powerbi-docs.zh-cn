@@ -8,13 +8,13 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: overview
-ms.date: 06/18/2019
-ms.openlocfilehash: 10ac6ed9f49241103d03f2667ccc8db5d619db6c
-ms.sourcegitcommit: a42c6758aa255c21ece6366a3257b0dd82f3606b
+ms.date: 07/15/2019
+ms.openlocfilehash: 10135e0fa725cd4093802cd1416cab302174e21d
+ms.sourcegitcommit: 277fadf523e2555004f074ec36054bbddec407f8
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/24/2019
-ms.locfileid: "67345512"
+ms.lasthandoff: 07/16/2019
+ms.locfileid: "68270782"
 ---
 # <a name="paginated-reports-in-power-bi-faq"></a>Power BI 中的分页报表：常见问题解答 
 
@@ -119,10 +119,10 @@ Power BI 报表针对浏览和交互性进行了优化。  例如，对于销售
 
 支持以下数据源 - 
 
-- Power BI Premium 数据集
+- Power BI 数据集（通过单一登录 (SSO)）
 - Azure Analysis Services（通过单一登录 (SSO) 和 oAuth）
 - Azure SQL 数据仓库
-- Azure SQL 数据库（用户名/密码和 oAuth）
+- Azure SQL 数据库（用户名/密码，SSO 和 oAuth）
 - SQL Server*
 - SQL Server Analysis Services (SSAS) 表格 (DAX) 和多维 (MDX) 模型* 
 - Oracle* 
@@ -134,11 +134,11 @@ Power BI 报表针对浏览和交互性进行了优化。  例如，对于销售
 
 ### <a name="what-authentication-methods-do-you-support"></a>支持的身份验证方法有哪些？
 
-支持对 Azure Analysis Services 和 Power BI Premium 数据源使用 SSO，并支持对 Azure SQL 数据库使用 oAuth 和 SSO。  对于其他数据源，目前需要将用户名和密码与数据源一起存储在门户或网关中。  
+Azure Analysis Services、Azure SQL 数据库和 Power BI 数据源支持 SSO。  Azure SQL 数据库和 Azure Analysis Services 还支持 OAuth。  对于其他数据源，目前需要将用户名和密码与数据源一起存储在门户或网关中。  
 
 ### <a name="can-i-use-a-power-bi-dataset-as-a-data-source-for-my-paginated-report"></a>我可以将 Power BI 数据集用作我的分页报表的数据源吗？
 
-能，支持将 Power BI Premium 数据集用作分页报表的数据源。
+能，支持将 Power BI 数据集用作分页报表的数据源。
 
 ### <a name="can-i-use-stored-procedures-through-the-gateway"></a>我可以在通过网关时使用存储的过程吗？
 
@@ -179,10 +179,6 @@ Power BI 报表针对浏览和交互性进行了优化。  例如，对于销售
 ### <a name="is-a-migration-tool-planned-so-ssrs-customers-can-move-their-existing-reports-and-assets-to-power-bi"></a>是否计划了迁移工具以便 SSRS 客户可以将其现有报表和资产移动到 Power BI？
 
 我们正在评估各种选项，以实现通过自动化方式将内容移动到 Power BI，但在正式上市之前尚无法提供此功能。
-
-### <a name="will-i-ever-be-able-to-create-both-paginated-reports-and-power-bi-reports-in-a-single-authoring-tool"></a>我可以在单个创作工具中同时创建分页报表和 Power BI 报表吗？
-
-我们已经研究了启用此方案的方法，但暂未将此方案纳入我们的计划。
 
 ### <a name="is-there-a-report-viewer-control-for-paginated-reports-in-the-power-bi-service"></a>Power BI 服务中是否有针对分页报表的报表查看器控件？
 

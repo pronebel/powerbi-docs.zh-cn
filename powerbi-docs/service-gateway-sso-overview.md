@@ -8,14 +8,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-gateways
 ms.topic: conceptual
-ms.date: 10/15/2018
+ms.date: 07/15/2019
 LocalizationGroup: Gateways
-ms.openlocfilehash: 9e91c162c9b748fd0ef122aed8fc7ffee6dba5fc
-ms.sourcegitcommit: c539726c9c180e899a8a34443e3fda2b9848beb2
-ms.translationtype: MT
+ms.openlocfilehash: 6f270c28f643736f07c09ceb3e544e473f831ad9
+ms.sourcegitcommit: 277fadf523e2555004f074ec36054bbddec407f8
+ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/31/2019
-ms.locfileid: "66448288"
+ms.lasthandoff: 07/16/2019
+ms.locfileid: "68271854"
 ---
 # <a name="overview-of-single-sign-on-sso-for-gateways-in-power-bi"></a>Power BI 中网关的单一登录 (SSO) 概述
 
@@ -25,22 +25,18 @@ ms.locfileid: "66448288"
 
 * SQL Server ([Kerberos](service-gateway-sso-kerberos.md))
 * SAP HANA（[Kerberos](service-gateway-sso-kerberos.md) 和 [SAML](service-gateway-sso-saml.md)）
-* SAP BW ([Kerberos](service-gateway-sso-kerberos.md)
+* SAP BW ([Kerberos](service-gateway-sso-kerberos.md))
 * Teradata ([Kerberos](service-gateway-sso-kerberos.md))
 * Spark ([Kerberos](service-gateway-sso-kerberos.md))
 * Impala ([Kerberos](service-gateway-sso-kerberos.md))
-* SSO 也是可能[其他数据源](desktop-directquery-data-sources.md#single-sign-on-sso-for-directquery-sources)而无需使用数据网关
 
-当用户与 Power BI 服务中的 DirectQuery 报表进行交互时，每个交叉筛选、切片、排序和报表编辑操作都可能会导致针对基础的本地数据源执行实时查询。  为数据源配置了 SSO 时，查询将以与 Power BI 交互的用户标识（即通过 Web 体验或 Power BI 移动应用）执行。 因此，每个用户都可以精确地看到自己在基础数据源中拥有权限的数据 - 配置单一登录后，不同用户之间没有共享的数据缓存。
+当用户与 Power BI 服务中的 DirectQuery 报表进行交互时，每个交叉筛选、切片、排序和报表编辑操作都可能会导致针对基础的本地数据源执行实时查询。 为数据源配置了 SSO 时，查询将以与 Power BI 交互的用户标识（即通过 Web 体验或 Power BI 移动应用）执行。 因此，每个用户都可以精确地看到自己在基础数据源中拥有权限的数据 - 配置单一登录后，不同用户之间没有共享的数据缓存。
 
 ## <a name="query-steps-when-running-sso"></a>运行 SSO 时的查询步骤
 
 使用 SSO 运行的查询由三个步骤组成，如下图所示。
 
 ![SSO 查询步骤](media/service-gateway-sso-overview/sso-query-steps.png)
-
-> [!NOTE]
-> 尚未启用 SSO for Oracle 功能，但正在开发此功能，该功能即将上市。
 
 以下是有关这些步骤的其他详细信息：
 
@@ -59,4 +55,5 @@ ms.locfileid: "66448288"
 现在，你已了解 SSO 的基础知识，请阅读有关 Kerberos 和 SAML 的更多详细信息：
 
 * [单一登录 (SSO) - Kerberos](service-gateway-sso-kerberos.md)
+* [单一登录 (SSO) - Kerberos - 基于资源](service-gateway-sso-kerberos-resource.md)
 * [单一登录 (SSO) - SAML](service-gateway-sso-saml.md)

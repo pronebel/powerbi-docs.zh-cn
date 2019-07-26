@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 06/10/2019
+ms.date: 07/15/2019
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: cc2c9cbc15240e3dc4d46c7f02ef0b0d82bb36f8
-ms.sourcegitcommit: e48ef4c88e4a1a0b259bf899d85d520c4edd5751
+ms.openlocfilehash: 55ffc166d5a42e850bc4e2dedf80de1c6b9f8634
+ms.sourcegitcommit: dc0258bb4f647ff646c6fff2aaffa29b413aa2df
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/10/2019
-ms.locfileid: "66823427"
+ms.lasthandoff: 07/19/2019
+ms.locfileid: "68342147"
 ---
 # <a name="previous-monthly-updates-to-power-bi-desktop"></a>此前的 Power BI Desktop 月度更新
 
@@ -33,6 +33,90 @@ ms.locfileid: "66823427"
 也可以通过单击更新列表下的视频图像上的“**播放**”按钮，从头观看本文中的**最新更新**视频。
 
 以下各节描述了 **Power BI Desktop** 之前月份的更新。
+
+
+## <a name="june-2019-update-2705494561"></a>2019 年 6 月更新 (2.70.5494.561)
+
+6 月更新为 Power BI Desktop 提供了清爽明亮的新配色方案，并进行了一系列其他改进，让报表看起来更加明晰。 
+
+你现在可以[下载最新版本的 Power BI Desktop](https://powerbi.microsoft.com/desktop)。 如果运行的是 Windows 10，还可以从 Windows 应用商店获取 Power BI Desktop  。 无论以何种方式安装 Power BI Desktop，月度版本是相同的，虽然二者的版本编号可能不同  。 请参阅[本文](desktop-get-the-desktop.md)，了解详细信息。 
+
+每个更新旁边的链接表示以下含义：
+
+* 当讨论某项功能时，将会在新的浏览器选项卡上播放 **[视频]** 片段。
+* 某些功能通过 **[文章]** 来提供更多详细信息。
+* 大多数功能在每月更新的 **[博客]** 文章中均有说明。
+* 最后，一些明白易懂的功能则不需要文章或视频。
+
+也可以通过单击更新列表下的视频图像上的“**播放**”按钮，从头观看本文中的**最新更新**视频。
+
+下面介绍了本月新推出的 Power BI Desktop  更新：
+
+### <a name="reporting"></a>报表
+* 更新的窗格设计 [[视频]](https://youtu.be/7k-nP38uHyQ?t=8)  [[博客]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-2019-feature-summary/#panes) 
+* 用于切片器的视觉对象级别筛选器 [[视频]](https://youtu.be/7k-nP38uHyQ?t=116)  [[博客]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-2019-feature-summary/#slicerFilters)
+* 性能分析器窗格的排序 [[视频]](https://youtu.be/7k-nP38uHyQ?t=237)  [[博客]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-2019-feature-summary/#perfAnalyzer)
+* 格式设置选项的条件格式设置更新 [[视频]](https://youtu.be/7k-nP38uHyQ?t=311)  [[博客]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-2019-feature-summary/#conditionalFormatting)
+* 视觉对象标头工具提示 [[视频]](https://youtu.be/7k-nP38uHyQ?t=530)  [[博客]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-2019-feature-summary/#headerTooltips)
+* 表格和矩阵总计标签自定义 [[视频]](https://youtu.be/7k-nP38uHyQ?t=722)  [[博客]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-2019-feature-summary/#totalLabels)
+* 层次结构切片器的同步切片器支持 [[视频]](https://youtu.be/7k-nP38uHyQ?t=859)  [[博客]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-2019-feature-summary/#syncSlicer)
+* 视觉对象之间的一致字体大小 [[视频]](https://youtu.be/7k-nP38uHyQ?t=962)  [[博客]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-2019-feature-summary/#fontSizes)
+
+
+### <a name="analytics"></a>分析
+* 关键影响因素视觉对象更新（预览版）[[视频]](https://youtu.be/7k-nP38uHyQ?t=1064)  [[博客]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-2019-feature-summary/#keyInfluencers) 
+    * 关键影响因素与到 Power BI 数据集的实时连接
+    * 关键影响因素辅助功能
+    * 云 RLS 支持
+* 管理聚合对话框辅助功能 [[视频]](https://youtu.be/7k-nP38uHyQ?t=1213)  [[博客]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-2019-feature-summary/#aggregationsAccessibility) 
+
+### <a name="modeling"></a>建模
+* 新的 == DAX 比较运算符 [[视频]](https://youtu.be/7k-nP38uHyQ?t=1267)  [[博客]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-2019-feature-summary/#dax) 
+
+
+### <a name="visuals"></a>视觉对象
+* 个性化可视化效果窗格（预览版）[[视频]](https://youtu.be/7k-nP38uHyQ?t=1349)  [[博客]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-2019-feature-summary/#personalizedVizPane) 
+* 三个新的自定义视觉对象和更新 [[视频]](https://youtu.be/7k-nP38uHyQ?t=1391)  [[博客]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-2019-feature-summary/#synopticVisual) 
+
+
+### <a name="data-connectivity"></a>数据连接
+* 连接到共享和认证数据集 [[视频]](https://youtu.be/7k-nP38uHyQ?t=1739)  [[博客]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-2019-feature-summary/#sharedCertifiedDatasets) 
+* Common Data Service 连接器现已正式发布 [[视频]](https://youtu.be/7k-nP38uHyQ?t=1807)  [[博客]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-2019-feature-summary/#cds) 
+* Azure 数据资源管理器连接器现已正式发布 [[视频]](https://youtu.be/7k-nP38uHyQ?t=1823)  [[博客]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-2019-feature-summary/#azureDataExplorer) 
+* Cosmos DB 连接器增强功能 [[视频]](https://youtu.be/7k-nP38uHyQ?t=1835)  [[博客]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-2019-feature-summary/#cosmosDB)
+* Entersoft 数据连接器 [[视频]](https://youtu.be/7k-nP38uHyQ?t=1851)  [[博客]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-2019-feature-summary/#entersoft) 
+
+
+### <a name="data-preparation"></a>数据准备
+* M Intellisense 增强功能 [[视频]](https://youtu.be/7k-nP38uHyQ?t=1866)  [[博客]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-2019-feature-summary/#intellisense) 
+
+
+> [!NOTE]
+> 还可以[查看 Power BI Desktop 可用的所有数据源](desktop-data-sources.md)；我们的列表始终在不断增加内容，请时常返回查看。
+
+想了解有关这些更新的详细信息？ 请查看[博客文章](https://powerbi.microsoft.com/blog/power-bi-desktop-june-2019-feature-summary/)，你可以在其中获取有关上述每项新增功能的更为详细的信息（此博客文章即为上文列表引用的博客文章）。
+
+
+以下视频介绍和展示了上述的每项更新。 你还可以从博客文章查看该视频。
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/7k-nP38uHyQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+
+> [!NOTE]
+> 你可能还有兴趣了解 [Power BI 服务中的新增功能](service-whats-new.md)，请同时查看 [Power BI 移动应用中的新增功能](consumer/mobile/mobile-whats-new-in-the-mobile-apps.md)。
+
+还可以下载旧版 Power BI Desktop（若组织需要）。 始终建议使用最新版 Power BI Desktop，而不是旧版本。 所有旧版本都存在以下限制：
+
+* 旧版 Power BI Desktop 无法提供服务，应始终使用最新版本获取最新功能和更新。
+* 可能无法使用旧版 Power BI Desktop 打开在较新版本的 Power BI Desktop 中创建或保存的文件。 
+* 如果在加载较新版本的 Power BI Desktop 中保存的报表时收到警告，然后将该报表保存在旧版本中，则会丢失与新功能相关的所有信息。
+* 我们只存档 Power BI Desktop 的英文版本。
+
+请选择以下链接以下载早期版本： 
+
+* [2019 年 5 月版 Power BI Desktop - 32 位](http://download.microsoft.com/download/9/B/A/9BAEFFEF-1A68-4102-8CDF-5D28BFFE6A61/PBIDesktop-2019-06.msi)
+* [2019 年 5 月版 Power BI Desktop - 64 位](http://download.microsoft.com/download/9/B/A/9BAEFFEF-1A68-4102-8CDF-5D28BFFE6A61/PBIDesktop-2019-06_x64.msi)
+
 
 ## <a name="may-2019-update-26954671251"></a>2019 年 5 月更新 (2.69.5467.1251)
 
@@ -130,7 +214,7 @@ ms.locfileid: "66823427"
 下面介绍了本月新推出的 Power BI Desktop  更新：
 
 ### <a name="reporting"></a>报表
-* 筛选器窗格改进 [[视频]](https://youtu.be/vih35kSrEHU?t=9)  [[文章]](power-bi-report-filter-preview.md)  [[博客]](https://powerbi.microsoft.com/blog/power-bi-desktop-april-2019-feature-summary/#filterPane) 
+* 筛选器窗格改进 [[视频]](https://youtu.be/vih35kSrEHU?t=9)  [[文章]](power-bi-report-filter.md)  [[博客]](https://powerbi.microsoft.com/blog/power-bi-desktop-april-2019-feature-summary/#filterPane) 
 * 视觉对象标题的条件格式设置 [[视频]](https://youtu.be/vih35kSrEHU?t=254)  [[文章]](desktop-conditional-format-visual-titles.md)  [[博客]](https://powerbi.microsoft.com/blog/power-bi-desktop-april-2019-feature-summary/#dynamicTitles)
 * 按钮、形状和图像的 Web URL 操作的条件格式设置 [[视频]](https://youtu.be/vih35kSrEHU?t=439)  [[博客]](https://powerbi.microsoft.com/blog/power-bi-desktop-april-2019-feature-summary/#dynamicURLs)
 

@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 01/30/2019
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: a5f3f5003eb1d22b0667698691471150f04553d8
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: b3fa7fd07a4c7f1992623871ed408b959582a125
+ms.sourcegitcommit: 277fadf523e2555004f074ec36054bbddec407f8
+ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61196873"
+ms.lasthandoff: 07/16/2019
+ms.locfileid: "68270602"
 ---
 # <a name="power-bi-high-availability-failover-and-disaster-recovery-faq"></a>Power BI 高可用性、故障转移和灾难恢复常见问题解答
 
@@ -65,7 +65,7 @@ Power BI 维护 Azure 数据中心（也称为区域）中每个组件的多个�
 如果组织中使用的 Power BI 解决方案涉及以下元素之一，则必须采取一些措施来保证解决方案仍然高度可用：
 
 - 如果组织使用 Power BI Premium，则必须确保调整高级容量大小以满足部署的负载要求。  [Power BI Premium 规划和部署白皮书](https://aka.ms/Premium-Capacity-Planning-Deployment)和 [Power BI Premium 容量指标应用](service-admin-premium-monitor-capacity.md)可帮助规划和满足此要求。 我们定期向度量值应用和 Power BI 中的管理门户添加新功能以进行帮助。
-- 如果组织使用 Power BI 本地网关访问本地数据源，则必须[按照本文中所述](service-gateway-high-availability-clusters.md)来设置网关，以支持高可用性。 无论是在导入模式下刷新报表，还是在使用 DirectQuery 或 Live Connect 访问数据或数据模型，都请按照此指导进行操作。
+- 如果组织使用本地数据网关访问本地数据源，则必须[按照本文所述](/data-integration/gateway/service-gateway-high-availability-clusters)来设置网关，以支持高可用性。 无论是在导入模式下刷新报表，还是在使用 DirectQuery 或 Live Connect 访问数据或数据模型，都请按照此指导进行操作。
 
 ## <a name="will-gateways-function-when-in-failover-mode"></a>在处于故障转移模式期间，网关是否会工作正常？
 

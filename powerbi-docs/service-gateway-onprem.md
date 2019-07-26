@@ -9,119 +9,46 @@ ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
 LocalizationGroup: Gateways
-ms.date: 06/05/2018
-ms.openlocfilehash: 7e2e0e7a980c72f203f93baf552685dce6f43bbd
-ms.sourcegitcommit: 8dee40f07d284ec84a8afa0100359f146e1dd88b
+ms.date: 07/15/2019
+ms.openlocfilehash: 57c4292913a2056ab285716de1e1b83e2313f723
+ms.sourcegitcommit: 9d13ef7a257b5006fca5f92acf5b611f5cd143a2
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/27/2019
-ms.locfileid: "67418811"
+ms.lasthandoff: 07/18/2019
+ms.locfileid: "68307100"
 ---
-# <a name="on-premises-data-gateway"></a>本地数据网关
+# <a name="what-is-an-on-premises-data-gateway"></a>本地数据网关是什么？
 
-本地数据网关的作用好似一架桥，提供本地数据（不在云中的数据）与 Power BI、Microsoft Flow、逻辑应用以及 PowerApps 服务之间快速且安全的数据传输。
+[!INCLUDE [gateway-rewrite](includes/gateway-rewrite.md)]
 
-你可以同时将单个网关与不同的服务一起使用。 如果使用的是 Power BI 和 PowerApps，可以对它们使用同一个网关。 它依赖于你登录的帐户。
+本地数据网关充当桥梁，可在本地数据（不在云中的数据）和多个 Microsoft 云服务（包括 Power BI、PowerApps、Microsoft Flow、Azure Analysis Services 和逻辑应用）之间提供快速且安全的数据传输。 通过使用网关，组织可以将数据库和其他数据源保留在其本地网络上，还可以在云服务中安全地使用该本地数据。
 
-> [!NOTE]
-> 本地数据网关在所有模式下实现数据压缩和传输加密。
+## <a name="how-the-gateway-works"></a>网关的工作原理
 
-<!-- Shared Requirements Include -->
-[!INCLUDE [gateway-onprem-requirements-include](./includes/gateway-onprem-requirements-include.md)]
+![网关概述](media/service-gateway-onprem/on-premises-data-gateway.png)
 
-### <a name="limitations-of-analysis-services-live-connections"></a>Analysis Services 实时连接限制
+有关网关工作原理的详细信息，请参阅[本地数据网关体系结构](/data-integration/gateway/service-gateway-onprem-indepth)。
 
-你可以使用针对表格或多维实例的实时连接。
+## <a name="types-of-gateways"></a>网关类型
 
-| **服务器版本** | **所需的 SKU** |
-| --- | --- |
-| 2012 SP1 CU4 或更高版本 |商业智能和企业版 SKU |
-| 2014 |商业智能和企业版 SKU |
-| 2016 |标准 SKU 或更高版本 |
+有两种不同类型的网关，各适用于不同的方案：
 
-* 不支持单元格级别格式和转译功能。
-* 操作和命名集不会公开到 Power BI，但你仍然可以连接到包含操作或命名集的多维数据集，并创建视觉对象和报表。
+* 本地数据网关  – 允许多个用户连接到多个本地数据源。 可以将本地数据网关与所有支持的服务结合使用，只需要安装单个网关即可。 此网关非常适用于多个用户访问多个数据源的复杂场景。
 
-<!-- Shared Install steps Include -->
-[!INCLUDE [gateway-onprem-datasources-include](./includes/gateway-onprem-datasources-include.md)]
+*  本地数据网关（个人模式）– 允许一位用户连接到源，且无法与其他人共享。 本地数据网关（个人模式）只能与 Power BI 一起使用。 此网关非常适用于你是创建报表的唯一人员且不需要与其他人共享数据源的场景。
 
-## <a name="download-and-install-the-on-premises-data-gateway"></a>下载并安装本地数据网关
+## <a name="using-a-gateway"></a>使用网关
 
-若要下载网关，请选择“下载”菜单下的“数据网关”  。 下载[本地数据网关](http://go.microsoft.com/fwlink/?LinkID=820925)。
+使用网关有以下四个主要步骤：
 
-请注意：通过重新安装网关来更新本地数据网关，如本部分中所述。 只要安装较新版本的网关，就会保留现有设置。 如果安装同一版本，则它会将其视为完全重新安装，且不会保留你的设置。
-
-![](media/service-gateway-onprem/powerbi-download-data-gateway.png)
-
-<!-- Shared Install steps Include -->
-[!INCLUDE [gateway-onprem-install-include](./includes/gateway-onprem-install-include.md)]
-
-## <a name="install-the-gateway-in-personal-mode"></a>在个人模式下安装网关
-
-> [!NOTE]
-> 网关的个人版本仅适用于 Power BI。
-
-安装个人网关后，你将需要启动 **Power BI Gateway - Personal 配置向导**。
-
-![](media/service-gateway-onprem/personal-gateway-launch-configuration.png)
-
-然后你需要登录到 Power BI 以使用云服务注册网关。
-
-![](media/service-gateway-onprem/personal-gateway-signin.png)
-
-你还需要提供 Windows 服务运行需要的 Windows 用户名和密码。 你可以自己指定一个不同的 Windows 帐户。 网关服务将使用此帐户运行。
-
-![](media/service-gateway-onprem/personal-gateway-windows-service.png)
-
-安装完成后，将需要转到 Power BI 中的数据集并确保已为本地数据源输入了凭据。
-
-<a name="credentials"></a>
-
-## <a name="storing-encrypted-credentials-in-the-cloud"></a>在云中存储加密凭据
-
-将数据源添加到网关时，需要为该数据源提供凭据。 将使用这些凭据运行对数据源的所有查询。 在云中存储凭据之前，使用对称加密安全地加密凭据，使其在云中无法被解密。 将凭据发送到运行网关的计算机，以便在访问数据源时对其进行本机解密。
-
-<!-- Account and Port information -->
-[!INCLUDE [gateway-onprem-accounts-ports-more](./includes/gateway-onprem-accounts-ports-more.md)]
-
-<!-- How the gateway works -->
-[!INCLUDE [gateway-onprem-how-it-works-include](./includes/gateway-onprem-how-it-works-include.md)]
-
-## <a name="limitations-and-considerations"></a>限制和注意事项
-
-* 暂不支持 [Azure 信息保护](https://docs.microsoft.com/microsoft-365/enterprise/protect-files-with-aip
-)。
-* 暂不支持 [Access Online](https://products.office.com/access)。
-* 仅当在个人模式下运行网关时，才支持 R 脚本。
-
-## <a name="tenant-level-administration"></a>租户级别管理
-
-租户管理员可以查看租户中安装的所有本地数据网关并对其进行管理。 此功能目前以公共预览版提供。 有关详细信息，请参阅 [Power 平台管理中心文档](/power-platform/admin/onpremises-data-gateway-management)。
-
-或者，如果你是租户管理员，建议你请求组织中的用户将你添加为他们所安装的每个网关的管理员。 这样你便可以通过“网关设置”页或通过 [PowerShell 命令](service-gateway-high-availability-clusters.md#powershell-support-for-gateway-clusters)管理组织中的所有网关。 
-
-## <a name="enabling-outbound-azure-connections"></a>启用出站 Azure 连接
-
-本地数据网关依赖 Azure 服务总线提供云连接，并相应地建立到其关联 Azure 区域的出站连接。 默认情况下，这是你的 Power BI 租户的位置。 查看我的 [Power BI 租户位于何处？](https://powerbi.microsoft.com/documentation/powerbi-admin-where-is-my-tenant-located/)
-如果防火墙阻止出站连接，则必须配置防火墙，使其允许从本地数据网关到其关联 Azure 区域的出站连接。 请参阅 [Microsoft Azure 数据中心 IP 范围](https://www.microsoft.com/download/details.aspx?id=41653)详细了解每个 Azure 数据中心 IP 地址范围。
-> [!NOTE]
-> IP 地址范围可能随时间而变化，因此请确保定期下载最新信息。 
-
-## <a name="troubleshooting"></a>故障排除
-
-如果在安装和配置网关时遇到问题，请务必参阅[本地数据网关疑难解答](service-gateway-onprem-tshoot.md)。 如果你认为你的防火墙有问题，请参阅故障排除文章中的[防火墙或代理](service-gateway-onprem-tshoot.md#firewall-or-proxy)部分。
-
-如果你认为网关遇到代理问题，请参阅[为 Power BI Gateway 配置代理服务器设置](service-gateway-proxy.md)。
+1. 在本地计算机上[下载并安装网关](/data-integration/gateway/service-gateway-install)。
+2. 根据防火墙和其他网络要求[配置](/data-integration/gateway/service-gateway-app)网关。
+3. [添加网关管理员](/data-integration/gateway/service-gateway-manage)，以便管理网关和管理其他网络要求。
+4. 出现错误时，对网关进行[故障排除](service-gateway-onprem-tshoot.md)。
 
 ## <a name="next-steps"></a>后续步骤
 
-[管理数据源 - Analysis Services](service-gateway-enterprise-manage-ssas.md)  
-[管理数据源 - SAP HANA](service-gateway-enterprise-manage-sap.md)  
-[管理数据源 - SQL Server](service-gateway-enterprise-manage-sql.md)  
-[管理数据源 - Oracle](service-gateway-onprem-manage-oracle.md)  
-[管理数据源 - 导入/计划刷新](service-gateway-enterprise-manage-scheduled-refresh.md)  
-[深入了解本地数据网关](service-gateway-onprem-indepth.md)  
-[本地数据网关（个人模式）- 新版本的个人网关](service-gateway-personal-mode.md)  
-[为本地数据网关配置代理设置](service-gateway-proxy.md)  
+* [安装本地数据网关](/data-integration/gateway/service-gateway-install)
+
 
 更多问题？ [尝试参与 Power BI 社区](http://community.powerbi.com/)
