@@ -1,20 +1,20 @@
 ---
 title: Power BI 分页报表支持的数据源
 description: 本文将介绍 Power BI 服务中分页报表支持的数据源，以及如何连接到 Azure SQL 数据库数据源。
-author: maggiesMSFT
-ms.author: maggies
+author: onegoodsausage
+ms.author: andremi
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: conceptual
 ms.date: 07/19/2019
-ms.openlocfilehash: 91ddcfca56ac7c08736c35c7232df04082e4e921
-ms.sourcegitcommit: a58461fe7dfa65c751490b52de5fc73f8e69a17f
+ms.openlocfilehash: f055cd27f25af399b63336e66aaad526ed740de2
+ms.sourcegitcommit: 8aa90f662afb7492ffcfc11ef142cdb0ccecc9aa
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/19/2019
-ms.locfileid: "68352967"
+ms.lasthandoff: 07/24/2019
+ms.locfileid: "68462311"
 ---
 # <a name="supported-data-sources-for-power-bi-paginated-reports"></a>Power BI 分页报表支持的数据源
 
@@ -26,11 +26,11 @@ ms.locfileid: "68352967"
 
 | 数据源 | 身份验证 | 注意 |
 | --- | --- | --- |
-| Azure SQL 数据库 <br>Azure SQL 数据仓库 | 基本、单一登录 (SSO)、OAuth2 |   |
+| Azure SQL Database <br>Azure SQL Data Warehouse | 基本、单一登录 (SSO)、OAuth2 |   |
 | Azure Analysis Services | SSO、OAuth2 |   |
 | Power BI 数据集 | SSO | 高级和非高级 Power BI 数据集 |
 | 高级 Power BI 数据集 (XMLA) | SSO |   |
-| 输入数据 | N/A | 数据嵌入在报表中。 |
+| 输入数据 | 不适用 | 数据嵌入在报表中。 |
 
 将报表上传到 Power BI 服务之后，可使用除 Azure SQL 数据库之外的所有数据源。 如果适用的话，数据源默认使用单一登录 (SSO)。 对于 Azure Analysis Services，可将身份验证类型更改为 OAuth2。
 

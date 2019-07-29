@@ -8,6 +8,8 @@
           href: end-user-consumer.md
         - name: Power BI 使用者的基本概念和术语
           href: end-user-basic-concepts.md
+        - name: 导航“全新外观”
+          href: ../service-new-look.md
     - name: 快速入门
       items:
         - name: 在 Power BI 中找到解决方法
@@ -50,7 +52,7 @@
               href: end-user-pdf.md
             - name: 向报表添加书签
               href: end-user-bookmarks.md
-        - name: 可视化
+        - name: 可视化效果
           items:
             - name: 使用可视化效果可以做什么？
               href: end-user-visualizations.md

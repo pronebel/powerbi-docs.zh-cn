@@ -1,6 +1,6 @@
 ---
-title: 在 Power BI 中自定义视觉对象
-description: Power BI 中的自定义可视化效果
+title: Power BI 中的视觉对象
+description: 在 Power BI 中自定义可视化效果
 author: sranins
 ms.author: rasala
 manager: kfile
@@ -10,14 +10,14 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 05/15/2019
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 23436fb8e21e1be3a863986a773d7d969da65122
-ms.sourcegitcommit: 24781cdab5fbe43fc14248db636169cc54ef6721
+ms.openlocfilehash: 68048968bf6a3f85f2bc24e55fd1288073be1d56
+ms.sourcegitcommit: 473d031c2ca1da8935f957d9faea642e3aef9839
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/04/2019
-ms.locfileid: "66498043"
+ms.lasthandoff: 07/23/2019
+ms.locfileid: "68415406"
 ---
-# <a name="custom-visuals-in-power-bi"></a>在 Power BI 中自定义视觉对象
+# <a name="visuals-in-power-bi"></a>Power BI 中的视觉对象
 
 创建或编辑 Power BI 报表时，可以使用多种不同类型的视觉对象。 这些视觉对象的图标显示在“可视化效果”窗格中  。 下载 [Power BI Desktop](https://powerbi.microsoft.com/desktop/) 或打开 [Power BI 服务](https://app.powerbi.com)时，这些视觉对象都已“预打包”。
 

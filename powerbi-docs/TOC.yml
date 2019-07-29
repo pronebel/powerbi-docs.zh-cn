@@ -289,7 +289,7 @@
               href: desktop-see-data-see-records.md
             - name: 有关创建报表的提示
               href: desktop-tips-and-tricks-for-creating-reports.md
-        - name: 可视化
+        - name: 可视化效果
           items:
             - name: Power BI 中的可视化效果
               href: visuals/power-bi-report-visualizations.md
@@ -933,6 +933,8 @@
           href: report-builder-planning-report.md
         - name: 报表生成器数据
           href: report-builder-data.md
+        - name: 使用 Power BI 共享数据集
+          href: report-builder-shared-datasets.md
         - name: 设计提示
           href: report-builder-design-tips.md
         - name: 表、矩阵、列表
