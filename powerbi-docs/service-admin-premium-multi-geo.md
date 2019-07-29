@@ -10,14 +10,14 @@ ms.subservice: powerbi-admin
 ms.topic: conceptual
 ms.date: 02/05/2019
 LocalizationGroup: Premium
-ms.openlocfilehash: 7735ce3d6d28f51ca95efbe12394c2e0cb2cba29
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: fcef4b7bc9feaee0912a8e0e9ea8098d52c66e3a
+ms.sourcegitcommit: 76fadf20c1e19ec43aa8f9c5a5e909b567419ef6
+ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "65564947"
+ms.lasthandoff: 07/17/2019
+ms.locfileid: "68289833"
 ---
-# <a name="configure-multi-geo-support-for-power-bi-premium"></a>配置 Power BI Premium 的多地域支持
+# <a name="configure-multi-geo-support-for-power-bi-premium"></a>配置 Power BI Premium 的 Multi-Geo 支持
 
 Multi-Geo（多地理位置）是一项 Power BI Premium 功能，可帮助跨国客户解决地区、特定于行业或组织的数据驻留要求。 作为 Power BI Premium 客户，可以将内容部署到除 Power BI 租户主区域以外区域的数据中心。 一个地区 (geography) 可以包含多个区域。 例如，美国是一个地区，而美国中西部和美国中南部都是美国的区域。 可以选择将内容部署到以下任何地区：
 
@@ -94,7 +94,7 @@ Power BI Embedded 现在也提供 Multi-Geo 功能。 阅读[Power BI Embedded �
 - 存储在远程区域中的缓存查询将停留在该区域内。 然而，传输中的其他数据可能在多个地区之间来回切换。
 - 当在 Multi-Geo 环境中将数据从一个区域移动到另一个区域时，源数据可能保留在从中移出数据的区域内达 30 天。 在此期间，最终用户无权访问该数据。 该数据会在 30 天内从该区域中删除并销毁。
 - 一般情况下，Multi-Geo 不会促进性能提升。 加载报表和仪表板仍涉及到对主区域元数据的请求。
-- Multi-Geo 上暂不支持[数据流](service-dataflows-overview.md)功能（预览）。
+- 目前，Multi-GEO 暂不支持[“数据流”](service-dataflows-overview.md)功能。
 
 ## <a name="next-steps"></a>后续步骤
 

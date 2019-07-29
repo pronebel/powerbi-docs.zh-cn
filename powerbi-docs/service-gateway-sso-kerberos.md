@@ -8,14 +8,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-gateways
 ms.topic: conceptual
-ms.date: 10/10/2018
+ms.date: 07/15/2019
 LocalizationGroup: Gateways
-ms.openlocfilehash: d8cebda3ad0db9fba48804fb8d2dd029c1c07f8d
-ms.sourcegitcommit: aef57ff94a5d452d6b54a90598bd6a0dd1299a46
+ms.openlocfilehash: 1a0ec90d3f6a1de5a542da7ee98f956dfcef67b1
+ms.sourcegitcommit: fe8a25a79f7c6fe794d1a30224741e5281e82357
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/07/2019
-ms.locfileid: "66809277"
+ms.lasthandoff: 07/18/2019
+ms.locfileid: "68325149"
 ---
 # <a name="use-kerberos-for-single-sign-on-sso-from-power-bi-to-on-premises-data-sources"></a>使用 Kerberos 进行从 Power BI 到本地数据源的单一登录 (SSO)
 
@@ -60,7 +60,7 @@ ms.locfileid: "66809277"
 
 ![服务帐户的屏幕截图](media/service-gateway-sso-kerberos/service-account.png)
 
-若要启用 Kerberos 约束委派，网关必须作为域帐户运行，除非 Azure Active Directory (Azure AD) 实例已与本地 Active Directory 实例同步（使用 Azure AD DirSync/Connect）。 若要切换到域帐户，请参阅本文后面的[将网关切换到域帐户](#switch-the-gateway-to-a-domain-account)。
+若要启用 Kerberos 约束委派，网关必须作为域帐户运行，除非 Azure Active Directory (Azure AD) 实例已与本地 Active Directory 实例同步（使用 Azure AD DirSync/Connect）。 若要切换到域帐户，请参阅[更改网关服务帐户](/data-integration/gateway/service-gateway-service-account)。
 
 > [!NOTE]
 > 如果配置了 Azure AD Connect 并且用户帐户已同步，则网关服务不需要在运行时执行本地 Azure AD 查找。 可以将本地服务 SID（而不是请求域帐户）用于网关服务。 本文所述的 Kerberos 约束委派配置步骤与该配置相同。 它们仅应用于 Azure AD 中网关的计算机对象，而不是域帐户。
@@ -99,7 +99,7 @@ ms.locfileid: "66809277"
 
 我们需要通过协议转换来配置“Kerberos 约束委派”。 使用约束委派时，必须要明确要委派哪些服务。 例如，只有 SQL Server 或 SAP HANA 服务器接受网关服务帐户的委派调用。
 
-本节假定你已经为基础数据源（例如 SQL Server、SAP HANA、Teradata 和 Spark）配置了 SPN。 要了解如何配置这些数据源服务器 SPN，请参阅相应数据库服务器的技术文档。 还可以参阅博客文章 [What SPN does your app require?](https://blogs.msdn.microsoft.com/psssql/2010/06/23/my-kerberos-checklist/)（应用需要的 SPN 是什么？）。
+本节假定你已经为基础数据源（例如 SQL Server、SAP HANA、Teradata 和 Spark）配置了 SPN。 要了解如何配置这些数据源服务器 SPN，请参阅相应数据库服务器的技术文档。 还可以参阅博客文章[My Kerberos Checklist](https://techcommunity.microsoft.com/t5/SQL-Server-Support/My-Kerberos-Checklist-8230/ba-p/316160)（我的 Kerberos 清单）中的标题为 What SPN does your app require?（你的应用需要什么SPN？）的部分  。
 
 在以下步骤中，我们假设本地环境中有两台计算机：网关计算机和运行 SQL Server 数据库的服务器。 针对本示例，我们还假设以下设置和名称：
 
@@ -118,21 +118,21 @@ ms.locfileid: "66809277"
 
 4. 选择“仅信任此计算机来委派指定的服务” > “使用任意身份验证协议”   。
 
-6. 在“可以由此帐户提供委派凭据的服务”下选择“添加”   。
+5. 在“可以由此帐户提供委派凭据的服务”下选择“添加”   。
 
-7. 在新对话框中，选择“用户或计算机”  。
+6. 在新对话框中，选择“用户或计算机”  。
 
-8. 输入 SQL Server 数据源 (PBIEgwTest\SQLService) 的服务帐户，然后选择“确定”   。
+7. 输入数据源的服务帐户，例如，SQL Server 数据源的服务帐户可能类似于 PBIEgwTest\SQLService  。 添加帐户后，请选择“确定”  。
 
-9. 选择你为数据库服务器创建的 SPN。 在我们的示例中，SPN 以“MSSQLSvc”开头  。 如果你为数据库服务添加了 FQDN 和 NetBIOS SPN，请同时选择两者。 你可能只看到一个。
+8. 选择你为数据库服务器创建的 SPN。 在我们的示例中，SPN 以“MSSQLSvc”开头  。 如果你为数据库服务添加了 FQDN 和 NetBIOS SPN，请同时选择两者。 你可能只看到一个。
 
-10. 选择**确定**。 现在，列表中应该会显示 SPN。
+9. 选择**确定**。 现在，列表中应该会显示 SPN。
 
     或者，你可以选择“已展开”以在以下位置同时显示 FQDN 和 NetBIOS SPN  。 如果选择了“已展开”，则对话框如下所示  。 选择**确定**。
 
     ![网关连接器属性对话框的屏幕截图](media/service-gateway-sso-kerberos/gateway-connector-properties.png)
 
-最后，必须在运行网关服务（在示例中为 PBIEgwTestGW）的计算机上授予网关服务帐户本地策略“身份验证后模拟客户端”。   可以使用本地组策略编辑器 (gpedit) 执行和验证此操作  。
+最后，在运行网关服务（示例中的 PBIEgwTestGW）的计算机上，必须授予网关服务帐户本地策略“身份验证后模拟客户端”和“以操作系统方式执行”(SeTcbPrivilege)。    。 可以使用本地组策略编辑器 (gpedit) 执行和验证此配置  。
 
 1. 在网关计算机上运行：gpedit.msc  。
 
@@ -170,40 +170,26 @@ ms.locfileid: "66809277"
 
 在大多数情况下，此配置有效。 但是，使用 Kerberos 时，根据你的环境可以有不同的配置。 如果报表仍无法加载，请联系你的域管理员进一步调查。
 
-## <a name="switch-the-gateway-to-a-domain-account"></a>将网关切换到域帐户
-
-如有必要，可以使用“本地数据网关”用户界面，将网关从本地服务帐户切换为作为域帐户运行  。 下面介绍如何操作：
-
-1. 打开“本地数据网关”配置工具  。
-
-   ![启动网关桌面应用的选项屏幕截图](media/service-gateway-sso-kerberos/gateway-desktop-app.png)
-
-2. 选择主页上的“登录”  按钮，然后使用你的 Power BI 帐户登录。
-
-3. 登录完成后，选择“服务设置”  选项卡。
-
-4. 选择“更改帐户”启动操作引导说明  。
-
-   ![本地数据网关桌面应用的屏幕截图，突出显示更改帐户选项](media/service-gateway-sso-kerberos/change-account.png)
-
 ## <a name="configure-sap-bw-for-sso"></a>为 SSO 配置 SAP BW
 
 了解了 Kerberos 如何与网关配合使用后，接下来可以为 SAP Business Warehouse (SAP BW) 配置 SSO。 以下步骤假设你已经[为 Kerberos 约束委派做好了准备](#prepare-for-kerberos-constrained-delegation)（如本文前面部分所述）。
 
 本指南尝试尽可能全面地进行介绍。 如果你已经完成了其中的一些步骤，则可以跳过这些步骤。 例如，你可能已经为 SAP BW 服务器创建了一个服务用户并已将 SPN 映射到它，或者已安装了 `gsskrb5` 库。
 
-### <a name="set-up-gsskrb5-on-client-machines-and-the-sap-bw-server"></a>在客户端计算机和 SAP BW 服务器上设置 gsskrb5
+### <a name="set-up-gsskrb5gx64krb5-on-client-machines-and-the-sap-bw-server"></a>在客户端计算机和 SAP BW 服务器上设置 gsskrb5/gx64krb5
 
 > [!NOTE]
-> SAP 不再主动支持 `gsskrb5`。 有关详细信息，请参阅 [SAP 备注 352295](https://launchpad.support.sap.com/#/notes/352295)。 另请注意，`gsskrb5` 不允许从数据网关到 SAP BW 消息服务器的 SSO 连接。 仅可连接到 SAP BW 应用程序服务器。 客户端和服务器必须使用 `gsskrb5` 才能通过网关完成 SSO 连接。 目前支持 SAP BW 的 Common Crypto Library (sapcrypto)。
+> SAP 不再主动支持 `gsskrb5/gx64krb5`。 有关详细信息，请参阅 [SAP 备注 352295](https://launchpad.support.sap.com/#/notes/352295)。 另请注意，`gsskrb5/gx64krb5` 不允许从数据网关到 SAP BW 消息服务器的 SSO 连接。 仅可连接到 SAP BW 应用程序服务器。 现在可以使用 sapcrypto/CommonCryptoLib 作为 SNC 库，从而简化安装过程。 
 
-1. 从 [SAP 注释 2115486](https://launchpad.support.sap.com/) 下载 `gsskrb5` - `gx64krb5`（需要是 SAP 用户）。 请确保至少有 1.0.11.x 版本的 gsskrb5.dll 和 gx64krb5.dll。
+客户端和服务器必须使用 `gsskrb5` 才能通过网关完成 SSO 连接。
+
+1. 根据所需位数，从 [SAP Note 2115486](https://launchpad.support.sap.com/)（SAP 注释 2115486）下载 `gsskrb5` 或 `gx64krb5`（需要是 SAP S 用户）。 确保你使用的版本至少是 1.0.11。
 
 1. 将库放在网关计算机上可由网关实例访问的位置（如果要使用 SAP Logon 测试 SSO 连接，还需要 SAP GUI 可以访问该位置）。
 
 1. 将另一个副本放在 SAP BW 服务器计算机上的可由 SAP BW 服务器访问的位置。
 
-1. 在客户端和服务器计算机上，将 `SNC\_LIB` 和 `SNC\_LIB\_64` 环境变量分别设置为指向 gsskrb5.dll 和 gx64krb5.dll 的位置。
+1. 在客户端和服务器计算机上，将 `SNC_LIB` 或 `SNC_LIB_64` 环境变量分别设置为指向 gsskrb5.dll 或 gx64krb5.dll 的位置。 请注意，你只需要其中的一个库，而不是两者都需要。
 
 ### <a name="create-a-sap-bw-service-user-and-enable-snc-communication"></a>创建 SAP BW 服务用户并启用 SNC 通信
 
@@ -262,7 +248,7 @@ ms.locfileid: "66809277"
 
     ![SAP BW 用户维护屏幕的屏幕截图](media/service-gateway-sso-kerberos/user-maintenance.png)
 
-1. 选择“SNC”选项卡  。在 SNC 名称输入框中，输入 p:\<你的 Active Directory 用户\>@\<你的域\>。 请注意，必须在 Active Directory 用户的 UPN 之前加“p:”。 指定的 Active Directory 用户应是要为其启用 SSO 访问 SAP BW 应用程序服务器的人员或组织。 例如，如果要为用户 [testuser@TESTDOMAIN.COM](mailto:testuser@TESTDOMAIN.COM) 启用 SSO 访问权限，请输入 p:testuser@TESTDOMAIN.COM。
+1. 选择“SNC”选项卡  。在 SNC 名称输入框中，输入 p:\<你的 Active Directory 用户\>@\<你的域\>。 请注意，必须在 Active Directory 用户的 UPN 之前加“p:”。 指定的 Active Directory 用户应是要为其启用 SSO 访问 SAP BW 应用程序服务器的人员或组织。 例如，如果要为用户 testuser\@TESTDOMAIN.COM 启用 SSO 访问权限，请输入 p:testuser@TESTDOMAIN.COM。
 
     ![SAP BW 维护用户屏幕的屏幕截图](media/service-gateway-sso-kerberos/maintain-users.png)
 
@@ -290,17 +276,17 @@ ms.locfileid: "66809277"
 
 如果遇到任何问题，请按照以下步骤对 SAP Logon 中的 gsskrb5 安装和 SSO 连接进行故障排除。
 
-- 查看服务器日志（位于服务器计算机上的 …work\dev\_w0）可以帮助你对完成 gsskrb5 设置步骤期间遇到的任何错误进行故障排除。 如果在更改配置文件参数后 SAP BW 服务器无法启动，则尤其如此。
+* 查看服务器日志（位于服务器计算机上的 …work\dev\_w0）可以帮助你对完成 gsskrb5 设置步骤期间遇到的任何错误进行故障排除。 如果在更改配置文件参数后 SAP BW 服务器无法启动，则尤其如此。
 
-- 如果由于“登录失败”而无法启动 SAP BW 服务，则在设置 SAP BW“启动”用户时可能提供了错误密码。 通过以 SAP BW 服务用户身份登录 Active Directory 环境中的计算机来验证密码。
+* 如果由于“登录失败”而无法启动 SAP BW 服务，则在设置 SAP BW“启动”用户时可能提供了错误密码。 通过以 SAP BW 服务用户身份登录 Active Directory 环境中的计算机来验证密码。
 
-- 如果收到有关阻止服务器启动的 SQL 凭据的错误，请验证是否已为服务用户授予了 SAP BW 数据库的访问权限。
+* 如果收到有关阻止服务器启动的 SQL 凭据的错误，请验证是否已为服务用户授予了 SAP BW 数据库的访问权限。
 
-- 你可能会收到以下消息：“(GSS-API) 指定的目标未知或无法访问。” 这通常意味着你指定了错误的 SNC 名称。 在客户端应用程序中，确保除服务用户的 UPN 之外，仅使用“p:”，而不是“p:CN=”或任何其他内容。
+* 你可能会收到以下消息：“(GSS-API) 指定的目标未知或无法访问。” 这通常意味着你指定了错误的 SNC 名称。 在客户端应用程序中，确保除服务用户的 UPN 之外，仅使用“p:”，而不是“p:CN=”或任何其他内容。
 
-- 你可能会收到以下消息：“(GSS-API) 提供了无效的名称。” 确保“p:”在服务器的 SNC 标识配置文件参数的值中。
+* 你可能会收到以下消息：“(GSS-API) 提供了无效的名称。” 确保“p:”在服务器的 SNC 标识配置文件参数的值中。
 
-- 你可能会收到以下消息：“（SNC 错误）无法找到指定的模块。” 这通常是由于将 `gsskrb5.dll/gx64krb5.dll` 放到了需要提升的权限（管理员权限）才能访问的位置。
+* 你可能会收到以下消息：“（SNC 错误）无法找到指定的模块。” 这通常是由于将 `gsskrb5.dll/gx64krb5.dll` 放到了需要提升的权限（管理员权限）才能访问的位置。
 
 ### <a name="add-registry-entries-to-the-gateway-machine"></a>将注册表项添加到网关计算机
 
@@ -356,13 +342,13 @@ ms.locfileid: "66809277"
 
 按照本文前面有关[运行报告](#run-a-power-bi-report)的说明将 SAP BW 数据源添加到网关。
 
-1. 在数据源配置窗口中，与从 Power BI Desktop 登录到 SAP BW 服务器一样，输入应用程序服务器的“主机名”、“系统编号”和”客户端 ID”    。 对于“身份验证方法”，选择“Windows”   。
+1. 在数据源配置窗口中，与从 Power BI Desktop 登录到 SAP BW 服务器一样，输入应用程序服务器的“主机名”、“系统编号”和”客户端 ID”    。
 
 1. 在“SNC 合作伙伴名称”字段中，输入 p:\<映射到 SAP BW 服务用户的 SPN\>  。 例如，如 SPN 为 SAP/BWServiceUser@MYDOMAIN.COM，则应在“SNC 合作伙伴名称”  字段中输入 p:SAP/BWServiceUser@MYDOMAIN.COM。
 
-1. 对于 SNC 库，请选择“SNC\_LIB”或“SNC\_LIB\_64”   。
+1. 对于 SNC 库，请选择“SNC_LIB”或“SNC_LIB_64”   。 对于 32 位方案，请使用“SNC_LIB”，对于 64 位方案，请使用“SNC_LIB_64”   。 请确保这些环境变量分别指向 gsskrb5 或 gx64krb5，具体取决于你的位数。
 
-1. “用户名”和“密码”应为有权使用 SSO 登录 SAP BW 服务器的 Active Directory 用户的用户名和密码   。 换句话说，它们应属于通过 SU01 事务映射到 SAP BW 用户的 Active Directory 用户。 仅当未选中“通过 Kerberos 使用 SSO 执行 DirectQuery 查询”框时，才会使用这些凭据  。
+1. 如果选择“Windows”作为“身份验证方法”，“用户名”和“密码”应为有权使用 SSO 登录 SAP BW 服务器的 Active Directory 域服务用户的用户名和密码     。 换句话说，它们应属于通过 SU01 事务映射到 SAP BW 用户的 Active Directory 用户。 如果选择“基本”，则“用户名”和“密码”应分别设置为 SAP BW 用户的名称和密码    。 仅当未选中“通过 Kerberos 使用 SSO 执行 DirectQuery 查询”框时，才会使用这些凭据  。
 
 1. 勾选“通过 Kerberos 使用 SSO 执行 DirectQuery 查询”框并选择“应用”   。 如果测试连接不成功，请验证先前的设置和配置步骤是否已正确完成。
 
@@ -396,7 +382,7 @@ ms.locfileid: "66809277"
 
 有关“本地数据网关”  和 DirectQuery  的详细信息，请查看以下资源：
 
-* [On-premises data gateway (本地数据网关)](service-gateway-onprem.md)
+* [本地数据网关是什么？](/data-integration/gateway/service-gateway-getting-started)
 * [Power BI 中的 DirectQuery](desktop-directquery-about.md)
 * [DirectQuery 支持的数据源](desktop-directquery-data-sources.md)
 * [DirectQuery 和 SAP BW](desktop-directquery-sap-bw.md)
