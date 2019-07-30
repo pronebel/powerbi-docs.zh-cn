@@ -165,6 +165,8 @@
               href: desktop-connect-azure-consumption-insights.md
             - name: 在 Power BI Desktop 中使用 SAP HANA
               href: desktop-sap-hana.md
+            - name: 启用 SAP HANA 加密
+              href: desktop-sap-hana-encryption.md
             - name: Power BI Desktop 中的 Analysis Services 表格数据
               href: desktop-analysis-services-tabular-data.md
             - name: 在 Power BI Desktop 中使用 DirectQuery
