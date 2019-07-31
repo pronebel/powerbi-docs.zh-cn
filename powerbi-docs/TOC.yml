@@ -947,6 +947,8 @@
           href: report-builder-expressions.md
         - name: 表达式示例
           href: report-builder-expression-examples.md
+        - name: 报告分页
+          href: paginated-reports-pagination.md
         - name: 预览报表
           href: report-builder-previewing-reports.md
         - name: 分页报表常见问题解答
