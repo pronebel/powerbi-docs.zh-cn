@@ -111,7 +111,7 @@ ms.locfileid: "68289846"
 |    Query End    |    记录自跟踪启动后的所有查询结束事件。    |
 |    Vertipaq Query End    |    记录自跟踪启动后的所有 VertiPaq SE 查询结束事件。    |
 |    Audit Logout    |    记录自跟踪启动后从引擎事件断开的所有连接。    |
-|    错误    |    记录自跟踪启动后的所有引擎错误事件。    |
+|    Error    |    记录自跟踪启动后的所有引擎错误事件。    |
 
 <br>
 <br>
@@ -127,13 +127,13 @@ ms.locfileid: "68289846"
 | ObjectID | 464 | 对象 ID |
 | ObjectType | 802012 | ObjectType |
 | EndTime | 2018-04-06T18:30:11.9137358Z | 事件的结束时间。 |
-| 持续时间 | 0 | 事件使用的时间（毫秒）。 |
+| Duration | 0 | 事件使用的时间（毫秒）。 |
 | SessionType | 用户 | 会话类型（哪个实体导致了该操作）。 |
 | ProgressTotal | 0 | 总进度。 |
 | IntegerData | 0 | 整型数据。 |
-| 严重性 | 0 | 异常错误的严重级别。 |
-| 成功 | 1 | 1 = 成功。 0 = 失败（例如，1 表示权限检查成功，而 0 表示权限检查失败）。 |
-| 错误 | 0 | 给定事件的错误号。 |
+| Severity | 0 | 异常错误的严重级别。 |
+| Success | 1 | 1 = 成功。 0 = 失败（例如，1 表示权限检查成功，而 0 表示权限检查失败）。 |
+| Error | 0 | 给定事件的错误号。 |
 | ConnectionID | 3 | 唯一连接 ID。 |
 | DatasetID | 5eaa550e-06ac-4adf-aba9-dbf0e8fd1527 | 正在运行用户语句的数据集的 ID。 |
 | SessionID | 3D063F66-A111-48EE-B960-141DEBDA8951 | 会话 GUID。 |
