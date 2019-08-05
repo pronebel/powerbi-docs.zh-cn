@@ -1,5 +1,5 @@
 ---
-title: 开发 Power BI 自定义视觉对象
+title: 开发 Power BI 视觉对象
 description: 有关如何开发 Power BI 自定义视觉对象的教程
 author: sranins
 ms.author: rasala
@@ -9,16 +9,16 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: tutorial
 ms.date: 03/15/2019
-ms.openlocfilehash: d21a0ab1bada981a563e04ba26815f661664f51a
-ms.sourcegitcommit: 4ae1257c5d7b33aa2fafd91caf8b353a985c6771
+ms.openlocfilehash: 2dc1d0a316319867513dc9f25a195c3f2d1140b9
+ms.sourcegitcommit: 473d031c2ca1da8935f957d9faea642e3aef9839
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/17/2019
-ms.locfileid: "67161218"
+ms.lasthandoff: 07/23/2019
+ms.locfileid: "68415431"
 ---
-# <a name="tutorial-developing-a-power-bi-custom-visual"></a>教程：开发 Power BI 自定义视觉对象
+# <a name="tutorial-developing-a-power-bi-visual"></a>教程：开发 Power BI 视觉对象
 
-我们正努力使开发人员能够轻松地将自定义视觉对象添加到 Power BI 中，以便在仪表板和报告中使用。 为了帮助你开始使用，我们已将所有可视化效果的代码发布到 GitHub 中。
+我们正努力使开发人员能够轻松地将自定义视觉对象添加到 Power BI 中，以便在仪表板和报告中使用。 为了帮助你开始使用，我们已将所有可视化对象的代码发布到 GitHub 中。
 
 除了可视化框架，我们还提供测试套件和工具来帮助社区针对 Power BI 生成高质量的自定义视觉对象。
 
@@ -79,35 +79,35 @@ ms.locfileid: "67161218"
     pbiviz --install-cert
     ```
 
-  它将返回生成通行短语  的结果。 在此示例中，启动证书导入向导的密码  是 _15105661266553327_  。
+    它将返回生成通行短语  的结果。 在本例中，通行短语  是 15105661266553327  。 它还将启动证书导入向导。
 
-  ![通过 PowerShell 创建的证书](media/custom-visual-develop-tutorial/cert-create.png)
+    ![通过 PowerShell 创建的证书](media/custom-visual-develop-tutorial/cert-create.png)
 
-3. 在“证书导入向导”中，验证存储位置设置为“当前用户”。 选择“下一步”  。
+2. 在“证书导入向导”中，验证存储位置设置为“当前用户”。 选择“下一步”  。
 
       ![证书安装](media/custom-visual-develop-tutorial/install-cert-PowerShell.png)
 
-4. 在“导入文件”  步骤中，选择“下一步”  。
+3. 在“导入文件”  步骤中，选择“下一步”  。
 
-5. 在“私有密钥保护”  步骤中，在“密码”框处粘贴从创建证书收到的通行短语。同样，在本例中，密码是 15105661266553327  。
+4. 在“私有密钥保护”  步骤中，在“密码”框处粘贴从创建证书收到的通行短语。同样，在本例中，密码是 15105661266553327  。
 
       ![复制通行短语](media/custom-visual-develop-tutorial/cert-install-wizard-show-passphrase.png)
 
-6. 在“证书存储”  步骤，选择“将所有证书都放入下列存储区中”  选项。 选择“浏览器”  。
+5. 在“证书存储”  步骤，选择“将所有证书都放入下列存储区中”  选项。 选择“浏览器”  。
 
       ![以下存储区中的所有证书](media/custom-visual-develop-tutorial/all-certs-in-the-following-store.png)
 
-7. 在“选择证书存储区“  窗口，”选择“受信任的根证书颁发机构”  ，然后选择“确定”  。 然后选择“证书存储”  屏幕上的“下一步”  。
+6. 在“选择证书存储区“  窗口，”选择“受信任的根证书颁发机构”  ，然后选择“确定”  。 然后选择“证书存储”  屏幕上的“下一步”  。
 
       ![受信任的根证书](media/custom-visual-develop-tutorial/trusted-root-cert.png)
 
-8. 若要完成导入，请选择“完成”  。
+7. 若要完成导入，请选择“完成”  。
 
-9. 如果收到一条安全警告，选择“是”  。
+8. 如果收到一条安全警告，选择“是”  。
 
     ![安全警告](media/custom-visual-develop-tutorial/cert-security-warning.png)
 
-10. 当系统通知导入成功，选择“确定”  。
+9. 当系统通知导入成功，选择“确定”  。
 
     ![证书导入成功](media/custom-visual-develop-tutorial/cert-import-successful.png)
 

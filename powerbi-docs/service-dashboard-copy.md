@@ -11,17 +11,17 @@ ms.topic: conceptual
 ms.date: 03/02/2018
 ms.author: maggies
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 59ffa05d34b86ba2a4673e3d9db39e15f030fb17
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 5507356e42c58574a2d7c6787074fb987ddfeaec
+ms.sourcegitcommit: f05ba39a0e46cb9cb43454772fbc5397089d58b4
+ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61136418"
+ms.lasthandoff: 07/26/2019
+ms.locfileid: "68523190"
 ---
 # <a name="create-a-copy-of-a-dashboard-in-power-bi-service"></a>在 Power BI 服务中创建仪表板副本
 ![仪表板](media/service-dashboard-copy/power-bi-dashboard.png)
 
- 创建仪表板副本的原因众多。 你可能想要对原始版本进行更改并测试其性能；或创建由同事、区域或团队分发的略微不同的版本。 可能有某个同事喜欢你的仪表板设计，想要使用它向经理汇报工作。 另一个原因是，可能你具有包含相同数据结构和数据类型的新数据库，并且想要重用已创建的仪表板。这也可以完成，但需要在 Power BI Desktop 中执行一些操作。 
+ 创建仪表板副本的原因众多。 你可能想要对原始版本进行更改并测试其性能；或创建由同事、区域或团队分发的略微不同的版本。 也许是因为有某个同事喜欢你的仪表板设计，并想要使用它向经理汇报。 另一个原因是，可能你具有包含相同数据结构和数据类型的新数据库，并且想要重用已创建的仪表板。这也可以完成，但需要在 Power BI Desktop 中执行一些操作。 
 
 仪表板是使用 Power BI 服务进行创建（和复制），可以在 Power BI 移动版和 Power BI Embedded 中进行查看。  Power BI Desktop 不支持仪表板。 
 

@@ -11,20 +11,20 @@ ms.topic: conceptual
 ms.date: 05/29/2019
 ms.author: maggies
 LocalizationGroup: Ask questions of your data
-ms.openlocfilehash: 449d47606829c8555e0b64e7f07d1b414b99fea7
-ms.sourcegitcommit: 8bf2419b7cb4bf95fc975d07a329b78db5b19f81
-ms.translationtype: MT
+ms.openlocfilehash: cb0870bf6f1cdca3cb1f95dc516f5f9124422327
+ms.sourcegitcommit: f05ba39a0e46cb9cb43454772fbc5397089d58b4
+ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "66375214"
+ms.lasthandoff: 07/26/2019
+ms.locfileid: "68523362"
 ---
 # <a name="troubleshoot-cortana-for-power-bi"></a>对用于 Power BI 的 Cortana 进行故障排除
 本文是系列文章中的一部分。 
 
 > [!IMPORTANT]
-> Cortana 集成 Power BI 中已弃用。 从 6 月 11 日，Cortana 将不再适用于任何仪表板和报表中。
+> Power BI 即将弃用 Cortana 集成。 从 6 月 11 日开始，Cortana 不再适用于任何仪表板和报表。
 
-如果遇到问题 Cortana 与 Power BI 集成，您找对了正确的位置。 请按照以下步骤来诊断和修复问题。
+如果在将 Cortana 与 Power BI 集成时遇到问题，本文可提供帮助。 请按照以下步骤来诊断和修复问题。
 
 ## <a name="why-doesnt-cortana-find-answers-from-my-power-bi-reports-or-dashboards"></a>为什么 Cortana 从我的 Power BI 报表或仪表板找不到答案？
 1. 是否有 Power BI 帐户？  如果没有，请[注册免费试用版](https://powerbi.microsoft.com/get-started/)。
@@ -54,7 +54,7 @@ ms.locfileid: "66375214"
 1. 如果你正在报表中寻找答案，你是否有包含 Cortana 回复卡的任何报表  ？ 回复卡是 Cortana 能在 Power BI 报表中找到答案的唯一途径。  通过阅读[在 Power BI 服务和 Power BI Desktop 中创建 Cortana 回复卡](service-cortana-answer-cards.md)，了解如何创建回复卡。
 2. 是否运行的是 Windows 版本 1511 或更高版本？  通过打开 Windows 设置，然后选择“**系统 > 关于**”进行查找。 如果不是，请更新你的 Windows 版本。
 3. 你的 Windows 和 Power BI 帐户是否已关联？ 这可能会造成混淆。 按照[为 Power BI 启用 Cortana](service-cortana-enable.md#add-your-power-bi-credentials-to-windows) 中的说明操作。
-4. 已为 Cortana 启用基础数据集？ 或许某个同事已共享她已为 Cortana 启用的数据集。 但如果没有，请[了解如何自行为 Cortana 启用数据集](service-cortana-enable.md)。 这一操作快速而简单。
+4. 已为 Cortana 启用基础数据集？ 或许某位同事已经共享了一个已对 Cortana 启用的数据集。 但如果没有，请[了解如何自行为 Cortana 启用数据集](service-cortana-enable.md)。 这一操作快速而简单。
 
 ## <a name="dashboards-only-why-doesnt-cortana-find-answers-from-my-power-bi-dashboards"></a>仅限仪表板：为什么 Cortana 从我的 Power BI 仪表板中找不到答案
 1. 确保你已连接到工作帐户。 Power BI 需要此连接才能验证你对数据的访问权限。 若要检查你是否已连接到工作帐户，请使用 Windows 搜索框以导航到“连接到工作或学校帐户”。  

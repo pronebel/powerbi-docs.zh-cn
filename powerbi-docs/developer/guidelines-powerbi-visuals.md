@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: conceptual
 ms.date: 07/16/2019
-ms.openlocfilehash: ea1ae18f877793da9ac47023c236ba8a24f78ccf
-ms.sourcegitcommit: 277fadf523e2555004f074ec36054bbddec407f8
+ms.openlocfilehash: 6a2fce59171ec36241cd5de03d41f6a27f54c664
+ms.sourcegitcommit: 390dc3716d5c83385bedde63dd152431a77020e2
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/16/2019
-ms.locfileid: "68271191"
+ms.lasthandoff: 07/22/2019
+ms.locfileid: "68380208"
 ---
 # <a name="guidelines-for-power-bi-visuals"></a>Power BI 视觉对象指南
 在将视觉对象[发布](https://docs.microsoft.com/power-bi/developer/office-store)到 AppSource 供其他人发现和使用之前，请确保遵循指导原则为用户创造好的体验。 
@@ -26,7 +26,7 @@ ms.locfileid: "68271191"
 
 ## <a name="logo-guidelines"></a>徽标指南
 
-本部分介绍了在视觉对象中添加徽标和标识的规范。
+本部分介绍了在视觉对象中添加徽标和标识的规范。 徽标并非强制需要。 如果已添加徽标，则其必须遵循这些准则。 
 
 > [!IMPORTANT]
 > 仅允许在编辑模式下使用徽标  。 无法在查看模式下显示徽标  。

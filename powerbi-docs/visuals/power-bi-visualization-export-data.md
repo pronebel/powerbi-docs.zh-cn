@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 06/19/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: d001c75d006838f46ce40a8f81bad0a9a058b148
-ms.sourcegitcommit: 90aa7ea5fcc7cf0fd7f6c3c1efeff5f27e8ef0dd
+ms.openlocfilehash: 86a3faf2095ff5100bc372a68b7d56861eb94806
+ms.sourcegitcommit: f05ba39a0e46cb9cb43454772fbc5397089d58b4
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/20/2019
-ms.locfileid: "67299446"
+ms.lasthandoff: 07/26/2019
+ms.locfileid: "68523354"
 ---
 # <a name="export-data-from-visualizations"></a>从可视化效果导出数据
 
@@ -150,9 +150,9 @@ Power BI 报表设计器控制向使用者提供的数据导出选项的类型�
 
 - 必须[有权生成基础数据集](https://docs.microsoft.com/power-bi/service-datasets-build-permissions#build-permissions-for-shared-datasets)，才能导出视觉对象中的数据。
 
--  Power BI Desktop  和 Power BI 服务  最多可以将 30,000 行导出至 .csv  文件。
+-  Power BI Desktop 和 Power BI 服务最多可以将 30,000 行从导入模式报表导出至 .csv 文件     。
 
-- 这些应用最多可以将 150,000 行导出至 .xlsx  文件。
+- 这些应用程序最多可以将 150,000 行从导入模式报表导出至 .xlsx 文件   。
 
 - 在以下情况下，无法使用“基础数据”  导出数据：
 
@@ -166,7 +166,7 @@ Power BI 报表设计器控制向使用者提供的数据导出选项的类型�
 
 - 如果为 Power BI 要导出的可视化效果启用“显示不含数据的项”  选项，无法使用“基础数据”  导出数据。
 
-- 使用 DirectQuery 时，Power BI 最多可以导出 16MB 数据。 可能出现的意外结果是，导出数据低于行数上限。 在以下情况下，可能会出现这样的结果：
+- 使用 DirectQuery 时，Power BI 最多可以导出 16MB 未压缩的数据。 可能出现的意外结果是，导出数据低于行数上限。 在以下情况下，可能会出现这样的结果：
 
     - 有许多列。
 

@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Model your data
-ms.openlocfilehash: 4395884dfbc7ef5ebfb0df34e416d69ee553ebd3
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: d46fa8be055186d2430ca4d3c387fae93b91acc3
+ms.sourcegitcommit: f05ba39a0e46cb9cb43454772fbc5397089d58b4
+ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "65514159"
+ms.lasthandoff: 07/26/2019
+ms.locfileid: "68523214"
 ---
 # <a name="measures-in-power-bi-desktop"></a>Power BI Desktop 中的度量值
 
@@ -41,21 +41,21 @@ ms.locfileid: "65514159"
 DAX 公式与 Excel 公式非常相似。 DAX 甚至具有许多与 Excel 相同的函数，例如 DATE、SUM 和 LEFT。 但是，DAX 的函数用于处理关系数据，类似于 Power BI Desktop 中的关系数据。
 
 ## <a name="lets-look-at-an-example"></a>我们来看一个示例
-Jan 是 Contoso 的销售经理。 她接到要求，要提供下一个会计年度的经销商销售预测。 Jan 决定根据去年的销售额做出预测，并加上根据未来六个月计划的各种促销结果预估的六个百分点的年增长率。
+Jan 是 Contoso 的销售经理。 Jan 接到要求，要提供下一个会计年度的经销商销售预测。 Jan 决定根据去年的销售额做出预测，并加上根据未来六个月计划的各种促销结果预估的六个百分点的年增长率。
 
-为了报告这些估计值，Jan 将上一年的销售数据导入了 Power BI Desktop 中。 在“Reseller Sale”表中，她找到了“SalesAmount”字段。 由于导入的数据仅包含上一年的销售额，Jan 将“SalesAmount”字段重新命名为“Last Years Sales”。 然后，Jan 将“Last Years Sales”拖动到报表画布上。 该字段在图表可视化效果中显示为去年所有经销商销售额总和的单一值。
+为了报告这些估计值，Jan 将上一年的销售数据导入了 Power BI Desktop 中。 在“Reseller Sales”表中，Jan 找到了“SalesAmount”字段。 由于导入的数据仅包含上一年的销售额，Jan 将“SalesAmount”字段重新命名为“Last Years Sales”。 然后，Jan 将“Last Years Sales”拖动到报表画布上。 该字段在图表可视化效果中显示为去年所有经销商销售额总和的单一值。
 
-Jan 注意到，即使自己没有指定计算，系统已经自动提供了一种计算。 Power BI Desktop 通过对“Last Years Sales”中的值进行求和，创建其自己的度量值。
+Jan 注意到，即使他们没有指定计算，系统也已经自动提供了一种计算。 Power BI Desktop 通过对“Last Years Sales”中的值进行求和，创建其自己的度量值。
 
-但是，Jan 需要度量值来计算明年的销售预测，即基于去年的销售额乘以 1.06，以代表预期为 6% 的业务增长。 对于此计算，她将创建自己的度量值。 使用新建度量值功能，她可以创建新的度量值，然后输入下面的 DAX 公式:
+但是，Jan 需要度量值来计算明年的销售预测，即基于去年的销售额乘以 1.06，以代表预期为 6% 的业务增长。 对于此计算，Jan 将创建自己的度量值。 他们使用“新建度量值”功能，创建了一个新度量值，然后输入以下 DAX 公式：
 
     Projected Sales = SUM('Sales'[Last Years Sales])*1.06
 
-接着将她的新“Projected Sales”度量值拖动到图表中。
+接着将他们的新“Projected Sales”度量值拖动到图表中。
 
 ![](media/desktop-measures/measuresinpbid_lastyearsales.png)
 
-只需要最小的工作量，Jan 很快就拥有了用于计算预测销售额的度量值。 通过筛选特定的经销商或将其他字段添加到她的报表中，Jan 可以进一步分析她的预测。
+只需要最小的工作量，Jan 很快就拥有了用于计算预测销售额的度量值。 通过筛选特定的经销商或将其他字段添加到他们的报表中，Jan 可以进一步分析她的预测。
 
 ## <a name="data-categories-for-measures"></a>度量值的数据类别
 

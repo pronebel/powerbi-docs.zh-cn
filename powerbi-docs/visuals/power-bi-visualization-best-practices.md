@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 06/17/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 7d716c79146a0d53d261dba514aacb8787ca2fa3
-ms.sourcegitcommit: 90aa7ea5fcc7cf0fd7f6c3c1efeff5f27e8ef0dd
+ms.openlocfilehash: 53a8847f96d6aa3143e91cab07029a8e0f6afc85
+ms.sourcegitcommit: f05ba39a0e46cb9cb43454772fbc5397089d58b4
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/20/2019
-ms.locfileid: "67299553"
+ms.lasthandoff: 07/26/2019
+ms.locfileid: "68523749"
 ---
 # <a name="best-design-practices-for-reports-and-visuals"></a>设计报表和视觉对象的最佳做法
 
@@ -407,7 +407,7 @@ Edward Tufte 在他的《定量信息的视觉显示》一书中将这称为“�
 
 视觉对象要传达的信息是否引人入胜？ 这重要吗？ 不要为了构建视觉对象而构建视觉对象。 你或许会认为数据传达的信息非常吸引人，但事实并非如此。 不要害怕重新开始来尝试更吸引人的信息传达方式。 也许要传达的信息就在那里，但需要采用不同的度量方式。
 
-假设要度量销售经理的业绩。 为此，你会使用什么度量值呢？ 最好的度量方式是以总销售额/总利润、同比增长，还是以目标实现率为依据呢？ 销售人员 Sally 创造的利润可能最高。 如果在条形图中按销售人员划分总利润（与其他销售人员进行比较），她看起来就像是销售明星。 如果 Sally 的销售成本（差旅费、运费、制造成本等）非常高，仅关注销售额并不能最有效地传达信息。
+假设要度量销售经理的业绩。 为此，你会使用什么度量值呢？ 最好的度量方式是以总销售额/总利润、同比增长，还是以目标实现率为依据呢？ 销售人员 Sally 创造的利润可能最高。 如果在条形图中按销售人员划分总利润（与其他销售人员进行比较），他们看起来就像是销售明星。 如果 Sally 的销售成本（差旅费、运费、制造成本等）非常高，仅关注销售额并不能最有效地传达信息。
 
 #### <a name="reflect-reality-dont-distort-reality"></a>反映事实，不歪曲事实
 
@@ -725,7 +725,7 @@ Outliers = if(Editions[Temp]<60, Editions[Temp], BLANK())
 
 #### <a name="what-did-we-do"></a>我们做了哪些改进？
 
-| 项 | 说明 |
+| 项 | 描述 |
 | ---- | ----------- |
 | 切片器 | 通过添加报表页级别筛选器，并且只选择了“金牌”  、“银牌”  和“铜牌”  ，从切片器中删除了“空白”选项。 <br> 对于“单选”  和“全选”  ，将“选择控件”  更改为“关”  。 |
 | 气泡图 | 图例项过多，屏幕无法显示全。 删除了图例，改为启用了“类别标签”  。 客户可以将鼠标悬停在气泡之上查看详细信息。<br> 缩短了标题并删除了“按国家/地区”，因为这一点显而易见。 <br> 为 X 轴和 Y 轴启用  了坐标轴标签，让图表更易于理解。 |
@@ -1007,7 +1007,7 @@ Power BI 提供了许多本地视觉对象类型。 添加 Microsoft 和 Power B
 
 一般情况下，条形图、柱形图和折线图可满足大多数需求。 众所周知，饼图和环形图很难正确理解。 事实上，这两种图表经常会歪曲数据。 请尽量避免使用这两种图表。 Stephen Few 在[把饼图留给甜点](https://www.perceptualedge.com/articles/08-21-07.pdf)中精彩介绍了饼图的发展历史和危害。
 
-他确实有一次提及到饼图在比较部分与整体关系时非常有用。 它很少优于百分比堆积条形图。
+Stephen 有一次提及到饼图在比较部分与整体关系时非常有用。 它很少优于百分比堆积条形图。
 
 [Darkhorse Analytics 站点](http://www.darkhorseanalytics.com/blog/salvaging-the-pie)上发布了另一篇有关饼图的有趣文章（和动画）。
 
@@ -1037,4 +1037,4 @@ KPI 占用的空间相同，但却显示了值、状态、目标、与目标的�
 
 ### <a name="book-recommendations"></a>书籍推荐
 
-现在有很多好书可以帮助团队更新他们关于视觉设计技术的知识。 Stephen Few 的《信息仪表板设计》  一书是必读的。 他还在其他两本书中进行了深入探讨：《向我呈现数字》  和《现在如你所见》  。 Few 和其他作者均从 Edward R. Tufte 身上汲取灵感。Tufte 的《定量信息的视觉显示》被视为该领域的经典之作。  此外，Tufte 还编写了《视觉解释》、《构想信息》和《美丽的证据》。    Andy Kirk 的新书《数据可视化效果：*数据驱动设计手册》* 也是不错的选择。 其他一些推荐作者包括：Lachlan James、William McKnight、Boris Evelson (Forrester) 和 Darkhorse Analytics。
+现在有很多好书可以帮助团队更新他们关于视觉设计技术的知识。 Stephen Few 的《信息仪表板设计》  一书是必读的。 他们还在其他两本书中进行了深入探讨：《向我呈现数字》  和《现在如你所见》  。 Few 和其他作者均从 Edward R. Tufte 身上汲取灵感。Tufte 的《定量信息的视觉显示》被视为该领域的经典之作。  此外，Tufte 还编写了《视觉解释》、《构想信息》和《美丽的证据》。    Andy Kirk 的新书《数据可视化效果：*数据驱动设计手册》* 也是不错的选择。 其他一些推荐作者包括：Lachlan James、William McKnight、Boris Evelson (Forrester) 和 Darkhorse Analytics。

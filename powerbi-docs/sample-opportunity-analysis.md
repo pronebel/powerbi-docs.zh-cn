@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 07/02/2019
 ms.author: maggies
 LocalizationGroup: Samples
-ms.openlocfilehash: 41d35eb9e078a63e499bb65dead05fe7dbbc2985
-ms.sourcegitcommit: 1789815c87e306b1427a5838655d30d3b9ba1d29
+ms.openlocfilehash: 233b4c36b5e59b38c82f5c3ccc1f0b49b70c5ac8
+ms.sourcegitcommit: f05ba39a0e46cb9cb43454772fbc5397089d58b4
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/11/2019
-ms.locfileid: "67791878"
+ms.lasthandoff: 07/26/2019
+ms.locfileid: "68523463"
 ---
 # <a name="opportunity-analysis-sample-for-power-bi-take-a-tour"></a>Power BI 的机会分析示例：参观
 
@@ -33,7 +33,7 @@ ms.locfileid: "67791878"
 
 ![机会分析示例仪表板](media/sample-opportunity-analysis/opportunity1.png)
 
-此示例是一系列示例的一部分，展示了如何将 Power BI 与面向业务的数据、报表和仪表板结合使用。 它是使用 [obviEnce](http://www.obvience.com/) 提供的真实数据（已经过匿名处理）进行创建。 数据可采用以下几种格式：内容包、.pbix Power BI Desktop 文件或 Excel 工作簿。 请参阅[用于 Power BI 的示例](sample-datasets.md)。 
+此示例是一系列示例的一部分，展示了如何将 Power BI 与面向业务的数据、报表和仪表板结合使用。 它是使用 [obviEnce](http://www.obvience.com/) 依据真实数据（已经过匿名处理）进行创建的。 数据可采用以下几种格式：内容包、.pbix Power BI Desktop 文件或 Excel 工作簿。 请参阅[用于 Power BI 的示例](sample-datasets.md)。 
 
 本教程探讨了 Power BI 服务中的机会分析示例内容包。 由于报表体验在 Power BI Desktop 和服务中非常相似，因此也可以使用 Power BI Desktop 中的示例 .pbix 文件跟着本教程一起操作。 
 
@@ -70,7 +70,7 @@ ms.locfileid: "67791878"
 若要查看此示例的数据源，还可以将它下载为 [Excel 工作簿](http://go.microsoft.com/fwlink/?LinkId=529782)。 该工作簿包含你可以查看和修改的 Power View 工作表。 若要查看原始数据，请启用“数据分析”加载项，再依次选择“Power Pivot”>“管理”  。 若要启用 Power View 和 Power Pivot 加载项，请参阅[从 Excel 本身内查看 Excel 示例](sample-datasets.md#optional-take-a-look-at-the-excel-samples-from-inside-excel-itself)，以了解详细信息。
 
 ## <a name="what-is-our-dashboard-telling-us"></a>仪表板告诉我们什么？
-我们的销售经理已创建了一个仪表板，用于跟踪那些对她而言至关重要的指标。 当她看到感兴趣的内容时，她可以选择磁贴以浏览数据：
+我们的销售经理已创建了一个仪表板，用于跟踪那些对他们而言至关重要的指标。 当他们看到感兴趣的内容时，他们可以选择磁贴以浏览数据：
 
 - 公司收入为 20 亿美元，系数收入为 46100 万美元。
 - 机会计数和收入遵循熟悉的漏斗模式，总计在每个后一阶段递减。
@@ -127,7 +127,7 @@ ms.locfileid: "67791878"
  
 ![“即将到来的机会”页](media/sample-opportunity-analysis/opportunity6.png)
 
-我们的 CFO 使用此页来管理工作负荷。 通过查看按销售阶段和月份划分的收入机会，她可以相应地规划。
+我们的 CFO 使用此页来管理工作负荷。 通过查看按销售阶段和月份划分的收入机会，他们可以相应地规划。
 
 请注意下列详细信息：
 * “达成”销售阶段的平均收入最高。 达成这些交易是第一优先。

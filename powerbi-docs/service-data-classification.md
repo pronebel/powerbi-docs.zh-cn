@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 08/10/2017
 ms.author: amac
 LocalizationGroup: Dashboards
-ms.openlocfilehash: b7d9bdf0982ea7ad4f57225e5a1eaf8c9da90b50
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: e687c72ae058f56ca4f528783c5e2326d82db6bb
+ms.sourcegitcommit: f05ba39a0e46cb9cb43454772fbc5397089d58b4
+ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61139205"
+ms.lasthandoff: 07/26/2019
+ms.locfileid: "68523130"
 ---
 # <a name="dashboard-data-classification"></a>仪表板数据分类
 每个仪表板都不同，具体取决于你连接到的数据源，你可能会发现你和你与其共享的同事将需要根据数据的敏感性采取不同的预防措施。 一些仪表板永远不应与公司外部的人员共享，或打印出来，而其它仪表板则可以随意共享。 通过使用仪表板数据分类，你将能够提高查看你仪表板的人员应使用何种安全级别方面的意识。 你可以使用公司 IT 部门定义的分类来标记仪表板，以便查看该内容的每个人对于数据的敏感性都有相同层面的理解。
@@ -45,7 +45,7 @@ ms.locfileid: "61139205"
 ## <a name="setting-a-dashboards-classification"></a>设置仪表板的分类
 如果为你的公司启用了数据分类，则所有仪表板均以默认分类类型开始，但作为仪表板所有者，你可以更改分类以匹配你的仪表板安全级别。
 
-若要更改分类类型，请执行以下操作。
+若要更改分类类型，请执行以下操作：
 
 1. 通过选择仪表板名称旁的省略号  ，然后选择“设置”  ，转到仪表板设置。
    
@@ -58,7 +58,7 @@ ms.locfileid: "61139205"
 应用更改后，你与之共享的任何人都将在下次重新加载仪表板时看到更新。
 
 ## <a name="working-with-data-classification-tags-as-an-admin"></a>作为管理员使用数据分类标签
-通过组织的全局管理员设置数据分类。 若要开启数据分类，请执行以下操作。
+通过组织的全局管理员设置数据分类。 若要开启数据分类，请执行以下操作：
 
 1. 选择“设置”齿轮，然后选择“管理门户”  。
    
@@ -79,7 +79,7 @@ ms.locfileid: "61139205"
 
 ![](media/service-data-classification/filled_in_classification_form.png)
 
-此时，所有仪表板将被分配默认分类，而仪表板所有者现在能够将分类类型更新为适用于其内容的类型。 之后你可以返回此处来添加或删除分类类型或更改默认类型。  
+此时，将为所有仪表板分配默认分类。 仪表板所有者现在可以将分类类型更新为适合其内容的类型。 之后你可以返回此处来添加或删除分类类型或更改默认类型。  
 
 > [!NOTE]
 > 返回此处进行更改时，需要注意几个重要事项：

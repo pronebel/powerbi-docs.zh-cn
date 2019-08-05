@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 05/07/2019
 ms.author: davidi
 LocalizationGroup: Model your data
-ms.openlocfilehash: c7a2b3580516c563d8a2a6d79fdc48d241e89849
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 805e052a2d5b493705c604d1817fc03c0a8b5376
+ms.sourcegitcommit: f05ba39a0e46cb9cb43454772fbc5397089d58b4
+ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "65239896"
+ms.lasthandoff: 07/26/2019
+ms.locfileid: "68522198"
 ---
 # <a name="using-calculated-columns-in-power-bi-desktop"></a>使用 Power BI Desktop 中的计算列
 凭借计算列，你可以将新数据添加到模型中已存在的表。 但请勿从数据源查询并将值加载到新列中，而是创建用于定义列值的数据分析表达式 (DAX) 公式。 在 Power BI Desktop 中，使用“报表”视图中的“新建列”功能创建计算列。
@@ -31,23 +31,23 @@ ms.locfileid: "65239896"
 DAX 公式类似于 Excel 公式。 事实上，DAX 有着许多与 Excel 相同的功能。 但是，DAX 函数旨在处理以交互方式切片或筛选的报表中的数据，例如 Power BI Desktop 中的数据。 与 Excel 不同的是，在 Excel 中，你可以在表中每行使用不同公式；而为新列创建 DAX 公式时，它将为表中每一行计算结果。 将在必要时（例如刷新基础数据或更改值时）重新计算列值。
 
 ## <a name="lets-look-at-an-example"></a>我们来看一个示例
-Jeff 是 Contoso 的一名货运经理。 他想创建一个报表，显示去往不同城市的货运数量。 他有包含城市和州分隔字段的“地理”表。 但是，Jeff 希望他的报表能够将“城市，州”作为单个值显示在同一行。 现在，Jeff 的“地理”表中没有他想要的字段。
+Jeff 是 Contoso 的货运经理，他想创建一个报表，显示去往不同城市的货运数量。 他有包含城市和州分隔字段的“地理”表。 但是，Jeff 希望他的报表能够将“城市，州”作为单个值显示在同一行。 现在，Jeff 的“地理”表中没有所需字段。
 
 ![](media/desktop-calculated-columns/calccolinpbid_cityandstatefields.png)
 
-但凭借计算列，Jeff 可以简单地将来自“城市”列的城市与来自“州”列的州组合或连接起来。
+但凭借计算列，Jeff 可以将来自“城市”列的城市与来自“州”列的州组合或连接起来。
 
-Jeff 右键单击“地理”表，然后单击“新建列”。 然后他在公式栏中输入以下 DAX 公式：
+Jeff 右键单击“地理”表，然后单击“新建列”。 然后，Jeff 在公式栏中输入以下 DAX 公式：
 
 ![](media/desktop-calculated-columns/calccolinpbid_formula.png)
 
 此公式只需创建名为 CityState 的新列，对于地理表中的每一行，取“城市”列的值，添加逗号和空格，然后连接“州”列的值。
 
-现在，Jeff 就有了他想要的字段。
+现在，Jeff 具有所需的字段。
 
 ![](media/desktop-calculated-columns/calccolinpbid_citystatefield.png)
 
-他可以将它与货运数量一起添加到他的报表画布中。 仅需一点努力，很快 Jeff 有了“城市”、“州”字段，他可以将其添加几乎任何类型的可视化效果中。 Jeff 能够看到，当他创建地图可视化时，Power BI Desktop 甚至知道如何读取新建列中的“城市”、“州”值。
+现在 Jeff 可以将它与货运数量一起添加到报表画布中。 仅需一点努力，很快 Jeff 有了“城市”、“州”字段，他可以将其添加到几乎任何类型的可视化效果中。 Jeff 能够看到，在创建地图可视化时，Power BI Desktop 已经知道如何读取新建列中的“城市”、“州”值。
 
 ![](media/desktop-calculated-columns/calccolinpbid_citystatemap.png)
 

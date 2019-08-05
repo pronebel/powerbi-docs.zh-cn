@@ -1,6 +1,6 @@
 ---
-title: Power BI 中的组织自定义视觉对象
-description: 在 Power BI 中使用、管理和创建组织的自定义视觉对象
+title: Power BI 中的组织视觉对象
+description: 在 Power BI 中使用、管理和创建组织的视觉对象
 author: sranins
 ms.author: rasala
 manager: kfile
@@ -10,14 +10,14 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 12/11/2018
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 157b20107a5be106ac97e0cb927b1e496e1ba115
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 9775b7cd1eb936019051ae952bc270924061daaa
+ms.sourcegitcommit: 473d031c2ca1da8935f957d9faea642e3aef9839
+ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61421872"
+ms.lasthandoff: 07/23/2019
+ms.locfileid: "68415328"
 ---
-# <a name="organizational-custom-visuals-in-power-bi"></a>Power BI 中的组织自定义视觉对象
+# <a name="organizational-visuals-in-power-bi"></a>Power BI 中的组织视觉对象
 
 可以在 Power BI 中使用自定义视觉对象创建为你量身定做的唯一视觉对象类型。 自定义视觉对象由开发人员进行创建，当 Power BI 中包含的众多视觉对象不能充分满足他们的需求时，常常会创建自定义视觉对象。
 

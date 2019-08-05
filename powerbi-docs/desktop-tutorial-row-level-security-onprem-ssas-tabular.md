@@ -11,12 +11,12 @@ ms.topic: tutorial
 ms.date: 05/28/2019
 ms.author: selvar
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 28fe39788dab6f22845d3ffcb7115fb1da5cb268
-ms.sourcegitcommit: c122c1a8c9f502a78ccecd32d2708ab2342409f0
+ms.openlocfilehash: 6bfcb218f92c2b6e8a3349261e15e6b71b9512b2
+ms.sourcegitcommit: f05ba39a0e46cb9cb43454772fbc5397089d58b4
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2019
-ms.locfileid: "66826656"
+ms.lasthandoff: 07/26/2019
+ms.locfileid: "68523239"
 ---
 # <a name="dynamic-row-level-security-with-analysis-services-tabular-model"></a>通过 Analysis Services 表格模型实现动态行级别安全性
 
@@ -144,7 +144,7 @@ ms.locfileid: "66826656"
    
    在**销售经理**角色中，Sumit 可以看到所有不同销售区域的数据。 Sumit 创建此报表（在先前任务步骤中创建的报表），并将其发布到 Power BI 服务。
    
-   发布报表后，Sumit 在 Power BI 服务中基于该报表创建名为 **TabularDynamicSec** 的仪表板。 在下图中，请注意 Sumit 可以看到所有销售区域的对应数据。
+   发布报表后，接下来 Sumit 需在 Power BI 服务中基于该报表创建名为 TabularDynamicSec 的仪表板  。 在下图中，请注意 Sumit 可以看到所有销售区域的对应数据。
    
    ![](media/desktop-tutorial-row-level-security-onprem-ssas-tabular/donut_chart_1.png)
 
@@ -154,7 +154,7 @@ ms.locfileid: "66826656"
    
    ![](media/desktop-tutorial-row-level-security-onprem-ssas-tabular/pbi_dashboard.png)
 
-3. 当 Jon Doe 登录到 **Power BI** 服务并查看 Sumit 创建的共享仪表板时，他应该**只能**看到其负责区域的销售额。 
+3. 当登录到 Power BI 服务并查看 Sumit 创建的共享仪表板时，Jon Doe 应该只能看到其负责区域的销售额   。 
    
    ![](media/desktop-tutorial-row-level-security-onprem-ssas-tabular/dashboard_jon_doe.png)
 

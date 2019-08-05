@@ -10,12 +10,12 @@ ms.topic: tutorial
 ms.date: 05/22/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: cf07318b5866d3f893d745fc8a8bba85cc9680d9
-ms.sourcegitcommit: 81ba3572531cbe95ea0b887b94e91f94050f3129
+ms.openlocfilehash: d41fc5991a95b51f71d0db522d4de84454de4ca2
+ms.sourcegitcommit: 0332efe8f83cb55a9b8ea011db7c99e9b4568118
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/06/2019
-ms.locfileid: "66751269"
+ms.lasthandoff: 07/27/2019
+ms.locfileid: "68590603"
 ---
 # <a name="key-influencers-visualization"></a>关键影响因素可视化效果
 关键影响因素视觉对象有助于理解驱动你所关注指标的因素。 它可分析数据，对重要因素进行排序，并将其显示为“关键影响因素”。 例如，假设你想要找出影响员工流动（也称为流失）的因素。 一大因素可能是就业合同时限，另一大因素可能是员工年龄。 
@@ -132,8 +132,13 @@ ms.locfileid: "66751269"
  
 右侧窗格中的散点图绘制了每个服务期值的低评级的平均百分比。 它用走向线突出显示了斜率。
 
-
 ![服务期的散点图](media/power-bi-visualization-influencers/power-bi-tenure.png)
+
+## <a name="binned-continuous-key-influencers"></a>分箱的连续关键影响因素
+
+在某些情况下，你可能会发现，连续因素会自动变为类别因素。 这是因为我们意识到变量之间的关系并非是线性的，因此我们不能简单地将此关系描述为增加或减少（就像我们在上述示例中所做的那样）。
+
+我们运行相关性测试，以确定影响因素与目标之间相关性的线性程度。 如果目标属于连续目标，则运行 Perasons 相关性测试，如果目标属于类别目标，则运行 Point Biserial 相关性测试。 如果我们检测到关系的线性不足，我们将执行监督式分箱并生成最多 5 个箱。为了弄清楚哪些箱最有意义，我们使用监督式分箱方法，该方法研究解释性因素与被分析的目标之间的关系。
 
 ## <a name="interpret-measures-and-aggregates-as-key-influencers"></a>将度量值和聚合值作为关键影响因素进行解释 
  
@@ -209,15 +214,14 @@ ms.locfileid: "66751269"
 
 ## <a name="considerations-and-troubleshooting"></a>注意事项和疑难解答 
  
-**预览版的限制是什么？** 
+视觉对象的限制是什么？  
  
-关键影响因素视觉对象目前为公共预览版，并存在一些限制。 当前不可用的功能包括： 
-- 分析为聚合或度量值的指标。
-- 在 Power BI Embedded 中使用视觉对象。
-- 在 Power BI 移动应用中使用视觉对象。
-- RLS 支持。
-- “直接查询”支持。
-- “实时连接”支持。
+关键影响因素视觉对象具有一些限制：
+
+- 不支持直接查询
+- 不支持与 Azure Analysis Services 和 Sql Server Analysis Services 的实时连接
+- 不支持发布到 Web
+- 需要 .NET Framework 4.6 或更高版本
 
 ![数值型问题](media/power-bi-visualization-influencers/power-bi-ki-numeric-question.png)
 
@@ -263,7 +267,7 @@ ms.locfileid: "66751269"
 - 可以更改要计数的设备的摘要。 例如，如果设备数量可能影响客户给出的分数，请使用计数。 
 - 你可以透视设备列，查看在特定设备上使用服务是否会影响客户评级。
  
-在此示例中，透视了数据以创建“浏览器”、“手机”和“平板电脑”的新列。 现在可以在“解释依据”中使用这些特定设备  。 所有设备都是影响因素，而浏览器对客户评分的影响最大。
+此示例对数据进行了透视，以便为浏览器、移动设备和平板电脑创建新列（请确保在透视数据后在建模视图中删除并重新创建关系）。 现在可以在“解释依据”中使用这些特定设备  。 所有设备都是影响因素，而浏览器对客户评分的影响最大。
 
 更准确地说，不通过浏览器使用服务的客户比通过浏览器使用服务的客户给出低分数的可能性高 3.79 倍。 列表中越往下走，这一数字越低，移动端的情况则完全相反。 使用移动应用的客户比不使用移动应用的客户更可能给出低分。 
 

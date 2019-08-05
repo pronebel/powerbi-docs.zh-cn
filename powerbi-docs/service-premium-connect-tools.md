@@ -8,19 +8,19 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
-ms.date: 06/18/2019
+ms.date: 07/24/2019
 ms.custom: seodec18
 LocalizationGroup: Premium
-ms.openlocfilehash: 48513ea163847ee3bf1df07151e9985c5bce9656
-ms.sourcegitcommit: 5f22dcda8885d840b7da344d38e89329d02b14fb
+ms.openlocfilehash: 4c39cf5a60786f7cc1748155ce7004254d40ad00
+ms.sourcegitcommit: ebac79f8c2871d4a7e54c1e99ce6d2409345b060
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/18/2019
-ms.locfileid: "67235071"
+ms.lasthandoff: 07/24/2019
+ms.locfileid: "68475633"
 ---
 # <a name="connect-to-datasets-with-client-applications-and-tools-preview"></a>使用客户端应用程序和工具连接到数据集（预览）
 
-Power BI Premium 工作区和数据集支持 Microsoft 和第三方客户端应用程序和工具的只读连接  。 
+Power BI Premium 工作区和数据集支持 Microsoft 和第三方客户端应用程序和工具的只读连接  。 默认情况下，连接处于启用状态
 
 > [!NOTE]
 > 本文将只介绍 Power BI Premium 工作区和数据集的只读连接。 且不提供关于可编程性、特定工具和应用程序、体系结构以及工作区和数据集管理的深入信息  。 接下来介绍的主题需要读者对 Analysis Services 表格模型数据库体系结构和管理有扎实的理解。
@@ -104,6 +104,10 @@ Power BI 服务不支持以下数据集：
 ### <a name="roles-and-role-memberships"></a>角色和角色成员身份
 
 目前，无法使用 XMLA 终结点发现或显示模型角色和角色成员身份。
+
+## <a name="disable-connectivity"></a>禁用连接
+
+默认情况下，为数据集工作负载启用了 XMLA 终结点连接。 可以在[工作负载设置](service-admin-premium-workloads.md#workload-settings)中禁用连接。
 
 ## <a name="audit-logs"></a>审核日志 
 

@@ -8,14 +8,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-gateways
 ms.topic: conceptual
-ms.date: 07/15/2019
+ms.date: 07/25/2019
 LocalizationGroup: Gateways
-ms.openlocfilehash: 1a0ec90d3f6a1de5a542da7ee98f956dfcef67b1
-ms.sourcegitcommit: fe8a25a79f7c6fe794d1a30224741e5281e82357
+ms.openlocfilehash: bea8b954cb1c0743745ef6d3bf9d48aa8513f2fe
+ms.sourcegitcommit: bc688fab9288ab68eaa9f54b9b59cacfdf47aa2e
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/18/2019
-ms.locfileid: "68325149"
+ms.lasthandoff: 07/30/2019
+ms.locfileid: "68624047"
 ---
 # <a name="use-kerberos-for-single-sign-on-sso-from-power-bi-to-on-premises-data-sources"></a>使用 Kerberos 进行从 Power BI 到本地数据源的单一登录 (SSO)
 
@@ -170,9 +170,96 @@ ms.locfileid: "68325149"
 
 在大多数情况下，此配置有效。 但是，使用 Kerberos 时，根据你的环境可以有不同的配置。 如果报表仍无法加载，请联系你的域管理员进一步调查。
 
-## <a name="configure-sap-bw-for-sso"></a>为 SSO 配置 SAP BW
+## <a name="configure-sap-bw-for-sso-using-commoncryptolib"></a>使用 CommonCryptoLib 为 SAP BW 配置 SSO
 
 了解了 Kerberos 如何与网关配合使用后，接下来可以为 SAP Business Warehouse (SAP BW) 配置 SSO。 以下步骤假设你已经[为 Kerberos 约束委派做好了准备](#prepare-for-kerberos-constrained-delegation)（如本文前面部分所述）。
+
+> [!NOTE]
+> 这些说明介绍了如何为 SAP BW 应用程序服务器设置 SSO  。 Microsoft 目前不支持 SSO 与 SAP BW 消息服务器的连接  。
+
+1. 确保已为 BW 服务器正确配置 Kerberos SSO。 如果已配置，应能够通过 SAP 工具（如 SAP GUI）使用 SSO 访问 BW 服务器。 有关设置步骤的详细信息，请参阅 [SAP Single Sign-On:Authenticate with Kerberos/SPNEGO](https://blogs.sap.com/2017/07/27/sap-single-sign-on-authenticate-with-kerberosspnego/)（SAP 单一登录：使用 Kerberos/SPNEGO 进行身份验证）。 BW 服务器应使用 CommonCryptoLib 作为其 SNC 库，并具有开头是“CN=”的 SNC 名称，例如“CN=BW1”。 有关 SNC 名称要求的详细信息，请参阅[适用于 Kerberos 配置的 SNC 参数](https://help.sap.com/viewer/df185fd53bb645b1bd99284ee4e4a750/3.0/en-US/360534094511490d91b9589d20abb49a.html)（snc/identity/as 参数）。
+
+1. 如果未配置，请完成[为 Kerberos 约束委派做准备](https://docs.microsoft.com/power-bi/service-gateway-sso-kerberos#prepare-for-kerberos-constrained-delegation)下的步骤。 确保网关服务用户已配置为在 Active Directory 环境中向代表 BW 应用程序服务器的服务用户显示委派凭据。
+
+1. 如果未配置，请在安装了网关的计算机上安装 x64 版本的 [SAP .NET 连接器](https://support.sap.com/en/product/connectors/msnet.html)。 可以通过在 Power BI Desktop 中尝试连接到 BW 服务器来检查组件是否已安装。 如果无法使用 2.0 实现进行连接，则说明未安装 .NET 连接器。
+
+1. 确保 SAP 安全登录客户端 (SLC) 未在安装了网关的计算机上运行。 SLC 缓存 Kerberos 票证的方式可能会影响网关使用 Kerberos 进行 SSO 的能力。 如果已安装 SLC，请将其卸载或确保退出 SAP 安全登录客户端：右键单击系统托盘中的图标，选择“注销”和“退出”，然后再使用网关尝试进行 SSO 连接。 不支持在 Windows Server 计算机上使用 SLC。 有关详细信息，请参阅 [SAP 备注 2780475](https://launchpad.support.sap.com/#/notes/2780475)（需要 s 用户）。
+
+    ![SAP 安全登录客户端](media/service-gateway-sso-kerberos/sap-secure-login-client.png)
+
+    如果卸载 SLC 或选择“注销”和“退出”，请打开 cmd 窗口，输入 `klist purge` 以清除任何缓存的 Kerberos 票证，然后再尝试通过网关进行 SSO 连接   。
+
+1. 从 SAP 快速启动板上下载 CommonCryptoLib (sapcrypto.dll) 版本 8.5.25 或更高版本，并将其复制到网关计算机上的文件夹中  。 在用于复制 sapcrypto.dll 的同一目录中，创建一个名为 sapcrypto.ini 的文件，该文件包含以下内容：
+
+    ```
+    ccl/snc/enable\_kerberos\_in\_client\_role = 1
+    ```
+
+    .ini 文件包含 CommonCryptoLib 在网关方案中启用 SSO 所需的配置信息。
+
+    > [!NOTE]
+    > 这些文件必须存储在同一位置；换句话说，/path/to/sapcrypto/ 应同时包含 sapcrypto.ini 和 sapcrypto.dll  。
+
+    网关服务用户和服务用户将模拟的 Active Directory (AD) 用户均需要这两个文件的读取和执行权限。 建议向经过身份验证的用户组同时授予对 .ini 和 .dll 文件的权限。 出于测试目的，还可以将这些权限显式授予网关服务用户和被模拟用户。 在以下屏幕截图中，我们已向经过身份验证的用户组授予对 sapcrypto.dll 的“读取 &amp; 执行”权限  ：
+
+    ![经过身份验证的用户](media/service-gateway-sso-kerberos/authenticated-users.png)
+
+1. 如果没有 SAP Business Warehouse 服务器数据源，请在 Power BI 服务中的“管理网关”页上添加一个数据源  。 如果已有与需要 SSO 连接流过的网关相关联的 BW 数据源，请准备对其进行编辑。
+
+    对于“SNC 库”，选择“SNC\_LIB 或 SNC\_LIB\_64 环境变量”或“自定义”    。 如果选择“SNC\_LIB”选项，需要将网关计算机上的 SNC\_LIB\_64 环境变量的值设置为网关计算机上 sapcrypto.dll 副本的绝对路径，例如 C:\Users\Test\Desktop\sapcrypto.dll  。 如果选择“自定义”，请将 sapcrypto .dll 的绝对路径粘贴到“管理网关”页上显示的“自定义 SNC 库路径”字段中   。
+
+    在“高级设置”下，确保已选中“通过 Kerberos 对 DirectQuery 查询使用 SSO”复选框   。 输入的用户名只需具有连接到 BW 服务器的权限，并且主要用于在创建数据源连接后对其进行测试。 如果有任何报表是通过基于导入的数据集创建的，则该用户还可用于刷新这些报表。 如果选择“基本”身份验证，则须提供 BW 用户  。 如果选择“Windows”身份验证，则必须指定在 SAP GUI 中通过 SU01 事务映射到 BW 用户的 Windows Active Directory 用户  。 其余字段（系统编号、客户端 ID、SNC 合作伙伴名称等）必须与输入到 Power BI Desktop 中用于通过 SSO 连接到 BW 服务器的信息匹配   。 选择“应用”，确保测试连接成功  。
+
+    ![身份验证方法](media/service-gateway-sso-kerberos/authentication-method.png)
+
+1. 创建一个 CCL\_PROFILE 系统环境变量，并将其指向 sapcrypto.ini：
+
+    ![CCL\_PROFILE 系统环境变量](media/service-gateway-sso-kerberos/ccl-profile-variable.png)
+
+    请记住，sapcrypto .dll 和 .ini 文件必须位于同一位置。 在上面所示的示例中，sapcrypto.ini 位于桌面上，sapcrypto.dll 也应位于桌面上。
+
+1. 重新启动网关服务：
+
+    ![重启网关服务](media/service-gateway-sso-kerberos/restart-gateway-service.png)
+
+1. 从 Power BI Desktop 发布基于 DirectQuery 的 BW 报表  。 此报表必须使用 BW 用户可以访问的数据，该 BW 用户映射到登录 Power BI 服务的 Azure Active Directory (AAD) 用户。 由于刷新操作的工作原理，必须使用 DirectQuery 而不是导入。 刷新基于导入的报表时，网关将使用创建 BW 数据源时输入到“用户名”和“密码”字段中的凭据   。 换句话说，不使用 Kerberos SSO  。 同样，在发布时，如果具有多个网关，请确保选择已配置 BW SSO 的网关。 在 Power BI 服务中，你现在应该能够刷新报表或基于已发布的数据集创建新报表。
+
+### <a name="troubleshooting"></a>故障排除
+
+如果无法在 Power BI 服务中刷新报表，可以使用网关跟踪、CPIC 跟踪和 CommonCryptoLib 跟踪来帮助诊断问题。 CPIC 跟踪和 CommonCryptoLib 是 SAP 产品，因此 Microsoft 无法为其提供任何直接支持。 对于将被授予对 BW 的 SSO 访问权限的 Active Directory 用户，某些 Active Directory 配置可能要求这些用户是安装了网关的计算机上的管理员组的成员。
+
+1. 网关日志  ：只需重现问题，打开[网关应用](https://docs.microsoft.com/data-integration/gateway/service-gateway-app)，转到“诊断”选项卡，然后选择“导出日志”   ：
+
+    ![导出网关日志](media/service-gateway-sso-kerberos/export-gateway-logs.png)
+
+1. CPIC 跟踪  ：若要启用 CPIC 跟踪，请设置两个环境变量：CPIC\_TRACE 和 CPIC\_TRACE\_DIR。 第一个变量设置跟踪级别，第二个变量设置跟踪文件目录。 该目录必须是经过身份验证的用户组的成员可以写入的位置。 将 CPIC\_TRACE 设置为 3，将 CPIC\_TRACE\_DIR 设置为要跟踪写入其中的文件的任何目录。
+
+    ![CPIC 跟踪](media/service-gateway-sso-kerberos/cpic-tracing.png)
+
+    重现问题，检查 CPIC\_TRACE\_DIR 是否包含跟踪文件。
+
+1. CommonCryptoLib 跟踪  ：通过向之前创建的 sapcrypto.ini 文件添加两行，启用 CommonCryptoLib 跟踪：
+
+    ```
+    ccl/trace/level=5
+    ccl/trace/directory=\\<drive\\>:\logs\sectrace
+    ```
+
+    确保将 ccl/trace/directory 选项更改为经过身份验证的用户组的成员可以写入的位置  。 或者，创建一个新的 .ini 文件来更改此行为。 在与 sapcrypto.ini 和 sapcrypto.dll 相同的目录中，创建一个包含以下内容、名为 sectrace.ini 的文件。  将“目录”选项替换为计算机上经过身份验证的用户可以写入的位置：
+
+    ```
+    LEVEL = 5
+    
+    DIRECTORY = \\<drive\\>:\logs\sectrace
+    ```
+
+    现在，重现问题，并检查目录指向的位置是否包含跟踪文件。 完成后，请确保关闭 CPIC 和 CCL 跟踪。
+
+    有关 CommonCryptoLib 跟踪的详细信息，请参阅 [SAP 备注 2491573](https://launchpad.support.sap.com/#/notes/2491573)（需要 s 用户）。
+
+## <a name="configure-sap-bw-for-sso-using-gsskrb5gx64krb5"></a>使用 gsskrb5/gx64krb5 为 SAP BW 配置 SSO
+
+如果无法使用 CommonCryptoLib 作为 SNC 库，则可以改用 gsskrb5/gx64krb5。 但是，设置步骤要复杂得多，且 SAP 不再为 gsskrb5 提供支持。
 
 本指南尝试尽可能全面地进行介绍。 如果你已经完成了其中的一些步骤，则可以跳过这些步骤。 例如，你可能已经为 SAP BW 服务器创建了一个服务用户并已将 SPN 映射到它，或者已安装了 `gsskrb5` 库。
 
@@ -382,7 +469,7 @@ ms.locfileid: "68325149"
 
 有关“本地数据网关”  和 DirectQuery  的详细信息，请查看以下资源：
 
-* [本地数据网关是什么？](/data-integration/gateway/service-gateway-getting-started)
+* [本地数据网关是什么？](/data-integration/gateway/service-gateway-onprem)
 * [Power BI 中的 DirectQuery](desktop-directquery-about.md)
 * [DirectQuery 支持的数据源](desktop-directquery-data-sources.md)
 * [DirectQuery 和 SAP BW](desktop-directquery-sap-bw.md)

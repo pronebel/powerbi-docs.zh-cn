@@ -12,15 +12,15 @@ ms.topic: tutorial
 ms.date: 12/06/2018
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: cd92374a23a2ee7023c75cfb2612c00d513e9895
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 64da077e079ca3df11ce2a89da546e24865eaf0e
+ms.sourcegitcommit: f05ba39a0e46cb9cb43454772fbc5397089d58b4
+ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61065552"
+ms.lasthandoff: 07/26/2019
+ms.locfileid: "68522884"
 ---
 # <a name="tutorial-set-data-alerts-in-power-bi-service"></a>教程：在 Power BI 服务中设置数据警报
-设置警报，以便在仪表板中的数据更改超出你设置的限制时通知你。 
+设置警报，以便在仪表板中的数据更改超出你设置的限制时通知你。  
 
 如果你拥有 Power BI Pro 许可证，或者有人利用[高级版功能](../service-premium-what-is.md)与你共享了仪表板，则可以为磁贴设置警报。 只能为报表视觉对象固定到的磁贴设置警报，而且只能为仪表、KPI 和卡片设置警报。 可以为从报表固定到仪表板的流数据集中创建的视觉对象设置警报，但无法直接在仪表板上使用“添加磁贴”   > “自定义流数据”  为创建的流磁贴设置警报。 
 
@@ -44,7 +44,7 @@ ms.locfileid: "61065552"
 如果未注册 Power BI，请[免费注册](https://app.powerbi.com/signupredirect?pbi_source=web)后再进行操作。
 
 ## <a name="set-data-alerts-in-power-bi-service"></a>在 Power BI 服务中设置数据警报
-观看 Amanda 将一些警报添加到她的仪表板上的磁贴。 然后可以按照视频下面的分步说明来自己尝试。
+观看视频，了解 Amanda 如何将一些警报添加到仪表板上的磁贴。 然后可以按照视频下面的分步说明来自己尝试。
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/JbL2-HJ8clE" frameborder="0" allowfullscreen></iframe>
 

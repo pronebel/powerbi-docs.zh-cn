@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 05/07/2019
 ms.author: davidi
 LocalizationGroup: Model your data
-ms.openlocfilehash: 7c7d3b04b8c954ae220fb8b157b183f615abd39c
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 641d1ac2c1bbcb9d143afdc04652b4c12b6e775f
+ms.sourcegitcommit: f05ba39a0e46cb9cb43454772fbc5397089d58b4
+ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "65239463"
+ms.lasthandoff: 07/26/2019
+ms.locfileid: "68522218"
 ---
 # <a name="using-calculated-tables-in-power-bi-desktop"></a>使用 Power BI Desktop 中的计算表
 借助计算表，可以将新表添加到模型中。 但是，你会创建定义表值的数据分析表达式 (DAX) 公式，而非从数据源中查询值，并将值加载到新表的列中。 在 Power BI Desktop 中，计算表是通过使用报表视图或数据视图中的“新建表”功能创建的。
@@ -53,7 +53,7 @@ SouthwestEmployees
 
  ![](media/desktop-calculated-tables/calctables_westregionempl.png)
 
-Jeff 的 Western Region Employees 新表的显示方式与字段列表中的其他任何表相同。 他可以创建与其他表之间的关系、添加计算列和度量值，并将其中任何字段添加到报表中，就像任何其他表一样。
+Jeff 的 Western Region Employees 新表的显示方式与字段列表中的其他任何表相同。 Jeff 甚至可以创建与其他表之间的关系、添加计算列和度量值，并将其中任何字段添加到报表中，就像任何其他表一样。
 
  ![](media/desktop-calculated-tables/calctables_fieldlist.png)
 

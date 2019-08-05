@@ -8,15 +8,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
-ms.date: 06/27/2019
+ms.date: 07/25/2019
 ms.custom: seodec18
 LocalizationGroup: Administration
-ms.openlocfilehash: a871a7475dd8282f9ce63646c371182548504357
-ms.sourcegitcommit: b439ded53bfbbb58be27ecedf93d618f5158df33
+ms.openlocfilehash: 751bcb5ee3b383853f0087bab406d59a2271b588
+ms.sourcegitcommit: 4595a6231615d253aead315cb3f85472e2f189e6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/04/2019
-ms.locfileid: "67568092"
+ms.lasthandoff: 07/25/2019
+ms.locfileid: "68501787"
 ---
 # <a name="administering-power-bi-in-the-admin-portal"></a>在管理门户中管理 Power BI
 
@@ -133,7 +133,7 @@ Office 365 中的全局管理员或分配有 Power BI 服务管理员角色的�
 
 “租户设置”  选项卡可以对组织可用的功能进行细粒度控制。 如果你担心敏感数据、我们的某些功能可能不适合你的组织，或者你只需要为特定组提供特定的功能。
 
-下图显示了“租户设置”  选项卡的前两部分。
+下图显示了“租户设置”选项卡上的几个设置  。
 
 ![租户设置](media/service-admin-portal/powerbi-admin-tenant-settings.png)
 
@@ -169,6 +169,10 @@ Office 365 中的全局管理员或分配有 Power BI 服务管理员角色的�
 组织中的用户可以通过 Power BI 帮助菜单获取内部帮助和支持资源。 具体而言，这些参数更改“Learn”、“社区”和“获取帮助”菜单项的行为。
 
 也可以指定 URL，用于将用户定向到许可请求的自定义解决方案。 此参数自定义“升级帐户”按钮的目标 URL，没有 Power BI Pro 许可证的用户可以在“更新到 Power BI Pro”对话框和“管理个人存储”页中找到此 URL。
+
+### <a name="receive-email-notifications-for-service-outages-or-incidents"></a>接收服务中断或突发事件相关电子邮件通知
+
+如果此租户受到服务中断或突发事件的影响，已启用邮件的安全组将收到电子邮件通知。 了解有关[服务中断通知](service-interruption-notifications.md)的详细信息。
 
 ## <a name="workspace-settings"></a>工作区设置
 

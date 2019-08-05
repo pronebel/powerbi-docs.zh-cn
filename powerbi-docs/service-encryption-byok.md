@@ -10,12 +10,12 @@ ms.subservice: powerbi-admin
 ms.topic: conceptual
 ms.date: 06/18/2019
 LocalizationGroup: Premium
-ms.openlocfilehash: 96939c3ad29418ad868175dfd8093847ab427187
-ms.sourcegitcommit: 63a697c67e1ee37e47b21047e17206e85db64586
+ms.openlocfilehash: d1a057f56237a0609f3330d4728c7dfcded84a71
+ms.sourcegitcommit: 012f05efc4e97aeb6178fb2fc820b73bcc1ce920
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/02/2019
-ms.locfileid: "67498980"
+ms.lasthandoff: 07/23/2019
+ms.locfileid: "68391136"
 ---
 # <a name="bring-your-own-encryption-keys-for-power-bi-preview"></a>为 Power BI 引入自己的加密密钥（预览版）
 
@@ -45,6 +45,9 @@ BYOK 仅适用于与 PBIX 文件关联的数据集，不适合图块和视觉对
 
 1. 创建长度为 4096 位的 RSA 密钥（或使用此类型的现有密钥），并提供包装和解包权限。
 
+    > [!IMPORTANT]
+    > Power BI BYOK 仅支持 4096 位长度的 RSA 密钥。
+
 1. 推荐：检查并确保密钥保管库已启用“软删除”选项  。
 
 ### <a name="add-the-service-principal"></a>添加服务主体
@@ -52,6 +55,9 @@ BYOK 仅适用于与 PBIX 文件关联的数据集，不适合图块和视觉对
 1. 在 Azure 门户的密钥保管库中，在“访问策略”下，选择“新建”   。
 
 1. 在“选择主体”下，搜索并选择“Microsoft.Azure.AnalysisServices”  。
+
+    > [!NOTE]
+    > 如果找不到“Microsoft.Azure.AnalysisServices”，则可能是与 Azure Key Vault 关联的 Azure 订阅没有与之关联的 Power BI 资源。 请尝试改为搜索以下字符串：00000009-0000-0000-c000-000000000000。
 
 1. 在“密钥权限”下，选择“解包密钥”和“包装密钥”    。
 

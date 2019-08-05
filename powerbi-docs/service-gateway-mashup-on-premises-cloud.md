@@ -10,21 +10,21 @@ ms.topic: conceptual
 ms.date: 07/15/2019
 ms.author: mblythe
 LocalizationGroup: Gateways
-ms.openlocfilehash: 39f5a01a396e45207777b1a5e58e73808ddf3f88
-ms.sourcegitcommit: a58461fe7dfa65c751490b52de5fc73f8e69a17f
+ms.openlocfilehash: 1a2415ba840a1b88f4c7a215a520d0cc88f70e49
+ms.sourcegitcommit: 8aa90f662afb7492ffcfc11ef142cdb0ccecc9aa
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/19/2019
-ms.locfileid: "68352174"
+ms.lasthandoff: 07/24/2019
+ms.locfileid: "68462214"
 ---
 # <a name="merge-or-append-on-premises-and-cloud-data-sources"></a>合并或追加本地和云数据源
 
 [!INCLUDE [gateway-rewrite](includes/gateway-rewrite.md)]
 
-借助本地数据网关，可在同一查询中合并或追加本地和云数据源。 这非常有用，因为无需使用单独的查询即可合并来自多个源的数据。
+可以使用本地数据网关合并或追加同一查询中的本地和云数据源。 此解决方案非常有用，因为无需使用单独的查询即可合并来自多个源的数据。
 
 >[!NOTE]
->本文仅适用于在单个查询中合并或追加了云和本地数据源的数据集。 对于包含单独查询的数据集（一个连接到本地，另一个连接到云数据源），使用云数据源的查询将不会使用网关来执行。
+>本文仅适用于在单个查询中合并或追加了云和本地数据源的数据集。 对于包含单独查询的数据集（一个连接到本地数据源，另一个连接到云数据源），网关不会执行云数据源的查询。
 
 ## <a name="prerequisites"></a>先决条件
 
@@ -51,14 +51,13 @@ ms.locfileid: "68352174"
 6. 在新数据集的“数据集设置”页上  ：
 
    - 对于本地源，选择与此数据源关联的网关。
-
    - 在“数据源凭据”下，根据需要编辑云数据源凭据  。
 
     请确保正确设置云和本地数据源的隐私级别，以确保安全地处理联接。
 
      ![数据集设置](media/service-gateway-mashup-on-premises-cloud/dataset-settings.png)
 
-7. 设置云凭据后，可使用“立即刷新”选项刷新数据集，或计划为定期刷新  。
+7. 设置云凭据后，可使用“立即刷新”选项刷新数据集  。 或者可以安排定期刷新。
 
 ## <a name="next-steps"></a>后续步骤
 

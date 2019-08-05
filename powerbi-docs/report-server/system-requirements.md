@@ -8,13 +8,13 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
-ms.date: 11/08/2018
-ms.openlocfilehash: 063ab8083c3091a7a41ca30e9045ce3a791112d2
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.date: 07/23/2019
+ms.openlocfilehash: fea28cd1c6541ae9255acd4be14cc85c2c2c5bed
+ms.sourcegitcommit: 473d031c2ca1da8935f957d9faea642e3aef9839
+ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "64770031"
+ms.lasthandoff: 07/23/2019
+ms.locfileid: "68415367"
 ---
 # <a name="hardware-and-software-requirements-for-installing-power-bi-report-server"></a>安装 Power BI 报表服务器所要满足的硬件和软件要求
 
@@ -50,6 +50,7 @@ SQL Server 用于托管报表服务器数据库。 SQL Server 数据库引擎实
 
 Power BI 报表服务器将安装默认值，以配置报表服务器正常运行所需的核心设置。 具体要求如下：
 
+* Power BI 报表服务器支持的语言包括：英语、德语、西班牙语、日语、意大利语、法语、俄语、简体中文、繁体中文、巴西葡萄牙语和韩语
 * 在安装完成之后且在配置报表服务器数据库之前，必须有 SQL Server 数据库引擎。 数据库引擎实例托管 Reporting Services 配置管理器将创建的报表服务器数据库。 实际的安装体验不需要有数据库引擎。
 * [SQL Server 各版本支持的 Reporting Services 功能](https://docs.microsoft.com/sql/reporting-services/reporting-services-features-supported-by-the-editions-of-sql-server-2016)概述了 SQL Server 各版本之间的差异。
 * 运行安装程序的用户帐户必须是本地管理员组的成员。

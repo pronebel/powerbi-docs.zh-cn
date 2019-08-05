@@ -1,5 +1,5 @@
 ---
-title: 通过在 URL 中添加查询字符串参数来筛选报表
+title: 在 URL 中使用查询字符串参数筛选报告
 description: 使用 URL 查询字符串参数筛选报表，甚至筛选多个字段。
 author: maggiesMSFT
 ms.author: maggies
@@ -11,12 +11,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 04/24/2019
 LocalizationGroup: Reports
-ms.openlocfilehash: cf640be131e1bffb571ad3c2ae2713dee1c4c0ca
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 1d1371fa63af51f50a631739e4b2eed5550dc7ee
+ms.sourcegitcommit: f05ba39a0e46cb9cb43454772fbc5397089d58b4
+ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "66051296"
+ms.lasthandoff: 07/26/2019
+ms.locfileid: "68523323"
 ---
 # <a name="filter-a-report-using-query-string-parameters-in-the-url"></a>通过在 URL 中添加查询字符串参数来筛选报表
 
@@ -28,7 +28,7 @@ ms.locfileid: "66051296"
 
 假设使用的是 Power BI Desktop。 你希望创建一个包含其他 Power BI 报表的链接的报表，但只想显示其他报表中的某些信息。 首先，使用查询字符串参数筛选报表并保存 URL。 接下来，使用这些新的报表 URL 在 Desktop 中创建一个表。  然后发布并共享报表。
 
-查询字符串参数的另一个用途是用于创建高级 Power BI 解决方案。  使用 DAX，可创建一个报表，该报表根据客户在当前报表中所做的选择动态生成已筛选的报表 URL。 当客户选择 URL 时，只会看到预期信息。 
+查询字符串参数的另一个用途是用于创建高级 Power BI 解决方案。  他们使用 DAX 创建一个报表，该报表根据客户在当前报表中所做的选择动态生成已筛选的报表 URL。 当客户选择 URL 时，只会看到预期信息。 
 
 ## <a name="query-string-parameter-syntax-for-filtering"></a>用于筛选的查询字符串参数语法
 
@@ -43,11 +43,11 @@ URL?filter=***表***/***字段*** eq '***值***'
 
 ### <a name="reports-in-apps"></a>应用中的报表
 
-如果要向应用中的报表添加 URL 筛选器，格式会略有不同。 应用中的报表链接有一个添加到 URL 中的查询参数 (ctid)。 使用与符号分隔的查询参数 (&)。 保留"？ 筛选器 ="，并且将 ctid 参数移动到的 URL，末尾前面带有与号 (&)。 
+如果要向应用中的报表添加 URL 筛选器，格式会略有不同。 应用中的报表链接有一个添加到 URL 中的查询参数 (ctid)。 使用 & 号分隔查询参数。 保留“?filter=”并将 ctid 参数移动到 URL 的末尾，前面加上 & 号。 
 
 如以下示例所示：
 
-app.powerbi.com/groups/me/apps/*应用程序 id*/reports/*报表 id*/ReportSection？ 筛选器 =*表*/*字段*eq '*值*& ctid =*ctid*
+app.powerbi.com/groups/me/apps/app-id/reports/report-id/ReportSection?filter=Table/Field eq 'value&'ctid=ctid      
 
 ### <a name="field-types"></a>字段类型
 
@@ -83,7 +83,7 @@ app.powerbi.com/groups/me/apps/*应用程序 id*/reports/*报表 id*/ReportSecti
 
 我们的报表针对北卡罗来纳州进行了筛选；报表页上的所有可视化效果都只显示北卡罗来纳州的数据。
 
-![报表针对北卡罗来纳筛选](media/service-url-filters/power-bi-report4.png)
+![针对北卡罗来纳州筛选的报表](media/service-url-filters/power-bi-report4.png)
 
 ## <a name="filter-on-multiple-fields"></a>筛选多个字段
 
@@ -133,9 +133,9 @@ Power BI URL 筛选器可包含以下格式的数字。
 
 ### <a name="date-data-types"></a>日期数据类型
 
-Power BI 支持 Date 和 DateTimeOffset 数据类型 OData V3 和 V4   。  使用 EDM 格式表示日期 (2019年-02-12T00:00:00)，因此，当指定为年-月-日日期时，Power BI 会将它解释为 YYYY-MM-DDT00:00:00。
+Power BI 支持 Date 和 DateTimeOffset 数据类型 OData V3 和 V4   。  由于日期的表示形式为 EDM 格式 (2019-02-12T00:00:00)，因此当你将日期指定为“YYYY-MM-DD”时，Power BI 将它解释为“YYYY-MM-DDT00:00:00”。
 
-为什么这种区别很重要？ 假设您创建的查询字符串参数**表/日期 g t 2018年-08-03**。  结果是包括 2018 年 8 月 3 日，还是始于 2018 年 8 月 4 日？ 由于 Power BI 将转换到查询**表/日期 g t"2018年-08-03T00:00:00'** ，你的结果包含具有非零时间部分，因为这些日期将大于任何日期 **"2018年-08-03T00:00:00'** .
+为什么这种区别很重要？ 假设你创建了一个查询字符串参数 Table/Date gt '2018-08-03'  。  结果是包括 2018 年 8 月 3 日，还是始于 2018 年 8 月 4 日？ 由于 Power BI 将查询转换为 Table/Date gt '2018-08-03T00:00:00'，因此结果包含具有非零时间部分的任何日期，因为这些日期大于“2018-08-03T00:00:00”   。
 
 ## <a name="special-characters-in-url-filters"></a>URL 筛选器中的特殊字符
 
@@ -177,7 +177,7 @@ TerritoryChain = [Territory] & " - " & [Chain]
 
 * 使用 in 运算符时，in 右侧的值必须是括在括号中的逗号分隔列表   。    
 * 在 Power BI 报表服务器中，可以通过将报表参数包含到报表 URL 中来[传递报表参数](https://docs.microsoft.com/sql/reporting-services/pass-a-report-parameter-within-a-url?view=sql-server-2017.md)。 这些 URL 参数不带前缀，因为它们被直接传递到报表处理引擎。
-* 查询字符串筛选不适用于[发布到 web](service-publish-to-web.md)或[导出为 PDF](consumer/end-user-pdf.md)。
+* 无法结合使用查询字符串筛选和[发布到 Web](service-publish-to-web.md) 或[导出到 PDF](consumer/end-user-pdf.md)。
 * [使用报表 Web 部件在 SharePoint Online 中嵌入报表](service-embed-report-spo.md)不支持 URL 筛选器。
 * 由于 Javascript 限制，长数据类型限制为 (2^53-1)。
 * 报表 URL 筛选器有 10 个表达式限制（通过 AND 连接的 10 个筛选器）。

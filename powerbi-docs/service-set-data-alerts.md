@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 02/28/2018
 ms.author: maggies
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 0efbcf61eea82dd1db016917c7fa7c53e06c8a66
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: a26cd6d654f9378d9fa09ae46b64762213b26089
+ms.sourcegitcommit: f05ba39a0e46cb9cb43454772fbc5397089d58b4
+ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61407385"
+ms.lasthandoff: 07/26/2019
+ms.locfileid: "68522985"
 ---
 # <a name="data-alerts-in-power-bi-service"></a>Power BI 服务中的数据警报
 设置警报，以便在仪表板中的数据更改超出你设置的限制时通知你。 
@@ -33,7 +33,7 @@ ms.locfileid: "61407385"
 > 
 
 ## <a name="set-data-alerts-in-power-bi-service"></a>在 Power BI 服务中设置数据警报
-观看 Amanda 将一些警报添加到她的仪表板上的磁贴。 然后按照视频下面的分步说明来自己尝试一下。
+观看视频，了解 Amanda 如何将一些警报添加到仪表板上的磁贴。 然后可以按照视频下面的分步说明来自己尝试。
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/JbL2-HJ8clE" frameborder="0" allowfullscreen></iframe>
 
