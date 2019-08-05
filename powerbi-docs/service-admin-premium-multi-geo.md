@@ -10,12 +10,12 @@ ms.subservice: powerbi-admin
 ms.topic: conceptual
 ms.date: 02/05/2019
 LocalizationGroup: Premium
-ms.openlocfilehash: fcef4b7bc9feaee0912a8e0e9ea8098d52c66e3a
-ms.sourcegitcommit: 76fadf20c1e19ec43aa8f9c5a5e909b567419ef6
+ms.openlocfilehash: f29ce1ce05db80378eee81293d92484fb4f58f45
+ms.sourcegitcommit: 805d52e57a935ac4ce9413d4bc5b31423d33c5b1
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/17/2019
-ms.locfileid: "68289833"
+ms.lasthandoff: 07/30/2019
+ms.locfileid: "68665409"
 ---
 # <a name="configure-multi-geo-support-for-power-bi-premium"></a>配置 Power BI Premium 的 Multi-Geo 支持
 
@@ -30,6 +30,7 @@ Multi-Geo（多地理位置）是一项 Power BI Premium 功能，可帮助跨�
 - 印度
 - 亚太
 - 澳大利亚
+- 非洲
 
 Multi-Geo 不适用于 Power BI Germany、由世纪互联运营的 Power BI China 或 Power BI 美国政府版。
 

@@ -9,12 +9,12 @@ ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 04/08/2019
 ms.author: mshenhav
-ms.openlocfilehash: 8600dce5012abb41c37b202dcc8eb204da11fa33
-ms.sourcegitcommit: acd9f8212c9b0c6d3d8c4d56bba3c285246f3122
+ms.openlocfilehash: a7e26fd96066ce35e7d61443a8d7c32c64011d5e
+ms.sourcegitcommit: 805d52e57a935ac4ce9413d4bc5b31423d33c5b1
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/16/2019
-ms.locfileid: "68230198"
+ms.lasthandoff: 07/30/2019
+ms.locfileid: "68665434"
 ---
 # <a name="whats-new-in-the-mobile-apps-for-power-bi"></a>Power BI 移动应用中的新功能
 有关相关的“新增功能”的信息，请参阅：
@@ -649,8 +649,6 @@ SQL Server 2016 移动报表和 KPI  - [查看 SQL Server 2016 移动报表和 K
 [在 Android 手机上使用横向模式查看仪表板](mobile-apps-view-dashboard.md#view-dashboards-on-your-android-phone)。 
 
 #### <a name="power-bi-app-for-windows-10-devices"></a>适用于 Windows 10 设备的 Power BI 应用
-[在 Windows 10 手机上使用横向模式](mobile-apps-view-dashboard.md#view-dashboards-on-your-windows-10-device)查看仪表板。
-
 [在 Windows 10 手机上查看报表](mobile-reports-in-the-mobile-apps.md)。
 
 [在 Windows 10 移动仪表板上快速洞察数据](mobile-tiles-in-the-mobile-apps.md) - 共享磁贴快照或直接从仪表板中打开报表。

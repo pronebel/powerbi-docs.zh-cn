@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 06/24/2019
 ms.author: mihart
 LocalizationGroup: Transform and shape data
-ms.openlocfilehash: 2e0fc8ae6a6d2b01121ffb1c52c29652af21f21e
-ms.sourcegitcommit: e67bacbfc5638ee97e3d2e0e7f5bd2d9aac78f9c
+ms.openlocfilehash: 1d07c678b02f77689d24d067ca58a4e28ac70cb0
+ms.sourcegitcommit: bc688fab9288ab68eaa9f54b9b59cacfdf47aa2e
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/02/2019
-ms.locfileid: "67533023"
+ms.lasthandoff: 07/30/2019
+ms.locfileid: "68623916"
 ---
 # <a name="shape-maps-in-power-bi-desktop-preview"></a>Power BI Desktop 中的形状地图（预览版）
 创建  “形状地图”视觉对象以使用颜色比较地图上的区域 与  “地图”视觉对象不同，  “形状地图”无法在地图上显示数据点的精确地理位置。 相反，其主要目的是通过不同方式对地图上的区域着色来显示这些区域的相对比较。
@@ -323,11 +323,11 @@ https://www.justice.gov/usao/resources/annual-statistical-reports
 | mx-gro |Gro. |MX-GRO |格雷罗 |格雷罗 |GR |
 | mx-gua |Gto. |MX-GUA |瓜纳华托 |瓜纳华托 |GT |
 | mx-dur |Dgo. |MX-DUR |杜兰戈 |杜兰戈 |DU |
-| mx-dif |Col. |MX-DIF |墨西哥城 |墨西哥城 |DF |
-| mx-col |Coah. |MX-COL |科利马 |科利马 |CL |
-| mx-coa |Chis. |MX-COA |科阿韦拉 |科阿韦拉 |CA |
+| mx-dif |CDMX. |MX-DIF |墨西哥城 |墨西哥城 |DF |
+| mx-col |Col. |MX-COL |科利马 |科利马 |CL |
+| mx-coa |Coah. |MX-COA |科阿韦拉 |科阿韦拉 |CA |
 | mx-chh |Chih. |MX-CHH |奇瓦瓦 |奇瓦瓦 |CH |
-| mx-chp |CDMX. |MX-CHP |恰帕斯 |恰帕斯 |CP |
+| mx-chp |Chis. |MX-CHP |恰帕斯 |恰帕斯 |CP |
 | mx-cam |Camp. |MX-CAM |坎佩切 |坎佩切 |CM |
 | mx-bcs |B.C.S. |MX-BCS |南下加利福尼亚 |南下加利福尼亚 |BS |
 | mx-bcn |B.C. |MX-BCN |下加利福尼亚 |下加利福尼亚 |BN |

@@ -10,12 +10,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 10/22/2018
 ms.custom: seodec18
-ms.openlocfilehash: 07441bd0446e37353984efe97e435ac83d2c355d
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: 5b8cce3c62811509b5a2fa80bdde683c6278c7b2
+ms.sourcegitcommit: bc688fab9288ab68eaa9f54b9b59cacfdf47aa2e
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "60978364"
+ms.lasthandoff: 07/30/2019
+ms.locfileid: "68624178"
 ---
 # <a name="power-bi-urls-for-whitelisting"></a>列入允许列表的 Power BI URL
 
@@ -30,7 +30,7 @@ Power BI 联机服务只需针对列出的终结点打开 TCP 端口 443。
 通配符 (*) 表示根域下的所有级别，并且在信息不可用时，我们将使用 N/A。 “目标”列是包含 FQDN/域和外部站点链接的列表，其中包含更多终结点信息  。
 
 >[!Important]
->下表中的信息并不代表美国政府云、德国云或中国云    。
+>下表中的信息并不代表美国政府云、德国云或中国云 **   。
 
 ## <a name="authentication"></a>身份验证
 
@@ -38,7 +38,7 @@ Power BI 依赖于 Office 365 身份验证和标识部分中所需的终结点�
 
 | 行 | 用途 | 目标 | 端口 |
 | --- | --- | --- | --- |
-| 1 | **必需：** 身份验证和标识 | 请参阅 Office 365 文档，了解 [Office Online 和常用 URL](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges#microsoft-365-common-and-office-online)  | N/A |
+| 1 | **必需：** 身份验证和标识 | 请参阅 Office 365 文档，了解 [Office Online 和常用 URL](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges#microsoft-365-common-and-office)  | N/A |
 
 ## <a name="general-site-usage"></a>常规站点使用
 
@@ -47,7 +47,7 @@ Power BI 依赖于 Office 365 身份验证和标识部分中所需的终结点�
 | 行 | 用途 | 目标 | 端口 |
 | --- | --- | --- | --- |
 | 1 | **必需：** 后端 API | *.analysis.windows.net | TCP 443 |
-| 2 | **必需：** Office 365 集成 | 请参阅 Office 365 文档，了解 [Office Online 和常用 URL](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges#microsoft-365-common-and-office-online) | N/A |
+| 2 | **必需：** Office 365 集成 | 请参阅 Office 365 文档，了解 [Office Online 和常用 URL](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges#microsoft-365-common-and-office) | N/A |
 | 3 | **必需：** 门户 | app.powerbi.com | TCP 443 |
 | 4 | **必需：** 服务遥测 | dc.services.visualstudio.com | TCP 443 |
 | 5 | **可选：** 信息性消息 | dynmsg.modpim.com | TCP 443 |
@@ -60,7 +60,7 @@ Power BI 依赖于 Office 365 身份验证和标识部分中所需的终结点�
 
 | 行 | 用途 | 目标 | 端口 |
 | --- | --- | --- | --- |
-| 1 | **必需：** 用于管理用户和查看审核日志 | 请参阅 Office 365 文档，了解 [Office Online 和常用 URL](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges#microsoft-365-common-and-office-online) | N/A |
+| 1 | **必需：** 用于管理用户和查看审核日志 | 请参阅 Office 365 文档，了解 [Office Online 和常用 URL](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges#microsoft-365-common-and-office) | N/A |
 | | | |
 
 ## <a name="getting-data"></a>获取数据
@@ -82,7 +82,7 @@ Power BI 依赖于特定终结点，以便能够支持仪表板和报表。 必�
 
 | 行 | 用途 | 目标 | 端口 |
 | --- | --- | --- | --- |
-| 1 | **必需：** Excel 集成 | 请参阅 Office 365 文档，了解 [Office Online 和常用 URL](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges#microsoft-365-common-and-office-online) | N/A |
+| 1 | **必需：** Excel 集成 | 请参阅 Office 365 文档，了解 [Office Online 和常用 URL](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges#microsoft-365-common-and-office) | N/A |
 | | | |
 
 ## <a name="custom-visuals"></a>自定义视觉对象
@@ -94,7 +94,7 @@ Power BI 依赖于特定终结点，以便能够查看和访问自定义视觉�
 | 1 | **必需：** 从市场接口或从文件导入自定义视觉对象 | *.azureedge.net <br> *.blob.core.windows.net <br> store.office.com | TCP 443 |
 | 2 | **可选：** 必应地图 | bing.com <br> platform.bing.com <br> *.virtualearth.net | TCP 443 |
 | 3 | **可选：** PowerApps | 请参阅 PowerApps 系统要求站点中的[必需的服务](https://docs.microsoft.com/powerapps/maker/canvas-apps/limits-and-config#required-services)部分 | N/A |
-| 4 | **可选：** Visio | 请参阅 Office 365 文档，了解 [Office Online 和常用 URL](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges#microsoft-365-common-and-office-online) 以及 [SharePoint Online 和 OneDrive for Business](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges#sharepoint-online-and-onedrive-for-business) | N/A |
+| 4 | **可选：** Visio | 请参阅 Office 365 文档，了解 [Office Online 和常用 URL](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges#microsoft-365-common-and-office) 以及 [SharePoint Online 和 OneDrive for Business](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges#sharepoint-online-and-onedrive-for-business) | N/A |
 | | | |
 
 ## <a name="related-external-sites"></a>相关外部站点
