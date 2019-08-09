@@ -162,7 +162,7 @@ Add-AzureADServicePrincipalPolicy -Id $sp.ObjectId -RefObjectId $policy.Id
 
 ### <a name="aadsts90094-the-grant-requires-admin-permission"></a>AADSTS90094:授予需要管理员权限
 
-**表现： **<br>
+**_表现：_**<br>
 非管理员用户首次尝试登录到应用程序并授予许可时，会收到以下错误之一：
 
 * ConsentTest 需要具有访问组织中的资源的权限，而只有管理员才能授予此权限。 请让管理员授予访问此应用的权限，否则你将无法使用该应用。
@@ -172,10 +172,10 @@ Add-AzureADServicePrincipalPolicy -Id $sp.ObjectId -RefObjectId $policy.Id
 
 管理员用户可以成功登录并授予许可。
 
-**根本原因： **<br>
+**_根本原因：_**<br>
 对租户禁用用户同意。
 
-**可能会出现几个修补程序： **
+**_可能会出现几个修补程序：_**
 
 对整个租户（所有用户和所有应用程序）启用用户同意 
 
