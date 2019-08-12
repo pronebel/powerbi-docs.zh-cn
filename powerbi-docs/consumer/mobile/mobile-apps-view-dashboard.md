@@ -7,21 +7,21 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: conceptual
-ms.date: 06/28/2018
+ms.date: 07/05/2019
 ms.author: mshenhav
-ms.openlocfilehash: dc117c9b17e9d20d1e5be6e6fedd18cb7aa3ae61
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 4629b78379ba87d58c31f8102b855e1f62565abd
+ms.sourcegitcommit: 805d52e57a935ac4ce9413d4bc5b31423d33c5b1
+ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61137674"
+ms.lasthandoff: 07/30/2019
+ms.locfileid: "68665467"
 ---
 # <a name="view-dashboards-and-reports-in-the-power-bi-mobile-apps"></a>查看 Power BI 移动应用中的仪表板和报表
 适用于：
 
-| ![iPhone](./media/mobile-apps-view-dashboard/iphone-logo-50-px.png) | ![iPad](./media/mobile-apps-view-dashboard/ipad-logo-50-px.png) | ![Android 手机](./media/mobile-apps-view-dashboard/android-phone-logo-50-px.png) | ![Android 平板电脑](./media/mobile-apps-view-dashboard/android-tablet-logo-50-px.png) | ![Windows 10 设备](./media/mobile-apps-view-dashboard/win-10-logo-50-px.png) |
+| ![iPhone](./media/mobile-apps-view-dashboard/iphone-logo-50-px.png) | ![iPad](./media/mobile-apps-view-dashboard/ipad-logo-50-px.png) | ![Android 手机](./media/mobile-apps-view-dashboard/android-phone-logo-50-px.png) | ![Android 平板电脑](./media/mobile-apps-view-dashboard/android-tablet-logo-50-px.png) | 
 |:--- |:--- |:--- |:--- |:--- |
-| [iPhone](mobile-apps-view-dashboard.md#view-dashboards-on-your-iphone) |[iPad](mobile-apps-view-dashboard.md#view-dashboards-on-your-ipad) |[Android 手机](mobile-apps-view-dashboard.md#view-dashboards-on-your-android-phone) |[Android 平板电脑](mobile-apps-view-dashboard.md#view-dashboards-on-your-android-tablet) |[Windows 10 设备](mobile-apps-view-dashboard.md#view-dashboards-on-your-windows-10-device) |
+| [iPhone](mobile-apps-view-dashboard.md#view-dashboards-on-your-iphone) |[iPad](mobile-apps-view-dashboard.md#view-dashboards-on-your-ipad) |[Android 手机](mobile-apps-view-dashboard.md#view-dashboards-on-your-android-phone) |[Android 平板电脑](mobile-apps-view-dashboard.md#view-dashboards-on-your-android-tablet) |
 
 仪表板是公司的生命周期和流程的门户。 仪表板是用于监视业务的当前状态的一个概览性的单一区域。
 
@@ -145,45 +145,6 @@ ms.locfileid: "61137674"
     ![痕迹导航](./media/mobile-apps-view-dashboard/power-bi-android-tablet-breadcrumb.png)
 
     你可以在仪表板的不同区域使用“收缩”手势进行放大和缩小，你还可以使用平移来进行导航。 你仍然可以[点击磁贴](mobile-tiles-in-the-mobile-apps.md)以在焦点模式下打开该磁贴，并与你的数据进行交互。
-
-## <a name="view-dashboards-on-your-windows-10-device"></a>在 Windows 10 设备上查看仪表板
-1. 打开 Windows 10 设备上的 Power BI 应用并登录。
-   
-   是否需要先[下载应用](http://go.microsoft.com/fwlink/?LinkID=526478)？
-2. 点击仪表板将其打开。   
-   
-   ![主仪表板](./media/mobile-apps-view-dashboard/power-bi-windows-10-device-dashboard-home.png)
-   
-   * 黑色的星标表示仪表板已加入收藏夹。 
-   * 每个仪表板名称下面的批注（在此示例中，为 **MBI**）指明了每个仪表板中的数据分类方式。 阅读更多有关 [Power BI 中的数据分类](../../service-data-classification.md)。
-   
-   在 Windows 10 手机上 Power BI 仪表板看起来稍有不同。 所有磁贴宽度相同，从顶部到底部一个接一个排列。
-   
-   ![仪表板纵向视图](./media/mobile-apps-view-dashboard/power-bi-windows-10-dashboard-0928.png)
-   
-    还可以旋转手机，在横向模式下查看仪表板。
-   
-   > [!TIP]
-   > 如果你是仪表板所有者，则可以在 Power BI 服务中[创建手机专用仪表板纵向模式视图](../../service-create-dashboard-mobile-phone-view.md)。 
-   > 
-   > 
-3. 在仪表板中，你可以：
-   
-   * [点击一个磁贴](mobile-tiles-in-the-mobile-apps.md)打开它并与它交互。
-   * 点击“全屏”  图标 ![全屏图标](./media/mobile-apps-view-dashboard/power-bi-windows-10-full-screen-icon.png) 来展示没有边框或菜单的 Power BI 仪表板，这类似于PowerPoint 中的“幻灯片放映”  视图。
-   * 点击“邀请”  图标 ![邀请图标](./media/mobile-apps-view-dashboard/pbi_andr_inviteicon.png)，与同事[共享仪表板](mobile-share-dashboard-from-the-mobile-apps.md)。
-   * 点击星标 ![收藏夹星标](././media/mobile-apps-view-dashboard/power-bi-mobile-not-favorite-icon.png)，[将仪表板加入收藏夹](mobile-apps-favorites.md)。
-   * 点击“固定到开始屏幕”  图标，以[将仪表板固定到 Windows 开始屏幕](mobile-pin-dashboard-start-screen-windows-10-phone-app.md)。 
-4. 若要返回到仪表板主页上，点击仪表板名称以打开导航路径记录，然后点击“**我的工作区**”：
-   
-    ![痕迹导航](./media/mobile-apps-view-dashboard/power-bi-windows-10-dashboard-breadcrumb.png)
-
-### <a name="view-dashboards-in-landscape-mode-on-your-windows-10-phone"></a>在 Windows 10 手机上的横向模式下查看仪表板
-你还可以在横向模式下查看仪表板，只需旋转你的手机。 仪表板布局从一系列磁贴变为整个仪表板的视图 &#151; 你可以看到仪表板的所有磁贴，和 Power BI 服务中展示的一样。
-
-![仪表板横向](./media/mobile-apps-view-dashboard/pbi_iph_landscape.png)
-
-你可以在仪表板的不同区域使用“收缩”手势进行放大和缩小，你还可以使用平移来进行导航。 你仍然可以[点击磁贴](mobile-tiles-in-the-mobile-apps.md)以在焦点模式下打开该磁贴，并与你的数据进行交互。
 
 ## <a name="create-a-phone-view-of-a-dashboard-in-the-power-bi-service"></a>在 Power BI 服务中创建仪表板电话视图
 如果你是仪表板所有者，则可以*在 Power BI 服务中*创建手机专用仪表板纵向模式视图。 

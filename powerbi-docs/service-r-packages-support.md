@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 76361bba2690e0ab6ae8fa49008d7a6accae900e
-ms.sourcegitcommit: fe8a25a79f7c6fe794d1a30224741e5281e82357
+ms.openlocfilehash: 60d97d8b2226e9a3f9aba2bf043bd9c6aade161a
+ms.sourcegitcommit: 805d52e57a935ac4ce9413d4bc5b31423d33c5b1
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/18/2019
-ms.locfileid: "68325079"
+ms.lasthandoff: 07/30/2019
+ms.locfileid: "68665313"
 ---
 # <a name="r-packages-in-the-power-bi-service"></a>Power BI 服务中的 R 程序包
 可以使用功能强大的 [R 编程语言](https://www.r-project.org/)在 Power BI 服务中创建视觉对象。 许多 R 程序包在 Power BI 服务中受到支持（并且更多包始终受支持），某些包不受支持。
@@ -29,6 +29,7 @@ ms.locfileid: "68325079"
 ## <a name="requirements-and-limitations-of-r-packages"></a>R 程序包要求和限制
 R 程序包存在大量要求和限制：
 
+* 当前 R 运行时：Microsoft R 3.4.4
 * Power BI 服务主要支持带有免费和开源软件许可证（例如 GPL-2、GPL-3、MIT+R 等）的 R 程序包.
 * Power BI 服务支持已在 CRAN 发布的程序包。 此服务不支持专用或自定义 R 程序包。 我们鼓励用户在申请使用 Power BI 服务中提供的包之前，先在 CRAN 上公布其私有包。
 * Power BI Desktop 具有两种 R 程序包变体  ：

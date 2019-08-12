@@ -8,15 +8,15 @@ featuredvideoid: jtlLGRKBvXY
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 06/19/2019
+ms.date: 07/19/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 86a3faf2095ff5100bc372a68b7d56861eb94806
-ms.sourcegitcommit: f05ba39a0e46cb9cb43454772fbc5397089d58b4
+ms.openlocfilehash: 21fa3c5c3907e8c1aa4d40bd3e6332c77ff62b98
+ms.sourcegitcommit: 73228d0a9038b8369369c059ad06168d2c5ff062
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/26/2019
-ms.locfileid: "68523354"
+ms.lasthandoff: 08/02/2019
+ms.locfileid: "68730087"
 ---
 # <a name="export-data-from-visualizations"></a>从可视化效果导出数据
 
@@ -79,6 +79,8 @@ ms.locfileid: "68523354"
     ![突出显示“汇总数据”、“.xlsx”和“导出”选项的“导出数据”屏幕截图。](media/power-bi-visualization-export-data/power-bi-export-data5.png)
 
     如果你已将筛选器应用于可视化效果，已导出数据将作为筛选后的数据导出。 选择“导出”  时，浏览器会提示你保存文件。 保存后，在 Excel 中打开该文件。
+    
+    会导出层次结构使用的所有数据，而不仅仅是用于视觉对象的当前钻取级别的数据。 例如，如果尚未从顶级向下钻取可视化效果，则导出的数据会包含层次结构中的所有数据，而不仅仅是用于在当前钻取级别创建视觉对象的数据。
 
     **汇总数据**：若要导出在相应视觉对象中看到的数据，请选中此选项。  这种类型的导出仅显示所选用于创建视觉对象的数据（列和度量值）。  如果视觉对象具有聚合，则将导出聚合数据。 例如，如果有一个条形图显示四个条形，就会导出四行数据。 汇总数据可以 .xlsx  和 .csv  形式导出。
 
@@ -92,6 +94,8 @@ ms.locfileid: "68523354"
     > 用于导出基础数据的选项不一定有，具体视报表设置而定。
 
     如果你已将筛选器应用于可视化效果，已导出数据将作为筛选后的数据导出。 选择“导出”  时，浏览器会提示你保存文件。 保存后，在 Excel 中打开该文件。
+    
+    会导出层次结构使用的所有数据，而不仅仅是用于视觉对象的当前钻取级别的数据。 例如，如果尚未从顶级向下钻取可视化效果，则导出的数据会包含层次结构中的所有数据，而不仅仅是用于在当前钻取级别创建视觉对象的数据。
 
     >[!WARNING]
     >导出基础数据可便于用户查看所有详细数据（数据中的每一列）。 Power BI 服务管理员可以为自己的组织禁用此功能。 如果你是数据集所有者，可以将专有列设置为“隐藏”  ，这样它们就不会出现在 Power BI Desktop 或 Power BI 服务的“字段”  列表中。

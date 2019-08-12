@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 07/15/2019
 ms.author: mblythe
 LocalizationGroup: Gateways
-ms.openlocfilehash: af3ebd421a82448ce8a3f13661801ffc1d0051e0
-ms.sourcegitcommit: 277fadf523e2555004f074ec36054bbddec407f8
+ms.openlocfilehash: 3e3e51bf13a904e46552529d9131dbbb4665cb7d
+ms.sourcegitcommit: 73228d0a9038b8369369c059ad06168d2c5ff062
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/16/2019
-ms.locfileid: "68271489"
+ms.lasthandoff: 08/02/2019
+ms.locfileid: "68730234"
 ---
 # <a name="manage-your-data-source---oracle"></a>管理数据源 - Oracle
 
@@ -73,7 +73,7 @@ CONTOSO =
 还需选择一种身份验证方法  。  可能是 **Windows** 或**基本**。  若要使用在 Oracle 内创建的帐户而不是 Windows 身份验证，则需要选择“基本”  。 然后输入将用于此数据源的凭据。
 
 > [!NOTE]
-> 将使用这些凭据运行对数据源的所有查询。 若要详细了解如何存储凭据，请参阅[在云中存储加密凭据](service-gateway-data-sources.md#storing-encrypted-credentials-in-the-cloud)。
+> 将使用这些凭据运行对数据源的所有查询。 若要详细了解如何存储凭据，请参阅[在云中存储加密凭据](service-gateway-data-sources.md#store-encrypted-credentials-in-the-cloud)。
 
 ![填充数据源设置](media/service-gateway-onprem-manage-oracle/data-source-oracle2.png)
 
@@ -83,7 +83,7 @@ CONTOSO =
 
 ### <a name="advanced-settings"></a>高级设置
 
-为数据源配置隐私级别（可选）。 这会控制数据的合并方式。 这仅适用于计划刷新。 它不适用于 DirectQuery。 若要详细了解数据源的隐私级别，请参阅[隐私级别 (Power Query)](https://support.office.com/article/Privacy-levels-Power-Query-CC3EDE4D-359E-4B28-BC72-9BEE7900B540)。
+为数据源配置隐私级别（可选）。 这样可以控制数据的组合方式。 这仅适用于计划刷新。 它不适用于 DirectQuery。 若要详细了解数据源的隐私级别，请参阅[隐私级别 (Power Query)](https://support.office.com/article/Privacy-levels-Power-Query-CC3EDE4D-359E-4B28-BC72-9BEE7900B540)。
 
 ![设置隐私级别](media/service-gateway-onprem-manage-oracle/datasourcesettings9.png)
 

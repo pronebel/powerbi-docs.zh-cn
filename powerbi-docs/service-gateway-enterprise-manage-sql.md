@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 07/15/2019
 ms.author: mblythe
 LocalizationGroup: Gateways
-ms.openlocfilehash: 7d9e670d2567181a0dc99c23997ac3bc2d35f3c9
-ms.sourcegitcommit: 277fadf523e2555004f074ec36054bbddec407f8
+ms.openlocfilehash: 2c21792f97445b336709038f7ec2ec39d041312b
+ms.sourcegitcommit: 73228d0a9038b8369369c059ad06168d2c5ff062
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/16/2019
-ms.locfileid: "68271602"
+ms.lasthandoff: 08/02/2019
+ms.locfileid: "68730055"
 ---
 # <a name="manage-your-data-source---sql-server"></a>管理数据源 - SQL Server
 
@@ -37,9 +37,9 @@ ms.locfileid: "68271602"
 还需选择一种身份验证方法  。 可能是 **Windows** 或**基本**。 如果打算使用 SQL 身份验证而不是 Windows 身份验证，则需要选择“基本”  。 然后输入将用于此数据源的凭据。
 
 > [!NOTE]
-> 除非为数据源配置并启用了 Kerberos 单一登录 (SSO)，否则对数据源的所有查询都将使用这些凭据运行。 通过 SSO，导入数据集使用存储的凭据，但是 DirectQuery 数据集使用当前 Power BI 用户通过 SSO 执行查询。 了解有关如何存储凭据的详细信息，请参阅[在云中存储加密凭据](service-gateway-data-sources.md#storing-encrypted-credentials-in-the-cloud)，或参阅介绍如何[使用 Kerberos 进行从 Power BI 到本地数据源的 SSO（单一登录）](service-gateway-sso-kerberos.md)的文章。
+> 除非为数据源配置并启用了 Kerberos 单一登录 (SSO)，否则对数据源的所有查询都将使用这些凭据运行。 通过 SSO，导入数据集使用存储的凭据，但是 DirectQuery 数据集使用当前 Power BI 用户通过 SSO 执行查询。 若要详细了解如何存储凭据，请参阅[在云中存储加密凭据](service-gateway-data-sources.md#store-encrypted-credentials-in-the-cloud)，或参阅介绍如何[使用 Kerberos 进行从 Power BI 到本地数据源的 SSO（单一登录）](service-gateway-sso-kerberos.md)的文章。
 
-![填写数据源设置](media/service-gateway-enterprise-manage-sql/datasourcesettings3.png)
+![填充数据源设置](media/service-gateway-enterprise-manage-sql/datasourcesettings3.png)
 
 所有内容填写完毕之后，请选择“添加”  。 现在你可以使用此数据源对本地 SQL Server 服务器进行计划刷新或 DirectQuery。 如果成功，则会看到“连接成功”  。
 

@@ -10,12 +10,12 @@ ms.subservice: powerbi-gateways
 ms.topic: conceptual
 ms.date: 07/15/2019
 LocalizationGroup: Gateways
-ms.openlocfilehash: b1d84e9de9ae6d6fd8306fce4865977a8d273652
-ms.sourcegitcommit: 76fadf20c1e19ec43aa8f9c5a5e909b567419ef6
+ms.openlocfilehash: a240d84b20f63542c33bb7cbbb9a9c97af7db2f7
+ms.sourcegitcommit: d74aca333595beaede0d71ba13a88945ef540e44
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/17/2019
-ms.locfileid: "68289950"
+ms.lasthandoff: 08/03/2019
+ms.locfileid: "68757675"
 ---
 # <a name="use-security-assertion-markup-language-saml-for-single-sign-on-sso-from-power-bi-to-on-premises-data-sources"></a>使用安全断言标记语言 (SAML) 进行从 Power BI 到本地数据源的单一登录 (SSO)
 
@@ -33,7 +33,7 @@ ms.locfileid: "68289950"
 
 要使用 SAML，必须在要为其启用 SSO 的 HANA 服务器与网关之间建立信任关系，该网关在此方案中充当 SAML 标识提供者 (IdP)。 有多种方法可以建立这种关系，例如将网关 IdP 的 x509 证书导入 HANA 服务器信任存储区，或者让 HANA 服务器信任的根证书颁发机构 (CA) 签署网关的 X509 证书。 我们在本指南中介绍了后一种方法，但如果更方便，你也可以使用另一种方法。
 
-另请注意，虽然本指南使用 OpenSSL 作为 HANA 服务器的加密提供程序，但也可以使用 SAP 加密库（也称为 CommonCryptoLib 或 sapcrypto）代替 OpenSSL 来完成建立信任关系的设置步骤。 有关详细信息，请参阅官方 SAP 文档。
+另请注意，虽然本指南使用 OpenSSL 作为 HANA 服务器的加密提供程序，不过 SAP 建议使用 SAP 加密库（也称为 CommonCryptoLib 或 sapcrypto）代替 OpenSSL 来完成建立信任关系的设置步骤。 有关详细信息，请参阅官方 SAP 文档。
 
 以下步骤描述了如何使用 HANA 服务器信任的根 CA 对网关 IdP 的 X509 证书进行签名，从而在 HANA 服务器和网关 IdP 之间建立信任关系。
 
@@ -180,7 +180,7 @@ ms.locfileid: "68289950"
 
 有关“本地数据网关”  和 DirectQuery  的详细信息，请查看以下资源：
 
-* [本地数据网关是什么？](/data-integration/gateway/service-gateway-getting-started)
+* [本地数据网关是什么？](/data-integration/gateway/service-gateway-onprem)
 * [Power BI 中的 DirectQuery](desktop-directquery-about.md)
 * [DirectQuery 支持的数据源](desktop-directquery-data-sources.md)
 * [DirectQuery 和 SAP BW](desktop-directquery-sap-bw.md)

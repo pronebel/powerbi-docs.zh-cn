@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 07/15/2019
+ms.date: 07/29/2019
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: 55ffc166d5a42e850bc4e2dedf80de1c6b9f8634
-ms.sourcegitcommit: dc0258bb4f647ff646c6fff2aaffa29b413aa2df
+ms.openlocfilehash: 80bb78d6074fde907fe6b2d3bbb835cdc5e82976
+ms.sourcegitcommit: bc688fab9288ab68eaa9f54b9b59cacfdf47aa2e
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/19/2019
-ms.locfileid: "68342147"
+ms.lasthandoff: 07/30/2019
+ms.locfileid: "68623853"
 ---
 # <a name="previous-monthly-updates-to-power-bi-desktop"></a>此前的 Power BI Desktop 月度更新
 
@@ -114,8 +114,8 @@ ms.locfileid: "68342147"
 
 请选择以下链接以下载早期版本： 
 
-* [2019 年 5 月版 Power BI Desktop - 32 位](http://download.microsoft.com/download/9/B/A/9BAEFFEF-1A68-4102-8CDF-5D28BFFE6A61/PBIDesktop-2019-06.msi)
-* [2019 年 5 月版 Power BI Desktop - 64 位](http://download.microsoft.com/download/9/B/A/9BAEFFEF-1A68-4102-8CDF-5D28BFFE6A61/PBIDesktop-2019-06_x64.msi)
+* [2019 年 6 月版 Power BI Desktop - 32 位](http://download.microsoft.com/download/9/B/A/9BAEFFEF-1A68-4102-8CDF-5D28BFFE6A61/PBIDesktop-2019-06.msi)
+* [2019 年 6 月版 Power BI Desktop - 64 位](http://download.microsoft.com/download/9/B/A/9BAEFFEF-1A68-4102-8CDF-5D28BFFE6A61/PBIDesktop-2019-06_x64.msi)
 
 
 ## <a name="may-2019-update-26954671251"></a>2019 年 5 月更新 (2.69.5467.1251)
@@ -516,19 +516,6 @@ ms.locfileid: "68342147"
 > 你可能还有兴趣了解 [Power BI 服务中的新增功能](service-whats-new.md)，请同时查看 [Power BI 移动应用中的新增功能](consumer/mobile/mobile-whats-new-in-the-mobile-apps.md)。
 
 
-还可以下载旧版 Power BI Desktop（若组织需要）。 始终建议使用最新版 Power BI Desktop，而不是旧版本。 所有旧版本都存在以下限制：
-
-* 旧版 Power BI Desktop 无法提供服务，应始终使用最新版本获取最新功能和更新。
-* 可能无法使用旧版 Power BI Desktop 打开在较新版本的 Power BI Desktop 中创建或保存的文件。 
-* 如果在加载较新版本的 Power BI Desktop 中保存的报表时收到警告，然后将该报表保存在旧版本中，则会丢失与新功能相关的所有信息。
-* 我们只存档 Power BI Desktop 的英文版本。
-
-请选择以下链接以下载早期版本： 
-
-* [2018 年 12 月版 Power BI Desktop（32 位）](http://download.microsoft.com/download/9/B/A/9BAEFFEF-1A68-4102-8CDF-5D28BFFE6A61/PBIDesktop-2018-12.msi)
-* [2018 年 12 月版 Power BI Desktop（64 位）](http://download.microsoft.com/download/9/B/A/9BAEFFEF-1A68-4102-8CDF-5D28BFFE6A61/PBIDesktop-2018-12_x64.msi)
-
-
 ## <a name="november-2018-update-2645285582"></a>2018 年 11 月更新 (2.64.5285.582)
 
 我们 11 月的更新推出了一系列新特性和功能。 所以，可以与你的数据和分析爱好者围坐在一起，准备好薯片，深入了解我们的更新盛宴。 
@@ -578,20 +565,6 @@ ms.locfileid: "68342147"
 
 > [!NOTE]
 > 你可能还有兴趣了解 [Power BI 服务中的新增功能](service-whats-new.md)，请同时查看 [Power BI 移动应用中的新增功能](consumer/mobile/mobile-whats-new-in-the-mobile-apps.md)。
-
-
-
-还可以下载旧版 Power BI Desktop（若组织需要）。 始终建议使用最新版 Power BI Desktop，而不是旧版本。 所有旧版本都存在以下限制：
-
-* 旧版 Power BI Desktop 无法提供服务，应始终使用最新版本获取最新功能和更新。
-* 可能无法使用旧版 Power BI Desktop 打开在较新版本的 Power BI Desktop 中创建或保存的文件。 
-* 如果在加载较新版本的 Power BI Desktop 中保存的报表时收到警告，然后将该报表保存在旧版本中，则会丢失与新功能相关的所有信息。
-* 我们只存档 Power BI Desktop 的英文版本。
-
-请选择以下链接以下载早期版本： 
-
-* [2018 年 11 月版 Power BI Desktop（32 位）](http://download.microsoft.com/download/9/B/A/9BAEFFEF-1A68-4102-8CDF-5D28BFFE6A61/PBIDesktop-2018-11.msi)
-* [2018 年 11 月版 Power BI Desktop（64 位）](http://download.microsoft.com/download/9/B/A/9BAEFFEF-1A68-4102-8CDF-5D28BFFE6A61/PBIDesktop-2018-11_x64.msi)
 
 
 ## <a name="october-2018-update-263327240262"></a>2018 年 10 月更新 (2.63.3272.40262)
@@ -653,21 +626,6 @@ ms.locfileid: "68342147"
 > 你可能还有兴趣了解 [Power BI 服务中的新增功能](service-whats-new.md)，请同时查看 [Power BI 移动应用中的新增功能](consumer/mobile/mobile-whats-new-in-the-mobile-apps.md)。
 
 
-
-还可以下载旧版 Power BI Desktop（若组织需要）。 始终建议使用最新版 Power BI Desktop，而不是旧版本。 所有旧版本都存在以下限制：
-
-* 旧版 Power BI Desktop 无法提供服务，应始终使用最新版本获取最新功能和更新。
-* 可能无法使用旧版 Power BI Desktop 打开在较新版本的 Power BI Desktop 中创建或保存的文件。 
-* 如果在加载较新版本的 Power BI Desktop 中保存的报表时收到警告，然后将该报表保存在旧版本中，则会丢失与新功能相关的所有信息。
-* 我们只存档 Power BI Desktop 的英文版本。
-
-请选择以下链接以下载早期版本： 
-
-* [2018 年 10 月版 Power BI Desktop（32 位）](http://download.microsoft.com/download/9/B/A/9BAEFFEF-1A68-4102-8CDF-5D28BFFE6A61/PBIDesktop-2018-10.msi)
-* [2018 年 10 月版 Power BI Desktop（64 位）](http://download.microsoft.com/download/9/B/A/9BAEFFEF-1A68-4102-8CDF-5D28BFFE6A61/PBIDesktop-2018-10_x64.msi)
-
-
-
 ## <a name="september-2018-update-2625222582"></a>2018 年 9 月更新 (2.62.5222.582)
 
 我们的 9 月更新会让你感觉打开了一个新世界。 希望你能觉得这些更新就像刚削好 的 2 号铅笔一样有用。 
@@ -713,20 +671,6 @@ ms.locfileid: "68342147"
 
 > [!NOTE]
 > 你可能还有兴趣了解 [Power BI 服务中的新增功能](service-whats-new.md)，请同时查看 [Power BI 移动应用中的新增功能](consumer/mobile/mobile-whats-new-in-the-mobile-apps.md)。
-
-
-还可以下载旧版 Power BI Desktop（若组织需要）。 始终建议使用最新版 Power BI Desktop，而不是旧版本。 所有旧版本都存在以下限制：
-
-* 旧版 Power BI Desktop 无法提供服务，应始终使用最新版本获取最新功能和更新。
-* 可能无法使用旧版 Power BI Desktop 打开在较新版本的 Power BI Desktop 中创建或保存的文件。 
-* 如果在加载较新版本的 Power BI Desktop 中保存的报表时收到警告，然后将该报表保存在旧版本中，则会丢失与新功能相关的所有信息。
-* 我们只存档 Power BI Desktop 的英文版本。
-
-请选择以下链接以下载早期版本： 
-
-* [2018 年 9 月版 Power BI Desktop（32 位）](http://download.microsoft.com/download/9/B/A/9BAEFFEF-1A68-4102-8CDF-5D28BFFE6A61/PBIDesktop-2018-09.msi)
-* [2018 年 9 月版 Power BI Desktop（64位）](http://download.microsoft.com/download/9/B/A/9BAEFFEF-1A68-4102-8CDF-5D28BFFE6A61/PBIDesktop-2018-09_x64.msi)
-
 
 
 
@@ -776,21 +720,6 @@ ms.locfileid: "68342147"
 
 > [!NOTE]
 > 你可能还有兴趣了解 [Power BI 服务中的新增功能](service-whats-new.md)，请同时查看 [Power BI 移动应用中的新增功能](mobile-whats-new-in-the-mobile-apps.md)。
-
-
-
-还可以下载旧版 Power BI Desktop（若组织需要）。 始终建议使用最新版 Power BI Desktop，而不是旧版本。 所有旧版本都存在以下限制：
-
-* 旧版 Power BI Desktop 无法提供服务，应始终使用最新版本获取最新功能和更新。
-* 可能无法使用旧版 Power BI Desktop 打开在较新版本的 Power BI Desktop 中创建或保存的文件。 
-* 如果在加载较新版本的 Power BI Desktop 中保存的报表时收到警告，然后将该报表保存在旧版本中，则会丢失与新功能相关的所有信息。
-* 我们只存档 Power BI Desktop 的英文版本。
-
-请选择以下链接以下载早期版本： 
-
-* [2018 年 8 月版 Power BI Desktop（32 位）](http://download.microsoft.com/download/9/B/A/9BAEFFEF-1A68-4102-8CDF-5D28BFFE6A61/PBIDesktop-2018-08.msi)
-* [2018 年 8 月版 Power BI Desktop（64 位）](http://download.microsoft.com/download/9/B/A/9BAEFFEF-1A68-4102-8CDF-5D28BFFE6A61/PBIDesktop-2018-08_x64.msi)
-
 
 
 

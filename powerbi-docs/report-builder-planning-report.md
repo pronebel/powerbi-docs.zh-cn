@@ -1,22 +1,23 @@
 ---
 title: 在 Power BI 报表生成器中规划报表
 description: 使用 Power BI 分页报表生成器，可创建多种类型的分页报表。 要创建有用且易于理解的报表，先进行规划会很有帮助。
-ms.date: 06/06/2019
+ms.date: 07/25/2019
 ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: conceptual
 ms.assetid: 79113505-1ce8-4f8c-9260-d861838f7813
 author: maggiesMSFT
 ms.author: maggies
-ms.openlocfilehash: fd4a318d7a61f6f2298de6b9d5d23ad2ae063d28
-ms.sourcegitcommit: 797bb40f691384cb1b23dd08c1634f672b4a82bb
+ms.openlocfilehash: 33cdb53ab411e0d2f4686f7cc9a41bb3f0fe4cb6
+ms.sourcegitcommit: bc688fab9288ab68eaa9f54b9b59cacfdf47aa2e
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/12/2019
-ms.locfileid: "66840501"
+ms.lasthandoff: 07/30/2019
+ms.locfileid: "68623873"
 ---
 # <a name="planning-a-report-in-power-bi-report-builder"></a>在 Power BI 报表生成器中规划报表
-  使用 Power BI 分页报表生成器，可创建多种类型的分页报表。 例如，可以创建显示摘要或详细销售数据、营销和销售趋势的报表、运营报表或仪表板。 还可以创建文本格式丰富的的报表，例如销售订单、产品目录或套用信函。 所有这些报表都是通过在报表生成器中使用相同基本构建基块的不同组合来创建的。 要创建有用且易于理解的报表，先进行规划会很有帮助。 在开始之前，可能需要考虑以下事项：  
+
+使用 Power BI 分页报表生成器，可创建多种类型的分页报表。 例如，可以创建显示摘要或详细销售数据、营销和销售趋势的报表、运营报表或仪表板。 还可以创建文本格式丰富的的报表，例如销售订单、产品目录或套用信函。 所有这些报表都是通过在报表生成器中使用相同基本构建基块的不同组合来创建的。 要创建有用且易于理解的报表，先进行规划会很有帮助。 在开始之前，可能需要考虑以下事项：  
   
 ## <a name="in-what-format-do-you-want-the-report-to-appear"></a>希望报表以何种格式显示？
   
@@ -36,7 +37,7 @@ ms.locfileid: "66840501"
   
 ## <a name="do-you-need-to-create-calculations"></a>需要创建计算吗？ 
   
-     Sometimes, your data source and datasets do not contain the exact fields that you need for your report. In that situation, you might have to create your own calculated fields. For example, you might want to multiply the price per unit times the quantity to get a line item sales amount. Expressions are also used to provide conditional formatting and other advanced features. For more information, see [Expressions in Power BI Report Builder](report-builder-expressions.md).  
+有时，数据源和数据集不包含报表需要的确切字段。 在这种情况下，可能需要创建自己的计算字段。 例如，可能要将单位价格乘以数量以获得行项销售金额。 还会使用表达式提供条件格式设置和其他高级功能。 有关详细信息，请参阅 [Power BI 报表生成器中的报表参数](report-builder-expressions.md)。  
   
 ## <a name="do-you-want-to-hide-report-items-initially"></a>需要在一开始隐藏报表项吗？
   
@@ -44,7 +45,7 @@ ms.locfileid: "66840501"
   
 ## <a name="how-are-you-going-to-deliver-your-report"></a>计划如何交付报表？  
   
-     You can save your report to your local computer and continue to work on it, or run it locally for your own information. However, to share your report with others, you need to save the report to Power BI. Saving it to Power BI lets others run it whenever they want to. Alternatively, you can set up a subscription and e-mail delivery of the report to other individuals. You can have the report delivered in a specific export format if you prefer. 
+可以将报表保存到本地计算机并继续处理它，或在本地运行它以获取自己的信息。 但是，若要与其他人共享报表，需要将报表保存到 Power BI。 通过将它保存到 Power BI，其他人可以在每次需要时运行它。 或者，可以设置订阅并将报表交付通过电子邮件发送给其他个人。 可以根据需要以特定导出格式交付报表。 
   
 ## <a name="next-steps"></a>后续步骤
 

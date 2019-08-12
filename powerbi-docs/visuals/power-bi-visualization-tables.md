@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 06/24/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: a0525d448d5337c2c1613d8bc8f6d332a05b13e3
-ms.sourcegitcommit: 58c649ec5fd2447a0f9ca4c4d45a0e9fff2f1b6a
+ms.openlocfilehash: 857db3240385e9bf1b4e0416cc1200d1a029d73e
+ms.sourcegitcommit: cc4b18d55b2dca8fdb1bef00f53a0a808c41432a
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/27/2019
-ms.locfileid: "67409478"
+ms.lasthandoff: 08/09/2019
+ms.locfileid: "68867192"
 ---
 # <a name="tables-in-power-bi-reports-and-dashboards"></a>Power BI 报表和仪表板中的表
 
@@ -35,9 +35,6 @@ ms.locfileid: "67409478"
 * 若要以表格格式显示数据。
 
 * 若要按类别显示数值数据。
-
-> [!NOTE]
-> 如果表有过多值，建议将它转换为矩阵和/或使用向下钻取。 表格显示的最大数据点数为 3,500。
 
 ## <a name="prerequisites"></a>先决条件
 

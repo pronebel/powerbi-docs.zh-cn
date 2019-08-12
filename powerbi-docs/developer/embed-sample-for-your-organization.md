@@ -1,6 +1,6 @@
 ---
 title: 为组织将 Power BI 内容嵌入到应用程序的嵌入式分析
-description: 了解如何通过使用适用于嵌入式分析的 Power BI API，为组织将报表、仪表板或磁贴集成或嵌入到应用程序中。 了解如何使用嵌入式分析软件、嵌入式分析工具或嵌入式商业智能工具将 Power BI 集成到应用程序。
+description: 了解如何通过使用适用于嵌入式分析的 Power BI API，为组织将报表（Power BI 或分页）、仪表板或磁贴集成或嵌入到应用程序中。 了解如何使用嵌入式分析软件、嵌入式分析工具或嵌入式商业智能工具将 Power BI 集成到应用程序。
 author: rkarlin
 ms.author: rkarlin
 manager: kfile
@@ -9,24 +9,24 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: tutorial
 ms.custom: seodec18
-ms.date: 04/02/2019
-ms.openlocfilehash: 53311929aa6277efd621fb2b944ea062ab99999d
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.date: 07/29/2019
+ms.openlocfilehash: 02e11e167d859d3ef23124fed4f9f699766db8fe
+ms.sourcegitcommit: 805d52e57a935ac4ce9413d4bc5b31423d33c5b1
+ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61354826"
+ms.lasthandoff: 07/30/2019
+ms.locfileid: "68665551"
 ---
 # <a name="tutorial-embed-power-bi-content-into-an-application-for-your-organization"></a>教程：为组织将 Power BI 内容嵌入应用程序
 
-在 Power BI  中，可以使用“用户拥有数据”将报表、仪表板或磁贴嵌入应用程序。 借助“用户拥有数据”，应用程序可以扩展 Power BI 服务以使用嵌入式分析  。 本教程演示了如何将报表集成到应用程序。 通过将 Power BI.NET SDK 和 Power BI JavaScript API 结合使用，可为组织将 Power BI 嵌入应用程序。
+在 Power BI  中，可以使用“用户拥有数据”将报表（Power BI 或分页）、仪表板或磁贴嵌入应用程序。 借助“用户拥有数据”，应用程序可以扩展 Power BI 服务以使用嵌入式分析  。 本教程演示了如何将报表（Power BI 或分页）集成到应用程序。 通过将 Power BI.NET SDK 和 Power BI JavaScript API 结合使用，可为组织将 Power BI 嵌入应用程序。
 
 ![Power BI 嵌入报表](media/embed-sample-for-your-organization/embed-sample-for-your-organization-035.png)
 
 在本教程中，将学习以下任务：
 > [!div class="checklist"]
 > * 在 Azure 中注册应用程序。
-> * 使用 Power BI 租户将 Power BI 报表嵌入应用程序中。
+> * 使用 Power BI 租户将 Power BI 或分页报表嵌入应用程序中。
 
 ## <a name="prerequisites"></a>先决条件
 
@@ -35,6 +35,7 @@ ms.locfileid: "61354826"
 * [Power BI Pro 帐户](../service-self-service-signup-for-power-bi.md)。
 * [Microsoft Azure](https://azure.microsoft.com/) 订阅。
 * 需要设置自己的 [Azure Active Directory 租户](create-an-azure-active-directory-tenant.md)。
+* 若要嵌入分页报表，至少需要 A4/P1 容量，请参阅[用于分页报表的的高级容量的大小是多少？](../paginated-reports-faq.md#what-size-premium-capacity-do-i-need-for-paginated-reports)。
 
 如果未注册 Power BI Pro  ，请在开始之前[注册以获得免费试用](https://powerbi.microsoft.com/pricing/)。
 
@@ -44,9 +45,9 @@ ms.locfileid: "61354826"
 
 开始将报表、仪表板或磁贴嵌入应用前，需要先确保环境允许通过 Power BI 进行嵌入。
 
-你可通过完成[嵌入安装工具](https://aka.ms/embedsetup/UserOwnsData)，快速开始并下载可帮助你逐步创建环境和嵌入报表的示例应用程序。
+你可通过完成[嵌入安装工具](https://aka.ms/embedsetup/UserOwnsData)，快速开始并下载可帮助你逐步创建环境和嵌入报表的示例应用程序。 在嵌入分页报表的情况下，需要至少将 A4/P1 容量分配给创建的应用工作区。
 
-但是，如果选择手动设置环境，则可以继续进行下面的操作。
+如果选择手动设置环境，则可以继续进行下面的操作。
 
 ### <a name="register-an-application-in-azure-active-directory"></a>在 Azure Active Directory 中注册应用程序
 
@@ -60,7 +61,7 @@ ms.locfileid: "61354826"
 
 如果为客户嵌入报表、仪表板或磁贴，则必须将内容放在应用工作区中。 具有可以设置的不同类型工作区：[传统工作区](../service-create-workspaces.md)或[新工作区](../service-create-the-new-workspaces.md)。
 
-### <a name="create-and-publish-your-reports"></a>创建并发布报表
+### <a name="create-and-publish-your-power-bi-reports"></a>创建并发布 Power BI 报表
 
 可以通过使用 Power BI Desktop 创建报表和数据集。 然后，可以将这些报表发布到应用工作区。 发布报表的最终用户需要拥有 Power BI Pro 许可证才可发布到应用工作区。
 
@@ -79,7 +80,11 @@ ms.locfileid: "61354826"
     现在即可在 Power BI 服务在线版中查看报表。
 
    ![查看 Power BI Desktop 报表](media/embed-sample-for-your-organization/embed-sample-for-your-organization-029.png)
+   
+### <a name="create-and-publish-your-paginated-reports"></a>创建并发布分页报表
 
+可以使用 [Power BI 报表生成器](../paginated-reports-report-builder-power-bi.md#create-reports-in-power-bi-report-builder)创建分页报表。然后可以[将报表上传](../paginated-reports-quickstart-aw.md#upload-the-report-to-the-service)到至少分配给 A4/P1 容量的应用工作区。上传报表的最终用户需要具有 Power BI Pro 许可证才能发布到应用工作区。
+   
 ## <a name="embed-your-content-by-using-the-sample-application"></a>使用示例应用程序嵌入内容
 
 为了便于演示，故意采用简单的示例。
@@ -124,30 +129,6 @@ ms.locfileid: "61354826"
 
     ![applicationId](media/embed-sample-for-your-organization/embed-sample-for-your-organization-043.png)
 
-### <a name="application-secret"></a>应用程序密码
-
-仅[服务主体](embed-service-principal.md) AuthenticationType 需要此属性。
-
-将 Azure  的“应用注册”  部分中的“密钥”  部分信息填入“ApplicationSecret”  字段。  使用[服务主体](embed-service-principal.md)时，此属性适用。
-
-若要获取“ApplicationSecret”  ，请按以下步骤操作：
-
-1. 登录 [Azure 门户](https://portal.azure.com)。
-
-2. 在左侧导航窗格中，依次选择“所有服务”和“应用注册”   。
-
-3. 选择需要使用“ApplicationSecret”  的应用。
-
-    ![选择一个应用](media/embed-sample-for-your-organization/embed-sample-for-your-organization-042.png)
-
-4. 选择**证书和机密**下**管理**。
-
-5. 选择**新的客户端机密**。
-
-6. 在“说明”框中输入一个名称并选择持续时间。  然后选择“保存”为应用程序获取“值”。   如果在保存密钥值后关闭“密钥”窗格，  值字段会仅显示为隐藏状态。 此时，你无法检索密钥值。 如果忘记了密钥值，请在 Azure 门户中新建密钥值。
-
-    ![密钥值](media/embed-sample-for-your-organization/embed-sample-for-your-organization-046.png)
-
 ### <a name="workspace-id"></a>工作区 ID
 
 使用 Power BI 中的“应用工作区(组) GUID”填写“workspaceId”信息  。 登录 Power BI 服务或使用 Powershell 时，可获得该信息。
@@ -168,9 +149,17 @@ Get-PowerBIworkspace -name "User Owns Embed Test"
 
 使用 Power BI 中的“报表 GUID”填写“reportId”信息  。 登录 Power BI 服务或使用 Powershell 时，可获得该信息。
 
-URL <br>
+Power BI 报表 URL <br>
 
-![reportId](media/embed-sample-for-your-organization/embed-sample-for-your-organization-041.png)
+![PBI reportId](media/embed-sample-for-your-organization/embed-sample-for-your-organization-041.png)
+
+分页报表 URL <br>
+
+
+
+分页报表 URL<br>
+
+![分页 reportId](media/embed-sample-for-your-organization/paginated-reports-url.png)
 
 PowerShell <br>
 
@@ -186,7 +175,7 @@ Get-PowerBIworkspace -name "User Owns Embed Test" | Get-PowerBIReport
 
 如果通过组织租户嵌入，使用 URL： https://login.microsoftonline.com/common/oauth2/authorize  。
 
-如果通过来宾嵌入，使用 URL https://login.microsoftonline.com/report-owner-tenant-id（用报表所有者的租户 ID 替换 report-owner-tenant-id）   。
+如果通过来宾嵌入，使用 URL https://login.microsoftonline.com/report-owner-tenant-id （用报表所有者的租户 ID 替换 report-owner-tenant-id）   。
 
 ### <a name="run-the-application"></a>运行应用程序
 
@@ -214,7 +203,7 @@ Get-PowerBIworkspace -name "User Owns Embed Test" | Get-PowerBIReport
 
 ### <a name="get-a-report"></a>获取报表
 
-若要获取 Power BI 报表，请使用[获取报表](https://docs.microsoft.com/rest/api/power-bi/reports/getreports)操作，获取 Power BI 报表列表。 在报表列表中，可以获取报表 ID。
+若要获取 Power BI 或分页报表，请使用[获取报表](https://docs.microsoft.com/rest/api/power-bi/reports/getreports)操作，获取 Power BI 和分页报表列表。 在报表列表中，可以获取报表 ID。
 
 ### <a name="get-reports-by-using-an-access-token"></a>使用访问令牌获取报表
 
@@ -275,6 +264,7 @@ public class PBIReports
 public class PBIReport
 {
     public string id { get; set; }
+    public string reportType { get; set }
     public string name { get; set; }
     public string webUrl { get; set; }
     public string embedUrl { get; set; }
@@ -394,7 +384,7 @@ function updateEmbedReport() {
 
 ### <a name="create-a-dedicated-capacity"></a>创建专用容量
 
-通过创建专用容量，则可获得在应用工作区中拥有内容专用资源这一优势。 你可使用 [Power BI Premium](../service-premium-what-is.md) 创建专用容量。
+通过创建专用容量，则可获得在应用工作区中拥有内容专用资源这一优势。 对于分页报表，必须至少使用 A4/P1 容量备份应用工作区。可以使用 [Power BI Premium](../service-premium-what-is.md) 创建专用容量。
 
 下表列出了 [Microsoft Office 365](../service-admin-premium-purchase.md) 中可用的 Power BI Premium SKU：
 
@@ -435,7 +425,7 @@ function updateEmbedReport() {
 
 ## <a name="next-steps"></a>后续步骤
 
-本教程介绍了如何使用 Power BI 组织帐户将 Power BI 内容嵌入应用程序。 接下来，可以尝试使用应用将 Power BI 内容嵌入应用程序。 此文，还可以尝试为客户嵌入 Power BI 内容：
+本教程介绍了如何使用 Power BI 组织帐户将 Power BI 内容嵌入应用程序。 接下来，可以尝试使用应用将 Power BI 内容嵌入应用程序。 还可以尝试为客户嵌入 Power BI 内容（尚不支持嵌入分页报表）：
 
 > [!div class="nextstepaction"]
 > [从应用嵌入内容](embed-from-apps.md)

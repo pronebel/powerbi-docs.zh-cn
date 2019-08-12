@@ -1,5 +1,5 @@
 ---
-title: 在 URL 中使用查询字符串参数筛选报告
+title: 通过在 URL 中添加查询字符串参数来筛选报表
 description: 使用 URL 查询字符串参数筛选报表，甚至筛选多个字段。
 author: maggiesMSFT
 ms.author: maggies
@@ -9,14 +9,14 @@ featuredvideoid: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 04/24/2019
+ms.date: 07/25/2019
 LocalizationGroup: Reports
-ms.openlocfilehash: 1d1371fa63af51f50a631739e4b2eed5550dc7ee
-ms.sourcegitcommit: f05ba39a0e46cb9cb43454772fbc5397089d58b4
+ms.openlocfilehash: 9e2b1132e48e824b70ddb0e0d86bfed4efedff2f
+ms.sourcegitcommit: bc688fab9288ab68eaa9f54b9b59cacfdf47aa2e
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/26/2019
-ms.locfileid: "68523323"
+ms.lasthandoff: 07/30/2019
+ms.locfileid: "68623883"
 ---
 # <a name="filter-a-report-using-query-string-parameters-in-the-url"></a>通过在 URL 中添加查询字符串参数来筛选报表
 
@@ -53,9 +53,9 @@ app.powerbi.com/groups/me/apps/app-id/reports/report-id/ReportSection?filter=Tab
 
 字段类型可以是数字、日期/时间或字符串，使用的类型必须与数据集中设置的类型匹配。  例如，如果要在设置为“日期”的数据集列集中查找日期/时间或数值（如 Table/StringColumn eq 1），无法将表列的类型指定为“字符串”。
 
-* “字符串”必须用单引号括起来 - 'manager name'  。
-* “数字”无需特殊格式 
-* “日期和时间”必须用单引号括起来  。 在 OData v3 中，它们必须以日期/时间开头，但 OData v4 中无需日期/时间。
+* “字符串”必须用单引号括起来，如 'manager name'  。
+* “数字”无需特殊格式  。 有关详细信息，请参阅本文中的[数值数据类型](#numeric-data-types)。
+* 日期和时间  请参阅本文中的[日期数据类型](#date-data-types)。 
 
 如果仍感到困惑，请继续阅读，我们将分部分讲解。  
 
@@ -133,9 +133,17 @@ Power BI URL 筛选器可包含以下格式的数字。
 
 ### <a name="date-data-types"></a>日期数据类型
 
-Power BI 支持 Date 和 DateTimeOffset 数据类型 OData V3 和 V4   。  由于日期的表示形式为 EDM 格式 (2019-02-12T00:00:00)，因此当你将日期指定为“YYYY-MM-DD”时，Power BI 将它解释为“YYYY-MM-DDT00:00:00”。
+Power BI 支持 Date 和 DateTimeOffset 数据类型 OData V3 和 V4   。 对于 OData V3，日期必须用单引号括起来，并以 datetime 一词开头。 OData V4 中不需要单引号和 datetime 一词。 
+  
+日期使用 EDM 格式 (2019-02-12T00:00:00) 表示：将日期指定为 'YYYY-MM-DD' 时，Power BI 将其解释为 'YYYY-MM-DDT00:00:00'。 请确保月和日是两位数，即 MM 和 DD。
 
-为什么这种区别很重要？ 假设你创建了一个查询字符串参数 Table/Date gt '2018-08-03'  。  结果是包括 2018 年 8 月 3 日，还是始于 2018 年 8 月 4 日？ 由于 Power BI 将查询转换为 Table/Date gt '2018-08-03T00:00:00'，因此结果包含具有非零时间部分的任何日期，因为这些日期大于“2018-08-03T00:00:00”   。
+为什么这种区别很重要？ 假设你创建了一个查询字符串参数 Table/Date gt '2018-08-03'  。  结果是包括 2018 年 8 月 3 日，还是始于 2018 年 8 月 4 日？ Power BI 将查询转换为 Table/Date gt '2018-08-03T00:00:00'  。 因此，结果包含具有非零时间部分的任何日期，因为这些日期大于 '2018-08-03T00:00:00'。 
+
+V3 和 V4 之间还存在其他差异。 OData V3 不支持日期，只支持日期时间。 因此如果使用 V3 格式，则必须使用完整日期时间限定它。 V3 表示法中不支持日期文字，如“datetime'2019-05-20'”。 但是在 V4 表示法只能将它编写为“2019-05-20”。 下面是 V3 和 V4 中的两个等效筛选器查询：
+
+- OData V4 格式：filter=Table/Date gt 2019-05-20
+- OData V3 格式：filter=Table/Date gt datetime'2019-05-20T00:00:00'
+
 
 ## <a name="special-characters-in-url-filters"></a>URL 筛选器中的特殊字符
 

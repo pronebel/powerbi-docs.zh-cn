@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 07/15/2019
 ms.author: mblythe
 LocalizationGroup: Gateways
-ms.openlocfilehash: 1a2415ba840a1b88f4c7a215a520d0cc88f70e49
-ms.sourcegitcommit: 8aa90f662afb7492ffcfc11ef142cdb0ccecc9aa
+ms.openlocfilehash: e5a4e862c89d08b4e277cb4abae934f3fd47141e
+ms.sourcegitcommit: d74aca333595beaede0d71ba13a88945ef540e44
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/24/2019
-ms.locfileid: "68462214"
+ms.lasthandoff: 08/03/2019
+ms.locfileid: "68757645"
 ---
 # <a name="merge-or-append-on-premises-and-cloud-data-sources"></a>合并或追加本地和云数据源
 
@@ -61,4 +61,4 @@ ms.locfileid: "68462214"
 
 ## <a name="next-steps"></a>后续步骤
 
-若要详细了解网关的数据刷新，请参阅[将数据源用于定期刷新](service-gateway-enterprise-manage-scheduled-refresh.md#using-the-data-source-for-scheduled-refresh)。
+若要详细了解网关的数据刷新，请参阅[将数据源用于定期刷新](service-gateway-enterprise-manage-scheduled-refresh.md#use-the-data-source-for-scheduled-refresh)。

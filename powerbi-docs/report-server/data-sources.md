@@ -9,12 +9,12 @@ ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 05/17/2018
 ms.author: maggies
-ms.openlocfilehash: 6e3bed0cf8dda765722c0076086f59a91f1f380d
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: fe8ad0b951fedb17a97007e48808d2bfd7467e88
+ms.sourcegitcommit: 6c2c7a090b0826e3cfc3a897566e802857bbacc8
+ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "64770809"
+ms.lasthandoff: 08/06/2019
+ms.locfileid: "68808215"
 ---
 # <a name="power-bi-report-data-sources-in-power-bi-report-server"></a>Power BI 报表服务器中 Power BI 报表数据源
 Power BI 报表可以连接到多个数据源。 根据数据使用方式，可以提供不同的数据源。 可以导入数据，或者可以直接使用 DirectQuery 或与 SQL Server Analysis Services 的实时连接查询数据。
@@ -202,7 +202,7 @@ Power BI 报表服务器不支持将基于 OAuth 的身份验证用于 DirectQue
 | Azure SQL 数据库 |否 |否 |是 |否 |否 |
 | Azure SQL 数据仓库 |否 |否 |是 |否 |否 |
 | Oracle 数据库 |否 |否 |是 |是 |是 |
-| SAP Business Warehouse 服务器 |否 |否 |是 |否 |是 |
+| SAP Business Warehouse 服务器 |否 |否 |是 |否 |否 |
 | SAP HANA 数据库 |否 |否 |是 |是 |否 |
 | Teradata 数据库 |否 |否 |是 |是 |是 |
 

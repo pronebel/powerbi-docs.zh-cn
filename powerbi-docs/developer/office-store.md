@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: conceptual
 ms.date: 3/27/2019
-ms.openlocfilehash: cf9b3335b10b7a2cd3abcc3f02c651ed4416184e
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: cb21d3baf9523a90b0446b44704587b5af73904f
+ms.sourcegitcommit: bc688fab9288ab68eaa9f54b9b59cacfdf47aa2e
+ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61269587"
+ms.lasthandoff: 07/30/2019
+ms.locfileid: "68623819"
 ---
 # <a name="publish-custom-visuals-to-appsource"></a>将自定义视觉对象发布到 AppSource
 
@@ -22,7 +22,7 @@ ms.locfileid: "61269587"
 
 在创建自定义视觉对象后，你可能想要将其发布到 AppSource 供其他人发现和使用。 在执行该操作之前，必须完成一些准备工作。 有关如何创建自定义视觉对象的详细信息，请参阅[开发 Power BI 自定义视觉对象](custom-visual-develop-tutorial.md)。
 
-   ![Office 应用商店](media/office-store/AppSource_01.jpg)
+   ![Office 应用商店](media/office-store/appsource-01.png)
 
 ## <a name="what-is-appsource"></a>什么是 AppSource？
 
@@ -30,7 +30,7 @@ AppSource  是查找 Microsoft 产品和服务的 SaaS 应用与加载项的位�
 
 ## <a name="preparing-to-submit-your-custom-visual"></a>准备提交自定义视觉对象
 
-一旦你完成了读取我们[Power BI 视觉对象准则](guidelines-powerbi-visuals.md)、 编码和[测试自定义视觉对象](https://github.com/Microsoft/PowerBI-visuals/blob/master/Tutorial/SubmissionTesting.md)并将其打包到 pbiviz 文件中，你还应以下内容以供你提交的内容。
+阅读完我们的 [Power BI 视觉对象准则](guidelines-powerbi-visuals.md)、对自定义视觉对象进行编码和[测试自定义视觉对象](https://github.com/Microsoft/PowerBI-visuals/blob/master/Tutorial/SubmissionTesting.md)并将其打包到 pbiviz 文件后，还应准备以下信息用于提交。
 
 | 项 | 必填 | 说明 |
 | --- | --- | --- |

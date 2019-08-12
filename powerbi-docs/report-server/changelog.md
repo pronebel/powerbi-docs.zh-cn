@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 03/31/2018
-ms.openlocfilehash: d7d3bf85661284835271b68c476ee53ec2c474bc
-ms.sourcegitcommit: 81ba3572531cbe95ea0b887b94e91f94050f3129
+ms.openlocfilehash: 031274f4f35ef1e36ec17648c2cbf967f5436020
+ms.sourcegitcommit: 73228d0a9038b8369369c059ad06168d2c5ff062
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/06/2019
-ms.locfileid: "66751131"
+ms.lasthandoff: 08/02/2019
+ms.locfileid: "68729793"
 ---
 # <a name="changelog-for-power-bi-report-server"></a>Power BI 报表服务器的更改日志
 
@@ -45,6 +45,10 @@ ms.locfileid: "66751131"
             - 添加了用于在 PBIRS 选择窗口上执行后退导航操作的更便捷的链接
             - 修复了 PBIRS 中的高对比度模式问题：显示后退按钮，显示视觉警告消息。
             - 修复了“选择”窗格和画布缩放的 UI 问题。
+
+    - *版本：2.69.5467.5201（2019 年 5 月），发布日期：2019 年 7 月 30 日*
+        - Bug 修复
+            - 针对错误遥测日志记录的修复
 
 ## <a name="january-2019"></a>2019 年 1 月
 
@@ -93,8 +97,11 @@ ms.locfileid: "66751131"
         - 卸载 Power BI 报表服务器后快捷方式和固定图标仍保留
         - 修复了将 Power BI 报表服务器固定到开始菜单的问题 - 在黑色图标上显示黑色文本
 
-    - *版本：2.65.5313.1421（2019 年 1 月），发布日期：* 2019 年 1 月 22日
-        - 包含与 Power BI 报表服务器连接所需的更改（2019 年 1 月）  
+    - *版本：2.65.5313.1421（2019 年 1 月），发布日期：2019 年 1 月 22 日*（新内部版本和新版本）
+        - 包含与 Power BI 报表服务器连接所需的更改（2019 年 1 月） 
+    - *版本：2.65.5313.5141（2019 年 1 月），发布日期：2019 年 1 月 31 日*（新内部版本和新版本）
+        - Bug 修复
+            - 针对错误遥测日志记录的修复
 
 ## <a name="august-2018"></a>2018 年 8 月
 

@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 07/25/2019
 ms.custom: seodec18
 LocalizationGroup: Administration
-ms.openlocfilehash: 751bcb5ee3b383853f0087bab406d59a2271b588
-ms.sourcegitcommit: 4595a6231615d253aead315cb3f85472e2f189e6
+ms.openlocfilehash: 6a1ce47d7af41df51b7c439240f3e9db0dd28397
+ms.sourcegitcommit: d74aca333595beaede0d71ba13a88945ef540e44
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/25/2019
-ms.locfileid: "68501787"
+ms.lasthandoff: 08/03/2019
+ms.locfileid: "68757718"
 ---
 # <a name="administering-power-bi-in-the-admin-portal"></a>在管理门户中管理 Power BI
 
@@ -375,7 +375,7 @@ Power BI Desktop（2019 年 3 月版及更高版本）支持通过“组策略�
 
 内容创建者的使用情况指标将公开正在访问内容的用户的显示名称和电子邮件地址。 [了解详细信息](service-usage-metrics.md)
 
-默认情况下，每个用户的数据都启用了使用指标并在指标报表中包含内容创建者帐户信息。 如果不希望某些或所有用户包含此信息，请为特定安全组或整个组织禁用此功能。 帐户信息随后会在报表中显示为“未命名”  。
+默认情况下，每个用户的数据都启用了使用指标并在指标报表中包含内容创建者帐户信息。 如果不希望对所有用户收集此信息，请为指定安全组或整个组织禁用此功能。 已排除用户的帐户信息随后会在报表中显示为“未命名”  。
 
 ## <a name="dashboard-settings"></a>仪表板设置
 

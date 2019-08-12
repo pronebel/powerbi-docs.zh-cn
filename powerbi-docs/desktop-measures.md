@@ -7,25 +7,25 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 05/08/2019
+ms.date: 07/29/2019
 ms.author: davidi
 LocalizationGroup: Model your data
-ms.openlocfilehash: d46fa8be055186d2430ca4d3c387fae93b91acc3
-ms.sourcegitcommit: f05ba39a0e46cb9cb43454772fbc5397089d58b4
+ms.openlocfilehash: 431c1738a5d2e975fd96a8209ca8245cd4414d40
+ms.sourcegitcommit: 73228d0a9038b8369369c059ad06168d2c5ff062
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/26/2019
-ms.locfileid: "68523214"
+ms.lasthandoff: 08/02/2019
+ms.locfileid: "68730127"
 ---
 # <a name="measures-in-power-bi-desktop"></a>Power BI Desktop 中的度量值
 
 使用 **Power BI Desktop**，只需点几下鼠标，即可创建数据见解。 但有时候，这些数据并不包含解决某些重要问题所需的全部内容。 度量值可以帮助你解决该问题。
 
-度量值用于一些最常见的数据分析。 例如，求和、平均值、最小值或最大值、计数，或自己使用 DAX 公式创建的更高级的计算。 度量值的计算结果也始终随着你与的报表的交互而改变，以便进行快速和动态的临时数据浏览。 让我们仔细了解下。
+度量值用于一些最常见的数据分析。 简单汇总（如总和、平均值、最小值、最大值和计数）可以通过字段框进行设置（在[汇总和分类](https://docs.microsoft.com/power-bi/guided-learning/visualizations?tutorial-step=16)视频中进行了讨论）。 可以使用 DAX 公式自己创建更高级的计算。 度量值的计算结果也始终随着你与的报表的交互而改变，以便进行快速和动态的临时数据浏览。 让我们仔细了解下。
 
 ## <a name="understanding-measures"></a>了解度量值
 
-在 **Power BI Desktop** 中，可以在“报表视图”  或“数据视图”  中创建和使用度量值。 你自己创建的度量值将显示在带有计算器图标的“字段”列表中。 你可以随心所欲地为你的度量值命名，并将它们添加到新的或现有的可视化效果中，就如其他字段一样。
+在 Power BI Desktop  中，可以在“报表视图”  或“数据视图”  中创建和显示度量值。 你自己创建的度量值将显示在带有计算器图标的“字段”列表中。 你可以随心所欲地为你的度量值命名，并将它们添加到新的或现有的可视化效果中，就如其他字段一样。
 
 ![](media/desktop-measures/measuresinpbid_measinfieldlist.png)
 
@@ -64,6 +64,25 @@ Jan 注意到，即使他们没有指定计算，系统也已经自动提供了�
 此外，这还可让你使用度量值来动态创建 URL，并将数据类别标记为 Web URL。 
 
 可以创建以 Web URL 的形式显示度量值的表，并能够单击根据所做选择创建的 URL。 想要使用 [URL 筛选器参数](service-url-filters.md)链接到其他 Power BI 报表时，此方法特别有用。
+
+
+## <a name="organizing-your-measures"></a>组织度量值
+
+度量值具有定义它们在字段列表中的位置的主表  。 可以通过从模型中的表选择位置来更改其位置。
+
+![选择度量值的表](media/desktop-measures/measures-03.png)
+
+还可以将表中的字段组织到显示文件夹  中。 从 Power BI Desktop 窗口左侧选择“模型视图”  ，然后从画布上显示的可用字段列表中选择要移动的字段。 在属性窗格中，一个用于“显示 文件夹”  的文本框会出现。 在“显示文件夹”  字段中键入名称会创建文件夹，并将所选字段移动到该文件夹中。
+
+![为度量值创建字段](media/desktop-measures/measures-04.gif)
+
+可以使用反斜杠字符创建子文件夹。 例如 Finance\Currencies  会创建 Finance  文件夹，并在其中创建 Currencies  文件夹。
+
+可以通过使用分号分隔文件夹名称，使字段出现在多个文件夹中。 例如，Products\Names;Departments  会使字段出现在 Products  文件夹内的 Departments  文件夹以及 Products  文件夹中。
+
+最后，可以创建仅包含度量值并始终出现在“字段列表”  顶部的特殊表。 为此，请创建一个仅包含一列的表。 可以使用“输入数据”  创建该表。 然后将度量值移动到该表。 最后，隐藏所创建的列（而不是表）。 需要通过单击“字段列表”  顶部的 V 形来关闭并重新打开“字段列表”  ，以便 Power BI Desktop 可正确显示它。
+
+![组织度量值并将它们保留在字段列表顶部](media/desktop-measures/measures-05.png)
 
 ## <a name="learn-more"></a>了解详细信息
 在此处我们仅向你快速地介绍了度量值，仍有许多内容可帮助你学习如何创建自己的度量值。 请务必参阅[教程：在 Power BI Desktop 中创建你自己的度量值](desktop-tutorial-create-measures.md)，在其中你可以下载示例文件并获取有关如何创建更多度量值的逐步课程。  

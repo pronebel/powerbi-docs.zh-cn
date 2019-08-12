@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 07/18/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 775abf014f571b508832c5cb9a52a62aad455a7b
-ms.sourcegitcommit: fe8a25a79f7c6fe794d1a30224741e5281e82357
+ms.openlocfilehash: fcad10a77ad531562443470296c9d712b2aa9724
+ms.sourcegitcommit: d74aca333595beaede0d71ba13a88945ef540e44
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/18/2019
-ms.locfileid: "68324795"
+ms.lasthandoff: 08/03/2019
+ms.locfileid: "68757614"
 ---
 # <a name="use-directquery-in-power-bi-desktop"></a>在 Power BI Desktop 中使用 DirectQuery
 使用 **Power BI Desktop** 时，若已连接数据源，始终可以将数据副本导入 **Power BI Desktop**。 对于某些数据源，还可使用另一种方法︰使用 **DirectQuery** 直接连接到数据源。
@@ -62,10 +62,9 @@ ms.locfileid: "68324795"
   
   还应当根据使用发布报表的 Power BI 用户数量，考虑源数据库的负载。 使用*行级安全性* (RLS) 也可能会产生显著的影响；多个用户共享的非 RLS 仪表板磁贴将导致对数据库的单个查询，但是，在仪表板磁贴上使用 RLS 意味着刷新一个磁贴需要*每个用户*一个查询，因而将显著增加源数据库负载，并可能会影响性能。
   
-  Power BI 将创建尽可能高效的查询。 但是在某些情况下，生成的查询可能不能高效到避免失败的刷新。 其中一个示例是生成的查询将从后端数据源检索大量行（超过 100 万），在这种情况下会发生以下错误：
+  Power BI 将创建尽可能高效的查询。 但是在某些情况下，生成的查询可能不能高效到避免失败的刷新。 其中一个示例是生成的查询将从后端数据源检索大量行，在这种情况下会发生以下错误：
   
       The resultset of a query to external data source has exceeded
-      the maximum allowed size of '1000000' rows.
   
   生成包含非常高的基数列的简单图表，聚合选项设置为*不汇总*。 视觉对象应只具有基数低于 100 万的列，或必须应用适当的筛选器。
 * **安全** -使用发布报表的所有用户都使用发布到 Power BI 服务后输入的凭据连接到后端数据源。 这与导入数据的情况相同：所有用户会看到相同的数据，而不考虑后端源中定义的任何安全规则。 希望通过 DirectQuery 源实现每用户安全性的客户应使用 RLS。 [详细了解 RLS](service-admin-rls.md)。

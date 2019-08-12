@@ -8,12 +8,12 @@ ms.topic: conceptual
 ms.assetid: 87ddb651-a1d0-4a42-8ea9-04dea3f6afa4
 author: maggiesMSFT
 ms.author: maggies
-ms.openlocfilehash: db0ea02237a2279c26f2c47cecd3bae794a5cba4
-ms.sourcegitcommit: 797bb40f691384cb1b23dd08c1634f672b4a82bb
+ms.openlocfilehash: 9f3131749a484380a1352d39ae35ea409f6dc697
+ms.sourcegitcommit: bc688fab9288ab68eaa9f54b9b59cacfdf47aa2e
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/12/2019
-ms.locfileid: "66840294"
+ms.lasthandoff: 07/30/2019
+ms.locfileid: "68624146"
 ---
 # <a name="expression-examples-in-power-bi-report-builder"></a>Power BI 报表生成器中的表达式示例
 Power BI 分页报表生成器分页报表中经常使用表达式来控制内容和报表外观。 表达式是用 Microsoft Visual Basic 编写的，可以使用内置函数、自定义代码、报表和组变量以及用户定义的变量。 表达式以等号 (=) 开头。   
@@ -40,7 +40,7 @@ Power BI 分页报表生成器分页报表中经常使用表达式来控制内�
 ##  <a name="VisualBasicFunctions"></a> Visual Basic 函数  
  可以使用 Visual Basic 函数来操作文本框中显示的数据或用于参数、属性或报表其他区域的数据。 本部分提供的示例展示其中一些功能。 有关详细信息，请参阅 MSDN 上的 [Visual Basic 运行时库成员](https://go.microsoft.com/fwlink/?LinkId=198941)。  
   
- .NET Framework 提供许多自定义格式选项，例如，特定日期格式。 有关详细信息，请参阅 MSDN 上的[格式设置类型](https://go.microsoft.com/fwlink/?LinkId=112024)。  
+ .NET Framework 提供许多自定义格式选项，例如，特定日期格式。 有关详细信息，请参阅[格式设置类型](/dotnet/standard/base-types/formatting-types)。  
   
 ### <a name="math-functions"></a>日期函数  
   
