@@ -10,16 +10,16 @@ ms.subservice: powerbi-admin
 ms.topic: conceptual
 ms.date: 06/18/2019
 LocalizationGroup: Premium
-ms.openlocfilehash: d1a057f56237a0609f3330d4728c7dfcded84a71
-ms.sourcegitcommit: 012f05efc4e97aeb6178fb2fc820b73bcc1ce920
+ms.openlocfilehash: 1e836dd9fe4be1c0267a0ba4008c2455cf59e2e2
+ms.sourcegitcommit: 805d52e57a935ac4ce9413d4bc5b31423d33c5b1
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/23/2019
-ms.locfileid: "68391136"
+ms.lasthandoff: 07/30/2019
+ms.locfileid: "68665384"
 ---
 # <a name="bring-your-own-encryption-keys-for-power-bi-preview"></a>为 Power BI 引入自己的加密密钥（预览版）
 
-Power BI 会对_静态_数据和_正在处理_的数据进行加密。 默认情况下，Power BI 使用 Microsoft 托管密钥来加密数据。 在 Power BI Premium 中，还可以对导入数据集的静态数据使用自己的密钥（有关详细信息，请参阅[数据源和存储注意事项](#data-source-and-storage-considerations)）。 这种方法通常被称为_创建自己的密钥_ (BYOK)。
+Power BI 会对 _数据和 _的数据进行加密。 默认情况下，Power BI 使用 Microsoft 托管密钥来加密数据。 在 Power BI Premium 中，还可以对导入数据集的静态数据使用自己的密钥（有关详细信息，请参阅[数据源和存储注意事项](#data-source-and-storage-considerations)）。 这种方法通常被称为 _ (BYOK)。
 
 ## <a name="why-use-byok"></a>为何使用 BYOK？
 
@@ -65,6 +65,9 @@ BYOK 仅适用于与 PBIX 文件关联的数据集，不适合图块和视觉对
 
 1. 依次选择“确定”和“保存”   。
 
+> [!NOTE]
+> 若要在将来撤消 Power BI 对你的数据的访问权限，请从 Azure 密钥保管库中删除对此服务主体的访问权限。
+
 ### <a name="create-an-rsa-key"></a>创建 RSA 密钥
 
 1. 在密钥保管库中的“密钥”下，选择“生成/导入”   。
@@ -99,7 +102,7 @@ BYOK 仅适用于与 PBIX 文件关联的数据集，不适合图块和视觉对
 
 - 目前，无法在启用 BYOK 后再将其禁用。 根据为 `Add-PowerBIEncryptionKey` 指定参数的方式，可以控制将 BYOK 用于一个或多个容量的方式。 但是，无法撤消向租户引入密钥的操作。 有关详细信息，请参阅[启用 BYOK](#enable-byok)。
 
-- 不能_直接_将使用 BYOK 的工作区从 Power BI Premium 中的专用容量移至共享容量。 必须先将工作区移至未启用 BYOK 的专用容量。
+- 不能 _将使用 BYOK 的工作区从 Power BI Premium 中的专用容量移至共享容量。 必须先将工作区移至未启用 BYOK 的专用容量。
 
 ### <a name="enable-byok"></a>启用 BYOK
 
@@ -152,7 +155,7 @@ Power BI 提供其他 cmdlet 来帮助在租户中管理 BYOK：
 
     请注意，加密在容量级别启用，但指定工作区的加密状态在数据集级别获取。
 
-- 使用 [`Switch-PowerBIEncryptionKey` ](/powershell/module/microsoftpowerbimgmt.admin/switch-powerbiencryptionkey) 切换（或_旋转_）要用于加密的密钥的版本。 cmdlet 只更新密钥 `-Name` 的 `-KeyVaultKeyUri`：
+- 使用 [`Switch-PowerBIEncryptionKey` ](/powershell/module/microsoftpowerbimgmt.admin/switch-powerbiencryptionkey) 切换（或 _）要用于加密的密钥的版本。 cmdlet 只更新密钥 `-Name` 的 `-KeyVaultKeyUri`：
 
     ```powershell
     Switch-PowerBIEncryptionKey -Name'Contoso Sales' -KeyVaultKeyUri'https://contoso-vault2.vault.azure.net/keys/ContosoKeyVault/b2ab4ba1c7b341eea5ecaaa2wb54c4d2'
