@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 03/31/2018
-ms.openlocfilehash: 031274f4f35ef1e36ec17648c2cbf967f5436020
-ms.sourcegitcommit: 73228d0a9038b8369369c059ad06168d2c5ff062
+ms.openlocfilehash: 0aa1d964485297c5e0dae3f4a309cc0dd15b92b2
+ms.sourcegitcommit: 90ad0572a92f640684cdc32c9a6478d299de9dc0
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/02/2019
-ms.locfileid: "68729793"
+ms.lasthandoff: 08/10/2019
+ms.locfileid: "68940899"
 ---
 # <a name="changelog-for-power-bi-report-server"></a>Power BI 报表服务器的更改日志
 
@@ -124,7 +124,10 @@ ms.locfileid: "68729793"
 - Power BI Desktop（已针对 Power BI 报表服务器进行优化） 
     - *版本：2.61.5192.641（2018 年 8 月），发布日期：2018 年 8 月 15 日*
         - 包含与 Power BI 报表服务器连接所需的更改（2018 年 8 月）         
-        
+    - *版本：2.61.5192.7701（2018 年 8 月），发布日期：2019 年 8 月 8 日*（新内部版本和新版本）
+        - Bug 修复
+            - 针对错误遥测日志记录的修复
+            
 ## <a name="march-2018"></a>2018 年 3 月
 
 - **Power BI 报表服务器**

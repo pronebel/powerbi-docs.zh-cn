@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 06/24/2019
 ms.author: mihart
 LocalizationGroup: Create reports
-ms.openlocfilehash: c039b00ced1bf62c8be72d218177d04a9fd3accf
-ms.sourcegitcommit: e67bacbfc5638ee97e3d2e0e7f5bd2d9aac78f9c
+ms.openlocfilehash: e1dfda3c759d225019cc50d36cfe746976bd797a
+ms.sourcegitcommit: cc4b18d55b2dca8fdb1bef00f53a0a808c41432a
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/02/2019
-ms.locfileid: "67532719"
+ms.lasthandoff: 08/09/2019
+ms.locfileid: "68867087"
 ---
 # <a name="use-a-relative-date-slicer-and-filter-in-power-bi-desktop"></a>在 Power BI Desktop 中使用相对日期切片器和筛选器
 
@@ -41,7 +41,7 @@ ms.locfileid: "67532719"
 
 ![标出第一个设置的“相对”配置选项的屏幕截图。](media/desktop-slicer-filter-date-range/relative-date-range-slicer-filter-04.png)
 
-* 过去
+* 最后一项
 
 * 下一步
 
@@ -75,7 +75,7 @@ ms.locfileid: "67532719"
 
 * 由切片器约束的视觉对象中包含的数据将显示前两个月的数据
 
-* 即 5 月 20 日到 7 月 20 日（今天的日期）
+* 即 5 月 21 日到 7 月 20 日（今天的日期）
 
 相比之下，如果选择“月(日历)”  ，约束的视觉对象会显示 5 月 1 日到 6 月 30 日（过去两个整日历月）的数据。
 

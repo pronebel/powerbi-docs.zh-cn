@@ -10,12 +10,12 @@ ms.subservice: powerbi-developer
 ms.topic: tutorial
 ms.custom: seodec18
 ms.date: 07/29/2019
-ms.openlocfilehash: 02e11e167d859d3ef23124fed4f9f699766db8fe
-ms.sourcegitcommit: 805d52e57a935ac4ce9413d4bc5b31423d33c5b1
+ms.openlocfilehash: ce13b161f0a9bf5291f2c0d127106b0db2c6fa29
+ms.sourcegitcommit: 6c2c7a090b0826e3cfc3a897566e802857bbacc8
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/30/2019
-ms.locfileid: "68665551"
+ms.lasthandoff: 08/06/2019
+ms.locfileid: "68808244"
 ---
 # <a name="tutorial-embed-power-bi-content-into-an-application-for-your-organization"></a>教程：为组织将 Power BI 内容嵌入应用程序
 
@@ -83,7 +83,7 @@ ms.locfileid: "68665551"
    
 ### <a name="create-and-publish-your-paginated-reports"></a>创建并发布分页报表
 
-可以使用 [Power BI 报表生成器](../paginated-reports-report-builder-power-bi.md#create-reports-in-power-bi-report-builder)创建分页报表。然后可以[将报表上传](../paginated-reports-quickstart-aw.md#upload-the-report-to-the-service)到至少分配给 A4/P1 容量的应用工作区。上传报表的最终用户需要具有 Power BI Pro 许可证才能发布到应用工作区。
+你可以使用 [Power BI 报表生成器](../paginated-reports-report-builder-power-bi.md#create-reports-in-power-bi-report-builder)创建分页报表。然后可以[将报表上传](../paginated-reports-quickstart-aw.md#upload-the-report-to-the-service)到至少分配给 A4/P1 容量的应用工作区。 上传报表的最终用户需要具有 Power BI Pro 许可证才能发布到应用工作区。
    
 ## <a name="embed-your-content-by-using-the-sample-application"></a>使用示例应用程序嵌入内容
 

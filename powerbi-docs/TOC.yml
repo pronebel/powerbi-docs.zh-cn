@@ -593,6 +593,8 @@
               href: service-export-to-pbix.md
             - name: 使用 URL 参数筛选报表
               href: service-url-filters.md
+            - name: 编辑 SAP 变量
+              href: service-edit-sap-variables.md
             - name: 生成快速可靠报表的最佳做法
               href: power-bi-reports-performance.md
         - name: 询问数据相关问题
