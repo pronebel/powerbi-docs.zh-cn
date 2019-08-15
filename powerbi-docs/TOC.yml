@@ -1289,6 +1289,8 @@
               href: report-server/configure-kerberos-powerbi-reports.md
             - name: 远程配置移动应用访问
               href: report-server/configure-powerbi-mobile-apps-remote.md
+            - name: 使用 Azure AD 进行远程移动访问
+              href: 'https://docs.microsoft.com/azure/active-directory/manage-apps/application-proxy-integrate-with-power-bi'
             - name: 主机 Excel 工作簿
               href: report-server/excel-oos.md
     - name: 参考
@@ -1424,3 +1426,7 @@
           href: service-admin-governance.md
         - name: Power BI 安全性
           href: service-admin-power-bi-security.md
+- name: 指南
+  items:
+    - name: 什么是星型架构？
+      href: guidance/star-schema.md
