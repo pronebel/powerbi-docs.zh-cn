@@ -53,6 +53,8 @@
       items:
         - name: 最新 Power BI Desktop 更新中有哪些新增功能？
           href: desktop-latest-update.md
+        - name: 在 Power BI Desktop 中将视觉对象分组
+          href: desktop-grouping-visuals.md
         - name: Power BI Desktop 中的建模视图
           href: desktop-modeling-view.md
         - name: Power BI Desktop 中的聚合
