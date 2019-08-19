@@ -491,7 +491,7 @@
           items:
             - name: 跨工作区使用数据集
               href: service-datasets-across-workspaces.md
-            - name: 创建和共享数据集（预览）
+            - name: 共享数据集（预览）
               href: service-datasets-build-permissions.md
             - name: 基于数据集创建报表
               href: service-datasets-discover-across-workspaces.md
@@ -1217,7 +1217,7 @@
           href: report-server/tutorial-explore-report-server-web-portal.md
     - name: 概念
       items:
-        - name: 新增内容
+        - name: 新增功能
           href: report-server/whats-new.md
         - name: 更改日志
           href: report-server/changelog.md
@@ -1432,3 +1432,5 @@
   items:
     - name: 什么是星型架构？
       href: guidance/star-schema.md
+    - name: 减少数据模型大小
+      href: guidance/import-modeling-data-reduction.md
