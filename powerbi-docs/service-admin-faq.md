@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 11/16/2018
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: d6961007c3f7185b954188fa7bd7866d80a7f85a
-ms.sourcegitcommit: f05ba39a0e46cb9cb43454772fbc5397089d58b4
+ms.openlocfilehash: 6d0c4a2dba1dee1c8c40da8fd3371767915729da
+ms.sourcegitcommit: d9755602235ba03594c348571b9102c9bf88d732
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/26/2019
-ms.locfileid: "68523405"
+ms.lasthandoff: 08/15/2019
+ms.locfileid: "69490328"
 ---
 # <a name="administering-power-bi---frequently-asked-questions-faq"></a>管理 Power BI - 常见问题 (FAQ)
 
@@ -38,7 +38,6 @@ ms.locfileid: "68523405"
 
 * [这会如何更改我当前为组织中的用户管理标识的方式？](#how-will-this-change-the-way-i-manage-identities-for-users-in-my-organization-today)
 * [我们如何管理 Power BI？](#how-do-we-manage-power-bi)
-* [管理 Microsoft 为我的用户创建的租户的过程是怎样的？](#what-is-the-process-to-manage-a-tenant-created-by-microsoft-for-my-users)
 * [如果我有多个域，是否可以控制向其中添加用户的 Office 365 租户？](#if-i-have-multiple-domains-can-i-control-the-office-365-tenant-that-users-get-added-to)
 * [如何为已注册的用户删除 Power BI？](#how-do-i-remove-power-bi-for-users-that-already-signed-up)
 * [如何知道新用户加入了我的租户？](#how-do-i-know-when-new-users-have-joined-my-tenant)
@@ -173,18 +172,6 @@ Get-MsolCompanyInformation | fl allow*
 Power BI 提供了可便于你查看使用情况统计信息的管理门户，并提供了用于管理用户和组的 Microsoft 365 管理中心链接，同时还支持控制整个租户范围内的设置。
 
 若要使用 Power BI 管理门户，需要在 Office 365 或 Azure Active Directory 中将帐户标记为“全局管理员”，或需要某个人将 Power BI 服务管理员角色分配给你的用户帐户  。 有关详细信息，请参阅[了解 Power BI 管理员角色](service-admin-role.md)和 [ Power BI 管理门户](service-admin-portal.md)。
-
-### <a name="what-is-the-process-to-manage-a-tenant-created-by-microsoft-for-my-users"></a>管理 Microsoft 为我的用户创建的租户的过程是怎样的？
-
-自助服务用户注册使用 Azure AD 的云服务后，该服务会根据其电子邮件域将其添加到非托管 Azure AD 目录中。 可以声明和管理某人使用“管理员接管”  流程创建的租户。 所执行的接管类型取决于是否现有与域关联的托管租户：
-
-* “内部接管”  类型用于为域新建托管租户。
-
-* “外部接管”  类型用于将域移到现有托管租户中。
-
-有关详细信息，请参阅[在 Azure Active Directory 中以管理员身份接管非托管目录](/azure/active-directory/users-groups-roles/domains-admin-takeover)。
-
-如果执行的是外部接管，该服务会将接管之前创建的 Power BI 内容放置在 [Power BI 存档工作区](service-admin-power-bi-archived-workspace.md)中。 必须手动迁移要在新租户中使用的任何内容。
 
 ### <a name="if-i-have-multiple-domains-can-i-control-the-office-365-tenant-that-users-get-added-to"></a>如果我有多个域，是否可以控制向其中添加用户的 Office 365 租户？
 
