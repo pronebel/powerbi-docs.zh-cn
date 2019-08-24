@@ -39,7 +39,7 @@ https://app.powerbi.com/Redirect?[**QUERYPARAMS**]
 
 
 **查询参数**是：
-* **操作**（必需） = OpenApp / OpenDashboard / OpenTile / OpenReport
+* **action**（必需） = OpenApp / OpenDashboard / OpenTile / OpenReport
 * **appId** = 如果你想要打开报表或仪表板的应用的一部分 
 * **groupObjectId** = 如果你想要打开报表或仪表板，其中一部分工作区 （但不是我的工作区）
 * **dashboardObjectId** = 仪表板对象 ID （如果 action 是 OpenDashboard 或 OpenTile）
