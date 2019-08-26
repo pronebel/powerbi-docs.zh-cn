@@ -8,43 +8,76 @@ ms.custom: seodec18
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 05/08/2019
+ms.date: 08/14/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 57f95a35ff12d546d4fd03202d14212e0df9c78e
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: e2a970ecbf7b341d4feaba4e90a862841ba8bb17
+ms.sourcegitcommit: f6ac9e25760561f49d4257a6335ca0f54ad2d22e
+ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "65513645"
+ms.lasthandoff: 08/16/2019
+ms.locfileid: "69560934"
 ---
-# <a name="using-r-in-query-editor"></a>在查询编辑器中使用 R
-你可以在 Power BI Desktop **查询编辑器**中使用 **R**，R 是统计学家、数据科学家和数据分析师使用最广泛的一种编程语言。 **查询编辑器**中集成的 R 可使你用 R 来执行数据清理，并在数据集中执行高级数据调整和分析，包括丢失数据补全、预测和聚类分析，此处仅举几例。 **R** 是功能强大的语言，可用于在“查询编辑器”  中准备你的数据模型并创建报表。
+# <a name="use-r-in-query-editor"></a>在查询编辑器中使用 R
 
-## <a name="installing-r"></a>安装 R
-若要在 Power BI Desktop 的**查询编辑器**中使用 **R**，需要在本地计算机上安装 **R**。 可以从很多位置免费下载并安装 **R**，其中包括 [Revolution Open download page](https://mran.revolutionanalytics.com/download/)（Revolution Open 下载页），以及 [CRAN 存储库](https://cran.r-project.org/bin/windows/base/)。
+[**R**](https://mran.microsoft.com/documents/what-is-r) 是一种功能强大的编程语言，许多统计学家、数据科学家和数据分析师都在使用。 可以在 Power BI Desktop 的查询编辑器中使用 R 来执行以下操作   ：
 
-## <a name="using-r-in-query-editor"></a>在查询编辑器中使用 R
-若要演示如何在查询编辑器  中使用 R 脚本  ，请以基于 .CSV 文件的股票市场数据集为例（可[从此处下载](http://download.microsoft.com/download/F/8/A/F8AA9DC9-8545-4AAE-9305-27AD1D01DC03/EuStockMarkets_NA.csv)）并按照示例进行操作。 此示例中的步骤如下所示：
+* 准备数据模型
 
-1. 首先，将数据加载到 **Power BI Desktop**中。 本例中，请加载 EuStockMarkets_NA.csv  文件，并在 Power BI Desktop  的“主页”  功能区中依次选择“获取数据”和“CSV”  。
+* 创建报表
+
+* 进行数据清理、高级数据定形和数据集分析，包括缺失数据补全、预测、聚类分析等。  
+
+## <a name="install-r"></a>安装 R
+
+可以从 [Revolution Open 下载页](https://mran.revolutionanalytics.com/download/)以及 [CRAN 存储库](https://cran.r-project.org/bin/windows/base/)免费下载 R  。
+
+### <a name="install-mice"></a>安装 mice
+
+必须在 R 环境中安装 [mice](https://www.rdocumentation.org/packages/mice/versions/3.5.0/topics/mice) 库  。 没有 mice，示例脚本代码无法正常运行  。 mice 包实现了一种处理缺失数据的方法  。
+
+安装 mice  ：
+
+1. 启动 R.exe 程序（例如 C:\Program Files\Microsoft\R Open\R-3.5.3\bin\R.exe）  
+
+2. 运行安装命令：
+
+   ``` 
+   >  install.packages('mice') 
+   ```
+
+## <a name="use-r-in-query-editor"></a>在查询编辑器中使用 R
+
+为演示在查询编辑器中使用 R，我们将使用 .csv 文件中包含的示例股票市场数据集，并完成以下步骤   ：
+
+1. [下载EuStockMarkets_NA.csv 文件](http://download.microsoft.com/download/F/8/A/F8AA9DC9-8545-4AAE-9305-27AD1D01DC03/EuStockMarkets_NA.csv)  。 记下此文件的保存位置。
+
+1. 将文件加载到 Power BI Desktop：在“主页”功能区中，选择“获取数据”>“文本/CSV”    。
 
    ![](media/desktop-r-in-query-editor/r-in-query-editor_1.png)
-2. 选择该文件，并选择“打开”  ，然后该 CSV 将显示在“CSV 文件”  对话框中。
+
+1. 选择文件，然后选择“打开”  。 CSV 数据显示在“文本/CSV 文件”对话框中  。
 
    ![](media/desktop-r-in-query-editor/r-in-query-editor_2.png)
-3. 加载数据后，你会在 Power BI Desktop 中的 **“字段”** 窗格中看到它。
+
+1. 加载数据后，你可以在“字段”窗格中看到它  。
 
    ![](media/desktop-r-in-query-editor/r-in-query-editor_3.png)
-4. 通过从 **Power BI Desktop** 中的“主页”  选项卡中选择“查询编辑器”  来打开“查询编辑器”  。
+
+1. 若要打开“查询编辑器”，请在“主页”功能区中选择“编辑查询”    。
 
    ![](media/desktop-r-in-query-editor/r-in-query-editor_4.png)
-5. 在“转换”  选项卡中，选择“运行 R 脚本”  ，然后“运行 R 脚本”  编辑器随即出现（下一步中所示）。 注意，第 15 和 20 行受数据丢失影响。下图中无法看见的其他行也是如此。 以下步骤演示 R（将）如何为你补全这些行。
+
+1. 在“转换”功能区中，选择“运行 R 脚本”   。 随即显示“运行 R 脚本”编辑器  。  
+
+   第 15 行和第 20 行包含缺失的数据，图像中没有显示的其他行也是。 以下步骤介绍 R 如何为你补全这些行。
 
    ![](media/desktop-r-in-query-editor/r-in-query-editor_5d.png)
-6. 此示例中，请输入以下脚本代码：
+
+1. 此示例中，请输入以下脚本代码。 请务必将“&lt;你的文件路径&gt;”替换为本地文件系统上的 EuStockMarkets_NA.csv 路径，例如，C:/Users/John Doe/Documents/Microsoft/EuStockMarkets_NA.csv 
 
     ```r
+       dataset <- read.csv(file="<Your File Path>/EuStockMarkets_NA.csv", header=TRUE, sep=",")
        library(mice)
        tempData <- mice(dataset,m=1,maxit=50,meth='pmm',seed=100)
        completedData <- complete(tempData,1)
@@ -52,52 +85,55 @@ ms.locfileid: "65513645"
        output$completedValues <- completedData$"SMI missing values"
     ```
 
-   > [!NOTE]
-   > 需要在 R 环境中安装 mice  库才能使之前的脚本代码正常运行。 若要安装 mice，请在 R 安装中运行以下命令：|      > install.packages('mice')
-   > 
-   > 
-
-   当放入“运行 R 脚本”  对话框时，代码如下所示：
-
-   ![](media/desktop-r-in-query-editor/r-in-query-editor_5b.png)
 7. 选择“确定”  后，“查询编辑器”  将显示与数据隐私相关的警告。
 
    ![](media/desktop-r-in-query-editor/r-in-query-editor_6.png)
-8. 为使 R 脚本在 Power BI 服务中正常工作，所有的数据源都需要设置为“公用”  。 有关隐私设置及其含义的详细信息，请参阅[隐私级别](desktop-privacy-levels.md)。
+8. 为使 R 脚本在 Power BI 服务中正常工作，需要将所有的数据源都设置为“公开”  。 有关隐私设置及其含义的详细信息，请参阅[隐私级别](desktop-privacy-levels.md)。
 
    ![](media/desktop-r-in-query-editor/r-in-query-editor_7.png)
 
-   请注意“字段”  窗格中的名为 completedValues  的新列。 注意，有一些行缺少数据元素，如第 15 和 18 行。 下一节中将介绍 R 如何处理该问题。
+   选择“保存”后，脚本将运行  。 请注意“字段”  窗格中的名为 completedValues  的新列。 注意，有一些行缺少数据元素，如第 15 和 18 行。 下一节中将介绍 R 如何处理该问题。
 
+   只需要五行 R 脚本，**查询编辑器**就能用预测模型填写丢失的值。
 
-只需要五行 R 脚本，**查询编辑器**就能用预测模型填写丢失的值。
+## <a name="create-visuals-from-r-script-data"></a>根据 R 脚本数据创建视觉对象
 
-## <a name="creating-visuals-from-r-script-data"></a>从 R 脚本数据创建视觉效果
 现在，可创建视觉对象，以查看 R 脚本代码如何使用 mice  库补全缺少的值，如下图所示：
 
 ![](media/desktop-r-in-query-editor/r-in-query-editor_8a.png)
 
-创建好该视觉对象，以及希望使用 Power BI Desktop  创建的任何其他视觉对象之后，可保存 Power BI Desktop  文件（保存为 .pbix 文件），然后在 Power BI 服务中使用数据模型（及其内附的 R 脚本）。
+可以将所有已完成的视觉对象保存在一个 Power BI Desktop .pbix 文件中，并在 Power BI 服务中使用数据模型及其 R 脚本  。
 
 > [!NOTE]
-> 想要查看完成了这些步骤的完整 .pbix 文件吗？ 真幸运 - 你可以在[此处](http://download.microsoft.com/download/F/8/A/F8AA9DC9-8545-4AAE-9305-27AD1D01DC03/Complete%20Values%20with%20R%20in%20PQ.pbix)下载示例中使用的完整 **Power BI Desktop** 文件。
+> 完成所有步骤后，可以[下载一个 .pbix 文件](http://download.microsoft.com/download/F/8/A/F8AA9DC9-8545-4AAE-9305-27AD1D01DC03/Complete%20Values%20with%20R%20in%20PQ.pbix)。
 
-将 .pbix 文件上传到 Power BI 服务后，还需要几个步骤来启用数据刷新（在服务中），以及启用服务中待更新的视觉对象（为了更新视觉对象，数据需要访问 R）。 其它步骤如下所示：
+将 .pbix 文件上传到 Power BI 服务后，需要采取其他步骤来启用服务数据刷新和更新后的视觉对象：  
 
-* **启用数据集的计划刷新** - 若要为包含 R 脚本数据集的工作簿启用计划刷新，请参阅[配置计划刷新](refresh-scheduled-refresh.md)，其中也包含有关 **个人网关** 的信息。
-* **安装个人网关** - 需要在计算机上与文件和 R 安装位置相同的位置安装**个人网关**；Power BI 服务必须访问该工作簿并重新呈现任何已更新的视觉对象。 你可以获取有关如何[安装和配置个人网关](service-gateway-personal-mode.md)的详细信息。
+* 为数据集启用计划刷新 - 若要使用 R 脚本为包含数据集的工作簿启用计划刷新，请参阅[配置计划刷新](refresh-scheduled-refresh.md)，其中还包括有关个人网关的信息。  
+
+* 安装个人网关 - 需要在文件和 R 所在的计算机上安装个人网关    。 Power BI 服务访问该工作簿并重新呈现所有更新后的视觉对象。 有关详细信息，请参阅[安装和配置个人网关](service-gateway-personal-mode.md)。
 
 ## <a name="limitations"></a>限制
+
 对包括 R 脚本，在**查询编辑器**中创建的查询有一些限制：
 
-* 所有 R 数据源设置都必须设置为“公用”  ，并且**查询编辑器**中创建的查询中的所有其它步骤也必须设为“公用”。 若要获取数据源设置，请在 **Power BI Desktop** 中，选择“文件”>“选项和设置”>“数据源设置”  。
+* 所有 R 数据源设置都必须设置为“公开”  。 查询编辑器  查询中的其他所有步骤也必须是公开的。 若要获取数据源设置，请在 **Power BI Desktop** 中选择 **“文件”>“选项和设置”>“数据源设置”** 。
 
   ![](media/desktop-r-in-query-editor/r-in-query-editor_9.png)
 
-  从“数据源设置”  对话框中，选择数据源，然后选择“编辑权限...”  并确保“隐私级别”  设置为“公用”  。
+  在“数据源设置”对话框中，选择数据源，然后选择“编辑权限...”   。将“隐私级别”设置为“公开”   。
 
   ![](media/desktop-r-in-query-editor/r-in-query-editor_10.png)    
-* 若要启用 R 视觉对象或数据集的计划更新，你需要启用“计划更新”  ，并且拥有安装在存储工作簿和 R 安装的计算机上的**个人网关**。 有关这两方面的详细信息，请参阅本文中的之前章节，其中提供了链接可了解每个方面的详细信息。
+* 若要启用 R 视觉对象或数据集的计划更新，需要启用“计划更新”，并且在包含工作簿和 R 的计算机上安装个人网关。    有关这两方面的详细信息，请参阅本文中的之前章节，其中提供了链接可了解每个方面的详细信息。
 
 通过 R 和自定义查询你能进行各种各样的操作，因此你可以按照你想要显示的方式来探索和分析你的数据。
 
+## <a name="next-steps"></a>后续步骤
+
+* [R 简介](https://mran.microsoft.com/documents/what-is-r) 
+
+* [在 Power BI Desktop 中运行 R 脚本](desktop-r-scripts.md) 
+
+* [将外部 R IDE 与 Power BI 一起使用](desktop-r-ide.md) 
+
+* [Power BI 服务中的 R 程序包](service-r-packages-support.md)

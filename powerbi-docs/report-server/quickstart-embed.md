@@ -1,38 +1,39 @@
 ---
-title: 使用 iFrame 嵌入报表
-description: 在 SharePoint Server 的 iFrame 中嵌入 Power BI 报表服务器报表
+title: 在 SharePoint Server 中使用 iFrame 嵌入“Power BI 报表服务器”报表
+description: 本文介绍如何在 SharePoint Server 中使用 iFrame 嵌入 Power BI 报表服务器报表
 author: maggiesMSFT
 ms.author: maggies
-ms.date: 05/04/2018
-ms.topic: quickstart
+ms.date: 08/12/2019
+ms.topic: conceptual
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.custom: mvc
 manager: kfile
-ms.openlocfilehash: ca26770c652c12573bf28e24b218b214bf1196fa
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: e1787863d2b5db50cdb9a8d09907fbee6623972f
+ms.sourcegitcommit: d12bc6df16be1f1993232898f52eb80d0c9fb04e
+ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "64769864"
+ms.lasthandoff: 08/13/2019
+ms.locfileid: "68995011"
 ---
-# <a name="quickstart-embed-a-power-bi-report-server-report-using-an-iframe-in-sharepoint-server"></a>快速入门：在 SharePoint Server 中使用 iFrame 嵌入“Power BI 报表服务器”报表
+# <a name="embed-a-power-bi-report-server-report-using-an-iframe-in-sharepoint-server"></a>在 SharePoint Server 中使用 iFrame 嵌入“Power BI 报表服务器”报表
 
-在本快速入门中，你将了解如何通过在 SharePoint 页面中使用 iFrame 嵌入 Power BI 报表服务器报表。 如果正在使用 SharePoint Online，则必须可以公开访问 Power BI 报表服务器。 在 SharePoint Online 中，使用 Power BI 服务的 Power BI Web 部件不会使用 Power BI 报表服务器。 
+本文介绍如何通过在 SharePoint 页面中使用 iFrame 嵌入 Power BI 报表服务器报表。 如果使用 SharePoint Online，则必须可以公开访问 Power BI 报表服务器。 在 SharePoint Online 中，使用 Power BI 服务的 Power BI Web 部件不会使用 Power BI 报表服务器。  
 
 ![iFrame 示例](media/quickstart-embed/quickstart_embed_01.png)
+
 ## <a name="prerequisites"></a>先决条件
-* 需要安装和配置 [Power BI 报表服务器](https://powerbi.microsoft.com/report-server/)。
-* 需要安装[更适合 Power BI 报表服务器的 Power BI Desktop](install-powerbi-desktop.md)。
-* 需要安装和配置 [SharePoint](https://docs.microsoft.com/sharepoint/install/install) 环境。
+* 安装和配置 [Power BI 报表服务器](https://powerbi.microsoft.com/report-server/)。
+* 安装[已针对 Power BI 报表服务器进行优化的 Power BI Desktop](install-powerbi-desktop.md)。
+* 安装和配置 [SharePoint](https://docs.microsoft.com/sharepoint/install/install) 环境。
 
-## <a name="creating-the-power-bi-report-server-report-url"></a>创建 Power BI 报表服务器报表 URL
+## <a name="create-the-power-bi-report-url"></a>创建 Power BI 报表 URL
 
-1. 从 GitHub 下载示例 - [博客演示](https://github.com/Microsoft/powerbi-desktop-samples)。
+1. 从 GitHub 下载示例：[博客演示](https://github.com/Microsoft/powerbi-desktop-samples)。 选择“克隆或下载”，然后选择“下载 ZIP”   。
 
     ![下载示例 PBIX 文件](media/quickstart-embed/quickstart_embed_14.png)
 
-2. 在“更适合 Power BI 报表服务器的 Power BI Desktop”  中从 GitHub 打开示例 PBIX 文件。
+2. 解压缩文件，然后在已针对 Power BI 报表服务器进行优化的 Power BI Desktop 中打开示例 .pbix 文件。
 
     ![PBI RS 桌面工具](media/quickstart-embed/quickstart_embed_02.png)
 
@@ -40,49 +41,45 @@ ms.locfileid: "64769864"
 
     ![PBI RS 保存](media/quickstart-embed/quickstart_embed_03.png)
 
-4. 在 Web 门户  中查看报表。
+4. 在 Power BI 报表服务器 Web 门户中查看报表。
 
     ![Web 门户](media/quickstart-embed/quickstart_embed_04.png)
 
-### <a name="capturing-the-url-parameter"></a>捕获 URL 参数
+### <a name="capture-the-url-parameter"></a>捕获 URL 参数
 
-有了 URL 后，可以在 SharePoint 页面中创建 iFrame 来托管报表。 对于任何 Power BI 报表服务器报表 URL，可以添加 `?rs:embed=true` 的查询字符串参数，从而将报表嵌入到 iFrame 中。 
+获取 URL 后，可以在 SharePoint 页面中创建 iFrame 来托管报表。 对于任何 Power BI 报表服务器报表 URL，请添加以下查询字符串参数以将报表嵌入 SharePoint iFrame 中：`?rs:embed=true`。
 
    例如：
     ``` 
     http://myserver/reports/powerbi/Sales?rs:embed=true
     ```
-## <a name="embedding-a-power-bi-report-server-report-in-a-sharepoint-iframe"></a>在 SharePoint iFrame 中嵌入 Power BI 报表服务器报表
+## <a name="embed-the-report-in-a-sharepoint-iframe"></a>将报表嵌入 SharePoint iFrame 中
 
 1. 导航到 SharePoint“网站内容”  页面。
 
-    ![网站内容页面](media/quickstart-embed/quickstart_embed_05.png)
+    ![站点内容页面](media/quickstart-embed/quickstart_embed_05.png)
 
 2. 选择要添加报表的页面。
 
     ![网站内容页面应用](media/quickstart-embed/quickstart_embed_06.png)
 
-3. 选择右上方的齿轮，然后选择“编辑页面”  。
+3. 选择右上角的齿轮图标，然后选择“编辑页面”  。
 
     ![“编辑页面”选项](media/quickstart-embed/quickstart_embed_07.png)
 
 4. 选择“添加 Web 部件”  。
 
-    ![添加 Web 部件](media/quickstart-embed/quickstart_embed_08.png)
+5. 在“类别”下，选择“媒体和内容”   。 在“部件”下，选择“内容编辑器”，然后选择“添加”    。
 
-5. 在“类别”下选择“媒体和内容”，在“部件”下选择“内容编辑器”，然后选择“添加”。     
-
-    ![选择内容编辑器 Web 部件](media/quickstart-embed/quickstart_embed_09.png)![选择添加](media/quickstart-embed/quickstart_embed_091.png)
+    ![选择内容编辑器 Web 部件](media/quickstart-embed/quickstart_embed_09.png)
 
 6. 选择“单击此处以添加新内容”  。
 
-    ![添加新内容](media/quickstart-embed/quickstart_embed_10.png)
-
-7. 在功能区中选择“格式文本”  选项卡，然后选择“编辑源”  。
+7. 从顶部菜单中，选择“文本格式”，然后选择“编辑源”   。
 
      ![编辑源](media/quickstart-embed/quickstart_embed_11.png)
 
-8. 在“编辑源”窗口中粘贴 iFrame 代码，然后选择“确定”。
+8. 在“编辑源”窗口中，将 iFrame 代码粘贴到“HTML 源”中，然后选择“确定”    。
 
     ![iFrame 代码](media/quickstart-embed/quickstart_embed_12.png)
 
@@ -91,17 +88,17 @@ ms.locfileid: "64769864"
      <iframe width="800" height="600" src="http://myserver/reports/powerbi/Sales?rs:embed=true" frameborder="0" allowFullScreen="true"></iframe>
      ```
 
-9. 在功能区中选择“页面”  选项卡，然后选择“停止编辑”  。
+9. 在顶部菜单中，选择“页面”，然后选择“停止编辑”   。
 
     ![停止编辑](media/quickstart-embed/quickstart_embed_13.png)
 
-10. 现在应该可以看到页面上的报表。
+    报表将显示在该页上。
 
     ![iFrame 示例](media/quickstart-embed/quickstart_embed_01.png)
 
 ## <a name="next-steps"></a>后续步骤
 
-[快速入门：为 Power BI 报表服务器创建 Power BI 报表](quickstart-create-powerbi-report.md)  
-[快速入门：为 Power BI 报表服务器创建分页报表](quickstart-create-paginated-report.md)  
+- [为 Power BI 报表服务器创建 Power BI 报表](quickstart-create-powerbi-report.md)。  
+- [为 Power BI 报表服务器创建分页报表](quickstart-create-paginated-report.md)。  
 
-更多问题？ [尝试咨询 Power BI 社区](https://community.powerbi.com/) 
+更多问题？ [尝试参与 Power BI 社区](https://community.powerbi.com/)。 

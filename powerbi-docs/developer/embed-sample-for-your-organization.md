@@ -10,12 +10,12 @@ ms.subservice: powerbi-developer
 ms.topic: tutorial
 ms.custom: seodec18
 ms.date: 07/29/2019
-ms.openlocfilehash: ce13b161f0a9bf5291f2c0d127106b0db2c6fa29
-ms.sourcegitcommit: 6c2c7a090b0826e3cfc3a897566e802857bbacc8
+ms.openlocfilehash: 1c110022c27cf0e213484619a750140a63a7d0dc
+ms.sourcegitcommit: d9755602235ba03594c348571b9102c9bf88d732
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/06/2019
-ms.locfileid: "68808244"
+ms.lasthandoff: 08/15/2019
+ms.locfileid: "69490383"
 ---
 # <a name="tutorial-embed-power-bi-content-into-an-application-for-your-organization"></a>教程：为组织将 Power BI 内容嵌入应用程序
 
@@ -35,7 +35,7 @@ ms.locfileid: "68808244"
 * [Power BI Pro 帐户](../service-self-service-signup-for-power-bi.md)。
 * [Microsoft Azure](https://azure.microsoft.com/) 订阅。
 * 需要设置自己的 [Azure Active Directory 租户](create-an-azure-active-directory-tenant.md)。
-* 若要嵌入分页报表，至少需要 A4/P1 容量，请参阅[用于分页报表的的高级容量的大小是多少？](../paginated-reports-faq.md#what-size-premium-capacity-do-i-need-for-paginated-reports)。
+* 若要嵌入分页报表，至少需要 P1 容量，请参阅[需要多大的 Premium 容量才能使用分页报表？](../paginated-reports-faq.md#what-size-premium-capacity-do-i-need-for-paginated-reports)。
 
 如果未注册 Power BI Pro  ，请在开始之前[注册以获得免费试用](https://powerbi.microsoft.com/pricing/)。
 
@@ -45,7 +45,7 @@ ms.locfileid: "68808244"
 
 开始将报表、仪表板或磁贴嵌入应用前，需要先确保环境允许通过 Power BI 进行嵌入。
 
-你可通过完成[嵌入安装工具](https://aka.ms/embedsetup/UserOwnsData)，快速开始并下载可帮助你逐步创建环境和嵌入报表的示例应用程序。 在嵌入分页报表的情况下，需要至少将 A4/P1 容量分配给创建的应用工作区。
+你可通过完成[嵌入安装工具](https://aka.ms/embedsetup/UserOwnsData)，快速开始并下载可帮助你逐步创建环境和嵌入报表的示例应用程序。 在嵌入分页报表的情况下，需要至少将 P1 容量分配给创建的应用工作区。
 
 如果选择手动设置环境，则可以继续进行下面的操作。
 
@@ -83,7 +83,7 @@ ms.locfileid: "68808244"
    
 ### <a name="create-and-publish-your-paginated-reports"></a>创建并发布分页报表
 
-你可以使用 [Power BI 报表生成器](../paginated-reports-report-builder-power-bi.md#create-reports-in-power-bi-report-builder)创建分页报表。然后可以[将报表上传](../paginated-reports-quickstart-aw.md#upload-the-report-to-the-service)到至少分配给 A4/P1 容量的应用工作区。 上传报表的最终用户需要具有 Power BI Pro 许可证才能发布到应用工作区。
+可使用 [Power BI 报表生成器](../paginated-reports-report-builder-power-bi.md#create-reports-in-power-bi-report-builder)创建分页报表。 然后可以将[报表上传](../paginated-reports-quickstart-aw.md#upload-the-report-to-the-service)到分配有至少 P1 容量的应用工作区。 上传报表的最终用户需要具有 Power BI Pro 许可证才能发布到应用工作区。
    
 ## <a name="embed-your-content-by-using-the-sample-application"></a>使用示例应用程序嵌入内容
 
@@ -152,9 +152,6 @@ Get-PowerBIworkspace -name "User Owns Embed Test"
 Power BI 报表 URL <br>
 
 ![PBI reportId](media/embed-sample-for-your-organization/embed-sample-for-your-organization-041.png)
-
-分页报表 URL <br>
-
 
 
 分页报表 URL<br>
@@ -384,7 +381,7 @@ function updateEmbedReport() {
 
 ### <a name="create-a-dedicated-capacity"></a>创建专用容量
 
-通过创建专用容量，则可获得在应用工作区中拥有内容专用资源这一优势。 对于分页报表，必须至少使用 A4/P1 容量备份应用工作区。可以使用 [Power BI Premium](../service-premium-what-is.md) 创建专用容量。
+通过创建专用容量，则可获得在应用工作区中拥有内容专用资源这一优势。 对于分页报表，必须为应用工作区准备至少 P1 容量。 你可使用 [Power BI Premium](../service-premium-what-is.md) 创建专用容量。
 
 下表列出了 [Microsoft Office 365](../service-admin-premium-purchase.md) 中可用的 Power BI Premium SKU：
 

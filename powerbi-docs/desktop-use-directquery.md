@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 07/18/2019
+ms.date: 08/19/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: fcad10a77ad531562443470296c9d712b2aa9724
-ms.sourcegitcommit: d74aca333595beaede0d71ba13a88945ef540e44
+ms.openlocfilehash: 6664924a10b89e057765d70499208aede2d7fdad
+ms.sourcegitcommit: 4a3afe761d2f4a5bd897fafb36b53961739e8466
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/03/2019
-ms.locfileid: "68757614"
+ms.lasthandoff: 08/20/2019
+ms.locfileid: "69654785"
 ---
 # <a name="use-directquery-in-power-bi-desktop"></a>在 Power BI Desktop 中使用 DirectQuery
 使用 **Power BI Desktop** 时，若已连接数据源，始终可以将数据副本导入 **Power BI Desktop**。 对于某些数据源，还可使用另一种方法︰使用 **DirectQuery** 直接连接到数据源。
@@ -49,10 +49,13 @@ ms.locfileid: "68757614"
 目前，在使用 **DirectQuery** 时存在一些限制：
 
 * 除非使用[复合模型](desktop-composite-models.md)，否则所有表必须来自单个数据库
+
 * 如果“查询编辑器”  查询过于复杂，将会出错。 要更正错误，必须在“查询编辑器”  中删除有问题的步骤，或者导入  数据，而不是使用 DirectQuery  。 对于 SAP Business Warehouse 等多维度源而言，没有查询编辑器 
-* 关系筛选操作仅限于在单方向上执行，而不能在两个方向上执行（尽管可在 DirectQuery 的两个方向上启用交叉筛选）  。 对于 SAP Business Warehouse 等多维源而言，模型中未定义任何关系
+
 * **DirectQuery** 不提供时间智能功能。 例如，DirectQuery  模式不支持日期列（年、季度、月、日等）的特殊处理方式。
+
 * 为确保发送到基础数据源的查询具有可接受的性能，对度量值中的可用 DAX 表达式进行了限制。
+
 * 使用 DirectQuery  时，返回数据有 100 万行的限制。 此限制不影响用于创建使用 DirectQuery  返回的数据集的聚合或计算，仅影响返回的行。 例如，你可以使用在数据源上运行的查询聚合 1000 万行，并且只要返回到 Power BI 的数据不超过 100 万行，即可使用 **DirectQuery** 将该聚合的结果准确地返回到 Power BI。 如果从 **DirectQuery** 返回的结果超过 100 万行，则 Power BI 返回错误。
 
 ## <a name="important-considerations-when-using-directquery"></a>使用 DirectQuery 的重要注意事项

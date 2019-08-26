@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 01/03/2019
+ms.date: 08/16/2019
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: a687e42ef2963ce5e85bd1e0be72c2562afa5b6c
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 637a6476af6368fae2bcfed8d89aeb9f43276a6b
+ms.sourcegitcommit: f6ac9e25760561f49d4257a6335ca0f54ad2d22e
+ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61370436"
+ms.lasthandoff: 08/16/2019
+ms.locfileid: "69560833"
 ---
 # <a name="show-items-with-no-data-in-power-bi"></a>显示 Power BI 中不含数据的项目
 
@@ -25,7 +25,7 @@ Power BI 允许你可视化来自各种源的各种数据。 创建视觉对象�
 
 ## <a name="determining-relevant-data"></a>确定相关数据
 
-若要开始了解 Power BI 如何确定要显示的相关数据，让我们将表作为一个简单的示例。 使用本文末尾的示例部分中介绍的模型，考虑通过以下设置生成一个表：
+若要开始了解 Power BI 如何确定要显示的相关数据，让我们将表作为一个简单的示例。 使用本文末尾的[示例数据模型](#example-data-model)部分中介绍的模型，考虑通过以下设置生成一个表：
 
 **1.来自同一个表的组：** *Product[Color] - Product[Size]*
 
@@ -153,6 +153,25 @@ Power BI 允许你可视化来自各种源的各种数据。 创建视觉对象�
 
 在这种情况下，注意  “ProductStyle[Finish]=None”没有显示在表中。 这是因为，在这种情况下，Power BI 先选择了  “Product”表中的所有  “Color”值。 然后，对于每种颜色，Power BI 选择了相应的  “Finish”值，其中包含数据。 由于  “无”未显示在“Color”  的任何组合中，因此未选中该项。
 
+
+## <a name="power-bi-visual-behavior"></a>Power BI 视觉对象行为
+
+在视觉对象中的一个字段上启用“显示无数据的项目”后，将自动为该同一视觉对象 Bucket 或层次结构中的其他所有字段启用该功能   。 视觉对象 Bucket 或层次结构可以是其轴或图例，也可以是类别、行或列      。
+
+![轴和图例的字段](media/desktop-show-items-no-data/show-items-no-data-04.png)
+
+例如，在“行”Bucket 中的带有四个字段的矩阵视觉对象上，如果一个字段启用“显示无数据的项目”，则矩阵中的所有项目都将启用它   。 在下图中，在“行”Bucket 的第一个字段“SupplierID”字段中启用了“显示无数据的项目”    。 “行”Bucket 中的其他字段也会自动启用该功能  。
+
+![同一视觉对象中的字段自动启用“显示无数据的项目”](media/desktop-show-items-no-data/show-items-no-data-05.png)
+
+相反，“列”Bucket 中显示的“洲”字段不会自动启用“显示无数据的项目”     。 
+
+视觉对象转换为不同类型（例如，将矩阵视觉对象转换为表格视觉对象）时，通常会看到此视觉对象行为。 在此类转换中，移动到 Bucket 中的任何字段都将自动启用“显示无数据的项目”，其中 Bucket 中的字段已启用该功能  。 在上述示例中，如果“SupplierID”启用了“显示无数据的项目”功能且视觉对象转换为表格，则“列”Bucket 中的“洲”字段（以及“行”Bucket 中的字段）将移动到表视觉对象所使用的唯一 Bucket（即“值”Bucket）中       。 因此，“值”Bucket 中的所有字段都将启用“显示无数据的项目”   。
+
+### <a name="exporting-data"></a>导出数据
+
+使用“导出汇总数据”功能时，“显示无数据的项目”功能的行为与导出转换为表格视觉对象时的行为相同   。 因此，在导出图表矩阵视觉对象等视觉对象时，导出的数据可能与显示的视觉对象不同。 这是因为作为导出过程的一部分，转换为表视觉对象将为要导出的所有字段启用“显示无数据的项目”  。 
+
 ## <a name="example-data-model"></a>示例数据模型
 
 本部分介绍本文中的示例使用的示例数据模型。
@@ -164,29 +183,29 @@ Power BI 允许你可视化来自各种源的各种数据。 创建视觉对象�
 
 |Product[ProductId]|    Product[ProductName]|   Product[Color]| Product[Size]|  Product[CategoryId]|    Product[StyleId]|
 |---------|---------|---------|---------|---------|---------|
-|1  |Prod1  |蓝色   |小  |1  |1 |
+|第 1 个  |Prod1  |蓝色   |小  |第 1 个  |第 1 个 |
 |2  |Prod2  |蓝色   |中 |2  |2 |
-|3  |Prod3  |红色    |大  |1  |1 |
+|3  |Prod3  |红色    |大  |第 1 个  |第 1 个 |
 |4  |Prod4  |蓝色   |大  |2  |2 |
 
 
 |ProductCategory[CategoryId]|   ProductCategory[CategoryName]|
 |---------|---------|
-|1  |电话   |
+|第 1 个  |电话   |
 |2  |摄像机 |
 |3  |电视 |
 
 
 |ProductStyle[StyleId]| ProductStyle[Finish]|   ProductStyle[Polished]|
 |---------|---------|---------|
-|1  |光泽  |是 |
+|第 1 个  |光泽  |是 |
 |2  |亚光  |否 |
 |3  |无   |否 |
 
 
 |Sales[SaleId]| Sales[ProductId]|   Sales[Date]|    Sales[Quantity]|
 |---------|---------|---------|---------|
-|1  |1  |2012 年 1 月 1 日 0:00| 10 |
+|第 1 个  |第 1 个  |2012 年 1 月 1 日 0:00| 10 |
 |2  |2  |2013 年 1 月 1 日 0:00| 15 |
 
 

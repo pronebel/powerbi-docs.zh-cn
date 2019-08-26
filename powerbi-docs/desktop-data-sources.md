@@ -7,29 +7,31 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 06/15/2019
+ms.date: 08/16/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 8d8e77d8fe4ebea5b457ba282014bb8dc738191a
-ms.sourcegitcommit: fe8a25a79f7c6fe794d1a30224741e5281e82357
+ms.openlocfilehash: 5004b55fa48cdf98aedd019749b738352d68c4cd
+ms.sourcegitcommit: f6ac9e25760561f49d4257a6335ca0f54ad2d22e
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/18/2019
-ms.locfileid: "68324839"
+ms.lasthandoff: 08/16/2019
+ms.locfileid: "69560888"
 ---
 # <a name="data-sources-in-power-bi-desktop"></a>Power BI Desktop 中的数据源
 使用 Power BI Desktop，你可以连接到来自许多不同的源的数据。 在此页面底部列出了可用数据源的完整清单。
 
 若要连接到数据，请在**主页**功能区中选择 **获取数据**。 选择向下箭头，或按钮上的“获取数据”文本，将会显示最常见的数据类型菜单，如下图所示   ：
 
-![在 Power BI Desktop 中获取数据](media/desktop-data-sources/data-sources_01.png)
+![在 Power BI Desktop 中获取数据](media/desktop-data-sources/data-sources-01.png)
 
 从**最常见**菜单选择 **更多…** 将会显示**获取数据**窗口。 你还可以通过直接选择 **获取数据** **图标按钮** 来打开 **获取数据** 窗口（绕过 **最常见** 菜单）。
 
-![“获取数据”按钮](media/desktop-data-sources/data-sources_02.png)
+![“获取数据”按钮](media/desktop-data-sources/data-sources-02.png)
 
 > [!NOTE]
-> Power BI 团队正在不断扩展适用于 Power BI Desktop  和 Power BI 服务  的数据源。 因此，你通常会看到工作过程中的数据源版本标记为 *Beta* 或*预览*。 标记为 *Beta* 或*预览*的任何数据源所提供的支持和功能有限，不应在生产环境中使用。
+> Power BI 团队正在不断扩展适用于 Power BI Desktop  和 Power BI 服务  的数据源。 因此，你通常会看到工作过程中的数据源版本标记为 *Beta* 或*预览*。 标记为 *Beta* 或*预览*的任何数据源所提供的支持和功能有限，不应在生产环境中使用。 
+
+> 此外，任何标记为 Power BI Desktop Beta 或预览版的数据源可能都无法在 Power BI 服务或其他 Microsoft 服务中使用，直到数据源正式发布 (GA)     。
 
 ## <a name="data-sources"></a>数据源
 数据类型分为以下类别：
@@ -56,7 +58,7 @@ ms.locfileid: "68324839"
 
 下图显示**文件**的**获取数据**窗口。
 
-![“获取数据”>“文件”](media/desktop-data-sources/data-sources_03.png)
+![“获取数据”>“文件”](media/desktop-data-sources/data-sources-03.png)
 
 **数据库**类别提供下列数据连接：
 
@@ -95,16 +97,18 @@ ms.locfileid: "68324839"
 
 下图显示**数据库**的**获取数据**窗口。
 
-![“获取数据”>“数据库”](media/desktop-data-sources/data-sources_04.png)
+![“获取数据”>“数据库”](media/desktop-data-sources/data-sources-04.png)
 
-“Power BI”  类别提供下列数据连接：
+“Power 平台”类别提供下列数据连接  ：
 
 * Power BI 数据集
 * Power BI 数据流
+* Common Data Service
+* Power 平台数据流 (Beta)
 
-下图显示 Power BI  的“获取数据”  窗口。
+下图显示 Power 平台的“获取数据”窗口   。
 
-![“获取数据”>“Power BI”](media/desktop-data-sources/data-sources_05.png)
+![“获取数据”>“Power BI”](media/desktop-data-sources/data-sources-05.png)
 
 **Azure** 类别提供下列数据连接：
 
@@ -113,7 +117,7 @@ ms.locfileid: "68324839"
 * Azure Analysis Services 数据库
 * Azure Blob 存储
 * Azure 表存储
-* Azure Cosmos DB (Beta)
+* Azure Cosmos DB
 * Azure Data Lake Storage Gen2 (Beta)
 * Azure Data Lake Storage Gen1
 * Azure HDInsight (HDFS)
@@ -124,7 +128,7 @@ ms.locfileid: "68324839"
 
 下图显示 **Azure** 的**获取数据**窗口。
 
-![“获取数据”>“Azure”](media/desktop-data-sources/data-sources_06.png)
+![“获取数据”>“Azure”](media/desktop-data-sources/data-sources-06.png)
 
 **Online Services** 类别提供下列数据连接：
 
@@ -134,7 +138,6 @@ ms.locfileid: "68324839"
 * Dynamics NAV
 * Dynamics 365 Business Central
 * Dynamics 365 Business Central (本地)
-* Common Data Service
 * Microsoft Azure 使用见解 (Beta)
 * Azure DevOps (Beta)
 * Azure DevOps Server (Beta)
@@ -161,6 +164,7 @@ ms.locfileid: "68324839"
 * tyGraph (Beta)
 * Webtrends (Beta)
 * Zendesk (Beta)
+* Dynamics 365 Customer Insights (Beta)
 * Emigo 数据源 (Beta)
 * Entersoft Business Suite (Beta)
 * Industrial App Store
@@ -168,11 +172,11 @@ ms.locfileid: "68324839"
 * Microsoft Graph Security (Beta)
 * Quick Base
 * TeamDesk (Beta)
-* Dynamics 365 Customer Insights (Beta)
+
 
 下图显示 **Online Services** 的**获取数据**窗口。
 
-![“获取数据”>“联机服务”](media/desktop-data-sources/data-sources_07.png)
+![“获取数据”>“联机服务”](media/desktop-data-sources/data-sources-07.png)
 
 **其他**类别提供下列数据连接：
 
@@ -200,7 +204,7 @@ ms.locfileid: "68324839"
 
 下图显示**其他**的**获取数据**窗口。
 
-![“获取数据”>“其他”](media/desktop-data-sources/data-sources_08.png)
+![“获取数据”>“其他”](media/desktop-data-sources/data-sources-08.png)
 
 > [!NOTE]
 > 此时，无法连接到使用 Azure Active Directory 保护的自定义数据源。
@@ -208,15 +212,15 @@ ms.locfileid: "68324839"
 ## <a name="connecting-to-a-data-source"></a>连接到数据源
 若要连接到数据源，请从**获取数据**窗口选择数据源，然后选择**连接**。 在下图中，已从**其他**数据连接类别中选择了 **Web**。
 
-![连接到 Web](media/desktop-data-sources/data-sources_08.png)
+![连接到 Web](media/desktop-data-sources/data-sources-08.png)
 
 将显示特定于数据连接类型的连接窗口。 如果需要提供凭据，将提示你提供凭据。 下图显示输入 URL 以便连接到 Web 数据源。
 
-![输入 Web URL](media/desktop-data-sources/datasources_fromwebbox.png)
+![输入 Web URL](media/desktop-data-sources/datasources-fromwebbox.png)
 
 输入 URL 或资源连接信息后，选择**确定**。 Power BI Desktop 会建立到数据源的连接，并在**导航器**中显示可用的数据源。
 
-![导航器屏幕](media/desktop-data-sources/datasources_fromnavigatordialog.png)
+![导航器屏幕](media/desktop-data-sources/datasources-fromnavigatordialog.png)
 
 可以通过选择**导航器窗格**底部的**加载**按钮加载数据，或者选择**编辑**按钮，在加载数据之前编辑查询。
 

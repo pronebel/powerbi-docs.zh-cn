@@ -10,12 +10,12 @@ ms.subservice: powerbi-gateways
 ms.topic: conceptual
 ms.date: 07/25/2019
 LocalizationGroup: Gateways
-ms.openlocfilehash: bea8b954cb1c0743745ef6d3bf9d48aa8513f2fe
-ms.sourcegitcommit: bc688fab9288ab68eaa9f54b9b59cacfdf47aa2e
+ms.openlocfilehash: 436040f11534ede9d2e42e4f939d24a19e3d1c24
+ms.sourcegitcommit: 4a3afe761d2f4a5bd897fafb36b53961739e8466
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/30/2019
-ms.locfileid: "68624047"
+ms.lasthandoff: 08/20/2019
+ms.locfileid: "69655175"
 ---
 # <a name="use-kerberos-for-single-sign-on-sso-from-power-bi-to-on-premises-data-sources"></a>使用 Kerberos 进行从 Power BI 到本地数据源的单一登录 (SSO)
 
@@ -192,7 +192,7 @@ ms.locfileid: "68624047"
 1. 从 SAP 快速启动板上下载 CommonCryptoLib (sapcrypto.dll) 版本 8.5.25 或更高版本，并将其复制到网关计算机上的文件夹中  。 在用于复制 sapcrypto.dll 的同一目录中，创建一个名为 sapcrypto.ini 的文件，该文件包含以下内容：
 
     ```
-    ccl/snc/enable\_kerberos\_in\_client\_role = 1
+    ccl/snc/enable_kerberos_in_client_role = 1
     ```
 
     .ini 文件包含 CommonCryptoLib 在网关方案中启用 SSO 所需的配置信息。
@@ -242,7 +242,7 @@ ms.locfileid: "68624047"
 
     ```
     ccl/trace/level=5
-    ccl/trace/directory=\\<drive\\>:\logs\sectrace
+    ccl/trace/directory=<drive>:\logs\sectrace
     ```
 
     确保将 ccl/trace/directory 选项更改为经过身份验证的用户组的成员可以写入的位置  。 或者，创建一个新的 .ini 文件来更改此行为。 在与 sapcrypto.ini 和 sapcrypto.dll 相同的目录中，创建一个包含以下内容、名为 sectrace.ini 的文件。  将“目录”选项替换为计算机上经过身份验证的用户可以写入的位置：
@@ -250,7 +250,7 @@ ms.locfileid: "68624047"
     ```
     LEVEL = 5
     
-    DIRECTORY = \\<drive\\>:\logs\sectrace
+    DIRECTORY = <drive>:\logs\sectrace
     ```
 
     现在，重现问题，并检查目录指向的位置是否包含跟踪文件。 完成后，请确保关闭 CPIC 和 CCL 跟踪。
@@ -313,13 +313,13 @@ ms.locfileid: "68624047"
         | 设置  | 值  |
         | --- | --- |
         | snc/data\_protection/max | 3 |
-        | snc/data\_protection/min | 1 |
+        | snc/data\_protection/min | 第 1 个 |
         | snc/data\_protection/use | 9 |
-        | snc/accept\_insecure\_cpic | 1 |
-        | snc/accept\_insecure\_gui | 1 |
-        | snc/accept\_insecure\_r3int\_rfc | 1 |
-        | snc/accept\_insecure\_rfc | 1 |
-        | snc/permit\_insecure\_start | 1 |
+        | snc/accept\_insecure\_cpic | 第 1 个 |
+        | snc/accept\_insecure\_gui | 第 1 个 |
+        | snc/accept\_insecure\_r3int\_rfc | 第 1 个 |
+        | snc/accept\_insecure\_rfc | 第 1 个 |
+        | snc/permit\_insecure\_start | 第 1 个 |
 
     1. 将属性 snc/enable 设置为 1。
 

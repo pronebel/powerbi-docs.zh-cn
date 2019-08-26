@@ -9,14 +9,14 @@ featuredvideoid: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 06/28/2019
+ms.date: 08/15/2019
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 30552ee407460856fd1548073f0b3046ab508115
-ms.sourcegitcommit: b439ded53bfbbb58be27ecedf93d618f5158df33
+ms.openlocfilehash: e77bfdf771e84afbc87335aa77993640d10282b0
+ms.sourcegitcommit: 4d5166944fcc6fe4666cab055ae75e7a0a77866d
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/04/2019
-ms.locfileid: "67567496"
+ms.lasthandoff: 08/16/2019
+ms.locfileid: "69530546"
 ---
 # <a name="monitor-usage-metrics-for-power-bi-dashboards-and-reports"></a>监视 Power BI 仪表板和报表的使用情况指标
 
@@ -41,20 +41,7 @@ ms.locfileid: "67567496"
 - 要访问特定仪表板或报表的使用指标，必须有权访问编辑相应的仪表板或报表。
 - Power BI 管理员必须已启用内容创建者的使用指标。 Power BI 管理员可能还支持收集使用指标中的每个用户数据。 了解如何[在管理门户中启用这些选项](service-admin-portal.md#control-usage-metrics)。 
 
-## <a name="about-the-usage-metrics-report"></a>关于使用情况指标报表
-
-选择“使用指标”或仪表板或报表旁边的图标![使用指标图标](media/service-usage-metrics/power-bi-usage-metrics-report-icon.png)时，Power BI 会生成一个预生成报表，其中包含相应内容在过去 90 天内的使用指标。   此报表看起来与你已经熟悉的 Power BI 报表非常类似。 基于最终用户接收访问权限的方式以及他们是通过 Web 还是移动应用等方式访问，可以进行切片。仪表板和报表发生更改时，使用情况指标报表也会随之更改（使用情况指标报表每天更新新数据）。  
-
-使用指标报表不会显示在“最新动态”、“工作区”、“收藏夹”或其他内容列表中    。 不能将使用指标报表添加到应用。 如果将使用指标报表中的磁贴固定到仪表板，则无法将该仪表板添加到应用。
-
-若要深入了解报表数据，或基于基础数据集生成自己的报表，有以下两个选项： 
-
-- 在 Power BI 服务中创建报表的副本。 有关详细信息，请参阅本文稍后介绍的[保存使用指标报表的副本](#save-a-copy-of-the-usage-metrics-report)。
-- 从 Power BI Desktop 连接到数据集。 有关详细信息，请参阅[建立与已发布数据集的连接](desktop-report-lifecycle-datasets.md#establish-a-power-bi-service-live-connection-to-the-published-dataset)。
-
-    ![连接到使用情况报表数据集](media/service-usage-metrics/power-bi-usage-dataset.png)
-
-## <a name="open-a-usage-metrics-report-for-a-dashboard-or-report"></a>打开包含使用情况指标的仪表板或报表
+## <a name="view-a-usage-metrics-report"></a>查看使用情况指标报表
 
 1. 首先，转到包含仪表板或报表的工作区。
 2. 在“工作区”内容列表或仪表板/报表本身中，选择“使用情况指标”图标 ![使用情况指标](media/service-usage-metrics/power-bi-usage-metrics-report-icon.png)。 
@@ -82,6 +69,18 @@ ms.locfileid: "67567496"
 
 ![报表使用情况指标报表](media/service-usage-metrics/power-bi-report-usage-metrics-update.png)
 
+## <a name="about-the-usage-metrics-report"></a>关于使用情况指标报表
+
+选择“使用指标”或仪表板或报表旁边的图标![使用指标图标](media/service-usage-metrics/power-bi-usage-metrics-report-icon.png)时，Power BI 会生成一个预生成报表，其中包含相应内容在过去 90 天内的使用指标。   此报表看起来与你已经熟悉的 Power BI 报表非常类似。 基于最终用户接收访问权限的方式以及他们是通过 Web 还是移动应用等方式访问，可以进行切片。仪表板和报表发生更改时，使用情况指标报表也会随之更改（使用情况指标报表每天更新新数据）。  
+
+使用指标报表不会显示在“最新动态”、“工作区”、“收藏夹”或其他内容列表中    。 不能将使用指标报表添加到应用。 如果将使用指标报表中的磁贴固定到仪表板，则无法将该仪表板添加到应用。
+
+若要深入了解报表数据，或基于基础数据集生成自己的报表，有以下两个选项： 
+
+- 在 Power BI 服务中创建报表的副本。 有关详细信息，请参阅本文稍后介绍的[保存使用指标报表的副本](#save-a-copy-of-the-usage-metrics-report)。
+- 从 Power BI Desktop 连接到数据集。 每个工作区的数据集都具有“报表使用指标模型”这一名称。 有关详细信息，请参阅[建立与已发布数据集的连接](desktop-report-lifecycle-datasets.md#establish-a-power-bi-service-live-connection-to-the-published-dataset)。
+
+    ![连接到使用情况报表数据集](media/service-usage-metrics/power-bi-usage-dataset.png)
 
 ## <a name="which-metrics-are-reported"></a>报表中包含哪些指标？
 
@@ -105,7 +104,7 @@ ms.locfileid: "67567496"
 
 使用“另存为”  将使用指标报表转换为可进行自定义以满足特定需求的常规 Power BI 报表。 还可以使用 Power BI Desktop 基于基础数据集生成自定义使用指标报表。 有关详细信息，请参阅[建立与已发布数据集的连接](desktop-report-lifecycle-datasets.md#establish-a-power-bi-service-live-connection-to-the-published-dataset)。
 
-更好的一点是，基础数据集包含工作区中所有仪表板或报表的使用情况详细信息。 这带来更多可能性。 例如，可以创建基于使用情况对工作区中的所有仪表板进行对比的报表。 或者，通过聚合 Power BI 应用中所有分发内容的使用情况，为此应用创建使用指标仪表板。  请参阅本文稍后介绍的[删除页面级筛选器](#remove-the-filter-to-see-all-workspace-usage-metrics)。
+更好的一点是，基础数据集包含工作区中所有仪表板或报表的使用情况详细信息。 这带来更多可能性。 例如，可以创建基于使用情况对工作区中的所有仪表板进行对比的报表。 或者，通过聚合 Power BI 应用中所有分发内容的使用情况，为此应用创建使用指标仪表板。  请参阅后文中介绍的如何删除筛选器以及[查看工作区中的所有使用指标](#see-all-workspace-usage-metrics)。
 
 ### <a name="create-a-copy-of-the-usage-report"></a>创建使用情况报表的副本
 
@@ -121,7 +120,7 @@ ms.locfileid: "67567496"
 
     ![“报表”选项卡](media/service-usage-metrics/power-bi-new-report.png)
 
-## <a name="remove-the-filter-to-see-all-workspace-usage-metrics"></a>删除筛选器以查看所有  工作区使用指标
+## <a name="see-all-workspace-usage-metrics"></a>查看所有工作区使用指标 
 
 若要查看工作区中所有仪表板或所有报表的指标，必须删除筛选器。 默认情况下，报表会进行筛选，仅显示用于创建它的仪表板或报表的指标。
 
@@ -169,7 +168,7 @@ Power BI 在单独的国家云中可用。 这些云提供与 Power BI 全局版
 
 **问：**  使用情况指标是否从嵌入的仪表板和报表中捕获视图？
 
-**答：**  使用指标目前不支持捕获嵌入的仪表板、报表和[发布到 Web](service-publish-to-web.md) 流的使用情况。          在这些情况下，我们建议使用现有的 Web 分析平台来跟踪托管应用或门户的使用情况。
+**答：**  使用指标目前不支持捕获嵌入的仪表板、报表和[发布到 Web](service-publish-to-web.md) 流的使用情况。 在这些情况下，我们建议使用现有的 Web 分析平台来跟踪托管应用或门户的使用情况。
 
 **问：**  我根本无法对任何内容生成使用情况指标。
 

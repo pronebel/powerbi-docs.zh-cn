@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 05/07/2019
+ms.date: 08/16/2019
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: e23fd2aca90ee14c2376b0175c7c8b5132cf9a9f
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 35f60c0e41a06c8f13931d158fe092184da8838d
+ms.sourcegitcommit: f6ac9e25760561f49d4257a6335ca0f54ad2d22e
+ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "66222261"
+ms.lasthandoff: 08/16/2019
+ms.locfileid: "69561062"
 ---
 # <a name="conditional-formatting-in-tables"></a>表格中的条件格式设置 
 通过表格的条件格式设置，可根据单元格值或其他值/字段指定自定义单元格颜色，包括使用渐变色。 也可用数据条显示单元格值。 
@@ -130,11 +130,17 @@ ms.locfileid: "66222261"
 
 可以创建多个版本，只需动用你的想象力和一点 DAX 即可。
 
-您可以使用任何在 CSS 颜色规范中所列的值[ https://www.w3.org/TR/css-color-3/ ](https://www.w3.org/TR/css-color-3/)以彩色视觉对象：
-* 3、 6 或 8 位十六进制代码例如 #3E4AFF。 请确保包含 # 符号开头的代码。 不接受"3E4AFF"。 
-* RGB 或 RGBA 值例如 RGBA （234、 234、 234、 0.5）
-* HSL 或 HSLA 值例如 HSLA （123、 75%、 75%，0.5）
-* 颜色名称例如绿色，SkyBlue PeachPuff 
+可以使用 [https://www.w3.org/TR/css-color-3/](https://www.w3.org/TR/css-color-3/) 中 CSS 色彩规范所列出的任何值为视觉对象着色：
+* 3、6 或 8 位十六进制代码，例如 #3E4AFF。 确保代码的开头包含 # 符号。 不接受“3E4AFF”。 
+* RGB 或 RGBA 值，例如 RGBA(234, 234, 234, 0.5)
+* HSL 或 HSLA 值，例如 HSLA(123, 75%, 75%, 0.5)
+* 色彩名称，如 Green、SkyBlue、PeachPuff 
+
+## <a name="considerations-and-limitations"></a>注意事项和限制
+使用条件表格式设置时需要牢记几个注意事项：
+
+* 条件格式设置仅适用于矩阵视觉对象的值，不适用于任何小计或总计  。 
+
 
 ## <a name="next-steps"></a>后续步骤
 有关详细信息，请参阅以下文章：  

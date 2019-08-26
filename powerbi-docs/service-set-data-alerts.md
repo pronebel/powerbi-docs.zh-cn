@@ -8,102 +8,130 @@ featuredvideoid: JbL2-HJ8clE
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 02/28/2018
+ms.date: 08/08/2019
 ms.author: maggies
 LocalizationGroup: Dashboards
-ms.openlocfilehash: a26cd6d654f9378d9fa09ae46b64762213b26089
-ms.sourcegitcommit: f05ba39a0e46cb9cb43454772fbc5397089d58b4
+ms.openlocfilehash: c87a54a0e991af3faa53b9ac4ac6c92893b2ed0a
+ms.sourcegitcommit: 0e50ebfa8762e19286566432870ef16d242ac78f
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/26/2019
-ms.locfileid: "68522985"
+ms.lasthandoff: 08/13/2019
+ms.locfileid: "68962468"
 ---
-# <a name="data-alerts-in-power-bi-service"></a>Power BI 服务中的数据警报
-设置警报，以便在仪表板中的数据更改超出你设置的限制时通知你。 
+# <a name="data-alerts-in-the-power-bi-service"></a>Power BI 服务中的数据警报
 
-如果你拥有 Power BI Pro 许可证，或者有人利用[高级版功能](service-premium-what-is.md)与你共享了仪表板，则可以为磁贴设置警报。 只能为报表视觉对象固定到的磁贴设置警报，而且只能为仪表、KPI 和卡片设置警报。 可以为从报表固定到仪表板的流数据集中创建的视觉对象设置警报，但无法直接在仪表板上使用“添加磁贴”   > “自定义流数据”  为创建的流磁贴设置警报。 
+设置警报，以便在仪表板中的数据更改超出你设置的限制时通知你。
 
-即使共享你的仪表板，也只有你可以看到自己设置的警报。 数据警报跨平台完全同步；可以在 [Power BI 移动应用](consumer/mobile/mobile-set-data-alerts-in-the-mobile-apps.md)和 Power BI 服务中设置和查看数据警报。 它们对 Power BI Desktop 不可用。 警报甚至可以是[与 Microsoft Flow 集成的自动警报](https://flow.microsoft.com) - [试试吧](service-flow-integration.md)。
+如果你拥有 Power BI Pro 许可证，则可以在磁贴上设置警报。 如果有人共享具有 [Premium 容量](service-premium-what-is.md)的仪表板，你也可以设置警报。 只能为报表视觉对象固定到的磁贴设置警报，而且只能为仪表、KPI 和卡片设置警报。 可以在从报表固定到仪表板的流数据集创建的视觉对象上设置警报。 不能对使用“添加磁贴” > “自定义流式处理数据”在仪表板上直接创建的流式处理磁贴上设置警报   。
+
+即使共享你的仪表板，也只有你可以看到自己设置的警报。 数据警报跨平台完全同步；可以在 [Power BI 移动应用](consumer/mobile/mobile-set-data-alerts-in-the-mobile-apps.md)和 Power BI 服务中设置和查看数据警报。 它们对 Power BI Desktop 不可用。 甚至可以通过 Microsoft Flow 自动化和集成警报。 可在此 [Microsoft Flow 和 Power BI](service-flow-integration.md) 文章中亲自尝试执行操作。
 
 ![磁贴](media/service-set-data-alerts/powerbi-alert-types-new.png)
 
 > [!WARNING]
-> 数据驱动的警报通知提供有关数据的信息。 如果你在移动设备上查看 Power BI 数据，而该设备之后被盗，我们建议使用 Power BI 服务来关闭所有数据驱动的警报规则。
-> 
-> 
+> 数据驱动的警报通知提供有关数据的信息。 如果你在移动设备上查看 Power BI 数据，而该设备之后丢失或被盗，建议使用 Power BI 服务来关闭所有数据驱动的警报规则。
 
-## <a name="set-data-alerts-in-power-bi-service"></a>在 Power BI 服务中设置数据警报
+## <a name="set-data-alerts-in-the-power-bi-service"></a>在 Power BI 服务中设置数据警报
+
 观看视频，了解 Amanda 如何将一些警报添加到仪表板上的磁贴。 然后可以按照视频下面的分步说明来自己尝试。
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/JbL2-HJ8clE" frameborder="0" allowfullscreen></iframe>
 
-此示例使用零售分析示例仪表板中的卡片磁贴。
+此示例使用零售分析示例仪表板中的卡片磁贴。 如果要跟着本教程一起操作，请[获取零售业分析示例](sample-retail-analysis.md#get-the-content-pack-for-this-sample)。
 
-1. 启动仪表板。 在仪表板仪表、KPI 或卡磁贴中，选择省略号。
-   
+1. 启动仪表板。 从“总商店数”磁贴中，选择省略号  。
+
    ![总存储磁贴](media/service-set-data-alerts/powerbi-card.png)
-2. 选择钟形图标 ![警报图标](media/service-set-data-alerts/power-bi-bell-icon.png) 为“总存储”添加一个或多个警报。 
-   
-1. 若要开始，请选择“+ 添加警报规则”，并确保滑块已设置为“开启”，并为警报提供一个标题   。 标题有助于轻松识别警报。
-   
+
+1. 选择钟形图标 ![警报图标](media/service-set-data-alerts/power-bi-bell-icon.png)，为“总商店数”添加一个或多个警报  。
+
+1. 若要开始，请选择“+ 添加警报规则”，确保“活动”滑块已设置为“开”，并为警报命名    。 标题有助于轻松识别警报。
+
    ![管理警报窗口](media/service-set-data-alerts/powerbi-alert-title.png)
-4. 向下滚动，输入警报的详细信息。  在此示例中，我们将创建一个在总存储数超过 100 时每天提醒一次的警报。 警报将出现在我们的通知中心。 并且，我们还将收到 Power BI 发送的电子邮件。
-   
+
+1. 向下滚动，输入警报的详细信息。  在此示例中，你将创建一个在总商店数超过 100 时每天提醒一次的警报。
+
    ![管理警报窗口，请设置阈值](media/service-set-data-alerts/power-bi-set-alert-details.png)
-5. 选择**保存**。
+
+    警报会显示在通知中心  。 如果选中该复选框，Power BI 还会向你发送有关警报的电子邮件。
+
+1. 选择“保存并关闭”  。
 
 ## <a name="receiving-alerts"></a>接收警报
-当被跟踪的数据到达一个你所设定的阈值时，将发生下列情况。 首先，Power BI 会检查自最后一个警报发出是否已超过 1 个小时或 24 个小时（具体取决于所选择的选项）。 只要数据超过阈值，你就会收到警报。
 
-接下来，Power BI 将向通知中心发出警报（可选择以电子邮件形式发送）。 每个警报都包含数据的直接链接。 选择链接以查看可在其中浏览、共享和了解详细信息的相关磁贴。  
+跟踪的数据到达你设定的某个阈值时，将发生下列情况。 首先，Power BI 会检查自最后一个警报以来是否已超过 1 小时或 24 小时（具体取决于你选择的选项）。 如果数据超过阈值，你就会收到警报。
 
-1. 如果你已设置警报向你发送电子邮件，则你将在收件箱中找到如下内容。
-   
+接下来，Power BI 将向通知中心发出警报（可选择以电子邮件形式发送）  。 每个警报都包含数据的直接链接。 选择链接以查看可在其中浏览、共享和了解详细信息的相关磁贴。  
+
+* 如果你已设置警报向你发送电子邮件，则你将在收件箱中找到如下内容。
+
    ![警报电子邮件](media/service-set-data-alerts/powerbi-alerts-email.png)
-2. Power BI 会将消息添加到你的“通知中心”，并会对相应磁贴添加新的警报图标。 
-   
+
+* Power BI 会将消息添加到你的“通知中心”，并会对相应磁贴添加新的警报图标。 
+
    ![Power BI 服务中的通知图标](media/service-set-data-alerts/powerbi-alert-notifications.png)
-3. 打开你的通知中心以查看警报详细信息。
-   
+
+* 通知中心显示警报详细信息  。
+
     ![读取警报](media/service-set-data-alerts/powerbi-alert-notification.png)
-   
+
    > [!NOTE]
-   > 警报仅适用于刷新的数据。 数据刷新时，Power BI 会查看是否为该数据设置了警报。 如果数据已达到了警报的阈值，则会触发警报。
-   > 
-   > 
+   > 警报仅适用于刷新后的数据。 数据刷新时，Power BI 会查看是否为该数据设置了警报。 如果数据已达到了警报的阈值，Power BI 会触发警报。
 
 ## <a name="managing-alerts"></a>管理警报
-可通过多种方法管理警报：从仪表板磁贴本身、从 Power BI 设置菜单，以及在 [iPhone 上的 Power BI 移动应用](consumer/mobile/mobile-set-data-alerts-in-the-mobile-apps.md)或[适用于 Windows 10 的 Power BI 移动应用](consumer/mobile/mobile-set-data-alerts-in-the-mobile-apps.md)中各个磁贴。
 
-### <a name="from-the-tile-itself"></a>从磁贴本身
-1. 如果需要更改或删除磁贴的警报，请通过选择钟形图标 ![警报图标](media/service-set-data-alerts/power-bi-bell-icon.png)，重新打开“管理警报”。  随即将显示为该磁贴设置的所有警报。
-   
-    ![管理警报窗口](media/service-set-data-alerts/powerbi-see-alerts.png)。
-2. 若要修改警报，请选择警报名称左侧的箭头。
-   
-    ![警报名称旁的箭头](media/service-set-data-alerts/powerbi-see-alerts-arrow.png)。
-3. 若要删除警报，请选择警报名称右侧的垃圾桶。
-   
+可通过多种方法管理警报：
+
+* 从仪表板磁贴。
+
+* 从“Power BI 设置”菜单。
+
+* 在 [Power BI 移动应用](consumer/mobile/mobile-set-data-alerts-in-the-mobile-apps.md)中的磁贴上。
+
+### <a name="from-the-dashboard-tile"></a>从仪表板磁贴
+
+1. 如果需要更改或删除磁贴的警报，请通过选择钟形图标 ![警报图标](media/service-set-data-alerts/power-bi-bell-icon.png)，重新打开“管理警报”窗口  。
+
+    Power BI 显示为该磁贴设置的警报。
+
+    ![管理警报窗口](media/service-set-data-alerts/powerbi-see-alerts.png)
+
+1. 若要修改警报，请选择警报名称左侧的箭头。
+
+    ![警报名称旁的箭头](media/service-set-data-alerts/powerbi-see-alerts-arrow.png)
+
+1. 若要删除警报，请选择警报名称右侧的垃圾桶。
+
       ![已选中垃圾桶图标](media/service-set-data-alerts/powerbi-see-alerts-delete.png)
 
 ### <a name="from-the-power-bi-settings-menu"></a>从 Power BI 设置菜单
-1. 从 Power BI 菜单栏选择齿轮图标。
-   
+
+1. 从 Power BI 菜单栏选择齿轮图标并选择“设置”  。
+
     ![齿轮图标](media/service-set-data-alerts/powerbi-gear-icon.png)。
-2. 在“设置”  下，选择“警报”  。
-   
+
+1. 在“设置”  下，选择“警报”  。
+
     ![“设置”窗口的“警报”选项卡](media/service-set-data-alerts/powerbi-alert-settings.png)
-3. 你可以从此处打开和关闭警报，打开“管理警报”  窗口，以进行更改或删除警报。
+
+1. 你可以从此处打开和关闭警报，打开“管理警报”  窗口，以进行更改或删除警报。
 
 ## <a name="tips-and-troubleshooting"></a>提示和故障排除
-* 警报当前不受 Bing 磁贴或带有日期/时间度量值的卡片磁贴支持。
+
+* 带有日期/时间度量值的卡片磁贴不支持警报。
+
 * 警报仅适用于数字数据类型。
-* 警报仅适用于刷新的数据。 它们不适用于静态数据。
-* 如果生成 KPI/卡片/仪表报表视觉对象，然后将该视觉对象固定到仪表板，那么警报将仅适用于流数据集。
+
+* 警报仅适用于刷新后的数据。 它们不适用于静态数据。
+
+* 如果生成 KPI、卡片或仪表报表视觉对象，然后将该视觉对象固定到仪表板，那么警报仅适用于流数据集。
 
 ## <a name="next-steps"></a>后续步骤
-[创建集成了数据警报的 Microsoft Flow](service-flow-integration.md)    
-[在移动设备上设置数据警报](consumer/mobile/mobile-set-data-alerts-in-the-mobile-apps.md)    
-[什么是 Power BI？](power-bi-overview.md)    
-更多问题？ [尝试咨询 Power BI 社区](http://community.powerbi.com/)
 
+* [创建涵盖数据警报的 Microsoft Flow](service-flow-integration.md)。
+
+* [在移动设备上设置数据警报](consumer/mobile/mobile-set-data-alerts-in-the-mobile-apps.md)。
+
+* [什么是 Power BI？](power-bi-overview.md)
+
+更多问题？ [尝试咨询 Power BI 社区](http://community.powerbi.com/)

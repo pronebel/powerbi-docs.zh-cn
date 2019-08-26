@@ -7,19 +7,22 @@ ms.reviewer: chbraun
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 07/03/2019
+ms.date: 08/12/2019
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 2db4c23b50071e387913ed79b4d01daeafb928a4
-ms.sourcegitcommit: b439ded53bfbbb58be27ecedf93d618f5158df33
+ms.openlocfilehash: af0ffa5a879a2249c34ac73895103dfdf63e4d27
+ms.sourcegitcommit: 4d5166944fcc6fe4666cab055ae75e7a0a77866d
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/04/2019
-ms.locfileid: "67567370"
+ms.lasthandoff: 08/16/2019
+ms.locfileid: "69530612"
 ---
 # <a name="copy-reports-from-other-workspaces-preview"></a>从其他工作区复制报表（预览）
 
-在工作区或应用中找到自己喜欢的报表时，你可以复制它，然后将其保存到不同工作区。 然后，你可以修改该报表，添加或删除视觉对象和其他元素。 无需担心如何创建数据模型。 它已为你创建。 修改现有报表比从头开始创建要容易得多。 但是，不能从新工作区的应用中发布报表副本。 请参阅“跨工作区使用数据集”一文中的其他[注意事项和限制](service-datasets-across-workspaces.md#considerations-and-limitations)列表。
+在工作区或应用中找到自己喜欢的报表时，你可以复制它，然后将其保存到不同工作区。 然后，你可以修改该报表的副本，添加或删除视觉对象和其他元素。 无需担心如何创建数据模型。 它已为你创建。 修改现有报表比从头开始创建要容易得多。 但是，当你从新工作区创建应用时，有时无法从应用中发布报表副本。 有关详细信息，请参阅[“跨工作区使用数据集”一文中的其他注意事项和限制](service-datasets-across-workspaces.md#considerations-and-limitations)。
+
+> [!NOTE]
+> 若要创建副本，即使原始报表位于高级容量的工作区中，你也需要一个 Pro 许可证。
 
 ## <a name="save-a-copy-of-a-report"></a>保存报表的副本
 

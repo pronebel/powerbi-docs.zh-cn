@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 05/27/2019
-ms.openlocfilehash: af3c22197e4d6783787bd72c9cf010bf6db64bc1
-ms.sourcegitcommit: 277fadf523e2555004f074ec36054bbddec407f8
+ms.openlocfilehash: 62b5498558b2c89a23e2ed2caf3dacdf343d3a79
+ms.sourcegitcommit: d9755602235ba03594c348571b9102c9bf88d732
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/16/2019
-ms.locfileid: "68270975"
+ms.lasthandoff: 08/15/2019
+ms.locfileid: "69490334"
 ---
 # <a name="frequently-asked-questions-about-power-bi-embedded"></a>有关 Power BI Embedded 的常见问题
 
@@ -66,9 +66,10 @@ Power BI Embedded 是一组开发人员可用于创建嵌入式分析解决方�
 
 | 功能 | Power BI Embedded | Power BI Premium 容量 | Power BI Premium 容量 |
 |----------------------------------------------------------------------------------|-------------------|---------------------------|---------------------------|
-|   | (A SKU) | (EM SKU) | (P SKU) |
-| 从 Power BI 应用工作区嵌入项目 | Azure 容量 | Office 365 容量 | Office 365 容量 |
-| 在嵌入应用程序中使用 Power BI 报表 | 是 | 是 | 是 |
+|   | SKU - Azure 容量 | EM SKU - O365 容量 | P SKU - O365 容量 |
+| 从 Power BI 应用工作区嵌入项目 | 是 | 是 | 是 |
+| 在嵌入式应用程序中使用 Power BI 报表 - SaaS | 否 | 是 | 是 |
+| 在嵌入式应用程序中使用 Power BI 报表 - PaaS | 是 | 是 | 是 |
 | 在 SharePoint 中使用 Power BI 报表 | 否 | 是 | 是 |
 | 在 Dynamics 中使用 Power BI 报表 | 否 | 是 | 是 |
 | 在 Teams 中使用 Power BI 报表（不包括移动应用） | 否 | 是 | 是 |

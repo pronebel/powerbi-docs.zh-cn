@@ -1,6 +1,6 @@
 ---
-title: 查看 Power BI 内容作为外部来宾用户 (Azure AD B2B)
-description: 使用 Power BI 移动应用可以查看与你共享来自外部组织的内容。
+title: 以外部来宾用户身份查看 Power BI 内容 (Azure AD B2B)
+description: 使用 Power BI 移动应用查看外部组织与自己共享的内容。
 author: mshenhav
 manager: kfile
 ms.reviewer: ''
@@ -9,16 +9,16 @@ ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 03/27/2019
 ms.author: mshenhav
-ms.openlocfilehash: a15da4349ce97e34c8321909abc862e424b2839c
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 900c7b57c2b6283c44e4a1923dd223d7dfd40ef7
+ms.sourcegitcommit: d9755602235ba03594c348571b9102c9bf88d732
+ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61338617"
+ms.lasthandoff: 08/15/2019
+ms.locfileid: "69490371"
 ---
-# <a name="view-power-bi-content-shared-with-you-from-an-external-organization"></a>查看与你共享的外部组织的 Power BI 内容
+# <a name="view-power-bi-content-shared-with-you-from-an-external-organization"></a>查看外部组织与自己共享的 Power BI 内容
 
-Power BI 集成与 Azure Active Directory 企业到企业 (Azure AD B2B) 安全地分发给组织外的来宾用户的 Power BI 内容。 和外部来宾用户可以使用 Power BI 移动应用程序访问与之共享该 Power BI 内容。 
+Power BI 与 Azure Active Directory 企业到企业 (Azure AD B2B) 集成后，即可将 Power BI 内容安全地分发给组织外的来宾用户。 外部来宾用户也可以使用 Power BI 移动应用访问与其共享的 Power BI 内容。 
 
 
 适用于：
@@ -27,28 +27,30 @@ Power BI 集成与 Azure Active Directory 企业到企业 (Azure AD B2B) 安全�
 |:--- |:--- |:--- |:--- |
 | iPhone |iPad |Android 手机 |Android 平板电脑 |
 
-## <a name="accessing-shared-content"></a>访问共享的内容
+## <a name="accessing-shared-content"></a>访问共享内容
 
-**首先，您需要有人与你共享一个项的外部组织。** 当有人[与你共享项](../../service-share-dashboards.md)，同一个组织或外部组织中，您将收到带有指向共享项的链接的电子邮件。 在你的移动设备中的该链接将打开 Power BI 移动应用。 如果应用程序识别出该项目已共享的外部组织，该应用程序重新连接到你的身份与该组织。 应用程序然后加载该组织的与你共享的所有项。
+**首先，需要有一个属于外部组织的人员向你共享某个项目。** 若有人[向你共享项目](../../service-share-dashboards.md)，无论该人员属于与你相同的组织还是某个外部组织，你都将收到一封电子邮件，其中包含指向该共享项目的链接。 在移动设备上打开该链接，开启 Power BI 移动应用。 如果此应用识别出该项目是从外部组织共享的，则该应用将使用你的身份重新连接到对应的外部组织。 然后，应用会加载由该组织与你共享的所有项目。
 
-![Power BI 打开共享的项从电子邮件 ](./media/mobile-apps-b2b/mobile-b2b-open-item-email.png)
+![Power BI 打开从电子邮件共享的项目 ](./media/mobile-apps-b2b/mobile-b2b-open-item-email.png)
 
 > [!NOTE]
-> 如果这是作为外部来宾用户与你共享的第一项，必须声明在浏览器中的邀请。 可以声明不能在 Power BI 应用中的邀请。
+> 若这是你首次作为外部来宾用户接收到共享的项目，则必须在浏览器中声明邀请。 在 Power BI 应用中无法声明邀请。
 
-只要连接到外部组织，黑色的标头将显示在应用程序。 此标头指示您未连接到本组织。 若要重新连接到本组织，退出从来宾模式。
+只要已连接到外部组织，应用中就会显示一个黑色标头。 此标头表明连接的不是你所属的组织。 若要连接回自己所属的组织，请退出来宾模式。
 
 ![Power BI 来宾用户标头](./media/mobile-apps-b2b/mobile-b2b-exit-home.png)
 
-尽管需要具有 Power BI 项目链接连接到外部组织，您的应用程序切换后，可以访问与你 （不只打开的电子邮件的项） 共享的所有项。 若要查看外部组织中可以访问的所有项，请转到应用菜单并选择**与我共享**。 下**应用**查找应用程序也可以使用。
+虽然需要将 Power BI 项目链接连接到外部组织，但在应用切换后，就可以访问与你共享的所有项目（而不仅是从电子邮件中打开的项目）。 若要查看外部组织中可访问的所有项目，请转到应用菜单并选择“与我共享”  。 在“应用”下，还可以找到可以使用的应用  。
 
-![外部来宾用户的 power BI 应用菜单](./media/mobile-apps-b2b/mobile-b2b-menu.png)
+![来宾外部用户眼中的 Power BI 应用菜单](./media/mobile-apps-b2b/mobile-b2b-menu.png)
 
 ## <a name="limitations"></a>限制
 
-- 在 Azure AD B2B 和 Power BI 移动版中不支持条件性访问和其他 Intune 策略。 这意味着应用程序强制实施仅本组织的策略，如果它们存在。
-- 从本组织站点仅接收推送通知 （即使用户连接到外部组织来宾身份）。 打开通知重新连接到用户的本组织站点应用。
-- 如果用户关闭应用程序中，当重新打开该应用将自动连接到用户的本组织。
-- 如果连接到外部组织，禁用的某些操作： 收藏项，数据警报，批注和共享。
-- 脱机数据不可用时连接到外部组织。
-- 如果必须在设备上安装的公司门户应用，必须注册你的设备。
+- 用户必须具有活动的 Power BI 帐户和主租户。
+- 用户必须登录自己的 Power BI 主租户，然后才能访问来自外部租户的共享内容。
+- Azure AD B2B 和 Power BI 移动版不支持条件访问和其他 Intune 策略。 也就是说应用仅强制实施本组织的策略（如果有）。
+- 仅从本组织站点接收推送通知，即使用户作为来宾连接到外部组织时也是如此。 打开通知会将应用重新连接到用户的本组织站点。
+- 若用户关闭应用，则应用会在重新打开时自动连接到用户的本组织。
+- 在连接到外部组织时，部分操作会被禁用：收藏项目、数据警报、注释和共享。
+- 脱机数据在连接到外部组织时不可用。
+- 若设备上已安装公司门户应用，则必须注册设备。

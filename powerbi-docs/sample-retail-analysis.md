@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 07/02/2019
 ms.author: maggies
 LocalizationGroup: Samples
-ms.openlocfilehash: 5391fee3c5a05d1c34cac4f3a097a0577ce5d191
-ms.sourcegitcommit: 8aa90f662afb7492ffcfc11ef142cdb0ccecc9aa
+ms.openlocfilehash: b3adcf3ba97e83875187a11116fdb7b642e5560b
+ms.sourcegitcommit: 0e50ebfa8762e19286566432870ef16d242ac78f
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/24/2019
-ms.locfileid: "68462391"
+ms.lasthandoff: 08/13/2019
+ms.locfileid: "68962236"
 ---
 # <a name="retail-analysis-sample-for-power-bi-take-a-tour"></a>Power BI 的零售分析示例：参观
 
@@ -92,10 +92,10 @@ ms.locfileid: "68462391"
 ## <a name="review-a-tile-created-with-power-bi-qa"></a>查看使用 Power BI 问答创建的磁贴
 我们将更具体地进行说明。
 
-1. 将问题更改为*按**地区**划分本年度销售额*。 观察结果：问答会自动将答案放在条形图中，并建议其他短语：
+1. 将问题更改为按地区划分的本年度销售额   。 观察结果：问答会自动将答案放在条形图中，并建议其他短语：
 
    ![问答中按地区划分的本年度销售额](media/sample-retail-analysis/retail8.png)
-2. 现在，将问题更改为***按邮编和供应链**划分的本年度销售额*。
+2. 现在，将问题更改为按邮编和供应链划分的本年度销售额   。
 
    请注意 Power BI 在你键入并显示适当相应时是如何回答此问题的。
 3. 尝试更多问题并查看所获得的结果类别。
@@ -161,7 +161,7 @@ ms.locfileid: "68462391"
 5. 在切片器中选择“Cincinnati 2 Fashions Direct”  ，你将会在折线图中看到它于 6 月开业，似乎是表现最不好的店。
 6. 通过选择图表中的其他条形图、折线图和气泡图来了解情况，看看你能发现什么见解。
 
-## <a name="next-steps-connect-to-your-data"></a>后续步骤：连接到你的数据
+## <a name="next-steps-connect-to-your-data"></a>后续步骤：连接到数据
 可以在此环境中安全操作，因为能够选择不保存更改。 不过，如果确实保存了更改，可随时选择“获取数据”  来获取此示例的新副本。
 
 我们希望本教程已经演示 Power BI 仪表板、问答和报表如何能够帮助深入了解示例数据。 现在轮到你了；立即连接到你自己的数据。 借助 Power BI，可以连接到各种数据源。 若要了解详细信息，请参阅 [Power BI 服务入门](service-get-started.md)。

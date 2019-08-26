@@ -7,15 +7,15 @@ ms.reviewer: lukaszp
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 06/26/2019
+ms.date: 08/15/2019
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: a3982716ac2eb64f7512ba6ef606af299f1c5f46
-ms.sourcegitcommit: 8dee40f07d284ec84a8afa0100359f146e1dd88b
+ms.openlocfilehash: e25a004098c5bfe5cf607f5ee4b26dfda09d792d
+ms.sourcegitcommit: 4d5166944fcc6fe4666cab055ae75e7a0a77866d
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/27/2019
-ms.locfileid: "67418675"
+ms.lasthandoff: 08/16/2019
+ms.locfileid: "69530502"
 ---
 # <a name="organize-work-in-the-new-workspaces-in-power-bi"></a>在 Power BI 的新工作区中整理工作
 
@@ -36,7 +36,7 @@ ms.locfileid: "67418675"
 创建一个新工作区时，无需创建关联的基础 Office 365 组。 所有工作区管理操作都在 Power BI 中进行，而不是在 Office 365 中。 在新工作区体验中，现在可以将 Office 365 组添加到工作区访问列表，以继续通过 Office 365 组管理用户对内容的访问。
 
 ## <a name="administering-new-workspace-experience-workspaces"></a>管理提供新工作区体验的工作区
-Power BI 现在支持管理提供新工作区体验的工作区。Power BI 管理员不仅决定组织中谁能创建工作区， 还可以管理和恢复工作区。 为此，管理员需要使用 Power BI 管理门户或 PowerShell cmdlet。 对于基于 Office 365 组的经典工作区，管理工作继续在 Office 365 管理门户和 Azure Active Directory 中进行。
+Power BI 现在支持管理提供新工作区体验的工作区。Power BI 管理员不仅决定组织中谁能创建工作区， 他们还可以使用 Power BI 管理门户或 PowerShell CmdLets 来管理和恢复工作区。 对于基于 Office 365 组的经典工作区，管理工作继续在 Office 365 管理门户和 Azure Active Directory 中进行。
 
 在管理门户的“工作区设置”  中，管理员可以使用“创建工作区(新工作区体验)”设置，以允许组织中的每个人或禁止组织中的任何人创建提供新工作区体验的工作区。 管理员还可以限制特定安全组的成员进行创建。
 
@@ -59,9 +59,9 @@ Power BI 管理门户中[提供工作区列表](service-admin-portal.md#workspac
 
 借助角色，可管理哪些人员可在工作区中执行哪些操作，以便实现团队协作。 新的工作区支持向个人和用户组（安全组、Office 365 组和通讯组列表）分配角色。 
 
-向用户组分配角色，组中的个人有权访问内容。 如果嵌套用户组，则包含的所有用户都具有权限。 如果用户属于具有不同角色的多个用户组，则其获得被授予的最高级别的权限。 
+向用户组分配角色，组中的个人有权访问内容。 如果嵌套用户组，则包含的所有用户都具有权限。
 
-新工作区支持以下四种角色：管理员、成员、参与者和查看者。
+下面介绍以下四种角色的功能：管理员、成员、参与者和查看者。
 
 |功能   | 管理员  | 成员  | 参与者  | 查看者 |
 |---|---|---|---|---|
@@ -74,21 +74,24 @@ Power BI 管理门户中[提供工作区列表](service-admin-portal.md#workspac
 | 在工作区中创建、编辑和删除内容。  |  X | X  | X  |   |
 | 将报表发布到工作区，删除内容。  |  X | X  | X  |   |
 | 查看项。 |  X | X  | X  | X  |
- 
+| 基于此工作区中的数据集在其他工作区中创建报表。 |  X | X  | X  | X <sup>1</sup>  |
+| 复制报表。 | X | X | X | X <sup>1</sup> |
+
+**1** 需要 Power BI Pro 许可证和[数据集的“生成”权限](service-datasets-build-permissions.md#build-permissions-for-shared-datasets)。 
  
 ## <a name="licensing"></a>许可
 你添加到共享容量中的工作区的每个人都需要 Power BI Pro 许可证。 在工作区中，这些用户全都可协作处理计划向更广泛的受众，甚至整个组织发布的仪表板和报表。 
 
 如果要将内容分发给组织内的其他人，可将 Power BI Pro 许可证分配给这些用户，或将工作区置于 Power BI 高级容量中。
 
-如果工作区位于 Power BI 高级容量中，具有查看者角色的用户可以访问工作区，即使没有 Power BI Pro 许可证，也不例外。 不过，如果你为这些用户分配更高级别的角色（如管理员、成员或参与者），他们将无法访问工作区。 他们会在尝试访问工作区时看到启动 Power BI Pro 试用版的提示。 若要对没有 Power BI Pro 许可证的用户利用查看者功能，请确保用户只有查看者角色，没有其他任何工作区角色，无论是个人还是通过用户组。 
+如果工作区位于 Power BI 高级容量中，具有查看者角色的用户可以访问工作区，即使没有 Power BI Pro 许可证，也不例外。 不过，如果你为这些用户分配更高级别的角色（如管理员、成员或参与者），他们会在尝试访问工作区时看到启动 Power BI Pro 试用版的提示。 若要对没有 Power BI Pro 许可证的用户利用查看者功能，请确保用户只有查看者角色，没有其他任何工作区角色，无论是个人还是通过用户组。 
 
 > [!NOTE]
 > 对于向提供新工作区体验的工作区发布报表，需要更严格地强制执行现有许可规则。 如果没有 Power BI Pro 许可证的用户尝试从 Power BI Desktop 或其他客户端工具发布报表，便会看到错误消息“只有拥有 Power BI Pro 许可证的用户，才能发布到此工作区”。
 
-## <a name="how-are-the-new-workspaces-different-from-current-workspaces"></a>新工作区与当前工作区有何不同？
+## <a name="how-the-new-workspaces-are-different"></a>新工作区的不同之处
 
-我们正在重新设计新工作区的某些功能。 以下是可以预见的永久性更改。 
+我们已重新设计新工作区的某些功能。 以下是可以预见的永久性更改。 
 
 * 创建这些工作区不会像经典工作区那样创建 Office 365 组。 不过，现在可以使用 Office 365 组来授予用户对工作区的访问权限，具体方法是向用户分配角色。 
 * 在经典工作区中，只能将个人添加到成员和管理员列表中。 在新工作区中，可以向这些列表添加多个 AD 安全组、通讯组列表或 Office 365 组，以便更轻松地管理用户。 

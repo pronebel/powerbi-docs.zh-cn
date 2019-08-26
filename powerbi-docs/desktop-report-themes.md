@@ -7,24 +7,24 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 04/15/2019
+ms.date: 08/12/2019
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 5f0f09c3f64795ca0530bbe5ec5cec09de6c7b53
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 0c098baa42e4fdc45b23519856eed824dbab5cad
+ms.sourcegitcommit: a77977a43342db4399a4dffb862b96907d16de35
+ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "60989111"
+ms.lasthandoff: 08/14/2019
+ms.locfileid: "69023392"
 ---
 # <a name="use-report-themes-in-power-bi-desktop"></a>在 Power BI Desktop 中使用报表主题
-借助报表主题  ，可以将颜色主题应用于整个报表，如企业品牌颜色、流行色或其他颜色主题。 在你应用报表主题  后，报表中的所有视觉对象都会使用选定主题中的颜色。 也存在少数例外情况，本文稍后将进行介绍。
+借助报表主题，可以将颜色主题应用于整个报表，如企业品牌颜色、流行色、图标集或其他颜色主题  。 在你应用报表主题  后，报表中的所有视觉对象都会使用选定主题中的颜色。 也存在少数例外情况，本文稍后将进行介绍。
 
 ![报表主题](media/desktop-report-themes/report-themes_1.png)
 
 应用报表主题  时，需要采用基础结构的 JSON 文件。 然后，可以将此 JSON 文件导入 Power BI Desktop，并将它应用于报表。 JSON 文件结构以及导入流程简单易学，只需单击几下按钮即可完成。
 
-还可以自定义和标准化几乎所有元素。 若要自定义元素，请在“格式设置”  窗格中手动调整 JSON 文件。 目标是让你完全控制如何在报表外观和感觉，到精细的级别。
+还可以自定义和标准化几乎所有元素。 若要自定义元素，请在“格式设置”  窗格中手动调整 JSON 文件。 目标是让你能完全精细地控制报表外观。
 
 ## <a name="how-report-themes-work"></a>报表主题的工作原理
 若要将报表主题应用于 Power BI Desktop 报表，请从可用的内置报表主题中选择，或导入自定义主题。
@@ -112,7 +112,7 @@ ms.locfileid: "60989111"
 
 “格式”  面板的“数据颜色”  部分反映了报表主题。 例如，在应用“圣帕特里克节”  主题中的大量绿色和棕色后，选择一个视觉对象。 然后，依次转到“格式”>“数据颜色”  ，可以看到如下信息：
 
-![可视化](media/desktop-report-themes/report-themes_8.png)
+![可视化效果](media/desktop-report-themes/report-themes_8.png)
 
 看到所有这些绿色了吗？ 这是因为我们导入并应用的报表主题  包含这些颜色。
 
