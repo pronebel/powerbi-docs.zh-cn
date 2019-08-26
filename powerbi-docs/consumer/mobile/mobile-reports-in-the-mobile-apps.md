@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: conceptual
-ms.date: 04/21/2019
+ms.date: 08/09/2019
 ms.author: mshenhav
-ms.openlocfilehash: 49ee06d544e409cadc6728d286cb841f5f4adec4
-ms.sourcegitcommit: acd9f8212c9b0c6d3d8c4d56bba3c285246f3122
+ms.openlocfilehash: 3105736c6576428af2d00b6f502c94f94c409977
+ms.sourcegitcommit: d12bc6df16be1f1993232898f52eb80d0c9fb04e
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/16/2019
-ms.locfileid: "68230270"
+ms.lasthandoff: 08/13/2019
+ms.locfileid: "68995246"
 ---
 # <a name="explore-reports-in-the-power-bi-mobile-apps"></a>在 Power BI 移动应用中浏览报表
 适用于：
@@ -32,32 +32,33 @@ Power BI 报表是交互式数据视图，使用视觉对象来表示不同的�
 ## <a name="open-a-power-bi-report-in-the-mobile-app"></a>在移动应用中打开 Power BI 报表
 Power BI 报表存储在移动应用中的不同位置，具体取决于从何处获取。 可以位于“应用”、“与我共享”、“工作区”（包括“我的工作区”）或报表服务器中。 有时，可以通过相关仪表板转到报表；有时，其中也会列出报表。
 
-在“列表”和“菜单”中，你会发现报表名称旁边有一个图标，该图标可以帮助你了解此项是报表。 
+在列表和菜单中，你会发现报表名称旁边有一个图标，该图标可以帮助你了解此项是报表。 
 
 ![我的工作区中的报表](./media/mobile-reports-in-the-mobile-apps/reports-my-workspace.png) 
 
 Power BI 移动版应用中的报表有两个图标：
 
-* ![报表图标](./media/mobile-reports-in-the-mobile-apps/report-default-icon.png) 表示将在应用中以横向显示的报表，其外观与其在浏览器中相同。
+* ![报表图标](./media/mobile-reports-in-the-mobile-apps/report-default-icon.png) 表示在应用中以横向显示的报表，其外观与其在浏览器中相同。
 
-* ![手机报表图标](./media/mobile-reports-in-the-mobile-apps/report-phone-icon.png) 表示包含至少一个手机优化报表页的报表，该报表将以纵向显示。 
+* ![手机报表图标](./media/mobile-reports-in-the-mobile-apps/report-phone-icon.png) 表示包含至少一个手机优化报表页的报表，该报表以纵向显示。 
 
-注意：如果以横向放置手机，即使报表页已存在手机布局，也将始终以横向布局显示。 
+> [!NOTE]
+> 如果以横向放置手机，即使报表页已存在手机布局，也会始终以横向布局显示。 
 
-若要从仪表板转到报表，依次点击磁贴右上角的省略号 (...) 和“打开报表”  。
+若要从仪表板转到报表，依次点击磁贴右上角的省略号 (...) 和“打开报表”。
   
   ![打开报表](./media/mobile-reports-in-the-mobile-apps/power-bi-android-open-report-tile.png)
   
-  并非所有磁贴都包含报表打开选项。 例如，通过在问答框中提问而创建的磁贴就无法在获得点击后打开报表。 
+  并非所有的磁贴都可以在报表中打开。 例如，通过在问答框中提问而创建的磁贴就无法在获得点击后打开报表。 
   
 ## <a name="interacting-with-reports"></a>与报表进行交互
-在应用中打开报表后，就可以开始使用该报表。 可以对报表及其数据执行许多操作。 在报表页脚中，可以找到能够对报表执行的操作；通过点击和长按报表中显示的数据，还可以对数据进行切片和切块。
+在应用中打开报表后，就可以开始使用该报表。 可以对报表及其数据执行许多操作。 在报表页脚中，可以找到要对报表执行的操作。 通过点击并长按报表中显示的数据，可以对数据进行切片和切块。
 
 ### <a name="using-tap-and-long-tap"></a>使用点击和长按
 点击等同于鼠标单击。 因此，如果要基于数据点交叉突出显示报表，请点击该数据点。
 点击切片器值，使该值处于选中状态，并按该值来切分报表的其余部分。 点击链接、按钮或书签将根据作者定义的操作对其进行激活。
 
-你可能已经注意到，点击视觉对象时会出现一个边框。 在边框的右上角可以找到省略号 (...)。点击它将显示一个菜单，其中包含可对该视觉对象执行的操作。
+你可能已经注意到，点击视觉对象时会出现一个边框。 在边框的右上角，可以看到省略号 (...)。点击它会显示一个菜单，其中包含可对该视觉对象执行的操作。
 
 ![报表视觉对象和菜单](./media/mobile-reports-in-the-mobile-apps/report-visual-menu.png)
 
@@ -78,7 +79,7 @@ Power BI 移动版应用中的报表有两个图标：
 
 ![报表钻取操作](./media/mobile-reports-in-the-mobile-apps/report-drill-actions.png)
 
-通过钻取，Power BI 会在你点击视觉对象的特定部分时，转到报表中的另一页，筛选出点击的值  。  报表作者可定义一个或多个钻取操作，每个操作分别转到不同页面。 在这种情况下，可选择所需的钻取操作。 使用返回按钮返回到上一个报表页。
+通过钻取，Power BI 会在你点击视觉对象的特定部分时，转到报表中的另一页，筛选出点击的值。 报表作者可定义一个或多个钻取操作，每个操作分别转到不同页面。 可选择所需的钻取操作。 使用返回按钮返回到上一个报表页。
 
 了解如何[在 Power BI Desktop 中添加钻取](../../desktop-drillthrough.md)。
    
@@ -97,7 +98,7 @@ Power BI 移动版应用中的报表有两个图标：
 2) 打开对话窗格，查看或添加对此报表的注释。
 3) 打开筛选器窗格，查看和修改当前应用于报表的筛选器。
 4) 列出此报表中的所有页。 点击页名称将加载并显示该页。
-通过从屏幕边缘向中心轻扫在表页间移动。
+可以通过从屏幕边缘向中心轻扫在表页间移动。
 5) 查看所有报表操作。
 
 #### <a name="all-report-actions"></a>所有报表操作
@@ -107,10 +108,10 @@ Power BI 移动版应用中的报表有两个图标：
 
 某些操作可能会被禁用，因为这些操作依赖于特定的报表功能。
 例如：
-1) 如果作者按地理数据对报表中的数据进行分类，则启用了“按当前位置筛选”  。 [了解如何标识报表中的地理数据](https://docs.microsoft.com/power-bi/desktop-mobile-geofiltering)。
-2) 只有当报表中的数据集被标记为条形码时，才会启用“扫描以按条形码筛选报表”  。 [如何在 Power BI Desktop 中标记条形码](https://docs.microsoft.com/power-bi/desktop-mobile-barcodes)。 
-3) 只有在用户有权与他人共享此报表时才会启用“邀请”  。 只有当你是报表所有者，或所有者授予你重新共享权限时，你才有此权限。
-4) 如果组织中存在禁止从 Power BI 移动版应用共享的 [Intune 保护策略](https://docs.microsoft.com/intune/app-protection-policies)，则可能会禁用“批注并共享”  。 
+1) 如果作者按地理数据对报表中的数据进行分类，则启用了“按当前位置筛选”。 [了解如何标识报表中的地理数据](https://docs.microsoft.com/power-bi/desktop-mobile-geofiltering)。
+2) 只有当报表中的数据集被标记为条形码时，才会启用“扫描以按条形码筛选报表”。 [如何在 Power BI Desktop 中标记条形码](https://docs.microsoft.com/power-bi/desktop-mobile-barcodes)。 
+3) 只有在用户有权与他人共享此报表时才会启用“邀请”。 只有当你是报表所有者，或所有者授予你重新共享权限时，你才有此权限。
+4) 如果组织中存在禁止从 Power BI 移动版应用共享的 [Intune 保护策略](https://docs.microsoft.com/intune/app-protection-policies)，则可能会禁用“批注并共享”。 
 
 ## <a name="next-steps"></a>后续步骤
 * [查看手机优化版 Power BI 报表并与之交互](mobile-apps-view-phone-report.md)
