@@ -10,12 +10,12 @@ ms.topic: tutorial
 ms.date: 05/22/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: d41fc5991a95b51f71d0db522d4de84454de4ca2
-ms.sourcegitcommit: 0332efe8f83cb55a9b8ea011db7c99e9b4568118
+ms.openlocfilehash: a3e88d853f59a0e9a188d6d6796559ad2d9059a9
+ms.sourcegitcommit: d12bc6df16be1f1993232898f52eb80d0c9fb04e
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/27/2019
-ms.locfileid: "68590603"
+ms.lasthandoff: 08/13/2019
+ms.locfileid: "68995284"
 ---
 # <a name="key-influencers-visualization"></a>关键影响因素可视化效果
 关键影响因素视觉对象有助于理解驱动你所关注指标的因素。 它可分析数据，对重要因素进行排序，并将其显示为“关键影响因素”。 例如，假设你想要找出影响员工流动（也称为流失）的因素。 一大因素可能是就业合同时限，另一大因素可能是员工年龄。 
@@ -24,9 +24,6 @@ ms.locfileid: "68590603"
 如果需要执行以下操作，可以选择关键影响因素视觉对象： 
 - 看看哪些因素会影响所分析的指标。
 - 对比这些因素的相对重要性。 例如，短期合同比长期合同对流失的影响更大吗？ 
-
-## <a name="key-influencer-requirements"></a>关键影响因素要求 
-所分析的指标必须是类别或数字字段（尚不支持聚合和度量值）。
 
 ## <a name="features-of-the-key-influencers-visual"></a>关键影响因素视觉对象的功能
 
@@ -44,15 +41,13 @@ ms.locfileid: "68590603"
 
 6. **右窗格**：右窗格包含一个视觉对象。 在此情况下，列图显示左窗格中已选中关键影响因素“主题”的所有值  。 左窗格中**可用性**的具体值以绿色显示。 “主题”的所有其他值均以黑色显示  。
 
-7. **平均线**：除可用性以外，已计算“主题”的所有其他可能值的平均值   。 因此该计算适用于所有黑色的值。 通过它可了解其他“主题”给出低评级的可能性  。 换言之，客户给出评级时，该客户还会说明该评级的原因或主题。 某些主题是可用性、速度和安全性。 
+7. **平均线**：除“可用性”（即选中的影响因素）以外，计算了“主题”的所有可能值的平均值   。 因此该计算适用于所有黑色的值。 它显示了其他低分“主题”的百分比  。 本例中，11.35% 的主题获得了低分（虚线所示）。
 
-   根据左窗格中的视觉对象，“主题为可用性”是导致低评级的第二大关键因素  。 如果对所有其他主题以及对其导致低评级的影响程度进行平均，则会得到以红色显示的结果  。 对于给定的所有其他主题，只有 11.35% 高于“可用性”  。
+8. **复选框**：筛选掉右侧窗格中的视觉对象，仅显示影响该字段的值。 本示例中，将按可用性、安全性和导航筛选视觉对象。
 
-8. **复选框**：仅显示是影响因素的值  。
-
-## <a name="create-a-key-influencers-visual"></a>创建关键影响因素视觉对象 
+## <a name="analyze-a-metric-that-is-categorical"></a>分析分类型指标
  
-观看此视频，了解如何创建关键影响因素视觉对象。 然后，执行以下步骤创建一个。 
+观看此视频，了解如何创建具有分类指标的关键影响因素视觉对象。 然后，执行以下步骤创建一个。 
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/fDb5zZ3xmxU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
@@ -65,20 +60,24 @@ ms.locfileid: "68590603"
 
     ![从“可视化效果”窗格中选择“关键影响因素”模板](media/power-bi-visualization-influencers/power-bi-template-new.png)
 
-2. 将要研究的指标移动到“分析”字段  。 “分析”字段仅支持分类或非连续型变量  。 若要查看导致客户对服务的评级较低的因素，请选择“客户表” > “评级”   。 
+2. 将要研究的指标移动到“分析”字段  。 若要查看导致客户对服务的评级较低的因素，请选择“客户表” > “评级”   。
+
 3. 将认为可能影响“评级”的字段移动到“解释依据”区域   。 可以根据需要移动任意数量的字段。 在此例中从以下字段开始：
     - 国家/地区 
     - 在组织中的角色 
     - 订阅类型 
     - 公司规模 
-    - 主题 
-1. 若要集中查看负面评级，请在“什么导致评级为”的下拉框中选择“低”   。  
+    - 主题
+    
+4. 将“扩展方式”字段保留为空  。 此字段仅在分析度量值或汇总字段时使用。 
+
+5. 若要集中查看负面评级，请在“什么导致评级为”的下拉框中选择“低”   。  
 
     ![从下拉列表框中选择“低”](media/power-bi-visualization-influencers/power-bi-key-influencers.png)
 
 分析在所分析字段的表级别上运行。 在此例中，为“评级”指标  。 该指标是在客户级别定义的。 每位客户都给出了一个高分数或低分数。 所有的解释因素都必须以客户级别进行定义，以便视觉对象可进行利用。 
 
-在先前示例中，所有的解释因素与指标均为一对一或多对一关系。 在此例中，每个分数只有一个与之关联的主题。 这个主题是客户评审的主旨。 同样，来自同一国家/地区的客户在其组织中执行同一成员身份类型和同一角色。 解释因素已经是客户属性，无需转换。 视觉对象可以直接使用它们。 
+在先前示例中，所有的解释因素与指标均为一对一或多对一关系。 在本例中，每个客户均为其评级分配了一个主题。 同样，来自同一国家/地区的客户在其组织中执行同一成员身份类型和同一角色。 解释因素已经是客户属性，无需转换。 视觉对象可以直接使用它们。 
 
 本教程的后面部分将介绍更复杂的示例，其中具有一对多关系。 在这些情况下，必须首先将列向下聚合到客户级别，然后才能运行分析。 
 
@@ -89,7 +88,7 @@ ms.locfileid: "68590603"
 
 ### <a name="top-single-factor-that-influences-the-likelihood-of-a-low-rating"></a>影响低评级可能性的第一大因素
 
-此示例中的组织有三个角色：使用者、管理员和发布者。 客户是导致低评级的首要因素。 
+此示例中的客户可以使用三个角色：使用者、管理员和发布者。 客户是导致低评级的首要因素。 
 
 ![选择“在组织中的角色是客户”](media/power-bi-visualization-influencers/power-bi-role-consumer.png)
 
@@ -165,9 +164,29 @@ ms.locfileid: "68590603"
 
 ![选择第一首要区段](media/power-bi-visualization-influencers/power-bi-top-segments2.png)
 
-## <a name="working-with-numerical-data"></a>处理数值数据
+## <a name="adding-counts"></a>添加计数
 
-如果将数字字段移动到“分析”字段，则可以选择如何处理该方案  。 可以通过进入“格式化窗格”并在“类别分析类型”和“连续分析类型”之间切换来更改视觉对象的行为    。
+有时，影响因素可以有很大的影响，但只代表极少的数据。 例如，“主题为可用性”是低分的第二大影响因素   。 但可能仅有少数客户抱怨可用性问题。 计数有助于对要关注的影响因素进行优先级排序。
+
+可通过格式设置窗格中的“分析卡”启用计数  。
+
+![添加计数](media/power-bi-visualization-influencers/power-bi-ki-counts-toggle.png)
+
+启用计数之后，每个影响因素的气泡周围将显示一个环，表示该影响因素所包含数据的大致百分比。 该环包围的气泡面积越大，其包含的数据就越多。 可以看到“主题为可用性”包含的数据比例非常小   。
+
+![显示计数](media/power-bi-visualization-influencers/power-bi-ki-counts-ring.png)
+
+还可以使用视觉对象左下角的“排序方式”按钮，先按计数（而不是影响）对气泡进行排序。 “订阅类型为顶级”是基于计数的最大影响因素   。
+
+![按计数排序](media/power-bi-visualization-influencers/power-bi-ki-counts-sort.png)
+
+完整的圆环表示影响因素包含 100% 的数据。 可使用格式设置窗格上“分析卡”中的“计数类型”下拉菜单，将计数类型更改为与最大影响因素成比例   。 现在，具有最大数据量的影响因素将表示为完整的环，而其他所有计数都将与之成比例。
+
+![显示相对计数](media/power-bi-visualization-influencers/power-bi-ki-counts-type.png)
+
+## <a name="analyze-a-metric-that-is-numeric"></a>分析数值型指标
+
+如果将未汇总的数值字段移动到“分析”字段，可以选择如何处理该场景  。 可以通过进入“格式化窗格”并在“类别分析类型”和“连续分析类型”之间切换来更改视觉对象的行为    。
 
 ![从类别更改为连续](media/power-bi-visualization-influencers/power-bi-ki-formatting.png)
 
@@ -212,6 +231,30 @@ ms.locfileid: "68590603"
 
 ![数值目标度量值影响因素](media/power-bi-visualization-influencers/power-bi-ki-numeric-segments.png)
 
+## <a name="analyze-a-metric-that-is-a-measure-or-a-summarized-column"></a>分析度量值或汇总列型指标
+
+如果是度量值或汇总列，则分析默认为[上述](https://docs.microsoft.com/en-us/power-bi/visuals/power-bi-visualization-influencers#analyze-a-metric-that-is-numeric)的“连续分析类型”  。 这无法更改。 分析度量值/汇总列和分析未汇总数字列之间的最大区别在于分析运行的级别。
+
+如果是未汇总列，分析总是在表级运行。 在上述房价示例中，我们分析了“房价”指标，以了解房价上涨/下跌的影响因素  。 该分析在表级别自动运行。 表中每个房屋都有唯一的 ID，因此分析在房屋级别运行。
+
+![度量值表](media/power-bi-visualization-influencers/power-bi-ki-measures-table.png)
+
+对于度量值和汇总列，无法立即确定在哪个级别进行分析。 如果将“房价”汇总为“平均”，则需要考虑要在哪个级别上计算此平均房价   。 是社区级别的平均房价？ 还是地区级别的？
+
+在所用“扩展方式”字段的级别自动分析度量值和汇总列  。 假设“扩展方式”中有三个我们感兴趣的字段  ：“厨房质量”、“楼宅类型”和“空调”    。 将计算这三个字段的每个独特组合的“平均房价”  。 切换为表视图查看将评估的数据是什么样通常会有所帮助。
+
+![度量值表](media/power-bi-visualization-influencers/power-bi-ki-measures-table2.png)
+
+这种分析完全是总结性的，因此回归模型很难在数据中发现可学习的模式。 应在更详细的级别运行分析，以获得更好的结果。 如果想要在房屋级别分析房价，则需要将“ID”字段显式添加到分析  。 但我们不想将房屋 ID 视为影响因素。 了解房价随房屋 ID 的增加而上涨没有意义。 这时，“扩展方式”字段井选项就很方便  。 使用“扩展方式”，可添加要用于设置分析级别的字段，而无需寻找新的影响因素  。
+
+将“ID”添加到“扩展方式”之后，查看可视化效果   。 定义了想要评估度量值的级别之后，解释[未汇总数字列](https://docs.microsoft.com/en-us/power-bi/visuals/power-bi-visualization-influencers#analyze-a-metric-that-is-numeric)的影响因素是完全相同的。
+
+![度量值表](media/power-bi-visualization-influencers/power-bi-ki-measures-analysis.png)
+
+如果想要详细了解如何使用关键影响因素可视化效果分析度量值，请观看以下教程。
+
+<iframe width="1167" height="631" src="https://www.youtube.com/embed/2X1cW8oPtc8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 ## <a name="considerations-and-troubleshooting"></a>注意事项和疑难解答 
  
 视觉对象的限制是什么？  
@@ -219,7 +262,7 @@ ms.locfileid: "68590603"
 关键影响因素视觉对象具有一些限制：
 
 - 不支持直接查询
-- 不支持与 Azure Analysis Services 和 Sql Server Analysis Services 的实时连接
+- 不支持与 Azure Analysis Services 和 SQL Server Analysis Services 的实时连接
 - 不支持发布到 Web
 - 需要 .NET Framework 4.6 或更高版本
 
@@ -244,6 +287,12 @@ ms.locfileid: "68590603"
 建议为所选状态至少获取 100 个观测数据。 在此例中，状态是客户流失。 还需要为用于比较的状态获取至少 10 个观测数据。 在此例中，比较状态是客户未流失。
 
 如果正在分析数值字段，可能会需要在“分析”卡下的“格式化窗格”中从“类别分析”切换到“连续分析”     。
+
+**我看到一个错误：如果“分析”未汇总，则分析总是在其父表的行级运行。不允许通过“扩展方式”字段更改此级别。这是为什么？**
+
+分析数值列或分类列时，分析总是在表级运行。 例如，如果分析的是房价，且表中包含 ID 列，则分析将自动在房屋 ID 级别运行。 
+
+如果分析的是度量值或汇总列，则需要显式地声明想要分析在哪个级别运行。 可以使用“扩展方式”更改度量值和汇总列的分析级别，而不添加新的影响因素  。 如果将“房价”定义为度量值，则可以向“扩展方式”添加房屋 ID 列，从而更改分析级别   。
 
 **出现了错误：“解释依据”中的字段与包含所分析指标的表并不唯一相关。  这是为什么？**
  
