@@ -39,9 +39,9 @@ Power BI Premium 是租户级别的 Office 365 订阅，可在两个 SKU（库�
 - 用于嵌入的 **EM** SKU (EM1-EM3)，要求按年承诺并按月计费。 EM1 和 EM2 SKU 仅通过批量许可计划提供， 无法直接购买。
 - 用于嵌入和企业功能的 **P** SKU (P1-P3)，需要按月或按年承诺并按月计费，包含用于在本地安装 Power BI 报表服务器的许可。
 
-另一种方法是购买 **Azure Power BI Embedded** 订阅，该订阅具有单个 **A** (A1-A6) SKU 系列，仅用于嵌入和容量测试目的。 所有 SKU 都提供 V 核心用于创建容量，但 EM SKU 仅限于较小规模的嵌入。 具有少于四个 V 核心的 EM1、EM2、A1 和 A2 SKU 不在专用基础设施上运行。
+另一种方法是购买 **Azure Power BI Embedded** 订阅，该订阅具有单个 **A** (A1-A6) SKU 系列，仅用于嵌入和容量测试目的。 所有 SKU 都提供 V 核心用于创建容量，但 EM SKU 仅限于较小规模的嵌入。 V 核心少于四个的 EM1、EM2、A1 和 A2 SKU 不在专用基础设施上运行。
 
-虽然本文的重点是 P SKU，但其中大部分内容也与 A SKU 相关。 与 Premium 订阅 SKU 相反，Azure SKU 不需要时间承诺，并按小时计费。 它们提供完全的灵活性，可实现纵向扩展、横向扩展、暂停、恢复和删除。 
+虽然本文的重点是 P SKU，但其中大部分内容也与 A SKU 相关。 与 Premium 订阅 SKU 相反，Azure SKU 不需要时间承诺，并按小时计费。 它们提供全方位的灵活性，可实现纵向扩展、横向扩展、暂停、恢复和删除。 
 
 Azure Power BI Embedded 在很大程度上超出了本文的范围，但在“优化 Premium 容量”一文的[测试方法](service-premium-capacity-optimize.md#testing-approaches)部分将其作为测试和测量工作负载的实用且经济的选项进行了介绍。 若要了解有关 Azure SKU 的详细信息，请参阅 [Azure Power BI Embedded 文档](https://azure.microsoft.com/services/power-bi-embedded/)。
 
