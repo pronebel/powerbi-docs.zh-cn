@@ -8,26 +8,26 @@ featuredvideoid: 0tUwn8DHo3s
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 05/24/2019
+ms.date: 08/19/2019
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: d82b03325991276924f25da5511baadfe53127e1
-ms.sourcegitcommit: f05ba39a0e46cb9cb43454772fbc5397089d58b4
+ms.openlocfilehash: da7b8999dfb6185b044960dde7795008d7e716f7
+ms.sourcegitcommit: 4a3afe761d2f4a5bd897fafb36b53961739e8466
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/26/2019
-ms.locfileid: "68523004"
+ms.lasthandoff: 08/20/2019
+ms.locfileid: "69655074"
 ---
 # <a name="share-power-bi-dashboards-and-reports-with-coworkers-and-others"></a>与同事和其他人共享 Power BI 仪表板和报表
 共享  是一种使多人能够访问你的仪表板和报表的有效方式。 Power BI 还提供了[其他多种开展协作和分发仪表板及报表的方式](service-how-to-collaborate-distribute-dashboards-reports.md)。
 
-![共享收藏仪表板列表中的图标](media/service-share-dashboards/power-bi-share-dash-report-favorites.png)
+![共享仪表板列表中的图标](media/service-share-dashboards/power-bi-share-new-look.png)
 
 要进行共享，无论是在组织内还是在组织外共享内容，你都需要一个 [Power BI Pro 许可证](service-features-license-type.md)。 你的收件人也需要一个 Power BI Pro 许可证，除非内容位于[高级容量](service-premium-what-is.md)中。 
 
 可以从 Power BI 服务中的大多数位置共享仪表板和报表：收藏夹、最近、与我共享（如果所有者允许）、我的工作区或其他工作区。 共享仪表板或报表时，你与之共享的人员可查看并与其交互，但不能编辑它。 除非应用[行级别安全性 (RLS)](service-admin-rls.md)，否则他们会看到你在仪表板或报表中看到的相同数据。 如果你允许，与之共享的同事还可以与其他同事共享。 组织外的人员也可以查看仪表板或报表并与之交互，但不能共享它。 
 
-你也可以[在任何 Power BI 移动应用中共享仪表板](consumer/mobile/mobile-share-dashboard-from-the-mobile-apps.md)。 但是，不能从 Power BI Desktop 共享仪表板。
+此外，不能从 Power BI Desktop 共享仪表板。 但是，可[通过任何 Power BI 移动应用共享仪表板](consumer/mobile/mobile-share-dashboard-from-the-mobile-apps.md)。  
 
 ## <a name="video-share-a-dashboard"></a>视频：共享仪表板
 观看 Amanda 在她的公司内部和外部与同事共享仪表板。 然后可以按照视频下面的分步说明来自己尝试。
@@ -55,7 +55,9 @@ ms.locfileid: "68523004"
    
    允许他人共享称为重新共享  。 如果你允许，他们可以从 Power BI 服务和移动应用重新共享，或将电子邮件邀请转发给组织中的其他人。 该邀请将在一个月后过期。 你的组织外的用户无法重新共享。 作为内容的所有者，你可以关闭重新共享，或者逐个撤消重新共享。 请参阅[停止共享或阻止他人共享](#stop-sharing-or-stop-others-from-sharing)。
 
-5. 选择**共享**。
+5. 如果选择“允许用户使用基础数据集生成新内容”，则用户可基于此仪表板的数据集在其他工作区中自行创建报表  。
+
+1. 选择**共享**。
    
    ![选择“共享”按钮](media/service-share-dashboards/power-bi-share-dialog-share.png)  
    
@@ -63,11 +65,11 @@ ms.locfileid: "68523004"
    
    当组织中的收件人单击该链接时，Power BI 会将仪表板或报表添加到他们的“与我共享”  列表页中。 他们可以选择你的名字来查看你与之共享的所有内容。 
    
-   ![“与我共享”列表页](media/service-share-dashboards/power-bi-shared-with-me-dashboards-reports.png)
+   ![“与我共享”列表页](media/service-share-dashboards/power-bi-shared-with-me-new-look.png)
    
-   当组织外部的收件人单击该链接时，他们会看到仪表板或报表，但不是在常用的 Power BI 门户中。 有关详细信息，请参阅[与组织外部的人员共享仪表板或报表](#share-a-dashboard-or-report-with-people-outside-your-organization)。
+   当组织外部的收件人单击该链接时，他们会看到仪表板或报表，但不是在常用的 Power BI 门户中。 有关详细信息，请参阅[与组织外部的人员共享仪表板或报表](#share-a-dashboard-or-report-outside-your-organization)。
 
-## <a name="who-has-access-to-a-dashboard-or-report-you-shared"></a>谁有权访问你共享的仪表板或报表？
+## <a name="see-who-has-access-to-a-dashboard-or-report"></a>查看哪些人有权访问仪表板或报表
 有时，需要查看与之共享的人员，并了解他们的共享对象：
 
 1. 在仪表板或报表列或仪表板或报表中，选择“共享”  ![共享图标](media/service-share-dashboards/power-bi-share-icon.png)。 
@@ -99,7 +101,7 @@ ms.locfileid: "68523004"
 
     ![Power BI 共享警告对话框](media/service-share-dashboards/power-bi-sharing-warning-dialog.png)
 
-## <a name="share-a-dashboard-or-report-with-people-outside-your-organization"></a>与组织外部的人员共享仪表板或报表
+## <a name="share-a-dashboard-or-report-outside-your-organization"></a>在组织外部共享仪表板或报表
 与组织外的人员共享时，他们会收到带有指向共享仪表板或报表的链接的电子邮件，而且他们必须登录 Power BI 才能查看仪表板或报表。 如果他们没有 Power BI Pro 许可证，则可以在单击链接后注册一个许可证。
 
 登录后，就可以在浏览器窗口（而不是常用的 Power BI 门户）中看到共享仪表板或报表。 若要在以后访问此仪表板或报表，需要为链接添加书签。

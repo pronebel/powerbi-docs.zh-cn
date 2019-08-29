@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 04/15/2019
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: dee2ff4376242883d30f606e687184c0dde43ffe
-ms.sourcegitcommit: f05ba39a0e46cb9cb43454772fbc5397089d58b4
+ms.openlocfilehash: 8000397e5d8f26847349c35b541aa82c5907292e
+ms.sourcegitcommit: ba95d4979f1869f49a7d266c591f95e2810fdb29
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/26/2019
-ms.locfileid: "68523491"
+ms.lasthandoff: 08/19/2019
+ms.locfileid: "69621239"
 ---
 # <a name="connect-azure-data-lake-storage-gen2-for-dataflow-storage-preview"></a>连接 Azure Data Lake Storage Gen2 以存储数据流（预览）
 
@@ -177,6 +177,7 @@ ms.locfileid: "68523491"
 * 只有在 Azure Data Lake Storage Gen2 中存储的数据流的所有者才能默认访问其数据。 要授权其他人员访问存储在 Azure 中的数据流，则必须将他们添加到数据流的 CDM 文件夹中 
 * 仅当链接实体与数据流存储在同一存储帐户中时才可以创建带有链接实体的数据流
 * 存储在组织 Data Lake 中的数据流不支持 Power BI 共享容量中的本地数据源
+* ADLS Gen 2 上不会自动删除快照。 若要释放空间，可创建 Azure 函数来定期清理旧快照。
 
 还存在一些已知问题，如本节所述。
 

@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 02/26/2019
+ms.date: 08/19/2019
 ms.author: davidi
 LocalizationGroup: Transform and shape data
-ms.openlocfilehash: f84e2f95c8ae209828eb1c21f34253015e07aefa
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 67cd57a981f7c1fcab118652dc5424fa935ecd13
+ms.sourcegitcommit: 4a3afe761d2f4a5bd897fafb36b53961739e8466
+ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61363255"
+ms.lasthandoff: 08/20/2019
+ms.locfileid: "69654738"
 ---
 # <a name="storage-mode-in-power-bi-desktop"></a>Power BI Desktop 中的存储模式
 
@@ -63,6 +63,10 @@ Power BI Desktop 中的存储模式设置是以下三个相关功能之一：
 
 将表更改为“导入”  是无法撤消  的操作。 无法将此属性更改回“DirectQuery”或“双”。
 
+> [!NOTE]
+> 可在 Power BI Desktop 和 Power BI 服务中使用“双”存储模式  。
+
+
 ## <a name="constraints-on-directquery-and-dual-tables"></a>DirectQuery 表和“双”表约束
 
 “双”模式表与“DirectQuery”模式表的功能约束相同。 这些约束包括有限 M 转换，以及计算列中的受限 DAX 函数。 有关详细信息，请参阅[使用 DirectQuery 的影响](desktop-directquery-about.md#implications-of-using-directquery)。
@@ -85,7 +89,7 @@ Power BI Desktop 中的存储模式设置是以下三个相关功能之一：
 ## <a name="storage-mode-usage-example"></a>存储模式的使用情况示例
 继续以上一部分中的示例为例，假设应用以下存储模式属性设置：
 
-| 表格                   | 存储模式         |
+| 表                   | 存储模式         |
 | ----------------------- |----------------------| 
 | *Sales*                 | DirectQuery          | 
 | *SurveyResponse*        | 导入               | 

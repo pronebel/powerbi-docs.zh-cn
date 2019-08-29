@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 07/19/2019
 ms.author: maggies
 LocalizationGroup: Samples
-ms.openlocfilehash: 75e5a6387574c6cc4a9620955a3e7c15479830c2
-ms.sourcegitcommit: 012f05efc4e97aeb6178fb2fc820b73bcc1ce920
+ms.openlocfilehash: 76e053d34dcd7f1f199f4cbf9f02196e8efc6232
+ms.sourcegitcommit: ba95d4979f1869f49a7d266c591f95e2810fdb29
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/23/2019
-ms.locfileid: "68391198"
+ms.lasthandoff: 08/19/2019
+ms.locfileid: "69621308"
 ---
 # <a name="supplier-quality-analysis-sample-for-power-bi-take-a-tour"></a>Power BI 的供应商质量分析示例：参观
 
@@ -144,7 +144,7 @@ ms.locfileid: "68391198"
     2014 年的原料瑕疵品数量比 2013 年高很多。  
 
     ![问题：显示用料类型、年份和瑕疵品总数](media/sample-supplier-quality/supplier12.png)  
-6. 现在，将问题改为“显示用料类型、年份和停工时间总分钟数”。  
+6. 现在，将问题改为“显示用料类型、年份和停工时间总分钟数” __ 。  
 
    ![问题：显示用料类型、年份和停工时间总分钟数](media/sample-supplier-quality/supplier13.png)
 
@@ -169,7 +169,7 @@ ms.locfileid: "68391198"
 4. 若要浏览离群值月份，可提出问题（例如“工厂 10 月份的停工时间总分钟数”），按用料类型、工厂位置、类别等查看 10 月的停工时间分钟数  。 
 5. 选择左上角的“编辑问答”，返回到仪表板  。
 
-## <a name="next-steps-connect-to-your-data"></a>后续步骤：连接到你的数据
+## <a name="next-steps-connect-to-your-data"></a>后续步骤：连接到数据
 可以在此环境中安全操作，因为能够选择不保存更改。 不过，如果确实保存了更改，可随时选择“获取数据”  来获取此示例的新副本。
 
 我们希望本教程已经演示 Power BI 仪表板、问答和报表如何能够帮助深入了解示例数据。 现在轮到你了；立即连接到你自己的数据。 借助 Power BI，可以连接到各种数据源。 若要了解详细信息，请参阅 [Power BI 服务入门](service-get-started.md)。

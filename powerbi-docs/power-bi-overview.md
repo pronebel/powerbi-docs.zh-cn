@@ -6,15 +6,15 @@ manager: kfile
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: overview
-ms.date: 05/30/2019
+ms.date: 08/19/2019
 ms.author: maggies
 LocalizationGroup: Get started
-ms.openlocfilehash: d6c9eb47d5f88a2d835c1ba6835e871b0c64bf1c
-ms.sourcegitcommit: fe8a25a79f7c6fe794d1a30224741e5281e82357
+ms.openlocfilehash: 0e12d110708c955e0c63e11f7578523222375448
+ms.sourcegitcommit: 4a3afe761d2f4a5bd897fafb36b53961739e8466
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/18/2019
-ms.locfileid: "68324774"
+ms.lasthandoff: 08/20/2019
+ms.locfileid: "69655001"
 ---
 # <a name="what-is-power-bi"></a>什么是 Power BI？
 **Power BI** 是软件服务、应用和连接器的集合，它们协同工作以将相关数据来源转换为连贯的视觉逼真的交互式见解。 数据可以是 Excel 电子表格，也可以是基于云和本地混合数据仓库的集合。 借助 Power BI 可以轻松连接到数据源，可视化并发现重要内容，并根据需要与他人共享。
@@ -25,11 +25,11 @@ Power BI 简单且快速，能够从 Excel 电子表格或本地数据库创建�
 
 ## <a name="the-parts-of-power-bi"></a>Power BI 的组成部分
 Power BI 包括： 
-- 名为“Power BI Desktop”的 Windows 桌面应用程序 
-- 名为 Power BI 服务的联机 SaaS（软件即服务）   
+- 名为 Power BI Desktop 的 Windows 桌面应用程序 
+- 名为 Power BI 服务的联机 SaaS（软件即服务）   。 
 - 适用于 Windows、iOS 和 Android 设备的 Power BI 移动应用 
 
-![Power BI Desktop、Power BI 服务、Power BI 移动版](media/power-bi-overview/power-bi-blocks.png)
+![Power BI Desktop、Power BI 服务、Power BI 移动版](media/power-bi-overview/power-bi-overview-blocks.png)
 
 Power BI Desktop、服务和移动应用这三个元素旨在使用户通过最适合他们或其角色、最有效的方式创建、共享和使用业务见解。
 

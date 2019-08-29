@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 01/11/2019
-ms.openlocfilehash: 56b417cb60f7c149b926f4307be0a50b33c278d6
-ms.sourcegitcommit: 81ba3572531cbe95ea0b887b94e91f94050f3129
+ms.openlocfilehash: 3940f677cadc5844cfac9c32781a5586bde0607a
+ms.sourcegitcommit: ba95d4979f1869f49a7d266c591f95e2810fdb29
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/06/2019
-ms.locfileid: "66751043"
+ms.lasthandoff: 08/19/2019
+ms.locfileid: "69621289"
 ---
 # <a name="manage-multi-tenancy-with-power-bi-embedded-analytics"></a>使用 Power BI 嵌入式分析来管理多租户
 
@@ -241,7 +241,7 @@ Power BI 项目限制：
 * 单个用户/应用程序可以是成员/管理员的工作区 V2（文件夹）的数量是 1000。
 * 单个工作区中的数据集数量为 1000。
 * 连接到单个数据集的报表/仪表板数为 1000。
-* 上传 .pbix  文件的数据集内存大小限制为 10 GB。
+* 上传 .pbix 文件的数据集内存大小限制为 10 GB  。
 
 Power BI 容量注意事项和限制： 
 

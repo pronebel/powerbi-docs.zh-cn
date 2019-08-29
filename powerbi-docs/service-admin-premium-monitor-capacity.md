@@ -10,25 +10,25 @@ ms.subservice: powerbi-admin
 ms.topic: conceptual
 ms.date: 05/31/2019
 LocalizationGroup: Premium
-ms.openlocfilehash: 0ef74a776e7220477a36d652ce1a48ebbf60c267
-ms.sourcegitcommit: 850e7883e21190151684e32f4d957beecd08e959
+ms.openlocfilehash: b57f444f11c9592d80ffccf7a80be5fa9c7dcf3b
+ms.sourcegitcommit: c2197c3ad1d747b4ad490ab75771a0d32d0ae208
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/20/2019
-ms.locfileid: "68362714"
+ms.lasthandoff: 08/23/2019
+ms.locfileid: "70008112"
 ---
 # <a name="monitor-premium-capacities-with-the-app"></a>使用应用监视高级容量
 
 监视容量对于正确决定如何充分利用高级容量资源至关重要。 可以在管理门户中或使用 Power BI Premium Capacity Metrics 应用监视容量  。 本文介绍如何使用 Premium Capacity Metrics 应用。 应用提供有关容量性能的深度信息。 有关过去七天内平均使用量指标的更高级别概述，可以使用管理门户。 要了解在门户中监视的详细信息，请参阅[在管理门户中监视高级容量](service-admin-premium-monitor-portal.md)。
 
-应用定期更新新特性和新功能。 请确保正在运行最新版本。 如果已安装上个版本，则最好将其从应用中删除，然后按 Ctrl+F5 进行刷新。 
+应用定期更新新特性和新功能。 请确保正在运行最新版本。 如果已安装上个版本，则最好将其从应用中删除，然后按 Ctrl+F5 进行刷新。
 
 ## <a name="install-the-app"></a>安装应用
 
 可以直接转到 [Premium Capacity Metrics 应用](https://app.powerbi.com/groups/me/getapps/services/capacitymetrics)，也可以像在 Power BI 中操作其他应用一样安装它。
 
+1. 在 Power BI 中，单击“应用”  。
 
-1. 在 Power BI 中，单击“应用”  。   
     ![转到应用](media/service-admin-premium-monitor-capacity/apps.png)
 
 2. 在右侧，单击“获取应用”  。
@@ -59,7 +59,7 @@ ms.locfileid: "68362714"
 
 仪表板包含以下指标：
 
-#### <a name="top"></a>前
+#### <a name="top"></a>Top
 
 | 指标 | 说明 |
 | --- | --- |
@@ -245,7 +245,7 @@ ms.locfileid: "68362714"
 | **报表区域** | **指标** |
 | --- | --- |
 | CPU 使用率 |  工作负荷消耗（CPU 总容量的百分比）。 过去七天按小时显示。 |
-| 内存占用率 |  工作负荷的内存使用量 (GB)（实线）与工作负荷限制（虚线）重叠。 过去七天按小时显示。 |
+| 内存占用率 |  工作负荷在一小时内的最大内存使用量 (GB)（实线），与工作负荷限制（虚线）重叠。 过去七天按小时显示。 |
 |  |  |
 
 ### <a name="ids-and-info"></a>ID 和信息
