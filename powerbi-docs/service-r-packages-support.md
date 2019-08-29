@@ -155,8 +155,7 @@ R 程序包存在大量要求和限制：
 |chron|2.3-52|https://cran.r-project.org/web/packages/chron/index.html|
 |circlize|0.4.3|https://cran.r-project.org/web/packages/circlize/index.html|
 |Ckmeans.1d.dp|4.2.1|https://cran.r-project.org/web/packages/Ckmeans.1d.dp/index.html|
-|类|7.3-14|https://cran.r-project.org/web/packages/class/index.html|
-|类|7.3-14|https://cran.r-project.org/web/packages/class/index.html|
+|class|7.3-14|https://cran.r-project.org/web/packages/class/index.html|
 |classInt|0.1-24|https://cran.r-project.org/web/packages/classInt/index.html|
 |cli|1.0.0|https://cran.r-project.org/web/packages/cli/index.html|
 |ClickClust|1.1.5|https://cran.r-project.org/web/packages/ClickClust/index.html|
@@ -201,8 +200,8 @@ R 程序包存在大量要求和限制：
 |d3r|0.8.0|https://cran.r-project.org/web/packages/d3r/index.html|
 |data.table|1.10.4-3|https://cran.r-project.org/web/packages/data.table/index.html|
 |data.tree|0.7.5|https://cran.r-project.org/web/packages/data.tree/index.html|
-|数据集|3.4.4|NA|
-|日期|1.2-38|https://cran.r-project.org/web/packages/date/index.html|
+|datasets|3.4.4|NA|
+|date|1.2-38|https://cran.r-project.org/web/packages/date/index.html|
 |DBI|0.8|https://cran.r-project.org/web/packages/DBI/index.html|
 |dbplyr|1.2.1|https://cran.r-project.org/web/packages/dbplyr/index.html|
 |dbscan|1.1-1|https://cran.r-project.org/web/packages/dbscan/index.html|
@@ -302,7 +301,7 @@ R 程序包存在大量要求和限制：
 |foreign|0.8-69|https://cran.r-project.org/web/packages/foreign/index.html|
 |formatR|1.5|https://cran.r-project.org/web/packages/formatR/index.html|
 |formattable|0.2.0.1|https://cran.r-project.org/web/packages/formattable/index.html|
-|公式|1.2-2|https://cran.r-project.org/web/packages/Formula/index.html|
+|Formula|1.2-2|https://cran.r-project.org/web/packages/Formula/index.html|
 |fpc|2.1-11|https://cran.r-project.org/web/packages/fpc/index.html|
 |fracdiff|1.4-2|https://cran.r-project.org/web/packages/fracdiff/index.html|
 |fTrading|3042.79|https://cran.r-project.org/web/packages/fTrading/index.html|
@@ -371,7 +370,7 @@ R 程序包存在大量要求和限制：
 |gower|0.1.2|https://cran.r-project.org/web/packages/gower/index.html|
 |GPArotation|2014.11-1|https://cran.r-project.org/web/packages/GPArotation/index.html|
 |gplots|3.0.1|https://cran.r-project.org/web/packages/gplots/index.html|
-|图形|3.4.4|NA|
+|graphics|3.4.4|NA|
 |grDevices|3.4.4|NA|
 |grid|3.4.4|NA|
 |gridBase|0.4-7|https://cran.r-project.org/web/packages/gridBase/index.html|
@@ -503,8 +502,7 @@ R 程序包存在大量要求和限制：
 |MasterBayes|2.55|https://cran.r-project.org/web/packages/MasterBayes/index.html|
 |Matching|4.9-5|https://cran.r-project.org/web/packages/Matching/index.html|
 |MatchIt|3.0.2|https://cran.r-project.org/web/packages/MatchIt/index.html|
-|矩形图|1.2-12|https://cran.r-project.org/web/packages/Matrix/index.html|
-|矩形图|1.2-12|https://cran.r-project.org/web/packages/Matrix/index.html|
+|Matrix|1.2-12|https://cran.r-project.org/web/packages/Matrix/index.html|
 |matrixcalc|1.0-3|https://cran.r-project.org/web/packages/matrixcalc/index.html|
 |MatrixModels|0.4-1|https://cran.r-project.org/web/packages/MatrixModels/index.html|
 |matrixStats|0.54.0|https://cran.r-project.org/web/packages/matrixStats/index.html|
@@ -671,7 +669,6 @@ R 程序包存在大量要求和限制：
 |R2OpenBUGS|3.2-3.2|https://cran.r-project.org/web/packages/R2OpenBUGS/index.html|
 |R2WinBUGS|2.1-21|https://cran.r-project.org/web/packages/R2WinBUGS/index.html|
 |R6|2.2.2|https://cran.r-project.org/web/packages/R6/index.html|
-|R6|2.2.2|https://cran.r-project.org/web/packages/R6/index.html|
 |ramps|0.6-15|https://cran.r-project.org/web/packages/ramps/index.html|
 |RandomFields|3.1.50|https://cran.r-project.org/web/packages/RandomFields/index.html|
 |RandomFieldsUtils|0.3.25|https://cran.r-project.org/web/packages/RandomFieldsUtils/index.html|
@@ -706,7 +703,7 @@ R 程序包存在大量要求和限制：
 |relimp|1.0-5|https://cran.r-project.org/web/packages/relimp/index.html|
 |rematch|1.0.1|https://cran.r-project.org/web/packages/rematch/index.html|
 |Renext|3.1-0|https://cran.r-project.org/web/packages/Renext/index.html|
-|报表|0.1.4|https://cran.r-project.org/web/packages/reports/index.html|
+|reports|0.1.4|https://cran.r-project.org/web/packages/reports/index.html|
 |reprex|0.1.2|https://cran.r-project.org/web/packages/reprex/index.html|
 |reshape|0.8.7|https://cran.r-project.org/web/packages/reshape/index.html|
 |reshape2|1.4.3|https://cran.r-project.org/web/packages/reshape2/index.html|
@@ -916,7 +913,7 @@ R 程序包存在大量要求和限制：
 |TraMineR|2.0-8|https://cran.r-project.org/web/packages/TraMineR/index.html|
 |translations|3.4.4|NA|
 |tree|1.0-39|https://cran.r-project.org/web/packages/tree/index.html|
-|树状图|2.4-2|https://cran.r-project.org/web/packages/treemap/index.html|
+|treemap|2.4-2|https://cran.r-project.org/web/packages/treemap/index.html|
 |trimcluster|0.1-2|https://cran.r-project.org/web/packages/trimcluster/index.html|
 |truncnorm|1.0-8|https://cran.r-project.org/web/packages/truncnorm/index.html|
 |TSA|1.01|https://cran.r-project.org/web/packages/TSA/index.html|
