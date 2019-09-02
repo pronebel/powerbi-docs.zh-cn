@@ -120,13 +120,13 @@ Windows 服务是在安装过程中创建的。 它显示为“Power BI 报表�
 
 ![报表服务器 Windows 服务属性](media/install-report-server/pbireportserver-windows-service2.png)
 
-## <a name="default-url-reservations"></a>默认 URL 保留项
+## <a name="default-url-reservations"></a>默认 URL 预留
 
-URL 保留项由前缀、主机名、端口和虚拟目录组成：
+URL 预留由前缀、主机名、端口和虚拟目录组成：
 
 | 部分 | 说明 |
 | --- | --- |
-| 前缀 |默认前缀为 HTTP。 如果以前安装了安全套接字层 (SSL) 证书，安装程序会尝试创建使用 HTTPS 前缀的 URL 保留项。 |
+| 前缀 |默认前缀为 HTTP。 如果以前安装了安全套接字层 (SSL) 证书，安装程序会尝试创建使用 HTTPS 前缀的 URL 预留。 |
 | 主机名 |默认主机名为强通配符 (+)。 它指定报表服务器接受针对解析为计算机的任何主机名从指定端口发出的任何 HTTP 请求，包括 `http://<computername>/reportserver`、`http://localhost/reportserver` 或 `http://<IPAddress>/reportserver.` |
 | 端口 |默认端口为 80。 如果使用的端口不是 80，则需要在浏览器窗口中打开 Web 门户时，将其明确添加到 URL 中。 |
 | 虚拟目录 |默认情况下，对于报表服务器 Web 服务，虚拟目录的创建格式为 ReportServer；对于 Web 门户，虚拟目录的创建格式为 Reports。 对于报表服务器 Web 服务，默认虚拟目录为 reportserver  。 对于 Web 门户，默认虚拟目录为 reports  。 |
