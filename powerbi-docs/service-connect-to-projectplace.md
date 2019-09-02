@@ -7,18 +7,20 @@ ms.reviewer: maggiesMSFT
 ms.service: powerbi
 ms.subservice: powerbi-template-apps
 ms.topic: conceptual
-ms.date: 10/16/2017
+ms.date: 08/29/2019
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 8827f7dc500ff23e69577ac67b43480d8633f5ef
-ms.sourcegitcommit: 762857c8ca09ce222cc3f8b006fa1b65d11e4ace
+ms.openlocfilehash: cd478abbac94c6b8aaf5aaa087dbfa4840e05fd7
+ms.sourcegitcommit: b53a6f5575f5f8bc443ecdca9c72525ce123518f
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/05/2019
-ms.locfileid: "66721250"
+ms.lasthandoff: 08/30/2019
+ms.locfileid: "70184549"
 ---
 # <a name="connect-to-projectplace-by-planview-with-power-bi"></a>使用 Power BI 连接到 Projectplace by Planview
 通过 Projectplace by Planview 内容包，你能够以全新的方式直接在 Power BI 中可视化你的协作项目数据。 使用你的 Projectplace 登录凭据交互式查看关键项目统计信息，找出最活跃和最富生产力的团队成员，并识别出 Projectplace 帐户各项目中存在风险的卡片和活动。 你还可以扩展现成的仪表板和报表，以获取对你最重要的信息。
+
+[!INCLUDE [include-short-name](./includes/service-deprecate-content-packs.md)]
 
 [连接到 Power BI 中的 Projectplace 内容包](https://app.powerbi.com/getdata/services/projectplace)
 

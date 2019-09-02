@@ -7,18 +7,20 @@ ms.reviewer: maggiesMSFT
 ms.service: powerbi
 ms.subservice: powerbi-template-apps
 ms.topic: conceptual
-ms.date: 10/16/2017
+ms.date: 08/29/2019
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 6a194a4d56f4a940ad892ccd2f9097dd782f49d3
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: ddcbee2c6d60541db0d71ea5ccfbfd5e6cf037ac
+ms.sourcegitcommit: b53a6f5575f5f8bc443ecdca9c72525ce123518f
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61167664"
+ms.lasthandoff: 08/30/2019
+ms.locfileid: "70184575"
 ---
 # <a name="connect-to-stripe-with-power-bi"></a>使用 Power BI 连接到 Stripe
 通过此 Power BI 内容包在 Power BI 中的对Stripe 数据进行可视化和浏览。 Power BI Stripe 内容包将拉取有关你的客户、费用、活动和发票的数据。 该数据包括过去 30 天内最近一万个活动和五千笔费用。 该内容将按照由你控制的计划每天自动刷新一次。 
+
+[!INCLUDE [include-short-name](./includes/service-deprecate-content-packs.md)]
 
 连接到 [Power BI 的 Stripe 内容包](https://app.powerbi.com/getdata/services/stripe)。
 
@@ -44,7 +46,7 @@ ms.locfileid: "61167664"
 * 尝试在仪表板顶部的[在“问答”框中提问](consumer/end-user-q-and-a.md)
 * 在仪表板中[更改磁贴](service-dashboard-edit-tile.md)。
 * [选择磁贴](consumer/end-user-tiles.md)以打开基础报表。
-* 虽然数据集将按计划每日刷新，但你可以更改刷新计划或根据需要使用“立即刷新”来尝试刷新
+* 虽然数据集将按计划每日刷新，但你可以更改刷新计划或根据需要使用“立即刷新”  来尝试刷新
 
 ## <a name="next-steps"></a>后续步骤
 [什么是 Power BI？](power-bi-overview.md)

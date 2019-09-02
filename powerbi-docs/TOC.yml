@@ -939,8 +939,8 @@
           href: report-builder-tables-matrices-lists.md
         - name: 参数
           href: report-builder-parameters.md
-        - name: 表达式
-          href: report-builder-expressions.md
+        - name: 分页报表中的 URL 参数
+          href: report-builder-url-parameters.md
         - name: 表达式示例
           href: report-builder-expression-examples.md
         - name: 报告分页
@@ -959,6 +959,8 @@
           href: paginated-reports-create-embedded-dataset.md
         - name: 创建参数
           href: paginated-reports-parameters.md
+        - name: 在 URL 中传递报表参数
+          href: report-builder-url-pass-parameters.md
         - name: 发布分页报表
           href: paginated-reports-save-to-power-bi-service.md
 - name: 面向开发人员的 Power BI

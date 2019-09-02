@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 05/07/2019
+ms.date: 08/29/2019
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 3919d869c696617fa97351f352084e5a57e6b06e
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 861a1d43f023e3ceba17fba90bcbc703e3195c84
+ms.sourcegitcommit: c0f4d00d483121556a1646b413bab75b9f309ae9
+ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "65239528"
+ms.lasthandoff: 08/29/2019
+ms.locfileid: "70160174"
 ---
 # <a name="using-the-analytics-pane-in-power-bi-desktop"></a>使用 Power BI Desktop 中的“分析”窗格
 通过 **Power BI Desktop** 的“**分析**”窗格，你可以向视觉对象添加动态参考行，并重点关注重要趋势或见解。  “分析”  窗格位于 Power BI Desktop 的“可视化效果”  区域中。
@@ -84,7 +84,6 @@ ms.locfileid: "65239528"
 * 分区图
 * 折线图
 * 散点图
-* 簇状柱形图
 * 簇状条形图
 
 以下视觉对象仅能使用“**分析**”窗格中的恒线  ：
@@ -105,7 +104,7 @@ ms.locfileid: "65239528"
 * 矩形图
 * 饼图
 * 圆环图
-* 表格
+* 表
 
 只有在使用 Power BI Desktop  中的导入数据，或在实时连接到运行 Analysis Service 2016  或更高版本、Azure Analysis Services  的服务器上的模型或连接到 Power BI 服务上的数据集时，才能使用百分位数线。 
 

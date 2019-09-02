@@ -7,18 +7,20 @@ ms.reviewer: maggiesMSFT
 ms.service: powerbi
 ms.subservice: powerbi-template-apps
 ms.topic: conceptual
-ms.date: 10/16/2017
+ms.date: 08/29/2019
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 2cf6b351c00d89ad6e87b6bc95661dab57078bac
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: e6c63d93c876377da7a5d36e814431dfda8665c3
+ms.sourcegitcommit: b53a6f5575f5f8bc443ecdca9c72525ce123518f
+ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61151778"
+ms.lasthandoff: 08/30/2019
+ms.locfileid: "70185777"
 ---
 # <a name="connect-to-vmob-with-power-bi"></a>使用 Power BI 连接到 VMob
 借助 Power BI 和 VMob 内容包，可轻松跟踪和浏览你的 VMob 数据。 Power BI 将检索下列数据：最近 30 天内任何时间的用户统计信息、最近 30 天的零售 KPI 以及最近 30 天的市场活动效果。
+
+[!INCLUDE [include-short-name](./includes/service-deprecate-content-packs.md)]
 
 连接到适用于 Power BI 的 [VMob 内容包](https://app.powerbi.com/getdata/services/vmob)。
 

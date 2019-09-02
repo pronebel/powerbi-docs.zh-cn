@@ -7,18 +7,20 @@ ms.reviewer: maggiesMSFT
 ms.service: powerbi
 ms.subservice: powerbi-template-apps
 ms.topic: conceptual
-ms.date: 10/16/2017
+ms.date: 08/29/2019
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: e7db66dfb79cd0348967369d92e7b13c698d8f71
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 98be77e2cfe53e535dd322317246549a6b4324a4
+ms.sourcegitcommit: b53a6f5575f5f8bc443ecdca9c72525ce123518f
+ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61180497"
+ms.lasthandoff: 08/30/2019
+ms.locfileid: "70185960"
 ---
 # <a name="connect-to-clickdimensions-with-power-bi"></a>使用 Power BI 连接到 ClickDimensions
 适用于 Power BI 的 ClickDimensions 内容包使用户可以在 Power BI 中利用 ClickDimensions 市场营销数据，从而使管理团队可以进一步深入了解其销售和市场营销工作的成功之处。 在 Power BI 仪表板和报表中可视化和分析电子邮件交互、Web 访问和表单提交。
+
+[!INCLUDE [include-short-name](./includes/service-deprecate-content-packs.md)]
 
 连接到适用于 Power BI 的 [ClickDimensions 内容包](https://app.powerbi.com/getdata/services/click-dimensions)。
 

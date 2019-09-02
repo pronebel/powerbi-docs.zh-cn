@@ -7,18 +7,21 @@ ms.reviewer: maggiesMSFT
 ms.service: powerbi
 ms.subservice: powerbi-template-apps
 ms.topic: conceptual
-ms.date: 10/16/2017
-ms.author: sarinas
+ms.date: 08/29/2019
+ms.author: tebercov
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 6fa16cf59ece7f701fc50f1914138b9ca5362c45
-ms.sourcegitcommit: 762857c8ca09ce222cc3f8b006fa1b65d11e4ace
+ms.openlocfilehash: c2f6564c83c7234b626686a6fe4c76f65b354e58
+ms.sourcegitcommit: b53a6f5575f5f8bc443ecdca9c72525ce123518f
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/05/2019
-ms.locfileid: "66720455"
+ms.lasthandoff: 08/30/2019
+ms.locfileid: "70185517"
 ---
 # <a name="connect-to-lithium-with-power-bi"></a>使用 Power BI 连接到 Lithium
+
 Lithium 在全球最佳品牌及其客户之间建立起信任关系，同时帮助解答疑问和分享经验。 通过将 Lithium 内容包连接到 Power BI，你可以衡量你在线社区的关键指标，从而有助于推动销售、降低服务成本和提升忠诚度。 
+
+[!INCLUDE [include-short-name](./includes/service-deprecate-content-packs.md)]
 
 连接到适用于 Power BI 的 [Lithium 内容包](https://app.powerbi.com/getdata/services/lithium)。
 

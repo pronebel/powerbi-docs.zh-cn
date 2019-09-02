@@ -7,18 +7,20 @@ ms.reviewer: maggiesMSFT
 ms.service: powerbi
 ms.subservice: powerbi-template-apps
 ms.topic: conceptual
-ms.date: 10/16/2017
+ms.date: 08/29/2019
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 87d294c81cbf9a342ce238bb198173516c1f3215
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 9d19f14363128f7c945fc4e50f8d01e1af8d710b
+ms.sourcegitcommit: b53a6f5575f5f8bc443ecdca9c72525ce123518f
+ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61173907"
+ms.lasthandoff: 08/30/2019
+ms.locfileid: "70185505"
 ---
 # <a name="connect-to-insightly-with-power-bi"></a>使用 Power BI 连接到 Insightly
 使用 Insightly 内容包可视化和共享 Power BI 中的 Insightly CRM 数据。 使用 Insightly API 密钥连接到 Power BI，以从 CRM 数据查看和生成报表和仪表板。 使用 Power BI，你可以用新的方式分析数据、创建功能强大的图形和图表，并显示地图上的联系人、潜在客户和组织。
+
+[!INCLUDE [include-short-name](./includes/service-deprecate-content-packs.md)]
 
 连接到适用于 Power BI 的 [Insightly 内容包](https://app.powerbi.com/getdata/services/insightly)。
 
@@ -44,7 +46,7 @@ ms.locfileid: "61173907"
 * 尝试在仪表板顶部的[在“问答”框中提问](consumer/end-user-q-and-a.md)
 * 在仪表板中[更改磁贴](service-dashboard-edit-tile.md)。
 * [选择磁贴](consumer/end-user-tiles.md)以打开基础报表。
-* 虽然数据集将按计划每日刷新，但你可以更改刷新计划或根据需要使用“立即刷新”来尝试刷新
+* 虽然数据集将按计划每日刷新，但你可以更改刷新计划或根据需要使用“立即刷新”  来尝试刷新
 
 ## <a name="whats-included"></a>包含的内容
 此内容包包括以下表，其中带有对应记录中的字段：

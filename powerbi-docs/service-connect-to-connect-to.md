@@ -7,18 +7,20 @@ ms.reviewer: maggiesMSFT
 ms.service: powerbi
 ms.subservice: powerbi-template-apps
 ms.topic: conceptual
-ms.date: 01/30/2019
+ms.date: 08/29/2019
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 49ac1f917a5f3095c1dbc13c644061859389fe74
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: aab2d62265300787f99116aade7ec16aaf1b0f86
+ms.sourcegitcommit: b53a6f5575f5f8bc443ecdca9c72525ce123518f
+ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61174677"
+ms.lasthandoff: 08/30/2019
+ms.locfileid: "70185579"
 ---
 # <a name="connect-to-comscore-digital-analytix-with-power-bi"></a>使用 Power BI 连接到 comScore Digital Analytix
 通过 Power BI 内容包可视化和浏览 Power BI 中的 comScore Digital Analytix 数据。 此数据将每天自动刷新一次。
+
+[!INCLUDE [include-short-name](./includes/service-deprecate-content-packs.md)]
 
 连接到[ Power BI 的 comScore 内容包](https://app.powerbi.com/getdata/services/comscore)。
 
