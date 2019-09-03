@@ -11,7 +11,7 @@ ms.date: 04/24/2019
 ms.author: mshenhav
 ms.openlocfilehash: 4e09b10e38b018f8e5572343b343a243ace3bf81
 ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: zh-CN
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "64906535"
