@@ -205,15 +205,15 @@ ms.locfileid: "69023392"
 | areaChart |
 | barChart |
 | basicShape |
-| 卡片图 |
+| card |
 | clusteredBarChart |
 | clusteredColumnChart |
 | columnChart |
 | comboChart |
 | donutChart |
 | filledMap |
-| 漏斗图 |
-| 仪表盘 |
+| funnel |
+| gauge |
 | hundredPercentStackedBarChart |
 | hundredPercentStackedColumnChart |
 | image |
@@ -221,17 +221,17 @@ ms.locfileid: "69023392"
 | lineChart |
 | lineClusteredColumnComboChart |
 | lineStackedColumnComboChart |
-| 地图 |
+| map |
 | multiRowCard |
 | pieChart |
 | pivotTable |
 | ribbonChart |
 | scatterChart |
 | shapeMap |
-| 切片器 |
+| slicer |
 | stackedAreaChart |
 | tableEx |
-| 树状图 |
+| treemap |
 | waterfallChart |
 
 下表定义了 cardName  值。 每个单元格中的第一个值是 JSON 文件术语。 第二个值是卡片名称，如 Power BI Desktop  用户界面中所示。
