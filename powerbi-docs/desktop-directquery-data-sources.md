@@ -8,14 +8,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 05/31/2019
+ms.date: 08/29/2019
 LocalizationGroup: Connect to data
-ms.openlocfilehash: dae93a2555101a42f072158f8536319783b3f973
-ms.sourcegitcommit: aef57ff94a5d452d6b54a90598bd6a0dd1299a46
+ms.openlocfilehash: 5455a5f3b4bda6cf6d63825222822c4acfa5f03a
+ms.sourcegitcommit: c0f4d00d483121556a1646b413bab75b9f309ae9
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/07/2019
-ms.locfileid: "66809109"
+ms.lasthandoff: 08/29/2019
+ms.locfileid: "70159948"
 ---
 # <a name="data-sources-supported-by-directquery-in-power-bi"></a>Power BI 中 DirectQuery 支持的数据源
 
@@ -34,6 +34,7 @@ Power BI Desktop  和 Power BI 服务  有多个可以连接并访问数据的�
 * IBM DB2 数据库
 * IBM Netezza
 * Impala（版本 2.x）
+* MarkLogic
 * Oracle 数据库（版本 12 及更高版本)
 * Oracle Essbase
 * SAP Business Warehouse 应用程序服务器
@@ -60,7 +61,7 @@ Power BI Desktop  和 Power BI 服务  有多个可以连接并访问数据的�
 | --- | --- |
 | Amazon Redshift |否 |
 | Azure HDInsight Spark (Beta) |否 |
-| Azure SQL Database |否 |
+| Azure SQL 数据库 |否 |
 | Azure SQL 数据仓库 |否 |
 | Google BigQuery |否 |
 | IBM Netezza |是 |
@@ -80,8 +81,8 @@ Power BI Desktop  和 Power BI 服务  有多个可以连接并访问数据的�
 
 SSO 选项针对使用此数据源的所有数据集生效。 它不影响用于导入方案的身份验证方法。 以下数据源支持通过 DirectQuery 进行连接的 SSO：
 
-- Azure SQL Database
-- Azure SQL Data Warehouse
+- Azure SQL 数据库
+- Azure SQL 数据仓库
 - Impala
 - SAP HANA
 - SAP BW

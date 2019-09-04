@@ -8,15 +8,15 @@ ms.custom: seodec18
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 05/08/2019
+ms.date: 08/29/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: f1e02197f36da66a64fac95209fe8fabaa67b6c0
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 8eecbfdaa948163ab6d0623a70f237d479fcdb88
+ms.sourcegitcommit: a00fe5fb545c3df13b7cd13a701fd6a2b2521a17
+ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "65514184"
+ms.lasthandoff: 08/31/2019
+ms.locfileid: "70200924"
 ---
 # <a name="connect-to-csv-files-in-power-bi-desktop"></a>通过 Power BI Desktop 连接到 CSV 文件
 通过 Power BI Desktop 连接到以逗号分隔的值 (*CSV*) 文件同连接到 Excel 工作簿非常相似。 两者都很简单，这篇文章将对怎样连接到你有权访问的 CSV 文件进行指导。
@@ -44,6 +44,10 @@ ms.locfileid: "65514184"
 以上就是你需要操作的全部步骤 – 现在，CSV 文件中的数据全都在 Power BI Desktop 中了。
 
 你可以在 Power BI Desktop 中使用该数据来创建视觉对象、报表或与你可能想要连接和导入的其他数据（如 Excel 工作簿、数据库或任何其他数据源）进行交互。
+
+> [!IMPORTANT]
+> 导入 CSV 文件时，Power BI Desktop 会在 Power Query 编辑器中生成一个 columns=x（其中，x 是 CSV 文件中的列数）作为一个步骤   。 如果随后添加更多列并且数据源设置为“刷新”，则不会刷新超出初始 x 列数的任何列  。 
+
 
 ## <a name="next-steps"></a>后续步骤
 你可以使用 Power BI Desktop 连接到各种数据。 有关数据源的详细信息，请参阅下列资源：

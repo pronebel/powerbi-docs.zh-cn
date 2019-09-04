@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 06/07/2019
+ms.date: 08/29/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: cccbfb6bbe43e70ebcea94322923f7600d58aca8
-ms.sourcegitcommit: 0332efe8f83cb55a9b8ea011db7c99e9b4568118
+ms.openlocfilehash: 5477d7772681f0dd5ac4426335521f6ab1a7844e
+ms.sourcegitcommit: c0f4d00d483121556a1646b413bab75b9f309ae9
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/27/2019
-ms.locfileid: "68590508"
+ms.lasthandoff: 08/29/2019
+ms.locfileid: "70160353"
 ---
 # <a name="connect-to-datasets-in-the-power-bi-service-from-power-bi-desktop"></a>通过 Power BI Desktop 连接 Power BI 服务中的数据集
 可以与 Power BI 服务中的共享数据集建立实时连接，并根据同一数据集创建多个不同的报表。 这意味着可以在 Power BI Desktop 中创建完美的数据模型，并将其发布到 Power BI 服务。 然后，你和其他人可以从同一个通用数据模型创建多个不同的报表（在单独的 .pbix 文件中），并将它们保存到不同的工作区。 此功能称为“Power BI 服务实时连接”  。
@@ -108,4 +108,5 @@ Power BI 的普及带来了一个问题，就是报表、仪表板及其基础�
 * 对于内容包，必须先创建内容包的副本，然后才能以此为基础将 .pbix 报表和数据集共享到 **Power BI 服务**中。
 * 对于来自我的组织的内容包，一旦复制，则无法替换在此服务上创建的报表和/或作为使用实时连接复制内容包的一部分创建的报表。  尝试执行此操作会导致出现警告，提示你重命名文件后再进行发布。 在这种情况下，只能替换已发布的实时连接的报表。
 * 删除 **Power BI 服务**中的共享数据集意味着无法再从 **Power BI Desktop** 访问该数据集。
+* 在 Power BI 服务上共享数据集的报表不支持使用 Power BI REST API 进行自动部署。
 

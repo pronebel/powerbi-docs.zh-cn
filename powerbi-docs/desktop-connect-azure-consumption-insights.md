@@ -8,15 +8,15 @@ ms.custom: seodec18
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 08/14/2019
+ms.date: 08/29/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 80eb366015de3822b9c8c455f1ee386a34e1f457
-ms.sourcegitcommit: f6ac9e25760561f49d4257a6335ca0f54ad2d22e
+ms.openlocfilehash: 0474bc4182f77e7084ca8cb78062ba0f2063e7ae
+ms.sourcegitcommit: c0f4d00d483121556a1646b413bab75b9f309ae9
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/16/2019
-ms.locfileid: "69560997"
+ms.lasthandoff: 08/29/2019
+ms.locfileid: "70160197"
 ---
 # <a name="analyze-azure-cost-and-usage-data-in-power-bi-desktop"></a>分析 Power BI Desktop 中的 Azure 成本和使用情况数据
 
@@ -27,6 +27,10 @@ Power BI 目前支持连接到企业协议和客户协议的计费帐户。
 * 企业协议用户应与 Azure 使用见解连接器连接（如下所示）   。
 
 * 客户协议用户应与 [Azure 成本管理连接器](#connect-with-azure-cost-management)连接   。
+
+> [!NOTE]
+> 如果你是使用 Azure 成本管理连接器的企业协议客户，但在“成本管理”  边栏选项卡中看不到“计费对象信息 ID”，则表示你不在现代商业平台中。 对于这种情况，请使用请求 EA 注册号的 Azure 使用见解连接器，而不是计费对象信息 ID  。
+
 
 ## <a name="connect-with-azure-consumption-insights"></a>使用 Azure 使用见解连接
 

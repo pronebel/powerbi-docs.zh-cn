@@ -10,12 +10,12 @@ ms.subservice: powerbi-admin
 ms.topic: conceptual
 ms.date: 05/31/2019
 LocalizationGroup: Premium
-ms.openlocfilehash: b57f444f11c9592d80ffccf7a80be5fa9c7dcf3b
-ms.sourcegitcommit: c2197c3ad1d747b4ad490ab75771a0d32d0ae208
+ms.openlocfilehash: 9f5e2715af5b3fd898d3c7f0486c8b75463a1c42
+ms.sourcegitcommit: 9eae2a52af6926cda4d6b03de4d50d7fa8b2f216
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2019
-ms.locfileid: "70008112"
+ms.lasthandoff: 08/26/2019
+ms.locfileid: "70030190"
 ---
 # <a name="monitor-premium-capacities-with-the-app"></a>使用应用监视高级容量
 
@@ -244,7 +244,7 @@ ms.locfileid: "70008112"
 
 | **报表区域** | **指标** |
 | --- | --- |
-| CPU 使用率 |  工作负荷消耗（CPU 总容量的百分比）。 过去七天按小时显示。 |
+| CPU 使用率 |  工作负载在一小时内的最大 CPU 消耗（CPU 总容量的百分比）。 过去七天按小时显示。 |
 | 内存占用率 |  工作负荷在一小时内的最大内存使用量 (GB)（实线），与工作负荷限制（虚线）重叠。 过去七天按小时显示。 |
 |  |  |
 
