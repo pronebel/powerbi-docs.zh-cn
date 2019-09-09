@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 06/17/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 53a8847f96d6aa3143e91cab07029a8e0f6afc85
-ms.sourcegitcommit: f05ba39a0e46cb9cb43454772fbc5397089d58b4
+ms.openlocfilehash: 5bae8983df58353ea57e073defb001795976591b
+ms.sourcegitcommit: 9665997274301b228f45aa7250ba557e90164a4d
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/26/2019
-ms.locfileid: "68523749"
+ms.lasthandoff: 09/06/2019
+ms.locfileid: "70751703"
 ---
 # <a name="best-design-practices-for-reports-and-visuals"></a>设计报表和视觉对象的最佳做法
 
@@ -725,7 +725,7 @@ Outliers = if(Editions[Temp]<60, Editions[Temp], BLANK())
 
 #### <a name="what-did-we-do"></a>我们做了哪些改进？
 
-| 项 | 描述 |
+| 项 | 说明 |
 | ---- | ----------- |
 | 切片器 | 通过添加报表页级别筛选器，并且只选择了“金牌”  、“银牌”  和“铜牌”  ，从切片器中删除了“空白”选项。 <br> 对于“单选”  和“全选”  ，将“选择控件”  更改为“关”  。 |
 | 气泡图 | 图例项过多，屏幕无法显示全。 删除了图例，改为启用了“类别标签”  。 客户可以将鼠标悬停在气泡之上查看详细信息。<br> 缩短了标题并删除了“按国家/地区”，因为这一点显而易见。 <br> 为 X 轴和 Y 轴启用  了坐标轴标签，让图表更易于理解。 |
@@ -823,7 +823,7 @@ Power BI 提供了许多本地视觉对象类型。 添加 Microsoft 和 Power B
 
 如需了解条形图和柱形图的更多详情，请参阅：
 
-* [数据可视化效果 101：条形图](http://blog.newscred.com/article/data-visualization-101-bar-charts)
+* [数据可视化效果 101：条形图](https://insights.newscred.com/data-visualization-101-bar-charts/)
 
 * [数据可视化效果目录：条形图](http://www.datavizcatalogue.com/methods/bar_chart.html#.VYV-hY3bLJw)
 

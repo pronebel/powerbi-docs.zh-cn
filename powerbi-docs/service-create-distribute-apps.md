@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 08/15/2019
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: ed3a65e25694c23e1852a554742e0f8a6e6ff668
-ms.sourcegitcommit: 4d5166944fcc6fe4666cab055ae75e7a0a77866d
+ms.openlocfilehash: 5d0ace5c2986b30436838d33037ae3019bd8bdce
+ms.sourcegitcommit: 9665997274301b228f45aa7250ba557e90164a4d
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/16/2019
-ms.locfileid: "69530579"
+ms.lasthandoff: 09/06/2019
+ms.locfileid: "70751556"
 ---
 # <a name="publish-an-app-in-power-bi"></a>在 Power BI 中发布应用
 
@@ -127,7 +127,7 @@ ms.locfileid: "69530579"
 为应用导航添加链接和选择“内容”区域选项时，需注意以下方面：
 * 确保可以嵌入链接。 某些服务在 Power BI 等第三方站点会阻止嵌入其内容。
 * 不支持在其他工作区中嵌入报表或仪表板等 Power BI 服务内容。 
-* 通过本地嵌入 URL 内容从本地部署嵌入 Power BI 报表服务器内容。 使用[创建 Power BI 报表服务器 URL](https://docs.microsoft.com/power-bi/report-server/quickstart-embed#creating-the-power-bi-report-server-report-url) 中的步骤获取 URL。 注意，常规身份验证规则适用，因此查看内容需要与本地服务器建立 VPN 连接。 
+* 通过本地嵌入 URL 内容从本地部署嵌入 Power BI 报表服务器内容。 使用[创建 Power BI 报表服务器 URL](https://docs.microsoft.com/power-bi/report-server/quickstart-embed#create-the-power-bi-report-url) 中的步骤获取 URL。 注意，常规身份验证规则适用，因此查看内容需要与本地服务器建立 VPN 连接。 
 * 嵌入内容的顶部显示安全警告，表示该内容不在 Power BI 中。
 
 
