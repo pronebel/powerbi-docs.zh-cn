@@ -8,13 +8,13 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: overview
-ms.date: 07/15/2019
-ms.openlocfilehash: 2e59499b93f4d1b4879cdec5b807f863a80718aa
-ms.sourcegitcommit: 805d52e57a935ac4ce9413d4bc5b31423d33c5b1
+ms.date: 09/04/2019
+ms.openlocfilehash: 2be953c31ba3090e83e58f8e5626bb83e249556e
+ms.sourcegitcommit: 09ee1b4697aad84d8f4c9421015d7e4dbd3cf25f
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/30/2019
-ms.locfileid: "68665368"
+ms.lasthandoff: 09/04/2019
+ms.locfileid: "70302694"
 ---
 # <a name="paginated-reports-in-power-bi-faq"></a>Power BI 中的分页报表：常见问题解答 
 
@@ -26,11 +26,11 @@ ms.locfileid: "68665368"
 
 ### <a name="what-size-premium-capacity-do-i-need-for-paginated-reports"></a>用于分页报表的的高级容量的大小是多少？
 
-分页报表工作负荷可用于 P1 - P3 SKU。  对于 SaaS 嵌入方案，还可以将它用于 A4 - A6 SKU。
+分页报表工作负荷可用于 P1 - P3 SKU。  你也可以将它与 A4-A6 SKU 一起用于嵌入或测试/开发场景。
 
 ### <a name="what-is-the-maximum-memory-threshold-i-can-put-for-paginated-reports-in-my-capacity"></a>可以在我的容量中为分页报表保留的最大内存阈值是多少？
 
-到 2019 年 6 月底，最多可以对此工作负荷使用全部内存。 
+最多可以将全部内存用于此工作负荷。
 
 ### <a name="how-does-user-access-work-for-paginated-reports"></a>用户如何访问分页报表中的工作？
 
@@ -42,7 +42,7 @@ ms.locfileid: "68665368"
 
 ### <a name="how-can-i-monitor-usage-of-paginated-reports-in-my-tenant"></a>我如何在我的租户中监视分页报表的使用？
 
-Office 365 审核日志在以下事件下详细记录此报表类型的使用情况： 
+Office 365 审核日志在以下活动下详细记录此报表类型的使用情况： 
 
 - 查看 Power BI 报表
 - 删除 Power BI 报表
@@ -152,7 +152,7 @@ Azure Analysis Services、Azure SQL 数据库和 Power BI 数据源支持 SSO。
 
 能，打印功能可用于分页报表，包括经过改进的全新打印预览体验。 
 
-### <a name="are-e-mail-subscriptions-available-yet-for-paginated-reports"></a>分页报表目前提供电子邮件订阅吗？
+### <a name="are-e-mail-subscriptions-available-for-paginated-reports"></a>电子邮件订阅能用于分页报表吗？
 
 能，分页报表完全支持电子邮件订阅，并支持六个不同的文件格式和参数值。
 
@@ -166,7 +166,7 @@ Azure Analysis Services、Azure SQL 数据库和 Power BI 数据源支持 SSO。
 
 ### <a name="can-i-drill-through-from-a-power-bi-report-to-a-paginated-report"></a>我是否可以从 Power BI 报表钻取到分页报表？
 
-目前还不行，但我们一定会计划支持此方案。
+可以，可通过将 URL 参数与分页报表一起使用来实现此目的。
 
 ### <a name="can-i-share-my-paginated-report-content-through-a-power-bi-app"></a>我可以通过 Power BI 应用共享我的分页报表内容吗？
 
