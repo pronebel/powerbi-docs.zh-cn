@@ -303,7 +303,7 @@ R 程序包存在大量要求和限制：
 |foreign|0.8-69|https://cran.r-project.org/web/packages/foreign/index.html|
 |formatR|1.5|https://cran.r-project.org/web/packages/formatR/index.html|
 |formattable|0.2.0.1|https://cran.r-project.org/web/packages/formattable/index.html|
-|公式|1.2-2|https://cran.r-project.org/web/packages/Formula/index.html|
+|Formula|1.2-2|https://cran.r-project.org/web/packages/Formula/index.html|
 |fpc|2.1-11|https://cran.r-project.org/web/packages/fpc/index.html|
 |fracdiff|1.4-2|https://cran.r-project.org/web/packages/fracdiff/index.html|
 |fTrading|3042.79|https://cran.r-project.org/web/packages/fTrading/index.html|
@@ -374,7 +374,7 @@ R 程序包存在大量要求和限制：
 |gower|0.1.2|https://cran.r-project.org/web/packages/gower/index.html|
 |GPArotation|2014.11-1|https://cran.r-project.org/web/packages/GPArotation/index.html|
 |gplots|3.0.1|https://cran.r-project.org/web/packages/gplots/index.html|
-|图形|3.4.4|NA|
+|graphics|3.4.4|NA|
 |grDevices|3.4.4|NA|
 |grid|3.4.4|NA|
 |gridBase|0.4-7|https://cran.r-project.org/web/packages/gridBase/index.html|
@@ -703,7 +703,7 @@ R 程序包存在大量要求和限制：
 |relimp|1.0-5|https://cran.r-project.org/web/packages/relimp/index.html|
 |rematch|1.0.1|https://cran.r-project.org/web/packages/rematch/index.html|
 |Renext|3.1-0|https://cran.r-project.org/web/packages/Renext/index.html|
-|报表|0.1.4|https://cran.r-project.org/web/packages/reports/index.html|
+|reports|0.1.4|https://cran.r-project.org/web/packages/reports/index.html|
 |reprex|0.1.2|https://cran.r-project.org/web/packages/reprex/index.html|
 |reshape|0.8.7|https://cran.r-project.org/web/packages/reshape/index.html|
 |reshape2|1.4.3|https://cran.r-project.org/web/packages/reshape2/index.html|
@@ -909,7 +909,7 @@ R 程序包存在大量要求和限制：
 |TraMineR|2.0-8|https://cran.r-project.org/web/packages/TraMineR/index.html|
 |translations|3.4.4|NA|
 |tree|1.0-39|https://cran.r-project.org/web/packages/tree/index.html|
-|树状图|2.4-2|https://cran.r-project.org/web/packages/treemap/index.html|
+|treemap|2.4-2|https://cran.r-project.org/web/packages/treemap/index.html|
 |trelliscopejs|0.1.18|https://cran.r-project.org/web/packages/trelliscopejs/index.html|
 |trimcluster|0.1-2|https://cran.r-project.org/web/packages/trimcluster/index.html|
 |truncnorm|1.0-8|https://cran.r-project.org/web/packages/truncnorm/index.html|
