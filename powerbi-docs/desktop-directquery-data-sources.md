@@ -8,14 +8,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 08/29/2019
+ms.date: 09/04/2019
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 5455a5f3b4bda6cf6d63825222822c4acfa5f03a
-ms.sourcegitcommit: c0f4d00d483121556a1646b413bab75b9f309ae9
+ms.openlocfilehash: 59c55d2e9322b0b7d76a35f4eec0863efe4959e0
+ms.sourcegitcommit: 09ee1b4697aad84d8f4c9421015d7e4dbd3cf25f
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/29/2019
-ms.locfileid: "70159948"
+ms.lasthandoff: 09/04/2019
+ms.locfileid: "70302643"
 ---
 # <a name="data-sources-supported-by-directquery-in-power-bi"></a>Power BI 中 DirectQuery 支持的数据源
 
@@ -29,14 +29,16 @@ Power BI Desktop  和 Power BI 服务  有多个可以连接并访问数据的�
 * Azure HDInsight Spark
 * [Azure SQL 数据库](service-azure-sql-database-with-direct-connect.md)
 * [Azure SQL 数据仓库](service-azure-sql-data-warehouse-with-direct-connect.md)
+* Denodo
 * Google BigQuery
 * HDInsight 交互式查询
-* IBM DB2 数据库
+* IBM DB2（Microsoft 提供程序）
 * IBM Netezza
 * Impala（版本 2.x）
 * MarkLogic
 * Oracle 数据库（版本 12 及更高版本)
 * Oracle Essbase
+* PostgreSQL
 * SAP Business Warehouse 应用程序服务器
 * SAP Business Warehouse 消息服务器
 * SAP HANA
@@ -65,15 +67,24 @@ Power BI Desktop  和 Power BI 服务  有多个可以连接并访问数据的�
 | Azure SQL 数据仓库 |否 |
 | Google BigQuery |否 |
 | IBM Netezza |是 |
+| IBM DB2（IBM 提供程序） |是 |
+| IBM DB2（Microsoft 提供程序） |否 |
+| IBM Informix 数据库 |否 |
 | Impala（版本 2.x） |是 |
+| MySQL |是 |
+| ODBC |是 |
 | Oracle 数据库 |是 |
+| PostgreSQL |是 |
 | SAP Business Warehouse 应用程序服务器 |是 |
 | SAP Business Warehouse 消息服务器 |在 Power BI 服务  中尚不受支持 |
 | SAP HANA |是 |
 | Snowflake |是 |
 | Spark (Beta)，版本 0.9 及更高版本 |是 |
 | SQL Server |是 |
+| Sybase |是 |
 | Teradata 数据库 |是 |
+| Vertica |是 |
+
 
 ## <a name="single-sign-on-sso-for-directquery-sources"></a>DirectQuery 源的单一登录 (SSO)
 

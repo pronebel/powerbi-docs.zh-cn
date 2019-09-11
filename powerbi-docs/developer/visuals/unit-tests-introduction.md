@@ -1,6 +1,6 @@
 ---
-title: 单元测试简介
-description: 如何为 Power BI 视觉对象项目编写单元测试
+title: Power BI 视觉对象项目的单元测试简介
+description: 本文介绍如何为 Power BI 视觉对象项目编写单元测试
 author: zBritva
 ms.author: v-ilgali
 manager: rkarlin
@@ -9,31 +9,29 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: tutorial
 ms.date: 06/18/2019
-ms.openlocfilehash: 4b16eaad9b541bf6e5d8df49ffda99d9bbd5bbf2
-ms.sourcegitcommit: 473d031c2ca1da8935f957d9faea642e3aef9839
+ms.openlocfilehash: f0040ef53fbbce8c7133e5f645bcbddb0bbfadea
+ms.sourcegitcommit: b602cdffa80653bc24123726d1d7f1afbd93d77c
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/23/2019
-ms.locfileid: "68424530"
+ms.lasthandoff: 09/03/2019
+ms.locfileid: "70236717"
 ---
 # <a name="tutorial-add-unit-tests-for-power-bi-visual-projects"></a>教程：为 Power BI 视觉对象项目添加单元测试
 
-本教程介绍为 Power BI 视觉对象编写单元测试的相关基础知识。
+本文介绍了为 Power BI 视觉对象编写单元测试的相关基础知识，包括如何：
 
-在本教程中，我们将考虑
-
-* 如果使用测试运行程序 karma.js 测试框架 jasmine.js
-* 如何使用 powerbi-visuals-utils-testutils 包
-* 如何借助 Mocks 和 Fakes 集来简化 Power BI 视觉对象的单元测试。
+* 设置 Karma JavaScript 测试运行程序测试框架 Jasmine。
+* 使用 powerbi-visuals-utils-testutils 包。
+* 借助 Mocks 和 Fakes 来简化 Power BI 视觉对象的单元测试。
 
 ## <a name="prerequisites"></a>先决条件
 
-* 你拥有 Power BI 视觉对象项目
+* 已安装的 Power BI 视觉对象项目
 * 经过配置的 Node.JS 环境
 
-## <a name="install-and-configure-karmajs-and-jasmine"></a>安装并配置 karma.js 和 jasmine
+## <a name="install-and-configure-the-karma-javascript-test-runner-and-jasmine"></a>安装和配置 Karma JavaScript 测试运行程序和 Jasmine
 
-将所需库添加到 package.json 中的 `devDependencies` 部分：
+将所需的库添加到 `devDependencies` 部分中的 package.json 文件中  ：
 
 ```json
 "@babel/polyfill": "^7.2.5",
@@ -67,19 +65,19 @@ ms.locfileid: "68424530"
 "webpack": "4.26.0"
 ```
 
-请查看下方说明，了解有关该包的详细信息。
+要详细了解此包，请参阅下方的说明。
 
-保存 `package.json` 并在 `package.json` 位置的命令行上执行：
+保存 package.json 文件，并在 `package.json` 位置运行以下命令  ：
 
 ```cmd
 npm install
 ```
 
-包管理器将安装添加到 `package.json` 的所有新包
+包管理器安装已添加到 package.json 的所有新包  。
 
-为运行单元测试，需要配置测试运行程序和 `webpack` 配置。可在此处查找配置示例
+要运行单元测试，请配置测试运行程序和 `webpack` 配置。
 
-`test.webpack.config.js` 示例：
+以下代码是 test.webpack.config.js 文件的示例  ：
 
 ```typescript
 const path = require('path');
@@ -147,7 +145,7 @@ module.exports = {
 };
 ```
 
-`karma.conf.ts` 示例
+以下代码是 karma.conf.ts 文件的示例  ：
 
 ```typescript
 "use strict";
@@ -252,31 +250,29 @@ module.exports = (config: Config) => {
 
 如有需要，可修改此配置。
 
-`karma.conf.js` 的某些设置：
+Karma 中的代码包含以下变量  ：
 
-* `recursivePathToTests` 变量定位测试代码的位置。
+* `recursivePathToTests`：定位测试代码
 
-* `srcRecursivePath` 变量在编译后定位输出的 JS 代码。
+* `srcRecursivePath`：编译后，定位输出 JavaScript 代码
 
-* `srcCssRecursivePath` 变量在使用样式编译 less 文件后定位输出的 CSS。
+* `srcCssRecursivePath`：在使用样式编译较少的文件后定位输出 CSS
 
-* `srcOriginalRecursivePath` 变量定位视觉对象的源代码。
+* `srcOriginalRecursivePath`：定位视觉对象的源代码
 
-* `coverageFolder` - 变量确定覆盖率报表的创建位置。
+* `coverageFolder`：确定要创建覆盖率报表的位置
 
-配置的某些属性：
+配置文件包含以下属性：
 
-* `singleRun: true` - 测试在 CI 系统上运行。 只需一次就足够了。
-可更改为 `false` 以调试测试。 Karma 将持续运行浏览器，并允许使用控制台进行调试。
+* `singleRun: true`：测试在持续集成 (CI) 系统上运行，或者可以运行一次。 可将设置更改为 false 以调试测试  。 Karma 保持浏览器运行，以便可以使用控制台进行调试。
 
-* `files: [...]` - 在此数组中，可以设置要加载到浏览器的文件。
-通常有源文件、测试用例、库（jasmine、测试 utils）。 如有需要，可添加和列出其他文件。
+* `files: [...]`：在本数组中，可以指定要加载到浏览器的文件。 通常有源文件、测试用例、库（jasmine、测试实用工具）。 可以根据需要将其他文件添加到列表中。
 
-* `preprocessors` - 这部分配置用于配置动作，这些操作在单元测试执行之前执行。 会有将 TypeScript 预编译为 JS 以及准备源映射文件的操作，并会生成代码覆盖率报表。 可禁用 `coverage` 以调试测试。 覆盖率会生成测试覆盖率检查代码的附加代码，导致测试调试变得复杂。
+* `preprocessors`：在本部分中，你将配置运行单元测试之前运行的操作。 这些操作包括将 typescript 预编译为 JavaScript、准备源映射文件以及生成代码覆盖率报表。 可以在调试测试时禁用 `coverage`。 覆盖率会生成测试覆盖率检查代码的附加代码，这会导致测试调试变得复杂。
 
-可在 karma.js 的[文档](https://karma-runner.github.io/1.0/config/configuration-file.html)中找到的所有配置的说明 
+如需了解所有 Karma 配置的说明，请转到 [Karma 配置文件](https://karma-runner.github.io/1.0/config/configuration-file.html)页。
 
-为方便使用，可将测试命令添加到 `scripts`：
+为方便起见，可以在 `scripts` 中添加一个测试命令：
 
 ```json
 {
@@ -292,15 +288,15 @@ module.exports = (config: Config) => {
 }
 ```
 
-现在已可开始编写单元测试了。
+现在可以开始编写单元测试了。
 
-## <a name="simple-unit-test-for-check-dom-element-of-the-visual"></a>用于检查视觉对象 DOM 元素的简单单元测试
+## <a name="check-the-dom-element-of-the-visual"></a>检查视觉对象的 DOM 元素
 
-为测试视觉对象，须创建一个视觉对象的实例。
+要测试视觉对象，首先须创建一个视觉对象实例。
 
-### <a name="creating-visual-instance-builder"></a>创建视觉对象实例生成器
+### <a name="create-a-visual-instance-builder"></a>创建视觉对象实例生成器
 
-使用下一个代码将 `visualBuilder.ts` 文件添加到 `test` 文件夹中：
+使用以下代码将 visualBuilder.ts 文件添加到“测试”文件夹   ：
 
 ```typescript
 import {
@@ -329,13 +325,13 @@ export class BarChartBuilder extends VisualBuilderBase<VisualClass> {
 }
 ```
 
-`build` 方法可用于创建视觉对象实例。 `mainElement` 是一个 get 方法，可在视觉对象中返回 "root" DOM 元素的实例。 Getter（可选）可使编写单元测试更容易。
+`build` 方法可用于创建视觉对象实例。 `mainElement` 是一个 get 方法，可在视觉对象中返回“root”文档对象模型 (DOM) 元素的实例。 Getter（可选）可使编写单元测试更容易。
 
-那么，我们有了一个视觉对象实例的生成器。 现在来编写测试用例。 这个测试用例将用于检查视觉对象显示时创建的那些 SVG 元素。
+现在已经生成了视觉对象实例。 现在来编写测试用例。 测试用例检查显示视觉对象时创建的 SVG 元素。
 
-### <a name="creating-typescript-file-to-write-test-cases"></a>创建用于编写测试用例的 TypeScript 文件
+### <a name="create-a-typescript-file-to-write-test-cases"></a>创建用于编写测试用例的 typescript 文件
 
-使用以下代码为测试用例添加 `visualTest.ts` 文件：
+使用以下代码为测试用例添加 visualTest.ts 文件  ：
 
 ```typescript
 import powerbi from "powerbi-visuals-api";
@@ -362,40 +358,36 @@ describe("BarChart", () => {
 });
 ```
 
-有几种方法要调用。
+调用了几种方法：
 
-* [`describe`](https://jasmine.github.io/api/2.6/global.html#describe) 方法描述测试用例。 在 jasmine 框架的上下文中，通常会调用一套或一组规范。
+* [`describe`](https://jasmine.github.io/api/2.6/global.html#describe)：描述测试用例。 在 Jasmine 框架的上下文中，它通常描述一套或一组规范。
 
-* 每次调用 `it` 方法之前都会调用 `beforeEach` 方法，前者在 [`describe`](https://jasmine.github.io/api/2.6/global.html#beforeEach) 方法中定义。
+* `beforeEach`：在每次调用 `it` 方法之前调用，该方法在 [`describe`](https://jasmine.github.io/api/2.6/global.html#beforeEach) 方法中定义。
 
-* `it` 定义单个规范。[`it`](https://jasmine.github.io/api/2.6/global.html#it) 方法应包含一个或多个 `expectations`。
+* [`it`](https://jasmine.github.io/api/2.6/global.html#it)：定义单个规范。`it` 方法应包含一个或多个 `expectations`。
 
-* [`expect`](https://jasmine.github.io/api/2.6/global.html#expect) - 方法创建规范预期。如果所有预期均通过而未发生任何失败，规范就会成功。
+* [`expect`](https://jasmine.github.io/api/2.6/global.html#expect)：创建规范预期。如果所有预期均通过而未发生任何失败，规范成功。
 
-* `toBeInDOM` - 这是一个匹配程序方法。 有关匹配程序，可阅读 jasmine 框架的[文档](https://jasmine.github.io/api/2.6/matchers.html)，了解相关信息。
+* `toBeInDOM`：这是匹配程序的方法之一  。 有关匹配程序的详细信息，请参阅 [Jasmine 命名空间：匹配程序](https://jasmine.github.io/api/2.6/matchers.html)。
 
-在官方[文档](https://jasmine.github.io/)中阅读有关 jasmine 框架的详细信息  。
-
-之后，可在命令行工具中键入命令，运行单元测试。
-
-此测试检查是否创建了视觉对象的根 SVG 元素。
+有关 Jasmine 的详细信息，请参阅[Jasmine 框架文档](https://jasmine.github.io/)页。
 
 ### <a name="launch-unit-tests"></a>启动单元测试
 
-若要运行单元测试，可在命令行工具中键入此命令。
+此测试检查是否创建了视觉对象的根 SVG 元素。 要运行单元测试，请在命令行工具中输入以下命令：
 
 ```cmd
 npm run test
 ```
 
-`karma.js` 运行 Chrome 浏览器并执行测试用例。
+`karma.js` 在 Chrome 浏览器中运行测试用例。
 
-![KarmaJS 在 Chrome 中启动](./media/karmajs-chrome.png)
+![在 Chrome 中打开的 Karma JavaScript](./media/karmajs-chrome.png)
 
 > [!NOTE]
-> Google Chrome 须安装在本地。
+> 必须在本地安装 Google Chrome。
 
-在命令行中，将得到以下输出：
+在命令行窗口，将得到以下输出：
 
 ```cmd
 > karma start
@@ -418,7 +410,7 @@ Lines        : 20.85% ( 44/211 )
 
 ### <a name="how-to-add-static-data-for-unit-tests"></a>如何为单元测试添加静态数据
 
-在 `test` 文件夹中创建 `visualData.ts` 文件。 使用以下代码：
+使用以下代码在“测试”文件夹中创建 visualData.ts 文件   ：
 
 ```typescript
 import powerbi from "powerbi-visuals-api";
@@ -460,17 +452,17 @@ export class SampleBarChartDataBuilder extends TestDataViewBuilder {
 
 `SampleBarChartDataBuilder` 类扩展 `TestDataViewBuilder` 并实现抽象方法 `getDataView`。
 
-将数据放入数据字段 Bucket 时，Power BI 会根据数据生成类别 `dataview` 对象。
+将数据放入数据字段存储桶时，Power BI 会生成基于数据的类别 `dataview` 对象。
 
-![已归档的 Bucket](./media/fields-buckets.png)
+![数据字段存储桶](./media/fields-buckets.png)
 
-在单元测试中，你没有可用于重现它的 Power BI 核心函数。 但你需要将静态数据映射到类别 `dataview`。 可借助 `TestDataViewBuilder` 类实现此操作。
+在单元测试中，你没有可用于重现数据的 Power BI 核心函数。 但你需要将静态数据映射到类别 `dataview`。 `TestDataViewBuilder` 类可协助你进行映射。
 
-[阅读有关 DataViewMapping 的详细信息](https://github.com/Microsoft/PowerBI-visuals/blob/master/Capabilities/DataViewMappings.md)
+有关数据视图映射的详细信息，请参阅 [DataViewMappings](https://github.com/Microsoft/PowerBI-visuals/blob/master/Capabilities/DataViewMappings.md)。
 
-在 `getDataView` 方法中，只需使用数据调用 `createCategoricalDataViewBuilder` 方法即可。
+在 `getDataView` 方法中，使用数据调用 `createCategoricalDataViewBuilder` 方法。
 
-在 `sampleBarChart` 视觉对象 [capabilities.json](https://github.com/Microsoft/PowerBI-visuals-sampleBarChart/blob/master/capabilities.json#L2) 中，我们有 dataRoles 和 dataViewMapping 对象：
+在 `sampleBarChart` 视觉对象 [capabilities.json](https://github.com/Microsoft/PowerBI-visuals-sampleBarChart/blob/master/capabilities.json#L2) 文件中，我们有 dataRoles 和 dataViewMapping 对象：
 
 ```json
 "dataRoles": [
@@ -549,13 +541,13 @@ export class SampleBarChartDataBuilder extends TestDataViewBuilder {
 ], columnNames)
 ```
 
-其中有 `this.valuesCategory` 类别的数组。
+其中，`this.valuesCategory` 是类别的数组：
 
 ```ts
 public valuesCategory: string[] = ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"];
 ```
 
-和每个类别的 `this.valuesMeasure` 度量值数组。 示例：
+`this.valuesMeasure` 是每个类别的度量值数组：
 
 ```ts
 public valuesMeasure: number[] = [742731.43, 162066.43, 283085.78, 300263.49, 376074.57, 814724.34, 570921.34];
@@ -563,7 +555,7 @@ public valuesMeasure: number[] = [742731.43, 162066.43, 283085.78, 300263.49, 37
 
 现在，可在单元测试中使用 `SampleBarChartDataBuilder` 类。
 
-`powerbi-visuals-utils-testutils` 包中定义的 `ValueType` 类。 且 `createCategoricalDataViewBuilder` 方法需要 `lodash` 库。
+`ValueType` 类在 powerbi-visuals-utils-testutils 包中定义。 `createCategoricalDataViewBuilder` 方法需要 `lodash` 库。
 
 将这些包添加到依赖项中。
 
@@ -582,7 +574,7 @@ npm install
 
 以安装 `lodash-es` 库。
 
-现在，可再次运行单元测试。 必须得到此输出
+现在，可再次运行单元测试。 必获得以下输出：
 
 ```cmd
 > karma start
@@ -603,27 +595,25 @@ Lines        : 52.83% ( 112/212 )
 ================================================================================
 ```
 
-须看到 Chrome 浏览器已启动且带有视觉对象。
+视觉对象将在 Chrome 浏览器中打开，如下所示：
 
 ![UT 在 Chrome 中启动](./media/karmajs-chrome-ut-runned.png)
 
-深度关注覆盖率摘要。 打开 `coverage\index.html` 以了解有关当前代码覆盖率的详细信息
+摘要显示覆盖范围有所增加。 若要详细了解当前代码覆盖率，请打开 `coverage\index.html`。
 
 ![UT 覆盖率索引](./media/code-coverage-index.png)
 
-或在 `src` 文件夹范围内
+或查看 `src` 文件夹的范围：
 
-![Src 文件夹覆盖率](./media/code-coverage-src-folder.png)
+![src 文件夹的覆盖率](./media/code-coverage-src-folder.png)
 
-在文件范围内，可查看源代码。 如果在运行单元测试期间未执行某个代码，则 `Coverage` utils 会将行背景标记为红色。
+在文件范围内，可查看源代码。 如果在单元测试期间未执行某些代码，`Coverage` 实用程序将以红色突出显示该行。
 
-![Visual.ts 文件的代码覆盖](./media/code-coverage-visual-src.png)
+![visual.ts 文件的代码覆盖率](./media/code-coverage-visual-src.png)
 
 > [!IMPORTANT]
-> 但代码覆盖并不意味会实现好的视觉对象功能覆盖。 一个简单的单元测试在 `src\visual.ts` 中提供超过 96% 的覆盖率。
+> 代码覆盖并不意味会实现好的视觉对象功能覆盖。 一个简单的单元测试可以在 `src\visual.ts` 中提供超过 96% 的覆盖率。
 
 ## <a name="next-steps"></a>后续步骤
 
-视觉对象就绪时，可将视觉对象提交至发布。
-
-[阅读有关向 AppSource 发布视觉对象的详细信息](../office-store.md)
+当视觉对象就绪时，你可以提交并发布它。 有关详细信息，请参阅[将自定义视觉对象发布到 AppSource](../office-store.md)。

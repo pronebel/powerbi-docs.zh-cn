@@ -1,6 +1,6 @@
 ---
-title: 启动 URL
-description: Power BI 视觉对象可在新标签页中打开 URL
+title: 创建启动 URL
+description: 本文介绍如何使用 Power BI 视觉对象在新选项卡上打开 URL。
 author: Guy-Moses
 ms.author: guymos
 manager: rkarlin
@@ -9,16 +9,16 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: conceptual
 ms.date: 06/18/2019
-ms.openlocfilehash: 1a7002c3b45f341c0cbc0db683bc4f8a113e21f9
-ms.sourcegitcommit: 473d031c2ca1da8935f957d9faea642e3aef9839
+ms.openlocfilehash: 3ef6be9383b606ce865b4bcd3ccda397e471301b
+ms.sourcegitcommit: b602cdffa80653bc24123726d1d7f1afbd93d77c
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/23/2019
-ms.locfileid: "68424852"
+ms.lasthandoff: 09/03/2019
+ms.locfileid: "70236651"
 ---
-# <a name="launch-url"></a>启动 URL
+# <a name="create-a-launch-url"></a>创建启动 URL
 
-通过将实际工作委托给 Power BI，启动 URL 时允许打开新的浏览器标签页（或窗口）。
+通过创建启动 URL，可通过将实际工作委托给 Power BI 打开新的浏览器标签页（或窗口）。
 
 ## <a name="sample"></a>示例
 
@@ -36,18 +36,21 @@ this.host.launchUrl('http://some.link.net');
 
 ## <a name="restrictions"></a>限制
 
-* 仅使用绝对路径，不使用相对路径。 `http://some.link.net/subfolder/page.html` 可以打开，`/page.html` 则无法打开。
-* 目前仅支持 `http` 和 `https` 协议。 请避免使用 `ftp` 和 `mailto` 等协议。
+* 仅使用绝对路径，不使用相对路径。 例如，使用绝对路径（如 `http://some.link.net/subfolder/page.html`）。 不会打开相对路径 `/page.html`。
+
+* 目前仅支持 HTTP 和 HTTPS 协议   。 避免使用 FTP、MAILTO 等   。
 
 ## <a name="best-practices"></a>最佳做法
 
-1. 大多数情况，最好只打开一个链接作为对用户显式操作的响应。 使用户轻松了解单击链接或按钮会打开新的标签页。在无用户操作的情况下触发 `launchUrl()` 调用或者因另一操作意外触发此调用会让用户感到困惑或沮丧。
-2. 如果链接对视觉对象的正常运行无关紧要，建议为报表的作者提供一种禁用和隐藏链接的方法。 这对于一些 Power BI 特殊用例尤其有用，例如将报表嵌入第三方应用程序或将报表发布到 Web。
-3. 避免从循环、视觉对象的 `update` 函数或者任何其他经常重复使用的代码内触发 `launchUrl()` 调用。
+* 通常情况下，最好只打开一个链接作为对用户显式操作的响应。 使用户轻松了解单击链接或按钮会打开新的标签页。在无用户操作的情况下触发 `launchUrl()` 调用或者因另一操作意外触发此调用会让用户感到困惑或沮丧。
 
-## <a name="step-by-step-example"></a>分步操作示例
+* 如果链接对视觉对象的正常运行无关紧要，建议为报表的作者提供一种禁用和隐藏链接的方法。 该建议对于一些 Power BI 特殊用例尤其有用，例如将报表嵌入第三方应用程序或将报表发布到 Web。
 
-### <a name="adding-a-link-launching-element"></a>添加链接启动元素
+* 避免从循环、视觉对象的 `update` 函数或者任何其他经常重复使用的代码内触发 `launchUrl()` 调用。
+
+## <a name="a-step-by-step-example"></a>分步示例
+
+### <a name="add-a-link-launching-element"></a>添加链接启动元素
 
 已在视觉对象的 `constructor` 函数中添加以下代码行：
 
@@ -56,7 +59,7 @@ this.host.launchUrl('http://some.link.net');
     options.element.appendChild(this.helpLinkElement);
 ```
 
-此外，还添加了一个创建和附加 anchor 元素的私有函数：
+添加了一个创建和附加 anchor 元素的私有函数：
 
 ```typescript
 private createHelpLinkElement(): Element {
@@ -71,7 +74,7 @@ private createHelpLinkElement(): Element {
 };
 ```
 
-最后，visual.less 文件中的一个条目定义链接元素的样式：
+最后，visual.less 文件中的一个条目定义链接元素的样式  ：
 
 ```less
 .helpLink {
@@ -103,10 +106,11 @@ private createHelpLinkElement(): Element {
 }
 ```
 
-### <a name="adding-a-toggling-mechanism"></a>添加切换机制
+### <a name="add-a-toggling-mechanism"></a>添加切换机制
 
-这需要添加一个静态对象（请参阅[静态对象教程](https://microsoft.github.io/PowerBI-visuals/docs/concepts/objects-and-properties)），以便报表作者切换链接元素的可见状态（默认为隐藏状态）。
-`showHelpLink` 布尔值静态对象已添加到 `capabilities.json` 对象条目中：
+若要添加切换机制，需要添加一个静态对象，以便报表的作者可以切换链接元素的可见性。 （默认设置为“隐藏”。  ）有关详细信息，请参阅[静态对象教程](https://microsoft.github.io/PowerBI-visuals/docs/concepts/objects-and-properties)。
+
+`showHelpLink` 布尔静态对象已添加到 capabilities.json 文件的对象条目中，如以下代码所示  ：
 
 ```typescript
 "objects": {
@@ -136,4 +140,4 @@ if (settings.generalView.showHelpLink) {
 }
 ```
 
-visual.less 中定义了 `hidden` 类，用于控制元素的显示。
+visual.less 文件中定义了“hidden”类，用于控制元素的显示   。

@@ -1,6 +1,6 @@
 ---
-title: 对象和属性
-description: Power BI 视觉对象的可自定义属性
+title: Power BI 视觉对象的对象和属性
+description: 本文介绍 Power BI 视觉对象的可自定义属性。
 author: MrMeison
 ms.author: rasala
 manager: rkarlin
@@ -9,20 +9,18 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: conceptual
 ms.date: 06/18/2019
-ms.openlocfilehash: c22a1cfb281c9902d490e2320b85c2f6bbb63468
-ms.sourcegitcommit: 473d031c2ca1da8935f957d9faea642e3aef9839
+ms.openlocfilehash: e15d80af35ff7c56879dab4380d4ae0c9fdd0e8a
+ms.sourcegitcommit: b602cdffa80653bc24123726d1d7f1afbd93d77c
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/23/2019
-ms.locfileid: "68424599"
+ms.lasthandoff: 09/03/2019
+ms.locfileid: "70236617"
 ---
-# <a name="object-and-properties"></a>对象和属性
+# <a name="objects-and-properties-of-power-bi-visuals"></a>Power BI 视觉对象的对象和属性
 
-对象描述与视觉对象关联的可自定义属性。
-每个对象可以具有多个属性，每个属性都有与之关联的类型。
-类型指示属性将是什么属性。 请参阅下文了解有关类型的详细信息。
+对象描述与视觉对象关联的可自定义属性。 对象可以具有多个属性，并且每个属性都具有描述属性的关联类型。 本文提供有关对象和属性类型的信息。
 
-`myCustomObject` 是用于引用 `dataView` 和 `enumerateObjectInstances` 中的对象的内部名称
+`myCustomObject` 是用于引用 `dataView` 和 `enumerateObjectInstances` 中的对象的内部名称。
 
 ```json
 "objects": {
@@ -53,7 +51,7 @@ ms.locfileid: "68424599"
 > [!NOTE]
 > `show` 是一个特殊属性，允许通过开关来切换对象。
 
-示例：
+示例:
 
 ```json
 "properties": {
@@ -66,12 +64,13 @@ ms.locfileid: "68424599"
 
 ### <a name="property-types"></a>属性类型
 
-具有两种类型的属性类型：`ValueTypeDescriptor` 和 `StructuralTypeDescriptor`。
+具有两种属性类型：`ValueTypeDescriptor` 和 `StructuralTypeDescriptor`。
 
 #### <a name="value-type-descriptor"></a>值类型描述符
 
-`ValueTypeDescriptor` 主要是基元类型，通常用作静态对象。
-下面是一些常见 `ValueTypeDescriptor`
+`ValueTypeDescriptor` 类型大多为基元类型，通常用作静态对象。
+
+下面是一些常见 `ValueTypeDescriptor` 元素：
 
 ```typescript
 export interface ValueTypeDescriptor {
@@ -84,8 +83,8 @@ export interface ValueTypeDescriptor {
 
 #### <a name="structural-type-descriptor"></a>结构类型描述符
 
-`StructuralTypeDescriptor` 主要用于数据绑定对象。
-填充是最常见的 `StructuralTypeDescriptor`
+`StructuralTypeDescriptor` 类型主要用于数据绑定对象。
+最常见的 `StructuralTypeDescriptor` 类型为填充  。
 
 ```typescript
 export interface StructuralTypeDescriptor {
@@ -95,8 +94,9 @@ export interface StructuralTypeDescriptor {
 
 ## <a name="gradient-property"></a>渐变属性
 
-渐变属性不能设置为标准属性。 相反，需要设置一个规则，以替代颜色选取器属性（填充类型）。
-请看以下示例：
+渐变属性不能设置为标准属性。 相反，需要设置一个规则，以替代颜色选取器属性（填充类型）  。
+
+以下代码中显示了一个示例：
 
 ```json
 "properties": {
@@ -137,13 +137,13 @@ export interface StructuralTypeDescriptor {
 }
 ```
 
-注意 `"fill"` 和 `"fillRule"` 属性。 第一个属性是颜色选取器，第二个属性是在满足规则条件时将替代“填充”属性 `visually` 的渐变替代规则。
+请注意填充和 fillRule 属性   。 第一个属性是颜色选取器，第二个属性是在满足规则条件时将替代“填充”属性 `visually` 的渐变替代规则  。
 
-填充属性和替代规则之间的此链接在 `"fillRule"` 属性的 `"rule"`->`"output"` 部分中设置。
+填充属性和替代规则之间的此链接在 fillRule 属性的 `"rule"`>`"output"` 部分中设置   。
 
-`"Rule"`->`"InputRole"` 设置触发规则（条件）的数据角色。 在此示例中，如果数据角色 `"Gradient"` 包含数据，将为 `"fill"` 属性应用该规则。
+`"Rule"`>`"InputRole"` 属性设置触发规则（条件）的数据角色。 在此示例中，如果数据角色 `"Gradient"` 包含数据，将为 `"fill"` 属性应用该规则。
 
-下面显示了触发填充规则 (`the last item`) 的数据角色的示例。
+下面的代码显示了触发填充规则 (`the last item`) 的数据角色的示例：
 
 ```json
 {
@@ -170,9 +170,9 @@ export interface StructuralTypeDescriptor {
 }
 ```
 
-## <a name="enumerateobjectinstances-method"></a>`enumerateObjectInstances` 方法
+## <a name="the-enumerateobjectinstances-method"></a>enumerateObjectInstances 方法
 
-若要有效使用对象，需要使用自定义视觉对象中名为 `enumerateObjectInstances` 的函数。 此函数将使用对象填充属性窗格，并决定对象在 dataView 中的绑定位置。  
+若要有效使用对象，需要使用自定义视觉对象中名为 `enumerateObjectInstances` 的函数。 此函数使用对象填充属性窗格，并决定对象在 dataView 中的绑定位置。  
 
 典型设置如下所示：
 
@@ -197,7 +197,7 @@ public enumerateObjectInstances(options: EnumerateVisualObjectInstancesOptions):
 
 ### <a name="properties"></a>属性
 
-`enumerateObjectInstances` 中的属性反映在功能中定义的属性。 请查看页底部的示例。
+`enumerateObjectInstances` 中的属性反映在功能中定义的属性。 有关示例，请参阅本文末尾。
 
 ### <a name="objects-selector"></a>对象选择器
 
@@ -205,7 +205,7 @@ public enumerateObjectInstances(options: EnumerateVisualObjectInstancesOptions):
 
 #### <a name="static"></a>静态
 
-此对象将绑定到元数据 `dataviews[index].metadata.objects`
+此对象绑定到元数据 `dataviews[index].metadata.objects`，如下所示。
 
 ```typescript
 selector: null
@@ -213,7 +213,7 @@ selector: null
 
 #### <a name="columns"></a>列
 
-此对象将绑定到具有匹配 `QueryName` 的列。
+此对象绑定到具有匹配 `QueryName` 的列。
 
 ```typescript
 selector: {
@@ -223,7 +223,7 @@ selector: {
 
 #### <a name="selector"></a>选择器
 
-此对象将绑定到我们为其创建了 `selectionID` 的元素。 在此示例中，假设已为某些 dataPoint 创建 `selectionID`，并且正在循环遍历它们。
+此对象将绑定到你为其创建了 `selectionID` 的元素。 在此示例中，假设已为某些 dataPoint 创建 `selectionID`，并且正在循环遍历它们。
 
 ```typescript
 for (let dataPoint in dataPoints) {
@@ -234,7 +234,7 @@ for (let dataPoint in dataPoints) {
 
 #### <a name="scope-identity"></a>作用域标识
 
-此对象将绑定到组交集处的特定值。 例如，如果具有类别 `["Jan", "Feb", "March", ...]` 和系列 `["Small", "Medium", "Large"]`，可能会需要在匹配 `Feb` 和 `Large` 的值的交集上有一个对象。 为实现此目的，可以获取这两个列的 `DataViewScopeIdentity`，将它们推送到变量 `identities`，然后再结合使用此语法与选择器。
+此对象绑定到组交集处的特定值。 例如，如果具有类别 `["Jan", "Feb", "March", ...]` 和系列 `["Small", "Medium", "Large"]`，可能会需要在匹配 `Feb` 和 `Large` 的值的交集上有一个对象。 为实现此目的，可以获取这两个列的 `DataViewScopeIdentity`，将它们推送到变量 `identities`，然后再结合使用此语法与选择器。
 
 ```typescript
 selector: {
@@ -244,7 +244,7 @@ selector: {
 
 ##### <a name="example"></a>示例
 
-在此示例中，我们展示了具有一个属性 `fill` 的 customColor 对象的 objectEnumeration 的外观。 我们希望将此对象静态绑定到 `dataViews[index].metadata.objects`
+以下示例显示具有一个属性（“填充”）的 customColor 对象的 objectEnumeration 的外观  。 我们希望将此对象静态绑定到 `dataViews[index].metadata.objects`，如下所示：
 
 ```typescript
 objectEnumeration.push({

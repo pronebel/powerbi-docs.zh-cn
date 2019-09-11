@@ -1,6 +1,6 @@
 ---
-title: 提取更多数据
-description: 对 Power BI 视觉对象启用大数据集分段提取
+title: 从 Power BI 中提取更多数据
+description: 本文介绍如何对 Power BI 视觉对象启用大数据集分段提取。
 author: AviSander
 ms.author: asander
 manager: rkarlin
@@ -9,23 +9,22 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: conceptual
 ms.date: 06/18/2019
-ms.openlocfilehash: bc8ff673927fd66bf44164e4e9950c279b98c6c1
-ms.sourcegitcommit: 473d031c2ca1da8935f957d9faea642e3aef9839
+ms.openlocfilehash: 7e5ecc0e317a21d10e76e9413926822ac4d6760b
+ms.sourcegitcommit: b602cdffa80653bc24123726d1d7f1afbd93d77c
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/23/2019
-ms.locfileid: "68425059"
+ms.lasthandoff: 09/03/2019
+ms.locfileid: "70237136"
 ---
 # <a name="fetch-more-data-from-power-bi"></a>从 Power BI 中提取更多数据
 
-加载更多数据 API，克服 30,000 个数据点的硬性限制。 它以区块形式加载数据。 可根据用例配置区块大小，以提升性能。  
+本文介绍如何加载更多数据以绕过 30 KB 数据点的硬限制。 这种方法以区块的形式提供数据。 要提高性能，可以配置区块大小以适应用例。  
 
-## <a name="enable-segmented-fetch-of-large-datasets"></a>启用大数据集分段提取
+## <a name="enable-a-segmented-fetch-of-large-datasets"></a>启用大数据集分段提取
 
-对于 `dataview` 段模式，在视觉对象的 `capabilities.json` 中为所需 dataViewMapping 定义“窗口”dataReductionAlgorithm。
-`count` 决定窗口大小，窗口大小可限制每次更新中追加到 `dataview` 的新数据行数目。
+对于 `dataview` 段模式，在视觉对象的 capabilities.json 文件中为所需的 dataViewMapping 定义 dataReductionAlgorithm 的“窗口”大小  。 `count` 决定窗口大小，窗口大小可限制每次更新中可追加到 `dataview` 的新数据行数目。
 
-要添加到 capabilities.json 中的内容
+在 capabilities.json 文件中添加以下代码  ：
 
 ```typescript
 "dataViewMappings": [
@@ -47,9 +46,9 @@ ms.locfileid: "68425059"
 
 将新的段追加到现有 `dataview` 并作为 `update` 调用提供给视觉对象。
 
-## <a name="usage-in-the-custom-visual"></a>在自定义视觉对象中的用法
+## <a name="usage-in-the-power-bi-visual"></a>Power BI 视觉对象中的使用情况
 
-可以通过检查是否存在 `dataView.metadata.segment` 来确定是否存在指示数据：
+可以通过检查是否存在 `dataView.metadata.segment` 来确定数据是否存在：
 
 ```typescript
     public update(options: VisualUpdateOptions) {
@@ -59,9 +58,7 @@ ms.locfileid: "68425059"
     }
 ```
 
-还可以通过检查 `options.operationKind` 来查看是首次更新还是后续更新。
-
-`VisualDataChangeOperationKind.Create` 表示第一个段，`VisualDataChangeOperationKind.Append` 表示后续段。
+还可以通过选中 `options.operationKind` 来检查它是第一次更新还是后续更新。 在以下代码中，`VisualDataChangeOperationKind.Create` 引用第一个段，`VisualDataChangeOperationKind.Append` 引用后续段。
 
 有关示例实现，请参阅以下代码片段：
 
@@ -73,7 +70,7 @@ public update(options: VisualUpdateOptions) {
 
     }
 
-    // on second or subesquent segments:
+    // on second or subsequent segments:
     if (options.operationKind == VisualDataChangeOperationKind.Append) {
 
     }
@@ -82,24 +79,24 @@ public update(options: VisualUpdateOptions) {
 }
 ```
 
-还可从 UI 事件处理程序中调用 `fetchMoreData` 方法
+还可以从 UI 事件处理程序调用 `fetchMoreData` 方法，如下所示：
 
 ```typescript
 btn_click(){
 {
-    // check if more data is expected for the current dataview
+    // check if more data is expected for the current data view
     if (dataView.metadata.segment) {
-        //request for more data if available, as resopnce Power BI will call update method
+        //request for more data if available; as a response, Power BI will call update method
         let request_accepted: bool = this.host.fetchMoreData();
         // handle rejection
         if (!request_accepted) {
-            // for example when the 100 MB limit has been reached
+            // for example, when the 100 MB limit has been reached
         }
     }
 }
 ```
 
-Power BI 将调用视觉对象的 `update` 方法，以新数据段作为响应来调用 `this.host.fetchMoreData` 方法。
+作为对调用 `this.host.fetchMoreData` 方法的响应，Power BI 使用新的数据段调用视觉对象的 `update` 方法。
 
 > [!NOTE]
-> Power BI 目前将总数据提取量限制为 100 MB，以避免客户端内存限制  。 fetchMoreData() 返回“false”即表明已达到该限制。*
+> 为避免客户端内存限制，Power BI 当前将总数据提取量限制为 100 MB。 可以看到 fetchMoreData() 返回 `false` 时已达到限制。

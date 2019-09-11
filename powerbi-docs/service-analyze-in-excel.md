@@ -8,15 +8,15 @@ ms.custom: seodec18
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 08/29/2019
+ms.date: 09/04/2019
 ms.author: davidi
 LocalizationGroup: Reports
-ms.openlocfilehash: 6f4beb98c195c5af9967f988015959806d485696
-ms.sourcegitcommit: c0f4d00d483121556a1646b413bab75b9f309ae9
+ms.openlocfilehash: 5dbfa400f25f6981f7a73bffe1afad2acf735334
+ms.sourcegitcommit: c799941c8169cd5b6b6d63f609db66ab2af93891
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/29/2019
-ms.locfileid: "70159970"
+ms.lasthandoff: 09/06/2019
+ms.locfileid: "70391887"
 ---
 # <a name="analyze-in-excel"></a>在 Excel 中分析
 有时，你可能希望使用 Excel 查看 Power BI 中的数据集并与之交互。 借助**在 Excel 中分析**，不仅可以做到这一点，还可以基于 Power BI 中存在的数据集访问 Excel 中的数据透视表、图表和切片器功能。
@@ -67,7 +67,7 @@ ms.locfileid: "70159970"
 ### <a name="users-with-multiple-power-bi-accounts"></a>拥有多个 Power BI 帐户的用户
 某些用户拥有多个 Power BI 帐户，这些用户可能会遇到这种情况：他们使用某个帐户登录到 Power BI，但有权访问“在 Excel 中分析”中所用数据集的帐户是不同的帐户。 在这些情况下，如果尝试访问“在 Excel 工作簿中分析”中所用的数据集，你可能会遇到**禁止**错误或登录失败。
 
-你有机会再次登录，届时你可以使用有权访问“在 Excel 中分析”所访问的数据集的 Power BI 帐户登录。 也可以从 Excel 的 **Power BI** 功能区选项卡中选择**配置文件**，它标识了你当前所用的登录帐户，并提供一个链接，允许你注销（随后使用不同的帐户登录）。
+你有机会再次登录，届时你可以使用有权访问“在 Excel 中分析”所访问的数据集的 Power BI 帐户登录。 也可以从 Excel 的 **Power BI** 功能区选项卡中选择**配置文件**，它标识了你当前所用的登录帐户，并提供一个链接，允许你注销（随后使用不同的帐户登录）。 可[下载 Power BI Publisher for Excel](https://www.microsoft.com/download/details.aspx?id=50729)（如果尚未安装），这是 Excel 中 Power BI 功能区的安装方式。
 
 ![](media/service-analyze-in-excel/pbi_anlz_excel_profile.png)
 

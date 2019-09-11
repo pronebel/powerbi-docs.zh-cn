@@ -1,6 +1,6 @@
 ---
-title: 登陆页面
-description: 如何像 Power BI 视觉对象添加登陆页面
+title: 向 Power BI 视觉对象添加登陆页面
+description: 本文介绍如何向 Power BI 视觉对象添加登陆页面。
 author: sranins
 ms.author: rasala
 manager: rkarlin
@@ -9,16 +9,16 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: conceptual
 ms.date: 06/18/2019
-ms.openlocfilehash: 44cc9314b31803c97d3203d4aab846685d8f88fa
-ms.sourcegitcommit: 473d031c2ca1da8935f957d9faea642e3aef9839
+ms.openlocfilehash: d15c52134fe3c8638625e50a1374867a4abed3c1
+ms.sourcegitcommit: b602cdffa80653bc24123726d1d7f1afbd93d77c
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/23/2019
-ms.locfileid: "68424875"
+ms.lasthandoff: 09/03/2019
+ms.locfileid: "70236712"
 ---
-# <a name="landing-page"></a>登陆页面
+# <a name="add-a-landing-page-to-your-power-bi-visuals"></a>向 Power BI 视觉对象添加登陆页面
 
-使用 API 2.3.0，你可以向视觉对象添加登陆页面。为此，请将 `supportsLandingPage` 添加到功能并将其设置为 true，它会对视觉对象进行初始化和更新（即使是在向其添加数据之前，这意味着它将不再显示水印），因此，只要视觉对象中没有数据，你就可以设计自己的登录页面并显示在视觉对象中。
+使用 API 2.3.0，可将登陆页面添加到 Power BI 视觉对象。 为此，请将 `supportsLandingPage` 添加到功能中，并将其设置为 true。 在向其添加数据之前，此操作会初始化并更新你的视觉对象。 由于视觉对象不再显示水印，因此只要没有数据，你就可以设计自己的登陆页面以在视觉对象中显示。
 
 ```typescript
 export class BarChart implements IVisual {
@@ -57,6 +57,6 @@ export class BarChart implements IVisual {
     }
 ```
 
-示例
+示例登陆页面如下图所示：
 
 ![登录页面屏幕截图](./media/landing-page.png)

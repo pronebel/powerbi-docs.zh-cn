@@ -9,12 +9,12 @@ author: maggiesMSFT
 ms.author: maggies
 ms.reviewer: cfinlan
 ms.date: 08/29/2019
-ms.openlocfilehash: 4dae849a18bbfc6e85eedc7ae9e338ad205cb436
-ms.sourcegitcommit: b53a6f5575f5f8bc443ecdca9c72525ce123518f
+ms.openlocfilehash: bda35bfb4690d8109f7bd611e3d319278d235f33
+ms.sourcegitcommit: 09ee1b4697aad84d8f4c9421015d7e4dbd3cf25f
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/30/2019
-ms.locfileid: "70189337"
+ms.lasthandoff: 09/04/2019
+ms.locfileid: "70302675"
 ---
 # <a name="url-parameters-in-paginated-reports-in-power-bi"></a>Power BI 的分页报表中的 URL 参数
 
@@ -68,12 +68,12 @@ Power BI 租户的 Web 服务 URL。 例如：
 
 ### <a name="report-commands-rdl"></a>报表命令 (`rdl:`) 
 
-**导出格式** 指定呈现和导出报表采用的格式。 值包括： 
-- PPTX 
+**导出格式** 指定呈现和导出报表采用的格式。 可用值为： 
+- PPTX (PowerPoint)
 - MHTML 
 - 图像 
-- EXCEL 
-- WORD 
+- EXCELOPENXML (EXCEL) 
+- WORDOPENXML (WORD) 
 - CSV 
 - PDF 
 - XML 
