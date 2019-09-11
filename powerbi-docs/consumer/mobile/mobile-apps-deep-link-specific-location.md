@@ -11,7 +11,7 @@ ms.date: 04/24/2019
 ms.author: mshenhav
 ms.openlocfilehash: 4e09b10e38b018f8e5572343b343a243ace3bf81
 ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: zh-CN
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "64906535"
@@ -39,7 +39,7 @@ https://app.powerbi.com/Redirect?[**QUERYPARAMS**]
 
 
 **查询参数**是：
-* **操作**（必需） = OpenApp / OpenDashboard / OpenTile / OpenReport
+* **action**（必需） = OpenApp / OpenDashboard / OpenTile / OpenReport
 * **appId** = 如果你想要打开报表或仪表板的应用的一部分 
 * **groupObjectId** = 如果你想要打开报表或仪表板，其中一部分工作区 （但不是我的工作区）
 * **dashboardObjectId** = 仪表板对象 ID （如果 action 是 OpenDashboard 或 OpenTile）

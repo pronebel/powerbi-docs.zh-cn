@@ -7,19 +7,19 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 05/09/2019
+ms.date: 08/19/2019
 ms.author: davidi
 LocalizationGroup: Transform and shape data
-ms.openlocfilehash: f3d67d0b57f2f04a31d99fb36476871c164aad4d
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: ae896fb737eda6f95efa1589f2b3384e7426cf30
+ms.sourcegitcommit: 4a3afe761d2f4a5bd897fafb36b53961739e8466
+ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "65533602"
+ms.lasthandoff: 08/20/2019
+ms.locfileid: "69654583"
 ---
 # <a name="use-composite-models-in-power-bi-desktop"></a>在 Power BI Desktop 中使用复合模型
 
-以前在 Power BI Desktop 中，在报表中，任何其他数据连接的使用 DirectQuery 时是否 DirectQuery 或导入-允许该报表。 有了复合模型后，便删除了该限制。 一个报表可以在所选择的任何组合中无缝地包含来自多个 DirectQuery 或导入数据连接的数据连接。
+之前在 Power BI Desktop 中，当在报表中使用 DirectQuery 时，禁止该报表使用其他数据连接（无论是 DirectQuery 还是导入）。 有了复合模型后，便删除了该限制。 一个报表可以在所选择的任何组合中无缝地包含来自多个 DirectQuery 或导入数据连接的数据连接。
 
 ![Power BI Desktop 中的复合模型](media/desktop-composite-models/composite-models_01.png)
 
@@ -39,7 +39,7 @@ Power BI Desktop 中的复合模型功能包括三个相关功能：
 * 将数据导入 Power BI，这是获取数据最常见的方式。
 * 使用 DirectQuery 直接连接到其原始源存储库中的数据。 了解有关 DirectQuery 的详细信息，请参阅[在 Power BI 中使用 DirectQuery](desktop-directquery-about.md)。
 
-使用 DirectQuery 时*复合模型*使其可以创建 Power BI 模型 (如使用单个 *.pbix* Power BI Desktop 文件)，它完成一个或两个以下：
+使用 DirectQuery 时，可通过复合模型创建 Power BI 模型（例如 .pbix 形式的 Power BI Desktop 文件），后者执行下述任一操作或全部两项操作   ：
 
 * 合并来自一个或多个 DirectQuery 源的数据。
 * 合并来自 DirectQuery 源的数据和导入数据。
@@ -100,7 +100,7 @@ Power BI Desktop 中的复合模型功能包括三个相关功能：
 
 ![“字段”窗格](media/desktop-composite-models/composite-models_11.png)
 
-下面的示例显示的一个常见示例*维度*表-如*产品*或*客户*-通过一些额外的数据导入从其他位置，得到扩展。 还有可能使表借助 DirectQuery 连接到各个源。 若要继续了解示例，假定每个“Country”和“Period”的“Sales Targets”都存储在一个单独的部门数据库中    。 可以像往常那样使用 GetData 连接到该数据，如下图所示  : 
+以下示例显示了维度表（例如“Product”或“Customer”）的一种常见用例，它通过从其他位置导入的一些额外数据进行扩展    。 还有可能使表借助 DirectQuery 连接到各个源。 若要继续了解示例，假定每个“Country”和“Period”的“Sales Targets”都存储在一个单独的部门数据库中    。 可以像往常那样使用 GetData 连接到该数据，如下图所示  : 
 
 ![导航器窗口](media/desktop-composite-models/composite-models_12.png)
 
@@ -125,6 +125,9 @@ Power BI Desktop 中的复合模型功能包括三个相关功能：
 对于包含一些来自 DirectQuery 的表和一些导入表的任何 Power BI Desktop 文件（.pbix 文件），状态栏显示一种称为“混合”的存储模式   。 可以在状态栏中单击该术语，并轻松将所有表切换为导入。
 
 更多有关存储模式的详细信息，请参阅 [Power BI Desktop 中的存储模式（预览）](desktop-storage-mode.md)。  
+
+> [!NOTE]
+> 可在 Power BI Desktop 和 Power BI 服务中使用“混合”存储模式  。
 
 ## <a name="calculated-tables"></a>计算表
 
@@ -152,7 +155,7 @@ Power BI Desktop 中的复合模型功能包括三个相关功能：
 
 使用 DirectQuery 时应始终考虑性能，主要是为了确保后端源具有足够的资源来为用户提供良好体验。 良好的体验意味着视觉对象在五秒或更短的时间内刷新。 还应遵守[在 Power BI 中使用 DirectQuery](desktop-directquery-about.md) 一文中的性能建议。 
 
-使用复合模型有更多的性能注意事项。 单个视觉对象可能会导致将查询发送到多个源，通常从跨一个查询中将结果传递到第二个源。 这种情况可能会导致以下执行形式：
+使用复合模型有更多的性能注意事项。 只有一个视觉对象则可能导致向多个源发送查询，这通常会将来自一个查询的结果传递到第二个源。 这种情况可能会导致以下执行形式：
 
 *  包含大量文字值的 SQL 查询：例如，为一组选定的“Product Managers”请求总“Sales Amount”的视觉对象首先需要查找由这些产品经理管理的“Products”    。 此序列必须在视觉对象发送包含“WHERE”子句中的所有产品 ID 的 SQL 查询之前发生  。
 
@@ -160,7 +163,7 @@ Power BI Desktop 中的复合模型功能包括三个相关功能：
 
 *  多个 SQL 查询，按值一个组一个：如果聚合使用 DistinctCount 并按来自另一个源的某个列分组，且外部源不支持有效传递定义分组的多个文本值，则需要按值每组发送一个 SQL 查询  。 
 
-   例如，请求按“Product Manager”（从电子表格导入）排布的不同数量的 CustomerAccountNumber（来自 SQL Server 表）的视觉对象，需要在发送到 SQL Server 的查询中传递来自“Product Managers”表的详细信息    。 通过其他源（例如 Redshift），此操作不可行。 相反，会有一个 SQL 查询发送每个*销售经理*-最大一些的实际限制，此时查询将失败。 
+   例如，请求按“Product Manager”（从电子表格导入）排布的不同数量的 CustomerAccountNumber（来自 SQL Server 表）的视觉对象，需要在发送到 SQL Server 的查询中传递来自“Product Managers”表的详细信息    。 通过其他源（例如 Redshift），此操作不可行。 相反，会根据每个“Sales Manager”发送一个 SQL 查询，直到达到某个实际限制，此时查询就会失败  。 
 
 每一种情况对性能都有其相应的影响，并且每个数据源的具体细节都有所不同。 虽然在连接两个源的关系中使用的列的基数仍然很低（几千），但性能不会受到影响。 随着此基数的增长，应更注重对其产生的性能的影响。 请将此指南作为很好的经验法则。 
 
@@ -168,9 +171,9 @@ Power BI Desktop 中的复合模型功能包括三个相关功能：
 
 ## <a name="limitations-and-considerations"></a>限制和注意事项
 
-此版本的复合模型存在一些限制：
+此版本的复合模型有一些限制：
 
-目前，[增量刷新](service-premium-incremental-refresh.md)连接到 SQL、 Oracle 和 Teradata 数据源的复合模型支持。
+当前，只有连接到 SQL、Oracle 和 Teradata 数据源的复合模型支持[增量刷新](service-premium-incremental-refresh.md)。
 
 以下 Live Connect（多维）源无法用于复合模型：
 
@@ -188,7 +191,7 @@ Power BI Desktop 中的复合模型功能包括三个相关功能：
 
 若要详细了解复合模型和 DirectQuery，请参阅以下文章：
 * [Power BI Desktop 中的多对多关系](desktop-many-to-many-relationships.md)
-* [在 Power BI Desktop 中的存储模式](desktop-storage-mode.md)
+* [Power BI Desktop 中的存储模式](desktop-storage-mode.md)
 * [在 Power BI 中使用 DirectQuery](desktop-directquery-about.md)
 * [Power BI 中 DirectQuery 支持的数据源](desktop-directquery-data-sources.md)
 

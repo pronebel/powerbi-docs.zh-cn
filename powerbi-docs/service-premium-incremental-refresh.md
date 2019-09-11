@@ -7,25 +7,24 @@ ms.reviewer: kayu
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
-ms.date: 07/03/2019
+ms.date: 08/21/2019
 ms.author: mblythe
 LocalizationGroup: Premium
-ms.openlocfilehash: c743f56de101cb63db2357acf869aba80162c181
-ms.sourcegitcommit: 9278540467765043d5cb953bcdd093934c536d6d
+ms.openlocfilehash: 4f3c709c0ea699c0c9ad7ebee61889e6c7bceef8
+ms.sourcegitcommit: e62889690073626d92cc73ff5ae26c71011e012e
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/03/2019
-ms.locfileid: "67559033"
+ms.lasthandoff: 08/23/2019
+ms.locfileid: "69985761"
 ---
 # <a name="incremental-refresh-in-power-bi-premium"></a>Power BI Premium 中的增量刷新
 
 增量刷新功能可在 Power BI Premium 服务中启用大型数据集，且具备以下优势：
 
-- **刷新更快捷** - 只需刷新已更改的数据。 例如，只刷新 10 年数据集中最近 5 天的数据。
-
-- **刷新更可靠** - 不再需要维护与不稳定的源系统的长期连接。
-
-- **降低资源消耗** - 要刷新的数据量减少，这降低了内存和其他资源的整体消耗。
+> [!div class="checklist"]
+> * **刷新更快捷** - 只需刷新已更改的数据。 例如，只刷新 10 年数据集中最近 5 天的数据。
+> * **刷新更可靠** - 不再需要维护与不稳定的源系统的长期连接。
+> * **降低资源消耗** - 要刷新的数据量减少，这降低了内存和其他资源的整体消耗。
 
 ## <a name="configure-incremental-refresh"></a>配置增量刷新
 
@@ -51,9 +50,13 @@ Power BI Desktop 模型可能不适合处理具有可能数十亿行的大型数
 
 ![自定义筛选器](media/service-premium-incremental-refresh/custom-filter.png)
 
-当列值在 RangeStart 上或其后且在 RangeEnd 之前时，请务必筛选行     。
+当列值在 RangeStart 上或其后且在 RangeEnd 之前时，请务必筛选行     。 其他筛选器组合可能导致行的重复计数。
 
 ![筛选行](media/service-premium-incremental-refresh/filter-rows.png)
+
+> [!IMPORTANT]
+> 确保查询中的 RangeStart 或 RangeEnd 参数上存在一个等号 (=)，但二者不能同时具有等号   。 如果这两个参数都具有等号 (=)，部分行可能满足两个分区的条件，导致模型中存在重复数据。 例如：  
+> \#"Filtered Rows" = Table.SelectRows(dbo_Fact, each [OrderDate] **>= RangeStart** and [OrderDate] **<= RangeEnd**) 可能导致重复数据。
 
 > [!TIP]
 > 虽然参数的数据类型必须是日期/时间，但可进行转换以符合数据源的要求。 例如，下面的 Power Query 函数将日期/时间值转换为类似于 yyyymmdd 形式的整数代理键，这对数据仓库而言非常常见  。 此函数可通过筛选步骤调用。
@@ -152,7 +155,7 @@ Power BI 服务中的第一次刷新可能需要更长时间才能导入全部�
 
 若要了解超时值如何对 Power BI 服务中的刷新操作进行限制，请参阅[刷新方案故障排除](https://docs.microsoft.com/power-bi/refresh-troubleshooting-refresh-scenarios)一文。 查询还受到数据源的默认超时值的限制。 大多数关系源允许重写 M 表达式中的超时值。 例如，以下表达式通过 [SQL Server 数据访问函数](https://msdn.microsoft.com/query-bi/m/sql-database)将其设置为 2 小时。 策略范围定义的每个周期提交一个查询，以观察命令超时设置。
 
-```
+```powerquery-m
 let
     Source = Sql.Database("myserver.database.windows.net", "AdventureWorks", [CommandTimeout=#duration(0, 2, 0, 0)]),
     dbo_Fact = Source{[Schema="dbo",Item="FactInternetSales"]}[Data],
@@ -164,3 +167,4 @@ in
 ## <a name="limitations"></a>限制
 
 对于[复合模型](desktop-composite-models.md)，增量刷新当前仅支持用于 SQL Server、Azure SQL 数据库、SQL 数据仓库、Oracle 和 Teradata 数据源。
+

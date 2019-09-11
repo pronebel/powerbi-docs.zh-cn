@@ -10,12 +10,12 @@ ms.topic: reference
 ms.date: 04/10/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 1b4e134ef6f8da43a1856c8a5458c8c09b2c42b5
-ms.sourcegitcommit: f05ba39a0e46cb9cb43454772fbc5397089d58b4
+ms.openlocfilehash: 7917edc17bd93d96c22641b14c4c70bfe3222e10
+ms.sourcegitcommit: ba95d4979f1869f49a7d266c591f95e2810fdb29
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/26/2019
-ms.locfileid: "68522180"
+ms.lasthandoff: 08/19/2019
+ms.locfileid: "69621279"
 ---
 # <a name="expression-based-titles-in-power-bi-desktop"></a>Power BI Desktop 中基于表达式的标题
 
@@ -57,7 +57,7 @@ SWITCH (
 
 若要选择该字段并应用，请转到“可视化效果”窗格  。 在“格式”区域中，选择“标题”以显示可用于视觉对象的标题选项   。 
 
-右键单击“标题文本”，将显示一个上下文菜单，可在其中选择“fx 条件格式”   。 选择该菜单项后，会出现“标题文本”对话框  。 
+右键单击“标题文本”，这将显示一个上下文菜单，可在其中选择“fx条件格式”   。 选择该菜单项后，会出现“标题文本”对话框  。 
 
 ![“标题文本”对话框的屏幕截图](media/desktop-conditional-formatting-visual-titles/expression-based-title-02b.png)
 

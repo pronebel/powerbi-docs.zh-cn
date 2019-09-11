@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 07/18/2019
+ms.date: 08/19/2019
 ms.author: maggies
 LocalizationGroup: Reports
-ms.openlocfilehash: 148f4881f78b5bba9b6936f5688ba6aaea3a0145
-ms.sourcegitcommit: dc0258bb4f647ff646c6fff2aaffa29b413aa2df
+ms.openlocfilehash: 73db8f9741685549042dbaf1172e57a55a26ab36
+ms.sourcegitcommit: 4a3afe761d2f4a5bd897fafb36b53961739e8466
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/19/2019
-ms.locfileid: "68346202"
+ms.lasthandoff: 08/20/2019
+ms.locfileid: "69654442"
 ---
 # <a name="the-new-filter-experience-in-power-bi-reports"></a>Power BI 报表中的新筛选器体验
 
@@ -48,6 +48,10 @@ Power BI 中的筛选器新增了功能，并采用了新设计。 选择启用�
 3. 在“筛选体验”  下，选择“启用更新后的‘筛选器’窗格，并在此报表的视觉对象标头中显示筛选器”  。
 
 ### <a name="turn-on-new-filters-for-an-existing-report-in-the-service"></a>在该服务中为现有报表启用新筛选器
+
+如果已在 Power BI 服务中启用新外观 ![新外观已启用](media/power-bi-report-filter/power-bi-new-look-on.png)，则会自动启用新筛选体验  。 详细了解 [Power BI 服务的新外观](service-new-look.md)。
+
+如果尚未启用新外观，按照如下步骤操作也可启用新筛选体验。
 
 1. 在 Power BI 服务中，选择工作区内容列表中的“报表”选项卡  。
 2. 找到要启用的报表，然后为该报表选择“设置”图标![报表“设置”图标](media/power-bi-report-filter/power-bi-settings-icon.png)  。
@@ -121,15 +125,13 @@ Power BI 中的筛选器新增了功能，并采用了新设计。 选择启用�
 1. 在报表中，单击报表本身或背景（墙纸  ），然后在“可视化效果”  窗格中，选择“格式”  。 
     此时会看到报表页、壁纸以及“筛选器”窗格和“筛选器”卡片的格式设置选项。
 
-    ![选择格式图标](media/power-bi-report-filter/power-bi-filter-format.png)    
-
 1. 展开“筛选器窗格”  以设置背景色、图标和左边框，以补充报表页。
 
-    ![展开筛选器窗格](media/power-bi-report-filter/power-bi-filter-format-pane-font.png)
+    ![展开筛选器窗格](media/power-bi-report-filter/power-bi-format-filter-pane.png)
 
 1. 展开“筛选器卡”  以设置“可用”  的“已应用”  颜色和边框。 如果将可用和已应用卡设置为不同的颜色，则可以明显地区分所应用的筛选器。 
   
-    ![展开筛选器卡](media/power-bi-report-filter/power-bi-filter-format-card-font.png)
+    ![展开筛选器卡](media/power-bi-report-filter/power-bi-format-filter-cards.png)
 
 ## <a name="theming-for-filter-pane"></a>“筛选器”窗格的主题设置
 现在可以使用主题文件来修改“筛选器”窗格的默认设置。 下面是入门示例主题代码片段：
@@ -224,7 +226,7 @@ Power BI 中的筛选器新增了功能，并采用了新设计。 选择启用�
 
 ## <a name="restrict-changes-to-filter-type"></a>限制更改筛选器类型
 
-在报表设置的“筛选体验”部分下，可以视需要控制用户能否更改筛选器类型。
+在报表设置的“筛选体验”部分下，可控制用户能否更改筛选器类型。
 
 ![限制更改筛选器类型](media/power-bi-report-filter/power-bi-filter-restrict-change.png)
 

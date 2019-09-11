@@ -10,30 +10,30 @@ ms.topic: conceptual
 ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 0c63a62edfce62a5cee13bef3c68014027313e8b
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 77a036cd1852c237c827dca07363492c94d8a272
+ms.sourcegitcommit: c0f4d00d483121556a1646b413bab75b9f309ae9
+ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "65513959"
+ms.lasthandoff: 08/29/2019
+ms.locfileid: "70160268"
 ---
 # <a name="connect-to-a-pdf-file-in-power-bi-desktop"></a>连接到 Power BI Desktop 中的 PDF 文件
 在 Power BI Desktop 中，可以连接到 PDF 文件并使用文件中包含的数据，就像在 Power BI Desktop 中使用任何其他数据源一样  。
 
-![连接到 PDF 文件中的数据](media/desktop-connect-pdf/connect-pdf_04.png)
+![连接到 PDF 文件中的数据](media/desktop-connect-pdf/connect-pdf-04.png)
 
 以下部分介绍如何连接到 PDF 文件，选择数据并将该数据添加到 Power BI Desktop   。
 
 始终建议升级到最新版 Power BI Desktop，可通过[获取 Power BI Desktop](desktop-get-the-desktop.md) 中的链接获取最新版  。 
 
 ## <a name="connect-to-a-pdf-file"></a>连接到 PDF 文件
-若要连接到 PDF 文件，请从 Power BI Desktop 中的“主页”功能区选择“获取数据”    。 在左侧的类别中选择“文件”，然后将看到“PDF (beta)”   。
+若要连接到 PDF 文件，请从 Power BI Desktop 中的“主页”功能区选择“获取数据”    。 从左侧的类别中选择“文件”，然后即可看到 PDF   。
 
-![选择从 PDF 获取数据](media/desktop-connect-pdf/connect-pdf_01.png)
+![选择从 PDF 获取数据](media/desktop-connect-pdf/connect-pdf-01.png)
 
 系统会提示你提供要使用的 PDF 文件的位置。 提供文件位置并加载 PDF 文件后，将会出现“导航器”窗口，并显示文件中可用的数据。可从这些数据中选择要在 Power BI Desktop 中导入和使用的一个或多个元素   。
 
-![连接到 PDF 文件中的数据](media/desktop-connect-pdf/connect-pdf_04.png)
+![连接到 PDF 文件中的数据](media/desktop-connect-pdf/connect-pdf-04.png)
 
 选择 PDF 文件中已发现元素旁边的复选框，将其显示在右侧窗格中。 如果已准备好导入，请选择“加载”按钮，将数据添加到 Power BI Desktop 中   。
 

@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 04/15/2019
+ms.date: 08/29/2019
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: dee2ff4376242883d30f606e687184c0dde43ffe
-ms.sourcegitcommit: f05ba39a0e46cb9cb43454772fbc5397089d58b4
+ms.openlocfilehash: 1e4d589702bb471a2abc6af9448a6846825adbfe
+ms.sourcegitcommit: c0f4d00d483121556a1646b413bab75b9f309ae9
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/26/2019
-ms.locfileid: "68523491"
+ms.lasthandoff: 08/29/2019
+ms.locfileid: "70160374"
 ---
 # <a name="connect-azure-data-lake-storage-gen2-for-dataflow-storage-preview"></a>连接 Azure Data Lake Storage Gen2 以存储数据流（预览）
 
@@ -115,19 +115,19 @@ ms.locfileid: "68523491"
 
     ![搜索 Power 应用程序](media/service-dataflows-connect-azure-data-lake-storage-gen2/dataflows-connect-adlsg2_07.jpg)
 
-5. 从搜索结果中在线选择并复制 Power BI 服务和 Power Query 的对象 ID。 准备好在后续步骤中粘贴这些值。
+5. 从搜索结果中在线选择并复制 Power BI Premium 服务和 Power Query 的对象 ID。 准备好在后续步骤中粘贴这些值。
 
-7. 接下来，使用 Azure存储资源管理器  导航到在上一节中创建的  powerbi 文件系统。 按照[使用 Azure 存储资源管理器设置文件和目录级别权限](https://docs.microsoft.com/azure/storage/blobs/data-lake-storage-how-to-set-permissions-storage-explorer)一文的[管理访问权限](https://docs.microsoft.com/azure/storage/blobs/data-lake-storage-how-to-set-permissions-storage-explorer#managing-access)部分中的说明进行操作。
+6. 接下来，使用 Azure存储资源管理器  导航到在上一节中创建的  powerbi 文件系统。 按照[使用 Azure 存储资源管理器设置文件和目录级别权限](https://docs.microsoft.com/azure/storage/blobs/data-lake-storage-how-to-set-permissions-storage-explorer)一文的[管理访问权限](https://docs.microsoft.com/azure/storage/blobs/data-lake-storage-how-to-set-permissions-storage-explorer#managing-access)部分中的说明进行操作。
 
-8. 对于在步骤 5 中收集的两个 Power BI 对象 ID 中的每一个，将  读取、  写入、  执行访问权限和默认 ACL 分配给  powerbi 文件系统。
+7. 对于在步骤 5 中收集的两个 Power BI Premium 对象 ID 中的每一个，将读取、写入、执行访问权限和默认 ACL 分配给 powerbi 文件系统     。
 
    ![将全部三个访问权限分配给两个对象 ID](media/service-dataflows-connect-azure-data-lake-storage-gen2/dataflows-connect-adlsg2_07a.jpg)
 
-9. 对于在步骤 4 中收集的 Power Query Online 对象 ID，将写入、执行访问权限和默认 ACL 分配给 powerbi 文件系统    。
+8. 对于在步骤 4 中收集的 Power Query Online 对象 ID，将写入、执行访问权限和默认 ACL 分配给 powerbi 文件系统    。
 
    ![接下来，分配写入和执行权限](media/service-dataflows-connect-azure-data-lake-storage-gen2/dataflows-connect-adlsg2_07b.jpg)
 
-10. 此外，对于  其他对象 ID，还分配  执行访问权限和默认 ACL。
+9. 此外，对于  其他对象 ID，还分配  执行访问权限和默认 ACL。
 
     ![最后，对于其他对象 ID 分配执行权限](media/service-dataflows-connect-azure-data-lake-storage-gen2/dataflows-connect-adlsg2_07c.jpg)
 
@@ -177,6 +177,7 @@ ms.locfileid: "68523491"
 * 只有在 Azure Data Lake Storage Gen2 中存储的数据流的所有者才能默认访问其数据。 要授权其他人员访问存储在 Azure 中的数据流，则必须将他们添加到数据流的 CDM 文件夹中 
 * 仅当链接实体与数据流存储在同一存储帐户中时才可以创建带有链接实体的数据流
 * 存储在组织 Data Lake 中的数据流不支持 Power BI 共享容量中的本地数据源
+* ADLS Gen 2 上不会自动删除快照。 若要释放空间，可创建 Azure 函数来定期清理旧快照。
 
 还存在一些已知问题，如本节所述。
 

@@ -1,6 +1,6 @@
 ---
-title: 启用同步切片器
-description: 如何为 Power BI 视觉对象添加同步切片器功能
+title: 在 Power BI 视觉对象中启用“同步切片器”功能
+description: 本文介绍如何将同步切片器功能添加到 Power BI 视觉对象中。
 author: EugeneElkin
 ms.author: v-evelk
 manager: rkarlin
@@ -9,18 +9,18 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: conceptual
 ms.date: 06/18/2019
-ms.openlocfilehash: 9966475e8bcaccad2090451b47ef09ef0a9af125
-ms.sourcegitcommit: 473d031c2ca1da8935f957d9faea642e3aef9839
+ms.openlocfilehash: 4d7b73a5d06f34fd197464d4444d0e19d6c1c026
+ms.sourcegitcommit: b602cdffa80653bc24123726d1d7f1afbd93d77c
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/23/2019
-ms.locfileid: "68425013"
+ms.lasthandoff: 09/03/2019
+ms.locfileid: "70237213"
 ---
-# <a name="sync-slicers"></a>同步切片器
+# <a name="sync-slicers-in-power-bi-visuals"></a>Power BI 视觉对象中的同步切片器
 
-若要支持[同步切片器](https://docs.microsoft.com/power-bi/desktop-slicers)，自定义切片器视觉对象须使用 API 1.13 或更高版本。
+要支持[同步切片器](https://docs.microsoft.com/power-bi/desktop-slicers)功能，自定义切片器视觉对象必须使用 API 版本 1.13 或更高版本。
 
-第二个必要方面是 `capabilities.json` 中已启用的选项（请参阅下面的示例）。
+此外，需在 capabilities.json 文件中启用该选项，如下所示  ：
 
 ```json
 {
@@ -34,11 +34,11 @@ ms.locfileid: "68425013"
 }
 ```
 
-在 `capabilities.json` 中进行更改后，单击自定义切片器视觉对象时会显示“同步切片器”选项面板。
+更新 capabilities.json 文件后，可以在选择自定义切片器视觉对象时查看“同步切片器”选项窗格   。
 
 > [!NOTE]
-> 如果切片器中的字段超过 1 个字段（类别或度量值），将禁用该功能，因为“同步切片器”不支持多个字段。
+> 同步切片器功能不支持多个字段。 如果切片器有多个字段（“类别”或“度量值”），则会禁用该功能   。
 
-![同步切片器面板](./media/sync-slicers-panel.png)
+![“同步切片器”窗格](./media/sync-slicers-panel.png)
 
-在面板中，可看到，切片器可见性及其筛选设置可能会应用于多个报表页。
+在“同步切片器”窗格中，可以看到切片器可见性以及切片器筛选可能会应用于多个报表页  。

@@ -10,12 +10,12 @@ ms.subservice: powerbi-gateways
 ms.topic: conceptual
 ms.date: 07/25/2019
 LocalizationGroup: Gateways
-ms.openlocfilehash: 436040f11534ede9d2e42e4f939d24a19e3d1c24
-ms.sourcegitcommit: 4a3afe761d2f4a5bd897fafb36b53961739e8466
+ms.openlocfilehash: 5445326f302f5ffef39ab387b3a22a336efb6550
+ms.sourcegitcommit: c799941c8169cd5b6b6d63f609db66ab2af93891
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/20/2019
-ms.locfileid: "69655175"
+ms.lasthandoff: 09/06/2019
+ms.locfileid: "70391862"
 ---
 # <a name="use-kerberos-for-single-sign-on-sso-from-power-bi-to-on-premises-data-sources"></a>使用 Kerberos 进行从 Power BI 到本地数据源的单一登录 (SSO)
 
@@ -377,7 +377,7 @@ ms.locfileid: "69655175"
 
 ### <a name="add-registry-entries-to-the-gateway-machine"></a>将注册表项添加到网关计算机
 
-将所需的注册表项添加到安装网关的计算机的注册表中。 下面是要运行的命令：
+将所需的注册表项添加到安装了网关的计算机的注册表中，以及要从 Power BI Desktop 连接的计算机。 下面是要运行的命令：
 
 1. REG ADD HKLM\SOFTWARE\Wow6432Node\SAP\gsskrb5 /v ForceIniCredOK /t REG\_DWORD /d 1 /f
 

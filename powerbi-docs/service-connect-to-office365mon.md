@@ -1,29 +1,29 @@
 ---
 title: 使用 Power BI 连接到 Office365Mon
 description: 适用于 Power BI 的 Office365Mon
-author: SarinaJoan
+author: teddybercovitz
 manager: kfile
 ms.reviewer: maggiesMSFT
 ms.service: powerbi
 ms.subservice: powerbi-template-apps
 ms.topic: conceptual
-ms.date: 10/16/2017
-ms.author: sarinas
+ms.date: 8/29/2019
+ms.author: tebercov
 LocalizationGroup: Connect to services
-ms.openlocfilehash: cce886edbed00075efaa43bae9c8a712929e8b9a
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 364220d5d900004252e51184fc9cbd7e03b45b2d
+ms.sourcegitcommit: c0f4d00d483121556a1646b413bab75b9f309ae9
+ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61170119"
+ms.lasthandoff: 08/29/2019
+ms.locfileid: "70159908"
 ---
 # <a name="connect-to-office365mon-with-power-bi"></a>使用 Power BI 连接到 Office365Mon
-使用 Power BI 和 Office365Mon 内容包可轻松分析 Office 365 故障和运行状况性能数据。 Power BI 将检索你的数据（包括故障和运行状况探测），然后基于该数据构建可立即使用的仪表板和报表。
+使用 Power BI 和 Office365Mon 模板应用可轻松分析 Office 365 故障和运行状况性能数据。 Power BI 将检索你的数据（包括故障和运行状况探测），然后基于该数据构建可立即使用的仪表板和报表。
 
-连接到 Power BI 的 [Office365Mon 内容包](https://app.powerbi.com/groups/me/getdata/services/office365mon)。
+连接到 Power BI 的 [Office365Mon 模板应用](https://app.powerbi.com/groups/me/getdata/services/office365mon)。
 
 >[!NOTE]
->需要使用 Office365Mon 管理员帐户连接和加载 Power BI 内容包。
+>需要使用 Office365Mon 管理员帐户连接和加载 Power BI 模板应用。
 
 ## <a name="how-to-connect"></a>如何连接
 1. 选择左侧导航窗格底部的**获取数据**。

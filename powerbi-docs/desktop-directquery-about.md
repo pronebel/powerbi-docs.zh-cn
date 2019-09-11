@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 07/22/2019
+ms.date: 08/19/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 591a837bb085ba901316e672112b568923995718
-ms.sourcegitcommit: 0332efe8f83cb55a9b8ea011db7c99e9b4568118
+ms.openlocfilehash: 11de32b8119e8b6922dcc1a971750e4256812932
+ms.sourcegitcommit: 4a3afe761d2f4a5bd897fafb36b53961739e8466
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/27/2019
-ms.locfileid: "68590538"
+ms.lasthandoff: 08/20/2019
+ms.locfileid: "69654754"
 ---
 # <a name="using-directquery-in-power-bi"></a>在 Power BI 中使用 DirectQuery
 使用 Power BI Desktop 或 Power BI 服务时，可以连接各种不同类型的数据源，并且可以通过不同的方式连接这些数据   。 可以将数据导入 Power BI，也可以在其原始源存储库中直接连接数据，前者是获取数据最常见的方法，后者称为 DirectQuery   。 本文介绍 DirectQuery 及其功能： 
@@ -140,11 +140,8 @@ SSAS 报表发布到 Power BI 服务时，其行为在以下方面与 DirectQuer
 * **计算列中的限制：** 计算列仅限于行内，因为它们只能引用同一表中其他列的值，不能使用任何聚合函数。 此外，可用的 DAX 标量函数（如 LEFT()）被限制为只能推送到基础数据源，因此从很大程度上取决于数据源的具体功能。 创建计算列的 DAX 时，不支持的功能不会在自动完成中列出，如果使用则会导致错误。
 * **不支持父-子 DAX 函数：** 在 DirectQuery 模型中，不能使用 DAX PATH() 系列函数，这类函数通常处理父-子结构，如帐户图表或员工层次结构图表。
 * **不支持计算表：** DirectQuery 模式不支持使用 DAX 表达式定义计算表。
-* **关系筛选仅限于单方向：** 使用 DirectQuery 时，不能将交叉筛选关系方向设置为“双向”。 例如，以下三个表格不能生成显示每个客户[性别]和每个客户购买的产品[类别]数量的视觉对象。 [本白皮书](http://download.microsoft.com/download/2/7/8/2782DF95-3E0D-40CD-BFC8-749A2882E109/Bidirectional%20cross-filtering%20in%20Analysis%20Services%202016%20and%20Power%20BI.docx)中详细说明了这类双向筛选的使用（本文介绍了 SQL Server Analysis Services 上下文中的示例，但基本要点也同样适用于 Power BI）。
-  
-  ![](media/desktop-directquery-about/directquery-about_01.png)
-  
-  同样，施加此限制也是出于性能影响的原因。 此方面的一个特别重要的应用是，将行级别安全性定义为报表的一部分时，由于常见模式是在用户和其允许访问的实体之间建立多对多关系，因此必须使用双向筛选才能执行此操作。 但是，对 DirectQuery 模型使用双向筛选应十分谨慎，并注意性能方面产生的任何不利影响。  
+* **关系筛选：** [本白皮书](http://download.microsoft.com/download/2/7/8/2782DF95-3E0D-40CD-BFC8-749A2882E109/Bidirectional%20cross-filtering%20in%20Analysis%20Services%202016%20and%20Power%20BI.docx)中详细说明了双向筛选的使用（其中介绍了 SQL Server Analysis Services 上下文中的示例，但基本要点同样适用于 Power BI）。
+
 * **无聚类分析：** 使用 DirectQuery 时，不能使用聚类分析功能自动查找组
 
 ### <a name="reporting-limitations"></a>报表限制
@@ -204,7 +201,7 @@ Power BI Desktop 支持所有数据源  。 某些数据源还可直接在 Power
 启用了 DirectQuery 的数据源中，只有两个数据源可以直接在服务中使用：
 
 * Spark
-* Azure SQL Data Warehouse
+* Azure SQL 数据仓库
 
 但是，建议在 Power BI Desktop 中对这两个数据源使用 DirectQuery   。 原因是，当最初在 Power BI 服务中进行连接时，会应用许多关键限制，这意味着虽然开始时很容易（从Power BI 服务开始），但是会进一步限制生成报表的功能（例如，不能创建任何计算或使用许多分析功能，甚至不能刷新元数据以反映对基础架构的任何更改）  。   
 

@@ -1,6 +1,6 @@
 ---
-title: 功能
-description: Power BI 视觉对象功能和属性
+title: Power BI 视觉对象的功能和属性
+description: 本文介绍 Power BI 视觉对象的功能和属性。
 author: asander
 ms.author: asander
 manager: rkarlin
@@ -9,16 +9,16 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: conceptual
 ms.date: 06/18/2019
-ms.openlocfilehash: f6bb4293a44f98f2f8098fb197c7b406b618d211
-ms.sourcegitcommit: 473d031c2ca1da8935f957d9faea642e3aef9839
+ms.openlocfilehash: 5c32a1679f09e05d134da7f27ffa0cee90d75fab
+ms.sourcegitcommit: b602cdffa80653bc24123726d1d7f1afbd93d77c
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/23/2019
-ms.locfileid: "68425450"
+ms.lasthandoff: 09/03/2019
+ms.locfileid: "70237293"
 ---
-# <a name="power-bi-visual-capabilities"></a>Power BI 视觉对象功能
+# <a name="capabilities-and-properties-of-power-bi-visuals"></a>Power BI 视觉对象的功能和属性 
 
-功能向主机提供有关视觉对象的信息。 功能模型上的所有属性都是 `optional`
+可使用功能向主机提供有关视觉对象的信息。 功能模型上的所有属性都是 `optional`。
 
 视觉对象功能的根对象是 `dataRoles`、`dataViewMappings` 等。
 
@@ -34,29 +34,29 @@ ms.locfileid: "68425450"
 
 ```
 
-## <a name="define-the-data-fields-your-visual-expects---dataroles"></a>定义视觉对象所需的数据字段 - `dataRoles`
+## <a name="define-the-data-fields-that-your-visual-expects-dataroles"></a>定义视觉对象所需的数据字段：dataRoles
 
-为了定义可绑定到数据的字段，我们使用采用 `DataViewRole` 对象数组的 `dataRoles`，这些对象定义了所有所需属性。
+要定义可绑定到数据的字段，请使用 `dataRoles`。 `dataRoles` 采用 `DataViewRole` 对象的数组，它定义了所有必需的属性。
 
 ### <a name="properties"></a>属性
 
-* **name** - 此数据字段的内部名称（必须是唯一的）
-* **kind** - 字段类型：
-    * `Grouping` - 用于对度量值字段进行分组的离散值
-    * `Measure` - 数值数据值
-    * `GroupingOrMeasure` - 可用作组别或度量值
-* **displayName** - 在属性窗格中向用户显示的名称
-* **description** - 字段的简短说明（可选）
-* **requiredTypes** - 此数据角色所需的数据类型。 任何不匹配的值都将设置为 null（可选）
-* **preferredTypes** - 此数据角色的首选数据类型（可选）
+* **name**：此数据字段的内部名称（必须是唯一的）。
+* **kind**：字段类型：
+    * `Grouping`：用于对度量值字段进行分组的离散值。
+    * `Measure`：数值数据值。
+    * `GroupingOrMeasure`：可用作组别或度量值的值。
+* **displayName**：在“属性”窗格中向用户显示的名称  。
+* **description**：字段的简短说明（可选）。
+* **requiredTypes**：此数据角色所需的数据类型。 不匹配的值设置为 null（可选）。
+* **preferredTypes**：此数据角色的首选数据类型（可选）。
 
-### <a name="valid-data-types-in-requiredtypes-and-preferredtypes"></a>“requiredTypes”和“preferredTypes”中的有效数据类型
+### <a name="valid-data-types-in-requiredtypes-and-preferredtypes"></a>requiredTypes 和 preferredTypes 中的有效数据类型
 
-* **bool** - 一个布尔值
-* **integer** - 一个整数值
-* **numeric** - 一个数值
-* **text** - 一个文本值
-* **geography** - 一个地理数据
+* **bool**：布尔值
+* **Integer**：整数值
+* **numeric**：数值
+* **text**：文本值
+* **geography**：地理数据
 
 ### <a name="example"></a>示例
 
@@ -157,15 +157,15 @@ ms.locfileid: "68425450"
 ]
 ```
 
-上述数据角色将创建以下字段
+前面的数据角色将创建如下图所示的字段：
 
-![数据角色显示](./media/data-role-display.png)
+![数据角色字段](./media/data-role-display.png)
 
-## <a name="define-how-you-want-the-data-mapped---dataviewmappings"></a>定义数据映射的方式 - `dataViewMappings`
+## <a name="define-how-you-want-the-data-mapped-dataviewmappings"></a>定义数据映射的方式：dataViewMappings
 
-DataViewMapping 描述数据角色如何彼此相关，并允许你为它们指定条件要求。
+DataViewMappings 属性描述数据角色如何彼此相关，并允许你为它们指定条件要求。
 
-大多数视觉对象提供单个映射，但你可以提供多个 dataViewMapping。 每个有效映射都将生成 DataView。 
+大多数视觉对象提供单个映射，但你可以提供多个 dataViewMapping。 每个有效映射都会生成数据视图。 
 
 ```json
 "dataViewMappings": [
@@ -179,13 +179,11 @@ DataViewMapping 描述数据角色如何彼此相关，并允许你为它们指�
 ]
 ```
 
-[了解有关 DataViewMapping 的详细信息](dataview-mappings.md)
+有关详细信息，请参阅[了解 Power BI 视觉对象中的数据视图映射](dataview-mappings.md)。
 
-## <a name="define-property-pane-options---objects"></a>定义属性窗格选项 - `objects`
+## <a name="define-property-pane-options-objects"></a>定义属性窗格选项：objects
 
-对象描述与视觉对象关联的可自定义属性。
-每个对象可以具有多个属性，每个属性都有与之关联的类型。
-类型指示属性将是什么属性。 请参阅下文了解有关类型的详细信息。
+对象描述与视觉对象关联的可自定义属性。 每个对象可以具有多个属性，每个属性都有与之关联的类型。 类型指示属性将是什么属性。 
 
 ```json
 "objects": {
@@ -196,24 +194,22 @@ DataViewMapping 描述数据角色如何彼此相关，并允许你为它们指�
 }
 ```
 
-[了解有关对象的详细信息](objects-properties.md)
+有关详细信息，请参阅 [Power BI 视觉对象的对象和属性](objects-properties.md)。
 
-## <a name="handle-partial-highlighting---supportshighlight"></a>处理部分突出显示 - `supportsHighlight`
+## <a name="handle-partial-highlighting-supportshighlight"></a>处理部分突出显示：supportsHighlight
 
-默认情况下，此值设置为 false，这意味着当选择页上的某些内容时，将自动筛选“值”，而这反过来又会更新视觉对象，使其仅显示选定值。 如果要显示完整的数据，且只突出显示选定项，则需要在 capabilities.json 中将 `supportsHighlight` 设置为 true。
+默认情况下，此值设置为 `false`，这意味着选择页面上的某些内容时，会自动筛选值。 此自动筛选会进而更新视觉对象以仅显示所选值。 如果要显示完整的数据，且只突出显示选定项，则需要在 capabilities.json 文件中将 `supportsHighlight` 设置为 `true`  。
 
-[了解有关突出显示的详细信息](highlight.md)
+有关详细信息，请参阅[突出显示 Power BI 视觉对象中的数据点](highlight.md)。
 
-## <a name="handle-advanced-edit-mode---advancededitmodesupport"></a>处理高级编辑模式 - `advancedEditModeSupport`
+## <a name="handle-advanced-edit-mode-advancededitmodesupport"></a>处理高级编辑模式：advancedEditModeSupport
 
-视觉对象可以声明其高级编辑模式支持。
-默认情况下，除非 capabilities json 中另有说明，否则视觉对象不支持高级编辑模式。
+视觉对象可以声明其高级编辑模式支持。 默认情况下，除非 capabilities json 文件中另有说明，否则视觉对象不支持高级编辑模式  。
 
-[了解有关 advancedEditModeSupport 的详细信息](advanced-edit-mode.md)
+有关详细信息，请参阅 [Power BI 视觉对象中的高级编辑模式](advanced-edit-mode.md)。
 
-## <a name="data-sorting-options-for-visual---sorting"></a>视觉对象的数据排序选项 - `sorting`
+## <a name="data-sorting-options-for-visual-sorting"></a>视觉对象的数据排序选项：sorting
 
-视觉对象可通过其功能定义其排序行为。
-默认情况下，除非 capabilities.json 中另有说明，否则视觉对象不支持修改其排序顺序。
+视觉对象可通过其功能定义其排序行为。 默认情况下，除非 capabilities.json 文件中另有说明，否则视觉对象不支持修改其排序顺序  。
 
-[了解有关排序的详细信息](sort-options.md)
+有关详细信息，请参阅 [Power BI 视觉对象的排序选项](sort-options.md)。

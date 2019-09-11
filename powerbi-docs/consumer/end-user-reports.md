@@ -1,30 +1,29 @@
 ---
-title: 在 Power BI 中查看报表
-description: Power BI 中的报表
+title: Power BI 服务中的报表
+description: 面向使用者的 Power BI 服务中的报表
 author: mihart
 manager: kvivek
 ms.reviewer: ''
-ms.custom: seodec18
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 06/24/2019
+ms.date: 08/24/2019
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: 9a844ff813435328df63240aa46aff3430117f6e
-ms.sourcegitcommit: e67bacbfc5638ee97e3d2e0e7f5bd2d9aac78f9c
+ms.openlocfilehash: c13398ff08722c54a9f0c373a1c103e4d684c9bb
+ms.sourcegitcommit: c799941c8169cd5b6b6d63f609db66ab2af93891
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/02/2019
-ms.locfileid: "67532185"
+ms.lasthandoff: 09/06/2019
+ms.locfileid: "70391346"
 ---
 # <a name="reports-in-power-bi"></a>Power BI 中的报表
 
 Power BI 报表是对数据集的多角度审视，它使用视觉对象来表示数据集呈现的各种结果和见解。  报表可包含单个视觉对象，也可包含充满视觉对象的多个页面。 根据你的职位，你可能是报表设计人员  ， 也可能是报表使用人员  。
 
-![报表页的屏幕截图。](./media/end-user-reports/power-bi-report.png)
+![报表页的屏幕截图。](./media/end-user-reports/power-bi-reports.png)
 
-此报表有 4 个页面（或标签页），你当前正在查看“情绪”页  。 此页面上有 5 个不同的视觉对象和 1 个页标题。
+此报表有 6 个页面（或标签页），你当前正在查看“情绪”页  。 此页面上有 5 个不同的视觉对象和 1 个页标题。 “筛选器”窗格显示了一个应用于所有报表页的筛选器  。 要折叠“筛选器”窗格，请选择箭头 ( **>** )。
 
 如果你不熟悉 Power BI，可阅读[面向 Power BI 服务使用者的基本概念](end-user-basic-concepts.md)来详细了解基础知识。 可在移动设备上查看、共享和批注报表。 有关详细信息，请参阅[在 Power BI 移动应用中浏览报表](mobile/mobile-reports-in-the-mobile-apps.md)。
 
@@ -42,6 +41,8 @@ Power BI 基于单个数据集的生成报表。 报表设计者在报表中创�
 ### <a name="save-your-changes-or-revert-to-the-default-settings"></a>保存更改或还原为默认设置
 
 这并不意味着无法保存更改。 可进行保存，但这些更改仅影响内容视图。 要还原到报表的原始默认视图，请选择“重置为默认值”  。
+
+![“还原为默认值”图标的屏幕截图。](./media/end-user-reports/power-bi-reset.png)
 
 ## <a name="dashboards-versus-reports"></a>仪表板与报表
 
@@ -76,6 +77,5 @@ Power BI 基于单个数据集的生成报表。 报表设计者在报表中创�
 
 ## <a name="next-steps"></a>后续步骤
 
-[什么是 Power BI？](../power-bi-overview.md)
-
-[面向 Power BI 服务使用者的基本概念](end-user-basic-concepts.md)
+[打开并查看报表](end-user-report-open.md)    
+[Power BI 服务中的仪表板](end-user-dashboards.md)

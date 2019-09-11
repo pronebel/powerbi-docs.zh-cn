@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 04/09/2019
 ms.custom: seodec18
 LocalizationGroup: Premium
-ms.openlocfilehash: 9f5357056c27d6461ad7f7d7fba1daa27a508868
-ms.sourcegitcommit: 012f05efc4e97aeb6178fb2fc820b73bcc1ce920
+ms.openlocfilehash: 1fb775bd203fc1e0f6342a0d5cd4d9e382b8342a
+ms.sourcegitcommit: 9665997274301b228f45aa7250ba557e90164a4d
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/23/2019
-ms.locfileid: "68391145"
+ms.lasthandoff: 09/06/2019
+ms.locfileid: "70750924"
 ---
 # <a name="optimizing-premium-capacities"></a>优化高级容量
 
@@ -257,7 +257,7 @@ ms.locfileid: "68391145"
 
 如果已有要进行负载测试的容量和报表，请使用 [PowerShell 负载生成工具](https://aka.ms/PowerBILoadTestingTool)快速生成负载测试。 借助该工具，可估算容量在一小时内可以运行的每个报表的实例数。 可使用该工具评估容量呈现单个报表或并行呈现多个不同报表的能力。 有关详细信息，请参阅视频 [Microsoft Power BI：高级容量](https://www.youtube.com/watch?time_continue=1860&v=C6vk6wk9dcw)。
 
-要生成更复杂的测试，请考虑开发用于模拟实际工作负载的负载测试应用程序。 有关详细信息，请参阅网络研讨会 [Load Testing Power BI Applications with Visual Studio Load Test](https://blogs.msdn.microsoft.com/charles_sterling/2018/04/04/webinar-load-testing-power-bi-applications-with-visual-studio-load-test/)（使用 Visual Studio 负载测试对 Power BI 应用程序进行负载测试）。
+要生成更复杂的测试，请考虑开发用于模拟实际工作负载的负载测试应用程序。 有关详细信息，请参阅网络研讨会 [Load Testing Power BI Applications with Visual Studio Load Test](https://powerbi.microsoft.com/en-us/blog/week-4-11-webinars-load-testing-power-bi-applications-with-visual-studio-load-test-and-getting-started-with-cds-for-apps-based-model-driven-apps/)（使用 Visual Studio 负载测试对 Power BI 应用程序进行负载测试）。
 
 ## <a name="acknowledgements"></a>致谢
 

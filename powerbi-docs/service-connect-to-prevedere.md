@@ -7,18 +7,20 @@ ms.reviewer: maggiesMSFT
 ms.service: powerbi
 ms.subservice: powerbi-template-apps
 ms.topic: conceptual
-ms.date: 10/16/2017
+ms.date: 08/29/2019
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: e15333af4e2fb8508f76517b193ca4351c2782c7
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 8abf93b30b976aea1d0164238d173abe1be260e8
+ms.sourcegitcommit: b53a6f5575f5f8bc443ecdca9c72525ce123518f
+ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61149550"
+ms.lasthandoff: 08/30/2019
+ms.locfileid: "70185360"
 ---
 # <a name="connect-to-prevedere-with-power-bi"></a>使用 Power BI 连接到 Prevedere
 获取独家和关键财务信息的访问权限，从而自信主动地发展你的业务。
+
+[!INCLUDE [include-short-name](./includes/service-deprecate-content-packs.md)]
 
 连接到 Power BI 的 [ Prevedere 内容包](https://app.powerbi.com/getdata/services/prevedere)。
 

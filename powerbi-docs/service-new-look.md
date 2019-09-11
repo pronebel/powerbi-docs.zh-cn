@@ -1,5 +1,5 @@
 ---
-title: 导航 Power BI 服务的“新外观”
+title: Power BI 服务的新外观
 description: Power BI 服务 (app.powerbi.com) 具有新外观。 本文介绍如何使用新外观导航报表。
 author: maggiesMSFT
 manager: kfile
@@ -7,19 +7,19 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 07/24/2019
+ms.date: 08/19/2019
 ms.author: maggies
 LocalizationGroup: Get started
-ms.openlocfilehash: aa7de324e77b8f2b1c58e558c0814df97d997631
-ms.sourcegitcommit: 8aa90f662afb7492ffcfc11ef142cdb0ccecc9aa
+ms.openlocfilehash: 6c752b6083d2f3baecf7e1a9ce20f77e8c5a46d0
+ms.sourcegitcommit: 4a3afe761d2f4a5bd897fafb36b53961739e8466
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/24/2019
-ms.locfileid: "68471298"
+ms.lasthandoff: 08/20/2019
+ms.locfileid: "69654912"
 ---
-# <a name="navigate-the-new-look-of-the-power-bi-service"></a>导航 Power BI 服务的“新外观”
+# <a name="the-new-look-of-the-power-bi-service"></a>Power BI 服务的新外观
 
-Power BI 服务具有新外观。 通过新外观，你可以更加轻松地查看报表。 新外观提供一种更便捷的新式体验，它基于你对其他 Microsoft 产品的熟悉程度。 在整个 Power BI 服务中，我们通过转换为较浅的颜色主题并更新图标，使报表内容成为主要的关注点。 下面概述了新外观中相较原外观的变化。 有关详细信息，请参阅编号部分：
+Power BI 服务 (app.powerbi.com) 的新外观使报表查看和交互更加容易。 新外观提供一种更便捷的新式体验，它基于你对其他 Microsoft 产品的熟悉程度。 在整个 Power BI 服务中，我们通过转换为较浅的颜色主题并更新图标，使报表内容成为主要的关注点。 下面概述了新外观中相较原外观的变化。 有关详细信息，请参阅编号部分：
 
 ![新外观更改概述](media/service-new-look/power-bi-new-look-changes.png)
 
@@ -31,11 +31,11 @@ Power BI 服务具有新外观。 通过新外观，你可以更加轻松地查�
 
 ## <a name="1-opt-in-to-the-new-look"></a>1.选择启用新外观
 
-任何 Power BI 服务用户都可以选择启用新外观。 只需将“禁用新外观”从一端滑至另一端即可   。
+任何 Power BI 服务用户都可以选择启用新外观。 只需将开关从“禁用新外观”滑动到“启用新外观”即可   。
 
 ![选择启用新外观](media/service-new-look/power-bi-new-look-off.png)
 
-如果需要恢复旧外观，可选择右上角的省略号菜单。
+如果需要返回旧外观，只需将开关滑动回到“关”![启用新外观](media/service-new-look/power-bi-new-look-toggle-on.png)  。 如果看不到此开关，请选择右上角的省略号菜单。
 
 ![选择退出新外观](media/service-new-look/power-bi-new-look-on.png)
 
@@ -82,7 +82,7 @@ Power BI 服务具有新外观。 通过新外观，你可以更加轻松地查�
 
 ## <a name="no-changes-to-edit-mode"></a>编辑模式无更改 
 
-我们保留了类似于 Desktop 中的创作体验。 新外观更改仅适用于阅读视图。
+我们保留了与桌面版中类似的创作体验。 新外观更改仅适用于阅读视图。
 
 ## <a name="next-steps"></a>后续步骤
 

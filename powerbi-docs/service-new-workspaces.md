@@ -7,15 +7,15 @@ ms.reviewer: lukaszp
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 08/15/2019
+ms.date: 09/05/2019
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: e25a004098c5bfe5cf607f5ee4b26dfda09d792d
-ms.sourcegitcommit: 4d5166944fcc6fe4666cab055ae75e7a0a77866d
+ms.openlocfilehash: 9add7ce3c5caf675fde15fd15eea03d9d9b49d9b
+ms.sourcegitcommit: 9665997274301b228f45aa7250ba557e90164a4d
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/16/2019
-ms.locfileid: "69530502"
+ms.lasthandoff: 09/06/2019
+ms.locfileid: "70750908"
 ---
 # <a name="organize-work-in-the-new-workspaces-in-power-bi"></a>在 Power BI 的新工作区中整理工作
 
@@ -61,7 +61,7 @@ Power BI 管理门户中[提供工作区列表](service-admin-portal.md#workspac
 
 向用户组分配角色，组中的个人有权访问内容。 如果嵌套用户组，则包含的所有用户都具有权限。
 
-下面介绍以下四种角色的功能：管理员、成员、参与者和查看者。
+下面介绍以下四种角色的功能：管理员、成员、参与者和查看者。 上述功能（最后一个功能除外）都需要 Power BI Pro 许可证。
 
 |功能   | 管理员  | 成员  | 参与者  | 查看者 |
 |---|---|---|---|---|
@@ -73,9 +73,9 @@ Power BI 管理门户中[提供工作区列表](service-admin-portal.md#workspac
 | 允许其他人重新共享项目。 |  X | X  |   |   |
 | 在工作区中创建、编辑和删除内容。  |  X | X  | X  |   |
 | 将报表发布到工作区，删除内容。  |  X | X  | X  |   |
-| 查看项。 |  X | X  | X  | X  |
 | 基于此工作区中的数据集在其他工作区中创建报表。 |  X | X  | X  | X <sup>1</sup>  |
 | 复制报表。 | X | X | X | X <sup>1</sup> |
+| 查看项并与之交互。 |  X | X  | X  | X  |
 
 **1** 需要 Power BI Pro 许可证和[数据集的“生成”权限](service-datasets-build-permissions.md#build-permissions-for-shared-datasets)。 
  
@@ -134,7 +134,7 @@ Power BI 不会将配置为拥有工作区访问权限的用户或组的权限�
 
 新工作区中，某些功能的工作方式与当前工作区不同。 这些差异是根据客户反馈有意而为之，可便于用户更灵活地使用工作区开展协作：
 
-- 强制许可：对于向提供新工作区体验的工作区发布报表，将强制执行现有许可规则，这些规则要求用户必须有 Power BI Pro 许可证，才能在工作区中协作，或与 Power BI 服务中的其他人共享内容。 没有 Power BI Pro 许可证的用户会看到错误消息：“只有拥有 Power BI Pro 许可证的用户，才能发布到此工作区。”
+- 强制许可：对于向提供新工作区体验的工作区发布报表，将强制执行现有许可规则，这些规则要求用户必须有 Power BI Pro 许可证，才能在工作区中协作，或与 Power BI 服务中的其他人共享内容。 没有 Pro 许可证的用户会看到错误消息：“只有拥有 Power BI Pro 许可证的用户才能发布到此工作区。”
 - 成员可以或无法重新共享：替换为参与者角色
 - 只读工作区：向用户分配查看者角色，此角色对对工作区中内容的权限与只读访问权限类似，而不是向用户授予对工作区的只读访问权限。
 - 如果工作区位于 Power BI 高级容量中，没有 Power BI Pro 许可证的用户可以访问工作区，即使用户只有查看者角色，也不例外。

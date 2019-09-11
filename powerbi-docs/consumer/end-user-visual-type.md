@@ -1,32 +1,32 @@
 ---
-title: 在 Power BI 中的使用者的视觉对象类型
-description: 在 Power BI 服务中的视觉对象类型
+title: Power BI 中适用于使用者的视觉对象类型
+description: Power BI 服务中的视觉对象类型
 author: mihart
 manager: kvivek
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 05/14/2019
+ms.date: 08/21/2019
 ms.author: mihart
 LocalizationGroup: Consumer
-ms.openlocfilehash: acee7e78a19986a0f83e13836ba6d77f7c35fdce
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 875e154dbac063c0e4b9d5dc4208387e6d529a93
+ms.sourcegitcommit: 09ee1b4697aad84d8f4c9421015d7e4dbd3cf25f
+ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "65711272"
+ms.lasthandoff: 09/04/2019
+ms.locfileid: "70302518"
 ---
-# <a name="visual-types-in-power-bi"></a>在 Power BI 中的视觉对象类型
-您会发现视觉对象中的报表、 仪表板、 应用和问答。 这些视觉对象类型的一些使用 Power BI，打包，有些*自定义视觉对象*。 自定义视觉对象在 Power BI 外部创建，其创建方式使报表设计器  可以将它们添加到 Power BI 报表、仪表板和应用。 
+# <a name="visual-types-in-power-bi"></a>Power BI 中的视觉对象类型
+你会在报表、仪表板和问答中找到视觉对象。 其中某些视觉对象类型与 Power BI 打包在一起，另有一些是自定义视觉对象  。 自定义视觉对象在 Power BI 外部创建，其创建方式使报表设计器  可以将它们添加到 Power BI 报表和仪表板。 
 
-本文是与 Power BI 打包在一起的视觉对象的概述。  这些是您最常遇到的视觉对象。 
+本文是与 Power BI 服务打包在一起的视觉对象的概述。  这些是最常遇到的视觉对象。 有关这些视觉对象的详细信息，请参阅[有关视觉对象类型的 Power BI 报表设计器文档](../visuals/power-bi-visualization-types-for-reports-and-q-and-a.md) 
 
 > [!NOTE]
 > 若要了解自定义视觉对象，请在 [Microsoft AppSource](https://appsource.microsoft.com/marketplace/apps?product=power-bi-visuals) 的“Power BI 视觉对象”  部分中搜索它们。 对于每个视觉对象，你会找到说明、创建者信息以及屏幕截图或视频。 
 
-## <a name="list-of-visuals-available-in-power-bi"></a>Power BI 中可用的视觉对象的列表
-所有这些视觉对象可在 Power BI 应用中，仪表板、 报表和[问答中指定](end-user-q-and-a.md)。 若要了解如何与视觉对象进行交互，请参阅[与报表、 仪表板和应用程序中的视觉对象交互](end-user-visualizations.md)
+## <a name="list-of-visuals-available-in-power-bi"></a>Power BI 支持的视觉对象列表
+所有这些视觉对象都可以在 Power BI 仪表板和报表中找到，并[在问答中指定](end-user-q-and-a.md)。 若要了解如何与视觉对象进行交互，请参阅[与报表、仪表板和应用中的视觉对象交互](end-user-visualizations.md)
 
 ### <a name="area-charts-basic-layered-and-stacked"></a>分区图：基本（分层）和堆积
 ![分区图](media/end-user-visual-type/basic-area-map-small.png)
@@ -59,7 +59,7 @@ ms.locfileid: "65711272"
 组合图适用情况：
 - 具有 X 轴相同的折线图和柱形图时。
 - 比较具有不同值范围的多个度量值
-- 若要阐释一个视觉对象中的两个度量值之间的相关性
+- 若要在一个视觉对象中说明两个度量值之间的关联
 - 检查一个度量值是否满足另一个度量值定义的目标
 - 节省画布空间
 
@@ -76,14 +76,6 @@ ms.locfileid: "65711272"
 例如，销售漏斗图可跟踪各个阶段的客户：潜在客户 > 合格的潜在客户 > 预期客户 > 已签订合同的客户 > 已成交客户。 你可以一眼看出漏斗形状传达了你跟踪的流程的健康状况。
 漏斗图的每个阶段代表总数的百分比。 因此，在大多数情况下，漏斗图的形状类似于一个漏斗 -- 第一阶段为最大值，每个后一阶段的值都小于其前一阶段的值。 梨形漏斗图也很有用 -- 它可以识别流程中的问题。 但是通常第一阶段，“进入”阶段为最大值。
 
-漏斗图适用情况：
-- 数据是有序的，经过至少 4 个阶段。
-- 第一阶段“项目”数量预期大于最后一个阶段的数量。
-- 要按阶段计算可能的值（收入/销售额/交易/等等）。
-- 要计算并跟踪转化率和保留率。
-- 要揭示线性流程中的瓶颈。
-- 要跟踪购物车工作流。
-- 要跟踪点击广告/市场营销活动的进度和成功率。
 
 ### <a name="gauge-charts"></a>仪表盘
 ![仪表盘](media/end-user-visual-type/gauge-m.png)
@@ -127,7 +119,7 @@ ms.locfileid: "65711272"
 ### <a name="maps-arcgis-maps"></a>地图：ArcGIS 地图
 ![ArcGIS 地图](media/end-user-visual-type/power-bi-esri-map-theme2.png)
 
-ArcGIS 地图和 Power BI 的结合将超越地图点表示法的地图绘制技术提升到全新水平。 基本地图、 位置类型、 主题、 符号样式和引用层可用的选项创建丰富多彩的信息性地图视觉对象。 （如人口普查数据） 与空间分析在地图上权威数据层的组合会告知你的视觉对象中的数据的更深入地了解。
+ArcGIS 地图和 Power BI 的结合将超越地图点表示法的地图绘制技术提升到全新水平。 可以使用“基本地图”、“位置类型”、“主题”、“符号样式”和“引用层”选项，创建极具描述性的地图视觉对象。 将地图上的权威数据层（如人口普查数据）与空间分析相结合，可以让用户更深入地了解视觉对象中的数据。
 
 ### <a name="maps-filled-maps-choropleth"></a>地图：着色地图（等值线图）
 ![着色地图](media/end-user-visual-type/pbi-nancy-viz-filledmap.png)
@@ -137,9 +129,9 @@ ArcGIS 地图和 Power BI 的结合将超越地图点表示法的地图绘制技
 ### <a name="maps-shape-maps"></a>地图：形状地图
 ![形状地图](media/end-user-visual-type/power-bi-shape-map2.png)
 
-形状地图使用颜色比较地图上的区域。 与“地图”视觉对象不同，形状地图无法在地图上显示数据点的精确地理位置。 相反，其主要目的是通过不同方式对地图上的区域着色来显示这些区域的相对比较。
+形状地图使用颜色比较地图上的区域。 形状地图无法在地图上显示数据点的精确地理位置。 相反，其主要目的是通过不同方式对地图上的区域着色来显示这些区域的相对比较。
 
-### <a name="matrix"></a>矩形图
+### <a name="matrix"></a>矩阵
 ![矩形图](media/end-user-visual-type/matrix.png)
 
 矩阵视觉对象是一种支持渐变布局的表视觉对象类型（请参阅下面的“表”）。 通常，报表设计器在报表和仪表板中包括矩阵，以便使用户可以选择矩阵中的一个或多个元素（行、列、单元格）以在报表页上交叉突出其他视觉对象。  
@@ -163,12 +155,16 @@ ArcGIS 地图和 Power BI 的结合将超越地图点表示法的地图绘制技
 
 气泡图将数据点替换为气泡，用气泡大小表示数据的其他维度。
 
-点图类似于气泡图和散点图，只不过它可以沿 X 轴绘制数值或分类数据。
+
+
+点图类似于气泡图和散点图，只不过它可以沿 X 轴绘制数值或分类数据。 此示例恰好使用正方形而不是圆形，并沿 X 轴绘制销售额。
+
+![点阵图](media/end-user-visual-type/power-bi-dot-plot-squares.png)
 
 ### <a name="scatter-high-density"></a>高密度散点图
 ![高密度散点图](media/end-user-visual-type/density-scatter.png)
 
-根据定义，高密度数据进行采样，以创建视觉对象快速合理地响应交互操作。 高密度采样使用的算法可消除重叠点，并确保数据集中的所有点都会在视觉对象中进行表示。 它不只是绘制数据的代表性示例。  
+根据定义，对高密度数据进行采样，以快速合理地创建能响应交互操作的视觉对象。 高密度采样使用的算法可消除重叠点，并确保数据集中的所有点都会在视觉对象中进行表示。 它不只是绘制数据的代表性示例。  
 
 这可确保将整体数据集中重要点的响应、表示和清楚保存以最佳方式组合。
 
@@ -220,14 +216,14 @@ ArcGIS 地图和 Power BI 的结合将超越地图点表示法的地图绘制技
 列使用颜色编码，因此可以快速区分增加和减少。 初始值列和最终值列通常从水平轴开始，而中间值为浮动列。 由于该图的外观，瀑布图也被称为桥图。
 
 瀑布图适用情况：
-- 跨时序或不同类别更改指标
+- 跨时间或不同类别更改指标
 - 要审核对总值有影响的主要更改
 - 要通过显示各种收入来源和计算总利润（或损失）绘制公司的的年利润图。
 - 要说明一年中公司的起始和结束员工人数。
 - 要可视化你每月的收入和支出，以及你的帐户的不断变化的余额。
 
-## <a name="qna"></a>告知问答要使用的视觉对象
-键入与 Power BI 问答自然语言查询时，您可以在查询中指定的视觉对象类型。  例如：
+## <a name="qna"></a>告知问答要使用哪个视觉对象
+使用 Power BI 问答键入自然语言查询时，可以在查询中指定视觉对象类型。  例如：
 
 
 “***以树状图表示的每个州的销售额***”
@@ -235,5 +231,5 @@ ArcGIS 地图和 Power BI 的结合将超越地图点表示法的地图绘制技
 ![问答会话](media/end-user-visual-type/qa-treemap.png)
 
 ## <a name="next-steps"></a>后续步骤
-[与报表、 仪表板和应用程序中的视觉对象交互](end-user-visualizations.md)    
+[与报表、仪表板和应用中的视觉对象交互](end-user-visualizations.md)    
 [sqlbi.com 中正确的视觉对象引用](http://www.sqlbi.com/wp-content/uploads/videotrainings/dashboarddesign/visuals-reference-may2017-A3.pdf)

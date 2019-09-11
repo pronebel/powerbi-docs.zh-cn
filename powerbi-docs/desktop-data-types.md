@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: reference
-ms.date: 04/10/2019
+ms.date: 09/05/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 00ff6a901ef4056e15ccc0087f0783826b1a64b2
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: ccde7f01968a9fdcdd74903819b7083a552479b0
+ms.sourcegitcommit: c799941c8169cd5b6b6d63f609db66ab2af93891
+ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61308966"
+ms.lasthandoff: 09/06/2019
+ms.locfileid: "70391769"
 ---
 # <a name="data-types-in-power-bi-desktop"></a>Power BI Desktop 中的数据类型
 本文介绍 Power BI Desktop 和数据分析表达式 (DAX) 中支持的数据类型。 
@@ -44,7 +44,7 @@ Power BI Desktop 支持三种数字类型：
 
 **定点十进制数** – 小数分隔符的位置是固定的。 小数分隔符右侧始终有四位数，并可以表示有意义的 19 位数。  它可以表示的最大值为 922,337,203,685,477.5807（正或负）。  定点十进制数类型在舍入可能会引发错误的情况下非常有用。  在处理许多带小数值的数字时，有时它们会累积并强制性地使数据稍有偏离。  由于小数分隔符右侧四位数其后的数字会被截断，定点十进制数可以帮助你避免这些类型的错误。   如果你熟悉 SQL Server，此数据类型可对应于 SQL Server 的十进制 (19,4)，或 Power Pivot 中的货币数据类型。 
 
-**整数** – 表示 64 位（八字节）整数值。 由于它是一个整数，其小数位数右侧没有数字。 它支持 19 位数；从 -9,223,372,036,854,775,808 (-2^63) 到 9,223,372,036,854,775,807 (2^63-1) 的正数或负数。  它可以表示各种数值数据类型可能的最大数字。  与定点十进制数类型相同，在需要控制舍入的情况下，整数类型非常有用。 
+**整数** – 表示 64 位（八字节）整数值。 由于它是一个整数，其小数位数右侧没有数字。 它支持 19 位数；从 -9,223,372,036,854,775,807 (-2^63+1) 到 9,223,372,036,854,775,806 (2^63-2) 的正数或负数。 它可以表示各种数值数据类型可能的最大数字。  与定点十进制数类型相同，在需要控制舍入的情况下，整数类型非常有用。 
 
 > [!NOTE]
 >  Power BI Desktop 数据模型支持 64 位整数值，但由于存在 JavaScript 限制，因此视觉对象可安全表达的最大数字是 9,007,199,254,740,991 (2^53-1)。 如果在数据模型中使用大于以上值的数字，可在将该数字添加到视觉对象前，通过计算减小其大小 

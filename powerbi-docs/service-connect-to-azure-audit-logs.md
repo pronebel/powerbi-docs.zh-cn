@@ -7,18 +7,20 @@ ms.reviewer: maggiesMSFT
 ms.service: powerbi
 ms.subservice: powerbi-template-apps
 ms.topic: conceptual
-ms.date: 02/06/2018
+ms.date: 08/29/2019
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 005913bc6af73f9b20db3cff7d12733f721eef3a
-ms.sourcegitcommit: 762857c8ca09ce222cc3f8b006fa1b65d11e4ace
+ms.openlocfilehash: ee4b4616f264f0bd20e53d999b64301b2a7a693b
+ms.sourcegitcommit: b53a6f5575f5f8bc443ecdca9c72525ce123518f
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/05/2019
-ms.locfileid: "66720590"
+ms.lasthandoff: 08/30/2019
+ms.locfileid: "70186050"
 ---
 # <a name="connect-to-azure-audit-logs-with-power-bi"></a>使用 Power BI 连接到 Azure 审核日志
 借助 Azure 审核日志内容包，你可以分析和可视化审核日志中存储的信息。 Power BI 会检索数据，生成现成的仪表板，并基于该数据创建报表。
+
+[!INCLUDE [include-short-name](./includes/service-deprecate-content-packs.md)]
 
 [连接到 Azure 审核日志内容包](https://app.powerbi.com/getdata/services/azure-audit-logs)，或阅读有关使用 Power BI 进行 [Azure 审核日志集成](https://powerbi.microsoft.com/integrations/azure-audit-logs)的详细信息。
 

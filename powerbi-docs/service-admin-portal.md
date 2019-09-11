@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 07/25/2019
 ms.custom: seodec18
 LocalizationGroup: Administration
-ms.openlocfilehash: 6a1ce47d7af41df51b7c439240f3e9db0dd28397
-ms.sourcegitcommit: d74aca333595beaede0d71ba13a88945ef540e44
+ms.openlocfilehash: 260860ba1ac875b097b12a1ac32ef09e983fe08d
+ms.sourcegitcommit: 4a3afe761d2f4a5bd897fafb36b53961739e8466
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/03/2019
-ms.locfileid: "68757718"
+ms.lasthandoff: 08/20/2019
+ms.locfileid: "69655158"
 ---
 # <a name="administering-power-bi-in-the-admin-portal"></a>在管理门户中管理 Power BI
 
@@ -117,7 +117,7 @@ Office 365 中的全局管理员或分配有 Power BI 服务管理员角色的�
 
 请谨慎操作，因为删除现有的使用指标内容和每个用户指标内容是不可逆转的操作。
 
-## <a name="users"></a>用户数
+## <a name="users"></a>用户
 
 可以在 Microsoft 365 管理中心中管理 Power BI 用户、组和管理员。 “用户”  选项卡为租户提供指向管理中心的链接。
 
@@ -188,7 +188,7 @@ Office 365 中的全局管理员或分配有 Power BI 服务管理员角色的�
 
 ### <a name="share-content-with-external-users"></a>与外部用户共享内容
 
-组织中的用户可以与组织外部的用户共享仪表板。 [了解详细信息](service-share-dashboards.md#share-a-dashboard-or-report-with-people-outside-your-organization)
+组织中的用户可以与组织外部的用户共享仪表板。 详细了解[外部共享](service-share-dashboards.md#share-a-dashboard-or-report-outside-your-organization)。
 
 ![外部用户设置](media/service-admin-portal/powerbi-admin-sharing-external-02.png)
 
@@ -358,7 +358,7 @@ Power BI Desktop（2019 年 3 月版及更高版本）支持通过“组策略�
 
 ## <a name="audit-and-usage-settings"></a>审核和使用情况设置
 
-### <a name="create-audit-logs-for-internal-activity-auditing-and-compliance"></a>为实现内部活动审核和符合性而创建审核日志
+### <a name="create-audit-logs-for-internal-activity-auditing-and-compliance"></a>为内部活动审核和符合性创建审核日志
 
 组织中的用户可以使用审核来监视组织中的其他用户在 Power BI 中执行的操作。 [了解详细信息](service-admin-auditing.md)
 
@@ -371,9 +371,9 @@ Power BI Desktop（2019 年 3 月版及更高版本）支持通过“组策略�
 
 组织中的用户可以查看自己创建的仪表板和报表的使用情况指标。 [了解详细信息](service-usage-metrics.md)
 
-### <a name="per-user-data-in-usage-metrics-for-content-creators"></a>内容创建者的使用情况指标中的每用户数据
+### <a name="per-user-data-in-usage-metrics-for-content-creators"></a>内容创建者的使用指标中的每个用户数据
 
-内容创建者的使用情况指标将公开正在访问内容的用户的显示名称和电子邮件地址。 [了解详细信息](service-usage-metrics.md)
+内容创建者的使用指标将公开正在访问内容的用户的显示名称和电子邮件地址。 [了解详细信息](service-usage-metrics.md)
 
 默认情况下，每个用户的数据都启用了使用指标并在指标报表中包含内容创建者帐户信息。 如果不希望对所有用户收集此信息，请为指定安全组或整个组织禁用此功能。 已排除用户的帐户信息随后会在报表中显示为“未命名”  。
 

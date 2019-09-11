@@ -1,6 +1,6 @@
 ---
-title: 数据视图映射
-description: Power BI 如何在将数据传递给视觉对象之前转换数据
+title: 了解 Power BI 视觉对象中的数据视图映射
+description: 本文介绍了 Power BI 如何在将数据传递给视觉对象之前对其进行转换。
 author: asander
 ms.author: asander
 manager: rkarlin
@@ -9,19 +9,18 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: conceptual
 ms.date: 06/18/2019
-ms.openlocfilehash: ff70b2f12921694617a736164484df1326471eea
-ms.sourcegitcommit: 473d031c2ca1da8935f957d9faea642e3aef9839
+ms.openlocfilehash: 07989183688045f34d78e71cdaad5045d080f436
+ms.sourcegitcommit: b602cdffa80653bc24123726d1d7f1afbd93d77c
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/23/2019
-ms.locfileid: "68425174"
+ms.lasthandoff: 09/03/2019
+ms.locfileid: "70237241"
 ---
-# <a name="data-view-mappings-in-power-bi-visuals"></a>Power BI 视觉对象中的数据视图映射
+# <a name="understand-data-view-mapping-in-power-bi-visuals"></a>了解 Power BI 视觉对象中的数据视图映射
 
-`dataViewMappings` 描述数据角色如何彼此相关，并允许你为它们指定条件要求。
-每个 `dataMappings` 都有一个部分。
+本文讨论了数据视图映射，描述了数据角色如何彼此相关，并允许你为它们指定条件要求。 本文还介绍了每种 `dataMappings` 类型。
 
-每个有效映射都将生成 `DataView`，但目前仅支持对每个视觉对象执行一个查询，因此在大多数情况下，只能获取一个 `DataView`。 但是，可以提供多个设有不同条件的数据映射，这允许
+每个有效的映射都会生成一个数据视图，但目前仅支持对每个视觉对象执行一次查询。 你通常会仅获得一个数据视图。 然而，在某些情况下可以提供多个数据映射，这允许：
 
 ```json
 "dataViewMappings": [
@@ -35,10 +34,10 @@ ms.locfileid: "68425174"
 ]
 ```
 
-> [!NOTE]
-> 需要注意的是，当且仅当在 `dataViewMappings` 中填充了有效映射时，Power BI 才会创建到 DataView 的映射。
+当且仅当在 `dataViewMappings` 中填充了有效映射时，Power BI 才会创建到数据视图的映射。
 
-换句话说，如果 `dataViewMappings` 中定义了 `categorical`，但没有定义 `table`、`single` 等其他映射，如以下示例中所示：
+换句话说，`categorical` 可在 `dataViewMappings` 中定义，但其他映射（例如 `table` 或 `single` ）可能不行。 例如：
+
 ```json
 "dataViewMappings": [
     {
@@ -47,7 +46,8 @@ ms.locfileid: "68425174"
 ]
 ```
 
-Power BI 将生成一个 `DataView`，其中具有单个 `categorical` 映射（`table` 和其他映射将为 `undefined`）：
+Power BI 生成具有单个 `categorical` 映射的数据视图，并且 `table` 和其他映射未定义：
+
 ```javascript
 {
     "categorical": {
@@ -60,16 +60,16 @@ Power BI 将生成一个 `DataView`，其中具有单个 `categorical` 映射（
 
 ## <a name="conditions"></a>条件
 
-描述特定数据映射的条件。 可以提供多组条件，如果数据与所述的一组条件相匹配，则视觉对象会将数据作为有效数据来接受。
+本部分介绍特定数据映射的条件。 可以提供多组条件，如果数据与所述的一组条件相匹配，则视觉对象会将数据作为有效数据来接受。
 
-目前，对于每个字段，可以指定最小值和最大值。 它表示可以绑定到该数据角色的字段数。 
+目前，对于每个字段，可以指定最小值和最大值。 该值表示可以绑定到该数据角色的字段数。 
 
 > [!NOTE]
 > 如果条件中省略了数据角色，那么可以绑定任意数量的字段。
 
 ### <a name="example-1"></a>示例 1
 
-可以将多个字段拖入每个数据角色。 在此示例中，类别限一个数据字段，度量值限两个数据字段。
+可以将多个字段拖入每个数据角色。 在本示例中，类别限一个数据字段，度量值限两个数据字段。
 
 ```json
 "conditions": [
@@ -79,7 +79,9 @@ Power BI 将生成一个 `DataView`，其中具有单个 `categorical` 映射（
 
 ### <a name="example-2"></a>示例 2
 
-在此示例中，需要满足以下两个条件之一。 有一个类别数据字段和两个度量值，或者两个类别和一个度量值。
+在本示例中，需要满足以下两个条件之一：
+* 一个类别数据字段和两个度量值
+* 两个类别和一个度量值。
 
 ```json
 "conditions": [
@@ -92,7 +94,7 @@ Power BI 将生成一个 `DataView`，其中具有单个 `categorical` 映射（
 
 单个数据映射是数据映射的最简单形式。 它接受单个度量值字段并提供总计。 如果该字段为数值字段，则它将提供总和。 否则，它将提供非重复值的计数。
 
-若要使用单个数据映射，需要定义要映射的数据角色的名称。 此映射仅适用于单个度量值字段。 如果分配了第二个字段，则不会生成任何数据视图。 因此，包括一个将数据限制为单个字段的条件也是一种很好的做法。
+要使用单个数据映射，则需要定义要映射的数据角色的名称。 此映射仅适用于单个度量值字段。 如果分配了第二个字段，则不会生成任何数据视图，因此，最好包含将数据限制为单个字段的条件。
 
 > [!NOTE]
 > 此数据映射不能与任何其他数据映射结合使用。 它旨在将数据限制为单个数值。
@@ -110,7 +112,7 @@ Power BI 将生成一个 `DataView`，其中具有单个 `categorical` 映射（
 }  
 ```
 
-生成的数据视图仍将包含其他类型（表、类别等），但每个映射将只包含单个值。 最佳做法是只访问单个值。
+生成的数据视图仍将包含其他类型（表、类别等），但每个映射只包含单个值。 最佳做法是只访问单个值。
 
 ```JSON
 {
@@ -135,7 +137,7 @@ Power BI 将生成一个 `DataView`，其中具有单个 `categorical` 映射（
 
 ### <a name="example-4"></a>示例 4
 
-下面是之前 DataRole 示例中的定义。
+下面是之前数据角色示例中的定义：
 
 ```json
 "dataRole":[
@@ -152,7 +154,7 @@ Power BI 将生成一个 `DataView`，其中具有单个 `categorical` 映射（
 ]
 ```
 
-现在，对于映射：
+下面是映射：
 
 ```json
 "dataViewMappings": {
@@ -169,14 +171,14 @@ Power BI 将生成一个 `DataView`，其中具有单个 `categorical` 映射（
 }
 ```
 
-这是一个简单的示例，内容是“映射我的 `category` DataRole，以便我拖入 `category` 的每个字段的数据都映射到 `categorical.categories`。 同时将 `measure` DataRole 映射到 `categorical.values`”。
+这是一个简单的示例。 内容是“映射我的 `category` 数据角色，以便我拖入 `category` 的每个字段的数据都映射到 `categorical.categories`。 同时将 `measure` 数据角色映射到 `categorical.values`”。
 
-* **for...in** - 对于此数据角色中的所有项，将它们包含在数据查询中。
-* **bind...to** - 生成与 for...in 相同的结果，但预期 DataRole 具有将其限制为单个字段的条件。
+* **for...in**：对于此数据角色中的所有项，将它们包含在数据查询中。
+* **bind...to**：生成与 for...in  相同的结果，但预期数据角色具有将其限制为单个字段的条件。
 
 ### <a name="example-5"></a>示例 5
 
-在此示例中，我们将使用前面示例中的前两个 DataRole，另外定义 `grouping` 和 `measure2`。
+本示例将使用前面示例中的前两个数据角色，另外定义 `grouping` 和 `measure2`。
 
 ```json
 "dataRole":[
@@ -203,7 +205,7 @@ Power BI 将生成一个 `DataView`，其中具有单个 `categorical` 映射（
 ]
 ```
 
-现在，对于映射：
+下面是映射：
 
 ```json
 "dataViewMappings":{
@@ -228,7 +230,7 @@ Power BI 将生成一个 `DataView`，其中具有单个 `categorical` 映射（
 
 ### <a name="example-6"></a>示例 6
 
-下面是 dataRole。
+下面是数据角色：
 
 ```json
 "dataRoles": [
@@ -250,7 +252,7 @@ Power BI 将生成一个 `DataView`，其中具有单个 `categorical` 映射（
 ]
 ```
 
-下面是 dataViewMapping。
+下面是数据视图映射：
 
 ```json
 "dataViewMappings": [
@@ -277,7 +279,7 @@ Power BI 将生成一个 `DataView`，其中具有单个 `categorical` 映射（
 ]
 ```
 
-类别 `dataview` 可进行可视化，如下所示。
+类别数据视图可进行可视化，如下所示：
 
 | 分类 |  |  | | | |
 |-----|-----|------|------|------|------|
@@ -288,7 +290,7 @@ Power BI 将生成一个 `DataView`，其中具有单个 `categorical` 映射（
 | 墨西哥 | | 300 | x | x | x |
 | 英国 | | x | x | 75 | x |
 
-Power BI 会将其生成为类别数据视图。 这是一组类别。
+Power BI 将其作为分类数据视图生成。 这是一组类别。
 
 ```JSON
 {
@@ -310,7 +312,7 @@ Power BI 会将其生成为类别数据视图。 这是一组类别。
 }
 ```
 
-每个类别也会映射到一组值。 其中每个值都按系列（即年份）归组。
+每个类别也会映射到一组值。 其中的每个值都是按序列分组的，序列以年份的形式表示。
 
 例如，2013 年加拿大销售额为 null，2014 年加拿大销售额为 50。
 
@@ -393,7 +395,7 @@ Power BI 会将其生成为类别数据视图。 这是一组类别。
 ]
 ```
 
-表 `dataview` 可进行可视化，如下所示。  
+可以按下方所示的方式可视化表数据视图：  
 
 | 国家/地区| 年份 | 销售 |
 |-----|-----|------|
@@ -405,7 +407,7 @@ Power BI 会将其生成为类别数据视图。 这是一组类别。
 | 英国 | 2014 | 150 |
 | 美国 | 2015 | 75 |
 
-Power BI 将生成表数据视图。 不要以为存在排序。
+Power BI 以表数据视图的形式显示数据。 不应假定数据已排序。
 
 ```JSON
 {
@@ -452,13 +454,13 @@ Power BI 将生成表数据视图。 不要以为存在排序。
 }
 ```
 
-可以通过选择所需字段并单击总和来聚合数据。  
+可以通过选择所需的字段，然后选择“求和”来聚合数据。  
 
 ![数据聚合](./media/data-aggregation.png)
 
 ## <a name="matrix-data-mapping"></a>矩阵数据映射
 
-矩阵数据映射与表数据映射类似，但前者按层次结构显示行。 其中一个 `dataRole` 值可用作列标题值。
+矩阵数据映射与表数据映射类似，但前者按层次结构显示行。 任意一个数据角色值均可用作列标题值。
 
 ```json
 {
@@ -510,11 +512,11 @@ Power BI 将生成表数据视图。 不要以为存在排序。
 }
 ```
 
-Power BI 创建分层数据结构。 树的根包含 `Category` 数据角色第一列中的数据和数据角色第二列中的子级。
+Power BI 创建分层数据结构。 树层次结构的根包括来自 `Category` 数据角色的“父级”列数据，以及来自数据角色表的“子级”列的子项   。
 
 数据集：
 
-| 父级 | 子级 | 孙级 | 列 | 值 |
+| 父级 | 子级 | 孙级 | Columns | 值 |
 |-----|-----|------|-------|-------|
 | Parent1 | Child1 | Grand child1 | Col1 | 5 |
 | Parent1 | Child1 | Grand child1 | Col2 | 6 |
@@ -526,18 +528,18 @@ Power BI 创建分层数据结构。 树的根包含 `Category` 数据角色第�
 | Parent1 | Child2 | Grand child4 | Col2 | 9 |
 | Parent1 | Child2 | Grand child5 | Col1 | 3 |
 | Parent1 | Child2 | Grand child5 | Col2 | 5 |
-| Parent2 | Child3 | Grand child6 | Col1 | 1 |
+| Parent2 | Child3 | Grand child6 | Col1 | 第 1 个 |
 | Parent2 | Child3 | Grand child6 | Col2 | 2 |
 | Parent2 | Child3 | Grand child7 | Col1 | 7 |
-| Parent2 | Child3 | Grand child7 | Col2 | 1 |
+| Parent2 | Child3 | Grand child7 | Col2 | 第 1 个 |
 | Parent2 | Child3 | Grand child8 | Col1 | 10 |
 | Parent2 | Child3 | Grand child8 | Col2 | 13 |
 
-Power BI 的核心矩阵视觉对象将其呈现为表。
+Power BI 的核心矩阵视觉对象将数据呈现为表。
 
 ![矩阵视觉对象](./media/matrix-visual-smaple.png)
 
-视觉对象如下所述获取数据结构（仅显示前两行）：
+视觉对象按以下代码所述获取其数据结构（此处仅显示前两个表行）：
 
 ```json
 {
@@ -614,9 +616,9 @@ Power BI 的核心矩阵视觉对象将其呈现为表。
 
 ## <a name="data-reduction-algorithm"></a>数据缩减算法
 
-如果要控制 DataView 中接收到的数据量，可以应用 `DataReductionAlgorithm`。
+若要控制在数据视图中接收的数据量，可以应用数据缩减算法。
 
-默认情况下，所有自定义视觉对象都应用了顶级 DataReductionAlgorithm，并将“count”设置为 1000 个数据点。 这相当于在 capabilities.json 中设置了以下属性：
+默认情况下，所有自定义视觉对象都应用了顶级数据缩减算法，并将“count”设置为 1000 个数据点  。 这相当于在 capabilities.json 中设置了以下属性  ：
 
 ```json
 "dataReductionAlgorithm": {
@@ -626,23 +628,23 @@ Power BI 的核心矩阵视觉对象将其呈现为表。
 }
 ```
 
-可以将“count”值修改为不超过 30000 的任何整数值。 基于 R 的自定义视觉对象最多可支持 150000 行。
+可以将“count”值修改为不超过 30000 的任何整数值  。 基于 R 的自定义视觉对象最多可支持 150000 行。
 
 ## <a name="data-reduction-algorithm-types"></a>数据缩减算法类型
 
-有四种类型的 `DataReductionAlgorithm` 设置：
+有四种类型的数据缩减算法设置：
 
-* `top` - 如果要将数据限制为从数据集顶部获取的值。 将从数据集中获取顶部第一个“count”值。
-* `bottom` - 如果要将数据限制为从数据集底部获取的值。 将从数据集中获取最后一个“count”值。
-* `sample` - 通过一个简单采样算法来限制数据集，该方法将项数限制为“count”的数量。 它意味着包含第一项和最后一项，以及具有相等间隔的一组“count”数量的项。
-例如，如果你有一个数据集 [0, 1, 2, ...100] 和 `count: 9`，那么你将接收到以下值 [0, 10, 20 ...100]
-* `window` - 一次加载一个“窗口”的数据点，其中包含“count”元素。 当前 `top` 和 `window` 等效。 正在运行的工作可完全支持窗口化设置。
+* `top`：如果要将数据限制为从数据集顶部获取的值。 将从数据集中获取顶部第一个“count”值  。
+* `bottom`：如果要将数据限制为从数据集底部获取的值。 将从数据集中获取最后一个“count”值。
+* `sample`：通过一个简单采样算法来缩减数据集，该方法将项数限制为“count”的数量  。 它意味着包含第一项和最后一项，以及一组“count”数量的项具有相等的间隔  。
+例如，如果你有一个数据集 [0, 1, 2, ...100] 且“count”  值为 9，你将收到值 [0, 10, 20 ...100]。
+* `window`：一次加载一个“窗口”的数据点，其中包含“count”元素   。 当前 `top` 和 `window` 等效。 我们正在努力做到完全支持窗口设置。
 
 ## <a name="data-reduction-algorithm-usage"></a>数据缩减算法使用情况
 
-`DataReductionAlgorithm` 可在类别、表或矩阵 `dataview` 映射中使用。
+数据缩减算法可用于分类、表或矩阵数据视图映射。
 
-可以将其设置为 `categories` 和/或 `values` 的组部分，用于类别数据映射。
+可以将算法设置为 `categories` 和/或 `values` 的组部分，用于类别数据映射。
 
 ### <a name="example-8"></a>示例 8
 
@@ -677,7 +679,7 @@ Power BI 的核心矩阵视觉对象将其呈现为表。
 }
 ```
 
-数据缩减算法可应用于表 `dataview` 映射的 `rows` 部分。
+可以将数据缩减算法应用于数据视图映射表的 `rows` 部分。
 
 ### <a name="example-9"></a>示例 9
 
@@ -700,4 +702,4 @@ Power BI 的核心矩阵视觉对象将其呈现为表。
 ]
 ```
 
-数据缩减算法可应用于 `rows` 和/或 `matrix` `dataview` 映射的 `columns` 部分。
+可以将数据缩减算法应用于数据视图映射矩阵的 `rows` 和 `columns` 部分。

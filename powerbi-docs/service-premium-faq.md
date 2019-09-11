@@ -8,14 +8,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
-ms.date: 02/05/2019
+ms.date: 08/19/2019
 LocalizationGroup: Premium
-ms.openlocfilehash: 92b515cfa9c4d3ca796d48ac90415cc0d1d5d5a9
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 747ff7788ce30f5d4f61c48cc70a737bc74cd612
+ms.sourcegitcommit: 4a3afe761d2f4a5bd897fafb36b53961739e8466
+ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "65565388"
+ms.lasthandoff: 08/20/2019
+ms.locfileid: "69654270"
 ---
 # <a name="power-bi-premium-faq"></a>Power BI Premium 常见问题解答
 
@@ -76,9 +76,9 @@ Power BI Premium 可作为 Power BI Pro 的附加内容购买。 Office 365 E5 �
 
 什么是 Power BI 报表服务器？  这是否意味着使 Power BI 在本地可用？
 
-Power BI 报表服务器是一个本地服务器，可用于完全在组织防火墙边界内部署和分发交互式 Power BI 报表和分页报表。 Power BI 报表服务器可通过 Power BI Premium 提供，也可作为拥有带软件保障的 SQL Server Enterprise Edition 的客户一项权益进行提供。 请联系 Microsoft 代表，了解详细信息。
+Power BI 报表服务器是一个本地服务器，可用于完全在组织防火墙边界内部署和分发交互式 Power BI 报表和分页报表。 Power BI 报表服务器可通过 Power BI Premium 提供，也可作为拥有带软件保障的 SQL Server Enterprise Edition 的客户一项权益进行提供。 有关许可的详细信息，请参阅[授权 Power BI 报表服务器](report-server/get-started.md#licensing-power-bi-report-server)。 有关详细信息，请联系你的 Microsoft 代表。
 
-利用 Power BI Premium， 可通过 Power BI 报表服务器本地部署与组织在云中预配的相同数量的虚拟核心。 无需拆分容量。 组织可以选择在云中使用 Power BI，也可以通过 Power BI 报表服务器将报表保留在本地，然后随时移动到云。
+借助 Power BI Premium，也可通过 Power BI 报表服务器本地部署与组织在云中预配的相同数量的虚拟核心。 无需拆分容量。 组织可以选择在云中使用 Power BI，也可以通过 Power BI 报表服务器将报表保留在本地，然后随时移动到云。
 
 有关详细信息，请参阅[开始使用 Power BI 报表服务器](report-server/get-started.md)。
 

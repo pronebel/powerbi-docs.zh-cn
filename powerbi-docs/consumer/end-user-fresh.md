@@ -6,16 +6,16 @@ manager: kvivek
 ms.service: powerbi
 ms.custom: ''
 ms.subservice: powerbi-consumer
-ms.topic: overview
+ms.topic: conceptual
 ms.date: 02/08/2019
 ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: 4b4bc6398466b4c603126efed5b6591c9c3ad6c0
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: dbad2927b64966a459086531fbfbf3e3e5de2eab
+ms.sourcegitcommit: 9665997274301b228f45aa7250ba557e90164a4d
+ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61059714"
+ms.lasthandoff: 09/06/2019
+ms.locfileid: "70751660"
 ---
 # <a name="your-content-is-up-to-date"></a>内容为最新内容
 作为使用者，你可以与设计人员创建并与你共享的内容进行交互   。 你可能想知道该内容是否为最新内容，或者只是想了解该内容上次刷新的时间。 了解到自己使用的是最新内容可让人充满信心。  
@@ -69,7 +69,7 @@ ms.locfileid: "61059714"
 
 ![从菜单中选择“相关视图”](media/end-user-fresh/power-bi-view-related.png)
 
-“相关内容”窗格显示仪表板或报表基础数据集的上次刷新信息  。
+“相关内容”窗格会显示仪表板或报表基础数据集的上次刷新信息  。
 
 ![Power BI 仪表板](media/end-user-fresh/power-bi-last-refresh.png)
 
@@ -82,7 +82,7 @@ ms.locfileid: "61059714"
 保持最新内容的另一种方法是订阅报表或仪表板。 不必登录并打开报表或仪表板，只需告知 Power BI 按照设置的时间表发送快照即可。  有关详细信息，请参阅[订阅仪表板和报表](end-user-subscribe.md)。
 
 ## <a name="set-data-alerts"></a>设置数据警报
-希望在数据更改超过所设置的限制时收到通知？ [创建数据警报](end-user-alerts.md)。  使用数据警报保持最新内容非常轻松。 利用数据警报，可告知 Power BI 在报表中的值超出特定阈值时发送电子邮件。  例如，如果库存低于 25 个单位或销售超过目标。  
+希望在数据更改超过所设置的限制时收到通知？ [创建数据警报](end-user-alerts.md)。  使用数据警报保持最新内容非常轻松。 借助数据警报，可指示 Power BI 在报表中某个值超出特定阈值时向你发送电子邮件。  例如，如果库存低于 25 个单位或销售超过目标。  
 
 ## <a name="next-steps"></a>后续步骤
 [创建数据警报](end-user-alerts.md)    

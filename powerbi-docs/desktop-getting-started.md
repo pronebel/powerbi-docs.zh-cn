@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 08/19/2019
+ms.date: 08/29/2019
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: d1739d97b0741c67e29ed7ab9a35a70bf4fdc484
-ms.sourcegitcommit: 4a3afe761d2f4a5bd897fafb36b53961739e8466
+ms.openlocfilehash: 2049d996c9f6130718e203a8f6d27a2a7fac911f
+ms.sourcegitcommit: a00fe5fb545c3df13b7cd13a701fd6a2b2521a17
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/20/2019
-ms.locfileid: "69654849"
+ms.lasthandoff: 08/31/2019
+ms.locfileid: "70201026"
 ---
 # <a name="getting-started-with-power-bi-desktop"></a>Power BI Desktop 入门
 欢迎使用 **Power BI Desktop 入门指南**。 此 Power BI Desktop 简短教学课程能让你熟悉它的运作方式、示范它的功能以及加速你构建稳固数据模型的能力 - 以令人惊叹的报表增强你的商业智慧工作。 
@@ -105,6 +105,9 @@ Power BI Desktop 会当作一个应用程序进行安装，并在桌面上运行
  ![](media/desktop-getting-started/designer_gsg_editquery.png)
 
 有关连接到数据的详细信息，请参阅[通过 Power BI Desktop 连接到数据](desktop-connect-to-data.md)。
+
+> [!NOTE]
+> 本文中引用的表数据可能会随时间的推移发生改变。 因此，你需要遵循的步骤可能会因以下原因而有所不同：要求你对如何调整步骤或结果具有创造性，这也体现了学习的乐趣。 
 
 下一部分，我们将调整数据，使其满足我们的需求。 调整连接数据的过程被称为 *调整* 数据。
 

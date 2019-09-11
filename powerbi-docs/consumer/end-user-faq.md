@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 6/17/2019
 ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: 0e63025c4e8a07e9cd22c82ca7e605042fa65be0
-ms.sourcegitcommit: 8c52b3256f9c1b8e344f22c1867e56e078c6a87c
+ms.openlocfilehash: 5efdb98e0722add361f3b333f773fc03c6ea50a9
+ms.sourcegitcommit: 4a3afe761d2f4a5bd897fafb36b53961739e8466
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/19/2019
-ms.locfileid: "67264296"
+ms.lasthandoff: 08/20/2019
+ms.locfileid: "69654142"
 ---
 # <a name="frequently-asked-questions-about-power-bi"></a>有关 Power BI 的常见问题
 
@@ -29,7 +29,7 @@ Power BI 服务是基于云的业务分析服务，任何人都可以更快的�
 
 ## <a name="whats-the-difference-between-power-bi-pro-and-power-bi-premium"></a>Power BI Pro 与 Power BI Premium 之间的区别是什么？
 
-Power BI Pro 许可证是支持访问 Power BI 服务中所有内容和功能的单独许可证。 它甚至还支持共享内容，并与其他 Pro 用户协作。 只有 Pro 用户可以将内容发布到应用工作区，使用这些内容，共享仪表板并订阅仪表板及报表。
+Power BI Pro 许可证是支持访问 Power BI 服务中所有内容和功能的单独许可证。 它甚至还支持共享内容，并与其他 Pro 用户协作。 只有 Pro 用户可将内容发布到应用工作区、共享仪表板并订阅仪表板和报表。
 
 Power BI Premium 提供专用容量，以确保性能更一致。 它还支持 Power BI 中的较大数据量。 对于个人用户，Premium 支持 Pro 用户广泛分发内容，且接收人无需使用每用户许可证，即可查看内容。
 

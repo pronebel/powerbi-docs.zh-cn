@@ -7,21 +7,21 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 06/24/2019
+ms.date: 08/16/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 0af278171a00c792e466bbd0e21a3efb5ffa8962
-ms.sourcegitcommit: 1c96b65a03ec0a0612e851dd58c363f4d56bca38
+ms.openlocfilehash: 93b3be374707b3e49f87d0875795d160f4530410
+ms.sourcegitcommit: 4a3afe761d2f4a5bd897fafb36b53961739e8466
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/25/2019
-ms.locfileid: "67389729"
+ms.lasthandoff: 08/20/2019
+ms.locfileid: "69655007"
 ---
 # <a name="creating-r-visuals-in-the-power-bi-service"></a>在 Power BI 服务中创建 R 视觉对象
 Power BI 服务支持查看使用 R 脚本创建的视觉对象并与之交互。 使用 R 脚本创建的视觉对象通常称为  *R 视觉对象* ，它可以借助 R 丰富的分析和可视化功能来显示高级数据成型和分析（如预测）。
 
 > [!NOTE]
-> [R 编程语言](https://www.r-project.org/)是统计学家、数据科学家和业务分析师使用最广泛的一种编程语言。 R 语言有一个开放源代码社区，该社区提供超过 7000 个加载项包以及广泛使用的 R 用户组。 Power BI 服务中部署的 R 版本为  *Revolution R Open 3.2.2* 。
+> [R 编程语言](https://www.r-project.org/)是统计学家、数据科学家和业务分析师使用最广泛的一种编程语言。 R 语言有一个开放源代码社区，该社区提供超过 7000 个加载项包以及广泛使用的 R 用户组。 Power BI 服务中部署的 R 版本为 Microsoft R 3.4.4  。
 > 
 > 
 

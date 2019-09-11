@@ -1,6 +1,6 @@
 ---
-title: 呈现事件
-description: Power BI 视觉对象可以通知 Power BI，它们已可导出到 Power Point/PDF
+title: 在 Power BI 视觉对象中呈现事件
+description: Power BI 视觉对象可以通知 Power BI，它们已可导出到 PowerPoint 或 PDF。
 author: Yarovinsky
 ms.author: alexyar
 manager: rkarlin
@@ -9,22 +9,22 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: conceptual
 ms.date: 06/18/2019
-ms.openlocfilehash: 46166b3503a770e033b98474fcf9240235296cc2
-ms.sourcegitcommit: 473d031c2ca1da8935f957d9faea642e3aef9839
+ms.openlocfilehash: b481ce94e5025045466a05d71e30a00f02be7ead
+ms.sourcegitcommit: b602cdffa80653bc24123726d1d7f1afbd93d77c
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/23/2019
-ms.locfileid: "68425082"
+ms.lasthandoff: 09/03/2019
+ms.locfileid: "70237165"
 ---
-# <a name="event-service"></a>事件服务
+# <a name="render-events-in-power-bi-visuals"></a>在 Power BI 视觉对象中呈现事件
 
-新 API 包含三种方法（started、finished 或 failed），这些方法应在呈现过程中调用。
+新 API 包含三种方法（`started`、`finished` 或 `failed`），这些方法应在呈现过程中调用。
 
-呈现开始时，自定义视觉对象代码调用 renderingStarted 方法以指示呈现进程已开始。
+呈现开始时，Power BI 视觉对象代码调用 `renderingStarted` 方法以指示呈现进程已开始。
 
-如果呈现已成功完成，自定义视觉对象代码将立即调用 `renderingFinished` 方法，通知侦听器（主要是“导出到 PDF”和“导出到 PowerPoint”）视觉对象的映像已准备就绪  。
+如果呈现已成功完成， Power BI 视觉对象代码将立即调用 `renderingFinished` 方法，通知侦听器（主要是“导出到 PDF”和“导出到 PowerPoint”）视觉对象的映像已准备好进行导出   。
 
-如果呈现过程中出现问题，自定义视觉对象无法成功完成。 自定义视觉对象代码应调用 `renderingFailed` 方法，通知侦听器呈现过程尚未完成。 此方法还为失败原因提供可选字符串。
+如果在此过程中出现问题，Power BI 视觉对象则无法成功呈现。 要通知侦听器呈现过程尚未完成，Power BI 视觉对象代码应调用 `renderingFailed` 方法。 此方法还提供可选字符串用于说明失败原因。
 
 ## <a name="usage"></a>使用情况
 
@@ -38,31 +38,31 @@ export interface IVisualHost extends extensibility.IVisualHost {
  */
 export interface IVisualEventService {
     /**
-     * Should be called just before the actual rendering was started. 
-     * Usually at the very start of the update method.
+     * Should be called just before the actual rendering starts, 
+     * usually at the start of the update method
      *
-     * @param options - the visual update options received as update parameter
+     * @param options - the visual update options received as an update parameter
      */
     renderingStarted(options: VisualUpdateOptions): void;
 
     /**
-     * Shoudl be called immediately after finishing successfull rendering.
+     * Should be called immediately after rendering finishes successfully
      * 
-     * @param options - the visual update options received as update parameter
+     * @param options - the visual update options received as an update parameter
      */
     renderingFinished(options: VisualUpdateOptions): void;
 
     /**
-     * Called when rendering failed with optional reason string
+     * Called when rendering fails, with an optional reason string
      * 
-     * @param options - the visual update options received as update parameter
-     * @param reason - the option failure reason string
+     * @param options - the visual update options received as an update parameter
+     * @param reason - the optional failure reason string
      */
     renderingFailed(options: VisualUpdateOptions, reason?: string): void;
 }
 ```
 
-### <a name="simple-sample-the-visual-hasnt-any-animations-on-rendering"></a>简单示例。 视觉对象没有呈现任何动画
+### <a name="sample-the-visual-displays-no-animations"></a>示例：视觉对象不显示动画
 
 ```typescript
     export class Visual implements IVisual {
@@ -83,7 +83,7 @@ export interface IVisualEventService {
         }
 ```
 
-### <a name="sample-the-visual-with-animation"></a>示例。 带有动画的视觉对象
+### <a name="sample-the-visual-displays-animations"></a>示例：视觉对象显示动画
 
 如果视觉对象带有用于呈现的动画或异步函数，则应在动画后或异步函数内调用 `renderingFinished` 方法。
 
@@ -104,7 +104,7 @@ export interface IVisualEventService {
         public update(options: VisualUpdateOptions) {
             this.events.renderingStarted(options);
             ...
-            // read more https://github.com/d3/d3-transition/blob/master/README.md#transition_end
+            // Learn more at https://github.com/d3/d3-transition/blob/master/README.md#transition_end
             d3.select(this.element).transition().duration(100).style("opacity","0").end().then(() => {
                 // renderingFinished called after transition end
                 this.events.renderingFinished(options);
@@ -114,4 +114,4 @@ export interface IVisualEventService {
 
 ## <a name="rendering-events-for-visual-certification"></a>视觉对象认证的呈现事件
 
-视觉对象对呈现事件的支持是视觉对象认证的要求之一。 阅读有关[认证要求](https://docs.microsoft.com/power-bi/power-bi-custom-visuals-certified?#certification-requirements)的详细内容
+视觉对象认证的要求之一是支持视觉对象呈现事件。 有关详细信息，请参阅[认证要求](https://docs.microsoft.com/power-bi/power-bi-custom-visuals-certified?#certification-requirements)。

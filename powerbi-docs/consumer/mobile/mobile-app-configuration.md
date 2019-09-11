@@ -1,7 +1,7 @@
 ---
 title: Power BI iOS 应用配置设置
 description: 如何使用 MDM 工具自定义 iOS 版 Power BI 的行为
-author: mshenhav
+author: paulinbar
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
@@ -9,12 +9,12 @@ ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 06/07/2019
 ms.author: mshenhav
-ms.openlocfilehash: a0883927f3a0a09bbe4d1ed618b7d5f708807464
-ms.sourcegitcommit: 206806d8ddb6bdfc322c1a46fb34a1b0678acba2
+ms.openlocfilehash: bc9c6dd8cd892ab0304cc5a99a3bb780486f32f0
+ms.sourcegitcommit: c0f4d00d483121556a1646b413bab75b9f309ae9
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/10/2019
-ms.locfileid: "66816998"
+ms.lasthandoff: 08/29/2019
+ms.locfileid: "70160159"
 ---
 # <a name="remotely-configure-power-bi-ios-app-using-mobile-device-management-mdm-tool"></a>使用移动设备管理 (MDM) 工具远程配置 Power BI iOS 应用
 
@@ -34,7 +34,7 @@ Power BI iOS 应用允许管理员使用已注册的设备远程“推送”报�
 | com.microsoft.powerbi.mobile.ServerURL | 字符串 | 报表服务器 URL。<br><br>应以 http/https 开头。|
 | com.microsoft.powerbi.mobile.ServerUsername | 字符串 | [可选]<br><br>要用于连接服务器的用户名。<br><br>如果不存在此项，应用将提示用户键入用于连接的用户名。|
 | com.microsoft.powerbi.mobile.ServerDisplayName | 字符串 | [可选]<br><br>默认值为“报表服务器”<br><br>应用中用于表示服务器的易记名称。 |
-| com.microsoft.powerbi.mobile.OverrideServerDetails | 布尔 | [可选]<br><br>默认值为 True。 设置为 True 时，它会替代移动设备中已有的任何报表服务器定义。 已删除已配置的现有服务器。 将“替代”设置为 True 还可防止用户删除该配置。<br><br>设置为 False 时会添加推送的值，并保留任何现有设置。如果已在移动应用中配置相同的服务器 URL，则应用会保留该配置不变。 应用不会要求用户重新验证同一服务器。 |
+| com.microsoft.powerbi.mobile.OverrideServerDetails | 布尔 | [可选]<br><br>默认值为 True。 设置为 True 时，它会替代移动设备中已有的任何报表服务器定义。 已删除已配置的现有服务器。 将“替代”设置为 True 还可防止用户删除该配置。<br><br>设置为“False”将添加推送值，并保留任何现有设置。 如果已在移动应用中配置相同的服务器 URL，则应用将按原样保留该配置。 应用不会要求用户重新验证同一服务器。 |
 
 ## <a name="data-protection-setting"></a>数据保护设置
 

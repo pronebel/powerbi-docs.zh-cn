@@ -10,12 +10,12 @@ ms.topic: tutorial
 ms.date: 05/31/2019
 ms.author: davidi
 LocalizationGroup: Learn more
-ms.openlocfilehash: 757a2ca5a88e8ee98aa1c460c30e001f14bc6789
-ms.sourcegitcommit: 88e2a80b95b3e735689e75da7c35d84e24772e13
+ms.openlocfilehash: f18dae9ecd0eff0b7f62a3152fc59c81f1292ba4
+ms.sourcegitcommit: c0f4d00d483121556a1646b413bab75b9f309ae9
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/07/2019
-ms.locfileid: "66814335"
+ms.lasthandoff: 08/29/2019
+ms.locfileid: "70160384"
 ---
 # <a name="tutorial-combine-sales-data-from-excel-and-an-odata-feed"></a>教程：合并来自 Excel 和 OData 源的销售数据
 
@@ -119,7 +119,7 @@ Power Query 编辑器可以用来创建计算和自定义字段以丰富你的�
    
 2. 在“自定义列”  对话框中，在“新列名”字段中键入“LineTotal”   。
 
-3. 在 **= 后的“自定义列公式”字段中，输入“[Order_Details.UnitPrice]”\*“[Order_Details.Quantity]”    。 （你还可以从可用列  滚动框中选择字段名称，然后选择“<< 插入”  ，而不是键入它们。） 
+3. 在 = 后的“自定义列公式”字段中，输入 [Order_Details.UnitPrice] \*[Order_Details.Quantity]     。 （你还可以从可用列  滚动框中选择字段名称，然后选择“<< 插入”  ，而不是键入它们。） 
 
 4. 选择**确定**。
    

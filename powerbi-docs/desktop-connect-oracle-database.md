@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 02/22/2019
+ms.date: 08/29/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: b28c4ea9b4cacc77a7f98af5bfc006670f40af94
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 3dce16287c9cdcb7882e332e338137f7598b4010
+ms.sourcegitcommit: a00fe5fb545c3df13b7cd13a701fd6a2b2521a17
+ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61314934"
+ms.lasthandoff: 08/31/2019
+ms.locfileid: "70200913"
 ---
 # <a name="connect-to-an-oracle-database"></a>连接到 Oracle 数据库
 若要将 Oracle 数据库与 **Power BI Desktop** 连接，运行 Power BI Desktop 的计算机上必须安装了正确的 Oracle 客户端软件。 你使用的 Oracle 客户端软件取决于已安装的 Power BI Desktop 版本 - **32 位**版本或 **64 位**版本。
@@ -64,3 +64,5 @@ ms.locfileid: "61314934"
 * 转而从 https://powerbi.microsoft.com/desktop 下载 Power BI Desktop。
 
 * 若要使用 Microsoft Store 中的版本，请在本地计算机上，将 12.X.X\client_X 中的 oraons.dll 复制到 12.X.X\client_X\bin   。 X 表示版本和目录编号。
+
+如果在连接到 Oracle Database 时 Power BI Gateway 中出现“未设置对象引用”  错误消息，则可以按照[管理数据源 - Oracle](service-gateway-onprem-manage-oracle.md) 一文中的说明解决该问题。

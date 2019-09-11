@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 05/08/2019
+ms.date: 08/29/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 7a25a9cc220dcb9f4620b7fb77e6bac264a47256
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: b089c3e51ce80fdb776455519f2569ee8fa24572
+ms.sourcegitcommit: 9665997274301b228f45aa7250ba557e90164a4d
+ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "65514743"
+ms.lasthandoff: 09/06/2019
+ms.locfileid: "70751634"
 ---
 # <a name="connect-to-ssas-multidimensional-models-in-power-bi-desktop"></a>连接到 Power BI Desktop 中的 SSAS 多维模型
 使用 Power BI Desktop，你可以访问 **SSAS 多维模型**，通常称为 **SSAS MD**。
@@ -35,8 +35,8 @@ ms.locfileid: "65514743"
 | BISM 多维对象 | 表格元数据 |
 | --- | --- |
 | 多维数据集 |模型 |
-| 多维数据集维度 |表格 |
-| 维度属性（密钥）、名称 |列 |
+| 多维数据集维度 |表 |
+| 维度属性（密钥）、名称 |Columns |
 | 度量值组 |表 |
 | 度量值 |度量值 |
 | 没有关联度量值组的度量值 |名为 *度量值* 的表内 |
@@ -78,7 +78,8 @@ ms.locfileid: "65514743"
 ## <a name="considerations-and-limitations"></a>注意事项和限制
 使用 **SSAS MD** 具有某些特定限制：
 
-* 服务器必须运行 SQL Server 2012 SP1 CU4 或更高版本的 Analysis Services，才能使 Power BI Desktop SSAS MD 连接器正常工作
+* 服务器必须运行 SQL Server 2012 SP1 CU4 或更高版本的 Analysis Services，才能使 Power BI Desktop SSAS MD 连接器正常运行。
+* 只有 Enterprise 版和 BI 版的 SQL Server 2012 和 SQL Server 2014 才支持实时连接。 对于标准版 SQL Server，实时连接需要 SQL Server 2016 或更高版本。
 * *操作* 和 *命名集* 不会公开到 Power BI，但你仍然可以连接到包含 *操作* 或 *命名集* 的多维数据集，并创建视觉对象和报表。
 * 可能会遇到以下问题：Power BI 显示 SSAS 模型元数据，但无法从模型检索数据。 如果系统上安装的 MSOLAP 提供程序是 32 位版本，而不是 64 位版本，则会出现此问题。 安装 64 位版本可以解决此问题。
 * 在创作与 SSAS 多维模型实时连接的报表时，无法创建“报表级别”度量值。 唯一可用的度量值是 MD 模型中定义的度量值。
@@ -86,7 +87,7 @@ ms.locfileid: "65514743"
 ## <a name="supported-features-of-ssas-md-in-power-bi-desktop"></a>Power BI Desktop 中支持的 SSAS MD 功能
 Power BI Desktop 中支持以下 SSAS MD 功能：
 
-* 在此版本的 **SSAS MD** 支持以下元素消耗（你可以获取有关这些功能的[详细信息](https://msdn.microsoft.com/library/jj969574.aspx)）：
+* 在此版本的 **SSAS MD** 支持以下元素消耗（你可以获取有关这些功能的[详细信息](https://docs.microsoft.com/sql/analysis-services/multidimensional-models/understanding-power-view-for-multidimensional-models?view=sql-server-2014)）：
   * 显示文件夹
   * KPI 趋势
   * 默认成员

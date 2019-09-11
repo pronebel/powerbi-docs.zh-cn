@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 05/29/2019
+ms.date: 08/29/2019
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: d6d6ca0b9a1a2ec312a9168aad7a7cc93981e396
-ms.sourcegitcommit: 206806d8ddb6bdfc322c1a46fb34a1b0678acba2
+ms.openlocfilehash: 21a7bf05330373febe1e9f121f07df6de0779c69
+ms.sourcegitcommit: a00fe5fb545c3df13b7cd13a701fd6a2b2521a17
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/10/2019
-ms.locfileid: "66816709"
+ms.lasthandoff: 08/31/2019
+ms.locfileid: "70200950"
 ---
 # <a name="data-sources-for-the-power-bi-service"></a>Power BI 服务数据源
 数据是 Power BI 的核心。 假设你正在浏览数据。 可通过创建图表和仪表板，或使用**问答**提问来执行此任务。 你看到的可视化效果和答案从数据集中获取其基础数据。 但是，数据集来自何处呢？ 它来自数据源。
@@ -46,7 +46,7 @@ ms.locfileid: "66816709"
 ### <a name="files"></a>文件
 ![](media/service-get-data/pbi_getdata_files.png)
 
-**Excel**（ *.xlsx*、 *.xlsm*）- Excel 是独一无二的。 在 Excel 中，一个工作簿可能会包含不同的数据类型。 例如，它可以包含已自行输入到工作表中的数据。 它还可以包含使用 Power Query 从外部数据源查询和加载的数据。 Power Query 可通过 Excel 2016 中的“获取和转换”或 Power Pivot 获取  。 可以从工作表中的表导入数据，也可以从数据模型中导入数据。 若要了解详细信息，请参阅[从 Power BI 文件获取数据](service-get-data-from-files.md)。
+Excel（.xlsx 和 .xlsm）- 在 Excel 中，一个工作簿可能会包含不同的数据类型    。 例如，它可以包含已自行输入到工作表中的数据。 它还可以包含使用 Power Query 从外部数据源查询和加载的数据。 Power Query 可通过 Excel 2016 中的“获取和转换”或 Power Pivot 获取  。 可以从工作表中的表导入数据，也可以从数据模型中导入数据。 若要了解详细信息，请参阅[从 Power BI 文件获取数据](service-get-data-from-files.md)。
 
 **Power BI Desktop** ( *.pbix*) - 可以使用 Power BI Desktop 查询和加载外部数据源中的数据，并创建报表。 还可以使用度量值和关系扩展数据模型，或将 Power BI Desktop 文件导入 Power BI 站点。 Power BI Desktop 最适合更高级的用户。 通常情况下，这些用户非常了解其数据源。 他们还了解数据查询和转换，以及数据建模概念。 若要了解详细信息，请参阅[连接到 Power BI Desktop 中的数据](desktop-connect-to-data.md)。
 
@@ -102,9 +102,9 @@ ms.locfileid: "66816709"
 
 来自服务的内容包将自动更新。 在大多数情况下，它们每天更新一次。 可以手动刷新，但是否看到任何更新的数据将取决于服务提供商。 组织中的人员对内容包的更新将取决于所使用的数据源。 它们还取决于创建内容包的人员如何配置刷新。
 
-Azure SQL 数据库、Azure SQL 数据仓库和 Azure HDInsight 上的 Spark 的独特之处在于，它们都是云中的数据源。 Power BI 服务也位于云中，因此 Power BI 可以使用 **DirectQuery** 实时连接到这些数据源。 Power BI 中显示的内容始终为同步内容，无需设置计划刷新。
+Azure SQL 数据库、Azure SQL 数据仓库和 Azure HDInsight 上的 Spark 是云中的数据源。 Power BI 服务也位于云中，因此 Power BI 可以使用 **DirectQuery** 实时连接到这些数据源。 Power BI 中显示的内容始终为同步内容，无需设置计划刷新。
 
-SQL Server Analysis Services 是独一无二的。 从 Power BI 连接到它时，它就像云中的 Azure 数据库一样，是一个实时连接。 不同之处在于数据库本身位于组织中的服务器上。 此类连接需要 IT 部门配置的 Power BI 网关。
+从 Power BI 连接到 SQL Server Analysis Services 时，它就像云中的 Azure 数据库一样，是一个实时连接。 不同之处在于数据库本身位于组织中的服务器上。 此类连接需要 IT 部门配置的 Power BI 网关。
 
 数据刷新是 Power BI 中非常重要的一部分，十分深奥，因此在本文中无法一一介绍。 如果你想要全面地了解数据刷新，则请务必查看 [Power BI 中的数据刷新](refresh-data.md)。
 
