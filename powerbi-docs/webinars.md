@@ -9,12 +9,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 06/01/2019
 ms.author: v-tatero
-ms.openlocfilehash: 5a5dca5c3fb4b3b375d3fbb603703e8aaaf91c6c
-ms.sourcegitcommit: a77977a43342db4399a4dffb862b96907d16de35
+ms.openlocfilehash: e02d50a7990eb90405d6a864fe294fee8e946e10
+ms.sourcegitcommit: ba085b248c54e8fb1fd8eb2bb23a814e3fdd7ff6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/14/2019
-ms.locfileid: "69023438"
+ms.lasthandoff: 09/12/2019
+ms.locfileid: "70936268"
 ---
 # <a name="power-bi-webinars"></a>Power BI 网络研讨会
 
@@ -22,9 +22,7 @@ ms.locfileid: "69023438"
 
 ## <a name="upcoming-webinars"></a>即将举行的网络研讨会
 
-**配合使用 Power BI 与 Dynamics 365 Finance and Operations**
-<br>作者：Kevin Horlock
-<br>[注册后即可在 9 月 11 日观看](https://info.microsoft.com/ww-landing-Using-Power-BI-with-Dynamics-365-Finance-and-Operations.html?LCID=EN-US)
+尚无举办网络研讨会的计划。 请稍后再查看更多近期活动安排。
 
 >[Power BI 社区即将举行的网络研讨会](https://powerbi.microsoft.com/blog/tag/community-webinars/?Is=Website)
 
@@ -51,6 +49,10 @@ ms.locfileid: "69023438"
 **使用 Power BI 增强数据建模技能**
 <br>作者：Kasper de Jonge
 <br>[注册并立即观看](https://info.microsoft.com/Strengthen-Your-Data-Modeling-Skills-with-PowerBI-Registration.html?Is=Website)
+
+**配合使用 Power BI 与 Dynamics 365 Finance and Operations**
+<br>作者：Kevin Horlock
+<br>[注册并立即观看](https://info.microsoft.com/ww-landing-Using-Power-BI-with-Dynamics-365-Finance-and-Operations.html?LCID=EN-US)
 
 **Power BI 上运行的 Microsoft - 简化财务规划和分析**
 <br>作者：Cory Hrncirik 和 Miguel Martinez

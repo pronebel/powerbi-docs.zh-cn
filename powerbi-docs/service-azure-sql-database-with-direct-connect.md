@@ -11,12 +11,12 @@ ms.reviewer: ''
 ms.custom: ''
 ms.date: 06/13/2019
 LocalizationGroup: Data from databases
-ms.openlocfilehash: 2363b9da3ac46ce9fd49f19a00950a4a3cf23502
-ms.sourcegitcommit: 30ee81f8c54fd7e4d47d7e3ffcf0e6c3bb68f6c2
+ms.openlocfilehash: 96bf1a8d95f26014be09a32c1e83fb2af90f9fc0
+ms.sourcegitcommit: 52aa112ac9194f4bb62b0910c4a1be80e1bf1276
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/29/2019
-ms.locfileid: "67468107"
+ms.lasthandoff: 09/14/2019
+ms.locfileid: "70986990"
 ---
 # <a name="azure-sql-database-with-directquery"></a>具有 DirectQuery 的 Azure SQL 数据库
 
@@ -27,7 +27,7 @@ ms.locfileid: "67468107"
 **注意：**
 
 * 在连接时指定完全限定的服务器名称（请参阅下文了解详细信息）。
-* 确保数据库的防火墙规则配置为“[允许访问 Azure 服务](https://msdn.microsoft.com/library/azure/ee621782.aspx)”。
+* 确保数据库的防火墙规则配置为“[允许访问 Azure 服务](https://docs.microsoft.com/azure/sql-database/sql-database-networkaccess-overview#allow-azure-services)”。
 * 每个操作（例如选择列或添加筛选器）都会将查询发送回数据库。
 * 磁贴每小时刷新一次（刷新不需要进行计划）。 可调整在连接时高级设置中刷新的频率。
 * 问答不可用于 DirectQuery 数据集。

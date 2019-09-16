@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 05/08/2019
+ms.date: 09/06/2019
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: 54108b8d4fd02730cb1aa027d2fefbad2bbfd9fb
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: a98ccf3477a6e8e996efb0b8cb1ccf2c6728c594
+ms.sourcegitcommit: 226b47f64e6749061cd54bf8d4436f7deaed7691
+ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "65513108"
+ms.lasthandoff: 09/09/2019
+ms.locfileid: "70840961"
 ---
 # <a name="get-data-from-excel-workbook-files"></a>从 Excel 工作簿文件中获取数据
 ![](media/service-excel-workbook-files/excel_icon.png)
@@ -77,8 +77,6 @@ Power BI 支持以下数据类型：整数、小数、货币、日期、True/Fal
 当你选择“连接”  时，你的工作簿将显示在 Power BI 中，就像在 Excel Online 中那样。 但与 Excel Online 不同，你会有一些出色的功能，可帮助你将各元素从你的工作表固定仪表板中。
 
 不能在 Power BI 中编辑你的工作簿。 但是，如果你需要进行一些更改，你可以单击“编辑”，然后选择在 Excel Online 中编辑你的工作簿或在计算机上的 Excel 中打开工作簿。 你所作的任何更改都会保存到 OneDrive 上的工作簿中。
-
-选择这种方式后，Power BI 将为连接的工作簿创建相应的数据集。 在需要时，此数据集可用于创建 Power BI 报表。 你的工作簿也会显示在 Power BI 工作区导航窗格中的“报表”下。 已连接的工作簿具有特殊的 Excel 图标。
 
 如果你只在工作表中有数据，或者具有要固定到仪表板的范围、数据透视表和图表，请选择此选项。
 
