@@ -283,6 +283,8 @@
               href: service-add-hyperlink-to-text-box.md
             - name: 表中的超链接
               href: power-bi-hyperlinks-in-tables.md
+            - name: 在表格中显示图像
+              href: power-bi-images-tables.md
             - name: 自定义格式字符串
               href: desktop-custom-format-strings.md
             - name: 条件表格式设置
@@ -569,8 +571,6 @@
               href: service-create-dashboard-mobile-phone-view.md
             - name: 为磁贴创建 QR 代码
               href: service-create-qr-code-for-tile.md
-            - name: 向仪表板添加图像
-              href: service-dashboard-add-image.md
             - name: 仪表板数据分类
               href: service-data-classification.md
             - name: 仪表板主题
@@ -677,8 +677,6 @@
               href: service-dataflows-linked-entities.md
             - name: 将增量刷新与数据流配合使用
               href: service-dataflows-incremental-refresh.md
-            - name: 数据流的最佳做法
-              href: service-dataflows-best-practices.md
             - name: 数据流的开发人员资源
               href: service-dataflows-developer-resources.md
             - name: 连接到 Power BI Desktop 中的数据流
@@ -1432,6 +1430,8 @@
           href: service-admin-power-bi-security.md
 - name: 指南
   items:
+    - name: 数据流的最佳做法
+      href: service-dataflows-best-practices.md
     - name: 什么是星型架构？
       href: guidance/star-schema.md
     - name: 减少数据模型大小
