@@ -13,10 +13,10 @@ ms.date: 06/17/2019
 ms.author: mihart
 LocalizationGroup: Get started
 ms.openlocfilehash: 2e41a3f5b1d1bd945e1ab4566abed1589b20c148
-ms.sourcegitcommit: 8c52b3256f9c1b8e344f22c1867e56e078c6a87c
+ms.sourcegitcommit: 52aa112ac9194f4bb62b0910c4a1be80e1bf1276
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/19/2019
+ms.lasthandoff: 09/16/2019
 ms.locfileid: "67264914"
 ---
 # <a name="basic-concepts-for-the-power-bi-service-consumers"></a>面向 Power BI 服务使用者的基本概念
@@ -107,7 +107,7 @@ _______________________________________________________
 
 _______________________________________________________
 
-## <a name="visualizations"></a>可视化
+## <a name="visualizations"></a>可视化效果
 
 可视化效果（亦称为“视觉对象”）显示 Power BI 已发现的数据见解。 借助可视化效果，可以更轻松地理解见解，因为相较于满是数字的电子表格，大脑理解图片的速度更快。
 

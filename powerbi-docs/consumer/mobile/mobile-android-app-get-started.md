@@ -10,10 +10,10 @@ ms.topic: conceptual
 ms.date: 06/28/2018
 ms.author: mshenhav
 ms.openlocfilehash: c5d6549c449c77cea709783b1634318e12fc2e52
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.sourcegitcommit: 52aa112ac9194f4bb62b0910c4a1be80e1bf1276
+ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/29/2019
+ms.lasthandoff: 09/16/2019
 ms.locfileid: "61349450"
 ---
 # <a name="get-started-with-the-power-bi-mobile-app-on-android-devices"></a>Android 设备上的 Power BI 移动应用入门
@@ -36,10 +36,10 @@ Android 版 Microsoft Power BI 移动应用提供了 Power BI、Power BI 报表�
 
 从 Google Play [下载 Android 版 Power BI 应用](http://go.microsoft.com/fwlink/?LinkID=544867)。
   
-Power BI 可以在多个运行 Android 5.0 操作系统或更高版本的不同 Android 设备上运行。 若要检查设备，请转到“设置” > “关于设备” > “Android 版本”。 
+Power BI 可以在多个运行 Android 5.0 操作系统或更高版本的不同 Android 设备上运行。 若要检查设备，请转到“设置”   > “关于设备”   > “Android 版本”  。 
 
 **打开应用时启动**    
-即使没有注册或登录，打开该应用后，也可以浏览登录页面，获取有关对 Android 设备上的 Power BI 应用执行的操作的概述。 点击“跳过”以查看和浏览示例，并获取该应用的亲自实践体验。 无论何时需要，你都可以从仪表板主页[返回到示例](mobile-android-app-get-started.md#try-the-power-bi-and-reporting-services-samples)。
+即使没有注册或登录，打开该应用后，也可以浏览登录页面，获取有关对 Android 设备上的 Power BI 应用执行的操作的概述。 点击“跳过”  以查看和浏览示例，并获取该应用的亲自实践体验。 无论何时需要，你都可以从仪表板主页[返回到示例](mobile-android-app-get-started.md#try-the-power-bi-and-reporting-services-samples)。
 
 查看 [Power Bi 移动应用中的新功能](../../mobile-whats-new-in-the-mobile-apps.md)。
 
@@ -53,11 +53,11 @@ Power BI 可以在多个运行 Android 5.0 操作系统或更高版本的不同 
 1. 在 Android 设备上，从开始屏幕打开 Android 版 Power BI 应用。
    
    ![Power BI 图标](./media/mobile-android-app-get-started/power-bi-logo-android.png)
-2. 若要查看 Power BI 仪表板和报表，请点击“Power BI”。  
+2. 若要查看 Power BI 仪表板和报表，请点击“Power BI”  。  
    
    如果你收到 Power BI 无法登录的消息，请参阅[“无法进行身份验证，因为你的企业 SSL 证书不受信任”](mobile-android-app-error-corporate-ssl-account-is-untrusted.md)，了解有关如何解决该问题的详细信息。
 
-   若要查看 Power BI 报表服务器/Reporting Services 报表和 KPI，请点击“报表服务器”。
+   若要查看 Power BI 报表服务器/Reporting Services 报表和 KPI，请点击“报表服务器”  。
    
    ![登录到 Power BI](./media/mobile-android-app-get-started/power-bi-connect-to-login.png)
 
@@ -67,14 +67,14 @@ Power BI 可以在多个运行 Android 5.0 操作系统或更高版本的不同 
 ### <a name="power-bi-samples"></a>Power BI 示例
 可以查看 Power BI 仪表板示例并与之交互，但有一些事项不能对其执行操作。 无法打开仪表板背后的报表、与他人共享示例，或将其加入收藏夹。
 
-1. 点击左上角的 ![全局导航按钮 ](././media/mobile-android-app-get-started/power-bi-android-options-icon.png) 全局导航按钮。
-2. 点击“设置” > “发现示例”，然后选择一个角色，并浏览该角色的示例仪表板。  
+1. 点击左上角的 ![全局导航按钮](././media/mobile-android-app-get-started/power-bi-android-options-icon.png) 全局导航按钮。
+2. 点击“设置”   > “发现示例”  ，然后选择一个角色，并浏览该角色的示例仪表板。  
    
    ![Power BI 移动示例](./media/mobile-android-app-get-started/power-bi-android-power-bi-samples.png)
 
 ### <a name="reporting-services-mobile-report-samples"></a>Reporting Services 移动报表示例
-1. 点击左上角的 ![全局导航按钮 ](././media/mobile-android-app-get-started/power-bi-android-options-icon.png) 全局导航按钮。
-2. 点击“Reporting Services 示例”，然后打开零售报表或销售报表文件夹以浏览 KPI 和移动报表。
+1. 点击左上角的 ![全局导航按钮](././media/mobile-android-app-get-started/power-bi-android-options-icon.png) 全局导航按钮。
+2. 点击“Reporting Services 示例”  ，然后打开零售报表或销售报表文件夹以浏览 KPI 和移动报表。
    
    ![Reporting Services 示例](./media/mobile-android-app-get-started/power-bi-android-reporting-services-samples.png)
 
@@ -91,7 +91,7 @@ Power BI 可以在多个运行 Android 5.0 操作系统或更高版本的不同 
 ![左侧导航窗格](./media/mobile-android-app-get-started/power-bi-mobile-new-nav-no-numbers.png)
 
 ## <a name="view-your-favorite-dashboards-kpis-and-reports"></a>查看你收藏的仪表板、KPI 和报表
-移动应用中的“收藏夹”页上显示了你收藏的所有 Power BI 仪表板，以及 Power BI 报表服务器/Reporting Services KPI 和报表。 在 Power BI 移动应用中收藏某个仪表板后，可以从所有设备（包括浏览器中的 Power BI 服务）中访问该仪表板。 
+移动应用中的“收藏夹”页上显示了你收藏的所有 Power BI 仪表板，以及 Power BI 报表服务器/Reporting Services KPI 和报表。 在 Power BI 移动应用中收藏  某个仪表板后，可以从所有设备（包括浏览器中的 Power BI 服务）中访问该仪表板。 
 
 * 点击**收藏夹**。
   

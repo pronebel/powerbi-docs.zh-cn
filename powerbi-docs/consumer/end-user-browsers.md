@@ -4,19 +4,18 @@ description: 请参阅支持 Power BI 的浏览器列表
 author: mihart
 manager: kvivek
 ms.reviewer: ''
-ms.custom: seodec18
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 05/11/2019
+ms.date: 09/11/2019
 ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: 1b47e51ece196d6667363d91f43589c398828ff9
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: f713ab679f49ca2e3226f9a6c2a7bf9f2588fede
+ms.sourcegitcommit: a97c0c34f888e44abf4c9aa657ec9463a32be06f
+ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "65608283"
+ms.lasthandoff: 09/17/2019
+ms.locfileid: "71073200"
 ---
 # <a name="supported-browsers-for-power-bi"></a>Power BI 支持的浏览器
 在以下浏览器中运行 Power BI：
@@ -30,6 +29,7 @@ ms.locfileid: "65608283"
 可用的所有平台都支持这些浏览器。
 
 ### <a name="next-steps"></a>后续步骤
+* [什么是 Power BI？](../power-bi-overview.md)
 * 尝试在 [Power BI 社区](http://community.powerbi.com/)中获取信息
 * 仍有问题？ 请访问 [Power BI 支持页](https://powerbi.microsoft.com/support/)
 
