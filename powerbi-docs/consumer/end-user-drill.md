@@ -13,10 +13,10 @@ ms.date: 6/17/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
 ms.openlocfilehash: 29823a2f1ca7f1448df54282e0ce081310974eb3
-ms.sourcegitcommit: 8c52b3256f9c1b8e344f22c1867e56e078c6a87c
+ms.sourcegitcommit: 52aa112ac9194f4bb62b0910c4a1be80e1bf1276
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/19/2019
+ms.lasthandoff: 09/16/2019
 ms.locfileid: "67265271"
 ---
 # <a name="drill-mode-in-a-visualization-in-power-bi"></a>Power BI 可视化效果中的钻取模式
@@ -48,7 +48,7 @@ ms.locfileid: "67265271"
 
     | 井 | 字段 |
     | ---- | ----- |
-    | 值 |销售额<br>\|\_ 今年总销售单位数 |
+    | 值 |销售<br>\|\_ 今年总销售单位数 |
     | 组 | 商店<br>\|\_ 区域<br>\|\_ 城市<br>\|\_ 邮政编码<br>\|\_ 名称
 
     该树状图具有一个层次结构，它由区域、城市、邮政编码和城市名称所组成。 每个区域均包含一个或多个城市，而每个城市均包含一个或多个邮政编码等。 默认情况下，此可视化效果仅显示区域数据，因为列表中的第一个字段是“区域”  。
@@ -145,7 +145,7 @@ ms.locfileid: "67265271"
 
 拥有仅显示邮政编码的树状图并不能获取丰富信息。  因此，让我们展开层次结构中的下一级别。  
 
-1. 当树状图处于活动状态时，选择“向下展开”  图标 ![向下展开图标的屏幕截图。](./media/end-user-drill/power-bi-drill-icon6.png)。 此时，树状图显示层次结构的两个级别：邮政编码级别和商店名称级别。
+1. 当树状图处于活动状态时，选择“向下展开”  图标 ![向下展开图标的屏幕截图](./media/end-user-drill/power-bi-drill-icon6.png)。 此时，树状图显示层次结构的两个级别：邮政编码级别和商店名称级别。
 
     ![显示邮政编码和商店名称的树状图的屏幕截图](./media/end-user-drill/power-bi-expand1.png)
 
@@ -153,7 +153,7 @@ ms.locfileid: "67265271"
 
     ![显示所有 TN 数据的树状图的屏幕截图。](media/end-user-drill/power-bi-drill-down-one1.png)
 
-1. 请确保向下钻取仍处于启用状态 ![向下钻取开/关图标已启用的屏幕截图。](./media/end-user-drill/power-bi-drill-icon2.png)， 并选择“向下展开”  图标 ![向下展开图标的屏幕截图。](./media/end-user-drill/power-bi-drill-icon6.png)。 此时，树状图显示一些其他详细信息。 它不仅显示州和城市，现在还显示邮政编码。
+1. 请确保向下钻取仍处于启用状态 ![向下钻取开/关图标已启用的屏幕截图。](./media/end-user-drill/power-bi-drill-icon2.png)， 并选择“向下展开”  图标 ![向下展开图标的屏幕截图](./media/end-user-drill/power-bi-drill-icon6.png)。 此时，树状图显示一些其他详细信息。 它不仅显示州和城市，现在还显示邮政编码。
 
     ![显示城市、州和邮政编码的视觉对象的屏幕截图。](./media/end-user-drill/power-bi-expand-one3.png)
 
@@ -209,7 +209,7 @@ Power BI 支持展开一个子集或所有子集。 可以向下钻取数据以�
     | 井 | 字段 |
     | ---- | ----- |
     | 轴 | 时间<br>\|\_ 月份 |
-    | 值 | 销售额<br>\|\_ 总销售额 |
+    | 值 | 销售<br>\|\_ 总销售额 |
 
     即使轴数据字段为“月份”，它仍在“轴”井中创建“年份”。    这是因为 Power BI 为它读取的所有值提供完整的日期/时间结构。 层次结构的顶部显示年份的数据。
 
@@ -244,7 +244,7 @@ Power BI 支持展开一个子集或所有子集。 可以向下钻取数据以�
 
     | 井 | 字段 |
     | ---- | ----- |
-    | 值 |销售额<br>\|\_ 今年总销售单位数 |
+    | 值 |销售<br>\|\_ 今年总销售单位数 |
     | 轴 | 商店<br>\|\_ 区域<br>\|\_ 城市 - 可能需要将“城市”从“图例”  井拖到“轴”  井。<br>\|\_ 邮政编码<br>\|\_ 名称 |
 
     ![按区域显示今年总销售单位数的条形图的屏幕截图。](media/end-user-drill/power-bi-hierarchical-axis-category-1.png)
