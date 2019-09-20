@@ -1,5 +1,5 @@
 ---
-title: Power BI 服务报表中书签的概述
+title: Power BI 服务报表中的书签概述
 description: Power BI 问答自然语言查询的文档概述主题。
 author: mihart
 manager: kvivek
@@ -12,33 +12,33 @@ ms.date: 05/10/2019
 ms.author: mihart
 LocalizationGroup: Create reports
 ms.openlocfilehash: 55fafb00135908dc4f82151b96ed04d2cf2568da
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.sourcegitcommit: 52aa112ac9194f4bb62b0910c4a1be80e1bf1276
+ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/29/2019
+ms.lasthandoff: 09/16/2019
 ms.locfileid: "65608325"
 ---
 # <a name="what-are-bookmarks"></a>什么是书签？
-书签捕获当前配置的报表页上，包括筛选器、 切片器和视觉对象的状态视图。 当选择一个书签时，Power BI 将返回到该视图。 有两种类型的书签-你自己和创建的报表创建的那些*设计器*。
+书签可捕获报表页当前已配置的视图，其中包括筛选器、切片器和视觉对象状态。 选择书签时，Power BI 将返回到该视图。 书签有两种类型：自己创建的书签和由报表设计师创建的书签  。
 
 ## <a name="use-bookmarks-to-share-insights-and-build-stories-in-power-bi"></a>在 Power BI 中使用书签共享见解和创建情景 
-有许多用于书签的用途。 假设你发现感兴趣的见解并想要保留它--创建一个书签，以便可以稍后返回。 需要将保留并想要保留您当前的工作，请创建一个书签。 您甚至可以使的书签的报表，以便每次您的默认视图返回，请先打开报表页视图。 
+书签的用途有许多。 假设你发现了一个有趣的见解并想要将其保存，便可创建一个书签，以便稍后可以返回查看。 需要离开并想要保存当前工作，也可创建书签。 你甚至可以将书签设置为报表的默认视图，以便每次返回时，首先打开报表页的该视图。 
 
-此外可以创建集合的书签，对其进行排列的顺序，并随后单步执行每个演示文稿来突出显示一系列呈现一个情景的见解中的书签。  
+你也可以创建一系列书签，按所需的顺序对其进行排列，随后在演示文稿中逐个展示所有书签，以突出显示一系列讲述故事的见解。  
 
-![通过从功能区中选择显示 '书签' 窗格。](media/end-user-bookmarks/power-bi-bookmarks-pane.png)
+![在功能区中选择“书签”，即可显示“书签”窗格。](media/end-user-bookmarks/power-bi-bookmarks-pane.png)
 
 ## <a name="using-bookmarks"></a>使用书签
-若要打开书签窗格，请选择**书签**菜单栏中。 若要返回到原始的已发布视图的报表，请选择**重置为默认值**。
+要打开“书签”窗格，请在菜单栏中选择“书签”  。 要返回到报表的原始发布视图，请选择“重置为默认值”  。
 
 ### <a name="report-bookmarks"></a>报表书签
-如果报表*设计器*包含报表的书签，您会发现它们下**报告书签**标题。 
+如果报表设计器包含报表书签，可在“报表书签”标题下找到它们   。 
 
-![显示报表的书签。](media/end-user-bookmarks/power-bi-report-bookmark.png)
+![显示报表书签。](media/end-user-bookmarks/power-bi-report-bookmark.png)
 
-选择一个书签以转到该报表视图。 
+选择要更改为该报表视图的书签。 
 
-![视频显示报告创建一个书签，选择。](media/end-user-bookmarks/power-bi-bookmarks.gif)
+![显示所选报表书签的视频。](media/end-user-bookmarks/power-bi-bookmarks.gif)
 
 ### <a name="personal-bookmarks"></a>个人书签
 
@@ -53,13 +53,13 @@ ms.locfileid: "65608325"
 * 可见性（对象可见性，使用“选择”  窗格）
 * 任何可见对象的“焦点”或“聚焦”  模式
 
-配置报表页，确保它在书签中的显示效果符合自己的要求。 按照所需方式排列报表页和视觉对象后，选择“书签”  窗格中的“添加”  ，添加一个书签。 在此示例中，我们添加了一些筛选器区域和日期。 
+配置报表页，确保它在书签中的显示效果符合自己的要求。 按照所需方式排列报表页和视觉对象后，选择“书签”  窗格中的“添加”  ，添加一个书签。 在此示例中，我们为区域和日期添加了一些筛选器。 
 
 ![添加个人书签。](media/end-user-bookmarks/power-bi-add-personal.png)
 
-**Power BI**创建书签，并为其提供一个通用名称或输入一个名称。 你可以*重命名*，*删除*，或*更新*选择书签名称旁边的省略号，然后从显示的菜单中选择操作的书签。
+Power BI 会创建一个书签，并为其提供一个通用名称或输入的名称  。 通过选择书签名称旁边的省略号，再从出现的菜单中选择相应操作，即可重命名、删除或更新书签    。
 
-一个书签后，您可以通过中的书签，只需选择显示它**书签**窗格。 
+添加书签后，只需单击“书签”窗格中的书签，即可显示它  。 
 
 ![添加个人书签。](media/end-user-bookmarks/power-bi-personal-bookmark.png)
 
@@ -77,7 +77,7 @@ The order of your bookmarks can become important when you use the **View** featu
 -->
 
 ## <a name="bookmarks-as-a-slide-show"></a>以幻灯片形式放映书签
-若要显示或顺序查看书签，，选择**视图**从**书签**窗格，可以开始一张幻灯片。
+要显示或查看书签，请在“书签”窗格中选择“查看”以开始幻灯片放映   。
 
 在“查看”  模式下，有几项功能值得注意：
 
@@ -155,7 +155,7 @@ Note that selecting **Ungroup** for any bookmark from a group takes all bookmark
 * 大多数自定义视觉对象应该能够与书签很好地配合使用。 如果在使用书签和自定义视觉对象时遇到问题，请与该自定义视觉对象的创建者联系，并要求他们向视觉对象添加书签支持。 
 * 如果在创建书签后在报表页上添加视觉对象，此视觉对象将以默认状态显示。 也就是说，如果在之前创建书签的页面中引入切片器，此切片器将在默认状态下运行。
 * 创建书签后，如果移动视觉对象，书签中也会予以反映。 
-* 通常情况下，您的书签不会受到影响如果报表*设计器*更新或重新发布报表。 但是，如果在设计器报表，如删除一个书签，通过使用字段进行主要更改然后你将收到一条错误消息下一次尝试打开该书签。 
+* 通常，如果报表设计师更新或重新发布报表，都不会对书签产生任何影响  。 但是，如果设计师对报表进行了重大更改（例如，删除书签所使用的字段），则在你下次尝试打开该书签时，你将收到一条错误消息。 
 
 <!--
 ## Next steps

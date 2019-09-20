@@ -13,10 +13,10 @@ ms.date: 12/06/2018
 ms.author: mihart
 LocalizationGroup: Dashboards
 ms.openlocfilehash: fcfb16de53b4e6c67b7c46fec87ab614d07cb9b1
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.sourcegitcommit: 52aa112ac9194f4bb62b0910c4a1be80e1bf1276
+ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/29/2019
+ms.lasthandoff: 09/16/2019
 ms.locfileid: "61049057"
 ---
 # <a name="view-data-insights-on-dashboard-tiles-with-power-bi"></a>使用 Power BI 查看有关仪表板磁贴的数据见解
@@ -59,7 +59,7 @@ ms.locfileid: "61049057"
 
 ## <a name="considerations-and-troubleshooting"></a>注意事项和疑难解答
 - **查看见解**不适用于 DirectQuery - 仅适用于上传到 Power BI 的数据。
-- **查看见解**不适用于所有仪表板磁贴类型。 例如，不可用自定义视觉对象。<!--[custom visuals](end-user-custom-visuals.md)-->
+- **查看见解**不适用于所有仪表板磁贴类型。 例如，它不适用于自定义视觉对象。<!--[custom visuals](end-user-custom-visuals.md)-->
 
 
 ## <a name="next-steps"></a>后续步骤

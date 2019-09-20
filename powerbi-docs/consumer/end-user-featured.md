@@ -13,10 +13,10 @@ ms.date: 05/14/2019
 ms.author: mihart
 LocalizationGroup: Dashboards
 ms.openlocfilehash: 7222f13d5ee4f25d7d55655bb5a7e5f2f28c77d4
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.sourcegitcommit: 52aa112ac9194f4bb62b0910c4a1be80e1bf1276
+ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/29/2019
+ms.lasthandoff: 09/16/2019
 ms.locfileid: "65608661"
 ---
 # <a name="featured-dashboards-in-power-bi-service"></a>Power BI 服务中的特色仪表板
@@ -25,11 +25,11 @@ ms.locfileid: "65608661"
 
 ![设置为精选图标](./media/end-user-featured/power-bi-dropdown.png)
 
-当选择仪表板作为*特色*，每次打开 Power BI 服务，它会打开显示该仪表板。  
+在选择一个仪表板作为精选仪表板后，每次打开 Power BI 服务时，将同时显示并打开该仪表板  。  
 
 也可以选择几个仪表板，并将它们设置为收藏项  。 请参阅[仪表板收藏](end-user-favorite.md)。
 
-如果你尚未设置精选仪表板，Power BI 将打开到您使用的最后一个仪表板或 Power BI 主页。  
+如果尚未设置精选仪表板，Power BI 会打开最近使用的仪表板或 Power BI 主页。  
 
 ### <a name="to-set-a-dashboard-as-featured"></a>将仪表板设置为**特色**项
 观看 Amanda 创建特色仪表板，然后按照视频下面的说明自己进行尝试。
@@ -39,7 +39,7 @@ ms.locfileid: "65608661"
 
 
 1. 打开想要设置为“精选”  的仪表板。 
-2. 在顶部菜单栏中，选择省略号 （...） 并选择**设置为精选**。  
+2. 在顶部菜单栏中，选择省略号 (...) 并选择“设置为精选仪表板”  。  
    
     ![设置为精选图标](./media/end-user-featured/power-bi-dropdown.png)
 3. 确认选择。
@@ -60,9 +60,9 @@ ms.locfileid: "65608661"
 如果你决定不将任何仪表板指定作为精选仪表板，下面介绍了如何取消设置为精选的仪表板。
 
 1. 打开最近设置为精选的仪表板。
-2. 在顶部菜单栏中，选择省略号 （...） 并选择**禁用精选**。
+2. 在顶部菜单栏中，选择省略号 (...) 并选择“禁用精选仪表板”  。
 
-    ![禁用所选的特色仪表板](./media/end-user-featured/power-bi-unfeature-newer.png)
+    ![禁用所选的精选仪表板](./media/end-user-featured/power-bi-unfeature-newer.png)
    
 ## <a name="next-steps"></a>后续步骤
 [收藏仪表板](end-user-favorite.md)

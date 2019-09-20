@@ -10,10 +10,10 @@ ms.topic: conceptual
 ms.date: 12/10/2018
 ms.author: mshenhav
 ms.openlocfilehash: ac9072c69edfd245454e92855dcefa461e80cc23
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.sourcegitcommit: 52aa112ac9194f4bb62b0910c4a1be80e1bf1276
+ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/29/2019
+ms.lasthandoff: 09/16/2019
 ms.locfileid: "61338063"
 ---
 # <a name="view-reports-and-dashboards-in-presentation-mode-on-surface-hub-and-windows-10-devices"></a>在 Windows 10 Surface Hub 设备上使用演示模式查看报表和仪表板
@@ -43,7 +43,7 @@ ms.locfileid: "61338063"
 1. 点击返回图标 ![返回图标](./media/mobile-windows-10-app-presentation-mode/power-bi-windows-10-presentation-back-icon.png) 返回上一页。 长按图标会弹出痕迹导航窗口，可导航到报表或仪表板的包含文件夹。
 2. 墨迹图标 ![墨迹图标](./media/mobile-windows-10-app-presentation-mode/power-bi-windows-10-presentation-ink-icon.png) 使用 Surface 触控笔在报表页上绘制和批注时，可借助其选择颜色。 
 3. 使用页面图标 ![分页图标](./media/mobile-windows-10-app-presentation-mode/power-bi-windows-10-presentation-pages-icon.png) 替换当前呈现的报表页。
-4. 播放图标  ![播放图标](./media/mobile-windows-10-app-presentation-mode/power-bi-windows-10-presentation-play-icon.png) 将隐藏操作栏并启动幻灯片放映，应用将自动在报表页之间旋转。 
+4. 播放图标  ![播放图标](./media/mobile-windows-10-app-presentation-mode/power-bi-windows-10-presentation-play-icon.png) 将隐藏操作栏和开始幻灯片，应用将在报表页之间自动轮替。 
 5. 点击搜索图标 ![搜索图标](./media/mobile-windows-10-app-presentation-mode/power-bi-windows-10-presentation-search-icon.png) 查找 Power BI 中的其他项目。
 6. 要退出演示模式，请点击带有两个相对箭头的图标 ![退出全屏模式](./media/mobile-windows-10-app-presentation-mode/power-bi-windows-10-exit-full-screen-icon.png) 在工具栏上。
 

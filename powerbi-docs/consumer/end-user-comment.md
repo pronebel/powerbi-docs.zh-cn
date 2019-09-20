@@ -9,15 +9,15 @@ ms.custom: seodec18
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 04/30/2019
+ms.date: 09/16/2019
 ms.author: mihart
 LocalizationGroup: Consumer
-ms.openlocfilehash: 2796b29ee553ece77846f5edc8af4b2523fd48c6
-ms.sourcegitcommit: f05ba39a0e46cb9cb43454772fbc5397089d58b4
+ms.openlocfilehash: d09ada0d3309a9cb2b93a8cd4fa3d6740e69ba77
+ms.sourcegitcommit: a97c0c34f888e44abf4c9aa657ec9463a32be06f
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/26/2019
-ms.locfileid: "68522800"
+ms.lasthandoff: 09/17/2019
+ms.locfileid: "71073531"
 ---
 # <a name="add-comments-to-a-dashboard-or-report"></a>将注释添加到仪表板或报表
 添加个人注释或与同事开始有关仪表板或报表的对话。 注释功能只是使用者可与他人协作的方式之一   。 
@@ -25,16 +25,18 @@ ms.locfileid: "68522800"
 ![“注释”视频](media/end-user-comment/comment.gif)
 
 ## <a name="how-to-use-the-comments-feature"></a>如何使用注释功能
-可以将注释添加到整个仪表板、仪表板上的各个视觉对象、报表页以及报表页上的各个视觉对象。 添加常规注释或针对特定同事的注释。  
+可以将注释添加到整个仪表板、仪表板上的各个视觉对象、报表页、分页报表以及报表页上的各个视觉对象。 添加常规注释或针对特定同事的注释。  
 
 将注释添加到报表时，Power BI 将捕获当前筛选器和切片器值。 这意味着，在选择或响应注释时，报表页或报表视觉对象可能会发生更改，以显示首次添加该注释时处于活动状态的筛选器和切片器选择。  
 
 ![带筛选器的报表视频](media/end-user-comment/comment-reports-with-filters/comment-reports-with-filters.gif)
 
-为什么这很重要？ 假设某位同事应用了一个筛选器，该筛选器显示了要与团队共享的有趣见解。 如果未选择该筛选器，则注释可能无意义。 
+为什么这很重要？ 假设某位同事应用了一个筛选器，该筛选器显示了要与团队共享的有趣见解。 如果未选择该筛选器，则注释可能无意义。
+
+如果使用的是分页报表，则只能对报表进行常规注释。  不支持对单个报表视觉对象进行注释。
 
 ### <a name="add-a-general-comment-to-a-dashboard-or-report"></a>将常规注释添加到仪表板或报表
-将注释添加到仪表板和报表的过程类似。 在此示例中，我们使用仪表板。 
+将注释添加到仪表板和报表的过程类似。  在此示例中，我们使用仪表板。 
 
 1. 打开 Power BI 仪表板或报表，然后选择“注释”图标  。 这将打开“注释”对话框。
 
