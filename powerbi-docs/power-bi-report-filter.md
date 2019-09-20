@@ -7,23 +7,23 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 08/19/2019
+ms.date: 09/06/2019
 ms.author: maggies
 LocalizationGroup: Reports
-ms.openlocfilehash: 73db8f9741685549042dbaf1172e57a55a26ab36
-ms.sourcegitcommit: 4a3afe761d2f4a5bd897fafb36b53961739e8466
+ms.openlocfilehash: e5e67863888e5bd6d611ded7a58254fe693f4bb6
+ms.sourcegitcommit: 226b47f64e6749061cd54bf8d4436f7deaed7691
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/20/2019
-ms.locfileid: "69654442"
+ms.lasthandoff: 09/09/2019
+ms.locfileid: "70841259"
 ---
 # <a name="the-new-filter-experience-in-power-bi-reports"></a>Power BI 报表中的新筛选器体验
 
 Power BI 中的筛选器新增了功能，并采用了新设计。 选择启用新筛选器体验后，可以将“筛选器”窗格的格式设置为，与报表的其余部分类似。 可以锁定甚至隐藏筛选器。 设计报表时，根本不会再在“可视化效果”窗格中看到旧“筛选器”窗格。 可以在一个“筛选器”窗格中执行所有筛选器编辑和格式设置操作。 
 
-![新筛选器体验](media/power-bi-report-filter/power-bi-filter-reading.png)
+![新筛选器体验](media/power-bi-report-filter/power-bi-filter-new-look.png)
 
-作为报表设计人员，可以在全新的一个“筛选器”窗格中执行下列操作：
+作为报表设计人员，可以在全新的“筛选器”窗格中执行某些任务：
 
 - 添加和删除要筛选的字段。 
 - 更改筛选器状态。
@@ -207,7 +207,7 @@ Power BI 中的筛选器新增了功能，并采用了新设计。 选择启用�
 
 ## <a name="sort-the-filter-pane"></a>对“筛选器”窗格排序
 
-新“筛选器”窗格体验提供自定义排序功能。 报表创建者可以拖放筛选器，以按照自己所需的顺序重新排列它们。
+新“筛选器”窗格体验提供自定义排序功能。 报表创建者可以拖放筛选器，以按照任意顺序重新排列它们。
 
 ![重新排列筛选器排序顺序](media/power-bi-report-filter/power-bi-filter-sort.gif)
 

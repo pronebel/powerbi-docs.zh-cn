@@ -6,17 +6,17 @@ manager: kvivek
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: hub-page
-ms.date: 05/29/2019
+ms.date: 09/11/2019
 ms.author: mihart
 layout: HubPage
 ms.custom: seodec18
 LocalizationGroup: Get started
-ms.openlocfilehash: 7dae9f7a2768a8e9f51d5454019cff740304fe2f
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: d43d1072c9eafa71d336f71e22ac2d6d68144558
+ms.sourcegitcommit: a97c0c34f888e44abf4c9aa657ec9463a32be06f
+ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "66270618"
+ms.lasthandoff: 09/17/2019
+ms.locfileid: "71073378"
 ---
 <div id="main" class="v2">
       <div class="container">
@@ -26,7 +26,7 @@ ms.locfileid: "66270618"
             <p>若要查看所有 Power BI 使用者文档，请打开<a href="end-user-consumer.md">目录</a>。</p>
             <ul class="pivots">
             <li>
-                <a href="#get-started" data-linktype="self-bookmark">入门</a>
+                <a href="#get-started" data-linktype="self-bookmark">开始使用</a>
                 <ul id="get-started" class="cardsF">
                     <li>
                         <a data-default="true" href="#getstarted" data-linktype="self-bookmark"></a>
@@ -42,7 +42,7 @@ ms.locfileid: "66270618"
                                             </div>
                                             <div class="cardText">
                                                 <h3>开始使用</h3>
-                                                <p><a href="/power-bi/service-get-started" data-linktype="absolute-path">Power BI 服务教程演示</a></p>
+                                                <p><a href="/power-bi/consumer/end-user-reading-view" data-linktype="absolute-path">Power BI 服务教程演示</a></p>
                                                 <p><a href="/power-bi/consumer/end-user-consumer" data-linktype="absolute-path">什么是 Power BI“使用者”？<b><i></i></b></a></p>
                                                 <p><b>有什么区别：</b><a href="/power-bi/consumer/end-user-reports" data-linktype="absolute-path">报表</a>、<a href="/power-bi/consumer/end-user-dashboards" data-linktype="absolute-path">仪表板</a>、<a href="/power-bi/consumer/end-user-apps" data-linktype="absolute-path">应用</a></p>
                                                 <p><a href="/power-bi/consumer/end-user-sign-in" data-linktype="absolute-path">登录和注销</a></p>
@@ -122,7 +122,7 @@ ms.locfileid: "66270618"
                                             </div>
                                             <div class="cardText">
                                                 <h3>获取帮助</h3>
-                                            <p><a href="https://docs.microsoft.com/en-us/learn/paths/consume-data-with-power-bi/" data-linktype="absolute-path">Microsoft 了解自学的培训</a></p>
+                                            <p><a href="https://docs.microsoft.com/en-us/learn/paths/consume-data-with-power-bi/" data-linktype="absolute-path">Microsoft LEARN 自主式培训</a></p>
                                                 <p><a href="https://powerbi.microsoft.com/blog/" data-linktype="absolute-path">阅读 Power BI 博客</a></p>
                                                 <p><a href="http://community.powerbi.com/" data-linktype="absolute-path">在 Power BI 论坛中提问</a></p>
                                             </div>
@@ -152,10 +152,10 @@ ms.locfileid: "66270618"
                 </ul>
             </li>
             <li>
-                <a href="#concepts-terminology" data-linktype="self-bookmark">概念和术语</a>
+                <a href="#concepts-terminology" data-linktype="self-bookmark"> 概念和术语</a>
                 <ul id="concepts-terminology">
                     <li>
-                        <a href="#conceptsterminology" data-linktype="self-bookmark">概念和术语</a>
+                        <a href="#conceptsterminology" data-linktype="self-bookmark"> 概念和术语</a>
                         <ul id="conceptsterminology" class="cardsC">
                             <br>
                             <li>
@@ -314,25 +314,6 @@ ms.locfileid: "66270618"
                                                 <div class="cardText">
                                                     <h3>辅助功能</h3>
                                                     <p>了解 Microsoft 如何使残疾人士能够更轻松地使用 Power BI 并与之进行交互。 </p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </a>
-                            </li>                            
-                            <li>
-                                <a href="/power-bi/consumer/end-user-browsers" data-linktype="absolute-path">
-                                    <div class="cardSize">
-                                        <div class="cardPadding">
-                                            <div class="card">
-                                                <div class="cardImageOuter">
-                                                    <div class="cardImage bgdAccent1">
-                                                        <img src="media/end-user-consumer/browser-info.svg" alt="Browsers Info" data-linktype="relative-path">
-                                                    </div>
-                                                </div>
-                                                <div class="cardText">
-                                                    <h3>浏览器信息</h3>
-                                                    <p>请查看最适合 Power BI 的浏览器列表。 </p>
                                                 </div>
                                             </div>
                                         </div>

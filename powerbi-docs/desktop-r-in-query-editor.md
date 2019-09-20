@@ -8,15 +8,15 @@ ms.custom: seodec18
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 08/14/2019
+ms.date: 09/06/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: e2a970ecbf7b341d4feaba4e90a862841ba8bb17
-ms.sourcegitcommit: f6ac9e25760561f49d4257a6335ca0f54ad2d22e
+ms.openlocfilehash: b64b4b736291ce1c3bde02010b7e583a0c3dc406
+ms.sourcegitcommit: 226b47f64e6749061cd54bf8d4436f7deaed7691
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/16/2019
-ms.locfileid: "69560934"
+ms.lasthandoff: 09/09/2019
+ms.locfileid: "70841511"
 ---
 # <a name="use-r-in-query-editor"></a>在查询编辑器中使用 R
 
@@ -84,6 +84,9 @@ ms.locfileid: "69560934"
        output <- dataset
        output$completedValues <- completedData$"SMI missing values"
     ```
+
+    > [!NOTE]
+    > 可能需要覆盖名为“输出”  的变量才能正确地创建应用了筛选器的新数据集。
 
 7. 选择“确定”  后，“查询编辑器”  将显示与数据隐私相关的警告。
 

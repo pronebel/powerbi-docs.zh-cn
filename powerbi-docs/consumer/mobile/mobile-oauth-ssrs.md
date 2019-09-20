@@ -9,23 +9,25 @@ ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 07/03/2019
-ms.openlocfilehash: 7067d4c7fdc3fc328db417e5d6733569ecc7be01
-ms.sourcegitcommit: b439ded53bfbbb58be27ecedf93d618f5158df33
+ms.openlocfilehash: 59c376afd384812473d3175df992c628ae5049ca
+ms.sourcegitcommit: 52aa112ac9194f4bb62b0910c4a1be80e1bf1276
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/04/2019
-ms.locfileid: "67567809"
+ms.lasthandoff: 09/16/2019
+ms.locfileid: "70903637"
 ---
 # <a name="using-oauth-to-connect-to-power-bi-report-server-and-ssrs"></a>使用 OAuth 连接到 Power BI 报表服务器和 SSRS
 
-了解如何将环境配置为支持 OAuth 对 Power BI 移动应用进行身份验证以连接到 Power BI Report Server 和 SQL Server Reporting Services 2016 或更高版本。
+可使用 OAuth 连接到 Power BI 报表服务器和 Reporting Services，以显示移动报表或 KPI。 了解如何将环境配置为支持 OAuth 对 Power BI 移动应用进行身份验证以连接到 Power BI Report Server 和 SQL Server Reporting Services 2016 或更高版本。
 
-![连接到服务器](media/mobile-oauth-ssrs/powerbi-mobile-oauth.png)
+观看 Adam 如何使用 OAuth 从 Power BI 移动连接到 SSRS：
 
-可使用 OAuth 连接到 Power BI 报表服务器和 Reporting Services，以显示移动报表或 KPI。 Windows Server 2016 向 Web 应用程序代理 (WAP) 角色提供了一些改进，以允许此种类型的身份验证。
 
-   > [!NOTE]
-   > iOS 和 Android 应用现支持查看在使用 WAP 进行身份验证的 Power BI 报表服务器中托管的 Power BI 报表。
+<iframe width="560" height="350" src="https://www.youtube.com/embed/okzPAI2uUek" frameborder="0" allowfullscreen></iframe>
+
+
+> [!NOTE]
+> iOS 和 Android 应用现支持查看在使用 WAP 进行身份验证的 Power BI 报表服务器中托管的 Power BI 报表。
 
 ## <a name="requirements"></a>要求
 
@@ -33,19 +35,19 @@ Windows Server 2016 是 Web 应用程序代理 (WAP) 和 Active Directory 联合
 
 ## <a name="domain-name-services-dns-configuration"></a>域名服务 (DNS) 配置
 
-需要确定 Power BI 移动应用要连接到哪个公用 URL。 例如，可能如下所示。
+公用 URL 将是 Power BI 移动应用要连接到的 URL。 例如，可能如下所示。
 
 ```https
 https://reports.contoso.com
 ```
 
-需要将**报表**的 DNS 记录指向 Web 应用程序代理 (WAP) 服务器的公用 IP 地址。 还需要为 ADFS 服务器配置公用 DNS 记录。 例如，可能为 ADFS 服务器配置了以下 URL。
+需要将报表的 DNS 记录指向 Web 应用程序代理 (WAP) 服务器的公用 IP 地址  。 还需要为 ADFS 服务器配置公用 DNS 记录。 例如，可能为 ADFS 服务器配置了以下 URL。
 
 ```https
 https://fs.contoso.com
 ```
 
-需要将 **fs** 的 DNS 记录指向 Web 应用程序代理 (WAP) 服务器的公用 IP 地址，因为会将其作为 WAP 应用程序的一部分发布。
+需要将 fs 的 DNS 记录指向 Web 应用程序代理 (WAP) 服务器的公用 IP 地址，因为会将其作为 WAP 应用程序的一部分发布  。
 
 ## <a name="certificates"></a>证书
 
@@ -77,7 +79,7 @@ SPN 是使用 Kerberos 身份验证的服务的唯一标识符。 需要确保�
 
 ## <a name="active-directory-federation-services-adfs-configuration"></a>Active Directory 联合身份验证服务 (ADFS) 配置
 
-需要在环境中的 Windows 2016 服务器上配置 ADFS。 可通过服务器管理器并在“管理”下选择“添加角色和功能”完成此过程。 有关详细信息，请参阅 [Active Directory 联合身份验证服务](https://technet.microsoft.com/windows-server-docs/identity/active-directory-federation-services)。
+需要在环境中的 Windows 2016 服务器上配置 ADFS。 可通过服务器管理器并在“管理”下选择“添加角色和功能”完成配置。 有关详细信息，请参阅 [Active Directory 联合身份验证服务](https://technet.microsoft.com/windows-server-docs/identity/active-directory-federation-services)。
 
 ### <a name="create-an-application-group"></a>创建应用程序组
 
@@ -85,7 +87,7 @@ SPN 是使用 Kerberos 身份验证的服务的唯一标识符。 需要确保�
 
 可以按照以下步骤创建应用程序组。
 
-1. 在“AD FS 管理”应用上，右键单击“**应用程序组**”，并选择“**添加应用程序组…** ”
+1. 在“AD FS 管理”应用上，右键单击“应用程序组”，并选择“添加应用程序组…”  
 
    ![ADFS 添加应用程序](media/mobile-oauth-ssrs/adfs-add-application-group.png)
 
@@ -99,7 +101,7 @@ SPN 是使用 Kerberos 身份验证的服务的唯一标识符。 需要确保�
 
 5. “**客户端 ID**”将会自动生成，对于 iOS 和 Android 会输入 484d54fc-b481-4eee-9505-0258a1913020。 
 
-6. 需要添加以下“**重定向 URL**”：
+6. 需要添加以下“重定向 URL”： 
 
    **适用于 Power BI Mobile – iOS 的条目：**  
    msauth://code/mspbi-adal://com.microsoft.powerbimobile  
@@ -107,7 +109,7 @@ SPN 是使用 Kerberos 身份验证的服务的唯一标识符。 需要确保�
    mspbi-adal://com.microsoft.powerbimobile  
    mspbi-adalms://com.microsoft.powerbimobilems
 
-   **Android 应用只需要以下内容：**  
+   **Android 应用只需要以下步骤：**  
    urn:ietf:wg:oauth:2.0:oob
 
    ![ADFS 应用程序组向导 02](media/mobile-oauth-ssrs/adfs-application-group-wizard2.png)
@@ -149,13 +151,13 @@ SPN 是使用 Kerberos 身份验证的服务的唯一标识符。 需要确保�
 
 我们需要在 Active Directory 内的 WAP 服务器计算机帐户上配置约束委派。 如果不具备访问 Active Directory 的权限，则需要与域管理员合作。
 
-若要配置约束委派，需要执行以下操作。
+若要配置约束委派，需要执行以下步骤。
 
 1. 在已安装 Active Directory 工具的计算机上，启动“**Active Directory 用户和计算机**”。
 
 2. 找到 WAP 服务器的计算机帐户。 默认情况下，它会位于计算机容器中。
 
-3. 右键单击 WAP 服务器并转到“**属性**”。
+3. 右键单击 WAP 服务器并转到“属性”  。
 
 4. 选择“**委派**”选项卡。
 
@@ -171,7 +173,7 @@ SPN 是使用 Kerberos 身份验证的服务的唯一标识符。 需要确保�
 
 7. 选择“**用户或计算机…** ”
 
-8. 输入用于 Reporting Services 的服务帐户。 这是在 Reporting Services 配置中将 SPN 添加到其中的帐户。
+8. 输入用于 Reporting Services 的服务帐户。 此帐户是在 Reporting Services 配置中将 SPN 添加到其中的帐户。
 
 9. 选择 Reporting Services 的 SPN，然后选择“**确定**”。
 
@@ -196,10 +198,10 @@ Add-WebApplicationProxyApplication -Name "Contoso Reports" -ExternalPreauthentic
 
 | 参数 | 注释 |
 | --- | --- |
-| **ADFSRelyingPartyName** |这是在 ADFS 内创建的作为应用程序组的一部分的 Web API 名称。 |
-| **ExternalCertificateThumbprint** |这是用于外部用户的证书。 此证书在移动设备上有效且来自受信任的证书颁发机构，这一点很重要。 |
-| **BackendServerUrl** |这是从 WAP 服务器指向报表服务器的 URL。 如果 WAP 服务器位于外围网络中，则需要使用完全限定的域名。 请确保可以从 WAP 服务器上的 Web 浏览器命中此 URL。 |
-| **BackendServerAuthenticationSPN** |这是创建的作为 Reporting Services 配置一部分的 SPN。 |
+| **ADFSRelyingPartyName** |在 ADFS 内创建的作为应用程序组的一部分的 Web API 名称。 |
+| **ExternalCertificateThumbprint** |用于外部用户的证书。 此证书在移动设备上有效且来自受信任的证书颁发机构，这一点很重要。 |
+| **BackendServerUrl** |从 WAP 服务器指向报表服务器的 URL。 如果 WAP 服务器位于外围网络中，则需要使用完全限定的域名。 请确保可以从 WAP 服务器上的 Web 浏览器命中此 URL。 |
+| **BackendServerAuthenticationSPN** |创建的作为 Reporting Services 配置一部分的 SPN。 |
 
 ### <a name="setting-integrated-authentication-for-the-wap-application"></a>为 WAP 应用程序设置集成身份验证
 
@@ -229,7 +231,7 @@ Set-WebApplicationProxyApplication -id 30198C7F-DDE4-0D82-E654-D369A47B1EE5 -Bac
 
 ![登录到 ADFS](media/mobile-oauth-ssrs/powerbi-mobile-app2.png)
 
-选择“**登录**”后，将看到 Reporting Services 服务器中的元素。
+选择“登录”后，将看到 Reporting Services 服务器中的元素  。
 
 ## <a name="multi-factor-authentication"></a>多重身份验证
 
@@ -241,7 +243,7 @@ Set-WebApplicationProxyApplication -id 30198C7F-DDE4-0D82-E654-D369A47B1EE5 -Bac
 
 ![“无法登录 SSRS 服务器”错误](media/mobile-oauth-ssrs/powerbi-mobile-error.png)
 
-可以设置 [Fiddler](http://www.telerik.com/fiddler) 作为移动设备的代理，来查看请求的进度。 若要为手机设备启用 Fiddler 代理，需要在运行 Fiddler 的计算机上安装适用于 [iOS 和 Android 的 CertMaker](http://www.telerik.com/fiddler/add-ons)。 这是 Telerik 提供的用于 Fiddler 的加载项。
+可以设置 [Fiddler](http://www.telerik.com/fiddler) 作为移动设备的代理，来查看请求的进度。 若要为手机设备启用 Fiddler 代理，需要在运行 Fiddler 的计算机上安装[适用于 iOS 和 Android 的 CertMaker](http://www.telerik.com/fiddler/add-ons)。 加载项来自 Telerik for Fiddler。
 
 如果使用 Fiddler 登录成功，则 WAP 应用程序或 ADFS 服务器的证书可能存在问题。 可以使用 [Microsoft Message Analyzer](https://www.microsoft.com/download/details.aspx?id=44226) 等工具验证这些证书是否有效。
 

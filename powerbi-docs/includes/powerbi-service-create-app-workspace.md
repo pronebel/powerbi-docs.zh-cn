@@ -5,19 +5,19 @@ services: powerbi
 author: maggiesMSFT
 ms.service: powerbi
 ms.topic: include
-ms.date: 04/04/2019
+ms.date: 09/10/2019
 ms.author: maggies
 ms.custom: include file
-ms.openlocfilehash: bbd1f47b2d798e662f84f009b3260a11d39cb23d
-ms.sourcegitcommit: e67bacbfc5638ee97e3d2e0e7f5bd2d9aac78f9c
+ms.openlocfilehash: 1e64237490e45cfcf9a9a0102f3e03ecab138ce2
+ms.sourcegitcommit: db4fc5da8e65e0a3dc35582d7142a64ad3405de7
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/02/2019
-ms.locfileid: "67534584"
+ms.lasthandoff: 09/11/2019
+ms.locfileid: "70903952"
 ---
-1. 首先，创建工作区。 选择“工作区”   > “创建应用工作区”  。 
+1. 首先，创建工作区。 选择“工作区”   > “创建工作区”  。 
    
-     ![创建应用工作区](media/powerbi-service-create-app-workspace/power-bi-create-app-workspace.png)
+     ![创建工作区](media/powerbi-service-create-app-workspace/power-bi-workspace-create.png)
    
     此处将放置你和你的同事协作处理的内容。
 
@@ -41,7 +41,7 @@ ms.locfileid: "67534584"
    
      ![设置编辑或仅查看](media/powerbi-service-create-app-workspace/power-bi-apps-create-workspace-members-edit.png)
    
-     仅向应用工作区添加用户，以便他们能够编辑内容。 如果他/她只是要查看内容，请勿将其添加到工作区。 可以在发布应用时对其进行添加。
+     仅向工作区添加用户，以便他们能够编辑内容。 如果他/她只是要查看内容，请勿将其添加到工作区。 可以在发布应用时对其进行添加。
 
 5. 添加你要允许其访问工作区的用户的电子邮件地址，然后选择“添加”  。 无法添加组别名，只能添加单个用户别名。
 
@@ -55,5 +55,5 @@ ms.locfileid: "67534584"
 
 Power BI 创建工作区并将其打开。 它显示在你作为成员的工作区的列表中。 作为管理员，你可以选择省略号(…) 返回并进行更改，添加新成员或更改其权限。
 
-![编辑工作区](media/powerbi-service-create-app-workspace/power-bi-apps-edit-workspace-ellipsis.png)
+![编辑工作区](media/powerbi-service-create-app-workspace/power-bi-workspace-old-settings.png)
 

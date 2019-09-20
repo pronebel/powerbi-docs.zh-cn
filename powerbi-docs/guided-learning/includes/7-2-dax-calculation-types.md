@@ -1,10 +1,10 @@
 ---
-ms.openlocfilehash: 6ed1690ec77880467007200c30038d185c98d6c2
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: f4043a5a8deac0596b58519183988f6ae574458e
+ms.sourcegitcommit: 226b47f64e6749061cd54bf8d4436f7deaed7691
+ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61273186"
+ms.lasthandoff: 09/09/2019
+ms.locfileid: "70847656"
 ---
 你可以使用 DAX 创建的两个主要的计算：
 

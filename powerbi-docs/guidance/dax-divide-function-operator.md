@@ -1,20 +1,20 @@
 ---
 title: DAX：DIVIDE 函数与除法运算符 (/)
 description: 关于何时使用 DAX DIVIDE 函数的指导。
-author: guyinacube
+author: peter-myers
 manager: asaxton
 ms.reviewer: asaxton
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 08/05/2019
+ms.date: 09/09/2019
 ms.author: v-pemyer
-ms.openlocfilehash: d22491ee314ebcebd4479c4e57dbfdf7a6a1ffdb
-ms.sourcegitcommit: c2197c3ad1d747b4ad490ab75771a0d32d0ae208
+ms.openlocfilehash: 7516aaedb886e7b9e0f57ed76f0a7c5e40efbd6d
+ms.sourcegitcommit: 6a44cb5b0328b60ebe7710378287f1e20bc55a25
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2019
-ms.locfileid: "70010428"
+ms.lasthandoff: 09/10/2019
+ms.locfileid: "70877861"
 ---
 # <a name="dax-divide-function-vs-divide-operator-"></a>DAX：DIVIDE 函数与除法运算符 (/)
 
@@ -34,15 +34,15 @@ DIVIDE(<numerator>, <denominator> [,<alternateresult>])
 
 按照设计，DIVIDE 函数可自动处理除数为零的情况。 如果无替代结果传入且分母为零或 BLANK，此函数返回 BLANK。 如果已有替代结果传入，则会返回替代结果而不是 BLANK。
 
-DIVIDE 函数非常方便，因为它使表达式无需首先检测分母的值。 与 [IF](/dax/if-function-dax) 函数相比，该函数检测分母值时的性能更优。 DIVIDE 函数还可使表达式更为简洁顺畅。
+DIVIDE 函数非常方便，因为它使表达式无需首先检测分母的值。 与 [IF](/dax/if-function-dax) 函数相比，该函数检测分母值时的性能更优。 性能提升非常重要，因为检查除数是否为零会产生大量费用。 DIVIDE 函数还可使表达式更为简洁顺畅。
 
 ## <a name="example"></a>示例
 
-虽然以下度量值表达式生成一个安全除法运算，但使用了三个 DAX 函数。
+虽然以下度量值表达式生成一个安全除法运算，但使用了四个 DAX 函数。
 
 ```dax
 
-=IF(ISBLANK([Sales]) || [Sales] = 0, BLANK(), [Profit] / [Sales])
+=IF(OR(ISBLANK([Sales]), [Sales] == 0), BLANK(), [Profit] / [Sales])
 
 ```
 

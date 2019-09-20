@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 08/28/2018
+ms.date: 09/04/2018
 ms.author: mihart
-ms.openlocfilehash: e02d7bfa295b3bd18b0b6b9c64c688ed668c8389
-ms.sourcegitcommit: c799941c8169cd5b6b6d63f609db66ab2af93891
+ms.openlocfilehash: 2a4c9044f661d9d5b822ba366c3a88c572136b35
+ms.sourcegitcommit: 52aa112ac9194f4bb62b0910c4a1be80e1bf1276
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/06/2019
-ms.locfileid: "70391749"
+ms.lasthandoff: 09/16/2019
+ms.locfileid: "70903831"
 ---
 # <a name="view-a-report-in-the-power-bi-service-for-consumers"></a>在面向使用者的 Power BI 服务中查看报表 
 报表由一页或多页的视觉对象组成。 报表是由 Power BI 设计者  创建，[并直接与使用者  共享](end-user-shared-with-me.md)或作为[应用](end-user-apps.md)的一部分共享。 
@@ -30,7 +30,7 @@ ms.locfileid: "70391749"
    ![“主页”页面](./media/end-user-report-open/power-bi-home-canvas.png)
 
 ### <a name="open-a-report-that-has-been-shared-with-you"></a>打开已与你共享的报表
-Power BI 设计器可以直接与你共享单个报表，方法是通过电子邮件中的链接或将其添加到 Power BI 主页  。 通过此方式共享的内容显示在导航栏上的“与我共享”容器中以及“主页”画布上的“与我共享”部分中   。
+Power BI 设计器可以直接与你共享单个报表，方法是通过电子邮件中的链接或自动添加该报表  。 通过此方式共享的内容显示在导航栏上的“与我共享”容器中以及“主页”画布上的“与我共享”部分中   。
 
 1. 打开 Power BI 服务 (app.powerbi.com)
 
@@ -50,6 +50,12 @@ Power BI 设计器可以直接与你共享单个报表，方法是通过电子�
 
    ![报表页选项卡](./media/end-user-report-open/power-bi-ytd.png)
 
+6. 请注意右侧的“筛选器”窗格  。 已应用于此报表页或整个报表的筛选器将显示在此处。
+
+7. 将鼠标悬停在报表视觉对象上可显示多个图标和省略号 (...)。若要查看应用于特定视觉对象的筛选器，请选择筛选器图标。 我们在此处选择了“总单位数（按滚动周期和区域）”折线图的筛选器图标  。
+
+   ![报表页选项卡](./media/end-user-report-open/power-bi-visual-filters.png)
+
 6. 现在，我们看到的是整个报表页。 若要更改页面的显示（缩放），请从右上角选择“视图”下拉列表，然后选择“实际大小”  。
 
    ![更改缩放](./media/end-user-report-open/power-bi-fit-new.png)
@@ -59,15 +65,20 @@ Power BI 设计器可以直接与你共享单个报表，方法是通过电子�
 ### <a name="open-a-report-that-is-part-of-an-app"></a>打开属于应用一部分的报告
 如果你收到了来自同事或 AppSource 的应用，则可以从导航栏上的“主页”页面和“应用”容器中获取这些应用  。 [应用](end-user-apps.md)是一捆仪表板和报表。
 
+### <a name="prerequisites"></a>先决条件
+若要继续操作，请下载“销售和营销”应用。
+1. 在浏览器中，导航到 appsource.microsoft.com。
+1. 搜索“销售和营销”，然后选择“Microsoft 示例 - 销售和营销”  。
+1. 选择“立即获取” > “继续” > “安装”以在应用容器中安装应用    。 
+
+可以从应用容器或主页打开应用。
 1. 从导航栏中选择“主页”，返回到“主页”页面  。
 
 7. 向下滚动，直至看到“我的应用”为止  。
 
-   ![“主页”页面](./media/end-user-report-open/power-bi-my-apps.png)
+   ![主页](./media/end-user-report-open/power-bi-app.png)
 
-8. 选择其中一个应用以将其打开。 根据应用设计器设置的选项，应用将打开一个仪表板或一个报表  。 如果选择应用后：
-    - 打开的是报表，这就行了。
-    - 打开的是仪表板，请参阅下面的***从仪表板中打开报表***。
+8. 选择新的“销售和营销”应用以将其打开。 根据应用设计器设置的选项，应用将打开一个仪表板或一个报表  。 此应用打开的是仪表板。  
 
 
 ## <a name="open-a-report-from-a-dashboard"></a>从仪表板中打开报表
@@ -94,5 +105,6 @@ Power BI 设计器可以直接与你共享单个报表，方法是通过电子�
 - 其他更多方法
 
 ## <a name="next-steps"></a>后续步骤
-[打开并查看仪表板](end-user-dashboard-open.md)
+[打开并查看仪表板](end-user-dashboard-open.md)    
+[报表筛选器](end-user-report-filter.md)
 

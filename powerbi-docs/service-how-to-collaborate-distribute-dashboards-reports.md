@@ -8,14 +8,14 @@ ms.reviewer: lukaszp
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 06/07/2019
+ms.date: 09/06/2019
 LocalizationGroup: Share your work
-ms.openlocfilehash: 00574228fbfa8954b8cfb9cb026a9230eb1bd73e
-ms.sourcegitcommit: 206806d8ddb6bdfc322c1a46fb34a1b0678acba2
+ms.openlocfilehash: 31310900b91924e639ce10a13aef3da996598502
+ms.sourcegitcommit: 226b47f64e6749061cd54bf8d4436f7deaed7691
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/10/2019
-ms.locfileid: "66816547"
+ms.lasthandoff: 09/09/2019
+ms.locfileid: "70841713"
 ---
 # <a name="ways-to-share-your-work-in-power-bi"></a>Power BI 中的工作共享方式
 
@@ -31,7 +31,7 @@ ms.locfileid: "66816547"
 
 无论选择哪个选项，都需要 [Power BI Pro 许可证](service-features-license-type.md)才能共享内容，否则内容需要位于[高级容量](service-premium-what-is.md)中。 许可证要求因查看内存的同事而异，具体取决于所选择的选项。 以下各节将进行详细说明。 
 
-![Power BI 服务中的应用](media/service-how-to-collaborate-distribute-dashboards-reports/power-bi-apps-home-blog.png)
+![Power BI 服务中的应用](media/service-how-to-collaborate-distribute-dashboards-reports/power-bi-apps-new-look.png)
 
 Power BI 服务中的应用 
 
@@ -41,7 +41,7 @@ Power BI 服务中的应用
 
 工作区提供的角色可确定同事拥有的权限。 可使用这些角色来确定可以管理整个工作区或编辑其内容及分发其内容的人员。
 
-![工作区](media/service-how-to-collaborate-distribute-dashboards-reports/power-bi-apps-workspaces.png)
+![工作区](media/service-how-to-collaborate-distribute-dashboards-reports/power-bi-workspace.png)
 
 可能会自然而然地将内容放在“我的工作区”中并从此处进行共享。 但是，工作区比“我的工作区”更适用于协作，因为前者允许共同拥有内容。 用户和整个团队可以轻松进行更新或为其他人授予访问权限。 “我的工作区”最适合个人用于一次性或个人内容。
 
@@ -55,11 +55,11 @@ Power BI 提供新的工作区体验。 阅读[创建新工作区](service-creat
 
 ## <a name="distribute-insights-in-an-app"></a>在应用中分发见解
 
-假设想要将仪表板分发给组织中的广泛受众。 你和同事创建了工作区，然后在此工作区中创建并优化了仪表板、报表和数据集  。 现在选择所需的仪表板和报表，并将其作为应用发布 - 发布到组或整个组织。
+假设想要将仪表板分发给组织中的广泛受众。 你和同事创建了工作区，然后在此工作区中创建并优化了仪表板、报表和数据集  。 现在选择所需的仪表板和报表，并将其作为应用发布，发布到组或整个组织。
 
-![“发布应用”图标](media/service-how-to-collaborate-distribute-dashboards-reports/power-bi-app-publish-600.png)
+![“发布应用”图标](media/service-how-to-collaborate-distribute-dashboards-reports/power-bi-publish-app.png)
 
-可以在 Power BI 服务 ([https://powerbi.com](https://powerbi.com)) 中轻松找到应用并进行安装。 可以向业务用户发送应用的直接链接，或者他们可以在 AppSource 中搜索此应用。 如果 Power BI 管理员已授予你权限，则可以将应用自动安装到同事的 Power BI 帐户中。 阅读有关[发布应用](service-create-distribute-apps.md)的详细信息。
+可以在 Power BI 服务 ([https://app.powerbi.com](https://app.powerbi.com)) 中轻松找到应用并进行安装。 可以向业务用户发送应用的直接链接，或者他们可以在 AppSource 中搜索此应用。 如果 Power BI 管理员已授予你权限，则可以将应用自动安装到同事的 Power BI 帐户中。 阅读有关[发布应用](service-create-distribute-apps.md)的详细信息。
 
 安装应用后，他们可以在浏览器或移动设备中查看应用。
 
@@ -71,13 +71,15 @@ Power BI 提供新的工作区体验。 阅读[创建新工作区](service-creat
 
 让我们面对现实，有些人更擅长在其报表中创建设计精良的高质量数据模型。 也许你就是那个人。 你的整个组织都能够因使用这一设计精良的数据模型而受益。 *共享数据集*可填补这一空缺。 使用每个人都应使用的数据模型创建报表时，可以将该报表保存到 Power BI 服务，并授予合适的人员使用它的权限。 他们随后可以基于你的数据集生成其报表。 这样一来，每个人都基于相同的数据创建其报表，并可看到“同一个版本的事实”。
 
+![查找共享数据集](media/service-how-to-collaborate-distribute-dashboards-reports/power-bi-shared-datasets.png)
+
 详细了解[创建和使用共享数据集](service-datasets-across-workspaces.md)。
 
 ## <a name="share-dashboards-and-reports"></a>共享仪表板和报表
 
 假设已在自己的“我的工作区”或工作区中完成仪表板和报表，并且希望某些其他人有权访问它。 一种用于访问的方法是  共享它。 
 
-![“共享”图标](media/service-how-to-collaborate-distribute-dashboards-reports/power-bi-share-in-situ.png)
+![共享报表](media/service-how-to-collaborate-distribute-dashboards-reports/power-bi-share-report.png)
 
 需要 Power BI Pro 许可证才能共享内容，你与之共享的人员也需要许可证才能共享，或者该内容需要位于[高级容量](service-premium-what-is.md)中的工作区内。 共享仪表板或报表时，收件人可以查看仪表板并与其交互，但无法对其进行编辑。 除非将行级别安全性 (RLS) 应用到基础数据集，否则他们会看到你在仪表板和报表中看到的相同数据。 如果你允许，与之共享的同事可以与其他同事共享。 
 

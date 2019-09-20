@@ -269,6 +269,8 @@
               href: desktop-inline-hierarchy-labels.md
             - name: 使用数字范围切片器
               href: desktop-slicer-numeric-range.md
+            - name: 使用相对日期切片器
+              href: desktop-slicer-filter-date-range.md
             - name: 创建可重设大小的切片器
               href: power-bi-slicer-filter-responsive.md
             - name: 创建 Cortana 自定义回复卡

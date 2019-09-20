@@ -7,24 +7,28 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 08/14/2019
+ms.date: 09/10/2019
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: 105fac5bf26ac15e9151d642f3b276ee5b00f87c
-ms.sourcegitcommit: a77977a43342db4399a4dffb862b96907d16de35
+ms.openlocfilehash: 646372dbba995a359b732e46a8689cb295565c1f
+ms.sourcegitcommit: db4fc5da8e65e0a3dc35582d7142a64ad3405de7
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/14/2019
-ms.locfileid: "69023336"
+ms.lasthandoff: 09/11/2019
+ms.locfileid: "70903561"
 ---
 # <a name="whats-new-in-the-latest-power-bi-desktop-update"></a>最新 Power BI Desktop 更新中有哪些新增功能？ 
 
 
-## <a name="august-2019-update-2715523641"></a>2019 年 8 月更新 (2.71.5523.641)
+## <a name="september-2019-update-2735586561"></a>2019 年 9 月更新 (2.73.5586.561)
 
-我们的 8 月更新重点推出可在 Power BI Desktop 中创建的报表。 
+9 月更新就像是令人兴奋的返校，我们可以学习新东西，结交暑假期间错过的朋友，并且有机会将我们所了解的内容更好地应用到以后的报表中。 
 
 现在可以[下载最新版本的 Power BI Desktop](https://powerbi.microsoft.com/desktop)，该版本当前以包含所有受支持语言的单个 .exe 文件的形式提供。 如果运行的是 Windows 10，还可以从 Windows 应用商店获取 Power BI Desktop  。 无论以何种方式安装 Power BI Desktop，月度版本是相同的，虽然二者的版本编号可能不同  。 请参阅[本文](desktop-get-the-desktop.md)，了解详细信息。 
+
+> [!IMPORTANT]
+> 从 2019 年 9 月版本开始，Power BI Desktop 仅发布为包含所有受支持语言的单个 .exe 文件。 不再发布 .msi 版本。
+
 
 每个更新旁边的链接表示以下含义：
 
@@ -38,40 +42,46 @@ ms.locfileid: "69023336"
 下面介绍了本月新推出的 Power BI Desktop  更新：
 
 ### <a name="reporting"></a>报表
-* 分组视觉对象 [[视频]](https://youtu.be/sf4n7VXoQHY?t=10) [[文章]](desktop-grouping-visuals.md) [[博客]](https://powerbi.microsoft.com/blog/power-bi-desktop-august-2019-feature-summary/#grouping) 
-* 筛选器窗格迁移 [[视频]](https://youtu.be/sf4n7VXoQHY?t=360) [[博客]](https://powerbi.microsoft.com/blog/power-bi-desktop-august-2019-feature-summary/#filterPane)
-* 用于图标条件格式的图标样式选取器 [[视频]](https://youtu.be/sf4n7VXoQHY?t=509) [[博客]](https://powerbi.microsoft.com/blog/power-bi-desktop-august-2019-feature-summary/#iconStyles)
-* 条件格式警告 [[视频]](https://youtu.be/sf4n7VXoQHY?t=621) [[博客]](https://powerbi.microsoft.com/blog/power-bi-desktop-august-2019-feature-summary/#conditionalFormatting)
+* 主题 [[视频]](https://youtu.be/neq0THnRJzo?t=11) [[文章]](desktop-report-themes.md) [[博客]](https://powerbi.microsoft.com/blog/power-bi-desktop-september-2019-feature-summary/#themeJSON) 中的颜色和文本类 
+* 新默认主题 [[视频]](https://youtu.be/neq0THnRJzo?t=334) [[博客]](https://powerbi.microsoft.com/blog/power-bi-desktop-september-2019-feature-summary/#newThemes)
+* 个性化可视化效果窗格改进（预览）[[视频]](https://youtu.be/neq0THnRJzo?t=601) [[博客]](https://powerbi.microsoft.com/blog/power-bi-desktop-september-2019-feature-summary/#vizPane)
 
 
 ### <a name="analytics"></a>分析
-* 关键影响因素视觉对象增强，正式发布版 [[视频]](https://youtu.be/sf4n7VXoQHY?t=801) [[博客]](https://powerbi.microsoft.com/blog/power-bi-desktop-august-2019-feature-summary/#keyInfluencers) 
+* 自定义格式字符串 [[视频]](https://youtu.be/neq0THnRJzo?t=731) [[博客]](https://powerbi.microsoft.com/blog/power-bi-desktop-september-2019-feature-summary/#customFormatStrings) 
+* 更多视觉对象格式设置选项的条件格式设置 [[视频]](https://youtu.be/neq0THnRJzo?t=813) [[博客]](https://powerbi.microsoft.com/blog/power-bi-desktop-september-2019-feature-summary/#conditionalFormatting) 
+* 钻取发现改进 [[视频]](https://youtu.be/neq0THnRJzo?t=959) [[博客]](https://powerbi.microsoft.com/blog/power-bi-desktop-september-2019-feature-summary/#drillThrough) 
+* 新 DAX 表达式：REMOVEFILTERS 和 CONVERT [[视频]](https://youtu.be/neq0THnRJzo?t=1048) [[博客]](https://powerbi.microsoft.com/blog/power-bi-desktop-september-2019-feature-summary/#dax) 
 
 
 ### <a name="visuals"></a>视觉对象
-* 新的自定义视觉对象和更新 [[视频]](https://youtu.be/sf4n7VXoQHY?t=956) [[博客]](https://powerbi.microsoft.com/blog/power-bi-desktop-august-2019-feature-summary/#xviz) 
+* PowerApps 视觉对象现已正式发布 [[视频]](https://youtu.be/neq0THnRJzo?t=1063) [[博客]](https://powerbi.microsoft.com/blog/power-bi-desktop-september-2019-feature-summary/#powerApps) 
 
 
 ### <a name="data-connectivity"></a>数据连接
-* 对 SAP HANA HDI 容器的支持 [[视频]](https://youtu.be/sf4n7VXoQHY?t=1502) [[博客]](https://powerbi.microsoft.com/blog/power-bi-desktop-august-2019-feature-summary/#HDIcontainers) 
-* 在 Power BI 服务中编辑 SAP 变量（预览）[[视频]](https://youtu.be/sf4n7VXoQHY?t=1522) [[博客]](https://powerbi.microsoft.com/blog/power-bi-desktop-august-2019-feature-summary/#SAPvariables)
-* PostgreSQL DirectQuery [[视频]](https://youtu.be/sf4n7VXoQHY?t=1662) [[博客]](https://powerbi.microsoft.com/blog/power-bi-desktop-august-2019-feature-summary/#postgresql) 
-* MarkLogic 连接器现已正式发布 [[视频]](https://youtu.be/sf4n7VXoQHY?t=1678)  [[博客]](https://powerbi.microsoft.com/blog/power-bi-desktop-august-2019-feature-summary/#marklogic) 
-* 获取数据中的新 Power Platform 类别 [[视频]](https://youtu.be/sf4n7VXoQHY?t=1688) [[博客]](https://powerbi.microsoft.com/blog/power-bi-desktop-august-2019-feature-summary/#powerPlatform) 
+* PostgreSQL 连接器增强功能 [[视频]](https://youtu.be/neq0THnRJzo?t=1112)  [[博客]](https://powerbi.microsoft.com/blog/power-bi-desktop-september-2019-feature-summary/#postgreSQL) 
+
+### <a name="data-preparation"></a>数据准备
+* 从数据事件探查复制到剪贴板 [[视频]](https://youtu.be/neq0THnRJzo?t=1146) [[博客]](https://powerbi.microsoft.com/blog/power-bi-desktop-september-2019-feature-summary/#copyProfiling) 
+
 
 ### <a name="template-apps"></a>模板应用
-* Facebook 页面 - 基本分析 [[博客]](https://powerbi.microsoft.com/blog/power-bi-desktop-august-2019-feature-summary/#facebook) 
+* Google Analytics 报表 [[博客]](https://powerbi.microsoft.com/blog/power-bi-desktop-september-2019-feature-summary/#googleAnalytics) 
 
+### <a name="other"></a>其他
+* 多维度模型的性能改进 [[视频]](https://youtu.be/neq0THnRJzo?t=1208) [[博客]](https://powerbi.microsoft.com/blog/power-bi-desktop-september-2019-feature-summary/#perfMultiDiminsional) 
+* DirectQuery 模型的查询性能改进 [[视频]](https://youtu.be/neq0THnRJzo?t=1272) [[博客]](https://powerbi.microsoft.com/blog/power-bi-desktop-september-2019-feature-summary/#perfDirectQuery) https://youtu.be/neq0THnRJzo?t=1208
 
 > [!NOTE]
 > 还可以[查看 Power BI Desktop 可用的所有数据源](desktop-data-sources.md)；我们的列表始终在不断增加内容，请时常返回查看。
 
-想了解有关这些更新的详细信息？ 请查看[博客文章](https://powerbi.microsoft.com/blog/power-bi-desktop-august-2019-feature-summary/)，你可以在其中获取有关上述每项新增功能的更为详细的信息（此博客文章即为上文列表引用的博客文章）。
+想了解有关这些更新的详细信息？ 请查看[博客文章](https://powerbi.microsoft.com/blog/power-bi-desktop-september-2019-feature-summary/)，你可以在其中获取有关上述每项新增功能的更为详细的信息（此博客文章即为上文列表引用的博客文章）。
 
 
 以下视频介绍和展示了上述的每项更新。 你还可以从博客文章查看该视频。
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/sf4n7VXoQHY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/neq0THnRJzo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 > [!NOTE]
 > 你可能还有兴趣了解 [Power BI 服务中的新增功能](service-whats-new.md)，请同时查看 [Power BI 移动应用中的新增功能](consumer/mobile/mobile-whats-new-in-the-mobile-apps.md)。

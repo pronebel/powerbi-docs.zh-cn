@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 08/15/2019
+ms.date: 09/10/2019
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: 8b92bd2917165cd6dc89e0c9f9a94e83d69f1c2a
-ms.sourcegitcommit: f6ac9e25760561f49d4257a6335ca0f54ad2d22e
+ms.openlocfilehash: e7a96186fe68ed0d70de7a502e81da4f24f4d802
+ms.sourcegitcommit: db4fc5da8e65e0a3dc35582d7142a64ad3405de7
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/16/2019
-ms.locfileid: "69560846"
+ms.lasthandoff: 09/11/2019
+ms.locfileid: "70903587"
 ---
 # <a name="get-power-bi-desktop"></a>获取 Power BI Desktop
 **Power BI Desktop** 允许用户生成高级查询、模型和实现数据可视化效果的报表。 通过 Power BI Desktop  ，可以生成数据模型、创建报表，并通过发布到 Power BI 服务共享工作。  **Power BI Desktop** 可免费下载。
@@ -40,9 +40,9 @@ ms.locfileid: "69560846"
 
 无论选择哪种下载方式，下载 **Power BI Desktop** 后，系统便会立即提示你运行安装文件：
 
-![运行 Power BI Desktop 安装文件](media/desktop-get-the-desktop/getpbid_3.png)
+![运行 Power BI Desktop 安装文件](media/desktop-get-the-desktop/download-desktop-exe.png)
 
-从 2019 年 7 月版本开始，Power BI Desktop 发布为包含所有受支持语言的单个 .exe 安装包  。 32 位和 64 位版本有单独的 .exe 文件。 .msi 包将于 2019 年 9 月版本后停用，之后必须使用 .exe 可执行文件进行安装。 这一方法使分发、更新和安装（尤其是对于管理员来说）变得更为轻松和方便。 还可以使用命令行参数自定义安装过程，如后文[在安装期间使用命令行选项](#using-command-line-options-during-installation)一节所述。
+从 2019 年 7 月版本开始，Power BI Desktop 发布为包含所有受支持语言的单个 .exe 安装包  。 32 位和 64 位版本有单独的 .exe 文件。 从 2019 年 9 月版本开始，.msi 包已终止，需要 .exe 可执行文件才能安装。 这一方法使分发、更新和安装（尤其是对于管理员来说）变得更为轻松和方便。 还可以使用命令行参数自定义安装过程，如后文[在安装期间使用命令行选项](#using-command-line-options-during-installation)一节所述。
 
 启动安装包之后，Power BI Desktop 会当作一个应用程序进行安装，并在桌面上运行  。
 
@@ -105,6 +105,27 @@ ms.locfileid: "69560846"
 
 我们始终希望你能获得超棒的 Power BI Desktop 使用体验。 有时，可能会在使用 Power BI Desktop 时遇到问题，因此本部分介绍了解决可能会出现的问题的解决方案或建议。 
 
+### <a name="installing-power-bi-desktop-on-remote-machines"></a>在远程计算机上安装 Power BI Desktop
+
+如果使用需要 Windows Installer 文件（.msi 文件）的工具将 Power BI Desktop 部署到你的用户，则可以从 Power BI Desktop 安装程序 .exe 文件中提取 .msi 文件。 可以使用第三方工具（如 WiX 工具集）来实现此目的。
+
+> [!NOTE]
+> 作为第三方产品，WiX 工具集选项可能会发生更改，恕不另行通知。 请查看相关文档了解最新信息，并联系其用户邮件列表以获取帮助。
+
+* 在下载了 Power BI Desktop 安装程序的计算机上，从 WiX 网站 https://wixtoolset.org/ 下载并安装最新版本的 WiX 工具集。
+* 以管理员身份打开命令行窗口，并导航到安装了 WiX 工具集的文件夹。
+* 运行以下命令： 
+    
+    ```Dark.exe <path to Power BI Desktop installer> -x <output folder>```
+
+    例如，运行：
+
+    ``` Dark.exe C:\PBIDesktop_x64.exe -x C:\output```
+
+* 输出文件夹将包含一个名为“AttachedContainer”的文件夹，其中包含 .msi 文件。 
+
+
+
 
 ### <a name="using-command-line-options-during-installation"></a>在安装期间使用命令行选项 
 
@@ -122,6 +143,25 @@ ms.locfileid: "69560846"
 |-uninstall     |卸载 Power BI Desktop         |
 |-repair     |修复安装（如果当前尚未安装，则进行安装）         |
 |-package、-update     |安装 Power BI Desktop（只要未指定 -uninstall 或 -repair，这就是默认操作）         |
+
+还可以使用以下语法参数（这些参数是使用“PROPERTY=VALUE”语法指定的）  ：
+
+
+|参数  |含义  |
+|---------|---------|
+|ACCEPT_EULA     |需要值 1 才能自动接受 EULA         |
+|ENABLECXP     |值 1 表示加入用来捕获有关产品使用情况的遥测数据的客户体验计划         |
+|INSTALLDESKTOPSHORTCUT     |值 1 表示将快捷方式添加到桌面         |
+|INSTALLLOCATION     |安装位置的文件路径         |
+|LANGUAGE     |区域设置代码（例如 en-US、de-DE、pr-BR），用于强制使用应用程序的默认语言。 如果未指定语言，Power BI Desktop 会显示 Windows OS 语言。 用户可以在“选项”对话框中更改此设置。         |
+|REG_SHOWLEADGENDIALOG     |值 0 表示禁止显示在登录到 Power BI Desktop 之前显示的对话框         |
+
+
+
+
+例如，可以使用以下语法运行它，以便使用德语安装（无任何用户界面）： 
+
+```“-quiet LANG=de-DE ACCEPT_EULA=1”```
 
 
 ### <a name="issues-when-using-previous-releases-of-power-bi-desktop"></a>无法使用旧版 Power BI Desktop

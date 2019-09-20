@@ -7,14 +7,14 @@ author: mihart
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 05/14/2019
+ms.date: 09/04/2019
 ms.author: mihart
-ms.openlocfilehash: 6a66d134a3399fed3ee03eddd7059265b5cf7c13
-ms.sourcegitcommit: 81ba3572531cbe95ea0b887b94e91f94050f3129
+ms.openlocfilehash: b9622a08506c6f5ade900296d91b449c64dc374c
+ms.sourcegitcommit: 52aa112ac9194f4bb62b0910c4a1be80e1bf1276
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/06/2019
-ms.locfileid: "66751008"
+ms.lasthandoff: 09/16/2019
+ms.locfileid: "70903659"
 ---
 # <a name="glossary-for-power-bi-service"></a>Power BI 服务词汇表
 Power BI 服务可能会引入不熟悉或容易混淆的术语。 词汇表是查找术语的好地方，可能需要将其加入书签。 了解构成 Power BI 服务的构建块的另一个极佳资源是[基本概念](end-user-basic-concepts.md)。 “基本概念”提供 Power BI 组件及其如何连接的简要概述。 
@@ -60,14 +60,19 @@ Power BI 服务可能会引入不熟悉或容易混淆的术语。 词汇表是�
 
 **calculation (计算)** 对某物的大小或数目进行数理判断。
 
+**卡片**（视觉对象类型）：Power BI [视觉对象类型](end-user-visual-type.md)。
+
+**卡片**（Power BI 主页）：Power BI 主页显示表示仪表板、报表、应用等的矩形和正方形图片。 这些图片称为“卡片”。 
+
 **certified custom visual (认证的自定义视觉对象)** 符合要求并已通过严格安全测试的 Power BI 自定义视觉对象。
 
 **classification (分类)** 也称为数据分类。 此选项可由 Power BI 管理员开启，用于提高对仪表板所需的安全性级别的认识。 分类类型可由组织自定义。
 
 **connect live (实时连接)** 连接到 SQL Server Analysis Services 数据模型的方法。 也称为即时连接。
 
-**content (内容)**
+**容器**：导航栏上的区域称为“容器”。  在导航栏中，你将看到以下内容的容器：收藏夹、最新、应用、与我共享和主页。 
 
+**内容**：Power BI 服务的内容通常是仪表板、报表和应用。 此外，它还可能包括工作簿和数据集。
 
 **content list (内容列表)** 应用的内容索引。
 
@@ -109,7 +114,8 @@ Power BI 服务可能会引入不熟悉或容易混淆的术语。 词汇表是�
 
 **Editing View (编辑视图)** 报表设计者  可探索、设计、构建和共享报表的模式。
 
-**ellipsis (省略号)** ...
+**ellipsis (省略号)** ...    
+选择省略号，将显示其他菜单选项。
 
 **embed code (嵌入代码)** Internet 中的一个常用标准。 在 Power BI 中，客户可以生成嵌入代码并进行复制以在网站或博客上放置报表视觉对象等内容。
 
@@ -158,7 +164,8 @@ Power BI 服务可能会引入不熟悉或容易混淆的术语。 词汇表是�
 
 ## <a name="l"></a>L
 
-**left navigation (left nav) (左侧导航（左导航）)** 沿 Power BI 服务左侧边缘的控件。
+**左侧导航（左导航）** ：已将其替换为“导航栏”，但在某些文档中它可能仍会出现。     
+沿 Power BI 服务左侧边缘的控件。
 
 第一次出现：左侧导航，后面提及或空间紧凑时：左导航
 
@@ -176,7 +183,11 @@ Power BI 服务可能会引入不熟悉或容易混淆的术语。 词汇表是�
 
 **native (本机)** 产品附带。 例如，Power BI 附带了一套本机  可视化效果类型。 但是，你也可以导出其他类型，例如自定义视觉对象。
 
-**navigation pane (导航窗格)** 请参见“左侧导航” 
+**导航栏**：沿 Power BI 服务左侧边缘的控件。 
+
+第一次出现：navigation bar，后面提及或空间紧凑时：nav bar
+
+**导航窗格**：请参阅“导航栏” 
 
 **notification (通知)** Power BI 通知中心发送和收到的消息。  
 

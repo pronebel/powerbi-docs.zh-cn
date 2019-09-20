@@ -9,12 +9,12 @@ ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 04/08/2019
 ms.author: mshenhav
-ms.openlocfilehash: 5b0921689a923b5c787a5e4208fe35a863372878
-ms.sourcegitcommit: 9eae2a52af6926cda4d6b03de4d50d7fa8b2f216
+ms.openlocfilehash: 5697fd79551d238f095696dcc940afb8ea330d11
+ms.sourcegitcommit: 52aa112ac9194f4bb62b0910c4a1be80e1bf1276
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/26/2019
-ms.locfileid: "70030165"
+ms.lasthandoff: 09/16/2019
+ms.locfileid: "70841354"
 ---
 # <a name="whats-new-in-the-mobile-apps-for-power-bi"></a>Power BI 移动应用中的新功能
 有关相关的“新增功能”的信息，请参阅：
@@ -25,7 +25,15 @@ ms.locfileid: "70030165"
 
 ## <a name="august-2019"></a>2019 年 8 月
 
-### <a name="secured-access-with-azure-active-directory-ad-application-proxy"></a>Azure Active Directory (AD) 应用程序代理的安全访问
+### <a name="introducting-power-bi-mobile-new-look-preview-ios-and-android"></a>Power BI 移动版全新外观简介（预览版）（iOS 和 Android）
+
+我们刷新了应用并引入了新体验，添加的主页可快速访问常用内容，新导航栏可轻松浏览应用。 借助全新的体验，现在可以更快、更轻松地随时找到所需内容。
+由于全新外观处于预览阶段，因此你需要将其打开才能欣赏。
+详细了解 [Power BI 移动版全新外观](https://powerbi.microsoft.com/blog/introducing-power-bi-mobile-apps-new-look-preview/)。
+
+![Power BI 移动版全新外观](./media/mobile-whats-new-in-the-mobile-apps/power-bi-mobile-new-look2.gif)
+
+### <a name="secured-access-with-azure-active-directory-ad-application-proxy-ios-and-android"></a>Azure Active Directory (AD) 应用程序代理的安全访问（iOS 和 Android）
 
 我们与 Azure Active Directory 团队合作，将 Power BI 移动应用程序与 Azure Active Directory (AAD) 应用程序代理相集成。 通过此配置，你可以连接到 Power BI 移动版应用的企业边界内托管的报表服务器，而无需设置复杂的本地配置。 详细了解[Power BI 移动版与 Azure AD 应用程序代理的集成](https://powerbi.microsoft.com/blog/access-on-prem-report-server-from-your-power-bi-mobile-app-with-azure-active-directory-application-proxy/)。 了解[如何配置 Azure AD 应用程序代理和 Power BI](https://docs.microsoft.com/en-us/azure/active-directory/manage-apps/application-proxy-integrate-with-power-bi)。
 
@@ -36,7 +44,7 @@ ms.locfileid: "70030165"
 现在在移动应用中查看报表时，支持报表页工具提示。 只需按住一个与报表工具提示绑定的视觉对象，即可显示该工具提示。  
 
 ![报表画布工具提示](./media/mobile-whats-new-in-the-mobile-apps/report-canvas-tooltip.png)
-
+ 
 > [!NOTE]
 > 大于 640 像素和 320 视区的设备支持报表工具提示。 小型设备使用默认工具提示。
 

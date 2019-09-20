@@ -1,8 +1,8 @@
 ---
 title: Power BI 性能最佳做法
 description: 本文将介绍如何在 Power BI 中构建快速可靠的报表
-author: MarkMcGeeAtAquent
-ms.author: kfile
+author: Bhavik-MSFT
+ms.author: bhmerc
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
@@ -10,16 +10,20 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 07/30/2018
 LocalizationGroup: Reports
-ms.openlocfilehash: bddd653b5ac8b49a38a69ae79baf2f96824444ed
-ms.sourcegitcommit: 805d52e57a935ac4ce9413d4bc5b31423d33c5b1
+ms.openlocfilehash: 736c1ee1b1998ec7f991167352313a05061b3f3c
+ms.sourcegitcommit: 226b47f64e6749061cd54bf8d4436f7deaed7691
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/30/2019
-ms.locfileid: "68665343"
+ms.lasthandoff: 09/09/2019
+ms.locfileid: "70841486"
 ---
 # <a name="power-bi-performance-best-practices"></a>Power BI 性能最佳做法
 
 本文将介绍如何在 Power BI 中构建快速可靠的报表  
+
+## <a name="choose-an-appropriate-storage-mode-import-directquery"></a>选择适当的存储模式：导入、DirectQuery
+
+在大多数情况下，导入模式是最佳选择，因为它利用通过列式存储进行压缩的本地缓存内存中数据来提供最高速度。 导入模式还允许完全 DAX 功能。 当源数据量太大而无法容纳 Power BI 容量时，请考虑 DirectQuery（和复合模型）。 DirectQuery 还可用于在每次加载报表时从源中提取最新数据。 如果你没有这些要求，并且用户只需要查看每天多次或更少更新的数据（例如从公司数据仓库），则强烈建议使用导入。 在 DirectQuery 模式下，用户可能会尝试刷新报表，却没有意识到他们正从源中获取完全相同的数据。      
 
 ## <a name="use-filters-to-limit-report-visuals-to-display-only-whats-needed"></a>使用筛选器将报表视觉对象限制为仅显示需要的内容 
 
@@ -57,7 +61,7 @@ ms.locfileid: "68665343"
 ## <a name="directquery-best-practices"></a>DirectQuery 最佳做法
 
 以下部分介绍通过 DirectQuery 进行连接的常规最佳做法。
-  
+
 ### <a name="db-design-guidance"></a>DB 设计指南
 
 - 在可能时将计算列和度量值推送到源。 越接近于源，实现高性能的可能性便越高。

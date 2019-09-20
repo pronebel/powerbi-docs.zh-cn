@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 08/19/2019
+ms.date: 09/06/2019
 ms.author: davidi
 LocalizationGroup: Transform and shape data
-ms.openlocfilehash: 67cd57a981f7c1fcab118652dc5424fa935ecd13
-ms.sourcegitcommit: 4a3afe761d2f4a5bd897fafb36b53961739e8466
+ms.openlocfilehash: e77e61d00ac555c907a6d87ab0ffdeb8e21a5bd8
+ms.sourcegitcommit: 226b47f64e6749061cd54bf8d4436f7deaed7691
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/20/2019
-ms.locfileid: "69654738"
+ms.lasthandoff: 09/09/2019
+ms.locfileid: "70841313"
 ---
 # <a name="storage-mode-in-power-bi-desktop"></a>Power BI Desktop 中的存储模式
 
@@ -42,6 +42,9 @@ Power BI Desktop 中的存储模式设置是以下三个相关功能之一：
 * **多对多关系**：借助复合模型  ，可以在表之间建立多对多关系  。 多对多关系  功能删除了对表中唯一值的要求。 它还删除了旧解决办法，如为建立关系而仅引入新表。 有关详细信息，请参阅 [Power BI Desktop 中的多对多关系](desktop-many-to-many-relationships.md)。
 
 * **存储模式**：现在可以指定哪些视觉对象需要查询后端数据源。 导入的是不需要查询的视觉对象，即使基于 DirectQuery，也不例外。 此功能有助于提升性能，并减少后端负载。 以前，甚至是切片器等简单视觉对象，也会启动发送至后端源的查询。 本文进一步介绍了存储模式。
+
+> [!NOTE]
+> 可以通过选择“模型”视图并选择感兴趣的表来查看当前存储模式，然后在“属性”窗格的“高级”部分中查看“存储模式”值     。
 
 ## <a name="use-the-storage-mode-property"></a>使用存储模式属性
 

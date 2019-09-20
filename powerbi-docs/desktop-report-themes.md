@@ -7,42 +7,53 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 08/12/2019
+ms.date: 09/10/2019
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 0c098baa42e4fdc45b23519856eed824dbab5cad
-ms.sourcegitcommit: a77977a43342db4399a4dffb862b96907d16de35
+ms.openlocfilehash: 37304f9d23c514c7223b3eca481bf3b7b2258ac4
+ms.sourcegitcommit: db4fc5da8e65e0a3dc35582d7142a64ad3405de7
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/14/2019
-ms.locfileid: "69023392"
+ms.lasthandoff: 09/11/2019
+ms.locfileid: "70904187"
 ---
 # <a name="use-report-themes-in-power-bi-desktop"></a>在 Power BI Desktop 中使用报表主题
-借助报表主题，可以将颜色主题应用于整个报表，如企业品牌颜色、流行色、图标集或其他颜色主题  。 在你应用报表主题  后，报表中的所有视觉对象都会使用选定主题中的颜色。 也存在少数例外情况，本文稍后将进行介绍。
+使用报表主题  ，你可以将设计更改应用于整个报表，如使用公司颜色、更改图标集或应用新的默认视觉对象格式。 在你应用报表主题  后，报表中的所有视觉对象都会使用选定主题中的颜色和格式设置。 也存在少数例外情况，本文稍后将进行介绍。
 
-![报表主题](media/desktop-report-themes/report-themes_1.png)
+![报表主题](media/desktop-report-themes/report-themes-1a.png)
 
-应用报表主题  时，需要采用基础结构的 JSON 文件。 然后，可以将此 JSON 文件导入 Power BI Desktop，并将它应用于报表。 JSON 文件结构以及导入流程简单易学，只需单击几下按钮即可完成。
+应用自定义报表主题  时，需要采用基础结构的 JSON 文件。 然后，可以将此 JSON 文件导入 Power BI Desktop，并将它应用于报表。
 
-还可以自定义和标准化几乎所有元素。 若要自定义元素，请在“格式设置”  窗格中手动调整 JSON 文件。 目标是让你能完全精细地控制报表外观。
+你还可以通过主题 JSON 文件自定义和标准化“格式设置”  窗格中显示的几乎所有元素。 目标是让你能完全精细地控制报表外观。
 
 ## <a name="how-report-themes-work"></a>报表主题的工作原理
 若要将报表主题应用于 Power BI Desktop 报表，请从可用的内置报表主题中选择，或导入自定义主题。
 
 | 内置报表主题 | 默认颜色序列    |
 |------ |---------- |
-| 默认   | ![#01B8AA](https://placehold.it/20/01B8AA/000000?text=+) ![#374649](https://placehold.it/20/374649/000000?text=+) ![#FD625E](https://placehold.it/20/FD625E/000000?text=+) ![#F2C80F](https://placehold.it/20/F2C80F/000000?text=+) ![#5F6B6D](https://placehold.it/20/5F6B6D/000000?text=+) ![#8AD4EB](https://placehold.it/20/8AD4EB/000000?text=+) ![#FE9666](https://placehold.it/20/FE9666/000000?text=+) ![#A66999](https://placehold.it/20/A66999/000000?text=+)|
-| 城市公园     | ![#73B761](https://placehold.it/20/73B761/000000?text=+) ![#4A588A](https://placehold.it/20/4A588A/000000?text=+) ![#ECC846](https://placehold.it/20/ECC846/000000?text=+) ![#CD4C46](https://placehold.it/20/CD4C46/000000?text=+) ![#71AFE2](https://placehold.it/20/71AFE2/000000?text=+) ![#8D6FD1](https://placehold.it/20/8D6FD1/000000?text=+) ![#EE9E64](https://placehold.it/20/EE9E64/000000?text=+) ![#95DABB](https://placehold.it/20/95DABB/000000?text=+)|
-| 教室     | ![#4A8DDC](https://placehold.it/20/4A8DDC/000000?text=+) ![#4C5D8A](https://placehold.it/20/4C5D8A/000000?text=+) ![#F3C911](https://placehold.it/20/F3C911/000000?text=+) ![#DC5B57](https://placehold.it/20/DC5B57/000000?text=+) ![#33AE81](https://placehold.it/20/33AE81/000000?text=+) ![#95C8F0](https://placehold.it/20/95C8F0/000000?text=+) ![#DD915F](https://placehold.it/20/DD915F/000000?text=+) ![#9A64A0](https://placehold.it/20/9A64A0/000000?text=+)|
-| 色盲友好   | ![#074650](https://placehold.it/20/074650/000000?text=+) ![#009292](https://placehold.it/20/009292/000000?text=+) ![#FE6DB6](https://placehold.it/20/FE6DB6/000000?text=+) ![#FEB5DA](https://placehold.it/20/FEB5DA/000000?text=+) ![#480091](https://placehold.it/20/480091/000000?text=+) ![#B66DFF](https://placehold.it/20/B66DFF/000000?text=+) ![#B5DAFE](https://placehold.it/20/B5DAFE/000000?text=+) ![#6DB6FF](https://placehold.it/20/6DB6FF/000000?text=+)|
-| 电气  | ![#118DFF](https://placehold.it/20/118DFF/000000?text=+) ![#750985](https://placehold.it/20/750985/000000?text=+) ![#C83D95](https://placehold.it/20/C83D95/000000?text=+) ![#FF985E](https://placehold.it/20/FF985E/000000?text=+) ![#1DD5EE](https://placehold.it/20/1DD5EE/000000?text=+) ![#42F7C0](https://placehold.it/20/42F7C0/000000?text=+) ![#3049AD](https://placehold.it/20/3049AD/000000?text=+) ![#F64F5C](https://placehold.it/20/F64F5C/000000?text=+)|
-| 高对比度     | ![#107C10](https://placehold.it/20/107C10/000000?text=+) ![#002050](https://placehold.it/20/002050/000000?text=+) ![#A80000](https://placehold.it/20/A80000/000000?text=+) ![#5C2D91](https://placehold.it/20/5C2D91/000000?text=+) ![#004B50](https://placehold.it/20/004B50/000000?text=+) ![#0078D7](https://placehold.it/20/0078D7/000000?text=+) ![#D83B01](https://placehold.it/20/D83B01/000000?text=+) ![#B4009E](https://placehold.it/20/B4009E/000000?text=+)|
-| 日落    | ![#B6B0FF](https://placehold.it/20/B6B0FF/000000?text=+) ![#3049AD](https://placehold.it/20/3049AD/000000?text=+) ![#FF994E](https://placehold.it/20/FF994E/000000?text=+) ![#C83D95](https://placehold.it/20/C83D95/000000?text=+) ![#FFBBED](https://placehold.it/20/FFBBED/000000?text=+) ![#42F9F9](https://placehold.it/20/42F9F9/000000?text=+) ![#00B2D9](https://placehold.it/20/00B2D9/000000?text=+) ![#FFD86C](https://placehold.it/20/FFD86C/000000?text=+)|
-| 黄昏  | ![#F17925](https://placehold.it/20/F17925/000000?text=+) ![#004753](https://placehold.it/20/004753/000000?text=+) ![#CCAA14](https://placehold.it/20/CCAA14/000000?text=+) ![#4B4C4E](https://placehold.it/20/4B4C4E/000000?text=+) ![#D82C20](https://placehold.it/20/D82C20/000000?text=+) ![#A3D0D4](https://placehold.it/20/A3D0D4/000000?text=+) ![#536F18](https://placehold.it/20/536F18/000000?text=+) ![#46ABB0](https://placehold.it/20/46ABB0/000000?text=+)|
+| 默认   | ![默认](media/desktop-report-themes/report-themes-color-scheme-default.png)|
+| 高层建筑  | ![高层建筑](media/desktop-report-themes/report-themes-color-scheme-highrise.png)|
+| 主管     | ![主管](media/desktop-report-themes/report-themes-color-scheme-executive.png)|
+| 边界  | ![边界](media/desktop-report-themes/report-themes-color-scheme-frontier.png)|
+| 创新    | ![创新](media/desktop-report-themes/report-themes-color-scheme-innovative.png)|
+| 开花     | ![开花](media/desktop-report-themes/report-themes-color-scheme-bloom.png)|
+| 潮汐 | ![潮汐](media/desktop-report-themes/report-themes-color-scheme-tidal.png)|
+| 温度   | ![温度](media/desktop-report-themes/report-themes-color-scheme-temperature.png)|
+| 太阳 | ![太阳](media/desktop-report-themes/report-themes-color-scheme-solar.png)|
+| 发散     | ![发散](media/desktop-report-themes/report-themes-color-scheme-divergent.png)|
+| 暴风     | ![暴风](media/desktop-report-themes/report-themes-color-scheme-storm.png)|
+| 经典   | ![经典](media/desktop-report-themes/report-themes-color-scheme-classic.png)|
+| 城市公园     | ![城市公园](media/desktop-report-themes/report-themes-color-scheme-city-park.png)|
+| 教室     | ![教室](media/desktop-report-themes/report-themes-color-scheme-classroom.png)|
+| 色盲友好   | ![色盲友好](media/desktop-report-themes/report-themes-color-scheme-colorblind-safe.png)|
+| 电气  | ![电气](media/desktop-report-themes/report-themes-color-scheme-electric.png)|
+| 高对比度     | ![高对比度](media/desktop-report-themes/report-themes-color-scheme-high-contrast.png)|
+| 日落    | ![日落](media/desktop-report-themes/report-themes-color-scheme-sunset.png)|
+| 黄昏  | ![黄昏](media/desktop-report-themes/report-themes-color-scheme-twilight.png)|
 
 若要选择可用的内置报表主题，请在“主页”功能区中选择“切换主题”，然后从下拉列表菜单中一个主题   。
 
-![选择报表主题](media/desktop-report-themes/report-themes_2a.png)
+![选择报表主题](media/desktop-report-themes/report-themes-2a.png)
 
 报表主题将应用于报表，可开始操作。
 
@@ -50,7 +61,7 @@ ms.locfileid: "69023392"
 
 若要导入自定义报表主题，请选择“主页”  功能区中的“切换主题”  按钮。 然后，选择下拉菜单中的“导入主题”  。
 
-![导入主题](media/desktop-report-themes/report-themes_3.png)
+![导入主题](media/desktop-report-themes/report-themes-3a.png)
 
 此时，便于转到 JSON 主题文件所在位置的窗口显示。 Power BI Desktop 之所以查找 JSON 文件是因为，JSON 是 Power BI 报表主题文件类型。 下图中提供了一些假日主题文件。 我们将对 3 月选择假日主题。
 
@@ -60,7 +71,7 @@ ms.locfileid: "69023392"
 
 ![已成功导入主题](media/desktop-report-themes/report-themes_5.png)
 
-至此，我们已导入主题文件，让我们看看简单明了的 JSON 文件结构。
+现在我们已导入主题文件，接下来让我们看看 JSON 文件结构。
 
 ## <a name="structure-of-a-report-theme-json-file"></a>报表主题 JSON 文件的结构
  在编辑器中打开在上一部分中选择的基本 JSON 文件（即 St Patrick's Day.json  文件）后，看到如下屏幕截图：
@@ -73,17 +84,7 @@ ms.locfileid: "69023392"
 
 * **dataColors**：要对 Power BI Desktop 视觉对象数据使用的十六进制颜色代码列表。 可以视需要在此列表中添加任意数量的颜色。
 
-* background  、foreground  和 tableAccent  ：应该应用于各种视觉对象类型的颜色。 
-  - **foreground**：应用于文本框文本、KPI 目标文本、多行卡片文本、卡片值文本、仪表标注文本、垂直切片器元素文本、表  和矩阵  总计以及值文本。 
-  - **background**：应用于按钮填充和组合图标签背景。 这些颜色的使用方式取决于所应用的具体视觉对象样式。 
-  - 表  和矩阵  视觉对象默认应用这些样式。
-
-若要对表  或矩阵  视觉对象应用样式，请按以下步骤操作： 
-1. 选择视觉对象。 
-2. 然后，在“可视化效果”  窗格中，选择“格式”  部分。
-3. 展开“矩阵样式”  ，再从“样式”  下拉列表中选择样式。
-
-![“样式”下拉列表](media/desktop-report-themes/report-themes_7.png)
+* background  、foreground  和 tableAccent  ：几个颜色类。 本文稍后会介绍颜色类的详细信息，但请了解，颜色类使你能够在报表中同时设置多个颜色。
 
 下面展示了 St Patrick's Day.json  文件的文本，可根据它创建你自己的 JSON 文件：
 
@@ -97,7 +98,7 @@ ms.locfileid: "69023392"
     }
 ```
 
-可以在其中为选定颜色输入你自己的十六进制颜色代码。
+如果你只想要调整报表的基本颜色，你可以只更改此文件的名称和十六进制代码，让你自己的个人 JSON 文件做好导入准备。
 
 在 JSON 文件中，只定义要调整的格式设置，而未  在 JSON 文件中指定的任何格式设置都会直接恢复到 Power BI 默认设置。
 
@@ -116,10 +117,12 @@ ms.locfileid: "69023392"
 
 看到所有这些绿色了吗？ 这是因为我们导入并应用的报表主题  包含这些颜色。
 
-### <a name="situations-when-report-theme-colors-wont-stick-to-your-reports"></a>无法在报表中保留报表主题颜色的情况
-假设将自定义颜色集（或单个颜色）应用于视觉对象中的特定数据点。 应用的报表主题不会  替代自定义数据点颜色。
+调色板中的颜色也与当前主题相关。 因此，例如，如果你选择了数据点第一行的第三个颜色，随后更改为其他主题，则该数据点的颜色将自动更新为新主题中第一行的第三个颜色，就像在 Microsoft Office 中更改主题时的效果一样。
 
-也许还要使用“主题颜色”部分手动设置数据点颜色。 在你应用新报表主题后，颜色不会  更新。 若要恢复默认颜色（以便在应用新报表主题时更新颜色），可以选择“主题颜色”  调色板中的“恢复到默认值”  。
+### <a name="situations-when-report-theme-colors-wont-stick-to-your-reports"></a>无法在报表中保留报表主题颜色的情况
+假设使用颜色选取器中的“自定义颜色”选项将自定义颜色集（或单个颜色）应用于视觉对象中的特定数据点。 应用的报表主题不会  替代自定义数据点颜色。
+
+也许还要使用“主题颜色”部分手动设置数据点颜色。 在你应用新报表主题后，颜色不会  更新。 若要恢复默认颜色（以便在应用新报表主题时更新颜色），可以在颜色选取器中选择“还原为默认值”  或从“主题颜色”  调色板中选择一个颜色。
 
 ![还原为默认值](media/desktop-report-themes/report-themes_9.png)
 
@@ -166,13 +169,139 @@ ms.locfileid: "69023392"
 * [高对比度](https://community.powerbi.com/t5/Themes-Gallery/Color-Blind-Friendly/m-p/140597)
 
 ## <a name="report-theme-json-file-format"></a>报表主题 JSON 文件格式
-基本 JSON 文件有五个必需的行：
+在最基本的层面上，主题 JSON 文件只有一个必需行：“名称”  。 
 
-* **name**：主题名称，也是唯一的必填字段。
-* **dataColors**：要对 Power BI Desktop 视觉对象数据使用的十六进制颜色代码列表。 可以视需要在此列表中添加任意数量的颜色。
-* background  、foreground  和 tableAccent  ：应该应用于各种视觉对象类型的颜色。 foreground 应用于文本框文本、KPI 目标文本、多行卡片文本、卡片值文本、仪表标注文本、垂直切片器元素文本、表和矩阵总计以及值文本    。 **background**：应用于按钮填充和组合图标签背景。 这些颜色的使用方式取决于所应用的具体视觉对象样式。 表  和矩阵  视觉对象默认应用这些样式。
+```json
+    {
+        "name": "Custom Theme",
+    }
+```
 
-若要创建扩展格式的 JSON 文件，并能更精细地控制格式设置，还需要向 JSON 文件添加“visualStyles”  部分。 在“visualStyles”  部分中，嵌套格式设置具体内容。 “visualStyles”  部分的格式如下所示：
+除名称  之外的所有其他参数都是可选的，这意味着你只需添加专门想要设置主题文件格式的属性，其他属性继续使用 Power BI 的默认值。 
+
+在“名称”下，可以添加一些与基本数据颜色相关的属性。 
+
+
+* **dataColors**：要对 Power BI Desktop 视觉对象数据使用的十六进制颜色代码列表。 可以视需要在此列表中添加任意数量的颜色。 使用此列表中的所有颜色后，如果视觉对象仍需要更多颜色，它会还原为使用 Power BI 的默认调色板。 
+* **好、中、差**：这些值设置瀑布图和 KPI 视觉对象使用的状态颜色。
+* **最大值、中心值、最小值、空值**：这些颜色设置“条件格式”对话框中的各种渐变色。  
+
+定义这些颜色的基本主题如下所示：
+
+```json
+    {
+        "name": "Custom Theme",
+          "dataColors": [
+                "#118DFF",
+                "#12239E", 
+                "#E66C37", 
+                "#6B007B", 
+                "#E044A7",
+                "#744EC2", 
+                "#D9B300", 
+                "#D64550",
+                "#197278", 
+                "#1AAB40"
+    ],
+        "good": "#1AAB40",
+        "neutral": "#D9B300",
+        "bad": "#D64554",
+        "maximum": "#118DFF",
+        "center": "#D9B300",
+        "minimum": "#DEEFFF",
+        "null": "#FF7F48"
+    }
+```
+
+接下来，可以添加各种颜色类。 通过使用颜色类，你可以用一行设置整个报表中的多个颜色，方法是将通常具有相同颜色的类似视觉对象属性组合在一起。 
+
+可以在下表中看到可以设置格式的六个颜色类。
+
+
+|颜色分类  |格式  |
+|---------|---------|
+|前景 | 标签背景色（在数据点外时） <br> 趋势线颜色 <br>  文本框默认颜色 <br> 表和矩阵值以及总计字体颜色数据条轴颜色 <br> 卡片数据标签 <br> 仪表标注值颜色 <br> KPI 目标颜色 <br>  KPI 文本颜色 <br> 切片器项颜色（处于焦点模式时）  <br> 切片器下拉菜单项字体颜色 <br> 切片器数字输入字体颜色 <br> 切片器标题字体颜色 <br> 散点图比率线颜色 <br> 折线图预测线颜色 <br> 地图引导线颜色 <br> 筛选器窗格和卡片文本颜色|
+|foregroundNeutralSecondary |标签颜色  <br> 数据标签颜色 <br> 轴标签颜色 <br> 表和矩阵标题字体颜色 <br> 仪表目标和目标引导线颜色 <br>  KPI 趋势轴颜色 <br> 切片器颜色 <br> 切片器项字体颜色 <br> 轮廓颜色 <br> 折线图悬停颜色 <br> 多行卡片标题颜色 <br> 功能区图表笔划颜色 <br> 形状地图边框颜色 <br> 按钮文本字体颜色 <br> 按钮图标线条颜色 <br> 按钮轮廓颜色 |
+| foregroundNeutralTertiary | 图例灰显颜色 <br> 卡片类别标签颜色 <br> 多行卡片类别标签颜色 <br> 多行卡片栏颜色 <br> 漏斗图转换率笔划颜色 
+| backgroundLight | 轴网格线颜色 <br> 表和矩阵网格颜色 <br> 切片器标题背景色（处于焦点模式时）  <br> 多行卡片轮廓颜色  <br> 形状填充颜色 <br> 仪表弧背景色 <br> 应用的筛选器卡片背景色 <br> |
+backgroundNeutral | 表和矩阵网格轮廓颜色 <br> 形状地图默认颜色 <br> 功能区图表功能区填充颜色（“匹配系列”选项处于关闭状态时） |
+背景 | 标签背景色（在数据点内部时） <br> 切片器下拉菜单项背景色  <br> 环形图笔划颜色 <br> 树状图笔划颜色 <br> 组合图背景色 <br> 按钮填充颜色 <br> 筛选器窗格和可用筛选器卡片背景色 |
+tableAccent | 当存在时覆盖表和矩阵网格轮廓颜色 |
+
+
+设置颜色类的主题示例如下：
+
+```json
+    {
+        "name": "Custom Theme",
+        "foreground": "#252423",
+          "foregroundNeutralSecondary": "#605E5C",
+          "foregroundNeutralTertiary": "#B3B0AD",
+        "background": "#FFFFFF",
+          "backgroundLight": "#F3F2F1",
+          "backgroundNeutral": "#C8C6C4",
+        "tableAccent": "#118DFF"
+    }
+```
+
+接下来，你可以将文本类添加到 JSON 文件中，该文件类似于颜色类，但旨在允许你更新报表中的文本组的字号、颜色和系列。 有 12 个文本类，但实际上只需设置四个类（称为“主要类”  ），即可更改报表中的所有文本格式。 其他文本类（称为“次要类”  ）会自动从其关联的主要类继承或派生其属性。 通常情况下，与主要类相比，次要类将派生较浅的文本颜色阴影，或以百分比表示较大或较小的文本大小。 
+
+以标签  类为例。 标签类的默认格式为 Segoe UI、#252423 （深灰色）以及 12 磅，并且此类用于设置表和矩阵中的值的格式。 通常，表或矩阵中的总计将具有类似的格式，但以粗体显示以使其更突出，因此它们可以使用粗体标签类。 但是，你无需在主题 JSON 中自行指定。 Power BI 将自动为你指明。 如果以后决定将标签设置为 14 磅字体并在主题中指定该标签，则不需要同时更新粗体标签类，因为它继承标签类中的所有文本格式，并仅加粗其顶部显示的字体系列。 
+
+表列表显示以下内容：
+* 四个主要文本类及其格式和默认设置
+* 每个次要类及其格式和相对于主要类而言独一无二的默认设置
+
+
+|主要类  |次要类  |JSON 中的类名  |设置  |关联的视觉对象  |
+|---------|---------|---------|---------|---------|
+| 标注   | 不适用   | 标注 | DIN <br> #252423 <br> 45pt |卡片数据标签 <br> KPI 指示器|
+|标题|不适用|标头|Segoe UI Semibold <br> #252423 <br> 12pt |关键影响因素标题 |
+| 标题 || 标题    |DIN <br> #252423 <br> 12pt |类别轴标题 <br> 值轴标题 <br> 多行卡片标题* <br> 切片器标题|
+|-| 大标题 | largeTitle    |14pt   |视觉对象标题 |
+|标签 ||标签 |Segoe UI<br>#252423<br>10pt |表和矩阵列标题 <br> 矩阵行标题<br>表和矩阵网格<br>表和矩阵值 |
+|-|半粗体 |semiboldLabel| Segoe UI Semibold   | 关键影响因素配置文件文本
+|-|大    |largeLabel |12pt   | 多行卡片数据标签 |
+|-|小    |smallLabel |9pt    |参考线标签* <br>切片器数据范围标签<br> 切片器数字输入文本样式<br>切片器搜索框<br>关键影响因素影响文本|
+|-|浅色    |lightLabel |#605E5C    |图例文本<br>按钮文本<br>类别轴标签<br>漏斗图数据标签<br>漏斗图转换率标签<br>仪表目标<br>散点图类别标签<br>切片器项|
+|-|加粗 |boldLabel  |Segoe UI Bold  |矩阵小计<br>矩阵总计<br>表总计 |
+|-|大和浅  |largeLightLabel    |#605E5C<br>12pt    |卡片类别标签<br>仪表标签<br>多行卡片类别标签 |
+|-|小和浅  |smallLightLabel    |#605E5C<br>9pt |数据标签<br>值轴标签|
+
+
+尽管你无需在主题文件中设置次要类，因为它们继承自主要类，但如果你不喜欢继承规则（例如，如果你不希望总计成为表中粗体版本的值），你可以在主题文件中显式设置次要类的格式，就像你可以设置主要类的格式一样。
+
+仅设置主要文本类的示例主题如下： 
+
+```json
+    {
+            "name": "Custom Theme",
+          "textClasses": {
+                "callout": {
+                    "fontSize": 45,
+                    "fontFace": "wf_standard-font",
+                    "color": "#252423"
+                },
+                "title": {
+                    "fontSize": 12,
+                    "fontFace": "wf_standard-font",
+                    "color": "#252423"
+                },
+                "header": {
+                    "fontSize": 12,
+                    "fontFace": "Segoe UI Semibold",
+                    "color": "#252423"
+                },
+                "label": {
+                    "fontSize": 10,
+                    "fontFace": "Segoe UI",
+                    "color": "#252423"
+                }
+        }    
+    }
+```
+
+最后，若要创建扩展格式的 JSON 文件，并能更精细地控制所有视觉对象格式设置，可以向 JSON 文件添加“visualStyles”  部分。 在“visualStyles”  部分中，嵌套格式设置具体内容。 “visualStyles”  部分的格式如下所示：
 
     visualStyles: {
         visualName: {
@@ -184,7 +313,52 @@ ms.locfileid: "69023392"
         }
     }
 
-在“visualName”  和“cardName”  部分中，使用特定视觉对象和 cardName。 若要将此设置应用于包含特定视觉对象的属性的所有视觉对象或卡片，请使用星号（“\*”）。 若要在报表中全局应用设置（如视觉对象的字号或特定字体系列），也可以使用星号（“\*”）。
+在“visualName”  和“cardName”  部分中，使用特定视觉对象和卡片名称。 当前，“styleName”  始终为星号（“*”），但在将来的版本中，你可以为视觉对象创建不同的样式，并为其命名（类似于表和矩阵样式功能）。 “propertyName”  是特定格式设置选项的名称，“propertyValue”  是要放置格式设置选项的位置。  
+
+对于“visualName”  和“cardName”  ，若要将此设置应用于包含属性的所有视觉对象或卡片，请使用星号（“\*”）而不是特定视觉对象或卡片名称。 如果视觉对象和卡片名称使用星号（“\*”），则可以高效地在报表中全局应用设置，如所有视觉对象中所有文本的字体大小或特定字体系列。
+
+以下是通过视觉样式设置几个属性的示例。 
+
+```json
+{  
+   "name":"Custom Theme",
+   "visualStyles":{  
+      "*":{  
+         "*":{  
+            "*":[{  
+                  "wordWrap":true
+            }],
+            "categoryAxis":[{
+                  "gridlineStyle":"dotted"
+            }],
+            "filterCard":[{  
+                  "$id":"Applied",
+                  "foregroundColor":{"solid":{"color":"#252423"}}
+               },
+               {  
+                  "$id":"Available",
+                  "border":true
+            }]
+         }
+      },
+      "scatterChart":{  
+         "*":{  
+            "bubbles":[{  
+                  "bubbleSize":-10
+            }]
+         }
+      }
+   }
+}
+```
+
+此示例显示以下内容：
+
+* 在任何位置打开自动换行
+* 将具有类别轴的所有视觉对象的网格线样式设置为虚线
+* 为可用和应用的筛选器卡片设置某些格式（请注意，使用“$id”设置不同版本的筛选器卡片的格式）
+* 将散点图的气泡大小设置为 -10。
+
 
 > [!NOTE]
 > 只需指定要调整的格式设置元素。 未包含在 JSON 文件中的任何格式设置元素都将恢复为它们的默认值和设置。
@@ -193,12 +367,6 @@ ms.locfileid: "69023392"
 
 ### <a name="json-file-element-definitions"></a>JSON 文件元素定义
 此部分中的表定义视觉对象名称 (visualName  )、卡片名称 (cardName  )，以及创建 JSON 文件所需的枚举。
-
-使用 dateTime  时，日期必须是用单引号括住的 ISO 日期（以“datetime”开头）。 示例如下：
-
-    “datetime’2011-10-05T14:48:00.000Z’”
-
-布尔值为 true  或 false  。 字符串必须用双引号括起来，如“这是一个字符串”。
 
 | **visualName** |
 | --- |
@@ -231,7 +399,7 @@ ms.locfileid: "69023392"
 | 切片器 |
 | stackedAreaChart |
 | tableEx |
-| 树状图 |
+| treemap |
 | waterfallChart |
 
 下表定义了 cardName  值。 每个单元格中的第一个值是 JSON 文件术语。 第二个值是卡片名称，如 Power BI Desktop  用户界面中所示。
@@ -291,7 +459,20 @@ ms.locfileid: "69023392"
 | zoom:缩放 |
 
 ### <a name="properties-within-each-card"></a>每个卡中的属性
-以下部分定义了每个卡片中的属性：
+下面的部分定义了每个卡中的属性。 卡片名称后跟每个属性名称。 对于每个属性，即“格式设置”窗格显示时看到的名称、“格式设置”选项的功能说明以及格式设置选项的类型。 利用此方法，你可以了解能够在主题文件中使用的值类型。 
+
+使用 dateTime  时，日期必须是用单引号括住的 ISO 日期（以“datetime”开头）。 示例如下：
+
+    “datetime’2011-10-05T14:48:00.000Z’”
+
+布尔值为 true 或 false。 字符串必须用双引号括起来，如“这是一个字符串”。 数字只以值本身表示，不用引号括起来。
+
+颜色应采用以下格式，即采用自定义十六进制代码，其中“FFFFFF”如以下示例所示。  
+
+    { "solid": { "color": "#FFFFFF" } }
+
+枚举最常用于下拉列表格式设置选项，意味着它可以设置为在窗格中显示的任何选项，例如“RightCenter”（对于图例位置），或“数据值，占总计的百分比”（对于饼图数据标签）。 枚举选项显示在属性列表下。
+
 
 ```json
       "general":

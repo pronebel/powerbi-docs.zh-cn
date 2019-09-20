@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: reference
-ms.date: 05/08/2019
+ms.date: 09/09/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 4c522a9e6c40f4164ee82675c40c3110b174d017
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: d3405a434c8b3add7bb39f20d5aa65e066e4b73d
+ms.sourcegitcommit: 226b47f64e6749061cd54bf8d4436f7deaed7691
+ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "65513944"
+ms.lasthandoff: 09/09/2019
+ms.locfileid: "70841321"
 ---
 # <a name="power-bi-desktop-privacy-levels"></a>Power BI Desktop 隐私级别
 在 **Power BI Desktop** 中，隐私级别指定隔离级别，该隔离级别定义一个数据源与其他数据源的隔离程度。 尽管严格的隔离级别能阻止数据源之间的信息交换，但也可能降低功能和影响性能。
@@ -52,7 +52,7 @@ ms.locfileid: "65513944"
 | **根据每个源的隐私级别设置合并数据**（处于打开状态且为默认设置） |隐私级别设置用于确定合并数据时数据源的隔离级别。 |
 | **忽略隐私级别并潜在地提高性能**（处于关闭状态） |合并数据时不考虑隐私级别，可能会提高数据的性能和功能。 |
 
-> **安全说明：** 通过选择“隐私级别”  对话框中的“忽略隐私级别并潜在地提高性能”  来启用“隐私级别”  ，可能会向未经授权的人员泄露敏感或机密数据。 除非确信数据源不包含敏感或机密数据，否则请不要启用**隐私级别**。
+> **安全说明：** 通过选择“隐私级别”对话框中的“忽略隐私级别并可能提升性能”，可能会向未经授权的人员泄露敏感或机密数据   。 除非确信数据源不包含敏感或机密数据，否则请不要禁用此设置  。
 > 
 > 
 

@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 08/08/2019
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 278d631e755c4d484db0788b6c58fca9cfce4616
-ms.sourcegitcommit: 0e50ebfa8762e19286566432870ef16d242ac78f
+ms.openlocfilehash: 218124542570d313c3d5893a6f1d69c75594f33c
+ms.sourcegitcommit: db4fc5da8e65e0a3dc35582d7142a64ad3405de7
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/13/2019
-ms.locfileid: "68961966"
+ms.lasthandoff: 09/11/2019
+ms.locfileid: "70903782"
 ---
 # <a name="manage-your-app-workspace-in-power-bi-and-office-365"></a>管理 Power BI 和 Office 365 中的应用工作区
 
@@ -72,7 +72,7 @@ ms.locfileid: "68961966"
 
 ### <a name="add-an-image-and-set-other-workspace-properties"></a>添加图像并设置其他工作区属性
 
-从应用工作区分发应用时，在此处添加的图像即为应用的图像。 请参阅“创建新工作区”一文的[将图像添加到 Office 365 应用工作区（可选）](service-create-workspaces.md#add-an-image-to-your-office-365-app-workspace-optional)部分  。
+从应用工作区分发应用时，在此处添加的图像即为应用的图像。 请参阅“创建新工作区”一文的[将图像添加到 Office 365 应用工作区](service-create-workspaces.md#add-an-image-to-your-office-365-workspace-optional)  。
 
 1. 在应用工作区的 Outlook for Office 365 视图中，转到“关于”选项卡并选择“编辑”   。
 
