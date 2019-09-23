@@ -9,13 +9,13 @@ ms.service: powerbi
 ms.subservice: powerbi-report-server
 manager: kfile
 ms.custom: mvc
-ms.date: 08/29/2019
-ms.openlocfilehash: 0755b41fbeef1f62d2722e3529007dc4f8773634
-ms.sourcegitcommit: b53a6f5575f5f8bc443ecdca9c72525ce123518f
+ms.date: 09/13/2019
+ms.openlocfilehash: d2c0ab82a3b262a975c461a4414ed7fd3b1bc060
+ms.sourcegitcommit: a97c0c34f888e44abf4c9aa657ec9463a32be06f
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/30/2019
-ms.locfileid: "70186080"
+ms.lasthandoff: 09/17/2019
+ms.locfileid: "71075906"
 ---
 # <a name="comparing-power-bi-report-server-and-the-power-bi-service"></a>比较 Power BI 报表服务器和 Power BI 服务
 
@@ -23,7 +23,7 @@ Power BI 报表服务器和 Power BI 服务有许多相似之处和一些关键�
 
 ## <a name="features-of-power-bi-report-server-and-the-power-bi-service"></a>Power BI 报表服务器和 Power BI 服务的功能
 
-| 功能 | Power BI 报表服务器 | Power BI 服务 | 注意 |
+| 功能 | Power BI 报表服务器 | Power BI 服务 | 备注 |
 |---------|---------|---------|---------|
 | 部署 | 本地云或托管云 | 云 | 如果通过 Power BI Premium 获得许可，则可以在 Azure VM（托管云）中部署 Power BI 报表服务器 |
 | 源数据 | 云和/或本地 | 云和/或本地 |  |
@@ -44,7 +44,7 @@ Power BI 报表服务器和 Power BI 服务有许多相似之处和一些关键�
 | 分页报表 | 是 | 是 | [Power BI 服务中提供的分页报表](../paginated-reports-report-builder-power-bi.md)在高级容量中处于预览状态 |
 | Power BI 移动应用 | 是 | 是 | [Power BI 移动应用概述](../consumer/mobile/mobile-apps-for-mobile-devices.md) |
 | ARC GIS 地图 | 否 | 是 | [Power BI 服务和 Power BI Desktop 中通过 Esri 实现的 ArcGIS 地图](../visuals/power-bi-visualization-arcgis.md) |
-| Power BI 报表的电子邮件订阅 | 是 | 是 | 在 Power BI 服务中[为自己或他人订阅](../service-report-subscribe.md)报表或仪表板 |
+| Power BI 报表的电子邮件订阅 | 否 | 是 | 在 Power BI 服务中[为自己或他人订阅](../service-report-subscribe.md)报表或仪表板 |
 | 分页报表的电子邮件订阅 | 是 | 是 | [在 Power BI 服务中为自己和他人订阅分页报表](../paginated-reports-subscriptions.md)<br><br>[Reporting Services 中的电子邮件传递](https://docs.microsoft.com/sql/reporting-services/subscriptions/e-mail-delivery-in-reporting-services)  |
 | 数据警报 | 否 | 是 | Power BI 服务中的[数据警报](../service-set-data-alerts.md)
 | 行级别安全性 (RLS) | 是 | 是 | 在 DirectQuery（数据源）和导入模式下均可用 <br><br>[Power BI 服务](../service-admin-rls.md)中的行级别安全性 <br><br>[Power BI 报表服务器](row-level-security-report-server.md)中的行级别安全性 |
@@ -57,4 +57,4 @@ Power BI 报表服务器和 Power BI 服务有许多相似之处和一些关键�
 
 ## <a name="next-steps"></a>后续步骤
 
-[安装 Power BI 报表服务器](install-report-server.md)  
+[安装 Power BI 报表服务器](install-report-server.md)
