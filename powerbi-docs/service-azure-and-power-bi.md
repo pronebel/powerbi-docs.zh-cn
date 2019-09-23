@@ -12,14 +12,14 @@ ms.date: 05/08/2019
 LocalizationGroup: Data from databases
 ms.openlocfilehash: 9d48054e4b41c097d51522ad7596b750bd067e6d
 ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: zh-CN
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "65513339"
 ---
 # <a name="azure-and-power-bi"></a>Azure 和 Power BI
 
-借助“Azure”服务和“Power BI”，你可以将数据处理工作转换为可以提供实时业务策略的分析和报告。 无论你处理的数据基于云还是位于本地、简单还是复杂、采用单一来源还是大量混合来源、封存还是实时的，Azure 和 Power BI 提供的内置连接和集成都可以使你的商业智能努力成为现实。
+借助“Azure”  服务和  “Power BI”，你可以将数据处理工作转换为可以提供实时业务策略的分析和报告。 无论你处理的数据基于云还是位于本地、简单还是复杂、采用单一来源还是大量混合来源、封存还是实时的，Azure 和 Power BI 提供的内置连接和集成都可以使你的商业智能努力成为现实。
 
 ![Azure](media/service-azure-and-power-bi/azure_1.png)
 
@@ -35,7 +35,7 @@ Power BI 拥有多种 Azure 连接可用，而且使用这些服务创建的商�
 
 ## <a name="transform-shape-and-merge-your-cloud-data"></a>转换、调整和合并云数据
 
-是否有更为复杂的数据，且来自各种源？ 没问题。 借助 **Power BI Desktop** 和 Azure 服务，只需点击一下“获取数据”对话框即可实现连接。 在相同的查询中，你可以连接到“Azure SQL 数据库”、“Azure HDInsight”数据源和“Azure Blob 存储”（或“Azure 表存储”，然后只选择每个源中你需要的子集，并在其中进行优化。
+是否有更为复杂的数据，且来自各种源？ 没问题。 借助 **Power BI Desktop** 和 Azure 服务，只需点击一下“获取数据”  对话框即可实现连接。 在相同的查询中，你可以连接到“Azure SQL 数据库”  、  “Azure HDInsight”数据源和  “Azure Blob 存储”（或“Azure 表存储”  ，然后只选择每个源中你需要的子集，并在其中进行优化。
 
 你也可以使用相同的数据连接甚至相同的查询为不同受众创建不一样的报表。 只需生成新的报表页、针对每个受众优化可视化组件，然后就可以目睹报表对业务信息的持续反馈。
 
@@ -67,4 +67,4 @@ Power BI 拥有多种 Azure 连接可用，而且使用这些服务创建的商�
 
 ## <a name="what-could-you-do-with-azure-and-power-bi"></a>Azure 和 Power BI 可以用来做什么？
 
-**Azure** 和 **Power BI** 可以在各种场景下组合，其可能性和机遇与你的业务一样独一无二。 有关“Azure 服务”的详细信息，请查看此[概览页](https://docs.microsoft.com/azure/machine-learning/team-data-science-process/plan-your-environment)，其中会介绍**使用 Azure 的数据分析场景**，并可以了解如何将数据源转换为推动业务的信息。
+**Azure** 和 **Power BI** 可以在各种场景下组合，其可能性和机遇与你的业务一样独一无二。 有关“Azure 服务”的详细信息  ，请查看此[概览页](https://docs.microsoft.com/azure/machine-learning/team-data-science-process/plan-your-environment)，其中会介绍**使用 Azure 的数据分析场景**，并可以了解如何将数据源转换为推动业务的信息。

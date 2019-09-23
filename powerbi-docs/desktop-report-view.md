@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 05/08/2019
+ms.date: 09/19/2019
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 153a77cdc7d4749ac450378723d04c82ef938de6
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: c76dfc45437fdc2406c89e41a4a076d9ef4e7a44
+ms.sourcegitcommit: 200291eac5769549ba5c47ef3951e2f3d094426e
+ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "65514608"
+ms.lasthandoff: 09/19/2019
+ms.locfileid: "71142175"
 ---
 # <a name="report-view-in-power-bi-desktop"></a>Power BI Desktop 中的报表视图
 如果你一直在使用 Power BI，就知道它非常便于创建可为数据提供动态透视和深入见解的报表。 在 Power BI Desktop 中，Power BI 还具有更高级的功能。 通过 Power BI Desktop，可创建高级查询、混合多个源中的数据和创建表格之间的关系等。
@@ -61,9 +61,11 @@ Power BI Desktop 提供**报表视图**，可在其中创建任何数量具有�
 
 对于频繁生成和更新多个报表的用户来说，复制和粘贴视觉对象的功能很有用。 在文件之间复制时，已在“格式设置”窗格中显式设置的设置和格式设置将继续保持，而依赖于主题或默认设置的视觉对象元素将自动更新为匹配目标报表的主题。 所以，当你获得设置了格式的视觉对象且其外观与你期望的完全相同时，可以复制该视觉对象并将其粘贴到新报表，并保留其所有合适的格式设置。
 
-![复制/粘贴视觉对象出错 - 没有数据字段](media/desktop-report-view/report-view_05.png)
+如果你的模型中的字段不同，则将在视觉对象上看到错误消息和有关哪些字段不存在的警告。 该错误类似于删除视觉对象正在使用的模型中的字段时看到的错误。 
 
-如果你的模型中的字段不同，则将在视觉对象上看到错误消息和有关哪些字段不存在的警告。 该错误类似于删除视觉对象正在使用的模型中的字段时看到的错误。 若要更正此错误，只需将中断的字段替换为你想要从粘贴视觉对象的报表中的模型中使用的字段。 如果使用自定义视觉对象，还必须将该自定义视觉对象导入到目标报表。
+![复制/粘贴视觉对象出错 - 没有数据字段](media/desktop-report-view/report-view_07.png)
+
+若要更正此错误，只需将中断的字段替换为你想要从粘贴视觉对象的报表中的模型中使用的字段。 如果使用自定义视觉对象，还必须将该自定义视觉对象导入到目标报表。
 
 
 

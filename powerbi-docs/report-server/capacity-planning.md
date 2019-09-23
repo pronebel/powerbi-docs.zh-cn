@@ -11,7 +11,7 @@ ms.date: 3/5/2018
 ms.author: pashah
 ms.openlocfilehash: c479b2600dad31756101c57ba2b1c5fc7fa19b2f
 ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: zh-CN
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "60976722"
@@ -134,7 +134,7 @@ Power BI 报表服务器部署由以下虚拟机组成：
 ### <a name="2-run-the-loadtest-tool"></a>2 运行 LoadTest 工具
 如果想针对自己的 Power BI 报表服务器部署或 Power BI 报表服务器的 Microsoft Azure 部署运行 Reporting Services LoadTest 工具，请遵循以下步骤。
 
-1. 从 GitHub 中克隆 Reporting Services LoadTest 项目 (https://github.com/Microsoft/Reporting-Services-LoadTest))。
+1. 从 GitHub 中克隆 Reporting Services LoadTest 项目 (https://github.com/Microsoft/Reporting-Services-LoadTest) )。
 2. 在项目目录中，将找到一个名为 RSLoadTests.sln 的解决方案文件。 在 Visual Studio 2015 或更高版本中打开此文件。
 3. 确定是要针对自己的 Power BI 报表服务器部署，还是针对 Microsoft Azure 中的 Power BI 报表服务器部署运行此工具。 如果要对自己的部署运行此工具，请转到步骤 5。
 4. 按照 https://github.com/Microsoft/Reporting-Services-LoadTest#create-a-sql-server-reporting-services-load-environment-in-azure 上列出的说明操作，在 Azure 中创建 Power BI 报表服务器环境。

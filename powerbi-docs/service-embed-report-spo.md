@@ -11,12 +11,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 LocalizationGroup: Share your work
 ms.date: 05/16/2019
-ms.openlocfilehash: ec70f4c9d6f3e6f51210a32f7efac7f160f462cb
-ms.sourcegitcommit: 24781cdab5fbe43fc14248db636169cc54ef6721
+ms.openlocfilehash: c5d35c1e7fef15c72314738c1d67f81656dc3101
+ms.sourcegitcommit: a97c0c34f888e44abf4c9aa657ec9463a32be06f
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/04/2019
-ms.locfileid: "66498018"
+ms.lasthandoff: 09/17/2019
+ms.locfileid: "71073616"
 ---
 # <a name="embed-with-report-web-part-in-sharepoint-online"></a>使用报表 Web 部件在 SharePoint Online 中嵌入报表
 
@@ -121,7 +121,7 @@ ms.locfileid: "66498018"
 
 | 属性 | 说明 |
 | --- | --- |
-| 页面名称 |设置 Web 部件的默认页。 从下拉列表中选择一个值。 如果下拉列表中未显示任何页，要么是因为报表只有一页，要么是因为粘贴的 URL 包含页名称。 从 URL 中删除报表部分即可选择特定页。 |
+| 页名称 |设置 Web 部件的默认页。 从下拉列表中选择一个值。 如果下拉列表中未显示任何页，要么是因为报表只有一页，要么是因为粘贴的 URL 包含页名称。 从 URL 中删除报表部分即可选择特定页。 |
 | 显示 |调整报表如何能与 SharePoint Online 页面浑然一体。 |
 | 显示导航窗格 |显示或隐藏报表页导航窗格。 |
 | 显示筛选窗格 |显示或隐藏筛选窗格。 |
@@ -157,7 +157,7 @@ ms.locfileid: "66498018"
 
 * Power BI 不支持 SharePoint Online 支持的本地化语言。 因此，可能无法在嵌入的报表中看到正确的本地化内容。
 
-* 如果使用的是 Internet Explorer 10，可能会遇到问题。 可以查看 [Power BI 支持的浏览器](consumer/end-user-browsers.md)和 [Office 365 支持的浏览器](https://products.office.com/office-system-requirements#Browsers-section)。
+* 如果使用的是 Internet Explorer 10，可能会遇到问题。 <!--You can look at the [browsers support for Power BI](consumer/end-user-browsers.md) and for [Office 365](https://products.office.com/office-system-requirements#Browsers-section). -->
 
 * Power BI Web 部件不适用于[国家云](https://powerbi.microsoft.com/clouds/)。
 

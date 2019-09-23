@@ -12,7 +12,7 @@ ms.author: davidi
 LocalizationGroup: Data from files
 ms.openlocfilehash: ccd8569650bd4f3da1a05c0999ad510029e5ab49
 ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: zh-CN
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "61137758"
@@ -85,7 +85,7 @@ ms.locfileid: "61137758"
 
 * [数据流自助服务数据准备](service-dataflows-overview.md)
 * [在 Power BI 中创建和使用数据流](service-dataflows-create-use.md)
-* [数据流中使用的本地数据源](service-dataflows-on-premises-gateways.md)
+* [将数据流与本地数据源配合使用](service-dataflows-on-premises-gateways.md)
 * [Power BI 数据流的开发人员资源](service-dataflows-developer-resources.md)
 * [配置工作区数据流设置（预览）](service-dataflows-configure-workspace-storage-settings.md)
 * [将 CDM 文件夹添加到 Power BI 作为数据流（预览）](service-dataflows-add-cdm-folder.md)

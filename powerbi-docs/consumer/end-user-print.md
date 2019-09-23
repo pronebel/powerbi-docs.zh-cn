@@ -5,19 +5,18 @@ author: mihart
 manager: kvivek
 ms.reviewer: ''
 featuredvideoid: ''
-ms.custom: seodec18
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 05/13/2019
+ms.date: 09/18/2019
 ms.author: mihart
 LocalizationGroup: Common tasks
-ms.openlocfilehash: 02aed3d69ee5d6ce344138a57853bd0b2a06036b
-ms.sourcegitcommit: 52aa112ac9194f4bb62b0910c4a1be80e1bf1276
+ms.openlocfilehash: 4e211677026d66b89631063cf07e38ce1e46ee10
+ms.sourcegitcommit: 7a0ce2eec5bc7ac8ef94fa94434ee12a9a07705b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "65608509"
+ms.lasthandoff: 09/18/2019
+ms.locfileid: "71100208"
 ---
 # <a name="printing-from-the-power-bi-service"></a>使用 Power BI 服务打印
 使用 Power BI 服务打印整个仪表板、仪表板磁贴、报表页或报表视觉对象。 一次只能打印一页报表，而不能一次打印整个报表。
@@ -34,7 +33,7 @@ ms.locfileid: "65608509"
    
 
    
-    ![打印对话框](./media/end-user-print/pbi_print_dash_new2.png)
+    ![打印对话框](./media/end-user-print/power-bi-print-dash.png)
 
 ## <a name="print-a-dashboard-tile"></a>打印仪表板磁贴
 1. 通过从上方菜单栏中选择全屏图标 ![全屏图标](./media/end-user-print/power-bi-full-screen-icon.png)，以[全屏模式](end-user-focus.md)打开仪表板。

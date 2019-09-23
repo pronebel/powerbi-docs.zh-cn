@@ -11,12 +11,12 @@ ms.date: 07/15/2019
 ms.author: mblythe
 ms.custom: seodec18
 LocalizationGroup: Gateways
-ms.openlocfilehash: c46a5c419c242ae25ecca74428362ec27f234afd
-ms.sourcegitcommit: 73228d0a9038b8369369c059ad06168d2c5ff062
+ms.openlocfilehash: 254c0033dfc64b3a0f44bcda2289fedccf2e9eda
+ms.sourcegitcommit: 4222ebad1a3a32d8040f6a615a0b7f173d7869d0
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/02/2019
-ms.locfileid: "68730224"
+ms.lasthandoff: 09/20/2019
+ms.locfileid: "71164538"
 ---
 # <a name="manage-data-sources"></a>管理数据源
 
@@ -123,9 +123,9 @@ Power BI 支持多个本地数据源，每个都具有自己的要求。 网关�
 | **数据源** | **实时/DirectQuery** | **手动或计划刷新（用户配置）** |
 | --- | --- | --- |
 | Amazon Redshift |是 |是 |
+| Analysis Services |是 |是 |
 | AtScale 多维数据集 |是 |是 |
 | Azure Active Directory |否 |是 |
-| Azure Analysis Services |是 |是 |
 | Azure Blob 存储 |否 |是 |
 | Azure DevOps Server |否 |是 |
 | Azure 表存储 |否 |是 |

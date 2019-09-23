@@ -12,7 +12,7 @@ ms.author: davidi
 LocalizationGroup: Connect to data
 ms.openlocfilehash: af227d2bcbbba2a27804ec74f14003f54aa89dde
 ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: zh-CN
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "65514678"
@@ -227,17 +227,17 @@ Implementation 2.0 支持以下选项：
 
 |产品  |模型  |身份验证  |连接器  |SNC 库  |支持  |
 |---------|---------|---------|---------|---------|---------|
-|Power BI Desktop     |任何         | 用户/密钥  | 应用程序服务 | N/A  | 是  |
+|Power BI Desktop     |任何         | 用户/密钥  | 应用程序服务 | 不适用  | 是  |
 |Power BI Desktop     |任何         | Windows          | 应用程序服务 | sapcrypto + gsskrb5/gx64krb5  | 是  |
 |Power BI Desktop     |任何         | 通过模拟的 Windows | 应用程序服务 | sapcrypto + gsskrb5/gx64krb5  | 是  |
-|Power BI Desktop     |任何         | 用户/密钥        | 消息服务器 | N/A  | 是  |
+|Power BI Desktop     |任何         | 用户/密钥        | 消息服务器 | 不适用  | 是  |
 |Power BI Desktop     |任何         | Windows        | 消息服务器 | sapcrypto + gsskrb5/gx64krb5  | 是  |
 |Power BI Desktop     |任何         | 通过模拟的 Windows | 消息服务器 | sapcrypto + gsskrb5/gx64krb5  | 是  |
 |Power BI Gateway     |导入      | 与 Power BI Desktop 相同 |         |   |   |
-|Power BI Gateway     |DirectQuery | 用户/密钥        | 应用程序服务 | N/A  | 是  |
+|Power BI Gateway     |DirectQuery | 用户/密钥        | 应用程序服务 | 不适用  | 是  |
 |Power BI Gateway     |DirectQuery | 通过模拟的 Windows（固定用户、无 SSO） | 应用程序服务 | sapcrypto + gsskrb5/gx64krb5  | 是  |
 |Power BI Gateway     |DirectQuery | 通过 Kerberos 使用 SSO 进行 DirectQuery 查询选项 | 应用程序服务 | 仅限 gsskrb5 / gx64krb5    | 是  |
-|Power BI Gateway     |DirectQuery | 用户/密钥        | 消息服务器 | N/A  | 是  |
+|Power BI Gateway     |DirectQuery | 用户/密钥        | 消息服务器 | 不适用  | 是  |
 |Power BI Gateway     |DirectQuery | 通过模拟的 Windows（固定用户、无 SSO） | 消息服务器 | sapcrypto + gsskrb5/gx64krb5  | 是  |
 |Power BI Gateway     |DirectQuery | 通过 Kerberos 使用 SSO 进行 DirectQuery 查询选项 | 消息服务器 | sapcrypto + gsskrb5/gx64krb5  | 否  |
 

@@ -5,19 +5,18 @@ author: mihart
 manager: kvivek
 ms.reviewer: ''
 featuredvideoid: ''
-ms.custom: seodec18
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 05/13/2019
+ms.date: 09/18/2019
 ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: ea81f7c264e4329ae29bb71e0fa8b038604504a1
-ms.sourcegitcommit: 52aa112ac9194f4bb62b0910c4a1be80e1bf1276
+ms.openlocfilehash: b2d658daade3ab1aa2a1c09dc33c0e7d48636910
+ms.sourcegitcommit: 200291eac5769549ba5c47ef3951e2f3d094426e
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "65608407"
+ms.lasthandoff: 09/19/2019
+ms.locfileid: "71141523"
 ---
 # <a name="opt-in-for-power-bi-service-preview-features"></a>选择使用 Power BI 服务预览功能
 ## <a name="what-are-preview-features"></a>什么是 *预览功能* ?
@@ -30,7 +29,7 @@ ms.locfileid: "65608407"
    ![“设置”菜单](./media/end-user-preview-features/power-bi-settings.png)。
 2. 选择“常规”选项卡  。如果预览存在，你将看到“预览功能”选项，或者看到左侧列出的预览功能  。  在此示例中，为 ArcGIS 地图列出了预览功能。 
    
-   ![“常规”选项卡](./media/end-user-preview-features/power-bi-preview-arcgis.png)
+   ![“常规”选项卡](./media/end-user-preview-features/power-bi-preview-esri.png)
 3. 选中“开”单选按钮或勾选相应的复选框，尝试新体验  。 然后选择“应用”  。
 4. 若要关闭预览功能，请执行上述第 1-3 步，在步骤 3 中，选择“关闭”或取消选中复选框并选择“应用”   。
 

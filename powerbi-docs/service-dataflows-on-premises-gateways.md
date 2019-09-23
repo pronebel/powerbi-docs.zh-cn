@@ -10,25 +10,22 @@ ms.topic: conceptual
 ms.date: 12/06/2018
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: 82c8bbb5361730b306cacd14dc9598ca12035027
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 81dfc6961ff0c00b609f98e50da3532a230cf26d
+ms.sourcegitcommit: 244d110b28d4978f360cbece3a7c896e1a645258
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54276459"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "61136122"
 ---
-# <a name="using-dataflows-with-on-premises-data-sources-preview"></a>将数据流与本地数据源配合使用（预览）
+# <a name="using-dataflows-with-on-premises-data-sources"></a>将数据流与本地数据源配合使用
 
-使用数据流，可以创建来自各种源的数据集合、清理数据并进行转换，然后将其加载到 Power BI 存储。 创建数据流时，用户可能希望使用本地数据源。 本文介绍了与创建数据流相关的要求，以及如何配置企业网关以启用这些连接。
+使用数据流  ，可以创建来自各种源的数据集合、清理数据并进行转换，然后将其加载到 Power BI 存储。 创建数据流时，用户可能希望使用本地数据源。 本文介绍了与创建数据流相关的要求，以及如何配置企业网关  以启用这些连接。
 
 ![数据流和网关](media/service-dataflows-onpremises-gateways/onpremises-gateways_01.png)
 
-> [!NOTE]
-> 数据流功能处于预览状态，可能会在正式版推出前更改和更新。
- 
 ## <a name="configuring-an-enterprise-gateway-for-use-with-dataflows"></a>配置企业网关以用于数据流
 
-要在数据流中使用本地数据源，创建数据流的任何用户都必须安装并配置企业网关。 另外，创建数据流的用户还必须是企业网关的管理员才能将该网关用于数据流。
+要在数据流中使用本地数据源，创建数据流的任何用户都必须安装并配置企业网关  。 另外，创建数据流的用户还必须是企业网关的管理员才能将该网关用于数据流。
 
 > [!NOTE]
 > 仅在使用企业网关时支持数据流。
@@ -55,12 +52,12 @@ ms.locfileid: "54276459"
 
 可以通过两种方式更改用于给定数据流的企业网关：
 
-1. 从创作工具中更改：可以使用数据流创作工具更改分配给所有查询的网关。
+1. 从创作工具中更改  ：可以使用数据流创作工具更改分配给所有查询的网关。
 
     > [!NOTE]
     > 数据流将尝试使用新网关查找或创建所需的数据源。 如果它无法执行此操作，则在所选网关提供所有必要数据流之前，将无法更改网关。
 
-2. 在设置屏幕中更改：可以使用 Power BI 服务中数据流的设置屏幕更改分配的网关。
+2. 在设置屏幕中更改  ：可以使用 Power BI 服务中数据流的设置屏幕更改分配的网关。
 
 若要详细了解企业网关，请参阅[本地数据网关](service-gateway-onprem.md)。
 
@@ -80,8 +77,8 @@ ms.locfileid: "54276459"
 
 * [数据流自助服务数据准备](service-dataflows-overview.md)
 * [在 Power BI 中创建和使用数据流](service-dataflows-create-use.md)
-* [在 Power BI Premium 上使用计算实体（预览）](service-dataflows-computed-entities-premium.md)
-* [Power BI 数据流的开发人员资源（预览）](service-dataflows-developer-resources.md)
+* [在 Power BI Premium 上使用计算实体](service-dataflows-computed-entities-premium.md)
+* [Power BI 数据流的开发人员资源](service-dataflows-developer-resources.md)
 
 有关 Power Query 和计划刷新的详细信息，可以阅读以下文章：
 * [Power BI Desktop 中的查询概述](desktop-query-overview.md)

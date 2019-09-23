@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 08/16/2019
+ms.date: 09/19/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 5004b55fa48cdf98aedd019749b738352d68c4cd
-ms.sourcegitcommit: f6ac9e25760561f49d4257a6335ca0f54ad2d22e
+ms.openlocfilehash: ead5c8f45e102aaeebeed492ecf4646342747fe1
+ms.sourcegitcommit: 200291eac5769549ba5c47ef3951e2f3d094426e
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/16/2019
-ms.locfileid: "69560888"
+ms.lasthandoff: 09/19/2019
+ms.locfileid: "71142287"
 ---
 # <a name="data-sources-in-power-bi-desktop"></a>Power BI Desktop 中的数据源
 使用 Power BI Desktop，你可以连接到来自许多不同的源的数据。 在此页面底部列出了可用数据源的完整清单。
@@ -192,7 +192,7 @@ ms.locfileid: "69560888"
 * ODBC
 * OLE DB
 * BI360 - Budgeting & Financial Reporting (Beta)
-* Denado
+* Denodo
 * Information Grid (Beta)
 * Paxata 
 * QubolePresto (Beta)

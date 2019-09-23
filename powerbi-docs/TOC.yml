@@ -903,6 +903,8 @@
       items:
         - name: 购买 Power BI Premium
           href: service-admin-premium-purchase.md
+        - name: 配置和管理容量
+          href: service-admin-premium-manage.md
         - name: 配置工作负载
           href: service-admin-premium-workloads.md
         - name: 使用应用监视容量

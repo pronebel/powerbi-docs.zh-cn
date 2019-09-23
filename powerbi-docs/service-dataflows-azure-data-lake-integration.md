@@ -12,7 +12,7 @@ ms.author: davidi
 LocalizationGroup: Data from files
 ms.openlocfilehash: 7532b0b381e43c6e413d27fa141c22e58dfba84e
 ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: zh-CN
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "61150434"
@@ -84,8 +84,8 @@ Power BI 外部的人员或服务也可以利用授权的替代形式。这些�
 有关总体数据流的信息，请查看以下这些文章：
 
 * [在 Power BI 中创建和使用数据流](service-dataflows-create-use.md)
-* [使用 Power BI Premium 上的计算的实体](service-dataflows-computed-entities-premium.md)
-* [数据流中使用的本地数据源](service-dataflows-on-premises-gateways.md)
+* [在 Power BI Premium 上使用计算实体](service-dataflows-computed-entities-premium.md)
+* [将数据流与本地数据源配合使用](service-dataflows-on-premises-gateways.md)
 * [Power BI 数据流的开发人员资源](service-dataflows-developer-resources.md)
 
 有关 Azure 存储的详细信息，可以阅读以下这些文章：

@@ -12,7 +12,7 @@ ms.author: maggies
 LocalizationGroup: Dashboards
 ms.openlocfilehash: 33598798104d88f3044a6689effa54e9b4256274
 ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: zh-CN
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "61139043"
@@ -46,7 +46,7 @@ ms.locfileid: "61139043"
 
    会显示一条成功消息（右上角附近），告知你可视化效果已作为磁贴添加到你的仪表板中。  
 
-   ![已固定到仪表板](media/service-dashboard-pin-tile-from-q-and-a/power-bi-pin.png)
+   ![已固定至仪表板](media/service-dashboard-pin-tile-from-q-and-a/power-bi-pin.png)
 7. 选择“转到仪表板”  以查看新磁贴。 随后，可以在仪表板上执行[重命名、重设大小、添加超链接、重新定位磁贴等操作](service-dashboard-edit-tile.md)。
 
    ![包含磁贴的仪表板](media/service-dashboard-pin-tile-from-q-and-a/power-bi-pinned.png)

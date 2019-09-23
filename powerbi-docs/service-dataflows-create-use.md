@@ -153,7 +153,7 @@ Power BI 数据流使用 Power BI 数据刷新过程使数据保持最新状态�
 
 * SharePoint 连接器  - 确保提供了 SharePoint 站点的根地址，不包含任何子文件夹或文档。 例如，使用类似于以下内容的链接： https://microsoft.sharepoint.com/teams/ObjectModel/ 。 
 
-* **JSON 文件连接器** - 当前你只可使用基本身份验证连接到 JSON 文件。  当前不支持通过在 URL 中提供凭据来连接到 JSON 文件（例如， https://XXXXX.blob.core.windows.net/path/file.json?sv=2019-01-01&si=something&sr=c&sig=123456abcdefg.. 。 ）  。  
+* **JSON 文件连接器** - 当前你只可使用基本身份验证连接到 JSON 文件。  当前不支持通过在 URL 中提供凭据来连接到 JSON 文件（例如， https://XXXXX.blob.core.windows.net/path/file.json?sv=2019-01-01&si=something&sr=c&sig=123456abcdefg.. 。）  。  
 
 * **Azure SQL 数据仓库** - 数据流目前不支持对 Azure SQL 数据仓库使用 Azure Active Directory (AAD) 身份验证。 对于此情况请使用基本身份验证。
 
@@ -162,8 +162,8 @@ Power BI 数据流使用 Power BI 数据刷新过程使数据保持最新状态�
 本文介绍了如何创建自己的数据流，以及如何在 Power BI Desktop 中创建数据集和报表来使用此数据流。   以下文章有助于了解关于使用数据流的详细信息和方案：
 
 * [数据流自助服务数据准备](service-dataflows-overview.md)
-* [使用 Power BI Premium 上的计算的实体](service-dataflows-computed-entities-premium.md)
-* [数据流中使用的本地数据源](service-dataflows-on-premises-gateways.md)
+* [在 Power BI Premium 上使用计算实体](service-dataflows-computed-entities-premium.md)
+* [将数据流与本地数据源配合使用](service-dataflows-on-premises-gateways.md)
 * [Power BI 数据流的开发人员资源](service-dataflows-developer-resources.md)
 * [数据流和 Azure Data Lake 集成（预览）](service-dataflows-azure-data-lake-integration.md)
 

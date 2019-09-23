@@ -12,7 +12,7 @@ ms.author: mihart
 LocalizationGroup: Visualizations
 ms.openlocfilehash: 6b5f2fa44a45cca06f90474d8c76fd6f06cae3ce
 ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: zh-CN
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "61276390"
@@ -116,7 +116,7 @@ ms.locfileid: "61276390"
 - 图例、纬度、经度、大小：前 233 个图例、前 15 个纬度和经度（这样可以使用统计信息或动态限制）
 - 位置、图例、纬度和经度聚合（+/- 大小）：前 233 个位置、前 15 个图例（这样可以使用统计信息或动态限制）
 
-### <a name="matrix"></a>矩形图
+### <a name="matrix"></a>矩阵
 - 行：通过一次使用 500 行的窗口进行虚拟化
 - 列：前 100 个分组列 
 - 值：多个值不会计入数据缩减
@@ -153,7 +153,7 @@ ms.locfileid: "61276390"
 - 类别：前 500 个
 - 系列（同时显示 X 和 Y 时）：前 20 个
 
-### <a name="table"></a>表格
+### <a name="table"></a>表
 - 值：通过一次使用 500 行的窗口进行虚拟化（数据窗口化）
 
 ### <a name="tree-map-this-could-use-statistics-or-dynamic-limits"></a>树形图（这样可以使用统计信息或动态限制）

@@ -12,7 +12,7 @@ ms.author: davidi
 LocalizationGroup: Troubleshooting
 ms.openlocfilehash: 19dc98b4f402176b2ae511236015ea25d7e4178b
 ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: zh-CN
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "65454432"
@@ -44,7 +44,7 @@ ms.locfileid: "65454432"
 ## <a name="help-with-other-issues-when-launching-power-bi-desktop"></a>帮助解决在启动 Power BI Desktop 时遇到的其他问题
 我们会尽可能地收录 Power BI Desktop  出现的问题。 我们会定期查看可能会对大量客户造成影响的问题，并将其收录到我们的文章中。
 
-如果无法启动 Power BI Desktop  不是由于本地数据网关所致，或先前的解决方案不起作用，可以向 [Power BI 支持](https://support.powerbi.com) (https://support.powerbi.com)) 提交支持事件，这样有助于我们发现并解决用户遇到的问题。
+如果无法启动 Power BI Desktop  不是由于本地数据网关所致，或先前的解决方案不起作用，可以向 [Power BI 支持](https://support.powerbi.com) (https://support.powerbi.com) ) 提交支持事件，这样有助于我们发现并解决用户遇到的问题。
 
 如果今后在使用 Power BI Desktop  时遇到其他问题（我们希望不会出现问题或出现的问题很少），启用跟踪和收集日志文件将有助于更好地隔离和发现问题。 若要启用跟踪，请依次选择“文件”、“选项和设置”、“选项”  和“诊断”  ，再选中“诊断选项”  下的“启用跟踪”  。 我们认识到，必须运行 Power BI Desktop  ，才能设置此选项，这更有助于解决今后发生的与启动 Power BI Desktop  相关的问题。
 
