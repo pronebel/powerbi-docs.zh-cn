@@ -92,6 +92,8 @@
               href: end-user-insights.md
             - name: 启用预览功能
               href: end-user-preview-features.md
+            - name: 在 Power BI 服务中获取通知
+              href: end-user-notification-center.md
         - name: 获取数据
           items:
             - name: Power BI 中的“应用”
