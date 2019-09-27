@@ -7,15 +7,15 @@ ms.reviewer: chbraun
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 08/15/2019
+ms.date: 09/16/2019
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 258dd735c5ba97122d9e93f888e65cf2030f01eb
-ms.sourcegitcommit: 4d5166944fcc6fe4666cab055ae75e7a0a77866d
+ms.openlocfilehash: ace40fed472dc516cce5a761544cc5365566f3cd
+ms.sourcegitcommit: a97c0c34f888e44abf4c9aa657ec9463a32be06f
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/16/2019
-ms.locfileid: "69530481"
+ms.lasthandoff: 09/17/2019
+ms.locfileid: "71074124"
 ---
 # <a name="intro-to-datasets-across-workspaces-preview"></a>跨工作区使用数据集简介（预览）
 
@@ -23,7 +23,7 @@ ms.locfileid: "69530481"
 
 ![选择共享数据集](media/service-datasets-across-workspaces/power-bi-select-shared-dataset.png)
 
-在 Power BI 中，数据集创建者可以使用[生成权限](service-datasets-build-permissions.md#build-permissions-for-shared-datasets)来控制有权访问其数据的人选。 数据集创建者也可以轻松地验证或推广数据集，以便其他人能够发现   。 这样一来，报表作者就知道哪些数据集是高质量的官方数据集，并且可以在 Power BI 中创作的任何位置使用这些数据集。 租户管理员具有新的租户设置，可以[跨工作区治理数据集的使用](service-datasets-admin-across-workspaces.md)。
+在 Power BI 中，数据集创建者可以使用[生成权限](service-datasets-build-permissions.md#build-permissions-for-shared-datasets)来控制有权访问其数据的人选。 数据集创建者也可以轻松地验证或推广数据集，以便其他人能够发现。 这样一来，报表作者就知道哪些数据集是高质量的官方数据集，并且可以在 Power BI 中创作的任何位置使用这些数据集。 租户管理员具有新的租户设置，可以[跨工作区治理数据集的使用](service-datasets-admin-across-workspaces.md)。
 
 ## <a name="dataset-sharing-and-the-new-workspace-experience"></a>数据集共享和新的体验工作区
 
@@ -55,6 +55,7 @@ ms.locfileid: "69530481"
 基于共享数据集功能生成的特定功能和体验是根据其现有场景进行授权的。 例如：
 
 - 一般来说，任何人都可以发现和连接到共享数据集。 但没有 Pro 许可证的用户只能连接到位于其“我的工作区”中的数据集。
+- 如果两个工作区（包一个含内容的工作区和一个包含数据集的工作区）都托管在高级容量中，那么没有 Pro 许可证的用户只能使用在共享数据集上生成的报表和仪表板。
 - 在 Power BI Desktop 中，没有 Pro 许可证的用户只能看到其“我的工作区”中的数据集。
 - 在工作区之间复制报表需要 Pro 许可证。
 - 复制应用的报表需要 Pro 许可证，组织内容包也需要。
@@ -66,7 +67,7 @@ ms.locfileid: "69530481"
 - 假设你在工作区 A 中创建一个报表，该表基于工作区 B 中的数据集。当你为工作区 A 创建应用时，如果你也是工作区 B 的成员，则只能在工作区 A 应用中包含该报表。
 - 在经典工作区中，数据集发现体验仅显示该工作区中的数据集。
 - 如果想将基于共享数据集的报表添加到应用，则你必须是数据集工作区的成员。 这是已知问题。
-- “发布到 Web”不适用于基于共享数据集的报表。 这是由设计决定的。
+- 按照设计，“发布到 Web”不适用于基于共享数据集的报表。
 - 如果有两个人是使用共享数据集的工作区的成员，则很可能仅其中一人能够在工作区中查看相关数据集。 只有对数据集至少具有读取权限的人可以查看共享数据集。 
 
 ## <a name="next-steps"></a>后续步骤

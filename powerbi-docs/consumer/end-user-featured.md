@@ -5,29 +5,28 @@ author: mihart
 manager: kvivek
 ms.reviewer: ''
 featuredvideoid: G26dr2PsEpk
-ms.custom: seodec18
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 05/14/2019
+ms.date: 09/14/2019
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 7222f13d5ee4f25d7d55655bb5a7e5f2f28c77d4
-ms.sourcegitcommit: 52aa112ac9194f4bb62b0910c4a1be80e1bf1276
+ms.openlocfilehash: 5251bf34d7467c2727cdac83c6f6f9faf59aa888
+ms.sourcegitcommit: 200291eac5769549ba5c47ef3951e2f3d094426e
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "65608661"
+ms.lasthandoff: 09/19/2019
+ms.locfileid: "71141279"
 ---
-# <a name="featured-dashboards-in-power-bi-service"></a>Power BI 服务中的特色仪表板
+# <a name="featured-dashboards-in-the-power-bi-service"></a>Power BI 服务中的特色仪表板
 ## <a name="create-a-featured-dashboard"></a>创建特色仪表板
 许多人都有一个访问次数最多的仪表板。  它可能是用于经营业务的仪表板，或者也可能是包含聚合了来自许多仪表板和报表的磁贴的仪表板。
 
 ![设置为精选图标](./media/end-user-featured/power-bi-dropdown.png)
 
-在选择一个仪表板作为精选仪表板后，每次打开 Power BI 服务时，将同时显示并打开该仪表板  。  
+在选择一个仪表板作为精选仪表板后，每次打开 Power BI 服务时，将同时显示并打开该仪表板。  
 
-也可以选择几个仪表板，并将它们设置为收藏项  。 请参阅[仪表板收藏](end-user-favorite.md)。
+也可以选择几个仪表板，并将它们设置为收藏项。 请参阅[仪表板收藏](end-user-favorite.md)。
 
 如果尚未设置精选仪表板，Power BI 会打开最近使用的仪表板或 Power BI 主页。  
 
@@ -38,8 +37,8 @@ ms.locfileid: "65608661"
 
 
 
-1. 打开想要设置为“精选”  的仪表板。 
-2. 在顶部菜单栏中，选择省略号 (...) 并选择“设置为精选仪表板”  。  
+1. 打开想要设置为“精选”的仪表板。 
+2. 在顶部菜单栏中，选择省略号 (...) 并选择“设置为精选仪表板”。  
    
     ![设置为精选图标](./media/end-user-featured/power-bi-dropdown.png)
 3. 确认选择。
@@ -52,7 +51,7 @@ ms.locfileid: "65608661"
 1. 按照上述步骤 1 和 2 执行操作。
    
     ![更改精选仪表板窗口](./media/end-user-featured/power-bi-change-feature.png)
-2. 选择“设置为精选”  。 取消某个仪表板的“特色”并不会将它从工作区中删除。  
+2. 选择“设置为精选”。 取消某个仪表板的“特色”并不会将它从 Power BI 中删除。  
    
     ![成功消息](./media/end-user-featured/power-bi-unfeature-new.png)
 
@@ -60,7 +59,7 @@ ms.locfileid: "65608661"
 如果你决定不将任何仪表板指定作为精选仪表板，下面介绍了如何取消设置为精选的仪表板。
 
 1. 打开最近设置为精选的仪表板。
-2. 在顶部菜单栏中，选择省略号 (...) 并选择“禁用精选仪表板”  。
+2. 在顶部菜单栏中，选择省略号 (...) 并选择“禁用精选仪表板”。
 
     ![禁用所选的精选仪表板](./media/end-user-featured/power-bi-unfeature-newer.png)
    

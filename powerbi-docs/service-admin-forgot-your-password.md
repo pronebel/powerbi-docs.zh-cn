@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 05/14/2019
+ms.date: 09/13/2019
 ms.author: mblythe
 LocalizationGroup: Troubleshooting
-ms.openlocfilehash: 855fae9f23527c47802eef6dac2ded5ffcc8b786
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 6b3e75b9674a8b22948bdee1b8f8b9086eb2b691
+ms.sourcegitcommit: a97c0c34f888e44abf4c9aa657ec9463a32be06f
+ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "65710339"
+ms.lasthandoff: 09/17/2019
+ms.locfileid: "71075181"
 ---
 # <a name="forgot-your-password-for-power-bi"></a>忘记了 Power BI 的密码？
 
@@ -23,15 +23,15 @@ ms.locfileid: "65710339"
 
 <https://passwordreset.microsoftonline.com>
 
-如果系统告知你的帐户不设置了密码重置，请联系你的 Office 365 管理员。如果您使用的免费试用版，管理员是注册你的组织中的第一个人员。
+如果你知道你的帐户未设置为进行密码重置，请与你的 Office 365 管理员联系。如果你使用的是免费试用版，则管理员是组织中进行注册的第一个人员。
 
-如果仍遇到访问你的帐户的问题，可以尝试与支持团队联系，获取密码重置。
+如果在访问帐户时仍存在问题，可以尝试与支持团队联系以进行密码重置。
 
 *1-800-642-7676*
 
-请务必注意此电话号码不是 Power BI 服务支持数字。
+请务必注意，此电话号码不是 Power BI 服务支持号码。
 
 > [!NOTE]
-> Power BI 提供了常用在东部标准时间 (EST) 时区的营业时间支持。 支持目前仅在提供的英语。
+> Power BI 在东部标准时间 (EST) 时区的正常营业时间内提供支持。 目前仅以英语提供支持。
 
 更多问题？ [尝试咨询 Power BI 社区](http://community.powerbi.com/)

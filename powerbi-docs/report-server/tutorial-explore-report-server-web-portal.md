@@ -11,7 +11,7 @@ ms.date: 05/06/2019
 ms.author: maggies
 ms.openlocfilehash: d30a396eeb4d461d7c36cecf9759306236810cab
 ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: zh-CN
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "65240084"
@@ -37,7 +37,7 @@ ms.locfileid: "65240084"
 
 幸运的是，Power BI 团队已创建已安装的 Power BI 报表服务器附带的 VM。
 
-1. 在 Azure Marketplace 中，选择 Power BI 报表服务器。 此链接会直接打开它：[Power BI 报表服务器](https://azuremarketplace.microsoft.com/marketplace/apps/reportingservices.technical-preview?tab=Overview)。  
+1. 在 Azure 市场中，选择“Power BI 报表服务器”。 可以通过以下链接直接打开：[Power BI 报表服务器](https://azuremarketplace.microsoft.com/marketplace/apps/reportingservices.technical-preview?tab=Overview)。  
 
 2. 选择“立即获取”  。
 3. 若要同意提供商的使用条款和隐私策略，请选择“继续”  。
@@ -46,13 +46,13 @@ ms.locfileid: "65240084"
 
     ![创建 Power BI 报表服务器 VM](media/tutorial-explore-report-server-web-portal/power-bi-report-server-create.png)
 
-5. 在**步骤 1 的基础知识**，对于**VM 名称**，称之为**reportservervm**。
+5. 在步骤 1“的基本信息”中，对于 VM 名称，将其命名为 reportservervm    。
 
-    Power BI 报表服务器虚拟机名称不能包含短划线。
+    Power BI 报表服务器 VM 名称不能包含短划线。
 
 5. 创建用户名和密码。
 
-6. 有关**资源组**，选择**新建**，并调用它**reportserverresourcegroup** > **确定**。
+6. 对于“资源组”  ，选择“新建”  ，并将其命名为 reportserverresourcegroup  > “确定”   。
 
     如果要多次参阅本教程，则需要在该资源组首次出现之后为其指定一个其他名称。 不能在同一个订阅中两次都使用相同的资源组名称。 
 
@@ -60,15 +60,15 @@ ms.locfileid: "65240084"
 
 7. 保留其他默认值 >“确定”  。
 
-8. 在中**步骤 2 设置**，保留默认值 >**确定**。
+8. 在步骤 2 的“设置”  中，保留默认值 >“确定”  。
  
-    **SQL 存储帐户**并**诊断存储帐户**值也必须唯一。 如果超过一次完成以下教程，您需要为其提供不同的名称。
+    “SQL 存储帐户”  和“诊断存储帐户”  的值也必须是唯一的。 如果要多次参阅本教程，则需要为其指定其他名称。
 
-9. 在中**步骤 3 摘要**，查看所选内容 >**确定**。
+9. 在步骤 3 的“摘要”中，查看选择内容  >“确定”  。
 
-10. 在中**步骤 4 购买**，查看用户和隐私策略条款 >**创建**。
+10. 在步骤 4的“购买”中  ，查看用户条款和隐私策略 >“创建”  。
 
-    **正在提交的 Power BI 报表服务器部署**过程可能需要几分钟的时间。
+    提交 Power BI 报表服务器的部署  过程可能需要几分钟的时间。
 
 ## <a name="connect-to-your-virtual-machine"></a>连接到虚拟机
 
@@ -84,13 +84,13 @@ ms.locfileid: "65240084"
 
     ![连接到虚拟机](media/tutorial-explore-report-server-web-portal/power-bi-report-server-connect-to-virtual-machine.png)
 
-5. 在中**连接到虚拟机**窗格中，保留默认值，然后选择**下载 RDP 文件**。
+5. 在“连接到虚拟机”  窗格中，保留默认设置，并选择“下载 RDP 文件”  。
 
-1. 在中**远程桌面连接**对话框中，选择**Connect**。
+1. 在“远程桌面连接”对话框中，选择“连接”   。
 
 6. 输入为 VM 创建的名称和密码 >“确定”  。
 
-7. 下一步对话框中显示**无法识别的远程计算机的标识**。 选择“是”  。
+7. 下一个对话框将显示“无法识别远程计算机的标识”  。 选择“是”  。
 
    随即将打开新的 VM。
 
@@ -104,7 +104,7 @@ ms.locfileid: "65240084"
 |---------|---------|
 |![编号 1](media/tutorial-explore-report-server-web-portal/number-1.png) | 抽样 Power BI (.PBIX) 报表 |
 |![编号 2](media/tutorial-explore-report-server-web-portal/number-2.png) | 链接到 Power BI 报表服务器文档 |
-|![编号 3](media/tutorial-explore-report-server-web-portal/number-3.png) | 启动 Power BI Desktop 更适合 Power BI 报表服务器 (2019 年 1 月) |
+|![编号 3](media/tutorial-explore-report-server-web-portal/number-3.png) | 启动更适合 Power BI 报表服务器的 Power BI Desktop（2019 年 1 月） |
 |![编号 4](media/tutorial-explore-report-server-web-portal/number-4.png) | 在浏览器中打开 Power BI 报表服务器 Web 门户 |
 |![编号 5](media/tutorial-explore-report-server-web-portal/number-5.png) | 启动 SQL Server Data Tools，用于创建分页 (.RDL) 报表 |
 
@@ -163,7 +163,7 @@ ms.locfileid: "65240084"
 
 1. 选择“允许”  以允许此网站打开计算机上的程序。 
 
-     随即在 Power BI Desktop 中打开报表。 请注意顶部栏中，"Power BI Desktop (2019 年 1 月)"中的名称。 这是更适合 Power BI 报表服务器的版本。
+     随即在 Power BI Desktop 中打开报表。 请记住上栏中的名称，“Power BI Desktop（2019 年 1 月）”。 这是更适合 Power BI 报表服务器的版本。
 
     使用安装在 VM 上的 Power BI Desktop 版本。 不能跨域上传报表。
 

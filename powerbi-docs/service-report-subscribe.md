@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 08/29/2019
 ms.author: maggies
 LocalizationGroup: Common tasks
-ms.openlocfilehash: 38e393a07defcf572d06f00c14ff8e4efa3081cc
-ms.sourcegitcommit: b53a6f5575f5f8bc443ecdca9c72525ce123518f
+ms.openlocfilehash: 2c08736e23568675af87e7de63092fff3a6a86c5
+ms.sourcegitcommit: a97c0c34f888e44abf4c9aa657ec9463a32be06f
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/30/2019
-ms.locfileid: "70185714"
+ms.lasthandoff: 09/17/2019
+ms.locfileid: "71073423"
 ---
 # <a name="subscribe-yourself-and-others-to-reports-and-dashboards-in-the-power-bi-service"></a>在 Power BI 服务中为自己和他人订阅报表和仪表板
 
@@ -28,7 +28,7 @@ ms.locfileid: "70185714"
 
 ## <a name="requirements"></a>要求
 
-创建  订阅可由以下人员完成：
+创建订阅可由以下人员完成：
 
 - 有 Power BI Pro 许可证的用户
 - 在 Premium 工作区或应用中查看内容的用户，即使没有 Power BI Pro 许可证，也可以订阅其中的内容。
@@ -44,41 +44,41 @@ ms.locfileid: "70185714"
 ![选择“订阅”图标](media/service-report-subscribe/power-bi-subscribe-orientation.png)。
 
 1. 打开仪表板或报表。
-2. 在顶部菜单栏中，选择“订阅”  或信封图标 ![订阅图标](media/service-report-subscribe/power-bi-icon-envelope.png)。
+2. 在顶部菜单栏中，选择“订阅”或信封图标 ![订阅图标](media/service-report-subscribe/power-bi-icon-envelope.png)。
    
    ![订阅图标](media/service-report-subscribe/power-bi-subscribe-icon.png)
 
-3. 使用黄色滑块可启用和禁用订阅。  将滑块设置为“关”  不会删除订阅。 若要删除订阅，请选择垃圾桶图标。
+3. 使用黄色滑块可启用和禁用订阅。  将滑块设置为“关”不会删除订阅。 若要删除订阅，请选择垃圾桶图标。
 
-4. 电子邮件已存在于“订阅”  框中。 还可以向订阅添加其他电子邮件地址，但是只能处于相同域中。 如果报表或仪表板托管在[高级容量](service-premium-what-is.md)中，则可为其他个人电子邮件地址和组别名订阅。 如果报表或仪表板未托管在高级容量中，则可为其他个人订阅，但他们必须具有 Power BI Pro 许可证。 有关详细信息，请参阅下面的[注意事项和疑难解答](#considerations-and-troubleshooting)。 
+4. 电子邮件已存在于“订阅”框中。 还可以向订阅添加其他电子邮件地址，但是只能处于相同域中。 如果报表或仪表板托管在[高级容量](service-premium-what-is.md)中，则可为其他个人电子邮件地址和组别名订阅。 如果报表或仪表板未托管在高级容量中，则可为其他个人订阅，但他们必须具有 Power BI Pro 许可证。 有关详细信息，请参阅下面的[注意事项和疑难解答](#considerations-and-troubleshooting)。 
 
-5. 填写电子邮件“主题”  和“邮件”  详细信息。 
+5. 填写电子邮件“主题”和“邮件”详细信息。 
 
-5. 选择订阅的“频率”  ：“每天”、“每小时”、“每周”、“每月”或“数据刷新后(每天)”      。  要仅在某些天接收订阅电子邮件，请选择“每小时”或“每周”，然后选择要在哪几天接收电子邮件   。  例如，如果要仅在工作日收到订阅电子邮件，则选择“每周”，并清除“周六”和“周日”的对应框    。  如果选择“每月”  ，请输入要接收订阅邮件的月份的日期。  
+5. 选择订阅的“频率”：“每天”、“每小时”、“每周”、“每月”或“数据刷新后(每天)”。  要仅在某些天接收订阅电子邮件，请选择“每小时”或“每周”，然后选择要在哪几天接收电子邮件。  例如，如果要仅在工作日收到订阅电子邮件，则选择“每周”，并清除“周六”和“周日”的对应框。  如果选择“每月”，请输入要接收订阅邮件的月份的日期。  
 
-6. 如果选择“每天”、“每小时”、“每月”或“每周”，则还可以为订阅选择“计划时间”     。  可使它按小时运行，或在过去 15、30 或 45 分钟时运行。  选择早上 (AM) 或下午/晚上 (PM)。 还可以指定时区。  如果选择“每小时”，选择你希望订阅开始的“计划时间”之后，将在该时间后每小时运行一次   。
+6. 如果选择“每天”、“每小时”、“每月”或“每周”，则还可以为订阅选择“计划时间”。  可使它按小时运行，或在过去 15、30 或 45 分钟时运行。  选择早上 (AM) 或下午/晚上 (PM)。 还可以指定时区。  如果选择“每小时”，选择你希望订阅开始的“计划时间”之后，将在该时间后每小时运行一次。
 
 7. 默认情况下，订阅的开始日期是创建它的日期。 可以选择结束日期。 如果未设置结束日期，则结束日期自动是开始日期之后一年。 可以在订阅结束之前的任何时间将它更改为将来的任何日期（最多到 9999 年）。 当订阅达到结束日期时，它会停止，直到重新启用。 你会在计划结束日期之前收到通知，询问是否要延长它。    
 
-    在以下屏幕截图中，请注意订阅报表实际上订阅的是报表页  。  要订阅报表中的多个页，请选择“添加其他订阅”并选择另一页  。 
+    在以下屏幕截图中，请注意订阅报表实际上订阅的是报表页。  要订阅报表中的多个页，请选择“添加其他订阅”并选择另一页。 
       
    ![“订阅”窗格](media/service-report-subscribe/power-bi-subscribe-pane.png)  
 
-7. 选择“保存并关闭”  。 订阅者会按所选频率和时间收到仪表板或报表页的电子邮件和快照。 总共可以创建对每个报表或仪表板创建最多 24 个订阅，并可以为每个订阅提供独有的收件人、时间和频率。  对仪表板或报表设置为“数据刷新后”  的所有订阅仍然只会在第一次计划刷新之后发送电子邮件。   
+7. 选择“保存并关闭”。 订阅者会按所选频率和时间收到仪表板或报表页的电子邮件和快照。 总共可以创建对每个报表或仪表板创建最多 24 个订阅，并可以为每个订阅提供独有的收件人、时间和频率。  对仪表板或报表设置为“数据刷新后”的所有订阅仍然只会在第一次计划刷新之后发送电子邮件。   
       
    > [!TIP]
-   > 想立即通过订阅或随时按需发送电子邮件吗？ 选择“立即运行”以获取要发送的仪表板或报表的订阅  。 你将看到一封电子邮件正发送给每个人的通知，通知内容是关于该特定订阅的。  执行此操作不计入每天每个报表或仪表板的 24 次预定订阅运行的限制。 这不会引起基础数据集的数据刷新。 
+   > 想立即通过订阅或随时按需发送电子邮件吗？ 选择“立即运行”以获取要发送的仪表板或报表的订阅。 你将看到一封电子邮件正发送给每个人的通知，通知内容是关于该特定订阅的。  执行此操作不计入每天每个报表或仪表板的 24 次预定订阅运行的限制。 这不会引起基础数据集的数据刷新。 
    > 
    > 
    
 ## <a name="email-languages"></a>电子邮件语言
 
-电子邮件和快照将使用在 Power BI 设置中设置的语言（请参阅 [Power BI 的支持语言和国家/地区](supported-languages-countries-regions.md)）。 如果未定义任何语言，Power BI 会根据当前浏览器中的区域设置使用语言。 要查看或设置语言首选项，请选择齿轮图标 ![齿轮图标](media/service-report-subscribe/power-bi-settings-icon.png) > “设置”>“常规”>“语言”  。 
+电子邮件和快照将使用在 Power BI 设置中设置的语言（请参阅 [Power BI 的支持语言和国家/地区](supported-languages-countries-regions.md)）。 如果未定义任何语言，Power BI 会根据当前浏览器中的区域设置使用语言。 要查看或设置语言首选项，请选择齿轮图标 ![齿轮图标](media/service-report-subscribe/power-bi-settings-icon.png) > “设置”>“常规”>“语言”。 
 
 ![语言下拉列表](media/service-report-subscribe/power-bi-language.png)
 
 ## <a name="manage-your-subscriptions"></a>管理订阅
-仅订阅创建者可管理该订阅。  订阅管理屏幕的路径有两个。  第一个是选择“订阅电子邮件”对话框中的“管理所有订阅”（请参阅上述第 4 步下方的屏幕快照）   。 第二个是选择顶部菜单栏中的 Power BI 齿轮图标 ![齿轮图标](media/service-report-subscribe/power-bi-settings-icon.png)，然后选择“设置”。 
+仅订阅创建者可管理该订阅。  订阅管理屏幕的路径有两个。  第一个是选择“订阅电子邮件”对话框中的“管理所有订阅”（请参阅上述第 4 步下方的屏幕快照）。 第二个是选择顶部菜单栏中的 Power BI 齿轮图标 ![齿轮图标](media/service-report-subscribe/power-bi-settings-icon.png)，然后选择“设置”。
 
 ![选择“设置”](media/service-report-subscribe/power-bi-subscribe-settings.png)
 

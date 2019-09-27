@@ -11,18 +11,18 @@ ms.topic: conceptual
 ms.date: 6/4/2019
 ms.author: gepopell
 LocalizationGroup: Reports
-ms.openlocfilehash: e30a79796fd4d5538406a85a3297a23b2c09a61a
-ms.sourcegitcommit: 81ba3572531cbe95ea0b887b94e91f94050f3129
+ms.openlocfilehash: d21199d8960df4db5027115704533bd3d5d8097c
+ms.sourcegitcommit: 200291eac5769549ba5c47ef3951e2f3d094426e
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/06/2019
-ms.locfileid: "66751400"
+ms.lasthandoff: 09/19/2019
+ms.locfileid: "71142265"
 ---
 # <a name="troubleshooting-nested-values-returned-as-text-in-power-bi-service"></a>对 Power BI 服务中作为文本返回的嵌套值进行故障排除
 
 ## <a name="cause"></a>原因
 
-过去曾发生过这样的情况：Power BI 报表在桌面上可正常刷新，但在 Power BI 服务上刷新失败，并收到错误“无法将值‘[Table]’转换为 Table 类型”。 导致此错误的原因之一是，数据隐私防火墙（链接此处？）缓冲数据源时，嵌套的非标量值（如表、记录、列表和函数）会自动转换为文本值（如“[Table]”或“[Record]”）。
+过去曾发生过这样的情况：Power BI 报表在桌面上可正常刷新，但在 Power BI 服务上刷新失败，并收到错误“无法将值‘[Table]’转换为 Table 类型”。 导致此错误的原因之一是，数据隐私防火墙缓冲数据源时，嵌套的非标量值（如表、记录、列表和函数）会自动转换为文本值（如“[Table]”或“[Record]”）。
 
 现在 Power BI 服务支持设置隐私级别（或完全关闭防火墙），可以通过将 Power BI 服务中的[数据源隐私设置配置为](https://powerbi.microsoft.com/en-us/blog/privacy-levels-for-cloud-data-sources/)非专用，避免发生此类错误。
 

@@ -13,14 +13,14 @@ ms.date: 08/10/2017
 LocalizationGroup: Data from databases
 ms.openlocfilehash: 51efec6c78dbb29b9c3dc760284c7bb3c8711bdc
 ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: zh-CN
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "64769930"
 ---
 # <a name="sql-server-analysis-services-live-data-in-power-bi"></a>Power BI 中的 SQL Server Analysis Services 实时数据
 
-在 Power BI 中，有两种方法可以连接到实时的 SQL Server Analysis Services 服务器。 获取数据  时，可以连接到 SQL Server Analysis Services 服务器，或者可以连接到已连接到 Analysis Services 服务器的 [Power BI Desktop 文件](service-desktop-files.md)或 [Excel 工作簿](service-excel-workbook-files.md)。 根据最佳做法，Microsoft 强烈建议使用 Power BI Desktop，因为它提供丰富的工具集，并且能够在本地维护 Power BI Desktop 文件的备份副本。
+在 Power BI 中，有两种方法可以连接到实时的 SQL Server Analysis Services 服务器。 获取数据时，可以连接到 SQL Server Analysis Services 服务器，或者可以连接到已连接到 Analysis Services 服务器的 [Power BI Desktop 文件](service-desktop-files.md)或 [Excel 工作簿](service-excel-workbook-files.md)。 根据最佳做法，Microsoft 强烈建议使用 Power BI Desktop，因为它提供丰富的工具集，并且能够在本地维护 Power BI Desktop 文件的备份副本。
 
 >[!IMPORTANT]
 > * 若要连接到实时的 Analysis Services 服务器，管理员必须安装并配置本地数据网关。 有关详细信息，请参阅[本地数据网关](service-gateway-onprem.md)。
@@ -29,9 +29,9 @@ ms.locfileid: "64769930"
 
 ## <a name="to-connect-to-a-model-from-get-data"></a>要在获取数据时连接到一个模型
 
-1. 在“我的工作区”  中，选择“获取数据”  。 你还可以切换到组工作区中，如果有的话。
+1. 在“我的工作区”中，选择“获取数据”。 你还可以切换到组工作区中，如果有的话。
 
-   ![连接到获取数据按钮](media/sql-server-analysis-services-tabular-data/connecttoas_getdatabutton.png)
+   ![“连接以获取数据”按钮](media/sql-server-analysis-services-tabular-data/connecttoas_getdatabutton.png)
 
 2. 选择**数据库和其他**。
 

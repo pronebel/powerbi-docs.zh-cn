@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 07/26/2019
 ms.author: mblythe
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 9047ae7f74a7589d242531a5af18f6094c2b03a6
-ms.sourcegitcommit: f05ba39a0e46cb9cb43454772fbc5397089d58b4
+ms.openlocfilehash: 1c8c65d9b0f0b669d46d73d739be24f29f623743
+ms.sourcegitcommit: 4222ebad1a3a32d8040f6a615a0b7f173d7869d0
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/26/2019
-ms.locfileid: "68523932"
+ms.lasthandoff: 09/20/2019
+ms.locfileid: "71164470"
 ---
 # <a name="enable-encryption-for-sap-hana"></a>启用 SAP HANA 加密
 
@@ -41,7 +41,7 @@ ms.locfileid: "68523932"
 
 1. 使用 SSH，连接到以 \<sid\>adm 身份运行 HANA 服务器的 Linux 计算机。
 
-1. 进入主页目录 _/_usr/sap/\<sid\>/home  。
+1. 进入主页目录 _/_usr/sap/\<sid\>/home。
 
 1. 创建一个名为 _.__ssl_ 的隐藏目录（如果尚不存在）。
 
@@ -83,7 +83,7 @@ ms.locfileid: "68523932"
 
     客户端必须首先信任用于对 HANA 服务器 X509 证书进行签名的 CA，之后才可从该客户端的计算机建立与 HANA 服务器的加密连接。
 
-    无论使用 Microsoft 管理控制台 (MMC) 还是命令行，均可采用多种方法确保存在此信任关系。 可以将 CA 的 X509 证书 (trust.pem) 导入要建立连接的用户的“受信任的根证书颁发机构”文件夹，或者根据需要，其导入客户端计算机本身的相同文件夹中  。
+    无论使用 Microsoft 管理控制台 (MMC) 还是命令行，均可采用多种方法确保存在此信任关系。 可以将 CA 的 X509 证书 (trust.pem) 导入要建立连接的用户的“受信任的根证书颁发机构”文件夹，或者根据需要，其导入客户端计算机本身的相同文件夹中。
 
     ![“受信任的根证书颁发机构”文件夹](media/desktop-sap-hana-encryption/trusted-root-certification.png)
 
@@ -99,7 +99,7 @@ ms.locfileid: "68523932"
 
 在 Power BI Desktop 或 Power BI 服务中测试连接。
 
-1. 先确保已在 Power BI Desktop 中或者在 Power BI 服务的“管理网关”页面中启用了“验证服务器证书”，再尝试与 SAP HANA 服务器建立连接   。 对于 SSL 加密提供程序，如果已采用 OpenSSL 设置步骤，请选择 mscrypto；如果已将该库配置为加密提供程序，请选择 commoncrypto  。 请将 SSL 密钥存储和 SSL 信任存储字段留空。
+1. 先确保已在 Power BI Desktop 中或者在 Power BI 服务的“管理网关”页面中启用了“验证服务器证书”，再尝试与 SAP HANA 服务器建立连接。 对于 SSL 加密提供程序，如果已采用 OpenSSL 设置步骤，请选择 mscrypto；如果已将该库配置为加密提供程序，请选择 commoncrypto。 请将 SSL 密钥存储和 SSL 信任存储字段留空。
 
     - Power BI Desktop
 
@@ -109,4 +109,4 @@ ms.locfileid: "68523932"
 
         ![验证服务器证书 - Desktop](media/desktop-sap-hana-encryption/validate-server-certificate-desktop.png)
 
-1. 通过在 Power BI Desktop 中加载数据或在 Power BI 服务中刷新已发布的报表，检查在启用“验证服务器证书”选项的情况下是否可以成功与服务器建立加密连接  。
+1. 通过在 Power BI Desktop 中加载数据或在 Power BI 服务中刷新已发布的报表，检查在启用“验证服务器证书”选项的情况下是否可以成功与服务器建立加密连接。

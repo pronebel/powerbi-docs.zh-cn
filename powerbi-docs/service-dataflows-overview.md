@@ -12,22 +12,22 @@ ms.author: davidi
 LocalizationGroup: Data from files
 ms.openlocfilehash: 55571cda4558b5dd9ba28f757f6e11ad4b45f939
 ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: zh-CN
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "61136350"
 ---
-# <a name="self-service-data-prep-in-power-bi"></a>在 Power BI 中的自助服务数据准备
+# <a name="self-service-data-prep-in-power-bi"></a>Power BI 中的自助服务数据准备
 
-随着数据量的不断增长，将数据转换为格式正确且可操作信息的挑战也随之增加。 我们希望数据已准备好用于分析，可填充视觉效果、报告和仪表板，以便我们可以快速将数据量转化为可操作的见解。 借助 Power BI 中针对大数据的自助服务数据准备  ，用户只需单击几下即可将数据转换成 Power BI 见解。
+随着数据量的不断增长，将数据转换为格式正确且可操作信息的挑战也随之增加。 我们希望数据已准备好用于分析，可填充视觉效果、报告和仪表板，以便我们可以快速将数据量转化为可操作的见解。 借助 Power BI 中针对大数据的自助服务数据准备，用户只需单击几下即可将数据转换成 Power BI 见解。
 
 ![在 Power BI 中使用数据流](media/service-dataflows-overview/powerbi-dataflows_01.png)
 
-Power BI 引入数据流  ，以帮助组织统一来自不同来源的数据并为建模做好数据准备。 分析人员可以使用熟悉的自助服务工具轻松创建数据流。 数据流用于通过定义数据源连接、ETL 逻辑、刷新计划等来引入、转换、集成和丰富大数据。 此外，作为数据流一部分的新模型驱动计算引擎使数据准备过程更易于管理且更具决定性，并且对于数据分析人员和报表创建者等来说都不那么麻烦。 与电子表格处理所有受影响公式的重新计算类似，数据流代表用户管理实体或数据元素的更改，自动更新，并缓解曾经甚至对基本数据刷新也很繁琐且耗时的逻辑检查。 通过数据流，分析人员和报告创建者只需单击几下即可处理曾经需要数据科学家监督（且需要几个小时或几天才能完成）的任务。 
+Power BI 引入数据流，以帮助组织统一来自不同来源的数据并为建模做好数据准备。 分析人员可以使用熟悉的自助服务工具轻松创建数据流。 数据流用于通过定义数据源连接、ETL 逻辑、刷新计划等来引入、转换、集成和丰富大数据。 此外，作为数据流一部分的新模型驱动计算引擎使数据准备过程更易于管理且更具决定性，并且对于数据分析人员和报表创建者等来说都不那么麻烦。 与电子表格处理所有受影响公式的重新计算类似，数据流代表用户管理实体或数据元素的更改，自动更新，并缓解曾经甚至对基本数据刷新也很繁琐且耗时的逻辑检查。 通过数据流，分析人员和报告创建者只需单击几下即可处理曾经需要数据科学家监督（且需要几个小时或几天才能完成）的任务。 
 
-数据作为实体存储在 Azure Data Lake Storage Gen2 中的[通用数据模型  ](https://docs.microsoft.com/powerapps/common-data-model/overview)中。 使用 Power BI 服务在应用工作区中创建和管理数据流。  
+数据作为实体存储在 Azure Data Lake Storage Gen2 中的[通用数据模型](https://docs.microsoft.com/powerapps/common-data-model/overview)中。 使用 Power BI 服务在应用工作区中创建和管理数据流。  
  
-数据流  设计为使用通用数据模型  ，该模式是 Microsoft 发布的标准化数据架构集合，它采用模块化结构，可进行扩展，旨在简化生成、使用和分析数据的过程。 使用此模型，用户可以不费摧毁之力将数据源导入到 Power BI 仪表板。
+数据流设计为使用通用数据模型，该模式是 Microsoft 发布的标准化数据架构集合，它采用模块化结构，可进行扩展，旨在简化生成、使用和分析数据的过程。 使用此模型，用户可以不费摧毁之力将数据源导入到 Power BI 仪表板。
 
 用户可以使用数据流从大型且不断增长的受支持的本地和基于云的数据源（包括 Dynamics 365、Salesforce、Azure SQL 数据库、Excel、SharePoint 等）中引入数据。
 
@@ -76,7 +76,7 @@ Power BI 还可以使用通用数据模型格式的系统化数据连接到文�
 
 |数据流功能 | Power BI Pro |   Power BI Premium |
 |---------|---------|---------|
-|计划内刷新| 每天 8 次|  48|
+|计划的刷新| 每天 8 次|  48|
 |存储总量| 10 GB/用户  |100 TB/节点|
 |使用 Power Query Online 进行数据流创作|    +   |+|
 |Power BI 中的数据流管理|   +|  +|
@@ -92,14 +92,14 @@ Power BI 还可以使用通用数据模型格式的系统化数据连接到文�
 有关如何对高级容量启用数据流工作负载的详细信息，请参阅[在高级容量中配置工作负载](service-admin-premium-workloads.md)。 数据流工作负载当前在多地理位置容量中不可用。
 
 ## <a name="summary-of-self-service-data-prep-for-big-data-in-power-bi"></a>Power BI 中大数据的自助服务数据准备摘要
-如本文前面所述，有多种方案和示例，其中数据流  可以使用户从业务数据中获得更好的控制和更快的见解。 使用通用数据模型定义的标准数据模型（架构），数据流可以导入有价值的业务数据，并且可以在很短的时间内准备好数据以进行建模和创建 BI 见解，而过去这需要几个月的时间，甚至更长的时间才能创建。 
+如本文前面所述，有多种方案和示例，其中数据流可以使用户从业务数据中获得更好的控制和更快的见解。 使用通用数据模型定义的标准数据模型（架构），数据流可以导入有价值的业务数据，并且可以在很短的时间内准备好数据以进行建模和创建 BI 见解，而过去这需要几个月的时间，甚至更长的时间才能创建。 
 
-通过以通用数据模型  的标准化格式存储业务数据，BI 专业人员（或开发人员）可以创建生成快速、简单和自动化视觉对象和报表的应用。 这些包括但不限于：
+通过以通用数据模型的标准化格式存储业务数据，BI 专业人员（或开发人员）可以创建生成快速、简单和自动化视觉对象和报表的应用。 这些包括但不限于：
 
 
 * 将数据映射到通用数据模型中的标准实体，以统一数据并利用已知架构来加快创建马上可以使用的见解
 * 创建自己的自定义实体以统一整个组织中的数据 
-* 使用并刷新外部数据  作为数据流的一部分，并启用该数据的导入以驱动见解
+* 使用并刷新外部数据作为数据流的一部分，并启用该数据的导入以驱动见解
 * 面向开发人员的数据流入门
 
 
@@ -108,8 +108,8 @@ Power BI 还可以使用通用数据模型格式的系统化数据连接到文�
 本文概述了 Power BI 中大数据的自助服务数据准备，以及可以使用它的多种方法。 以下文章详细介绍了数据流的常见使用方案。 
 
 * [在 Power BI 中创建和使用数据流](service-dataflows-create-use.md)
-* [使用 Power BI Premium 上的计算的实体](service-dataflows-computed-entities-premium.md)
-* [数据流中使用的本地数据源](service-dataflows-on-premises-gateways.md)
+* [在 Power BI Premium 上使用计算实体](service-dataflows-computed-entities-premium.md)
+* [将数据流与本地数据源配合使用](service-dataflows-on-premises-gateways.md)
 * [Power BI 数据流的开发人员资源](service-dataflows-developer-resources.md)
 * [数据流和 Azure Data Lake 集成](service-dataflows-azure-data-lake-integration.md)
 

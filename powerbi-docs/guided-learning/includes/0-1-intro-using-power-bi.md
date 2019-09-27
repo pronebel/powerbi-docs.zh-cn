@@ -1,7 +1,7 @@
 ---
 ms.openlocfilehash: 1c000b2bfce4b6eeaa40b1a641321a20cea49d13
 ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: zh-CN
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "66051089"
@@ -17,7 +17,7 @@ Will 将阐述可使用 Power BI 进行的众多操作，请记住所有这些�
 
 ![](media/0-1-intro-using-power-bi/c0a1_1.png)
 
-如上所述，可在 **Power BI 服务**中完成获取数据和创建仪表板等所有操作，完全可以。 你的团队的其他人可能会花费时间的所有**Power BI Desktop**，这样很好过。 为帮助你了解 Power BI 的完整连续性及其可执行的操作，我们将对其进行全面展示... 然后由你决定如何利用它以最大程度地满足你的需求。
+如上所述，可在 **Power BI 服务**中完成获取数据和创建仪表板等所有操作，完全可以。 你的团队中的其他人可能在 Power BI Desktop 中完成各自的所有操作，这也不错。 为帮助你了解 Power BI 的完整连续性及其可执行的操作，我们将对其进行全面展示... 然后由你决定如何利用它以最大程度地满足你的需求。
 
 那么让我们立即开始吧，请让 Will 引导我们完成体验。 第一步工作是了解 Power BI 的基本构建基块，这将为了解 Power BI 如何将数据转变为精彩的报表和视觉对象打下坚实的基础。
 

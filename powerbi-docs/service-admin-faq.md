@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
-ms.date: 11/16/2018
+ms.date: 09/09/2019
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: c32f4b0a03ba751d5b8cbd6e98633275ece9222b
-ms.sourcegitcommit: 6a44cb5b0328b60ebe7710378287f1e20bc55a25
+ms.openlocfilehash: 4ec7a67b861a747f9f8f654ab9fb3fa5c2951af3
+ms.sourcegitcommit: a6602d84c86d3959731a8d0ba39a522914f13d1a
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/10/2019
-ms.locfileid: "70877815"
+ms.lasthandoff: 09/21/2019
+ms.locfileid: "71175185"
 ---
 # <a name="administering-power-bi---frequently-asked-questions-faq"></a>管理 Power BI - 常见问题 (FAQ)
 
@@ -38,6 +38,7 @@ ms.locfileid: "70877815"
 
 * [这会如何更改我当前为组织中的用户管理标识的方式？](#how-will-this-change-the-way-i-manage-identities-for-users-in-my-organization-today)
 * [我们如何管理 Power BI？](#how-do-we-manage-power-bi)
+* [管理 Microsoft 为我的用户创建的租户的过程是怎样的？](#what-is-the-process-to-manage-a-tenant-created-by-microsoft-for-my-users)
 * [如果我有多个域，是否可以控制向其中添加用户的 Office 365 租户？](#if-i-have-multiple-domains-can-i-control-the-office-365-tenant-that-users-get-added-to)
 * [如何为已注册的用户删除 Power BI？](#how-do-i-remove-power-bi-for-users-that-already-signed-up)
 * [如何知道新用户加入了我的租户？](#how-do-i-know-when-new-users-have-joined-my-tenant)
@@ -108,7 +109,7 @@ Set-MsolCompanySettings -AllowEmailVerifiedUsers $true
 
 ### <a name="how-do-i-check-if-i-have-the-block-on-in-the-tenant"></a>如何检查是否在租户中实施了阻止？
 
-使用以下 PowerShell 脚本检查设置。 AllowEmailVerifiedUsers  应为 false。 （[详细了解 PowerShell][1]。）
+使用以下 PowerShell 脚本检查设置。 AllowEmailVerifiedUsers 应为 false。 （[详细了解 PowerShell][1]。）
 
 ```powershell
 $msolcred = get-credential
@@ -119,7 +120,7 @@ Get-MsolCompanyInformation | fl allow*
 
 ### <a name="how-can-i-prevent-my-existing-users-from-starting-to-use-power-bi"></a>如何阻止现有用户开始使用 Power BI？
 
-控制此操作的 Azure AD 设置为 AllowAdHocSubscriptions  。 大多数租户将此设置为 true，这意味着它处于启用状态  。 如果你通过合作伙伴获得 Power BI，则它可能设置为 false，这意味着它处于禁用状态  。
+控制此操作的 Azure AD 设置为 AllowAdHocSubscriptions。 大多数租户将此设置为 true，这意味着它处于启用状态。 如果你通过合作伙伴获得 Power BI，则它可能设置为 false，这意味着它处于禁用状态。
 
 若要禁用临时订阅，请运行以下 PowerShell 脚本。（[详细了解 PowerShell][1]。）
 
@@ -138,14 +139,14 @@ Get-MsolCompanyInformation | fl allow*
      Get-MsolCompanyInformation | fl AllowAdHocSubscriptions
     ```
 
-1. 运行以下命令以启用 (`$true`) 或禁用 (`$false`) AllowAdHocSubscriptions  。
+1. 运行以下命令以启用 (`$true`) 或禁用 (`$false`) AllowAdHocSubscriptions。
 
     ```powershell
      Set-MsolCompanySettings -AllowAdHocSubscriptions $false
     ```
 
 > [!NOTE]
-> 使用 AllowAdHocSubscriptions 标志在组织中控制多个用户功能，包括用户注册 Azure Rights Management 服务的能力  。 更改此标志会影响所有这些功能。 设置为 false 后，用户仍可以注册 Pro 试用版  。
+> 使用 AllowAdHocSubscriptions 标志在组织中控制多个用户功能，包括用户注册 Azure Rights Management 服务的能力。 更改此标志会影响所有这些功能。 设置为 false 后，用户仍可以注册 Pro 试用版。
 
 ### <a name="how-can-i-allow-my-existing-users-to-sign-up-for-power-bi"></a>如何允许现有用户注册 Power BI？
 
@@ -171,7 +172,15 @@ Get-MsolCompanyInformation | fl allow*
 
 Power BI 提供了可便于你查看使用情况统计信息的管理门户，并提供了用于管理用户和组的 Microsoft 365 管理中心链接，同时还支持控制整个租户范围内的设置。
 
-若要使用 Power BI 管理门户，需要在 Office 365 或 Azure Active Directory 中将帐户标记为“全局管理员”，或需要某个人将 Power BI 服务管理员角色分配给你的用户帐户  。 有关详细信息，请参阅[了解 Power BI 管理员角色](service-admin-role.md)和 [ Power BI 管理门户](service-admin-portal.md)。
+若要使用 Power BI 管理门户，需要在 Office 365 或 Azure Active Directory 中将帐户标记为“全局管理员”，或需要某个人将 Power BI 服务管理员角色分配给你的用户帐户。 有关详细信息，请参阅[了解 Power BI 管理员角色](service-admin-role.md)和 [ Power BI 管理门户](service-admin-portal.md)。
+
+### <a name="what-is-the-process-to-manage-a-tenant-created-by-microsoft-for-my-users"></a>管理 Microsoft 为我的用户创建的租户的过程是怎样的？
+
+自助服务用户注册使用 Azure AD 的云服务后，该服务会根据其电子邮件域将其添加到非托管 Azure AD 目录中。 可以声明和管理某人使用“管理员接管”流程创建的租户。 有关详细信息，请参阅[在 Azure Active Directory 中以管理员身份接管非托管目录](/azure/active-directory/users-groups-roles/domains-admin-takeover)。 所执行的接管类型取决于是否现有与域关联的托管租户：
+
+* Power BI 支持内部管理员接管。 当你对非托管 Azure 目录执行内部管理员接管时，会将你添加为非托管目录的全局管理员。 不会将用户、域或服务计划迁移到你管理的任何其他目录。
+
+* Power BI 不再支持外部管理员接管。 当你对非托管 Azure 目录执行外部管理员接管时，会将非托管目录的 DNS 域名添加到托管的 Azure 目录。 添加域名时，将在托管的 Azure 目录中创建用户到资源的映射，以便用户可以继续访问服务而不会中断。
 
 ### <a name="if-i-have-multiple-domains-can-i-control-the-office-365-tenant-that-users-get-added-to"></a>如果我有多个域，是否可以控制向其中添加用户的 Office 365 租户？
 
@@ -190,11 +199,11 @@ Power BI 提供了可便于你查看使用情况统计信息的管理门户，�
 
 1. 找到要删除其许可证的用户，再选择其名称。
 
-    也可以对用户执行批量许可证管理。 为此，请依次选择多个用户和“编辑产品许可证”  。
+    也可以对用户执行批量许可证管理。 为此，请依次选择多个用户和“编辑产品许可证”。
 
-1. 在用户详细信息页上，选择“产品许可证”  旁边的“编辑”  。
+1. 在用户详细信息页上，选择“产品许可证”旁边的“编辑”。
 
-1. 将“Power BI（免费）”或“Power BI Pro”（具体视你应用于帐户的许可证而定）设置为“关”    。
+1. 将“Power BI（免费）”或“Power BI Pro”（具体视你应用于帐户的许可证而定）设置为“关”。
 
 1. 选择**保存**。
 
@@ -206,15 +215,15 @@ Power BI 提供了可便于你查看使用情况统计信息的管理门户，�
 
 1. 在左侧导航栏中，选择**用户**  >  **活动用户**。
 
-1. 在“视图”  菜单上，选择“添加自定义视图”  。
+1. 在“视图”菜单上，选择“添加自定义视图”。
 
-1. 命名新视图，并选择“已分配产品许可证”  下的“Power BI (免费)”  或“Power BI Pro”  。
+1. 命名新视图，并选择“已分配产品许可证”下的“Power BI (免费)”或“Power BI Pro”。
 
-    对每个视图只能选择一个许可证。 如果组织中既有“Power BI (免费)”  许可证，也有“Power BI Pro”  许可证，你可以创建两个视图。
+    对每个视图只能选择一个许可证。 如果组织中既有“Power BI (免费)”许可证，也有“Power BI Pro”许可证，你可以创建两个视图。
 
-1. 输入所需的其他任何条件，再选择“添加”  。
+1. 输入所需的其他任何条件，再选择“添加”。
 
-1. 创建新视图后，便可以使用“视图”菜单访问它  。
+1. 创建新视图后，便可以使用“视图”菜单访问它。
 
 ### <a name="are-there-any-additional-things-i-should-prepare-for"></a>我是否还应为任何其他事项做好准备？
 
@@ -228,7 +237,7 @@ Power BI 提供了可便于你查看使用情况统计信息的管理门户，�
 
 ### <a name="what-is-the-power-bi-sla"></a>什么是 Power BI SLA？
 
-有关 Power BI SLA（服务级别协议）的信息，请参阅 Microsoft 授权网站中“授权”部分内的[授权条款和文档](http://www.microsoftvolumelicensing.com/DocumentSearch.aspx?Mode=3&DocumentTypeId=37)一文  。
+有关 Power BI SLA（服务级别协议）的信息，请参阅 Microsoft 授权网站中“授权”部分内的[授权条款和文档](http://www.microsoftvolumelicensing.com/DocumentSearch.aspx?Mode=3&DocumentTypeId=37)一文。
 
 ### <a name="how-does-power-bi-handle-high-availability-and-failover"></a>Power BI 如何处理高可用性和故障转移？
 

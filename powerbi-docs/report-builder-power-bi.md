@@ -1,28 +1,33 @@
 ---
 title: Power BI 分页报表生成器
 description: Power BI 分页报表生成器是一款用于创作分页报表的工具。
-ms.date: 06/06/2019
+ms.date: 09/16/2019
 ms.service: powerbi
 ms.subservice: report-builder
+featuredvideoid: 78TZeiEhveY
 ms.topic: conceptual
 ms.assetid: 55bf4f9c-d037-412f-ae57-3fc39ce32fa5
 author: maggiesMSFT
 ms.author: maggies
-ms.openlocfilehash: 7ae945be1941fea4303b5cc74f9a2a4f104e8754
-ms.sourcegitcommit: 797bb40f691384cb1b23dd08c1634f672b4a82bb
+ms.openlocfilehash: 6d13871ec3ba8a7550a556a8923893a6b7d676ae
+ms.sourcegitcommit: a97c0c34f888e44abf4c9aa657ec9463a32be06f
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/12/2019
-ms.locfileid: "66840478"
+ms.lasthandoff: 09/17/2019
+ms.locfileid: "71076064"
 ---
 # <a name="power-bi-paginated-report-builder"></a>Power BI 分页报表生成器
 
  Power BI 分页报表生成器是一款用于创作分页报表的工具。  设计分页报表时，将创建一个报表定义，用于指定要检索的数据、获取数据的位置以及显示数据的方式。 运行报表时，报表处理器将获取用户指定的报表定义、检索数据，并将其与报表布局组合以生成报表。 可在报表生成器中预览报表。 然后将报表发布到 Power BI 服务。
 
+更喜欢通过视频学习？ 请观看 YouTube 上由 Power BI 首席项目经理 Chris Finlan 制作的 Power BI 分页报表视频系列。
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/78TZeiEhveY?list=PLx7LcKtN_gq-JVzM6L8xNNxX7kts-KflJ" frameborder="0" allowfullscreen></iframe>
+
+以下分页报表带有一个矩阵（其中包含行组和列组）、迷你图、指标和摘要饼图（角落单元格中），并附有一个地图，其中含两组由颜色和圆圈大小表示的地理数据。  
+
 ![Power BI 服务中的分页报表](media/report-builder-power-bi/report-builder-get-started-paginated-report.png)
 
- 此分页报表带有一个矩阵（其中包含行组和列组）、迷你图、指标和摘要饼图（角落单元格中），并附有一个地图，其中含两组由颜色和圆圈大小表示的地理数据。  
-  
 ##  <a name="JumpStartReptCreation"></a> 快速开始报表创建  
  
 -   **首先使用表、矩阵或图表向导**。 创建数据源连接，拖放字段以创建数据集查询，选择布局和样式，以及自定义报表。  
@@ -52,6 +57,9 @@ ms.locfileid: "66840478"
 -   打开该报表时，或打开报表后，**选择显示格式**。 可以选择面向 Web、面向页的格式以及桌面应用程序格式。 格式包括 MHTML、PDF、XML、CSV、Word 和 Excel。  
   
 -   **设置订阅。** 将报表发布到 Power BI 服务后，可以将报表配置为在特定时间运行并作为电子邮件订阅发送。  
+
 ## <a name="next-steps"></a>后续步骤
 
 - [Power BI Premium 中的分页报表是什么？](paginated-reports-report-builder-power-bi.md)
+
+- 请观看 YouTube 上由 Power BI 首席项目经理 Chris Finlan 制作的 [Power BI 分页报表视频系列](https://www.youtube.com/watch?v=78TZeiEhveY&list=PLx7LcKtN_gq-JVzM6L8xNNxX7kts-KflJ)

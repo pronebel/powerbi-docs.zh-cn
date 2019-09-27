@@ -11,7 +11,7 @@ ms.date: 04/15/2019
 ms.author: davidi
 ms.openlocfilehash: 5c31277b640b16882bef5c5f2cd9c56b441ede82
 ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: zh-CN
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "61329859"
@@ -27,7 +27,7 @@ ms.locfileid: "61329859"
 Key: HKEY_CURRENT_USER\SOFTWARE\Policies\Microsoft\Microsoft Power BI Desktop
 valueName: ShowLeadGenDialog
 ```
-你还可以尝试已成功对一些客户根据其配置的以下项：
+也可以尝试使用以下密钥，根据某些客户的配置，该密钥已成功：
 
 ```
 Key: HKEY_CURRENT_USER\SOFTWARE\Microsoft\Microsoft Power BI Desktop

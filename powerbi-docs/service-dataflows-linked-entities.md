@@ -12,7 +12,7 @@ ms.author: davidi
 LocalizationGroup: Data from files
 ms.openlocfilehash: d766730185a9064241621d15efc9faf31334fe95
 ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: zh-CN
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "61136398"
@@ -21,11 +21,11 @@ ms.locfileid: "61136398"
 
 借助 Power BI 中的数据流，可以拥有一个组织数据存储源，业务分析师可以在其中准备和管理一次数据，然后在组织中的不同分析应用之间重复使用。 
 
-链接数据流之间的实体后，可以重复使用已由其他人拥有的其他数据流引入、清理和转换的实体，无需维护该数据。 链接的实体只是指向其他数据流中的实体，不会  复制数据。
+链接数据流之间的实体后，可以重复使用已由其他人拥有的其他数据流引入、清理和转换的实体，无需维护该数据。 链接的实体只是指向其他数据流中的实体，不会复制数据。
 
 ![Power BI 中链接的实体](media/service-dataflows-linked-entities/linked-entities_00.png)
 
-链接的实体均为只读  状态。 如果要为链接的实体创建转换，必须创建一个引用链接的实体的新计算实体。
+链接的实体均为只读状态。 如果要为链接的实体创建转换，必须创建一个引用链接的实体的新计算实体。
 
 ## <a name="linked-entity-availability"></a>链接的实体的可用性
 
@@ -36,22 +36,22 @@ ms.locfileid: "61136398"
 > [!NOTE]
 > 实体分为标准实体和计算实体。 标准实体（通常仅称为实体）可对外部数据源进行查询，例如 SQL 数据库。 计算实体在 Power BI 上需要高级容量，并且可对已位于 Power BI 存储中的数据运行其转换。 
 >
->如果数据流不在高级容量工作区中，则只要转换未定义为存储内转换，就仍可以引用单个查询，或合并两个或更多查询。 此类引用被视为标准实体。 若要执行此操作，请为引用的查询关闭“启用加载”  选项，以防止数据具体化和引入到存储。 此后，可以引用这些“启用加载 = false”  查询，并仅针对要进行具体化的生成查询将“启用加载”  设置为  “打开”。
+>如果数据流不在高级容量工作区中，则只要转换未定义为存储内转换，就仍可以引用单个查询，或合并两个或更多查询。 此类引用被视为标准实体。 若要执行此操作，请为引用的查询关闭“启用加载”选项，以防止数据具体化和引入到存储。 此后，可以引用这些“启用加载 = false”查询，并仅针对要进行具体化的生成查询将“启用加载”设置为“打开”。
 
 
 ## <a name="how-to-link-entities-between-dataflows"></a>如何链接数据流之间的实体
 
-通过几种方法可以在 Power BI 中链接数据流之间的实体。 可以从“数据流”创作工具中选择“添加链接的实体”  ，如下图所示。 
+通过几种方法可以在 Power BI 中链接数据流之间的实体。 可以从“数据流”创作工具中选择“添加链接的实体”，如下图所示。 
 
 ![Power BI 中链接的实体](media/service-dataflows-linked-entities/linked-entities_00.png)
 
-还可以从 Power BI 服务的“添加实体”  菜单项中选择“添加链接的实体”  。
+还可以从 Power BI 服务的“添加实体”菜单项中选择“添加链接的实体”。
 
 ![Power BI 中链接的实体](media/service-dataflows-linked-entities/linked-entities_01.png)
 
 要链接实体，必须使用 Power BI 凭据登录。
 
-登录后将打开“导航器”  窗口，可以选择一组可连接的实体。 显示的实体是你在 Power BI 租户的所有工作区中拥有权限的那些实体。 
+登录后将打开“导航器”窗口，可以选择一组可连接的实体。 显示的实体是你在 Power BI 租户的所有工作区中拥有权限的那些实体。 
 
 选择链接的实体后，这些实体将显示在创作工具中数据流的实体列表中，并带有一个特殊图标，将其标识为链接的实体。
 
@@ -88,10 +88,10 @@ ms.locfileid: "61136398"
 
 在创建或使用数据流时，下面的文章可能很有用。 
 
-* [在 Power BI 中的自助服务数据准备](service-dataflows-overview.md)
+* [Power BI 中的自助服务数据准备](service-dataflows-overview.md)
 * [在 Power BI 中创建和使用数据流](service-dataflows-create-use.md)
-* [使用 Power BI Premium 上的计算的实体](service-dataflows-computed-entities-premium.md)
-* [数据流中使用的本地数据源](service-dataflows-on-premises-gateways.md)
+* [在 Power BI Premium 上使用计算实体](service-dataflows-computed-entities-premium.md)
+* [将数据流与本地数据源配合使用](service-dataflows-on-premises-gateways.md)
 * [Power BI 数据流的开发人员资源](service-dataflows-developer-resources.md)
 
 有关 Power Query 和计划刷新的详细信息，可以阅读以下文章：

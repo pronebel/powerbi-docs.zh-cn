@@ -10,16 +10,16 @@ ms.subservice: powerbi-gateways
 ms.topic: conceptual
 ms.date: 07/15/2019
 LocalizationGroup: Gateways
-ms.openlocfilehash: 6f270c28f643736f07c09ceb3e544e473f831ad9
-ms.sourcegitcommit: 277fadf523e2555004f074ec36054bbddec407f8
+ms.openlocfilehash: 4991117cfa8b34d9adbbd2dc29082d1e75b6852d
+ms.sourcegitcommit: 7a0ce2eec5bc7ac8ef94fa94434ee12a9a07705b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/16/2019
-ms.locfileid: "68271854"
+ms.lasthandoff: 09/18/2019
+ms.locfileid: "71100388"
 ---
 # <a name="overview-of-single-sign-on-sso-for-gateways-in-power-bi"></a>Power BI 中网关的单一登录 (SSO) 概述
 
-通过使用 Kerberos 约束委派或安全断言标记语言 (SAML) 配置本地数据网关，可以获得无缝的单一登录连接，从而使 Power BI 报表和仪表板可以从本地数据进行更新。 本地数据网关使用用于连接到本地数据源的 DirectQuery 实现 SSO。
+通过使用 Kerberos 约束委派或安全断言标记语言 (SAML) 配置本地数据网关，可以获得无缝的单一登录连接，从而使 Power BI 报表和仪表板可以从本地数据进行实时更新。 本地数据网关使用用于连接到本地数据源的 DirectQuery 支持 SSO。
 
 目前支持以下数据源：
 
@@ -40,11 +40,11 @@ ms.locfileid: "68271854"
 
 以下是有关这些步骤的其他详细信息：
 
-1. 对于每个查询，当向配置的网关发送查询请求时，Power BI 服务  包括用户主体名称  (UPN)。
+1. 对于每个查询，当向配置的网关发送查询请求时，Power BI 服务包括用户主体名称 (UPN)。
 
 2. 网关需要将 Azure Active Directory UPN 映射到本地 Active Directory 标识。
 
-   a.  如果已配置 Azure AD DirSync（也称为“Azure AD Connect”），则会自动在网关中进行映射  。
+   a.  如果已配置 Azure AD DirSync（也称为“Azure AD Connect”），则会自动在网关中进行映射。
 
    b.  或者，网关可以通过在本地 Active Directory 域进行查找的方式来查找 Azure AD UPN，并将其映射到本地用户。
 
@@ -52,8 +52,7 @@ ms.locfileid: "68271854"
 
 ## <a name="next-steps"></a>后续步骤
 
-现在，你已了解 SSO 的基础知识，请阅读有关 Kerberos 和 SAML 的更多详细信息：
+现在，你已了解通过网关启用 SSO 的基础知识，请阅读有关 Kerberos 和 SAML 的更多详细信息：
 
 * [单一登录 (SSO) - Kerberos](service-gateway-sso-kerberos.md)
-* [单一登录 (SSO) - Kerberos - 基于资源](service-gateway-sso-kerberos-resource.md)
 * [单一登录 (SSO) - SAML](service-gateway-sso-saml.md)

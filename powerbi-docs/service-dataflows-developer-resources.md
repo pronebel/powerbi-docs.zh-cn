@@ -12,7 +12,7 @@ ms.author: davidi
 LocalizationGroup: Data from files
 ms.openlocfilehash: 9a4caed97881e176d075527c90ae8d5eff213676
 ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: zh-CN
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "61136748"
@@ -38,8 +38,8 @@ ms.locfileid: "61136748"
 
 * [数据流自助服务数据准备](service-dataflows-overview.md)
 * [在 Power BI 中创建和使用数据流](service-dataflows-create-use.md)
-* [使用 Power BI Premium 上的计算的实体](service-dataflows-computed-entities-premium.md)
-* [数据流中使用的本地数据源](service-dataflows-on-premises-gateways.md)
+* [在 Power BI Premium 上使用计算实体](service-dataflows-computed-entities-premium.md)
+* [将数据流与本地数据源配合使用](service-dataflows-on-premises-gateways.md)
 
 有关 CDM 开发和教程资源的信息，请参阅以下内容：
 * [通用数据模型 - 概述](https://docs.microsoft.com/powerapps/common-data-model/overview)

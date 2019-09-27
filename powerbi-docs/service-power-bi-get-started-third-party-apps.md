@@ -9,18 +9,18 @@ ms.author: mblythe
 manager: kfile
 ms.reviewer: ''
 ms.cunstom: ''
-ms.date: 08/10/2017
+ms.date: 09/16/2019
 LocalizationGroup: Get started
-ms.openlocfilehash: 11afe27ffbca295eec67fd07731cc646bcca56dc
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 3de0b5473c6d00013bdf109f262dc0577c3bf290
+ms.sourcegitcommit: a97c0c34f888e44abf4c9aa657ec9463a32be06f
+ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "64769695"
+ms.lasthandoff: 09/17/2019
+ms.locfileid: "71073518"
 ---
 # <a name="get-started-with-third-party-apps"></a>开始使用第三方应用
 
-借助 Power BI，你可以使用由 Microsoft 以外的其他公司或个人构建的应用。 例如，可以使用一个第三方应用，用于将 Power BI 磁贴集成到自定义构建 web 应用程序。 当使用第三方应用时，你将需要授予该应用程序对 Power BI 帐户和资源的特定权限。 重要的一点是，应仅向你知晓和信任的应用程序授予权限。 可随时撤消已授予应用程序的权限。 请参阅[撤消第三方应用权限](#revoke)。
+借助 Power BI，你可以使用由 Microsoft 以外的其他公司或个人构建的应用。 例如，可以使用一个第三方应用，该应用将 Power BI 集成到自定义生成的 web 应用程序中。 当你使用第三方应用时，系统将要求你向应用程序授予对你的 Power BI 帐户和资源的某些权限。 重要的一点是，应仅向你知晓和信任的应用程序授予权限。 可随时撤消已授予应用程序的权限。 请参阅[撤消第三方应用权限](#revoke)。
 
 以下是应用程序可以请求的访问权限类型。
 
@@ -47,15 +47,15 @@ ms.locfileid: "64769695"
 
 <a name="revoke"/>
 
-## <a name="revoke-third-party-app-permissions"></a>撤消第三方应用权限
+## <a name="revoke-third-party-app-permissions"></a>撤销第三方应用权限
 
-通过转到 Office 365 我的应用网站撤消第三方应用的权限。
+可通过转到 Office 365 我的应用网站撤销向第三方应用授予的权限。
 
-上**Office 365 我的应用**站点，下面介绍了如何撤消第三方权限：
+下面介绍如何在 Office 365 我的应用网站上撤销第三方权限：
 
 1. 转到 [Office 365 我的应用网站](https://portal.office.com/myapps)。
 
-2. 上**我的应用**页上，查找第三方应用。
+2. 在“我的应用”页上，查找第三方应用。
 
 3. 将鼠标悬停在该应用磁贴上，单击 **(...)** 按钮，然后单击**删除**。
 

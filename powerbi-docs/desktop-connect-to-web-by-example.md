@@ -12,7 +12,7 @@ ms.author: davidi
 LocalizationGroup: Connect to data
 ms.openlocfilehash: 37efc295a3c79286458a862c255d987b0afde6d3
 ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: zh-CN
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "65514116"
@@ -64,7 +64,7 @@ ms.locfileid: "65514116"
 ## <a name="next-steps"></a>后续步骤
 你可以使用 Power BI Desktop 连接到各种数据  。 有关数据源的详细信息，请参阅下列资源：
 
-* [按示例添加列](desktop-add-column-from-example.md)
+* [通过示例添加列](desktop-add-column-from-example.md)
 * [连接到网页](desktop-connect-to-web.md)
 * [Power BI Desktop 中的数据源](desktop-data-sources.md)
 * [使用 Power BI Desktop 调整和合并数据](desktop-shape-and-combine-data.md)

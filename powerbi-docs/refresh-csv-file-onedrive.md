@@ -8,15 +8,15 @@ ms.custom: seodec18
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 12/06/2018
+ms.date: 09/12/2019
 ms.author: mblythe
 LocalizationGroup: Data refresh
-ms.openlocfilehash: 80182ae0898ab5c88acb85ce24a55fe615cf2a0b
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 589f34db5009a9203ee33c13dc4931e42d68ddcb
+ms.sourcegitcommit: a97c0c34f888e44abf4c9aa657ec9463a32be06f
+ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61415612"
+ms.lasthandoff: 09/17/2019
+ms.locfileid: "71076105"
 ---
 # <a name="refresh-a-dataset-created-from-a-csv-file-on-onedrive-or-sharepoint-online"></a>刷新使用 OneDrive 或 SharePoint Online 上的 .CSV 文件创建的数据集
 ## <a name="what-are-the-advantages"></a>有什么好处？
@@ -36,7 +36,7 @@ ms.locfileid: "61415612"
 
 登录 Microsoft 帐户时，请确保选中“保持我的登录状态”。 然后 Power BI 将与 Power BI 中的数据集同步任何更新
 
-![](media/refresh-csv-file-onedrive/refresh_signin_keepmesignedin.png)
+![登录示例](media/refresh-csv-file-onedrive/refresh_signin_keepmesignedin.png)
 
 如果由于 Microsoft 帐户凭据可能已更改而无法将 OneDrive 上的 .csv 文件的更改与 Power BI 中的数据集进行同步，那么你需要连接到该文件并再次从个人 OneDrive 中导入该文件。
 

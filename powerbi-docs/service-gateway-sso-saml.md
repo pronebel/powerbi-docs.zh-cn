@@ -1,6 +1,6 @@
 ---
-title: 使用 SAML 启用到本地数据源的单一登录 (SSO)
-description: 使用安全断言标记语言 (SAML) 配置网关以启用从 Power BI 到本地数据源的单一登录 (SSO)。
+title: 使用 SAML 启用到本地数据源的 SSO
+description: 使用安全断言标记语言 (SAML) 配置网关以启用从 Power BI 到本地数据源的 SSO。
 author: mgblythe
 ms.author: mblythe
 manager: kfile
@@ -8,16 +8,16 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-gateways
 ms.topic: conceptual
-ms.date: 07/15/2019
+ms.date: 09/16/2019
 LocalizationGroup: Gateways
-ms.openlocfilehash: a240d84b20f63542c33bb7cbbb9a9c97af7db2f7
-ms.sourcegitcommit: d74aca333595beaede0d71ba13a88945ef540e44
+ms.openlocfilehash: 75641468b52d4174779b9ddd03ed7aab27b6c5d0
+ms.sourcegitcommit: 7a0ce2eec5bc7ac8ef94fa94434ee12a9a07705b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/03/2019
-ms.locfileid: "68757675"
+ms.lasthandoff: 09/18/2019
+ms.locfileid: "71100414"
 ---
-# <a name="use-security-assertion-markup-language-saml-for-single-sign-on-sso-from-power-bi-to-on-premises-data-sources"></a>使用安全断言标记语言 (SAML) 进行从 Power BI 到本地数据源的单一登录 (SSO)
+# <a name="use-security-assertion-markup-language-saml-for-sso-from-power-bi-to-on-premises-data-sources"></a>使用安全断言标记语言 (SAML) 启用从 Power BI 到本地数据源的 SSO
 
 使用[安全断言标记语言 (SAML)](https://www.onelogin.com/pages/saml) 启用无缝单一登录连接。 启用 SSO 后，Power BI 报表和仪表板可以轻松通过本地源刷新数据。
 
@@ -27,7 +27,7 @@ ms.locfileid: "68757675"
 
 我们使用 [Kerberos](service-gateway-sso-kerberos.md) 支持其他数据源。
 
-请注意，对于 HANA，强烈建议在建立 SAML SSO 连接之前启用加密（即，应将 HANA 服务器配置为接受加密连接，并将网关配置为在与 HANA 服务器通信时使用加密）  。 默认情况下，HANA ODBC 驱动程序无法加密 SAML 断言，如果未启用加密，已签名的 SAML 断言将从网关“明文”发送到 HANA 服务器，并且容易被第三方拦截和重用  。
+请注意，对于 HANA，强烈建议在建立 SAML SSO 连接之前启用加密（即，应将 HANA 服务器配置为接受加密连接，并将网关配置为在与 HANA 服务器通信时使用加密）。 默认情况下，HANA ODBC 驱动程序无法加密 SAML 断言，如果未启用加密，已签名的 SAML 断言将从网关“明文”发送到 HANA 服务器，并且容易被第三方拦截和重用。 有关使用 OpenSSL 库为 HANA 启用加密的说明，请参阅[为 SAP HANA 启用加密](/power-bi/desktop-sap-hana-encryption)。
 
 ## <a name="configuring-the-gateway-and-data-source"></a>配置网关和数据源
 
@@ -35,16 +35,17 @@ ms.locfileid: "68757675"
 
 另请注意，虽然本指南使用 OpenSSL 作为 HANA 服务器的加密提供程序，不过 SAP 建议使用 SAP 加密库（也称为 CommonCryptoLib 或 sapcrypto）代替 OpenSSL 来完成建立信任关系的设置步骤。 有关详细信息，请参阅官方 SAP 文档。
 
-以下步骤描述了如何使用 HANA 服务器信任的根 CA 对网关 IdP 的 X509 证书进行签名，从而在 HANA 服务器和网关 IdP 之间建立信任关系。
+以下步骤描述了如何使用 HANA 服务器信任的根 CA 对网关 IdP 的 X509 证书进行签名，从而在 HANA 服务器和网关 IdP 之间建立信任关系。 你将创建此根 CA。
 
 1. 创建根 CA 的 X509 证书和私钥。 例如，要以 .pem 格式创建根 CA 的 X509 证书和私钥，请执行以下步骤：
 
    ```
    openssl req -new -x509 -newkey rsa:2048 -days 3650 -sha256 -keyout CA_Key.pem -out CA_Cert.pem -extensions v3_ca
    ```
-  确保已正确保护根 CA 的证书，如果第三方获取了该证书，可能利用它对 HANA 服务器进行未经授权的访问。 
 
-  将证书（例如，CA_Cert.pem）添加到 HANA 服务器的信任存储区，以便 HANA 服务器将信任刚刚创建的根 CA 签名的任何证书。 通过检查 ssltruststore 配置设置，可以找到 HANA 服务器的信任存储区的位置  。 如果已按照 SAP 文档介绍的步骤配置 OpenSSL，则 HANA 服务器可能已经信任可以重用的根 CA. 有关详细信息，请参阅[如何将 SAP HANA Studio 的 Open SSL 配置到 SAP HANA 服务器](https://archive.sap.com/documents/docs/DOC-39571)。 若具有多个想为 SAML SSO 启用的 HANA 服务器，请确保每个服务器都信任该根 CA。
+    确保已正确保护根 CA 的证书，如果第三方获取了该证书，可能利用它对 HANA 服务器进行未经授权的访问。 
+
+    将证书（例如，CA_Cert.pem）添加到 HANA 服务器的信任存储区，以便 HANA 服务器将信任刚刚创建的根 CA 签名的任何证书。 通过检查 ssltruststore 配置设置，可以找到 HANA 服务器的信任存储区的位置。 如果已按照 SAP 文档介绍的步骤配置 OpenSSL，则 HANA 服务器可能已经信任可以重用的根 CA. 有关详细信息，请参阅[如何将 SAP HANA Studio 的 Open SSL 配置到 SAP HANA 服务器](https://archive.sap.com/documents/docs/DOC-39571)。 若具有多个想为 SAML SSO 启用的 HANA 服务器，请确保每个服务器都信任该根 CA。
 
 1. 创建网关 IdP 的 X509 证书。 例如，要创建有效期为一年的证书签名请求 (IdP_Req.pem) 和私钥 (IdP_Key.pem)，请执行以下命令：
 
@@ -60,23 +61,23 @@ ms.locfileid: "68757675"
 
 生成的 IdP 证书有效期为一年（请参阅天数选项）。 现在，在 HANA Studio 中导入 IdP 的证书以创建新的 SAML 标识提供者。
 
-1. 在 SAP HANA Studio 中，右键单击 SAP HANA 服务器，然后导航到“安全” > “打开安全控制台” > “SAML 标识提供者” > “OpenSSL 加密库”     。
+1. 在 SAP HANA Studio 中，右键单击 SAP HANA 服务器，然后导航到“安全” > “打开安全控制台” > “SAML 标识提供者” > “OpenSSL 加密库”。
 
     ![标识提供者](media/service-gateway-sso-saml/identity-providers.png)
 
-1. 选择“导入”，导航到 IdP_Cert.pem，然后导入它  。
+1. 选择“导入”，导航到 IdP_Cert.pem，然后导入它。
 
-1. 在 SAP HANA Studio 中，选择“安全”文件夹  。
+1. 在 SAP HANA Studio 中，选择“安全”文件夹。
 
     ![安全文件夹](media/service-gateway-sso-saml/security-folder.png)
 
-1. 展开“用户”，然后选择要将 Power BI 用户映射到的用户  。
+1. 展开“用户”，然后选择要将 Power BI 用户映射到的用户。
 
-1. 依次选择“SAML”、“配置”   。
+1. 依次选择“SAML”、“配置”。
 
     ![配置 SAML](media/service-gateway-sso-saml/configure-saml.png)
 
-1. 选择在步骤 2 中创建的标识提供者。 对于外部标识，输入 Power BI 用户的 UPN（通常是用户用于登录 Power BI 的电子邮件地址），然后选择“添加”   。 请注意，如果已将网关配置为使用 ADUserNameReplacementProperty 配置选项，则应输入替换 Power BI 用户初始 UPN 的值  。 例如，如果将 ADUserNameReplacementProperty 设置为 SAMAccountName，则应输入用户的 SAMAccountName    。
+1. 选择在步骤 2 中创建的标识提供者。 对于外部标识，输入 Power BI 用户的 UPN（通常是用户用于登录 Power BI 的电子邮件地址），然后选择“添加”。 请注意，如果已将网关配置为使用 ADUserNameReplacementProperty 配置选项，则应输入替换 Power BI 用户初始 UPN 的值。 例如，如果将 ADUserNameReplacementProperty 设置为 SAMAccountName，则应输入用户的 SAMAccountName。
 
     ![选择标识提供者](media/service-gateway-sso-saml/select-identity-provider.png)
 
@@ -90,13 +91,13 @@ ms.locfileid: "68757675"
 
 1. 将 pfx 文件复制到网关计算机：
 
-    1. 双击 samltest.pfx，然后选择“本地计算机” > “下一步”   。
+    1. 双击 samltest.pfx，然后选择“本地计算机” > “下一步”。
 
-    1. 输入密码，然后选择“下一步”  。
+    1. 输入密码，然后选择“下一步”。
 
-    1. 选择“将所有证书放入以下存储”，然后选择“浏览” > “个人” > “确定”     。
+    1. 选择“将所有证书放入以下存储”，然后选择“浏览” > “个人” > “确定”。
 
-    1. 选择“下一步”，然后选择“完成”   。
+    1. 选择“下一步”，然后选择“完成”。
 
     ![导入证书](media/service-gateway-sso-saml/import-certificate.png)
 
@@ -106,21 +107,21 @@ ms.locfileid: "68757675"
 
         ![运行 MMC](media/service-gateway-sso-saml/run-mmc.png)
 
-    1. 在“文件”下，选择“添加/删除管理单元”   。
+    1. 在“文件”下，选择“添加/删除管理单元”。
 
         ![添加管理单元](media/service-gateway-sso-saml/add-snap-in.png)
 
-    1. 选择“证书” > “添加”，然后选择“计算机帐户” > “下一步”     。
+    1. 选择“证书” > “添加”，然后选择“计算机帐户” > “下一步”。
 
-    1. 依次选择“本地计算机” > “完成” > “确定”    。
+    1. 依次选择“本地计算机” > “完成” > “确定”。
 
-    1. 展开“证书” > “个人” > “证书”，然后找到证书    。
+    1. 展开“证书” > “个人” > “证书”，然后找到证书。
 
-    1. 右键单击证书并导航到“所有任务” > “管理私钥”   。
+    1. 右键单击证书并导航到“所有任务” > “管理私钥”。
 
         ![管理私钥](media/service-gateway-sso-saml/manage-private-keys.png)
 
-    1. 将网关服务帐户添加到列表中。 默认情况下，帐户是“NT SERVICE\PBIEgwService”  。 可通过运行 services.msc 和查找“本地数据网关服务”来确定正在运行网关服务的帐户   。
+    1. 将网关服务帐户添加到列表中。 默认情况下，帐户是“NT SERVICE\PBIEgwService”。 可通过运行 services.msc 和查找“本地数据网关服务”来确定正在运行网关服务的帐户。
 
         ![网关服务](media/service-gateway-sso-saml/gateway-service.png)
 
@@ -131,17 +132,18 @@ ms.locfileid: "68757675"
     ```powershell
     Get-ChildItem -path cert:\LocalMachine\My
     ```
+
 1. 复制创建的证书的指纹。
 
 1. 导航到网关目录（默认为 C:\Program Files\On-premises data gateway）。
 
-1. 打开 PowerBI.DataMovement.Pipeline.GatewayCore.dll.config，找到 SapHanaSAMLCertThumbprint 部分\*\*。 粘贴已复制的指纹。
+1. 打开 PowerBI.DataMovement.Pipeline.GatewayCore.dll.config，找到 SapHanaSAMLCertThumbprint 部分。 粘贴已复制的指纹。
 
 1. 重启网关服务。
 
 ## <a name="running-a-power-bi-report"></a>运行 Power BI 报表
 
-现在，可以使用 Power BI 中的“管理网关”页面配置数据源，并在其“高级设置”下启用 SSO   。 然后，可以发布绑定到该数据源的报表和数据集。
+现在，可以使用 Power BI 中的“管理网关”页面配置 SAP HANA 数据源，并在其“高级设置”下启用 SSO。 然后，可以发布绑定到该数据源的报表和数据集。
 
 ![高级设置](media/service-gateway-sso-saml/advanced-settings.png)
 
@@ -159,7 +161,7 @@ ms.locfileid: "68757675"
 
 1. 重现所遇到的问题。
 
-1. 在 HANA Studio 中，打开管理控制台，然后转到“诊断文件”  选项卡。
+1. 在 HANA Studio 中，打开管理控制台，然后转到“诊断文件”选项卡。
 
 1. 打开最新的 indexserver 跟踪并搜索 SAMLAuthenticator.cpp。
 
@@ -178,7 +180,7 @@ ms.locfileid: "68757675"
 
 ## <a name="next-steps"></a>后续步骤
 
-有关“本地数据网关”  和 DirectQuery  的详细信息，请查看以下资源：
+有关“本地数据网关”和 DirectQuery 的详细信息，请查看以下资源：
 
 * [本地数据网关是什么？](/data-integration/gateway/service-gateway-onprem)
 * [Power BI 中的 DirectQuery](desktop-directquery-about.md)

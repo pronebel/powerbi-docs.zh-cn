@@ -12,7 +12,7 @@ ms.author: davidi
 LocalizationGroup: Create reports
 ms.openlocfilehash: d5259ba22287a8a2ade3107e4320c39713dcb45e
 ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: zh-CN
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "65239743"
@@ -22,10 +22,10 @@ ms.locfileid: "65239743"
 
 ![默认工具提示](media/desktop-custom-tooltips/custom-tooltips-1.png)
 
-创建可视化效果时，默认工具提示会显示数据点的值和类别。 自定义工具提示信息很有用，并可以提供其他上下文和用户查看视觉对象的信息时，有多个实例。 自定义工具提示可以指定显示为工具提示一部分的其他数据点。
+创建可视化效果时，默认工具提示会显示数据点的值和类别。 很多自定义工具提示信息的实例都非常有用，并可向查看视觉对象的用户提供其他上下文和信息。 自定义工具提示可以指定显示为工具提示一部分的其他数据点。
 
 ## <a name="how-to-customize-tooltips"></a>自定义工具提示的方式
-若要在中创建自定义工具提示**字段**框的**可视化效果**窗格中将字段拖到**工具提示**存储桶，如下图中所示。 下图中，已将两个字段放入“工具提示”Bucket  。
+若要创建自定义工具提示，在“可视化效果”窗格的“字段”框中，将字段拖动到“工具提示”Bucket，如下图所示。 下图中，已将两个字段放入“工具提示”Bucket。
 
 ![添加工具提示字段](media/desktop-custom-tooltips/custom-tooltips-2.png)
 
@@ -38,5 +38,5 @@ ms.locfileid: "65239743"
 
 ![通过快速计算编写工具提示](media/desktop-custom-tooltips/custom-tooltips-4.png)
 
-有很多种自定义**工具提示**，使用任何字段在数据集中，可用来传达快速信息和查看仪表板或报表的用户的见解。
+自定义工具提示的方法有很多，使用数据集中的任何可用字段都可向查看仪表板或报表的用户传达快速信息和见解。
 

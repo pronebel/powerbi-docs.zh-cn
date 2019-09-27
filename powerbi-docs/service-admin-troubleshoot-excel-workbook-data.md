@@ -13,7 +13,7 @@ ms.custom: seodec18
 LocalizationGroup: Troubleshooting
 ms.openlocfilehash: 6fb02e6cbaca30859aa00f58ae07c9a3fd7f6fe0
 ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: zh-CN
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "65101471"
@@ -25,7 +25,7 @@ ms.locfileid: "65101471"
 
 将 Excel 工作簿导入 Power BI 时，你可能会看到以下错误：
 
-*错误:我们找不到格式化为表的任何数据。若要从 Excel 导入 Power BI 服务，需要将数据格式化为表。选择您要在表中，按 Ctrl + T 的所有数据。*
+*错误:找不到格式设置为表的任何数据。若要从 Excel 导入到 Power BI 服务中，需要将数据的格式设置为表。在表中选择所需的所有数据，并按 Ctrl+T。*
 
 ![在工作簿中找不到数据](media/service-admin-troubleshoot-excel-workbook-data/power-bi-we-couldnt-find-any-data.png)
 

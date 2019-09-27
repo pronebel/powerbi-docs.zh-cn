@@ -1,6 +1,6 @@
 ---
-title: 教程：生成 Power BI （预览版） 中的机器学习模型
-description: 在本教程中，您将生成在 Power BI 中的机器学习模型。
+title: 教程：在 Power BI 中生成机器学习模型（预览）
+description: 在本教程中，你将在 Power BI 中生成机器学习模型。
 author: davidiseminger
 manager: kfile
 ms.reviewer: ''
@@ -13,187 +13,187 @@ ms.author: davidi
 LocalizationGroup: Connect to services
 ms.openlocfilehash: 611d6f6c923e6cb68af94840c4266a0b6dee7651
 ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: zh-CN
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "61406164"
 ---
-# <a name="tutorial-build-a-machine-learning-model-in-power-bi-preview"></a>教程：生成 Power BI （预览版） 中的机器学习模型
+# <a name="tutorial-build-a-machine-learning-model-in-power-bi-preview"></a>教程：在 Power BI 中生成机器学习模型（预览）
 
-在本教程的文章中，使用**自动化的机器学习**创建并应用在 Power BI 中的二进制预测模型。 本教程提供有关创建 Power BI 数据流，并在数据流，以进行训练和验证机器学习模型直接在 Power BI 中使用的实体定义。 我们然后使用该模型进行评分来生成预测。
+在本教程中，你将在 Power BI 中使用自动机器学习创建并应用二进制预测模型。 此教程包括以下操作的指南：创建 Power BI 数据流，以及使用数据流定义的实体直接从 Power BI 训练并验证机器学习模型。 然后使用该模型评分，以生成预测。
 
-首先，将创建二元预测机器学习模型来预测基于一组其联机会话属性的在线购物者购买意向。 基准测试机器学习数据集用于此练习。 一旦对模型进行训练，Power BI 将自动生成解释模型结果验证报告。 然后，可以查看验证报告，并将模型应用于你的数据进行评分。
+首先将创建二进制预测机器学习模型，用于基于在线购物者的联机会话属性集预测他们的购买意向。 在此练习中使用了基准机器学习数据集。 训练模型后，Power BI 将自动生成验证报告，来说明模型结果。 然后则可以查询验证报告，并将模型应用于数据，来进行评分。
 
-本教程包括以下步骤：
+此教程包含下列步骤：
 
 > [!div class="checklist"]
 > * 使用输入数据创建数据流
-> * 创建并定型机器学习模型
-> * 查看模型验证报表
-> * 将模型应用到数据流的实体
-> * 在 Power BI 报表中使用该模型的已评分的输出
+> * 创建并训练机器学习模型
+> * 查看模型验证报告
+> * 将模型应用于数据流实体
+> * 在 Power BI 报表中使用模型的评分输出
 
 ## <a name="create-a-dataflow-with-the-input-data"></a>使用输入数据创建数据流
 
-本教程的第一个部分是使用输入数据创建数据流。 该过程需要几个步骤，如中所示以下部分中，从获取数据。
+此教程的第 1 部分为使用输入数据创建数据流。 此过程需要以下部分所示的几个步骤，首先是获取数据。
 
 ### <a name="get-data"></a>获取数据
 
-创建数据流的第一步是已准备好你的数据源。 在本例中，我们使用的联机会话，其中一些推出而告终中购买的一组中的机器学习数据集。 数据集包含一组有关这些会话，我们将使用用于训练模型的属性。
+创建数据流的第 1 个步骤是准备好数据资源。 在示例中，我们使用一组联机会话的机器学习数据集，其中的一些会话以购买结束。 此数据集包含一组与这些会话相关的属性，我们将使用它们训练模型。
 
-可以从 UC Irvine 网站来下载数据集。  我们还必须提供此功能，在本教程中，从以下链接： [online_shoppers_intention.csv](https://raw.githubusercontent.com/santoshc1/PowerBI-AI-samples/master/Tutorial_AutomatedML/online_shoppers_intention.csv)。
+可以从 UC Irvine 网站下载此数据集。  我们还在以下链接中提供了此数据集，以便于使用此教程：[online_shoppers_intention.csv](https://raw.githubusercontent.com/santoshc1/PowerBI-AI-samples/master/Tutorial_AutomatedML/online_shoppers_intention.csv)。
 
 ### <a name="create-the-entities"></a>创建实体
 
 若要在数据流中创建实体，登录到 Power BI 服务并导航到启用 AI 预览的专用容量上的工作区。
 
-如果还没有一个工作区，则可以创建一个通过选择**工作区**在 Power BI 服务中，选择左侧的导航菜单中**创建应用工作区**面板底部的将出现。 这将打开一个面板位于右侧，以输入工作区详细信息。 输入工作区名称并选择**高级**。 确认在工作区使用专用容量使用单选按钮，并将它分配给已开启 AI 预览版的专用的容量实例。 然后，选择“保存”  。
+如果还没有工作区，可以通过从 Power BI 服务选择左侧导航菜单的“工作区”来创建一个，然后选择显示的面板底部的“创建应用工作区”。 这将在右侧打开一个面板，用于输入工作区详细信息。 输入一个工作区名称，然后选择“高级”。 使用单选按钮确认工作区使用“专用容量”，并确保将它分配给已启用 AI 预览版的专用容量实例。 然后，选择“保存”。
 
 ![创建工作区](media/service-tutorial-build-machine-learning-model/tutorial-build-machine-learning-model-01.png)
 
-创建工作区后，可以选择**跳过**右下角的欢迎屏幕上，在下图中所示。
+创建工作区后，可以选择欢迎屏幕右下角的“跳过”，如下图所示。
 
-![如果有一个工作区跳过](media/service-tutorial-build-machine-learning-model/tutorial-build-machine-learning-model-02.png)
+![若已有工作区，请跳过](media/service-tutorial-build-machine-learning-model/tutorial-build-machine-learning-model-02.png)
 
-选择**数据流 （预览版）** 选项卡。选择**创建**正确的工作区中，并选择顶部的按钮**数据流**。
+选择“数据流(预览版)”选项卡。选择工作区右上角的“创建”按钮，再选择“数据流”。
 
 ![创建数据流](media/service-tutorial-build-machine-learning-model/tutorial-build-machine-learning-model-03.png)
 
-选择“添加新实体”  。 这将启动**Power Query**在浏览器中的编辑器。
+选择“添加新实体”。 这将从浏览器启动 Power Query 编辑器。
 
 ![添加新实体](media/service-tutorial-build-machine-learning-model/tutorial-build-machine-learning-model-04.png)
 
-选择**Text/CSV 文件**作为数据源下, 图中所示。
+选择“文本/CSV 文件”作为数据源，如下图所示。
 
-![所选的文本/CSF 文件](media/service-tutorial-build-machine-learning-model/tutorial-build-machine-learning-model-05.png)
+![已选择“文本/CSF 文件”](media/service-tutorial-build-machine-learning-model/tutorial-build-machine-learning-model-05.png)
 
-在中**连接到数据源**显示下一步中，粘贴到以下链接*online_shoppers_intention.csv*到**文件路径或 URL**框，并选择**下一步**。
+在接下来出现的“连接到数据源”中，将指向“online_shoppers_intention.csv”的以下链接粘贴到“文件路径或 URL”框，，然后选择“下一步”。
 
 `https://raw.githubusercontent.com/santoshc1/PowerBI-AI-samples/master/Tutorial_AutomatedML/online_shoppers_intention.csv`
 
 ![文件路径](media/service-tutorial-build-machine-learning-model/tutorial-build-machine-learning-model-06.png)
 
-Power Query 编辑器显示 CSV 文件中的数据的预览。 选择**转换表**在功能区命令，然后选择**将第一行用作标头**从显示的菜单。 这将添加_升级标头_查询单步执行**应用步骤**部分位于屏幕的右侧。 您可以查询重命名为更友好名称的更改中的值**名称**框在右窗格中找到。 例如，可以更改查询名更改为_Online 的访问者_。
+Power Query 编辑器显示 CSV 文件中的数据的预览。 从命令功能区中选择“转换表”，然后从显示的菜单中选择“将第一行用作标题”。 此操作将“提升的标题”查询步骤添加到屏幕右侧的“应用步骤”部分中。 更改右侧窗格中“名称”框的值，即可以将查询重命名为一个更加友好的名称。 例如，可以将查询名称更改为“在线访问者”。
 
-![将更改为友好名称](media/service-tutorial-build-machine-learning-model/tutorial-build-machine-learning-model-07.png)
+![更改为友好名称](media/service-tutorial-build-machine-learning-model/tutorial-build-machine-learning-model-07.png)
 
-在此数据集中的属性数据类型的一些_数值_或_布尔_中使用，但这些可能被解释为字符串**Power Query**。 选择顶部的每个列标题以更改下面列出的以下类型的列的属性类型图标：
+此数据集中的某些属性数据类型为“数字”或“布尔”，但 Power Query 可以将它们转换为字符串。 在每个列标题的顶部选择属性类型图标，将下面列出的列更改为以下类型：
 
-* **十进制数：** Administrative_Duration;Informational_Duration;ProductRelated_Duration;BounceRates;ExitRates;PageValues;SpecialDay
-* **True/False:** 周末;收入
+* **小数：** Administrative_Duration；Informational_Duration；ProductRelated_Duration；BounceRates；ExitRates；PageValues；SpecialDay
+* True/False：周末；收入
 
 ![更改数据类型](media/service-tutorial-build-machine-learning-model/tutorial-build-machine-learning-model-08.png)
 
-**二元预测**我们将训练的模型需要布尔型字段，作为标识从过去的观测值的结果的标签。 在此数据集中_收入_属性指示采购，，此属性现已作为一个布尔值。 因此，我们不需要添加标签的计算的列。 在其他数据集，可能需要将现有标签属性转换为布尔值列。
+我们要训练的“二级制预测”模型需要一个布尔字段作为标签，来标识过去观测到的结果。 在此数据集中，“收入”属性表示购买，并且已以布尔值形式提供此属性。 因此，我们无需为此标签添加计算列。 在其他数据集中，可能必须将现有的标签属性转换为布尔列。
 
-选择**完成**按钮以关闭 Power Query 编辑器。 这将显示与实体列表_Online 的访问者_我们添加的数据。 选择**保存**在右上角中，为数据流中，提供一个名称，然后选择**保存**在对话框中，在下图中所示。
+选择“完成”按钮以关闭 Power Query 编辑器。 这将显示实体列表，其中包含我们添加的“在线访问者”数据。 选择右上角的“保存”，为数据流提供一个名称，然后从对话框选择“保存”，如下图所示。
 
 ![保存数据流](media/service-tutorial-build-machine-learning-model/tutorial-build-machine-learning-model-09.png)
 
 ### <a name="refresh-the-dataflow"></a>刷新数据流
 
-保存数据流导致显示一条通知，指出已保存到数据流。 选择**立即刷新**引入数据流的源中的数据。
+保存数据流后，将显示说明已保存数据流的通知。 选择“立即刷新”以将数据从源引入数据流。
 
 ![立即刷新](media/service-tutorial-build-machine-learning-model/tutorial-build-machine-learning-model-10.png)
 
-选择右上角的“关闭”  ，然后等待数据流刷新完成。
+选择右上角的“关闭”，然后等待数据流刷新完成。
 
-此外可以使用刷新到数据流**操作**命令。 刷新完成时，数据流将显示的时间戳。
+也可以使用“操作”命令来刷新数据流。 刷新完成时，数据流将显示时间戳。
 
 ![刷新的时间戳](media/service-tutorial-build-machine-learning-model/tutorial-build-machine-learning-model-11.png)
 
-## <a name="create-and-train-a-machine-learning-model"></a>创建并定型机器学习模型
+## <a name="create-and-train-a-machine-learning-model"></a>创建并训练机器学习模型
 
-刷新完成后，请选择数据流。 若要添加的机器学习模型，请选择**应用机器学习模型**按钮**操作**列出包含在定型数据和标签信息的基实体，然后选择**添加机器学习模型**。
+完成刷新后，选择数据流。 在包含训练数据和标签信息的基本实体的“操作”列表中，选择“应用 ML 模型”按钮，然后选择“添加机器学习模型，以添加机器学习模型”。
 
 ![添加机器学习模型](media/service-tutorial-build-machine-learning-model/tutorial-build-machine-learning-model-12.png)
 
-用于创建我们的机器学习模型的第一步是确定历史数据包括你要预测的标签字段。 将通过从这些数据中学习创建模型。
+创建机器学习模型的第 1 个步骤是确认历史数据，包括想要预测的标签字段。 将通过学习此数据创建模型。
 
-对于我们使用的数据集，这是**收入**字段。 选择**收入**作为历史结果字段值，然后选择**下一步**。
+对于我们所使用的数据集，即为“收入”字段。 选择“收入”作为“历史结果字段”值，然后选择“下一步”。
 
 ![选择历史数据](media/service-tutorial-build-machine-learning-model/tutorial-build-machine-learning-model-13.png)
 
-接下来，我们必须选择机器学习模型来创建的类型。 Power BI 分析你已识别的历史结果字段中的值，并提供建议的机器学习模型可用于创建预测该字段的类型。
+接下来必须选择要创建的机器学习模型的类型。 Power BI 将分析你已确认的历史结果字段中的值，并推荐可以创建以用于预测该字段的机器学习模型类型。
 
-在这种情况下，由于我们要预测二进制结果的还是用户将进行购买，或不选择**二元预测**以及该模型类型，然后选择下一步。
+在此示例中，由于预测的是关于用户是否购买的二进制结果，因此为模型类型选择“二进制预测”，然后选择“下一步”。
 
-![所选的二元预测](media/service-tutorial-build-machine-learning-model/tutorial-build-machine-learning-model-14.png)
+![已选择二进制预测](media/service-tutorial-build-machine-learning-model/tutorial-build-machine-learning-model-14.png)
 
-接下来，Power BI 将执行初步扫描的数据，并建议模型可以使用的输入。 您可以选择自定义用于模型的输入的字段。 在我们组织有序的数据集，若要选择的所有字段，都选择实体名称旁边的复选框。 选择**下一步**接受输入。
+接下来，Power BI 对数据执行初步扫描，并推荐模型可以使用的输入。 可以选择自定义用于模型的输入字段。 在我们特选的数据集中，选择实体名称旁边的复选框，以选中所有字段。 选择“下一步”，以接受输入。
 
-![选择下一步复选框](media/service-tutorial-build-machine-learning-model/tutorial-build-machine-learning-model-15.png)
+![选择“下一步”复选框](media/service-tutorial-build-machine-learning-model/tutorial-build-machine-learning-model-15.png)
 
-在最后一步，我们必须提供我们的模型的名称以及要在自动生成将汇总模型验证的结果的报表中使用的结果友好的标签。 接下来我们需要为模型命名_购买意向预测_，和 true 和 false 标签_采购_并_否购买_。 然后，选择“保存”  。
+在最后的步骤中，必须为模型提供名称，并为结果提供易记的标签，以便用于自动生成的用于汇总模型验证结果的报表。 接下来必须将模型命名为“购买意向预测”，并将 true 和 false 标签命名为“购买”和“未购买”。 然后，选择“保存”。
 
 ![保存模型](media/service-tutorial-build-machine-learning-model/tutorial-build-machine-learning-model-16.png)
 
-我们的机器学习模型现已准备好的培训。 选择**立即刷新**开始为模型定型。
+现在即可以训练机器学习模型。 选择“立即刷新”，开始训练模型。
 
 ![立即刷新](media/service-tutorial-build-machine-learning-model/tutorial-build-machine-learning-model-17.png)
 
-定型过程将开始通过采样和对历史数据进行规范化和将你的数据集拆分为两个新实体*购买意向预测定型数据*和*购买意向预测测试数据*。
+训练过程将从采集和规范化历史数据并将数据集拆分为两个新的实体（“购买意向预测训练数据”和“购买意向预测测试数据”）开始。
 
-具体取决于数据集的大小，定型过程可能需要几分钟到几个小时。 此时，请参阅中的模型**机器学习模型，** 与 dataflow 的选项卡。 _准备_状态指示已排队等候培训或低于培训的模型。
+在任何地方，训练过程均可能需要几分钟到几个小时，具体取决于数据集的大小。 此时，可以从数据流的“机器学习模型”选项卡看到此模型。 “已就绪”状态表示模型已在排队等待训练，或正在进行训练。
 
-![准备好进行培训](media/service-tutorial-build-machine-learning-model/tutorial-build-machine-learning-model-18.png)
+![已为训练准备就绪](media/service-tutorial-build-machine-learning-model/tutorial-build-machine-learning-model-18.png)
 
-训练模型时，你将无法查看或编辑数据流。 你可以确认在模型训练和验证通过数据流的状态。 这显示为正在进行中的数据刷新**数据流**工作区的选项卡。
+训练模型期间，你无法查看或编辑数据流。 可以通过数据流的状态确认正在训练和验证模型。 在工作区的“数据流”选项卡中，它显示为数据刷新“正在进行中”。
 
-![在过程中](media/service-tutorial-build-machine-learning-model/tutorial-build-machine-learning-model-19.png)
+![正在进行中](media/service-tutorial-build-machine-learning-model/tutorial-build-machine-learning-model-19.png)
 
-模型训练完成后，数据流将显示更新的刷新时间。 你可以确认对模型进行训练，通过导航到**机器学习模型，** 数据流中的选项卡。 你创建的模型应显示状态为**Trained**并**最后一个训练**现在应该更新时间。
+模型训练完成后，数据流显示更新后的刷新时间。 导航到数据流的“机器学习模型”选项卡，即可确认是否已训练模型。 创建的模型显示的状态应为“已训练”，并且“上一次训练”时间现在应更新。
 
-![在最后一次培训](media/service-tutorial-build-machine-learning-model/tutorial-build-machine-learning-model-20.png)
+![上次训练时间](media/service-tutorial-build-machine-learning-model/tutorial-build-machine-learning-model-20.png)
 
-## <a name="review-the-model-validation-report"></a>查看模型验证报表
+## <a name="review-the-model-validation-report"></a>查看模型验证报告
 
-若要查看模型验证报表，在**机器学习模型，s**选择**查看性能报告和应用模型**按钮**操作**模型列. 此报告描述如何在机器学习模型是可能会执行。
+在“机器学习模型”中，从模型的“操作”列选择“查看性能报表并应用模型”按钮，以查看模型验证报告。 此报告描述机器学习模型的性能趋势。
 
-在中**模型性能**的报表中，选择页**关键影响因素**若要查看为您的模型上的预测值。 您可以选择一个预测值，若要查看如何与该预测值关联的结果分布。
+在报告的“模型性能”页中，选择“关键影响因素”，以查看模型的主要预测指标。 可以选择一个预测指标，查看结果分步与该预测指标的关联。
 
 ![模型性能](media/service-tutorial-build-machine-learning-model/tutorial-build-machine-learning-model-21.png)
 
-可以使用**概率阈值**模型性能页上的切片器来检查它的精度和召回率对模型的影响。
+在“模型性能”页上，可以使用“概率阈值”切片器，来查看它对模型的“精度”和“召回率”的影响。
 
 ![概率阈值](media/service-tutorial-build-machine-learning-model/tutorial-build-machine-learning-model-22.png)
 
-报表的其他页面描述模型的性能统计度量值。
+报告的其他页描述模型的统计学性能指标。
 
-该报告还包括培训的详细信息页面，介绍了运行时，如何从输入和使用的最终模型超参数提取功能的不同迭代。
+此报告还包括“训练详细信息”页，其中说明了运行的各种迭代、如何从输入提取特征，以及使用的最终模型的超参数。
 
-## <a name="apply-the-model-to-a-dataflow-entity"></a>将模型应用到数据流的实体
+## <a name="apply-the-model-to-a-dataflow-entity"></a>将模型应用于数据流实体
 
-选择**应用模型**要刷新数据流时调用此模型的报表的顶部的按钮。 在中**应用**对话框中，可以指定包含源数据模型应该应用于目标实体。
+从报告顶部选择“应用模型”按钮，以在刷新数据流时调用此模型。 在“应用”对话框中，可以指定包含模型应应用到的源数据的目标实体。
 
 ![应用模型](media/service-tutorial-build-machine-learning-model/tutorial-build-machine-learning-model-23.png)
 
-出现提示时，您必须**刷新**数据流，以预览您的模型的结果。
+出现提示时，必须刷新数据流才能预览模型的结果。
 
-应用模型将会创建一个新的实体，带有后缀**丰富 < model_name >** 追加到该模型应用于的实体。 在本例中，将应用到模型**OnlineShoppers**将创建实体**OnlineShoppers 丰富购买意向预测**，其中包括从模型预测的输出。
+应用模型后，将创建新实体，并将后缀“已扩充的 <model_name>”追加到应用模型的实体。 在此示例中，将模型应用到“OnlineShoppers”实体后，将创建“已扩充 OnlineShoppers 的购买意向预测“，其中包括模型的预测输出。
 
-应用的二元预测模型，将增加与预测的结果、 概率分数和预测的顶部特定于记录的影响因素的三个列，每个指定的列名称作为前缀。
+应用二进制预测模型后，将添加三个列，其中包含预测的结果、概率评分以及预测的特定于记录的主要影响因素，每个列的前面均有指定的列名称。
 
-![三个列的结果](media/service-tutorial-build-machine-learning-model/tutorial-build-machine-learning-model-24.png)
+![结果的三个列](media/service-tutorial-build-machine-learning-model/tutorial-build-machine-learning-model-24.png)
 
-由于的已知问题，才可从 Power BI Desktop 访问丰富的实体中的已评分的输出列。 若要预览这些服务中，必须使用特殊预览版实体。
+鉴于已知问题，只可以从 Power BI Desktop 访问已扩充实体中的评分输出列。 必须使用专门的预览实体，才能在服务中预览它们。
 
-数据流刷新完成后，可以选择**OnlineShoppers 丰富购买意向预测预览**实体以查看结果。
+数据流刷新完成后，可以选择“已扩充 OnlineShoppers 的购买意向预测预览”实体，以查看结果。
 
 ![查看结果](media/service-tutorial-build-machine-learning-model/tutorial-build-machine-learning-model-25.png)
 
-## <a name="using-the-scored-output-from-the-model-in-a-power-bi-report"></a>在 Power BI 报表中使用该模型的已评分的输出
+## <a name="using-the-scored-output-from-the-model-in-a-power-bi-report"></a>在 Power BI 报表中使用模型的评分输出
 
-若要使用的机器学习模型评分的输出，也可以使用连接到在数据流从 Power BI desktop 中，数据流连接器。 **OnlineShoppers 丰富购买意向预测**实体现在可用于将合并从 Power BI 报表中模型的预测。
+可以使用数据流，从 Power BI Desktop 连接器连接到数据流，以使用机器学习模型的评分输出。 在 Power BI 报表中，现在可以使用“已扩充 OnlineShoppers 的购买意向预测”实体合并模型的预测。
 
 ## <a name="next-steps"></a>后续步骤
 
-在本教程中，将创建并应用中 Power BI 中使用这些步骤的二元预测模型：
+在此教程中，你通过以下步骤在 Power BI 中创建并应用了二进制预测模型：
 
 * 使用输入数据创建数据流
-* 创建并定型机器学习模型
-* 查看模型验证报表
-* 将模型应用到数据流的实体
-* 在 Power BI 报表中使用该模型的已评分的输出
+* 创建并训练机器学习模型
+* 查看模型验证报告
+* 将模型应用于数据流实体
+* 在 Power BI 报表中使用模型的评分输出
 
-有关 Power BI 中的机器学习自动化的详细信息，请参阅[自动在 Power BI （预览版） 中的机器学习](service-machine-learning-automated.md)。
+有关 Power BI 中的机器学习自动化的详细信息，请参阅 [Power BI 中的自动机器学习（预览版）](service-machine-learning-automated.md)。

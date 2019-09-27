@@ -9,7 +9,7 @@ ms.topic: conceptual
 ms.date: 06/30/2018
 ms.openlocfilehash: 7f05da6d49a1aeddedfe145bebf0324e3af51572
 ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: zh-CN
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "61270416"
@@ -25,7 +25,7 @@ Microsoft 最近[发布了 Power BI Embedded](https://powerbi.microsoft.com/blog
 当前的 Power BI 工作区集合还将提供一段时间。 签署了企业协议的客户将在现有协议的有效期内具有访问权限；自 Power BI Embedded 通用版发布起，通过 Direct 或 CSP 通道获取 Power BI 工作区集合的客户还将具有一年的访问权限。  本文将在以下方面提供指导：如何从 Power BI 工作区集合迁移到新的 Power BI Embedded 体验，以及应用程序中会有哪些更改。
 
 > [!IMPORTANT]
-> 虽然 Power BI Embedded 上的迁移具有依赖项，但在使用嵌入令牌时，Power BI 上没有为应用程序的用户提供依赖项  。 用户不需要注册 Power BI 来查看应用程序中嵌入的内容。 可为嵌入的非 Power BI 用户使用此嵌入方法。
+> 虽然 Power BI Embedded 上的迁移具有依赖项，但在使用嵌入令牌时，Power BI 上没有为应用程序的用户提供依赖项。 用户不需要注册 Power BI 来查看应用程序中嵌入的内容。 可为嵌入的非 Power BI 用户使用此嵌入方法。
 
 ![嵌入流](media/migrate-from-powerbi-embedded/powerbi-embed-flow.png)
 
@@ -66,7 +66,7 @@ Microsoft 最近[发布了 Power BI Embedded](https://powerbi.microsoft.com/blog
 
     应根据需要将这些用户分配到应用工作区。
 
-3. 应用程序主用户帐户或嵌入帐户  。
+3. 应用程序主用户帐户或嵌入帐户。
 
     应用程序后端将存储此帐户的凭据，并将其用于获取与 Power BI REST API 一起使用的 Azure AD 身份验证令牌。 此帐户将用于生成应用程序的嵌入令牌。 此帐户还必须是为实现嵌入而创建的应用工作区的管理员。
 
@@ -81,7 +81,7 @@ Microsoft 最近[发布了 Power BI Embedded](https://powerbi.microsoft.com/blog
 
 必须向 Azure AD 注册应用，才能执行 REST API 调用。 除了转到 Power BI 应用注册页，这还包括转到 Azure 门户来应用其他配置。 有关详细信息，请参阅[注册 Azure AD 应用以便嵌入 Power BI 内容](register-app.md)。
 
-应使用应用主  帐户来注册应用。
+应使用应用主帐户来注册应用。
 
 ## <a name="create-app-workspaces-required"></a>创建应用工作区（必需）
 
@@ -93,13 +93,13 @@ Microsoft 最近[发布了 Power BI Embedded](https://powerbi.microsoft.com/blog
 你将需要具有 Pro 许可证的用户才能在 Power BI 中创建应用工作区。 默认情况下，创建应用工作区的 Power BI 用户将成为该工作区的管理员。
 
 > [!NOTE]
-> 应用主  帐户必须是工作区的管理员。
+> 应用主帐户必须是工作区的管理员。
 
 ## <a name="content-migration"></a>内容迁移
 
 在执行当前解决方案时，可同时将内容从工作区集合迁移到 Power BI Embedded，不需要停机处理。
 
-可使用迁移工具，更轻松地将 Power BI 工作区集合中的内容复制到 Power BI Embedded  。 尤其是有大量内容时。 有关详细信息，请参阅 [Power BI Embedded 迁移工具](migrate-tool.md)。
+可使用迁移工具，更轻松地将 Power BI 工作区集合中的内容复制到 Power BI Embedded。 尤其是有大量内容时。 有关详细信息，请参阅 [Power BI Embedded 迁移工具](migrate-tool.md)。
 
 内容迁移主要依赖两个 API。
 
@@ -116,7 +116,7 @@ Microsoft 最近[发布了 Power BI Embedded](https://powerbi.microsoft.com/blog
 
 缓存数据集是指已导入数据的 PBIX 文件，而不是采用实时连接或 DirectQuery 连接。
 
-流 
+流
 
 1. 从 PaaS 工作区调用下载 PBIX API。
 2. 保存 PBIX。
@@ -124,30 +124,30 @@ Microsoft 最近[发布了 Power BI Embedded](https://powerbi.microsoft.com/blog
 
 #### <a name="directquery-dataset--report"></a>DirectQuery 数据集和报表
 
-流 
+流
 
 1. 调用 GET https://api.powerbi.com/v1.0/collections/{collection_id}/workspaces/{wid}/datasets/{dataset_id}/Default.GetBoundGatewayDataSources 并保存收到的连接字符串。
 2. 从 PaaS 工作区调用下载 PBIX API。
 3. 保存 PBIX。
 4. 将导入 PBIX 调用到 SaaS 工作区。
 5. 通过调用 POST 更新连接字符串 https://api.powerbi.com/v1.0/myorg/datasets/{dataset_id}/Default.SetAllConnections
-6. 通过调用获取 GW 和数据源标识符-获取 https://api.powerbi.com/v1.0/myorg/datasets/{dataset_id}/Default.GetBoundGatewayDataSources
+6. 通过调用 GET 获取 GW 和数据源标识符https://api.powerbi.com/v1.0/myorg/datasets/{dataset_id}/Default.GetBoundGatewayDataSources
 7. 通过调用 PATCH 更新用户凭据 https://api.powerbi.com/v1.0/myorg/gateways/{gateway_id}/datasources/{datasource_id}
 
 #### <a name="old-dataset--reports"></a>旧数据集和报表
 
 这些数据集/报表是在 2016 年 10 月之前创建的。 下载 PBIX 不支持 2016 年 10 月之前上传的 PBIX
 
-流 
+流
 
 1. 从开发环境中获取 PBIX（内部源代码管理）。
 2. 将导入 PBIX 调用到 SaaS 工作区。
 
 #### <a name="push-dataset--report"></a>推送数据集和报表
 
-下载 PBIX 不支持推送 API  数据集。 无法将推送 API 数据集从 PaaS 移植到 SaaS。
+下载 PBIX 不支持推送 API 数据集。 无法将推送 API 数据集从 PaaS 移植到 SaaS。
 
-流 
+流
 
 1. 使用数据集 JSON 调用“创建数据集” API，在 SaaS 工作区中创建数据集。
 2. 为创建的数据集重新生成报表*。
