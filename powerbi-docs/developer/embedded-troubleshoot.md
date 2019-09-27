@@ -208,12 +208,12 @@ Add-AzureADServicePrincipalPolicy -Id $sp.ObjectId -RefObjectId $policy.Id
 |-------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------|-----------|--------------------------------------------------------|
 | TokenExpired | 访问令牌已过期，请使用新的访问令牌重新提交 | 403 | 令牌已过期  |
 | PowerBIEntityNotFound | 获取报表失败 | 404 | <li> 报表 ID 错误 <li> 报表不存在  |
-| 参数无效 | 未指定 powerbiToken 参数 | N/A | <li> 未提供任何访问令牌 <li> 未提供任何报表 ID |
+| 参数无效 | 未指定 powerbiToken 参数 | 不适用 | <li> 未提供任何访问令牌 <li> 未提供任何报表 ID |
 | LoadReportFailed | 初始化失败，无法解析群集 | 403 | *访问令牌不正确* 嵌入类型与令牌类型不匹配 |
 | PowerBINotAuthorizedException | 获取报表失败 | 401 | <li> 组 ID 错误 <li> 组未经授权 |
-| TokenExpired | 访问令牌已过期，请使用新的访问令牌重新提交。 无法呈现以下标题的报表视觉对象：<visual title> | N/A | 查询数据令牌已过期 |
-| OpenConnectionError | 无法显示视觉对象。 无法呈现以下标题的报表视觉对象：<visual title> | N/A | 在会话中打开与容量相关的报表时，容量遭暂停或删除 |
-| ExplorationContainer_FailedToLoadModel_DefaultDetails | 无法加载与此报表关联的模型架构。 请确保你已连接到服务器，然后重试。 | N/A | <li> 容量已暂停 <li> 容量已删除 |
+| TokenExpired | 访问令牌已过期，请使用新的访问令牌重新提交。 无法呈现以下标题的报表视觉对象：<visual title> | 不适用 | 查询数据令牌已过期 |
+| OpenConnectionError | 无法显示视觉对象。 无法呈现以下标题的报表视觉对象：<visual title> | 不适用 | 在会话中打开与容量相关的报表时，容量遭暂停或删除 |
+| ExplorationContainer_FailedToLoadModel_DefaultDetails | 无法加载与此报表关联的模型架构。 请确保你已连接到服务器，然后重试。 | 不适用 | <li> 容量已暂停 <li> 容量已删除 |
 
 ### <a name="typical-errors-when-embedding-for-non-power-bi-users-using-an-embed-token"></a>（使用嵌入令牌）为非 Power BI 用户嵌入内容时的典型错误
 
@@ -223,12 +223,12 @@ Add-AzureADServicePrincipalPolicy -Id $sp.ObjectId -RefObjectId $policy.Id
 | LoadReportFailed | 获取报表失败 | 404 | <li> 报表 ID 错误 <li> 报表不存在  |
 | LoadReportFailed | 获取报表失败 | 403 | 报表 ID 与令牌不匹配 |
 | LoadReportFailed | 获取报表失败 | 500 | 提供的报表 ID 不是 guid |
-| 参数无效 | 未指定 powerbiToken 参数 | N/A | <li> 未提供任何访问令牌 <li> 未提供任何报表 ID |
+| 参数无效 | 未指定 powerbiToken 参数 | 不适用 | <li> 未提供任何访问令牌 <li> 未提供任何报表 ID |
 | LoadReportFailed | 初始化失败，无法解析群集 | 403 | 令牌类型错误，令牌不正确 |
 | PowerBINotAuthorizedException | 获取报表失败 | 401 | 错误/为组 ID 取消授权 |
-| TokenExpired | 访问令牌已过期，请使用新的访问令牌重新提交。 无法呈现以下标题的报表视觉对象：<visual title> | N/A | 查询数据令牌已过期 |
-| OpenConnectionError | 无法显示视觉对象。 无法呈现以下标题的报表视觉对象：<visual title> | N/A | 在会话中打开与容量相关的报表时，容量遭暂停或删除 |
-| ExplorationContainer_FailedToLoadModel_DefaultDetails | 无法加载与此报表关联的模型架构。 请确保你已连接到服务器，然后重试。 | N/A | <li> 容量已暂停 <li> 容量已删除 |
+| TokenExpired | 访问令牌已过期，请使用新的访问令牌重新提交。 无法呈现以下标题的报表视觉对象：<visual title> | 不适用 | 查询数据令牌已过期 |
+| OpenConnectionError | 无法显示视觉对象。 无法呈现以下标题的报表视觉对象：<visual title> | 不适用 | 在会话中打开与容量相关的报表时，容量遭暂停或删除 |
+| ExplorationContainer_FailedToLoadModel_DefaultDetails | 无法加载与此报表关联的模型架构。 请确保你已连接到服务器，然后重试。 | 不适用 | <li> 容量已暂停 <li> 容量已删除 |
 
 ## <a name="content-rendering"></a>内容呈现
 

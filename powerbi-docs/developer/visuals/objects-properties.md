@@ -1,20 +1,20 @@
 ---
 title: Power BI 视觉对象的对象和属性
 description: 本文介绍 Power BI 视觉对象的可自定义属性。
-author: MrMeison
-ms.author: rasala
+author: KesemSharabi
+ms.author: kesharab
 manager: rkarlin
 ms.reviewer: sranins
 ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: conceptual
 ms.date: 06/18/2019
-ms.openlocfilehash: e15d80af35ff7c56879dab4380d4ae0c9fdd0e8a
-ms.sourcegitcommit: b602cdffa80653bc24123726d1d7f1afbd93d77c
+ms.openlocfilehash: b2043c6727e4cf8c5c46c4e277b01a9ea04a969b
+ms.sourcegitcommit: e2de2e8b8e78240c306fe6cca820e5f6ff188944
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/03/2019
-ms.locfileid: "70236617"
+ms.lasthandoff: 09/23/2019
+ms.locfileid: "71193519"
 ---
 # <a name="objects-and-properties-of-power-bi-visuals"></a>Power BI 视觉对象的对象和属性
 

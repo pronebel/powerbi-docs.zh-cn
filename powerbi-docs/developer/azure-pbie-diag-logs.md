@@ -132,7 +132,7 @@ ms.locfileid: "68289846"
 | ProgressTotal | 0 | 总进度。 |
 | IntegerData | 0 | 整型数据。 |
 | Severity | 0 | 异常错误的严重级别。 |
-| Success | 1 | 1 = 成功。 0 = 失败（例如，1 表示权限检查成功，而 0 表示权限检查失败）。 |
+| Success | 第 1 个 | 1 = 成功。 0 = 失败（例如，1 表示权限检查成功，而 0 表示权限检查失败）。 |
 | Error | 0 | 给定事件的错误号。 |
 | ConnectionID | 3 | 唯一连接 ID。 |
 | DatasetID | 5eaa550e-06ac-4adf-aba9-dbf0e8fd1527 | 正在运行用户语句的数据集的 ID。 |

@@ -11,7 +11,7 @@ ms.topic: conceptual
 ms.date: 02/05/2019
 ms.openlocfilehash: 4bc24df67dd7d2b8ac0ae987ad2e50cff082c73f
 ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: zh-CN
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "65710372"
@@ -21,7 +21,7 @@ ms.locfileid: "65710372"
 
 在将数据推送到数据集的**步骤 2**（[获取身份验证访问令牌](walkthrough-push-data-get-token.md)）中，你获得一个对 **Azure AD** 进行身份验证的令牌。 在此步骤中，使用该令牌调用 [PostDataset](https://docs.microsoft.com/rest/api/power-bi/pushdatasets) 操作。
 
-若要调用 REST 资源，需用定位该资源的 URL，并向 Power BI 服务资源发送描述数据集的 JavaScript 对象表示法 (JSON) 字符串。 REST 资源可标识你想使用的 Power BI 服务的部分。 要将数据推送到数据集，目标资源为**数据集**。 标识数据集的 URL 是 https://api.PowerBI.com/v1.0/myorg/datasets。 如果你正在推送组内的数据，该 URL 为 https://api.PowerBI.com/v1.0/myorg/groups/{group_id}/datasets。
+若要调用 REST 资源，需用定位该资源的 URL，并向 Power BI 服务资源发送描述数据集的 JavaScript 对象表示法 (JSON) 字符串。 REST 资源可标识你想使用的 Power BI 服务的部分。 要将数据推送到数据集，目标资源为**数据集**。 标识数据集的 URL 是 https://api.PowerBI.com/v1.0/myorg/datasets 。 如果你正在推送组内的数据，该 URL 为 https://api.PowerBI.com/v1.0/myorg/groups/{group_id}/datasets 。
 
 若要对 Power BI REST 操作进行身份验证，请将[获取身份验证访问令牌](walkthrough-push-data-get-token.md)中获得的令牌添加到请求头中：
 
