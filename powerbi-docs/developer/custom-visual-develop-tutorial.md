@@ -1,26 +1,26 @@
 ---
 title: 开发 Power BI 视觉对象
 description: 有关如何开发 Power BI 自定义视觉对象的教程
-author: sranins
-ms.author: rasala
-manager: kfile
+author: KesemSharabi
+ms.author: kesharab
+manager: rkarlin
 ms.reviewer: maghan
 ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: tutorial
 ms.date: 03/15/2019
-ms.openlocfilehash: 2dc1d0a316319867513dc9f25a195c3f2d1140b9
-ms.sourcegitcommit: 473d031c2ca1da8935f957d9faea642e3aef9839
+ms.openlocfilehash: 5d9ed20435069fa31707d9532141558351ec63ba
+ms.sourcegitcommit: e2de2e8b8e78240c306fe6cca820e5f6ff188944
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/23/2019
-ms.locfileid: "68415431"
+ms.lasthandoff: 09/23/2019
+ms.locfileid: "71194493"
 ---
 # <a name="tutorial-developing-a-power-bi-visual"></a>教程：开发 Power BI 视觉对象
 
-我们正努力使开发人员能够轻松地将自定义视觉对象添加到 Power BI 中，以便在仪表板和报告中使用。 为了帮助你开始使用，我们已将所有可视化对象的代码发布到 GitHub 中。
+我们正努力使开发人员能够轻松地将 Power BI 视觉对象添加到 Power BI 中，以便在仪表板和报告中使用。 为了帮助你开始使用，我们已将所有可视化效果的代码发布到 GitHub 中。
 
-除了可视化框架，我们还提供测试套件和工具来帮助社区针对 Power BI 生成高质量的自定义视觉对象。
+除了可视化框架，我们还提供测试套件和工具来帮助社区针对 Power BI 生成高质量的 Power BI 视觉对象。
 
 本教程演示了如何开发名为“Circle Card”的 Power BI 自定义视觉对象，以便在圆圈内显示格式化的度量值。 Circle Card 视觉对象支持自定义填充颜色及其轮廓的粗细。
 

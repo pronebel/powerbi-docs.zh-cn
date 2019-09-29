@@ -1,20 +1,20 @@
 ---
 title: 了解 Power BI 视觉对象中的数据视图映射
 description: 本文介绍了 Power BI 如何在将数据传递给视觉对象之前对其进行转换。
-author: asander
-ms.author: asander
+author: KesemSharabi
+ms.author: kesharab
 manager: rkarlin
 ms.reviewer: sranins
 ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: conceptual
 ms.date: 06/18/2019
-ms.openlocfilehash: 07989183688045f34d78e71cdaad5045d080f436
-ms.sourcegitcommit: b602cdffa80653bc24123726d1d7f1afbd93d77c
+ms.openlocfilehash: 77d5d6423c8246712d12dcc041d32ae73f68b72e
+ms.sourcegitcommit: e2de2e8b8e78240c306fe6cca820e5f6ff188944
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/03/2019
-ms.locfileid: "70237241"
+ms.lasthandoff: 09/23/2019
+ms.locfileid: "71193558"
 ---
 # <a name="understand-data-view-mapping-in-power-bi-visuals"></a>了解 Power BI 视觉对象中的数据视图映射
 
@@ -618,7 +618,7 @@ Power BI 的核心矩阵视觉对象将数据呈现为表。
 
 若要控制在数据视图中接收的数据量，可以应用数据缩减算法。
 
-默认情况下，所有自定义视觉对象都应用了顶级数据缩减算法，并将“count”设置为 1000 个数据点  。 这相当于在 capabilities.json 中设置了以下属性  ：
+默认情况下，所有 Power BI 视觉对象都应用了顶级数据缩减算法，并将“count”设置为 1000 个数据点  。 这相当于在 capabilities.json 中设置了以下属性  ：
 
 ```json
 "dataReductionAlgorithm": {
@@ -628,7 +628,7 @@ Power BI 的核心矩阵视觉对象将数据呈现为表。
 }
 ```
 
-可以将“count”值修改为不超过 30000 的任何整数值  。 基于 R 的自定义视觉对象最多可支持 150000 行。
+可以将“count”值修改为不超过 30000 的任何整数值  。 基于 R 的 Power BI 视觉对象最多可支持 150000 行。
 
 ## <a name="data-reduction-algorithm-types"></a>数据缩减算法类型
 

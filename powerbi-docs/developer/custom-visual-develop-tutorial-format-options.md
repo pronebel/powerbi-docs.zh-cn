@@ -1,22 +1,22 @@
 ---
 title: 向 Power BI 自定义视觉对象添加格式设置选项
 description: 有关如何开发 Power BI 自定义视觉对象格式选项的教程
-author: sranins
-ms.author: rasala
-manager: kfile
+author: KesemSharabi
+ms.author: kesharab
+manager: rkarlin
 ms.reviewer: maghan
 ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: tutorial
 ms.date: 11/21/2018
-ms.openlocfilehash: 56134143a752a094c339248c3eeeab57116d3501
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: 5fa14e3aa8a303206d52359d04db05850e096d81
+ms.sourcegitcommit: e2de2e8b8e78240c306fe6cca820e5f6ff188944
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61379560"
+ms.lasthandoff: 09/23/2019
+ms.locfileid: "71194581"
 ---
-# <a name="tutorial-adding-formatting-options-to-a-power-bi-custom-visual"></a>教程：向 Power BI 自定义视觉对象添加格式设置选项
+# <a name="tutorial-adding-formatting-options-to-a-power-bi-visual"></a>教程：向 Power BI 视觉对象添加格式设置选项
 
 在本教程中，我们将演示如何向视觉对象添加公共属性。
 
@@ -263,4 +263,4 @@ ms.locfileid: "61379560"
 
 ## <a name="next-steps"></a>后续步骤
 
-可以将新开发的视觉对象提交到 AppSource  ，从而列出该视觉对象供其他人使用。 有关此过程的详细信息，请参阅[将自定义视觉对象发布到 AppSource](office-store.md)。
+可以将新开发的视觉对象提交到 AppSource  ，从而列出该视觉对象供其他人使用。 有关此过程的详细信息，请参阅[将 Power BI 视觉对象发布到 AppSource](office-store.md)。

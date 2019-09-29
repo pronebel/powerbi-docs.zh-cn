@@ -1,24 +1,24 @@
 ---
 title: 添加对 Power BI 视觉对象的书签支持
 description: Power BI 视觉对象可以处理书签切换
-author: zBritva
-ms.author: v-ilgali
+author: KesemSharabi
+ms.author: kesharab
 manager: rkarlin
 ms.reviewer: sranins
 ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: conceptual
 ms.date: 06/18/2019
-ms.openlocfilehash: c7fb8fa6fcf8c07f0d8f466892fff8d03a492a79
-ms.sourcegitcommit: b602cdffa80653bc24123726d1d7f1afbd93d77c
+ms.openlocfilehash: c19b67a59d0ecb4cbfbcf5ad8dd18886f440e164
+ms.sourcegitcommit: e2de2e8b8e78240c306fe6cca820e5f6ff188944
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/03/2019
-ms.locfileid: "70237276"
+ms.lasthandoff: 09/23/2019
+ms.locfileid: "71194436"
 ---
 # <a name="add-bookmark-support-for-power-bi-visuals"></a>添加对 Power BI 视觉对象的书签支持
 
-使用 Power BI 报表书签可捕获报表页的配置视图、选择状态、视觉对象的筛选状态。 但它需要来自自定义视觉对象的其他操作来支持书签并对更改做出正确反应。
+使用 Power BI 报表书签可捕获报表页的配置视图、选择状态、视觉对象的筛选状态。 但它需要来自 Power BI 视觉对象的其他操作来支持书签并对更改做出正确反应。
 
 有关书签的详细信息，请参阅[使用书签在 Power BI 中共享见解和创建故事](https://docs.microsoft.com/power-bi/desktop-bookmarks)。
 
@@ -32,7 +32,7 @@ ms.locfileid: "70237276"
 
 2. 将视觉对象 API 更新到版本 1.11.0，以便在 `SelectionManager` 的实例中使用 `registerOnSelectCallback`。 使用普通 `SelectionManager` 而非 `InteractivityService` 的非筛选器视觉对象都需要它。
 
-### <a name="how-custom-visuals-interact-with-power-bi-in-report-bookmarks"></a>自定义视觉对象如何在报表书签中与 Power BI 进行交互
+### <a name="how-power-bi-visuals-interact-with-power-bi-in-report-bookmarks"></a>Power BI 视觉对象如何在报表书签中与 Power BI 进行交互
 
 请考虑以下情景：你希望在报表页上创建多个书签，每个书签中都有不同的选择状态。
 

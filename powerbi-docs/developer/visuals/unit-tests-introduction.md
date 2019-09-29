@@ -1,20 +1,20 @@
 ---
 title: Power BI 视觉对象项目的单元测试简介
 description: 本文介绍如何为 Power BI 视觉对象项目编写单元测试
-author: zBritva
-ms.author: v-ilgali
+author: KesemSharabi
+ms.author: kesharab
 manager: rkarlin
 ms.reviewer: sranins
 ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: tutorial
 ms.date: 06/18/2019
-ms.openlocfilehash: f0040ef53fbbce8c7133e5f645bcbddb0bbfadea
-ms.sourcegitcommit: b602cdffa80653bc24123726d1d7f1afbd93d77c
+ms.openlocfilehash: bb9835ceba302716c2c4b1e28eda33c6e4b1db42
+ms.sourcegitcommit: e2de2e8b8e78240c306fe6cca820e5f6ff188944
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/03/2019
-ms.locfileid: "70236717"
+ms.lasthandoff: 09/23/2019
+ms.locfileid: "71192477"
 ---
 # <a name="tutorial-add-unit-tests-for-power-bi-visual-projects"></a>教程：为 Power BI 视觉对象项目添加单元测试
 
@@ -616,4 +616,4 @@ Lines        : 52.83% ( 112/212 )
 
 ## <a name="next-steps"></a>后续步骤
 
-当视觉对象就绪时，你可以提交并发布它。 有关详细信息，请参阅[将自定义视觉对象发布到 AppSource](../office-store.md)。
+当视觉对象就绪时，你可以提交并发布它。 有关详细信息，请参阅[将 Power BI 视觉对象发布到 AppSource](../office-store.md)。

@@ -1,20 +1,20 @@
 ---
 title: Power BI 视觉对象指南
 description: 了解如何将自定义视觉对象发布到 AppSource 让其他人了解并付费使用。
-author: sranins
-ms.author: rasala
-manager: kfile
+author: KesemSharabi
+ms.author: kesharab
+manager: rkarlin
 ms.reviewer: maghan
 ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: conceptual
 ms.date: 07/16/2019
-ms.openlocfilehash: 6a2fce59171ec36241cd5de03d41f6a27f54c664
-ms.sourcegitcommit: 390dc3716d5c83385bedde63dd152431a77020e2
+ms.openlocfilehash: 71752a635c69e6712befbb00e942189fa4dacc36
+ms.sourcegitcommit: e2c5d4561455c3a4806ace85defbc72e4d7573b4
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/22/2019
-ms.locfileid: "68380208"
+ms.lasthandoff: 09/27/2019
+ms.locfileid: "71327736"
 ---
 # <a name="guidelines-for-power-bi-visuals"></a>Power BI 视觉对象指南
 在将视觉对象[发布](https://docs.microsoft.com/power-bi/developer/office-store)到 AppSource 供其他人发现和使用之前，请确保遵循指导原则为用户创造好的体验。 
@@ -25,11 +25,14 @@ ms.locfileid: "68380208"
 
 
 ## <a name="logo-guidelines"></a>徽标指南
+> [!NOTE]
+> 本文中的徽标一词指下面图片中所描述的任何商业性质的公司图标。 
 
-本部分介绍了在视觉对象中添加徽标和标识的规范。 徽标并非强制需要。 如果已添加徽标，则其必须遵循这些准则。 
+本部分介绍了在 Power BI 视觉对象中添加徽标的规范。 徽标并非强制需要。 如果已添加徽标，则其必须遵循这些准则。 
 
 > [!IMPORTANT]
 > 仅允许在编辑模式下使用徽标  。 无法在查看模式下显示徽标  。
+
 
 ![定义](media/guidelines-powerbi-visuals/definitions.png)
 
@@ -44,11 +47,13 @@ ms.locfileid: "68380208"
 ![编辑模式](media/guidelines-powerbi-visuals/logos-in-edit-mode.png)
 
 
+在阅读模式下，信息性图标（如果存在）应符合上述徽标的颜色、大小和位置。
+
 ## <a name="guidelines-for-power-bi-visuals-with-additional-purchases"></a>额外购买的 Power BI 视觉对象指南
 
 一直到最近，市场 (AppSource) 仅接受免费的 Power BI 视觉对象。 此策略已更改（2018 年 12 月），还可以向 AppSource 提交带有“可能需要额外付费”价格标签的视觉对象。 
 
-“可能需要额外付费”的视觉对象类似于 Office 应用商店中的应用内购买 (IAP) 加载项。 在得到 AppSource 团队的批准，并确保视觉对象符合认证要求后，开发人员还可提交这些视觉对象进行认证。 有关要求的详细信息，请参阅[认证的自定义视觉对象](../power-bi-custom-visuals-certified.md)。
+“可能需要额外付费”的视觉对象类似于 Office 应用商店中的应用内购买 (IAP) 加载项。 在得到 AppSource 团队的批准，并确保视觉对象符合认证要求后，开发人员还可提交这些视觉对象进行认证。 有关要求的详细信息，请参阅[认证的 Power BI 视觉对象](../power-bi-custom-visuals-certified.md)。
 
 > [!NOTE]
 > 要认证的视对象觉不得访问外部服务或资源。
