@@ -7,16 +7,16 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 04/25/2019
+ms.date: 09/17/2019
 ms.author: mblythe
 ms.custom: seodec18
 LocalizationGroup: Troubleshooting
-ms.openlocfilehash: 710fb4cdcf9efb051434966d47c2eaced17ac9ba
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: ea1756b82efe6a68940ae3c5094eafc9c3ca4c7c
+ms.sourcegitcommit: 57e45f291714ac99390996a163436fa1f76db427
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "65100247"
+ms.lasthandoff: 09/26/2019
+ms.locfileid: "71305874"
 ---
 # <a name="capture-additional-diagnostic-information-for-power-bi"></a>捕获 Power BI 的其他诊断信息
 
@@ -24,11 +24,11 @@ ms.locfileid: "65100247"
 
 1. 通过 Microsoft Edge 或 Internet Explorer 浏览到 [Power BI](https://app.powerbi.com)。
 
-1. 按 F12 以打开 Microsoft Edge 开发人员工具。
+1. 按 F12  以打开 Microsoft Edge 开发人员工具。
 
    ![Microsoft Edge 开发人员工具“元素”选项卡屏幕截图。](media/service-admin-capturing-additional-diagnostic-information-for-power-bi/edge-developer-tools.png)
 
-1. 选择“网络”选项卡。它将列出已捕获的流量。
+1. 选择“网络”选项卡  。它将列出已捕获的流量。
 
    ![Microsoft Edge 开发人员工具“网络”选项卡屏幕截图。](media/service-admin-capturing-additional-diagnostic-information-for-power-bi/edge-network-tab.png)
 
@@ -38,7 +38,7 @@ ms.locfileid: "65100247"
 
     * 可以在会话期间随时通过按 F12 来隐藏和显示开发人员工具窗口。
 
-1. 若要停止分析会话，可以选择开发人员工具区域的“网络”选项卡上的红色方块。
+1. 若要停止分析会话，可以选择开发人员工具区域的“网络”  选项卡上的红色方块。
 
    ![Microsoft Edge 开发人员工具“网络”选项卡屏幕截图，其中包含“停止”按钮。](media/service-admin-capturing-additional-diagnostic-information-for-power-bi/edge-network-tab-stop.png)
 

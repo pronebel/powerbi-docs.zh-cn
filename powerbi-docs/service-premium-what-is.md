@@ -8,15 +8,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
-ms.date: 07/06/2019
+ms.date: 09/17/2019
 ms.custom: seodec18
 LocalizationGroup: Premium
-ms.openlocfilehash: 21518d2c5160c8e5a696c193d3d6f4d352a02271
-ms.sourcegitcommit: 3e72c6d564d930304886d51cdf12b8fc166aa33c
+ms.openlocfilehash: c46b58369c334ff5364cee00bb5c3f8cd025adf0
+ms.sourcegitcommit: 57e45f291714ac99390996a163436fa1f76db427
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/05/2019
-ms.locfileid: "67596531"
+ms.lasthandoff: 09/26/2019
+ms.locfileid: "71305843"
 ---
 # <a name="what-is-power-bi-premium"></a>什么是 Power BI Premium？
 
@@ -71,8 +71,8 @@ Power BI Premium 订阅由 Microsoft 365 管理中心的管理员购买。 具�
 
 | 容量节点 | 总虚拟核心 | 后端 V 核心 | RAM (GB) | 前端 V 核心 | DirectQuery/Live Connection（每秒） | 模型刷新并行度 |
 | --- | --- | --- | --- | --- | --- | --- |
-| EM1/A1 | 1 | 0.5 | 2.5 | 0.5 | 3.75 | 1 |
-| EM2/A2 | 2 | 1 | 5 | 1 | 7.5 | 2 |
+| EM1/A1 | 第 1 个 | 0.5 | 2.5 | 0.5 | 3.75 | 第 1 个 |
+| EM2/A2 | 2 | 第 1 个 | 5 | 第 1 个 | 7.5 | 2 |
 | EM3/A3 | 4 | 2 | 10 | 2 | 15 | 3 |
 | P1/A4 | 8 | 4 | 25 | 4 | 30 | 6 |
 | P2/A5 | 16 | 8 | 50 | 8 | 60 | 12 |

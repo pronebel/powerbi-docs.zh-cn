@@ -9,12 +9,12 @@ ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 05/17/2018
 ms.author: maggies
-ms.openlocfilehash: fe8ad0b951fedb17a97007e48808d2bfd7467e88
-ms.sourcegitcommit: 6c2c7a090b0826e3cfc3a897566e802857bbacc8
+ms.openlocfilehash: edda72ab1c9c9901bf71b360d3773b5e8da0a095
+ms.sourcegitcommit: bbd9b38f30a4ca5cb8072496c9cacb635b03aa88
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/06/2019
-ms.locfileid: "68808215"
+ms.lasthandoff: 09/27/2019
+ms.locfileid: "71401822"
 ---
 # <a name="power-bi-report-data-sources-in-power-bi-report-server"></a>Power BI 报表服务器中 Power BI 报表数据源
 Power BI 报表可以连接到多个数据源。 根据数据使用方式，可以提供不同的数据源。 可以导入数据，或者可以直接使用 DirectQuery 或与 SQL Server Analysis Services 的实时连接查询数据。
@@ -71,7 +71,7 @@ Power BI 报表可以连接到多个数据源。 根据数据使用方式，可�
 | SharePoint Online 列表 |是 |否 |否 |
 | Snowflake |是 |否 |否 |
 | Sybase 数据库 |是 |是 |否 |
-| Teradata 数据库 |是 |是 |是 |
+| Teradata |是 |是 |是 |
 | 文本/CSV |是 |是 |否 |
 | Web |是 |是 |否 |
 | XML |是 |是 |否 |
@@ -89,7 +89,7 @@ Power BI 报表可以连接到多个数据源。 根据数据使用方式，可�
 | IBM Netezza (Beta) |是 |否 |否 |
 | Kusto (Beta) |是 |否 |否 |
 | MailChimp (Beta) |是 |否 |否 |
-| Microsoft Azure 使用见解 (Beta) |是 |否 |否 |
+| Microsoft Azure 使用见解(Beta) |是 |否 |否 |
 | Mixpanel (Beta) |是 |否 |否 |
 | Planview Enterprise (Beta) |是 |否 |否 |
 | Projectplace (Beta) |是 |否 |否 |
@@ -172,7 +172,7 @@ Power BI 报表服务器不支持将基于 OAuth 的身份验证用于模型刷�
 | IBM Netezza (Beta) |否 |否 |否 |否 |
 | Kusto (Beta) |否 |否 |否 |否 |
 | MailChimp (Beta) |否 |否 |否 |否 |
-| Microsoft Azure 使用见解 (Beta) |否 |否 |否 |否 |
+| Microsoft Azure 使用见解(Beta) |否 |否 |否 |否 |
 | Mixpanel (Beta) |否 |否 |否 |否 |
 | Planview Enterprise (Beta) |否 |否 |否 |否 |
 | Projectplace (Beta) |否 |否 |否 |否 |
