@@ -1442,11 +1442,13 @@
           href: service-admin-power-bi-security.md
 - name: 指南
   items:
-    - name: 数据流的最佳做法
-      href: service-dataflows-best-practices.md
+    - name: 概述
+      href: guidance/overview.md
     - name: 什么是星型架构？
       href: guidance/star-schema.md
     - name: 减少数据模型大小
       href: guidance/import-modeling-data-reduction.md
     - name: DIVIDE 函数与除法运算符 (/)
       href: guidance/dax-divide-function-operator.md
+    - name: 数据流的最佳做法
+      href: service-dataflows-best-practices.md
