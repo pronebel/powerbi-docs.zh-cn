@@ -697,6 +697,8 @@
               href: service-cognitive-services.md
             - name: Power BI 中的自动机器学习（预览）
               href: service-machine-learning-automated.md
+        - name: 数据世系
+          href: service-data-lineage.md
         - name: Power BI 中的分页报表
           items:
             - name: 查看分页报表
@@ -867,6 +869,8 @@
       items:
         - name: 支持的语言和国家/地区
           href: supported-languages-countries-regions.md
+        - name: 支持的浏览器
+          href: power-bi-browsers.md
     - name: 资源
       items:
         - name: 白皮书
