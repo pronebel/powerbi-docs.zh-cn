@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 08/12/2019
 ms.author: maggies
 LocalizationGroup: Reports
-ms.openlocfilehash: 61fc821e63889951aefd0ef815f885ffa8a880cf
-ms.sourcegitcommit: d12bc6df16be1f1993232898f52eb80d0c9fb04e
+ms.openlocfilehash: 2c17378c14ef084ad6632e52df2a801832b311d9
+ms.sourcegitcommit: d04b9e1426b8544ce16ef25864269cc43c2d9f7b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/13/2019
-ms.locfileid: "68994825"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "71715184"
 ---
 # <a name="download-a-report-from-the-power-bi-service-to-power-bi-desktop-preview"></a>将报表从 Power BI 服务下载到 Power BI Desktop（预览版）
 在 Power BI Desktop 中，可以将报表（.pbix 文件）从本地计算机发布到 Power BI 服务  。 Power BI 报表也可以反向流动：可以将报表从 Power BI 服务下载到 Power BI Desktop。 两种情况下，Power BI 报表的扩展均为 .pbix。
@@ -26,7 +26,7 @@ ms.locfileid: "68994825"
 
 ## <a name="download-the-report-as-a-pbix-file"></a>以 .pbix 文件形式下载报表
 
-仅可下载 2016 年 11 月 23 日及之后更新的 [Power BI Desktop 上所创建](guided-learning/publishingandsharing.yml?tutorial-step=2)的报表。 如果是之前创建的，则 Power BI 服务中的“下载报表”菜单选项显示为灰色  。
+仅可下载 2016 年 11 月 23 日及之后更新的 [Power BI Desktop 上所创建](/learn/modules/publish-share-power-bi/2-publish-reports)的报表。 如果是之前创建的，则 Power BI 服务中的“下载报表”菜单选项显示为灰色  。
 
 若要下载 .pbix 文件，请执行以下步骤：
 

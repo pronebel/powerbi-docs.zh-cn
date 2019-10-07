@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 09/19/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: ead5c8f45e102aaeebeed492ecf4646342747fe1
-ms.sourcegitcommit: 200291eac5769549ba5c47ef3951e2f3d094426e
+ms.openlocfilehash: 417238550f68a1c244bab33b8343712f02242eae
+ms.sourcegitcommit: b7a9862b6da940ddebe61bc945a353f91cd0e4bd
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/19/2019
-ms.locfileid: "71142287"
+ms.lasthandoff: 10/04/2019
+ms.locfileid: "71945266"
 ---
 # <a name="data-sources-in-power-bi-desktop"></a>Power BI Desktop 中的数据源
 使用 Power BI Desktop，你可以连接到来自许多不同的源的数据。 在此页面底部列出了可用数据源的完整清单。
@@ -72,7 +72,7 @@ ms.locfileid: "71142287"
 * MySQL 数据库
 * PostgreSQL 数据库
 * Sybase 数据库
-* Teradata 数据库
+* Teradata
 * SAP HANA 数据库
 * SAP Business Warehouse 应用程序服务器
 * SAP Business Warehouse 消息服务器
@@ -138,7 +138,7 @@ ms.locfileid: "71142287"
 * Dynamics NAV
 * Dynamics 365 Business Central
 * Dynamics 365 Business Central (本地)
-* Microsoft Azure 使用见解 (Beta)
+* Microsoft Azure 使用见解(Beta)
 * Azure DevOps (Beta)
 * Azure DevOps Server (Beta)
 * Salesforce 对象

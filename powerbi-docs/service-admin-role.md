@@ -1,6 +1,6 @@
 ---
 title: 了解 Power BI 管理员角色
-description: 如何为导入的数据集和 Power BI 服务内的 DirectQuery 配置行集安全性。
+description: 本文介绍 Power BI 服务管理员角色以及如何在组织中使用它。
 author: mgblythe
 manager: kfile
 ms.reviewer: ''
@@ -10,18 +10,16 @@ ms.topic: conceptual
 ms.date: 09/09/2019
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: 2185d7a9c91ed014cf0bed29d6393be0e40556a8
-ms.sourcegitcommit: a97c0c34f888e44abf4c9aa657ec9463a32be06f
+ms.openlocfilehash: 8b4d2382f89c48f20767cf72bc0468589c366cfe
+ms.sourcegitcommit: 02042995df12cc4e4b97eb8a369e62364eb5af36
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/17/2019
-ms.locfileid: "71074514"
+ms.lasthandoff: 09/25/2019
+ms.locfileid: "71256424"
 ---
 # <a name="understanding-the-power-bi-service-administrator-role"></a>了解 Power BI 服务管理员角色
 
 了解如何在组织中使用 Power BI 服务管理员角色。 拥有此角色的用户可以完全控制 Power BI 租户及其管理功能（授权除外）。
-
-<iframe width="640" height="360" src="https://www.youtube.com/embed/PQRbdJgEm3k?showinfo=0" frameborder="0" allowfullscreen></iframe>
 
 可以向需要 Power BI 管理门户访问权限的用户分配 Power BI 服务管理员角色，而不向这些用户授予完整 Office 365 管理员权限。
 
@@ -39,21 +37,21 @@ Office 365 用户管理管理员可以在 Microsoft 365 管理中心内或使用
 
 若要在 Microsoft 365 管理中心内向用户分配 Power BI 管理员角色，请按以下步骤操作。
 
-1. 在 [Microsoft 365 管理中心](https://portal.office.com/adminportal/home#/homepage)内，依次选择“用户” > “有效用户”。
+1. 在 [Microsoft 365 管理中心](https://portal.office.com/adminportal/home#/homepage)内，依次选择“用户” > “有效用户”   。
 
     ![Microsoft 365 管理中心](media/service-admin-role/powerbi-admin-users.png)
 
 1. 选择要向其分配角色的用户。
 
-1. 在“角色”下，选择“编辑”。
+1. 在“角色”  下，选择“编辑”  。
 
     ![编辑角色](media/service-admin-role/powerbi-admin-edit-roles.png)
 
-1. 依次选中“自定义管理员” > “Power BI 服务管理员”。
+1. 依次选中“自定义管理员”   > “Power BI 服务管理员”  。
 
     ![Power BI 服务管理员](media/service-admin-role/powerbi-admin-role.png)
 
-1. 依次选择“保存”和“关闭”。
+1. 依次选择“保存”  和“关闭”  。
 
 此时，系统应该会列出相应用户拥有的“**Power BI 服务管理员**”角色。
 
@@ -68,7 +66,7 @@ Office 365 用户管理管理员可以在 Microsoft 365 管理中心内或使用
    PS C:\Windows\system32> Connect-AzureAD
    ```
 
-1. 其次，获取 Power BI 服务管理员角色的 ObjectId。 可以运行 [Get-AzureADDirectoryRole](/powershell/module/azuread/get-azureaddirectoryrole) 获取 **ObjectId**
+1. 其次，获取 Power BI 服务管理员  角色的 ObjectId  。 可以运行 [Get-AzureADDirectoryRole](/powershell/module/azuread/get-azureaddirectoryrole) 获取 **ObjectId**
 
     ```
     PS C:\Windows\system32> Get-AzureADDirectoryRole
@@ -85,9 +83,9 @@ Office 365 用户管理管理员可以在 Microsoft 365 管理中心内或使用
     f727e2f3-0829-41a7-8c5c-5af83c37f57b Email Verified User Creator        Allows creation of new email verified users.
     ```
 
-    在此示例中，角色的 ObjectId 为 00f79122-c45d-436d-8d4a-2c0c6ca246bf。
+    在此示例中，角色的 ObjectId  为 00f79122-c45d-436d-8d4a-2c0c6ca246bf。
 
-1. 接下来，获取用户的 ObjectId。 为此，可以运行 [Get-AzureADUser](/powershell/module/azuread/get-azureaduser)。
+1. 接下来，获取用户的 ObjectId  。 为此，可以运行 [Get-AzureADUser](/powershell/module/azuread/get-azureaduser)。
 
     ```
     PS C:\Windows\system32> Get-AzureADUser -ObjectId 'tim@contoso.com'

@@ -10,12 +10,12 @@ ms.subservice: powerbi-report-server
 manager: kfile
 ms.custom: mvc
 ms.date: 09/13/2019
-ms.openlocfilehash: d2c0ab82a3b262a975c461a4414ed7fd3b1bc060
-ms.sourcegitcommit: a97c0c34f888e44abf4c9aa657ec9463a32be06f
+ms.openlocfilehash: 104b903e6b7a47b5ce35dc5c0627a43d54c1090a
+ms.sourcegitcommit: 0687908938e4c3b68401fd511ec1c28fb54ddeb3
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/17/2019
-ms.locfileid: "71075906"
+ms.lasthandoff: 09/30/2019
+ms.locfileid: "71691231"
 ---
 # <a name="comparing-power-bi-report-server-and-the-power-bi-service"></a>比较 Power BI 报表服务器和 Power BI 服务
 
@@ -53,6 +53,7 @@ Power BI 报表服务器和 Power BI 服务有许多相似之处和一些关键�
 | R 视觉对象 | 否 | 是 | 在 Power BI Desktop 中[创建 R 视觉对象](../desktop-r-visuals.md)并将其发布到 Power BI 服务。 无法将带有 R 视觉对象的 Power BI 报表保存到 Power BI 报表服务器。  |
 | 预览功能 | 否 | 是 | [选择使用 Power BI 服务预览](../consumer/end-user-preview-features.md)功能 |
 | 自定义视觉对象 | 是 | 是 | [在 Power BI 中自定义视觉对象](../power-bi-custom-visuals.md) |
+| 复合模型 | 否 | 是 |
 | Power BI Desktop | 更适合报表服务器的版本，可使用报表服务器下载 | 更适合 Power BI 服务的版本，可从 Windows 应用商店下载 | [适用于报表服务器的 Power BI Desktop](https://powerbi.microsoft.com/report-server/) <br><br> [适用于 Power BI 服务的 Power BI Desktop](http://aka.ms/pbidesktopstore) |
 
 ## <a name="next-steps"></a>后续步骤

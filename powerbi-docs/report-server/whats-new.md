@@ -8,17 +8,17 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
-ms.date: 05/22/2019
-ms.openlocfilehash: 364795a25aaffb92afc4a7148c9bf6b3f88d2ac8
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.date: 09/26/2019
+ms.openlocfilehash: 26dde078ce0b237779660c44b2843a645e4d1a47
+ms.sourcegitcommit: e2c5d4561455c3a4806ace85defbc72e4d7573b4
+ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "66187320"
+ms.lasthandoff: 09/27/2019
+ms.locfileid: "71325572"
 ---
 # <a name="whats-new-in-power-bi-report-server"></a>Power BI 报表服务器中的新增功能
 
-了解什么是 Power BI 报表服务器和 Power BI Desktop 更适合 Power BI 报表服务器中的新增功能。 本文涉及主要功能方面，并会在新功能发布时随之进行更新。
+了解 Power BI 报表服务器中的新增功能以及针对 Power BI 报表服务器进行优化的 Power BI Desktop。 本文涉及主要功能方面，并随每个新版本进行更新。
 
 若要了解相关的 Power BI“新增功能”信息，请参阅：
 
@@ -26,77 +26,132 @@ ms.locfileid: "66187320"
 * [Power BI Desktop 中的新增功能](../desktop-latest-update.md)
 * [Power BI 移动应用中的新增功能](../consumer/mobile/mobile-whats-new-in-the-mobile-apps.md)
 
-## <a name="may-2019-power-bi-desktop-for-power-bi-report-server"></a>2019 年 5:Power BI 报表服务器的 power BI Desktop
+## <a name="september-2019"></a>2019 年 9 月
 
-请参阅[Power BI 报表服务器 2019 年 5](https://powerbi.microsoft.com/blog/power-bi-report-server-update-may-2019/)博客文章以获取有关所有新功能的详细信息。
+有关所有新功能的详细信息，请参阅 [Power BI 报表服务器 2019 年 9 月版](https://powerbi.microsoft.com/blog/power-bi-report-server-september-2019-feature-summary/)博客文章。
 
-下面是一些版本的重要功能：
+Power BI 报表服务器的 2019 年 9 月更新包含大量 Power BI 报表功能。 以下是一些要点：
 
-### <a name="performance-analyzer"></a>性能分析器 
+- **适用于切片器的视觉对象级别筛选器** 可向切片器添加视觉对象级别筛选器。 其工作方式与其他任何视觉对象级别筛选器一样，仅筛选切片器本身，而不筛选其他视觉对象。 此筛选器对于筛选出空白或使用度量值筛选器很有用。
+- **适用于表和矩阵的图标集** 借助 KPI 图标，可以设置用于在表和矩阵中显示不同图标集的规则，类似于 Excel 中的图标集。
+- **视觉对象分组** 现在，可以像在 PowerPoint 中一样，在报表页上对视觉对象、形状、文本框、图像和按钮进行分组。 将对象分组后，可以同时移动它们并调整它们的大小。 借助分组，可以更轻松地使用每个页面中层叠了大量对象的报表。
+- **新的默认主题** 为了适应新主题 JSON 选项，我们将更新可用于报表的主题，并更改新报表的默认主题。 新的默认主题既可以更好地与 Microsoft 的设计语言保持一致，又可以遵循视觉对象的最佳设计做法。 
+- **更新的窗格设计** 我们刷新了大部分界面。 我们已将所有窗格、页脚和视图切换器更新为较浅的颜色，同时更新了间距，并引入了新图标。 新设计是刷新整个界面的第一步。
 
-如果您的报表运行速度比预期缓慢，请尝试在 Power BI Desktop 中性能分析器。 当您启动它时，它与您在报表中执行的每个操作有关的信息创建一个日志文件。 详细了解[性能分析器](../desktop-performance-analyzer.md)。
-
-### <a name="new-modeling-view"></a>新建建模视图
-
-在 Power BI Desktop 中新的建模视图，您可以查看和使用包含多个表的复杂数据集。 突出显示包含多个关系图布局和批量编辑的列、 度量值和表。 详细了解[建模视图](../desktop-modeling-view.md)。
-
-### <a name="accessible-visual-interaction"></a>可访问的可视化交互
-
-你可以立即访问许多使用键盘导航的内置视觉对象上的数据点。 详细了解[Power BI 报表中的可访问性](../desktop-accessibility.md)。
-
-### <a name="conditional-formatting-titles-and-web-url-actions"></a>条件格式设置的标题和 web URL 操作
-
-Power BI 报表是交互式的。 它有意义，在报表中的标题是动态的以反映报表的当前状态。 您可以使用同一绑定表达式的格式设置变成动态地图的按钮、 形状和图像的 Url。 详细了解[基于表达式的标题](../desktop-conditional-format-visual-titles.md)。
-
-### <a name="cross-highlight-by-axis-labels"></a>按轴标签的交叉突出显示
-
-视觉对象，以交叉突出显示的其他元素在页面上，选择轴类别标签，就像将视觉对象中选择数据点。 详细了解[交叉突出显示](../power-bi-reports-filters-and-highlighting.md#ad-hoc-highlighting)。
-
-### <a name="all-the-new-features"></a>所有新功能
-
-下面是所有新功能的列表：
+以下是功能的完整列表。 
 
 ### <a name="reporting"></a>报表
 
-- 在折线图中的单个点上的交叉突出显示 
-- 在标题上的自动换行 
-- 为交叉筛选 ¬ 更新默认 visual 交互
-- 视觉对象边框的圆的角 
-- 单一选择切片器  
-- 必应地图的热度地图支持  
-- 按轴标签的交叉突出显示  
-- 默认格式设置工具提示  
-- 静态 web URL 支持按钮、 形状和图像  
-- 页面对齐选项   
-- 选择窗格改进  
-- 可访问的可视化交互  
-- 条件格式设置的视觉对象的标题  
-- 条件格式设置为按钮、 形状和图像的 web URL 操作
-- 性能分析工具窗格
-- 表和矩阵的键盘导航
-- 行数据标签位置控件
-- KPI 可视指示符文本大小控件
+- 更新的窗格设计
+- 适用于切片器的视觉对象级别筛选器
+- 适用于性能分析器窗格的排序功能
+- 视觉对象标头工具提示
+- 表和矩阵总计标签自定义
+- 层次结构切片器的同步切片器支持
+- 视觉对象之间的一致字体大小
+- 适用于表和矩阵的图标集
+- 按规则进行条件格式设置的百分比支持
+- 新的筛选器窗格现已正式发布
+- 在散点图上使用播放轴时的数据颜色支持
+- 使用相对日期和下拉切片器时的性能改进
+- 视觉对象分组
+- 主题中的颜色和文本类
+- 新的默认主题
 
 ### <a name="analytics"></a>分析
 
-- 日期显示为层次结构现在已公开发布  
+- 自定义格式字符串
+- 格式设置选项的条件格式设置更新
+
+    - 视觉对象背景和标题颜色
+    - 卡片颜色
+    - 仪表填充和颜色
+    - 替换文本
+    - 边框颜色
+
+- 条件格式设置警告
+- 钻取发现改进
+- 新 DAX 表达式：REMOVEFILTERS 和 CONVERT
+- 新 DAX 比较运算符：==
+
+### <a name="data-preparation"></a>数据准备
+
+- M Intellisense 改进
+- 新的转换：按位置拆分列
+- 从数据事件探查复制到剪贴板
+
+
+## <a name="may-2019-power-bi-desktop-for-power-bi-report-server"></a>2019 年 5 月：适用于 Power BI 报表服务器的 Power BI Desktop
+
+有关所有新功能的详细信息，请参阅 [Power BI 报表服务器 2019 年 5 月版](https://powerbi.microsoft.com/blog/power-bi-report-server-update-may-2019/)博客文章。
+
+以下是该版本的一些要点：
+
+### <a name="performance-analyzer"></a>性能分析器 
+
+如果报表的运行速度比预期慢，请尝试使用 Power BI Desktop 中的性能分析器。 启动时，它会创建日志文件，其中包含有关在报表中执行的每个操作的信息。 详细了解[性能分析器](../desktop-performance-analyzer.md)。
+
+### <a name="new-modeling-view"></a>新的建模视图
+
+在 Power BI Desktop 中的新建模视图中，可以查看和使用包含许多表的复杂数据集。 要点包括多种图表布局以及对列、度量值和表的批量编辑。 详细了解[建模视图](../desktop-modeling-view.md)。
+
+### <a name="accessible-visual-interaction"></a>可访问的视觉对象交互
+
+现在，可以使用键盘导航访问许多内置视觉对象上的数据点。 详细了解 [Power BI 报表中的辅助功能](../desktop-accessibility.md)。
+
+### <a name="conditional-formatting-titles-and-web-url-actions"></a>条件格式设置标题和 Web URL 操作
+
+Power BI 报表为交互式报表。 报表中的标题为动态标题具有意义，因为可反映报表的当前状态。 可使用相同的表达式绑定格式来使按钮、形状和图像的 URL 动态化。 详细了解[基于表达式的标题](../desktop-conditional-format-visual-titles.md)。
+
+### <a name="cross-highlight-by-axis-labels"></a>通过轴标签交叉突出显示
+
+选择视觉对象中的轴类别标签以交叉突出显示页面上的其他元素，就像选择视觉对象中的数据点一样。 详细了解[交叉突出显示](../power-bi-reports-filters-and-highlighting.md#ad-hoc-highlighting)。
+
+### <a name="all-the-new-features"></a>所有新功能
+
+以下是所有新功能的列表：
+
+### <a name="reporting"></a>报表
+
+- 折线图中对单个点的交叉突出显示 
+- 标题上的自动换行 
+- 更新用于交叉筛选的默认可视交互 ¬
+- 视觉对象边框的圆角 
+- 单项选择切片器  
+- 必应地图的热度地图支持  
+- 通过轴标签交叉突出显示  
+- 默认工具提示格式设置  
+- 按钮、形状和图像的静态 Web URL 支持  
+- 页对齐选项   
+- 选择窗格改进  
+- 可访问的视觉对象交互  
+- 视觉对象标题的条件格式设置  
+- 按钮、形状和图像的 Web URL 操作的条件格式设置
+- 性能分析器窗格
+- 表和矩阵键盘导航
+- 行数据标签位置控件
+- KPI 可视指示器文本大小控件
+
+### <a name="analytics"></a>分析
+
+- 将日期显示为层次结构现已正式发布  
 
 ### <a name="modeling"></a>建模
 
-- 新建建模视图现已公开发布
+- 新的建模视图现已正式发布
 - 新的 DAX 函数
-- 更新到 ALLSELECTED DAX 函数
-- 禁用自动日期表的新报表
+- ALLSELECTED DAX 函数更新
+- 为新报表禁用自动日期表
 
-## <a name="may-2019-power-bi-report-server"></a>2019 年 5:Power BI 报表服务器
+## <a name="may-2019-power-bi-report-server"></a>2019 年 5 月：Power BI 报表服务器
 
-### <a name="support-for-trusted-visuals"></a>支持受信任的视觉对象
+### <a name="support-for-trusted-visuals"></a>对信任视觉对象的支持
 
-我们已添加到 Power BI 报表服务器的支持受信任的视觉对象。 目前我们支持 Mapbox 和电源打开视觉对象。 ESRI、 Visio 和 PowerApps 不支持此版本。）
+我们在 Power BI 报表服务器中添加了对信任视觉对象的支持。 目前，我们支持 Mapbox 和 PowerOn 视觉对象。 此版本不支持 ESRI、Visio 和 PowerApps。
 
 ### <a name="improved-security-features"></a>改进的安全功能
 
-**RestrictedResourceMimeTypeForUpload**，管理员可用于指定一列以逗号分隔的已禁止的 mime 类型，例如 text/html。
+**RestrictedResourceMimeTypeForUpload**，管理员可用于指定以逗号分隔的禁止 mime 类型的列表，例如 text/html。
 
 ## <a name="january-2019"></a>2019 年 1 月
 

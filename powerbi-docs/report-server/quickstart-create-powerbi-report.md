@@ -7,17 +7,17 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
-ms.date: 05/22/2019
+ms.date: 09/26/2019
 ms.author: maggies
-ms.openlocfilehash: 2401064f1f7f3be63c23d72e79987784e1ec7049
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: ec1aab13955a4c34861a3f0d8dd39b6c77607696
+ms.sourcegitcommit: e2c5d4561455c3a4806ace85defbc72e4d7573b4
+ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "66187507"
+ms.lasthandoff: 09/27/2019
+ms.locfileid: "71325663"
 ---
 # <a name="create-a-power-bi-report-for-power-bi-report-server"></a>为 Power BI 报表服务器创建 Power BI 报表
-可以在 Power BI 报表服务器 Web 门户中在本地存储和管理 Power BI 报表，就像在 Power BI 服务 (https://powerbi.com)) 中的云中存储 Power BI 报表一样。 可以在 Power BI Desktop 中创建和编辑报表，并将其发布到 Web 门户中。 接下来，组织中的报表读取器可以在浏览器或移动设备上的 Power BI 移动应用中查看报表。
+可以在 Power BI 报表服务器 Web 门户中在本地存储和管理 Power BI 报表，就像在 Power BI 服务 (https://powerbi.com) ) 中的云中存储 Power BI 报表一样。 可以在 Power BI Desktop 中创建和编辑报表，并将其发布到 Web 门户中。 接下来，组织中的报表读取器可以在浏览器或移动设备上的 Power BI 移动应用中查看报表。
 
 ![Web 门户中的 Power BI 报表](media/quickstart-create-powerbi-report/report-server-powerbi-report.png)
 
@@ -31,7 +31,7 @@ ms.locfileid: "66187507"
 
     ![从 Web 门户下载 Power BI Desktop](media/quickstart-create-powerbi-report/report-server-download-web-portal.png)
 
-    或直接转到[Microsoft Power BI Desktop](https://www.microsoft.com/download/details.aspx?id=56723) （已优化的 Power BI 报表服务器-2019 年 5） 中从 Microsoft 下载中心获得。
+    或转到 [Power BI 报表服务器](https://powerbi.microsoft.com/report-server/)主页，然后选择“高级下载选项”  。
 
 2. 在“下载中心”页中，选择“下载”。 
 
@@ -41,13 +41,13 @@ ms.locfileid: "66187507"
 
     - **PBIDesktopRS_x64.msi**（64 位版本）。
 
-4. 下载安装程序后，运行 Power BI Desktop （2019 年 5） 安装向导。
+4. 下载安装程序后，运行 Power BI Desktop（2019 年 9 月版）安装向导。
 
 2. 安装结束时，请选中“立即启动 Power BI Desktop”。 
    
-    此时，它会自动启动，可以开始使用了。 您可以知道使用了正确的版本是标题栏中的"Power BI Desktop （2019 年 5）"。
+    此时，它会自动启动，可以开始使用了。 根据标题栏中显示的“Power BI Desktop (2019 年 9 月版)”，便知道使用了正确的版本  。
 
-    ![Power BI Desktop 2019 年 5 版本](media/quickstart-create-powerbi-report/power-bi-report-server-desktop-may-2019.png)
+    ![Power BI Desktop 2019 年 9 月版](media/quickstart-create-powerbi-report/power-bi-report-server-desktop-sept-2019.png)
 
 3. 如果不熟悉 Power BI Desktop，请考虑观看欢迎屏幕上的视频。
    
@@ -61,7 +61,7 @@ ms.locfileid: "66187507"
     在“开始”  选项卡上，选择“获取数据”  。
 2. 选择你的数据源 - 本例中为 Analysis Services  。
    
-    ![选择数据源](media/quickstart-create-powerbi-report/report-server-get-data-ssas.png)
+    ![选择数据源](media/quickstart-create-powerbi-report/power-bi-report-server-get-data-ssas.png)
 3. 填写“服务器”  ，并视需要填写“数据库”  。 务必选中“实时连接”  ，然后单击“确定”  。
    
     ![服务器名称](media/quickstart-create-powerbi-report/report-server-ssas-server-name.png)

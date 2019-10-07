@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 08/15/2019
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 5d0ace5c2986b30436838d33037ae3019bd8bdce
-ms.sourcegitcommit: 9665997274301b228f45aa7250ba557e90164a4d
+ms.openlocfilehash: f54906643bba8c631c8d8052309ad3ff512ad3fa
+ms.sourcegitcommit: 57e45f291714ac99390996a163436fa1f76db427
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/06/2019
-ms.locfileid: "70751556"
+ms.lasthandoff: 09/26/2019
+ms.locfileid: "71305743"
 ---
 # <a name="publish-an-app-in-power-bi"></a>在 Power BI 中发布应用
 
@@ -190,6 +190,13 @@ ms.locfileid: "70751556"
 应用使用者打开你的应用时，他们将看到你创建的导航，而不是标准的 Power BI 左侧导航窗格。 应用导航列出你定义的各节中的报表和仪表板。 它还列出每个报表中的各个页面，而不仅仅是报表名称。
 
 ![具有导航的应用](media/service-create-distribute-apps/power-bi-new-apps-navigation.png)
+
+## <a name="considerations-and-limitations"></a>注意事项和限制
+发布应用时的注意事项：
+
+* 应用访问列表中最多可以有 100 个用户或组。 但是，可以向超过 100 个用户提供对应用的访问权限。 为此，请使用包含全部所需用户的一个或多个用户组。
+* 对于新工作区体验，如果添加到应用访问列表中的用户已经可以通过工作区访问应用，则他们不会在该应用的访问列表中显示。  
+
 
 ## <a name="next-steps"></a>后续步骤
 * [创建工作区](service-create-workspaces.md)

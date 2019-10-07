@@ -10,15 +10,15 @@ ms.topic: conceptual
 ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: 28b77cfeda1f84f3643216dba45bef40bd6441ff
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: ca9233f6373f8732f0996a09d7fe83ea18431f88
+ms.sourcegitcommit: d04b9e1426b8544ce16ef25864269cc43c2d9f7b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "65513239"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "71715327"
 ---
 # <a name="enroll-your-us-government-organization-in-the-power-bi-service"></a>在 Power BI 服务中注册你的美国政府组织
-**Power BI 服务**有一个可供美国政府客户使用的版本，作为 **Office 365 美国政府社区**订阅的一部分。 本文中讨论的 Power BI 服务版本是为美国政府客户设计的，独立且不同于 Power BI 服务的商业版本。
+**Power BI 服务**有一个可供美国政府客户使用的版本，作为 **Office 365 美国政府社区**订阅的一部分。 本文中讨论的 Power BI 服务  版本是为美国政府客户设计的，独立且不同于 Power BI 服务  的商业版本。
 
 有关适用于美国政府的 **Power BI 服务**的更多信息（包括其功能和限制），请查看[适用于美国政府客户的 Power BI - 概述](service-govus-overview.md)。
 
@@ -66,10 +66,10 @@ ms.locfileid: "65513239"
 6. 将用户分配到该帐户。
    
    ![](media/service-govus-signup/service_govus_signup_5.png)
-7. 通过 [https://app.powerbigov.us](https://app.powerbigov.us) 登录到适用于美国政府客户的 Power BI 服务
+7. 通过 [https://app.powerbigov.us](https://app.powerbigov.us) 登录到适用于美国政府客户的 Power BI 服务 
 
 ## <a name="additional-signup-information"></a>其他注册信息
-以下是有关在各种许可迁移情况下注册“Power BI 美国政府版”的更多信息。
+以下是有关在各种许可迁移情况下注册“Power BI 美国政府版”  的更多信息。
 
 ### <a name="direct-power-bi-trial-to-pro-customer-onboarding"></a>将 Power BI 试用版定向到 Pro 客户载入
 * 单击并依次转到“计费”>“购买服务”>“Power BI Pro 政府版”，并选择“购买”而不是“试用”
@@ -78,26 +78,26 @@ ms.locfileid: "65513239"
 * 登录 [https://app.powerbigov.us](https://app.powerbigov.us)
 
 ### <a name="reseller-power-bi-trial-to-pro-customer-onboarding"></a>将经销商 Power BI 试用版定向到 Pro 客户载入
-转到“计费”>“订阅”，然后选择“Power BI Pro 政府版订阅”。 将看到以下信息：
+转到“计费”>“订阅”  ，然后选择“Power BI Pro 政府版订阅”  。 将看到以下信息：
 
 * 可用
 * 已分配
 * 分配到用户链接
 * 如果你仍有已分配的试用版，可执行以下操作：
-  * 单击“试用版订阅”下方的“已分配”并删除要添加至付费订阅的用户
+  * 单击“试用版订阅”下方的“已分配”  并删除要添加至付费订阅的用户
   * 转到“付费订阅”并分配这些用户
 
 ### <a name="whitelisting-instructions"></a>列入允许列表说明
-“列入允许列表”是 Power BI 工程团队将客户从商业版云环境移动到安全的政府版云环境的过程。 这可以保证美国政府版云中提供的功能按预期方式工作。 所有首次购买美国政府版“Power BI”服务的现有（或新）美国政府客户均“必须”启动以下允许列表过程。 该过程必须在安装或迁移到美国政府版“Power BI”服务之前完成。 
+“列入允许列表”  是 Power BI 工程团队将客户从商业版云环境移动到安全的政府版云环境的过程。 这可以保证美国政府版云中提供的功能按预期方式工作。 所有首次购买美国政府版“Power BI”  服务的现有（或新）美国政府客户均“必须”  启动以下允许列表过程。 该过程必须在安装或迁移到美国政府版“Power BI”  服务之前完成。 
 
-若要在美国政府版云中将租户列入允许列表，请与 Microsoft 帐户团队联系，以便获取列入允许列表协助。 只有管理员才能发出此请求。 *列入允许列表* 的过程大约需要三个星期，在此期间，Power BI 工程团队将作出适当更改以确保你的租户可在美国政府版云中正常运行。
+若要在美国政府版云中将租户列入允许列表  ，请与 Microsoft 帐户团队联系，以便获取列入允许列表协助。 只有管理员才能发出此请求。 *列入允许列表* 的过程大约需要三个星期，在此期间，Power BI 工程团队将作出适当更改以确保你的租户可在美国政府版云中正常运行。
 
 从 Power BI **免费版**许可证迁移到 **Power BI 美国政府版**（以及根据定义，迁移到本文前面所述的相关 **Pro** 许可证功能）的客户将遇到本文下一部分所述的问题，直至 Power BI 工程团队将其租户*列入允许列表*。
 
 ### <a name="mixed-free-and-pro-licenses-in-us-government-tenants"></a>免费版和美国政府版租户中的 Pro 许可证的组合
 如果租户中同时有免费版和美国政府 Pro 许可证，则免费和（美国政府）Pro 许可证将继续存在，但是其中的一个许可证类型将无法正常运行。 如果租户成功完成 *列入允许列表* 过程，则会出现以下情况：
 
-* 所有免费版许可证用户将无法再使用 Power BI Desktop 登录到 Power BI，并且将遇到下一部分中所述的功能缺陷。
+* 所有免费版许可证用户将无法再使用 Power BI Desktop  登录到 Power BI，并且将遇到下一部分中所述的功能缺陷。
 * 分配到美国政府 Pro 许可证的所有客户端将按照预期方式运行，包括使用网关、Power BI Desktop 和移动应用。
 
 使用免费版和美国政府版租户中的 Pro 许可证的组合并完成*列入允许列表*过程后，预计将出现以下情况：
@@ -123,7 +123,7 @@ ms.locfileid: "65513239"
 你可以使用 Power BI 执行各种操作。 有关更多信息和学习资料（包括介绍如何注册服务的文章），请查看以下资源：
 
 * [适用于美国政府的 Power BI 的概述](service-govus-overview.md)
-* [Power BI 的引导学习](guided-learning/gettingstarted.yml?tutorial-step=1)
+* [Power BI 的引导学习](guided-learning/index.md)
 * [Power BI 服务入门](service-get-started.md)
 * [什么是 Power BI Desktop？](desktop-what-is-desktop.md)
 

@@ -5,24 +5,25 @@ author: mihart
 manager: kvivek
 ms.reviewer: ''
 featuredvideoid: et_MLSL2sA8
-ms.custom: seodec18
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 12/06/2018
+ms.date: 9/22/2019
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: fcfb16de53b4e6c67b7c46fec87ab614d07cb9b1
-ms.sourcegitcommit: 52aa112ac9194f4bb62b0910c4a1be80e1bf1276
+ms.openlocfilehash: c157a486b66180de1299144e670210559a53258a
+ms.sourcegitcommit: 3885ae11e695f875a82c212ca157e401db8337c4
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "61049057"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "71207593"
 ---
 # <a name="view-data-insights-on-dashboard-tiles-with-power-bi"></a>使用 Power BI 查看有关仪表板磁贴的数据见解
-仪表板上的每个可视化效果磁贴都是数据探索的入口。 当选择磁贴时，它将打开一个报表，可以在其中筛选、排序以及深入挖掘此报表背后的数据集。 当运行见解时，Power BI 会为你进行数据探索。
+仪表板上的每个视觉对象[磁贴](end-user-tiles.md)都是数据探索的入口。 选择磁贴时，它将打开报表或[打开“问答”](end-user-q-and-a.md)，可以在其中筛选、排序以及深入挖掘报表背后的数据集。 当运行见解时，Power BI 会为你进行数据探索。
 
-运行快速见解便可基于你的数据生成有趣的交互式可视化效果。 快速见解可以在特定的仪表板磁贴上运行，你甚至可以在一个见解上运行见解！
+![省略号菜单模式](./media/end-user-insights/power-bi-insight.png)
+
+运行见解便可基于数据生成有趣的交互式视觉对象。 见解可以在特定的仪表板磁贴上运行，甚至可以在见解上运行见解！
 
 见解功能以一组与 Microsoft Research 联合开发且数量不断增长的[高级分析算法](end-user-insight-types.md)为基础构建而成，我们将继续通过该功能让更多人以新颖直观的方式从其数据中寻找见解。
 
@@ -32,12 +33,12 @@ ms.locfileid: "61049057"
 1. [打开仪表板](end-user-dashboards.md).
 2. 将鼠标悬停在一个磁上。 选择省略号 (…)，然后选择“查看见解”  。 
 
-    ![省略号菜单模式](./media/end-user-insights/power-bi-hover.png)
+    ![省略号菜单模式](./media/end-user-insights/power-bi-hovers.png)
 
 
 3. 该磁贴以[焦点模式](end-user-focus.md)打开，并在右侧显示见解卡片。    
    
-    ![焦点模式](./media/end-user-insights/pbi-insights-tile.png)    
+    ![焦点模式](./media/end-user-insights/power-bi-insights-tile.png)    
 4. 你是否对某个见解产生了兴趣？ 选择该见解卡片以深入进行了解。 选中的见解显示在左侧，而完全根据该见解中的数据获得的新见解卡片显示在右侧。    
 
  ## <a name="interact-with-the-insight-cards"></a>与见解卡片交互
@@ -45,20 +46,19 @@ ms.locfileid: "61049057"
 
    * 筛选画布上的视觉对象。  若要显示筛选器，请选择右上角的箭头以展开“筛选器”窗格。
 
-     ![深入查看已展开的“筛选器”菜单](./media/end-user-insights/power-bi-insights-on-insights.png)
+      ![深入查看已展开的“筛选器”菜单](./media/end-user-insights/power-bi-filters.png)
    
-   * 在见解卡自身上运行见解。 这通常称为“相关见解”  。 在右上角，选择灯泡图标 ![获取见解图标](./media/end-user-insights/power-bi-bulb-icon.png)或选择“获取见解”  。
+   * 在见解卡自身上运行见解。 这通常称为“相关见解”  。 选择一个见解卡以将其激活。 它会出现在报表画布上。
+   
+      ![深入查看已展开的“筛选器”菜单](./media/end-user-insights/power-bi-insight-card.png)
+   
+   * 在右上角，选择灯泡图标 ![获取见解图标](./media/end-user-insights/power-bi-bulb-icon.png)或选择“获取见解”  。 该见解显示在左侧，而完全根据该见解中的数据获得的新卡片显示在右侧。
      
-     ![菜单栏显示“获取见解”图标](./media/end-user-insights/power-bi-autoinsights-tile.png)
+     ![菜单栏显示“获取见解”图标](./media/end-user-insights/power-bi-related.png)
      
-     该见解显示在左侧，而完全根据该见解中的数据获得的新卡片显示在右侧。
-     
-     ![对见解的见解](./media/end-user-insights/power-bi-insights-on-insights-new.png)
-
-若要返回到最初的见解画布，请从左上角选择“退出焦点模式”  。
+若要返回报告，请从左上角选择“退出焦点模式”  。
 
 ## <a name="considerations-and-troubleshooting"></a>注意事项和疑难解答
-- **查看见解**不适用于 DirectQuery - 仅适用于上传到 Power BI 的数据。
 - **查看见解**不适用于所有仪表板磁贴类型。 例如，它不适用于自定义视觉对象。<!--[custom visuals](end-user-custom-visuals.md)-->
 
 

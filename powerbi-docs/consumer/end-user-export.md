@@ -3,7 +3,7 @@ title: 从 Power BI 视觉对象导出数据
 description: 从报表视觉对象和仪表板视觉对象导出数据并在 Excel 中查看此数据。
 author: mihart
 manager: kvivek
-ms.reviewer: ''
+ms.reviewer: cmfinlan
 featuredvideoid: jtlLGRKBvXY
 ms.service: powerbi
 ms.subservice: powerbi-service
@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 09/11/2019
 ms.author: mihart
 LocalizationGroup: Consumers
-ms.openlocfilehash: 3ab3b7a96fb629b303263b1ccf5c2f31603300b4
-ms.sourcegitcommit: a97c0c34f888e44abf4c9aa657ec9463a32be06f
+ms.openlocfilehash: 6aec9f569f657c58eb1dc0b807bbceefc62ab01a
+ms.sourcegitcommit: b7a9862b6da940ddebe61bc945a353f91cd0e4bd
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/17/2019
-ms.locfileid: "71073153"
+ms.lasthandoff: 10/04/2019
+ms.locfileid: "71943874"
 ---
 # <a name="export-data-from-a-visual"></a>从视觉对象导出数据
 若要查看用于创建视觉对象的数据，可以[在 Power BI 中显示该数据](end-user-show-data.md)或将这些数据导出到 Excel。 导出数据的选项需要某种类型或许可证以及对此内容的编辑权限。 如果无法导出，请与 Power BI 管理员联系。 

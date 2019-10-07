@@ -11,23 +11,28 @@ ms.topic: conceptual
 ms.date: 06/24/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 8b0db9aebe72d54aa464ec012e614ae0ec5bc723
-ms.sourcegitcommit: 1c96b65a03ec0a0612e851dd58c363f4d56bca38
+ms.openlocfilehash: 020d7edcf6bc499623df93a9def30285a37cffc6
+ms.sourcegitcommit: e2de2e8b8e78240c306fe6cca820e5f6ff188944
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/25/2019
-ms.locfileid: "67390563"
+ms.lasthandoff: 09/23/2019
+ms.locfileid: "71194111"
 ---
 # <a name="radial-gauge-charts-in-power-bi"></a>Power BI 中的径向仪表图
 
+[!INCLUDE [power-bi-visuals-desktop-banner](../includes/power-bi-visuals-desktop-banner.md)]
+
 径向仪表图在圆弧内显示一个值，用于度量在实现目标或关键绩效指标 (KPI) 方面的进度。 线（或指针  ）表示目标或目标值。 底纹表示在实现目标方面的进度。 圆弧内的值表示进度值。 Power BI 沿圆弧均匀分布所有可能的值，从最小值（最左边的值）到最大值（最右边的值）。
 
-![径向仪表的屏幕截图。](media/power-bi-visualization-radial-gauge-charts/gauge_m.png)
+![径向仪表的屏幕截图。](media/power-bi-visualization-radial-gauge-charts/gauge-m.png)
 
 在上面的示例中，你是汽车零售商，需要跟踪销售团队的每月平均销量。 指针表示 140 辆汽车销量目标。 平均销量最小值为 0，最大值为 200。  蓝色底纹显示，销售团队本月的平均销量约为 120。 幸运的是，还有一周时间可以实现此目标。
 
 请观看下面的视频，Will 在其中介绍了如何创建各个指标视觉对象：仪表、卡片和 KPI。
-
+   > [!NOTE]
+   > 此视频使用较旧版本的 Power BI Desktop。
+   > 
+   > 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/xmja6EpqaO0?list=PL1N57mwBHtN0JFoKSR0n-tBkUJHeMP2cP" frameborder="0" allowfullscreen></iframe>
 
 ## <a name="when-to-use-a-radial-gauge"></a>何时使用径向仪表盘
@@ -44,43 +49,39 @@ ms.locfileid: "67390563"
 
 ## <a name="prerequisites"></a>先决条件
 
-* Power BI 服务或 Power BI Desktop
+本教程使用[财务示例 Excel 文件](http://download.microsoft.com/download/9/6/D/96DDC2FF-2568-491D-AAFA-AFDD6F763AE3/Retail%20Analysis%20Sample%20PBIX.pbix)。
 
-* 财务示例 Excel 工作簿：[直接下载该示例](http://go.microsoft.com/fwlink/?LinkID=521962)。
+1. 在菜单栏的左上方，选择“获取数据” > “Excel”  
+   
+2. 查找**财务示例 Excel 文件**的副本
+
+1. 在报表视图中打开**财务示例 Excel 文件** ![报表视图屏幕截图图标](media/power-bi-visualization-kpi/power-bi-report-view.png)。
+
+1. 选择“financials”和“Sheet1”  
+
+1. 单击“加载” 
+
+1. 选择 ![黄色选项卡的屏幕截图。](media/power-bi-visualization-kpi/power-bi-yellow-tab.png) ，以添加新报表页。
+
+
 
 ## <a name="create-a-basic-radial-gauge"></a>创建基本的径向仪表盘
 
-以下说明使用的是 Power BI 服务。 若要跟着介绍一起操作，请登录 Power BI，并打开“Excel 财务示例”文件。
+### <a name="step-1-create-a-gauge-to-track-gross-sales"></a>步骤 1：创建仪表盘来跟踪总销售额
 
-### <a name="step-1-open-the-financial-sample-excel-file"></a>步骤 1：打开“Excel 财务示例”文件
-
-1. 如果还没有，请下载[“财务示例”Excel 文件](../sample-financial-download.md)。 记下此文件的保存位置。
-
-1. 在 Power BI 服务中，依次选择“获取数据”   > “文件”  。
-
-1. 选择“本地文件”  ，并转到示例文件所在的位置。
-
-1. 选择“导入”  。 此时，Power BI 会将“财务示例”作为数据集添加到工作区中。
-
-1. 在“数据集”  内容列表中，选择“财务示例”  的“创建报表”  图标。
-
-    ![箭头指向“财务示例”的“创建报表”图标的“数据集”列表屏幕截图。](media/power-bi-visualization-radial-gauge-charts/power-bi-dataset.png)
-
-### <a name="step-2-create-a-gauge-to-track-gross-sales"></a>步骤 2：创建仪表盘来跟踪总销售额
-
-在上一部分中，当你选择“创建报表”  图标后，Power BI 会在编辑视图中创建一个空白报表。
+1. 从空白报表页入手
 
 1. 在“字段”  窗格中，选择“总销售额”  。
 
-   ![](media/power-bi-visualization-radial-gauge-charts/grosssalesvalue_new.png)
+   ![](media/power-bi-visualization-radial-gauge-charts/grosssalesvalue-new.png)
 
 1. 将聚合函数更改为**平均值**。
 
-   ![突出显示“总销售额”和“平均”聚合的“字段”窗格屏幕截图。](media/power-bi-visualization-radial-gauge-charts/changetoaverage_new.png)
+   ![突出显示“总销售额”和“平均”聚合的“字段”窗格屏幕截图。](media/power-bi-visualization-radial-gauge-charts/changetoaverage-new.png)
 
-1. 选择“仪表”图标 ![“仪表”图标的屏幕截图。](media/power-bi-visualization-radial-gauge-charts/gaugeicon_new.png) ，以将柱形图转换为仪表图。
+1. 选择“仪表”图标 ![“仪表”图标的屏幕截图。](media/power-bi-visualization-radial-gauge-charts/gaugeicon-new.png) ，以将柱形图转换为仪表图。
 
-    ![仪表图的屏幕截图。](media/power-bi-visualization-radial-gauge-charts/gauge_no_target.png)
+    ![仪表图的屏幕截图。](media/power-bi-visualization-radial-gauge-charts/gauge-no-target.png)
 
     你看到的数字可能会与这些数字不一致，具体视你何时下载“财务示例”  文件而定。
 
@@ -95,7 +96,7 @@ ms.locfileid: "67390563"
 
    Power BI 添加了一个针用于表示我们的目标值 **$145.48K**。
 
-   ![添加了“平均 COGS”的仪表图的屏幕截图。](media/power-bi-visualization-radial-gauge-charts/gaugeinprogress_new.png)
+   ![添加了“平均 COGS”的仪表图的屏幕截图。](media/power-bi-visualization-radial-gauge-charts/gaugeinprogress-new.png)
 
     请注意，我们已经超过了我们的目标。
 
@@ -110,7 +111,7 @@ ms.locfileid: "67390563"
 
 1. 将聚合函数更改为**最大值**。
 
-   ![突出显示“总销售额”和“最大值”聚合的“字段”窗格屏幕截图。](media/power-bi-visualization-radial-gauge-charts/setmaximum_new.png)
+   ![突出显示“总销售额”和“最大值”聚合的“字段”窗格屏幕截图。](media/power-bi-visualization-radial-gauge-charts/setmaximum-new.png)
 
    将重新绘制仪表盘，其新的结束值为总销售额 121 万。
 
@@ -119,8 +120,6 @@ ms.locfileid: "67390563"
 ### <a name="step-5-save-your-report"></a>步骤 5：保存报表
 
 1. [保存报表](../service-report-save.md)。
-
-1. [将仪表盘添加为仪表板磁贴](../service-dashboard-pin-tile-from-report.md)。 
 
 ## <a name="use-manual-format-options-to-set-minimum-maximum-and-target-values"></a>使用手动格式选项设置最小值、最大值和目标值
 
@@ -136,7 +135,7 @@ ms.locfileid: "67390563"
 
 1. 取消选中“字段”  窗格中的“COGS”  选项，以删除目标值。
 
-    ![已取消选中“COGS”选项的屏幕截图。](media/power-bi-visualization-radial-gauge-charts/pbi_remove_target.png)
+    ![已取消选中“COGS”选项的屏幕截图。](media/power-bi-visualization-radial-gauge-charts/pbi-remove-target.png)
 
 1. 当**仪表盘轴**下方显示**目标值**字段时，请输入一个值。
 

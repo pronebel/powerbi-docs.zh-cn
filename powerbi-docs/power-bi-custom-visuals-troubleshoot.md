@@ -1,22 +1,22 @@
 ---
-title: 如何开发 Power BI 自定义视觉对象的疑难解答
+title: 如何开发 Power BI Power BI 视觉对象的疑难解答
 description: 本文介绍了开发或创建自定义 Power BI 视觉对象时可能会遇到的一些常见问题。
-author: sranins
-ms.author: rasala
-manager: kfile
+author: KesemSharabi
+ms.author: kesharab
+manager: rkarlin
 ms.reviewer: maghan
 ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: conceptual
 ms.date: 11/06/2018
-ms.openlocfilehash: cbda8cca80c32056f06788e53540d7f2d6ed972d
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: 4d863ff921df2a5cfb5233d85679f2277542bb44
+ms.sourcegitcommit: e2de2e8b8e78240c306fe6cca820e5f6ff188944
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61421762"
+ms.lasthandoff: 09/23/2019
+ms.locfileid: "71195355"
 ---
-# <a name="troubleshoot-power-bi-custom-visuals"></a>Power BI 自定义视觉对象疑难解答
+# <a name="troubleshoot-power-bi-power-bi-visuals"></a>Power BI Power BI 视觉对象疑难解答
 
 ## <a name="debug"></a>调试
 
@@ -39,8 +39,8 @@ ms.locfileid: "61421762"
 
 在终端的命令行中从视觉对象项目的根目录使用命令 `pbiviz start` 运行视觉对象服务器。 如果服务器未运行，则可能是未正确安装 SSL 证书。
 
-请随时联系自定义视觉对象支持团队： *pbicvsupport@microsoft.com*  可咨询任何相关问题或提供反馈意见。
+请随时联系 Power BI 视觉对象支持团队 ( *pbicvsupport@microsoft.com*  )，可咨询任何相关问题或提供反馈意见。
 
 ## <a name="next-steps"></a>后续步骤
 
-有关详细信息，请访问[关于 Power BI 自定义视觉对象的常见问题解答](power-bi-custom-visuals-faq.md#organizational-custom-visuals)。
+有关详细信息，请访问[关于 Power BI Power BI 视觉对象的常见问题解答](power-bi-custom-visuals-faq.md#organizational-visuals)。

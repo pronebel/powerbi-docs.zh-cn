@@ -11,18 +11,20 @@ ms.topic: conceptual
 ms.date: 06/24/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 857db3240385e9bf1b4e0416cc1200d1a029d73e
-ms.sourcegitcommit: cc4b18d55b2dca8fdb1bef00f53a0a808c41432a
+ms.openlocfilehash: 65410dc15600307ba11a2c48db1689be5a458383
+ms.sourcegitcommit: e2de2e8b8e78240c306fe6cca820e5f6ff188944
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/09/2019
-ms.locfileid: "68867192"
+ms.lasthandoff: 09/23/2019
+ms.locfileid: "71193402"
 ---
 # <a name="tables-in-power-bi-reports-and-dashboards"></a>Power BI 报表和仪表板中的表
 
+[!INCLUDE [power-bi-visuals-desktop-banner](../includes/power-bi-visuals-desktop-banner.md)]
+
 表是以逻辑序列的行和列表示的包含相关数据的网格。 它还包含标头和合计行。 表非常适合定量比较，即研究一个类别的多个值。 例如，下表显示“类别”  的五个不同度量值。
 
-![显示“类别”的五个不同度量值的表的屏幕截图。](media/power-bi-visualization-tables/table.png)
+![显示“类别”的五个不同度量值的表的屏幕截图。](media/power-bi-visualization-tables/power-bi-table-grid3.png)
 
 可以在报表中创建表，并能将表内的元素与同一报表页上的其他视觉对象一起交叉突出显示。 可以选择行、列和各个单元格，并交叉突出显示。 还可以将选择的单个单元格和多个单元格复制并粘贴到其他应用程序。
 
@@ -36,25 +38,23 @@ ms.locfileid: "68867192"
 
 * 若要按类别显示数值数据。
 
-## <a name="prerequisites"></a>先决条件
+## <a name="prerequisite"></a>先决条件
 
-* Power BI 服务或 Power BI Desktop
+本教程使用[零售分析示例 PBIX 文件](http://download.microsoft.com/download/9/6/D/96DDC2FF-2568-491D-AAFA-AFDD6F763AE3/Retail%20Analysis%20Sample%20PBIX.pbix)。
 
-* “零售分析示例”报表
+1. 在菜单栏的左上方，选择“文件” > “打开”  
+   
+2. 查找**零售分析示例 PBIX 文件**的副本
 
-## <a name="get-the-retail-analysis-sample-report"></a>获取“零售分析示例”报表
+1. 在报表视图中打开**零售分析示例 PBIX 文件** ![报表视图屏幕截图图标](media/power-bi-visualization-kpi/power-bi-report-view.png)。
 
-以下说明使用零售分析示例。 创建可视化效果需要对数据集和报表拥有编辑权限。 幸运的是，所有 Power BI 示例都是可以编辑的。 如果有人与你共享报表，你无法在报表中创建可视化效果。 若要跟着本教程一起操作，请获取[“零售分析示例”报表](../sample-datasets.md)。
+1. 选择 ![黄色选项卡的屏幕截图。](media/power-bi-visualization-kpi/power-bi-yellow-tab.png) ，以添加新报表页。
 
-获取“零售分析示例”  数据集后，可以开始操作了。
 
 ## <a name="create-a-table"></a>创建表
 
 你将创建本文开头所示的表，以按商品类别显示销售额值。
 
-1. 在“我的工作区”  中，依次选择“数据集”   > “创建报表”  。
-
-    ![“数据集”>“创建报表”屏幕截图。](media/power-bi-visualization-tables/power-bi-create-a-report.png)
 
 1. 在“字段”  窗格中，依次选择“商品”   > “类别”  。
 
@@ -66,11 +66,10 @@ ms.locfileid: "68867192"
 
 1. 然后，依次选择“销售额”>“今年销售额”  ，并选择以下所有三个选项：“值”  、“目标”  和“状态”  。
 
-1. 在“可视化效果”  窗格中，找到“值”  井并拖动值，直到表列的顺序与本页上的第一个图像一致。 “值”  井如下所示：
+1. 在“可视化效果”窗格中，找到“值”井并选择值，直到表列的顺序与本页中的第一个图像一致   。 如果需要，将值拖到井中。 “值”  井如下所示：
 
     ![“值”列](media/power-bi-visualization-tables/power-bi-table2.png)
 
-1. 通过选择大头针图标将该表固定到仪表板 ![图钉](media/power-bi-visualization-tables/pbi_pintile.png) 。
 
 ## <a name="format-the-table"></a>设置表格格式
 
@@ -170,10 +169,6 @@ ms.locfileid: "68867192"
 1. 依次选择“复制”   > “复制选择”  。
 
     ![复制选项](media/power-bi-visualization-tables/power-bi-copy-selection.png)
-
-    复制包括列标题和行标题。
-
-    ![粘贴到 Excel](media/power-bi-visualization-tables/power-bi-paste-selection.png)
 
 ## <a name="adjust-the-column-width-of-a-table"></a>调整表的列宽度的大小
 

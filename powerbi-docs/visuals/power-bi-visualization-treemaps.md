@@ -11,14 +11,16 @@ ms.topic: conceptual
 ms.date: 06/24/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 4c28071917dbe5669e6e35bd416236ef7047eb24
-ms.sourcegitcommit: 58c649ec5fd2447a0f9ca4c4d45a0e9fff2f1b6a
+ms.openlocfilehash: 1de5869bc5b422dc98a13316022f653f62675829
+ms.sourcegitcommit: e2de2e8b8e78240c306fe6cca820e5f6ff188944
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/27/2019
-ms.locfileid: "67408743"
+ms.lasthandoff: 09/23/2019
+ms.locfileid: "71192571"
 ---
 # <a name="treemaps-in-power-bi"></a>Power BI 中的树状图
+
+[!INCLUDE [power-bi-visuals-desktop-banner](../includes/power-bi-visuals-desktop-banner.md)]
 
 树状图将分层数据显示为一组嵌套矩形。 层次结构中的每个级别都由一个有色矩形（分支）表示，其中包含更小的矩形（叶）。 Power BI 根据度量值来确定每个矩形内的空间大小。 矩形按大小从左上方（最大）到右下方（最小）排列。
 
@@ -40,6 +42,11 @@ ms.locfileid: "67408743"
 
 想要先观看别人创建一个树状图？ 跳到此视频的 2:10 处观看 Amanda 创建一个树状图。
 
+   > [!NOTE]
+   > 此视频使用较旧版本的 Power BI Desktop。
+   > 
+   > 
+
 <iframe width="560" height="315" src="https://www.youtube.com/embed/IkJda4O7oGs" frameborder="0" allowfullscreen></iframe>
 
 ## <a name="when-to-use-a-treemap"></a>何时使用树状图
@@ -58,15 +65,18 @@ ms.locfileid: "67408743"
 
 * 若要发现模式、离群值、最重要影响因素和异常。
 
-## <a name="prerequisites"></a>先决条件
+## <a name="prerequisite"></a>先决条件
 
-* Power BI 服务或 Power BI Desktop
+本教程使用[零售分析示例 PBIX 文件](http://download.microsoft.com/download/9/6/D/96DDC2FF-2568-491D-AAFA-AFDD6F763AE3/Retail%20Analysis%20Sample%20PBIX.pbix)。
 
-* “零售分析示例”报表
+1. 在菜单栏的左上方，选择“文件” > “打开”  
+   
+2. 查找**零售分析示例 PBIX 文件**的副本
 
-## <a name="get-the-retail-analysis-sample-report"></a>获取“零售分析示例”报表
+1. 在报表视图中打开**零售分析示例 PBIX 文件** ![报表视图屏幕截图图标](media/power-bi-visualization-kpi/power-bi-report-view.png)。
 
-以下说明使用零售分析示例。 创建可视化效果需要对数据集和报表拥有编辑权限。 幸运的是，所有 Power BI 示例都是可以编辑的。 如果有人与你共享报表，你无法在报表中创建可视化效果。 若要跟着本教程一起操作，请获取[“零售分析示例”报表](../sample-datasets.md)。
+1. 选择 ![黄色选项卡的屏幕截图。](media/power-bi-visualization-kpi/power-bi-yellow-tab.png) ，以添加新报表页。
+
 
 获取“零售分析示例”  数据集后，可以开始操作了。
 
@@ -74,25 +84,22 @@ ms.locfileid: "67408743"
 
 你将创建报表，并添加基本树状图。
 
-1. 在“我的工作区”  中，依次选择“数据集”   > “创建报表”  。
-
-    ![“数据集”>“创建报表”屏幕截图。](media/power-bi-visualization-treemaps/power-bi-create-a-report.png)
 
 1. 在“字段”  窗格中，依次选择“销售额”   > “去年销售额”  度量值。
 
-   ![依次选择“销售额”>“去年销售额”和生成的视觉对象的屏幕截图。](media/power-bi-visualization-treemaps/treemapfirstvalue_new.png)
+   ![依次选择“销售额”>“去年销售额”和生成的视觉对象的屏幕截图。](media/power-bi-visualization-treemaps/treemapfirstvalue-new.png)
 
 1. 选择“树状图”图标 ![“树状图”图标的屏幕截图](media/power-bi-visualization-treemaps/power-bi-treemap-icon.png) ，以将图表转换为树状图。
 
-   ![不含配置的树状图的屏幕截图。](media/power-bi-visualization-treemaps/treemapconvertto_new.png)
+   ![不含配置的树状图的屏幕截图。](media/power-bi-visualization-treemaps/treemapconvertto-new.png)
 
-1. 将**项目**  >  **类别**拖放到**组**中。
+1. 选择“项目” > “类别”，这会将“类别”添加到“组”井中     。
 
     Power BI 将创建一个树状图，其中矩形的大小基于总销售额，颜色代表类别。 实际上你已创建以可视化方式描述按类别的总销售额的相对大小的层次结构。 “男装”  类的销售额最高，“袜”  类销售额最低。
 
     ![已配置的树状图的屏幕截图。](media/power-bi-visualization-treemaps/power-bi-complete.png)
 
-1. 将“商店”   >  “连锁店”  拖放到“详细信息”  以完成树状图。 现在你可以按类别和连锁店比较上年度的销售额。
+1. 选择“商店” > “连锁店”，这会将“连锁店”添加到“详细信息”井中以完成树状图     。 现在你可以按类别和连锁店比较上年度的销售额。
 
    ![将“商店”>“连锁店”添加到“详细信息”的树状图的屏幕截图。](media/power-bi-visualization-treemaps/power-bi-details.png)
 
@@ -103,19 +110,14 @@ ms.locfileid: "67408743"
 
     例如，将鼠标悬停在“090-家居”  矩形中的 Fashions Direct  ，将显示家居类别 Fashions Direct 部分的工具提示。
 
-   ![显示的“主页”工具提示的屏幕截图。](media/power-bi-visualization-treemaps/treemaphoverdetail_new.png)
+   ![显示的“主页”工具提示的屏幕截图。](media/power-bi-visualization-treemaps/treemaphoverdetail-new.png)
 
-1. 将树状图添加为[仪表板磁贴（固定视觉对象）](../service-dashboard-tiles.md)。
-
-1. 保存[报表](../service-report-save.md)。
 
 ## <a name="highlighting-and-cross-filtering"></a>突出显示和交叉筛选
 
-若要了解如何使用“筛选器”  窗格，请参阅[向报表添加筛选器](../power-bi-report-add-filter.md)。
+突出显示树状图中的一个**类别**或**详细信息**，以交叉突出显示和交叉筛选报表页上的其他可视化效果。 若要跟着本教程一起操作，请向此报表页添加一些视觉对象，或将树状图复制到此报表的其他一个报表页中。 下图中的树状图已复制到**概述**页。 
 
-突出显示树状图中的“类别”  或“详细信息”  可交叉突出显示和交叉筛选报表页上的其他可视化效果，反之亦然。 若要跟着本教程一起操作，请向此报表页添加一些视觉对象，或将树状图复制到此报表的其他一个报表页中。
-
-1. 在树状图中，选择“类别”  或“类别”  中的“连锁店”  。 这会交叉突出显示报表页上的其他可视化效果。 例如，选择“050-Shoes”  显示去年的鞋子销售额为 $3,640,471  ，其中 Fashions Direct  贡献了 $2,174,185  的销售额。
+1. 在树状图中，选择“类别”  或“类别”  中的“连锁店”  。 这会交叉突出显示报表页上的其他可视化效果。 例如，选择“050-Shoes”会显示去年的鞋子销售额为 **$16,352,432**，其中“Fashions Direct”贡献了 **$2,174,185** 的销售额   。
 
    ![展示交叉突出显示的“商店销售情况概览”报表的屏幕截图。](media/power-bi-visualization-treemaps/treemaphiliting.png)
 

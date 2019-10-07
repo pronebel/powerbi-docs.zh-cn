@@ -4,17 +4,17 @@ description: 有关如何开发 Power BI 自定义视觉对象格式选项的教
 author: KesemSharabi
 ms.author: kesharab
 manager: rkarlin
-ms.reviewer: maghan
+ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: tutorial
 ms.date: 11/21/2018
-ms.openlocfilehash: 5fa14e3aa8a303206d52359d04db05850e096d81
-ms.sourcegitcommit: e2de2e8b8e78240c306fe6cca820e5f6ff188944
+ms.openlocfilehash: e5a05a3c0854cbee57a46cadb45dd805e64cd21e
+ms.sourcegitcommit: b7a9862b6da940ddebe61bc945a353f91cd0e4bd
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/23/2019
-ms.locfileid: "71194581"
+ms.lasthandoff: 10/04/2019
+ms.locfileid: "71945295"
 ---
 # <a name="tutorial-adding-formatting-options-to-a-power-bi-visual"></a>教程：向 Power BI 视觉对象添加格式设置选项
 

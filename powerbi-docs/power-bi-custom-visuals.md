@@ -1,21 +1,21 @@
 ---
 title: Power BI 中的视觉对象
-description: 在 Power BI 中自定义可视化效果
-author: sranins
-ms.author: rasala
-manager: kfile
+description: Power BI 中的自定义可视化效果
+author: KesemSharabi
+ms.author: kesharab
+manager: rkarlin
 ms.reviewer: maghan
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 05/15/2019
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 68048968bf6a3f85f2bc24e55fd1288073be1d56
-ms.sourcegitcommit: 473d031c2ca1da8935f957d9faea642e3aef9839
+ms.openlocfilehash: fde213e29b5168ed990f297e5ace9895bfd44020
+ms.sourcegitcommit: e2de2e8b8e78240c306fe6cca820e5f6ff188944
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/23/2019
-ms.locfileid: "68415406"
+ms.lasthandoff: 09/23/2019
+ms.locfileid: "71195727"
 ---
 # <a name="visuals-in-power-bi"></a>Power BI 中的视觉对象
 
@@ -23,11 +23,11 @@ ms.locfileid: "68415406"
 
 ![可视化效果](media/power-bi-custom-visuals/power-bi-visualizations.png)
 
-但是，你并不限于使用这组视觉对象。 如果选择底部的省略号 (...)，则可使用另一种报表视觉对象 -“自定义视觉对象”  。
+但是，你并不限于使用这组视觉对象。 如果选择底部的省略号 (...)，则可使用其他报表视觉对象源 - *Power BI 视觉对象*。
 
-开发人员可使用自定义视觉对象 SDK 创建自定义视觉对象。 业务用户通过这些视觉对象能够以最适合其业务的方式查看数据。 报表创建者可以将自定义视觉对象文件导入报表中，并像任何其他 Power BI 视觉对象一样来使用他们。 自定义视觉对象在 Power BI 中处于最高等级，可以对其执行筛选、突出显示、编辑和共享等操作。
+开发人员使用 Power BI 视觉对象 SDK 创建 Power BI 视觉对象。 业务用户通过这些视觉对象能够以最适合其业务的方式查看数据。 报表创建者可以将自定义视觉对象文件导入报表中，并像任何其他 Power BI 视觉对象一样来使用他们。 Power BI 视觉对象在 Power BI 中处于最高等级，可以对其执行筛选、突出显示、编辑和共享等操作。
 
-可以通过以下三种方式部署自定义视觉对象：
+可以通过以下三种方式部署 Power BI 视觉对象：
 
 * 自定义视觉对象文件
 * 组织视觉对象
@@ -35,29 +35,29 @@ ms.locfileid: "68415406"
 
 ## <a name="custom-visual-files"></a>自定义视觉对象文件
 
-自定义视觉对象是包含代码的包，这些代码用于呈现提供给它们的数据。 任何人都可以创建自定义视觉对象并将其打包为之后可导入 Power BI 报表的单个 `.pbiviz` 文件。
+Power BI 视觉对象是包含代码的包，这些代码用于呈现提供给它们的数据。 任何人都可以创建自定义视觉对象并将其打包为之后可导入 Power BI 报表的单个 `.pbiviz` 文件。
 
 > [!WARNING]
 > 自定义视觉对象可能包含存在安全或隐私风险的代码。 请确保创建者和自定义视觉对象源可信，然后将其导入报表。
 
 ## <a name="organizational-visuals"></a>组织视觉对象
 
-Power BI 管理员许可并将自定义视觉对象部署到其组织中，以便报表创建者可以轻松地发现、更新和使用这些视觉对象。 管理员可以轻松地管理（例如，更新版本、禁用/启用）这些视觉对象。
+Power BI 管理员许可并将 Power BI 视觉对象部署到其组织中，以便报表作者可以轻松地发现、更新和使用这些视觉对象。 管理员可以轻松地管理（例如，更新版本、禁用/启用）这些视觉对象。
 
  [详细了解可组织的视觉对象](power-bi-custom-visuals-organization.md)。
 
 ## <a name="marketplace-visuals"></a>市场视觉对象
 
-社区成员以及 Microsoft 已经将自定义视觉对象公开发布到 [AppSource](https://appsource.microsoft.com/marketplace/apps?product=power-bi-visuals) 市场。 你可以下载这些视觉对象，然后将其添加到 Power BI 报表。 这些自定义视觉对象都已经过测试并通过 Microsoft 的功能和质量审核。
+社区成员和 Microsoft 已经将 Power BI 视觉对象公开发布到 [AppSource](https://appsource.microsoft.com/marketplace/apps?product=power-bi-visuals) 市场。 你可以下载这些视觉对象，然后将其添加到 Power BI 报表。 这些 Power BI 视觉对象都已经过测试并通过 Microsoft 的功能和质量审核。
 
 什么是 [AppSource](developer/office-store.md)？ 它是可以在其中查找与 Microsoft 软件相关的应用、加载项和扩展的地方。 AppSource 为 Office 365、Azure、Dynamics 365、Cortana 和 Power BI 等产品的数百万用户提供解决方案，帮助他们更高效、更有见地并且更为完美地完成工作。
 
 ### <a name="certified-visuals"></a>已认证的视觉对象
 
 Power BI 取得认证的视觉对象是指已通过额外严格质量测试的市场视觉对象，可用于其他情形，如[电子邮件订阅](service-report-subscribe.md)和[导出到 PowerPoint](service-publish-to-powerpoint.md)。
-若要查看已认证的自定义视觉对象列表或提交你自己的自定义视觉对象，请参阅[已认证的自定义视觉对象](power-bi-custom-visuals-certified.md)。
+若要查看已认证的 Power BI 视觉对象列表或提交自己的 Power BI 视觉对象，请参阅[已认证的 Power BI 视觉对象](power-bi-custom-visuals-certified.md)。
 
-你是 Web 开发者吗？对创建自己的可视化效果，并将它们添加到 AppSource 感兴趣吗？ 请参阅[开发 Power BI 自定义视觉对象](developer/custom-visual-develop-tutorial.md)，了解如何[将自定义视觉对象发布到 AppSource](developer/office-store.md)。
+你是 Web 开发者吗？对创建自己的可视化效果，并将它们添加到 AppSource 感兴趣吗？ 请参阅[开发 Power BI 自定义视觉对象](developer/custom-visual-develop-tutorial.md)，了解如何[将 Power BI 视觉对象发布到 AppSource](developer/office-store.md)。
 
 ### <a name="import-a-custom-visual-from-a-file"></a>从文件导入自定义视觉对象
 
@@ -95,11 +95,11 @@ Power BI 取得认证的视觉对象是指已通过额外严格质量测试的�
 
     ![视觉对象组织 5](media/power-bi-custom-visuals/power-bi-visual-org-05.png)
 
-## <a name="download-or-import-custom-visuals-from-microsoft-appsource"></a>从 Microsoft AppSource 下载或导入自定义视觉对象
+## <a name="download-or-import-power-bi-visuals-from-microsoft-appsource"></a>从 Microsoft AppSource 下载或导入 Power BI 视觉对象
 
-下载和导入自定义视觉对象的方法有两种，可以在 Power BI 中获取，也可以从 [AppSource 网站](https://appsource.microsoft.com/)获取。
+下载和导入 Power BI 视觉对象的方法有两种：可以在 Power BI 中获取，也可以从 [AppSource 网站](https://appsource.microsoft.com/)获取。
 
-### <a name="import-custom-visuals-from-within-power-bi"></a>在 Power BI 中导入自定义视觉对象
+### <a name="import-power-bi-visuals-from-within-power-bi"></a>在 Power BI 中导入 Power BI 视觉对象
 
 1. 选择“可视化效果”窗格底部的省略号  。
 
@@ -129,13 +129,13 @@ Power BI 取得认证的视觉对象是指已通过额外严格质量测试的�
 
     ![已导入的视觉对象](media/power-bi-custom-visuals/power-bi-custom-visual-imported.png)
 
-### <a name="download-and-import-custom-visuals-from-microsoft-appsource"></a>从 Microsoft AppSource 下载和导入自定义视觉对象
+### <a name="download-and-import-power-bi-visuals-from-microsoft-appsource"></a>从 Microsoft AppSource 下载和导入 Power BI 视觉对象
 
 1. 首先，访问 [Microsoft AppSource](https://appsource.microsoft.com)，并选择“应用”  选项卡。
 
     ![AppSource](media/power-bi-custom-visuals/power-bi-appsource-apps.png)
 
-2. 转到[应用结果页](https://appsource.microsoft.com/marketplace/apps)。在此页中，可以查看每种类别的热门应用，包括 Power BI 应用  。 由于要找的是自定义视觉对象，因此可以选择左侧导航列表中的“Power BI 视觉对象”，从而缩小结果范围  。
+2. 转到[应用结果页](https://appsource.microsoft.com/marketplace/apps)。在此页中，可以查看每种类别的热门应用，包括 Power BI 应用  。 由于要查找的是 Power BI 视觉对象，可以选择左侧导航列表中的“Power BI 视觉对象”，从而缩小结果范围  。
 
     ![AppSource 视觉对象](media/power-bi-custom-visuals/power-bi-appsource-visuals.png)
 
@@ -165,15 +165,15 @@ Power BI 取得认证的视觉对象是指已通过额外严格质量测试的�
 
 * 导入完成后，自定义视觉对象就已添加到特定报表中。 若要在其他报表中使用此视觉对象，还需要将它导入到相应报表。 使用“另存为”选项保存包含自定义视觉对象的报表时，自定义视觉对象的副本会与新报表一同保存。 
 
-* 如果看不到“可视化效果”窗格，则表示无权编辑报表  。  只能将自定义视觉对象添加到有权编辑的报表，不能添加到只与自己共享的报表。
+* 如果看不到“可视化效果”窗格，则表示无权编辑报表  。  只能将 Power BI 视觉对象添加到自己有权编辑的报表，而不能添加到仅与自己共享的报表。
 
 ## <a name="troubleshoot"></a>疑难解答
 
-若要进行排除故障，请参阅 [Power BI 自定义视觉对象疑难解答](power-bi-custom-visuals-troubleshoot.md)。
+若要进行故障排除，请参阅 [Power BI Power BI 视觉对象疑难解答](power-bi-custom-visuals-troubleshoot.md)。
 
 ## <a name="faq"></a>常见问题解答
 
-有关详细信息和问题的答案，请访问[关于 Power BI 自定义视觉对象的常见问题解答](power-bi-custom-visuals-faq.md#organizational-custom-visuals)。
+有关详细信息和问题的答案，请访问[关于 Power BI Power BI 视觉对象的常见问题解答](power-bi-custom-visuals-faq.md#organizational-visuals)。
 
 ## <a name="next-steps"></a>后续步骤
 

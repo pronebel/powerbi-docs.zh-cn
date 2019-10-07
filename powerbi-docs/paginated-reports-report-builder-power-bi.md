@@ -8,13 +8,13 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: overview
-ms.date: 06/06/2019
-ms.openlocfilehash: 9e4d5285b48739e9f16fbe503736c20cb5524e5d
-ms.sourcegitcommit: e62889690073626d92cc73ff5ae26c71011e012e
+ms.date: 09/24/2019
+ms.openlocfilehash: ca090f7251349c9ed4768b49f1372c14e68f0068
+ms.sourcegitcommit: 57e45f291714ac99390996a163436fa1f76db427
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2019
-ms.locfileid: "69985731"
+ms.lasthandoff: 09/26/2019
+ms.locfileid: "71305685"
 ---
 # <a name="what-are-paginated-reports-in-power-bi-premium"></a>Power BI Premium 中的分页报表是什么？
 
@@ -36,14 +36,13 @@ ms.locfileid: "69985731"
 
 一个分页报表可能包含许多不同的数据源。 与 Power BI 报表不同的是，它没有基础数据模型。 对于 Power BI 服务中分页报表的初始发布，可以在报表本身创建嵌入数据源和数据集。 尚无法使用共享数据源或共享数据集。 可以在本地计算机上的报表生成器中创建报表。 如果报表连接到本地数据，则在将报表上传到 Power BI 服务后，需要创建网关并重定向数据连接。 以下是目前可以连接到的数据源：
 
-- Azure SQL 数据库和数据仓库
+- Azure SQL 数据库和数据仓库（通过 Basic 和 oAuth）
 - Azure Analysis Services（通过 SSO）
 - 通过网关连接的 SQL Server
 - 通过网关连接的 SQL Server Analysis Services
-- Power BI Premium 数据集
+- Power BI 数据集
 - Oracle
 - Teradata
-- 所添加的其他数据源
 
 ## <a name="design-your-report"></a>设计报表  
 
@@ -79,10 +78,10 @@ ms.locfileid: "69985731"
 以下是初始版本中不支持的一些其他功能：
 
 - 将报表页或视觉对象固定到 Power BI 仪表板。 用户仍可以从 Power BI 报表服务器或 Reporting Services 报表服务器上的本地分页报表将可视化效果固定到 Power BI 仪表板。 有关详细信息，请参阅[将 Reporting Services 项目固定到 Power BI 仪表板](https://docs.microsoft.com/sql/reporting-services/pin-reporting-services-items-to-power-bi-dashboards)。
-- 交互功能，如文档映射和显示/隐藏按钮。
-- 子报表和钻取报表。
+- 文档结构图。
+- 子报表和钻取报表。  但是，你可以考虑将 URL 参数与分页报表配合使用，从而实现钻取方案。
 - 共享数据源和共享数据集。
-- Power BI 报表中的视觉对象。
+
  
 ## <a name="next-steps"></a>后续步骤
 

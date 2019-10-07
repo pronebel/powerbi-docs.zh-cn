@@ -1,10 +1,10 @@
 ---
-ms.openlocfilehash: 240045c05a35a6583b537b785c6639a39c6aa9d4
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 6e48713315b23cf322b635f1650374251b639e4f
+ms.sourcegitcommit: bbd9b38f30a4ca5cb8072496c9cacb635b03aa88
+ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61193586"
+ms.lasthandoff: 09/27/2019
+ms.locfileid: "71409348"
 ---
 ## <a name="define-roles-and-rules-in-power-bi-desktop"></a>在 Power BI Desktop 中定义角色和规则
 你可以在 Power BI Desktop 中定义角色和规则。 发布到 Power BI 时，它还会发布角色定义。
@@ -35,8 +35,14 @@ ms.locfileid: "61193586"
    
    ![](./media/rls-desktop-define-roles/powerbi-desktop-security-create-rule.png)
 8. 创建 DAX 表达式后，你可以选择表达式框上方的“检查”以验证该表达式。
-   
+      
    ![](./media/rls-desktop-define-roles/powerbi-desktop-security-validate-dax.png)
+   
+   > [!NOTE]
+   > 在此表达式框中，即使使用的区域设置通常使用分号分隔符（例如，法语或德语），也要使用逗号分隔 DAX 函数参数。 
+   >
+   >
+   
 9. 选择**保存**。
 
 无法在 Power BI Desktop 中将用户分配到角色。 在 Power BI 服务中分配用户。 通过使用 username()  或 userprincipalname()  DAX 函数并配置好正确的关系，则可以启用 Power BI Desktop 中的动态安全。 

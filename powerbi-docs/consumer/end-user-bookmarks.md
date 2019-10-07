@@ -3,20 +3,18 @@ title: Power BI 服务报表中的书签概述
 description: Power BI 问答自然语言查询的文档概述主题。
 author: mihart
 manager: kvivek
-ms.reviewer: ''
-ms.custom: seodec18
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 05/10/2019
+ms.date: 09/22/2019
 ms.author: mihart
 LocalizationGroup: Create reports
-ms.openlocfilehash: 55fafb00135908dc4f82151b96ed04d2cf2568da
-ms.sourcegitcommit: 52aa112ac9194f4bb62b0910c4a1be80e1bf1276
+ms.openlocfilehash: 0b4da978687afbafcc7f0d48b6df220b240a507f
+ms.sourcegitcommit: 3885ae11e695f875a82c212ca157e401db8337c4
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "65608325"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "71207611"
 ---
 # <a name="what-are-bookmarks"></a>什么是书签？
 书签可捕获报表页当前已配置的视图，其中包括筛选器、切片器和视觉对象状态。 选择书签时，Power BI 将返回到该视图。 书签有两种类型：自己创建的书签和由报表设计师创建的书签  。
@@ -26,15 +24,15 @@ ms.locfileid: "65608325"
 
 你也可以创建一系列书签，按所需的顺序对其进行排列，随后在演示文稿中逐个展示所有书签，以突出显示一系列讲述故事的见解。  
 
-![在功能区中选择“书签”，即可显示“书签”窗格。](media/end-user-bookmarks/power-bi-bookmarks-pane.png)
+![在功能区中选择“书签”，即可显示“书签”窗格。](media/end-user-bookmarks/power-bi-select-bookmark.png)
 
-## <a name="using-bookmarks"></a>使用书签
-要打开“书签”窗格，请在菜单栏中选择“书签”  。 要返回到报表的原始发布视图，请选择“重置为默认值”  。
+## <a name="open-bookmarks"></a>打开书签
+若要打开“书签”窗格，请从菜单栏中选择“书签” > “显示多个书签”   。 要返回到报表的原始发布视图，请选择“重置为默认值”  。
 
 ### <a name="report-bookmarks"></a>报表书签
-如果报表设计器包含报表书签，可在“报表书签”标题下找到它们   。 
+如果报表设计器包含报表书签，可在“报表书签”标题下找到它们   。 此报表页具有两个书签 B1 和 B2。 
 
-![显示报表书签。](media/end-user-bookmarks/power-bi-report-bookmark.png)
+![显示报表书签。](media/end-user-bookmarks/power-bi-report.png)
 
 选择要更改为该报表视图的书签。 
 
@@ -55,13 +53,13 @@ ms.locfileid: "65608325"
 
 配置报表页，确保它在书签中的显示效果符合自己的要求。 按照所需方式排列报表页和视觉对象后，选择“书签”  窗格中的“添加”  ，添加一个书签。 在此示例中，我们为区域和日期添加了一些筛选器。 
 
-![添加个人书签。](media/end-user-bookmarks/power-bi-add-personal.png)
+![添加个人书签。](media/end-user-bookmarks/power-bi-bookmark-personal.png)
 
-Power BI 会创建一个书签，并为其提供一个通用名称或输入的名称  。 通过选择书签名称旁边的省略号，再从出现的菜单中选择相应操作，即可重命名、删除或更新书签    。
+**Power BI** 会创建个人书签，并为其提供通用名称或输入的名称。 通过选择书签名称旁边的省略号，然后从出现的菜单中选择相应操作，即可*重命名*、*删除*或*更新*书签。
 
 添加书签后，只需单击“书签”窗格中的书签，即可显示它  。 
 
-![添加个人书签。](media/end-user-bookmarks/power-bi-personal-bookmark.png)
+![添加个人书签。](media/end-user-bookmarks/power-bi-bookmark-west.png)
 
 
 <!--
@@ -81,11 +79,11 @@ The order of your bookmarks can become important when you use the **View** featu
 
 在“查看”  模式下，有几项功能值得注意：
 
-1. 书签名称显示在画布底部的书签标题栏中。
-2. 书签标题栏中的箭头可用于移到下一个或上一个书签。
-3. 可以退出“查看”  模式，具体方法为选择“书签”  窗格中的“退出”  ，或选择书签标题栏中的“X”  。 
+- 书签名称显示在画布底部的书签标题栏中。
+- 书签标题栏中的箭头可用于移到下一个或上一个书签。
+- 可以退出“查看”  模式，具体方法为选择“书签”  窗格中的“退出”  ，或选择书签标题栏中的“X”  。
 
-![书签幻灯片放映](media/end-user-bookmarks/power-bi-bookmark-slideshow.png)
+![书签幻灯片放映](media/end-user-bookmarks/power-bi-slideshow.png)
 
 在“查看”  模式下，可以关闭“书签”  窗格（单击此窗格上的“X”），为演示文稿提供更多空间。 同时，在“查看”  模式下，所有视觉对象都可以进行交互和交叉突出显示，就像在其他情况下与它们交互时一样。 
 
@@ -154,7 +152,6 @@ Note that selecting **Ungroup** for any bookmark from a group takes all bookmark
 
 * 大多数自定义视觉对象应该能够与书签很好地配合使用。 如果在使用书签和自定义视觉对象时遇到问题，请与该自定义视觉对象的创建者联系，并要求他们向视觉对象添加书签支持。 
 * 如果在创建书签后在报表页上添加视觉对象，此视觉对象将以默认状态显示。 也就是说，如果在之前创建书签的页面中引入切片器，此切片器将在默认状态下运行。
-* 创建书签后，如果移动视觉对象，书签中也会予以反映。 
 * 通常，如果报表设计师更新或重新发布报表，都不会对书签产生任何影响  。 但是，如果设计师对报表进行了重大更改（例如，删除书签所使用的字段），则在你下次尝试打开该书签时，你将收到一条错误消息。 
 
 <!--

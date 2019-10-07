@@ -7,21 +7,21 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 09/06/2019
+ms.date: 09/26/2019
 ms.author: davidi
 LocalizationGroup: Transform and shape data
-ms.openlocfilehash: e77e61d00ac555c907a6d87ab0ffdeb8e21a5bd8
-ms.sourcegitcommit: 226b47f64e6749061cd54bf8d4436f7deaed7691
+ms.openlocfilehash: bf69b2e4c25597eba980137e5ef8b2feb2f4d103
+ms.sourcegitcommit: e2c5d4561455c3a4806ace85defbc72e4d7573b4
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/09/2019
-ms.locfileid: "70841313"
+ms.lasthandoff: 09/27/2019
+ms.locfileid: "71327698"
 ---
 # <a name="storage-mode-in-power-bi-desktop"></a>Power BI Desktop 中的存储模式
 
 在 Microsoft Power BI Desktop 中，可以指定表的存储模式  。 借助存储模式  ，可控制 Power BI Desktop 是否将表数据缓存到报表内存中。 
 
-![Power BI Desktop 中的存储模式](media/desktop-storage-mode/storage-mode_01.png)
+![Power BI Desktop 中的存储模式](media/desktop-storage-mode/storage-mode-01.png)
 
 设置存储模式带来了许多优势。 可以为模型中的每个表单独设置存储模式。 这样做就实现了单一数据集，并带来了以下优势：
 
@@ -48,13 +48,10 @@ Power BI Desktop 中的存储模式设置是以下三个相关功能之一：
 
 ## <a name="use-the-storage-mode-property"></a>使用存储模式属性
 
-存储模式是可以对模型中的所有表进行设置的属性。 若要设置存储模式，请在“字段”  窗格中右键单击要设置其属性的表，再选择“属性”  。
+存储模式是可以对模型中的所有表进行设置的属性。 若要设置存储模式或查看其当前设置，请在“模型”视图中选择要查看或设置其属性的表，然后选择“属性”窗格并展开“高级”部分，接下来展开“存储模式”下拉菜单     。
 
-![上下文菜单中的“属性”命令](media/desktop-storage-mode/storage-mode_02.png)
+![上下文菜单中的“属性”命令](media/desktop-storage-mode/storage-mode-02.png)
 
-表的“字段属性”  窗格中的“存储模式”  下拉列表内显示当前属性。 可以在其中查看当前存储模式或修改存储模式。
-
-![为表设置存储模式](media/desktop-storage-mode/storage-mode_03.png)
 
 存储模式有以下三个值：
 
@@ -77,11 +74,11 @@ Power BI Desktop 中的存储模式设置是以下三个相关功能之一：
 ## <a name="propagation-of-dual"></a>双传播
 请考虑下列简单模型，其中所有表都来自支持导入和 DirectQuery 的单个源。
 
-![存储模式的关系视图示例](media/desktop-storage-mode/storage-mode_04.png)
+![存储模式的关系视图示例](media/desktop-storage-mode/storage-mode-04.png)
 
 让我们假设 DirectQuery 将从此模型中的所有表开始。 然后，如果将“SurveyResponse”  表的存储模式  更改为“导入”，便会看到以下警告窗口：
 
-![“存储模式”警告窗口](media/desktop-storage-mode/storage-mode_05.png)
+![“存储模式”警告窗口](media/desktop-storage-mode/storage-mode-05.png)
 
 维度表（客户  、地域  和日期  ）可设置为“双”  模式表，以减少数据集中的弱关系数，并提高性能。 弱关系通常涉及至少一个 DirectQuery 表，其中联接逻辑无法推送到源系统。 “双”  模式表可以充当 DirectQuery 或导入这一点可避免这种情况。
 
@@ -123,15 +120,15 @@ Power BI Desktop 中的存储模式设置是以下三个相关功能之一：
 
 继续以前面的示例为例，以下查询只引用“双”  模式“Date”  表中的列。 因此，查询应该能命中缓存。
 
-![存储模式诊断脚本](media/desktop-storage-mode/storage-mode_06.png)
+![存储模式诊断脚本](media/desktop-storage-mode/storage-mode-06.png)
 
 以下查询仅引用“Sales”  表中的列，该表处于“DirectQuery”  模式。 因此，它不  应命中缓存。
 
-![存储模式诊断脚本](media/desktop-storage-mode/storage-mode_07.png)
+![存储模式诊断脚本](media/desktop-storage-mode/storage-mode-07.png)
 
 下面的查询非常有趣，因为它结合了这两个列。 此查询未命中缓存。 最初可能希望它从缓存中检索 CalendarYear  值，并从源中检索 SalesAmount  值，然后合并结果；但这种方法的效率要低于将 SUM/GROUP BY 运算提交到源系统中。 如果该操作向下推送到数据源，返回的行数可能会少得多。 
 
-![存储模式诊断脚本](media/desktop-storage-mode/storage-mode_08.png)
+![存储模式诊断脚本](media/desktop-storage-mode/storage-mode-08.png)
 
 > [!NOTE]
 > 合并缓存表和非缓存表时，此行为不同于 [Power BI Desktop 中的多对多关系](desktop-many-to-many-relationships.md)。
@@ -145,7 +142,7 @@ Power BI Desktop 中的存储模式设置是以下三个相关功能之一：
 ## <a name="data-view"></a>数据视图
 如果数据集中至少有一个表的“存储模式”设置为“导入”  或“双”  ，系统便会显示“数据视图”  选项卡。
 
-![Power BI Desktop 中的数据视图](media/desktop-storage-mode/storage-mode_09.png)
+![Power BI Desktop 中的数据视图](media/desktop-storage-mode/storage-mode-03.png)
 
 在“数据视图”  中选择“双”  模式表和“导入”  模式表后会看到缓存数据。 “DirectQuery”模式表不显示数据，而是显示消息，以指明无法显示 DirectQuery 表。
 

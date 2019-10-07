@@ -10,12 +10,12 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 09/04/2019
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 59c55d2e9322b0b7d76a35f4eec0863efe4959e0
-ms.sourcegitcommit: 09ee1b4697aad84d8f4c9421015d7e4dbd3cf25f
+ms.openlocfilehash: 75b7a606e588ca7f6d1393c5b6e0dd9041f6d63e
+ms.sourcegitcommit: b7a9862b6da940ddebe61bc945a353f91cd0e4bd
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/04/2019
-ms.locfileid: "70302643"
+ms.lasthandoff: 10/04/2019
+ms.locfileid: "71945204"
 ---
 # <a name="data-sources-supported-by-directquery-in-power-bi"></a>Power BI 中 DirectQuery 支持的数据源
 
@@ -45,7 +45,7 @@ Power BI Desktop  和 Power BI 服务  有多个可以连接并访问数据的�
 * Snowflake
 * Spark（版本 0.9 及更高版本）
 * SQL Server
-* Teradata 数据库
+* Teradata
 * Vertica
 
 名称后带有 (Beta) 或（预览）的数据源会发生更改，不支持在生产环境中使用   。 在将报表发布到 **Power BI 服务**后，这些数据源可能还不受支持，这意味着打开已发布的报表或浏览数据集会导致错误。
@@ -82,7 +82,7 @@ Power BI Desktop  和 Power BI 服务  有多个可以连接并访问数据的�
 | Spark (Beta)，版本 0.9 及更高版本 |是 |
 | SQL Server |是 |
 | Sybase |是 |
-| Teradata 数据库 |是 |
+| Teradata |是 |
 | Vertica |是 |
 
 

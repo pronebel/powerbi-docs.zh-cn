@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 08/30/2019
 ms.author: maggies
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 58cb009e29c05ce318c5931fb418617e1ef63f4f
-ms.sourcegitcommit: ba085b248c54e8fb1fd8eb2bb23a814e3fdd7ff6
+ms.openlocfilehash: b158e968d0fd35859cfd293177a7273e8311d5b2
+ms.sourcegitcommit: d04b9e1426b8544ce16ef25864269cc43c2d9f7b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/12/2019
-ms.locfileid: "70937068"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "71715298"
 ---
 # <a name="add-hyperlinks-urls-to-a-table"></a>向表中添加超链接 (URL)
 本主题介绍如何向表中添加超链接 (URL)。 使用 Power BI Desktop 向表或矩形图中添加超链接 (URL)。 然后在 Power BI Desktop 或 Power BI 服务中，可以将这些超链接添加到报表表格和矩形图。 
@@ -57,7 +57,7 @@ ms.locfileid: "70937068"
 
     ![打开 URL 图标](media/power-bi-hyperlinks-in-tables/power-bi-url-icon-on.png)
 
-1. （可选）[将报表从 Power BI Desktop 发布到 Power BI 服务](guided-learning/publishingandsharing.yml?tutorial-step=2)，并在 Power BI 服务中打开报表。 超链接也将在那里运作。
+1. （可选）[将报表从 Power BI Desktop 发布到 Power BI 服务](/learn/modules/publish-share-power-bi/2-publish-reports)，并在 Power BI 服务中打开报表。 超链接也将在那里运作。
 
 ### <a name="for-data-connected-with-directquery"></a>对于与 DirectQuery 连接的数据
 无法在 DirectQuery 模式下创建一个新列。  但是，如果数据已包含 URL，可以将这些数据转变为超链接。
@@ -65,7 +65,7 @@ ms.locfileid: "70937068"
 1. 在报表视图中，使用含有 URL 的字段创建表。
 2. 选择该列，并在“**建模**”选项卡上选择“**数据类别**”下拉列表。
 3. 选择 **Web URL**。 超链接为蓝色并带有下划线。
-4. （可选）[将报表从 Power BI Desktop 发布到 Power BI 服务](guided-learning/publishingandsharing.yml?tutorial-step=2)，并在 Power BI 服务中打开报表。 超链接也将在那里运作。
+4. （可选）[将报表从 Power BI Desktop 发布到 Power BI 服务](/learn/modules/publish-share-power-bi/2-publish-reports)，并在 Power BI 服务中打开报表。 超链接也将在那里运作。
 
 ## <a name="create-a-table-or-matrix-hyperlink-in-excel-power-pivot"></a>在 Excel Power Pivot 中创建表或矩形图超链接
 向 Power BI 表和矩形图添加超链接的另一个方法是从 Power BI 导入/连接到数据集前，在该数据集中创建超链接。 本示例使用 Excel 工作簿。

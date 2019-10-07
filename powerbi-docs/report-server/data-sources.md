@@ -9,12 +9,12 @@ ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 05/17/2018
 ms.author: maggies
-ms.openlocfilehash: edda72ab1c9c9901bf71b360d3773b5e8da0a095
-ms.sourcegitcommit: bbd9b38f30a4ca5cb8072496c9cacb635b03aa88
+ms.openlocfilehash: 9b7f3adfc7702dee36c43308b227baf72328935a
+ms.sourcegitcommit: b7a9862b6da940ddebe61bc945a353f91cd0e4bd
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "71401822"
+ms.lasthandoff: 10/04/2019
+ms.locfileid: "71945818"
 ---
 # <a name="power-bi-report-data-sources-in-power-bi-report-server"></a>Power BI 报表服务器中 Power BI 报表数据源
 Power BI 报表可以连接到多个数据源。 根据数据使用方式，可以提供不同的数据源。 可以导入数据，或者可以直接使用 DirectQuery 或与 SQL Server Analysis Services 的实时连接查询数据。
@@ -157,7 +157,7 @@ Power BI 报表服务器不支持将基于 OAuth 的身份验证用于模型刷�
 | SharePoint Online 列表 |否 |否 |否 |否 |
 | Snowflake |否 |否 |否 |否 |
 | Sybase 数据库 |否 |否 |是 |是 |
-| Teradata 数据库 |否 |否 |是 |是 |
+| Teradata |否 |否 |是 |是 |
 | appFigures (Beta) |否 |否 |否 |否 |
 | Azure Analysis Services 数据库 (Beta) |否 |否 |否 |否 |
 | Azure Cosmos DB (Beta) |否 |否 |否 |否 |
@@ -204,7 +204,7 @@ Power BI 报表服务器不支持将基于 OAuth 的身份验证用于 DirectQue
 | Oracle 数据库 |否 |否 |是 |是 |是 |
 | SAP Business Warehouse 服务器 |否 |否 |是 |否 |否 |
 | SAP HANA 数据库 |否 |否 |是 |是 |否 |
-| Teradata 数据库 |否 |否 |是 |是 |是 |
+| Teradata |否 |否 |是 |是 |是 |
 
 
 ## <a name="next-steps"></a>后续步骤

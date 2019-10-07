@@ -11,19 +11,24 @@ ms.topic: conceptual
 ms.date: 06/24/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 8222194359077cb0d88286a33d1c9b2a05f6bd80
-ms.sourcegitcommit: 1c96b65a03ec0a0612e851dd58c363f4d56bca38
+ms.openlocfilehash: d776425d4c19070c00658cbd588c5421d22a0057
+ms.sourcegitcommit: e2de2e8b8e78240c306fe6cca820e5f6ff188944
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/25/2019
-ms.locfileid: "67390802"
+ms.lasthandoff: 09/23/2019
+ms.locfileid: "71193014"
 ---
-# <a name="scatter-charts-bubble-charts-and-dot-plot-charts-in-power-bi"></a>Power BI 中的散点图、气泡图和点阵图
+# <a name="scatter-charts-bubble-charts-and-dot-plot-charts-in-power-bi"></a>Power BI 中的散点图、气泡图和点图
+
+[!INCLUDE [power-bi-visuals-desktop-banner](../includes/power-bi-visuals-desktop-banner.md)]
 
 散点图始终有两个数值轴可以显示：一组沿水平轴的数值数据，另一组沿垂直轴的数值数据。 图表在 x 和 y 数值的交叉处显示点，将这些值单独合并到各个数据点。 Power BI 可以跨水平轴均匀或不均匀地分布这些数据点。 具体视散点图表示的数据而定。
 
 观看此视频了解 Will 如何创建散点图，然后遵循以下步骤自行创建一个。
-
+   > [!NOTE]
+   > 此视频使用较旧版本的 Power BI Desktop。
+   > 
+   > 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/PVcfPoVE3Ys?list=PL1N57mwBHtN0JFoKSR0n-tBkUJHeMP2cP" frameborder="0" allowfullscreen></iframe>
 
 可以设置数据点数量，最多 10,000 个。  
@@ -55,7 +60,7 @@ ms.locfileid: "67390802"
 
 * 若要在不考虑时间的情况下，比较大量数据点。  散点图中包含的数据越多，比较的效果就越好。
 
-除了具有上述用途的散点图外，还有气泡图，它是以下情况下的理想之选：
+除具有上述用途的散点图外，还有气泡图，它是以下情况下的理想之选：
 
 * 如果数据有三个数据系列，每个系列分别包含一组值。
 
@@ -65,7 +70,7 @@ ms.locfileid: "67390802"
 
 ### <a name="dot-plot-charts"></a>点阵图
 
-点阵图类似于气泡图和散点图，不同之处在于还能沿 X 轴绘制数值数据或分类数据。
+点阵图类似于气泡图和散点图，不同之处在于其用于沿 X 轴绘制分类数据。
 
 ![点阵图的屏幕截图。](media/power-bi-visualization-scatter/power-bi-dot-plot.png)
 
@@ -73,17 +78,20 @@ ms.locfileid: "67390802"
 
 ## <a name="prerequisites"></a>先决条件
 
-* Power BI 服务
+本教程使用[零售分析示例 PBIX 文件](http://download.microsoft.com/download/9/6/D/96DDC2FF-2568-491D-AAFA-AFDD6F763AE3/Retail%20Analysis%20Sample%20PBIX.pbix)。
 
-* “零售分析示例”报表
+1. 在菜单栏的左上方，选择“文件” > “打开”  
+   
+2. 查找**零售分析示例 PBIX 文件**的副本
+
+1. 在报表视图中打开**零售分析示例 PBIX 文件** ![报表视图屏幕截图图标](media/power-bi-visualization-kpi/power-bi-report-view.png)。
+
+1. 选择 ![黄色选项卡的屏幕截图。](media/power-bi-visualization-kpi/power-bi-yellow-tab.png) ，以添加新报表页。
+
 
 ## <a name="create-a-scatter-chart"></a>创建散点图
 
-若要跟着本教程一起操作，请登录 [Power BI 服务](https://app.powerbi.com)，并在[“编辑报表”](../service-interact-with-a-report-in-editing-view.md)视图中打开[“零售分析示例”](../sample-datasets.md)报表。
-
-1. 选择 ![包含加号的黄色图标的屏幕截图。](media/power-bi-visualization-scatter/power-bi-yellow-plus-icon.png) ，以创建空白报表页。
-
-1. 在“字段”  窗格中，依次选择下面这些字段：
+1. 从空白报表页入手，在“字段”窗格中选择以下字段  ：
 
     * “销售额” > “每平方英尺的销售额”  
 
@@ -113,11 +121,11 @@ ms.locfileid: "67390802"
 
 1. 将鼠标悬停在一个气泡上。 该气泡的大小反映了  “今年销售额”的值。
 
-    ![工具提示显示](media/power-bi-visualization-scatter/pbi_scatter_chart_hover.png)
+    ![工具提示显示](media/power-bi-visualization-scatter/pbi-scatter-chart-hover.png)
 
 1. 若要设置气泡图中显示的数据点数，请在“可视化效果”  窗格的“格式”  部分中，展开“常规”  ，并调整“数据量”  。
 
-    ![突出显示“格式”图标、“常规”下拉列表和“数据量”选项的“可视化效果”窗格屏幕截图。](media/power-bi-visualization-scatter/pbi_scatter_data_volume.png)
+    ![突出显示“格式”图标、“常规”下拉列表和“数据量”选项的“可视化效果”窗格屏幕截图。](media/power-bi-visualization-scatter/pbi-scatter-data-volume.png)
 
     可以将最大数据量设置为 10,000 及以下的任意数量。 随着数据的增加，建议先进行测试，以确保性能良好。
 
@@ -128,7 +136,7 @@ ms.locfileid: "67390802"
 
     若要[提高可访问性](../desktop-accessibility.md)，请考虑将标记形状添加到每个行。 若要选择标记形状，请展开“形状”  ，并依次选择“标记形状”  和形状。
 
-    ![突出显示“标记形状”选项的“形状”下拉列表屏幕截图。](media/power-bi-visualization-scatter/pbi_scatter_marker.png)
+    ![突出显示“标记形状”选项的“形状”下拉列表屏幕截图。](media/power-bi-visualization-scatter/pbi-scatter-marker.png)
 
     可以将标记形状更改为钻石形、三角形或方形。 对每行使用不同的标记形状可便于报表使用者更轻松地区分各行（或区域）。
 
@@ -146,15 +154,15 @@ ms.locfileid: "67390802"
 
 散点图是否只有一个数据点来聚合 X 和 Y 轴上的所有值？  或者，也许聚合了水平线或垂直线上的所有值？
 
-![包含一个数据点的散点图的屏幕截图。](media/power-bi-visualization-scatter/pbi_scatter_tshoot1.png)
+![包含一个数据点的散点图的屏幕截图。](media/power-bi-visualization-scatter/pbi-scatter-tshoot1.png)
 
 请将字段添加到“详细信息”  井，以指示 Power BI 如何对值进行分组。 每个要绘制的点必须具有唯一的字段。 简单的行号或 ID 字段即可。
 
-![将“RowNum”添加到“详细信息”井的散点图的屏幕截图。](media/power-bi-visualization-scatter/pbi_scatter_tshoot.png)
+![将“RowNum”添加到“详细信息”井的散点图的屏幕截图。](media/power-bi-visualization-scatter/pbi-scatter-tshoot.png)
 
 如果数据中没有这些字段，可以创建一个字段，将 X 值和 Y 值全部连接到每个点对应的唯一字段中：
 
-![将“TempTime”添加到“详细信息”井的散点图的屏幕截图。](media/power-bi-visualization-scatter/pbi_scatter_tshoot2.png)
+![将“TempTime”添加到“详细信息”井的散点图的屏幕截图。](media/power-bi-visualization-scatter/pbi-scatter-tshoot2.png)
 
 要创建新字段，请[使用 Power BI Desktop 查询编辑器将索引列添加到数据集](../desktop-add-custom-column.md)。 然后，将此列添加到可视化效果的“详细信息”  井。
 

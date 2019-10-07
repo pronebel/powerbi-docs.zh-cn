@@ -5,24 +5,26 @@ author: mihart
 manager: kvivek
 ms.reviewer: ''
 featuredvideoid: bZMSv5KAlcE
-ms.custom: seodec18
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 12/06/2018
+ms.date: 09/24/2019
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 68e0a7985997a4512fe26812547f12f1b9be648f
-ms.sourcegitcommit: 52aa112ac9194f4bb62b0910c4a1be80e1bf1276
+ms.openlocfilehash: a1cc536e83832ab89b8a0aee8e8f01b9ced35a10
+ms.sourcegitcommit: 02042995df12cc4e4b97eb8a369e62364eb5af36
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "68522716"
+ms.lasthandoff: 09/25/2019
+ms.locfileid: "71256365"
 ---
 # <a name="view-power-bi-notifications"></a>查看 Power BI 通知
-通知中心是与 Power BI 体验相关的依序信息提要。 打开通知中心，将能看到与你共享的新仪表板、组空间变动、Power BI 事件和会议相关消息、设置的警告等。 可以[在 Power BI 服务中设置警报](../service-set-data-alerts.md)，也可以在 Power BI 移动应用中进行设置。
+通知中心是与 Power BI 体验相关的依序信息提要。 打开通知中心，将能看到与你共享的新仪表板、Power BI 事件和会议的相关消息、设置的警告等。 可以[在 Power BI 服务中设置警报](end-user-alerts.md)，也可以在 Power BI 移动应用中进行设置。
 
-观看 Amanda 介绍如何查看、管理和回应通知。 然后按照视频下的说明来亲自尝试。
+观看 Amanda 介绍如何查看、管理和回应通知。 然后按照视频下的说明来亲自尝试。    
+
+> [!NOTE]
+> 此视频显示较旧版本的 Power BI 服务。 
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/bZMSv5KAlcE" frameborder="0" allowfullscreen></iframe>
 
@@ -30,17 +32,16 @@ ms.locfileid: "68522716"
 1. 登录到 Power BI 时，在脱机时发送给你的任何新通知会添加到你的源中。 如果有新通知，Power BI 会显示带有新通知数量的黄色气泡。
    
    ![新通知图标](./media/end-user-notification-center/power-bi-new-notification.png)
-2. 在 Power BI 菜单栏中，选择“通知”图标。
+2. 在 Power BI 菜单栏中，选择“通知”图标  。
    
    ![已选中通知图标的顶部菜单栏](./media/end-user-notification-center/power-bi-notifications-icon.png)
 3. 最新的通知显示在顶部，未读的通知将突出显示。 通知将保留 90 天，除非你在此之前将其删除，或通知数量超过 100 条的最大限制。
    
-   ![通知中心](./media/end-user-notification-center/power-bi-notifications.png)
+   ![通知中心](./media/end-user-notification-center/power-bi-notification-center.png)
 4. 若要消除通知，请选择“X”图标。
 
 ### <a name="next-steps"></a>后续步骤
-* [Power BI 服务中的数据警报](../service-set-data-alerts.md)
-* [创建由 Power BI 数据警报触发的 Microsoft Flow](../service-flow-integration.md)
+* [Power BI 服务中的数据警报](end-user-alerts.md)
 * [在 iPhone 应用中设置数据警报 (Power BI for iOS)](mobile/mobile-set-data-alerts-in-the-mobile-apps.md)
 * [在适用于 Windows 10 的 Power BI 移动应用中设置数据警报](mobile/mobile-set-data-alerts-in-the-mobile-apps.md)
 * 更多问题？ [尝试参与 Power BI 社区](http://community.powerbi.com/)

@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 09/11/2019
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 02a81aa47fb7945b2fd76d03a6bdde7712304bdc
-ms.sourcegitcommit: 7eb74b060de080152c190ac7eb6b64767f8d6626
+ms.openlocfilehash: fffb0479865439759167635efcae1799452c4c6f
+ms.sourcegitcommit: 57e45f291714ac99390996a163436fa1f76db427
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/11/2019
-ms.locfileid: "70919503"
+ms.lasthandoff: 09/26/2019
+ms.locfileid: "71305739"
 ---
 # <a name="use-custom-format-strings-in-power-bi-desktop"></a>在 Power BI Desktop 中使用自定义格式字符串
 
@@ -148,13 +148,14 @@ ms.locfileid: "70919503"
 | (**E- E+ e- e+** ) | 科学记数格式。 如果格式表达式在 E-、E+、e- 或 e+ 右侧至少包含一个数字占位符（**0** 或 **#** ），则以科学记数法格式显示数字，并在数字及其指数之间插入 E 或 e。 右侧的数字占位符数决定了指数中的位数。 使用 E- 或 e- 在负指数旁边放置减号。 使用 E+ 或 e+ 在负指数旁边放置减号，在正指数旁边放置加号。 |
 | **- + $**  ( ) | 显示文本字符。 若要显示未列出的字符，请在开头加上一个反斜杠 (\) 或用双引号 (&quot; &quot;) 将其括起来。 |
 | (* *\** ) | 显示格式字符串中的下一个字符。 若要将具有特殊含义的字符显示为文本字符，请在开头加上一个反斜杠 (\)。 不会显示反斜杠本身。 使用反斜杠与用双引号将下一个字符括起来相同。 若要显示反斜杠，请使用两个反斜杠 (\\)。 不能显示为文本字符的字符示例包括日期格式和时间格式字符（a、c、d、h、m、n、p、q、s、t、w、y、/ 和 :）、数字格式字符（#、0、%、E、e、逗号和句点）以及字符串格式字符（@、&amp;、\&lt;、\&gt; 和 !）。 |
-| (&quot;ABC&quot;) | 显示双引号 (&quot; &quot;) 中的字符串。 若要在代码中包含格式字符串，必须使用 Chr(34) 将文本括起来（34 是引号 (&quot;) 的字符代码）   。 |
+| (&quot;ABC&quot;) | 显示双引号 (&quot; &quot;) 中的字符串。 |
 
 
 ## <a name="next-steps"></a>后续步骤
 你可能还会对以下文章感兴趣：
 
 * [VBA 格式字符串](https://docs.microsoft.com/office/vba/language/reference/user-interface-help/format-function-visual-basic-for-applications#example)
+* [Power BI Desktop 中的度量值](desktop-measures.md)
+* [Power BI Desktop 中的数据类型](desktop-data-types.md)
 * [表格中的条件格式设置](desktop-conditional-table-formatting.md)
-* [Power BI Desktop 中基于表达式的标题](desktop-conditional-format-visual-titles.md)
 

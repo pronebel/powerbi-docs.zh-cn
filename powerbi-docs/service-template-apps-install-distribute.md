@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 06/10/2019
+ms.date: 09/14/2019
 ms.author: tebercov
-ms.openlocfilehash: 158345c44f8801a98e19dcd9b4c7dde14aa6126b
-ms.sourcegitcommit: 8c52b3256f9c1b8e344f22c1867e56e078c6a87c
+ms.openlocfilehash: 660fd7c623e8a195f937a3a2b468f758986411e1
+ms.sourcegitcommit: e2de2e8b8e78240c306fe6cca820e5f6ff188944
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/19/2019
-ms.locfileid: "67264531"
+ms.lasthandoff: 09/23/2019
+ms.locfileid: "71195195"
 ---
 # <a name="install-and-distribute-template-apps-in-your-organization---power-bi"></a>在组织中安装和分发模板应用 - Power BI
 
@@ -82,7 +82,7 @@ ms.locfileid: "67264531"
    >[!NOTE]
    >要安装未在 AppSource 上列出的模板应用，需要从管理员权限进行请求。 有关详细信息，请参阅 Power BI [管理门户的模板应用设置](service-admin-portal.md#template-apps-settings)。
 
-## <a name="update-and-distribute-the-app"></a>更新并分发应用
+## <a name="customize-and-publish-the-app"></a>自定义并发布应用
 
 在为组织更新应用后，即可将其发布。 这些步骤与发布任何其他应用的步骤相同。
 
@@ -94,7 +94,7 @@ ms.locfileid: "67264531"
 
    ![设置应用说明和颜色](media/service-template-apps-install-distribute/power-bi-install-app-details.png)
 
-3. 在“内容”中，可以选择登录页面（仪表板或报表）  。
+3. 在“导航”中，可以为应用使用新导航生成器，或者为登陆页选择仪表板或报表  。 有关详细信息，请参阅[设计导航体验](service-create-distribute-apps.md#design-the-navigation-experience)。
 
    ![设置应用登陆页面](media/service-template-apps-install-distribute/power-bi-install-app-content.png)
 
@@ -106,14 +106,31 @@ ms.locfileid: "67264531"
 
 6. 成功发布后，可以复制链接并与被授予访问权限的任何人共享。 如果你与他们共享，他们也会在 AppSource 的“我的组织”标签上看到此内容  。
 
-## <a name="next-steps"></a>后续步骤 
+## <a name="update-a-template-app"></a>更新模板应用
+
+模板应用的创建者可以通过 AppSource 或直接链接发布其模板应用的新版本。 完成后，可以在使用相同或更高版本重新安装模板应用时更新模板应用。
+
+  >[!NOTE]
+  >安装新版本会覆盖对报表和仪表板所做的任何更改。 若要保留更新的报表和仪表板，可以在安装前用其他名称或位置保存它们。
+
+- **覆盖现有版本：** 使用模板应用的更新版本覆盖现有工作区。
+
+   ![更新模板应用](media/service-template-apps-install-distribute/power-bi-update-app-overwrite.png)
+
+- **安装到新工作区：** 安装需要重新配置的工作区和应用的新版本
+
+### <a name="overwrite-behavior"></a>覆盖行为
+
+* 覆盖会更新*工作区*（而非应用）中的报表、仪表板和数据集。 覆盖不会更改应用的导航、设置和权限。
+* 更新工作区后，需要*更新应用*，以将更改从工作区应用于组织应用。
+* 覆盖将保留配置的参数和身份验证。 更新后，数据集会开始自动刷新。 在此期间，组织应用、报表和仪表板将提供*示例数据*体验。
+  ![示例数据](media/service-template-apps-install-distribute/power-bi-sample-data.png)
+* 覆盖始终显示示例数据，直到刷新完成。 如果模板应用的作者对数据集或参数进行了更改，则工作区和应用的用户将继续看到*示例数据*体验。
+* 覆盖绝不会删除添加到工作区的*新*报表或仪表板。 它会使用原始作者的更改覆盖原始报表和仪表板。
+
+>[!IMPORTANT]
+>切记在覆盖后[更新应用](#customize-and-publish-the-app)，以将更改应用于组织应用用户的报表和仪表板。
+
+## <a name="next-steps"></a>后续步骤
 
 [与同事一起在 Power BI 中创建工作区](service-create-workspaces.md)
-
-
-
-
-
-￼ 
-
- 

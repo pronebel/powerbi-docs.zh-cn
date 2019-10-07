@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 06/10/2019
+ms.date: 09/15/2019
 ms.author: tebercov
-ms.openlocfilehash: 8e08557c475f06c8a32cebb0b7ca0fe1054cf266
-ms.sourcegitcommit: 8c52b3256f9c1b8e344f22c1867e56e078c6a87c
+ms.openlocfilehash: f936d5df9872d6dec8862709f614b2dc28f2e414
+ms.sourcegitcommit: e2de2e8b8e78240c306fe6cca820e5f6ff188944
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/19/2019
-ms.locfileid: "67264548"
+ms.lasthandoff: 09/23/2019
+ms.locfileid: "71195383"
 ---
 # <a name="create-a-template-app-in-power-bi"></a>在 Power BI 中创建模板应用
 
@@ -47,7 +47,7 @@ Power BI 租户管理员管理和控制组织中谁可以创建模板应用，�
 
 3. 为应用工作区输入名称、说明（可选）和徽标图像（可选）。
 
-4. 选择“开发模板应用”  。
+4. 展开“高级”部分，然后选择“开发模板应用”   。
 
     ![开发模板应用](media/service-template-apps-create/power-bi-template-app-develop.png)
 
@@ -84,11 +84,13 @@ Power BI 租户管理员管理和控制组织中谁可以创建模板应用，�
     - 应用徽标（文件大小限不超过 45K，1:1 纵横比，.png、.jpg、.jpeg 格式）
     - 应用主题颜色
 
-    **内容**
+    **导航**
 
-    应用登陆页面：  将报表或仪表板定义为应用的登陆页面，使用观感良好的登陆页面：
+    激活“新导航生成器”，可在其中定义应用的左侧导航窗格（有关详细信息，请参阅本文中的[设计导航体验](service-create-distribute-apps.md#design-the-navigation-experience)）  。
 
-    ![内容](media/service-template-apps-create/power-bi-create-content.png)
+   ![设置应用登陆页面](media/service-template-apps-install-distribute/power-bi-install-app-content.png)
+    
+    应用登陆页面：  如果决定退出导航生成器，则可以选择应用登陆页面。 将报表或仪表板定义为应用的登陆页面。 使用可以给人留下正确印象的登陆页面。
 
     **控件**
 
@@ -107,7 +109,6 @@ Power BI 租户管理员管理和控制组织中谁可以创建模板应用，�
     - **值**：默认参数值。
     - **必需**：可用于要求安装程序输入特定于用户的参数。
     - **锁定**：锁定阻止安装程序更新参数。
-    - **静态**：在应用仅包含示例数据的情况下启用  。 选择“静态”时，安装向导不要求用户连接数据源  。
 
     **访问**在测试阶段，确定组织中的其他人可以安装和测试应用。 不用担心，可在以后随时返回和更改这些设置（设置不会影响对分布式模板应用的访问）。
 

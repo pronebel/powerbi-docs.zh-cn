@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 08/19/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 11de32b8119e8b6922dcc1a971750e4256812932
-ms.sourcegitcommit: 4a3afe761d2f4a5bd897fafb36b53961739e8466
+ms.openlocfilehash: d303e20e524ad7ac67882812b6e4f5a1d9b06c33
+ms.sourcegitcommit: 57e45f291714ac99390996a163436fa1f76db427
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/20/2019
-ms.locfileid: "69654754"
+ms.lasthandoff: 09/26/2019
+ms.locfileid: "71305807"
 ---
 # <a name="using-directquery-in-power-bi"></a>在 Power BI 中使用 DirectQuery
 使用 Power BI Desktop 或 Power BI 服务时，可以连接各种不同类型的数据源，并且可以通过不同的方式连接这些数据   。 可以将数据导入 Power BI，也可以在其原始源存储库中直接连接数据，前者是获取数据最常见的方法，后者称为 DirectQuery   。 本文介绍 DirectQuery 及其功能： 
@@ -137,6 +137,7 @@ SSAS 报表发布到 Power BI 服务时，其行为在以下方面与 DirectQuer
 如果使用 DirectQuery，仍然可以丰富大多数这些模型，当然还有正被丰富的原始数据的原则，以便改进后续使用  。 但是，使用 DirectQuery 时，有些建模功能将不可用或受到限制。 通常，应用限制的目的是避免性能问题。 下列项目符号列表列出了所有 DirectQuery 数据源通用的限制。 如本文接近末尾处的“数据源详细信息”中所述，可能有其他限制适用于特定数据源  。
 
 * **无内置日期层次结构：** 导入数据时，默认情况下，每个日期/日期时间列都将具有默认的内置日期层次结构。 例如，如果导入的销售订单表包含 OrderDate 列，则在视觉对象中使用 OrderDate 时，可以选择要使用的适当级别（年、月、日）。 使用 DirectQuery 模式时，此内置日期层次结构不可用。 但请注意，如果基础数据源中存在“日期”表（如许多数据仓库中常见的那样），则可以照常使用 DAX 时间智能函数。
+* **日期/时间仅支持秒级准确度：** 在数据集中使用时间列时，Power BI 仅以秒级详细程度向基础数据源发出查询。 查询不会在毫秒级别发送到 DirectQuery 源，因此需要从源列中删除时间中的这一部分。
 * **计算列中的限制：** 计算列仅限于行内，因为它们只能引用同一表中其他列的值，不能使用任何聚合函数。 此外，可用的 DAX 标量函数（如 LEFT()）被限制为只能推送到基础数据源，因此从很大程度上取决于数据源的具体功能。 创建计算列的 DAX 时，不支持的功能不会在自动完成中列出，如果使用则会导致错误。
 * **不支持父-子 DAX 函数：** 在 DirectQuery 模型中，不能使用 DAX PATH() 系列函数，这类函数通常处理父-子结构，如帐户图表或员工层次结构图表。
 * **不支持计算表：** DirectQuery 模式不支持使用 DAX 表达式定义计算表。

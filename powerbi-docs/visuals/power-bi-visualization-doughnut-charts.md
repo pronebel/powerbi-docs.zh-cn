@@ -10,22 +10,35 @@ ms.topic: conceptual
 ms.date: 06/11/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: cd78fc1411f1eb4e9148bb12ddf6d9805954cfd7
-ms.sourcegitcommit: 797bb40f691384cb1b23dd08c1634f672b4a82bb
+ms.openlocfilehash: d90ef12e1971ddc81928746f338ba927a48d5b23
+ms.sourcegitcommit: e2de2e8b8e78240c306fe6cca820e5f6ff188944
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/12/2019
-ms.locfileid: "66839712"
+ms.lasthandoff: 09/23/2019
+ms.locfileid: "71195129"
 ---
 # <a name="doughnut-charts-in-power-bi"></a>Power BI 中的圆环图
+
+[!INCLUDE [power-bi-visuals-desktop-banner](../includes/power-bi-visuals-desktop-banner.md)]
+
 圆环图类似于饼图，因为它显示部分与整体的关系。 唯一的区别是中心为空，因而有空间可用于标签或图标。
 
+## <a name="prerequisite"></a>先决条件
+
+本教程使用[零售分析示例 PBIX 文件](http://download.microsoft.com/download/9/6/D/96DDC2FF-2568-491D-AAFA-AFDD6F763AE3/Retail%20Analysis%20Sample%20PBIX.pbix)。
+
+1. 在菜单栏的左上方，选择“文件” > “打开”  
+   
+2. 查找**零售分析示例 PBIX 文件**的副本
+
+1. 在报表视图中打开**零售分析示例 PBIX 文件** ![报表视图屏幕截图图标](media/power-bi-visualization-kpi/power-bi-report-view.png)。
+
+1. 选择 ![黄色选项卡的屏幕截图。](media/power-bi-visualization-kpi/power-bi-yellow-tab.png) ，以添加新报表页。
+
+
 ## <a name="create-a-doughnut-chart"></a>创建圆环图
-这些说明使用零售分析示例创建一个按类别显示本年度销售额的圆环图。 若要继续学习，请[下载示例](../sample-datasets.md)（适用于 Power BI 服务或 Power BI Desktop）。
 
-1. 从空白报表页入手。 如果使用的是 Power BI 服务，请确保在 [“编辑视图”](../service-interact-with-a-report-in-editing-view.md) 中打开报表。
-
-2. 在“字段”窗格中，选择“销售额”\>“去年销售额”   。  
+1. 从空白报表页入手，在“字段”窗格中选择“销售额”\>“去年销售额”   。  
    
 3. 从可视化对象窗格中，选择圆环图的图标![圆环图图标](media/power-bi-visualization-doughnut-charts/power-bi-icon.png)，将条形图转换为圆环图。 如果“去年销售额”不在“值”区域中，请将它拖动到其中。  
      

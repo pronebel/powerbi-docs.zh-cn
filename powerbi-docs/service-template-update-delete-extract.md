@@ -7,25 +7,33 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 06/10/2019
+ms.date: 09/23/2019
 ms.author: tebercov
-ms.openlocfilehash: 273734493c761739f9780e6a7fe6e781900723f9
-ms.sourcegitcommit: 7d52401f50944feaaa112c84113ee47f606dbf68
+ms.openlocfilehash: 2cf655c25bb58ec001bac52b55aea74f887f08d9
+ms.sourcegitcommit: 3885ae11e695f875a82c212ca157e401db8337c4
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/13/2019
-ms.locfileid: "67125869"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "71207623"
 ---
 # <a name="update-delete-and-extract-template-app"></a>更新、删除和提取模板应用
 
 现在应用已投入生产，可以在测试阶段重新开始，无需中断生产中的应用。
 ## <a name="update-your-app"></a>更新应用
 
+如果在 Power BI Desktop 中进行了更改，请从步骤 (1) 开始。 如果未在 Power BI Desktop 中进行更改，请从步骤 (4) 开始。
+
+1. 上传更新的数据集并覆盖现有数据集。 **确保使用完全相同的数据集名称**。 使用其他名称将为正在更新应用的用户创建新的数据集。
+![覆盖数据集](media/service-template-apps-update-extract-delete/power-bi-template-app-upload-dataset.png)
+1. 从计算机导入 pbix 文件。
+![覆盖数据集](media/service-template-apps-update-extract-delete/power-bi-template-app-upload-dataset2.png)
+1. 确认覆盖。
+![覆盖数据集](media/service-template-apps-update-extract-delete/power-bi-template-app-upload-dataset3.png)
 
 1. 在“发布管理”窗格中，选择“创建应用”   。
-2. 返回应用创建过程。
-3. 设置“品牌”、“内容”、“控件”和“访问权限”后，再次选择“创建应用”     。
-4. 选择“关闭”，然后返回“发布管理”   。
+1. 返回应用创建过程。
+1. 设置“品牌”、“内容”、“控件”和“访问权限”后，再次选择“创建应用”      。
+1. 选择“关闭”，然后返回“发布管理”   。
 
    现有两个版本：生产中的版本，以及测试中的新版本。
 
@@ -33,10 +41,18 @@ ms.locfileid: "67125869"
 
 5. 准备好将应用提升到预生产以在租户之外进行进一步测试时，请返回到“发布管理”窗格，再选择“测试”  旁边的“提升应用”  。
 6. 链接现已生效。 按照 [Power BI 应用产品/服务更新](https://docs.microsoft.com/azure/marketplace/cloud-partner-portal/power-bi/cpp-update-existing-offer)中的步骤操作，重新将它提交到云合作伙伴门户 (CPP)。
-7. 在 CPP 中，必须重新发布  并验证产品/服务。
+7. 在云合作伙伴门户中，必须重新**发布**产品/服务，并再次对其进行验证。
 
->[!NOTE]
->只有在应用获得云合作伙伴门户的批准且已发布后，才能将它提升到生产阶段。
+   >[!NOTE]
+   >只有在应用获得云合作伙伴门户的批准且已发布后，才能将它提升到生产阶段。
+
+### <a name="update-behavior"></a>更新行为
+
+1. 更新应用将允许模板应用的安装程序在已安装的工作区中[更新模板应用](service-template-apps-install-distribute.md#update-a-template-app)，而不会丢失连接配置。
+1. 若要了解数据集中的更改如何影响已安装的模板应用，请参阅安装程序的[覆盖行为](service-template-apps-install-distribute.md#overwrite-behavior)。
+1. 更新（覆盖）模板应用时，将首先恢复为示例数据，并将自动与用户的配置（参数和身份验证）重新连接。 在刷新完成前，报表、仪表板和组织应用将显示示例数据横幅。
+1. 如果向需要用户输入的更新数据集添加了新的查询参数，则必须选中“必需”复选框  。 这会在更新应用后提示安装程序输入连接字符串。
+ ![必需参数](media/service-template-apps-update-extract-delete/power-bi-template-app-upload-dataset4.png)
 
 ## <a name="extract-workspace"></a>提取工作区
 借助提取功能，现在回滚到旧版模板应用不再是难事。 下面介绍了如何从各个发布阶段中将特定应用版本提取到新工作区：

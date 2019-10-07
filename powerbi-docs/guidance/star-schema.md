@@ -9,12 +9,12 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 09/09/2019
 ms.author: v-pemyer
-ms.openlocfilehash: f44c83613f874aec84a389ac5034ebde193467c2
-ms.sourcegitcommit: 226b47f64e6749061cd54bf8d4436f7deaed7691
+ms.openlocfilehash: 4af7a6305ace9113e912f0ad1527064c505f0ca8
+ms.sourcegitcommit: d04b9e1426b8544ce16ef25864269cc43c2d9f7b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/09/2019
-ms.locfileid: "70840610"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "71715517"
 ---
 # <a name="understand-star-schema-and-the-importance-for-power-bi"></a>了解星型架构及其对 Power BI 的重要性
 
@@ -205,6 +205,6 @@ Power BI 模型应支持查询成员的历史数据（不受更改影响），�
 查看以下文章，详细了解星型架构设计或 Power BI 模型设计：
 
 - [维度建模维基百科文章](https://go.microsoft.com/fwlink/p/?linkid=246459)
-- [在 Power BI Desktop 中创建和管理关系](https://docs.microsoft.com/power-bi/desktop-create-and-manage-relationships)
-- [Power BI Desktop 中具有多对多基数的关系](https://docs.microsoft.com/power-bi/desktop-many-to-many-relationships)
-- [引导式建模学习体验](https://docs.microsoft.com/power-bi/guided-learning/modeling)
+- [在 Power BI Desktop 中创建和管理关系](../desktop-create-and-manage-relationships.md)
+- [Power BI Desktop 中具有多对多基数的关系](../desktop-many-to-many-relationships.md)
+- [引导式建模学习体验](/learn/modules/model-data-power-bi/)

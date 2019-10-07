@@ -1,37 +1,37 @@
 ---
-title: 在 Power BI 中使用 R 驱动的自定义视觉对象
-description: 在 Power BI 中使用 R 驱动的自定义视觉对象
-author: sranins
-ms.author: rasala
-manager: kfile
+title: 在 Power BI 中使用 R 驱动的 Power BI 视觉对象
+description: 在 Power BI 中使用 R 驱动的 Power BI 视觉对象
+author: KesemSharabi
+ms.author: kesharab
+manager: rkarlin
 ms.reviewer: maghan
 ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: conceptual
 ms.date: 07/27/2018
 LocalizationGroup: Create reports
-ms.openlocfilehash: d79164ea5b66fe003f913742436a817d76d798e0
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: b5f8677b3207122831e3d2cae6c07aa5bbcb9983
+ms.sourcegitcommit: e2de2e8b8e78240c306fe6cca820e5f6ff188944
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61278487"
+ms.lasthandoff: 09/23/2019
+ms.locfileid: "71194616"
 ---
-# <a name="use-r-powered-custom-visuals-in-power-bi"></a>在 Power BI 中使用 R 驱动的自定义视觉对象
+# <a name="use-r-powered-power-bi-visuals-in-power-bi"></a>在 Power BI 中使用 R 驱动的 Power BI 视觉对象
 
-在 Power BI Desktop  和 Power BI 服务  中，无需掌握任何 R 知识，也无需使用任何 R 脚本，即可使用 R 驱动的自定义视觉对象。 这样一来，无需学习任何 R 知识，也无需自行进行任何编程，即可利用 R 视觉对象和 R 脚本的分析和视觉功能。
+在 **Power BI Desktop** 和 **Power BI 服务**中，无需掌握任何 R 知识，也无需使用任何 R 脚本，即可使用 R 驱动的 Power BI 视觉对象。 这样一来，无需学习任何 R 知识，也无需自行进行任何编程，即可利用 R 视觉对象和 R 脚本的分析和视觉功能。
 
-若要使用 R 驱动的自定义视觉对象，请先从 Power BI 自定义视觉对象  的 [AppSource  ](https://appsource.microsoft.com/marketplace/apps?product=power-bi-visuals&page=1) 库中选择并下载要使用的 R 自定义视觉对象。
+若要使用 R 驱动的 Power BI 视觉对象，请先从适用于 Power BI 的 **Power BI 视觉对象**的 [**AppSource**](https://appsource.microsoft.com/marketplace/apps?product=power-bi-visuals&page=1) 库中选择并下载要使用的 R 自定义视觉对象。
 
 ![R 视觉对象 1a](media/desktop-r-powered-custom-visuals/powerbi-r-powered-custom-viz_1a.png)
 
 以下部分介绍了如何在 **Power BI Desktop** 中选择、加载和使用 R 驱动的视觉对象。
 
-## <a name="use-r-custom-visuals"></a>使用 R 自定义视觉对象
+## <a name="use-r-power-bi-visuals"></a>使用 R Power BI 视觉对象
 
-若要使用 R 驱动自定义视觉对象，请从“自定义视觉对象”  库下载每个视觉对象，然后在 Power BI Desktop  中如使用其他任何类型的视觉对象一样来使用此视觉对象。 获取自定义视觉对象的方法有两种，可以从在线 AppSource  网站下载视觉对象，也可以在 Power BI Desktop  中浏览并获取视觉对象。 
+若要使用 R 驱动的 Power BI 视觉对象，请从 **Power BI 视觉对象**库下载每个视觉对象，然后像在 **Power BI Desktop** 中使用任何其他类型的视觉对象一样使用该视觉对象。 获取 Power BI 视觉对象的方法有两种，可以从在线 **AppSource** 网站下载视觉对象，也可以在 **Power BI Desktop** 中浏览并获取视觉对象。 
 
-### <a name="get-custom-visuals-from-appsource"></a>从 AppSource 获取自定义视觉对象
+### <a name="get-power-bi-visuals-from-appsource"></a>从 AppSource 获取 Power BI 视觉对象
 
 若要在在线 AppSource  网站中浏览并选择视觉对象，请按照以下步骤操作：
 
@@ -50,7 +50,7 @@ ms.locfileid: "61278487"
 
    ![R 视觉对象 3a](media/desktop-r-powered-custom-visuals/powerbi-r-powered-custom-viz_3a.png)
 
-   无需安装 R 即可在 **Power BI 服务**中使用 R 驱动的自定义视觉对象。不过，如果要在 **Power BI Desktop** 中使用 R 驱动的自定义视觉对象，则必须在本地计算机上安装 R。  可以从以下位置下载 R：
+   无需安装 R 即可在 **Power BI 服务**中使用 R 驱动的 Power BI 视觉对象。不过，如果要在 **Power BI Desktop** 中使用 R 驱动的 Power BI 视觉对象，则*必须*在本地计算机上安装 R。 可以从以下位置下载 R：
 
    * [CRAN](https://cran.r-project.org/)
    * [MRO](https://mran.microsoft.com/)
@@ -79,25 +79,25 @@ ms.locfileid: "61278487"
 
     请经常检查库，因为会随时添加新视觉对象。
 
-### <a name="get-custom-visuals-from-within-power-bi-desktop"></a>在 Power BI Desktop  中获取自定义视觉对象
+### <a name="get-power-bi-visuals-from-within-power-bi-desktop"></a>在 **Power BI Desktop** 中获取 Power BI 视觉对象
 
-1. 也可以从 Power BI Desktop  获取自定义视觉对象。 在“Power BI Desktop”  中，单击“可视化效果”  窗格中的省略号 (...)，再选择“从市场导入”  。
+1. 也可以从 **Power BI Desktop** 获取 Power BI 视觉对象。 在“Power BI Desktop”  中，单击“可视化效果”  窗格中的省略号 (...)，再选择“从市场导入”  。
 
    ![R 视觉对象 4a](media/desktop-r-powered-custom-visuals/powerbi-r-powered-custom-viz_4a.png)
 
-2. 此时，将会看到“Power BI 视觉对象”  对话框。在此对话框中，可以滚动浏览可用自定义视觉对象，并能选择要使用的视觉对象。 可以按名称搜索，可以选择类别，也可以直接滚动浏览可用视觉对象。 准备就绪后，只需选择“添加”  ，即可将自定义视觉对象添加到“Power BI Desktop”  。
+2. 此时会看到“Power BI 视觉对象”对话框出现。在此对话框中，可以滚动浏览可用的 Power BI 视觉对象并选择要使用的视觉对象  。 可以按名称搜索，可以选择类别，也可以直接滚动浏览可用视觉对象。 准备就绪后，只需选择“添加”  ，即可将自定义视觉对象添加到“Power BI Desktop”  。
 
    ![R 视觉对象 12](media/desktop-r-powered-custom-visuals/powerbi-r-powered-custom-viz_12.png)
 
-## <a name="contribute-r-powered-custom-visuals"></a>参与 R 驱动的自定义视觉对象
+## <a name="contribute-r-powered-power-bi-visuals"></a>贡献 R 驱动的 Power BI 视觉对象
 
-如果你创建自己的 R 视觉对象以供在报表中使用，则可以向  自定义视觉对象库提供你的自定义视觉对象，从而与全世界共享你的视觉对象。 通过 GitHub 进行贡献，相应过程在以下位置有所讲述：
+如果创建自己的 R 视觉对象以供在报表中使用，则可以向 **Power BI 视觉对象库**贡献你的 Power BI 视觉对象，从而与全世界共享这些视觉对象。 通过 GitHub 进行贡献，相应过程在以下位置有所讲述：
 
-* [贡献到 R 驱动的自定义视觉对象库](https://github.com/Microsoft/PowerBI-visuals#building-r-powered-custom-visual-corrplot)
+* [贡献到 R 驱动的 Power BI 视觉对象库](https://github.com/Microsoft/PowerBI-visuals#building-r-powered-custom-visual-corrplot)
 
-## <a name="troubleshoot-r-powered-custom-visuals"></a>R 驱动的自定义视觉对象疑难解答
+## <a name="troubleshoot-r-powered-power-bi-visuals"></a>R 驱动的 Power BI 视觉对象疑难解答
 
-必须满足 R 驱动的自定义视觉对象的特定依存关系，视觉对象才能正常运行。 如果 R 驱动的自定义视觉对象未运行或未正常加载，通常是出现下面的一种问题：
+必须满足 R 驱动的 Power BI 视觉对象的特定依赖关系，视觉对象才能正常运行。 如果 R 驱动的 Power BI 视觉对象未运行或未正常加载，通常原因是出现以下问题之一：
 
 * R 引擎缺失
 * 视觉对象基于的 R 脚本出错了
@@ -150,7 +150,7 @@ Power BI 团队正在努力降低你遇到这些问题的可能性，下一版 P
 
 查看以下更多信息，了解有关 Power BI 中的 R。
 
-* [Power BI 自定义视觉对象库](https://app.powerbi.com/visuals/)
+* [Power BI Power BI 视觉对象库](https://app.powerbi.com/visuals/)
 * [在 Power BI Desktop 中运行 R 脚本](desktop-r-scripts.md)
 * [在 Power BI Desktop 中创建 R 视觉对象](desktop-r-visuals.md)
 * [将外部 R IDE 与 Power BI 一起使用](desktop-r-ide.md)
