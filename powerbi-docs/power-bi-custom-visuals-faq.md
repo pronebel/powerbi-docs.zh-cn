@@ -4,18 +4,18 @@ description: 浏览有关 Power BI 视觉对象的常见问题和解答列表
 author: KesemSharabi
 ms.author: kesharab
 manager: rkarlin
-ms.reviewer: maghan
+ms.reviewer: ''
 ms.service: powerbi
 ms.topic: conceptual
 ms.subservice: powerbi-custom-visuals
 ms.custom: ''
 ms.date: 12/17/2018
-ms.openlocfilehash: 5c4c13d021891ad591b2411a1f0b3219b750478d
-ms.sourcegitcommit: e2de2e8b8e78240c306fe6cca820e5f6ff188944
+ms.openlocfilehash: e7374ce6188792b4f4c1c5be2dd40d7694045159
+ms.sourcegitcommit: b7a9862b6da940ddebe61bc945a353f91cd0e4bd
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/23/2019
-ms.locfileid: "71195453"
+ms.lasthandoff: 10/04/2019
+ms.locfileid: "71946142"
 ---
 # <a name="frequently-asked-questions-about-power-bi-visuals"></a>有关 Power BI 视觉对象的常见问题
 
