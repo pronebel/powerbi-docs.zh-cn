@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 05/22/2019
 ms.author: maggies
 LocalizationGroup: Reports
-ms.openlocfilehash: 4584ad0f8c083a765b1a1a9943496b40a3ed4bdf
-ms.sourcegitcommit: dc0258bb4f647ff646c6fff2aaffa29b413aa2df
+ms.openlocfilehash: cfae856cf80027a92fb7d19c27b990aa659d992d
+ms.sourcegitcommit: 9bf3cdcf5d8b8dd12aa1339b8910fcbc40f4cbe4
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/19/2019
-ms.locfileid: "68342156"
+ms.lasthandoff: 10/05/2019
+ms.locfileid: "71968753"
 ---
 # <a name="filters-and-highlighting-in-power-bi-reports"></a>Power BI 报表中的筛选器和突出显示
  本文介绍如何在 Power BI 服务中进行筛选和突出显示。 这与 Power BI Desktop 中的体验几乎完全相同。 *筛选器*可保留你最关切的数据，而将其他所有数据删除。 突出显示不是筛选  。 它不会删除数据，而是突出显示部分可见数据；未突出显示的数据虽然仍可见，但会变暗。
@@ -28,7 +28,7 @@ ms.locfileid: "68342156"
 * 详细介绍 Power BI Desktop 和 Power BI 服务[“编辑”视图中可用的筛选和突出显示控件](power-bi-report-add-filter.md)。 本文详细介绍日期和时间、数字以及文本等筛选器的类型。 还介绍基本选项和高级选项之间的差异。
 * 了解筛选器和突出显示功能的默认工作方式后，继续[了解如何更改页面上的可视化效果相互筛选和突出显示的方式](service-reports-visual-interactions.md)
 
-**你知道吗？** Power BI 提供新的筛选器体验，当前处于预览状态。 阅读有关 [Power BI 报表中的新筛选器体验](power-bi-report-filter.md)的详细信息。
+**你知道吗？** Power BI 提供新的筛选器体验。 阅读有关 [Power BI 报表中的新筛选器体验](power-bi-report-filter.md)的详细信息。
 
 ![新筛选器体验](media/power-bi-reports-filters-and-highlighting/power-bi-filter-reading.png)
 

@@ -4,23 +4,25 @@ description: 使用 Power BI 查看快速见解和视图见解。
 author: mihart
 manager: kvivek
 ms.reviewer: ''
-ms.custom: seodec18
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 9/23/2019
+ms.date: 10/2/2019
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 991dd7bb94e79a21c8e4ec877093b81d2ed9b285
-ms.sourcegitcommit: e2c5d4561455c3a4806ace85defbc72e4d7573b4
+ms.openlocfilehash: 507d49ba6cdb894667bf66f8f35c5c325b9ff25e
+ms.sourcegitcommit: b7a9862b6da940ddebe61bc945a353f91cd0e4bd
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "71327781"
+ms.lasthandoff: 10/04/2019
+ms.locfileid: "71943922"
 ---
 # <a name="types-of-insights-supported-by-power-bi"></a>Power BI 支持的见解类型
+
+Power BI 服务可以在仪表板或报表中自动查找见解。
+
 ## <a name="how-does-insights-work"></a>见解的工作原理
-Power BI 可快速搜索数据集的不同子集，同时应用一组复杂的算法来发现潜在相关的见解。 Power BI 会在预定时间内扫描数据集中尽可能多的内容。
+Power BI 快速搜索数据集的不同子集。 在搜索时，Power BI 会应用一组复杂的算法来发现可能有意义的见解。 Power BI 会在预定时间内扫描数据集中尽可能多的内容。
 
 可以针对数据集或仪表板磁贴运行见解。   
 
@@ -74,8 +76,6 @@ Power BI 可快速搜索数据集的不同子集，同时应用一组复杂的�
 
 ## <a name="next-steps"></a>后续步骤
 [Power BI 见解](end-user-insights.md)
-
-如果你拥有一个数据集，可[对其进行优化以生成见解](../service-insights-optimize.md)
 
 更多问题？ [尝试参与 Power BI 社区](http://community.powerbi.com/)
 

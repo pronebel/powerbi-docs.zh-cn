@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: conceptual
 ms.date: 07/19/2019
-ms.openlocfilehash: f055cd27f25af399b63336e66aaad526ed740de2
-ms.sourcegitcommit: 8aa90f662afb7492ffcfc11ef142cdb0ccecc9aa
+ms.openlocfilehash: f0cc7563fc59a6c1ceeceefcf4b65b0cc1a3aa80
+ms.sourcegitcommit: 9bf3cdcf5d8b8dd12aa1339b8910fcbc40f4cbe4
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/24/2019
-ms.locfileid: "68462311"
+ms.lasthandoff: 10/05/2019
+ms.locfileid: "71968651"
 ---
 # <a name="supported-data-sources-for-power-bi-paginated-reports"></a>Power BI 分页报表支持的数据源
 
@@ -24,9 +24,10 @@ ms.locfileid: "68462311"
 
 分页报表本机支持下表中的数据源：
 
-| 数据源 | 身份验证 | 注意 |
+| 数据源 | 身份验证 | 备注 |
 | --- | --- | --- |
-| Azure SQL Database <br>Azure SQL Data Warehouse | 基本、单一登录 (SSO)、OAuth2 |   |
+| Azure SQL 数据库 <br>Azure SQL 数据仓库 | 基本、单一登录 (SSO)、OAuth2 |   |
+| Azure SQL 托管实例 | 基本 | 通过公共终结点使用 Azure SQL 数据库扩展  |
 | Azure Analysis Services | SSO、OAuth2 |   |
 | Power BI 数据集 | SSO | 高级和非高级 Power BI 数据集 |
 | 高级 Power BI 数据集 (XMLA) | SSO |   |

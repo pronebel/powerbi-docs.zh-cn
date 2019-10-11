@@ -502,6 +502,8 @@
             - name: 跨工作区使用数据集
               href: service-datasets-across-workspaces.md
             - name: 共享数据集（预览）
+              href: service-datasets-share.md
+            - name: 共享数据集的生成权限
               href: service-datasets-build-permissions.md
             - name: 基于数据集创建报表
               href: service-datasets-discover-across-workspaces.md
@@ -757,6 +759,8 @@
           items:
             - name: 重命名 Power BI 中的内容
               href: service-rename.md
+            - name: 设置项目联系人
+              href: service-item-contact.md
             - name: 组织美国政府组织
               href: service-govus-signup.md
             - name: 在 Power BI 中删除几乎所有内容
@@ -773,8 +777,6 @@
                   href: service-connect-to-appfigures.md
                 - name: Application Insights
                   href: service-connect-to-application-insights.md
-                - name: AT Internet Bridge
-                  href: service-connect-to-at-internet.md
                 - name: Azure 审核日志
                   href: service-connect-to-azure-audit-logs.md
                 - name: Azure Mobile Engagement
@@ -799,8 +801,6 @@
                   href: service-connect-to-lithium.md
                 - name: Mandrill
                   href: service-connect-to-mandrill.md
-                - name: Marketo
-                  href: service-connect-to-marketo.md
                 - name: Microsoft Dynamics AX
                   href: service-connect-to-microsoft-dynamics-ax.md
                 - name: Microsoft CRM Dynamics
@@ -809,14 +809,10 @@
                   href: service-connect-to-microsoft-dynamics-nav.md
                 - name: Office365Mon
                   href: service-connect-to-office365mon.md
-                - name: Planview Enterprise
-                  href: service-connect-to-planview.md
                 - name: Prevedere
                   href: service-connect-to-prevedere.md
                 - name: Project Online
                   href: service-connect-to-project-online.md
-                - name: Projectplace
-                  href: service-connect-to-projectplace.md
                 - name: QuickBooks Online
                   href: service-connect-to-quickbooks-online.md
                 - name: Salesforce
@@ -843,8 +839,6 @@
                   href: service-connect-to-uservoice.md
                 - name: VMob
                   href: service-connect-to-vmob.md
-                - name: Webtrends
-                  href: service-connect-to-webtrends.md
                 - name: Windows Dev Center
                   href: service-connect-to-windows-dev-center.md
                 - name: Xero
@@ -967,136 +961,6 @@
           href: report-builder-url-pass-parameters.md
         - name: 发布分页报表
           href: paginated-reports-save-to-power-bi-service.md
-    - name: 自定义视觉对象
-      items:
-        - name: 概述
-          items:
-            - name: Power BI 中的视觉对象
-              href: power-bi-custom-visuals.md
-        - name: 教程
-          items:
-            - name: 开发 Power BI 视觉对象
-              href: developer/custom-visual-develop-tutorial.md
-            - name: 添加格式设置选项
-              href: developer/custom-visual-develop-tutorial-format-options.md
-            - name: 为视觉对象项目添加单位测试
-              href: developer/visuals/unit-tests-introduction.md
-        - name: 概念
-          items:
-            - name: Power BI 中适用于组织的视觉对象
-              href: power-bi-custom-visuals-organization.md
-            - name: Power BI 视觉对象指南
-              href: developer/guidelines-powerbi-visuals.md
-            - name: 视觉对象常见问题解答
-              href: power-bi-custom-visuals-faq.md
-            - name: 使用功能
-              href: developer/visuals/capabilities.md
-            - name: 数据视图映射
-              href: developer/visuals/dataview-mappings.md
-            - name: 对象和属性
-              href: developer/visuals/objects-properties.md
-            - name: 高级编辑模式
-              href: developer/visuals/advanced-edit-mode.md
-        - name: 操作方法
-          items:
-            - name: 认证视觉对象
-              href: power-bi-custom-visuals-certified.md
-            - name: 将自定义视觉对象发布到 AppSource
-              href: developer/office-store.md
-            - name: 在 Power BI 中使用 R 驱动的自定义视觉对象
-              href: desktop-r-powered-custom-visuals.md
-            - name: 视觉对象交互
-              href: developer/visuals/visuals-interactions.md
-            - name: 添加视觉对象工具提示
-              href: developer/visuals/add-tooltips.md
-            - name: 添加分析窗格
-              href: developer/visuals/analytics-pane.md
-            - name: 筛选视觉对象
-              href: developer/visuals/filter-api.md
-            - name: 提取更多数据
-              href: developer/visuals/fetch-more-data.md
-            - name: 添加书签支持
-              href: developer/visuals/bookmarks-support.md
-            - name: 在视觉对象中突出显示数据
-              href: developer/visuals/highlight.md
-            - name: 添加高对比度模式支持
-              href: developer/visuals/high-contrast-support.md
-            - name: 启用同步切片器
-              href: developer/visuals/enable-sync-slicers.md
-            - name: Power BI 视觉对象疑难解答
-              href: power-bi-custom-visuals-troubleshoot.md
-        - name: 参考
-          items:
-            - name: 登陆页面
-              href: developer/visuals/landing-page.md
-            - name: 启动 URL
-              href: developer/visuals/launch-url.md
-            - name: 呈现事件
-              href: developer/visuals/event-service.md
-            - name: 排序
-              href: developer/visuals/sort-options.md
-        - name: 资源
-          items:
-            - name: 开发中心
-              href: 'https://powerbi.microsoft.com/developers/'
-            - name: 示例
-              href: 'https://microsoft.github.io/PowerBI-visuals/samples/'
-            - name: 自定义视觉对象 Git 存储库
-              href: 'https://go.microsoft.com/fwlink/?linkid=848277'
-            - name: 创建 SSL 证书
-              href: developer/visuals/create-ssl-certificate.md
-    - name: 自动化
-      items:
-        - name: 概述
-          items:
-            - name: 借助 Power BI API 可以做什么？
-              href: developer/overview-of-power-bi-rest-api.md
-        - name: 教程
-          items:
-            - name: 将数据推送到数据集
-              href: developer/walkthrough-push-data.md
-            - name: 获取身份验证访问令牌
-              href: developer/walkthrough-push-data-get-token.md
-            - name: 创建数据集
-              href: developer/walkthrough-push-data-create-dataset.md
-            - name: 获取数据集以添加行
-              href: developer/walkthrough-push-data-get-datasets.md
-            - name: 向表中添加行
-              href: developer/walkthrough-push-data-add-rows.md
-        - name: 概念
-          items:
-            - name: 实时数据的自动保留策略
-              href: developer/api-automatic-retention-policy-for-real-time-data.md
-            - name: 推送数据
-              items:
-                - name: Power BI REST API 限制
-                  href: developer/api-rest-api-limitations.md
-                - name: 数据集属性
-                  href: developer/api-dataset-properties.md
-                - name: 数据模型版本控制
-                  href: developer/api-data-model-versioning.md
-        - name: 操作方法
-          items:
-            - name: 配置凭据
-              href: developer/configure-credentials.md
-            - name: 加密凭据
-              href: developer/encrypt-credentials.md
-        - name: 参考
-          items:
-            - name: REST API
-              href: 'https://docs.microsoft.com/rest/api/power-bi'
-            - name: Power BI REST API 引用
-              href: developer/rest-api-reference.md
-            - name: 完整代码清单
-              href: developer/walkthrough-push-data-complete-code.md
-        - name: 资源
-          items:
-            - name: 开发中心
-              href: 'https://powerbi.microsoft.com/en-us/developers/'
-            - name: 'Power BI C# Git 存储库'
-              href: 'https://go.microsoft.com/fwlink/?linkid=848273'
-            - name: .NET SDK 下载
-              href: 'https://go.microsoft.com/fwlink/?linkid=848274'
 - name: Power BI 报表服务器
   items:
     - name: 概述
@@ -1267,69 +1131,6 @@
       items:
         - name: 每月网关更新
           href: /data-integration/gateway/service-gateway-monthly-updates
-- name: 管理
-  items:
-    - name: 概述
-      items:
-        - name: 什么是 Power BI 管理？
-          href: service-admin-administering-power-bi-in-your-organization.md
-    - name: 概念
-      items:
-        - name: Office 365 中的管理员角色
-          href: service-admin-role.md
-        - name: 常见问题解答 (FAQ)
-          href: service-admin-faq.md
-        - name: 高可用性和故障转移的常见问题解答
-          href: service-admin-failover.md
-    - name: 操作方法
-      items:
-        - name: 授权和注册
-          items:
-            - name: 为组织授权
-              href: service-admin-licensing-organization.md
-            - name: 购买 Power BI Pro
-              href: service-admin-purchasing-power-bi-pro.md
-            - name: 使用 Office 365 试用版注册
-              href: service-admin-signing-up-for-power-bi-with-a-new-office-365-trial.md
-            - name: 使用 Office 365 合作伙伴添加 Power BI
-              href: service-admin-syndication-partner.md
-        - name: 使用管理门户
-          href: service-admin-portal.md
-        - name: 我的租户位于何处？
-          href: service-admin-where-is-my-tenant-located.md
-        - name: 找到已登录的用户
-          href: service-admin-access-usage.md
-        - name: Auditing Power BI
-          href: service-admin-auditing.md
-        - name: 跟踪服务运行状况
-          href: service-admin-health.md
-        - name: 关闭 Power BI 帐户
-          href: service-admin-closing-your-account.md
-        - name: Power BI 和 ExpressRoute
-          href: service-admin-power-bi-expressroute.md
-        - name: 使用 Azure AD B2B
-          href: service-admin-azure-ad-b2b.md
-        - name: Power BI 的行级安全性
-          href: service-admin-rls.md
-        - name: Power BI 存档工作区
-          href: service-admin-power-bi-archived-workspace.md
-        - name: 使用 Intune 配置移动应用
-          href: service-admin-mobile-intune.md
-    - name: 参考
-      items:
-        - name: PowerShell、REST API 和 .NET SDK
-          href: service-admin-reference.md
-        - name: 适用于 PowerShell 的 Power BI cmdlet
-          href: 'https://docs.microsoft.com/powershell/power-bi/'
-          maintainContext: true
-        - name: 服务 URL 参考
-          href: power-bi-whitelist-urls.md
-    - name: 资源
-      items:
-        - name: Power BI 管理和部署方法
-          href: service-admin-governance.md
-        - name: Power BI 安全性
-          href: service-admin-power-bi-security.md
 - name: 指南
   items:
     - name: 概述
@@ -1340,6 +1141,8 @@
       href: guidance/import-modeling-data-reduction.md
     - name: DIVIDE 函数与除法运算符 (/)
       href: guidance/dax-divide-function-operator.md
+    - name: 适当使用错误函数
+      href: guidance/dax-error-functions.md
     - name: 数据流的最佳做法
       href: service-dataflows-best-practices.md
     - name: 白皮书

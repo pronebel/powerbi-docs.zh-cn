@@ -10,16 +10,16 @@ ms.subservice: powerbi-gateways
 ms.topic: conceptual
 ms.date: 08/01/2019
 LocalizationGroup: Gateways
-ms.openlocfilehash: 4e94781b3a424e894e0f0e2209ec48efb25c5db5
-ms.sourcegitcommit: 7a0ce2eec5bc7ac8ef94fa94434ee12a9a07705b
+ms.openlocfilehash: 9e7bdb0ae2f1e512e3e431cf69395d601cbc7b3f
+ms.sourcegitcommit: 9bf3cdcf5d8b8dd12aa1339b8910fcbc40f4cbe4
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/18/2019
-ms.locfileid: "71106299"
+ms.lasthandoff: 10/05/2019
+ms.locfileid: "71968535"
 ---
 # <a name="use-kerberos-for-single-sign-on-sso-to-sap-hana"></a>使用 Kerberos 启用到 SAP HANA 的单一登录 (SSO)
 
-本文介绍如何将 SAP HANA 服务器配置为从 Power BI 服务启用 SSO。
+本文介绍如何将 SAP HANA 数据源配置为从 Power BI 服务启用 SSO。
 
 > [!NOTE]
 > 在尝试刷新使用 Kerberos SSO 的基于 SAP HANA 的报表之前，除了完成[配置 Kerberos SSO](service-gateway-sso-kerberos.md) 中的步骤之外，还请完成本文中的步骤。

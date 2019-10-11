@@ -10,18 +10,18 @@ ms.topic: conceptual
 ms.date: 07/29/2019
 ms.author: davidi
 LocalizationGroup: Model your data
-ms.openlocfilehash: 431c1738a5d2e975fd96a8209ca8245cd4414d40
-ms.sourcegitcommit: 73228d0a9038b8369369c059ad06168d2c5ff062
+ms.openlocfilehash: d5ada41ef4941f14118b777e37e731337a5282d0
+ms.sourcegitcommit: d04b9e1426b8544ce16ef25864269cc43c2d9f7b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/02/2019
-ms.locfileid: "68730127"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "71715402"
 ---
 # <a name="measures-in-power-bi-desktop"></a>Power BI Desktop 中的度量值
 
 使用 **Power BI Desktop**，只需点几下鼠标，即可创建数据见解。 但有时候，这些数据并不包含解决某些重要问题所需的全部内容。 度量值可以帮助你解决该问题。
 
-度量值用于一些最常见的数据分析。 简单汇总（如总和、平均值、最小值、最大值和计数）可以通过字段框进行设置（在[汇总和分类](https://docs.microsoft.com/power-bi/guided-learning/visualizations?tutorial-step=16)视频中进行了讨论）。 可以使用 DAX 公式自己创建更高级的计算。 度量值的计算结果也始终随着你与的报表的交互而改变，以便进行快速和动态的临时数据浏览。 让我们仔细了解下。
+度量值用于一些最常见的数据分析。 简单汇总（如总和、平均值、最小值、最大值和计数）可以通过字段框进行设置。 度量值的计算结果也始终随着你与的报表的交互而改变，以便进行快速和动态的临时数据浏览。 让我们仔细了解下。 有关详细信息，请参阅[创建计算度量值](/learn/modules/model-data-power-bi/4b-create-calculated-measures)。
 
 ## <a name="understanding-measures"></a>了解度量值
 

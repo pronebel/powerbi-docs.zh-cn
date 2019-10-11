@@ -8,17 +8,17 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
-ms.date: 09/26/2019
-ms.openlocfilehash: bbd9a3884b3b6b0cd235471b0746f605e3872aff
-ms.sourcegitcommit: e2c5d4561455c3a4806ace85defbc72e4d7573b4
+ms.date: 10/03/2019
+ms.openlocfilehash: a97c8125af46eae193f6c592d0b3c1153ae9b50c
+ms.sourcegitcommit: 9bf3cdcf5d8b8dd12aa1339b8910fcbc40f4cbe4
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "71325750"
+ms.lasthandoff: 10/05/2019
+ms.locfileid: "71968625"
 ---
 # <a name="install-power-bi-desktop-optimized-for-power-bi-report-server"></a>安装更适合 Power BI 报表服务器的 Power BI Desktop
 
-若要为 Power BI 报表服务器创建 Power BI 报表，需要下载并安装已针对 Power BI 报表服务器进行优化的 Power BI Desktop。 此版本不同于用于 Power BI 服务的 Power BI Desktop。 例如，用于 Power BI 服务的 Power BI Desktop 版本包含预览版功能，而这些功能在发布后才包含在 Power BI 报表服务器版本中。 使用此版本可确保报表服务器能够与已知版本的报表和模型交互。 
+若要为 Power BI 报表服务器创建 Power BI 报表，需要下载并安装已针对 Power BI 报表服务器进行优化的 Power BI Desktop 版本。 此版本不同于用于 Power BI 服务的 Power BI Desktop。 例如，用于 Power BI 服务的 Power BI Desktop 版本包含预览功能，而这些功能在正式发布后才包含在 Power BI 报表服务器版本中。 使用此版本可确保报表服务器能够与已知版本的报表和模型交互。 
 
 好消息是，可在同一台计算机上并行安装 Power BI Desktop 以及针对 Power BI 报表服务器进行了优化的 Power BI Desktop。
 
@@ -32,7 +32,7 @@ ms.locfileid: "71325750"
 
     或转到 [Power BI 报表服务器](https://powerbi.microsoft.com/report-server/)主页，然后选择“高级下载选项”  。
 
-2. 在“下载中心”页中，选择“下载”。 
+2. 在“下载中心”页中，选择一种语言，然后选择“下载”  。
 
 3. 根据所用的计算机选择： 
 
@@ -65,7 +65,11 @@ ms.locfileid: "71325750"
 
 Power BI 报表服务器、Power BI 服务 (http://app.powerbi.com) ) 和 Power BI 移动应用中 Power BI 报表的行为几乎完全相同，但有一些功能不同。
 
-### <a name="in-a-browser"></a>在浏览器中
+### <a name="selecting-a-language"></a>选择语言
+
+对于已针对 Power BI 报表服务器进行优化的 Power BI Desktop，请选择安装应用时所用的语言。 以后将无法更改，但可以安装其他语言的版本。
+
+### <a name="report-visuals-in-a-browser"></a>浏览器中的报表视觉对象
 
 Power BI 报表服务器报表支持几乎所有可视化效果，包括自定义视觉对象。 Power BI 报表服务器报表不支持：
 
@@ -74,7 +78,7 @@ Power BI 报表服务器报表支持几乎所有可视化效果，包括自定�
 * 痕迹导航栏
 * Power BI Desktop 预览功能
 
-### <a name="in-the-power-bi-mobile-apps"></a>在 Power BI 移动应用中
+### <a name="reports-in-the-power-bi-mobile-apps"></a>Power BI 移动应用中的报表
 
 Power BI 报表服务器报表支持 [Power BI 移动应用](../consumer/mobile/mobile-apps-for-mobile-devices.md)中的所有基本功能，其中包括：
 

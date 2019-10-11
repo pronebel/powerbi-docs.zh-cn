@@ -1,5 +1,5 @@
 ---
-title: 向 Power BI 中的报表添加筛选器
+title: 在 Power BI 中向报表添加筛选器
 description: 在 Power BI 中将页面筛选器、可视化效果筛选器或报表筛选器添加到报表
 author: maggiesMSFT
 manager: kfile
@@ -7,21 +7,23 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 06/25/2019
+ms.date: 10/02/2019
 ms.author: maggies
 LocalizationGroup: Reports
-ms.openlocfilehash: dcc273dd6bf356d9149086b38b9126e721fe63a2
-ms.sourcegitcommit: 390dc3716d5c83385bedde63dd152431a77020e2
+ms.openlocfilehash: da7652556bc11e47cf238dd969ae1b27e6387299
+ms.sourcegitcommit: 9bf3cdcf5d8b8dd12aa1339b8910fcbc40f4cbe4
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/22/2019
-ms.locfileid: "68380267"
+ms.lasthandoff: 10/05/2019
+ms.locfileid: "71968807"
 ---
-# <a name="add-a-filter-to-a-report-in-power-bi"></a>向 Power BI 中的报表添加筛选器
+# <a name="add-a-filter-to-a-report-in-power-bi"></a>在 Power BI 中向报表添加筛选器
+
+[!INCLUDE [power-bi-service-new-look-include](includes/power-bi-service-new-look-include.md)]
 
 本文介绍了如何向 Power BI 中的报表添加页面级筛选器、可视化效果级筛选器、报表级筛选器或钻取级筛选器。 本文展示了 Power BI 服务中的示例。 具体步骤与在 Power BI Desktop 中添加筛选器几乎完全相同。
 
-**你知道吗？** Power BI 提供新的筛选器体验，当前处于预览状态。 阅读有关 [Power BI 报表中的新筛选器体验](power-bi-report-filter.md)的详细信息。
+**你知道吗？** Power BI 提供新的筛选器体验。 阅读有关 [Power BI 报表中的新筛选器体验](power-bi-report-filter.md)的详细信息。
 
 ![新筛选器体验](media/power-bi-report-add-filter/power-bi-filter-reading.png)
 
@@ -140,7 +142,7 @@ Power BI 提供了许多不同种类的筛选器，从手动筛选器和自动�
 让我们来看看钻取筛选器的工作原理。
 
 1. 从“团队记分卡”  报表页开始操作。    
-2. 假设你是 Andrew Ma，并且你希望看到管理人员团队报表页仅筛选出你的数据。  从左上角区域图表中，右键单击任意绿色数据点打开钻取菜单选项。
+2. 假设你是 Andrew Ma，并且你希望看到管理人员团队报表页仅筛选出你的数据。  从左上角区域图表中，右键单击任意绿色数据点以打开钻取菜单选项。
    
     ![开始执行钻取操作](media/power-bi-report-add-filter/power-bi-drillthrough.png)
 3. 选择“钻取”>“管理人员团队”  钻取到名为“管理人员团队”  的报表页。 在你是 Andrew Ma 的情况下，对该页进行筛选以显示有关右键单击的数据点的相关信息。 只有“钻取筛选器”框中的字段才会被传递到钻取报表页。  

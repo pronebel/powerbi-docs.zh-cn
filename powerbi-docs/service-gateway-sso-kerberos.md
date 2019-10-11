@@ -10,16 +10,16 @@ ms.subservice: powerbi-gateways
 ms.topic: conceptual
 ms.date: 07/15/2019
 LocalizationGroup: Gateways
-ms.openlocfilehash: 9958059fcf0d86323fc95f44f6fcfcb08fe7b52b
-ms.sourcegitcommit: 7a0ce2eec5bc7ac8ef94fa94434ee12a9a07705b
+ms.openlocfilehash: 0fb52262790c6c1935d8152f043f726a9471817d
+ms.sourcegitcommit: 9bf3cdcf5d8b8dd12aa1339b8910fcbc40f4cbe4
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/18/2019
-ms.locfileid: "71100437"
+ms.lasthandoff: 10/05/2019
+ms.locfileid: "71968968"
 ---
 # <a name="configure-kerberos-based-sso-from-power-bi-service-to-on-premises-data-sources"></a>将基于 Kerberos 的 SSO 从 Power BI 配置到本地数据源
 
-使用 [Kerberos 约束委派](/windows-server/security/kerberos/kerberos-constrained-delegation-overview)启用无缝 SSO 连接。 启用 SSO 后，Power BI 报表和仪表板可以轻松通过本地源刷新数据。
+使用 [Kerberos 约束委派](/windows-server/security/kerberos/kerberos-constrained-delegation-overview)启用无缝 SSO 连接。 启用 SSO 后，Power BI 报表和仪表板可以轻松通过本地源刷新数据，同时遵从在这些源上配置的用户级别权限。
 
 必须配置多个项才能使 Kerberos 约束委派正常工作，其中包括服务主体名称  (SPN) 和服务帐户上的委派设置。
 
@@ -83,9 +83,9 @@ ms.locfileid: "71100437"
 
 本节假定你已经为基础数据源（例如 SQL Server、SAP HANA、SAP BW、Teradata 和 Spark）配置了 SPN。 要了解如何配置这些数据源服务器 SPN，请参阅相应数据库服务器的技术文档。 还可以参阅博客文章[My Kerberos Checklist](https://techcommunity.microsoft.com/t5/SQL-Server-Support/My-Kerberos-Checklist-8230/ba-p/316160)（我的 Kerberos 清单）中的标题为 What SPN does your app require?（你的应用需要什么SPN？）的部分  。
 
-在以下步骤中，我们假设本地环境中有两台计算机：网关计算机和运行 SQL Server（已为基于 Kerberos 的 SSO 进行过配置）的数据库服务器。 只要已为基于 kerberos 的单一登录配置了数据源，就可以对其他一个受支持的数据源采用这些步骤。 针对本示例，我们还假设以下设置和名称：
+在以下步骤中，我们假设本地环境中有两台位于相同域的计算机：网关计算机和运行 SQL Server（已为基于 Kerberos 的 SSO 进行过配置）的数据库服务器。 只要已为基于 kerberos 的单一登录配置了数据源，就可以对其他一个受支持的数据源采用这些步骤。 针对本示例，我们还假设以下设置和名称：
 
-* Active Directory 域 (Netbios)：Contoso
+* Active Directory 域 (Netbios)：**Contoso**
 * 网关计算机名：**MyGatewayMachine**
 * 网关服务帐户：**Contoso\GatewaySvc**
 * SQL Server 数据源计算机名：**TestSQLServer**
@@ -105,11 +105,11 @@ ms.locfileid: "71100437"
 
 6. 在新对话框中，选择“用户或计算机”  。
 
-7. 输入数据源的服务帐户，例如，SQL Server 数据源的服务帐户可能类似于 Contoso\SQLService  。 添加帐户后，请选择“确定”  。
+7. 输入数据源的服务帐户，例如，SQL Server 数据源的服务帐户可能类似于 Contoso\SQLService  。 应该已在此帐户上设置了适当的数据源 SPN。 添加帐户后，请选择“确定”  。
 
 8. 选择你为数据库服务器创建的 SPN。 在我们的示例中，SPN 以“MSSQLSvc”开头  。 如果你为数据库服务添加了 FQDN 和 NetBIOS SPN，请同时选择两者。 你可能只看到一个。
 
-9. 选择**确定**。 现在，列表中应该会显示 SPN。
+9. 选择**确定**。 现在，应在网关服务帐户可向其提供委派凭据的服务列表中看到 SPN。
 
     ![网关连接器属性对话框的屏幕截图](media/service-gateway-sso-kerberos/gateway-connector-properties.png)
 
@@ -124,6 +124,8 @@ ms.locfileid: "71100437"
 
 在以下步骤中，我们假设本地环境中有两台位于不同域的计算机：网关计算机和运行 SQL Server（已为基于 Kerberos 的 SSO 进行过配置）的数据库服务器。 只要已为基于 kerberos 的单一登录配置了数据源，就可以对其他一个受支持的数据源采用这些步骤。 针对本示例，我们还假设以下设置和名称：
 
+* Active Directory 前端域 (Netbios)：**ContosoFrontEnd**
+* Active Directory 后端域 (Netbios)：**ContosoBackEnd**
 * 网关计算机名：**MyGatewayMachine**
 * 网关服务帐户：**ContosoFrontEnd\GatewaySvc**
 * SQL Server 数据源计算机名：**TestSQLServer**
@@ -135,22 +137,26 @@ ms.locfileid: "71100437"
 
     ![网关连接器属性](media/service-gateway-sso-kerberos-resource/gateway-connector-properties.png)
 
-2. 使用 ContosoBackEnd 域的域控制器上的“Active Directory 用户和计算机”，确保未为后端服务帐户应用任何委派设置。   此外，确保还未设置此帐户的“msDS-AllowedToActOnBehalfOfOtherIdentity”属性  。 可在“属性编辑器”  中找到此属性，如下图中所示：
+2. 使用 ContosoBackEnd 域的域控制器上的“Active Directory 用户和计算机”，确保未为后端服务帐户应用任何委派设置。  
 
     ![SQL 服务属性](media/service-gateway-sso-kerberos-resource/sql-service-properties.png)
 
-3. 在 ContosoBackEnd 域的域控制器上的“Active Directory 用户和计算机”中创建组。   将网关服务帐户添加到此组，如下图所示。 此图显示了名为“ResourceDelGroup”的新建组，以及添加到此组的网关服务帐户“GatewaySvc”。  
+3. 此外，确保还未设置此帐户的“msDS-AllowedToActOnBehalfOfOtherIdentity”属性  。 可在“属性编辑器”  中找到此属性，如下图中所示：
+
+    ![SQL 服务属性](media/service-gateway-sso-kerberos-resource/sql-service-attributes.png)
+
+4. 在 ContosoBackEnd 域的域控制器上的“Active Directory 用户和计算机”中创建组。   将网关服务帐户添加到此组，如下图所示。 此图显示了名为“ResourceDelGroup”的新建组，以及添加到此组的网关服务帐户“GatewaySvc”。  
 
     ![组属性](media/service-gateway-sso-kerberos-resource/group-properties.png)
 
-4. 在 ContosoBackEnd 域的域控制器中打开命令提示符，并运行以下命令，以更新后端服务帐户的 msDS-AllowedToActOnBehalfOfOtherIdentity 属性：  
+5. 在 ContosoBackEnd 域的域控制器中打开命令提示符，并运行以下命令，以更新后端服务帐户的 msDS-AllowedToActOnBehalfOfOtherIdentity 属性：  
 
     ```powershell
     $c = Get-ADGroup ResourceDelGroup
     Set-ADUser SQLService -PrincipalsAllowedToDelegateToAccount $c
     ```
 
-5. 可以验证“Active Directory 用户和计算机”中的后端服务帐户属性的“属性编辑器”选项卡中是否反映此更新。 
+6. 可以验证“Active Directory 用户和计算机”中的后端服务帐户属性的“属性编辑器”选项卡中是否反映此更新。  现在应设置 msDS-AllowedToActOnBehalfOfOtherIdentity  。
 
 ## <a name="grant-the-gateway-service-account-local-policy-rights-on-the-gateway-machine"></a>在网关计算机上向网关服务帐户授予本地策略权限
 
@@ -158,7 +164,7 @@ ms.locfileid: "71100437"
 
 1. 在网关计算机上运行：gpedit.msc  。
 
-2. 转到“本地计算机策略” > “计算机配置” > “Windows 设置” > “安全设置” > “本地策略” > “用户权限分配”       。
+2. 依次转到“本地计算机策略”&gt;“计算机配置”&gt;“Windows 设置”&gt;“安全设置”&gt;“本地策略”&gt;“用户权限分配”       。
 
     ![本地计算机策略文件夹结构的屏幕截图](media/service-gateway-sso-kerberos/user-rights-assignment.png)
 
@@ -166,7 +172,7 @@ ms.locfileid: "71100437"
 
     ![模拟客户端策略的屏幕截图](media/service-gateway-sso-kerberos/impersonate-client.png)
 
-    右键单击，然后打开“属性”  。 查看帐户列表。 其中必须包括网关服务帐户 (Contoso\GatewaySvc  )。
+    右键单击，然后打开“属性”  。 查看帐户列表。 它必须包含网关服务帐户（Contoso\GatewaySvc 或 ContosoFrontEnd\GatewaySvc，具体取决于约束委派的类型）   。
 
 4. 从“用户权限分配”下的策略列表中，选择“以操作系统方式执行”(SeTcbPrivilege)   。 确保网关服务帐户也包括在帐户列表中。
 
@@ -184,23 +190,23 @@ ms.locfileid: "71100437"
 
     ![任务管理器服务选项卡的屏幕截图](media/service-gateway-sso-kerberos/restart-gateway.png)
 
-1. 有关要为其启用 Kerberos SSO 的每个 Power BI 服务用户，请将本地 Active Directory 用户（具有数据源的 SSO 权限）的 `msDS-cloudExtensionAttribute1` 属性设置为 Power BI 服务用户的完整用户名。 例如，如果你以 `test@contoso.com` 身份登录 Power BI 服务，并且想将此用户映射到具有 SSO 权限的本地 Active Directory 用户（例如 `test@LOCALDOMAIN.COM`），请将 `test@LOCALDOMAIN.COM` 的 `msDS-cloudExtensionAttribute1` 属性设置为 `test@contoso.com`。
+1. 对于要为其启用 Kerberos SSO 的每个 Power BI 服务用户，请将本地 Active Directory 用户（具有数据源的 SSO 权限）的 `msDS-cloudExtensionAttribute1` 属性设置为 Power BI 服务用户的完整用户名（即 UPN）。 例如，如果你以 `test@contoso.com` 身份登录 Power BI 服务，并且想将此用户映射到具有 SSO 权限的本地 Active Directory 用户（例如 `test@LOCALDOMAIN.COM`），请将 `test@LOCALDOMAIN.COM` 的 `msDS-cloudExtensionAttribute1` 属性设置为 `test@contoso.com`。
 
-可以使用“Active Directory 用户和计算机”Microsoft 管理控制台 (MMC) 管理单元来设置 `msDS-cloudExtensionAttribute1` 属性。
-
-1. 以域管理员身份启动“Active Directory 用户和计算机”，即 MMC 管理单元。
-
-1. 右键单击该域，选择“查找”，然后键入要映射到本地 Active Directory 用户的帐户名。
-
-1. 选择“属性编辑器”选项卡  。
-
-    找到 `msDS-cloudExtensionAttribute1` 属性，然后双击它。 将该值设置为用于登录 Power BI 服务的用户的完整用户名。
-
-1. 选择**确定**。
-
-    ![字符串属性编辑器对话框的屏幕截图](media/service-gateway-sso-kerberos/edit-attribute.png)
-
-1. 选择**应用**。 验证是否已在“值”列中设置了正确的值  。
+    可以使用“Active Directory 用户和计算机”Microsoft 管理控制台 (MMC) 管理单元来设置 `msDS-cloudExtensionAttribute1` 属性：
+    
+    1. 以域管理员身份启动“Active Directory 用户和计算机”。
+    
+    1. 右键单击该域，选择“查找”，然后键入要映射到本地 Active Directory 用户的帐户名。
+    
+    1. 选择“属性编辑器”选项卡  。
+    
+        找到 `msDS-cloudExtensionAttribute1` 属性，然后双击它。 将该值设置为用于登录 Power BI 服务的用户的完整用户名（即 UPN）。
+    
+    1. 选择**确定**。
+    
+        ![字符串属性编辑器对话框的屏幕截图](media/service-gateway-sso-kerberos/edit-attribute.png)
+    
+    1. 选择**应用**。 验证是否已在“值”列中设置了正确的值  。
 
 ## <a name="complete-data-source-specific-configuration-steps"></a>完成数据源特定的配置步骤
 
@@ -211,19 +217,19 @@ SAP HANA 和 SAP BW 必须先具有额外的数据源特定配置要求和先决
 
 ## <a name="run-a-power-bi-report"></a>运行 Power BI 报表
 
-完成所有配置步骤后，可以使用 Power BI 中的“管理网关”页面来配置要用于 SSO 的数据源  。 如果具有多个网关，请确保选择已配置 Kerberos SSO 的网关。 在数据源的“高级设置”下，确保已选中“通过 Kerberos 对 DirectQuery 查询使用 SSO”  。
+完成所有配置步骤后，可以使用 Power BI 中的“管理网关”页面来配置要用于 SSO 的数据源  。 如果具有多个网关，请确保选择已配置 Kerberos SSO 的网关。 在数据源的“高级设置”下，确保已选中“通过 Kerberos 对 DirectQuery 查询使用 SSO”   。
 
 ![高级设置选项的屏幕截图](media/service-gateway-sso-kerberos/advanced-settings.png)
 
  从 Power BI Desktop 发布基于 DirectQuery 的报表  。 此报表必须使用用户可以访问的数据，该用户映射到登录 Power BI 服务的 (Azure) Active Directory 用户。 由于刷新操作的工作原理，必须使用 DirectQuery 而不是导入。 刷新基于导入的报表时，网关将使用创建数据源时输入到“用户名”和“密码”字段中的凭据   。 换句话说，不使用 Kerberos SSO  。 同样，在发布时，如果具有多个网关，请确保选择已配置 SSO 的网关。 在 Power BI 服务中，你现在应该能够刷新报表或基于已发布的数据集创建新报表。
 
-在大多数情况下，此配置有效。 但是，使用 Kerberos 时，根据你的环境可以有不同的配置。 如果报表仍无法加载，请联系你的域管理员进一步调查。 如果数据源是 SAP BW，还可以参阅 [CommonCryptoLib](service-gateway-sso-kerberos-sap-bw-commoncryptolib.md#troubleshooting) 和 [gx64krb5/gsskrb5](service-gateway-sso-kerberos-sap-bw-gx64krb.md#troubleshooting) 的数据源特定配置页的疑难解答部分。
+在大多数情况下，此配置有效。 但是，使用 Kerberos 时，根据你的环境可以有不同的配置。 如果报表仍无法加载，请联系你的域管理员进一步调查。 如果数据源是 SAP BW，还可以参阅 [CommonCryptoLib](service-gateway-sso-kerberos-sap-bw-commoncryptolib.md#troubleshooting) 和 [gx64krb5/gsskrb5](service-gateway-sso-kerberos-sap-bw-gx64krb.md#troubleshooting) 的数据源特定配置页的疑难解答部分，具体取决于所选的 SNC 库。
 
 ## <a name="next-steps"></a>后续步骤
 
 有关“本地数据网关”  和 DirectQuery  的详细信息，请查看以下资源：
 
-* [本地数据网关是什么？](/data-integration/gateway/service-gateway-getting-started)
+* [本地数据网关是什么？](/data-integration/gateway/service-gateway-onprem)
 * [Power BI 中的 DirectQuery](desktop-directquery-about.md)
 * [DirectQuery 支持的数据源](desktop-directquery-data-sources.md)
 * [DirectQuery 和 SAP BW](desktop-directquery-sap-bw.md)

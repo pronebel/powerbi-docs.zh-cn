@@ -8,13 +8,13 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: conceptual
-ms.date: 09/04/2019
-ms.openlocfilehash: 6ab7338029118ab6478ad345776e2b9f13c34123
-ms.sourcegitcommit: 9665997274301b228f45aa7250ba557e90164a4d
+ms.date: 10/04/2019
+ms.openlocfilehash: 97b9d68a8fa17a3ce1758eeaa16d2503a38a4743
+ms.sourcegitcommit: 9bf3cdcf5d8b8dd12aa1339b8910fcbc40f4cbe4
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/06/2019
-ms.locfileid: "70751514"
+ms.lasthandoff: 10/05/2019
+ms.locfileid: "71968494"
 ---
 # <a name="paginated-reports-in-power-bi-faq"></a>Power BI 中的分页报表：常见问题解答 
 
@@ -123,6 +123,7 @@ Power BI 报表针对浏览和交互性进行了优化。  例如，对于销售
 - Azure Analysis Services（通过单一登录 (SSO) 和 oAuth）
 - Azure SQL 数据仓库
 - Azure SQL 数据库（用户名/密码，SSO 和 oAuth）
+- 通过公共终结点（用户名/密码）可获取的 Azure SQL 托管实例
 - SQL Server*
 - SQL Server Analysis Services (SSAS) 表格 (DAX) 和多维 (MDX) 模型* 
 - Oracle* 

@@ -1,22 +1,21 @@
 ---
-title: 面向报表使用者的 Power BI
-description: 开始使用 Power BI？ 了解 Power BI 的特性和功能，并了解用户作为 Power BI 使用者或最终用户可以使用它们执行哪些操作。
+title: 面向使用者的 Power BI
+description: 开始使用 Power BI？ 了解 Power BI 服务的特性和功能，并了解用户作为 Power BI 使用者或最终用户可以使用它们执行哪些操作。
 author: mihart
 manager: kvivek
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: hub-page
-ms.date: 09/11/2019
+ms.date: 10/01/2019
 ms.author: mihart
 layout: HubPage
-ms.custom: seodec18
 LocalizationGroup: Get started
-ms.openlocfilehash: d43d1072c9eafa71d336f71e22ac2d6d68144558
-ms.sourcegitcommit: a97c0c34f888e44abf4c9aa657ec9463a32be06f
+ms.openlocfilehash: ec123c29bc6cf942c096ffb78b8bfab10be3bc14
+ms.sourcegitcommit: e371690159f69a72410abc97ff1c2a2bb9c841f5
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/17/2019
-ms.locfileid: "71073378"
+ms.lasthandoff: 10/02/2019
+ms.locfileid: "71829612"
 ---
 <div id="main" class="v2">
       <div class="container">
@@ -26,7 +25,7 @@ ms.locfileid: "71073378"
             <p>若要查看所有 Power BI 使用者文档，请打开<a href="end-user-consumer.md">目录</a>。</p>
             <ul class="pivots">
             <li>
-                <a href="#get-started" data-linktype="self-bookmark">开始使用</a>
+                <a href="#get-started" data-linktype="self-bookmark">入门</a>
                 <ul id="get-started" class="cardsF">
                     <li>
                         <a data-default="true" href="#getstarted" data-linktype="self-bookmark"></a>
@@ -105,7 +104,8 @@ ms.locfileid: "71073378"
                                                 <p><a href="/power-bi/consumer/end-user-experience" data-linktype="absolute-path">导航 - 快速查找需要的内容</a></p>
                                                 <p><a href="/power-bi/consumer/end-user-q-and-a" data-linktype="absolute-path">问答 - 使用自然语言提问</a></p>
                                                 <p><a href="/power-bi/consumer/end-user-report-filter" data-linktype="absolute-path">与筛选器和切片器交互</a></p>
-                                                <p><a href="/power-bi/consumer/end-user-visual-type" data-linktype="absolute-path">了解 Power BI 中看到的视觉对象类型</a></p>
+                                                <p><a href="/power-bi/consumer/end-user-visual-type" data-linktype="absolute-path">了解视觉对象类型</a></p>
+                                                <p><a href="/power-bi/consumer/end-user-app-marketing" data-linktype="absolute-path">下载示例应用</a></p>
                                             </div>
                                         </div>
                                     </div>
@@ -152,10 +152,10 @@ ms.locfileid: "71073378"
                 </ul>
             </li>
             <li>
-                <a href="#concepts-terminology" data-linktype="self-bookmark"> 概念和术语</a>
+                <a href="#concepts-terminology" data-linktype="self-bookmark">概念和术语</a>
                 <ul id="concepts-terminology">
                     <li>
-                        <a href="#conceptsterminology" data-linktype="self-bookmark"> 概念和术语</a>
+                        <a href="#conceptsterminology" data-linktype="self-bookmark">概念和术语</a>
                         <ul id="conceptsterminology" class="cardsC">
                             <br>
                             <li>

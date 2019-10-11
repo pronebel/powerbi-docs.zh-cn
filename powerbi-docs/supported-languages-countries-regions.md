@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 04/18/2019
+ms.date: 10/03/2019
 ms.author: maggies
 LocalizationGroup: Get started
-ms.openlocfilehash: 6e89fa21617add5c3c11ada990f7055d305cebf5
-ms.sourcegitcommit: 02042995df12cc4e4b97eb8a369e62364eb5af36
+ms.openlocfilehash: efb2ee5ef0ed09cbca1a2bebf6ab3a0f8908efb8
+ms.sourcegitcommit: 9bf3cdcf5d8b8dd12aa1339b8910fcbc40f4cbe4
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/25/2019
-ms.locfileid: "71256446"
+ms.lasthandoff: 10/05/2019
+ms.locfileid: "71968680"
 ---
 # <a name="supported-languages-and-countriesregions-for-power-bi"></a>Power BI 支持的语言和国家/地区
 
@@ -121,6 +121,9 @@ Power BI 根据你的计算机上的语言首选项检测你的语言。 你访�
 * 如果通过 Windows 应用商店安装 Power BI Desktop，则会将安装所有语言，并默认显示与 Windows 默认语言对应的语言。
 * 将 Power BI Desktop 作为独立安装程序下载时，可以在运行安装程序时选择默认语言，并可在以后更改。
 * 还可以在为特定报表[导入数据时选择要使用的区域设置](#choose-the-locale-for-importing-data-into-power-bi-desktop)。
+
+> [!NOTE]
+> 如果要安装针对 Power BI 报表服务器进行了优化的 Power BI Desktop 版本，请选择在下载时所用的语言。 有关详细信息，请参阅[安装更适合 Power BI 报表服务器的 Power BI Desktop](report-server/install-powerbi-desktop.md)。
 
 ### <a name="choose-a-language-for-power-bi-desktop"></a>选择 Power BI Desktop 的语言 
 1. [通过 Windows 应用商店](http://aka.ms/pbidesktopstore)安装 Power BI Desktop，或作为[独立安装程序](http://aka.ms/pbiSingleInstaller)进行安装。

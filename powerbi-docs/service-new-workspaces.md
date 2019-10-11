@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 09/05/2019
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 9add7ce3c5caf675fde15fd15eea03d9d9b49d9b
-ms.sourcegitcommit: 9665997274301b228f45aa7250ba557e90164a4d
+ms.openlocfilehash: 32d43ca4b9681495e22db023604afeac31d15e7e
+ms.sourcegitcommit: d04b9e1426b8544ce16ef25864269cc43c2d9f7b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/06/2019
-ms.locfileid: "70750908"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "71715218"
 ---
 # <a name="organize-work-in-the-new-workspaces-in-power-bi"></a>在 Power BI 的新工作区中整理工作
 
@@ -24,7 +24,7 @@ ms.locfileid: "70750908"
 提供新工作区体验的工作区已正式发布 (GA)，现在为默认工作区。 仍可以继续创建和使用基于 Office 365 组的[经典工作区](service-create-workspaces.md)。 
 
 > [!NOTE]
-> 若要对浏览工作区中内容的用户强制实现行级别安全性 (RLS)，请使用 查看者角色。 如果租户中还没有查看者角色，请继续使用[经典工作区](service-create-workspaces.md)，并选择“成员只能查看 Power BI 内容”  选项。 也可以向这些用户发布 Power BI 应用，或使用共享功能来分发内容。
+> 若要对浏览工作区中内容的用户强制实现行级别安全性 (RLS)，请使用 查看者角色。 若要强制执行 RLS 而不授予对工作区的访问权限，请向这些用户发布 Power BI 应用，或使用共享来分发内容。
 
 新工作区可用于：
 
@@ -73,11 +73,14 @@ Power BI 管理门户中[提供工作区列表](service-admin-portal.md#workspac
 | 允许其他人重新共享项目。 |  X | X  |   |   |
 | 在工作区中创建、编辑和删除内容。  |  X | X  | X  |   |
 | 将报表发布到工作区，删除内容。  |  X | X  | X  |   |
-| 基于此工作区中的数据集在其他工作区中创建报表。 |  X | X  | X  | X <sup>1</sup>  |
-| 复制报表。 | X | X | X | X <sup>1</sup> |
+| 基于此工作区中的数据集在其他工作区中创建报表。 |  X | X  | X  |   |
+| 复制报表。 | X | X | X |  |
 | 查看项并与之交互。 |  X | X  | X  | X  |
 
-**1** 需要 Power BI Pro 许可证和[数据集的“生成”权限](service-datasets-build-permissions.md#build-permissions-for-shared-datasets)。 
+> [!NOTE]
+>若要复制报表，并基于此工作区中的数据集在另一个工作区中创建报表，相关人员需要满足其他条件：
+>- 他们需要 Power BI Pro 许可证。 
+>- 他们需要此数据集的生成权限。 对于此工作区中的数据集，拥有管理员、成员和参与者角色的相关人员通过其工作区角色获得生成权限。
  
 ## <a name="licensing"></a>许可
 你添加到共享容量中的工作区的每个人都需要 Power BI Pro 许可证。 在工作区中，这些用户全都可协作处理计划向更广泛的受众，甚至整个组织发布的仪表板和报表。 

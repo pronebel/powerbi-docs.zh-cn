@@ -10,24 +10,22 @@ ms.topic: conceptual
 ms.date: 09/11/2018
 ms.author: mihart
 LocalizationGroup: Create reports
-ms.openlocfilehash: 385cae5511d89ec86e52232066227687673f9523
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: d627b74d4c681e409424b18a117743e0488dc34c
+ms.sourcegitcommit: d04b9e1426b8544ce16ef25864269cc43c2d9f7b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61394038"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "71715468"
 ---
 # <a name="high-density-sampling-in-power-bi-scatter-charts"></a>Power BI 散点图中的高密度采样
-从 2017 年 9 月发布 Power BI Desktop 和 Power BI 服务更新开始，可使用新的采样算法来改进散点图显示高密度数据的方式   。
+
+[!INCLUDE [power-bi-visuals-desktop-banner](../includes/power-bi-visuals-desktop-banner.md)]
+
+从 2017 年 9 月发布的 Power BI Desktop 开始，可使用新的采样算法来改进散点图表示高密度数据的方式  。
 
 例如，可以通过组织的销售活动创建一个散点图，其中每个商店每年都有成千上万个数据点。 此类信息的散点图将对可用数据进行数据采样（选择数据中有意义的代表，以展示销售情况如何随时间变化），并创建一个散点图表示基础数据。 这是高密度散点图中的常见做法。 Power BI 改进了高密度数据的采样，本文详细介绍了相关信息。
 
-![](media/desktop-high-density-scatter-charts/high-density-scatter-charts_01.png)
-
-> [!NOTE]
-> 本文所述的高密度采样算法同时适用于 Power BI Desktop 和 Power BI 服务中的散点图    。
-> 
-> 
+![散点图示例](media/desktop-high-density-scatter-charts/high-density-scatter-charts-01.png)
 
 ## <a name="how-high-density-scatter-charts-work"></a>高密度散点图的工作方式
 以前，Power BI  以确定性方式在所有基础数据中选择采样数据点的集合来创建散点图。 具体而言，Power BI 会在散点图系列中选择第一行和最后一行数据，然后将剩余的行平均分配，以便在散点图上绘制总共 3,500 个数据点。 例如，如果示例有 35,000 行，则选择第一行和最后一行进行绘制，然后每 10 行绘制一个数据点（35,000/10 = 每 10 行 = 3,500 个数据点）。 另外，在此之前，在数据系列中无法绘制的 null 值或点（如文本值）不会显示出来，因此在生成视觉对象时不会加以考虑。 通过此类采样，散点图的感知密度同样会基于代表性数据点，因此隐含的可视化密度属于采样点，而不是基础数据的完整集合。
@@ -60,20 +58,22 @@ ms.locfileid: "61394038"
 
 * 如果右键单击“详细信息”下的值，然后从菜单中将其设置为“显示不含数据的项”，那么散点图将恢复为原始算法   。
   
-  ![](media/desktop-high-density-scatter-charts/high-density-scatter-charts_02.png)
+  ![“显示不含数据的项”示例](media/desktop-high-density-scatter-charts/high-density-scatter-charts-02.png)
 * “播放”  轴中的任何值都将导致散点图恢复为原始算法。
 * 如果散点图上缺少 X 轴和 Y 轴，则图表将恢复为原始算法。
 * 使用“分析”  窗格中的“比率线”  会导致图表恢复为原始算法。
   
-  ![](media/desktop-high-density-scatter-charts/high-density-scatter-charts_03.png)
+  ![“使用比率线”示例](media/desktop-high-density-scatter-charts/high-density-scatter-charts-03.png)
 
 ## <a name="how-to-turn-on-high-density-sampling-for-a-scatter-chart"></a>如何为散点图启用高密度采样
 要启用“高密度采样”，请选择散点图，转到“格式设置”窗格，展开“常规”卡，然后在卡片的底部附近，将“高密度采样”切换滑块切换为“开”      。
 
-![](media/desktop-high-density-scatter-charts/high-density-scatter-charts_04.png)
+![“高密度采样”示例](media/desktop-high-density-scatter-charts/high-density-scatter-charts-04.png)
 
 > [!NOTE]
 > 启用滑块后，Power BI 将在可能的情况下尝试使用“高密度采样”  算法。 如果该算法无法使用（例如，在“播放”  轴添加一个值），滑块将停留在“打开”  位置，即使图表已恢复为标准算法也是如此。 如果之后你从“播放”轴删除一个值（或者情况变为允许使用高密度采样算法），由于功能处于活动状态，图表将自动为该图表使用高密度采样  。
+> 
+
 > 
 > [!NOTE]
 > 数据点按照索引进行分组或选择。 包含图例不会影响算法采样，它只影响视觉对象的排序。

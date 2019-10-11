@@ -3,20 +3,19 @@ title: Power BI 中有关最终用户的常见问题
 description: 浏览有关 Power BI 服务和 Power BI 移动应用的常见问题和解答列表。
 author: mihart
 manager: kvivek
-ms.custom: seodec18
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 6/17/2019
+ms.date: 10/03/2019
 ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: 5efdb98e0722add361f3b333f773fc03c6ea50a9
-ms.sourcegitcommit: 52aa112ac9194f4bb62b0910c4a1be80e1bf1276
+ms.openlocfilehash: bf3e7b790788c8ce21b222a083a853b06185acc0
+ms.sourcegitcommit: b7a9862b6da940ddebe61bc945a353f91cd0e4bd
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "69654142"
+ms.lasthandoff: 10/04/2019
+ms.locfileid: "71943328"
 ---
 # <a name="frequently-asked-questions-about-power-bi"></a>有关 Power BI 的常见问题
 
@@ -33,27 +32,17 @@ Power BI Pro 许可证是支持访问 Power BI 服务中所有内容和功能的
 
 Power BI Premium 提供专用容量，以确保性能更一致。 它还支持 Power BI 中的较大数据量。 对于个人用户，Premium 支持 Pro 用户广泛分发内容，且接收人无需使用每用户许可证，即可查看内容。
 
-## <a name="what-happens-if-my-power-bi-pro-license-expires"></a>如果我的 Power BI Pro 许可证已过期，会发生什么情况？
-
-Power BI Pro 许可证到期后有一段宽限期。 对于批量购买的许可证，宽限期为 90 天。 如果是直接购买许可证，则宽限期为 30 天。
-
-Power BI Pro 的订阅生命周期与 Office 365 相同。 有关详细信息，请参阅 [Office 365 商业版订阅到期时，我的数据和访问权限会发生什么变化？](https://support.office.com/article/What-happens-to-my-data-and-access-when-my-Office-365-for-business-subscription-ends-4436582f-211a-45ec-b72e-33647f97d8a3)。
-
 ## <a name="what-if-i-have-questions-about-power-bi-premium"></a>如果有关于 Power BI Premium 的问题，应该怎么办？
 
 与 Power BI Premium 相关的问题，请参阅 [Power BI Premium 常见问题解答](../service-premium-faq.md)。
 
-## <a name="how-do-i-find-out-who-in-my-organization-has-a-power-bi-account"></a>如何查明组织中谁具有 Power BI 帐户？
-
-可查看 Power BI 的 Azure Active Directory 集成应用程序报表，从而发现组织中的活跃用户。 Azure AD 报表并不会指出每个用户拥有的许可证类型。 它只报告哪些用户已登录到 Power BI 及其登录时间。 有关详细信息，请参阅[查找已登录的 Power BI 用户](../service-admin-access-usage.md)。
-
 ## <a name="what-is-power-bi-desktop"></a>什么是 Power BI Desktop？
 
-Power BI Desktop 是一款免费应用程序，可直接安装到你自己的计算机上。 Power BI Desktop 与 Power BI 服务紧密配合工作。  数据科学家、管理员和开发人员使用 Power BI Desktop 生成报表，并将报表提供给像你这样的 Power BI 服务用户。 阅读有关[什么是 Power BI Desktop](../desktop-what-is-desktop.md) 的详细信息。
+Power BI Desktop 是一款免费应用程序，可直接安装到你自己的计算机上。 Power BI Desktop 与 Power BI 服务紧密配合工作。  数据科学家、管理员和开发人员使用 Power BI Desktop 生成报表，并将报表提供给像你这样的 Power BI 服务使用者  。 阅读有关[什么是 Power BI Desktop](../desktop-what-is-desktop.md) 的详细信息。
 
 ## <a name="what-do-i-need-to-use-the-power-bi-service"></a>需要什么才能使用 Power BI 服务？
 
-仅需要 Web 浏览器和工作电子邮件地址。 可使用 .gov  和 .mil  电子邮件地址进行注册。 有关详细信息，请参阅[在 Power BI 服务中注册你的美国政府组织](../service-govus-signup.md)。
+仅需要 Web 浏览器和工作电子邮件地址。 也可使用 .gov 和 .mil 电子邮件地址进行注册   。 有关详细信息，请参阅[在 Power BI 服务中注册你的美国政府组织](../service-govus-signup.md)。
 
 ## <a name="why-do-i-have-to-sign-up-with-my-work-email"></a>为什么必须使用我的工作电子邮件注册？
 
@@ -88,7 +77,7 @@ Power BI 不支持由使用者电子邮件服务或电信提供商提供的电�
 * [Power BI 博客](http://blogs.msdn.com/b/powerbi/)
 * [网络研讨会](../webinars.md)
 * 我们 [YouTube 频道](https://www.youtube.com/user/mspowerbi)上的入门视频
-* [Power BI Desktop 入门](../service-get-started.md)文章
+* [以使用者身份开始使用 Power BI](power-bi-consumer-landing.md) 文章 
 * [加入我们的社区](https://community.powerbi.com/)并提出问题
 * 有关更多建议，请参阅[如何获取帮助的 10 条提示](../service-tips-for-finding-help.md)
 
@@ -126,6 +115,7 @@ Power BI 不支持由使用者电子邮件服务或电信提供商提供的电�
 
 ## <a name="next-steps"></a>后续步骤
 
-* [什么是 Power BI？](../power-bi-overview.md)
+* [什么是 Power BI 使用者？](end-user-consumer.md)
+* [使用者如何使用 Power BI？](end-user-reading-view.md)
 * 更多问题？ [尝试咨询 Power BI 社区](http://community.powerbi.com/)
 * 仍有问题？ 请访问 [Power BI 支持页](https://powerbi.microsoft.com/support/)
