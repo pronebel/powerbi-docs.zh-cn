@@ -10,12 +10,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 05/16/2019
 LocalizationGroup: Share your work
-ms.openlocfilehash: 86fc2f8d13cdcd006c01dfff0114c13cc78f5e65
-ms.sourcegitcommit: 52aa112ac9194f4bb62b0910c4a1be80e1bf1276
+ms.openlocfilehash: 9824b3340da694c00784f34b0c6245cafbf69383
+ms.sourcegitcommit: d02de4ca33d865aee3e3e764b98f221950cb0a10
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/14/2019
-ms.locfileid: "70987024"
+ms.lasthandoff: 10/10/2019
+ms.locfileid: "72239906"
 ---
 # <a name="publish-to-web-from-power-bi"></a>从 Power BI 发布到 Web
 
@@ -113,7 +113,7 @@ ms.locfileid: "70987024"
 
 ## <a name="updates-to-reports-and-data-refresh"></a>报表更新和数据刷新
 
-创建“发布到 Web”嵌入代码并将其共享后，将使用你所做的所有更改对报表进行更新，并立即激活嵌入代码链接  。 打开链接的任何人都可以查看。 但完成此初始操作之后，可能需要大约一个小时用户才能看见对报表或视觉对象的更新。 如果你需要更新以便立即可用，可以删除嵌入代码并创建一个新的代码。 若要了解详细信息，请参阅本文后面[工作方式](#howitworks)部分  。 
+创建“发布到 Web”嵌入代码并将其共享后，将使用你所做的所有更改对报表进行更新，并立即激活嵌入代码链接  。 打开链接的任何人都可以查看。 但完成此初始操作之后，可能需要大约一个小时用户才能看见对报表或视觉对象的更新。 若要了解详细信息，请参阅本文后面[工作方式](#howitworks)部分  。 
 
 ## <a name="data-refresh"></a>数据刷新
 

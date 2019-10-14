@@ -7,12 +7,12 @@ ms.subservice: report-builder
 ms.topic: conceptual
 author: maggiesMSFT
 ms.author: maggies
-ms.openlocfilehash: 50f78709ce7ce302ce79df5eb383af25f55d539a
-ms.sourcegitcommit: 8aa90f662afb7492ffcfc11ef142cdb0ccecc9aa
+ms.openlocfilehash: 1a46c1fb8e9f31bd5199fccfaecb16cece144b5a
+ms.sourcegitcommit: 5e277dae93832d10033defb2a9e85ecaa8ffb8ec
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/24/2019
-ms.locfileid: "68471574"
+ms.lasthandoff: 10/07/2019
+ms.locfileid: "72021030"
 ---
 # <a name="use-shared-datasets-in-power-bi-report-builder"></a>在 Power BI 报表生成器中使用共享数据集
 
@@ -20,14 +20,14 @@ ms.locfileid: "68471574"
 
 ![从 Power BI Desktop 到报表生成器分页报表](media/report-builder-shared-datasets/power-bi-desktop-report-builder-arrow-26-pgs.png)
 
-此数据集无需位于高级容量的工作区中，你也无需是该工作区的成员。 你只需要具备此数据集的[生成权限](service-datasets-build-permissions.md#build-permissions-for-shared-datasets)。 要发布分页报表，则需要 Power BI Pro 许可证。 此外，还至少需要高级容量中工作区的参与者角色。
+此数据集无需位于高级容量的工作区中，你也无需是该工作区的成员。 你只需要具备此数据集的[生成权限](service-datasets-build-permissions.md)。 要发布分页报表，则需要 Power BI Pro 许可证。 此外，还至少需要高级容量中工作区的参与者角色。
 
 ## <a name="what-you-need"></a>所需内容
 
 以下是在 Power BI 报表生成器中使用共享数据集所需和不需要的事项。
 
 - Power BI 报表生成器。 [下载并安装 Power BI 报表生成器](https://go.microsoft.com/fwlink/?linkid=2086513)。
-- 要访问 Power BI 数据集，需要具有该数据集的生成权限。 请参阅[生成权限](service-datasets-build-permissions.md#build-permissions-for-shared-datasets)。
+- 要访问 Power BI 数据集，需要具有该数据集的生成权限。 请参阅[生成权限](service-datasets-build-permissions.md)。
 - 在报表生成器中创建分页报表无需 Power BI Pro 许可证。 
 - 要发布分页报表，则需要 Power BI Pro 许可证。 此外，还至少需要高级容量中工作区的参与者角色。 
 - 可选：如果需要按照本文内容进行操作，请下载 Power BI Desktop [零售分析示例 .pbix](http://download.microsoft.com/download/9/6/D/96DDC2FF-2568-491D-AAFA-AFDD6F763AE3/Retail%20Analysis%20Sample%20PBIX.pbix) 文件，在 Power BI Desktop 中将其打开并添加一个包含多列的表。 在“格式”窗格中，关闭“总计”   。 然后将其发布到 Power BI 服务中的工作区。
