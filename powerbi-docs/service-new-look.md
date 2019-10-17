@@ -7,21 +7,23 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 08/19/2019
+ms.date: 10/08/2019
 ms.author: maggies
 LocalizationGroup: Get started
-ms.openlocfilehash: 6c752b6083d2f3baecf7e1a9ce20f77e8c5a46d0
-ms.sourcegitcommit: 4a3afe761d2f4a5bd897fafb36b53961739e8466
+ms.openlocfilehash: 11f60ba14734f40849aec47a492f4bf80c4ef3b5
+ms.sourcegitcommit: d02de4ca33d865aee3e3e764b98f221950cb0a10
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/20/2019
-ms.locfileid: "69654912"
+ms.lasthandoff: 10/10/2019
+ms.locfileid: "72239962"
 ---
 # <a name="the-new-look-of-the-power-bi-service"></a>Power BI 服务的新外观
 
-Power BI 服务 (app.powerbi.com) 的新外观使报表查看和交互更加容易。 新外观提供一种更便捷的新式体验，它基于你对其他 Microsoft 产品的熟悉程度。 在整个 Power BI 服务中，我们通过转换为较浅的颜色主题并更新图标，使报表内容成为主要的关注点。 下面概述了新外观中相较原外观的变化。 有关详细信息，请参阅编号部分：
+Power BI 服务 (app.powerbi.com) 的新外观使报表查看和交互更加容易。 新外观更便捷，它基于你对其他 Microsoft 产品的熟悉程度。 在整个 Power BI 服务中，我们通过转换为较浅的颜色主题并更新图标，使报表内容成为主要的关注点。 下面概述了新外观中相较原外观的变化。 有关详细信息，请参阅编号部分：
 
 ![新外观更改概述](media/service-new-look/power-bi-new-look-changes.png)
+
+正在寻找特定的操作？ 请参阅[全新外观：操作位于何处？](service-new-look-where-actions.md)
 
 ## <a name="quick-tour-of-the-changes"></a>有关更改的快速教程
 

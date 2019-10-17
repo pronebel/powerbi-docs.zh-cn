@@ -10,17 +10,20 @@ ms.topic: conceptual
 ms.date: 06/25/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 2f50a6fc9fccc35333257caaf3efeb8185c8caff
-ms.sourcegitcommit: 1c96b65a03ec0a0612e851dd58c363f4d56bca38
+ms.openlocfilehash: 0015921990bb35a7ac5e6652b018ef16485e5b9c
+ms.sourcegitcommit: 3b4de8785d17c9e00b041cff7bd4d39829316437
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/25/2019
-ms.locfileid: "67390366"
+ms.lasthandoff: 10/09/2019
+ms.locfileid: "72164741"
 ---
 # <a name="use-the-matrix-visual-in-power-bi"></a>在 Power BI 中使用矩阵视觉对象
-矩阵  视觉对象类似于表  。  表支持两个维度，且数据是平面结构；也就是说，表显示但不聚合重复值。 使用矩阵，可以更轻松地跨多个维度有目的地显示数据，因为它支持梯级布局。 矩阵自动聚合数据，并启用向下钻取。 
 
-可以在 Power BI Desktop  和 Power BI 服务  报表中创建矩阵视觉对象，并能将矩阵内的元素与相应报表页上的其他视觉对象一起交叉突出显示。 例如，可以选择行、列和各个单元格，并交叉突出显示。 此外，还可以将选择的单个单元格和多个单元格复制并粘贴到其他应用程序。 
+[!INCLUDE [power-bi-visuals-desktop-banner](../includes/power-bi-visuals-desktop-banner.md)]
+
+矩阵视觉对象类似于表。  表支持两个维度，且数据是平面结构；也就是说，表显示但不聚合重复值。 使用矩阵，可以更轻松地跨多个维度有目的地显示数据，因为它支持梯级布局。 矩阵自动聚合数据，并启用向下钻取。 
+
+可以在 Power BI Desktop  报表中创建矩阵视觉对象，并能将矩阵内的元素与相应报表页上的其他视觉对象一起交叉突出显示。 例如，可以选择行、列和各个单元格，并交叉突出显示。 此外，还可以将选择的单个单元格和多个单元格复制并粘贴到其他应用程序。 
 
 ![交叉突出显示的矩阵和圆环图](media/desktop-matrix-visual/matrix-visual_2a.png)
 
@@ -29,7 +32,7 @@ ms.locfileid: "67390366"
 
 ## <a name="understanding-how-power-bi-calculates-totals"></a>了解 Power BI 计算总计的方式
 
-了解如何使用矩阵  视觉对象前，请务必先了解 Power BI 是如何在表和矩阵中计算总计和小计值的。 对于总计和小计行，Power BI 是对所有基础数据行评估度量值，这不仅仅是简单地将可见或已显示行中的值相加。 这意味着最终总计行的值与预计的值存在差异。
+了解如何使用矩阵视觉对象前，请务必先了解 Power BI 是如何在表和矩阵中计算总计和小计值的。 对于总计和小计行，Power BI 是对所有基础数据行评估度量值，这不仅仅是简单地将可见或已显示行中的值相加。 这意味着最终总计行的值与预计的值存在差异。
 
 请查看以下矩阵视觉对象。 
 
@@ -83,7 +86,7 @@ Watch the following video to learn more about expand/collapse in the matrix:
 
 请注意，显示的菜单中有多个选项，分别用于执行不同的操作：
 
-选择“向下钻取”  展开的是相应  行级别的矩阵，不包括  其他所有行标题，只会展开选择的行标题。 在下图中，依次选择的是“建议”   > “向下钻取”  。 请注意，其他顶层行不会再出现在矩阵中。 这种钻取方法是一项十分有用的功能，当我们介绍“交叉突出显示”  部分时，你会发现这项功能特别棒。
+选择“向下钻取”  展开的是相应  行级别的矩阵，不包括  其他所有行标题，只会展开选择的行标题。 在下图中，依次选择的是“建议”   > “向下钻取”  。 请注意，其他顶层行不会再出现在矩阵中。 这种钻取方法是一项十分有用的功能，当我们介绍“交叉突出显示”部分时，你会发现这项功能特别棒。
 
 ![向下钻取一个级别的矩阵](media/desktop-matrix-visual/power-bi-drill-down-matrix.png)
 
@@ -100,7 +103,7 @@ Watch the following video to learn more about expand/collapse in the matrix:
 ![已向“建议”应用“展开”的矩阵](media/desktop-matrix-visual/power-bi-matrix-expand.png)
 
 ### <a name="drill-down-on-column-headers"></a>向下钻取列标题
-与向下钻取行类似，还可以向下钻取列  。 在下图中，“列”  字段井中有两个字段，形成了类似于本文前面对行使用的层次结构。 “列”  字段井中有“区域”  和“细分”  。 当你将第二个字段添加到“列”  后，视觉对象上便会显示新的下拉菜单，此菜单当前显示“行”  。
+与向下钻取行类似，还可以向下钻取列。 在下图中，“列”  字段井中有两个字段，形成了类似于本文前面对行使用的层次结构。 “列”  字段井中有“区域”  和“细分”  。 当你将第二个字段添加到“列”  后，视觉对象上便会显示新的下拉菜单，此菜单当前显示“行”  。
 
 ![添加了第二个列值后的矩阵](media/desktop-matrix-visual/power-bi-matrix-row.png)
 
@@ -108,7 +111,7 @@ Watch the following video to learn more about expand/collapse in the matrix:
 
 ![向下钻取列的菜单](media/desktop-matrix-visual/power-bi-matrix-column.png)
 
-在你选择“向下钻取”  后，系统会显示“区域”>“东部”  列层次结构的下一个级别（在此示例中，为“商机数”  ）。 另一区域虽然显示，但是灰显的。
+在你选择“向下钻取”  后，系统会显示“区域”>“东部”  列层次结构的下一个级别（在此示例中，为“商机数”  ）。 其他区域处于隐藏状态。
 
 ![向下钻取列一个级别的矩阵](media/desktop-matrix-visual/power-bi-matrix-column-drill.png)
 
@@ -119,21 +122,21 @@ Watch the following video to learn more about expand/collapse in the matrix:
 
 ## <a name="stepped-layout-with-matrix-visuals"></a>使用矩阵视觉对象实现阶梯布局
 
-矩阵  视觉对象自动在层次结构中的每个父类别下缩进子类别，这就称为“梯级布局”  。
+矩阵视觉对象自动在层次结构中的每个父类别下缩进子类别，这就称为“梯级布局”。
 
-在原始版本的矩阵视觉对象中，子类别显示在完全不同的列中，在视觉对象中占用的空间更多。 下图展示了旧版“矩阵”  视觉对象中的表；请注意，子类别位于单独的列中。
+在原始版本的矩阵视觉对象中，子类别显示在完全不同的列中，在视觉对象中占用的空间更多。 下图展示了旧版矩阵视觉对象中的表；请注意，子类别位于单独的列中。
 
 ![在单独列中显示子类别的旧版矩阵视觉对象的屏幕截图。](media/desktop-matrix-visual/matrix-visual_14.png)
 
-下图展示了采用“阶梯布局”  的“矩阵”  视觉对象的实际效果。 请注意，类别“ *计算机* ”将其子类别（“计算机附件”、“台式机”、“笔记本电脑”、“显示器”等）略微缩进，让视觉对象变得更简洁紧凑。
+下图展示了采用“阶梯布局”的矩阵视觉对象的实际效果。 请注意，类别“ *计算机* ”将其子类别（“计算机附件”、“台式机”、“笔记本电脑”、“显示器”等）略微缩进，让视觉对象变得更简洁紧凑。
 
 ![矩阵当前采用的数据格式设置方式](media/desktop-matrix-visual/matrix-visual_13.png)
 
-可以轻松调整“阶梯布局”设置。 选择“矩阵”  视觉对象后，在“可视化效果”  窗格的“格式”  部分（滚动油漆刷图标）中，展开“行标题”  部分。 下面有两个选项：“阶梯布局”  开关（用于启用或禁用阶梯布局）和“阶梯布局缩进”  （用于指定缩进量，以像素为单位）。
+可以轻松调整“阶梯布局”设置。 选择矩阵视觉对象后，在“可视化效果”窗格的“格式”部分（滚动油漆刷图标）中，展开“行标题”部分   。 下面有两个选项：“阶梯布局”开关（用于启用或禁用阶梯布局）和“阶梯布局缩进”（用于指定缩进量，以像素为单位）。
 
 ![显示“梯级布局”控件的“行标题”卡片](media/desktop-matrix-visual/power-bi-stepped-matrix.png)
 
-如果你禁用“梯级布局”  ，Power BI 会在另一列中显示子类别，而不是在父类别下缩进。
+如果你禁用“梯级布局”，Power BI 会在另一列中显示子类别，而不是在父类别下缩进。
 
 ## <a name="subtotals-with-matrix-visuals"></a>矩阵视觉对象小计
 
@@ -141,7 +144,7 @@ Watch the following video to learn more about expand/collapse in the matrix:
 
 ![显示总计和小计的矩阵](media/desktop-matrix-visual/matrix-visual_20.png)
 
-在“可视化效果”  窗格的“格式”  部分中，展开“小计”  卡，并将“行小计”  滑块移动至“关闭”  。 在你执行此操作后，系统就不会显示小计。
+在“可视化效果”窗格的“格式”部分中，展开“小计”卡，并将“行小计”滑块移动至“关闭”   。 在你执行此操作后，系统就不会显示小计。
 
 ![小计处于禁用状态的矩阵](media/desktop-matrix-visual/matrix-visual_21.png)
 
@@ -149,16 +152,15 @@ Watch the following video to learn more about expand/collapse in the matrix:
 
 ## <a name="cross-highlighting-with-matrix-visuals"></a>使用矩阵视觉对象进行交叉突出显示
 
-借助“矩阵”  视觉对象，可以选择矩阵中的任意元素，作为交叉突出显示的依据。 如果你选择矩阵  视觉对象中的列，Power BI 会突出显示相应列，就像报表页上的其他任何视觉对象一样。 此类型的交叉突出显示一直是其他视觉对象和数据点选择的常见功能，因此现在“矩阵”  视觉对象也可以提供此相同功能。
+借助矩阵视觉对象，可以选择矩阵中的任意元素，作为交叉突出显示的依据。 如果你选择矩阵视觉对象中的列，Power BI 会突出显示相应列，就像报表页上的其他任何视觉对象一样。 此类型的交叉突出显示一直是其他视觉对象和数据点选择的常见功能，因此现在矩阵视觉对象也可以提供此相同功能。
 
-此外，还可以在按住 Ctrl 的同时单击鼠标进行交叉突出显示。 例如，在下图中，我们选择了“矩阵”  视觉对象中的一组子类别。 请注意，视觉对象中未选择的项为灰显，报表页上的其他视觉对象也会反映“矩阵”  视觉对象中选择的项。
+此外，还可以在按住 Ctrl 的同时单击鼠标进行交叉突出显示。 例如，在下图中，我们选择了矩阵视觉对象中的一组子类别。 请注意，视觉对象中未选择的项为灰显，报表页上的其他视觉对象也会反映矩阵视觉对象中选择的项。
 
-![演示在按住 Ctrl 的同时单击进行交叉突出显示的矩阵视觉对象以及其他两个视觉对象的屏幕截图。](media/desktop-matrix-visual/matrix-visual_16.png)
+![矩阵视觉对象以及演示按住 Ctrl 同时单击功能（用于交叉突出显示）的其他两个视觉对象的屏幕截图。](media/desktop-matrix-visual/matrix-visual_16.png)
 
 ## <a name="copying-values-from-power-bi-for-use-in-other-applications"></a>复制 Power BI 中的值以供在其他应用程序中使用
 
 可能要将矩阵或表中的内容用于其他应用程序：Dynamics CRM、 Excel 和其他 Power BI 报表。 通过在 Power BI 中右键单击，可以将单个单元格或多个单元格的集合复制到剪贴板。 然后，将单元格粘贴到其他应用程序中。
-
 
 
 * 若要复制单个单元格的值，选择单元格，右键单击，并选择“复制值”  。 现在可以将此剪贴板上未格式化的单元格值粘贴到其他应用程序。
@@ -175,8 +177,16 @@ Watch the following video to learn more about expand/collapse in the matrix:
 
     ![显示已将值粘贴到其中的 Excel 行和列的屏幕截图。](media/desktop-matrix-visual/power-bi-copy-selection.png)
 
+* 若要创建仅包含选定单元格的视觉对象本身的副本，请使用 CTRL 选择一个或多个单元格，右键单击，然后选择“复制视觉对象” 
+
+    ![显示“复制视觉对象”选项的屏幕截图](media/desktop-matrix-visual/power-bi-copy-visual.png)
+
+* 副本将是另一个矩阵可视化效果，但仅包含复制的数据。
+
+    ![显示“复制视觉对象”示例的屏幕截图](media/desktop-matrix-visual/power-bi-copy-visual-example.png)
+
 ## <a name="shading-and-font-colors-with-matrix-visuals"></a>矩阵视觉对象的底纹和字体颜色
-借助矩阵视觉对象，可以将条件格式  （颜色、底纹和数据栏）应用于矩阵中的单元格背景，并将条件格式应用于文本和值本身。
+借助矩阵视觉对象，可以将条件格式（颜色、底纹和数据栏）应用于矩阵中的单元格背景，并将条件格式应用于文本和值本身。
 
 若要应用条件格式，请选择矩阵视觉对象，并打开“格式”  窗格。 展开“条件格式”  卡片，再将“背景色”  、“字体颜色”  或“数据栏”  的滑块移至“开”  。 启用其中任一选项都会显示“高级控件”  链接，单击它可以自定义颜色格式设置的颜色和值。
   

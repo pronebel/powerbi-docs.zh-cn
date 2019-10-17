@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: conceptual
 ms.date: 06/06/2019
-ms.openlocfilehash: 83e3ffbae43d25e89cf52077acaa731cdee9b502
-ms.sourcegitcommit: 277fadf523e2555004f074ec36054bbddec407f8
+ms.openlocfilehash: 4dda73794c888d89ad67f1af23bfb8c38eb43f61
+ms.sourcegitcommit: 5e277dae93832d10033defb2a9e85ecaa8ffb8ec
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/16/2019
-ms.locfileid: "68270828"
+ms.lasthandoff: 10/07/2019
+ms.locfileid: "72020806"
 ---
 # <a name="create-an-embedded-data-source-for-paginated-reports-in-the-power-bi-service"></a>在 Power BI 服务中为分页报表创建嵌入数据源
 
@@ -79,7 +79,7 @@ ms.locfileid: "68270828"
 - 共享的 .rdl：需要在数据集级别生成针对查看报表的每位用户而分配的权限
 - 共享应用：需要在数据集级别生成针对查看报表的每位用户而分配的权限
 - 与数据集位于同一工作区（所有者不同）的 .rdl：支持
-- 与数据集位于同一工作区（所有者不同）的 .rdl：需要在数据集级别生成针对查看报表的每位用户而分配的权限
+- 与数据集位于不同工作区（所有者不同）的 .rdl：需要在数据集级别生成针对查看报表的每位用户而分配的权限
 - 角色级别安全性：需要在数据集级别生成针对查看报表的每位用户而分配的权限，使其被强制执行。
 
 ### <a name="new-experience-apps-and-app-workspaces"></a>新体验应用和应用工作区

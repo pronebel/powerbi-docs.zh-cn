@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 07/17/2019
+ms.date: 09/19/2019
 ms.author: maggies
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 7ee083de9800b55c4f7d998a113c1a63df112b7b
-ms.sourcegitcommit: bc688fab9288ab68eaa9f54b9b59cacfdf47aa2e
+ms.openlocfilehash: 269b495a41f193c6a2ba02fa75f171c3b5789689
+ms.sourcegitcommit: 5e277dae93832d10033defb2a9e85ecaa8ffb8ec
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/30/2019
-ms.locfileid: "68624039"
+ms.lasthandoff: 10/07/2019
+ms.locfileid: "72019607"
 ---
 # <a name="introduction-to-dashboards-for-power-bi-designers"></a>Power BI 设计器的仪表板简介
 
@@ -29,9 +29,6 @@ Power BI“仪表板”是通过可视化效果讲述故事的单个页面，常
 
 仪表板上的可视化效果称为“磁贴”  。 从报表将磁贴“固定”到仪表板  。 如果你不熟悉 Power BI，可阅读 [Power BI 服务中设计器的基本概念](service-basic-concepts.md)来详细了解基础知识。
 
-> [!IMPORTANT]
-> 需要 [Power BI Pro](service-free-vs-pro.md) 许可证方可创建仪表板。
-
 仪表板上的可视化效果源自报表，并且每个报表基于一个数据集。 对于仪表板，一种看法是它是基础报表和数据集的入口。 选择一个可视化效果即可转到其所基于的报表（和数据集）。
 
 ![显示仪表板、报表、数据集之间的关系的图表](media/service-dashboards/power-bi-diagram.png)
@@ -40,6 +37,13 @@ Power BI“仪表板”是通过可视化效果讲述故事的单个页面，常
 仪表板是监控业务，以及查看所有最重要指标的绝佳方法。 仪表板上的可视化效果可能来自一个或许多个基础数据集，也可能来自一个或多个基础报表。 仪表板将本地数据和云数据合并到一起，提供合并视图（无论数据源自哪里）。
 
 仪表板不仅仅是美观的图片。 它具有高度互动性，并且磁贴随着基础数据的更改而更新。
+
+## <a name="who-can-create-a-dashboard"></a>谁可以创建仪表板？
+创建仪表板的能力被视为创建者  功能，需要拥有报表编辑权限。 报表创建者及其所授予访问权限的同事拥有编辑权限。 例如，如果 David 在 workspaceABC 中创建了一个报表，然后将你添加为该工作区的成员，则你和 David 都将拥有编辑权限。 另一方面，如果报表已与你直接共享或作为 [Power BI 应用](service-create-distribute-apps.md)的一部分（你正在使用  该报表）， 则可能无法将磁贴固定到仪表板。 
+
+> [!IMPORTANT]
+> 需要 [Power BI Pro](service-free-vs-pro.md) 许可证方可在工作区中创建仪表板。 可以在你自己的“我的工作区”中创建仪表板，而无需 Power BI Pro 许可证。
+
 
 ## <a name="dashboards-versus-reports"></a>仪表板与报表
 [报表](service-reports.md)与仪表板类似，这是因为二者都是填充可视化效果的画布。 但有一些主要区别，如下表所示。
@@ -52,7 +56,7 @@ Power BI“仪表板”是通过可视化效果讲述故事的单个页面，常
 | 订阅 |是。 可订阅仪表板 |是。 可订阅报表页面 |
 | 筛选 |否。 无法筛选或切片 |是。 许多不同的方式来筛选、突出显示和切片 |
 | 特色 |是。 可将一个仪表板设置为精选  仪表板 |否 |
-| 收藏夹 | 是。 可将多个仪表板设置为“收藏夹”  | 是。 可将多个报表设置为“收藏夹” 
+| 收藏 | 是。 可将多个仪表板设置为“收藏夹”  | 是。 可将多个报表设置为“收藏夹” 
 | 设置警报 |是。 可在某些情况下用于仪表板磁贴 |否 |
 | 自然语言查询（“问答”） |是 | 是，前提是你有权编辑报表及基础数据集 |
 | 可以看到基础数据集表和字段 |否。 可以导出数据，但看不到仪表板本身的表和字段 |是 |

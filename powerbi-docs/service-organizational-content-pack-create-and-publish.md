@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 08/06/2019
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 8d48214cffcc17da9c105f7277b721c03946d5c2
-ms.sourcegitcommit: 0e50ebfa8762e19286566432870ef16d242ac78f
+ms.openlocfilehash: eb1940f7d5a4e809590b5b425b8005776040a5cc
+ms.sourcegitcommit: 5e277dae93832d10033defb2a9e85ecaa8ffb8ec
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/13/2019
-ms.locfileid: "68961732"
+ms.lasthandoff: 10/07/2019
+ms.locfileid: "72020670"
 ---
 # <a name="tutorial-create-and-publish-a-power-bi-organizational-content-pack"></a>教程：创建和发布 Power BI 组织内容包
 
@@ -26,7 +26,7 @@ ms.locfileid: "68961732"
 你和你的同事需要具有 [Power BI Pro 帐户](https://powerbi.microsoft.com/pricing)才能创建组织内容包。
 
 > [!NOTE]
-> 无法在新工作区体验预览中创建或安装组织内容包。 如果尚未升级，现在正是将内容包升级到应用的最佳时机。 详细了解[新工作区体验](service-create-the-new-workspaces.md)。
+> 无法在新工作区体验中创建或安装组织内容包。 如果尚未升级，现在正是将内容包升级到应用的最佳时机。 详细了解[新工作区体验](service-create-the-new-workspaces.md)。
 
 ## <a name="create-and-publish-a-content-pack"></a>创建和发布内容包
 

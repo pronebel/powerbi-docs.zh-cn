@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 08/12/2019
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: af0ffa5a879a2249c34ac73895103dfdf63e4d27
-ms.sourcegitcommit: 4d5166944fcc6fe4666cab055ae75e7a0a77866d
+ms.openlocfilehash: c60c3c29bbf87d7a5e18838dac0baa6157de6437
+ms.sourcegitcommit: 5e277dae93832d10033defb2a9e85ecaa8ffb8ec
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/16/2019
-ms.locfileid: "69530612"
+ms.lasthandoff: 10/07/2019
+ms.locfileid: "72020824"
 ---
 # <a name="copy-reports-from-other-workspaces-preview"></a>从其他工作区复制报表（预览）
 
@@ -32,7 +32,7 @@ ms.locfileid: "69530612"
 
     ![保存报表的副本](media/service-datasets-copy-reports/power-bi-dataset-save-report-copy.png)
 
-    只有当报表位于新的体验工作区且你具有[生成权限](service-datasets-build-permissions.md#build-permissions-for-shared-datasets)时，你才会看到“保存副本”图标  。 即使你有权访问工作区，也必须具有数据集的“生成”权限。
+    只有当报表位于新的体验工作区且你具有[生成权限](service-datasets-build-permissions.md)时，你才会看到“保存副本”图标  。 即使你有权访问工作区，也必须具有数据集的生成权限。
 
 3. 在“保存此报表的副本”中，为报表提供名称并选择目标工作区  。
 

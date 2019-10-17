@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 09/10/2019
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 5385512e534d866a2474fd4e3def10f45d52a1a0
-ms.sourcegitcommit: db4fc5da8e65e0a3dc35582d7142a64ad3405de7
+ms.openlocfilehash: 32b9adc92222e2122aff41d7ef7ef351c3158951
+ms.sourcegitcommit: 5e277dae93832d10033defb2a9e85ecaa8ffb8ec
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/11/2019
-ms.locfileid: "70903883"
+ms.lasthandoff: 10/07/2019
+ms.locfileid: "72020242"
 ---
 # <a name="create-classic-workspaces-in-power-bi"></a>在 Power BI 中创建经典工作区
 
@@ -90,11 +90,11 @@ ms.locfileid: "70903883"
 * 业务用户在安装内容包后，它将失去其分组的标识：它只是穿插了其他仪表板和报表的仪表板和报表列表。 另一方面，应用即使在安装后也会维护其分组和标识。 因此，随着时间的推移，此分组使业务用户能够继续轻松地导航到应用。
 * 你可以从任何工作区创建多个内容包，但应用与其工作区具备一对一的关系。 
 * 随着时间的推移，我们计划弃用组织内容包，因此，我们建议你从现在开始构建应用。  
-* 通过新工作区体验预览，我们迈出了弃用组织内容包的第一步。 无法在预览工作区中使用或创建它们。
+* 通过新工作区体验，我们迈出了弃用组织内容包的第一步。 无法在新工作区中使用或创建它们。
 
 若要比较这两者，请参阅[新工作区与现有工作区有何不同](service-new-workspaces.md#how-the-new-workspaces-are-different)。 
 
 ## <a name="next-steps"></a>后续步骤
 * [在 Power BI 中安装并使用应用](service-create-distribute-apps.md)
-- [创建新工作区（预览）](service-create-the-new-workspaces.md)
+- [创建新工作区](service-create-the-new-workspaces.md)
 * 是否有任何问题? [尝试咨询 Power BI 社区](http://community.powerbi.com/)

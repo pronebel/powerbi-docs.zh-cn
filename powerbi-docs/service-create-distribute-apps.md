@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 08/15/2019
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: f54906643bba8c631c8d8052309ad3ff512ad3fa
-ms.sourcegitcommit: 57e45f291714ac99390996a163436fa1f76db427
+ms.openlocfilehash: 7aa9ec22eec07632a071b5ffaadfe06f221897d7
+ms.sourcegitcommit: 5e277dae93832d10033defb2a9e85ecaa8ffb8ec
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/26/2019
-ms.locfileid: "71305743"
+ms.lasthandoff: 10/07/2019
+ms.locfileid: "72020221"
 ---
 # <a name="publish-an-app-in-power-bi"></a>在 Power BI 中发布应用
 
@@ -30,7 +30,7 @@ ms.locfileid: "71305743"
 - 你可以向他们发送直接链接。
 - 如果 Power BI 管理员已授予权限，则可将这些应用自动安装到同事的 Power BI 帐户中。
 
-你可以创建其中具有内置导航的应用，这样你的用户就可以轻松找到你的内容。 他们无法修改应用的内容。 但可以在 Power BI 服务或其中一个移动应用中与之进行交互 - 自行对数据进行筛选、突出显示和排序。 他们将自动获得更新，你可以控制数据刷新的频率。 你还可以为他们提供首次权限以连接到基础数据集，并在应用中创建报表的副本。 详细了解[生成权限](service-datasets-build-permissions.md#build-permissions-for-shared-datasets)。
+你可以创建其中具有内置导航的应用，这样你的用户就可以轻松找到你的内容。 他们无法修改应用的内容。 但可以在 Power BI 服务或其中一个移动应用中与之进行交互 - 自行对数据进行筛选、突出显示和排序。 他们将自动获得更新，你可以控制数据刷新的频率。 你还可以为他们提供生成权限以连接到基础数据集，并在应用中创建报表的副本。 详细了解[生成权限](service-datasets-build-permissions.md)。
 
 ## <a name="licenses-for-apps"></a>应用许可证
 若要创建或更新应用，你需要具有 Power BI Pro 许可证。 对应用使用者来说，有以下两种选项  。
@@ -166,7 +166,7 @@ ms.locfileid: "71305743"
 - 在 Power BI Desktop 和 Power BI 服务的“获取数据”体验中搜索这些数据集。
 - 根据这些数据集创建报表和仪表板。
 
-清除此选项后，添加到应用的新用户将无法获得“生成”权限。 但是，对于现有应用用户，基础数据集的权限不变。 可以为不应再拥有“生成”权限的应用用户手动删除该权限。 详细了解[生成权限](service-datasets-build-permissions.md#build-permissions-for-shared-datasets)。
+清除此选项后，添加到应用的新用户将无法获得生成权限。 但是，对于现有应用用户，基础数据集的权限不变。 可以为不应再拥有生成权限的应用用户手动删除该权限。 详细了解[生成权限](service-datasets-build-permissions.md)。
 
 ## <a name="allow-users-to-copy-reports"></a>允许用户复制报表
 
