@@ -177,8 +177,6 @@
               href: desktop-analysis-services-tabular-data.md
             - name: 在 Power BI Desktop 中使用 DirectQuery
               href: desktop-use-directquery.md
-            - name: 适用于 Oracle 和 Teradata 的 DirectQuery
-              href: desktop-directquery-for-oracle-teradata.md
             - name: DirectQuery 和 SAP Business Warehouse (BW)
               href: desktop-directquery-sap-bw.md
             - name: DirectQuery 和 SAP HANA
