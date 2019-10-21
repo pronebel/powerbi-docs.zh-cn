@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.custom: mvc
 ms.date: 03/15/2019
-ms.openlocfilehash: d2e3ba69cde609638e54eaa1206714f0fb420d18
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: 0d4f79714be7d354c26a7bd63adbe8bce07ed4ef
+ms.sourcegitcommit: 549401b0e1fad15c3603fe7f14b9494141fbb100
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61262627"
+ms.lasthandoff: 10/14/2019
+ms.locfileid: "72307461"
 ---
 # <a name="what-can-developers-do-with-power-bi"></a>开发人员可以使用 Power BI 做什么？
 
@@ -44,7 +44,7 @@ Azure (PaaS) 中的 Power BI 服务 (SaaS) 和 Power BI 嵌入式服务具有用
 
 ![CV 示例](media/what-can-you-do/powerbi-custom-visual-store.png)
 
-若要开始详细了解自定义视觉对象开发，请参阅[开发 Power BI 自定义视觉对象](custom-visual-develop-tutorial.md)。
+若要开始详细了解自定义视觉对象开发，请参阅[开发 Power BI 自定义视觉对象](visuals/custom-visual-develop-tutorial.md)。
 
 ## <a name="using-api-automation"></a>使用 API 自动化
 

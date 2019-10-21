@@ -10,12 +10,12 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 05/15/2019
 LocalizationGroup: Visualizations
-ms.openlocfilehash: a782726e34bec4d6a5b8557c88178d469f7987b6
-ms.sourcegitcommit: b7a9862b6da940ddebe61bc945a353f91cd0e4bd
+ms.openlocfilehash: a8b1be9157fa34e9ed4c987628f0b67624b4c826
+ms.sourcegitcommit: 549401b0e1fad15c3603fe7f14b9494141fbb100
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/04/2019
-ms.locfileid: "71946199"
+ms.lasthandoff: 10/14/2019
+ms.locfileid: "72307487"
 ---
 # <a name="visuals-in-power-bi"></a>Power BI 中的视觉对象
 
@@ -57,7 +57,7 @@ Power BI 管理员许可并将 Power BI 视觉对象部署到其组织中，以�
 Power BI 取得认证的视觉对象是指已通过额外严格质量测试的市场视觉对象，可用于其他情形，如[电子邮件订阅](service-report-subscribe.md)和[导出到 PowerPoint](service-publish-to-powerpoint.md)。
 若要查看已认证的 Power BI 视觉对象列表或提交自己的 Power BI 视觉对象，请参阅[已认证的 Power BI 视觉对象](power-bi-custom-visuals-certified.md)。
 
-你是 Web 开发者吗？对创建自己的可视化效果，并将它们添加到 AppSource 感兴趣吗？ 请参阅[开发 Power BI 自定义视觉对象](developer/custom-visual-develop-tutorial.md)，了解如何[将 Power BI 视觉对象发布到 AppSource](developer/office-store.md)。
+你是 Web 开发者吗？对创建自己的可视化效果，并将它们添加到 AppSource 感兴趣吗？ 请参阅[开发 Power BI 自定义视觉对象](developer/visuals/custom-visual-develop-tutorial.md)，了解如何[将自定义视觉对象发布到 AppSource](developer/office-store.md)。
 
 ### <a name="import-a-custom-visual-from-a-file"></a>从文件导入自定义视觉对象
 
@@ -123,7 +123,7 @@ Power BI 取得认证的视觉对象是指已通过额外严格质量测试的�
 
 6. 滚动到底部可以查看评论。
 
-    ![审阅](media/power-bi-custom-visuals/power-bi-reviews.png)
+    ![评价](media/power-bi-custom-visuals/power-bi-reviews.png)
 
 7. 选择“添加”，导入自定义视觉对象  。 它的图标会添加到“可视化效果”窗格底部，现供用户在报表中使用  。
 

@@ -9,17 +9,19 @@ ms.custom: seodec18
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: quickstart
-ms.date: 12/06/2018
+ms.date: 10/18/2019
 ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: af7f2f0ca5407694b13f0b053ff347f883c8c983
-ms.sourcegitcommit: 52aa112ac9194f4bb62b0910c4a1be80e1bf1276
+ms.openlocfilehash: 14c7f88e0bfb822a73a72958f556443260f6ed76
+ms.sourcegitcommit: f34acbf9fb1ab568fd89773aaf412a847f88dd34
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "68523046"
+ms.lasthandoff: 10/18/2019
+ms.locfileid: "72589455"
 ---
 # <a name="quickstart---getting-around-in-power-bi-service"></a>快速入门 - 使用 Power BI 服
+
+[!INCLUDE [power-bi-service-new-look-include](../includes/power-bi-service-new-look-include.md)]
 
 现已掌握 Power BI 的基础知识，接下来了解 Power BI 服务  。 如前所述，团队中有人可能将所有时间都花在 Power BI Desktop 上，为其他人合并数据和创建报表  。 但在另一方面，你的时间可能都花在 Power BI 服务上，你要查看其他人创建的内容并与之交互（使用体验），  。 在此快速入门教程中，将导入示例数据并使用该数据来了解 Power BI 服务的使用方式。 
  

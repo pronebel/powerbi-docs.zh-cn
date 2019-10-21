@@ -10,12 +10,12 @@ ms.service: powerbi
 ms.topic: conceptual
 ms.subservice: powerbi-custom-visuals
 ms.date: 05/9/2019
-ms.openlocfilehash: 2203e3a9abddb52902c09fdc98665ba013f604ee
-ms.sourcegitcommit: b7a9862b6da940ddebe61bc945a353f91cd0e4bd
+ms.openlocfilehash: 84afdf7072241533bf1e70d6a2a49d18c3da1d8f
+ms.sourcegitcommit: 549401b0e1fad15c3603fe7f14b9494141fbb100
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/04/2019
-ms.locfileid: "71946214"
+ms.lasthandoff: 10/14/2019
+ms.locfileid: "72307821"
 ---
 # <a name="get-a-power-bi-visual-certified"></a>获取 Power BI 视觉对象认证
 
@@ -31,7 +31,7 @@ ms.locfileid: "71946214"
 
 **未经认证的 Power BI 视觉对象**不一定是不安全的视觉对象。 某些视觉对象未经认证，是因为它们与一个或多个[认证要求](https://docs.microsoft.com/power-bi/power-bi-custom-visuals-certified?#certification-requirements)不符。 例如，连接到外部服务的地图视觉对象，或使用商业库的视觉对象。
 
-你是 Web 开发者吗？对创建自己的可视化效果，并将它们添加到  **[Microsoft AppSource](https://appsource.microsoft.com)** 感兴趣吗？ 请参阅 **[开发 Power BI 自定义视觉对象，了解如何操作](developer/custom-visual-develop-tutorial.md)** 。
+你是 Web 开发者吗？对创建自己的可视化效果，并将它们添加到  **[Microsoft AppSource](https://appsource.microsoft.com)** 感兴趣吗？ 请参阅 **[开发 Power BI 自定义视觉对象，了解如何操作](developer/visuals/custom-visual-develop-tutorial.md)** 。
 
 ## <a name="removal-of-power-bi-certified-power-bi-visuals"></a>删除 Power BI 已认证的 Power BI 视觉对象
 
@@ -196,7 +196,7 @@ Microsoft 可自行从[经认证列表](#list-of-power-bi-visuals-that-have-been
 
 ## <a name="next-steps"></a>后续步骤
 
-* [开发 Power BI 自定义视觉对象](developer/custom-visual-develop-tutorial.md)
+* [开发 Power BI 自定义视觉对象](developer/visuals/custom-visual-develop-tutorial.md)
 * [YouTube 上的 Microsoft 自定义视觉对象播放列表](https://www.youtube.com/playlist?list=PL1N57mwBHtN1vIjfvuBIzZllrmKo-Vz6x)  
 * [Power BI 中的可视化效果](visuals/power-bi-report-visualizations.md)  
 * [Power BI 中的自定义可视化效果](power-bi-custom-visuals.md)  

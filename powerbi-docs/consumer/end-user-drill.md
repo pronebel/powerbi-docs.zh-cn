@@ -7,17 +7,19 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 10/1/2019
+ms.date: 10/17/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: bc6a6557d01ba8145659bb244be8eb5786220665
-ms.sourcegitcommit: b7a9862b6da940ddebe61bc945a353f91cd0e4bd
+ms.openlocfilehash: b200ec86db339e42a708c3db042df06b9513cc6e
+ms.sourcegitcommit: f34acbf9fb1ab568fd89773aaf412a847f88dd34
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/04/2019
-ms.locfileid: "71943941"
+ms.lasthandoff: 10/18/2019
+ms.locfileid: "72589489"
 ---
 # <a name="drill-mode-in-a-visual-in-power-bi"></a>Power BI 视觉对象中的钻取模式
+
+[!INCLUDE [power-bi-service-new-look-include](../includes/power-bi-service-new-look-include.md)]
 
 本文介绍了如何在 Microsoft Power BI 服务的视觉对象中向下钻取。 对数据点使用向下钻取和向上钻取，可以深入了解数据的详细信息。 
 
