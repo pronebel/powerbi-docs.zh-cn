@@ -129,6 +129,8 @@
               href: register-app.md
             - name: 获取 Azure AD 访问令牌
               href: get-azuread-access-token.md
+            - name: 动态绑定
+              href: embed-dynamic-binding.md
             - name: 嵌入式常见问题解答
               href: qanda.md
             - name: 嵌入式应用程序疑难解答
