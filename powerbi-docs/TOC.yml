@@ -353,6 +353,8 @@
               href: visuals/power-bi-visualization-kpi.md
             - name: 矩阵视觉对象
               href: visuals/desktop-matrix-visual.md
+            - name: 问答视觉对象
+              href: visuals/power-bi-visualization-q-and-a.md
             - name: 使用 Power BI 中的 R 脚本创建高级分析和可视化效果
               href: visuals/service-r-visuals.md
             - name: Power BI 中的径向仪表图
@@ -375,6 +377,22 @@
               href: visuals/power-bi-visualization-waterfall-charts.md
             - name: 创建动态参考行
               href: service-analytics-pane.md
+        - name: 自然语言
+          items:
+            - name: 问答简介
+              href: natural-language/q-and-a-intro.md
+            - name: 问答视觉对象
+              href: visuals/power-bi-visualization-q-and-a.md
+            - name: 问答工具简介
+              href: natural-language/q-and-a-tooling-intro.md
+            - name: 问答工具教授问答
+              href: natural-language/q-and-a-tooling-teach-q-and-a.md
+            - name: 问答高级工具
+              href: natural-language/q-and-a-tooling-advanced.md
+            - name: 问答最佳做法
+              href: natural-language/q-and-a-best-practices.md
+            - name: 问答限制
+              href: natural-language/q-and-a-limitations.md
         - name: 疑难解答
           items:
             - name: 解决在 Power BI Desktop 和 Power Query 中导入 Access 数据库和 Excel 电子表格时出现的问题
