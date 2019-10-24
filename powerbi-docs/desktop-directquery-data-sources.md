@@ -8,14 +8,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 09/04/2019
+ms.date: 10/16/2019
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 75b7a606e588ca7f6d1393c5b6e0dd9041f6d63e
-ms.sourcegitcommit: b7a9862b6da940ddebe61bc945a353f91cd0e4bd
+ms.openlocfilehash: a9e8d2aaab7c0b3ed1daea32486260d09bc6f6a2
+ms.sourcegitcommit: 83e1e162a037f352e542bd5c198a3c98f5db23c7
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/04/2019
-ms.locfileid: "71945204"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "72511637"
 ---
 # <a name="data-sources-supported-by-directquery-in-power-bi"></a>Power BI 中 DirectQuery 支持的数据源
 
@@ -76,7 +76,7 @@ Power BI Desktop  和 Power BI 服务  有多个可以连接并访问数据的�
 | Oracle 数据库 |是 |
 | PostgreSQL |是 |
 | SAP Business Warehouse 应用程序服务器 |是 |
-| SAP Business Warehouse 消息服务器 |在 Power BI 服务  中尚不受支持 |
+| SAP Business Warehouse 消息服务器 |是 |
 | SAP HANA |是 |
 | Snowflake |是 |
 | Spark (Beta)，版本 0.9 及更高版本 |是 |
@@ -97,6 +97,7 @@ SSO 选项针对使用此数据源的所有数据集生效。 它不影响用于
 - Impala
 - SAP HANA
 - SAP BW
+- SAP BW 消息服务器（预览版）
 - Spark
 - SQL Server
 - Teradata

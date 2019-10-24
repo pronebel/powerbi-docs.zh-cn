@@ -9,18 +9,18 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: conceptual
 ms.date: 3/27/2019
-ms.openlocfilehash: 44534f2adbc4f1f39a0c65e11d646fd8fd67be71
-ms.sourcegitcommit: b7a9862b6da940ddebe61bc945a353f91cd0e4bd
+ms.openlocfilehash: 1841311e94ca593093fa3104b615328927365880
+ms.sourcegitcommit: 549401b0e1fad15c3603fe7f14b9494141fbb100
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/04/2019
-ms.locfileid: "71944821"
+ms.lasthandoff: 10/14/2019
+ms.locfileid: "72307674"
 ---
 # <a name="publish-power-bi-visuals-to-appsource"></a>将 Power BI 视觉对象发布到 AppSource
 
 了解如何将自定义视觉对象发布到 AppSource 供其他人发现和使用。
 
-在创建自定义视觉对象后，你可能想要将其发布到 AppSource 供其他人发现和使用。 在执行该操作之前，必须完成一些准备工作。 有关如何创建自定义视觉对象的详细信息，请参阅[开发 Power BI 自定义视觉对象](custom-visual-develop-tutorial.md)。
+在创建自定义视觉对象后，你可能想要将其发布到 AppSource 供其他人发现和使用。 在执行该操作之前，必须完成一些准备工作。 有关如何创建自定义视觉对象的详细信息，请参阅[开发 Power BI 自定义视觉对象](visuals/custom-visual-develop-tutorial.md)。
 
    ![Office 应用商店](media/office-store/appsource-01.png)
 
@@ -147,7 +147,7 @@ AppSource  是查找 Microsoft 产品和服务的 SaaS 应用与加载项的位�
 
 ## <a name="next-steps"></a>后续步骤
 
-[开发 Power BI 自定义视觉对象](custom-visual-develop-tutorial.md)  
+[开发 Power BI 自定义视觉对象](visuals/custom-visual-develop-tutorial.md)  
 [Power BI 中的可视化效果](../visuals/power-bi-report-visualizations.md)  
 [Power BI 中的自定义可视化效果](../power-bi-custom-visuals.md)  
 [让自定义视觉对象取得认证](../power-bi-custom-visuals-certified.md) 

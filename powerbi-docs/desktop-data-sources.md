@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 09/19/2019
+ms.date: 10/14/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 417238550f68a1c244bab33b8343712f02242eae
-ms.sourcegitcommit: b7a9862b6da940ddebe61bc945a353f91cd0e4bd
+ms.openlocfilehash: 56583c796a8f6e32bed67629dee4fe3bea677bee
+ms.sourcegitcommit: 549401b0e1fad15c3603fe7f14b9494141fbb100
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/04/2019
-ms.locfileid: "71945266"
+ms.lasthandoff: 10/14/2019
+ms.locfileid: "72307841"
 ---
 # <a name="data-sources-in-power-bi-desktop"></a>Power BI Desktop 中的数据源
 使用 Power BI Desktop，你可以连接到来自许多不同的源的数据。 在此页面底部列出了可用数据源的完整清单。
@@ -225,6 +225,201 @@ ms.locfileid: "71945266"
 可以通过选择**导航器窗格**底部的**加载**按钮加载数据，或者选择**编辑**按钮，在加载数据之前编辑查询。
 
 这就是连接到 Power BI Desktop 中的数据源的所有相关信息！ 尝试从我们不断增多的数据源列表连接到数据，并经常回访 - 我们会持续将数据源添加到此列表中。
+
+## <a name="using-pbids-files-to-get-data"></a>使用 PBIDS 文件获取数据
+
+PBIDS 文件是具有特定结构的 Power BI Desktop 文件，并且具有 .PBIDS 扩展名，用于标识它是 Power BI 数据源文件。
+
+可以创建 .PBIDS 文件，用于简化组织中报表创建者的“获取数据”  体验。 建议管理员为常用连接创建这些文件，方便新报表作者使用 PBIDS 文件。 
+
+当作者打开 .PBIDS 文件时，Power BI Desktop 将打开并提示用户提供凭据，以进行身份验证并连接到文件中指定的数据源。 此时将显示“导航”对话框，用户必须从该数据源中选择要加载到模型中的表。 如果未在 .PBIDS 文件中指定数据库，用户可能还需要选择数据库。 
+
+之后，用户便可以开始生成可视化效果，或重新访问“最近使用的源”，将一组新的表加载到模型中。 
+
+目前，.PBIDS 文件仅支持在一个文件中指定单个数据源。 指定多个数据源会导致错误。 
+
+若要创建 .PBIDS 文件，管理员必须为单个连接指定所需的输入，并可将连接模式指定为“DirectQuery”  或“导入”  。 如果文件中缺少“模式”  或者为 null，系统会提示在 Power BI Desktop 中打开文件的用户选择“DirectQuery”或“导入”。 
+
+### <a name="pbids-file-examples"></a>PBIDS 文件示例
+
+本节提供了一些来自常用数据源的示例。 .PBIDS 文件类型仅支持在 Power BI Desktop 中同时支持的数据连接，但有两个例外：“实时连接”和“空白查询”。 
+
+.PBIDS 文件不  包括身份验证信息以及表和架构信息。  
+
+下面是 .PBIDS 文件的几个常见示例，它们并不完整，也不全面。 对于其他数据源，可以参阅[协议和地址信息的数据源引用 (DSR) 格式](https://docs.microsoft.com/azure/data-catalog/data-catalog-dsr#data-source-reference-specification)。
+
+这些示例只是为了方便起见，并不全面，也不包含 DSR 格式的所有受支持的连接器。 管理员或组织可以使用这些示例作为指南来创建自己的数据源，从而创建和支持自己的数据源文件。 
+
+
+**Azure AS**
+```
+{ 
+    "version": "0.1", 
+    "connections": [ 
+    { 
+        "details": { 
+        "protocol": "analysis-services", 
+        "address": { 
+            "server": "server-here" 
+        }, 
+        } 
+    } 
+    ] 
+}
+```
+
+
+ 
+
+**文件夹**
+```
+{ 
+  "version": "0.1", 
+  "connections": [ 
+    { 
+      "details": { 
+        "protocol": "folder", 
+        "address": { 
+            "path": "folder-path-here" 
+        } 
+      } 
+    } 
+  ] 
+} 
+```
+
+**OData**
+```
+{ 
+  "version": "0.1", 
+  "connections": [ 
+    { 
+      "details": { 
+        "protocol": "odata", 
+        "address": { 
+            "url": "URL-here" 
+        } 
+      } 
+    } 
+  ] 
+} 
+```
+ 
+**SAP BW**
+```
+{ 
+  "version": "0.1", 
+  "connections": [ 
+    { 
+      "details": { 
+        "protocol": "sap-bw-olap", 
+        "address": { 
+          "server": "server-name-here", 
+          "systemNumber": "system-number-here", 
+          "clientId": "client-id-here" 
+        }, 
+      } 
+    } 
+  ] 
+} 
+```
+ 
+**SAP Hana**
+```
+{ 
+  "version": "0.1", 
+  "connections": [ 
+    { 
+      "details": { 
+        "protocol": "sap-hana-sql", 
+        "address": { 
+          "server": "server-name-here:port-here" 
+        }, 
+      } 
+    } 
+  ] 
+} 
+```
+
+**SharePoint 列表**
+
+URL 必须指向 SharePoint 站点本身，而不是站点内的列表。 用户将获取一个导航器，并用该导航器从该站点选择一个或多个列表，其中每个列表都成为模型中的一个表。 
+```
+{ 
+  "version": "0.1", 
+  "connections": [ 
+    { 
+      "details": { 
+        "protocol": "sharepoint-list", 
+        "address": { 
+          "url": "URL-here" 
+        }, 
+       } 
+    } 
+  ] 
+} 
+```
+ 
+ 
+**SQL Server**
+```
+{ 
+  “version”: “0.1”, 
+  “connections”: [ 
+    { 
+      “details”: { 
+        “protocol”: “tds”, 
+        “address”: { 
+          “server”: “server-name-here”, 
+          “database”: “db-name-here (optional)” 
+        } 
+      }, 
+      “options”: {}, 
+      “mode”: “DirectQuery” 
+    } 
+  ] 
+} 
+} 
+```
+ 
+
+**文本文件**
+```
+{ 
+  "version": "0.1", 
+  "connections": [ 
+    { 
+      "details": { 
+        "protocol": "file", 
+        "address": { 
+            "path": "path-here" 
+        } 
+      } 
+    } 
+  ] 
+} 
+```
+ 
+
+**Web**
+```
+{ 
+  "version": "0.1", 
+  "connections": [ 
+    { 
+      "details": { 
+        "protocol": "http", 
+        "address": { 
+            "url": "URL-here" 
+        } 
+      } 
+    } 
+  ] 
+} 
+```
+ 
+
+
 
 ## <a name="next-steps"></a>后续步骤
 Power BI Desktop 可用于执行多种操作。 有关其功能的详细信息，请参阅下列资源：

@@ -11,14 +11,17 @@ ms.topic: conceptual
 ms.date: 06/19/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 0123d8123170cfa78b3d13a55ed2f367af0447ae
-ms.sourcegitcommit: 90aa7ea5fcc7cf0fd7f6c3c1efeff5f27e8ef0dd
+ms.openlocfilehash: 2befce7914fc295ff4a6124be10183d5ff20106d
+ms.sourcegitcommit: e5cf19e16112c7dad1591c3b38d232267ffb3ae1
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/20/2019
-ms.locfileid: "67299371"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "72544518"
 ---
 # <a name="filled-maps-choropleths-in-power-bi"></a>Power BI 中的着色地图（等值线图）
+
+[!INCLUDE [power-bi-visuals-desktop-banner](../includes/power-bi-visuals-desktop-banner.md)]
+
 着色地图使用明暗度、颜色或图案来显示不同地理位置或区域之间的值在比例上有何不同。  使用从浅（不太频繁/较低）到深（较频繁/较多）的明暗度快速显示这些相对差异。    
 
 ![美国地图](media/power-bi-visualization-filled-maps-choropleths/large-map.png)
@@ -44,27 +47,24 @@ Power BI 与必应相集成，提供默认地图坐标（一个称为地理编�
 * 要获取跨地理位置的分布的概况。
 
 ### <a name="prerequisites"></a>先决条件
-- Power BI 服务或 Power BI Desktop
-- 销售和市场营销示例
+本教程使用[零售分析示例 PBIX 文件](http://download.microsoft.com/download/9/7/6/9767913A-29DB-40CF-8944-9AC2BC940C53/Sales%20and%20Marketing%20Sample%20PBIX.pbix)。
+1. 在菜单栏的左上部分，选择“文件”   > “打开” 
+   
+2. 查找**零售分析示例 PBIX 文件**的副本
 
-若要继续，本教程使用 Power BI 服务，而非 Power BI Desktop。
+1. 在报表视图中打开**零售分析示例 PBIX 文件** ![报表视图屏幕截图图标](media/power-bi-visualization-kpi/power-bi-report-view.png)。
+
+1. 选择 ![黄色选项卡的屏幕截图。](media/power-bi-visualization-kpi/power-bi-yellow-tab.png) ，以添加新报表页。
+
 
 ## <a name="create-a-basic-filled-map"></a>创建基本的着色地图
 在此视频中，Kim 将创建基本地图并将其转换为着色地图。
+   > [!NOTE]
+   > 此视频使用较低版本的 Power BI Desktop。
+   > 
+   > 
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/ajTPGNpthcg" frameborder="0" allowfullscreen></iframe>
-
-### <a name="get-data-and-add-a-new-blank-page-to-the-report"></a>获取数据并在报表中添加新的空白页面
-1. 若要创建你自己的着色地图，请[下载销售和市场营销示例](../sample-datasets.md)，具体方法是登录 Power BI，然后依次选择“获取数据” **\>“示例”“销售和市场营销”\>\>“连接”。** 或者在 appsource.com 上获取 Power BI 销售和市场营销应用  。 
-
-2. 打开“销售和市场营销”报表。
-
-   ![销售和市场营销报表随即打开](media/power-bi-visualization-filled-maps-choropleths/power-bi-report-canvas.png)
-3. Power BI 将打开报表。 选择“编辑报表”  在[编辑视图](../service-interact-with-a-report-in-editing-view.md)中打开报表。
-
-4. 通过选择报表画布底部的黄色加号添加新页面。
-
-    ![“报告”选项卡](media/power-bi-visualization-filled-maps-choropleths/power-bi-new-page.png)
 
 ### <a name="create-a-filled-map"></a>创建着色地图
 1. 从“字段”窗格中，选择“地区”  \>“状态”  字段。    
@@ -75,9 +75,9 @@ Power BI 与必应相集成，提供默认地图坐标（一个称为地理编�
    ![突出显示着色地图图标的模板](media/power-bi-visualization-filled-maps-choropleths/img003.png)
 3. 筛选地图使其只显示美国大陆。
 
-   a.  在“可视化效果”窗格底部，查找筛选器  区域。
+   a.  在“可视化效果”窗格左侧，找到“筛选器”  窗格。 如果该窗格已最小化，则展开它
 
-   b.  将鼠标悬停在州  上方，然后单击 v 形展开图标  
+   b.  将鼠标悬停在“状态”  上方，然后选择 v 形展开图标  
    ![显示“状态(全部)”的视觉对象级别筛选器](media/power-bi-visualization-filled-maps-choropleths/img004.png)
 
    c.  在“全部”  旁边添加复选标记，并删除 AK  旁边的复选标记。
@@ -115,11 +115,11 @@ Power BI 让你能够充分控制着色地图的外观。请随意使用这些�
 
     ![选中的“情绪”选项卡](media/power-bi-visualization-filled-maps-choropleths/power-bi-sentiment-tab.png)
 
-4. 移动页面上的可视化效果并调整大小以腾出一些空间，然后按 CTRL-V 粘贴上一报表中的着色地图。
+4. 移动页面上的可视化效果并调整大小以腾出一些空间，然后按 CTRL-V 粘贴上一报表中的着色地图。 （请查看以下图像）
 
    ![已添加到“情绪”页面的着色地图](media/power-bi-visualization-filled-maps-choropleths/power-bi-map.png)
 
-5. 在着色地图中选择一个州。  这样可以突出显示页面上的其他可视化效果。 例如，选择  德克萨斯州，显示“情绪”是 74，德克萨斯州在中区\# 23。   
+5. 在着色地图中选择一个州。  这样可以交叉突出显示并交叉筛选页面上的其他可视化效果。 例如，选择  “德克萨斯州”后，显示“情绪”为 75，并且德克萨斯州位于中区 #23。   
    ![已选择德克萨斯州](media/power-bi-visualization-filled-maps-choropleths/power-bi-texas.png)
 2. 在“VanArsdel - 人气（按月份）”折线图上选择一个数据点。 这会筛选着色地图，以显示 VanArsdel 的情绪数据，而不是他们的竞争对手。  
    ![新的底纹](media/power-bi-visualization-filled-maps-choropleths/power-bi-yes.png)

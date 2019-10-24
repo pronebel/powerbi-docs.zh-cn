@@ -7,15 +7,15 @@ ms.reviewer: kayu
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 06/12/2019
+ms.date: 10/14/2019
 ms.author: mblythe
 LocalizationGroup: Data refresh
-ms.openlocfilehash: 7492651d2b5be8a63c97594fce3f3399b1122cc3
-ms.sourcegitcommit: fe8a25a79f7c6fe794d1a30224741e5281e82357
+ms.openlocfilehash: f5fe835d2ec423b596460a81ccb2a406b306c3c5
+ms.sourcegitcommit: 549401b0e1fad15c3603fe7f14b9494141fbb100
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/18/2019
-ms.locfileid: "68325035"
+ms.lasthandoff: 10/14/2019
+ms.locfileid: "72307943"
 ---
 # <a name="data-refresh-in-power-bi"></a>Power BI 中的数据刷新
 
@@ -309,6 +309,13 @@ in
 > [!NOTE]
 > 可以在数据集设置中找到显示刷新历史记录的链接。 也可以使用 [Power BI REST API](/rest/api/power-bi/datasets/getrefreshhistoryingroup) 以编程方式检索刷新历史记录。 通过使用自定义解决方案，可以集中监视多个数据集的刷新历史记录。
 
+## <a name="automatic-page-refresh"></a>自动页面刷新
+
+自动页面刷新针对报表页面执行，使用此功能，报表作者可以为页面中仅在使用页面时处于活动状态的视觉对象设置刷新间隔。 自动页面刷新仅适用于 DirectQuery 数据源。 最小刷新间隔取决于要在其中发布报表的工作区的类型，以及高级工作区的容量管理设置。
+
+有关自动页面刷新的详细信息，请参阅[自动页面刷新](desktop-automatic-page-refresh.md)一文。
+
+
 ## <a name="best-practices"></a>最佳做法
 
 若要确保报表和仪表板使用当前数据，定期检查数据集的刷新历史记录是可采用的最重要的最佳做法之一。 一旦发现问题，请及时解决，并在必要时跟进数据源所有者和网关管理员。
@@ -324,6 +331,7 @@ in
 - 使用可靠的企业数据网关部署将数据集连接到本地数据源。 如果发现与网关相关的刷新故障（例如网关不可用或过载），请让网关管理员向现有群集添加其他网关或部署新群集（纵向扩展与横向扩展），直至问题得到解决。
 - 为导入数据集和 DirectQuery/LiveConnect 数据集使用不同的数据网关，以使计划刷新期间的数据导入不影响基于 DirectQuery/LiveConnect 数据集（通过每次用户交互查询数据源）的报表和仪表板的性能。
 - 确保 Power BI 可以向你的邮箱发送刷新失败通知。 垃圾邮件筛选器可能会阻止电子邮件或将其移至你可能不会立即注意到的单独文件夹中。
+
 
 ## <a name="next-steps"></a>后续步骤
 

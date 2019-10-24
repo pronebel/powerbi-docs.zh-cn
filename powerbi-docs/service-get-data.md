@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 08/29/2019
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: 21a7bf05330373febe1e9f121f07df6de0779c69
-ms.sourcegitcommit: a00fe5fb545c3df13b7cd13a701fd6a2b2521a17
+ms.openlocfilehash: e6b0d7db9f82d8bc68f230858799f6afbcad1c82
+ms.sourcegitcommit: 83e1e162a037f352e542bd5c198a3c98f5db23c7
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/31/2019
-ms.locfileid: "70200950"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "72511660"
 ---
 # <a name="data-sources-for-the-power-bi-service"></a>Power BI 服务数据源
 数据是 Power BI 的核心。 假设你正在浏览数据。 可通过创建图表和仪表板，或使用**问答**提问来执行此任务。 你看到的可视化效果和答案从数据集中获取其基础数据。 但是，数据集来自何处呢？ 它来自数据源。
@@ -111,7 +111,11 @@ Azure SQL 数据库、Azure SQL 数据仓库和 Azure HDInsight 上的 Spark 是
 ## <a name="considerations-and-limitations"></a>注意事项和限制
 对于 Power BI 服务中使用的所有数据源，请考虑以下限制。 还有适用于特定功能的其他限制，但下面的列表适用于整个 Power BI 服务：
 
-* **数据集大小限制** - Power BI 服务中每个数据集的大小限制为 1 GB。
-* **行限制** - 如果不使用 **DirectQuery**，数据集中的最大行数为 20 亿行。 其中 3 行为保留行，因此最多可以使用 1,999,999,997 行。 如果使用 **DirectQuery**，最大行数为 100 万行。
-* **列限制** - 数据集中允许的最大列数为 16,000 列，这包括数据集中的所有表。 此限制适用于 Power BI 服务以及 Power BI Desktop 中使用的数据集。 Power BI 使用数据集中每个表的内部行号列，这意味着数据集中每个表的最大列数为 16,000 减去 1。
+* **数据集大小限制** - 存储在 Power BI 服务的共享容量中的数据集的大小限制为 1 GB。 如果需要更大的数据集，可以使用 [Power BI Premium ](service-premium-what-is.md)。
+
+* **列中的非重复值** - 在 Power BI 数据集中缓存数据时（有时称为“导入”模式），可以在列中存储的非重复值的数量限制为 1,999,999,997。
+
+* **行限制** - 使用  DirectQuery 时，Power BI 对发送到基础数据源的查询结果施加限制。 如果发送到数据源的查询返回超过一百万行，则会出现错误，查询将失败。 基础数据仍可包含超过一百万行。 由于大多数报表将数据聚合为较小的结果集，因此不太可能遇到此限制。
+
+* **列限制** - 数据集中允许的最大列数为 16,000 列，这包括数据集中的所有表。 此限制适用于 Power BI 服务以及 Power BI Desktop 中使用的数据集。 Power BI 以此方式跟踪数据集中的列数和表数，这意味着数据集中每个表的最大列数为 16,000 减 1。
 

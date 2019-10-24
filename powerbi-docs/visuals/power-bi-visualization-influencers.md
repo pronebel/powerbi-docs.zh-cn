@@ -10,14 +10,17 @@ ms.topic: tutorial
 ms.date: 05/22/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: a3e88d853f59a0e9a188d6d6796559ad2d9059a9
-ms.sourcegitcommit: d12bc6df16be1f1993232898f52eb80d0c9fb04e
+ms.openlocfilehash: 056457d5a90585fd30a0a85f95d28d1097c720b0
+ms.sourcegitcommit: e5cf19e16112c7dad1591c3b38d232267ffb3ae1
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/13/2019
-ms.locfileid: "68995284"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "72544026"
 ---
 # <a name="key-influencers-visualization"></a>关键影响因素可视化效果
+
+[!INCLUDE [power-bi-visuals-desktop-banner](../includes/power-bi-visuals-desktop-banner.md)]
+
 关键影响因素视觉对象有助于理解驱动你所关注指标的因素。 它可分析数据，对重要因素进行排序，并将其显示为“关键影响因素”。 例如，假设你想要找出影响员工流动（也称为流失）的因素。 一大因素可能是就业合同时限，另一大因素可能是员工年龄。 
  
 ## <a name="when-to-use-key-influencers"></a>何时使用关键影响因素 
@@ -49,6 +52,10 @@ ms.locfileid: "68995284"
  
 观看此视频，了解如何创建具有分类指标的关键影响因素视觉对象。 然后，执行以下步骤创建一个。 
 
+   > [!NOTE]
+   > 此视频使用较低版本的 Power BI Desktop。
+   > 
+   > 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/fDb5zZ3xmxU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 你的产品经理希望找出哪些因素会导致客户对云服务进行负面评论。 若要继续了解，请打开 Power BI Desktop 中的[客户反馈 .PBIX 文件](https://github.com/Microsoft/powerbi-desktop-samples/blob/master/2019/customerfeedback.pbix)。 也可以下载 [Power BI 服务 或 Power BI Desktop 的客户反馈 Excel 文件](https://github.com/Microsoft/powerbi-desktop-samples/blob/master/2019/customerfeedback.xlsx)。 
@@ -137,7 +144,7 @@ ms.locfileid: "68995284"
 
 在某些情况下，你可能会发现，连续因素会自动变为类别因素。 这是因为我们意识到变量之间的关系并非是线性的，因此我们不能简单地将此关系描述为增加或减少（就像我们在上述示例中所做的那样）。
 
-我们运行相关性测试，以确定影响因素与目标之间相关性的线性程度。 如果目标属于连续目标，则运行 Perasons 相关性测试，如果目标属于类别目标，则运行 Point Biserial 相关性测试。 如果我们检测到关系的线性不足，我们将执行监督式分箱并生成最多 5 个箱。为了弄清楚哪些箱最有意义，我们使用监督式分箱方法，该方法研究解释性因素与被分析的目标之间的关系。
+我们运行相关性测试，以确定影响因素与目标之间相关性的线性程度。 如果目标属于连续目标，则运行 Perason 相关性测试，如果目标属于类别目标，则运行 Point Biserial 相关性测试。 如果我们检测到关系的线性不足，我们将执行监督式分箱并生成最多 5 个箱。为了弄清楚哪些箱最有意义，我们使用监督式分箱方法，该方法研究解释性因素与被分析的目标之间的关系。
 
 ## <a name="interpret-measures-and-aggregates-as-key-influencers"></a>将度量值和聚合值作为关键影响因素进行解释 
  
@@ -245,7 +252,7 @@ ms.locfileid: "68995284"
 
 ![度量值表](media/power-bi-visualization-influencers/power-bi-ki-measures-table2.png)
 
-这种分析完全是总结性的，因此回归模型很难在数据中发现可学习的模式。 应在更详细的级别运行分析，以获得更好的结果。 如果想要在房屋级别分析房价，则需要将“ID”字段显式添加到分析  。 但我们不想将房屋 ID 视为影响因素。 了解房价随房屋 ID 的增加而上涨没有意义。 这时，“扩展方式”字段井选项就很方便  。 使用“扩展方式”，可添加要用于设置分析级别的字段，而无需寻找新的影响因素  。
+这种分析完全是总结性的，因此回归模型很难在数据中发现可学习的模式。 应在更详细的级别运行分析，以获得更好的结果。 如果想要在房屋级别分析房价，则需要将“ID”字段显式添加到分析  。 但我们不想将房屋 ID 视为影响因素。 了解房价随房屋 ID 的增加而上涨没有意义。 这时，“扩展方式”字段格选项就很方便  。 使用“扩展方式”，可添加要用于设置分析级别的字段，而无需寻找新的影响因素  。
 
 将“ID”添加到“扩展方式”之后，查看可视化效果   。 定义了想要评估度量值的级别之后，解释[未汇总数字列](https://docs.microsoft.com/en-us/power-bi/visuals/power-bi-visualization-influencers#analyze-a-metric-that-is-numeric)的影响因素是完全相同的。
 

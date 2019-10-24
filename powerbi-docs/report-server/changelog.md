@@ -8,15 +8,15 @@ ms.reviewer: maggies
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
-ms.date: 03/31/2018
-ms.openlocfilehash: 71c2135092b0b9bb2b02f4559d40c0b10814a51f
-ms.sourcegitcommit: e2c5d4561455c3a4806ace85defbc72e4d7573b4
+ms.date: 10/09/2019
+ms.openlocfilehash: a3f7e1676c864ff1f5dbf081dd2e7818f30caba6
+ms.sourcegitcommit: e533c65607bbba0f620fddabd6b107e5933772c1
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "71325728"
+ms.lasthandoff: 10/11/2019
+ms.locfileid: "72259984"
 ---
-# <a name="changelog-for-power-bi-report-server"></a>Power BI 报表服务器的更改日志
+# <a name="change-log-for-power-bi-report-server"></a>Power BI 报表服务器的更改日志
 
 此更改日志适用于 Power BI 报表服务器，并列出了新项和每次发布版本的 bug 修复。
 
@@ -24,12 +24,19 @@ ms.locfileid: "71325728"
 
 ## <a name="september-2019"></a>2019 年 9 月
 
-- **Power BI 报表服务器**          
+- **Power BI 报表服务器**
+    - *版本：1.6.7221.30698（内部版本 15.0.1102.620），发布日期：2019 年 10 月 9 日*
+        - Bug 修复
+            - 修复了文本筛选器自定义视觉对象的问题。
+            - 修复了下拉切片器的性能问题。
+            - 修复了来自遥测的条带 PII 的问题。
+          - 修复了 URL 不区分大小写的问题。
+             
     - *版本 1.6.7206.38019（内部版本 15.0.1102.597），发布日期：2019 年 9 月 26 日*
         - 安全更新
         - Bug 修复
            - 分页报表
-             - 针对使用 IE 和 Edge 时遇到的可访问性问题的修复。
+             - 修复了使用 Internet Explorer 和 Microsoft Edge 时遇到的辅助功能问题。
              - 针对测试连接时的 SAP HANA 问题的修复。
              - 针对提供电子邮件地址列表时发现的问题的修复。
              - 针对使用 DirectQuery 数据源和集成身份验证的 Power BI 报表的修复。
@@ -43,10 +50,17 @@ ms.locfileid: "71325728"
              - 更新 Web API：/PowerBIReports({Id})/DataSources (PATCH) 以允许连接字符串更新。
          
 - Power BI Desktop（已针对 Power BI 报表服务器进行优化） 
+
+    - *版本：2.73.5586.1241（2019 年 9 月），发布日期：2019 年 10 月 9 日*
+        - Bug 修复
+            - 修复了文本筛选器自定义视觉对象的问题。
+            - 修复了下拉切片器的性能问题。
+            - 修复了来自遥测的条带 PII 的问题。
+            
     - *版本：2.73.5586.821（2019 年 9 月），发布日期：2019 年 9 月 26 日*（新内部版本和新版本）
-    - 包含与 Power BI 报表服务器连接所需的更改（2019 年 9 月）
+        - 包含与 Power BI 报表服务器连接所需的更改（2019 年 9 月）
 
-
+    
 ## <a name="may-2019"></a>2019 年 5 月
 
 - **Power BI 报表服务器**          

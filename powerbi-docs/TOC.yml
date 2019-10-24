@@ -443,7 +443,7 @@
           href: service-tutorial-use-cognitive-services.md
         - name: 机器学习集成
           href: service-tutorial-invoke-machine-learning-model.md
-        - name: 构建机器学习模型（预览）
+        - name: 构建机器学习模型
           href: service-tutorial-build-machine-learning-model.md
         - name: 刷新来自 SQL Server 的数据
           href: service-gateway-sql-tutorial.md
@@ -717,7 +717,7 @@
               href: service-machine-learning-integration.md
             - name: 在 Power BI 中使用认知服务
               href: service-cognitive-services.md
-            - name: Power BI 中的自动机器学习（预览）
+            - name: Power BI 中的自动机器学习
               href: service-machine-learning-automated.md
         - name: 数据世系
           href: service-data-lineage.md
@@ -1161,6 +1161,8 @@
       href: guidance/import-modeling-data-reduction.md
     - name: DIVIDE 函数与除法运算符 (/)
       href: guidance/dax-divide-function-operator.md
+    - name: 查询折叠的重要性
+      href: guidance/power-query-folding.md
     - name: 适当使用错误函数
       href: guidance/dax-error-functions.md
     - name: 数据流的最佳做法

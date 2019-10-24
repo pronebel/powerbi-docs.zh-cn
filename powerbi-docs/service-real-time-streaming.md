@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 05/08/2019
+ms.date: 10/14/2019
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: 034dc98b1e623bd0d509eb2d174cdc3e3b865067
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: f88d1e0458e6a1b3abe20c0b4dd889c037ede612
+ms.sourcegitcommit: 549401b0e1fad15c3603fe7f14b9494141fbb100
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "65514301"
+ms.lasthandoff: 10/14/2019
+ms.locfileid: "72307347"
 ---
 # <a name="real-time-streaming-in-power-bi"></a>Power BI 中的实时流式处理
 通过 Power BI 实时流式处理，可以流式处理数据并实时更新仪表板。 可以在 Power BI 中创建的任何视觉对象或仪表板也可以创建为显示和更新实时数据和视觉对象。 流式处理数据的设备和源可以是工厂传感器、社交媒体源、服务使用情况指标和其他可从其收集或传输时间敏感数据的任何设备。
@@ -235,6 +235,13 @@ Azure 流分析使用 Power BI REST API 创建其到 Power BI 的输出数据流
 4. Azure 流分析查询是否显式输出到 Power BI 输出？ （使用 INTO 关键字）
 5. 是否有数据流流经 Azure 流分析作业？ 只有在有数据传输时，才会创建数据集。
 6. 是否可以查看 Azure 流分析日志，以了解是否存在任何警告或错误？
+
+## <a name="automatic-page-refresh"></a>自动页面刷新
+
+自动页面刷新针对报表页面执行，使用此功能，报表作者可以为页面中仅在使用页面时处于活动状态的视觉对象设置刷新间隔。 自动页面刷新仅适用于 DirectQuery 数据源。 最小刷新间隔取决于要在其中发布报表的工作区的类型，以及高级工作区的容量管理设置。
+
+有关自动页面刷新的详细信息，请参阅[自动页面刷新](desktop-automatic-page-refresh.md)一文。
+
 
 ## <a name="next-steps"></a>后续步骤
 以下是在 Power BI 中使用实时流式处理时可能有用的几个链接：

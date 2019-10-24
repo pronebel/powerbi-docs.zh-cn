@@ -8,14 +8,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
-ms.date: 08/21/2019
+ms.date: 10/14/2019
 LocalizationGroup: Premium
-ms.openlocfilehash: a05924fc093c1514f51c3fabac3162433e2188f7
-ms.sourcegitcommit: 9bf3cdcf5d8b8dd12aa1339b8910fcbc40f4cbe4
+ms.openlocfilehash: 2b05ad31612d1960e131028d13552843834a98bd
+ms.sourcegitcommit: 549401b0e1fad15c3603fe7f14b9494141fbb100
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/05/2019
-ms.locfileid: "71968897"
+ms.lasthandoff: 10/14/2019
+ms.locfileid: "72307376"
 ---
 # <a name="configure-workloads-in-a-premium-capacity"></a>在高级容量中配置工作负载
 
@@ -70,6 +70,8 @@ ms.locfileid: "71968897"
 | 最大结果行设置计数  | DAX 查询中返回的最大行数。 默认值为 -1（无限制），允许范围为 100000 - 2147483647。 |
 | 查询内存限制(%)  | 查询或 DAX 度量值中临时结果可使用的最大可用内存百分比。 |
 | 查询超时值(秒)  | 查询超时前允许的最长时间。默认值为 3600 秒（1 小时）。 值为 0 时表示查询不会超时。 |
+| **自动页面刷新（预览版）** | 启用/禁用切换，允许高级工作区的报表具有自动页面刷新功能。 |
+| **最小刷新间隔** | 启用自动页面刷新情况下，页面刷新间隔允许的最小间隔。 默认值为 5 分钟，允许的最小值为 1 秒。 |
 |  |  |  |
 
 #### <a name="max-intermediate-row-set-count"></a>最大中间行设置计数
@@ -112,6 +114,19 @@ ms.locfileid: "71968897"
 所有查询的合并时间为 75 分钟，但由于所有单个查询运行的时间少于 20 分钟，因此不会达到设置限制。
 
 请注意，Power BI 报表将覆盖此默认设置，并大大降低对容量的每个查询的超时值。 每个查询的超时值通常约为三分钟。
+
+#### <a name="automatic-page-refresh-preview"></a>自动页面刷新（预览版）
+
+启用时，借助自动页面刷新功能，高级容量中的用户可以按定义的时间间隔为 DirectQuery 源刷新报表中的页面。 容量管理员可以执行以下操作：
+
+1.  启用和禁用自动页面刷新
+2.  定义最小刷新间隔
+
+下图显示了自动刷新间隔设置的位置：
+
+![自动刷新间隔的管理员设置](media/service-admin-premium-workloads/automatic-refresh-interval.png)
+
+自动页面刷新创建的查询会直接转到数据源，因此，在组织中允许自动页面刷新时，请务必考虑这些源的可靠性和负载。 
 
 ### <a name="dataflows"></a>数据流
 
@@ -181,5 +196,6 @@ ms.locfileid: "71968897"
 [优化 Power BI Premium 容量](service-premium-capacity-optimize.md)     
 [Power BI 中通过数据流自助进行数据准备](service-dataflows-overview.md)   
 [Power BI Premium 中的分页报表是什么？](paginated-reports-report-builder-power-bi.md)   
+[Power BI Desktop 中的自动页面刷新（预览版）](desktop-automatic-page-refresh.md)
 
 更多问题？ [在 Power BI 社区提问](http://community.powerbi.com/)

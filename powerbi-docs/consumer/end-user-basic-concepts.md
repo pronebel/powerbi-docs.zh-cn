@@ -9,19 +9,19 @@ ms.service: powerbi
 ms.custom: seodec18
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 06/17/2019
+ms.date: 10/16/2019
 ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: 2e41a3f5b1d1bd945e1ab4566abed1589b20c148
-ms.sourcegitcommit: 52aa112ac9194f4bb62b0910c4a1be80e1bf1276
+ms.openlocfilehash: 2b9fd3fc971d2cf73aabb2033d3a64565333bc67
+ms.sourcegitcommit: e5cf19e16112c7dad1591c3b38d232267ffb3ae1
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "67264914"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "72543704"
 ---
 # <a name="basic-concepts-for-the-power-bi-service-consumers"></a>面向 Power BI 服务使用者的基本概念
 
-若要更好地理解本文，需要已阅读 [Power BI 概述](../power-bi-overview.md)，并将自己定位为 Power BI 使用者。 使用者接收来自同事的 Power BI 内容，例如仪表板和报表。 使用者使用 Power BI 服务（即网站版 Power BI）。
+本文假设你已阅读 [Power BI 概述](../power-bi-overview.md)，并将自己定位为 [Power BI 使用者](end-user-consumer.md)。 使用者接收来自同事的 Power BI 内容，例如仪表板和报表。 使用者使用 Power BI 服务（即网站版 Power BI）。
 
 你肯定听说过“Power BI Desktop”这个词，或仅听说过“Desktop”。 它是设计人员  使用的独立工具，设计人员生成仪表板和报表并与你共享。 请务必要知道还有其他 Power BI 工具。 只要你是使用者，就只能使用 Power BI 服务。 本文仅适用于 Power BI 服务。
 
@@ -35,7 +35,7 @@ ms.locfileid: "67264914"
 
 首先，打开浏览器，并输入“app.powerbi.com”  。 首次打开 Power BI 服务时，你会看到如下所示的屏幕：
 
-![“欢迎使用 Power BI 服务”屏幕的屏幕截图。](media/end-user-basic-concepts/power-bi-open.png)
+![“欢迎使用 Power BI 服务”屏幕的屏幕截图。](media/end-user-basic-concepts/power-bi-home.png)
 
 使用 Power BI 时，可对每次打开网站时看到的内容进行个性化设置。 例如，一些人希望 Power BI 打开到“主页”  ，而另一些人则希望先看到最常用仪表板。 别担心，本文将指导你如何个性化设置体验。
 
@@ -87,7 +87,7 @@ _______________________________________________________
 
 在设计人员与你共享应用后，你就可以看到设计人员在应用中添加了哪些数据集。
 
-![显示已选择“应用”且箭头指向画布上“数据集”部分的 Power BI 用户界面屏幕截图。](media/end-user-basic-concepts/power-bi-dataset-list.png)
+![Power BI 用户界面以及指向画布上的“数据集”部分的箭头的屏幕截图。](media/end-user-basic-concepts/power-bi-dataset-lists.png)
 
 一个数据集...
 
@@ -98,10 +98,6 @@ _______________________________________________________
 - 来自一个数据集的视觉对象可以显示在许多不同的仪表板上
 
   ![数据集的多对一关系图](media/end-user-basic-concepts/drawing2.png)
-
-此外，设计人员还可以使用其他工作区中的数据集，在自己的工作区中创建内容（报表、仪表板）。 Power BI 使用引用数据集图标来显示此类数据集：
-
-![包含链接的数据库图标的屏幕截图。](media/end-user-basic-concepts/power-bi-dataset-reference-icon.png)
 
 接下来了解下一个构建基块 - 可视化效果。
 
@@ -131,11 +127,11 @@ _______________________________________________________
 
 Power BI 报表是一页或多页可视化效果、图形和文本。 报表中所有可视化对象来自单个数据集。 设计者与[阅读视图中与报表交互](end-user-reading-view.md)的使用者共享报表    。
 
-![带选项卡的报表的屏幕截图。](media/end-user-basic-concepts/power-bi-report2.png)
+![带选项卡的报表的屏幕截图。](media/end-user-basic-concepts/power-bi-report.png)
 
 一个报表...
 
-- 可以与多个仪表板关联（从这一个报表固定的磁贴可以显示在多个仪表板上）。
+- 可以与多个仪表板关联（从该报表固定的磁贴可以显示在多个仪表板上）。
 
 - 只能使用一个数据集中的数据进行创建。  
 
@@ -151,7 +147,7 @@ _______________________________________________________
 
   ![示例仪表板的屏幕截图](media/end-user-basic-concepts/power-bi-dashboard.png)
 
-磁贴呈现设计者固定（例如，从报表固定到仪表板）的视觉对象   。 每个固定的磁贴显示 Power BI 从数据集创建并固定到相应仪表板的[可视化效果](end-user-visualizations.md)。 磁贴还可以包含整个报表页面，并且可以包含实时传送视频流数据或视频。 设计人员  可通过多种方式向仪表板添加磁贴。 添加方法太多了，本概述性文章无法一一介绍。 若要了解详细信息，请参阅 [Power BI 中的仪表板磁贴](end-user-tiles.md)。
+磁贴呈现设计者固定（例如，从报表固定到仪表板）的视觉对象   。 每个固定的磁贴显示设计器从数据集创建并固定到相应仪表板的[可视化效果](end-user-visualizations.md)。 磁贴还可以包含整个报表页面，并且可以包含实时传送视频流数据或视频。 设计人员  可通过多种方式向仪表板添加磁贴。 添加方法太多了，本概述性文章无法一一介绍。 若要了解详细信息，请参阅 [Power BI 中的仪表板磁贴](end-user-tiles.md)。
 
 使用者无法编辑仪表板。 但可以进行添加注释、查看相关数据、将其设置为收藏项、订阅等操作。
 
@@ -183,7 +179,7 @@ _______________________________________________________
 
 这些仪表板和报表集合将相关内容组织到一个包中。 Power BI 设计者生成仪表板和报表并与个人、团体、整个组织或公众共享  。 作为使用者，你可以确信自己和同事使用的数据相同（即一个受信任的真实数据版本）。
 
-![已选择 Power BI 左侧窗格中的“应用”的屏幕截图。](media/end-user-basic-concepts/power-bi-app.png)
+![已选择 Power BI 左侧窗格中的“应用”的屏幕截图。](media/end-user-basic-concepts/power-bi-apps.png)
 
 可以在 [Power BI 服务](https://powerbi.com)和移动设备上轻松找到并安装应用。 安装应用后，无需记住许多不同仪表板的名称。 它们已全部汇总到一个应用、你的浏览器或移动设备中。
 

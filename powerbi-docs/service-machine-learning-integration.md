@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 05/31/2019
 ms.author: davidi
 LocalizationGroup: conceptual
-ms.openlocfilehash: 10ee974b73372fb2243febdcb4431b5decebdf4b
-ms.sourcegitcommit: e48ef4c88e4a1a0b259bf899d85d520c4edd5751
+ms.openlocfilehash: 9593296b0e09340fe4f62fff7a2e7722912a4216
+ms.sourcegitcommit: e533c65607bbba0f620fddabd6b107e5933772c1
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/10/2019
-ms.locfileid: "66823491"
+ms.lasthandoff: 10/11/2019
+ms.locfileid: "72259940"
 ---
 # <a name="azure-machine-learning-integration-in-power-bi"></a>Power BI 中的 Azure 机器学习集成
 
@@ -70,7 +70,7 @@ ms.locfileid: "66823491"
 
 此架构文件必须包含在为机器学习服务模型部署的 Web 服务中。 若要自动生成 Web 服务的架构，必须在已部署模型的条目脚本中提供输入/输出的示例。 请参阅 Azure 机器学习服务文档的部署模型中关于（可选）自动生成 Swagger 架构的子节。 该链接包括示例条目脚本以及架构生成的语句。 
 
-具体来说，条目脚本中的 @input_schema 和 @output_schema 函数引用了输入示例和输出示例变量中的输入和输出示例格式，并在部署期间使用这些示例为 web 服务生成 OpenAPI (Swagger) 规范     。
+具体来说，条目脚本中的 \@input_schema  和 \@output_schema  函数引用了 input_sample 和 output_sample 变量中的输入和输出示例格式，并在部署期间使用这些示例为 Web 服务生成 OpenAPI (Swagger) 规范   。
 
 通过更新条目脚本生成架构的这些说明还必须应用于在自动化机器学习试验中使用 Azure 机器学习 SDK 创建的模型。
 

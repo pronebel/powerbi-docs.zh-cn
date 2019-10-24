@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/02/2019
 ms.author: maggies
 LocalizationGroup: Reports
-ms.openlocfilehash: da7652556bc11e47cf238dd969ae1b27e6387299
-ms.sourcegitcommit: 9bf3cdcf5d8b8dd12aa1339b8910fcbc40f4cbe4
+ms.openlocfilehash: be2304e655adadf20f5d33f46840c5a0cb82aa9f
+ms.sourcegitcommit: e5cf19e16112c7dad1591c3b38d232267ffb3ae1
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/05/2019
-ms.locfileid: "71968807"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "72544720"
 ---
 # <a name="add-a-filter-to-a-report-in-power-bi"></a>在 Power BI 中向报表添加筛选器
 
@@ -51,11 +51,12 @@ Power BI 提供了许多不同种类的筛选器，从手动筛选器和自动�
 * 筛选已由可视化效果使用的字段。
 * 标识可视化效果尚未使用的字段，并将此字段直接添加到“视觉对象级筛选器”  桶中。
 
-顺便提一下，此过程使用的是“零售分析”示例；如果愿意，可下载示例并跟着一起操作。 下载[“零售分析”示例](sample-retail-analysis.md)。
+
+顺便提一下，此过程使用的是“零售分析”示例；如果愿意，可下载示例并跟着一起操作。 下载[零售分析示例](sample-retail-analysis.md#get-the-content-pack-for-this-sample)内容包。
 
 ### <a name="filter-the-fields-in-the-visual"></a>筛选视觉对象中的字段
 
-1. 选择“编辑报表”  ，以在编辑视图中打开报表。
+1. 选择“更多选项(...)”   > “编辑报表”  ，在编辑视图中打开报表。
    
    ![编辑报表按钮](media/power-bi-report-add-filter/power-bi-edit-view.png)
 
@@ -85,7 +86,7 @@ Power BI 提供了许多不同种类的筛选器，从手动筛选器和自动�
 
 接下来，将新字段作为视觉对象级筛选器添加到可视化效果中。
    
-1. 在“字段”窗格中，选择要添加为新视觉对象级筛选器的字段，再将它拖到“视觉对象级筛选器”  区域中。  在此示例中，将把“区域经理”  拖到“视觉对象级筛选器”  桶中，搜索“an”  并选择这三个经理。 
+1. 在“字段”窗格中，选择要添加为新视觉对象级筛选器的字段，再将它拖到“视觉对象级筛选器”  区域中。  在此示例中，将把“区域经理”  拖到“视觉对象级筛选器”  桶中，搜索“an”  并选择这三个经理。
      
     ![将字段添加到“筛选器”窗格](media/power-bi-report-add-filter/power-bi-search-add-visual-filter.png)
 
@@ -105,7 +106,9 @@ Power BI 提供了许多不同种类的筛选器，从手动筛选器和自动�
 
 还可以添加报表页级别筛选器来筛选整个报表页。
 
-1. 选择“编辑报表”  ，以在编辑视图中打开报表。
+1. 在 Power BI 服务中，打开“零售分析”报表，然后转到“地区每月销售额”  页。 
+
+2. 选择“...”   > “编辑报表”  ，在编辑视图中打开报表。
    
    ![编辑报表按钮](media/power-bi-report-add-filter/power-bi-edit-view.png)
 2. 打开“可视化效果和筛选器”窗格和“字段”窗格（如果尚未打开）。
@@ -122,19 +125,21 @@ Power BI 提供了许多不同种类的筛选器，从手动筛选器和自动�
 通过在 Power BI 服务和 Power BI Desktop 中使用钻取，可以创建一个侧重于特定实体（如供应商、客户或制造商）的目标  报表页。 现在，从其他报表页中，用户可以右键单击该实体的数据点并钻取到已设定焦点的页。
 
 ### <a name="create-a-drillthrough-filter"></a>创建钻取筛选器
-若要跟着本教程一起操作，请下载[客户盈利率示例](sample-customer-profitability.md)。 我们假设你需要一个侧重于管理层业务领域的页。
+若要跟着本教程一起操作，请下载[客户盈利率示例](sample-customer-profitability.md#get-the-content-pack-for-this-sample)。 我们假设你需要一个侧重于管理层业务领域的页。
 
-1. 选择“编辑报表”  在编辑视图中打开报表。
+1. 在 Power BI 服务中，打开“零售分析”报表，然后转到“地区每月销售额”  页。
+
+2. 选择“更多选项(...)”   > “编辑报表”  ，在编辑视图中打开报表。
    
    ![编辑报表按钮](media/power-bi-report-add-filter/power-bi-edit-view.png)
 
 1. 向报表中添加一个新页，并将其命名为“管理人员团队”  。 该页将是钻取目标  。
 2. 添加可跟踪团队管理层业务领域的关键指标的可视化效果。    
-3. 将“管理人员”>“管理人员名称”  添加到钻取筛选器。    
+3. 从“管理人员”  表中，将“管理人员”  添加拖到“钻取”筛选器中。    
    
     ![将值添加到“钻取筛选器”](media/power-bi-report-add-filter/power-bi-drillthrough-filter.png)
    
-    请注意，Power BI 向报表页添加了一个后退箭头。  选择后退箭头可使用户返回到初始  报表页，即他们选择进行钻取时所在的页。 后退箭头仅在阅读视图中可用。
+    请注意，Power BI 向报表页添加了一个后退箭头。  选择后退箭头可使用户返回到初始  报表页，即他们选择进行钻取时所在的页。 在”编辑”视图中，按住 Ctrl 键以选择后退箭头
    
      ![后退箭头](media/power-bi-report-add-filter/power-bi-back-arrow.png)
 
@@ -145,7 +150,7 @@ Power BI 提供了许多不同种类的筛选器，从手动筛选器和自动�
 2. 假设你是 Andrew Ma，并且你希望看到管理人员团队报表页仅筛选出你的数据。  从左上角区域图表中，右键单击任意绿色数据点以打开钻取菜单选项。
    
     ![开始执行钻取操作](media/power-bi-report-add-filter/power-bi-drillthrough.png)
-3. 选择“钻取”>“管理人员团队”  钻取到名为“管理人员团队”  的报表页。 在你是 Andrew Ma 的情况下，对该页进行筛选以显示有关右键单击的数据点的相关信息。 只有“钻取筛选器”框中的字段才会被传递到钻取报表页。  
+3. 选择“钻取”>“管理人员团队”  钻取到名为“管理人员团队”  的报表页。 在你是 Andrew Ma 的情况下，对该页进行筛选以显示有关右键单击的数据点的相关信息。 原始页上的任何筛选器都将应用于钻取报表页。  
    
     ![选择钻取操作](media/power-bi-report-add-filter/power-bi-drillthrough-executive.png)
 

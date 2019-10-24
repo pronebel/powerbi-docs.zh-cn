@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 09/19/2019
+ms.date: 10/14/2019
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: 1ccf5dd3a84bbbaca7019f8943cf0ab974e4bd06
-ms.sourcegitcommit: b7a9862b6da940ddebe61bc945a353f91cd0e4bd
+ms.openlocfilehash: b43408ef91e79d9489480d795329f2e80d0bb1be
+ms.sourcegitcommit: 549401b0e1fad15c3603fe7f14b9494141fbb100
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/04/2019
-ms.locfileid: "71944873"
+ms.lasthandoff: 10/14/2019
+ms.locfileid: "72307729"
 ---
 # <a name="previous-monthly-updates-to-power-bi-desktop"></a>此前的 Power BI Desktop 月度更新
 
@@ -33,6 +33,83 @@ ms.locfileid: "71944873"
 也可以通过单击更新列表下的视频图像上的“**播放**”按钮，从头观看本文中的**最新更新**视频。
 
 以下各节描述了 **Power BI Desktop** 之前月份的更新。
+
+## <a name="september-2019-update-2735586561"></a>2019 年 9 月更新 (2.73.5586.561)
+
+9 月更新就像是令人兴奋的返校，我们可以学习新东西，结交暑假期间错过的朋友，并且有机会将我们所了解的内容更好地应用到以后的报表中。 
+
+现在可以[下载最新版本的 Power BI Desktop](https://powerbi.microsoft.com/desktop)，该版本当前以包含所有受支持语言的单个 .exe 文件的形式提供。 如果运行的是 Windows 10，还可以从 Windows 应用商店获取 Power BI Desktop  。 无论以何种方式安装 Power BI Desktop，月度版本是相同的，虽然二者的版本编号可能不同  。 请参阅[本文](desktop-get-the-desktop.md)，了解详细信息。 
+
+> [!IMPORTANT]
+> 从 2019 年 9 月版本开始，Power BI Desktop 仅发布为包含所有受支持语言的单个 .exe 文件。 不再发布 .msi 版本。
+
+
+每个更新旁边的链接表示以下含义：
+
+* 当讨论某项功能时，将会在新的浏览器选项卡上播放 **[视频]** 片段。
+* 某些功能通过 **[文章]** 来提供更多详细信息。
+* 大多数功能在每月更新的 **[博客]** 文章中均有说明。
+* 最后，一些明白易懂的功能则不需要文章或视频。
+
+也可以通过单击更新列表下的视频图像上的“**播放**”按钮，从头观看本文中的**最新更新**视频。
+
+下面介绍了本月新推出的 Power BI Desktop  更新：
+
+### <a name="reporting"></a>报表
+* 主题 [[视频]](https://youtu.be/neq0THnRJzo?t=11) [[文章]](desktop-report-themes.md) [[博客]](https://powerbi.microsoft.com/blog/power-bi-desktop-september-2019-feature-summary/#themeJSON) 中的颜色和文本类 
+* 新默认主题 [[视频]](https://youtu.be/neq0THnRJzo?t=334) [[博客]](https://powerbi.microsoft.com/blog/power-bi-desktop-september-2019-feature-summary/#newThemes)
+* 个性化可视化效果窗格改进（预览）[[视频]](https://youtu.be/neq0THnRJzo?t=601) [[博客]](https://powerbi.microsoft.com/blog/power-bi-desktop-september-2019-feature-summary/#vizPane)
+
+
+### <a name="analytics"></a>分析
+* 自定义格式字符串 [[视频]](https://youtu.be/neq0THnRJzo?t=731) [[博客]](https://powerbi.microsoft.com/blog/power-bi-desktop-september-2019-feature-summary/#customFormatStrings) 
+* 更多视觉对象格式设置选项的条件格式设置 [[视频]](https://youtu.be/neq0THnRJzo?t=813) [[博客]](https://powerbi.microsoft.com/blog/power-bi-desktop-september-2019-feature-summary/#conditionalFormatting) 
+* 钻取发现改进 [[视频]](https://youtu.be/neq0THnRJzo?t=959) [[博客]](https://powerbi.microsoft.com/blog/power-bi-desktop-september-2019-feature-summary/#drillThrough) 
+* 新 DAX 表达式：REMOVEFILTERS 和 CONVERT [[视频]](https://youtu.be/neq0THnRJzo?t=1048) [[博客]](https://powerbi.microsoft.com/blog/power-bi-desktop-september-2019-feature-summary/#dax) 
+
+
+### <a name="visuals"></a>视觉对象
+* PowerApps 视觉对象现已正式发布 [[视频]](https://youtu.be/neq0THnRJzo?t=1063) [[博客]](https://powerbi.microsoft.com/blog/power-bi-desktop-september-2019-feature-summary/#powerApps) 
+
+
+### <a name="data-connectivity"></a>数据连接
+* PostgreSQL 连接器增强功能 [[视频]](https://youtu.be/neq0THnRJzo?t=1112)  [[博客]](https://powerbi.microsoft.com/blog/power-bi-desktop-september-2019-feature-summary/#postgreSQL) 
+
+### <a name="data-preparation"></a>数据准备
+* 从数据事件探查复制到剪贴板 [[视频]](https://youtu.be/neq0THnRJzo?t=1146) [[博客]](https://powerbi.microsoft.com/blog/power-bi-desktop-september-2019-feature-summary/#copyProfiling) 
+
+
+### <a name="template-apps"></a>模板应用
+* Google Analytics 报表 [[博客]](https://powerbi.microsoft.com/blog/power-bi-desktop-september-2019-feature-summary/#googleAnalytics) 
+
+### <a name="other"></a>其他
+* 多维度模型的性能改进 [[视频]](https://youtu.be/neq0THnRJzo?t=1208) [[博客]](https://powerbi.microsoft.com/blog/power-bi-desktop-september-2019-feature-summary/#perfMultiDiminsional) 
+* DirectQuery 模型的查询性能改进 [[视频]](https://youtu.be/neq0THnRJzo?t=1272) [[博客]](https://powerbi.microsoft.com/blog/power-bi-desktop-september-2019-feature-summary/#perfDirectQuery) https://youtu.be/neq0THnRJzo?t=1208
+
+> [!NOTE]
+> 还可以[查看 Power BI Desktop 可用的所有数据源](desktop-data-sources.md)；我们的列表始终在不断增加内容，请时常返回查看。
+
+想了解有关这些更新的详细信息？ 请查看[博客文章](https://powerbi.microsoft.com/blog/power-bi-desktop-september-2019-feature-summary/)，你可以在其中获取有关上述每项新增功能的更为详细的信息（此博客文章即为上文列表引用的博客文章）。
+
+以下视频介绍和展示了上述的每项更新。 你还可以从博客文章查看该视频。
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/neq0THnRJzo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+> [!NOTE]
+> 你可能还有兴趣了解 [Power BI 服务中的新增功能](service-whats-new.md)，请同时查看 [Power BI 移动应用中的新增功能](consumer/mobile/mobile-whats-new-in-the-mobile-apps.md)。
+
+还可以下载旧版 Power BI Desktop（若组织需要）。 始终建议使用最新版 Power BI Desktop，而不是旧版本。 所有旧版本都存在以下限制：
+
+* 旧版 Power BI Desktop 无法提供服务，应始终使用最新版本获取最新功能和更新。
+* 可能无法使用旧版 Power BI Desktop 打开在较新版本的 Power BI Desktop 中创建或保存的文件。 
+* 如果在加载较新版本的 Power BI Desktop 中保存的报表时收到警告，然后将该报表保存在旧版本中，则会丢失与新功能相关的所有信息。
+* 我们只存档 Power BI Desktop 的英文版本。
+
+请选择以下链接以下载早期版本： 
+
+* [2019 年 9 月版 Power BI Desktop（32 位）](http://download.microsoft.com/download/9/B/A/9BAEFFEF-1A68-4102-8CDF-5D28BFFE6A61/PBIDesktop-2019-09.msi)
+* [2019 年 9 月版 Power BI Desktop（64 位）](http://download.microsoft.com/download/9/B/A/9BAEFFEF-1A68-4102-8CDF-5D28BFFE6A61/PBIDesktop-2019-09_x64.msi)
+
 
 ## <a name="august-2019-update-2725556801"></a>2019 年 8 月更新 (2.72.5556.801)
 
@@ -485,18 +562,6 @@ ms.locfileid: "71944873"
 > [!NOTE]
 > 你可能还有兴趣了解 [Power BI 服务中的新增功能](service-whats-new.md)，请同时查看 [Power BI 移动应用中的新增功能](consumer/mobile/mobile-whats-new-in-the-mobile-apps.md)。
 
-
-还可以下载旧版 Power BI Desktop（若组织需要）。 始终建议使用最新版 Power BI Desktop，而不是旧版本。 所有旧版本都存在以下限制：
-
-* 旧版 Power BI Desktop 无法提供服务，应始终使用最新版本获取最新功能和更新。
-* 可能无法使用旧版 Power BI Desktop 打开在较新版本的 Power BI Desktop 中创建或保存的文件。 
-* 如果在加载较新版本的 Power BI Desktop 中保存的报表时收到警告，然后将该报表保存在旧版本中，则会丢失与新功能相关的所有信息。
-* 我们只存档 Power BI Desktop 的英文版本。
-
-请选择以下链接以下载早期版本： 
-
-* [2019 年 3 月版 Power BI Desktop - 32 位](http://download.microsoft.com/download/9/B/A/9BAEFFEF-1A68-4102-8CDF-5D28BFFE6A61/PBIDesktop-2019-03.msi)
-* [2019 年 3 月版 Power BI Desktop - 64 位](http://download.microsoft.com/download/9/B/A/9BAEFFEF-1A68-4102-8CDF-5D28BFFE6A61/PBIDesktop-2019-03_x64.msi)
 
 
 ## <a name="february-2019-update-26653761681"></a>2019 年 2 月更新 (2.66.5376.1681)
