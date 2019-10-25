@@ -26,7 +26,7 @@ ms.locfileid: "70751675"
 * 生成含有所需事实数据表和维度表的表格模型
 * 定义用户角色和权限
 * 将模型部署到 **Analysis Services 表格**实例
-* 生成 Power BI Desktop 报表，其中显示为访问报表的用户量身定制的数据
+* 生成 Power BI Desktop 报表，为访问报表的用户显示量身定制的数据
 * 将报表部署到 **Power BI** 服务。
 * 基于报表创建新的仪表板
 * 与您的同事共享仪表板 
@@ -35,53 +35,53 @@ ms.locfileid: "70751675"
 
 ## <a name="task-1-create-the-user-security-table-and-define-data-relationship"></a>任务 1：创建用户安全表并定义数据关系
 
-可以找到许多介绍如何使用 **SQL Server Analysis Services (SSAS) 表格**模型定义行级别动态安全性的文章。 对于我们的示例，我们参考[通过使用行筛选器实现动态安全性](https://docs.microsoft.com/analysis-services/tutorial-tabular-1200/supplemental-lesson-implement-dynamic-security-by-using-row-filters)。 
+可以找到许多介绍如何使用 **SQL Server Analysis Services (SSAS) 表格**模型定义行级别动态安全性的文章。 对于我们的示例，将参考[通过使用行筛选器实现动态安全性](https://docs.microsoft.com/analysis-services/tutorial-tabular-1200/supplemental-lesson-implement-dynamic-security-by-using-row-filters)。 
 
 此处的步骤要求使用 **AdventureworksDW2012** 关系数据库。
 
-1. 在 **AdventureworksDW2012** 中，创建 **DimUserSecurity** 表，如下所示。 可以使用 [SQL Server Management Studio (SSMS)](https://docs.microsoft.com/sql/ssms/download-sql-server-management-studio-ssms) 来创建表。
+1. 在 **AdventureworksDW2012** 中，如下所示，创建 **DimUserSecurity** 表。 可以使用 [SQL Server Management Studio (SSMS)](https://docs.microsoft.com/sql/ssms/download-sql-server-management-studio-ssms) 来创建表。
    
    ![](media/desktop-tutorial-row-level-security-onprem-ssas-tabular/createusersecuritytable.png)
 
-2. 创建并保存表后，需要在 **DimUserSecurity** 表的 **SalesTerritoryID** 列和 **DimSalesTerritory** 表的 **SalesTerritoryKey** 列之间建立关系，如下所示。 
+2. 创建并保存表后，如下所示,需要在 **DimUserSecurity** 表的 **SalesTerritoryID** 列和 **DimSalesTerritory** 表的 **SalesTerritoryKey** 列之间建立关系。 
 
-   在 **SSMS** 中，右键单击 **DimUserSecurity** 表，然后选择“设计”  。 接下来选择“表设计器 -> 关系...”  。完成后，保存表。
+   在 **SSMS** 中，右键单击 **DimUserSecurity** 表，然后选择“设计”。接下来选择“表设计器 -> 关系...”。完成后，保存表。
    
    ![](media/desktop-tutorial-row-level-security-onprem-ssas-tabular/createusersecuritytable_keys.png)
 
-3. 将用户添加到表中：右键单击 **DimUserSecurity** 表，然后选择“编辑前 200 行”  。 添加用户后，**DimUserSecurity** 表应显示类似如下的内容，但其中包含的是你自己的用户：
+3. 将用户添加到表中：右键单击 **DimUserSecurity** 表，然后选择“编辑前 200 行”。添加用户后，**DimUserSecurity** 表应显示如下类似的内容，但其中包含的是你自己的用户：
    
    ![](media/desktop-tutorial-row-level-security-onprem-ssas-tabular/createusersecuritytable_users.png)
    
-   你将在即将开始的任务中看到这些用户。
+   你在即将开始的任务中将看到这些用户。
 
-4. 接下来，使用 **DimSalesTerritory** 表执行*内部联接*，该表显示与用户关联的区域详细信息。 此处的 SQL 代码执行*内部联接*，下图显示表随后可能显示的内容。
+4. 接下来，使用 **DimSalesTerritory** 表执行*内部联接*，该表显示与用户关联的区域详细信息。 此处执行的SQL代码是*内部联接*，下图显示表随后可能出现的内容。
    
        select b.SalesTerritoryCountry, b.SalesTerritoryRegion, a.EmployeeID, a.FirstName, a.LastName, a.UserName from [dbo].[DimUserSecurity] as a join  [dbo].[DimSalesTerritory] as b on a.[SalesTerritoryID] = b.[SalesTerritoryKey]
    
    ![](media/desktop-tutorial-row-level-security-onprem-ssas-tabular/createusersecuritytable_join_users.png)
 
-   由于在**步骤 2** 中创建的关系，该图显示负责各个销售区域的人员。 例如，可以看到 **Jon Doe** 负责 **Australia**。 
+   通过在**步骤 2** 中创建的关联关系，该图会显示各个销售区域的负责人员。例如，可以看到 **Jon Doe** 负责 **Australia**。 
 
 ## <a name="task-2-create-the-tabular-model-with-facts-and-dimension-tables"></a>任务 2：创建含事实数据表和维度表的表格模型
 
-1. 准备好关系数据仓库后，需要定义表格模型。 可以使用 [**SQL Server Data Tools (SSDT)** ](https://docs.microsoft.com/sql/ssdt/sql-server-data-tools) 创建模型。 有关详细信息，请参阅[创建新的表格模型项目](https://msdn.microsoft.com/library/hh231689.aspx)。
+1. 准备好关系数据仓库后，需要定义表格模型。可以使用 [**SQL Server Data Tools (SSDT)** ](https://docs.microsoft.com/sql/ssdt/sql-server-data-tools) 创建模型。有关详细信息，请参阅[创建新的表格模型项目](https://msdn.microsoft.com/library/hh231689.aspx)。
 
-2. 将所有必需表导入模型，如下所示。
+2. 如下所示，将所有必需表导入模型。
    
     ![](media/desktop-tutorial-row-level-security-onprem-ssas-tabular/ssdt_model.png)
 
-3. 在导入必需的表之后，您需要定义一个名为 **SalesTerritoryUsers**的具有**读取**权限的角色。 在 SQL Server Data Tools 中选择“模型”菜单，然后选择“角色”   。 在“角色管理器”对话框中，选择“新建”   。
+3. 在导入必需表之后，需要定义一个名为 **SalesTerritoryUsers**的具有**读取**权限的角色。 在 SQL Server Data Tools 中选择“模型”菜单，然后选择“角色”。 在“角色管理器”对话框中，选择“新建”。
 
-4. 在“角色管理器”中的“成员”选项卡下，添加已通过**任务 1 - 步骤 3** 在 **DimUserSecurity** 表中定义的用户   。
+4. 在“角色管理器”中的“成员”选项卡下，添加之前通过**任务 1 - 步骤 3** 在 **DimUserSecurity** 表中定义的用户   。
    
     ![](media/desktop-tutorial-row-level-security-onprem-ssas-tabular/rolemanager.png)
 
-5. 接下来，为 **DimSalesTerritory** 和 **DimUserSecurity** 表添加适当的函数，如下面的**行筛选器**选项卡下所示。
+5. 接下来，为 **DimSalesTerritory** 表和 **DimUserSecurity** 表添加适当的函数，如下图**行筛选器**选项卡中所示内容。
    
     ![](media/desktop-tutorial-row-level-security-onprem-ssas-tabular/rolemanager_complete.png)
 
-6. 在此步骤中，使用 **LOOKUPVALUE** 函数返回列的值，其中 Windows 用户名与 **USERNAME** 函数返回的用户名匹配。 然后，可以将查询限制为 **LOOKUPVALUE** 返回的值与相同或相关表中的值匹配的情况。 在 **DAX 筛选器**列中，键入以下公式︰
+6. 在此步骤中，当Windows 用户名与 **USERNAME** 函数返回的用户名想匹配时使用 **LOOKUPVALUE** 函数返回特定列中的值。 然后，可以将查询限定为只返回与**LOOKUPVALUE** 函数结果相同或相关的表。 在 **DAX 筛选器**列中，键入以下公式︰
    
        =DimSalesTerritory[SalesTerritoryKey]=LOOKUPVALUE(DimUserSecurity[SalesTerritoryID], DimUserSecurity[UserName], USERNAME(), DimUserSecurity[SalesTerritoryID], DimSalesTerritory[SalesTerritoryKey])
 
