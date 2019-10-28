@@ -20,7 +20,7 @@ ms.locfileid: "70751675"
 ---
 # <a name="dynamic-row-level-security-with-analysis-services-tabular-model"></a>通过 Analysis Services 表格模型实现动态行级别安全性
 
-使用示例数据集完成以下步骤，本教程将演示如何在 **Analysis Services 表格模型**中实现[**行级别安全性**](service-admin-rls.md)以及如何在 Power BI 报表中使用它。 
+本教程将通过使用示例数据集完成以下步骤来演示如何在 **Analysis Services 表格模型**中实现[**行级别安全性**](service-admin-rls.md)以及如何在 Power BI 报表中使用它。 
 
 * 在 [**AdventureworksDW2012** 数据库](https://github.com/Microsoft/sql-server-samples/releases/tag/adventureworks)中创建新的安全表
 * 生成含有所需事实数据表和维度表的表格模型
@@ -43,7 +43,7 @@ ms.locfileid: "70751675"
    
    ![](media/desktop-tutorial-row-level-security-onprem-ssas-tabular/createusersecuritytable.png)
 
-2. 创建并保存表后，如下所示,需要在 **DimUserSecurity** 表的 **SalesTerritoryID** 列和 **DimSalesTerritory** 表的 **SalesTerritoryKey** 列之间建立关系。 
+2. 创建并保存表后，如下所示，需要在 **DimUserSecurity** 表的 **SalesTerritoryID** 列和 **DimSalesTerritory** 表的 **SalesTerritoryKey** 列之间建立关系。 
 
    在 **SSMS** 中，右键单击 **DimUserSecurity** 表，然后选择“设计”。接下来选择“表设计器 -> 关系...”。完成后，保存表。
    
@@ -81,22 +81,22 @@ ms.locfileid: "70751675"
    
     ![](media/desktop-tutorial-row-level-security-onprem-ssas-tabular/rolemanager_complete.png)
 
-6. 在此步骤中，当Windows 用户名与 **USERNAME** 函数返回的用户名想匹配时使用 **LOOKUPVALUE** 函数返回特定列中的值。 然后，可以将查询限定为只返回与**LOOKUPVALUE** 函数结果相同或相关的表。 在 **DAX 筛选器**列中，键入以下公式︰
+6. 在此步骤中，当Windows用户名与 **USERNAME** 函数返回的用户名相匹配时使用 **LOOKUPVALUE** 函数返回特定列中的值。然后，可以将查询结果限定为与**LOOKUPVALUE** 函数结果相同或相关的表内。 在 **DAX 筛选器**列中，键入以下公式︰
    
        =DimSalesTerritory[SalesTerritoryKey]=LOOKUPVALUE(DimUserSecurity[SalesTerritoryID], DimUserSecurity[UserName], USERNAME(), DimUserSecurity[SalesTerritoryID], DimSalesTerritory[SalesTerritoryKey])
 
-    在此公式中，**LOOKUPVALUE** 函数将返回 **DimUserSecurity[SalesTerritoryID]** 列的所有值，其中，**DimUserSecurity[UserName]** 与当前登录的 Windows 用户名相同，**DimUserSecurity[SalesTerritoryID]** 与 **DimSalesTerritory[SalesTerritoryKey]** 相同。
+    在此公式中，**LOOKUPVALUE** 函数将返回 **DimUserSecurity[SalesTerritoryID]** 列中满足以下条件的值，即**DimUserSecurity[UserName]** 与当前登录的 Windows 用户名相同，并且**DimUserSecurity[SalesTerritoryID]** 与 **DimSalesTerritory[SalesTerritoryKey]** 相同。
    
     > [!IMPORTANT]
     > 在使用行级别安全性时，不支持使用 DAX 函数 [USERELATIONSHIP](https://msdn.microsoft.com/query-bi/dax/userelationship-function-dax)。
 
-   接下来，**LOOKUPVALUE** 返回的 Sales SalesTerritoryKey 集将用于限制 **DimSalesTerritory** 中显示的行。 仅显示 **SalesTerritoryKey** 值位于 **LOOKUPVALUE** 函数返回的 ID 中的行。
+   接下来，使用**LOOKUPVALUE** 返回的 Sales SalesTerritoryKey 值去限制 **DimSalesTerritory** 中所需显示的行。仅显示 **SalesTerritoryKey** 值与 **LOOKUPVALUE** 函数返回的 ID 相匹配的行。
 
 7. 对于 **DimUserSecurity** 表，在“DAX 筛选器”列中，添加以下公式  ：
    
        =FALSE()
 
-    此公式指定所有列都解析为 `false`；这意味着无法查询 **DimUserSecurity** 表列。
+    此公式指定所有列都解析为 `false`；这意味着 **DimUserSecurity** 表列将无法被查询。
 
 8. 现在，需要处理并部署模型。 有关详细信息，请参阅[部署文章](https://msdn.microsoft.com/library/hh231693.aspx)。
 
@@ -110,7 +110,7 @@ ms.locfileid: "70751675"
    
    ![](media/desktop-tutorial-row-level-security-onprem-ssas-tabular/pbi_gateway.png)
 
-  完成上一个步骤后，网关便已配置完成，并且可与本地 Analysis Services 数据源交互  。
+  完成上一个步骤后，网关便已配置完成，并且可与本地 Analysis Services 数据源进行交互  。
 
 ## <a name="task-4-create-report-based-on-analysis-services-tabular-model-using-power-bi-desktop"></a>任务 4：使用 Power BI Desktop 基于 Analysis Services 表格模型创建报表
 
@@ -120,7 +120,7 @@ ms.locfileid: "70751675"
    
    ![](media/desktop-tutorial-row-level-security-onprem-ssas-tabular/getdata.png)
 
-3. 填写 **Analysis Services** 表格实例详细信息，然后选择“实时连接”  。 然后，选择“确定”  。 使用 **Power BI** 时，动态安全性仅适用于**实时连接**。
+3. 填写 **Analysis Services** 表格实例详细信息并选择“实时连接”。 然后，选择“确定”。 使用 **Power BI** 时，动态安全性仅适用于**实时连接**。
    
    ![](media/desktop-tutorial-row-level-security-onprem-ssas-tabular/getdata_connectlive.png)
 
@@ -128,15 +128,15 @@ ms.locfileid: "70751675"
    
    ![](media/desktop-tutorial-row-level-security-onprem-ssas-tabular/getdata_connectlive.png)
 
-   **Power BI Desktop** 现在在画布右侧的“字段”  窗格中显示所有可用字段。
+   现在，**Power BI Desktop** 会在画布右侧的“字段”窗格中显示所有可用字段。
 
-5. 在右侧的“字段”窗格中，从“FactInternetSales”表中选择“SalesAmount”度量值，从“SalesTerritory”表中选择“SalesTerritoryRegion”维度      。
+5. 在右侧的“字段”窗格中，从“FactInternetSales”表内选择“SalesAmount”度量值，从“SalesTerritory”表中选择“SalesTerritoryRegion”维度。
 
-6. 为了让此报表看上去简单明了，现在不会再添加任何列。 若要让数据表示形式更有意义，请将可视化效果更改为“环形图”  。
+6. 为了让此报表看上去简单明了，现在不会再添加任何其它列。为了让数据表现形式更有意义，现将可视化效果更改为“环形图”  。
    
    ![](media/desktop-tutorial-row-level-security-onprem-ssas-tabular/donut_chart.png)
 
-7. 等报表准备就绪后，你就可以将它直接发布到 Power BI 门户。 从 **Power BI Desktop** 的“主页”功能区中选择“发布”   。
+7. 等报表准备就绪后，可以将它直接发布到 Power BI 门户上。 从 **Power BI Desktop** 的“主页”功能区中选择“发布” 。
 
 ## <a name="task-5-create-and-share-a-dashboard"></a>任务 5：创建和共享仪表板
 
@@ -154,23 +154,23 @@ ms.locfileid: "70751675"
    
    ![](media/desktop-tutorial-row-level-security-onprem-ssas-tabular/pbi_dashboard.png)
 
-3. 当登录到 Power BI 服务并查看 Sumit 创建的共享仪表板时，Jon Doe 应该只能看到其负责区域的销售额   。 
+3. 当登录到 Power BI 服务并查看 Sumit 创建的共享仪表板时，Jon Doe 应该只能看到其负责区域的销售额。 
    
    ![](media/desktop-tutorial-row-level-security-onprem-ssas-tabular/dashboard_jon_doe.png)
 
-    祝贺你！ **Power BI 服务**显示本地 **Analysis Services** 表格模型中定义的动态行级别安全性。 Power BI 使用 **EffectiveUserName** 属性将当前 Power BI 用户凭据发送到本地数据源，以运行查询。
+    祝贺你！ **Power BI 服务**根据本地 **Analysis Services** 表格模型中定义的动态行级别安全性显示了数据。 Power BI 使用 **EffectiveUserName** 属性将当前 Power BI 用户凭据发送到本地数据源，以运行查询。
 
 ## <a name="task-6-understand-what-happens-behind-the-scenes"></a>任务 6：了解幕后发生了什么
 
-此任务假定你熟悉 [SQL 事件探查器](https://docs.microsoft.com/sql/tools/sql-server-profiler/sql-server-profiler)，因为你需要捕获本地 SSAS 表格实例上的 SQL Server 事件探查器踪迹。
+此任务假定你熟悉 [SQL 事件探查器](https://docs.microsoft.com/sql/tools/sql-server-profiler/sql-server-profiler)，因为你需要通过SQL Server事件探查器捕获本地 SSAS 表格实例上发生的事件。
 
-1. 只要用户 (Jon Doe) 访问 Power BI 服务中的仪表板，会话就会初始化。 你会发现，**salesterritoryusers** 角色立即生效，有效用户名为 **<EffectiveUserName>jondoe@moonneo.com</EffectiveUserName>**
+1. 当用户 (Jon Doe) 访问 Power BI 服务中的仪表板时会话就会进行初始化。你会发现，**salesterritoryusers** 角色立即生效，有效用户名为 **<EffectiveUserName>jondoe@moonneo.com</EffectiveUserName>**
    
        <PropertyList><Catalog>DefinedSalesTabular</Catalog><Timeout>600</Timeout><Content>SchemaData</Content><Format>Tabular</Format><AxisFormat>TupleFormat</AxisFormat><BeginRange>-1</BeginRange><EndRange>-1</EndRange><ShowHiddenCubes>false</ShowHiddenCubes><VisualMode>0</VisualMode><DbpropMsmdFlattened2>true</DbpropMsmdFlattened2><SspropInitAppName>PowerBI</SspropInitAppName><SecuredCellValue>0</SecuredCellValue><ImpactAnalysis>false</ImpactAnalysis><SQLQueryMode>Calculated</SQLQueryMode><ClientProcessID>6408</ClientProcessID><Cube>Model</Cube><ReturnCellProperties>true</ReturnCellProperties><CommitTimeout>0</CommitTimeout><ForceCommitTimeout>0</ForceCommitTimeout><ExecutionMode>Execute</ExecutionMode><RealTimeOlap>false</RealTimeOlap><MdxMissingMemberMode>Default</MdxMissingMemberMode><DisablePrefetchFacts>false</DisablePrefetchFacts><UpdateIsolationLevel>2</UpdateIsolationLevel><DbpropMsmdOptimizeResponse>0</DbpropMsmdOptimizeResponse><ResponseEncoding>Default</ResponseEncoding><DirectQueryMode>Default</DirectQueryMode><DbpropMsmdActivityID>4ea2a372-dd2f-4edd-a8ca-1b909b4165b5</DbpropMsmdActivityID><DbpropMsmdRequestID>2313cf77-b881-015d-e6da-eda9846d42db</DbpropMsmdRequestID><LocaleIdentifier>1033</LocaleIdentifier><EffectiveUserName>jondoe@moonneo.com</EffectiveUserName></PropertyList>
 
-2. 基于有效用户名请求，Analysis Services 在查询本地 Active Directory 后将请求转换为真实的 moonneo/jondoe 凭据。 **Analysis Services** 获取凭据后，**Analysis Services** 会返回用户有权查看和访问的数据。
+2. 基于有效用户名请求，Analysis Services 在查询本地 Active Directory 后将请求转换为真实的 moonneo/jondoe 凭据。 **Analysis Services** 获取凭据后会返回用户有权查看和访问的数据。
 
-3. 如果使用仪表板执行更多活动，例如，如果 Jon Doe 从仪表板转到基础报表，则可以在 SQL 事件探查器中看到作为 DAX 查询返回到 Analysis Services 表格模型的特定查询。
+3. 如果仪表板发生更多活动，例如，当Jon Doe 从仪表板转到基础报表时，通过SQL事件探查器可以看到根据DAX查询设定，Analysis Services 表格模型会相应返回一个特定的查询。
    
    ![](media/desktop-tutorial-row-level-security-onprem-ssas-tabular/profiler1.png)
 
@@ -204,5 +204,5 @@ ms.locfileid: "70751675"
 
 * Power BI 的本地行级别安全性只能用于实时连接。
 
-* 通过“实时连接”访问报表的用户可在 Power BI 服务中立即获得处理模型后的任何数据更改  。
+* 模型中的任意数据更改结果都可被使用“实时连接”方式访问报表的用户即刻获得。
 
