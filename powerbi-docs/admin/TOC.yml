@@ -1,4 +1,6 @@
-- name: Power BI 管理
+- name: Power BI 管理员文档
+  href: index.yml
+  expanded: true
   items:
     - name: 概述
       expanded: true
@@ -8,7 +10,7 @@
     - name: 概念
       expanded: true
       items:
-        - name: Office 365 中的管理员角色
+        - name: Microsoft 365 中的管理角色
           href: ../service-admin-role.md
         - name: 常见问题解答 (FAQ)
           href: ../service-admin-faq.md
@@ -22,9 +24,9 @@
               href: ../service-admin-licensing-organization.md
             - name: 购买 Power BI Pro
               href: ../service-admin-purchasing-power-bi-pro.md
-            - name: 使用 Office 365 试用版注册
+            - name: 使用 Microsoft 365 试用版注册
               href: ../service-admin-signing-up-for-power-bi-with-a-new-office-365-trial.md
-            - name: 使用 Office 365 合作伙伴添加 Power BI
+            - name: 使用 Microsoft 365 合作伙伴版添加 Power BI
               href: ../service-admin-syndication-partner.md
         - name: 使用管理门户
           href: ../service-admin-portal.md
@@ -32,19 +34,19 @@
           href: ../service-admin-where-is-my-tenant-located.md
         - name: 找到已登录的用户
           href: ../service-admin-access-usage.md
-        - name: Auditing Power BI
+        - name: 审核
           href: ../service-admin-auditing.md
         - name: 跟踪服务运行状况
           href: ../service-admin-health.md
-        - name: 关闭 Power BI 帐户
+        - name: 关闭帐户
           href: ../service-admin-closing-your-account.md
-        - name: Power BI 和 ExpressRoute
+        - name: ExpressRoute
           href: ../service-admin-power-bi-expressroute.md
         - name: 使用 Azure AD B2B
           href: ../service-admin-azure-ad-b2b.md
-        - name: Power BI 的行级安全性
+        - name: 行级别安全性
           href: ../service-admin-rls.md
-        - name: Power BI 存档工作区
+        - name: 存档工作区
           href: ../service-admin-power-bi-archived-workspace.md
         - name: 使用 Intune 配置移动应用
           href: ../service-admin-mobile-intune.md

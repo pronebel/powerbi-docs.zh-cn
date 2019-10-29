@@ -1047,6 +1047,8 @@
               href: 'https://go.microsoft.com/fwlink/?linkid=849021'
             - name: 通过 OData 源访问共享数据集
               href: report-server/access-dataset-odata.md
+            - name: 使用 PowerShell 更改数据源连接字符串
+              href: report-server/connect-data-source-apis.md
             - name: 配置计划刷新
               href: report-server/configure-scheduled-refresh.md
             - name: 向报表添加注释
