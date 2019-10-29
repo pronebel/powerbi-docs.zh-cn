@@ -19,7 +19,7 @@ ms.locfileid: "71251502"
 ---
 # <a name="show-data-with-power-bi-reports"></a>使用 Power BI 报表显示数据
 
-Power BI 视觉对象是使用基础数据集中的数据构造而成的。 如果你对幕后感兴趣，可以使用 Power BI 服务*显示*用于在报表中创建视觉对象的数据。 在选择“显示数据”后，Power BI 会在视觉对象下方（或旁边）显示相应数据  。
+Power BI 视觉对象是使用基础数据集中的数据构造而成的。如果你有兴趣了解幕后情况，可以使用 Power BI 服务显示**用于在报表中创建视觉对象的数据。在选择“显示数据”后，Power BI 会在视觉对象下方（或旁边）显示相应数据。
 
 在仪表板上，若要查看基础数据，请使用[“导出至 Excel”](end-user-export.md)功能。
 
@@ -32,7 +32,7 @@ Power BI 视觉对象是使用基础数据集中的数据构造而成的。 如�
    
    ![垂直显示视觉对象和数据](./media/end-user-show-data/power-bi-show-data-new.png)
 
-4. 若要更改显示方向，可从视觉对象的右上角 ![布局图标](media/end-user-show-data/power-bi-vertical-icon-new.png) 选择垂直布局。
+4. 若要更改显示方向，可从可视化效果的右上角选择垂直布局 ![布局图标](media/end-user-show-data/power-bi-vertical-icon-new.png)。
    
    ![水平显示视觉对象和数据](./media/end-user-show-data/power-bi-show-data-rotate.png)
 
