@@ -48,7 +48,7 @@ Power BI 服务 (app.powerbi.com) 的新外观使报表查看和交互更加容�
 ![查看报表详细信息](media/service-new-look/power-bi-new-look-metadata.png)
 
 ## <a name="3-vertical-list-of-pages"></a>3.页面的垂直列表 
-报表页名称现在存放在垂直窗格的列表中。这种存放方式类似于 Word 和 PowerPoint 中的导航，能突出显示报表，适得其不容易被忽略。 可以通过调整垂直窗格的大小，增加或减小报表区域其余部分的空间。
+报表页名称现在存放在垂直窗格的列表中。这种存放方式类似于 Word 和 PowerPoint 中的导航，能突出显示报表，使得其不容易被忽略。可以通过调整垂直窗格的大小，增加或减小报表区域其余部分的空间。
 
 ![报表页](media/service-new-look/power-bi-new-look-report-pages.png)
 
@@ -66,19 +66,19 @@ Power BI 服务 (app.powerbi.com) 的新外观使报表查看和交互更加容�
 
 ### <a name="where-are-file-menu-actions"></a>“文件”菜单操作位于何处？
 
-想找“文件”菜单操作？过去位于“文件”菜单上的操作现在也位于省略号 (...) 菜单上  。 
+想查找“文件”菜单中的操作？过去位于“文件”菜单上的操作现在也位于“更多”选项 (...) 菜单上。
 
 ![新外观中的“文件”菜单](media/service-new-look/power-bi-file-menu-new-look.gif)
 
 ## <a name="6-new-filter-experience"></a>6.新筛选器体验
 
-默认情况下，新外观中使用最新升级的筛选器应用窗格和筛选器新建窗格）。即使报表设计器尚未升级到新的筛选器外观，也会显示新筛选器窗格。
+默认情况下，新外观中使用最新升级的筛选器应用窗格和筛选器新建窗格。即使报表设计器尚未升级到新的筛选器外观，也会显示新筛选器窗格。
 
 ![筛选器重述](media/service-new-look/power-bi-new-look-filters.png)
 
 ## <a name="dashboard-new-look-experience"></a>仪表板的“新外观”体验 
 
-为了保证一致的交互体验，与报表和应用一样，仪表板也升级为了简化的操作栏，但保留了功能上的差异。 下面是仪表板中的操作的演练。
+为了保证一致的交互体验，与报表和应用一样，仪表板也升级为了简化的操作栏，但保留了功能上的差异。下面是仪表板中的操作的演练。
  
 ![新外观中的仪表板操作栏](media/service-new-look/power-bi-dashboard-action-bar-new-look.gif)
 
