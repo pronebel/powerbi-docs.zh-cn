@@ -30,7 +30,7 @@ ms.locfileid: "72589533"
 
     ![添加仪表板](media/end-user-export/power-bi-dashboards.png)
 
-2. 将鼠标悬停在视觉对象上方来显示省略号 (...)，然后单击以显示“操作”菜单。
+2. 将鼠标悬停在视觉对象上方以显示“更多”选项 (...)，然后单击以显示“操作”菜单。
 
     ![选择省略号时显示的菜单](media/end-user-export/power-bi-action-menu.png)
 
@@ -59,7 +59,7 @@ ms.locfileid: "72589533"
     ![选定的筛选器窗格](media/end-user-export/power-bi-export-filter.png)
 
 
-3. 选择视觉对象右上角的省略号。 选择“导出数据”  。
+3. 选择可视化效果右上角的省略号。选择“导出数据”。
 
     ![导出从下拉列表中选择的数据](media/end-user-export/power-bi-export-report.png)
 
