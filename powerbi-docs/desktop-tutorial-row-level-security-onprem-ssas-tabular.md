@@ -162,7 +162,7 @@ ms.locfileid: "70751675"
 
 ## <a name="task-6-understand-what-happens-behind-the-scenes"></a>任务 6：了解幕后发生了什么
 
-此任务假定你熟悉 [SQL 事件探查器](https://docs.microsoft.com/sql/tools/sql-server-profiler/sql-server-profiler)，因为你需要捕获本地 SSAS 表格实例上的 SQL Server 事件探查器踪迹。
+此任务假定你熟悉 [SQL Profiler](https://docs.microsoft.com/sql/tools/sql-server-profiler/sql-server-profiler)，因为你需要通过 SQL Server Profiler 捕获本地 SSAS 表格实例上发生的事件。
 
 1. 只要用户 (Jon Doe) 访问 Power BI 服务中的仪表板，会话就会初始化。 你会发现，**salesterritoryusers** 角色立即生效，有效用户名为 **<EffectiveUserName>jondoe@moonneo.com</EffectiveUserName>**
    
@@ -170,7 +170,7 @@ ms.locfileid: "70751675"
 
 2. 基于有效用户名请求，Analysis Services 在查询本地 Active Directory 后将请求转换为真实的 moonneo/jondoe 凭据。 **Analysis Services** 获取凭据后，**Analysis Services** 会返回用户有权查看和访问的数据。
 
-3. 如果使用仪表板执行更多活动，例如，如果 Jon Doe 从仪表板转到基础报表，则可以在 SQL 事件探查器中看到作为 DAX 查询返回到 Analysis Services 表格模型的特定查询。
+3. 如果仪表板发生更多活动，例如，当 Jon Doe 从仪表板转到基础报表时，通过 SQL Profiler 可以看到根据 DAX 查询设定，Analysis Services 表格模型会相应返回一个特定的查询。
    
    ![](media/desktop-tutorial-row-level-security-onprem-ssas-tabular/profiler1.png)
 

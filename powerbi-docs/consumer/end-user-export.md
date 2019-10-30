@@ -30,7 +30,7 @@ ms.locfileid: "72589533"
 
     ![添加仪表板](media/end-user-export/power-bi-dashboards.png)
 
-2. 将鼠标悬停在视觉对象上方以显示省略号 (...)，然后单击以显示“操作”菜单。
+2. 将鼠标悬停在视觉对象上方以显示“更多”选项 (...)，然后单击以显示“操作”菜单。
 
     ![选择省略号时显示的菜单](media/end-user-export/power-bi-action-menu.png)
 
@@ -45,7 +45,7 @@ ms.locfileid: "72589533"
     ![Excel 中的年初至今总单位数](media/end-user-export/power-bi-excel.png)
 
 
-## <a name="from-a-visual-in-a-report"></a>从报表中的视觉对象
+## <a name="from-a-visual-in-a-report"></a>报表中的视觉对象
 你可以从报表中的视觉对象内导出 .csv 或 .xlsx (Excel) 格式的数据。 
 
 1. 在仪表板上，选择磁贴以打开其所在的原始报表。  在此示例中，我们选择与上面相同的视觉对象，即“年初至今总单位数差额百分比”  。 
