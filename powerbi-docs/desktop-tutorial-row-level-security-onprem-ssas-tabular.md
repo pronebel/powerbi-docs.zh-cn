@@ -26,7 +26,7 @@ ms.locfileid: "70751675"
 * 生成含有所需事实数据表和维度表的表格模型
 * 定义用户角色和权限
 * 将模型部署到 **Analysis Services 表格**实例
-* 生成 Power BI Desktop 报表，其中显示为访问报表的用户量身定制的数据
+* 生成 Power BI Desktop 报表，为访问报表的用户显示量身定制的数据
 * 将报表部署到 **Power BI** 服务。
 * 基于报表创建新的仪表板
 * 与您的同事共享仪表板 
@@ -53,7 +53,7 @@ ms.locfileid: "70751675"
    
    ![](media/desktop-tutorial-row-level-security-onprem-ssas-tabular/createusersecuritytable_users.png)
    
-   你将在即将开始的任务中看到这些用户。
+   你在即将开始的任务中将看到这些用户。
 
 4. 接下来，使用 **DimSalesTerritory** 表执行*内部联接*，该表显示与用户关联的区域详细信息。 此处的 SQL 代码执行*内部联接*，下图显示表随后可能显示的内容。
    
@@ -67,7 +67,7 @@ ms.locfileid: "70751675"
 
 1. 准备好关系数据仓库后，需要定义表格模型。 可以使用 [**SQL Server Data Tools (SSDT)** ](https://docs.microsoft.com/sql/ssdt/sql-server-data-tools) 创建模型。 有关详细信息，请参阅[创建新的表格模型项目](https://msdn.microsoft.com/library/hh231689.aspx)。
 
-2. 将所有必需表导入模型，如下所示。
+2. 如下所示，将所有必需表导入模型。
    
     ![](media/desktop-tutorial-row-level-security-onprem-ssas-tabular/ssdt_model.png)
 
@@ -81,7 +81,7 @@ ms.locfileid: "70751675"
    
     ![](media/desktop-tutorial-row-level-security-onprem-ssas-tabular/rolemanager_complete.png)
 
-6. 在此步骤中，使用 **LOOKUPVALUE** 函数返回列的值，其中 Windows 用户名与 **USERNAME** 函数返回的用户名匹配。 然后，可以将查询限制为 **LOOKUPVALUE** 返回的值与相同或相关表中的值匹配的情况。 在 **DAX 筛选器**列中，键入以下公式︰
+6. 在此步骤中，使用 **LOOKUPVALUE** 函数返回某个列的值，该列中的 Windows 用户名与 **USERNAME** 函数返回的用户名匹配。 然后，可以将查询限定为 **LOOKUPVALUE** 返回的值与同一表或相关表中的值相匹配的情况。 在 **DAX 筛选器**列中，键入以下公式︰
    
        =DimSalesTerritory[SalesTerritoryKey]=LOOKUPVALUE(DimUserSecurity[SalesTerritoryID], DimUserSecurity[UserName], USERNAME(), DimUserSecurity[SalesTerritoryID], DimSalesTerritory[SalesTerritoryKey])
 

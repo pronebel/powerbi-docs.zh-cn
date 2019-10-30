@@ -22,7 +22,7 @@ ms.locfileid: "72589533"
 
 [!INCLUDE [power-bi-service-new-look-include](../includes/power-bi-service-new-look-include.md)]
 
-若要查看用于创建视觉对象的数据，可以[在 Power BI 中显示该数据](end-user-show-data.md)或将这些数据导出到 Excel。 导出数据的选项需要某种类型或许可证以及对此内容的编辑权限。 如果无法导出，请与 Power BI 管理员联系。 
+若要查看用于创建视觉对象的数据，可以[在 Power BI 中显示该数据](end-user-show-data.md)或将这些数据导出到 Excel。 使用导出功能项要求被导出数据符合特定类型或许可证并且当前用户对该内容有编辑权限。 如果无法导出，请与 Power BI 管理员联系。 
 
 ## <a name="from-a-visual-on-a-power-bi-dashboard"></a>Power BI 仪表板上的视觉对象
 
@@ -46,9 +46,9 @@ ms.locfileid: "72589533"
 
 
 ## <a name="from-a-visual-in-a-report"></a>从报表中的视觉对象
-你可以从报表中的视觉对象以 .csv 或 .xlsx (Excel) 格式导出数据。 
+你可以从报表中的视觉对象内导出 .csv 或 .xlsx (Excel) 格式的数据。 
 
-1. 在仪表板上，选择磁贴以打开基础报表。  在此示例中，我们选择与上面相同的视觉对象，即“年初至今总单位数差额百分比”  。 
+1. 在仪表板上，选择磁贴以打开其所在的原始报表。  在此示例中，我们选择与上面相同的视觉对象，即“年初至今总单位数差额百分比”  。 
 
     ![突出显示的仪表板磁贴](media/end-user-export/power-bi-export-reports.png)
 

@@ -47,44 +47,44 @@ Power BI 服务 (app.powerbi.com) 的新外观使报表查看和交互更加容�
 
 ![查看报表详细信息](media/service-new-look/power-bi-new-look-metadata.png)
 
-## <a name="3-vertical-list-of-pages"></a>3.页面的垂直列表 
-报表页名称现在存放在垂直窗格的列表中。这种存放方式类似于 Word 和 PowerPoint 中的导航，能突出显示报表，使得其不容易被忽略。可以通过调整垂直窗格的大小，增加或减小报表区域其余部分的空间。
+## <a name="3-vertical-list-of-pages"></a>3.页的垂直列表 
+报表页名称现在存放在垂直窗格的列表中。 这种存放方式类似于 Word 和 PowerPoint 中的导航，能突出显示报表，使得其不容易被忽略。 可以通过调整垂直窗格的大小，增加或减小报表区域其余部分的空间。
 
 ![报表页](media/service-new-look/power-bi-new-look-report-pages.png)
 
 ## <a name="4-simplified-action-bar"></a>4.简化的操作栏 
 
-更新后的操作栏位于报表顶部，显示了报表使用者最常用、最重要的命令。在此可以更轻松地进行导出、订阅、与他人协作等操作以及通过筛选器和书签对报表进行更深入地了解。
+更新后的操作栏位于报表顶部，显示了报表使用者最常用、最重要的命令。 在此可以更轻松地进行导出、订阅、与他人协作等操作以及通过筛选器和书签对报表进行更深入地了解。
 
 ![新建操作栏](media/service-new-look/power-bi-new-look-action-bar.png)
 
 ## <a name="5-where-are-the-report-commands"></a>5.报表命令位于何处？
 
-我们没有从旧外观中删除任何功能。可以通过展开操作栏中的省略号（... 菜单），找到其他命令（如编辑、保存副本等）。 此外，还可以从内容列表访问使用情况指标。
+我们没有从旧外观中删除任何功能。 可以通过展开操作栏中的省略号（... 菜单），找到其他命令（如编辑、保存副本等）。 此外，还可以从内容列表访问使用情况指标。
 
 ![新外观中的报表操作栏](media/service-new-look/power-bi-report-action-bar-new-look.gif)
 
 ### <a name="where-are-file-menu-actions"></a>“文件”菜单操作位于何处？
 
-想查找“文件”菜单中的操作？过去位于“文件”菜单上的操作现在也位于“更多”选项 (...) 菜单上。
+想查找“文件”菜单操作  ？ 过去位于“文件”菜单上的操作现在也位于省略号 (...) 菜单上  。 
 
 ![新外观中的“文件”菜单](media/service-new-look/power-bi-file-menu-new-look.gif)
 
 ## <a name="6-new-filter-experience"></a>6.新筛选器体验
 
-默认情况下，新外观中使用最新升级的筛选器应用窗格和筛选器新建窗格。即使报表设计器尚未升级到新的筛选器外观，也会显示新筛选器窗格。
+默认情况下，新外观中使用最新升级的筛选器应用窗格和筛选器新建窗格。 即使报表设计器尚未升级到新的筛选器外观，也会显示新筛选器窗格。
 
 ![筛选器重述](media/service-new-look/power-bi-new-look-filters.png)
 
 ## <a name="dashboard-new-look-experience"></a>仪表板的“新外观”体验 
 
-为了保证一致的交互体验，与报表和应用一样，仪表板也升级为了简化的操作栏，但保留了功能上的差异。下面是仪表板中的操作的演练。
+为了保证一致的交互体验，与报表和应用一样，仪表板也升级为了简化的操作栏，但保留了功能上的差异。 下面是仪表板中的操作的演练。
  
 ![新外观中的仪表板操作栏](media/service-new-look/power-bi-dashboard-action-bar-new-look.gif)
 
 ## <a name="no-changes-to-edit-mode"></a>编辑模式无更改 
 
-我们保留了与桌面版中类似的创作体验。新外观更改仅适用于阅读视图。
+我们保留了与桌面版中类似的创作体验。 新外观更改仅适用于阅读视图。
 
 ## <a name="next-steps"></a>后续步骤
 
