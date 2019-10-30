@@ -19,7 +19,7 @@ ms.locfileid: "72239962"
 ---
 # <a name="the-new-look-of-the-power-bi-service"></a>Power BI 服务的新外观
 
-Power BI 服务 (app.powerbi.com) 的新外观使报表查看和交互更加容易。 新外观更便捷，它基于你对其他 Microsoft 产品的熟悉程度。 在整个 Power BI 服务中，我们通过转换为较浅的颜色主题并更新图标，使报表内容成为主要的关注点。 下面概述了新外观中相较原外观的变化。 有关详细信息，请参阅编号部分：
+Power BI 服务 (app.powerbi.com) 的新外观使报表查看和交互更加容易。 新外观更便捷，操作更贴近于你熟悉的其他 Microsoft 产品。 在整个 Power BI 服务中，我们通过转换成浅色主题并更新图标使得报表内容成为主要的关注点。 下面概述了新外观中相较原外观的变化。 有关详细信息，请参阅编号部分：
 
 ![新外观更改概述](media/service-new-look/power-bi-new-look-changes.png)
 
@@ -43,18 +43,18 @@ Power BI 服务 (app.powerbi.com) 的新外观使报表查看和交互更加容�
 
 ## <a name="2-view-report-details"></a>2.查看报表详细信息 
 
-在顶部横幅中，可快速查看“上次刷新日期”和“联系信息”等详细信息。  打开菜单，查看报表的其他详细信息。 甚至可以向报表所有者发送电子邮件。
+在顶部横幅中，可快速查看“上次刷新日期”和“联系信息”等详细信息。  打开菜单可以查看报表的其他详细信息。 甚至可以向报表所有者发送电子邮件。
 
 ![查看报表详细信息](media/service-new-look/power-bi-new-look-metadata.png)
 
 ## <a name="3-vertical-list-of-pages"></a>3.页的垂直列表 
-报表页名称现在在垂直窗格的列表中。 它们很明显、不易忽视，类似于 Word 和 PowerPoint 中的导航。 可以通过调整垂直窗格的大小，增加或减小报表区域的其余部分。
+报表页名称现在存放在垂直窗格的列表中。 这种存放方式类似于 Word 和 PowerPoint 中的导航，能突出显示报表，使得其不容易被忽略。 可以通过调整垂直窗格的大小，增加或减小报表区域其余部分的空间。
 
 ![报表页](media/service-new-look/power-bi-new-look-report-pages.png)
 
 ## <a name="4-simplified-action-bar"></a>4.简化的操作栏 
 
-位于顶部、更新后的操作栏显示报表使用者最常用、最重要的命令。 通过筛选器和书签，可以更轻松地导出、订阅、与他人协作以及更深入地了解。
+更新后的操作栏位于报表顶部，显示了报表使用者最常用、最重要的命令。 在此可以更轻松地进行导出、订阅、与他人协作等操作以及通过筛选器和书签对报表进行更深入地了解。
 
 ![新建操作栏](media/service-new-look/power-bi-new-look-action-bar.png)
 
@@ -72,13 +72,13 @@ Power BI 服务 (app.powerbi.com) 的新外观使报表查看和交互更加容�
 
 ## <a name="6-new-filter-experience"></a>6.新筛选器体验
 
-默认情况下，新外观提供最新更新（如查看已应用的筛选器和新筛选器窗格）。 即使报表设计器尚未升级到新的筛选器体验，也会显示新筛选器窗格。
+默认情况下，新外观中使用最新升级的筛选器应用窗格和筛选器新建窗格。 即使报表设计器尚未升级到新的筛选器外观，也会显示新筛选器窗格。
 
 ![筛选器重述](media/service-new-look/power-bi-new-look-filters.png)
 
 ## <a name="dashboard-new-look-experience"></a>仪表板的“新外观”体验 
 
-与报表和应用一样，仪表板也具有简化的操作栏，以实现一致的体验，但会保留功能上的差异。 下面是仪表板中的操作的演练。
+为了保证一致的交互体验，与报表和应用一样，仪表板也升级为了简化的操作栏，但保留了功能上的差异。 下面是仪表板中的操作的演练。
  
 ![新外观中的仪表板操作栏](media/service-new-look/power-bi-dashboard-action-bar-new-look.gif)
 

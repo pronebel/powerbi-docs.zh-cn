@@ -48,7 +48,9 @@ ms.locfileid: "72589533"
 ## <a name="from-a-visual-in-a-report"></a>报表中的视觉对象
 你可以从报表中的视觉对象内导出 .csv 或 .xlsx (Excel) 格式的数据。 
 
+
 1. 在仪表板上，选择磁贴以打开其所在的原始报表。在此示例中，我们选择与上面相同的视觉对象，即“年初至今总单位数差额百分比”  。 
+
 
     ![突出显示的仪表板磁贴](media/end-user-export/power-bi-export-reports.png)
 
