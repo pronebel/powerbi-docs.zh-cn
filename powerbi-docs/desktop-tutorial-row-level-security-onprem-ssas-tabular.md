@@ -82,6 +82,7 @@ ms.locfileid: "70751675"
     ![](media/desktop-tutorial-row-level-security-onprem-ssas-tabular/rolemanager_complete.png)
 
 6. 在此步骤中，使用 **LOOKUPVALUE** 函数返回某个列的值，该列中的 Windows 用户名与 **USERNAME** 函数返回的用户名匹配。 然后，可以将查询限定为 **LOOKUPVALUE** 返回的值与同一表或相关表中的值相匹配的情况。在 **DAX 筛选器**列中，键入以下公式︰
+
    
        =DimSalesTerritory[SalesTerritoryKey]=LOOKUPVALUE(DimUserSecurity[SalesTerritoryID], DimUserSecurity[UserName], USERNAME(), DimUserSecurity[SalesTerritoryID], DimSalesTerritory[SalesTerritoryKey])
 

@@ -211,8 +211,6 @@
               href: desktop-calculated-tables.md
             - name: Power BI Desktop 中的度量值
               href: desktop-measures.md
-            - name: 编辑问答语言架构
-              href: power-bi-q-and-a-linguistic-schema.md
             - name: 导入和显示 KPI（预览）
               href: desktop-import-and-display-kpis.md
         - name: 创建报表
@@ -227,8 +225,6 @@
               href: desktop-tooltips.md
             - name: 导出到 PDF 和打印报表
               href: desktop-export-to-pdf.md
-            - name: Power BI Desktop 中的问答
-              href: desktop-qna-in-reports.md
             - name: Power BI Desktop 中的分析窗格
               href: desktop-analytics-pane.md
             - name: 通过见解解释增减现象
@@ -428,11 +424,11 @@
     - name: 概述
       items:
         - name: 什么是 Power BI？
-          href: power-bi-overview.md
+          href: fundamentals/power-bi-overview.md
         - name: 什么是 Power BI 服务？
           href: power-bi-service-overview.md
         - name: 比较 Power BI Desktop 和服务
-          href: service-service-vs-desktop.md
+          href: designer/service-service-vs-desktop.md
     - name: 教程
       items:
         - name: 开始使用 Power BI
@@ -1051,6 +1047,8 @@
               href: 'https://go.microsoft.com/fwlink/?linkid=849021'
             - name: 通过 OData 源访问共享数据集
               href: report-server/access-dataset-odata.md
+            - name: 使用 PowerShell 更改数据源连接字符串
+              href: report-server/connect-data-source-apis.md
             - name: 配置计划刷新
               href: report-server/configure-scheduled-refresh.md
             - name: 向报表添加注释
