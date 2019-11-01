@@ -415,10 +415,20 @@
           href: desktop-latest-update-archive.md
         - name: Power BI Desktop“发送微笑”隐私声明
           href: desktop-send-smile-privacy-statement.md
-        - name: Power BI 报表中的辅助功能
-          href: desktop-accessibility.md
         - name: 管理 Power BI Desktop 登录窗体
           href: desktop-admin-sign-in-form.md
+        - name: 辅助功能
+          items:
+            - name: Power BI 中的辅助功能概览
+              href: desktop-accessibility-overview.md
+            - name: 创建可访问 Power BI 报表
+              href: desktop-accessibility-creating-reports.md
+            - name: 使用辅助功能工具使用 Power BI 报表
+              href: desktop-accessibility-consuming-tools.md
+            - name: 使用辅助功能工具创建 Power BI 报表
+              href: desktop-accessibility-creating-tools.md
+            - name: 适用于 Power BI 报表的辅助功能键盘快捷方式
+              href: desktop-accessibility-keyboard-shortcuts.md
 - name: Power BI 服务
   items:
     - name: 概述
