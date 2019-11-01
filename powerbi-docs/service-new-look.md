@@ -66,7 +66,7 @@ Power BI 服务 (app.powerbi.com) 的新外观使报表查看和交互更加容�
 
 ### <a name="where-are-file-menu-actions"></a>“文件”菜单操作位于何处？
 
-想查找“文件”菜单操作  ？ 过去位于“文件”菜单上的操作现在也位于省略号 (...) 菜单上  。 
+想查找“文件”菜单中的操作  ？ 想查找“文件”菜单中的操作？过去位于“文件”菜单上的操作现在也位于“更多”选项 (...) 菜单上  。 
 
 ![新外观中的“文件”菜单](media/service-new-look/power-bi-file-menu-new-look.gif)
 
