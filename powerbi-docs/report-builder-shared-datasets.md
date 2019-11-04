@@ -7,12 +7,12 @@ ms.subservice: report-builder
 ms.topic: conceptual
 author: maggiesMSFT
 ms.author: maggies
-ms.openlocfilehash: 1a46c1fb8e9f31bd5199fccfaecb16cece144b5a
-ms.sourcegitcommit: 5e277dae93832d10033defb2a9e85ecaa8ffb8ec
+ms.openlocfilehash: 0cf85d2757dd77de854a6640f400c6dd9c70379a
+ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/07/2019
-ms.locfileid: "72021030"
+ms.lasthandoff: 11/01/2019
+ms.locfileid: "73431508"
 ---
 # <a name="use-shared-datasets-in-power-bi-report-builder"></a>在 Power BI 报表生成器中使用共享数据集
 
@@ -99,7 +99,7 @@ ms.locfileid: "72021030"
 
     ![查询结果](media/report-builder-shared-datasets/power-bi-report-builder-query-results.png)
 
-1. 选择**确定**。 
+1. 选择**确定**。
 
     在“数据集属性”对话框的“查询”窗口中可以查看查询   。
 

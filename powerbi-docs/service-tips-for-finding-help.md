@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 06/28/2018
 ms.author: maggies
 LocalizationGroup: Get started
-ms.openlocfilehash: 9a7baa8284d90242584aa529fb66bc6446402924
-ms.sourcegitcommit: d04b9e1426b8544ce16ef25864269cc43c2d9f7b
+ms.openlocfilehash: 668df24e8e4df2257a78a5f7a843abc65df3ef8f
+ms.sourcegitcommit: d441d350504f8c6d9e100d229757add6237f0bef
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "71715437"
+ms.lasthandoff: 10/30/2019
+ms.locfileid: "73060299"
 ---
 # <a name="10-tips-for-getting-help-with-your-power-bi-questions"></a>有关获取 Power BI 问题解答的 10 个提示
 使用 Power BI 时，是否会因遇到的 Power BI 问题得不到及时解答（即“实时”帮助）感到灰心失望或很费劲？ 
@@ -69,6 +69,6 @@ Power BI 团队在其 [Power BI 博客文章](https://powerbi.microsoft.com/blog
 例如，假设你想知道能否与安全组共享仪表板。 为了回答这个问题，请转到共享对话框，然后尝试添加安全组。 无论采用上述哪种方式，都可以在此测试后获得答案。
 
 ## <a name="next-steps"></a>后续步骤
-* [什么是 Power BI？](power-bi-overview.md)
+* [什么是 Power BI？](fundamentals/power-bi-overview.md)
 * 尝试在 [Power BI 社区](http://community.powerbi.com/)中获取信息
 * 仍有问题？ 请访问 [Power BI 支持页](https://powerbi.microsoft.com/support/)

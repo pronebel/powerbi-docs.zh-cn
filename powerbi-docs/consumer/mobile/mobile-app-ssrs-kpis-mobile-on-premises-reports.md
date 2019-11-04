@@ -9,12 +9,12 @@ ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 06/13/2018
 ms.author: mshenhav
-ms.openlocfilehash: c735b5e1abbed0c733ca4414e15fc44b741349d8
-ms.sourcegitcommit: 52aa112ac9194f4bb62b0910c4a1be80e1bf1276
+ms.openlocfilehash: 01ee3cf9be3a0d6b4350925d4ecb9e57b668457a
+ms.sourcegitcommit: d441d350504f8c6d9e100d229757add6237f0bef
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "61343548"
+ms.lasthandoff: 10/30/2019
+ms.locfileid: "73060242"
 ---
 # <a name="view-on-premises-report-server-reports-and-kpis-in-the-power-bi-mobile-apps"></a>在 Power BI 移动应用中查看本地报表服务器报表和 KPI
 
@@ -132,6 +132,6 @@ Power BI 报表、Reporting Services 移动报表和 KPI 的文件夹与它们�
 3. 点击“删除服务器”  。
 
 ## <a name="next-steps"></a>后续步骤
-* [什么是 Power BI？](../../power-bi-overview.md)  
+* [什么是 Power BI？](../../fundamentals/power-bi-overview.md)  
 * 是否有任何问题? [尝试咨询 Power BI 社区](http://community.powerbi.com/)
 

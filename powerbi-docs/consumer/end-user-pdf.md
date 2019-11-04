@@ -11,14 +11,17 @@ ms.topic: conceptual
 ms.date: 09/14/2019
 ms.author: mihart
 LocalizationGroup: Share your work
-ms.openlocfilehash: 0ad10789977fdb0d5d4cf5b9a4229cd6a8e2b34b
-ms.sourcegitcommit: 02042995df12cc4e4b97eb8a369e62364eb5af36
+ms.openlocfilehash: 1d6ddcd11118e0eb9894002c5c97edda134d4635
+ms.sourcegitcommit: 26123c6bb24c8174beb390f4e06fb938d31238ea
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/25/2019
-ms.locfileid: "71256274"
+ms.lasthandoff: 10/22/2019
+ms.locfileid: "72716985"
 ---
 # <a name="export-reports-from-power-bi-to-pdf"></a>从 Power BI 将报表导出为 PDF
+
+[!INCLUDE [power-bi-service-new-look-include](../includes/power-bi-service-new-look-include.md)]
+
 借助 Power BI，可以将报表发布为 PDF 格式，并根据 Power BI 报表轻松地创建文档。 如果导出为 PDF，则 Power BI 报表中的每个页面都会成为 PDF 文档中的单独页面。
 
 ## <a name="export-your-power-bi-report-to-pdf"></a>将 Power BI 报表导出为 PDF

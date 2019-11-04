@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 08/29/2019
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: a05d78cfb0c1e34f0ec263f5455982cd4064905b
-ms.sourcegitcommit: b53a6f5575f5f8bc443ecdca9c72525ce123518f
+ms.openlocfilehash: c9b844d153cab35938f5070ce4950c57f7964771
+ms.sourcegitcommit: d441d350504f8c6d9e100d229757add6237f0bef
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/30/2019
-ms.locfileid: "70185822"
+ms.lasthandoff: 10/30/2019
+ms.locfileid: "73060541"
 ---
 # <a name="connect-to-sendgrid-with-power-bi"></a>使用 Power BI 连接到 SendGrid
 Power BI 的 SendGrid 内容包允许你从你的 SendGrid 帐户提取见解和统计信息。 使用 SendGrid 内容包可以在仪表板中可视化你的 SendGrid 统计信息。
@@ -58,7 +58,7 @@ SendGrid 仪表板中提供以下指标：
 * 按设备、客户端、浏览器列出的电子邮件统计信息
 
 ## <a name="next-steps"></a>后续步骤
-[什么是 Power BI？](power-bi-overview.md)
+[什么是 Power BI？](fundamentals/power-bi-overview.md)
 
 [获取数据](service-get-data.md)
 

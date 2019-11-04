@@ -395,6 +395,8 @@
               href: desktop-access-database-errors.md
             - name: 解决启动 Power BI Desktop 时出现的问题
               href: desktop-error-launching-desktop.md
+            - name: Power BI Desktop 中的 DirectQuery 模型疑难解答
+              href: desktop-directquery-troubleshoot.md
     - name: 参考
       items:
         - name: Power BI Desktop 中的数据类型
@@ -661,7 +663,7 @@
           items:
             - name: 创建新工作区
               href: service-create-the-new-workspaces.md
-            - name: 创建应用工作区
+            - name: 创建工作区
               href: service-create-workspaces.md
             - name: 从工作区发布应用
               href: service-create-distribute-apps.md
@@ -1175,6 +1177,8 @@
       href: guidance/dax-error-functions.md
     - name: 数据流的最佳做法
       href: service-dataflows-best-practices.md
+    - name: Power BI Desktop 中的 DirectQuery 模型指导
+      href: guidance/directquery-model-guidance.md
     - name: 白皮书
       items:
         - name: 白皮书概述
