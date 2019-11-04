@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 1fc8decc70ade009a7c4236686cfe9cf72adb54d
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: 52ca0405c17339580a971162d13cb4ba67f05979
+ms.sourcegitcommit: d441d350504f8c6d9e100d229757add6237f0bef
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61161349"
+ms.lasthandoff: 10/30/2019
+ms.locfileid: "73060506"
 ---
 # <a name="connect-to-sql-sentry-with-power-bi"></a>使用 Power BI 连接到 SQL Sentry
 使用 Power BI 壳轻松分析由 SQL Sentry 收集的性能数据。 Power BI 检索数据，然后生成默认的仪表板并基于此数据生成相关的报表。
@@ -93,7 +93,7 @@ ms.locfileid: "61161349"
 如果你不是同步到 <https://cloud.sqlsentry.com> 的 SQL Sentry 数据库的所有者，请与管理员联系以确保你有权查看收集的数据。
 
 ## <a name="next-steps"></a>后续步骤
-[什么是 Power BI？](power-bi-overview.md)
+[什么是 Power BI？](fundamentals/power-bi-overview.md)
 
 [获取 Power BI 的数据](service-get-data.md)
 

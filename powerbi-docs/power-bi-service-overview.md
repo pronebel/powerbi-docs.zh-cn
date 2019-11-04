@@ -10,12 +10,12 @@ ms.topic: overview
 ms.date: 09/05/2019
 ms.author: maggies
 LocalizationGroup: Get started
-ms.openlocfilehash: a4d8b094fe10b674d315b1982e1dc34148ba6d1d
-ms.sourcegitcommit: 9665997274301b228f45aa7250ba557e90164a4d
+ms.openlocfilehash: b8a01839da68a276ff136d7068dafac0ce82f102
+ms.sourcegitcommit: d441d350504f8c6d9e100d229757add6237f0bef
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/06/2019
-ms.locfileid: "70775731"
+ms.lasthandoff: 10/30/2019
+ms.locfileid: "73060850"
 ---
 # <a name="what-is-the-power-bi-service"></a>什么是 Power BI 服务？
 Power BI 是一个包含软件服务、应用和连接器的集合，它们相辅相成，帮助你采用适合你及你的业务且最有效的方式来创建、共享和使用业务见解  。 Microsoft Power BI 服务 (app.powerbi.com) 有时被称为 Power BI Online，它是 Power BI 的软件即服务 (SaaS) 部分   。 Power BI 服务中的仪表板可帮助你对企业状况了如指掌  。 仪表板会显示磁贴，你可选择这些磁贴来打开报表进一步了解详细信息   。 仪表板和报表会连接到数据集，后者将所有相关数据汇集在一处  。 
@@ -26,7 +26,7 @@ Power BI 是一个包含软件服务、应用和连接器的集合，它们相�
 > <iframe width="560" height="315" src="https://www.youtube.com/embed/B2vd4MQrz4M" frameborder="0" allowfullscreen></iframe>
 > 
 
-Power BI 的其他主要组件包括 Windows 桌面应用程序 Power BI Desktop，以及适用于 Windows、iOS 和 Android 的 Power BI 移动应用   。 你和你的同事可使用 Power BI Desktop、服务和移动应用这三个元素来创建、共享和使用业务见解。 相关概述，请阅读[什么是 Power BI](power-bi-overview.md)。
+Power BI 的其他主要组件包括 Windows 桌面应用程序 Power BI Desktop，以及适用于 Windows、iOS 和 Android 的 Power BI 移动应用   。 你和你的同事可使用 Power BI Desktop、服务和移动应用这三个元素来创建、共享和使用业务见解。 相关概述，请阅读[什么是 Power BI](fundamentals/power-bi-overview.md)。
 
 ## <a name="creating-reports-in-the-service"></a>在服务中创建报表
 在典型的 Power BI 工作流中，首先是在 Power BI Desktop 中生成一个报表，然后将它发布到 Power BI 服务。  

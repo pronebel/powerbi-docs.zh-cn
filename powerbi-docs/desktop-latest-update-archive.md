@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 10/14/2019
+ms.date: 10/30/2019
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: b43408ef91e79d9489480d795329f2e80d0bb1be
-ms.sourcegitcommit: 549401b0e1fad15c3603fe7f14b9494141fbb100
+ms.openlocfilehash: 24ff0748a57df5b76d8a559781cf9326764450e3
+ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/14/2019
-ms.locfileid: "72307729"
+ms.lasthandoff: 11/01/2019
+ms.locfileid: "73429727"
 ---
 # <a name="previous-monthly-updates-to-power-bi-desktop"></a>此前的 Power BI Desktop 月度更新
 
@@ -107,8 +107,8 @@ ms.locfileid: "72307729"
 
 请选择以下链接以下载早期版本： 
 
-* [2019 年 9 月版 Power BI Desktop（32 位）](http://download.microsoft.com/download/9/B/A/9BAEFFEF-1A68-4102-8CDF-5D28BFFE6A61/PBIDesktop-2019-09.msi)
-* [2019 年 9 月版 Power BI Desktop（64 位）](http://download.microsoft.com/download/9/B/A/9BAEFFEF-1A68-4102-8CDF-5D28BFFE6A61/PBIDesktop-2019-09_x64.msi)
+* [2019 年 9 月版 Power BI Desktop（32 位）](https://download.microsoft.com/download/8/8/0/880BCA75-79DD-466A-927D-1ABF1F5454B0/PBIDesktopSetup-2019-09.exe)
+* [2019 年 9 月版 Power BI Desktop（64 位）](https://download.microsoft.com/download/8/8/0/880BCA75-79DD-466A-927D-1ABF1F5454B0/PBIDesktopSetup-2019-09_x64.exe)
 
 
 ## <a name="august-2019-update-2725556801"></a>2019 年 8 月更新 (2.72.5556.801)
@@ -767,7 +767,7 @@ ms.locfileid: "72307729"
 ### <a name="reporting"></a>报表
 
 * 在筛选卡中搜索  [[视频]](https://youtu.be/cT3L2VzgBRU?t=56)  [[文章]](power-bi-reports-filters-and-highlighting.md)  [[博客]](https://powerbi.microsoft.com/blog/power-bi-desktop-october-2018-feature-summary/%23search) 
-* 针对创作体验的辅助功能改进 [[视频]](https://youtu.be/cT3L2VzgBRU?t=118)  [[文章]](desktop-accessibility.md#arranging-items-in-field-buckets)  [[博客]](https://powerbi.microsoft.com/blog/power-bi-desktop-october-2018-feature-summary/%23accessibility)
+* 针对创作体验的辅助功能改进 [[视频]](https://youtu.be/cT3L2VzgBRU?t=118)  [[文章]](desktop-accessibility-overview.md)  [[博客]](https://powerbi.microsoft.com/blog/power-bi-desktop-october-2018-feature-summary/%23accessibility)
 * ArcGIS Map 性能改进 [[视频]](https://youtu.be/cT3L2VzgBRU?t=333)  [[博客]](https://powerbi.microsoft.com/blog/power-bi-desktop-october-2018-feature-summary/%23esri)
 
 
@@ -980,7 +980,7 @@ ms.locfileid: "72307729"
 
 ### <a name="reporting"></a>报表
 
-* 报表的高对比度支持  [[视频]](https://youtu.be/4VpGtWSrssE?t=13s)  [[文章]](desktop-accessibility.md#high-contrast-support-for-reports)  [[博客]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-2018-feature-summary/#highContrast) 
+* 报表的高对比度支持  [[视频]](https://youtu.be/4VpGtWSrssE?t=13s)  [[文章]](desktop-accessibility-overview.md)  [[博客]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-2018-feature-summary/#highContrast) 
 * 圆环图半径控制  [[视频]](https://youtu.be/4VpGtWSrssE?t=6m1s)  [[博客]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-2018-feature-summary/#donutRadius) 
 * 饼图和圆环图的详细信息标签位置控制  [[视频]](https://youtu.be/4VpGtWSrssE?t=7m19s)[[博客]  ](https://powerbi.microsoft.com/blog/power-bi-desktop-june-2018-feature-summary/#detailLabels) 
 * 为组合图中的每个度量值单独设置数据标签格式  [[视频]](https://youtu.be/4VpGtWSrssE?t=9m29s)  [[博客]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-2018-feature-summary/#comboLabels) 

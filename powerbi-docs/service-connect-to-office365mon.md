@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 8/29/2019
 ms.author: tebercov
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 364220d5d900004252e51184fc9cbd7e03b45b2d
-ms.sourcegitcommit: c0f4d00d483121556a1646b413bab75b9f309ae9
+ms.openlocfilehash: 5d31eccd52164bb4d1ff37532d89dc7e147693d3
+ms.sourcegitcommit: d441d350504f8c6d9e100d229757add6237f0bef
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/29/2019
-ms.locfileid: "70159908"
+ms.lasthandoff: 10/30/2019
+ms.locfileid: "73060829"
 ---
 # <a name="connect-to-office365mon-with-power-bi"></a>使用 Power BI 连接到 Office365Mon
 使用 Power BI 和 Office365Mon 模板应用可轻松分析 Office 365 故障和运行状况性能数据。 Power BI 将检索你的数据（包括故障和运行状况探测），然后基于该数据构建可立即使用的仪表板和报表。
@@ -57,7 +57,7 @@ ms.locfileid: "70159908"
 使用 Office365Mon 订阅凭据进行登陆后，若显示**登录失败**，则表明所用帐户无权检索你的帐户中的 Office365Mon 数据。 验证其是否为管理员帐户，然后重试。
 
 ## <a name="next-steps"></a>后续步骤
-[什么是 Power BI？](power-bi-overview.md)
+[什么是 Power BI？](fundamentals/power-bi-overview.md)
 
 [获取 Power BI 的数据](service-get-data.md)
 

@@ -10,14 +10,17 @@ ms.topic: conceptual
 ms.date: 09/18/2019
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: b8d604b8872bae14bc2ffeeb16b56b1b3a98e056
-ms.sourcegitcommit: 200291eac5769549ba5c47ef3951e2f3d094426e
+ms.openlocfilehash: 629db8e4706bfb42f3f1b3ad65b8a57577d7ee21
+ms.sourcegitcommit: 26123c6bb24c8174beb390f4e06fb938d31238ea
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/19/2019
-ms.locfileid: "71141357"
+ms.lasthandoff: 10/22/2019
+ms.locfileid: "72716395"
 ---
 # <a name="view-a-dashboard"></a>查看仪表板
+
+[!INCLUDE [power-bi-service-new-look-include](../includes/power-bi-service-new-look-include.md)]
+
 Power BI 使用者需要花费大量时间查看仪表板  。 仪表板旨在突出显示基础报表和数据集中的特定信息。 Power BI 使用者利用这些信息进行跟踪、监视、解答问题、测试等，并制定数据驱动型业务决策。
 
 ![仪表板](media/end-user-dashboard-open/power-bi-new-dash-new.png)

@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 08/29/2019
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: ddcbee2c6d60541db0d71ea5ccfbfd5e6cf037ac
-ms.sourcegitcommit: b53a6f5575f5f8bc443ecdca9c72525ce123518f
+ms.openlocfilehash: b0e8739e93d24ba10b0ffc72042b847cce1d5fe9
+ms.sourcegitcommit: d441d350504f8c6d9e100d229757add6237f0bef
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/30/2019
-ms.locfileid: "70184575"
+ms.lasthandoff: 10/30/2019
+ms.locfileid: "73060775"
 ---
 # <a name="connect-to-stripe-with-power-bi"></a>使用 Power BI 连接到 Stripe
 通过此 Power BI 内容包在 Power BI 中的对Stripe 数据进行可视化和浏览。 Power BI Stripe 内容包将拉取有关你的客户、费用、活动和发票的数据。 该数据包括过去 30 天内最近一万个活动和五千笔费用。 该内容将按照由你控制的计划每天自动刷新一次。 
@@ -49,7 +49,7 @@ ms.locfileid: "70184575"
 * 虽然数据集将按计划每日刷新，但你可以更改刷新计划或根据需要使用“立即刷新”  来尝试刷新
 
 ## <a name="next-steps"></a>后续步骤
-[什么是 Power BI？](power-bi-overview.md)
+[什么是 Power BI？](fundamentals/power-bi-overview.md)
 
 [获取 Power BI 的数据](service-get-data.md)
 

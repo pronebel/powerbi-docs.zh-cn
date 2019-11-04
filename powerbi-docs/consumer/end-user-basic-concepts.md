@@ -12,16 +12,18 @@ ms.topic: conceptual
 ms.date: 10/16/2019
 ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: 2b9fd3fc971d2cf73aabb2033d3a64565333bc67
-ms.sourcegitcommit: e5cf19e16112c7dad1591c3b38d232267ffb3ae1
+ms.openlocfilehash: 902bfe11ba3dfa4047ab5918de7081ae05fb9a09
+ms.sourcegitcommit: d441d350504f8c6d9e100d229757add6237f0bef
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "72543704"
+ms.lasthandoff: 10/30/2019
+ms.locfileid: "73060355"
 ---
 # <a name="basic-concepts-for-the-power-bi-service-consumers"></a>面向 Power BI 服务使用者的基本概念
 
-本文假设你已阅读 [Power BI 概述](../power-bi-overview.md)，并将自己定位为 [Power BI 使用者](end-user-consumer.md)。 使用者接收来自同事的 Power BI 内容，例如仪表板和报表。 使用者使用 Power BI 服务（即网站版 Power BI）。
+[!INCLUDE [power-bi-service-new-look-include](../includes/power-bi-service-new-look-include.md)]
+
+本文假设你已阅读 [Power BI 概述](../fundamentals/power-bi-overview.md)，并将自己定位为 [Power BI 使用者](end-user-consumer.md)。 使用者接收来自同事的 Power BI 内容，例如仪表板和报表。 使用者使用 Power BI 服务（即网站版 Power BI）。
 
 你肯定听说过“Power BI Desktop”这个词，或仅听说过“Desktop”。 它是设计人员  使用的独立工具，设计人员生成仪表板和报表并与你共享。 请务必要知道还有其他 Power BI 工具。 只要你是使用者，就只能使用 Power BI 服务。 本文仅适用于 Power BI 服务。
 

@@ -8,17 +8,20 @@ ms.custom: seodec18
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 08/29/2019
+ms.date: 10/17/2019
 ms.author: mihart
 LocalizationGroup: Share your work
-ms.openlocfilehash: 9b0b4f186187dc16d0b9e5e6ae9049d2a108b19a
-ms.sourcegitcommit: 52aa112ac9194f4bb62b0910c4a1be80e1bf1276
+ms.openlocfilehash: deca8a60a006d942fc8b38ed232e0215d94c2d9a
+ms.sourcegitcommit: 26123c6bb24c8174beb390f4e06fb938d31238ea
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "70184412"
+ms.lasthandoff: 10/22/2019
+ms.locfileid: "72717113"
 ---
 # <a name="apps-in-power-bi"></a>Power BI 中的“应用”
+
+[!INCLUDE [power-bi-service-new-look-include](../includes/power-bi-service-new-look-include.md)]
+
 ## <a name="what-is-a-power-bi-app"></a>什么是 Power BI 应用？
 应用是一种将相关仪表板和报表组合在一个地方的 Power BI 内容类型  。 应用可以将一个或多个仪表板和一个或多个报表捆绑在一起。 应用由 Power BI 设计者创建，他们会与像你一样的使用者分发和共享应用   。 
 

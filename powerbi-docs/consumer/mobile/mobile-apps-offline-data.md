@@ -9,12 +9,12 @@ ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 06/27/2018
 ms.author: mshenhav
-ms.openlocfilehash: b4977bd043cec08c86fbd3c8893e8f1e185dc1fc
-ms.sourcegitcommit: 52aa112ac9194f4bb62b0910c4a1be80e1bf1276
+ms.openlocfilehash: d0d9b10c24d3d9da60ecf1afde7347f53d20f224
+ms.sourcegitcommit: d441d350504f8c6d9e100d229757add6237f0bef
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "60972303"
+ms.lasthandoff: 10/30/2019
+ms.locfileid: "73059443"
 ---
 # <a name="view-your-data-offline-in-the-power-bi-mobile-apps"></a>在 Power BI 移动应用中查看你的脱机数据
 适用于：
@@ -65,5 +65,5 @@ ms.locfileid: "60972303"
 * [适用于移动设备的 Power BI 应用](mobile-apps-for-mobile-devices.md)
 * 关注 Twitter 上的 @MSPowerBI
 * 加入 [Power BI 社区](http://community.powerbi.com/)的对话
-* [什么是 Power BI？](../../power-bi-overview.md)
+* [什么是 Power BI？](../../fundamentals/power-bi-overview.md)
 

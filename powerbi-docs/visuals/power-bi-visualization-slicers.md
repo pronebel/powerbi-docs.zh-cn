@@ -8,15 +8,15 @@ featuredvideoid: zIZPA0UrJyA
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: tutorial
-ms.date: 05/14/2019
+ms.date: 10/22/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 9b6bab357a206184f07da96d3b516107628a851d
-ms.sourcegitcommit: 3b4de8785d17c9e00b041cff7bd4d39829316437
+ms.openlocfilehash: d400e2013d8f2cb8dda627cda790191fce52503b
+ms.sourcegitcommit: 23ad768020a9daf129f69a462a2d46d59d2349d2
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/09/2019
-ms.locfileid: "72164189"
+ms.lasthandoff: 10/22/2019
+ms.locfileid: "72775889"
 ---
 # <a name="slicers-in-power-bi"></a>Power BI 中的切片器
 
@@ -40,7 +40,7 @@ Power BI 切片器存在以下限制：
 
 - 切片器不支持输入字段。
 - 切片器不支持明细。
-- 切片器不支持视觉对象级别的筛选器。
+
 
 ## <a name="create-slicers"></a>创建切片器
 

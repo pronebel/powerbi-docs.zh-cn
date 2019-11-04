@@ -71,6 +71,8 @@
               href: visuals/landing-page.md
             - name: 启动 URL
               href: visuals/launch-url.md
+            - name: 本地存储 API
+              href: visuals/local-storage.md
             - name: 呈现事件
               href: visuals/event-service.md
             - name: 排序

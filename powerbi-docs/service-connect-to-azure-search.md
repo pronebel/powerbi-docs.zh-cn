@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 08/29/2019
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: b8738701d2827147e651a233a32de5edc089099b
-ms.sourcegitcommit: b53a6f5575f5f8bc443ecdca9c72525ce123518f
+ms.openlocfilehash: 8b7560570af4f1b459cdde8589c0afdb9194e154
+ms.sourcegitcommit: d441d350504f8c6d9e100d229757add6237f0bef
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/30/2019
-ms.locfileid: "70185988"
+ms.lasthandoff: 10/30/2019
+ms.locfileid: "73060927"
 ---
 # <a name="connect-to-azure-search-with-power-bi"></a>使用 Power BI 连接到 Azure 搜索
 Azure 搜索流量分析允许你监视并了解 Azure 搜索服务的流量。 适用于 Power BI 的 Azure 搜索内容包提供了搜索数据的详细深入解析，包括过去 30 天内的搜索、索引、服务统计和延迟。 有关详细信息，请参阅 [Azure 博客文章](https://azure.microsoft.com/blog/analyzing-your-azure-search-traffic/)。
@@ -58,7 +58,7 @@ Azure 搜索内容包需要对帐户启用 Azure 搜索流量分析。
 确保已提供正确的存储帐户名称以及完整的访问密钥。 存储帐户名称应对应使用 Azure 搜索流量分析配置的帐户。
 
 ## <a name="next-steps"></a>后续步骤
-[什么是 Power BI？](power-bi-overview.md)
+[什么是 Power BI？](fundamentals/power-bi-overview.md)
 
 [Power BI 服务中设计器的基本概念](service-basic-concepts.md)
 
