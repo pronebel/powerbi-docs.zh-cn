@@ -110,7 +110,7 @@ ms.locfileid: "70751675"
    
    ![](media/desktop-tutorial-row-level-security-onprem-ssas-tabular/pbi_gateway.png)
 
-  完成上一个步骤后，网关便已配置完成，并且可与本地 Analysis Services 数据源交互  。
+  完成上一个步骤后，网关便已配置完成，并且可与本地 Analysis Services 数据源进行交互。 
 
 ## <a name="task-4-create-report-based-on-analysis-services-tabular-model-using-power-bi-desktop"></a>任务 4：使用 Power BI Desktop 基于 Analysis Services 表格模型创建报表
 
@@ -128,9 +128,9 @@ ms.locfileid: "70751675"
    
    ![](media/desktop-tutorial-row-level-security-onprem-ssas-tabular/getdata_connectlive.png)
 
-   **Power BI Desktop** 现在在画布右侧的“字段”  窗格中显示所有可用字段。
+   现在，Power BI Desktop  在画布右侧的“字段”  窗格中显示所有可用字段。
 
-5. 在右侧的“字段”窗格中，从“FactInternetSales”表中选择“SalesAmount”度量值，从“SalesTerritory”表中选择“SalesTerritoryRegion”维度      。
+5. 在右侧的“字段”窗格中，从 “FactInternetSales” 表内选择 “SalesAmount” 度量值，从 “SalesTerritory” 表中选择 “SalesTerritoryRegion” 维度。     
 
 6. 为了让此报表看上去简单明了，现在不会再添加任何列。 若要让数据表示形式更有意义，请将可视化效果更改为“环形图”  。
    
@@ -154,7 +154,7 @@ ms.locfileid: "70751675"
    
    ![](media/desktop-tutorial-row-level-security-onprem-ssas-tabular/pbi_dashboard.png)
 
-3. 当登录到 Power BI 服务并查看 Sumit 创建的共享仪表板时，Jon Doe 应该只能看到其负责区域的销售额   。 
+3. 当登录到 Power BI 服务并查看 Sumit 创建的共享仪表板时，Jon Doe 应该只能看到其负责区域的销售额。   
    
    ![](media/desktop-tutorial-row-level-security-onprem-ssas-tabular/dashboard_jon_doe.png)
 
@@ -204,5 +204,5 @@ ms.locfileid: "70751675"
 
 * Power BI 的本地行级别安全性只能用于实时连接。
 
-* 通过“实时连接”访问报表的用户可在 Power BI 服务中立即获得处理模型后的任何数据更改  。
+* 处理模型后，数据的任何更改都将立即提供给从 Power BI 服务通过“实时连接”访问报表的用户。 
 
