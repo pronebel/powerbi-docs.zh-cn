@@ -102,6 +102,8 @@
               href: embed-sample-for-customers.md
             - name: 为组织嵌入内容
               href: embed-sample-for-your-organization.md
+            - name: 为客户嵌入分页报表
+              href: embed-paginated-reports-customers.md
             - name: 为国家云嵌入内容
               href: embed-sample-for-customers-national-clouds.md
         - name: 概念
@@ -112,6 +114,8 @@
               href: embed-service-principal.md
             - name: 行级别安全性
               href: embedded-row-level-security.md
+            - name: 分页报表行级安全性
+              href: paginated-reports-row-level-security.md
             - name: 管理多租户
               href: embed-multi-tenancy.md
             - name: Azure 中 Power BI Embedded 的诊断日志记录

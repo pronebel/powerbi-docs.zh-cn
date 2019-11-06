@@ -44,6 +44,14 @@
           href: ../service-admin-power-bi-expressroute.md
         - name: 使用 Azure AD B2B
           href: ../service-admin-azure-ad-b2b.md
+        - name: 数据保护
+          items:
+            - name: 数据保护概述
+              href: service-security-data-protection-overview.md
+            - name: 启用数据敏感度标记
+              href: service-security-enable-data-sensitivity-labels.md
+            - name: 将 Microsoft Cloud App Security 与 Power BI 配合使用
+              href: service-security-using-microsoft-cloud-app-security-controls.md
         - name: 行级别安全性
           href: ../service-admin-rls.md
         - name: 存档工作区

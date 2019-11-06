@@ -327,7 +327,9 @@
               href: visuals/power-bi-map-tips-and-tricks.md
             - name: 自定义 X 轴和 Y 轴属性
               href: visuals/power-bi-visualization-customize-x-axis-and-y-axis.md
-            - name: ArcGIS 地图
+            - name: 创建 ArcGIS Maps for Power BI 视觉对象
+              href: visuals/power-bi-visualizations-arcgis.md
+            - name: 与 ArcGIS Maps for Power BI 视觉对象交互
               href: visuals/power-bi-visualization-arcgis.md
             - name: 基本分区图
               href: visuals/power-bi-visualization-basic-area-chart.md
@@ -727,6 +729,12 @@
               href: service-cognitive-services.md
             - name: Power BI 中的自动机器学习
               href: service-machine-learning-automated.md
+        - name: 保护数据
+          items:
+            - name: 数据保护概述
+              href: admin/service-security-data-protection-overview.md
+            - name: 应用敏感度标签
+              href: designer/service-security-apply-data-sensitivity-labels.md
         - name: 数据世系
           href: service-data-lineage.md
         - name: Power BI 中的分页报表
@@ -929,6 +937,8 @@
           href: service-admin-premium-monitor-portal.md
         - name: 配置增量刷新
           href: service-premium-incremental-refresh.md
+        - name: 配置大型模型（预览）
+          href: service-premium-large-models.md
         - name: 配置多地理位置
           href: service-admin-premium-multi-geo.md
         - name: 引入你自己的加密密钥
