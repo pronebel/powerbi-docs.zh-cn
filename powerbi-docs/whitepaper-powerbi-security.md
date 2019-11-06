@@ -8,14 +8,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 08/15/2019
+ms.date: 10/24/2019
 LocalizationGroup: Conceptual
-ms.openlocfilehash: 1ae51620a51c0dc76cd50bd85fc09aa2bfc8e026
-ms.sourcegitcommit: f6ac9e25760561f49d4257a6335ca0f54ad2d22e
+ms.openlocfilehash: 4cb2ae69044b156d5f8a4bd554f8386808fb6b9e
+ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/16/2019
-ms.locfileid: "69561046"
+ms.lasthandoff: 11/01/2019
+ms.locfileid: "73430494"
 ---
 # <a name="power-bi-security-whitepaper"></a>Power BI 安全性白皮书
 
@@ -30,11 +30,11 @@ ms.locfileid: "69561046"
 > [!NOTE]
 > 可以从浏览器中选择“打印”，然后选择“另存为 PDF”文件，以保存或打印此白皮书。
 
-## <a name="introduction"></a>简介
+## <a name="introduction"></a>介绍
 
 Power BI 是 Microsoft 提供的在线软件服务（SaaS 或软件即服务），你可以通过它轻松快速地创建自助式商业智能仪表板、报表、数据集和可视化。 使用 Power BI，可以连接到多个不同的数据源，合并并调整来自这些连接的数据，然后创建可与其他人共享的报表和仪表板。
 
-Power BI 服务受 [Microsoft Online Services 条款](http://www.microsoftvolumelicensing.com/DocumentSearch.aspx?Mode=3&amp;DocumentTypeId=31)和 [Microsoft Enterprise Privacy 声明](http://www.microsoft.com/privacystatement/OnlineServices/Default.aspx)约束。 有关数据处理的位置，参阅 Microsoft Online Services 条款中的数据处理条款位置。 有关符合性信息，[Microsoft 信任中心](https://www.microsoft.com/trustcenter)提供了适用于 Power BI 的大量资源。 Power BI 团队正在努力为客户提供最新创新和提高生产效率。 Power BI 目前位于 [Office 365 符合性框架](http://go.microsoft.com/fwlink/p/?LinkID=618494)的 D 层。
+Power BI 服务受 [Microsoft Online Services 条款](http://www.microsoftvolumelicensing.com/DocumentSearch.aspx?Mode=3&amp;DocumentTypeId=31)和 [Microsoft Enterprise Privacy 声明](http://www.microsoft.com/privacystatement/OnlineServices/Default.aspx)约束。 有关数据处理的位置，参阅 Microsoft Online Services 条款中的数据处理条款位置。 有关符合性信息，[Microsoft 信任中心](https://www.microsoft.com/trustcenter)提供了适用于 Power BI 的大量资源。 Power BI 团队正在努力为客户提供最新创新和提高生产效率。 Power BI 当前在[Office 365 相容性框架](http://go.microsoft.com/fwlink/p/?LinkID=618494)的第 D 层中。
 
 本文通过以下方式介绍了 Power BI 的安全性：首先说明 Power BI 的体系结构，然后说明用户如何对 Power BI 进行身份验证以及如何建立数据连接，最后描述 Power BI 如何通过服务存储和移动数据。 最后一部分专门讨论与安全相关的问题，并附上了每个问题的答案。
 
@@ -46,7 +46,7 @@ Power BI 服务基于 Azure 构建，后者是 Microsoft 的[云计算平台](ht
 
 ![WFE 和后端](media/whitepaper-powerbi-security/powerbi-security-whitepaper_01.png)
 
-Power BI 使用 Azure Active Directory (AAD) 进行帐户身份验证和管理。 Power BI 还使用 Azure 流量管理器 (ATM) 将用户流量定向到最近的数据中心，由针对身份验证进程尝试连接并下载静态内容和文件的客户端的 DNS 记录确定。 Power BI 使用地理位置最接近的 WFE 来有效地将所需的静态内容和文件分发给用户, 但使用**Azure 内容交付网络 (CDN)** 传递的自定义视觉对象除外。
+Power BI 使用 Azure Active Directory (AAD) 进行帐户身份验证和管理。 Power BI 还使用 Azure 流量管理器 (ATM) 将用户流量定向到最近的数据中心，由针对身份验证进程尝试连接并下载静态内容和文件的客户端的 DNS 记录确定。 Power BI 使用地理位置最接近的 WFE 来有效地将所需的静态内容和文件分发给用户，但使用**Azure 内容交付网络（CDN）** 传递的自定义视觉对象除外。
 
 ### <a name="the-wfe-cluster"></a>WFE 群集
 
@@ -100,16 +100,16 @@ Azure SQL 数据库中存储和更新了用户的 Power BI 订阅相关的元数
 
 ### <a name="multiple-geographies-multi-geo"></a>多地理位置 (Multi-geo)
 
-某些组织因业务需求需要在多个地理位置或区域具有 Power BI。 例如, 业务可能在美国中有 Power BI 租户, 但也可以在其他地理区域 (如澳大利亚) 中执行业务, 并需要某些 Power BI 数据在该远程区域保持静止, 以符合当地的法规。 从2018的下半年开始, 在一个地理位置具有其主租户的组织也可以预配和访问位于另一个地理位置 Power BI 资源。 为了在本文档中方便阅读和参考，将此功能称为“multi-geo”。
+某些组织因业务需求需要在多个地理位置或区域具有 Power BI。 例如，业务可能在美国中有 Power BI 租户，但也可以在其他地理区域（如澳大利亚）中执行业务，并需要某些 Power BI 数据在该远程区域保持静止，以符合当地的法规。 从2018的下半年开始，在一个地理位置具有其主租户的组织也可以预配和访问位于另一个地理位置 Power BI 资源。 为了在本文档中方便阅读和参考，将此功能称为“multi-geo”。
 
 多地区信息的最新文章和最新文章是为[Power BI Premium 文章配置多异地支持](service-admin-premium-multi-geo.md)。 
 
-在不同地区运营时, 应在本地法律和法规的上下文中对多个技术详细信息进行评估。 这些详细信息包括:
+在不同地区运营时，应在本地法律和法规的上下文中对多个技术详细信息进行评估。 这些详细信息包括：
 
-- 远程查询执行层承载于远程容量区域, 以确保数据模型、缓存和大多数数据处理都保留在远程容量区域中。 有一些例外情况, 详细信息请 Power BI Premium 一文中的[多地域](service-admin-premium-multi-geo.md)。
-- 缓存的查询文本和存储在远程区域中的相应结果将停留在该区域, 但是传输中的其他数据可能会在多个地理区域之间来回切换。
-- 已发布 (上传) 到 Power BI 服务的多地理容量的 .PBIX 或 .XLSX 文件可能会导致将副本临时存储在 Power BI 租户区域中的 Azure Blob 存储中。 在这种情况下, 将使用 Azure 存储服务加密 (SSE) 对数据进行加密, 并在文件内容处理和传输到远程区域完成后, 立即将副本计划用于垃圾回收。 
-- 跨多个地域环境中的区域移动数据时, 将在7-30 天内删除源区域中的数据实例。 
+- 远程查询执行层承载于远程容量区域，以确保数据模型、缓存和大多数数据处理都保留在远程容量区域中。 有一些例外情况，详细信息请 Power BI Premium 一文中的[多地域](service-admin-premium-multi-geo.md)。
+- 缓存的查询文本和存储在远程区域中的相应结果将停留在该区域，但是传输中的其他数据可能会在多个地理区域之间来回切换。
+- 已发布（上传）到 Power BI 服务的多地理容量的 .PBIX 或 .XLSX 文件可能会导致将副本临时存储在 Power BI 租户区域中的 Azure Blob 存储中。 在这种情况下，将使用 Azure 存储服务加密（SSE）对数据进行加密，并在文件内容处理和传输到远程区域完成后，立即将副本计划用于垃圾回收。 
+- 跨多个地域环境中的区域移动数据时，将在7-30 天内删除源区域中的数据实例。 
 
 ### <a name="datacenters-and-locales"></a>数据中心和区域设置
 
@@ -120,7 +120,7 @@ Power BI 根据 Power BI 群集在区域数据中心的部署位置在某些区�
 - [Azure 区域](http://azure.microsoft.com/regions/) - 有关 Azure 全球存在状况和位置的信息
 - [Azure 服务（按区域）](http://azure.microsoft.com/regions/#services) - Microsoft 在每个区域提供的 Azure 服务（基础结构服务和平台服务）的完整列表。
 
-目前，Power BI 服务可用于特定区域，由[Microsoft 信任中心]((https://www.microsoft.com/TrustCenter/CloudServices/business-application-platform/data-location) 内所述的数据中心提供服务。 下面的链接显示的是 Power BI 数据中心图，将光标悬停在某个区域上方即可查看位于该区域的数据中心：
+目前，Power BI 服务在特定区域提供，由数据中心提供服务，如[Microsoft 信任中心](https://www.microsoft.com/TrustCenter/CloudServices/business-application-platform/data-location)中所述。 下面的链接显示的是 Power BI 数据中心图，将光标悬停在某个区域上方即可查看位于该区域的数据中心：
 
 * [Power BI 数据中心](https://www.microsoft.com/TrustCenter/CloudServices/business-application-platform/data-location)
 
@@ -248,23 +248,23 @@ Power BI 通过以下方式提供数据完整性监视：
 
    a. 报告可以是 Excel for Office 365 报表，也可以是 Power BI 报表。 以下内容适用于基于报表类型的元数据：
         
-    &ensp;&ensp;一个。 Excel 报表元数据存储在 SQL Azure 中进行加密。 元数据也存储在 Office 365 中。
+    &ensp; &ensp;。 Excel 报表元数据存储在 SQL Azure 中进行加密。 元数据也存储在 Office 365 中。
 
-    &ensp;&ensp; b。 Power BI 报表存储在 Azure SQL 数据库中。
+    &ensp; b &ensp;。 Power BI 报表存储在 Azure SQL 数据库中。
 
 2. 静态数据
 
    静态数据包括背景图像和自定义视觉对象等项目。
 
-    &ensp;&ensp;一个。 对于使用 Excel for Office 365 创建的报表，不存储任何内容。
+    &ensp; &ensp;。 对于使用 Excel for Office 365 创建的报表，不存储任何内容。
 
-    &ensp;&ensp; b。 对于 Power BI 报表，在 Azure Blob 存储中存储和加密静态数据。
+    &ensp; b &ensp;。 对于 Power BI 报表，在 Azure Blob 存储中存储和加密静态数据。
 
 3. 缓存
 
-    &ensp;&ensp;一个。 对于使用 Excel for Office 365 创建的报表，不缓存任何内容。
+    &ensp; &ensp;。 对于使用 Excel for Office 365 创建的报表，不缓存任何内容。
 
-    &ensp;&ensp; b。 对于 Power BI 报表，在 Azure SQL 数据库中加密缓存显示的视觉对象的数据。
+    &ensp; b &ensp;。 对于 Power BI 报表，在 Azure SQL 数据库中加密缓存显示的视觉对象的数据。
  
 
 4. 发布到 Power BI 的原始 Power BI Desktop (.pbix) 或 Excel (.xlsx) 文件
@@ -296,7 +296,7 @@ Power BI 通过以下方式提供数据完整性监视：
     b. DirectQuery - 取决于模型是否在服务中直接创建，如果直接创建，则以加密格式存储在连接字符串中，加密密钥以明文形式存储在同一位置（与加密信息一起）；或者取决于是否从 Power BI Desktop 导入模型，如果导入，则凭据不会存储在非易失性设备上。
 
     > [!NOTE]
-    > 从2017开始, 服务端模型创建功能已停止使用。
+    > 从2017开始，服务端模型创建功能已停止使用。
 
     c. 推送的数据 - 无（不适用）
 
@@ -315,7 +315,7 @@ Power BI 通过以下方式提供数据完整性监视：
 
 ## <a name="user-authentication-to-data-sources"></a>对数据源的用户身份验证
 
-对于每个数据源, 用户基于其登录名建立连接, 并使用这些凭据访问数据。 然后，用户可以根据基础数据创建查询、仪表板和报表。
+对于每个数据源，用户基于其登录名建立连接，并使用这些凭据访问数据。 然后，用户可以根据基础数据创建查询、仪表板和报表。
 
 用户共享查询、仪表板、报表或任何可视化时，访问该数据和这些可视化取决于基础数据源是否支持 Role Level Security (RLS)。
 
@@ -381,7 +381,7 @@ Power BI 移动版可用的所有三个平台都支持 Microsoft Intune，这是
 
 * **Power BI 凭据和域凭据：** 用户使用电子邮件地址登录 Power BI；用户尝试连接到数据资源时，Power BI 会将 Power BI 登录电子邮件地址作为凭据传递。 对于连接了域的资源（无论是本地还是基于云），目录服务将登录电子邮件与用户主体名称 ([UPN](https://msdn.microsoft.com/library/windows/desktop/aa380525(v=vs.85).aspx)) 匹配，以确定是否存在允许访问的足够凭据。 对于使用基于工作的电子邮件地址登录 Power BI 的组织（用于登录工作资源的相同电子邮件，例如 david@contoso.com），映射可以无缝地进行；对于未使用基于工作的电子邮件地址的组织（例如 david@contoso.onmicrosoft.com），必须建立目录映射，才能使用 Power BI 登录凭据访问本地资源。
 
-* **SQL Server Analysis Services 和 Power BI：** 对于使用本地 SQL Server Analysis Services 的组织，Power BI 提供 Power BI 本地数据网关（为上个部分所述的网关）。  Power BI 本地数据网关可以对数据源 (RLS) 强制执行角色级安全性。 有关 RLS 的详细信息，请参阅本文档前面的“对数据源的用户身份验证”。 有关网关的详细信息, 请参阅[本地数据网关](service-gateway-onprem.md)。
+* **SQL Server Analysis Services 和 Power BI：** 对于使用本地 SQL Server Analysis Services 的组织，Power BI 提供 Power BI 本地数据网关（为上个部分所述的网关）。  Power BI 本地数据网关可以对数据源 (RLS) 强制执行角色级安全性。 有关 RLS 的详细信息，请参阅本文档前面的“对数据源的用户身份验证”。 有关网关的详细信息，请参阅[本地数据网关](service-gateway-onprem.md)。
 
   此外，组织可以使用 Kerberos 进行单一登录 (SSO)，并从 Power BI 无缝连接到 SQL Server、SAP HANA 和 Teradata 等本地数据源。 有关更多信息和特定配置要求，请参阅[将 Kerberos 用于从 Power BI 到本地数据源的 SSO](https://docs.microsoft.com/power-bi/service-gateway-kerberos-for-sso-pbi-to-on-premises-data)。
 
@@ -429,7 +429,7 @@ Power BI 移动版可用的所有三个平台都支持 Microsoft Intune，这是
 
     这些生成的密钥（RSA 和 AES）存储在本地计算机上的文件中。 该文件也是加密的。 该文件的内容只能由该特定 Windows 计算机解密，并且只能由该特定网关服务帐户解密。
 
-    用户在 Power BI 服务 UI 中输入数据源凭据时，将使用浏览器中的公钥对凭据进行加密。 网关使用 RSA 私钥对凭据进行解密, 并使用 AES 对称密钥对其进行重新加密, 然后将数据存储在 Power BI 服务中。 通过此过程，Power BI 服务永远无法访问未加密的数据。
+    用户在 Power BI 服务 UI 中输入数据源凭据时，将使用浏览器中的公钥对凭据进行加密。 网关使用 RSA 私钥对凭据进行解密，并使用 AES 对称密钥对其进行重新加密，然后将数据存储在 Power BI 服务中。 通过此过程，Power BI 服务永远无法访问未加密的数据。
 
 **本地数据网关使用哪些通信协议，以及如何保护这些协议？**
 
@@ -437,7 +437,7 @@ Power BI 移动版可用的所有三个平台都支持 Microsoft Intune，这是
 
   - **AMQP 1.0 - TCP + TLS**：该协议要求打开端口 443, 5671-5672 和 9350-9354 以进行传出通信。 此协议是首选方法，因为它具有较低的通信开销。
 
-  - **HTTPS – WebSockets over HTTPS + TLS**：此协议仅使用端口 443。 WebSocket 由单个 HTTP CONNECT 消息发起。 建立通道后，通信实质上是 TCP+TLS。 可以通过修改[本地网关一文](/data-integration/gateway/service-gateway-communication#force-https-communication-with-azure-service-bus)中所述的设置, 强制网关使用此协议。
+  - **HTTPS – WebSockets over HTTPS + TLS**：此协议仅使用端口 443。 WebSocket 由单个 HTTP CONNECT 消息发起。 建立通道后，通信实质上是 TCP+TLS。 可以通过修改[本地网关一文](/data-integration/gateway/service-gateway-communication#force-https-communication-with-azure-service-bus)中所述的设置，强制网关使用此协议。
 
 **Azure CDN 在 Power BI 中的角色是什么？**
 
@@ -453,11 +453,11 @@ Power BI 移动版可用的所有三个平台都支持 Microsoft Intune，这是
 
 * 是。 必应地图和 ESRI 视觉对象为使用这些服务的视觉对象在 Power BI 服务外部传输数据。 有关 out-of-Power-BI 租户流量的详细信息和详细说明，请参阅 [Power BI 和 ExpressRoute](service-admin-power-bi-expressroute.md)。
 
-**对于模板应用, Microsoft 是否在将项目发布到库之前对模板应用执行任何安全或隐私评估？**
-* 否。 应用发布者负责查看内容, 同时客户需要查看并确定是否信任模板应用发行者。 
+**对于模板应用，Microsoft 是否在将项目发布到库之前对模板应用执行任何安全或隐私评估？**
+* 否。 应用发布者负责查看内容，同时客户需要查看并确定是否信任模板应用发行者。 
 
 **是否存在可以在客户网络之外发送信息的模板应用？**
-* 是。 客户负责查看发布者的隐私策略, 并确定是否在租户上安装模板应用。 此外, 发布者还负责通知应用程序的行为和功能。
+* 是。 客户负责查看发布者的隐私策略，并确定是否在租户上安装模板应用。 此外，发布者还负责通知应用程序的行为和功能。
 
 **什么是数据主权？是否可以在位于特定地理位置的数据中心中预配租户，以确保数据不会离开国家/地区边界？**
 
@@ -469,7 +469,7 @@ Power BI 移动版可用的所有三个平台都支持 Microsoft Intune，这是
 
 * 为具有 Power BI Premium 订阅的客户建立的连接实施 [Azure 企业对企业 (B2B)](https://docs.microsoft.com/azure/active-directory/active-directory-b2b-what-is-azure-ad-b2b)授权过程，使用 Azure Active Directory (AD) 启用访问控制和授权。 Power BI 处理从 Power BI 订阅者到 Power BI 资源的连接，就像处理任何其他 Azure AD 用户一样。
 
-## <a name="conclusion"></a>结束语
+## <a name="conclusion"></a>结论
 
 Power BI 服务体系结构基于两个群集 - Web 前端 (WFE) 群集和后端群集。 WFE 群集负责执行初始连接并对 Power BI 服务进行身份验证，经过身份验证后后，后端会处理所有后续的用户交互。 Power BI 使用 Azure Active Directory (AAD) 来存储和管理用户身份，并分别使用 Azure Blob 和 Azure SQL Database 管理数据和元数据存储。
 
