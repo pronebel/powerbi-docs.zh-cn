@@ -9,18 +9,18 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 03/28/2019
 ms.author: maggies
-ms.openlocfilehash: d1289a3e030f0a93c5c2ce3b68b7cf92c378a7e0
-ms.sourcegitcommit: e2de2e8b8e78240c306fe6cca820e5f6ff188944
+ms.openlocfilehash: b7fe09857d7f9d61745dd263353d3467c9cf6fb4
+ms.sourcegitcommit: e4b28c237c6e0dc16239b161a41a4c30a4b534dd
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/23/2019
-ms.locfileid: "71194760"
+ms.lasthandoff: 11/07/2019
+ms.locfileid: "73710766"
 ---
 # <a name="whitepapers-for-power-bi"></a>Power BI 白皮书
 
 阅读白皮书，可以深入探索 Power BI 主题。 这里列出了已发布的 Power BI 白皮书。
 
-| 白皮书 | 描述 | Date |
+| 白皮书 | 说明 | 日期 |
 | --- | --- | --- |
 | [规划 Power BI Enterprise 部署](https://go.microsoft.com/fwlink/?linkid=2057861) |此技术白皮书简要介绍了性能良好且安全的 Power BI 组织部署的注意事项。 | 2018 年 7 月 |
 | [Power BI 和数据流](https://go.microsoft.com/fwlink/?linkid=2034388&clcid=0x409)| 本白皮书详细介绍了数据流技术方面的信息，并描述了数据流特性和功能背后的功能和举措。 | 2018 年 11 月 |
@@ -31,7 +31,6 @@ ms.locfileid: "71194760"
 | [安全性](service-admin-power-bi-security.md) |详细介绍了 Power BI 中的安全性。 | 2019 年 3 月 |
 | [使用 Azure Active Directory B2B 将 Power BI 内容分发给外部来宾用户](whitepaper-azure-b2b-power-bi.md)|本白皮书概述了如何使用 Azure Active Directory 企业到企业 (AAD B2B) 的集成将内容分发给组织外的用户。| 2019 年 3 月 |
 | [高级 Power BI 分析](https://info.microsoft.com/advanced-analytics-with-power-bi.html?Is=Website) |介绍 Power BI 的高级分析功能，包括预测分析、自定义可视化效果、R 集成和数据分析表达式。 | 2017 年 2 月 |
-| [设计报表和视觉对象的最佳做法](visuals/power-bi-visualization-best-practices.md) |介绍了有关如何在 Power BI 中设计报表的最佳做法。 | 2018 年 6 月 |
 | [双向筛选](desktop-bidirectional-filtering.md) |介绍了 Power BI Desktop 中的双向交叉筛选（此白皮书还介绍了 SQL Server Analysis Services 2016，两者行为相同）。 | 2018 年 7 月 |
 | [SQL Server 2016 Analysis Services 中的 DirectQuery](https://blogs.msdn.microsoft.com/analysisservices/2017/04/06/directquery-in-sql-server-2016-analysis-services-whitepaper/) |针对 SQL Server 2016，DirectQuery 经过重新设计，显著提高了速度和性能，但现在的理解和实现过程也更为复杂。 | 2017 年 1 月 |
 | [Power BI 和 SAP BW](https://aka.ms/powerbiandsapbw)| 本文档介绍 SAP 客户如何在连接 Power BI 和现有 SAP Business Warehouse (BW) 系统的过程中受益。| 2018 年 2 月 |
