@@ -2,19 +2,19 @@
 title: Power BI 白皮书
 description: 阅读白皮书，可以深入探索 Power BI 主题。
 author: maggiesMSFT
-manager: kfile
+manager: kfollis
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 03/28/2019
 ms.author: maggies
-ms.openlocfilehash: b7fe09857d7f9d61745dd263353d3467c9cf6fb4
-ms.sourcegitcommit: e4b28c237c6e0dc16239b161a41a4c30a4b534dd
+ms.openlocfilehash: e88e6753df091fb7f046d475df59fa4344da5d98
+ms.sourcegitcommit: a5853ef44ed52e80eabee3757bb6887fa400b75b
 ms.translationtype: MT
 ms.contentlocale: zh-CN
 ms.lasthandoff: 11/07/2019
-ms.locfileid: "73710766"
+ms.locfileid: "73787304"
 ---
 # <a name="whitepapers-for-power-bi"></a>Power BI 白皮书
 
@@ -34,9 +34,9 @@ ms.locfileid: "73710766"
 | [双向筛选](desktop-bidirectional-filtering.md) |介绍了 Power BI Desktop 中的双向交叉筛选（此白皮书还介绍了 SQL Server Analysis Services 2016，两者行为相同）。 | 2018 年 7 月 |
 | [SQL Server 2016 Analysis Services 中的 DirectQuery](https://blogs.msdn.microsoft.com/analysisservices/2017/04/06/directquery-in-sql-server-2016-analysis-services-whitepaper/) |针对 SQL Server 2016，DirectQuery 经过重新设计，显著提高了速度和性能，但现在的理解和实现过程也更为复杂。 | 2017 年 1 月 |
 | [Power BI 和 SAP BW](https://aka.ms/powerbiandsapbw)| 本文档介绍 SAP 客户如何在连接 Power BI 和现有 SAP Business Warehouse (BW) 系统的过程中受益。| 2018 年 2 月 |
-| [保护表格 BI 语义模型](http://download.microsoft.com/download/D/2/0/D20E1C5F-72EA-4505-9F26-FEF9550EFD44/Securing%20the%20Tabular%20BI%20Semantic%20Model.docx) |本白皮书介绍了表格 BI 语义和 Power BI 的安全模型。 你将了解如何创建角色，实现动态安全性，配置模拟设置，管理角色，以及选择连接到在你的网络安全上下文中工作的模型的方法。 | 2016 年 4 月 |
+| [保护表格 BI 语义模型](https://download.microsoft.com/download/D/2/0/D20E1C5F-72EA-4505-9F26-FEF9550EFD44/Securing%20the%20Tabular%20BI%20Semantic%20Model.docx) |本白皮书介绍了表格 BI 语义和 Power BI 的安全模型。 你将了解如何创建角色，实现动态安全性，配置模拟设置，管理角色，以及选择连接到在你的网络安全上下文中工作的模型的方法。 | 2016 年 4 月 |
 | [Power BI 和 GDPR](https://aka.ms/power-bi-gdpr-whitepaper)| 此链接将导航到服务信任门户上的白皮书列表，包括 Microsoft Power BI GDPR 白皮书。 | 2018 年 4 月 |
 
 [!INCLUDE [GDPR-related guidance](includes/gdpr-hybrid-note.md)]
 
-更多问题？ [尝试咨询 Power BI 社区](http://community.powerbi.com/)
+更多问题？ [尝试咨询 Power BI 社区](https://community.powerbi.com/)

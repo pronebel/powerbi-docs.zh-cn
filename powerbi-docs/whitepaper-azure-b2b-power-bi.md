@@ -2,7 +2,7 @@
 title: 使用 Azure Active Directory B2B 将 Power BI 内容分发给外部来宾用户
 description: 介绍如何使用 Azure Active Directory B2B 将 Power BI 分发给外部来宾用户的白皮书
 author: davidiseminger
-manager: kfile
+manager: kfollis
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 03/07/2019
 ms.author: davidi
 LocalizationGroup: Conceptual
-ms.openlocfilehash: 0227072818b7c09463b47ba896c782ded1e7f248
-ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
+ms.openlocfilehash: b8e6d046509dd9e2d3cf35a3d46e0812b2774587
+ms.sourcegitcommit: a5853ef44ed52e80eabee3757bb6887fa400b75b
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "73432415"
+ms.lasthandoff: 11/07/2019
+ms.locfileid: "73787346"
 ---
 # <a name="distribute-power-bi-content-to-external-guest-users-using-azure-active-directory-b2b"></a>使用 Azure Active Directory B2B 将 Power BI 内容分发给外部来宾用户
 
@@ -398,7 +398,7 @@ Power BI 与 Azure AD B2B 的集成，Contoso 可以在将客户邀请到 Contos
 
 这会打开一个页面，在该页面中，Contoso 的 BI 团队可以查看他们所创建的两个角色。  Contoso 的 BI 团队现在可以将用户分配到角色。
 
-![行级别安全性](media/whitepaper-azure-b2b-power-bi/whitepaper-azure-b2b-power-bi_30.png)
+![行级安全性](media/whitepaper-azure-b2b-power-bi/whitepaper-azure-b2b-power-bi_30.png)
 
 在示例中，Contoso 正在将具有电子邮件地址 "[adam@themeasuredproduct.com](mailto:adam@themeasuredproduct.com)" 的合作伙伴组织中的用户添加到欧洲角色：
 
@@ -617,7 +617,7 @@ Contoso 的另一种选择是通过自定义身份验证（["应用拥有数据"
 
 **如果来宾用户的合作伙伴没有多重身份验证，Contoso 用户是否可以强制使用多因素身份验证？**
 
-是的。 有关详细信息，请参阅[B2B 协作用户的条件性访问](https://docs.microsoft.com/azure/active-directory/active-directory-b2b-mfa-instructions)。
+是。 有关详细信息，请参阅[B2B 协作用户的条件性访问](https://docs.microsoft.com/azure/active-directory/active-directory-b2b-mfa-instructions)。
 
 **当受邀伙伴使用联合添加自己的本地身份验证时，B2B 协作的工作原理是什么？**
 

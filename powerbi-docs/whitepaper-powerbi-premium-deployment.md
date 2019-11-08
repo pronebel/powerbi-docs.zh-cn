@@ -3,19 +3,19 @@ title: 部署和管理 Power BI Premium 容量
 description: 了解 Power BI Premium 的潜力，并了解如何设计、部署、监视可伸缩解决方案并对其进行故障排除。
 author: mgblythe
 ms.author: mblythe
-manager: kfile
+manager: kfollis
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
 ms.date: 03/06/2019
 LocalizationGroup: Premium
-ms.openlocfilehash: eecbc43f26cebc12884ae6c5143a815f6e310ce5
-ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
+ms.openlocfilehash: f9269b52b1721cd7c6801cd0337911159c0b2494
+ms.sourcegitcommit: a5853ef44ed52e80eabee3757bb6887fa400b75b
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "73432368"
+ms.lasthandoff: 11/07/2019
+ms.locfileid: "73786343"
 ---
 # <a name="deploying-and-managing-power-bi-premium-capacities"></a>部署和管理 Power BI Premium 容量
 
@@ -48,7 +48,7 @@ Power BI 是一种业务分析服务，旨在提供快速、明智的决策。 �
 
 在共享容量中，工作负载可在与其他客户共享的计算资源上运行。 由于容量必须共享资源，因此会施加限制以确保 "公平扮演"，如最大模型大小（1 GB）和每日最大刷新频率（每天8次）。
 
-### <a name="workspaces"></a>工作区
+### <a name="workspaces"></a>Workspaces
 
 Power BI 工作区驻留在容量范围内，它们表示安全性、协作和部署容器。 每个 Power BI 用户都有一个称为“我的工作区”的个人工作区。 可以创建其他工作区以实现协作和部署，这些工作区称为**工作区**。 默认情况下，将在共享容量中创建工作区（包括个人工作区）。
 
@@ -63,7 +63,7 @@ Power BI 工作区驻留在容量范围内，它们表示安全性、协作和�
 - 数据流
 - 数据集
 - 工作簿
-- 报表
+- Reports
 - 仪表板
 
 #### <a name="dataflows"></a>数据流
@@ -131,7 +131,7 @@ Power BI 工作簿是 \[[4](#endnote-04)\]的 Power BI 内容类型。 它们是
 
 有关详细信息，请参阅[从 Excel 工作簿文件中获取数据](service-excel-workbook-files.md)文档。
 
-#### <a name="reports"></a>报表
+#### <a name="reports"></a>Reports
 
 有两种类型的报表： Power BI 报表和分页报表。
 
@@ -327,9 +327,9 @@ Power BI Premium 订阅由 Microsoft 365 管理中心的管理员购买。 具�
 
 | 容量节点 | 总虚拟核心 | 后端 V 核心 | RAM (GB) | 前端 V 核心 | DQ/LC （每秒） | 模型刷新并行度 |
 | --- | --- | --- | --- | --- | --- | --- |
-| EM1/A1 | 1 | 0.5 | 3 | 0.5 | 3.75 | 1 |
-| EM2/A2 | 2 | 1 | 5 | 1 | 7.5 | 2 |
-| EM3/A3 | 4 | 2 | 10 | 2 | 15 | 3 |
+| EM1/A1 | 第 1 个 | 0.5 | 季度 3 | 0.5 | 3.75 | 第 1 个 |
+| EM2/A2 | 2 | 第 1 个 | 5 | 第 1 个 | 7.5 | 2 |
+| EM3/A3 | 4 | 2 | 10 | 2 | 15 | 季度 3 |
 | P1/A4 | 8 | 4 | 25 | 4 | 30 | 6 |
 | P2/A5 | 16 | 8 | 50 | 8 | 60 | 12 |
 | P3/A6 | 32 | 16 | 100 | 16 | 120 | 24 |
@@ -407,9 +407,9 @@ Power BI 服务管理员和 Office 365 全局管理员可以修改 Premium 容�
 
 |                     | EM3                      | P1                       | P2                      | P3                       |
 |---------------------|--------------------------|--------------------------|-------------------------|--------------------------|
-| 分页报表 | 不适用 | 默认为 20%，最低为 10% | 默认为 20%，最低为 5% | 默认为 20%，最低为 2.5% |
+| 分页报表 | N/A | 默认为 20%，最低为 10% | 默认为 20%，最低为 5% | 默认为 20%，最低为 2.5% |
 | 数据流 | 默认为 20%，最低为 8%  | 默认为 20%，最低为 4%  | 默认为 20%，最低为 2% | 默认为 20%，最低为 1%  |
-| AI | 不适用 | 默认为 20%，最低为 20%  | 默认为 20%，最低为 10% | 默认为 20%，最低为 5%  |
+| AI | N/A | 默认为 20%，最低为 20%  | 默认为 20%，最低为 10% | 默认为 20%，最低为 5%  |
 | | | | | |
 
 删除高级容量可能会导致删除其工作区和内容。 相反，它会将任何分配的工作区移动到共享容量。 当在不同区域中创建高级容量时，工作区将被移动到主区域的共享容量。
