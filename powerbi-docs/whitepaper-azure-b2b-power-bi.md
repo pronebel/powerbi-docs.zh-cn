@@ -2,7 +2,6 @@
 title: 使用 Azure Active Directory B2B 将 Power BI 内容分发给外部来宾用户
 description: 介绍如何使用 Azure Active Directory B2B 将 Power BI 分发给外部来宾用户的白皮书
 author: davidiseminger
-manager: kfollis
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 03/07/2019
 ms.author: davidi
 LocalizationGroup: Conceptual
-ms.openlocfilehash: b8e6d046509dd9e2d3cf35a3d46e0812b2774587
-ms.sourcegitcommit: a5853ef44ed52e80eabee3757bb6887fa400b75b
+ms.openlocfilehash: 538c533a1b951fd2dff1b481adb94e2b1d0cf87b
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/07/2019
-ms.locfileid: "73787346"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73870897"
 ---
 # <a name="distribute-power-bi-content-to-external-guest-users-using-azure-active-directory-b2b"></a>使用 Azure Active Directory B2B 将 Power BI 内容分发给外部来宾用户
 

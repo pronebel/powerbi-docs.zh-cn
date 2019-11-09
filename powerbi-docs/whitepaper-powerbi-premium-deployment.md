@@ -3,19 +3,18 @@ title: 部署和管理 Power BI Premium 容量
 description: 了解 Power BI Premium 的潜力，并了解如何设计、部署、监视可伸缩解决方案并对其进行故障排除。
 author: mgblythe
 ms.author: mblythe
-manager: kfollis
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
 ms.date: 03/06/2019
 LocalizationGroup: Premium
-ms.openlocfilehash: f9269b52b1721cd7c6801cd0337911159c0b2494
-ms.sourcegitcommit: a5853ef44ed52e80eabee3757bb6887fa400b75b
+ms.openlocfilehash: 3ccd4af0f00e132c8bc0bd29a9ff23f89b13a15f
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/07/2019
-ms.locfileid: "73786343"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73880606"
 ---
 # <a name="deploying-and-managing-power-bi-premium-capacities"></a>部署和管理 Power BI Premium 容量
 
@@ -834,7 +833,7 @@ Power BI Premium 提供更一致的性能、支持大型数据卷，并为组织
 
 ## <a name="end-notes"></a>结束注释
 
-<a name="endnote-01"></a>\[1\] 本技术文章涉及的 Power BI Premium 仅受 Power BI 云服务支持，因此 Power BI 报表服务器不在范围内，除非安装 Power BI 报表服务器所需的许可证包括在内某些 Power BI Premium Sku。
+<a name="endnote-01"></a>\[1\] 本技术文章涉及的 Power BI Premium 仅受 Power BI 云服务的支持，因此 Power BI 报表服务器不在范围内，除非安装 Power BI 报表服务器所需的许可证包含在某些 Power BI Premium Sku 中。
 
 <a name="endnote-02"></a>\[2\] 在代表应用程序用户嵌入内容时，Power BI 云服务，是平台即服务（PaaS）。 可以通过不同的两种产品来实现这种类型的嵌入，其中一种是 Power BI Premium。
 
