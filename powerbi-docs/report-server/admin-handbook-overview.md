@@ -2,19 +2,18 @@
 title: 管理员概述：Power BI 报表服务器
 description: 本文是 Power BI 报表服务器管理概述，该服务器是用于存储和管理 Power BI、移动报表和分页报表的本地位置。
 author: maggiesMSFT
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 05/22/2019
 ms.author: maggies
-ms.openlocfilehash: c670c78b03a1cd3fd6ce1ad3aeaa0003ce794eec
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: a93b3def115aaadbc33f6d0985aeea424558f248
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "66187389"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73860227"
 ---
 # <a name="admin-overview-power-bi-report-server"></a>管理员概述：Power BI 报表服务器
 本文是 Power BI 报表服务器管理概述，该服务器是用于存储和管理 Power BI、移动报表和分页报表的本地位置。 本文介绍规划、部署和管理 Power BI 报表服务器的概念，以及指向详细信息的链接。
@@ -49,7 +48,7 @@ ms.locfileid: "66187389"
 [查找报表服务器产品密钥](find-product-key.md)  
 [安装更适合 Power BI 报表服务器的 Power BI Desktop](install-powerbi-desktop.md)  
 [下载报表生成器](https://www.microsoft.com/download/details.aspx?id=53613)  
-[下载 SQL Server Data Tools (SSDT)](http://go.microsoft.com/fwlink/?LinkID=616714)
+[下载 SQL Server Data Tools (SSDT)](https://go.microsoft.com/fwlink/?LinkID=616714)
 
 更多问题？ [尝试咨询 Power BI 社区](https://community.powerbi.com/)
 

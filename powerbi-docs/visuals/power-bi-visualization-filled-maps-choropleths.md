@@ -2,7 +2,6 @@
 title: Power BI 中的着色地图（等值线图）
 description: 有关在 Power BI 中创建着色地图（等值线图）的文档
 author: mihart
-manager: kvivek
 ms.reviewer: ''
 featuredvideoid: ''
 ms.service: powerbi
@@ -11,12 +10,12 @@ ms.topic: conceptual
 ms.date: 06/19/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 2befce7914fc295ff4a6124be10183d5ff20106d
-ms.sourcegitcommit: e5cf19e16112c7dad1591c3b38d232267ffb3ae1
+ms.openlocfilehash: 9c35e97fba55230277f9f144a5155071656b6add
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "72544518"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73870962"
 ---
 # <a name="filled-maps-choropleths-in-power-bi"></a>Power BI 中的着色地图（等值线图）
 
@@ -47,7 +46,7 @@ Power BI 与必应相集成，提供默认地图坐标（一个称为地理编�
 * 要获取跨地理位置的分布的概况。
 
 ### <a name="prerequisites"></a>先决条件
-本教程使用[零售分析示例 PBIX 文件](http://download.microsoft.com/download/9/7/6/9767913A-29DB-40CF-8944-9AC2BC940C53/Sales%20and%20Marketing%20Sample%20PBIX.pbix)。
+本教程使用[零售分析示例 PBIX 文件](https://download.microsoft.com/download/9/7/6/9767913A-29DB-40CF-8944-9AC2BC940C53/Sales%20and%20Marketing%20Sample%20PBIX.pbix)。
 1. 在菜单栏的左上部分，选择“文件”   > “打开” 
    
 2. 查找**零售分析示例 PBIX 文件**的副本

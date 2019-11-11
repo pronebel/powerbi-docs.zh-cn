@@ -3,18 +3,17 @@ title: Power BI 分页报表中的分页
 description: 本文将介绍 Power BI 服务中分页报表支持的数据源，以及如何连接到 Azure SQL 数据库数据源。
 author: maggiesMSFT
 ms.author: maggies
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: conceptual
 ms.date: 07/22/2019
-ms.openlocfilehash: e91d3801cc2293ad22028a95a331d473f41288c0
-ms.sourcegitcommit: bc688fab9288ab68eaa9f54b9b59cacfdf47aa2e
+ms.openlocfilehash: d0f0abe15348d54f24143d69fcd6c0c2b71e9a34
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/30/2019
-ms.locfileid: "68624831"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73874791"
 ---
 # <a name="pagination-in-power-bi-paginated-reports"></a>Power BI 分页报表中的分页
 
@@ -37,7 +36,7 @@ ms.locfileid: "68624831"
   
  如果要替代报表中定义的物理页大小，可以使用用于导出报表的特定呈现器“设备信息”设置来指定物理页大小。 有关完整列表，请参阅 SQL Server Reporting Services 文档中的[呈现扩展插件的设备信息设置](https://docs.microsoft.com/sql/reporting-services/device-information-settings-for-rendering-extensions-reporting-services?view=sql-server-2017)。  
   
-### <a name="margins"></a>边距
+### <a name="margins"></a>Margins
 
  边距从物理页尺寸的边缘向内绘制到指定边距设置。 如果报表项扩展到边距区域中，则会进行剪裁，以便不呈现重叠区域。 如果指定的边距大小导致页的水平或垂直宽度等于零，则边距设置默认为零。 边距在“报表属性”  窗格或“页面设置”  对话框中指定，或是通过在“属性”  窗格中更改 TopMargin、BottomMargin、LeftMargin 和 RightMargin 属性进行指定。 如果要替代报表中定义的边距大小，可以使用用于导出报表的特定呈现器“设备信息”设置来指定边距大小。  
   
@@ -90,4 +89,4 @@ ms.locfileid: "68624831"
 
 [在 Power BI 服务中查看分页报表](paginated-reports-view-power-bi-service.md)
 
-更多问题？ [尝试参与 Power BI 社区](http://community.powerbi.com/)
+更多问题？ [尝试参与 Power BI 社区](https://community.powerbi.com/)
