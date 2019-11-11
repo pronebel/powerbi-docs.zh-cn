@@ -113,6 +113,8 @@
           href: visuals/power-bi-visualization-customize-title-background-and-legend.md
         - name: 显示 Power BI 中不含数据的项目
           href: desktop-show-items-no-data.md
+        - name: Power BI Desktop 中的自动日期/时间
+          href: desktop-auto-date-time.md
         - name: 连接到数据
           items:
             - name: Power BI Desktop 中的数据源
