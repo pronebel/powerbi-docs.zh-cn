@@ -2,7 +2,6 @@
 title: 管理数据源 - 导入/计划刷新
 description: 如何管理本地数据网关和属于该网关的数据源。 这篇文章特定于可用于导入/计划刷新的数据源。
 author: mgblythe
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-gateways
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 07/15/2019
 ms.author: mblythe
 LocalizationGroup: Gateways
-ms.openlocfilehash: 3e223fba25386e91354130083f8bacc653b26cee
-ms.sourcegitcommit: d74aca333595beaede0d71ba13a88945ef540e44
+ms.openlocfilehash: 7512257a3abad33babe2a5b6b56f613c7bb1b50f
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/03/2019
-ms.locfileid: "68757658"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73881712"
 ---
 # <a name="manage-your-data-source---importscheduled-refresh"></a>管理数据源 - 导入/计划刷新
 
@@ -75,4 +74,4 @@ OAuth 在本地数据网关中是不受支持的身份验证方案。 不能添�
 * [本地数据网关疑难解答](/data-integration/gateway/service-gateway-tshoot)
 * [对网关进行排除故障 - Power BI](service-gateway-onprem-tshoot.md)
 
-更多问题？ 尝试参与 [Power BI 社区](http://community.powerbi.com/)。
+更多问题？ 尝试参与 [Power BI 社区](https://community.powerbi.com/)。

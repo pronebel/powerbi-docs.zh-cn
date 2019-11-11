@@ -3,18 +3,17 @@ title: Power BI 数据模型的版本控制
 description: OData 服务公开的数据模型
 author: rkarlin
 ms.author: rkarlin
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 06/08/2018
-ms.openlocfilehash: 6456974e7c05b65eb084d00bb1970d4291a0cf0c
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: 3835aabee88b33ba8b053550e4637cb387bace02
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61385610"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73875963"
 ---
 # <a name="data-model-versioning"></a>数据模型版本控制
 
@@ -37,7 +36,7 @@ OData 服务公开的数据模型（例如 Power BI 数据模型）将定义 ODa
   
 服务不应更改其数据模型，具体取决于经过身份验证的用户。 如果数据模型依赖于用户或用户组，则在将完整模型与用户可见的具有受限授权的模型相比较时，所有更改都必须为安全更改，如本部分中所定义。  
   
-有关 OData 数据模型标准的详细信息，请参阅 [OData 版本 4.0 第 1 部分：协议及勘误表 02](http://docs.oasis-open.org/odata/odata/v4.0/odata-v4.0-part1-protocol.html)。  
+有关 OData 数据模型标准的详细信息，请参阅 [OData 版本 4.0 第 1 部分：协议及勘误表 02](https://docs.oasis-open.org/odata/odata/v4.0/odata-v4.0-part1-protocol.html)。  
   
 ## <a name="see-also"></a>另请参阅
 [Power BI REST API 概述](https://docs.microsoft.com/rest/api/power-bi/)  

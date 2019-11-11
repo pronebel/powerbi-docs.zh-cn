@@ -2,7 +2,6 @@
 title: 在 Power BI 服务中安装并使用销售和营销应用
 description: 在 Power BI 中，应用将相关仪表板和报表汇总到一处。 从 AppSource 安装销售和营销应用。
 author: mihart
-manager: kvivek
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-consumer
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 09/02/2019
 ms.author: mihart
 LocalizationGroup: Share your work
-ms.openlocfilehash: aaab001653fbcc0d887b8cd252dc49687e703c3e
-ms.sourcegitcommit: b7a9862b6da940ddebe61bc945a353f91cd0e4bd
+ms.openlocfilehash: e15c19402c032d84c77f1e6e61e7afb6b49856fb
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/04/2019
-ms.locfileid: "71944624"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73851159"
 ---
 # <a name="install-and-use-the-sample-sales-and-marketing-app-in-the-power-bi-service"></a>在 Power BI 服务中安装并使用示例销售和营销应用
 了解了[如何获取 Power BI 内容的基本信息](end-user-app-view.md)后，接下来从 Microsoft AppSource (appsource.com) 获取营销和销售应用。 

@@ -1,10 +1,10 @@
 ---
-ms.openlocfilehash: 629c53358f757002f2b3dcda468641bbaaa2f4d4
-ms.sourcegitcommit: c0f4d00d483121556a1646b413bab75b9f309ae9
+ms.openlocfilehash: 5bc0d3bbfb2c2b67b56e6406646f6131a360b97d
+ms.sourcegitcommit: a5853ef44ed52e80eabee3757bb6887fa400b75b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/29/2019
-ms.locfileid: "70166675"
+ms.lasthandoff: 11/07/2019
+ms.locfileid: "73799700"
 ---
 **DAX** 和 Excel 公式语言的一个显著区别是 DAX 允许在表达式之间传递整个表  ，而不仅限于单个值。 DAX 的一项强大功能是允许你在其表达式中筛选表格，然后使用筛选的值集。
 
@@ -42,7 +42,7 @@ Power BI 报表生成人员想要回答的一个常见问题是：
 
 你还可以使用 DAX 函数创建整个计算表。 使用 DAX 创建的计算表要求有一个**名称**和一个**表**函数。 计算的表的使用，包括建立关系，和任何其他表一样。
 
-> 视频内容由 [Alberto Ferrari, SQLBI](http://www.sqlbi.com/learning-dax) 提供
+> 视频内容由 [Alberto Ferrari, SQLBI](https://www.sqlbi.com/learning-dax) 提供
 > 
 > 
 

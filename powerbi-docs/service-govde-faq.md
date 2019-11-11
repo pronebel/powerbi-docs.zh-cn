@@ -2,7 +2,6 @@
 title: 适用于德国政府客户的常见问题解答
 description: 针对德国政府客户，解答 Power BI 德国政府服务的常见问题
 author: davidiseminger
-manager: kfile
 ms.reviewer: ''
 ms.custom: seodec18
 ms.service: powerbi
@@ -11,12 +10,12 @@ ms.topic: conceptual
 ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: 805856082b3bef0f92674415eb16da1cc108cdf2
-ms.sourcegitcommit: d04b9e1426b8544ce16ef25864269cc43c2d9f7b
+ms.openlocfilehash: 7d432f8320bfa9d1e425e7f0079407ce46b12373
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "71715373"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73872288"
 ---
 # <a name="frequently-asked-questions-for-power-bi-for-germany-cloud-customers"></a>适用于德国云客户的 Power BI 常见问题解答
 **Power BI 服务**具有可用于欧盟/欧洲自由贸易协议 (EU/EFTA) 客户的版本，通常称为 Microsoft Cloud Deutschland (MCD)。 本文中讨论的 **Power BI 服务**版本是为欧盟/EFTA 客户专门设计的，独立且不同于 **Power BI 服务**的商业版本或为政府客户提供的 Power BI 服务。

@@ -3,19 +3,18 @@ title: 通过本地数据网关使用自定义数据连接器
 description: 你可以在本地数据网关中使用自定义数据连接器。
 author: mgblythe
 ms.author: mblythe
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-gateways
 ms.topic: conceptual
 ms.date: 07/15/2019
 LocalizationGroup: Gateways
-ms.openlocfilehash: 3c0ef172115dba05deb02d724b663742a2e71c13
-ms.sourcegitcommit: 9665bdabce3bfc31f68dd8256b135bfd56f60589
+ms.openlocfilehash: c76c8fdb635db7724ffeb1a5140e9095c9b2eff5
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/06/2019
-ms.locfileid: "68832522"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73881745"
 ---
 # <a name="use-custom-data-connectors-with-the-on-premises-data-gateway"></a>通过本地数据网关使用自定义数据连接器
 
@@ -23,7 +22,7 @@ ms.locfileid: "68832522"
 
 使用适用于 Power BI 的数据连接器，可以连接到应用程序、服务或数据源中的数据并访问这些数据。 可以开发自定义数据连接器并将其用于 Power BI Desktop 中。
 
-要详细了解如何开发适用于 Power BI 的自定义数据连接器，请参阅[数据连接器 SDK GitHub 页面](http://aka.ms/dataconnectors)。 此站点包括有关 Power BI 和 Power Query 的入门信息和示例。
+要详细了解如何开发适用于 Power BI 的自定义数据连接器，请参阅[数据连接器 SDK GitHub 页面](https://aka.ms/dataconnectors)。 此站点包括有关 Power BI 和 Power Query 的入门信息和示例。
 
 在使用自定义数据连接器的 Power BI Desktop 中生成报表时，可以使用本地数据网关从 Power BI 服务中刷新这些报表。
 
@@ -58,4 +57,4 @@ ms.locfileid: "68832522"
 * [为本地数据网关配置代理设置](/data-integration/gateway/service-gateway-proxy)
 * [使用 Kerberos 进行从 Power BI 到本地数据源的单一登录 (SSO)](service-gateway-sso-kerberos.md)  
 
-更多问题？ 请尝试在 [Power BI 社区](http://community.powerbi.com/)中提问
+更多问题？ 请尝试在 [Power BI 社区](https://community.powerbi.com/)中提问

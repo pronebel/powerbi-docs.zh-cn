@@ -2,7 +2,6 @@
 title: 基本分区图
 description: 基本分区图。
 author: mihart
-manager: kvivek
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 06/11/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: b7a4021999a39d88b78d31aaa55d7f9c08a93d8e
-ms.sourcegitcommit: e5cf19e16112c7dad1591c3b38d232267ffb3ae1
+ms.openlocfilehash: ccba97d7fc4df050b9685dd9c2a69af36f62a485
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "72544114"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73880980"
 ---
 # <a name="basic-area-chart"></a>基本分区图
 
@@ -34,7 +33,7 @@ ms.locfileid: "72544114"
 * 对于表示可以物理方式计数的集合的各个序列
 
 ### <a name="prerequisites"></a>先决条件
-本教程使用[零售分析示例 PBIX 文件](http://download.microsoft.com/download/9/6/D/96DDC2FF-2568-491D-AAFA-AFDD6F763AE3/Retail%20Analysis%20Sample%20PBIX.pbix)。
+本教程使用[零售分析示例 PBIX 文件](https://download.microsoft.com/download/9/6/D/96DDC2FF-2568-491D-AAFA-AFDD6F763AE3/Retail%20Analysis%20Sample%20PBIX.pbix)。
 
 1. 在菜单栏的左上方，选择“文件” > “打开”  
    

@@ -2,19 +2,18 @@
 title: 什么是 Power BI？
 description: 概述了 Power BI 以及如何完美组合使用各种产品（Power BI Desktop、Power BI 服务、Power BI 移动版、报表服务器、Power BI Embedded）。
 author: maggiesMSFT
-manager: kfile
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: overview
 ms.date: 09/04/2019
 ms.author: maggies
 LocalizationGroup: Get started
-ms.openlocfilehash: 17c352a28561278ae282d76f725322ad800fb76d
-ms.sourcegitcommit: d441d350504f8c6d9e100d229757add6237f0bef
+ms.openlocfilehash: 9da9465bea8512b541d3f1af3983df70d184ac26
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/30/2019
-ms.locfileid: "73064436"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73875651"
 ---
 # <a name="what-is-power-bi"></a>什么是 Power BI？
 **Power BI** 是软件服务、应用和连接器的集合，它们协同工作以将相关数据来源转换为连贯的视觉逼真的交互式见解。 数据可以是 Excel 电子表格，也可以是基于云和本地混合数据仓库的集合。 借助 Power BI 可以轻松连接到数据源，可视化并发现重要内容，并根据需要与他人共享。

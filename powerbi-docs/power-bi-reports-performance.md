@@ -3,19 +3,18 @@ title: Power BI 性能最佳做法
 description: 本文将介绍如何在 Power BI 中构建快速可靠的报表
 author: Bhavik-MSFT
 ms.author: bhmerc
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 07/30/2018
 LocalizationGroup: Reports
-ms.openlocfilehash: 736c1ee1b1998ec7f991167352313a05061b3f3c
-ms.sourcegitcommit: 226b47f64e6749061cd54bf8d4436f7deaed7691
+ms.openlocfilehash: 2fd0a3d878641264e84a14579901a9685b0f6e8b
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/09/2019
-ms.locfileid: "70841486"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73875107"
 ---
 # <a name="power-bi-performance-best-practices"></a>Power BI 性能最佳做法
 
@@ -152,7 +151,7 @@ ms.locfileid: "70841486"
 
 网络延迟可增加请求到达 Power BI 服务以及传输响应所需的时间，从而影响报表的性能。 Power BI 中的租户被分配一个特定区域。 通过导航到 powerbi.com，在右上角选择“?”  ， 然后选择“关于 Power BI”  ，你可以查看租户的“主页”区域。 当来自租户的用户访问 Power BI 服务时，他们的请求将始终被路由到此区域。 请求到达 Power BI 服务后，服务就可以发送其他请求（例如，到基础数据源或网关的请求），这也会受到网络延迟的影响。
 
-诸如 [Azure 速度测试](http://azurespeedtest.azurewebsites.net/)之类的工具可提供客户端与 Azure 区域之间的网络延迟的指示。 一般来说，为了尽量降低网络延迟的影响，请争取使数据源、网关和 Power BI 群集尽可能地靠近。 如果网络延迟成为一个问题，请尝试通过将网关和数据源放在虚拟机上来查找与 Power BI 群集更近的网关和数据源。
+诸如 [Azure 速度测试](https://azurespeedtest.azurewebsites.net/)之类的工具可提供客户端与 Azure 区域之间的网络延迟的指示。 一般来说，为了尽量降低网络延迟的影响，请争取使数据源、网关和 Power BI 群集尽可能地靠近。 如果网络延迟成为一个问题，请尝试通过将网关和数据源放在虚拟机上来查找与 Power BI 群集更近的网关和数据源。
 
 要进一步改善网络延迟状况，请考虑使用 [Azure ExpressRoute](https://azure.microsoft.com/services/expressroute/)，它能够在客户端与 Azure 数据中心之间创建更快、更可靠的网络连接。
 

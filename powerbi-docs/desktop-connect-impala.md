@@ -2,7 +2,6 @@
 title: 在 Power BI Desktop 中连接到 Impala 数据库
 description: 通过 Power BI Desktop 轻松连接并使用 Impala 数据库
 author: davidiseminger
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 0befceba2651ad4f8f414d3669c5830c07ece06d
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: edac9f4eb0269e1d6ae359db6e8060b64697658c
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "65514193"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73878543"
 ---
 # <a name="connect-to-an-impala-database-in-power-bi-desktop"></a>在 Power BI Desktop 中连接到 Impala 数据库
 在 Power BI Desktop 中，可以连接到 Impala  数据库，并使用基础数据，就像在 Power BI Desktop 中使用其他任何数据源一样。

@@ -2,7 +2,6 @@
 title: 显示 Power BI 服务中最近访问的内容
 description: Power BI 中最近访问的内容文档
 author: mihart
-manager: kvivek
 ms.reviewer: ''
 featuredvideoid: G26dr2PsEpk
 ms.service: powerbi
@@ -11,12 +10,12 @@ ms.topic: conceptual
 ms.date: 09/24/2019
 ms.author: mihart
 LocalizationGroup: Common tasks
-ms.openlocfilehash: bae340f89b10253920f8e22d02b4b78c23fa2dd9
-ms.sourcegitcommit: 02042995df12cc4e4b97eb8a369e62364eb5af36
+ms.openlocfilehash: 80c11aef2e985304c824fe1948a6bec867e6cb33
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/25/2019
-ms.locfileid: "71256238"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73862422"
 ---
 # <a name="recent-content-in-the-power-bi-service"></a>Power BI 服务中**最近访问的**内容
 最近访问内容指上次在 Power BI 服务中访问的项目，最多显示 20 个项目。  其中包括：仪表板、报表、应用和工作簿。
@@ -53,5 +52,5 @@ ms.locfileid: "71256238"
 ## <a name="next-steps"></a>后续步骤
 [Power BI 服务应用](end-user-apps.md)
 
-更多问题？ [尝试参与 Power BI 社区](http://community.powerbi.com/)
+更多问题？ [尝试参与 Power BI 社区](https://community.powerbi.com/)
 

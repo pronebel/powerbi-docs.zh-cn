@@ -2,7 +2,6 @@
 title: 管理数据源 - Analysis Services
 description: 如何管理本地数据网关和属于该网关的数据源。 这是用于在多维和表格模式下的 Analysis Services。
 author: mgblythe
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-gateways
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 07/15/2019
 ms.author: mblythe
 LocalizationGroup: Gateways
-ms.openlocfilehash: 02036d8b8fe35729a97a18dc5e058805d089b128
-ms.sourcegitcommit: 73228d0a9038b8369369c059ad06168d2c5ff062
+ms.openlocfilehash: 646bbc2e1923c3c325fce4c8f745e6b9914133f2
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/02/2019
-ms.locfileid: "68730183"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73881661"
 ---
 # <a name="manage-your-data-source---analysis-services"></a>管理数据源 - Analysis Services
 
@@ -284,5 +283,5 @@ Microsoft 云服务使用 [Azure AD](/azure/active-directory/fundamentals/active
 * [本地数据网关疑难解答](/data-integration/gateway/service-gateway-tshoot)
 * [对网关进行排除故障 - Power BI](service-gateway-onprem-tshoot.md)
 
-更多问题？ 尝试参与 [Power BI 社区](http://community.powerbi.com/)。
+更多问题？ 尝试参与 [Power BI 社区](https://community.powerbi.com/)。
 

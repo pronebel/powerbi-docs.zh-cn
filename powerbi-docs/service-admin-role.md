@@ -2,7 +2,6 @@
 title: 了解 Power BI 管理员角色
 description: 本文介绍 Power BI 服务管理员角色以及如何在组织中使用它。
 author: mgblythe
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 09/09/2019
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: 8b4d2382f89c48f20767cf72bc0468589c366cfe
-ms.sourcegitcommit: 02042995df12cc4e4b97eb8a369e62364eb5af36
+ms.openlocfilehash: 900734a027a0f1af76f93709f80eec8d8e8b3108
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/25/2019
-ms.locfileid: "71256424"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73856729"
 ---
 # <a name="understanding-the-power-bi-service-administrator-role"></a>了解 Power BI 服务管理员角色
 
@@ -111,4 +110,4 @@ Office 365 用户管理管理员可以在 Microsoft 365 管理中心内或使用
 [在组织中管理 Power BI](service-admin-administering-power-bi-in-your-organization.md)  
 [Power BI 管理门户](service-admin-portal.md)  
 
-更多问题？ [尝试咨询 Power BI 社区](http://community.powerbi.com/)
+更多问题？ [尝试咨询 Power BI 社区](https://community.powerbi.com/)

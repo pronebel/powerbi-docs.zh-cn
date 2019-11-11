@@ -2,7 +2,6 @@
 title: 在 Power BI Desktop 中使用度量
 description: Power BI Desktop 中的度量值
 author: davidiseminger
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 07/29/2019
 ms.author: davidi
 LocalizationGroup: Model your data
-ms.openlocfilehash: d5ada41ef4941f14118b777e37e731337a5282d0
-ms.sourcegitcommit: d04b9e1426b8544ce16ef25864269cc43c2d9f7b
+ms.openlocfilehash: c75300a05b58b82230540a1a61ae503d194d53e0
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "71715402"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73878141"
 ---
 # <a name="measures-in-power-bi-desktop"></a>Power BI Desktop 中的度量值
 
@@ -87,7 +86,7 @@ Jan 注意到，即使他们没有指定计算，系统也已经自动提供了�
 ## <a name="learn-more"></a>了解详细信息
 在此处我们仅向你快速地介绍了度量值，仍有许多内容可帮助你学习如何创建自己的度量值。 请务必参阅[教程：在 Power BI Desktop 中创建你自己的度量值](desktop-tutorial-create-measures.md)，在其中你可以下载示例文件并获取有关如何创建更多度量值的逐步课程。  
 
-若要更深入了解 DAX，请确保查看 [Power BI Desktop 中的 DAX 基本概念](desktop-quickstart-learn-dax-basics.md)。 [数据分析表达式参考](https://msdn.microsoft.com/library/gg413422.aspx)提供了有关每个函数、语法、运算符和命名约定的详细文章。 DAX 出现在 Excel 的 Power Pivot 和 SQL Server Analysis Services 中已经有数年时间了，因此还有许多其他有用的资源可供使用。 请务必查看 [DAX 资源中心 Wiki](http://social.technet.microsoft.com/wiki/contents/articles/1088.dax-resource-center.aspx)，其中有影响力的 BI 社区成员将会分享他们的 DAX 知识。
+若要更深入了解 DAX，请确保查看 [Power BI Desktop 中的 DAX 基本概念](desktop-quickstart-learn-dax-basics.md)。 [数据分析表达式参考](https://msdn.microsoft.com/library/gg413422.aspx)提供了有关每个函数、语法、运算符和命名约定的详细文章。 DAX 出现在 Excel 的 Power Pivot 和 SQL Server Analysis Services 中已经有数年时间了，因此还有许多其他有用的资源可供使用。 请务必查看 [DAX 资源中心 Wiki](https://social.technet.microsoft.com/wiki/contents/articles/1088.dax-resource-center.aspx)，其中有影响力的 BI 社区成员将会分享他们的 DAX 知识。
 
 
 

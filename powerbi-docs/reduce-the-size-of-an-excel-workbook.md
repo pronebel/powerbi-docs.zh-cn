@@ -2,7 +2,6 @@
 title: 减小 Excel 工作簿的大小以便在 Power BI 中进行查看
 description: 减小 Excel 工作簿的大小以便在 Power BI 中进行查看
 author: davidiseminger
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 01/10/2019
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: 111e38fd37bcdfa2a72986bb08a37d89345bbe69
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: 8c58c85ea46f9884586e1ff73f1ef9f7b1db9cdd
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "60972603"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73860571"
 ---
 # <a name="reduce-the-size-of-an-excel-workbook-to-view-it-in-power-bi"></a>减小 Excel 工作簿的大小以便在 Power BI 中进行查看
 你可以将任何小于 1 GB 的 Excel 工作簿上载到 Power BI。 Excel 工作簿包括两个部分：数据模型和报表的其余部分—核心的工作表内容。 如果报表满足下面的大小限制，那么可以将其保存到 **OneDrive for Business**、从 Power BI 中连接它，以及在 Excel Online 中查看它：

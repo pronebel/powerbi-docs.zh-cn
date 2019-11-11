@@ -3,19 +3,18 @@ title: 修复“企业 SSL 证书不受信任”的问题
 description: 在登录适用于 Power BI 的 Android 应用时，你可能会看到以下消息：“无法进行身份验证，因为你的企业 SSL 证书不受信任
 .": ''
 author: paulinbar
-manager: rkarlin
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 08/28/2019
 ms.author: mshenhav
-ms.openlocfilehash: 19bcdf08d4eacff5e080bf1a2f987ea848e4bfb9
-ms.sourcegitcommit: 52aa112ac9194f4bb62b0910c4a1be80e1bf1276
+ms.openlocfilehash: cde8a4bbaed9ef10940b7a102d40a8bc6009e9b9
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "70840926"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73879484"
 ---
 # <a name="fixing-corporate-ssl-certificate-is-untrusted---power-bi"></a>修复“企业 SSL 证书不受信任”- Power BI
 在登录适用于 Microsoft Power BI 的 Android 移动应用时，你可能会看到以下消息：“无法进行身份验证，因为你的企业 SSL 证书不受此设备信任。 请联系你的公司 IT 管理员。” 
@@ -41,9 +40,9 @@ ms.locfileid: "70840926"
 转到“**设置**” > “**系统**” > “**日期和时间**”以检查时区设置。
 
 ## <a name="custom-authentication-server"></a>自定义身份验证服务器
-如果你使用的自定义身份验证服务器，则公司身份验证服务器中的 SSL 证书可能无效。 请按照[本文](https://support.microsoft.com/en-us/help/3203929/using-adal-to-authenticate-from-android-devices-fails-if-additional-ce)中的指导与组织 IT 协作，测试公司的身份验证服务器配置。
+如果你使用的自定义身份验证服务器，则公司身份验证服务器中的 SSL 证书可能无效。 请按照[本文](https://support.microsoft.com/help/3203929/using-adal-to-authenticate-from-android-devices-fails-if-additional-ce)中的指导与组织 IT 协作，测试公司的身份验证服务器配置。
 
 ## <a name="next-steps"></a>后续步骤
-* 从 Android 应用商店[下载 Android 应用](http://go.microsoft.com/fwlink/?LinkID=544867)
-* 是否有任何问题？ [尝试咨询 Power BI 社区](http://community.powerbi.com/) 
+* 从 Android 应用商店[下载 Android 应用](https://go.microsoft.com/fwlink/?LinkID=544867)
+* 是否有任何问题？ [尝试咨询 Power BI 社区](https://community.powerbi.com/) 
 

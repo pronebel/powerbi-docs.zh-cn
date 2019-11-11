@@ -2,7 +2,6 @@
 title: 部署 Power BI 数据网关指南
 description: 了解部署 Power BI 网关的最佳做法和注意事项。
 author: mgblythe
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-gateways
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 07/15/2019
 ms.author: mblythe
 LocalizationGroup: Gateways
-ms.openlocfilehash: 5a0c29f04e7329373eec5f60af840e503ec22b3c
-ms.sourcegitcommit: 73228d0a9038b8369369c059ad06168d2c5ff062
+ms.openlocfilehash: d4a02ccc759f78a4243f34fb59115fb9084ea90d
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/02/2019
-ms.locfileid: "68729997"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73881672"
 ---
 # <a name="guidance-for-deploying-a-data-gateway-for-power-bi"></a>部署 Power BI 数据网关指南
 
@@ -69,5 +68,5 @@ Power BI 提供了两种连接类型：DirectQuery 和 Import。 并非所有数
 * [对网关进行排除故障 - Power BI](service-gateway-onprem-tshoot.md)  
 * [本地数据网关常见问题解答 - Power BI](service-gateway-power-bi-faq.md)  
 
-更多问题？ 尝试参与 [Power BI 社区](http://community.powerbi.com/)。
+更多问题？ 尝试参与 [Power BI 社区](https://community.powerbi.com/)。
 

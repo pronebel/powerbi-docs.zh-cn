@@ -2,7 +2,6 @@
 title: Power BI 报表中的筛选器类型
 description: 在 Power BI 中将页面筛选器、可视化效果筛选器或报表筛选器添加到报表
 author: maggiesMSFT
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 06/25/2019
 ms.author: maggies
 LocalizationGroup: Reports
-ms.openlocfilehash: 499a4f3be9f153a1994802e9707f855b71d2a506
-ms.sourcegitcommit: 58c649ec5fd2447a0f9ca4c4d45a0e9fff2f1b6a
+ms.openlocfilehash: c96b4ebae574a3b6a6fa54c5f5dc99b5bc948a90
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/27/2019
-ms.locfileid: "67409836"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73874421"
 ---
 # <a name="types-of-filters-in-power-bi-reports"></a>Power BI 报表中的筛选器类型
 
@@ -99,5 +98,5 @@ app.powerbi.com/groups/me/apps/app-id  /reports/report-id  /ReportSection?filter
 
 [报表中的筛选器和突出显示](power-bi-reports-filters-and-highlighting.md)
 
-更多问题？ [尝试参与 Power BI 社区](http://community.powerbi.com/)
+更多问题？ [尝试参与 Power BI 社区](https://community.powerbi.com/)
 

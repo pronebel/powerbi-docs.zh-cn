@@ -2,19 +2,18 @@
 title: 以外部来宾用户身份查看 Power BI 内容 (Azure AD B2B)
 description: 使用 Power BI 移动应用查看外部组织与自己共享的内容。
 author: mshenhav
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 03/27/2019
 ms.author: mshenhav
-ms.openlocfilehash: 900c7b57c2b6283c44e4a1923dd223d7dfd40ef7
-ms.sourcegitcommit: 52aa112ac9194f4bb62b0910c4a1be80e1bf1276
+ms.openlocfilehash: f0db77a69bd8845b9448b7c15fedea7663683ec0
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "69490371"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73879348"
 ---
 # <a name="view-power-bi-content-shared-with-you-from-an-external-organization"></a>查看外部组织与自己共享的 Power BI 内容
 

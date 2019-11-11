@@ -2,7 +2,6 @@
 title: Power BI 报表中的页面显示设置
 description: 页面显示报表的设置和页面视图设置
 author: maggiesMSFT
-manager: kfile
 ms.reviewer: ''
 featuredvideoid: ''
 ms.service: powerbi
@@ -11,12 +10,12 @@ ms.topic: conceptual
 ms.date: 05/29/2019
 ms.author: maggies
 LocalizationGroup: Reports
-ms.openlocfilehash: 97df2d6910f0215bd01875c88ea5d81d5dcc2c7c
-ms.sourcegitcommit: 762857c8ca09ce222cc3f8b006fa1b65d11e4ace
+ms.openlocfilehash: 183ce793342253775f641406620447e7b0f44020
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/05/2019
-ms.locfileid: "66720847"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73875119"
 ---
 # <a name="page-display-settings-in-a-power-bi-report"></a>Power BI 报表中的页面显示设置
 我们了解保持报表布局像素完美的重要性。 有时候这会有点困难，因为你和你的同事可能会使用纵横比和大小不同的屏幕查看这些报表。 
@@ -80,5 +79,5 @@ Power BI 服务和 Power BI Desktop 中都提供了页面视图设置，但界�
 
 [Power BI 服务中设计器的基本概念](service-basic-concepts.md)
 
-更多问题？ [尝试参与 Power BI 社区](http://community.powerbi.com/)
+更多问题？ [尝试参与 Power BI 社区](https://community.powerbi.com/)
 

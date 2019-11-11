@@ -2,19 +2,18 @@
 title: Power BI 报表服务器的浏览器支持
 description: 了解支持使用哪些版本的浏览器来管理和查看 Power BI 报表服务器和报表查看器控件。
 author: maggiesMSFT
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 10/24/2018
 ms.author: maggies
-ms.openlocfilehash: 5a2ca653a06efbde161899602536b05c8f6ab666
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: 724bd7a9a11c42520c520019f1c4a67415aa5487
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "64769772"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73874304"
 ---
 # <a name="browser-support-for-power-bi-report-server"></a>Power BI 报表服务器的浏览器支持
 了解支持使用哪些版本的浏览器来管理和查看 Power BI 报表服务器和报表查看器控件。
@@ -115,7 +114,7 @@ Windows 7、8.1、10；Windows Server 2008 R2、2012、2012 R2
 [管理员概述](admin-handbook-overview.md)  
 [安装 Power BI 报表服务器](install-report-server.md)  
 [下载报表生成器](https://www.microsoft.com/download/details.aspx?id=53613)  
-[下载 SQL Server Data Tools (SSDT)](http://go.microsoft.com/fwlink/?LinkID=616714)
+[下载 SQL Server Data Tools (SSDT)](https://go.microsoft.com/fwlink/?LinkID=616714)
 
 更多问题？ [尝试咨询 Power BI 社区](https://community.powerbi.com/)
 
