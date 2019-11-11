@@ -21,7 +21,7 @@ ms.locfileid: "72020806"
 本文介绍如何在 Power BI 服务中为分页报表创建和修改嵌入数据源。 可以在单个报表中定义嵌入数据源，并且仅在该报表中使用它。 目前，发布到 Power BI 服务的分页报表需要嵌入的数据集和嵌入的数据源，并且可以连接到这些数据源：
 
 - Azure Analysis Services
-- 等位置中的实时 
+- Azure SQL 数据库
 - Azure SQL 数据仓库
 - SQL Server
 - SQL Server Analysis Services
