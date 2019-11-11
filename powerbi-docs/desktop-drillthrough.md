@@ -2,7 +2,6 @@
 title: 在 Power BI Desktop 中使用钻取
 description: 了解如何在 Power BI Desktop 中的新报表页上向下钻取数据
 author: davidiseminger
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 04/10/2019
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 7c9d400b196366609caebe9f79bb9a8130a4ad11
-ms.sourcegitcommit: 8bf2419b7cb4bf95fc975d07a329b78db5b19f81
-ms.translationtype: MT
+ms.openlocfilehash: e093788683d10bc11c09d63ba327611a67f311c0
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "66375168"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73879919"
 ---
 # <a name="use-drillthrough-in-power-bi-desktop"></a>在 Power BI Desktop 中使用钻取
 在 Power BI Desktop  中使用钻取  功能，可创建以特定实体（如供应商、客户或制造商）为重点的报表页。 用户可以右键单击其他报表页中的数据点。 然后，便能钻取到重点页，以获取筛选到相应上下文的详细信息。

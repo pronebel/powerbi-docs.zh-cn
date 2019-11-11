@@ -1,17 +1,17 @@
 ---
-ms.openlocfilehash: 6366dbe4d7c58b49b4085d80aa690fd6c64fee59
-ms.sourcegitcommit: 226b47f64e6749061cd54bf8d4436f7deaed7691
+ms.openlocfilehash: 3966521d158c244487638be4117f98ea570e1f28
+ms.sourcegitcommit: a5853ef44ed52e80eabee3757bb6887fa400b75b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/09/2019
-ms.locfileid: "70847657"
+ms.lasthandoff: 11/07/2019
+ms.locfileid: "73799698"
 ---
 欢迎使用 Power BI **指导学习**部分，它旨在为你介绍 **DAX**。
 
 DAX 代表数据分析表达式，它是在整个 Power BI 中使用（它也由 Power BI 在后台使用）的公式语言。   在 Microsoft 的其他产品也能找到 DAX，如 Power Pivot 和 SSAS 表格，但这些指导学习主题重点介绍如何在 Power BI 中使用 DAX - 你将如何使用它。
 
 ## <a name="dax-and-this-guided-learning-video-series"></a>DAX 以及此指导学习视频系列
-此指导学习部分的目标是教授 DAX 基础知识和基本原理 - 如何看待 DAX，它的工作原理，以及如一位知名的 DAX 专家 [Alberto Ferrari](http://www.sqlbi.com/learning-dax) 所解释（且凭借大量经验而学得）的那些最有用的功能。 
+此指导学习部分的目标是教授 DAX 基础知识和基本原理 - 如何看待 DAX，它的工作原理，以及如一位知名的 DAX 专家 [Alberto Ferrari](https://www.sqlbi.com/learning-dax) 所解释（且凭借大量经验而学得）的那些最有用的功能。 
 
 ![Alberto Ferrari 的画像](media/7-1-intro-to-dax/intro_dax_6_alberto_ferrari.png)
 
@@ -30,7 +30,7 @@ DAX 使用运算符重载，这表示可以在计算中混合使用各种数据�
 
 Power BI 中可能经常使用的一种数据类型是：**DateTime**。 **DateTime** 存储为浮点值，包括整数和小数部分。 DateTime 可以用来精确计算 1900 年 3 月 1 日以后的任意时间段。
 
-> 视频内容由 [Alberto Ferrari, SQLBI](http://www.sqlbi.com/learning-dax/?utm_source=powerbi&utm_medium=marketing&utm_campaign=after-summit) 提供
+> 视频内容由 [Alberto Ferrari, SQLBI](https://www.sqlbi.com/learning-dax/?utm_source=powerbi&utm_medium=marketing&utm_campaign=after-summit) 提供
 > 
 > 
 

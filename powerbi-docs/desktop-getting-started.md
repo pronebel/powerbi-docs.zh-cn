@@ -2,7 +2,6 @@
 title: Power BI Desktop 入门
 description: Power BI Desktop 入门
 author: davidiseminger
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
@@ -10,17 +9,17 @@ ms.topic: conceptual
 ms.date: 08/29/2019
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: 2049d996c9f6130718e203a8f6d27a2a7fac911f
-ms.sourcegitcommit: a00fe5fb545c3df13b7cd13a701fd6a2b2521a17
+ms.openlocfilehash: e533313e20c4e1f994c2ae3d1e552170aef2cbd2
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/31/2019
-ms.locfileid: "70201026"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73868019"
 ---
 # <a name="getting-started-with-power-bi-desktop"></a>Power BI Desktop 入门
 欢迎使用 **Power BI Desktop 入门指南**。 此 Power BI Desktop 简短教学课程能让你熟悉它的运作方式、示范它的功能以及加速你构建稳固数据模型的能力 - 以令人惊叹的报表增强你的商业智慧工作。 
 
-更愿意观看而不是阅读吗？ 欢迎[观看我们的入门视频](desktop-videos.md)。 如果你想要遵循视频及相匹配的示例数据，则可[下载此示例性 Excel 工作簿](http://go.microsoft.com/fwlink/?LinkID=521962)。
+更愿意观看而不是阅读吗？ 欢迎[观看我们的入门视频](desktop-videos.md)。 如果你想要遵循视频及相匹配的示例数据，则可[下载此示例性 Excel 工作簿](https://go.microsoft.com/fwlink/?LinkID=521962)。
 
 ![](media/desktop-getting-started/pbi_gettingstartedsplash_resized.png)
 
@@ -88,7 +87,7 @@ Power BI Desktop 会当作一个应用程序进行安装，并在桌面上运行
 
 无论如何，下列 Web 资源具有关于这些话题的相关和详细数据：
 
-[*http://www.bankrate.com/finance/retirement/best-places-retire-how-state-ranks.aspx*](http://www.bankrate.com/finance/retirement/best-places-retire-how-state-ranks.aspx)
+[*https://www.bankrate.com/finance/retirement/best-places-retire-how-state-ranks.aspx*](https://www.bankrate.com/finance/retirement/best-places-retire-how-state-ranks.aspx)
 
 选择**获取数据 \> Web** 并粘贴地址。
 
@@ -158,7 +157,7 @@ Power BI Desktop 中的查询编辑器除能在功能区中提供可用的工作
 
 我们很幸运：有另一个公共数据源可执行该项工作，但还需要进行相当多的调整，才能连接到我们的退休表。 以下是州名缩写的 Web 资源：
 
-<http://en.wikipedia.org/wiki/List_of_U.S._state_abbreviations>
+<https://en.wikipedia.org/wiki/List_of_U.S._state_abbreviations>
 
 从**查询编辑器**中的**开始**功能区，选择**获取数据 \> Web** 并键入地址，选择**确定**，**导航器**窗口将显示它在此网页上找到的信息。
 

@@ -2,7 +2,6 @@
 title: 在报表中的表或矩阵中显示图像
 description: 在 Power BI Desktop 中，创建包含指向图像的超链接的列。 然后，在 Power BI Desktop 或 Power BI 服务中，将这些超链接添加到报告表、矩阵、切片器或多行卡片，以显示图像。
 author: maggiesMSFT
-manager: kfile
 ms.reviewer: ''
 ms.custom: ''
 ms.service: powerbi
@@ -11,12 +10,12 @@ ms.topic: conceptual
 ms.date: 09/11/2019
 ms.author: maggies
 LocalizationGroup: Visualizations
-ms.openlocfilehash: cbb04057c8065e998068dd6520539c830a659f72
-ms.sourcegitcommit: d04b9e1426b8544ce16ef25864269cc43c2d9f7b
+ms.openlocfilehash: 95b1dc1be3421f19fa8220629ca2003469658480
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "71715559"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73874485"
 ---
 # <a name="display-images-in-a-table-matrix-or-slicer-in-a-report"></a>在报表中的表、矩阵或切片器中显示图像
 
@@ -48,5 +47,5 @@ ms.locfileid: "71715559"
 
 [Power BI 服务中设计器的基本概念](service-basic-concepts.md)
 
-更多问题？ [尝试参与 Power BI 社区](http://community.powerbi.com/)
+更多问题？ [尝试参与 Power BI 社区](https://community.powerbi.com/)
 

@@ -2,7 +2,6 @@
 title: 在 Power BI 的新工作区中整理工作
 description: 了解新工作区，即旨在为组织提供关键指标的仪表板和报表的集合。
 author: maggiesMSFT
-manager: kfile
 ms.reviewer: lukaszp
 ms.service: powerbi
 ms.subservice: powerbi-service
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 09/30/2019
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 15f0ce3910261ed2902603ab7fb3f07f8b695d4c
-ms.sourcegitcommit: 5e277dae93832d10033defb2a9e85ecaa8ffb8ec
+ms.openlocfilehash: 8ff32c2559570514f775d15d7da3f787ab85970a
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/07/2019
-ms.locfileid: "72020685"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73872055"
 ---
 # <a name="organize-work-in-the-new-workspaces-in-power-bi"></a>在 Power BI 的新工作区中整理工作
 
@@ -162,4 +161,4 @@ Power BI 不会将配置为拥有工作区访问权限的用户或组的权限�
 * [在 Power BI 中创建新工作区](service-create-the-new-workspaces.md)
 * [创建经典工作区](service-create-workspaces.md)
 * [在 Power BI 中安装并使用应用](service-create-distribute-apps.md)
-* 是否有任何问题? [尝试咨询 Power BI 社区](http://community.powerbi.com/)
+* 是否有任何问题? [尝试咨询 Power BI 社区](https://community.powerbi.com/)

@@ -7,12 +7,12 @@ ms.subservice: report-builder
 ms.topic: conceptual
 author: maggiesMSFT
 ms.author: maggies
-ms.openlocfilehash: 0cf85d2757dd77de854a6640f400c6dd9c70379a
-ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
+ms.openlocfilehash: c44f90bc29887a5431c893803cf4910e0e5093d3
+ms.sourcegitcommit: a5853ef44ed52e80eabee3757bb6887fa400b75b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "73431508"
+ms.lasthandoff: 11/07/2019
+ms.locfileid: "73791266"
 ---
 # <a name="use-shared-datasets-in-power-bi-report-builder"></a>在 Power BI 报表生成器中使用共享数据集
 
@@ -30,7 +30,7 @@ ms.locfileid: "73431508"
 - 要访问 Power BI 数据集，需要具有该数据集的生成权限。 请参阅[生成权限](service-datasets-build-permissions.md)。
 - 在报表生成器中创建分页报表无需 Power BI Pro 许可证。 
 - 要发布分页报表，则需要 Power BI Pro 许可证。 此外，还至少需要高级容量中工作区的参与者角色。 
-- 可选：如果需要按照本文内容进行操作，请下载 Power BI Desktop [零售分析示例 .pbix](http://download.microsoft.com/download/9/6/D/96DDC2FF-2568-491D-AAFA-AFDD6F763AE3/Retail%20Analysis%20Sample%20PBIX.pbix) 文件，在 Power BI Desktop 中将其打开并添加一个包含多列的表。 在“格式”窗格中，关闭“总计”   。 然后将其发布到 Power BI 服务中的工作区。
+- 可选：如果需要按照本文内容进行操作，请下载 Power BI Desktop [零售分析示例 .pbix](https://download.microsoft.com/download/9/6/D/96DDC2FF-2568-491D-AAFA-AFDD6F763AE3/Retail%20Analysis%20Sample%20PBIX.pbix) 文件，在 Power BI Desktop 中将其打开并添加一个包含多列的表。 在“格式”窗格中，关闭“总计”   。 然后将其发布到 Power BI 服务中的工作区。
 
     ![“总计”关闭](media/report-builder-shared-datasets/power-bi-desktop-totals-off.png)
 

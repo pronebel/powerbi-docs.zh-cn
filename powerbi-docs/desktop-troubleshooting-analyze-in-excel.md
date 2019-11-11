@@ -2,7 +2,6 @@
 title: Power BI Desktop 中的在 Excel 中分析疑难解答
 description: 对 Analyze in Excel 常见问题的解决方案
 author: davidiseminger
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
@@ -10,12 +9,12 @@ ms.topic: troubleshooting
 ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Troubleshooting
-ms.openlocfilehash: a2116f2146072590c4cbcc7f41d941950d9692f0
-ms.sourcegitcommit: e5cf19e16112c7dad1591c3b38d232267ffb3ae1
+ms.openlocfilehash: 987078ae33af10e9c33b4d8a00f8e2e688be12a1
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "72543987"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73865757"
 ---
 # <a name="troubleshooting-analyze-in-excel"></a>Analyze in Excel 故障排除
 
@@ -24,7 +23,7 @@ ms.locfileid: "72543987"
 > [!NOTE]
 > 提供专门用于描述和启用[在 Excel 中分析](service-analyze-in-excel.md)的单独页面。
 > 
-> 如果遇到未在下面列出会导致问题的情况，你可以在[社区文章](http://community.powerbi.com/)上寻求进一步的帮助，或者也可以创建[支持票证](https://powerbi.microsoft.com/support/)。
+> 如果遇到未在下面列出会导致问题的情况，你可以在[社区文章](https://community.powerbi.com/)上寻求进一步的帮助，或者也可以创建[支持票证](https://powerbi.microsoft.com/support/)。
 > 
 > 
 
@@ -40,7 +39,7 @@ ms.locfileid: "72543987"
 * 不能将任何对象拖动到数据透视表值区域（没有度量值）
 
 ## <a name="update-excel-libraries-for-the-ole-db-provider"></a>更新 OLE DB 提供程序的 Excel 库
-要使用 **Analyze in Excel**，必须在计算机上安装最新的 AS OLE DB 提供程序。 此[社区文章](http://community.powerbi.com/t5/Service/Analyze-in-Excel-Initialization-of-the-data-source-failed/m-p/30837#M8081)提供了大量用于验证你的 OLE DB 提供程序安装的信息，并提供最新版本的下载。
+要使用 **Analyze in Excel**，必须在计算机上安装最新的 AS OLE DB 提供程序。 此[社区文章](https://community.powerbi.com/t5/Service/Analyze-in-Excel-Initialization-of-the-data-source-failed/m-p/30837#M8081)提供了大量用于验证你的 OLE DB 提供程序安装的信息，并提供最新版本的下载。
 
 Excel 库的位级别必须与 Windows 版本的位级别匹配。 如果已经安装 64 位版本的 Windows，则需要安装 64 位版本的 OLE DB 提供程序。
 

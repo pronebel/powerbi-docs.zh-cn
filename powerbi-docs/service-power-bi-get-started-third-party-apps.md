@@ -6,17 +6,16 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 author: mgblythe
 ms.author: mblythe
-manager: kfile
 ms.reviewer: ''
 ms.cunstom: ''
 ms.date: 09/16/2019
 LocalizationGroup: Get started
-ms.openlocfilehash: 3de0b5473c6d00013bdf109f262dc0577c3bf290
-ms.sourcegitcommit: a97c0c34f888e44abf4c9aa657ec9463a32be06f
+ms.openlocfilehash: a3c060693a218a4c7a9dc5d0dea726c10e07d276
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/17/2019
-ms.locfileid: "71073518"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73871946"
 ---
 # <a name="get-started-with-third-party-apps"></a>开始使用第三方应用
 
@@ -51,11 +50,11 @@ ms.locfileid: "71073518"
 
 可通过转到 Office 365 我的应用网站撤销向第三方应用授予的权限。
 
-下面介绍如何在 Office 365 我的应用网站上撤销第三方权限：
+下面介绍如何在 Office 365 我的应用  网站上撤销第三方权限：
 
 1. 转到 [Office 365 我的应用网站](https://portal.office.com/myapps)。
 
-2. 在“我的应用”页上，查找第三方应用。
+2. 在“我的应用”  页上，查找第三方应用。
 
 3. 将鼠标悬停在该应用磁贴上，单击 **(...)** 按钮，然后单击**删除**。
 

@@ -3,19 +3,18 @@ title: Power BI 中的工作共享方式
 description: 在 Power BI 中，可以通过不同的方式针对仪表板、报表、磁贴和应用开展协作并进行共享。 每种方法都各有千秋。
 author: maggiesMSFT
 ms.author: maggies
-manager: kfile
 ms.reviewer: lukaszp
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 09/06/2019
 LocalizationGroup: Share your work
-ms.openlocfilehash: 31310900b91924e639ce10a13aef3da996598502
-ms.sourcegitcommit: 226b47f64e6749061cd54bf8d4436f7deaed7691
+ms.openlocfilehash: 7633f0771a87c01d53261d13135d831e95e80136
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/09/2019
-ms.locfileid: "70841713"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73881345"
 ---
 # <a name="ways-to-share-your-work-in-power-bi"></a>Power BI 中的工作共享方式
 
@@ -135,4 +134,4 @@ Power BI 提供新的工作区体验。 阅读[创建新工作区](service-creat
 
 想提供反馈？ 请转到 [Power BI 社区站点](https://community.powerbi.com/)提出你的建议。
 
-更多问题？ [尝试参与 Power BI 社区](http://community.powerbi.com/)
+更多问题？ [尝试参与 Power BI 社区](https://community.powerbi.com/)

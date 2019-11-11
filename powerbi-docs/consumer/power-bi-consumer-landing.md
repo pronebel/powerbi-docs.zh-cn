@@ -2,7 +2,6 @@
 title: 面向使用者的 Power BI
 description: 开始使用 Power BI？ 了解 Power BI 服务的特性和功能，并了解用户作为 Power BI 使用者或最终用户可以使用它们执行哪些操作。
 author: mihart
-manager: kvivek
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: hub-page
@@ -10,12 +9,12 @@ ms.date: 10/01/2019
 ms.author: mihart
 layout: HubPage
 LocalizationGroup: Get started
-ms.openlocfilehash: ec123c29bc6cf942c096ffb78b8bfab10be3bc14
-ms.sourcegitcommit: e371690159f69a72410abc97ff1c2a2bb9c841f5
+ms.openlocfilehash: ad6f9f0bc231f54c35501be24bb03a47e205a27e
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/02/2019
-ms.locfileid: "71829612"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73876715"
 ---
 <div id="main" class="v2">
       <div class="container">
@@ -122,9 +121,9 @@ ms.locfileid: "71829612"
                                             </div>
                                             <div class="cardText">
                                                 <h3>获取帮助</h3>
-                                            <p><a href="https://docs.microsoft.com/en-us/learn/paths/consume-data-with-power-bi/" data-linktype="absolute-path">Microsoft LEARN 自主式培训</a></p>
+                                            <p><a href="https://docs.microsoft.com/learn/paths/consume-data-with-power-bi/" data-linktype="absolute-path">Microsoft LEARN 自主式培训</a></p>
                                                 <p><a href="https://powerbi.microsoft.com/blog/" data-linktype="absolute-path">阅读 Power BI 博客</a></p>
-                                                <p><a href="http://community.powerbi.com/" data-linktype="absolute-path">在 Power BI 论坛中提问</a></p>
+                                                <p><a href="https://community.powerbi.com/" data-linktype="absolute-path">在 Power BI 论坛中提问</a></p>
                                             </div>
                                         </div>
                                     </div>

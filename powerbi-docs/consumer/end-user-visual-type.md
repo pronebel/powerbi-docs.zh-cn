@@ -2,7 +2,6 @@
 title: Power BI 中适用于使用者的视觉对象类型
 description: Power BI 服务中的视觉对象类型
 author: mihart
-manager: kvivek
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-consumer
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 08/21/2019
 ms.author: mihart
 LocalizationGroup: Consumer
-ms.openlocfilehash: 875e154dbac063c0e4b9d5dc4208387e6d529a93
-ms.sourcegitcommit: 52aa112ac9194f4bb62b0910c4a1be80e1bf1276
+ms.openlocfilehash: 1670d3af200c8da672ac7034e4e15f6f460147a7
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "70302518"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73861325"
 ---
 # <a name="visual-types-in-power-bi"></a>Power BI 中的视觉对象类型
 你会在报表、仪表板和问答中找到视觉对象。 其中某些视觉对象类型与 Power BI 打包在一起，另有一些是自定义视觉对象  。 自定义视觉对象在 Power BI 外部创建，其创建方式使报表设计器  可以将它们添加到 Power BI 报表和仪表板。 
@@ -169,7 +168,7 @@ ArcGIS 地图和 Power BI 的结合将超越地图点表示法的地图绘制技
 这可确保将整体数据集中重要点的响应、表示和清楚保存以最佳方式组合。
 
 ### <a name="slicers"></a>切片器
-![切片器](media/end-user-visual-type/pbi-slicer.png)
+![slicer](media/end-user-visual-type/pbi-slicer.png)
 
 切片器是可以用于筛选页上的其他视觉对象的独立图表。 切片器有许多不同格式（类别、范围、日期等），可以进行格式设置以便可以选择仅仅一个、许多或所有可用值。 
 
@@ -232,4 +231,4 @@ ArcGIS 地图和 Power BI 的结合将超越地图点表示法的地图绘制技
 
 ## <a name="next-steps"></a>后续步骤
 [与报表、仪表板和应用中的视觉对象交互](end-user-visualizations.md)    
-[sqlbi.com 中正确的视觉对象引用](http://www.sqlbi.com/wp-content/uploads/videotrainings/dashboarddesign/visuals-reference-may2017-A3.pdf)
+[sqlbi.com 中正确的视觉对象引用](https://www.sqlbi.com/wp-content/uploads/videotrainings/dashboarddesign/visuals-reference-may2017-A3.pdf)

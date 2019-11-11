@@ -3,18 +3,17 @@ title: 安装 Power BI 报表服务器所要满足的硬件和软件要求
 description: 本文列出了安装并运行 Power BI 报表服务器所要满足的最低硬件和软件要求。
 author: maggiesMSFT
 ms.author: maggies
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 07/23/2019
-ms.openlocfilehash: fea28cd1c6541ae9255acd4be14cc85c2c2c5bed
-ms.sourcegitcommit: 473d031c2ca1da8935f957d9faea642e3aef9839
+ms.openlocfilehash: aeb47f7f2a6e2de7c8c5095561819367ab16a7e9
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/23/2019
-ms.locfileid: "68415367"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73873943"
 ---
 # <a name="hardware-and-software-requirements-for-installing-power-bi-report-server"></a>安装 Power BI 报表服务器所要满足的硬件和软件要求
 
@@ -24,7 +23,7 @@ ms.locfileid: "68415367"
 
 | 组件 | 要求 |
 | --- | --- |
-| .NET Framework |4.6<br><br>可以从[适用于 Windows 的 Microsoft.NET Framework 4.6（Web 安装程序）](http://support.microsoft.com/kb/3045560)手动安装 .NET Framework。<br/><br/> 有关 .NET Framework 4.6 的详细信息、建议和指南，请参阅[面向开发者的 .NET Framework 部署指南](http://msdn.microsoft.com/library/ee942965\(v=vs.110\).aspx)。<br/><br/>Windows 8.1 和 Windows Server 2012 R2 中必须有 [KB2919355](http://support.microsoft.com/kb/2919355)，才能安装 .NET Framework 4.6。 |
+| .NET Framework |4.6<br><br>可以从[适用于 Windows 的 Microsoft.NET Framework 4.6（Web 安装程序）](https://support.microsoft.com/kb/3045560)手动安装 .NET Framework。<br/><br/> 有关 .NET Framework 4.6 的详细信息、建议和指南，请参阅[面向开发者的 .NET Framework 部署指南](https://msdn.microsoft.com/library/ee942965\(v=vs.110\).aspx)。<br/><br/>Windows 8.1 和 Windows Server 2012 R2 中必须有 [KB2919355](https://support.microsoft.com/kb/2919355)，才能安装 .NET Framework 4.6。 |
 | 硬盘 |Power BI 报表服务器至少需要 1 GB 的可用硬盘空间。<br><br>托管报表服务器数据库的数据库服务器上必须有额外空间。 |
 | 内存 |最低：  1GB<br/><br/> **推荐：** 不小于 4 GB |
 | 处理器速度 |最小：  x64 处理器：1.4 GHz<br/><br/> **推荐：** 2.0 GHz 或更快 |
@@ -77,6 +76,6 @@ Power BI 报表服务器将安装默认值，以配置报表服务器正常运�
 [管理员概述](admin-handbook-overview.md)  
 [安装 Power BI 报表服务器](install-report-server.md)  
 [下载报表生成器](https://www.microsoft.com/download/details.aspx?id=53613)  
-[下载 SQL Server Data Tools (SSDT)](http://go.microsoft.com/fwlink/?LinkID=616714)
+[下载 SQL Server Data Tools (SSDT)](https://go.microsoft.com/fwlink/?LinkID=616714)
 
 更多问题？ [尝试咨询 Power BI 社区](https://community.powerbi.com/)

@@ -2,7 +2,6 @@
 title: Power BI Desktop 中的 Analysis Services 多维数据
 description: Power BI Desktop 中的 Analysis Services 多维数据
 author: davidiseminger
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 08/29/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: b089c3e51ce80fdb776455519f2569ee8fa24572
-ms.sourcegitcommit: 9665997274301b228f45aa7250ba557e90164a4d
+ms.openlocfilehash: 68ae5b04f951fcc0fa8a067e60a408d1610c3fdd
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/06/2019
-ms.locfileid: "70751634"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73879659"
 ---
 # <a name="connect-to-ssas-multidimensional-models-in-power-bi-desktop"></a>连接到 Power BI Desktop 中的 SSAS 多维模型
 使用 Power BI Desktop，你可以访问 **SSAS 多维模型**，通常称为 **SSAS MD**。
@@ -36,7 +35,7 @@ ms.locfileid: "70751634"
 | --- | --- |
 | 多维数据集 |模型 |
 | 多维数据集维度 |表 |
-| 维度属性（密钥）、名称 |Columns |
+| 维度属性（密钥）、名称 |列 |
 | 度量值组 |表 |
 | 度量值 |度量值 |
 | 没有关联度量值组的度量值 |名为 *度量值* 的表内 |

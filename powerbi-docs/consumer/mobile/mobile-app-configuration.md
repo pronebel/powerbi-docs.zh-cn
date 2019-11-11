@@ -2,19 +2,18 @@
 title: Power BI iOS 应用配置设置
 description: 如何使用 MDM 工具自定义 iOS 版 Power BI 的行为
 author: paulinbar
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 06/07/2019
 ms.author: mshenhav
-ms.openlocfilehash: bc9c6dd8cd892ab0304cc5a99a3bb780486f32f0
-ms.sourcegitcommit: 52aa112ac9194f4bb62b0910c4a1be80e1bf1276
+ms.openlocfilehash: c2d619489b042e523c559a16dab249b268389cd5
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "70160159"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73879431"
 ---
 # <a name="remotely-configure-power-bi-ios-app-using-mobile-device-management-mdm-tool"></a>使用移动设备管理 (MDM) 工具远程配置 Power BI iOS 应用
 
@@ -61,6 +60,6 @@ Power BI iOS 应用使管理员能够自定义安全和隐私设置的默认配�
 
 ## <a name="next-steps"></a>后续步骤
 
-* 下载 [Power BI iPhone 移动应用](http://go.microsoft.com/fwlink/?LinkId=522062)
+* 下载 [Power BI iPhone 移动应用](https://go.microsoft.com/fwlink/?LinkId=522062)
 * 关注 [Twitter 上的 @MSPowerBI](https://twitter.com/MSPowerBI)
-* 加入 [Power BI 社区](http://community.powerbi.com/)的对话
+* 加入 [Power BI 社区](https://community.powerbi.com/)的对话

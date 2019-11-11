@@ -3,18 +3,17 @@ title: 将分页报表发布到 Power BI 服务
 description: 本教程介绍如何通过从本地计算机上传分页报表将其发布到 Power BI 服务。
 author: maggiesMSFT
 ms.author: maggies
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: conceptual
 ms.date: 11/05/2018
-ms.openlocfilehash: 81e079be6c8bec27c006c68eccb3ea1091b813df
-ms.sourcegitcommit: 277fadf523e2555004f074ec36054bbddec407f8
+ms.openlocfilehash: 6cf3cd715915b5a6f3aa41e61c01c8b5b0a7d204
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/16/2019
-ms.locfileid: "68271220"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73874764"
 ---
 # <a name="publish-a-paginated-report-to-the-power-bi-service"></a>将分页报表发布到 Power BI 服务
 

@@ -2,19 +2,18 @@
 title: 了解星型架构及其对 Power BI 的重要性
 description: 了解星型架构及其与开发 Power BI 数据模型的关系，这些数据模型已针对性能和可用性进行优化。
 author: peter-myers
-manager: asaxton
 ms.reviewer: asaxton
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 09/09/2019
 ms.author: v-pemyer
-ms.openlocfilehash: 4af7a6305ace9113e912f0ad1527064c505f0ca8
-ms.sourcegitcommit: d04b9e1426b8544ce16ef25864269cc43c2d9f7b
+ms.openlocfilehash: 42da2dd74d80d2a68cf38c8d35ee4e500d6780d8
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "71715517"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73875582"
 ---
 # <a name="understand-star-schema-and-the-importance-for-power-bi"></a>了解星型架构及其对 Power BI 的重要性
 

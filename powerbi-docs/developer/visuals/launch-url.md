@@ -3,18 +3,17 @@ title: 创建启动 URL
 description: 本文介绍如何使用 Power BI 视觉对象在新选项卡上打开 URL。
 author: KesemSharabi
 ms.author: kesharab
-manager: rkarlin
 ms.reviewer: sranins
 ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: conceptual
 ms.date: 06/18/2019
-ms.openlocfilehash: 7dff03f0ad192e0598c677d41709447fbdc0688d
-ms.sourcegitcommit: 549401b0e1fad15c3603fe7f14b9494141fbb100
+ms.openlocfilehash: 1bf7bac5631e0d76864620057ba3d95fab3ba3ad
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/14/2019
-ms.locfileid: "72307316"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73879927"
 ---
 # <a name="create-a-launch-url"></a>创建启动 URL
 
@@ -31,12 +30,12 @@ ms.locfileid: "72307316"
 使用 `host.launchUrl()` API 调用，将目标 URL 作为字符串参数传递：
 
 ```typescript
-this.host.launchUrl('http://some.link.net');
+this.host.launchUrl('https://some.link.net');
 ```
 
 ## <a name="restrictions"></a>限制
 
-* 仅使用绝对路径，不使用相对路径。 例如，使用绝对路径（如 `http://some.link.net/subfolder/page.html`）。 不会打开相对路径 `/page.html`。
+* 仅使用绝对路径，不使用相对路径。 例如，使用绝对路径（如 `https://some.link.net/subfolder/page.html`）。 不会打开相对路径 `/page.html`。
 
 * 目前仅支持 HTTP 和 HTTPS 协议   。 避免使用 FTP、MAILTO 等   。
 

@@ -3,18 +3,17 @@ title: 了解 Power BI 视觉对象中的数据视图映射
 description: 本文介绍了 Power BI 如何在将数据传递给视觉对象之前对其进行转换。
 author: KesemSharabi
 ms.author: kesharab
-manager: rkarlin
 ms.reviewer: sranins
 ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: conceptual
 ms.date: 06/18/2019
-ms.openlocfilehash: 77d5d6423c8246712d12dcc041d32ae73f68b72e
-ms.sourcegitcommit: e2de2e8b8e78240c306fe6cca820e5f6ff188944
+ms.openlocfilehash: 07cc0517fb27649bb3cc47b8ba8f51b4268d9a7c
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/23/2019
-ms.locfileid: "71193558"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73880158"
 ---
 # <a name="understand-data-view-mapping-in-power-bi-visuals"></a>了解 Power BI 视觉对象中的数据视图映射
 
@@ -516,7 +515,7 @@ Power BI 创建分层数据结构。 树层次结构的根包括来自 `Category
 
 数据集：
 
-| 父级 | 子级 | 孙级 | Columns | 值 |
+| 父级 | 子级 | 孙级 | 列 | 值 |
 |-----|-----|------|-------|-------|
 | Parent1 | Child1 | Grand child1 | Col1 | 5 |
 | Parent1 | Child1 | Grand child1 | Col2 | 6 |
@@ -528,10 +527,10 @@ Power BI 创建分层数据结构。 树层次结构的根包括来自 `Category
 | Parent1 | Child2 | Grand child4 | Col2 | 9 |
 | Parent1 | Child2 | Grand child5 | Col1 | 3 |
 | Parent1 | Child2 | Grand child5 | Col2 | 5 |
-| Parent2 | Child3 | Grand child6 | Col1 | 第 1 个 |
+| Parent2 | Child3 | Grand child6 | Col1 | 1 |
 | Parent2 | Child3 | Grand child6 | Col2 | 2 |
 | Parent2 | Child3 | Grand child7 | Col1 | 7 |
-| Parent2 | Child3 | Grand child7 | Col2 | 第 1 个 |
+| Parent2 | Child3 | Grand child7 | Col2 | 1 |
 | Parent2 | Child3 | Grand child8 | Col1 | 10 |
 | Parent2 | Child3 | Grand child8 | Col2 | 13 |
 

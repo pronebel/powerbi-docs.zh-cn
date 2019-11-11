@@ -3,18 +3,17 @@ title: Power BI 视觉对象中的高级编辑模式
 description: 本文介绍如何在 Power BI 视觉对象中设置高级 UI 控件。
 author: KesemSharabi
 ms.author: kesharab
-manager: rkarlin
 ms.reviewer: sranins
 ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: conceptual
 ms.date: 06/18/2019
-ms.openlocfilehash: da72cf603027bc97060e7a00ed4a4e959a3a92e2
-ms.sourcegitcommit: e2de2e8b8e78240c306fe6cca820e5f6ff188944
+ms.openlocfilehash: 19714db2d1307ac9d7eb8861955870ba9988539e
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/23/2019
-ms.locfileid: "71194471"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73880327"
 ---
 # <a name="advanced-edit-mode-in-power-bi-visuals"></a>Power BI 视觉对象中的高级编辑模式
 

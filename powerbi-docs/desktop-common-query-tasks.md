@@ -2,7 +2,6 @@
 title: Power BI Desktop 中的常见查询任务
 description: Power BI Desktop 中的常见查询任务
 author: davidiseminger
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 05/07/2019
 ms.author: davidi
 LocalizationGroup: Transform and shape data
-ms.openlocfilehash: dc6aa42691c7caa2593b28e441f96985b1e3bcda
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: 2b1cf2a7f10fd7249dcdec26b5c5f5d12ff15aca
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "65239421"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73878671"
 ---
 # <a name="common-query-tasks-in-power-bi-desktop"></a>Power BI Desktop 中的常见查询任务
 使用 Power BI Desktop 的**查询编辑器**窗口时，可执行很多常用任务。 本文档演示了这些常见的任务，并提供其他信息的链接。 
@@ -31,9 +30,9 @@ ms.locfileid: "65239421"
 
 我们将使用几个数据连接来完成这些任务。 如果你想要自己逐步完成这些任务，可下载或连接下列数据。
 
-第一个数据连接是 Excel 工作簿，可以从[此链接](http://download.microsoft.com/download/5/7/0/5701F78F-C3C2-450C-BCCE-AAB60C31051D/PBI_Edu_ELSi_Enrollment_v2.xlsx)下载该工作簿。 另一个是 Web 资源（还可用作其他 Power BI Desktop 学习内容），可以从以下链接进行访问：
+第一个数据连接是 Excel 工作簿，可以从[此链接](https://download.microsoft.com/download/5/7/0/5701F78F-C3C2-450C-BCCE-AAB60C31051D/PBI_Edu_ELSi_Enrollment_v2.xlsx)下载该工作簿。 另一个是 Web 资源（还可用作其他 Power BI Desktop 学习内容），可以从以下链接进行访问：
 
-[*http://www.bankrate.com/finance/retirement/best-places-retire-how-state-ranks.aspx*](http://www.bankrate.com/finance/retirement/best-places-retire-how-state-ranks.aspx)
+[*https://www.bankrate.com/finance/retirement/best-places-retire-how-state-ranks.aspx*](https://www.bankrate.com/finance/retirement/best-places-retire-how-state-ranks.aspx)
 
 执行连接到这两个数据源的必要步骤就是常见查询任务的开始。
 
@@ -142,7 +141,7 @@ ms.locfileid: "65239421"
 
 ![](media/desktop-common-query-tasks/queryformulas_advancededitorbutton.png)
 
-下面来看看**高级编辑器**，它显示了与 **USA\_StudentEnrollment** 查询关联的查询步骤。 这些步骤是使用 Power Query 公式语言（通常称为 **M**）进行创建的。相关信息，请参阅[了解 Power 查询公式](https://support.office.com/article/Learn-about-Power-Query-formulas-6bc50988-022b-4799-a709-f8aafdee2b2f)。 若要查看语言规范本身，请参阅 [Microsoft Power Query for Excel 公式语言规范](http://go.microsoft.com/fwlink/?linkid=320633)。
+下面来看看**高级编辑器**，它显示了与 **USA\_StudentEnrollment** 查询关联的查询步骤。 这些步骤是使用 Power Query 公式语言（通常称为 **M**）进行创建的。相关信息，请参阅[了解 Power 查询公式](https://support.office.com/article/Learn-about-Power-Query-formulas-6bc50988-022b-4799-a709-f8aafdee2b2f)。 若要查看语言规范本身，请参阅 [Microsoft Power Query for Excel 公式语言规范](/powerquery-m/excel-workbook)。
 
 ![](media/desktop-common-query-tasks/queryformulas_advancededitor.png)
 

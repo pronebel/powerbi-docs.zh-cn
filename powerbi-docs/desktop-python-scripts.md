@@ -2,7 +2,6 @@
 title: 在 Power BI Desktop 中运行 Python 脚本
 description: 在 Power BI Desktop 中运行 Python 脚本
 author: otarb
-manager: rajatt
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
@@ -10,20 +9,20 @@ ms.topic: conceptual
 ms.date: 08/16/2019
 ms.author: otarb
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 25970d09feac02a0b45e83ab1b348e800efc022d
-ms.sourcegitcommit: 09ee1b4697aad84d8f4c9421015d7e4dbd3cf25f
+ms.openlocfilehash: dbde3abec716e4868a6efce98129ea8c76506d7e
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/04/2019
-ms.locfileid: "70302894"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73865995"
 ---
 # <a name="run-python-scripts-in-power-bi-desktop"></a>在 Power BI Desktop 中运行 Python 脚本
 
-你可以直接在 Power BI Desktop 中运行 Python 脚本，并将结果数据集导入 Power BI Desktop 数据模型。
+你可以直接在 Power BI Desktop 中运行 Python 脚本，并将结果数据集导入 Power BI Desktop 数据模型  。
 
 ## <a name="install-python"></a>安装 Python
 
-若要在 Power BI Desktop 中运行 Python 脚本，需要在本地计算机上安装 Python。 你可以从[官方 Python 下载页面](https://www.python.org/)下载 Python。 当前的 Python 脚本版本支持在安装路径中包含 Unicode 字符和空格。
+若要在 Power BI Desktop 中运行 Python 脚本，需要在本地计算机上安装 Python  。 你可以从[官方 Python 下载页面](https://www.python.org/)下载 Python  。 当前的 Python 脚本版本支持在安装路径中包含 Unicode 字符和空格。
 
 ### <a name="install-required-python-packages"></a>安装所需的 Python 包
 
@@ -43,13 +42,13 @@ pip install matplotlib
 
 要启用 Python 脚本，请执行以下操作：
 
-1. 在 Power BI Desktop 中，依次选择“文件” > “选项和设置” > “选项” > “Python 脚本”。 你将看到 Python 脚本选项页面。
+1. 在 Power BI Desktop 中，依次选择“文件” > “选项和设置” > “选项” > “Python 脚本”     。 你将看到 Python 脚本选项页面。
 
    ![](media/desktop-python-scripts/python-scripts-7.png)
 
-1. 如有必要，请在“检测到的 Python 主目录:”文本框中指定本地 Python 安装路径。 
+1. 如有必要，请在“检测到的 Python 主目录:”文本框中指定本地 Python 安装路径  。 
 
-   在上图中，Python 的安装本地路径为 C:\Python。 确保该路径用于希望 Power BI Desktop 使用的本地 Python 安装。
+   在上图中，Python 的安装本地路径为 C:\Python  。 确保该路径用于希望 Power BI Desktop 使用的本地 Python 安装。
 
 1. 选择**确定**。
 
@@ -82,24 +81,24 @@ print (df)
 * 由于仅导入 Pandas 数据帧，因此请确保要导入到 Power BI 的数据都以数据帧表示
 * 任何 Python 脚本若运行时间超过 30 分钟就会超时
 * Python 脚本中的交互式调用（如等待用户输入）会终止脚本执行
-* 在 Python 脚本中设置工作目录时，必须定义工作目录的完整路径，而非相对路径
+* 在 Python 脚本中设置工作目录时，必须  定义工作目录的完整路径，而非相对路径
 * 当前不支持嵌套表 
 
 ### <a name="run-your-python-script-and-import-data"></a>运行 Python 脚本并导入数据
 
 要在 Power BI Desktop 中刷新 Python 脚本，请执行以下操作：
 
-1. 在“主页”功能区中，选择“获取数据” > “更多...”。
+1. 在“主页”功能区中，选择“获取数据” > “更多...”   。
    
-1. 选择“其他” > “Python 脚本”，如下图所示：
+1. 选择“其他” > “Python 脚本”   ，如下图所示：
 
    ![](media/desktop-python-scripts/python-scripts-1.png)
    
-1. 选择“连接”。 选择本地计算机最新安装的 Python 版本作为 Python 引擎。 将脚本复制到显示的 Python 脚本对话框中。 在这里，我们输入之前显示的简单 Python 脚本。
+1. 选择“连接”  。 选择本地计算机最新安装的 Python 版本作为 Python 引擎。 将脚本复制到显示的 Python 脚本对话框中。 在这里，我们输入之前显示的简单 Python 脚本。
 
    ![](media/desktop-python-scripts/python-scripts-6.png)
 
-1. 选择**确定**。 如果脚本成功运行，则会显示“导航器”对话框，你可以加载数据并使用它。 对于本示例，如图所示，选中“df”复选框，然后选择“加载”。
+1. 选择**确定**。 如果脚本成功运行，则会显示“导航器”对话框，你可以加载数据并使用它。 对于本示例，如图所示，选中“df”复选框，然后选择“加载”   。
 
    ![](media/desktop-python-scripts/python-scripts-5.png) 
 
@@ -111,7 +110,7 @@ print (df)
 
 ### <a name="refresh"></a>刷新
 
-你可以在 Power BI Desktop 中刷新 Python 脚本。 若要刷新，请转到“主页”功能区，然后选择“刷新”。 刷新 Python 脚本时，Power BI Desktop 会再次运行 Python 脚本。
+你可以在 Power BI Desktop 中刷新 Python 脚本。 若要刷新，请转到“主页”功能区，然后选择“刷新”   。 刷新 Python 脚本时，Power BI Desktop 会再次运行 Python 脚本。
 
 ## <a name="next-steps"></a>后续步骤
 

@@ -2,7 +2,6 @@
 title: Power BI 设计器的仪表板简介
 description: 仪表板是 Power BI 服务的一个主要功能。 仪表板是通过可视化效果讲述故事的单个页面，常被称为画布。
 author: maggieMSFT
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 09/19/2019
 ms.author: maggies
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 269b495a41f193c6a2ba02fa75f171c3b5789689
-ms.sourcegitcommit: 5e277dae93832d10033defb2a9e85ecaa8ffb8ec
+ms.openlocfilehash: 41381a2f0ccc2c5db904d9ac94c7dad19edfa4e5
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/07/2019
-ms.locfileid: "72019607"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73872742"
 ---
 # <a name="introduction-to-dashboards-for-power-bi-designers"></a>Power BI 设计器的仪表板简介
 
@@ -56,7 +55,7 @@ Power BI“仪表板”是通过可视化效果讲述故事的单个页面，常
 | 订阅 |是。 可订阅仪表板 |是。 可订阅报表页面 |
 | 筛选 |否。 无法筛选或切片 |是。 许多不同的方式来筛选、突出显示和切片 |
 | 特色 |是。 可将一个仪表板设置为精选  仪表板 |否 |
-| 收藏 | 是。 可将多个仪表板设置为“收藏夹”  | 是。 可将多个报表设置为“收藏夹” 
+| 收藏夹 | 是。 可将多个仪表板设置为“收藏夹”  | 是。 可将多个报表设置为“收藏夹” 
 | 设置警报 |是。 可在某些情况下用于仪表板磁贴 |否 |
 | 自然语言查询（“问答”） |是 | 是，前提是你有权编辑报表及基础数据集 |
 | 可以看到基础数据集表和字段 |否。 可以导出数据，但看不到仪表板本身的表和字段 |是 |

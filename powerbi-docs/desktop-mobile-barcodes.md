@@ -3,18 +3,17 @@ title: 在适用于移动应用的 Power BI Desktop 中标记条形码字段
 description: 当你在 Power BI Desktop 的模型中标记条形码字段时，你可以在你的 iPhone 的 Power BI 应用中自动为条形码筛选数据。
 author: maggiesMSFT
 ms.author: maggies
-manager: kfile
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 01/16/2018
 LocalizationGroup: Model your data
-ms.openlocfilehash: 43d722e6667114ce5c3705270a0b55b541685108
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: d2b034d6e58f98169a5b1b260571001d5a929f28
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61293548"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73866589"
 ---
 # <a name="tag-barcodes-in-power-bi-desktop-for-the-mobile-apps"></a>在适用于移动应用的 Power BI Desktop 中标记条形码
 
@@ -48,5 +47,5 @@ ms.locfileid: "61293548"
 * [从你的 iPhone 上的 Power BI 应用中扫描条形码](consumer/mobile/mobile-apps-scan-barcode-iphone.md)
 * [在 iPhone 上扫描条形码时遇到的问题](consumer/mobile/mobile-apps-scan-barcode-iphone.md#issues-with-scanning-a-barcode)
 * [Power BI Desktop 中的数据分类](desktop-data-categorization.md)  
-* 是否有任何问题？ [尝试咨询 Power BI 社区](http://community.powerbi.com/)
+* 是否有任何问题？ [尝试咨询 Power BI 社区](https://community.powerbi.com/)
 

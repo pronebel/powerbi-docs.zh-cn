@@ -2,7 +2,6 @@
 title: 设计出色 Power BI 仪表板的提示
 description: 设计出色 Power BI 仪表板的提示
 author: maggiesMSFT
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 08/14/2019
 ms.author: maggies
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 2083fa0d197010ca770422f11c7f1e4b83d0184b
-ms.sourcegitcommit: a77977a43342db4399a4dffb862b96907d16de35
+ms.openlocfilehash: 95170ec36c5b4da0314c858ae415c3bbcb2ab556
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/14/2019
-ms.locfileid: "69023752"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73877401"
 ---
 # <a name="tips-for-designing-a-great-power-bi-dashboard"></a>设计出色 Power BI 仪表板的提示
 现在，你已创建了一个仪表板并添加了一些磁贴，可考虑如何使你的仪表板不仅美观，而且实用。 一般来说，这意味着突出显示最重要的信息，使其整洁有序。
@@ -24,8 +23,6 @@ ms.locfileid: "69023752"
 
 > [!TIP]
 > 喜欢这个仪表板吗？ 可从 AppSource 下载它和相关报表。 转到“获取数据” > “服务”   。 搜索“Microsoft 示例 - 销售和市场营销” > “立即获取”   。
-
-许多报表的设计原则也适用于仪表板。 请参阅白皮书[报表和可视化效果的最佳设计原则](visuals/power-bi-visualization-best-practices.md)，获取详细信息。
 
 以下是有关仪表板的一些提示。
 
@@ -85,4 +82,4 @@ ms.locfileid: "69023752"
 ## <a name="next-steps"></a>后续步骤
 [从报表创建仪表板](service-dashboard-create.md)  
 [Power BI 服务中设计器的基本概念](service-basic-concepts.md)  
-更多问题？ [尝试参与 Power BI 社区](http://community.powerbi.com/)
+更多问题？ [尝试参与 Power BI 社区](https://community.powerbi.com/)

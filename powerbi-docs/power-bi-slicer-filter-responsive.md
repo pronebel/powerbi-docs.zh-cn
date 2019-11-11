@@ -2,7 +2,6 @@
 title: 在 Power BI 中创建可以重设大小的响应式切片器
 description: 了解如何创建可以重设大小以适合你报表的响应式切片器
 author: maggiesMSFT
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 05/04/2018
 ms.author: maggies
 LocalizationGroup: Create reports
-ms.openlocfilehash: fed4119946cb762fb4d9aee3b5300be225a6e379
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: aa7dc612d7a1b16fdc02fb1b40c98257cda3183d
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61419708"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73877578"
 ---
 # <a name="create-a-responsive-slicer-you-can-resize-in-power-bi"></a>在 Power BI 中创建可以重设大小的响应式切片器
 
@@ -81,4 +80,4 @@ ms.locfileid: "61419708"
 ## <a name="next-steps"></a>后续步骤
 
 - [Power BI 服务中的切片器](visuals/power-bi-visualization-slicers.md)
-- 更多问题？ [尝试咨询 Power BI 社区](http://community.powerbi.com/)
+- 更多问题？ [尝试咨询 Power BI 社区](https://community.powerbi.com/)

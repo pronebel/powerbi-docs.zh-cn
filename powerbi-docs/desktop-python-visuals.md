@@ -2,7 +2,6 @@
 title: 使用 Python 创建 Power BI 视觉对象
 description: 使用 Python 创建 Power BI 视觉对象
 author: otarb
-manager: rajatt
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 08/20/2018
 ms.author: otarb
 LocalizationGroup: Create reports
-ms.openlocfilehash: b41a50ae7c4aaf8f70c9d7745ea4767b7644a62f
-ms.sourcegitcommit: 09ee1b4697aad84d8f4c9421015d7e4dbd3cf25f
+ms.openlocfilehash: 567b775cb7323dbd343f2a26d4abc0d60885ab7a
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/04/2019
-ms.locfileid: "70303134"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73877984"
 ---
 # <a name="create-power-bi-visuals-using-python"></a>使用 Python 创建 Power BI 视觉对象
 借助 Power BI Desktop  ，可以使用 Python  将数据可视化。
@@ -61,7 +60,7 @@ print (df)
    Python 脚本只能使用添加到“值”部分的字段  。 在使用 Python 脚本时，可以在“值”部分添加或删除字段  。 Power BI Desktop 会自动检测字段更改  。
    
    > [!NOTE]
-   > Python 视觉对象的默认聚合类型是“不求和”  。
+   > Python 视觉对象的默认聚合类型是“不汇总”  。
    > 
    > 
    
@@ -158,7 +157,7 @@ plt.show()
 * [Matplotlib](https://matplotlib.org/) 网站上的文档。 
 * [Matplotlib 教程：使用 Matplotlib 和 Python 的基本指南](https://www.datasciencelearner.com/matplotlib-tutorial-complete-guide-to-use-matplotlib-with-python/) 
 * [Matplotlib 教程 - Python Matplotlib 库和示例](https://www.edureka.co/blog/python-matplotlib-tutorial/) 
-* [Pandas API 引用](http://pandas.pydata.org/pandas-docs/stable/reference/index.html) 
+* [Pandas API 引用](https://pandas.pydata.org/pandas-docs/stable/reference/index.html) 
 * [Power BI 服务中的 Python 可视化效果](https://powerbi.microsoft.com/blog/python-visualizations-in-power-bi-service/) 
 * [在 Power BI 中使用 Python 视觉对象](https://www.absentdata.com/how-to-user-python-and-power-bi/)
 

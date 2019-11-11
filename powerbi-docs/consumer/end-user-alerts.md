@@ -2,7 +2,6 @@
 title: 教程：在 Power BI 服务仪表板中设置数据警报
 description: 在本教程中，你将了解如何在 Microsof Power BI 服务中设置警报，以便在仪表板中的数据更改超出你设置的限制时通知你。
 author: mihart
-manager: kvivek
 ms.reviewer: ''
 featuredvideoid: removed
 ms.service: powerbi
@@ -11,12 +10,12 @@ ms.topic: tutorial
 ms.date: 10/18/2019
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 713f177bf81b587cc6b50a7a1d05a6b0668daa74
-ms.sourcegitcommit: f34acbf9fb1ab568fd89773aaf412a847f88dd34
+ms.openlocfilehash: f7ebc459379dbf292603a605db8d3f9c7162e92f
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/18/2019
-ms.locfileid: "72589472"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73851280"
 ---
 # <a name="tutorial-set-dashboard-alerts-on-power-bi-dashboards"></a>教程：在 Power BI 仪表板中设置仪表板警报
 

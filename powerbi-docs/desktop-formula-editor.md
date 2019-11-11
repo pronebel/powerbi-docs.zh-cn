@@ -2,7 +2,6 @@
 title: Power BI Desktop 中的公式编辑器
 description: 在 Power BI Desktop 中创建和编辑 DAX 公式
 author: davidiseminger
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Transform and shape data
-ms.openlocfilehash: 429d6986d690e584c5a81d6663f4388b708e1380
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: f36b0a92d09330b4efec078ae5bc767fed434393
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "65454437"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73867623"
 ---
 # <a name="formula-editor-in-power-bi-desktop"></a>Power BI Desktop 中的公式编辑器
 

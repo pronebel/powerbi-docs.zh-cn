@@ -3,19 +3,18 @@ title: 已认证的 Power BI Power BI 视觉对象
 description: 提交自定义视觉对象以供认证的要求和过程。 以及已认证的 Power BI 视觉对象的列表。
 author: KesemSharabi
 ms.author: kesharab
-manager: rkarlin
 ms.reviewer: ''
 featuredvideoid: ''
 ms.service: powerbi
 ms.topic: conceptual
 ms.subservice: powerbi-custom-visuals
 ms.date: 05/9/2019
-ms.openlocfilehash: d0372af2727861a4af0f4ebb983cb447b020b821
-ms.sourcegitcommit: 2aa83bd53faad6fb02eb059188ae623e26503b2a
+ms.openlocfilehash: 8b119f0f3b0dfb67dc2f9cb1dfd6f19d72593d66
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/29/2019
-ms.locfileid: "73021362"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73874581"
 ---
 # <a name="get-a-power-bi-visual-certified"></a>获取 Power BI 视觉对象认证
 
@@ -202,4 +201,4 @@ Microsoft 可自行从[经认证列表](#list-of-power-bi-visuals-that-have-been
 * [Power BI 中的自定义可视化效果](power-bi-custom-visuals.md)  
 * [将 Power BI 视觉对象发布到 Microsoft AppSource](developer/office-store.md)  
 
-更多问题？ [尝试参与 Power BI 社区](http://community.powerbi.com/)
+更多问题？ [尝试参与 Power BI 社区](https://community.powerbi.com/)

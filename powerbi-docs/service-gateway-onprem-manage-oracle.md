@@ -2,7 +2,6 @@
 title: 管理数据源 - Oracle
 description: 如何管理本地数据网关和属于该网关的数据源。
 author: mgblythe
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-gateways
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 07/15/2019
 ms.author: mblythe
 LocalizationGroup: Gateways
-ms.openlocfilehash: ac116cfb2e3f09ceab6c9f78dba33bc18e847784
-ms.sourcegitcommit: 9665bdabce3bfc31f68dd8256b135bfd56f60589
+ms.openlocfilehash: cb7856b0b5ac84684e8d0648b91e45805218cead
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/06/2019
-ms.locfileid: "68832445"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73872466"
 ---
 # <a name="manage-your-data-source---oracle"></a>管理数据源 - Oracle
 
@@ -29,11 +28,11 @@ ms.locfileid: "68832445"
 
 对于 32 位版本的 Power BI Desktop，请使用以下链接下载并安装 32 位 Oracle 客户端：
 
-* [32 位 Oracle Data Access Components (ODAC) 和 Oracle Developer Tools for Visual Studio (12.1.0.2.4)](http://www.oracle.com/technetwork/topics/dotnet/utilsoft-086879.html)
+* [32 位 Oracle Data Access Components (ODAC) 和 Oracle Developer Tools for Visual Studio (12.1.0.2.4)](https://www.oracle.com/technetwork/topics/dotnet/utilsoft-086879.html)
 
 有关 64 位版本的 Power BI Desktop 或本地数据网关，请使用以下链接下载并安装 64 位 Oracle 客户端：
 
-* [适用于 Windows x64 的 64 位 ODAC 12.2c Release 1 (12.2.0.1.0)](http://www.oracle.com/technetwork/database/windows/downloads/index-090165.html)
+* [适用于 Windows x64 的 64 位 ODAC 12.2c Release 1 (12.2.0.1.0)](https://www.oracle.com/technetwork/database/windows/downloads/index-090165.html)
 
 安装客户端后，使用正确的信息对你的数据库配置 tnsnames.ora 文件。 Power BI Desktop 和网关会从 tnsnames.ora 文件中定义的 net_service_name 脱离。 如果未配置 net_service_name，则无法连接。 tnsnames.ora 的默认路径为 `[Oracle Home Directory]\Network\Admin\tnsnames.ora`。 有关如何配置 tnsnames.ora 文件的详细信息，请参阅 [Oracle：本地命名参数 (tnsnames.ora)](https://docs.oracle.com/cd/B28359_01/network.111/b28317/tnsnames.htm)。
 
@@ -132,5 +131,5 @@ CONTOSO =
 * [对网关进行排除故障 - Power BI](service-gateway-onprem-tshoot.md)
 * [Power BI Premium](service-premium.md)
 
-更多问题？ 请尝试在 [Power BI 社区](http://community.powerbi.com/)中提问
+更多问题？ 请尝试在 [Power BI 社区](https://community.powerbi.com/)中提问
 

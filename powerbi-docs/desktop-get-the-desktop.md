@@ -2,7 +2,6 @@
 title: 获取 Power BI Desktop
 description: 下载并安装 Power BI Desktop
 author: davidiseminger
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 09/10/2019
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: 7c99b00427ffe742511c0029da79b6ebde02d916
-ms.sourcegitcommit: 83e1e162a037f352e542bd5c198a3c98f5db23c7
+ms.openlocfilehash: 9f503ad8d5ae7b26a87da4e1d6664315b6119652
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "72511694"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73878229"
 ---
 # <a name="get-power-bi-desktop"></a>获取 Power BI Desktop
 **Power BI Desktop** 允许用户生成高级查询、模型和实现数据可视化效果的报表。 通过 Power BI Desktop  ，可以生成数据模型、创建报表，并通过发布到 Power BI 服务共享工作。  **Power BI Desktop** 可免费下载。
@@ -56,7 +55,7 @@ ms.locfileid: "72511694"
 ## <a name="install-as-an-app-from-the-microsoft-store"></a>作为 Microsoft Store 的应用安装
 还可以使用以下链接从 Microsoft Store 获取 Power BI Desktop  ：
 
-* [通过 Microsoft Store  安装 Power BI Desktop  ](http://aka.ms/pbidesktopstore)
+* [通过 Microsoft Store  安装 Power BI Desktop  ](https://aka.ms/pbidesktopstore)
 
   ![通过 Microsoft 官方商城获取 Power BI Desktop](media/desktop-get-the-desktop/getpbid_04.png)
 

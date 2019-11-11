@@ -2,7 +2,6 @@
 title: 管理数据源
 description: 了解如何在 Power BI 中管理数据源。
 author: mgblythe
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-gateways
@@ -11,12 +10,12 @@ ms.date: 07/15/2019
 ms.author: mblythe
 ms.custom: seodec18
 LocalizationGroup: Gateways
-ms.openlocfilehash: 254c0033dfc64b3a0f44bcda2289fedccf2e9eda
-ms.sourcegitcommit: 4222ebad1a3a32d8040f6a615a0b7f173d7869d0
+ms.openlocfilehash: 1966a9ea38f8ff9d1517b4df5ed0db1254ddf80d
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/20/2019
-ms.locfileid: "71164538"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73881781"
 ---
 # <a name="manage-data-sources"></a>管理数据源
 
@@ -178,4 +177,4 @@ Power BI 支持多个本地数据源，每个都具有自己的要求。 网关�
 * [管理数据源 - 导入/计划刷新](service-gateway-enterprise-manage-scheduled-refresh.md)
 * [部署数据网关指南](service-gateway-deployment-guidance.md)
 
-更多问题？ 尝试参与 [Power BI 社区](http://community.powerbi.com/)。
+更多问题？ 尝试参与 [Power BI 社区](https://community.powerbi.com/)。

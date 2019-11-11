@@ -2,7 +2,6 @@
 title: 教程：导入和分析网页中的数据
 description: 教程：使用 Power BI Desktop 从网页导入和分析数据
 author: davidiseminger
-manager: kfile
 ms.reviewer: ''
 ms.custom: seodec18
 ms.service: powerbi
@@ -11,12 +10,12 @@ ms.topic: tutorial
 ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Learn more
-ms.openlocfilehash: d6cdcf47b42be4a9b541aa355efb3dd5e9667204
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: e4a805db851e63a725a866065a774ef8ecc23c24
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "65514634"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73879593"
 ---
 # <a name="tutorial-analyze-web-page-data-using-power-bi-desktop"></a>教程：使用 Power BI Desktop 分析网页数据
 
@@ -29,7 +28,7 @@ ms.locfileid: "65514634"
 
 ## <a name="connect-to-a-web-data-source"></a>连接到 Web 数据源
 
-你可以从 http://en.wikipedia.org/wiki/UEFA_European_Football_Championship 处的欧足联欧洲锦标赛维基百科页面上的结果表中获得欧足联获胜队的数据。 
+你可以从 https://en.wikipedia.org/wiki/UEFA_European_Football_Championship 处的欧足联欧洲锦标赛维基百科页面上的结果表中获得欧足联获胜队的数据。 
 
 ![维基百科结果表](media/desktop-tutorial-importing-and-analyzing-data-from-a-web-page/webpage1.png)
 
@@ -44,7 +43,7 @@ ms.locfileid: "65514634"
    >[!NOTE]
    >你还可以选择“获取数据”  项本身，或者从 Power BI“开始”对话框中选择“获取数据”   ，再从“获取数据”对话框的“所有”或“其他”部分中选择“Web”     ，然后选择“连接”  。
    
-2. 在“从 Web”  对话框中，将 URL `http://en.wikipedia.org/wiki/UEFA_European_Football_Championship` 粘贴到“URL”  文本框，然后选择“确定”  。
+2. 在“从 Web”  对话框中，将 URL `https://en.wikipedia.org/wiki/UEFA_European_Football_Championship` 粘贴到“URL”  文本框，然后选择“确定”  。
    
     ![从对话框获取数据](media/desktop-tutorial-importing-and-analyzing-data-from-a-web-page/get-data-web2.png)
    
@@ -186,8 +185,8 @@ ms.locfileid: "65514634"
 Power BI Desktop 提供无缝的端到端体验（从各种数据源获取数据、调整数据以满足你的分析需求，再到以丰富的交互方式可视化这些数据）。 在报表准备就绪后，您可以[将其上载到 Power BI](desktop-upload-desktop-files.md) 并基于它创建仪表板与其他 Power BI 用户共享。
 
 ## <a name="see-also"></a>另请参阅
-* [阅读其他 Power BI Desktop 教程](http://go.microsoft.com/fwlink/?LinkID=521937)
-* [观看 Power BI Desktop 视频](http://go.microsoft.com/fwlink/?LinkID=519322)
-* [访问 Power BI 论坛](http://go.microsoft.com/fwlink/?LinkID=519326)
-* [阅读 Power BI 博客](http://go.microsoft.com/fwlink/?LinkID=519327)
+* [阅读其他 Power BI Desktop 教程](https://go.microsoft.com/fwlink/?LinkID=521937)
+* [观看 Power BI Desktop 视频](https://go.microsoft.com/fwlink/?LinkID=519322)
+* [访问 Power BI 论坛](https://go.microsoft.com/fwlink/?LinkID=519326)
+* [阅读 Power BI 博客](https://go.microsoft.com/fwlink/?LinkID=519327)
 

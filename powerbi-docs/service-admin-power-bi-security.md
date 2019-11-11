@@ -3,19 +3,18 @@ title: Power BI 安全
 description: Power BI 安全。 如何将 Power BI 与 Azure Active Directory 和其他 Azure 服务关联。 本主题还包括指向白皮书（其中会更深入地进行介绍）的链接。
 author: davidiseminger
 ms.author: davidi
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
 ms.date: 09/09/2019
 LocalizationGroup: Administration
-ms.openlocfilehash: a5dac73fd2555b0ae53b0618dbc10f831db1149b
-ms.sourcegitcommit: a97c0c34f888e44abf4c9aa657ec9463a32be06f
+ms.openlocfilehash: e856c3afca0578c906a54f636dd58cd9208607a8
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/17/2019
-ms.locfileid: "71074712"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73873500"
 ---
 # <a name="power-bi-security"></a>Power BI 安全
 
@@ -46,7 +45,7 @@ Power BI 使用两个主要的存储库进行数据存储和管理：用户上�
 
 ## <a name="user-authentication"></a>用户身份验证
 
-Power BI 使用 Azure Active Directory ([AAD](http://azure.microsoft.com/services/active-directory/)) 对要登录到 Power BI 服务的用户进行身份验证，反过来，只要用户尝试访问要求进行身份验证的资源，均使用 Power BI 登录凭据。 用户使用用于建立其 Power BI 帐户的电子邮件地址登录到 Power BI 服务，Power BI 使用登录电子邮件作为有效用户名，每当用户尝试连接到数据时，就会将其传递给资源  。 然后，*有效用户名*将映射到*用户主体名称* ([UPN](https://msdn.microsoft.com/library/windows/desktop/aa380525\(v=vs.85\).aspx))，解析为关联的 Windows 域帐户，对其应用身份验证。
+Power BI 使用 Azure Active Directory ([AAD](https://azure.microsoft.com/services/active-directory/)) 对要登录到 Power BI 服务的用户进行身份验证，反过来，只要用户尝试访问要求进行身份验证的资源，均使用 Power BI 登录凭据。 用户使用用于建立其 Power BI 帐户的电子邮件地址登录到 Power BI 服务，Power BI 使用登录电子邮件作为有效用户名，每当用户尝试连接到数据时，就会将其传递给资源  。 然后，*有效用户名*将映射到*用户主体名称* ([UPN](https://msdn.microsoft.com/library/windows/desktop/aa380525\(v=vs.85\).aspx))，解析为关联的 Windows 域帐户，对其应用身份验证。
 
 对于使用工作电子邮件（如 <em>david@contoso.com</em>）进行 Power BI 登录的组织，*有效用户名*映射到 UPN 非常简单。 对于未使用工作电子邮件（如 <em>david@contoso.onmicrosoft.com</em>）进行 Power BI 登录的组织，AAD 和本地凭据之间的映射需要[目录同步](https://technet.microsoft.com/library/jj573653.aspx)才能正常工作。
 

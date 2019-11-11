@@ -2,7 +2,6 @@
 title: Power BI Desktop 中的数据视图
 description: Power BI Desktop 中的数据视图
 author: davidiseminger
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Model your data
-ms.openlocfilehash: 567beb29ecdcaf8a07023c8c8c9b32995623534c
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: 87a72ba5ac69334c04e65871c81a9006e183d88d
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "65454463"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73876378"
 ---
 # <a name="data-view-in-power-bi-desktop"></a>Power BI Desktop 中的数据视图
 数据视图有助于检查、浏览和了解 Power BI Desktop 模型中的数据   。 它与你在查询编辑器中查看表、列和数据的方式不同。  在数据视图中，你所看到的数据是在将其加载到模型之后的样子。 

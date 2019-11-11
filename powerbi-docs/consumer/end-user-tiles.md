@@ -2,7 +2,6 @@
 title: 面向消费者的 Power BI 服务中的仪表板磁贴
 description: 关于面向消费者的 Power BI 中的仪表板磁贴的所有信息。 这包括从 SQL Server Reporting Services (SSRS) 创建的磁贴。
 author: mihart
-manager: kvivek
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-consumer
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 09/18/2019
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: ffacc95feef1557d5e6aaec2cca72821127d27d6
-ms.sourcegitcommit: 26123c6bb24c8174beb390f4e06fb938d31238ea
+ms.openlocfilehash: 92c473b5df6c21509ba32e41d88dd43c265fa3a0
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/22/2019
-ms.locfileid: "72716647"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73861411"
 ---
 # <a name="dashboard-tiles-in-power-bi"></a>Power BI 中的仪表板磁贴
 

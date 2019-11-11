@@ -2,7 +2,6 @@
 title: 针对移动应用优化报表 - Power BI
 description: 了解如何通过创建专用于手机和平板电脑的纵向报表版本来优化 Power BI 移动应用的报表页。
 author: maggiesMSFT
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 04/18/2019
 ms.author: maggies
 LocalizationGroup: Create reports
-ms.openlocfilehash: f55d1e518c3c710503bb56539667bb652f287aa7
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: 006d0e02f3b0aa7860cade4d8e035ddc299e8ba8
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61310509"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73878385"
 ---
 # <a name="optimize-reports-for-the-power-bi-mobile-apps"></a>针对 Power BI 移动应用优化报表
 通过创建纵向布局可以改善在移动应用中查看报表的体验。 在 Power BI Desktop 和 Power BI 服务中，可以重新排列报表视觉对象并调整其大小，以便在纵向模式下获得最佳体验。  
@@ -24,17 +23,17 @@ ms.locfileid: "61310509"
 
 ![更适合在手机上显示的报表](media/desktop-create-phone-report/desktop-create-phone-report-1.png)
 
-此外，还可以创建[响应式视觉对象](#optimize-a-visual-for-any-size)和[响应式切片器](#enhance-slicers-to-work-well-in-phone-reports)，它们可以在任何位置流畅地重设大小。 如果向报表添加筛选器，这些筛选器会自动显示在优化的报表中。
+此外，还可以创建[响应式  视觉对象](#optimize-a-visual-for-any-size)和[响应式切片器](#enhance-slicers-to-work-well-in-phone-reports)，它们可以在任何位置流畅地重设大小。 如果向报表添加筛选器，这些筛选器会自动显示在优化的报表中。
 
 ## <a name="lay-out-a-portrait-version-of-a-report-page"></a>设计报表页的纵向版本
 
 创建报表后，可以针对手机和平板电脑对其进行优化。
 
-1. 在 Power BI Desktop 中的报表视图的“视图”选项卡上，选择“手机布局”。  
+1. 在 Power BI Desktop 中的报表视图的“视图”  选项卡上，选择“手机布局”  。  
    
     ![“手机布局”图标](media/desktop-create-phone-report/desktop-create-phone-report-3.png)
    
-    在 Power BI 服务中，选择“编辑报表” > “移动布局”。
+    在 Power BI 服务中，选择  “编辑报表” >   “移动布局”。
 
     可以看到一个形状类似手机的空白画布。 原始报表页上的所有视觉对象将列在右侧的“可视化效果”窗格中。
 
@@ -53,7 +52,7 @@ ms.locfileid: "61310509"
    ![重设视觉对象大小](media/desktop-create-phone-report/desktop-create-phone-report-5.gif)
 
 ## <a name="optimize-a-visual-for-any-size"></a>将视觉对象优化为适应任意大小
-可以将仪表板或报表中的视觉对象设置为“响应式”。 它们可大幅度更改以显示最大数量的数据和见解的视觉对象，与屏幕大小无关。 
+可以将仪表板或报表中的视觉对象设置为“响应式”。  它们可大幅度更改以显示最大数量的数据和见解的视觉对象，与屏幕大小无关。 
 
 在视觉对象缩放时，Power BI 会优先确保显示数据视图。 例如，它可以自动删除填充，并将图例移至视觉对象顶部，这样即便视觉对象变小，也仍可提供信息。
 
@@ -80,7 +79,7 @@ ms.locfileid: "61310509"
 
 * 确定报表读取器仅可以选择一个还是可以选择多个项。
 * 在切片器周围放置一个框，以使报表更易于扫描。
-* 使切片器呈垂直、水平或响应式。 
+* 使切片器呈垂直、水平或响应式  。 
 
 如果将切片器设置为响应式，则在改变它大小和形状时，它显示更多或更少的选项。 它可以是调高、调短、调宽或调窄。 如果将其调整得足够小，它将变为报表页上的一个筛选器图标。 
 
@@ -110,5 +109,5 @@ ms.locfileid: "61310509"
 * [在 Power BI 中创建仪表板电话视图](service-create-dashboard-mobile-phone-view.md)
 * [查看针对你的电话进行优化的 Power BI 报表](consumer/mobile/mobile-apps-view-phone-report.md)
 * [创建优化为适应任意大小的响应式视觉对象](visuals/desktop-create-responsive-visuals.md)
-* 更多问题？ [尝试咨询 Power BI 社区](http://community.powerbi.com/)
+* 更多问题？ [尝试咨询 Power BI 社区](https://community.powerbi.com/)
 

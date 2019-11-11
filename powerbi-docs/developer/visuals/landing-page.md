@@ -3,18 +3,17 @@ title: 向 Power BI 视觉对象添加登陆页面
 description: 本文介绍如何向 Power BI 视觉对象添加登陆页面。
 author: KesemSharabi
 ms.author: kesharab
-manager: rkarlin
 ms.reviewer: sranins
 ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: conceptual
 ms.date: 06/18/2019
-ms.openlocfilehash: 79e362796e0694022bceb38f111a62bb62ddbabd
-ms.sourcegitcommit: e2de2e8b8e78240c306fe6cca820e5f6ff188944
+ms.openlocfilehash: fdf9496c564372e385879b3e0a3feb392d10ff90
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/23/2019
-ms.locfileid: "71193965"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73879982"
 ---
 # <a name="add-a-landing-page-to-your-power-bi-visuals"></a>向 Power BI 视觉对象添加登陆页面
 

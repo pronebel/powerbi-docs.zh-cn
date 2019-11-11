@@ -2,7 +2,6 @@
 title: 连接到 Power BI Desktop 中的数据
 description: 连接到 Power BI Desktop 中的数据
 author: davidiseminger
-manager: kfile
 ms.reviewer: ''
 ms.custom: seodec18
 ms.service: powerbi
@@ -11,15 +10,15 @@ ms.topic: conceptual
 ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 0a582eb5c160685784c6db497353f92d2dd3d2cf
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: b9e006cb14d391b82c7a1f48ba760ad9c363062c
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "65514106"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73878489"
 ---
 # <a name="connect-to-data-in-power-bi-desktop"></a>连接到 Power BI Desktop 中的数据
-通过 Power BI Desktop，可以轻松连接到持续扩展的数据世界。 如果没有 Power BI Desktop，你可以[下载](http://go.microsoft.com/fwlink/?LinkID=521662)并进行安装。
+通过 Power BI Desktop，可以轻松连接到持续扩展的数据世界。 如果没有 Power BI Desktop，你可以[下载](https://go.microsoft.com/fwlink/?LinkID=521662)并进行安装。
 
 Power BI Desktop 中有各种可用数据源。  下图显示了如何通过依次选择“文件”功能区、“获取数据”\>“更多”来连接到数据。  
 
@@ -32,7 +31,7 @@ Power BI Desktop 中有各种可用数据源。  下图显示了如何通过依�
 
 无论哪种需求，你都可以在下列 Web 资源中找到与这些主题相关的有趣数据和详细信息：
 
-[*http://www.bankrate.com/finance/retirement/best-places-retire-how-state-ranks.aspx*](http://www.bankrate.com/finance/retirement/best-places-retire-how-state-ranks.aspx)
+[*https://www.bankrate.com/finance/retirement/best-places-retire-how-state-ranks.aspx*](https://www.bankrate.com/finance/retirement/best-places-retire-how-state-ranks.aspx)
 
 选择**获取数据\> Web**，然后键入地址。
 
@@ -75,7 +74,7 @@ Power BI Desktop 可用于执行多种操作。 有关其功能的详细信息�
 * [使用 Power BI Desktop 调整和合并数据](desktop-shape-and-combine-data.md)
 * [Power BI Desktop 中的常见查询任务](desktop-common-query-tasks.md)   
 
-要向我们提供反馈？ 请使用 Power BI Desktop 中的“提交想法”  菜单项或访问[社区反馈](http://community.powerbi.com/t5/Community-Feedback/bd-p/community-feedback)。 我们期待收到你的留言！
+要向我们提供反馈？ 请使用 Power BI Desktop 中的“提交想法”  菜单项或访问[社区反馈](https://community.powerbi.com/t5/Community-Feedback/bd-p/community-feedback)。 我们期待收到你的留言！
 
 ![](media/desktop-connect-to-data/sendfeedback.png)
 

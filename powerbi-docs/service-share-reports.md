@@ -2,7 +2,6 @@
 title: 共享筛选的 Power BI 报表的两种方式
 description: 了解筛选 Power BI 报表并与组织中的同事共享的两种方式。
 author: maggiesMSFT
-manager: kfile
 ms.reviewer: lukaszp
 featuredvideoid: 0tUwn8DHo3s
 ms.service: powerbi
@@ -11,12 +10,12 @@ ms.topic: conceptual
 ms.date: 09/06/2019
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: c5bc8b32ae61870b794875c1d1720cd07dcf97f8
-ms.sourcegitcommit: 6a44cb5b0328b60ebe7710378287f1e20bc55a25
+ms.openlocfilehash: 79f09b5018efcdae88d74ae26f099ff095fb161a
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/10/2019
-ms.locfileid: "70877717"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73871452"
 ---
 # <a name="two-ways-to-share-a-filtered-power-bi-report"></a>共享筛选的 Power BI 报表的两种方式
 共享  是一种使多人能够访问你的仪表板和报表的有效方式。 如果你想要共享筛选的报表版本，该怎么办？ 也许一个报表仅显示特定城市或销售人员或年份的数据。 尝试筛选报表并将其共享，或创建自定义 URL。 收件人第一次打开报表时，将对其进行筛选。 他们可以通过修改 URL 来删除筛选器。 
@@ -74,6 +73,6 @@ Power BI 还提供了[其他开展协作和分发报表的方式](service-how-to
 ## <a name="next-steps"></a>后续步骤
 * [在 Power BI 中共享工作的方式](service-how-to-collaborate-distribute-dashboards-reports.md)
 * [共享仪表板](service-share-dashboards.md)
-* 更多问题？ [尝试参与 Power BI 社区](http://community.powerbi.com/)。
+* 更多问题？ [尝试参与 Power BI 社区](https://community.powerbi.com/)。
 * 想提供反馈？ 请转到 [Power BI 社区站点](https://community.powerbi.com/)提出你的建议。
 

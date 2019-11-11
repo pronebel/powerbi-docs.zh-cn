@@ -2,7 +2,6 @@
 title: 使用 Power BI 服务中的聚合函数（求和、平均值等）
 description: 了解如何在 Power BI 服务中更改图表中的聚合函数（求和、平均值、最大值等）。
 author: mgblythe
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
@@ -11,12 +10,12 @@ ms.date: 05/03/2019
 ms.author: mblythe
 ms.custom: seodec18
 LocalizationGroup: Reports
-ms.openlocfilehash: 7cee05df6a7d13e18bc31bc1a1f34a5f89711c0d
-ms.sourcegitcommit: b602cdffa80653bc24123726d1d7f1afbd93d77c
+ms.openlocfilehash: 595b5743450aeb8ae6f6e60157742e3563a28fdd
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/04/2019
-ms.locfileid: "65710651"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73873312"
 ---
 # <a name="work-with-aggregates-sum-average-and-so-on-in-the-power-bi-service"></a>使用 Power BI 服务中的聚合函数（求和、平均值等）
 
@@ -50,7 +49,7 @@ ms.locfileid: "65710651"
 
 通常情况下，根本问题是数据集中的字段定义。 数据集所有者可能将该字段定义为文本，这就解释了 Power BI 无法求和或求平均值的原因。 遗憾的是，[只有数据集所有者才能更改字段的分类方式](desktop-measures.md)。 因此，如果你具有数据集所有者权限，则在 Desktop 或用于创建数据集的程序（如 Excel）中均可解决此问题。 否则，请联系数据集的所有者，以寻求帮助。  
 
-本文结尾部分特别提供了[注意事项和故障排除](#considerations-and-troubleshooting)  一节。 该小节提供了提示和指导。 如果在该节仍没有获得答案，请在 [Power BI 社区论坛](http://community.powerbi.com)中发布问题。 Power BI 团队将快速回复你。
+本文结尾部分特别提供了[注意事项和故障排除](#considerations-and-troubleshooting)  一节。 该小节提供了提示和指导。 如果在该节仍没有获得答案，请在 [Power BI 社区论坛](https://community.powerbi.com)中发布问题。 Power BI 团队将快速回复你。
 
 ## <a name="change-how-a-numeric-field-is-aggregated"></a>更改数值字段的聚合方式
 
@@ -188,4 +187,4 @@ ms.locfileid: "65710651"
 
 答：请尝试删除字段，然后重新添加。
 
-更多问题？ [尝试参与 Power BI 社区](http://community.powerbi.com/)
+更多问题？ [尝试参与 Power BI 社区](https://community.powerbi.com/)

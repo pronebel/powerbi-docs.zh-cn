@@ -2,7 +2,6 @@
 title: 在 Power BI Desktop 中使用聚合
 description: 在 Power BI Desktop 中对大数据执行交互式分析
 author: davidiseminger
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 05/07/2019
 ms.author: davidi
 LocalizationGroup: Transform and shape data
-ms.openlocfilehash: 54264a645160542d7bda6a964164af65bfa45dfd
-ms.sourcegitcommit: fe8a25a79f7c6fe794d1a30224741e5281e82357
+ms.openlocfilehash: ab84795ff5d140f23f19184bbc40e91133854f1f
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/18/2019
-ms.locfileid: "68325217"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73876738"
 ---
 # <a name="aggregations-in-power-bi-desktop"></a>Power BI Desktop 中的聚合
 
@@ -60,7 +59,7 @@ ms.locfileid: "68325217"
 ![模型中的聚合表](media/desktop-aggregations/aggregations_03.jpg)
 
 > [!NOTE]
-> “Sales Agg”表只是另一个表，因此可通过各种方式加载  。 例如，可使用 ETL/ELT 进程或通过表的 [M 表达式](https://msdn.microsoft.com/query-bi/m/power-query-m-reference)在源数据库中执行聚合。 它可使用“导入”存储模式（有无 [Power BI Premium 中的增量刷新](service-premium-incremental-refresh.md)均可），或者可以是 DirectQuery 并使用[列存储索引](https://docs.microsoft.com/sql/relational-databases/indexes/columnstore-indexes-overview)针对快速查询进行了优化。 这种灵活性实现了平衡的体系结构，分散查询负载，避免堵塞。
+> “Sales Agg”表只是另一个表，因此可通过各种方式加载  。 例如，可使用 ETL/ELT 进程或通过表的 [M 表达式](/powerquery-m/power-query-m-function-reference)在源数据库中执行聚合。 它可使用“导入”存储模式（有无 [Power BI Premium 中的增量刷新](service-premium-incremental-refresh.md)均可），或者可以是 DirectQuery 并使用[列存储索引](https://docs.microsoft.com/sql/relational-databases/indexes/columnstore-indexes-overview)针对快速查询进行了优化。 这种灵活性实现了平衡的体系结构，分散查询负载，避免堵塞。
 
 ### <a name="storage-mode"></a>存储模式 
 继续以当前所用示例为例。 将“Sales Agg”的存储模式设为“导入”，提高查询速度   。

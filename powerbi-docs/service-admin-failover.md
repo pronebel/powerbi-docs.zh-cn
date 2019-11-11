@@ -2,7 +2,6 @@
 title: Power BI 高可用性、故障转移和灾难恢复常见问题解答
 description: 了解 Power BI 服务如何向其用户提供高可用性，以及提供业务连续性和灾难恢复。
 author: mgblythe
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 09/09/2019
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: b8f98541b70c3573d9f31b5e59196cd37d322bb3
-ms.sourcegitcommit: a97c0c34f888e44abf4c9aa657ec9463a32be06f
+ms.openlocfilehash: dd2c94b490cdf31bd383c7100b9a1bc372f8e75f
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/17/2019
-ms.locfileid: "71075232"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73873687"
 ---
 # <a name="power-bi-high-availability-failover-and-disaster-recovery-faq"></a>Power BI 高可用性、故障转移和灾难恢复常见问题解答
 
@@ -23,7 +22,7 @@ ms.locfileid: "71075232"
 
 ## <a name="what-does-high-availability-mean-for-power-bi"></a>“高可用性”对于 Power BI 意味着什么？
 
-Power BI 是完全托管的软件即服务 (SaaS)。  Microsoft 对它进行设计和运营，使它可在发生基础结构故障时复原，从而使用户可以始终访问其报表。  该服务通过 [99.9% SLA](http://www.microsoftvolumelicensing.com/DocumentSearch.aspx?Mode=3&DocumentTypeId=37) 进行支持。
+Power BI 是完全托管的软件即服务 (SaaS)。  Microsoft 对它进行设计和运营，使它可在发生基础结构故障时复原，从而使用户可以始终访问其报表。  该服务通过 [99.9% SLA](https://www.microsoftvolumelicensing.com/DocumentSearch.aspx?Mode=3&DocumentTypeId=37) 进行支持。
 
 ## <a name="what-is-a-power-bi-failover"></a>什么是 Power BI 故障转移？
 
@@ -50,7 +49,7 @@ Power BI 维护 Azure 数据中心（也称为区域）中每个组件的多个�
 
 ## <a name="how-do-i-know-power-bi-is-now-in-failover-mode"></a>如何知道 Power BI 现在处于故障转移模式？
 
-会在 Power BI 支持页 ([https://powerbi.microsoft.com/en-us/support/](https://powerbi.microsoft.com/en-us/support/)) 上发布通知。 该通知包含在故障转移过程中不可用的主要操作，包括发布、刷新、创建仪表板、复制仪表板以及权限更改。
+会在 Power BI 支持页 ([https://powerbi.microsoft.com/support/](https://powerbi.microsoft.com/support/)) 上发布通知。 该通知包含在故障转移过程中不可用的主要操作，包括发布、刷新、创建仪表板、复制仪表板以及权限更改。
 
 ## <a name="how-long-does-it-take-power-bi-to-fail-over"></a>Power BI 进行故障转移需要多长时间？
 

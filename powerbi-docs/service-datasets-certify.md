@@ -2,7 +2,6 @@
 title: 验证数据集（预览） - Power BI
 description: 了解如何引导企业用户使用可靠、高质量的数据集。
 author: maggiesMSFT
-manager: kfile
 ms.reviewer: chbraun
 ms.service: powerbi
 ms.subservice: powerbi-service
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 07/03/2019
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 915fb9d10b69142621554f29a7fd77e7a41932e5
-ms.sourcegitcommit: b439ded53bfbbb58be27ecedf93d618f5158df33
+ms.openlocfilehash: bdce9ec797d00b34f657ed66df6b7a5ce373334d
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/04/2019
-ms.locfileid: "67567341"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73877141"
 ---
 # <a name="certify-datasets-preview"></a>验证数据集（预览）
 
@@ -43,4 +42,4 @@ Power BI 用户现可访问许多不同的数据集，因此企业需要引导�
 ## <a name="next-steps"></a>后续步骤
 
 * 阅读[跨工作区使用数据集](service-datasets-across-workspaces.md)
-* 是否有任何问题? [尝试咨询 Power BI 社区](http://community.powerbi.com/)
+* 是否有任何问题? [尝试咨询 Power BI 社区](https://community.powerbi.com/)

@@ -2,7 +2,6 @@
 title: 显示 Power BI 中不含数据的项目
 description: 了解 Power BI 如何处理和显示不含数据的项目
 author: davidiseminger
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 08/16/2019
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: 637a6476af6368fae2bcfed8d89aeb9f43276a6b
-ms.sourcegitcommit: f6ac9e25760561f49d4257a6335ca0f54ad2d22e
+ms.openlocfilehash: a8d99a041edbbe353badbb580940e918b30a0a9d
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/16/2019
-ms.locfileid: "69560833"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73879734"
 ---
 # <a name="show-items-with-no-data-in-power-bi"></a>显示 Power BI 中不含数据的项目
 
@@ -183,29 +182,29 @@ Power BI 允许你可视化来自各种源的各种数据。 创建视觉对象�
 
 |Product[ProductId]|    Product[ProductName]|   Product[Color]| Product[Size]|  Product[CategoryId]|    Product[StyleId]|
 |---------|---------|---------|---------|---------|---------|
-|第 1 个  |Prod1  |蓝色   |小  |第 1 个  |第 1 个 |
+|1  |Prod1  |蓝色   |小  |1  |1 |
 |2  |Prod2  |蓝色   |中 |2  |2 |
-|3  |Prod3  |红色    |大  |第 1 个  |第 1 个 |
+|3  |Prod3  |红色    |大  |1  |1 |
 |4  |Prod4  |蓝色   |大  |2  |2 |
 
 
 |ProductCategory[CategoryId]|   ProductCategory[CategoryName]|
 |---------|---------|
-|第 1 个  |电话   |
+|1  |电话   |
 |2  |摄像机 |
 |3  |电视 |
 
 
 |ProductStyle[StyleId]| ProductStyle[Finish]|   ProductStyle[Polished]|
 |---------|---------|---------|
-|第 1 个  |光泽  |是 |
+|1  |光泽  |是 |
 |2  |亚光  |否 |
 |3  |无   |否 |
 
 
 |Sales[SaleId]| Sales[ProductId]|   Sales[Date]|    Sales[Quantity]|
 |---------|---------|---------|---------|
-|第 1 个  |第 1 个  |2012 年 1 月 1 日 0:00| 10 |
+|1  |1  |2012 年 1 月 1 日 0:00| 10 |
 |2  |2  |2013 年 1 月 1 日 0:00| 15 |
 
 

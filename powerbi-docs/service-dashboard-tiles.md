@@ -2,7 +2,6 @@
 title: Power BI 设计器的仪表板磁贴简介
 description: 本文介绍 Power BI 中的仪表板磁贴，其中包括从 SQL Server Reporting Services (SSRS) 报表创建的磁贴。
 author: maggiesMSFT
-manager: kfile
 ms.reviewer: ''
 ms.custom: seodec18
 ms.service: powerbi
@@ -11,12 +10,12 @@ ms.topic: conceptual
 ms.date: 08/12/2019
 ms.author: maggies
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 4577ca5d12002e18406b66036244d895fa7ee5fd
-ms.sourcegitcommit: d12bc6df16be1f1993232898f52eb80d0c9fb04e
+ms.openlocfilehash: 801af5e9c4d5306a3e77d4e82c787cc90e9cac37
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/13/2019
-ms.locfileid: "68994903"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73872779"
 ---
 # <a name="intro-to-dashboard-tiles-for-power-bi-designers"></a>Power BI 设计器的仪表板磁贴简介
 
@@ -99,8 +98,8 @@ ms.locfileid: "68994903"
 - [Power BI 设计器的仪表板简介](service-dashboards.md)  
 - [Power BI 中的数据刷新](refresh-data.md)
 - [Power BI 服务中设计器的基本概念](service-basic-concepts.md)
-- [Integrating Power BI tiles into Office documents](http://blogs.msdn.com/b/powerbidev/archive/2015/09/28/integrating-power-bi-tiles-into-office-documents.aspx)（将 Power BI 磁贴集成到 Office 文档）
+- [Integrating Power BI tiles into Office documents](https://blogs.msdn.com/b/powerbidev/archive/2015/09/28/integrating-power-bi-tiles-into-office-documents.aspx)（将 Power BI 磁贴集成到 Office 文档）
 - [将 Reporting Services 项目固定到 Power BI 仪表板](https://msdn.microsoft.com/library/mt604784.aspx)
 
-更多问题？ [尝试参与 Power BI 社区](http://community.powerbi.com/)。
+更多问题？ [尝试参与 Power BI 社区](https://community.powerbi.com/)。
 

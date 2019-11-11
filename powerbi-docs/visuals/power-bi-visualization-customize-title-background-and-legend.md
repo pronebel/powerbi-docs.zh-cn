@@ -2,7 +2,6 @@
 title: 格式化 Power BI 可视化效果入门
 description: 自定义可视化效果的标题、背景和图例
 author: mihart
-manager: kvivek
 ms.reviewer: ''
 featuredvideoid: IkJda4O7oGs
 ms.service: powerbi
@@ -11,12 +10,12 @@ ms.topic: conceptual
 ms.date: 06/24/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 6228ed70dd78ffca6cd3c8803518b2b27674576f
-ms.sourcegitcommit: 1c96b65a03ec0a0612e851dd58c363f4d56bca38
+ms.openlocfilehash: 011e2b6d3bf5cc998f7db76e96536d2ddab09888
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/25/2019
-ms.locfileid: "67389903"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73880849"
 ---
 # <a name="customize-visualization-titles-legends-and-backgrounds"></a>自定义可视化效果的标题、图例和背景
 
@@ -150,11 +149,11 @@ ms.locfileid: "67389903"
 | KPI | 是 | 是 | 不适用 |
 | 折线图 | 是 | 是 | 是 |
 | 地图 | 是 | 是 | 是 |
-| 矩形图 | 是 | 是 | 不适用 |
+| 矩阵 | 是 | 是 | 不适用 |
 | 饼图 | 是 | 是 | 是 |
 | 散点图 | 是 | 是 | 是 |
 | 切片器 | 是 | 是 | 不适用 |
-| 表格 | 是 | 是 | 不适用 |
+| 表 | 是 | 是 | 不适用 |
 | 文本框 | 否 | 是 | 不适用 |
 | 树状图 | 是 | 是 | 是 |
 | 瀑布图 | 是 | 是 | 是 |
@@ -167,4 +166,4 @@ ms.locfileid: "67389903"
 
 - [面向 Power BI 服务使用者的基本概念](../consumer/end-user-basic-concepts.md)
 
-更多问题？ [尝试参与 Power BI 社区](http://community.powerbi.com/)
+更多问题？ [尝试参与 Power BI 社区](https://community.powerbi.com/)

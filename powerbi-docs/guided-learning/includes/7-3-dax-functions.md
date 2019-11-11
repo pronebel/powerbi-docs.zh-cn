@@ -1,10 +1,10 @@
 ---
-ms.openlocfilehash: 06ee6ad7ade46d811c6340d905150c6dd3810c55
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: c3b1b7288d0d277fc866ea47887335d10279c6cc
+ms.sourcegitcommit: a5853ef44ed52e80eabee3757bb6887fa400b75b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61273187"
+ms.lasthandoff: 11/07/2019
+ms.locfileid: "73799699"
 ---
 DAX 拥有许多可用于成形、组织或分析数据的函数。 这些函数可以分为以下几个类别：
 
@@ -97,7 +97,7 @@ DAX 包含以下**日期**函数：
 
 尽管这些函数对于从日期  值中计算和提取信息很有用，但它们并不适用于使用日期表的时间智能。
 
-> 视频内容由 [Alberto Ferrari, SQLBI](http://www.sqlbi.com/learning-dax) 提供
+> 视频内容由 [Alberto Ferrari, SQLBI](https://www.sqlbi.com/learning-dax) 提供
 > 
 > 
 

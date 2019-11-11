@@ -2,19 +2,18 @@
 title: 修复 iOS 移动应用中的“通信故障”- Power BI
 description: 如果你看到消息“遇到了通信故障。 该故障可能与 Wi-Fi 连接的代理设置有关。”，那么本文可能会有所帮助。
 author: mshenhav
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 05/21/2018
 ms.author: mshenhav
-ms.openlocfilehash: 9e487f4305b663028714cbe45ab76abaaa4a6db9
-ms.sourcegitcommit: 52aa112ac9194f4bb62b0910c4a1be80e1bf1276
+ms.openlocfilehash: 14745d1f2b62845ca0eac549b100bf3e06f8f814
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "61135656"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73879113"
 ---
 # <a name="fixing-communication-failures-in-ios-mobile-apps---power-bi"></a>修复 iOS 移动应用中的“通信故障”- Power BI
 
@@ -31,5 +30,5 @@ ms.locfileid: "61135656"
 将 iPhone 或 iPad 切换到不需要显式 HTTP 代理设置的另一个连接（即配置为 HTTP 代理处于关闭状态的连接）。
 
 ## <a name="other-issues"></a>是否有其他问题？
-请尝试在 [Power BI 社区](http://community.powerbi.com/)中提问
+请尝试在 [Power BI 社区](https://community.powerbi.com/)中提问
 

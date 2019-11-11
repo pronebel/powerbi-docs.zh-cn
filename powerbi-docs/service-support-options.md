@@ -2,19 +2,18 @@
 title: Power BI Pro 和 Power BI Premium 支持选项
 description: 本文介绍可用于 Power BI Pro 和 Power BI Premium 客户的支持选项。
 author: mgblythe
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 09/17/2019
 ms.author: mblythe
-ms.openlocfilehash: df14bf127ed6935f9bec445709153a87088f8af0
-ms.sourcegitcommit: 57e45f291714ac99390996a163436fa1f76db427
+ms.openlocfilehash: 4cd007467b2ebd7f08dbb9d9bd3447194aad1f37
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/26/2019
-ms.locfileid: "71305814"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73871388"
 ---
 # <a name="power-bi-pro-and-power-bi-premium-support-options"></a>Power BI Pro 和 Power BI Premium 支持选项
 
@@ -55,4 +54,4 @@ Power BI 客户还可以利用以下产品/服务来获取主动支持小时数�
 
   - **WorkshopPLUS - 数据 AI：利用 Power BI 获取高级数据分析功能** 此课程提供有助于了解和实现关键原理的知识，这些原理包括在 Power BI 中使用 Power BI Desktop 等工具进行数据建模的原理，以及有关发布和使用 BI 资产的云服务的相关原理。 此课程还介绍报表开发的基础知识，如何在 Power BI 中将分析嵌入到自定义应用程序中，实时仪表板，以及涉及数据科学和 Power BI 中的开发的高级分析。
 
-有关详细信息，请与 Microsoft 技术客户经理联系。 如果还未签订 Microsoft 顶级支持合约，可参阅[高级支持](https://support.microsoft.com/en-us/premier)，了解详细信息。
+有关详细信息，请与 Microsoft 技术客户经理联系。 如果还未签订 Microsoft 顶级支持合约，可参阅[高级支持](https://support.microsoft.com/premier)，了解详细信息。

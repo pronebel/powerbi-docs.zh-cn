@@ -2,7 +2,6 @@
 title: 我的 Power BI 租户位于何处？
 description: 了解 Power BI 租户所处的位置及选择该位置的操作过程。 了解这点很重要，因为这会影响到你与该服务的交互。
 author: mgblythe
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 09/09/2019
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: 621b15d682cf2992559f76fa9f8f18bfe68ac93b
-ms.sourcegitcommit: a97c0c34f888e44abf4c9aa657ec9463a32be06f
+ms.openlocfilehash: 3f12e6f0b54f85ebd626b2bd35bf1a03d513c17a
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/17/2019
-ms.locfileid: "71074155"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73873326"
 ---
 # <a name="where-is-my-power-bi-tenant-located"></a>我的 Power BI 租户位于何处？
 
@@ -27,7 +26,7 @@ ms.locfileid: "71074155"
 
 若要查找租户所在的区域，请按以下步骤操作。
 
-1. 在 Power BI 服务的顶部菜单栏中，依次选择帮助图标 (?)和“关于 Power BI”。
+1. 在 Power BI 服务的顶部菜单栏中，依次选择帮助图标 (?  )和“关于 Power BI”  。
 
 1. 查看“**您的数据存储于**”旁的值。 这是租户所在的区域。 该值也是存储数据的区域，除非你为工作区的不同区域使用专用容量。
 
@@ -44,5 +43,5 @@ Power BI 选取最靠近你的选择的数据区域，这决定了租户数据�
 > [!IMPORTANT]
 > 创建租户后，便无法更改此选择。
 
-更多问题？ [尝试参与 Power BI 社区](http://community.powerbi.com/)
+更多问题？ [尝试参与 Power BI 社区](https://community.powerbi.com/)
 

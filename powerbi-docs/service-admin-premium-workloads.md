@@ -3,19 +3,18 @@ title: 如何在 Power BI Premium 中配置工作负载
 description: 了解如何在 Power BI 高级容量中配置工作负载。
 author: mgblythe
 ms.author: mblythe
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
 ms.date: 10/14/2019
 LocalizationGroup: Premium
-ms.openlocfilehash: 2b05ad31612d1960e131028d13552843834a98bd
-ms.sourcegitcommit: 549401b0e1fad15c3603fe7f14b9494141fbb100
+ms.openlocfilehash: 8240c4590a5e5bb892c4858ea74aa20e569ecb89
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/14/2019
-ms.locfileid: "72307376"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73856811"
 ---
 # <a name="configure-workloads-in-a-premium-capacity"></a>在高级容量中配置工作负载
 
@@ -198,4 +197,4 @@ ms.locfileid: "72307376"
 [Power BI Premium 中的分页报表是什么？](paginated-reports-report-builder-power-bi.md)   
 [Power BI Desktop 中的自动页面刷新（预览版）](desktop-automatic-page-refresh.md)
 
-更多问题？ [在 Power BI 社区提问](http://community.powerbi.com/)
+更多问题？ [在 Power BI 社区提问](https://community.powerbi.com/)

@@ -3,18 +3,17 @@ title: 以编程方式为 Power BI 配置凭据
 description: 如何以编程方式为 Power BI 配置凭据以实现自动化
 author: rkarlin
 ms.author: rkarlin
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 02/25/2019
-ms.openlocfilehash: f93119a621330d673fd2cf6035e0416646bd5e6a
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: 52daf96a4ff6ca7eac4d996f5891740538c88e74
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61380158"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73875862"
 ---
 # <a name="configure-credentials-programmatically-for-power-bi"></a>以编程方式为 Power BI 配置凭据
 

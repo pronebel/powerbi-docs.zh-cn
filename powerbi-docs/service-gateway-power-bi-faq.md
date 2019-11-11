@@ -2,7 +2,6 @@
 title: 本地数据网关常见问题解答 - Power BI
 description: 本文是 Power BI 的本地数据网关常见问题解答。 本文将常见问题收集到一处，供 Power BI 中所用网关使用。
 author: mgblythe
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-gateways
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 07/15/2019
 ms.author: mblythe
 LocalizationGroup: Gateways
-ms.openlocfilehash: cd3afd0ed3ba1f5b734aab2106cbd70f65f29006
-ms.sourcegitcommit: cc4b18d55b2dca8fdb1bef00f53a0a808c41432a
+ms.openlocfilehash: 45a645227a5d7a18fd05738559ed0bccc0e1f7c9
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/09/2019
-ms.locfileid: "68867052"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73872389"
 ---
 # <a name="on-premises-data-gateway-faq---power-bi"></a>本地数据网关常见问题解答 - Power BI
 
@@ -73,5 +72,5 @@ ms.locfileid: "68867052"
 
 * [本地数据网关疑难解答](/data-integration/gateway/service-gateway-tshoot)
 
-更多问题？ 尝试参与 [Power BI 社区](http://community.powerbi.com/)。
+更多问题？ 尝试参与 [Power BI 社区](https://community.powerbi.com/)。
 

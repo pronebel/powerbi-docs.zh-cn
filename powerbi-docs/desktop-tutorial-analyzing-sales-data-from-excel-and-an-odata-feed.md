@@ -2,7 +2,6 @@
 title: 教程：在 Power BI Desktop 中合并来自 Excel 和 OData 源的数据
 description: 教程：合并来自 Excel 和 OData 源的数据
 author: davidiseminger
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
@@ -10,12 +9,12 @@ ms.topic: tutorial
 ms.date: 05/31/2019
 ms.author: davidi
 LocalizationGroup: Learn more
-ms.openlocfilehash: f18dae9ecd0eff0b7f62a3152fc59c81f1292ba4
-ms.sourcegitcommit: c0f4d00d483121556a1646b413bab75b9f309ae9
+ms.openlocfilehash: 8d1b253d5e84bb15dea4612978ee970faccb7a1a
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/29/2019
-ms.locfileid: "70160384"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73866090"
 ---
 # <a name="tutorial-combine-sales-data-from-excel-and-an-odata-feed"></a>教程：合并来自 Excel 和 OData 源的销售数据
 
@@ -35,7 +34,7 @@ ms.locfileid: "70160384"
 
 首先，将 Products.xlsx Excel 工作簿的产品数据导入 Power BI Desktop。
 
-1. [下载 Products.xlsx Excel 工作簿](http://download.microsoft.com/download/1/4/E/14EDED28-6C58-4055-A65C-23B4DA81C4DE/Products.xlsx)，并将其保存为 Products.xlsx  。
+1. [下载 Products.xlsx Excel 工作簿](https://download.microsoft.com/download/1/4/E/14EDED28-6C58-4055-A65C-23B4DA81C4DE/Products.xlsx)，并将其保存为 Products.xlsx  。
    
 2. 选择 Power BI Desktop 功能区的“主页”选项卡中的“获取数据”旁的下拉箭头，然后从“最常用”下拉列表选择“Excel”     。 
    
@@ -76,7 +75,7 @@ ms.locfileid: "70160384"
    
    ![获取 OData](media/desktop-tutorial-analyzing-sales-data-from-excel-and-an-odata-feed/get_odata.png)
    
-2. 在“OData 源”对话框中，粘贴 Northwind OData 源 URL `http://services.odata.org/V3/Northwind/Northwind.svc/`  。 选择**确定**。
+2. 在“OData 源”对话框中，粘贴 Northwind OData 源 URL `https://services.odata.org/V3/Northwind/Northwind.svc/`  。 选择**确定**。
    
    ![OData 源对话框](media/desktop-tutorial-analyzing-sales-data-from-excel-and-an-odata-feed/get_odata2.png)
    
@@ -271,7 +270,7 @@ Power BI Desktop 不需要合并查询来建立报表。 但是，可以使用�
 完成的报表对来自 Products.xlsx Excel 文件与视觉对象中 Northwind OData 源的数据进行组合，帮助分析不同国家/地区的订单信息、时间范围和产品。 报表准备就绪后，可以[将其上传到 Power BI 服务](desktop-upload-desktop-files.md)，将其与其他 Power BI 用户共享。
 
 ## <a name="next-steps"></a>后续步骤
-* [阅读其他 Power BI Desktop 教程](http://go.microsoft.com/fwlink/?LinkID=521937)
-* [观看 Power BI Desktop 视频](http://go.microsoft.com/fwlink/?LinkID=519322)
-* [访问 Power BI 论坛](http://go.microsoft.com/fwlink/?LinkID=519326)
-* [阅读 Power BI 博客](http://go.microsoft.com/fwlink/?LinkID=519327)
+* [阅读其他 Power BI Desktop 教程](https://go.microsoft.com/fwlink/?LinkID=521937)
+* [观看 Power BI Desktop 视频](https://go.microsoft.com/fwlink/?LinkID=519322)
+* [访问 Power BI 论坛](https://go.microsoft.com/fwlink/?LinkID=519326)
+* [阅读 Power BI 博客](https://go.microsoft.com/fwlink/?LinkID=519327)

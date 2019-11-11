@@ -2,7 +2,6 @@
 title: 在 Power BI 中使用 DirectQuery
 description: 了解如何使用 DirectQuery 和 Power BI
 author: davidiseminger
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 08/19/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: d303e20e524ad7ac67882812b6e4f5a1d9b06c33
-ms.sourcegitcommit: 57e45f291714ac99390996a163436fa1f76db427
+ms.openlocfilehash: 13ca0b53bb1aed2d4323afdc99a97f8b9cfa5567
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/26/2019
-ms.locfileid: "71305807"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73868344"
 ---
 # <a name="using-directquery-in-power-bi"></a>在 Power BI 中使用 DirectQuery
 使用 Power BI Desktop 或 Power BI 服务时，可以连接各种不同类型的数据源，并且可以通过不同的方式连接这些数据   。 可以将数据导入 Power BI，也可以在其原始源存储库中直接连接数据，前者是获取数据最常见的方法，后者称为 DirectQuery   。 本文介绍 DirectQuery 及其功能： 
@@ -32,7 +31,7 @@ ms.locfileid: "71305807"
 
 Power BI 为两种连接模式（导入和 DirectQuery）提供的功能集将随时间的推移不断改进。 这将包括在使用导入数据时提供更强的灵活性，以便可以在更多情况下使用导入模式，以及消除使用 DirectQuery 时带来的的一些弊端。 无论如何改进，使用 DirectQuery 时都会始终将基础数据源的性能作为主要考虑因素。 如果该基础数据源速度缓慢，则对该数据源使用 DirectQuery 将仍然不可行。
 
-本文介绍 Power BI（而不是 SQL Server Analysis Services）中的 DirectQuery。 DirectQuery 也是 SQL Server Analysis Services 的功能之一，下面描述的许多细节同样适用于 SQL Server Analysis Services，但还是存在重大区别  。 若要详细了解如何使用 SQL Server Analysis Services 的 DirectQuery，请参阅 [SQL Server Analysis Services 2016 中的 DirectQuery](http://download.microsoft.com/download/F/6/F/F6FBC1FC-F956-49A1-80CD-2941C3B6E417/DirectQuery%20in%20Analysis%20Services%20-%20Whitepaper.pdf)。  
+本文介绍 Power BI（而不是 SQL Server Analysis Services）中的 DirectQuery。 DirectQuery 也是 SQL Server Analysis Services 的功能之一，下面描述的许多细节同样适用于 SQL Server Analysis Services，但还是存在重大区别  。 若要详细了解如何使用 SQL Server Analysis Services 的 DirectQuery，请参阅 [SQL Server Analysis Services 2016 中的 DirectQuery](https://download.microsoft.com/download/F/6/F/F6FBC1FC-F956-49A1-80CD-2941C3B6E417/DirectQuery%20in%20Analysis%20Services%20-%20Whitepaper.pdf)。  
 
 本文重点介绍 DirectQuery 的建议工作流、在 Power BI Desktop 中创建报表的位置，以及如何在 Power BI 服务中直接连接数据   。
 
@@ -141,7 +140,7 @@ SSAS 报表发布到 Power BI 服务时，其行为在以下方面与 DirectQuer
 * **计算列中的限制：** 计算列仅限于行内，因为它们只能引用同一表中其他列的值，不能使用任何聚合函数。 此外，可用的 DAX 标量函数（如 LEFT()）被限制为只能推送到基础数据源，因此从很大程度上取决于数据源的具体功能。 创建计算列的 DAX 时，不支持的功能不会在自动完成中列出，如果使用则会导致错误。
 * **不支持父-子 DAX 函数：** 在 DirectQuery 模型中，不能使用 DAX PATH() 系列函数，这类函数通常处理父-子结构，如帐户图表或员工层次结构图表。
 * **不支持计算表：** DirectQuery 模式不支持使用 DAX 表达式定义计算表。
-* **关系筛选：** [本白皮书](http://download.microsoft.com/download/2/7/8/2782DF95-3E0D-40CD-BFC8-749A2882E109/Bidirectional%20cross-filtering%20in%20Analysis%20Services%202016%20and%20Power%20BI.docx)中详细说明了双向筛选的使用（其中介绍了 SQL Server Analysis Services 上下文中的示例，但基本要点同样适用于 Power BI）。
+* **关系筛选：** [本白皮书](https://download.microsoft.com/download/2/7/8/2782DF95-3E0D-40CD-BFC8-749A2882E109/Bidirectional%20cross-filtering%20in%20Analysis%20Services%202016%20and%20Power%20BI.docx)中详细说明了双向筛选的使用（其中介绍了 SQL Server Analysis Services 上下文中的示例，但基本要点同样适用于 Power BI）。
 
 * **无聚类分析：** 使用 DirectQuery 时，不能使用聚类分析功能自动查找组
 

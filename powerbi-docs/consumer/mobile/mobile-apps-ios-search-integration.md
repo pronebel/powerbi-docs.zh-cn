@@ -2,19 +2,18 @@
 title: iOS 设备搜索与 Power BI 集成
 description: 使用设备搜索（聚焦）查找和访问所需的内容
 author: michalfo
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 06/03/2019
 ms.author: michalfo
-ms.openlocfilehash: 8f40781bb15b06f894a53f16d4ec6754d88e6b53
-ms.sourcegitcommit: 52aa112ac9194f4bb62b0910c4a1be80e1bf1276
+ms.openlocfilehash: f89895650bb0b81533aeddbc149f225742dc9d3f
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "66817067"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73879228"
 ---
 # <a name="ios-device-search-spotlight-integration-with-power-bi-mobile-ios-app-preview"></a>iOS 设备搜索（聚焦）与 Power BI 移动版 iOS 应用集成（预览版）
 使用 iOS 设备搜索查找和访问所需的内容。
@@ -51,7 +50,7 @@ ms.locfileid: "66817067"
 ## <a name="next-steps"></a>后续步骤
 执行以下操作，了解有关 Power BI 移动应用的详细信息： 
 
-* 下载 [Power BI iPhone 移动应用](http://go.microsoft.com/fwlink/?LinkId=522062)
+* 下载 [Power BI iPhone 移动应用](https://go.microsoft.com/fwlink/?LinkId=522062)
 * 关注 [Twitter上的 @MSPowerBI](https://twitter.com/MSPowerBI)
-* 加入 [Power BI 社区](http://community.powerbi.com/)的对话
+* 加入 [Power BI 社区](https://community.powerbi.com/)的对话
 

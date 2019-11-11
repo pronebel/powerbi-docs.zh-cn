@@ -2,7 +2,6 @@
 title: 如何从 Excel 将磁贴固定到 Power BI 仪表板
 description: 在 OneDrive for Business 上从 Excel 将磁贴固定到 Power BI 仪表板 固定范围、图表、表
 author: maggiesMSFT
-manager: kfile
 ms.reviewer: ''
 featuredvideoid: l8JoB7w0zJA
 ms.service: powerbi
@@ -11,18 +10,18 @@ ms.topic: conceptual
 ms.date: 05/02/2018
 ms.author: maggies
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 273cfbd86573a5eceaf9705ac19b0f7928b59176
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: d0f258af383327fb25c8f0e896677bbd19eca6c4
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61138136"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73877429"
 ---
 # <a name="pin-a-tile-to-a-power-bi-dashboard-from-excel"></a>从 Excel 将磁贴固定到 Power BI 仪表板
 若要从 Excel 工作簿固定磁贴，请将该工作簿连接到 Power BI 服务 (app.powerbi.com)。 实际上，连接工作簿会将该工作簿链接的只读版本引入 Power BI 服务，并允许用户将区域固定到仪表板。 甚至可以将整个工作表固定到仪表板。  
 如果已与你共享工作簿，你将能够查看由所有者固定的磁贴，但无法自行创建任何仪表板磁贴。 
 
-有关 Excel 和 Power BI 如何协同工作的详细信息，请参阅[从 Excel 工作簿文件获取数据](http://go.microsoft.com/fwlink/?LinkID=521962)。
+有关 Excel 和 Power BI 如何协同工作的详细信息，请参阅[从 Excel 工作簿文件获取数据](https://go.microsoft.com/fwlink/?LinkID=521962)。
 
 视频将演示几个从 Excel 工作簿导入数据并连接至此的方法。
 
@@ -81,12 +80,12 @@ ms.locfileid: "61138136"
  ![视频](media/service-dashboard-pin-tile-from-excel/pin-from-excel.gif)
 
 ## <a name="considerations-and-troubleshooting"></a>注意事项和疑难解答
-不支持的功能：Power BI 使用 Excel Services 来检索工作簿磁贴。 因此，由于 Excel 中的某些功能在 Excel Services REST API 中不受支持，因此将不会在 Power BI 中的磁贴上看到这些功能。 例如：迷你图、图标集条件格式设置和时间切片器。 有关不支持的功能的完整列表，请参阅 [Excel Services REST API 中不支持的功能](http://msdn.microsoft.com/library/office/ff394477.aspx)
+不支持的功能：Power BI 使用 Excel Services 来检索工作簿磁贴。 因此，由于 Excel 中的某些功能在 Excel Services REST API 中不受支持，因此将不会在 Power BI 中的磁贴上看到这些功能。 例如：迷你图、图标集条件格式设置和时间切片器。 有关不支持的功能的完整列表，请参阅 [Excel Services REST API 中不支持的功能](https://msdn.microsoft.com/library/office/ff394477.aspx)
 
 ## <a name="next-steps"></a>后续步骤
 [共享具有 Excel 工作簿链接的仪表板](service-share-dashboard-that-links-to-excel-onedrive.md)
 
 [从 Excel 工作簿获取数据](service-excel-workbook-files.md)
 
-更多问题？ [尝试参与 Power BI 社区](http://community.powerbi.com/)
+更多问题？ [尝试参与 Power BI 社区](https://community.powerbi.com/)
 

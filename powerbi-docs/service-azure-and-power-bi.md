@@ -3,19 +3,18 @@ title: Azure 和 Power BI
 description: Azure 和 Power BI
 author: davidiseminger
 ms.author: davidi
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 05/08/2019
 LocalizationGroup: Data from databases
-ms.openlocfilehash: 9d48054e4b41c097d51522ad7596b750bd067e6d
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: db988dfd360aae00fed1f6d917376a6ba54f9089
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "65513339"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73873222"
 ---
 # <a name="azure-and-power-bi"></a>Azure 和 Power BI
 
@@ -31,7 +30,7 @@ Power BI 拥有多种 Azure 连接可用，而且使用这些服务创建的商�
 
 ![从 SQL 到 PBI](media/service-azure-and-power-bi/azure_2_sqltopbi.png)
 
-了解有关 [Azure SQL 数据库](http://azure.microsoft.com/services/sql-database/)的详细信息。
+了解有关 [Azure SQL 数据库](https://azure.microsoft.com/services/sql-database/)的详细信息。
 
 ## <a name="transform-shape-and-merge-your-cloud-data"></a>转换、调整和合并云数据
 
@@ -43,13 +42,13 @@ Power BI 拥有多种 Azure 连接可用，而且使用这些服务创建的商�
 
 有关详细信息，请参阅以下资源：
 
-* [Azure SQL 数据库](http://azure.microsoft.com/services/sql-database/)
-* [Azure HDInsight](http://azure.microsoft.com/services/hdinsight/)
-* [Azure 存储](http://azure.microsoft.com/services/storage/)（Blob 存储和表存储）
+* [Azure SQL 数据库](https://azure.microsoft.com/services/sql-database/)
+* [Azure HDInsight](https://azure.microsoft.com/services/hdinsight/)
+* [Azure 存储](https://azure.microsoft.com/services/storage/)（Blob 存储和表存储）
 
 ## <a name="get-complex-and-ahead-using-azure-services-and-power-bi"></a>借助 Azure 服务和 Power BI 深入并领先行业。
 
-你可以根据需要拓展 Azure 和 Power BI 的功能。 使用多源数据处理、利用大量的实时系统，借助[流分析](http://azure.microsoft.com/services/stream-analytics/)和[事件中心](http://azure.microsoft.com/services/event-hubs/)，将各种 SaaS 服务合并到商业智能报表以增加你的业务优势。
+你可以根据需要拓展 Azure 和 Power BI 的功能。 使用多源数据处理、利用大量的实时系统，借助[流分析](https://azure.microsoft.com/services/stream-analytics/)和[事件中心](https://azure.microsoft.com/services/event-hubs/)，将各种 SaaS 服务合并到商业智能报表以增加你的业务优势。
 
 ![Azure Complex](media/service-azure-and-power-bi/azure_4_complex.png)
 
@@ -57,7 +56,7 @@ Power BI 拥有多种 Azure 连接可用，而且使用这些服务创建的商�
 
 在应用、网站、门户等中嵌入惊艳的交互式数据可视化效果，以利用你的业务数据。 使用 [Power BI Embedded 作为 Azure 中的资源](https://azure.microsoft.com/services/power-bi-embedded/)可以轻松地嵌入交互式报表和仪表板，在多台设备之间实现一致的高保真体验。  Power BI 与嵌入分析结合使用可帮助你体验数据 -> 知识 -> 见解 -> 操作的过程。  此外，通过在[组织的内部应用程序和门户](https://powerbi.microsoft.com/developers/embedded-analytics/organization/)中嵌入分析，还可以扩展 Power BI 和 Azure 的价值。
 
-在 [Power BI 开发人员门户](http://dev.powerbi.com)中查看 Power BI API 的详细信息。
+在 [Power BI 开发人员门户](https://dev.powerbi.com)中查看 Power BI API 的详细信息。
 
 有关详细信息，请参阅[开发人员可以使用 Power BI 做什么？](developer/what-can-you-do.md)。
 

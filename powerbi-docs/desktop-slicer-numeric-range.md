@@ -2,7 +2,6 @@
 title: 在 Power BI Desktop 中使用数值范围切片器
 description: 了解如何在 Power BI Desktop 中使用切片器来约束数值范围
 author: davidiseminger
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 06/19/2019
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: fa1311f93cd6b543d552070b990f1bada551a699
-ms.sourcegitcommit: 9d13ef7a257b5006fca5f92acf5b611f5cd143a2
+ms.openlocfilehash: 535dbe2b1765d788e59d928f7303ce4696aa163b
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/18/2019
-ms.locfileid: "68306958"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73879673"
 ---
 # <a name="use-the-numeric-range-slicer-in-power-bi-desktop"></a>在 Power BI Desktop 中使用数值范围切片器
 借助数值范围切片器，可以将各种类型的筛选器应用于数据模型中的任意数值列。 筛选数值数据有三个选项：介于两个数字之间、小于或等于某数字、大于或等于某数字。 这听起来很简单，但它却是筛选数据的强大方法。

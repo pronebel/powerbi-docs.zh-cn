@@ -3,18 +3,17 @@ title: Power BI Embedded 的 Multi-Geo 支持
 description: 了解如何将内容部署到除 Power BI Embedded 主区域以外区域的数据中心。
 author: rkarlin
 ms.author: rkarlin
-manager: kfile
 ms.reviewer: nishalit
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 02/05/2019
-ms.openlocfilehash: 57f01a458bad36c73a01adb1bc62bfd5a055a337
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: 093b1e430d59a6060829b63a5bcfe17a7bb43928
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61344890"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73875790"
 ---
 # <a name="multi-geo-support-for-power-bi-embedded"></a>Power BI Embedded 的 Multi-Geo 支持
 
@@ -92,4 +91,4 @@ Power BI Embedded 的 Multi-Geo 支持意味着，对于使用 Power BI Embedded
 
 * [Power BI Premium 容量中的 Multi-Geo](../service-admin-premium-multi-geo.md)
 
-更多问题？ [尝试咨询 Power BI 社区](http://community.powerbi.com/)
+更多问题？ [尝试咨询 Power BI 社区](https://community.powerbi.com/)

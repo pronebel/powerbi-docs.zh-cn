@@ -2,7 +2,6 @@
 title: 在 Power BI 中使用个人网关
 description: 提供 Power BI 本地数据网关（个人模式）的相关信息，供个人用于连接到本地数据。
 author: mgblythe
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-gateways
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 07/15/2019
 ms.author: mblythe
 LocalizationGroup: Gateways
-ms.openlocfilehash: b910f20935c76f8723d8ca876cb57d811976772b
-ms.sourcegitcommit: 73228d0a9038b8369369c059ad06168d2c5ff062
+ms.openlocfilehash: 5138536fca255638e2cef802b885be1f5dfcbef9
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/02/2019
-ms.locfileid: "68729942"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73881526"
 ---
 # <a name="use-personal-gateways-in-power-bi"></a>在 Power BI 中使用个人网关
 
@@ -102,4 +101,4 @@ ms.locfileid: "68729942"
 
 * [为本地数据网关配置代理设置](/data-integration/gateway/service-gateway-proxy)  
 
-更多问题？ 尝试参与 [Power BI 社区](http://community.powerbi.com/)。
+更多问题？ 尝试参与 [Power BI 社区](https://community.powerbi.com/)。

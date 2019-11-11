@@ -2,7 +2,6 @@
 title: 数据流和 Azure Data Lake 集成
 description: Power BI 数据流如何与 Azure Data Lake Storage Gen2 集成的概述
 author: davidiseminger
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 04/02/2019
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: 7532b0b381e43c6e413d27fa141c22e58dfba84e
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: 5b13fdc1f65fe2650ea0fb4fee1be20611ac3e8b
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61150434"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73877324"
 ---
 # <a name="dataflows-and-azure-data-lake-integration-preview"></a>数据流和 Azure Data Lake 集成（预览）
 
@@ -97,4 +96,4 @@ Power BI 外部的人员或服务也可以利用授权的替代形式。这些�
 * [CDM 文件夹](https://go.microsoft.com/fwlink/?linkid=2045304)
 * [CDM 模型文件定义](https://go.microsoft.com/fwlink/?linkid=2045521)
 
-也可以随时尝试[通过 Power BI 社区提问](http://community.powerbi.com/)。
+也可以随时尝试[通过 Power BI 社区提问](https://community.powerbi.com/)。

@@ -2,7 +2,6 @@
 title: 使用备用电子邮件地址
 description: 使用备用电子邮件地址
 author: mgblythe
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 04/23/2019
 ms.author: mblythe
 LocalizationGroup: Troubleshooting
-ms.openlocfilehash: 88432f55fc8cfeefa07b66ea68437bbb23f12531
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: 6549ec04d8ec47381b4639d15242e909929b52de
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "64906653"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73858075"
 ---
 # <a name="use-an-alternate-email-address"></a>使用备用电子邮件地址
 
@@ -32,15 +31,15 @@ ms.locfileid: "64906653"
 
 1. 打开 [Office 365 个人信息页](https://portal.office.com/account/#personalinfo)。 如果应用提示你使用用于 Power BI 的电子邮件地址和密码登录，请执行此操作。
 
-1. 在左侧菜单栏上，选择“个人信息”。
+1. 在左侧菜单栏上，选择“个人信息”  。
 
-1. 在“联系详细信息”部分中，选择“编辑”。
+1. 在“联系详细信息”  部分中，选择“编辑”  。
 
     如果无法编辑详细信息，表明你的电子邮件地址是由 Office 365 管理员管理。 若要更新电子邮件地址，请联系管理员。
 
     ![联系人详细信息](media/service-admin-alternate-email-address-for-power-bi/contact-details.png)
 
-1. 在“备用电子邮件地址”字段中，输入希望 Office 365 用于 Power BI 更新的电子邮件地址。
+1. 在“备用电子邮件地址”  字段中，输入希望 Office 365 用于 Power BI 更新的电子邮件地址。
 
 ## <a name="use-powershell"></a>使用 PowerShell
 
@@ -58,16 +57,16 @@ Set-AzureADUser -ObjectId john@contoso.com -OtherMails "otheremail@somedomain.co
 
 * UserPrincipalName (UPN) 电子邮件地址
 
-* “其他电子邮件地址”数组属性
+* “其他电子邮件地址”  数组属性
 
 Power BI 根据以下顺序选择要使用的电子邮件地址：
 
 1. 如果 Azure AD 用户对象中有邮件属性，Power BI 便会对电子邮件地址使用此邮件属性。
 
-1. 如果 UPN 电子邮件地址不是 **\*.onmicrosoft.com** 域电子邮件地址（“\@”符号后面的信息），Power BI 便会对电子邮件地址使用此邮件属性。
+1. 如果 UPN 电子邮件地址不是  **\*.onmicrosoft.com** 域电子邮件地址（“\@”符号后面的信息），Power BI 便会对电子邮件地址使用此邮件属性。
 
-1. 如果 Azure AD 用户对象中有“其他电子邮件地址”数组属性，Power BI 便会使用此列表中的第一个电子邮件地址（因为此属性中可能有电子邮件地址列表）。
+1. 如果 Azure AD 用户对象中有“其他电子邮件地址”  数组属性，Power BI 便会使用此列表中的第一个电子邮件地址（因为此属性中可能有电子邮件地址列表）。
 
 1. 如果不符合上述任一条件，Power BI 便会使用 UPN 地址。
 
-更多问题？ [尝试参与 Power BI 社区](http://community.powerbi.com/)
+更多问题？ [尝试参与 Power BI 社区](https://community.powerbi.com/)

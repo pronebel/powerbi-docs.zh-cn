@@ -2,7 +2,6 @@
 title: 在 Power BI 中通过 Analysis Services 表格模型实现动态行级别安全性
 description: 通过 Analysis Services 表格模型实现动态行级别安全性
 author: selvarms
-manager: amitaro
 ms.reviewer: davidi
 editor: davidi
 ms.service: powerbi
@@ -11,12 +10,12 @@ ms.topic: tutorial
 ms.date: 05/28/2019
 ms.author: selvar
 LocalizationGroup: Connect to data
-ms.openlocfilehash: bbd40173bd10abf312ff382a9452f7636234bc95
-ms.sourcegitcommit: 9665997274301b228f45aa7250ba557e90164a4d
+ms.openlocfilehash: 09726bccdd5a0b9a88d4a2df4d5be3b902a64b8c
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/06/2019
-ms.locfileid: "70751675"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73876095"
 ---
 # <a name="dynamic-row-level-security-with-analysis-services-tabular-model"></a>通过 Analysis Services 表格模型实现动态行级别安全性
 

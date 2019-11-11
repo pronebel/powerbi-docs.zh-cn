@@ -9,12 +9,12 @@ ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 06/03/2019
 ms.author: michalfo
-ms.openlocfilehash: 3f1e02c880d737998afd7c84c4259e4de8582da9
-ms.sourcegitcommit: 52aa112ac9194f4bb62b0910c4a1be80e1bf1276
+ms.openlocfilehash: befe57bd0c3441a44f4db745e3af73bd9afed933
+ms.sourcegitcommit: a5853ef44ed52e80eabee3757bb6887fa400b75b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "70391501"
+ms.lasthandoff: 11/07/2019
+ms.locfileid: "73783544"
 ---
 # <a name="using-siri-shortcuts-in-power-bi-mobile-ios-app-preview"></a>在 Power BI 移动版 iOS 应用中使用 Siri 快捷方式（预览版）
 
@@ -66,7 +66,7 @@ ms.locfileid: "70391501"
 ## <a name="next-steps"></a>后续步骤
 执行以下操作，了解有关 Power BI 移动应用的详细信息： 
 
-* 下载 [Power BI iPhone 移动应用](http://go.microsoft.com/fwlink/?LinkId=522062)
+* 下载 [Power BI iPhone 移动应用](https://go.microsoft.com/fwlink/?LinkId=522062)
 * 关注 [Twitter上的 @MSPowerBI](https://twitter.com/MSPowerBI)
-* 加入 [Power BI 社区](http://community.powerbi.com/)的对话
+* 加入 [Power BI 社区](https://community.powerbi.com/)的对话
 

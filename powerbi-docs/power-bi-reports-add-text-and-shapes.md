@@ -2,7 +2,6 @@
 title: Power BI 报表中的文本框和形状
 description: 使用 Microsoft Power BI 服务在报表中添加和创建文本框和形状。
 author: maggiesMSFT
-manager: kfile
 ms.reviewer: ''
 featuredvideoid: _3q6VEBhGew
 ms.service: powerbi
@@ -11,12 +10,12 @@ ms.topic: conceptual
 ms.date: 05/29/2019
 ms.author: maggies
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 03157d34e8d3a20ae7b4aadf71a0829d9a88e08d
-ms.sourcegitcommit: d04b9e1426b8544ce16ef25864269cc43c2d9f7b
+ms.openlocfilehash: 3da18269817ef89dfff9524c8875814430bc6cce
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "71715270"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73874449"
 ---
 # <a name="text-boxes-and-shapes-in-power-bi-reports"></a>Power BI 报表中的文本框和形状
 可以使用 Power BI 服务和 Power BI Desktop 将文本框和形状添加到报表中。 在这两种情况下，必须具有报表的编辑权限。 如果已在 Power BI 服务中与你共享报表，你将没有编辑权限。 
@@ -68,4 +67,4 @@ ms.locfileid: "71715270"
 
 [Power BI 服务中设计器的基本概念](service-basic-concepts.md)
 
-更多问题？ [尝试参与 Power BI 社区](http://community.powerbi.com/)
+更多问题？ [尝试参与 Power BI 社区](https://community.powerbi.com/)

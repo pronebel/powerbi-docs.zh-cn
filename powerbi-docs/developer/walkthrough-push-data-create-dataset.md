@@ -3,18 +3,17 @@ title: 创建数据集
 description: 演练 - 将数据推送到数据集 - 在 Power BI 中创建数据集
 author: rkarlin
 ms.author: rkarlin
-manager: kfile
 ms.reviewer: madia
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 02/05/2019
-ms.openlocfilehash: 4bc24df67dd7d2b8ac0ae987ad2e50cff082c73f
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: 3b0a1f2234490ae1c887b77395d87e41deb3319d
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "65710372"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73875466"
 ---
 # <a name="step-3-create-a-dataset-in-power-bi"></a>步骤 3：在 Power BI 中创建数据集
 本文是[将数据推送到数据集](walkthrough-push-data.md)的分步演练的一部分。
@@ -236,5 +235,5 @@ namespace walkthrough_push_data
 [Power BI REST API 概述](overview-of-power-bi-rest-api.md)  
 [Power BI REST API 引用](https://docs.microsoft.com/rest/api/power-bi/)  
 
-更多问题？ [尝试参与 Power BI 社区](http://community.powerbi.com/)
+更多问题？ [尝试参与 Power BI 社区](https://community.powerbi.com/)
 

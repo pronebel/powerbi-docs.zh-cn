@@ -2,7 +2,6 @@
 title: 使用见解查找分布不同的位置（预览）
 description: 在 Power BI Desktop 中轻松获取见解以找出图表中显示的分布的不同之处
 author: davidiseminger
-manager: kfile
 ms.reviewer: ''
 ms.custom: seodec18
 ms.service: powerbi
@@ -11,12 +10,12 @@ ms.topic: conceptual
 ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 99ad06b84b01ce94b3433952cdd031a81c336e04
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: bb4e177ff813c332c8b60b490ead1f6d97a03935
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "65454150"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73867111"
 ---
 # <a name="use-insights-in-power-bi-desktop-to-find-where-a-distribution-is-different-preview"></a>使用 Power BI Desktop 中的见解找出分布的不同之处（预览版）
 
@@ -75,7 +74,7 @@ ms.locfileid: "65454150"
 |国家/地区  |销售额（百万美元）|
 |---------|----------|
 |美国      |3        |
-|加拿大   |第 1 个         |
+|加拿大   |1         |
 
 虽然各个表中的数字不同，但美国与加拿大的相对值是相同的（总体为 75% 和 25%，公路车也为 75% 和 25%）。 因此不会将这些数字视为不同。 因此，对于这种简单的累加性度量值，算法会查找*相对*值的差异。  
 
@@ -91,7 +90,7 @@ ms.locfileid: "65454150"
 |国家/地区  |利润率 (%)|
 |---------|----------|
 |美国      |3        |
-|加拿大   |第 1 个         |
+|加拿大   |1         |
 
 鉴于此类度量值的性质，这些数字被认为*是*不同且有趣的。 因此，对于非累加性度量值，比如此利润率示例，算法会查找绝对值的差异。
 

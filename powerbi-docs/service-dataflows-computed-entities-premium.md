@@ -2,7 +2,6 @@
 title: 在 Power BI Premium 上使用计算实体
 description: 了解如何在 Power BI Premium 中使用计算实体
 author: davidiseminger
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 04/02/2019
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: ccd8569650bd4f3da1a05c0999ad510029e5ab49
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: a655c55520d76bfaeb51318d09244ea663ccc192
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61137758"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73872656"
 ---
 # <a name="using-computed-entities-on-power-bi-premium"></a>在 Power BI Premium 上使用计算实体
 

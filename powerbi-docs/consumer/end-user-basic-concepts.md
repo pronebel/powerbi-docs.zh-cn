@@ -2,7 +2,6 @@
 title: Power BI 服务 - 面向使用者的基本概念
 description: Power BI 服务应用、工作区、仪表板、报表、数据集和工作簿。
 author: mihart
-manager: kvivek
 ms.reviewer: ''
 featuredvideoid: B2vd4MQrz4M
 ms.service: powerbi
@@ -12,12 +11,12 @@ ms.topic: conceptual
 ms.date: 10/16/2019
 ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: 902bfe11ba3dfa4047ab5918de7081ae05fb9a09
-ms.sourcegitcommit: d441d350504f8c6d9e100d229757add6237f0bef
+ms.openlocfilehash: 24e5a06d3e835f7ff5114cbf17b772bc7efd00bb
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/30/2019
-ms.locfileid: "73060355"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73852225"
 ---
 # <a name="basic-concepts-for-the-power-bi-service-consumers"></a>面向 Power BI 服务使用者的基本概念
 

@@ -2,7 +2,6 @@
 title: Power BI Desktop 中的数据类型
 description: Power BI Desktop 中的数据类型
 author: davidiseminger
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
@@ -10,12 +9,12 @@ ms.topic: reference
 ms.date: 09/05/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: ccde7f01968a9fdcdd74903819b7083a552479b0
-ms.sourcegitcommit: c799941c8169cd5b6b6d63f609db66ab2af93891
+ms.openlocfilehash: a3ca4b8ffe709fec7953eb5d4081bdf296504eb1
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/06/2019
-ms.locfileid: "70391769"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73868514"
 ---
 # <a name="data-types-in-power-bi-desktop"></a>Power BI Desktop 中的数据类型
 本文介绍 Power BI Desktop 和数据分析表达式 (DAX) 中支持的数据类型。 
@@ -71,7 +70,7 @@ Power BI Desktop 支持查询视图中的五种日期/时间数据类型，以�
 **True/False** – 为 True 或 False 的布尔值。
 
 ### <a name="blanksnulls-type"></a>空白/Null 类型
-**空白** - DAX 中表示和替代 SQL Null 的数据类型。 你可以使用 [BLANK](http://msdn.microsoft.com/library/ee634820.aspx) 函数创建空白，并使用 [ISBLANK](https://msdn.microsoft.com/library/ee634204.aspx) 逻辑函数对其进行测试。
+**空白** - DAX 中表示和替代 SQL Null 的数据类型。 你可以使用 [BLANK](https://msdn.microsoft.com/library/ee634820.aspx) 函数创建空白，并使用 [ISBLANK](https://msdn.microsoft.com/library/ee634204.aspx) 逻辑函数对其进行测试。
 
 ### <a name="table-data-type"></a>表数据类型
 DAX 在许多函数中使用表数据类型，例如聚合和时间智能计算。 某些函数需要引用表；其他函数返回随后可用于输入到其他函数的表。 在某些需要表作为输入的函数中，你可以指定计算结果为表格的表达式；对于一些函数，则需要引用基础表。 有关特定函数的要求的详细信息，请参阅 [DAX 函数引用](https://msdn.microsoft.com/library/ee634396.aspx)。

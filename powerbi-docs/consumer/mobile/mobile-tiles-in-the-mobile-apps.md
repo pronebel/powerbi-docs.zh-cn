@@ -2,19 +2,18 @@
 title: 在 Power BI 移动应用中浏览磁贴
 description: 磁贴是数据的实时快照，固定到仪表板中。 了解如何在 Power BI 移动应用中与磁贴进行交互。
 author: mshenhav
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 06/28/2018
 ms.author: mshenhav
-ms.openlocfilehash: 87c223c8ef0be0eac81bb672bde10023dcf79d71
-ms.sourcegitcommit: d441d350504f8c6d9e100d229757add6237f0bef
+ms.openlocfilehash: 570276b8af2862d6aab6dc806cb0c627be8ff157
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/30/2019
-ms.locfileid: "73059780"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73870038"
 ---
 # <a name="explore-tiles-in-the-power-bi-mobile-apps"></a>在 Power BI 移动应用中浏览磁贴
 适用于：
@@ -123,5 +122,5 @@ ms.locfileid: "73059780"
 
 ## <a name="next-steps"></a>后续步骤
 * [什么是 Power BI？](../../fundamentals/power-bi-overview.md)
-* 是否有任何问题? [尝试咨询 Power BI 社区](http://community.powerbi.com/)
+* 是否有任何问题? [尝试咨询 Power BI 社区](https://community.powerbi.com/)
 

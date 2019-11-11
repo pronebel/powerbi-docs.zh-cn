@@ -2,7 +2,6 @@
 title: 有关获取 Power BI 问题解答的 10 个提示
 description: 以下 10 种方法可以在你对 Power BI 的工作原理有疑问时提供帮助
 author: maggiesMSFT
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 06/28/2018
 ms.author: maggies
 LocalizationGroup: Get started
-ms.openlocfilehash: 668df24e8e4df2257a78a5f7a843abc65df3ef8f
-ms.sourcegitcommit: d441d350504f8c6d9e100d229757add6237f0bef
+ms.openlocfilehash: ee272f32dbce4630f8b834187e05fda5739df7be
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/30/2019
-ms.locfileid: "73060299"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73876949"
 ---
 # <a name="10-tips-for-getting-help-with-your-power-bi-questions"></a>有关获取 Power BI 问题解答的 10 个提示
 使用 Power BI 时，是否会因遇到的 Power BI 问题得不到及时解答（即“实时”帮助）感到灰心失望或很费劲？ 
@@ -55,7 +54,7 @@ Power BI 团队在其 [Power BI 博客文章](https://powerbi.microsoft.com/blog
 * 查找“**从仪表板开始一天**”面对面培训会议。
 
 ## <a name="7-ask-or-search-in-the-power-bi-community"></a>提示 7：在 Power BI 社区中提问或搜索
-在 [Power BI 社区](http://community.powerbi.com)中提问并查找答案。 世界各地的 BI 专家都积极参与此社区。 请务必使用此资源从他们的知识中受益。
+在 [Power BI 社区](https://community.powerbi.com)中提问并查找答案。 世界各地的 BI 专家都积极参与此社区。 请务必使用此资源从他们的知识中受益。
 
 ## <a name="8-join-or-create-a-power-bi-user-group"></a>提示 8：加入或创建 Power BI 用户组
 加入 [Power BI 用户组](https://community.powerbi.com/t5/Power-BI-User-Groups/ct-p/Groups)并让你的组来帮助回答你的问题。 也可以创建自己的用户组，搭建一个供大家互相帮助的社区，但主要还是为了满足你的需求，即在你所在的区域和时区以你的数据为依据。
@@ -70,5 +69,5 @@ Power BI 团队在其 [Power BI 博客文章](https://powerbi.microsoft.com/blog
 
 ## <a name="next-steps"></a>后续步骤
 * [什么是 Power BI？](fundamentals/power-bi-overview.md)
-* 尝试在 [Power BI 社区](http://community.powerbi.com/)中获取信息
+* 尝试在 [Power BI 社区](https://community.powerbi.com/)中获取信息
 * 仍有问题？ 请访问 [Power BI 支持页](https://powerbi.microsoft.com/support/)

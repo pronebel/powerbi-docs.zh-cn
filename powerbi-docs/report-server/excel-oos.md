@@ -3,18 +3,17 @@ title: 使用 Office Online Server (OOS) 托管 Excel 工作簿 - Power BI 报�
 description: 除了在 Web 门户中查看 Power BI 报表之外，Power BI 报表服务器也可以使用 Office Online Server (OOS) 来托管 Excel 工作簿。
 author: maggiesMSFT
 ms.author: maggies
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 08/21/2018
-ms.openlocfilehash: 5585750fcd5e6237f3cb00591cf5841f91393b84
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: 907e65635424b709ec2c0850e4d0d759f4ba6dd3
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "64769586"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73874084"
 ---
 # <a name="configure-your-report-server-to-host-excel-workbooks-using-office-online-server-oos"></a>使用 Office Online Server (OOS) 将报表服务器配置为托管 Excel 工作簿
 
@@ -54,7 +53,7 @@ ms.locfileid: "64769586"
 
 如果你打算使用任何利用外部数据访问（例如 Power Pivot）的 Excel Online 功能，请注意，Office Online Server 必须与其用户以及你打算使用基于 Windows 的身份验证访问的任何外部数据源位于同一个 Active Directory 林中。
 
-1. 从[批量许可服务中心 (VLSC)](http://go.microsoft.com/fwlink/p/?LinkId=256561) 下载 Office Online Server。 下载位置在 VLSC 门户上的 Office 产品下方。 出于开发目的，可以从 MSDN 订阅者下载页面下载 OOS。
+1. 从[批量许可服务中心 (VLSC)](https://go.microsoft.com/fwlink/p/?LinkId=256561) 下载 Office Online Server。 下载位置在 VLSC 门户上的 Office 产品下方。 出于开发目的，可以从 MSDN 订阅者下载页面下载 OOS。
 2. 运行 Setup.exe。
 3. 在“阅读 Microsoft 软件许可条款”  页上，选择“我接受此协议的条款”  ，然后选择“继续”  。
 4. 在“选择文件位置”  页上，选择想要安装 Office Online Server 文件的文件夹（例如，C:\Program Files\Microsoft Office Web Apps\*），然后选择“立即安装”  。 如果你指定的文件夹不存在，安装程序将为你创建一个。
@@ -69,7 +68,7 @@ Office Online Server 语言包可让用户以多种语言查看基于 Web 的 Of
 
 若要安装语言包，请按照下列步骤操作。
 
-1. 从 [Microsoft 下载中心](http://go.microsoft.com/fwlink/p/?LinkId=798136)下载 Office Online Server 语言包。
+1. 从 [Microsoft 下载中心](https://go.microsoft.com/fwlink/p/?LinkId=798136)下载 Office Online Server 语言包。
 2. 运行 wacserverlanguagepack.exe  。
 3. 在 Office Online Server 语言包向导中的“阅读 Microsoft 软件许可条款”  页上，选择“我接受此协议的条款”  ，然后选择“继续”  。
 4. 当安装程序完成 Office Online Server 安装时，选择“关闭”  。
@@ -86,7 +85,7 @@ New-OfficeWebAppsFarm -InternalUrl "https://server.contoso.com" -ExternalUrl "ht
 
 **参数**
 
-*  –InternalURL 是运行 Office Online Server 的服务器的完全限定的域名 (FQDN)，如 `http://servername.contoso.com`。
+*  –InternalURL 是运行 Office Online Server 的服务器的完全限定的域名 (FQDN)，如 `https://servername.contoso.com`。
 *  –ExternalURL 是在 Internet 上可访问的 FQDN。
 *  –CertificateName 是证书的友好名称。
 
@@ -95,12 +94,12 @@ New-OfficeWebAppsFarm -InternalUrl "https://server.contoso.com" -ExternalUrl "ht
 使用 New-OfficeWebAppsFarm 命令创建包含单个服务器的新 Office Online Server 场，如以下示例所示。
 
 ```powershell
-New-OfficeWebAppsFarm -InternalURL "http://servername" -AllowHttp
+New-OfficeWebAppsFarm -InternalURL "https://servername" -AllowHttp
 ```
 
 **参数**
 
-*  –InternalURL 是运行 Office Online Server 的服务器的名称，如 `http://servername`。
+*  –InternalURL 是运行 Office Online Server 的服务器的名称，如 `https://servername`。
 *  –AllowHttp 将场配置为使用 HTTP。
 
 ### <a name="verify-that-the-office-online-server-farm-was-created-successfully"></a>验证 Office Online Server 场是否已成功创建
@@ -168,7 +167,7 @@ Set-OfficeWebAppsFarm -ExcelAllowExternalData:$true
 
 ## <a name="configure-power-bi-report-server-to-use-the-oos-server"></a>将 Power BI 报表服务器配置为使用 OOS 服务器
 
-在“站点设置”的“常规”  页  上，输入 OOS 发现 URL。 OOS 发现 URL 是 InternalUrl  ，在部署 OOS 服务器时使用，后跟 /hosting/discovery  。 例如，`http://servername/hosting/discovery`（用于 HTTP）。 而 `https://server.contoso.com/hosting/discovery`（用于 HTTPS）。
+在“站点设置”的“常规”  页  上，输入 OOS 发现 URL。 OOS 发现 URL 是 InternalUrl  ，在部署 OOS 服务器时使用，后跟 /hosting/discovery  。 例如，`https://servername/hosting/discovery`（用于 HTTP）。 而 `https://server.contoso.com/hosting/discovery`（用于 HTTPS）。
 
 若要转到“站点设置”  ，请选择右上角的齿轮图标，然后选择“站点设置”   。
 
@@ -187,6 +186,6 @@ Set-OfficeWebAppsFarm -ExcelAllowExternalData:$true
 [管理员概述](admin-handbook-overview.md)  
 [安装 Power BI 报表服务器](install-report-server.md)  
 [下载报表生成器](https://www.microsoft.com/download/details.aspx?id=53613)  
-[下载 SQL Server Data Tools (SSDT)](http://go.microsoft.com/fwlink/?LinkID=616714)
+[下载 SQL Server Data Tools (SSDT)](https://go.microsoft.com/fwlink/?LinkID=616714)
 
 更多问题？ [尝试咨询 Power BI 社区](https://community.powerbi.com/)
