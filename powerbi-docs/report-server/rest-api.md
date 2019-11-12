@@ -3,18 +3,17 @@ title: 使用适用于 Power BI 报表服务器的 REST API 进行开发
 description: REST API 提供以编程方式访问 Power BI 报表服务器目录中对象的选项。
 author: maggiesMSFT
 ms.author: maggies
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 05/25/2018
-ms.openlocfilehash: 8f35b7a3c19751b4537a49fa8cb30f4347f080ed
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: 9b8e795c4a55f9efd6fd534d92d95b36c93cf2c0
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "64770762"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73874077"
 ---
 # <a name="develop-with-the-rest-apis-for-power-bi-report-server"></a>使用适用于 Power BI 报表服务器的 REST API 进行开发
 
@@ -41,7 +40,7 @@ REST API 请求/响应对可以分为五个组件：
 * 可选 HTTP“请求消息正文”  字段，用于支持 URI 和 HTTP 操作。 例如，POST 操作包含作为复杂的参数传递的 MIME 编码对象。 对于 POST 或 PUT 操作，正文的 MIME 编码类型也应在 `Content-type` 请求标头中指定。 某些服务要求你使用特定的 MIME 类型，如 `application/json`。
 * HTTP“响应消息标头”  字段：
   
-  * [HTTP 状态代码](http://www.w3.org/Protocols/HTTP/HTRESP.html)涉及的范围从 2xx 成功代码到 4xx 或 5xx 错误代码。 或者，可能会返回服务定义的状态代码，如 API 文档中所指示。
+  * [HTTP 状态代码](https://www.w3.org/Protocols/HTTP/HTRESP.html)涉及的范围从 2xx 成功代码到 4xx 或 5xx 错误代码。 或者，可能会返回服务定义的状态代码，如 API 文档中所指示。
   * 可选的其他标头字段，根据需要支持请求的响应，例如 `Content-type` 响应标头。
 * 可选 HTTP**响应消息正文**字段：
   
@@ -53,7 +52,7 @@ REST API 请求/响应对可以分为五个组件：
 
 ## <a name="testing-api-calls"></a>测试 API 调用
 
-用于测试 HTTP 请求/响应消息的一种工具是 [Fiddler](http://www.telerik.com/fiddler)。 Fiddler 是一个免费的 Web 调试代理，可以截获 REST 请求，从而便于诊断 HTTP 请求/响应消息。
+用于测试 HTTP 请求/响应消息的一种工具是 [Fiddler](https://www.telerik.com/fiddler)。 Fiddler 是一个免费的 Web 调试代理，可以截获 REST 请求，从而便于诊断 HTTP 请求/响应消息。
 
 ## <a name="next-steps"></a>后续步骤
 

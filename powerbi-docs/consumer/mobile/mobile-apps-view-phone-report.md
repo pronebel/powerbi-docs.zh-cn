@@ -2,19 +2,18 @@
 title: 查看针对你的手机进行优化的 Power BI 报表
 description: 阅读有关与经过优化，以便在 Power BI 手机应用中查看的报表页交互的信息。
 author: mshenhav
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 04/22/2019
 ms.author: mshenhav
-ms.openlocfilehash: 79ca47f83bb39ab9d6df141b5a26dcb54e00c72c
-ms.sourcegitcommit: 52aa112ac9194f4bb62b0910c4a1be80e1bf1276
+ms.openlocfilehash: f8dba41a15390e4b52227c7daaa603daf7c08939
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "65101011"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73870517"
 ---
 # <a name="view-power-bi-reports-optimized-for-your-phone"></a>查看针对你的手机进行优化的 Power BI 报表
 
@@ -134,5 +133,5 @@ Power BI 报表的所有其他功能对更适合在手机上查看的报表仍�
 * [创建针对 Power BI 手机应用的优化报表](../../desktop-create-phone-report.md)
 * [在 Power BI 中创建仪表板电话视图](../../service-create-dashboard-mobile-phone-view.md)
 * [创建优化为适应任意大小的响应式视觉对象](../../visuals/desktop-create-responsive-visuals.md)
-* 更多问题？ [尝试咨询 Power BI 社区](http://community.powerbi.com/)
+* 更多问题？ [尝试咨询 Power BI 社区](https://community.powerbi.com/)
 
