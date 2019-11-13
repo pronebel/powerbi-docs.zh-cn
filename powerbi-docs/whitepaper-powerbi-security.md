@@ -9,12 +9,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 10/24/2019
 LocalizationGroup: Conceptual
-ms.openlocfilehash: 075d4ea0c243f77ebf0d29020f25bbca6567c6c0
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: fa9c07be31f5110f44c2f200bbde249c95abe9ed
+ms.sourcegitcommit: 0d7ad791a2d2bef45d5d60e38e0af4c9fc22187b
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73870782"
+ms.lasthandoff: 11/13/2019
+ms.locfileid: "74009835"
 ---
 # <a name="power-bi-security-whitepaper"></a>Power BI 安全性白皮书
 
@@ -334,12 +334,6 @@ Power BI 通过以下方式提供数据完整性监视：
 
 如果 Ralph 要访问共享仪表板或报表，则会根据其角色级别产生相同的序列。
 
-## <a name="power-bi-and-expressroute"></a>Power BI 和 ExpressRoute
-
-借助 Power BI 和 ExpressRoute，可以创建从组织到 Power BI 的专用网络连接（或使用 ISP 的主机托管设施），从而绕过 Internet 以更好地保护敏感 Power BI 数据和连接。
-
-ExpressRoute 是一种 Azure 服务，使你可以在 Azure 数据中心（Power BI 所在的位置）与本地基础结构之间创建专用连接，或是在 Azure 数据中心与主机托管环境之间创建专用连接。 有关详细信息，请参阅 [Power BI 和 ExpressRoute](service-admin-power-bi-expressroute.md)一文。
-
 ## <a name="power-bi-mobile"></a>Power BI 移动版
 
 Power BI 移动版是为三个主要移动平台设计的应用的集合： Android、iOS 和 Windows Mobile。 Power BI 移动版应用的安全注意事项分为两类：
@@ -450,7 +444,7 @@ Power BI 移动版可用的所有三个平台都支持 Microsoft Intune，这是
 
 **是否有在客户网络外发送信息的其他 Power BI 视觉对象？**
 
-* 是。 必应地图和 ESRI 视觉对象为使用这些服务的视觉对象在 Power BI 服务外部传输数据。 有关 out-of-Power-BI 租户流量的详细信息和详细说明，请参阅 [Power BI 和 ExpressRoute](service-admin-power-bi-expressroute.md)。
+* 是。 必应地图和 ESRI 视觉对象为使用这些服务的视觉对象在 Power BI 服务外部传输数据。
 
 **对于模板应用，Microsoft 是否在将项目发布到库之前对模板应用执行任何安全或隐私评估？**
 * 版本号 应用发布者负责查看内容，同时客户需要查看并确定是否信任模板应用发行者。 
@@ -487,7 +481,6 @@ Power BI 中的数据存储和数据处理根据是否使用 DirectQuery 访问�
 - [Power BI REST API - 概述](https://msdn.microsoft.com/library/dn877544.aspx)
 - [Power BI API 引用](https://msdn.microsoft.com/library/mt147898.aspx)
 - [On-premises data gateway (本地数据网关)](service-gateway-onprem.md)
-- [Power BI 和 ExpressRoute](service-admin-power-bi-expressroute.md)
 - [Power BI 国家云](https://powerbi.microsoft.com/clouds/)
 - [Power BI Premium](https://aka.ms/pbipremiumwhitepaper)
 - [将 Kerberos 用于从 Power BI 到本地数据源的 SSO](service-gateway-sso-overview.md)
