@@ -45,8 +45,10 @@
               href: office-store.md
             - name: 在 Power BI 中使用 R 驱动的自定义视觉对象
               href: ../desktop-r-powered-custom-visuals.md
-            - name: 视觉对象交互
+            - name: 允许视觉对象交互
               href: visuals/visuals-interactions.md
+            - name: 添加选择
+              href: visuals/selection-api.md
             - name: 添加视觉对象工具提示
               href: visuals/add-tooltips.md
             - name: 添加分析窗格
@@ -57,6 +59,8 @@
               href: visuals/fetch-more-data.md
             - name: 添加书签支持
               href: visuals/bookmarks-support.md
+            - name: 添加上下文菜单支持
+              href: visuals/context-menu.md
             - name: 在视觉对象中突出显示数据
               href: visuals/highlight.md
             - name: 添加高对比度模式支持
@@ -65,6 +69,8 @@
               href: visuals/enable-sync-slicers.md
             - name: Power BI 视觉对象疑难解答
               href: ../power-bi-custom-visuals-troubleshoot.md
+            - name: 迁移到新的 Power BI 视觉对象工具
+              href: visuals/migrate-to-new-tools.md
         - name: 参考
           items:
             - name: 登陆页面
@@ -77,6 +83,8 @@
               href: visuals/event-service.md
             - name: 排序
               href: visuals/sort-options.md
+            - name: 交互 utils
+              href: visuals/utils-interactivity-selections.md
         - name: 资源
           items:
             - name: 开发中心
@@ -168,7 +176,7 @@
                   href: 'https://docs.microsoft.com/rest/api/power-bi-embedded/'
                 - name: Power BI REST API
                   href: 'https://msdn.microsoft.com/library/mt147898.aspx'
-                - name: Power BI REST API 引用
+                - name: Power BI REST API 参考
                   href: rest-api-reference.md
             - name: .NET SDK 下载
               href: 'https://go.microsoft.com/fwlink/?linkid=848274'
@@ -211,7 +219,7 @@
               href: walkthrough-push-data-create-dataset.md
             - name: 获取数据集以添加行
               href: walkthrough-push-data-get-datasets.md
-            - name: 向表中添加行
+            - name: 将行添加到表格
               href: walkthrough-push-data-add-rows.md
         - name: 概念
           items:
@@ -235,9 +243,9 @@
           items:
             - name: REST API
               href: 'https://docs.microsoft.com/rest/api/power-bi'
-            - name: Power BI REST API 引用
+            - name: Power BI REST API 参考
               href: rest-api-reference.md
-            - name: 完整代码清单
+            - name: 完成代码列表
               href: walkthrough-push-data-complete-code.md
         - name: 资源
           items:
