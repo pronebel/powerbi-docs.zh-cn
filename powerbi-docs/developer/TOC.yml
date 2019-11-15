@@ -12,7 +12,7 @@
         - name: 概述
           items:
             - name: Power BI 中的视觉对象
-              href: ../power-bi-custom-visuals.md
+              href: power-bi-custom-visuals.md
         - name: 教程
           items:
             - name: 开发 Power BI 视觉对象
@@ -24,11 +24,11 @@
         - name: 概念
           items:
             - name: Power BI 中适用于组织的视觉对象
-              href: ../power-bi-custom-visuals-organization.md
+              href: power-bi-custom-visuals-organization.md
             - name: Power BI 视觉对象指南
               href: guidelines-powerbi-visuals.md
             - name: 视觉对象常见问题解答
-              href: ../power-bi-custom-visuals-faq.md
+              href: power-bi-custom-visuals-faq.md
             - name: 使用功能
               href: visuals/capabilities.md
             - name: 数据视图映射
@@ -40,12 +40,12 @@
         - name: 操作方法
           items:
             - name: 认证视觉对象
-              href: ../power-bi-custom-visuals-certified.md
+              href: power-bi-custom-visuals-certified.md
             - name: 将自定义视觉对象发布到 AppSource
               href: office-store.md
             - name: 在 Power BI 中使用 R 驱动的自定义视觉对象
-              href: ../desktop-r-powered-custom-visuals.md
-            - name: 允许视觉对象交互
+              href: ../desktop-r-powered-custom-visuals.md?toc=/powerbi-docs/developer/toc.json&bc=/powerbi-docs/developer/breadcrumb/toc.json
+            - name: 视觉对象交互
               href: visuals/visuals-interactions.md
             - name: 添加选择
               href: visuals/selection-api.md
@@ -68,9 +68,7 @@
             - name: 启用同步切片器
               href: visuals/enable-sync-slicers.md
             - name: Power BI 视觉对象疑难解答
-              href: ../power-bi-custom-visuals-troubleshoot.md
-            - name: 迁移到新的 Power BI 视觉对象工具
-              href: visuals/migrate-to-new-tools.md
+              href: power-bi-custom-visuals-troubleshoot.md
         - name: 参考
           items:
             - name: 登陆页面
@@ -176,7 +174,7 @@
                   href: 'https://docs.microsoft.com/rest/api/power-bi-embedded/'
                 - name: Power BI REST API
                   href: 'https://msdn.microsoft.com/library/mt147898.aspx'
-                - name: Power BI REST API 参考
+                - name: Power BI REST API 引用
                   href: rest-api-reference.md
             - name: .NET SDK 下载
               href: 'https://go.microsoft.com/fwlink/?linkid=848274'
@@ -219,7 +217,7 @@
               href: walkthrough-push-data-create-dataset.md
             - name: 获取数据集以添加行
               href: walkthrough-push-data-get-datasets.md
-            - name: 将行添加到表格
+            - name: 向表中添加行
               href: walkthrough-push-data-add-rows.md
         - name: 概念
           items:
@@ -243,9 +241,9 @@
           items:
             - name: REST API
               href: 'https://docs.microsoft.com/rest/api/power-bi'
-            - name: Power BI REST API 参考
+            - name: Power BI REST API 引用
               href: rest-api-reference.md
-            - name: 完成代码列表
+            - name: 完整代码清单
               href: walkthrough-push-data-complete-code.md
         - name: 资源
           items:
