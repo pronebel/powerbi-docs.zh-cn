@@ -2,7 +2,6 @@
 title: 在 Power BI 中创建报表的相关提示和技巧
 description: 了解在 Power BI 服务和 Power BI Desktop 中生成报表的最佳做法
 author: davidiseminger
-manager: kfile
 ms.reviewer: willthom
 ms.custom: seodec18
 ms.service: powerbi
@@ -10,12 +9,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 05/08/2019
 ms.author: davidi
-ms.openlocfilehash: 41e5ff75e9b6fd48e3101d30999e8d570f34a270
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: a6d949f95f463cb988958551d825a4eae824fb70
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "65514001"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73865822"
 ---
 # <a name="tips-and-tricks-for-creating-reports-in-power-bi-desktop"></a>在 Power BI Desktop 创建报表的相关提示和技巧
 若要充分利用你的数据，有时你还需要一点帮助。 我们整理了一些提示和技巧，以便你在 Microsoft Power BI Desktop *及*启用了 Power Pivot 加载项且安装和启用了 Power Query 的 Microsoft Excel 2016 或 Excel 2013 Pro-Plus 版本中创建报表时可加以使用。 
@@ -28,19 +27,19 @@ Power BI Desktop 中的查询编辑器与 Excel 2013 中的 Power Query 加载�
 还可查看 [Formula Reference](https://support.office.com/Article/Learn-about-Power-Query-formulas-6bc50988-022b-4799-a709-f8aafdee2b2f)（公式引用）。
 
 ## <a name="data-types-in-query-editor"></a>查询编辑器中的数据类型
-在 Power BI Desktop 中使用查询编辑器加载数据时，可以最佳估计的形式监测数据类型。 使用公式时，有时不会保留列上的数据类型设置。 请确保执行以下操作后的列的数据类型正确：将数据初次加载到查询选项卡、第一行用作标题、添加列、按条件分组、合并、追加，以及按住前首次加载数据。
+在 Power BI Desktop 中使用查询编辑器加载数据时，可以最佳估计的形式监测数据类型。 使用公式时，有时不会保留列上的数据类型设置。 在执行下述操作后，确保列的数据类型正确：将数据初次加载到查询选项卡、第一行用作标题、添加列、按条件分组、合并、追加，以及按住前首次加载数据。
 
 要记住一个关键点是：数据网格中的斜体不表示数据类型设置正确，它仅表示数据不被视为“文本”。
 
 ## <a name="reference-queries-in-the-query-editor"></a>引用查询编辑器中的查询
-在 Power BI Desktop 中的查询编辑器的导航器中的一个查询中，右键单击"引用"选项才可用。 由于下述原因，此选项非常有用：
+在 Power BI Desktop 的查询编辑器浏览器中，右键单击某个查询时，会显示“引用”选项。 由于下述原因，此选项非常有用：
 
 * 将文件用作查询的数据源时，指向文件的绝对路径存储在查询中。 在分享或移动 Power BI Desktop 文件或 Excel workbook 时，可通过仅更新一次来更新路径，从而节省时间。
 
-默认情况下，所有查询均加载到 Excel 工作表和/或数据模型。 某些查询是中间步骤，为最终用户不能。 按上述所提方式引用查询时，通常是这种情况。 您可以控制查询加载行为，通过右键单击导航器中的查询并切换"启用加载"选项。 当*启用加载*不具有一个复选标记旁边，查询是在查询选项卡中仍然可用，可以将其用于其他查询。 在与“合并”、“追加”和“引用”转换配合使用时，此功能尤其有用。 但由于查询结果未加载到数据模型，此查询将不会打乱报表字段列表或数据模型。 
+默认情况下，所有查询均加载到 Excel 工作表和/或数据模型。 某些查询是中间步骤，不用于最终用户。 按上述所提方式引用查询时，通常是这种情况。 可右键单击浏览器中的查询并切换“启用加载”选项，从而控制查询加载行为。 如果“启用加载”旁边没有勾号，则查询仍可用于查询选项卡且可与其他查询一同使用  。 在与“合并”、“追加”和“引用”转换配合使用时，此功能尤其有用。 但由于查询结果未加载到数据模型，此查询将不会打乱报表字段列表或数据模型。 
 
 ## <a name="scatter-charts-need-a-point-identifier"></a>散点图需要点标识符
-举个例子，一个简单的表上记录了天气和进行读取的时间。 如果将其直接绘制在散点图上，Power BI 会将所有值都聚合为一个点。 若要显示单个数据点，必须添加一个字段到字段中的详细信息存储桶良好。 在 Power BI Desktop 中执行此操作的一种简单方法是在“查询”选项卡上，使用“添加列”功能区中的“添加索引列”选项。 
+举个例子，一个简单的表上记录了天气和进行读取的时间。 如果将其直接绘制在散点图上，Power BI 会将所有值都聚合为一个点。 若要显示单独的数据点，必须在字段框的“详细信息”Bucket 中添加一个字段。 在 Power BI Desktop 中执行此操作的一种简单方法是在“查询”选项卡上，使用“添加列”功能区中的“添加索引列”选项。 
 
 ## <a name="reference-lines-in-your-report"></a>报表中的参考线
 可使用 Power BI Desktop 中的计算列来定义参考线。 确定你要在其上创建参考线的表格和列。 在功能区中选择“新建列”，然后在公式栏中键入以下公式：
@@ -50,7 +49,7 @@ Power BI Desktop 中的查询编辑器与 Excel 2013 中的 Power Query 加载�
 无论在何处使用，此计算列都将返回值 100。 新列将在字段列表中显示。 将“目标值”计算列添加到折线图，以显示任意时序如何与此特定参考线相关联。 
 
 ## <a name="sort-by-another-column"></a>按其他列排序
-在 Power BI 中将类别（字符串）值用于图表轴或在切片器/筛选器中使用时，默认顺序是按字母顺序。 如果需要重写此顺序，例如等活动中的每周或几个月，然后您可以指示 Power BI Desktop 按其他列进行排序。 若要了解详细信息，请参阅[在 Power BI Desktop 中按列排序](desktop-sort-by-column.md)。
+在 Power BI 中将类别（字符串）值用于图表轴或在切片器/筛选器中使用时，默认顺序是按字母顺序。 如果需要替代此顺序（例如针对每周天数或每月天数等项目），则可指示 Power BI Desktop 按其他列进行排序。 若要了解详细信息，请参阅[在 Power BI Desktop 中按列排序](desktop-sort-by-column.md)。
 
 ## <a name="building-maps-more-easily-with-hints-to-bing"></a>利用到必应的提示，更轻松地绘制地图
 Power BI 与必应相集成，提供默认地图坐标（一个称为地理编码的过程），从而可更轻松地创建地图。 必应使用一些算法和提示来尝试获得正确位置，但这只是最佳估计。 若要增加地理编码正确的可能性，可使用以下提示：
@@ -62,7 +61,7 @@ Power BI 与必应相集成，提供默认地图坐标（一个称为地理编�
 在 Power BI 服务或 Power BI Desktop 中，可始终提供具体的维度和经度位置。 执行此操作时，还需要传递一个“位置”字段，否则会默认聚合数据，导致经度和维度位置可能不与所期望的内容相匹配。
 
 ## <a name="categorizing-geographic-fields-to-hint-bings-geocoding"></a>对地理字段进行分类以提示必应的地理编码
-确保字段进行了正确的地理编码的另一种方法是，通过设置数据字段上的“数据类别”。 在 Power BI Desktop 中，选择所需的表，转到高级的功能区，然后将数据类别设置为地址、 城市、 大洲、 国家/地区、 国家/地区、 邮政编码、 状态或省。 这些数据分类有助于必应对数据进行正确编码。 若要了解详细信息，请参阅 [Power BI Desktop 中的数据分类](desktop-data-categorization.md)。
+确保字段进行了正确的地理编码的另一种方法是，通过设置数据字段上的“数据类别”。 在 Power BI Desktop 中，选择所需的表，转至“高级”功能区，然后将“数据类别”设置为“地址”、“市/县”、“洲”、“国家/地区”、“乡镇”、“邮政编码”、“州”或“省/自治区/直辖市”。 这些数据分类有助于必应对数据进行正确编码。 若要了解详细信息，请参阅 [Power BI Desktop 中的数据分类](desktop-data-categorization.md)。
 
 ## <a name="better-geocoding-with-more-specific-locations"></a>借助更具体的位置，改善地理编码
 有时（甚至于）设置可用于绘制地图的数据类别还不够。 可使用 Power BI Desktop 中的查询编辑器生成街道地址等更具体的位置。 使用“添加列”功能来构建自定义列。 再构建所需位置，如下所示： 
@@ -86,7 +85,7 @@ Power BI 与必应相集成，提供默认地图坐标（一个称为地理编�
 
 确保数据类型是所得聚合列的编号。 接下来，可使用“最简单的直方图”中所述的技巧来使用组生成直方图。 此选项可处理更多数据点，但仍不支持“笔刷绘制”功能。
 
-定义支持笔刷绘制就-笔刷绘制就是当视觉对象链接在一起，以便当用户来选择一个视觉对象中的数据点的直方图，报表页上的其他视觉对象将突出显示或筛选与所选的数据点相关的数据点。 因为我们将在查询时操作数据，因此需要创建表格之间的关系，并确保了解与直方图中的存储桶相关的详细信息项，反之亦然。
+定义支持笔刷绘制的直方图。笔刷绘制用于视觉对象链接在一起的情况，以便在用户选择一个视觉对象中的数据点时，报表页上的其他视觉对象可突出显示或筛选与所选数据点相关的数据点。 因为我们将在查询时操作数据，因此需要创建表格之间的关系，并确保了解与直方图中的存储桶相关的详细信息项，反之亦然。
 
 首先要在查询上使用“引用”选项，其中此查询具有想在其上构建直方图的字段。 将新查询命名为“存储桶”。 对于本例，我们将原始查询称为“详细信息”。 接下来，删除所有列（将用作直方图存储桶的列除外）。 现在，使用查询中的“删除重复项”功能；选择此列后，它将位于右键单击菜单上，从而使剩下的值均为列中的唯一值。 如果有十进制数字，可先使用有关定义存储桶的提示来生成直方图，从而获得一组易于管理的存储桶。 现在，检查查询预览中显示的数据。 如果看到空白值或 Null，则需要在创建关系之前对它们进行修复。 请参阅“在数据具有 Null 值或空白值时创建关系”。 由于排序需要，使用此方法可能会产生问题。 若要获取存储桶以进行正确排序，请参阅“排列顺序：按所需顺序显示分类”。 
 
@@ -161,4 +160,4 @@ DAX 是 Power BI Desktop 中的计算公式语言。 它针对 BI 分析进行�
 
 [数据分析表达式 (DAX) 引用](https://msdn.microsoft.com/library/gg413422.aspx)
 
-[DAX 资源中心](http://social.technet.microsoft.com/wiki/contents/articles/1088.dax-resource-center.aspx)
+[DAX 资源中心](https://social.technet.microsoft.com/wiki/contents/articles/1088.dax-resource-center.aspx)

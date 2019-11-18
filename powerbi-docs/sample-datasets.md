@@ -2,7 +2,6 @@
 title: 浏览可供 Power BI 使用的示例
 description: Power BI 的示例内容包、PBIX 文件和 Excel 数据集
 author: maggiesMSFT
-manager: kfile
 ms.reviewer: amac
 ms.custom: seodec18
 ms.service: powerbi
@@ -11,12 +10,12 @@ ms.topic: conceptual
 ms.date: 04/05/2019
 ms.author: maggies
 LocalizationGroup: Samples
-ms.openlocfilehash: 49c16e083b2119e94f23a78b10ea014efcd70c3c
-ms.sourcegitcommit: 762857c8ca09ce222cc3f8b006fa1b65d11e4ace
+ms.openlocfilehash: d5fcc6866d564367d2a29dc00493a959409ea2ed
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/05/2019
-ms.locfileid: "66721482"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73858992"
 ---
 # <a name="what-sample-data-is-available-to-use-with-power-bi"></a>有哪些示例数据可用于 Power BI？
 假设你初次接触 Power BI，想要试用但没有任何数据。  或者你有一个数据集。 由于你（尚）不了解 Power BI 的工作原理，担心由于某种原因可能损坏数据集？
@@ -63,7 +62,7 @@ ObviEnce 是侧重于 Microsoft Business Intelligence 的 ISV 和知识产权 (I
 
 在本行业示例中，我们分析比较了公司 IT 部门的计划成本与实际成本。 这种比较可以帮助我们了解公司年度计划的效果如何并调查与计划有巨大偏差的区域。 在此示例中，公司将经历年度计划周期，然后分季度生成新的最新估计 (LE)，以帮助分析过去财年中 IT 支出的变化。
 
-### <a name="opportunity-analysis-sample--opportunity-analysis-samplemediasample-datasetspower-bi-oapng"></a>机会分析示例  ![机会分析示例](media/sample-datasets/power-bi-oa.png)
+### <a name="opportunity-analysis-sample--opportunity-analysis-samplemediasample-datasetspower-bi-oapng"></a>商机分析示例  ![商机分析示例](media/sample-datasets/power-bi-oa.png)
 [浏览机会分析示例](sample-opportunity-analysis.md)
 
 此行业示例探索软件公司的销售渠道。 销售经理通过按地区、交易规模和渠道跟踪机会和收益来监视其直接和合作销售渠道。
@@ -116,16 +115,16 @@ ObviEnce 是侧重于 Microsoft Business Intelligence 的 ISV 和知识产权 (I
 ## <a name="the-power-bi-samples-as-excel-files"></a>Excel 文件 Power BI 示例
 每个示例内容包还可以作为 Excel 工作簿提供。 Excel 工作簿旨在与 Power BI 服务一起使用。  
 
-1. 使用下面的链接分别下载文件，或[下载所有示例文件的 zip 文件](http://go.microsoft.com/fwlink/?LinkId=535020)。 如果你是高级用户，可能想要下载 Excel 工作簿以浏览或编辑数据模型。
+1. 使用下面的链接分别下载文件，或[下载所有示例文件的 zip 文件](https://go.microsoft.com/fwlink/?LinkId=535020)。 如果你是高级用户，可能想要下载 Excel 工作簿以浏览或编辑数据模型。
 
-   * [零售分析示例](http://go.microsoft.com/fwlink/?LinkId=529778)
-   * [供应商质量分析示例](http://go.microsoft.com/fwlink/?LinkId=529779)
-   * [人力资源示例](http://go.microsoft.com/fwlink/?LinkId=529780)
-   * [客户盈利率示例](http://go.microsoft.com/fwlink/?LinkId=529781)
-   * [机会跟踪示例](http://go.microsoft.com/fwlink/?LinkId=529782)
-   * [IT 支出分析示例](http://go.microsoft.com/fwlink/?LinkId=529783)
-   * [采购分析示例](http://go.microsoft.com/fwlink/?LinkId=529784)
-   * [销售和市场营销示例](http://go.microsoft.com/fwlink/?LinkId=529785)
+   * [零售分析示例](https://go.microsoft.com/fwlink/?LinkId=529778)
+   * [供应商质量分析示例](https://go.microsoft.com/fwlink/?LinkId=529779)
+   * [人力资源示例](https://go.microsoft.com/fwlink/?LinkId=529780)
+   * [客户盈利率示例](https://go.microsoft.com/fwlink/?LinkId=529781)
+   * [机会跟踪示例](https://go.microsoft.com/fwlink/?LinkId=529782)
+   * [IT 支出分析示例](https://go.microsoft.com/fwlink/?LinkId=529783)
+   * [采购分析示例](https://go.microsoft.com/fwlink/?LinkId=529784)
+   * [销售和市场营销示例](https://go.microsoft.com/fwlink/?LinkId=529785)
 2. 保存下载的文件。 保存文件的位置不同会造成一定的差异。
 
    * ![本地](media/sample-datasets/power-bi-local-file2.png) **本地** - 如果将文件保存到计算机上的本地驱动器中或者组织中的其他位置，则在 Power BI 中，可以将文件导入到 Power BI。 你的文件实际上一直保存在本地驱动器中，因此整个文件并未导入到 Power BI。 实际上，将在 Power BI 网站中创建新的数据集，并且数据（某些情况下为数据模型）将加载到数据集中。 如果你的文件有任何报表，则这些报表会显示在你的 Power BI 网站中的“报表”下。
@@ -154,7 +153,7 @@ ObviEnce 是侧重于 Microsoft Business Intelligence 的 ISV 和知识产权 (I
 
     ![导入或连接](media/sample-datasets/power-bi-import.png)
 9. 如果选择“**导入**”，Power BI 会导入示例工作簿并将其添加为名为**采购分析示例**的新数据集。  如果工作簿具有任何 Power View 工作表、表或范围，或数据模型，Power BI 还会创建一个（具有相同的名称）的报表。 如果还没有打开仪表板，Power BI 将创建一个新的仪表板。 （如果在单击“**获取数据**”时打开了仪表板，则会在该仪表板上看到新的空白磁贴。  单击该磁贴将转到刚刚添加数据集的报表）。 新内容以该示例命名，并以黄色星号标记。
-10. 当**数据集准备就绪！** 屏幕出现时，选择“查看数据集”或“获取快速见解”，或使用 Power BI 左侧导航栏找到并打开关联的报表或仪表板   。  
+10. 当**数据集准备就绪！** 屏幕出现时，选择“查看数据集”或“获取快速见解”，或使用 Power BI 导航窗格找到并打开关联的报表或仪表板   。  
 
      ![查看数据集](media/sample-datasets/power-bi-ready.png)
 
@@ -176,15 +175,15 @@ ObviEnce 是侧重于 Microsoft Business Intelligence 的 ISV 和知识产权 (I
 
 1. 使用下面的链接单独下载各个文件。 选择下面的链接会将文件自动保存到 Downloads 文件夹。 
 
-   * [零售分析示例 PBIX](http://download.microsoft.com/download/9/6/D/96DDC2FF-2568-491D-AAFA-AFDD6F763AE3/Retail%20Analysis%20Sample%20PBIX.pbix)
-   * [供应商质量分析示例 PBIX](http://download.microsoft.com/download/8/C/6/8C661638-C102-4C04-992E-9EA56A5D319B/Supplier-Quality-Analysis-Sample-PBIX.pbix)
+   * [零售分析示例 PBIX](https://download.microsoft.com/download/9/6/D/96DDC2FF-2568-491D-AAFA-AFDD6F763AE3/Retail%20Analysis%20Sample%20PBIX.pbix)
+   * [供应商质量分析示例 PBIX](https://download.microsoft.com/download/8/C/6/8C661638-C102-4C04-992E-9EA56A5D319B/Supplier-Quality-Analysis-Sample-PBIX.pbix)
    <!-- Previous link doesn't work -->
-   * [人力资源示例 PBIX](http://download.microsoft.com/download/6/9/5/69503155-05A5-483E-829A-F7B5F3DD5D27/Human%20Resources%20Sample%20PBIX.pbix)
-   * [客户盈利率示例 PBIX](http://download.microsoft.com/download/6/A/9/6A93FD6E-CBA5-40BD-B42E-4DCAE8CDD059/Customer%20Profitability%20Sample%20PBIX.pbix)
-   * [机会跟踪示例 PBIX](http://download.microsoft.com/download/9/1/5/915ABCFA-7125-4D85-A7BD-05645BD95BD8/Opportunity%20Analysis%20Sample%20PBIX.pbix)
-   * [IT 支出分析示例 PBIX](http://download.microsoft.com/download/E/9/8/E98CEB6D-CEBB-41CF-BA2B-1A1D61B27D87/IT%20Spend%20Analysis%20Sample%20PBIX.pbix)
-   * [采购分析示例 PBIX](http://download.microsoft.com/download/D/5/3/D5390069-F723-413B-8D27-5888500516EB/Procurement%20Analysis%20Sample%20PBIX.pbix)
-   * [销售和市场营销示例 PBIX](http://download.microsoft.com/download/9/7/6/9767913A-29DB-40CF-8944-9AC2BC940C53/Sales%20and%20Marketing%20Sample%20PBIX.pbix)
+   * [人力资源示例 PBIX](https://download.microsoft.com/download/6/9/5/69503155-05A5-483E-829A-F7B5F3DD5D27/Human%20Resources%20Sample%20PBIX.pbix)
+   * [客户盈利率示例 PBIX](https://download.microsoft.com/download/6/A/9/6A93FD6E-CBA5-40BD-B42E-4DCAE8CDD059/Customer%20Profitability%20Sample%20PBIX.pbix)
+   * [机会跟踪示例 PBIX](https://download.microsoft.com/download/9/1/5/915ABCFA-7125-4D85-A7BD-05645BD95BD8/Opportunity%20Analysis%20Sample%20PBIX.pbix)
+   * [IT 支出分析示例 PBIX](https://download.microsoft.com/download/E/9/8/E98CEB6D-CEBB-41CF-BA2B-1A1D61B27D87/IT%20Spend%20Analysis%20Sample%20PBIX.pbix)
+   * [采购分析示例 PBIX](https://download.microsoft.com/download/D/5/3/D5390069-F723-413B-8D27-5888500516EB/Procurement%20Analysis%20Sample%20PBIX.pbix)
+   * [销售和市场营销示例 PBIX](https://download.microsoft.com/download/9/7/6/9767913A-29DB-40CF-8944-9AC2BC940C53/Sales%20and%20Marketing%20Sample%20PBIX.pbix)
 
 1. 在 Power BI Desktop 上，选择“文件 > 打开”  并导航到保存示例 .pbix 的位置。
 
@@ -198,4 +197,4 @@ ObviEnce 是侧重于 Microsoft Business Intelligence 的 ISV 和知识产权 (I
 
 [Power BI 数据源](service-get-data.md)
 
-更多问题？ [尝试参与 Power BI 社区](http://community.powerbi.com/)
+更多问题？ [尝试参与 Power BI 社区](https://community.powerbi.com/)

@@ -2,19 +2,18 @@
 title: 适用于 Windows 10 的 Power BI 移动应用入门
 description: 适用于 Windows 10 的 Power BI 移动应用支持在平板电脑或手机上对业务信息进行最新的、可触控移动式访问。
 author: mshenhav
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 08/09/2019
 ms.author: mshenhav
-ms.openlocfilehash: 3aff2b6a939a53a6246ed69ac5bd76dfe4f0dfe4
-ms.sourcegitcommit: d441d350504f8c6d9e100d229757add6237f0bef
+ms.openlocfilehash: b2bfe6157653459c2d7b60b85c9f7e8a3e465e23
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/30/2019
-ms.locfileid: "73059708"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73879051"
 ---
 # <a name="get-started-with-the-power-bi-mobile-app-for-windows-10"></a>适用于 Windows 10 的 Power BI 移动应用入门
 通过适用于 Windows 10 的 Power BI 移动应用，可以在平板电脑或手机上使用 Power BI。 可通过触控式移动设备访问最新业务信息。 在任何地方查看公司仪表板并与之进行交互 - 就在 [Windows 开始屏幕](mobile-pin-dashboard-start-screen-windows-10-phone-app.md)上查看。
@@ -26,16 +25,16 @@ ms.locfileid: "73059708"
 然后与仪表板和报表进行交互、浏览数据、并将其共享，所有这些操作都可以通过适用于 Windows 10 的 Power BI 移动应用完成。
 
 ## <a name="first-things-first"></a>要做的第一件事
-* 从 Windows 应用商店中[**获取适用于 Windows 10 的 Power BI 移动应用**](http://go.microsoft.com/fwlink/?LinkID=526478)
+* 从 Windows 应用商店中[**获取适用于 Windows 10 的 Power BI 移动应用**](https://go.microsoft.com/fwlink/?LinkID=526478)
   
   设备必须运行 Windows 10。 该应用可在具有至少 3 GB RAM 和 8 GB 内部存储的设备上运行。
    
 * 查找 [Power BI 移动应用中的新功能](mobile-whats-new-in-the-mobile-apps.md)。
 
 ## <a name="sign-up-for-the-power-bi-service-on-the-web"></a>在 Web 上注册 Power BI 服务
-如果尚未注册，请访问 [Power BI 服务](http://powerbi.com/)。 注册自己的帐户，以便创建和存储仪表板和报表，并集合数据。 然后，从 Windows 10 设备登录到 Power BI，即可在任何地方查看你的仪表板。
+如果尚未注册，请访问 [Power BI 服务](https://powerbi.com/)。 注册自己的帐户，以便创建和存储仪表板和报表，并集合数据。 然后，从 Windows 10 设备登录到 Power BI，即可在任何地方查看你的仪表板。
 
-1. 在 Power BI 服务中点击[注册](http://go.microsoft.com/fwlink/?LinkID=513879)创建 Power BI 帐户。
+1. 在 Power BI 服务中点击[注册](https://go.microsoft.com/fwlink/?LinkID=513879)创建 Power BI 帐户。
 2. 开始[创建自己的仪表板和报表](../../service-get-started.md)。
 
 ## <a name="get-started-with-the-power-bi-app"></a>Power BI 应用入门
@@ -89,7 +88,7 @@ ms.locfileid: "73059708"
 ## <a name="find-your-content-in-the-power-bi-mobile-apps"></a>在 Power BI 移动应用中查找内容
 仪表板和报表将存储在 Power BI 移动应用的不同位置，具体取决要于它们原来所在的位置。 了解如何[在移动应用中查找内容](mobile-apps-quickstart-view-dashboard-report.md)。 此外，可以始终在 Power BI 移动应用中搜索你所拥有的内容。 
 
-![Power BI 左侧导航](./media/mobile-windows-10-phone-app-get-started/power-bi-win10-left-nav.png)
+![Power BI 导航窗格](./media/mobile-windows-10-phone-app-get-started/power-bi-win10-left-nav.png)
 
 ## <a name="view-your-favorite-dashboards-kpis-and-reports"></a>查看你收藏的仪表板、KPI 和报表
 在移动应用的“收藏夹”页上查看最喜爱的 Power BI 仪表板及 Reporting Services KPI 和移动报表。 在 Power BI 移动应用中 *收藏* 某个仪表板后，可以从所有设备（包括浏览器中的 Power BI 服务）中访问该仪表板。 
@@ -120,7 +119,7 @@ ms.locfileid: "73059708"
 * [借助 SQL Server 移动报表发布服务器创建自己的移动报表](https://msdn.microsoft.com/library/mt652547.aspx)，并将其发布到 Reporting Services Web 门户。
 
 ## <a name="next-steps"></a>后续步骤
-* 从 Windows 应用商店[下载 Power BI 应用](http://go.microsoft.com/fwlink/?LinkID=526478)。  
+* 从 Windows 应用商店[下载 Power BI 应用](https://go.microsoft.com/fwlink/?LinkID=526478)。  
 * [什么是 Power BI？](../../fundamentals/power-bi-overview.md)
-* 是否有任何问题? [尝试咨询 Power BI 社区](http://community.powerbi.com/)
+* 是否有任何问题? [尝试咨询 Power BI 社区](https://community.powerbi.com/)
 

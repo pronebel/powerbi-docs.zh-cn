@@ -2,7 +2,6 @@
 title: 从 Excel 2016 发布到 Power BI
 description: 了解如何将 Excel 工作簿发布到 Power BI 站点。
 author: davidiseminger
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: bb9ff3ae6b08111156616a84ee795131c708f42c
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 81bc53bae43cb16af92a9ecaf20c26c594a24368
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "65514795"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73881137"
 ---
 # <a name="publish-to-power-bi-from-excel-2016"></a>从 Excel 2016 发布到 Power BI
 使用 Excel 2016，你可以将 Excel 工作簿直接发布到你的 [Power BI](https://powerbi.microsoft.com) 站点，你可以基于工作簿的数据在其中创建高度交互的报表和仪表板。 然后你可以与组织中的其他人共享你的见解。
@@ -88,5 +87,5 @@ ms.locfileid: "65514795"
 
 ## <a name="next-steps"></a>后续步骤
 [Power BI 中的 Excel 数据](service-excel-workbook-files.md)  
-更多问题？ [尝试参与 Power BI 社区](http://community.powerbi.com/)
+更多问题？ [尝试参与 Power BI 社区](https://community.powerbi.com/)
 

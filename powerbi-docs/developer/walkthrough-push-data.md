@@ -3,18 +3,17 @@ title: 将数据推送到数据集
 description: 将数据推送到 Power BI 数据集
 author: rkarlin
 ms.author: rkarlin
-manager: kfile
 ms.reviewer: madia
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 05/22/2019
-ms.openlocfilehash: 9eb81610044f795b6f9dc5c58aeefad13de06542
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: 5db16bfdc1013668be5103f392d6f298c8faf925
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "66222161"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73875446"
 ---
 # <a name="push-data-into-a-power-bi-dataset"></a>将数据推送到 Power BI 数据集
 
@@ -43,7 +42,7 @@ ms.locfileid: "66222161"
 * [Post Rows](https://docs.microsoft.com/rest/api/power-bi/pushdatasets/datasets_postrows)
 * [获取组](https://docs.microsoft.com/rest/api/power-bi/groups/getgroups)
 
-通过将 JavaScript 对象表示法 (JSON) 字符串传递给 Power BI 服务，在 Power BI 中创建数据集。 若要了解有关 JSON 的详细信息，请参阅 [JSON 简介](http://json.org/)。
+通过将 JavaScript 对象表示法 (JSON) 字符串传递给 Power BI 服务，在 Power BI 中创建数据集。 若要了解有关 JSON 的详细信息，请参阅 [JSON 简介](https://json.org/)。
 
 数据集的 JSON 字符串具有以下格式：
 
@@ -119,6 +118,6 @@ ms.locfileid: "66222161"
 ## <a name="next-steps"></a>后续步骤
 
 [注册 Power BI](create-an-azure-active-directory-tenant.md)  
-[JSON 简介](http://json.org/)  
+[JSON 简介](https://json.org/)  
 [Power BI REST API 概述](overview-of-power-bi-rest-api.md)  
-更多问题？ [尝试参与 Power BI 社区](http://community.powerbi.com/)
+更多问题？ [尝试参与 Power BI 社区](https://community.powerbi.com/)

@@ -2,19 +2,18 @@
 title: 快速入门：浏览移动应用中的仪表板和报表
 description: 在此快速入门中，将浏览 Power BI 移动应用中的示例仪表板和报表。
 author: mshenhav
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: quickstart
 ms.date: 04/18/2019
 ms.author: mshenhav
-ms.openlocfilehash: 173142d9aaf2b445504028e1f7987abe21806c37
-ms.sourcegitcommit: 52aa112ac9194f4bb62b0910c4a1be80e1bf1276
+ms.openlocfilehash: 9af245b51fa2520dca1ccca535ec44f14360a54c
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "60975675"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73879279"
 ---
 # <a name="quickstart-explore-dashboards-and-reports-in-the-power-bi-mobile-apps"></a>快速入门：浏览 Power BI 移动应用中的仪表板和报表
 在此快速入门中，将浏览 Android 手机上的 Power BI 移动应用中的示例仪表板和报表。 你也可以在其他移动应用中按照本文操作。 
@@ -35,7 +34,7 @@ ms.locfileid: "60975675"
 如果未注册 Power BI，请[免费注册](https://app.powerbi.com/signupredirect?pbi_source=web)后再进行操作。
 
 ### <a name="install-the-power-bi-for-android-app"></a>安装 Android 版 Power BI 应用
-从 Google Play [下载 Android 版 Power BI 应用](http://go.microsoft.com/fwlink/?LinkID=544867)。
+从 Google Play [下载 Android 版 Power BI 应用](https://go.microsoft.com/fwlink/?LinkID=544867)。
 
 Power BI 可以在运行 Android 5.0 操作系统或更高版本的 Android 设备上工作。 若要检查设备，请转到“设置”   > “关于设备”   > “Android 版本”  。
 
@@ -44,11 +43,11 @@ Power BI 可以在运行 Android 5.0 操作系统或更高版本的 Android 设�
 
 1. 在浏览器 (app.powerbi.com) 中打开 Power BI 服务，然后登录。
 
-1. 选择全局导航图标以打开左侧导航。
+1. 选择全局导航图标以打开导航窗格。
 
     ![全局导航图标](./media/mobile-apps-quickstart-view-dashboard-report/power-bi-android-quickstart-global-nav-icon.png)
 
-2. 在左侧的导航窗格中，选择“工作区”   > “我的工作区”  。
+2. 在导航窗格中，选择“工作区” > “我的工作区”   。
 
     ![我的工作区](./media/mobile-apps-quickstart-view-dashboard-report/power-bi-android-quickstart-my-workspace.png)
 
@@ -135,7 +134,7 @@ Power BI 可以在运行 Android 5.0 操作系统或更高版本的 Android 设�
 
 1. 打开 Power BI 服务 (app.powerbi.com) 并登录。
 
-2. 在左侧的导航窗格中，选择“工作区”   > “我的工作区”  。
+2. 在导航窗格中，选择“工作区” > “我的工作区”   。
 
     观察是否存在指示它为收藏项的黄星
 

@@ -3,25 +3,24 @@ title: 对网关进行排除故障 - Power BI
 description: 本文指导在遇到本地数据网关和 Power BI 问题时如何进行故障排查。 它提供了针对已知问题的可能方法，也提供了能够帮助你的工具。
 author: mgblythe
 ms.author: mblythe
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-gateways
 ms.topic: troubleshooting
 ms.date: 07/15/2019
 LocalizationGroup: Gateways
-ms.openlocfilehash: bfb0546771331e13f3703de0afdbcad6c3219f9c
-ms.sourcegitcommit: e5cf19e16112c7dad1591c3b38d232267ffb3ae1
+ms.openlocfilehash: b420c827df3c18796d0d46514f81170f202eafbd
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "72543819"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73881574"
 ---
 # <a name="troubleshoot-gateways---power-bi"></a>对网关进行排除故障 - Power BI
 
 [!INCLUDE [gateway-rewrite](includes/gateway-rewrite.md)]
 
-本文介绍将本地数据网关用于 Power BI 时的一些常见问题。 如果遇到此处未列出的问题，则可以使用 Power BI [社区](http://community.powerbi.com)站点。 也可以创建[支持票证](http://powerbi.microsoft.com/support)。
+本文介绍将本地数据网关用于 Power BI 时的一些常见问题。 如果遇到此处未列出的问题，则可以使用 Power BI [社区](https://community.powerbi.com)站点。 也可以创建[支持票证](https://powerbi.microsoft.com/support)。
 
 ## <a name="configuration"></a>配置
 
@@ -227,7 +226,7 @@ ImpersonationLevel 与 SPN 设置或本地策略设置相关。
 
 将网关用于计划刷新时，“刷新历史记录”  可以帮助查看发生的错误。 如果需要创建支持请求，则它也可以提供有用数据。 可以查看计划刷新和按需刷新。 以下步骤介绍如何访问刷新历史记录。
 
-1. 在 Power BI 导航窗格中的“数据集”  中，选择数据集。 打开菜单，然后选择“计划刷新”  。
+1. 在 Power BI 导航窗格的“数据集”中，选择一个数据集  。 打开菜单，然后选择“计划刷新”  。
 
     ![如何选择“计划刷新”](media/service-gateway-onprem-tshoot/scheduled-refresh.png)
 
@@ -241,7 +240,7 @@ ImpersonationLevel 与 SPN 设置或本地策略设置相关。
 
 ## <a name="fiddler-trace"></a>Fiddler 跟踪
 
-[Fiddler](http://www.telerik.com/fiddler) 是 Telerik 提供的一款用于监视 HTTP 流量的免费工具。 可以从客户端计算机通过 Power BI 服务来回查看。 此流量列表可能会显示错误和其他相关信息。
+[Fiddler](https://www.telerik.com/fiddler) 是 Telerik 提供的一款用于监视 HTTP 流量的免费工具。 可以从客户端计算机通过 Power BI 服务来回查看。 此流量列表可能会显示错误和其他相关信息。
 
 ![使用 Fiddler 跟踪](media/service-gateway-onprem-tshoot/fiddler.png)
 
@@ -254,4 +253,4 @@ ImpersonationLevel 与 SPN 设置或本地策略设置相关。
 * [管理数据源 - SQL Server](service-gateway-enterprise-manage-sql.md)  
 * [管理数据源 - 导入/计划刷新](service-gateway-enterprise-manage-scheduled-refresh.md)  
 
-更多问题？ 尝试参与 [Power BI 社区](http://community.powerbi.com/)。
+更多问题？ 尝试参与 [Power BI 社区](https://community.powerbi.com/)。
