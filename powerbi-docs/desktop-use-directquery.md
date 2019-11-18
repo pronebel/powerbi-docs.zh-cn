@@ -2,7 +2,6 @@
 title: 在 Power BI Desktop 中使用 DirectQuery
 description: 在 Power BI Desktop 中使用 DirectQuery（亦称为“实时连接”）
 author: davidiseminger
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 08/19/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 6664924a10b89e057765d70499208aede2d7fdad
-ms.sourcegitcommit: 4a3afe761d2f4a5bd897fafb36b53961739e8466
+ms.openlocfilehash: 08b739c5be01efed5abf8258540b5ab66b3b390b
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/20/2019
-ms.locfileid: "69654785"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73876067"
 ---
 # <a name="use-directquery-in-power-bi-desktop"></a>在 Power BI Desktop 中使用 DirectQuery
 使用 **Power BI Desktop** 时，若已连接数据源，始终可以将数据副本导入 **Power BI Desktop**。 对于某些数据源，还可使用另一种方法︰使用 **DirectQuery** 直接连接到数据源。
@@ -70,7 +69,7 @@ ms.locfileid: "69654785"
       The resultset of a query to external data source has exceeded
   
   生成包含非常高的基数列的简单图表，聚合选项设置为*不汇总*。 视觉对象应只具有基数低于 100 万的列，或必须应用适当的筛选器。
-* **安全** -使用发布报表的所有用户都使用发布到 Power BI 服务后输入的凭据连接到后端数据源。 这与导入数据的情况相同：所有用户会看到相同的数据，而不考虑后端源中定义的任何安全规则。 希望通过 DirectQuery 源实现每用户安全性的客户应使用 RLS。 [详细了解 RLS](service-admin-rls.md)。
+* **安全** -默认使用发布报表的所有用户都使用发布到 Power BI 服务后输入的凭据连接到后端数据源。 这与导入数据的情况相同：所有用户会看到相同的数据，而不考虑后端源中定义的任何安全规则。 希望使用 DirectQuery 源实现按用户安全性的客户应使用 RLS 或配置针对源的 Kerberos 约束身份验证。 Kerberos 并不适用于部分源。 [详细了解 RLS](service-admin-rls.md)。 [详细了解 DirectQuery 中的 Kerberos](https://docs.microsoft.com/power-bi/service-gateway-sso-kerberos)。 
 * **支持的功能** - **DirectQuery** 模式不支持 **Power BI Desktop** 的所有功能，或对某些功能有限制。 此外，Power BI 服务中的某些功能（如*快速见解*）对使用 **DirectQuery** 的数据集不可用。 因此，决定是否使用 **DirectQuery** 时，应当考虑使用 **DirectQuery** 时这些功能的限制。   
 
 ## <a name="publish-to-the-power-bi-service"></a>发布到 Power BI 服务
@@ -88,7 +87,7 @@ Power BI 将显示**设置**窗口。 在此窗口中，选择**数据集**选�
 
 在提供凭据之前，如果打开已发布的报表或浏览通过与此类数据源的 DirectQuery  连接创建的数据集，会导致出错。
 
-对于除 Azure SQL 数据库  、Azure SQL 数据仓库  和 Redshift  外使用 DirectQuery 的数据源，必须安装本地数据网关  ，并且必须注册数据源才能建立数据连接。 可[了解有关本地数据网关的详细信息](http://go.microsoft.com/fwlink/p/?LinkID=627094)。
+对于除 Azure SQL 数据库  、Azure SQL 数据仓库  和 Redshift  外使用 DirectQuery 的数据源，必须安装本地数据网关  ，并且必须注册数据源才能建立数据连接。 可[了解有关本地数据网关的详细信息](https://go.microsoft.com/fwlink/p/?LinkID=627094)。
 
 ## <a name="next-steps"></a>后续步骤
 有关 DirectQuery 的详细信息，请查看以下资源  ：

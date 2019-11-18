@@ -2,21 +2,20 @@
 title: 在通知中心查看消息
 description: 通知中心是与 Power BI 体验相关的依序信息提要。
 author: mihart
-manager: kvivek
 ms.reviewer: ''
 featuredvideoid: bZMSv5KAlcE
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 09/24/2019
+ms.date: 10/31/2019
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: e0ec01eb4d4ee8134a165d438f29baa4aee22841
-ms.sourcegitcommit: 26123c6bb24c8174beb390f4e06fb938d31238ea
+ms.openlocfilehash: c4feda0e502a9363900901ebe76005219587167b
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/22/2019
-ms.locfileid: "72716937"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73863031"
 ---
 # <a name="view-power-bi-notifications"></a>查看 Power BI 通知
 
@@ -31,7 +30,7 @@ ms.locfileid: "72716937"
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/bZMSv5KAlcE" frameborder="0" allowfullscreen></iframe>
 
-
+## <a name="view-your-notifications"></a>查看通知
 1. 登录到 Power BI 时，在脱机时发送给你的任何新通知会添加到你的源中。 如果有新通知，Power BI 会显示带有新通知数量的黄色气泡。
    
    ![新通知图标](./media/end-user-notification-center/power-bi-new-notification.png)
@@ -43,9 +42,9 @@ ms.locfileid: "72716937"
    ![通知中心](./media/end-user-notification-center/power-bi-notification-center.png)
 4. 若要消除通知，请选择“X”图标。
 
-### <a name="next-steps"></a>后续步骤
+## <a name="next-steps"></a>后续步骤
 * [Power BI 服务中的数据警报](end-user-alerts.md)
 * [在 iPhone 应用中设置数据警报 (Power BI for iOS)](mobile/mobile-set-data-alerts-in-the-mobile-apps.md)
 * [在适用于 Windows 10 的 Power BI 移动应用中设置数据警报](mobile/mobile-set-data-alerts-in-the-mobile-apps.md)
-* 更多问题？ [尝试参与 Power BI 社区](http://community.powerbi.com/)
+* 更多问题？ [尝试参与 Power BI 社区](https://community.powerbi.com/)
 

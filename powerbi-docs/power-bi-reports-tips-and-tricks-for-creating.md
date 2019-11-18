@@ -2,7 +2,6 @@
 title: 创建非常棒的报表的提示
 description: 在 Power BI 服务和 Power BI Desktop 中创建报表的相关提示和技巧
 author: davidiseminger
-manager: kfile
 ms.reviewer: willthom
 ms.service: powerbi
 ms.subservice: powerbi-service
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 04/13/2018
 ms.author: davidi
 LocalizationGroup: Reports
-ms.openlocfilehash: 4d686a807d9413c15b19ff382e5ac54fb696b10b
-ms.sourcegitcommit: 762857c8ca09ce222cc3f8b006fa1b65d11e4ace
+ms.openlocfilehash: d7f2c83cf1d0f29f2c0d0c6e621a253acdd3ce41
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/05/2019
-ms.locfileid: "66721358"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73860892"
 ---
 # <a name="tips-and-tricks-for-creating-reports-in-power-bi-desktop-and-power-bi-service"></a>在 Power BI Desktop 和 Power BI 服务中创建报表的相关提示和技巧
 若要充分利用你的数据，有时你还需要一点帮助。 我们整理了一些提示和技巧，以便你在 Microsoft Power BI Desktop、Power BI 服务，以及  启用了 Power Pivot 加载项且安装和启用了 Power Query 的 Microsoft Excel 2016 或 Excel 2013 Pro-Plus 版本中创建报表时可加以使用。
@@ -115,7 +114,7 @@ Power BI 与必应相集成，提供默认地图坐标（一个称为地理编�
 
 如果我们加载来自活动客户支持请求的数据集，还加载一个具有以下架构的工作项的数据集：
 
-> CustomerInicdents: {IncidentID, CustomerName, IssueName, OpenedDate, Status} WorkItems: {WorkItemID, IncidentID, WorkItemName, OpenedDate, Status, CustomerName }
+> CustomerIncidents: {IncidentID, CustomerName, IssueName, OpenedDate, Status} WorkItems: {WorkItemID, IncidentID, WorkItemName, OpenedDate, Status, CustomerName }
 >
 >
 
@@ -163,12 +162,9 @@ DAX 是 Power BI Desktop 中的计算公式语言。  它针对 BI 分析进行�
 
 [数据分析表达式 (DAX) 引用](https://msdn.microsoft.com/library/gg413422.aspx)
 
-[DAX 资源中心](http://social.technet.microsoft.com/wiki/contents/articles/1088.dax-resource-center.aspx)
+[DAX 资源中心](https://social.technet.microsoft.com/wiki/contents/articles/1088.dax-resource-center.aspx)
 
 ## <a name="power-bi-service-and-power-bi-desktop"></a>Power BI 服务和  Power BI Desktop
-
-### <a name="read-the-whitepaper-principles-for-designing-power-bi-reportsvisualspower-bi-visualization-best-practicesmd"></a>阅读白皮书：[Power BI 报表设计原则](visuals/power-bi-visualization-best-practices.md)
-本白皮书介绍了有关如何在 Power BI 中设计报表的最佳做法。 它从规划入手，介绍了可应用于报表及其页面和各个视觉对象的设计原则。 其中许多最佳做法同样适用于设计仪表板。
 
 ### <a name="read-andor-watch-how-to-design-visually-stunning-reports-and-dashboards-in-power-bi"></a>阅读和/或观看“如何在 Power BI 中设计视觉效果令人震撼的报表（和仪表板）”
 社区成员 Miguel Myers 既是数据科学家又是图形设计师。
@@ -226,4 +222,4 @@ DAX 是 Power BI Desktop 中的计算公式语言。  它针对 BI 分析进行�
 
 [Power BI 中的报表](consumer/end-user-reports.md)
 
-更多问题？ [尝试参与 Power BI 社区](http://community.powerbi.com/)
+更多问题？ [尝试参与 Power BI 社区](https://community.powerbi.com/)

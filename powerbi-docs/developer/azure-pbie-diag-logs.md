@@ -3,17 +3,16 @@ title: Azure 中 Power BI Embedded 服务的诊断日志记录 | Microsoft Docs
 description: 了解如何在 Azure 中设置 Power BI Embedded 服务的诊断日志记录。
 author: rkarlin
 ms.author: rkarlin
-manager: kfile
 ms.reviewer: ''
 ms.service: power-bi-embedded
 ms.topic: conceptual
 ms.date: 08/13/2018
-ms.openlocfilehash: dc1a034a062ca07fd9f31a847378913fd7ee4002
-ms.sourcegitcommit: 76fadf20c1e19ec43aa8f9c5a5e909b567419ef6
+ms.openlocfilehash: 9065feef76050c6a04e1ecf8ec7907b74be4b0ce
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/17/2019
-ms.locfileid: "68289846"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73875984"
 ---
 # <a name="diagnostic-logging-for-power-bi-embedded-in-azure"></a>Azure 中 Power BI Embedded 的诊断日志记录
 
@@ -29,7 +28,7 @@ ms.locfileid: "68289846"
 
 ### <a name="azure-portal"></a>Azure 门户
 
-1. 在 [Azure 门户](https://portal.azure.com) > Power BI Embedded 资源中，选择左侧导航中的“诊断日志”  ，然后选择“启用诊断”  。
+1. 在 [Azure 门户](https://portal.azure.com) > Power BI Embedded 资源中，选择导航窗格中的“诊断日志”，然后选择“启用诊断”   。
 
     ![在 Azure 门户中，为 Power BI Embedded 启用诊断日志记录](media/azure-pbie-diag-logs/azure-pbie-diag-logs-01.png)
 
@@ -132,7 +131,7 @@ ms.locfileid: "68289846"
 | ProgressTotal | 0 | 总进度。 |
 | IntegerData | 0 | 整型数据。 |
 | Severity | 0 | 异常错误的严重级别。 |
-| Success | 第 1 个 | 1 = 成功。 0 = 失败（例如，1 表示权限检查成功，而 0 表示权限检查失败）。 |
+| Success | 1 | 1 = 成功。 0 = 失败（例如，1 表示权限检查成功，而 0 表示权限检查失败）。 |
 | Error | 0 | 给定事件的错误号。 |
 | ConnectionID | 3 | 唯一连接 ID。 |
 | DatasetID | 5eaa550e-06ac-4adf-aba9-dbf0e8fd1527 | 正在运行用户语句的数据集的 ID。 |

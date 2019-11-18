@@ -2,7 +2,6 @@
 title: Power BI 网关（个人模式）故障排除
 description: Power BI 网关（个人模式）故障排除
 author: mgblythe
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
@@ -10,12 +9,12 @@ ms.topic: troubleshooting
 ms.date: 5/06/2019
 ms.author: mblythe
 LocalizationGroup: Troubleshooting
-ms.openlocfilehash: 8916d92eef86be601ceb21112209ab7daa736c11
-ms.sourcegitcommit: e5cf19e16112c7dad1591c3b38d232267ffb3ae1
+ms.openlocfilehash: 32413c8ae860f5c9e376f8be46290047f67231fc
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "72543542"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73873377"
 ---
 # <a name="troubleshooting-power-bi-gateway-personal-mode"></a>Power BI 网关（个人模式）故障排除
 
@@ -128,7 +127,7 @@ ms.locfileid: "72543542"
 ![数据管理网关和 PowerBIGateway 日志](media/service-admin-troubleshooting-power-bi-personal-gateway/event-logs.png)
 
 ### <a name="fiddler-trace"></a>Fiddler 跟踪
-[Fiddler](http://www.telerik.com/fiddler) 是 Telerik 提供的一款用于监视 HTTP 流量的免费工具。 可以看到从客户端计算机与 Power BI 服务的通信。 此通信可能会显示错误和其他相关信息。
+[Fiddler](https://www.telerik.com/fiddler) 是 Telerik 提供的一款用于监视 HTTP 流量的免费工具。 可以看到从客户端计算机与 Power BI 服务的通信。 此通信可能会显示错误和其他相关信息。
 
 ![Fiddler 跟踪](media/service-admin-troubleshooting-power-bi-personal-gateway/fiddler.png)
 
@@ -154,5 +153,5 @@ ms.locfileid: "72543542"
 - [磁贴错误故障排除](refresh-troubleshooting-tile-errors.md)  
 - [本地数据网关疑难解答](service-gateway-onprem-tshoot.md) 
  
-更多问题？ 请尝试在 [Power BI 社区](http://community.powerbi.com/)中提问
+更多问题？ 请尝试在 [Power BI 社区](https://community.powerbi.com/)中提问
 

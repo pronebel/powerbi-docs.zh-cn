@@ -2,20 +2,19 @@
 title: 使用 Power BI Desktop 中的形状地图（预览）
 description: 使用 Power BI Desktop 中的形状地图创建区域的相对比较
 author: mihart
-manager: kvivek
-ms.reviewer: ''
+ms.reviewer: amanda
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 06/24/2019
+ms.date: 11/4/2019
 ms.author: mihart
 LocalizationGroup: Transform and shape data
-ms.openlocfilehash: 6543263c0e6c3395479169e8b02034e4a9c78f7b
-ms.sourcegitcommit: 3b4de8785d17c9e00b041cff7bd4d39829316437
+ms.openlocfilehash: 800f7d3cd7f930f2c3411c21e94cadb7cda94c8c
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/09/2019
-ms.locfileid: "72164103"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73871125"
 ---
 # <a name="shape-maps-in-power-bi-desktop-preview"></a>Power BI Desktop 中的形状地图（预览版）
 
@@ -61,7 +60,7 @@ Power BI Desktop 将创建一个空的“形状地图”  视觉对象设计画�
 3. 然后，可以使用“格式设置”选项修改地图，例如“默认颜色”、“缩放”，等等   。 还可以向“图例”存储桶添加类别数据列，并基于类别对地图区域分类  。
 
 ## <a name="use-custom-maps"></a>使用自定义地图
-只要自定义地图为 **TopoJSON** 格式，你可以将其与“形状地图”  一同使用。 如果你的地图是另一种格式，则可以使用在线工具（如[**地图整形程序**](http://mapshaper.org/)）来转换*形状文件*或将 *GeoJSON* 地图转换为 **TopoJSON** 格式。
+只要自定义地图为 **TopoJSON** 格式，你可以将其与“形状地图”  一同使用。 如果你的地图是另一种格式，则可以使用在线工具（如[**地图整形程序**](https://mapshaper.org/)）来转换*形状文件*或将 *GeoJSON* 地图转换为 **TopoJSON** 格式。
 
 若要使用 TopoJSON  地图文件，请将 ShapeMap 视觉对象添加到报表，并向“位置”  和“色彩饱和度”  Bucket 添加一些数据。 然后，在选中“格式”  部分（如下图 (1) 中所示）的“可视化效果”  窗格中，展开“形状”  部分，选择“+ 添加地图”  。
 
@@ -82,7 +81,7 @@ https://www.justice.gov/usao/resources/annual-statistical-reports
 
 如果想试验该数据集和可视化效果，可以从下列链接下载用于生成此报表的原始 PBIX 文件。
 
-* [自定义形状地图的演示 .PBIX 文件](http://download.microsoft.com/download/1/2/8/128943FB-9231-42BD-8A5D-5E2362C9D589/DistrictAttorneyFiscalReport.pbix)
+* [自定义形状地图的演示 .PBIX 文件](https://download.microsoft.com/download/1/2/8/128943FB-9231-42BD-8A5D-5E2362C9D589/DistrictAttorneyFiscalReport.pbix)
 
 ## <a name="getting-map-data"></a>获取地图数据
 若要将数据快速导入模型以便测试“形状地图”  ，你可以复制本文末尾的其中一个表，然后从“主页”  功能区中选择“输入数据”  。
@@ -108,7 +107,7 @@ https://www.justice.gov/usao/resources/annual-statistical-reports
 * **形状地图**视觉对象为预览功能，必须在 Power BI Desktop 中启用。 若要启用“形状地图”  ，请选择“文件”>“选项和设置”>“选项”>“预览功能”  ，然后选中“形状地图视觉对象”  复选框。
 * 目前，还必须设置“色彩饱和度”  Bucket，“图例”  分类才能正常工作。
 * 形状地图  的最终发布版本将具有一个显示当前所选地图的地图键的用户界面（最终版本中没有日期集，且形状地图  仍为预览版）。 在此预览版本中，可以引用表中的地图区域键，如本文中的“区域键”  部分所述。
-*  “形状地图”视觉对象最多可绘制 1,000 个数据点。
+* “形状地图”视觉对象最多可绘制 1,500 个数据点  。
 
 ## <a name="region-keys"></a>区域键
 

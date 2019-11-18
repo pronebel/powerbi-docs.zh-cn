@@ -2,7 +2,6 @@
 title: 将报表导出为 PDF
 description: 了解如何将 Power BI 报表导出为 PDF。
 author: mihart
-manager: kvivek
 ms.custom: ''
 ms.reviewer: cmfinlan
 ms.service: powerbi
@@ -11,12 +10,12 @@ ms.topic: conceptual
 ms.date: 09/14/2019
 ms.author: mihart
 LocalizationGroup: Share your work
-ms.openlocfilehash: 1d6ddcd11118e0eb9894002c5c97edda134d4635
-ms.sourcegitcommit: 26123c6bb24c8174beb390f4e06fb938d31238ea
+ms.openlocfilehash: 5d26327e41e4236a3ea5e0eca2246c6f66a64be4
+ms.sourcegitcommit: 08b73af260ded51daaa6749338cb85db2eab587f
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/22/2019
-ms.locfileid: "72716985"
+ms.lasthandoff: 11/15/2019
+ms.locfileid: "74099124"
 ---
 # <a name="export-reports-from-power-bi-to-pdf"></a>从 Power BI 将报表导出为 PDF
 
@@ -25,7 +24,7 @@ ms.locfileid: "72716985"
 借助 Power BI，可以将报表发布为 PDF 格式，并根据 Power BI 报表轻松地创建文档。 如果导出为 PDF，则 Power BI 报表中的每个页面都会成为 PDF 文档中的单独页面。
 
 ## <a name="export-your-power-bi-report-to-pdf"></a>将 Power BI 报表导出为 PDF
-在 Power BI 服务中，选择要在画布上显示的报表。 还可以从左侧导航窗格的“主页”页面、“应用”或任何其他容器中选择报表   。
+在 Power BI 服务中，选择要在画布上显示的报表。 还可以从导航窗格上的“主页”页面、“应用”或任何其他容器中选择报表   。
 
 1. 从菜单栏中选择“导出”   > “PDF”  。
 
@@ -52,7 +51,7 @@ ms.locfileid: "72716985"
 在使用“导出为 PDF”功能时，有几个注意事项和限制需要牢记  。
 
 * 目前不支持 R 视觉对象。 在 PDF 中，这些视觉对象为空白，并会显示一条错误消息。 
-* 支持已认证的自定义视觉对象。 有关已认证的自定义视觉对象的详细信息（包括如何完成自定义视觉对象认证），请参阅[获取自定义视觉对象认证](../power-bi-custom-visuals-certified.md)。 不支持尚未认证的自定义视觉对象。 在 PDF 中，它们会显示一条错误消息。 
+* 支持已认证的自定义视觉对象。 有关已认证的自定义视觉对象的详细信息（包括如何完成自定义视觉对象认证），请参阅[获取自定义视觉对象认证](../developer/power-bi-custom-visuals-certified.md)。 不支持尚未认证的自定义视觉对象。 在 PDF 中，它们会显示一条错误消息。 
 * 目前不能导出包含 30 个以上报表页的报表。
 * 将报表导出为 PDF 的过程可能需要几分钟才能完成，请耐心等待。 影响所需时间的因素包括报表的结构和 Power BI 服务的当前负载。
 * 如果 Power BI 服务中没有“导出为 PDF”菜单项，则可能是因为租户管理员已禁用该功能  。 有关详细信息，请联系租户管理员。

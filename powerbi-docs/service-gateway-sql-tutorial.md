@@ -2,7 +2,6 @@
 title: 教程：连接到 SQL Server 中的本地数据
 description: 了解如何将 SQL Server 用作网关数据源，包括如何刷新数据。
 author: mgblythe
-manager: kfile
 ms.reviewer: kayu
 ms.service: powerbi
 ms.subservice: powerbi-gateways
@@ -10,12 +9,12 @@ ms.topic: tutorial
 ms.date: 07/15/2019
 ms.author: mblythe
 LocalizationGroup: Gateways
-ms.openlocfilehash: 54ef11b51fb02b6913b4d591967a140c5affc1b8
-ms.sourcegitcommit: 9d13ef7a257b5006fca5f92acf5b611f5cd143a2
+ms.openlocfilehash: 91b6ee8971004a014b188f94142e90914ae3a3b7
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/18/2019
-ms.locfileid: "68307396"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73881553"
 ---
 # <a name="refresh-data-from-an-on-premises-sql-server-database"></a>从本地 SQL Server 数据库刷新数据
 
@@ -72,7 +71,7 @@ ms.locfileid: "68307396"
 
 5. 将“EndDate”拖到报表级筛选器，在“基本筛选”下，仅选中“(空白)”复选框     。
 
-    ![报表级筛选器](./media/service-gateway-sql-tutorial/report-level-filters.png)
+    ![报表级别筛选器](./media/service-gateway-sql-tutorial/report-level-filters.png)
 
     此时，图表应如下所示。
 
@@ -131,7 +130,7 @@ ms.locfileid: "68307396"
 
 现在，你已通过数据网关将 Power BI 中的数据集连接到本地 SQL Server 数据库，接下来请按照以下步骤配置刷新计划。 按计划刷新数据集有助于确保报表和仪表板具有最新数据。
 
-1. 在左侧的导航窗格中，打开“我的工作区”\>“数据集”   。 为 AdventureWorksProducts 数据集选择省略号 (...)，然后选择“计划刷新”    。
+1. 在导航窗格中，打开“我的工作区”\>“数据集”   。 为 AdventureWorksProducts 数据集选择省略号 (...)，然后选择“计划刷新”    。
 
     > [!NOTE]
     > 请确保为 AdventureWorksProducts 数据集选择省略号，而不是为名称相同的报表选择省略号  。 AdventureWorksProducts 报表的上下文菜单没有“计划刷新”选项   。
@@ -149,7 +148,7 @@ ms.locfileid: "68307396"
 
 ## <a name="perform-an-on-demand-refresh"></a>执行按需刷新
 
-你现已配置刷新计划，Power BI 会在下一计划时间（15 分钟内）刷新数据集。 如果要加快数据刷新速度以执行网关和数据源配置测试等操作，请使用左侧导航窗格的数据集菜单中的“立即刷新”选项进行按需刷新  。 按需刷新不影响下一计划刷新时间，但会计入在上一部分中提到的每日刷新限制。
+你现已配置刷新计划，Power BI 会在下一计划时间（15 分钟内）刷新数据集。 如果要加快数据刷新速度以执行网关和数据源配置测试等操作，请使用导航窗格的数据集菜单中的“立即刷新”选项进行按需刷新  。 按需刷新不影响下一计划刷新时间，但会计入在上一部分中提到的每日刷新限制。
 
 为便于说明，通过使用 SQL Server Management Studio (SSMS) 更新 AdventureWorksDW 数据库中的 DimProduct 表来模拟对示例数据的更改。
 
@@ -163,7 +162,7 @@ WHERE EnglishProductName ='Road-250 Red, 58'
 
 现按照以下步骤操作，使更新后的数据可通过网关连接传输到数据集并进入 Power BI 中的报表。
 
-1. 在 Power BI 服务的左侧导航窗格中，选择并展开“我的工作区”  。
+1. 在 Power BI 服务的导航窗格中，选择并展开“我的工作区”  。
 
 2. 在“数据集”下，针对 AdventureWorksProducts 数据集选择省略号 (...)，然后选择“立即刷新”     。
 

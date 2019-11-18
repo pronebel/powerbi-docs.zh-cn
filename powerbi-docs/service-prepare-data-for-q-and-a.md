@@ -1,8 +1,7 @@
 ---
-title: 使 Excel 数据很好地配合 Power BI 问答
+title: 通过 Power BI 中的问答功能有效利用 Excel 数据
 description: 如何有效结合使用数据和 Power BI 问答
 author: maggiesMSFT
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
@@ -10,14 +9,14 @@ ms.topic: conceptual
 ms.date: 05/13/2019
 ms.author: maggies
 LocalizationGroup: Ask questions of your data
-ms.openlocfilehash: 7ed8eb8e205c05582d2cfd93030ab056be77912a
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 16d58090a9a7c6e64fbf2ace23fdf342d1768a30
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "65624981"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73881085"
 ---
-# <a name="make-excel-data-work-well-with-qa-in-power-bi"></a>使 Excel 数据很好地配合 Power BI 问答
+# <a name="make-excel-data-work-well-with-qa-in-power-bi"></a>通过 Power BI 中的问答功能有效利用 Excel 数据
 如果你是创建数据模型或生成用于 Power BI 的 Excel 工作簿的人员，请阅读...
 
 在 Power BI 中，“问答”可以搜索结构化数据，然后针对你的问选择合适的可视化效果 — 这让它成为一种极具吸引力的工具。   
@@ -27,7 +26,7 @@ ms.locfileid: "65624981"
 ## <a name="how-qa-works-with-excel"></a>如何结合使用 Power BI 问答和 Excel
 “问答”具有一套核心的自然语言理解功能，可以处理你的数据。 它还具有针对 Excel 表、列和计算的字段名称的上下文相关关键字搜索功能。 它还内置了有关如何筛选、排序、聚合、分组和显示数据的信息。 
 
-例如，在名为“Sales”的 Excel 表中，其中含有“Product”、“Month”、“Units Sold”、“Gross Sales”和“Profit”列，你可以询问有关这些实体的问题。  你可以要求按月显示销售额和总利润、按销售件数对产品排序等其他功能。 详细了解[仪表板和报表中使用问答](power-bi-tutorial-q-and-a.md)，并[可以在问答查询中指定的可视化效果类型](visuals/power-bi-visualization-types-for-reports-and-q-and-a.md)。
+例如，在名为“Sales”的 Excel 表中，其中含有“Product”、“Month”、“Units Sold”、“Gross Sales”和“Profit”列，你可以询问有关这些实体的问题。  你可以要求按月显示销售额和总利润、按销售件数对产品排序等其他功能。 详细了解[在仪表板和报表中使用问答](power-bi-tutorial-q-and-a.md)和[可以在 Power BI 问答查询中指定的可视化效果类型](visuals/power-bi-visualization-types-for-reports-and-q-and-a.md)。
 
 ## <a name="prepare-an-excel-dataset-for-qa"></a>准备 Excel 数据集以供 Power BI 问答使用
 “问答”依靠表格、列和计算字段的名称来回答特定于数据的问题，这意味着，实体在工作簿中的命名很重要！
@@ -39,16 +38,16 @@ ms.locfileid: "65624981"
   
   例如，如果表格中含有销售数据，请将此表命名为“Sales”。 像“Year”、“Product”、“Sales Rep”和“Amount”等列名称对“问答”也很适用。
 
-* 如果你的工作簿具有 Power Pivot 数据模型，则可以执行更多优化操作。 详细阅读有关我们内部的自然语言专家所提供的 [Demystifying Power BI问答part 2](http://blogs.msdn.com/b/powerbi/archive/2014/02/27/demystifying-power-bi-q-amp-a-part-2.aspx)（阐述 Power BI 问答（第 2 部））。
+* 如果你的工作簿具有 Power Pivot 数据模型，则可以执行更多优化操作。 详细阅读有关我们内部的自然语言专家所提供的 [Demystifying Power BI问答part 2](https://blogs.msdn.com/b/powerbi/archive/2014/02/27/demystifying-power-bi-q-amp-a-part-2.aspx)（阐述 Power BI 问答（第 2 部））。
 
 * 在 Power BI Desktop 中打开数据集，然后新建列、创建计算度量值、连接字段以创建唯一值、按类型（例如，日期、字符串、地理位置、图像、URL）对数据进行分类等。
 
 ## <a name="next-steps"></a>后续步骤
 
-- [对于使用者的问答](consumer/end-user-q-and-a.md)  
+- [面向使用者的问答](consumer/end-user-q-and-a.md)  
 - [在仪表板和报表中使用问答](power-bi-tutorial-q-and-a.md)
-- [为问答准备本地数据集](service-q-and-a-direct-query.md)   
+- [准备本地数据集以供 Power BI 问答使用](service-q-and-a-direct-query.md)   
 - [获取 Power BI 的数据](service-get-data.md)  
 
-更多问题？ [尝试参与 Power BI 社区](http://community.powerbi.com/)
+更多问题？ [尝试参与 Power BI 社区](https://community.powerbi.com/)
 

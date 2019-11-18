@@ -2,19 +2,18 @@
 title: 在 Power BI 中发布应用
 description: 了解如何发布新应用，这些应用是带有内置导航的仪表板和报表的集合。
 author: maggiesMSFT
-manager: kfile
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 08/15/2019
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 7aa9ec22eec07632a071b5ffaadfe06f221897d7
-ms.sourcegitcommit: 5e277dae93832d10033defb2a9e85ecaa8ffb8ec
+ms.openlocfilehash: 622d01632b9c9cbe6203090b3ac2149d4bc94474
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/07/2019
-ms.locfileid: "72020221"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73853641"
 ---
 # <a name="publish-an-app-in-power-bi"></a>在 Power BI 中发布应用
 
@@ -115,7 +114,7 @@ ms.locfileid: "72020221"
 * 重命名“报表详细信息”、“仪表板详细信息”和“工作簿详细信息”中的项    。
 * 隐藏导航栏中的某些项。
 * 使用“新建”选项为组相关内容添加“节”   。
-* 使用“新建”选项将指向外部资源的“链接”添加到左侧导航   。 
+* 使用“新建”选项将指向外部资源的“链接”添加到导航窗格   。 
 
 添加“链接”时，可在“链接详细信息”中选择打开链接的位置   。 链接默认在“当前选项卡”中打开，但也可以选择在“新选项卡”或“内容区域”中打开    。 
 
@@ -187,7 +186,7 @@ ms.locfileid: "72020221"
 
 ## <a name="view-your-published-app"></a>查看已发布的应用
 
-应用使用者打开你的应用时，他们将看到你创建的导航，而不是标准的 Power BI 左侧导航窗格。 应用导航列出你定义的各节中的报表和仪表板。 它还列出每个报表中的各个页面，而不仅仅是报表名称。
+应用使用者打开你的应用时，他们将看到你创建的导航，而不是标准的 Power BI 导航窗格。 应用导航列出你定义的各节中的报表和仪表板。 它还列出每个报表中的各个页面，而不仅仅是报表名称。
 
 ![具有导航的应用](media/service-create-distribute-apps/power-bi-new-apps-navigation.png)
 
@@ -203,4 +202,4 @@ ms.locfileid: "72020221"
 * [在 Power BI 中安装并使用应用](consumer/end-user-apps.md)
 * [适用于外部服务的 Power BI 应用](service-connect-to-services.md)
 * [Power BI 管理门户](https://docs.microsoft.com/power-bi/service-admin-portal)
-* 是否有任何问题? [尝试咨询 Power BI 社区](http://community.powerbi.com/)
+* 是否有任何问题? [尝试咨询 Power BI 社区](https://community.powerbi.com/)

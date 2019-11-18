@@ -2,19 +2,18 @@
 title: Android 设备上的 Power BI 移动应用入门
 description: 了解如何使用 Android 版 Microsoft Power BI 移动应用随时随地通过移动设备访问本地和云中的业务信息。
 author: mshenhav
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 06/28/2018
 ms.author: mshenhav
-ms.openlocfilehash: 5734c62485340417b6327f07df4abd7af3f2f185
-ms.sourcegitcommit: d441d350504f8c6d9e100d229757add6237f0bef
+ms.openlocfilehash: 9a0d15c73ed19990a44ff888b73d9c569d0dfc5f
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/30/2019
-ms.locfileid: "73060294"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73876775"
 ---
 # <a name="get-started-with-the-power-bi-mobile-app-on-android-devices"></a>Android 设备上的 Power BI 移动应用入门
 Android 版 Microsoft Power BI 移动应用提供了 Power BI、Power BI 报表服务器和 Reporting Services 的移动 BI 体验。 通过触控移动设备实现的实时访问，可以随时随地查看本地和云中的公司仪表板，并与之进行交互。 然后，可以浏览仪表板中的数据，并通过电子邮件或短信的方式将数据与同事共享。 
@@ -34,7 +33,7 @@ Android 版 Microsoft Power BI 移动应用提供了 Power BI、Power BI 报表�
 
 ### <a name="get-the-app"></a>获取应用
 
-从 Google Play [下载 Android 版 Power BI 应用](http://go.microsoft.com/fwlink/?LinkID=544867)。
+从 Google Play [下载 Android 版 Power BI 应用](https://go.microsoft.com/fwlink/?LinkID=544867)。
   
 Power BI 可以在多个运行 Android 5.0 操作系统或更高版本的不同 Android 设备上运行。 若要检查设备，请转到“设置”   > “关于设备”   > “Android 版本”  。 
 
@@ -44,9 +43,9 @@ Power BI 可以在多个运行 Android 5.0 操作系统或更高版本的不同 
 查看 [Power Bi 移动应用中的新功能](../../mobile-whats-new-in-the-mobile-apps.md)。
 
 ## <a name="sign-up-for-the-power-bi-service-on-the-web"></a>在 Web 上注册 Power BI 服务
-如果尚未登录，请转到 [Power BI 服务 (http://powerbi.com/)](http://powerbi.com/) 登录你自己的帐户，以创建和存储仪表板和报表，并将数据合并在一起。 然后，从 Android 设备登录 Power BI，可从任何位置查看你自己的仪表板。
+如果尚未登录，请转到 [Power BI 服务 (https://powerbi.com/)](https://powerbi.com/) 登录你自己的帐户，以创建和存储仪表板和报表，并将数据合并在一起。 然后，从 Android 设备登录 Power BI，可从任何位置查看你自己的仪表板。
 
-1. 在 Power BI 服务中点击[注册](http://go.microsoft.com/fwlink/?LinkID=513879)创建 Power BI 帐户。
+1. 在 Power BI 服务中点击[注册](https://go.microsoft.com/fwlink/?LinkID=513879)创建 Power BI 帐户。
 2. 开始[创建自己的仪表板和报表](../../service-get-started.md)。
 
 ## <a name="get-started-with-the-power-bi-app-on-your-device"></a>在设备上开始使用 Power BI 应用
@@ -88,14 +87,14 @@ Power BI 可以在多个运行 Android 5.0 操作系统或更高版本的不同 
 ## <a name="find-your-content-in-the-power-bi-mobile-apps"></a>在 Power BI 移动应用中查找内容
 仪表板和报表将存储在 Power BI 移动应用的不同位置，具体取决要于它们原来所在的位置。 了解如何[在移动应用中查找内容](../../mobile-apps-quickstart-view-dashboard-report.md)。 此外，可以始终在 Power BI 移动应用中搜索你所拥有的内容。 
 
-![左侧导航窗格](./media/mobile-android-app-get-started/power-bi-mobile-new-nav-no-numbers.png)
+![导航窗格](./media/mobile-android-app-get-started/power-bi-mobile-new-nav-no-numbers.png)
 
 ## <a name="view-your-favorite-dashboards-kpis-and-reports"></a>查看你收藏的仪表板、KPI 和报表
 移动应用中的“收藏夹”页上显示了你收藏的所有 Power BI 仪表板，以及 Power BI 报表服务器/Reporting Services KPI 和报表。 在 Power BI 移动应用中收藏  某个仪表板后，可以从所有设备（包括浏览器中的 Power BI 服务）中访问该仪表板。 
 
 * 点击**收藏夹**。
   
-   ![左侧导航窗格中的收藏夹](./media/mobile-android-app-get-started/power-bi-android-favorite-left-nav.png)
+   ![导航窗格中的收藏夹](./media/mobile-android-app-get-started/power-bi-android-favorite-left-nav.png)
   
    Power BI 收藏夹以及 Power BI 报表服务器/Reporting Services Web 门户中的收藏夹全都显示在此页上。
   
@@ -135,8 +134,8 @@ Power BI 可以在多个运行 Android 5.0 操作系统或更高版本的不同 
 * [在 Power BI Desktop 中创建报表，然后将报表发布到 Power BI 报表服务器 Web 门户中](../../report-server/quickstart-create-powerbi-report.md)
 
 ### <a name="see-also"></a>另请参阅
-* 从 Android 应用商店[下载 Android 应用](http://go.microsoft.com/fwlink/?LinkID=544867)
+* 从 Android 应用商店[下载 Android 应用](https://go.microsoft.com/fwlink/?LinkID=544867)
 * [什么是 Power BI？](../../fundamentals/power-bi-overview.md)
-* 是否有任何问题? [尝试咨询 Power BI 社区](http://community.powerbi.com/)
+* 是否有任何问题? [尝试咨询 Power BI 社区](https://community.powerbi.com/)
 
 

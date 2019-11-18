@@ -2,7 +2,6 @@
 title: Power BI 服务（仪表板、报表、应用）中的收藏夹
 description: 有关如何在 Power BI 服务中收藏仪表板、报表和应用的文档
 author: mihart
-manager: kvivek
 ms.reviewer: ''
 featuredvideoid: G26dr2PsEpk
 ms.service: powerbi
@@ -11,12 +10,12 @@ ms.topic: conceptual
 ms.date: 09/19/2019
 ms.author: mihart
 LocalizationGroup: Common tasks
-ms.openlocfilehash: 165f958cabf3eb6f3cc5c0e61b62667f891d1d48
-ms.sourcegitcommit: 02042995df12cc4e4b97eb8a369e62364eb5af36
+ms.openlocfilehash: 48322b554a7b600bc5cadc7c40fe366c64cd8549
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/25/2019
-ms.locfileid: "71256392"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73852655"
 ---
 # <a name="favorite-dashboards-reports-and-apps-in-the-power-bi-service"></a>在 Power BI 服务中收藏仪表板、报表和应用
 将内容设为“收藏项”时，可从“收藏夹”内容列表以及从 Power BI **主页** > “收藏夹 + 最常访问”中快速访问该内容    。 收藏夹通常是最常访问的内容，并且标有黄色星标。
@@ -41,7 +40,7 @@ ms.locfileid: "71256392"
 
 ## <a name="add-an-app-as-a-favorite"></a>将应用添加为收藏项
 
-1. 在导航窗格中，选择“应用”  。
+1. 从导航窗格中，选择“应用”  。
 
    ![仪表板](./media/end-user-favorite/power-bi-app.png)
 
@@ -53,7 +52,7 @@ ms.locfileid: "71256392"
 1. 要访问收藏夹，请选择“收藏夹”右侧的浮出控件箭头  。 在此处可以选择一个收藏项来打开它。 最多列出五个收藏项（按字母顺序排列）。 如果收藏项超过五个，可选择“查看全部”，打开收藏夹内容列表  。 
    
    ![收藏夹浮出控件](./media/end-user-favorite/power-bi-favorite-flyout.png)
-2. 若要查看已添加为收藏项的所有内容，请在导航窗格中选择“收藏夹”或收藏夹 ![星形图标](./media/end-user-favorite/power-bi-favorites-icon.png) 图标  。 
+2. 若要查看已添加为收藏项的所有内容，请在导航窗格中选择“收藏夹”或收藏夹![星形图标](./media/end-user-favorite/power-bi-favorites-icon.png)图标  。 
    
     ![收藏夹窗口](./media/end-user-favorite/power-bi-fav-screen.png)
    
@@ -62,7 +61,7 @@ ms.locfileid: "71256392"
 ## <a name="unfavorite-content"></a>取消收藏内容
 如果不再像以前那样频繁地使用某个报表，则可以取消收藏。 取消收藏内容时，会从“收藏夹”列表（而不是 Power BI）中删除该内容。
 
-1. 在左侧导航窗格中，选择“收藏夹”  以打开“收藏夹”  屏幕。
+1. 在导航窗格中，选择“收藏夹”以打开“收藏夹”屏幕   。
    
    ![“收藏夹”屏幕](./media/end-user-favorite/power-bi-un-favorite.png)
 2. 选择想要取消收藏的内容旁边的黄色星号。
@@ -76,5 +75,5 @@ ms.locfileid: "71256392"
 
 ## <a name="next-steps"></a>后续步骤
 - [Power BI：基本概念](end-user-basic-concepts.md)
-- 更多问题？ 尝试参与 [Power BI 社区](http://community.powerbi.com/)。
+- 更多问题？ 尝试参与 [Power BI 社区](https://community.powerbi.com/)。
 

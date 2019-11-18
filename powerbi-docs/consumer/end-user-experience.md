@@ -2,22 +2,21 @@
 title: 使用 Power BI 服务
 description: Power BI 导航体验概述
 author: mihart
-manager: kvivek
 ms.reviewer: ''
 featuredvideoid: G26dr2PsEpk
 ms.custom: seodec18
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: quickstart
-ms.date: 10/18/2019
+ms.date: 10/30/2019
 ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: 14c7f88e0bfb822a73a72958f556443260f6ed76
-ms.sourcegitcommit: f34acbf9fb1ab568fd89773aaf412a847f88dd34
+ms.openlocfilehash: e6be58971b265414440041f4667a0b0cc455cdd4
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/18/2019
-ms.locfileid: "72589455"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73851530"
 ---
 # <a name="quickstart---getting-around-in-power-bi-service"></a>快速入门 - 使用 Power BI 服
 
@@ -57,7 +56,7 @@ ms.locfileid: "72589455"
 
 ![“我的工作区”屏幕](./media/end-user-experience/power-bi-my-workspace.png)
 
-从左侧导航窗格（左侧导航窗格）中选择工作区后，关联内容（仪表板、报表、工作簿、数据集）的选项卡在 Power BI 画布右侧显示。
+从导航窗格中选择工作区后，关联内容（仪表板、报表、工作簿、数据集）的选项卡在 Power BI 画布右侧显示。
 
 如果是新用户，则只能看到一个工作区，即“我的工作区”  。
 
@@ -82,7 +81,7 @@ ms.locfileid: "72589455"
    
    ![删除收藏夹](./media/end-user-experience/power-bi-unfavorite2.png)
 
-2. 要显示已加入收藏夹的所有内容的列表，请在左侧导航窗格中选择“收藏夹”  右侧的箭头。 由于左侧导航窗格是 Power BI 服务的永久性功能，因此可以在 Power BI 服务中的任何位置访问此列表。
+2. 若要显示已加入收藏夹的所有内容的列表，请在导航窗格中选择“收藏夹”右侧的箭头  。 导航窗格是 Power BI 服务的永久性功能，因此可以在 Power BI 服务中的任何位置访问此列表。
    
     ![收藏夹浮出控件](./media/end-user-experience/power-bi-favorite.png)
    
@@ -92,7 +91,7 @@ ms.locfileid: "72589455"
    
    ![标记为收藏](./media/end-user-experience/power-bi-report-favorite.png)
 
-3. 通过选择左侧导航栏中的“收藏夹”或选择星形图标 ![](media/end-user-experience/powerbi-star-icon.png)，打开“收藏夹”窗格    。
+3. 通过选择导航窗格中的“收藏夹”或选择星形图标 ![显示黄色星形图标的屏幕截图](media/end-user-experience/powerbi-star-icon.png)，打开“收藏夹”*窗格*   。
    
    ![打开“收藏夹”屏幕](./media/end-user-experience/power-bi-favorite-pane.png)
    
@@ -107,13 +106,13 @@ ms.locfileid: "72589455"
 
 ## <a name="locate-your-most-recent-content"></a>查找最新内容
 
-1. 与收藏夹类似，通过选择左侧导航窗格中“最近访问的内容”旁边的箭头，可在 Power BI 服务中的任意位置快速查看最近访问的内容  。
+1. 与收藏夹类似，通过选择导航窗格中“最近访问的内容”旁边的箭头，可在 Power BI 服务中的任意位置快速查看最近访问的内容  。
 
    ![最近访问内容浮出控件](./media/end-user-experience/power-bi-recent-flyout.png)
 
     在浮出控件中选择内容将其打开。
 
-2. 有时，你不想只是打开最近访问的内容，而是希望查看信息或执行其他操作，例如查看见解或导出到 Excel。 在此类情况下，可通过从左侧导航栏中选择“最近访问的内容”或其图标，打开“最近访问的内容”窗格   。 如果有多个工作区，则此列表显示来自所有工作区的内容。
+2. 有时，你不想只是打开最近访问的内容，而是希望查看信息或执行其他操作，例如查看见解或导出到 Excel。 在此类情况下，可通过从导航窗格中选择“最近访问的内容”或其图标，打开“最近访问的内容”窗格   。 如果有多个工作区，则此列表显示来自所有工作区的内容。
 
    ![“最近访问内容”窗格](./media/end-user-experience/power-bi-recent.png)
 
@@ -138,7 +137,7 @@ ms.locfileid: "72589455"
 完成此快速入门后，如果需要，可以删除零售分析示例仪表板、报表和数据集。
 
 1. 打开 Power BI 服务 (app.powerbi.com) 并登录。    
-2. 在左侧的导航窗格中，选择“工作区”>“我的工作区”  。  
+2. 在导航窗格中，选择“工作区”>“我的工作区”  。  
     观察是否存在指示它为收藏项的黄星    
 3. 在“仪表板”选项卡下，选择零售分析仪表板旁边的垃圾桶“删除”图标   。    
 

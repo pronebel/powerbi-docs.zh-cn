@@ -2,7 +2,6 @@
 title: 报表编辑器导览
 description: 在 Power BI Desktop 和 Power BI 服务中，报表编辑器用于设计最终用户所看到的报表。 这在两个环境中是类似的。
 author: maggiesMSFT
-manager: kfile
 ms.reviewer: ''
 featuredvideoid: IkJda4O7oGs
 ms.service: powerbi
@@ -11,12 +10,12 @@ ms.topic: conceptual
 ms.date: 08/14/2019
 ms.author: maggies
 LocalizationGroup: Reports
-ms.openlocfilehash: c3a5454032a4138ce3d93c490fa6b3d5a7fecec5
-ms.sourcegitcommit: a77977a43342db4399a4dffb862b96907d16de35
+ms.openlocfilehash: 800079f20d0c16964b0e5dd5fbac5919e94317f7
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/14/2019
-ms.locfileid: "69023741"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73871341"
 ---
 # <a name="tour-the-report-editor-in-power-bi"></a>Power BI 中的报表编辑器导览
 
@@ -34,14 +33,14 @@ ms.locfileid: "69023741"
 
 Power BI 报表编辑器由几个主要部分组成：  
 
-1. 顶部导航栏
+1. 顶部导航窗格
 1. 报表画布
 1. “筛选器”窗格
 1. “可视化效果”窗格
 1. 字段窗格
 
-## <a name="1-the-top-navigation-bar"></a>1.顶部导航栏
-顶部导航栏中可用的操作有很多，新操作一直在增加。 有关特定操作的信息，请使用 Power BI 文档目录或搜索框。
+## <a name="1-the-top-nav-pane"></a>1.顶部导航窗格
+顶部导航窗格中可用的操作有很多，新操作一直在增加。 有关特定操作的信息，请使用 Power BI 文档目录或搜索框。
 
 
 ## <a name="2-the-report-canvas"></a>2.报表画布
@@ -156,5 +155,5 @@ Power BI 使用多种不同的图标来表示报表中的字段类型。 能够�
 
 [Power BI 设计器的基本概念](service-basic-concepts.md)
 
-更多问题？ [尝试参与 Power BI 社区](http://community.powerbi.com/)
+更多问题？ [尝试参与 Power BI 社区](https://community.powerbi.com/)
 

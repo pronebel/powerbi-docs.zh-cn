@@ -3,18 +3,17 @@ title: 将 Power BI 视觉对象发布到 AppSource
 description: 了解如何将自定义视觉对象发布到 AppSource 供其他人发现和使用。
 author: KesemSharabi
 ms.author: kesharab
-manager: rkarlin
 ms.reviewer: ''
 ms.service: powerbi
-ms.subservice: powerbi-custom-visuals
 ms.topic: conceptual
+ms.subservice: powerbi-custom-visuals
 ms.date: 3/27/2019
-ms.openlocfilehash: 1841311e94ca593093fa3104b615328927365880
-ms.sourcegitcommit: 549401b0e1fad15c3603fe7f14b9494141fbb100
+ms.openlocfilehash: 8d320b5fa1387ebf21ecd8c3c1db70b9892154e7
+ms.sourcegitcommit: 01de0b01f66f28ca45b8d309d7864f261d6c9a85
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/14/2019
-ms.locfileid: "72307674"
+ms.lasthandoff: 11/16/2019
+ms.locfileid: "74128060"
 ---
 # <a name="publish-power-bi-visuals-to-appsource"></a>将 Power BI 视觉对象发布到 AppSource
 
@@ -38,10 +37,10 @@ AppSource  是查找 Microsoft 产品和服务的 SaaS 应用与加载项的位�
 | 示例 .pbix 报表文件 |是 |要展示你的视觉对象，应帮助用户了解该视觉对象。 应向用户强调该视觉对象可以带来的价值，并提供使用示例，格式设置选项等。还可以添加 *“提示”* 页，并在页面末尾附上一些提示和技巧、操作注意事项以及类似内容。<br>示例 .pbix 报表文件必须脱机运行且无任何外部连接 |
 | 图标 |是 |应包含将在店面中显示的自定义视觉对象徽标。 格式可以为 .png、.jpg、.jpeg 或 .gif。 它必须正好为 300 像素（宽度）x 300 像素（高度）。 **重要提示！** 在提交图标之前，请仔细查看[简短指南](https://docs.microsoft.com/office/dev/store/craft-effective-appsource-store-images)。 |
 | 屏幕截图 |是 |必须至少提供一个屏幕截图。 格式可以为 .png、.jpg、.jpeg 或 .gif。 它必须正好为 1366 像素（宽度）x 768 像素（高度）。 文件大小不得超过 1024 KB。 *为了实现更好的利用率，添加文本气泡以阐明每个屏幕截图中所示的主要功能的价值主张。* |
-| 支持下载链接 |是 |提供 URL 以便为对视觉对象有疑问的客户提供支持。 此链接作为 SellerDashboard 列表的一部分输入，当用户在 AppSource 上访问你的视觉对象的列表时，用户可以看到此链接。 URL 的格式应包含 https:// 或 http:// 。 |
-| 隐私文档链接 |是 |为使用你的视觉对象的客户提供隐私策略链接。 此链接作为 SellerDashboard 列表的一部分输入，当用户在 AppSource 上访问你的视觉对象的列表时，用户可以看到此链接。 链接的格式应包含 https:// 或 http:// 。 |
+| 支持下载链接 |是 |提供 URL 以便为对视觉对象有疑问的客户提供支持。 此链接作为 SellerDashboard 列表的一部分输入，当用户在 AppSource 上访问你的视觉对象的列表时，用户可以看到此链接。 URL 的格式应包含 https:// 或 http://。 |
+| 隐私文档链接 |是 |为使用你的视觉对象的客户提供隐私策略链接。 此链接作为 SellerDashboard 列表的一部分输入，当用户在 AppSource 上访问你的视觉对象的列表时，用户可以看到此链接。 链接的格式应包含 https:// 或 http://。 |
 | 最终用户许可协议 (EULA) |是 |必须上载 EULA 文件。 这可以是你自己的 EULA，也可以使用 Office 应用商店中适用于 Power BI 视觉对象的默认 EULA。 若要使用默认 EULA，请将以下 URL 粘贴到卖家面板的“最终用户许可协议”文件上传对话框中：[https://visuals.azureedge.net/app-store/Power BI - Default Custom Visual EULA.pdf](https://visuals.azureedge.net/app-store/Power%20BI%20-%20Default%20Custom%20Visual%20EULA.pdf)。 |
-| 视频链接 |否 |为了增加用户对自定义视觉对象的兴趣，建议提供一个指向视觉对象视频的链接。 URL 的格式应包含 https:// 或 http:// 。 |
+| 视频链接 |否 |为了增加用户对自定义视觉对象的兴趣，建议提供一个指向视觉对象视频的链接。 URL 的格式应包含 https:// 或 http://。 |
 | GitHub 存储库 |否 |最好提供一个有效的公共链接，可以链接到包含你的视觉对象和示例数据资源的 [GitHub](https://www.github.com) 存储库，以允许其他开发人员提供反馈并为代码提出改进意见。 |
 
 ## <a name="submitting-to-power-bi"></a>提交到 Power BI
@@ -143,13 +142,13 @@ AppSource  是查找 Microsoft 产品和服务的 SaaS 应用与加载项的位�
 
 ## <a name="certify-your-visual"></a>认证视觉对象
 
-创建视觉对象后，可以选择让视觉对象取得认证。 这意味着它可以在 Power BI 服务中运行，与该服务的其他功能一起使用，例如导出到 PowerPoint。 有关详细信息，请参阅[让自定义视觉对象取得认证](../power-bi-custom-visuals-certified.md)  。
+创建视觉对象后，可以选择让视觉对象取得认证。 这意味着它可以在 Power BI 服务中运行，与该服务的其他功能一起使用，例如导出到 PowerPoint。 有关详细信息，请参阅[让自定义视觉对象取得认证](../developer/power-bi-custom-visuals-certified.md)  。
 
 ## <a name="next-steps"></a>后续步骤
 
 [开发 Power BI 自定义视觉对象](visuals/custom-visual-develop-tutorial.md)  
 [Power BI 中的可视化效果](../visuals/power-bi-report-visualizations.md)  
-[Power BI 中的自定义可视化效果](../power-bi-custom-visuals.md)  
-[让自定义视觉对象取得认证](../power-bi-custom-visuals-certified.md) 
+[Power BI 中的自定义可视化效果](../developer/power-bi-custom-visuals.md)  
+[让自定义视觉对象取得认证](../developer/power-bi-custom-visuals-certified.md) 
 
-更多问题？ [尝试咨询 Power BI 社区](http://community.powerbi.com/)
+更多问题？ [尝试咨询 Power BI 社区](https://community.powerbi.com/)

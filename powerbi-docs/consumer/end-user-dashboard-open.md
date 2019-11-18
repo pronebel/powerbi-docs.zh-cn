@@ -2,7 +2,6 @@
 title: 查看 Power BI 仪表板
 description: 仪表板是 Power BI 服务的一个主要功能。本文介绍了如何打开并查看仪表板。
 author: mihart
-manager: kvivek
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-consumer
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 09/18/2019
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 629db8e4706bfb42f3f1b3ad65b8a57577d7ee21
-ms.sourcegitcommit: 26123c6bb24c8174beb390f4e06fb938d31238ea
+ms.openlocfilehash: f250d380fc8938f7b5d7723b5b8becb65f27d79d
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/22/2019
-ms.locfileid: "72716395"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73852606"
 ---
 # <a name="view-a-dashboard"></a>查看仪表板
 
@@ -39,7 +38,7 @@ Power BI 使用者需要花费大量时间查看仪表板  。 仪表板旨在�
 
 
 
-可在左侧导航栏中的所有容器中找到仪表板。 
+可在导航窗格的所有容器中找到仪表板。 
 
 ![仪表板图标](media/end-user-dashboard-open/power-bi-open-dashboards.gif)
 

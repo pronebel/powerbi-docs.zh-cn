@@ -2,7 +2,6 @@
 title: 以使用者身份使用可视化效果（视觉对象）
 description: Power BI 概念和术语 - 可视化效果、视觉对象。 什么是 Power BI 可视化效果、视觉对象。
 author: mihart
-manager: kvivek
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-consumer
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 10/14/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 7f72e53fe9f017f5f12893711858cc9179b883dd
-ms.sourcegitcommit: 5410a17c6325406c9d9364585d7c26de4d9488ae
+ms.openlocfilehash: fc663f34b5ed95502f84f3858cb54cdb42f6fead
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/16/2019
-ms.locfileid: "72379977"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73860970"
 ---
 # <a name="interact-with-visuals-in-reports-dashboards-and-apps"></a>与报表、仪表板和应用中的视觉对象交互
 
@@ -52,7 +51,7 @@ ms.locfileid: "72379977"
 |[让 Power BI 为你在视觉对象数据中查找相关事实或趋势](end-user-insights.md)。  这些自动生成的视觉对象被称为见解  。     |    是     |  针对整个报表，而不是每个视觉对象       | 否   |
 |[使用焦点  模式一次仅查看一个视觉对象](end-user-focus.md)。     | 是        |   是      | na  |
 |[查找视觉对象的上次刷新时间](end-user-fresh.md)。     |  是       |    是     | na  |
-|[使用全屏模式或焦点模式一次仅查看一个视觉对象（不含边框或导航栏）](end-user-focus.md)  。     |   是      |  是       | 默认  |
+|[使用全屏模式或焦点模式一次仅查看一个视觉对象（不含边框或导航窗格）](end-user-focus.md)   。     |   是      |  是       | 默认  |
 |[打印](end-user-print.md)。     |  是       |   是      | 否  |
 |[通过添加和修改视觉对象筛选器来深入研究视觉对象](end-user-report-filter.md)。     |    否     |   是      | 否  |
 |将鼠标悬停在视觉对象之上，以显示更多详细信息和工具提示。     |    是     |   是      | 是  |
