@@ -11,12 +11,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 LocalizationGroup: Share your work
 ms.date: 05/16/2019
-ms.openlocfilehash: c5d35c1e7fef15c72314738c1d67f81656dc3101
-ms.sourcegitcommit: a97c0c34f888e44abf4c9aa657ec9463a32be06f
+ms.openlocfilehash: 6fb02a3ea31dd3bed6f1013d5e81237345aef40c
+ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/17/2019
-ms.locfileid: "71073616"
+ms.lasthandoff: 11/01/2019
+ms.locfileid: "73431905"
 ---
 # <a name="embed-with-report-web-part-in-sharepoint-online"></a>使用报表 Web 部件在 SharePoint Online 中嵌入报表
 
@@ -79,11 +79,11 @@ ms.locfileid: "71073616"
 > [!IMPORTANT]
 > 请务必在 Power BI 中检查哪些人员可以查看报表，然后向未列出的人员授予访问权限。
 
-在 Power BI 中提供报表访问权限有两种方法。 第一种：若要使用 Office 365 组生成 SharePoint Online 团队站点，请在 Power BI 服务和 SharePoint 页中将用户列为应用工作区的成员   。 有关详细信息，请参阅如何[管理应用工作区](service-manage-app-workspace-in-power-bi-and-office-365.md)。
+在 Power BI 中提供报表访问权限有两种方法。 第一种：若要使用 Office 365 组生成 SharePoint Online 团队站点，请在 Power BI 服务和 SharePoint 页中将用户列为工作区的成员   。 有关详细信息，请参阅如何[管理工作区](service-manage-app-workspace-in-power-bi-and-office-365.md)。
 
 第二种：将报表嵌入应用并直接与用户共享。  
 
-1. 创建者（必须是 Pro 用户）在应用工作区中创建报表。 若要与 Power BI（免费）用户共享，必须将应用工作区设置为“Premium 工作区”   。
+1. 创建者（必须是 Pro 用户）在工作区中创建报表。 若要与 Power BI 免费用户共享，需要将工作区设置为“Premium 工作区”   。
 
 2. 创建者发布并安装应用。 创建者必须安装应用，这样应用才能访问用于在 SharePoint Online 中嵌入的报表 URL。
 
@@ -93,7 +93,7 @@ ms.locfileid: "71073616"
 
 4. 作者打开应用并转到报表。
 
-5. 创建者从应用安装的报表中复制嵌入报表 URL。 请勿使用应用工作区中的原始报表 URL。
+5. 创建者从应用安装的报表中复制嵌入报表 URL。 请勿使用工作区中的原始报表 URL。
 
 6. 在 SharePoint Online 中新建团队网站。
 

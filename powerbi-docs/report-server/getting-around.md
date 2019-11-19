@@ -9,12 +9,12 @@ ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 05/24/2018
 ms.author: maggies
-ms.openlocfilehash: e7a9b4da760f02672f51aa7ace0f3bb19c501834
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: 8a5b04c5b3325a9fd4d3bb11aa1943e62cf2c90c
+ms.sourcegitcommit: 2aa83bd53faad6fb02eb059188ae623e26503b2a
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "64770136"
+ms.lasthandoff: 10/29/2019
+ms.locfileid: "73021455"
 ---
 # <a name="manage-content-in-the-web-portal"></a>管理 Web 门户中的内容 
 Power BI 报表服务器 Web 门户是用于查看、存储和管理 Power BI 报表、移动报表和分页报表以及 KPI 的本地位置。
@@ -56,7 +56,7 @@ Web 门户应用程序在浏览器中运行。 启动 Web 门户后看到的具�
 ## <a name="manage-items-in-the-web-portal"></a>管理 Web 门户中的项目
 Power BI 报表服务器允许对 Web 门户中存储的项目进行精细化控制。 例如，可以对各个分页报表设置订阅、缓存、快照和安全保护措施。
 
-1. 依次选择项目右上角的省略号（“...”）和“管理”  。
+1. 选择项目右上角的“更多选项”(…)，然后选择“管理”   。
    
     ![选择“管理”](media/getting-around/report-server-web-portal-manage-ellipsis.png)
 2. 选择要设置的属性或其他功能。

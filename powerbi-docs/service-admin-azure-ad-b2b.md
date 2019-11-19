@@ -2,7 +2,6 @@
 title: 使用 Azure AD B2B 将内容分发给外部来宾用户
 description: Power BI 与 Azure Active Directory 企业到企业 (Azure AD B2B) 集成后，即可将 Power BI 内容安全地分发给组织外的来宾用户。
 author: mgblythe
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 09/09/2019
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: 8b7327a7b32aacd222efc422263187f29285bd73
-ms.sourcegitcommit: a97c0c34f888e44abf4c9aa657ec9463a32be06f
+ms.openlocfilehash: bcde2bc456ee48e8dc66d6c0ba6b17d79fbe43a8
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/17/2019
-ms.locfileid: "71075777"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73858008"
 ---
 # <a name="distribute-power-bi-content-to-external-guest-users-with-azure-ad-b2b"></a>使用 Azure AD B2B 将 Power BI 内容分发给外部来宾用户
 
@@ -81,7 +80,7 @@ Power BI 与 Azure Active Directory 企业到企业 (Azure AD B2B) 集成，便�
 
 ### <a name="use-power-bi-premium"></a>使用 Power BI Premium
 
-如果你将应用工作区分配到 [Power BI Premium 容量](service-premium-what-is.md)，来宾用户无需获取 Power BI Pro 许可证，即可使用应用。 使用 Power BI Premium 时，应用还可以利用其他功能（如加快刷新速率、专用容量和大模型）。
+如果你将工作区分配到 [Power BI Premium 容量](service-premium-what-is.md)，来宾用户无需获取 Power BI Pro 许可证，即可使用应用。 使用 Power BI Premium 时，应用还可以利用其他功能（如加快刷新速率、专用容量和大模型）。
 
 ![使用 Power BI Premium 的来宾用户体验的关系图。](media/service-admin-azure-ad-b2b/license-approach-1.png)
 
@@ -113,6 +112,8 @@ Power BI 与 Azure Active Directory 企业到企业 (Azure AD B2B) 集成，便�
 
 * 默认情况下，外部 Azure AD B2B 来宾仅限于使用内容。 外部 Azure AD B2B 来宾可以查看应用、仪表板、报表，导出数据以及为仪表板和报表创建电子邮件订阅。 他们无法访问工作区或发布自己的内容。 但这些限制不适用于通过[允许外部来宾用户编辑和管理组织中的内容](service-admin-portal.md#allow-external-guest-users-to-edit-and-manage-content-in-the-organization)功能获取访问权限的来宾用户。
 
+* 若要邀请来宾用户，需要 Power BI Pro 许可证。 Pro 试用版用户无法在 Power BI 中邀请来宾用户。
+
 * 对于通过[允许外部来宾用户编辑和管理组织中的内容](service-admin-portal.md#allow-external-guest-users-to-edit-and-manage-content-in-the-organization)功能启用的来宾用户，某些体验可能不可用。 他们需要使用 Power BI 服务 Web UI 来更新或发布报表，包括为上传 Power BI Desktop 文件获取数据。  不支持以下体验：
     * 从 Power BI Desktop 直接向 Power BI 服务发布
     * 来宾用户不能使用 Power BI Desktop 连接 Power BI 服务中的服务数据集
@@ -127,7 +128,12 @@ Power BI 与 Azure Active Directory 企业到企业 (Azure AD B2B) 集成，便�
     * 来宾用户不能使用“在 Excel 中分析”
     * 无法在评论中 @mentioned 来宾用户
     * 来宾用户不能使用订阅
-    * 使用此功能的来宾用户应具有工作或学校帐户。 使用个人帐户的来宾用户会因登录限制受到更多限制。
+    * 使用此功能的来宾用户应具有工作或学校帐户。 
+    
+* 使用个人帐户的来宾用户会因登录限制受到更多限制。
+    * 他们可以通过 Web 浏览器获取 Power BI 服务中的使用体验
+    * 他们无法使用 Power BI 移动版应用。
+    * 他们将无法通过登录，在需要使用工作或学校帐户的情况下提供凭据。
 
 * 此功能当前不可用于 Power BI SharePoint Online 报表 Web 部件。
 

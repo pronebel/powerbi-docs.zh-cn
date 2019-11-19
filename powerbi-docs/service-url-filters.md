@@ -9,14 +9,14 @@ featuredvideoid: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 07/25/2019
+ms.date: 10/23/2019
 LocalizationGroup: Reports
-ms.openlocfilehash: 9e2b1132e48e824b70ddb0e0d86bfed4efedff2f
-ms.sourcegitcommit: bc688fab9288ab68eaa9f54b9b59cacfdf47aa2e
+ms.openlocfilehash: 389b28a4cadca10445ebaabeebaa109e414496f1
+ms.sourcegitcommit: 96217747f07d923d1a9d31f67a853f1ef1d17b20
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/30/2019
-ms.locfileid: "68623883"
+ms.lasthandoff: 10/24/2019
+ms.locfileid: "72891801"
 ---
 # <a name="filter-a-report-using-query-string-parameters-in-the-url"></a>通过在 URL 中添加查询字符串参数来筛选报表
 
@@ -107,7 +107,7 @@ app.powerbi.com/groups/me/apps/app-id/reports/report-id/ReportSection?filter=Tab
 
 |运算符  | 定义 | 字符串  | 数字 | 日期 |  示例|
 |---------|---------|---------|---------|---------|---------|
-|**and**     | 并且 |  是      | 是 |  是|  product/price le 200 and price gt 3.5 |
+|**and**     | 和 |  是      | 是 |  是|  product/price le 200 and price gt 3.5 |
 |**eq**     | equals |  是      | 是   |  是       | Address/City eq 'Redmond' |
 |**ne**     | 不等于 |   是      | 是  | 是        |  Address/City ne 'London' |
 |**ge**     |  大于或等于       | 否 | 是 |是 |  product/price ge 10
@@ -153,7 +153,7 @@ V3 和 V4 之间还存在其他差异。 OData V3 不支持日期，只支持日
 |---------|---------|---------|
 |**表名**     | 空间是 0x20        |  Table_x0020_Name       |
 |**Column**@**Number**     |   @ 是 0x40     |  Column_x0040_Number       |
-|**[Column]**     |  [ is 0x0058 ] 是 0x0050       |  _x0058_Column_x0050_       |
+|**[Column]**     |  [ is 0x005B ] 是 0x005D       |  _x005B_Column_x005D_       |
 |**Column+Plus**     | + 是 0x2B        |  Column_x002B_Plus       |
 
 Table_x0020_Name/Column_x002B_Plus eq 3![表视觉对象呈现特殊字符](media/service-url-filters/power-bi-special-characters1.png)

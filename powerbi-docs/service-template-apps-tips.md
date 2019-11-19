@@ -2,19 +2,18 @@
 title: 在 Power BI 中创作模板应用的提示
 description: 有关创建查询、数据模型、报表和仪表板以制作优秀模板应用的提示
 author: teddybercovitz
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 06/26/2019
 ms.author: tebercov
-ms.openlocfilehash: fae3af81540e22b961fcb1d2a79de425fdc1cd8c
-ms.sourcegitcommit: e2de2e8b8e78240c306fe6cca820e5f6ff188944
+ms.openlocfilehash: 04b50882c28bf561e628e9f02dff6c147233d260
+ms.sourcegitcommit: 08b73af260ded51daaa6749338cb85db2eab587f
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/23/2019
-ms.locfileid: "71194785"
+ms.lasthandoff: 11/15/2019
+ms.locfileid: "74099749"
 ---
 # <a name="tips-for-authoring-template-apps-in-power-bi"></a>在 Power BI 中创作模板应用的提示
 
@@ -132,7 +131,7 @@ Power BI Desktop 中的[参数](https://powerbi.microsoft.com/blog/deep-dive-int
 * 务必遵循 [Power BI 应用产品/服务](https://docs.microsoft.com/azure/marketplace/cloud-partner-portal/power-bi/cpp-power-bi-offer)文档中的指南。
 * 如果仪表板是应用的一部分，请确保仪表板不为空。
 * 提交前，先使用应用链接安装应用，以确保你能连接数据集，且应用体验符合预期。
-* 将 bpix 上传到模板应用工作区前，先务必要卸载任何不必要的连接。
+* 将 bpix 上传到模板工作区前，请先务必要卸载任何不必要的连接。
 * 遵循 Power BI [报表和视觉对象设计最佳做法](https://docs.microsoft.com/power-bi/visuals/power-bi-visualization-best-practices)，以实现对用户的最大影响，并获得分发批准。
 <!--- * In general, only application with valuable functionality can be approved for general use on AppSource. Application with sample data content only must have either a guidance or statistical value.) -->
 
@@ -147,7 +146,7 @@ Power BI Desktop 中的[参数](https://powerbi.microsoft.com/blog/deep-dive-int
 | 数据源 | 可支持云“计划数据”刷新的数据源。 <br>不支持： <li> DirectQuery</li><li>实时连接（无 Azure AS）</li> <li>本地数据源（不支持个人和企业网关）</li> <li>实时数据源（不支持推送数据集）</li> <li>复合模型</li></ul> |
 | 数据集：跨工作区 | 不支持跨工作区的数据集  |
 | 查询参数 | 不支持：用于数据集的“Any”或“Binary”类型块刷新操作的参数 |
-| 自定义视觉对象 | 仅支持公开可用的自定义视觉效果。 不支持[组织自定义视觉效果](power-bi-custom-visuals-organization.md) |
+| 自定义视觉对象 | 仅支持公开可用的自定义视觉效果。 不支持[组织自定义视觉效果](developer/power-bi-custom-visuals-organization.md) |
 
 ## <a name="next-steps"></a>后续步骤
 

@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 04/25/2019
 ms.author: maggies
 LocalizationGroup: Get started
-ms.openlocfilehash: 5a4c385b9c8e8a28de3b9a5e1dd84651f87ef000
-ms.sourcegitcommit: e5cf19e16112c7dad1591c3b38d232267ffb3ae1
+ms.openlocfilehash: 80d878cc5a8ed0df294b99390fb87d8099bfccb5
+ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "72543187"
+ms.lasthandoff: 11/01/2019
+ms.locfileid: "73431328"
 ---
 # <a name="basic-concepts-for-designers-in-the-power-bi-service"></a>Power BI 服务中设计器的基本概念
 
@@ -48,10 +48,10 @@ ms.locfileid: "72543187"
 Power BI 的 4 个主要构建基块包括：仪表板、报表和工作簿和数据集     。 这些基块一起组织成工作区  。 在深入了解 4 个构建基块之前，我们必须先了解工作区。
 
 ## <a name="workspaces"></a>工作区
-工作区是 Power BI 中仪表板、报表、工作簿和数据集的容器。 有两种类型的工作区：“我的工作区”和“应用工作区”   。 什么是应用？  Power BI 应用  是仪表板和报表的集合，生成应用的目的是为组织的 Power BI 最终用户提供关键指标。 应用是交互式的，但最终用户无法编辑应用。
+工作区是 Power BI 中仪表板、报表、工作簿和数据集的容器。 有两种类型的工作区：“我的工作区”和“工作区”   。 什么是应用？  Power BI 应用  是仪表板和报表的集合，生成应用的目的是为组织的 Power BI 最终用户提供关键指标。 应用是交互式的，但最终用户无法编辑应用。
 
-- “我的工作区”  是个人工作区，供任何 Power BI 客户在其中处理自己的内容。 只有你自己才有权访问你的工作区。 可以从“我的工作区”共享仪表板和报表。 如果想要在仪表板和报表上展开合作或创建应用，那么你会想要在应用工作区中工作。      
--  应用工作区用于与同事展开协作和共享内容。  也可以在其中为组织创建、发布和管理应用。 可将应用工作区视为构成 Power BI 应用的内容的暂存区域和容器。 可将同事添加到应用工作区，然后在仪表板、报表、工作簿和数据集方面进行协作。 所有应用工作区成员都需要 Power BI Pro 许可证。 应用使用者（有权访问应用的同事）不一定需要 Pro 许可证。 详细了解[新建工作区](service-create-the-new-workspaces.md)。  
+- “我的工作区”  是个人工作区，供任何 Power BI 客户在其中处理自己的内容。 只有你自己才有权访问你的工作区。 可以从“我的工作区”共享仪表板和报表。 如果想要在仪表板和报表上展开合作或创建应用，那么你会想要在工作区中工作。      
+-  工作区用于与同事展开协作和共享内容  。 也可以在其中为组织创建、发布和管理应用。 可将应用工作区视为构成 Power BI 应用的内容的暂存区域和容器。 可将同事添加到工作区，然后在仪表板、报表、工作簿和数据集方面进行协作。 所有工作区成员都需要 Power BI Pro 许可证。 应用使用者（有权访问应用的同事）不一定需要 Pro 许可证。 详细了解[新建工作区](service-create-the-new-workspaces.md)。  
 
 若要详细了解共享的常规信息，请首先了解[共享正在处理的仪表板的方式](service-how-to-collaborate-distribute-dashboards-reports.md)。
 
@@ -62,7 +62,7 @@ Power BI 的 4 个主要构建基块包括：仪表板、报表和工作簿和�
 
 数据集与工作区相关联，单个数据集可以包含在多个工作区中。  打开某个工作区时，关联的数据集会列在“数据集”选项卡下面。  每个列出的数据集表示一个数据源，例如，OneDrive 上的 Excel 工作簿，或本地 SSAS 表格数据集或 Salesforce 数据集。 支持许多不同的数据源，并且我们一直在添加新的数据源。 请参阅[可与 Power BI 一起使用的数据集类型](service-get-data.md)列表。
 
-在下面的示例中，我已选择“销售和市场营销”应用工作区，并单击了“数据集”选项卡。 
+在下面的示例中，我已选择“销售和市场营销”工作区，并单击了“数据集”选项卡  。
 
 ![选中的数据集](media/service-basic-concepts/power-bi-datasets.png)
 
@@ -96,7 +96,7 @@ Power BI 报表是一页或多页可视化对象（如折线图、地图和树�
 
 默认情况下，报表将在“阅读”视图中打开。  只需选择“编辑报表”  即可将其在编辑视图下打开（如果有所需的权限）。
 
-在下面的示例中，我选择了“销售和市场营销”应用工作区，并单击了“报表”选项卡  。
+在下面的示例中，我选择了“销售和市场营销”工作区，并单击了“报表”选项卡  。
 
 ![选中的报表](media/service-basic-concepts/power-bi-reports.png)
 
@@ -224,7 +224,7 @@ Power BI 报表是一页或多页可视化对象（如折线图、地图和树�
    ![带标签的图标按钮](media/service-basic-concepts/power-bi-labeled-icons.png)
 
 ## <a name="next-steps"></a>后续步骤
-- [什么是 Power BI？](power-bi-overview.md)  
+- [什么是 Power BI？](fundamentals/power-bi-overview.md)  
 - [Power BI 视频](videos.md)  
 - [报表编辑器 - 教程](service-the-report-editor-take-a-tour.md)
 

@@ -2,7 +2,6 @@
 title: Power BI 销售与市场营销示例：参观
 description: Power BI 销售与市场营销示例：参观
 author: maggiesMSFT
-manager: kfile
 ms.reviewer: amac
 ms.service: powerbi
 ms.subservice: powerbi-desktop
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 07/19/2019
 ms.author: maggies
 LocalizationGroup: Samples
-ms.openlocfilehash: 31f42d7f53b3322717677d586266668fb2c0f26b
-ms.sourcegitcommit: 012f05efc4e97aeb6178fb2fc820b73bcc1ce920
+ms.openlocfilehash: 8085a6c8f5d0e7a2797ef6c5961b6083eb98f346
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/23/2019
-ms.locfileid: "68391357"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73873812"
 ---
 # <a name="sales-and-marketing-sample-for-power-bi-take-a-tour"></a>Power BI 销售与市场营销示例：参观
 
@@ -56,11 +55,11 @@ VanArsdel 有许多竞争对手，但仍是业内的市场领导者。 CMO 想�
   
 ### <a name="get-the-pbix-file-for-this-sample"></a>获取 .pbix 文件形式的此示例
 
-也可以将销售和市场营销示例下载为 [.pbix 文件](http://download.microsoft.com/download/9/7/6/9767913A-29DB-40CF-8944-9AC2BC940C53/Sales%20and%20Marketing%20Sample%20PBIX.pbix)，这是专为 Power BI Desktop 量身定制的文件格式。
+也可以将销售和市场营销示例下载为 [.pbix 文件](https://download.microsoft.com/download/9/7/6/9767913A-29DB-40CF-8944-9AC2BC940C53/Sales%20and%20Marketing%20Sample%20PBIX.pbix)，这是专为 Power BI Desktop 量身定制的文件格式。
 
 ### <a name="get-the-excel-workbook-for-this-sample"></a>获取 Excel 工作簿形式的此示例
 
-若要查看此示例的数据源，还可以将它下载为 [Excel 工作簿](http://go.microsoft.com/fwlink/?LinkId=529785)。 该工作簿包含你可以查看和修改的 Power View 工作表。 若要查看原始数据，请启用“数据分析”加载项，再依次选择“Power Pivot”>“管理”  。 若要启用 Power View 和 Power Pivot 加载项，请参阅[从 Excel 本身内查看 Excel 示例](sample-datasets.md#optional-take-a-look-at-the-excel-samples-from-inside-excel-itself)，以了解详细信息。
+若要查看此示例的数据源，还可以将它下载为 [Excel 工作簿](https://go.microsoft.com/fwlink/?LinkId=529785)。 该工作簿包含你可以查看和修改的 Power View 工作表。 若要查看原始数据，请启用“数据分析”加载项，再依次选择“Power Pivot”>“管理”  。 若要启用 Power View 和 Power Pivot 加载项，请参阅[从 Excel 本身内查看 Excel 示例](sample-datasets.md#optional-take-a-look-at-the-excel-samples-from-inside-excel-itself)，以了解详细信息。
 
 ## <a name="what-is-our-dashboard-telling-us"></a>仪表板告诉我们什么？
 让我们开始浏览仪表板并查看 CMO 选择固定的磁贴。 我们可以看到我们的市场份额、销售和人气的相关信息。 数据按地区、时间和竞争对手细分。
@@ -82,7 +81,7 @@ VanArsdel 有许多竞争对手，但仍是业内的市场领导者。 CMO 想�
 
    ![问题：VanArsdel 总单位数（按细分市场）](media/sample-sales-and-marketing/sales2.png)
 3. 我们在适度性和便利性两个类别的份额非常高；这些是我们具有竞争力的细分市场   。
-4. 在顶部导航栏中选择“销售和市场营销示例”返回到仪表板  。
+4. 在顶部导航窗格中选择“销售和市场营销示例”返回到仪表板  。
 
 ### <a name="what-does-total-unit-market-share-look-like-for-category-versus-region"></a>按类别（与地区）划分的销售单位总量市场份额如何？
 1. 请注意“年初至今按制造商和地区划分的单位总量”磁贴  。 按类别划分的销售单位总量市场份额是多少？
@@ -164,7 +163,7 @@ VanArsdel 有许多竞争对手，但仍是业内的市场领导者。 CMO 想�
 
 通过按 VanArsdel、细分市场、月份和地区筛选可视化效果，我们可以发现 VanArsdel 的发展商机。
 
-## <a name="next-steps-connect-to-your-data"></a>后续步骤：连接到你的数据
+## <a name="next-steps-connect-to-your-data"></a>后续步骤：连接到数据
 可以在此环境中安全操作，因为能够选择不保存更改。 不过，如果确实保存了更改，可随时选择“获取数据”  来获取此示例的新副本。
 
 本教程讨论了 Power BI 仪表板、问答和报表如何能够帮助深入了解人力资源数据。 现在轮到你了；立即连接到你自己的数据。 借助 Power BI，可以连接到各种数据源。 若要了解详细信息，请参阅 [Power BI 服务入门](service-get-started.md)。

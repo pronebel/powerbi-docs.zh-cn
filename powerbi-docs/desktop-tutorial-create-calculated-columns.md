@@ -2,7 +2,6 @@
 title: 教程：创建 Power BI Desktop 中的计算列
 description: 教程：创建 Power BI Desktop 中的计算列
 author: davidiseminger
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
@@ -10,12 +9,12 @@ ms.topic: tutorial
 ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Learn more
-ms.openlocfilehash: 6974e0eccd8c16bdb06a050873e40f1a5be6f75f
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: 4c1f6985a2ff88fa9ca595ad68456eed7a55c82e
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "65514539"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73876146"
 ---
 # <a name="tutorial-create-calculated-columns-in-power-bi-desktop"></a>教程：创建 Power BI Desktop 中的计算列
 
@@ -28,7 +27,7 @@ ms.locfileid: "65514539"
 ### <a name="prerequisites"></a>先决条件
 - 本教程面向已熟悉使用 Power BI Desktop 创建更高级的模型的 Power BI 用户。 应该已经了解如何使用“获取数据”  和“Power Query 编辑器”  来导出数据、使用多个相关表和向报表画布添加字段。 如果刚开始使用 Power BI Desktop，请务必查看 [Power BI Desktop 入门](desktop-getting-started.md)。
   
-- 本教程使用 [Power BI Desktop 的 Contoso 销售示例](http://download.microsoft.com/download/4/6/A/46AB5E74-50F6-4761-8EDB-5AE077FD603C/Contoso%20Sales%20Sample%20for%20Power%20BI%20Desktop.zip)，与[在 Power BI Desktop 中创建你自己的度量值](desktop-tutorial-create-measures.md)教程中所用的示例相同。 这些来自虚构公司 Contoso,inc. 的销售数据从数据库导入，因此你将无法连接到数据源或在 Power Query 编辑器中查看。 在你自己的计算机上下载并提取该文件，然后在 Power BI Desktop 中打开它。
+- 本教程使用 [Power BI Desktop 的 Contoso 销售示例](https://download.microsoft.com/download/4/6/A/46AB5E74-50F6-4761-8EDB-5AE077FD603C/Contoso%20Sales%20Sample%20for%20Power%20BI%20Desktop.zip)，与[在 Power BI Desktop 中创建你自己的度量值](desktop-tutorial-create-measures.md)教程中所用的示例相同。 这些来自虚构公司 Contoso,inc. 的销售数据从数据库导入，因此你将无法连接到数据源或在 Power Query 编辑器中查看。 在你自己的计算机上下载并提取该文件，然后在 Power BI Desktop 中打开它。
 
 ## <a name="create-a-calculated-column-with-values-from-related-tables"></a>使用相关表中的值创建计算列
 
@@ -36,7 +35,7 @@ ms.locfileid: "65514539"
 
  ![“字段”列表中的列](media/desktop-tutorial-create-calculated-columns/create1.png)
 
-1.  选择“更多选项”  省略号 (...)，或右键单击“字段”列表中的“ProductSubcategory”  表，然后选择“新建列”  。 这将在“ProductSubcategory”表中创建新列。
+1.  在“字段”列表中的“ProductSubcategory”表上，选择“更多选项”(…) 或单击右键，然后选择“新建列”    。 这将在“ProductSubcategory”表中创建新列。
     
     ![新建列](media/desktop-tutorial-create-calculated-columns/create2.png)
     

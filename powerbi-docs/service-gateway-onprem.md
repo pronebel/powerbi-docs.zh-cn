@@ -10,12 +10,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 LocalizationGroup: Gateways
 ms.date: 07/15/2019
-ms.openlocfilehash: 883d5c83019df293628d096f5834c9b5c6d425b6
-ms.sourcegitcommit: 73228d0a9038b8369369c059ad06168d2c5ff062
+ms.openlocfilehash: 8ca43232cdc5781900dd7cf8b9f72c510dab2e37
+ms.sourcegitcommit: 2b7beec5237a597bab2da8eb6ffe69122a5d2ed9
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/02/2019
-ms.locfileid: "68730274"
+ms.lasthandoff: 11/02/2019
+ms.locfileid: "73442801"
 ---
 # <a name="what-is-an-on-premises-data-gateway"></a>本地数据网关是什么？
 
@@ -42,13 +42,13 @@ ms.locfileid: "68730274"
 使用网关有以下四个主要步骤。
 
 1. 在本地计算机上[下载并安装网关](/data-integration/gateway/service-gateway-install)。
-2. 根据防火墙和其他网络要求[配置](/data-integration/gateway/service-gateway-app)网关。
-3. [添加网关管理员](/data-integration/gateway/service-gateway-manage)，以便管理网关和管理其他网络要求。
-4. 出现错误时，对网关进行[故障排除](service-gateway-onprem-tshoot.md)。
+1. 根据防火墙和其他网络要求[配置](/data-integration/gateway/service-gateway-app)网关。
+1. [添加网关管理员](/data-integration/gateway/service-gateway-manage)，以便管理网关和管理其他网络要求。
+1. [使用网关](service-gateway-sql-tutorial.md)刷新本地数据源。
+1. 出现错误时，对网关进行[故障排除](service-gateway-onprem-tshoot.md)。
 
 ## <a name="next-steps"></a>后续步骤
 
 * [安装本地数据网关](/data-integration/gateway/service-gateway-install)
-
 
 更多问题？ [尝试参与 Power BI 社区](http://community.powerbi.com/)

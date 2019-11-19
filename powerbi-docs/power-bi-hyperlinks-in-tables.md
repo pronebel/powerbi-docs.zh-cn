@@ -2,21 +2,20 @@
 title: 向表中添加超链接 (URL)
 description: 本主题介绍如何向表中添加超链接 (URL)。 使用 Power BI Desktop 向表或矩形图中添加超链接 (URL)。 然后在 Power BI Desktop 或 Power BI 服务中，可以将这些超链接添加到报表表格和矩形图。
 author: maggiesMSFT
-manager: kfile
 ms.reviewer: ''
 ms.custom: seodec18
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 08/30/2019
+ms.date: 10/29/2019
 ms.author: maggies
 LocalizationGroup: Visualizations
-ms.openlocfilehash: b158e968d0fd35859cfd293177a7273e8311d5b2
-ms.sourcegitcommit: d04b9e1426b8544ce16ef25864269cc43c2d9f7b
+ms.openlocfilehash: e8cad7035e752e5e344d78a22ad5fd8ea0a072ad
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "71715298"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73874499"
 ---
 # <a name="add-hyperlinks-urls-to-a-table"></a>向表中添加超链接 (URL)
 本主题介绍如何向表中添加超链接 (URL)。 使用 Power BI Desktop 向表或矩形图中添加超链接 (URL)。 然后在 Power BI Desktop 或 Power BI 服务中，可以将这些超链接添加到报表表格和矩形图。 
@@ -44,7 +43,7 @@ ms.locfileid: "71715298"
     ![蓝色并带有下划线的链接](media/power-bi-hyperlinks-in-tables/power-bi-table-with-hyperlinks2.png)
 
     > [!NOTE]
-    >  URL 必须以 http://、 https://  或 www 开头。
+    > URL 必须以某些前缀开头。 有关完整列表，请参阅[注意事项和疑难解答](#considerations-and-troubleshooting)。
     >
    
 1. 如果不想在表中显示长 URL，则可以改为显示超链接  ![超链接图标](media/power-bi-hyperlinks-in-tables/power-bi-hyperlink-icon.png) 。 请注意，不能在矩阵中显示图标。
@@ -80,8 +79,9 @@ ms.locfileid: "71715298"
 4. 将光标置于包含你想要将其转换为 Power BI 表中的超链接的 URL 的列。
    
    > [!NOTE]
-   >  URL 必须以 http://、 https://  或 www 开头。
+   > URL 必须以某些前缀开头。 有关完整列表，请参阅[注意事项和疑难解答](#considerations-and-troubleshooting)。
    > 
+   
 5. 在 **Reporting 属性**组中，选择**数据类别**下拉列表，然后选择 **Web URL**。 
    
    ![Excel 中的数据类别下拉列表](media/power-bi-hyperlinks-in-tables/createhyperlinksnew.png)
@@ -92,6 +92,16 @@ ms.locfileid: "71715298"
    ![使用 URL 字段在 Power BI 中创建表](media/power-bi-hyperlinks-in-tables/hyperlinksintables.gif)
 
 ## <a name="considerations-and-troubleshooting"></a>注意事项和疑难解答
+
+URL 必须以下列前缀之一开头：
+- http
+- https
+- -mailto
+- file
+- ftp
+- news
+- telnet
+
 问：是否可以使用自定义 URL 作为表或矩阵中的超链接？    
 答：否。 可以使用链接图标。 如需为你的超链接使用自定义文本且你的 URL 列表较短，请考虑改用文本框。
 
@@ -101,5 +111,5 @@ ms.locfileid: "71715298"
 
 [Power BI 服务中设计器的基本概念](service-basic-concepts.md)
 
-更多问题？ [尝试参与 Power BI 社区](http://community.powerbi.com/)
+更多问题？ [尝试参与 Power BI 社区](https://community.powerbi.com/)
 

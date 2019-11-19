@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 10/03/2019
 ms.author: painbar
 LocalizationGroup: ''
-ms.openlocfilehash: e91f1d5084957ee7266161b9a34f916e2902d1f4
-ms.sourcegitcommit: 5e277dae93832d10033defb2a9e85ecaa8ffb8ec
+ms.openlocfilehash: c2cc5f9da8ea12709d8244a1e82d8283f66f2413
+ms.sourcegitcommit: 2aa83bd53faad6fb02eb059188ae623e26503b2a
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/07/2019
-ms.locfileid: "72019585"
+ms.lasthandoff: 10/29/2019
+ms.locfileid: "73021037"
 ---
 # <a name="data-lineage-preview"></a>数据世系（预览版）
 在现代商业智能 (BI) 项目中，了解数据从数据源到其目标的流可能是一项挑战。 如果已生成跨多个数据源、项目和依赖项的高级分析项目，则该挑战甚至更艰巨。  “如果更改此数据会发生什么情况？” 或“为什么此报表不是最新的？”之类的问题 可能很难回答。 他们可能需要专家团队或进行深入调查才能找到答案。 我们设计了数据世系视图来帮助你回答这些问题。
@@ -55,7 +55,7 @@ Power BI 具有多种项目类型，如仪表板、报表、数据集和数据�
  
 如果工作区中的报表基于另一个工作区中的数据集生成，则会在数据集卡上看到源工作区名称。 选择源工作区名称以转到该工作区。
  
-- 对于任何项目，选择省略号 (...) 可查看选项菜单。 它具有列表视图中可用的所有相同操作。
+- 对于任何项目，选择“更多选项”(…) 以查看选项菜单  。 它具有列表视图中可用的所有相同操作。
   
 若要查看数据集上的更多元数据，请选择数据集卡本身。 有关数据集的其他信息显示在侧窗格中。
 
@@ -89,7 +89,8 @@ Power BI 具有多种项目类型，如仪表板、报表、数据集和数据�
 
 ## <a name="considerations-and-limitations"></a>注意事项和限制
 
-世系视图在 Internet Explorer 中不可用。 有关详细信息，请参阅 [Power BI 支持的浏览器](power-bi-browsers.md)。
+- 世系视图在 Internet Explorer 中不可用。 有关详细信息，请参阅 [Power BI 支持的浏览器](power-bi-browsers.md)。
+- 世系视图在“我的工作区”中不可用。
 
 ## <a name="next-steps"></a>后续步骤
 

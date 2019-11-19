@@ -1,0 +1,36 @@
+- name: Power BI 指导性文档
+  href: index.yml
+  expanded: true
+  items:
+    - name: 概述
+      expanded: true
+      items:
+        - name: 概述
+          href: overview.md
+    - name: 概念
+      expanded: true
+      items:
+        - name: 什么是星型架构？
+          href: star-schema.md
+        - name: 减少数据模型大小
+          href: import-modeling-data-reduction.md
+        - name: DIVIDE 函数与除法运算符 (/)
+          href: dax-divide-function-operator.md
+        - name: 查询折叠的重要性
+          href: power-query-folding.md
+        - name: 适当使用错误函数
+          href: dax-error-functions.md
+        - name: 数据流的最佳做法
+          href: ../service-dataflows-best-practices.md
+        - name: Power BI Desktop 中的 DirectQuery 模型指导
+          href: directquery-model-guidance.md
+    - name: 白皮书
+      items:
+        - name: 白皮书概述
+          href: ../whitepapers.md
+        - name: Power BI 安全白皮书
+          href: ../whitepaper-powerbi-security.md
+        - name: Power BI Premium 部署
+          href: ../whitepaper-powerbi-premium-deployment.md
+        - name: 使用 Azure Active Directory B2B 在外部分发 Power BI
+          href: ../whitepaper-azure-b2b-power-bi.md

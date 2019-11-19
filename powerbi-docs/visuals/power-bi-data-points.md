@@ -2,20 +2,19 @@
 title: 大型数据集、数据点限制和数据策略
 description: 视觉对象和数据缩减策略的数据限制
 author: mihart
-manager: kvivek
-ms.reviewer: ''
+ms.reviewer: amac
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 11/02/2018
+ms.date: 11/07/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 6b5f2fa44a45cca06f90474d8c76fd6f06cae3ce
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: 1ae0fc339d3837c8fc28cc604b3ddb840807dcd5
+ms.sourcegitcommit: 0d7ad791a2d2bef45d5d60e38e0af4c9fc22187b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61276390"
+ms.lasthandoff: 11/13/2019
+ms.locfileid: "74011299"
 ---
 # <a name="data-point-limits-and-strategies-by-visual-type"></a>数据点限制和策略（按视觉对象类型）
 
@@ -64,7 +63,7 @@ ms.locfileid: "61276390"
 - 处于分类模式时
     - 类别：通过一次使用 500 行的窗口进行虚拟化
     - 系列：前 60 个
-    - 处于标量模式下时（这样可以使用动态限制）
+    - 处于标量模式下时（可使用动态限制）
         - 最大点数：10,000
         - 类别：500 个值的示例
         - 系列：前 20 个值
@@ -73,7 +72,7 @@ ms.locfileid: "61276390"
 - 值：通过一次使用 200 行的窗口进行虚拟化
 
 ### <a name="combo-chart"></a>组合图
- 使用相同策略作为柱形图。 请注意，组合图中的行  不会使用折线图  使用的高密度算法。
+ 使用相同策略作为柱形图。 请注意，**组合图**中的行不会使用**折线图**使用的高密度算法。
 
 ### <a name="custom-visuals"></a>自定义视觉对象
 最多可以获得 30,000 个，但由视觉对象作者指示要使用的策略
@@ -113,8 +112,8 @@ ms.locfileid: "61276390"
 - 纬度、经度：请参阅[高密度散点图](desktop-high-density-scatter-charts.md)
 - 纬度、经度、大小：前 3,500 个
 - 图例、纬度、经度：请参阅[高密度散点图](desktop-high-density-scatter-charts.md)
-- 图例、纬度、经度、大小：前 233 个图例、前 15 个纬度和经度（这样可以使用统计信息或动态限制）
-- 位置、图例、纬度和经度聚合（+/- 大小）：前 233 个位置、前 15 个图例（这样可以使用统计信息或动态限制）
+- 图例、纬度、经度、大小：前 233 个图例、前 15 个纬度和经度（可使用统计信息或动态限制）
+- 位置、图例、纬度和经度聚合（+/- 大小）：前 233 个位置、前 15 个图例（可使用统计信息或动态限制）
 
 ### <a name="matrix"></a>矩阵
 - 行：通过一次使用 500 行的窗口进行虚拟化
@@ -142,21 +141,20 @@ ms.locfileid: "61276390"
 - 处于分类模式时
     - 类别：通过一次使用 500 行的窗口进行虚拟化（数据窗口化）
     - 系列：前 60 个
-    - 处于标量模式下时（这样可以使用动态限制）
+    - 处于标量模式下时（可使用动态限制）
         - 最大点数：10,000
         - 类别：500 个值的示例
         - 系列：前 20 个值
 
-### <a name="shape-map"></a>形状映射
-着色地图可以使用统计信息或动态限制。 
-- 最大点数：10,000
+### <a name="shape-map-preview"></a>形状映射（预览版）
+形状映射可使用统计信息或动态限制。 
+- 最大点数：1,500
 - 类别：前 500 个
-- 系列（同时显示 X 和 Y 时）：前 20 个
 
 ### <a name="table"></a>表
 - 值：通过一次使用 500 行的窗口进行虚拟化（数据窗口化）
 
-### <a name="tree-map-this-could-use-statistics-or-dynamic-limits"></a>树形图（这样可以使用统计信息或动态限制）
+### <a name="tree-map-could-use-statistics-or-dynamic-limits"></a>树形图（可使用统计信息或动态限制）
 - 最大点数：3,500
 - 组：前 500 个
 - 详细信息:前 20 个

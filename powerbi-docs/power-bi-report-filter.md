@@ -2,7 +2,6 @@
 title: Power BI 报表中的新筛选器体验
 description: Power BI 中的筛选器添加了新功能和新设计。
 author: maggiesMSFT
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 09/06/2019
 ms.author: maggies
 LocalizationGroup: Reports
-ms.openlocfilehash: e5e67863888e5bd6d611ded7a58254fe693f4bb6
-ms.sourcegitcommit: 226b47f64e6749061cd54bf8d4436f7deaed7691
+ms.openlocfilehash: ab7d8a34211b9cb8addd90daf2cbce7d22f10e61
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/09/2019
-ms.locfileid: "70841259"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73875146"
 ---
 # <a name="the-new-filter-experience-in-power-bi-reports"></a>Power BI 报表中的新筛选器体验
 
@@ -44,7 +43,7 @@ Power BI 中的筛选器新增了功能，并采用了新设计。 选择启用�
 ### <a name="turn-on-new-filters-for-an-existing-report-in-power-bi-desktop"></a>在 Power BI Desktop 中为现有报表启用新筛选器
 
 1. 在 Power BI Desktop 的现有报表中，选择“文件”   > “选项和设置”   > “选项” 
-2. 在左侧导航栏的“当前文件”  下，选择“报表设置”  。
+2. 在导航窗格的“当前文件”下方，选择“报表设置”   。
 3. 在“筛选体验”  下，选择“启用更新后的‘筛选器’窗格，并在此报表的视觉对象标头中显示筛选器”  。
 
 ### <a name="turn-on-new-filters-for-an-existing-report-in-the-service"></a>在该服务中为现有报表启用新筛选器
@@ -238,5 +237,5 @@ Power BI 中的筛选器新增了功能，并采用了新设计。 选择启用�
 - [报表中的筛选器和突出显示](power-bi-reports-filters-and-highlighting.md)
 - [Power BI 中不同种类的筛选器](power-bi-report-filter-types.md)
 
-更多问题？ [尝试参与 Power BI 社区](http://community.powerbi.com/)
+更多问题？ [尝试参与 Power BI 社区](https://community.powerbi.com/)
 

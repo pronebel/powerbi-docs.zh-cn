@@ -2,7 +2,6 @@
 title: 使用 Power BI 服务打印
 description: 使用 Power BI 打印仪表板、磁贴或报表页。
 author: mihart
-manager: kvivek
 ms.reviewer: ''
 featuredvideoid: ''
 ms.service: powerbi
@@ -11,14 +10,17 @@ ms.topic: conceptual
 ms.date: 09/18/2019
 ms.author: mihart
 LocalizationGroup: Common tasks
-ms.openlocfilehash: 4e211677026d66b89631063cf07e38ce1e46ee10
-ms.sourcegitcommit: 7a0ce2eec5bc7ac8ef94fa94434ee12a9a07705b
+ms.openlocfilehash: ec633b5e41936363663736807979dc08f50820b1
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/18/2019
-ms.locfileid: "71100208"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73862765"
 ---
 # <a name="printing-from-the-power-bi-service"></a>使用 Power BI 服务打印
+
+[!INCLUDE [power-bi-service-new-look-include](../includes/power-bi-service-new-look-include.md)]
+
 使用 Power BI 服务打印整个仪表板、仪表板磁贴、报表页或报表视觉对象。 一次只能打印一页报表，而不能一次打印整个报表。
 
    > [!NOTE]
@@ -37,7 +39,7 @@ ms.locfileid: "71100208"
 
 ## <a name="print-a-dashboard-tile"></a>打印仪表板磁贴
 1. 通过从上方菜单栏中选择全屏图标 ![全屏图标](./media/end-user-print/power-bi-full-screen-icon.png)，以[全屏模式](end-user-focus.md)打开仪表板。
-3. 通过将鼠标悬停在其上方以显示省略号 (...)，并选择“以焦点模式打开”或焦点图标![焦点图标](./media/end-user-print/power-bi-focus-icon.png)，以[焦点模式](end-user-focus.md)打开该磁贴  。
+3. 通过将鼠标悬停在其上方以显示“更多选项”(…)，并选择“以焦点模式打开”或焦点图标![焦点图标](./media/end-user-print/power-bi-focus-icon.png)，从而[以焦点模式打开该磁贴](end-user-focus.md)   。
    
     ![省略号菜单](./media/end-user-print/power-bi-menu-options.png)
 4. 将鼠标悬停在该磁贴以显示“选项”菜单。
@@ -79,5 +81,5 @@ ms.locfileid: "71100208"
 ## <a name="next-steps"></a>后续步骤
 [与同事和其他人共享仪表板和报表](../service-share-dashboards.md)
 
-更多问题？ [尝试参与 Power BI 社区](http://community.powerbi.com/)
+更多问题？ [尝试参与 Power BI 社区](https://community.powerbi.com/)
 

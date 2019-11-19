@@ -3,18 +3,17 @@ title: 安装 Power BI 报表服务器
 description: 了解如何安装 Power BI 报表服务器。
 author: maggiesMSFT
 ms.author: maggies
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 05/22/2019
-ms.openlocfilehash: c0e3666a5838ae8e3849f5defd3858c9ea205a42
-ms.sourcegitcommit: 797bb40f691384cb1b23dd08c1634f672b4a82bb
+ms.openlocfilehash: eecddd9251bbce732e9dc4ef70ad0d855f499d11
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/12/2019
-ms.locfileid: "66839432"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73874132"
 ---
 # <a name="install-power-bi-report-server"></a>安装 Power BI 报表服务器
 
@@ -46,7 +45,7 @@ ms.locfileid: "66839432"
 
 如果已购买 Power BI Premium，则可以在 Power BI 管理门户的“Premium 设置”  选项卡中访问 Power BI 报表服务器产品密钥。 这仅适用于分配了 Power BI 服务管理员角色的全局管理员或用户。
 
-![高级设置](../report-server/media/install-report-server/pbirs-product-key.png "Premium 设置中的 Power BI 报表服务器密钥")
+![Premium 设置](../report-server/media/install-report-server/pbirs-product-key.png "高级设置中的 Power BI 报表服务器密钥")
 
 选择“Power BI 报表服务器密钥”  会显示包含产品密钥的对话框。 可以复制该密钥并用来进行安装。
 
@@ -127,14 +126,14 @@ URL 预留由前缀、主机名、端口和虚拟目录组成：
 | 部分 | 说明 |
 | --- | --- |
 | 前缀 |默认前缀为 HTTP。 如果以前安装了安全套接字层 (SSL) 证书，安装程序会尝试创建使用 HTTPS 前缀的 URL 预留。 |
-| 主机名 |默认主机名为强通配符 (+)。 它指定报表服务器接受针对解析为计算机的任何主机名从指定端口发出的任何 HTTP 请求，包括 `http://<computername>/reportserver`、`http://localhost/reportserver` 或 `http://<IPAddress>/reportserver.` |
+| 主机名 |默认主机名为强通配符 (+)。 它指定报表服务器接受针对解析为计算机的任何主机名从指定端口发出的任何 HTTP 请求，包括 `https://<computername>/reportserver`、`https://localhost/reportserver` 或 `https://<IPAddress>/reportserver.` |
 | 端口 |默认端口为 80。 如果使用的端口不是 80，则需要在浏览器窗口中打开 Web 门户时，将其明确添加到 URL 中。 |
 | 虚拟目录 |默认情况下，对于报表服务器 Web 服务，虚拟目录的创建格式为 ReportServer；对于 Web 门户，虚拟目录的创建格式为 Reports。 对于报表服务器 Web 服务，默认虚拟目录为 reportserver  。 对于 Web 门户，默认虚拟目录为 reports  。 |
 
 完整 URL 字符串的示例如下所示：
 
-* `http://+:80/reportserver`：提供对报表服务器的访问权限。
-* `http://+:80/reports`：提供对 Web 门户的访问权限。
+* `https://+:80/reportserver`：提供对报表服务器的访问权限。
+* `https://+:80/reports`：提供对 Web 门户的访问权限。
 
 ## <a name="firewall"></a>防火墙
 

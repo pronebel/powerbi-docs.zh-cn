@@ -2,7 +2,6 @@
 title: Power BI 中的 Azure 机器学习集成
 description: 了解如何使用 Power BI 中的机器学习
 author: davidiseminger
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 05/31/2019
 ms.author: davidi
 LocalizationGroup: conceptual
-ms.openlocfilehash: 9593296b0e09340fe4f62fff7a2e7722912a4216
-ms.sourcegitcommit: e533c65607bbba0f620fddabd6b107e5933772c1
+ms.openlocfilehash: 2f872825c327b8195e7a6e5516e0b533235ddc27
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/11/2019
-ms.locfileid: "72259940"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73872090"
 ---
 # <a name="azure-machine-learning-integration-in-power-bi"></a>Power BI 中的 Azure 机器学习集成
 
@@ -43,7 +42,7 @@ ms.locfileid: "72259940"
 
 1. 登录 [Azure 门户](https://portal.azure.com)。
 
-2. 转到“订阅”  页。 可以通过 Azure 门户左侧导航菜单中的“所有服务”  列表找到“订阅”  页。
+2. 转到“订阅”  页。 可以通过 Azure 门户导航窗格菜单中的“所有服务”列表找到“订阅”页   。
 
     ![Azure 订阅页](media/service-machine-learning-integration/machine-learning-integration_01.png)
 
@@ -68,7 +67,7 @@ ms.locfileid: "72259940"
 
 数据科学家主要使用 Python 来为机器学习服务开发甚至部署其机器学习模型。  与机器学习工作室（有助于自动执行创建模型的架构文件的任务）不同，在机器学习服务中，数据科学家必须使用 Python 显式生成架构文件。
 
-此架构文件必须包含在为机器学习服务模型部署的 Web 服务中。 若要自动生成 Web 服务的架构，必须在已部署模型的条目脚本中提供输入/输出的示例。 请参阅 Azure 机器学习服务文档的部署模型中关于（可选）自动生成 Swagger 架构的子节。 该链接包括示例条目脚本以及架构生成的语句。 
+此架构文件必须包含在为机器学习服务模型部署的 Web 服务中。 若要自动生成 Web 服务的架构，必须在已部署模型的条目脚本中提供输入/输出的示例。 请参阅 [Azure 机器学习服务文档的部署模型中关于（可选）自动生成 Swagger 架构](https://docs.microsoft.com/azure/machine-learning/service/how-to-deploy-and-where#optional-automatic-schema-generation)的子节。 该链接包括示例条目脚本以及架构生成的语句。 
 
 具体来说，条目脚本中的 \@input_schema  和 \@output_schema  函数引用了 input_sample 和 output_sample 变量中的输入和输出示例格式，并在部署期间使用这些示例为 Web 服务生成 OpenAPI (Swagger) 规范   。
 
@@ -87,7 +86,7 @@ ms.locfileid: "72259940"
 
 ![Power Query 编辑器](media/service-machine-learning-integration/machine-learning-integration_06.png)
 
-选择功能区中的“AI 见解”  按钮，然后选择左侧导航菜单中的“Azure 机器学习模型”  文件夹。 有权访问的所有 Azure ML 模型都在此处作为 Power Query 函数列出。 此外，会将 Azure ML 模型的输入参数自动映射为相应的 Power Query 函数的参数。
+选择功能区中的“AI 见解”按钮，然后选择导航窗格菜单中的“Azure 机器学习模型”文件夹   。 有权访问的所有 Azure ML 模型都在此处作为 Power Query 函数列出。 此外，会将 Azure ML 模型的输入参数自动映射为相应的 Power Query 函数的参数。
 
 若要调用 Azure ML 模型，可以从下拉列表中将任一选定的实体的列指定为输入。 此外，还可以通过将列图标切换到输入对话框左侧来指定要用作输入内容的常量值。
 

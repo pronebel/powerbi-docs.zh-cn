@@ -3,22 +3,25 @@ title: 对 Power BI 服务中的内容进行搜索和排序
 description: 用于对 Power BI 我的工作区中的内容进行搜索和排序的文档
 author: mihart
 manager: kvivek
-ms.reviewer: ''
+ms.reviewer: willt
 ms.custom: ''
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 08/21/2019
+ms.date: 10/21/2019
 ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: e32f0da4c512434fb316c010f2547de3ad5828e5
-ms.sourcegitcommit: 52aa112ac9194f4bb62b0910c4a1be80e1bf1276
+ms.openlocfilehash: d5bc5638d9f98c1a35f57edd1d5d838c91c8ebf2
+ms.sourcegitcommit: 96217747f07d923d1a9d31f67a853f1ef1d17b20
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "70302789"
+ms.lasthandoff: 10/24/2019
+ms.locfileid: "72891792"
 ---
 # <a name="navigation-searching-finding-and-sorting-content-in-power-bi-service"></a>导航：在 Power BI 服务中搜索、查找和排序内容
+
+[!INCLUDE [power-bi-service-new-look-include](../includes/power-bi-service-new-look-include.md)]
+
 可通过多种方法在 Power BI 服务中导航到相应内容。 工作区中的内容已按以下类型进行组织：仪表板和报表。  此外，内容已按使用情况进行组织：收藏夹、最近、应用、与我共享和特色。 为实现一站式导航，Power BI 主页将全部内容组织在同一页面上  。 通过这些不同的内容浏览途径可以在 Power BI 服务中快速找到所需的内容。  
 
 ## <a name="navigation-within-workspaces"></a>在工作区中导航
@@ -44,10 +47,10 @@ ________________________________________
 不是所有列都可以进行排序。 将鼠标悬停在列标题上可发现哪些列可以进行排序。
 
 ___________________________________________________________________
-## <a name="navigation-using-the-left-nav-bar"></a>使用左侧导航栏导航
-左侧导航栏对内容进行分类，帮助你快速找到所需的内容。  
+## <a name="navigation-using-the-navigation-pane"></a>使用导航窗格导航
+导航窗格对内容进行分类，帮助你快速找到所需的内容。  
 
-![左侧导航栏](./media/end-user-search-sort/power-bi-navbar.png)
+![左侧导航窗格](./media/end-user-search-sort/power-bi-navbar.png)
 
 
 - “与我共享”中显示与你共享的内容  。

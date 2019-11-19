@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/01/2019
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 069ec5e0c767bcfcb0a4a41c2180ae78146800f2
-ms.sourcegitcommit: 5e277dae93832d10033defb2a9e85ecaa8ffb8ec
+ms.openlocfilehash: 363f75305b4c0f7f698442ce4503ad3220627c71
+ms.sourcegitcommit: 2aa83bd53faad6fb02eb059188ae623e26503b2a
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/07/2019
-ms.locfileid: "72020867"
+ms.lasthandoff: 10/29/2019
+ms.locfileid: "73020304"
 ---
 # <a name="build-permission-for-shared-datasets-preview"></a>共享数据集的生成权限（预览版）
 
@@ -29,7 +29,7 @@ ms.locfileid: "72020867"
 
 - 至少具有“参与者”角色的工作区的成员自动拥有该工作区中的数据集的“生成”权限以及复制报表的权限。
  
-- 数据集所在的工作区中的成员可以在“权限中心”将权限分配给特定用户或安全组。 如果你是工作区的成员，请选择数据集旁边的省略号 (...) >“管理权限”  。
+- 数据集所在的工作区中的成员可以在“权限中心”将权限分配给特定用户或安全组。 如果你是工作区的成员，请选择数据集旁边的“更多选项”(...) >“管理权限”   。
 
     ![选择省略号](media/service-datasets-build-permissions/power-bi-dataset-permissions-new-look.png)
 
@@ -50,11 +50,11 @@ ms.locfileid: "72020867"
 有时可能需要删除共享数据集的某些用户的生成权限。 
 
 1. 在工作区中，转到“数据集”  列表页。 
-1. 选择数据集旁边的省略号 (...) >“管理权限”  。
+1. 选择数据集旁边的“更多选项”(...) >“管理权限”   。
 
     ![管理权限](media/service-datasets-build-permissions/power-bi-dataset-permissions-new-look.png)
 
-1. 选择名称旁边的省略号 (...) >“删除生成”  。
+1. 选择名称旁边的“更多选项”(...) >“删除生成”   。
 
     ![删除生成权限](media/service-datasets-build-permissions/power-bi-dataset-remove-build-permissions.png)
 
@@ -80,11 +80,11 @@ ms.locfileid: "72020867"
 1. 选择“更新”  。
 
 1. 在工作区中，转到“数据集”  列表页。 
-1. 选择数据集旁边的省略号 (...) >“管理权限”  。
+1. 选择数据集旁边的“更多选项”(...) >“管理权限”   。
 
     ![管理权限](media/service-datasets-build-permissions/power-bi-dataset-permissions-new-look.png)
 
-1. 选择名称旁边的省略号 (...) >“删除生成”  。
+1. 选择名称旁边的“更多选项”(...) >“删除生成”   。
 
     ![删除生成权限](media/service-datasets-build-permissions/power-bi-dataset-remove-build-permissions.png)
 

@@ -2,20 +2,19 @@
 title: 关键影响因素可视化效果教程
 description: 教程：在 Power BI 中创建关键影响因素可视化效果
 author: mihart
-manager: kvivek
 ms.reviewer: juluczni
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: tutorial
-ms.date: 05/22/2019
+ms.date: 10/22/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 056457d5a90585fd30a0a85f95d28d1097c720b0
-ms.sourcegitcommit: e5cf19e16112c7dad1591c3b38d232267ffb3ae1
+ms.openlocfilehash: 80ed285a22c0272f3bd268397e0e019396b941d7
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "72544026"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73870997"
 ---
 # <a name="key-influencers-visualization"></a>关键影响因素可视化效果
 
@@ -58,7 +57,7 @@ ms.locfileid: "72544026"
    > 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/fDb5zZ3xmxU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-你的产品经理希望找出哪些因素会导致客户对云服务进行负面评论。 若要继续了解，请打开 Power BI Desktop 中的[客户反馈 .PBIX 文件](https://github.com/Microsoft/powerbi-desktop-samples/blob/master/2019/customerfeedback.pbix)。 也可以下载 [Power BI 服务 或 Power BI Desktop 的客户反馈 Excel 文件](https://github.com/Microsoft/powerbi-desktop-samples/blob/master/2019/customerfeedback.xlsx)。 
+你的产品经理希望找出哪些因素会导致客户对云服务进行负面评论。 若要继续了解，请打开 Power BI Desktop 中的[客户反馈 .PBIX 文件](https://github.com/Microsoft/powerbi-desktop-samples/blob/master/2019/customerfeedback.pbix)。 也可以下载 [Power BI 服务 或 Power BI Desktop 的客户反馈 Excel 文件](https://github.com/Microsoft/powerbi-desktop-samples/blob/master/2019/customerfeedback.xlsx)。 选择任一链接，然后在打开的 GitHub 页面中选择“下载”  。
 
 > [!NOTE]
 > 客户反馈数据集基于 [Moro et al., 2014] S. Moro, P. Cortez 和 P. Rita. “一种预测银行电话营销成功的数据驱动方法。” Decision Support Systems, Elsevier, 62:22-31, June 2014  。 
@@ -240,7 +239,7 @@ ms.locfileid: "72544026"
 
 ## <a name="analyze-a-metric-that-is-a-measure-or-a-summarized-column"></a>分析度量值或汇总列型指标
 
-如果是度量值或汇总列，则分析默认为[上述](https://docs.microsoft.com/en-us/power-bi/visuals/power-bi-visualization-influencers#analyze-a-metric-that-is-numeric)的“连续分析类型”  。 这无法更改。 分析度量值/汇总列和分析未汇总数字列之间的最大区别在于分析运行的级别。
+如果是度量值或汇总列，则分析默认为[上述](https://docs.microsoft.com/power-bi/visuals/power-bi-visualization-influencers#analyze-a-metric-that-is-numeric)的“连续分析类型”  。 这无法更改。 分析度量值/汇总列和分析未汇总数字列之间的最大区别在于分析运行的级别。
 
 如果是未汇总列，分析总是在表级运行。 在上述房价示例中，我们分析了“房价”指标，以了解房价上涨/下跌的影响因素  。 该分析在表级别自动运行。 表中每个房屋都有唯一的 ID，因此分析在房屋级别运行。
 
@@ -254,7 +253,7 @@ ms.locfileid: "72544026"
 
 这种分析完全是总结性的，因此回归模型很难在数据中发现可学习的模式。 应在更详细的级别运行分析，以获得更好的结果。 如果想要在房屋级别分析房价，则需要将“ID”字段显式添加到分析  。 但我们不想将房屋 ID 视为影响因素。 了解房价随房屋 ID 的增加而上涨没有意义。 这时，“扩展方式”字段格选项就很方便  。 使用“扩展方式”，可添加要用于设置分析级别的字段，而无需寻找新的影响因素  。
 
-将“ID”添加到“扩展方式”之后，查看可视化效果   。 定义了想要评估度量值的级别之后，解释[未汇总数字列](https://docs.microsoft.com/en-us/power-bi/visuals/power-bi-visualization-influencers#analyze-a-metric-that-is-numeric)的影响因素是完全相同的。
+将“ID”添加到“扩展方式”之后，查看可视化效果   。 定义了想要评估度量值的级别之后，解释[未汇总数字列](https://docs.microsoft.com/power-bi/visuals/power-bi-visualization-influencers#analyze-a-metric-that-is-numeric)的影响因素是完全相同的。
 
 ![度量值表](media/power-bi-visualization-influencers/power-bi-ki-measures-analysis.png)
 

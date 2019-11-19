@@ -2,7 +2,6 @@
 title: 使用 Power BI 连接到 Salesforce
 description: 适用于 Power BI 的 Salesforce
 author: SarinaJoan
-manager: kfile
 ms.reviewer: maggiesMSFT
 ms.service: powerbi
 ms.subservice: powerbi-template-apps
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 05/30/2019
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: b351ba2151937b62002dc0cfca849cff58985581
-ms.sourcegitcommit: d441d350504f8c6d9e100d229757add6237f0bef
+ms.openlocfilehash: 6fedd3994a9e6a14ea89637a0c12aa8dd47928a9
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/30/2019
-ms.locfileid: "73060818"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73854622"
 ---
 # <a name="connect-to-salesforce-with-power-bi"></a>使用 Power BI 连接到 Salesforce
 你可以使用 Power BI 轻松连接到你的 Salesforce.com 帐户。 借助此连接，可检索 Salesforce 数据以及让系统自动提供仪表板和报表。
@@ -23,7 +22,7 @@ ms.locfileid: "73060818"
 详细了解 [Salesforce 与 Power BI 的集成](https://powerbi.microsoft.com/integrations/salesforce)。
 
 ## <a name="how-to-connect"></a>如何连接
-1. 在 Power BI 中，选择左侧导航窗格底部的“获取数据”  。
+1. 在 Power BI 中，选择导航窗格底部的“获取数据”  。
    
    ![](media/service-connect-to-salesforce/pbi_getdata.png) 
 2. 在**服务**框中，选择**获取**。
@@ -53,7 +52,7 @@ ms.locfileid: "73060818"
      
      如果看不到任何报表，请在你的 Salesforce 帐户中添加或创建它们，然后再次尝试连接。
 
-7. 单击“连接”以开始导入过程  。 导入期间，你会看到显示导入正在进行的通知。 导入完成时，你会看到包含 Salesforce 数据的仪表板、报表和数据集在左侧导航窗格中列出。
+7. 单击“连接”以开始导入过程  。 导入期间，你会看到显示导入正在进行的通知。 导入完成时，你会看到包含 Salesforce 数据的仪表板、报表和数据集在导航窗格中列出。
    
    ![](media/service-connect-to-salesforce/pbi_getdatasalesforcedash.png)
 

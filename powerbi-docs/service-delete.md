@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 09/11/2018
 ms.author: maggies
 LocalizationGroup: Common tasks
-ms.openlocfilehash: 087fe859c7b1a8ca732619866d492f143ff413c9
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: b010cfafc15c905cd792b9693777af94149cb1fe
+ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61157483"
+ms.lasthandoff: 11/01/2019
+ms.locfileid: "73431961"
 ---
 # <a name="delete-almost-anything-in-power-bi-service"></a>在 Power BI 服务中删除几乎所有内容
 本文介绍如何在 Power BI 服务中删除仪表板、报表、工作簿、数据集、应用、可视化效果和工作区。
@@ -71,7 +71,7 @@ ms.locfileid: "61157483"
 
 ### <a name="to-delete-a-dataset"></a>删除数据集
 1. 在“我的工作区”中，选择“数据集”  选项卡。
-2. 找到要删除的数据集并选择省略号 (...)。  
+2. 找到要删除的数据集并选择“更多选项”(…)  。  
 
     ![“数据集”选项卡](media/service-delete/power-bi-delete-datasetnew.png)
 3. 从下拉列表中，选择“删除”  。
@@ -81,40 +81,41 @@ ms.locfileid: "61157483"
 
    ![“删除仪表板”对话框](media/service-delete/power-bi-delete-dataset-confirm.png)
 
-## <a name="delete-an-app-workspace"></a>删除应用工作区
+## <a name="delete-a-workspace"></a>删除工作区
 > [!WARNING]
-> 创建应用工作区后，将创建 Office 365 组。 删除应用工作区后，将删除相应的 Office365 组。 也就是说，组也会从 SharePoint 和 Microsoft Teams 等其他 O365 产品中删除。
+> 创建工作区时，即会创建 Office 365 组。 删除工作区时，即会删除相应的 Office365 组。 也就是说，组也会从 SharePoint 和 Microsoft Teams 等其他 O365 产品中删除。
 >
 >
 
-作为应用工作区作者，你可以将其删除。 删除它时，如果已将应用发布到整个组织，则同时还会删除所有组成员的关联应用并从你的 AppSource 中删除。 删除应用工作区不同于离开应用工作区。
+作为工作区创建者，你可以删除工作区。 删除它时，如果已将应用发布到整个组织，则同时还会删除所有组成员的关联应用并从你的 AppSource 中删除。 删除工作区不同于离开工作区。
 
-### <a name="to-delete-an-app-workspace---if-you-are-an-admin"></a>以管理员身份删除应用工作区
+### <a name="to-delete-a-workspace---if-you-are-an-admin"></a>以管理员身份删除工作区
 1. 从左侧导航栏中选择“工作区” 
 
-    ![应用工作区](media/service-delete/power-bi-delete-workspace.png)
-2. 选择要删除的工作区右侧的省略号 (...)，然后选择“编辑工作区”  。
+2. 选择要删除的工作区右侧的“更多选项”(…)，然后选择“编辑工作区”   。
 
-   ![省略号菜单 > 编辑工作区](media/service-delete/power-bi-edit-workspace.png)
+    ![工作区](media/service-delete/power-bi-delete-workspace.png)
+
 3. 在“编辑工作区”  窗口中，选择“删除工作区”   > “删除”  。
 
     ![删除工作区](media/service-delete/power-bi-delete-workspace2.png)
 
-### <a name="to-remove-an-app-workspace-from-your-list"></a>从列表中删除应用工作区
-如果你不想再成为应用工作区的成员，可以“离开”它，它将从你的列表中删除。 离开工作区对于所有其他工作区成员不会有任何影响。  
+### <a name="to-remove-a-workspace-from-your-list"></a>从列表中删除工作区
+如果你不想再成为工作区的成员，可以“离开”工作区，该工作区将从你的列表中删除。 离开工作区对于所有其他工作区成员不会有任何影响。  
 
 > [!IMPORTANT]
-> 如果你是应用工作区的唯一管理员，Power BI 将不允许你离开。
+> 如果你是工作区的唯一管理员，Power BI 将不允许你离开。
 >
 >
 
-1. 从你想要删除的应用工作区中开始。
-2. 在右上角，选择省略号 (...)，然后选择“离开工作区”   > “离开”  。
+1. 在想要删除的工作区中开始操作。
+
+2. 在右上角，选择“更多选项”(…)，然后选择“离开工作区” > “离开”    。
 
       ![退出工作区](media/service-delete/power-bi-leave-workspace.png)
 
    > [!NOTE]
-   > 在下拉列表中看到的选项取决于你是该应用工作区的管理员还是成员。
+   > 你在下拉列表中看到的选项取决于你是该工作区的管理员还是成员。
    >
    >
 

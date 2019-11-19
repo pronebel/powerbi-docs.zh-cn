@@ -9,18 +9,18 @@ ms.topic: conceptual
 ms.date: 05/29/2019
 ms.author: maggies
 LocalizationGroup: Ask questions of your data
-ms.openlocfilehash: 584dacbb3823f1a7c2475c780124985992a4b1d4
-ms.sourcegitcommit: 8bf2419b7cb4bf95fc975d07a329b78db5b19f81
-ms.translationtype: MT
+ms.openlocfilehash: b1792abeed1a4a03cb8e3f49acb4ed8aa53b1be0
+ms.sourcegitcommit: 2aa83bd53faad6fb02eb059188ae623e26503b2a
+ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "66375162"
+ms.lasthandoff: 10/29/2019
+ms.locfileid: "73020491"
 ---
 # <a name="enable-cortana-to-access-power-bi-reports-and-their-underlying-datasets"></a>使 Cortana 能够访问 Power BI 报表（及其基础数据集）
 你已阅读 [Cortana 和 Power BI 简介](service-cortana-intro.md)（如果未阅读，请先阅读简介，然后再返回此步骤）。 并且，现在想要自己尝试一下。  在 Cortana 中使用自然语言提问，并从存储在 Power BI 报表的数据中找到答案之前，有几个要求需要注意。 具体而言，需要执行以下操作。
 
 > [!IMPORTANT]
-> Cortana 集成 Power BI 中已弃用。 从 6 月 11 日，Cortana 将不再适用于任何仪表板和报表中。
+> Power BI 即将弃用 Cortana 集成。 从 6 月 11 日开始，Cortana 不再适用于任何仪表板和报表。
 
 在 Power BI 服务中
 
@@ -42,7 +42,7 @@ ms.locfileid: "66375162"
 2. 与此报表关联的数据集是 Contoso 销售额  。
    
     ![Contoso 销售额数据集](media/service-cortana-enable/power-bi-identify-dataset.png)
-3. 在数据集名称的右侧，选择省略号 (...) >“设置”  。  
+3. 在数据集名称的右侧，选择“更多选项”(…) >“设置”  。  
    
     ![选择“设置”](media/service-cortana-enable/power-bi-settings-cortana.png)
 4. 选择“问答和 Cortana”   > “允许 Cortana 访问此数据集”   > “应用”  。

@@ -3,7 +3,6 @@ title: 优化 Microsoft Power BI Premium 容量
 description: 介绍 Power BI Premium 容量的优化策略。
 author: mgblythe
 ms.author: mblythe
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
@@ -11,12 +10,12 @@ ms.topic: conceptual
 ms.date: 04/09/2019
 ms.custom: seodec18
 LocalizationGroup: Premium
-ms.openlocfilehash: 1fb775bd203fc1e0f6342a0d5cd4d9e382b8342a
-ms.sourcegitcommit: 9665997274301b228f45aa7250ba557e90164a4d
+ms.openlocfilehash: d2e8ede356ed015c4c35b311ca58d35366324b9a
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/06/2019
-ms.locfileid: "70750924"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73871916"
 ---
 # <a name="optimizing-premium-capacities"></a>优化高级容量
 
@@ -33,7 +32,7 @@ ms.locfileid: "70750924"
 
 尝试获得最佳利用率和性能时，有一些建议的最佳做法可供选择，包括：
 
-- 使用应用工作区而非个人工作区。
+- 使用工作区而非个人工作区。
 - 将业务关键型和自助式 BI (SSBI) 分入不同的容量。
 
   ![将业务关键型和自助式 BI 分入不同的容量](media/service-premium-capacity-optimize/separate-capacities.png)
@@ -257,7 +256,7 @@ ms.locfileid: "70750924"
 
 如果已有要进行负载测试的容量和报表，请使用 [PowerShell 负载生成工具](https://aka.ms/PowerBILoadTestingTool)快速生成负载测试。 借助该工具，可估算容量在一小时内可以运行的每个报表的实例数。 可使用该工具评估容量呈现单个报表或并行呈现多个不同报表的能力。 有关详细信息，请参阅视频 [Microsoft Power BI：高级容量](https://www.youtube.com/watch?time_continue=1860&v=C6vk6wk9dcw)。
 
-要生成更复杂的测试，请考虑开发用于模拟实际工作负载的负载测试应用程序。 有关详细信息，请参阅网络研讨会 [Load Testing Power BI Applications with Visual Studio Load Test](https://powerbi.microsoft.com/en-us/blog/week-4-11-webinars-load-testing-power-bi-applications-with-visual-studio-load-test-and-getting-started-with-cds-for-apps-based-model-driven-apps/)（使用 Visual Studio 负载测试对 Power BI 应用程序进行负载测试）。
+要生成更复杂的测试，请考虑开发用于模拟实际工作负载的负载测试应用程序。 有关详细信息，请参阅网络研讨会 [Load Testing Power BI Applications with Visual Studio Load Test](https://powerbi.microsoft.com/blog/week-4-11-webinars-load-testing-power-bi-applications-with-visual-studio-load-test-and-getting-started-with-cds-for-apps-based-model-driven-apps/)（使用 Visual Studio 负载测试对 Power BI 应用程序进行负载测试）。
 
 ## <a name="acknowledgements"></a>致谢
 

@@ -2,19 +2,18 @@
 title: 导入建模的数据缩减方法
 description: 了解有助于缩减加载到导入模型的数据的各种方法。
 author: peter-myers
-manager: asaxton
 ms.reviewer: asaxton
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 08/05/2019
 ms.author: v-pemyer
-ms.openlocfilehash: 794ded1bc310cfcecc609f48ee4f0595693ceeb3
-ms.sourcegitcommit: d9755602235ba03594c348571b9102c9bf88d732
+ms.openlocfilehash: c61a21f400de009815ecb685f989b1cdafbcdb22
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/15/2019
-ms.locfileid: "69520171"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73875608"
 ---
 # <a name="data-reduction-techniques-for-import-modeling"></a>导入建模的数据缩减方法
 
@@ -29,7 +28,7 @@ ms.locfileid: "69520171"
 - 较小型的模型可以更快地刷新数据，从而降低延迟报告、获得更高的数据集刷新吞吐量以及减少源系统和容量资源的压力。
 - 更小的表行数可以实现更快的计算评估，从而实现更优良的整体查询性能。
 
-本文介绍了七种不同的数据缩减方法。 其中包括：
+本文介绍了 8 种不同的数据缩减方法。 其中包括：
 
 - [删除不必要的列](#remove-unnecessary-columns)
 - [删除不必要的行](#remove-unnecessary-rows)
@@ -37,6 +36,7 @@ ms.locfileid: "69520171"
 - [优化列数据类型](#optimize-column-data-types)
 - [自定义列的首选项](#preference-for-custom-columns)
 - [禁用 Power Query 查询负载](#disable-power-query-query-load)
+- [禁用自动日期/时间](#disable-auto-datetime)
 - [切换为混合模式](#switch-to-mixed-mode)
 
 ## <a name="remove-unnecessary-columns"></a>删除不必要的列
@@ -85,6 +85,10 @@ VertiPaq 存储引擎存储模型计算列（在 DAX 中定义），就像存储
 拟支持与其他查询进行数据集成的 Power Query 查询不应加载到模型中。 要避免将查询加载到模型，请确保在这些实例中禁用查询加载。
 
 ![禁用 Power Query 查询的加载](media/import-modeling-data-reduction/power-query-disable-query-load.png)
+
+## <a name="disable-auto-datetime"></a>禁用自动日期/时间
+
+Power BI Desktop 包含一个称为“自动日期/时间”的选项  。 启用后，它会为日期列创建一个隐藏的自动日期/时间表，以便在报表作者对日历时间段配置筛选器、进行分组和向下钻取时为其提供支持。 隐藏表实际上是计算得出的表，它会增加模型的大小。 有关使用此选项的指南，请参阅 [Power BI Desktop 中的自动日期/时间指南](../desktop-auto-date-time.md)一文。
 
 ## <a name="switch-to-mixed-mode"></a>切换为混合模式
 

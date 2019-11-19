@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 08/29/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: e213bad8e7267abe0b49d1f460717dd817e9832a
-ms.sourcegitcommit: 5e277dae93832d10033defb2a9e85ecaa8ffb8ec
+ms.openlocfilehash: de72cab51a4d43d1a07d6ada0bd77888952817ab
+ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/07/2019
-ms.locfileid: "72020473"
+ms.lasthandoff: 11/01/2019
+ms.locfileid: "73429817"
 ---
 # <a name="connect-to-datasets-in-the-power-bi-service-from-power-bi-desktop"></a>通过 Power BI Desktop 连接 Power BI 服务中的数据集
 可以与 Power BI 服务中的共享数据集建立实时连接，并根据同一数据集创建多个不同的报表。 这意味着可以在 Power BI Desktop 中创建完美的数据模型，并将其发布到 Power BI 服务。 然后，你和其他人可以从同一个通用数据模型创建多个不同的报表（在单独的 .pbix 文件中），并将它们保存到不同的工作区。 此功能称为“Power BI 服务实时连接”  。
@@ -37,7 +37,7 @@ Power BI 的普及带来了一个问题，就是报表、仪表板及其基础�
 ### <a name="connect-to-a-power-bi-service-dataset-using-a-live-connection"></a>使用实时连接功能连接 Power BI 服务数据集
 创建自己的报表（及其依据的数据集）后，Anna 将报表发布到 Power BI 服务中，此报表显示在 Power BI 服务中她团队的工作区内  。 如果 Anna 将报表保存到新体验工作区，则她可以设置生成权限，以使报表可供所有进出其工作区的人员查看和使用  。
 
-若要了解有关新体验工作区的详细信息，请参阅[应用工作区](service-new-workspaces.md)。
+若要了解有关新体验工作区的详细信息，请参阅[工作区](service-new-workspaces.md)。
 
 进出 Anna 的工作区的其他成员现在可以与 Anna 共享的数据模型建立实时连接（使用 Power BI 服务实时连接功能），并在其自己的新体验工作区中根据其原始数据集创建其自己的独一无二的报表    。
 

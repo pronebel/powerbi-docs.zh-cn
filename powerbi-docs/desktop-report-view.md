@@ -2,7 +2,6 @@
 title: Power BI Desktop 中的报表视图
 description: Power BI Desktop 中的报表视图
 author: davidiseminger
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 09/19/2019
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: c76dfc45437fdc2406c89e41a4a076d9ef4e7a44
-ms.sourcegitcommit: 200291eac5769549ba5c47ef3951e2f3d094426e
+ms.openlocfilehash: 06b8c9d0be2ec8bc5b350767263bfc5e0ab4ec81
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/19/2019
-ms.locfileid: "71142175"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73877863"
 ---
 # <a name="report-view-in-power-bi-desktop"></a>Power BI Desktop 中的报表视图
 如果你一直在使用 Power BI，就知道它非常便于创建可为数据提供动态透视和深入见解的报表。 在 Power BI Desktop 中，Power BI 还具有更高级的功能。 通过 Power BI Desktop，可创建高级查询、混合多个源中的数据和创建表格之间的关系等。
@@ -29,7 +28,7 @@ Power BI Desktop 提供**报表视图**，可在其中创建任何数量具有�
 
 ![Power BI Desktop](media/desktop-report-view/pbi_reportviewinpbidesigner_reportview.png)
 
-通过选择左侧导航栏中的图标，可在报表视图、数据视图和关系视图之间切换    ：
+通过选择左侧导航窗格中的图标，可在**报表视图**、**数据视图**和**关系视图**之间切换：
 
 ![报表视图图标](media/desktop-report-view/pbi_reportviewinpbidesigner_changeview.png)
 

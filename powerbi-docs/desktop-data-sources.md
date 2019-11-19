@@ -2,20 +2,19 @@
 title: Power BI Desktop 中的数据源
 description: Power BI Desktop 中的数据源
 author: davidiseminger
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 10/14/2019
+ms.date: 10/25/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 56583c796a8f6e32bed67629dee4fe3bea677bee
-ms.sourcegitcommit: 549401b0e1fad15c3603fe7f14b9494141fbb100
+ms.openlocfilehash: c363e63a7354c2a8c66099a98cb441ce2c94becf
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/14/2019
-ms.locfileid: "72307841"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73878366"
 ---
 # <a name="data-sources-in-power-bi-desktop"></a>Power BI Desktop 中的数据源
 使用 Power BI Desktop，你可以连接到来自许多不同的源的数据。 在此页面底部列出了可用数据源的完整清单。
@@ -234,7 +233,7 @@ PBIDS 文件是具有特定结构的 Power BI Desktop 文件，并且具有 .PBI
 
 当作者打开 .PBIDS 文件时，Power BI Desktop 将打开并提示用户提供凭据，以进行身份验证并连接到文件中指定的数据源。 此时将显示“导航”对话框，用户必须从该数据源中选择要加载到模型中的表。 如果未在 .PBIDS 文件中指定数据库，用户可能还需要选择数据库。 
 
-之后，用户便可以开始生成可视化效果，或重新访问“最近使用的源”，将一组新的表加载到模型中。 
+之后，用户便可以开始生成可视化效果，或重新访问“最近使用的源”，将一组新的表加载到模型中  。 
 
 目前，.PBIDS 文件仅支持在一个文件中指定单个数据源。 指定多个数据源会导致错误。 
 
@@ -364,21 +363,20 @@ URL 必须指向 SharePoint 站点本身，而不是站点内的列表。 用户
 **SQL Server**
 ```
 { 
-  “version”: “0.1”, 
-  “connections”: [ 
+  "version": "0.1", 
+  "connections": [ 
     { 
-      “details”: { 
-        “protocol”: “tds”, 
-        “address”: { 
-          “server”: “server-name-here”, 
-          “database”: “db-name-here (optional)” 
+      "details": { 
+        "protocol": "tds", 
+        "address": { 
+          "server": "server-name-here", 
+          "database": "db-name-here (optional) "
         } 
       }, 
-      “options”: {}, 
-      “mode”: “DirectQuery” 
+      "options": {}, 
+      "mode": "DirectQuery" 
     } 
   ] 
-} 
 } 
 ```
  
@@ -419,6 +417,24 @@ URL 必须指向 SharePoint 站点本身，而不是站点内的列表。 用户
 ```
  
 
+**数据流**
+```
+{
+  "version": "0.1",
+  "connections": [
+    {
+      "details": {
+        "protocol": "powerbi-dataflows",
+        "address": {
+          "workspace":"workspace id (Guid)",
+          "dataflow":"optional dataflow id (Guid)",
+          "entity":"optional entity name"
+        }
+       }
+    }
+  ]
+}
+```
 
 
 ## <a name="next-steps"></a>后续步骤

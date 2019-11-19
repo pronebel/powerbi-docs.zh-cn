@@ -2,7 +2,6 @@
 title: 错误：我们在你的 Excel 工作簿中找不到任何数据
 description: 错误：我们在你的 Excel 工作簿中找不到任何数据
 author: mgblythe
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
@@ -11,12 +10,12 @@ ms.date: 04/30/2019
 ms.author: mblythe
 ms.custom: seodec18
 LocalizationGroup: Troubleshooting
-ms.openlocfilehash: c32133a7958c1239337a5f77a92dde098652514e
-ms.sourcegitcommit: e5cf19e16112c7dad1591c3b38d232267ffb3ae1
+ms.openlocfilehash: 08de5051adb420bc2a3b257fcc231730aa505b23
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "72542853"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73873402"
 ---
 # <a name="error-we-couldnt-find-any-data-in-your-excel-workbook"></a>错误：我们在你的 Excel 工作簿中找不到任何数据
 
@@ -61,7 +60,7 @@ ms.locfileid: "72542853"
    
     ![格式化为表格的数据](media/service-admin-troubleshoot-excel-workbook-data/power-bi-troubleshoot-excel-table.png)
 6. 保存工作簿。
-7. 返回到 Power BI。 选择左侧导航窗格底部的“获取数据”。
+7. 返回到 Power BI。 在导航窗格底部，选择“获取数据”。
    
     ![获取数据](media/service-admin-troubleshoot-excel-workbook-data/power-bi-get-data.png)
 8. 在**文件**框中，选择**获取**。

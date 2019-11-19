@@ -2,7 +2,6 @@
 title: 使用 Power BI Desktop 中的泛型接口连接到数据
 description: 了解如何使用 Power BI Desktop 中的泛型接口连接不同的数据源
 author: davidiseminger
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 6ac121ee5154a9d343a912904b20d3244ebee59c
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: b553d9341723c9b44abce57a384d4c7ba76e00a2
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "65513717"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73868978"
 ---
 # <a name="connect-to-data-using-generic-interfaces-in-power-bi-desktop"></a>使用 Power BI Desktop 中的泛型接口连接到数据
 使用从**访问数据库**到 **Zendesk** 资源的内置数据连接器，可以连接到 **Power BI Desktop** 中多种不同的数据源，如“**获取数据**”窗口中所示。 还可使用 Power BI Desktop  中内置的泛型接口（如 ODBC  或 REST API  ）连接到所有其他  类型的数据源，进而进一步增加连接选项。
@@ -48,16 +47,16 @@ ms.locfileid: "65513717"
 
 | Power BI Desktop 泛型连接器 | 外部数据源 | 有关详细信息的链接 |
 | --- | --- | --- |
-| ODBC |Cassandra |[Cassandra ODBC 驱动程序](http://www.simba.com/drivers/cassandra-odbc-jdbc/) |
+| ODBC |Cassandra |[Cassandra ODBC 驱动程序](https://www.simba.com/drivers/cassandra-odbc-jdbc/) |
 | ODBC |Couchbase DB |[Couchbase 和 Power BI](https://powerbi.microsoft.com/blog/visualizing-data-from-couchbase-server-v4-using-power-bi/) |
-| ODBC |DynamoDB |[DynamoDB ODBC 驱动程序](http://www.simba.com/drivers/dynamodb-odbc-jdbc/) |
-| ODBC |Google BigQuery |[BigQuery ODBC 驱动程序](http://www.simba.com/drivers/bigquery-odbc-jdbc/) |
-| ODBC |HBase |[HBase ODBC 驱动程序](http://www.simba.com/drivers/hbase-odbc-jdbc/) |
-| ODBC |Hive |[Hive ODBC 驱动程序](http://www.simba.com/drivers/hive-odbc-jdbc/) |
+| ODBC |DynamoDB |[DynamoDB ODBC 驱动程序](https://www.simba.com/drivers/dynamodb-odbc-jdbc/) |
+| ODBC |Google BigQuery |[BigQuery ODBC 驱动程序](https://www.simba.com/drivers/bigquery-odbc-jdbc/) |
+| ODBC |HBase |[HBase ODBC 驱动程序](https://www.simba.com/drivers/hbase-odbc-jdbc/) |
+| ODBC |Hive |[Hive ODBC 驱动程序](https://www.simba.com/drivers/hive-odbc-jdbc/) |
 | ODBC |IBM Netezza |[IBM Netezza 信息](https://www.ibm.com/support/knowledgecenter/SSULQD_7.2.1/com.ibm.nz.datacon.doc/c_datacon_plg_overview.html) |
-| ODBC |Presto |[Presto ODBC 驱动程序](http://www.simba.com/drivers/presto-odbc-jdbc/) |
+| ODBC |Presto |[Presto ODBC 驱动程序](https://www.simba.com/drivers/presto-odbc-jdbc/) |
 | ODBC |Project Online |[Project Online 文章](desktop-project-online-connect-to-data.md) |
-| ODBC |Progress OpenEdge |[Progress OpenEdge ODBC 驱动程序博文](https://na01.safelinks.protection.outlook.com/?url=https%3A%2F%2Fwww.progress.com%2Fblogs%2Fconnect-microsoft-power-bi-to-openedge-via-odbc-driver&data=02%7C01%7CMatt.Masson%40microsoft.com%7C5e63742e6c454308b58a08d4034b5923%7C72f988bf86f141af91ab2d7cd011db47%7C1%7C0%7C636137069555329811&sdata=gSu2Rq3vZ0uBVOgjaXxd8Y3uBf%2B8DidX6PG33jwAduY%3D&reserved=0) |
+| ODBC |Progress OpenEdge |[Progress OpenEdge ODBC 驱动程序博文](https://www.progress.com/blogs/connect-microsoft-power-bi-to-openedge-via-odbc-driver) |
 
 ## <a name="data-sources-accessible-through-ole-db"></a>数据源可以通过 OLE DB 访问
 **Power BI Desktop** 中的 **OLE DB** 连接器使你仅通过指定*连接字符串*即可从任何第三方 OLE DB 驱动程序导入数据。 作为一个选项，也可以指定 SQL 语句来执行 OLE DB 驱动程序。

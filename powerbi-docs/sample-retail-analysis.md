@@ -2,7 +2,6 @@
 title: Power BI 的零售分析示例：参观
 description: Power BI 的零售分析示例：参观
 author: maggiesMSFT
-manager: kfile
 ms.reviewer: amac
 ms.service: powerbi
 ms.subservice: powerbi-desktop
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 07/02/2019
 ms.author: maggies
 LocalizationGroup: Samples
-ms.openlocfilehash: b3adcf3ba97e83875187a11116fdb7b642e5560b
-ms.sourcegitcommit: 0e50ebfa8762e19286566432870ef16d242ac78f
+ms.openlocfilehash: 42e3a95e344e17d1ceba11911fc8aa349ebafd0c
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/13/2019
-ms.locfileid: "68962236"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73858571"
 ---
 # <a name="retail-analysis-sample-for-power-bi-take-a-tour"></a>Power BI 的零售分析示例：参观
 
@@ -54,11 +53,11 @@ ms.locfileid: "68962236"
   
 ### <a name="get-the-pbix-file-for-this-sample"></a>获取 .pbix 文件形式的此示例
 
-也可以将此零售分析示例下载为 [.pbix 文件](http://download.microsoft.com/download/9/6/D/96DDC2FF-2568-491D-AAFA-AFDD6F763AE3/Retail%20Analysis%20Sample%20PBIX.pbix)，这是专用于 Power BI Desktop 的文件格式。 
+也可以将此零售分析示例下载为 [.pbix 文件](https://download.microsoft.com/download/9/6/D/96DDC2FF-2568-491D-AAFA-AFDD6F763AE3/Retail%20Analysis%20Sample%20PBIX.pbix)，这是专用于 Power BI Desktop 的文件格式。 
 
 ### <a name="get-the-excel-workbook-for-this-sample"></a>获取 Excel 工作簿形式的此示例
 
-若要查看此示例的数据源，还可以将它下载为 [Excel 工作簿](http://go.microsoft.com/fwlink/?LinkId=529778)。 该工作簿包含你可以查看和修改的 Power View 工作表。 若要查看原始数据，请启用“数据分析”加载项，再依次选择“Power Pivot”>“管理”  。 若要启用 Power View 和 Power Pivot 加载项，请参阅[从 Excel 本身内查看 Excel 示例](sample-datasets.md#optional-take-a-look-at-the-excel-samples-from-inside-excel-itself)，以了解详细信息。
+若要查看此示例的数据源，还可以将它下载为 [Excel 工作簿](https://go.microsoft.com/fwlink/?LinkId=529778)。 该工作簿包含你可以查看和修改的 Power View 工作表。 若要查看原始数据，请启用“数据分析”加载项，再依次选择“Power Pivot”>“管理”  。 若要启用 Power View 和 Power Pivot 加载项，请参阅[从 Excel 本身内查看 Excel 示例](sample-datasets.md#optional-take-a-look-at-the-excel-samples-from-inside-excel-itself)，以了解详细信息。
 
 ## <a name="start-on-the-dashboard-and-open-the-report"></a>启动仪表板并打开报表
 
@@ -78,7 +77,7 @@ ms.locfileid: "68962236"
 
    FD-01  地区平均“每平方英尺的销售额”  最高，FD-02 与去年相比“总销售额方差”  最低。 FD-03 和 FD-04 总体绩效最差。
 4. 选择单个气泡或其他图表以查看交叉突出显示，从而透露你选择的影响。
-5. 要返回到仪表板，选择顶部导航栏中的“零售分析示例”  。
+5. 若要返回仪表板，请从顶部导航窗格中选择“零售分析示例”  。
 
    ![导航栏](media/sample-retail-analysis/power-bi-breadcrumbs.png)
 6. 在仪表板中，选择“本年度销售额新增及现有商店”  磁贴，这等同于在问答框中键入“本年度销售额”  。

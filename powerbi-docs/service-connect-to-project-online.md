@@ -2,7 +2,6 @@
 title: 使用 Power BI 连接到 Project Online
 description: 适用于 Power BI 的 Project Online
 author: SarinaJoan
-manager: kfile
 ms.reviewer: maggiesMSFT
 ms.service: powerbi
 ms.subservice: powerbi-template-apps
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 07/25/2019
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 0978e87167f96b40082819764d7e3ae35e930a4b
-ms.sourcegitcommit: a77977a43342db4399a4dffb862b96907d16de35
+ms.openlocfilehash: 941981e1f84cf3d7a74a156e4f1c88f57e061ad2
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/14/2019
-ms.locfileid: "69023787"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73854663"
 ---
 # <a name="connect-to-project-web-app-with-power-bi"></a>使用 Power BI 连接到 Project Web 应用
 Microsoft Project Web 应用是一个灵活的在线解决方案，用于项目组合管理 (PPM) 和日常工作。 Project Web 应用使组织能够开始运转、排定项目资产组合投资优先级以及交付预期业务价值。 Power BI 的 Project Web 应用模板应用可使你从 Project Web 应用发掘见解，以帮助管理项目、项目组合和资源。
@@ -24,7 +23,7 @@ Microsoft Project Web 应用是一个灵活的在线解决方案，用于项目�
 
 ## <a name="how-to-connect"></a>如何连接
 
-1. 选择左侧导航窗格中的“应用”，然后选择右上角的“获取应用”   。
+1. 选择导航窗格中的“应用”，然后选择右上角的“获取应用”   。
 
     ![获取应用](media/service-connect-to-project-online/GetApps.png)
 
@@ -38,7 +37,7 @@ Microsoft Project Web 应用是一个灵活的在线解决方案，用于项目�
    ![安装 Project Web](media/service-connect-to-project-online/ProjectTile.png)
 5. 在“应用”窗格中，选择“Microsoft Project Web 应用”磁贴   。 
    
-   ![Microsoft Project Web App](media/service-connect-to-project-online/getstarted.png)
+   ![Microsoft Project Web 应用](media/service-connect-to-project-online/getstarted.png)
 6. 在“开始使用新应用”中，选择“连接数据”   。
    
    ![连接到数据](media/service-connect-to-project-online/mproject.png)
@@ -52,7 +51,7 @@ Microsoft Project Web 应用是一个灵活的在线解决方案，用于项目�
 
 9. 你将看到一个通知，指示你的数据正在加载。 根据帐户的大小，这可能需要一些时间。 Power BI 导入数据之后，将显示新工作区的内容。 可能需要刷新数据集以获取最新更新。 
 
-    Power BI 导入数据之后，左侧导航窗格中将显示含 13 个页面的报表和数据集。 
+    Power BI 导入数据之后，导航窗格中将显示含 13 个页面的报表和数据集。 
 
 10. 报表准备就绪后，即可开始浏览你的 Project Web 应用数据！ 模板应用附带 13 个丰富而详细的报表，分别用于项目组合概述（6 个报表页面）、资源概述（5 个报表页面）和项目状态（2 个报表页面）。 
 

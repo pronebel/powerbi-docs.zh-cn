@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 9/22/2019
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: c157a486b66180de1299144e670210559a53258a
-ms.sourcegitcommit: 3885ae11e695f875a82c212ca157e401db8337c4
+ms.openlocfilehash: e3e360a47d258c6103377fa26a16c10eb2c8d4d5
+ms.sourcegitcommit: 2aa83bd53faad6fb02eb059188ae623e26503b2a
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/24/2019
-ms.locfileid: "71207593"
+ms.lasthandoff: 10/29/2019
+ms.locfileid: "73019630"
 ---
 # <a name="view-data-insights-on-dashboard-tiles-with-power-bi"></a>使用 Power BI 查看有关仪表板磁贴的数据见解
 仪表板上的每个视觉对象[磁贴](end-user-tiles.md)都是数据探索的入口。 选择磁贴时，它将打开报表或[打开“问答”](end-user-q-and-a.md)，可以在其中筛选、排序以及深入挖掘报表背后的数据集。 当运行见解时，Power BI 会为你进行数据探索。
@@ -31,7 +31,7 @@ ms.locfileid: "71207593"
 当在仪表板磁贴上运行见解时，Power BI 仅搜索用于创建该单个仪表板磁贴的数据。 
 
 1. [打开仪表板](end-user-dashboards.md).
-2. 将鼠标悬停在一个磁上。 选择省略号 (…)，然后选择“查看见解”  。 
+2. 将鼠标悬停在一个磁上。 选择“更多选项”(…)，并选择“查看见解”   。 
 
     ![省略号菜单模式](./media/end-user-insights/power-bi-hovers.png)
 

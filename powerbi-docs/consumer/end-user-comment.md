@@ -11,15 +11,18 @@ ms.topic: conceptual
 ms.date: 09/18/2019
 ms.author: mihart
 LocalizationGroup: Consumer
-ms.openlocfilehash: f9979a852028e929b626e76534fef073feca3fd8
-ms.sourcegitcommit: 7a0ce2eec5bc7ac8ef94fa94434ee12a9a07705b
+ms.openlocfilehash: 45c158d15c92b67d945696b6d55ba0b1e4c6d971
+ms.sourcegitcommit: 2aa83bd53faad6fb02eb059188ae623e26503b2a
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/18/2019
-ms.locfileid: "71100728"
+ms.lasthandoff: 10/29/2019
+ms.locfileid: "73019922"
 ---
 # <a name="add-comments-to-a-dashboard-or-report"></a>将注释添加到仪表板或报表
-添加个人注释或与同事开始有关仪表板或报表的对话。 注释功能只是使用者可与他人协作的方式之一。 
+
+[!INCLUDE [power-bi-service-new-look-include](../includes/power-bi-service-new-look-include.md)]
+
+添加个人注释或与同事开始有关仪表板或报表的对话。 注释功能只是使用者可与他人协作的方式之一   。 
 
 ![“注释”视频](media/end-user-comment/comment.gif)
 
@@ -37,7 +40,7 @@ ms.locfileid: "71100728"
 ### <a name="add-a-general-comment-to-a-dashboard-or-report"></a>将常规注释添加到仪表板或报表
 将注释添加到仪表板和报表的过程类似。  在此示例中，我们使用仪表板。 
 
-1. 打开 Power BI 仪表板或报表，然后选择“注释”图标。 这将打开“注释”对话框。
+1. 打开 Power BI 仪表板或报表，然后选择“注释”图标  。 这将打开“注释”对话框。
 
     ![注释图标](media/end-user-comment/power-bi-comment-menu.png)
 
@@ -45,7 +48,7 @@ ms.locfileid: "71100728"
 
     ![注释图标](media/end-user-comment/power-bi-first-comments.png)
 
-2. 若要进行答复，请选择“答复”，输入答复内容，然后选择“发布”。  
+2. 若要进行答复，请选择“答复”，输入答复内容，然后选择“发布”   。  
 
     ![“注释答复”图标](media/end-user-comment/power-bi-comment-reply.png)
 
@@ -64,16 +67,16 @@ ms.locfileid: "71100728"
 ### <a name="add-a-comment-to-a-specific-dashboard-or-report-visual"></a>向特定仪表板或报表视觉对象添加注释
 除了将注释添加到整个仪表板或整个报表页之外，还可以将注释添加到各个仪表板磁贴和各个报表视觉对象。 这些添加过程类似，在此示例中，我们使用报表。
 
-1. 将鼠标悬停在视觉对象上，并选择省略号 (...)。    
-2. 从下拉列表中，选择“打开注释”。
+1. 将鼠标悬停在视觉对象上，并选择“更多选项”(…)  。    
+2. 从下拉列表中，选择“打开注释”  。
 
     ![“添加注释”是第一个选项](media/end-user-comment/power-bi-report-comment.png)  
 
-3.  “注释”对话框打开，且页上的其他视觉对象灰显。此视觉对象没有任何注释。 
+3.  “注释”对话框打开，且页上的其他视觉对象灰显  。此视觉对象没有任何注释。 
 
     ![为自己添加注释](media/end-user-comment/power-bi-comment-column.png)  
 
-4. 键入注释，然后选择“发布”。
+4. 键入注释，然后选择“发布”  。
 
     ![为自己添加注释](media/end-user-comment/power-bi-comment-logistics.png)  
 
@@ -84,12 +87,12 @@ ms.locfileid: "71100728"
 
     ![突出显示的相关视觉对象](media/end-user-comment/power-bi-highlight.png)
 
-5. 选择“关闭”返回仪表板或报表。
+5. 选择“关闭”返回仪表板或报表。 
 
 ### <a name="get-your-colleagues-attention-by-using-the--sign"></a>通过使用 @ 符号引起同事的注意
 无论是创建仪表板、报表、磁贴还是视觉对象注释，都可以通过使用“\@”符号来吸引同事的注意。  当键入“\@”符号时，Power BI 会打开一个下拉菜单，你可以在其中搜索并从组织中选择单个人员。 任何以“\@”符号开头的经过验证的名称都会以蓝色字体显示。 
 
-下面是我与可视化效果设计人员的对话。 他们使用 @ 符号确保我可以看到这条注释。 我知道这个注释是给我的。 当我在 Power BI 中打开此应用仪表板时，我从标头中选择“注释”。 “注释”窗格随即会显示我们的对话。
+下面是我与可视化效果设计人员  的对话。 他们使用 @ 符号确保我可以看到这条注释。 我知道这个注释是给我的。 当我在 Power BI 中打开此应用仪表板时，我从标头中选择“注释”  。  “注释”窗格随即会显示我们的对话。
 
 ![添加提及注释](media/end-user-comment/power-bi-comment-convo.png)  
 

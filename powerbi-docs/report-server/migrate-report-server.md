@@ -3,18 +3,17 @@ title: 迁移报表服务器安装
 description: 了解如何将现有 SQL Server Reporting Services 实例迁移到 Power BI 报表服务器实例中。
 author: maggiesMSFT
 ms.author: maggies
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 01/17/2019
-ms.openlocfilehash: 01c87d425b1ada76e322af411188a4a2717562d0
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: bc3b196313266be64e7a63a66f33ef4020574d2a
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "64770193"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73858877"
 ---
 # <a name="migrate-a-report-server-installation"></a>迁移报表服务器安装
 
@@ -35,7 +34,7 @@ ms.locfileid: "64770193"
 
 从 SSRS（本机模式）实例迁移到 Power BI 报表服务器的过程分为几步。
 
-![从 SSRS 本机模式迁移到 Power BI 报表服务器](media/migrate-report-server/migrate-from-ssrs-native.png "Migrate from SSRS native mode to Power BI Report Server")
+![从 SSRS（本机模式）迁移到 Power BI 报表服务器](media/migrate-report-server/migrate-from-ssrs-native.png "从 SSRS（本机模式）迁移到 Power BI 报表服务器")
 
 > [!NOTE]
 > SQL Server 2008 Reporting Services 及更高版本支持迁移。
@@ -55,7 +54,7 @@ ms.locfileid: "64770193"
 
 从 SSRS（SharePoint 集成模式）迁移到 Power BI 报表服务器并不像本机模式一样简单。 虽然这些步骤可以在一定程度上指导你如何迁移，但 SharePoint 中可能还有其他文件和资产需要进行管理，而这些步骤并未涉及。
 
-![从 SSRS SharePoint 集成模式迁移到 Power BI 报表服务器](media/migrate-report-server/migrate-from-ssrs-sharepoint.png "Migrate from SSRS SharePoint-integrated mode to Power BI Report Server")
+![从 SSRS（SharePoint 集成模式）迁移到 Power BI 报表服务器](media/migrate-report-server/migrate-from-ssrs-sharepoint.png "从 SSRS（SharePoint 集成模式）迁移到 Power BI 报表服务器")
 
 需要将特定的报表服务器内容从 SharePoint 迁移到 Power BI 报表服务器。 需要已在环境中的某个位置安装 Power BI 报表服务器。 若要详细了解如何安装 Power BI 报表服务器，请参阅[安装 Power BI 报表服务器](install-report-server.md)。
 
@@ -70,10 +69,10 @@ ms.locfileid: "64770193"
 Sample Script
 rs.exe
 -i ssrs_migration.rss -e Mgmt2010
--s http://SourceServer/_vti_bin/reportserver
+-s https://SourceServer/_vti_bin/reportserver
 -v st="sites/bi" -v f="Shared Documents“
 -u Domain\User1 -p Password
--v ts=http://TargetServer/reportserver
+-v ts=https://TargetServer/reportserver
 -v tu="Domain\User" -v tp="Password"
 ```
 
@@ -81,7 +80,7 @@ rs.exe
 
 从一个 Power BI 报表服务器迁移到另一个的过程与从 SSRS（本机模式）迁移一样。
 
-![从 Power BI 报表服务器迁移到 Power BI 报表服务器](media/migrate-report-server/migrate-from-pbirs.png "Migrate from Power BI Report Server to Power BI Report Server")
+![从 Power BI 报表服务器迁移到 Power BI 报表服务器](media/migrate-report-server/migrate-from-pbirs.png "从 Power BI 报表服务器迁移到 Power BI 报表服务器")
 
 * 备份数据库、应用和配置文件
 * 备份加密密钥

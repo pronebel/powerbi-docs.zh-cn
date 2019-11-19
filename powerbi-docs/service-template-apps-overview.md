@@ -2,19 +2,18 @@
 title: 什么是 Power BI 模板应用？
 description: 本文概述了 Power BI 模板应用程序。 了解如何在具有极少编码或无编码的情况下生成 Power BI 应用，并将其部署到任何 Power BI 客户。
 author: teddybercovitz
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 06/24/2019
 ms.author: tebercov
-ms.openlocfilehash: c05b53a5fd61d348b6d304b17123d5f2497ab647
-ms.sourcegitcommit: 58c649ec5fd2447a0f9ca4c4d45a0e9fff2f1b6a
+ms.openlocfilehash: 4b4e32f787d2d262d604ff0745f8c028e9fff949
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/27/2019
-ms.locfileid: "67408216"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73871321"
 ---
 # <a name="what-are-power-bi-template-apps"></a>什么是 Power BI 模板应用？
 
@@ -61,7 +60,7 @@ ms.locfileid: "67408216"
 
 1. 将内容提交到“云合作伙伴平台”进行发布。 
 
-1. 让产品/服务在 AppSource 中“实时”运行，并将应用移至 Power BI 中的生产。
+1. 让产品/服务在 AppSource 中“上线”，并将应用移至 Power BI 中的生产。
 2. 现在，可以在预生产中开始在同一工作区中开发下一个版本。 
 
 ## <a name="requirements"></a>要求
@@ -78,7 +77,7 @@ ms.locfileid: "67408216"
 - 通过将应用程序安装在租户和二级租户中，以对该应用程序进行仔细检查。 确保客户只看到你希望他们看到的内容。 
 - 使用 AppSource 作为在线商店来托管应用程序。 这样，使用 Power BI 的任何人都可以找到你的应用。 
 - 考虑为分开的独特方案提供多个模板应用。 
-- 启用数据自定义，例如，安装程序支持自定义连接和参数配置。
+- 启用数据自定义，例如，通过安装程序支持自定义连接和参数配置。
 
 要获取更多建议，请参阅[有关在 Power BI 创作模板应用的提示](service-template-apps-tips.md)。
 

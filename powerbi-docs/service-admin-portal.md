@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 09/25/2019
 ms.custom: seodec18
 LocalizationGroup: Administration
-ms.openlocfilehash: f472ee821d0ccf3bbe8e47697f934b91668cd16d
-ms.sourcegitcommit: 57e45f291714ac99390996a163436fa1f76db427
+ms.openlocfilehash: 8a6e104a6fcb129a6e51d8424a8c2321ea74b49c
+ms.sourcegitcommit: 2b7beec5237a597bab2da8eb6ffe69122a5d2ed9
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/26/2019
-ms.locfileid: "71305899"
+ms.lasthandoff: 11/02/2019
+ms.locfileid: "73442864"
 ---
 # <a name="administering-power-bi-in-the-admin-portal"></a>在管理门户中管理 Power BI
 
@@ -169,9 +169,11 @@ Office 365 中的全局管理员或分配有 Power BI 服务管理员角色的�
 
 组织中的用户可以通过 Power BI 帮助菜单获取内部帮助和支持资源。 具体而言，这些参数更改“Learn”、“社区”和“获取帮助”菜单项的行为。
 
-也可以指定 URL，用于将用户定向到许可请求的自定义解决方案。 此参数自定义“升级帐户”按钮的目标 URL，没有 Power BI Pro 许可证的用户可以在“更新到 Power BI Pro”对话框和“管理个人存储”页中找到此 URL。
+    ![Enable except setting](media/service-admin-portal/powerbi-admin-tenant-settings-enabled-except2.png)
 
-### <a name="receive-email-notifications-for-service-outages-or-incidents"></a>接收服务中断或突发事件相关电子邮件通知
+通过为授权请求指定 URL，可以自定义“升级帐户”按钮的目标 URL，没有 Power BI Pro 许可证的用户可以在“更新到 Power BI Pro”对话框和“管理个人存储”页中找到此 URL    。 此外，Power BI 不再在此对话框或存储页面中提供“免费试用 Pro”按钮，确保 Power BI 通过许可证管理解决方案可靠地引导用户完成在组织中定义的流程  。
+
+### <a name="receive-email-notifications-for-service-outages-or-incidents"></a>接收与服务故障或突发事件相关的电子邮件通知
 
 如果此租户受到服务中断或突发事件的影响，已启用邮件的安全组将收到电子邮件通知。 了解有关[服务中断通知](service-interruption-notifications.md)的详细信息。
 
@@ -179,7 +181,7 @@ Office 365 中的全局管理员或分配有 Power BI 服务管理员角色的�
 
 ### <a name="create-workspaces"></a>创建工作区
 
-管理员使用“创建工作区”  设置，指明组织中的哪些用户可以创建应用工作区，以就仪表板、报表和其他内容开展协作。 详细了解[应用工作区](service-create-the-new-workspaces.md)。
+管理员使用“创建工作区”  设置，指明组织中的哪些用户可以创建工作区，以就仪表板、报表和其他内容开展协作。 详细了解[工作区](service-create-the-new-workspaces.md)。
 
 管理门户还有另一个设置部分是关于租户中的工作区。 在此部分中，可以对工作区列表进行排序和筛选，并显示每个工作区的详细信息。 有关详细信息，请参阅[工作区](#workspaces)。
 
@@ -525,7 +527,7 @@ Power BI Desktop（2019 年 3 月版及更高版本）支持通过“组策略�
 
 在“工作区”选项卡上，可看到每个工作区的*状态*  。 下表提供有关这些状态的含义的更多详细信息。
 
-|州  |说明  |
+|州省/自治区/直辖市  |说明  |
 |---------|---------|
 | 活动 | 普通工作区。 它不指示任何有关使用情况或所含内容的信息，仅指示工作区本身“正常”。 |
 | 孤立 | 无管理员用户的工作区。 |

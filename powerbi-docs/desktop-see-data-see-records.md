@@ -2,7 +2,6 @@
 title: 在 Power BI Desktop 中查看视觉对象的数据和记录
 description: 使用 Power BI Desktop 的“查看数据”和“查看记录”功能深入了解详细信息
 author: davidiseminger
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Learn more
-ms.openlocfilehash: 6e425f146228d0139b9eec914a44ed5dc732fe98
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: 66fe4a9eb109565108cd150369b2260a9d3e1d06
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "65514771"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73877764"
 ---
 # <a name="use-see-data-and-see-records-in-power-bi-desktop"></a>使用 Power BI Desktop 的“查看数据”和“查看记录”功能
 在 Power BI Desktop  中，可以深入了解可视化效果的详细信息，并能查看选定视觉对象的基础数据或单个数据记录的文本表示形式。 这些功能有时亦称为“单击后了解详细信息”  、“深入了解”  或“深入了解详细信息”  。
@@ -41,7 +40,7 @@ ms.locfileid: "65514771"
 
 ![功能区中的“查看数据”](media/desktop-see-data-see-records/see-data1.png)
 
-此外，还可以通过右键单击可视化效果，然后从显示的菜单中选择“显示数据”  ；或者通过选择可视化效果右上角的“更多选项”  省略号 (...)，然后选择“显示数据”  来查看数据。
+此外，还可以通过右键单击可视化效果，然后从显示的菜单中选择“显示数据”；或者通过选择可视化效果右上角的“更多选项”(…)，然后选择“显示数据”来查看数据    。
 
 ![右键单击显示数据](media/desktop-see-data-see-records/see-data2.png)&nbsp;&nbsp;![更多选项显示数据](media/desktop-see-data-see-records/see-data3.png)
 

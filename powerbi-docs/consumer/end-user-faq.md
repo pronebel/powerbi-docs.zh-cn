@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/03/2019
 ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: bf3e7b790788c8ce21b222a083a853b06185acc0
-ms.sourcegitcommit: b7a9862b6da940ddebe61bc945a353f91cd0e4bd
+ms.openlocfilehash: 5166c99a66178fb29ecab3d5ed0a660f694f7a61
+ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/04/2019
-ms.locfileid: "71943328"
+ms.lasthandoff: 11/01/2019
+ms.locfileid: "73430043"
 ---
 # <a name="frequently-asked-questions-about-power-bi"></a>有关 Power BI 的常见问题
 
@@ -24,11 +24,11 @@ ms.locfileid: "71943328"
 
 ## <a name="what-is-the-microsoft-power-bi-service"></a>什么是 Microsoft Power BI 服务？
 
-Power BI 服务是基于云的业务分析服务，任何人都可以更快的速度、更高的效率和更好的理解力来直观呈现和分析数据。 它通过生动展示数据的易用仪表板、交互式报表和引人注目的可视化效果，让用户看到更广泛的基于云的数据和本地数据。 详细了解 [Power BI](../power-bi-overview.md)。
+Power BI 服务是基于云的业务分析服务，任何人都可以更快的速度、更高的效率和更好的理解力来直观呈现和分析数据。 它通过生动展示数据的易用仪表板、交互式报表和引人注目的可视化效果，让用户看到更广泛的基于云的数据和本地数据。 详细了解 [Power BI](../fundamentals/power-bi-overview.md)。
 
 ## <a name="whats-the-difference-between-power-bi-pro-and-power-bi-premium"></a>Power BI Pro 与 Power BI Premium 之间的区别是什么？
 
-Power BI Pro 许可证是支持访问 Power BI 服务中所有内容和功能的单独许可证。 它甚至还支持共享内容，并与其他 Pro 用户协作。 只有 Pro 用户可将内容发布到应用工作区、共享仪表板并订阅仪表板和报表。
+Power BI Pro 许可证是支持访问 Power BI 服务中所有内容和功能的单独许可证。 它甚至还支持共享内容，并与其他 Pro 用户协作。 只有 Pro 用户可将内容发布到工作区、共享仪表板并订阅仪表板和报表。
 
 Power BI Premium 提供专用容量，以确保性能更一致。 它还支持 Power BI 中的较大数据量。 对于个人用户，Premium 支持 Pro 用户广泛分发内容，且接收人无需使用每用户许可证，即可查看内容。
 
@@ -38,11 +38,11 @@ Power BI Premium 提供专用容量，以确保性能更一致。 它还支持 P
 
 ## <a name="what-is-power-bi-desktop"></a>什么是 Power BI Desktop？
 
-Power BI Desktop 是一款免费应用程序，可直接安装到你自己的计算机上。 Power BI Desktop 与 Power BI 服务紧密配合工作。  数据科学家、管理员和开发人员使用 Power BI Desktop 生成报表，并将报表提供给像你这样的 Power BI 服务使用者  。 阅读有关[什么是 Power BI Desktop](../desktop-what-is-desktop.md) 的详细信息。
+Power BI Desktop 是一款免费应用程序，可直接安装到你自己的计算机上。 Power BI Desktop 与 Power BI 服务紧密配合工作。  数据科学家、管理员和开发人员使用 Power BI Desktop 生成报表，并将报表提供给像你这样的 Power BI 服务使用者。 阅读有关[什么是 Power BI Desktop](../desktop-what-is-desktop.md) 的详细信息。
 
 ## <a name="what-do-i-need-to-use-the-power-bi-service"></a>需要什么才能使用 Power BI 服务？
 
-仅需要 Web 浏览器和工作电子邮件地址。 也可使用 .gov 和 .mil 电子邮件地址进行注册   。 有关详细信息，请参阅[在 Power BI 服务中注册你的美国政府组织](../service-govus-signup.md)。
+仅需要 Web 浏览器和工作电子邮件地址。 也可使用 .gov 和 .mil 电子邮件地址进行注册。 有关详细信息，请参阅[在 Power BI 服务中注册你的美国政府组织](../service-govus-signup.md)。
 
 ## <a name="why-do-i-have-to-sign-up-with-my-work-email"></a>为什么必须使用我的工作电子邮件注册？
 
@@ -77,7 +77,7 @@ Power BI 不支持由使用者电子邮件服务或电信提供商提供的电�
 * [Power BI 博客](http://blogs.msdn.com/b/powerbi/)
 * [网络研讨会](../webinars.md)
 * 我们 [YouTube 频道](https://www.youtube.com/user/mspowerbi)上的入门视频
-* [以使用者身份开始使用 Power BI](power-bi-consumer-landing.md) 文章 
+* [以使用者身份开始使用 Power BI](power-bi-consumer-landing.md) 文章
 * [加入我们的社区](https://community.powerbi.com/)并提出问题
 * 有关更多建议，请参阅[如何获取帮助的 10 条提示](../service-tips-for-finding-help.md)
 

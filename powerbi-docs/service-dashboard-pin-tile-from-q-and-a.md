@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 03/02/2018
 ms.author: maggies
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 33598798104d88f3044a6689effa54e9b4256274
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: e75c9b86b20eda2de630f2b27caa6b88a687fbb4
+ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61139043"
+ms.lasthandoff: 11/01/2019
+ms.locfileid: "73432090"
 ---
 # <a name="pin-a-tile-to-a-dashboard-from-qa"></a>从问答将磁贴固定到仪表板
 ## <a name="how-to-pin-a-tile-from-qa"></a>如何从“问答”中固定磁贴
@@ -52,7 +52,7 @@ ms.locfileid: "61139043"
    ![包含磁贴的仪表板](media/service-dashboard-pin-tile-from-q-and-a/power-bi-pinned.png)
 
 ## <a name="considerations-and-troubleshooting"></a>注意事项和疑难解答
-* 开始键入问题时，问答将立即从与当前仪表板关联的所有数据集搜索最佳答案。  “当前仪表板”是顶部导航栏中列出的仪表板。 例如，在属于“mihart”  应用工作区的“零售分析示例”  仪表板中提出此问题。
+* 开始键入问题时，问答将立即从与当前仪表板关联的所有数据集搜索最佳答案。  “当前仪表板”是顶部导航栏中列出的仪表板。 例如，在属于“mihart”工作区的“零售分析示例”仪表板中提出此问题   。
 
   ![痕迹导航](media/service-dashboard-pin-tile-from-q-and-a/power-bi-navbar.png)
 * **问答如何知道要使用哪个数据集**？  Power BI 问答有权访问至少有一个可视化效果固定到相应仪表板的所有数据集。

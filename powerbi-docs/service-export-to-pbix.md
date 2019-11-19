@@ -2,7 +2,6 @@
 title: 将报表从 Power BI 服务下载到 Power BI Desktop（预览版）
 description: 将报表从 Power BI 服务下载到 Power BI Desktop 文件
 author: maggiesMSFT
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 08/12/2019
 ms.author: maggies
 LocalizationGroup: Reports
-ms.openlocfilehash: 2c17378c14ef084ad6632e52df2a801832b311d9
-ms.sourcegitcommit: d04b9e1426b8544ce16ef25864269cc43c2d9f7b
+ms.openlocfilehash: de7a01f70d179237c45205447f564b3833db2156
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "71715184"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73881821"
 ---
 # <a name="download-a-report-from-the-power-bi-service-to-power-bi-desktop-preview"></a>将报表从 Power BI 服务下载到 Power BI Desktop（预览版）
 在 Power BI Desktop 中，可以将报表（.pbix 文件）从本地计算机发布到 Power BI 服务  。 Power BI 报表也可以反向流动：可以将报表从 Power BI 服务下载到 Power BI Desktop。 两种情况下，Power BI 报表的扩展均为 .pbix。
@@ -32,7 +31,7 @@ ms.locfileid: "71715184"
 
 1. 在 Power BI 服务的[编辑视图](https://docs.microsoft.com/power-bi/service-interact-with-a-report-in-editing-view)中，打开要下载的报表。
 
-2. 在顶部导航栏中，依次选择“文件”>“下载报表”  。
+2. 在顶部导航窗格中，依次选择“文件”>“下载报表”  。
    
 3. 报表正在下载时，状态横幅将显示进度。 在文件就绪后，系统会询问此 .pbix 文件的保存位置。 默认文件名与报表名相匹配。
    
@@ -71,5 +70,5 @@ ms.locfileid: "71715184"
 
 * [Power BI Desktop 入门](desktop-getting-started.md)
 
-更多问题？ [尝试参与 Power BI 社区](http://community.powerbi.com/)。
+更多问题？ [尝试参与 Power BI 社区](https://community.powerbi.com/)。
 

@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 63c10a0507b5e484ac4c104a5a1e83f5dd411d9d
-ms.sourcegitcommit: f05ba39a0e46cb9cb43454772fbc5397089d58b4
+ms.openlocfilehash: 00b8ece26a5440128e62d77e3e9100f58f4d584c
+ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/26/2019
-ms.locfileid: "68523287"
+ms.lasthandoff: 11/01/2019
+ms.locfileid: "73430944"
 ---
 # <a name="connect-to-data-created-by-power-bi-dataflows-in-power-bi-desktop-beta"></a>在 Power BI Desktop 中连接到 Power BI 数据流创建的数据 (Beta)
 在 Power BI Desktop 中，可以连接到 Power BI 数据流创建的数据，就像在 Power BI Desktop 中连接任何其他数据源一样   。
@@ -40,7 +40,7 @@ Power BI Desktop  在安装它的计算机上本地运行。 数据流的引入�
 
 大多数数据流驻留在 Power BI 服务租户中。 但是，  Power BI Desktop 用户无法访问存储在 Azure Data Lake Storage Gen2 帐户中的数据流，除非他们是数据流的所有者，或者他们已被显式授权访问数据流的 CDM 文件夹。 请考虑以下情况：
 
-1.  Anna 创建了一个新的应用工作区，并将其配置为存储组织 Data Lake 中的数据流。
+1.  Anna 创建了一个新的工作区，并将其配置为存储组织 Data Lake 中的数据流。
 2.  Ben 也是 Anna 所创建工作区的成员，他希望利用 Power BI Desktop 和数据流连接器从 Anna 创建的数据流获取数据。
 3.  Ben 收到一个错误，因为他没有被添加为 Data Lake 中数据流的 CDM 文件夹的授权用户。
 

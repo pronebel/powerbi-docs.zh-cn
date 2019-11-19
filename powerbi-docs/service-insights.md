@@ -12,12 +12,12 @@ ms.topic: conceptual
 ms.date: 08/06/2019
 ms.author: maggies
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 0492b797d75e29145c14a70d8a8058bad295ef18
-ms.sourcegitcommit: d12bc6df16be1f1993232898f52eb80d0c9fb04e
+ms.openlocfilehash: 428e392994a1b6934bf78d9cccbee1821744a622
+ms.sourcegitcommit: 2aa83bd53faad6fb02eb059188ae623e26503b2a
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/13/2019
-ms.locfileid: "68994928"
+ms.lasthandoff: 10/29/2019
+ms.locfileid: "73020216"
 ---
 # <a name="generate-data-insights-automatically-with-power-bi"></a>通过 Power BI 自动生成数据见解
 你有新数据集，但不太确定要从何处着手？  需要快速生成仪表板？  想要查找你可能错失的见解？
@@ -38,7 +38,7 @@ ms.locfileid: "68994928"
 
 现在轮到你了。 使用[供应商质量分析示例](sample-supplier-quality.md)探索见解。
 
-1. 从“数据集”选项卡中选择省略号 (…)，然后选择“获取快速见解”   。
+1. 从“数据集”选项卡中选择“更多选项”(…)，然后选择“获取快速见解”    。
    
     ![“数据集”选项卡](media/service-insights/power-bi-ellipses.png)
    
@@ -62,7 +62,7 @@ ms.locfileid: "68994928"
 
 1. 将鼠标悬停在某个卡片上，选择固定图标，以将可视化效果添加到仪表板中。
 
-2. 将鼠标悬停在某张卡片上，选择省略号 (…)，然后选择“查看见解”  。 
+2. 将鼠标悬停在某张卡片上，选择“更多选项”(…)，然后选择“查看见解”   。 
 
     见解屏幕在焦点模式下打开。
    
@@ -86,7 +86,7 @@ ms.locfileid: "68994928"
 将搜索范围缩小以针对用于创建单个仪表板磁贴的数据搜索范围见解，而不是针对整个数据集搜索见解。 
 
 1. 打开仪表板。
-2. 将鼠标悬停在一个磁上。 选择省略号 (…)，然后选择“查看见解”  。 该磁贴以[焦点模式](service-focus-mode.md)打开，并在右侧显示见解卡片。    
+2. 将鼠标悬停在一个磁上。 选择“更多选项”(…)，然后选择“查看见解”   。 该磁贴以[焦点模式](service-focus-mode.md)打开，并在右侧显示见解卡片。    
    
     ![焦点模式](media/service-insights/pbi-insights-tile.png)    
 3. 你是否对某个见解产生了兴趣？ 选择该见解卡片以深入进行了解。 选中的见解显示在左侧，而完全根据该见解中的数据获得的新见解卡片显示在右侧。    

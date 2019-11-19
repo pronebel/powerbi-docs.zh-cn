@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: tutorial
 ms.date: 06/18/2019
-ms.openlocfilehash: d24135cc55ebc8cdfd2a1279cb2a2a46f8f0bc3e
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 224b6db8fa04a471a1ce7d1fff2b34a838d6fb9d
+ms.sourcegitcommit: f7b28ecbad3e51f410eff7ee4051de3652e360e8
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73880179"
+ms.lasthandoff: 11/13/2019
+ms.locfileid: "74060355"
 ---
 # <a name="create-an-ssl-certificate"></a>创建 SSL 证书
 
@@ -22,20 +22,19 @@ ms.locfileid: "73880179"
 要在 Windows 8 或更高版本上使用 `New-SelfSignedCertificate` cmdlet 生成证书，请运行以下命令：
 
 ```cmd
-pbiviz --create-cert
+pbiviz --install-cert
 ```
 
 要使用工具，需要安装适用于 Windows 7 的 OpenSSL。 OpenSSL 实用工具必须在命令行中可用。
 
 要安装 OpenSSL，请转到 [OpenSSL](https://www.openssl.org) 或 [OpenSSL 二进制文件](https://wiki.openssl.org/index.php/Binaries)站点。
 
-
-
 ## <a name="create-a-certificate-mac-os-x"></a>创建证书 (Mac OS X)
 
 通常，可以在 Linux 或 Mac OS X 操作系统中使用 OpenSSL 实用程序。
 
 还可以通过运行以下命令之一来安装该实用工具：
+
 * 在 Brew 包管理器中  ：
 
     ```cmd
@@ -52,7 +51,7 @@ pbiviz --create-cert
 安装用于生成新证书的 OpenSSL 实用程序后，请运行以下命令：
 
 ```cmd
-pbiviz --create-cert
+pbiviz --install-cert
 ```
 
 ## <a name="create-a-certificate-linux"></a>创建证书 (Linux)
@@ -80,7 +79,7 @@ pbiviz --create-cert
 如果你的操作系统中可以使用 OpenSSL 实用程序，请运行以下命令生成新证书：
 
 ```cmd
-pbiviz --create-cert
+pbiviz --install-cert
 ```
 
 或者，转到 [OpenSSL](https://www.openssl.org) 或 [OpenSSL Binaries](https://wiki.openssl.org/index.php/Binaries) 站点获取 OpenSSL 实用程序。

@@ -10,12 +10,12 @@ ms.subservice: powerbi-developer
 ms.topic: tutorial
 ms.custom: seodec18
 ms.date: 07/29/2019
-ms.openlocfilehash: 15c16e2e065148666eee6c67a511c5e412bc334e
-ms.sourcegitcommit: b602cdffa80653bc24123726d1d7f1afbd93d77c
+ms.openlocfilehash: 9c35d74249516b25a756a8a90ce666092e585a72
+ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/03/2019
-ms.locfileid: "70237384"
+ms.lasthandoff: 11/01/2019
+ms.locfileid: "73431080"
 ---
 # <a name="tutorial-embed-power-bi-content-into-an-application-for-your-organization"></a>教程：为组织将 Power BI 内容嵌入应用程序
 
@@ -45,7 +45,7 @@ ms.locfileid: "70237384"
 
 开始将报表、仪表板或磁贴嵌入应用前，需要先确保环境允许通过 Power BI 进行嵌入。
 
-你可通过完成[嵌入安装工具](https://aka.ms/embedsetup/UserOwnsData)，快速开始并下载可帮助你逐步创建环境和嵌入报表的示例应用程序。 在嵌入分页报表的情况下，需要至少将 P1 容量分配给创建的应用工作区。
+你可通过完成[嵌入安装工具](https://aka.ms/embedsetup/UserOwnsData)，快速开始并下载可帮助你逐步创建环境和嵌入报表的示例应用程序。 在嵌入分页报表的情况下，需要至少将 P1 容量分配给创建的工作区。
 
 如果选择手动设置环境，则可以继续进行下面的操作。
 
@@ -57,13 +57,13 @@ ms.locfileid: "70237384"
 
 ## <a name="set-up-your-power-bi-environment"></a>设置 Power BI 环境
 
-### <a name="create-an-app-workspace"></a>创建应用工作区
+### <a name="create-a-workspace"></a>创建工作区
 
-如果为客户嵌入报表、仪表板或磁贴，则必须将内容放在应用工作区中。 具有可以设置的不同类型工作区：[传统工作区](../service-create-workspaces.md)或[新工作区](../service-create-the-new-workspaces.md)。
+如果为客户嵌入报表、仪表板或磁贴，则必须将内容放在工作区中。 具有可以设置的不同类型工作区：[传统工作区](../service-create-workspaces.md)或[新工作区](../service-create-the-new-workspaces.md)。
 
 ### <a name="create-and-publish-your-power-bi-reports"></a>创建并发布 Power BI 报表
 
-可以通过使用 Power BI Desktop 创建报表和数据集。 然后，可以将这些报表发布到应用工作区。 发布报表的最终用户需要拥有 Power BI Pro 许可证才可发布到应用工作区。
+可以通过使用 Power BI Desktop 创建报表和数据集。 然后，可以将这些报表发布到工作区。 发布报表的最终用户需要拥有 Power BI Pro 许可证才可发布到工作区。
 
 1. 从 GitHub 下载示例[演示](https://github.com/Microsoft/powerbi-desktop-samples)。
 
@@ -73,7 +73,7 @@ ms.locfileid: "70237384"
 
    ![示例 Power BI Desktop 报表](media/embed-sample-for-your-organization/embed-sample-for-your-organization-027.png)
 
-3. 发布到应用工作区。
+3. 发布到工作区。
 
    ![发布 Power BI Desktop 报表](media/embed-sample-for-your-organization/embed-sample-for-your-organization-028.png)
 
@@ -83,7 +83,7 @@ ms.locfileid: "70237384"
    
 ### <a name="create-and-publish-your-paginated-reports"></a>创建并发布分页报表
 
-可使用 [Power BI 报表生成器](../paginated-reports-report-builder-power-bi.md#create-reports-in-power-bi-report-builder)创建分页报表。 然后可以将[报表上传](../paginated-reports-quickstart-aw.md#upload-the-report-to-the-service)到分配有至少 P1 容量的应用工作区。 上传报表的最终用户需要具有 Power BI Pro 许可证才能发布到应用工作区。
+可使用 [Power BI 报表生成器](../paginated-reports-report-builder-power-bi.md#create-reports-in-power-bi-report-builder)创建分页报表。 然后可以将[报表上传](../paginated-reports-quickstart-aw.md#upload-the-report-to-the-service)到分配有至少 P1 容量的工作区。 上传报表的最终用户需要具有 Power BI Pro 许可证才能发布到工作区。
    
 ## <a name="embed-your-content-by-using-the-sample-application"></a>使用示例应用程序嵌入内容
 
@@ -130,7 +130,7 @@ ms.locfileid: "70237384"
 
 ### <a name="workspace-id"></a>工作区 ID
 
-使用 Power BI 中的“应用工作区(组) GUID”填写“workspaceId”信息  。 登录 Power BI 服务或使用 Powershell 时，可获得该信息。
+使用 Power BI 中的“工作区(组) GUID”填写“workspaceId”信息  。 登录 Power BI 服务或使用 Powershell 时，可获得该信息。
 
 URL <br>
 
@@ -376,11 +376,11 @@ function updateEmbedReport() {
 
 ## <a name="using-a-power-bi-premium-dedicated-capacity"></a>使用 Power BI Premium 专用容量
 
-至此，你已完成应用程序的开发，接下来请回到应用工作区了解专用容量。
+至此，你已完成应用程序的开发，接下来请回到工作区了解专用容量。
 
 ### <a name="create-a-dedicated-capacity"></a>创建专用容量
 
-通过创建专用容量，则可获得在应用工作区中拥有内容专用资源这一优势。 对于分页报表，必须为应用工作区准备至少 P1 容量。 你可使用 [Power BI Premium](../service-premium-what-is.md) 创建专用容量。
+通过创建专用容量，则可获得在工作区中拥有内容专用资源这一优势。 对于分页报表，必须为工作区准备至少 P1 容量。 你可使用 [Power BI Premium](../service-premium-what-is.md) 创建专用容量。
 
 下表列出了 [Microsoft Office 365](../service-admin-premium-purchase.md) 中可用的 Power BI Premium SKU：
 
@@ -399,9 +399,9 @@ function updateEmbedReport() {
 > - 当你尝试嵌入到 Microsoft Office 应用时，可以使用 EM SKU 访问具有免费 Power BI 许可证的内容。 但是，如果使用 Powerbi.com 或 Power BI 移动版时，将无法使用免费 Power BI 许可证访问内容。
 > - 在尝试使用 Powerbi.com 或 Power BI 移动版嵌入到 Microsoft Office 应用时，可以使用免费 Power BI 许可证访问内容。
 
-### <a name="assign-an-app-workspace-to-a-dedicated-capacity"></a>为应用工作区分配专用容量
+### <a name="assign-a-workspace-to-a-dedicated-capacity"></a>为工作区分配专用容量
 
-创建专用容量后，可将该专用容量分配给应用工作区。 若要完成此过程，请按照下列步骤执行：
+创建专用容量后，可将该专用容量分配给工作区。 若要完成此过程，请按照下列步骤执行：
 
 1. 在“Power BI 服务”中，展开工作区并选择用于嵌入内容的工作区的相应省略号。 然后选择“编辑工作区”  。
 
@@ -411,9 +411,9 @@ function updateEmbedReport() {
 
     ![分配专用容量](media/embed-sample-for-your-organization/embed-sample-for-your-organization-024.png)
 
-3. 选择“保存”后，应用工作区名称旁边应显示一个钻石形状  。
+3. 选择“保存”后，应该会在工作区名称旁边看到一个钻石图形  。
 
-    ![与容量绑定的应用工作区](media/embed-sample-for-your-organization/embed-sample-for-your-organization-037.png)
+    ![与容量绑定的工作区](media/embed-sample-for-your-organization/embed-sample-for-your-organization-037.png)
 
 ## <a name="admin-settings"></a>管理员设置
 

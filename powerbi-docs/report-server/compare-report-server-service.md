@@ -10,12 +10,12 @@ ms.subservice: powerbi-report-server
 manager: kfile
 ms.custom: mvc
 ms.date: 09/13/2019
-ms.openlocfilehash: 104b903e6b7a47b5ce35dc5c0627a43d54c1090a
-ms.sourcegitcommit: 0687908938e4c3b68401fd511ec1c28fb54ddeb3
+ms.openlocfilehash: 877d3590fab67f0aed3c3ab6dc9de9a96ade5dc9
+ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/30/2019
-ms.locfileid: "71691231"
+ms.lasthandoff: 11/01/2019
+ms.locfileid: "73431471"
 ---
 # <a name="comparing-power-bi-report-server-and-the-power-bi-service"></a>比较 Power BI 报表服务器和 Power BI 服务
 
@@ -29,7 +29,7 @@ Power BI 报表服务器和 Power BI 服务有许多相似之处和一些关键�
 | 源数据 | 云和/或本地 | 云和/或本地 |  |
 | 许可证 | 带 SA 的 Power BI Premium 或 SQL Server EE | Power BI Pro 和/或 Power BI Premium | |  
 | 生命周期 | 现代生命周期策略 | 完全托管的服务 |  |
-| 发行周期 | 每 4 个月一次 | 每个月一次 | Power BI 服务中首先提供最新功能和修补程序。 Power BI 报表服务器在接下来的几个版本中提供了最核心功能；某些功能仅适用于 Power BI 服务。 |
+| 发行周期 | 一年三次（1 月、5 月、9 月） | 每个月一次 | Power BI 服务中首先提供最新功能和修补程序。 Power BI 报表服务器在接下来的几个版本中提供了最核心功能；某些功能仅适用于 Power BI 服务。 |
 | 在 Power BI Desktop 中创建 Power BI 报表 | 是 | 是 |  |
 | 在浏览器中创建 Power BI 报表 | 否 | 是 |  |
 | 需要网关 | 否 | 对于本地数据源，则为“是” |  |
@@ -49,7 +49,7 @@ Power BI 报表服务器和 Power BI 服务有许多相似之处和一些关键�
 | 数据警报 | 否 | 是 | Power BI 服务中的[数据警报](../service-set-data-alerts.md)
 | 行级别安全性 (RLS) | 是 | 是 | 在 DirectQuery（数据源）和导入模式下均可用 <br><br>[Power BI 服务](../service-admin-rls.md)中的行级别安全性 <br><br>[Power BI 报表服务器](row-level-security-report-server.md)中的行级别安全性 |
 | 全屏模式 | 否 | 是 | Power BI 服务中的[全屏模式](../consumer/end-user-focus.md) |
-| 高级 Office 365 协作 | 否 | 是 | 使用 Office 365 [在应用工作区中协作](../service-collaborate-power-bi-workspace.md) |
+| 高级 Office 365 协作 | 否 | 是 | 使用 Office 365 [在工作区中协作](../service-collaborate-power-bi-workspace.md) |
 | R 视觉对象 | 否 | 是 | 在 Power BI Desktop 中[创建 R 视觉对象](../desktop-r-visuals.md)并将其发布到 Power BI 服务。 无法将带有 R 视觉对象的 Power BI 报表保存到 Power BI 报表服务器。  |
 | 预览功能 | 否 | 是 | [选择使用 Power BI 服务预览](../consumer/end-user-preview-features.md)功能 |
 | 自定义视觉对象 | 是 | 是 | [在 Power BI 中自定义视觉对象](../power-bi-custom-visuals.md) |

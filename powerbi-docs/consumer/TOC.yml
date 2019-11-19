@@ -188,6 +188,8 @@
               href: mobile/mobile-annotate-and-share-a-tile-from-the-mobile-apps.md
             - name: 使用 iPhone 上的应用扫描条形码
               href: mobile/mobile-apps-scan-barcode-iphone.md
+            - name: 使用移动设备管理进行配置
+              href: mobile/mobile-app-configuration.md
         - name: iOS
           items:
             - name: 开始使用 iOS 应用
@@ -202,8 +204,6 @@
               href: mobile/mobile-apps-iOS-search-integration.md
             - name: Power BI Apple Watch 应用
               href: mobile/mobile-apple-watch.md
-            - name: 使用移动设备管理进行配置
-              href: mobile/mobile-app-configuration.md
         - name: Android 设备
           items:
             - name: Android 应用入门

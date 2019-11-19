@@ -1,6 +1,6 @@
 ---
 title: 从应用嵌入报表或仪表板
-description: 了解如何从 Power BI 应用（而不是从应用工作区）集成或嵌入报表或仪表板。
+description: 了解如何从 Power BI 应用（而不是从工作区）集成或嵌入报表或仪表板。
 author: rkarlin
 ms.author: rkarlin
 ms.topic: conceptual
@@ -9,12 +9,12 @@ ms.subservice: powerbi-developer
 ms.custom: mvc
 manager: kfile
 ms.date: 11/27/2018
-ms.openlocfilehash: 5a988eb160ce772d2c2e70e8cba2c01d3f0a36a9
-ms.sourcegitcommit: 81ba3572531cbe95ea0b887b94e91f94050f3129
+ms.openlocfilehash: 1883d82b47c32f3c7f03e55a177429d09ce337a2
+ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/06/2019
-ms.locfileid: "66750894"
+ms.lasthandoff: 11/01/2019
+ms.locfileid: "73430857"
 ---
 # <a name="embed-reports-or-dashboards-from-apps"></a>从应用嵌入报表或仪表板
 
@@ -42,7 +42,7 @@ ms.locfileid: "66750894"
 
 ## <a name="next-steps"></a>后续步骤
 
-了解如何为第三方客户和组织从应用工作区嵌入内容：
+了解如何为第三方客户和组织从工作区嵌入内容：
 
 > [!div class="nextstepaction"]
 >[为第三方客户嵌入内容](embed-sample-for-customers.md)

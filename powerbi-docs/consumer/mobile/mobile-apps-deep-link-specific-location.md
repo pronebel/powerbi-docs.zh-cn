@@ -9,12 +9,12 @@ ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 04/24/2019
 ms.author: mshenhav
-ms.openlocfilehash: 4e09b10e38b018f8e5572343b343a243ace3bf81
-ms.sourcegitcommit: 52aa112ac9194f4bb62b0910c4a1be80e1bf1276
+ms.openlocfilehash: ef7766f8783fef08561a70d8ea77212c138e3148
+ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "64906535"
+ms.lasthandoff: 11/01/2019
+ms.locfileid: "73429895"
 ---
 # <a name="create-a-link-to-a-specific-location-in-the-power-bi-mobile-apps"></a>创建指向 Power BI 移动应用中特定位置的链接
 可以使用链接直接访问 Power BI 中的特定项：报表、仪表板和磁贴。
@@ -69,7 +69,7 @@ https://app.powerbi.com/Redirect?[**QUERYPARAMS**]
 
 #### <a name="links-of-apps-and-items-in-app"></a>应用中的应用和项的链接
 
-对于属于应用的应用和报表以及仪表板，获取链接的最简单方法是转到应用工作区并选择“更新应用”  。 此操作将打开“发布应用”体验，在 “访问”选项卡中，你将找到“链接”部分  。 展开该部分后，你将看到可用于直接访问该应用及其所有内容的链接列表。
+对于属于应用的应用和报表以及仪表板，获取链接的最简单方法是转到工作区并选择“更新应用”  。 此操作将打开“发布应用”体验，在 “访问”选项卡中，你将找到“链接”部分  。 展开该部分后，你将看到可用于直接访问该应用及其所有内容的链接列表。
 
 ![Power BI 发布应用链接 ](./media/mobile-apps-links/mobile-link-copy-app-links.png)
 
@@ -118,5 +118,5 @@ https://app.powerbi.com/groups/me/reports/**report guid comes here**/ReportSecti
 * [适用于移动设备的 Power BI 应用](mobile-apps-for-mobile-devices.md)
 * 关注 Twitter 上的 @MSPowerBI
 * 加入 [Power BI 社区](http://community.powerbi.com/)的对话
-* [什么是 Power BI？](../../power-bi-overview.md)
+* [什么是 Power BI？](../../fundamentals/power-bi-overview.md)
 

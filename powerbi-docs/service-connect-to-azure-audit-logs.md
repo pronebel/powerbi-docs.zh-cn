@@ -2,7 +2,6 @@
 title: 使用 Power BI 连接到 Azure 审核日志
 description: 适用于 Power BI 的 Azure 审核日志
 author: SarinaJoan
-manager: kfile
 ms.reviewer: maggiesMSFT
 ms.service: powerbi
 ms.subservice: powerbi-template-apps
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 08/29/2019
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 42b56cbad4c47b8cc8133a1f35511ea48ac24055
-ms.sourcegitcommit: d441d350504f8c6d9e100d229757add6237f0bef
+ms.openlocfilehash: d0bd4e90dac6e71d95c38bed83f1c9507acc4fd3
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/30/2019
-ms.locfileid: "73060609"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73855391"
 ---
 # <a name="connect-to-azure-audit-logs-with-power-bi"></a>使用 Power BI 连接到 Azure 审核日志
 借助 Azure 审核日志内容包，你可以分析和可视化审核日志中存储的信息。 Power BI 会检索数据，生成现成的仪表板，并基于该数据创建报表。
@@ -25,7 +24,7 @@ ms.locfileid: "73060609"
 [连接到 Azure 审核日志内容包](https://app.powerbi.com/getdata/services/azure-audit-logs)，或阅读有关使用 Power BI 进行 [Azure 审核日志集成](https://powerbi.microsoft.com/integrations/azure-audit-logs)的详细信息。
 
 ## <a name="how-to-connect"></a>如何连接
-1. 选择左侧导航窗格底部的**获取数据**。  
+1. 在导航窗格底部，选择“获取数据”  。  
    
     ![](media/service-connect-to-azure-audit-logs/getdata.png)
 2. 在**服务**框中，选择**获取**。  

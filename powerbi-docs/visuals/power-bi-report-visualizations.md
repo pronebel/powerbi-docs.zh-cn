@@ -3,30 +3,29 @@ title: Power BI 服务和 Power BI Desktop 中的报表可视化效果概述
 description: Microsoft Power BI 中的报表可视化效果（视觉对象）概述。
 author: mihart
 ms.author: mihart
-manager: kvivek
 ms.reviewer: ''
 featuredvideoid: SYk_gWrtKvM
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 07/01/2019
+ms.date: 10/28/2019
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 91ae7fbbba8b9ba63e8b429c8b2ef3a3adb1c95e
-ms.sourcegitcommit: 549401b0e1fad15c3603fe7f14b9494141fbb100
+ms.openlocfilehash: 02617e690c347448ecb1c313bc86969dabeb9984
+ms.sourcegitcommit: 08b73af260ded51daaa6749338cb85db2eab587f
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/14/2019
-ms.locfileid: "72307154"
+ms.lasthandoff: 11/15/2019
+ms.locfileid: "74099093"
 ---
 # <a name="visualizations-in-power-bi-reports"></a>Power BI 报表中的可视化效果
 
 可视化效果（简称为“视觉对象”）会显示在数据中发现的见解。 在 Power BI 报表中，既可能一个页面上只有一个视觉对象，也可能页面上有大量视觉对象。 在 Power BI 服务中，可以将视觉对象[从报表固定到仪表板](../service-dashboard-pin-tile-from-report.md)。
 
-有必要在报表设计者与报表使用者之间进行区分   。  如果你是生成或修改报表的人员，则你是设计者。  设计者有权编辑报表及其基础数据集。 在 Power BI Desktop 中，这意味着，可以在数据视图中打开数据集，并在报表视图中创建视觉对象。 在 Power BI 服务中，这意味着可使用报表编辑器在[编辑视图](../consumer/end-user-reading-view.md)中打开数据集或报表。 如果有人将某个报表或仪表板[与你共享](../consumer/end-user-shared-with-me.md)，你就是报表的一个使用者  。 可查看报表及其视觉对象并与之交互，但无法保存重大更改。
+有必要在报表设计者与报表使用者之间进行区分   。  如果你是生成或修改报表的人员，则你是设计者。  设计者有权编辑报表及其基础数据集。 在 Power BI Desktop 中，这意味着，可以在数据视图中打开数据集，并在报表视图中创建视觉对象。 在 Power BI 服务中，这意味着可使用报表编辑器在[编辑视图](../consumer/end-user-reading-view.md)中打开数据集或报表。 如果有人将某个报表或仪表板[与你共享](../consumer/end-user-shared-with-me.md)，你就是报表的一个使用者  。 你可以查看报表及其视觉对象并与之交互，但无法进行设计者所能进行的更改  。
 
 Power BI 的“可视化效果”窗格中还有其他许多视觉对象类型，可供直接使用。
 
-![](media/power-bi-report-visualizations/power-bi-templates.png)
+![具有各种可视化效果类型图标的窗格](media/power-bi-report-visualizations/power-bi-icons.png)
 
 如需有更多选择，请访问 [Microsoft AppSource 社区网站](https://appsource.microsoft.com)，查找并[下载](https://appsource.microsoft.com/marketplace/apps?page=1&product=power-bi-visuals) Microsoft 和社区提供的[自定义视觉对象](../developer/visuals/custom-visual-develop-tutorial.md)。
 
@@ -71,4 +70,4 @@ Power BI 的“可视化效果”窗格中还有其他许多视觉对象类型�
 ## <a name="next-steps"></a>后续步骤
 
 * [Power BI 中的可视化效果类型](power-bi-visualization-types-for-reports-and-q-and-a.md)
-* [自定义视觉对象](../power-bi-custom-visuals.md)
+* [自定义视觉对象](../developer/power-bi-custom-visuals.md)

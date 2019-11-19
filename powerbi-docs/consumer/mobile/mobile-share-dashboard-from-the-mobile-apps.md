@@ -2,19 +2,18 @@
 title: 在 Power BI 移动应用中共享仪表板或报表
 description: 通过从 Power BI 移动应用共享链接，邀请他人查看仪表板和报表。 了解如何操作。
 author: mshenhav
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 03/20/2018
 ms.author: mshenhav
-ms.openlocfilehash: 75d315463601110dee61d293a7a41abbf30aaa2d
-ms.sourcegitcommit: 52aa112ac9194f4bb62b0910c4a1be80e1bf1276
+ms.openlocfilehash: 232d311e876a5fe01eb6c8091eb7a83669592cbf
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "61274273"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73879079"
 ---
 # <a name="share-a-dashboard-or-report-from-the-power-bi-mobile-apps"></a>在 Power BI 移动应用中共享仪表板或报表
 适用于：
@@ -39,7 +38,7 @@ ms.locfileid: "61274273"
    
    收件人会收到电子邮件邀请，其中包含指向仪表板或报表的直接链接。 该邀请将在一个月后过期。 他们在浏览器或 Power BI 移动应用中打开该邀请时，邀请会添加到其 Power BI 帐户的“与我共享”  部分。
    
-   ![与我共享](./././media/mobile-share-dashboard-from-the-mobile-apps/power-bi-iphone-shared-with-me-left-nav.png)
+   ![与我共享的内容](./././media/mobile-share-dashboard-from-the-mobile-apps/power-bi-iphone-shared-with-me-left-nav.png)
    
    详细了解[与同事共享的相关说明](../../service-share-dashboards.md)。
 
@@ -69,7 +68,7 @@ ms.locfileid: "61274273"
    
    收件人会收到电子邮件邀请，其中包含指向仪表板或报表的直接链接。 该邀请将在一个月后过期。 他们在浏览器或 Power BI 移动应用中打开该邀请时，邀请会添加到其 Power BI 帐户的“与我共享”  部分
    
-   ![与我共享](./././media/mobile-share-dashboard-from-the-mobile-apps/power-bi-iphone-shared-with-me-left-nav.png)
+   ![与我共享的内容](./././media/mobile-share-dashboard-from-the-mobile-apps/power-bi-iphone-shared-with-me-left-nav.png)
    
    详细了解[与同事共享的相关说明](../../service-share-dashboards.md)。
 
@@ -86,7 +85,7 @@ ms.locfileid: "61274273"
 3. 若要停止共享，请点击名称旁边的红色圆圈，然后点击**删除**。
 
 ## <a name="share-from-your-android-device"></a>从 Android 设备中共享
-1. 在仪表板或报表的主页上，点击省略号 (...)，然后点击“邀请同事”。 
+1. 在仪表板或报表的主页上，点击“更多选项”(...)，然后点击“邀请同事”   。
    
    ![邀请同事](./media/mobile-share-dashboard-from-the-mobile-apps/power-bi-android-tablet-share-dashboard.png)
 2. 也可以点击仪表板或报表中的“邀请”图标 ![邀请图标](././media/mobile-share-dashboard-from-the-mobile-apps/power-bi-android-invite-icon.png)。
@@ -105,7 +104,7 @@ ms.locfileid: "61274273"
    
    收件人会收到电子邮件邀请，其中包含指向仪表板的直接链接。 该邀请将在一个月后过期。 他们在浏览器或 Power BI 移动应用中打开该邀请时，邀请会添加到其 Power BI 帐户的“与我共享”  部分
    
-   ![与我共享](./media/mobile-share-dashboard-from-the-mobile-apps/power-bi-android-shared-with-me-left-nav.png)
+   ![与我共享的内容](./media/mobile-share-dashboard-from-the-mobile-apps/power-bi-android-shared-with-me-left-nav.png)
    
    详细了解[与同事共享仪表板的相关说明](../../service-share-dashboards.md)。
 
@@ -140,12 +139,12 @@ ms.locfileid: "61274273"
    
    收件人会收到电子邮件邀请，其中包含指向仪表板或报表的直接链接。 该邀请将在一个月后过期。 他们在浏览器或 Power BI 移动应用中打开该邀请时，邀请会添加到其 Power BI 帐户的“与我共享”  部分
    
-   ![与我共享](./././media/mobile-share-dashboard-from-the-mobile-apps/power-bi-iphone-shared-with-me-left-nav.png)
+   ![与我共享的内容](./././media/mobile-share-dashboard-from-the-mobile-apps/power-bi-iphone-shared-with-me-left-nav.png)
    
    详细了解[与同事共享的相关说明](../../service-share-dashboards.md)。
 
 ## <a name="next-steps"></a>后续步骤
 * [在移动应用中批注并共享磁贴、报表或视觉对象的快照](mobile-annotate-and-share-a-tile-from-the-mobile-apps.md)
 * [共享 Power BI 中的仪表板或报表](../../service-share-dashboards.md)
-* 是否有任何问题? [尝试咨询 Power BI 社区](http://community.powerbi.com/)
+* 是否有任何问题? [尝试咨询 Power BI 社区](https://community.powerbi.com/)
 

@@ -2,7 +2,6 @@
 title: 创建和发布组织内容包 - Power BI
 description: 本教程创建一个组织内容包，限制对特定组的访问，并将其发布到 Power BI 上的组织内容包库。
 author: maggiesMSFT
-manager: kfile
 ms.reviewer: lukaszp
 ms.service: powerbi
 ms.subservice: powerbi-service
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 08/06/2019
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: eb1940f7d5a4e809590b5b425b8005776040a5cc
-ms.sourcegitcommit: 5e277dae93832d10033defb2a9e85ecaa8ffb8ec
+ms.openlocfilehash: 25b63db2d77e84fb3fc1a3e844ceb46ef1a9bd82
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/07/2019
-ms.locfileid: "72020670"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73872012"
 ---
 # <a name="tutorial-create-and-publish-a-power-bi-organizational-content-pack"></a>教程：创建和发布 Power BI 组织内容包
 
@@ -34,9 +33,9 @@ ms.locfileid: "72020670"
 
 想要跟着做吗？ 在 [Power BI 服务](https://powerbi.com)中，转到“我的工作区”  。 然后转到“获取数据” > “示例” > “机会分析示例” > “连接”，获取自己的副本     。
 
-1. 在左侧的导航窗格中，选择“工作区” > “我的工作区”   。
+1. 在导航窗格中，选择“工作区” > “我的工作区”   。
 
-1. 在顶部导航栏中，选择齿轮图标 ![齿轮图标的屏幕截图](media/service-organizational-content-pack-create-and-publish/cog.png) > “创建内容包”  。
+1. 在顶部导航窗格中，选择齿轮图标 ![齿轮图标的屏幕截图](media/service-organizational-content-pack-create-and-publish/cog.png)。 > “创建内容包”  。
 
    ![UI 的屏幕截图，侧重于“齿轮图标”和“创建内容包”选项。](media/service-organizational-content-pack-create-and-publish/pbi_create_contpk.png)
 
@@ -100,4 +99,4 @@ ms.locfileid: "72020670"
 
 * [什么是 OneDrive for Business？](https://support.office.com/article/What-is-OneDrive-for-Business-187f90af-056f-47c0-9656-cc0ddca7fdc2)
 
-* 更多问题？ [尝试参与 Power BI 社区](http://community.powerbi.com/)
+* 更多问题？ [尝试参与 Power BI 社区](https://community.powerbi.com/)

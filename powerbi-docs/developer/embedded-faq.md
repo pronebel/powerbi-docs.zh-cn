@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 05/27/2019
-ms.openlocfilehash: 62b5498558b2c89a23e2ed2caf3dacdf343d3a79
-ms.sourcegitcommit: d9755602235ba03594c348571b9102c9bf88d732
+ms.openlocfilehash: 81eb5de3294430c3960502700bb6255aea43f91a
+ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/15/2019
-ms.locfileid: "69490334"
+ms.lasthandoff: 11/01/2019
+ms.locfileid: "73429271"
 ---
 # <a name="frequently-asked-questions-about-power-bi-embedded"></a>有关 Power BI Embedded 的常见问题
 
@@ -67,7 +67,7 @@ Power BI Embedded 是一组开发人员可用于创建嵌入式分析解决方�
 | 功能 | Power BI Embedded | Power BI Premium 容量 | Power BI Premium 容量 |
 |----------------------------------------------------------------------------------|-------------------|---------------------------|---------------------------|
 |   | SKU - Azure 容量 | EM SKU - O365 容量 | P SKU - O365 容量 |
-| 从 Power BI 应用工作区嵌入项目 | 是 | 是 | 是 |
+| 从 Power BI 工作区嵌入项目 | 是 | 是 | 是 |
 | 在嵌入式应用程序中使用 Power BI 报表 - SaaS | 否 | 是 | 是 |
 | 在嵌入式应用程序中使用 Power BI 报表 - PaaS | 是 | 是 | 是 |
 | 在 SharePoint 中使用 Power BI 报表 | 否 | 是 | 是 |
@@ -146,7 +146,7 @@ Power BI 要求使用组织帐户注册。 不支持使用 Microsoft 帐户注�
 
 ### <a name="what-is-the-pbi-embedded-dedicated-capacity-role-in-a-pbi-embedded-solution"></a>PBI Embedded 解决方案中的 PBI Embedded 专用容量角色是什么？
 
-为了[将解决方案提升到生产](embed-sample-for-customers.md#move-to-production)，需要将应用程序使用的 Power BI 内容（应用工作区）分配给 Power BI Embedded (A SKU) 容量。
+为了[将解决方案提升到生产](embed-sample-for-customers.md#move-to-production)，你需要将应用程序使用的 Power BI 内容（工作区）分配给 Power BI Embedded (A SKU) 容量。
 
 ### <a name="in-what-azure-regions-is-pbi-embedded-available"></a>PBI Embedded 在哪些 Azure 区域可用？
 

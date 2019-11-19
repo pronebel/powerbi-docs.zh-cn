@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 07/25/2019
 ms.author: maggies
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 042fee1a55728884b3f4d5792a82973b3ea9fcc4
-ms.sourcegitcommit: 9665bdabce3bfc31f68dd8256b135bfd56f60589
+ms.openlocfilehash: 93301625efda52aa69af172b29e7fbcd94b2a4dd
+ms.sourcegitcommit: 2aa83bd53faad6fb02eb059188ae623e26503b2a
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/06/2019
-ms.locfileid: "68832547"
+ms.lasthandoff: 10/29/2019
+ms.locfileid: "73020438"
 ---
 # <a name="add-images-videos-and-more-to-your-dashboard"></a>向仪表板添加图像、视频等
 
@@ -232,7 +232,7 @@ ms.locfileid: "68832547"
 ## <a name="edit-a-tile"></a>编辑磁贴
 要更改现有磁贴，请执行以下操作：
 
-1. 将鼠标悬停在磁贴右上角并选择省略号 (...)。
+1. 将鼠标悬停在磁贴右上角并选择“更多选项”(...)  。
    
     ![选择磁贴省略号](media/service-dashboard-add-widget/pbi_ellipses.png)
 2. 选择“编辑详细信息”以显示“磁贴详细信息”窗口并进行更改   。

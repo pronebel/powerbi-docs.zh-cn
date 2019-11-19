@@ -2,7 +2,6 @@
 title: Power BI 的供应商质量分析示例：参观
 description: Power BI 的供应商质量分析示例：参观
 author: maggiesMSFT
-manager: kfile
 ms.reviewer: amac
 ms.service: powerbi
 ms.subservice: powerbi-desktop
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 07/19/2019
 ms.author: maggies
 LocalizationGroup: Samples
-ms.openlocfilehash: 76e053d34dcd7f1f199f4cbf9f02196e8efc6232
-ms.sourcegitcommit: ba95d4979f1869f49a7d266c591f95e2810fdb29
+ms.openlocfilehash: 156b00c7f7287f12397afea422a38f3870d6c399
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/19/2019
-ms.locfileid: "69621308"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73858403"
 ---
 # <a name="supplier-quality-analysis-sample-for-power-bi-take-a-tour"></a>Power BI 的供应商质量分析示例：参观
 
@@ -59,11 +58,11 @@ ms.locfileid: "69621308"
   
 ### <a name="get-the-pbix-file-for-this-sample"></a>获取 .pbix 文件形式的此示例
 
-也可以将此供应商质量分析示例下载为 [.pbix 文件](http://download.microsoft.com/download/8/C/6/8C661638-C102-4C04-992E-9EA56A5D319B/Supplier-Quality-Analysis-Sample-PBIX.pbix)，这是专用于 Power BI Desktop 的文件格式。
+也可以将此供应商质量分析示例下载为 [.pbix 文件](https://download.microsoft.com/download/8/C/6/8C661638-C102-4C04-992E-9EA56A5D319B/Supplier-Quality-Analysis-Sample-PBIX.pbix)，这是专用于 Power BI Desktop 的文件格式。
 
 ### <a name="get-the-excel-workbook-for-this-sample"></a>获取 Excel 工作簿形式的此示例
 
-若要查看此示例的数据源，还可以将它下载为 [Excel 工作簿](http://go.microsoft.com/fwlink/?LinkId=529779)。 该工作簿包含你可以查看和修改的 Power View 工作表。 若要查看原始数据，请启用“数据分析”加载项，再依次选择“Power Pivot”>“管理”  。 若要启用 Power View 和 Power Pivot 加载项，请参阅[从 Excel 本身内查看 Excel 示例](sample-datasets.md#optional-take-a-look-at-the-excel-samples-from-inside-excel-itself)，以了解详细信息。
+若要查看此示例的数据源，还可以将它下载为 [Excel 工作簿](https://go.microsoft.com/fwlink/?LinkId=529779)。 该工作簿包含你可以查看和修改的 Power View 工作表。 若要查看原始数据，请启用“数据分析”加载项，再依次选择“Power Pivot”>“管理”  。 若要启用 Power View 和 Power Pivot 加载项，请参阅[从 Excel 本身内查看 Excel 示例](sample-datasets.md#optional-take-a-look-at-the-excel-samples-from-inside-excel-itself)，以了解详细信息。
 
 ## <a name="downtime-caused-by-defective-materials"></a>用料瑕疵所造成的停工时间
 让我们来分析用料瑕疵所造成的停工时间，并查看应由哪些供应商负责。  
@@ -94,7 +93,7 @@ ms.locfileid: "69621308"
     ![“按供应商划分的停工时间(分钟)”树状图](media/sample-supplier-quality/supplier5.png)  
 
    从此树状图中，我们可以看到前八个供应商是树状图左侧的八个区块。 我们也可以看到它们应为约 50% 的停工时间总分钟数承担责任。  
-3. 在顶部导航栏中选择“供应商质量分析示例”，返回到仪表板  。
+3. 在顶部导航窗格中选择“供应商质量分析示例”，返回到仪表板  。
 
 ### <a name="comparing-plants"></a>工厂比较
 现在让我们来探索哪些工厂在管理瑕疵用料方面表现较佳，从而缩短了停工时间。  
@@ -113,7 +112,7 @@ ms.locfileid: "69621308"
 3. 在气泡图中选择“物流”气泡，并观察伊利诺斯州斯普林菲尔德市和伊利诺伊州内伯威尔市的工厂  。 内伯威尔市似乎在管理瑕疵供货方面做得更好，因为它的退货量较高，影响量也较小，而斯普林菲尔德市的影响量就较大。  
 
    ![选择“物流”](media/sample-supplier-quality/supplier8.png)  
-4. 在顶部导航栏中选择“供应商质量分析示例”，返回到仪表板  。
+4. 在顶部导航窗格中选择“供应商质量分析示例”，返回到仪表板  。
 
 ## <a name="which-material-type-is-best-managed"></a>哪种类型的用料管理最佳？
 管理最佳的用料类型是指无论瑕疵品数量如何，都具有最低的停工时间或不造成任何影响的类型。
@@ -138,7 +137,7 @@ ms.locfileid: "69621308"
 
     ![“瑕疵品总数(按月份和年份)”图表](media/sample-supplier-quality/supplier11.png)  
 3. 瑕疵品多代表停工时间一定也更多吗？ 在问答框中提问可以找出答案。  
-4. 在顶部导航栏中选择“供应商质量分析示例”，返回到仪表板  。  
+4. 在顶部导航窗格中选择“供应商质量分析示例”，返回到仪表板  。  
 5. 既然我们知道“原料”具有最高数量的瑕疵品，可在问题框中键入“显示用料类型、年份和瑕疵品总数”  。  
 
     2014 年的原料瑕疵品数量比 2013 年高很多。  

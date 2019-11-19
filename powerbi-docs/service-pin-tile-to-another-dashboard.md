@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 03/01/2018
 ms.author: maggies
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 4fe3b56f1891423a80019186668dc55f361d580a
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: d4e9c095dc0114ec3b5fe2fdd6d52fd25aa76d97
+ms.sourcegitcommit: 2aa83bd53faad6fb02eb059188ae623e26503b2a
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61225842"
+ms.lasthandoff: 10/29/2019
+ms.locfileid: "73020120"
 ---
 # <a name="pin-a-tile-from-one-dashboard-to-another-dashboard"></a>将某个仪表板中的磁贴固定到另一个仪表板
 添加新的[仪表板磁贴](consumer/end-user-tiles.md)的一种方法是从另一个仪表板中复制它。 每个磁贴在单击后都是一个返回到磁贴创建位置的链接 -- 在问答或报表中。 
@@ -26,7 +26,7 @@ ms.locfileid: "61225842"
 ## <a name="pin-a-tile-to-another-dashboard"></a>将磁贴固定到另一个仪表板
 1. [获取数据](service-get-data.md)。 本示例使用 [IT 支出分析示例](sample-it-spend.md)。
 2. 打开[仪表板](consumer/end-user-dashboards.md)。
-3. 将鼠标悬停在想要固定的磁贴上方，选择省略号 (...) 并选择“固定磁贴”  。  
+3. 将鼠标悬停在想要固定的磁贴上方，选择“更多选项”(...) 并选择“固定磁贴”   。  
    
    ![省略号菜单](media/service-pin-tile-to-another-dashboard/power-bi-pin-another-dash.png)
 4. 将磁贴固定到现有仪表板或新仪表板。 

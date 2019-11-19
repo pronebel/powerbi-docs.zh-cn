@@ -10,12 +10,12 @@ ms.subservice: powerbi-admin
 ms.topic: conceptual
 ms.date: 03/12/2019
 LocalizationGroup: Premium
-ms.openlocfilehash: a6e37885c5e15dbaaa28fc5cb693089fda747c9e
-ms.sourcegitcommit: a6602d84c86d3959731a8d0ba39a522914f13d1a
+ms.openlocfilehash: 1d2ff47fdbc31598524986742319ab36c8f3e957
+ms.sourcegitcommit: 2b7beec5237a597bab2da8eb6ffe69122a5d2ed9
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/21/2019
-ms.locfileid: "71175244"
+ms.lasthandoff: 11/02/2019
+ms.locfileid: "73442890"
 ---
 # <a name="how-to-purchase-power-bi-premium"></a>如何购买 Power BI Premium
 
@@ -30,17 +30,17 @@ ms.locfileid: "71175244"
 
 ## <a name="create-a-new-tenant-with-power-bi-premium-p1"></a>使用 Power BI Premium P1 新建租户
 
-如果尚无租户并且想要创建一个，可以同时购买 Power BI Premium。 单击以下链接后，可了解创建新租户的过程，并可购买 Power BI Premium：[Power BI Premium P1 套餐](https://signup.microsoft.com/Signup?OfferId=b3ec5615-cc11-48de-967d-8d79f7cb0af1)。 创建租户时，将自动为该租户分配 Office 365 全局管理员角色。
+如果尚无租户并且想要创建一个，可以同时购买 Power BI Premium。 单击以下链接后，可了解创建新租户的过程，并可购买 Power BI Premium：[Power BI Premium P1 套餐](https://signup.microsoft.com/Signup?OfferId=b3ec5615-cc11-48de-967d-8d79f7cb0af1)。 创建租户时，将自动为该租户分配 Microsoft 365 全局管理员角色。
 
 ## <a name="purchase-a-power-bi-premium-capacity-for-an-existing-organization"></a>为现有组织购买 Power BI Premium 容量
 
-若有现有组织（租户），则必须具有 Office 365 全局管理员角色或帐务管理员角色才能购买订阅和许可证。 有关详细信息，请参阅[关于 Office 365 管理员角色](https://support.office.com/article/About-Office-365-admin-roles-da585eea-f576-4f55-a1e0-87090b6aaa9d)。
+若有现有组织（租户），则必须具有 Microsoft 365 全局管理员角色或帐务管理员角色才能购买订阅和许可证。 有关详细信息，请参阅[关于 Microsoft 365 管理员角色](https://support.office.com/article/About-Office-365-admin-roles-da585eea-f576-4f55-a1e0-87090b6aaa9d)。
 
 要购买高级容量，请按照下列步骤操作。
 
-1. 在 Power BI 服务中，选择“Office 365 应用选取器”，然后选择“管理员”。
+1. 在 Power BI 服务中，选择“Microsoft 365 应用选取器”，然后选择“管理员”。
 
-    ![Office 365 应用选取器](media/service-admin-premium-purchase/o365-app-picker.png)
+    ![Microsoft 365 应用选取器](media/service-admin-premium-purchase/o365-app-picker.png)
 
     或者，可以浏览到 Microsoft 365 管理中心。 如需访问，请转到 https://portal.office.com 并选择“管理员”。
 
@@ -66,7 +66,7 @@ ms.locfileid: "71175244"
 
 1. 在“其他计划”下找到需额外购买的 Power BI Premium 项目。
 
-1. 将鼠标悬停在“省略号 (...)”上，然后选择“更改许可证数量”。
+1. 将鼠标悬停在“更多选项”(…)上，然后选择“更改许可证数量”。
 
     ![更改许可证数量](media/service-admin-premium-purchase/premium-purchase-more.png)
 

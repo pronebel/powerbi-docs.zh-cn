@@ -80,7 +80,7 @@
         - name: Power BI 中多维模型的默认成员
           href: desktop-default-member-multidimensional-models.md
         - name: 视觉对象常见问题解答
-          href: power-bi-custom-visuals-faq.md
+          href: developer/power-bi-custom-visuals-faq.md
     - name: 操作方法
       items:
         - name: 获取 Power BI Desktop
@@ -119,6 +119,8 @@
           items:
             - name: Power BI Desktop 中的数据源
               href: desktop-data-sources.md
+            - name: 连接到 LinkedIn Sales Navigator（预览）
+              href: desktop-connect-linkedin-sales-navigator.md
             - name: 使用示例连接到网页（预览版）
               href: desktop-connect-to-web-by-example.md
             - name: 连接到 Power BI 服务中的数据集
@@ -201,6 +203,8 @@
           items:
             - name: 合并二进制文件
               href: desktop-combine-binaries.md
+            - name: 在 Power BI Desktop 中使用 AI 见解（预览）
+              href: desktop-ai-insights.md
         - name: 为你的数据建模
           items:
             - name: Power BI Desktop 中的数据分类
@@ -339,6 +343,8 @@
               href: visuals/power-bi-visualization-card.md
             - name: Power BI 中的组合图
               href: visuals/power-bi-visualization-combo-chart.md
+            - name: Power BI 中的分解树（预览）
+              href: visuals/power-bi-visualization-decomposition-tree.md
             - name: Power BI 中的圆环图
               href: visuals/power-bi-visualization-doughnut-charts.md
             - name: Power BI 中的着色地图（等值线图）
@@ -375,8 +381,6 @@
               href: visuals/power-bi-visualization-treemaps.md
             - name: Power BI 中的瀑布图
               href: visuals/power-bi-visualization-waterfall-charts.md
-            - name: 创建动态参考行
-              href: service-analytics-pane.md
         - name: 自然语言
           items:
             - name: 问答简介
@@ -405,6 +409,8 @@
       items:
         - name: Power BI Desktop 中的数据类型
           href: desktop-data-types.md
+        - name: 在 Power BI Desktop 中使用更新后的功能区（预览）
+          href: desktop-ribbon.md
         - name: Power BI Desktop 公式编辑器快捷键
           href: desktop-formula-editor.md
         - name: Power BI Desktop 隐私级别
@@ -471,6 +477,10 @@
               href: service-the-report-editor-take-a-tour.md
             - name: Power BI 数据源
               href: service-get-data.md
+            - name: 了解 Power BI 数据集
+              href: service-datasets-understand.md
+            - name: 了解 Power BI 数据集模式
+              href: service-dataset-modes-understand.md
             - name: Power BI 中的数据刷新
               href: refresh-data.md
         - name: Power BI 中的协作
@@ -503,7 +513,7 @@
               href: service-interruption-notifications.md
         - name: 扩展 Power BI
           items:
-            - name: Microsoft Flow 和 Power BI
+            - name: Power Automate 和 Power BI
               href: service-flow-integration.md
             - name: 使用第三方应用
               href: service-power-bi-get-started-third-party-apps.md
@@ -667,6 +677,8 @@
           items:
             - name: 创建新工作区
               href: service-create-the-new-workspaces.md
+            - name: 升级经典工作区
+              href: designer/service-upgrade-workspaces.md
             - name: 创建工作区
               href: service-create-workspaces.md
             - name: 从工作区发布应用
@@ -809,58 +821,20 @@
                   href: service-connect-to-services.md
                 - name: Acumatica
                   href: service-connect-to-acumatica.md
-                - name: Alpine Metrics 销售预测
-                  href: service-connect-to-alpine-metrics.md
-                - name: appFigures
-                  href: service-connect-to-appfigures.md
-                - name: Application Insights
-                  href: service-connect-to-application-insights.md
                 - name: Azure 审核日志
                   href: service-connect-to-azure-audit-logs.md
-                - name: Azure Mobile Engagement
-                  href: service-connect-to-azure-mobile.md
-                - name: ClickDimensions
-                  href: service-connect-to-clickdimensions.md
-                - name: comScore Digital Analytix
-                  href: service-connect-to-connect-to.md
                 - name: GitHub
                   href: service-connect-to-github.md
-                - name: Insightly
-                  href: service-connect-to-insightly.md
-                - name: IntelliBoard
-                  href: service-connect-to-intelliboard.md
-                - name: Lithium
-                  href: service-connect-to-lithium.md
-                - name: Mandrill
-                  href: service-connect-to-mandrill.md
                 - name: Office365Mon
                   href: service-connect-to-office365mon.md
-                - name: Prevedere
-                  href: service-connect-to-prevedere.md
                 - name: Project Online
                   href: service-connect-to-project-online.md
                 - name: QuickBooks Online
                   href: service-connect-to-quickbooks-online.md
                 - name: Salesforce
                   href: service-connect-to-salesforce.md
-                - name: SendGrid
-                  href: service-connect-to-sendgrid.md
-                - name: ServiceNow Incidents
-                  href: service-connect-to-servicenow.md
                 - name: Smartsheet
                   href: service-connect-to-smartsheet.md
-                - name: SQL Sentry
-                  href: service-connect-to-sql-sentry.md
-                - name: SweetIQ
-                  href: service-connect-to-sweetiq.md
-                - name: Troux
-                  href: service-connect-to-troux.md
-                - name: Twilio
-                  href: service-connect-to-twilio.md
-                - name: VMob
-                  href: service-connect-to-vmob.md
-                - name: Windows Dev Center
-                  href: service-connect-to-windows-dev-center.md
                 - name: Xero
                   href: service-connect-to-xero.md
                 - name: Zendesk
@@ -1155,31 +1129,3 @@
       items:
         - name: 每月网关更新
           href: /data-integration/gateway/service-gateway-monthly-updates
-- name: 指南
-  items:
-    - name: 概述
-      href: guidance/overview.md
-    - name: 什么是星型架构？
-      href: guidance/star-schema.md
-    - name: 减少数据模型大小
-      href: guidance/import-modeling-data-reduction.md
-    - name: DIVIDE 函数与除法运算符 (/)
-      href: guidance/dax-divide-function-operator.md
-    - name: 查询折叠的重要性
-      href: guidance/power-query-folding.md
-    - name: 适当使用错误函数
-      href: guidance/dax-error-functions.md
-    - name: 数据流的最佳做法
-      href: service-dataflows-best-practices.md
-    - name: Power BI Desktop 中的 DirectQuery 模型指导
-      href: guidance/directquery-model-guidance.md
-    - name: 白皮书
-      items:
-        - name: 白皮书概述
-          href: whitepapers.md
-        - name: Power BI 安全白皮书
-          href: whitepaper-powerbi-security.md
-        - name: Power BI Premium 部署
-          href: whitepaper-powerbi-premium-deployment.md
-        - name: 使用 Azure Active Directory B2B 在外部分发 Power BI
-          href: whitepaper-azure-b2b-power-bi.md

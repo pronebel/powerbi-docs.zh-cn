@@ -11,12 +11,12 @@ ms.topic: troubleshooting
 ms.date: 05/29/2019
 ms.author: maggies
 LocalizationGroup: Ask questions of your data
-ms.openlocfilehash: 678910000a0062836004b208cb401774c9eb2a9a
-ms.sourcegitcommit: e5cf19e16112c7dad1591c3b38d232267ffb3ae1
+ms.openlocfilehash: 02e79522baa7580b019cec6956593d88260fb95b
+ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "72542895"
+ms.lasthandoff: 11/01/2019
+ms.locfileid: "73432099"
 ---
 # <a name="troubleshoot-cortana-for-power-bi"></a>对用于 Power BI 的 Cortana 进行故障排除
 本文是系列文章中的一部分。 
@@ -39,7 +39,7 @@ ms.locfileid: "72542895"
    * “显示销售额” *不* 会返回 Power BI 结果。   
    * “向我显示销售额 fy16”、“销售额 fy16”、“显示销售额 fy16”和“向我显示销售额 f” *将* 返回 Power BI 结果。    
    * 由于添加“powerbi”一词可计作 2 个必需词之一，因此，“powerbi 销售额” *会* 返回 Power BI 结果。
-5. 是否具有对任何报表或仪表板进行访问或编辑的权限？ 对于报表，请确保要搜索的内容有[回复卡](service-cortana-answer-cards.md)。  对于仪表板，请确保你尝试搜索的内容位于 **与我共享**、应用工作区或 **我的工作区**中。 [使用疑难解答工具](#try-the-cortana-troubleshooting-tool)帮助确定问题。
+5. 是否具有对任何报表或仪表板进行访问或编辑的权限？ 对于报表，请确保要搜索的内容有[回复卡](service-cortana-answer-cards.md)。  对于仪表板，请确保你尝试搜索的内容位于“与我共享”、工作区或“我的工作区”中   。 [使用疑难解答工具](#try-the-cortana-troubleshooting-tool)帮助确定问题。
 6. 是否使用移动设备？  目前，我们仅支持 Windows 移动设备上的 Power BI 和 Cortana 集成。
 7. Cortana 是否配置为英语？  当前的 Cortana-Power BI 集成仅支持英语。 打开 Cortana 并选择齿轮图标以显示“设置”。 向下滚动到“**Cortana 语言**”并确保将其设置为其中一个英语选项。
 

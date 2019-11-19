@@ -2,7 +2,6 @@
 title: 教程：使用 Power BI Desktop 进行 Facebook 分析
 description: 教程：使用 Power BI Desktop 进行 Facebook 分析
 author: davidiseminger
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
@@ -10,12 +9,12 @@ ms.topic: tutorial
 ms.date: 09/06/2019
 ms.author: davidi
 LocalizationGroup: Learn more
-ms.openlocfilehash: 73f5d629806826eed0da51f5b7158d884d1c8725
-ms.sourcegitcommit: 226b47f64e6749061cd54bf8d4436f7deaed7691
+ms.openlocfilehash: 96811a2cfd7d08a210c4efd177e989abce16d25d
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/09/2019
-ms.locfileid: "70841397"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73876274"
 ---
 # <a name="tutorial-facebook-analytics-using-power-bi-desktop"></a>教程：使用 Power BI Desktop 进行 Facebook 分析
 
@@ -147,7 +146,7 @@ ms.locfileid: "70841397"
    
    ![条形图](media/desktop-tutorial-facebook-analytics/barchart1.png)
    
-4. 在“可视化效果”的右上方，选择省略号 (...)，然后选择“按评论数排序”  ，按降序排列评论数对表格进行排序。 
+4. 在“可视化效果”的右上方，选择“更多选项”(…)，然后选择“按评论数排序”，按降序排列评论数对表格进行排序   。 
    
    ![按评论数排序](media/desktop-tutorial-facebook-analytics/barchart2.png)
    
@@ -184,7 +183,7 @@ ms.locfileid: "70841397"
 
 这样效果更好，但所有数据标签都有一个“.0”小数位数，这会分散人的注意力并具有误导性，因为“帖子数”肯定是整数。   需要将“帖子数”列的数据类型更改为“整数”。 
 
-1. 要编辑数据类型，右键单击“字段”列表中的“Query1”  ，或将鼠标悬停在上面，选择“更多选项”  省略号 (...)，然后选择“编辑查询”  。 另外，还可以从功能区“主页”选项卡的“外部数据”  区域选择“编辑查询”  ，然后从下拉列表选择“编辑查询”  。 Power BI Desktop“Power Query 编辑器”  在单独窗口中打开。
+1. 要编辑数据类型，右键单击“字段”列表中的“Query1”  ，或将鼠标悬停在上面，选择“更多选项”  (...)，然后选择“编辑查询”  。 另外，还可以从功能区“主页”选项卡的“外部数据”  区域选择“编辑查询”  ，然后从下拉列表选择“编辑查询”  。 Power BI Desktop“Power Query 编辑器”  在单独窗口中打开。
    
    ![从“字段”列表编辑查询](media/desktop-tutorial-facebook-analytics/editquery1.png)     ![从功能区编辑查询](media/desktop-tutorial-facebook-analytics/t_fb_editquery.png)
    
@@ -241,8 +240,8 @@ ms.locfileid: "70841397"
 Power BI Desktop 提供无缝的端到端体验（从各种数据源获取数据、调整数据以满足你的分析需求，再到以丰富的交互方式可视化这些数据）。 在报表准备就绪后，可以[将报表上传到 Power BI 服务](desktop-upload-desktop-files.md)，并基于它创建仪表板与其他 Power BI 用户共享。
 
 ## <a name="next-steps"></a>后续步骤
-* [阅读其他 Power BI Desktop 教程](http://go.microsoft.com/fwlink/?LinkID=521937)
-* [观看 Power BI Desktop 视频](http://go.microsoft.com/fwlink/?LinkID=519322)
-* [访问 Power BI 论坛](http://go.microsoft.com/fwlink/?LinkID=519326)
-* [阅读 Power BI 博客](http://go.microsoft.com/fwlink/?LinkID=519327)
+* [阅读其他 Power BI Desktop 教程](https://go.microsoft.com/fwlink/?LinkID=521937)
+* [观看 Power BI Desktop 视频](https://go.microsoft.com/fwlink/?LinkID=519322)
+* [访问 Power BI 论坛](https://go.microsoft.com/fwlink/?LinkID=519326)
+* [阅读 Power BI 博客](https://go.microsoft.com/fwlink/?LinkID=519327)
 

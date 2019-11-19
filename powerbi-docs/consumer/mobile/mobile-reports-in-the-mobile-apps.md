@@ -2,19 +2,18 @@
 title: 在 Power BI 移动应用中浏览报表
 description: 了解如何在手机或平板电脑上查看 Power BI 移动应用中的报表，并与之交互。 可在 Power BI 服务或 Power BI Desktop 中创建报表，然后在移动应用中与报表进行交互。
 author: mshenhav
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 08/09/2019
 ms.author: mshenhav
-ms.openlocfilehash: 166b7d88e6ab55481ec56b0cf4f91628cd141bef
-ms.sourcegitcommit: 52aa112ac9194f4bb62b0910c4a1be80e1bf1276
+ms.openlocfilehash: d4b9a9aeda00dd7f16690d1e92336f5b63adf1da
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "69985749"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73869769"
 ---
 # <a name="explore-reports-in-the-power-bi-mobile-apps"></a>在 Power BI 移动应用中浏览报表
 适用于：
@@ -45,7 +44,7 @@ Power BI 移动应用中的报表有两个图标：
 > [!NOTE]
 > 横向放置手机时，即使报表页处于手机布局，也会始终以横向布局显示。
 
-若要从仪表板转到报表，请点击磁贴右上角的省略号 (...)，然后点击“打开报表”  ：
+若要从仪表板转到报表，请点击磁贴右上角的“更多选项”(…)，然后点击“打开报表”   ：
   
   ![打开报表](./media/mobile-reports-in-the-mobile-apps/power-bi-android-open-report-tile.png)
   
@@ -59,7 +58,7 @@ Power BI 移动应用中的报表有两个图标：
 点击一个切片器值即可选中该值，且此报表的其余部分会根据该值进行切片。
 点击链接、按钮或书签时，报表作者所定义的操作会随即发生。
 
-你可能已经注意到，点击视觉对象时会出现一个边框。 在边框的右上角，可以看到一个省略号 (...)。如果点击此省略号，你将看到一个菜单，其中显示了可对此视觉对象执行的操作：
+你可能已经注意到，点击视觉对象时会出现一个边框。 在边框的右上角，可以看到“更多选项”(…)  。如果点击此省略号，你将看到一个菜单，其中显示了可对此视觉对象执行的操作：
 
 ![视觉对象和菜单](./media/mobile-reports-in-the-mobile-apps/report-visual-menu.png)
 
@@ -92,7 +91,7 @@ Power BI 移动应用中的报表有两个图标：
    
    
 ### <a name="using-the-actions-in-the-report-footer"></a>在报表页脚使用操作
-从报表页脚中，你可以对当前报表页或整个报表执行多个操作。 可通过页脚快速访问最常用的操作。 点击省略号 (...) 按钮可访问其他操作：
+从报表页脚中，你可以对当前报表页或整个报表执行多个操作。 可通过页脚快速访问最常用的操作。 点击“更多选项”(…) 按钮可访问其他操作  ：
 
 ![报表页脚](./media/mobile-reports-in-the-mobile-apps/report-footer.png)
 
@@ -105,7 +104,7 @@ Power BI 移动应用中的报表有两个图标：
 - 查看所有报表操作。
 
 #### <a name="all-report-actions"></a>所有报表操作
-点击报表页脚中的省略号 (...) 可查看能对报表执行的所有操作：
+点击报表页脚中的“更多选项”(…) 可查看能对报表执行的所有操作  ：
 
 
 ![所有报表操作](./media/mobile-reports-in-the-mobile-apps/report-all-actions.png)
@@ -124,5 +123,5 @@ Power BI 移动应用中的报表有两个图标：
 ## <a name="next-steps"></a>后续步骤
 * [查看手机优化版 Power BI 报表并与之交互](mobile-apps-view-phone-report.md)
 * [创建手机优化版报表](../../desktop-create-phone-report.md)
-* 是否有任何问题? [尝试咨询 Power BI 社区](http://community.powerbi.com/)
+* 是否有任何问题? [尝试咨询 Power BI 社区](https://community.powerbi.com/)
 

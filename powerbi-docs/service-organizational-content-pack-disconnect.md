@@ -2,7 +2,6 @@
 title: 与组织内容包断开连接 - Power BI
 description: 了解如何通过删除 Power BI 中的数据集来解除与组织内容包的连接。
 author: maggiesMSFT
-manager: kfile
 ms.reviewer: lukaszp
 ms.service: powerbi
 ms.subservice: powerbi-service
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 08/02/2018
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: d83a57b2b1f8e2ca0887f2432f2de43647900b81
-ms.sourcegitcommit: 5e277dae93832d10033defb2a9e85ecaa8ffb8ec
+ms.openlocfilehash: 3936ebfedb1e4e51fe93b948a49de0b9fb133c52
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/07/2019
-ms.locfileid: "72020642"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73881291"
 ---
 # <a name="remove-your-connection-to-a-power-bi-organizational-content-pack"></a>删除与 Power BI 组织内容包的连接
 
@@ -27,7 +26,7 @@ ms.locfileid: "72020642"
 
 要删除内容包，可以删除其数据集。  
 
-* 在左侧导航窗格中，选择该数据集右侧的省略号，然后选择“删除”\>“是”  。  
+* 在导航窗格中，选择该数据集右侧的省略号，然后选择“删除”\>“是”  。  
   
   ![删除内容包](media/service-organizational-content-pack-disconnect/power-bi-remove-organizational-content-pack-dataset.png)
 
@@ -37,5 +36,5 @@ ms.locfileid: "72020642"
 * [组织内容包简介](service-organizational-content-pack-introduction.md) 
 * [在 Power BI 中构建和分发应用](service-create-distribute-apps.md) 
 * [Power BI 服务中设计器的基本概念](service-basic-concepts.md)  
-* 更多问题？ [尝试参与 Power BI 社区](http://community.powerbi.com/)
+* 更多问题？ [尝试参与 Power BI 社区](https://community.powerbi.com/)
 

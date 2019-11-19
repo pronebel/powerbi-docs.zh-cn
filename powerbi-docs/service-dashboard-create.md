@@ -2,7 +2,6 @@
 title: 从报表创建 Power BI 仪表板
 description: 从报表创建 Power BI 仪表板
 author: maggiesMSFT
-manager: kfile
 ms.reviewer: ''
 featuredvideoid: ''
 ms.service: powerbi
@@ -10,12 +9,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 07/17/2019
 ms.author: maggies
-ms.openlocfilehash: 6d8a6a28d72ce6d0fa6123b15f9e692ed1cc4d44
-ms.sourcegitcommit: e5cf19e16112c7dad1591c3b38d232267ffb3ae1
+ms.openlocfilehash: d67e7acf4309595e8bccac86119ea38f1a97797f
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "72543256"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73853412"
 ---
 # <a name="create-a-power-bi-dashboard-from-a-report"></a>从报表创建 Power BI 仪表板
 你已经阅读了 [Power BI 中的仪表板简介](service-dashboards.md)，并且现在想要创建你自己的仪表板。 创建仪表板有多种不同的方法。 例如，可以从报表、从头开始、从数据集或通过复制现有仪表板来创建仪表板。  
@@ -44,11 +43,11 @@ ms.locfileid: "72543256"
 ## <a name="import-a-dataset-with-a-report"></a>使用报表导入数据集
 在此分步流程中，我们导入一个 Power BI 示例数据集，并使用它来创建我们的新仪表板。 我们使用的示例是包含两个 PowerView 工作表的 Excel 工作簿。 当 Power BI 导入工作簿时，它会向你的工作区添加一个数据集和一个报表。 该报表是从 PowerView 工作表自动创建的。
 
-1. 下载[采购分析示例](http://go.microsoft.com/fwlink/?LinkId=529784) Excel 文件。 我们建议你将其保存在你的 OneDrive for Business 中。
+1. 下载[采购分析示例](https://go.microsoft.com/fwlink/?LinkId=529784) Excel 文件。 我们建议你将其保存在你的 OneDrive for Business 中。
 2. 在浏览器中打开 Power BI 服务 (app.powerbi.com)。
-3. 从左侧导航窗格中，选择“我的工作区”  ，然后选择“获取数据”  。
+3. 从导航窗格中，选择“我的工作区”，然后选择“获取数据”   。
 
-    ![左侧导航窗格](media/service-dashboard-create/power-bi-get-data-new-look.png)
+    ![导航窗格](media/service-dashboard-create/power-bi-get-data-new-look.png)
 5. 在“文件”  下，选择“获取”  。
 
    ![获取文件](media/service-dashboard-create/power-bi-select-files.png)
@@ -63,7 +62,7 @@ ms.locfileid: "72543256"
    ![成功消息](media/service-dashboard-create/power-bi-view-datasetnew.png)
 
 > [!TIP]
-> 知道吗？ 可以通过选择顶部带有三条线的图标![导航窗格显示或隐藏图标](media/service-dashboard-create/power-bi-new-look-hide-nav-pane.png)来缩小左侧导航栏。 这为报表本身提供更多空间。
+> 知道吗？ 可以通过选择顶部带有三条线的图标![导航窗格显示或隐藏图标](media/service-dashboard-create/power-bi-new-look-hide-nav-pane.png)来缩小导航窗格。 这为报表本身提供更多空间。
 
 ### <a name="open-the-report-and-pin-tiles-to-your-dashboard"></a>打开报表并将磁贴固定到仪表板
 1. 在同一工作区中，选择“报表”  选项卡，然后选择“采购分析示例”  以打开报表。
@@ -118,4 +117,4 @@ ms.locfileid: "72543256"
 * [Power BI - 基本概念](service-basic-concepts.md)
 * [设计出色仪表板的提示](service-dashboards-design-tips.md)
 
-更多问题？ [尝试参与 Power BI 社区](http://community.powerbi.com/)。
+更多问题？ [尝试参与 Power BI 社区](https://community.powerbi.com/)。

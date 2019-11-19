@@ -9,17 +9,20 @@ featuredvideoid: ''
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 08/12/2019
-LocalizationGroup: Common tasks
-ms.openlocfilehash: 2b0554729824b170fecbe6493141c6f3a8354002
-ms.sourcegitcommit: 52aa112ac9194f4bb62b0910c4a1be80e1bf1276
+ms.date: 10/21/2019
+rLocalizationGroup: Common tasks
+ms.openlocfilehash: 95bcb3ef0eb8b2d79502e3905a56dbc81e3f43bd
+ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "68961680"
+ms.lasthandoff: 11/01/2019
+ms.locfileid: "73430013"
 ---
 # <a name="subscribe-to-a-report-or-dashboard-in-the-power-bi-service"></a>在 Power BI 服务中订阅报表或仪表板 
-现在，及时更新最重要的仪表板和报表，比以前更加轻松。 订阅最重要的报表页和仪表板，Power BI 将会通过电子邮件将快照发送到收件箱。 告知 Power BI 所需的电子邮件接收频率：每天、每周或是在数据刷新时。 甚至可以为 Power BI 发送电子邮件设置特定时间或立即运行此操作。  
+
+[!INCLUDE [power-bi-service-new-look-include](../includes/power-bi-service-new-look-include.md)]
+
+现在，及时更新最重要的仪表板和报表，比以前更加轻松。 订阅最重要的报表页和仪表板，Power BI 将会通过电子邮件将快照发送到收件箱。 告知 Power BI 所需的电子邮件接收频率：每天、每周或是在数据刷新时。 甚至可以为 Power BI 发送电子邮件设置特定时间或立即运行此操作。  总共可以为每个报表或仪表板设置最多 24 个不同的订阅。  
 
 电子邮件和快照将使用在 Power BI 设置中设置的语言（请参阅 [Power BI 的支持语言和国家/地区](../supported-languages-countries-regions.md)）。 如果未定义任何语言，Power BI 会根据当前浏览器中的区域设置使用语言。 要查看或设置语言首选项，请选择齿轮图标 ![齿轮图标](./media/end-user-subscribe/power-bi-settings-icon.png) > “设置”>“常规”>“语言”  。 
 
@@ -78,7 +81,7 @@ ms.locfileid: "68961680"
 * 对于仪表板电子邮件说明，如果任何磁贴应用了行级别安全性 (RLS)，则不会显示这些磁贴。  对于报表电子邮件说明，如果数据集使用 RLS，则无法创建订阅。
 * 如果电子邮件中的链接（指向内容）停止工作，则可能是该内容已被删除。 在电子邮件的屏幕截图下方，你可以查看自己或其他人是否订阅了你的邮件。 如果是其他人，请让该同事取消电子邮件或重新订阅。
 * 报表页订阅与报表页面的名称是相关联的。 如果你订阅一个报表页，而后将其重命名，则必须重新创建订阅。
-* 如果无法使用订阅功能，请与系统管理员联系。 组织可能出于身份验证或其他原因禁用了此功能。  
+* 如果无法使用订阅功能，请与系统管理员联系。 你的组织可能禁用了此功能。  
 * 电子邮件订阅不支持大多数[自定义视觉对象](../power-bi-custom-visuals.md)。  已经过[认证](../power-bi-custom-visuals-certified.md)的自定义视觉对象除外。  
 * 目前电子邮件订阅不支持 R 驱动的自定义视觉对象。  
 * 对于仪表板订阅，具体来说，尚不支持某些类型的磁贴。  其中包括流磁贴、视频磁贴、自定义 Web 内容磁贴。     

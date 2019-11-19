@@ -2,7 +2,6 @@
 title: 使用 What if 参数可视化变量
 description: 创建自己的 What if 变量，想象并可视化 Power BI 报表中的变量
 author: davidiseminger
-manager: kfile
 ms.reviewer: ''
 ms.custom: seodec18
 ms.service: powerbi
@@ -11,12 +10,12 @@ ms.topic: conceptual
 ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 2451620c6d4092e5da4605f8e76b0a70e2eecf2b
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 1ad0c7d2a3c3d21d8ccb81354bdc03d845b61f58
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "65513489"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73876051"
 ---
 # <a name="create-and-use-a-what-if-parameter-to-visualize-variables-in-power-bi-desktop"></a>创建和使用 What if 参数可视化 Power BI Desktop 中的变量
 从 Power BI Desktop 2018 年 8 月版开始，用户可以为报表创建 What if 变量、以切片器的形式与变量交互，以及可视化并量化报表中的不同键值   。
@@ -50,7 +49,7 @@ ms.locfileid: "65513489"
 
 ![](media/desktop-what-if/what-if_05.png)
 
-新的度量值只是应用了折扣率的总销售额。 当然，可以创建复杂且有趣的度量值，让报表的使用者可视化 What if  参数的变量。 例如，可以创建可让销售人员看到他们的薪酬，是否它们符合特定销售目标或销售百分比，或查看的效果增加到更深层次销售折扣的报表。
+新的度量值只是应用了折扣率的总销售额。 当然，可以创建复杂且有趣的度量值，让报表的使用者可视化 What if  参数的变量。 例如，可以创建一个报表，让销售人员看到在达到特定销售目标或销售百分比时他们的薪酬，或看到销售额增加对更优厚折扣力度的影响。
 
 当我们在公式栏中键入度量值公式，并将其命名为“折后销售额”  后，我们会看到其结果：
 

@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 07/15/2019
 ms.author: mblythe
 LocalizationGroup: Gateways
-ms.openlocfilehash: 45a645227a5d7a18fd05738559ed0bccc0e1f7c9
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 4aa3d46741044498846865278db51859980a19b9
+ms.sourcegitcommit: 0d7ad791a2d2bef45d5d60e38e0af4c9fc22187b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73872389"
+ms.lasthandoff: 11/13/2019
+ms.locfileid: "74010820"
 ---
 # <a name="on-premises-data-gateway-faq---power-bi"></a>本地数据网关常见问题解答 - Power BI
 
@@ -41,10 +41,6 @@ ms.locfileid: "73872389"
 **问：** 我为什么不能连接到 Oracle 服务器？ 
 
 **答：** 你可能需要使用正确的服务器信息来安装 Oracle 客户端并配置 tnsnames.ora 文件，以便连接至 Oracle 服务器。 这是网关外的单独安装。 有关详细信息，请参阅[安装 Oracle 客户端](service-gateway-onprem-manage-oracle.md#install-the-oracle-client)。
-
-**问：** 网关将使用 Azure ExpressRoute？ 
-
-**答：** 是。 有关 ExpressRoute 和 Power BI 的详细信息，请参阅 [Power BI 和 ExpressRoute](service-admin-power-bi-expressroute.md)。
 
 **问：** 我使用的是 R 脚本。 它受支持吗？
 

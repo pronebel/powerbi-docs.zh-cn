@@ -3,20 +3,19 @@ title: 监视仪表板和报表的使用情况指标
 description: 如何查看、保存和使用 Power BI 仪表板和报表的使用情况指标。
 author: maggiesMSFT
 ms.author: maggies
-manager: kfile
 ms.reviewer: ''
 featuredvideoid: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 08/15/2019
+ms.date: 10/21/2019
 LocalizationGroup: Dashboards
-ms.openlocfilehash: e77bfdf771e84afbc87335aa77993640d10282b0
-ms.sourcegitcommit: 4d5166944fcc6fe4666cab055ae75e7a0a77866d
+ms.openlocfilehash: 9aa2e11dd2068cae118336268c5c55ead1e25b8b
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/16/2019
-ms.locfileid: "69530546"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73871211"
 ---
 # <a name="monitor-usage-metrics-for-power-bi-dashboards-and-reports"></a>监视 Power BI 仪表板和报表的使用情况指标
 
@@ -86,7 +85,7 @@ ms.locfileid: "69530546"
 
 | 指标 | 仪表板 | 报表 | 说明 |
 | --- | --- | --- | --- |
-| 分发方法切片器 |是 |是 |用户获取内容访问权限的方式。 用户访问仪表板或报表的方式可能有以下 3 种：成为[应用工作区](consumer/end-user-experience.md)的成员、将内容[与他们共享](service-share-dashboards.md)或安装内容包/应用。  请注意，通过应用的查看数被视为“内容包”。 |
+| 分发方法切片器 |是 |是 |用户获取内容访问权限的方式。 用户访问仪表板或报表的方式可能有以下 3 种：成为[工作区](consumer/end-user-experience.md)的成员、将内容[与他们共享](service-share-dashboards.md)或安装内容包/应用。  请注意，通过应用的查看数被视为“内容包”。 |
 | 平台切片器 |是 |是 |是通过 Power BI 服务 (powerbi.com)，还是通过移动设备访问仪表板或报表？ 移动应用包括所有 iOS、Android 和 Windows 应用。 |
 | 报表页切片器 |否 |是 |如果报表有多页，按已查看的一个或多个报表页对报表进行切片。 如果看到列表选项为“空白”，这意味着报表页为最近添加（新页的实际名称会在 24 小时内显示在切片器列表中），并且/或者报表页已删除。 “空白”可捕获此类情况。 |
 | 每日查看次数 |是 |是 |每日总查看次数 - 查看的定义为用户加载报表页或仪表板。 |
@@ -152,11 +151,18 @@ Power BI 在单独的国家云中可用。 这些云提供与 Power BI 全局版
 
 ## <a name="considerations-and-limitations"></a>注意事项和限制
 
+### <a name="discrepancies-between-audit-logs-and-usage-metrics"></a>审核日志与使用指标间的差异
+
 在比较使用指标和审核日志时，可能会出现差异，了解这一点及其原因很重要。 审核日志  是使用 Power BI 服务中的数据收集的，而使用指标  是在客户端上收集的。 审核日志中的活动聚合计数可能并非总是匹配使用指标，原因如下：
 
 * 由于网络连接不一致、广告拦截器或可能中断从客户端发送事件的其他问题，使用指标有时可能少计算活动数。
 * 某些类型的视图未包含在使用指标中，如本文中所述。
 * 对于客户端刷新而无需发送回 Power BI 服务的请求的情况，使用指标有时可能多计算活动数。
+
+### <a name="other-considerations"></a>其他注意事项
+
+你至少需要在工作区中查看该工作区中的内容一次。 如果工作区本身至少有一次没有内容视图，则不会从使用指标报表中的应用程序视图中关联数据。 要取消阻止对此报告的数据处理，只需至少查看一次工作区中的内容。
+
 
 ## <a name="frequently-asked-questions"></a>常见问题解答
 
@@ -188,4 +194,4 @@ Power BI 在单独的国家云中可用。 这些云提供与 Power BI 全局版
 
 [在管理门户中管理 Power BI](service-admin-portal.md)
 
-更多问题？ [尝试参与 Power BI 社区](http://community.powerbi.com/)
+更多问题？ [尝试参与 Power BI 社区](https://community.powerbi.com/)

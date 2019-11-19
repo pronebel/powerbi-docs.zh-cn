@@ -2,7 +2,6 @@
 title: 在 Power BI Desktop 中使用复合模型
 description: 在 Power BI Desktop 中创建具有多个数据连接和多对多关系的数据模型
 author: davidiseminger
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 08/19/2019
 ms.author: davidi
 LocalizationGroup: Transform and shape data
-ms.openlocfilehash: ae896fb737eda6f95efa1589f2b3384e7426cf30
-ms.sourcegitcommit: 4a3afe761d2f4a5bd897fafb36b53961739e8466
+ms.openlocfilehash: c79994f2144dfe019c3ac10a51230d17b75b542e
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/20/2019
-ms.locfileid: "69654583"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73876580"
 ---
 # <a name="use-composite-models-in-power-bi-desktop"></a>在 Power BI Desktop 中使用复合模型
 
@@ -53,7 +52,7 @@ Power BI Desktop 中的复合模型功能包括三个相关功能：
 将来自多个 DirectQuery 源的数据合并，或将 DirectQuery 与导入的数据相结合的模型称为“复合模型”  。
 
 
-通过以下限制，可以像往常一样创建表之间的关系（即使这些表来自不同的源）：任何跨源的关系均必须定义为具有一个多对多基数，不管其实际基数是什么  。 此类关系的行为便与多对多关系的行为一样正常，如 [Power BI Desktop 中的多对多关系（预览）](desktop-many-to-many-relationships.md)中所述  。 
+你可以像往常一样在表之间创建关系，即使这些表来自不同的源。 任何跨源的关系都是使用“多对多”基数创建的，而不考虑它们的实际基数  。 你可将其更改为一对多、多对一或一对一。 无论设置何种基数，跨源关系都具有不同的行为，因为不能使用 DAX 函数从多个端检索其中一端的值。 在同一个源中，还可能看到性能影响与多对多关系的对比。
 
 > [!NOTE]
 > 在复合模型的上下文中，不管导入的表是从哪个实际基础数据源导入，所有导入的表实际上都是一个单一源。   
@@ -88,7 +87,7 @@ Power BI Desktop 中的复合模型功能包括三个相关功能：
 
 ![表的关系视图](media/desktop-composite-models/composite-models_08.png)
 
-现在需要将这些表与模型中的其他表相关联。 与往常一样，我们在来自 SQL Server 的“Bike”表和导入的“ProductManagers”表之间创建关系   。 也就是“Bike[ProductName]”和“ProductManagers[ProductName]”之间的关系   。 如前面所述，所有跨越源的关系都必须具有默认的“多对多”基数  。 
+现在需要将这些表与模型中的其他表相关联。 与往常一样，我们在来自 SQL Server 的“Bike”表和导入的“ProductManagers”表之间创建关系   。 也就是“Bike[ProductName]”和“ProductManagers[ProductName]”之间的关系   。 如前所述，所有跨越源的关系都默认为具有“多对多”基数  。 
 
 ![“创建关系”窗口](media/desktop-composite-models/composite-models_09.png)
 

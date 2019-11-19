@@ -9,18 +9,18 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 02/05/2019
-ms.openlocfilehash: abf45f5213a10379535d4c6ada3b54ffa625ddc5
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: 83c3257fb9aaaee01efdfceaac93c1d32aeebba0
+ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61269210"
+ms.lasthandoff: 11/01/2019
+ms.locfileid: "73429167"
 ---
 # <a name="code-snippets-for-migrating-content-from-power-bi-workspace-collection"></a>用于从 Power BI 工作区集合迁移内容的代码片段
 
 以下是内容迁移所需的一些基本操作代码片段。 对于某些报表类型的相关流，请参阅[如何将 Power BI 工作区集合内容迁移到 Power BI Embedded](migrate-from-powerbi-embedded.md#content-migration)。
 
-可使用迁移工具  帮助将内容从 Power BI Embedded (PaaS) 复制到 Power BI 服务 (SaaS)。 尤其是有大量内容时。 有关详细信息，请参阅 [Power BI Embedded 迁移工具](migrate-tool.md)。
+可使用迁移工具帮助将内容从 Power BI Embedded (PaaS) 复制到 Power BI 服务 (SaaS)。 尤其是有大量内容时。 有关详细信息，请参阅 [Power BI Embedded 迁移工具](migrate-tool.md)。
 
 下面的代码是使用 C# 和 [Power BI .NET SDK](https://www.nuget.org/profiles/powerbi) 的示例。
 
@@ -167,7 +167,7 @@ using System.Threading.Tasks;
 
 将需要为创建的数据集重新生成报表。
 
-在此片段中，我们假设可推送的数据集已在 SaaS 环境的应用工作区中。 有关推送 API 的信息，请参阅[将数据推送到 Power BI 数据集](walkthrough-push-data.md)。
+在此片段中，我们假设可推送的数据集已在 SaaS 环境的工作区中。 有关推送 API 的信息，请参阅[将数据推送到 Power BI 数据集](walkthrough-push-data.md)。
 
 ```csharp
     var credentials = new TokenCredentials(<Your WSC access key>, "AppKey");

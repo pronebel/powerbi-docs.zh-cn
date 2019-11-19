@@ -13,12 +13,12 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 08/30/2019
 ms.author: mihart
-ms.openlocfilehash: ef955f672bc7266979b1e0b9ddbab6e9b6ae1ff7
-ms.sourcegitcommit: 52aa112ac9194f4bb62b0910c4a1be80e1bf1276
+ms.openlocfilehash: 17a142249abe1162dbbcff79c476f33eb4b80366
+ms.sourcegitcommit: 2aa83bd53faad6fb02eb059188ae623e26503b2a
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "70236943"
+ms.lasthandoff: 10/29/2019
+ms.locfileid: "73019600"
 ---
 # <a name="quickstart-learn-about-the-power-bi-capabilities-for-consumers"></a>快速入门：了解面向使用者  的 Power BI 功能
 本快速入门将介绍如何与 Power BI 交互，以发现数据驱动业务见解。 本文未做深入探讨，只是快速概述了 Power BI  使用者可执行的许多操作。
@@ -118,7 +118,7 @@ Power BI 会在值增加或减少超过设置的限制时，向你发送电子�
 ### <a name="favorite-a-dashboard"></a>收藏仪表板
 收藏内容后，便能从导航栏访问  。 导航栏在 Power BI 中的几乎每个区域都可见。 收藏的通常是你最常访问的仪表板、报表页和应用。
 
-在 Power BI 服务的右上角，选择“收藏夹”，如果不可见，则选择省略号 (...)，然后从下拉列表中选择“收藏夹”   。 
+在 Power BI 服务的右上角，选择“收藏夹”，如果没看见，则选择“更多选项”(…)，然后从下拉列表中选择“收藏”    。 
    
 ![“收藏”图标](./media/end-user-reading-view/power-bi-favorites.png)
 
@@ -168,7 +168,7 @@ Easily navigate between the visualizations on the report page.
 ### <a name="sort-a-visualization"></a>对可视化效果进行排序
 可以对报表页上的视觉对象进行排序，并将视觉对象与应用的更改一起保存。 
 
-将鼠标悬停在视觉对象上使其处于活动状态，并选择省略号 (…) 以打开排序选项。
+将鼠标悬停在视觉对象上使其处于活动状态，并选择“更多选项”(…) 以打开排序选项  。
 
 ![对图表进行排序](media/end-user-reading-view/sort.gif) 
 
@@ -177,7 +177,7 @@ Easily navigate between the visualizations on the report page.
 ### <a name="show-the-data-used-to-create-a-visualization"></a>显示用于创建可视化效果的数据
 Power BI 可视化效果是使用基础数据集中的数据构造而成。 如果你对幕后感兴趣，可以使用 Power BI *显示* 用于创建视觉对象的数据。 在用户选择“显示数据”  后，Power BI 在可视化效果下方（或旁边）显示数据。
 
-在视觉对象处于活动状态的情况下，择省略号 (…) 并选择“显示数据”  。
+在视觉对象处于活动状态的情况下，择“更多选项”(…) 并选择“显示数据”   。
    
    ![选择“显示数据”](./media/end-user-show-data/power-bi-explore-show-data.png)
 

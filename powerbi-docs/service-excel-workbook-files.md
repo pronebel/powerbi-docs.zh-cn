@@ -2,7 +2,6 @@
 title: 从 Excel 工作簿文件中获取数据
 description: 了解如何将数据从 Excel 工作簿文件导入 Power BI
 author: davidiseminger
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 09/06/2019
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: a98ccf3477a6e8e996efb0b8cb1ccf2c6728c594
-ms.sourcegitcommit: 226b47f64e6749061cd54bf8d4436f7deaed7691
+ms.openlocfilehash: 45f3ff801b2f1bffd2396fe9f59ea32dd4b11ffb
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/09/2019
-ms.locfileid: "70840961"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73877066"
 ---
 # <a name="get-data-from-excel-workbook-files"></a>从 Excel 工作簿文件中获取数据
 ![](media/service-excel-workbook-files/excel_icon.png)
@@ -83,7 +82,7 @@ Power BI 支持以下数据类型：整数、小数、货币、日期、True/Fal
 在 Excel 2016 中，你还可以使用“发布 > 上传”。 几乎是相同的操作。 若要了解详细信息，请参阅[从 Excel 2016 发布到 Power BI](service-publish-from-excel.md)。
 
 ## <a name="import-or-connect-to-an-excel-workbook-from-power-bi"></a>从 Power BI 导入或连接到 Excel 工作簿
-1. 在 Power BI 的导航窗格中，单击“获取数据”  。
+1. 在 Power BI 中的导航窗格中，单击“获取数据”  。
    
    ![](media/service-excel-workbook-files/excel_get_data_button.png)
 2. 在“文件”中，单击“获取”  。

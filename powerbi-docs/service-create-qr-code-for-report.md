@@ -2,7 +2,6 @@
 title: 为报表创建 QR 码以供在 Power BI 移动应用中使用
 description: Power BI 中的 QR 代码可以将现实生活中的任何东西直接连接到 Power BI 移动应用中的相关 BI 信息，而无需进行任何搜索。
 author: maggiesMSFT
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 03/13/2018
 ms.author: maggies
 LocalizationGroup: Reports
-ms.openlocfilehash: eb2ea1fbb96138e892ed563d5999f5bc9da8e59f
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: c98f06afe2af93e32d98ff1c3147cc15b64fbb57
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61160652"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73853365"
 ---
 # <a name="create-a-qr-code-for-a-report-in-power-bi-to-use-in-the-mobile-apps"></a>在 Power BI 中为报表创建 QR 码以供在移动应用中使用
 Power BI 中的 QR 代码可以将现实生活中的任何东西直接连接到相关的 BI 信息 &#151; 无需进行导航或搜索。
@@ -26,7 +25,7 @@ Power BI 中的 QR 代码可以将现实生活中的任何东西直接连接到�
 
 ## <a name="create-a-qr-code-for-a-report"></a>为报表创建 QR 代码
 1. 在 Power BI 服务中打开报表。
-2. 选择右上角的省略号 (...)，然后选择**生成 QR 代码**。 
+2. 选择右上角的“更多选项”(…)，然后选择“生成 QR 码”   。 
    
     ![](media/service-create-qr-code-for-report/power-bi-create-qr-code-report.png)
 3. 将出现带有 QR 代码的对话框。 
@@ -51,5 +50,5 @@ Power BI 可将 QR 代码生成为 JPG 文件，以备打印。
 * 使用移动应用[从真实世界连接到 Power BI 数据](consumer/mobile/mobile-apps-data-in-real-world-context.md)
 * [使用移动设备扫描 Power BI QR 码](consumer/mobile/mobile-apps-qr-code.md)
 * [创建磁贴的 QR 码](service-create-qr-code-for-tile.md)
-* 是否有任何问题？ [尝试咨询 Power BI 社区](http://community.powerbi.com/)
+* 是否有任何问题？ [尝试咨询 Power BI 社区](https://community.powerbi.com/)
 

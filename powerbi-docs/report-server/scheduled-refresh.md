@@ -2,19 +2,18 @@
 title: Power BI 报表服务器中 Power BI 报表计划的刷新
 description: Power BI 报表可以连接不同的数据源。 根据数据使用方式，可以提供不同的数据源。
 author: mgblythe
-manager: kfile
 ms.reviewer: kayu
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 11/01/2017
 ms.author: mblythe
-ms.openlocfilehash: ca2c37a93652bf0f622c7154fe8438faf4c70ac1
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: ede44316d9dd188787381b26ee3352af13775c0f
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "66051027"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73873993"
 ---
 # <a name="power-bi-report-scheduled-refresh-in-power-bi-report-server"></a>Power BI 报表服务器中 Power BI 报表计划的刷新
 通过对 Power BI 报表设置计划的刷新，可使报表数据保持最新状态。
@@ -34,7 +33,7 @@ ms.locfileid: "66051027"
 * 在 Analysis Services 实例中加载数据模型。
 * 对于某些数据源，Power Query 混合引擎用于连接数据源并转换数据。 可直接从用于托管 Power BI 报表服务器的数据模型的 Analysis Services 服务连接其他数据源。
 * 新的数据被加载到 Analysis Services 中的数据模型。
-* 在横向扩展配置中，可以在节点之间复制数据模型。
+* 在扩展配置中，可以跨节点复制数据模型。
 * Analysis Services 处理数据并执行任何所需的计算。
 
 Power BI 报表服务器为所有计划的操作维护事件队列。 它会每隔一定时间轮询队列以检查新的事件。 默认情况下，以 10 秒的时间间隔扫描队列。 你可以通过修改 RSReportServer.config 文件中的“PollingInterval”  、“IsNotificationService”  和“IsEventService”  配置设置来更改时间间隔。 “IsDataModelRefreshService”  还可用于设置报表服务器是否处理计划的事件。

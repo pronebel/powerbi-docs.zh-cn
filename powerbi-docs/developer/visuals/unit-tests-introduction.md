@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: tutorial
 ms.date: 06/18/2019
-ms.openlocfilehash: bb9835ceba302716c2c4b1e28eda33c6e4b1db42
-ms.sourcegitcommit: e2de2e8b8e78240c306fe6cca820e5f6ff188944
+ms.openlocfilehash: 97b21b6844ffb8633a37656e781a60f88cebbf43
+ms.sourcegitcommit: d441d350504f8c6d9e100d229757add6237f0bef
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/23/2019
-ms.locfileid: "71192477"
+ms.lasthandoff: 10/30/2019
+ms.locfileid: "73060427"
 ---
 # <a name="tutorial-add-unit-tests-for-power-bi-visual-projects"></a>教程：为 Power BI 视觉对象项目添加单元测试
 
@@ -65,7 +65,7 @@ ms.locfileid: "71192477"
 "webpack": "4.26.0"
 ```
 
-要详细了解此包，请参阅下方的说明。
+若要详细了解 package.json，请参阅 [npm-package.json](https://docs.npmjs.com/files/package.json) 中的说明  。
 
 保存 package.json 文件，并在 `package.json` 位置运行以下命令  ：
 

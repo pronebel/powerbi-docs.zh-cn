@@ -2,7 +2,6 @@
 title: 教程：在 Power BI Desktop 中创建你自己的度量值
 description: 教程：在 Power BI Desktop 中创建你自己的度量值
 author: davidiseminger
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
@@ -10,12 +9,12 @@ ms.topic: tutorial
 ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Learn more
-ms.openlocfilehash: 306738f4df765638c591c9612adf885facdceda0
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: ade9c163c017b13b0524c66f67f7a27378dc4b80
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "65513855"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73865947"
 ---
 # <a name="tutorial-create-your-own-measures-in-power-bi-desktop"></a>教程：在 Power BI Desktop 中创建你自己的度量值
 通过使用度量值，可以在 Power BI Desktop 中创建某些功能强大的数据分析解决方案。 度量值可在与报表进行交互时帮助对数据执行计算。 本教程将引导你了解度量值并在 Power BI Desktop 中创建自己的基本度量值。
@@ -23,7 +22,7 @@ ms.locfileid: "65513855"
 ### <a name="prerequisites"></a>先决条件
 - 本教程面向已熟悉使用 Power BI Desktop 创建更高级的模型的 Power BI 用户。 你应该已经熟悉使用“获取数据”和“查询编辑器”来导出数据、使用多个相关表和向报表画布添加字段。 如果刚开始使用 Power BI Desktop，请务必查看 [Power BI Desktop 入门](desktop-getting-started.md)。
   
-- 下载 [Power BI Desktop 的 Contoso 销售示例](http://download.microsoft.com/download/4/6/A/46AB5E74-50F6-4761-8EDB-5AE077FD603C/Contoso%20Sales%20Sample%20for%20Power%20BI%20Desktop.zip)文件，其中包含来自虚构公司 Contoso,inc. 的线上销售数据。由于该数据从数据库导入，因此你将无法连接到数据源或在“查询编辑器”中查看其内容。 请在你自己的计算机上提取该文件，然后在 Power BI Desktop 中打开它。
+- 下载 [Power BI Desktop 的 Contoso 销售示例](https://download.microsoft.com/download/4/6/A/46AB5E74-50F6-4761-8EDB-5AE077FD603C/Contoso%20Sales%20Sample%20for%20Power%20BI%20Desktop.zip)文件，其中包含来自虚构公司 Contoso,inc. 的线上销售数据。由于该数据从数据库导入，因此你将无法连接到数据源或在“查询编辑器”中查看其内容。 请在你自己的计算机上提取该文件，然后在 Power BI Desktop 中打开它。
 
 ## <a name="understand-measures"></a>了解度量值
 
@@ -60,7 +59,7 @@ DAX 公式使用许多与 Excel 公式相同的函数、运算符和语法。 �
 
 用户想要通过减去总销售额的折扣和收益来分析净销售额。 无论可视化效果中存在哪些上下文，都需要一个度量值，用于从 SalesAmount 总和中减去 DiscountAmount 和 ReturnAmount 的总和。 “字段”列表中没有“Net Sales”字段，但可以使用构建块创建度量值来计算净销售额。 
 
-1.  在“字段”框中右键单击**Sales**表，或将鼠标悬停在该表上方并选择省略号 (...) 代表的“更多选项”，然后选择“新建度量值”。   这会将新建度量值保存在“Sales”表中，使其更易于查找。
+1.  在“字段”框中右键单击 Sales 表，或将鼠标悬停在该表上方并选择省“更多选项”(…)，然后选择“新建度量值”    。 这会将新建度量值保存在“Sales”表中，使其更易于查找。
     
     ![新建度量值](media/desktop-tutorial-create-measures/meastut_netsales_newmeasure.png)
     

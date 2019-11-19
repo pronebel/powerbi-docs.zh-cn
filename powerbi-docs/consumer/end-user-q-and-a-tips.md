@@ -2,21 +2,19 @@
 title: 使用“问答”进行提问的提示和技巧
 description: 使用 Power BI 中“问答”进行提问的提示和技巧
 author: mihart
-manager: kvivek
-ms.reviewer: ''
-ms.custom: seodec18
+ms.reviewer: Mohammad
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 06/26/2019
+ms.date: 10/23/2019
 ms.author: mihart
 LocalizationGroup: Ask questions of your data
-ms.openlocfilehash: 4f6dc7167d64385182ecbd448b6c400fa7f829df
-ms.sourcegitcommit: 52aa112ac9194f4bb62b0910c4a1be80e1bf1276
+ms.openlocfilehash: 9fd5375684466eca49582ff9d153fd2533ad7e92
+ms.sourcegitcommit: 08b73af260ded51daaa6749338cb85db2eab587f
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "67408197"
+ms.lasthandoff: 11/15/2019
+ms.locfileid: "74099025"
 ---
 # <a name="tips-for-asking-questions-in-power-bi-qa"></a>在 Power BI 问答中提问的提示
 ## <a name="words-and-terminology-that-qa-recognizes"></a>“问答”识别的单词和术语
@@ -66,7 +64,7 @@ ms.locfileid: "67408197"
 |  |  |
 |**前 N 个**     |     （排序、排名）：前...名、后...名、最高、最低、第一、最后、下个、最早、最新、最旧、最新的、最近的、下一个            |
 |        |         |
-|**视觉对象类型**     |  来源于 Power BI 的所有视觉对象。  如果是“可视化效果”面板中的选项，那么你可以将其包含在你的问题中。  此规则的例外是，你已手动添加到“可视化效果”窗格的[自定义视觉对象](../power-bi-custom-visuals.md)。  |
+|**视觉对象类型**     |  来源于 Power BI 的所有视觉对象。  如果是“可视化效果”面板中的选项，那么你可以将其包含在你的问题中。  此规则的例外是，你已手动添加到“可视化效果”窗格的[自定义视觉对象](../developer/power-bi-custom-visuals.md)。  |
 |  |  示例：按照月份和销售总额以条形图显示地区               |
 |        |         |
 |**疑问词（关系、限定）**  | 时间、哪里、哪个、谁、多少、多少次、多久一次、金额、数字、数量、多久、什么                |
@@ -79,7 +77,9 @@ ms.locfileid: "67408197"
 * 以视觉对象的形式提供答案预览。 视觉对象会在你键入和编辑问题的同时更新（它不会等你按下 Enter 才更新）。
 * 当你在问题框中将光标往回移动时，建议来自基础数据集的替换术语。
 * 根据基础数据集中的数据重述问题。 “问答”采用来自基础数据集中的同义词替换你所用的单词。 通过查看重述，你将了解“问答”是否理解了你的问题。 
-* 不能理解的模糊词。
+* 对“问答”不理解的字词添加双下划线。
+* 对“问答”不理解的字词添加单下划线。
+* 如果你找不到术语或问题得不到解答，允许你联系报表或仪表板所有者。
 
 ## <a name="dont-stop-now"></a>暂不停止
 “问答”显示结果后，请保持继续谈话！ 使用视觉对象和问答的交互功能发掘更多见解。
@@ -89,5 +89,5 @@ ms.locfileid: "67408197"
 
 [Power BI - 基本概念](end-user-basic-concepts.md)  
 
-更多问题？ [尝试参与 Power BI 社区](http://community.powerbi.com/)
+更多问题？ [尝试参与 Power BI 社区](https://community.powerbi.com/)
 

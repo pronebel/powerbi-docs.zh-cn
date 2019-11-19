@@ -2,19 +2,18 @@
 title: 教程：在 iOS 应用中向常见问题虚拟分析师询问问题
 description: 在本教程中，在 iOS 设备上的 Power BI 移动应用中以你自己的语言向常见问题虚拟分析师询问关于示例数据的问题。
 author: mshenhav
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: tutorial
 ms.date: 11/16/2018
 ms.author: mshenhav
-ms.openlocfilehash: 74949d2b71dbdca46bbda9623a962616a72af45e
-ms.sourcegitcommit: 52aa112ac9194f4bb62b0910c4a1be80e1bf1276
+ms.openlocfilehash: c7fd216d50f918d96392532ccb82f80d619ce8a3
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "61337073"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73869660"
 ---
 # <a name="tutorial-ask-questions-about-your-data-with-the-qa-virtual-analyst-in-the-power-bi-ios-apps"></a>教程：在 Power BI iOS 应用中向常见问题虚拟分析师询问关于数据的问题
 
@@ -42,7 +41,7 @@ ms.locfileid: "61337073"
 ## <a name="prerequisites"></a>先决条件
 
 ### <a name="install-the-power-bi-for-ios-app"></a>安装 iOS 版 Power BI 应用
-[下载 iOS 应用](http://go.microsoft.com/fwlink/?LinkId=522062 "从 Apple App Store 下载 iPhone 应用") 到你的 iPad、iPhone 或 iPod Touch 中。
+从 Apple App Store [下载 iOS 应用](https://go.microsoft.com/fwlink/?LinkId=522062 "下载 iPhone 应用")到 iPad、iPhone 或 iPod Touch。
 
 以下版本支持 iOS 版 Power BI 应用：
 - 操作系统为 iOS 10 或更高版本的 iPad。
@@ -54,11 +53,11 @@ ms.locfileid: "61337073"
 
 1. 在浏览器 (app.powerbi.com) 中打开 Power BI 服务，然后登录。
 
-1. 选择全局导航图标以打开左侧导航。
+1. 选择全局导航图标以打开导航窗格。
 
     ![全局导航图标](./media/tutorial-mobile-apps-ios-qna/power-bi-android-quickstart-global-nav-icon.png)
 
-2. 在左侧的导航窗格中，选择“工作区”   > “我的工作区”  。
+2. 在导航窗格中，选择“工作区” > “我的工作区”   。
 
     ![我的工作区](./media/tutorial-mobile-apps-ios-qna/power-bi-android-quickstart-my-workspace.png)
 
@@ -117,7 +116,7 @@ ms.locfileid: "61337073"
 
 1. 打开 Power BI 服务 (app.powerbi.com) 并登录。
 
-2. 在左侧的导航窗格中，选择“工作区”   > “我的工作区”  。
+2. 在导航窗格中，选择“工作区” > “我的工作区”   。
 
 3. 在“仪表板”选项卡上，选择“机会分析”仪表板旁边的垃圾桶“删除”图标   。
 

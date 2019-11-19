@@ -10,12 +10,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 05/20/2019
 LocalizationGroup: Share your work
-ms.openlocfilehash: 3c6dc26ee1cf806ff85a9452c024e7ccbd210a25
-ms.sourcegitcommit: cc4b18d55b2dca8fdb1bef00f53a0a808c41432a
+ms.openlocfilehash: d140e39cdd30f5e2078f24c55fda5ea7040e0ad4
+ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/09/2019
-ms.locfileid: "68867111"
+ms.lasthandoff: 11/01/2019
+ms.locfileid: "73431877"
 ---
 # <a name="embed-a-report-in-a-secure-portal-or-website"></a>在安全门户或网站中嵌入报表
 
@@ -49,7 +49,7 @@ ms.locfileid: "68867111"
 
 “嵌入”选项不会自动允许用户查看报表  。 查看权限在 Power BI 服务中设置。
 
-在 Power BI 服务中，你可以与需要访问权限的用户共享嵌入的报表。 如果使用的是 Office 365 组，你可以将该用户列为应用工作区成员。 有关详细信息，请参阅如何[管理 Power BI 和 Office 365 中的应用工作区](service-manage-app-workspace-in-power-bi-and-office-365.md)。
+在 Power BI 服务中，你可以与需要访问权限的用户共享嵌入的报表。 如果使用 Office 365 组，你可以将该用户列为工作区成员。 有关详细信息，请参阅如何[管理 Power BI 和 Office 365 中的工作区](service-manage-app-workspace-in-power-bi-and-office-365.md)。
 
 ## <a name="licensing"></a>许可
 

@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 06/06/2019
 ms.author: mblythe
 LocalizationGroup: Data refresh
-ms.openlocfilehash: 46f61d2fcce21e3f8e6dae83c32457414928faee
-ms.sourcegitcommit: 206806d8ddb6bdfc322c1a46fb34a1b0678acba2
+ms.openlocfilehash: 9f1289b5fce74c60e5b3802054cef008dd33ada2
+ms.sourcegitcommit: 2aa83bd53faad6fb02eb059188ae623e26503b2a
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/10/2019
-ms.locfileid: "66816586"
+ms.lasthandoff: 10/29/2019
+ms.locfileid: "73021556"
 ---
 # <a name="configure-scheduled-refresh"></a>配置计划刷新
 
@@ -30,7 +30,7 @@ ms.locfileid: "66816586"
 
 若要进入“计划刷新”屏幕，可以执行以下操作  。
 
-1. 选择“数据集”  下所列的某个数据集旁边的  “省略号 (...)”。
+1. 选择“数据集”  下所列的某个数据集旁边的  “更多选项”(…)。
 2. 选择“计划刷新”  。
 
     ![计划刷新](media/refresh-scheduled-refresh/dataset-menu.png)
@@ -73,7 +73,7 @@ ms.locfileid: "66816586"
 >
 >
 
-## <a name="scheduled-refresh"></a>计划内刷新
+## <a name="scheduled-refresh"></a>计划的刷新
 可在“计划刷新”部分定义刷新数据集的频率和时间段  。 部分数据源不需要使用网关即可进行刷新配置；其他数据源则需要使用网关。
 
 将“使你的数据保持为最新”滑块设为“开”来配置设置   。

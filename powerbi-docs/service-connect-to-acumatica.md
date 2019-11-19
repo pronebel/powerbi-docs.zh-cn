@@ -2,7 +2,6 @@
 title: 使用 Power BI 连接到 Acumatica
 description: 适用于 Power BI 的 Acumatica
 author: SarinaJoan
-manager: kfile
 ms.reviewer: maggiesMSFT
 ms.service: powerbi
 ms.subservice: powerbi-template-apps
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 08/29/2019
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: d2ee7a338f34e4c29fdbefae6518bede9e94badb
-ms.sourcegitcommit: b53a6f5575f5f8bc443ecdca9c72525ce123518f
+ms.openlocfilehash: 09e55aef3a1167143694c8e26a342cb1b8f0875c
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/30/2019
-ms.locfileid: "70186141"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73873198"
 ---
 # <a name="connect-to-acumatica-with-power-bi"></a>使用 Power BI 连接到 Acumatica
 通过 Power BI Acumatica 内容包可以快速深入了解商机数据。 Power BI 会检索数据（包括商机、帐户和客户），然后生成默认仪表板以及基于该数据的相关报表。
@@ -28,7 +27,7 @@ ms.locfileid: "70186141"
 >此内容包需要 Acumatica v5.2 或更高版本。
 
 ## <a name="how-to-connect"></a>如何连接
-1. 选择左侧导航窗格底部的**获取数据**。
+1. 在导航窗格底部，选择“获取数据”  。
    
    ![](media/service-connect-to-acumatica/getdata3.png)
 2. 在**服务**框中，选择**获取**。
@@ -47,7 +46,7 @@ ms.locfileid: "70186141"
 5. 对于身份验证方法，选择**基本**。 输入来自 Acumatica 帐户的用户名和密码，然后单击**登录**。
    
     ![](media/service-connect-to-acumatica/creds2.png)
-6. Power BI 导入数据后，你将在左侧的导航窗格中看到新的仪表板、报表和数据集。 新的项目会以黄色星号 \* 进行标记（在选择之后会消失），选择仪表板会显示类似于下面这样的布局：
+6. Power BI 导入数据后，你将在导航窗格中看到新的仪表板、报表和数据集。 新的项目会以黄色星号 \* 进行标记（在选择之后会消失），选择仪表板会显示类似于下面这样的布局：
    
     ![](media/service-connect-to-acumatica/dashboard.png)
 

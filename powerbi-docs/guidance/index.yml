@@ -1,0 +1,53 @@
+### YamlMime:Landing
+title: Power BI 指导性文档
+summary: 在 Power BI 指导性文档中，构建 Power BI 的团队和负责企业客户的人员提供了最佳做法相关信息。 你将在这里学习如何使用 Power BI 来提高业绩、取得成功。 在有新信息时，我们将进行更新并将其添加到这些资料中。
+metadata:
+  title: Power BI 指导性文档
+  description: 在 Power BI 指导性文档中，构建 Power BI 的团队和负责企业客户的人员提供了最佳做法相关信息。 你将在这里学习如何使用 Power BI 来提高业绩、取得成功。 在有新信息时，我们将进行更新并将其添加到这些资料中。
+  services: powerbi
+  ms.service: powerbi
+  ms.subservice: powerbi
+  ms.topic: landing-page
+  ms.collection: collection
+  author: maggiesMSFT
+  ms.author: maggies
+  ms.date: 11/14/2019
+  ms.openlocfilehash: de1ea8bbc35bc1d2ecc42a8deffc54fd9ac01bc1
+  ms.sourcegitcommit: 01de0b01f66f28ca45b8d309d7864f261d6c9a85
+  ms.translationtype: HT
+  ms.contentlocale: zh-CN
+  ms.lasthandoff: 11/16/2019
+  ms.locfileid: "74133833"
+landingContent:
+- title: Power BI 指南
+  linkLists:
+  - linkListType: overview
+    links:
+    - text: Power BI 指南
+      url: overview.md
+    - text: 白皮书概述
+      url: ../whitepapers.md
+- title: 数据建模
+  linkLists:
+  - linkListType: concept
+    links:
+    - text: 什么是星型架构？
+      url: star-schema.md
+    - text: 数据缩减技术
+      url: import-modeling-data-reduction.md
+    - text: 查询折叠的重要性
+      url: power-query-folding.md
+- title: DAX
+  linkLists:
+  - linkListType: concept
+    links:
+    - text: DIVIDE 函数与除法运算符
+      url: dax-divide-function-operator.md
+    - text: 适当使用错误函数
+      url: dax-error-functions.md
+- title: 数据流
+  linkLists:
+  - linkListType: concept
+    links:
+    - text: 数据流最佳做法
+      url: ../service-dataflows-best-practices.md

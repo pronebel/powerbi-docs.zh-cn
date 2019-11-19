@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 08/02/2018
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 86b7a5e93183c06d6cac1445cb1702edde5d4bc9
-ms.sourcegitcommit: 5e277dae93832d10033defb2a9e85ecaa8ffb8ec
+ms.openlocfilehash: f2a80b075a56cdeccfa4c3675cdf31504b6a7e5d
+ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/07/2019
-ms.locfileid: "72020594"
+ms.lasthandoff: 11/01/2019
+ms.locfileid: "73431754"
 ---
 # <a name="manage-update-and-delete-organizational-content-packs"></a>管理、更新和删除组织内容包
 > [!NOTE]
@@ -71,14 +71,14 @@ ms.locfileid: "72020594"
 作为内容包创建者，你可以[计划数据集的刷新](refresh-data.md)。  当你创建并上传内容包时，该刷新计划将于数据集一起上传。 如果更改刷新计划，你需要重新发布内容包（见上文）。
 
 ## <a name="delete-an-organizational-content-pack-from-appsource"></a>从 AppSource 中删除组织内容包
-只有内容包创建者才能从 AppSource 中删除内容包。 如果已在应用工作区中创建组织内容包，又决定删除该工作区，请务必先删除内容包。 如果在未先删除内容包的情况下删除工作区，你将失去对这些内容包的全部访问权限，需要联系 Microsoft 支持部门以获取帮助。 
+只有内容包创建者才能从 AppSource 中删除内容包。 如果已在工作区中创建组织内容包，又决定删除该工作区，请务必先删除内容包。 如果在未先删除内容包的情况下删除工作区，你将失去对这些内容包的全部访问权限，需要联系 Microsoft 支持部门以获取帮助。 
 
 > [!TIP]
 > 如果不是内容包创建者，可以[断开与内容包的连接](service-organizational-content-pack-disconnect.md)。 此操作不会从 AppSource 中删除内容包。
 > 
 > 
 
-1. 若要从 AppSource 中删除内容包，请转到在其中创建内容包的应用工作区，再依次选择齿轮图标 ![](media/service-organizational-content-pack-manage-update-delete/cog.png) 和“查看内容包”  。
+1. 若要从 AppSource 中删除内容包，请转到在其中创建内容包的工作区，再依次选择齿轮图标 ![](media/service-organizational-content-pack-manage-update-delete/cog.png) 和“查看内容包”  。
 2. 依次选择“删除”\>“删除”  。 
    
    * 对于未自定义内容包的组成员，将自动删除与该内容包相关联的仪表板和报表。 这些内容将不再可用，且导航窗格中不会显示该内容包。

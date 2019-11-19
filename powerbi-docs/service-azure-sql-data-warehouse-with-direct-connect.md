@@ -6,17 +6,16 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 author: mgblythe
 ms.author: mblythe
-manager: kfile
 ms.reviewer: ''
 ms.custom: ''
 ms.date: 06/20/2018
 LocalizationGroup: Data from databases
-ms.openlocfilehash: aaeda4c2f7c50e41d9b149e33ba49f5eba76eba8
-ms.sourcegitcommit: d441d350504f8c6d9e100d229757add6237f0bef
+ms.openlocfilehash: 2e96b88963250d7ac11cf9690c63b431279d585a
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/30/2019
-ms.locfileid: "73060689"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73873246"
 ---
 # <a name="azure-sql-data-warehouse-with-directquery"></a>具有 DirectQuery 的 Azure SQL 数据仓库
 
@@ -54,7 +53,7 @@ ms.locfileid: "73060689"
 
 SQL 数据仓库还在 Power BI 获取数据页面上列出。 
 
-1. 选择左侧导航窗格底部的**获取数据**。  
+1. 在导航窗格底部，选择“获取数据”  。  
 
     ![“获取数据”按钮](media/service-azure-sql-data-warehouse-with-direct-connect/getdatabutton.png)
 
@@ -102,4 +101,4 @@ SQL 数据仓库还在 Power BI 获取数据页面上列出。
 * [获取 Power BI 的数据](service-get-data.md)  
 * [Azure SQL 数据仓库](/azure/sql-data-warehouse/sql-data-warehouse-overview-what-is/)
 
-更多问题？ [尝试参与 Power BI 社区](http://community.powerbi.com/)
+更多问题？ [尝试参与 Power BI 社区](https://community.powerbi.com/)
