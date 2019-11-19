@@ -3,18 +3,17 @@ title: Power BI 视觉对象中的本地存储 API
 description: 本文介绍如何使用 Power BI 视觉对象 API 来获取对浏览器本地存储的访问权限
 author: uve
 ms.author: v-grniki
-manager: rkarlin
 ms.reviewer: sranins
 ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: conceptual
 ms.date: 10/31/2019
-ms.openlocfilehash: 3b6746b611a41ddfb471008f5aefa4f7dc391456
-ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
+ms.openlocfilehash: f69a3c8928b8079f79b8a6dd5f5b132235a7089c
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "73432774"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73879887"
 ---
 # <a name="local-storage-api"></a>本地存储 API
 

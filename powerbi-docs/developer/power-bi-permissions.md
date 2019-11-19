@@ -3,18 +3,17 @@ title: Power BI 权限
 description: Power BI 权限
 author: rkarlin
 ms.author: rkarlin
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 10/01/2018
-ms.openlocfilehash: 06901a484ca53881f30cc71d9a7404807ac6cd57
-ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
+ms.openlocfilehash: 14327f09ede41c23fd4fe7cc65fc4f8d3a91b926
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "73429148"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73880436"
 ---
 # <a name="power-bi-permissions"></a>Power BI 权限
 
@@ -46,7 +45,7 @@ Power BI 权限使应用程序能够代表用户执行某些操作。 所有权�
 
 ## <a name="requesting-permissions"></a>请求权限
 
-虽然你可以调用 API 通过用户名和密码进行验证，以便代表其他用户进行操作，但是他们将需要请求该用户随后批准的权限，然后将生成的访问令牌发送到所有的将来的调用。 对于此过程，我们将遵循标准 [OAuth 2.0](http://oauth.net/2/) 协议。 尽管实际实现可能会有所不同，但 Power BI 的 OAuth 流具有以下元素：
+虽然你可以调用 API 通过用户名和密码进行验证，以便代表其他用户进行操作，但是他们将需要请求该用户随后批准的权限，然后将生成的访问令牌发送到所有的将来的调用。 对于此过程，我们将遵循标准 [OAuth 2.0](https://oauth.net/2/) 协议。 尽管实际实现可能会有所不同，但 Power BI 的 OAuth 流具有以下元素：
 
 * **登录 UI** - 这是一个开发人员可以调用来请求权限的 UI。 如果用户尚未登录，它将要求该用户登录。 用户还需要批准应用程序请求的权限。 登录窗口将回发访问代码或错误消息，以重定向提供的 URL。
   * 标准重定向 URL 应由 Power BI 提供，以由本机应用程序使用。
@@ -54,4 +53,4 @@ Power BI 权限使应用程序能够代表用户执行某些操作。 所有权�
 * **授权令牌** - 用于代表其他用户对 API 调用进行验证。 它们将限制用于特定应用程序。 令牌具有已设定的生命周期，过期时，需要将其进行刷新。
 * **刷新令牌** - 令牌过期时，将有一个刷新它们的过程。
 
-更多问题？ [尝试咨询 Power BI 社区](http://community.powerbi.com/)
+更多问题？ [尝试咨询 Power BI 社区](https://community.powerbi.com/)

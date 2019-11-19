@@ -2,18 +2,17 @@
 title: 在 Power BI Desktop 中编辑“问答”功能的语言架构并添加短语
 description: 如何使用 Power BI Desktop 编辑 Power BI 问答功能使用的语言架构。
 author: mohaali
-manager: mohaali
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 10/18/2019
 ms.author: mohaali
-ms.openlocfilehash: 3bd5902227742a89402218b99ef8a024681be416
-ms.sourcegitcommit: 96217747f07d923d1a9d31f67a853f1ef1d17b20
+ms.openlocfilehash: d1ae995c3e98befe776ac091a0312e281e97022e
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/24/2019
-ms.locfileid: "72891574"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73875324"
 ---
 # <a name="edit-qa-linguistic-schema-and-add-phrasings-in-power-bi-desktop"></a>在 Power BI Desktop 中编辑“问答”功能的语言架构并添加短语 
 使用常用短语和自然语言来查询数据是一个非常有用的功能。 如果你的数据本身潜藏解答，该项功能会更显强大。 向 Power BI“问答”功能提问时，它会尽力给出正确答案。 但为了实现更好的“问答”交互效果，你可以改进答案。 其中一种方法是编辑语言架构。 
@@ -338,4 +337,4 @@ Binding: {Table: Customers}
 
 ![显示错误的 yaml 文件](media/q-and-a-tooling-advanced/power-bi-yaml-errors.png)
 
-更多问题？ [尝试参与 Power BI 社区](http://community.powerbi.com/)
+更多问题？ [尝试参与 Power BI 社区](https://community.powerbi.com/)

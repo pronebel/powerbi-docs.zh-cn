@@ -2,7 +2,6 @@
 title: 向仪表板添加图像、视频等
 description: 介绍如何使用添加磁贴小组件向仪表板添加图像、视频、文本框、Web 代码和流数据磁贴的文档。
 author: maggiesMSFT
-manager: kfile
 ms.reviewer: ''
 featuredvideoid: e2PD8m1Q0vU
 ms.service: powerbi
@@ -11,12 +10,12 @@ ms.topic: conceptual
 ms.date: 07/25/2019
 ms.author: maggies
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 93301625efda52aa69af172b29e7fbcd94b2a4dd
-ms.sourcegitcommit: 2aa83bd53faad6fb02eb059188ae623e26503b2a
+ms.openlocfilehash: a012320a12d2516cb24dc92f2472e3c49ce9081e
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/29/2019
-ms.locfileid: "73020438"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73853518"
 ---
 # <a name="add-images-videos-and-more-to-your-dashboard"></a>向仪表板添加图像、视频等
 
@@ -246,5 +245,5 @@ ms.locfileid: "73020438"
 ## <a name="next-steps"></a>后续步骤
 [Power BI 设计器的仪表板磁贴简介](service-dashboard-tiles.md)
 
-更多问题？ [尝试参与 Power BI 社区](http://community.powerbi.com/)。
+更多问题？ [尝试参与 Power BI 社区](https://community.powerbi.com/)。
 

@@ -2,7 +2,6 @@
 title: 为自己和他人订阅报表和仪表板
 description: 了解如何为自己和他人订阅 Power BI 报表页、仪表板或分页报表的快照。
 author: maggiesMSFT
-manager: kfile
 ms.reviewer: ''
 featuredvideoid: ''
 ms.service: powerbi
@@ -11,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/23/2019
 ms.author: maggies
 LocalizationGroup: Common tasks
-ms.openlocfilehash: e3e22a40b385ab519767eb850617a0506dbfbfd2
-ms.sourcegitcommit: 96217747f07d923d1a9d31f67a853f1ef1d17b20
+ms.openlocfilehash: c8e95a53e0907de86449a91095d2c5afbef5b4c8
+ms.sourcegitcommit: 08b73af260ded51daaa6749338cb85db2eab587f
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/24/2019
-ms.locfileid: "72891822"
+ms.lasthandoff: 11/15/2019
+ms.locfileid: "74099781"
 ---
 # <a name="subscribe-yourself-and-others-to-reports-and-dashboards-in-the-power-bi-service"></a>在 Power BI 服务中为自己和他人订阅报表和仪表板
 
@@ -97,7 +96,7 @@ ms.locfileid: "72891822"
 * 报表页订阅与报表页面的名称是相关联的。 如果你订阅一个报表页，随后将其重命名，则必须重新创建订阅。
 * 组织可能在 Azure Active Directory 中配置的某些设置会限制 Power BI 中电子邮件订阅的使用。  这些限制包括但不限于针对资源访问设置多重身份验证或 IP 范围限制。
 * 当前，在订阅自己以外的用户时，不支持对使用实时连接数据集的报表/仪表板进行电子邮件订阅，除非你使用的是分页报表，分页报表允许你使用安全性上下文将订阅发送给其他人。 
-* 电子邮件订阅不支持大多数[自定义视觉对象](power-bi-custom-visuals.md)。  已经过[认证](power-bi-custom-visuals-certified.md)的自定义视觉对象除外。  
+* 电子邮件订阅不支持大多数[自定义视觉对象](developer/power-bi-custom-visuals.md)。  已经过[认证](developer/power-bi-custom-visuals-certified.md)的自定义视觉对象除外。  
 * 目前电子邮件订阅不支持 R 驱动的自定义视觉对象。  
 * 电子邮件订阅与报表的默认筛选器和切片器状态一起发送。 在订阅后对默认设置所做的任何更改都不会显示在电子邮件中。  分页报表支持此功能，并允许你为每个订阅设置特定的参数值。   
 * 对于仪表板订阅，具体来说，尚不支持某些类型的磁贴。  其中包括流磁贴、视频磁贴、自定义 Web 内容磁贴。     
@@ -109,5 +108,5 @@ ms.locfileid: "72891822"
 ## <a name="next-steps"></a>后续步骤
 
 - [在 Power BI 服务中为自己和他人订阅分页报表](paginated-reports-subscriptions.md)
-- 更多问题？ [尝试咨询 Power BI 社区](http://community.powerbi.com/)    
+- 更多问题？ [尝试咨询 Power BI 社区](https://community.powerbi.com/)    
 - [阅读博客文章](https://powerbi.microsoft.com/blog/introducing-dashboard-email-subscriptions-a-360-degree-view-of-your-business-in-your-inbox-every-day/)

@@ -2,7 +2,6 @@
 title: 组织内容包：访问和复制
 description: 阅读有关在 Power BI 中创建组织内容包的副本并对其访问权限进行故障排除的信息
 author: maggiesMSFT
-manager: kfile
 ms.reviewer: lukaszp, kayu
 ms.service: powerbi
 ms.subservice: powerbi-service
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 08/02/2018
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 605f942f2d19c7701d7146829e75fa282efcb0a5
-ms.sourcegitcommit: 2aa83bd53faad6fb02eb059188ae623e26503b2a
+ms.openlocfilehash: 905e461c69a898b41b45e48405c3aaaa6e09cfec
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/29/2019
-ms.locfileid: "73020138"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73881310"
 ---
 # <a name="organizational-content-packs-copy-refresh-and-get-access"></a>组织内容包：复制、刷新和访问
 
@@ -58,4 +57,4 @@ ms.locfileid: "73020138"
 ## <a name="next-steps"></a>后续步骤
 * [组织内容包简介](service-organizational-content-pack-introduction.md)
 * [在 Power BI 中创建组](service-create-distribute-apps.md)
-* 更多问题？ [尝试参与 Power BI 社区](http://community.powerbi.com/)
+* 更多问题？ [尝试参与 Power BI 社区](https://community.powerbi.com/)

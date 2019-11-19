@@ -2,7 +2,6 @@
 title: 在“编辑视图”中与报表进行交互
 description: 在 Power BI 服务的报表“编辑视图”中与报表进行交互
 author: maggiesMSFT
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 04/11/2018
 ms.author: maggies
 LocalizationGroup: Reports
-ms.openlocfilehash: 786357d2861b05c46ffb3c7b827d5c797fb5ea20
-ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
+ms.openlocfilehash: 9ae34a354d41987f291aa891b713542901180eb6
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "73431782"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73872183"
 ---
 # <a name="interact-with-a-report-in-editing-view-in-power-bi-service"></a>在 Power BI 服务的“编辑视图”中与报表进行交互
 可在 Power BI 服务和 Power BI Desktop 中创建和编辑报表。 在 Power BI 服务中，可在“编辑视图”  中创建和编辑报表。 而在 Power BI Desktop 中，可在“[报表视图](desktop-report-view.md)”  中创建和编辑报表。 本文介绍了 Power BI 服务中的“编辑视图”。 
@@ -45,5 +44,5 @@ Power BI 服务有两种与报表交互的模式 -- 针对报表使用者  的[�
 ## <a name="next-steps"></a>后续步骤
 返回 [Power BI 服务中的“阅读视图”和“编辑视图”](consumer/end-user-reading-view.md)
 
-更多问题？ [尝试参与 Power BI 社区](http://community.powerbi.com/)
+更多问题？ [尝试参与 Power BI 社区](https://community.powerbi.com/)
 

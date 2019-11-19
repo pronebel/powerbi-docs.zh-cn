@@ -2,7 +2,6 @@
 title: 在视觉对象中向下钻取和向上钻取
 description: 本文介绍了如何在 Microsoft Power BI 服务的视觉对象中向下钻取。
 author: mihart
-manager: kvivek
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 10/17/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 24dbce4d825e51d40fc9a42384561d4608f18035
-ms.sourcegitcommit: 2aa83bd53faad6fb02eb059188ae623e26503b2a
+ms.openlocfilehash: 21d663b2f29a8090e6cfb7013d16c739ef0a29b3
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/29/2019
-ms.locfileid: "73019899"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73851463"
 ---
 # <a name="drill-mode-in-a-visual-in-power-bi"></a>Power BI 视觉对象中的钻取模式
 
@@ -153,4 +152,4 @@ ms.locfileid: "73019899"
 
 [Power BI - 基本概念](end-user-basic-concepts.md)
 
-更多问题？ [尝试参与 Power BI 社区](http://community.powerbi.com/)
+更多问题？ [尝试参与 Power BI 社区](https://community.powerbi.com/)

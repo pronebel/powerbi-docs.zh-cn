@@ -2,7 +2,6 @@
 title: 在 Power BI 服务中设置数据警报
 description: 在 Microsof Power BI 服务中，了解设置警报，以便在仪表板中的数据更改超出你设置的限制时通知你。
 author: maggiesMSFT
-manager: kfile
 ms.reviewer: ''
 featuredvideoid: JbL2-HJ8clE
 ms.service: powerbi
@@ -11,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/21/2019
 ms.author: maggies
 LocalizationGroup: Dashboards
-ms.openlocfilehash: d1944f139cdd7089d9465e174e554ac7df1d8bf8
-ms.sourcegitcommit: d441d350504f8c6d9e100d229757add6237f0bef
+ms.openlocfilehash: e26b50d571cfffeae1c93f37e715eca24ff4f12e
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/30/2019
-ms.locfileid: "73060375"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73871559"
 ---
 # <a name="data-alerts-in-the-power-bi-service"></a>Power BI 服务中的数据警报
 
@@ -132,4 +131,4 @@ ms.locfileid: "73060375"
 
 * [什么是 Power BI？](fundamentals/power-bi-overview.md)
 
-更多问题？ [尝试咨询 Power BI 社区](http://community.powerbi.com/)
+更多问题？ [尝试咨询 Power BI 社区](https://community.powerbi.com/)

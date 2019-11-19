@@ -2,7 +2,6 @@
 title: 磁贴错误故障排除
 description: 磁贴尝试在 Power BI 中刷新时可能遇到的常见错误
 author: mgblythe
-manager: kfile
 ms.reviewer: kayu
 ms.custom: seodec18
 ms.service: powerbi
@@ -11,18 +10,18 @@ ms.topic: troubleshooting
 ms.date: 12/06/2018
 ms.author: mblythe
 LocalizationGroup: Troubleshooting
-ms.openlocfilehash: 4ba6b4840a35e00c4b170a6b916bf3877508546a
-ms.sourcegitcommit: 2aa83bd53faad6fb02eb059188ae623e26503b2a
+ms.openlocfilehash: dbae4c82fb350242ed0fefadeeec217666fc3005
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/29/2019
-ms.locfileid: "73021533"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73877504"
 ---
 # <a name="troubleshooting-tile-errors"></a>磁贴错误故障排除
 下面是使用磁贴可能会遇到的常见错误以及错误说明。
 
 > [!NOTE]
-> 如果遇到上文未列出的错误，且产生了相应的问题，可通过[社区网站](http://community.powerbi.com/)寻求进一步的支持，或者可以创建[支持票证](https://powerbi.microsoft.com/support/)。
+> 如果遇到上文未列出的错误，且产生了相应的问题，可通过[社区网站](https://community.powerbi.com/)寻求进一步的支持，或者可以创建[支持票证](https://powerbi.microsoft.com/support/)。
 > 
 > 
 
@@ -38,7 +37,7 @@ ms.locfileid: "73021533"
 
 自定义视觉对象已由管理员禁用  。
 
-Power BI 管理员已禁用组织或安全组的自定义视觉对象。 将无法从 [Microsoft 市场](https://appsource.microsoft.com/en-us/marketplace/apps?page=1&product=power-bi-visuals)使用自定义视觉对象或从文件导入专用视觉对象。 将仅能够使用预先打包的一组视觉对象。
+Power BI 管理员已禁用组织或安全组的自定义视觉对象。 将无法从 [Microsoft 市场](https://appsource.microsoft.com/marketplace/apps?page=1&product=power-bi-visuals)使用自定义视觉对象或从文件导入专用视觉对象。 将仅能够使用预先打包的一组视觉对象。
 
 
 **数据形状必须至少包含一个输出数据的组或计算。请联系仪表板所有者。**
@@ -82,5 +81,5 @@ Power BI 管理员已禁用组织或安全组的自定义视觉对象。 将无�
 ## <a name="next-steps"></a>后续步骤
 [本地数据网关故障排除](service-gateway-onprem-tshoot.md)  
 [Power BI Personal Gateway 故障排除](service-admin-troubleshooting-power-bi-personal-gateway.md)  
-更多问题？ [尝试参与 Power BI 社区](http://community.powerbi.com/)
+更多问题？ [尝试参与 Power BI 社区](https://community.powerbi.com/)
 

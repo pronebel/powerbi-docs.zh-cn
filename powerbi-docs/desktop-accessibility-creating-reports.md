@@ -2,7 +2,6 @@
 title: 在 Power BI 中创建可访问的报表
 description: 如何创建可访问的 Power BI Desktop 报表
 author: davidiseminger
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 10/30/2019
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: ea03387dd35537ac47f1c97a3c2712d4185b3247
-ms.sourcegitcommit: ef6de7067ecb2bbc86d912784376a1627acc478d
+ms.openlocfilehash: 4686b15e04d3724256c76d7ba27a125cb04e86b3
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/30/2019
-ms.locfileid: "73181703"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73878964"
 ---
 # <a name="creating-accessible-reports-in-power-bi"></a>在 Power BI 中创建可访问的报表
 你可以设计和创建引人注目的报表，同时也可以针对可访问性进行设计。 无论何时构建报表，无论受众是谁，你都应该创建一个可供尽可能多的人使用的报表，而不需要使报表套用某种特殊的设计。
@@ -166,9 +165,9 @@ Power BI 如此引人注目的一个特征是它的数据是动态的。 你可�
 
 ### <a name="themes-contrast-and-colorblind-friendly-colors"></a>主题、对比度和色盲友好颜色
 
-应确保报表中文本和任意背景颜色之间有足够的对比度。 WCAG 2.1 成功标准 1.4.3 规定文本和背景色的对比度至少应为 4.5:1。 可以使用 [Colour Contrast Analyser](https://developer.paciellogroup.com/resources/contrastanalyser/)（颜色对比度分析程序）、[WebAIM](https://webaim.org/resources/contrastchecker/) 和 [Accessible Colors](http://accessible-colors.com/)（可访问颜色）等多种工具检查报表颜色。
+应确保报表中文本和任意背景颜色之间有足够的对比度。 WCAG 2.1 成功标准 1.4.3 规定文本和背景色的对比度至少应为 4.5:1。 可以使用 [Colour Contrast Analyser](https://developer.paciellogroup.com/resources/contrastanalyser/)（颜色对比度分析程序）、[WebAIM](https://webaim.org/resources/contrastchecker/) 和 [Accessible Colors](https://accessible-colors.com/)（可访问颜色）等多种工具检查报表颜色。
 
-还应考虑某些报表查看者可能患有颜色视觉缺陷。 [Coblis](http://www.color-blindness.com/coblis-color-blindness-simulator/) 和 [Vischeck ](http://www.vischeck.com/vischeck/vischeckImage.php) 等工具可模拟患有不同色觉缺陷的报表查看者所看到的内容。  在报表中使用较少的颜色或单色调色板可帮助减少创建的报表难以理解的情况。
+还应考虑某些报表查看者可能患有颜色视觉缺陷。 [Coblis](https://www.color-blindness.com/coblis-color-blindness-simulator/) 和 [Vischeck ](https://www.vischeck.com/vischeck/vischeckImage.php) 等工具可模拟患有不同色觉缺陷的报表查看者所看到的内容。  在报表中使用较少的颜色或单色调色板可帮助减少创建的报表难以理解的情况。
 
 某些颜色组合对于患有色觉缺陷的用户而言尤其难以区分。 这包括下列组合： 
 

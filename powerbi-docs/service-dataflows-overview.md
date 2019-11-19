@@ -2,7 +2,6 @@
 title: 了解 Power BI 中的数据流
 description: 了解 Power BI 中数据流的工作原理
 author: davidiseminger
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 04/01/2019
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: b8d5da9fed1910b5cb4164a513757f4944e78188
-ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
+ms.openlocfilehash: 28be15b1f62f410c14faaa5d3e8c36060596c466
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "73431957"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73872611"
 ---
 # <a name="self-service-data-prep-in-power-bi"></a>Power BI 中的自助服务数据准备
 

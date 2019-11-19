@@ -2,7 +2,6 @@
 title: 重命名仪表板、报表、工作区、报表页和数据集
 description: 在 Power BI 服务中重命名几乎所有内容。
 author: maggiesMSFT
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 03/01/2018
 ms.author: maggies
 LocalizationGroup: Common tasks
-ms.openlocfilehash: e750b0c159e7844e28fd6e16db93a95e528a261e
-ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
+ms.openlocfilehash: de842b95c8f6e023a5207c07abb2525c5fe45878
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "73432173"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73871719"
 ---
 # <a name="rename-almost-anything-in-power-bi-service"></a>在 Power BI 服务中重命名几乎所有内容
 本文介绍如何在 Power BI 服务中重命名仪表板、报表、报表页、工作簿、数据集、应用和工作区。
@@ -87,5 +86,5 @@ ms.locfileid: "73432173"
 * 如果要重命名的项已与你共享，或属于内容包的一部分，那么你不会看到齿轮图标并且将无权访问“设置”。
 * 如果在“数据集”选项卡上看不到“更多选项”(…)，请展开浏览器窗口   。
 
-更多问题？ [尝试参与 Power BI 社区](http://community.powerbi.com/)
+更多问题？ [尝试参与 Power BI 社区](https://community.powerbi.com/)
 

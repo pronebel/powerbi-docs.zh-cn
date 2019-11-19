@@ -3,7 +3,6 @@ title: 通过在 URL 中添加查询字符串参数来筛选报表
 description: 使用 URL 查询字符串参数筛选报表，甚至筛选多个字段。
 author: maggiesMSFT
 ms.author: maggies
-manager: kfile
 ms.reviewer: ''
 featuredvideoid: ''
 ms.service: powerbi
@@ -11,12 +10,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 10/23/2019
 LocalizationGroup: Reports
-ms.openlocfilehash: 389b28a4cadca10445ebaabeebaa109e414496f1
-ms.sourcegitcommit: 96217747f07d923d1a9d31f67a853f1ef1d17b20
+ms.openlocfilehash: be45941e67417cbed15433405953cf728fe0aa8d
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/24/2019
-ms.locfileid: "72891801"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73876930"
 ---
 # <a name="filter-a-report-using-query-string-parameters-in-the-url"></a>通过在 URL 中添加查询字符串参数来筛选报表
 
@@ -195,4 +194,4 @@ TerritoryChain = [Territory] & " - " & [Chain]
 [将可视化效果固定到仪表板](service-dashboard-pin-tile-from-report.md)  
 [注册免费试用版](https://powerbi.microsoft.com/get-started/)
 
-更多问题？ [尝试咨询 Power BI 社区](http://community.powerbi.com/)
+更多问题？ [尝试咨询 Power BI 社区](https://community.powerbi.com/)

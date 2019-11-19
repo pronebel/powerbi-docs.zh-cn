@@ -3,18 +3,17 @@ title: 嵌入式应用程序疑难解答
 description: 本文介绍了从 Power BI 嵌入内容时可能会遇到的一些常见问题。
 author: rkarlin
 ms.author: rkarlin
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: troubleshooting
 ms.date: 02/05/2019
-ms.openlocfilehash: 5b9a0de8a3a9301219c15e5566854b591e79ba5e
-ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
+ms.openlocfilehash: 4038ffdb9a3218c0b2f04dd524463235fa91b6b7
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "73429329"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73864108"
 ---
 # <a name="troubleshoot-your-embedded-application"></a>嵌入式应用程序疑难解答
 
@@ -24,7 +23,7 @@ ms.locfileid: "73429329"
 
 ### <a name="fiddler-trace"></a>Fiddler 跟踪
 
-[Fiddler](http://www.telerik.com/fiddler) 是 Telerik 提供的一款用于监视 HTTP 流量的免费工具。  可以从客户端计算机通过 Power BI API 进行通信。 此工具可能会显示错误和其他相关信息。
+[Fiddler](https://www.telerik.com/fiddler) 是 Telerik 提供的一款用于监视 HTTP 流量的免费工具。  可以从客户端计算机通过 Power BI API 进行通信。 此工具可能会显示错误和其他相关信息。
 
 ![Fiddler 跟踪](media/embedded-troubleshoot/fiddler.png)
 
@@ -80,7 +79,7 @@ Azure 门户或 Power BI 应用注册页面中的错误消息提到权限不足�
 * Azure AD 身份验证标记已过期。
 * 经过身份验证的用户不是组（工作区）的成员。
 * 经过身份验证的用户不是组（工作区）的管理员。
-* 经过身份验证的用户没有权限。 可以使用 [refreshUserPermissions API](https://docs.microsoft.com/en-us/rest/api/power-bi/users/refreshuserpermissions) 更新权限
+* 经过身份验证的用户没有权限。 可以使用 [refreshUserPermissions API](https://docs.microsoft.com/rest/api/power-bi/users/refreshuserpermissions) 更新权限
 * 可能不会正确列出身份验证标头。 请确保没有拼写错误。
 
 应用程序的后端在调用 GenerateToken 前可能需要刷新身份验证标记。
@@ -293,7 +292,7 @@ Add-AzureADServicePrincipalPolicy -Id $sp.ObjectId -RefObjectId $policy.Id
 
     AADSTS50011: The reply URL specified in the request doesn't match the reply URLs configured for the application: <client ID>
 
-此错误是因为为 web-server 应用程序指定的重定向 URL 不同于示例的 URL。 如果想要注册示例应用程序，请使用 `http://localhost:13526/` 作为重定向 URL。
+此错误是因为为 web-server 应用程序指定的重定向 URL 不同于示例的 URL。 如果想要注册示例应用程序，请使用 `https://localhost:13526/` 作为重定向 URL。
 
 如果想要编辑已注册的应用程序，请了解如何[更新已注册 Azure AD 的应用程序](https://docs.microsoft.com/azure/active-directory/develop/quickstart-v1-update-azure-ad-app)，使应用程序可以向 Web API 提供访问权限。
 
@@ -305,7 +304,7 @@ Add-AzureADServicePrincipalPolicy -Id $sp.ObjectId -RefObjectId $policy.Id
 
 有关详细信息，请参阅 [Power BI Embedded 常见问题](embedded-faq.md)。
 
-更多问题？ [尝试参与 Power BI 社区](http://community.powerbi.com/)
+更多问题？ [尝试参与 Power BI 社区](https://community.powerbi.com/)
 
 如需进一步的帮助，请[联系支持人员](https://powerbi.microsoft.com/support/pro/?Type=documentation&q=power+bi+embedded)或[通过 Azure 门户创建支持票证](https://ms.portal.azure.com/#blade/Microsoft_Azure_Support/HelpAndSupportBlade/newsupportrequest)，并提供你遇到的错误消息。
 
@@ -313,4 +312,4 @@ Add-AzureADServicePrincipalPolicy -Id $sp.ObjectId -RefObjectId $policy.Id
 
 有关详细信息，请参阅[常见问题解答](embedded-faq.md)。
 
-更多问题？ [尝试参与 Power BI 社区](http://community.powerbi.com/)
+更多问题？ [尝试参与 Power BI 社区](https://community.powerbi.com/)

@@ -2,7 +2,6 @@
 title: 如何刷新 Xero 内容包证书
 description: 如果使用 Xero Power BI 内容包，由于最近的 Power BI 服务事件，你可能遇到了内容包的每日刷新问题。
 author: SarinaJoan
-manager: kfile
 ms.reviewer: kayu
 ms.service: powerbi
 ms.subservice: powerbi-service
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 08/10/2017
 ms.author: sarinas
 LocalizationGroup: Troubleshooting
-ms.openlocfilehash: c750b4e3bea0649405316fe9e789234c32bba817
-ms.sourcegitcommit: 2aa83bd53faad6fb02eb059188ae623e26503b2a
+ms.openlocfilehash: 0a7268c041976a3cab3316c91470c1378a3685f5
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/29/2019
-ms.locfileid: "73020063"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73871665"
 ---
 # <a name="how-to-refresh-your-xero-content-pack-credentials-if-refresh-failed"></a>刷新失败时，如何刷新 Xero 内容包证书
 如果使用 Xero Power BI 内容包，由于最近的 Power BI 服务事件，你可能遇到了一些内容包的每日刷新问题。
@@ -45,10 +44,10 @@ ms.locfileid: "73020063"
    
     ![](media/service-refresh-xero-credentials/powerbi-xero-refresh-now.png)
 
-如果仍有刷新方面的问题，请随时与我们联系 [http://support.powerbi.com](http://support.powerbi.com) 
+如果仍有刷新方面的问题，请随时与我们联系 [https://support.powerbi.com](https://support.powerbi.com) 
 
 若要了解更多有关 Power BI Xero 内容包的详细信息，请访问 [Xero 内容包帮助页](service-connect-to-xero.md)。
 
 ### <a name="next-steps"></a>后续步骤
-* 更多问题？ [尝试参与 Power BI 社区](http://community.powerbi.com/)
+* 更多问题？ [尝试参与 Power BI 社区](https://community.powerbi.com/)
 

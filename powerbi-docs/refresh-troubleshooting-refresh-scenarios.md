@@ -2,7 +2,6 @@
 title: 刷新方案故障排除
 description: 刷新方案故障排除
 author: mgblythe
-manager: kfile
 ms.reviewer: kayu
 ms.service: powerbi
 ms.subservice: powerbi-service
@@ -10,19 +9,19 @@ ms.topic: troubleshooting
 ms.date: 09/13/2019
 ms.author: mblythe
 LocalizationGroup: Data refresh
-ms.openlocfilehash: 7e66cbf11c8177a12dbbf825873adb4cef5f26fd
-ms.sourcegitcommit: ef6de7067ecb2bbc86d912784376a1627acc478d
+ms.openlocfilehash: d79fc47ff30d7f28827290268ba01edf09643032
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/30/2019
-ms.locfileid: "73169064"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73860484"
 ---
 # <a name="troubleshooting-refresh-scenarios"></a>刷新方案故障排除
 
 此处介绍了关于在 Power BI 服务中刷新数据时可能会遇到的各种情况的信息。
 
 > [!NOTE]
-> 如果遇到导致问题但未在下面列出的方案，可以在[社区站点](http://community.powerbi.com/)上寻求进一步帮助，也可以创建[支持票证](https://powerbi.microsoft.com/support/)。
+> 如果遇到导致问题但未在下面列出的方案，可以在[社区站点](https://community.powerbi.com/)上寻求进一步帮助，也可以创建[支持票证](https://powerbi.microsoft.com/support/)。
 >
 >
 
@@ -92,5 +91,5 @@ Microsoft 正在研究一个解决方案，允许数据加载过程刷新令牌�
 - [本地数据网关故障排除](service-gateway-onprem-tshoot.md)  
 - [Power BI Gateway - Personal 故障排除](service-admin-troubleshooting-power-bi-personal-gateway.md)  
 
-更多问题？ [尝试咨询 Microsoft Power BI 社区](http://community.powerbi.com/)
+更多问题？ [尝试咨询 Microsoft Power BI 社区](https://community.powerbi.com/)
 

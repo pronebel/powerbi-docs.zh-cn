@@ -2,7 +2,6 @@
 title: 共享数据集的生成权限（预览版）
 description: 了解如何使用生成权限来控制有权访问数据的人选。
 author: maggiesMSFT
-manager: kfile
 ms.reviewer: chbraun
 ms.service: powerbi
 ms.subservice: powerbi-service
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 10/01/2019
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 363f75305b4c0f7f698442ce4503ad3220627c71
-ms.sourcegitcommit: 2aa83bd53faad6fb02eb059188ae623e26503b2a
+ms.openlocfilehash: b17fa4299d2db84f63f0d8f7ed4c17a0c9c437db
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/29/2019
-ms.locfileid: "73020304"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73872559"
 ---
 # <a name="build-permission-for-shared-datasets-preview"></a>共享数据集的生成权限（预览版）
 
@@ -103,4 +102,4 @@ Power BI 在 2019 年 6 月引入了生成权限，将其作为现有权限（�
 ## <a name="next-steps"></a>后续步骤
 
 - [跨工作区使用数据集（预览）](service-datasets-across-workspaces.md)
-- 是否有任何问题? [尝试咨询 Power BI 社区](http://community.powerbi.com/)
+- 是否有任何问题? [尝试咨询 Power BI 社区](https://community.powerbi.com/)

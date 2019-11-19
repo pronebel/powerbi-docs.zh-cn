@@ -2,21 +2,20 @@
 title: Power BI 管理门户
 description: 通过管理门户允许对组织中的 Power BI 进行租户管理。 它包括诸如使用情况指标、对 Microsoft 365 管理中心的访问以及设置这类项目。
 author: mgblythe
-ms.author: mblythe
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
 ms.date: 09/25/2019
+ms.author: mblythe
 ms.custom: seodec18
 LocalizationGroup: Administration
-ms.openlocfilehash: 8a6e104a6fcb129a6e51d8424a8c2321ea74b49c
-ms.sourcegitcommit: 2b7beec5237a597bab2da8eb6ffe69122a5d2ed9
+ms.openlocfilehash: 9970d676019bb253471da48ce3e9019e211ba6c5
+ms.sourcegitcommit: 01de0b01f66f28ca45b8d309d7864f261d6c9a85
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/02/2019
-ms.locfileid: "73442864"
+ms.lasthandoff: 11/16/2019
+ms.locfileid: "74128379"
 ---
 # <a name="administering-power-bi-in-the-admin-portal"></a>在管理门户中管理 Power BI
 
@@ -305,7 +304,7 @@ Azure B2B 来宾用户可以编辑和管理组织中的内容。 [了解详细�
 
 ### <a name="add-and-use-custom-visuals"></a>添加和使用自定义视觉对象
 
-组织中的用户可以与自定义视觉对象进行交互并共享。 [了解详细信息](power-bi-custom-visuals.md)
+组织中的用户可以与自定义视觉对象进行交互并共享。 [了解详细信息](developer/power-bi-custom-visuals.md)
 
 > [!NOTE]
 > 此设置可以应用于整个组织，也可以限制为特定组。
@@ -457,7 +456,7 @@ Power BI Desktop（2019 年 3 月版及更高版本）支持通过“组策略�
 
  ## <a name="organizational-visuals">组织视觉对象</a> 
 
-使用“组织视觉对象”  选项卡，可以部署和管理组织内的自定义视觉对象。 使用组织视觉对象，可以在组织中轻松部署专有的视觉对象，以便报表作者能够从 Power BI Desktop 中发现这些视觉对象，并将它们导入自己的报表中。 [了解详细信息](power-bi-custom-visuals-organization.md)
+使用“组织视觉对象”  选项卡，可以部署和管理组织内的自定义视觉对象。 使用组织视觉对象，可以在组织中轻松部署专有的视觉对象，以便报表作者能够从 Power BI Desktop 中发现这些视觉对象，并将它们导入自己的报表中。 [了解详细信息](developer/power-bi-custom-visuals-organization.md)
 
 > [!WARNING]
 > 自定义视觉对象可能包含存在安全或隐私风险的代码；请务必先信任自定义视觉对象的作者和来源，再将它们部署到组织存储库。
@@ -513,7 +512,7 @@ Power BI Desktop（2019 年 3 月版及更高版本）支持通过“组策略�
 
 确保视觉对象 ID 保持不变。 新文件将替换整个组织中所有报表的旧文件。 但是，如果新版本的视觉对象可能会破坏以前版本的视觉对象的任何使用情况或数据结构，则它们不会取代以前的版本。 相反，应创建新版本视觉对象的新列表。 例如，向新列出的视觉对象的标题添加新版本号（版本 X.X）。 通过这种方式，很明显可以看到，它还是相同的版本，只不过更新了版本号，因此现有报表不会破坏它们的功能。 同样，确保视觉对象 ID 保持不变。 然后，下一次用户从 Power BI Desktop 进入组织存储库时，他们就可以导入新版本，系统会提示他们替换报表中存在的当前版本。
 
-有关详细信息，请访问[关于组织的自定义视觉对象的常见问题解答](https://docs.microsoft.com/power-bi/power-bi-custom-visuals-faq#organizational-custom-visuals)
+有关详细信息，请访问[关于组织的自定义视觉对象的常见问题解答](https://docs.microsoft.com/power-bi/power-bi-custom-visuals-faq#organizational-visuals)
 
 ## <a name="dataflowStorage">数据流存储（预览版）</a>
 
@@ -547,7 +546,7 @@ Power BI Desktop（2019 年 3 月版及更高版本）支持通过“组策略�
 * **选择主题颜色**：可以根据十六进制 #、RGB、值或提供的托盘来选择主题。
 
 
-有关详细信息，请参阅[为组织自定义品牌](http://aka.ms/orgBranding)。
+有关详细信息，请参阅[为组织自定义品牌](https://aka.ms/orgBranding)。
 
 ![工作区列表](media/service-admin-portal/workspaces-list.png)
 ## <a name="next-steps"></a>后续步骤

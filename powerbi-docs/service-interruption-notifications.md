@@ -2,19 +2,18 @@
 title: 服务中断通知
 description: 了解如何在出现 Power BI 服务中断或降级时接收电子邮件通知。
 author: mgblythe
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 09/16/2019
 ms.author: mblythe
-ms.openlocfilehash: f1d1a22f676873e3a68edf891c4b23522904ddd9
-ms.sourcegitcommit: ef6de7067ecb2bbc86d912784376a1627acc478d
+ms.openlocfilehash: 90ab6c48465a9b7dc5eecca457953f77c727304c
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/30/2019
-ms.locfileid: "73169005"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73872160"
 ---
 # <a name="service-interruption-notifications"></a>服务中断通知
 
@@ -52,4 +51,4 @@ Power BI 租户管理员在管理门户中启用通知：
 
 [Power BI Pro 和 Power BI Premium 支持选项](service-support-options.md)
 
-更多问题？ [尝试参与 Power BI 社区](http://community.powerbi.com/)
+更多问题？ [尝试参与 Power BI 社区](https://community.powerbi.com/)

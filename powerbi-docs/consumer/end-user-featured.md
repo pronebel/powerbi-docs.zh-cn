@@ -2,7 +2,6 @@
 title: 打开 Power BI 服务后选择要显示的仪表板
 description: 有关如何在 Power BI 服务中创建特色仪表板的文档
 author: mihart
-manager: kvivek
 ms.reviewer: ''
 featuredvideoid: G26dr2PsEpk
 ms.service: powerbi
@@ -11,12 +10,12 @@ ms.topic: conceptual
 ms.date: 09/14/2019
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 4f72a07d723a63291d59d6c3824c3616e97b686e
-ms.sourcegitcommit: 2aa83bd53faad6fb02eb059188ae623e26503b2a
+ms.openlocfilehash: 412bcf397d550e002957e7379bf41381e8e3eea8
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/29/2019
-ms.locfileid: "73019837"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73852530"
 ---
 # <a name="featured-dashboards-in-the-power-bi-service"></a>Power BI 服务中的特色仪表板
 
@@ -67,5 +66,5 @@ ms.locfileid: "73019837"
    
 ## <a name="next-steps"></a>后续步骤
 - [收藏仪表板](end-user-favorite.md)
-- 更多问题？ 尝试参与 [Power BI 社区](http://community.powerbi.com/)。
+- 更多问题？ 尝试参与 [Power BI 社区](https://community.powerbi.com/)。
 

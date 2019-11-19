@@ -3,22 +3,21 @@ title: 有关 Power BI Embedded 的常见问题
 description: 浏览有关 Power BI Embedded 的常见问题和解答列表。
 author: rkarlin
 ms.author: rkarlin
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 05/27/2019
-ms.openlocfilehash: 81eb5de3294430c3960502700bb6255aea43f91a
-ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
+ms.openlocfilehash: 9e641b70c9fd6c6d378628d34413b14c59eaea23
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "73429271"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73864215"
 ---
 # <a name="frequently-asked-questions-about-power-bi-embedded"></a>有关 Power BI Embedded 的常见问题
 
-* 如果你有其他问题，请[尝试询问 Power BI 社区](http://community.powerbi.com/)。
+* 如果你有其他问题，请[尝试询问 Power BI 社区](https://community.powerbi.com/)。
 * 仍有问题？ 访问 [Power BI 支持页](https://powerbi.microsoft.com/support/)。
 
 ## <a name="general"></a>常规
@@ -362,4 +361,4 @@ Power BI Embedded 也适用于[国家云](embed-sample-for-customers-national-cl
 
 有关详细信息，请参阅[嵌入应用程序疑难解答](embedded-troubleshoot.md)。
 
-更多问题？ [尝试参与 Power BI 社区](http://community.powerbi.com/)
+更多问题？ [尝试参与 Power BI 社区](https://community.powerbi.com/)

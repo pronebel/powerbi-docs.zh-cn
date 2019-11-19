@@ -2,7 +2,6 @@
 title: 在经典工作区中协作
 description: 了解如何利用 Office 365 服务（如共享 OneDrive for Business 上的文件、Exchange 中的对话、日历和任务）对工作区中的 Power BI Desktop 文件展开协作。
 author: maggiesMSFT
-manager: kfile
 ms.reviewer: lukaszp
 ms.service: powerbi
 ms.subservice: powerbi-service
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 07/25/2019
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 860aa1de5a91d98e6a50773250e89581fc1d9801
-ms.sourcegitcommit: 2aa83bd53faad6fb02eb059188ae623e26503b2a
+ms.openlocfilehash: cddb55ab85cfd6d8d6a5e49d81b83a80df2f81da
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/29/2019
-ms.locfileid: "73021335"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73873170"
 ---
 # <a name="collaborate-in-a-classic-workspace"></a>在经典工作区中协作
 Power BI 工作区是在仪表板、报表和数据集上与同事协作以创建应用的好地方  。 本文介绍原始的经典工作区  。  
@@ -80,6 +79,6 @@ Power BI 工作区是在仪表板、报表和数据集上与同事协作以创�
 
 ## <a name="next-steps"></a>后续步骤
 * [在 Power BI 中发布应用](service-create-distribute-apps.md)。
-* 更多问题？ [尝试参与 Power BI 社区](http://community.powerbi.com/)。
+* 更多问题？ [尝试参与 Power BI 社区](https://community.powerbi.com/)。
 * 想要提供反馈？ 请访问 [Power BI Ideas](https://ideas.powerbi.com/forums/265200-power-bi)（Power BI 建议）。
 

@@ -2,19 +2,18 @@
 title: Power BI Desktop 中的 DirectQuery 模型指导
 description: 用于开发 DirectQuery 模型的指导。
 author: peter-myers
-manager: asaxton
 ms.reviewer: asaxton
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 10/24/2019
 ms.author: v-pemyer
-ms.openlocfilehash: 02837b633465aab2a6d8c4eee6245f7b00ed9e26
-ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
+ms.openlocfilehash: cd82410a8e5d6867f26b751e01b7556fabb83d33
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "73433407"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73875402"
 ---
 # <a name="directquery-model-guidance-in-power-bi-desktop"></a>Power BI Desktop 中的 DirectQuery 模型指导
 

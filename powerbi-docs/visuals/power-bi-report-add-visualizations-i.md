@@ -2,7 +2,6 @@
 title: 向 Power BI 报表添加可视化效果 - 第 1 部分
 description: 向 Power BI 报表添加可视化效果 - 第 1 部分
 author: mihart
-manager: kvivek
 ms.reviewer: ''
 featuredvideoid: IkJda4O7oGs
 ms.service: powerbi
@@ -11,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/28/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: e25db5ab57e3a52ffc08020dc980553e515256bf
-ms.sourcegitcommit: 2a61d8b1e2707a24fe1284a8a4034b11c3999842
+ms.openlocfilehash: d68abc7b4509595d4dfa3071dc56673e6af89e4f
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/29/2019
-ms.locfileid: "73049005"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73871041"
 ---
 # <a name="part-1-add-visualizations-to-a-power-bi-report"></a>向 Power BI 报表添加可视化效果 - 第 1 部分
 
@@ -28,7 +27,7 @@ ms.locfileid: "73049005"
 
 ## <a name="prerequisites"></a>先决条件
 
-本教程使用[销售和市场营销 PBIX 文件](http://download.microsoft.com/download/9/7/6/9767913A-29DB-40CF-8944-9AC2BC940C53/Sales%20and%20Marketing%20Sample%20PBIX.pbix)。
+本教程使用[销售和市场营销 PBIX 文件](https://download.microsoft.com/download/9/7/6/9767913A-29DB-40CF-8944-9AC2BC940C53/Sales%20and%20Marketing%20Sample%20PBIX.pbix)。
 
 1. 在 Power BI Desktop 菜单栏的左上部分，选择“文件” > “打开”  
    

@@ -2,7 +2,6 @@
 title: 连接到数据快速入门
 description: 在 Power BI Desktop 中连接到数据源
 author: davidiseminger
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
@@ -10,12 +9,12 @@ ms.topic: quickstart
 ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: quickstart
-ms.openlocfilehash: 05d8c990b7057ab59515826547a42ce1ee643ac2
-ms.sourcegitcommit: 96217747f07d923d1a9d31f67a853f1ef1d17b20
+ms.openlocfilehash: 1366a5281a36293a484f08c12ab9f8891e29123d
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/24/2019
-ms.locfileid: "72891684"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73876214"
 ---
 # <a name="quickstart-connect-to-data-in-power-bi-desktop"></a>快速入门：连接到 Power BI Desktop 中的数据
 
@@ -28,8 +27,8 @@ ms.locfileid: "72891684"
 ## <a name="prerequisites"></a>先决条件
 
 若要完成本文中的步骤，需要做以下准备：
-* 下载并安装 Power BI Desktop  ，这是一个在本地计算机上运行的免费应用程序。 可以直接[下载 Power BI Desktop](https://powerbi.microsoft.com/desktop)，也可以从 [Microsoft Store](http://aka.ms/pbidesktopstore) 获取该应用   。
-* [下载此示例 Excel 工作簿](http://go.microsoft.com/fwlink/?LinkID=521962)，并创建一个名为“C:\PBID-qs”  的文件夹，可以在其中存储 Excel 文件。 本快速入门中的后续步骤假设这是已下载的 Excel 工作簿的文件位置。
+* 下载并安装 Power BI Desktop  ，这是一个在本地计算机上运行的免费应用程序。 可以直接[下载 Power BI Desktop](https://powerbi.microsoft.com/desktop)，也可以从 [Microsoft Store](https://aka.ms/pbidesktopstore) 获取该应用   。
+* [下载此示例 Excel 工作簿](https://go.microsoft.com/fwlink/?LinkID=521962)，并创建一个名为“C:\PBID-qs”  的文件夹，可以在其中存储 Excel 文件。 本快速入门中的后续步骤假设这是已下载的 Excel 工作簿的文件位置。
 
 ## <a name="launch-power-bi-desktop"></a>启动 Power BI Desktop
 

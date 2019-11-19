@@ -2,7 +2,6 @@
 title: 更改报表中的图表排序方式
 description: 更改 Power BI 报表中的图表排序方式
 author: mihart
-manager: kvivek
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-consumer
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 10/28/2019
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: aaf2af2209097b75a4a6aee4faa062bc432dd765
-ms.sourcegitcommit: 2aa83bd53faad6fb02eb059188ae623e26503b2a
+ms.openlocfilehash: e325d13dd8001e8da41dc5602bf3f7dbba2f371f
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/29/2019
-ms.locfileid: "73019968"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73852366"
 ---
 # <a name="change-how-a-chart-is-sorted-in-a-power-bi-report"></a>更改 Power BI 报表中的图表排序方式
 
@@ -29,7 +28,7 @@ ms.locfileid: "73019968"
 
 仪表板上的视觉对象无法进行排序。但在 Power BI 报表中，你可以按图表中类别名称的字母顺序，或者每个类别的数值对大多数可视化效果排序。 例如，下图按类别“商店名称”的字母顺序排序。 
 
-![按 X 轴的字母顺序排序的条形图](media/end-user-change-sort/pbi_chartsortcategory.png)
+![按 X 轴的字母顺序排序的条形图](media/end-user-change-sort/pbi-chartsortcategory.png)
 
 可以轻松地将排序依据从类别（商店名称）更改为值（每平方英尺销售额）。
 
