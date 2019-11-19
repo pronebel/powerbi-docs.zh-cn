@@ -55,9 +55,9 @@ Power BI Pro 的订阅生命周期与 Office 365 相同。 有关详细信息，
 
 1. 导航到 [MIcrosoft 365 管理中心](https://portal.office.com/adminportal/home#/homepage)。
 
-1. 在左侧导航窗格中，依次选择“账单”和“订阅”。  
+1. 在左侧导航窗格中，依次选择“计费”和“订阅”。
 
-   ![账单和订阅](media/service-admin-licensing-organization/service-power-bi-pro-in-your-organization-05.png)
+   ![计费和订阅](media/service-admin-licensing-organization/service-power-bi-pro-in-your-organization-05.png)
 
 1. 选择右侧的“添加订阅”。
 
