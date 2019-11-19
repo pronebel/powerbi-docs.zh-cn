@@ -10,12 +10,12 @@ ms.topic: tutorial
 ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Learn more
-ms.openlocfilehash: 306738f4df765638c591c9612adf885facdceda0
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 59567b62c44a386b3890f68de49b9f7aed76aa45
+ms.sourcegitcommit: 2aa83bd53faad6fb02eb059188ae623e26503b2a
+ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "65513855"
+ms.lasthandoff: 10/29/2019
+ms.locfileid: "73019350"
 ---
 # <a name="tutorial-create-your-own-measures-in-power-bi-desktop"></a>教程：在 Power BI Desktop 中创建你自己的度量值
 通过使用度量值，可以在 Power BI Desktop 中创建某些功能强大的数据分析解决方案。 度量值可在与报表进行交互时帮助对数据执行计算。 本教程将引导你了解度量值并在 Power BI Desktop 中创建自己的基本度量值。
@@ -60,7 +60,7 @@ DAX 公式使用许多与 Excel 公式相同的函数、运算符和语法。 �
 
 用户想要通过减去总销售额的折扣和收益来分析净销售额。 无论可视化效果中存在哪些上下文，都需要一个度量值，用于从 SalesAmount 总和中减去 DiscountAmount 和 ReturnAmount 的总和。 “字段”列表中没有“Net Sales”字段，但可以使用构建块创建度量值来计算净销售额。 
 
-1.  在“字段”框中右键单击**Sales**表，或将鼠标悬停在该表上方并选择省略号 (...) 代表的“更多选项”，然后选择“新建度量值”。   这会将新建度量值保存在“Sales”表中，使其更易于查找。
+1.  在“字段”框中右键单击 Sales 表，或将鼠标悬停在该表上方并选择省“更多选项”(…)，然后选择“新建度量值”    。 这会将新建度量值保存在“Sales”表中，使其更易于查找。
     
     ![新建度量值](media/desktop-tutorial-create-measures/meastut_netsales_newmeasure.png)
     

@@ -3,18 +3,17 @@ title: 开发 Power BI 视觉对象
 description: 有关如何开发 Power BI 自定义视觉对象的教程
 author: KesemSharabi
 ms.author: kesharab
-manager: rkarlin
 ms.reviewer: ''
 ms.service: powerbi
-ms.subservice: powerbi-custom-visuals
 ms.topic: tutorial
+ms.subservice: powerbi-custom-visuals
 ms.date: 03/15/2019
-ms.openlocfilehash: 1aa269bc738b873ac36498e2ecf52f2cf06c209d
-ms.sourcegitcommit: 549401b0e1fad15c3603fe7f14b9494141fbb100
+ms.openlocfilehash: 5bf3fee0f3df7b5be04b99e16a8a4043e8fcf30e
+ms.sourcegitcommit: 01de0b01f66f28ca45b8d309d7864f261d6c9a85
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/14/2019
-ms.locfileid: "72308688"
+ms.lasthandoff: 11/16/2019
+ms.locfileid: "74128009"
 ---
 # <a name="tutorial-developing-a-power-bi-visual"></a>教程：开发 Power BI 视觉对象
 
@@ -238,7 +237,7 @@ ms.locfileid: "72308688"
 
     ![获取数据](media/custom-visual-develop-tutorial/get-data.png) ![本地文件](media/custom-visual-develop-tutorial/local-file.png)
 
-    现在，若要查看报表，请选择导航窗格左侧“报表”  部分中的“US_Sales_Analysis”  。
+    现在，若要查看报表，请选择左侧导航窗格“报表”部分中的“US_Sales_Analysis”   。
 
     ![自定义 Visual Desktop 示例](media/custom-visual-develop-tutorial/custom-visual-sample.png)
 

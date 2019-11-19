@@ -7,66 +7,93 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 05/07/2019
+ms.date: 10/18/2019
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 5633370259662141296550aa3d5d2343ac4fedaa
-ms.sourcegitcommit: 58c649ec5fd2447a0f9ca4c4d45a0e9fff2f1b6a
+ms.openlocfilehash: 25295447736ddb674d23a7b4ac34aa04f44887ba
+ms.sourcegitcommit: 17f45a81b0dcbf9e3f1fb2a551584170baecd320
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/27/2019
-ms.locfileid: "67408551"
+ms.lasthandoff: 10/25/2019
+ms.locfileid: "72922514"
 ---
 # <a name="add-a-custom-column-in-power-bi-desktop"></a>在 Power BI Desktop 中添加自定义列
-你可以使用 **Power BI Desktop** 中的“查询编辑器”  轻松地向模型添加新的自定义数据列。 可以使用易用按钮创建可定义自定义列的 [M 公式](https://msdn.microsoft.com/library/mt270235.aspx)，来创建和重命名自定义列。 M 公式包含[全面的函数引用内容集](https://msdn.microsoft.com/library/mt779182.aspx)。 
 
-![](media/desktop-add-custom-column/add-custom-column_01.png)
+在 Power BI Desktop 中，可以使用查询编辑器轻松地向模型添加新的自定义数据列。 利用查询编辑器，可以创建和重命名自定义列，从而创建 [PowerQuery M 公式查询](https://docs.microsoft.com/en-us/powerquery-m/quick-tour-of-the-power-query-m-formula-language)，用于定义自定义列。 PowerQuery M 公式查询包含[全面的函数引用内容集](https://docs.microsoft.com/powerquery-m/power-query-m-function-reference)。 
 
-创建自定义列是在**查询编辑器**中创建的查询的另一个**应用的步骤**，这意味着可以随时对其进行更改、向前期或向后期移动或进行修改。
+在查询编辑器中创建自定义列时，Power BI Desktop 会将其作为“应用的步骤”添加到查询的“查询设置”中   。 可随时对其进行更改、移动或修改。
 
-## <a name="use-query-editor-to-add-a-new-custom-column"></a>使用查询编辑器添加新的自定义列
-要创建新的自定义列，请启动**查询编辑器**。 为此，可以在 **Power BI Desktop** 的“开始”  功能区中选择“编辑查询”  。
+![“添加自定义列”页](media/desktop-add-custom-column/add-custom-column_01.png)
 
-![](media/desktop-add-custom-column/add-column-from-example_02.png)
+## <a name="use-query-editor-to-add-a-custom-column"></a>使用查询编辑器添加自定义列
 
-启动“查询编辑器”  并加载一些数据后，可以通过在功能区上选择“添加列”  选项卡，然后选择“自定义列”  来添加自定义列。
+若要开始创建自定义列，请执行以下步骤：
 
-![](media/desktop-add-custom-column/add-custom-column_02.png)
+1. 启动 Power BI Desktop 并加载一些数据。
 
-随即会出现“添加自定义列”窗口，我们将在下一节中对此进行讨论  。
+2. 从功能区上的“主页”选项卡中，选择“编辑查询”，然后从菜单中选择“编辑查询”    。
+
+   ![选择“编辑查询”](media/desktop-add-custom-column/add-column-from-example_02.png)
+
+   此时显示“查询编辑器”窗口  。 
+
+2. 在功能区的“添加列”选项卡中，选择“自定义列”   。
+
+   ![选择自定义列](media/desktop-add-custom-column/add-custom-column_02.png)
+
+   此时显示“添加自定义列”窗口  。
 
 ## <a name="the-add-custom-column-window"></a>“添加自定义列”窗口
-在“添加自定义列”窗口中，可在右侧窗格中看到可用字段列表，在顶部看到自定义列的名称（只需在该文本框中键入新名称即可将它重命名），并看到基于从右侧插入字段、添加运算符或构建定义新自定义列的公式而创建（或编写）的 [M 公式](https://msdn.microsoft.com/library/mt779182.aspx)   。 
 
-![](media/desktop-add-custom-column/add-custom-column_03.png)
+“添加自定义列”窗口具有以下功能  ： 
+- 可用列的列表，位于右侧的“可用列”列表  。
+
+- 自定义列的初始名称，位于“新列名”框中  。 可重命名此列。
+
+- [PowerQuery M 公式查询](https://docs.microsoft.com/en-us/powerquery-m/power-query-m-function-reference)，位于“自定义列公式”框中  。 可通过生成用于定义新自定义列的公式来创建这些查询。 
+
+   ![“添加自定义列”页](media/desktop-add-custom-column/add-custom-column_03.png)
 
 ## <a name="create-formulas-for-your-custom-column"></a>创建自定义列的公式
-可以从右侧的“可用列:”  列表中选择一个字段，然后选择“<< 插入”  ，将其添加到自定义列公式中。 另外，也可以双击列表中的列进行添加。
 
-键入公式并构建列时，可在窗口底部看到实时（在输入时）告知是否检测到任何语法错误的指示器。 如果一切正常，你将看到一个绿色的选中标记。
+1. 可以从右侧的“可用列”列表中选择一列，然后选择列表下方的“插入”，将其添加到自定义列公式中   。 还可以通过在列表中双击列来添加该列。
 
-![](media/desktop-add-custom-column/add-custom-column_04.png)
+2. 输入公式并生成列后，请注意“添加自定义列”窗口底部的指示器  。 
 
-但是，如果语法中存在某些错误，将看到一个黄色警告图标以及检测到的错误，还有将光标（在公式中）定位在检测到错误的位置的链接。
+   如果未发生错误，会显示绿色选中标记，并显示消息“未检测到语法错误”  。
 
-![](media/desktop-add-custom-column/add-custom-column_05.png)
+   ![成功的“添加自定义列”页语法检查](media/desktop-add-custom-column/add-custom-column_04.png)
 
-选择“确定”  后，自定义列将添加到模型中，“已添加自定义”  步骤将添加到查询的“应用的步骤”  中。
+   如果出现语法错误，会显示黄色警告图标，及指向公式中错误位置的链接。
 
-![](media/desktop-add-custom-column/add-custom-column_06.png)
+   ![“添加自定义列”页上的错误](media/desktop-add-custom-column/add-custom-column_05.png)
 
-如果双击“应用的步骤”  窗格中的“已添加自定义”  步骤，“添加自定义列”  窗口将再次出现，你创建的自定义列公式也已加载，如有必要，可随时进行修改。
+3. 选择**确定**。 
 
-## <a name="using-the-advanced-editor-for-custom-columns"></a>使用自定义列的高级编辑器
-此外，还可以使用“高级编辑器”  创建自定义列（并修改查询的任何步骤）。 在“查询编辑器”  中，选择“查看”  选项卡，然后选择“高级编辑器”  来显示“高级编辑器”  。
+   Power BI Desktop 将自定义列添加到模型中，并将“已添加的自定义”步骤添加到“查询设置”中查询的“应用的步骤”列表中    。
 
-![](media/desktop-add-custom-column/add-custom-column_07.png)
+   ![添加到查询设置的自定义列](media/desktop-add-custom-column/add-custom-column_06.png)
 
-“高级编辑器”  可使你完全控制查询。
+4. 若要修改自定义列，请在“应用的步骤”列表中双击“已添加的自定义”步骤   。 
 
+   此时显示“添加自定义列”窗口，其中包含已创建的自定义列公式  。
+
+## <a name="use-the-advanced-editor-for-custom-columns"></a>为自定义列使用高级编辑器
+
+创建查询后，还可以使用“高级编辑器”修改查询的任何步骤  。 为此，请执行以下步骤：
+
+1. 在“查询编辑器”窗口中，选择功能区上的“视图”选项卡   。 
+
+2. 选择**高级编辑器**。
+
+   此时显示“高级编辑器”页，可使你完全控制查询  。 
+
+   ![“高级编辑器”页](media/desktop-add-custom-column/add-custom-column_07.png)
+
+   
 ## <a name="next-steps"></a>后续步骤
-创建自定义列还有一些其他方法，包括根据你向**查询编辑器**提供的示例创建列。 有关根据示例创建自定义列的详细信息，请参阅以下文章：
 
-* [在 Power BI Desktop 中通过示例添加列](desktop-add-column-from-example.md)
-* [Power Query M 参考](/powerquery-m/power-query-m-reference)  
+- 还可以通过其他方法创建自定义列，例如根据你向查询编辑器提供的示例创建列。 有关详细信息，请参阅[在 Power BI Desktop 中通过示例添加列](desktop-add-column-from-example.md)。
+
+- 有关 Power Query M 引用信息，请参阅 [Power Query M 函数引用](/powerquery-m/power-query-m-function-reference)。
 

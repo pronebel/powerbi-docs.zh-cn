@@ -10,14 +10,16 @@ ms.topic: conceptual
 ms.date: 09/05/2019
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: 21a77d585707b19cd8a3d06ad44471fac45d7178
-ms.sourcegitcommit: 52aa112ac9194f4bb62b0910c4a1be80e1bf1276
+ms.openlocfilehash: 26741d229b260a0114f5f089018b79f34bc41938
+ms.sourcegitcommit: 2aa83bd53faad6fb02eb059188ae623e26503b2a
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "70903735"
+ms.lasthandoff: 10/29/2019
+ms.locfileid: "73019322"
 ---
 # <a name="reports-in-power-bi"></a>Power BI 中的报表
+
+[!INCLUDE [power-bi-service-new-look-include](../includes/power-bi-service-new-look-include.md)]
 
 Power BI 报表是对数据集的多角度审视，它使用视觉对象来表示数据集呈现的各种结果和见解。  报表可包含单个视觉对象，也可包含充满视觉对象的多个页面。 根据你的职位，你可能是报表设计人员  ， 也可能是报表使用人员  。 本文适用于使用者  。
 
@@ -27,7 +29,7 @@ A. 此报表有 6 个页面（或标签页），你当前正在查看“情绪�
 B. 此页面上有 5 个不同的视觉对象和 1 个页标题。    
 C. “筛选器”窗格显示了一个应用于所有报表页的筛选器  。 要折叠“筛选器”窗格，请选择箭头 ( **>** )。    
 D. Power BI 横幅显示了报表的名称和上次更新日期。 选择箭头以打开一个菜单，该菜单还显示了报表所有者的名称。    
-E. 操作栏包含可对此报表执行的操作。  例如，可以添加注释、查看书签或导出报表中的数据。  选择省略号 (...) 以显示其他报表功能的列表。    
+E. 操作栏包含可对此报表执行的操作。  例如，可以添加注释、查看书签或导出报表中的数据。  选择“更多选项”(…) 以显示其他报表功能的列表  。    
 
 如果你不熟悉 Power BI，可阅读[面向 Power BI 服务使用者的基本概念](end-user-basic-concepts.md)来详细了解基础知识。 可在移动设备上查看、共享和批注报表。 有关详细信息，请参阅[在 Power BI 移动应用中浏览报表](mobile/mobile-reports-in-the-mobile-apps.md)。
 

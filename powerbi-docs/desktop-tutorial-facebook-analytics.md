@@ -10,12 +10,12 @@ ms.topic: tutorial
 ms.date: 09/06/2019
 ms.author: davidi
 LocalizationGroup: Learn more
-ms.openlocfilehash: 73f5d629806826eed0da51f5b7158d884d1c8725
-ms.sourcegitcommit: 226b47f64e6749061cd54bf8d4436f7deaed7691
+ms.openlocfilehash: 689d86029150fa66daa90c4f93b71ed15750b095
+ms.sourcegitcommit: 2aa83bd53faad6fb02eb059188ae623e26503b2a
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/09/2019
-ms.locfileid: "70841397"
+ms.lasthandoff: 10/29/2019
+ms.locfileid: "73018092"
 ---
 # <a name="tutorial-facebook-analytics-using-power-bi-desktop"></a>教程：使用 Power BI Desktop 进行 Facebook 分析
 
@@ -147,7 +147,7 @@ ms.locfileid: "70841397"
    
    ![条形图](media/desktop-tutorial-facebook-analytics/barchart1.png)
    
-4. 在“可视化效果”的右上方，选择省略号 (...)，然后选择“按评论数排序”  ，按降序排列评论数对表格进行排序。 
+4. 在“可视化效果”的右上方，选择“更多选项”(…)，然后选择“按评论数排序”，按降序排列评论数对表格进行排序   。 
    
    ![按评论数排序](media/desktop-tutorial-facebook-analytics/barchart2.png)
    
@@ -184,7 +184,7 @@ ms.locfileid: "70841397"
 
 这样效果更好，但所有数据标签都有一个“.0”小数位数，这会分散人的注意力并具有误导性，因为“帖子数”肯定是整数。   需要将“帖子数”列的数据类型更改为“整数”。 
 
-1. 要编辑数据类型，右键单击“字段”列表中的“Query1”  ，或将鼠标悬停在上面，选择“更多选项”  省略号 (...)，然后选择“编辑查询”  。 另外，还可以从功能区“主页”选项卡的“外部数据”  区域选择“编辑查询”  ，然后从下拉列表选择“编辑查询”  。 Power BI Desktop“Power Query 编辑器”  在单独窗口中打开。
+1. 要编辑数据类型，右键单击“字段”列表中的“Query1”  ，或将鼠标悬停在上面，选择“更多选项”  (...)，然后选择“编辑查询”  。 另外，还可以从功能区“主页”选项卡的“外部数据”  区域选择“编辑查询”  ，然后从下拉列表选择“编辑查询”  。 Power BI Desktop“Power Query 编辑器”  在单独窗口中打开。
    
    ![从“字段”列表编辑查询](media/desktop-tutorial-facebook-analytics/editquery1.png)     ![从功能区编辑查询](media/desktop-tutorial-facebook-analytics/t_fb_editquery.png)
    

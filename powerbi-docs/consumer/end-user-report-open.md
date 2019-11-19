@@ -9,14 +9,17 @@ ms.subservice: powerbi-consumer
 ms.topic: conceptual
 ms.date: 09/04/2018
 ms.author: mihart
-ms.openlocfilehash: 2a4c9044f661d9d5b822ba366c3a88c572136b35
-ms.sourcegitcommit: 52aa112ac9194f4bb62b0910c4a1be80e1bf1276
+ms.openlocfilehash: fab986cbd5c6b0a55c18157d663eea1ca0fd537e
+ms.sourcegitcommit: 2aa83bd53faad6fb02eb059188ae623e26503b2a
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "70903831"
+ms.lasthandoff: 10/29/2019
+ms.locfileid: "73019471"
 ---
 # <a name="view-a-report-in-the-power-bi-service-for-consumers"></a>在面向使用者的 Power BI 服务中查看报表 
+
+[!INCLUDE [power-bi-service-new-look-include](../includes/power-bi-service-new-look-include.md)]
+
 报表由一页或多页的视觉对象组成。 报表是由 Power BI 设计者  创建，[并直接与使用者  共享](end-user-shared-with-me.md)或作为[应用](end-user-apps.md)的一部分共享。 
 
 打开报表有许多不同的方式，我们将介绍其中两种：从“主页”打开以及从“仪表板”打开。 
@@ -52,7 +55,7 @@ Power BI 设计器可以直接与你共享单个报表，方法是通过电子�
 
 6. 请注意右侧的“筛选器”窗格  。 已应用于此报表页或整个报表的筛选器将显示在此处。
 
-7. 将鼠标悬停在报表视觉对象上可显示多个图标和省略号 (...)。若要查看应用于特定视觉对象的筛选器，请选择筛选器图标。 我们在此处选择了“总单位数（按滚动周期和区域）”折线图的筛选器图标  。
+7. 将鼠标悬停在报表视觉对象上可显示多个图标和“更多选项”(…)  。若要查看应用于特定视觉对象的筛选器，请选择筛选器图标。 我们在此处选择了“总单位数（按滚动周期和区域）”折线图的筛选器图标  。
 
    ![报表页选项卡](./media/end-user-report-open/power-bi-visual-filters.png)
 
@@ -102,6 +105,7 @@ Power BI 设计器可以直接与你共享单个报表，方法是通过电子�
 - 使用[相关视图](end-user-related.md)    
 - 在电子邮件中，有人[与你共享](../service-share-reports.md)或你已[设置警报](end-user-alerts.md)时    
 - 从你的[通知中心](end-user-notification-center.md)    
+- 来自工作区
 - 其他更多方法
 
 ## <a name="next-steps"></a>后续步骤

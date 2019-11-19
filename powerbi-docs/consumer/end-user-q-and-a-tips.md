@@ -3,20 +3,19 @@ title: 使用“问答”进行提问的提示和技巧
 description: 使用 Power BI 中“问答”进行提问的提示和技巧
 author: mihart
 manager: kvivek
-ms.reviewer: ''
-ms.custom: seodec18
+ms.reviewer: Mohammad
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 06/26/2019
+ms.date: 10/23/2019
 ms.author: mihart
 LocalizationGroup: Ask questions of your data
-ms.openlocfilehash: 4f6dc7167d64385182ecbd448b6c400fa7f829df
-ms.sourcegitcommit: 52aa112ac9194f4bb62b0910c4a1be80e1bf1276
+ms.openlocfilehash: a3d70824949d214404b25b401930fc69cb47ad4e
+ms.sourcegitcommit: 23ad768020a9daf129f69a462a2d46d59d2349d2
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "67408197"
+ms.lasthandoff: 10/22/2019
+ms.locfileid: "72774712"
 ---
 # <a name="tips-for-asking-questions-in-power-bi-qa"></a>在 Power BI 问答中提问的提示
 ## <a name="words-and-terminology-that-qa-recognizes"></a>“问答”识别的单词和术语
@@ -79,7 +78,9 @@ ms.locfileid: "67408197"
 * 以视觉对象的形式提供答案预览。 视觉对象会在你键入和编辑问题的同时更新（它不会等你按下 Enter 才更新）。
 * 当你在问题框中将光标往回移动时，建议来自基础数据集的替换术语。
 * 根据基础数据集中的数据重述问题。 “问答”采用来自基础数据集中的同义词替换你所用的单词。 通过查看重述，你将了解“问答”是否理解了你的问题。 
-* 不能理解的模糊词。
+* 对“问答”不理解的字词添加双下划线。
+* 对“问答”不理解的字词添加单下划线。
+* 如果你找不到术语或问题得不到解答，允许你联系报表或仪表板所有者。
 
 ## <a name="dont-stop-now"></a>暂不停止
 “问答”显示结果后，请保持继续谈话！ 使用视觉对象和问答的交互功能发掘更多见解。

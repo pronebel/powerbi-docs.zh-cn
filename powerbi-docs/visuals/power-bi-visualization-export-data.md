@@ -3,24 +3,24 @@ title: 从 Power BI 可视化效果导出数据
 description: 从报表可视化效果和仪表板可视化效果导出数据并在 Excel 中查看此数据。
 author: mihart
 manager: kvivek
-ms.reviewer: ''
+ms.reviewer: tessa
 featuredvideoid: jtlLGRKBvXY
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 10/30/2019
+ms.date: 11/13/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: be85769d8ae2340843a4ebdeb5c88ffc2ca86920
-ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
+ms.openlocfilehash: b2474cd5cc82e1736790f4a352b216dcc8013a6f
+ms.sourcegitcommit: f7b28ecbad3e51f410eff7ee4051de3652e360e8
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "73431087"
+ms.lasthandoff: 11/13/2019
+ms.locfileid: "74060457"
 ---
 # <a name="export-data-from-visualizations"></a>从可视化效果导出数据
 
-若要查看 Power BI 用来创建可视化效果的数据，可以[在 Power BI 中显示此类数据](service-reports-show-data.md)。 还可以将此类数据以 .xlsx  或 .csv  文件形式导出至 Excel。 导出数据的选项需要 Pro 或 Premium 许可证以及对数据集和报表的编辑权限。
+若要查看 Power BI 用来创建可视化效果的数据，可以[在 Power BI 中显示此类数据](service-reports-show-data.md)。 还可以将此类数据以 .xlsx  或 .csv  文件形式导出至 Excel。 导出数据的选项需要 Pro 或 Premium 许可证以及对数据集和报表的编辑权限。 <!--If you have access to the dashboard or report but the data is classified as *highly confidential*, Power BI will not allow you to export the data.-->
 
 请观看下面的视频，Will 在其中导出自己报表中一个可视化效果内的数据，将数据保存为 .xlsx  文件，并在 Excel 中打开它。 然后可以按照视频下面的分步说明来自己尝试。
 
@@ -152,15 +152,13 @@ Power BI 报表设计器控制向使用者提供的数据导出选项的类型�
 ## <a name="limitations-and-considerations"></a>限制和注意事项
 这些限制和注意事项适用于 Power BI Desktop 和 Power BI 服务，包括 Power BI Pro 和 Power BI Premium。
 
-- 必须[有权生成基础数据集](https://docs.microsoft.com/power-bi/service-datasets-build-permissions#build-permissions-for-shared-datasets)，才能导出视觉对象中的数据。
+- 必须[有权生成基础数据集](https://docs.microsoft.com/power-bi/service-datasets-build-permissions)，才能导出视觉对象中的数据。
 
 -  Power BI Desktop 和 Power BI 服务最多可以将 30,000 行从导入模式报表导出至 .csv 文件     。
 
 - 这些应用程序最多可以将 150,000 行从导入模式报表导出至 .xlsx 文件   。
 
 - 在以下情况下，无法使用“基础数据”  导出数据：
-
-  - 数据源是 Analysis Services 实时连接。
 
   - 版本低于 2016。
 
@@ -170,7 +168,7 @@ Power BI 报表设计器控制向使用者提供的数据导出选项的类型�
 
 - 如果为 Power BI 要导出的可视化效果启用“显示不含数据的项”  选项，无法使用“基础数据”  导出数据。
 
-- 使用 DirectQuery 时，Power BI 最多可以导出 16MB 未压缩的数据。 可能出现的意外结果是，导出数据低于行数上限。 在以下情况下，可能会出现这样的结果：
+- 使用 DirectQuery 时，Power BI 最多可以导出 16-MB 未压缩的数据。 可能出现的意外结果是，导出数据低于行数上限。 在以下情况下，可能会出现这样的结果：
 
     - 有许多列。
 
@@ -196,4 +194,4 @@ Power BI 报表设计器控制向使用者提供的数据导出选项的类型�
 
 - Power BI 管理员可以禁用数据导出功能。
 
-更多问题？ [尝试咨询 Power BI 社区](http://community.powerbi.com/)
+更多问题？ [尝试咨询 Power BI 社区](https://community.powerbi.com/)

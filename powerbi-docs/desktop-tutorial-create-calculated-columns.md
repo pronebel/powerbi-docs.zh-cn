@@ -10,12 +10,12 @@ ms.topic: tutorial
 ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Learn more
-ms.openlocfilehash: 6974e0eccd8c16bdb06a050873e40f1a5be6f75f
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: 92cd402c394fc2f03a9bba3149260c022116e9d7
+ms.sourcegitcommit: 2aa83bd53faad6fb02eb059188ae623e26503b2a
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "65514539"
+ms.lasthandoff: 10/29/2019
+ms.locfileid: "73017799"
 ---
 # <a name="tutorial-create-calculated-columns-in-power-bi-desktop"></a>教程：创建 Power BI Desktop 中的计算列
 
@@ -36,7 +36,7 @@ ms.locfileid: "65514539"
 
  ![“字段”列表中的列](media/desktop-tutorial-create-calculated-columns/create1.png)
 
-1.  选择“更多选项”  省略号 (...)，或右键单击“字段”列表中的“ProductSubcategory”  表，然后选择“新建列”  。 这将在“ProductSubcategory”表中创建新列。
+1.  在“字段”列表中的“ProductSubcategory”表上，选择“更多选项”(…) 或单击右键，然后选择“新建列”    。 这将在“ProductSubcategory”表中创建新列。
     
     ![新建列](media/desktop-tutorial-create-calculated-columns/create2.png)
     
