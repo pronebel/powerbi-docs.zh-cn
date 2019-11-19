@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: troubleshooting
 ms.date: 02/05/2019
-ms.openlocfilehash: 08d66df2456917c09b6b0c1d9c40e2de47f53fa5
-ms.sourcegitcommit: e5cf19e16112c7dad1591c3b38d232267ffb3ae1
+ms.openlocfilehash: 5b9a0de8a3a9301219c15e5566854b591e79ba5e
+ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "72543919"
+ms.lasthandoff: 11/01/2019
+ms.locfileid: "73429329"
 ---
 # <a name="troubleshoot-your-embedded-application"></a>嵌入式应用程序疑难解答
 
@@ -78,8 +78,8 @@ Azure 门户或 Power BI 应用注册页面中的错误消息提到权限不足�
 
 * 用户已超过可在共享容量上生成的嵌入令牌的数量。 购买 Azure 容量以生成嵌入令牌，并将工作区分配给该容量。 请参阅[在 Azure 门户创建 Power BI Embedded 容量](https://docs.microsoft.com/azure/power-bi-embedded/create-capacity)。
 * Azure AD 身份验证标记已过期。
-* 经过身份验证的用户不是组（应用工作区）的成员。
-* 经过身份验证的用户不是组（应用工作区）的管理员。
+* 经过身份验证的用户不是组（工作区）的成员。
+* 经过身份验证的用户不是组（工作区）的管理员。
 * 经过身份验证的用户没有权限。 可以使用 [refreshUserPermissions API](https://docs.microsoft.com/en-us/rest/api/power-bi/users/refreshuserpermissions) 更新权限
 * 可能不会正确列出身份验证标头。 请确保没有拼写错误。
 

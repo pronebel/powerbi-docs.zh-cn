@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 08/02/2018
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 86fa7a7845686fd46e9d58ea138bdddd47a0a097
-ms.sourcegitcommit: 5e277dae93832d10033defb2a9e85ecaa8ffb8ec
+ms.openlocfilehash: 605f942f2d19c7701d7146829e75fa282efcb0a5
+ms.sourcegitcommit: 2aa83bd53faad6fb02eb059188ae623e26503b2a
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/07/2019
-ms.locfileid: "72019624"
+ms.lasthandoff: 10/29/2019
+ms.locfileid: "73020138"
 ---
 # <a name="organizational-content-packs-copy-refresh-and-get-access"></a>组织内容包：复制、刷新和访问
 
@@ -30,7 +30,7 @@ ms.locfileid: "72019624"
 ## <a name="create-a-copy-of-an-organizational-content-pack"></a>创建组织内容包的副本
 创建内容包的专属副本，并对其他用户不可见。
 
-1. 选择内容包仪表板旁边的省略号 (...) >“创建副本”。
+1. 选择内容包仪表板旁边的“更多选项”(…) >“创建副本”  。
 
     ![](media/service-organizational-content-pack-copy-refresh-access/power-bi-create-copy-organizational-content-pack.png)
 2. 选择**保存**。  

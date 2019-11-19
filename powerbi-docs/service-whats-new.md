@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 05/28/2019
+ms.date: 10/22/2019
 ms.author: nikhilga
 LocalizationGroup: Get started
-ms.openlocfilehash: 7d45b63d3cd97185ce9be9e0592565a491cf195f
-ms.sourcegitcommit: 4a3afe761d2f4a5bd897fafb36b53961739e8466
+ms.openlocfilehash: a6595389a95cbf434bc9deb9f1560f6157910ceb
+ms.sourcegitcommit: d441d350504f8c6d9e100d229757add6237f0bef
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/20/2019
-ms.locfileid: "69655037"
+ms.lasthandoff: 10/30/2019
+ms.locfileid: "73060988"
 ---
 # <a name="whats-new-in-the-power-bi-service"></a>Power BI 服务中的新功能
 请阅读此页，了解 Power BI 服务中的已知问题和最近发布的功能  。 有关相关的“新增功能”的信息，请参阅：
@@ -30,11 +30,43 @@ ms.locfileid: "69655037"
 * [Microsoft Power BI (YouTube)](https://www.youtube.com/channel/UCy--PYvwBwAeuYaR8JLmrfg)
 * [Guy in a Cube (YouTube)](https://www.youtube.com/channel/UCFp1vaKzpfvoGai0vE5VJ0w)
 
-## <a name="may-2019"></a>2019 年 5 月
-* Power BI 应用[自定义导航](service-create-distribute-apps.md)。
-* 分页报表中的电子邮件订阅可使用额外的附件类型（PPTX、XLSX、DOCX、CSV 和 XML）。
+### <a name="october-2019"></a>2019 年 10 月
+* 用于刷新 Power BI 数据集的新 Microsoft Flow 操作。
+* 适用于 Power BI 服务中报表和仪表板的[联系人信息](https://powerbi.microsoft.com/en-us/blog/announcing-new-contact-lists-for-reports-and-dashboards-in-the-power-bi-service/)。
 
 ## <a name="previous-months-2019"></a>前几个月 (2019)
+### <a name="september-2019"></a>2019 年 9 月
+* [模板应用](service-template-apps-overview.md)连接配置的更新。
+
+### <a name="august-2019"></a>2019 年 8 月
+* Power BI Premium 的新容量设置。
+* 所在组织的[自定义品牌](https://powerbi.microsoft.com/en-us/blog/announcing-custom-branding-for-your-organization/)。
+* 使用生成权限导出汇总数据。
+* 支持适用于[分页报表](paginated-reports-report-builder-power-bi.md)的 URL 参数。
+* 支持月度电子邮件订阅。 
+
+### <a name="july-2019"></a>2019 年 7 月
+* 支持适用于[分页报表](paginated-reports-report-builder-power-bi.md)的非高级数据集。
+* Power BI [聚合](desktop-aggregations.md)正式发布。
+* 将刷新通知发送给其他人。
+* 用于优化 Power BI Premium 容量的[测试工具](https://powerbi.microsoft.com/en-us/blog/power-bi-premium-know-what-your-premium-capacity-can-handle/)。
+* 公共预览版[服务可用性通知](https://powerbi.microsoft.com/en-us/blog/power-bi-introduces-service-availability-notifications/)。
+* 公共预览版 Power BI 报表[全新外观](https://powerbi.microsoft.com/en-us/blog/introducing-the-new-look-for-power-bi-service/)。
+* 南非的新 Power BI 区域。
+
+### <a name="june-2019"></a>2019 年 6 月
+* 公共预览版[共享和经认证的数据集](service-datasets-across-workspaces.md)。
+* [Premium 容量指标应用](service-admin-premium-monitor-capacity.md)中提供的 AI 指标。
+* Power BI [模板应用](service-template-apps-overview.md)正式发布。
+* Power BI [分页报表](paginated-reports-report-builder-power-bi.md)正式发布。
+* 公共预览版 Power BI Premium 创建自己的密钥 ([BYOK](service-encryption-byok.md))。
+* 适用于[新的工作区体验](service-new-workspaces.md)的查看者角色。
+
+### <a name="may-2019"></a>2019 年 5 月
+* Power BI 应用[自定义导航](service-create-distribute-apps.md)。
+* 分页报表中的电子邮件订阅可使用额外的附件类型（PPTX、XLSX、DOCX、CSV 和 XML）。
+* 为服务中的 Power BI 报表[注释](https://powerbi.microsoft.com/en-us/blog/announcing-report-commenting-for-power-bi-service-and-mobile/)。
+
 ### <a name="april-2019"></a>2019 年 4 月
 * Power BI [数据流](service-dataflows-overview.md)正式发布。
 * 新工作区体验正式发布。
@@ -68,7 +100,7 @@ ms.locfileid: "69655037"
 * Power BI 服务中的[个人书签](https://powerbi.microsoft.com/en-us/blog/announcing-personal-bookmarks-in-the-power-bi-service/)。
 * 基于时间的、具有电子邮件订阅的日程安排。
 
-## <a name="2018"></a>2018
+## <a name="2018"></a>11 月 7 日
 ### <a name="december-2018"></a>2018 年 12 月
 * Power BI 主页中 AI 支持的[推荐应用](https://powerbi.microsoft.com/en-us/blog/announcing-ai-powered-app-recommendations-getting-the-right-insights-to-the-right-people/)。
 * 管理门户中的[工作区管理](https://powerbi.microsoft.com/en-us/blog/workspace-management-in-the-admin-portal/)。
@@ -731,7 +763,7 @@ Power BI 团队在整个假期都在忙。 有关所有详细信息，[请访问
 * 改进了使用 OneDrive 进行刷新的可靠性。  在一些情况下未能从 OneDrive 刷新工作簿的问题已得到解决。
 
 ## <a name="next-steps"></a>后续步骤
-[什么是 Power BI？](power-bi-overview.md)  
+[什么是 Power BI？](fundamentals/power-bi-overview.md)  
 
 更多问题？ [尝试咨询 Power BI 社区](http://community.powerbi.com/)
 

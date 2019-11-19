@@ -1,19 +1,19 @@
 ---
 title: Power BI 报表生成器中的表达式示例
 description: Power BI 分页报表生成器分页报表中经常使用表达式来控制内容和报表外观。
-ms.date: 06/06/2019
+ms.date: 10/21/2019
 ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: conceptual
 ms.assetid: 87ddb651-a1d0-4a42-8ea9-04dea3f6afa4
 author: maggiesMSFT
 ms.author: maggies
-ms.openlocfilehash: 9f3131749a484380a1352d39ae35ea409f6dc697
-ms.sourcegitcommit: bc688fab9288ab68eaa9f54b9b59cacfdf47aa2e
+ms.openlocfilehash: 06847956eae4dfefc7cff75b5a360fbb8b892c39
+ms.sourcegitcommit: d173e22f5a3e76717adfaa573ea391bde0338ffe
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/30/2019
-ms.locfileid: "68624146"
+ms.lasthandoff: 10/22/2019
+ms.locfileid: "72728547"
 ---
 # <a name="expression-examples-in-power-bi-report-builder"></a>Power BI 报表生成器中的表达式示例
 Power BI 分页报表生成器分页报表中经常使用表达式来控制内容和报表外观。 表达式是用 Microsoft Visual Basic 编写的，可以使用内置函数、自定义代码、报表和组变量以及用户定义的变量。 表达式以等号 (=) 开头。   
@@ -35,7 +35,7 @@ Power BI 分页报表生成器分页报表中经常使用表达式来控制内�
 有关简单表达式和复杂表达式（可使用表达式的位置）以及表达式中可包含的引用的类型的详细信息，请参阅 [Power BI 报表生成器中的表达式](report-builder-expressions.md)下的主题。 
   
 ## <a name="functions"></a>函数  
- 报表中的许多表达式都包含函数。 可使用这些函数设置数据格式化、应用逻辑和访问报表元数据。 可以编写使用 Microsoft Visual Basic 运行时库以及 `xref:System.Convert` 和 `xref:System.Math` 命名空间中的函数的表达式。 可以从其他程序集或自定义代码添加对函数的引用。 还可以使用 Microsoft .NET Framework 中的类，包括 `xref:System.Text.RegularExpressions`。  
+ 报表中的许多表达式都包含函数。 可使用这些函数设置数据格式化、应用逻辑和访问报表元数据。 可以编写使用 Microsoft Visual Basic 运行时库以及 `xref:System.Convert` 和 `xref:System.Math` 命名空间中的函数的表达式。 你可以在自定义代码中添加对函数的引用。 还可以使用 Microsoft .NET Framework 中的类，包括 `xref:System.Text.RegularExpressions`。  
   
 ##  <a name="VisualBasicFunctions"></a> Visual Basic 函数  
  可以使用 Visual Basic 函数来操作文本框中显示的数据或用于参数、属性或报表其他区域的数据。 本部分提供的示例展示其中一些功能。 有关详细信息，请参阅 MSDN 上的 [Visual Basic 运行时库成员](https://go.microsoft.com/fwlink/?LinkId=198941)。  
@@ -476,7 +476,7 @@ Power BI 分页报表生成器分页报表中经常使用表达式来控制内�
     ```  
   
 ##  <a name="CustomCode"></a> 自定义代码  
- 可以在报表中使用自定义代码。 自定义代码要么嵌入到报表中，要么存储在报表中使用的自定义程序集中。  
+ 可以使用报表中嵌入的自定义代码。 
   
 ### <a name="using-group-variables-for-custom-aggregation"></a>使用组变量实现自定义聚合  
  可以将限定到特定组范围的组变量的值进行初始化，然后在表达式中包含对该变量的引用。 将组变量与自定义代码一起使用的方法之一是实现自定义聚合。 

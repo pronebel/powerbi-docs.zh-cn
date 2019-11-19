@@ -3,19 +3,18 @@ title: 在 Power BI 中使用 R 驱动的 Power BI 视觉对象
 description: 在 Power BI 中使用 R 驱动的 Power BI 视觉对象
 author: KesemSharabi
 ms.author: kesharab
-manager: rkarlin
 ms.reviewer: ''
 ms.service: powerbi
-ms.subservice: powerbi-custom-visuals
 ms.topic: conceptual
+ms.subservice: powerbi-custom-visuals
 ms.date: 07/27/2018
 LocalizationGroup: Create reports
-ms.openlocfilehash: ab0c4a7bf529f878796ea4b41177e57d19c79128
-ms.sourcegitcommit: b7a9862b6da940ddebe61bc945a353f91cd0e4bd
+ms.openlocfilehash: 9cc5c40328955f54cb0f37567d7ff91d37a302ce
+ms.sourcegitcommit: 01de0b01f66f28ca45b8d309d7864f261d6c9a85
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/04/2019
-ms.locfileid: "71945256"
+ms.lasthandoff: 11/16/2019
+ms.locfileid: "74128250"
 ---
 # <a name="use-r-powered-power-bi-visuals-in-power-bi"></a>在 Power BI 中使用 R 驱动的 Power BI 视觉对象
 
@@ -55,7 +54,7 @@ ms.locfileid: "71945256"
    * [CRAN](https://cran.r-project.org/)
    * [MRO](https://mran.microsoft.com/)
 
-4. 下载视觉对象（与在浏览器中下载任何文件一样）后，立即转到“Power BI Desktop”  ，单击“可视化效果”  窗格中的省略号 (...)，再选择“从文件导入”  。
+4. 下载视觉对象（与在浏览器中下载任何文件一样）后，立即转到“Power BI Desktop”，单击“可视化效果”窗格中的“更多选项”(…)，再选择“从文件导入”     。
 
    ![R 视觉对象 4a](media/desktop-r-powered-custom-visuals/powerbi-r-powered-custom-viz_4a.png)
 5. 导入自定义视觉对象时发出警告，如下图所示：

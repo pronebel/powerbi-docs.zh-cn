@@ -9,18 +9,18 @@ ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: conceptual
 ms.date: 10/04/2019
-ms.openlocfilehash: 97b9d68a8fa17a3ce1758eeaa16d2503a38a4743
-ms.sourcegitcommit: 9bf3cdcf5d8b8dd12aa1339b8910fcbc40f4cbe4
+ms.openlocfilehash: 513c6a4a3f5041b7af06e5c1713de3bd417a1354
+ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/05/2019
-ms.locfileid: "71968494"
+ms.lasthandoff: 11/01/2019
+ms.locfileid: "73431584"
 ---
 # <a name="paginated-reports-in-power-bi-faq"></a>Power BI 中的分页报表：常见问题解答 
 
 本文将解答有关分页报表的常见问题。 这些报表是高度格式化且像素效果完美的输出，已针对打印或 PDF 生成进行了优化。 它们被称为“分页”，因为它们已进行了格式化，以适应多个页面。 分页报表基于 SQL Server Reporting Services 中的 RDL 报表技术。 
 
-本文将解答人们有关 Power BI Premium 中的分页报表和有关报表生成器（用于创作分页报表的独立工具）的许多常见问题。 需要具有 Power BI Pro 许可证才能将报表发布到服务。 只要工作区处于 Power BI 高级容量中，就可以在“我的工作区”或应用工作区中发布和共享分页报表。 
+本文将解答人们有关 Power BI Premium 中的分页报表和有关报表生成器（用于创作分页报表的独立工具）的许多常见问题。 需要具有 Power BI Pro 许可证才能将报表发布到服务。 只要工作区处于 Power BI 高级容量中，就可以在“我的工作区”或工作区中发布和共享分页报表。 
 
 ## <a name="administration"></a>管理
 
@@ -163,7 +163,7 @@ Azure Analysis Services、Azure SQL 数据库和 Power BI 数据源支持 SSO。
 
 ### <a name="can-i-use-power-bi-embedded-to-embed-my-paginated-reports-into-an-app-im-hosting"></a>我可以使用 Power BI Embedded 将我的分页报表嵌入到我正在管理的应用中吗？
 
-已支持 SaaS 嵌入。 当前不支持 PaaS 嵌入。
+SaaS 嵌入（包括安全嵌入支持）现已可用。  计划今年晚些时候提供 PaaS 嵌入支持。
 
 ### <a name="can-i-drill-through-from-a-power-bi-report-to-a-paginated-report"></a>我是否可以从 Power BI 报表钻取到分页报表？
 
@@ -179,7 +179,7 @@ Azure Analysis Services、Azure SQL 数据库和 Power BI 数据源支持 SSO。
 
 ### <a name="is-a-migration-tool-planned-so-ssrs-customers-can-move-their-existing-reports-and-assets-to-power-bi"></a>是否计划了迁移工具以便 SSRS 客户可以将其现有报表和资产移动到 Power BI？
 
-我们正在评估各种选项，以实现通过自动化方式将内容移动到 Power BI，但在正式上市之前尚无法提供此功能。
+GitHub 上的项目现在支持将内容从 SQL Server Reporting Services 迁移到 Power BI。  可以在这里查看详细信息并下载该工具：[https://github.com/microsoft/RdlMigration](https://github.com/microsoft/RdlMigration)
 
 ### <a name="is-there-a-report-viewer-control-for-paginated-reports-in-the-power-bi-service"></a>Power BI 服务中是否有针对分页报表的报表查看器控件？
 

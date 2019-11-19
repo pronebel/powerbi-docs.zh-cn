@@ -11,12 +11,12 @@ ms.topic: tutorial
 ms.date: 03/12/2019
 ms.author: davidi
 LocalizationGroup: Connect to services
-ms.openlocfilehash: e0b2036192ace4404816f5ba64ad07569949452e
-ms.sourcegitcommit: 3e72c6d564d930304886d51cdf12b8fc166aa33c
+ms.openlocfilehash: 368f860ed064cf3b4ff73496db1fa993fd3b716a
+ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/05/2019
-ms.locfileid: "67596589"
+ms.lasthandoff: 11/01/2019
+ms.locfileid: "73432226"
 ---
 # <a name="tutorial-invoke-a-machine-learning-studio-model-in-power-bi-preview"></a>教程：在 Power BI 中调用机器学习工作室模型（预览版）
 
@@ -68,7 +68,7 @@ ms.locfileid: "67596589"
 
 若要在数据流中创建实体，登录到 Power BI 服务并导航到启用 AI 预览的专用容量上的工作区。
 
-如果还没有工作区，可以通过选择左侧菜单的“工作区”  来创建一个，然后选择底部面板中的“创建应用工作区”  。  这将打开一个面板，用于输入工作区详细信息。 输入一个工作区名称，然后选择“保存”  。
+如果还没有工作区，可以通过选择左侧菜单的“工作区”  来创建一个，然后选择底部面板中的“创建工作区”  。  这将打开一个面板，用于输入工作区详细信息。 输入一个工作区名称，然后选择“保存”  。
 
 ![创建工作区](media/service-tutorial-invoke-machine-learning-model/tutorial-invoke-machine-learning-model_03.png)
 

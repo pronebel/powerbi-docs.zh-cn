@@ -9,12 +9,12 @@ ms.subservice: powerbi-report-server
 ms.topic: tutorial
 ms.date: 05/06/2019
 ms.author: maggies
-ms.openlocfilehash: d30a396eeb4d461d7c36cecf9759306236810cab
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: cd3e032375c5edaba2b0f90f982d0dbe5591c913
+ms.sourcegitcommit: 2aa83bd53faad6fb02eb059188ae623e26503b2a
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "65240084"
+ms.lasthandoff: 10/29/2019
+ms.locfileid: "73021629"
 ---
 # <a name="tutorial-explore-the-power-bi-report-server-web-portal-in-a-vm"></a>教程：浏览 VM 中的 Power BI 报表服务器 Web 门户
 在本教程中，使用已安装的 Power BI 报表服务器创建 Azure 虚拟机，以便可以查看、编辑和管理示例 Power BI、分页报表和 KPI。
@@ -189,7 +189,7 @@ ms.locfileid: "65240084"
 
 ### <a name="manage-a-paginated-report"></a>管理分页报表
 
-1. 在 Web 门户的“分页报表”  下，选择  “销售订单” > “管理”  旁边的省略号 (...)。
+1. 在 Web 门户的“分页报表”下，选择“销售订单” > “管理”旁边的“更多选项”(…)     。
 
 1. 选择“参数”  ，将 SalesOrderNumber  的默认值更改为 SO50689   > “应用”  。
 
@@ -219,7 +219,7 @@ ms.locfileid: "65240084"
 
 可以在报表生成器中编辑分页报表，还可以直接从浏览器启动报表生成器。
 
-1. 在 Web 门户中，选择“销售订单”   >   “在报表生成器中编辑”旁边的省略号 (...)。
+1. 在 Web 门户中，选择“销售订单” > “在报表生成器中编辑”旁边的“更多选项”(…)    。
 
 1. 选择“允许”  以允许此网站打开计算机上的程序。
 

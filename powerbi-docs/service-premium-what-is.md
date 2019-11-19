@@ -8,15 +8,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
-ms.date: 09/17/2019
+ms.date: 10/28/2019
 ms.custom: seodec18
 LocalizationGroup: Premium
-ms.openlocfilehash: c46b58369c334ff5364cee00bb5c3f8cd025adf0
-ms.sourcegitcommit: 57e45f291714ac99390996a163436fa1f76db427
+ms.openlocfilehash: e57df395fd3efe439cb6ef009cb2c7a9f3fe99f9
+ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/26/2019
-ms.locfileid: "71305843"
+ms.lasthandoff: 11/01/2019
+ms.locfileid: "73431649"
 ---
 # <a name="what-is-power-bi-premium"></a>什么是 Power BI Premium？
 
@@ -53,7 +53,7 @@ Power BI Premium 订阅由 Microsoft 365 管理中心的管理员购买。 具�
 
 借助 Power BI Premium，可获得*专用容量*。 共享容量的工作负载在与其他客户共享的计算资源上运行，与之相反，专用容量仅供组织使用。 它与专用计算资源分离，专用计算资源为托管内容提供可靠且一致的性能。 
 
-工作区驻留在容量范围内。 每个 Power BI 用户都有一个称为“我的工作区”的个人工作区  。 可创建其他工作区来启用协作，这些工作区称为“应用工作区”  。 默认情况下，工作区（包括个人工作区）在共享容量中创建。 如果拥有 Premium 容量，可将“我的工作区”和“应用工作区”都分配给 Premium 容量。
+工作区驻留在容量范围内。 每个 Power BI 用户都有一个称为“我的工作区”的个人工作区  。 可创建其他工作区来启用协作，这些工作区称为“工作区”  。 默认情况下，工作区（包括个人工作区）在共享容量中创建。 如果拥有高级容量，可将“我的工作区”和“工作区”都分配给高级容量。
 
 ### <a name="capacity-nodes"></a>容量节点
 
@@ -71,8 +71,8 @@ Power BI Premium 订阅由 Microsoft 365 管理中心的管理员购买。 具�
 
 | 容量节点 | 总虚拟核心 | 后端 V 核心 | RAM (GB) | 前端 V 核心 | DirectQuery/Live Connection（每秒） | 模型刷新并行度 |
 | --- | --- | --- | --- | --- | --- | --- |
-| EM1/A1 | 第 1 个 | 0.5 | 2.5 | 0.5 | 3.75 | 第 1 个 |
-| EM2/A2 | 2 | 第 1 个 | 5 | 第 1 个 | 7.5 | 2 |
+| EM1/A1 | 1 | 0.5 | 3 | 0.5 | 3.75 | 1 |
+| EM2/A2 | 2 | 1 | 5 | 1 | 7.5 | 2 |
 | EM3/A3 | 4 | 2 | 10 | 2 | 15 | 3 |
 | P1/A4 | 8 | 4 | 25 | 4 | 30 | 6 |
 | P2/A5 | 16 | 8 | 50 | 8 | 60 | 12 |

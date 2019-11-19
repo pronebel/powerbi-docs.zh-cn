@@ -2,19 +2,18 @@
 title: 在 Power BI 问答中教导 Q&A 以使其理解问题和术语
 description: 如何使用 Power BI 问答来浏览数据
 author: mohaali
-manager: mohaali
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 10/17/2019
 ms.author: mohaali
 LocalizationGroup: Ask questions of your datadefintion
-ms.openlocfilehash: b6ae234991414f6971a656b43584710bde82dfaa
-ms.sourcegitcommit: 26123c6bb24c8174beb390f4e06fb938d31238ea
+ms.openlocfilehash: 695ad9143aa7074e079ae8606a9ad0eb6f6c964f
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/22/2019
-ms.locfileid: "72718236"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73874925"
 ---
 # <a name="teach-qa-to-understand-questions-and-terms-in-power-bi-qa"></a>在 Power BI 问答中教导 Q&A 以使其理解问题和术语
 
@@ -98,6 +97,6 @@ ms.locfileid: "72718236"
 
 ## <a name="next-steps"></a>后续步骤
 
-有很多关于改善自然语言引擎的最佳做法。 有关详细信息，请参阅以下文章：
+用于改进自然语言引擎的最佳做法还有很多。 有关详细信息，请参阅以下文章：
 
 * [问答最佳做法](q-and-a-best-practices.md)

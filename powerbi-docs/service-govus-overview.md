@@ -2,20 +2,19 @@
 title: 适用于美国政府客户的 Power BI - 概述
 description: 对于美国政府客户，了解 Power BI 美国政府服务的功能和限制
 author: davidiseminger
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 09/09/2019
+ms.date: 10/24/2019
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: 748594dcf9f71677057b8641e44f1408bebd1b89
-ms.sourcegitcommit: d04b9e1426b8544ce16ef25864269cc43c2d9f7b
+ms.openlocfilehash: 225c21693c9f100d9abbfc310b957bee7a909061
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "71715349"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73881358"
 ---
 # <a name="power-bi-for-us-government-customers"></a>适用于美国政府客户的 Power BI
 **Power BI 服务**有一个可供美国政府客户使用的版本，作为 **Office 365 美国政府社区**订阅的一部分。 本文中讨论的 **Power BI 服务**版本是为美国政府客户专门设计的，独立且不同于 **Power BI 服务**的商业版本。
@@ -60,6 +59,7 @@ Azure 分布在多个云中。 默认情况下，租户可以打开对云专属�
 * **外部用户共享** - 允许在 Power BI 租户内共享；自 2018 年 6 月起，也可与 Power BI 租户外部用户共享。 请参阅[使用 Azure AD B2B 将 Power BI 内容分发给外部来宾用户](service-admin-azure-ad-b2b.md)。
 * **仪表板和报表的使用情况指标** - 使用情况指标不适用于报表和仪表板。 客户可以使用审核日志数据，获取其组织内的内容的使用情况信息。
 * **数据流** - 数据流不可用。
+* **分页报表** - 分页报表目前仅适用于 US Gov 弗吉尼亚州。  已计划提供 US Gov 德克萨斯州支持，但尚未发布。
 
 如果已将 **Power BI** 免费版许可证分配给你的帐户，则这些帐户将在 **Power BI** 服务的商业版中运行，而不属于 **Power BI 美国政府版**产品/服务的组成部分。 对于这些免费版帐户，可能会遇到以下问题：
 

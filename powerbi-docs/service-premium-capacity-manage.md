@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 04/10/2019
 ms.custom: seodec18
 LocalizationGroup: Premium
-ms.openlocfilehash: 1e8218e19ca3949a96a9c701e4a18f9fb088e2a1
-ms.sourcegitcommit: a6602d84c86d3959731a8d0ba39a522914f13d1a
+ms.openlocfilehash: a2b51d2a03a9d3b88d31bc7d7d232fef0b2251d6
+ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/21/2019
-ms.locfileid: "71175209"
+ms.lasthandoff: 11/01/2019
+ms.locfileid: "73431719"
 ---
 # <a name="managing-premium-capacities"></a>管理高级容量
 
@@ -42,7 +42,7 @@ Power BI 管理门户的“容量设置”页面显示已购买的 vCore 数和�
 
 容量管理员无法访问工作区内容（除非已在工作区权限中明确分配权限）。 除此之外，容量管理员还无权访问 Power BI 管理员权限范围内的所有内容（除非已明确分配权限），如使用情况指标、审核日志或租户设置。 重要的是，容量管理员无权创建新的容量或缩放现有容量。 管理员按容量分配，确保它们只能查看和管理为其分配的容量。
 
-从 SKU 选项的可用列表中选择容量大小，此列表受池中可用的 vCore 数的限制。 可以从池中创建多个容量，池可以来自一个或多个已购买的 SKU。 例如，P3 SKU（32 个 vCore）可用于创建三个容量：一个 P2（16 个 vCore）和两个 P1（2 x 8 个 vCore）。 通过创建更小的容量，可以提升性能和规模，如[优化 Premium 容量](service-premium-capacity-optimize.md)一文中所述。 下图显示了虚构的 Contoso 组织的示例设置，该组织包含五个 Premium 功能（3 个 P1 和 2 个 P3），每个功能都包含多个应用工作区，以及共享容量中的几个工作区。
+从 SKU 选项的可用列表中选择容量大小，此列表受池中可用的 vCore 数的限制。 可以从池中创建多个容量，池可以来自一个或多个已购买的 SKU。 例如，P3 SKU（32 个 vCore）可用于创建三个容量：一个 P2（16 个 vCore）和两个 P1（2 x 8 个 vCore）。 通过创建更小的容量，可以提升性能和规模，如[优化 Premium 容量](service-premium-capacity-optimize.md)一文中所述。 下图显示了虚构的 Contoso 组织的示例设置，该组织包含五个 Premium 容量（3 个 P1 和 2 个 P3），每个功能都包含多个工作区，以及共享容量中的几个工作区。
 
 ![虚构 Contoso 组织的示例设置](media/service-premium-capacity-manage/contoso-organization-example.png)
 
@@ -66,7 +66,7 @@ Power BI 服务管理员和 Office 365 全局管理员可以修改 Premium 容�
 
 ### <a name="assigning-workspaces-to-capacities"></a>将工作区分配到容量
 
-可以在 Power BI 管理门户中将工作区分配到 Premium 容量，也可以在“工作区”  窗格中为应用工作区分配工作区。
+可以在 Power BI 管理门户中将工作区分配到 Premium 容量，也可以在“工作区”  窗格中为工作区分配工作区。
 
 容量管理员以及 Office 365 全局管理员或 Power BI 服务管理员可以在 Power BI 管理门户中批量分配工作区。 批量分配适用于：
 

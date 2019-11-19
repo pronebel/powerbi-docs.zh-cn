@@ -2,19 +2,18 @@
 title: 在 Power BI 移动应用中浏览报表
 description: 了解如何在手机或平板电脑上查看 Power BI 移动应用中的报表，并与之交互。 可在 Power BI 服务或 Power BI Desktop 中创建报表，然后在移动应用中与报表进行交互。
 author: mshenhav
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 08/09/2019
 ms.author: mshenhav
-ms.openlocfilehash: ab96cc6d17d340c626775bf2a03e225968985835
-ms.sourcegitcommit: 2aa83bd53faad6fb02eb059188ae623e26503b2a
+ms.openlocfilehash: d4b9a9aeda00dd7f16690d1e92336f5b63adf1da
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/29/2019
-ms.locfileid: "73019379"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73869769"
 ---
 # <a name="explore-reports-in-the-power-bi-mobile-apps"></a>在 Power BI 移动应用中浏览报表
 适用于：
@@ -124,5 +123,5 @@ Power BI 移动应用中的报表有两个图标：
 ## <a name="next-steps"></a>后续步骤
 * [查看手机优化版 Power BI 报表并与之交互](mobile-apps-view-phone-report.md)
 * [创建手机优化版报表](../../desktop-create-phone-report.md)
-* 是否有任何问题? [尝试咨询 Power BI 社区](http://community.powerbi.com/)
+* 是否有任何问题? [尝试咨询 Power BI 社区](https://community.powerbi.com/)
 

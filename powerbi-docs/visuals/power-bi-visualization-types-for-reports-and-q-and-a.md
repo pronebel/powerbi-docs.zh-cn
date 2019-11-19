@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 06/12/2019
+ms.date: 10/21/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: c039f4adc196e619dc81af38fb52cd07e89992f0
-ms.sourcegitcommit: 4ae1257c5d7b33aa2fafd91caf8b353a985c6771
+ms.openlocfilehash: 639ea11eca69eea53968ed702e0524f46a97cdc4
+ms.sourcegitcommit: 23ad768020a9daf129f69a462a2d46d59d2349d2
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/17/2019
-ms.locfileid: "67161170"
+ms.lasthandoff: 10/22/2019
+ms.locfileid: "72775991"
 ---
 # <a name="visualization-types-in-power-bi"></a>Power BI 中的可视化效果类型
 ## <a name="power-bi-visualizations"></a>Power BI 可视化效果
@@ -133,7 +133,7 @@ ms.locfileid: "67161170"
 有关详细信息，请参阅 [Power BI 中的形状图](desktop-shape-map.md)。
 
 
-### <a name="matrix"></a>矩形图
+### <a name="matrix"></a>矩阵
 ![矩形图](media/power-bi-visualization-types-for-reports-and-q-and-a/matrix.png)
 
 >[!TIP]
@@ -146,6 +146,14 @@ ms.locfileid: "67161170"
 
 >[!TIP]
 >饼图显示部分与整体的关系。 
+
+### <a name="qa-visual"></a>问答视觉对象
+![问答视觉对象](media/power-bi-visualization-types-for-reports-and-q-and-a/power-bi-q-and-a.png)
+
+>[!TIP]
+>与[仪表板上的问答体验](../power-bi-tutorial-q-and-a.md)相似，借助“问答”视觉对象，可以使用自然语言提出有关数据的问题。 
+
+有关详细信息，请参阅 [Power BI 中的问答视觉对象](power-bi-visualization-q-and-a.md)。
 
 ### <a name="r-script-visuals"></a>R 脚本视觉对象
 ![R 视觉对象](media/power-bi-visualization-types-for-reports-and-q-and-a/power-bi-r-visuals.png)
@@ -180,7 +188,7 @@ ms.locfileid: "67161170"
 有关详细信息，请参阅 [Power BI 中的高密度散点图](desktop-high-density-scatter-charts.md)。
 
 ### <a name="slicers"></a>切片器
-![切片器](media/power-bi-visualization-types-for-reports-and-q-and-a/pbi_slicer.png)
+![slicer](media/power-bi-visualization-types-for-reports-and-q-and-a/pbi_slicer.png)
 
 有关详细信息，请参阅 [Power BI 中的切片器](power-bi-visualization-slicers.md)。
 
@@ -198,7 +206,7 @@ ms.locfileid: "67161170"
 有关详细信息，请参阅[使用 Power BI 中的表](power-bi-visualization-tables.md)。
 
 ### <a name="treemaps"></a>树状图
-![树状图](media/power-bi-visualization-types-for-reports-and-q-and-a/pbi_nancy_viz_tree.png)
+![treemap](media/power-bi-visualization-types-for-reports-and-q-and-a/pbi_nancy_viz_tree.png)
 
 有关详细信息，请参阅 [Power BI 中的树状图](power-bi-visualization-treemaps.md)。
 

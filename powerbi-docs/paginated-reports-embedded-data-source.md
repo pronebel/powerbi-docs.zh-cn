@@ -3,25 +3,24 @@ title: Power BI 服务中分页报表的嵌入数据源
 description: 本文介绍如何在 Power BI 服务中创建和修改分页报表的嵌入数据源。
 author: maggiesMSFT
 ms.author: maggies
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: conceptual
 ms.date: 06/06/2019
-ms.openlocfilehash: 4dda73794c888d89ad67f1af23bfb8c38eb43f61
-ms.sourcegitcommit: 5e277dae93832d10033defb2a9e85ecaa8ffb8ec
+ms.openlocfilehash: d7a170cad376c3ec9fd3ca8ca7d2c8d2d8ac0223
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/07/2019
-ms.locfileid: "72020806"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73875312"
 ---
 # <a name="create-an-embedded-data-source-for-paginated-reports-in-the-power-bi-service"></a>在 Power BI 服务中为分页报表创建嵌入数据源
 
 本文介绍如何在 Power BI 服务中为分页报表创建和修改嵌入数据源。 可以在单个报表中定义嵌入数据源，并且仅在该报表中使用它。 目前，发布到 Power BI 服务的分页报表需要嵌入的数据集和嵌入的数据源，并且可以连接到这些数据源：
 
 - Azure Analysis Services
-- Azure SQL 数据库
+- Azure SQL 数据库 
 - Azure SQL 数据仓库
 - SQL Server
 - SQL Server Analysis Services
@@ -72,7 +71,7 @@ ms.locfileid: "72020806"
 
 连接到 Power BI 数据集的分页报表需遵循 Power BI 中针对共享数据集的规则（略作更改）。  为保证用户通过 Power BI 数据集正确查看分页报表，同时确保已为查看者启用和强制实施行级别安全性 (RLS)，请确保遵守以下规则：
 
-### <a name="classic-apps-and-app-workspaces"></a>经典应用和应用工作区
+### <a name="classic-apps-and-workspaces"></a>经典应用和工作区
 
 - 与数据集位于同一工作区（所有者相同）的 .rdl：支持
 - 与数据集位于不同工作区（所有者相同）的 .rdl：支持
@@ -82,7 +81,7 @@ ms.locfileid: "72020806"
 - 与数据集位于不同工作区（所有者不同）的 .rdl：需要在数据集级别生成针对查看报表的每位用户而分配的权限
 - 角色级别安全性：需要在数据集级别生成针对查看报表的每位用户而分配的权限，使其被强制执行。
 
-### <a name="new-experience-apps-and-app-workspaces"></a>新体验应用和应用工作区
+### <a name="new-experience-apps-and-workspaces"></a>新体验应用和工作区
 
 - 与数据集位于同一工作区的 .rdl：支持
 - 与数据集位于不同工作区（所有者相同）的 .rdl：支持

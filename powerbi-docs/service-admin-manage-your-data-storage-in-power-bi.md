@@ -1,6 +1,6 @@
 ---
 title: 管理工作区中的数据存储
-description: 了解如何管理个人或应用工作区中的数据存储，以确保可以继续发布报表和数据集。
+description: 了解如何管理个人或工作区中的数据存储，以确保可以继续发布报表和数据集。
 author: maggiesMSFT
 manager: kfile
 ms.reviewer: ''
@@ -11,24 +11,24 @@ ms.topic: conceptual
 ms.date: 12/21/2018
 ms.author: maggies
 LocalizationGroup: Administration
-ms.openlocfilehash: a46fbb0679de30e554003d858e01756b9b242b1b
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: ea187de55eec2667abe2eed017481180910b7619
+ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61189832"
+ms.lasthandoff: 11/01/2019
+ms.locfileid: "73431364"
 ---
 # <a name="manage-data-storage-in-power-bi-workspaces"></a>管理 Power BI 工作区中的数据存储
 
-了解如何管理个人或应用工作区中的数据存储，以确保可以继续发布报表和数据集。
+了解如何管理个人或工作区中的数据存储，以确保可以继续发布报表和数据集。
 
-用户和应用工作区有自己的数据容量：
+用户和工作区有自己的数据容量：
 
 * 所有用户的数据存储上限均为 10 GB。
-* 拥有 Power BI Pro 许可证的用户可以创建应用工作区，每个工作区的数据存储上限为 10 GB。
-* 高级容量中的应用工作区不计入 Power BI Pro 用户的存储。
+* 拥有 Power BI Pro 许可证的用户可以创建工作区，每个工作区的数据存储上限为 10 GB。
+* 高级容量中的工作区不计入 Power BI Pro 用户的存储。
 
-在租户一级，跨租户中的所有 Pro 版用户和应用工作区，每个 Pro 版用户的总使用量不能超过 10GB。
+在租户一级，跨租户中的所有 Pro 用户和工作区，每个 Pro 用户的总使用量不得超过 10 GB。
 
 了解有关 [Power BI 定价模型](https://powerbi.microsoft.com/pricing)的其他功能。
 
@@ -63,15 +63,15 @@ ms.locfileid: "61189832"
 
 请记住，你或其他人可能会具有基于某个数据集的报表和仪表板。 如果删除该数据集，则这些报表和仪表板将无法再正常工作。
 
-## <a name="manage-your-app-workspace"></a>管理应用工作区
-1. 依次选择“工作区”  旁边的箭头 \> 应用工作区的名称。
+## <a name="manage-your-workspace"></a>管理工作区
+1. 依次选择“工作区”旁边的箭头 \> 工作区的名称  。
    
-    ![选择应用工作区](media/service-admin-manage-your-data-storage-in-power-bi/pbi_groupworkspaces.png)
+    ![选择“工作区”](media/service-admin-manage-your-data-storage-in-power-bi/pbi_groupworkspaces.png)
 2. 依次选择右上角的齿轮图标![齿轮图标](media/service-admin-manage-your-data-storage-in-power-bi/pbi_gearicon.png) \>“管理组存储”  。
    
     顶部栏会显示已使用的组存储限制量。
    
-    ![管理应用工作区存储](media/service-admin-manage-your-data-storage-in-power-bi/pbi_groupstorage.png)
+    ![管理工作区存储](media/service-admin-manage-your-data-storage-in-power-bi/pbi_groupstorage.png)
    
     数据集和报表会分为两个选项卡：
    
@@ -80,7 +80,7 @@ ms.locfileid: "61189832"
 3. 若要删除数据集或报表，请选择垃圾桶图标 ![垃圾桶图标](media/service-admin-manage-your-data-storage-in-power-bi/pbi_deleteicon.png)。
    
    > [!NOTE]
-   > 应用工作区中拥有编辑权限的任何成员都有权从应用工作区中删除数据集和报表。
+   > 工作区中拥有编辑权限的任何成员都有权从工作区中删除数据集和报表。
    > 
    > 
 

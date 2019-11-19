@@ -2,19 +2,18 @@
 title: 在 Power BI 移动应用中共享仪表板或报表
 description: 通过从 Power BI 移动应用共享链接，邀请他人查看仪表板和报表。 了解如何操作。
 author: mshenhav
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 03/20/2018
 ms.author: mshenhav
-ms.openlocfilehash: 6bd0b929bbf4fa7df0d13a3cc7e529bad708582e
-ms.sourcegitcommit: 2aa83bd53faad6fb02eb059188ae623e26503b2a
+ms.openlocfilehash: 232d311e876a5fe01eb6c8091eb7a83669592cbf
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/29/2019
-ms.locfileid: "73017898"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73879079"
 ---
 # <a name="share-a-dashboard-or-report-from-the-power-bi-mobile-apps"></a>在 Power BI 移动应用中共享仪表板或报表
 适用于：
@@ -147,5 +146,5 @@ ms.locfileid: "73017898"
 ## <a name="next-steps"></a>后续步骤
 * [在移动应用中批注并共享磁贴、报表或视觉对象的快照](mobile-annotate-and-share-a-tile-from-the-mobile-apps.md)
 * [共享 Power BI 中的仪表板或报表](../../service-share-dashboards.md)
-* 是否有任何问题? [尝试咨询 Power BI 社区](http://community.powerbi.com/)
+* 是否有任何问题? [尝试咨询 Power BI 社区](https://community.powerbi.com/)
 

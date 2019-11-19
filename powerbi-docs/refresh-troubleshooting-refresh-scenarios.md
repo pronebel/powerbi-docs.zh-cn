@@ -10,12 +10,12 @@ ms.topic: troubleshooting
 ms.date: 09/13/2019
 ms.author: mblythe
 LocalizationGroup: Data refresh
-ms.openlocfilehash: 564c3d03a7879cd7788e19055d8c11e4de46013f
-ms.sourcegitcommit: e5cf19e16112c7dad1591c3b38d232267ffb3ae1
+ms.openlocfilehash: 7e66cbf11c8177a12dbbf825873adb4cef5f26fd
+ms.sourcegitcommit: ef6de7067ecb2bbc86d912784376a1627acc478d
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "72543862"
+ms.lasthandoff: 10/30/2019
+ms.locfileid: "73169064"
 ---
 # <a name="troubleshooting-refresh-scenarios"></a>刷新方案故障排除
 
@@ -25,6 +25,12 @@ ms.locfileid: "72543862"
 > 如果遇到导致问题但未在下面列出的方案，可以在[社区站点](http://community.powerbi.com/)上寻求进一步帮助，也可以创建[支持票证](https://powerbi.microsoft.com/support/)。
 >
 >
+
+## <a name="email-notifications"></a>电子邮件通知
+
+如果通过电子邮件通知转到本文，并且不再希望收到有关刷新问题的电子邮件，请与 Power BI 管理员联系。要求他们从 Power BI 中的相应数据集中删除你的订阅电子邮件或电子邮件列表。 他们可以从 Power BI 管理门户的以下区域执行此操作。
+
+![用于刷新通知的电子邮件](media/refresh-troubleshooting-refresh-scenarios/refresh-email.png)
 
 ## <a name="refresh-using-web-connector-doesnt-work-properly"></a>使用 Web 连接器进行刷新的操作未能正常运行
 

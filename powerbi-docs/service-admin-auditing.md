@@ -11,12 +11,12 @@ ms.date: 09/09/2019
 ms.author: mblythe
 ms.custom: seodec18
 LocalizationGroup: Administration
-ms.openlocfilehash: aef5a8861a42e566086198c924c99d0b73406f60
-ms.sourcegitcommit: e2c5d4561455c3a4806ace85defbc72e4d7573b4
+ms.openlocfilehash: cbb9fa77c529052e32800e0a72a6263b770840d0
+ms.sourcegitcommit: d441d350504f8c6d9e100d229757add6237f0bef
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "71325444"
+ms.lasthandoff: 10/30/2019
+ms.locfileid: "73060672"
 ---
 # <a name="use-auditing-within-your-organization"></a>在组织内使用审核
 
@@ -162,7 +162,9 @@ Power BI 审核以下活动：
 | 管理员已将数据流存储帐户附加到租户 | AdminAttachedDataflowStorageAccountToTenant | 当前未使用                       |
 | 已分析 Power BI 数据集                         | AnalyzedByExternalApplication               |                                          |
 | 已分析 Power BI 报表                          | AnalyzeInExcel                              |                                          |
+| 附加的数据流存储帐户                 | AttachedDataflowStorageAccount              |                                          |
 | 将 Power BI 数据集绑定到网关                | BindToGateway                               |                                          |
+| 已取消的数据流刷新                        | CancelDataflowRefresh                       |                                          |
 | 已更改容量状态                            | ChangeCapacityState                         |                                          |
 | 已更改容量用户分配                  | UpdateCapacityUsersAssignment               |                                          |
 | 已更改 Power BI 数据集连接              | SetAllConnections                           |                                          |
@@ -194,6 +196,7 @@ Power BI 审核以下活动：
 | 已删除 Power BI 报表                           | DeleteReport                                |                                          |
 | 已发现 Power BI 数据集数据源          | GetDatasources                              |                                          |
 | 已下载 Power BI 报表                        | DownloadReport                              |                                          |
+| 已编辑的数据流属性                        | EditDataflowProperties                      |                                          |
 | 已编辑 Power BI 认证权限          | EditCertificationPermission                 | 当前未使用                       |
 | 已编辑 Power BI 仪表板                         | EditDashboard                               | 当前未使用                       |
 | 已编辑 Power BI 数据集                           | EditDataset                                 |                                          |
@@ -213,7 +216,7 @@ Power BI 审核以下活动：
 | 已打印 Power BI 仪表板                        | PrintDashboard                              |                                          |
 | 已打印 Power BI 报表页                      | PrintReport                                 |                                          |
 | 已将 Power BI 报表发布到 Web                  | PublishToWebReport                          |                                          |
-| 已从 Key Vault 接收 Power BI 数据流机密  | ReceiveDataflowSecretFromKeyVault           | 当前未使用                       |
+| 已从 Key Vault 接收 Power BI 数据流机密  | ReceiveDataflowSecretFromKeyVault           |                                          |
 | 已从 Power BI 网关删除数据源         | RemoveDatasourceFromGateway                 |                                          |
 | 已删除 Power BI 组成员                    | DeleteGroupMembers                          |                                          |
 | 已从容量中删除工作区                 | RemoveWorkspacesFromCapacity                |                                          |
@@ -221,6 +224,7 @@ Power BI 审核以下活动：
 | 已请求 Power BI 数据流刷新               | RequestDataflowRefresh                      | 当前未使用                       |
 | 已请求 Power BI 数据集刷新                | RefreshDataset                              |                                          |
 | 已检索 Power BI 工作区                     | GetWorkspaces                               |                                          |
+| 设置工作区的数据流存储位置     | SetDataflowStorageLocationForWorkspace      |                                          |
 | 在 Power BI 数据流上设置计划刷新        | SetScheduledRefreshOnDataflow               |                                          |
 | 在 Power BI 数据集上设置计划刷新         | SetScheduledRefresh                         |                                          |
 | 已共享 Power BI 仪表板                         | ShareDashboard                              |                                          |
@@ -229,10 +233,12 @@ Power BI 审核以下活动：
 | 已启动 Power BI 免费试用版                            | OptInForProTrial                            |                                          |
 | 已接管 Power BI 数据源                   | TakeOverDatasource                          |                                          |
 | 已接管 Power BI 数据集                        | TakeOverDataset                             |                                          |
+| 已接管 Power BI 数据流                     | TookOverDataflow                             |                                          |
 | 未发布 Power BI 应用                          | UnpublishApp                                |                                          |
 | 更新容量资源管理设置      | UpdateCapacityResourceGovernanceSettings    | 目前不在 Microsoft 365 管理中心 |
 | 已更新容量管理员                            | UpdateCapacityAdmins                        |                                          |
 | 已更新容量显示名称                     | UpdateCapacityDisplayName                   |                                          |
+| 已更新数据流存储分配权限   | UpdatedDataflowStorageAssignmentPermissions |                                          |
 | 已更新组织的 Power BI 设置          | UpdatedAdminFeatureSwitch                   |                                          |
 | 已更新 Power BI 应用                              | UpdateApp                                   |                                          |
 | 已更新 Power BI 数据流                         | UpdateDataflow                              |                                          |

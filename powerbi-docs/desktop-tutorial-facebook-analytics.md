@@ -2,7 +2,6 @@
 title: 教程：使用 Power BI Desktop 进行 Facebook 分析
 description: 教程：使用 Power BI Desktop 进行 Facebook 分析
 author: davidiseminger
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
@@ -10,12 +9,12 @@ ms.topic: tutorial
 ms.date: 09/06/2019
 ms.author: davidi
 LocalizationGroup: Learn more
-ms.openlocfilehash: 689d86029150fa66daa90c4f93b71ed15750b095
-ms.sourcegitcommit: 2aa83bd53faad6fb02eb059188ae623e26503b2a
+ms.openlocfilehash: 96811a2cfd7d08a210c4efd177e989abce16d25d
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/29/2019
-ms.locfileid: "73018092"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73876274"
 ---
 # <a name="tutorial-facebook-analytics-using-power-bi-desktop"></a>教程：使用 Power BI Desktop 进行 Facebook 分析
 
@@ -241,8 +240,8 @@ ms.locfileid: "73018092"
 Power BI Desktop 提供无缝的端到端体验（从各种数据源获取数据、调整数据以满足你的分析需求，再到以丰富的交互方式可视化这些数据）。 在报表准备就绪后，可以[将报表上传到 Power BI 服务](desktop-upload-desktop-files.md)，并基于它创建仪表板与其他 Power BI 用户共享。
 
 ## <a name="next-steps"></a>后续步骤
-* [阅读其他 Power BI Desktop 教程](http://go.microsoft.com/fwlink/?LinkID=521937)
-* [观看 Power BI Desktop 视频](http://go.microsoft.com/fwlink/?LinkID=519322)
-* [访问 Power BI 论坛](http://go.microsoft.com/fwlink/?LinkID=519326)
-* [阅读 Power BI 博客](http://go.microsoft.com/fwlink/?LinkID=519327)
+* [阅读其他 Power BI Desktop 教程](https://go.microsoft.com/fwlink/?LinkID=521937)
+* [观看 Power BI Desktop 视频](https://go.microsoft.com/fwlink/?LinkID=519322)
+* [访问 Power BI 论坛](https://go.microsoft.com/fwlink/?LinkID=519326)
+* [阅读 Power BI 博客](https://go.microsoft.com/fwlink/?LinkID=519327)
 

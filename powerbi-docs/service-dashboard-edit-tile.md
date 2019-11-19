@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 03/02/2018
 ms.author: maggies
 LocalizationGroup: Dashboards
-ms.openlocfilehash: c1b6f7434724540a9ad5b579030c3ed54b32abed
-ms.sourcegitcommit: 762857c8ca09ce222cc3f8b006fa1b65d11e4ace
+ms.openlocfilehash: f96af87706fb289d5fe7216c8ba0b9b0d83b1391
+ms.sourcegitcommit: 2aa83bd53faad6fb02eb059188ae623e26503b2a
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/05/2019
-ms.locfileid: "66720574"
+ms.lasthandoff: 10/29/2019
+ms.locfileid: "73021130"
 ---
 # <a name="edit-or-remove-a-dashboard-tile"></a>编辑或删除仪表板磁贴
 
@@ -83,9 +83,9 @@ ms.locfileid: "66720574"
 ![视频](media/service-dashboard-edit-tile/pbigif_resizetile4.gif)
 
 - - -
-## <a name="the-ellipses--menu"></a>省略号 (...) 菜单
+## <a name="more-options--menu"></a>“更多选项”(…) 菜单 
 
-1. 选择磁贴右上角的省略号 (...)。 
+1. 选择磁贴右上角的“更多选项”(…)  。 
    
    ![磁贴省略号](media/service-dashboard-edit-tile/power-bi-tile.png)
 

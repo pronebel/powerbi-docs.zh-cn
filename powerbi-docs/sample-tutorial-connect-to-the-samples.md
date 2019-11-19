@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 07/19/2019
 ms.author: maggies
 LocalizationGroup: Samples
-ms.openlocfilehash: 3577c19342d9f2dc5b0e3ab9908f47f82430e6db
-ms.sourcegitcommit: 012f05efc4e97aeb6178fb2fc820b73bcc1ce920
+ms.openlocfilehash: 5009e186c801f71c9c1a4b8e156dfefaaeac79f1
+ms.sourcegitcommit: 2aa83bd53faad6fb02eb059188ae623e26503b2a
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/23/2019
-ms.locfileid: "68391492"
+ms.lasthandoff: 10/29/2019
+ms.locfileid: "73020638"
 ---
 #  <a name="connect-to-the-samples-in-the-power-bi-service"></a>连接到 Power BI 服务中的示例
 
@@ -91,7 +91,7 @@ Power BI 服务和 Power BI Desktop 均支持该示例。 要继续学习，我�
      
    ![全新报表](media/sample-tutorial-connect-to-the-samples/power-bi-report-editing.png)
 
-1. 浏览数据集的另一种方法是运行[快速见解](consumer/end-user-insights.md)。 选择省略号 (…)，然后选择“获取快速见解”  。 见解就绪后，选择“查看见解”  。
+1. 浏览数据集的另一种方法是运行[快速见解](consumer/end-user-insights.md)。 选择“更多选项”(…)，然后选择“获取快速见解”   。 见解就绪后，选择“查看见解”  。
      
     ![见解报表](media/sample-tutorial-connect-to-the-samples/power-bi-insights.png)
 

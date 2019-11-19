@@ -2,7 +2,6 @@
 title: 关键影响因素可视化效果教程
 description: 教程：在 Power BI 中创建关键影响因素可视化效果
 author: mihart
-manager: kvivek
 ms.reviewer: juluczni
 ms.service: powerbi
 ms.subservice: powerbi-service
@@ -10,12 +9,12 @@ ms.topic: tutorial
 ms.date: 10/22/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: b11d2e5ce330c111313ef0d4bd8f2b1f1a89ce43
-ms.sourcegitcommit: 23ad768020a9daf129f69a462a2d46d59d2349d2
+ms.openlocfilehash: 80ed285a22c0272f3bd268397e0e019396b941d7
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/22/2019
-ms.locfileid: "72775998"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73870997"
 ---
 # <a name="key-influencers-visualization"></a>关键影响因素可视化效果
 

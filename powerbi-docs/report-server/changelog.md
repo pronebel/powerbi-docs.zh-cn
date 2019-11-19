@@ -3,18 +3,17 @@ title: Power BI 报表服务器的更改日志
 description: 此更改日志适用于 Power BI 报表服务器，并列出了新项和每次发布版本的 bug 修复。
 ms.author: jaimeta
 author: jtarquino
-manager: kfile
 ms.reviewer: maggies
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 10/25/2019
-ms.openlocfilehash: 0a4aaa5d9fcb3d5dab6cce0b0c8dd6034581aedb
-ms.sourcegitcommit: 17f45a81b0dcbf9e3f1fb2a551584170baecd320
+ms.openlocfilehash: ef85aea957ec470b348676b553248f30d3bf8532
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/25/2019
-ms.locfileid: "72922561"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73874280"
 ---
 # <a name="change-log-for-power-bi-report-server"></a>Power BI 报表服务器的更改日志
 
@@ -29,7 +28,7 @@ ms.locfileid: "72922561"
         - Bug 修复
             - 已修复：无法安装 .net framework 4.7。
             - 已修复：具有多值参数的 Teradata 分页报表的错误 110083。
-            - 已修复：在具有多个 Web 服务 URL 绑定，并且其中一个是 http://+80/reportserver 的情况下，URLRoot 值不起作用。
+            - 已修复：在具有多个 Web 服务 URL 绑定，并且其中一个是 https://+80/reportserver 的情况下，URLRoot 值不起作用。
           - 已修复：分页报表多值参数值显示在报表区域外。
           
     - *版本：1.6.7221.30698（内部版本 15.0.1102.620），发布日期：2019 年 10 月 9 日*
@@ -305,6 +304,6 @@ ms.locfileid: "72922561"
 [管理员概述](admin-handbook-overview.md)  
 [安装 Power BI 报表服务器](install-report-server.md)  
 [下载报表生成器](https://www.microsoft.com/download/details.aspx?id=53613)  
-[下载 SQL Server Data Tools (SSDT)](http://go.microsoft.com/fwlink/?LinkID=616714)
+[下载 SQL Server Data Tools (SSDT)](https://go.microsoft.com/fwlink/?LinkID=616714)
 
 更多问题？ [尝试咨询 Power BI 社区](https://community.powerbi.com/)

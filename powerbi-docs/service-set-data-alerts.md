@@ -8,15 +8,15 @@ featuredvideoid: JbL2-HJ8clE
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 08/08/2019
+ms.date: 10/21/2019
 ms.author: maggies
 LocalizationGroup: Dashboards
-ms.openlocfilehash: c87a54a0e991af3faa53b9ac4ac6c92893b2ed0a
-ms.sourcegitcommit: 0e50ebfa8762e19286566432870ef16d242ac78f
+ms.openlocfilehash: d1944f139cdd7089d9465e174e554ac7df1d8bf8
+ms.sourcegitcommit: d441d350504f8c6d9e100d229757add6237f0bef
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/13/2019
-ms.locfileid: "68962468"
+ms.lasthandoff: 10/30/2019
+ms.locfileid: "73060375"
 ---
 # <a name="data-alerts-in-the-power-bi-service"></a>Power BI 服务中的数据警报
 
@@ -24,7 +24,7 @@ ms.locfileid: "68962468"
 
 如果你拥有 Power BI Pro 许可证，则可以在磁贴上设置警报。 如果有人共享具有 [Premium 容量](service-premium-what-is.md)的仪表板，你也可以设置警报。 只能为报表视觉对象固定到的磁贴设置警报，而且只能为仪表、KPI 和卡片设置警报。 可以在从报表固定到仪表板的流数据集创建的视觉对象上设置警报。 不能对使用“添加磁贴” > “自定义流式处理数据”在仪表板上直接创建的流式处理磁贴上设置警报   。
 
-即使共享你的仪表板，也只有你可以看到自己设置的警报。 数据警报跨平台完全同步；可以在 [Power BI 移动应用](consumer/mobile/mobile-set-data-alerts-in-the-mobile-apps.md)和 Power BI 服务中设置和查看数据警报。 它们对 Power BI Desktop 不可用。 甚至可以通过 Microsoft Flow 自动化和集成警报。 可在此 [Microsoft Flow 和 Power BI](service-flow-integration.md) 文章中亲自尝试执行操作。
+即使共享你的仪表板，也只有你可以看到自己设置的警报。 即使是仪表板所有者也看不到你在仪表板的视图上设置的警报。 数据警报跨平台完全同步；可以在 [Power BI 移动应用](consumer/mobile/mobile-set-data-alerts-in-the-mobile-apps.md)和 Power BI 服务中设置和查看数据警报。 它们对 Power BI Desktop 不可用。 甚至可以通过 Microsoft Flow 自动化和集成警报。 可在此 [Microsoft Flow 和 Power BI](service-flow-integration.md) 文章中亲自尝试执行操作。
 
 ![磁贴](media/service-set-data-alerts/powerbi-alert-types-new.png)
 
@@ -116,15 +116,13 @@ ms.locfileid: "68962468"
 
 1. 你可以从此处打开和关闭警报，打开“管理警报”  窗口，以进行更改或删除警报。
 
-## <a name="tips-and-troubleshooting"></a>提示和故障排除
+## <a name="considerations-and-troubleshooting"></a>注意事项和疑难解答
 
 * 带有日期/时间度量值的卡片磁贴不支持警报。
-
 * 警报仅适用于数字数据类型。
-
 * 警报仅适用于刷新后的数据。 它们不适用于静态数据。
-
 * 如果生成 KPI、卡片或仪表报表视觉对象，然后将该视觉对象固定到仪表板，那么警报仅适用于流数据集。
+
 
 ## <a name="next-steps"></a>后续步骤
 
@@ -132,6 +130,6 @@ ms.locfileid: "68962468"
 
 * [在移动设备上设置数据警报](consumer/mobile/mobile-set-data-alerts-in-the-mobile-apps.md)。
 
-* [什么是 Power BI？](power-bi-overview.md)
+* [什么是 Power BI？](fundamentals/power-bi-overview.md)
 
 更多问题？ [尝试咨询 Power BI 社区](http://community.powerbi.com/)

@@ -7,21 +7,24 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 03/23/2018
+ms.date: 10/28/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: cd5026a1bb3bca4781be1e3f61b4a71364190f8a
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: ff46e750d053ead7eb46d57e55e4af96770f0d6e
+ms.sourcegitcommit: ef6de7067ecb2bbc86d912784376a1627acc478d
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61135810"
+ms.lasthandoff: 10/30/2019
+ms.locfileid: "73169132"
 ---
-# <a name="move-and-resize-a-visualization-in-a-report-in-power-bi-service-and-power-bi-desktop"></a>在 Power BI 服务和 Power BI Desktop 中移动和调整报表中的可视化对象
-只有报表创建者与所有者可以移动和调整可视化对象。 在 Power BI 服务 (app.powerbi.com) 中，这意味着会在 [“编辑视图”](../consumer/end-user-reading-view.md) 中打开报表。
+# <a name="move-and-resize-a-visualization-in-a-report"></a>在报表中移动可视化效果、调整其大小
+
+[!INCLUDE [power-bi-visuals-desktop-banner](../includes/power-bi-visuals-desktop-banner.md)]
+
+报表设计者与所有者可以移动和调整可视化效果。 如果正在 Power BI 服务 (app.powerbi.com) 中工作，则需要在[编辑视图](../service-interact-with-a-report-in-editing-view.md)中打开报表。 
 
 ## <a name="open-the-report"></a>打开报表
-在 Power BI 中，打开至少包含一个可视化对象的报表，或[创建新的可视化对象](power-bi-report-add-visualizations-i.md)。 
+在 Power BI Desktop 中，打开至少包含一个可视化效果的报表，或[创建新的可视化效果](power-bi-report-add-visualizations-i.md)。 
 
 ## <a name="move-the-visualization"></a>移动可视化效果
 * 选择（单击）可视化效果的任意区域，并将其拖动到新位置。
@@ -36,5 +39,7 @@ ms.locfileid: "61135810"
 
 ## <a name="next-steps"></a>后续步骤
 [在仪表板上调整可视化效果的大小](../service-dashboard-edit-tile.md)  
+
+[焦点”模式](../consumer/end-user-focus.md)
 
 更多问题？ [尝试参与 Power BI 社区](http://community.powerbi.com/)

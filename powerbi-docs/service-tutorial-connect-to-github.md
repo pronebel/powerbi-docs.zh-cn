@@ -11,12 +11,12 @@ ms.topic: tutorial
 ms.date: 08/07/2019
 ms.author: maggies
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 7540083b49e0790bfd9062d28d2655ff024d577f
-ms.sourcegitcommit: cc4b18d55b2dca8fdb1bef00f53a0a808c41432a
+ms.openlocfilehash: 7f7fde7fcabc29238d9558739eff02519ef9cca3
+ms.sourcegitcommit: 2aa83bd53faad6fb02eb059188ae623e26503b2a
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/09/2019
-ms.locfileid: "68867160"
+ms.lasthandoff: 10/29/2019
+ms.locfileid: "73020013"
 ---
 # <a name="tutorial-connect-to-a-github-repo-with-power-bi"></a>教程：使用 Power BI 连接到 GitHub 存储库
 在本教程中，使用 Power BI 连接到 GitHub 服务中的真实数据，Power BI 即会自动创建仪表板和报表。 连接到 Power BI 内容公共存储库（也称为“存储库”），同时查看以下问题的答案  ：有多少人参与编辑 Power BI 公共内容？ 谁贡献最多？ 一周中哪天的贡献最大？ 以及其他问题。 
@@ -76,7 +76,7 @@ ms.locfileid: "68867160"
 
     ![左侧导航窗格中的应用](media/service-tutorial-connect-to-github/power-bi-github-app-tutorial-left-nav-expanded.png)
 
-10. 选择仪表板名称旁边的省略号 (...)，选择“重命名”，然后键入“GitHub 仪表板”   。
+10. 选择仪表板名称旁边的“更多选项”(...)，选择“重命名”，然后键入“GitHub 仪表板”    。
  
     ![Power BI GitHub 磁贴](media/service-tutorial-connect-to-github/power-bi-github-app-tutorial-left-nav.png) 
 

@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 05/22/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 97c01966750d888f3420d265eb3f252b3a8f57d3
-ms.sourcegitcommit: e2de2e8b8e78240c306fe6cca820e5f6ff188944
+ms.openlocfilehash: 527334d2772dbe20f7f78929231cca9faf036e95
+ms.sourcegitcommit: 2aa83bd53faad6fb02eb059188ae623e26503b2a
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/23/2019
-ms.locfileid: "71195005"
+ms.lasthandoff: 10/29/2019
+ms.locfileid: "73017746"
 ---
 # <a name="combo-chart-in-power-bi"></a>Power BI 中的组合图
 
@@ -67,7 +67,7 @@ ms.locfileid: "71195005"
     c. 选择**时间** \> **会计月份**以将它添加到**轴**框。
 
     ![组合教程示例](media/power-bi-visualization-combo-chart/combotutorial1new.png)
-5. 在可视化效果的右上角选择省略号 (...)，然后选择“按会计月份排序”  。 要更改排序顺序，请再次选择省略号并选择  “升序排序”或“降序排序”  。 本示例将使用“升序排序”  。
+5. 选择可视化效果右上角的“更多选项”(…)，再选择“排序依据”>“会计月份”   。 要更改排序顺序，请再次选择省略号并选择  “升序排序”或“降序排序”  。 本示例将使用“升序排序”  。
 
 6. 将柱形图转换为组合图。 提供了两个组合图表：  “折线图和堆积柱形图”和“折线图和簇状柱形图”  。 在选择了柱形图的情况下，从“可视化效果”  窗格中选择“折线和簇状柱形图”  。
 

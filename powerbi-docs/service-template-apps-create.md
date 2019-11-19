@@ -9,12 +9,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 09/15/2019
 ms.author: tebercov
-ms.openlocfilehash: f936d5df9872d6dec8862709f614b2dc28f2e414
-ms.sourcegitcommit: e2de2e8b8e78240c306fe6cca820e5f6ff188944
+ms.openlocfilehash: 836dfcc0569c906b145df3e3f3d14f03c08d4938
+ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/23/2019
-ms.locfileid: "71195383"
+ms.lasthandoff: 11/01/2019
+ms.locfileid: "73432159"
 ---
 # <a name="create-a-template-app-in-power-bi"></a>在 Power BI 中创建模板应用
 
@@ -33,19 +33,19 @@ Power BI 租户管理员管理和控制组织中谁可以创建模板应用，�
 - 熟悉 [Power BI 的基本概念](service-basic-concepts.md)
 - 用于公开共享模板应用的权限。 有关详细信息，请参阅 Power BI [管理门户的模板应用设置](service-admin-portal.md#template-apps-settings)。
 
-## <a name="create-the-template-app-workspace"></a>创建模板应用工作区
+## <a name="create-the-template-workspace"></a>创建模板工作区
 
-若要创建可以分发给其他 Power BI 租户的模板应用，需要在一个新的应用工作区中创建它。
+若要创建可以分发给其他 Power BI 租户的模板应用，需要在一个新的工作区中创建它。
 
-1. 在 Power BI 服务中，选择“工作区” > “创建应用工作区”   。
+1. 在 Power BI 服务中，选择“工作区” > “创建工作区”   。
 
-    ![创建应用工作区](media/service-template-apps-create/power-bi-new-workspace.png)
+    ![创建工作区](media/service-template-apps-create/power-bi-new-workspace.png)
 
-2. 在“创建应用工作区”中，选择“升级到新版”   。
+2. 在“创建工作区”中，选择“升级到新版”   。
 
     ![请试用新的工作区](media/service-template-apps-create/power-bi-upgrade-new.png)
 
-3. 为应用工作区输入名称、说明（可选）和徽标图像（可选）。
+3. 为工作区输入名称、说明（可选）和徽标图像（可选）。
 
 4. 展开“高级”部分，然后选择“开发模板应用”   。
 
@@ -57,9 +57,9 @@ Power BI 租户管理员管理和控制组织中谁可以创建模板应用，�
 
 ## <a name="create-the-content-in-your-template-app"></a>在模板应用中创建内容
 
-与常规 Power BI 应用工作区一样，下一步是在工作区中创建内容。  
+与常规 Power BI 工作区一样，下一步是在工作区中创建内容。  
 
-- 在应用工作区中[创建 Power BI 内容](power-bi-creator-landing.md)。
+- 在工作区中[创建 Power BI 内容](power-bi-creator-landing.md)。
 
 如果在 Power Query 中使用参数，请确保这些参数具有明确定义的类型（例如，Text）。 不支持 Any 和 Binary 类型。
 
@@ -69,7 +69,7 @@ Power BI 租户管理员管理和控制组织中谁可以创建模板应用，�
 
 现在工作区中已有内容，即可将其打包到模板应用中。 第一步是创建一个测试模板应用，只能从租户的组织内部访问。
 
-1. 在模板应用工作区中，选择“创建应用”  。
+1. 在模板工作区中，选择“创建应用”  。
 
     ![创建应用](media/service-template-apps-create/power-bi-create-app.png)
 
@@ -133,7 +133,7 @@ Power BI 租户管理员管理和控制组织中谁可以创建模板应用，�
 
 让我们来了解各个阶段：
 
-1. 在模板应用工作区中，选择“发布管理”  。
+1. 在模板工作区中，选择“发布管理”  。
 
     ![发布管理图标](media/service-template-apps-create/power-bi-release-management-icon.png)
 

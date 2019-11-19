@@ -3,18 +3,17 @@ title: Power BI REST API 引用
 description: Power BI REST API 引用
 author: KesemSharabi
 ms.author: kesharab
-manager: rkarlin
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 05/25/2018
-ms.openlocfilehash: 38e04049ad7fb4f2bc9a59f9680d257800e77148
-ms.sourcegitcommit: 2aa83bd53faad6fb02eb059188ae623e26503b2a
+ms.openlocfilehash: 0a42400c41d215a0cbe31bbb5fa0324abe4f6084
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/29/2019
-ms.locfileid: "73019168"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73880362"
 ---
 # <a name="power-bi-rest-api-reference"></a>Power BI REST API 引用
 
@@ -35,4 +34,4 @@ Power BI REST API 具有以下操作：
 
 若要了解有关 Power BI REST API 的详细信息，请参阅 [Power BI REST API](https://docs.microsoft.com/rest/api/power-bi/)。
 
-更多问题？ [尝试咨询 Power BI 社区](http://community.powerbi.com/)
+更多问题？ [尝试咨询 Power BI 社区](https://community.powerbi.com/)

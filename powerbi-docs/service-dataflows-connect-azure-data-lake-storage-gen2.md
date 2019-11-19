@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 08/29/2019
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: 1e4d589702bb471a2abc6af9448a6846825adbfe
-ms.sourcegitcommit: c0f4d00d483121556a1646b413bab75b9f309ae9
+ms.openlocfilehash: df3c8b33de32bb9dd42507cc7bb601cee9f6e575
+ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/29/2019
-ms.locfileid: "70160374"
+ms.lasthandoff: 11/01/2019
+ms.locfileid: "73432016"
 ---
 # <a name="connect-azure-data-lake-storage-gen2-for-dataflow-storage-preview"></a>连接 Azure Data Lake Storage Gen2 以存储数据流（预览）
 
@@ -183,7 +183,7 @@ ms.locfileid: "70160374"
 
 Power BI Desktop 客户无法访问存储在 Azure Data Lake Storage 帐户  中的数据流，除非他们是这些数据流的所有者，或者已被授权访问 Data Lake 中的 CDM 文件夹。 场景如下：
 
-1. Anna 创建了一个新的应用工作区，并将其配置为存储组织 Data Lake 中的数据流。 
+1. Anna 创建了一个新的工作区，并将其配置为存储组织 Data Lake 中的数据流。 
 2. Ben 也是 Anna 所创建工作区的成员，他希望利用 Power BI Desktop 和数据流连接器从 Anna 创建的数据流获取数据。
 3. Ben 收到类似错误，因为他未获得访问 Data Lake 中数据流的 CDM 文件夹的授权。
 

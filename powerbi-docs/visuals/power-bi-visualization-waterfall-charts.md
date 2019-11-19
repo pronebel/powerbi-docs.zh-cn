@@ -2,7 +2,6 @@
 title: Power BI 中的瀑布图
 description: Power BI 中的瀑布图
 author: mihart
-manager: kvivek
 ms.reviewer: ''
 featuredvideoid: maTzOJSRB3g
 ms.service: powerbi
@@ -11,12 +10,12 @@ ms.topic: conceptual
 ms.date: 06/24/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 3ab200194d89eb15892dc4f452079eb56df8a608
-ms.sourcegitcommit: e2de2e8b8e78240c306fe6cca820e5f6ff188944
+ms.openlocfilehash: fedaa811c94a9e955d6ca10646bc546f60dc9b98
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/23/2019
-ms.locfileid: "71191343"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73881951"
 ---
 # <a name="waterfall-charts-in-power-bi"></a>Power BI 中的瀑布图
 
@@ -24,7 +23,7 @@ ms.locfileid: "71191343"
 
 瀑布图显示随 Power BI 加上或减去值而不断变化的总计。 此类图可用于了解一系列正更改和负更改如何影响初始值（如净收入）。
 
-柱形使用颜色编码，这样就可以快速区分增加和减少。 初始值列和最终值列通常[从水平轴开始](https://support.office.com/article/Create-a-waterfall-chart-in-Office-2016-for-Windows-8de1ece4-ff21-4d37-acd7-546f5527f185#BKMK_Float "从水平轴开始")，而中间值为浮动列。 由于这种样式，瀑布图亦称为“桥图”。
+柱形使用颜色编码，这样就可以快速区分增加和减少。 初始值列和最终值列通常[从水平轴开始](https://support.office.com/article/Create-a-waterfall-chart-in-Office-2016-for-Windows-8de1ece4-ff21-4d37-acd7-546f5527f185#BKMK_Float "在水平轴上启动")，而中间值为浮动列。 由于这种样式，瀑布图亦称为“桥图”。
 
    > [!NOTE]
    > 此视频使用较旧版本的 Power BI Desktop。
@@ -49,7 +48,7 @@ ms.locfileid: "71191343"
 
 ## <a name="prerequisite"></a>先决条件
 
-本教程使用[零售分析示例 PBIX 文件](http://download.microsoft.com/download/9/6/D/96DDC2FF-2568-491D-AAFA-AFDD6F763AE3/Retail%20Analysis%20Sample%20PBIX.pbix)。
+本教程使用[零售分析示例 PBIX 文件](https://download.microsoft.com/download/9/6/D/96DDC2FF-2568-491D-AAFA-AFDD6F763AE3/Retail%20Analysis%20Sample%20PBIX.pbix)。
 
 1. 在菜单栏的左上方，选择“文件” > “打开”  
    
@@ -76,7 +75,7 @@ ms.locfileid: "71191343"
 
     ![瀑布图](media/power-bi-visualization-waterfall-charts/power-bi-waterfall.png)
 
-1. 请确保 Power BI 是按时间顺序对瀑布图进行排序的。 选择瀑布图右上角的省略号 (...)。
+1. 请确保 Power BI 是按时间顺序对瀑布图进行排序的。 选择图表右上角的“更多选项”(…)  。
 
     在此示例中，我们将选择“升序排序” 
 

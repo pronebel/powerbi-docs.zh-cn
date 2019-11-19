@@ -8,15 +8,15 @@ featuredvideoid: jtlLGRKBvXY
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 10/11/2019
+ms.date: 10/30/2019
 ms.author: mihart
 LocalizationGroup: Consumers
-ms.openlocfilehash: 80033cafbe66303a1d6f55bba61f7d19449dc45b
-ms.sourcegitcommit: f34acbf9fb1ab568fd89773aaf412a847f88dd34
+ms.openlocfilehash: 77d26d32c70c3047636eb03d1211aff3736c8f0c
+ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/18/2019
-ms.locfileid: "72589533"
+ms.lasthandoff: 11/01/2019
+ms.locfileid: "73430167"
 ---
 # <a name="export-data-from-a-visual"></a>从视觉对象导出数据
 
@@ -30,7 +30,7 @@ ms.locfileid: "72589533"
 
     ![添加仪表板](media/end-user-export/power-bi-dashboards.png)
 
-2. 将鼠标悬停在视觉对象上方以显示“更多”选项 (...)，然后单击以显示“操作”菜单。
+2. 将鼠标悬停在视觉对象上方以显示“更多选项”(…)，然后单击以显示“操作”菜单  。
 
     ![选择省略号时显示的菜单](media/end-user-export/power-bi-action-menu.png)
 
@@ -59,7 +59,7 @@ ms.locfileid: "72589533"
     ![选定的筛选器窗格](media/end-user-export/power-bi-export-filter.png)
 
 
-3. 选择可视化效果右上角的省略号。 选择“导出数据”  。
+3. 选择可视化效果右上角的省略号。 选择“导出数据”。 
 
     ![导出从下拉列表中选择的数据](media/end-user-export/power-bi-export-report.png)
 

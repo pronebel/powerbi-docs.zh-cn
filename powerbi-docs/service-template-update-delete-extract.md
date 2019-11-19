@@ -9,12 +9,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 09/23/2019
 ms.author: tebercov
-ms.openlocfilehash: 2cf655c25bb58ec001bac52b55aea74f887f08d9
-ms.sourcegitcommit: 3885ae11e695f875a82c212ca157e401db8337c4
+ms.openlocfilehash: 8ed27d830e0bc779fc7ecb8e3aa8fde11b8d9c61
+ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/24/2019
-ms.locfileid: "71207623"
+ms.lasthandoff: 11/01/2019
+ms.locfileid: "73432265"
 ---
 # <a name="update-delete-and-extract-template-app"></a>更新、删除和提取模板应用
 
@@ -65,7 +65,7 @@ ms.locfileid: "71207623"
 新工作区的版本控制会重置，你可以继续从新提取的工作区开发和分发模板应用。
 
 ## <a name="delete-template-app-version"></a>删除模板应用版本
-模板应用工作区是活动分散式模板应用的源。 为了保护模板应用用户，如果不先删除工作区中的所有已创建应用版本，就无法删除工作区。
+模板工作区是活动分散式模板应用的源。 为了保护模板应用用户，如果不先删除工作区中的所有已创建应用版本，就无法删除工作区。
 删除应用版本也会删除不再有效的应用 URL。
 
 1. 在“发布管理”窗格中，依次选择省略号 (...)  和“删除”  。

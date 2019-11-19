@@ -7,15 +7,15 @@ ms.reviewer: lukaszp
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 08/02/2018
+ms.date: 10/23/2019
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: e54750d928918fd77c2bf93577cf1d3d0634ca97
-ms.sourcegitcommit: 5e277dae93832d10033defb2a9e85ecaa8ffb8ec
+ms.openlocfilehash: c5f56df51a1f18db7c2080afb79f4ac7abfb2444
+ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/07/2019
-ms.locfileid: "72020617"
+ms.lasthandoff: 11/01/2019
+ms.locfileid: "73431749"
 ---
 # <a name="intro-to-organizational-content-packs-in-power-bi"></a>Power BI 中的组织内容包简介
 > [!NOTE]
@@ -26,7 +26,7 @@ ms.locfileid: "72020617"
 
 ![](media/service-organizational-content-pack-introduction/power-bi-org-content-packs.png)
 
-创建内容包不同于共享仪表板，也不同于在应用工作区中协作处理内容包。 阅读[应如何针对仪表板及报表开展协作并进行共享？](service-how-to-collaborate-distribute-dashboards-reports.md)以决定具体情况的最佳选项。 
+创建内容包不同于共享仪表板，也不同于在工作区中针对这些包开展协作。 阅读[应如何针对仪表板及报表开展协作并进行共享？](service-how-to-collaborate-distribute-dashboards-reports.md)以决定具体情况的最佳选项。 
 
 在 AppSource 中，可以浏览或搜索已发布到整个组织、通讯组/安全组和[所属 Office 365 组](https://support.office.com/article/Create-a-group-in-Office-365-7124dc4c-1de9-40d4-b096-e8add19209e9)的内容包。 如果你不是特定组的成员，则你不会看到与该组共享的内容包。 组的所有成员拥有对内容包数据、报表、工作簿和仪表板相同的只读访问权限（SQL Server Analysis Services (SSAS) 数据源除外，在这种情况下，将从数据源继承权限）。
 
@@ -50,7 +50,7 @@ ms.locfileid: "72020617"
 1. 在 Power BI Pro 中，Nate 创建了内容包，并将它发布到“市场营销”通讯组。 数据集将继承刷新设置，只能由 Nate 修改这些设置。
    
    > [!NOTE]
-   > 如果 Nate 是在自己所属的 [Power BI 应用工作区](service-create-distribute-apps.md)内创建内容包，那么即使 Nate 离开此工作区，Power BI 工作区中的其他人也仍可接管所有权。
+   > 如果 Nate 是在自己所属的 [Power BI 工作区](service-create-distribute-apps.md)内创建内容包，那么即使 Nate 离开此工作区，Power BI 工作区中的其他人也仍可接管所有权。
    > 
    > 
 2. Nate 向通讯组发送邮件，告知通讯组成员有关新内容包的信息。
@@ -58,7 +58,7 @@ ms.locfileid: "72020617"
 4. 假设 Jane 决定对其进行自定义。 Jane 现在具有自己的仪表板和报表副本。 Jane 执行的操作不会影响源、原始内容包或其他通讯组成员。 他们现在各自处理自己的仪表板和报表副本。
 5. Nate 对仪表板进行更新，并在更新就绪后发布内容包的新版本。
    
-   * 另一名通讯组成员 Julio 没有自定义原始内容包。 新增更改将自动应用到 Jane 的内容包版本。  
+   * 另一名通讯组成员 Julio 没有自定义原始内容包。 新增更改将自动应用到 Julio 的内容包版本。  
    * Jane 对内容包进行了自定义。 Jane 之后收到一条告知其存在新版本的通知。  Jane 可以转到 AppSource，并获取更新后的内容包，而不会丢失个性化版本。 Jane 现在具有两个版本：个性化版本和更新的内容包。
 6. 假设 Nate 更改了安全设置。 Julio 和 Jane 不再有权访问该内容。 或假设从“市场营销”通讯组中删除了这二人。
    

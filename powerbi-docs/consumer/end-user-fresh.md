@@ -10,15 +10,18 @@ ms.topic: conceptual
 ms.date: 09/18/2019
 ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: 46f9d40b5e556c0d306aa77243a49835fca9d812
-ms.sourcegitcommit: 200291eac5769549ba5c47ef3951e2f3d094426e
+ms.openlocfilehash: 5d81b1e69d9cfbba6e3ed57f678af75dab1698c3
+ms.sourcegitcommit: 2aa83bd53faad6fb02eb059188ae623e26503b2a
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/19/2019
-ms.locfileid: "71141817"
+ms.lasthandoff: 10/29/2019
+ms.locfileid: "73019778"
 ---
 # <a name="your-content-is-up-to-date"></a>内容为最新内容
-作为使用者，你可以与设计人员创建并与你共享的内容进行交互。 你可能想知道该内容是否为最新内容，或者只是想了解该内容上次刷新的时间。 了解到自己使用的是最新内容可让人充满信心。  
+
+[!INCLUDE [power-bi-service-new-look-include](../includes/power-bi-service-new-look-include.md)]
+
+作为使用者，你可以与设计人员创建并与你共享的内容进行交互   。 你可能想知道该内容是否为最新内容，或者只是想了解该内容上次刷新的时间。 了解到自己使用的是最新内容可让人充满信心。  
  
 ![Power BI 仪表板](media/end-user-fresh/power-bi-dashboards.png)
 
@@ -31,7 +34,7 @@ ms.locfileid: "71141817"
 
 ### <a name="dashboard-or-report"></a>仪表板或报表
 
-可从仪表板和报表的标题栏中获取所有者的名称。 选择报表或仪表板名称以显示包括所有者在内的更多详细信息。
+可从仪表板和报表的标题栏中获取所有者的名称。 选择报表或仪表板名称以显示包括所有者在内的更多详细信息  。
 
 ![Power BI 仪表板所有者](media/end-user-fresh/power-bi-owner.png)
 
@@ -40,7 +43,7 @@ ms.locfileid: "71141817"
 
 应用屏幕会同时显示设计人员姓名和应用上次更新日期。  
 
-1. 从左侧导航窗格中，选择“应用”。
+1. 从左侧导航窗格中，选择“应用”  。
 
     ![左侧导航窗格](media/end-user-fresh/power-bi-nav-app.png)
 
@@ -51,8 +54,8 @@ ms.locfileid: "71141817"
     ![2 个应用，其中一个已选中](media/end-user-fresh/power-bi-app.png)
 
 
-### <a name="shared-with-me"></a>与我共享
-“与我共享”屏幕显示内容所有者的姓名，以及该内容最近一次与你共享的日期。
+### <a name="shared-with-me"></a>与我共享的内容
+“与我共享”屏幕显示内容所有者的姓名，以及该内容最近一次与你共享的日期  。
 
 ![“与我共享”屏幕显示更改日期和所有者](media/end-user-fresh/power-bi-share.png) 
 
@@ -63,7 +66,7 @@ ms.locfileid: "71141817"
 ### <a name="dashboard-tiles"></a>在推入数据时
 对于仪表板磁贴，在焦点模式下查看磁贴，以查看上次刷新的时间戳。
 
-1. 在仪表板磁贴上，选择省略号 (...)，然后选择“以焦点模式打开”。
+1. 在仪表板磁贴上，选择“更多选项”(…)，然后选择“以焦点模式打开”   。
 
     ![选择省略号后显示的菜单](media/end-user-fresh/power-bi-focus-mode.png)
 
@@ -72,11 +75,11 @@ ms.locfileid: "71141817"
     ![显示上次刷新的较宽浏览器](media/end-user-fresh/power-bi-last-refresh2.png)
 
 ### <a name="dashboards-and-reports"></a>仪表板和报表
-查找上次刷新日期的另一种方法是使用“相关视图”。  可从 Power BI 上方菜单栏中选择省略号 (...) 以获取“相关视图”。
+查找上次刷新日期的另一种方法是使用“相关视图”  。  可从 Power BI 上方菜单栏中选择“更多选项”(…) 以获取“相关视图”   。
 
 ![从菜单中选择“相关视图”](media/end-user-fresh/power-bi-view-related-dropdown.png)
 
-“相关内容”窗格会显示仪表板或报表基础数据集的上次刷新信息。
+“相关内容”窗格会显示仪表板或报表基础数据集的上次刷新信息  。
 
 ![Power BI 仪表板](media/end-user-fresh/power-bi-refresh.png)
 

@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 10/01/2018
-ms.openlocfilehash: 8a48ec007f2d8c9c07de5cc0d51049e3dbf19662
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: 06901a484ca53881f30cc71d9a7404807ac6cd57
+ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61269318"
+ms.lasthandoff: 11/01/2019
+ms.locfileid: "73429148"
 ---
 # <a name="power-bi-permissions"></a>Power BI 权限
 
@@ -42,7 +42,7 @@ Power BI 权限使应用程序能够代表用户执行某些操作。 所有权�
 应用程序可以在首次尝试登录到用户页面时通过在调用的范围参数中传入请求的权限来请求权限。 如果授予了该权限，则会向该应用返回一个访问令牌，可在将来的 API 调用上使用该令牌。 该访问权限只能由特定应用程序使用。
 
 > [!NOTE]
-> Power BI API 仍将应用工作区视作为组。 对组的任何引用意味着正在使用应用工作区。
+> Power BI API 仍以组的形式引用工作区。 对组的任何引用都意味着正使用工作区工作。
 
 ## <a name="requesting-permissions"></a>请求权限
 

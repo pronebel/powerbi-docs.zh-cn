@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 03/25/2019
-ms.openlocfilehash: cc180c2e9d5275172ad9da75c502ef53d9d7ee66
-ms.sourcegitcommit: 549401b0e1fad15c3603fe7f14b9494141fbb100
+ms.openlocfilehash: d52dcb640c0140baad2d3d5d20a1afd56aac7c4d
+ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/14/2019
-ms.locfileid: "72307623"
+ms.lasthandoff: 11/01/2019
+ms.locfileid: "73430678"
 ---
 # <a name="what-can-developers-do-with-the-power-bi-api"></a>开发人员可以使用 Power BI API 做什么？
 
@@ -32,7 +32,7 @@ ms.locfileid: "72307623"
 | 进行 Power BI 身份验证。 | [进行 Power BI 身份验证](get-azuread-access-token.md) |
 
 > [!NOTE]
-> Power BI API 仍以组的形式引用应用工作区。 对组的任何引用都意味着正使用应用工作区工作。
+> Power BI API 仍以组的形式引用工作区。 对组的任何引用都意味着正使用工作区工作。
 
 ## <a name="api-developer-tools"></a>API 开发人员工具
 

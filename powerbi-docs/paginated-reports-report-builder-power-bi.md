@@ -3,18 +3,17 @@ title: Power BI Premium 中的分页报表是什么？
 description: 长期以来，分页报表一直是 SQL Server Reporting Services 中的标准报表格式，现在可在 Power BI 服务中使用。 可以打印或共享这些报表。 用户可以精确控制报表布局。 例如，即使某个表跨多个页，分页报表也能显示表中的所有数据。
 author: maggiesMSFT
 ms.author: maggies
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: overview
 ms.date: 09/24/2019
-ms.openlocfilehash: ca090f7251349c9ed4768b49f1372c14e68f0068
-ms.sourcegitcommit: 57e45f291714ac99390996a163436fa1f76db427
+ms.openlocfilehash: 9e49e8e70e7bc499fbcfe0c263bdd8315f2c7dbe
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/26/2019
-ms.locfileid: "71305685"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73874713"
 ---
 # <a name="what-are-paginated-reports-in-power-bi-premium"></a>Power BI Premium 中的分页报表是什么？
 
@@ -26,7 +25,7 @@ ms.locfileid: "71305685"
 
 ![Power BI 服务中的分页报表](media/report-builder-power-bi/report-builder-get-started-paginated-report.png)
 
-可以在报表生成器中预览报表，然后将报表发布到 Power BI 服务： http://app.powerbi.com 。 需要具有 Power BI Pro 许可证才能将报表发布到服务。 只要工作区处于 Power BI 高级容量中，就可以在“我的工作区”或应用工作区中发布和共享分页报表。 另外，Power BI 管理员需要在 Power BI 管理门户的[高级容量部分](service-admin-premium-workloads.md#paginated-reports)中启用分页报表。 
+可以在报表生成器中预览报表，然后将报表发布到 Power BI 服务： https://app.powerbi.com 。 需要具有 Power BI Pro 许可证才能将报表发布到服务。 只要工作区处于 Power BI Premium 容量中，就可以在“我的工作区”或工作区中发布和共享分页报表。 另外，Power BI 管理员需要在 Power BI 管理门户的[高级容量部分](service-admin-premium-workloads.md#paginated-reports)中启用分页报表。 
 
 ## <a name="create-reports-in-power-bi-report-builder"></a>在 Power BI 报表生成器中创建报表
 
@@ -62,7 +61,7 @@ ms.locfileid: "71305685"
 
 ## <a name="creating-a-report-definition"></a>创建报表定义
 
-在设计分页报表时，实际上要创建报表定义  。 它不包含数据。 它指定获取数据的位置、要获取的数据以及如何显示数据。 运行报表时，报表处理器将获取用户指定的报表定义、检索数据，并将其与报表布局组合以生成报表。 可以将报表定义上传到 Power BI 服务：[http://app.powerbi.com](http://app.powerbi.com )，以上传到“我的工作区”或与同事共享的工作区中。 如果报表数据源位于本地环境中，则在上传报表后，可以将数据源连接重定向到网关。 
+在设计分页报表时，实际上要创建报表定义  。 它不包含数据。 它指定获取数据的位置、要获取的数据以及如何显示数据。 运行报表时，报表处理器将获取用户指定的报表定义、检索数据，并将其与报表布局组合以生成报表。 可以将报表定义上传到 Power BI 服务：[http://app.powerbi.com](https://app.powerbi.com )，以上传到“我的工作区”或与同事共享的工作区中。 如果报表数据源位于本地环境中，则在上传报表后，可以将数据源连接重定向到网关。 
 
 ## <a name="view-your-paginated-report"></a>查看分页报表
 可以通过浏览器在 Power BI 服务中查看分页报表，也可以在 Power BI 移动应用中查看。 在 Power BI 服务中，可以将报表导出为多种格式，例如 HTML、MHTML、PDF、XML、CSV、TIFF、Word 和 Excel。 还可以与其他人共享它。  

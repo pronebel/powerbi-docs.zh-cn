@@ -2,7 +2,6 @@
 title: Power BI Desktop 中的 DAX 基本概念
 description: Power BI Desktop 中的 DAX 基本概念
 author: davidiseminger
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 10/21/2019
 ms.author: davidi
 LocalizationGroup: Model your data
-ms.openlocfilehash: 524d04655d01b527707a59b941c84f5254ffea20
-ms.sourcegitcommit: 17f45a81b0dcbf9e3f1fb2a551584170baecd320
+ms.openlocfilehash: fcff0bf1d6c68b9bdb000855f4984b3664b882c1
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/25/2019
-ms.locfileid: "72922487"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73877914"
 ---
 # <a name="dax-basics-in-power-bi-desktop"></a>Power BI Desktop 中的 DAX 基本概念
 本文适用于刚开始使用 Power BI Desktop 的用户。 为你提供有关如何使用数据分析表达式 (DAX) 的快速而简单的介绍，以便解决一些基本计算和数据分析问题。 我们将逐一探讨一些概念性信息、一系列可以完成的任务以及测试所学内容的知识检查。 学习完本文后，你便可充分了解 DAX 中最重要的基本概念。
@@ -33,7 +32,7 @@ DAX 是公式或表达式中可用于计算并返回一个或多个值的函数�
 
 ### <a name="example-workbook"></a>示例工作簿
 
-了解 DAX 的最佳方式是创建一些基本公式，用它来处理实际数据，并亲自查看结果。 此处的示例和任务使用 [Power BI Desktop 的 Contoso 销售示例文件](http://download.microsoft.com/download/4/6/A/46AB5E74-50F6-4761-8EDB-5AE077FD603C/Contoso%20Sales%20for%20Power%20BI%20Designer.zip)。 此示例文件与 [教程：在 Power BI Desktop 中创建你自己的度量值](desktop-tutorial-create-measures.md)一文中使用的相同示例文件。 
+了解 DAX 的最佳方式是创建一些基本公式，用它来处理实际数据，并亲自查看结果。 此处的示例和任务使用 [Power BI Desktop 的 Contoso 销售示例文件](https://download.microsoft.com/download/4/6/A/46AB5E74-50F6-4761-8EDB-5AE077FD603C/Contoso%20Sales%20for%20Power%20BI%20Designer.zip)。 此示例文件与 [教程：在 Power BI Desktop 中创建你自己的度量值](desktop-tutorial-create-measures.md)一文中使用的相同示例文件。 
 
 ## <a name="lets-begin"></a>现在就开始吧！
 我们将围绕三个基本概念来阐述对 DAX 的理解：语法  、函数  和上下文  。 DAX 还有其他重要概念，但了解这三个概念将为你学习 DAX 技能奠定最佳基础。
@@ -82,7 +81,7 @@ DAX 是公式或表达式中可用于计算并返回一个或多个值的函数�
 
 ### <a name="task-create-a-measure-formula"></a>任务：创建度量值公式
 
-1. [下载](http://download.microsoft.com/download/4/6/A/46AB5E74-50F6-4761-8EDB-5AE077FD603C/Contoso%20Sales%20for%20Power%20BI%20Designer.zip)并打开 Contoso 销售示例 Power BI Desktop 文件。 
+1. [下载](https://download.microsoft.com/download/4/6/A/46AB5E74-50F6-4761-8EDB-5AE077FD603C/Contoso%20Sales%20for%20Power%20BI%20Designer.zip)并打开 Contoso 销售示例 Power BI Desktop 文件。 
     
 2. 在“报表”视图的字段列表中，右键单击 Sales 表，然后选择“新建度量值”   。
     
@@ -213,7 +212,7 @@ DAX 包含以下函数类别：[日期和时间](https://msdn.microsoft.com/libr
 ## <a name="summary"></a>摘要
 现在你对 DAX 中最重要的概念有了基本的认识，可以开始独立创建度量值的 DAX 公式。 DAX 确实有点难以理解，但是有许多资源可供你使用。 读完本文并对自己的几个公式进行试验之后，你可以进一步了解可帮助你解决业务问题的 DAX 概念和公式。 有许多 DAX 资源可供你使用；最重要的就是[数据分析表达式 (DAX) 参考](https://msdn.microsoft.com/library/gg413422.aspx)。
 
-因为 DAX 在 Power Pivot 和 Analysis Services 表格模型等其他 Microsoft BI 工具中已存在数年，所以有许多有用信息。 你可以从 Microsoft 和顶级 BI 专业人员所提供的书籍、白皮书和博客中找到详细信息。 [TechNet 上的 DAX 资源中心 Wiki](http://social.technet.microsoft.com/wiki/contents/articles/dax-resource-center.aspx) 也是一个不错的起点。
+因为 DAX 在 Power Pivot 和 Analysis Services 表格模型等其他 Microsoft BI 工具中已存在数年，所以有许多有用信息。 你可以从 Microsoft 和顶级 BI 专业人员所提供的书籍、白皮书和博客中找到详细信息。 [TechNet 上的 DAX 资源中心 Wiki](https://social.technet.microsoft.com/wiki/contents/articles/dax-resource-center.aspx) 也是一个不错的起点。
 
 ### <a name="quickquiz-answers"></a>快速测验答案
 语法：

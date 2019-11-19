@@ -2,19 +2,18 @@
 title: iOS 版 Power BI 移动应用入门
 description: 了解如何使用 iOS 版 Microsoft Power BI 移动应用随时随地通过移动设备访问本地和云中的业务信息。
 author: mshenhav
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 06/27/2018
 ms.author: mshenhav
-ms.openlocfilehash: 2de1b866a237a0193c33c552078ca70bd5e632ce
-ms.sourcegitcommit: 52aa112ac9194f4bb62b0910c4a1be80e1bf1276
+ms.openlocfilehash: dd43df2a01175657b39c1e3dcebe5ae6a9433e42
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "67498991"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73870186"
 ---
 # <a name="get-started-with-the-power-bi-mobile-app-on-ios-devices"></a>iOS 设备上的 Power BI 移动应用入门
 iPhone、 iPad 或 iPod Touch 上的 iOS 版 Microsoft Power BI 应用提供了 Power BI、Power BI 报表服务器和 Reporting Services 的移动 BI 体验。 通过触控移动设备实现的实时访问，可以随时随地查看本地和云中的公司仪表板，并与之进行交互。 然后，可以浏览仪表板中的数据，并通过电子邮件或短信的方式将数据与同事共享。 在你的 [Apple Watch](mobile-apple-watch.md) 上保持最新的数据。  
@@ -31,7 +30,7 @@ iPhone、 iPad 或 iPod Touch 上的 iOS 版 Microsoft Power BI 应用提供了 
 查找 [Power BI 移动应用中的新功能](mobile-whats-new-in-the-mobile-apps.md)。
 
 ## <a name="download-the-app"></a>下载应用
-[下载 iOS 应用]从 Apple App Store (http://go.microsoft.com/fwlink/?LinkId=522062 "下载 iOS 应用")到你的 iPhone、iPad 或 iPod Touch。
+从 Apple App Store [下载 iOS 应用](https://go.microsoft.com/fwlink/?LinkId=522062 "下载 iOS 应用")到你的 iPhone、iPad 或 iPod Touch。
 
 可在运行 iOS 11 或更高版本的任意设备上运行 Power BI for iOS 应用。 
 
@@ -75,7 +74,7 @@ iPhone、 iPad 或 iPod Touch 上的 iOS 版 Microsoft Power BI 应用提供了 
 ## <a name="find-your-content-in-the-power-bi-mobile-apps"></a>在 Power BI 移动应用中查找内容
 仪表板和报表将存储在 Power BI 移动应用的不同位置，具体取决要于它们原来所在的位置。 了解如何[在移动应用中查找内容](mobile-apps-quickstart-view-dashboard-report.md)。 此外，可以始终在 Power BI 移动应用中搜索你所拥有的内容。 
 
-![左侧导航窗格](./media/mobile-iphone-app-get-started/power-bi-iphone-left-nav.png)
+![导航窗格](./media/mobile-iphone-app-get-started/power-bi-iphone-left-nav.png)
 
 详细了解如何[在移动应用中查找内容](mobile-apps-quickstart-view-dashboard-report.md)。
 
@@ -84,7 +83,7 @@ iPhone、 iPad 或 iPod Touch 上的 iOS 版 Microsoft Power BI 应用提供了 
 
 * 点击**收藏夹**。
   
-   ![左侧导航窗格中的收藏夹](./media/mobile-iphone-app-get-started/power-bi-iphone-favorites-nav.png)
+   ![导航窗格中的收藏夹](./media/mobile-iphone-app-get-started/power-bi-iphone-favorites-nav.png)
   
    所有收藏项全都显示在此页上：
   
@@ -109,7 +108,7 @@ iPhone、 iPad 或 iPod Touch 上的 iOS 版 Microsoft Power BI 应用提供了 
 
 ## <a name="next-steps"></a>后续步骤
 
-* [什么是 Power BI？](../../power-bi-overview.md)
-* 是否有任何问题? [尝试咨询 Power BI 社区](http://community.powerbi.com/)
+* [什么是 Power BI？](../../fundamentals/power-bi-overview.md)
+* 是否有任何问题? [尝试咨询 Power BI 社区](https://community.powerbi.com/)
 
 

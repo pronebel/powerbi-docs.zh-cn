@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 08/12/2019
 ms.author: maggies
 LocalizationGroup: Data from files
-ms.openlocfilehash: ed4bc9d10e3e1512aba559d77ba8729a39cb8a84
-ms.sourcegitcommit: d12bc6df16be1f1993232898f52eb80d0c9fb04e
+ms.openlocfilehash: 6c393611851e05c7c76983674f2e1de7b5454898
+ms.sourcegitcommit: 2aa83bd53faad6fb02eb059188ae623e26503b2a
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/13/2019
-ms.locfileid: "68995064"
+ms.lasthandoff: 10/29/2019
+ms.locfileid: "73021002"
 ---
 # <a name="from-excel-workbook-to-stunning-report-in-the-power-bi-service"></a>从 Excel 工作簿变为 Power BI 服务中的出色报表
 你的经理在下班前想要查看有关你最新的销售数据以及上一市场活动影响的报表。 但最新数据位于各种第三方系统上以及便笔记本电脑上的文件中。 以前，创建视觉对象和格式化报表都需要花费数小时，这让你深感焦虑。
@@ -111,7 +111,7 @@ Power BI 服务连接到多个数据源，包括位于计算机上的 Excel 文�
 
 2. 通过选择“可视化效果”菜单中的其中某个图标来更改图表的类型  。 例如，将其更改为“堆积柱形图”  。 
 
-3. 若要对图表进行排序，请选择省略号 (...)，然后选择“排序依据”  。
+3. 若要对图表进行排序，请依次选择“更多选项”(…)、“排序依据”   。
 
    ![报表编辑器中的堆积柱形图](media/service-from-excel-to-stunning-report/pbi_barchart-new.png)
 

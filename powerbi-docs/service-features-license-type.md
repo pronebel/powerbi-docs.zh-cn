@@ -1,6 +1,6 @@
 ---
 title: 按许可证类型列出的 Power BI 服务功能
-description: 在 Power BI 服务中，用户基于两种类型的许可证定义了功能：每用户（免费和 Pro 版）和基于容量。
+description: 在 Power BI 服务中，用户已基于拥有的每个用户许可证的类型（免费或 Pro）定义了功能，以及与之交互的内容是否位于分配给 Power BI Premium 容量的工作区中。
 author: mgblythe
 manager: kfile
 ms.reviewer: ''
@@ -11,12 +11,12 @@ ms.date: 12/06/2018
 ms.author: mblythe
 ms.custom: seodec18
 LocalizationGroup: Get started
-ms.openlocfilehash: 6f44f4b382dacf3850cc5b3aa67f712a607468a6
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 38bf9acb76faa3c2d5d04d247edbdc46455d22e1
+ms.sourcegitcommit: 2b7beec5237a597bab2da8eb6ffe69122a5d2ed9
+ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "65554424"
+ms.lasthandoff: 11/02/2019
+ms.locfileid: "73442784"
 ---
 # <a name="power-bi-service-features-by-license-type"></a>按许可证类型列出的 Power BI 服务功能
 
@@ -37,7 +37,7 @@ ms.locfileid: "65554424"
 | 嵌入 API 和控件 |![功能不可用](media/features-license-type/not-available.png) |![功能可用](media/features-license-type/available.png) |
 | **协作** | | |
 | 对等共享 |![功能不可用](media/features-license-type/not-available.png) |![功能可用](media/features-license-type/available.png) |
-| 应用工作区 |![功能不可用](media/features-license-type/not-available.png) |![功能可用](media/features-license-type/available.png) |
+| 工作区 |![功能不可用](media/features-license-type/not-available.png) |![功能可用](media/features-license-type/available.png) |
 | 在 Excel 和 Power BI Desktop 中分析 |![功能不可用](media/features-license-type/not-available.png) |![功能可用](media/features-license-type/available.png) |
 
 ## <a name="next-steps"></a>后续步骤

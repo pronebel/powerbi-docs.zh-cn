@@ -2,7 +2,6 @@
 title: 解决 Power BI Desktop 中的 Access 和 .XLS 导入问题
 description: 解决在 Power BI Desktop 和 Power Query 中导入 Access 数据库和 .XLS 电子表格出现的问题
 author: davidiseminger
-manager: kfile
 ms.reviewer: ''
 ms.custom: seodec18
 ms.service: powerbi
@@ -11,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/21/2019
 ms.author: davidi
 LocalizationGroup: Troubleshooting
-ms.openlocfilehash: 085a21404fefe214656f31d077c6cba401b8219e
-ms.sourcegitcommit: 17f45a81b0dcbf9e3f1fb2a551584170baecd320
+ms.openlocfilehash: 83a3cc769ea9451ffa5320710bd0f04934d51393
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/25/2019
-ms.locfileid: "72922545"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73878984"
 ---
 # <a name="resolve-issues-importing-access-and-xls-files-in-power-bi-desktop"></a>解决在 Power BI Desktop 中导入 Access 和 .XLS 文件出现的问题
 
@@ -24,7 +23,7 @@ ms.locfileid: "72922545"
 
 ## <a name="situation-1-no-access-database-engine-is-installed"></a>情况 1：未安装 Access 数据库引擎
 
-当 Power BI Desktop 错误消息指示未安装 Access 数据库引擎时，必须安装与你的 Power BI Desktop 版本匹配的 Access 数据库引擎版本（32 位或 64 位）。 可以从[下载页](http://www.microsoft.com/download/details.aspx?id=13255)安装 Access 数据库引擎。
+当 Power BI Desktop 错误消息指示未安装 Access 数据库引擎时，必须安装与你的 Power BI Desktop 版本匹配的 Access 数据库引擎版本（32 位或 64 位）。 可以从[下载页](https://www.microsoft.com/download/details.aspx?id=13255)安装 Access 数据库引擎。
 
 >[!NOTE]
 >如果安装的 Access 数据库引擎位版本不同于 Microsoft Office 安装的位版本，则 Office 应用程序将不能使用 Access 数据库引擎。
@@ -72,7 +71,7 @@ ms.locfileid: "72922545"
 
 若要安装 Access 数据库引擎的两个位版本，请执行以下步骤：
 
-1. 在[“下载”页](http://www.microsoft.com/download/details.aspx?id=13255)安装Access 数据库引擎的两个位版本。 
+1. 在[“下载”页](https://www.microsoft.com/download/details.aspx?id=13255)安装Access 数据库引擎的两个位版本。 
 
 1. 使用 /passive 开关运行 Access 数据库引擎的每个版本  。 例如：
    
@@ -84,7 +83,7 @@ ms.locfileid: "72922545"
 
 如果使用的是 Office 365 订阅，无论是 Office 2013 还是 Office 2016，Access 数据库引擎提供程序是在仅供 Microsoft Office 进程访问的虚拟注册表位置中进行注册    。 因此，糅合引擎（负责运行非 Office 365 Excel 和 Power BI Desktop，但不是 Office 进程）不能使用 Access 数据库引擎提供程序。
 
-若要纠正这种情形，请[下载并安装 Access 数据库引擎可再发行组件](http://www.microsoft.com/download/details.aspx?id=13255)，该组件与 Power BI Desktop 安装的位版本匹配。 有关位版本的详细信息，请参阅本文前面的部分。
+若要纠正这种情形，请[下载并安装 Access 数据库引擎可再发行组件](https://www.microsoft.com/download/details.aspx?id=13255)，该组件与 Power BI Desktop 安装的位版本匹配。 有关位版本的详细信息，请参阅本文前面的部分。
 
 ## <a name="other-situations-that-can-cause-import-issues"></a>可能导致导入问题发生的其他情形
 

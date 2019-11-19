@@ -10,16 +10,16 @@ ms.topic: conceptual
 ms.date: 10/08/2019
 ms.author: maggies
 LocalizationGroup: Get started
-ms.openlocfilehash: 11f60ba14734f40849aec47a492f4bf80c4ef3b5
-ms.sourcegitcommit: d02de4ca33d865aee3e3e764b98f221950cb0a10
+ms.openlocfilehash: 1612ae952489a047be884a25842bd47fd70d8447
+ms.sourcegitcommit: 2aa83bd53faad6fb02eb059188ae623e26503b2a
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/10/2019
-ms.locfileid: "72239962"
+ms.lasthandoff: 10/29/2019
+ms.locfileid: "73020192"
 ---
 # <a name="the-new-look-of-the-power-bi-service"></a>Power BI 服务的新外观
 
-Power BI 服务 (app.powerbi.com) 的新外观使报表查看和交互更加容易。 新外观更便捷，操作更贴近于你熟悉的其他 Microsoft 产品。 在整个 Power BI 服务中，我们通过转换成浅色主题并更新图标使得报表内容成为主要的关注点。 下面概述了新外观中相较原外观的变化。 有关详细信息，请参阅编号部分：
+Power BI 服务 (app.powerbi.com) 的新外观使报表查看和交互更加容易。 新外观更便捷，它基于你对其他 Microsoft 产品的熟悉程度。 在整个 Power BI 服务中，我们通过转换成浅色主题并更新图标使得报表内容成为主要的关注点。 下面概述了新外观中相较原外观的变化。 有关详细信息，请参阅编号部分：
 
 ![新外观更改概述](media/service-new-look/power-bi-new-look-changes.png)
 
@@ -66,13 +66,13 @@ Power BI 服务 (app.powerbi.com) 的新外观使报表查看和交互更加容�
 
 ### <a name="where-are-file-menu-actions"></a>“文件”菜单操作位于何处？
 
-想查找“文件”菜单中的操作  ？ 想查找“文件”菜单中的操作？过去位于“文件”菜单上的操作现在也位于“更多”选项 (...) 菜单上  。 
+想查找“文件”菜单中的操作  ？ 过去位于“文件”菜单上的操作现在也位于“更多选项” (...) 菜单上   。 
 
 ![新外观中的“文件”菜单](media/service-new-look/power-bi-file-menu-new-look.gif)
 
 ## <a name="6-new-filter-experience"></a>6.新筛选器体验
 
-默认情况下，新外观中使用最新升级的筛选器应用窗格和筛选器新建窗格。 即使报表设计器尚未升级到新的筛选器外观，也会显示新筛选器窗格。
+默认情况下，新外观中使用最新升级的筛选器应用窗格和筛选器新建窗格。 即使报表设计器尚未升级到新的筛选器体验，也会显示新筛选器窗格。
 
 ![筛选器重述](media/service-new-look/power-bi-new-look-filters.png)
 

@@ -9,12 +9,12 @@ ms.subservice: powerbi-consumer
 ms.topic: conceptual
 ms.date: 09/04/2019
 ms.author: mihart
-ms.openlocfilehash: b9622a08506c6f5ade900296d91b449c64dc374c
-ms.sourcegitcommit: 52aa112ac9194f4bb62b0910c4a1be80e1bf1276
+ms.openlocfilehash: a48589e6126203856a306de796c964ce6e347c26
+ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "70903659"
+ms.lasthandoff: 11/01/2019
+ms.locfileid: "73429881"
 ---
 # <a name="glossary-for-power-bi-service"></a>Power BI 服务词汇表
 Power BI 服务可能会引入不熟悉或容易混淆的术语。 词汇表是查找术语的好地方，可能需要将其加入书签。 了解构成 Power BI 服务的构建块的另一个极佳资源是[基本概念](end-user-basic-concepts.md)。 “基本概念”提供 Power BI 组件及其如何连接的简要概述。 
@@ -37,10 +37,8 @@ Power BI 服务可能会引入不熟悉或容易混淆的术语。 词汇表是�
 
 **answer card, answer page (回应卡，回应页)** 请参见“Cortana 回应卡”。
 
-**app, apps (应用)**
+**app, apps (应用)** 
 
- 
-**app workspace (应用工作区)** Power BI 中除“我的工作区”之外的所有工作区现在都是应用工作区。 内容可绑定到 Power BI 应用。 Premium 容量中存储的内容可与免费用户共享。 个人工作区（在“我的工作区”下）可托管于 Premium 容量中。  
 
 **AppSource** 集中式联机存储库，可以在此处浏览和发现要下载的仪表板、报表、数据集和应用。
 
@@ -54,7 +52,7 @@ Power BI 服务可能会引入不熟悉或容易混淆的术语。 词汇表是�
 
 **bookmark (书签)** Power BI Desktop 或服务中报告的“书签”窗格中所捕捉的数据视图。 在 Desktop 中，书签保存在 .pbix 报告文件中，以便在 Power BI 服务上共享
   
-**breadcrumbs (痕迹)** 左上角的导航，可在应用工作区之间快速导航。
+**breadcrumbs (痕迹)** 左上角的导航，可在工作区之间快速导航。
 
 ## <a name="c"></a>C
 
@@ -177,7 +175,7 @@ Power BI 服务可能会引入不熟悉或容易混淆的术语。 词汇表是�
 
 **modeling (建模)** [Power BI Desktop] 让已连接的数据可在 Power BI 中使用。 这包括，在多个数据源的表中创建关系，创建度量值，以及分配指标。
 
-**My workspace (我的工作区)** 每个 Power BI 客户用于创建内容的工作区。 如果他们想将在这里创建的任何内容绑定到应用，并且有“设计者”  权限，他们会将其上传到适当的应用工作区或新建一个。
+**My workspace (我的工作区)** 每个 Power BI 客户用于创建内容的工作区。 如果他们想将在这里创建的任何内容绑定到应用，并且有“设计者”权限，他们会将其上传到适当的工作区或新建一个  。
 
 ## <a name="n"></a>N
 
@@ -222,7 +220,7 @@ Power BI 服务可能会引入不熟悉或容易混淆的术语。 词汇表是�
 
 **Power BI**、**Power BI 服务**、**Power BI Desktop**、**Power BI 移动版**、一些其他 Power BI 产品。 *Power BI* 是一个泛称。 通常在首次提及完整产品名称之后用于代替完整产品名称，例如 Power BI 服务  和 Power BI 移动版  。
 
-**Power BI Desktop** 也称为 *Desktop*。 可在本地计算机上安装的免费的 Windows Power BI 应用程序，可用于连接到数据、转换数据并实现数据的可视化效果。 由报表设计人员和管理员使用。 有关详细信息，请参阅[什么是 Power BI？](../power-bi-overview.md)。
+**Power BI Desktop** 也称为 *Desktop*。 可在本地计算机上安装的免费的 Windows Power BI 应用程序，可用于连接到数据、转换数据并实现数据的可视化效果。 由报表设计人员和管理员使用。 有关详细信息，请参阅[什么是 Power BI？](../fundamentals/power-bi-overview.md)。
 
 **Power BI Embedded** 由开发人员使用，将 Power BI 仪表板和报表嵌入自己的应用、站点和工具。
 
@@ -232,7 +230,7 @@ Power BI 服务可能会引入不熟悉或容易混淆的术语。 词汇表是�
 
 **Power BI Report Server (Power BI 报表服务器)** SSRS 的一个新品牌产品，与 Power BI Premium 一起发布，让组织可以构建已分发的混合 BI 系统（云和本地部署的混合体）。 Embedded 提供了存储和管理 Power BI 报表的本地化方法。
 
-**Power BI service (Power BI 服务)** 联机 SaaS（软件即服务）服务。 有关详细信息，请参阅[什么是 Power BI？](../power-bi-overview.md)。
+**Power BI service (Power BI 服务)** 联机 SaaS（软件即服务）服务。 有关详细信息，请参阅[什么是 Power BI？](../fundamentals/power-bi-overview.md)。
 
 **Power BI service connector (Power BI 服务连接器)** 此连接器让 Power BI Desktop 用户能够从 Desktop 连接到 Power BI 服务中的数据集。 他们可以创建一次模型，然后在许多报表和仪表板中重复使用。
 
@@ -325,7 +323,7 @@ Power BI 仪表板包含报表磁贴。
 
 **workbook (工作簿)** 要用作数据源的 Excel 工作簿。 工作簿可包含一个数据模型，有一个或多个表通过使用链接的表、Power Query 或 Power Pivot 加载到其中。
 
-**workspace (工作区)** Power BI 中仪表板、报表、数据集的容器。 请参见本术语集中的“应用工作区”。
+**workspace (工作区)** Power BI 中仪表板、报表、数据集的容器。 用户可以在“我的工作区”以外的任何工作区中进行内容协作。 内容可绑定到 Power BI 应用。 Premium 容量中存储的内容可与免费用户共享。 个人工作区（在“我的工作区”下）可托管于 Premium 容量中。
 
 ## <a name="x"></a>X
 **x-axis (x 轴)**  

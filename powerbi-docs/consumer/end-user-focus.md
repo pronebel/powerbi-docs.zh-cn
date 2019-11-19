@@ -11,14 +11,16 @@ ms.topic: conceptual
 ms.date: 09/23/2019
 ms.author: mihart
 LocalizationGroup: Common tasks
-ms.openlocfilehash: a52fdbefabf84df22c89b0e933d56352fedf5da1
-ms.sourcegitcommit: e2c5d4561455c3a4806ace85defbc72e4d7573b4
+ms.openlocfilehash: 3a4f120ec64376955433faf04e24dd0e8f623419
+ms.sourcegitcommit: 2aa83bd53faad6fb02eb059188ae623e26503b2a
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "71327798"
+ms.lasthandoff: 10/29/2019
+ms.locfileid: "73019828"
 ---
 # <a name="display-content-in-more-detail-focus-mode-and-full-screen-mode"></a>更详细地显示内容：焦点模式和全屏模式
+
+[!INCLUDE [power-bi-service-new-look-include](../includes/power-bi-service-new-look-include.md)]    
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/dtdLul6otYE" frameborder="0" allowfullscreen></iframe>
 
@@ -97,11 +99,11 @@ ms.locfileid: "71327798"
 
 1. 在 Power BI 服务中打开仪表板。
 
-2. 将鼠标悬停在仪表板磁贴或报表视觉对象上，依次选择省略号 (...) 和“以焦点模式打开”  。
+2. 将鼠标悬停在仪表板磁贴或报表视觉对象上，依次选择“更多选项”(…) 和“以焦点模式打开”   。
 
     ![磁贴的省略号菜单](media/end-user-focus/power-bi-dashboard-focus.png)。
 
-2. 该磁贴随即打开并填充整个报表画布。 请注意，仍有一个可用于与视觉对象交互的“筛选器”窗格  。 “筛选器”窗格可以折叠  。 
+2. 该磁贴随即打开并填充整个报表画布。 请注意，仍有一个可用于与视觉对象交互的“筛选器”窗格  。 “筛选器”窗格可以折叠  。
 
    ![磁贴填充报表画布](media/end-user-focus/power-bi-focus-filter.png)
 

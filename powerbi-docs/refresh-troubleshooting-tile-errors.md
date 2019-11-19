@@ -11,12 +11,12 @@ ms.topic: troubleshooting
 ms.date: 12/06/2018
 ms.author: mblythe
 LocalizationGroup: Troubleshooting
-ms.openlocfilehash: f6becb175b8779588ab8d203bb02256945c71ee6
-ms.sourcegitcommit: e5cf19e16112c7dad1591c3b38d232267ffb3ae1
+ms.openlocfilehash: 4ba6b4840a35e00c4b170a6b916bf3877508546a
+ms.sourcegitcommit: 2aa83bd53faad6fb02eb059188ae623e26503b2a
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "72544282"
+ms.lasthandoff: 10/29/2019
+ms.locfileid: "73021533"
 ---
 # <a name="troubleshooting-tile-errors"></a>磁贴错误故障排除
 下面是使用磁贴可能会遇到的常见错误以及错误说明。
@@ -69,7 +69,7 @@ Power BI 管理员已禁用组织或安全组的自定义视觉对象。 将无�
 
 如果将基础数据集配置为使用 DirectQuery 模式，或通过本地数据网关实时连接到分析服务，则可能会发生这种情况。 在这种情况下，在为数据源启用 SSO 后，磁贴将继续显示未筛选的数据，直到应发生下次磁贴刷新。 进行下次磁贴刷新时，Power BI 根据配置使用 SSO，磁贴显示根据用户标识筛选的数据。 
 
-如果要立即看到筛选后的数据，可以通过选择仪表板右上角的省略号 (...) 并选择“刷新仪表板磁贴”来强制进行磁贴刷新  。
+如果要立即看到筛选后的数据，可以通过选择仪表板右上角的“更多选择”(...) 并选择“刷新仪表板磁贴”来强制进行磁贴刷新   。
 
 作为数据集所有者，还可以更改磁贴刷新频率，将其设置为 15 分钟以加速磁贴刷新。 选择 Power BI 服务右上角的“齿轮”  图标，然后选择“设置”。 在“设置”页上，选择“数据集”选项卡   。展开“计划的缓存刷新”  并更改“刷新频率”  。 在 Power BI 执行下次磁贴刷新后，请务必将配置重置为原始刷新频率。
 

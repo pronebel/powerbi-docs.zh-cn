@@ -2,7 +2,6 @@
 title: 教程：在 Power BI Desktop 中调整和合并数据
 description: 在本教程中，将了解如何在 Power BI Desktop 中调整和合并数据
 author: davidiseminger
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
@@ -10,12 +9,12 @@ ms.topic: tutorial
 ms.date: 10/18/2019
 ms.author: davidi
 LocalizationGroup: Transform and shape data
-ms.openlocfilehash: 19e0fa75426cd3e3f72ce9c01712b8d1c52e4abf
-ms.sourcegitcommit: 17f45a81b0dcbf9e3f1fb2a551584170baecd320
+ms.openlocfilehash: d6a36f8ef3ef5d668fe8d6021758b651cdbf7fd5
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/25/2019
-ms.locfileid: "72922585"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73877827"
 ---
 # <a name="tutorial-shape-and-combine-data-in-power-bi-desktop"></a>教程：在 Power BI Desktop 中调整和合并数据
 
@@ -195,7 +194,7 @@ Power BI Desktop 中的查询编辑器大量地使用右键单击菜单和“转
 
 1. 从查询编辑器的“开始”功能区中选择“新源”\>“Web”   。 
 
-2. 输入州缩写的网站地址 http://en.wikipedia.org/wiki/List_of_U.S._state_abbreviations ，然后选择“连接”   。
+2. 输入州缩写的网站地址 https://en.wikipedia.org/wiki/List_of_U.S._state_abbreviations ，然后选择“连接”   。
 
    导航器显示网站的内容。
 

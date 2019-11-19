@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/01/2019
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: e086cc89a24760bce0c4a45efd558dc47495bd04
-ms.sourcegitcommit: 5e277dae93832d10033defb2a9e85ecaa8ffb8ec
+ms.openlocfilehash: 5e445f24f78d4171c0c2c12ccbe4a1bf55b9825d
+ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/07/2019
-ms.locfileid: "72020772"
+ms.lasthandoff: 11/01/2019
+ms.locfileid: "73431933"
 ---
 # <a name="intro-to-datasets-across-workspaces-preview"></a>跨工作区使用数据集简介（预览）
 
@@ -62,7 +62,7 @@ ms.locfileid: "72020772"
 
 ## <a name="considerations-and-limitations"></a>注意事项和限制
 
-- 应用发布者必须确保受众有权访问应用工作区之外的数据集。 否则，当用户与应用交互时，将遇到问题：不会在没有数据集访问权限的情况下打开报表，仪表板磁贴将显示为锁定。 此外，如果导航中的第一项是无法访问数据集的报表，则用户将无法打开该应用。
+- 应用发布者必须确保受众有权访问工作区之外的数据集。 否则，当用户与应用交互时，将遇到问题：不会在没有数据集访问权限的情况下打开报表，仪表板磁贴将显示为锁定。 此外，如果导航中的第一项是无法访问数据集的报表，则用户将无法打开该应用。
 - 在另一工作区中的数据集上生成报表需要两个部分的新的体验工作区：报表需要位于新的体验工作区中，数据集也需要位于新的体验工作区中。
 - 在经典工作区中，数据集发现体验仅显示该工作区中的数据集。
 - 按照设计，“发布到 Web”不适用于基于共享数据集的报表。

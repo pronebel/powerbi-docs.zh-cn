@@ -2,7 +2,6 @@
 title: 教程：在 Power BI Desktop 中创建你自己的度量值
 description: 教程：在 Power BI Desktop 中创建你自己的度量值
 author: davidiseminger
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
@@ -10,12 +9,12 @@ ms.topic: tutorial
 ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Learn more
-ms.openlocfilehash: 59567b62c44a386b3890f68de49b9f7aed76aa45
-ms.sourcegitcommit: 2aa83bd53faad6fb02eb059188ae623e26503b2a
+ms.openlocfilehash: ade9c163c017b13b0524c66f67f7a27378dc4b80
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/29/2019
-ms.locfileid: "73019350"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73865947"
 ---
 # <a name="tutorial-create-your-own-measures-in-power-bi-desktop"></a>教程：在 Power BI Desktop 中创建你自己的度量值
 通过使用度量值，可以在 Power BI Desktop 中创建某些功能强大的数据分析解决方案。 度量值可在与报表进行交互时帮助对数据执行计算。 本教程将引导你了解度量值并在 Power BI Desktop 中创建自己的基本度量值。
@@ -23,7 +22,7 @@ ms.locfileid: "73019350"
 ### <a name="prerequisites"></a>先决条件
 - 本教程面向已熟悉使用 Power BI Desktop 创建更高级的模型的 Power BI 用户。 你应该已经熟悉使用“获取数据”和“查询编辑器”来导出数据、使用多个相关表和向报表画布添加字段。 如果刚开始使用 Power BI Desktop，请务必查看 [Power BI Desktop 入门](desktop-getting-started.md)。
   
-- 下载 [Power BI Desktop 的 Contoso 销售示例](http://download.microsoft.com/download/4/6/A/46AB5E74-50F6-4761-8EDB-5AE077FD603C/Contoso%20Sales%20Sample%20for%20Power%20BI%20Desktop.zip)文件，其中包含来自虚构公司 Contoso,inc. 的线上销售数据。由于该数据从数据库导入，因此你将无法连接到数据源或在“查询编辑器”中查看其内容。 请在你自己的计算机上提取该文件，然后在 Power BI Desktop 中打开它。
+- 下载 [Power BI Desktop 的 Contoso 销售示例](https://download.microsoft.com/download/4/6/A/46AB5E74-50F6-4761-8EDB-5AE077FD603C/Contoso%20Sales%20Sample%20for%20Power%20BI%20Desktop.zip)文件，其中包含来自虚构公司 Contoso,inc. 的线上销售数据。由于该数据从数据库导入，因此你将无法连接到数据源或在“查询编辑器”中查看其内容。 请在你自己的计算机上提取该文件，然后在 Power BI Desktop 中打开它。
 
 ## <a name="understand-measures"></a>了解度量值
 

@@ -2,19 +2,18 @@
 title: Power BI 移动应用中的收藏夹
 description: 了解如何在移动应用中收藏和查看 Power BI 仪表板、报表和应用，以及 Power BI 报表服务器和 Reporting Services 报表和 KPI。
 author: mshenhav
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 05/05/2018
 ms.author: mshenhav
-ms.openlocfilehash: 433bfc6298632eb9b999a23fe4b54417add507a3
-ms.sourcegitcommit: 52aa112ac9194f4bb62b0910c4a1be80e1bf1276
+ms.openlocfilehash: c4fcf7bea8bf458231533efbc88e307d8d9ba2ab
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "61339188"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73870682"
 ---
 # <a name="make-and-view-favorites-in-the-power-bi-mobile-apps"></a>在 Power BI 移动应用中收藏和查看
 适用于：
@@ -44,7 +43,7 @@ ms.locfileid: "61339188"
   ![“收藏夹”页](./media/mobile-apps-favorites/power-bi-ipad-favorites.png)
 
 ## <a name="make-an-app-a-favorite"></a>收藏应用
-1. 在移动应用上的应用列表中，依次点击应用旁边的省略号 (...) 和“收藏”  。
+1. 在移动应用上的应用列表中，依次点击应用旁边的“更多选项”(…) 和“收藏”   。
    
     ![应用收藏夹菜单](./media/mobile-apps-favorites/power-bi-android-favorite-app-ellipsis.png)
    
@@ -65,7 +64,7 @@ ms.locfileid: "61339188"
 ## <a name="make-a-dashboard-or-report-a-favorite-in-the-android-mobile-apps"></a>在 Android 移动应用中收藏仪表板或报表
 可以从仪表板或报表列表或仪表板或报表本身收藏仪表板或报表。
 
-* 在移动应用的仪表板或报表列表中，点击名称旁边的竖省略号 (...)，然后点击“添加到收藏夹”  。 此时，![收藏图标](./././media/mobile-apps-favorites/power-bi-mobile-yes-favorite-icon.png)名称旁边会显示黄色五角星。
+* 在移动应用的仪表板或报表列表中，点击名称旁边的垂直“更多选项”(…) 按钮，然后点击“收藏”   。 此时，![收藏图标](./././media/mobile-apps-favorites/power-bi-mobile-yes-favorite-icon.png)名称旁边会显示黄色五角星。
   
     ![Android 收藏夹菜单](./media/mobile-apps-favorites/power-bi-android-make-favorite.png)
 * 在仪表板或报表上，点击功能区中的空心五角星 ![“未收藏”图标](./././media/mobile-apps-favorites/power-bi-mobile-not-favorite-icon.png)。 五角星会变成深灰色 ![“收藏”图标](./media/mobile-apps-favorites/power-bi-android-favorite-icon.png)。
@@ -77,5 +76,5 @@ ms.locfileid: "61339188"
 
 ## <a name="next-steps"></a>后续步骤
 * [Power BI 服务中最喜爱的仪表板](../end-user-favorite.md) 
-* 是否有任何问题？ [尝试咨询 Power BI 社区](http://community.powerbi.com/)
+* 是否有任何问题？ [尝试咨询 Power BI 社区](https://community.powerbi.com/)
 

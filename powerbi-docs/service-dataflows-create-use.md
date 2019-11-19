@@ -10,18 +10,18 @@ ms.topic: conceptual
 ms.date: 04/02/2019
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: 4507490fc2986ec7934af4c9e7417585523c7a05
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: 38ecb04b45ef45a8345397c5b9ec3e89d9dfd232
+ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61143118"
+ms.lasthandoff: 11/01/2019
+ms.locfileid: "73432060"
 ---
 # <a name="creating-and-using-dataflows-in-power-bi"></a>在 Power BI 中创建和使用数据流
 
 借助 Power BI 提供的高级数据准备功能，可以创建数据集合（称之为数据流），之后则可以使用此集合连接来自各种源的业务数据、清理和转换该数据，然后将其加载到 Power BI 存储。 
 
-数据流是在 Power BI 服务的应用工作区中创建和管理的实体（实体类似于表）集合。   可以添加和编辑数据流中的实体，还可以直接从创建数据流的工作区管理数据刷新计划。
+数据流是在 Power BI 服务的工作区中创建和管理的实体（实体类似于表）集合   。 可以添加和编辑数据流中的实体，还可以直接从创建数据流的工作区管理数据刷新计划。
 
 创建数据流后，则可以基于置于 Power BI 数据流的数据使用 Power BI Desktop 和 Power BI 服务创建数据集、报表、仪表板和应用，以此方式来获取关于业务活动的见解。  
 
@@ -36,13 +36,13 @@ ms.locfileid: "61143118"
 通过以下各节，我们可以了解以上各个步骤，并熟悉用于完成各个步骤的工具。 让我们开始吧。
 
 ## <a name="creating-a-dataflow"></a>创建数据流
-若要创建数据流，请在浏览器中启动 Power BI 服务，然后从左侧导航窗格选择一个应用工作区（数据流在 Power BI 服务的“我的工作区”中不可用），如以下屏幕所示。   也可以新建一个工作区，用于创建新的工作流。 
+若要创建数据流，请在浏览器中启动 Power BI 服务，然后从左侧导航窗格选择一个工作区（数据流在 Power BI 服务的“我的工作区”中不可用），如以下屏幕所示   。 也可以新建一个工作区，用于创建新的工作流。 
 
 ![在 Power BI 中创建数据流](media/service-dataflows-create-use/dataflows-create-use_02a.png)
 
-处于可用于创建数据流的应用工作区区域后，画布的右上角会出现“+ 创建”按钮。   选择“+ 创建”按钮，然后从下拉列表选择“数据流”。   
+处于可用于创建数据流的工作区区域后，画布的右上角会出现“+ 创建”按钮   。 选择“+ 创建”按钮，然后从下拉列表选择“数据流”。   
 
-须知任何数据流均只有一个所有者，即创建该数据流的人。  只有所有者可以编辑该数据流。 对创建该数据流的应用工作区具有读取或写入权限的所有应用工作区成员都可以从 Power BI Desktop 中连接到该数据流，如本文后续部分中所述。  
+须知任何数据流均只有一个所有者，即创建该数据流的人。  只有所有者可以编辑该数据流。 对创建该数据流的工作区具有读取或写入权限的所有工作区成员都可以从 Power BI Desktop 中连接到该数据流，如本文后续部分中所述   。
 
 ![Power BI 服务中用于创建数据流的“+ 创建”按钮](media/service-dataflows-create-use/dataflows-create-use_03a.png)
 
@@ -111,7 +111,7 @@ ms.locfileid: "61143118"
 
 保存数据流后，需要为各个已连接的数据源计划刷新频率。
 
-Power BI 数据流使用 Power BI 数据刷新过程使数据保持最新状态。 在 Power BI 服务的应用工作区区域中有可列出信息的区域的集合，其中包括数据流，如下图所示。  
+Power BI 数据流使用 Power BI 数据刷新过程使数据保持最新状态。 在 Power BI 服务的“工作区”区域中有可列出信息的区域的集合，其中包括数据流，如下图所示   。
 
 ![在 Power BI 服务中管理数据流](media/service-dataflows-create-use/dataflows-create-use_12.png)
 
@@ -134,7 +134,7 @@ Power BI 数据流使用 Power BI 数据刷新过程使数据保持最新状态�
 
 ![从 Power BI Desktop 连接到数据流](media/service-dataflows-create-use/dataflows-create-use_15.png)
 
-从该位置导航到保存数据流的“应用工作区”，选择数据流，然后从列表选择所创建的实体。 
+从该位置导航到保存数据流的“工作区”，选择数据流，然后从列表选择所创建的实体  。
 
 另外，还可以使用窗口顶部附近的搜索栏从众多数据流实体中快速找到你的数据流或实体的名称。 
 

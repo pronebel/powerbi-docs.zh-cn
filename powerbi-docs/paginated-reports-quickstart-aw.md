@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: tutorial
 ms.date: 11/06/2018
-ms.openlocfilehash: 44af74b722e5d21c7475a382f8097f453854230d
-ms.sourcegitcommit: 797bb40f691384cb1b23dd08c1634f672b4a82bb
+ms.openlocfilehash: 59d3f943ff893024beceff59ce3d0db6bc4d764b
+ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/12/2019
-ms.locfileid: "66839730"
+ms.lasthandoff: 11/01/2019
+ms.locfileid: "73431667"
 ---
 # <a name="tutorial-create-a-paginated-report-and-upload-it-to-the-power-bi-service"></a>教程：创建分页报表并将其上传到 Power BI 服务
 
@@ -44,7 +44,7 @@ ms.locfileid: "66839730"
 以下是将分页报表上传到 Power BI 服务的先决条件：
 
 - 需要 [Power BI Pro 许可证](service-admin-power-bi-pro-in-your-organization.md)。
-- 需要 [Power BI 高级容量](service-premium-what-is.md)中的服务上的应用工作区。 它在工作区名称旁边有一个菱形图标![高级菱形图标](media/paginated-reports-quickstart-aw/premium-diamond.png)。
+- 需要 [Power BI Premium 容量](service-premium-what-is.md)中的服务上的工作区。 它在工作区名称旁边有一个菱形图标![高级菱形图标](media/paginated-reports-quickstart-aw/premium-diamond.png)。
 
 ## <a name="create-the-matrix-with-a-wizard"></a>使用向导创建矩阵
   
@@ -287,7 +287,7 @@ ms.locfileid: "66839730"
 
 既然已经创建了这个分页报表，现在是时候将它上传到 Power BI 服务了。
 
-1. 在 Power BI 服务中（左侧导航中的 http://app.powerbi.com) ，选择“工作区”   > “创建应用工作区”  。
+1. 在 Power BI 服务中（左侧导航中的 http://app.powerbi.com) ，选择“工作区” > “创建工作区”   。
 
 2. 将工作区命名为“Azure AW”  或其他唯一名称。 现在，你是唯一的成员。 
 

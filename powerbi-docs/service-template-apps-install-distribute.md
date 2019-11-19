@@ -9,12 +9,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 09/14/2019
 ms.author: tebercov
-ms.openlocfilehash: 660fd7c623e8a195f937a3a2b468f758986411e1
-ms.sourcegitcommit: e2de2e8b8e78240c306fe6cca820e5f6ff188944
+ms.openlocfilehash: 4db4fbc0dd34ae558514058e0aa7af0a704d8411
+ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/23/2019
-ms.locfileid: "71195195"
+ms.lasthandoff: 11/01/2019
+ms.locfileid: "73432335"
 ---
 # <a name="install-and-distribute-template-apps-in-your-organization---power-bi"></a>在组织中安装和分发模板应用 - Power BI
 
@@ -57,7 +57,7 @@ ms.locfileid: "71195195"
 
 4. 在对话框中，选择“安装”  。
 
-    ![安装应用](media/service-template-apps-install-distribute/power-install-dialog.png) 如果拥有 Power BI Pro 许可证，则会安装该应用及其关联的应用工作区。 可以在关联的工作区中自定义应用。
+    ![安装应用](media/service-template-apps-install-distribute/power-install-dialog.png) 如果拥有 Power BI Pro 许可证，则会安装该应用及其关联的工作区。 可以在关联的工作区中自定义应用。
 
     安装成功后，会看到新应用已就绪的通知。
 4. 选择“转到应用”  。
@@ -71,7 +71,7 @@ ms.locfileid: "71195195"
 
     或者跳过此对话框并直接通过左侧导航窗格中的“工作区”访问关联的工作区  。
     >[!NOTE]
-    >安装模板应用，会同时安装组织应用和应用工作区   。 详细了解如何[在 Power BI 中分发应用](service-create-distribute-apps.md)。
+    >安装模板应用，会同时安装组织应用和工作区   。 详细了解如何[在 Power BI 中分发应用](service-create-distribute-apps.md)。
  
 6. 在与同事共享之前，需要连接到自己的数据。 可能还希望修改报表或仪表板，使其适用于组织。 还可以在此处添加其他报表或仪表板。
 

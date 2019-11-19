@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 09/10/2019
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 32b9adc92222e2122aff41d7ef7ef351c3158951
-ms.sourcegitcommit: 5e277dae93832d10033defb2a9e85ecaa8ffb8ec
+ms.openlocfilehash: 1087ac4301a172500c997e78ee3a16695f6b0d73
+ms.sourcegitcommit: 2aa83bd53faad6fb02eb059188ae623e26503b2a
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/07/2019
-ms.locfileid: "72020242"
+ms.lasthandoff: 10/29/2019
+ms.locfileid: "73021092"
 ---
 # <a name="create-classic-workspaces-in-power-bi"></a>在 Power BI 中创建经典工作区
 
@@ -39,7 +39,7 @@ ms.locfileid: "72020242"
 ### <a name="add-an-image-to-your-office-365-workspace-optional"></a>将图像添加到 Office 365 工作区（可选）
 默认情况下，Power BI 会为应用创建一个带有应用首字母的彩色小圆圈。 但你可能会想要使用图像对其进行自定义。 若要添加映像，需要 Exchange Online 许可证。
 
-1. 选择“工作区”  ，然后选择工作区名称旁边的省略号 (...)，选择“成员”  。 
+1. 选择“工作区”，选择工作区名称旁边的“更多选项”(…)，然后选择“成员”    。 
    
      ![选择工作区成员](media/service-create-workspaces/power-bi-workspace-old-members.png)
    

@@ -10,15 +10,15 @@ ms.topic: tutorial
 ms.date: 09/05/2019
 ms.author: maggies
 LocalizationGroup: Get started
-ms.openlocfilehash: 49504343b076d7e2371c45005da24e35831bf506
-ms.sourcegitcommit: 9665997274301b228f45aa7250ba557e90164a4d
+ms.openlocfilehash: 681c55f4425729b96860367858273d7eb1ad73b6
+ms.sourcegitcommit: d441d350504f8c6d9e100d229757add6237f0bef
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/06/2019
-ms.locfileid: "70751114"
+ms.lasthandoff: 10/30/2019
+ms.locfileid: "73060395"
 ---
 # <a name="tutorial-get-started-with-the-power-bi-service"></a>教程：Power BI 服务入门
-本教程介绍了 Power BI 服务的一些功能  。 在这里，你可连接到数据、创建报表和仪表板，并就你的问题提问。 你还可在 Power BI 服务中执行更多其他操作；本教程仅作激发兴趣之用。 要了解 Power BI 服务如何与其他 Power BI 产品/服务契合，建议阅读[什么是 Power BI](power-bi-overview.md)。
+本教程介绍了 Power BI 服务的一些功能  。 在这里，你可连接到数据、创建报表和仪表板，并就你的问题提问。 你还可在 Power BI 服务中执行更多其他操作；本教程仅作激发兴趣之用。 要了解 Power BI 服务如何与其他 Power BI 产品/服务契合，建议阅读[什么是 Power BI](fundamentals/power-bi-overview.md)。
 
 ![Power BI 服务主页](media/service-get-started/power-bi-service-get-started-home.png)
 
@@ -115,7 +115,7 @@ ms.locfileid: "70751114"
    
 8. 在仪表板上选择新的磁贴，以便返回到报表。 Power BI 会转回到报表的“阅读视图”。 
 
-1. 要切换回“编辑视图”，请在顶部导航栏中选择省略号 (...)，然后选择“编辑”  。 回到“编辑视图”后，可继续探索并固定磁贴。
+1. 要切换回“编辑视图”，请在顶部导航栏中选择“更多选项”(…)，然后选择“编辑”   。 回到“编辑视图”后，可继续探索并固定磁贴。
 
     ![选择“编辑”以编辑报表](media/service-get-started/power-bi-service-edit-report.png)
 
@@ -200,7 +200,7 @@ ms.locfileid: "70751114"
 
 1. 在左侧导航栏中，确保位于“我的工作区”中  。
 2. 选择“数据集”  选项卡并找到本教程导入的数据集。  
-3. 选择省略号 (...)，再选择“删除”  。
+3. 选择“更多选项”(…) >“删除”   。
 
     ![删除数据集](media/service-get-started/power-bi-service-delete-dataset.png)
 

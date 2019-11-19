@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/17/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: b200ec86db339e42a708c3db042df06b9513cc6e
-ms.sourcegitcommit: f34acbf9fb1ab568fd89773aaf412a847f88dd34
+ms.openlocfilehash: 24dbce4d825e51d40fc9a42384561d4608f18035
+ms.sourcegitcommit: 2aa83bd53faad6fb02eb059188ae623e26503b2a
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/18/2019
-ms.locfileid: "72589489"
+ms.lasthandoff: 10/29/2019
+ms.locfileid: "73019899"
 ---
 # <a name="drill-mode-in-a-visual-in-power-bi"></a>Power BI 视觉对象中的钻取模式
 
@@ -128,7 +128,7 @@ ms.locfileid: "72589489"
 ## <a name="show-the-data-as-you-drill"></a>在钻取时显示数据
 使用“显示数据”了解内在情况  。 每次钻取或展开时，“显示数据”都可显示用于构建视觉对象的数据  。 这有助于了解如何结合使用层次结构、钻取和展开以构建视觉对象。 
 
-依次选择右上角的省略号 (...) 和“显示数据”  。 
+选择右上角的“更多选项”(…)，然后选择“显示数据”   。 
 
 ![省略号菜单的屏幕截图。](./media/end-user-drill/power-bi-ellipses.png)
 

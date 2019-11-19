@@ -10,12 +10,12 @@ ms.topic: quickstart
 ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: quickstart
-ms.openlocfilehash: 253ecbad775a2f4aa7dd1974c534fdcaa222676c
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: 05d8c990b7057ab59515826547a42ce1ee643ac2
+ms.sourcegitcommit: 96217747f07d923d1a9d31f67a853f1ef1d17b20
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "65514457"
+ms.lasthandoff: 10/24/2019
+ms.locfileid: "72891684"
 ---
 # <a name="quickstart-connect-to-data-in-power-bi-desktop"></a>快速入门：连接到 Power BI Desktop 中的数据
 
@@ -33,7 +33,7 @@ ms.locfileid: "65514457"
 
 ## <a name="launch-power-bi-desktop"></a>启动 Power BI Desktop
 
-安装 Power BI Desktop  后，启动应用程序，以便它在本地计算机上运行。 将看到空白画布，你将在其中通过连接的数据创建视觉对象和报表。 
+安装 Power BI Desktop  后，启动应用程序，以便它在本地计算机上运行。 你会看到一个 Power BI 教程。 按照教程进行操作或单击此处，然后从空白画布开始，你将在其中通过连接的数据创建视觉对象和报表。 
 
 ![Power BI Desktop - 空白画布](media/desktop-quickstart-connect-to-data/qs-connect-data_01.png)
 

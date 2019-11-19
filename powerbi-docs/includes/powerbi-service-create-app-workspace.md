@@ -8,12 +8,12 @@ ms.topic: include
 ms.date: 09/10/2019
 ms.author: maggies
 ms.custom: include file
-ms.openlocfilehash: 1e64237490e45cfcf9a9a0102f3e03ecab138ce2
-ms.sourcegitcommit: db4fc5da8e65e0a3dc35582d7142a64ad3405de7
+ms.openlocfilehash: 6d8de145f9158e4aa649fa39670fdf2808fc5af4
+ms.sourcegitcommit: 2aa83bd53faad6fb02eb059188ae623e26503b2a
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/11/2019
-ms.locfileid: "70903952"
+ms.lasthandoff: 10/29/2019
+ms.locfileid: "73021108"
 ---
 1. 首先，创建工作区。 选择“工作区”   > “创建工作区”  。 
    
@@ -53,7 +53,7 @@ ms.locfileid: "70903952"
 
 7. 选择**保存**。
 
-Power BI 创建工作区并将其打开。 它显示在你作为成员的工作区的列表中。 作为管理员，你可以选择省略号(…) 返回并进行更改，添加新成员或更改其权限。
+Power BI 创建工作区并将其打开。 它显示在你作为成员的工作区的列表中。 作为管理员，你可以选择“更多选项”(…) 返回并进行更改，添加新成员或更改其权限  。
 
 ![编辑工作区](media/powerbi-service-create-app-workspace/power-bi-workspace-old-settings.png)
 

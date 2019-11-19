@@ -2,25 +2,24 @@
 title: 在 Apple Watch 上的移动应用中浏览 Power BI 数据
 description: Power BI Apple Watch 应用
 author: mshenhav
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 10/13/2017
 ms.author: mshenhav
-ms.openlocfilehash: a99d18d424421949ede9bacd5642235b04170659
-ms.sourcegitcommit: 52aa112ac9194f4bb62b0910c4a1be80e1bf1276
+ms.openlocfilehash: 31db6725c027ed09e900dac7036778004e9e3ff3
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "61338849"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73870730"
 ---
 # <a name="explore-your-data-in-the-power-bi-mobile-app-on-your-apple-watch"></a>在 Apple Watch 上的 Power BI 移动应用中浏览数据
 Power BI Apple Watch 应用可以让你在手表上从 Power BI 仪表板查看 KPI 和卡磁贴。 KPI 和卡磁贴最适合在小屏幕上提供心跳测量。 可以从 iPhone 或 Watch 自身刷新仪表板。
 
 ## <a name="install-the-apple-watch-app"></a>安装 Apple Watch 应用
-因为 Power BI Apple Watch 应用绑定了适用于 iOS 的 Power BI 应用，所以当你从 Apple 应用商店[将 Power BI 应用下载到你的 iPhone] (http://go.microsoft.com/fwlink/?LinkId=522062 "下载 iPhone 应用")时，你也会自动下载 Power BI Watch 应用。 Apple 指南说明了如何[安装 Apple Watch 应用程序](https://support.apple.com/HT204784)。
+因为 Power BI Apple Watch 应用绑定了适用于 iOS 的 Power BI 应用，所以当你从 Apple 应用商店[将 Power BI 应用下载到你的 iPhone](https://go.microsoft.com/fwlink/?LinkId=522062 "下载 iPhone 应用") 时，也会自动下载 Power BI Watch 应用。 Apple 指南说明了如何[安装 Apple Watch 应用程序](https://support.apple.com/HT204784)。
 
 ## <a name="use-the-power-bi-app-on-the-apple-watch"></a>在 Apple Watch 上使用 Power BI 应用
 从手表的 springboard 或直接从手表表盘单击 Power BI 小组件（如果已配置），以获取 Power BI Apple Watch 应用。
@@ -52,7 +51,7 @@ Watch 应用会立即将仪表板与 Power BI 服务中的数据同步。
 还可以从 iPhone 刷新 Apple Watch 上的仪表板。
 
 1. 在 iPhone 上的 Power BI 中，打开你想要同步到 Apple Watch 的仪表板。 
-2. 选择省略号 (...) >“同步到 Watch”  。
+2. 选择“更多选项”(...) >“与 Watch 同步”   。
 
 Power BI 将显示仪表板已同步到手表的指示器。
 
@@ -86,7 +85,7 @@ Power BI Apple Watch 小组件更新的时间接近数据更新的时间，请�
 ## <a name="next-steps"></a>后续步骤
 你的反馈将帮助我们决定未来要做什么，如果你想在 Power BI 移动应用中看到其他功能，别忘了向我们提出你的建议。 
 
-* 下载 [Power BI iPhone 移动应用](http://go.microsoft.com/fwlink/?LinkId=522062)
+* 下载 [Power BI iPhone 移动应用](https://go.microsoft.com/fwlink/?LinkId=522062)
 * 关注 [Twitter 上的 @MSPowerBI](https://twitter.com/MSPowerBI)
-* 加入 [Power BI 社区](http://community.powerbi.com/)的对话
+* 加入 [Power BI 社区](https://community.powerbi.com/)的对话
 

@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/02/2019
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 7d53acc0dc8c669026665347de9593fa1df84c62
-ms.sourcegitcommit: 5e277dae93832d10033defb2a9e85ecaa8ffb8ec
+ms.openlocfilehash: 2fdc893ac8545df8fc64f45959a418018a189c84
+ms.sourcegitcommit: 2aa83bd53faad6fb02eb059188ae623e26503b2a
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/07/2019
-ms.locfileid: "72020146"
+ms.lasthandoff: 10/29/2019
+ms.locfileid: "73020470"
 ---
 # <a name="create-the-new-workspaces-in-power-bi"></a>在 Power BI 中创建新工作区
 
@@ -74,7 +74,7 @@ Power BI 引入了新工作区体验。 工作区仍是与同事协作创建仪�
 
     第一次创建工作区时，在“创建工作区”窗格中  。
 
-    在左侧导航窗格中，选择“工作区”旁边的箭头，然后选择工作区名称旁边的省略号 (…)，接下来选择“工作区设置”   。 随即打开“设置”窗格。 
+    在左侧导航窗格中，选择“工作区”旁边的箭头，然后选择工作区名称旁边的“更多选项”(…)，接下来选择“工作区设置”    。 随即打开“设置”窗格。 
 
     ![工作区设置](media/service-create-the-new-workspaces/power-bi-workspace-new-settings.png)
 
@@ -94,7 +94,7 @@ Power BI 不会将配置为拥有工作区访问权限的用户或组的权限�
 
     第一次创建工作区时，在“创建工作区”窗格中  。
 
-    在左侧导航窗格中，选择“工作区”旁边的箭头，然后选择工作区名称旁边的省略号 (…)，接下来选择“工作区设置”   。 随即打开“设置”窗格。 
+    在左侧导航窗格中，选择“工作区”旁边的箭头，然后选择工作区名称旁边的“更多选项”(…)，接下来选择“工作区设置”    。 随即打开“设置”窗格。 
 
     ![工作区设置](media/service-create-the-new-workspaces/power-bi-workspace-new-settings.png)
 

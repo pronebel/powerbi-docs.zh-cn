@@ -2,19 +2,18 @@
 title: 查看 Power BI 移动应用中的仪表板和报表
 description: 在 Power BI 服务中创建或连接仪表板和报表。 然后可以在 Power BI 移动应用中对其进行查看。
 author: mshenhav
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 07/05/2019
 ms.author: mshenhav
-ms.openlocfilehash: e5e8df2be443b215a02f196c4f676af1cbff6275
-ms.sourcegitcommit: 52aa112ac9194f4bb62b0910c4a1be80e1bf1276
+ms.openlocfilehash: 1a3450ba4a31679c9e2e4ad844ef1058ebfdf4ee
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "69654633"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73870669"
 ---
 # <a name="view-dashboards-and-reports-in-the-power-bi-mobile-apps"></a>查看 Power BI 移动应用中的仪表板和报表
 适用于：
@@ -40,7 +39,7 @@ ms.locfileid: "69654633"
 ## <a name="view-dashboards-on-your-iphone"></a>在 iPhone 上查看仪表板
 1. 打开 iPhone 上的 Power BI 应用并登录。
    
-   是否需要从 Apple App Store [下载 iPhone 应用](http://go.microsoft.com/fwlink/?LinkId=522062)？
+   是否需要从 Apple App Store [下载 iPhone 应用](https://go.microsoft.com/fwlink/?LinkId=522062)？
 2. 点击仪表板将其打开。  
    
     ![点击“仪表板”](./media/mobile-apps-view-dashboard/power-bi-iphone-dashboard-home.png)
@@ -80,7 +79,7 @@ ms.locfileid: "69654633"
 ## <a name="view-dashboards-on-your-ipad"></a>在 iPad 上查看仪表板
 1. 打开 Power BI 应用。
    
-   是否需要首先从 Apple App Store [下载此 iPad 应用](http://go.microsoft.com/fwlink/?LinkId=522062)？
+   是否需要首先从 Apple App Store [下载此 iPad 应用](https://go.microsoft.com/fwlink/?LinkId=522062)？
 2. 在该应用的顶部点击“仪表板”  。  
    
    ![主仪表板](./media/mobile-apps-view-dashboard/power-bi-ipad-dashboard-home.png)
@@ -103,7 +102,7 @@ ms.locfileid: "69654633"
 ## <a name="view-dashboards-on-your-android-phone"></a>在 Android 手机上查看仪表板。
 1. 打开 Android 手机上的 Power BI 应用并登录。
    
-   需要先[下载 Android 应用](http://go.microsoft.com/fwlink/?LinkID=544867)？
+   需要先[下载 Android 应用](https://go.microsoft.com/fwlink/?LinkID=544867)？
 2. 点击仪表板将其打开。   
    
    ![主仪表板](./media/mobile-apps-view-dashboard/power-bi-android-dashboards.png)
@@ -118,7 +117,7 @@ ms.locfileid: "69654633"
 
     如果你是仪表板所有者，则可以在 Power BI 服务中[创建手机专用仪表板纵向模式视图](../../service-create-dashboard-mobile-phone-view.md)。 
 
-1. 在仪表板上，你可以点击名称旁边的垂直省略号 (...) 来邀请同事，刷新或获取有关仪表板的信息：
+1. 在仪表板上，你可以点击名称旁边的垂直“更多选项”(...) 按钮来邀请同事，刷新或获取有关仪表板的信息  ：
    
    ![省略号菜单](././media/mobile-apps-view-dashboard/pbi_andr_dashellipsis.png)
 2. 向上和向下轻扫可查看[仪表板中的所有磁贴](mobile-tiles-in-the-mobile-apps.md)。 
@@ -127,14 +126,14 @@ ms.locfileid: "69654633"
 ## <a name="view-dashboards-on-your-android-tablet"></a>在 Android 平板电脑上查看仪表板
 1. 在 Android 平板电脑上，打开并登录 Power BI 应用。
    
-   需要先[下载 Android 应用](http://go.microsoft.com/fwlink/?LinkID=544867)？
+   需要先[下载 Android 应用](https://go.microsoft.com/fwlink/?LinkID=544867)？
 2. 点击仪表板将其打开。   
    
    ![主仪表板](./media/mobile-apps-view-dashboard/power-bi-android-tablet-dashboard-home.png)
    
    * 黄色星标 ![收藏夹星标](././././media/mobile-apps-view-dashboard/power-bi-mobile-yes-favorite-icon.png) 表示仪表板已加入收藏夹。 
    * 每个仪表板名称下面的批注（在此示例中为“MBI”）![数据分类](././media/mobile-apps-view-dashboard/power-bi-android-dashboard-medium-classification.png)指明了每个仪表板中的数据分类方式。 阅读更多有关 [Power BI 中的数据分类](../../service-data-classification.md)。
-3. 在仪表板上，你可以点击名称旁边的垂直省略号 (...) 来邀请同事，刷新或获取有关仪表板的信息：
+3. 在仪表板上，你可以点击名称旁边的垂直“更多选项”(...) 按钮来邀请同事，刷新或获取有关仪表板的信息  ：
    
    ![省略号菜单](././media/mobile-apps-view-dashboard/pbi_andr_dashellipsis.png)
 4. 向上和向下轻扫可查看[仪表板中的所有磁贴](mobile-tiles-in-the-mobile-apps.md)。 
@@ -154,8 +153,8 @@ ms.locfileid: "69654633"
 阅读有关[创建仪表板电话视图](../../service-create-dashboard-mobile-phone-view.md)的更多信息。
 
 ## <a name="next-steps"></a>后续步骤
-* 从 Google play [下载 Android 应用](http://go.microsoft.com/fwlink/?LinkID=544867)  
+* 从 Google play [下载 Android 应用](https://go.microsoft.com/fwlink/?LinkID=544867)  
 * [适用于 Power BI 的 Android 应用入门](mobile-android-app-get-started.md)  
-* [什么是 Power BI？](../../power-bi-overview.md)
-* 是否有任何问题? [尝试咨询 Power BI 社区](http://community.powerbi.com/)
+* [什么是 Power BI？](../../fundamentals/power-bi-overview.md)
+* 是否有任何问题? [尝试咨询 Power BI 社区](https://community.powerbi.com/)
 
