@@ -10,16 +10,16 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.custom: seodec18
 ms.date: 04/02/2019
-ms.openlocfilehash: 8fd87174a1f94ac8a6472238164298c47aa5691e
-ms.sourcegitcommit: c799941c8169cd5b6b6d63f609db66ab2af93891
+ms.openlocfilehash: e35f4f7bd870e51810d49c43a058e467bd724e6e
+ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/06/2019
-ms.locfileid: "70391811"
+ms.lasthandoff: 11/01/2019
+ms.locfileid: "73429678"
 ---
 # <a name="tutorial-embed-power-bi-content-into-an-application-for-your-customers"></a>教程：为客户将 Power BI 内容嵌入应用中
 
-使用“Azure 中的 Power BI Embedded”  ，可以借助“应用拥有数据”将报表、仪表板或磁贴嵌入到应用程序中。 **应用拥有数据**是指将使用 Power BI 的应用程序作为其嵌入式分析平台。 ISV 开发者可以创建 Power BI 内容以便在完全集成并交互的应用程序中显示报表、仪表板或磁贴，用户无需 Power BI 许可证  。 本教程演示针对客户使用“Azure 中的 Power BI Embedded”时，如何使用 Power BI .NET SDK 以及 Power BI JavaScript API 将报表集成到应用程序中  。
+借助 Azure 中的 Power BI Embedded 或 Office 中嵌入的 Power BI，可以使用“应用拥有数据”将报表、仪表板或磁贴嵌入到应用程序中   。 **应用拥有数据**是指将使用 Power BI 的应用程序作为其嵌入式分析平台。 ISV 或开发者可以创建 Power BI 内容以便在完全集成并交互的应用程序中显示报表、仪表板或磁贴，用户无需 Power BI 许可证   。 本教程演示如何使用 Power BI .NET SDK 以及 Power BI JavaScript API 将报表集成到应用程序中。
 
 ![Power BI 嵌入报表](media/embed-sample-for-customers/embed-sample-for-customers-035.png)
 
@@ -33,12 +33,9 @@ ms.locfileid: "70391811"
 若要开始使用，则需要具有：
 
 * [Power BI Pro 帐户](../service-self-service-signup-for-power-bi.md)（包含用户名和密码的主帐户，用于登录 Power BI Pro 帐户），或[服务主体（仅限应用的令牌）](embed-service-principal.md)。
-* [Microsoft Azure](https://azure.microsoft.com/) 订阅。
 * 需要设置自己的 [Azure Active Directory 租户](create-an-azure-active-directory-tenant.md)。
 
 如果未注册 Power BI Pro  ，请在开始之前[注册以获得免费试用](https://powerbi.microsoft.com/pricing/)。
-
-如果没有 Azure 订阅，请在开始之前先创建一个[免费帐户](https://azure.microsoft.com/free/?WT.mc_id=A261C142F)。
 
 ## <a name="set-up-your-embedded-analytics-development-environment"></a>设置嵌入式分析开发环境
 
@@ -60,13 +57,13 @@ ms.locfileid: "70391811"
 
 ## <a name="set-up-your-power-bi-environment"></a>设置 Power BI 环境
 
-### <a name="create-an-app-workspace"></a>创建应用工作区
+### <a name="create-a-workspace"></a>创建工作区
 
-如果为客户嵌入报表、仪表板或磁贴，则必须将内容放在应用工作区中。 具有可以设置的不同类型工作区：[传统工作区](../service-create-workspaces.md)或[新工作区](../service-create-the-new-workspaces.md)。 如果使用的是主帐户，则所用工作区类型并不重要  。 然而，如果使用[服务主体](embed-service-principal.md)登录应用程序，则需要使用新工作区  。 在任一方案中，主帐户或服务主体必须是应用程序有关的应用工作区的管理员   。
+如果为客户嵌入报表、仪表板或磁贴，则必须将内容放在应用工作区中。 具有可以设置的不同类型工作区：[传统工作区](../service-create-workspaces.md)或[新工作区](../service-create-the-new-workspaces.md)。 如果使用的是主帐户，则所用工作区类型并不重要  。 然而，如果使用[服务主体](embed-service-principal.md)登录应用程序，则需要使用新工作区  。 在任一方案中，主帐户或服务主体必须是应用程序有关的工作区的管理员   。
 
 ### <a name="create-and-publish-your-reports"></a>创建并发布报表
 
-可使用 Power BI Desktop 创建报表和数据集，然后将这些报表发布到应用工作区。 可通过两种方式完成此任务：作为最终用户，可以使用主帐户（Power BI Pro 许可证）将报表发布到传统应用工作区。 如果使用服务主体，则可以使用 [Power BI REST API](https://docs.microsoft.com/rest/api/power-bi/imports/postimportingroup) 将报表发布到新工作区。
+可使用 Power BI Desktop 创建报表和数据集，然后将这些报表发布到工作区。 可通过两种方式完成此任务：作为最终用户，可以使用主帐户（Power BI Pro 许可证）将报表发布到传统工作区。 如果使用服务主体，则可以使用 [Power BI REST API](https://docs.microsoft.com/rest/api/power-bi/imports/postimportingroup) 将报表发布到新工作区。
 
 以下步骤介绍如何将 PBIX 报表发布到 Power BI 工作区。
 
@@ -78,7 +75,7 @@ ms.locfileid: "70391811"
 
    ![PBI Desktop 报表](media/embed-sample-for-customers/embed-sample-for-customers-027.png)
 
-3. 发布到应用工作区  。 根据是否使用主帐户（Power Pro 许可证）或服务主体，此过程有所不同。 如果使用主帐户，则可以通过 Power BI Desktop 发布报表。  现在，如果使用服务主体，则必须使用 Power BI REST API。
+3. 发布到“工作区”  。 根据是否使用主帐户（Power Pro 许可证）或服务主体，此过程有所不同。 如果使用主帐户，则可以通过 Power BI Desktop 发布报表。  现在，如果使用服务主体，则必须使用 Power BI REST API。
 
 ## <a name="embed-content-using-the-sample-application"></a>使用示例应用程序嵌入内容
 
@@ -139,7 +136,7 @@ ms.locfileid: "70391811"
 
 这两种 AuthenticationType（主帐户和[服务主体](embed-service-principal.md)）均需要此属性。
 
-使用 Power BI 中的“应用工作区(组) GUID”填写“workspaceId”信息  。 登录 Power BI 服务或使用 Powershell 时，可获得该信息。
+使用 Power BI 中的“工作区(组) GUID”填写“workspaceId”信息  。 登录 Power BI 服务或使用 Powershell 时，可获得该信息。
 
 URL <br>
 
@@ -268,11 +265,23 @@ Report report = reports.Value.FirstOrDefault();
 ```
 
 ### <a name="create-the-embed-token"></a>创建嵌入令牌
+生成嵌入令牌，能够通过 JavaScript API 使用此令牌。 有两种类型的 API，第一组包含五个 API，每个 API 生成特定项的嵌入令牌。 第二组仅包含一个 API，生成一个可用于嵌入多个项的令牌。
 
-生成了嵌入令牌，能够通过 JavaScript API 使用此令牌。 嵌入令牌特定于要嵌入的项。 因此，只要嵌入 Power BI 内容，就需要为其新建嵌入令牌。 有关详细信息（包括要使用哪个 accessLevel  ），请参阅 [GenerateToken API](https://msdn.microsoft.com/library/mt784614.aspx)。
+用于生成特定项的嵌入令牌的 API 
 
-[示例应用程序](https://github.com/Microsoft/PowerBI-Developer-Samples)的 Services\EmbedService.cs 文件中提供了为报表、仪表板和希望嵌入的磁贴创建嵌入令牌的示例。 
+使用这些 API 创建的嵌入令牌特定于要嵌入的项。 无论何时使用这些 API 嵌入 Power BI 项（例如报表、仪表板或磁贴），都需要为其创建新的嵌入令牌。
+* [仪表板 GenerateTokenInGroup](https://docs.microsoft.com/rest/api/power-bi/embedtoken/dashboards_generatetokeningroup)
+* [数据集 GenerateTokenInGroup](https://docs.microsoft.com/rest/api/power-bi/embedtoken/datasets_generatetokeningroup)
+* [报表 GenerateTokenForCreateInGroup](https://docs.microsoft.com/rest/api/power-bi/embedtoken/reports_generatetokenforcreateingroup)
+* [报表 GenerateTokenInGroup](https://docs.microsoft.com/rest/api/power-bi/embedtoken/reports_generatetokeningroup)
+* [磁贴 GenerateTokenInGroup](https://docs.microsoft.com/rest/api/power-bi/embedtoken/tiles_generatetokeningroup)
 
+[示例应用程序](https://github.com/Microsoft/PowerBI-Developer-Samples)中的以下文件提供了为报表、仪表板或磁贴创建嵌入令牌的示例。
+* Services\EmbedService.cs
+* Models\EmbedConfig.cs
+* Models\TileEmbedConfig.cs
+
+下面是使用报表 GenerateTokenInGroup 嵌入令牌 API 的代码示例。
 ```csharp
 using Microsoft.PowerBI.Api.V2;
 using Microsoft.PowerBI.Api.V2.Models;
@@ -290,7 +299,55 @@ var embedConfig = new EmbedConfig()
 };
 ```
 
-为 EmbedConfig  和 TileEmbedConfig  创建了类。 Models\EmbedConfig.cs  文件和 Models\TileEmbedConfig.cs  文件中提供了示例。
+用于生成多个项的嵌入令牌的 API<a id="multiEmbedToken"></a> 
+
+[生成令牌](https://docs.microsoft.com/rest/api/power-bi/embedtoken/generatetoken)嵌入 API 会生成一个令牌，该令牌可用于嵌入多个项。
+
+还可用于在嵌入报表时动态选择数据集。 有关此 API 用法的详细信息，请参阅[动态绑定](embed-dynamic-binding.md)。
+
+
+下面是使用此 API 的示例。
+ 
+```csharp
+using Microsoft.PowerBI.Api.V2;
+using Microsoft.PowerBI.Api.V2.Models;
+
+var reports = new List<GenerateTokenRequestV2Report>()
+{ 
+    new GenerateTokenRequestV2Report()
+    {
+        AllowEdit = false,
+        Id = report1.Id
+    },
+    new GenerateTokenRequestV2Report()
+    {
+        AllowEdit = true,
+        Id = report2.Id
+    }
+};
+
+var datasets= new List<GenerateTokenRequestV2Dataset>()
+{
+    new GenerateTokenRequestV2Dataset(dataset1.Id),
+    new GenerateTokenRequestV2Dataset(dataset2.Id),
+    new GenerateTokenRequestV2Dataset(dataset3.Id),
+};
+
+var targetWorkspaces = new List<GenerateTokenRequestV2TargetWorkspace>()
+{
+    new GenerateTokenRequestV2TargetWorkspace(workspace1.Id),
+    new GenerateTokenRequestV2TargetWorkspace(workspace2.Id),
+};
+
+var request = new GenerateTokenRequestV2()
+{
+    Datasets = datasetsRequestDetails ?? null,
+    Reports = reportsRequestDetails,
+    TargetWorkspaces = targetWSRequestdetials ?? null,
+};
+
+var token = client.GetClient().EmbedToken.GenerateToken(request);
+```
 
 ### <a name="load-an-item-using-javascript"></a>使用 JavaScript 加载项
 
@@ -345,35 +402,40 @@ var embedConfig = new EmbedConfig()
 
 ## <a name="move-to-production"></a>移动到生产环境
 
-至此，你已完成应用程序的开发，接下来请回到应用工作区了解专用容量。 
+至此，你已完成应用程序的开发，接下来请回到工作区了解专用容量。 
 
 > [!Important]
-> 移动到生产环境需要专用容量。
+> 移动到生产环境需要专用容量。 必须向所有工作区（包含报表或仪表板的工作区以及包含数据集的工作区）分配容量。
 
 ### <a name="create-a-dedicated-capacity"></a>创建专用容量
 
-通过创建专用容量，可以利用好客户的专用资源。 可以在 [Microsoft Azure 门户](https://portal.azure.com)中购买专用容量。 有关如何创建 Power BI Embedded 容量的详细信息，请参阅[在 Azure 门户中创建 Power BI Embedded 容量](azure-pbie-create-capacity.md)。
+通过创建专用容量，可以利用好客户的专用资源。 有两种类型的容量供你选择：
+* **Power BI Premium** 是租户级别的 Office 356 订阅，可在两个 SKU 系列（EM 和P）中使用   。嵌入 Power BI 内容时，此解决方案称为“Power BI 嵌入”  。 有关此订阅的详细信息，请参阅[什么是 Power BI Premium？](../service-premium-what-is.md)
+* **Azure Power BI Embedded** - 可以从 [Microsoft Azure 门户](https://portal.azure.com)购买专用容量。 此订阅使用 A SKU  。 有关如何创建 Power BI Embedded 容量的详细信息，请参阅[在 Azure 门户中创建 Power BI Embedded 容量](azure-pbie-create-capacity.md)。
+> [!NOTE]
+> 使用 A SKU 时，无法使用免费的 Power BI 许可证访问 Power BI 内容。
 
-使用下表确定哪种 Power BI Embedded 容量最适合你的需求。
+下表介绍了每个 SKU 的资源和限制。 若要确定最能满足你需求的容量，请参阅[应该为我的方案购买哪一个 SKU](https://docs.microsoft.com/power-bi/developer/embedded-faq#power-bi-now-offers-three-skus-for-embedding-a-skus-em-skus-and-p-skus-which-one-should-i-purchase-for-my-scenario) 表。
 
-| 容量节点 | 总核心数<br/>（后端 + 前端）  | 后端核心数 | 前端核心数 | DirectQuery/实时连接限制|
-| --- | --- | --- | --- | --- | --- |
-| A1 |1 个 V 核心 |0.5 核、3GB RAM |0.5 核 |每秒 0.5 个 |
-| A2 |2 个 V 核心 |1 核、5GB RAM |1 个核心 | 每秒 10 个 |
-| A3 |4 个 V 核心 |2 核、10GB RAM |2 个核心 | 每秒 15 个 |
-| A4 |8 个 V 核心 |4 核、25GB RAM |4 个核心 |每秒 30 个 |
-| A5 |16 个 V 核心 |8 核、50GB RAM |8 个核心 |每秒 60 个 |
-| A6 |32 个 V 核心 |16 核、100GB RAM |16 个核心 |每秒 120 个 |
+| 容量节点 | 总虚拟核心 | 后端 V 核心 | RAM (GB) | 前端 V 核心 | DirectQuery/Live Connection（每秒） | 模型刷新并行度 |
+| --- | --- | --- | --- | --- | --- | --- |
+| EM1/A1 | 1 | 0.5 | 2.5 | 0.5 | 3.75 | 1 |
+| EM2/A2 | 2 | 1 | 5 | 1 | 7.5 | 2 |
+| EM3/A3 | 4 | 2 | 10 | 2 | 15 | 3 |
+| P1/A4 | 8 | 4 | 25 | 4 | 30 | 6 |
+| P2/A5 | 16 | 8 | 50 | 8 | 60 | 12 |
+| P3/A6 | 32 | 16 | 100 | 16 | 120 | 24 |
+| | | | | | | |
 
-使用 A SKU 时，无法使用免费的 Power BI 许可证访问 Power BI 内容。  
+### <a name="development-testing"></a>开发测试
 
-使用 PRO 许可证的嵌入令牌仅用于开发测试，因此 Power BI 主帐户或服务主体可生成的嵌入令牌数量有限。 必须具备专用容量才能嵌入到生产环境。 为专用容量生成嵌入令牌时，可生成的数量不受限制。 转到[可用功能](https://docs.microsoft.com/rest/api/power-bi/availablefeatures/getavailablefeatures)查看使用量值，该值以百分比表示当前嵌入使用量。 使用量基于每个主帐户。
+使用 Pro 许可证的嵌入令牌仅用于开发测试，因此 Power BI 主帐户或服务主体可生成的嵌入令牌数量有限。 必须具备专用容量才能嵌入到生产环境。 为专用容量生成嵌入令牌时，可生成的数量不受限制。 转到[可用功能](https://docs.microsoft.com/rest/api/power-bi/availablefeatures/getavailablefeatures)查看使用量值，该值以百分比表示当前嵌入使用量。 使用量基于每个主帐户。
 
 有关详细信息，请参阅[嵌入式分析容量规划白皮书](https://aka.ms/pbiewhitepaper)。
 
-### <a name="assign-an-app-workspace-to-a-dedicated-capacity"></a>为应用工作区分配专用容量
+### <a name="assign-a-workspace-to-a-dedicated-capacity"></a>为工作区分配专用容量
 
-创建专用容量后，可将该专用容量分配给应用工作区。
+创建专用容量后，可将该专用容量分配给工作区。
 
 若要使用[服务主体](embed-service-principal.md)将专用容量分配给工作区，请使用 [Power BI REST API](https://docs.microsoft.com/rest/api/power-bi/capacities/groups_assigntocapacity)。 使用 Power BI REST API 时，请务必使用[服务主体对象 ID](embed-service-principal.md#how-to-get-the-service-principal-object-id)。
 
@@ -387,9 +449,9 @@ var embedConfig = new EmbedConfig()
 
     ![分配专用容量](media/embed-sample-for-customers/embed-sample-for-customers-024.png)
 
-3. 选择“保存”  后，应该会在应用工作区名称旁边看到一个钻石图形  。
+3. 选择“保存”后，应该会在工作区名称旁边看到一个钻石图形   。
 
-    ![与容量绑定的应用工作区](media/embed-sample-for-customers/embed-sample-for-customers-037.png)
+    ![与容量绑定的工作区](media/embed-sample-for-customers/embed-sample-for-customers-037.png)
 
 ## <a name="next-steps"></a>后续步骤
 

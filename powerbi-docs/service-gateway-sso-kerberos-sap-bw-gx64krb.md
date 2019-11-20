@@ -3,19 +3,18 @@ title: 使用 gx64krb5 将 Kerberos 用于单一登录 (SSO) 到 SAP BW
 description: 将 SAP BW 服务器配置为使用 gx64krb5 从 Power BI 服务启用 SSO
 author: mgblythe
 ms.author: mblythe
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-gateways
 ms.topic: conceptual
 ms.date: 10/10/2019
 LocalizationGroup: Gateways
-ms.openlocfilehash: 0063ca280667e12fb2cf4d0432651f8145495ac8
-ms.sourcegitcommit: 2aa83bd53faad6fb02eb059188ae623e26503b2a
+ms.openlocfilehash: a162ba686c3f548ed371e7a63c2d85dd1f697462
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/29/2019
-ms.locfileid: "73020332"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73881471"
 ---
 # <a name="use-kerberos-for-single-sign-on-sso-to-sap-bw-using-gx64krb5"></a>使用 gx64krb5 将 Kerberos 用于单一登录 (SSO) 到 SAP BW
 
@@ -189,7 +188,7 @@ ms.locfileid: "73020332"
 
 1. 打开 SAP BW 跟踪并查看生成的日志文件。 可使用多种不同类型的 SAP BW 跟踪（例如 CPIC 跟踪）：
 
-   a. 若要启用 CPIC 跟踪，请设置两个环境变量：CPIC**TRACE 和 CPIC**TRACE\_DIR**\_\_** 。
+   a. 若要启用 CPIC 跟踪，请设置两个环境变量：**CPIC\_TRACE** 和 **CPIC\_TRACE\_DIR**.
 
       第一个变量设置跟踪级别，第二个变量设置跟踪文件目录。 该目录必须是经过身份验证的用户组的成员可以写入的位置。 
  
@@ -201,7 +200,7 @@ ms.locfileid: "73020332"
 
 ## <a name="next-steps"></a>后续步骤
 
-有关本地数据网关和 DirectQuery 的详细信息，请查看以下资源：
+有关本地数据网关和 DirectQuery 的详细信息，请参阅以下资源：
 
 * [本地数据网关是什么？](/data-integration/gateway/service-gateway-onprem)
 * [Power BI 中的 DirectQuery](desktop-directquery-about.md)

@@ -3,19 +3,18 @@ title: 使用 CommonCryptoLib (sapcrypto.dll) 将适用于 SSO 的 Kerberos 单�
 description: 将 SAP BW 服务器配置为使用 CommonCryptoLib (sapcrypto.dll) 从 Power BI 服务启用 SSO
 author: mgblythe
 ms.author: mblythe
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-gateways
 ms.topic: conceptual
 ms.date: 10/10/2019
 LocalizationGroup: Gateways
-ms.openlocfilehash: 97cae53e102538bba7ed969cefe0541d500c33bc
-ms.sourcegitcommit: 2aa83bd53faad6fb02eb059188ae623e26503b2a
+ms.openlocfilehash: 63b5abde7deb5f6d93fb7702f0b1244bd193a47d
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/29/2019
-ms.locfileid: "73020884"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73872430"
 ---
 # <a name="use-kerberos-single-sign-on-for-sso-to-sap-bw-using-commoncryptolib-sapcryptodll"></a>使用 CommonCryptoLib (sapcrypto.dll) 将适用于 SSO 的 Kerberos 单一登录用于 SAP BW
 
@@ -31,7 +30,7 @@ ms.locfileid: "73020884"
 
 1. 确保已使用 CommonCryptoLib 为 BW 服务器正确配置 Kerberos SSO。 如果是，则能够使用 SSO 通过已配置为使用 CommonCryptoLib 的 SAP GUI 之类的 SAP 工具访问 BW 服务器（直接访问或通过 SAP BW 消息服务器访问）。 
 
-   有关设置步骤的详细信息，请参阅 [SAP Single Sign-On:Authenticate with Kerberos/SPNEGO](https://blogs.sap.com/2017/07/27/sap-single-sign-on-authenticate-with-kerberosspnego/)（SAP 单一登录：使用 Kerberos/SPNEGO 进行身份验证）。 BW 服务器应使用 CommonCryptoLib 作为其 SNC 库，并具有开头是 CN= 的 SNC 名称，例如 CN=BW1   。 有关 SNC 名称要求的详细信息（具体而言，snc/identity/as 参数），请参阅[适用于 Kerberos 配置的 SNC 参数](https://help.sap.com/viewer/df185fd53bb645b1bd99284ee4e4a750/3.0/en-US/360534094511490d91b9589d20abb49a.html)。
+   有关设置步骤的详细信息，请参阅 [SAP Single Sign-On:Authenticate with Kerberos/SPNEGO](https://blogs.sap.com/2017/07/27/sap-single-sign-on-authenticate-with-kerberosspnego/)（SAP 单一登录：使用 Kerberos/SPNEGO 进行身份验证）。 BW 服务器应使用 CommonCryptoLib 作为其 SNC 库，并具有开头是 CN= 的 SNC 名称，例如 CN=BW1   。 有关 SNC 名称要求的详细信息（具体而言，snc/identity/as 参数），请参阅[适用于 Kerberos 配置的 SNC 参数](https://help.sap.com/viewer/df185fd53bb645b1bd99284ee4e4a750/3.0/360534094511490d91b9589d20abb49a.html)。
 
 1. 如果未配置，请在安装了网关的计算机上安装 x64 版本的 [SAP .NET 连接器](https://support.sap.com/en/product/connectors/msnet.html)。 
    
@@ -102,7 +101,7 @@ ms.locfileid: "73020884"
 
 ### <a name="cpic-tracing"></a>CPIC 跟踪
 
-1. 若要启用 CPIC 跟踪，请设置两个环境变量：CPIC**TRACE 和 CPIC**TRACE\_DIR**\_\_** 。 
+1. 若要启用 CPIC 跟踪，请设置两个环境变量：**CPIC\_TRACE** 和 **CPIC\_TRACE\_DIR**. 
 
    第一个变量设置跟踪级别，第二个变量设置跟踪文件目录。 该目录必须是经过身份验证的用户组的成员可以写入的位置。 
  
@@ -138,7 +137,7 @@ ms.locfileid: "73020884"
 
 ## <a name="next-steps"></a>后续步骤
 
-有关本地数据网关和 DirectQuery 的详细信息，请查看以下资源：
+有关本地数据网关和 DirectQuery 的详细信息，请参阅以下资源：
 
 * [本地数据网关是什么？](/data-integration/gateway/service-gateway-onprem)
 * [Power BI 中的 DirectQuery](desktop-directquery-about.md)
