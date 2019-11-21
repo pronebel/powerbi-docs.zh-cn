@@ -2,25 +2,24 @@
 title: 使用 Power BI 连接到要使用的服务
 description: 连接到用于运行业务的许多服务，例如 Salesforce、Microsoft Dynamics CRM 和 Google Analytics。
 author: maggiesMSFT
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.topic: conceptual
 ms.date: 08/29/2019
 ms.author: maggies
 LocalizationGroup: Connect to services
-ms.openlocfilehash: abecc9b0c5e450d24f29230ad75417b1494e6ce9
-ms.sourcegitcommit: c0f4d00d483121556a1646b413bab75b9f309ae9
+ms.openlocfilehash: 91740d16a91aa8dc1936e8ae1a2812653c45e6a1
+ms.sourcegitcommit: 50c4bebd3432ef9c09eacb1ac30f028ee4e66d61
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/29/2019
-ms.locfileid: "70160002"
+ms.lasthandoff: 11/12/2019
+ms.locfileid: "73925828"
 ---
 # <a name="connect-to-the-services-you-use-with-power-bi"></a>使用 Power BI 连接到要使用的服务
 使用 Power BI，可连接到多个用于运行业务的服务，例如 Salesforce、Microsoft Dynamics 和 Google Analytics。 Power BI 首先使用凭据连接到服务。 然后创建包含一个仪表板和一组 Power BI 报表的 Power BI 工作区，这些报表可自动显示数据并提供业务视觉对象见解  。
 
 >[!IMPORTANT]
->我们将于 2019 年 9 月 25 日弃用几个内容包。 任何已安装的内容包将继续有效，但在该日期之后将无法安装新的内容包。 [模板应用](https://docs.microsoft.com/power-bi/service-template-apps-overview)将替代服务内容包。
+>正在将服务内容包替换为[模板应用](https://docs.microsoft.com/power-bi/service-template-apps-overview)。 自 2019 年 9 月 25 日起，大量内容包已遭弃用。 你已安装但已被弃用的任何内容包将保留在你的帐户中，但不会对其提供任何文档或支持，也无法再安装它们。
 
 登录到 Power BI，查看可以[连接的所有服务](https://app.powerbi.com/getdata/services)。 
 
@@ -36,7 +35,7 @@ ms.locfileid: "70160002"
 ## <a name="edit-the-dashboard-and-reports"></a>编辑仪表板和报表
 导入完成后，新的应用将显示在“应用”页上。
 
-1. 选择左侧导航窗格中的“应用”  ，然后选择应用。
+1. 选择导航窗格中的“应用”，然后选择应用  。
    
      ![应用页](media/service-connect-to-services/power-bi-service-apps-open-app.png)
 2. 可以通过在问答框中键入来提出问题，或单击磁贴打开基础报表。 
@@ -71,6 +70,6 @@ Power BI 首次连接到服务时，你可能会在仪表板上看到一组空�
 ## <a name="next-steps"></a>后续步骤
 * [将应用分发到给同事](service-create-distribute-apps.md)
 * [在 Power BI 中创建新工作区](service-create-the-new-workspaces.md)
-* 是否有任何问题? [尝试咨询 Power BI 社区](http://community.powerbi.com/)
-* 更多问题？ [尝试咨询 Power BI 社区](http://community.powerbi.com/)
+* 是否有任何问题? [尝试咨询 Power BI 社区](https://community.powerbi.com/)
+* 更多问题？ [尝试咨询 Power BI 社区](https://community.powerbi.com/)
 

@@ -1,20 +1,19 @@
 ---
 title: Power BI 移动应用中的新功能
 description: Power BI 移动应用中的新功能
-author: mshenhav
-manager: kfile
+author: paulinbar
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: conceptual
-ms.date: 04/08/2019
-ms.author: mshenhav
-ms.openlocfilehash: fe8f21bbbd0886b8ff4046f744884e53f8822912
-ms.sourcegitcommit: e2c5d4561455c3a4806ace85defbc72e4d7573b4
+ms.date: 11/12/2019
+ms.author: painbar
+ms.openlocfilehash: c188f2b00447ff9f97059e81e7945f67e3170c6d
+ms.sourcegitcommit: 0d7ad791a2d2bef45d5d60e38e0af4c9fc22187b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "71327759"
+ms.lasthandoff: 11/13/2019
+ms.locfileid: "74010016"
 ---
 # <a name="whats-new-in-the-mobile-apps-for-power-bi"></a>Power BI 移动应用中的新功能
 有关相关的“新增功能”的信息，请参阅：
@@ -23,18 +22,40 @@ ms.locfileid: "71327759"
 * [Power BI Desktop 中的新增功能](../../desktop-latest-update.md)  
 * [Power BI 服务中的最近更新](../../service-whats-new.md)  
 
+## <a name="october-2019"></a>2019 年 10 月
+
+### <a name="android-support-for-remote-configuration-of-report-server-access-settings"></a>现支持 Android 对报表服务器访问设置进行远程配置
+
+我们现支持 Android 对 Power BI 移动应用的报表服务器访问设置进行远程配置。 IT 管理员现可使用其组织的 MDM 工具在 iOS 和 Android 设备上远程配置这些设置。 有关详细信息，请参阅[远程配置 Power BI 移动应用对报表服务器的访问权限](https://docs.microsoft.com/power-bi/report-server/configure-powerbi-mobile-apps-remote)。
+
+### <a name="cross-report-drillthrough"></a>跨报表钻取
+
+本月，我们添加了对跨报表钻取的支持。 现在，可通过点击数据点来钻取访问其他报表和报表页。 钻取到目标页面时，将根据钻取设置筛选该页面中的内容。
+
+> [!NOTE]
+> 仅当在报表创建期间启用了跨报表钻取时，跨报表钻取才可用。 [详细了解跨报表钻取](https://docs.microsoft.com/power-bi/desktop-cross-report-drill-through)。
+
+
+### <a name="data-sensitivity-labels"></a>数据敏感度标签
+
+你现在可以看到内容所有者对报表、仪表板、数据集和数据流设置的敏感度标签，这些标签用于对数据的敏感度进行分类。 敏感度标签决定与其他用户共享内容的方式。 [详细了解 Power BI 中的数据敏感度标签](https://docs.microsoft.com/power-bi/admin/service-security-data-protection-overview)。
+
+### <a name="support-for-custom-app-navigation-windows"></a>自定义应用导航支持 (Windows)
+
+除 iOS 和 Android 外，现在还为 Windows 设备添加了对自定义应用导航的支持（请参阅[九月新增功能条目](#september-2019)）。
+
 ## <a name="september-2019"></a>2019 年 9 月
 
 ### <a name="support-for-custom-app-navigation-ios-and-android"></a>支持自定义应用导航（iOS 和 Android）
 
 我们添加了对自定义应用导航的支持。 现在，在 Power BI 移动版中打开应用时，应用创建者生成的自定义导航体验将可用。 应用导航可以按内容进行组织，并且可以包含新项目，例如链接和可折叠部分。
-详细了解[自定义导航](https://powerbi.microsoft.com/en-us/blog/designing-custom-navigation-for-power-bi-apps-is-now-available/)。
+详细了解[自定义导航](https://powerbi.microsoft.com/blog/designing-custom-navigation-for-power-bi-apps-is-now-available/)。
 
 ## <a name="august-2019"></a>2019 年 8 月
 
 ### <a name="introducting-power-bi-mobile-new-look-preview-ios-and-android"></a>Power BI 移动版全新外观简介（预览版）（iOS 和 Android）
 
-我们刷新了应用并引入了新体验，添加的主页可快速访问常用内容，新导航栏可轻松浏览应用。 借助全新的体验，现在可以更快、更轻松地随时找到所需内容。
+我们刷新了应用并引入了新体验，添加的主页可快速访问常用内容，新导航窗格可轻松浏览应用。 借助全新的体验，现在可以更快、更轻松地随时找到所需内容。
 由于全新外观处于预览阶段，因此你需要将其打开才能欣赏。
 详细了解 [Power BI 移动版全新外观](https://powerbi.microsoft.com/blog/introducing-power-bi-mobile-apps-new-look-preview/)。
 
@@ -42,7 +63,7 @@ ms.locfileid: "71327759"
 
 ### <a name="secured-access-with-azure-active-directory-ad-application-proxy-ios-and-android"></a>Azure Active Directory (AD) 应用程序代理的安全访问（iOS 和 Android）
 
-我们与 Azure Active Directory 团队合作，将 Power BI 移动应用程序与 Azure Active Directory (AAD) 应用程序代理相集成。 通过此配置，你可以连接到 Power BI 移动版应用的企业边界内托管的报表服务器，而无需设置复杂的本地配置。 详细了解[Power BI 移动版与 Azure AD 应用程序代理的集成](https://powerbi.microsoft.com/blog/access-on-prem-report-server-from-your-power-bi-mobile-app-with-azure-active-directory-application-proxy/)。 了解[如何配置 Azure AD 应用程序代理和 Power BI](https://docs.microsoft.com/en-us/azure/active-directory/manage-apps/application-proxy-integrate-with-power-bi)。
+我们与 Azure Active Directory 团队合作，将 Power BI 移动应用程序与 Azure Active Directory (AAD) 应用程序代理相集成。 通过此配置，无需设置复杂的本地配置即可连接到在 Power BI 移动版应用的企业边界内托管的报表服务器。 详细了解[Power BI 移动版与 Azure AD 应用程序代理的集成](https://powerbi.microsoft.com/blog/access-on-prem-report-server-from-your-power-bi-mobile-app-with-azure-active-directory-application-proxy/)。 了解[如何配置 Azure AD 应用程序代理和 Power BI](https://docs.microsoft.com/azure/active-directory/manage-apps/application-proxy-integrate-with-power-bi)。
 
 ## <a name="july-2019"></a>2019 年 7 月
 
@@ -423,7 +444,7 @@ Power BI for Mixed Reality 应用现已在 Microsoft Store 上架。 可以沉�
 #### <a name="ios-devices"></a>iOS 设备
 使用问答这一预览功能就你的数据提问  
 
-借助问答功能，可以用自己的话就你的数据提问，然后 Power BI 会回答你的问题。 问答已在 http://powerbi.com 上的 Power BI 服务中提供。 现在它也在 [iPhone 或 iPad 上的移动应用中提供](mobile-apps-ios-qna.md)。
+借助问答功能，可以用自己的话就你的数据提问，然后 Power BI 会回答你的问题。 问答已在 https://powerbi.com 上的 Power BI 服务中提供。 现在它也在 [iPhone 或 iPad 上的移动应用中提供](mobile-apps-ios-qna.md)。
 
 连接多台 SSRS 服务器  
 
@@ -695,24 +716,24 @@ R 磁贴和 Web 小组件  - 在移动设备上的仪表板中查看新磁贴类
 #### <a name="sql-server-2016-reporting-services-mobile-reports-in-ios"></a>iOS 中的 SQL Server 2016 Reporting Services 移动报表
 现在，你可以在 iOS 设备上（iPad 或 iPhone）的 Power BI 应用中查看 SQL Server 移动报表。 阅读更多资料：
 
-* [适用于 iOS 的 Power BI 应用上的 SQL 16 SSRS](http://blogs.msdn.com/b/powerbi/archive/2015/12/30/sql-16-ssrs-on-power-bi-app-for-ios.aspx) 博客文章
+* [适用于 iOS 的 Power BI 应用上的 SQL 16 SSRS](https://blogs.msdn.com/b/powerbi/archive/2015/12/30/sql-16-ssrs-on-power-bi-app-for-ios.aspx) 博客文章
 * [在 iPhone 和 iPad 应用中查看 SQL Server 移动报表和 KPI](mobile-app-ssrs-kpis-mobile-on-premises-reports.md) 文档
 
 #### <a name="power-bi-app-for-windows-10-phones"></a>适用于 Windows 10 手机的 Power BI 应用
 适用于 Windows 10 手机的新 Power BI 应用针对触控和移动工作效率进行了优化。 浏览仪表板和报表、邀请同事查看数据，并通过电子邮件分享见解以便和你的团队建立联系。 你还可以[将 Power BI 仪表板固定到 Windows 手机的开始屏幕](mobile-pin-dashboard-start-screen-windows-10-phone-app.md)。
 
-* 阅读[适用于 Windows 10 手机的 Power BI 应用博客文章](http://blogs.msdn.com/b/powerbi/archive/2015/12/30/announcing-the-power-bi-app-for-windows-10-mobile.aspx)。
+* 阅读[适用于 Windows 10 手机的 Power BI 应用博客文章](https://blogs.msdn.com/b/powerbi/archive/2015/12/30/announcing-the-power-bi-app-for-windows-10-mobile.aspx)。
 * [适用于 Windows 10 手机的 Power BI 应用入门](mobile-windows-10-phone-app-get-started.md)。
 
 #### <a name="other-additions"></a>其他新增功能：
-阅读 [Power BI 移动应用 12 月博客文章](http://blogs.msdn.com/b/powerbi/archive/2015/12/30/power-bi-mobile-apps-update-_2d00_-december-2015.aspx)以获取更多详细信息。
+阅读 [Power BI 移动应用 12 月博客文章](https://blogs.msdn.com/b/powerbi/archive/2015/12/30/power-bi-mobile-apps-update-_2d00_-december-2015.aspx)以获取更多详细信息。
 
 * 当同事与你共享仪表板时收到通知。 (iOS)
 * 在仪表板中查看固定的整个报表页。 （iOS 和 Android）
-* [扫描 QR 代码](http://blogs.msdn.com/b/powerbi/archive/2015/12/08/bridge-the-gap-between-your-physical-world-and-your-bi-using-qr-codes.aspx)并直接转到 Android 手机上的相关磁贴。
+* [扫描 QR 代码](https://blogs.msdn.com/b/powerbi/archive/2015/12/08/bridge-the-gap-between-your-physical-world-and-your-bi-using-qr-codes.aspx)并直接转到 Android 手机上的相关磁贴。
 
 ### <a name="november-2015"></a>2015 年 11 月
-阅读 [2015 年 11 月 Power BI 移动博客文章](http://blogs.msdn.com/b/powerbi/archive/2015/11/24/power-bi-mobile-apps-update-_2d00_-november-2015.aspx)。
+阅读 [2015 年 11 月 Power BI 移动博客文章](https://blogs.msdn.com/b/powerbi/archive/2015/11/24/power-bi-mobile-apps-update-_2d00_-november-2015.aspx)。
 
 #### <a name="all-power-bi-mobile-apps"></a>所有 Power BI 移动应用
 * 全新的欢迎体验。
@@ -729,7 +750,7 @@ R 磁贴和 Web 小组件  - 在移动设备上的仪表板中查看新磁贴类
 * [直接从磁贴链接到特定的 URL](../../service-dashboard-edit-tile.md#hyperlink)。
 
 ### <a name="october-2015"></a>2015 年 10 月
-阅读 [10 月中旬的 Power BI 移动博客文章](http://blogs.msdn.com/b/powerbi/archive/2015/10/21/power-bi-mobile-mid-october-updates-are-here.aspx)。
+阅读 [10 月中旬的 Power BI 移动博客文章](https://blogs.msdn.com/b/powerbi/archive/2015/10/21/power-bi-mobile-mid-october-updates-are-here.aspx)。
 
 #### <a name="all-power-bi-mobile-apps"></a>所有 Power BI 移动应用
 * 具有基于百分比的 y 轴的折线图现在根据实际数据计算可视化范围。 现在该图从图表的最低数据点开始，而不是从默认值开始。
@@ -741,12 +762,12 @@ R 磁贴和 Web 小组件  - 在移动设备上的仪表板中查看新磁贴类
 * 时刻关注组的最新仪表板 -- 每当团队成员将仪表板添加到你的一个组时，就会在 iPhone 上收到通知。
   
     ![](media/mobile-whats-new-in-the-mobile-apps/pbi_iph_grpdashalertcrop.png)
-* 你现在可以水平查看仪表板，只需旋转你的手机。 阅读更多有关 [iPhone 应用中的横向模式](http://blogs.msdn.com/b/powerbi/archive/2015/11/02/enjoy-the-landscape-with-the-power-bi-iphone-app.aspx)的内容。
+* 你现在可以水平查看仪表板，只需旋转你的手机。 阅读更多有关 [iPhone 应用中的横向模式](https://blogs.msdn.com/b/powerbi/archive/2015/11/02/enjoy-the-landscape-with-the-power-bi-iphone-app.aspx)的内容。
   
     ![](media/mobile-whats-new-in-the-mobile-apps/pbi_iph_landscape.png)
 
 ### <a name="september-2015"></a>2015 年 9 月
-Power BI 移动应用中的改进 -- Android、iOS（iPhone 和 iPad）和 Windows。 阅读 [9 月中旬的 Power BI 移动博客文章](http://blogs.msdn.com/b/powerbi/archive/2015/09/23/power-bi-mobile-mid-september-updates-are-here.aspx)。
+Power BI 移动应用中的改进 -- Android、iOS（iPhone 和 iPad）和 Windows。 阅读 [9 月中旬的 Power BI 移动博客文章](https://blogs.msdn.com/b/powerbi/archive/2015/09/23/power-bi-mobile-mid-september-updates-are-here.aspx)。
 
 #### <a name="android"></a>Android
 * 支持组工作区 - 与组工作区中的同事协作。 

@@ -1,22 +1,22 @@
 ---
 title: Power BI 服务中设计器的基本概念
-description: Power BI 服务工作区、仪表板、报表、数据集和工作簿。
+description: Power BI 服务容量、工作区、仪表板、报表、工作簿、数据集和数据流。
 author: maggiesMSFT
-manager: kfile
+manager: kfollis
 ms.reviewer: ''
 featuredvideoid: B2vd4MQrz4M
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 04/25/2019
+ms.date: 11/14/2019
 ms.author: maggies
 LocalizationGroup: Get started
-ms.openlocfilehash: 80d878cc5a8ed0df294b99390fb87d8099bfccb5
-ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
+ms.openlocfilehash: f86b9ae056770240485ff1984be4714faec9dc83
+ms.sourcegitcommit: 01de0b01f66f28ca45b8d309d7864f261d6c9a85
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "73431328"
+ms.lasthandoff: 11/16/2019
+ms.locfileid: "74128360"
 ---
 # <a name="basic-concepts-for-designers-in-the-power-bi-service"></a>Power BI 服务中设计器的基本概念
 
@@ -28,7 +28,7 @@ ms.locfileid: "73431328"
 
 在浏览器中打开 Power BI 服务时，首先进入主屏幕。 可能会看到以下元素：
 
-1. 导航窗格（左侧）
+1. 导航窗格
 2. Office 365 应用程序启动程序
 3. Power BI 主页按钮
 4. 图标按钮，包括设置、帮助和反馈
@@ -45,20 +45,36 @@ ms.locfileid: "73431328"
 
 
 ## <a name="power-bi-concepts"></a>Power BI 概念
-Power BI 的 4 个主要构建基块包括：仪表板、报表和工作簿和数据集     。 这些基块一起组织成工作区  。 在深入了解 4 个构建基块之前，我们必须先了解工作区。
+Power BI 的 5 个主要构建基块是仪表板、报表、工作簿、数据集和数据流      。 它们都整理到工作区中，且在容量上进行创建   。  在深入了解这五个构建基块之前，有必要了解容量和工作区。让我们开始吧。
+
+## <a name="capacities"></a>容量
+容量是一个 Power BI 核心概念，表示用于托管和交付 Power BI 内容的一组资源（存储、处理器和内存）。 容量可以是共享容量，也可以是专用容量   。 共享容量与其他 Microsoft 客户共享，专用容量则完全委派给单个客户。 需要[订阅](service-premium-what-is.md)才能使用专用容量，其详尽说明请参阅[管理高级容量](service-premium-capacity-manage.md) 一文。
+
+默认情况下，工作区是在共享容量上创建的。 在共享容量中，工作负载可在与其他客户共享的计算资源上运行。 由于容量必须共享资源，因此会施加限制以确保“公平竞争”，例如最大模型大小 (1 GB) 和每日刷新频率上限（每天 8 次）。
 
 ## <a name="workspaces"></a>工作区
-工作区是 Power BI 中仪表板、报表、工作簿和数据集的容器。 有两种类型的工作区：“我的工作区”和“工作区”   。 什么是应用？  Power BI 应用  是仪表板和报表的集合，生成应用的目的是为组织的 Power BI 最终用户提供关键指标。 应用是交互式的，但最终用户无法编辑应用。
+工作区是基于容量创建的。 本质上，它们是 Power BI 中仪表板、报表、工作簿、数据集和数据流的容器。
+
+有两种类型的工作区：“我的工作区”和“工作区”   。
 
 - “我的工作区”  是个人工作区，供任何 Power BI 客户在其中处理自己的内容。 只有你自己才有权访问你的工作区。 可以从“我的工作区”共享仪表板和报表。 如果想要在仪表板和报表上展开合作或创建应用，那么你会想要在工作区中工作。      
--  工作区用于与同事展开协作和共享内容  。 也可以在其中为组织创建、发布和管理应用。 可将应用工作区视为构成 Power BI 应用的内容的暂存区域和容器。 可将同事添加到工作区，然后在仪表板、报表、工作簿和数据集方面进行协作。 所有工作区成员都需要 Power BI Pro 许可证。 应用使用者（有权访问应用的同事）不一定需要 Pro 许可证。 详细了解[新建工作区](service-create-the-new-workspaces.md)。  
+-  工作区用于与同事展开协作和共享内容  。 可将同事添加到工作区，然后在仪表板、报表、工作簿和数据集方面进行协作。 有一个例外，就是所有工作区成员都需要 Power BI Pro 许可证。 详细了解[新建工作区](service-create-the-new-workspaces.md)。 
+
+    也可在工作区中为组织创建、发布和管理应用  。 可将工作区看作构成 Power BI 应用的内容的暂存区域和容器。 什么是应用？  它是仪表板和报表的集合，生成它的目的是为组织中的 Power BI 使用者提供关键指标。 应用是交互式的，但使用者无法编辑它们。 应用使用者（有权访问应用的同事）不一定需要 Pro 许可证。  
 
 若要详细了解共享的常规信息，请首先了解[共享正在处理的仪表板的方式](service-how-to-collaborate-distribute-dashboards-reports.md)。
 
-现在，让我们继续了解 Power BI 构建基块。 仪表板或报表不能没有数据（虽然有空仪表板和空报表，但必须有数据才能让它们发挥作用），因此，让我们先来了解一下“数据集”  。
+现在来了解 5 个 Power BI 构建基块。
+
+## <a name="dataflows"></a>数据流
+数据流可帮助组织统一来自不同源的数据  。 它们是可选的，通常在复杂或大型项目中使用。 它们表示数据已准备好且已暂存供数据集使用。 但是，它们不可直接用作报告的源。 它们使用 Microsoft 数据连接器的广泛集合，让你能够从本地和基于云的数据源引入数据。
+
+数据流仅在工作区中创建和管理（但不是在“我的工作区”中），而且作为实体存储在 Azure Data Lake Storage Gen2 的 Common Data Model (CDM) 中  。 通常，它们计划定期刷新以存储最新数据。 它们非常适合准备数据供数据集使用（可能是重复使用）。 有关详细信息，请参阅 [Power BI 中的自助服务数据准备](service-dataflows-overview.md)一文。
+
+仪表板和报表必须具有数据（当然，可具有空的仪表板和空报表，但它们有数据后才有用），因此让我们来了解一下数据集  。
 
 ## <a name="datasets"></a>数据集
-数据集  是导入  或连接  到的数据集合。 通过 Power BI，你可以连接到并导入各种类型的数据集并将它们组合在一起。  
+数据集  是导入  或连接  到的数据集合。 通过 Power BI，你可以连接到并导入各种类型的数据集并将它们组合在一起。 数据集还可从数据流中获取数据。
 
 数据集与工作区相关联，单个数据集可以包含在多个工作区中。  打开某个工作区时，关联的数据集会列在“数据集”选项卡下面。  每个列出的数据集表示一个数据源，例如，OneDrive 上的 Excel 工作簿，或本地 SSAS 表格数据集或 Salesforce 数据集。 支持许多不同的数据源，并且我们一直在添加新的数据源。 请参阅[可与 Power BI 一起使用的数据集类型](service-get-data.md)列表。
 
@@ -74,13 +90,17 @@ Power BI 的 4 个主要构建基块包括：仪表板、报表和工作簿和�
 
   ![数据集图示](media/service-basic-concepts/drawing2.png)
 
-若要[连接或导入数据集](service-get-data.md)，请选择左侧导航栏底部的“获取数据”  。 按照说明连接到或导入特定的源，并将该数据集添加到活动的工作区。 新的数据集项目带有黄色星号标记。 在 Power BI 中所做的工作不会更改基础数据集。
+要[连接或导入数据集](service-get-data.md)，请选择导航窗格底部的“获取数据”  。 按照说明连接到或导入特定的源，并将该数据集添加到活动的工作区。 新的数据集项目带有黄色星号标记。 在 Power BI 中所做的工作不会更改基础数据集。
 
 如果具有管理员、成员或参与者角色，那么一个工作区成员添加的数据集也可供其他工作区成员使用    。
 
-可以刷新、重命名、浏览和删除数据集。 使用数据集从头开始创建报表，或运行[快速见解](service-insights.md)创建报表。  若要查看哪些报表和仪表板已使用数据集，请选择“查看相关项”。  若要浏览数据集，请选择数据集。 你实际执行的操作是在报表编辑器中打开数据集，在报表编辑器中，你可以真正开始深入了解数据并创建可视化对象。 那么，我们进入下一个主题 -- 报表。
+可以刷新、重命名、浏览和删除数据集。 使用数据集从头开始创建报表，或运行[快速见解](service-insights.md)创建报表。  若要查看哪些报表和仪表板已使用数据集，请选择“查看相关项”。  若要浏览数据集，请选择数据集。 你实际要做的是在报表编辑器中打开数据集，可在此处创建可视化效果，从而开始真正地深入了解数据。
+
+接下来，我们进入下一主题 - 报表。
 
 ### <a name="dig-deeper"></a>深入了解
+* [Power BI 服务中的数据集](service-datasets-understand.md)
+* [Power BI 服务中的数据集模式](service-dataset-modes-understand.md)
 * [什么是 Power BI Premium？](service-premium-what-is.md)
 * [获取 Power BI 的数据](service-get-data.md)
 * [Power BI 的示例数据集](sample-datasets.md)
@@ -159,13 +179,13 @@ Power BI 报表是一页或多页可视化对象（如折线图、地图和树�
 
 ![浏览器中的 Power BI 服务](media/service-basic-concepts/completenewest.png)
 
-### <a name="1-navigation-pane-left-nav"></a>1.**导航窗格**（左侧）
+### <a name="1-navigation-pane"></a>1.**导航窗格**
 使用导航窗格可在工作区与 Power BI 构建基块（仪表板、报表、工作簿和数据集）之间定位和切换。  
 
   ![导航窗格](media/service-basic-concepts/power-bi-navigation.png)
 
 * 选择“获取数据”  ，以[将数据集、报表和仪表板添加到 Power BI](service-get-data.md)。
-* 使用此图标展开和折叠导航栏窗格 ![导航窗格图标](media/service-basic-concepts/expand-icon.png)。
+* 使用此图标展开和折叠导航窗格 ![导航窗格图标](media/service-basic-concepts/expand-icon.png)。
 * 选择“收藏夹”可以打开或管理收藏的内容。 
 * 选择“最近”可以查看和打开最近访问的内容。 
 * 选择“应用”可以查看、打开或删除某个应用。 
@@ -227,5 +247,4 @@ Power BI 报表是一页或多页可视化对象（如折线图、地图和树�
 - [什么是 Power BI？](fundamentals/power-bi-overview.md)  
 - [Power BI 视频](videos.md)  
 - [报表编辑器 - 教程](service-the-report-editor-take-a-tour.md)
-
-更多问题？ [尝试咨询 Power BI 社区](http://community.powerbi.com/)
+- 更多问题？ [尝试咨询 Power BI 社区](https://community.powerbi.com/)

@@ -1,29 +1,28 @@
 ---
-title: 在 Power BI 服务中编辑 SAP 变量（预览）
+title: 在 Power BI 服务中编辑 SAP 变量
 description: Azure 和 Power BI
 author: Sujata994
 ms.author: sunaraya
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 08/12/2019
+ms.date: 11/12/2019
 LocalizationGroup: Data from databases
-ms.openlocfilehash: db1d4a8a9734c910514b4952b664bf7ebce324c1
-ms.sourcegitcommit: 4a3afe761d2f4a5bd897fafb36b53961739e8466
+ms.openlocfilehash: cec8d598713000ec1d2b5a1fb72ebaa7d8932faf
+ms.sourcegitcommit: 0d7ad791a2d2bef45d5d60e38e0af4c9fc22187b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/20/2019
-ms.locfileid: "69654876"
+ms.lasthandoff: 11/13/2019
+ms.locfileid: "74010901"
 ---
-# <a name="edit-sap-variables-in-the-power-bi-service-preview"></a>在 Power BI 服务中编辑 SAP 变量（预览）
+# <a name="edit-sap-variables-in-the-power-bi-service"></a>在 Power BI 服务中编辑 SAP 变量
 
-将 SAP Business Warehouse 或 SAP HANA 与 DirectQuery 结合使用时，报表作者现在可以允许最终用户在高级工作区的 Power BI 服务中编辑 SAP 变量  。
+将 SAP Business Warehouse 或 SAP HANA 与 DirectQuery 结合使用时，报表作者现可允许最终用户在高级和共享工作区的 Power BI 服务中编辑 SAP 变量  。 请注意，此功能不适用于“我的工作区”的“与我共享”选项卡中的报表。 
 
 ![“编辑变量”对话框](media/service-edit-sap-variables/sap-edit-variables-dialog.png)
 
-本文档介绍了在 Power BI 中编辑变量的要求、如何启用此预览功能以及在 Power BI 服务中编辑变量的位置。
+本文档介绍了在 Power BI 中编辑变量的要求、如何启用此功能以及在 Power BI 服务中编辑变量的位置。
 
 ## <a name="requirements-for-sap-edit-variables"></a>SAP 编辑变量的要求
 
@@ -31,12 +30,10 @@ ms.locfileid: "69654876"
 
 **需要新筛选器体验** - 必须为报表启用[新筛选器体验](power-bi-report-filter.md)。 以下是在 Power BI Desktop 中为报表启用它的方法：
 - 在 Power BI Desktop 中，选择“文件” > “选项和设置” > “选项”   
-- 在左侧导航栏的“当前文件”  下，选择“报表设置”  。
+- 在导航窗格的“当前文件”下方，选择“报表设置”   。
 - 在“筛选体验”下，选择“启用更新的筛选器窗格”   。
 
 **需要 DirectQuery 连接** - 必须使用 DirectQuery 连接到 SAP 数据源。 不支持导入连接。
-
-**需要 Power BI Premium 订阅** - SAP 编辑变量功能目前仅适用于 Power BI Premium 订阅。
 
 **需要进行 SSO 设置** - 要使此功能正常工作，必须配置单一登录 (SSO)。 有关详细信息，请参阅[单一登录 (SSO) 概述](service-gateway-sso-overview.md)。
 
@@ -48,7 +45,7 @@ ms.locfileid: "69654876"
 
 ## <a name="how-to-enable-the-feature"></a>如何启用该功能
 
-若要启用“SAP 编辑变量”功能，请在 Power BI Desktop 中连接到 SAP HANA 或 SAP BW 数据源  。 然后转到“文件”>“选项和设置”>“选项”，然后在左窗格的当前文件部分中选择“DirectQuery”   。 选择该选项后，在右侧窗格中可以看到 DirectQuery 选项和一个复选框，可在其中“允许最终用户更改报表中的 SAP 变量（预览）”，如下图所示  。
+若要启用“SAP 编辑变量”功能，请在 Power BI Desktop 中连接到 SAP HANA 或 SAP BW 数据源  。 然后转到“文件”>“选项和设置”>“选项”，然后在左窗格的当前文件部分中选择“DirectQuery”   。 选择该选项后，可在右侧窗格中看到 DirectQuery 选项和一个复选框，可在其中“允许最终用户更改报表中的 SAP 变量”，如下图所示  。
 
 ![DirectQuery 选项](media/service-edit-sap-variables/sap-preview-setting-in-desktop.png)
 
@@ -78,10 +75,6 @@ ms.locfileid: "69654876"
     ![重置为默认值](media/service-edit-sap-variables/reset-to-default.png)
 
 如果 Power BI 服务使用启用了“编辑变量”功能的 SAP HANA 或 SAP BW，则在该服务中处理已发布报表时，报表所有者可以更改这些默认值  。 报表所有者可以在编辑模式下更改变量，并保存报表以使这些设置为该报表的新默认设置  。 在报表所有者进行此类更改后，访问该报表的任何其他用户都将看到这些新设置已为默认设置。
-
-## <a name="issues-and-considerations"></a>问题和注意事项
-
-目前，应用不支持 SAP 编辑变量功能。
 
 ## <a name="next-steps"></a>后续步骤
 

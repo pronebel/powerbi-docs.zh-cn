@@ -2,7 +2,6 @@
 title: Power BI 服务中的新功能
 description: Power BI 服务中的新功能
 author: NikhilGaekwad-MSFT
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 10/22/2019
 ms.author: nikhilga
 LocalizationGroup: Get started
-ms.openlocfilehash: a6595389a95cbf434bc9deb9f1560f6157910ceb
-ms.sourcegitcommit: d441d350504f8c6d9e100d229757add6237f0bef
+ms.openlocfilehash: c470eba3998e04fde8c00c619077d5d8db444b42
+ms.sourcegitcommit: 08b73af260ded51daaa6749338cb85db2eab587f
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/30/2019
-ms.locfileid: "73060988"
+ms.lasthandoff: 11/15/2019
+ms.locfileid: "74099732"
 ---
 # <a name="whats-new-in-the-power-bi-service"></a>Power BI 服务中的新功能
 请阅读此页，了解 Power BI 服务中的已知问题和最近发布的功能  。 有关相关的“新增功能”的信息，请参阅：
@@ -32,7 +31,7 @@ ms.locfileid: "73060988"
 
 ### <a name="october-2019"></a>2019 年 10 月
 * 用于刷新 Power BI 数据集的新 Microsoft Flow 操作。
-* 适用于 Power BI 服务中报表和仪表板的[联系人信息](https://powerbi.microsoft.com/en-us/blog/announcing-new-contact-lists-for-reports-and-dashboards-in-the-power-bi-service/)。
+* 适用于 Power BI 服务中报表和仪表板的[联系人信息](https://powerbi.microsoft.com/blog/announcing-new-contact-lists-for-reports-and-dashboards-in-the-power-bi-service/)。
 
 ## <a name="previous-months-2019"></a>前几个月 (2019)
 ### <a name="september-2019"></a>2019 年 9 月
@@ -40,7 +39,7 @@ ms.locfileid: "73060988"
 
 ### <a name="august-2019"></a>2019 年 8 月
 * Power BI Premium 的新容量设置。
-* 所在组织的[自定义品牌](https://powerbi.microsoft.com/en-us/blog/announcing-custom-branding-for-your-organization/)。
+* 所在组织的[自定义品牌](https://powerbi.microsoft.com/blog/announcing-custom-branding-for-your-organization/)。
 * 使用生成权限导出汇总数据。
 * 支持适用于[分页报表](paginated-reports-report-builder-power-bi.md)的 URL 参数。
 * 支持月度电子邮件订阅。 
@@ -49,9 +48,9 @@ ms.locfileid: "73060988"
 * 支持适用于[分页报表](paginated-reports-report-builder-power-bi.md)的非高级数据集。
 * Power BI [聚合](desktop-aggregations.md)正式发布。
 * 将刷新通知发送给其他人。
-* 用于优化 Power BI Premium 容量的[测试工具](https://powerbi.microsoft.com/en-us/blog/power-bi-premium-know-what-your-premium-capacity-can-handle/)。
-* 公共预览版[服务可用性通知](https://powerbi.microsoft.com/en-us/blog/power-bi-introduces-service-availability-notifications/)。
-* 公共预览版 Power BI 报表[全新外观](https://powerbi.microsoft.com/en-us/blog/introducing-the-new-look-for-power-bi-service/)。
+* 用于优化 Power BI Premium 容量的[测试工具](https://powerbi.microsoft.com/blog/power-bi-premium-know-what-your-premium-capacity-can-handle/)。
+* 公共预览版[服务可用性通知](https://powerbi.microsoft.com/blog/power-bi-introduces-service-availability-notifications/)。
+* 公共预览版 Power BI 报表[全新外观](https://powerbi.microsoft.com/blog/introducing-the-new-look-for-power-bi-service/)。
 * 南非的新 Power BI 区域。
 
 ### <a name="june-2019"></a>2019 年 6 月
@@ -65,7 +64,7 @@ ms.locfileid: "73060988"
 ### <a name="may-2019"></a>2019 年 5 月
 * Power BI 应用[自定义导航](service-create-distribute-apps.md)。
 * 分页报表中的电子邮件订阅可使用额外的附件类型（PPTX、XLSX、DOCX、CSV 和 XML）。
-* 为服务中的 Power BI 报表[注释](https://powerbi.microsoft.com/en-us/blog/announcing-report-commenting-for-power-bi-service-and-mobile/)。
+* 为服务中的 Power BI 报表[注释](https://powerbi.microsoft.com/blog/announcing-report-commenting-for-power-bi-service-and-mobile/)。
 
 ### <a name="april-2019"></a>2019 年 4 月
 * Power BI [数据流](service-dataflows-overview.md)正式发布。
@@ -74,15 +73,15 @@ ms.locfileid: "73060988"
 * 更新了仪表板问答体验。
 * [分页报表](paginated-reports-report-builder-power-bi.md)中支持 Azure Analysis Services。
 * Power BI 应用中支持分页报表。
-* 含 PDF 附件的[电子邮件订阅](https://powerbi.microsoft.com/en-us/blog/e-mail-subscriptions-for-paginated-reports-is-now-available/)中支持分页报表。
+* 含 PDF 附件的[电子邮件订阅](https://powerbi.microsoft.com/blog/e-mail-subscriptions-for-paginated-reports-is-now-available/)中支持分页报表。
 * 管理门户中支持 Power BI Premium 摘要和工作负荷指标。
 * Power BI Premium 中提供[查询缓存](power-bi-query-caching.md)。
-* [Power BI 主页](https://powerbi.microsoft.com/en-us/blog/announcing-power-bi-home-general-availability-ga-roadmap/)正式发布。
+* [Power BI 主页](https://powerbi.microsoft.com/blog/announcing-power-bi-home-general-availability-ga-roadmap/)正式发布。
 
 ### <a name="march-2019"></a>2019 年 3 月
 * 正式发布适用于 Power BI Premium 的 Multi-Geo 功能。
 * 编辑和管理 Azure B2B 的 Power BI 内容支持。
-* 只读 [XMLA 终结点](https://powerbi.microsoft.com/en-us/blog/power-bi-open-platform-connectivity-with-xmla-endpoints-public-preview/)发布公开预览版。
+* 只读 [XMLA 终结点](https://powerbi.microsoft.com/blog/power-bi-open-platform-connectivity-with-xmla-endpoints-public-preview/)发布公开预览版。
 
 ### <a name="february-2019"></a>2019 年 2 月
 * [容量监视应用](https://powerbi.microsoft.com/blog/new-monitoring-capabilities-for-power-bi-premium-capacities/)中的工作负载和活动的数据集大小指标。
@@ -90,20 +89,20 @@ ms.locfileid: "73060988"
 * [按需电子邮件订阅](service-report-subscribe.md)。
 * 在管理门户中批量操作。
 * 经过筛选的 PPT 和 PDF 导出操作。
-* 管理门户中的[帮助和支持设置](https://powerbi.microsoft.com/en-us/blog/tailoring-help-and-support-for-power-bi-users/)。
+* 管理门户中的[帮助和支持设置](https://powerbi.microsoft.com/blog/tailoring-help-and-support-for-power-bi-users/)。
 * [数据流](service-dataflows-overview.md)的数据沿袭体验。
 * 管理门户中的“认证的自定义视觉对象”设置。
 
 ### <a name="january-2019"></a>2019 年 1 月
 * 在内部门户或网站中[嵌入的安全 Power BI 报表](service-embed-secure.md)。
 * 具有新连接器的[数据流](service-dataflows-overview.md)编辑器的更新，和对本机 SQL 查询以及 Power Query 联机转换的支持。
-* Power BI 服务中的[个人书签](https://powerbi.microsoft.com/en-us/blog/announcing-personal-bookmarks-in-the-power-bi-service/)。
+* Power BI 服务中的[个人书签](https://powerbi.microsoft.com/blog/announcing-personal-bookmarks-in-the-power-bi-service/)。
 * 基于时间的、具有电子邮件订阅的日程安排。
 
 ## <a name="2018"></a>11 月 7 日
 ### <a name="december-2018"></a>2018 年 12 月
-* Power BI 主页中 AI 支持的[推荐应用](https://powerbi.microsoft.com/en-us/blog/announcing-ai-powered-app-recommendations-getting-the-right-insights-to-the-right-people/)。
-* 管理门户中的[工作区管理](https://powerbi.microsoft.com/en-us/blog/workspace-management-in-the-admin-portal/)。
+* Power BI 主页中 AI 支持的[推荐应用](https://powerbi.microsoft.com/blog/announcing-ai-powered-app-recommendations-getting-the-right-insights-to-the-right-people/)。
+* 管理门户中的[工作区管理](https://powerbi.microsoft.com/blog/workspace-management-in-the-admin-portal/)。
 * [数据流](service-dataflows-overview.md)中 Power BI 数据流与 Azure Data Lake Storage Gen2 集成的预览版。
 * Power BI 解决方案模板已转为开源。
 
@@ -119,8 +118,8 @@ ms.locfileid: "73060988"
 
 ### <a name="september-2018"></a>2018 年 9 月
 * Power BI 服务中的[仪表板评论](https://powerbi.microsoft.com/blog/announcing-dashboard-comments-in-power-bi/)。
-* [Power BI 主页和全局搜索](https://powerbi.microsoft.com/en-us/blog/introducing-power-bi-home-and-global-search/)发布公开预览版。
-* [容量监视应用](https://powerbi.microsoft.com/blog/new-monitoring-capabilities-for-power-bi-premium-capacities/)中提供[监视查询](https://powerbi.microsoft.com/en-us/blog/query-metrics-available-in-power-bi-premium-capacity-metrics-app/)功能。
+* [Power BI 主页和全局搜索](https://powerbi.microsoft.com/blog/introducing-power-bi-home-and-global-search/)发布公开预览版。
+* [容量监视应用](https://powerbi.microsoft.com/blog/new-monitoring-capabilities-for-power-bi-premium-capacities/)中提供[监视查询](https://powerbi.microsoft.com/blog/query-metrics-available-in-power-bi-premium-capacity-metrics-app/)功能。
 
 ### <a name="august-2018"></a>2018 年 8 月
 * Power BI Premium 的[容量监视应用](https://powerbi.microsoft.com/blog/new-monitoring-capabilities-for-power-bi-premium-capacities/)。
@@ -144,7 +143,7 @@ ms.locfileid: "73060988"
 * Azure B2B 邀请报表的工作流改进。
 
 ### <a name="april-2018"></a>2018 年 4 月
-* [有关数据保护的 Power BI 白皮书](http://servicetrust.microsoft.com/ViewPage/TrustDocuments?command=Download&downloadType=Document&downloadId=5bd4c466-277b-4726-b9e0-f816ac12872d&docTab=6d000410-c9e9-11e7-9a91-892aae8839ad_FAQ_and_White_Papers)
+* [有关数据保护的 Power BI 白皮书](https://servicetrust.microsoft.com/ViewPage/TrustDocuments?command=Download&downloadType=Document&downloadId=5bd4c466-277b-4726-b9e0-f816ac12872d&docTab=6d000410-c9e9-11e7-9a91-892aae8839ad_FAQ_and_White_Papers)
 * 对于 Office 365 租户，默认启用 Power BI 服务的[审核日志](service-admin-auditing.md)。
 
 ### <a name="march-2018"></a>2018 年 3 月
@@ -154,7 +153,7 @@ ms.locfileid: "73060988"
 ### <a name="february-2018"></a>2018 年 2 月
 * 自动为最终用户安装 [Power BI 应用](service-create-distribute-apps.md)。
 * Power BI Premium 上的 P4 和 P5 容量
-* [组织自定义视觉对象](power-bi-custom-visuals-organization.md)预览。
+* [组织自定义视觉对象](developer/power-bi-custom-visuals-organization.md)预览。
 
 ### <a name="january-2018"></a>2018 年 1 月
 *   共享和收藏 Power BI 报表。
@@ -324,7 +323,6 @@ ms.locfileid: "73060988"
 
 ***企业***
 
-* [ExpressRoute](service-admin-power-bi-expressroute.md)：用于建立到 Power BI 的专用托管连接。
 * [针对 RLS 的内容包支持](service-admin-rls.md)（预览）：如果 RLS 是为作为内容包的一部分分发的仪表板和报表定义的，那么将考虑对这些内容包使用安全规则。
 
 ***仪表板***
@@ -436,7 +434,7 @@ ms.locfileid: "73060988"
 
 **2016 年 1 月 6 日**
 
-Power BI 团队在整个假期都在忙。 有关所有详细信息，[请访问 Power BI 团队博客](http://blogs.msdn.com/b/powerbi/archive/2016/01/06/power-bi-service-update-0106.aspx)
+Power BI 团队在整个假期都在忙。 有关所有详细信息，[请访问 Power BI 团队博客](https://blogs.msdn.com/b/powerbi/archive/2016/01/06/power-bi-service-update-0106.aspx)
 
 ***仪表板***
 
@@ -471,12 +469,12 @@ Power BI 团队在整个假期都在忙。 有关所有详细信息，[请访问
 * 巴西区 Power BI
 * 希伯来语和阿拉伯语支持
 
-有关所有详细信息，[请访问 Power BI 团队博客](http://blogs.msdn.com/b/powerbi/archive/2016/01/06/power-bi-service-update-0106.aspx)
+有关所有详细信息，[请访问 Power BI 团队博客](https://blogs.msdn.com/b/powerbi/archive/2016/01/06/power-bi-service-update-0106.aspx)
 
 ## <a name="2015"></a>2015
 **2015 年 12 月 16 日**
 
-本周有大量更新，大部分应用于 Power BI Desktop，对报表创作和可视化效果也有一些重要更新。 [Power BI 团队博客](http://blogs.msdn.com/b/powerbi/archive/2015/12/16/more-power-bi-feature-updates-power-bi-desktop-december-update-and-new-power-bi-service-features.aspx)包含完整的说明，还有介绍更新的视频。   
+本周有大量更新，大部分应用于 Power BI Desktop，对报表创作和可视化效果也有一些重要更新。 [Power BI 团队博客](https://blogs.msdn.com/b/powerbi/archive/2015/12/16/more-power-bi-feature-updates-power-bi-desktop-december-update-and-new-power-bi-service-features.aspx)包含完整的说明，还有介绍更新的视频。   
 
 [下载 Power BI Desktop](https://powerbi.microsoft.com/desktop?WT.mc_id=Blog_Desktop_Update)
 
@@ -513,7 +511,7 @@ Power BI 团队在整个假期都在忙。 有关所有详细信息，[请访问
   6. ODBC 连接器：支持选择用户/系统 DSN
   7. CSV 连接器：在源对话框中指定列分隔符的功能
 
-有关所有详细信息，包括演示很多这些更新的视频，请访问 [Power BI Blog（Power BI 博客）](http://blogs.msdn.com/b/powerbi/archive/2015/12/16/more-power-bi-feature-updates-power-bi-desktop-december-update-and-new-power-bi-service-features.aspx)。
+有关所有详细信息，包括演示很多这些更新的视频，请访问 [Power BI Blog（Power BI 博客）](https://blogs.msdn.com/b/powerbi/archive/2015/12/16/more-power-bi-feature-updates-power-bi-desktop-december-update-and-new-power-bi-service-features.aspx)。
 
 **2015 年 12 月 10 日**
 
@@ -522,20 +520,20 @@ Power BI 团队在整个假期都在忙。 有关所有详细信息，[请访问
 * 在切片器中使用图像
 * 更改报表视觉对象之间的交互
   
-  有关所有详细信息，请访问 [Power BI Blog（Power BI 博客）](http://blogs.msdn.com/b/powerbi/archive/2015/12/10/power-bi-weekly-service-update-1210.aspx)
+  有关所有详细信息，请访问 [Power BI Blog（Power BI 博客）](https://blogs.msdn.com/b/powerbi/archive/2015/12/10/power-bi-weekly-service-update-1210.aspx)
 
 **2015 年 12 月 8 日**
 
-* [Power BI 中的 QR 代码](http://blogs.msdn.com/b/powerbi/archive/2015/12/08/bridge-the-gap-between-your-physical-world-and-your-bi-using-qr-codes.aspx)
+* [Power BI 中的 QR 代码](https://blogs.msdn.com/b/powerbi/archive/2015/12/08/bridge-the-gap-between-your-physical-world-and-your-bi-using-qr-codes.aspx)
 
 **2015 年 12 月 3 日**
 
-* 通过 Quick Insights 自动发现趋势并揭示数据集中的模式：[视频](http://blogs.msdn.com/b/powerbi/archive/2015/12/02/power-bi-updates-from-browser-to-desktop-and-new-automated-insights-mf.aspx)或[文章](consumer/end-user-insights.md)
-* [可视化 Power BI 中的 VMob 数据](http://blogs.msdn.com/b/powerbi/archive/2015/11/25/visualize-your-vmob-data-in-power-bi.aspx)
-* [Power BI 与 Cortana 的集成](http://blogs.msdn.com/b/powerbi/archive/2015/12/01/announcing-power-bi-integration-with-cortana-and-new-ways-to-quickly-find-insights-in-your-data.aspx)
-* [Power BI 企业网关的预览](http://blogs.msdn.com/b/powerbi/archive/2015/12/02/announcing-preview-of-power-bi-gateway-for-enterprise-deployments.aspx)
-* 推出新的内容包：[Power BI 仪表板上的必应的搜索分析](http://blogs.msdn.com/b/powerbi/archive/2015/12/02/search-analytics-from-bing-on-your-power-bi-dashboards.aspx)
-* 新的针对开发人员的增强功能：[两个新的 API 和更方便的应用程序注册](http://blogs.msdn.com/b/powerbi/archive/2015/12/02/power-bi-for-developers-reports-api-and-a-simple-app-registration-experience.aspx)
+* 通过 Quick Insights 自动发现趋势并揭示数据集中的模式：[视频](https://blogs.msdn.com/b/powerbi/archive/2015/12/02/power-bi-updates-from-browser-to-desktop-and-new-automated-insights-mf.aspx)或[文章](consumer/end-user-insights.md)
+* [可视化 Power BI 中的 VMob 数据](https://blogs.msdn.com/b/powerbi/archive/2015/11/25/visualize-your-vmob-data-in-power-bi.aspx)
+* [Power BI 与 Cortana 的集成](https://blogs.msdn.com/b/powerbi/archive/2015/12/01/announcing-power-bi-integration-with-cortana-and-new-ways-to-quickly-find-insights-in-your-data.aspx)
+* [Power BI 企业网关的预览](https://blogs.msdn.com/b/powerbi/archive/2015/12/02/announcing-preview-of-power-bi-gateway-for-enterprise-deployments.aspx)
+* 推出新的内容包：[Power BI 仪表板上的必应的搜索分析](https://blogs.msdn.com/b/powerbi/archive/2015/12/02/search-analytics-from-bing-on-your-power-bi-dashboards.aspx)
+* 新的针对开发人员的增强功能：[两个新的 API 和更方便的应用程序注册](https://blogs.msdn.com/b/powerbi/archive/2015/12/02/power-bi-for-developers-reports-api-and-a-simple-app-registration-experience.aspx)
 
 **2015 年 11 月 24 日**
 
@@ -547,7 +545,7 @@ Power BI 团队在整个假期都在忙。 有关所有详细信息，[请访问
 * 改善的 Google Analytics 连接器体验
 * 关闭 Power BI 帐户
 
-有关所有详细信息，请访问 [Power BI Blog（Power BI 博客）](http://blogs.msdn.com/b/powerbi/archive/2015/11/24/power-bi-weekly-service-update-1124.aspx)
+有关所有详细信息，请访问 [Power BI Blog（Power BI 博客）](https://blogs.msdn.com/b/powerbi/archive/2015/11/24/power-bi-weekly-service-update-1124.aspx)
 
 **2015 年 11 月 18 日**
 
@@ -557,7 +555,7 @@ Power BI 团队在整个假期都在忙。 有关所有详细信息，[请访问
 * 在邀请你的组织的同事加入 Power BI 组时拥有更好体验
 * 改进了磁贴的错误消息
 
-有关所有详细信息，请访问 [Power BI Blog（Power BI 博客）](http://blogs.msdn.com/b/powerbi/archive/2015/11/17/power-bi-weekly-service-update-1117.aspx)
+有关所有详细信息，请访问 [Power BI Blog（Power BI 博客）](https://blogs.msdn.com/b/powerbi/archive/2015/11/17/power-bi-weekly-service-update-1117.aspx)
 
 **2015 年 11 月 11 日**
 
@@ -567,7 +565,7 @@ Power BI 团队在整个假期都在忙。 有关所有详细信息，[请访问
 * Microsoft 365 管理中心中的 power BI 运行状况
 * 表、矩形图和卡片中的 KPI 和图像
 
-有关所有详细信息，请访问 [Power BI Blog（Power BI 博客）](http://blogs.msdn.com/b/powerbi/archive/2015/11/11/power-bi-weekly-service-update-1110.aspx)
+有关所有详细信息，请访问 [Power BI Blog（Power BI 博客）](https://blogs.msdn.com/b/powerbi/archive/2015/11/11/power-bi-weekly-service-update-1110.aspx)
 
 **2015 年 11 月 3 日**
 
@@ -575,7 +573,7 @@ Power BI 团队在整个假期都在忙。 有关所有详细信息，[请访问
 * 个人可以购买 Power BI Pro。
 * 重复的报表页。
 
-有关所有详细信息，请访问 [Power BI Blog（Power BI 博客）](http://blogs.msdn.com/b/powerbi/archive/2015/11/03/power-bi-weekly-service-update-1103.aspx)
+有关所有详细信息，请访问 [Power BI Blog（Power BI 博客）](https://blogs.msdn.com/b/powerbi/archive/2015/11/03/power-bi-weekly-service-update-1103.aspx)
 
 **2015 年 10 月 28 日**
 
@@ -584,7 +582,7 @@ Power BI 团队在整个假期都在忙。 有关所有详细信息，[请访问
 * 共享大量电子邮件地址
 * 通过参数化 URL 折叠导航窗格
 
-有关所有详细信息，请访问 [Power BI Blog（Power BI 博客）](http://blogs.msdn.com/b/powerbi/archive/2015/10/28/power-bi-weekly-service-update-1027.aspx)
+有关所有详细信息，请访问 [Power BI Blog（Power BI 博客）](https://blogs.msdn.com/b/powerbi/archive/2015/10/28/power-bi-weekly-service-update-1027.aspx)
 
 **2015 年 10 月 20 日**
 
@@ -592,7 +590,7 @@ Power BI 团队在整个假期都在忙。 有关所有详细信息，[请访问
 * Q&A 中的特色问题
 * 报表可视化效果的全屏弹出模式
 
-有关所有详细信息，请访问 [Power BI Blog（Power BI 博客）](http://blogs.msdn.com/b/powerbi/archive/2015/10/20/power-bi-weekly-service-update-1020.aspx)
+有关所有详细信息，请访问 [Power BI Blog（Power BI 博客）](https://blogs.msdn.com/b/powerbi/archive/2015/10/20/power-bi-weekly-service-update-1020.aspx)
 
 **2015 年 10 月 13 日**
 
@@ -603,7 +601,7 @@ Power BI 团队在整个假期都在忙。 有关所有详细信息，[请访问
 * 查看每个磁贴的源的功能
 * Planview Enterprise 是端到端的项目组合及资源管理解决方案，将策略与执行相连接，从而改进企业的决策过程。 Power BI 的 Planview Enterprise 内容包允许你以全新方式可视化资源和工作管理数据。 只需使用你的凭据登录并开始以交互方式浏览你的项目组合的投资费用、预算状态，以及你的项目与策略优先级的相符程度。
 
-查看我们的[博客](http://blogs.msdn.com/b/powerbi/archive/2015/10/13/power-bi-weekly-service-update-1013.aspx)和[在线文档](service-get-started.md)以了解详细信息。
+查看我们的[博客](https://blogs.msdn.com/b/powerbi/archive/2015/10/13/power-bi-weekly-service-update-1013.aspx)和[在线文档](service-get-started.md)以了解详细信息。
 
 **2015 年 10 月 6 日**
 
@@ -612,17 +610,17 @@ Power BI 团队在整个假期都在忙。 有关所有详细信息，[请访问
 * 我们添加了在共享仪表板时关闭电子邮件通知的选项。 只需取消选中 Power BI 共享对话框中的“向收件人发送电子邮件通知”复选框。 系统将向你提供一个 URL – 复制并向你的同事共享此 URL，以便授予他们访问仪表板的权限。
 * Microsoft Dynamics NAV 是面向小到中型组织的业务管理解决方案。 它为客户的业务提供完整的解决方案，使他们能够更好地控制其财务和业务流程。 此 Power BI 内容包为 Dynamics NAV 用户提供现成的报表，如销售额和利润、机会渠道、盈利能力等等。 这些指标在可以完全自定义的仪表上进行组织，你可以轻松连接并立即开始探究你的数据。
 
-查看[博客](http://blogs.msdn.com/b/powerbi/archive/2015/10/06/power-bi-service-weekly-update-10-06.aspx)和[在线文档](service-get-started.md)以获取更多信息。
+查看[博客](https://blogs.msdn.com/b/powerbi/archive/2015/10/06/power-bi-service-weekly-update-10-06.aspx)和[在线文档](service-get-started.md)以获取更多信息。
 
 **2015 年 9 月 29 日**
 
 * 通过本周的服务更新，当你创建新报表时可以从多个页面大小中进行选择，也可以定义自己的页面大小。 这可以控制报表中每页的大小和纵横比。
 * 我们为图像和气泡图添加了额外的可视化格式支持。 调整图像大小时你可以锁定图像的纵横比，以避免图像扭曲，可以将散点图和气泡图配置为填充或不填充。
 * 现在，Power BI 将向备选电子邮件地址发送共享邀请。 当与你共享仪表板时，我们将同时向你的原始电子邮件地址和备用电子邮件地址（如果已配置）发送共享邀请链接。
-* Power BI 可供所有客户使用，包括 Dedicated on Multitenant (DonMT) O365 体系结构中的客户。 你将在多租户模式下将 Power BI 作为共享服务使用。 在大多数情况下，你可以按照简单的[自助服务注册流程](https://powerbi.microsoft.com/)注册 Power BI – 只需输入你的工作电子邮件地址，输入名称和密码就可以开始注册。 如果你是租户管理员，你可以使用[此处](http://go.microsoft.com/fwlink/?LinkId=627174)的说明将许可证分配给用户。
-* 你可以使用 Azure Audit Logs 查看你的 Azure 订阅中的控制平面操作日志。 Power BI Azure 审核日志内容包可以帮助你轻松分析和可视化这些日志中包含的信息资源。 此内容包允许你使用现成的仪表板和报表连接到你的数据，并开始挖掘洞察力。 阅读我们的[博客](http://blogs.msdn.com/b/powerbi/archive/2015/09/30/monitor-azure-audit-logs-with-power-bi.aspx)和[在线文档](service-connect-to-azure-audit-logs.md)以获取更多信息。
+* Power BI 可供所有客户使用，包括 Dedicated on Multitenant (DonMT) O365 体系结构中的客户。 你将在多租户模式下将 Power BI 作为共享服务使用。 在大多数情况下，你可以按照简单的[自助服务注册流程](https://powerbi.microsoft.com/)注册 Power BI – 只需输入你的工作电子邮件地址，输入名称和密码就可以开始注册。 如果你是租户管理员，你可以使用[此处](https://go.microsoft.com/fwlink/?LinkId=627174)的说明将许可证分配给用户。
+* 你可以使用 Azure Audit Logs 查看你的 Azure 订阅中的控制平面操作日志。 Power BI Azure 审核日志内容包可以帮助你轻松分析和可视化这些日志中包含的信息资源。 此内容包允许你使用现成的仪表板和报表连接到你的数据，并开始挖掘洞察力。 阅读我们的[博客](https://blogs.msdn.com/b/powerbi/archive/2015/09/30/monitor-azure-audit-logs-with-power-bi.aspx)和[在线文档](service-connect-to-azure-audit-logs.md)以获取更多信息。
 
-[在我们的博客中了解详细信息](http://blogs.msdn.com/b/powerbi/archive/2015/09/30/power-bi-weekly-service-update-0929.aspx)。
+[在我们的博客中了解详细信息](https://blogs.msdn.com/b/powerbi/archive/2015/09/30/power-bi-weekly-service-update-0929.aspx)。
 
 **2015 年 9 月 22 日**
 
@@ -631,46 +629,46 @@ Power BI 团队在整个假期都在忙。 有关所有详细信息，[请访问
 * 我们在 Power BI 中添加了 5 个额外的[行业相关示例](sample-datasets.md)：客户盈利率、人力资源、机会分析、采购分析和销售和市场营销示例。
 * Stripe 是一个针对在线业务的高级支付平台。 从刚起步的公司到财富 500 强企业，数以千计的公司使用 Stripe 接受 130 多种货币的、来自世界上任何人的付款。 通过将 Power BI 与你现有的 Stripe 帐户相连接，你可以[使用 Power BI Stripe 内容包来监视、浏览和可视化 Stripe 活动](service-connect-to-stripe.md)。
 
-[在我们的博客中了解详细信息](http://blogs.msdn.com/b/powerbi/archive/2015/09/22/power-bi-weekly-service-update-0922.aspx)。
+[在我们的博客中了解详细信息](https://blogs.msdn.com/b/powerbi/archive/2015/09/22/power-bi-weekly-service-update-0922.aspx)。
 
 **2015 年 9 月 15 日**
 
 * 现在你可以选择想要将你的视觉对象固定到哪个仪表板！ 可以从现有的仪表板中选择目标仪表板，或者甚至创建新仪表板，并且一次将视觉对象固定到该仪表板。
 * 此外，你可以控制仪表板中视觉对象的颜色。 如果报表使用主题和仪表板主题不同，你可以控制视觉对象是保留当前主题，还是使用默认的仪表板主题来实现来自各种源的视觉对象的主题一致性。
 * 你现在只需将磁贴从一个仪表板固定到另一个仪表板，其方法与将报表视觉对象固定到仪表板相同。
-* 如果你的 Power BI Pro 的 60 天试用期即将到期，你可以[联系我们](http://go.microsoft.com/fwlink/?LinkID=624573&clcid=0x409now)以请求试用延期。 如果获得批准，你的试用期将延长 60 天。
-* comScore Digital Analytix 是一个在线解决方案，通过最佳的分析和受众统计数据深入了解你的用户群。 使用 Power BI comScore 内容包，你可以快速连接并开始深入了解 Web 分析数据。 此内容包包括现成的仪表板、一组报表和一个策展的数据集，以帮助你深入探究你的数据。 要了解有关此内容包的详细信息，请参阅我们的[博客](http://blogs.msdn.com/b/powerbi/archive/2015/09/16/visualize-and-explore-your-comscore-data-with-power-bi.aspx)和[帮助主题](service-connect-to-connect-to.md)。 
+* 如果你的 Power BI Pro 的 60 天试用期即将到期，你可以[联系我们](https://go.microsoft.com/fwlink/?LinkID=624573&clcid=0x409now)以请求试用延期。 如果获得批准，你的试用期将延长 60 天。
+* comScore Digital Analytix 是一个在线解决方案，通过最佳的分析和受众统计数据深入了解你的用户群。 使用 Power BI comScore 内容包，你可以快速连接并开始深入了解 Web 分析数据。 此内容包包括现成的仪表板、一组报表和一个策展的数据集，以帮助你深入探究你的数据。 要了解有关此内容包的详细信息，请参阅我们的[博客](https://blogs.msdn.com/b/powerbi/archive/2015/09/16/visualize-and-explore-your-comscore-data-with-power-bi.aspx)和[帮助主题](service-connect-to-connect-to.md)。 
 
 **2015 年 9 月 8 日**
 
 * 现在你可以使用简单易用的超链接为你的用户提供链接，而无需在文本框中显示完整的 URL。
 * Power BI 报表中已添加钻取支持。 你可以创建钻取路径，使用户能够从一个级别的数据导航至相关数据。
 * 已在获取数据体验的示例部分添加两个新的行业相关示例，即费用分析和供应商质量分析示例。 这些示例是向你演示如何使用数据创建富有洞察力的报表和仪表板的极佳示例。
-* 我们拥有新的 tyGraph 内容包，你可以使用它轻松地深入了解 Yammer 数据。 该内容包包括一个仪表板、一组报表和一个策展数据集，用于探索并提供洞察力，例如积极参与度（MAE 评分）和享用内容指标（如文件查看和文件下载）。 要了解详细信息，请参阅我们的[博客](http://blogs.msdn.com/b/powerbi/archive/2015/09/09/analyze-and-monitor-your-tygraph-data-with-power-bi.aspx)和[帮助主题](service-connect-to-tygraph.md)。
+* 我们拥有新的 tyGraph 内容包，你可以使用它轻松地深入了解 Yammer 数据。 该内容包包括一个仪表板、一组报表和一个策展数据集，用于探索并提供洞察力，例如积极参与度（MAE 评分）和享用内容指标（如文件查看和文件下载）。 要了解详细信息，请参阅我们的[博客](https://blogs.msdn.com/b/powerbi/archive/2015/09/09/analyze-and-monitor-your-tygraph-data-with-power-bi.aspx)和[帮助主题](service-connect-to-tygraph.md)。
 
 **2015 年 9 月 1 日**
 
-* Webtrends 可帮助公司了解客户数据，从而使数字营销得以成功。 用户可以通过 Web、社交、移动和 SharePoint 渠道观察、分析和发表有关网站访客之旅的深刻见解。 借助该版本的 [Webtrends 内容包](http://blogs.msdn.com/b/powerbi/archive/2015/09/01/visualize-and-explore-your-webtrends-data-in-power-bi.aspx)，用户现在能够使用 Power BI 监视、分析和可视化其 Webtrends 分析数据。 你可以参阅 Power BI Webtrends 内容包的[帮助页](service-connect-to-webtrends.md)获取更多信息。
+* Webtrends 可帮助公司了解客户数据，从而使数字营销得以成功。 用户可以通过 Web、社交、移动和 SharePoint 渠道观察、分析和发表有关网站访客之旅的深刻见解。 借助该版本的 [Webtrends 内容包](https://blogs.msdn.com/b/powerbi/archive/2015/09/01/visualize-and-explore-your-webtrends-data-in-power-bi.aspx)，用户现在能够使用 Power BI 监视、分析和可视化其 Webtrends 分析数据。 你可以参阅 Power BI Webtrends 内容包的[帮助页](service-connect-to-webtrends.md)获取更多信息。
 * Q&A 入门更加简单。 只要将光标放置在问答文本框中，我们将立即显示与你的数据相关的问题和主要指标列表。  默认情况下，在下拉列表中你将看到已固定到仪表板的磁贴的问题，以及你的数据集中每个表的条目。
 * 默认情况下显示的动态画布大小呈现所有报表项目，并且这些项目具有和浏览器窗口大小相适应的最佳尺寸。 如果你想要锁定纵横比，或者想要以不同的方式调整报表大小，我们现在为你提供了其他三个选项：调整到页面大小、适应宽度和实际大小。
 * 我们还增加了你可以拥有的数据集和报表数量的限制。 现在你的 Power BI 帐户多可包含 200 个数据集，并且每个数据集最多 200 个报表。
 
 **2015 年 8 月 18 日**
 
-* Azure Mobile Engagement 是一个应用程序分析服务，允许开发人员跟踪他们的应用程序的性能，以帮助他们增加用户保留率和应用程序使用率。 使用 [Power BI Azure Mobile Engagement 内容包](http://blogs.msdn.com/b/powerbi/archive/2015/08/17/monitor-and-analyze-your-azure-mobile-engagement-data-in-power-bi.aspx)可以快速连接到现成的仪表板、一组报表和一个策展的数据集，并且立即深入了解应用程序的运行情况。 有关详细信息，请参阅[适用于 Power BI 的 Azure Mobile Engagement 内容包](service-connect-to-azure-mobile.md)。
+* Azure Mobile Engagement 是一个应用程序分析服务，允许开发人员跟踪他们的应用程序的性能，以帮助他们增加用户保留率和应用程序使用率。 使用 [Power BI Azure Mobile Engagement 内容包](https://blogs.msdn.com/b/powerbi/archive/2015/08/17/monitor-and-analyze-your-azure-mobile-engagement-data-in-power-bi.aspx)可以快速连接到现成的仪表板、一组报表和一个策展的数据集，并且立即深入了解应用程序的运行情况。 有关详细信息，请参阅[适用于 Power BI 的 Azure Mobile Engagement 内容包](service-connect-to-azure-mobile.md)。
 
 **2015 年 8 月 11 日**
 
-* Mandrill 是由 MailChimp 开发的一种电子邮件基础结构服务，你可以通过它从各种信息中分析你的电子邮件活动。 使用 [Power BI Mandrill 内容包](http://blogs.msdn.com/b/powerbi/archive/2015/08/12/explore-and-analyze-your-mandrill-data-in-power-bi.aspx)可以快速连接 Mandrill 数据并立即深入了解时事通讯或市场营销活动。 有关该内容包入门的更多详细信息，请参阅 [Mandrill content pack for Power BI help page（Power BI Mandrill 内容包的帮助页）](service-connect-to-mandrill.md)。
+* Mandrill 是由 MailChimp 开发的一种电子邮件基础结构服务，你可以通过它从各种信息中分析你的电子邮件活动。 使用 [Power BI Mandrill 内容包](https://blogs.msdn.com/b/powerbi/archive/2015/08/12/explore-and-analyze-your-mandrill-data-in-power-bi.aspx)可以快速连接 Mandrill 数据并立即深入了解时事通讯或市场营销活动。 有关该内容包入门的更多详细信息，请参阅 [Mandrill content pack for Power BI help page（Power BI Mandrill 内容包的帮助页）](service-connect-to-mandrill.md)。
 
 **2015 年 8 月 4 日**
 
-* Power BI 现在支持 [Circuit ID](http://blogs.msdn.com/b/powerbi/archive/2015/08/04/circuit-id-data-with-power-bi.aspx) 用户跟踪和监视所有其 Circuit ID 云通信服务，使他们能够做出正确的业务决策。 有关该内容包入门的更多详细信息，请参阅 [Circuit ID content pack for Power BI help page（Power BI Circuit ID 内容包的帮助页）](service-connect-to-circuit-id.md)。
-* 现在我们发布了共享仪表板功能的一个增强功能，使其更易于使用。  如果你的组织对电子邮件使用 Office 365，那么你现在可以将仪表板[共享到电子邮件通讯组](http://blogs.msdn.com/b/powerbi/archive/2015/08/04/easier-dashboard-sharing-with-distribution-groups.aspx)，其方式与在 Outlook 中发送一封电子邮件的方式相同。  只需输入通讯组的地址，然后单击“共享”。  通讯组的所有成员都将收到电子邮件邀请以查看仪表板。
+* Power BI 现在支持 [Circuit ID](https://blogs.msdn.com/b/powerbi/archive/2015/08/04/circuit-id-data-with-power-bi.aspx) 用户跟踪和监视所有其 Circuit ID 云通信服务，使他们能够做出正确的业务决策。 有关该内容包入门的更多详细信息，请参阅 [Circuit ID content pack for Power BI help page（Power BI Circuit ID 内容包的帮助页）](service-connect-to-circuit-id.md)。
+* 现在我们发布了共享仪表板功能的一个增强功能，使其更易于使用。  如果你的组织对电子邮件使用 Office 365，那么你现在可以将仪表板[共享到电子邮件通讯组](https://blogs.msdn.com/b/powerbi/archive/2015/08/04/easier-dashboard-sharing-with-distribution-groups.aspx)，其方式与在 Outlook 中发送一封电子邮件的方式相同。  只需输入通讯组的地址，然后单击“共享”。  通讯组的所有成员都将收到电子邮件邀请以查看仪表板。
 
 **2015 年 7 月 28 日**
 
-* 我们非常高兴地宣布本周对 Power BI 的更新，现在你可以使用 [SQL Sentry 内容包](http://blogs.msdn.com/b/powerbi/archive/2015/07/28/monitoring-your-sql-sentry-data-with-power-bi.aspx)进行数据库性能跟踪。 此内容包包括仪表板和报表，用于帮助你监视使用 SQL Sentry 云跟踪的 SQL Server 部署。 有关该内容包入门的更多详细信息，请参阅 [SQL Sentry content pack for Power BI help page（Power BI SQL Sentry 内容包的帮助页）](service-connect-to-sql-sentry.md)。
+* 我们非常高兴地宣布本周对 Power BI 的更新，现在你可以使用 [SQL Sentry 内容包](https://blogs.msdn.com/b/powerbi/archive/2015/07/28/monitoring-your-sql-sentry-data-with-power-bi.aspx)进行数据库性能跟踪。 此内容包包括仪表板和报表，用于帮助你监视使用 SQL Sentry 云跟踪的 SQL Server 部署。 有关该内容包入门的更多详细信息，请参阅 [SQL Sentry content pack for Power BI help page（Power BI SQL Sentry 内容包的帮助页）](service-connect-to-sql-sentry.md)。
 
 **2015 年 7 月 24 日**
 
@@ -681,47 +679,47 @@ Power BI 团队在整个假期都在忙。 有关所有详细信息，[请访问
 * [引入整个 Excel 文件](service-excel-workbook-files.md)：你可以将存储在 OneDrive for Business 上的任何 Excel 工作簿引入 Power BI，并查看整个工作簿，就像在 Excel Online 中一样。
 * [引入 CSV 文件](service-get-data-from-files.md)：和 Excel 或 Power BI Desktop 文件一样，逗号分隔值文本文件 (CSV) 也可以是 Power BI 仪表板和报表的数据集。
 * 替换 Excel、Power BI Desktop 和 CSV 文件：可以将文件的更新版本上传到 Power BI，它会替换现有数据集。 连接到此数据集的所有报表和仪表板将自动使用此新版本。
-* 我们非常高兴地宣布本周对 Power BI 的更新，现在你可以使用 [Visual Studio Online内容包](http://blogs.msdn.com/b/powerbi/archive/2015/07/22/monitoring-your-visual-studio-online-work-items-with-power-bi.aspx)进行工作项跟踪。 此更新包括新的仪表板、报表和更新的数据集，除了提供有关初始版本中包括的 Git 存储库、拉取请求和版本控制内容的重要指标，还提供对工作项的洞察。 有关该内容包入门的更多详细信息，请参阅 [Visual Studio Online content pack for Power BI help page（Power BI Visual Studio Online 内容包的帮助页）](service-connect-to-quickbooks-online.md)。
+* 我们非常高兴地宣布本周对 Power BI 的更新，现在你可以使用 [Visual Studio Online内容包](https://blogs.msdn.com/b/powerbi/archive/2015/07/22/monitoring-your-visual-studio-online-work-items-with-power-bi.aspx)进行工作项跟踪。 此更新包括新的仪表板、报表和更新的数据集，除了提供有关初始版本中包括的 Git 存储库、拉取请求和版本控制内容的重要指标，还提供对工作项的洞察。 有关该内容包入门的更多详细信息，请参阅 [Visual Studio Online content pack for Power BI help page（Power BI Visual Studio Online 内容包的帮助页）](service-connect-to-quickbooks-online.md)。
 
 **2015 年 7 月 14 日**
 
-* Acumatica 云 ERP 提供了由强大而灵活的平台支持的一系列完全集成的业务管理应用，如财务、分配、CRM 和项目记帐。 通过 Power BI [Acumatica 内容包](http://blogs.msdn.com/b/powerbi/archive/2015/07/13/analyze-and-explore-your-acumatica-cloud-erp-data-with-power-bi.aspx)可以快速连接并深入了解商机数据。 此内容包包括现成的仪表板、一组报表和一个策展数据集，用于浏览并提供详细信息，如按日期的赢得的商机总数。 在[此处](service-connect-to-acumatica.md)阅读更多信息。 
-* [Azure HDInsight](http://blogs.msdn.com/b/powerbi/archive/2015/07/14/visualize-big-data-with-power-bi-and-spark-for-azure-hdinsight.aspx) 现在提供完全托管的 Spark 服务。 此功能允许迭代机器学习和交互式数据分析等场景。 Power BI 允许你直接连接到提供简单和实时浏览的 HDInsight 上的 Spark 中的数据。 阅读我们的[帮助文档](spark-on-hdinsight-with-direct-connect.md)以了解更多信息。
-* [Office 365 导航和应用程序启动器集成](http://blogs.msdn.com/b/powerbi/archive/2015/07/15/new-capabilities-added-to-power-bi.aspx#launcher)。 现在只需单击一下就可以导航到所有 Office 365 应用程序。
-* [指定用户单击磁贴时导航到的自定义 URL](http://blogs.msdn.com/b/powerbi/archive/2015/07/15/new-capabilities-added-to-power-bi.aspx#url)。 现在你可以准确控制用户转至的位置：特定报表、其他仪表板、SSRS 报表或外部网站。 
-* [Power BI 中你使用的存储的可见性和管理](http://blogs.msdn.com/b/powerbi/archive/2015/07/15/new-capabilities-added-to-power-bi.aspx#storage)
-* [配置问答中显示的视觉对象和字段](http://blogs.msdn.com/b/powerbi/archive/2015/07/15/new-capabilities-added-to-power-bi.aspx#visual)
+* Acumatica 云 ERP 提供了由强大而灵活的平台支持的一系列完全集成的业务管理应用，如财务、分配、CRM 和项目记帐。 通过 Power BI [Acumatica 内容包](https://blogs.msdn.com/b/powerbi/archive/2015/07/13/analyze-and-explore-your-acumatica-cloud-erp-data-with-power-bi.aspx)可以快速连接并深入了解商机数据。 此内容包包括现成的仪表板、一组报表和一个策展数据集，用于浏览并提供详细信息，如按日期的赢得的商机总数。 在[此处](service-connect-to-acumatica.md)阅读更多信息。 
+* [Azure HDInsight](https://blogs.msdn.com/b/powerbi/archive/2015/07/14/visualize-big-data-with-power-bi-and-spark-for-azure-hdinsight.aspx) 现在提供完全托管的 Spark 服务。 此功能允许迭代机器学习和交互式数据分析等场景。 Power BI 允许你直接连接到提供简单和实时浏览的 HDInsight 上的 Spark 中的数据。 阅读我们的[帮助文档](spark-on-hdinsight-with-direct-connect.md)以了解更多信息。
+* [Office 365 导航和应用程序启动器集成](https://blogs.msdn.com/b/powerbi/archive/2015/07/15/new-capabilities-added-to-power-bi.aspx#launcher)。 现在只需单击一下就可以导航到所有 Office 365 应用程序。
+* [指定用户单击磁贴时导航到的自定义 URL](https://blogs.msdn.com/b/powerbi/archive/2015/07/15/new-capabilities-added-to-power-bi.aspx#url)。 现在你可以准确控制用户转至的位置：特定报表、其他仪表板、SSRS 报表或外部网站。 
+* [Power BI 中你使用的存储的可见性和管理](https://blogs.msdn.com/b/powerbi/archive/2015/07/15/new-capabilities-added-to-power-bi.aspx#storage)
+* [配置问答中显示的视觉对象和字段](https://blogs.msdn.com/b/powerbi/archive/2015/07/15/new-capabilities-added-to-power-bi.aspx#visual)
 
 **2015 年 7 月 7 日**
 
-* 现在 Power BI 中提供了最令人期待、用户最需要的一个功能。 从今天开始，你可以在 Power BI 中[刷新连接到本地源（如 SQL Server）的数据集](http://blogs.msdn.com/b/powerbi/archive/2015/07/07/refresh-for-on-premises-sources-is-here.aspx)。 你可以使用通过 Power Query 或 Power Pivot 导入到工作簿的数据刷新从 Power BI Designer 文件或 Excel 工作簿创建的数据集。 
+* 现在 Power BI 中提供了最令人期待、用户最需要的一个功能。 从今天开始，你可以在 Power BI 中[刷新连接到本地源（如 SQL Server）的数据集](https://blogs.msdn.com/b/powerbi/archive/2015/07/07/refresh-for-on-premises-sources-is-here.aspx)。 你可以使用通过 Power Query 或 Power Pivot 导入到工作簿的数据刷新从 Power BI Designer 文件或 Excel 工作簿创建的数据集。 
 
 **2015 年 6 月 30 日**
 
-* 我们发布了一个新的 [Power BI UserVoice 内容包](http://blogs.msdn.com/b/powerbi/archive/2015/07/01/monitor-and-visualize-your-uservoice-data-with-power-bi.aspx)，可以帮助你监视和可视化 UserVoice 数据，并立即通过可直接使用的仪表板和报表深入了解这些数据。
+* 我们发布了一个新的 [Power BI UserVoice 内容包](https://blogs.msdn.com/b/powerbi/archive/2015/07/01/monitor-and-visualize-your-uservoice-data-with-power-bi.aspx)，可以帮助你监视和可视化 UserVoice 数据，并立即通过可直接使用的仪表板和报表深入了解这些数据。
 
 **2015 年 6 月 23 日**
 
-* 将 Power BI Desktop 文件上载到 Power BI 服务后可以[刷新](http://blogs.msdn.com/b/powerbi/archive/2015/06/22/announcing-refresh-support-for-power-bi-designer-files-in-the-power-bi-service.aspx)（计划刷新和立即刷新）该文件。
-* 自 12 月以来我们发布了 Power BI 的最重大的可视化变更：更清晰、更简单的[获取数据](http://blogs.msdn.com/b/powerbi/archive/2015/06/23/the-new-get-data-experience.aspx)功能体验。  现在当你单击“获取数据”时，将显示单个屏幕，其中包括一组可供选择的类别。 这样你可以更加容易地找到对你很重要的内容。
-* [Azure SQL 数据仓库](http://blogs.msdn.com/b/powerbi/archive/2015/06/24/exploring-azure-sql-data-warehouse-with-power-bi.aspx)具有灵活的伸缩性，并且可进行大规模的并行处理。 在今天宣布的有限公共预览版中，Power BI 允许你直接连接到 Azure SQL 数据仓库中存储的数据，以便进行简单而动态的数据浏览。 创建到数据仓库的连接后，将在你浏览数据时实时生成查询，并将查询发送回源。 这样你无需创建并上载自定义数据模型，并且可以交互的方式浏览数据。
+* 将 Power BI Desktop 文件上载到 Power BI 服务后可以[刷新](https://blogs.msdn.com/b/powerbi/archive/2015/06/22/announcing-refresh-support-for-power-bi-designer-files-in-the-power-bi-service.aspx)（计划刷新和立即刷新）该文件。
+* 自 12 月以来我们发布了 Power BI 的最重大的可视化变更：更清晰、更简单的[获取数据](https://blogs.msdn.com/b/powerbi/archive/2015/06/23/the-new-get-data-experience.aspx)功能体验。  现在当你单击“获取数据”时，将显示单个屏幕，其中包括一组可供选择的类别。 这样你可以更加容易地找到对你很重要的内容。
+* [Azure SQL 数据仓库](https://blogs.msdn.com/b/powerbi/archive/2015/06/24/exploring-azure-sql-data-warehouse-with-power-bi.aspx)具有灵活的伸缩性，并且可进行大规模的并行处理。 在今天宣布的有限公共预览版中，Power BI 允许你直接连接到 Azure SQL 数据仓库中存储的数据，以便进行简单而动态的数据浏览。 创建到数据仓库的连接后，将在你浏览数据时实时生成查询，并将查询发送回源。 这样你无需创建并上载自定义数据模型，并且可以交互的方式浏览数据。
 
 **2015 年 6 月 16 日**
 
-* 借助 SweetIQ，可通过提供位置来轻松跟踪本地列表，还可查看本地搜索生态系统中的数据。 Power BI 允许通过提供使用 SweetIQ 数据生成的[现成内容](http://blogs.msdn.com/b/powerbi/archive/2015/06/16/analyze-and-monitor-your-sweetiq-data-with-power-bi.aspx)，分析和监视这些数据。 有关该内容包入门的更多详细信息，请参阅 [SweetIQ content pack for Power BI help page（Power BI SweetIQ 内容包的帮助页）](service-connect-to-sweetiq.md)。
+* 借助 SweetIQ，可通过提供位置来轻松跟踪本地列表，还可查看本地搜索生态系统中的数据。 Power BI 允许通过提供使用 SweetIQ 数据生成的[现成内容](https://blogs.msdn.com/b/powerbi/archive/2015/06/16/analyze-and-monitor-your-sweetiq-data-with-power-bi.aspx)，分析和监视这些数据。 有关该内容包入门的更多详细信息，请参阅 [SweetIQ content pack for Power BI help page（Power BI SweetIQ 内容包的帮助页）](service-connect-to-sweetiq.md)。
 
 **2015 年 6 月 2 日**
 
-* 可使用 Power BI 和 [appFigures 内容包](http://blogs.msdn.com/b/powerbi/archive/2015/06/02/explore-and-analyze-your-appfigures-data-with-power-bi.aspx)轻松地跟踪有关应用的重要统计信息。 有关该内容包如何连接和入门的更多详细信息，请参阅适用于 Power BI 的 appFigures 内容包的[文档](service-connect-to-appfigures.md)。
+* 可使用 Power BI 和 [appFigures 内容包](https://blogs.msdn.com/b/powerbi/archive/2015/06/02/explore-and-analyze-your-appfigures-data-with-power-bi.aspx)轻松地跟踪有关应用的重要统计信息。 有关该内容包如何连接和入门的更多详细信息，请参阅适用于 Power BI 的 appFigures 内容包的[文档](service-connect-to-appfigures.md)。
 
 **2015 年 5 月 28 日**
 
-* 使用我们的[内容包](http://blogs.msdn.com/b/powerbi/archive/2015/05/28/get-quick-insights-into-your-quickbooks-online-account-data.aspx)快速深入了解 QuickBooks Online 帐户数据。 有关该内容包如何连接和入门的更多详细信息，请参阅 Power BI QuickBooks Online 内容包的[文档](service-connect-to-quickbooks-online.md)。
+* 使用我们的[内容包](https://blogs.msdn.com/b/powerbi/archive/2015/05/28/get-quick-insights-into-your-quickbooks-online-account-data.aspx)快速深入了解 QuickBooks Online 帐户数据。 有关该内容包如何连接和入门的更多详细信息，请参阅 Power BI QuickBooks Online 内容包的[文档](service-connect-to-quickbooks-online.md)。
 
 
 **2015 年 5 月 13 日**
 
-* 你可以直接连接到存储在 **Azure SQL 数据库**中的数据。 我们动态生成并向源发送查询，使你能够直接通过数据库创建交互式报表。 你可以阅读[博客文章](http://blogs.msdn.com/b/powerbi/archive/2015/05/13/using-power-bi-to-visualize-and-explore-azure-sql-databases.aspx)和[文档](service-azure-sql-database-with-direct-connect.md)来获取更多信息。
+* 你可以直接连接到存储在 **Azure SQL 数据库**中的数据。 我们动态生成并向源发送查询，使你能够直接通过数据库创建交互式报表。 你可以阅读[博客文章](https://blogs.msdn.com/b/powerbi/archive/2015/05/13/using-power-bi-to-visualize-and-explore-azure-sql-databases.aspx)和[文档](service-azure-sql-database-with-direct-connect.md)来获取更多信息。
 
 **2015年 5 月 7 日**
 
@@ -729,15 +727,15 @@ Power BI 团队在整个假期都在忙。 有关所有详细信息，[请访问
 
 **2015 年 4 月 28 日**
 
-* Power BI 现在有 **44 种语言**版本。 请阅读我们的[博客文章](http://blogs.msdn.com/b/powerbi/archive/2015/04/28/power-bi-preview-now-available-in-your-language.aspx)以查看完整的支持的语言列表。
+* Power BI 现在有 **44 种语言**版本。 请阅读我们的[博客文章](https://blogs.msdn.com/b/powerbi/archive/2015/04/28/power-bi-preview-now-available-in-your-language.aspx)以查看完整的支持的语言列表。
 
 **2015 年 4 月 23 日**
 
-* 你现在可以使用我们的新内容包可视化和浏览 **Microsoft Dynamics Marketing** 数据！ 你可以阅读[博客文章](http://blogs.msdn.com/b/powerbi/archive/2015/04/23/monitor-and-explore-your-microsoft-dynamics-marketing-data-with-power-bi.aspx)来获取更多信息。
+* 你现在可以使用我们的新内容包可视化和浏览 **Microsoft Dynamics Marketing** 数据！ 你可以阅读[博客文章](https://blogs.msdn.com/b/powerbi/archive/2015/04/23/monitor-and-explore-your-microsoft-dynamics-marketing-data-with-power-bi.aspx)来获取更多信息。
 
 **2015 年 4 月 15 日**
 
-* 你现在可以使用我们的新内容包可视化和浏览 **Google Analytics** 数据！ 凭借 Google Analytics 内容包你将获得仪表板、报表和数据集，使你能够深入了解过去 6 个月你的网站的使用情况。 详情请参阅此篇[博客文章](http://blogs.msdn.com/b/powerbi/archive/2015/04/15/visualize-and-explore-your-google-analytics-data-with-power-bi.aspx)。
+* 你现在可以使用我们的新内容包可视化和浏览 **Google Analytics** 数据！ 凭借 Google Analytics 内容包你将获得仪表板、报表和数据集，使你能够深入了解过去 6 个月你的网站的使用情况。 详情请参阅此篇[博客文章](https://blogs.msdn.com/b/powerbi/archive/2015/04/15/visualize-and-explore-your-google-analytics-data-with-power-bi.aspx)。
 * 除包含问答和报表中的 KPI 和图像的卡片之外，你现在可以**固定所有卡片**。
 * 通过在查询的末尾使用短语“as card”，你可以**在问答中使用卡片**
 
@@ -765,5 +763,5 @@ Power BI 团队在整个假期都在忙。 有关所有详细信息，[请访问
 ## <a name="next-steps"></a>后续步骤
 [什么是 Power BI？](fundamentals/power-bi-overview.md)  
 
-更多问题？ [尝试咨询 Power BI 社区](http://community.powerbi.com/)
+更多问题？ [尝试咨询 Power BI 社区](https://community.powerbi.com/)
 

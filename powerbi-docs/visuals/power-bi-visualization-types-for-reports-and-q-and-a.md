@@ -2,26 +2,25 @@
 title: Power BI 中的可视化效果类型
 description: Power BI 中的可视化效果类型
 author: mihart
-manager: kvivek
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 10/21/2019
+ms.date: 10/31/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 639ea11eca69eea53968ed702e0524f46a97cdc4
-ms.sourcegitcommit: 23ad768020a9daf129f69a462a2d46d59d2349d2
+ms.openlocfilehash: 80fc4f4afe29806077d1bf64a59d8761d7ab1c1d
+ms.sourcegitcommit: 08b73af260ded51daaa6749338cb85db2eab587f
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/22/2019
-ms.locfileid: "72775991"
+ms.lasthandoff: 11/15/2019
+ms.locfileid: "74099937"
 ---
 # <a name="visualization-types-in-power-bi"></a>Power BI 中的可视化效果类型
 ## <a name="power-bi-visualizations"></a>Power BI 可视化效果
 我们将添加新的可视化效果，请继续关注！
 
-同时可以浏览 [Microsoft AppSource](https://appsource.microsoft.com/marketplace/apps?product=power-bi-visuals)，上面有不断扩增的[自定义视觉对象](../power-bi-custom-visuals.md)列表。可以下载并在自己的仪表板和报表中使用这些视觉对象。 有创造性的点子？ [了解如何创建并将自己的视觉对象添加到此社区网站](../developer/office-store.md)。  
+同时可以浏览 [Microsoft AppSource](https://appsource.microsoft.com/marketplace/apps?product=power-bi-visuals)，上面有不断扩增的[自定义视觉对象](../developer/power-bi-custom-visuals.md)列表。可以下载并在自己的仪表板和报表中使用这些视觉对象。 有创造性的点子？ [了解如何创建并将自己的视觉对象添加到此社区网站](../developer/office-store.md)。  
 
 ## <a name="list-of-visualizations-available-in-power-bi"></a>Power BI 中可用的可视化效果列表
 所有这些可视化效果可以被添加到 Power BI 报表、在问答中指定和固定到仪表板。
@@ -226,8 +225,8 @@ ms.locfileid: "72775991"
 
 “***以树状图表示的每个州的销售额***”
 
-![](media/power-bi-visualization-types-for-reports-and-q-and-a/qatreemap.png)
+![显示指定了可视化效果类型的问答问题框](media/power-bi-visualization-types-for-reports-and-q-and-a/qatreemap.png)
 
 ## <a name="next-steps"></a>后续步骤
 [Power BI 报表中的可视化效果](power-bi-report-visualizations.md)    
-[sqlbi.com 中正确的视觉对象引用](http://www.sqlbi.com/wp-content/uploads/videotrainings/dashboarddesign/visuals-reference-may2017-A3.pdf)
+[sqlbi.com 中正确的视觉对象引用](https://www.sqlbi.com/wp-content/uploads/videotrainings/dashboarddesign/visuals-reference-may2017-A3.pdf)
