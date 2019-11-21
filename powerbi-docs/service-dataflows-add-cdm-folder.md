@@ -2,7 +2,6 @@
 title: 将 CDM 文件夹添加到 Power BI 作为数据流
 description: 将工作区配置为在 Azure Data Lake Storage Gen2 中存储其数据流定义文件和数据文件
 author: davidiseminger
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 04/02/2019
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: 3adc642d539ab8e1c1f1f60981a61fdc58a460ab
-ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
+ms.openlocfilehash: 5b6b8658e4480173c32a591c2fc763a238cfd13a
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "73432042"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73872692"
 ---
 # <a name="add-a-cdm-folder-to-power-bi-as-a-dataflow-preview"></a>将 CDM 文件夹添加到 Power BI 作为数据流（预览）
 
@@ -33,7 +32,7 @@ ms.locfileid: "73432042"
 
 ## <a name="create-a-dataflow-from-a-cdm-folder"></a>从 CDM 文件夹创建数据流
 
-若要开始从 CDM 文件夹创建数据流，请启动“Power BI 服务”，然后从左侧导航窗格中选择“工作区”   。 也可以新建一个工作区，可用于创建新的工作流。
+若要开始从 CDM 文件夹创建数据流，请启动“Power BI 服务”，然后从导航窗格中选择“工作区”   。 也可以新建一个工作区，可用于创建新的工作流。
 
 ![在 Power BI 服务中创建数据流](media/service-dataflows-add-cdm-folder/dataflow-from-cdm-folder_02.jpg)
 
@@ -110,5 +109,5 @@ Power BI Desktop：
 * [CDM 文件夹](https://go.microsoft.com/fwlink/?linkid=2045304)
 * [CDM 模型文件定义](https://go.microsoft.com/fwlink/?linkid=2045521)
 
-也可以随时尝试[通过 Power BI 社区提问](http://community.powerbi.com/)。
+也可以随时尝试[通过 Power BI 社区提问](https://community.powerbi.com/)。
 

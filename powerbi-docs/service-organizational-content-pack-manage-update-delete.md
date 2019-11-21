@@ -2,7 +2,6 @@
 title: 组织内容包：管理和更新
 description: 详细了解如何在 Power BI 中管理、更新和删除组织内容包。
 author: maggiesMSFT
-manager: kfile
 ms.reviewer: lukaszp
 ms.service: powerbi
 ms.subservice: powerbi-service
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 08/02/2018
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: f2a80b075a56cdeccfa4c3675cdf31504b6a7e5d
-ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
+ms.openlocfilehash: 975c219a98f3d03f59df4d1c2a0551718bf213f0
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "73431754"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73881274"
 ---
 # <a name="manage-update-and-delete-organizational-content-packs"></a>管理、更新和删除组织内容包
 > [!NOTE]
@@ -87,5 +86,5 @@ ms.locfileid: "73431754"
 ## <a name="next-steps"></a>后续步骤
 * [组织内容包简介](service-organizational-content-pack-introduction.md)
 * [在 Power BI 中构建和分发应用](service-create-distribute-apps.md) 
-* 更多问题？ [尝试参与 Power BI 社区](http://community.powerbi.com/)
+* 更多问题？ [尝试参与 Power BI 社区](https://community.powerbi.com/)
 

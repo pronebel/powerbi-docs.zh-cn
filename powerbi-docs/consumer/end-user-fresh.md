@@ -2,7 +2,6 @@
 title: Power BI 如何确保内容为最新内容
 description: 了解 Power BI 如何确保你使用的是最新版本的数据、报表、仪表板和应用。
 author: mihart
-manager: kvivek
 ms.service: powerbi
 ms.custom: ''
 ms.subservice: powerbi-consumer
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 09/18/2019
 ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: 5d81b1e69d9cfbba6e3ed57f678af75dab1698c3
-ms.sourcegitcommit: 2aa83bd53faad6fb02eb059188ae623e26503b2a
+ms.openlocfilehash: 92f031ff43bc4d3bd5840e69fec166606b14eb73
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/29/2019
-ms.locfileid: "73019778"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73863880"
 ---
 # <a name="your-content-is-up-to-date"></a>内容为最新内容
 
@@ -43,9 +42,9 @@ ms.locfileid: "73019778"
 
 应用屏幕会同时显示设计人员姓名和应用上次更新日期。  
 
-1. 从左侧导航窗格中，选择“应用”  。
+1. 从导航窗格中，选择“应用”  。
 
-    ![左侧导航窗格](media/end-user-fresh/power-bi-nav-app.png)
+    ![导航窗格](media/end-user-fresh/power-bi-nav-app.png)
 
 
 
@@ -85,7 +84,7 @@ ms.locfileid: "73019778"
 
 ## <a name="what-happens-if-an-app-is-deleted-by-the-designer"></a>如果设计人员删除应用会发生什么
 
-如果设计人员删除应用，与该应用相关的仪表板和报表也会自动从 Power BI 工作区中删除。 这些内容将不再可用，并且导航栏的“应用”容器中或其他位置不会显示该应用。
+如果设计人员删除应用，与该应用相关的仪表板和报表也会自动从 Power BI 工作区中删除。 这些内容将不再可用，并且导航窗格的“应用”容器中或其他位置也不会显示该应用。
 
 
 ## <a name="subscribe-to-see-changes"></a>订阅以查看更改

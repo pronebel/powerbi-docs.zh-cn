@@ -2,7 +2,6 @@
 title: 购买和分配 Power BI Pro 许可证
 description: 了解如何购买和分配 Power BI Pro 用户许可证，以便用户可以访问 Power BI 服务中的所有内容并与同事协作。
 author: mgblythe
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
@@ -10,12 +9,12 @@ ms.topic: quickstart
 ms.date: 10/29/2019
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: 31739cee4371a8991f8c88e6ba67bfb48878a33c
-ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
+ms.openlocfilehash: 72a158e2dca32d2199fcd48e2cc37bf4c90778ea
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "73431393"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73873546"
 ---
 # <a name="purchase-and-assign-power-bi-pro-user-licenses"></a>购买和分配 Power BI Pro 用户许可证
 
@@ -37,7 +36,7 @@ Power BI Pro 是独立的用户许可证，它允许用户读取其他用户在 
 
 1. 打开 [MIcrosoft 365 管理中心](https://portal.office.com/adminportal/home#/homepage)。
 
-2. 在左侧导航窗格中，选择**计帐**  >  **订阅**。
+2. 在导航窗格中，选择“账单” > “订阅”   。
 
     ![导航窗格](media/service-admin-purchasing-power-bi-pro/service-purchasing-power-bi-pro-01.png)
 
@@ -75,7 +74,7 @@ Power BI Pro 是独立的用户许可证，它允许用户读取其他用户在 
 
 1. 打开 [MIcrosoft 365 管理中心](https://portal.office.com/adminportal/home#/homepage)。
 
-2. 在左侧导航窗格中，展开“用户”  ，然后选择“活动用户”  。
+2. 在导航窗格中，展开“用户”  ，然后选择“活动用户”  。
 
     ![活跃用户](media/service-admin-purchasing-power-bi-pro/service-assigning-power-bi-pro-licenses-05.png)
 
@@ -97,7 +96,7 @@ Power BI Pro 是独立的用户许可证，它允许用户读取其他用户在 
 
 1. 打开 [Azure 门户](https://ms.portal.azure.com/#@microsoft.onmicrosoft.com/dashboard/private/39bc3cf7-31a4-43f6-954c-f2d69ca2f0)。
 
-2. 在左侧导航栏中，选择“Azure Active Directory”  。
+2. 在导航窗格中，选择“Azure Active Directory”  。
 
     ![Azure Active Directory](media/service-admin-purchasing-power-bi-pro/service-assigning-power-bi-pro-licenses-01.png)
 

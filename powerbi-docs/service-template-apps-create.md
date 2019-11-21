@@ -2,19 +2,18 @@
 title: 在 Power BI 中创建模板应用
 description: 如何在 Power BI 中创建可以分发给任何 Power BI 客户的模板应用。
 author: teddybercovitz
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 09/15/2019
 ms.author: tebercov
-ms.openlocfilehash: 836dfcc0569c906b145df3e3f3d14f03c08d4938
-ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
+ms.openlocfilehash: 4b3158cbe26efe05e3d35c1c6c93027738cc817a
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "73432159"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73871496"
 ---
 # <a name="create-a-template-app-in-power-bi"></a>在 Power BI 中创建模板应用
 
@@ -86,7 +85,7 @@ Power BI 租户管理员管理和控制组织中谁可以创建模板应用，�
 
     **导航**
 
-    激活“新导航生成器”，可在其中定义应用的左侧导航窗格（有关详细信息，请参阅本文中的[设计导航体验](service-create-distribute-apps.md#design-the-navigation-experience)）  。
+    激活“新导航生成器”，可在其中定义应用的导航窗格（有关详细信息，请参阅本文中的[设计导航体验](service-create-distribute-apps.md#design-the-navigation-experience)）  。
 
    ![设置应用登陆页面](media/service-template-apps-install-distribute/power-bi-install-app-content.png)
     

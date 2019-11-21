@@ -2,19 +2,18 @@
 title: Power BI Desktop 中的 DirectQuery 模型疑难解答
 description: 对 DirectQuery 模型问题进行排除故障。
 author: peter-myers
-manager: asaxton
 ms.reviewer: asaxton
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 10/24/2019
 ms.author: v-pemyer
-ms.openlocfilehash: ac585aef180bb852f79ad5135778cec20f35cf2d
-ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
+ms.openlocfilehash: 623a0bbd187a997003ce7b82cc76d5c4fbe9ce44
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "73433539"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73868071"
 ---
 # <a name="directquery-model-troubleshooting-in-power-bi-desktop"></a>Power BI Desktop 中的 DirectQuery 模型疑难解答
 
@@ -92,7 +91,7 @@ ms.locfileid: "73433539"
 - 打开 SQL Server Profiler 并检查跟踪，如前面所述。 请记住，关闭 Power BI Desktop 时将删除跟踪文件。 此外，在 Power BI Desktop 中的进一步操作将不会立刻显示 - 应关闭跟踪文件并重新打开以查看新事件。
 - 保持较短的单个会话时间（10 秒的操作时间，而不是数百秒的操作时间），使跟踪文件更容易解释（并且因为跟踪文件的大小有限制，因此在时间长的会话中可能会丢弃早期事件）。
 
-## <a name="understand-the-form-of-query-sent-by-power-bi-desktop"></a>了解 Power BI Desktop 发送的查询的形式
+## <a name="understand-queries-sent-to-the-source"></a>了解发送到源的查询
 
 Power BI Desktop 生成和发送的查询的一般格式会对每个引用的表使用子查询，其中子查询由 Power Query 查询定义。 例如，假设 SQL Server 关系数据库中有以下 TPC-DS 表：
 

@@ -3,18 +3,17 @@ title: 教程：创建分页报表并将其上传到 Power BI 服务
 description: 在本教程中，你将连接到一个示例 Azure SQL 数据库。 然后，使用报表生成器中的向导创建分页报表。 接着将分页报表上传到 Power BI 服务高级容量中的工作区。
 author: maggiesMSFT
 ms.author: maggies
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: tutorial
 ms.date: 11/06/2018
-ms.openlocfilehash: 59d3f943ff893024beceff59ce3d0db6bc4d764b
-ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
+ms.openlocfilehash: ab4cb14936ceff52a78f713877064d525de4b104
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "73431667"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73875435"
 ---
 # <a name="tutorial-create-a-paginated-report-and-upload-it-to-the-power-bi-service"></a>教程：创建分页报表并将其上传到 Power BI 服务
 
@@ -287,7 +286,7 @@ ms.locfileid: "73431667"
 
 既然已经创建了这个分页报表，现在是时候将它上传到 Power BI 服务了。
 
-1. 在 Power BI 服务中（左侧导航中的 http://app.powerbi.com) ，选择“工作区” > “创建工作区”   。
+1. 在 Power BI 服务中（导航窗格中的 https://app.powerbi.com) ，选择“工作区” > “创建工作区”   。
 
 2. 将工作区命名为“Azure AW”  或其他唯一名称。 现在，你是唯一的成员。 
 

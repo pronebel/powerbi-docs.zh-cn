@@ -2,7 +2,6 @@
 title: Power BI 中的辅助功能概览
 description: 用于创建可访问 Power BI Desktop 报表的功能和建议
 author: davidiseminger
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 10/28/2019
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 13017fed9a7cd54cde624424894341dc2ced0d9b
-ms.sourcegitcommit: ef6de7067ecb2bbc86d912784376a1627acc478d
+ms.openlocfilehash: e61df101d26dd95a771a64ce7633e40fcd9c9123
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/30/2019
-ms.locfileid: "73180967"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73878897"
 ---
 # <a name="overview-of-accessibility-in-power-bi"></a>Power BI 中的辅助功能概览
 使用 Power BI 时，需要考虑到可能与报表交互的不同类型的用户。 创建和展示易于通过键盘或屏幕阅读器浏览和理解的报表，这样可使具有视觉或身体缺陷的用户接收到同等信息。
@@ -30,10 +29,10 @@ ms.locfileid: "73180967"
 
 ## <a name="accessibility-standards"></a>辅助功能标准
 
-Power BI 符合以下辅助功能标准。  这有助于确保你的 Power BI 可供尽可能多的人访问。
+Power BI 致力于符合以下辅助功能标准。  这有助于确保你的 Power BI 可供尽可能多的人访问。
 
 ### <a name="wcag-21"></a>WCAG 2.1
-Power BI 遵循 Web 内容辅助功能 (WCAG) 2.1 准则。 WCAG 有三个主要原则：
+Web 内容辅助功能 (WCAG) 有助于残障人士访问 Web 内容。 WCAG 有三个主要原则：
 
 1. 可感知 - 信息和用户界面组件必须以用户可感知的方式呈现给用户  。
 2. 可操作 - 用户界面组件和导航必须可操作  。

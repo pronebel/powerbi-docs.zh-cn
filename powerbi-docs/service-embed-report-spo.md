@@ -3,7 +3,6 @@ title: 使用报表 Web 部件在 SharePoint Online 中嵌入报表
 description: 借助 Power BI 新推出的适用于 SharePoint Online 的报表 Web 部件，可以在 SharePoint Online 页面中轻松嵌入交互式 Power BI 报表。
 author: rkarlin
 ms.author: rkarlin
-manager: kfile
 ms.reviewer: ''
 featuredvideoid: ''
 ms.service: powerbi
@@ -11,12 +10,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 LocalizationGroup: Share your work
 ms.date: 05/16/2019
-ms.openlocfilehash: 6fb02a3ea31dd3bed6f1013d5e81237345aef40c
-ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
+ms.openlocfilehash: e44ea4174545715a689b4f4370516cbbab4a593b
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "73431905"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73881886"
 ---
 # <a name="embed-with-report-web-part-in-sharepoint-online"></a>使用报表 Web 部件在 SharePoint Online 中嵌入报表
 
@@ -123,7 +122,7 @@ ms.locfileid: "73431905"
 | --- | --- |
 | 页名称 |设置 Web 部件的默认页。 从下拉列表中选择一个值。 如果下拉列表中未显示任何页，要么是因为报表只有一页，要么是因为粘贴的 URL 包含页名称。 从 URL 中删除报表部分即可选择特定页。 |
 | 显示 |调整报表如何能与 SharePoint Online 页面浑然一体。 |
-| 显示导航窗格 |显示或隐藏报表页导航窗格。 |
+| 显示导航窗格 |显示或隐藏页面导航窗格。 |
 | 显示筛选窗格 |显示或隐藏筛选窗格。 |
 
 ## <a name="reports-that-do-not-load"></a>报表没有加载
@@ -173,4 +172,4 @@ ms.locfileid: "73431905"
 * [什么是 Power BI Premium？](service-premium-what-is.md)
 * [在安全门户或网站中嵌入报表](service-embed-secure.md)
 
-更多问题？ [尝试咨询 Power BI 社区](http://community.powerbi.com/)
+更多问题？ [尝试咨询 Power BI 社区](https://community.powerbi.com/)

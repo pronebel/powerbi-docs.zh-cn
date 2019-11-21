@@ -2,19 +2,18 @@
 title: 管理 Power BI 报表服务器 Web 门户中的内容
 description: 阅读有关管理 Power BI 报表服务器 Web 门户中的内容的信息。
 author: maggiesMSFT
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 05/24/2018
 ms.author: maggies
-ms.openlocfilehash: 8a5b04c5b3325a9fd4d3bb11aa1943e62cf2c90c
-ms.sourcegitcommit: 2aa83bd53faad6fb02eb059188ae623e26503b2a
+ms.openlocfilehash: ecc33c6176214cb8178e55d716294bf9446a7b1d
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/29/2019
-ms.locfileid: "73021455"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73859479"
 ---
 # <a name="manage-content-in-the-web-portal"></a>管理 Web 门户中的内容 
 Power BI 报表服务器 Web 门户是用于查看、存储和管理 Power BI 报表、移动报表和分页报表以及 KPI 的本地位置。
@@ -38,9 +37,9 @@ Web 门户应用程序在浏览器中运行。 启动 Web 门户后看到的具�
     请参阅[支持的 Web 浏览器和版本](browser-support.md)列表。
 2. 在地址栏中，键入 Web 门户 URL。
    
-    默认情况下，URL 为 <em>http://[ComputerName]/reports</em>。
+    默认情况下，URL 为 <em>https://[ComputerName]/reports</em>。
    
-    可以将报表服务器配置为使用特定端口。 例如， <em>http://[ComputerName]:80/reports</em> 或 <em>http://[ComputerName]:8080/reports</em>
+    可以将报表服务器配置为使用特定端口。 例如，<em>https://[ComputerName]:80/reports</em> 或 <em>https://[ComputerName]:8080/reports</em>
    
     Web 门户按照以下类别进行项目分类：
    

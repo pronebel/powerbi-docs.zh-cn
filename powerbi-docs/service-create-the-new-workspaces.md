@@ -2,7 +2,6 @@
 title: 创建新工作区 - Power BI
 description: 了解如何创建新工作区、仪表板集合、报表和分页报表，以便为组织提供关键指标。
 author: maggiesMSFT
-manager: kfile
 ms.reviewer: lukaszp
 ms.service: powerbi
 ms.subservice: powerbi-service
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 10/02/2019
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 2fdc893ac8545df8fc64f45959a418018a189c84
-ms.sourcegitcommit: 2aa83bd53faad6fb02eb059188ae623e26503b2a
+ms.openlocfilehash: bbb5eeee7422670c771f7bbfb4b051de0538a10a
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/29/2019
-ms.locfileid: "73020470"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73877515"
 ---
 # <a name="create-the-new-workspaces-in-power-bi"></a>在 Power BI 中创建新工作区
 
@@ -74,7 +73,7 @@ Power BI 引入了新工作区体验。 工作区仍是与同事协作创建仪�
 
     第一次创建工作区时，在“创建工作区”窗格中  。
 
-    在左侧导航窗格中，选择“工作区”旁边的箭头，然后选择工作区名称旁边的“更多选项”(…)，接下来选择“工作区设置”    。 随即打开“设置”窗格。 
+    在导航窗格中，选择“工作区”旁边的箭头，然后选择工作区名称旁边的“更多选项”(…)，接下来选择“工作区设置”    。 随即打开“设置”窗格。 
 
     ![工作区设置](media/service-create-the-new-workspaces/power-bi-workspace-new-settings.png)
 
@@ -94,7 +93,7 @@ Power BI 不会将配置为拥有工作区访问权限的用户或组的权限�
 
     第一次创建工作区时，在“创建工作区”窗格中  。
 
-    在左侧导航窗格中，选择“工作区”旁边的箭头，然后选择工作区名称旁边的“更多选项”(…)，接下来选择“工作区设置”    。 随即打开“设置”窗格。 
+    在导航窗格中，选择“工作区”旁边的箭头，然后选择工作区名称旁边的“更多选项”(…)，接下来选择“工作区设置”    。 随即打开“设置”窗格。 
 
     ![工作区设置](media/service-create-the-new-workspaces/power-bi-workspace-new-settings.png)
 
@@ -108,7 +107,7 @@ Power BI 不会将配置为拥有工作区访问权限的用户或组的权限�
 
 配置 OneDrive 位置之后，访问该位置的方式与访问 Power BI 服务中的其他数据源的方式相同。
 
-1. 在左侧导航窗格中选择“获取数据”  ，然后在“文件”  框中选择“获取”  。
+1. 在导航窗格中选择“获取数据”  ，然后在“文件”  框中选择“获取”  。
 
     ![获取数据，获取文件](media/service-create-the-new-workspaces/power-bi-get-data-files.png)
 
@@ -145,4 +144,4 @@ Power BI 不会将配置为拥有工作区访问权限的用户或组的权限�
 * 请参阅[在 Power BI 的新工作区体验中组织工作](service-new-workspaces.md)
 * [创建经典工作区](service-create-workspaces.md)
 * [从 Power BI 的新工作区发布应用](service-create-distribute-apps.md)
-* 是否有任何问题? [尝试咨询 Power BI 社区](http://community.powerbi.com/)
+* 是否有任何问题? [尝试咨询 Power BI 社区](https://community.powerbi.com/)

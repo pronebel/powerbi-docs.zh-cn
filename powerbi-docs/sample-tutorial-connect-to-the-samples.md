@@ -2,7 +2,6 @@
 title: 连接到 Power BI 服务中的示例
 description: 了解如何安装和浏览 Power BI 服务中的示例。
 author: maggiesMSFT
-manager: kfile
 ms.reviewer: amac
 ms.custom: seodec18
 ms.service: powerbi
@@ -11,12 +10,12 @@ ms.topic: conceptual
 ms.date: 07/19/2019
 ms.author: maggies
 LocalizationGroup: Samples
-ms.openlocfilehash: 5009e186c801f71c9c1a4b8e156dfefaaeac79f1
-ms.sourcegitcommit: 2aa83bd53faad6fb02eb059188ae623e26503b2a
+ms.openlocfilehash: 90136f39d9f2a8e330748b56d6302bb75d2a31fe
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/29/2019
-ms.locfileid: "73020638"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73873833"
 ---
 #  <a name="connect-to-the-samples-in-the-power-bi-service"></a>连接到 Power BI 服务中的示例
 
@@ -38,7 +37,7 @@ Power BI 服务和 Power BI Desktop 均支持该示例。 要继续学习，我�
 
     如果没有 Power BI Pro 许可证，可以将该示例保存到“我的工作区”。
 
-2. 选择左侧导航窗格底部的**获取数据**。 
+2. 在导航窗格底部，选择“获取数据”  。 
 
    ![选择“获取数据”](media/sample-datasets/power-bi-get-data.png)
 
@@ -100,7 +99,7 @@ Power BI 服务和 Power BI Desktop 均支持该示例。 要继续学习，我�
 
 与在 Power BI 服务中编辑报表不同，在 Power BI Desktop 中，还可运用查询并对数据建模以确保数据支持报表中的最佳见解。 无论在本地驱动器还是云中，都可在任何位置保存 Power BI Desktop 文件。
 
-1. 下载[零售分析示例 .pbix 文件](http://download.microsoft.com/download/9/6/D/96DDC2FF-2568-491D-AAFA-AFDD6F763AE3/Retail%20Analysis%20Sample%20PBIX.pbix)并在 Power BI Desktop 中将其打开。 
+1. 下载[零售分析示例 .pbix 文件](https://download.microsoft.com/download/9/6/D/96DDC2FF-2568-491D-AAFA-AFDD6F763AE3/Retail%20Analysis%20Sample%20PBIX.pbix)并在 Power BI Desktop 中将其打开。 
 
     ![Power BI 报表视图中的示例](media/sample-tutorial-connect-to-the-samples/power-bi-samples-desktop.png)
 
@@ -138,4 +137,4 @@ Power BI 服务和 Power BI Desktop 均支持该示例。 要继续学习，我�
 - [Power BI 服务示例](sample-datasets.md)
 - [Power BI 数据源](service-get-data.md)
 
-更多问题？ [尝试参与 Power BI 社区](http://community.powerbi.com/)
+更多问题？ [尝试参与 Power BI 社区](https://community.powerbi.com/)

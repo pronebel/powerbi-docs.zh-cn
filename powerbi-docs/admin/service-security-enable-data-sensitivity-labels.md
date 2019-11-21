@@ -2,7 +2,6 @@
 title: 在 Power BI 中启用数据敏感度标签
 description: 了解如何在 Power BI 中启用数据敏感度标签
 author: paulinbar
-manager: rkarlin
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 10/25/2019
 ms.author: painbar
 LocalizationGroup: Data from files
-ms.openlocfilehash: a53e06f65f5ef8328a0c27b48f2020228a0570ed
-ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
+ms.openlocfilehash: 024e04bd309080b5b31e43bde7c783255bfc3dba
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "73432816"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73851067"
 ---
 # <a name="enable-data-sensitivity-labels-in-power-bi-preview"></a>在 Power BI 中启用数据敏感度标签（预览）
 
@@ -63,7 +62,7 @@ Power BI 使用 Microsoft 信息保护敏感度标签。 因此，如果在尝�
 
 ## <a name="licensing"></a>许可
 
-* 查看 Power BI 中的 Microsoft 信息保护标签，用户必须有 Azure 信息保护高级版 P1 或高级版 P2 许可证。 Microsoft Azure 信息保护可以单独进行购买，也可以通过一个 Microsoft 许可套件进行购买。 有关详细信息，请参阅 [Azure 信息保护定价](https://azure.microsoft.com/pricing/details/information-protection/)。
+* 如需查看或应用 Power BI 中的 Microsoft 信息保护标签，用户必须有 Azure 信息保护高级版 P1 或高级版 P2 许可证。 Microsoft Azure 信息保护可以单独进行购买，也可以通过一个 Microsoft 许可套件进行购买。 有关详细信息，请参阅 [Azure 信息保护定价](https://azure.microsoft.com/pricing/details/information-protection/)。
 * 需要在 Power BI 资产上应用标签的用户必须具有 Power BI Pro 许可证。
 
 

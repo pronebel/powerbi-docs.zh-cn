@@ -2,7 +2,6 @@
 title: 了解如何将 Azure Data Lake Storage Gen 2 连接到 Power BI 以进行数据流存储
 description: 使用 Azure Data Lake Storage Gen2 将用户自己的数据导入数据流
 author: davidiseminger
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 08/29/2019
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: df3c8b33de32bb9dd42507cc7bb601cee9f6e575
-ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
+ms.openlocfilehash: c48ae0913d0096546c23d22d3e4596fdb21aef82
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "73432016"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73872716"
 ---
 # <a name="connect-azure-data-lake-storage-gen2-for-dataflow-storage-preview"></a>连接 Azure Data Lake Storage Gen2 以存储数据流（预览）
 
@@ -105,7 +104,7 @@ ms.locfileid: "73432016"
 
 要查找租户应用程序，请按照下列步骤操作：
 
-1. 在 [Azure 门户](https://portal.azure.com/)中，从左侧导航面板选择“Azure Active Directory”  。
+1. 在 [Azure 门户](https://portal.azure.com/)中，从导航窗格选择“Azure Active Directory”  。
 2. 在 Azure“Active Directory”  边栏选项卡中，选择  “企业应用程序”。
 3. 从  “应用程序类型”下拉菜单中，选择  “所有应用程序”，然后选择“应用”  。 然后将显示租户应用程序示例，如下图所示。
 
@@ -223,4 +222,4 @@ Power BI Desktop 客户无法访问存储在 Azure Data Lake Storage 帐户  中
 * [CDM 文件夹](https://go.microsoft.com/fwlink/?linkid=2045304)
 * [CDM 模型文件定义](https://go.microsoft.com/fwlink/?linkid=2045521)
 
-也可以随时尝试[通过 Power BI 社区提问](http://community.powerbi.com/)。
+也可以随时尝试[通过 Power BI 社区提问](https://community.powerbi.com/)。

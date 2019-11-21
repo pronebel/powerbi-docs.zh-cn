@@ -2,7 +2,6 @@
 title: 管理 Power BI - 常见问题 (FAQ)
 description: 了解有关 Power BI 注册、租户管理和其他管理任务的常见问题的答案。
 author: mgblythe
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 09/09/2019
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: 6cc29bd1d06e948facf1058411759c15841a8352
-ms.sourcegitcommit: 2b7beec5237a597bab2da8eb6ffe69122a5d2ed9
+ms.openlocfilehash: 711646009fe79e145a3ab756266a442243c1116e
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/02/2019
-ms.locfileid: "73442926"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73857837"
 ---
 # <a name="administering-power-bi---frequently-asked-questions-faq"></a>管理 Power BI - 常见问题 (FAQ)
 
@@ -56,7 +55,7 @@ ms.locfileid: "73442926"
 
 ### <a name="using-powershell"></a>使用 PowerShell
 
-必须使用 Windows PowerShell 脚本，才能执行此部分中的一些过程。 如果不熟悉 PowerShell，建议先参阅 [PowerShell 入门指南](http://go.microsoft.com/fwlink/p/?LinkID=286814)。 若要运行脚本，请先安装最新的 64 位版 [Azure Active Directory Graph PowerShell](/powershell/azure/active-directory/)。
+必须使用 Windows PowerShell 脚本，才能执行此部分中的一些过程。 如果不熟悉 PowerShell，建议先参阅 [PowerShell 入门指南](https://go.microsoft.com/fwlink/p/?LinkID=286814)。 若要运行脚本，请先安装最新的 64 位版 [Azure Active Directory Graph PowerShell](/powershell/azure/active-directory/)。
 
 ### <a name="how-do-users-sign-up-for-power-bi"></a>用户如何注册 Power BI？
 
@@ -124,7 +123,7 @@ Get-MsolCompanyInformation | fl allow*
 
 若要禁用临时订阅，请运行以下 PowerShell 脚本。（[详细了解 PowerShell][1]。）
 
-1. 使用 Microsoft 365 凭据登录 Azure Active Directory。 以下 PowerShell 脚本的第一行会提示你输入凭据。 第二行连接到 Azure Active Directory。
+1. 使用 Microsoft 365 凭据登录 Azure Active Directory。 以下 PowerShell 脚本中的第一行会提示你输入凭据。 第二行连接到 Azure Active Directory。
 
     ```powershell
      $msolcred = get-credential
@@ -193,7 +192,7 @@ Power BI 为 Microsoft 365 全局管理员角色中的用户和 Power BI 服务�
 
 1. 转到 [MIcrosoft 365 管理中心](https://admin.microsoft.com/AdminPortal/Home#/homepage)。
 
-1. 在左侧导航栏中，选择**用户**  >  **活动用户**。
+1. 在导航窗格中，选择“用户”   > “活动用户”  。
 
 1. 找到要删除其许可证的用户，再选择其名称。
 
@@ -211,7 +210,7 @@ Power BI 为 Microsoft 365 全局管理员角色中的用户和 Power BI 服务�
 
 1. 导航到 [MIcrosoft 365 管理中心](https://admin.microsoft.com/AdminPortal/Home#/homepage)。
 
-1. 在左侧导航栏中，选择**用户**  >  **活动用户**。
+1. 在导航窗格中，选择“用户”   > “活动用户”  。
 
 1. 在“视图”  菜单上，选择“添加自定义视图”  。
 
@@ -235,7 +234,7 @@ Power BI 为 Microsoft 365 全局管理员角色中的用户和 Power BI 服务�
 
 ### <a name="what-is-the-power-bi-sla"></a>什么是 Power BI SLA？
 
-有关 Power BI SLA（服务级别协议）的信息，请参阅 Microsoft 授权网站中“授权”部分内的[授权条款和文档](http://www.microsoftvolumelicensing.com/DocumentSearch.aspx?Mode=3&DocumentTypeId=37)一文  。
+有关 Power BI SLA（服务级别协议）的信息，请参阅 Microsoft 授权网站中“授权”部分内的[授权条款和文档](https://www.microsoftvolumelicensing.com/DocumentSearch.aspx?Mode=3&DocumentTypeId=37)一文  。
 
 ### <a name="how-does-power-bi-handle-high-availability-and-failover"></a>Power BI 如何处理高可用性和故障转移？
 
@@ -264,6 +263,6 @@ Microsoft 以 Microsoft 365 为基础构建 Power BI，而 Microsoft 365 以 Azu
 [Office 365 用户帐户管理](/office365/servicedescriptions/office-365-platform-service-description/user-account-management/)  
 [Office 365 组管理](/office365/admin/email/create-edit-or-delete-a-security-group/)  
 
-更多问题？ [尝试咨询 Power BI 社区](http://community.powerbi.com/)
+更多问题？ [尝试咨询 Power BI 社区](https://community.powerbi.com/)
 
 [1]: https://docs.microsoft.com/powershell/scripting/overview

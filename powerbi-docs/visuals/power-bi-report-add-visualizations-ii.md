@@ -2,7 +2,6 @@
 title: 第 2 部分，向 Power BI 报表添加可视化效果
 description: 第 2 部分，向 Power BI 报表添加可视化效果
 author: mihart
-manager: kvivek
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 10/28/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: dc50c54f826dd695b0aab459bd3d68d0da792abe
-ms.sourcegitcommit: 2a61d8b1e2707a24fe1284a8a4034b11c3999842
+ms.openlocfilehash: e9759f69668780b450117e5e6255e7f5cb7e67f5
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/29/2019
-ms.locfileid: "73049100"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73881022"
 ---
 # <a name="part-2-add-visualizations-to-a-power-bi-report"></a>第 2 部分，向 Power BI 报表添加可视化效果
 
@@ -29,7 +28,7 @@ ms.locfileid: "73049100"
 
 ## <a name="prerequisites"></a>先决条件
 
-本教程使用[零售分析示例 PBIX 文件](http://download.microsoft.com/download/9/6/D/96DDC2FF-2568-491D-AAFA-AFDD6F763AE3/Retail%20Analysis%20Sample%20PBIX.pbix)。
+本教程使用[零售分析示例 PBIX 文件](https://download.microsoft.com/download/9/6/D/96DDC2FF-2568-491D-AAFA-AFDD6F763AE3/Retail%20Analysis%20Sample%20PBIX.pbix)。
 
 1. 在 Power BI Desktop 菜单栏的左上部分，选择“文件” > “打开”  
    
@@ -59,7 +58,7 @@ ms.locfileid: "73049100"
 
 5. [调整可视化对象的大小](power-bi-visualization-move-and-resize.md)，方法是选择可视化对象，抓取其中一个边框圈并进行拖动。 使其宽度足以消除滚动条，同时足够小，从而使我们有足够的空间来添加其他可视化对象。
    
-   ![](media/power-bi-report-add-visualizations-ii/pbi_part2_7b.png)
+   ![分区图视觉对象的屏幕截图](media/power-bi-report-add-visualizations-ii/pbi_part2_7b.png)
 6. [保存报表](../service-report-save.md)。
 
 ### <a name="add-a-map-visualization-that-looks-at-sales-by-location"></a>添加按位置查看销售额的地图可视化对象
@@ -68,9 +67,9 @@ ms.locfileid: "73049100"
    ![分区图](media/power-bi-report-add-visualizations-ii/power-bi-map1.png)
 
 2. 添加图例。  要按商店名称查看数据，请将“商店” > “连锁店”拖到图例区域   。  
-   ![](media/power-bi-report-add-visualizations-ii/power-bi-chain.png)
+   ![带有箭头（从字段列表中的链到图例桶中的链）的报表画布](media/power-bi-report-add-visualizations-ii/power-bi-chain.png)
 
 ## <a name="next-steps"></a>后续步骤
 * [Power BI 报表中的可视化对象](power-bi-report-visualizations.md)的详细信息。  
-* 更多问题？ [尝试参与 Power BI 社区](http://community.powerbi.com/)
+* 更多问题？ [尝试参与 Power BI 社区](https://community.powerbi.com/)
 

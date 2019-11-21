@@ -2,19 +2,18 @@
 title: 在组织中分发模板应用 - Power BI
 description: 了解如何在 Power BI 中安装、自定义和分发组织中的模板应用。
 author: teddybercovitz
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 09/14/2019
 ms.author: tebercov
-ms.openlocfilehash: 4db4fbc0dd34ae558514058e0aa7af0a704d8411
-ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
+ms.openlocfilehash: dcb037fdf064611947719a57316f31d901e3b81d
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "73432335"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73871421"
 ---
 # <a name="install-and-distribute-template-apps-in-your-organization---power-bi"></a>在组织中安装和分发模板应用 - Power BI
 
@@ -45,7 +44,7 @@ ms.locfileid: "73432335"
 
 ### <a name="search-appsource-from-the-power-bi-service"></a>从 Power BI 服务中搜索 AppSource
 
-1. 在 Power BI 服务的左侧导航窗格中，选择“应用” > “获取应用”   。
+1. 在 Power BI 服务的导航窗格中，选择“应用” > “获取应用”   。
 
     ![获取应用](media/service-template-apps-install-distribute/power-bi-get-apps-arrow.png)
 
@@ -69,7 +68,7 @@ ms.locfileid: "73432335"
     - **连接数据**：将数据源从示例数据更改为自己的数据源。 可以重新定义数据集参数和数据源凭据。 请参阅模板应用提示文章中的[已知限制](service-template-apps-tips.md#known-limitations)。 
     - “转到工作区”（最高级选项）：可以进行应用生成器允许的任何更改  。
 
-    或者跳过此对话框并直接通过左侧导航窗格中的“工作区”访问关联的工作区  。
+    或者跳过此对话框，直接通过导航窗格中的“工作区”访问关联的工作区  。
     >[!NOTE]
     >安装模板应用，会同时安装组织应用和工作区   。 详细了解如何[在 Power BI 中分发应用](service-create-distribute-apps.md)。
  

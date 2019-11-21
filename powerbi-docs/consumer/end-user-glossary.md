@@ -9,12 +9,12 @@ ms.subservice: powerbi-consumer
 ms.topic: conceptual
 ms.date: 09/04/2019
 ms.author: mihart
-ms.openlocfilehash: a48589e6126203856a306de796c964ce6e347c26
-ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
+ms.openlocfilehash: 32a93a881a801ec5dd335f167e69a5b76f53d694
+ms.sourcegitcommit: a5853ef44ed52e80eabee3757bb6887fa400b75b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "73429881"
+ms.lasthandoff: 11/07/2019
+ms.locfileid: "73764724"
 ---
 # <a name="glossary-for-power-bi-service"></a>Power BI 服务词汇表
 Power BI 服务可能会引入不熟悉或容易混淆的术语。 词汇表是查找术语的好地方，可能需要将其加入书签。 了解构成 Power BI 服务的构建块的另一个极佳资源是[基本概念](end-user-basic-concepts.md)。 “基本概念”提供 Power BI 组件及其如何连接的简要概述。 
@@ -68,7 +68,7 @@ Power BI 服务可能会引入不熟悉或容易混淆的术语。 词汇表是�
 
 **connect live (实时连接)** 连接到 SQL Server Analysis Services 数据模型的方法。 也称为即时连接。
 
-**容器**：导航栏上的区域称为“容器”。  在导航栏中，你将看到以下内容的容器：收藏夹、最新、应用、与我共享和主页。 
+**容器**：导航窗格上的区域称为“容器”。  在导航窗格中，你将看到以下内容的容器：收藏夹、最新、应用、与我共享和主页。 
 
 **内容**：Power BI 服务的内容通常是仪表板、报表和应用。 此外，它还可能包括工作簿和数据集。
 
@@ -162,12 +162,12 @@ Power BI 服务可能会引入不熟悉或容易混淆的术语。 词汇表是�
 
 ## <a name="l"></a>L
 
-**左侧导航（左导航）** ：已将其替换为“导航栏”，但在某些文档中它可能仍会出现。     
+**left navigation (left nav) (左侧导航(左导航))** ：已将其替换为“nav pane (导航窗格)”，但其在某些文档中可能仍会出现。     
 沿 Power BI 服务左侧边缘的控件。
 
-第一次出现：左侧导航，后面提及或空间紧凑时：左导航
+第一次出现：navigation pane，后面提及或空间紧促时：nav pane
 
-**list page (列表页)** 或**内容列表** 左侧导航中元素的其中一个章节页。 例如，“收藏夹”、“最近访问”、“我的工作区”。
+**list page (列表页)** 或 **content list (内容列表)** 导航窗格中元素的部分页面之一。 例如，“收藏夹”、“最近访问”、“我的工作区”。
 
 ## <a name="m"></a>M
 
@@ -181,11 +181,11 @@ Power BI 服务可能会引入不熟悉或容易混淆的术语。 词汇表是�
 
 **native (本机)** 产品附带。 例如，Power BI 附带了一套本机  可视化效果类型。 但是，你也可以导出其他类型，例如自定义视觉对象。
 
-**导航栏**：沿 Power BI 服务左侧边缘的控件。 
+**navigation pane (导航窗格)** ：沿 Power BI 服务左侧边缘的控件。 
 
-第一次出现：navigation bar，后面提及或空间紧凑时：nav bar
+第一次出现：navigation pane，后面提及或空间紧促时：nav pane
 
-**导航窗格**：请参阅“导航栏” 
+**nav pane (导航窗格)** 请参见“导航窗格” 
 
 **notification (通知)** Power BI 通知中心发送和收到的消息。  
 
@@ -260,7 +260,7 @@ Power BI 服务可能会引入不熟悉或容易混淆的术语。 词汇表是�
 
 **real-time streaming (实时流)** 从传感器、社交媒体、使用指标等来源以及可从中收集或传输时间敏感数据的任何其他内容流式传输数据并更新仪表板的功能。  
 
-**Recent (最近访问)** 左导航中的容器，用于容纳上次访问的所有单独项目。
+**最近访问** 导航窗格中的容器，用于容纳上次访问的所有单独项目。
 
 **related content (相关项目)** 用于显示对当前内容作出贡献的单独内容片段。 例如，对于仪表板，你可以在仪表板上看到提供数据和可视化效果的报表和数据集。   
 
@@ -288,7 +288,7 @@ Power BI 服务可能会引入不熟悉或容易混淆的术语。 词汇表是�
 **share, sharing (共享)** 在 Power BI 中，共享通常是指使用电子邮件地址将单独的项目（仪表板或报表）直接与一人或多人共享。 发件人和收件人需要有 Power BI Pro 许可证。
 在移动设备上，共享是指本机 OS 共享功能，例如“标注并共享”。  
 
-**Shared with me (已与我分享)** 左导航中的容器，用于容纳其他 Power BI 用户分享的所有单独项目。
+**与我共享** 导航窗格中的容器，用于容纳其他 Power BI 用户共享的所有单独项目。
 
 **snapshot (快照)**
 

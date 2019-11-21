@@ -2,19 +2,18 @@
 title: 查看报表
 description: 本主题介绍 Power BI 使用者和最终用户必须打开并查看 Power BI 报告。
 author: mihart
-manager: kvivek
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
 ms.date: 09/04/2018
 ms.author: mihart
-ms.openlocfilehash: fab986cbd5c6b0a55c18157d663eea1ca0fd537e
-ms.sourcegitcommit: 2aa83bd53faad6fb02eb059188ae623e26503b2a
+ms.openlocfilehash: b22da2df92c0cc7130c7a5ebf69e2284c12ffef4
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/29/2019
-ms.locfileid: "73019471"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73861967"
 ---
 # <a name="view-a-report-in-the-power-bi-service-for-consumers"></a>在面向使用者的 Power BI 服务中查看报表 
 
@@ -33,11 +32,11 @@ ms.locfileid: "73019471"
    ![“主页”页面](./media/end-user-report-open/power-bi-home-canvas.png)
 
 ### <a name="open-a-report-that-has-been-shared-with-you"></a>打开已与你共享的报表
-Power BI 设计器可以直接与你共享单个报表，方法是通过电子邮件中的链接或自动添加该报表  。 通过此方式共享的内容显示在导航栏上的“与我共享”容器中以及“主页”画布上的“与我共享”部分中   。
+Power BI 设计器可以直接与你共享单个报表，方法是通过电子邮件中的链接或自动添加该报表  。 通过此方式共享的内容显示在导航窗格上的“与我共享”容器中，以及“主页”画布上的“与我共享”部分中   。
 
 1. 打开 Power BI 服务 (app.powerbi.com)
 
-2. 从导航栏中选择“主页”  以显示“主页”画布。  
+2. 从导航窗格中选择“主页”  ，以显示“主页”画布。  
 
    ![“主页”画布](./media/end-user-report-open/power-bi-select-home-new.png)
    
@@ -66,7 +65,7 @@ Power BI 设计器可以直接与你共享单个报表，方法是通过电子�
    ![调整到页面大小](./media/end-user-report-open/power-bi-actual.png)
 
 ### <a name="open-a-report-that-is-part-of-an-app"></a>打开属于应用一部分的报告
-如果你收到了来自同事或 AppSource 的应用，则可以从导航栏上的“主页”页面和“应用”容器中获取这些应用  。 [应用](end-user-apps.md)是一捆仪表板和报表。
+如果你收到了来自同事或 AppSource 的应用，则可以从导航窗格上的“主页”页面和“应用”容器中获取这些应用  。 [应用](end-user-apps.md)是一捆仪表板和报表。
 
 ### <a name="prerequisites"></a>先决条件
 若要继续操作，请下载“销售和营销”应用。
@@ -75,7 +74,7 @@ Power BI 设计器可以直接与你共享单个报表，方法是通过电子�
 1. 选择“立即获取” > “继续” > “安装”以在应用容器中安装应用    。 
 
 可以从应用容器或主页打开应用。
-1. 从导航栏中选择“主页”，返回到“主页”页面  。
+1. 从导航窗格中选择“主页”，返回到“主页”页面  。
 
 7. 向下滚动，直至看到“我的应用”为止  。
 
@@ -101,7 +100,7 @@ Power BI 设计器可以直接与你共享单个报表，方法是通过电子�
 
 ##  <a name="still-more-ways-to-open-a-report"></a>其他打开报表的更多方法
 能够熟练地导航 Power BI 服务之后，即可找到最适合自己的工作流。 下面是访问报表的其他几种方法：
-- 从导航栏中使用“收藏夹”和“最近”      
+- 从导航窗格中使用“收藏夹”和“最近”      
 - 使用[相关视图](end-user-related.md)    
 - 在电子邮件中，有人[与你共享](../service-share-reports.md)或你已[设置警报](end-user-alerts.md)时    
 - 从你的[通知中心](end-user-notification-center.md)    

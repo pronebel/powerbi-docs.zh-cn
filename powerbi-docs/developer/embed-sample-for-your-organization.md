@@ -3,19 +3,18 @@ title: 为组织将 Power BI 内容嵌入到应用程序的嵌入式分析
 description: 了解如何通过使用适用于嵌入式分析的 Power BI API，为组织将报表（Power BI 或分页）、仪表板或磁贴集成或嵌入到应用程序中。 了解如何使用嵌入式分析软件、嵌入式分析工具或嵌入式商业智能工具将 Power BI 集成到应用程序。
 author: rkarlin
 ms.author: rkarlin
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: tutorial
 ms.custom: seodec18
 ms.date: 07/29/2019
-ms.openlocfilehash: 9c35d74249516b25a756a8a90ce666092e585a72
-ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
+ms.openlocfilehash: 3a217ebd1b6450c76ebf25ad5154293566d955f6
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "73431080"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73876000"
 ---
 # <a name="tutorial-embed-power-bi-content-into-an-application-for-your-organization"></a>教程：为组织将 Power BI 内容嵌入应用程序
 
@@ -429,4 +428,4 @@ function updateEmbedReport() {
 > [!div class="nextstepaction"]
 >[为客户嵌入内容](embed-sample-for-customers.md)
 
-如有其他问题，请[尝试询问 Power BI 社区](http://community.powerbi.com/)。
+如有其他问题，请[尝试询问 Power BI 社区](https://community.powerbi.com/)。

@@ -2,7 +2,6 @@
 title: 焦点模式和全屏模式 - 如何放大以查看更多详细信息
 description: 有关在焦点模式或全屏模式下显示 Power BI 仪表板、仪表板磁贴、报表或报表视觉对象的文档
 author: mihart
-manager: kvivek
 ms.reviewer: ''
 featuredvideoid: dtdLul6otYE
 ms.service: powerbi
@@ -11,12 +10,12 @@ ms.topic: conceptual
 ms.date: 09/23/2019
 ms.author: mihart
 LocalizationGroup: Common tasks
-ms.openlocfilehash: 3a4f120ec64376955433faf04e24dd0e8f623419
-ms.sourcegitcommit: 2aa83bd53faad6fb02eb059188ae623e26503b2a
+ms.openlocfilehash: 633aaf4bd06634f0b1cc7eb2dd38b56eec0cfaf0
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/29/2019
-ms.locfileid: "73019828"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73852747"
 ---
 # <a name="display-content-in-more-detail-focus-mode-and-full-screen-mode"></a>更详细地显示内容：焦点模式和全屏模式
 
@@ -38,7 +37,7 @@ ms.locfileid: "73019828"
 
 ![仪表板全屏模式前后对照](media/end-user-focus/power-bi-dashboards-focus.png)
 
-显示 Power BI 服务内容（仪表板、报表页、磁贴和视觉对象），不受菜单和导航栏的干扰。  可以随时快速获取内容的纯粹而完整的视图。 有时这也称为电视模式。   
+显示 Power BI 服务内容（仪表板、报表页、磁贴和视觉对象），不受菜单和导航窗格的干扰。  可以随时快速获取内容的纯粹而完整的视图。 有时这也称为电视模式。   
 
 要打开全屏模式，请从处于焦点模式的仪表板、报表、磁贴或处于焦点模式的视觉对象上方的 Power BI 服务菜单栏中选择“全屏”  图标 ![全屏图标](media/end-user-focus/power-bi-full-screen-icon.png)。  你选择的内容将填满整个屏幕。
 如果使用 Power BI 移动版，[全屏可用于 Windows 10 移动应用](./mobile/mobile-windows-10-app-presentation-mode.md)。 
@@ -60,7 +59,7 @@ ms.locfileid: "73019828"
 
 ## <a name="working-in-full-screen-mode"></a>在全屏幕模式下运行
 
-要以全屏模式打开仪表板或报表页，请从顶部导航栏选择全屏图标 ![全屏图标](media/end-user-focus/power-bi-full-screen-icon.png) 。 进入全屏模式后，移动鼠标或光标就会显示上下文菜单。 由于全屏可用于各种各样的内容，因此上下文菜单中的选项也都有所不同，但这些差异一目了然。  只需将鼠标悬停在图标上即可看到定义。
+要以全屏模式打开仪表板或报表页，请从顶部导航栏选择全屏图标 ![全屏图标](media/end-user-focus/power-bi-full-screen-icon.png) 从顶部导航窗格。 进入全屏模式后，移动鼠标或光标就会显示上下文菜单。 由于全屏可用于各种各样的内容，因此上下文菜单中的选项也都有所不同，但这些差异一目了然。  只需将鼠标悬停在图标上即可看到定义。
 
 仪表板菜单    
 ![仪表板菜单](media/end-user-focus/power-bi-full-screen-dash.png)    

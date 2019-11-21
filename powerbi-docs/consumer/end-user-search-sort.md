@@ -2,7 +2,6 @@
 title: 对 Power BI 服务中的内容进行搜索和排序
 description: 用于对 Power BI 我的工作区中的内容进行搜索和排序的文档
 author: mihart
-manager: kvivek
 ms.reviewer: willt
 ms.custom: ''
 ms.service: powerbi
@@ -11,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/21/2019
 ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: d5bc5638d9f98c1a35f57edd1d5d838c91c8ebf2
-ms.sourcegitcommit: 96217747f07d923d1a9d31f67a853f1ef1d17b20
+ms.openlocfilehash: 5a7848cb5931d983ab434a19c934c9e9cb464724
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/24/2019
-ms.locfileid: "72891792"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73861736"
 ---
 # <a name="navigation-searching-finding-and-sorting-content-in-power-bi-service"></a>导航：在 Power BI 服务中搜索、查找和排序内容
 
@@ -47,10 +46,10 @@ ________________________________________
 不是所有列都可以进行排序。 将鼠标悬停在列标题上可发现哪些列可以进行排序。
 
 ___________________________________________________________________
-## <a name="navigation-using-the-navigation-pane"></a>使用导航窗格导航
-导航窗格对内容进行分类，帮助你快速找到所需的内容。  
+## <a name="navigation-using-the-nav-pane"></a>使用导航窗格导航
+导航窗格将对内容进行分类，帮助你快速找到所需的内容。  
 
-![左侧导航窗格](./media/end-user-search-sort/power-bi-navbar.png)
+![导航窗格](./media/end-user-search-sort/power-bi-nav pane.png)
 
 
 - “与我共享”中显示与你共享的内容  。
@@ -58,7 +57,7 @@ ___________________________________________________________________
 - 选择“应用”可查找应用  。
 - “主页”是单页视图，显示最重要的内容和推荐的内容及学习资源  。
 
-此外，你可以标记作为内容[收藏](end-user-favorite.md)和[特色](end-user-featured.md)。 选取一个你希望经常查看的仪表板或报表，并将其设置为特色内容  。 每次打开 Power BI 服务时，会首先显示特色仪表板。 你是否有大量经常访问的仪表板和应用？ 通过将它们设置为收藏项，可以始终通过左侧导航栏进行访问。
+此外，你可以标记作为内容[收藏](end-user-favorite.md)和[特色](end-user-featured.md)。 选取一个你希望经常查看的仪表板或报表，并将其设置为特色内容  。 每次打开 Power BI 服务时，会首先显示特色仪表板。 你是否有大量经常访问的仪表板和应用？ 通过将它们设置为收藏项，可以始终通过导航窗格进行访问。
 
 ![收藏夹浮出控件](./media/end-user-search-sort/power-bi-favorite.png)。
 
@@ -70,4 +69,4 @@ ___________________________________________________________________
 ## <a name="next-steps"></a>后续步骤
 [对报表中的视觉对象排序](end-user-change-sort.md)
 
-更多问题？ [尝试参与 Power BI 社区](http://community.powerbi.com/)
+更多问题？ [尝试参与 Power BI 社区](https://community.powerbi.com/)

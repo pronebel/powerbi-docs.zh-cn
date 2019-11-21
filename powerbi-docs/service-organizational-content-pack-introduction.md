@@ -2,7 +2,6 @@
 title: Power BI 中的组织内容包简介
 description: 阅读有关将仪表板、报表、Excel 工作簿和数据集打包到组织内容包中，并将其与同事共享的信息。
 author: maggiesMSFT
-manager: kfile
 ms.reviewer: lukaszp
 ms.service: powerbi
 ms.subservice: powerbi-service
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 10/23/2019
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: c5f56df51a1f18db7c2080afb79f4ac7abfb2444
-ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
+ms.openlocfilehash: b766cc4eae71b94a28e12ba989f85542fec2ab83
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "73431749"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73871974"
 ---
 # <a name="intro-to-organizational-content-packs-in-power-bi"></a>Power BI 中的组织内容包简介
 > [!NOTE]
@@ -54,7 +53,7 @@ ms.locfileid: "73431749"
    > 
    > 
 2. Nate 向通讯组发送邮件，告知通讯组成员有关新内容包的信息。
-3. 在 Power BI Pro 中，“市场营销”通讯组的成员 Jane 搜索并连接 AppSource 中的某个内容包。 Jane 现在具有一个只读副本。 Jane 知道它是只读的，因为在左侧导航窗格中，仪表板名称和报表名称左侧显示了共享图标。 而当 Jane 选择仪表板时，锁形图标让 Jane 知道其他成员正在查看内容包仪表板。 
+3. 在 Power BI Pro 中，“市场营销”通讯组的成员 Jane 搜索并连接 AppSource 中的某个内容包。 Jane 现在具有一个只读副本。 Jane 知道该版本是只读的，因为在导航窗格中，仪表板名称和报表名称左侧有一个共享图标。 而当 Jane 选择仪表板时，锁形图标让 Jane 知道其他成员正在查看内容包仪表板。 
 4. 假设 Jane 决定对其进行自定义。 Jane 现在具有自己的仪表板和报表副本。 Jane 执行的操作不会影响源、原始内容包或其他通讯组成员。 他们现在各自处理自己的仪表板和报表副本。
 5. Nate 对仪表板进行更新，并在更新就绪后发布内容包的新版本。
    
@@ -63,11 +62,11 @@ ms.locfileid: "73431749"
 6. 假设 Nate 更改了安全设置。 Julio 和 Jane 不再有权访问该内容。 或假设从“市场营销”通讯组中删除了这二人。
    
    * Julio 没有自定义原始内容包，因此将自动删除内容。 
-   * Jane 对内容包进行了自定义。 Jane 下次打开仪表板时，原始内容包中的所有磁贴都将消失，但仍将显示 Jane 从（她仍有权使用的）其他报表固定的磁贴。 关联的报表和数据集将不再可用（且不会显示在其左侧导航窗格中）。
+   * Jane 对内容包进行了自定义。 Jane 下次打开仪表板时，原始内容包中的所有磁贴都将消失，但仍将显示 Jane 从（她仍有权使用的）其他报表固定的磁贴。 关联的报表和数据集将不再可用（且不会显示在其导航窗格中）。
 7. 或者 Nate 删除了内容包。
    
    * Julio 没有自定义原始内容包，因此将自动删除内容。 
-   * Jane 对内容包进行了自定义。 Jane 下次打开仪表板时，原始内容包中的所有磁贴都将消失，但从其他报表固定的磁贴仍会显示。 关联的报表和数据集将不再可用（且不会显示在其左侧导航窗格中）。
+   * Jane 对内容包进行了自定义。 Jane 下次打开仪表板时，原始内容包中的所有磁贴都将消失，但从其他报表固定的磁贴仍会显示。 关联的报表和数据集将不再可用（且不会显示在其导航窗格中）。
 
 ## <a name="data-security"></a>数据安全性
 所有通讯组成员的数据权限与内容包创建者一样。 SQL Server Analysis Services (SSAS) 本地表格数据集是一个例外。 由于报表和仪表板实时连接到本地 SSAS 模型，因此将使用各个通讯组成员的凭据确定其可以访问的数据。
@@ -76,5 +75,5 @@ ms.locfileid: "73431749"
 * [创建和发布组织内容包](service-organizational-content-pack-create-and-publish.md)
 * [在 Power BI 中构建和分发应用](service-create-distribute-apps.md) 
 * [Power BI 服务中设计器的基本概念](service-basic-concepts.md)
-* 更多问题？ [尝试参与 Power BI 社区](http://community.powerbi.com/)
+* 更多问题？ [尝试参与 Power BI 社区](https://community.powerbi.com/)
 

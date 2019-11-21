@@ -2,7 +2,6 @@
 title: 从仪表板、报表和数据集查看相关内容
 description: 使用导航这一预览功能，可以更轻松地查看仪表板、报表和数据集中的相关内容
 author: mihart
-manager: kvivek
 ms.reviewer: ''
 featuredvideoid: B2vd4MQrz4M
 ms.custom: seodec18
@@ -12,12 +11,12 @@ ms.topic: conceptual
 ms.date: 09/18/2019
 ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: 10fcb7420c261379d596666589a0f6707cf70160
-ms.sourcegitcommit: 2aa83bd53faad6fb02eb059188ae623e26503b2a
+ms.openlocfilehash: 9e202d22c2ff42a29eb28a8ee154b09f18097d04
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/29/2019
-ms.locfileid: "73019451"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73862285"
 ---
 # <a name="view-related-content-in-the-power-bi-service"></a>查看 Power BI 服务中的相关内容
 
@@ -54,9 +53,9 @@ ms.locfileid: "73019451"
 ## <a name="view-related-content-for-a-dataset"></a>查看数据集的相关内容
 至少要拥有对数据集的查看  权限，才能打开“相关内容”  窗格。 在此示例中，我们使用的是[“采购分析”示例](../sample-procurement.md)。
 
-在导航栏中，找到“工作区”  标题，并从列表选择一个工作区。 如果工作区中包含数据，它将显示在右侧的画布中。 
+在导航窗格中，找到“工作区”  标题，并从列表选择一个工作区。 如果工作区中包含数据，它将显示在右侧的画布中。 
 
-![左侧导航栏中的工作区](./media/end-user-related/power-bi-workspace.png)
+![导航窗格中的工作区](./media/end-user-related/power-bi-workspace.png)
 
 
 在工作区中，选择“数据集”选项卡，然后找到“相关视图”图标 ![相关视图图标](./media/end-user-related/power-bi-view-related-icon-new.png)。  
@@ -76,5 +75,5 @@ ms.locfileid: "73019451"
 
 ## <a name="next-steps"></a>后续步骤
 * [Power BI 服务入门](../service-get-started.md)
-* 更多问题？ [尝试参与 Power BI 社区](http://community.powerbi.com/)
+* 更多问题？ [尝试参与 Power BI 社区](https://community.powerbi.com/)
 

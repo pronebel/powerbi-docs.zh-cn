@@ -2,7 +2,6 @@
 title: 教程：在 Power BI 中调用机器学习工作室模型（预览版）
 description: 在本教程中，你将在 Power BI 中调用机器学习工作室模型。
 author: davidiseminger
-manager: kfile
 ms.reviewer: SarinaJoan
 ms.service: powerbi
 ms.subservice: powerbi-service
@@ -11,12 +10,12 @@ ms.topic: tutorial
 ms.date: 03/12/2019
 ms.author: davidi
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 368f860ed064cf3b4ff73496db1fa993fd3b716a
-ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
+ms.openlocfilehash: 3cbe715bc3cff9d2afeefe7c82847f104f4d0835
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "73432226"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73876962"
 ---
 # <a name="tutorial-invoke-a-machine-learning-studio-model-in-power-bi-preview"></a>教程：在 Power BI 中调用机器学习工作室模型（预览版）
 
@@ -44,7 +43,7 @@ ms.locfileid: "73432226"
 
 以下步骤假定你是模型发布到的 Azure 订阅和资源组的共同管理员。
 
-登录到 [Azure 门户](https://portal.azure.com)并导航到“订阅”  页，可以使用左侧导航菜单中的“所有服务”  列表找到该页。
+登录到 [Azure 门户](https://portal.azure.com)并导航到“订阅”  页，可以使用导航窗格菜单中的“所有服务”  列表找到该页。
 
 ![Azure 门户](media/service-tutorial-invoke-machine-learning-model/tutorial-invoke-machine-learning-model_01.png)
 
@@ -135,7 +134,7 @@ Power Query 编辑器显示 CSV 文件中的数据的预览。 从命令功能�
 
 ![编辑](media/service-tutorial-invoke-machine-learning-model/tutorial-invoke-machine-learning-model_16.png)
 
-选择功能区中的“AI 见解”  按钮，然后选择左侧导航菜单中的“Azure 机器学习模型”  文件夹。
+选择功能区中的“AI 见解”按钮，然后选择导航窗格菜单中的“Azure 机器学习模型”文件夹   。
 
 已向其授予访问权限的 Azure ML 模型将作为 Power Query 函数列出，前缀为 AzureML  。  单击对应于 AutomobilePricePrediction  模型的函数时，模型的 Web 服务的参数将作为函数参数列出。
 

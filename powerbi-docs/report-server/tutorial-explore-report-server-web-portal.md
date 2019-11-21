@@ -2,19 +2,18 @@
 title: 教程：浏览 VM 中的 Power BI 报表服务器
 description: 在本教程中，使用已安装的 Power BI 报表服务器创建虚拟机，并浏览 Web 门户。
 author: maggiesMSFT
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: tutorial
 ms.date: 05/06/2019
 ms.author: maggies
-ms.openlocfilehash: cd3e032375c5edaba2b0f90f982d0dbe5591c913
-ms.sourcegitcommit: 2aa83bd53faad6fb02eb059188ae623e26503b2a
+ms.openlocfilehash: 312b86f9e0c0dda0c9c943520c74286e0458acef
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/29/2019
-ms.locfileid: "73021629"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73859259"
 ---
 # <a name="tutorial-explore-the-power-bi-report-server-web-portal-in-a-vm"></a>教程：浏览 VM 中的 Power BI 报表服务器 Web 门户
 在本教程中，使用已安装的 Power BI 报表服务器创建 Azure 虚拟机，以便可以查看、编辑和管理示例 Power BI、分页报表和 KPI。
@@ -72,7 +71,7 @@ ms.locfileid: "73021629"
 
 ## <a name="connect-to-your-virtual-machine"></a>连接到虚拟机
 
-1. 在 Azure 的左侧导航窗格中，选择“虚拟机”  。 
+1. 在 Azure 导航窗格中，选择“虚拟机”  。 
 
 2. 在  “按名称筛选”框中，键入“报表”。 
 
@@ -108,7 +107,7 @@ ms.locfileid: "73021629"
 |![编号 4](media/tutorial-explore-report-server-web-portal/number-4.png) | 在浏览器中打开 Power BI 报表服务器 Web 门户 |
 |![编号 5](media/tutorial-explore-report-server-web-portal/number-5.png) | 启动 SQL Server Data Tools，用于创建分页 (.RDL) 报表 |
 
-双击“报表服务器 Web 门户”  图标。 浏览器将打开 `http://localhost/reports/browse`。 在 Web 门户中，将看到按类型分组的各种文件。 
+双击“报表服务器 Web 门户”  图标。 浏览器将打开 `https://localhost/reports/browse`。 在 Web 门户中，将看到按类型分组的各种文件。 
 
 ![Power BI 报表服务器 Web 门户](media/tutorial-explore-report-server-web-portal/power-bi-report-server-browser-in-vm.png)
 

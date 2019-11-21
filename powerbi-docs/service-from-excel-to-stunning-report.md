@@ -2,7 +2,6 @@
 title: 从 Excel 工作簿变为 Power BI 服务中的出色报表
 description: 本文介绍如何从 Excel 工作簿快速创建出色的报表。
 author: maggiesMSFT
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 08/12/2019
 ms.author: maggies
 LocalizationGroup: Data from files
-ms.openlocfilehash: 6c393611851e05c7c76983674f2e1de7b5454898
-ms.sourcegitcommit: 2aa83bd53faad6fb02eb059188ae623e26503b2a
+ms.openlocfilehash: c2a4719a03e37569e40d4247939a9f2c73379e52
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/29/2019
-ms.locfileid: "73021002"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73872520"
 ---
 # <a name="from-excel-workbook-to-stunning-report-in-the-power-bi-service"></a>从 Excel 工作簿变为 Power BI 服务中的出色报表
 你的经理在下班前想要查看有关你最新的销售数据以及上一市场活动影响的报表。 但最新数据位于各种第三方系统上以及便笔记本电脑上的文件中。 以前，创建视觉对象和格式化报表都需要花费数小时，这让你深感焦虑。
@@ -57,7 +56,7 @@ Power BI 服务连接到多个数据源，包括位于计算机上的 Excel 文�
 
    ![创建下拉列表](media/service-from-excel-to-stunning-report/power-bi-create-dash.png)
 
-4. 选择左侧导航窗格底部的“获取数据”  。 
+4. 在导航窗格底部，选择“获取数据”  。 
 
 5. 在“获取数据”页上的“创建新内容”下的“文件”框中，选择“获取”     。
 
@@ -140,5 +139,5 @@ Power BI 服务连接到多个数据源，包括位于计算机上的 Excel 文�
 * [Power BI Desktop 入门](desktop-getting-started.md)
 * [Power BI 服务中设计器的基本概念](service-basic-concepts.md)
 
-更多问题？ [尝试参与 Power BI 社区](http://community.powerbi.com/)。
+更多问题？ [尝试参与 Power BI 社区](https://community.powerbi.com/)。
 

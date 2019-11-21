@@ -2,7 +2,6 @@
 title: 删除仪表板、报表、工作簿、数据集或工作区
 description: 了解如何从 Power BI 删除几乎所有内容
 author: maggiesMSFT
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 09/11/2018
 ms.author: maggies
 LocalizationGroup: Common tasks
-ms.openlocfilehash: b010cfafc15c905cd792b9693777af94149cb1fe
-ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
+ms.openlocfilehash: 0ccc32a18098673034e7f37b92f8edb5636ef21d
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "73431961"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73872539"
 ---
 # <a name="delete-almost-anything-in-power-bi-service"></a>在 Power BI 服务中删除几乎所有内容
 本文介绍如何在 Power BI 服务中删除仪表板、报表、工作簿、数据集、应用、可视化效果和工作区。
@@ -90,7 +89,7 @@ ms.locfileid: "73431961"
 作为工作区创建者，你可以删除工作区。 删除它时，如果已将应用发布到整个组织，则同时还会删除所有组成员的关联应用并从你的 AppSource 中删除。 删除工作区不同于离开工作区。
 
 ### <a name="to-delete-a-workspace---if-you-are-an-admin"></a>以管理员身份删除工作区
-1. 从左侧导航栏中选择“工作区” 
+1. 从导航窗格中，选择“工作区”  。
 
 2. 选择要删除的工作区右侧的“更多选项”(…)，然后选择“编辑工作区”   。
 
@@ -125,7 +124,7 @@ ms.locfileid: "73431961"
 ### <a name="remove-an-app-from-your-app-list-page"></a>从你的应用列表页删除应用
 从你的应用列表页删除应用不会删除其他成员的应用。
 
-1. 在左侧导航栏中选择“应用”  以打开应用列表页。
+1. 在导航窗格中选择“应用”  ，以打开应用列表页。
 2. 将鼠标悬停在要删除的应用上，然后选择“删除”![](media/service-delete/power-bi-delete-report2.png) 图标。
 
    ![选择应用](media/service-delete/power-bi-delete-app.png)
@@ -141,4 +140,4 @@ ms.locfileid: "73431961"
 * [删除仪表板磁贴](service-dashboard-edit-tile.md)
 * [删除报表可视化效果](service-delete.md)
 
-更多问题？ [尝试参与 Power BI 社区](http://community.powerbi.com/)
+更多问题？ [尝试参与 Power BI 社区](https://community.powerbi.com/)

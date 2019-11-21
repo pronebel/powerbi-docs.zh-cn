@@ -2,7 +2,6 @@
 title: 教程：使用 Power BI 连接到 GitHub 存储库
 description: 在本教程中，使用 Power BI 连接到 GitHub 服务中的真实数据，Power BI 即会自动创建仪表板和报表。
 author: maggiesMSFT
-manager: kfile
 ms.reviewer: SarinaJoan
 ms.service: powerbi
 ms.subservice: powerbi-service
@@ -11,12 +10,12 @@ ms.topic: tutorial
 ms.date: 08/07/2019
 ms.author: maggies
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 7f7fde7fcabc29238d9558739eff02519ef9cca3
-ms.sourcegitcommit: 2aa83bd53faad6fb02eb059188ae623e26503b2a
+ms.openlocfilehash: 986f35cd1c4f612b16374107487d0ca20c9c607e
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/29/2019
-ms.locfileid: "73020013"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73871251"
 ---
 # <a name="tutorial-connect-to-a-github-repo-with-power-bi"></a>教程：使用 Power BI 连接到 GitHub 存储库
 在本教程中，使用 Power BI 连接到 GitHub 服务中的真实数据，Power BI 即会自动创建仪表板和报表。 连接到 Power BI 内容公共存储库（也称为“存储库”），同时查看以下问题的答案  ：有多少人参与编辑 Power BI 公共内容？ 谁贡献最多？ 一周中哪天的贡献最大？ 以及其他问题。 
@@ -45,7 +44,7 @@ ms.locfileid: "73020013"
 
 ## <a name="how-to-connect"></a>如何连接
 1. 登录 Power BI 服务 (https://app.powerbi.com) 。 
-2. 在左侧导航窗格中，选择“应用”，然后选择“获取应用”   。
+2. 在导航窗格中选择“应用”，然后选择“获取应用”   。
    
    ![Power BI 获取应用](media/service-tutorial-connect-to-github/power-bi-github-app-tutorial.png) 
 
@@ -72,15 +71,15 @@ ms.locfileid: "73020013"
    之后，Power BI 即可连接到 GitHub 和数据。  数据会每天刷新一次。
 
 8. Power BI 导入数据之后，将显示新 GitHub 工作区的内容。 
-9. 选择左侧导航栏中工作区名称旁边的箭头。 将看到工作区包含仪表板和报表。 
+9. 在导航窗格中选择工作区名称旁边的箭头。 将看到工作区包含仪表板和报表。 
 
-    ![左侧导航窗格中的应用](media/service-tutorial-connect-to-github/power-bi-github-app-tutorial-left-nav-expanded.png)
+    ![导航窗格中的应用](media/service-tutorial-connect-to-github/power-bi-github-app-tutorial-left-nav-expanded.png)
 
 10. 选择仪表板名称旁边的“更多选项”(...)，选择“重命名”，然后键入“GitHub 仪表板”    。
  
     ![Power BI GitHub 磁贴](media/service-tutorial-connect-to-github/power-bi-github-app-tutorial-left-nav.png) 
 
-8. 选择“全局导航”图标将左侧导航窗格最小化，以获得更多空间。
+8. 选择“全局导航”图标将导航窗格最小化，以获得更多空间。
 
     ![“全局导航”图标](media/service-tutorial-connect-to-github/power-bi-global-navigation-icon.png)
 
@@ -129,7 +128,7 @@ ms.locfileid: "73020013"
 
 现在，完成本教程后，可删除 GitHub 应用。 
 
-1. 在左侧导航栏中选择“应用”  。
+1. 在导航窗格中，选择“应用”  。
 2. 将鼠标悬停在 GitHub 磁贴上，然后选择“删除”垃圾箱  。
 
     ![删除 GitHub 应用](media/service-tutorial-connect-to-github/power-bi-github-app-tutorial-delete.png)

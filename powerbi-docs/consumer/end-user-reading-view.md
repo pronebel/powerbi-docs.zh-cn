@@ -4,7 +4,6 @@ description: 在本快速入门中，使用者将了解 Power BI、应用、报�
 services: powerbi
 documentationcenter: ''
 author: mihart
-manager: kvivek
 editor: ''
 tags: ''
 ms.service: powerbi
@@ -13,12 +12,12 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 08/30/2019
 ms.author: mihart
-ms.openlocfilehash: 17a142249abe1162dbbcff79c476f33eb4b80366
-ms.sourcegitcommit: 2aa83bd53faad6fb02eb059188ae623e26503b2a
+ms.openlocfilehash: 09b9bf10c3328ecc4eb9ca9d16460b1bcfab0da5
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/29/2019
-ms.locfileid: "73019600"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73862673"
 ---
 # <a name="quickstart-learn-about-the-power-bi-capabilities-for-consumers"></a>快速入门：了解面向使用者  的 Power BI 功能
 本快速入门将介绍如何与 Power BI 交互，以发现数据驱动业务见解。 本文未做深入探讨，只是快速概述了 Power BI  使用者可执行的许多操作。
@@ -50,7 +49,7 @@ Power BI 服务向报表使用者提供了阅读视图  。 借助阅读视图�
 
 应用是一种将相关仪表板和报表组合在一个地方的 Power BI 内容类型  。 应用可以将一个或多个仪表板和一个或多个报表捆绑在一起。 应用由 Power BI 设计者创建，他们会与像你一样的使用者分发和共享应用   。 
 
-查看应用的一种方法是从导航栏中选择“应用”，然后选择要打开的应用  。
+查看应用的一种方法是从导航窗格中选择“应用”，然后选择要打开的应用  。
 
 ![“获取应用”图标](./media/end-user-reading-view/power-bi-apps.png)
 
@@ -116,7 +115,7 @@ Power BI 会在值增加或减少超过设置的限制时，向你发送电子�
 ![悬停查看详细信息](media/end-user-reading-view/power-bi-hover.gif)
 
 ### <a name="favorite-a-dashboard"></a>收藏仪表板
-收藏内容后，便能从导航栏访问  。 导航栏在 Power BI 中的几乎每个区域都可见。 收藏的通常是你最常访问的仪表板、报表页和应用。
+收藏内容后，便能从导航窗格进行访问  。 导航窗格在 Power BI 中的几乎每个区域都可见。 收藏的通常是你最常访问的仪表板、报表页和应用。
 
 在 Power BI 服务的右上角，选择“收藏夹”，如果没看见，则选择“更多选项”(…)，然后从下拉列表中选择“收藏”    。 
    
@@ -194,9 +193,9 @@ Power BI 可视化效果是使用基础数据集中的数据构造而成。 如�
 本文快速概述了使用者可以使用 Power BI 服务执行的一些操作  。  
 
 ## <a name="clean-up-resources"></a>清理资源
-- 如果已连接到应用，请选择左侧导航栏中的“应用”  ，以打开“应用内容”列表。 将鼠标悬停在要删除的应用之上，再选择“垃圾桶”图标。
+- 如果已连接到应用，请从导航窗格中选择“应用”  ，以打开“应用内容”列表。 将鼠标悬停在要删除的应用之上，再选择“垃圾桶”图标。
 
-- 如果已导入或连接到 Power BI 示例报表，请通过左侧导航栏打开“我的工作区”  。 使用顶部的选项卡找到仪表板、报表和数据集，再选择每一项的“垃圾桶”图标。
+- 如果已导入或连接到 Power BI 示例报表，请通过导航窗格打开“我的工作区”  。 使用顶部的选项卡找到仪表板、报表和数据集，再选择每一项的“垃圾桶”图标。
 
 ## <a name="next-steps"></a>后续步骤
 [面向使用者的 Power BI](end-user-consumer.md)

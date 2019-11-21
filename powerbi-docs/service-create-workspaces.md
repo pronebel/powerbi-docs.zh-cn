@@ -2,7 +2,6 @@
 title: 在 Power BI 中创建经典工作区
 description: 了解如何创建工作区、仪表板集合、报表和分页报表，以便为组织提供关键指标。
 author: maggiesMSFT
-manager: kfile
 ms.reviewer: lukaszp
 ms.service: powerbi
 ms.subservice: powerbi-service
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 09/10/2019
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 1087ac4301a172500c997e78ee3a16695f6b0d73
-ms.sourcegitcommit: 2aa83bd53faad6fb02eb059188ae623e26503b2a
+ms.openlocfilehash: 3153e63685e21a29687c33e702c4ade55324e05c
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/29/2019
-ms.locfileid: "73021092"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73853558"
 ---
 # <a name="create-classic-workspaces-in-power-bi"></a>在 Power BI 中创建经典工作区
 
@@ -75,7 +74,7 @@ ms.locfileid: "73021092"
 
 如果要将官方内容分发给组织内的大量受众，可以从工作区发布应用。  内容准备好后，选择想要发布的仪表板和报表，然后将其作为应用发布  。 可从每个工作区创建一个应用。
 
-左侧导航栏中的“应用”列表显示已安装的所有应用。 你的同事可通过几种不同的方式获取你的应用。 
+导航窗格中的“应用”列表显示已安装的所有应用。 你的同事可通过几种不同的方式获取你的应用。 
 - 他们可以从 Microsoft AppSource 中查找并安装应用
 - 你可以向他们发送直接链接。 
 - 如果 Power BI 管理员已授予权限，则可将这些应用自动安装到同事的 Power BI 帐户中。 
@@ -97,4 +96,4 @@ ms.locfileid: "73021092"
 ## <a name="next-steps"></a>后续步骤
 * [在 Power BI 中安装并使用应用](service-create-distribute-apps.md)
 - [创建新工作区](service-create-the-new-workspaces.md)
-* 是否有任何问题? [尝试咨询 Power BI 社区](http://community.powerbi.com/)
+* 是否有任何问题? [尝试咨询 Power BI 社区](https://community.powerbi.com/)

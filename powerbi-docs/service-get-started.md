@@ -2,7 +2,6 @@
 title: Power BI 服务入门
 description: Power BI 在线服务入门 (app.powerbi.com)
 author: maggiesMSFT
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
@@ -10,12 +9,12 @@ ms.topic: tutorial
 ms.date: 09/05/2019
 ms.author: maggies
 LocalizationGroup: Get started
-ms.openlocfilehash: 681c55f4425729b96860367858273d7eb1ad73b6
-ms.sourcegitcommit: d441d350504f8c6d9e100d229757add6237f0bef
+ms.openlocfilehash: 3a9b2a5e7de0a5072b266c7b146488e5d546f616
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/30/2019
-ms.locfileid: "73060395"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73872328"
 ---
 # <a name="tutorial-get-started-with-the-power-bi-service"></a>教程：Power BI 服务入门
 本教程介绍了 Power BI 服务的一些功能  。 在这里，你可连接到数据、创建报表和仪表板，并就你的问题提问。 你还可在 Power BI 服务中执行更多其他操作；本教程仅作激发兴趣之用。 要了解 Power BI 服务如何与其他 Power BI 产品/服务契合，建议阅读[什么是 Power BI](fundamentals/power-bi-overview.md)。
@@ -35,7 +34,7 @@ ms.locfileid: "73060395"
 > * 删除数据集、报表和仪表板，清理资源。
 
 > [!TIP]
-> 更喜欢可以自主掌控进度的免费培训课程？ [在 EdX 上注册学习我们的“数据分析和可视化”课程](http://aka.ms/edxpbi)。
+> 更喜欢可以自主掌控进度的免费培训课程？ [在 EdX 上注册学习我们的“数据分析和可视化”课程](https://aka.ms/edxpbi)。
 
 ## <a name="sign-up-for-the-power-bi-service"></a>注册 Power BI 服务
 如果没有 Power BI 帐户，请先[注册一个 Power BI Pro 免费试用版](https://app.powerbi.com/signupredirect?pbi_source=web)，再进行操作。
@@ -46,10 +45,10 @@ ms.locfileid: "73060395"
 
 通常，需要创建 Power BI 报表时，会先使用 Power BI Desktop。 而这一次，我们将在 Power BI 服务中从头开始创建一个报表。
 
-在本教程中，我们会从 CSV 文件中获取数据。 想要跟着做吗？ [下载财务示例 CSV 文件](http://go.microsoft.com/fwlink/?LinkID=521962)。
+在本教程中，我们会从 CSV 文件中获取数据。 想要跟着做吗？ [下载财务示例 CSV 文件](https://go.microsoft.com/fwlink/?LinkID=521962)。
 
-1. [登录 Power BI](http://www.powerbi.com/)。 还没有帐户？ 别担心，可以注册一个免费试用版。
-2. Power BI 将在浏览器中打开。 在左侧导航栏底部选择“获取数据”  。
+1. [登录 Power BI](https://www.powerbi.com/)。 还没有帐户？ 别担心，可以注册一个免费试用版。
+2. Power BI 将在浏览器中打开。 在导航窗格底部，选择“获取数据”  。
 
     随即将打开“获取数据”页面  。   
 
@@ -73,7 +72,7 @@ ms.locfileid: "73060395"
 
     ![空白报表画布](media/service-get-started/power-bi-service-blank-report.png)
 
-7. 请注意，顶部导航栏上有“读取视图”选项  。 由于具有此选项，这意味着你当前处于“编辑视图”中。 进行[简要了解](service-the-report-editor-take-a-tour.md)是熟悉报表编辑器的一个不错的方法。
+7. 请注意，顶部导航窗格上有“读取视图”选项  。 由于具有此选项，这意味着你当前处于“编辑视图”中。 进行[简要了解](service-the-report-editor-take-a-tour.md)是熟悉报表编辑器的一个不错的方法。
 
     ![“阅读视图”选项](media/service-get-started/power-bi-service-reading-view.png)
 
@@ -115,13 +114,13 @@ ms.locfileid: "73060395"
    
 8. 在仪表板上选择新的磁贴，以便返回到报表。 Power BI 会转回到报表的“阅读视图”。 
 
-1. 要切换回“编辑视图”，请在顶部导航栏中选择“更多选项”(…)，然后选择“编辑”   。 回到“编辑视图”后，可继续探索并固定磁贴。
+1. 要切换回“编辑视图”，请在顶部导航窗格中选择“更多选项”(…)，然后选择“编辑”   。 回到“编辑视图”后，可继续探索并固定磁贴。
 
     ![选择“编辑”以编辑报表](media/service-get-started/power-bi-service-edit-report.png)
 
 ## <a name="step-3-explore-with-qa"></a>步骤 3：探索问答功能
 
-要快速浏览数据，请尝试问答问题框中提问。 问答功能会创建有关你的数据的自然语言查询。 在仪表板中，问答框位于顶部（用于询问数据相关问题）  。 而在报表中，它位于顶部导航栏中（用于提问）  。
+要快速浏览数据，请尝试问答问题框中提问。 问答功能会创建有关你的数据的自然语言查询。 在仪表板中，问答框位于顶部（用于询问数据相关问题）  。 在报表中，它位于顶部导航窗格中（用于提问）  。
 
 1. 要返回到仪表板，请在黑色“Power BI”栏中选择“我的工作区”   。
 
@@ -198,7 +197,7 @@ ms.locfileid: "73060395"
 ## <a name="clean-up-resources"></a>清理资源
 完成本教程后，现可删除数据集、报表和仪表板。 
 
-1. 在左侧导航栏中，确保位于“我的工作区”中  。
+1. 在导航窗格中，确保自己位于“我的工作区”  。
 2. 选择“数据集”  选项卡并找到本教程导入的数据集。  
 3. 选择“更多选项”(…) >“删除”   。
 

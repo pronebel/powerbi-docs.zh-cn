@@ -2,7 +2,6 @@
 title: 教程：在 Power BI 中生成机器学习模型
 description: 在本教程中，你将在 Power BI 中生成机器学习模型。
 author: davidiseminger
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
@@ -11,12 +10,12 @@ ms.topic: tutorial
 ms.date: 03/29/2019
 ms.author: davidi
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 75f6449c4795fd0095c46a33b33fd3ef14045e35
-ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
+ms.openlocfilehash: 78b29a4e71e75793e168da25987b3e9c4a8b13f4
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "73432239"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73877004"
 ---
 # <a name="tutorial-build-a-machine-learning-model-in-power-bi"></a>教程：在 Power BI 中生成机器学习模型
 
@@ -47,7 +46,7 @@ ms.locfileid: "73432239"
 
 若要在数据流中创建实体，登录到 Power BI 服务并导航到启用 AI 的专用容量上的工作区。
 
-如果还没有工作区，可以通过从 Power BI 服务选择左侧导航菜单的“工作区”来创建一个，然后选择显示的面板底部的“创建工作区”   。 这将在右侧打开一个面板，用于输入工作区详细信息。 输入一个工作区名称，然后选择“高级”  。 使用单选按钮确认工作区使用“专用容量”，并确保将它分配给已启用 AI 预览版的专用容量实例。 然后，选择“保存”  。
+如果还没有工作区，可以通过从 Power BI 服务选择导航窗格菜单的“工作区”来创建一个，然后选择在面板底部显示的“创建工作区”   。 这将在右侧打开一个面板，用于输入工作区详细信息。 输入一个工作区名称，然后选择“高级”  。 使用单选按钮确认工作区使用“专用容量”，并确保将它分配给已启用 AI 预览版的专用容量实例。 然后，选择“保存”  。
 
 ![创建工作区](media/service-tutorial-build-machine-learning-model/tutorial-machine-learning-model-01.png)
 

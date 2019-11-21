@@ -2,7 +2,6 @@
 title: 如何通过 Power BI 问答将磁贴固定到仪表板
 description: 关于如何从“问答”问题框将磁贴固定到 Power BI 仪表板的文档
 author: maggiesMSFT
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 03/02/2018
 ms.author: maggies
 LocalizationGroup: Dashboards
-ms.openlocfilehash: e75c9b86b20eda2de630f2b27caa6b88a687fbb4
-ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
+ms.openlocfilehash: 12aa35e37e4382e7fc89fc9e0fe8c2ae564e8eda
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "73432090"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73872815"
 ---
 # <a name="pin-a-tile-to-a-dashboard-from-qa"></a>从问答将磁贴固定到仪表板
 ## <a name="how-to-pin-a-tile-from-qa"></a>如何从“问答”中固定磁贴
@@ -52,9 +51,9 @@ ms.locfileid: "73432090"
    ![包含磁贴的仪表板](media/service-dashboard-pin-tile-from-q-and-a/power-bi-pinned.png)
 
 ## <a name="considerations-and-troubleshooting"></a>注意事项和疑难解答
-* 开始键入问题时，问答将立即从与当前仪表板关联的所有数据集搜索最佳答案。  “当前仪表板”是顶部导航栏中列出的仪表板。 例如，在属于“mihart”工作区的“零售分析示例”仪表板中提出此问题   。
+* 开始键入问题时，问答将立即从与当前仪表板关联的所有数据集搜索最佳答案。  “当前仪表板”是顶部导航窗格中列出的仪表板。 例如，在属于“mihart”工作区的“零售分析示例”仪表板中提出此问题   。
 
-  ![痕迹导航](media/service-dashboard-pin-tile-from-q-and-a/power-bi-navbar.png)
+  ![痕迹导航](media/service-dashboard-pin-tile-from-q-and-a/power-bi-nav pane.png)
 * **问答如何知道要使用哪个数据集**？  Power BI 问答有权访问至少有一个可视化效果固定到相应仪表板的所有数据集。
 
 * **看不到提问框**？ 请与 Power BI 管理员联系。 管理员可以禁用 Power BI 问答。
@@ -64,4 +63,4 @@ ms.locfileid: "73432090"
 [重命名、调整大小、添加超链接、重新定位磁贴等](service-dashboard-edit-tile.md)    
 [在焦点模式下显示仪表板磁贴](consumer/end-user-focus.md)     
 [返回到 Power BI 中的问答](consumer/end-user-q-and-a.md)  
-更多问题？ [尝试参与 Power BI 社区](http://community.powerbi.com/)
+更多问题？ [尝试参与 Power BI 社区](https://community.powerbi.com/)

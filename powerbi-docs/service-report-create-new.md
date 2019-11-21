@@ -2,7 +2,6 @@
 title: 从数据集中创建报表
 description: 从数据集创建 Power BI 报表。
 author: maggiesMSFT
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
@@ -10,19 +9,19 @@ ms.topic: conceptual
 ms.date: 04/25/2019
 ms.author: maggies
 LocalizationGroup: Reports
-ms.openlocfilehash: 1993ac0b300bb582d7b8a1946ff63cf6316c2d52
-ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
+ms.openlocfilehash: c3f30206a01dce9cf9fd3ce0600b46b401df2b1f
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "73432196"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73871749"
 ---
 # <a name="create-a-report-in-the-power-bi-service-by-importing-a-dataset"></a>通过导入数据集在 Power BI 服务中创建报表
 你已经阅读了 [Power BI 中的报表](consumer/end-user-reports.md)，并且现在想要创建你自己的仪表板。 有不同的方法可创建报表。 在本文中，我们将首先通过 Excel 数据集在 Power BI 服务中创建基本报表。 了解创建报表的基础知识后，请查看结尾处的[后续步骤](#next-steps)，以获取更高级的报表主题。  
 
 ## <a name="prerequisites"></a>先决条件
 - [注册 Power BI 服务](service-self-service-signup-for-power-bi.md)。 有关使用 Power BI Desktop 创建报表的信息，请参阅 [Desktop 报表视图](desktop-report-view.md)。 
-- [下载零售分析示例 Excel 数据集](http://go.microsoft.com/fwlink/?LinkId=529778)并将其保存到 OneDrive for Business 或进行本地保存。
+- [下载零售分析示例 Excel 数据集](https://go.microsoft.com/fwlink/?LinkId=529778)并将其保存到 OneDrive for Business 或进行本地保存。
 
 ## <a name="import-the-dataset"></a>导入数据集
 此创建报表方法从数据集和空白报表画布开始。 可从零售分析示例 Excel 数据集中开始操作。
@@ -30,7 +29,7 @@ ms.locfileid: "73432196"
 1. 我们将在 Power BI 服务的工作区中创建报表，因此，请选择现有工作区或创建一个工作区。
    
    ![工作区列表](media/service-report-create-new/power-bi-workspaces2.png)
-2. 从左侧导航窗格底部选择“获取数据”  。
+2. 从导航窗格底部，选择“获取数据”  。
    
    ![获取数据](media/service-report-create-new/power-bi-get-data3.png)
 3. 选择“文件”  并导航到你保存零售分析示例的位置。
@@ -93,5 +92,5 @@ CMO 还需要我们回答一些其他问题。 他们还希望了解本年度销
 ## <a name="next-steps"></a>后续步骤
 
 * 了解如何[将可视化效果固定到仪表板](service-dashboard-pin-tile-from-report.md)   
-* 更多问题？ [尝试参与 Power BI 社区](http://community.powerbi.com/)
+* 更多问题？ [尝试参与 Power BI 社区](https://community.powerbi.com/)
 
