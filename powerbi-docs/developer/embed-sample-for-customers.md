@@ -3,19 +3,18 @@ title: 为客户将 Power BI 内容嵌入到应用程序的嵌入式分析
 description: 了解如何通过使用适用于嵌入式分析的 Power BI API，为客户将报表、仪表板或磁贴集成或嵌入到应用程序中。 了解如何使用嵌入式分析软件、嵌入式分析工具或嵌入式商业智能工具将 Power BI 集成到应用程序。
 author: KesemSharabi
 ms.author: kesharab
-manager: rkarlin
 ms.reviewer: rkarlin
 ms.topic: tutorial
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.custom: seodec18
 ms.date: 04/02/2019
-ms.openlocfilehash: e35f4f7bd870e51810d49c43a058e467bd724e6e
-ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
+ms.openlocfilehash: 24a9c0069cb80a20a84823655437a27a4f6c0e9e
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "73429678"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73877697"
 ---
 # <a name="tutorial-embed-power-bi-content-into-an-application-for-your-customers"></a>教程：为客户将 Power BI 内容嵌入应用中
 
@@ -59,7 +58,7 @@ ms.locfileid: "73429678"
 
 ### <a name="create-a-workspace"></a>创建工作区
 
-如果为客户嵌入报表、仪表板或磁贴，则必须将内容放在应用工作区中。 具有可以设置的不同类型工作区：[传统工作区](../service-create-workspaces.md)或[新工作区](../service-create-the-new-workspaces.md)。 如果使用的是主帐户，则所用工作区类型并不重要  。 然而，如果使用[服务主体](embed-service-principal.md)登录应用程序，则需要使用新工作区  。 在任一方案中，主帐户或服务主体必须是应用程序有关的工作区的管理员   。
+如果为客户嵌入报表、仪表板或磁贴，则必须将内容放在工作区中。 具有可以设置的不同类型工作区：[传统工作区](../service-create-workspaces.md)或[新工作区](../service-create-the-new-workspaces.md)。 如果使用的是主帐户，则所用工作区类型并不重要  。 然而，如果使用[服务主体](embed-service-principal.md)登录应用程序，则需要使用新工作区  。 在任一方案中，主帐户或服务主体必须是应用程序有关的工作区的管理员   。
 
 ### <a name="create-and-publish-your-reports"></a>创建并发布报表
 
@@ -120,7 +119,7 @@ ms.locfileid: "73429678"
 
 1. 登录到 [Azure 门户](https://portal.azure.com)。
 
-2. 在左侧导航窗格中，依次选择“所有服务”  和“应用注册”  。
+2. 在左侧导航窗格中，依次选择“所有服务”和“应用注册”   。
 
     ![应用注册搜索](media/embed-sample-for-customers/embed-sample-for-customers-003.png)
 
@@ -460,4 +459,4 @@ var token = client.GetClient().EmbedToken.GenerateToken(request);
 > [!div class="nextstepaction"]
 >[为组织嵌入内容](embed-sample-for-your-organization.md)
 
-更多问题？ [尝试咨询 Power BI 社区](http://community.powerbi.com/)
+更多问题？ [尝试咨询 Power BI 社区](https://community.powerbi.com/)
