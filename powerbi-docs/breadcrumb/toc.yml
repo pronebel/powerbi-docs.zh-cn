@@ -14,8 +14,8 @@
           topicHref: /power-bi/developer/index
           items:
             - name: 在 Power BI 中使用 R 驱动的 Power BI 视觉对象
-              tocHref: /power-bi/desktop-r-powered-custom-visuals/
-              topicHref: /power-bi/developer/index
+              tocHref: /power-bi/developer/
+              topicHref: /power-bi/desktop-r-powered-custom-visuals/
         - name: 引导式学习
           tocHref: /power-bi/guided-learning/
           topicHref: /power-bi/guided-learning/
