@@ -3,18 +3,18 @@ title: Power BI 报表生成器中的报表参数
 description: 本主题介绍了 Power BI 分页报表生成器报表参数的常见用法、可以设置的属性及其他内容。
 ms.service: powerbi
 ms.subservice: report-builder
-ms.custom: ''
 ms.topic: conceptual
 author: maggiesMSFT
 ms.author: maggies
 ms.reviewer: ''
+ms.custom: ''
 ms.date: 06/06/2019
-ms.openlocfilehash: 21fe08c2cba004a6aff77eae12303d0181ab56ec
-ms.sourcegitcommit: 797bb40f691384cb1b23dd08c1634f672b4a82bb
+ms.openlocfilehash: d31036676a5960f7f6eb0f346c2c02ab979ff9bc
+ms.sourcegitcommit: 01de0b01f66f28ca45b8d309d7864f261d6c9a85
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/12/2019
-ms.locfileid: "66840524"
+ms.lasthandoff: 11/16/2019
+ms.locfileid: "74128421"
 ---
 # <a name="report-parameters-in-power-bi-report-builder"></a>Power BI 报表生成器中的报表参数
 

@@ -8,21 +8,39 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: conceptual
 ms.date: 06/18/2019
-ms.openlocfilehash: 1bf7bac5631e0d76864620057ba3d95fab3ba3ad
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 7fe802c2dbc225c07f3cf53481f078ff1399004e
+ms.sourcegitcommit: f7b28ecbad3e51f410eff7ee4051de3652e360e8
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73879927"
+ms.lasthandoff: 11/13/2019
+ms.locfileid: "74060429"
 ---
 # <a name="create-a-launch-url"></a>创建启动 URL
 
 通过创建启动 URL，可通过将实际工作委托给 Power BI 打开新的浏览器标签页（或窗口）。
 
+> [!IMPORTANT]
+> 视觉对象 API 1.9.0 中引入了 `host.launchUrl()`。
+
 ## <a name="sample"></a>示例
 
+导入 `IVisualHost` 接口，并保存指向视觉对象构造函数中 `host` 对象的链接。
+
 ```typescript
-   this.host.launchUrl('https://powerbi.microsoft.com');
+import powerbi from "powerbi-visuals-api";
+import IVisualHost = powerbi.extensibility.visual.IVisualHost;
+
+export class Visual implements IVisual {
+    private host: IVisualHost;
+    // ...
+    constructor(options: VisualConstructorOptions) {
+        // ...
+        this.host = options.host;
+        // ...
+    }
+
+    // ...
+}
 ```
 
 ## <a name="usage"></a>使用情况

@@ -8,12 +8,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 06/01/2019
 ms.author: v-tatero
-ms.openlocfilehash: 289e6490d2449bdcbca68e6acba85cf4466b315f
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: bd6270731f79ac5a1e270ac36699470a0e6df978
+ms.sourcegitcommit: f7b28ecbad3e51f410eff7ee4051de3652e360e8
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73880563"
+ms.lasthandoff: 11/13/2019
+ms.locfileid: "74060453"
 ---
 # <a name="power-bi-webinars"></a>Power BI 网络研讨会
 
@@ -21,7 +21,13 @@ ms.locfileid: "73880563"
 
 ## <a name="upcoming-webinars"></a>即将举行的网络研讨会
 
-尚无举办网络研讨会的计划。 请稍后再查看更多近期活动安排。
+**Azure 虚拟事件中的分析：利用 Azure Synapse Analytics 加快获得见解的速度**
+<br>作者：Gayle Sheppard 和 John Macintyre
+<br>[立即注册](https://info.microsoft.com/WW-Analytics-in-Azure-virtual-event-Accelerate-Time-to-Insight-with-Azure-Synapse-Analytics-Registration.html?ocid=AID2482920_QSG_373413)
+
+**Microsoft 如何更改 BI 数据保护**
+<br>作者：Anton Fritz 和 Adi Regev
+<br>[注册后即可观看 12 月 4 日的节目](https://info.microsoft.com/ww-landing-How-Microsoft-Is-Changing-BI-Data-Protection.html?lcid=EN-US)
 
 >[Power BI 社区即将举行的网络研讨会](https://powerbi.microsoft.com/blog/tag/community-webinars/?Is=Website)
 

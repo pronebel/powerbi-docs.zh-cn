@@ -1,25 +1,31 @@
 ---
-title: 远程配置 iOS 移动应用对报表服务器的访问权限
-description: 了解如何为报表服务器远程配置 iOS 移动应用。
-author: maggiesMSFT
+title: 远程配置移动应用对报表服务器的访问权限
+description: 了解如何为报表服务器远程配置移动应用。
+author: paulinbar
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
-ms.date: 08/08/2019
-ms.author: maggies
-ms.openlocfilehash: ab9f7c2559038505b5507d4a87b50933e7b0b041
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.date: 11/07/2019
+ms.author: painbar
+ms.openlocfilehash: b84d7a23cf947b18302c761ff5f78143bf3356aa
+ms.sourcegitcommit: 50c4bebd3432ef9c09eacb1ac30f028ee4e66d61
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73874213"
+ms.lasthandoff: 11/12/2019
+ms.locfileid: "73925902"
 ---
-# <a name="configure-power-bi-ios-mobile-app-access-to-a-report-server-remotely"></a>远程配置 Power BI iOS 移动应用对报表服务器的访问权限
+# <a name="configure-power-bi-mobile-app-access-to-report-server-remotely"></a>远程配置 Power BI 移动应用对报表服务器的访问权限
 
-在本文中，可了解如何使用组织的 MDM 工具来配置 Power BI iOS 移动应用对报表服务器的访问权限。 若要配置该权限，IT 管理员将创建应用配置策略，指定要推送到应用的必要信息。 
+适用于：
 
- 配置报表服务器连接后，Power BI iOS 移动应用用户就可以更轻松地连接到其组织的报表服务器。 
+| ![iPhone](./media/configure-powerbi-mobile-apps-remote/ios-logo-40-px.png) | ![Android 手机](./media/configure-powerbi-mobile-apps-remote/android-logo-40-px.png) |
+|:--- |:--- |
+| iOS |Android |
+
+在本文中，可了解如何使用组织的 MDM 工具来配置 Power BI 移动应用对报表服务器的访问权限。 若要配置该权限，IT 管理员将创建应用配置策略，指定要推送到应用的必要信息。 
+
+ 配置报表服务器连接后，Power BI 移动应用用户就可以更轻松地连接到其组织的报表服务器。 
 
 ## <a name="create-the-app-configuration-policy-in-mdm-tool"></a>在 MDM 工具中创建应用配置策略 
 
@@ -43,19 +49,19 @@ ms.locfileid: "73874213"
 
 ![Intune 配置设置](media/configure-powerbi-mobile-apps-remote/power-bi-ios-remote-configuration-settings.png)
 
-## <a name="end-users-connecting-to-a-report-server"></a>最终用户连接到报表服务器
+## <a name="end-users-connecting-to-report-server"></a>最终用户连接到报表服务器
 
- 假设你发布了通讯组列表的应用配置策略。 当该通讯组列表上的用户和设备启动 iOS 移动应用时，他们将有如下体验。 
+ 假设你发布了通讯组列表的应用配置策略。 当该通讯组列表上的用户和设备启动移动应用时，他们将有如下体验。 
 
-1. 他们将看到一条消息，表示已为移动应用配置报表服务器，然后点击“登录”  。
+1. 他们将看到一条消息（表示已为其移动应用配置报表服务器），然后点击“登录”。
 
     ![登录报表服务器](media/configure-powerbi-mobile-apps-remote/power-bi-config-server-sign-in.png)
 
-2.  在“连接到服务器”页上，已填写报表服务器详细信息  。 他们将点击“连接”  。
+2.  在“连接到服务器”页上，已填写报表服务器详细信息。 他们将点击“连接”。
 
     ![已填写报表服务器详细信息](media/configure-powerbi-mobile-apps-remote/power-bi-ios-remote-configure-connect-server.png)
 
-3. 他们将键入密码进行身份验证，然后点击“登录”  。 
+3. 他们将键入密码进行身份验证，然后点击“登录”。 
 
     ![已填写报表服务器详细信息](media/configure-powerbi-mobile-apps-remote/power-bi-config-server-address.png)
 

@@ -1,32 +1,32 @@
 ---
-title: Power BI iOS 应用配置设置
-description: 如何使用 MDM 工具自定义 iOS 版 Power BI 的行为
+title: Power BI 应用配置设置
+description: 如何使用 MDM 工具自定义 Power BI 的行为
 author: paulinbar
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: conceptual
-ms.date: 06/07/2019
-ms.author: mshenhav
-ms.openlocfilehash: c2d619489b042e523c559a16dab249b268389cd5
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.date: 11/07/2019
+ms.author: painbar
+ms.openlocfilehash: 7ed763d6c87e4b93ebecc474c9059ba83245368a
+ms.sourcegitcommit: 50c4bebd3432ef9c09eacb1ac30f028ee4e66d61
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73879431"
+ms.lasthandoff: 11/12/2019
+ms.locfileid: "73925785"
 ---
-# <a name="remotely-configure-power-bi-ios-app-using-mobile-device-management-mdm-tool"></a>使用移动设备管理 (MDM) 工具远程配置 Power BI iOS 应用
+# <a name="remotely-configure-power-bi-app-using-mobile-device-management-mdm-tool"></a>使用移动设备管理 (MDM) 工具远程配置 Power BI 应用
 
-适用于 iOS 的 Power BI 移动版应用支持应用设置，Office 365 和移动设备管理 (MDM) 工具（例如 Intune）的管理员可通过应用设置自定义应用的行为。
+适用于 iOS 和 Android 的 Power BI 移动版应用支持应用设置，Office 365 和移动设备管理 (MDM) 服务（例如 Intune）的管理员可通过应用设置自定义应用的行为。
 
-适用于 iOS 的 Power BI 移动版应用支持以下配置方案：
+Power BI 移动版应用支持以下配置方案：
 
-- 报表服务器配置
-- 数据保护设置
+- 报表服务器配置（iOS 和 Android）
+- 数据保护设置 (iOS)
 
-## <a name="report-server-configuration"></a>报表服务器配置
+## <a name="report-server-configuration-ios-and-android"></a>报表服务器配置（iOS 和 Android）
 
-Power BI iOS 应用允许管理员使用已注册的设备远程“推送”报表服务器配置。
+适用于 iOS 和 Android 的 Power BI 应用允许管理员将报表服务器配置远程“推送”到注册设备。
 
 | 密钥 | 类型 | 说明 |
 |---|---|---|
@@ -35,9 +35,9 @@ Power BI iOS 应用允许管理员使用已注册的设备远程“推送”报�
 | com.microsoft.powerbi.mobile.ServerDisplayName | 字符串 | [可选]<br><br>默认值为“报表服务器”<br><br>应用中用于表示服务器的易记名称。 |
 | com.microsoft.powerbi.mobile.OverrideServerDetails | 布尔 | [可选]<br><br>默认值为 True。 设置为 True 时，它会替代移动设备中已有的任何报表服务器定义。 已删除已配置的现有服务器。 将“替代”设置为 True 还可防止用户删除该配置。<br><br>设置为“False”将添加推送值，并保留任何现有设置。 如果已在移动应用中配置相同的服务器 URL，则应用将按原样保留该配置。 应用不会要求用户重新验证同一服务器。 |
 
-## <a name="data-protection-setting"></a>数据保护设置
+## <a name="data-protection-settings-ios"></a>数据保护设置 (iOS)
 
-Power BI iOS 应用使管理员能够自定义安全和隐私设置的默认配置。 可强制用户在访问 Power BI 应用时提供其 Face ID、Touch ID 或密码。
+适用于 iOS 的 Power BI 应用使管理员能够自定义安全和隐私设置的默认配置。 可强制用户在访问 Power BI 应用时提供其 Face ID、Touch ID 或密码。
 
 | 密钥 | 类型 | 说明 |
 |---|---|---|
@@ -45,21 +45,17 @@ Power BI iOS 应用使管理员能够自定义安全和隐私设置的默认配�
 
 ## <a name="deploying-app-configuration-settings"></a>部署应用配置设置
 
-可通过以下步骤创建应用配置策略。 创建配置策略后，可以将其设置分配给用户组。
+以下是创建应用配置策略所需的步骤。 创建配置策略后，可以将其设置分配给用户组。
 
 1. 连接 MDM 工具。
-
 2. 创建并命名新的应用配置策略。
-
 3. 选择要将此应用配置策略分发到的用户。
-
 4. 为想要推送给用户的设置创建键值对。
 
-借助 Intune 门户，管理员可以通过应用配置策略轻松地将这些设置部署到 Power BI iOS 应用。
-但是，任何 MDM 提供商都受到支持。 如果未使用 Intune，则需要参考有关如何部署这些设置的 MDM 文档。
+借助 Intune 门户，管理员可以通过应用配置策略轻松地将这些设置部署到 Power BI 应用。 但是，任何 MDM 提供商都受到支持。 如果未使用 Intune，则需要参考有关如何部署这些设置的 MDM 文档。
 
 ## <a name="next-steps"></a>后续步骤
 
-* 下载 [Power BI iPhone 移动应用](https://go.microsoft.com/fwlink/?LinkId=522062)
+* 从 [App Store]("https://apps.apple.com/app/microsoft-power-bi/id929738808) 和 [Google Play](https://play.google.com/store/apps/details?id=com.microsoft.powerbim&amp;amp;clcid=0x409) 获取 Power BI 移动版
 * 关注 [Twitter 上的 @MSPowerBI](https://twitter.com/MSPowerBI)
 * 加入 [Power BI 社区](https://community.powerbi.com/)的对话
