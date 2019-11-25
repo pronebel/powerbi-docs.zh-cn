@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 10/24/2019
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: 225c21693c9f100d9abbfc310b957bee7a909061
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 64e9ff8f4952abe79a62b6b805596554b32aa6c9
+ms.sourcegitcommit: c395fe83d63641e0fbd7c98e51bbab224805bbcc
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73881358"
+ms.lasthandoff: 11/21/2019
+ms.locfileid: "74265451"
 ---
 # <a name="power-bi-for-us-government-customers"></a>适用于美国政府客户的 Power BI
 **Power BI 服务**有一个可供美国政府客户使用的版本，作为 **Office 365 美国政府社区**订阅的一部分。 本文中讨论的 **Power BI 服务**版本是为美国政府客户专门设计的，独立且不同于 **Power BI 服务**的商业版本。
@@ -55,7 +55,6 @@ Azure 分布在多个云中。 默认情况下，租户可以打开对云专属�
 *  在 SharePoint Online 中嵌入 - 不能使用 Power BI Web 部件在 SharePoint Online 中嵌入内容。 但，确实可以使用[嵌入 Web 部件](https://docs.microsoft.com/power-bi/service-embed-secure)安全的嵌入内容  。 必须将 app.powerbigov.us 添加到例外列表中，可以按[允许或限制在 SharePoint 页面上嵌入内容的功能](https://support.office.com/article/allow-or-restrict-the-ability-to-embed-content-on-sharepoint-pages-e7baf83f-09d0-4bd1-9058-4aa483ee137b)一文中的说明添加  。
 * **Power BI 美国政府版**仅可用作 **Pro** 许可证。 在管理门户中（或作为用户）对 Power BI（免费版）许可证的所有引用均在商业版 Power BI 服务云中运行。
 * **审核** - 自 2018 年 6 月起，可通过 Office 365 安全与合规门户进行审核。
-* **Cortana 中的 Power BI 内容** - Power BI 结果不会显示在 Cortana 搜索结果中，包括 Power BI 内容（仪表板、报表、应用）结果，以及显示特定关键字的 Cortana 优化报表页的结果。
 * **外部用户共享** - 允许在 Power BI 租户内共享；自 2018 年 6 月起，也可与 Power BI 租户外部用户共享。 请参阅[使用 Azure AD B2B 将 Power BI 内容分发给外部来宾用户](service-admin-azure-ad-b2b.md)。
 * **仪表板和报表的使用情况指标** - 使用情况指标不适用于报表和仪表板。 客户可以使用审核日志数据，获取其组织内的内容的使用情况信息。
 * **数据流** - 数据流不可用。
@@ -103,7 +102,7 @@ Azure 分布在多个云中。 默认情况下，租户可以打开对云专属�
 
 * [注册适用于美国政府的 Power BI](service-govus-signup.md)
 * <a href="https://channel9.msdn.com/Blogs/Azure/Cognitive-Services-HDInsight-and-Power-BI-on-Azure-Government">Power BI 美国政府版演示</a>
-* [Power BI 的引导学习](guided-learning/index.md)
+* [Power BI 的引导学习](guided-learning/index.yml)
 * [Power BI 服务入门](service-get-started.md)
 * [什么是 Power BI Desktop？](desktop-what-is-desktop.md)
 

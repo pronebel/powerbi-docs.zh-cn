@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: 7d432f8320bfa9d1e425e7f0079407ce46b12373
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 4459ae95ccd900b0592dbae1048800bcd4609307
+ms.sourcegitcommit: 57ec4d51744b89bd695e6c62184c21342f2eae83
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73872288"
+ms.lasthandoff: 11/19/2019
+ms.locfileid: "74178250"
 ---
 # <a name="frequently-asked-questions-for-power-bi-for-germany-cloud-customers"></a>适用于德国云客户的 Power BI 常见问题解答
 **Power BI 服务**具有可用于欧盟/欧洲自由贸易协议 (EU/EFTA) 客户的版本，通常称为 Microsoft Cloud Deutschland (MCD)。 本文中讨论的 **Power BI 服务**版本是为欧盟/EFTA 客户专门设计的，独立且不同于 **Power BI 服务**的商业版本或为政府客户提供的 Power BI 服务。
@@ -73,7 +73,7 @@ ms.locfileid: "73872288"
 ## <a name="next-steps"></a>后续步骤
 你可以使用 Power BI 执行各种操作。 有关更多信息和学习资料（包括介绍如何注册服务的文章），请查看以下资源：
 
-* [Power BI 的引导学习](guided-learning/index.md)
+* [Power BI 的引导学习](guided-learning/index.yml)
 * [Power BI 服务入门](service-get-started.md)
 * [什么是 Power BI Desktop？](desktop-what-is-desktop.md)
 

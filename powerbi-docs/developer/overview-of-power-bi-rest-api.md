@@ -1,19 +1,19 @@
 ---
 title: 借助 Power BI API 可以做什么
 description: 借助 Power BI API 可以做什么
-author: rkarlin
-ms.author: rkarlin
+author: KesemSharabi
+ms.author: kesharab
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 03/25/2019
-ms.openlocfilehash: 8a231a426823d40be34e900a32d06e5d5f77108b
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: bbca4e5bf52ee0d4674cfcdc28edd53e90033a98
+ms.sourcegitcommit: c395fe83d63641e0fbd7c98e51bbab224805bbcc
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73880488"
+ms.lasthandoff: 11/21/2019
+ms.locfileid: "74265231"
 ---
 # <a name="what-can-developers-do-with-the-power-bi-api"></a>开发人员可以使用 Power BI API 做什么？
 

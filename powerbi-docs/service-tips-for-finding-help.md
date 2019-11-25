@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 06/28/2018
 ms.author: maggies
 LocalizationGroup: Get started
-ms.openlocfilehash: ee272f32dbce4630f8b834187e05fda5739df7be
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 10540ed49064b9e28543ce46b43d8bb2d9ca6cf7
+ms.sourcegitcommit: 57ec4d51744b89bd695e6c62184c21342f2eae83
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73876949"
+ms.lasthandoff: 11/19/2019
+ms.locfileid: "74178230"
 ---
 # <a name="10-tips-for-getting-help-with-your-power-bi-questions"></a>有关获取 Power BI 问题解答的 10 个提示
 使用 Power BI 时，是否会因遇到的 Power BI 问题得不到及时解答（即“实时”帮助）感到灰心失望或很费劲？ 
@@ -44,7 +44,7 @@ Power BI 团队在其 [Power BI 博客文章](https://powerbi.microsoft.com/blog
 ## <a name="6-attend-training"></a>提示 6：参加培训
 我们提供近乎无限的海量培训选项，从面对面实验室培训到简短视频培训，无所不包。
 
-* Power BI 网站上的[引导式学习](guided-learning/index.md)。
+* Power BI 网站上的[引导式学习](guided-learning/index.yml)。
 * Power BI 网站上可点播的现场[免费 Power BI 在线讲座](webinars.md)。
 
 还可以在网上找到其他培训选项，例如：

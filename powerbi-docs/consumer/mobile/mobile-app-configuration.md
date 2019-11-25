@@ -8,12 +8,12 @@ ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 11/07/2019
 ms.author: painbar
-ms.openlocfilehash: 7ed763d6c87e4b93ebecc474c9059ba83245368a
-ms.sourcegitcommit: 50c4bebd3432ef9c09eacb1ac30f028ee4e66d61
+ms.openlocfilehash: a517ee4edce6e18eadcbe2b1b6765684f8121b21
+ms.sourcegitcommit: 768e1e4b19fe8c7627010127c2420d63021cb542
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/12/2019
-ms.locfileid: "73925785"
+ms.lasthandoff: 11/20/2019
+ms.locfileid: "74199423"
 ---
 # <a name="remotely-configure-power-bi-app-using-mobile-device-management-mdm-tool"></a>使用移动设备管理 (MDM) 工具远程配置 Power BI 应用
 
@@ -56,6 +56,6 @@ Power BI 移动版应用支持以下配置方案：
 
 ## <a name="next-steps"></a>后续步骤
 
-* 从 [App Store]("https://apps.apple.com/app/microsoft-power-bi/id929738808) 和 [Google Play](https://play.google.com/store/apps/details?id=com.microsoft.powerbim&amp;amp;clcid=0x409) 获取 Power BI 移动版
+* 从 [App Store](https://apps.apple.com/app/microsoft-power-bi/id929738808) 和 [Google Play](https://play.google.com/store/apps/details?id=com.microsoft.powerbim&amp;amp;clcid=0x409) 获取 Power BI 移动版
 * 关注 [Twitter 上的 @MSPowerBI](https://twitter.com/MSPowerBI)
 * 加入 [Power BI 社区](https://community.powerbi.com/)的对话

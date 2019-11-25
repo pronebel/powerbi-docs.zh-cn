@@ -1,19 +1,19 @@
 ---
 title: Power BI Embedded 迁移工具
 description: 此迁移工具可用于将报表从 Power BI Embedded Azure 服务 (PaaS) 复制到 Power BI 服务 (SaaS)。
-author: rkarlin
-ms.author: rkarlin
+author: KesemSharabi
+ms.author: kesharab
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 06/30/2018
-ms.openlocfilehash: 2970744f89bf8fdc115be018d00c8f5b73d9ddfc
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 01f79bfaae13b60d3c63abd8f7fc801998075ee6
+ms.sourcegitcommit: c395fe83d63641e0fbd7c98e51bbab224805bbcc
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73880576"
+ms.lasthandoff: 11/21/2019
+ms.locfileid: "74265264"
 ---
 # <a name="power-bi-embedded-migration-tool"></a>Power BI Embedded 迁移工具
 

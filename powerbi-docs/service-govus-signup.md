@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: c24ed4b605b0e0d8176fc5428d6c30aa2dd131cd
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 7edfe46173b1d9b2537c5fd980b245af09fd1f53
+ms.sourcegitcommit: 57ec4d51744b89bd695e6c62184c21342f2eae83
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73872253"
+ms.lasthandoff: 11/19/2019
+ms.locfileid: "74178285"
 ---
 # <a name="enroll-your-us-government-organization-in-the-power-bi-service"></a>在 Power BI 服务中注册你的美国政府组织
 **Power BI 服务**有一个可供美国政府客户使用的版本，作为 **Office 365 美国政府社区**订阅的一部分。 本文中讨论的 Power BI 服务  版本是为美国政府客户设计的，独立且不同于 Power BI 服务  的商业版本。
@@ -122,7 +122,7 @@ ms.locfileid: "73872253"
 你可以使用 Power BI 执行各种操作。 有关更多信息和学习资料（包括介绍如何注册服务的文章），请查看以下资源：
 
 * [适用于美国政府的 Power BI 的概述](service-govus-overview.md)
-* [Power BI 的引导学习](guided-learning/index.md)
+* [Power BI 的引导学习](guided-learning/index.yml)
 * [Power BI 服务入门](service-get-started.md)
 * [什么是 Power BI Desktop？](desktop-what-is-desktop.md)
 
