@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 11/11/2019
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: 8ae5e8e348c982c7e1dffd469e180f4353910bf3
-ms.sourcegitcommit: 08b73af260ded51daaa6749338cb85db2eab587f
+ms.openlocfilehash: 228bc9a7c6d02b5c2cdf34178c7b023c78fa23ea
+ms.sourcegitcommit: 7f27b9eb0e001034e672050735ab659b834c54a3
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/15/2019
-ms.locfileid: "74099503"
+ms.lasthandoff: 11/22/2019
+ms.locfileid: "74310822"
 ---
 # <a name="previous-monthly-updates-to-power-bi-desktop"></a>此前的 Power BI Desktop 月度更新
 
@@ -1503,7 +1503,7 @@ ms.locfileid: "74099503"
 ### <a name="reporting"></a>报表：
 
 -   添加书签（预览）[[视频]](https://youtu.be/jksjtR8GnBE?t=1m47s) [[博客]](https://powerbi.microsoft.com/blog/power-bi-desktop-october-2017-feature-summary/#bookmarking) [[文章]](desktop-bookmarks.md)
--   选择窗格和视觉对象显示控件 [[视频]](https://youtu.be/jksjtR8GnBE?t=7m26s) [[博客]](https://powerbi.microsoft.com/blog/power-bi-desktop-october-2017-feature-summary/#selectionPane) [[文章]](desktop-bookmarks.md#visibility---using-the-selection-pane) 
+-   选择窗格和视觉对象显示控件 [[视频]](https://youtu.be/jksjtR8GnBE?t=7m26s) [[博客]](https://powerbi.microsoft.com/blog/power-bi-desktop-october-2017-feature-summary/#selectionPane) [[文章]](desktop-bookmarks.md#visibility-using-the-selection-pane) 
 -   图形和图像的书签关联 [[视频]](https://youtu.be/jksjtR8GnBE?t=8m54s) [[博客]](https://powerbi.microsoft.com/blog/power-bi-desktop-october-2017-feature-summary/#links) [[文章]](desktop-bookmarks.md#bookmarks-for-shapes-and-images)
 -   聚焦 [[视频]](https://youtu.be/jksjtR8GnBE?t=5m39s) [[博客]](https://powerbi.microsoft.com/blog/power-bi-desktop-october-2017-feature-summary/#spotlight) [[文章]](desktop-bookmarks.md#using-spotlight)
 -   散点图和气泡标记 [[视频]](https://youtu.be/jksjtR8GnBE?t=17m20s) [[博客]](https://powerbi.microsoft.com/blog/power-bi-desktop-october-2017-feature-summary/#markers) [[文章]](desktop-accessibility.md)

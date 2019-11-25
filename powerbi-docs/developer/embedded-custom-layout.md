@@ -1,19 +1,19 @@
 ---
 title: 包含 Power BI 嵌入式内容的自定义布局
 description: 了解在应用程序中嵌入 Power BI 内容时的自定义布局。
-author: rkarlin
-ms.author: rkarlin
+author: KesemSharabi
+ms.author: kesharab
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 12/19/2017
-ms.openlocfilehash: cae661641149554a7ecedabda322eb3b181b7f1a
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 7776de3cf6704e51cbed85bf8c772b6391531403
+ms.sourcegitcommit: c395fe83d63641e0fbd7c98e51bbab224805bbcc
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73875848"
+ms.lasthandoff: 11/21/2019
+ms.locfileid: "74264471"
 ---
 # <a name="custom-layouts"></a>自定义布局
 
@@ -43,7 +43,6 @@ interface ICustomLayout {
 enum PageSizeType {
   Widescreen,
   Standard,
-  Cortana,
   Letter,
   Custom
 }

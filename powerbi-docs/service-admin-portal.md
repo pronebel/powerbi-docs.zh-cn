@@ -10,12 +10,12 @@ ms.date: 09/25/2019
 ms.author: mblythe
 ms.custom: seodec18
 LocalizationGroup: Administration
-ms.openlocfilehash: 9970d676019bb253471da48ce3e9019e211ba6c5
-ms.sourcegitcommit: 01de0b01f66f28ca45b8d309d7864f261d6c9a85
+ms.openlocfilehash: bb842128c26161d2f8da2961c6f014b9ecb45fc5
+ms.sourcegitcommit: c395fe83d63641e0fbd7c98e51bbab224805bbcc
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/16/2019
-ms.locfileid: "74128379"
+ms.lasthandoff: 11/21/2019
+ms.locfileid: "74265896"
 ---
 # <a name="administering-power-bi-in-the-admin-portal"></a>在管理门户中管理 Power BI
 
@@ -278,13 +278,6 @@ Azure B2B 来宾用户可以编辑和管理组织中的内容。 [了解详细�
 
 ## <a name="integration-settings"></a>集成设置
 
-### <a name="ask-questions-about-data-using-cortana"></a>使用 Cortana 询问有关数据的问题
-
-组织中的用户可以使用 Cortana 询问有关其数据的问题。 [了解详细信息](service-cortana-enable.md)
-
-> [!NOTE]
-> 此设置应用于整个组织，并且不能限制为特定组。
-
 ### <a name="use-analyze-in-excel-with-on-premises-datasets"></a>结合使用“在 Excel 中分析”功能和本地数据集
 
 组织中的用户可以使用 Excel 查看本地 Power BI 数据集，并与其进行交互。 [了解详细信息](service-analyze-in-excel.md)
@@ -298,7 +291,7 @@ Azure B2B 来宾用户可以编辑和管理组织中的内容。 [了解详细�
 
 ### <a name="use-global-search-for-power-bi-preview"></a>使用 Power BI（预览版）的全局搜索
 
-组织中的用户可以使用依赖于 Azure 搜索的的外部搜索功能。 例如，用户可以使用 Cortana 直接从 Power BI 仪表板和报表检索关键信息。 [了解详细信息](service-cortana-intro.md)
+组织中的用户可以使用依赖于 Azure 搜索的的外部搜索功能。
 
 ## <a name="custom-visuals-settings"></a>自定义视觉对象设置
 

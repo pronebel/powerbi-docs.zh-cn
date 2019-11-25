@@ -1,19 +1,19 @@
 ---
 title: Power BI API 将自动保留策略用于实时数据
 description: 了解 Power BI 服务的自动保留策略
-author: rkarlin
-ms.author: rkarlin
+author: KesemSharabi
+ms.author: kesharab
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 06/08/2018
-ms.openlocfilehash: e2d81ac67ea5c070f31315a381b42e3a1379a49b
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: cdbf50ee5078eaade7794242b3ed522e043cab22
+ms.sourcegitcommit: c395fe83d63641e0fbd7c98e51bbab224805bbcc
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73865067"
+ms.lasthandoff: 11/21/2019
+ms.locfileid: "74265851"
 ---
 # <a name="automatic-retention-policy-for-real-time-data"></a>实时数据的自动保留策略
 

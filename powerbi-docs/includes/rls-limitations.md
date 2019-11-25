@@ -4,12 +4,12 @@ ms.service: powerbi
 ms.topic: include
 ms.date: 09/13/2019
 ms.author: mblythe
-ms.openlocfilehash: b2be085c48b303304d46ea93c272e6a860143c51
-ms.sourcegitcommit: a97c0c34f888e44abf4c9aa657ec9463a32be06f
+ms.openlocfilehash: c658e683e86a899d45728220dee3706a0d617f0f
+ms.sourcegitcommit: c395fe83d63641e0fbd7c98e51bbab224805bbcc
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/17/2019
-ms.locfileid: "71074834"
+ms.lasthandoff: 11/21/2019
+ms.locfileid: "74284079"
 ---
 ## <a name="limitations"></a>限制
 
@@ -20,8 +20,6 @@ ms.locfileid: "71074834"
 * 只能在使用 Power BI Desktop 创建的数据集上定义 RLS。 若想为使用 Excel 创建的数据集启用 RLS，首先必须将你的文件转换为 Power BI Desktop (PBIX) 文件。 [了解详细信息](../desktop-import-excel-workbooks.md)
 
 * 仅支持 ETL 和 DirectQuery 连接。 在本地模型上处理到 Analysis Services 的实时连接。
-
-* Cortana 目前不受 RLS 的支持。
 
 ## <a name="known-issues"></a>已知问题
 
