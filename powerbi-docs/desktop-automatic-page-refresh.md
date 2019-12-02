@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/14/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 4c2217495ee8b735bc600c9b803897a408495472
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: b9f7c745ad251fdb81c7898130cd3ca6c5d32af9
+ms.sourcegitcommit: c839ef7437bc8fb8f7eeda23e59d05c7192a7fe8
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73878769"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "74164153"
 ---
 # <a name="automatic-page-refresh-in-power-bi-desktop-preview"></a>Power BI Desktop 中的自动页面刷新（预览）
 
@@ -105,9 +105,9 @@ Power BI Desktop 对刷新间隔没有限制；其刷新间隔可以是 1 秒。
 
 在 Power BI 服务中，基于工作区以及是否使用高级服务等因素应用自动页面刷新限制。
 
-为了阐明其工作原理，我们先了解一些[容量和工作区](whitepaper-powerbi-premium-deployment.md#capacities)背景知识
+为了阐明其工作原理，我们先了解一些容量和工作区背景知识：
 
-容量  是一个 Power BI 核心概念，表示用于托管和交付 Power BI 内容的一组资源（存储、处理器和内存）。 容量可以是共享容量，也可以是专用容量。 共享容量  与其他 Microsoft 客户共享，而专用容量  则完全委派给单个客户。 [高级容量](whitepaper-powerbi-premium-deployment.md#capacities)一文中介绍了专用容量。
+容量  是一个 Power BI 核心概念，表示用于托管和交付 Power BI 内容的一组资源（存储、处理器和内存）。 容量可以是共享容量，也可以是专用容量。 共享容量  与其他 Microsoft 客户共享，而专用容量  则完全委派给单个客户。 [管理高级容量](service-premium-capacity-manage.md)一文中介绍了专用容量。
 
 在共享容量中，工作负载可在与其他客户共享的计算资源上运行。 由于容量必须共享资源，因此会施加限制以确保“公平竞争”  ，如设置最大模型大小 (1 GB) 和每日最大刷新频率（每天 8 次）。
 
@@ -123,7 +123,7 @@ Power BI 工作区  驻留在容量内，它们代表安全、协作和部署容
 
  2. *最小刷新间隔*：启用此功能时，容量管理员必须设置最小刷新间隔。 如果你的间隔低于最小值，Power BI 服务将覆盖你的间隔，以遵循容量管理员设置的最小间隔。
 
-下表详细介绍了提供此功能的位置，以及针对每种容量类型和[存储模式](whitepaper-powerbi-premium-deployment.md#model-storage-modes)的限制
+下表详细介绍了提供此功能的位置，以及针对每种容量类型和[存储模式](service-dataset-modes-understand.md)的限制
 
 | 存储模式 | 专用容量 | 共享容量 |
 | --- | --- | --- |

@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/21/2019
 ms.author: maggies
 LocalizationGroup: Dashboards
-ms.openlocfilehash: e26b50d571cfffeae1c93f37e715eca24ff4f12e
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 8f5d11b53526c5d266b96a8f21c42fecc66d3795
+ms.sourcegitcommit: c839ef7437bc8fb8f7eeda23e59d05c7192a7fe8
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73871559"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "74163766"
 ---
 # <a name="data-alerts-in-the-power-bi-service"></a>Power BI 服务中的数据警报
 
@@ -23,7 +23,7 @@ ms.locfileid: "73871559"
 
 如果你拥有 Power BI Pro 许可证，则可以在磁贴上设置警报。 如果有人共享具有 [Premium 容量](service-premium-what-is.md)的仪表板，你也可以设置警报。 只能为报表视觉对象固定到的磁贴设置警报，而且只能为仪表、KPI 和卡片设置警报。 可以在从报表固定到仪表板的流数据集创建的视觉对象上设置警报。 不能对使用“添加磁贴” > “自定义流式处理数据”在仪表板上直接创建的流式处理磁贴上设置警报   。
 
-即使共享你的仪表板，也只有你可以看到自己设置的警报。 即使是仪表板所有者也看不到你在仪表板的视图上设置的警报。 数据警报跨平台完全同步；可以在 [Power BI 移动应用](consumer/mobile/mobile-set-data-alerts-in-the-mobile-apps.md)和 Power BI 服务中设置和查看数据警报。 它们对 Power BI Desktop 不可用。 甚至可以通过 Microsoft Flow 自动化和集成警报。 可在此 [Microsoft Flow 和 Power BI](service-flow-integration.md) 文章中亲自尝试执行操作。
+即使共享你的仪表板，也只有你可以看到自己设置的警报。 即使是仪表板所有者也看不到你在仪表板的视图上设置的警报。 数据警报跨平台完全同步；可以在 [Power BI 移动应用](consumer/mobile/mobile-set-data-alerts-in-the-mobile-apps.md)和 Power BI 服务中设置和查看数据警报。 它们对 Power BI Desktop 不可用。 甚至可以通过 Power Automate 自动化和集成警报。 可在此 [Power Automate 和 Power BI](service-flow-integration.md) 文章中亲自尝试执行操作。
 
 ![磁贴](media/service-set-data-alerts/powerbi-alert-types-new.png)
 
@@ -125,7 +125,7 @@ ms.locfileid: "73871559"
 
 ## <a name="next-steps"></a>后续步骤
 
-* [创建涵盖数据警报的 Microsoft Flow](service-flow-integration.md)。
+* [创建涵盖数据警报的 Power Automate](service-flow-integration.md)。
 
 * [在移动设备上设置数据警报](consumer/mobile/mobile-set-data-alerts-in-the-mobile-apps.md)。
 

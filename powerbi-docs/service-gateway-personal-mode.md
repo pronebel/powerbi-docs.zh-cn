@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 07/15/2019
 ms.author: mblythe
 LocalizationGroup: Gateways
-ms.openlocfilehash: 5138536fca255638e2cef802b885be1f5dfcbef9
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 8e6adb5c07c18a72d278b17e70fa7f06d1f6fd5f
+ms.sourcegitcommit: c839ef7437bc8fb8f7eeda23e59d05c7192a7fe8
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73881526"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "74164184"
 ---
 # <a name="use-personal-gateways-in-power-bi"></a>在 Power BI 中使用个人网关
 
@@ -31,7 +31,7 @@ ms.locfileid: "73881526"
 
 |   |本地数据网关 | 本地数据网关(个人模型) |
 | ---- | ---- | ---- |
-|支持的云服务 |Power BI、PowerApps、Azure 逻辑应用、Microsoft Flow、Azure Analysis Services、数据流 |Power BI |
+|支持的云服务 |Power BI、PowerApps、Azure 逻辑应用、Power Automate、Azure Analysis Services、数据流 |Power BI |
 |运行 |以由有权访问网关的用户配置的身份 |以你的身份进行 Windows 身份验证，以由你配置的用户身份进行其他类型的身份验证 |
 |只能以计算机管理员身份进行安装 |是 |否 |
 |集中式网关和数据源管理 |是 |否 |

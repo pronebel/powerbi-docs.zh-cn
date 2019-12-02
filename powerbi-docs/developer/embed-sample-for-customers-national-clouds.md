@@ -1,20 +1,20 @@
 ---
-title: 为政府和国家云客户将 Power BI 内容嵌入到应用程序的嵌入式分析
+title: 为政府和国家云将内容嵌入到应用程序
 description: 了解如何通过使用适用于嵌入式分析的 Power BI API，为客户将报表、仪表板或磁贴集成或嵌入到应用程序中。 了解如何使用嵌入式分析软件、嵌入式分析工具或嵌入式商业智能工具为政府和国家云将 Power BI 集成到应用程序。
-author: rkarlin
-ms.author: rkarlin
+author: KesemSharabi
+ms.author: kesharab
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: tutorial
 ms.custom: seodec18
 ms.date: 02/05/2019
-ms.openlocfilehash: 7ede1678dc6cf0e217eb17dcc28f756031467b84
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: b469cd4649a7acaef3a64eb0d3d8359e438e796f
+ms.sourcegitcommit: 7f27b9eb0e001034e672050735ab659b834c54a3
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73875889"
+ms.lasthandoff: 11/22/2019
+ms.locfileid: "74311105"
 ---
 # <a name="tutorial-embed-a-power-bi-content-into-your-application-for-national-clouds"></a>教程：将 Power BI 内容嵌入国家云的应用程序
 

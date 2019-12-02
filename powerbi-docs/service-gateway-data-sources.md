@@ -10,18 +10,18 @@ ms.date: 07/15/2019
 ms.author: mblythe
 ms.custom: seodec18
 LocalizationGroup: Gateways
-ms.openlocfilehash: 1966a9ea38f8ff9d1517b4df5ed0db1254ddf80d
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: cb28db10eecdc32f844e29c8beea178f08fbf920
+ms.sourcegitcommit: f1f57c5bc6ea3057007ed8636ede50188ed90ce1
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73881781"
+ms.lasthandoff: 11/23/2019
+ms.locfileid: "74410864"
 ---
 # <a name="manage-data-sources"></a>管理数据源
 
 [!INCLUDE [gateway-rewrite](includes/gateway-rewrite.md)]
 
-Power BI 支持多个本地数据源，每个都具有自己的要求。 网关可用于一个数据源，也可用于多个数据源。 对于此示例，我们演示如何将 SQL Server 添加为数据源。 类似步骤适用于其他数据源。
+Power BI 支持多个[本地数据源](power-bi-data-sources.md)，每个都具有自己的要求。 网关可用于一个数据源，也可用于多个数据源。 对于此示例，我们演示如何将 SQL Server 添加为数据源。 类似步骤适用于其他数据源。
 
 大多数数据源管理操作也可以使用 API 执行。 有关详细信息，请参阅 [REST API（网关）](/rest/api/power-bi/gateways)。
 
@@ -117,56 +117,7 @@ Power BI 支持多个本地数据源，每个都具有自己的要求。 网关�
 
 ## <a name="list-of-available-data-source-types"></a>可用数据源类型的列表
 
-本地数据网关支持 Power BI 的以下数据源。 除了本地数据源之外，防火墙、VPN 或虚拟网络后面的源可能也需要数据网关。
-
-| **数据源** | **实时/DirectQuery** | **手动或计划刷新（用户配置）** |
-| --- | --- | --- |
-| Amazon Redshift |是 |是 |
-| Analysis Services |是 |是 |
-| AtScale 多维数据集 |是 |是 |
-| Azure Active Directory |否 |是 |
-| Azure Blob 存储 |否 |是 |
-| Azure DevOps Server |否 |是 |
-| Azure 表存储 |否 |是 |
-| BI 连接器 |是 |是 |
-| Denodo |是 |是 |
-| Dremio |是 |是 |
-| EmigoDataSourceConnector |否 |是 |
-| Essbase |是 |是 |
-| Exasol |是 |是 |
-| 文件 |否 |是 |
-| 文件夹 |否 |是 |
-| Paxata |否 |是 |
-| IBM DB2 |是 |是 |
-| IBM Informix 数据库 |否 |是 |
-| IBM Netezza |是 |是 |
-| Impala |是 |是 |
-| Jethro ODBC |是 |是 |
-| Kyligence Enterprise |是 |是 |
-| MarkLogic ODBC |是 |是 |
-| Microsoft Graph Security |否 |是 |
-| MySQL |否 |是 |
-| ODBC |否 |是 |
-| OData |否 |是 |
-| OLE DB |否 |是 |
-| Oracle |是 |是 |
-| PostgreSQL |否 |是 |
-| QubolePresto |是 |是 |
-| Quick Base 连接器 |否 |是 |
-| SAP Business Warehouse 消息服务器 |是 |是 |
-| SAP Business Warehouse 服务器 |是 |是 |
-| SAP HANA |是 |是 |
-| SQL Server |是 |是 |
-| SharePoint |否 |是 |
-| Snowflake |是 |是 |
-| Spark |是 |是 |
-| SurveyMonkey |否 |是 |
-| Sybase |否 |是 |
-| TeamDesk.Database |否 |是 |
-| Teradata |是 |是 |
-| Vertica |是 |是 |
-| Web |否 |是 |
-| 工作人员维度 |否 |是 |
+有关本地数据网关支持哪些数据源的信息，请参阅 [Power BI 数据源](power-bi-data-sources.md)。
 
 ## <a name="next-steps"></a>后续步骤
 

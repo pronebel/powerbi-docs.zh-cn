@@ -9,12 +9,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 05/16/2019
 LocalizationGroup: Share your work
-ms.openlocfilehash: 9f8da4a5f37eb1e652dd2125dd588febf49fb01b
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 1fd640922f132f56a03b37ed59a6267a5af83d00
+ms.sourcegitcommit: 7f27b9eb0e001034e672050735ab659b834c54a3
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73871851"
+ms.lasthandoff: 11/22/2019
+ms.locfileid: "74311712"
 ---
 # <a name="publish-to-web-from-power-bi"></a>从 Power BI 发布到 Web
 
@@ -135,7 +135,8 @@ ms.locfileid: "73871851"
 - ArcGIS Maps for Power BI 视觉对象。
 - 包含报表级别 DAX 度量值的报表。
 - 单一登录数据查询模型。
-- [保护机密或专有信息](#publish-to-web-from-power-bi)。
+- 保护机密或专有信息。
+- [共享和经认证的数据集](service-datasets-share.md)。
 - 随“嵌入”  选项提供的自动身份验证功能不适用于 Power BI JavaScript API。 对于 Power BI JavaScript API，请使用[用户拥有数据](developer/embed-sample-for-your-organization.md)方法进行嵌入。
 
 ## <a name="tenant-setting"></a>租户设置

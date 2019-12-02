@@ -8,22 +8,20 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 09/24/2019
 ms.author: v-pemyer
-ms.openlocfilehash: 1ddcc94e2286c82f7e865a2a8012b9d407b3c171
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 01c3d7ac00ec4aa50373e36e1732d4eda55b280c
+ms.sourcegitcommit: f1f57c5bc6ea3057007ed8636ede50188ed90ce1
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73875358"
+ms.lasthandoff: 11/23/2019
+ms.locfileid: "74410792"
 ---
 # <a name="the-importance-of-query-folding"></a>查询折叠的重要性
 
 本文面向在 Power BI Desktop 中开发模型的数据建模人员。 它描述了什么是查询折叠，并且其为何重要。 它还介绍了可实现查询折叠的数据源和转换，以及如何确定可以折叠 Power Query 查询，无论全部还是部分折叠。 最后，它提供了关于何时以及如何实现查询折叠的最佳做法指南。
 
-## <a name="background"></a>背景
-
 查询折叠是 Power Query 查询提供的一种功能，用于生成一个单独查询语句以检索和转换源数据。 Power Query 糅合引擎尽力实现查询折叠，因为这会使最有效的路径将 Power BI 模型表连接到其基础数据源。
 
-折叠查询是数据建模的重要主题，原因如下：
+折叠查询是数据建模的重要概念，原因如下：
 
 - **导入模型表：** 根据资源利用率和刷新持续时间，数据刷新将在“导入模型表”中有效进行
 - **DirectQuery 和双存储模式表：** 每个 DirectQuery 和双存储模式表都必须基于可以折叠的 Power Query 查询
@@ -35,11 +33,11 @@ ms.locfileid: "73875358"
 
 ## <a name="sources-that-support-query-folding"></a>支持查询折叠的源
 
-具有查询语言概念的大多数数据源都支持查询折叠。 其中包括关系数据库、OData 数据源（包括 SharePoint 列表）、Exchange 和 Active Directory 域服务。 但是，平面文件、blob 和 Web 等数据源通常不支持查询折叠。
+具有查询语言概念的大多数数据源都支持查询折叠。 这些数据源包括关系数据库、OData 数据源（包括 SharePoint 列表）、Exchange 和 Active Directory 域服务。 但是，平面文件、blob 和 Web 等数据源通常不支持查询折叠。
 
 ## <a name="transformations-that-can-achieve-query-folding"></a>可以实现查询折叠的转换
 
-可折叠查询的关系数据源转换可以编写为单个 SELECT 语句。 可以使用适当的 WHERE、GROUP BY 和 JOIN 子句构造 SELECT 语句。 它还可以包含使用 SQL 数据集支持的通用内置函数的列表达式（计算）。
+可折叠查询的关系数据源转换可以写入单个 SELECT 语句。 可以使用适当的 WHERE、GROUP BY 和 JOIN 子句构造 SELECT 语句。 它还可以包含使用 SQL 数据集支持的通用内置函数的列表达式（计算）。
 
 通常，下面的项目符号列表描述了可折叠查询的转换。
 
@@ -60,7 +58,7 @@ ms.locfileid: "73875358"
 
 ## <a name="transformations-that-prevent-query-folding"></a>阻止查询折叠的转换
 
-通常，下面的项目符号列表描述了阻止折叠查询的转换。 这并不是一个详尽的列表。
+通常，下面的项目符号列表描述了阻止折叠查询的转换。 此列表并不详尽。
 
 - 基于不同源合并查询
 - 基于不同源追加（合并）查询
@@ -73,7 +71,7 @@ ms.locfileid: "73875358"
 - 添加索引列
 - 更改列数据类型
 
-请注意，Power Query 查询包含多个数据源时，数据源隐私级别的不兼容性会阻止查询折叠发生。 有关详细信息，请阅读 [Power BI Desktop 隐私级别](../desktop-privacy-levels.md)一文。
+当 Power Query 查询包含多个数据源时，数据源隐私级别的不兼容性会阻止查询折叠发生。 有关详细信息，请阅读 [Power BI Desktop 隐私级别](../desktop-privacy-levels.md)一文。
 
 ## <a name="determine-when-a-query-can-be-folded"></a>确定何时可以折叠查询
 
@@ -85,7 +83,7 @@ ms.locfileid: "73875358"
 
 ![本机查询示例](media/power-query-folding/native-query-example.png)
 
-如果未启用“查看本机查询”选项（显示为灰色），则表明所有查询步骤都无法折叠  。 但是，这可能意味着步骤的子集仍然可以折叠。 从最后一步开始倒退，可以检查每个步骤以查看是否启用了“查看本机查询”选项  。 如果是这种情况，那么你已经了解到，按照步骤顺序，无法再实现查询折叠。
+如果未启用“查看本机查询”选项（显示为灰色），则表明所有查询步骤都无法折叠  。 但是，这可能意味着步骤的子集仍然可以折叠。 从最后一步开始倒退，可以检查每个步骤以查看是否启用了“查看本机查询”选项  。 发生这种情况时，你已经了解到，按照步骤顺序，无法再实现查询折叠。
 
 ![确定 Power Query 不可以实现查询折叠的示例](media/power-query-folding/query-folding-not-example.png)
 
@@ -95,7 +93,7 @@ ms.locfileid: "73875358"
 
 下面的项目符号列表提供了最佳实践指南。
 
-- **尽可能多地委托处理数据源：** 如果无法折叠 Power Query 查询的所有步骤，请查找可防止查询折叠的步骤。 在可能的情况下，请按顺序将后续步骤提前，以便可以将它们纳入查询折叠中。 请注意，Power Query 糅合引擎可能足够聪明，可以在生成源查询时对查询步骤进行重新排序。
+- **尽可能多地委托处理数据源：** 如果无法折叠 Power Query 查询的所有步骤，请查找可防止查询折叠的步骤。 在可能的情况下，请按顺序将后续步骤提前，以便可以将它们纳入查询折叠中。 Power Query 糅合引擎可能足够聪明，可以在生成源查询时对查询步骤进行重新排序。
 
 对于关系数据源，如果可以在单个 SELECT 语句中或在存储过程的过程逻辑中实现防止查询折叠的步骤，请考虑使用本机查询语句，如下所述。
 
@@ -113,7 +111,7 @@ ms.locfileid: "73875358"
 
 ## <a name="next-steps"></a>后续步骤
 
-有关查询折叠和相关主题的详细信息，请查看以下资源：
+有关查询折叠和相关文章的详细信息，请查看以下资源：
 
 - [在 Power BI Desktop 中使用复合模型](../desktop-composite-models.md)
 - [Power BI Premium 中的增量刷新](../service-premium-incremental-refresh.md)

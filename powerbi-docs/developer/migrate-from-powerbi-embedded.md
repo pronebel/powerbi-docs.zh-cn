@@ -1,18 +1,18 @@
 ---
 title: 如何将 Power BI 工作区集合内容迁移到 Power BI
 description: 了解如何从 Power BI 工作区集合迁移到 Power BI Embedded，以及如何利用此改进功能在应用中嵌入内容。
-author: rkarlin
-ms.author: rkarlin
+author: KesemSharabi
+ms.author: kesharab
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 06/30/2018
-ms.openlocfilehash: f55a9f1bfc9454c7d5a4ee3755a10f7cde1b0fd6
-ms.sourcegitcommit: a5853ef44ed52e80eabee3757bb6887fa400b75b
+ms.openlocfilehash: 829724fb96b0122bc3bd2b346d8102947b0921f7
+ms.sourcegitcommit: 7f27b9eb0e001034e672050735ab659b834c54a3
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/07/2019
-ms.locfileid: "73780938"
+ms.lasthandoff: 11/22/2019
+ms.locfileid: "74311540"
 ---
 # <a name="how-to-migrate-power-bi-workspace-collection-content-to-power-bi-embedded"></a>如何将 Power BI 工作区集合内容迁移到 Power BI Embedded
 

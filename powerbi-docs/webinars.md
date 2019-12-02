@@ -8,12 +8,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 06/01/2019
 ms.author: v-tatero
-ms.openlocfilehash: bd6270731f79ac5a1e270ac36699470a0e6df978
-ms.sourcegitcommit: f7b28ecbad3e51f410eff7ee4051de3652e360e8
+ms.openlocfilehash: 3b90fcef50fc3f97a1a36e456eec254c422691a4
+ms.sourcegitcommit: c839ef7437bc8fb8f7eeda23e59d05c7192a7fe8
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/13/2019
-ms.locfileid: "74060453"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "74164247"
 ---
 # <a name="power-bi-webinars"></a>Power BI 网络研讨会
 
@@ -28,6 +28,10 @@ ms.locfileid: "74060453"
 **Microsoft 如何更改 BI 数据保护**
 <br>作者：Anton Fritz 和 Adi Regev
 <br>[注册后即可观看 12 月 4 日的节目](https://info.microsoft.com/ww-landing-How-Microsoft-Is-Changing-BI-Data-Protection.html?lcid=EN-US)
+
+**塑造大数据分析未来的九大趋势**
+<br>作者：Vijay Gopalakrishnan
+<br>[注册后即可观看 12 月 18 日的节目](https://info.microsoft.com/ww-landing-Nine-Trends-Shaping-the-Future-of-Big-Data-Analytics.html?Lcid=EN-US)
 
 >[Power BI 社区即将举行的网络研讨会](https://powerbi.microsoft.com/blog/tag/community-webinars/?Is=Website)
 
@@ -87,7 +91,7 @@ ms.locfileid: "74060453"
 
 ### <a name="getting-started"></a>入门
 
-**使用 Power BI、PowerApps 和 Microsoft Flow 自动化日常业务流程**
+**使用 Power BI、PowerApps 和 Power Automate 自动化日常业务流程**
 <br>作者：Wim Coorevits 和 Enrique Plaza Garcia
 <br>[注册并立即观看](https://info.microsoft.com/Automate-Day-to-Day-Business-Processes-with-Power-BI-Power-Apps-and-Microsoft-Flow-OnDemandRegistration.html)
 

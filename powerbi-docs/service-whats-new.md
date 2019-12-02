@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 10/22/2019
 ms.author: nikhilga
 LocalizationGroup: Get started
-ms.openlocfilehash: c470eba3998e04fde8c00c619077d5d8db444b42
-ms.sourcegitcommit: 08b73af260ded51daaa6749338cb85db2eab587f
+ms.openlocfilehash: 06e46413be709ac3eda2102332740d709092187e
+ms.sourcegitcommit: c395fe83d63641e0fbd7c98e51bbab224805bbcc
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/15/2019
-ms.locfileid: "74099732"
+ms.lasthandoff: 11/21/2019
+ms.locfileid: "74265339"
 ---
 # <a name="whats-new-in-the-power-bi-service"></a>Power BI 服务中的新功能
 请阅读此页，了解 Power BI 服务中的已知问题和最近发布的功能  。 有关相关的“新增功能”的信息，请参阅：
@@ -30,7 +30,7 @@ ms.locfileid: "74099732"
 * [Guy in a Cube (YouTube)](https://www.youtube.com/channel/UCFp1vaKzpfvoGai0vE5VJ0w)
 
 ### <a name="october-2019"></a>2019 年 10 月
-* 用于刷新 Power BI 数据集的新 Microsoft Flow 操作。
+* 用于刷新 Power BI 数据集的新 Power Automate 操作。
 * 适用于 Power BI 服务中报表和仪表板的[联系人信息](https://powerbi.microsoft.com/blog/announcing-new-contact-lists-for-reports-and-dashboards-in-the-power-bi-service/)。
 
 ## <a name="previous-months-2019"></a>前几个月 (2019)
@@ -227,7 +227,7 @@ ms.locfileid: "74099732"
 * Office 365 审核门户中的 [Power BI 审核日志](https://powerbi.microsoft.com/blog/power-bi-service-january-feature-summary/#auditlogs)面向全球推出。
 * 发布了 1.4 版的[开发人员工具和自定义可视化 API](https://powerbi.microsoft.com/blog/new-apis-available-for-custom-visuals-developers/)。
 * 公开发布了[实时流式处理功能集](https://powerbi.microsoft.com/blog/announcing-general-availability-of-power-bi-real-time-streaming-datasets/)。
-* [使用 Microsoft Flow 将数据推送到 Power BI](https://powerbi.microsoft.com/blog/push-rows-to-a-power-bi-streaming-dataset-without-writing-any-code-using-microsoft-flow/)，无需编写代码。
+* [使用 Power Automate 将数据推送到 Power BI](https://powerbi.microsoft.com/blog/push-rows-to-a-power-bi-streaming-dataset-without-writing-any-code-using-microsoft-flow/)，无需编写代码。
 * 预览：[订阅报表页](https://powerbi.microsoft.com/blog/introducing-email-subscriptions-in-power-bi-stay-informed-when-it-matters/)以便随时了解数据。
 * 使用 Azure AD 内容包深入了解你的员工和合作伙伴如何使用 Azure AD。
 
@@ -530,7 +530,6 @@ Power BI 团队在整个假期都在忙。 有关所有详细信息，[请访问
 
 * 通过 Quick Insights 自动发现趋势并揭示数据集中的模式：[视频](https://blogs.msdn.com/b/powerbi/archive/2015/12/02/power-bi-updates-from-browser-to-desktop-and-new-automated-insights-mf.aspx)或[文章](consumer/end-user-insights.md)
 * [可视化 Power BI 中的 VMob 数据](https://blogs.msdn.com/b/powerbi/archive/2015/11/25/visualize-your-vmob-data-in-power-bi.aspx)
-* [Power BI 与 Cortana 的集成](https://blogs.msdn.com/b/powerbi/archive/2015/12/01/announcing-power-bi-integration-with-cortana-and-new-ways-to-quickly-find-insights-in-your-data.aspx)
 * [Power BI 企业网关的预览](https://blogs.msdn.com/b/powerbi/archive/2015/12/02/announcing-preview-of-power-bi-gateway-for-enterprise-deployments.aspx)
 * 推出新的内容包：[Power BI 仪表板上的必应的搜索分析](https://blogs.msdn.com/b/powerbi/archive/2015/12/02/search-analytics-from-bing-on-your-power-bi-dashboards.aspx)
 * 新的针对开发人员的增强功能：[两个新的 API 和更方便的应用程序注册](https://blogs.msdn.com/b/powerbi/archive/2015/12/02/power-bi-for-developers-reports-api-and-a-simple-app-registration-experience.aspx)

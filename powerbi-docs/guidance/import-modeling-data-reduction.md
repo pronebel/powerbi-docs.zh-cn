@@ -8,12 +8,12 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 08/05/2019
 ms.author: v-pemyer
-ms.openlocfilehash: c61a21f400de009815ecb685f989b1cdafbcdb22
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 5560181f2fc52a02eebce274d88dc66517181517
+ms.sourcegitcommit: f1f57c5bc6ea3057007ed8636ede50188ed90ce1
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73875608"
+ms.lasthandoff: 11/23/2019
+ms.locfileid: "74410781"
 ---
 # <a name="data-reduction-techniques-for-import-modeling"></a>导入建模的数据缩减方法
 
@@ -24,11 +24,11 @@ ms.locfileid: "73875608"
 尽管 VertiPaq 存储引擎效率高，但务必最大程度地压缩将要加载到模型中的数据。 对于大型模型（或预计会随时间而变大的模型）尤其如此。 以下是四个令人信服的原因：
 
 - 容量可能不支持较大型的模型。 共享容量可以承载最多 1 GB 的模型，Premium 容量可以承载最多 13 GB 的模型。 有关详细信息，请参阅 [Power BI Premium 支持大型数据集](../service-premium-large-datasets.md)一文。
-- 较小型的模型可以减少对容量资源（尤其是内存）的争用。 这使得可以在更长的时间内同时加载更多的模型，从而降低逐出率。 有关详细信息，请参阅 [Power BI Premium 部署](../whitepaper-powerbi-premium-deployment.md)白皮书中的[容量如何运作](../whitepaper-powerbi-premium-deployment.md#how-capacities-function)主题。
+- 较小型的模型可以减少对容量资源（尤其是内存）的争用。 这使得可以在更长的时间内同时加载更多的模型，从而降低逐出率。 有关详细信息，请参阅[管理高级容量](../service-premium-capacity-manage.md)。
 - 较小型的模型可以更快地刷新数据，从而降低延迟报告、获得更高的数据集刷新吞吐量以及减少源系统和容量资源的压力。
 - 更小的表行数可以实现更快的计算评估，从而实现更优良的整体查询性能。
 
-本文介绍了 8 种不同的数据缩减方法。 其中包括：
+本文介绍了 8 种不同的数据缩减方法。 这些方法包括以下部分：
 
 - [删除不必要的列](#remove-unnecessary-columns)
 - [删除不必要的行](#remove-unnecessary-rows)
@@ -43,12 +43,12 @@ ms.locfileid: "73875608"
 
 模型表列有以下两个主要用途：
 
-- **报告**，用于实现报表设计，适当地筛选、分组和汇总模型数据
+- 报告，用于实现报表设计，适当地筛选、分组和汇总模型数据 
 - 通过支持模型关系、模型计算、安全角色甚至数据颜色格式设置实现模型构造 
 
 可能会删除不符合这些用途的列。 删除列称为垂直筛选  。
 
-建议根据已知的报表设计需求设计具有适当列数的模型。 当然，这些需求可能会随时间而变化，但请牢记，之后添加列比之后删除列更为轻松。 删除列可能会破坏报表或模型结构。
+建议根据已知的报表设计需求设计具有适当列数的模型。 你的需求可能会随时间而变化，但请牢记，之后添加列比之后删除列更为轻松。 删除列可能会破坏报表或模型结构。
 
 ## <a name="remove-unnecessary-rows"></a>删除不必要的行
 
@@ -62,7 +62,7 @@ ms.locfileid: "73875608"
 
 缩减模型大小的最有效方法可能是加载预汇总数据。 此方法可用于提高事实型表的粒度。 但它有明显的取舍，即细节丢失。
 
-例如，源销售事实数据表针对每个订单行存储一行。 通过汇总所有销售指标，以及按日期、客户和产品进行分组，可以显著减少数据。 那么请思考一下，按月份进行分组是否可以更为显著地减少数据  。 这可以将模型大小缩减 99%，但显然，不再可能设计日级别或单个订单级别的报表。 决定汇总事实型数据总是需要有所取舍。 混合模型设计可以减轻这种取舍，稍后将在[切换为混合模式](#switch-to-mixed-mode)主题中对此进行讨论。
+例如，源销售事实数据表针对每个订单行存储一行。 通过汇总所有销售指标，以及按日期、客户和产品进行分组，可以显著减少数据。 那么请思考一下，按月份进行分组是否可以更为显著地减少数据  。 这可以将模型大小缩减 99%，但不再可能设计日级别或单个订单级别的报表。 决定汇总事实型数据总是需要有所取舍。 混合模型设计可以减轻取舍，稍后将在[切换为混合模式](#switch-to-mixed-mode)方法中对此选项进行介绍。
 
 ## <a name="optimize-column-data-types"></a>优化列数据类型
 
@@ -94,7 +94,7 @@ Power BI Desktop 包含一个称为“自动日期/时间”的选项  。 启�
 
 在 Power BI Desktop 中，混合模式设计生成复合模型。 它基本上可以确定每个表的存储模式  。 因此，每个表均可将其“存储模式”属性设置为 Import 或 DirectQuery（Dual 是另一个选项）。
 
-减小模型大小的有效方法是将较大的事实型表的“存储模式”属性设置为 DirectQuery。 注意，此设计方法可以与前文所述的[分组依据和汇总](#group-by-and-summarize)主题很好地结合使用。 例如，汇总的销售数据可用于设计高性能的“汇总”报表。 钻取页面可以显示特定（和有限）筛选器上下文的粒度销售，显示上下文中的所有销售订单。 在本例中，钻取页面将包含 DirectQuery 表中的视觉对象，以便检索销售订单数据。
+减小模型大小的有效方法是将较大的事实型表的“存储模式”属性设置为 DirectQuery。 注意，此设计方法可以与前文所述的[分组依据和汇总](#group-by-and-summarize)方法很好地结合使用。 例如，汇总的销售数据可用于设计高性能的“汇总”报表。 钻取页面可以显示特定（和有限）筛选器上下文的粒度销售，显示上下文中的所有销售订单。 在本例中，钻取页面将包含 DirectQuery 表中的视觉对象，以便检索销售订单数据。
 
 但会导致许多与复合模型相关的安全性和性能影响。 有关详细信息，请参阅[在 Power BI Desktop 中使用复合模型](../desktop-composite-models.md)一文。
 
@@ -104,3 +104,4 @@ Power BI Desktop 包含一个称为“自动日期/时间”的选项  。 启�
 
 - [在 Power BI Desktop 中使用复合模型](../desktop-composite-models.md)
 - [Power BI Desktop 中的存储模式](../desktop-storage-mode.md)
+- 是否有任何问题? [尝试咨询 Power BI 社区](https://community.powerbi.com/)

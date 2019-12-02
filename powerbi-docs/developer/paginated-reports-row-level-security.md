@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 11/04/2019
-ms.openlocfilehash: f28ffa89647272306dc9cecb5c93928d36805d2a
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 4db1f887c1dd889a06c02643a0270cc24ab9c45f
+ms.sourcegitcommit: 7f27b9eb0e001034e672050735ab659b834c54a3
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73880473"
+ms.lasthandoff: 11/22/2019
+ms.locfileid: "74311511"
 ---
 # <a name="implementing-row-level-security-in-embedded-paginated-reports-preview"></a>在嵌入的分页报表中实现行级别安全性（预览）
 
@@ -30,7 +30,7 @@ ms.locfileid: "73880473"
 
 将参数分配到 UserID 后，使用 [Reports GenerateTokenForCreateInGroup](https://docs.microsoft.com/rest/api/power-bi/embedtoken/reports_generatetokenforcreateingroup) API 获取嵌入令牌  。
 
-## <a name="use-uderid-as-a-filter-at-report-or-query-level"></a>在报表或查询级别使用 UderID 作为筛选器
+## <a name="use-userid-as-a-filter-at-report-or-query-level"></a>在报表或查询级别使用 UderID 作为筛选器
 
 可以使用 UserId 作为筛选器，也可将其用于对 [Power BI 分页报表生成器](../report-builder-power-bi.md)中数据源的查询    。
 
@@ -66,7 +66,7 @@ ms.locfileid: "73880473"
 
     ![Power BI 报表生成器参数](media/embedded-paginated-reports-secure-data/parameters.png)
 
-2. 在“参数名称”中输入 @UserID，然后在“参数值”中添加 [&UserID]     。
+2. 在“参数名称”中输入“\@UserID”，然后在“参数值”中添加“[&UserID]”     。
 
     ![Power BI 报表生成器参数名](media/embedded-paginated-reports-secure-data/parameter-name.png) 
 

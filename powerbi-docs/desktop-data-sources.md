@@ -9,15 +9,16 @@ ms.topic: conceptual
 ms.date: 10/25/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: c363e63a7354c2a8c66099a98cb441ce2c94becf
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 88a49af62a26b64d8b913b6df03c82841f31a489
+ms.sourcegitcommit: f1f57c5bc6ea3057007ed8636ede50188ed90ce1
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73878366"
+ms.lasthandoff: 11/23/2019
+ms.locfileid: "74410951"
 ---
 # <a name="data-sources-in-power-bi-desktop"></a>Power BI Desktop 中的数据源
-使用 Power BI Desktop，你可以连接到来自许多不同的源的数据。 在此页面底部列出了可用数据源的完整清单。
+
+使用 Power BI Desktop，你可以连接到来自许多不同的源的数据。 有关可用数据源的完整列表，请参阅 [Power BI 数据源](power-bi-data-sources.md)。
 
 若要连接到数据，请在**主页**功能区中选择 **获取数据**。 选择向下箭头，或按钮上的“获取数据”文本，将会显示最常见的数据类型菜单，如下图所示   ：
 

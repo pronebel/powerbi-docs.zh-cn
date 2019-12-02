@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.topic: conceptual
 ms.subservice: powerbi-custom-visuals
 ms.date: 3/27/2019
-ms.openlocfilehash: 8d320b5fa1387ebf21ecd8c3c1db70b9892154e7
-ms.sourcegitcommit: 01de0b01f66f28ca45b8d309d7864f261d6c9a85
+ms.openlocfilehash: f8ca6aae805ae3184a1c54d8707fcb9a3cfd32e7
+ms.sourcegitcommit: c395fe83d63641e0fbd7c98e51bbab224805bbcc
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/16/2019
-ms.locfileid: "74128060"
+ms.lasthandoff: 11/21/2019
+ms.locfileid: "74265247"
 ---
 # <a name="publish-power-bi-visuals-to-appsource"></a>将 Power BI 视觉对象发布到 AppSource
 
@@ -25,7 +25,7 @@ ms.locfileid: "74128060"
 
 ## <a name="what-is-appsource"></a>什么是 AppSource？
 
-AppSource  是查找 Microsoft 产品和服务的 SaaS 应用与加载项的位置。 [AppSource](https://appsource.microsoft.com/marketplace/apps?product=power-bi-visuals) 为 Office 365、Dynamics 365、Cortana Intelligence 和其他产品的数百万用户提供解决方案，帮助他们更高效、更有见地或更为完美地完成工作。
+AppSource  是查找 Microsoft 产品和服务的 SaaS 应用与加载项的位置。 [AppSource](https://appsource.microsoft.com/marketplace/apps?product=power-bi-visuals) 为 Office 365、Dynamics 365 和其他产品的数百万用户提供解决方案，帮助他们更高效、更有见地或更为完美地完成工作。
 
 ## <a name="preparing-to-submit-your-custom-visual"></a>准备提交自定义视觉对象
 

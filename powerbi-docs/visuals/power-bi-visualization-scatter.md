@@ -2,20 +2,20 @@
 title: Power BI 中的散点图、气泡图和点图
 description: Power BI 中的散点图、点图和气泡图
 author: mihart
-ms.reviewer: ''
+ms.reviewer: amac
 featuredvideoid: PVcfPoVE3Ys
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 06/24/2019
+ms.date: 11/21/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 88db87b995f52aa51023bd465d349459e1dd2965
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: a03ac63caf8da96cd7e786c99c8a8dcd36f45a75
+ms.sourcegitcommit: 7f27b9eb0e001034e672050735ab659b834c54a3
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73870814"
+ms.lasthandoff: 11/22/2019
+ms.locfileid: "74311625"
 ---
 # <a name="scatter-charts-bubble-charts-and-dot-plot-charts-in-power-bi"></a>Power BI 中的散点图、气泡图和点图
 
@@ -131,13 +131,30 @@ ms.locfileid: "73870814"
     > [!NOTE]
     > 数据点越多可能意味着加载时间越长。 如果确实选择发布有比例尺上限的报表，请务必也要跨 Web 和移动设备测试报表。 建议确认图表的性能是否符合用户预期。
 
-1. 可以[设置可视化颜色、标签、标题、背景等等](service-getting-started-with-color-formatting-and-axis-properties.md)。
-
-    若要[提高可访问性](../desktop-accessibility.md)，请考虑将标记形状添加到每个行。 若要选择标记形状，请展开“形状”  ，并依次选择“标记形状”  和形状。
+1. 继续设置可视化颜色、标签、标题、背景等等。 若要[提高可访问性](../desktop-accessibility.md)，请考虑将标记形状添加到每个行。 若要选择标记形状，请展开“形状”  ，并依次选择“标记形状”  和形状。
 
     ![突出显示“标记形状”选项的“形状”下拉列表屏幕截图。](media/power-bi-visualization-scatter/pbi-scatter-marker.png)
 
-    可以将标记形状更改为钻石形、三角形或方形。 对每行使用不同的标记形状可便于报表使用者更轻松地区分各行（或区域）。
+    将标记形状更改为菱形、三角形或正方形。 对每行使用不同的标记形状可便于报表使用者更轻松地区分各行（或区域）。
+
+1. 打开“分析”窗格 ![“分析”窗格图标的屏幕截图。](media/power-bi-visualization-scatter/power-bi-analytics.png) 将其他信息添加到可视化效果中。  
+    - 添加中线。 选择“中线” > “添加”   。 默认情况下，Power BI 为每平方英尺的销售额添加一条中线  。这并不是很有帮助，因为我们可以看到有 10 个数据点，并且知道创建的中值的每侧都有 5 个数据点。 相反，请将“度量值”切换到“总销售差额百分比”   。  
+
+        ![添加了中线的气泡图屏幕截图。](media/power-bi-visualization-scatter/power-bi-analytics-median.png)
+
+    - 添加对称底纹来显示哪些点的 x 轴度量值高于 y 轴度量值，反之亦然。 当在“分析”窗格中打开对称底纹时，Bipe BI 会根据当前轴的上下边界对称地显示散点图的背景。 这是一种确定数据点偏向哪个轴的快速方法，尤其是当 x 轴和 y 轴的轴范围不同时。
+
+        a. 将“总销售差额百分比”字段更改为“去年毛利率百分比”  
+
+        ![添加了中线的气泡图屏幕截图。](media/power-bi-visualization-scatter/power-bi-format-symmetry.png)
+
+        b. 在“分析”窗格中，添加“对称底纹”  。 从底纹中我们可以看出，袜类（粉色底纹区域的绿色气泡）是唯一倾向于毛利率而不是其每平方英尺销售额的类别。 
+
+        ![添加了对称底纹的气泡图屏幕截图。](media/power-bi-visualization-scatter/power-bi-symmetry.png)
+
+    - 继续探索“分析”窗格，以发现数据中有趣的见解。 
+
+        ![添加了对称底纹的气泡图屏幕截图。](media/power-bi-visualization-scatter/power-bi-analytics-example.png)
 
 ## <a name="create-a-dot-plot-chart"></a>创建点阵图
 

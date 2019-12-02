@@ -1,5 +1,5 @@
 ---
-title: 在应用程序中为客户嵌入 Power BI 分页报表
+title: 在应用程序中为客户嵌入分页报表
 description: 了解如何使用 Power BI API 将 Power BI 分页报表集成或嵌入应用程序中。
 author: KesemSharabi
 ms.author: kesharab
@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.custom: seodec18
 ms.date: 11/04/2019
-ms.openlocfilehash: 5611d65ab800c14b2570a12078c08cce5dc58147
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 1493f628ce822afa020e300ff7428da059fcc65d
+ms.sourcegitcommit: 7f27b9eb0e001034e672050735ab659b834c54a3
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73877731"
+ms.lasthandoff: 11/22/2019
+ms.locfileid: "74311429"
 ---
 # <a name="tutorial-embed-power-bi-paginated-reports-into-an-application-for-your-customers-preview"></a>教程：在应用程序中为客户嵌入 Power BI 分页报表（预览版）
 
@@ -38,6 +38,11 @@ ms.locfileid: "73877731"
 
 如果没有 Azure 订阅，请在开始之前先创建一个[免费帐户](https://azure.microsoft.com/free/?WT.mc_id=A261C142F)。
 
+> [!IMPORTANT]
+> * 必须使用“服务主体”  。 主用户不受支持。
+> * 不支持需要单点登录 (SSO) 的数据源。
+> * Power BI 数据集不支持作为[数据源](../service-get-data.md)。
+
 ## <a name="set-up-your-power-bi-environment"></a>设置 Power BI 环境
 
 嵌入分页报表需要将工作区分配给专用容量，并将报表上传到工作区。
@@ -52,7 +57,7 @@ ms.locfileid: "73877731"
 * **Power BI Premium**：对于嵌入分页报表，需要 *P* SKU 容量。 嵌入 Power BI 内容时，此解决方案称为 *Power BI 嵌入*。 有关此订阅的详细信息，请参阅[什么是 Power BI Premium？](../service-premium-what-is.md)
 * **Azure Power BI Embedded**：可从 [Microsoft Azure 门户](https://portal.azure.com)购买专用容量。 此订阅使用 *A* SKU。 对于嵌入分页报表，至少需要 *A4* 订阅。 有关如何创建 Power BI Embedded 容量的详细信息，请参阅[在 Azure 门户中创建 Power BI Embedded 容量](azure-pbie-create-capacity.md)。
 
-下表介绍每个 SKU 的资源和限制。 若要确定最适合你需求的容量，请参阅[应该为我的方案购买哪个 SKU](https://docs.microsoft.com/power-bi/developer/embedded-faq#power-bi-now-offers-three-skus-for-embedding-a-skus-em-skus-and-p-skus-which-one-should-i-purchase-for-my-scenario) 表。
+下表介绍每个 SKU 的资源和限制。 若要确定最能满足你需求的容量，请参阅[应该为我的方案购买哪一个 SKU](https://docs.microsoft.com/power-bi/developer/embedded-faq#power-bi-now-offers-three-skus-for-embedding-a-skus-em-skus-and-p-skus-which-one-should-i-purchase-for-my-scenario) 表。
 
 | 容量节点 | 总虚拟核心 | 后端 V 核心 | RAM (GB) | 前端 V 核心 | 
 | --- | --- | --- | --- | --- |

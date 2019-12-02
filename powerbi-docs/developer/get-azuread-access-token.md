@@ -1,19 +1,19 @@
 ---
-title: 对用户进行身份验证并获取应用的 Azure AD 访问令牌
+title: 对用户进行身份验证并获取应用程序的 Azure AD 访问令牌
 description: 了解如何在 Azure Active Directory 中注册应用程序，用于嵌入 Power BI 内容。
-author: rkarlin
-ms.author: rkarlin
+author: KesemSharabi
+ms.author: kesharab
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 06/04/2019
-ms.openlocfilehash: 1655843d9e3175b9c428434fd533a601cc42d847
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: cac59a4689eecd75c53ca1c62d7b097438b2ae53
+ms.sourcegitcommit: 7f27b9eb0e001034e672050735ab659b834c54a3
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73875743"
+ms.lasthandoff: 11/22/2019
+ms.locfileid: "74310840"
 ---
 # <a name="get-an-azure-ad-access-token-for-your-power-bi-application"></a>获取 Power BI 应用程序的 Azure AD 访问令牌
 

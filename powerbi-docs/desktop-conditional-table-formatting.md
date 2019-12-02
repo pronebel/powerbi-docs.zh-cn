@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 10/16/2019
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: b715cd42ea221f62258b66eee71b6525b2015ae1
-ms.sourcegitcommit: 01de0b01f66f28ca45b8d309d7864f261d6c9a85
+ms.openlocfilehash: d28028c7b75bedae958df77c743c52b44c4437d9
+ms.sourcegitcommit: 7f27b9eb0e001034e672050735ab659b834c54a3
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/16/2019
-ms.locfileid: "74128173"
+ms.lasthandoff: 11/22/2019
+ms.locfileid: "74311725"
 ---
 # <a name="conditional-formatting-in-tables"></a>表格中的条件格式设置 
 通过表格的条件格式设置，可根据单元格值或其他值/字段指定自定义单元格颜色，包括使用渐变色。 也可用数据条显示单元格值。 
@@ -139,7 +139,7 @@ ms.locfileid: "74128173"
 使用条件表格式设置时需要牢记几个注意事项：
 
 * 条件格式设置仅适用于矩阵视觉对象的值，不适用于任何小计或总计  。 
-* 条件格式设置不会应用于“总计”  行
+* 条件格式设置不会应用于“总计”行  。
 * 不包含分组的任何表都显示为不支持条件格式设置的单个行。
 * 如果使用具有自动最大/最小值的渐变格式或具有百分比规则的基于规则的格式设置，则当数据包含 NaN 值时，将无法应用条件格式设置。 NaN 表示“不是数字”，最常见的原因是被零除错误。 可以使用 [DIVIDE() DAX 函数](https://docs.microsoft.com/dax/divide-function-dax)来避免这些错误。
 

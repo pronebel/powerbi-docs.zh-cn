@@ -1,5 +1,5 @@
 ---
-title: Power BI 与 Microsoft Flow 的集成
+title: Power BI 与 Power Automate 的集成
 description: 了解如何创建由 Power BI 数据警报触发的流。
 author: mgblythe
 ms.reviewer: ''
@@ -10,16 +10,16 @@ ms.topic: conceptual
 ms.date: 03/01/2018
 ms.author: mblythe
 LocalizationGroup: Get started
-ms.openlocfilehash: a5b5a34e7cd61ac9d197faa0ef4410cd9558f597
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: c8d768e1d02846eca10c6100aa8ec30dbb7f704b
+ms.sourcegitcommit: c839ef7437bc8fb8f7eeda23e59d05c7192a7fe8
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73881846"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "74164318"
 ---
-# <a name="microsoft-flow-and-power-bi"></a>Microsoft Flow 和 Power BI
+# <a name="power-automate-and-power-bi"></a>Power Automate 和 Power BI
 
-[Microsoft Flow](https://flow.microsoft.com/documentation/getting-started) 是一款跨企业用户依赖的日益增多的应用程序和 SaaS 服务自动执行工作流的 SaaS。 使用 Flow，可以通过集成常用应用和服务（包括 Power BI）来自动执行任务，从而获得通知、同步文件、收集数据等。 借助工作流自动化，执行重复任务不再是难事。
+[Power Automate](https://flow.microsoft.com/documentation/getting-started) 是一款跨企业用户依赖的日益增多的应用程序和 SaaS 服务自动执行工作流的 SaaS。 使用 Flow，可以通过集成常用应用和服务（包括 Power BI）来自动执行任务，从而获得通知、同步文件、收集数据等。 借助工作流自动化，执行重复任务不再是难事。
 
 [立即开始使用 Flow。](https://flow.microsoft.com/documentation/getting-started)
 
@@ -30,12 +30,12 @@ ms.locfileid: "73881846"
 ## <a name="create-a-flow-that-is-triggered-by-a-power-bi-data-alert"></a>创建由 Power BI 数据警报触发的流
 
 ### <a name="prerequisites"></a>先决条件
-本教程介绍了如何创建两个不同的流：一个是通过模板创建，另一个是从头开始创建。 若要继续学习本教程，请[在 Power BI 中创建数据警报](service-set-data-alerts.md)，创建一个免费的 Slack 帐户，然后[注册 Microsoft Flow](https://flow.microsoft.com/#home-signup)（此产品免费！）。
+本教程介绍了如何创建两个不同的流：一个是通过模板创建，另一个是从头开始创建。 若要继续学习本教程，请[在 Power BI 中创建数据警报](service-set-data-alerts.md)，创建一个免费的 Slack 帐户，然后[注册 Power Automate](https://flow.microsoft.com/#home-signup)（此产品免费！）。
 
 ## <a name="create-a-flow-that-uses-power-bi---from-a-template"></a>通过模板创建使用 Power BI 的流
 在此任务中，我们将使用模板创建一个由 Power BI 数据警报（通知）触发的简单流。
 
-1. 登录到 Microsoft Flow (flow.microsoft.com)。
+1. 登录 Power Automate (flow.microsoft.com)。
 2. 选择“**我的流**”。
    
    ![流菜单栏](media/service-flow-integration/power-bi-my-flows.png)
@@ -80,7 +80,7 @@ ms.locfileid: "73881846"
 ## <a name="create-a-flow-that-uses-power-bi---from-scratch-blank"></a>从头开始创建使用 Power BI 的 Flow
 在此任务中，我们将从头开始创建一个由 Power BI 数据警报（通知）触发的简单流。
 
-1. 登录 Microsoft Flow。
+1. 登录 Power Automate。
 2. 依次选择“我的流”   > “从头开始创建”  。
    
    ![流顶部菜单栏](media/service-flow-integration/power-bi-my-flows.png)
@@ -107,7 +107,7 @@ ms.locfileid: "73881846"
     ![流触发 Outlook 通知](media/service-flow-integration/power-bi-flow-notice.png)
 
 ## <a name="next-steps"></a>后续步骤
-* [开始使用 Microsoft Flow](https://flow.microsoft.com/documentation/getting-started/)
+* [开始使用 Power Automate](https://flow.microsoft.com/documentation/getting-started/)
 * [在 Power BI 服务中设置数据警报](service-set-data-alerts.md)
 * [在 iPhone 上设置数据警报](consumer/mobile/mobile-set-data-alerts-in-the-mobile-apps.md)
 * [在适用于 Windows 10 的 Power BI 移动应用中设置数据警报](consumer/mobile/mobile-set-data-alerts-in-the-mobile-apps.md)

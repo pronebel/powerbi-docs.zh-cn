@@ -2,19 +2,19 @@
 title: 使用 Power BI Desktop 中的形状地图（预览）
 description: 使用 Power BI Desktop 中的形状地图创建区域的相对比较
 author: mihart
-ms.reviewer: amanda
+ms.reviewer: amanda, justyna, sujata
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 11/4/2019
+ms.date: 11/14/2019
 ms.author: mihart
 LocalizationGroup: Transform and shape data
-ms.openlocfilehash: 800f7d3cd7f930f2c3411c21e94cadb7cda94c8c
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: eac0c6fab686a3b5cf63d035ea19b52ab83aa339
+ms.sourcegitcommit: 768e1e4b19fe8c7627010127c2420d63021cb542
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73871125"
+ms.lasthandoff: 11/20/2019
+ms.locfileid: "74199453"
 ---
 # <a name="shape-maps-in-power-bi-desktop-preview"></a>Power BI Desktop 中的形状地图（预览版）
 
@@ -198,28 +198,23 @@ https://www.justice.gov/usao/resources/annual-statistical-reports
 
 | ID | 名称 | 中文名称 |
 | --- | --- | --- |
-| 阿尔萨斯 |阿尔萨斯 |阿尔萨斯 |
-| 罗纳-阿尔卑斯大区 |罗纳-阿尔卑斯大区 |罗纳-阿尔卑斯大区 |
-| 普罗旺斯-阿尔卑斯-蓝色海岸 |普罗旺斯-阿尔卑斯-蓝色海岸 |普罗旺斯-阿尔卑斯-蓝色海岸 |
-| 普瓦图-夏朗德 |普瓦图-夏朗德 |普瓦图-夏朗德 |
-| 皮卡第 |皮卡第 |皮卡第 |
-| 卢瓦尔河地区 |卢瓦尔河地区 |卢瓦尔河地区 |
-| 北部-加来海峡 |北部-加来海峡 |北部-加来海峡 |
-| 南部-比利牛斯 |南部-比利牛斯 |南部-比利牛斯 |
-| 洛林 |洛林 |洛林 |
-| 利穆赞大区 |利穆赞大区 |利穆赞大区 |
-| 朗格多克-鲁西永 |朗格多克-鲁西永 |朗格多克-鲁西永 |
-| 法兰西岛大区 |法兰西岛大区 |法兰西岛大区 |
-| 上诺曼底 |上诺曼底 |上诺曼底 |
-| 弗朗什-孔泰大区 |弗朗什-孔泰大区 |弗朗什-孔泰大区 |
-| 科西嘉岛 |科西嘉岛 |科西嘉岛 |
-| 香槟-阿登 |香槟-阿登 |香槟-阿登 |
-| 中央-卢瓦尔河谷大区 |中央-卢瓦尔河谷大区 |中央-卢瓦尔河谷大区 |
+| 奥弗涅-罗讷-阿尔卑斯 |  |  |
+| 勃艮第-弗朗什-孔泰 |  |  |
 | 布列塔尼大区 |布列塔尼大区 |布列塔尼大区 |
-| 勃艮第 |勃艮第 |勃艮第 |
-| 下诺曼底 |下诺曼底 |下诺曼底 |
-| 奥弗涅大区 |奥弗涅大区 |奥弗涅大区 |
-| 阿基坦 |阿基坦 |阿基坦 |
+| 中央-卢瓦尔河谷大区 |中央-卢瓦尔河谷大区 |中央-卢瓦尔河谷大区 |
+| 科西嘉岛 |科西嘉岛 |科西嘉岛 |
+| 大东区 |  |  |
+| 瓜德罗普 | |   |
+| 上法兰西 |  |  |
+| 法兰西岛大区 |法兰西岛大区 |法兰西岛大区 |
+| 留尼旺 |  |  |
+| 马约特  |  |  |
+| 诺曼底 |诺曼底 |  |
+| 新阿基坦 |  |  |
+| 奥克西塔尼  |  |  |
+| 卢瓦尔河地区 |卢瓦尔河地区 |卢瓦尔河地区 |
+| 普罗旺斯-阿尔卑斯-蓝色海岸 |普罗旺斯-阿尔卑斯-蓝色海岸 |普罗旺斯-阿尔卑斯-蓝色海岸 |
+|  |  |  |
 
 ### <a name="germany-states"></a>德国：州
 

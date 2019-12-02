@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 07/05/2019
 ms.author: maggies
 LocalizationGroup: Samples
-ms.openlocfilehash: d6368ae61b2813972c3209e2af456ba5aa5fb81b
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 160c5736bc2894e629f5bb375dd07e993def1e0c
+ms.sourcegitcommit: c395fe83d63641e0fbd7c98e51bbab224805bbcc
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73874020"
+ms.lasthandoff: 11/21/2019
+ms.locfileid: "74265558"
 ---
 # <a name="customer-profitability-sample-for-power-bi-take-a-tour"></a>Power BI 的客户盈利率示例：参观
 
@@ -128,7 +128,7 @@ ms.locfileid: "73874020"
 
     * “团队记分卡”侧重于五名经理的绩效及其业务记录  。
     * “行业利润率分析”通过比较整个行业的发展，提供了一种分析盈利率的方法  。
-    * “管理人员记分卡”提供每位经理的视图，此页采用可在 Cortana 中查看的格式  。
+    * “管理人员记分卡”以自定义页面大小格式提供每位经理的视图  。
 
 ### <a name="team-scorecard-page"></a>“团队记分卡”页
 ![“团队记分卡”报表页](media/sample-customer-profitability/customer2.png)
@@ -170,7 +170,7 @@ ms.locfileid: "73874020"
    * Valery 只负责一款产品，并且只负责五个行业细分市场。 Valery 的行业影响也具有季节性，但始终会产生大气泡，表明对公司的账本底线影响较大。 行业细分市场是否能解释他们的消极表现？
 
 ### <a name="executive-scorecard"></a>管理人员记分卡
-将此页的格式设置为 Cortana 回复页。 若要了解详细信息，请参阅[为 Cortana 创建自定义回复页](service-cortana-answer-cards.md)。
+此页面采用自定义页面大小格式。
 
 ## <a name="dig-into-the-data-by-asking-questions-with-qa"></a>请通过“问答”提问进一步分析数据
 我们的分析可能有助于确定哪个行业为 Valery 带来的收入最多。 使用“问答”提问。
