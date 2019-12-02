@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.topic: conceptual
 ms.subservice: powerbi-custom-visuals
 ms.date: 05/9/2019
-ms.openlocfilehash: c6ecb2eb2346940a22bbd6b7bff5ca0138faa290
-ms.sourcegitcommit: 08b73af260ded51daaa6749338cb85db2eab587f
+ms.openlocfilehash: 373d57b871953f1afe02212ff0a1bbdb633cac4d
+ms.sourcegitcommit: a21f7f9de32203e3a4057292a24ef9b5ac6ce94b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/15/2019
-ms.locfileid: "74102585"
+ms.lasthandoff: 11/27/2019
+ms.locfileid: "74565242"
 ---
 # <a name="get-a-power-bi-visual-certified"></a>获取 Power BI 视觉对象认证
 
@@ -70,7 +70,7 @@ Microsoft 可自行从[经认证列表](#list-of-power-bi-visuals-that-have-been
 
 * 如果更改了 capabilities.json 中的任何属性，请确保更改不会破坏现有的用户报表。
 
-* 确保视觉对象符合 [Power BI 视觉对象指南](./guidelines-powerbi-visuals.md#guidelines-for-power-bi-visuals-with-additional-purchases)。 **不允许使用水印**。
+* 确保视觉对象符合 [Power BI 视觉对象指南](./guidelines-powerbi-visuals.md)。 **不允许使用水印**。
 
 * 仅使用可审核的公共 OSS 组件（公共的 JS 库或 TypeScript。 源代码可供审核，且无已知漏洞）。 我们无法验证使用商业组件的自定义视觉对象。
 
