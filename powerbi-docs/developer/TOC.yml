@@ -15,6 +15,8 @@
               href: power-bi-custom-visuals.md
         - name: 教程
           items:
+            - name: 视觉对象概念
+              href: visuals/power-bi-visuals-concept.md
             - name: 开发 Power BI 视觉对象
               href: visuals/custom-visual-develop-tutorial.md
             - name: 添加格式设置选项
@@ -67,6 +69,8 @@
               href: visuals/high-contrast-support.md
             - name: 启用同步切片器
               href: visuals/enable-sync-slicers.md
+            - name: 添加向下钻取支持
+              href: visuals/drill-down-support.md
             - name: Power BI 视觉对象疑难解答
               href: power-bi-custom-visuals-troubleshoot.md
         - name: 参考
@@ -81,8 +85,14 @@
               href: visuals/event-service.md
             - name: 排序
               href: visuals/sort-options.md
-            - name: 交互 utils
-              href: visuals/utils-interactivity-selections.md
+            - name: 本地化
+              href: visuals/localization.md
+            - name: Power BI 视觉对象实用工具
+              items:
+                - name: 交互 utils
+                  href: visuals/utils-interactivity-selections.md
+                - name: 格式化 utils
+                  href: visuals/utils-formatting.md
         - name: 资源
           items:
             - name: 开发中心

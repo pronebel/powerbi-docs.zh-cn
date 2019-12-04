@@ -58,7 +58,9 @@
               href: end-user-pdf.md
             - name: 向报表添加书签
               href: end-user-bookmarks.md
-        - name: 可视化效果
+            - name: 分页报表
+              href: end-user-paginated-report.md
+        - name: 可视化
           items:
             - name: 使用可视化效果可以做什么？
               href: end-user-visualizations.md
@@ -112,7 +114,7 @@
           items:
             - name: Power BI 中的问答
               href: end-user-q-and-a.md
-            - name: 使用 Power BI 中“问答”进行提问的提示和技巧
+            - name: 有关通过 Power BI 中的问答进行提问的提示和技巧
               href: end-user-q-and-a-tips.md
     - name: 资源
       items:
@@ -152,13 +154,13 @@
       items:
         - name: 所有移动应用
           items:
-            - name: 移动 Power BI 的仪表板
+            - name: 移动版 Power BI 的仪表板
               href: mobile/mobile-apps-view-dashboard.md
             - name: 移动应用中的报表
               href: mobile/mobile-reports-in-the-mobile-apps.md
-            - name: 在移动应用中与磁贴进行交互
+            - name: 与移动应用中的磁贴进行交互
               href: mobile/mobile-tiles-in-the-mobile-apps.md
-            - name: 在 Power BI 移动应用中共享仪表板
+            - name: 从 Power BI 移动应用共享仪表板
               href: mobile/mobile-share-dashboard-from-the-mobile-apps.md
             - name: 移动应用中的收藏夹
               href: mobile/mobile-apps-favorites.md
@@ -166,7 +168,7 @@
               href: mobile/mobile-app-single-tap.md
             - name: 在 Power BI 移动应用中设置数据警报
               href: mobile/mobile-set-data-alerts-in-the-mobile-apps.md
-            - name: 获取 Power BI 移动应用中的通知
+            - name: 在 Power BI 移动应用中获取通知
               href: mobile/mobile-apps-notification-center.md
             - name: 创建指向特定位置的深层链接
               href: mobile/mobile-apps-deep-link-specific-location.md
@@ -182,7 +184,7 @@
               href: mobile/mobile-app-ssrs-kpis-mobile-on-premises-reports.md
             - name: 从外部组织访问内容 (B2B)
               href: mobile/mobile-apps-b2b.md
-            - name: 使用手机扫描 Power BI QR 代码
+            - name: 从手机扫描 Power BI QR 码
               href: mobile/mobile-apps-qr-code.md
             - name: 在移动应用中批注并共享
               href: mobile/mobile-annotate-and-share-a-tile-from-the-mobile-apps.md

@@ -16,10 +16,18 @@
           href: import-modeling-data-reduction.md
         - name: DIVIDE 函数与除法运算符 (/)
           href: dax-divide-function-operator.md
+        - name: 使用 SELECTEDVALUE 而不是 VALUES
+          href: dax-selectedvalue.md
         - name: 查询折叠的重要性
           href: power-query-folding.md
         - name: 适当使用错误函数
           href: dax-error-functions.md
+        - name: 使用变量来改进公式
+          href: dax-variables.md
+        - name: 使用 COUNTROWS 而不是 COUNT
+          href: dax-countrows.md
+        - name: 不要将空白转换为值
+          href: dax-avoid-converting-blank.md
         - name: 数据流的最佳做法
           href: ../service-dataflows-best-practices.md
         - name: Power BI Desktop 中的 DirectQuery 模型指导
