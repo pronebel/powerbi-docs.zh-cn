@@ -7,13 +7,13 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
-ms.date: 05/22/2019
-ms.openlocfilehash: eecddd9251bbce732e9dc4ef70ad0d855f499d11
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.date: 11/26/2019
+ms.openlocfilehash: 7297e73dc0e412f75412eb48398ef9c85cda8d6e
+ms.sourcegitcommit: a21f7f9de32203e3a4057292a24ef9b5ac6ce94b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73874132"
+ms.lasthandoff: 11/27/2019
+ms.locfileid: "74565780"
 ---
 # <a name="install-power-bi-report-server"></a>安装 Power BI 报表服务器
 
@@ -21,9 +21,9 @@ ms.locfileid: "73874132"
 
 ## <a name="download-power-bi-report-server"></a>下载 Power BI 报表服务器
 
-从 Microsoft 下载中心[下载 Power BI 报表服务器](https://www.microsoft.com/download/details.aspx?id=56722)。
+在 [使用 Power BI 报表服务器进行本地报告](https://powerbi.microsoft.com/report-server/) 页，选择“下载免费试用版”  。
 
-还有免费试用版。 在 [使用 Power BI 报表服务器进行本地报告](https://powerbi.microsoft.com/report-server/) 页，选择“下载免费试用版”  。
+运行 PowerBIReportServer.exe 文件时，请选择免费试用版或输入产品密钥。 有关详细信息，请继续阅读。
 
 ## <a name="before-you-install"></a>安装之前
 
@@ -43,7 +43,7 @@ ms.locfileid: "73874132"
 
 #### <a name="power-bi-premium"></a>Power BI Premium
 
-如果已购买 Power BI Premium，则可以在 Power BI 管理门户的“Premium 设置”  选项卡中访问 Power BI 报表服务器产品密钥。 这仅适用于分配了 Power BI 服务管理员角色的全局管理员或用户。
+如果已购买 Power BI Premium，则可以在 Power BI 管理门户的“Premium 设置”选项卡中访问 Power BI 报表服务器产品密钥  。 管理门户仅适用于分配了 Power BI 服务管理员角色的全局管理员或用户。
 
 ![Premium 设置](../report-server/media/install-report-server/pbirs-product-key.png "高级设置中的 Power BI 报表服务器密钥")
 
@@ -70,7 +70,7 @@ ms.locfileid: "73874132"
 
     ![选择安装版本](media/install-report-server/pbireportserver-choose-edition.png)
 
-    可以从下拉列表中选择 Evaluation 或 Developer 版本。
+    选择 Evaluation 或 Developer 版本。
 
     ![版本 2](media/install-report-server/pbireportserver-choose-edition2.png)
 
@@ -78,7 +78,7 @@ ms.locfileid: "73874132"
 4. 阅读并同意许可条款和条件，然后选择“下一步”  。
 
     ![许可条款](media/install-report-server/pbireportserver-eula.png)
-5. 需要使用数据库引擎来存储报表服务器数据库。 选择“下一步”  ，仅安装报表服务器。
+5. 需要一个可用于存储报表服务器数据库的数据库引擎。 选择“下一步”  ，仅安装报表服务器。
 
     ![仅安装文件](media/install-report-server/pbireportserver-install-files-only.png)
 6. 指定报表服务器的安装位置。 选择“安装”  即可继续。
@@ -95,11 +95,11 @@ ms.locfileid: "73874132"
 
 在安装程序中选择“配置报表服务器”  后，便会看到 Reporting Services 配置管理器。 有关详细信息，请参阅 [Reporting Services 配置管理器](https://docs.microsoft.com/sql/reporting-services/install-windows/reporting-services-configuration-manager-native-mode)。
 
-必须[创建报表服务器数据库](https://docs.microsoft.com/sql/reporting-services/install-windows/ssrs-report-server-create-a-report-server-database)，才能完成 Reporting Services 的初始配置。 若要完成此步骤，必须要有 SQL Server 数据库服务器。
+若要完成 Reporting Services 的初始配置，请[创建报表服务器数据库](https://docs.microsoft.com/sql/reporting-services/install-windows/ssrs-report-server-create-a-report-server-database)。 若要完成此步骤，必须要有 SQL Server 数据库服务器。
 
 ### <a name="creating-a-database-on-a-different-server"></a>在其他服务器上创建数据库
 
-若要在其他计算机上的数据库服务器中创建报表服务器数据库，需要将报表服务器的服务帐户更改为数据库服务器识别的凭据。 
+若要在其他计算机上的数据库服务器中创建报表服务器数据库，请将报表服务器的服务帐户更改为数据库服务器识别的凭据。 
 
 默认情况下，报表服务器使用虚拟服务帐户。 如果尝试在其他服务器上创建数据库，可能会在执行“应用连接权限”一步时看到以下错误消息。
 
@@ -137,9 +137,9 @@ URL 预留由前缀、主机名、端口和虚拟目录组成：
 
 ## <a name="firewall"></a>防火墙
 
-如果要从远程计算机访问报表服务器，需要确保已配置所有防火墙规则（如果有防火墙的话）。
+如果要从远程计算机访问报表服务器，请确保已配置所有防火墙规则（如果有防火墙的话）。
 
-需要打开已为 Web 服务 URL 和 Web 门户 URL 配置的 TCP 端口。 默认情况下，这些规则是在 TCP 端口 80 上进行配置。
+打开已为 Web 服务 URL 和 Web 门户 URL 配置的 TCP 端口。 默认情况下，这些规则在 TCP 端口 80 上进行配置。
 
 ## <a name="additional-configuration"></a>其他配置
 

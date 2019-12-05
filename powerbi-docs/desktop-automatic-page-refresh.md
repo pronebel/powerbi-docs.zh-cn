@@ -7,15 +7,15 @@ ms.custom: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 10/14/2019
+ms.date: 11/26/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: b9f7c745ad251fdb81c7898130cd3ca6c5d32af9
-ms.sourcegitcommit: c839ef7437bc8fb8f7eeda23e59d05c7192a7fe8
+ms.openlocfilehash: 50daa90f937a9d1c7081d9b22e3c743da950945c
+ms.sourcegitcommit: fe9253a6021b9e198afa28aa9c670c3bacf59674
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/18/2019
-ms.locfileid: "74164153"
+ms.lasthandoff: 11/26/2019
+ms.locfileid: "74548558"
 ---
 # <a name="automatic-page-refresh-in-power-bi-desktop-preview"></a>Power BI Desktop 中的自动页面刷新（预览）
 
@@ -83,7 +83,7 @@ ms.locfileid: "74164153"
 
 还可以为已在 Power BI Desktop 中创作的报表设置自动页面刷新间隔，并将其发布到 Power BI 服务。 
 
-配置 Power BI 服务中的报表的自动页面刷新的步骤与 Power BI Desktop 中的配置步骤类似。 下图显示了 Power BI 服务的“页面刷新”  配置：
+配置 Power BI 服务中的报表的自动页面刷新的步骤与 Power BI Desktop 中的配置步骤类似。 在 Power BI 服务中配置时，自动页面刷新还支持[嵌入式 Power BI](developer/embedding.md) 内容。 下图显示了 Power BI 服务的“页面刷新”  配置：
 
 ![Power BI 服务中的自动页面刷新](media/desktop-automatic-page-refresh/automatic-page-refresh-04.png)
 

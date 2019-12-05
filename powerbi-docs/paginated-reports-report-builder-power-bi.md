@@ -7,13 +7,13 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: overview
-ms.date: 09/24/2019
-ms.openlocfilehash: 9e49e8e70e7bc499fbcfe0c263bdd8315f2c7dbe
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.date: 11/27/2019
+ms.openlocfilehash: 90bc46c484f659994c6a9500865803531fa3cdcc
+ms.sourcegitcommit: a21f7f9de32203e3a4057292a24ef9b5ac6ce94b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73874713"
+ms.lasthandoff: 11/27/2019
+ms.locfileid: "74565708"
 ---
 # <a name="what-are-paginated-reports-in-power-bi-premium"></a>Power BI Premium 中的分页报表是什么？
 
@@ -21,9 +21,9 @@ ms.locfileid: "73874713"
 
 分页报表可以有很多页。 例如，此报表有 563 页。 每页都采用精准布局，每个发票占一页，重复页眉和页脚。
 
-![分页](media/paginated-reports-report-builder-power-bi/power-bi-paginated-wwi-report-page.png)
+试用[动手实验室：创建 Microsoft Power BI 分页报表](https://www.microsoft.com/handsonlabs/selfpacedlabs/details/SQ00208)。
 
-![Power BI 服务中的分页报表](media/report-builder-power-bi/report-builder-get-started-paginated-report.png)
+![分页](media/paginated-reports-report-builder-power-bi/power-bi-paginated-wwi-report-page.png)
 
 可以在报表生成器中预览报表，然后将报表发布到 Power BI 服务： https://app.powerbi.com 。 需要具有 Power BI Pro 许可证才能将报表发布到服务。 只要工作区处于 Power BI Premium 容量中，就可以在“我的工作区”或工作区中发布和共享分页报表。 另外，Power BI 管理员需要在 Power BI 管理门户的[高级容量部分](service-admin-premium-workloads.md#paginated-reports)中启用分页报表。 
 
@@ -87,6 +87,6 @@ ms.locfileid: "73874713"
 - [从 Microsoft 下载中心安装 Power BI 报表生成器](https://go.microsoft.com/fwlink/?linkid=2086513)
 - [教程：创建分页报表](paginated-reports-quickstart-aw.md)
 - [直接在分页报表中输入数据](paginated-reports-enter-data.md)
-
+- [动手实验室：创建 Microsoft Power BI 分页报表](https://www.microsoft.com/handsonlabs/selfpacedlabs/details/SQ00208)
   
 

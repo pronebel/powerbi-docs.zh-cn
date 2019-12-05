@@ -9,12 +9,12 @@ ms.subservice: powerbi-service
 ms.topic: tutorial
 ms.custom: seodec18
 ms.date: 02/05/2019
-ms.openlocfilehash: b469cd4649a7acaef3a64eb0d3d8359e438e796f
-ms.sourcegitcommit: 7f27b9eb0e001034e672050735ab659b834c54a3
+ms.openlocfilehash: 2d8fc35383aa427d8e5c9fd37c6c35f4f3d0a6bb
+ms.sourcegitcommit: a21f7f9de32203e3a4057292a24ef9b5ac6ce94b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/22/2019
-ms.locfileid: "74311105"
+ms.lasthandoff: 11/27/2019
+ms.locfileid: "74565314"
 ---
 # <a name="tutorial-embed-a-power-bi-content-into-your-application-for-national-clouds"></a>教程：将 Power BI 内容嵌入国家云的应用程序
 
@@ -25,6 +25,8 @@ Power BI 还支持[国家云](https://docs.microsoft.com/azure/active-directory/
 不同的国家云包括：
 
 * 美国政府社区云 (GCC)
+
+* 美 国 政府社区云高 (GCC High)
 
 * 美 国 军事承包商 (DoDCON)
 
@@ -51,8 +53,8 @@ Power BI 还支持[国家云](https://docs.microsoft.com/azure/active-directory/
 
 * 政府社区云 (GCC)：
 
-    > [!Note]
-    > GCC 帐户仅支持 P 和 EM 容量。
+    > [!NOTE]
+    > 嵌入政府社区云 (GCC) 的 Power BI 内容，只能通过 Office 356 SKU 完成。 GCC High 客户可以使用 [Office 356 或 Azure SKU](embedded-faq.md#what-is-the-difference-between-the-a-skus-in-azure-and-the-em-skus-in-office-365)。
 
 1. 使用 GCCCloud.config 内容覆盖 Cloud.config 文件。
 

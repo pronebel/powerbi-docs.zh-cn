@@ -7,14 +7,14 @@ ms.reviewer: lukaszp
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 05/20/2019
+ms.date: 11/27/2019
 LocalizationGroup: Share your work
-ms.openlocfilehash: 59841cdcfae3bc08e0b6dcacf4bcb6664dfe209c
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: d4495a2021f008326d76c7fd9ff686d639827e90
+ms.sourcegitcommit: a21f7f9de32203e3a4057292a24ef9b5ac6ce94b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73877078"
+ms.lasthandoff: 11/27/2019
+ms.locfileid: "74565762"
 ---
 # <a name="embed-a-report-in-a-secure-portal-or-website"></a>在安全门户或网站中嵌入报表
 
@@ -118,6 +118,8 @@ report.src = newUrl;
 可以根据需要添加任意数量的按钮，以创建低代码自定义体验。 
 
 ## <a name="considerations-and-limitations"></a>注意事项和限制
+
+* 安全嵌入方案支持分页报表，并且还支持带有 URL 参数的分页报表。 阅读有关[在分页报表的 URL 中传递报表参数](report-builder-url-pass-parameters.md)的详细信息。
 
 * 不支持外部来宾用户访问 Azure 企业到企业 (B2B)。
 

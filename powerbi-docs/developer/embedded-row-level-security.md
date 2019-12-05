@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 06/10/2019
-ms.openlocfilehash: 3ef9bd001e17c472216e501c6d38907087219959
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: cd252572c3080f300592b52ddc0f25cefcf7f084
+ms.sourcegitcommit: 462ccdd9f79ff698ed0cdfc3165f4ada364dd9ef
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73875818"
+ms.lasthandoff: 11/25/2019
+ms.locfileid: "74478670"
 ---
 # <a name="row-level-security-with-power-bi-embedded"></a>Power BI Embedded 的行级安全性
 
@@ -333,8 +333,7 @@ public IdentityBlob(string value);
 
 ### <a name="token-based-identity-limitations"></a>基于令牌的标识限制
 
-* 此功能将限制仅用于 Power BI Premium。
-* 此功能不适用于本地 SQL Server。
-* 此功能不适用于多地理位置。
+* 只有拥有专用容量，才能使用 RLS。
+* RLS 不适用于本地 SQL Server。
 
 更多问题？ [尝试咨询 Power BI 社区](https://community.powerbi.com/)
