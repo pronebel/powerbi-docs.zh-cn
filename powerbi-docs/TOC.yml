@@ -747,16 +747,6 @@
               href: designer/service-security-apply-data-sensitivity-labels.md
         - name: 数据世系
           href: service-data-lineage.md
-        - name: Power BI 中的分页报表
-          items:
-            - name: 查看分页报表
-              href: paginated-reports-view-power-bi-service.md
-            - name: 支持的数据源
-              href: paginated-reports-data-sources.md
-            - name: 与参数进行交互
-              href: paginated-reports-view-parameters.md
-            - name: 自己或他人订阅
-              href: paginated-reports-subscriptions.md
         - name: 模板应用
           items:
             - name: 模板应用概述
@@ -915,6 +905,8 @@
           href: report-builder-planning-report.md
         - name: 报表生成器数据
           href: report-builder-data.md
+        - name: 支持的数据源
+          href: paginated-reports-data-sources.md
         - name: 使用 Power BI 共享数据集
           href: report-builder-shared-datasets.md
         - name: 设计提示
