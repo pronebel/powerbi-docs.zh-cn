@@ -52,7 +52,7 @@ ms.locfileid: "73881022"
 2. 从“时间”表中，将“会计月”  拖动到“轴”  区域。  
    ![显示将会计月作为轴的柱形图的屏幕截图](media/power-bi-report-add-visualizations-ii/power-bi-fiscalmonth.png)
 
-3. 将[可视化对象更改](power-bi-report-change-visualization-type.md)为一个区域图。  提供许多可视化类型可供选择 - 请参阅[每种类型的描述、最佳做法提示和教程](power-bi-visualization-types-for-reports-and-q-and-a.md)，获取类型选择相关帮助。 在“可视化效果”窗格中，选择分区图图标](media/power-bi-report-add-visualizations-ii/power-bi-area-chart.png)“可视化效果”窗格中的分区图图标![。
+3. 将[可视化对象更改](power-bi-report-change-visualization-type.md)为一个区域图。  提供许多可视化类型可供选择 - 请参阅[每种类型的描述、最佳做法提示和教程](power-bi-visualization-types-for-reports-and-q-and-a.md)，获取类型选择相关帮助。 ![在“可视化效果”窗格中，选择分区图图 “可视化效果”窗格中的分区图图标](media/power-bi-report-add-visualizations-ii/power-bi-area-chart.png)。
 
 4. 选择“更多选项”(…)，然后选择“排序” >  “会计月”，对视觉对象排序    。
 
