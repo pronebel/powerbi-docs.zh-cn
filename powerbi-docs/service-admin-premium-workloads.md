@@ -1,20 +1,20 @@
 ---
 title: 如何在 Power BI Premium 中配置工作负载
 description: 了解如何在 Power BI 高级容量中配置工作负载。
-author: mgblythe
-ms.author: mblythe
+author: davidiseminger
+ms.author: davidi
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
 ms.date: 10/14/2019
 LocalizationGroup: Premium
-ms.openlocfilehash: 8240c4590a5e5bb892c4858ea74aa20e569ecb89
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 7d94c5d3531576cd36688591b55aaf4a49de51aa
+ms.sourcegitcommit: e492895259aa39960063f9b337a144a60c20125a
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73856811"
+ms.lasthandoff: 12/05/2019
+ms.locfileid: "74831301"
 ---
 # <a name="configure-workloads-in-a-premium-capacity"></a>在高级容量中配置工作负载
 
@@ -164,7 +164,7 @@ ms.locfileid: "73856811"
 | **最大内存(%)** | 分页报表可在容量中使用的最大内存百分比。 |
 |  |  |
 
-分页报表可在呈现报表时运行自定义代码。 例如，根据内容动态更改文本颜色会占用额外的内存。 Power BI Premium 在容量所含的空间中运行分页报表。 无论工作负载是否处于活动状态，系统都将使用指定的最大内存  。 如果要更改“最大内存”设置的默认值，请务必将其设置得足够小，以免对其他工作负载产生负面影响。
+分页报表可在呈现报表时运行自定义代码。 例如，根据内容动态更改文本颜色会占用额外的内存。 Power BI Premium 在容量所含的空间中运行分页报表。 
 
 某些情况下，分页报表工作负载可能变得不可用。 在这种情况下，工作负载在管理门户中显示错误状态，并且用户会看到报表呈现的超时。 要缓解此问题，请禁用工作负载，然后再次启用它。
 

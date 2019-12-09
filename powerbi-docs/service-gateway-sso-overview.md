@@ -1,20 +1,20 @@
 ---
 title: Power BI 中网关的单一登录 (SSO) 概述
 description: 配置网关以启用从 Power BI 到本地数据源的单一登录 (SSO)。
-author: mgblythe
-ms.author: mblythe
+author: arthiriyer
+ms.author: arthii
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-gateways
 ms.topic: conceptual
 ms.date: 10/10/2019
 LocalizationGroup: Gateways
-ms.openlocfilehash: 43394e8f09327ebcb858ff5644b30daee1793444
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: bfa4534b625a965226dfced17403a7e2da7a7f84
+ms.sourcegitcommit: f77b24a8a588605f005c9bb1fdad864955885718
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73872379"
+ms.lasthandoff: 12/02/2019
+ms.locfileid: "74699190"
 ---
 # <a name="overview-of-single-sign-on-sso-for-gateways-in-power-bi"></a>Power BI 中网关的单一登录 (SSO) 概述
 

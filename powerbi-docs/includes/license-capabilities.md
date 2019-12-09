@@ -1,15 +1,15 @@
 ---
-author: mgblythe
+author: kfollis
 ms.service: powerbi
 ms.topic: include
 ms.date: 12/03/2018
-ms.author: mblythe
-ms.openlocfilehash: cc4d000f5a2f3ab6aad0897c7c751e22724c1804
-ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
+ms.author: kfollis
+ms.openlocfilehash: f7c5f5a65782be0911b5e181b8c5f7ab5bb7787c
+ms.sourcegitcommit: f77b24a8a588605f005c9bb1fdad864955885718
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "73431846"
+ms.lasthandoff: 12/02/2019
+ms.locfileid: "74698226"
 ---
 在 Power BI 服务中，用户已基于拥有的每个用户许可证的类型定义了功能，以及他们所操作的内容是否位于分配给 Power BI Premium 容量的工作区中。
 

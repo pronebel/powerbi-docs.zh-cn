@@ -2,20 +2,20 @@
 title: Power BI 报表和仪表板中的表可视化效果
 description: 在 Power BI 报表和仪表板中使用表可视化效果的教程，包括如何调整列宽大小。
 author: mihart
-ms.reviewer: ''
+ms.reviewer: willt
 featuredvideoid: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 06/24/2019
+ms.date: 12/04/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 2bb20b9ecc43e73e85d798416fe0ddaabb98e12b
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 6d2f1eea22f83d90501581be7d2e9b8230962835
+ms.sourcegitcommit: e492895259aa39960063f9b337a144a60c20125a
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73870792"
+ms.lasthandoff: 12/05/2019
+ms.locfileid: "74830858"
 ---
 # <a name="tables-in-power-bi-reports-and-dashboards"></a>Power BI 报表和仪表板中的表
 
@@ -130,7 +130,7 @@ ms.locfileid: "73870792"
 
 1. 在随即显示的对话框中，依次设置“正数据栏”  和“负数据栏”  的颜色，选中“仅显示数据栏”  选项，并进行所需的其他任何更改。
 
-    ![用于仅显示条形图的选中标记](media/power-bi-visualization-tables/power-bi-data-bars.png)
+    ![用于仅显示条形图的选中标记](media/power-bi-visualization-tables/power-bi-data-bar.png)
 
 1. 选择**确定**。
 

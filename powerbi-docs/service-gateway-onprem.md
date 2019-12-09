@@ -1,20 +1,20 @@
 ---
 title: 本地数据网关
 description: 本文是有关 Power BI 本地数据网关的概述。 你可以使用此网关来处理 DirectQuery 数据源。 还可以使用此网关刷新具有本地数据的云数据集。
-author: mgblythe
-ms.author: mblythe
+author: arthiriyer
+ms.author: arthii
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
 LocalizationGroup: Gateways
 ms.date: 07/15/2019
-ms.openlocfilehash: f149b816f7489b6a26e86af6360062d86083a7e5
-ms.sourcegitcommit: c839ef7437bc8fb8f7eeda23e59d05c7192a7fe8
+ms.openlocfilehash: 96a006f60e08d35ef6bbe13a2033d866814ec5b2
+ms.sourcegitcommit: f77b24a8a588605f005c9bb1fdad864955885718
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/18/2019
-ms.locfileid: "74164285"
+ms.lasthandoff: 12/02/2019
+ms.locfileid: "74697534"
 ---
 # <a name="what-is-an-on-premises-data-gateway"></a>本地数据网关是什么？
 

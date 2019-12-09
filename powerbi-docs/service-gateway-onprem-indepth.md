@@ -1,20 +1,20 @@
 ---
 title: 深入了解本地数据网关
 description: 本文深入探讨了本地网关。 它探讨了该服务与 Analysis Services 配合使用时在 Azure Active Directory 和本地 Active Directory 中的运行方式
-author: mgblythe
+author: arthiriyer
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-gateways
 ms.topic: conceptual
 ms.date: 07/15/2019
-ms.author: mblythe
+ms.author: arthii
 LocalizationGroup: Gateways
-ms.openlocfilehash: e8807feeccccebab8837ac571ae4340c5c0c9b1a
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: c277c21ffd3546307f9c38dfc06364324702986f
+ms.sourcegitcommit: f77b24a8a588605f005c9bb1fdad864955885718
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73881602"
+ms.lasthandoff: 12/02/2019
+ms.locfileid: "74699374"
 ---
 # <a name="on-premises-data-gateway-in-depth"></a>深入了解本地数据网关
 

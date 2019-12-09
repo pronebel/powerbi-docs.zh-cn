@@ -1,20 +1,20 @@
 ---
 title: 在 Power BI 中使用个人网关
 description: 提供 Power BI 本地数据网关（个人模式）的相关信息，供个人用于连接到本地数据。
-author: mgblythe
+author: arthiriyer
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-gateways
 ms.topic: conceptual
 ms.date: 07/15/2019
-ms.author: mblythe
+ms.author: arthii
 LocalizationGroup: Gateways
-ms.openlocfilehash: 8e6adb5c07c18a72d278b17e70fa7f06d1f6fd5f
-ms.sourcegitcommit: c839ef7437bc8fb8f7eeda23e59d05c7192a7fe8
+ms.openlocfilehash: ee93635abdff63c98eeaaca24640ac229a4dc97c
+ms.sourcegitcommit: f77b24a8a588605f005c9bb1fdad864955885718
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/18/2019
-ms.locfileid: "74164184"
+ms.lasthandoff: 12/02/2019
+ms.locfileid: "74699259"
 ---
 # <a name="use-personal-gateways-in-power-bi"></a>在 Power BI 中使用个人网关
 

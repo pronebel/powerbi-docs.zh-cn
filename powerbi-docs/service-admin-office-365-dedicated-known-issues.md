@@ -1,21 +1,21 @@
 ---
 title: Office 365 专用客户 - 已知问题
 description: 针对 Office 365 专用客户的支持 - 已知问题。 本主题介绍特定于 Office 365 专用客户的问题。 这包括对组功能的限制以及与虚域的 iPhone 应用。
-author: mgblythe
+author: kfollis
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 06/28/2017
-ms.author: mblythe
+ms.author: kfollis
 ms.custom: seodec18
 LocalizationGroup: Troubleshooting
-ms.openlocfilehash: 010a45c08a3ed27b12b4fca91c64c87a00430f5a
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: a5a9d080205e5f6a047ed820b8b5ed70fa9017d2
+ms.sourcegitcommit: f77b24a8a588605f005c9bb1fdad864955885718
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73873576"
+ms.lasthandoff: 12/02/2019
+ms.locfileid: "74699972"
 ---
 # <a name="office-365-dedicated-customers---known-issues"></a>Office 365 专用客户 - 已知问题
 现在针对 Office 365 专用客户支持 Power BI。  如果你是 O365 专用客户，则可以使用来自该租户的帐户进行登录，并使用 Power BI。 当前有两个已知问题。

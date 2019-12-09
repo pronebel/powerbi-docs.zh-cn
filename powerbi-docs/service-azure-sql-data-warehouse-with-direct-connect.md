@@ -4,18 +4,18 @@ description: 具有 DirectQuery 的 Azure SQL 数据仓库
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-author: mgblythe
-ms.author: mblythe
+author: davidiseminger
+ms.author: davidi
 ms.reviewer: ''
 ms.custom: ''
 ms.date: 06/20/2018
 LocalizationGroup: Data from databases
-ms.openlocfilehash: 2e96b88963250d7ac11cf9690c63b431279d585a
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 932c13b84184ad237879e33e943d85020640dd4c
+ms.sourcegitcommit: f77b24a8a588605f005c9bb1fdad864955885718
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73873246"
+ms.lasthandoff: 12/02/2019
+ms.locfileid: "74698295"
 ---
 # <a name="azure-sql-data-warehouse-with-directquery"></a>具有 DirectQuery 的 Azure SQL 数据仓库
 
