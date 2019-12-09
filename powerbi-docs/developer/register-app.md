@@ -106,7 +106,7 @@ ms.locfileid: "74009795"
 
 1. 在 Azure 门户中，转到[应用注册](https://portal.azure.com/#blade/Microsoft_AAD_RegisteredApps/ApplicationsListBlade/quickStartType//sourceType/)，然后选择要用于嵌入内容的应用。
 
-2. 选择“管理” ****** 下的“API 权限”** 。
+2. 选择“管理”   下的“API 权限”。
 
 3. 在“API 权限”   中，选择“添加权限”，  然后选择“Power BI 服务”。
 
