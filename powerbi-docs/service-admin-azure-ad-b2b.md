@@ -1,20 +1,20 @@
 ---
 title: 使用 Azure AD B2B 将内容分发给外部来宾用户
 description: Power BI 与 Azure Active Directory 企业到企业 (Azure AD B2B) 集成后，即可将 Power BI 内容安全地分发给组织外的来宾用户。
-author: mgblythe
+author: kfollis
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
 ms.date: 09/09/2019
-ms.author: mblythe
+ms.author: kfollis
 LocalizationGroup: Administration
-ms.openlocfilehash: bcde2bc456ee48e8dc66d6c0ba6b17d79fbe43a8
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: c126b073ac80a470733d7d8dd2638da28a06b265
+ms.sourcegitcommit: 9a265d8117cc202f5f700286b5ff42a631aacdb4
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73858008"
+ms.lasthandoff: 12/06/2019
+ms.locfileid: "74882826"
 ---
 # <a name="distribute-power-bi-content-to-external-guest-users-with-azure-ad-b2b"></a>使用 Azure AD B2B 将 Power BI 内容分发给外部来宾用户
 
@@ -30,7 +30,9 @@ Power BI 与 Azure Active Directory 企业到企业 (Azure AD B2B) 集成，便�
 
 ## <a name="who-can-you-invite"></a>可以邀请哪些用户？
 
-可邀请使用任意电子邮件地址（包括个人帐户，如 gmail.com、outlook.com 和 hotmail.com）的来宾用户。 Azure AD B2B 将这些地址称为“社交标识”  。
+你可邀请使用大多数电子邮件地址（包括个人帐户，如 gmail.com、outlook.com 和 hotmail.com）的来宾用户。 Azure AD B2B 将这些地址称为“社交标识”  。
+
+不能邀请与政府云服务（如 [面向美国政府的 Power BI](service-govus-overview.md)）关联的用户。
 
 ## <a name="invite-guest-users"></a>邀请来宾用户
 

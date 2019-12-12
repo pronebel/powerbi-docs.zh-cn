@@ -7,13 +7,13 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: conceptual
-ms.date: 10/04/2019
-ms.openlocfilehash: d8fd8490bda3be4217440a984e8b6da6fca7c5cf
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.date: 12/03/2019
+ms.openlocfilehash: c1f8a274a17d85cf8f86d2e33ff63f3e9b686742
+ms.sourcegitcommit: e492895259aa39960063f9b337a144a60c20125a
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73874801"
+ms.lasthandoff: 12/05/2019
+ms.locfileid: "74831236"
 ---
 # <a name="paginated-reports-in-power-bi-faq"></a>Power BI 中的分页报表：常见问题解答 
 
@@ -116,21 +116,7 @@ Power BI 报表针对浏览和交互性进行了优化。  例如，对于销售
 
 ### <a name="what-data-sources-do-you-support-currently-for-paginated-reports"></a>分页报表当前支持的数据源有哪些？
 
-支持以下数据源 - 
-
-- Power BI 数据集（通过单一登录 (SSO)）
-- Azure Analysis Services（通过单一登录 (SSO) 和 oAuth）
-- Azure SQL 数据仓库
-- Azure SQL 数据库（用户名/密码，SSO 和 oAuth）
-- 通过公共终结点（用户名/密码）可获取的 Azure SQL 托管实例
-- SQL Server*
-- SQL Server Analysis Services (SSAS) 表格 (DAX) 和多维 (MDX) 模型* 
-- Oracle* 
-- Teradata* 
-
-* 需要本地网关。
-
-通过网关访问 SSAS 时，存储凭据的用户需要 SSAS 中提升的权限才能通过网关。
+有关数据源的列表，请参阅 [Power BI 分页报表支持的数据源](paginated-reports-data-sources.md)一文。 
 
 ### <a name="what-authentication-methods-do-you-support"></a>支持的身份验证方法有哪些？
 

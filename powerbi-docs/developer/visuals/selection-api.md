@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: conceptual
 ms.date: 06/18/2019
-ms.openlocfilehash: 5f5e4769c750406a02ead656af551133fbceb738
-ms.sourcegitcommit: f7b28ecbad3e51f410eff7ee4051de3652e360e8
+ms.openlocfilehash: 94a1af90cc7ed08947f65f4ed0d55e981558d049
+ms.sourcegitcommit: f77b24a8a588605f005c9bb1fdad864955885718
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/13/2019
-ms.locfileid: "74061882"
+ms.lasthandoff: 12/02/2019
+ms.locfileid: "74696433"
 ---
 # <a name="add-interactivity-into-visual-by-power-bi-visuals-selections"></a>通过 Power BI 视觉对象选择将交互性添加到视觉对象
 
@@ -37,7 +37,7 @@ export interface ISelectionId {
 
 视觉宿主对象提供了创建选择管理器实例的方法。 选择管理器负责选择、清除选择、显示上下文菜单、存储当前选择以及检查选择状态。 选择管理器有针对这些操作的对应方法。
 
-### <a name="create-instance-of-selection-manager"></a>创建选择管理器的实例
+### <a name="create-an-instance-of-the-selection-manager"></a>创建选择管理器的实例
 
 要使用选择管理器，需要创建选择管理器的实例。 通常，视觉对象会在可视对象的 `constructor` 中创建选择管理器实例。
 
@@ -56,7 +56,7 @@ export class Visual implements IVisual {
 }
 ```
 
-### <a name="create-instance-of-selection-builder"></a>创建选择生成器的实例
+### <a name="create-an-instance-of-the-selection-builder"></a>创建选择生成器的实例
 
 创建选择管理器实例时，需要为视觉对象的每个数据点创建 `selections`。 视觉宿主对象提供 `createSelectionIdBuilder` 方法为每个数据点生成选择。 此方法会返回带 `powerbi.visuals.ISelectionIdBuilder` 接口的对象实例：
 
@@ -71,7 +71,7 @@ export interface ISelectionIdBuilder {
 }
 ```
 
-此对象具有对应的方法可为不同类型的数据视图映射创建 `selections`。
+此对象具有可为不同类型的数据视图映射创建 `selections` 的对应方法。
 
 > [!NOTE]
 > 在 Power BI 视觉对象的 API 2.5.0 上引入了 `withTable` 和 `withMatrixNode` 方法。
@@ -155,11 +155,11 @@ export interface ISelectionIdBuilder {
 }
 ```
 
-在此示例中，`Manafacturer` 为 `columns`，`Type` 为 `rows`。 有按 `rows` (`Type`) 分组值创建的序列。
+在此示例中，`Manufacturer` 为 `columns`，`Type` 为 `rows`。 有按 `rows` (`Type`) 分组值创建的序列。
 
-而且，视觉对象还可以通过 `Manafacturer` 和 `Type` 来切分数据。
+而且，视觉对象还可以通过 `Manufacturer` 和 `Type` 来切分数据。
 
-例如，当用户按 `Manafacturer` 选择 `Chrysler` 时，其他视觉对象应显示以下数据：
+例如，当用户按 `Manufacturer` 选择 `Chrysler` 时，其他视觉对象应显示以下数据：
 
 | 制造商 | 类型 | 值 |
 | - | - | - |
@@ -185,10 +185,10 @@ export interface ISelectionIdBuilder {
 
 ![带选择的视觉对象的数据篮](media/visual-selections-databuckets.png)
 
-其中 `Manafacturer` 为类别（列）、`Type` 为序列（行）、`Value` 为序列 `Values`。
+其中 `Manufacturer` 为类别（列）、`Type` 为序列（行）、`Value` 为序列 `Values`。
 
 > [!NOTE]
-> 序列需要 `Values`，因为根据数据视图映射，视觉对象期望将按 `Rows` 数据搜索 `Values`。
+> 序列需要 `Values`，因为根据数据视图映射，视觉对象期望 `Values` 按 `Rows` 数据进行分组。
 
 #### <a name="create-selections-for-categories"></a>为类别创建选择
 
@@ -196,7 +196,7 @@ export interface ISelectionIdBuilder {
 // categories
 const categories = dataView.categorical.categories;
 
-// create label for 'Manafacturer' column
+// create label for 'Manufacturer' column
 const p = document.createElement("p") as HTMLParagraphElement;
 p.innerText = categories[0].source.displayName.toString();
 this.target.appendChild(p);
@@ -209,7 +209,7 @@ for (let categoryIndex = 0; categoryIndex < categoriesCount; categoryIndex++) {
     const categoryValue: powerbi.PrimitiveValue = categories[0].values[categoryIndex];
 
     const categorySelectionId = this.host.createSelectionIdBuilder()
-        .withCategory(categories[0], categoryIndex) // we have only one category (only one `Manafacturer` column)
+        .withCategory(categories[0], categoryIndex) // we have only one category (only one `Manufacturer` column)
         .createSelectionId();
     this.dataPoints.push({
         value: categoryValue,
@@ -229,9 +229,9 @@ for (let categoryIndex = 0; categoryIndex < categoriesCount; categoryIndex++) {
 }
 ```
 
-在示例代码中，可以看到我们会循环访问所有类别。 每次迭代时，我们都会通过调用选择生成器的 `createSelectionIdBuilder` 方法调用 `withCategory` 来为每个类别创建下一个选择。 `createSelectionId` 方法用作返回生成的 `selection` 对象的最终方法。
+在示例代码中，你可以看到我们会循环访问所有类别。 每次迭代时，我们都会通过调用选择生成器的 `createSelectionIdBuilder` 方法调用 `withCategory` 来为每个类别创建下一个选择。 `createSelectionId` 方法用作返回生成的 `selection` 对象的最终方法。
 
-在 `withCategory` 方法中，我们将传递 `category` 的列，在示例中为 `Manafacturer`，也是类别元素的索引。
+在 `withCategory` 方法中，我们将传递 `category` 的列，在示例中为 `Manufacturer`，也是类别元素的索引。
 
 #### <a name="create-selections-for-series"></a>为序列创建选择
 
@@ -309,7 +309,7 @@ public update(options: VisualUpdateOptions) {
 }
 ```
 
-视觉代码将循环访问表中的行，每行都会调用 `withTable`表方法。 `withTable` 方法的参数是表行的 `table` 对象和索引。
+视觉对象代码将循环访问表中的行，每行都会调用 `withTable` 表方法。 `withTable` 方法的参数是表行的 `table` 对象和索引。
 
 ### <a name="create-selections-for-matrix-data-view-mapping"></a>为矩阵数据视图映射创建选择
 
@@ -363,7 +363,7 @@ interface ISelectionManager {
 
 你可以看到，`select` 可以接受选择的数组。 这意味着视觉对象可以选择多个数据点。 第二个参数 `multiSelect` 负责多选。 如果值为 true，则 Power BI 不会清除之前的选择状态并应用当前选择，否则将重置前一选择。
 
-使用 `multiSelect` 处理单击事件时 CTRL 按钮状态的典型场景。
+使用 `multiSelect` 处理单击事件时 Ctrl 按钮状态的典型场景。
 
 ```typescript
 button.addEventListener("click", (mouseEvent) => {

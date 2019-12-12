@@ -1,21 +1,21 @@
 ---
 title: 刷新不支持的数据源故障排除
 description: 刷新不支持的数据源故障排除
-author: mgblythe
+author: maggiesMSFT
 ms.reviewer: kayu
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: troubleshooting
 ms.date: 12/06/2017
-ms.author: mblythe
+ms.author: maggies
 ms.custom: seodec18
 LocalizationGroup: Troubleshooting
-ms.openlocfilehash: b44dbc06c15a576174277695583f3afebb0f298a
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: e3fe8626001972acc0b7555f37844b5abb62753b
+ms.sourcegitcommit: 90bd747b7c460d17b74cd386d3f5714234b1f6c9
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73856263"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "74791997"
 ---
 # <a name="troubleshooting-unsupported-data-source-for-refresh"></a>刷新不支持的数据源故障排除
 尝试为计划的刷新配置数据集时，你可能会遇到错误。
@@ -35,7 +35,7 @@ ms.locfileid: "73856263"
    ![高级编辑器](media/service-admin-troubleshoot-unsupported-data-source-for-refresh/tshoot-advanced-editor.png)
 4. 记下为源列出的提供程序。  在此示例中，提供程序是 ActiveDirectory。  
    ![数据源提供程序](media/service-admin-troubleshoot-unsupported-data-source-for-refresh/tshoot-provider.png)
-5. 将提供程序与[在 Power BI 中刷新数据](refresh-data.md)中的不支持数据源列表进行比较。  你会发现 Active Directory 不是刷新支持的数据源。  
+5. 将提供程序与在 [Power BI 数据源](power-bi-data-sources.md)中不支持的数据源列表进行比较。
 
 ## <a name="next-steps"></a>后续步骤
 [数据刷新](refresh-data.md)  

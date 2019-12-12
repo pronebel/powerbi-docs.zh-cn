@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 11/14/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: b947fe3f2faf423a7b2ced4d0032578ded015f7a
-ms.sourcegitcommit: 08b73af260ded51daaa6749338cb85db2eab587f
+ms.openlocfilehash: efbeda396217c1a715f9a5d7ae4827c5f8d09a25
+ms.sourcegitcommit: f77b24a8a588605f005c9bb1fdad864955885718
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/15/2019
-ms.locfileid: "74099809"
+ms.lasthandoff: 12/02/2019
+ms.locfileid: "74698983"
 ---
 # <a name="r-visuals-in-power-bi"></a>Power BI 中的 R 视觉对象
 R 视觉对象暂时只能在 **Power BI Desktop** 中创建，然后发布到 Power BI 服务。 要详细了解如何创建 R 视觉对象，请参阅[使用 R 创建 Power BI 视觉对象](../desktop-r-visuals.md)。
@@ -94,6 +94,11 @@ Power BI 服务中的 R 视觉对象有几个限制：
 * 使用“发布到 Web”  时，不会显示 R 视觉对象。
 * R 视觉对象目前不会随仪表板和报表一起打印
 * Analysis Services 的 DirectQuery 模式目前不支持 R 视觉对象
+* R 视觉对象可以将文本标签转化为图形元素。 在 Power BI 服务中这样做需要执行一个额外步骤：
+  
+  * 将以下行添加到 R 脚本的开头处：
+    
+        powerbi_rEnableShowText =  1
 * 中文、日语和朝鲜语字体还需要执行下列所有步骤才能在 Power BI 服务中正常工作：
   
   * 首先，安装 R 程序包 *showtext* 及其所有依赖项。 可以运行以下脚本来执行此操作：

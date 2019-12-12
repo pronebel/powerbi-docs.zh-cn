@@ -7,15 +7,15 @@ featuredvideoid: maTzOJSRB3g
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 06/24/2019
+ms.date: 12/5/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: fedaa811c94a9e955d6ca10646bc546f60dc9b98
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 6abca661a1553bfabc3da35fe714ff9bced5555a
+ms.sourcegitcommit: 212fb4a46af3e434a230331f18456c6a49a408fd
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73881951"
+ms.lasthandoff: 12/07/2019
+ms.locfileid: "74907590"
 ---
 # <a name="waterfall-charts-in-power-bi"></a>Power BI 中的瀑布图
 
@@ -50,7 +50,7 @@ ms.locfileid: "73881951"
 
 本教程使用[零售分析示例 PBIX 文件](https://download.microsoft.com/download/9/6/D/96DDC2FF-2568-491D-AAFA-AFDD6F763AE3/Retail%20Analysis%20Sample%20PBIX.pbix)。
 
-1. 在菜单栏的左上方，选择“文件” > “打开”  
+1. 在菜单栏的左上方，选择“文件” > “打开”
    
 2. 查找**零售分析示例 PBIX 文件**的副本
 
@@ -63,51 +63,57 @@ ms.locfileid: "73881951"
 
 你将创建按月显示销售额差异（估计销售额与实际销售额）的瀑布图。
 
-1. 在“字段”  窗格中，依次选择“销售额”   > “总销售额差异”  。
+### <a name="build-the-waterfall-chart"></a>生成瀑布图
 
-   ![选择了“销售额”>“总销售额差异”并生成视觉对象的屏幕截图。](media/power-bi-visualization-waterfall-charts/power-bi-first-value.png)
+1. 在“字段”窗格中，依次选择“销售额” > “总销售额差异”。
+
+   ![选择了“销售额”>“总销售额差异”并生成视觉对象的屏幕截图。](media/power-bi-visualization-waterfall-charts/power-bi-bar.png)
 
 1. 选择“瀑布图”图标 ![“瀑布图”图标的屏幕截图](media/power-bi-visualization-waterfall-charts/power-bi-waterfall-icon.png)
 
     ![可视化效果模板](media/power-bi-visualization-waterfall-charts/convert-waterfall.png)
 
-1. 依次选择“时间”   > “会计月份”  ，以将它添加到“类别”  井中。
+1. 依次选择“时间” > “会计月份”，以将它添加到“类别”井中。
 
-    ![瀑布图](media/power-bi-visualization-waterfall-charts/power-bi-waterfall.png)
+    ![瀑布图](media/power-bi-visualization-waterfall-charts/power-bi-waterfall-month.png)
 
-1. 请确保 Power BI 是按时间顺序对瀑布图进行排序的。 选择图表右上角的“更多选项”(…)  。
+### <a name="sort-the-waterfall-chart"></a>对瀑布图进行排序
 
-    在此示例中，我们将选择“升序排序” 
+1. 请确保 Power BI 按时间顺序（月份）对瀑布图进行排序。 选择图表右上角的“更多选项”(…)。
 
-    检查“升序排序”的左侧是否有黄色指示器  。 这表示正在应用选定的选项。
+    对于本示例，请选择“排序依据”并选择“FiscalMonth”。 选择项旁边的黄色指示器指示应用选择选项的时间。
 
-    ![选择“排序方式”>“升序”](media/power-bi-visualization-waterfall-charts/power-bi-sort-by.png)
+    ![依次选择“排序依据”>“会计月份”](media/power-bi-visualization-waterfall-charts/power-bi-sort-by-fiscalmonth.png)
+    
+    若要按时间顺序显示月份，请选择“升序排序”。 与上一步一样，检查“升序排序”的左侧是否有黄色指示器。 这表示正在应用选定的选项。
 
-    接下来，我们将单击“排序方式”，然后选择“FiscalMonth”。与上一步一样，所做选择旁边的黄色指示器指示何时应用选定的选项   。
+    ![选择“排序方式”>“升序”](media/power-bi-visualization-waterfall-charts/power-bi-waterfall-ascending.png)
 
-    ![依次选择“排序依据”>“会计月份”](media/power-bi-visualization-waterfall-charts/power-bi-sort-by-fiscal-month.png)
+    
 
-    还可以查看 X 轴值，看看它们是否是按从 1 月  到 8 月  的顺序排序。
+    请注意，对于 FiscalMonth，你的图表将按一月至八月排序。  
 
-    进一步了解每月发生变化的最主要原因。
+### <a name="explore-the-waterfall-chart"></a>浏览瀑布图
 
-1.  选择“商店” > “区域”，这会将“区域”添加到“细分”存储桶中     。
+进一步了解每月发生变化的最主要原因。
+
+1.  选择“商店” > “区域”，这会将“区域”添加到“细分”存储桶中。
 
     ![显示明细存储桶中的存储](media/power-bi-visualization-waterfall-charts/power-bi-waterfall-breakdown.png)
 
-    默认情况下，Power BI 按月将前五个影响因素添加到增加变化或减少变化中。 下图扩展了可视化效果窗格以包含更多数据。 
+    Power BI 使用“细分”中的值将其他数据添加到可视化效果中。 Power BI 按月将前五个影响因素添加到每个会计月的增减变化中。 例如，这意味着二月份有六个数据点，而不是只有一个。  
 
-    ![显示明细存储桶中的存储](media/power-bi-visualization-waterfall-charts/power-bi-waterfall-breakdown-initial.png)
+    ![显示明细存储桶中的存储](media/power-bi-visualization-waterfall-charts/power-bi-waterfall-breakdown-default.png)
 
-    你只关注前两个影响因素。
+    假设你只关注前两个影响因素。
 
-1. 在“格式”  窗格中，选择“细目”  ，并将“最大细目数”  设置为“2”  。
+1. 在“格式”窗格中，选择“细目”，并将“最大细目数”设置为“2”。
 
-    ![“格式”>“细目”](media/power-bi-visualization-waterfall-charts/power-bi-waterfall-breakdown-maximum.png)
+    ![“格式”>“细目”](media/power-bi-visualization-waterfall-charts/power-bi-waterfall-breakdown-two.png)
 
     快速审阅发现，在瀑布图中，俄亥俄州和宾夕法尼亚州是正负变化的最大两个影响因素。
 
-    ![瀑布图](media/power-bi-visualization-waterfall-charts/power-bi-waterfall-axis.png)
+    ![瀑布图](media/power-bi-visualization-waterfall-charts/power-bi-axis-waterfall.png)
 
 ## <a name="next-steps"></a>后续步骤
 

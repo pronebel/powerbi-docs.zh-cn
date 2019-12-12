@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: conceptual
 ms.date: 06/18/2019
-ms.openlocfilehash: 8a9218085b0da655d1ce4b3ece0b2666c4826c86
-ms.sourcegitcommit: f7b28ecbad3e51f410eff7ee4051de3652e360e8
+ms.openlocfilehash: e2587140d5436552e26be90c67eb5e6240bf6a1d
+ms.sourcegitcommit: f77b24a8a588605f005c9bb1fdad864955885718
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/13/2019
-ms.locfileid: "74061859"
+ms.lasthandoff: 12/02/2019
+ms.locfileid: "74696131"
 ---
 # <a name="microsoft-power-bi-visuals-interactivity-utils"></a>Microsoft Power BI 视觉对象交互 utils
 
@@ -26,7 +26,7 @@ InteractivityUtils 是一组函数和类，旨在简化 Power BI 自定义视觉
 > 如果继续使用旧版本的 powerbi-visuals-tools（版本号小于 3.x.x 版），请安装新版本的工具 (3.x.x)。
 
 > [!IMPORTANT]
-> 交互 utils 的最新更新将仅支持最新版本的工具。 [阅读详细信息，如何更新你的视觉对象以使用最新工具](migrate-to-new-tools.md)
+> 交互实用工具的最新更新将仅支持最新版本的工具。 [阅读详细信息，如何更新视觉对象以使用最新工具](migrate-to-new-tools.md)
 
 若要安装包，应在目录中运行以下命令和当前的自定义视觉对象：
 
@@ -40,7 +40,7 @@ npm install powerbi-visuals-utils-interactivityutils --save
 npm install powerbi-models --save
 ```
 
-若要使用用户交互 utils，必须在视觉对象的源代码中导入所需的组件。
+若要使用用户交互实用工具，必须在视觉对象的源代码中导入所需的组件。
 
 ```typescript
 import { interactivitySelectionService } from "powerbi-visuals-utils-interactivityutils";
@@ -80,7 +80,7 @@ import { interactivitySelectionService } from "powerbi-visuals-utils-interactivi
   specificIdentity?: powerbi.extensibility.ISelectionId;
 ```
 
-使用交互 utils 的第一步是创建交互 utils 的实例，并将对象另存为视觉对象的属性
+使用交互实用工具的第一步是创建交互实用工具的实例，并将对象另存为视觉对象的属性
 
 ```typescript
 export class Visual implements IVisual {
@@ -126,8 +126,8 @@ export interface BaseBehaviorOptions<SelectableDataPointType extends BaseDataPoi
 }
 ```
 
-为 `visual behaviour` 定义类。 负责处理 `click`、`contextmenu` 鼠标事件的类。
-当对数据元素使用单击时，视觉对象将调用选择处理程序来选择数据点。 或者清除选择，前提是用户单击视觉对象的背景元素。 类具有对应的方法： `bindClick`、`bindClearCatcher`、`bindContextMenu`。
+为 `visual behavior` 定义类。 负责处理 `click`、`contextmenu` 鼠标事件的类。
+当用户单击数据元素时，视觉对象将调用选择处理程序来选择数据点。 如果用户单击视觉对象的背景元素，则视觉对象将调用清除选择处理程序。 类具有对应的方法： `bindClick`、`bindClearCatcher`、`bindContextMenu`。
 
 ```typescript
 export class Behavior<SelectableDataPointType extends BaseDataPoint> implements IInteractiveBehavior {
@@ -214,7 +214,7 @@ protected bindContextMenu() {
 }
 ```
 
-交互 utils 调用 `bindEvents` 方法将函数分配给处理程序，将 `bindClick`、`bindClearCatcher`和 `bindContextMenu` 的调用添加到 `bindEvents` 方法中：
+交互实用工具调用 `bindEvents` 方法将函数分配给处理程序，将 `bindClick`、`bindClearCatcher` 和 `bindContextMenu` 的调用添加到 `bindEvents` 方法中：
 
 ```typescript
   public bindEvents(
@@ -230,7 +230,7 @@ protected bindContextMenu() {
   }
 ```
 
-负责更新图表中元素视觉状态的 `renderSelection` 方法。
+`renderSelection` 方法负责更新图表中的元素的视觉对象状态。
 
 `renderSelection` 方法的实现示例：
 
@@ -246,7 +246,7 @@ public renderSelection(hasSelection: boolean): void {
 }
 ```
 
-最后一步是创建 `visual behavior` 的实例并调用交互 utils 实例的 `bind` 方法：
+最后一步是创建 `visual behavior` 的实例并调用交互实用工具实例的 `bind` 方法：
 
 ```typescript
 this.interactivity.bind(<BaseBehaviorOptions<VisualDataPoint>>{
@@ -259,9 +259,9 @@ this.interactivity.bind(<BaseBehaviorOptions<VisualDataPoint>>{
 
 * `selectionMerge` 是 D3 选择对象，表示视觉对象上的所有可选择元素。
 
-* `select(this.target)` 是 D3 选择对象，表示视觉对象的主要 DOm 元素。
+* `select(this.target)` 是 D3 选择对象，表示视觉对象的主要 DOM 元素。
 
-* `this.categories` 数据点包含元素，其中接口为 `VisualDataPoint`（或 `categories: VisualDataPoint[];`）
+* `this.categories` 是具有元素的数据点，其中接口为 `VisualDataPoint`（或 `categories: VisualDataPoint[];`）
 
 * `this.behavior` 是 `visual behavior` 的新实例
 
@@ -278,7 +278,7 @@ this.interactivity.bind(<BaseBehaviorOptions<VisualDataPoint>>{
   }
   ```
 
-现在，你的视觉对象已准备好处理选择。
+现在，你的视觉对象已准备就绪，可处理选择。
 
 ## <a name="next-steps"></a>后续步骤
 

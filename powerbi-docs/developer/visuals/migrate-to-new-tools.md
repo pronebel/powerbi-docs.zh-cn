@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: conceptual
 ms.date: 06/18/2019
-ms.openlocfilehash: cc554bff1cbd248ccd69a80ee47b60af981cdab1
-ms.sourcegitcommit: f7b28ecbad3e51f410eff7ee4051de3652e360e8
+ms.openlocfilehash: 245475feeb43ee544117aaa54969f2de1e207cd5
+ms.sourcegitcommit: f77b24a8a588605f005c9bb1fdad864955885718
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/13/2019
-ms.locfileid: "74061813"
+ms.lasthandoff: 12/02/2019
+ms.locfileid: "74696273"
 ---
 # <a name="migrate-to-the-new-powerbi-visuals-tools-3xx"></a>迁移到新的 powerbi-visuals-tools 3.x.x
 
@@ -27,7 +27,7 @@ ms.locfileid: "74061813"
 
 * 支持新版本的 [D3v5](https://d3js.org/) 和其他基于 ES6 模块的库。
 
-* 减小了包的大小。 Webpack 使用 [Tree Shaking](https://webpack.js.org/guides/tree-shaking/) 来删除未使用的代码。 它减少了 JS 的代码，因此，你可以在视觉对象加载时获得更好的性能。
+* 减小了包的大小。 Webpack 使用 [Tree Shaking](https://webpack.js.org/guides/tree-shaking/) 来删除未使用的代码。 它减少了 JS 的代码，因此，可以在视觉对象加载时获得更好的性能。
 
 * 提高了 API 性能。
 
@@ -95,7 +95,7 @@ SampleBarChart 视觉对象的示例与 `package.json` 中相应的[更改](http
 
 ## <a name="update-custom-visuals-utils"></a>创建自定义视觉对象 utils
 
-如果使用 [powerbi-visuals-utils](https://www.npmjs.com/search?q=powerbi-visuals-utils) 之一，则还应将其更新到最新版本。
+如果使用 powerbi-visuals-utils ](https://www.npmjs.com/search?q=powerbi-visuals-utils) 之一，则还应将其更新到最新版本。
 
 执行命令 `npm install powerbi-visuals-utils-<UTILNAME> --save`。 （例如 `npm install powerbi-visuals-utils-dataviewutils --save`）以获取带有 TypeScript 外部模块的新版本。
 

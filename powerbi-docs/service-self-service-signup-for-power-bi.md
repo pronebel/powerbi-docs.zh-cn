@@ -1,20 +1,20 @@
 ---
 title: 以个人身份注册 Power BI
 description: 了解如何注册 Power BI 并开始使用，以满足你的数据分析和可视化需求。
-author: mgblythe
+author: kfollis
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 10/31/2019
-ms.author: mblythe
+ms.author: kfollis
 LocalizationGroup: Get started
-ms.openlocfilehash: b7dae4c3b4ce35ec6af82ae59c374ab31937881a
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 13928bc39801cdaccf73450da64c4f84048fbce3
+ms.sourcegitcommit: 90bd747b7c460d17b74cd386d3f5714234b1f6c9
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73871529"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "74791624"
 ---
 # <a name="sign-up-for-power-bi-as-an-individual"></a>以个人身份注册 Power BI
 
@@ -38,7 +38,7 @@ Power BI 既是你的个人数据分析和可视化工具，还可用作组项�
 
 1. 请转到[注册页](https://signup.microsoft.com/signup?sku=a403ebcc-fae0-4ca2-8c8c-7a907fd6c235)。
 
-1. 输入你的电子邮件地址，然后选择“注册”  。
+1. 输入你的电子邮件地址，然后选择“注册”。
 
     ![开始使用](media/service-self-service-signup-for-power-bi/get-started.png)
 
@@ -50,7 +50,7 @@ Power BI 既是你的个人数据分析和可视化工具，还可用作组项�
 
     ![现有帐户](media/service-self-service-signup-for-power-bi/existing-account.png)
 
-1. 输入收到的验证码，然后选择“注册”  。
+1. 输入收到的验证码，然后选择“注册”。
 
     ![注册](media/service-self-service-signup-for-power-bi/sign-up.png)
 
@@ -58,7 +58,7 @@ Power BI 既是你的个人数据分析和可视化工具，还可用作组项�
 
     ![电子邮件验证](media/service-self-service-signup-for-power-bi/email-verification.png)
 
-1. 在下一个屏幕上，输入你的信息和电子邮件中的验证码。 选择一个区域，查看此屏幕链接的政策，然后选择“开始”  。
+1. 在下一个屏幕上，输入你的信息和电子邮件中的验证码。 选择一个区域，查看此屏幕链接的政策，然后选择“开始”。
 
     ![创建帐户](media/service-self-service-signup-for-power-bi/create-account.png)
 
