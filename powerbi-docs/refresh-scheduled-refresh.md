@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 06/06/2019
 ms.author: maggies
 LocalizationGroup: Data refresh
-ms.openlocfilehash: e09b3f8579b65bc242cda1dbdb54f187ab6b47d0
-ms.sourcegitcommit: 90bd747b7c460d17b74cd386d3f5714234b1f6c9
+ms.openlocfilehash: 622273ed4c8d6f2faee46d3cc84d981f86bd8c92
+ms.sourcegitcommit: 320d83ab392ded71bfda42c5491acab3d9d357b0
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/03/2019
-ms.locfileid: "74791620"
+ms.lasthandoff: 12/10/2019
+ms.locfileid: "74958393"
 ---
 # <a name="configure-scheduled-refresh"></a>配置计划刷新
 
@@ -75,7 +75,7 @@ ms.locfileid: "74791620"
 将“使你的数据保持为最新”滑块设为“开”来配置设置   。
 
 > [!NOTE]
-> Power BI 服务确定在你计划的 15 分钟刷新时间内启动数据刷新  。
+> 目标是在计划时间段的 15 分钟内启动刷新，但如果服务无法更快地分配所需资源，则可能会延迟最多一小时。
 
 ![“计划刷新”对话框](media/refresh-scheduled-refresh/scheduled-refresh.png)
 
