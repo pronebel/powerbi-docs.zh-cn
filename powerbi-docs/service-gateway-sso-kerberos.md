@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-gateways
 ms.topic: conceptual
-ms.date: 10/10/2019
+ms.date: 12/03/2019
 LocalizationGroup: Gateways
-ms.openlocfilehash: 4ce5eab22538b7abdded2759a4a072fd500575ea
-ms.sourcegitcommit: f77b24a8a588605f005c9bb1fdad864955885718
+ms.openlocfilehash: 889fbce483f839147677789c73d826fa23542731
+ms.sourcegitcommit: 5bb62c630e592af561173e449fc113efd7f84808
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/02/2019
-ms.locfileid: "74699213"
+ms.lasthandoff: 12/11/2019
+ms.locfileid: "75000103"
 ---
 # <a name="configure-kerberos-based-sso-from-power-bi-service-to-on-premises-data-sources"></a>将基于 Kerberos 的 SSO 从 Power BI 配置到本地数据源
 
@@ -66,6 +66,22 @@ ms.locfileid: "74699213"
    ```setspn -a gateway/MyGatewayMachine Contoso\GatewaySvc```
 
    也可以通过使用“Active Directory 用户和计算机”MMC 管理单元来设置 SPN  。
+   
+### <a name="add-gateway-service-account-to-windows-authorization-and-access-group-if-required"></a>在必要时将网关服务帐户添加到 Windows Authorization Access Group
+
+在某些情况下，必须将网关服务帐户添加到 Windows Authorization Access Group。 这些情形包括 Active Directory 环境的安全性加强期间，以及网关要模拟的网关服务帐户和用户帐户位于不同的域/林时。 另外，还可以在尚未强制域/林（但不是必须这样做）的情况下，将网关服务帐户添加到 Windows Authorization Access Group。
+
+有关详细信息，请参阅 [Windows Authorization Access Group](/windows/security/identity-protection/access-control/active-directory-security-groups#bkmk-winauthaccess)。
+
+要完成此配置步骤，对于包含你需要网关服务帐户能够模拟的 Active Directory 用户的每个域，执行以下操作：
+1. 登录到域中的计算机，然后启动“Active Directory 用户和计算机”MMC 管理单元。
+2. 找到“Windows Authorization Access Group”组，该组通常可在“Builtin”   容器中找到。
+3. 双击该组，然后单击“成员”  选项卡。
+4. 单击“添加”  ，然后将域位置更改为网关服务帐户所在的域。
+5. 键入网关服务帐户名称，然后单击“检查名称”  验证网关服务帐户是否可供访问。
+6. 单击**确定**。
+7. 单击“**应用**”。
+8. 重启网关服务。
 
 ### <a name="decide-on-the-type-of-kerberos-constrained-delegation-to-use"></a>确定要使用的 Kerberos 约束委派的类型
 

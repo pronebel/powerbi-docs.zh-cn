@@ -9,16 +9,16 @@ ms.topic: quickstart
 ms.date: 10/29/2019
 ms.author: kfollis
 LocalizationGroup: Administration
-ms.openlocfilehash: ebaf32bbf84dcbb8efd8516fd0a1ab01011f2d63
-ms.sourcegitcommit: f77b24a8a588605f005c9bb1fdad864955885718
+ms.openlocfilehash: 55cdfad221aef276c790e98de83dd844bc13aafe
+ms.sourcegitcommit: 320d83ab392ded71bfda42c5491acab3d9d357b0
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/02/2019
-ms.locfileid: "74698477"
+ms.lasthandoff: 12/10/2019
+ms.locfileid: "74958650"
 ---
 # <a name="purchase-and-assign-power-bi-pro-user-licenses"></a>购买和分配 Power BI Pro 用户许可证
 
-Power BI Pro 是独立的用户许可证，它允许用户读取其他用户在 Power BI 服务中发布的报表和仪表板并与之交互，还允许用户与其他 Power BI Pro 用户共享内容和进行协作。 只有具有 Power BI Pro 用户许可证的用户才能发布或与其他用户共享内容，或使用其他用户创建的内容，除非该内容托管于 Power BI Premium 容量中。 有关详细信息，请参阅[按许可证类型划分的 Power BI 功能](service-features-license-type.md)。
+Power BI Pro 是独立的用户许可证，它允许用户读取其他用户在 Power BI 服务中发布的报表和仪表板并与之交互，还允许用户与其他 Power BI Pro 用户共享内容和进行协作。 只有具有 Power BI Pro 用户许可证的用户才能发布或与其他用户共享内容，或使用其他用户创建的内容，除非该内容托管于 Power BI Premium 容量中。 有关详细信息，请参阅 [Power BI 定价](https://powerbi.microsoft.com/pricing/)的“Power BI 功能比较”  部分。
 
 ## <a name="purchase-and-assign-power-bi-pro-user-licenses"></a>购买和分配 Power BI Pro 用户许可证
 

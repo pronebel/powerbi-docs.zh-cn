@@ -1,5 +1,5 @@
 ---
-title: 如何开发 Power BI Power BI 视觉对象的疑难解答
+title: 如何开发 Power BI 视觉对象的疑难解答
 description: 本文介绍了开发或创建自定义 Power BI 视觉对象时可能会遇到的一些常见问题。
 author: KesemSharabi
 ms.author: kesharab
@@ -8,14 +8,14 @@ ms.service: powerbi
 ms.topic: troubleshooting
 ms.subservice: powerbi-custom-visuals
 ms.date: 11/06/2018
-ms.openlocfilehash: e28df5035e057d485a8122853f6ae88327e3045f
-ms.sourcegitcommit: 01de0b01f66f28ca45b8d309d7864f261d6c9a85
+ms.openlocfilehash: c2680a5818488a7822f38b8286a3e5a1782a487a
+ms.sourcegitcommit: 5bb62c630e592af561173e449fc113efd7f84808
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/16/2019
-ms.locfileid: "74127760"
+ms.lasthandoff: 12/11/2019
+ms.locfileid: "74999758"
 ---
-# <a name="troubleshoot-power-bi-power-bi-visuals"></a>Power BI Power BI 视觉对象疑难解答
+# <a name="troubleshoot-power-bi-visuals"></a>Power BI 视觉对象疑难解答
 
 ## <a name="debug"></a>调试
 
@@ -42,4 +42,4 @@ ms.locfileid: "74127760"
 
 ## <a name="next-steps"></a>后续步骤
 
-有关详细信息，请访问[关于 Power BI Power BI 视觉对象的常见问题解答](power-bi-custom-visuals-faq.md#organizational-visuals)。
+有关详细信息，请访问[关于 Power BI 视觉对象的常见问题解答](power-bi-custom-visuals-faq.md#organizational-power-bi-visuals)。

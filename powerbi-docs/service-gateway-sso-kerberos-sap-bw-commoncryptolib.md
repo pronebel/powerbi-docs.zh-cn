@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-gateways
 ms.topic: conceptual
-ms.date: 10/10/2019
+ms.date: 12/10/2019
 LocalizationGroup: Gateways
-ms.openlocfilehash: 6c098a187b7f0d0d4828500cd6c5995a7c82ab42
-ms.sourcegitcommit: f77b24a8a588605f005c9bb1fdad864955885718
+ms.openlocfilehash: 02c8ac991fbf84051ae795ef4a80f2b3dc07a1ce
+ms.sourcegitcommit: 5bb62c630e592af561173e449fc113efd7f84808
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/02/2019
-ms.locfileid: "74697626"
+ms.lasthandoff: 12/11/2019
+ms.locfileid: "75000172"
 ---
 # <a name="use-kerberos-single-sign-on-for-sso-to-sap-bw-using-commoncryptolib-sapcryptodll"></a>使用 CommonCryptoLib (sapcrypto.dll) 将适用于 SSO 的 Kerberos 单一登录用于 SAP BW
 
@@ -89,7 +89,7 @@ ms.locfileid: "74697626"
 
 ## <a name="troubleshooting"></a>故障排除
 
-如果无法在 Power BI 服务中刷新报表，可以使用网关跟踪、CPIC 跟踪和 CommonCryptoLib 跟踪来诊断问题。 因为 CPIC 跟踪和 CommonCryptoLib 是 SAP 产品，所以 Microsoft 无法为其提供支持。 对于被授予对 BW 的 SSO 访问权限的 Active Directory 用户，某些 Active Directory 配置可能要求这些用户是安装了网关的计算机上的管理员组的成员。
+如果无法在 Power BI 服务中刷新报表，可以使用网关跟踪、CPIC 跟踪和 CommonCryptoLib 跟踪来诊断问题。 因为 CPIC 跟踪和 CommonCryptoLib 是 SAP 产品，所以 Microsoft 无法为其提供支持。
 
 ### <a name="gateway-logs"></a>网关日志
 
@@ -109,7 +109,49 @@ ms.locfileid: "74697626"
 
    ![CPIC 跟踪](media/service-gateway-sso-kerberos/cpic-tracing.png)
 
- 3. 重现问题，确保 CPIC\_TRACE\_DIR 包含跟踪文件  。
+3. 重现问题，确保 CPIC\_TRACE\_DIR 包含跟踪文件  。
+ 
+    CPIC 跟踪可以诊断更高级别的问题，例如无法加载 sapcrypto.dll 库。 例如，下面是 CPIC 跟踪文件中出现 .dll 加载错误的代码片段：
+
+    ```
+    [Thr 7228] *** ERROR => DlLoadLib()==DLENOACCESS - LoadLibrary("C:\Users\test\Desktop\sapcrypto.dll")
+    Error 5 = "Access is denied." [dlnt.c       255]
+    ```
+
+    如果遇到此类失败，但已按照[上面部分](#configure-sap-bw-to-enable-sso-using-commoncryptolib)所述为 sapcrypto.dll 和 sapcrypto.ini 设置了读取和执行权限，则尝试为包含这些文件的文件夹设置相同的读取和执行权限。
+
+    如果仍然无法加载 .dll，请尝试打开[文件审计](/windows/security/threat-protection/auditing/apply-a-basic-audit-policy-on-a-file-or-folder)。 检查 Windows 事件查看器中生成的审计日志可能会帮助你确定文件无法加载的原因。 查找模拟 Active Directory 用户启动的失败条目。 例如，对于被模拟用户 `MYDOMAIN\mytestuser`，审计日志失败将类似于以下内容：
+
+    ```
+    A handle to an object was requested.
+
+    Subject:
+        Security ID:        MYDOMAIN\mytestuser
+        Account Name:       mytestuser
+        Account Domain:     MYDOMAIN
+        Logon ID:       0xCF23A8
+
+    Object:
+        Object Server:      Security
+        Object Type:        File
+        Object Name:        <path information>\sapcrypto.dll
+        Handle ID:      0x0
+        Resource Attributes:    -
+
+    Process Information:
+        Process ID:     0x2b4c
+        Process Name:       C:\Program Files\On-premises data gateway\Microsoft.Mashup.Container.NetFX45.exe
+
+    Access Request Information:
+        Transaction ID:     {00000000-0000-0000-0000-000000000000}
+        Accesses:       ReadAttributes
+                
+    Access Reasons:     ReadAttributes: Not granted
+                
+    Access Mask:        0x80
+    Privileges Used for Access Check:   -
+    Restricted SID Count:   0
+    ```
 
 ### <a name="commoncryptolib-tracing"></a>CommonCryptoLib 跟踪 
 

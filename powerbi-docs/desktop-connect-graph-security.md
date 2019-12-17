@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 01/29/2019
 ms.author: preetikr
 LocalizationGroup: Connect to data
-ms.openlocfilehash: e5374397dc9b89df7b7cbd86cfca5a44631b94e4
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: ef8e874c1f1a47d65845b87dccd441746651a68b
+ms.sourcegitcommit: 5bb62c630e592af561173e449fc113efd7f84808
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73876486"
+ms.lasthandoff: 12/11/2019
+ms.locfileid: "74999781"
 ---
 # <a name="connect-to-the-microsoft-graph-security-api-in-power-bi-desktop"></a>连接到 Power BI Desktop 中的 Microsoft Graph Security API
 
@@ -40,7 +40,7 @@ Microsoft Graph Security API 连接了来自 Microsoft 及其生态系统合作�
 
 * 通过[应用程序许可体验](https://docs.microsoft.com/azure/active-directory/develop/application-consent-experience)响应逻辑应用在首次运行期间提交的请求
    
-登录 Microsoft Graph Security 连接器的用户帐户必须是 Azure AD 中安全读取者受限管理员角色（安全读取者或安全管理员）的成员   。 请参阅[向用户分配 Azure AD 角色](https://docs.microsoft.com/graph/security-authorization#assign-azure-ad-roles-to-users)。
+如果用户不是安全管理员角色的成员，则登录 Microsoft Graph Security 连接器的用户帐户必须是被分配的 Azure AD 安全读取者角色   。 请参阅[向用户分配 Azure AD 角色](https://docs.microsoft.com/graph/security-authorization#assign-azure-ad-roles-to-users)。
 
 ## <a name="using-the-microsoft-graph-security-connector"></a>使用 Microsoft Graph Security 连接器
 

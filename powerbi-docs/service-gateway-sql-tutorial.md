@@ -9,12 +9,12 @@ ms.topic: tutorial
 ms.date: 07/15/2019
 ms.author: arthii
 LocalizationGroup: Gateways
-ms.openlocfilehash: 0ab5831cb1cf4af28a56711475b7ba6a5683b5d5
-ms.sourcegitcommit: f77b24a8a588605f005c9bb1fdad864955885718
+ms.openlocfilehash: 100417202fca148be0e2e976ce0cd84167c803d9
+ms.sourcegitcommit: 320d83ab392ded71bfda42c5491acab3d9d357b0
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/02/2019
-ms.locfileid: "74699305"
+ms.lasthandoff: 12/10/2019
+ms.locfileid: "74958418"
 ---
 # <a name="refresh-data-from-an-on-premises-sql-server-database"></a>从本地 SQL Server 数据库刷新数据
 
@@ -49,6 +49,10 @@ ms.locfileid: "74699305"
 2. 在“SQL Server 数据库”对话框中，输入“服务器”和“数据库(可选)”名称，确保数据连接模式为“导入”，然后选择“确定”       。
 
     ![SQL Server 数据库](./media/service-gateway-sql-tutorial/sql-server-database.png)
+
+    在本教程中，我们没有使用“高级选项”  ，但是请注意，你可以指定 SQL 语句并设置其他选项，例如使用 [SQL Server 故障转移](/sql/database-engine/availability-groups/windows/failover-clustering-and-always-on-availability-groups-sql-server)。
+
+    ![SQL Server 高级选项](media/service-gateway-sql-tutorial/sql-server-advanced-options.png)
 
 3. 验证凭据，然后选择“连接”   。
 

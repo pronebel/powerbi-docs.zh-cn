@@ -8,16 +8,16 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 11/22/2019
 ms.author: kfollis
-ms.openlocfilehash: a45cfb20907c96995adf8618cd6dd8ff32194bea
-ms.sourcegitcommit: f77b24a8a588605f005c9bb1fdad864955885718
+ms.openlocfilehash: be7f95b2bbbd6e5e6314c7fd57869a30c176746c
+ms.sourcegitcommit: 320d83ab392ded71bfda42c5491acab3d9d357b0
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/02/2019
-ms.locfileid: "74699719"
+ms.lasthandoff: 12/10/2019
+ms.locfileid: "74958485"
 ---
 # <a name="power-bi-data-sources"></a>Power BI 数据源
 
-下表展示了 Power BI 支持的数据源，其中包括有关 DirectQuery 和本地数据网关的信息。
+下表展示了 Power BI 支持的数据集的数据源，其中包括有关 DirectQuery 和本地数据网关的信息。 有关数据流的信息，请参阅[连接到 Power BI 数据流的数据源](service-dataflows-data-sources.md)。
 
 | 数据源 | 从桌面连接 | 从服务连接并刷新 | DirectQuery/实时连接 | 网关（支持） | 网关（必需） |
 |---|---|---|---|---|---|---|---|
@@ -95,7 +95,7 @@ ms.locfileid: "74699719"
 | Planview Enterprise One - CTM | 是 | 是 | 否 | 否 | 否 |
 | Planview Enterprise One - PRM | 是 | 是 | 否 | 否 | 否 |
 | Planview Projectplace | 是 | 是 | 否 | 否 | 否 |
-| PostgreSQL | 是 | 是 | 否 | 是 | 是 |
+| PostgreSQL | 是 | 是 | 是 | 是 | 是 |
 | Power BI 数据流 | 是 | 是 | 否 | 否 | 否 |
 | Power BI 数据集 | 是 | 是 | 是 | 否 | 否 |
 | Power platform 数据流 | 是 | 是 | 否 | 否 | 否 |
