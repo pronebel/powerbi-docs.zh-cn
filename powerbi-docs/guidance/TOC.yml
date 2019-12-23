@@ -40,6 +40,8 @@
           href: report-drillthrough.md
         - name: Power BI Desktop 中的自动日期/时间指南
           href: auto-date-time.md
+        - name: 多对多关系指导
+          href: relationships-many-to-many.md
     - name: 白皮书
       items:
         - name: 白皮书概述

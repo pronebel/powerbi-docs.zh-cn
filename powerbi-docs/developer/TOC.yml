@@ -83,8 +83,22 @@
               href: visuals/event-service.md
             - name: 排序
               href: visuals/sort-options.md
-            - name: 交互 utils
-              href: visuals/utils-interactivity-selections.md
+            - name: 本地化
+              href: visuals/localization.md
+            - name: Power BI 视觉对象实用工具
+              items:
+                - name: 交互 utils
+                  href: visuals/utils-interactivity-selections.md
+                - name: 格式化 utils
+                  href: visuals/utils-formatting.md
+                - name: 图表 utils
+                  href: visuals/utils-chart.md
+                - name: SVG utils
+                  href: visuals/utils-svg.md
+                - name: 类型 utils
+                  href: visuals/utils-type.md
+                - name: 数据视图 utils
+                  href: visuals/utils-dataview.md
         - name: 资源
           items:
             - name: 开发中心
