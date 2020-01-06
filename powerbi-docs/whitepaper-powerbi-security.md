@@ -192,7 +192,8 @@ DirectQuery 和其他查询之间的区别决定了 Power BI 服务如何处理�
   - 在客户的基础结构上的本地数据网关中 - 用于本地数据源
   - 在数据移动角色中 - 用于基于云的数据源
 
-用于加密 Microsoft Azure Blob 存储的内容加密密钥（CEK）是一个随机生成的256位密钥。 CEK 用于加密内容的算法是 AES \_CBC\_256。
+用于加密 Microsoft Azure Blob 存储的内容加密密钥 (CEK) 是随机生成的 256 位密钥。 CEK 用于加密内容的算法是 AES \_CBC\_256。
+
 
 用于加密 CEK 的密钥加密密钥 (KEK) 则是预定义的 256 位密钥。 KEK 加密 CEK 采用的算法是 A256KW。
 
