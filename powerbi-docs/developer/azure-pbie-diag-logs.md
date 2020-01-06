@@ -8,10 +8,10 @@ ms.service: power-bi-embedded
 ms.topic: conceptual
 ms.date: 08/13/2018
 ms.openlocfilehash: 362c765fb5e739563b8d21eaed53304eddce8acc
-ms.sourcegitcommit: c395fe83d63641e0fbd7c98e51bbab224805bbcc
+ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/21/2019
+ms.lasthandoff: 01/06/2020
 ms.locfileid: "74265706"
 ---
 # <a name="diagnostic-logging-for-power-bi-embedded-in-azure"></a>Azure 中 Power BI Embedded 的诊断日志记录
@@ -43,7 +43,7 @@ ms.locfileid: "74265706"
     * 引擎  - 选择此选项以记录以下[列出的引擎事件](#whats-logged)集。
     * AllMetrics  - 选择此选项以存储[指标](https://docs.microsoft.com/azure/analysis-services/analysis-services-monitor#server-metrics)中的详细数据。 如果要存档到存储帐户，可以为诊断日志选择保持期。 日志将在保持期到期后被自动删除。
 
-3. 选择**保存**。
+3. 选择“保存”。 
 
     若要更改保存诊断日志的方式，可以返回到此页面以修改设置。
 
