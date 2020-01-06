@@ -8,13 +8,13 @@ ms.topic: overview
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.custom: mvc
-ms.date: 09/13/2019
-ms.openlocfilehash: a36499863346244bb3830e7ba4733045c4ddf8ba
-ms.sourcegitcommit: 01de0b01f66f28ca45b8d309d7864f261d6c9a85
+ms.date: 12/03/2019
+ms.openlocfilehash: 88df45a95e485695a9a2f36358c1fcca9670f258
+ms.sourcegitcommit: e492895259aa39960063f9b337a144a60c20125a
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/16/2019
-ms.locfileid: "74128292"
+ms.lasthandoff: 12/05/2019
+ms.locfileid: "74831143"
 ---
 # <a name="comparing-power-bi-report-server-and-the-power-bi-service"></a>比较 Power BI 报表服务器和 Power BI 服务
 
@@ -44,7 +44,7 @@ Power BI 报表服务器和 Power BI 服务有许多相似之处和一些关键�
 | Power BI 移动应用 | 是 | 是 | [Power BI 移动应用概述](../consumer/mobile/mobile-apps-for-mobile-devices.md) |
 | ARC GIS 地图 | 否 | 是 | [Power BI 服务和 Power BI Desktop 中通过 Esri 实现的 ArcGIS 地图](../visuals/power-bi-visualization-arcgis.md) |
 | Power BI 报表的电子邮件订阅 | 否 | 是 | 在 Power BI 服务中[为自己或他人订阅](../service-report-subscribe.md)报表或仪表板 |
-| 分页报表的电子邮件订阅 | 是 | 是 | [在 Power BI 服务中为自己和他人订阅分页报表](../paginated-reports-subscriptions.md)<br><br>[Reporting Services 中的电子邮件传递](https://docs.microsoft.com/sql/reporting-services/subscriptions/e-mail-delivery-in-reporting-services)  |
+| 分页报表的电子邮件订阅 | 是 | 是 | [在 Power BI 服务中为自己和他人订阅分页报表](../consumer/paginated-reports-subscriptions.md)<br><br>[Reporting Services 中的电子邮件传递](https://docs.microsoft.com/sql/reporting-services/subscriptions/e-mail-delivery-in-reporting-services)  |
 | 数据警报 | 否 | 是 | Power BI 服务中的[数据警报](../service-set-data-alerts.md)
 | 行级别安全性 (RLS) | 是 | 是 | 在 DirectQuery（数据源）和导入模式下均可用 <br><br>[Power BI 服务](../service-admin-rls.md)中的行级别安全性 <br><br>[Power BI 报表服务器](row-level-security-report-server.md)中的行级别安全性 |
 | 全屏模式 | 否 | 是 | Power BI 服务中的[全屏模式](../consumer/end-user-focus.md) |

@@ -1,20 +1,20 @@
 ---
 title: 管理和部署方法
 description: 供你了解 Power BI 内部生态系统管理的概念、选项和建议的白皮书。
-author: mgblythe
+author: kfollis
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
 ms.date: 09/13/2019
-ms.author: mblythe
+ms.author: kfollis
 LocalizationGroup: Administration
-ms.openlocfilehash: bede44edd545829ce6a891a0b3ecf634d530efbb
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: f6dd4171d786d9272ef2ef6b876148eaf2f31cf3
+ms.sourcegitcommit: f77b24a8a588605f005c9bb1fdad864955885718
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73857589"
+ms.lasthandoff: 12/02/2019
+ms.locfileid: "74698592"
 ---
 # <a name="governance-and-deployment-approaches"></a>管理和部署方法
 

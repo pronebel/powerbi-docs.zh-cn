@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.topic: conceptual
 ms.subservice: powerbi-custom-visuals
 ms.date: 07/16/2019
-ms.openlocfilehash: 10e7ab035f17715bba858fc3b055c5bf47af1331
-ms.sourcegitcommit: a21f7f9de32203e3a4057292a24ef9b5ac6ce94b
+ms.openlocfilehash: 6bf7610a010a72248a3d2fdd96718eea513a68da
+ms.sourcegitcommit: 5bb62c630e592af561173e449fc113efd7f84808
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/27/2019
-ms.locfileid: "74565370"
+ms.lasthandoff: 12/11/2019
+ms.locfileid: "75000080"
 ---
 # <a name="guidelines-for-power-bi-visuals"></a>Power BI 视觉对象指南
 在将 Power BI 视觉对象[发布](https://docs.microsoft.com/power-bi/developer/office-store)到 Microsoft AppSource 供其他人了解和使用之前，请遵循相关指南，为用户创造好的体验。
@@ -50,7 +50,12 @@ IAP Power BI 视觉对象是一种免费的视觉对象，可提供免费功能 
 
 ### <a name="submission-process"></a>提交过程
 
-开发人员通过卖家仪表板将其 IAP Power BI 视觉对象上传到 Microsoft AppSource，与上传免费视觉对象时一样。 为表明提交的 Power BI 视觉对象具有 IAP 功能，开发人员必须在卖家仪表板上注明：“应用内购买视觉对象。” 此外，开发人员需提供许可证密钥或令牌，以便验证团队可验证 IAP 功能。 在 Power BI 视觉对象通过验证和批准后，列出 IAP Power BI 视觉对象的 Microsoft AppSource 会在定价选项下声明“可能需要额外付费”。
+按照[提交过程](office-store.md#submitting-to-appsource)，然后导航到“产品设置”选项卡，并选中“我的产品要求购买服务”复选框   。
+
+在 Power BI 视觉对象通过验证和批准后，列出 IAP Power BI 视觉对象的 Microsoft AppSource 会在定价选项下声明“可能需要额外付费”。
+
+>[!NOTE]
+>如果已使用[卖家面板](https://docs.microsoft.com/office/dev/store/use-the-seller-dashboard-to-submit-to-the-office-store)提交了 Power BI 视觉对象，并且需要添加 IAP 功能，则必须在卖家面板注释中写明“可在应用内购买的视觉对象”。 此外，还需提供许可证密钥或令牌，以便验证团队可验证 IAP 功能。
 
 ## <a name="context-menu"></a>上下文菜单
 上下文菜单是在用户将鼠标悬停在视觉对象上时显示的右键单击菜单。

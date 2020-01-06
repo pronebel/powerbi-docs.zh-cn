@@ -1,20 +1,20 @@
 ---
 title: Power BI Premium 中的增量刷新
 description: 了解如何在 Power BI Premium 服务中启用大型数据集。
-author: mgblythe
+author: davidiseminger
 ms.reviewer: kayu
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
 ms.date: 08/21/2019
-ms.author: mblythe
+ms.author: davidi
 LocalizationGroup: Premium
-ms.openlocfilehash: cd8b4dcd87244f827fcabca630954353c9b6d8eb
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: cc2b005ef72700891a603162a281fbba23aa5120
+ms.sourcegitcommit: f77b24a8a588605f005c9bb1fdad864955885718
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73871871"
+ms.lasthandoff: 12/02/2019
+ms.locfileid: "74699282"
 ---
 # <a name="incremental-refresh-in-power-bi-premium"></a>Power BI Premium 中的增量刷新
 

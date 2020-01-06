@@ -1,8 +1,8 @@
 ---
 title: 优化 Microsoft Power BI Premium 容量
 description: 介绍 Power BI Premium 容量的优化策略。
-author: mgblythe
-ms.author: mblythe
+author: davidiseminger
+ms.author: davidi
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 04/09/2019
 ms.custom: seodec18
 LocalizationGroup: Premium
-ms.openlocfilehash: d2e8ede356ed015c4c35b311ca58d35366324b9a
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 4d03419105244b7fddafea3b26b69e4f4f5f874c
+ms.sourcegitcommit: 320d83ab392ded71bfda42c5491acab3d9d357b0
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73871916"
+ms.lasthandoff: 12/10/2019
+ms.locfileid: "74958531"
 ---
 # <a name="optimizing-premium-capacities"></a>优化高级容量
 
@@ -268,5 +268,3 @@ ms.locfileid: "73871916"
 > [高级容量方案](service-premium-capacity-scenarios.md)   
   
 更多问题？ [尝试咨询 Power BI 社区](https://community.powerbi.com/)
-
-||||||

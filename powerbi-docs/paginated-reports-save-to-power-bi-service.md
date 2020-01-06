@@ -7,13 +7,13 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: conceptual
-ms.date: 11/05/2018
-ms.openlocfilehash: 6cf3cd715915b5a6f3aa41e61c01c8b5b0a7d204
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.date: 12/03/2019
+ms.openlocfilehash: a7f0e6f08f25d47cd50789a3c8f296ae20c4cab0
+ms.sourcegitcommit: e492895259aa39960063f9b337a144a60c20125a
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73874764"
+ms.lasthandoff: 12/05/2019
+ms.locfileid: "74831196"
 ---
 # <a name="publish-a-paginated-report-to-the-power-bi-service"></a>将分页报表发布到 Power BI 服务
 
@@ -87,6 +87,6 @@ ms.locfileid: "73874764"
 
 ## <a name="next-steps"></a>后续步骤
 
-- [在 Power BI 服务中查看分页报表](paginated-reports-view-power-bi-service.md)
+- [在 Power BI 服务中查看分页报表](consumer/paginated-reports-view-power-bi-service.md)
 - [Power BI Premium 中的分页报表是什么？](paginated-reports-report-builder-power-bi.md)
 

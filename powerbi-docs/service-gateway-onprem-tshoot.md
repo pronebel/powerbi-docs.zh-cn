@@ -1,20 +1,20 @@
 ---
 title: 对网关进行排除故障 - Power BI
 description: 本文指导在遇到本地数据网关和 Power BI 问题时如何进行故障排查。 它提供了针对已知问题的可能方法，也提供了能够帮助你的工具。
-author: mgblythe
-ms.author: mblythe
+author: arthiriyer
+ms.author: arthii
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-gateways
 ms.topic: troubleshooting
 ms.date: 07/15/2019
 LocalizationGroup: Gateways
-ms.openlocfilehash: b420c827df3c18796d0d46514f81170f202eafbd
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 73e2c923500a2d78072a711bc7662a5923811bba
+ms.sourcegitcommit: f77b24a8a588605f005c9bb1fdad864955885718
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73881574"
+ms.lasthandoff: 12/02/2019
+ms.locfileid: "74699328"
 ---
 # <a name="troubleshoot-gateways---power-bi"></a>对网关进行排除故障 - Power BI
 

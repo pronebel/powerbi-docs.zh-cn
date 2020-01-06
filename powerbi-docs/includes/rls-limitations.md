@@ -1,15 +1,15 @@
 ---
-author: mgblythe
+author: davidiseminger
 ms.service: powerbi
 ms.topic: include
 ms.date: 09/13/2019
-ms.author: mblythe
-ms.openlocfilehash: c658e683e86a899d45728220dee3706a0d617f0f
-ms.sourcegitcommit: c395fe83d63641e0fbd7c98e51bbab224805bbcc
+ms.author: davidi
+ms.openlocfilehash: 6d1a239954a64da1c92cc68b56912e6f4ab67228
+ms.sourcegitcommit: 9a265d8117cc202f5f700286b5ff42a631aacdb4
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/21/2019
-ms.locfileid: "74284079"
+ms.lasthandoff: 12/06/2019
+ms.locfileid: "74882795"
 ---
 ## <a name="limitations"></a>限制
 
@@ -19,7 +19,7 @@ ms.locfileid: "74284079"
 
 * 只能在使用 Power BI Desktop 创建的数据集上定义 RLS。 若想为使用 Excel 创建的数据集启用 RLS，首先必须将你的文件转换为 Power BI Desktop (PBIX) 文件。 [了解详细信息](../desktop-import-excel-workbooks.md)
 
-* 仅支持 ETL 和 DirectQuery 连接。 在本地模型上处理到 Analysis Services 的实时连接。
+* 仅支持导入和 DirectQuery 连接。 在本地模型上处理到 Analysis Services 的实时连接。
 
 ## <a name="known-issues"></a>已知问题
 
@@ -31,4 +31,4 @@ ms.locfileid: "74284079"
 
 1. Anna 收到一个错误。
 
-解决方法  ：重新从 Power BI 服务中发布 Power BI Desktop 文件，直到此问题得到解决。 可以通过选择“获取数据”   > “文件”  来执行此操作。
+解决方法：重新从 Power BI 服务中发布 Power BI Desktop 文件，直到此问题得到解决。 可以通过选择“获取数据” > “文件”来执行此操作。

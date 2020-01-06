@@ -1,20 +1,20 @@
 ---
 title: 使用 gx64krb5 将 Kerberos 用于单一登录 (SSO) 到 SAP BW
 description: 将 SAP BW 服务器配置为使用 gx64krb5 从 Power BI 服务启用 SSO
-author: mgblythe
-ms.author: mblythe
+author: arthiriyer
+ms.author: arthii
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-gateways
 ms.topic: conceptual
 ms.date: 10/10/2019
 LocalizationGroup: Gateways
-ms.openlocfilehash: a162ba686c3f548ed371e7a63c2d85dd1f697462
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 6c8b62cf798d2fbbd09dab0603d216448d04487c
+ms.sourcegitcommit: 5bb62c630e592af561173e449fc113efd7f84808
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73881471"
+ms.lasthandoff: 12/11/2019
+ms.locfileid: "75000126"
 ---
 # <a name="use-kerberos-for-single-sign-on-sso-to-sap-bw-using-gx64krb5"></a>使用 gx64krb5 将 Kerberos 用于单一登录 (SSO) 到 SAP BW
 
@@ -197,6 +197,8 @@ ms.locfileid: "73881471"
       ![CPIC 跟踪](media/service-gateway-sso-kerberos/cpic-tracing.png)
 
     c. 重现问题，确保 CPIC\_TRACE\_DIR 包含跟踪文件  。 
+    
+    d. 检查跟踪文件的内容，确定阻塞性问题。 例如，你可能会发现 gx64krb5.dll 未正确加载，或者与你预期不同的 Active Directory 用户发起了 SSO 连接尝试。
 
 ## <a name="next-steps"></a>后续步骤
 

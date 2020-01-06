@@ -7,19 +7,19 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 10/18/2019
 ms.author: mohaali
-ms.openlocfilehash: d1ae995c3e98befe776ac091a0312e281e97022e
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 64a6294ca30901c61928eca068ab4ebbb3d39638
+ms.sourcegitcommit: 320d83ab392ded71bfda42c5491acab3d9d357b0
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73875324"
+ms.lasthandoff: 12/10/2019
+ms.locfileid: "74958508"
 ---
 # <a name="edit-qa-linguistic-schema-and-add-phrasings-in-power-bi-desktop"></a>在 Power BI Desktop 中编辑“问答”功能的语言架构并添加短语 
 使用常用短语和自然语言来查询数据是一个非常有用的功能。 如果你的数据本身潜藏解答，该项功能会更显强大。 向 Power BI“问答”功能提问时，它会尽力给出正确答案。 但为了实现更好的“问答”交互效果，你可以改进答案。 其中一种方法是编辑语言架构。 
 
-一切都从企业数据开始。  数据模型越好，用户就越容易得到高质量的答案。 改进模型的一种方法是添加语言架构，该架构对数据集中表名和列名的术语及两者之间的关系进行定义和分类。 在 Power BI Desktop 中管理语言架构。 
+这一切都从你的企业数据开始。  数据模型越好，用户就越容易得到高质量的答案。 改进模型的一种方法是添加语言架构，该架构对数据集中表名和列名的术语及两者之间的关系进行定义和分类。 在 Power BI Desktop 中管理语言架构。 
 
-“问答”功能涉及到两方面。  首先是准备（或称为“建模”）  。  其次是提问和浏览数据（或称为“使用”）  。 在一些公司，被称为数据建模人员或 IT 管理员的员工可能负责组装数据集、创建数据模型和将数据集发布到 Power BI  。  另一组员工是联机“使用”数据的员工。  在其他公司，这些角色可能混在一起。 
+“问答”功能涉及到两方面。  首先是准备（或称为“建模”）  。  其次是提问和浏览数据（或称为“使用”）  。 在一些公司，被称为数据建模人员或 IT 管理员的员工可能负责组装数据集、创建数据模型和将数据集发布到 Power BI  。  另一组员工是联机“使用”数据的员工。  在其他公司，这些角色可能混在一起。 
 
 本文适用于数据建模者，以及为了尽可能提供最佳“问答”结果而优化数据集的人员。 
 

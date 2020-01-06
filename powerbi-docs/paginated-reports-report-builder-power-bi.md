@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: overview
 ms.date: 11/27/2019
-ms.openlocfilehash: 90bc46c484f659994c6a9500865803531fa3cdcc
-ms.sourcegitcommit: a21f7f9de32203e3a4057292a24ef9b5ac6ce94b
+ms.openlocfilehash: 35f50f57f3874bbb87fcdd5fbcf7da987fea1d1a
+ms.sourcegitcommit: e492895259aa39960063f9b337a144a60c20125a
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/27/2019
-ms.locfileid: "74565708"
+ms.lasthandoff: 12/05/2019
+ms.locfileid: "74831159"
 ---
 # <a name="what-are-paginated-reports-in-power-bi-premium"></a>Power BI Premium 中的分页报表是什么？
 
@@ -70,7 +70,7 @@ ms.locfileid: "74565708"
 
 现在可以在 Power BI 服务中为自己和他人设置分页报表的电子邮件订阅。 一般而言，该过程与在 Power BI 服务中订阅报表和仪表板的过程相同。 设置订阅时，可以选择接收电子邮件的频率：每天、每周或每小时。 订阅包含有关整个报表输出的 PDF 附件。
 
-有关详细信息，请参阅[在 Power BI 服务中为自己和他人订阅分页报表](paginated-reports-subscriptions.md)一文。 
+有关详细信息，请参阅[在 Power BI 服务中为自己和他人订阅分页报表](consumer/paginated-reports-subscriptions.md)一文。 
 
 ## <a name="limitations-and-considerations"></a>限制和注意事项
 

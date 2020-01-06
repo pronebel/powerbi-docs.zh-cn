@@ -56,6 +56,8 @@
               href: end-user-interactions.md
             - name: 将报表导出为 PDF
               href: end-user-pdf.md
+            - name: 将报表导出为 PowerPoint
+              href: end-user-powerpoint.md
             - name: 向报表添加书签
               href: end-user-bookmarks.md
             - name: Power BI 中的分页报表
@@ -140,6 +142,8 @@
       items:
         - name: 什么是移动应用？
           href: mobile/mobile-apps-for-mobile-devices.md
+        - name: 了解主页
+          href: mobile/mobile-apps-home-page.md
     - name: 快速入门
       items:
         - name: 浏览仪表板和报表
@@ -196,7 +200,7 @@
               href: mobile/mobile-apps-qr-code.md
             - name: 在移动应用中批注并共享
               href: mobile/mobile-annotate-and-share-a-tile-from-the-mobile-apps.md
-            - name: 使用 iPhone 上的应用扫描条形码
+            - name: 从 Power BI 移动应用中扫描条形码
               href: mobile/mobile-apps-scan-barcode-iphone.md
             - name: 使用移动设备管理进行配置
               href: mobile/mobile-app-configuration.md

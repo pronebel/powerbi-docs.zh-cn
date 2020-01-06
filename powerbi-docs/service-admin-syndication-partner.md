@@ -1,20 +1,20 @@
 ---
 title: 无法将 Power BI 添加到 O365 合作伙伴
 description: 无法将 Power BI 添加到 Office 365 联合合作伙伴。 联合模型是 Office 365 使用的购买模型。
-author: mgblythe
+author: kfollis
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
 ms.date: 09/09/2019
-ms.author: mblythe
+ms.author: kfollis
 LocalizationGroup: Administration
-ms.openlocfilehash: 558d939582b5ac7ec67d64a9f56305326bc34d03
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: cc85fb07f50a42952e9b293908a797b1cbac023f
+ms.sourcegitcommit: 320d83ab392ded71bfda42c5491acab3d9d357b0
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73856647"
+ms.lasthandoff: 12/10/2019
+ms.locfileid: "74958347"
 ---
 # <a name="unable-to-add-power-bi-to-office-365-partner-subscription"></a>无法将 Power BI 添加到 Office 365 合作伙伴订阅
 
@@ -48,7 +48,7 @@ ms.locfileid: "73856647"
 
 ## <a name="sign-up-for-a-free-trial"></a>注册免费试用版
 
-可以注册 Power BI Pro 免费试用版。 如果在试用期到期时未购买 Power BI Pro，仍有允许使用许多 Power BI 功能的免费许可证。 有关详细信息，请参阅[按许可证类型划分的 Power BI 功能](service-features-license-type.md)。
+可以注册 Power BI 免费试用版。 如果在试用期到期时未购买 Power BI Pro，仍有允许使用许多 Power BI 功能的免费许可证。 有关详细信息，请参阅[以个人身份注册 Power BI](service-self-service-signup-for-power-bi.md)。
 
 ### <a name="enable-ad-hoc-subscriptions"></a>启用临时订阅
 

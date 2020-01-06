@@ -1,20 +1,20 @@
 ---
 title: 教程：连接到 SQL Server 中的本地数据
 description: 了解如何将 SQL Server 用作网关数据源，包括如何刷新数据。
-author: mgblythe
+author: arthiriyer
 ms.reviewer: kayu
 ms.service: powerbi
 ms.subservice: powerbi-gateways
 ms.topic: tutorial
 ms.date: 07/15/2019
-ms.author: mblythe
+ms.author: arthii
 LocalizationGroup: Gateways
-ms.openlocfilehash: 91b6ee8971004a014b188f94142e90914ae3a3b7
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 100417202fca148be0e2e976ce0cd84167c803d9
+ms.sourcegitcommit: 320d83ab392ded71bfda42c5491acab3d9d357b0
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73881553"
+ms.lasthandoff: 12/10/2019
+ms.locfileid: "74958418"
 ---
 # <a name="refresh-data-from-an-on-premises-sql-server-database"></a>从本地 SQL Server 数据库刷新数据
 
@@ -49,6 +49,10 @@ ms.locfileid: "73881553"
 2. 在“SQL Server 数据库”对话框中，输入“服务器”和“数据库(可选)”名称，确保数据连接模式为“导入”，然后选择“确定”       。
 
     ![SQL Server 数据库](./media/service-gateway-sql-tutorial/sql-server-database.png)
+
+    在本教程中，我们没有使用“高级选项”  ，但是请注意，你可以指定 SQL 语句并设置其他选项，例如使用 [SQL Server 故障转移](/sql/database-engine/availability-groups/windows/failover-clustering-and-always-on-availability-groups-sql-server)。
+
+    ![SQL Server 高级选项](media/service-gateway-sql-tutorial/sql-server-advanced-options.png)
 
 3. 验证凭据，然后选择“连接”   。
 

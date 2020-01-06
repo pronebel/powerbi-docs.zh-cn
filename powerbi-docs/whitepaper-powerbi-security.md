@@ -9,12 +9,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 10/24/2019
 LocalizationGroup: Conceptual
-ms.openlocfilehash: fa9c07be31f5110f44c2f200bbde249c95abe9ed
-ms.sourcegitcommit: 0d7ad791a2d2bef45d5d60e38e0af4c9fc22187b
+ms.openlocfilehash: 656f7e532702cef8c38af96e8c9df49ffc36734a
+ms.sourcegitcommit: 4359baa43ca01b179d28ec59f4e61ba8c07ee288
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/13/2019
-ms.locfileid: "74009835"
+ms.lasthandoff: 12/20/2019
+ms.locfileid: "75304363"
 ---
 # <a name="power-bi-security-whitepaper"></a>Power BI 安全性白皮书
 
@@ -33,7 +33,7 @@ ms.locfileid: "74009835"
 
 Power BI 是 Microsoft 提供的在线软件服务（SaaS 或软件即服务），你可以通过它轻松快速地创建自助式商业智能仪表板、报表、数据集和可视化。 使用 Power BI，可以连接到多个不同的数据源，合并并调整来自这些连接的数据，然后创建可与其他人共享的报表和仪表板。
 
-Power BI 服务受 [Microsoft Online Services 条款](https://www.microsoftvolumelicensing.com/DocumentSearch.aspx?Mode=3&amp;DocumentTypeId=31)和 [Microsoft Enterprise Privacy 声明](https://www.microsoft.com/privacystatement/OnlineServices/Default.aspx)约束。 有关数据处理的位置，参阅 Microsoft Online Services 条款中的数据处理条款位置。 有关符合性信息，[Microsoft 信任中心](https://www.microsoft.com/trustcenter)提供了适用于 Power BI 的大量资源。 Power BI 团队正在努力为客户提供最新创新和提高生产效率。 Power BI 当前在[Office 365 相容性框架](https://go.microsoft.com/fwlink/p/?LinkID=618494)的第 D 层中。
+Power BI 服务受 [Microsoft Online Services 条款](https://www.microsoftvolumelicensing.com/DocumentSearch.aspx?Mode=3&amp;DocumentTypeId=31)和 [Microsoft Enterprise Privacy 声明](https://www.microsoft.com/privacystatement/OnlineServices/Default.aspx)约束。 有关数据处理的位置，参阅 Microsoft Online Services 条款中的数据处理条款位置。 有关符合性信息，[Microsoft 信任中心](https://www.microsoft.com/trustcenter)提供了适用于 Power BI 的大量资源。 Power BI 团队正在努力为客户提供最新创新和提高生产效率。 Power BI 当前在[Office 365 相容性框架](https://download.microsoft.com/download/1/4/3/1434ABAB-B8E9-412D-8C3A-187B5FCB7A2F/Compliance%20Framework%20document.pdf)的第 D 层中。
 
 本文通过以下方式介绍了 Power BI 的安全性：首先说明 Power BI 的体系结构，然后说明用户如何对 Power BI 进行身份验证以及如何建立数据连接，最后描述 Power BI 如何通过服务存储和移动数据。 最后一部分专门讨论与安全相关的问题，并附上了每个问题的答案。
 
@@ -135,7 +135,7 @@ Power BI 服务的用户身份验证包括用户的浏览器与 Power BI 服务�
 
 Power BI 服务的用户身份验证序列如下图中的步骤所示。
 
-1. 用户通过在地址栏中（例如 https://app.powerbi.com) ）键入 Power BI 地址或从 Power BI 登录页面 (https://powerbi.microsoft.com) ) 选择“登录”，从浏览器发起与 Power BI 服务的连接。 使用 TLS 1.2 和 HTTPS 建立连接，浏览器和 Power BI 服务之间的所有后续通信都使用 HTTPS。 请求将发送到 Azure 流量管理器。
+1. 用户通过在地址栏中（例如 https://app.powerbi.com)）键入 Power BI 地址或从 Power BI 登录页面 (https://powerbi.microsoft.com)) 选择“登录”，从浏览器发起与 Power BI 服务的连接。 使用 TLS 1.2 和 HTTPS 建立连接，浏览器和 Power BI 服务之间的所有后续通信都使用 HTTPS。 请求将发送到 Azure 流量管理器。
 
 2. Azure 流量管理器检查用户的 DNS 记录，以确定部署 Power BI 的最近数据中心，并使用应将用户发送到其中的 WFE 群集的 IP 地址响应 DNS。
 
@@ -193,6 +193,7 @@ DirectQuery 和其他查询之间的区别决定了 Power BI 服务如何处理�
   - 在数据移动角色中 - 用于基于云的数据源
 
 用于加密 Microsoft Azure Blob 存储的内容加密密钥 (CEK) 是随机生成的 256 位密钥。 CEK 用于加密内容的算法是 AES \_CBC\_256。
+
 
 用于加密 CEK 的密钥加密密钥 (KEK) 则是预定义的 256 位密钥。 KEK 加密 CEK 采用的算法是 A256KW。
 
@@ -378,7 +379,7 @@ Power BI 移动版可用的所有三个平台都支持 Microsoft Intune，这是
 
   此外，组织可以使用 Kerberos 进行单一登录 (SSO)，并从 Power BI 无缝连接到 SQL Server、SAP HANA 和 Teradata 等本地数据源。 有关更多信息和特定配置要求，请参阅[将 Kerberos 用于从 Power BI 到本地数据源的 SSO](https://docs.microsoft.com/power-bi/service-gateway-kerberos-for-sso-pbi-to-on-premises-data)。
 
-* **非域连接**：对于未加入域且不具备角色级安全性（RLS）的数据连接，用户必须在连接序列中提供凭据，然后 Power BI 传递到数据源以建立连接. 如果有足够的权限，则会将数据从数据源加载到 Power BI 服务。
+* **非域连接**：对于未加入域且不具备角色级别安全性（RLS）的数据连接，用户必须在连接序列中提供凭据，然后 Power BI 传递到数据源以建立连接。 如果有足够的权限，则会将数据从数据源加载到 Power BI 服务。
 
 **如何将数据传输到 Power BI？**
 

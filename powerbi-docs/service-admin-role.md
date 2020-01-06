@@ -1,20 +1,20 @@
 ---
 title: 了解 Power BI 管理员角色
 description: 本文介绍 Power BI 服务管理员角色以及如何在组织中使用它。
-author: mgblythe
+author: kfollis
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
 ms.date: 09/09/2019
-ms.author: mblythe
+ms.author: kfollis
 LocalizationGroup: Administration
-ms.openlocfilehash: 900734a027a0f1af76f93709f80eec8d8e8b3108
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: a6121ca16250de9765557b9c9acbf73b513723ee
+ms.sourcegitcommit: f77b24a8a588605f005c9bb1fdad864955885718
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73856729"
+ms.lasthandoff: 12/02/2019
+ms.locfileid: "74699903"
 ---
 # <a name="understanding-the-power-bi-service-administrator-role"></a>了解 Power BI 服务管理员角色
 

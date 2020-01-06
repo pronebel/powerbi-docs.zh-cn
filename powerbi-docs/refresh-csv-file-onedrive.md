@@ -1,21 +1,21 @@
 ---
 title: 在 OneDrive 中刷新基于 .csv 文件创建的数据集
 description: 在 OneDrive 上刷新使用逗号分隔值 (.csv) 文件创建的数据集
-author: mgblythe
+author: davidiseminger
 ms.reviewer: kayu
 ms.custom: seodec18
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 09/12/2019
-ms.author: mblythe
+ms.author: davidi
 LocalizationGroup: Data refresh
-ms.openlocfilehash: bfa5d3409db64500b7d9832583026b73cec52b45
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: d18d3a5b5d85a121f67c5b3109a150a21ab72d1a
+ms.sourcegitcommit: f77b24a8a588605f005c9bb1fdad864955885718
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73877574"
+ms.lasthandoff: 12/02/2019
+ms.locfileid: "74699696"
 ---
 # <a name="refresh-a-dataset-created-from-a-csv-file-on-onedrive-or-sharepoint-online"></a>刷新使用 OneDrive 或 SharePoint Online 上的 .CSV 文件创建的数据集
 ## <a name="what-are-the-advantages"></a>有什么好处？

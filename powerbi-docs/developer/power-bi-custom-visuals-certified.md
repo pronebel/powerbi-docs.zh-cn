@@ -1,5 +1,5 @@
 ---
-title: 已认证的 Power BI Power BI 视觉对象
+title: 已认证的 Power BI 视觉对象
 description: 提交自定义视觉对象以供认证的要求和过程。 以及已认证的 Power BI 视觉对象的列表。
 author: KesemSharabi
 ms.author: kesharab
@@ -8,92 +8,94 @@ featuredvideoid: ''
 ms.service: powerbi
 ms.topic: conceptual
 ms.subservice: powerbi-custom-visuals
-ms.date: 05/9/2019
-ms.openlocfilehash: 373d57b871953f1afe02212ff0a1bbdb633cac4d
-ms.sourcegitcommit: a21f7f9de32203e3a4057292a24ef9b5ac6ce94b
+ms.date: 12/02/2019
+ms.openlocfilehash: 0a39496ade27cd45fae116eea92ef4b472e04582
+ms.sourcegitcommit: 5bb62c630e592af561173e449fc113efd7f84808
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/27/2019
-ms.locfileid: "74565242"
+ms.lasthandoff: 12/11/2019
+ms.locfileid: "74999735"
 ---
 # <a name="get-a-power-bi-visual-certified"></a>获取 Power BI 视觉对象认证
 
-## <a name="what-are-_certified_-power-bi-visuals"></a>什么是 **_已认证_** 的 Power BI 视觉对象？
+已认证的 Power BI 视觉对象是*市场*中满足由 *Microsoft Power BI 团队*测试和批准的某些*指定代码*要求的视觉对象。 测试旨在检查并确认视觉对象不会访问外部服务或资源。
 
-已认证的 Power BI 视觉对象是**市场**中满足由 **Microsoft Power BI 团队**测试和批准的某些**指定代码**要求的视觉对象。 自定义视觉对象一旦通过认证，将提供更多功能。 例如，可[导出到 PowerPoint](../consumer/end-user-powerpoint.md)，并且如果用户[订阅了报表页](../consumer/end-user-subscribe.md)，则可在收到的电子邮件中的显示视觉对象。
+已认证的 Power BI 视觉对象与[标准 Power BI 视觉对象](power-bi-custom-visuals.md)的使用方法相同。 可将已认证的 Power BI 视觉对象添加到 [Power BI Desktop](../desktop-what-is-desktop.md) 和 [Power BI 服务](../power-bi-service-overview.md)，并通过 [Power BI 移动版](../consumer/mobile/mobile-apps-for-mobile-devices.md)和 [Power BI Embedded](embedding.md) 查看。
 
-**已认证的 Power BI 视觉对象**的使用方法类似于[标准 Power BI 视觉对象](power-bi-custom-visuals.md)的使用方法。 可将已认证的 Power BI 视觉对象添加到 **Power BI 服务**、**Power BI Desktop 报表**，并通过 **Power BI 移动版**和 **Power BI Embedded** 查看。
+认证过程是一个可选的过程。 由开发人员决定是否需要对市场中的 Power BI 视觉对象进行认证。 Power BI 视觉对象一旦通过认证，将提供更多功能。 例如，可[导出到 PowerPoint](../consumer/end-user-powerpoint.md)，或者，如果用户[订阅了报表页](../consumer/end-user-subscribe.md)，则可在收到的电子邮件中的显示视觉对象。
 
-执行的测试旨在检查视觉对象是否会访问外部服务或资源。 **Microsoft** *不是*第三方 Power BI 视觉对象的作者，建议客户直接与作者联系，验证此类视觉对象的功能。
+未经认证的 Power BI 视觉对象并不一定是不安全的视觉对象。 某些视觉对象未经认证，是因为它们与一个或多个[认证要求](https://docs.microsoft.com/power-bi/power-bi-custom-visuals-certified?#certification-requirements)不符。 例如，连接到外部服务的地图视觉对象，或使用商业库的视觉对象。
 
-认证过程是一个可选过程，由开发人员决定是否让其在市场中的视觉对象接受认证。  
+如果 Web 开发人员有兴趣创建自己的 Power BI 视觉对象并将其添加到  [Microsoft AppSource](https://appsource.microsoft.com)，可从 [开发 Power BI 视觉对象](visuals/custom-visual-develop-tutorial.md)教程开始入手。
 
-**未经认证的 Power BI 视觉对象**不一定是不安全的视觉对象。 某些视觉对象未经认证，是因为它们与一个或多个[认证要求](https://docs.microsoft.com/power-bi/power-bi-custom-visuals-certified?#certification-requirements)不符。 例如，连接到外部服务的地图视觉对象，或使用商业库的视觉对象。
+> [!NOTE]
+> Microsoft 不是第三方 Power BI 视觉对象的作者。 若要验证第三方视觉对象的功能，建议客户直接联系视觉对象的作者。
 
-你是 Web 开发者吗？对创建自己的可视化效果，并将它们添加到  **[Microsoft AppSource](https://appsource.microsoft.com)** 感兴趣吗？ 请参阅 **[开发 Power BI 自定义视觉对象，了解如何操作](visuals/custom-visual-develop-tutorial.md)** 。
+> [!IMPORTANT]
+> Microsoft 可自行从[经认证列表](#list-of-power-bi-visuals-that-have-been-certified)中删除 Power BI 视觉对象。
 
-## <a name="removal-of-power-bi-certified-power-bi-visuals"></a>删除 Power BI 已认证的 Power BI 视觉对象
+## <a name="certification-requirements"></a>认证要求
 
-Microsoft 可自行从[经认证列表](#list-of-power-bi-visuals-that-have-been-certified)中删除视觉对象。
-
-## <a name="getting-a-custom-visualcertified"></a>让自定义视觉对象取得认证
-
-### <a name="certification-requirements"></a>认证要求
-
-若要让自定义视觉对象[获得认证](#get-a-power-bi-visual-certified)，自定义视觉对象必须符合以下要求：  
-
-* 经 Microsoft AppSource 批准。 自定义视觉对象应位于我们的[市场](https://appsource.microsoft.com/marketplace/apps?page=1&product=power-bi-visuals)中。
-* 自定义视觉对象是使用经版本控制的 API v2.5  或更高版本编写的。
-* 可供 Power BI 团队查看的代码存储库（例如，通过 GitHub 提供的人工可读格式的源代码 [JavaScript 或 TypeScript]）。
-
-    >[!Note]
-    > 无需在 Github 中公开共享代码。
-* 代码存储库要求：
-   * 必须包含所需的最小文件集：
-      * .gitignore
-      * capabilities.json
-      * pbiviz.json
-      * package.json
-      * package-lock.json
-      * tsconfig.json
-   * 不得包含 node_modules 文件夹（将 node_modules 添加到 .gitingore 文件）
-   * npm install  命名不得返回任何错误。
-   * npm audit  命令不得返回任何具有高级别或中等级别的警告。
-   * pbiviz package  命名不得返回任何错误。
-   * 必须包含 [Microsoft 提供的 TSlint](https://www.npmjs.com/package/tslint-microsoft-contrib)，且不会重写配置，此命令不得返回任何 lint 错误。
-   * 自定义视觉对象的编译包必须匹配已提交的包（两个文件的 md5 哈希应相等）。
-* 源代码要求：
-   * 视觉对象必须支持[呈现事件 API](https://microsoft.github.io/PowerBI-visuals/docs/how-to-guide/rendering-events/)。
-   * 确保未运行任何任意/动态代码 (bad: eval(), unsafe to use of settimeout(), requestAnimationFrame(), setinterval(some function with user input), running user input/data)。
-   * 确保安全地操作 DOM (bad: innerHTML, D3.html(<一些用户/数据输入>)，在将用户输入/数据添加到 DOM 之前，先对其进行清理。
-   * 确保浏览器控制台中的任何输入数据均没有 javascript 错误/异常。 用户可能会将视觉对象与不同范围的意外数据一起使用，因此，视觉对象不容失败。 可以将[此示例报表](https://github.com/Microsoft/PowerBI-visuals/raw/gh-pages/assets/reports/large_data.pbix)用作测试数据集。
-
-* 如果更改了 capabilities.json 中的任何属性，请确保更改不会破坏现有的用户报表。
-
-* 确保视觉对象符合 [Power BI 视觉对象指南](./guidelines-powerbi-visuals.md)。 **不允许使用水印**。
-
-* 仅使用可审核的公共 OSS 组件（公共的 JS 库或 TypeScript。 源代码可供审核，且无已知漏洞）。 我们无法验证使用商业组件的自定义视觉对象。
-
-* 不访问外部服务或资源，包括但不限于，没有从 Power BI 到任何服务的 HTTP/S 或 WebSocket 请求。 
+若要使 Power BI 视觉对象通过[认证](#get-a-power-bi-visual-certified)，请确保 Power BI 视觉对象符合本节中所列的要求。 
 
 > [!TIP]
 > 建议结合使用 EsLint 与默认安全规则集，以便在提交之前预先验证代码。
 
-## <a name="process-for-submitting-a-custom-visual-for-certification"></a>提交自定义视觉对象以供认证的过程
+* Microsoft 卖家面板或合作伙伴中心已批准。 Power BI 视觉对象应位于我们的[市场](https://appsource.microsoft.com/marketplace/apps?page=1&product=power-bi-visuals)中。
+* Power BI 视觉对象是使用 API v2.5 或更高版本编写的。
+* Power BI 团队可以查看代码存储库。 例如，可通过 GitHub 使用源代码（JavaScript 或 TypeScript）的可读格式。
 
-提交自定义视觉对象以供认证：
+    >[!NOTE]
+    > 无需在 Github 中公开共享代码。
 
-1. 向 Power BI Power BI 视觉对象支持团队 (pbicvsupport@microsoft.com) 发送电子邮件。 在电子邮件中，添加以下信息：
-    * 标题：视觉对象认证请求
-    * 指向托管人工可读源代码的 GitHub 存储库的链接
-    * [符合要求](#certification-requirements)
-    * 通过代码审查
+* 代码存储库要求：
+  * 必须包含以下文件：
+    * .gitignore
+    * capabilities.json
+    * pbiviz.json
+    * package.json
+    * package-lock.json
+    * tsconfig.json
+  * 不得包含 node_modules 文件夹（将 node_modules 添加到 .gitingore* 文件）。
+  * npm install 命令不得返回任何错误。
+  * npm audit 命令不得返回任何具有高级别或中等级别的警告。
+  * pbiviz package 命令不得返回任何错误。
+  * 必须包括 [Microsoft 提供的 TSlint](https://www.npmjs.com/package/tslint-microsoft-contrib)，且没有重写的配置。 此命令不得返回任何 Lint 错误。
+   * Power BI 视觉对象的编译包必须匹配已提交的包（两个文件的 md5 哈希应相等）。
+* 源代码要求：
+   * Power BI 视觉对象必须支持[呈现事件 API](https://microsoft.github.io/PowerBI-visuals/docs/how-to-guide/rendering-events/)。
+   * 确保未运行任何任意/动态代码 (bad: eval(), unsafe to use of settimeout(), requestAnimationFrame(), setinterval(some function with user input), running user input/data)。
+   * 确保安全地操作 DOM (bad: innerHTML, D3.html(<一些用户/数据输入>)，在将用户输入/数据添加到 DOM 之前，先对其进行清理。
+   * 确保浏览器控制台中的任何输入数据均没有 javascript 错误/异常。 用户可能会将 Power BI 视觉对象与不同范围的异常数据一起使用，因此，视觉对象不容失败。 可以将此[示例报表](https://github.com/Microsoft/PowerBI-visuals/raw/gh-pages/assets/reports/large_data.pbix)用作测试数据集。
 
-2. Microsoft Power BI 视觉对象团队会通知你自定义视觉对象已取得认证，并添加到[已认证列表](#list-of-power-bi-visuals-that-have-been-certified)中，或自定义视觉对象已遭拒，并随附一份报告，在其中列出需要解决的问题。 由开发者负责维护与 Microsoft 间的开放式沟通渠道，并根据需要更新经认证的视觉对象。
+* 如果更改了 capabilities.json 文件中的任何属性，请确保更改不会破坏现有的用户报表。
+
+* 确保 Power BI 视觉对象符合 [Power BI 视觉对象指南](./guidelines-powerbi-visuals.md)。
+    
+* 你的代码只能使用可供审核的公用 OSS 组件，例如公用 Javascript 或 TypeScript 库。 源代码必须可供审核，且无已知漏洞。 我们无法验证使用商业组件的自定义视觉对象。
+
+* Power BI 视觉对象不得访问外部服务或资源。 例如，任何 HTTP/S 或 WebSocket 请求都不能从 Power BI 外部发送到任何服务。 
+
+## <a name="submitting-a-power-bi-visual-for-certification"></a>提交 Power BI 视觉对象用于认证
+
+可以通过合作伙伴中心请求 Power BI 团队认证 Power BI 视觉对象。
+
+>[!TIP]
+>Power BI 认证过程可能需要一段时间。 如果要创建新的 Power BI 视觉对象，建议在请求 Power BI 认证之前，通过合作伙伴中心发布 Power BI 视觉对象。 这样可以确保不会延迟视觉对象的发布。
+
+请求 Power BI 认证的步骤：
+
+1. 登录到合作伙伴中心。
+2. 在“概述”页上，选择你的 Power BI 视觉对象，然后转到“产品”设置页。
+3. 选中“请求 Power BI 认证”复选框。
+4. 在“审阅并发布”页的“认证说明”文本框中，提供指向源代码的链接以及访问它所需的凭据。
+
+>[!NOTE]
+> 如果在 Power BI 的视觉对象提交过程中需要使用[卖家面板](https://docs.microsoft.com/office/dev/store/use-the-seller-dashboard-to-submit-to-the-office-store)（旧的管理工具），请查看[卖家面板认证提交流程](seller-dashboard.md#seller-dashboard-certification-submission-process)说明。
 
 ## <a name="list-of-power-bi-visuals-that-have-been-certified"></a>已认证的 Power BI 视觉对象的列表
 
-| AppSource 链接 | 链接到视频 |
+| 链接 | 视频 |
 | --- | --- |
 | [3AG 系统 - 具有相对方差的条形图](https://appsource.microsoft.com/en/product/power-bi-visuals/WA104381912) | |
 | [3AG 系统 - 具有相对方差的柱形图](https://appsource.microsoft.com/product/power-bi-visuals/WA104381803) | |

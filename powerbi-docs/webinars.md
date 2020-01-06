@@ -8,12 +8,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 06/01/2019
 ms.author: v-tatero
-ms.openlocfilehash: b451333aaf93584e7e16dcf24e6b693e9da3eccd
-ms.sourcegitcommit: 462ccdd9f79ff698ed0cdfc3165f4ada364dd9ef
+ms.openlocfilehash: 44da3a20c203bfc50be08b0ed91efa6dfd998204
+ms.sourcegitcommit: 9a265d8117cc202f5f700286b5ff42a631aacdb4
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/25/2019
-ms.locfileid: "74478646"
+ms.lasthandoff: 12/06/2019
+ms.locfileid: "74882754"
 ---
 # <a name="power-bi-webinars"></a>Power BI 网络研讨会
 
@@ -24,10 +24,6 @@ ms.locfileid: "74478646"
 **Azure 虚拟事件中的分析：利用 Azure Synapse Analytics 加快获得见解的速度**
 <br>作者：Gayle Sheppard 和 John Macintyre
 <br>[立即注册](https://info.microsoft.com/WW-Analytics-in-Azure-virtual-event-Accelerate-Time-to-Insight-with-Azure-Synapse-Analytics-Registration.html?ocid=AID2482920_QSG_373413)
-
-**Microsoft 如何更改 BI 数据保护**
-<br>作者：Anton Fritz 和 Adi Regev
-<br>[注册后即可观看 12 月 4 日的节目](https://info.microsoft.com/ww-landing-How-Microsoft-Is-Changing-BI-Data-Protection.html?lcid=EN-US)
 
 **塑造大数据分析未来的九大趋势**
 <br>作者：Vijay Gopalakrishnan
@@ -42,6 +38,10 @@ ms.locfileid: "74478646"
 ## <a name="featured-webinars"></a>特别推荐的网络研讨会
 
 开始加入这些受欢迎的按需网络研讨会
+
+**Microsoft 如何更改 BI 数据保护**
+<br>作者：Anton Fritz 和 Adi Regev
+<br>[注册并立即观看](https://info.microsoft.com/ww-landing-How-Microsoft-Is-Changing-BI-Data-Protection.html?lcid=EN-US)
 
 **Power BI 与现代企业 BI 的未来**
 <br>作者：Arun Ulag 和 Amir Netz

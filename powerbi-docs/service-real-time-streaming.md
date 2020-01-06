@@ -9,17 +9,17 @@ ms.topic: conceptual
 ms.date: 10/14/2019
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: 9415365c3846329d5bcf707ec7f41d0bd2cc6f92
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: a4d948e768682aab77708289320914ce3ef0fdc3
+ms.sourcegitcommit: f77b24a8a588605f005c9bb1fdad864955885718
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73871731"
+ms.lasthandoff: 12/02/2019
+ms.locfileid: "74699076"
 ---
 # <a name="real-time-streaming-in-power-bi"></a>Power BI 中的实时流式处理
 通过 Power BI 实时流式处理，可以流式处理数据并实时更新仪表板。 可以在 Power BI 中创建的任何视觉对象或仪表板也可以创建为显示和更新实时数据和视觉对象。 流式处理数据的设备和源可以是工厂传感器、社交媒体源、服务使用情况指标和其他可从其收集或传输时间敏感数据的任何设备。
 
-![](media/service-real-time-streaming/real-time-streaming_10.jpg)
+![显示实时环境传感器结果的屏幕截图。](media/service-real-time-streaming/real-time-streaming-10.png)
 
 本文介绍如何在 Power BI 中设置实时流式处理数据集。 但在我们开始之前，务必了解设计为在磁贴（和仪表板）中显示的实时数据集的类型以及这些数据集的不同之处。
 
@@ -198,7 +198,7 @@ Azure 流分析使用 Power BI REST API 创建其到 Power BI 的输出数据流
    ![](media/service-real-time-streaming/real-time-streaming_9.png)
 5. 返回 Power BI 工作区，新建仪表板，然后添加磁贴（如有需要，请参阅上述步骤）。 这次在创建磁贴并选择“自定义流式处理数据”  时，你将拥有可使用的流式处理数据集。 继续使用它。 将“数字”  字段添加到折线图中，然后添加其他磁贴，可以获得如下所示的实时仪表板：
    
-   ![](media/service-real-time-streaming/real-time-streaming_10.jpg)
+   ![显示实时环境传感器结果的屏幕截图。](media/service-real-time-streaming/real-time-streaming-10.png)
 
 请试尝试并使用示例数据集。 然后创建你自己的数据集，并向 Power BI 流式传输活动数据。
 

@@ -7,127 +7,127 @@
     - name: 快速入门
       expanded: true
       items:
-        - name: 连接到数据
+        - name: 连接到 Power BI Desktop 中的数据
           href: desktop-quickstart-connect-to-data.md
     - name: 教程
       items:
         - name: 调整和合并多个数据源
           href: desktop-shape-and-combine-data.md
-        - name: 使用 Power BI Desktop 从网页导入和分析数据
+        - name: 导入和分析网页中的数据
           href: desktop-tutorial-importing-and-analyzing-data-from-a-web-page.md
-        - name: ' 分析来自 Excel 和 OData 源的销售数据'
+        - name: 分析来自 Excel 和 OData 源的销售数据
           href: desktop-tutorial-analyzing-sales-data-from-excel-and-an-odata-feed.md
-        - name: 在 Power BI Desktop 中创建你自己的度量值
+        - name: 创建自己的度量值
           href: desktop-tutorial-create-measures.md
-        - name: 创建 Power BI Desktop 中的计算列
+        - name: 创建计算列
           href: desktop-tutorial-create-calculated-columns.md
-        - name: 使用 Power BI Desktop 进行 Facebook 分析
+        - name: 分析 Facebook 数据
           href: desktop-tutorial-facebook-analytics.md
-        - name: 通过 Analysis Services 表格模型实现动态行级别安全性
+        - name: 在 Analysis Services 表格模型中实现行级别安全性
           href: desktop-tutorial-row-level-security-onprem-ssas-tabular.md
     - name: 示例
       items:
-        - name: Power BI 示例
+        - name: 获取 Power BI 示例数据
           href: sample-datasets.md
-        - name: 使用示例内容包
+        - name: 导入和打开示例包
           href: sample-tutorial-connect-to-the-samples.md
-        - name: 客户盈利率示例：参观
+        - name: 导览：客户盈利率示例
           href: sample-customer-profitability.md
-        - name: IT 支出分析示例：参观
+        - name: 导览：IT 支出分析示例
           href: sample-it-spend.md
-        - name: 人力资源示例：参观
+        - name: 导览：人力资源示例
           href: sample-human-resources.md
-        - name: 机会分析示例：参观
+        - name: 导览：商机分析示例
           href: sample-opportunity-analysis.md
-        - name: 采购分析示例：参观
+        - name: 导览：采购分析示例
           href: sample-procurement.md
-        - name: 零售分析示例：参观
+        - name: 导览：零售分析示例
           href: sample-retail-analysis.md
-        - name: 销售和市场营销示例：参观
+        - name: 导览：销售和市场营销示例
           href: sample-sales-and-marketing.md
-        - name: 供应商质量分析示例：参观
+        - name: 导览：供应商质量分析示例
           href: sample-supplier-quality.md
         - name: 下载财务示例工作簿
           href: sample-financial-download.md
     - name: 概念
       items:
-        - name: 最新 Power BI Desktop 更新中有哪些新增功能？
+        - name: Power BI Desktop 中的新增功能是什么？
           href: desktop-latest-update.md
-        - name: Power BI Desktop 中的模型关系
+        - name: 创建模型关系
           href: desktop-relationships-understand.md
-        - name: 在 Power BI Desktop 中将视觉对象分组
+        - name: 将报表中的视觉对象分组
           href: desktop-grouping-visuals.md
-        - name: 在 Power BI Desktop 中使用模板
+        - name: 使用模板
           href: desktop-templates.md
-        - name: Power BI Desktop 中的建模视图
+        - name: 使用建模视图
           href: desktop-modeling-view.md
-        - name: Power BI Desktop 中的聚合
+        - name: 管理聚合
           href: desktop-aggregations.md
-        - name: Power BI Desktop 中的复合模型
+        - name: 使用复合模型
           href: desktop-composite-models.md
-        - name: Power BI Desktop 中的多对多关系
+        - name: 使用多对多关系
           href: desktop-many-to-many-relationships.md
-        - name: Power BI Desktop 中的存储模式（预览）
+        - name: 管理存储模式
           href: desktop-storage-mode.md
-        - name: 在 Power BI Desktop 中进行双向交叉筛选
+        - name: 使用双向交叉筛选
           href: desktop-bidirectional-filtering.md
-        - name: Power BI 和 DirectQuery
+        - name: 关于在 Power BI 中使用 DirectQuery
           href: desktop-directquery-about.md
-        - name: DirectQuery 支持的数据源
-          href: desktop-directquery-data-sources.md
+        - name: DirectQuery 支持的 Power BI 数据源
+          href: power-bi-data-sources.md
         - name: Power BI 数据源必备条件
           href: desktop-data-source-prerequisites.md
-        - name: Power BI 中多维模型的默认成员
+        - name: 在 Power BI 中使用多维模型
           href: desktop-default-member-multidimensional-models.md
-        - name: 视觉对象常见问题解答
+        - name: Power BI 视觉对象常见问题解答
           href: developer/power-bi-custom-visuals-faq.md
-    - name: 操作方法
+    - name: 操作指南
       items:
         - name: 获取 Power BI Desktop
           href: desktop-get-the-desktop.md
-        - name: Power BI Desktop 入门指南
+        - name: Power BI Desktop 入门
           href: desktop-getting-started.md
-        - name: Power BI Desktop 中的常见查询任务
+        - name: 执行常见查询任务
           href: desktop-common-query-tasks.md
-        - name: 在 Power BI Desktop 中创建和管理关系
+        - name: 创建和管理关系
           href: desktop-create-and-manage-relationships.md
-        - name: Power BI Desktop 中的数据视图
+        - name: 使用数据视图
           href: desktop-data-view.md
-        - name: Power BI Desktop 中的查询概述
+        - name: 使用查询
           href: desktop-query-overview.md
-        - name: Power BI Desktop 中的 DAX 基本概念
+        - name: 应用 DAX 基础知识
           href: desktop-quickstart-learn-dax-basics.md
-        - name: Power BI Desktop 中的关系视图
+        - name: 使用关系视图
           href: desktop-relationship-view.md
-        - name: Power BI Desktop 中的报表视图
+        - name: 使用报表视图
           href: desktop-report-view.md
-        - name: 连接到 Power BI Desktop 中的多个数据源
+        - name: 连接到多个数据源
           href: desktop-connect-to-data.md
-        - name: 从 Power BI Desktop 进行发布
+        - name: 发布数据集
           href: desktop-upload-desktop-files.md
-        - name: 第 1 部分，向 Power BI 报表添加可视化效果
+        - name: 向 Power BI 报表添加视觉对象（第 1 部分）
           href: visuals/power-bi-report-add-visualizations-i.md
-        - name: 第 2 部分，向 Power BI 报表添加可视化效果
+        - name: 向 Power BI 报表添加视觉对象（第 2 部分）
           href: visuals/power-bi-report-add-visualizations-ii.md
-        - name: 自定义可视化效果的标题、背景和图例
+        - name: 自定义视觉对象标题、背景和图例
           href: visuals/power-bi-visualization-customize-title-background-and-legend.md
         - name: 显示 Power BI 中不含数据的项目
           href: desktop-show-items-no-data.md
-        - name: Power BI Desktop 中的自动日期/时间
+        - name: 使用自动日期/时间
           href: desktop-auto-date-time.md
         - name: 连接到数据
           items:
-            - name: Power BI Desktop 中的数据源
+            - name: 连接到数据源
               href: desktop-data-sources.md
-            - name: 连接到 LinkedIn Sales Navigator（预览）
+            - name: 连接到 LinkedIn Sales Navigator
               href: desktop-connect-linkedin-sales-navigator.md
-            - name: 使用示例连接到网页（预览版）
+            - name: 通过提供示例从网页获取数据
               href: desktop-connect-to-web-by-example.md
             - name: 连接到 Power BI 服务中的数据集
               href: desktop-report-lifecycle-datasets.md
-            - name: 将 Excel 工作簿导入 Power BI Desktop
+            - name: 导入 Excel 工作簿
               href: desktop-import-excel-workbooks.md
-            - name: 使用泛型接口连接到数据
+            - name: 使用 Power BI Desktop 通用接口连接到数据
               href: desktop-connect-using-generic-interfaces.md
             - name: 连接到 PDF 文件
               href: desktop-connect-pdf.md
@@ -135,128 +135,126 @@
               href: desktop-connect-adobe-analytics.md
             - name: 连接到 Oracle 数据库
               href: desktop-connect-oracle-database.md
-            - name: 在 Power BI Desktop 中运行 Python 脚本
+            - name: 运行 Python 脚本
               href: desktop-python-scripts.md
-            - name: 在 Power 查询编辑器中使用 Python
+            - name: 在查询编辑器中使用 Python
               href: desktop-python-in-query-editor.md
-            - name: 将外部 Python IDE 与 Power BI 一起使用
+            - name: 使用外部 Python IDE
               href: desktop-python-ide.md
-            - name: 使用 Python 创建 Power BI 视觉对象
+            - name: 使用 Python 创建视觉对象
               href: desktop-python-visuals.md
-            - name: 在 Power BI Desktop 中运行 R 脚本
+            - name: 运行 R 脚本
               href: desktop-r-scripts.md
             - name: 在查询编辑器中使用 R
               href: desktop-r-in-query-editor.md
-            - name: 将外部 R IDE 与 Power BI 一起使用
+            - name: 使用外部 R IDE
               href: desktop-r-ide.md
-            - name: 受支持的 R 包
+            - name: 使用 R 包创建视觉对象
               href: service-r-packages-support.md
             - name: 直接在 Power BI Desktop 中输入数据
               href: desktop-enter-data-directly-into-desktop.md
-            - name: 在 Power BI Desktop 中连接到 Excel
+            - name: 连接到 Excel 工作簿
               href: desktop-connect-excel.md
-            - name: Power BI Desktop 中的 Analysis Services 多维数据
+            - name: 连接到多维模型
               href: desktop-ssas-multidimensional.md
-            - name: 通过 Power BI Desktop 连接到 CSV 文件
+            - name: 连接到 .CSV 文件
               href: desktop-connect-csv.md
-            - name: 在 Power BI Desktop 中连接到 Google BigQuery 数据库
+            - name: 连接到 Google BigQuery 数据库
               href: desktop-connect-bigquery.md
-            - name: 在 Power BI Desktop 中连接到 Impala 数据库
+            - name: 连接到 Impala 数据库
               href: desktop-connect-impala.md
-            - name: 通过 Power BI Desktop 连接到 OData 数据源
+            - name: 连接到 OData 源
               href: desktop-connect-odata.md
-            - name: 在 Power BI Desktop 中连接到 Amazon Redshift 数据库
+            - name: 连接 Amazon Redshift 数据库
               href: desktop-connect-redshift.md
-            - name: 通过 Power BI Desktop 连接到网页
+            - name: 连接到网页
               href: desktop-connect-to-web.md
-            - name: 连接到 Power BI Desktop 中的雪花型计算仓库
+            - name: 连接到 Snowflake 计算仓库
               href: desktop-connect-snowflake.md
             - name: 连接到 Azure 成本管理数据
               href: desktop-connect-azure-cost-management.md
             - name: 连接到 Microsoft Azure Consumption Insights
               href: desktop-connect-azure-consumption-insights.md
-            - name: 在 Power BI Desktop 中使用 SAP HANA
+            - name: 使用 SAP HANA
               href: desktop-sap-hana.md
             - name: 启用 SAP HANA 加密
               href: desktop-sap-hana-encryption.md
-            - name: Power BI Desktop 中的 Analysis Services 表格数据
+            - name: 使用 Analysis Services 表格数据
               href: desktop-analysis-services-tabular-data.md
-            - name: 在 Power BI Desktop 中使用 DirectQuery
+            - name: 使用 DirectQuery
               href: desktop-use-directquery.md
-            - name: DirectQuery 和 SAP Business Warehouse (BW)
+            - name: 连接到 DirectQuery 和 SAP Business Warehouse
               href: desktop-directquery-sap-bw.md
-            - name: DirectQuery 和 SAP HANA
+            - name: 连接到 DirectQuery 和 SAP HANA
               href: desktop-directquery-sap-hana.md
-            - name: Power BI Desktop 中的假设引用完整性设置
+            - name: 应用完整性设置中的假设引用
               href: desktop-assume-referential-integrity.md
-            - name: 在 Power BI Desktop 中使用 SAP BW 连接器
+            - name: 使用 SAP Business Warehouse 连接器
               href: desktop-sap-bw-connector.md
-            - name: 在 Power BI Desktop 中使用 OneDrive for Business 链接
+            - name: 使用 OneDrive for Business 链接
               href: desktop-use-onedrive-business-links.md
-            - name: 第三方服务：适用于 Power BI Desktop 的 Facebook 连接器
+            - name: 第三方服务：使用 Facebook 连接器
               href: service-facebook-connector.md
-            - name: 第三方服务：适用于 Power BI Desktop 的 Google Analytics 连接器
+            - name: 第三方服务：使用 Google Analytics 连接器
               href: service-google-analytics-connector.md
             - name: Project Online：通过 Power BI Desktop 连接到数据
               href: desktop-project-online-connect-to-data.md
         - name: 转换和构建数据
           items:
-            - name: 合并二进制文件
+            - name: 合并文件（二进制文件）
               href: desktop-combine-binaries.md
-            - name: 在 Power BI Desktop 中使用 AI 见解（预览）
+            - name: 使用 AI 见解（预览版）
               href: desktop-ai-insights.md
         - name: 为你的数据建模
           items:
-            - name: Power BI Desktop 中的数据分类
+            - name: 在 Power BI Desktop 中指定数据类别
               href: desktop-data-categorization.md
-            - name: 为移动应用标记条形码字段
+            - name: 为 Power BI 移动应用标记条形码字段
               href: desktop-mobile-barcodes.md
-            - name: 为移动应用设置地理位置筛选
+            - name: 为 Power BI 移动应用设置地理筛选器
               href: desktop-mobile-geofiltering.md
-            - name: Power BI Desktop 中的计算列
+            - name: 使用计算列
               href: desktop-calculated-columns.md
-            - name: Power BI Desktop 中的计算表
+            - name: 使用计算表
               href: desktop-calculated-tables.md
-            - name: Power BI Desktop 中的度量值
+            - name: 使用度量值
               href: desktop-measures.md
-            - name: 导入和显示 KPI（预览）
+            - name: 导入和显示 KPI
               href: desktop-import-and-display-kpis.md
         - name: 创建报表
           items:
-            - name: Power BI Desktop 中的自动页面刷新（预览）
+            - name: 使用自动页面刷新（预览版）
               href: desktop-automatic-page-refresh.md
-            - name: 在 Power BI Desktop 中使用性能分析器
+            - name: 使用性能分析器
               href: desktop-performance-analyzer.md
-            - name: 报表的视觉对象元素
+            - name: 将视觉对象元素添加到报表
               href: desktop-visual-elements-for-reports.md
             - name: 基于报表页创建工具提示
               href: desktop-tooltips.md
-            - name: 导出到 PDF 和打印报表
+            - name: 将报表导出到 PDF 文件
               href: desktop-export-to-pdf.md
-            - name: Power BI Desktop 中的分析窗格
+            - name: 使用“分析”窗格
               href: desktop-analytics-pane.md
-            - name: 通过见解解释增减现象
+            - name: 使用见解解释视觉对象的波动（预览版）
               href: desktop-insights.md
-            - name: 通过见解查找图表中分布的差异之处
+            - name: 使用见解找到图表中的分布差异（预览版）
               href: desktop-insights-find-where-different.md
-            - name: Power BI 中的书签
+            - name: 使用书签共享见解
               href: desktop-bookmarks.md
             - name: 使用报表主题
               href: desktop-report-themes.md
-            - name: 筛选器类型
+            - name: Power BI 报表中的筛选器类型
               href: power-bi-report-filter-types.md
-            - name: 试用新筛选器体验
+            - name: 使用 Power BI 报表中的筛选器
               href: power-bi-report-filter.md
-            - name: 使用快速测量值
+            - name: 使用快速度量执行常见计算
               href: desktop-quick-measures.md
-            - name: 使用 What if 参数
+            - name: 使用 what-if 参数可视化变量
               href: desktop-what-if.md
-            - name: 使用钻取
+            - name: 使用钻取功能
               href: desktop-drillthrough.md
-            - name: 使用跨报告钻取
+            - name: 使用跨报告钻取功能
               href: desktop-cross-report-drill-through.md
-            - name: 使用相对日期切片器和筛选器
-              href: visuals/desktop-slicer-filter-date-range.md
             - name: 使用分组和装箱
               href: desktop-grouping-and-binning.md
             - name: 使用 R 创建 Power BI 视觉对象
@@ -265,53 +263,53 @@
               href: desktop-r-powered-custom-visuals.md
             - name: 使用网格线和对齐网格
               href: desktop-gridlines-snap-to-grid.md
-            - name: Power BI 报表中的页面显示设置
+            - name: 在 Power BI 报表中应用页面显示设置
               href: power-bi-report-display-settings.md
             - name: 从示例添加列
               href: desktop-add-column-from-example.md
             - name: 添加自定义列
               href: desktop-add-custom-column.md
-            - name: 在 Power BI Desktop 中使用内联层次结构标签
+            - name: 使用内联层次结构标签
               href: desktop-inline-hierarchy-labels.md
             - name: 使用数字范围切片器
               href: desktop-slicer-numeric-range.md
-            - name: 使用相对日期切片器
+            - name: 使用相对日期切片器和筛选器
               href: desktop-slicer-filter-date-range.md
             - name: 创建可重设大小的切片器
               href: power-bi-slicer-filter-responsive.md
-            - name: 行级别安全性
+            - name: 使用行级别安全性
               href: desktop-rls.md
             - name: 自定义工具提示
               href: desktop-custom-tooltips.md
-            - name: 报表中的文本框和形状
+            - name: 向报表添加文本框和形状
               href: power-bi-reports-add-text-and-shapes.md
             - name: 向文本框添加超链接
               href: service-add-hyperlink-to-text-box.md
-            - name: 表中的超链接
+            - name: 向表中添加超链接
               href: power-bi-hyperlinks-in-tables.md
             - name: 在表格中显示图像
               href: power-bi-images-tables.md
-            - name: 自定义格式字符串
+            - name: 使用自定义格式字符串
               href: desktop-custom-format-strings.md
-            - name: 条件表格式设置
+            - name: 应用条件表格式设置
               href: desktop-conditional-table-formatting.md
-            - name: 基于条件表达式的标题格式设置
+            - name: 创建基于表达式的动态标题
               href: desktop-conditional-format-visual-titles.md
-            - name: 在 Power BI Desktop 中按列排序
+            - name: 按列排序
               href: desktop-sort-by-column.md
-            - name: 针对移动应用优化报表
+            - name: 针对 Power BI 移动应用优化报表
               href: desktop-create-phone-report.md
-            - name: 使用“查看数据”和“查看记录”
+            - name: 使用“查看数据”和“查看记录”选项
               href: desktop-see-data-see-records.md
             - name: 有关创建报表的提示
               href: desktop-tips-and-tricks-for-creating-reports.md
         - name: 可视化效果
           items:
-            - name: Power BI 中的可视化效果
+            - name: 向 Power BI 报表添加视觉对象
               href: visuals/power-bi-report-visualizations.md
-            - name: 更改报表中的可视化对象类型
+            - name: 在 Power BI 报表中更改视觉对象
               href: visuals/power-bi-report-change-visualization-type.md
-            - name: 数据点限制（按虚拟类型）
+            - name: 关于按视觉对象类型划分的数据点限制
               href: visuals/power-bi-data-points.md
             - name: 显示用于创建视觉对象的数据
               href: visuals/service-reports-show-data.md
@@ -319,7 +317,7 @@
               href: visuals/service-getting-started-with-color-formatting-and-axis-properties.md
             - name: 颜色格式设置提示和技巧
               href: visuals/service-tips-and-tricks-for-color-formatting.md
-            - name: 复制并粘贴可视化效果
+            - name: 复制并粘贴报表可视化效果
               href: visuals/power-bi-visualization-copy-paste.md
             - name: 导出用于创建可视化效果的数据
               href: visuals/power-bi-visualization-export-data.md
@@ -331,53 +329,53 @@
               href: visuals/power-bi-map-tips-and-tricks.md
             - name: 自定义 X 轴和 Y 轴属性
               href: visuals/power-bi-visualization-customize-x-axis-and-y-axis.md
-            - name: 创建 ArcGIS Maps for Power BI 视觉对象
+            - name: 在 Power BI 视觉对象中与 ArcGIS Maps 交互
               href: visuals/power-bi-visualizations-arcgis.md
-            - name: 与 ArcGIS Maps for Power BI 视觉对象交互
+            - name: 创建 ArcGIS Maps for Power BI 视觉对象
               href: visuals/power-bi-visualization-arcgis.md
-            - name: 基本分区图
+            - name: 创建和使用基本面积图
               href: visuals/power-bi-visualization-basic-area-chart.md
-            - name: Power BI 中的卡片（大数字磁贴）
+            - name: 创建卡片可视化对象（大数字磁贴）
               href: visuals/power-bi-visualization-card.md
-            - name: Power BI 中的组合图
+            - name: 创建和使用组合图
               href: visuals/power-bi-visualization-combo-chart.md
-            - name: Power BI 中的分解树（预览）
+            - name: 使用分解树视觉对象（预览版）
               href: visuals/power-bi-visualization-decomposition-tree.md
-            - name: Power BI 中的圆环图
+            - name: 创建和使用圆环图
               href: visuals/power-bi-visualization-doughnut-charts.md
-            - name: Power BI 中的着色地图（等值线图）
+            - name: 创建和使用着色地图（等值线图）
               href: visuals/power-bi-visualization-filled-maps-choropleths.md
-            - name: Power BI 中的漏斗图
+            - name: 创建和使用漏斗图
               href: visuals/power-bi-visualization-funnel-charts.md
-            - name: Power BI 中的关键影响因素图表
+            - name: 使用关键影响因素可视化效果
               href: visuals/power-bi-visualization-influencers.md
-            - name: 高密度直线采样
+            - name: 关于高密度直线采样
               href: desktop-high-density-sampling.md
-            - name: KPI 视觉对象
+            - name: 创建和使用 KPI 可视化效果
               href: visuals/power-bi-visualization-kpi.md
-            - name: 矩阵视觉对象
+            - name: 使用矩阵可视化
               href: visuals/desktop-matrix-visual.md
-            - name: 问答视觉对象
+            - name: 关于 Power BI 问答视觉对象
               href: visuals/power-bi-visualization-q-and-a.md
-            - name: 使用 Power BI 中的 R 脚本创建高级分析和可视化效果
+            - name: 使用 R 视觉对象
               href: visuals/service-r-visuals.md
-            - name: Power BI 中的径向仪表图
+            - name: 创建和使用径向仪表图表
               href: visuals/power-bi-visualization-radial-gauge-charts.md
-            - name: 功能区图表
+            - name: 创建和使用功能区图表
               href: visuals/desktop-ribbon-charts.md
-            - name: Power BI 中的散点图
+            - name: 创建和使用散点图、气泡图和点图
               href: visuals/power-bi-visualization-scatter.md
-            - name: 高密度散点图
+            - name: 使用高密度散点图
               href: visuals/desktop-high-density-scatter-charts.md
-            - name: 使用 Power BI Desktop 中的形状地图（预览版）
+            - name: 创建和使用形状地图视觉对象（预览版）
               href: visuals/desktop-shape-map.md
-            - name: Power BI 中的切片器
+            - name: 创建和使用切片器
               href: visuals/power-bi-visualization-slicers.md
-            - name: Power BI 中的表
+            - name: 创建和使用 Power BI 报表和仪表板中的表
               href: visuals/power-bi-visualization-tables.md
-            - name: Power BI 中的树状图
+            - name: 创建和使用树状图
               href: visuals/power-bi-visualization-treemaps.md
-            - name: Power BI 中的瀑布图
+            - name: 创建和使用瀑布图
               href: visuals/power-bi-visualization-waterfall-charts.md
         - name: 自然语言
           items:
@@ -397,49 +395,47 @@
               href: natural-language/q-and-a-limitations.md
         - name: 疑难解答
           items:
-            - name: 解决在 Power BI Desktop 和 Power Query 中导入 Access 数据库和 Excel 电子表格时出现的问题
+            - name: 导入 Access 和 Excel .xls 文件的疑难解答
               href: desktop-access-database-errors.md
-            - name: 解决启动 Power BI Desktop 时出现的问题
+            - name: 打开 Power BI Desktop 的疑难解答
               href: desktop-error-launching-desktop.md
-            - name: Power BI Desktop 中的 DirectQuery 模型疑难解答
+            - name: 开发 DirectQuery 模型的疑难解答
               href: desktop-directquery-troubleshoot.md
     - name: 参考
       items:
-        - name: Power BI Desktop 中的数据类型
+        - name: 了解 Power BI Desktop 中的数据类型
           href: desktop-data-types.md
-        - name: Power BI 数据源
-          href: power-bi-data-sources.md
-        - name: 在 Power BI Desktop 中使用更新后的功能区（预览）
+        - name: 使用更新的功能区（预览版）
           href: desktop-ribbon.md
-        - name: Power BI Desktop 公式编辑器快捷键
+        - name: 使用公式编辑器快捷方式
           href: desktop-formula-editor.md
-        - name: Power BI Desktop 隐私级别
+        - name: 配置隐私级别
           href: desktop-privacy-levels.md
-        - name: Power BI 中的连接器扩展性
+        - name: 关于连接器扩展性
           href: desktop-connector-extensibility.md
-        - name: 信任已签名的第三方连接器
+        - name: 关于受信任的第三方连接器
           href: desktop-trusted-third-party-connectors.md
     - name: 资源
       items:
         - name: Power BI Desktop 视频
           href: desktop-videos.md
-        - name: 此前的 Power BI Desktop 月度更新
+        - name: Power BI Desktop 更新存档
           href: desktop-latest-update-archive.md
-        - name: Power BI Desktop“发送微笑”隐私声明
+        - name: Power BI Desktop 隐私保护
           href: desktop-send-smile-privacy-statement.md
         - name: 管理 Power BI Desktop 登录窗体
           href: desktop-admin-sign-in-form.md
         - name: 辅助功能
           items:
-            - name: Power BI 中的辅助功能概览
+            - name: 关于 Power BI 辅助功能
               href: desktop-accessibility-overview.md
-            - name: 创建可访问 Power BI 报表
+            - name: 关于 Power BI 报表中的可访问导航
               href: desktop-accessibility-creating-reports.md
-            - name: 使用辅助功能工具使用 Power BI 报表
+            - name: 了解 Power BI 报表的辅助功能
               href: desktop-accessibility-consuming-tools.md
-            - name: 使用辅助功能工具创建 Power BI 报表
+            - name: 使用辅助工具创建 Power BI 报表
               href: desktop-accessibility-creating-tools.md
-            - name: 适用于 Power BI 报表的辅助功能键盘快捷方式
+            - name: 使用 Power BI Desktop 中的键盘快捷方式
               href: desktop-accessibility-keyboard-shortcuts.md
 - name: Power BI 服务
   items:
@@ -727,7 +723,7 @@
               href: desktop-connect-dataflows.md
             - name: 数据流和 Azure Data Lake 集成（预览）
               href: service-dataflows-azure-data-lake-integration.md
-            - name: 连接 Azure Data Lake Storage Gen2 以存储数据流（预览）
+            - name: 连接 Azure Data Lake Storage Gen2 以存储数据流
               href: service-dataflows-connect-azure-data-lake-storage-gen2.md
             - name: 配置工作区数据流设置（预览）
               href: service-dataflows-configure-workspace-storage-settings.md

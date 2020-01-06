@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: conceptual
 ms.date: 10/31/2019
-ms.openlocfilehash: ed1a67168a386838049ec2ca047ec0cd971408fc
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: bf5cd8d8ae649071b3c9cc7243f87ac3cc316c3b
+ms.sourcegitcommit: f77b24a8a588605f005c9bb1fdad864955885718
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73880033"
+ms.lasthandoff: 12/02/2019
+ms.locfileid: "74695351"
 ---
 # <a name="highlight-data-points-in-power-bi-visuals"></a>突出显示 Power BI 视觉对象中的数据点
 
@@ -26,6 +26,9 @@ ms.locfileid: "73880033"
 ![`dataview` 支持突出显示](./media/highlight-dataview-supports.png)
 
 在此示例中，你会注意到 1 栏处于选定状态。 它是突出显示数组中唯一的值。 另外，请务必注意，可能存在多个选择和部分突出显示。 突出显示的值将显示在数据视图中。
+
+> [!Note]
+> 表数据视图映射不支持突出显示功能。
 
 ## <a name="highlight-data-points-with-categorical-data-view-mapping"></a>用分类数据视图映射功能突出显示数据点
 

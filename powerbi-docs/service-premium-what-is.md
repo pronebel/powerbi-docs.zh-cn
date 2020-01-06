@@ -1,8 +1,8 @@
 ---
 title: 什么是 Microsoft Power BI Premium？
 description: Power BI Premium 为组织提供专用容量，可带来更可靠的性能和更大的数据卷，而无需购买每用户许可证。
-author: mgblythe
-ms.author: mblythe
+author: davidiseminger
+ms.author: davidi
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/28/2019
 ms.custom: seodec18
 LocalizationGroup: Premium
-ms.openlocfilehash: f62387feebca089b2afbb919419365fd7e09c2d3
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 37107c1092b12a8efc230718c624f104aa31520f
+ms.sourcegitcommit: 320d83ab392ded71bfda42c5491acab3d9d357b0
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73871830"
+ms.lasthandoff: 12/10/2019
+ms.locfileid: "74958554"
 ---
 # <a name="what-is-power-bi-premium"></a>什么是 Power BI Premium？
 
@@ -29,16 +29,17 @@ Power BI Premium 提供用于为组织运行 Power BI 服务的专用增强资�
 > * 支持按区域数据驻留（多地理位置）
 > * 与任何人共享数据而无需购买每用户许可证
 
-本文介绍了 Power BI Premium 中的主要功能。 必要时，提供包含更多详细信息的其他文章的链接。
+本文介绍了 Power BI Premium 中的主要功能。 必要时，提供包含更多详细信息的其他文章的链接。 有关 Power BI Pro 和 Power BI Premium 的详细信息，请参阅 [Power BI 定价](https://powerbi.microsoft.com/pricing/)的“Power BI 功能比较”  部分。
 
 ## <a name="subscriptions-and-licensing"></a>订阅和许可
 
 Power BI Premium 是租户级别的 Office 365 订阅，可在两个 SKU（库存单位）系列中使用：
 
-- 用于嵌入的 **EM** SKU (EM1-EM3)，要求按年承诺并按月计费。 EM1 和 EM2 SKU 仅通过批量许可计划提供， 无法直接购买。
 - 用于嵌入和企业功能的 **P** SKU (P1-P3)，需要按月或按年承诺并按月计费，包含用于在本地安装 Power BI 报表服务器的许可。
 
-另一种方法是购买 **Azure Power BI Embedded** 订阅，该订阅具有单个 **A** (A1-A6) SKU 系列，仅用于嵌入和容量测试目的。 所有 SKU 都提供 V 核心用于创建容量，但 EM SKU 仅限于较小规模的嵌入。 V 核心少于四个的 EM1、EM2、A1 和 A2 SKU 不在专用基础设施上运行。
+- 用于组织嵌入的 EM SKU (EM1-EM3)，要求按年承诺并按月计费   。 EM1 和 EM2 SKU 仅通过批量许可计划提供， 无法直接购买。
+
+另一种方法是在 Azure 中购买 Power BI Embedded 订阅  。 有一个 A (A1-A6) SKU 系列，它不需要承诺并按小时计费，以在应用程序、门户和网站中使用带有白色标记的 Power BI，或者作为测试 P 或 EM 容量的一种方法  。 所有 SKU 都提供 V 核心用于创建容量，但 EM SKU 仅限于较小规模的嵌入。 V 核心少于四个的 EM1、EM2、A1 和 A2 SKU 不在专用基础设施上运行。
 
 虽然本文的重点是 P SKU，但其中大部分内容也与 A SKU 相关。 与 Premium 订阅 SKU 相反，Azure SKU 不需要时间承诺，并按小时计费。 它们提供全方位的灵活性，可实现纵向扩展、横向扩展、暂停、恢复和删除。 
 
@@ -50,7 +51,11 @@ Power BI Premium 订阅由 Microsoft 365 管理中心的管理员购买。 具�
 
 ## <a name="dedicated-capacities"></a>专用容量
 
-借助 Power BI Premium，可获得*专用容量*。 共享容量的工作负载在与其他客户共享的计算资源上运行，与之相反，专用容量仅供组织使用。 它与专用计算资源分离，专用计算资源为托管内容提供可靠且一致的性能。 
+借助 Power BI Premium，可获得*专用容量*。 共享容量的工作负载在与其他客户共享的计算资源上运行，与之相反，专用容量仅供组织使用。 它与专用计算资源分离，专用计算资源为托管内容提供可靠且一致的性能。 请注意，以下资源存储在共享容量而非专用容量中：
+
+* Excel 工作簿（除非是首次将数据导入 Power BI Desktop）
+* [推送数据集](/rest/api/power-bi/pushdatasets)
+* [流数据集](service-real-time-streaming.md#set-up-your-real-time-streaming-dataset-in-power-bi)
 
 工作区驻留在容量范围内。 每个 Power BI 用户都有一个称为“我的工作区”的个人工作区  。 可创建其他工作区来启用协作，这些工作区称为“工作区”  。 默认情况下，工作区（包括个人工作区）在共享容量中创建。 如果拥有高级容量，可将“我的工作区”和“工作区”都分配给高级容量。
 
@@ -77,6 +82,9 @@ Power BI Premium 订阅由 Microsoft 365 管理中心的管理员购买。 具�
 | P2/A5 | 16 | 8 | 50 | 8 | 60 | 12 |
 | P3/A6 | 32 | 16 | 100 | 16 | 120 | 24 |
 | | | | | | | |
+
+> [!NOTE]
+> 使用单个较大的 SKU（例如一个 P2 SKU）可能比组合较小的 SKU（例如两个 P1 SKU）更可取。 例如，你可以使用更大的模型，还可以实现与 P2 的更好的并行。
 
 ### <a name="capacity-workloads"></a>容量工作负载
 
@@ -235,5 +243,3 @@ SQL Server Management Studio 和 SQL Server Profiler 等 Microsoft 工具以及 
 > [管理 Premium 容量](service-premium-capacity-manage.md)
 
 更多问题？ [尝试咨询 Power BI 社区](https://community.powerbi.com/)
-
-||||||

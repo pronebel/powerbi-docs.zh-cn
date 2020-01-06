@@ -9,18 +9,18 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 12/11/2018
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 8c28c5ee89ffee37c09db8dc6ffcd6fb90274786
-ms.sourcegitcommit: 08b73af260ded51daaa6749338cb85db2eab587f
+ms.openlocfilehash: f11636de003aaab2d10d595b3c2b0230e373410c
+ms.sourcegitcommit: 5bb62c630e592af561173e449fc113efd7f84808
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/15/2019
-ms.locfileid: "74102079"
+ms.lasthandoff: 12/11/2019
+ms.locfileid: "74999827"
 ---
 # <a name="organizational-visuals-in-power-bi"></a>Power BI 中的组织视觉对象
 
 可以在 Power BI 中使用 Power BI 视觉对象创建为自己量身定做的独特视觉对象类型。 Power BI 视觉对象由开发人员进行创建，当 Power BI 中包含的众多视觉对象不能充分满足他们的需求时，常常会创建 Power BI 视觉对象。
 
-在某些组织中，Power BI 视觉对象甚至更为重要，可能必须使用它们才能传递组织特有的具体数据或见解，它们可能具有特殊的数据要求，或者可以突出显示专用业务方法。 此类组织需要开发 Power BI 视觉对象，在其整个组织中共享这些视觉对象，并确保对其进行正确维护。 Power BI Power BI 视觉对象可让组织实现上述目的。
+在某些组织中，Power BI 视觉对象甚至更为重要，可能必须使用它们才能传递组织特有的具体数据或见解，它们可能具有特殊的数据要求，或者可以突出显示专用业务方法。 此类组织需要开发 Power BI 视觉对象，在其整个组织中共享这些视觉对象，并确保对其进行正确维护。 Power BI 视觉对象可让组织实现上述目的。
 
 下图显示了 Power BI 中的组织 Power BI 视觉对象从管理员开始通过开发和维护最终转到数据分析人员手中的过程。
 
@@ -55,10 +55,10 @@ Power BI 管理员从“管理”门户部署和管理组织视觉对象。 视�
 
 ## <a name="troubleshoot"></a>疑难解答
 
-有关疑难解答的信息，请访问 [Power BI Power BI 视觉对象疑难解答](power-bi-custom-visuals-troubleshoot.md)。
+有关疑难解答的信息，请访问 [Power BI 视觉对象疑难解答](power-bi-custom-visuals-troubleshoot.md)。
 
 ## <a name="faq"></a>常见问题解答
 
-有关详细信息和问题的答案，请访问[关于 Power BI Power BI 视觉对象的常见问题解答](power-bi-custom-visuals-faq.md#organizational-visuals)。
+有关详细信息和问题的答案，请访问[关于 Power BI 视觉对象的常见问题解答](power-bi-custom-visuals-faq.md#organizational-power-bi-visuals)。
 
 更多问题？ [尝试参与 Power BI 社区](https://community.powerbi.com/)。

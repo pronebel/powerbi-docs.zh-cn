@@ -7,15 +7,15 @@ featuredvideoid: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 10/23/2019
+ms.date: 12/03/2019
 ms.author: maggies
 LocalizationGroup: Common tasks
-ms.openlocfilehash: c8e95a53e0907de86449a91095d2c5afbef5b4c8
-ms.sourcegitcommit: 08b73af260ded51daaa6749338cb85db2eab587f
+ms.openlocfilehash: 4d8a5c1cceb66b7103a58c7bcebfa46dbdd97430
+ms.sourcegitcommit: e492895259aa39960063f9b337a144a60c20125a
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/15/2019
-ms.locfileid: "74099781"
+ms.lasthandoff: 12/05/2019
+ms.locfileid: "74831112"
 ---
 # <a name="subscribe-yourself-and-others-to-reports-and-dashboards-in-the-power-bi-service"></a>在 Power BI 服务中为自己和他人订阅报表和仪表板
 
@@ -38,7 +38,7 @@ ms.locfileid: "74099781"
 
 无论是订阅仪表板、报表还是分页报表，订阅过程都类似。 使用同一按钮，即可订阅 Power BI 服务仪表板和报表。
 
-订阅分页报表略有不同。 请参阅[在 Power BI 服务中为自己和他人订阅分页报表](paginated-reports-subscriptions.md)，获取详细信息。
+订阅分页报表略有不同。 请参阅[在 Power BI 服务中为自己和他人订阅分页报表](consumer/paginated-reports-subscriptions.md)，获取详细信息。
  
 ![选择“订阅”图标](media/service-report-subscribe/power-bi-subscribe-orientation.png)。
 
@@ -107,6 +107,6 @@ ms.locfileid: "74099781"
 
 ## <a name="next-steps"></a>后续步骤
 
-- [在 Power BI 服务中为自己和他人订阅分页报表](paginated-reports-subscriptions.md)
+- [在 Power BI 服务中为自己和他人订阅分页报表](consumer/paginated-reports-subscriptions.md)
 - 更多问题？ [尝试咨询 Power BI 社区](https://community.powerbi.com/)    
 - [阅读博客文章](https://powerbi.microsoft.com/blog/introducing-dashboard-email-subscriptions-a-360-degree-view-of-your-business-in-your-inbox-every-day/)
