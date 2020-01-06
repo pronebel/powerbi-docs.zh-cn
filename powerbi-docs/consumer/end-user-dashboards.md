@@ -10,10 +10,10 @@ ms.date: 09/12/2019
 ms.author: mihart
 LocalizationGroup: Dashboards
 ms.openlocfilehash: a4fbf56a796a30c2d8a718411e3363238a9c2bb2
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/09/2019
+ms.lasthandoff: 01/06/2020
 ms.locfileid: "73851839"
 ---
 # <a name="dashboards-for-power-bi-service-consumers"></a>面向 Power BI 服务使用者的仪表板
@@ -46,12 +46,12 @@ Power BI ***仪表板***是单个页面，通常称为画布，使用可视化�
 
 | **功能** | **仪表板** | **报表** |
 | --- | --- | --- |
-| 页面 |一个页面 |一个或多个页面 |
+| 页数 |一个页面 |一个或多个页面 |
 | 数据源 |每个仪表板的一个或多个报表和一个或多个数据集 |每个报表的单个数据集 |
 | 筛选 |无法筛选或切片 |许多不同的方式来筛选、突出显示和切片 |
 | 设置警报 |当满足某些条件时，可以创建警报以向你发送电子邮件 |否 |
-| 特色 |可以将一个仪表板设置为“精选”仪表板 |无法创建精选报表 |
-| 可以看到基础数据集表和字段 |不行。 可以导出数据，但看不到仪表板本身的表和字段。 |是的。 可以查看数据集表和字段以及值。 |
+| 特别推荐 |可以将一个仪表板设置为“精选”仪表板 |无法创建精选报表 |
+| 可以看到基础数据集表和字段 |否。 可以导出数据，但看不到仪表板本身的表和字段。 |是。 可以查看数据集表和字段以及值。 |
 
 
 ## <a name="dashboard-designers-and-dashboard-consumers"></a>仪表板设计者和仪表板使用者

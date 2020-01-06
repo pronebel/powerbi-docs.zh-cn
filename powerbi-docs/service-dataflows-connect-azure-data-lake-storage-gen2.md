@@ -6,17 +6,17 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 08/29/2019
+ms.date: 12/16/2019
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: c48ae0913d0096546c23d22d3e4596fdb21aef82
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: c3f703bfe2685166ce575b37c053b2a9603a799f
+ms.sourcegitcommit: 02b05932a119527f255e1eacc745a257044e392f
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73872716"
+ms.lasthandoff: 12/19/2019
+ms.locfileid: "75223880"
 ---
-# <a name="connect-azure-data-lake-storage-gen2-for-dataflow-storage-preview"></a>连接 Azure Data Lake Storage Gen2 以存储数据流（预览）
+# <a name="connect-azure-data-lake-storage-gen2-for-dataflow-storage"></a>连接 Azure Data Lake Storage Gen2 以存储数据流
 
 可以将 Power BI 工作区配置为在组织的 Azure Data Lake Storage Gen2 帐户中存储数据流。 本文介绍了执行此操作所需的一般步骤，并提供各步骤的指导和最佳做法。 配置工作区以在 Data Lake 中存储数据流定义和数据文件有以下优势，包括：
 
