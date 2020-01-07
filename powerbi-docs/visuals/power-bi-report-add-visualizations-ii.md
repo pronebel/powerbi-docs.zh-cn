@@ -10,10 +10,10 @@ ms.date: 10/28/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
 ms.openlocfilehash: e9759f69668780b450117e5e6255e7f5cb7e67f5
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/09/2019
+ms.lasthandoff: 01/06/2020
 ms.locfileid: "73881022"
 ---
 # <a name="part-2-add-visualizations-to-a-power-bi-report"></a>第 2 部分，向 Power BI 报表添加可视化效果
@@ -34,7 +34,7 @@ ms.locfileid: "73881022"
    
 2. 查找**零售分析示例 PBIX 文件**的副本
 
-1. 在报表视图中打开**零售分析示例 PBIX 文件** ![报表视图屏幕截图图标](media/power-bi-visualization-kpi/power-bi-report-view.png)。
+1. 在报表视图中打开**零售分析示例 PBIX 文件**![报表视图屏幕截图图标](media/power-bi-visualization-kpi/power-bi-report-view.png)。
 
 1. 选择 ![黄色选项卡的屏幕截图。](media/power-bi-visualization-kpi/power-bi-yellow-tab.png) ，以添加新报表页。
 

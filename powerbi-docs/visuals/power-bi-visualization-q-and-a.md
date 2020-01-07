@@ -8,10 +8,10 @@ ms.topic: conceptual
 ms.date: 11/19/2019
 ms.author: mohaali
 ms.openlocfilehash: 9805b98df7f606e61412ca9dee7dc0467a1649a3
-ms.sourcegitcommit: 90bd747b7c460d17b74cd386d3f5714234b1f6c9
+ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/03/2019
+ms.lasthandoff: 01/06/2020
 ms.locfileid: "74791823"
 ---
 # <a name="introduction-to-power-bi-qa-visual"></a>Power BI Q&A 视觉对象简介
@@ -26,7 +26,7 @@ ms.locfileid: "74791823"
 
 [!INCLUDE [power-bi-visuals-desktop-banner](../includes/power-bi-visuals-desktop-banner.md)]
 
-Q&A 视觉对象既可用作允许“使用者”快速获取其数据答案的工具，又可以由“设计人员”通过简单地双击报表上的任意位置并使用自然语言来在报表中创建视觉对象。 与任何其他视觉对像一样，Q&A 视觉对象可以进行交叉筛选/交叉突出显示，并且也支持书签。 Q&A 视觉对象还支持 Power BI 中提供的主题和其他默认格式选项。
+Q&A 视觉对象既可用作允许“使用者”快速获取其数据答案的工具，又可以由“设计人员”通过简单地双击报表上的任意位置并使用自然语言来在报表中创建视觉对象   。 与任何其他视觉对像一样，Q&A 视觉对象可以进行交叉筛选/交叉突出显示，并且也支持书签。 Q&A 视觉对象还支持 Power BI 中提供的主题和其他默认格式选项。
 
 Q&A 视觉对象由四个核心部分组成；
 
@@ -39,9 +39,9 @@ Q&A 视觉对象由四个核心部分组成；
 
 1. 本教程使用“[销售和市场营销示例 PBIX 文件](https://download.microsoft.com/download/9/7/6/9767913A-29DB-40CF-8944-9AC2BC940C53/Sales%20and%20Marketing%20Sample%20PBIX.pbix)”。 
 
-1. 在 Power BI Desktop 菜单栏的左上部分，选择“文件” > “打开”
+1. 在 Power BI Desktop 菜单栏的左上部分，选择“文件” > “打开”  
    
-2. 查找“销售和市场营销示例 PBIX 文件”的副本
+2. 查找“销售和市场营销示例 PBIX 文件”的副本 
 
 1. 在报表视图中打开文件 ![报表视图图标的屏幕截图。](media/power-bi-visualization-kpi/power-bi-report-view.png)。
 
@@ -61,7 +61,7 @@ Q&A 视觉对象由四个核心部分组成；
 
     ![报表画布上的 Q&A 视觉对象](media/power-bi-visualization-q-and-a/power-bi-qna.png)
 
-3. 若要创建视觉对象，请选择建议的问题之一或开始在问题框中键入内容。 在此示例中，我们已根据收入总和选择了排名靠前的地理位置。 Power BI 会尽量选择要使用的视觉对象类型。 在本例中，选择的是地图。
+3. 若要创建视觉对象，请选择建议的问题之一或开始在问题框中键入内容。 在此示例中，我们已根据收入总和选择了排名靠前的地理位置  。 Power BI 会尽量选择要使用的视觉对象类型。 在本例中，选择的是地图。
 
     ![Q&A 视觉对象地图](media/power-bi-visualization-q-and-a/power-bi-map.png)
 
@@ -72,7 +72,7 @@ Q&A 视觉对象由四个核心部分组成；
 ## <a name="create-a-qa-visual-using-a-natural-language-query"></a>使用自然语言查询创建 Q&A 视觉对象
 在上面的示例中，我们选择了一个建议的问题来创建我们的 Q&A 视觉对象。  在此练习中，我们将键入自己的问题。 键入问题时，Power BI 会帮助我们进行自动完成、建议和反馈。
 
-如果不确定要使用哪种类型的问题或术语，请展开“显示所有建议”，或在画布右侧找到“字段”窗格。 这将使你熟悉“销售和营销”数据集的术语和内容。
+如果不确定要使用哪种类型的问题或术语，请展开“显示所有建议”，或在画布右侧找到“字段”窗格  。 这将使你熟悉“销售和营销”数据集的术语和内容。
 
 ![列出“显示所有建议和字段”窗格的画布](media/power-bi-visualization-q-and-a/power-bi-terminology.png)
 
@@ -104,13 +104,13 @@ Q&A 视觉对象由四个核心部分组成；
 ### <a name="apply-a-theme"></a>应用主题
 选择主题时，该主题将应用于整个报表页面。 有很多可供选择的主题，因此请先尝试，直到获得所需的外观为止。 
 
-1. 在菜单栏中，选择“主页”选项卡，然后选择“切换主题”。 
+1. 在菜单栏中，选择“主页”选项卡，然后选择“切换主题”   。 
 
     ![已选中“切换主题”的桌面](media/power-bi-visualization-q-and-a/power-bi-themes.png)
 
     
     
-2. 在此示例中，我们选择了“更多主题” > “色盲安全”。
+2. 在此示例中，我们选择了“更多主题” > “色盲安全”   。
 
     ![应用了“色盲主题”的 Q&A 视觉对象](media/power-bi-visualization-q-and-a/power-bi-color-blind.png)
 
@@ -122,7 +122,7 @@ Q&A 视觉对象由四个核心部分组成；
 ## <a name="convert-your-qa-visual-into-a-standard-visual"></a>将 Q&A 视觉对象转换为标准视觉对象
 我们对色盲安全柱形图进行了一些格式化，添加了标题和边框。 现在，我们准备将其转换为报表中的标准视觉对象，并将其固定到仪表板。
 
-选择图标“![齿轮图标](media/power-bi-visualization-q-and-a/power-bi-convert-icon.png)”以将此 Q&A 结果转换为标准视觉对象。
+选择图标“![齿轮图标](media/power-bi-visualization-q-and-a/power-bi-convert-icon.png)”以将此 Q&A 结果转换为标准视觉对象  。
 
 ![箭头指向“标准视觉对象”图标的 Q&A 视觉对象](media/power-bi-visualization-q-and-a/power-bi-visual-convert.png)
 

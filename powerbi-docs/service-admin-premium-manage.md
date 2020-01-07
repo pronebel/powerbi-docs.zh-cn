@@ -10,10 +10,10 @@ ms.topic: conceptual
 ms.date: 09/17/2019
 LocalizationGroup: Premium
 ms.openlocfilehash: e60aed5b538eab3b630f42a665d96256cc07879c
-ms.sourcegitcommit: f77b24a8a588605f005c9bb1fdad864955885718
+ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/02/2019
+ms.lasthandoff: 01/06/2020
 ms.locfileid: "74700087"
 ---
 # <a name="configure-and-manage-capacities-in-power-bi-premium"></a>配置和管理 Power BI Premium 容量
@@ -145,7 +145,7 @@ Power BI 管理员和 Office 365 全局管理员可以更改 Power BI Premium �
 
     ![容量选择下拉列表](media/service-admin-premium-manage/app-workspace-advanced.png)
 
-1. 选择**保存**。
+1. 选择“保存”。 
 
 保存后，工作区及其所有内容都会被迁移到高级容量，这不会影响最终用户的任何体验。
 

@@ -10,10 +10,10 @@ ms.topic: conceptual
 ms.date: 10/10/2019
 LocalizationGroup: Gateways
 ms.openlocfilehash: 6c8b62cf798d2fbbd09dab0603d216448d04487c
-ms.sourcegitcommit: 5bb62c630e592af561173e449fc113efd7f84808
+ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/11/2019
+ms.lasthandoff: 01/06/2020
 ms.locfileid: "75000126"
 ---
 # <a name="use-kerberos-for-single-sign-on-sso-to-sap-bw-using-gx64krb5"></a>使用 gx64krb5 将 Kerberos 用于单一登录 (SSO) 到 SAP BW
@@ -134,7 +134,7 @@ ms.locfileid: "75000126"
 
 1. 右键单击新的连接，依次选择“属性”、“网络”选项卡   。 
 
-1. 在“SNC 名称”框中，输入 p:&gt;SAP BW 服务用户的 UPN&lt;   。 例如，p:BWServiceUser\@MYDOMAIN.COM  。 选择**确定**。
+1. 在“SNC 名称”框中，输入 p:&gt;SAP BW 服务用户的 UPN&lt;   。 例如，p:BWServiceUser\@MYDOMAIN.COM  。 选择“确定”。 
 
     ![系统条目属性屏幕](media/service-gateway-sso-kerberos/system-entry-properties.png)
 

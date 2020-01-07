@@ -9,10 +9,10 @@ ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 11/26/2019
 ms.openlocfilehash: 7297e73dc0e412f75412eb48398ef9c85cda8d6e
-ms.sourcegitcommit: a21f7f9de32203e3a4057292a24ef9b5ac6ce94b
+ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/27/2019
+ms.lasthandoff: 01/06/2020
 ms.locfileid: "74565780"
 ---
 # <a name="install-power-bi-report-server"></a>安装 Power BI 报表服务器

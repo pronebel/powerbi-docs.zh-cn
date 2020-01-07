@@ -9,10 +9,10 @@ ms.topic: conceptual
 ms.date: 10/24/2019
 ms.author: v-pemyer
 ms.openlocfilehash: 623a0bbd187a997003ce7b82cc76d5c4fbe9ce44
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/09/2019
+ms.lasthandoff: 01/06/2020
 ms.locfileid: "73868071"
 ---
 # <a name="directquery-model-troubleshooting-in-power-bi-desktop"></a>Power BI Desktop 中的 DirectQuery 模型疑难解答

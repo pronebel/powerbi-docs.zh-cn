@@ -10,10 +10,10 @@ ms.date: 08/06/2019
 ms.author: maggies
 LocalizationGroup: Share your work
 ms.openlocfilehash: 25b63db2d77e84fb3fc1a3e844ceb46ef1a9bd82
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/09/2019
+ms.lasthandoff: 01/06/2020
 ms.locfileid: "73872012"
 ---
 # <a name="tutorial-create-and-publish-a-power-bi-organizational-content-pack"></a>教程：创建和发布 Power BI 组织内容包
@@ -56,7 +56,7 @@ ms.locfileid: "73872012"
         > [!TIP]
         > 请考虑将仪表板名称包含在内容包名称中。 这样一来，你的同事连接到你的内容包后便可更轻松地找到仪表板。
 
-    1. 推荐：添加说明。 这有助于同事更轻松地找到所需的内容包。 除了说明外，还请添加你的同事在搜索此内容包时可能输入的关键字。 添加联系人信息，方便同事有疑问或需要帮助时使用。
+    1. 建议：添加说明。 这有助于同事更轻松地找到所需的内容包。 除了说明外，还请添加你的同事在搜索此内容包时可能输入的关键字。 添加联系人信息，方便同事有疑问或需要帮助时使用。
 
     1. 上传图像或徽标，以便组成员更轻松地查找内容包。
 

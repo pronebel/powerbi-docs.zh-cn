@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 11/27/2019
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: bdaac078fa106565f7c11b3cc323840b5d10b579
-ms.sourcegitcommit: a21f7f9de32203e3a4057292a24ef9b5ac6ce94b
+ms.openlocfilehash: 749d8d5b62df87b0e6b29d524e90c694a0e38efe
+ms.sourcegitcommit: ef9ab7c0d84b926094c33e8aa2765cd43b844314
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/27/2019
-ms.locfileid: "74565343"
+ms.lasthandoff: 01/03/2020
+ms.locfileid: "75622418"
 ---
 # <a name="organize-work-in-the-new-workspaces-in-power-bi"></a>在 Power BI 的新工作区中整理工作
 
@@ -62,7 +62,7 @@ Power BI 管理门户中[提供工作区列表](service-admin-portal.md#workspac
 
 下面介绍以下四种角色的功能：管理员、成员、参与者和查看者。 上述功能（查看和交互除外）都需要 Power BI Pro 许可证。
 
-|功能   | 管理员  | 成员  | 参与者  | 查看者 |
+|功能   | 管理员  | 成员  | 参与者  | 查看器 |
 |---|---|---|---|---|
 | 更新和删除工作区。  | X  |   |   |   | 
 | 添加/删除人员，包括其他管理员。  | X  |   |   |   |
@@ -111,18 +111,19 @@ Power BI 管理门户中[提供工作区列表](service-admin-portal.md#workspac
 Power BI 不会将配置为拥有工作区访问权限的用户或组的权限，与 Office 365 组成员身份同步。 最佳做法是，通过在此设置中配置其文件存储的同一 Office 365 组来管理工作区访问权限。 
 
 详细了解如何[设置和访问工作区 OneDrive](service-create-the-new-workspaces.md#workspace-onedrive)。  
-   
+
 ## <a name="auditing"></a>审核
+
 对于提供新工作区体验的工作区，Power BI 审核以下活动。
 
-| 友好名称 |   操作名称 |
+| 友好名称 | 操作名称 |
 |---|---|
 | 已创建 Power BI 文件夹 | CreateFolder |
 | 已删除 Power BI 文件夹 | DeleteFolder |
 | 已更新 Power BI 文件夹 | UpdateFolder |
 | 已更新 Power BI 文件夹访问权限| UpdateFolderAccess |
 
-详细了解 [Power BI 审核](service-admin-auditing.md#activities-audited-by-power-bi)。
+详细了解 [Power BI 审核](service-admin-auditing.md)。
 
 ## <a name="limitations-and-considerations"></a>限制和注意事项
 

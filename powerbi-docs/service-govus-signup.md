@@ -10,10 +10,10 @@ ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Get started
 ms.openlocfilehash: 7edfe46173b1d9b2537c5fd980b245af09fd1f53
-ms.sourcegitcommit: 57ec4d51744b89bd695e6c62184c21342f2eae83
+ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/19/2019
+ms.lasthandoff: 01/06/2020
 ms.locfileid: "74178285"
 ---
 # <a name="enroll-your-us-government-organization-in-the-power-bi-service"></a>在 Power BI 服务中注册你的美国政府组织
@@ -80,7 +80,7 @@ ms.locfileid: "74178285"
 转到“计费”>“订阅”  ，然后选择“Power BI Pro 政府版订阅”  。 将看到以下信息：
 
 * 可用
-* 已分配
+* Assigned
 * 分配到用户链接
 * 如果你仍有已分配的试用版，可执行以下操作：
   * 单击“试用版订阅”下方的“已分配”  并删除要添加至付费订阅的用户

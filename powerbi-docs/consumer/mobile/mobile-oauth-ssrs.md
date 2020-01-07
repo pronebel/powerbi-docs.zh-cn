@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 07/03/2019
-ms.openlocfilehash: 9ce761d09e2db4fbbc2e56d461f5272041edfbfe
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 3680344c3449c80064b818f7ab2a5b48020fba4b
+ms.sourcegitcommit: 02b05932a119527f255e1eacc745a257044e392f
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73870078"
+ms.lasthandoff: 12/19/2019
+ms.locfileid: "75220599"
 ---
 # <a name="using-oauth-to-connect-to-power-bi-report-server-and-ssrs"></a>使用 OAuth 连接到 Power BI 报表服务器和 SSRS
 
@@ -94,7 +94,7 @@ SPN 是使用 Kerberos 身份验证的服务的唯一标识符。 需要确保�
 
    ![ADFS 应用程序组向导 01](media/mobile-oauth-ssrs/adfs-application-group-wizard1.png)
 
-3. 选择**下一步**。
+3. 选择“下一步”  。
 
 4. 为正在添加的应用程序提供“**名称**”。 
 
@@ -112,7 +112,7 @@ SPN 是使用 Kerberos 身份验证的服务的唯一标识符。 需要确保�
    urn:ietf:wg:oauth:2.0:oob
 
    ![ADFS 应用程序组向导 02](media/mobile-oauth-ssrs/adfs-application-group-wizard2.png)
-7. 选择**下一步**。
+7. 选择“下一步”  。
 
 8. 提供报表服务器的 URL。 该 URL 是将命中 Web 应用程序代理的外部 URL。 格式应如下所示。
 
@@ -122,17 +122,17 @@ SPN 是使用 Kerberos 身份验证的服务的唯一标识符。 需要确保�
    *https://< report server url >/*
 
    ![ADFS 应用程序组向导 03](media/mobile-oauth-ssrs/adfs-application-group-wizard3.png)
-9. 选择**下一步**。
+9. 选择“下一步”  。
 
 10. 选择符合组织需求的“**访问控制策略**”。
 
     ![ADFS 应用程序组向导 04](media/mobile-oauth-ssrs/adfs-application-group-wizard4.png)
 
-11. 选择**下一步**。
+11. 选择“下一步”  。
 
 12. 选择**下一步**。
 
-13. 选择**下一步**。
+13. 选择“下一步”  。
 
 14. 选择“**关闭**”。
 
@@ -185,7 +185,7 @@ SPN 是使用 Kerberos 身份验证的服务的唯一标识符。 需要确保�
 
     ![WAP 约束 04](media/mobile-oauth-ssrs/wap-contrained-delegation4.png)
 
-11. 选择**确定**。
+11. 选择“确定”。 
 
 ### <a name="add-wap-application"></a>添加 WAP 应用程序
 
@@ -244,7 +244,7 @@ Set-WebApplicationProxyApplication -id 30198C7F-DDE4-0D82-E654-D369A47B1EE5 -Bac
 
 可以设置 [Fiddler](https://www.telerik.com/fiddler) 作为移动设备的代理，来查看请求的进度。 若要为手机设备启用 Fiddler 代理，需要在运行 Fiddler 的计算机上安装[适用于 iOS 和 Android 的 CertMaker](https://www.telerik.com/fiddler/add-ons)。 加载项来自 Telerik for Fiddler。
 
-如果使用 Fiddler 登录成功，则 WAP 应用程序或 ADFS 服务器的证书可能存在问题。 可以使用 [Microsoft Message Analyzer](https://www.microsoft.com/download/details.aspx?id=44226) 等工具验证这些证书是否有效。
+如果使用 Fiddler 登录成功，则 WAP 应用程序或 ADFS 服务器的证书可能存在问题。 
 
 ## <a name="next-steps"></a>后续步骤
 

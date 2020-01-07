@@ -10,10 +10,10 @@ ms.date: 10/31/2019
 ms.author: kfollis
 LocalizationGroup: Get started
 ms.openlocfilehash: 13928bc39801cdaccf73450da64c4f84048fbce3
-ms.sourcegitcommit: 90bd747b7c460d17b74cd386d3f5714234b1f6c9
+ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/03/2019
+ms.lasthandoff: 01/06/2020
 ms.locfileid: "74791624"
 ---
 # <a name="sign-up-for-power-bi-as-an-individual"></a>以个人身份注册 Power BI
@@ -38,7 +38,7 @@ Power BI 既是你的个人数据分析和可视化工具，还可用作组项�
 
 1. 请转到[注册页](https://signup.microsoft.com/signup?sku=a403ebcc-fae0-4ca2-8c8c-7a907fd6c235)。
 
-1. 输入你的电子邮件地址，然后选择“注册”。
+1. 输入你的电子邮件地址，然后选择“注册”  。
 
     ![开始使用](media/service-self-service-signup-for-power-bi/get-started.png)
 
@@ -50,7 +50,7 @@ Power BI 既是你的个人数据分析和可视化工具，还可用作组项�
 
     ![现有帐户](media/service-self-service-signup-for-power-bi/existing-account.png)
 
-1. 输入收到的验证码，然后选择“注册”。
+1. 输入收到的验证码，然后选择“注册”  。
 
     ![注册](media/service-self-service-signup-for-power-bi/sign-up.png)
 
@@ -58,7 +58,7 @@ Power BI 既是你的个人数据分析和可视化工具，还可用作组项�
 
     ![电子邮件验证](media/service-self-service-signup-for-power-bi/email-verification.png)
 
-1. 在下一个屏幕上，输入你的信息和电子邮件中的验证码。 选择一个区域，查看此屏幕链接的政策，然后选择“开始”。
+1. 在下一个屏幕上，输入你的信息和电子邮件中的验证码。 选择一个区域，查看此屏幕链接的政策，然后选择“开始”  。
 
     ![创建帐户](media/service-self-service-signup-for-power-bi/create-account.png)
 
@@ -76,7 +76,7 @@ Power BI 既是你的个人数据分析和可视化工具，还可用作组项�
 
 在大多数情况下，可按照所述过程注册 Power BI。 下表列出了一些可能会妨碍注册的问题，并提供了可能的解决方法。
 
-| 症状/错误消息 | 原因和解决方法 |
+| 症状/错误消息 | 原因和解决办法 |
 | ----------------------- | -------------------- |
 | <strong>个人电子邮件地址（例如 nancy@gmail.com）</strong> 你会在注册过程中收到类似于以下的消息： <br /><br /> *你输入的是个人电子邮件地址：请输入你的工作电子邮件地址，以便我们可以安全地存储你公司的数据。* <br /><br /> 或 <br /><br /> *这看起来像个人电子邮件地址。请输入你的工作地址，以便我们可以将你和公司中的其他人相连接。请不必担心。我们不会向任何人分享你的地址。* | Power BI 不支持由使用者电子邮件服务或电信提供商提供的电子邮件地址。 <br /><br /> 若要完成注册，请使用你的工作单位或学校分配的电子邮件地址再试一次。 <br /><br /> 如果你仍无法注册并且愿意完成更高级的安装过程，则可以[注册新的 Office 365 试用版订阅并使用该电子邮件地址进行注册](service-admin-signing-up-for-power-bi-with-a-new-office-365-trial.md)。 <br /><br /> 此外，还可以让现有用户[向你发出来宾邀请](service-admin-azure-ad-b2b.md)。 |
 | **自助注册已禁用**：在注册期间收到一条如下消息： <br /><br /> *我们无法完成注册。你的 IT 部门已经关闭了注册 Microsoft Power BI。请与他们联系以完成注册。* <br /><br /> 或 <br /><br /> *这看起来像个人电子邮件地址。请输入你的工作地址，以便我们可以将你和公司中的其他人相连接。请不必担心。我们不会向任何人分享你的地址。* | 你组织的 IT 管理员已禁用自助注册 Power BI。 <br /><br /> 要完成注册，请与 IT 管理员联系，并要求他们[按照说明启用注册](service-admin-licensing-organization.md#enable-or-disable-individual-user-sign-up-in-azure-active-directory)。 <br/><br/> 如果[通过合作伙伴注册 Office 365](service-admin-syndication-partner.md)，也可能会遇到此问题。 |

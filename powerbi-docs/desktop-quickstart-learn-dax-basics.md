@@ -10,10 +10,10 @@ ms.date: 10/21/2019
 ms.author: davidi
 LocalizationGroup: Model your data
 ms.openlocfilehash: fcff0bf1d6c68b9bdb000855f4984b3664b882c1
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/09/2019
+ms.lasthandoff: 01/06/2020
 ms.locfileid: "73877914"
 ---
 # <a name="dax-basics-in-power-bi-desktop"></a>Power BI Desktop 中的 DAX 基本概念
@@ -223,7 +223,7 @@ DAX 包含以下函数类别：[日期和时间](https://msdn.microsoft.com/libr
 函数：
 
 1. 表和列。
-2. 是的。 公式可以包含多达 64 个嵌套函数。
+2. 是。 公式可以包含多达 64 个嵌套函数。
 3. [文本函数](https://msdn.microsoft.com/library/ee634938.aspx)。
 
 上下文：

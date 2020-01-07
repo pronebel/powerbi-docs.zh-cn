@@ -10,10 +10,10 @@ ms.date: 08/02/2018
 ms.author: maggies
 LocalizationGroup: Share your work
 ms.openlocfilehash: 975c219a98f3d03f59df4d1c2a0551718bf213f0
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/09/2019
+ms.lasthandoff: 01/06/2020
 ms.locfileid: "73881274"
 ---
 # <a name="manage-update-and-delete-organizational-content-packs"></a>管理、更新和删除组织内容包
@@ -56,7 +56,7 @@ ms.locfileid: "73881274"
 内容包创建者可进行另一种修改，即扩展和限制对内容包的访问权限。  也许你将内容包发布到了广泛的受众，又决定将访问权限限制于一个较小的组。  
 
 1. 选择齿轮图标 ![](media/service-organizational-content-pack-manage-update-delete/cog.png)，然后选择**查看内容包**。
-2. 选择**编辑**。 
+2. 选择“编辑”  。 
 3. 在**更新内容包**窗口中进行任何所需更改，然后选择**更新**。 例如，删除**特定组**字段中的原始通讯组，并将其替换为（成员较少的）其他通讯组。
    
    将显示“成功”消息。

@@ -10,10 +10,10 @@ ms.date: 03/01/2018
 ms.author: maggies
 LocalizationGroup: Common tasks
 ms.openlocfilehash: de842b95c8f6e023a5207c07abb2525c5fe45878
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/09/2019
+ms.lasthandoff: 01/06/2020
 ms.locfileid: "73871719"
 ---
 # <a name="rename-almost-anything-in-power-bi-service"></a>在 Power BI 服务中重命名几乎所有内容
@@ -21,7 +21,7 @@ ms.locfileid: "73871719"
 
 **可以更改名称吗？**
 
-| 内容类型 | 我是作者或创建者 | 与我共享 |
+| 内容类型 | 我是作者或创建者 | 与我共享的内容 |
 | --- | --- | --- |
 | 工作区中的仪表板 |是 |否 |
 | 工作区中的报表 |是 |否 |

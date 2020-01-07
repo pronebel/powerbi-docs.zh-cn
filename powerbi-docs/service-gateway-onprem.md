@@ -10,10 +10,10 @@ ms.topic: conceptual
 LocalizationGroup: Gateways
 ms.date: 07/15/2019
 ms.openlocfilehash: 96a006f60e08d35ef6bbe13a2033d866814ec5b2
-ms.sourcegitcommit: f77b24a8a588605f005c9bb1fdad864955885718
+ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/02/2019
+ms.lasthandoff: 01/06/2020
 ms.locfileid: "74697534"
 ---
 # <a name="what-is-an-on-premises-data-gateway"></a>本地数据网关是什么？
@@ -22,7 +22,7 @@ ms.locfileid: "74697534"
 
 本地数据网关充当网桥，提供本地数据（不位于云中的数据）与几种 Microsoft 云服务之间快速安全的数据传输。 这些云服务包括 Power BI、PowerApps、Power Automate、Azure Analysis Services 和 Azure 逻辑应用。 通过使用网关，组织可以将数据库和其他数据源保留在其本地网络上，还可以在云服务中安全地使用该本地数据。
 
-## <a name="how-the-gateway-works"></a>网关的工作原理
+## <a name="how-the-gateway-works"></a>网关工作原理
 
 ![网关概述](media/service-gateway-onprem/on-premises-data-gateway.png)
 

@@ -10,10 +10,10 @@ ms.date: 09/09/2019
 ms.author: kfollis
 LocalizationGroup: Administration
 ms.openlocfilehash: 0c9d346017dc3b18abd6a56d0d3a62e1305e6575
-ms.sourcegitcommit: f77b24a8a588605f005c9bb1fdad864955885718
+ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/02/2019
+ms.lasthandoff: 01/06/2020
 ms.locfileid: "74698730"
 ---
 # <a name="administering-power-bi---frequently-asked-questions-faq"></a>管理 Power BI - 常见问题 (FAQ)
@@ -153,7 +153,7 @@ Get-MsolCompanyInformation | fl allow*
 
 ## <a name="administration-of-power-bi"></a>Power BI 的管理
 
-### <a name="how-will-this-change-the-way-i-manage-identities-for-users-in-my-organization-today"></a>这会如何更改我当前为组织中的用户管理标识的方式？
+### <a name="how-will-this-change-the-way-i-manage-identities-for-users-in-my-organization-today"></a>这会对目前我管理我的组织中的用户身份的方式带来什么变化？
 
 有三种方案可以适用于组织中的用户：
 
@@ -171,7 +171,7 @@ Get-MsolCompanyInformation | fl allow*
 
 Power BI 为 Microsoft 365 全局管理员角色中的用户和 Power BI 服务管理员角色中的用户提供 Power BI 管理门户。 若要使用 Power BI 管理门户，需要在 Microsoft 365 或 Azure Active Directory 中将帐户标记为“全局管理员”，或需要某个人将 Power BI 服务管理员角色分配给你的用户帐户  。 有关详细信息，请参阅[了解 Power BI 管理员角色](service-admin-role.md)和 [ Power BI 管理门户](service-admin-portal.md)。 该门户提供了控制租户范围的设置、查看 Power BI 使用情况统计数据的能力以及指向用于管理用户和组的 Microsoft 365 管理中心的链接。
 
-### <a name="what-is-the-process-to-manage-a-tenant-created-by-microsoft-for-my-users"></a>管理 Microsoft 为我的用户创建的租户的过程是怎样的？
+### <a name="what-is-the-process-to-manage-a-tenant-created-by-microsoft-for-my-users"></a>管理 Microsoft 为我的用户创建的租户的流程是怎样的？
 
 自助服务用户注册使用 Azure AD 的云服务后，该服务会根据其电子邮件域将其添加到非托管 Azure AD 目录中。 你可以声明和管理他人使用“管理员接管”  流程创建的租户。 有关详细信息，请参阅[在 Azure Active Directory 中以管理员身份接管非托管目录](/azure/active-directory/users-groups-roles/domains-admin-takeover)。 所执行的接管类型取决于是否现有与域关联的托管租户：
 
@@ -181,7 +181,7 @@ Power BI 为 Microsoft 365 全局管理员角色中的用户和 Power BI 服务�
 
 ### <a name="if-i-have-multiple-domains-can-i-control-the-microsoft-365-tenant-that-users-get-added-to"></a>如果我有多个域，是否可以控制向其中添加用户的 Microsoft 365 租户？
 
-如果不执行任何操作，该服务会为每个用户电子邮件域和子域都创建一个租户。 如果你希望所有用户都处于相同租户中（不考虑其电子邮件地址扩展）：提前创建一个目标租户或者使用某个现有租户。 然后，在该租户内添加你希望合并的所有现有域和子域。 电子邮件地址以这些域和子域结尾的每个用户便会在注册时自动加入目标租户。
+如果不执行任何操作，该服务会为每个用户电子邮件域和子域都创建一个租户。 如果无论用户的电子邮件地址扩展是什么，你都希望所有用户位于同一租户中，请执行以下操作：提前创建一个目标租户或者使用某个现有租户。 然后，在该租户内添加你希望合并的所有现有域和子域。 电子邮件地址以这些域和子域结尾的每个用户便会在注册时自动加入目标租户。
 
 > [!IMPORTANT]
 > 创建用户后，就没有受支持的自动机制可将用户跨租户移动。 若要了解如何向单个 Microsoft 365 租户添加域，请参阅[将用户和域添加到 Office 365](/office365/admin/setup/add-domain/)。
@@ -202,7 +202,7 @@ Power BI 为 Microsoft 365 全局管理员角色中的用户和 Power BI 服务�
 
 1. 将“Power BI（免费）”或“Power BI Pro”（具体视你应用于帐户的许可证而定）设置为“关”    。
 
-1. 选择**保存**。
+1. 选择“保存”。 
 
 ### <a name="how-do-i-know-when-new-users-have-joined-my-tenant"></a>如何知道新用户加入了我的租户？
 

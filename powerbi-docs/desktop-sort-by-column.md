@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 05/08/2019
+ms.date: 12/17/2019
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: daf4f2c4aaa010516f90cae54c1e8b6784fb0f64
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 78632db52ae197a1643dcf1f2831e140568bc6fe
+ms.sourcegitcommit: 02b05932a119527f255e1eacc745a257044e392f
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73879698"
+ms.lasthandoff: 12/19/2019
+ms.locfileid: "75223442"
 ---
 # <a name="sort-by-column-in-power-bi-desktop"></a>在 Power BI Desktop 中按列排序
 在 **Power BI Desktop** 和 **Power BI 服务**中，你可以更改视觉对象的外观，方法是按不同的数据字段对其进行排序。 通过更改视觉对象的排序方式，可以突出显示想要表达的信息，并确保视觉对象反映相关趋势（或重点）。
@@ -100,4 +100,11 @@ ms.locfileid: "73879698"
 ![默认排序顺序](media/desktop-sort-by-column/sortbycolumn_7.png)
 
 有如此多可用于排序视觉对象的选项，创建所需图表或图像轻而易举。
+
+## <a name="next-steps"></a>后续步骤
+
+你可能还会对以下文章感兴趣：
+
+* [在 Power BI Desktop 中使用跨报表钻取](desktop-cross-report-drill-through.md)
+* [在 Power BI Desktop 中使用切片器](visuals/power-bi-visualization-slicers.md)
 

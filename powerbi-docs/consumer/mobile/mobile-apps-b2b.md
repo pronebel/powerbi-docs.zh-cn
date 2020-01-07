@@ -1,19 +1,19 @@
 ---
 title: 以外部来宾用户身份查看 Power BI 内容 (Azure AD B2B)
 description: 使用 Power BI 移动应用查看外部组织与自己共享的内容。
-author: mshenhav
+author: paulinbar
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: conceptual
-ms.date: 03/27/2019
-ms.author: mshenhav
-ms.openlocfilehash: f0db77a69bd8845b9448b7c15fedea7663683ec0
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.date: 12/09/2019
+ms.author: painbar
+ms.openlocfilehash: c5e1e0b90f24a81940edab46633f49df41d25fdc
+ms.sourcegitcommit: 02b05932a119527f255e1eacc745a257044e392f
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73879348"
+ms.lasthandoff: 12/19/2019
+ms.locfileid: "75219821"
 ---
 # <a name="view-power-bi-content-shared-with-you-from-an-external-organization"></a>查看外部组织与自己共享的 Power BI 内容
 
@@ -30,18 +30,18 @@ Power BI 与 Azure Active Directory 企业到企业 (Azure AD B2B) 集成后，�
 
 **首先，需要有一个属于外部组织的人员向你共享某个项目。** 若有人[向你共享项目](../../service-share-dashboards.md)，无论该人员属于与你相同的组织还是某个外部组织，你都将收到一封电子邮件，其中包含指向该共享项目的链接。 在移动设备上打开该链接，开启 Power BI 移动应用。 如果此应用识别出该项目是从外部组织共享的，则该应用将使用你的身份重新连接到对应的外部组织。 然后，应用会加载由该组织与你共享的所有项目。
 
-![Power BI 打开从电子邮件共享的项目 ](./media/mobile-apps-b2b/mobile-b2b-open-item-email.png)
+![Power BI 打开从电子邮件共享的项目 ](./media/mobile-apps-b2b/mobile-b2b-open-item-email-new.png)
 
 > [!NOTE]
 > 若这是你首次作为外部来宾用户接收到共享的项目，则必须在浏览器中声明邀请。 在 Power BI 应用中无法声明邀请。
 
 只要已连接到外部组织，应用中就会显示一个黑色标头。 此标头表明连接的不是你所属的组织。 若要连接回自己所属的组织，请退出来宾模式。
 
-![Power BI 来宾用户标头](./media/mobile-apps-b2b/mobile-b2b-exit-home.png)
+![Power BI 来宾用户标头](./media/mobile-apps-b2b/mobile-b2b-exit-home-new.png)
 
 虽然需要将 Power BI 项目链接连接到外部组织，但在应用切换后，就可以访问与你共享的所有项目（而不仅是从电子邮件中打开的项目）。 若要查看外部组织中可访问的所有项目，请转到应用菜单并选择“与我共享”  。 在“应用”下，还可以找到可以使用的应用  。
 
-![来宾外部用户眼中的 Power BI 应用菜单](./media/mobile-apps-b2b/mobile-b2b-menu.png)
+![来宾外部用户眼中的 Power BI 应用菜单](./media/mobile-apps-b2b/mobile-b2b-menu-new.png)
 
 ## <a name="limitations"></a>限制
 

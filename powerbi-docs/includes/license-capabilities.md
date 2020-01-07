@@ -5,10 +5,10 @@ ms.topic: include
 ms.date: 12/03/2019
 ms.author: kfollis
 ms.openlocfilehash: e046ad861f65a0a1b7d0a704fded822038438d85
-ms.sourcegitcommit: 320d83ab392ded71bfda42c5491acab3d9d357b0
+ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/10/2019
+ms.lasthandoff: 01/06/2020
 ms.locfileid: "74958578"
 ---
 在 Power BI 服务中，用户已基于拥有的每个用户许可证的类型定义了功能，以及他们所操作的内容是否位于分配给 Power BI Premium 容量的工作区中。

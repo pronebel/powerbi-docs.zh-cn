@@ -7,15 +7,15 @@ ms.custom: seodec18
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 09/26/2019
+ms.date: 12/17/2019
 ms.author: davidi
 LocalizationGroup: Reports
-ms.openlocfilehash: d949978d431a219845ed93b59eb52439c9d7f0c0
-ms.sourcegitcommit: 320d83ab392ded71bfda42c5491acab3d9d357b0
+ms.openlocfilehash: f72d29e7f5bc7f93abd43f4c14cf0e53ef18f8d3
+ms.sourcegitcommit: 02b05932a119527f255e1eacc745a257044e392f
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/10/2019
-ms.locfileid: "74958623"
+ms.lasthandoff: 12/19/2019
+ms.locfileid: "75223726"
 ---
 # <a name="analyze-in-excel"></a>在 Excel 中分析
 有时，你可能希望使用 Excel 查看 Power BI 中的数据集并与之交互。 借助**在 Excel 中分析**，不仅可以做到这一点，还可以基于 Power BI 中存在的数据集访问 Excel 中的数据透视表、图表和切片器功能。
@@ -104,3 +104,11 @@ Excel 已打开并且你有一个空数据透视表，现在可以对 Power BI �
 
 ## <a name="troubleshooting"></a>故障排除
 有时，在使用 Analyze in Excel 期间可会能收意外的结果，或功能未按预期工作。 [此页提供针对 Analyze in Excel 常见问题的解决方案](desktop-troubleshooting-analyze-in-excel.md)
+
+## <a name="next-steps"></a>后续步骤
+
+你可能还会对以下文章感兴趣：
+
+* [在 Power BI Desktop 中使用跨报表钻取](desktop-cross-report-drill-through.md)
+* [在 Power BI Desktop 中使用切片器](visuals/power-bi-visualization-slicers.md)
+

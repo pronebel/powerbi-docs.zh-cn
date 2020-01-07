@@ -11,10 +11,10 @@ ms.author: kfollis
 ms.custom: seodec18
 LocalizationGroup: Troubleshooting
 ms.openlocfilehash: 1976567029454445f625ff400fb1d87ae6c01219
-ms.sourcegitcommit: f77b24a8a588605f005c9bb1fdad864955885718
+ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/02/2019
+ms.lasthandoff: 01/06/2020
 ms.locfileid: "74698408"
 ---
 # <a name="error-we-couldnt-find-any-data-in-your-excel-workbook"></a>错误：我们在你的 Excel 工作簿中找不到任何数据
