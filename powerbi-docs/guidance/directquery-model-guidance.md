@@ -8,12 +8,12 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 10/24/2019
 ms.author: v-pemyer
-ms.openlocfilehash: bfc1572e31269182e9ca63efbbf6934b90f84b66
-ms.sourcegitcommit: 462ccdd9f79ff698ed0cdfc3165f4ada364dd9ef
+ms.openlocfilehash: 723cc7b2767f6a5ee4394bca74e507fc688b3af8
+ms.sourcegitcommit: 02b05932a119527f255e1eacc745a257044e392f
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/25/2019
-ms.locfileid: "74478630"
+ms.lasthandoff: 12/19/2019
+ms.locfileid: "75223640"
 ---
 # <a name="directquery-model-guidance-in-power-bi-desktop"></a>Power BI Desktop 中的 DirectQuery 模型指导
 
@@ -87,7 +87,7 @@ ms.locfileid: "74478630"
 
     增加“每个数据源的最大连接数”值确保更多查询（最多为指定的最大数）可以发送到基础数据源，这在单个页面上有许多视觉对象或多个用户同时访问报表时很有用  。 达到最大连接数后，超出的查询就会排队，直到连接可用。 增加此限制确实会导致基础数据源上的负载增加，因此该设置不保证提高总体性能。
     
-    将模型发布到 Power BI 时，发送到基础数据源的并发查询的最大数目也取决于环境。 不同环境（如 Power BI、Power BI Premium 或 Power BI 报表服务器）中的每一个都可以施加不同的吞吐量约束。 有关 Power BI Premium 容量资源限制的详细信息，请参阅[部署和管理 Power BI Premium 容量](https://docs.microsoft.com/power-bi/whitepaper-powerbi-premium-deployment#premium-capacities)。
+    将模型发布到 Power BI 时，发送到基础数据源的并发查询的最大数目也取决于环境。 不同环境（如 Power BI、Power BI Premium 或 Power BI 报表服务器）中的每一个都可以施加不同的吞吐量约束。 有关 Power BI Premium 容量资源限制的详细信息，请参阅[部署和管理 Power BI Premium 容量](https://docs.microsoft.com/power-bi/whitepaper-powerbi-premium-deployment)。
 
 ## <a name="optimize-report-designs"></a>优化报表设计
 
