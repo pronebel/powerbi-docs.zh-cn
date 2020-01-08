@@ -34,9 +34,9 @@
               href: ../service-admin-syndication-partner.md
         - name: 使用管理门户
           href: ../service-admin-portal.md
-        - name: 找到已登录的用户
+        - name: 查找已登录的用户
           href: ../service-admin-access-usage.md
-        - name: 审核
+        - name: 跟踪用户活动
           href: ../service-admin-auditing.md
         - name: 跟踪服务运行状况
           href: ../service-admin-health.md
