@@ -15,8 +15,6 @@
               href: power-bi-custom-visuals.md
         - name: 教程
           items:
-            - name: 视觉对象概念
-              href: visuals/power-bi-visuals-concept.md
             - name: 开发 Power BI 视觉对象
               href: visuals/custom-visual-develop-tutorial.md
             - name: 添加格式设置选项
@@ -25,6 +23,10 @@
               href: visuals/unit-tests-introduction.md
         - name: 概念
           items:
+            - name: Power BI 视觉对象项目结构
+              href: visuals/visual-project-structure.md
+            - name: 视觉对象概念
+              href: visuals/power-bi-visuals-concept.md
             - name: Power BI 中适用于组织的视觉对象
               href: power-bi-custom-visuals-organization.md
             - name: Power BI 视觉对象指南
@@ -63,6 +65,8 @@
               href: visuals/bookmarks-support.md
             - name: 添加上下文菜单支持
               href: visuals/context-menu.md
+            - name: 添加向下钻取支持
+              href: visuals/drill-down-support.md
             - name: 在视觉对象中突出显示数据
               href: visuals/highlight.md
             - name: 添加高对比度模式支持
@@ -109,7 +113,7 @@
               href: 'https://go.microsoft.com/fwlink/?linkid=848277'
             - name: 创建 SSL 证书
               href: visuals/create-ssl-certificate.md
-    - name: 嵌入分析
+    - name: 嵌入式分析
       expanded: true
       items:
         - name: 概述
@@ -160,7 +164,7 @@
               href: get-azuread-access-token.md
             - name: 使用动态绑定连接报告
               href: embed-dynamic-binding.md
-            - name: 嵌入式常见问题解答
+            - name: 嵌入常见问题解答
               href: qanda.md
             - name: 嵌入式应用程序疑难解答
               href: embedded-troubleshoot.md
@@ -214,7 +218,7 @@
               href: 'https://go.microsoft.com/fwlink/?linkid=851293'
             - name: Power BI 社区
               href: 'https://go.microsoft.com/fwlink/?linkid=848280'
-            - name: Stack Overflow
+            - name: 堆栈溢出
               href: 'https://go.microsoft.com/fwlink/?linkid=848281'
     - name: 自动化
       expanded: true
