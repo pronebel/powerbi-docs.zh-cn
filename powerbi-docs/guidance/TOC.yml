@@ -28,6 +28,8 @@
           href: dax-countrows.md
         - name: 不要将空白转换为值
           href: dax-avoid-converting-blank.md
+        - name: 列和度量值引用
+          href: dax-column-measure-references.md
         - name: 数据流的最佳做法
           href: ../service-dataflows-best-practices.md
         - name: Power BI Desktop 中的 DirectQuery 模型指导
@@ -42,6 +44,8 @@
           href: auto-date-time.md
         - name: 多对多关系指导
           href: relationships-many-to-many.md
+        - name: 禁用 Power Query 后台刷新
+          href: power-query-background-refresh.md
     - name: 白皮书
       items:
         - name: 白皮书概述

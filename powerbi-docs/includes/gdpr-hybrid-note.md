@@ -8,12 +8,12 @@ ms.topic: include
 ms.date: 05/01/2018
 ms.author: lizross
 ms.custom: include file
-ms.openlocfilehash: f51998fdc9799d34c2a923105b00eac7a9906aad
-ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
+ms.openlocfilehash: 2ff0aae6ac957b22d2662c58403a5898fa37898d
+ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/06/2020
-ms.locfileid: "68843141"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "75772977"
 ---
 >[!Note]
->如果要查看或删除个人数据，请参阅[一般数据保护条例的 Windows 数据主体请求](https://docs.microsoft.com/microsoft-365/compliance/gdpr-dsr-windows)网站中的 Microsoft 指南。 如果要寻找有关一般数据保护条例的一般信息，请参阅[服务信任门户的一般数据保护条例部分](https://servicetrust.microsoft.com/ViewPage/GDPRGetStarted)。
+>如果要查看或删除个人数据，请参阅[一般数据保护条例的 Windows 数据主体请求](/microsoft-365/compliance/manage-gdpr-data-subject-requests-with-the-dsr-case-tool)网站中的 Microsoft 指南。 如果要寻找有关一般数据保护条例的一般信息，请参阅[服务信任门户的一般数据保护条例部分](https://servicetrust.microsoft.com/ViewPage/GDPRGetStarted)。
