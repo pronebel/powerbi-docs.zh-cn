@@ -173,7 +173,7 @@
               href: desktop-connect-snowflake.md
             - name: 连接到 Azure 成本管理数据
               href: desktop-connect-azure-cost-management.md
-            - name: 连接到 Microsoft Azure Consumption Insights
+            - name: 连接到 Azure 使用见解数据
               href: desktop-connect-azure-consumption-insights.md
             - name: 使用 SAP HANA
               href: desktop-sap-hana.md
@@ -265,13 +265,13 @@
               href: desktop-gridlines-snap-to-grid.md
             - name: 在 Power BI 报表中应用页面显示设置
               href: power-bi-report-display-settings.md
-            - name: 从示例添加列
+            - name: 从示例中添加列
               href: desktop-add-column-from-example.md
             - name: 添加自定义列
               href: desktop-add-custom-column.md
             - name: 使用内联层次结构标签
               href: desktop-inline-hierarchy-labels.md
-            - name: 使用数字范围切片器
+            - name: 使用数值范围切片器
               href: desktop-slicer-numeric-range.md
             - name: 使用相对日期切片器和筛选器
               href: desktop-slicer-filter-date-range.md
@@ -495,7 +495,7 @@
               href: service-admin-licensing-organization.md
             - name: 按许可证类型列出的功能
               href: service-features-license-type.md
-            - name: 适用于美国政府的 Power BI
+            - name: Power BI for US Government
               href: service-govus-overview.md
             - name: 针对德国云客户的常见问题解答
               href: service-govde-faq.md
@@ -631,11 +631,11 @@
               href: service-interact-with-a-report-in-editing-view.md
             - name: 在 Excel 中分析
               href: service-analyze-in-excel.md
-            - name: 创建报表的提示和技巧
+            - name: 创建报表的相关提示和技巧
               href: power-bi-reports-tips-and-tricks-for-creating.md
             - name: 在服务中使用聚合
               href: service-aggregates.md
-            - name: 报表使用指标
+            - name: 报告的使用情况指标
               href: service-usage-metrics.md
             - name: 为报表创建 QR 代码
               href: service-create-qr-code-for-report.md
@@ -791,7 +791,7 @@
               href: service-rename.md
             - name: 设置项目联系人
               href: service-item-contact.md
-            - name: 组织美国政府组织
+            - name: 注册你的美国政府组织
               href: service-govus-signup.md
             - name: 在 Power BI 中删除几乎所有内容
               href: service-delete.md
@@ -903,8 +903,6 @@
           href: report-builder-data.md
         - name: 支持的数据源
           href: paginated-reports-data-sources.md
-        - name: 使用 Power BI 共享数据集
-          href: report-builder-shared-datasets.md
         - name: 设计提示
           href: report-builder-design-tips.md
         - name: 表、矩阵、列表
@@ -929,6 +927,8 @@
           href: paginated-reports-embedded-data-source.md
         - name: 创建嵌入的数据集
           href: paginated-reports-create-embedded-dataset.md
+        - name: 使用 Power BI 共享数据集创建报表
+          href: report-builder-shared-datasets.md
         - name: 创建参数
           href: paginated-reports-parameters.md
         - name: 在 URL 中传递报表参数
@@ -963,7 +963,7 @@
           href: report-server/admin-handbook-overview.md
         - name: 报表服务器基本信息
           items:
-            - name: Power BI 报表计划内刷新
+            - name: Power BI 报表计划刷新
               href: report-server/scheduled-refresh.md
             - name: Power BI 报表数据源
               href: report-server/data-sources.md
@@ -973,7 +973,7 @@
               href: 'https://go.microsoft.com/fwlink/?linkid=851310'
             - name: 使用移动应用
               href: 'https://go.microsoft.com/fwlink/?linkid=848711'
-            - name: 计划内刷新疑难解答
+            - name: 计划刷新疑难解答
               href: report-server/scheduled-refresh-troubleshoot.md
         - name: 面向开发人员的报表服务器
           items:
@@ -989,6 +989,8 @@
       items:
         - name: 安装 Power BI Desktop
           href: report-server/install-powerbi-desktop.md
+        - name: 安装报表生成器
+          href: report-server/install-report-builder.md
         - name: 报表服务器基本信息
           items:
             - name: 为报表服务器创建 Power BI 报表
@@ -1009,17 +1011,17 @@
               href: report-server/connect-data-source-apis.md
             - name: 配置计划刷新
               href: report-server/configure-scheduled-refresh.md
-            - name: 向报表添加注释
+            - name: 将注释添加到报表
               href: report-server/add-comments.md
         - name: 面向管理员的报表服务器
           items:
-            - name: 安装报告服务器
+            - name: 安装报表服务器
               href: report-server/install-report-server.md
             - name: 查找产品密钥
               href: report-server/find-product-key.md
             - name: 升级报表服务器
               href: report-server/upgrade.md
-            - name: 迁移报告服务器
+            - name: 迁移报表服务器
               href: report-server/migrate-report-server.md
             - name: 配置 Kerberos 以使用 Power BI 报表
               href: report-server/configure-kerberos-powerbi-reports.md
@@ -1027,7 +1029,7 @@
               href: report-server/configure-powerbi-mobile-apps-remote.md
             - name: 使用 Azure AD 进行远程移动访问
               href: 'https://docs.microsoft.com/azure/active-directory/manage-apps/application-proxy-integrate-with-power-bi'
-            - name: 主机 Excel 工作簿
+            - name: 托管 Excel 工作簿
               href: report-server/excel-oos.md
     - name: 参考
       items:
