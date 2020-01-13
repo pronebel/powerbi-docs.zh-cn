@@ -6,14 +6,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: conceptual
-ms.date: 11/12/2019
+ms.date: 12/16/2019
 ms.author: painbar
-ms.openlocfilehash: c188f2b00447ff9f97059e81e7945f67e3170c6d
-ms.sourcegitcommit: 0d7ad791a2d2bef45d5d60e38e0af4c9fc22187b
+ms.openlocfilehash: 44fcfdbaa51b85b191ff1452c66daee7da0360f8
+ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/13/2019
-ms.locfileid: "74010016"
+ms.lasthandoff: 01/06/2020
+ms.locfileid: "75220508"
 ---
 # <a name="whats-new-in-the-mobile-apps-for-power-bi"></a>Power BI 移动应用中的新功能
 有关相关的“新增功能”的信息，请参阅：
@@ -21,6 +21,20 @@ ms.locfileid: "74010016"
 * [适用于移动应用的 Power BI 工作组日志](https://powerbi.microsoft.com/blog/tag/mobile/)
 * [Power BI Desktop 中的新增功能](../../desktop-latest-update.md)  
 * [Power BI 服务中的最近更新](../../service-whats-new.md)  
+
+## <a name="november-2019"></a>2019 年 11 月
+
+### <a name="power-bi-apps-new-look-is-now-on-by-default"></a>现在，Power BI 应用默认启用新外观
+ 
+现在，打开应用时，将自动打开新的外观和导航栏，从而简化了查找和打开内容的方式。 将应用的[主页](mobile-apps-home-page.md)作为起点，可快速访问最重要的内容，还可以通过[活动源](mobile-apps-home-page.md#activity-feed)及时了解最新的警报、通知等内容。
+
+### <a name="see-all-your-latest-power-bi-activity"></a>查看所有最新的 Power BI 活动
+ 
+通过活动源可以实时跟踪 Power BI 内容的情况。 只需转到应用主页并打开“活动”选项卡，即可查看所有最新通知、警报、评论、@mentions 等。 [了解详细信息](mobile-apps-home-page.md#activity-feed)。
+
+### <a name="use-bookmarks-in-your-reports"></a>在报表中使用书签
+
+Power BI 移动应用现已支持在 Power BI 中创建的书签。 打开应用时，可以使用由报表作者创建的书签和你自己创建的任何个人书签。 [了解详细信息](mobile-reports-in-the-mobile-apps.md#bookmarks)。
 
 ## <a name="october-2019"></a>2019 年 10 月
 
@@ -302,7 +316,7 @@ Power BI for Mixed Reality 应用现已在 Microsoft Store 上架。 可以沉�
 
 直接从应用与组织外部用户共享仪表板和报表。 外部共享已对组织帐户和社交帐户启用。 
 
-#### <a name="persistent-filters"></a>永久性筛选器
+#### <a name="persistent-filters"></a>永久筛选器
 
 如果在 Power BI 网页版中设置筛选器和切片器，选择的筛选器也会保存到移动应用中，以便用户能够从上次停下的地方继续操作。
 
@@ -520,7 +534,7 @@ Apple Watch 改进
 #### <a name="android-devices"></a>Android 设备
 **预览阶段：Intune 移动应用程序管理** - 对于使用 Android 设备的 Power BI Pro 用户，Power BI 对 Microsoft Intune 移动应用程序管理器 (MAM) 的支持现已处于预览阶段。 
 
-收藏夹  - 在 Android 设备上将常用仪表板添加到收藏夹，然后在一个方便访问的位置上集中查看所有[常用 Power BI 仪表板和 Reporting Services 移动报表及 KPI](mobile-android-app-get-started.md#view-your-favorite-dashboards-kpis-and-reports)。 
+收藏夹  - 在 Android 设备上将常用仪表板添加到收藏夹，然后在一个方便访问的位置上集中查看所有[常用 Power BI 仪表板和 Reporting Services 移动报表及 KPI](mobile-android-app-get-started.md#view-your-favorite-dashboards-and-reports)。 
 
 #### <a name="ios-devices"></a>iOS 设备
 链接  - 现可单击磁贴和可视化效果中的 URL，并在浏览器中打开这些 URL。
@@ -553,7 +567,7 @@ SandDance 可视化效果  - 现可在 Surface Hub 中使用此自定义可视�
 
 ### <a name="august-2016"></a>2016 年 8 月
 #### <a name="all-phones"></a>所有手机
-收藏夹  - 可在所有 Power BI 移动应用中查看最喜爱的仪表板，并在适用于 iOS 和 Windows 10 设备的 Power BI 移动应用中管理收藏夹列表。 详细了解有关 [Power BI 移动应用中的收藏夹](mobile-apps-favorites.md)的信息。
+收藏夹  - 可在所有 Power BI 移动应用中查看最喜爱的仪表板，并在适用于 iOS 和 Windows 10 设备的 Power BI 移动应用中管理收藏夹列表。 阅读有关 [Power BI 移动应用中的收藏夹](mobile-apps-favorites.md) 的更多信息。
 
 仪表板数据分类  - 可查看仪表板所有者已向其仪表板分配的数据分类。 阅读有关[分类仪表板](../../service-data-classification.md)的更多信息。
 
@@ -667,7 +681,7 @@ iOS 9.0 和更高版本  - 为了适应 Power BI 中的可能的最佳体验和�
 必应和 R 磁贴  - 在焦点模式下打开必应和 R 磁贴。
 
 #### <a name="android-mobile-app"></a>Android 移动应用
-SQL Server 2016 移动报表和 KPI  - [查看 SQL Server 2016 移动报表和 KPI](mobile-app-ssrs-kpis-mobile-on-premises-reports.md)，并在 SSRS 文件夹之间导航。
+SQL Server 2016 移动报表和 KPI - [查看 SQL Server 2016 移动报表和 KPI](mobile-app-ssrs-kpis-mobile-on-premises-reports.md)，并在 SSRS 文件夹之间导航  。
 
 查看报表  - 从仪表板上的磁贴中打开报表。
 
@@ -678,7 +692,7 @@ SQL Server 2016 移动报表和 KPI  - [查看 SQL Server 2016 移动报表和 K
 
 必应和 R 磁贴  - 在焦点模式下打开必应和 R 磁贴。
 
-在开始屏幕上添加更多动态磁贴  - [将 KPI 和行卡片作为动态磁贴固定到开始屏幕](mobile-pin-dashboard-start-screen-windows-10-phone-app.md)，以便你可以快速浏览所有关键指标。
+在开始屏幕上添加更多动态磁贴 - [将 KPI 和行卡片作为动态磁贴固定到开始屏幕](mobile-pin-dashboard-start-screen-windows-10-phone-app.md)，以便你可以快速浏览所有关键指标  。
 
 收缩缩放  - 在平板电脑上使用收缩缩放手势，以便更加详细地检查仪表板。
 

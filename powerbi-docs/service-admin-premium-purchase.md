@@ -7,31 +7,39 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
-ms.date: 03/12/2019
+ms.date: 12/10/2019
 LocalizationGroup: Premium
-ms.openlocfilehash: bc5576bcf1edbe5c3d3ccaf2d217e5666484a7d4
-ms.sourcegitcommit: f77b24a8a588605f005c9bb1fdad864955885718
+ms.openlocfilehash: 8a97f30f75b8bf720d735944589e671392c47237
+ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/02/2019
-ms.locfileid: "74699926"
+ms.lasthandoff: 01/06/2020
+ms.locfileid: "75224009"
 ---
 # <a name="how-to-purchase-power-bi-premium"></a>如何购买 Power BI Premium
 
+本文介绍如何为你的组织购买 Power BI 高级容量。 本文介绍了两种方案：
+
+- 对于典型的生产方案，使用 P SKU。 P SKU 需要按月或按年承诺，按月计费。 在 [Microsoft 365 管理中心](https://admmin.microsoft.com)购买 P SKU。
+
+- 对于测试方案，以及无权购买 P SKU（Microsoft 365 全局管理员角色或计费管理员角色）的情况，使用 A SKU。 A SKU 无需时间承诺，按小时计费。 在 [Azure 门户](https://portal.azure.com)中购买 A SKU。
+
+有关 Power BI Premium 的详细信息，请参阅[什么是 Power BI Premium？](service-premium-what-is.md)。 有关当前定价和计划的信息，请参阅 [Power BI 定价页](https://powerbi.microsoft.com/pricing/)和 [Power BI Premium 计算器](https://powerbi.microsoft.com/calculator/)。 即使你的组织使用 Power BI Premium，内容创建者还是需要一个 [Power BI Pro 许可证](service-admin-purchasing-power-bi-pro.md)。 请确保为组织购买至少一个 Power BI Pro 许可证。 使用 A SKU，使用内容的所有用户还需要 Pro 许可证  。
+
 > [!NOTE]
-> 本文目前正在更新，以说明新功能，提供更多详细信息并提高可读性。 
+> 如果 Premium 订阅到期，将有 30 天的容量完全访问权限。 之后，内容将恢复为共享容量。 共享容量不支持大于 1 GB 的模型。
 
-本文介绍如何为你的组织购买 Power BI 高级容量 (P1-P3)。 在 Microsoft 365 管理中心购买 Power BI Premium 容量并在 Power BI 管理门户中管理容量。 有关当前定价和计划的信息，请参阅 [Power BI 定价页](https://powerbi.microsoft.com/pricing/)和 [Power BI Premium 计算器](https://powerbi.microsoft.com/calculator/)。
+## <a name="purchase-p-skus-for-typical-production-scenarios"></a>购买适用于典型生产方案的 P SKU
 
-即使你的组织使用 Power BI Premium，内容创建者还是需要一个 Power BI Pro 许可证。 请确保为组织购买至少一个 Power BI Pro 许可证。
+可以创建新的租户并配置 Power BI Premium P1 SKU，也可以为现有组织购买 Power BI Premium 容量。 在这两种情况下，都可在以后根据需要添加容量。
 
-如果 Premium 订阅到期，将有 30 天的容量完全访问权限。 之后，内容将恢复为共享容量。 共享容量不支持大于 1 GB 的模型。
-
-## <a name="create-a-new-tenant-with-power-bi-premium-p1"></a>使用 Power BI Premium P1 新建租户
+### <a name="create-a-new-tenant-with-power-bi-premium-p1"></a>使用 Power BI Premium P1 新建租户
 
 如果尚无租户并且想要创建一个，可以同时购买 Power BI Premium。 单击以下链接后，可了解创建新租户的过程，并可购买 Power BI Premium：[Power BI Premium P1 套餐](https://signup.microsoft.com/Signup?OfferId=b3ec5615-cc11-48de-967d-8d79f7cb0af1)。 创建租户时，将自动为该租户分配 Microsoft 365 全局管理员角色。
 
-## <a name="purchase-a-power-bi-premium-capacity-for-an-existing-organization"></a>为现有组织购买 Power BI Premium 容量
+购买容量后，请了解如何[管理容量](service-admin-premium-manage.md#manage-capacity)以及向容量[分配工作区](service-admin-premium-manage.md#assign-a-workspace-to-a-capacity)。
+
+### <a name="purchase-a-power-bi-premium-capacity-for-an-existing-organization"></a>为现有组织购买 Power BI Premium 容量
 
 若有现有组织（租户），则必须具有 Microsoft 365 全局管理员角色或帐务管理员角色才能购买订阅和许可证。 有关详细信息，请参阅[关于 Microsoft 365 管理员角色](https://support.office.com/article/About-Office-365-admin-roles-da585eea-f576-4f55-a1e0-87090b6aaa9d)。
 
@@ -41,7 +49,7 @@ ms.locfileid: "74699926"
 
     ![Microsoft 365 应用选取器](media/service-admin-premium-purchase/o365-app-picker.png)
 
-    或者，可以浏览到 Microsoft 365 管理中心。 如需访问，请转到 https://portal.office.com 并选择“管理员”  。
+    或者，可以浏览到 Microsoft 365 管理中心。
 
 1. 选择“计费”   > “购买服务”  。
 
@@ -57,7 +65,9 @@ ms.locfileid: "74699926"
 
 ![已购买 Power BI Premium](media/service-admin-premium-purchase/premium-purchased.png)
 
-## <a name="purchase-additional-capacities"></a>购买额外容量
+购买容量后，请了解如何[管理容量](service-admin-premium-manage.md#manage-capacity)以及向容量[分配工作区](service-admin-premium-manage.md#assign-a-workspace-to-a-capacity)。
+
+### <a name="purchase-additional-capacities"></a>购买额外容量
 
 现在已有容量，可随着需求的增长添加更多容量。 可以在组织中使用任何高级容量 SKU（P1 到 P3）组合。 不同的 SKU 提供不同的资源容量。
 
@@ -78,7 +88,7 @@ ms.locfileid: "74699926"
 
 ![Power BI Premium 容量可用的 V 核心](media/service-admin-premium-purchase/premium-capacities.png)
 
-## <a name="cancel-your-subscription"></a>取消订阅
+### <a name="cancel-your-subscription"></a>取消订阅
 
 可以在 Microsoft 365 管理中心内取消订阅。 若要取消 Premium 订阅，请执行以下操作。
 
@@ -94,9 +104,70 @@ ms.locfileid: "74699926"
 
 1. 请仔细阅读这些信息。若要继续，请选择“取消订阅”  。
 
-### <a name="when-canceling-or-your-license-expires"></a>取消订阅或许可证到期时
+#### <a name="when-canceling-or-your-license-expires"></a>取消订阅或许可证到期时
 
 取消高级订阅或容量许可证到期时，可以在取消或许可证到期之日起的 30 天内继续访问高级容量。 30 天后，将无法再访问高级容量或其中的工作区。
+
+## <a name="purchase-a-skus-for-testing-and-other-scenarios"></a>购买适用于测试和其他方案的 A SKU
+
+A SKU 通过 Azure Power BI Embedded 服务提供。 可按以下方式使用 A SKU：
+
+- 在第三方应用程序中启用 Power BI 嵌入。 有关详细信息，请参阅 [Power BI Embedded](developer/azure-pbie-what-is-power-bi-embedded.md)。
+
+- 在购买 P SKU 之前，请测试 Premium 功能。
+
+- 与使用 P SKU 的生产环境一起，创建开发和测试环境。
+
+- 即使不是 Microsoft 365 全局管理员角色或计费管理员角色，也可以购买 Power BI Premium。
+
+> [!NOTE]
+> 如果购买 A4 或更高的 SKU，可以利用除无限共享内容之外的所有 Premium 功能。 使用 A SKU，使用内容的所有用户都需要 Pro 许可证  。
+
+请按照下列步骤在 Azure 门户中购买 A SKU：
+
+1. 使用至少具有 Power BI 容量管理员权限的帐户登录 [Azure 门户](https://portal.azure.com)。
+
+1. 搜索 Power BI Embedded，然后在搜索结果中选择该服务  。
+
+    ![Azure 门户搜索](media/service-admin-premium-purchase/azure-portal-search.png)
+
+1. 选择“创建 Power BI Embedded”  。
+
+    ![创建 Power BI Embedded](media/service-admin-premium-purchase/create-power-bi-embedded.png)
+
+1. 在“Power BI Embedded”创建屏幕上，指定下列信息  ：
+
+    - 要在其中创建 Power BI Embedded 服务的订阅  。
+
+    - 要在其中创建包含服务的资源组的物理位置  。 为了获得更好的性能，此位置应靠近 Power BI 的 Azure Active Directory 租户的位置。
+
+    - 要使用的现有资源组，或者创建一个新资源组，如示例中所示  。
+
+    - Power BI 容量管理员  。 容量管理员必须是 Azure AD 租户中的成员用户或服务主体。
+
+    ![订阅和资源组](media/service-admin-premium-purchase/subscription-resource-group.png)
+
+1. 如果要使用 Power BI Premium 的所有功能（无限共享除外），则至少需要一个 A4 SKU。 选择“更改大小”  。
+
+    ![更改容量大小](media/service-admin-premium-purchase/change-capacity-size.png)
+
+1. 选择与 P1、P2 和 P3 对应的 A4、A5 或 A6 容量大小。
+
+    ![选择 A3 容量](media/service-admin-premium-purchase/select-a3-capacity.png)
+
+1. 选择“查看 + 创建”，检查选择的选项，然后选择“创建”   。
+
+    ![创建资源](media/service-admin-premium-purchase/create-resource.png)
+
+1. 完成部署可能需要几分钟时间。 准备就绪后，请选择“转到资源”  。
+
+    ![部署完毕](media/service-admin-premium-purchase/deployment-complete.png)
+
+1. 在管理屏幕上，查看用于管理服务的选项，包括用于在不使用服务时暂停该服务的选项。
+
+    ![管理容量](media/service-admin-premium-purchase/manage-capacity.png)
+
+购买容量后，请了解如何[管理容量](service-admin-premium-manage.md#manage-capacity)以及向容量[分配工作区](service-admin-premium-manage.md#assign-a-workspace-to-a-capacity)。
 
 ## <a name="next-steps"></a>后续步骤
 

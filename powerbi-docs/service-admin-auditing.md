@@ -1,43 +1,123 @@
 ---
-title: 在组织内使用审核
-description: 了解如何使用 Power BI 的审核功能来监测和调查采取的操作。 可以使用安全性和符合性中心或使用 PowerShell。
+title: 跟踪 Power BI 中的用户活动
+description: 了解如何使用 Power BI 的活动日志和审核功能来监控和调查采取的操作。
 author: kfollis
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
-ms.date: 09/09/2019
+ms.date: 01/03/2020
 ms.author: kfollis
 ms.custom: seodec18
 LocalizationGroup: Administration
-ms.openlocfilehash: 868d3dc2463f5ed94b8d8ccd85e5edff33ca1c6e
-ms.sourcegitcommit: f77b24a8a588605f005c9bb1fdad864955885718
+ms.openlocfilehash: 6cf298f6fd4d6d99163b2c0f5674b40cfc14bbfc
+ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/02/2019
-ms.locfileid: "74698914"
+ms.lasthandoff: 01/06/2020
+ms.locfileid: "75657181"
 ---
-# <a name="use-auditing-within-your-organization"></a>在组织内使用审核
+# <a name="track-user-activities-in-power-bi"></a>跟踪 Power BI 中的用户活动
 
-了解 Power BI 租户中谁正在对何项目执行何种操作对帮助组织满足其需求非常关键，如满足法规遵从性和记录管理需求。 Power BI 审核可用于审核用户执行的操作，如“查看报表”和“查看仪表板”。 无法使用审核来审核权限。
+了解 Power BI 租户中谁正在对何项目执行何种操作对帮助组织满足其需求非常关键，如满足法规遵从性和记录管理需求。 使用 Power BI，可以通过两个选项来跟踪用户活动：[Power BI 活动日志](#use-the-activity-log)和[统一 Office 365 审核日志](#use-the-audit-log)。 这些日志都包含 [Power BI 审核数据](#operations-available-in-the-audit-and-activity-logs)的完整副本，但有几个重要区别，如下表所概括。
 
-若要使用审核，请使用 Office 365 安全与合规中心或 PowerShell。 审核依赖于 Exchange Online 中的功能，该功能可自动进行预配以支持 Power BI。
+| **统一 Office 365 审核日志** | **Power BI 活动日志** |
+| --- | --- |
+| 除了 Power BI 审核事件外，还包括来自 SharePoint Online、Exchange Online、Dynamics 365 和其他服务的事件。 | 仅包括 Power BI 审核事件。 |
+| 只有具有仅查看审核日志或审核日志权限的用户才有访问权限，例如全局管理员和审核员。 | 全局管理员和 Power BI 服务管理员具有访问权限。 |
+| 全局管理员和审核员可以使用 Office 365 安全与合规中心、Microsoft 365 安全中心和 Microsoft 365 合规中心搜索统一审核日志。 | 目前还没有用于搜索活动日志的用户界面。 |
+| 全局管理员和审核员可以使用 Office 365 管理 API 和 cmdlet 下载审核日志条目。 | 全局管理员和 Power BI 服务管理员可以使用 Power BI REST API 和管理 cmdlet 下载活动日志条目。 |
+| 审核数据可保留 90 天 | 活动数据可保留 30 天（公共预览） |
+| | |
+
+## <a name="use-the-activity-log"></a>使用活动日志
+
+作为 Power BI 服务管理员，你可以使用基于 Power BI 活动日志的自定义报表来分析租户级别的所有 Power BI 资源的使用情况。 可以使用 REST API 或 PowerShell cmdlet 来下载活动。 还可以按日期范围、用户和活动类型筛选活动数据。
+
+### <a name="activity-log-requirements"></a>活动日志要求
+
+必须满足以下要求才能访问 Power BI 活动日志：
+
+- 必须是全局管理员或 Power BI 服务管理员。
+- 你已在本地安装了 [Power BI 管理 cmdlet](https://www.powershellgallery.com/packages/MicrosoftPowerBIMgmt) 或在 Azure Cloud Shell 中使用 Power BI 管理 cmdlet。
+
+### <a name="activityevents-rest-api"></a>ActivityEvents REST API
+
+可以使用基于 Power BI REST API 的管理应用程序将活动事件导出到 blob 存储或 SQL 数据库中。 然后，你可以基于导出的数据生成自定义使用情况报表。 在 ActivityEvents REST API 调用中，必须指定开始日期和结束日期，还可以选择使用筛选器按活动类型或用户 ID 选择活动  。 由于活动日志可能包含大量数据，因此 ActivityEvents API 目前仅支持每个请求最多下载一天的数据  。 换句话说，开始日期和结束日期必须指定为同一天，如以下示例所示。 请确保以 UTC 格式指定日期时间值。
+
+```
+https://api.powerbi.com/v1.0/myorg/admin/activityevents?startDateTime='2019-08-31T00:00:00'&endDateTime='2019-08-31T23:59:59'
+```
+
+如果条目数太大，则 ActivityEvents API 只返回约 5,000 到 10,000 个条目和一个继续标记  。 然后，必须使用继续标记再次调用 ActivityEvents API 以获取下一批条目，依此类推，直到检索到所有条目，并且不再收到继续标记  。 以下示例演示如何使用继续标记。
+
+```
+https://api.powerbi.com/v1.0/myorg/admin/activityevents?continuationToken='%2BRID%3ARthsAIwfWGcVAAAAAAAAAA%3D%3D%23RT%3A4%23TRC%3A20%23FPC%3AARUAAAAAAAAAFwAAAAAAAAA%3D'
+```
+
+无论返回的条目数为多少，如果结果包含继续标记，请确保再次使用该标记调用该 API 以检索剩余数据，直到不再返回继续标记。 可能会出现以下情况，调用甚至会返回不包含任何事件条目的继续标记。 以下示例演示如何使用响应中返回的继续标记进行循环操作：
+
+```
+while(response.ContinuationToken != null)
+{
+   // Store the activity event results in a list for example
+    completeListOfActivityEvents.AddRange(response.ActivityEventEntities);
+
+    // Make another call to the API with continuation token
+    response = GetPowerBIActivityEvents(response.ContinuationToken)
+}
+completeListOfActivityEvents.AddRange(response.ActivityEventEntities);
+```
+
+### <a name="get-powerbiactivityevent-cmdlet"></a>Get-PowerBIActivityEvent cmdlet
+
+使用适用于 PowerShell 的 Power BI 管理 cmdlet（其中包括自动为你处理继续标记的 PowerBIActivityEvent cmdlet），可以轻松地下载活动事件  。 PowerBIActivityEvent cmdlet 使用与 ActivityEvents REST API 具有相同限制的 StartDateTime 和 EndDateTime 参数   。 换句话说，开始日期和结束日期必须引用相同的日期值，因为一次只能检索一天的活动数据。
+
+以下脚本演示如何下载所有 Power BI 活动。 此命令将来自 JSON 的结果转换为 .NET 对象，以便轻松访问单个活动属性。
+
+```powershell
+Login-PowerBI
+
+$activities = Get-PowerBIActivityEvent -StartDateTime '2019-08-31T00:00:00' -EndDateTime '2019-08-31T23:59:59' | ConvertFrom-Json
+
+$activities.Count
+$activities[0]
+
+```
+
+### <a name="filter-activity-data"></a>筛选活动数据
+
+你可以按活动类型和用户 ID 筛选活动事件。 以下脚本演示如何仅下载 ViewDashboard 活动的事件数据  。 有关受支持参数的其他信息，请使用命令 `Get-Help Get-PowerBIActivityEvent`。
+
+```powershell
+Login-PowerBI
+
+$activities = Get-PowerBIActivityEvent -StartDateTime '2019-08-31T00:00:00' -EndDateTime '2019-08-31T23:59:59' -ActivityType 'ViewDashboard' | ConvertFrom-Json
+
+$activities.Count
+$activities[0]
+
+```
+
+## <a name="use-the-audit-log"></a>使用审核日志
+
+如果你的任务是跟踪 Power BI 和 Office 365 中的用户活动，请在 Office 365 安全与合规中心进行审核，或使用 PowerShell。 审核依赖于 Exchange Online 中的功能，该功能可自动进行预配以支持 Power BI。
 
 可按日期范围、用户、仪表板、报表、数据集和活动类型筛选审核数据。 还可将活动下载到 CSV（逗号分隔值）文件供脱机分析。
 
-## <a name="requirements"></a>要求
+### <a name="audit-log-requirements"></a>审核日志要求
 
 必须满足以下要求才能访问审核日志：
 
-* 必须成为全局管理员或在 Exchange Online 中分配有“审核日志”或“仅查看审核日志”角色才能访问审核日志。 默认情况下，会在 Exchange 管理中心的  “权限”页上为“符合性管理”和“组织管理”角色组分配这些角色。
+- 必须成为全局管理员或在 Exchange Online 中分配有“审核日志”或“仅查看审核日志”角色才能访问审核日志。 默认情况下，会在 Exchange 管理中心的  “权限”页上为“符合性管理”和“组织管理”角色组分配这些角色。
 
     若要为非管理员帐户提供访问审核日志的权限，必须将该用户添加为其中一个角色组的成员。 如果要以另一种方式执行此操作，可以在 Exchange 管理中心中创建自定义角色组、将“审核日志”或“仅查看审核日志”角色分配给此组，然后将非管理员帐户添加到新角色组。 有关详细信息，请参阅[在 Exchange Online 中管理角色组](/Exchange/permissions-exo/role-groups)。
 
     如果无法从 Microsoft 365 管理中心访问 Exchange 管理中心，请转到 https://outlook.office365.com/ecp 并使用你的凭据登录。
 
-* 如果你有权访问审核日志但不是全局管理员或 Power BI 服务管理员，则将无法访问 Power BI 管理员门户。 在这种情况下，必须使用 [Office 365 安全与合规中心](https://sip.protection.office.com/#/unifiedauditlog)的直接链接。
+- 如果你有权访问审核日志但不是全局管理员或 Power BI 服务管理员，则将无法访问 Power BI 管理员门户。 在这种情况下，必须使用 [Office 365 安全与合规中心](https://sip.protection.office.com/#/unifiedauditlog)的直接链接。
 
-## <a name="access-your-audit-logs"></a>访问审核日志
+### <a name="access-your-audit-logs"></a>访问审核日志
 
 若要访问日志，请先确保在 Power BI 中启用日志记录。 有关详细信息，请参阅管理门户文档中的[审核日志](service-admin-portal.md#audit-logs)。 可以查看审核数据后，最多可能会延迟 48 小时才能启用审核。 如果无法立即查看数据，请稍后检查审核日志。 获取查看审核日志的权限和得以访问日志之间也存在类似的延迟。
 
@@ -53,9 +133,9 @@ ms.locfileid: "74698914"
 
    ![“管理门户”屏幕截图，其中包含“审核日志”选项和“转到 Microsoft O365 管理中心”选项。](media/service-admin-auditing/audit-log-o365-admin-center.png)
 
-## <a name="search-only-power-bi-activities"></a>仅搜索 Power BI 活动
+### <a name="search-only-power-bi-activities"></a>仅搜索 Power BI 活动
 
-若要让搜索结果中仅包含 Power BI 活动，请按以下步骤操作。 有关活动列表，请参阅本文稍后介绍的 [Power BI 审核的活动](#activities-audited-by-power-bi)列表。
+若要让搜索结果中仅包含 Power BI 活动，请按以下步骤操作。 有关活动列表，请参阅本文稍后介绍的 [Power BI 审核的活动](#operations-available-in-the-audit-and-activity-logs)列表。
 
 1. 在“审核日志搜索”  页上，选择“搜索”  下的“活动”  下拉列表。
 
@@ -67,7 +147,7 @@ ms.locfileid: "74698914"
 
 搜索将仅返回 Power BI 活动。
 
-## <a name="search-the-audit-logs-by-date"></a>按日期搜索审核日志
+### <a name="search-the-audit-logs-by-date"></a>按日期搜索审核日志
 
 使用“开始日期”  和“结束日期”  字段，可按日期范围搜索日志。 默认选择为“过去七天”。 屏幕以协调世界时 (UTC) 格式显示日期和时间。 可以指定的最大日期范围为 90 天。 
 
@@ -75,17 +155,17 @@ ms.locfileid: "74698914"
 
 ![“审核日志搜索”屏幕截图，其中包含“开始日期”选项和“结束日期”选项。](media/service-admin-auditing/search-audit-log-by-date.png)
 
-## <a name="search-the-audit-logs-by-users"></a>按用户搜索审核日志
+### <a name="search-the-audit-logs-by-users"></a>按用户搜索审核日志
 
 可搜索特定用户所执行活动的审核日志条目。 请在“用户”  字段中输入一个或多个用户名。 用户名外观类似电子邮件地址。 这是用户登录 Power BI 所使用的帐户。 将此框留空以返回组织中所有用户（和服务帐户）的条目。
 
 ![按用户搜索](media/service-admin-auditing/search-audit-log-by-user.png)
 
-## <a name="view-search-results"></a>查看搜索结果
+### <a name="view-search-results"></a>查看搜索结果
 
 选择“搜索”  后，将加载搜索结果。 几分钟后，它们将在“结果”  下显示。 搜索完成后，屏幕将显示找到的结果数。 “审核日志搜索”  最多显示 1000 个事件。 如果符合搜索条件的事件超过 1000 个，则应用显示最新的 1000 个事件。
 
-### <a name="view-the-main-results"></a>查看主要结果
+#### <a name="view-the-main-results"></a>查看主要结果
 
 “结果”  区域包含搜索功能返回的每个事件的以下信息。 选择“结果”  下的列标题，即可对结果进行排序。
 
@@ -98,7 +178,7 @@ ms.locfileid: "74698914"
 | 项 |因相应活动而创建或修改的对象。 例如，查看或修改过的文件，或更新的用户帐户。 并非所有活动在此列中都具有值。 |
 | 详细信息 |有关活动的其他详细信息。 同样，并非所有活动都具有此值。 |
 
-### <a name="view-the-details-for-an-event"></a>查看事件的详细信息
+#### <a name="view-the-details-for-an-event"></a>查看活动的详细信息
 
 要查看有关该事件的更多详细信息，请在搜索结果列表中选择事件记录。 随后会显示“详细信息”  页，其中包含事件记录中的详细属性。 “详细信息”  页根据在其中发生事件的 Office 365 服务来显示属性。
 
@@ -106,7 +186,7 @@ ms.locfileid: "74698914"
 
    ![“审核详细信息”对话框屏幕截图，其中包含“更多信息”选项。](media/service-admin-auditing/audit-details.png)
 
-## <a name="export-search-results"></a>导出搜索结果
+### <a name="export-search-results"></a>导出搜索结果
 
 若要将 Power BI 审核日志导出为 CSV 文件，请按以下步骤操作。
 
@@ -116,9 +196,9 @@ ms.locfileid: "74698914"
 
     ![“导出结果”选项屏幕截图。](media/service-admin-auditing/export-auditing-results.png)
 
-## <a name="use-powershell-to-search-audit-logs"></a>使用 PowerShell 搜索审核日志
+### <a name="use-powershell-to-search-audit-logs"></a>使用 PowerShell 搜索审核日志
 
-也可以使用 PowerShell 根据登录名来访问审核日志。 下面的示例展示了如何连接到 Exchange Online PowerShell，然后使用 [Search-UnifiedAuditLog](/powershell/module/exchange/policy-and-compliance-audit/search-unifiedauditlog?view=exchange-ps/) 命令拉取 Power BI 审核日志条目。 若要运行该脚本，管理员必须分配给你相应的权限，如[要求](#requirements)部分中所述。
+也可以使用 PowerShell 根据登录名来访问审核日志。 下面的示例展示了如何连接到 Exchange Online PowerShell，然后使用 [Search-UnifiedAuditLog](/powershell/module/exchange/policy-and-compliance-audit/search-unifiedauditlog?view=exchange-ps/) 命令拉取 Power BI 审核日志条目。 要运行该脚本，管理员必须给你分配相应的权限，如[审核日志要求](#audit-log-requirements)部分中所述。
 
 ```powershell
 Set-ExecutionPolicy RemoteSigned
@@ -131,9 +211,9 @@ Import-PSSession $Session
 Search-UnifiedAuditLog -StartDate 9/11/2018 -EndDate 9/15/2018 -RecordType PowerBI -ResultSize 1000 | Format-Table | More
 ```
 
-## <a name="use-powershell-to-export-audit-logs"></a>使用 PowerShell 导出审核日志
+### <a name="use-powershell-to-export-audit-logs"></a>使用 PowerShell 导出审核日志
 
-还可以使用 PowerShell 导出审核日志搜索的结果。 以下示例演示如何通过 [Search-UnifiedAuditLog](/powershell/module/exchange/policy-and-compliance-audit/search-unifiedauditlog?view=exchange-ps/) 命令进行发送以及如何使用 [Export-Csv](/powershell/module/microsoft.powershell.utility/export-csv) cmdlet 导出结果。 若要运行该脚本，管理员必须分配给你相应的权限，如[要求](#requirements)部分中所述。
+还可以使用 PowerShell 导出审核日志搜索的结果。 以下示例演示如何通过 [Search-UnifiedAuditLog](/powershell/module/exchange/policy-and-compliance-audit/search-unifiedauditlog?view=exchange-ps/) 命令进行发送以及如何使用 [Export-Csv](/powershell/module/microsoft.powershell.utility/export-csv) cmdlet 导出结果。 要运行该脚本，管理员必须给你分配相应的权限，如[审核日志要求](#audit-log-requirements)部分中所述。
 
 ```powershell
 $UserCredential = Get-Credential
@@ -149,9 +229,9 @@ Remove-PSSession $Session
 
 有关连接到 Exchange Online 的详细信息，请参阅[连接到 Exchange Online PowerShell](/powershell/exchange/exchange-online/connect-to-exchange-online-powershell/connect-to-exchange-online-powershell/)。 有关展示了如何对审核日志使用 PowerShell 的其他示例，请参阅[使用 Power BI 审核日志和 PowerShell 分配 Power BI Pro 许可证](https://powerbi.microsoft.com/blog/using-power-bi-audit-log-and-powershell-to-assign-power-bi-pro-licenses/)。
 
-## <a name="activities-audited-by-power-bi"></a>Power BI 审核的活动
+## <a name="operations-available-in-the-audit-and-activity-logs"></a>审核和活动日志中可用的操作
 
-Power BI 审核以下活动：
+审核和活动日志中均提供以下操作。
 
 | 友好名称                                     | 操作名称                              | 备注                                  |
 |---------------------------------------------------|---------------------------------------------|------------------------------------------|

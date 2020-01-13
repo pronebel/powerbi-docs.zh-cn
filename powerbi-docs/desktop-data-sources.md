@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 10/25/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 88a49af62a26b64d8b913b6df03c82841f31a489
-ms.sourcegitcommit: f1f57c5bc6ea3057007ed8636ede50188ed90ce1
+ms.openlocfilehash: 0f24675d4185efd7524d9e8c453c919d64e0364a
+ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/23/2019
-ms.locfileid: "74410951"
+ms.lasthandoff: 01/06/2020
+ms.locfileid: "75222119"
 ---
 # <a name="data-sources-in-power-bi-desktop"></a>Power BI Desktop 中的数据源
 
@@ -24,14 +24,12 @@ ms.locfileid: "74410951"
 
 ![在 Power BI Desktop 中获取数据](media/desktop-data-sources/data-sources-01.png)
 
-从**最常见**菜单选择 **更多…** 将会显示**获取数据**窗口。 你还可以通过直接选择 **获取数据** **图标按钮** 来打开 **获取数据** 窗口（绕过 **最常见** 菜单）。
+从**最常见**菜单选择 **更多…** 将会显示**获取数据**窗口。 你还可以通过直接选择“获取数据”图标按钮来打开“获取数据”窗口（绕过“最常见”菜单）     。
 
 ![“获取数据”按钮](media/desktop-data-sources/data-sources-02.png)
 
 > [!NOTE]
-> Power BI 团队正在不断扩展适用于 Power BI Desktop  和 Power BI 服务  的数据源。 因此，你通常会看到工作过程中的数据源版本标记为 *Beta* 或*预览*。 标记为 *Beta* 或*预览*的任何数据源所提供的支持和功能有限，不应在生产环境中使用。 
-
-> 此外，任何标记为 Power BI Desktop Beta 或预览版的数据源可能都无法在 Power BI 服务或其他 Microsoft 服务中使用，直到数据源正式发布 (GA)     。
+> Power BI 团队正在不断扩展适用于 Power BI Desktop  和 Power BI 服务  的数据源。 因此，你通常会看到工作过程中的数据源版本标记为 *Beta* 或*预览*。 标记为 *Beta* 或*预览*的任何数据源所提供的支持和功能有限，不应在生产环境中使用。 此外，任何标记为 Power BI Desktop Beta 或预览版的数据源可能都无法在 Power BI 服务或其他 Microsoft 服务中使用，直到数据源正式发布 (GA)     。
 
 ## <a name="data-sources"></a>数据源
 数据类型分为以下类别：
@@ -82,7 +80,7 @@ ms.locfileid: "74410951"
 * Vertica
 * Snowflake
 * Essbase
-* AtScale 多维数据集 (Beta)
+* AtScale 多维数据集
 * BI 连接器
 * Dremio
 * Exasol
@@ -104,7 +102,7 @@ ms.locfileid: "74410951"
 * Power BI 数据集
 * Power BI 数据流
 * Common Data Service
-* Power 平台数据流 (Beta)
+* Power Platform 数据流
 
 下图显示 Power 平台的“获取数据”窗口   。
 
@@ -118,13 +116,14 @@ ms.locfileid: "74410951"
 * Azure Blob 存储
 * Azure 表存储
 * Azure Cosmos DB
-* Azure Data Lake Storage Gen2 (Beta)
+* Azure Data Lake Storage Gen2
 * Azure Data Lake Storage Gen1
 * Azure HDInsight (HDFS)
 * Azure HDInsight Spark
 * HDInsight 交互式查询
 * Azure 数据资源管理器 (Kusto)
-* Azure 成本管理 (Beta)
+* Azure 成本管理
+* Azure 时序见解 (Beta)
 
 下图显示 **Azure** 的**获取数据**窗口。
 
@@ -236,7 +235,7 @@ PBIDS 文件是具有特定结构的 Power BI Desktop 文件，并且具有 .PBI
 
 之后，用户便可以开始生成可视化效果，或重新访问“最近使用的源”，将一组新的表加载到模型中  。 
 
-目前，.PBIDS 文件仅支持在一个文件中指定单个数据源。 指定多个数据源会导致错误。 
+目前，.PBIDS 文件仅支持一个文件中的单个数据源。 指定多个数据源会导致错误。 
 
 若要创建 .PBIDS 文件，管理员必须为单个连接指定所需的输入，并可将连接模式指定为“DirectQuery”  或“导入”  。 如果文件中缺少“模式”  或者为 null，系统会提示在 Power BI Desktop 中打开文件的用户选择“DirectQuery”或“导入”。 
 

@@ -1,40 +1,43 @@
 ---
-title: 了解 Power BI 管理员角色
-description: 本文介绍 Power BI 服务管理员角色以及如何在组织中使用它。
+title: 了解 Power BI 服务管理员角色
+description: 本文介绍了 Power BI 服务管理员和提供管理员权限的特定角色。
 author: kfollis
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
-ms.date: 09/09/2019
+ms.date: 01/02/2020
 ms.author: kfollis
 LocalizationGroup: Administration
-ms.openlocfilehash: a6121ca16250de9765557b9c9acbf73b513723ee
-ms.sourcegitcommit: f77b24a8a588605f005c9bb1fdad864955885718
+ms.openlocfilehash: 04ffeb01efeaa714b30b2246174584f2caf90468
+ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/02/2019
-ms.locfileid: "74699903"
+ms.lasthandoff: 01/06/2020
+ms.locfileid: "75622279"
 ---
-# <a name="understanding-the-power-bi-service-administrator-role"></a>了解 Power BI 服务管理员角色
+# <a name="understanding-power-bi-service-administrator-roles"></a>了解 Power BI 服务管理员角色
 
-了解如何在组织中使用 Power BI 服务管理员角色。 拥有此角色的用户可以完全控制 Power BI 租户及其管理功能（授权除外）。
+要管理 Power BI 租户，必须是以下角色之一：Power BI 管理员、Power Platform 管理员或 Microsoft 365 全局管理员。Microsoft 365 用户管理管理员可以在 Microsoft 365 管理中心或使用 PowerShell 脚本，向用户分配 Power BI 管理员或 Power Platform 管理员角色。
 
-可以向需要 Power BI 管理门户访问权限的用户分配 Power BI 服务管理员角色，而不向这些用户授予完整 Office 365 管理员权限。
+拥有 Power BI 管理员或 Power Platform 管理员角色的用户可以完全控制 Power BI 租户及其管理功能（许可除外）。 分配有此角色后，用户便可以访问 [Power BI 管理门户](service-admin-portal.md)。 在管理门户中，用户可以访问整个租户范围内的使用情况指标，并能控制整个租户范围内的 Power BI 功能使用。 这些管理员角色非常适合需要 Power BI 管理门户访问权限的用户，还可不向这些用户授予完整的 Microsoft 365 管理访问权限。
 
-Office 365 用户管理管理员可以在 Microsoft 365 管理中心内或使用 PowerShell 脚本向用户分配 Power BI 服务管理员角色。 分配有此角色后，用户便可以访问 [Power BI 管理门户](service-admin-portal.md)。 在管理门户中，用户可以访问整个租户范围内的使用情况指标，并能控制整个租户范围内的 Power BI 功能使用。
+> [!NOTE]
+> 在 Power BI 文档中，“Power BI 管理员“指的是拥有 Power BI 管理员或 Power Platform 管理员角色的用户。 本文档清楚地说明了任务何时需要 Microsoft 365 全局管理员角色。
 
 ## <a name="limitations-and-considerations"></a>限制和注意事项
 
-拥有 Power BI 服务管理员角色的用户无法执行以下操作：
+Power BI 服务管理员和 Power Platform 管理员角色不具备以下功能：
 
-* 在 Microsoft 365 管理中心内修改用户和许可证，
+* 在 Microsoft 365 管理中心内修改用户和许可证。
 
-* 访问审核日志的功能。 有关详细信息，请参阅[在组织内使用审核](service-admin-auditing.md)。
+* 访问审核日志的功能。 有关详细信息，请参阅[跟踪 Power BI 中的用户活动](service-admin-auditing.md)。
 
-## <a name="assign-users-to-the-admin-role-in-office-365"></a>在 Office 365 中向用户分配管理员角色
+这些功能需要 Microsoft 365 全局管理员角色。
 
-若要在 Microsoft 365 管理中心内向用户分配 Power BI 管理员角色，请按以下步骤操作。
+## <a name="assign-users-to-an-admin-role-in-the-microsoft-365-admin-center"></a>在 Microsoft 365 管理中心内向用户分配管理员角色
+
+要在 Microsoft 365 管理中心内向用户分配管理员角色，请按以下步骤操作。
 
 1. 在 [Microsoft 365 管理中心](https://portal.office.com/adminportal/home#/homepage)内，依次选择“用户” > “有效用户”   。
 
@@ -42,19 +45,15 @@ Office 365 用户管理管理员可以在 Microsoft 365 管理中心内或使用
 
 1. 选择要向其分配角色的用户。
 
-1. 在“角色”  下，选择“编辑”  。
+1. 在“角色”下，选择“管理角色”   。
 
-    ![编辑角色](media/service-admin-role/powerbi-admin-edit-roles.png)
+    ![管理角色](media/service-admin-role/powerbi-admin-edit-roles.png)
 
-1. 依次选中“自定义管理员”   > “Power BI 服务管理员”  。
+1. 展开“按类别全部显示”，然后选择“Power BI 管理员”或“Power Platform 管理员”    。
 
-    ![Power BI 服务管理员](media/service-admin-role/powerbi-admin-role.png)
+    ![选择管理员角色](media/service-admin-role/powerbi-admin-role.png)
 
-1. 依次选择“保存”  和“关闭”  。
-
-此时，系统应该会列出相应用户拥有的“**Power BI 服务管理员**”角色。
-
-![角色](media/service-admin-role/powerbi-admin-role-set.png)
+1. 选择“保存更改”。 
 
 ## <a name="assign-users-to-the-admin-role-with-powershell"></a>使用 PowerShell 向用户分配管理员角色
 

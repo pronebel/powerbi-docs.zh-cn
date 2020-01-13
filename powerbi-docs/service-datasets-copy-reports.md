@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 08/12/2019
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 2fc33c8adcaed35dab8fc9d81ab28fa314f42e3b
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 9c7cbd895a913b76a9c0b87155f7800c5538ab28
+ms.sourcegitcommit: 02b05932a119527f255e1eacc745a257044e392f
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73881941"
+ms.lasthandoff: 12/19/2019
+ms.locfileid: "75223847"
 ---
 # <a name="copy-reports-from-other-workspaces-preview"></a>从其他工作区复制报表（预览）
 
@@ -37,9 +37,9 @@ ms.locfileid: "73881941"
 
     ![“保存副本”对话框](media/service-datasets-copy-reports/power-bi-dataset-save-report.png)
 
-    可以将报表保存到当前工作区或 Power BI 服务中的其他工作区。 你只看到新的体验工作区，而你是其中的一名成员。
+    可以保存到的工作区取决于从何处进行复制。 从工作区复制时，可以将报表保存到当前工作区或 Power BI 服务中的其他工作区。 你只看到新的体验工作区，而你是其中的一名成员。 从应用复制时，可以将报表保存到“我的工作区”。
   
-4. 选择**保存**。
+4. 选择“保存”。 
 
     保存报表副本时，将创建与该数据集的实时连接，并且可以使用完整的可用数据集打开报表创建体验。 尚未创建数据集的副本。 数据集仍位于其原始位置。 可以在自己的报表中使用数据集中的所有表和度量值。 数据集上应用了行级别安全性 (RLS) 限制，因此你只能根据 RLS 角色查看有权查看的数据。
 

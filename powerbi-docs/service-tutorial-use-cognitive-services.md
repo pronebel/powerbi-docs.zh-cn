@@ -10,12 +10,12 @@ ms.topic: tutorial
 ms.date: 03/12/2019
 ms.author: davidi
 LocalizationGroup: Connect to services
-ms.openlocfilehash: bdf35d04a5b4dc7000a9ada0afcb23d882d17780
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: e9b34d79a70207e175c873a88ec4d5dfe5417747
+ms.sourcegitcommit: 02b05932a119527f255e1eacc745a257044e392f
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73871227"
+ms.lasthandoff: 12/19/2019
+ms.locfileid: "75224209"
 ---
 # <a name="tutorial-use-cognitive-services-in-power-bi"></a>教程：在 Power BI 中使用认知服务
 
@@ -180,6 +180,6 @@ in
 
 你可能还会对以下文章感兴趣。
 
-* [教程：在 Power BI 中调用机器学习工作室模型（预览版）](service-tutorial-invoke-machine-learning-model.md)
+* [教程：在 Power BI 中调用机器学习工作室（经典）模型（预览版）](service-tutorial-invoke-machine-learning-model.md)
 * [Power BI 中的 Azure 机器学习集成（预览版）](service-machine-learning-integration.md)
 * [Power BI 中的认知服务（预览版）](service-cognitive-services.md)

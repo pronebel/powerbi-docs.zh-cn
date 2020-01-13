@@ -11,10 +11,10 @@ ms.date: 12/21/2018
 ms.author: maggies
 LocalizationGroup: Administration
 ms.openlocfilehash: f8e7240b34e20a3d18443cadb5265c5d0d870790
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/09/2019
+ms.lasthandoff: 01/06/2020
 ms.locfileid: "73873663"
 ---
 # <a name="manage-data-storage-in-power-bi-workspaces"></a>管理 Power BI 工作区中的数据存储
@@ -48,7 +48,7 @@ ms.locfileid: "73873663"
 1. 若要管理你自己的存储，请转到导航窗格中的“我的工作区”  。
    
     ![我的工作区](media/service-admin-manage-your-data-storage-in-power-bi/pbi_myworkspace.png)
-2. 依次选择右上角的齿轮图标![齿轮图标](media/service-admin-manage-your-data-storage-in-power-bi/pbi_gearicon.png) \>“管理个人存储”  。
+2. 依次选择右上角的齿轮图标![齿轮图标](media/service-admin-manage-your-data-storage-in-power-bi/pbi_gearicon.png)\>“管理个人存储”  。
    
     顶部栏会显示你已使用的存储限制量。
    
@@ -66,7 +66,7 @@ ms.locfileid: "73873663"
 1. 依次选择“工作区”旁边的箭头 \> 工作区的名称  。
    
     ![选择“工作区”](media/service-admin-manage-your-data-storage-in-power-bi/pbi_groupworkspaces.png)
-2. 依次选择右上角的齿轮图标![齿轮图标](media/service-admin-manage-your-data-storage-in-power-bi/pbi_gearicon.png) \>“管理组存储”  。
+2. 依次选择右上角的齿轮图标![齿轮图标](media/service-admin-manage-your-data-storage-in-power-bi/pbi_gearicon.png)\>“管理组存储”  。
    
     顶部栏会显示已使用的组存储限制量。
    

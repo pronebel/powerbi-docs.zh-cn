@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 09/26/2019
+ms.date: 12/16/2019
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: c97316b0509f7d243befa5cfe5310aa0f5826335
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 4fdcfd4d7684cef3e6b703709b2739ebbff1badd
+ms.sourcegitcommit: 02b05932a119527f255e1eacc745a257044e392f
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73880014"
+ms.lasthandoff: 12/19/2019
+ms.locfileid: "75223573"
 ---
 # <a name="use-report-themes-in-power-bi-desktop"></a>在 Power BI Desktop 中使用报表主题
 使用报表主题  ，你可以将设计更改应用于整个报表，如使用公司颜色、更改图标集或应用新的默认视觉对象格式。 在你应用报表主题  后，报表中的所有视觉对象都会使用选定主题中的颜色和格式设置。 也存在少数例外情况，本文稍后将进行介绍。
@@ -23,10 +23,10 @@ ms.locfileid: "73880014"
 
 应用自定义报表主题  时，需要采用基础结构的 JSON 文件。 然后，可以将此 JSON 文件导入 Power BI Desktop，并将它应用于报表。
 
-你还可以通过主题 JSON 文件自定义和标准化“格式设置”  窗格中显示的几乎所有元素。 目标是让你能完全精细地控制报表外观。
+还可以通过直接在 Power BI Desktop 中进行自定义或通过主题 JSON 文件，自定义和标准化“格式设置”窗格中显示的几乎所有元素  。 目标是让你能完全精细地控制报表外观。
 
 ## <a name="how-report-themes-work"></a>报表主题的工作原理
-若要将报表主题应用于 Power BI Desktop 报表，请从可用的内置报表主题中选择，或导入自定义主题。
+要将报表主题应用于 Power BI Desktop 报表，请从可用的内置报表主题中选择，或者创建或导入自定义主题。
 
 | 内置报表主题 | 默认颜色序列    |
 |------ |---------- |
@@ -70,7 +70,48 @@ ms.locfileid: "73880014"
 
 ![已成功导入主题](media/desktop-report-themes/report-themes_5.png)
 
-现在我们已导入主题文件，接下来让我们看看 JSON 文件结构。
+可以通过两种方法在 Power BI Desktop 中自定义主题。 接下来我们会逐一介绍。
+
+
+## <a name="customize-report-themes-preview"></a>自定义报表主题（预览）
+
+从 2019 年 12 月版 Power BI Desktop 开始，现在可以通过两种方法来自定义报表主题  ：
+
+* 在 Power BI Desktop 中创建和自定义主题（预览）
+* 创建和自定义一个自定义报表主题 JSON 文件
+
+要在 Power BI Desktop 中直接自定义主题，必须先选择“文件”>“选项和设置”>“选项”，然后在“预览功能”部分中，选中“自定义当前主题”旁边的框，如下图所示    。
+
+![启用自定义的主题](media/desktop-report-themes/report-themes_5a.png)
+
+系统将提示你重启 Power BI Desktop 才能启用预览功能。
+
+重启后，可以通过选择“主页”功能区，然后从功能区中选择“开关主题”>“自定义当前主题”，开始自定义当前主题   。 此时将显示一个对话框，其中显示了自定义现有主题的多种方法。
+
+![自定义主题](media/desktop-report-themes/report-themes_5b.png)
+
+如果你喜欢现有主题，并想要进行一些调整，可以选择一个现有主题，然后从对话框中选择“自定义当前主题”，如下图所示  。 
+
+![自定义当前主题](media/desktop-report-themes/report-themes_5c.png)
+
+> [!NOTE]
+> 上图是在启用新功能区的情况下捕获的，目前处于预览状态。 可以通过选择“文件”>“选项和设置”>“选项”，然后在“预览功能”部分，选择“新功能区预览”来启用新功能区预览    。
+
+可自定义的主题设置可以在以下类别中找到，并反映在自定义主题对话框中：
+
+* 主题名称（为自定义的主题命名）和各种颜色设置（主题颜色、情绪颜色、不同颜色等）
+* 文本设置，包括字体系列、大小和颜色，以及轴标题、颜色、卡片和 KPI 以及选项卡标题
+* 视觉对象元素，例如背景、边框、标头和工具提示
+* 页面元素，例如墙纸和背景
+* 筛选器窗格设置，包括背景色、透明度、字体和图标颜色、大小、筛选器卡等
+
+进行更改并选择“应用并保存”按钮后，你的主题将被保存并可在当前报表中使用，而且可以导出  。 
+
+以这种方式自定义当前主题可以快速、轻松、可视化地自定义主题。 但是，对主题有一些有限调整，需要修改主题的 JSON 文件，如下一节所述。
+
+> [!TIP]
+> 你可以通过“自定义当前主题”对话框，使用视觉对象元素自定义大多数主题元素，然后，可以导出 JSON 文件并手动进行微调（通过修改 JSON 文件本身）  。 然后，可以重命名微调后的 JSON 文件，将其导入，并进行所需的全部调整。
+
 
 ## <a name="structure-of-a-report-theme-json-file"></a>报表主题 JSON 文件的结构
  在编辑器中打开在上一部分中选择的基本 JSON 文件（即 St Patrick's Day.json  文件）后，看到如下屏幕截图：
@@ -130,7 +171,7 @@ ms.locfileid: "73880014"
 ## <a name="report-theme-files-you-can-use-right-now"></a>可以立即使用的报表主题文件
 想开始使用**报表主题**吗？ 以下是一些现成的报表主题 JSON 文件，可以将它们下载并导入 Power BI Desktop  报表中。 我们还添加了应用于本文中报表的报表主题的图像。
 
-* 宣布首次推出**报表主题**的[博文](https://powerbi.microsoft.com/blog/power-bi-desktop-march-feature-summary/)中使用的[主题](https://go.microsoft.com/fwlink/?linkid=843924) [*waveform.json*](https://go.microsoft.com/fwlink/?linkid=843924)。
+* 宣布首次推出**报表主题**的[博文](https://powerbi.microsoft.com/blog/power-bi-desktop-march-feature-summary/)中使用的[主题](https://go.microsoft.com/fwlink/?linkid=843924)[*waveform.json*](https://go.microsoft.com/fwlink/?linkid=843924)。
 
   ![waverform.json 主题](media/desktop-report-themes/report-themes_10.png)
 

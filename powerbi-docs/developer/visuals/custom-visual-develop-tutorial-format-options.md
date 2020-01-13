@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.topic: tutorial
 ms.subservice: powerbi-custom-visuals
 ms.date: 11/21/2018
-ms.openlocfilehash: 4d7f02d9f78eee4cf287e0bb83acb93a7b1b0355
-ms.sourcegitcommit: f77b24a8a588605f005c9bb1fdad864955885718
+ms.openlocfilehash: f1a1bfc161fe163a4c4680dbcc90e6ad28b80a90
+ms.sourcegitcommit: 0da17de80c9651f9f4474d1abb1bdaaade8808fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/02/2019
-ms.locfileid: "74696844"
+ms.lasthandoff: 12/27/2019
+ms.locfileid: "75498483"
 ---
 # <a name="tutorial-adding-formatting-options-to-a-power-bi-visual"></a>教程：向 Power BI 视觉对象添加格式设置选项
 
@@ -124,10 +124,12 @@ ms.locfileid: "74696844"
 
 8. 在“visual.ts”  文件中，
 
-    导入 `VisualSettings` 类，
+    导入 `VisualSettings`、`VisualObjectInstanceEnumeration` 和 `EnumerateVisualObjectInstancesOptions`：
 
     ```typescript
     import { VisualSettings } from "./settings";
+    import VisualObjectInstanceEnumeration = powerbi.VisualObjectInstanceEnumeration;
+    import EnumerateVisualObjectInstancesOptions = powerbi.EnumerateVisualObjectInstancesOptions;
     ```
 
     然后在“Visual”  类中，添加以下属性：
@@ -218,23 +220,34 @@ ms.locfileid: "74696844"
 
     显示一个圆圈内带格式的度量值 
 
-5. （可选）在“作者”  对象中，输入你的详细信息。
+5. 为视觉对象填充 supportUrl 和 gitHubUrl   。
 
-6. 保存“pbiviz.json”  文件。
+    示例:
 
-7. 在“资产”  对象中，请注意，文档定义图标的路径。 图标是显示在“可视化效果”  窗格中的图像。 它必须是 PNG  文件，20 x 20 像素  。
+    ```json
+    {
+        "supportUrl": "https://community.powerbi.com",
+        "gitHubUrl": "https://github.com/microsoft/PowerBI-visuals-circlecard"
+    }
+    ```
 
-8. 在 Windows 资源管理器中，复制 icon.png 文件，然后粘贴该文件，以替换位于资产文件夹中的默认文件。
+6. 在“作者”对象中输入你的详细信息  。
 
-9. 在 Visual Studio Code 中的“资源管理器”窗格中，展开资产文件夹，然后选择 icon.png 文件。
+7. 保存“pbiviz.json”  文件。
 
-10. 查看图标。
+8. 在“资产”  对象中，请注意，文档定义图标的路径。 图标是显示在“可视化效果”  窗格中的图像。 它必须是 PNG  文件，20 x 20 像素  。
+
+9. 在 Windows 资源管理器中，复制 icon.png 文件，然后粘贴该文件，以替换位于资产文件夹中的默认文件。
+
+10. 在 Visual Studio Code 中的“资源管理器”窗格中，展开资产文件夹，然后选择 icon.png 文件。
+
+11. 查看图标。
 
     ![Viz 窗格图像](media/custom-visual-develop-tutorial-format-options/viz-pane-image.png)
 
-11. 在 Visual Studio Code 中，确保已保存所有文件。
+12. 在 Visual Studio Code 中，确保已保存所有文件。
 
-12. 若要打包自定义视觉对象，在 PowerShell 中，输入以下命令。
+13. 若要打包自定义视觉对象，在 PowerShell 中，输入以下命令。
 
     ```powershell
     pbiviz package

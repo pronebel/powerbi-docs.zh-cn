@@ -10,20 +10,20 @@ ms.topic: conceptual
 ms.date: 03/01/2018
 ms.author: maggies
 LocalizationGroup: Get started
-ms.openlocfilehash: 738ae599e116beaf5ff80098e4965ee3ed958b04
-ms.sourcegitcommit: f77b24a8a588605f005c9bb1fdad864955885718
+ms.openlocfilehash: e9c6185506d1992a46ee14ff1eafe0c37d9f65c1
+ms.sourcegitcommit: 02b05932a119527f255e1eacc745a257044e392f
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/02/2019
-ms.locfileid: "74699673"
+ms.lasthandoff: 12/19/2019
+ms.locfileid: "75223789"
 ---
 # <a name="power-automate-and-power-bi"></a>Power Automate 和 Power BI
 
-[Power Automate](https://flow.microsoft.com/documentation/getting-started) 是一款跨企业用户依赖的日益增多的应用程序和 SaaS 服务自动执行工作流的 SaaS。 使用 Flow，可以通过集成常用应用和服务（包括 Power BI）来自动执行任务，从而获得通知、同步文件、收集数据等。 借助工作流自动化，执行重复任务不再是难事。
+[Power Automate](https://docs.microsoft.com/power-automate/getting-started) 是一款跨企业用户依赖的日益增多的应用程序和 SaaS 服务自动执行工作流的 SaaS。 使用 Flow，可以通过集成常用应用和服务（包括 Power BI）来自动执行任务，从而获得通知、同步文件、收集数据等。 借助工作流自动化，执行重复任务不再是难事。
 
-[立即开始使用 Flow。](https://flow.microsoft.com/documentation/getting-started)
+[立即开始使用 Flow。](https://docs.microsoft.com/power-automate/getting-started)
 
-观看 Sirui 创建一个 Flow，该 Flow 在 Power BI 警报触发时向同事发送包含详细信息的电子邮件。 然后按照视频下面的分步说明来自己尝试一下。
+观看 Sirui 创建一个 Flow，该 Flow 在 Power BI 警报触发时向同事发送包含详细信息的电子邮件。 然后可以按照视频下面的分步说明来自己尝试。
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/YhmNstC39Mw" frameborder="0" allowfullscreen></iframe>
 
@@ -90,7 +90,7 @@ ms.locfileid: "74699673"
 1. 在下拉列表中，选择警报名称。  若要了解如何创建警报，请参阅 [Power BI 中的数据警报](service-set-data-alerts.md)。
    
     ![选择警报名称](media/service-flow-integration/power-bi-totalstores2.png)
-2. 依次选择“**下一步**” > “**添加操作**”。
+2. 选择“新建步骤”   > “添加操作”  。
    
    ![添加新步骤](media/service-flow-integration/power-bi-new-step.png)
 3. 搜索 **Outlook**，然后选择“**创建事件**”。
@@ -107,7 +107,7 @@ ms.locfileid: "74699673"
     ![流触发 Outlook 通知](media/service-flow-integration/power-bi-flow-notice.png)
 
 ## <a name="next-steps"></a>后续步骤
-* [开始使用 Power Automate](https://flow.microsoft.com/documentation/getting-started/)
+* [开始使用 Power Automate](https://docs.microsoft.com/power-automate/getting-started/)
 * [在 Power BI 服务中设置数据警报](service-set-data-alerts.md)
 * [在 iPhone 上设置数据警报](consumer/mobile/mobile-set-data-alerts-in-the-mobile-apps.md)
 * [在适用于 Windows 10 的 Power BI 移动应用中设置数据警报](consumer/mobile/mobile-set-data-alerts-in-the-mobile-apps.md)

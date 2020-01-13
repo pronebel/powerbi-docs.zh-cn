@@ -12,10 +12,10 @@ ms.date: 10/30/2019
 ms.author: mihart
 LocalizationGroup: Get started
 ms.openlocfilehash: e6be58971b265414440041f4667a0b0cc455cdd4
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/09/2019
+ms.lasthandoff: 01/06/2020
 ms.locfileid: "73851530"
 ---
 # <a name="quickstart---getting-around-in-power-bi-service"></a>快速入门 - 使用 Power BI 服
@@ -91,7 +91,7 @@ ms.locfileid: "73851530"
    
    ![标记为收藏](./media/end-user-experience/power-bi-report-favorite.png)
 
-3. 通过选择导航窗格中的“收藏夹”或选择星形图标 ![显示黄色星形图标的屏幕截图](media/end-user-experience/powerbi-star-icon.png)，打开“收藏夹”*窗格*   。
+3. 通过选择导航窗格中的“收藏夹”或选择星形图标 ![显示黄色星形图标的屏幕截图](media/end-user-experience/powerbi-star-icon.png)，打开“收藏夹”窗格    。
    
    ![打开“收藏夹”屏幕](./media/end-user-experience/power-bi-favorite-pane.png)
    

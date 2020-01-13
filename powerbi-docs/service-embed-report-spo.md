@@ -1,21 +1,21 @@
 ---
 title: 使用报表 Web 部件在 SharePoint Online 中嵌入报表
 description: 借助 Power BI 新推出的适用于 SharePoint Online 的报表 Web 部件，可以在 SharePoint Online 页面中轻松嵌入交互式 Power BI 报表。
-author: rkarlin
-ms.author: rkarlin
+author: KesemSharabi
+ms.author: kesharab
 ms.reviewer: ''
 featuredvideoid: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
 LocalizationGroup: Share your work
-ms.date: 05/16/2019
-ms.openlocfilehash: e44ea4174545715a689b4f4370516cbbab4a593b
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.date: 12/18/2019
+ms.openlocfilehash: d1ac9238e361a0889e52838eb0b3c3889c1cccf7
+ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73881886"
+ms.lasthandoff: 01/06/2020
+ms.locfileid: "75221703"
 ---
 # <a name="embed-with-report-web-part-in-sharepoint-online"></a>使用报表 Web 部件在 SharePoint Online 中嵌入报表
 
@@ -29,6 +29,7 @@ ms.locfileid: "73881886"
 
 * Power BI Pro 许可证或具有 Power BI 许可证的 [Power BI Premium 容量（EM 或 P SKU）](service-premium-what-is.md)。
 * 适用于 SharePoint Online 的 Power BI Web 部件要求使用[新式页面](https://support.office.com/article/Allow-or-prevent-creation-of-modern-site-pages-by-end-users-c41d9cc8-c5c0-46b4-8b87-ea66abc6e63b)。
+* 若要使用嵌入的报表，用户必须登录到 Power BI 服务以激活其 Power BI 许可证。
 
 ## <a name="embed-your-report"></a>嵌入报表
 若要将报表嵌入到 SharePoint Online，你需要获取报表 URL 并将其用于 SharePoint Online 的 Power BI Web 部件。

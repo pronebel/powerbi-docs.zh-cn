@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: conceptual
 ms.date: 12/03/2019
-ms.openlocfilehash: 8afa43cf9d49286a1ec04f7f60aa4a4c4ca7fd16
-ms.sourcegitcommit: e492895259aa39960063f9b337a144a60c20125a
+ms.openlocfilehash: fac23cf5814513c488a3403be420a2273992bae5
+ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/05/2019
-ms.locfileid: "74831177"
+ms.lasthandoff: 01/04/2020
+ms.locfileid: "75657158"
 ---
 # <a name="create-parameters-for-paginated-reports-in-the-power-bi-service"></a>为 Power BI 服务中的分页报表创建参数
 
@@ -60,8 +60,13 @@ ms.locfileid: "74831177"
   
     -   若要隐藏参数，防止在发布报表后在报表服务器上修改该参数，请选择“内部”  。 这样的话，就只能在报表定义中查看报表参数了。 对于此选项，必须设置默认值或允许参数接受 NULL 值。  
   
-9. 选择**确定**。 
-  
+9. 选择“确定”。  
+
+## <a name="considerations-and-troubleshooting"></a>注意事项和疑难解答
+
+- 如果使用 Power BI 数据集或 Analysis Services 模型作为数据源，则由于 DAX 限制，不能在单个请求中传递超过 1,000 个参数值。 
+
+ 
 ## <a name="next-steps"></a>后续步骤
 
 请参阅[查看分页报表的参数](consumer/paginated-reports-view-parameters.md)，了解在 Power BI 服务中显示的参数。

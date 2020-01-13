@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 10/25/2019
 ms.author: painbar
 LocalizationGroup: Data from files
-ms.openlocfilehash: 18062c770b93bcd1295026d841f923a81c11d84f
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 7aa0fb1c8707c18e583d0de6bbd602ef43291146
+ms.sourcegitcommit: d5de66b591c2e1de979ce0e3ce5e5b6e1f2a08db
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73851241"
+ms.lasthandoff: 12/31/2019
+ms.locfileid: "75548498"
 ---
 # <a name="using-microsoft-cloud-app-security-controls-in-power-bi-preview"></a>在 Power BI 中使用 Microsoft Cloud App Security 控件（预览版）
 
@@ -77,10 +77,11 @@ Cloud App Security 还有两个专用于 Power BI 的内置检测。 [参阅本�
 将 Microsoft Cloud App Security 与 Power BI 结合使用时，会为 Power BI 管理员创建新的角色。 以 Power BI 管理员身份登录到 [Cloud App Security 门户](https://portal.cloudappsecurity.com/)时，对 Power BI 相关的数据、警报、存在风险的用户、活动日志和其他信息的访问受到限制。
 
 ## <a name="considerations-and-limitations"></a>注意事项和限制 
-将 Cloud App Security 与 Power BI 结合使用，可帮助保护组织的内容和数据，并提供用于监视用户会话及其活动的检测。 将 Cloud App Security 与 Power BI 结合使用时，应注意以下几个限制：
+将 Cloud App Security 与 Power BI 结合使用，可帮助保护组织的内容和数据，并提供用于监视用户会话及其活动的检测。 结合使用 Cloud App Security 与 Power BI 时，应注意以下几个注意事项和限制：
 
 * Microsoft Cloud App Security 只能在 Excel、PowerPoint 和 PDF 文件上操作。
-* 如果要在 Power BI 的会话策略中使用敏感度标签功能，则需要具有 Azure 信息保护高级版 P1 或高级版 P2 许可证。 Microsoft Azure 信息保护可以单独购买，也可以通过 Microsoft 许可套件之一购买。 有关详细信息，请参阅 [Azure 信息保护定价](https://azure.microsoft.com/pricing/details/information-protection/)。 此外，必须在 Power BI 资产上应用敏感度标签。
+* 如果要在 Power BI 的会话策略中使用敏感度标签功能，则需要具有 Azure 信息保护高级版 P1 或高级版 P2 许可证。 Microsoft Azure 信息保护可以单独进行购买，也可以通过一个 Microsoft 许可套件进行购买。 有关详细信息，请参阅 [Azure 信息保护定价](https://azure.microsoft.com/pricing/details/information-protection/)。 此外，必须在 Power BI 资产上应用敏感度标签。
+* 会话控制可用于任何操作系统中任何主要平台上的任何浏览器。 建议使用 Internet Explorer 11、Microsoft Edge（最新版本）、Google Chrome（最新版本）、Mozilla Firefox（最新版本）或 Apple Safari（最新版本）。 Power BI 公共 API 调用和其他基于浏览器的会话不会作为 Microsoft Cloud App Security 会话控制的一部分受到支持。 [查看更多详细信息](https://docs.microsoft.com/cloud-app-security/proxy-intro-aad#supported-apps-and-clients)。
 
 > [!CAUTION]
 > * 应用 Excel 文件策略时，Microsoft Cloud App Security 上的“内容检查”策略目前在 Power BI 中不可用，因此请不要为 Power BI 设置此策略  。

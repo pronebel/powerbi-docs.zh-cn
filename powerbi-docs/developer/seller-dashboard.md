@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.topic: conceptual
 ms.subservice: powerbi-custom-visuals
 ms.date: 12/03/2019
-ms.openlocfilehash: 12ecde787bb268190f9b94a2db5992d5840080ac
-ms.sourcegitcommit: 5bb62c630e592af561173e449fc113efd7f84808
+ms.openlocfilehash: 73a6a3d16ae2515af41a3232a37579e18876f38b
+ms.sourcegitcommit: 02b05932a119527f255e1eacc745a257044e392f
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/11/2019
-ms.locfileid: "75002526"
+ms.lasthandoff: 12/19/2019
+ms.locfileid: "75223668"
 ---
 # <a name="submit-a-power-bi-visual-to-appsource-using-seller-dashboard"></a>使用卖家面板将 Power BI 视觉对象提交到 AppSource
 
@@ -103,7 +103,7 @@ ms.locfileid: "75002526"
     * [符合要求](power-bi-custom-visuals-certified.md#certification-requirements)
     * 通过代码审查
 
-2. Microsoft Power BI 视觉对象团队会通知你 Power BI 视觉对象已取得认证，并添加到[已认证列表](power-bi-custom-visuals-certified.md#list-of-power-bi-visuals-that-have-been-certified)中，或你的视觉对象已遭拒，并随附一份报告，在其中列出需要解决的问题。 由开发者负责维护与 Microsoft 间的开放式沟通渠道，并根据需要更新经认证的视觉对象。
+2. 当你的 Power BI 视觉对象通过认证并添加到[经认证的 Power BI 视觉对象列表](power-bi-custom-visuals-certified.md#certified-power-bi-visuals)中时，Microsoft Power BI 视觉对象团队会向你发出通知；如果你的视觉对象遭到拒绝，也会发送通知并随附报告，列出需要解决的问题。 由开发者负责维护与 Microsoft 间的开放式沟通渠道，并根据需要更新经认证的视觉对象。
 
 ## <a name="tracking-submission-status-and-usage"></a>跟踪提交状态和使用情况
 

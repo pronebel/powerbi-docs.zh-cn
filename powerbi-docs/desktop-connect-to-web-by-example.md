@@ -9,14 +9,14 @@ ms.topic: conceptual
 ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 6bf933203f8dc76d4ede2d25683981cbdf6755f5
-ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
+ms.openlocfilehash: 131101d6e7a23b7c6d8571c89097036f1149a2f3
+ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/06/2020
-ms.locfileid: "73869059"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "75761533"
 ---
-# <a name="get-data-from-a-web-page-by-providing-an-example"></a>通过提供示例从网页获取数据
+# <a name="get-webpage-data-by-providing-examples"></a>通过提供示例获取网页数据
 
 从网页获取数据使用户可以轻松地从网页中提取数据并将该数据导入 Power BI Desktop  。 但是，网页上的数据通常不在整齐的、易于提取的表中，因此，从此类页面获取数据具有挑战性（即使它已结构化且具有一致性）。 
 

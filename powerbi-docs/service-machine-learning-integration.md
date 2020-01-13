@@ -9,16 +9,16 @@ ms.topic: conceptual
 ms.date: 05/31/2019
 ms.author: davidi
 LocalizationGroup: conceptual
-ms.openlocfilehash: 2f872825c327b8195e7a6e5516e0b533235ddc27
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 9aaa26b4798a0632b0ad751bc30e8496f6103fb1
+ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73872090"
+ms.lasthandoff: 01/06/2020
+ms.locfileid: "75223760"
 ---
 # <a name="azure-machine-learning-integration-in-power-bi"></a>Power BI 中的 Azure 机器学习集成
 
-许多组织都使用机器学习  模型，以获得有关其业务的更好的见解和预测。 在报表、仪表板和其他分析中可视化和调用这些模型中的见解的功能可有助于将这些见解传播到最需要它们的业务用户。  现在，Power BI 通过使用简单的点击手势可轻松整合托管在 Azure 机器学习服务上的模型中的见解。
+许多组织都使用机器学习  模型，以获得有关其业务的更好的见解和预测。 在报表、仪表板和其他分析中可视化和调用这些模型中的见解的功能可有助于将这些见解传播到最需要它们的业务用户。  现在，Power BI 通过使用简单的点击手势可轻松整合托管在 Azure 机器学习上的模型中的见解。
 
 若要使用此功能，数据科学家只需使用 Azure 门户向 BI 分析师授予访问 Azure ML 模型的权限。  然后，在每个会话开始时，Power Query 将发现用户具有访问权限的所有 Azure ML 模型，并将其作为动态 Power Query 函数公开。  然后，用户可以通过从 Powre Query 编辑器中的功能区中访问这些函数来调用它们，或通过直接调用 M 函数来调用这些函数。 在为一组行调用 Azure ML 模型时，Power BI 还自动批处理访问请求，以实现更好的性能。
 
@@ -28,15 +28,15 @@ ms.locfileid: "73872090"
 
 若要了解有关 Azure 机器学习的详细信息，请参阅：
 
-- 概述：[Azure 机器学习服务是什么？](https://docs.microsoft.com/azure/machine-learning/service/overview-what-is-azure-ml)
+- 概述：[什么是 Azure 机器学习？](https://docs.microsoft.com/azure/machine-learning/service/overview-what-is-azure-ml)
 - Azure 机器学习的快速入门和教程：[Azure 机器学习文档](https://docs.microsoft.com/azure/machine-learning/)
 
 ## <a name="granting-access-to-the-azure-ml-model-to-a-power-bi-user"></a>向 Power BI 用户授予对 Azure ML 模型的访问权限
 
 若要从 Power BI 访问 Azure ML 模型，用户必须具有对 Azure 订阅的读取  权限。  此外：
 
-- 对于机器学习工作室模型，具有对机器学习工作室 Web 服务的读取  权限
-- 对于机器学习服务模型，具有对机器学习服务工作区的读取  权限
+- 对于机器学习工作室（经典）模型，具有对机器学习工作室（经典）Web 服务的读取权限 
+- 对于机器学习模型，具有对机器学习工作区的读取权限 
 
 本文中的步骤介绍了如何向 Power BI 用户授予对托管在 Azure ML 服务上的模型的访问权限，以便他们可以将此模型作为 Power Query 函数进行访问。  有关更为详细的信息，请参阅[使用 RBAC 和 Azure 门户管理访问](https://docs.microsoft.com/azure/role-based-access-control/role-assignments-portal)。
 
@@ -58,23 +58,23 @@ ms.locfileid: "73872090"
 
     ![选择“读取器”作为角色](media/service-machine-learning-integration/machine-learning-integration_04.png)
 
-6. 选择**保存**。
+6. 选择“保存”。 
 
-7. 重复第三步至第六步的操作，以向用户授予对特定机器学习工作室 Web 服务或  托管模型的机器学习服务工作区的读取器  访问权限。
+7. 重复第三步至第六步的操作，以向用户授予对特定机器学习工作室（经典）Web 服务或托管模型的机器学习工作区的读者访问权限   。
 
 
-## <a name="schema-discovery-for-machine-learning-service-models"></a>机器学习服务模型的架构发现
+## <a name="schema-discovery-for-machine-learning-models"></a>机器学习模型的架构发现
 
-数据科学家主要使用 Python 来为机器学习服务开发甚至部署其机器学习模型。  与机器学习工作室（有助于自动执行创建模型的架构文件的任务）不同，在机器学习服务中，数据科学家必须使用 Python 显式生成架构文件。
+数据科学家主要使用 Python 来为机器学习开发甚至部署其机器学习模型。  与机器学习工作室（经典）（有助于自动执行创建模型的架构文件的任务）不同，在机器学习中，数据科学家必须使用 Python 显式生成架构文件。
 
-此架构文件必须包含在为机器学习服务模型部署的 Web 服务中。 若要自动生成 Web 服务的架构，必须在已部署模型的条目脚本中提供输入/输出的示例。 请参阅 [Azure 机器学习服务文档的部署模型中关于（可选）自动生成 Swagger 架构](https://docs.microsoft.com/azure/machine-learning/service/how-to-deploy-and-where#optional-automatic-schema-generation)的子节。 该链接包括示例条目脚本以及架构生成的语句。 
+此架构文件必须包含在为机器学习模型部署的 Web 服务中。 若要自动生成 Web 服务的架构，必须在已部署模型的条目脚本中提供输入/输出的示例。 请参阅 [Azure 机器学习服务文档的部署模型中关于（可选）自动生成 Swagger 架构](https://docs.microsoft.com/azure/machine-learning/service/how-to-deploy-and-where#optional-automatic-schema-generation)的子节。 该链接包括示例条目脚本以及架构生成的语句。 
 
 具体来说，条目脚本中的 \@input_schema  和 \@output_schema  函数引用了 input_sample 和 output_sample 变量中的输入和输出示例格式，并在部署期间使用这些示例为 Web 服务生成 OpenAPI (Swagger) 规范   。
 
 通过更新条目脚本生成架构的这些说明还必须应用于在自动化机器学习试验中使用 Azure 机器学习 SDK 创建的模型。
 
 > [!NOTE]
-> 使用 Azure 机器学习服务可视界面创建的模型当前不支持架构生成，但后续版本将提供支持。 
+> 使用 Azure 机器学习可视化界面创建的模型当前不支持架构生成，但后续版本将提供支持。 
 
 ## <a name="invoking-the-azure-ml-model-in-power-bi"></a>调用 Power BI 中的 Azure ML 模型
 
@@ -106,7 +106,7 @@ ms.locfileid: "73872090"
 
 本文提供了将机器学习集成到 Power BI 服务的概述。 以下文章也应该会非常有趣且实用。 
 
-* [教程：在 Power BI 中调用机器学习工作室模型](service-tutorial-invoke-machine-learning-model.md)
+* [教程：在 Power BI 中调用机器学习工作室（经典）模型](service-tutorial-invoke-machine-learning-model.md)
 * [教程：在 Power BI 中使用认知服务](service-tutorial-use-cognitive-services.md)
 * [Power BI 中的认知服务](service-cognitive-services.md)
 

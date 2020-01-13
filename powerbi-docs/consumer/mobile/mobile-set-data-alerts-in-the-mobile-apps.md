@@ -6,14 +6,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: conceptual
-ms.date: 12/18/2017
-ms.author: mshenhav
-ms.openlocfilehash: c843a3ef8ddfde591dec27ea523cb73857d1a289
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.date: 12/11/2019
+ms.author: painbar
+ms.openlocfilehash: 7668df00d63fc1bdb8bb0e113fa9ad7e0f029147
+ms.sourcegitcommit: 02b05932a119527f255e1eacc745a257044e392f
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73870118"
+ms.lasthandoff: 12/19/2019
+ms.locfileid: "75221306"
 ---
 # <a name="set-data-alerts-in-the-power-bi-mobile-apps"></a>在 Power BI 移动应用中设置数据警报
 适用于：
@@ -62,7 +62,8 @@ ms.locfileid: "73870118"
 
 1. 在仪表板中，点击具有警报的数字或仪表盘磁贴。  
    
-   ![](media/mobile-set-data-alerts-in-the-mobile-apps/power-bi-iphone-card-visual.png)
+   ![](media/mobile-set-data-alerts-in-the-mobile-apps/power-bi-iphone-card-visual_has_alert.png)
+
 2. 点击钟形图标 ![](media/mobile-set-data-alerts-in-the-mobile-apps/power-bi-iphone-has-alert-icon.png)。  
 3. 点击该警报名称以对其进行编辑，点击滑块以关闭电子邮件警报，或点击垃圾回收删除该警报。
    
@@ -104,7 +105,7 @@ ms.locfileid: "73870118"
 ## <a name="data-alerts-on-a-windows-device"></a>Windows 设备上的数据警报
 ### <a name="set-data-alerts-on-a-windows-device"></a>在 Windows 设备上设置数据警报
 1. 点击仪表板中的数字或仪表盘磁贴以打开该磁贴。  
-2. 点击钟形图标 ![](media/mobile-set-data-alerts-in-the-mobile-apps/power-bi-windows-10-alert-bell-off.png) 添加警报。  
+2. 点击钟形图标 ![](media/mobile-set-data-alerts-in-the-mobile-apps/power-bi-windows-10-alert-bell-off.png) 以添加警报。  
    
    ![](media/mobile-set-data-alerts-in-the-mobile-apps/power-bi-windows-10-tap-alert.png)
 3. 点击加号图标 (+)。
@@ -148,10 +149,12 @@ ms.locfileid: "73870118"
 2. 如果你已设置警报向你发送电子邮件，则你将在收件箱中找到如下内容。
    
    ![](media/mobile-set-data-alerts-in-the-mobile-apps/powerbi-alerts-email.png)
-3. Power BI 会将消息添加到**通知中心**，并会向适用的磁贴添加新的警报图标 ![](media/mobile-set-data-alerts-in-the-mobile-apps/powerbi-alert-tile-notification-icon.png)。
-4. 点击全局导航按钮 ![](./media/mobile-set-data-alerts-in-the-mobile-apps/power-bi-iphone-alert-global-nav-button.png) 以[打开**通知中心**](mobile-apps-notification-center.md)，并查看警报详细信息。
+3. Power BI 将消息添加到[通知中心](mobile-apps-notification-center.md)，并在标题栏上的钟形图标 ![钟形图标](media/mobile-set-data-alerts-in-the-mobile-apps/powerbi-alert-tile-notification-icon.png)（iOS 和 Android）或全局导航按钮 ![全局导航按钮](./media/mobile-set-data-alerts-in-the-mobile-apps/power-bi-iphone-alert-global-nav-button.png)（Windows 10 设备）上添加黄点。
+
+
+4. 点击钟形图标 ![钟形图标](media/mobile-set-data-alerts-in-the-mobile-apps/powerbi-alert-tile-notification-icon.png) 或全局导航按钮 ![全局导航按钮](./media/mobile-set-data-alerts-in-the-mobile-apps/power-bi-iphone-alert-global-nav-button.png)[，打开“通知中心”](mobile-apps-notification-center.md)并查看警报详细信息  。
    
-     ![](media/mobile-set-data-alerts-in-the-mobile-apps/power-bi-iphone-notifications.png) 
+     
 
 > [!NOTE]
 > 警报仅适用于刷新的数据。 数据刷新时，Power BI 会查看是否为该数据设置了警报。 如果数据已达到了警报的阈值，则会触发警报。
@@ -167,5 +170,5 @@ ms.locfileid: "73870118"
 ## <a name="next-steps"></a>后续步骤
 * [在 Power BI 服务中管理警报](../../service-set-data-alerts.md)
 * [Power BI 移动通知中心](mobile-apps-notification-center.md)
-* 是否有任何问题？ [尝试咨询 Power BI 社区](https://community.powerbi.com/)
+* 是否有任何问题? [尝试咨询 Power BI 社区](https://community.powerbi.com/)
 

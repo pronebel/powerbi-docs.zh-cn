@@ -11,10 +11,10 @@ ms.topic: conceptual
 ms.date: 10/21/2019
 LocalizationGroup: Dashboards
 ms.openlocfilehash: 9aa2e11dd2068cae118336268c5c55ead1e25b8b
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/09/2019
+ms.lasthandoff: 01/06/2020
 ms.locfileid: "73871211"
 ---
 # <a name="monitor-usage-metrics-for-power-bi-dashboards-and-reports"></a>监视 Power BI 仪表板和报表的使用情况指标
@@ -43,7 +43,7 @@ ms.locfileid: "73871211"
 ## <a name="view-a-usage-metrics-report"></a>查看使用情况指标报表
 
 1. 首先，转到包含仪表板或报表的工作区。
-2. 在“工作区”内容列表或仪表板/报表本身中，选择“使用情况指标”图标 ![使用情况指标](media/service-usage-metrics/power-bi-usage-metrics-report-icon.png)。 
+2. 在“工作区”内容列表或仪表板/报表本身中，选择“使用情况指标”图标 ![使用情况指标](media/service-usage-metrics/power-bi-usage-metrics-report-icon.png)  。
 
     ![“仪表板”选项卡](media/service-usage-metrics/power-bi-run-usage-metrics-report.png)
 
@@ -147,7 +147,7 @@ ms.locfileid: "73871211"
 
 ## <a name="usage-metrics-in-national-clouds"></a>国家云中的使用情况指标
 
-Power BI 在单独的国家云中可用。 这些云提供与 Power BI 全局版本相同级别的安全性、隐私、符合性和透明度，以及服务交付、数据驻留、访问和控制相关地方法规的唯一模型。 由于本地法规的这种唯一模式，使用指标不适用于国家/地区云。 有关详细信息，请参阅[国家云](https://powerbi.microsoft.com/clouds/)。
+Power BI 在单独的国家云中可用。 这些云提供与全球版本 Power BI 相同级别的安全性、隐私、合规性和透明度，并结合了有关服务交付、数据驻留、访问和控制的本地法规的唯一模式。 由于本地法规的这种唯一模式，使用指标不适用于国家/地区云。 有关详细信息，请参阅[国家云](https://powerbi.microsoft.com/clouds/)。
 
 ## <a name="considerations-and-limitations"></a>注意事项和限制
 

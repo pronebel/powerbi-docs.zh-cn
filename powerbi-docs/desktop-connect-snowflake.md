@@ -9,23 +9,23 @@ ms.topic: conceptual
 ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 2bb44498b6123eadffe86c7eb9bfb93bb0db5e14
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 23d66994e88204f56ee937a4f7887225e48a5e2f
+ms.sourcegitcommit: 4359baa43ca01b179d28ec59f4e61ba8c07ee288
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73876408"
+ms.lasthandoff: 12/20/2019
+ms.locfileid: "75304286"
 ---
 # <a name="connect-to-snowflake-in-power-bi-desktop"></a>在 Power BI Desktop 中连接到 Snowflake
 在 Power BI Desktop 中，你可以连接到 **Snowflake** 计算仓库，并可如同使用 Power BI Desktop 中任何其他数据源一样使用基础数据。 
 
 > [!NOTE]
-> 此外，在使用 **Snowflake** 连接器的计算机上，你必须  使用匹配 **Power BI Desktop** 32 位或 64 位安装的体系结构安装 **Snowflake ODBC 驱动程序**。 只需按照以下链接操作，并[下载合适的 Snowflake ODBC 驱动程序](https://go.microsoft.com/fwlink/?LinkID=823762)。
+> 此外，在使用 **Snowflake** 连接器的计算机上，你必须使用匹配 **Power BI Desktop** 32 位或 64 位安装的体系结构安装 **Snowflake ODBC 驱动程序**。 只需按照以下链接操作，并[下载合适的 Snowflake ODBC 驱动程序](https://go.microsoft.com/fwlink/?LinkID=823762)。
 > 
 > 
 
 ## <a name="connect-to-a-snowflake-computing-warehouse"></a>连接到 Snowflake 计算仓库
-要连接到 Snowflake 计算仓库，请从 Power BI Desktop 中的“开始”功能区选择“获取数据”    。 选择左侧类别中的“数据库”  ，然后便会看到“Snowflake”  。
+要连接到 Snowflake 计算仓库，请从 Power BI Desktop 中的“开始”功能区选择“获取数据”。 选择左侧类别中的“数据库”，然后便会看到“Snowflake”。
 
 ![](media/desktop-connect-snowflake/connect_snowflake_2b.png)
 
@@ -38,13 +38,18 @@ ms.locfileid: "73876408"
 ![](media/desktop-connect-snowflake/connect_snowflake_4.png)
 
 > [!NOTE]
-> 一旦输入用户名和密码以连接特定 Snowflake  服务器，Power BI Desktop 在后续连接尝试中就会使用这些凭据。 可以通过“文件”>“选项和设置”>“数据源设置”  来修改这些凭据。
+> 一旦输入用户名和密码以连接特定 Snowflake 服务器，Power BI Desktop 在后续连接尝试中就会使用这些凭据。 可以通过“文件”>“选项和设置”>“数据源设置”来修改这些凭据。
 > 
 > 
 
-连接成功后，将会出现“导航器”  窗口，并显示服务器上可用的数据。你可以从这些数据中选择要在 **Power BI Desktop** 中导入和使用的一个或多个元素。
+要使用 Microsoft 帐户选项，请让你的 Snowflake 管理员联系 Snowflake，了解如何加入此功能的个人预览版。
 
-![](media/desktop-connect-snowflake/connect_snowflake_5.png)
+![Snowflake 连接器中的 Microsoft 帐户身份验证类型。](media/desktop-connect-snowflake/connect-snowflake-6.png)
+
+
+连接成功后，将会出现“导航器”窗口，并显示服务器上可用的数据。你可以从这些数据中选择要在 **Power BI Desktop** 中导入和使用的一个或多个元素。
+
+![ODBC 错误 28000，导致连接失败。](media/desktop-connect-snowflake/connect_snowflake_5.png)
 
 你可以**加载**选定的表，该操作将把整个表格加载到 **Power BI Desktop**中，或者你也可以**编辑**查询，这将打开**查询编辑器**，以便筛选和优化要使用的数据集，然后将优化后的数据集加载到 **Power BI Desktop** 中。
 

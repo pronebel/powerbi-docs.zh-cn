@@ -1,19 +1,19 @@
 ---
 title: 在 Power BI 移动应用中浏览报表
 description: 了解如何在手机或平板电脑上查看 Power BI 移动应用中的报表，并与之交互。 可在 Power BI 服务或 Power BI Desktop 中创建报表，然后在移动应用中与报表进行交互。
-author: mshenhav
+author: paulinbar
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: conceptual
-ms.date: 08/09/2019
-ms.author: mshenhav
-ms.openlocfilehash: d4b9a9aeda00dd7f16690d1e92336f5b63adf1da
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.date: 12/16/2019
+ms.author: painbar
+ms.openlocfilehash: bb54a4e403f2cc12800d0c97e44308f7ad5c5f65
+ms.sourcegitcommit: 02b05932a119527f255e1eacc745a257044e392f
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73869769"
+ms.lasthandoff: 12/19/2019
+ms.locfileid: "75220675"
 ---
 # <a name="explore-reports-in-the-power-bi-mobile-apps"></a>在 Power BI 移动应用中浏览报表
 适用于：
@@ -96,29 +96,43 @@ Power BI 移动应用中的报表有两个图标：
 ![报表页脚](./media/mobile-reports-in-the-mobile-apps/report-footer.png)
 
 可从页脚执行的操作包括：
-- 将报表筛选器和交叉突出显示选项重置回其原始状态。
-- 打开对话窗格，添加或查看报表注释。
-- 打开筛选器窗格，查看或修改当前应用于报表的筛选器。
-- 列出报表的所有页面。 点击页名称将加载并显示该页。
+* 将报表筛选器和交叉突出显示选项重置回其原始状态。
+* 打开对话窗格，添加或查看报表注释。
+* 打开筛选器窗格，查看或修改当前应用于报表的筛选器。
+* 列出报表的所有页面。 点击页名称将加载并显示该页。
 可以通过从屏幕边缘向中心轻扫在表页间移动。
-- 查看所有报表操作。
+* 查看所有报表操作。
 
 #### <a name="all-report-actions"></a>所有报表操作
 点击报表页脚中的“更多选项”(…) 可查看能对报表执行的所有操作  ：
 
 
-![所有报表操作](./media/mobile-reports-in-the-mobile-apps/report-all-actions.png)
+![所有报表操作](./media/mobile-reports-in-the-mobile-apps/power-bi-mobile-report-all-actions.png)
 
 某些操作可能会被禁用，因为这些操作依赖于特定的报表功能。
 例如：
+
+仅当在报表中设置了[书签](mobile-reports-in-the-mobile-apps.md#bookmarks)时，才会显示“书签”  。 可在 Power BI 服务中定义的个人书签和报表创建者定义的书签都将显示出来。 如果已将其中一个书签定义为默认书签，则报表将在加载时打开该视图。
+
+如果组织中存在禁止通过 Power BI 移动应用共享的 [Intune 保护策略](https://docs.microsoft.com/intune/app-protection-policies)，则可能会禁用“批注并共享”  。
+
+只有在你有权与他人共享报表时才会启用“邀请”  。 只有当你是报表所有者或所有者授予你重新共享权限时，你才有此权限。
 
 如果报表作者按地理数据对报表进行了分类，则“按当前位置筛选”处于启用状态  。 有关详细信息，请阅读[标识报表中的地理数据](https://docs.microsoft.com/power-bi/desktop-mobile-geofiltering)。
 
 只有当报表中的数据集被标记为条形码时，才会启用“扫描以按条形码筛选报表”   。 有关详细信息，请阅读[在 Power BI Desktop 中标记条形码](https://docs.microsoft.com/power-bi/desktop-mobile-barcodes)。
 
-只有在你有权与他人共享报表时才会启用“邀请”  。 只有当你是报表所有者或所有者授予你重新共享权限时，你才有此权限。
+### <a name="bookmarks"></a>书签
 
-如果组织中存在禁止通过 Power BI 移动应用共享的 [Intune 保护策略](https://docs.microsoft.com/intune/app-protection-policies)，则可能会禁用“批注并共享”  。
+Power BI 移动应用支持报表创建者已定义的报表书签和可在 Power BI 服务中定义的个人书签。 可以在[报表操作工具栏](mobile-reports-in-the-mobile-apps.md#all-report-actions)上的“更多选项”(…) 下找到书签菜单  。
+
+![书签菜单](./media/mobile-reports-in-the-mobile-apps/power-bi-mobile-report-bookmark-menu.png)
+
+当报表的书签视图处于打开状态时，该书签的名称将显示在报表的顶部。
+
+![书签视图](./media/mobile-reports-in-the-mobile-apps/power-bi-mobile-report-bookmark-title.png)
+
+[了解有关 Power BI 服务中书签的详细信息](https://docs.microsoft.com/power-bi/consumer/end-user-bookmarks)。
 
 ## <a name="next-steps"></a>后续步骤
 * [查看手机优化版 Power BI 报表并与之交互](mobile-apps-view-phone-report.md)

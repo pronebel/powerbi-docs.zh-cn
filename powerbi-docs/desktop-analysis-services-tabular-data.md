@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 05/07/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 6ee7405b7c3d542dd824c70c17459c7078b3f0e1
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: f7af1c584802181cab68f6ce2fc4823ec7078354
+ms.sourcegitcommit: 331ebf6bcb4a5cdbdc82e81a538144a00ec935d4
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73878826"
+ms.lasthandoff: 12/28/2019
+ms.locfileid: "75523018"
 ---
 # <a name="using-analysis-services-tabular-data-in-power-bi-desktop"></a>在 Power BI Desktop 中使用 Analysis Services 表格数据
 借助 Power BI Desktop，你有两种方法可以连接到 SQL Server Analysis Services 表格模型并从中获取数据：通过使用实时连接浏览或选择项目并将其导入到 Power BI Desktop。
@@ -50,7 +50,7 @@ ms.locfileid: "73878826"
 
   ![](media/desktop-analysis-services-tabular-data/pbid_sqlas_getdata_as_select.png)
 
-## <a name="frequently-asked-questions"></a>常见问题
+## <a name="frequently-asked-questions"></a>常见问题解答
 **问：** 我是否需要一个本地数据网关？
 
 **答：** 这视具体情况而定。 如果你使用 Power BI Desktop 实时连接到表格模型，但不打算发布到 Power BI 站点，则不需要网关。 另一方面，如果你确实想将其发布到 Power BI 站点，则数据网关是必需的，以确保 Power BI 服务与你的本地 Analysis Services 服务器之间的通信安全。 请务必在安装数据网关之前与 Analysis Services 服务器管理员联系。
@@ -76,6 +76,12 @@ ms.locfileid: "73878826"
 **问：** 在导航器中，我看到模型和透视。 有什么区别？
 
 **答：** 透视是表格模型的特定视图。 它可能仅包含特定的表、列或度量值，具体取决于独特的数据分析需求。 表格模型始终包含至少一个透视，其中能包含模型中的所有内容。 如果你不确定应选择哪个，请与你的管理员联系。
+
+**问：** Analysis Services 的任何功能是否会改变 Power BI 的行为方式？
+
+**答：** 是。 根据表格模型所使用的功能，Power BI Desktop 中的体验可能会发生改变。 示例包括：
+* 你可能会看到模型中的度量值组合在“字段列表”的顶部，而不是列旁边的表中。 不必担心！ 你仍可以正常使用它们，这样更容易找到它们！
+* 如果表格模型定义了计算组，则只能将它们与模型度量值结合使用，而不能与通过向视觉对象添加数值字段而创建的隐式度量值结合使用。 该模型还可能手动设置了“DiscourageImplicitMeasures”标记，这具有相同的效果。 要了解详细信息，请参阅 [Analysis Services 中的计算组](https://docs.microsoft.com/analysis-services/tabular-models/calculation-groups#benefits)
 
 ## <a name="to-change-the-server-name-after-initial-connection"></a>初始连接后更改服务器名称
 使用实时浏览连接创建 Power BI Desktop 文件后，可能会出现你想要将连接切换到其他服务器的情况。 例如，如果当你在连接到开发服务器时创建了 Power BI Desktop 文件，在发布到 Power BI 服务前，你想要将连接切换至生产服务器。

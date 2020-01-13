@@ -9,12 +9,12 @@ ms.topic: overview
 ms.date: 09/09/2019
 ms.author: kfollis
 LocalizationGroup: Administration
-ms.openlocfilehash: dced3d2bfe844e857556386fb208395faab3fd8b
-ms.sourcegitcommit: f77b24a8a588605f005c9bb1fdad864955885718
+ms.openlocfilehash: 57819765b156baac2a86b8144e86770a0117adfd
+ms.sourcegitcommit: d5de66b591c2e1de979ce0e3ce5e5b6e1f2a08db
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/02/2019
-ms.locfileid: "74698960"
+ms.lasthandoff: 12/31/2019
+ms.locfileid: "75548586"
 ---
 # <a name="what-is-power-bi-administration"></a>什么是 Power BI 管理？
 
@@ -61,7 +61,7 @@ Power BI 服务管理员角色不授予将许可证分配给用户或在 Office 
 | 确保符合内部策略、法律和法规 | <ul><li>管理业务数据分类<br><li>帮助强制实施内容发布和共享策略</ul>|
 | 管理 Power BI 资源 |<ul><li>管理工作区<br><li>发布自定义视觉对象<br><li>验证用于在其他应用程序中嵌入 Power BI 的代码|
 | 为租户用户提供帮助和支持 |<ul><li>数据访问和其他问题疑难解答</ul>|
-| 其他任务 |<ul><li>部署 Power BI Desktop，例如，使用 System Center Configuration Manager<br><li>使用 Intune 管理 Power BI 移动应用部署<br><li>管理数据隐私和安全，如源数据安全</ul>|
+| 其他任务 |<ul><li>部署 Power BI Desktop，例如，使用 Microsoft Endpoint Configuration Manager<br><li>使用 Intune 管理 Power BI 移动应用部署<br><li>管理数据隐私和安全，如源数据安全</ul>|
 
 ## <a name="administrative-tools"></a>管理工具
 

@@ -9,14 +9,14 @@ ms.topic: conceptual
 ms.date: 08/06/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: a01598bda6520bbf0bf82175ab4256cf7d529e84
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 7eded3d17e0db5894bd2f1a03fae49357eb27c69
+ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73880700"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "75762246"
 ---
-# <a name="getting-started-with-color-formatting-and-axis-properties"></a>颜色格式设置和轴属性入门
+# <a name="get-started-with-color-formatting-and-axis-properties"></a>颜色格式设置和轴属性入门
 在 Power BI  中，可以更改数据系列、数据点和可视化效果背景的颜色。 如果你能完全控制仪表板和报表的显示方式，你还可以更改 X 轴和 Y 轴的显示方式。
 
 若要开始，请从**我的工作区**窗格中选择**报表**。 然后从顶部菜单区域，选择**编辑报表**。  

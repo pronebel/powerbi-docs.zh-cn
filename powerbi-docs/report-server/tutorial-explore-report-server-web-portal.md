@@ -9,10 +9,10 @@ ms.topic: tutorial
 ms.date: 05/06/2019
 ms.author: maggies
 ms.openlocfilehash: 312b86f9e0c0dda0c9c943520c74286e0458acef
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/09/2019
+ms.lasthandoff: 01/06/2020
 ms.locfileid: "73859259"
 ---
 # <a name="tutorial-explore-the-power-bi-report-server-web-portal-in-a-vm"></a>教程：浏览 VM 中的 Power BI 报表服务器 Web 门户
@@ -170,7 +170,7 @@ ms.locfileid: "73859259"
 
     ![将字段拖动到“筛选器”窗格](media/tutorial-explore-report-server-web-portal/power-bi-report-server-desktop-filter.png)
 
-1. 保存报表。
+1. 保存报告。
 
 1. 返回到浏览器中的报表，然后选择浏览器“刷新”  图标。
 
@@ -206,7 +206,7 @@ ms.locfileid: "73859259"
 
     可以在此处更改该参数以及其他参数，而无需更改默认值。
 
-1. 选择“订单 SO48339”    >   “查看报表”。
+1. 选择“订单 SO48339” > “查看报表”    。
 
 4. 将看到这是“第 1 页，共 2 页”。 选择右箭头以查看第二页。 表继续在该页上显示。
 

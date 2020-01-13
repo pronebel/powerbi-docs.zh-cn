@@ -9,14 +9,14 @@ ms.topic: conceptual
 ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Model your data
-ms.openlocfilehash: 8667823567270680415c2fb0ba2db7846dd968ac
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: ef3191d77e2aeb89ff97468bd4bfdc07b0d7afb8
+ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73878331"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "75761332"
 ---
-# <a name="data-categorization-in-power-bi-desktop"></a>Power BI Desktop 中的数据分类
+# <a name="specify-data-categories-in-power-bi-desktop"></a>在 Power BI Desktop 中指定数据类别
 在 **Power BI Desktop** 中，你可以为列指定数据类别，以便让 Power BI Desktop 知道如何在可视化效果中处理其值。
 
 当 Power BI Desktop 导入数据时，它不仅会获取本身数据，还会获取表和列名称等信息（无论它是否为主关键字）。有了这些信息，Power BI Desktop 会进行某些假设，让你在创建可视化效果时可拥有较好的默认体验。 

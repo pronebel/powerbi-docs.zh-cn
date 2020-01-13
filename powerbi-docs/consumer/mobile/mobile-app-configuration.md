@@ -8,16 +8,16 @@ ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 11/07/2019
 ms.author: painbar
-ms.openlocfilehash: a517ee4edce6e18eadcbe2b1b6765684f8121b21
-ms.sourcegitcommit: 768e1e4b19fe8c7627010127c2420d63021cb542
+ms.openlocfilehash: ccc7e3864590145309709d27774951c281b3ebdd
+ms.sourcegitcommit: ef9ab7c0d84b926094c33e8aa2765cd43b844314
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/20/2019
-ms.locfileid: "74199423"
+ms.lasthandoff: 01/03/2020
+ms.locfileid: "75622356"
 ---
 # <a name="remotely-configure-power-bi-app-using-mobile-device-management-mdm-tool"></a>使用移动设备管理 (MDM) 工具远程配置 Power BI 应用
 
-适用于 iOS 和 Android 的 Power BI 移动版应用支持应用设置，Office 365 和移动设备管理 (MDM) 服务（例如 Intune）的管理员可通过应用设置自定义应用的行为。
+适用于 iOS 和 Android 的 Power BI 移动版应用支持应用设置，移动设备管理 (MDM) 服务（例如 Intune）的管理员可通过应用设置自定义应用的行为。
 
 Power BI 移动版应用支持以下配置方案：
 

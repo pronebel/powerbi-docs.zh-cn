@@ -8,13 +8,13 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.custom: ''
-ms.date: 03/29/2019
-ms.openlocfilehash: 3791e9cdfd44c62e6f9e9b79f5345d6d2476b0db
-ms.sourcegitcommit: c395fe83d63641e0fbd7c98e51bbab224805bbcc
+ms.date: 12/12/2019
+ms.openlocfilehash: dec23aaa4fd54761c62507b8c7a5a36c45c75afd
+ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/21/2019
-ms.locfileid: "74264192"
+ms.lasthandoff: 01/06/2020
+ms.locfileid: "75223373"
 ---
 # <a name="service-principal-with-power-bi"></a>Power BI 的服务主体
 
@@ -150,7 +150,7 @@ ms.locfileid: "74264192"
 
    ![本地目录中的托管应用程序](media/embed-service-principal/managed-application-in-local-directory.png)
 
-    > [!Note]
+    > [!NOTE]
     > 上图中的对象 ID 不是用于服务主体的对象 ID。
 
 3. 选择“属性”查看对象 ID  。
@@ -174,6 +174,7 @@ ms.locfileid: "74264192"
 * [为组织嵌入内容](embed-sample-for-your-organization.md)应用程序无法使用服务主体。
 * 不支持[数据流](../service-dataflows-overview.md)管理。
 * 服务主体目前不支持任何管理员 API。
+* 使用带有 [Azure Analysis Services](https://docs.microsoft.com/azure/analysis-services/analysis-services-overview) 数据源的服务主体时，服务主体本身必须具有 Azure Analysis Services 实例权限。 使用包含服务主体的安全组来实现此目的，这不起作用。
 
 ## <a name="next-steps"></a>后续步骤
 

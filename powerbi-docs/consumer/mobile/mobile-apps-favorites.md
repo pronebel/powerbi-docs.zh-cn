@@ -1,19 +1,19 @@
 ---
 title: Power BI 移动应用中的收藏夹
 description: 了解如何在移动应用中收藏和查看 Power BI 仪表板、报表和应用，以及 Power BI 报表服务器和 Reporting Services 报表和 KPI。
-author: mshenhav
+author: paulinbar
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: conceptual
-ms.date: 05/05/2018
-ms.author: mshenhav
-ms.openlocfilehash: c4fcf7bea8bf458231533efbc88e307d8d9ba2ab
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.date: 12/02/2019
+ms.author: painbar
+ms.openlocfilehash: 2c7ae8180f51592319c9aaca85272553480cd283
+ms.sourcegitcommit: 0da17de80c9651f9f4474d1abb1bdaaade8808fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73870682"
+ms.lasthandoff: 12/27/2019
+ms.locfileid: "75498511"
 ---
 # <a name="make-and-view-favorites-in-the-power-bi-mobile-apps"></a>在 Power BI 移动应用中收藏和查看
 适用于：
@@ -24,7 +24,9 @@ ms.locfileid: "73870682"
 
 了解如何在移动应用中收藏和查看 Power BI 仪表板、报表和应用，以及收藏的本地 Power BI 报表服务器和 Reporting Services KPI 和报表。
 
-在 Power BI 移动应用中进行收藏时，可以在 Power BI 服务 ([https://powerbi.com](https://powerbi.com)) 和所有移动设备中的“收藏夹”页上看到收藏的内容。 
+在 Power BI 移动应用中进行收藏时，可以在 [Power BI 服务](https://powerbi.com)和所有移动设备中的“收藏夹”页上看到收藏的内容。
+
+要查看“收藏夹”页，请点击导航栏上的“收藏夹”图标：
 
 ![Power BI 移动应用中的收藏夹](./media/mobile-apps-favorites/power-bi-android-favorites-reports.png)
 
@@ -33,48 +35,46 @@ ms.locfileid: "73870682"
 
 可以在 Power BI 报表服务器或 Reporting Services Web 门户上将 KPI 和报表标记为收藏项，然后在移动设备上的一个方便使用的文件夹中查看它们，以及收藏的 Power BI 仪表板。
 
-## <a name="view-your-power-bi-favorites"></a>查看 Power BI 收藏夹
-* 依次点击顶部导航菜单![导航菜单图标](./media/mobile-apps-favorites/power-bi-iphone-global-nav-button.png)和“收藏夹”  。
-  
-  ![导航菜单中的收藏夹](./media/mobile-apps-favorites/power-bi-ipad-faves-pbi-report-server.png)
-  
-  所有收藏项全都显示在此页上：
-  
-  ![“收藏夹”页](./media/mobile-apps-favorites/power-bi-ipad-favorites.png)
-
 ## <a name="make-an-app-a-favorite"></a>收藏应用
-1. 在移动应用上的应用列表中，依次点击应用旁边的“更多选项”(…) 和“收藏”   。
+1. 点击底部导航栏上的“应用”图标以显示应用页面。
+
+2. 在 iOS 设备上，点击要收藏的应用名称右侧的信息按钮。 Android 设备上会出现“更多选项”(...)，而不是信息按钮。 
+
+3. 在打开的“应用信息”部分中，点击星形图标。
    
     ![应用收藏夹菜单](./media/mobile-apps-favorites/power-bi-android-favorite-app-ellipsis.png)
    
-    此时，它与收藏的其他仪表板和应用一起列出。
+    此时，该应用会在“收藏夹”页上列出，同时列出的还有其他收藏的仪表板、报表和应用。
    
-    ![收藏夹中的应用](./media/mobile-apps-favorites/power-bi-android-favorite-apps.png)
-
 ## <a name="make-a-dashboard-or-report-a-favorite-in-the-ios-and-windows-10-mobile-apps"></a>在 iOS 和 Windows 10 移动应用中收藏仪表板或报表
 可以从仪表板或报表列表或仪表板或报表本身收藏 Power BI 仪表板或报表。
 
 * 在移动应用的仪表板或报表列表中，点击名称旁的空心五角星 ![“未收藏”图标](./././media/mobile-apps-favorites/power-bi-mobile-not-favorite-icon.png)。 五角星会变成黄色 ![“收藏”图标](./././media/mobile-apps-favorites/power-bi-mobile-yes-favorite-icon.png)。
   
     ![仪表板收藏夹](./media/mobile-apps-favorites/power-bi-mobile-make-dashboard-favorite.png)
-* 在仪表板或报表上，点击功能区中的空心五角星 ![“未收藏”图标](./././media/mobile-apps-favorites/power-bi-mobile-not-favorite-icon.png)。 五角星会变成黄色 ![“收藏”图标](./././media/mobile-apps-favorites/power-bi-mobile-yes-favorite-icon.png)。
+* 如果位于仪表板中，请点击功能区中的空心星形图标 ![“未收藏”图标](./././media/mobile-apps-favorites/power-bi-mobile-not-favorite-icon.png)。 如果位于报表中，则星形图标位于“更多选项”(...) 下方  。星形图标 ![“收藏夹”图标](./././media/mobile-apps-favorites/power-bi-mobile-favorite-selected-black.png) 变成黑色。
   
     ![已选择“收藏夹”图标](./media/mobile-apps-favorites/power-bi-mobile-favorite-selected.png)
 
 ## <a name="make-a-dashboard-or-report-a-favorite-in-the-android-mobile-apps"></a>在 Android 移动应用中收藏仪表板或报表
 可以从仪表板或报表列表或仪表板或报表本身收藏仪表板或报表。
 
-* 在移动应用的仪表板或报表列表中，点击名称旁边的垂直“更多选项”(…) 按钮，然后点击“收藏”   。 此时，![收藏图标](./././media/mobile-apps-favorites/power-bi-mobile-yes-favorite-icon.png)名称旁边会显示黄色五角星。
+* 在移动应用的仪表板或报表列表中，点击名称旁边的垂直“更多选项”(…) 按钮，然后点击出现的“信息”选项卡上的“收藏夹”星形图标  。
   
     ![Android 收藏夹菜单](./media/mobile-apps-favorites/power-bi-android-make-favorite.png)
-* 在仪表板或报表上，点击功能区中的空心五角星 ![“未收藏”图标](./././media/mobile-apps-favorites/power-bi-mobile-not-favorite-icon.png)。 五角星会变成深灰色 ![“收藏”图标](./media/mobile-apps-favorites/power-bi-android-favorite-icon.png)。
+
+* 位于仪表板中时，点击功能区上的空心星形图标 ![“未收藏”图标](./././media/mobile-apps-favorites/power-bi-mobile-not-favorite-icon.png)。 五角星会变成深灰色 ![“收藏”图标](./media/mobile-apps-favorites/power-bi-android-favorite-icon.png)。
   
     ![Android“收藏”五角星](./media/mobile-apps-favorites/power-bi-android-favorite-in-dashboard.png)
+
+* 如果位于报表中，请向下滑动以显示功能区，点击“更多选项”(...)，然后向下滚动查找空心星形图标 ![“未收藏”图标](./././media/mobile-apps-favorites/power-bi-mobile-not-favorite-icon.png)，然后点击该图标  。 星形图标 ![“收藏夹”图标](./media/mobile-apps-favorites/power-bi-android-favorite-icon.png) 变成深灰色。
+  
+    ![Android“收藏”五角星](./media/mobile-apps-favorites/power-bi-android-favorite-in-report.png)
 
 ## <a name="make-favorite-power-bi-report-server-and-reporting-services-reports-and-kpis"></a>收藏 Power BI 报表服务器/Reporting Services 报表和 KPI
 可以在 Power BI 移动应用中查看收藏的 Power BI 报表服务器/Reporting Services 报表和 KPI，但不能在移动应用中收藏它们。 在 [Web 门户中将它们标记为收藏项](../../report-server/tutorial-explore-report-server-web-portal.md#tag-your-favorites)。 
 
 ## <a name="next-steps"></a>后续步骤
 * [Power BI 服务中最喜爱的仪表板](../end-user-favorite.md) 
-* 是否有任何问题？ [尝试咨询 Power BI 社区](https://community.powerbi.com/)
+* 是否有任何问题? [尝试咨询 Power BI 社区](https://community.powerbi.com/)
 

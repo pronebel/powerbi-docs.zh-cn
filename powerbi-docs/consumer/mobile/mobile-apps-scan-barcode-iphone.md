@@ -1,19 +1,19 @@
 ---
 title: 从 Power BI 移动应用中扫描条形码
 description: 扫描现实生活中的条形码，直接转到在 Power BI 移动应用中筛选后的 BI 信息。
-author: mshenhav
+author: paulinbar
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: conceptual
-ms.date: 10/13/2017
-ms.author: mshenhav
-ms.openlocfilehash: bbc787203293fc6c9075400abf674345710faaed
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.date: 12/02/2019
+ms.author: painbar
+ms.openlocfilehash: ee3cfec0c735ad52f9a036e75f61c1ab0400567b
+ms.sourcegitcommit: 02b05932a119527f255e1eacc745a257044e392f
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73879179"
+ms.lasthandoff: 12/19/2019
+ms.locfileid: "75217794"
 ---
 # <a name="scan-a-barcode-with-your-device-from-the-power-bi-mobile-app"></a>使用设备上的 Power BI 移动应用扫描条形码
 扫描现实生活中的条形码，直接转到在 Power BI 移动应用中筛选后的 BI 信息。
@@ -32,15 +32,13 @@ ms.locfileid: "73879179"
 使用设备上 Power BI 应用中的扫描器扫描产品条形码时，可看到具有该条形码的报表（或报表列表）。 可打开筛选显示此条形码的报表。
 
 ## <a name="scan-a-barcode-with-the-power-bi-scanner"></a>使用 Power BI 扫描器扫描条形码
-1. 在 Power BI 移动应用中打开左上方的主导航菜单 ![](media/mobile-apps-scan-barcode-iphone/pbi_iph_navmenu.png)。 
-2. 向下滚动到“扫描程序”  并选择它。 
-   
+1. 在导航栏上，点击“更多选项”(...)，然后点击“扫描仪”   。
+
     ![](media/mobile-apps-scan-barcode-iphone/power-bi-scanner.png)
-3. 如果未启用照相机，你需要许可 Power BI 应用使用照相机。 此许可为一次性的。 
-4. 将扫描器指向产品上的条形码。 
-   
-    你将看到与该条形码相关联的报表列表。
-5. 点击报表名称在设备上将其打开，自动筛选显示出该条形码。
+
+2. 如果未启用照相机，你需要许可 Power BI 应用使用照相机。 这是一次性允许。 
+4. 将扫描器指向产品上的条形码。 可看到与该条形码关联的报表列表。
+5. 点击报表名称以将其在设备上打开，并根据该条形码自动进行筛选。
 
 ## <a name="filter-by-other-barcodes-while-in-a-report"></a>在报表中由其他条形码筛选
 在设备上查看通过条形码筛选的报表时，你可能希望通过不同条形码筛选同一个报表。

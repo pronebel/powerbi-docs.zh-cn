@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 10/18/2019
 ms.author: davidi
 LocalizationGroup: conceptual
-ms.openlocfilehash: 49615e1b6c205d9b894df0bcca7ef4979f153ba7
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: f5fa262c01767ba934a10300e321796845d47c5f
+ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73872120"
+ms.lasthandoff: 01/06/2020
+ms.locfileid: "75223814"
 ---
 # <a name="automated-machine-learning-in-power-bi"></a>Power BI 中的自动机器学习
 
@@ -32,7 +32,7 @@ ms.locfileid: "73872120"
 
 AutoML 支持创建数据流的二进制预测、分类和回归模型    。 这些是受监督的机器学习技术类型，这意味着它们通过了解过去观察的已知结果来预测其他观察结果。 用于训练 AutoML 模型的输入数据集是一组标有已知结果的记录  。
 
-Power BI 中的 AutoML 从 [Azure 机器学习服务](https://docs.microsoft.com/azure/machine-learning/service/overview-what-is-azure-ml)集成[自动 ML](https://docs.microsoft.com/azure/machine-learning/service/concept-automated-ml)，以创建 ML 模型。 不过，在 Power BI 中，无需 Azure 订阅即可使用 AutoML。 训练和托管 ML 模型的过程完全由 Power BI 服务管理。
+Power BI 中的 AutoML 从 [Azure 机器学习](https://docs.microsoft.com/azure/machine-learning/service/overview-what-is-azure-ml)集成[自动化 ML](https://docs.microsoft.com/azure/machine-learning/service/concept-automated-ml)，以创建 ML 模型。 不过，在 Power BI 中，无需 Azure 订阅即可使用 AutoML。 训练和托管 ML 模型的过程完全由 Power BI 服务管理。
 
 训练 ML 模型后，AutoML 会自动生成一个 Power BI 报表，用于说明 ML 模型的可能性能。 AutoML 会突出显示输入中影响模型返回的预测结果的关键影响因素，以此强调可解释性。 该报表还包含模型的关键指标。
 
@@ -122,7 +122,7 @@ AutoML 会生成一个 Power BI 报表，该报表在验证过程中汇总模型
 
 报表还包括“训练详细信息”页，其中包含有关模型训练方式的说明，和一张图表来说明每个迭代运行的模型性能  。
 
-![定型详细信息](media/service-machine-learning-automated/automated-machine-learning-power-bi-08.png)
+![训练详细信息](media/service-machine-learning-automated/automated-machine-learning-power-bi-08.png)
 
 此页上的另一部分介绍了检测到的输入字段的类型和用于填充缺失值的插补方法。 它还包括最终模型所使用的参数。
 
@@ -282,7 +282,7 @@ RegressionResult 列包含基于输入字段的记录的预测值  。 Regressio
 
 - [教程：在 Power BI 中生成机器学习模型](service-tutorial-build-machine-learning-model.md)
 - [教程：在 Power BI 中使用认知服务](service-tutorial-use-cognitive-services.md)
-- [教程：在 Power BI 中调用机器学习工作室模型（预览版）](service-tutorial-invoke-machine-learning-model.md)
+- [教程：在 Power BI 中调用机器学习工作室（经典）模型（预览版）](service-tutorial-invoke-machine-learning-model.md)
 - [Power BI 中的认知服务](service-cognitive-services.md)
 - [Power BI 中的 Azure 机器学习集成](service-machine-learning-integration.md)
 

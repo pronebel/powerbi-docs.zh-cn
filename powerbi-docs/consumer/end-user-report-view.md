@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 10/17/2019
+ms.date: 12/10/2019
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: 6e64ab2730b73339d6d22ba356cce6e644af52c5
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 48efc58c7428961b70fb31a96f404139a75a1ac3
+ms.sourcegitcommit: 02b05932a119527f255e1eacc745a257044e392f
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73861847"
+ms.lasthandoff: 12/19/2019
+ms.locfileid: "75217842"
 ---
 # <a name="change-the-display-of-a-report-page"></a>更改报表页的显示
 
@@ -52,6 +52,26 @@ ms.locfileid: "73861847"
     ![报表显示全屏](media/end-user-report-view/power-bi-full-screen.png)
 
 退出报表时，“视图”设置不保存，而是恢复到默认值  。 如果有必要保存这些设置，请使用[书签](end-user-bookmarks.md)。
+
+## <a name="use-your-browser-to-change-page-display"></a>使用浏览器更改页面显示
+
+浏览器中的缩放控件可增加和减少可用的画布区域。 减小缩放比例可以显示更大的可用画布区域，增大比例则显示更小的区域。 
+
+![显示浏览器缩放控件的短视频](media/end-user-report-view/power-bi-zoom.png)
+
+调整整个浏览器的大小是更改报表显示大小的另一种方法。 
+
+![显示浏览器大小调整的短视频](media/end-user-report-view/power-bi-resize-browser.gif)
+
+## <a name="zoom-in-on-a-visual"></a>放大视觉对象
+有时很难看出视觉对象中的详细信息。 可以放大该视觉对象以仅显示它。 有关详细信息，请参阅[焦点模式和全屏模式](end-user-focus.md)
+
+### <a name="a-visual-in-focus-mode"></a>焦点  模式下的视觉对象
+
+![焦点模式下打开的视觉对象的屏幕截图。](media/end-user-report-view/power-bi-focus.png)
+
+### <a name="a-visual-in-full-screen-mode"></a>全屏  模式下的视觉对象
+![全屏模式下打开的视觉对象的屏幕截图。](media/end-user-report-view/power-bi-full-screen.png)
 
 ## <a name="next-steps"></a>后续步骤
 

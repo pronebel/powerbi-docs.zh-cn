@@ -8,10 +8,10 @@ ms.topic: conceptual
 ms.date: 10/17/2019
 ms.author: mohaali
 ms.openlocfilehash: 17d0a68782f34c09286be5ebe020668a15061ee4
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/09/2019
+ms.lasthandoff: 01/06/2020
 ms.locfileid: "73874936"
 ---
 # <a name="intro-to-qa-tooling-to-train-power-bi-qa-preview"></a>培训 Power BI 问答的问答工具简介（预览版）
@@ -80,7 +80,7 @@ Power BI Desktop“建模”选项卡提供了更多选项来改进问答体验 
 
 1. 在 Power BI Desktop 中，选择“建模”视图。
 
-2. 选择一个字段或表，以显示“属性”窗格，并将“隐藏”切换为“开启”    。
+2. 选择一个字段或表以显示“属性”窗格，并将“隐藏”切换为“开”    。
 
     问答将遵循此设置并确保不识别该字段。 例如，你可能希望隐藏 ID 字段和外键，以避免不必要的具有相同名称的重复字段。 即使隐藏了字段，你仍可以在问答之外的 Power BI Desktop 视觉对象中使用它。
 

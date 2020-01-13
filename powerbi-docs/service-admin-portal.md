@@ -10,12 +10,12 @@ ms.date: 09/25/2019
 ms.author: kfollis
 ms.custom: seodec18
 LocalizationGroup: Administration
-ms.openlocfilehash: 4776e458c778b6bd482106660ab9b8cd978699e5
-ms.sourcegitcommit: 9a265d8117cc202f5f700286b5ff42a631aacdb4
+ms.openlocfilehash: 99d57b734e42913db20e8a414c3216ed66334fa8
+ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/06/2019
-ms.locfileid: "74882903"
+ms.lasthandoff: 01/06/2020
+ms.locfileid: "75224201"
 ---
 # <a name="administering-power-bi-in-the-admin-portal"></a>在管理门户中管理 Power BI
 
@@ -168,9 +168,9 @@ Office 365 中的全局管理员或分配有 Power BI 服务管理员角色的�
 
 组织中的用户可以通过 Power BI 帮助菜单获取内部帮助和支持资源。 具体而言，这些参数更改“Learn”、“社区”和“获取帮助”菜单项的行为。
 
-    ![Enable except setting](media/service-admin-portal/powerbi-admin-tenant-settings-enabled-except2.png)
+此外，通过指定授权请求的 URL，可以自定义“升级帐户”按钮的目标 URL。 没有 Power BI Pro 许可证的用户将在“更新到 Power BI Pro”对话框和“管理个人存储”页中看到此按钮。 此外，Power BI 不再提供此对话框或存储页中的“免费试用 Pro”按钮。 这可确保 Power BI 通过许可证管理解决方案可靠地引导用户完成在组织中定义的流程。
 
-通过为授权请求指定 URL，可以自定义“升级帐户”按钮的目标 URL，没有 Power BI Pro 许可证的用户可以在“更新到 Power BI Pro”对话框和“管理个人存储”页中找到此 URL。 此外，Power BI 不再在此对话框或存储页面中提供“免费试用 Pro”按钮，确保 Power BI 通过许可证管理解决方案可靠地引导用户完成在组织中定义的流程。
+![启用除外设置](media/service-admin-portal/powerbi-admin-tenant-settings-gethelp.png)
 
 ### <a name="receive-email-notifications-for-service-outages-or-incidents"></a>接收与服务故障或突发事件相关的电子邮件通知
 
@@ -208,7 +208,7 @@ Office 365 中的全局管理员或分配有 Power BI 服务管理员角色的�
 
 根据“发布到 Web”设置的内容，用户会在 UI 中看到不同的选项。
 
-|功能 |为整个组织启用 |为整个组织禁用 |特定的安全组   |
+|功能 |为整个组织启用 |为整个组织禁用 |特定安全组   |
 |---------|---------|---------|---------|
 |报表“文件”菜单下的“发布到 Web”。|为所有对象启用|向所有对象隐藏|仅向已授权的用户或组显示。|
 |“设置”下的“管理嵌入代码”|为所有对象启用|为所有对象启用|为所有对象启用<br><br>仅向已授权的用户或组显示“删除”选项。* <br>为所有对象启用“获取代码”。* |

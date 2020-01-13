@@ -10,14 +10,14 @@ ms.topic: conceptual
 ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: e3bb5f3527da11f781892fae23ae369edfe4676b
-ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
+ms.openlocfilehash: 815566f715bb4544fc4b002ea2c31e21e2684792
+ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/06/2020
-ms.locfileid: "73878000"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "75760810"
 ---
-# <a name="project-online-connect-to-data-through-power-bi-desktop"></a>Project Online：通过 Power BI Desktop 连接到数据
+# <a name="connect-to-project-online-data-through-power-bi-desktop"></a>通过 Power BI Desktop 连接到 Project Online 数据
 可以通过 Power BI Desktop 连接到 Project Online 中的数据。
 
 ## <a name="step-1-download-power-bi-desktop"></a>步骤 1：下载 Power BI Desktop

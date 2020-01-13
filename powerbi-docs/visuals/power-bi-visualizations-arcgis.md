@@ -9,14 +9,14 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 11/18/2019
 ms.author: mihart
-ms.openlocfilehash: 1e141c56387e4bbde1741752e40e600c37088e87
-ms.sourcegitcommit: 768e1e4b19fe8c7627010127c2420d63021cb542
+ms.openlocfilehash: 0cbd343203aa0626877e6d4841284eb57869e101
+ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/20/2019
-ms.locfileid: "74199680"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "75758798"
 ---
-# <a name="interacting-with-arcgis-maps-in-power-bi"></a>在 Power BI 中与 ArcGIS 地图交互
+# <a name="interact-with-arcgis-maps-in-power-bi"></a>在 Power BI 中与 ArcGIS 地图交互
 本主题从在 Power BI 服务、Power BI Desktop 或 Power BI 移动版中使用 ArcGIS 地图的人员的角度进行编写。 设计器与你共享 ArcGIS map for Power BI 视觉对象后，便可以通过多种方式与相应视觉对象进行交互。  若要详细了解如何创建 ArcGIS 地图，请参阅 [ESRI ArcGIS 地图教程](../visuals/power-bi-visualization-arcgis.md)。
 
 ArcGIS 地图和 Power BI 的结合将超越地图点表示法的地图绘制技术提升到全新水平。 报表设计器从地图开始，并将人口统计数据层附加到该地图。 将地图上基于此位置的数据层（如人口统计数据）与空间分析相结合，可以让用户更深入地了解可视化效果中的数据。
@@ -69,7 +69,7 @@ ArcGIS Maps for Power BI 视觉对象可以有多种不同类型的人口统计�
 
 ![放大了奥兰多区域的地图和信息图卡显示在画布的右侧](media/power-bi-visualizations-arcgis/power-bi-infographics.png)  
 
-### <a name="pins"></a>别针
+### <a name="pins"></a>固定
 
 别针表示精确的位置，如城市或地址。 有时，“设计器”报表使用具有驾驶时间半径的别针  。 此示例显示北卡罗来纳州夏洛特 50 英里半径内的商店。
 

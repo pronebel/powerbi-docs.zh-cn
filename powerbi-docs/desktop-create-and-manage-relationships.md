@@ -10,10 +10,10 @@ ms.date: 04/19/2019
 ms.author: davidi
 LocalizationGroup: Model your data
 ms.openlocfilehash: f759992c42cc589d21ed51d5d63775bf54518c3f
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/09/2019
+ms.lasthandoff: 01/06/2020
 ms.locfileid: "73869111"
 ---
 # <a name="create-and-manage-relationships-in-power-bi-desktop"></a>在 Power BI Desktop 中创建和管理关系
@@ -23,12 +23,12 @@ ms.locfileid: "73869111"
 如果同时查询两个或多个表，则在加载数据时，Power BI Desktop 将尝试为你查找并创建关系。 将自动设置基数、交叉筛选方向和活动属性。 Power BI Desktop 查看表格中你正在查询的列名，以确定是否存在任何潜在关系。 若存在，则将自动创建这些关系。 如果 Power BI Desktop 无法颇有自信地确定存在匹配项，则不会自动创建关系。 你仍可使用“管理关系”对话框来创建或编辑关系。
 
 ## <a name="create-a-relationship-by-using-autodetect"></a>使用自动检测功能创建关系
-在**开始**选项卡上，单击**管理关系** \> **自动检测**。
+在“开始”选项卡上，单击“管理关系”\>“自动检测”    。
 
 ![](media/desktop-create-and-manage-relationships/automaticrelationship.gif)
 
 ## <a name="create-a-relationship-manually"></a>手动创建关系
-1. 在**开始**选项卡上，单击**管理关系** \> **新建**。
+1. 在“开始”选项卡上，单击“管理关系”\>“新建”    。
 2. 在“创建关系”  对话框的第一个表下拉列表中，选择一个表，然后选择要在关系中使用的列。
 3. 在第二个表下拉列表中，选择另一个要在关系中使用的表，再选择要使用的其他列，然后单击“确定”  。
 
@@ -80,7 +80,7 @@ ms.locfileid: "73869111"
 我们来快速演示一下，以更好地向你展示关系如何在 Power BI Desktop 进行操作。
 
 >[!TIP]
->用户可自行学完此课程。 将下方的 ProjectHours 表复制到 Excel 工作表中，选择全部单元格，然后单击**插入** \> **表格**。 在**创建表格**对话框中，只需单击**确定**即可。 然后在**表名**中，键入 **ProjectHours**。 对 CompanyProject 表执行相同的操作。 然后可在 Power BI Desktop 中使用**获取数据**来导入数据。 选择工作薄和表格作为数据源。
+>用户可自行学完此课程。 将下方的 ProjectHours 表复制到 Excel 工作表中，选中全部单元格，然后单击“插入”\>“表格”   。 在**创建表格**对话框中，只需单击**确定**即可。 然后在**表名**中，键入 **ProjectHours**。 对 CompanyProject 表执行相同的操作。 然后可在 Power BI Desktop 中使用**获取数据**来导入数据。 选择工作薄和表格作为数据源。
 
 第一个表 (ProjectHours) 是记录了某位员工在特定项目上工作的小时数的工作单记录。 
 

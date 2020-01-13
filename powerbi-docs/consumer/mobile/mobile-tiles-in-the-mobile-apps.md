@@ -8,12 +8,12 @@ ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 06/28/2018
 ms.author: mshenhav
-ms.openlocfilehash: 570276b8af2862d6aab6dc806cb0c627be8ff157
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: b400f429ef1e65a40caea717ab18bc06300f9d76
+ms.sourcegitcommit: 02b05932a119527f255e1eacc745a257044e392f
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73870038"
+ms.lasthandoff: 12/19/2019
+ms.locfileid: "75221133"
 ---
 # <a name="explore-tiles-in-the-power-bi-mobile-apps"></a>在 Power BI 移动应用中浏览磁贴
 适用于：
@@ -41,10 +41,13 @@ ms.locfileid: "73870038"
    
    ![](media/mobile-tiles-in-the-mobile-apps/power-bi-ipad-tile-pie.png)
 3. 在地图中，点击“**在地图中以当前所在位置为中心**”图标 ![](media/mobile-tiles-in-the-mobile-apps/power-bi-center-map-icon.png)，以你当前所在位置为中心。
-   
-     ![](media/mobile-tiles-in-the-mobile-apps/power-bi-ipad-center-map.png)
-4. 点击共享图标 ![](./media/mobile-tiles-in-the-mobile-apps/power-bi-iphone-share-icon.png) 以[添加批注并与他人共享磁贴](mobile-annotate-and-share-a-tile-from-the-mobile-apps.md)。
+
+   ![](media/mobile-tiles-in-the-mobile-apps/power-bi-ipad-center-map.png)
+
+4. 点击铅笔图标 ![](./media/mobile-tiles-in-the-mobile-apps/power-bi-iphone-annotate-icon.png)，[为磁贴添加批注](mobile-annotate-and-share-a-tile-from-the-mobile-apps.md#annotate-and-share-the-tile-report-or-visual)，然后点击共享图标 ![](./media/mobile-tiles-in-the-mobile-apps/power-bi-iphone-share-icon.png)，[与其他人共享](mobile-annotate-and-share-a-tile-from-the-mobile-apps.md#annotate-and-share-the-tile-report-or-visual)。
+
 5. [为磁贴添加警报](mobile-set-data-alerts-in-the-mobile-apps.md)。 如果值高于或低于目标值，Power BI 将会通知你。
+
 6. 有时，仪表板创建者会为磁贴添加链接。 如果已添加，当它处于焦点模式时，会有一个链接图标![](media/mobile-tiles-in-the-mobile-apps/power-bi-iphone-link-icon.png)：
    
     ![](media/mobile-tiles-in-the-mobile-apps/power-bi-iphone-tile-link.png)
@@ -68,9 +71,9 @@ ms.locfileid: "73870038"
     在“焦点模式”下，你可以：
    
    * 点击图表以移动折线图、条形图、柱形图或气泡图中的条，以查看可视化效果中特定点的值。  
-   * 点击“共享快照”图标 ![](./media/mobile-tiles-in-the-mobile-apps/pbi_andr_sharesnapicon.png)，[批注并共享磁贴](mobile-annotate-and-share-a-tile-from-the-mobile-apps.md)。
+   * 点击铅笔图标 ![](./media/mobile-tiles-in-the-mobile-apps/power-bi-iphone-annotate-icon.png)，[为磁贴添加批注](mobile-annotate-and-share-a-tile-from-the-mobile-apps.md#annotate-and-share-the-tile-report-or-visual)，然后点击共享快照图标 ![](./media/mobile-tiles-in-the-mobile-apps/pbi_andr_sharesnapicon.png)，[与其他人共享](mobile-annotate-and-share-a-tile-from-the-mobile-apps.md#annotate-and-share-the-tile-report-or-visual)。
    * 点击“打开报表”图标 ![](./media/mobile-tiles-in-the-mobile-apps/power-bi-android-tablet-open-report-icon.png)，在移动应用中[查看报表](mobile-reports-in-the-mobile-apps.md)。
-3. 有时，仪表板创建者会为磁贴添加链接。 因此，点击垂直省略号 ( **...** ) 时可看到“打开链接”  ![](media/mobile-tiles-in-the-mobile-apps/power-bi-iphone-link-icon.png)：
+3. 有时，仪表板创建者会为磁贴添加链接。 如果是这样，点击垂直省略号 ( **…** ) 时可看到“打开链接”![](media/mobile-tiles-in-the-mobile-apps/power-bi-iphone-link-icon.png)  ：
    
     ![](media/mobile-tiles-in-the-mobile-apps/power-bi-android-tile-link.png)
    
@@ -89,7 +92,7 @@ ms.locfileid: "73870038"
    
     [共享磁贴的快照](mobile-windows-10-phone-app-get-started.md)。
    
-    点击“打开报表”  ![](././media/mobile-tiles-in-the-mobile-apps/power-bi-ipad-open-report-icon.png) 以[查看基础报表](mobile-reports-in-the-mobile-apps.md)。
+    点击“打开报表”![](././media/mobile-tiles-in-the-mobile-apps/power-bi-ipad-open-report-icon.png) 以[查看基础报表](mobile-reports-in-the-mobile-apps.md)  。
    
     [打开链接](../../service-dashboard-edit-tile.md#hyperlink)（如果有链接）。 链接可以转到 Power BI 仪表板或外部 URL。
 3. 点击“展开磁贴”  ![](media/mobile-tiles-in-the-mobile-apps/power-bi-windows-10-focus-mode-icon.png)。 将会在焦点模式下打开磁贴，在其中可以很方便地查看和浏览磁贴数据。 在此模式下，你可以：

@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: conceptual
 ms.date: 12/03/2019
-ms.openlocfilehash: f7662cbd2fb0085ad2e6fda6a33577d1cc29ddfb
-ms.sourcegitcommit: e492895259aa39960063f9b337a144a60c20125a
+ms.openlocfilehash: bd58f5f5f6ceaad07cbba5d25508a160b3447f88
+ms.sourcegitcommit: 4359baa43ca01b179d28ec59f4e61ba8c07ee288
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/05/2019
-ms.locfileid: "74831274"
+ms.lasthandoff: 12/20/2019
+ms.locfileid: "75304337"
 ---
 # <a name="supported-data-sources-for-power-bi-paginated-reports"></a>Power BI 分页报表支持的数据源
 
@@ -28,7 +28,7 @@ ms.locfileid: "74831274"
 | Azure SQL 数据库 <br>Azure SQL 数据仓库 | 基本、单一登录 (SSO)、OAuth2 |   |
 | Azure SQL 托管实例 | 基本 | 通过公共终结点使用 Azure SQL 数据库扩展  |
 | Azure Analysis Services | SSO、OAuth2 |   |
-| Power BI 数据集 | SSO | 高级和非高级 Power BI 数据集 |
+| Power BI 数据集 | SSO | 高级和非高级 Power BI 数据集。 需要读取权限 |
 | 高级 Power BI 数据集 (XMLA) | SSO |   |
 | 输入数据 | 不适用 | 数据嵌入在报表中。 |
 

@@ -10,14 +10,14 @@ ms.topic: tutorial
 ms.date: 05/28/2019
 ms.author: selvar
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 64a7cc62f319162b653742be776a9aa9549f8659
-ms.sourcegitcommit: 7f27b9eb0e001034e672050735ab659b834c54a3
+ms.openlocfilehash: 09e4a9cc3e6a5c16f23532f0a4589fdcb1906549
+ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/22/2019
-ms.locfileid: "74311461"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "75759511"
 ---
-# <a name="dynamic-row-level-security-with-analysis-services-tabular-model"></a>通过 Analysis Services 表格模型实现动态行级别安全性
+# <a name="implement-row-level-security-in-an-analysis-services-tabular-model"></a>在 Analysis Services 表格模型中实现行级别安全性
 
 本教程将通过使用示例数据集完成以下步骤来演示如何在 **Analysis Services 表格模型**中实现[**行级别安全性**](service-admin-rls.md)以及如何在 Power BI 报表中使用它。 
 
@@ -157,7 +157,7 @@ ms.locfileid: "74311461"
    
    ![](media/desktop-tutorial-row-level-security-onprem-ssas-tabular/dashboard_jon_doe.png)
 
-    祝贺你！ **Power BI 服务**显示本地 **Analysis Services** 表格模型中定义的动态行级别安全性。 Power BI 使用 **EffectiveUserName** 属性将当前 Power BI 用户凭据发送到本地数据源，以运行查询。
+    恭喜！ **Power BI 服务**显示本地 **Analysis Services** 表格模型中定义的动态行级别安全性。 Power BI 使用 **EffectiveUserName** 属性将当前 Power BI 用户凭据发送到本地数据源，以运行查询。
 
 ## <a name="task-6-understand-what-happens-behind-the-scenes"></a>任务 6：了解幕后发生了什么
 

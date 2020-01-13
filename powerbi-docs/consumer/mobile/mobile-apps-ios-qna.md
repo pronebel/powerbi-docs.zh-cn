@@ -8,12 +8,12 @@ ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 05/05/2018
 ms.author: mshenhav
-ms.openlocfilehash: 34fe1af53a62c5198cc30625d840321c414be8f7
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 6feba420e5bdc25651176be67e6f86f1dafc9ef6
+ms.sourcegitcommit: 02b05932a119527f255e1eacc745a257044e392f
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73879387"
+ms.lasthandoff: 12/19/2019
+ms.locfileid: "75219543"
 ---
 # <a name="qa-virtual-analyst-in-ios-apps---power-bi"></a>iOS 应用中的问答虚拟分析师 - Power BI
 
@@ -33,63 +33,26 @@ ms.locfileid: "73879387"
 
 ## <a name="prerequisites"></a>先决条件
 
-### <a name="install-the-power-bi-for-ios-app"></a>安装 iOS 版 Power BI 应用
-从 Apple App Store [下载 iOS 应用](https://go.microsoft.com/fwlink/?LinkId=522062 "下载 iPhone 应用")到 iPad、iPhone 或 iPod Touch。
-
+* **安装 iOS 版 Power BI 应用**：将 [iOS 应用下载](https://go.microsoft.com/fwlink/?LinkId=522062)到 iPhone 或 iPad。
 以下版本支持 iOS 版 Power BI 应用：
-- 操作系统为 iOS 10 或更高版本的 iPad。
-- 操作系统为 iOS 10 或更高版本的 iPhone 5 及更高版本。 
-- 操作系统为 iOS 10 或更高版本的 iPod Touch。
+    * 操作系统为 iOS 11 或更高版本的 iPad。
+    * 操作系统为 iOS 11 或更高版本的 iPhone 5 及更高版本。
+* **下载零售分析和机会分析示例**：本快速入门中的第一个步骤是在 Power BI 服务中下载零售分析示例和机会分析示例。 [了解如何将示例下载](./mobile-apps-download-samples.md)到 Power BI 帐户中以开始使用。 请确保选择零售分析示例和机会分析示例。
 
-### <a name="download-samples"></a>下载示例
-第一个步骤是在 Power BI 服务中下载零售分析示例和机会分析示例。
-
-**获取零售分析示例**
-
-1. 打开 Power BI 服务 (app.powerbi.com) 并登录。
-
-2. 在导航窗格中，依次选择“工作区”、“我的工作区”   。
-
-3. 在左下角，选择“获取数据”  。
-   
-    ![](media/mobile-apps-ios-qna/power-bi-get-data.png)
-
-3. 在“获取数据”页上选择“示例”  图标。
-   
-   ![](media/mobile-apps-ios-qna/power-bi-samples-icon.png)
-
-4. 选择“零售分析示例”  。
- 
-    ![零售分析示例](./media/mobile-apps-ios-qna/power-bi-rs.png)
- 
-8. 选择“连接”  。  
-  
-   ![零售分析示例](./media/mobile-apps-ios-qna/retail16.png)
-   
-5. Power BI 导入内容包，并将新的仪表板、报表和数据集添加到当前工作区。
-   
-   ![零售分析示例](./media/mobile-apps-ios-qna/power-bi-service-retail-sample.png)
-
-**获取机会分析示例**
-
-- 完成为零售分析示例执行的相同步骤，但在步骤 4 中，选择“机会分析示例”  。
-
-    ![零售分析示例](./media/mobile-apps-ios-qna/power-bi-oa.png)
-  
-好了，你已准备好在 iOS 设备上查看这些示例。
+完成先决条件后，就可以试用问答虚拟分析师。
 
 ## <a name="try-asking-questions-on-your-iphone-or-ipad"></a>尝试在 iPhone 或 iPad 上提问
-1. 在你的 iPhone 或 iPad 上，点击全局导航按钮![全局导航按钮](./media/mobile-apps-ios-qna/power-bi-iphone-global-nav-button.png) > “工作区”   > “我的工作区”  ，然后打开零售分析示例仪表板。
+1. 在 iPhone 或 iPad 上的底部导航栏中，点击“工作区”按钮 ![工作区按钮](./media/mobile-apps-ios-qna/power-bi-iphone-workspaces-button.png)，转到“我的工作区”，打开“零售分析示例”仪表板。
 
 2. 点击页面底部（如果是 iPad，则位于页面顶部）操作菜单中的“问答虚拟分析师”图标![“问答虚拟分析师”图标](././media/mobile-apps-ios-qna/power-bi-ios-q-n-a-icon.png)。
      问答虚拟分析师推荐了一些可快速上手的见解。
-3. 键入“显示”  ，点击建议列表中的“销售”  ，再点击“发送”  ![“发送”图标](./media/mobile-apps-ios-qna/power-bi-ios-qna-send-icon.png)。
+3. 键入“显示”，点击建议列表中的“销售”，然后点击“发送”![“发送”图标](./media/mobile-apps-ios-qna/power-bi-ios-qna-send-icon.png)    。
 
     ![显示销售额](./media/mobile-apps-ios-qna/power-bi-ios-q-n-a-show-sales.png)
-4. 点击关键字中的“**by**”，然后依次点击建议列表中的“**item**”和“**发送**”![](./media/mobile-apps-ios-qna/power-bi-ios-qna-send-icon.png)。
+4. 点击关键字中的“by”，然后依次点击建议列表中的“item”和“发送”![](./media/mobile-apps-ios-qna/power-bi-ios-qna-send-icon.png)    。
 
     ![按项分布的销售额](./media/mobile-apps-ios-qna/power-bi-ios-q-n-a-sale-by-item.png)
-5. 点击关键字中的“**as**”，然后依次点击柱状图图标 ![](./media/mobile-apps-ios-qna/power-bi-ios-q-n-a-column-chart-icon.png) 和“**发送**”![](./media/mobile-apps-ios-qna/power-bi-ios-qna-send-icon.png)。
+5. 点击关键字中的“as”，然后依次点击柱形图图标 ![](./media/mobile-apps-ios-qna/power-bi-ios-q-n-a-column-chart-icon.png) 和“发送”![](./media/mobile-apps-ios-qna/power-bi-ios-qna-send-icon.png)   。
 6. 长按生成的图表，然后点击“**展开**”。
 
     ![](media/mobile-apps-ios-qna/power-bi-ios-q-n-a-tap-expand-feedback.png)
@@ -99,13 +62,13 @@ ms.locfileid: "73879387"
     ![](media/mobile-apps-ios-qna/power-bi-ios-q-n-a-expanded-chart.png)
 7. 点击左上角的箭头，可返回到问答虚拟分析师聊天窗口。
 8. 点击文本框右侧的 X 即可删除文本并重新开始。
-9. 尝试提出新问题：点击关键字中的“**top**”，然后依次点击“**sale by avg $/unit ly**” > “**发送**”![](./media/mobile-apps-ios-qna/power-bi-ios-qna-send-icon.png)。
+9. 尝试提出新问题：点击关键字中的“top”，然后点击“sale by avg $/unit ly” > “发送”![](./media/mobile-apps-ios-qna/power-bi-ios-qna-send-icon.png)    。
 
     ![](media/mobile-apps-ios-qna/power-bi-ios-q-n-a-top-sale-2.png)
-10. 选择关键字中的“**by**”，然后依次点击顶部建议列表中的“**time**”和“**发送**”![](./media/mobile-apps-ios-qna/power-bi-ios-qna-send-icon.png)。
+10. 选择关键字中的“by”，然后依次点击顶部建议列表中的“time”和“发送”![](./media/mobile-apps-ios-qna/power-bi-ios-qna-send-icon.png)    。
 
      ![](media/mobile-apps-ios-qna/power-bi-ios-q-n-a-top-sale-by-time.png)
-11. 键入“**as**”，从建议列表中选择折线图图标 ![](./media/mobile-apps-ios-qna/power-bi-ios-q-n-a-line-chart-icon.png)，然后点击“**发送**”![](./media/mobile-apps-ios-qna/power-bi-ios-qna-send-icon.png)。
+11. 键入“as”，从建议列表中选择折线图图标 ![](./media/mobile-apps-ios-qna/power-bi-ios-q-n-a-line-chart-icon.png)，然后点击“发送”![](./media/mobile-apps-ios-qna/power-bi-ios-qna-send-icon.png)   。
 
     ![](media/mobile-apps-ios-qna/power-bi-ios-q-n-a-top-sale-as-line.png)
 
@@ -117,7 +80,7 @@ ms.locfileid: "73879387"
 
     ![](media/mobile-apps-ios-qna/power-bi-ios-qna-mic-on.png)
 
-1. 当麦克风图标处于活动状态时，开始说出你的问题。 例如，请说“按时间显示平均单价”，然后点击“发送”  ![](./media/mobile-apps-ios-qna/power-bi-ios-qna-send-icon.png)。
+1. 当麦克风图标处于活动状态时，开始说出你的问题。 例如，请说“按时间显示平均单价”，然后点击“发送”![](./media/mobile-apps-ios-qna/power-bi-ios-qna-send-icon.png)  。
 
     ![](media/mobile-apps-ios-qna/power-bi-ios-qna-speech-complete.png)
 

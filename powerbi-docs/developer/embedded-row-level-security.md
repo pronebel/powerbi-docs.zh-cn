@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 06/10/2019
-ms.openlocfilehash: cd252572c3080f300592b52ddc0f25cefcf7f084
-ms.sourcegitcommit: 462ccdd9f79ff698ed0cdfc3165f4ada364dd9ef
+ms.openlocfilehash: ec0f98dfe56b6d2a6efe038622541f9f19d3899d
+ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/25/2019
-ms.locfileid: "74478670"
+ms.lasthandoff: 01/06/2020
+ms.locfileid: "75223395"
 ---
 # <a name="row-level-security-with-power-bi-embedded"></a>Power BI Embedded 的行级安全性
 
@@ -130,6 +130,9 @@ var tokenResponse = await client.Reports.GenerateTokenInGroupAsync("groupId", "r
 
 为用户名属性提供的有效标识必须是具有 Analysis Services 服务器操作权限的 Windows 用户。
 
+>[!NOTE]
+> 使用带有 [Azure Analysis Services](https://docs.microsoft.com/azure/analysis-services/analysis-services-overview) 数据源的服务主体时，服务主体本身必须具有 Azure Analysis Services 实例权限。 使用包含服务主体的安全组来实现此目的，这不起作用。
+
 ### <a name="on-premises-data-gateway-configuration"></a>本地数据网关配置
 
 在使用 Analysis Services 实时连接时，将使用[本地数据网关](../service-gateway-onprem.md)。 当生成嵌入令牌时，如果列出标识，则主帐户需要列为网关的管理员。 如果主帐户未列出，行级别安全性不会应用于数据属性。 网关的非管理员可以提供角色，但必须为有效标识指定其自己的用户名。
@@ -144,7 +147,7 @@ CustomData 功能仅适用于驻留在 Azure Analysis Services  中的模型，�
 
 借助 CustomData 功能，可以在应用程序中查看将 Azure Analysis Services  用作数据源的 Power BI 数据（在应用程序中查看已连接到 Azure Analysis Services 的 Power BI 数据）时添加行筛选器。
 
-借助 CustomData 功能，可使用 CustomData 连接字符串属性传递自定义文本（字符串）。 Analysis Services 通过 CUSTOMDATA()  函数使用此值。
+借助 CustomData 功能，可使用 CustomData 连接字符串属性传递自定义文本（字符串）。 Analysis Services 通过 CUSTOMDATA() 函数使用此值  。
 
 在 Azure Analysis Services  中使用动态 RLS（使用动态值进行筛选器计算）的唯一方法是，使用 CUSTOMDATA()  函数。
 

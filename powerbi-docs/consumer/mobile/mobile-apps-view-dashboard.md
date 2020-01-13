@@ -8,12 +8,12 @@ ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 07/05/2019
 ms.author: mshenhav
-ms.openlocfilehash: 1a3450ba4a31679c9e2e4ad844ef1058ebfdf4ee
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: d35d54308f778033f508549bfd52e9d61ef2a949
+ms.sourcegitcommit: 02b05932a119527f255e1eacc745a257044e392f
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73870669"
+ms.lasthandoff: 12/19/2019
+ms.locfileid: "75218304"
 ---
 # <a name="view-dashboards-and-reports-in-the-power-bi-mobile-apps"></a>查看 Power BI 移动应用中的仪表板和报表
 适用于：
@@ -62,8 +62,8 @@ ms.locfileid: "73870669"
 3. 向上和向下轻扫可查看仪表板中的所有磁贴。 你可以：
    
    * [点击一个磁贴](mobile-tiles-in-the-mobile-apps.md)以在焦点模式中打开它，并与之进行交互。
-   * 点击星标 ![收藏夹星标](././media/mobile-apps-view-dashboard/power-bi-mobile-not-favorite-icon.png) [以把它加入收藏夹](mobile-apps-favorites.md)。
-   * 点击“邀请”  ![邀请图标](./media/mobile-apps-view-dashboard/pbi_ipad_shareiconblk.png) 以[邀请同事](mobile-share-dashboard-from-the-mobile-apps.md)查看你的仪表板。
+   * 点击星标 ![收藏夹星标](././media/mobile-apps-view-dashboard/power-bi-mobile-not-favorite-icon.png)[以把它加入收藏夹](mobile-apps-favorites.md)。
+   * 点击“邀请”![邀请图标](./media/mobile-apps-view-dashboard/pbi_ipad_shareiconblk.png) 以[邀请同事](mobile-share-dashboard-from-the-mobile-apps.md)查看你的仪表板  。
    * [使用 Apple Watch 对仪表板进行同步](mobile-apple-watch.md)。
 4. 若要返回到仪表板列表，点击仪表板标题旁边的箭头，然后点击“**我的工作区**”。
    
@@ -131,7 +131,7 @@ ms.locfileid: "73870669"
    
    ![主仪表板](./media/mobile-apps-view-dashboard/power-bi-android-tablet-dashboard-home.png)
    
-   * 黄色星标 ![收藏夹星标](././././media/mobile-apps-view-dashboard/power-bi-mobile-yes-favorite-icon.png) 表示仪表板已加入收藏夹。 
+   * 黄色星标 ![收藏夹星标](././././media/mobile-apps-view-dashboard/power-bi-mobile-yes-favorite-icon.png) 显示哪些仪表板已加入收藏夹。 
    * 每个仪表板名称下面的批注（在此示例中为“MBI”）![数据分类](././media/mobile-apps-view-dashboard/power-bi-android-dashboard-medium-classification.png)指明了每个仪表板中的数据分类方式。 阅读更多有关 [Power BI 中的数据分类](../../service-data-classification.md)。
 3. 在仪表板上，你可以点击名称旁边的垂直“更多选项”(...) 按钮来邀请同事，刷新或获取有关仪表板的信息  ：
    

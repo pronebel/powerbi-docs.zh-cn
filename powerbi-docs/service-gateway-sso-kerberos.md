@@ -10,10 +10,10 @@ ms.topic: conceptual
 ms.date: 12/03/2019
 LocalizationGroup: Gateways
 ms.openlocfilehash: 889fbce483f839147677789c73d826fa23542731
-ms.sourcegitcommit: 5bb62c630e592af561173e449fc113efd7f84808
+ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/11/2019
+ms.lasthandoff: 01/06/2020
 ms.locfileid: "75000103"
 ---
 # <a name="configure-kerberos-based-sso-from-power-bi-service-to-on-premises-data-sources"></a>将基于 Kerberos 的 SSO 从 Power BI 配置到本地数据源
@@ -79,7 +79,7 @@ ms.locfileid: "75000103"
 3. 双击该组，然后单击“成员”  选项卡。
 4. 单击“添加”  ，然后将域位置更改为网关服务帐户所在的域。
 5. 键入网关服务帐户名称，然后单击“检查名称”  验证网关服务帐户是否可供访问。
-6. 单击**确定**。
+6. 单击“确定”  。
 7. 单击“**应用**”。
 8. 重启网关服务。
 
@@ -132,7 +132,7 @@ ms.locfileid: "75000103"
 
    在我们的示例中，SPN 以“MSSQLSvc”开头  。 如果你为数据库服务添加了 FQDN 和 NetBIOS SPN，请同时选择两者。 可能只显示其中一个。
 
-9. 选择**确定**。 
+9. 选择“确定”。  
 
    现在，应在网关服务帐户可向其提供委派凭据的服务列表中看到 SPN。
 
@@ -189,7 +189,7 @@ ms.locfileid: "75000103"
 
 1. 在网关计算机上，运行 gpedit.msc  。
 
-2. 依次转到“本地计算机策略”&gt;“计算机配置”&gt;“Windows 设置”&gt;“安全设置”&gt;“本地策略”&gt;“用户权限分配”       。
+2. 转到“本地计算机策略”&gt;“计算机配置”&gt;“Windows 设置”&gt;“安全设置”&gt;“本地策略”&gt;“用户权限分配”       。
 
     ![本地计算机策略文件夹结构](media/service-gateway-sso-kerberos/user-rights-assignment.png)
 
@@ -231,7 +231,7 @@ ms.locfileid: "75000103"
     
         找到 `msDS-cloudExtensionAttribute1` 属性，然后双击它。 将该值设置为用于登录 Power BI 服务的用户的完整用户名 (UPN)。
     
-    1. 选择**确定**。
+    1. 选择“确定”。 
     
         ![“字符串属性编辑器”窗口](media/service-gateway-sso-kerberos/edit-attribute.png)
     

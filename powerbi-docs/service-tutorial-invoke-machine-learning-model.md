@@ -1,6 +1,6 @@
 ---
-title: 教程：在 Power BI 中调用机器学习工作室模型（预览版）
-description: 在本教程中，你将在 Power BI 中调用机器学习工作室模型。
+title: 教程：在 Power BI 中调用机器学习工作室（经典）模型（预览版）
+description: 在本教程中，你将在 Power BI 中调用机器学习工作室（经典）模型。
 author: davidiseminger
 ms.reviewer: SarinaJoan
 ms.service: powerbi
@@ -10,16 +10,16 @@ ms.topic: tutorial
 ms.date: 03/12/2019
 ms.author: davidi
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 3cbe715bc3cff9d2afeefe7c82847f104f4d0835
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 3a7d4fa73caa718cec905d8f511ae94b077f7e2b
+ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73876962"
+ms.lasthandoff: 01/06/2020
+ms.locfileid: "75224245"
 ---
-# <a name="tutorial-invoke-a-machine-learning-studio-model-in-power-bi-preview"></a>教程：在 Power BI 中调用机器学习工作室模型（预览版）
+# <a name="tutorial-invoke-a-machine-learning-studio-classic-model-in-power-bi-preview"></a>教程：在 Power BI 中调用机器学习工作室（经典）模型（预览版）
 
-在本教程中，我们将演示将 Azure 机器学习工作室  模型中的见解融入 Power BI 的体验。 本教程包括有关向 Power BI 用户授予访问 Azure ML 模型的权限、创建数据流以及将 Azure ML 模型中的见解应用到数据流的指南。 如果还没有模型，本教程还引用了有关创建 Azure ML 模型的快速入门指南。
+在本教程中，我们将演示将 Azure 机器学习工作室（经典）模型中的见解融入 Power BI 的体验  。 本教程包括有关向 Power BI 用户授予访问 Azure ML 模型的权限、创建数据流以及将 Azure ML 模型中的见解应用到数据流的指南。 如果还没有模型，本教程还引用了有关创建 Azure ML 模型的快速入门指南。
 
 本教程将指导你完成以下步骤：
 
@@ -31,15 +31,15 @@ ms.locfileid: "73876962"
 
 ## <a name="create-and-publish-an-azure-ml-model"></a>创建和发布 Azure ML 模型
 
-按照[演练步骤 1：创建机器学习工作室工作区](https://docs.microsoft.com/azure/machine-learning/studio/walkthrough-1-create-ml-workspace)中的说明操作，以创建机器学习  工作区。
+按照[演练步骤 1：创建机器学习工作室（经典）工作区](https://docs.microsoft.com/azure/machine-learning/studio/walkthrough-1-create-ml-workspace)，以创建机器学习  工作区。
 
-可以对已有的任何 Auzre ML 模型或数据集使用这些步骤。 如果还没有发布的模型，可以通过参考[在 Azure 机器学习工作室中创建你的第一个数据科学试验](https://docs.microsoft.com/azure/machine-learning/studio/create-experiment)（该教程设置有关汽车价格预测的 Azure ML 模型）在几分钟内创建一个模型。
+可以对已有的任何 Auzre ML 模型或数据集使用这些步骤。 如果还没有发布的模型，可以通过参考[在 Azure 机器学习工作室（经典）中创建你的第一个数据科学试验](https://docs.microsoft.com/azure/machine-learning/studio/create-experiment)（该教程设置有关汽车价格预测的 Azure ML 模型）在几分钟内创建一个模型。
 
-按照[部署 Azure 机器学习工作室 Web 服务](https://docs.microsoft.com/azure/machine-learning/studio/publish-a-machine-learning-web-service)中的步骤操作，将 Azure ML 模型发布为 Web 服务。
+按照[部署 Azure 机器学习工作室（经典）Web 服务](https://docs.microsoft.com/azure/machine-learning/studio/tutorial-part3-credit-risk-deploy)中的步骤操作，将 Azure ML 模型发布为 Web 服务。
 
 ## <a name="grant-a-power-bi-user-access"></a>向 Power BI 用户授予访问权限
 
-若要从 Power BI 访问 Azure ML 模型，必须具有对的 Azure 订阅和资源组的读取  权限以及对机器学习工作室模型的 Azure 机器学习工作室 Web 服务的读取  访问权限。  对于 Azure 机器学习服务模型，需要具有对机器学习服务工作区的读取  访问权限。
+要从 Power BI 访问 Azure ML 模型，必须具有对 Azure 订阅和资源组的读取  权限，以及对机器学习工作室（经典）模型的 Azure 机器学习工作室（经典）Web 服务的读取  访问权限。  对于 Azure 机器学习模型，需要具有对机器学习工作区的读取  访问权限。
 
 以下步骤假定你是模型发布到的 Azure 订阅和资源组的共同管理员。
 
@@ -59,9 +59,9 @@ ms.locfileid: "73876962"
 
 使用上一步骤中向其授予访问 Azure ML 模型权限的用户的用户凭据登录到 Power BI 服务。
 
-此步骤假定你具有想要使用 Azure ML 模型进行评分的 CSV 格式的数据。  如果使用“汽车定价实验”  在机器学习工作室中创建了模型，则将在下面的链接中共享此数据集：
+此步骤假定你具有想要使用 Azure ML 模型进行评分的 CSV 格式的数据。  如果使用“汽车定价实验”在机器学习工作室（经典）中创建了模型，则将在下面的链接中共享其数据集  ：
 
-* [Azure 学习工作室示例模型](https://github.com/santoshc1/PowerBI-AI-samples/blob/master/Tutorial_MLStudio_model_integration/Automobile%20price%20data%20_Raw_.csv)
+* [Azure 学习工作室（经典）示例模型](https://github.com/santoshc1/PowerBI-AI-samples/blob/master/Tutorial_MLStudio_model_integration/Automobile%20price%20data%20_Raw_.csv)
 
 ### <a name="create-a-dataflow"></a>创建数据流
 
@@ -173,7 +173,7 @@ Power Query 编辑器显示 CSV 文件中的数据的预览。 从命令功能�
 
 ## <a name="next-steps"></a>后续步骤
 
-在本教程中，使用以下这些步骤，借助简单的数据集，通过 Azure 机器学习工作室创建了一个简单的试验：
+在本教程中，使用以下这些步骤，借助简单的数据集，通过 Azure 机器学习工作室（经典）创建了一个简单的试验：
 
 - 创建和发布 Azure 机器学习模型
 - 向 Power BI 用户授予使用模型的访问权限

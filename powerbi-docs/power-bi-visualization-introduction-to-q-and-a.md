@@ -10,10 +10,10 @@ ms.date: 05/13/2019
 ms.author: maggies
 LocalizationGroup: Ask questions of your data
 ms.openlocfilehash: 817ce82b94817530854d85c7dbcca17a313fc438
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/09/2019
+ms.lasthandoff: 01/06/2020
 ms.locfileid: "73874463"
 ---
 # <a name="create-a-visual-with-power-bi-qa"></a>通过 Power BI 问答创建视觉对象
@@ -28,7 +28,7 @@ ms.locfileid: "73874463"
 
 我们将如何使用问答着手创建此折线图？
 
-1. 在 Power BI 工作区中，选择“获取数据”  \>“示例”  \>“零售分析示例”   > “连接”  。
+1. 在 Power BI 工作区中，选择“获取数据”\>“示例”\>“零售分析示例” > “连接”     。
 
 1. 打开“零售分析示例”仪表板，然后将光标置于“提出有关你数据的问题”问答框中  。
 

@@ -9,14 +9,14 @@ ms.topic: conceptual
 ms.date: 05/07/2019
 ms.author: davidi
 LocalizationGroup: Model your data
-ms.openlocfilehash: 10c6f9f512c1b8c837842247d9dc928e8e065451
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 4178dd37acf12efbe8dd00baed4f6b72ab549841
+ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73876615"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "75762039"
 ---
-# <a name="using-calculated-columns-in-power-bi-desktop"></a>使用 Power BI Desktop 中的计算列
+# <a name="create-calculated-columns-in-power-bi-desktop"></a>创建 Power BI Desktop 中的计算列
 凭借计算列，你可以将新数据添加到模型中已存在的表。 但请勿从数据源查询并将值加载到新列中，而是创建用于定义列值的数据分析表达式 (DAX) 公式。 在 Power BI Desktop 中，使用“报表”视图中的“新建列”功能创建计算列。
 
 与使用查询编辑器中的“添加自定义列”创建为查询的一部分的自定义列不同，在报表视图或数据视图中创建的计算列以你已加载到模型中的数据为基础。 例如，可以选择连接两个不同但相关的表中的值、执行添加或提取子字符串。

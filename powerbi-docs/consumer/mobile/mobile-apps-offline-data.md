@@ -1,19 +1,19 @@
 ---
 title: 在 Power BI 移动应用中查看你的脱机数据
 description: 阅读有关在移动应用中而不是在移动浏览器中查看 Power BI 的一项优点：未连接网络时也可以查看数据。
-author: mshenhav
+author: paulinbar
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: conceptual
-ms.date: 06/27/2018
-ms.author: mshenhav
-ms.openlocfilehash: 09a4595b461f69cfa02b4cc0ca3c96b1eb917ef8
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.date: 12/09/2019
+ms.author: painbar
+ms.openlocfilehash: 2974f257509d88a469f981bbdecf8cdca47c8e9e
+ms.sourcegitcommit: 02b05932a119527f255e1eacc745a257044e392f
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73870617"
+ms.lasthandoff: 12/19/2019
+ms.locfileid: "75219059"
 ---
 # <a name="view-your-data-offline-in-the-power-bi-mobile-apps"></a>在 Power BI 移动应用中查看你的脱机数据
 适用于：
@@ -34,7 +34,7 @@ ms.locfileid: "73870617"
 还对以前从移动应用访问的任何 Power BI 报表具有只读访问权限。 可以看到完整的报表，但不能在其上进行筛选、交叉筛选、排序或在其上使用切片器。
 
 ## <a name="background-data-refresh"></a>后台数据刷新
-后台刷新功能会利用 Power BI 服务数据（而非数据源）更新你收藏的仪表板，以及你在过去两周内查看过的仪表板和报表。 如果你已连接 Wi-Fi，后台刷新功能会每 2 小时更新一次。 在其他情况下，如果你使用的是 3G 网络，Power BI 会每 24 小时更新一次内容。
+后台刷新功能会利用 Power BI 服务数据（而非数据源）更新你收藏的仪表板，以及你在过去两周内查看过的仪表板和报表。 如果你已连接 WIFI，后台刷新功能会每 2 小时更新一次。 在其他情况下，如果你使用的是 3G 网络，Power BI 会每 24 小时更新一次内容。
 
 可以出于一些目的关闭后台刷新功能。例如，为了避免使用网络。 检查设备上的设置。
 
@@ -52,7 +52,7 @@ ms.locfileid: "73870617"
 要在移动设备上脱机使用 Power BI，可能会遇到以下限制：
 
 * Power BI 可以脱机缓存最多 250 MB 的数据。
-* 某些磁贴类型需要可用的服务器连接，因此，在脱机状态下这些磁贴不可用&#151;例如，必应地图磁贴和一些自定义磁贴。
+* 某些磁贴类型需要有效的服务器连接，因此，在脱机状态下这些磁贴不可用；例如，必应地图磁贴和一些自定义磁贴。
 * 在 Power BI 中整个 Excel 工作簿脱机时将不可用。
 * 如果你在连接时查看了 Reporting Services 移动报表和 KPI，那么脱机时也可以对其进行查看。 不会在后台刷新报表和 KPI。 而是每次打开它们时将其刷新。
 * 在 Power BI 移动应用中，看不到已保存到 Power BI 报表服务器的 Power BI Desktop (.pbix) 文件。 
@@ -65,4 +65,3 @@ ms.locfileid: "73870617"
 * 关注 Twitter 上的 @MSPowerBI
 * 加入 [Power BI 社区](https://community.powerbi.com/)的对话
 * [什么是 Power BI？](../../fundamentals/power-bi-overview.md)
-

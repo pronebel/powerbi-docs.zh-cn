@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 06/10/2019
 ms.author: davidi
 LocalizationGroup: conceptual
-ms.openlocfilehash: 3965a21ff2ab53fd46667658f7cfa21fa4a3b916
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: cf927e94726f33e8d88c25c6d09f6f0ca2226e05
+ms.sourcegitcommit: 02b05932a119527f255e1eacc745a257044e392f
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73855601"
+ms.lasthandoff: 12/19/2019
+ms.locfileid: "75224123"
 ---
 # <a name="cognitive-services-in-power-bi"></a>Power BI 中的认知服务 
 
@@ -94,7 +94,7 @@ Cultureinfo 是一个可选输入，用于指定文本的语言  。 此字段�
 
 本文简要介绍了如何将认知服务与 Power BI 服务一起使用。 以下文章也应该会非常有趣且实用。 
 
-* [教程：在 Power BI 中调用机器学习工作室模型](service-tutorial-invoke-machine-learning-model.md)
+* [教程：在 Power BI 中调用机器学习工作室（经典）模型](service-tutorial-invoke-machine-learning-model.md)
 * [Power BI 中的 Azure 机器学习集成](service-machine-learning-integration.md)
 * [教程：在 Power BI 中使用认知服务](service-tutorial-use-cognitive-services.md)
 
