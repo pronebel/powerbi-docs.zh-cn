@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: quickstart
-ms.date: 10/29/2019
+ms.date: 12/18/2019
 ms.author: kfollis
 LocalizationGroup: Administration
-ms.openlocfilehash: 55cdfad221aef276c790e98de83dd844bc13aafe
-ms.sourcegitcommit: 320d83ab392ded71bfda42c5491acab3d9d357b0
+ms.openlocfilehash: 01eb30857b0b76f96e7e18115d92fb1d68dbef0c
+ms.sourcegitcommit: 02b05932a119527f255e1eacc745a257044e392f
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/10/2019
-ms.locfileid: "74958650"
+ms.lasthandoff: 12/19/2019
+ms.locfileid: "75223828"
 ---
 # <a name="purchase-and-assign-power-bi-pro-user-licenses"></a>购买和分配 Power BI Pro 用户许可证
 
@@ -36,27 +36,17 @@ Power BI Pro 是独立的用户许可证，它允许用户读取其他用户在 
 
 1. 打开 [MIcrosoft 365 管理中心](https://portal.office.com/adminportal/home#/homepage)。
 
-2. 在导航窗格中，选择“账单” > “订阅”   。
-
-    ![导航窗格](media/service-admin-purchasing-power-bi-pro/service-purchasing-power-bi-pro-01.png)
+2. 在导航窗格中，选择“账单”，然后选择“订阅”   。
 
 3. 在“订阅”页面的右上角，选择“添加订阅”   。
 
-    ![订阅](media/service-admin-purchasing-power-bi-pro/service-purchasing-power-bi-pro-02.png)
-
 4. 找到所需的订阅套餐：
 
-    在“企业套件”下选择“Office 365 企业版 E5”   。
+    - 在“企业套件”下选择“Office 365 企业版 E5”   。
 
-    ![Office E5 订阅](media/service-admin-purchasing-power-bi-pro/service-purchasing-power-bi-pro-03.png)
-
-    在“其他计划”下选择“Power BI Pro”   。
-
-    ![Power BI 订阅](media/service-admin-purchasing-power-bi-pro/service-purchasing-power-bi-pro-04.png)
+    - 在“其他计划”下选择“Power BI Pro”   。
 
 5. 将鼠标悬停在所需订阅的省略号 ( **. . .** ) 处，选择“立即购买”  。
-
-    ![立即购买](media/service-admin-purchasing-power-bi-pro/service-purchasing-power-bi-pro-05.png)
 
 6. 根据你的计费偏好，选择“按月付费”或“按年付费”   。
 
@@ -64,53 +54,27 @@ Power BI Pro 是独立的用户许可证，它允许用户读取其他用户在 
 
 8. 验证获取的订阅是否已在“订阅”页面上列出  。
 
-   ![获取的订阅](media/service-admin-purchasing-power-bi-pro/service-purchasing-power-bi-pro-06.png)
-
-9. 若要在最初购买后添加更多许可证，请从“订阅”  页面中选择“Power BI Pro”  ，然后选择“添加/删除许可证”  。
+9. 要在最初购买后添加更多许可证，请从“订阅”页面中选择“Power BI Pro”，然后选择“更改许可证数量”    。
 
 ### <a name="assign-licenses-in-the-microsoft-365-admin-center"></a>在 Microsoft 365 管理中心分配许可证
 
-按照以下步骤将 Power BI Pro 许可证分配给个人用户帐户：
+有关在 Microsoft 365 管理中心分配许可证的信息，请参阅[将许可证分配给用户](/office365/admin/manage/assign-licenses-to-users)。
 
-1. 打开 [MIcrosoft 365 管理中心](https://portal.office.com/adminportal/home#/homepage)。
-
-2. 在导航窗格中，展开“用户”  ，然后选择“活动用户”  。
-
-    ![活跃用户](media/service-admin-purchasing-power-bi-pro/service-assigning-power-bi-pro-licenses-05.png)
-
-3. 选择一个用户，然后在“产品许可证”  下选择“编辑”  。
-
-    ![编辑产品许可证](media/service-admin-purchasing-power-bi-pro/service-assigning-power-bi-pro-licenses-06.png)
-
-4. 在“Power BI Pro”下将设置切换为“开”，然后选择“保存”    。
-
-    ![打开产品许可证](media/service-admin-purchasing-power-bi-pro/service-assigning-power-bi-pro-licenses-07.png)
-
-5. 根据所选帐户的**状态**，验证 Power BI Pro 许可证是否成功分配。
-
-    ![验证许可证状态](media/service-admin-purchasing-power-bi-pro/service-assigning-power-bi-pro-licenses-08.png)
+对于来宾用户，请参阅[在“许可证”页上将许可证分配给用户](/office365/admin/manage/assign-licenses-to-users#assign-licenses-to-users-on-the-licenses-page)。 在将 Pro 许可证分配给来宾用户之前，请联系 Microsoft 帐户代表，以确保符合与 Microsoft 达成的协议条款。
 
 ### <a name="assign-licenses-in-the-azure-portal"></a>在 Azure 门户中分配许可证
 
 按照以下步骤将 Power BI Pro 许可证分配给个人用户帐户：
 
-1. 打开 [Azure 门户](https://ms.portal.azure.com/#@microsoft.onmicrosoft.com/dashboard/private/39bc3cf7-31a4-43f6-954c-f2d69ca2f0)。
+1. 打开 [Azure 门户](https://portal.azure.com/)。
 
-2. 在导航窗格中，选择“Azure Active Directory”  。
-
-    ![Azure Active Directory](media/service-admin-purchasing-power-bi-pro/service-assigning-power-bi-pro-licenses-01.png)
+2. 搜索并选择“Azure Active Directory”  。
 
 3. 在“Azure Active Directory”  下，选择“许可证”  。
 
-    ![许可证](media/service-admin-purchasing-power-bi-pro/service-assigning-power-bi-pro-licenses-02.png)
-
 4. 在“许可证”  下，选择“所有产品”  ，然后选择“Power BI Pro”  以显示许可用户列表。
 
-    ![许可证 - 所有产品](media/service-admin-purchasing-power-bi-pro/service-assigning-power-bi-pro-licenses-03.png)
-
 5. 选择“分配”  将 Power BI Pro 许可证添加到用户帐户。
-
-    ![分配许可证](media/service-admin-purchasing-power-bi-pro/service-assigning-power-bi-pro-licenses-04.png)
 
 ## <a name="next-steps"></a>后续步骤
 
