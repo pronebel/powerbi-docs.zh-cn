@@ -6,14 +6,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 09/04/2018
+ms.date: 12/14/2019
 ms.author: mihart
-ms.openlocfilehash: b22da2df92c0cc7130c7a5ebf69e2284c12ffef4
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: a4b8dd876cfaca3fa4ad91bf5b4d94aa5b4be311
+ms.sourcegitcommit: 02b05932a119527f255e1eacc745a257044e392f
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73861967"
+ms.lasthandoff: 12/19/2019
+ms.locfileid: "75217973"
 ---
 # <a name="view-a-report-in-the-power-bi-service-for-consumers"></a>在面向使用者的 Power BI 服务中查看报表 
 
@@ -29,10 +29,10 @@ ms.locfileid: "73861967"
 ## <a name="open-a-report-from-power-bi-home"></a>从 Power BI 主页打开报表
 让我们打开一个已直接与你共享的报表，然后打开一个已作为应用一部分共享的报表。
 
-   ![“主页”页面](./media/end-user-report-open/power-bi-home-canvas.png)
+   ![主页](./media/end-user-report-open/power-bi-home-canvas.png)
 
 ### <a name="open-a-report-that-has-been-shared-with-you"></a>打开已与你共享的报表
-Power BI 设计器可以直接与你共享单个报表，方法是通过电子邮件中的链接或自动添加该报表  。 通过此方式共享的内容显示在导航窗格上的“与我共享”容器中，以及“主页”画布上的“与我共享”部分中   。
+Power BI 设计器可以直接与你共享单个报表，方法是通过电子邮件中的链接或将其自动添加到 Power BI 内容  。 通过此方式共享的报表会显示在导航窗格上的“与我共享”容器中，以及“主页”画布上的“与我共享”部分中   。
 
 1. 打开 Power BI 服务 (app.powerbi.com)
 
@@ -40,7 +40,7 @@ Power BI 设计器可以直接与你共享单个报表，方法是通过电子�
 
    ![“主页”画布](./media/end-user-report-open/power-bi-select-home-new.png)
    
-3. 向下滚动，直至看到“与我共享”为止  。 查找报表图标 ![报表图标](./media/end-user-report-open/power-bi-report-icon.png)。 在此屏幕截图中，我们有一个仪表板和一个名为“销售和营销”示例的报表  。 
+3. 向下滚动，直至看到“与我共享”为止  。 查找报表图标 ![报表图标](./media/end-user-report-open/power-bi-report-icon.png)。 此屏幕截图中有一个仪表板和一个报表。 该报表的名称为“销售和市场营销示例”  。 
    
    ![主页上的“与我共享”部分](./media/end-user-report-open/power-bi-shared-new.png)
 
@@ -64,8 +64,10 @@ Power BI 设计器可以直接与你共享单个报表，方法是通过电子�
 
    ![调整到页面大小](./media/end-user-report-open/power-bi-actual.png)
 
+可通过多种方式与报表进行交互，从而发现见解并做出业务决策。  使用左侧的目录，可阅读有关 Power BI 报表的其他文章。 
+
 ### <a name="open-a-report-that-is-part-of-an-app"></a>打开属于应用一部分的报告
-如果你收到了来自同事或 AppSource 的应用，则可以从导航窗格上的“主页”页面和“应用”容器中获取这些应用  。 [应用](end-user-apps.md)是一捆仪表板和报表。
+如果你收到了来自同事或 AppSource 的应用，则可以从导航窗格上的“主页”页面和“应用”容器中获取这些应用  。 [应用](end-user-apps.md)是仪表板和报表的集合，这些仪表板和报表通过 Power BI 设计器捆绑到一起  。
 
 ### <a name="prerequisites"></a>先决条件
 若要继续操作，请下载“销售和营销”应用。
@@ -80,17 +82,17 @@ Power BI 设计器可以直接与你共享单个报表，方法是通过电子�
 
    ![主页](./media/end-user-report-open/power-bi-app.png)
 
-8. 选择新的“销售和营销”应用以将其打开。 根据应用设计器设置的选项，应用将打开一个仪表板或一个报表  。 此应用打开的是仪表板。  
+8. 选择新的“销售和市场营销”  应用，将其打开。 根据应用设计器设置的选项，应用将打开一个仪表板或一个报表  。 此应用打开的是仪表板。  
 
 
 ## <a name="open-a-report-from-a-dashboard"></a>从仪表板中打开报表
 可以从仪表板中打开报表。 大多数仪表板磁贴[磁贴](end-user-tiles.md)都是从报表固定的  。 选择磁贴将打开用于创建此磁贴的报表。 
 
-1. 从仪表板中，选择一个磁贴。 在此示例中，我们已选择“本年累计单位总计...”柱形图磁贴。
+1. 从仪表板中，选择一个磁贴。 在此示例中，我们已选择“本年累计单位总计…”  柱形图磁贴。
 
     ![包含所选磁贴的仪表板](./media/end-user-report-open/power-bi-dashboard.png)
 
-2.  关联的报表将打开。 请注意，我们当前的位置为“本年累计类别”页。 这是包含我们从仪表板中选择的柱形图的报表页。
+2.  关联的报表将打开。 请注意，我们处于“本年累计类别”页上  。 这是包含我们从仪表板中选择的柱形图的报表页。
 
     ![“阅读”视图中打开的报表](./media/end-user-report-open/power-bi-report-tabs.png)
 
@@ -100,7 +102,7 @@ Power BI 设计器可以直接与你共享单个报表，方法是通过电子�
 
 ##  <a name="still-more-ways-to-open-a-report"></a>其他打开报表的更多方法
 能够熟练地导航 Power BI 服务之后，即可找到最适合自己的工作流。 下面是访问报表的其他几种方法：
-- 从导航窗格中使用“收藏夹”和“最近”      
+- 从导航窗格中使用[收藏夹](end-user-favorite.md)和[最近](end-user-recent.md)    
 - 使用[相关视图](end-user-related.md)    
 - 在电子邮件中，有人[与你共享](../service-share-reports.md)或你已[设置警报](end-user-alerts.md)时    
 - 从你的[通知中心](end-user-notification-center.md)    

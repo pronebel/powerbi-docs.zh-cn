@@ -1,345 +1,348 @@
 ---
 title: Power BI Desktop 入门
-description: Power BI Desktop 入门
+description: Power BI Desktop 入门。
 author: davidiseminger
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 08/29/2019
+ms.date: 12/09/2019
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: e533313e20c4e1f994c2ae3d1e552170aef2cbd2
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: b32eee568ba560e95899cf0965a11f3bb037aed6
+ms.sourcegitcommit: 02b05932a119527f255e1eacc745a257044e392f
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73868019"
+ms.lasthandoff: 12/19/2019
+ms.locfileid: "75222233"
 ---
-# <a name="getting-started-with-power-bi-desktop"></a>Power BI Desktop 入门
-欢迎使用 **Power BI Desktop 入门指南**。 此 Power BI Desktop 简短教学课程能让你熟悉它的运作方式、示范它的功能以及加速你构建稳固数据模型的能力 - 以令人惊叹的报表增强你的商业智慧工作。 
+# <a name="get-started-with-power-bi-desktop"></a>Power BI Desktop 入门
+欢迎使用 Power BI Desktop 入门指南。 本教程介绍 Power BI Desktop 的工作原理和功能，并介绍如何生成可靠的数据模型和奇妙的报表来提升你的商业智能。
 
-更愿意观看而不是阅读吗？ 欢迎[观看我们的入门视频](desktop-videos.md)。 如果你想要遵循视频及相匹配的示例数据，则可[下载此示例性 Excel 工作簿](https://go.microsoft.com/fwlink/?LinkID=521962)。
+要快速了解 Power BI Desktop 的工作原理及其使用方式，只需花几分钟浏览一下本指南中的屏幕。 要更深入地了解，可通读各个部分，执行相关步骤，创建自己的 Power BI Desktop 文件并将其发布到 [Power BI 服务](https://app.powerbi.com/)以与他人共享。
 
-![](media/desktop-getting-started/pbi_gettingstartedsplash_resized.png)
+![Power BI Desktop 报表](media/desktop-getting-started/hero.png)
 
-Power BI Desktop 可让你创建查询、数据连接和报表的集合，轻松地与他人共享。 Power BI Desktop 集成了经验证的 Microsoft 技术 – 强大的查询引擎、数据建模和可视化效果 – 与在线 [**Power BI 服务**](https://app.powerbi.com/)无缝配合。
-
-通过将 **Power BI Desktop** 其中分析师和其他人可以创建功能强大的数据连接、模型和报表）和 [**Power BI 服务**](https://preview.powerbi.com/)（其中可以共享 Power BI Desktop 报表，因此用户能够查看并与其进行交互）相结合，数据世界的新见解可以更轻松地建模、生成、共享和扩展。
-
-数据分析师会发现 Power BI Desktop 是个功能强大、有弹性且高度可存取的工具，可以连接和塑造数据世界、构建稳固的模型以及制作结构良好的报表。
-
-## <a name="how-to-use-this-guide"></a>如何使用本指南
-你可以使用好几种方法使用本指南 - 扫描它以取得快速概述，或阅读每一部分以充分了解 Power BI Desktop 的运作方式。
-
-如果你赶时间，可以在几分钟内快速扫视本指南，并且能够判断 Power BI Desktop 的运作方式及其使用方法。 本指南的大部分内容是以视觉方式演示 Power BI Desktop 的运作方式的画面。
-
-若要更深入了解，你也可以阅读每一部分、执行这些步骤，然后带走你自己的 Power BI Desktop 文件，该文件随时都可发布到 **Power BI** 服务，并与他人共享。
-
->[!NOTE]
->此外，还有一个称作 [**Power BI 报表服务器**](report-server/get-started.md)的 **Power BI** 独立专业版本，它面向需要在本地保留数据和报表的客户。 与该专业版本配合使用的，还有一个称作**适用于 Power BI 报表服务器的 Power BI Desktop** 的 **Power BI Desktop** 独立专业版本，该版本仅适用于 Power BI 的报表服务器版本。 本文介绍标准版 **Power BI Desktop**。
-
+还可观看 [Power BI Desktop 入门](https://www.youtube.com/watch?v=Qgam9M8I0xA)视频，并下载 [财务示例](https://go.microsoft.com/fwlink/?LinkID=521962) Excel 工作簿按视频进行操作。
 
 ## <a name="how-power-bi-desktop-works"></a>Power BI Desktop 工作原理
-使用 Power BI Desktop，你可以 *连接到数据* （通常多个数据源）， *调整该数据* （使用能生成具洞察力、吸引力的数据模型的查询），以及使用该模型来 *创建报表* （他人可以利用、以其为基础构建并共享）。
+使用 Power BI Desktop，可以：
+1. 连接到数据，包括多个数据源。
+1. 借助可生成见解深刻、令人信服数据模型的查询来调整数据。
+1. 使用数据模型创建可视化效果和报表。 
+1. 共享报表文件以供他人使用、用作基础文件和共享。 可像任何其他文件一样共享 Power BI Desktop“.pbix”  文件，但最具吸引力的方法是将其上传到 [Power BI 服务](https://preview.powerbi.com/)。 
 
-按你要求完成步骤后（连接、调整和报表），你可以将工作保存为 Power BI Desktop 文件格式，其扩展名为 .pbix。 Power BI Desktop 文件可以像其他文件一样共享，但共享 Power BI Desktop 文件最引人注目的方式是将其上传（共享）到 [**Power BI 服务**](https://preview.powerbi.com/)。 
+Power BI Desktop 集成了久经考验的 Microsoft 查询引擎、数据建模和可视化技术。 数据分析师和其他人员可以创建查询、数据连接、模型和报表集合，并轻松与他人共享。 通过组合 Power BI Desktop 和 Power BI 服务，数据世界的新见解将更易于建模、生成、共享和扩展。
 
 Power BI Desktop 会集中、简化并效率化设计与创建商业智能存储库和报表的程序，这些程序可能是散乱、不相关且棘手的。
-
-准备好要试一试吗？ 让我们开始吧。
-
-
-
-## <a name="install-and-run-power-bi-desktop"></a>安装并运行 Power BI Desktop
-你可以在 **Power BI** 服务中下载 Power BI Desktop，方法是先选择**齿轮**图标，然后选择 **Power BI Desktop**。
-
-![](media/desktop-getting-started/gsg_download.png)
-
-Power BI Desktop 会当作一个应用程序进行安装，并在桌面上运行。
-
-![](media/desktop-getting-started/designer_gsg_install.png)
-
-当你运行 Power BI Desktop 时，将显示 *欢迎* 界面。
-
-![](media/desktop-getting-started/designer_gsg_startsplashscreen.png)
-
-你可以直接从 *欢迎* （左窗格中的链接）界面 **获取数据** 、查看 **最近的数据源** 或 **打开其他** **报表** 。 如果关闭该界面（选择右上角的 **x**），则会显示 Power BI Desktop 的**报表**视图。
-
-![](media/desktop-getting-started/designer_gsg_blankreport.png)
-
-在 Power BI Desktop 中有三种视图：“报表”  视图、“数据”  视图和“关系”  视图。 Power BI Desktop 还包含 **查询编辑器**，其会在单独的窗口打开。 在**查询编辑器**中，你可以生成查询和转换数据，然后将经过优化的数据模型加载到 Power BI Desktop，并创建报表。
-
-下面的屏幕沿 Power BI Desktop 左侧自上而下显示了三个视图图标：  “报表”、  “数据”和  “关系”。 当前显示的视图以左侧的黄色条表示。 在此示例中，当前显示了**报表**视图。 你可以通过选择这三个图标的任意一个更改视图。
-
-![](media/desktop-getting-started/designer_gsg_viewtypes.png)
-
-安装 Power BI Desktop 后，你就可以连接到数据、调整数据以及生成报表（通常是依此顺序）。 在下面几部分中，我们会依次介绍每一项。
-
-## <a name="connect-to-data"></a>连接到数据
-安装 Power BI Desktop 后，你就可以连接到持续扩展的数据世界。 查询窗口中有 *各种* 可用的数据源。 下图显示了如何连接到数据，通过选择**开始**功能区，然后选择**获取数据 \> 更多**。
-
- ![](media/desktop-getting-started/getdatavidsmall.gif)
-
-在此快速教程中，我们将连接到几个不同的 **Web** 数据源。
-
-假设你即将退休 – 你想要住在很多阳光、税制合理且具有良好医疗卫生的地方 - 或者也许你是数据分析师，你想要该信息来帮助你的客户。 例如，你可能希望帮助太阳镜零售商达到最晴朗区域的销售量。
-
-无论如何，下列 Web 资源具有关于这些话题的相关和详细数据：
-
-[*https://www.bankrate.com/finance/retirement/best-places-retire-how-state-ranks.aspx*](https://www.bankrate.com/finance/retirement/best-places-retire-how-state-ranks.aspx)
-
-选择**获取数据 \> Web** 并粘贴地址。
-
- ![](media/desktop-getting-started/gettingstarted_8.png)
-
-选择**确定**后，Power BI Desktop 的**查询**功能就会开始运行。 查询会联系 Web 资源，**导航器**窗口将返回它在此网页上找到的信息。 在本例中，它找到一个表格（ *表格 0* ）和整个 Web 文档。 我们对该表有兴趣，因此我们从列表中选择它。 导“导航器”窗口会显示预览信息。 
-
- ![](media/desktop-getting-started/datasources_fromnavigatordialog.png)
-
-此时我们可以通过从窗口底部选择**编辑**，先编辑查询再加载表，或者我们可以直接加载表。
-
-选择**编辑**后，查询编辑器就会启动并且会呈现表的代表视图。 会显示**查询设置**窗格（若未显示，可以从功能区选择**视图**，然后依次选择**显示 \> 查询设置**来显示**查询设置**窗格）。 以下是其外观。
-
- ![](media/desktop-getting-started/designer_gsg_editquery.png)
-
-有关连接到数据的详细信息，请参阅[通过 Power BI Desktop 连接到数据](desktop-connect-to-data.md)。
+准备好要试一试吗？ 现在就开始吧。
 
 > [!NOTE]
-> 本文中引用的表数据可能会随时间的推移发生改变。 因此，你需要遵循的步骤可能会因以下原因而有所不同：要求你对如何调整步骤或结果具有创造性，这也体现了学习的乐趣。 
+> 对于必须保留在本地的数据和报表，Power BI 提供一个单独的专业版本，名为 [Power BI 报表服务器](report-server/get-started.md)。 Power BI 报表服务器使用单独的专业版 Power BI Desktop，该版本名为用于 Power BI 报表服务器的 Power BI Desktop，并且仅适用于 Power BI 的报表服务器版本。 本文介绍标准版 Power BI Desktop。
 
-下一部分，我们将调整数据，使其满足我们的需求。 调整连接数据的过程被称为 *调整* 数据。
+## <a name="install-and-run-power-bi-desktop"></a>安装并运行 Power BI Desktop
+要下载 Power BI Desktop，请前往 [Power BI Desktop 下载页面](https://powerbi.microsoft.com/desktop)，然后选择“免费下载”  。 或者对于下载选项，选择[查看下载或语言选项](https://www.microsoft.com/download/details.aspx?id=58494)。 
 
-## <a name="shape-and-combine-data"></a>调整和合并数据
-由于我们已经连接到数据源，我们需要调整数据以符合我们的需求。 有时候调整意味着 *转换* 数据，例如重命名列或表格、将文字更改为数字、删除行、将第一列设置为标题列等。
+还可从 Power BI 服务下载 Power BI Desktop。 在顶部菜单栏中选择“下载”图标，然后选择“Power BI Desktop”   。
 
-Power BI Desktop 中的查询编辑器除能在功能区中提供可用的工作，还能够充分利用右键菜单。 大部分可在**转换**功能区选择的内容也可通过右键单击项目（如某列）并从所显示的菜单中进行选择。
+![从 Power BI 服务下载 Power BI Desktop](media/desktop-getting-started/gsg_download.png)
+
+在 Microsoft Store 页面上，选择“获取”，然后按照提示在计算机上安装 Power BI Desktop  。 从 Windows“开始”菜单或从 Windows 任务栏中的图标启动 Power BI Desktop  。
+
+Power BI Desktop 首次启动时，会显示“欢迎”屏幕  。
+
+在“欢迎”屏幕中，可获取数据，查看最近使用的源，打开最近使用的报表，打开其他报表，或选择其他链接     。 还可选择在启动时是否始终显示“欢迎”屏幕  。 选择关闭图标可关闭“欢迎”屏幕  。
+
+![Power BI Desktop 欢迎屏幕](media/desktop-getting-started/designer_gsg_startsplashscreen.png)
+
+Power BI Desktop 左侧为三个 Power BI Desktop 视图的图标：  “报表”、  “数据”和  “关系”。 左侧的黄色栏指示当前视图，可通过选择任一图标来更改视图。 
+
+![三个 Power BI Desktop 视图图标](media/desktop-getting-started/designer_gsg_viewtypes.png)
+
+“报表”视图为默认视图  。 
+
+![Power BI Desktop“报表“视图](media/desktop-getting-started/designer_gsg_blankreport.png)
+
+Power BI Desktop 还包括“Power Query 编辑器”，它将在在单独的窗口中打开  。 在“Power Query 编辑器”中，可生成查询和转换数据，然后将经过细化的数据模型加载到 Power BI Desktop 以创建报表  。
+
+## <a name="connect-to-data"></a>连接到数据
+安装 Power BI Desktop 后，便可连接到不断扩展的数据世界。 要查看多种可用的数据源，请在 Power BI Desktop 的“主页”选项卡中选择“获取数据” > “更多”，然后在“获取数据”窗口中，滚动浏览“所有”数据源的列表      。 在本快速教程中，你将连接到几个不同的“Web”数据源  。
+
+![在“获取数据”中选择 Web 数据源 ](media/desktop-getting-started/getdataweb.png)
+
+假设你是一家太阳镜零售商的数据分析师。 你希望帮助客户在四季阳光充足的州销售太阳镜。 Bankrate.com [最佳和最糟退休州](https://www.bankrate.com/retirement/best-and-worst-states-for-retirement/)页面上提供了关于本主题的有趣数据。
+
+在 Power BI Desktop 的“主页”选项卡中，选择“获取数据” > “Web”以连接到 Web 数据源    。 
+
+![选择 Web 数据源](media/desktop-getting-started/gsg_syw_2.png)
+
+在“来自 Web”对话框中，将地址 https:\//www.bankrate.com/retirement/best-and-worst-states-for-retirement/ 粘贴到“URL”字段中，然后选择“确定”     。 
+
+![在“来自 Web”对话框中粘贴 Web 地址](media/desktop-getting-started/gettingstarted_8.png)
+
+如果出现提示，请在“访问 Web 内容”屏幕上，选择“连接”以使用匿名访问   。 
+
+Power BI Desktop 的查询功能开始运行并与 Web 资源联系。 “导航器”窗口返回它在网页上找到的内容，在本例中，它返回一个名为“最佳和最糟退休州排名”的表和一个文档   。 你对该表有兴趣，因此选择它以查看预览。
+
+此时，你可以选择“加载”来加载该表，也可以选择“转换数据”以在表中进行更改，然后再加载   。
+
+![网页中的表预览](media/desktop-getting-started/datasources_fromnavigatordialog.png)
+
+如果选择“转换数据”，Power Query 编辑器将会启动，并显示表的代表性视图  。 “查询设置”窗格在右侧，你也可以通过如下操作来显示它：在 Power Query 编辑器的“视图”选项卡上，选择“查询设置”    。 
+
+![显示“查询设置”的 Power Query 编辑器](media/desktop-getting-started/designer_gsg_editquery.png)
+
+有关连接到数据的详细信息，请参阅[连接到 Power BI Desktop 中的数据](desktop-connect-to-data.md)。
 
 ## <a name="shape-data"></a>调整数据
-如果在**查询编辑器**中调整数据，你将在**查询编辑器**加载并呈现数据时提供分步说明（**查询编辑器**将为你执行此操作）以调整数据。 原始数据源不受影响，将仅调整或 *整理* 这一特定的数据视图。
+现在你已经连接到数据源，你可以调整数据以符合需求。 要调整数据，请在加载和呈现数据时为 Power Query 编辑器提供调整数据的分步说明  。 调整不会影响原始数据源，只会影响数据的这一特定视图。 
 
-**查询编辑器**会记录你指定的步骤（如重命名表格、转换数据类型或删除列），且每当此查询连接到数据源时，都会执行这些步骤，因此数据将始终按你指定的方式进行调整。 每当你在 Power BI Desktop 中使用查询时，或任何人使用你的共享查询（在如 **Power BI** 服务上）时，都会进行过程。 这些步骤是在**所应用步骤**下**查询设置**窗格中按顺序进行捕获的。
+> [!NOTE]
+> 本指南中使用的表数据可能随时更改。 因此，你需要遵循的步骤可能有所不同，这就要求你在调整步骤或结果方面具有创造性，这也体现了学习的乐趣。 
 
-下图显示已调整查询的**查询设置**窗格，我们将于接下来几个段落中逐一说明每个步骤。
+调整可能意味着转换数据，例如，重命名列或表、删除行或列，或者更改数据类型  。 Power Query 编辑器在“查询设置”窗格中的“已应用步骤”下依次捕获这些步骤   。 每当此查询连接到数据源时，都会执行这些步骤，这样，数据将始终以指定的方式进行调整。 每当你在 Power BI Desktop 中使用查询时，或任何人使用你的共享查询（例如在 Power BI 服务中）时，都会执行此过程。 
 
- ![](media/desktop-getting-started/shapecombine_querysettingsfinished.png)
+注意，“查询设置”中的“已应用步骤”已经包含了一些步骤   。 你可以选择每个步骤来查看其在 Power Query 编辑器中的效果。 一开始，你指定了一个 Web 源，然后在“导航器”窗口中预览了表  。 在第三步中，更改了类型，Power BI 在导入时识别了整数数据，并自动将原始 Web“文本”数据类型更改为了“整数”     。 
 
-让我们回到退休数据（退休数据是我们通过连接到 Web 数据源找到的），并调整数据以符合我们的需求。
+![包含三个已应用步骤的“查询设置”窗格](media/desktop-getting-started/designer_gsg_appliedsteps_changedtype.png)
 
-对于初学者，大部分评分都是以整数带入至**查询编辑器**，但并非全都如此（一个列包含了文本和数字，因此它不会自动转换）。 而我们需要该数据为数字。 没问题 – 只要右键单击数据列标题，然后选择**更改类型 \> 整数**来更改数据类型。 如果我们需要选择多个数据列，可以先选择数据列然后再按住 **Shift**，选择其他相邻的数据行，然后右键单击数据列标题以更改所有选择的数据列。 你也可以使用 **Ctrl** 选择非相邻的数据列。
+如果需要更改数据类型，请选择一列或多列进行更改。 按住“Shift”键可选择多个相邻的列，按住“Ctrl”键可选择非相邻列   。 右键单击列标题，选择“更改类型”，然后在菜单中选择新数据类型；或者在“主页”选项卡的“转换”组中，下拉“数据类型”旁边的列表，然后选择新数据类型     。
 
- ![](media/desktop-getting-started/designer_gsg_changedatatype.png)
+![更改数据类型](media/desktop-getting-started/designer_gsg_changedatatype.png)
 
-你还可以使用 **转换** 功能区，将那些数据列从文本更改或 *转换* 为标题。 **转换**功能区显示如下，其中箭头指向**数据类型**按钮，可用于将当前数据类型转换成其他数据类型。
+> [!NOTE]
+> Power BI Desktop 中的 Power Query 编辑器使用功能区或右键单击菜单来执行可用任务。 大部分可在“主页”或功能区的“转换”选项卡上选择的任务，也可以通过右键单击一个项目并在出现的菜单中进行选择来实现   。
 
- ![](media/desktop-getting-started/shapecombine-changetype-b.png)
+现在，你可以对数据应用自己的更改和转换，并在“已应用步骤”中查看  。 
 
-注意，在**查询设置**中，**所应用步骤**会反映已做的更改。 如果要删除调整过程中的任何步骤，只需选择该步骤，然后选择步骤左边的 **X**。
+例如，对于太阳镜销售，你最想了解的是天气排名，因此，你决定按照“天气”列而不是“整体排名”来对表进行排序   。 下拉“天气”标头旁边的箭头，并选择“升序排序”   。 数据现在按照天气排名排序，并且“已应用步骤”中会出现“已对行排序”这一步骤   。 
 
- ![](media/desktop-getting-started/designer_gsg_appliedsteps_changedtype.png)
+![对行进行升序排序](media/desktop-getting-started/shapecombine-changetype-b.png)
 
-我们需要再做一些更改，让查询位于我们想要的位置：
+你不是很想把太阳镜卖给天气最糟糕的州，所以你决定将它们从表中删除。 从“主页”选项卡的“减少行”组，选择“删除行” > “删除最后几行”     。 在“删除最后几行”对话框中，输入“10”，然后选择“确定”   。 
 
-* *删除第一列* – 不需要此列，它仅包含指出“查看你所在州的退休评级”的重复行，这是此数据源成为基于 Web 的表格的项目
+![删除最后几行](media/desktop-getting-started/pbi_gsg_getdata3.png)
 
-<!-- -->
+将从表中删除最后 10 行天气最糟糕的州，并且“已应用步骤”中会出现“已删除最后几行”这一步骤   。
 
-* *修复一些错误* – 在网页上，有一列有混合数字的文字（某些州结合在一个类别中）。 其在该网站上运作很好，但并不适合我们的数据分析。 （在此示例中）错误很容易修复，并显示了**查询编辑器**及其**所应用步骤**中一些很棒的特性和功能。
+你认为表中包含太多不必要的信息，决定删除“可购性”、“犯罪”、“文化”和“健康”列     。 选择要删除的各列的标头。 按住“Shift”键可选择多个相邻的列，按住“Ctrl”键可选择非相邻列   。 
 
-<!-- -->
+然后，从“主页”选项卡的“管理列”组中，选择“删除列”    。 你还可右键单击其中一个选定的列标头，然后在菜单中选择“删除列”  。 此操作将删除选定的列，并且“已应用步骤”中会出现“已删除列”   。
 
-* *更改表格名称* - **表格 0**不是有用的描述符，但更改它很简单
+![删除列](media/desktop-getting-started/pbi_gsg_getdata3a.png)
 
-每个步骤都演示于 **[在 Power BI Desktop 中调整和合并数据](desktop-shape-and-combine-data.md)** 。 欢迎参阅该页面，或继续阅读这份文档，了解你接下来要做什么。 下一部分会在应用上述更改之后继续。
+再想想，“可购性”可能与太阳镜的销售有关  。 你希望恢复该列。 通过选择步骤旁边的“X”删除图标，可以轻松撤消“已应用步骤”窗格中的最后一步   。 现在重新执行步骤，仅选择要删除的列。 为了获得更大的灵活性，可以分步删除每一列。 
+
+你可以右键单击“已应用步骤”窗格中的任何步骤，然后选择删除它、对其进行重命名、在序列中上移或下移，或在其后添加或删除步骤  。 对于中间步骤，如果更改可能会影响后续步骤并中断查询，Power BI Desktop 将向你发出警告。  
+
+![修改已应用步骤](media/desktop-getting-started/designer_gsg_install.png)
+
+例如，如果不再希望根据“天气”对表进行排序，可以尝试删除“已对行排序”步骤   。 Power BI Desktop 会警告你删除此步骤可能会导致查询中断。 按天气排序后，你删除了最后 10 行，因此，如果删除排序，将删除不同的行。 如果选择“已对行排序”步骤，并尝试在此添加新的中间步骤，也会出现警告  。  
+
+![删除步骤警告](media/desktop-getting-started/deletestepwarning.png)
+
+最后，将表标题更改为关于太阳镜销售，而不是退休。 在“查询设置”窗格中的“属性”下，将旧的标题替换为“最佳太阳镜销售州”    。
+
+完成后的已调整数据查询如下所示：
+
+![完成后的查询](media/desktop-getting-started/shapecombine_querysettingsfinished.png)
+
+有关调整数据数据的详细信息，请参阅[在 Power BI Desktop 中调整和合并数据](desktop-shape-and-combine-data.md)。
 
 ## <a name="combine-data"></a>合并数据
-有关各州的那份数据很有趣，而且适用于生成其他分析工作和查询。 但是有一个问题：大多数数据使用两个字母的州名代码缩写，而不是该州的完整名称。 我们需要某种方式来建立州名及其缩写的关联。
+有关各州的那份数据很有趣，而且适用于生成其他分析工作和查询。 但是有一个问题：大多数数据使用两个字母的州代码缩写，而不是完整名称。 要使用该数据，需要通过某种方式来将州名与其缩写关联。
 
-我们很幸运：有另一个公共数据源可执行该项工作，但还需要进行相当多的调整，才能连接到我们的退休表。 以下是州名缩写的 Web 资源：
+你很幸运。 另一个公共数据源可以做到这一点，但你需要对数据进行大量的调整，然后才能将数据合并到太阳镜表。 
 
-<https://en.wikipedia.org/wiki/List_of_U.S._state_abbreviations>
+要将州缩写数据导入 Power Query 编辑器，请在功能区“主页”选项卡上的“新建查询”组中，选择“新增源” > “Web”     。 
 
-从**查询编辑器**中的**开始**功能区，选择**获取数据 \> Web** 并键入地址，选择**确定**，**导航器**窗口将显示它在此网页上找到的信息。
+![新增源](media/desktop-getting-started/pbi_gettingstartedsplash_resized.png)
 
- ![](media/desktop-getting-started/designer_gsg_usstateabbreviationsnavigator.png)
+在“来自 Web”对话框中，输入州缩写站点的 URL：*https:\//en.wikipedia.org/wiki/List_of_U.S._state_abbreviations*  。
 
-我们选择**编辑表**，因为它包含我们想要的数据，但它需要大量调整才能将表格中的数据削减到所需数据。 每个步骤都演示于 **[在 Power BI Desktop 中调整和合并数据](desktop-shape-and-combine-data.md)** 。 汇总这些步骤，下面是我们要执行的操作：
+在“导航器”窗口中，选择“美国各州、联邦地区、领地及其他区域的代码和缩写”表，然后选择“确定”    。 该表将在 Power Query 编辑器中打开。
 
-选择**编辑**，然后：
+删除“区域的名称和状态”、“区域 2 的名称和状态”，以及“ANSI”之外的所有列    。 要仅保留这些列，请按住“Ctrl”  并选择相应的列。 然后，右键单击其中一个列标头并选择“删除其他列”，或者在“主页”选项卡的“管理列”组中，选择“删除其他列”     。 
 
-* *删除前两行* – 它们是创建网页表格所产生的，不是所需的行。
+下拉“区域 2 的名称和状态”列标头旁边的箭头，并选择“筛选器” > “等于”    。 在“筛选行”对话框中，下拉“等于”旁边的“输入或选择值”字段，然后选择“州”     。 
 
-<!-- -->
+选择“或”，然后在第二个“等于”字段旁边，选择“州(联邦)”    。 选择“确定”。  
 
-* *删除底部的 26 行* – 它们全是地区，无需包含在内。
+![筛选行](media/desktop-getting-started/filterrows.png)
 
-<!-- -->
-* *筛选出华盛顿特区* – 退休统计数据的表不包含华盛顿特区，因此我们从列表中将其排除。
+删除了“联邦地区”和“岛”这样的额外值后，现在就有了一个包含 50 个州及其官方双字母缩写形式的列表   。 你可以重命名列以便更好理解，例如“州名”、“状态”和“缩写”，方法是右键单击列标头并选择“重命名”     。
 
-<!-- -->
+注意，所有这些步骤都记录在“查询设置”窗格中的“已应用步骤”下   。
 
-* *删除一些不必要的列* – 只需将州映射到其两个字母的官方缩写，因此可以删除其他数据列。
+调整后的表现在如下所示：
 
-<!-- -->
+![调整后的州代码表](media/desktop-getting-started/statecodes.png)
 
-* *将第一行用作标题* - 由于已删除前 3 行，所以当前的首行就是所需的标题。
+在“查询设置”的“属性”字段中，将表重命名为“州代码”    。 
 
-    >[!NOTE]
-    >此时非常适合指出：查询编辑器  所应用步骤的序列  是至关重要的，可能会影响数据调整的方式。 同时也必须考虑一个步骤对另一个后续的步骤可能会有什么影响；如果你从**所应用步骤**中删除一个步骤，则由于查询中步骤顺序的影响，后续步骤可能不会按原本所期望的方式进行。
+“州代码”表调整完成后，你可以将这两个表合并为一个表   。 由于你现在拥有的表是你向数据应用查询之后的结果，因此它们也称为“查询”  。 有两种主要方法可合并查询：合并和追加   。 
 
-* *重命名列和表格本身* – 通常会有几种方式可以重命名列，你可以选择你偏好的方式。
+当你有一列或多列要添加到另一个查询时，你可合并这些查询  。 当你有其他数据行要添加到现有查询时，你可追加查询  。
 
-调整 *StateCodes* 表格后，我们可以将这两个表或查询合并成一个。由于当前具有的表格是我们对数据应用查询的结果，因此它们通常称为 *查询* 。
+在本例中，你希望将“州代码”查询合并到“最佳太阳镜销售州”查询    。 要合并查询，请切换到“最佳太阳镜销售州”查询，方法是从 Power Query 编辑器左侧的“查询”窗格中选择它   。 然后在功能区“主页”选项卡中的“合并”组中，选择“合并查询”    。
 
-有两种主要方法可合并查询 – *合并* 和 *追加* 。
+在“合并”窗口中，下拉字段，可从其他可用查询中选择“州代码”   。 在每个表中选择要匹配的列，在本例中，为“最佳太阳镜销售州”查询中的“州”和“州代码”查询中的“州名”     。 
 
-当你有一列或多列要添加到另一个查询时，你可**合并**这些查询。 当你有其他列要添加到现有查询时，你可**追加**查询。
+如果出现“隐私级别”对话框，请选择“忽略此文件的隐私级别检查”，然后选择“保存”    。 选择“确定”。  
 
-本例中，我们要合并查询。 首先，我们选择想让其他查询合并 *进去* 的查询，然后从功能区的 **开始** 选项卡中选择 **合并查询** 。
+![合并查询](media/desktop-getting-started/shapecombine_merge.png)
 
- ![](media/desktop-getting-started/shapecombine_mergequeries.png)
+“最佳太阳镜销售州”表的右侧将出现一个名为“州代码”的新列   。 它包含与“最佳太阳镜销售州”查询合并的“州代码”查询。 合并后的表中的所有列都压缩到“州代码”列中  。 你可以展开合并后的表并仅包含所需的列  。 
 
-将显示**合并**窗口，提示我们选择想要合并到所需表中的表格，然后选择要用于合并的匹配列。 从 *RetirementStats* 表（查询）中选择 *州* ，然后选择 *StateCodes* 查询（本例中很简单，因为仅有一个其他查询 - 在连接到多个数据源时，存在可从中选择的多个查询）。 在选择正确的匹配列时（ *RetirementStats* 中的 *州* ， *StateCodes* 中的 *州名* ）， **合并** 窗口如下所示，且 **确定** 按钮已启用。
+![合并后的查询列](media/desktop-getting-started/mergedquery.png)
 
- ![](media/desktop-getting-started/shapecombine_merge.png)
+要展开合并后的表，并选择要包含的列，请选择列标头中的“展开”图标  。 在“展开”对话框中，仅选择“缩写”列   。 取消选中“使用原始列名作为前缀”，然后选择“确定”   。 
 
-在查询的结尾会创建 **NewColumn**，它是与现有查询合并的表（查询）内容。 来自合并查询的所有列均压缩到 **NewColumn** 中，但可选择**展开**表格并包含所需的任意列。 若要展开合并的表格，并选择要包含的列，请选择展开图示 (![](media/desktop-getting-started/gettingstarted_29_expandicon.png))。 **展开**窗口随即出现。
+![选择合并后的表中的已展开列](media/desktop-getting-started/shapecombine_mergeexpand.png)
 
- ![](media/desktop-getting-started/shapecombine_mergeexpand.png)
+> [!NOTE]
+> 你可以尝试一下如何引入“州代码”表  。 尝试一下，如果不喜欢结果，只需从“查询设置”窗格中的“已应用步骤”列表中删除该步骤   。 这就像是个自由重做的机会，你可以不限次数地任意执行，直到展开过程看起来是你要的方式为止。
 
-在此示例中，我们只需要 *州代码* 列，因此仅选择此列，然后选择 **确定** 。 清除 **使用原始列名作为前缀** ，因为我们不需要也不想要它，如果我们保留选择它，则合并的列将命名为 *NewColumn.State Code* （原始列名，或 *NewColumn* ，然后接一个点，再接要带入查询的列名）。
+有关调整及合并数据步骤的更完整说明，请参阅[在 Power BI Desktop 调整和合并数据](desktop-shape-and-combine-data.md)。
 
->[!NOTE]
->想尝试了解如何引入此 NewColumn  表吗？ 你可以试验一下，如果不喜欢结果，只需从**查询设置**窗格中**所应用步骤**列表删除该步骤，你的查询便会回到应用**展开**步骤之前的状态。 这就像是个自由重做的机会，你可以不限次数地任意执行，直到展开过程看起来是你要的方式为止。
+现在，你在单个查询表中合并了两个数据源，每个数据源都已根据需要进行调整。 此查询可以作为许多其他有趣数据连接的基础，例如各州的人口统计、财富水平或娱乐机会。
 
-我们现在有合并两个数据源的单一查询 （表格），其中每个数据源都已经过调整以符合我们的需求。 此查询可以作为许多其他相关数据连线的基础 – 例如任何州的住房成本统计数据、人口统计数据或工作机会。
+![调整和合并后的查询](media/desktop-getting-started/mergedcolumn.png)
 
-有关每个调整及合并数据步骤的更完整说明，请参阅[在 Power BI Desktop 调整和合并数据](desktop-shape-and-combine-data.md)。
+到目前为止，你有足够的数据在 Power BI Desktop 内创建有趣的报表。 由于这是一个里程碑，请在“Power Query 编辑器”中应用更改，并将其加载到 Power BI Desktop 中，方法是：在功能区的“主页”选项卡中选择“关闭并应用”   。 你还可以仅选择“应用”，以确保在 Power Query 工作时使查询在 Power Query 编辑器处于打开状态  。 
 
-到目前为止，我们有足够的数据在 Power BI Desktop 内创建一些相关报表。 由于这是一个里程碑，让我们保存该 Power BI Desktop 文件 – 我们称它为 **Power BI Desktop 入门**。 若要在**查询编辑器**应用更改，并将其加载到 Power BI Desktop，请从**开始**功能区选择**关闭并应用**。
+![关闭并应用更改](media/desktop-getting-started/shapecombine_closeandapply.png)
 
-![](media/desktop-getting-started/shapecombine_closeandapply.png)
+将表加载到 Power BI Desktop 后，你可以对其进行更多更改，并重新加载模型以应用所做的任何更改。 要从 Power BI Desktop 重新打开“Power Query 编辑器”，请在 Power BI Desktop 功能区的“主页”选项卡上选择“编辑查询”    。 
 
 ## <a name="build-reports"></a>生成报表
-加载表格之后可以进行其他更改，而且你可以重新加载模型来应用所做的任何更改。 但是目前这样就够了。 在 Power BI Desktop **报表**视图中，你可以开始生成报表。
+在 Power BI Desktop“报表”视图中，你可以生成可视化效果和报表  。 “报表”视图包含六个主要区域  ：
 
-**报表**视图具有五个主要区域：
+![Power BI Desktop“报表“视图](media/desktop-getting-started/designer_gsg_reportview.png)
 
-1. 功能区，用于显示与报表和可视化效果相关联的常见任务
-2. **报表**视图或画布，可在其中创建和排列可视化效果
-3. 底部的**页面**选项卡，用于选择或添加报表页
-4. **可视化效果**窗格，你可以在其中更改可视化效果、自定义颜色或轴、应用筛选器、拖动字段等
-5. **字段**窗格，可在其中将查询元素和筛选器拖到**报表**视图，或拖到**可视化效果**的**筛选器**窗格
-   
-   ![](media/desktop-getting-started/designer_gsg_reportview.png)
+1. 功能区位于顶部，它显示与报表和可视化效果相关联的常见任务。
+2. 画布区域位于中间，可在其中创建和排列可视化效果。
+3. 页面选项卡区域位于底部，它用于选择或添加报表页。
+4. “筛选器”窗格，可在其中筛选数据可视化效果  。
+5. “可视化效果”窗格，可在其中添加、更改或自定义可视化效果，并应用钻取  。
+6. “字段”窗格，它显示查询中的可用字段  。 你可以将这些字段拖放到画布、“筛选器”窗格或“可视化效果”窗格，以创建或修改可视化效果   。
 
-通过选择边缘的小箭头，可以折叠**可视化效果**和**字段**窗格，以便在**报表**视图中提供更多空间以生成炫酷的可视化效果。 修改可视化效果时，你会看到这些箭头朝上或朝下，这意味着你可以相应展开或折叠该部分。
+通过选择窗格顶部的箭头，可以展开和折叠“筛选器”、“可视化效果”和“字段”窗格    。 折叠窗格可在画布上提供更多空间来生成炫酷的视觉化效果。 
 
- ![](media/desktop-getting-started/designer_gsg_collapsepanes.png)
+![展开或折叠窗格](media/desktop-getting-started/designer_gsg_collapsepanes.png)
 
-若要创建可视化效果，只需将字段从**字段**列表拖到**报表**视图即可。 在此示例中，我们来拖动 *RetirementStats* 中的 *州* 字段，看看会发生什么。
+要创建简单的可视化效果，只需在“字段”列表中选择任意字段，或将字段从“字段”列表拖到画布上  。 例如，将“州”字段从“最佳太阳镜销售州”拖到画布上，看看会发生什么   。
 
- ![](media/desktop-getting-started/designer_gsg_reportfirstdrag.png)
+![拖动“州”字段以创建地图可视化效果](media/desktop-getting-started/designer_gsg_reportfirstdrag.png)
 
-看一下...Power BI Desktop 自动创建了基于地图的可视化效果，因为它识别到 *州* 字段包含地理位置数据。
+看一下！ Power BI Desktop 识别到“州”字段包含地理位置数据并自动创建了基于地图的可视化效果  。 可视化效果在数据模型中显示了 40 个州的数据点。 
 
-注意，在**可视化效果**窗格中，可以选择不同类型的可视化效果，而且在那些图示下方的区域中，可以将字段拖至不同区域以应用图例，或修改可视化效果。
+“可视化效果”窗格显示有关可视化效果的信息，并允许你对其进行修改  。 
 
- ![](media/desktop-getting-started/designer_gsg_visualizationtypes.png)
+![“可视化效果”窗格](media/desktop-getting-started/designer_gsg_visualizationtypes.png)
 
-快进一点看看**报表**视图在添加了一些可视化效果以及新报表页面之后的外观。 有关报表的详细信息，请参阅 [Power BI Desktop 中的报表视图](desktop-report-view.md)。
+1. 图标显示创建的可视化效果的类型。 你可以通过选择不同的图标来更改所选可视化效果的类型，或通过选择未选定现有可视化效果的图标来创建新的可视化效果。 
+2. 可利用“可视化效果”窗格中的“字段”选项将数据字段拖动到“图例”和窗格中的其他字段    。 
+3. 可利用“格式”选项将格式设置和其他控件应用到可视化效果  。 
 
-报表第一页提供的是基于 *总体排名* 的数据分析。 当我们选择一个可视化效果，**字段和筛选器**窗格将显示所选字段和可视化效果的结构（字段应用到**共享轴**、**列值**和**行值**）。
+“字段”和“格式”区域中的可用选项取决于你拥有的可视化效果和数据类型   。
 
- ![](media/desktop-getting-started/designer_gsg_report1.png)
+你希望地图可视化效果仅显示天气最佳的前 10 个州。 要仅显示前 10 个州，请在“筛选器”窗格中，将鼠标悬停在“州为(所有)”上并展开出现的箭头   。 在“筛选器类型”下，下拉并选择“前 N 个”   。在“显示项目”下，选择“最后”，因为你希望显示数字级别最低的项目，并在下一个字段中输入“10”    。
 
-该报表有 6 **页**，每一页都以可视方式显示了数据的某些元素。
+在“字段”窗格中，将“天气”字段拖动到“按值”字段中，然后选择“应用筛选器”     。 
 
-1. 如上所示的第一页显示了基于 *总体排名* 的所有州。
-2. 第二页侧重于基于 *总体排名* 的前十个州。
-3. 在第三页中，显示生活成本最高的前 10 个州（及相关联的数据）。
-4. 第四页的重点是天气，筛选为 15 个最晴朗的州。
-5. 第五页绘制排名靠前的 15 个州的社区福利图表并将其可视化。
-6. 最后一页，可视化犯罪统计数据，显示最佳（和最差）的 10 个州。
+![天气前 10 筛选器](media/desktop-getting-started/gsg_share5.png)
 
-下面是着重于生活成本的报表页面外观。
+现在，地图可视化效果中仅显示天气最佳的前 10 个州。 
 
- ![](media/desktop-getting-started/designer_gsg_report2costofliving.png)
+通过以下方式可重新设置可视化效果标题：在“可视化效果”窗格中选择“格式”图标，选择“标题”，并在“标题文本”下键入“天气最佳的前 10 个州”      。 
 
-你可以创建各种相关报表和可视化效果。
+![更改标题](media/desktop-getting-started/designer_gsg_report1.png)
+
+要添加显示天气最佳的前 10 个州的名称及其从 1 到 10 的排名，请选择画布的空白区域，然后在“可视化效果”窗格中选择“柱状图”图标   。 在“字段”窗格中，选择“州”和“天气”    。 柱状图显示了查询中的 40 个州，从最高到最低的数字级别或者从最糟到最佳天气进行排名。 
+
+![柱形图可视化效果](media/desktop-getting-started/gsg_share7.png)
+
+要切换排序顺序以使数字 1 第一个出现，请在可视化效果的右上角选择“更多选项”省略号，然后在菜单中选择“升序排序”   。 
+
+![升序排序](media/desktop-getting-started/shapecombine_mergequeries.png)
+
+要将表限制为前 10 个州，请应用与地图可视化效果相同的后 10 筛选器。 
+
+以与地图可视化效果相同的方式重新命名可视化效果。 同样在“可视化效果”窗格的“格式”部分，将“Y 轴” > “轴标题”从“天气”更改为“天气排名”，使其更易于理解       。 然后，将“Y 轴”选择器切换到“关闭”，并将“数据标签”切换到“打开”     。 
+
+现在，天气最佳的前 10 个州按排名顺序显示，并显示其数字排名。 
+
+![已完成的柱形图](media/desktop-getting-started/shapecombine_changetype.png)
+
+你可以为“可购性”和“总体排名”字段提供类似或其他可视化效果，或将多个字段合并为一个可视化效果   。 你可以创建各种相关报表和可视化效果。 这些“表”和“折线和簇状柱形图”可视化效果显示天气最佳的前 10 个州以及其可购性和总体排名   ：
+
+![“表”和“折线和簇状柱形图”可视化效果](media/desktop-getting-started/designer_gsg_report2costofliving.png)
+
+你可以在不同的报表页上显示不同的可视化效果。 要添加新页面，请选择页面栏上现有页面旁边的 **+** 符号，或在功能区的“主页”选项卡中选择“插入” > “新页面”    。 要重命名某个页面，请在页面栏中双击该页面的名称，或右键单击它并选择“重命名页面”，然后键入新名称  。 要切换到报表的其他页面，请从页面栏中选择该页面。 
+
+![页面栏](media/desktop-getting-started/pages.png)
+
+你可以通过“主页”选项卡的“插入”组将文本框、图像和按钮添加到报表页   。要设置可视化效果的格式设置选项，请选择可视化效果，然后在“可视化效果”窗格中选择“格式”图标   。 要配置页面大小、背景和其他页面信息，请选择未选定可视化效果的“格式”图标  。
+
+创建好页面和可视化效果后，选择“文件” > “保存”，可保存报表   。 
+
+![已完成的 Power BI Desktop 报表页](media/desktop-getting-started/finished-report.png)
+
+有关报表的详细信息，请参阅 [Power BI Desktop 中的报表视图](desktop-report-view.md)。
 
 ## <a name="share-your-work"></a>共享工作
-由于我们已经有相当完整的 Power BI Desktop 报表，我们可以在 **Power BI** 服务上与他人共享。 有几种方法可以在 Power BI Desktop 中共享你的工作。 你可以发布到 **Power BI** 服务，直接从 Power BI 服务上传 .pbix 文件，或保存 .pbix 文件，然后就像任何其他文件一样发送它。
+现在，你已经有了一个 Power BI Desktop 报表，可以与他人共享。 有几种方法可以共享你的工作。 你可以像任何其他文件一样分发“.pbix”文件报表，你可以从 Power BI 服务上传“.pbix”文件，也可以直接从 Power BI Desktop 发布到 Power BI 服务   。 必须拥有 Power BI 帐户才能将报表发布或上传到 Power BI 服务。 
 
-首先，我们来看一下直接从 **Power BI** Desktop 发布到 Power BI 服务。 从**开始**功能区选择**发布**。
+要从 Power BI Desktop 发布到“Power BI”服务，请在功能区的“主页”选项卡中，选择“发布”    。
 
-![](media/desktop-getting-started/gsg_syw_1.png)
+![选择“发布”](media/desktop-getting-started/gsg_syw_1.png)
 
-系统可能会提示你登录到 Power BI。
+系统可能会提示你登录 Power BI 或选择一个目标。
 
-![](media/desktop-getting-started/gsg_syw_2.png)
+当此发布过程完成时，你将看到以下对话框：
 
-当你登录并完成此发布过程后，你将看到以下对话框。
+![Power BI 发布成功](media/desktop-getting-started/gsg_syw_3.png)
 
-![](media/desktop-getting-started/gsg_syw_3.png)
+在 Power BI 中选择打开报表的链接时，报表将在 Power BI 站点中的“我的工作区” > “报表”下打开   。 
 
-当登录到 Power BI 时，你将在该服务的**仪表板**、**报表**和**数据集**区域看到你刚加载的 Power BI Desktop 文件。
+另一种共享工作的方式是从 **Power BI** 服务内加载它。 前往 https:\//app.powerbi.com 可在浏览器中打开 Power BI  。 在 Power BI“主页”上，选择左下方的“获取数据”，可开始加载 Power BI Desktop 报表的过程   。
 
-另一种共享工作的方式是从 **Power BI** 服务内加载它。 以下链接将在浏览器中显示 **Power BI** 服务：
+![在 Power BI“主页”上选择“获取数据”](media/desktop-getting-started/pbi_gsg_getdata1.png)
 
-`https://app.powerbi.com`
+在下一页上，在“文件”部分选择“获取”   。
 
-选择**获取数据**开始加载 Power BI Desktop 报表。
+![获取文件](media/desktop-getting-started/pbi_gsg_getdata2.png)
 
- ![](media/desktop-getting-started/pbi_gsg_getdata1.png)
+在下一页上，选择“本地文件”  。 浏览到你的 Power BI Desktop“.pbix”文件并选择，然后选择“打开”   。 
 
-**获取数据**页面随即出现，你可以从中选择从何处获取你的数据。 在此示例中，我们选择从**文件**框**获取**。
+导入文件后，可以看到它在 Power BI 服务左窗格中的我的工作区” > “报表”下列出   。
 
-![](media/desktop-getting-started/pbi_gsg_getdata2.png)
+![导入到 Power BI 的 Power BI Desktop 文件](media/desktop-getting-started/pbi_gsg_getdata4.png)
 
-**文件**视图随即出现。 在此示例中，我们选择 **本地文件**。
+选择该文件时，将显示报表的第一页。 可以在报表左侧的选项卡中选择不同的页面。 
 
-![](media/desktop-getting-started/pbi_gsg_getdata3.png)
+你可以在 Power BI 服务中通过从报表画布顶部选择“更多选项” > “编辑”来更改报表    。 要保存更改，请选择“保存副本”  。
 
-选择该文件后，Power BI 将上传文件。
+![编辑报表并保存副本](media/desktop-getting-started/gsg_share4.png)
 
-![](media/desktop-getting-started/pbi_gsg_getdata3a.png)
+你可以在 Power BI 服务中，从你的报表创建各种有趣的视觉对象，并可以将该报表固定到“仪表板”   。 要了解 Power BI 服务中的仪表板，请参阅[设计出色仪表板的提示](service-dashboards-design-tips.md)  。 有关创建、共享和修改仪表板的详细信息，请参阅[共享仪表板](service-share-dashboards.md)。
 
-该文件上传后，你可以选择从 Power BI 服务左窗格中的**报表**选择该文件。
+要共享报表或仪表板，请在打开的报表或仪表板页面的顶部选择“共享”，或者在“我的工作区” > “报表”或“我的工作区” > “仪表板”列表中，选择报表或仪表板名称旁边的“共享”图标       。
 
-![](media/desktop-getting-started/pbi_gsg_getdata4.png)
+完成“共享报表”或“共享仪表板”屏幕中的信息，以发送电子邮件或获取链接，与他人共享报表或仪表板   。 
 
-**Power BI** 服务会显示报表的第一页。 沿页面的底部，你可以选择任意选项卡以显示该报表的页面。
+![共享报表](media/desktop-getting-started/gsg_share6.png)
 
- ![](media/desktop-getting-started/gsg_share4.png)
-
-你可以通过从报表画布上方选择**编辑报表**对 **Power BI** 服务中的报表做出更改。
-
-若要保存报表，请从服务中选择**文件 \> 另存为**。 你可以在 **Power BI** 服务中，从你的报表创建各种有趣的视觉对象，并可以将该报表固定到 *仪表板* 。 若要了解有关 **Power BI** 服务中的仪表板的详细信息<strong>[，请参阅有关设计出色的仪表板提示](service-dashboards-design-tips.md)</strong>。
-
- ![](media/desktop-getting-started/gsg_share5.png)
-
-保存后，选择主页上的**共享**图标。
-
- ![](media/desktop-getting-started/gsg_share6.png)
-
-你可以在这里向你的同事发送电子邮件，与他们共享仪表板。
-
- ![](media/desktop-getting-started/gsg_share7.png)
-
-有关创建、共享和修改仪表板的详细信息，请参阅[共享仪表板](service-share-dashboards.md)。
-
-你可以使用 Power BI Desktop 和 Power BI 服务来制作各种与数据相关的混搭和可视化效果。 有关详细信息，请查看下一部分。
-
-## <a name="diagnostics"></a>诊断
-
-Power BI Desktop 支持连接到诊断端口。 诊断端口允许连接到其他工具并执行跟踪以进行诊断。 不支持对模型进行任何更改！  更改模型可能会导致损坏和数据丢失。
+你可以使用 Power BI Desktop 和 Power BI 服务来制作各种与数据相关的惊艳混搭和可视化效果。 
 
 ## <a name="next-steps"></a>后续步骤
-Power BI Desktop 可用于执行多种操作。 有关其功能的详细信息，请参阅下列资源：
+Power BI Desktop 支持连接到诊断端口。 诊断端口允许连接其他工具并执行跟踪以进行诊断。 使用诊断端口时，不支持对模型进行任何更改 *。* 更改模型可能会导致损坏和数据丢失。
 
-* [Power BI Desktop 的查询概述](desktop-query-overview.md)
+要详细了解 Power BI Desktop 的多种功能，请查看以下资源：
+
+* [Power BI Desktop 中的查询概述](desktop-query-overview.md)
 * [Power BI Desktop 中的数据源](desktop-data-sources.md)
 * [连接到 Power BI Desktop 中的数据](desktop-connect-to-data.md)
-* [使用 Power BI Desktop 调整和合并数据](desktop-shape-and-combine-data.md)
+* [教程：使用 Power BI Desktop 调整和合并数据](desktop-shape-and-combine-data.md)
 * [Power BI Desktop 中的常见查询任务](desktop-common-query-tasks.md)   
