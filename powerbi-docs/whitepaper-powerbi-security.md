@@ -135,7 +135,7 @@ Power BI 服务的用户身份验证包括用户的浏览器与 Power BI 服务�
 
 Power BI 服务的用户身份验证序列如下图中的步骤所示。
 
-1. 用户通过在地址栏中（例如 https://app.powerbi.com)）键入 Power BI 地址或从 Power BI 登录页面 (https://powerbi.microsoft.com)) 选择“登录”，从浏览器发起与 Power BI 服务的连接。 使用 TLS 1.2 和 HTTPS 建立连接，浏览器和 Power BI 服务之间的所有后续通信都使用 HTTPS。 请求将发送到 Azure 流量管理器。
+1. 用户通过在地址栏中（例如 https://app.powerbi.com) ）键入 Power BI 地址或从 Power BI 登录页面 (https://powerbi.microsoft.com) ) 选择“登录”，从浏览器发起与 Power BI 服务的连接。 使用 TLS 1.2 和 HTTPS 建立连接，浏览器和 Power BI 服务之间的所有后续通信都使用 HTTPS。 请求将发送到 Azure 流量管理器。
 
 2. Azure 流量管理器检查用户的 DNS 记录，以确定部署 Power BI 的最近数据中心，并使用应将用户发送到其中的 WFE 群集的 IP 地址响应 DNS。
 
@@ -192,8 +192,7 @@ DirectQuery 和其他查询之间的区别决定了 Power BI 服务如何处理�
   - 在客户的基础结构上的本地数据网关中 - 用于本地数据源
   - 在数据移动角色中 - 用于基于云的数据源
 
-用于加密 Microsoft Azure Blob 存储的内容加密密钥 (CEK) 是随机生成的 256 位密钥。 CEK 用于加密内容的算法是 AES \_CBC\_256。
-
+用于加密 Microsoft Azure Blob 存储的内容加密密钥（CEK）是一个随机生成的256位密钥。 CEK 用于加密内容的算法是 AES \_CBC\_256。
 
 用于加密 CEK 的密钥加密密钥 (KEK) 则是预定义的 256 位密钥。 KEK 加密 CEK 采用的算法是 A256KW。
 
