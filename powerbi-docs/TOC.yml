@@ -803,10 +803,10 @@
               items:
                 - name: 通过应用连接到服务
                   href: service-connect-to-services.md
-                - name: Azure 碳足迹计算器
-                  href: service-connect-to-azure-carbon-calculator.md
                 - name: GitHub
                   href: service-connect-to-github.md
+                - name: Microsoft 可持续性计算器
+                  href: service-connect-to-microsoft-sustainability-calculator.md
                 - name: Office365Mon
                   href: service-connect-to-office365mon.md
                 - name: Project Online
@@ -887,7 +887,7 @@
           href: service-admin-premium-restart.md
         - name: 使用客户端应用程序和工具连接到数据集
           href: service-premium-connect-tools.md
-- name: Power BI 分页报表生成器
+- name: Power BI 报表生成器
   items:
     - name: 概述
       items:

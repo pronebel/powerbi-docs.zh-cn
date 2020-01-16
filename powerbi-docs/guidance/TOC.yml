@@ -10,48 +10,56 @@
     - name: 概念
       expanded: true
       items:
-        - name: 什么是星型架构？
-          href: star-schema.md
-        - name: 减少数据模型大小
-          href: import-modeling-data-reduction.md
-        - name: DIVIDE 函数与除法运算符 (/)
-          href: dax-divide-function-operator.md
-        - name: 使用 SELECTEDVALUE 而不是 VALUES
-          href: dax-selectedvalue.md
-        - name: 查询折叠的重要性
-          href: power-query-folding.md
-        - name: 适当使用错误函数
-          href: dax-error-functions.md
-        - name: 使用变量来改进公式
-          href: dax-variables.md
-        - name: 使用 COUNTROWS 而不是 COUNT
-          href: dax-countrows.md
-        - name: 不要将空白转换为值
-          href: dax-avoid-converting-blank.md
-        - name: 列和度量值引用
-          href: dax-column-measure-references.md
-        - name: 避免使用 FILTER 作为筛选器参数
-          href: dax-avoid-avoid-filter-as-filter-argument.md
-        - name: 数据流的最佳做法
-          href: ../service-dataflows-best-practices.md
-        - name: Power BI Desktop 中的 DirectQuery 模型指导
-          href: directquery-model-guidance.md
-        - name: Power Query 查询参考
-          href: power-query-referenced-queries.md
-        - name: 用报表页工具提示扩展视觉对象
-          href: report-page-tooltips.md
-        - name: 报表页钻取
-          href: report-drillthrough.md
-        - name: Power BI Desktop 中的自动日期/时间指南
-          href: auto-date-time.md
-        - name: 多对多关系指导
-          href: relationships-many-to-many.md
-        - name: 禁用 Power Query 后台刷新
-          href: power-query-background-refresh.md
-        - name: 何时使用 Power BI 中的分页报表
-          href: report-paginated-or-power-bi.md
-        - name: 将 SQL Server Reporting Services 报表迁移到 Power BI
-          href: migrate-ssrs-reports-to-power-bi.md
+        - name: 转换和构建数据
+          items:
+            - name: 查询折叠的重要性
+              href: power-query-folding.md
+            - name: Power Query 查询参考
+              href: power-query-referenced-queries.md
+            - name: 禁用 Power Query 后台刷新
+              href: power-query-background-refresh.md
+            - name: 数据流的最佳做法
+              href: ../service-dataflows-best-practices.md
+        - name: 数据建模
+          items:
+            - name: 什么是星型架构？
+              href: star-schema.md
+            - name: 减少数据模型大小
+              href: import-modeling-data-reduction.md
+            - name: Power BI Desktop 中的自动日期/时间指南
+              href: auto-date-time.md
+            - name: 多对多关系指导
+              href: relationships-many-to-many.md
+            - name: Power BI Desktop 中的 DirectQuery 模型指导
+              href: directquery-model-guidance.md
+        - name: DAX
+          items:
+            - name: DIVIDE 函数与除法运算符 (/)
+              href: dax-divide-function-operator.md
+            - name: 适当使用错误函数
+              href: dax-error-functions.md
+            - name: 使用 SELECTEDVALUE 而不是 VALUES
+              href: dax-selectedvalue.md
+            - name: 使用 COUNTROWS 而不是 COUNT
+              href: dax-countrows.md
+            - name: 使用变量来改进公式
+              href: dax-variables.md
+            - name: 不要将空白转换为值
+              href: dax-avoid-converting-blank.md
+            - name: 列和度量值引用
+              href: dax-column-measure-references.md
+            - name: 避免使用 FILTER 作为筛选器参数
+              href: dax-avoid-avoid-filter-as-filter-argument.md
+        - name: 报表创建
+          items:
+            - name: 用报表页工具提示扩展视觉对象
+              href: report-page-tooltips.md
+            - name: 报表页钻取
+              href: report-drillthrough.md
+            - name: 何时使用 Power BI 中的分页报表
+              href: report-paginated-or-power-bi.md
+            - name: 将 SQL Server Reporting Services 报表迁移到 Power BI
+              href: migrate-ssrs-reports-to-power-bi.md
     - name: 白皮书
       items:
         - name: 白皮书概述
