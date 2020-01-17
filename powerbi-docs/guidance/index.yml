@@ -12,12 +12,12 @@ metadata:
   author: maggiesMSFT
   ms.author: maggies
   ms.date: 01/14/2020
-  ms.openlocfilehash: 091fbef4ce3a3cc1e5e3c0d0e4f26a25598f2556
-  ms.sourcegitcommit: df8bcc65f0df69bf1fc1d47eb06575742eac1622
+  ms.openlocfilehash: 2bebde937666503739f6b0afe3ce20a8fe4baa8c
+  ms.sourcegitcommit: 0ae9328e7b35799d5d9613a6d79d2f86f53d9ab0
   ms.translationtype: HT
   ms.contentlocale: zh-CN
-  ms.lasthandoff: 01/15/2020
-  ms.locfileid: "75953693"
+  ms.lasthandoff: 01/16/2020
+  ms.locfileid: "76039887"
 landingContent:
 - title: Power BI 指南
   linkLists:
@@ -77,9 +77,11 @@ landingContent:
     links:
     - text: 用报表页工具提示扩展视觉对象
       url: report-page-tooltips.md
-    - text: 报表页钻取
+    - text: 使用报表页钻取
       url: report-drillthrough.md
     - text: 何时使用 Power BI 中的分页报表
       url: report-paginated-or-power-bi.md
+    - text: 打印分页报表时避免出现空白页
+      url: report-paginated-blank-page.md
     - text: 将 SQL Server Reporting Services 报表迁移到 Power BI
       url: migrate-ssrs-reports-to-power-bi.md

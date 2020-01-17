@@ -357,6 +357,8 @@
               href: visuals/power-bi-visualization-kpi.md
             - name: 创建和使用矩阵可视化效果
               href: visuals/desktop-matrix-visual.md
+            - name: 创建和使用 Power Apps 视觉对象
+              href: visuals/power-bi-visualization-powerapp.md
             - name: 关于 Power BI 问答视觉对象
               href: visuals/power-bi-visualization-q-and-a.md
             - name: 创建和使用 R 可视化效果
@@ -1035,6 +1037,8 @@
               href: report-server/configure-kerberos-powerbi-reports.md
             - name: 远程配置移动应用访问
               href: report-server/configure-powerbi-mobile-apps-remote.md
+            - name: 配置 WAP 和 AD FS
+              href: report-server/connect-adfs-wap-report-server.md
             - name: 使用 Azure AD 进行远程移动访问
               href: 'https://docs.microsoft.com/azure/active-directory/manage-apps/application-proxy-integrate-with-power-bi'
             - name: 托管 Excel 工作簿
