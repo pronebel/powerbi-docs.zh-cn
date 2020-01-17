@@ -7,18 +7,18 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 11/19/2019
 ms.author: mohaali
-ms.openlocfilehash: 9805b98df7f606e61412ca9dee7dc0467a1649a3
-ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
+ms.openlocfilehash: a17f98859e637621fbae037610359c8f29391a98
+ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/06/2020
-ms.locfileid: "74791823"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "75762269"
 ---
-# <a name="introduction-to-power-bi-qa-visual"></a>Power BI Q&A 视觉对象简介
+# <a name="introduction-to-power-bi-qa-visualizations"></a>Power BI Q&A 可视化效果简介
 
 [!INCLUDE [power-bi-service-new-look-include](../includes/power-bi-service-new-look-include.md)]
 
-## <a name="what-is-the-qa-visual"></a>什么是 Q&A 视觉对象
+## <a name="what-are-qa-visualizations"></a>什么是 Q&A 可视化效果？
 
 使用 Q&A 视觉对象，用户可以提出自然语言问题并以视觉对象的形式获得答案。 
 

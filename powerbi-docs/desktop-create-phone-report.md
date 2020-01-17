@@ -9,14 +9,14 @@ ms.topic: conceptual
 ms.date: 11/18/2019
 ms.author: maggies
 LocalizationGroup: Create reports
-ms.openlocfilehash: 16af5a6c8b5341067c458329c68da0a1a0fe14a5
-ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
+ms.openlocfilehash: 2dca4094ed0c21c421aa2fef89353e6f210b3ea4
+ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/06/2020
-ms.locfileid: "74311468"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "75761470"
 ---
-# <a name="optimize-reports-for-the-power-bi-mobile-apps"></a>针对 Power BI 移动应用优化报表
+# <a name="optimize-power-bi-reports-for-the-mobile-app"></a>优化移动应用的 Power BI 报表
 通过创建纵向布局可以改善在移动应用中查看报表的体验。 在 Power BI Desktop 和 Power BI 服务中，可以重新排列报表视觉对象并调整其大小，以便在纵向模式下获得最佳体验。  
 
 正在查找有关在移动设备上查看报表的信息？ 请尝试参阅此快速入门：[浏览 Power BI 移动应用中的仪表板和报表](consumer/mobile/mobile-apps-quickstart-view-dashboard-report.md)。

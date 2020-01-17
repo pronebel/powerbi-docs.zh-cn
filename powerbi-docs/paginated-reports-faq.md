@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: conceptual
 ms.date: 12/03/2019
-ms.openlocfilehash: c1f8a274a17d85cf8f86d2e33ff63f3e9b686742
-ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
+ms.openlocfilehash: f5030f4fe820ac8ba14d0f7255cdbe1da5f7e9a3
+ms.sourcegitcommit: b68a47b1854588a319a5a2d5d6a79bba2da3a4e6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/06/2020
-ms.locfileid: "74831236"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "75732052"
 ---
 # <a name="paginated-reports-in-power-bi-faq"></a>Power BI 中的分页报表：常见问题解答 
 
@@ -148,7 +148,7 @@ Azure Analysis Services、Azure SQL 数据库和 Power BI 数据源支持 SSO。
 
 ### <a name="can-i-use-power-bi-embedded-to-embed-my-paginated-reports-into-an-app-im-hosting"></a>我可以使用 Power BI Embedded 将我的分页报表嵌入到我正在管理的应用中吗？
 
-SaaS 嵌入（包括安全嵌入支持）现已可用。  计划今年晚些时候提供 PaaS 嵌入支持。
+SaaS 嵌入（包括安全嵌入支持）现已可用。 有关 PaaS 嵌入，请参阅[在应用程序中为客户嵌入 Power BI 分页报表](developer/embed-paginated-reports-customers.md)教程。
 
 ### <a name="can-i-drill-through-from-a-power-bi-report-to-a-paginated-report"></a>我是否可以从 Power BI 报表钻取到分页报表？
 

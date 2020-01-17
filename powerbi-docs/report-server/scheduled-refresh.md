@@ -6,14 +6,14 @@ ms.reviewer: kayu
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
-ms.date: 11/01/2017
+ms.date: 01/09/2020
 ms.author: maggies
-ms.openlocfilehash: 90f08abd119e7dfc0bf639eeb2ed8334fbdfa234
-ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
+ms.openlocfilehash: 7052b0f045b98ce8e25822f76fe0b8391e298a47
+ms.sourcegitcommit: 4b926ab5f09592680627dca1f0ba016b07a86ec0
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/06/2020
-ms.locfileid: "74699006"
+ms.lasthandoff: 01/10/2020
+ms.locfileid: "75837611"
 ---
 # <a name="power-bi-report-scheduled-refresh-in-power-bi-report-server"></a>Power BI 报表服务器中 Power BI 报表计划的刷新
 通过对 Power BI 报表设置计划的刷新，可使报表数据保持最新状态。
@@ -61,8 +61,10 @@ Power BI 报表服务器为所有计划的操作维护事件队列。 它会每�
 
 有关 Analysis Services 中内存设置的信息，请参阅[内存属性](https://docs.microsoft.com/sql/analysis-services/server-properties/memory-properties)。
 
+### <a name="data-model-size-limit"></a>数据模型大小限制
+在计划刷新期间加载到内部 Analysis Services 引擎中的数据模型具有 2000 MB (2GB) 的最大大小。 无法配置此最大大小。 如果数据模型增长超过 2GB，你将收到刷新错误“结果的长度超出了目标大型类型的长度限制(2GB)。” 在这种情况下，我们建议在 Analysis Services 实例中托管该模型，并在报表中使用到该模型的实时连接。
+
 ## <a name="next-steps"></a>后续步骤
 在 Power BI 报表上配置[计划的刷新](configure-scheduled-refresh.md)
 
 更多问题？ [尝试咨询 Power BI 社区](https://community.powerbi.com/)
-

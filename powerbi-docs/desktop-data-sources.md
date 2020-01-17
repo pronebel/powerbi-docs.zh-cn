@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 10/25/2019
+ms.date: 01/08/2020
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 0f24675d4185efd7524d9e8c453c919d64e0364a
-ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
+ms.openlocfilehash: fd25e4ca6357dbfa5954eeabe0bf97fb6ccb8a1c
+ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/06/2020
-ms.locfileid: "75222119"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "75761355"
 ---
 # <a name="data-sources-in-power-bi-desktop"></a>Power BI Desktop 中的数据源
 
@@ -30,6 +30,10 @@ ms.locfileid: "75222119"
 
 > [!NOTE]
 > Power BI 团队正在不断扩展适用于 Power BI Desktop  和 Power BI 服务  的数据源。 因此，你通常会看到工作过程中的数据源版本标记为 *Beta* 或*预览*。 标记为 *Beta* 或*预览*的任何数据源所提供的支持和功能有限，不应在生产环境中使用。 此外，任何标记为 Power BI Desktop Beta 或预览版的数据源可能都无法在 Power BI 服务或其他 Microsoft 服务中使用，直到数据源正式发布 (GA)     。
+
+> [!NOTE]
+> Power BI Desktop 中的许多数据连接器都需要 Internet Explorer 10（或更高版本）进行身份验证。 
+
 
 ## <a name="data-sources"></a>数据源
 数据类型分为以下类别：

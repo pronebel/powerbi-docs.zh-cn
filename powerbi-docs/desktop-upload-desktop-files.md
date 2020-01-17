@@ -9,14 +9,14 @@ ms.topic: conceptual
 ms.date: 08/29/2019
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: fa8e901d73d6ae0f35e74a427354368e75977202
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: d528ba824986ff171688a55aee2ca2febe523236
+ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73865351"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "75759281"
 ---
-# <a name="publish-from-power-bi-desktop"></a>从 Power BI Desktop 进行发布
+# <a name="publish-datasets-and-reports-from-power-bi-desktop"></a>从 Power BI Desktop 发布数据集和报表
 将 **Power BI Desktop** 文件发布到 **Power BI 服务**后，模型中的数据以及你在“**报表**”视图中生成的所有报表都会发布到 Power BI 工作区。 你将看到一个同名的新数据集以及工作区导航器中的若干报表。
 
 从 **Power BI Desktop** 发布文件等效于在 Power BI 中使用“**获取数据**”连接并上载 **Power BI Desktop** 文件。

@@ -10,14 +10,14 @@ ms.topic: conceptual
 ms.date: 05/07/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: e0b6f3017b69540ea2a95280ceadfe7a05a9c474
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 8aeae0075ed32a832c27f475ef3786b7df76576c
+ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73878749"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "75761763"
 ---
-# <a name="bidirectional-cross-filtering-using-directquery-in-power-bi-desktop"></a>在 Power BI Desktop 中使用 DirectQuery 启用双向交叉筛选
+# <a name="enable-bidirectional-cross-filtering-for-directquery-in-power-bi-desktop"></a>在 Power BI Desktop 中使用 DirectQuery 启用双向交叉筛选
 
 筛选表创建相应数据视图时，报表创建者（和数据建模者）会在确定如何将筛选应用于报表时面临挑战；表的筛选上下文只处于关系的一方，另一方却没有，并且通常需要复杂的 DAX 公式来获取所需结果。
 

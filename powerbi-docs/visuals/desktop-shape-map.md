@@ -9,14 +9,14 @@ ms.topic: conceptual
 ms.date: 11/14/2019
 ms.author: mihart
 LocalizationGroup: Transform and shape data
-ms.openlocfilehash: eac0c6fab686a3b5cf63d035ea19b52ab83aa339
-ms.sourcegitcommit: 768e1e4b19fe8c7627010127c2420d63021cb542
+ms.openlocfilehash: 3a043a343994c02a916102b83fe79d1ccd5208bf
+ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/20/2019
-ms.locfileid: "74199453"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "75762315"
 ---
-# <a name="shape-maps-in-power-bi-desktop-preview"></a>Power BI Desktop 中的形状地图（预览版）
+# <a name="create-shape-map-visualizations-in-power-bi-desktop-preview"></a>在 Power BI Desktop 中创建形状地图可视化效果（预览）
 
 [!INCLUDE [power-bi-visuals-desktop-banner](../includes/power-bi-visuals-desktop-banner.md)]
 
@@ -115,7 +115,7 @@ https://www.justice.gov/usao/resources/annual-statistical-reports
 
 ### <a name="australia-states"></a>澳大利亚：州
 
-| ID | 缩写 | iso | 名称 | 邮政编码 |
+| ID | 缩写 | iso | name | 邮政编码 |
 | --- | --- | --- | --- | --- |
 | au-wa |WA |AU-WA |西澳大利亚 |WA |
 | au-vic |Vic |AU-VIC |维多利亚州 |VIC |
@@ -128,7 +128,7 @@ https://www.justice.gov/usao/resources/annual-statistical-reports
 
 ### <a name="austria-states"></a>奥地利：州
 
-| ID | iso | 名称 | 中文名称 | 邮政编码 |
+| ID | iso | name | 中文名称 | 邮政编码 |
 | --- | --- | --- | --- | --- |
 | at-wi |AT-9 |维也纳 |维也纳 |WI |
 | at-vo |AT-8 |福尔贝格州 |福尔贝格州 |VO |
@@ -178,7 +178,7 @@ https://www.justice.gov/usao/resources/annual-statistical-reports
 
 ### <a name="canada-provinces"></a>加拿大：省
 
-| ID | iso | 名称 | 邮政编码 |
+| ID | iso | name | 邮政编码 |
 | --- | --- | --- | --- |
 | ca-nu |CA-NU |努勒维特 |NU |
 | ca-nt |CA-NT |西北地区 |NT |
@@ -196,7 +196,7 @@ https://www.justice.gov/usao/resources/annual-statistical-reports
 
 ### <a name="france-regions"></a>法国：大区
 
-| ID | 名称 | 中文名称 |
+| ID | name | 中文名称 |
 | --- | --- | --- |
 | 奥弗涅-罗讷-阿尔卑斯 |  |  |
 | 勃艮第-弗朗什-孔泰 |  |  |
@@ -204,11 +204,11 @@ https://www.justice.gov/usao/resources/annual-statistical-reports
 | 中央-卢瓦尔河谷大区 |中央-卢瓦尔河谷大区 |中央-卢瓦尔河谷大区 |
 | 科西嘉岛 |科西嘉岛 |科西嘉岛 |
 | 大东区 |  |  |
-| 瓜德罗普 | |   |
+| 瓜德罗普岛 | |   |
 | 上法兰西 |  |  |
 | 法兰西岛大区 |法兰西岛大区 |法兰西岛大区 |
 | 留尼旺 |  |  |
-| 马约特  |  |  |
+| 马约特岛  |  |  |
 | 诺曼底 |诺曼底 |  |
 | 新阿基坦 |  |  |
 | 奥克西塔尼  |  |  |
@@ -218,7 +218,7 @@ https://www.justice.gov/usao/resources/annual-statistical-reports
 
 ### <a name="germany-states"></a>德国：州
 
-| ID | iso | 名称 | 中文名称 | 邮政编码 |
+| ID | iso | name | 中文名称 | 邮政编码 |
 | --- | --- | --- | --- | --- |
 | de-be |DE-BE |柏林 |柏林 |BE |
 | de-th |DE-TH |图林根 |图林根 |TH |
@@ -270,7 +270,7 @@ https://www.justice.gov/usao/resources/annual-statistical-reports
 
 ### <a name="italy-regions"></a>意大利：大区
 
-| ID | iso | 名称 | 中文名称 | 邮政编码 |
+| ID | iso | name | 中文名称 | 邮政编码 |
 | --- | --- | --- | --- | --- |
 | it-vn |IT-34 |威尼托 |威尼托 |VN |
 | it-vd |IT-23 |瓦莱达奥斯塔 |瓦莱达奥斯塔 |VD |
@@ -295,7 +295,7 @@ https://www.justice.gov/usao/resources/annual-statistical-reports
 
 ### <a name="mexico-states"></a>墨西哥：州
 
-| ID | 缩写 | iso | 名称 | 中文名称 | 邮政编码 |
+| ID | 缩写 | iso | name | 中文名称 | 邮政编码 |
 | --- | --- | --- | --- | --- | --- |
 | mx-zac |Zac. |MX-ZAC |萨卡特卡斯 |萨卡特卡斯 |ZA |
 | mx-yuc |Yuc. |MX-YUC |尤卡坦 |尤卡坦 |YU |
@@ -332,7 +332,7 @@ https://www.justice.gov/usao/resources/annual-statistical-reports
 
 ### <a name="netherlands-provinces"></a>荷兰：省
 
-| ID | iso | 名称 | 中文名称 |
+| ID | iso | name | 中文名称 |
 | --- | --- | --- | --- |
 | nl-zh |NL-ZH |南荷兰 |南荷兰 |
 | nl-ze |NL-ZE |泽兰 |泽兰 |
@@ -349,7 +349,7 @@ https://www.justice.gov/usao/resources/annual-statistical-reports
 
 ### <a name="uk-countries"></a>英国：个国家/地区
 
-| ID | iso | 名称 |
+| ID | iso | name |
 | --- | --- | --- |
 | gb-wls |GB-WLS |威尔士 |
 | gb-sct |GB-SCT |苏格兰 |
@@ -358,16 +358,16 @@ https://www.justice.gov/usao/resources/annual-statistical-reports
 
 ### <a name="usa-states"></a>美国：州
 
-| ID | 名称 | 邮政编码 |
+| ID | name | 邮政编码 |
 | --- | --- | --- |
 | us-mi |密歇根 |MI |
-| us-ak |阿拉斯加 |AK |
+| us-ak |阿拉斯加州 |AK |
 | us-hi |夏威夷 |HI |
 | us-fl |佛罗里达 |FL |
 | us-la |路易斯安那 |LA |
 | us-ar |阿肯色 |AR |
 | us-sc |南卡罗来纳 |SC |
-| us-ga |格鲁吉亚 |GA |
+| us-ga |格鲁吉亚州 |GA |
 | us-ms |密西西比 |MS |
 | us-al |阿拉巴马 |AL |
 | us-nm |新墨西哥 |NM |
@@ -410,7 +410,7 @@ https://www.justice.gov/usao/resources/annual-statistical-reports
 | us-nd |北达科他 |ND |
 | us-me |缅因 |ME |
 | us-mt |蒙大拿 |MT |
-| us-wa |华盛顿 |WA |
+| us-wa |华盛顿州 |WA |
 
 ## <a name="next-steps"></a>后续步骤
 

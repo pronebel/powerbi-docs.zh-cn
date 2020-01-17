@@ -8,12 +8,12 @@ ms.topic: conceptual
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.custom: mvc
-ms.openlocfilehash: fe91de89e7eec601c516895089e3dcc03eff14ea
-ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
+ms.openlocfilehash: 4e7616ec3ce6552130848bc0508bf8b9ac8ac965
+ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/04/2020
-ms.locfileid: "75657204"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "75762591"
 ---
 # <a name="embed-a-power-bi-report-server-report-using-an-iframe-in-sharepoint-server"></a>在 SharePoint Server 中使用 iFrame 嵌入“Power BI 报表服务器”报表
 
@@ -25,7 +25,7 @@ ms.locfileid: "75657204"
 * 安装和配置 [Power BI 报表服务器](https://powerbi.microsoft.com/report-server/)。
 * 安装[已针对 Power BI 报表服务器进行优化的 Power BI Desktop](install-powerbi-desktop.md)。
 * 安装和配置 [SharePoint](https://docs.microsoft.com/sharepoint/install/install) 环境。
-* 仅在使用 SharePoint Online 时支持 Internet Explorer 11。  在任一应用场景中，都可以使用其他支持浏览器。
+* 仅当文档模式设置为 IE11 (Edge) 模式或使用 SharePoint Online 时，才支持 Internet Explorer 11。 可以将其他受支持的浏览器用于本地 SharePoint 和 SharePoint Online。
 
 ## <a name="create-the-power-bi-report-url"></a>创建 Power BI 报表 URL
 

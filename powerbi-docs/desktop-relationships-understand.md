@@ -8,14 +8,14 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 10/15/2019
 ms.author: v-pemyer
-ms.openlocfilehash: 0029d275e5180c29e8653f549d8450014362b59b
-ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
+ms.openlocfilehash: 56ff7d09530030d1a1ae046a3439022cbf638b9d
+ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/06/2020
-ms.locfileid: "75304248"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "75760563"
 ---
-# <a name="model-relationships-in-power-bi-desktop"></a>Power BI Desktop 中的模型关系
+# <a name="create-model-relationships-in-power-bi-desktop"></a>在 Power BI Desktop 中创建模型关系
 
 本文主要面向使用 Power BI Desktop 的 Import 数据建模者。 它是一个重要的模型设计主题，对于提供直观、准确且最理想的模型至关重要。
 
@@ -67,7 +67,7 @@ Power BI Desktop what-if 参数是一个用于创建断开连接的表的功能�
 
 在 Power BI Desktop 中创建关系时，设计器将自动检测并设置基数类型。 设计器之所以可以执行此操作，是因为它会查询模型以了解哪些列包含唯一值。 对于 Import 模型，它使用内部存储统计信息；对于 DirectQuery 模型，它向数据源发送分析查询。 但是，有时可能会出错。 出错的原因有二：表中尚未加载数据，或者你希望包含重复值的列当前包含唯一值。 在任一情况下，如果任何“一”侧列包含唯一值（或者表中尚未加载数据行），你都可以更新基数类型。
 
-“一对多”和“多对一”基数选项基本相同，并且它们也是最常见的基数类型。
+“一对多”和“多对一”基数选项基本相同，并且它们也是最常见的基数类型   。
 
 配置一对多或多对一关系时，将选择与列关联顺序匹配的关系。 设想一下，如何使用每个表中的 **ProductID** 列来配置从 **Product** 表到 **Sales** 表的关系。 基数类型将为_一对多_，因为 **Product** 表中的 **ProductID** 列包含唯一值。 如果将表反向关联，即 **Sales** 到 **Product**，则基数为_多对一_。
 
@@ -95,7 +95,7 @@ _单_交叉筛选方向表示“单向”，_双_表示“双向”。 在两个
 
 在一对多关系中，交叉筛选方向始终从“一”侧开始，也可以选择从“多”侧开始（双向）。 在一对一关系中，交叉筛选方向始终同时从两个表开始。 最后，在多对多关系中，交叉筛选方向可以从其中一个表开始，也可以同时从两个表开始。 请注意，当基数类型包括“一”侧时，此类筛选器将始终从该侧传播。
 
-如果将交叉筛选方向设置为“双”，那么在实施行级别安全性 (RLS) 规则时，可以使用一个附加属性来应用双向筛选。 有关 RLS 的详细信息，请参阅 [Power BI Desktop 行级别安全性 (RLS)](desktop-rls.md) 一文。
+如果将交叉筛选方向设置为“双”，那么在实施行级别安全性 (RLS) 规则时，可以使用一个附加属性来应用双向筛选  。 有关 RLS 的详细信息，请参阅 [Power BI Desktop 行级别安全性 (RLS)](desktop-rls.md) 一文。
 
 也可以通过模型计算来修改关系交叉筛选方向（包括禁用筛选器传播）。 这可以通过 [CROSSFILTER](/dax/crossfilter-function) DAX 函数来实现。
 
@@ -158,7 +158,7 @@ Import 或 DirectQuery 模型从 Vertipaq 缓存或源数据库中获取其所�
 
 当查询引擎可以确定关系的“一”侧时，模型关系为_强_。 它已确认“一”侧列包含唯一值。 所有一对多的岛内关系都是强关系。
 
-下面的示例中有两个强关系，均标记为“S”。关系包括 Vertipaq 岛中包含的一对多关系和 DirectQuery 源中包含的一对多关系。
+下面的示例中有两个强关系，均标记为“S”  。关系包括 Vertipaq 岛中包含的一对多关系和 DirectQuery 源中包含的一对多关系。
 
 ![由两个带有强关系标记的岛组成的 Composite 模型示例](media/desktop-relationships-understand/data-island-example-strong.png)
 
@@ -188,7 +188,7 @@ Import 或 DirectQuery 模型从 Vertipaq 缓存或源数据库中获取其所�
 - 该关系使用多对多基数类型（即使其中一列或两列都包含唯一值）
 - 该关系跨岛（这种情况仅适用于 Composite 模型）
 
-下面的示例中有两个弱关系，均标记为“W”。这两个关系包括一对多跨岛关系和 Vertipaq 岛中包含的多对多关系。
+下面的示例中有两个弱关系，均标记为“W”  。这两个关系包括一对多跨岛关系和 Vertipaq 岛中包含的多对多关系。
 
 ![由两个带有弱关系标记的岛组成的 Composite 模型示例](media/desktop-relationships-understand/data-island-example-weak.png)
 

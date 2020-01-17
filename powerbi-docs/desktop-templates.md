@@ -9,14 +9,14 @@ ms.topic: conceptual
 ms.date: 08/16/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: c2001a83a1fb4a5d605a7ac1c752fe4bbd4c5a51
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: a10de05fed8a77a165797dda7155ffb81bbad815
+ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73879565"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "75759988"
 ---
-# <a name="using-templates-in-power-bi-desktop"></a>在 Power BI Desktop 中使用模板
+# <a name="create-report-templates-for-power-bi-desktop"></a>为 Power BI Desktop 创建报表模板
 
 借助 Power BI Desktop，你可以创建在整个组织中共享见解的醒目报表  。 借助 Power BI Desktop 模板，可以通过创建基于现有模板的报表模板来简化工作，你或组织中的其他用户可以将其用作新建报表布局、数据模型和查询的起点  。 Power BI Desktop 中的模板有助于你快速启动和标准化报表的创建  。
 

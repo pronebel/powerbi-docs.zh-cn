@@ -7,13 +7,13 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
-ms.date: 02/25/2019
-ms.openlocfilehash: 73ef45b5dbed8535b13aa557cb52929d4eea0e46
-ms.sourcegitcommit: c395fe83d63641e0fbd7c98e51bbab224805bbcc
+ms.date: 01/08/2020
+ms.openlocfilehash: 222edd901409fa71d98308f27407838d54564834
+ms.sourcegitcommit: 4b926ab5f09592680627dca1f0ba016b07a86ec0
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/21/2019
-ms.locfileid: "74265586"
+ms.lasthandoff: 01/10/2020
+ms.locfileid: "75836600"
 ---
 # <a name="configure-credentials-programmatically-for-power-bi"></a>以编程方式为 Power BI 配置凭据
 
@@ -61,85 +61,13 @@ ms.locfileid: "74265586"
     var gateway = pbiClient.Gateways.GetGatewayById(datasource.GatewayId);
     ```
 
-3. 通过采用 RSA 加密算法的网关公钥加密凭据字符串。
-
-    使用以下帮助程序类进行加密：
-
-    ```csharp
-        public static class AsymmetricKeyEncryptionHelper
-        {
-            private const int SegmentLength = 85;
-            private const int EncryptedLength = 128;
-
-            /// <summary>
-
-            /// Encrypts credentials using the RSA algorithm
-
-            /// </summary>
-
-            public static string EncodeCredentials(string credentialData, string publicKeyExponent, string publicKeyModulus)
-            {
-                using (RSACryptoServiceProvider rsa = new RSACryptoServiceProvider(EncryptedLength * 8))
-                {
-                    var parameters = rsa.ExportParameters(false);
-
-                    parameters.Exponent = Convert.FromBase64String(publicKeyExponent);
-
-                    parameters.Modulus = Convert.FromBase64String(publicKeyModulus);
-
-                    rsa.ImportParameters(parameters);
-
-                    return Encrypt(credentialData, rsa);
-                }
-            }
-
-             private static string Encrypt(string plainText, RSACryptoServiceProvider rsa)
-            {
-
-                byte[] plainTextArray = Encoding.UTF8.GetBytes(plainText);
-
-                // Split the message into different segments, each segment's length is 85. So, the result may be 85,85,85,20. 
-
-                bool hasIncompleteSegment = plainTextArray.Length % SegmentLength != 0; 
-
-                int segmentNumber = (!hasIncompleteSegment) ? (plainTextArray.Length / SegmentLength) : ((plainTextArray.Length SegmentLength) + 1);
-
-                byte[] encryptedData = new byte[segmentNumber * EncryptedLength];
-
-                int encryptedDataPosition = 0;
-
-                for (var i = 0; i < segmentNumber; i++)
-                {
-                    int lengthToCopy;
-
-                    if (i == segmentNumber - 1 && hasIncompleteSegment)
-
-                        lengthToCopy = plainTextArray.Length % SegmentLength;
-
-                    else
-
-                        lengthToCopy = SegmentLength;
-
-                    var segment = new byte[lengthToCopy];
-
-                    Array.Copy(plainTextArray, i * SegmentLength, segment, 0, lengthToCopy);
-
-                    var segmentEncryptedResult = rsa.Encrypt(segment, true);
-
-                    Array.Copy(segmentEncryptedResult, 0, encryptedData, encryptedDataPosition, segmentEncryptedResult.Length);
-
-                    encryptedDataPosition += segmentEncryptedResult.Length;
-
-                }
-
-                return Convert.ToBase64String(encryptedData);
-
-            }
-
-        }
-
-        var encryptedCredentials = AsymmetricKeyEncryptionHelper.EncodeCredentials(credentials);
-    ```
+3. 网关公钥加密凭据字符串。 不同的网关版本可能具有不同的公钥大小。
+    
+    请参阅 SDK 代码中的示例，该示例位于 PowerBI-CSharp GitHub 存储库 [PowerBI-CSharp/sdk/PowerBI.Api/Extensions/V2/](https://github.com/microsoft/PowerBI-CSharp/tree/master/sdk/PowerBI.Api/Extensions/V2)。
+    * [AsymmetricKeyEncryptor.cs](https://github.com/microsoft/PowerBI-CSharp/blob/master/sdk/PowerBI.Api/Extensions/V2/AsymmetricKeyEncryptor.cs)
+    * [Asymmetric1024KeyEncryptionHelper.cs](https://github.com/microsoft/PowerBI-CSharp/blob/master/sdk/PowerBI.Api/Extensions/V2/Asymmetric1024KeyEncryptionHelper.cs)
+    * [AsymmetricHigherKeyEncryptionHelper.cs](https://github.com/microsoft/PowerBI-CSharp/blob/master/sdk/PowerBI.Api/Extensions/V2/AsymmetricHigherKeyEncryptionHelper.cs)
+    * [AuthenticatedEncryption.cs](https://github.com/microsoft/PowerBI-CSharp/blob/master/sdk/PowerBI.Api/Extensions/V2/AuthenticatedEncryption.cs)
 
 4. 使用加密凭据生成凭据详细信息。
 

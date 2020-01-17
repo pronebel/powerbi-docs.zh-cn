@@ -10,14 +10,14 @@ ms.topic: conceptual
 ms.date: 04/05/2019
 ms.author: maggies
 LocalizationGroup: Samples
-ms.openlocfilehash: d5fcc6866d564367d2a29dc00493a959409ea2ed
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: b14b9a8a0978876942de789548d9741fa3932152
+ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73858992"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "75762214"
 ---
-# <a name="what-sample-data-is-available-to-use-with-power-bi"></a>有哪些示例数据可用于 Power BI？
+# <a name="get-sample-data-for-power-bi"></a>获取 Power BI 示例数据
 假设你初次接触 Power BI，想要试用但没有任何数据。  或者你有一个数据集。 由于你（尚）不了解 Power BI 的工作原理，担心由于某种原因可能损坏数据集？
 
 不需要有压力！ obviEnce ([www.obvience.com](http://www.obvience.com/)) 和 Microsoft 已创建示例供你使用，直到你可以更放心地使用 Power BI。  数据经过匿名处理并表示不同行业：金融、人力资源、销售等。 此外，我们的联机文档在教程和示例中使用了这些相同的示例，因此你将能够继续学习。      
@@ -30,7 +30,7 @@ ms.locfileid: "73858992"
 
 ## <a name="usage-guidelines-for-the-power-bi-sample-excel-workbooks"></a>Power BI 示例 Excel 工作簿的使用准则
 
-© 2015 Microsoft Corporation。 保留所有权利。 文档和工作簿“按原样”提供。 工作簿中陈述的信息和观点（包括 URL 和其他 Internet 网站引用）如有更改，恕不另行通知。 你须自行承担使用风险。 某些示例仅供说明之用，纯属虚构。 不作任何实际关联，也不推断任何实际关联。 对于此处提供的信息，Microsoft 不作任何明示或暗示的担保。
+© 2015 Microsoft Corporation。 All rights reserved. 文档和工作簿“按原样”提供。 工作簿中陈述的信息和观点（包括 URL 和其他 Internet 网站引用）如有更改，恕不另行通知。 你须自行承担使用风险。 某些示例仅供说明之用，纯属虚构。 不作任何实际关联，也不推断任何实际关联。 对于此处提供的信息，Microsoft 不作任何明示或暗示的担保。
 
 对于任何 Microsoft 产品中的任何知识产权，工作簿不为你提供任何法律权利。 你可以复制此工作簿并将其用于内部参考。
 
@@ -127,10 +127,10 @@ ObviEnce 是侧重于 Microsoft Business Intelligence 的 ISV 和知识产权 (I
    * [销售和市场营销示例](https://go.microsoft.com/fwlink/?LinkId=529785)
 2. 保存下载的文件。 保存文件的位置不同会造成一定的差异。
 
-   * ![本地](media/sample-datasets/power-bi-local-file2.png) **本地** - 如果将文件保存到计算机上的本地驱动器中或者组织中的其他位置，则在 Power BI 中，可以将文件导入到 Power BI。 你的文件实际上一直保存在本地驱动器中，因此整个文件并未导入到 Power BI。 实际上，将在 Power BI 网站中创建新的数据集，并且数据（某些情况下为数据模型）将加载到数据集中。 如果你的文件有任何报表，则这些报表会显示在你的 Power BI 网站中的“报表”下。
-   * ![OneDrive 企业](media/sample-datasets/power-bi-onedrive-file.png) **OneDrive - 企业** – 如果有 OneDrive for Business，并且使用登录 Power BI 的同一帐户登录到其中，OneDrive for Business 是将 Excel、Power BI 或 .CSV 文件中的工作与在 Power BI 中的数据集、报表和仪表板保持同步的有史以来最佳位置。 由于 Power BI 和 OneDrive 都位于云中，Power BI 大约每小时会连接你在 OneDrive 上的文件一次。 如果发现任何更改，你的数据集、报表和仪表板会在 Power BI 中自动更新。
-   * ![OneDrive 个人](media/sample-datasets/power-bi-onedrive-file.png) **OneDrive - 个人** – 如果你将文件保存到自己的 OneDrive 帐户，你会像使用 OneDrive for Business 那样获得很多相同优势。 最大的不同之处在于，当你首次连接至你的文件（使用“获取数据 > 文件 > OneDrive – 个人”）时，你将需要使用 Microsoft 帐户登录 OneDrive，这通常与你用于登录 Power BI 的帐户不同。 当使用你的 Microsoft 帐户登录 OneDrive 时，请务必选择“使我保持登录状态”选项。 这样一来，Power BI 将能够大约每小时连接你的文件一次，并确保你在 Power BI 中的数据集同步。
-   * ![SharePoint 团队网站](media/sample-datasets/power-bi-sharepoint2.png) **SharePoint 团队网站** – 将 Power BI 文件保存到 SharePoint 团队网站与保存到 OneDrive for Business 大致相同。 最大的区别是你从 Power BI 连接到文件的方式。 你可以指定一个 URL 或连接到根文件夹。
+   * ![本地](media/sample-datasets/power-bi-local-file2.png)本地 - 如果你将文件保存到计算机上的本地驱动器中或者组织中的其他位置，则在 Power BI 中，你可以将文件导入到 Power BI  。 你的文件实际上一直保存在本地驱动器中，因此整个文件并未导入到 Power BI。 实际上，将在 Power BI 网站中创建新的数据集，并且数据（某些情况下为数据模型）将加载到数据集中。 如果你的文件有任何报表，则这些报表会显示在你的 Power BI 网站中的“报表”下。
+   * ![OneDrive 企业](media/sample-datasets/power-bi-onedrive-file.png) OneDrive - 企业 - 如果有 OneDrive for Business，并且使用登录 Power BI 的同一帐户登录到其中，OneDrive for Business 是将 Excel、Power BI 或 .CSV 文件中的工作与在 Power BI 中的数据集、报表和仪表板保持同步的有史以来最佳位置  。 由于 Power BI 和 OneDrive 都位于云中，Power BI 大约每小时会连接你在 OneDrive 上的文件一次。 如果发现任何更改，你的数据集、报表和仪表板会在 Power BI 中自动更新。
+   * ![OneDrive 个人](media/sample-datasets/power-bi-onedrive-file.png) OneDrive - 个人 - 如果你将文件保存到自己的 OneDrive 帐户，你会像使用 OneDrive for Business 那样获得很多相同优势  。 最大的不同之处在于，当你首次连接至你的文件（使用“获取数据 > 文件 > OneDrive – 个人”）时，你将需要使用 Microsoft 帐户登录 OneDrive，这通常与你用于登录 Power BI 的帐户不同。 当使用你的 Microsoft 帐户登录 OneDrive 时，请务必选择“使我保持登录状态”选项。 这样一来，Power BI 将能够大约每小时连接你的文件一次，并确保你在 Power BI 中的数据集同步。
+   * ![SharePoint 团队网站](media/sample-datasets/power-bi-sharepoint2.png) SharePoint 团队网站 - 将 Power BI 文件保存到 SharePoint 团队网站与保存到 OneDrive for Business 大致相同  。 最大的区别是你从 Power BI 连接到文件的方式。 你可以指定一个 URL 或连接到根文件夹。
 1. 打开 Power BI 服务 (app.powerbi.com)，并登录。
 
    > [!TIP]

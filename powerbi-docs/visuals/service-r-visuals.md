@@ -9,14 +9,14 @@ ms.topic: conceptual
 ms.date: 11/14/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: efbeda396217c1a715f9a5d7ae4827c5f8d09a25
-ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
+ms.openlocfilehash: 837412a85eff14c8eaa72fbf1625cadde524cc76
+ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/06/2020
-ms.locfileid: "74698983"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "75762200"
 ---
-# <a name="r-visuals-in-power-bi"></a>Power BI 中的 R 视觉对象
+# <a name="create-and-use-r-visuals-in-power-bi"></a>创建并使用 Power BI 中的 R 视觉对象
 R 视觉对象暂时只能在 **Power BI Desktop** 中创建，然后发布到 Power BI 服务。 要详细了解如何创建 R 视觉对象，请参阅[使用 R 创建 Power BI 视觉对象](../desktop-r-visuals.md)。
 
 ## <a name="viewing-r-visuals-in-the-power-bi-service"></a>在 Power BI 服务中查看 R 视觉对象
@@ -87,6 +87,7 @@ Power BI 服务中的 R 视觉对象有几个限制：
 
 * R 视觉对象支持仅限于在[了解支持哪些 R 程序包](../service-r-packages-support.md)中标识的包。 目前不提供对自定义程序包的支持。
 * 数据大小限制 - R 视觉对象用于绘制的数据仅限 150,000 行。 如果选择了 150,000 行以上，则只会使用前 150,000 行，且在图像上显示一条消息。
+* 解决方法 - 所有 R 视觉对象均以 72 DPI 显示。
 * 计算时间限制 — 如果 R 视觉对象计算时间超过 60 秒，则脚本将超时，从而导致错误。
 * R 视觉对象在数据更新、筛选和突出显示时进行刷新。 但是，图像本身不可交互，并且不支持工具提示。
 * R 视觉对象响应突出显示的其他视觉对象，但你不能单击 R 视觉对象中的元素以进行其他元素的交叉筛选。

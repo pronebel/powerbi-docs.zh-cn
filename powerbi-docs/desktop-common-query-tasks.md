@@ -9,14 +9,14 @@ ms.topic: conceptual
 ms.date: 05/07/2019
 ms.author: davidi
 LocalizationGroup: Transform and shape data
-ms.openlocfilehash: 2b1cf2a7f10fd7249dcdec26b5c5f5d12ff15aca
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 116575898812e82f2f15126d0fee640902367ace
+ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73878671"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "75761740"
 ---
-# <a name="common-query-tasks-in-power-bi-desktop"></a>Power BI Desktop 中的常见查询任务
+# <a name="perform-common-query-tasks-in-power-bi-desktop"></a>在 Power BI Desktop 中执行常见查询任务
 使用 Power BI Desktop 的**查询编辑器**窗口时，可执行很多常用任务。 本文档演示了这些常见的任务，并提供其他信息的链接。 
 
 本文展示了下列常见查询任务：
@@ -175,17 +175,17 @@ Power BI Desktop 提供了一组全面的公式类别。 有关详细信息和�
 * 记录
   * 信息
   * 转换
-  * 所选内容
+  * 选择
   * 序列化
 * 列表
   * 信息
-  * 所选内容
+  * 选择
   * 转换
   * 成员资格
   * Set 运算
   * 排序
   * 平均值
-  * 相加
+  * 加法
   * 数值
   * 生成器
 * 表
@@ -207,7 +207,7 @@ Power BI Desktop 提供了一组全面的公式类别。 有关详细信息和�
 * 行
 * 表达式
 * 函数
-* 错误
+* Error
 * 比较器
 * 拆分器
 * 组合器

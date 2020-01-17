@@ -6,17 +6,17 @@ ms.reviewer: juluczni
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: tutorial
-ms.date: 10/22/2019
+ms.date: 01/10/2020
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 80ed285a22c0272f3bd268397e0e019396b941d7
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 413e30c04ac02e6b957f03494bf6a488edeacac0
+ms.sourcegitcommit: 801d2baa944469a5b79cf591eb8afd18ca4e00b1
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73870997"
+ms.lasthandoff: 01/11/2020
+ms.locfileid: "75885331"
 ---
-# <a name="key-influencers-visualization"></a>关键影响因素可视化效果
+# <a name="create-key-influencers-visualizations"></a>创建关键影响因素可视化效果
 
 [!INCLUDE [power-bi-visuals-desktop-banner](../includes/power-bi-visuals-desktop-banner.md)]
 
@@ -57,7 +57,7 @@ ms.locfileid: "73870997"
    > 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/fDb5zZ3xmxU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-你的产品经理希望找出哪些因素会导致客户对云服务进行负面评论。 若要继续了解，请打开 Power BI Desktop 中的[客户反馈 .PBIX 文件](https://github.com/Microsoft/powerbi-desktop-samples/blob/master/2019/customerfeedback.pbix)。 也可以下载 [Power BI 服务 或 Power BI Desktop 的客户反馈 Excel 文件](https://github.com/Microsoft/powerbi-desktop-samples/blob/master/2019/customerfeedback.xlsx)。 选择任一链接，然后在打开的 GitHub 页面中选择“下载”  。
+你的产品经理希望找出哪些因素会导致客户对云服务进行负面评论。 若要继续了解，请打开 Power BI Desktop 中的[客户反馈 .PBIX 文件](https://github.com/microsoft/powerbi-desktop-samples/tree/master/Monthly%20Desktop%20Blog%20Samples/2019/customerfeedback.pbix)。 也可以下载 [Power BI 服务 或 Power BI Desktop 的客户反馈 Excel 文件](https://github.com/microsoft/powerbi-desktop-samples/tree/master/Monthly%20Desktop%20Blog%20Samples/2019/customerfeedback.xlsx)。 选择任一链接，然后在打开的 GitHub 页面中选择“下载”  。
 
 > [!NOTE]
 > 客户反馈数据集基于 [Moro et al., 2014] S. Moro, P. Cortez 和 P. Rita. “一种预测银行电话营销成功的数据驱动方法。” Decision Support Systems, Elsevier, 62:22-31, June 2014  。 
@@ -267,6 +267,8 @@ ms.locfileid: "73870997"
  
 关键影响因素视觉对象具有一些限制：
 
+
+
 - 不支持直接查询
 - 不支持与 Azure Analysis Services 和 SQL Server Analysis Services 的实时连接
 - 不支持发布到 Web
@@ -358,6 +360,9 @@ AI 可视化效果可以分析类别字段和数值字段。 在类别字段的�
 
 ![如何确定影响因素](media/power-bi-visualization-influencers/power-bi-error5.png)
 
+**关键影响因素的数据点限制是多少？**
+我们对具有 10,000 个数据点的示例运行分析。 一侧的气泡显示我们找到的所有影响因素。 另一侧的柱形图和散点图遵循我们对于这些核心视觉对象的采样策略。
+
 **如何计算类别分析的关键影响因素？**
 
 AI 可视化效果使用 [ML.NET](https://dotnet.microsoft.com/apps/machinelearning-ai/ml-dotnet) 在后台运行逻辑回归来计算关键影响因素。 逻辑回归是统计模型，用于相互比较不同的组。 
@@ -386,7 +391,7 @@ AI 可视化效果使用 [ML.NET](https://dotnet.microsoft.com/apps/machinelearn
 
 决策树完成运行后，将采用所有分支（例如安全评论和大型企业）并创建 Power BI 筛选器。 此筛选器组合打包为视觉对象中的细分市场。 
  
-**为什么将更多字段移动到“解释依据”字段时，某些因素会成为影响因素或不再是影响因素？**  
+**为什么将更多字段移动到“解释依据”字段时，某些因素会成为影响因素或不再是影响因素？** 
 
 可视化效果同时评估所有解释因素。 一个因素单独来看时可能是一个影响因素，但与其他因素一起考虑时，它可能就不是了。 假设需要分析导致房价高的原因，卧室和房子大小是解释因素：
 

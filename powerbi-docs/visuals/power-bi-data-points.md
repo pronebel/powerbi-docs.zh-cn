@@ -2,21 +2,21 @@
 title: 大型数据集、数据点限制和数据策略
 description: 视觉对象和数据缩减策略的数据限制
 author: mihart
-ms.reviewer: amac
+ms.reviewer: justyna
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 11/07/2018
+ms.date: 01/10/2020
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 1ae0fc339d3837c8fc28cc604b3ddb840807dcd5
-ms.sourcegitcommit: 0d7ad791a2d2bef45d5d60e38e0af4c9fc22187b
+ms.openlocfilehash: 320e8a25206a069c43800295ab64a7ab87afbcf0
+ms.sourcegitcommit: 801d2baa944469a5b79cf591eb8afd18ca4e00b1
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/13/2019
-ms.locfileid: "74011299"
+ms.lasthandoff: 01/11/2020
+ms.locfileid: "75885254"
 ---
-# <a name="data-point-limits-and-strategies-by-visual-type"></a>数据点限制和策略（按视觉对象类型）
+# <a name="apply-data-point-limits-and-strategies-by-visual-type"></a>应用数据点限制和策略（按视觉对象类型）
 
 在 Power BI 中呈现视觉对象时，可视化效果必须快速而准确。 这就需要为每个视觉对象类型配置的基础算法。 Power BI 中的视觉对象必须足够灵活以处理不同大小的数据集。 某些数据集只有少量数据点，而其他数据集具有数千万亿字节的数据点。 本文介绍了 Power BI 用于呈现可视化效果的策略。
 
@@ -75,7 +75,7 @@ ms.locfileid: "74011299"
  使用相同策略作为柱形图。 请注意，**组合图**中的行不会使用**折线图**使用的高密度算法。
 
 ### <a name="custom-visuals"></a>自定义视觉对象
-最多可以获得 30,000 个，但由视觉对象作者指示要使用的策略
+最多可以获得 30,000 个，但由视觉对象作者指示要使用的策略。 默认限制为 1000，但视觉对象创建者可以对其进行更改，最大值为 30,000。
 
 ### <a name="doughnut"></a>圆环图
 - 最大点数：3,500
@@ -119,6 +119,9 @@ ms.locfileid: "74011299"
 - 行：通过一次使用 500 行的窗口进行虚拟化
 - 列：前 100 个分组列 
 - 值：多个值不会计入数据缩减
+
+### <a name="powerapps-visual"></a>PowerApps 视觉对象
+最多可以获得 30,000 个，但由视觉对象作者指示要使用的策略。 默认限制为 1000，但视觉对象创建者可以对其进行更改，最大值为 30,000。
 
 ### <a name="radial-gauge"></a>径向仪表
 无缩减策略

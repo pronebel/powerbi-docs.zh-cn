@@ -9,14 +9,14 @@ ms.topic: conceptual
 ms.date: 06/11/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 4dd6f185ea7d4f4664626586f1374f67bd34f784
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 0e870163552e64594e574669ed8dea6937633282
+ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73870933"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "75757706"
 ---
-# <a name="doughnut-charts-in-power-bi"></a>Power BI 中的圆环图
+# <a name="create-and-use-doughnut-charts-in-power-bi"></a>在 Power BI 中创建和使用圆环图
 
 [!INCLUDE [power-bi-visuals-desktop-banner](../includes/power-bi-visuals-desktop-banner.md)]
 
@@ -30,7 +30,7 @@ ms.locfileid: "73870933"
    
 2. 查找**零售分析示例 PBIX 文件**的副本
 
-1. 在报表视图中打开**零售分析示例 PBIX 文件** ![报表视图屏幕截图图标](media/power-bi-visualization-kpi/power-bi-report-view.png)。
+1. 在报表视图中打开**零售分析示例 PBIX 文件**![报表视图屏幕截图图标](media/power-bi-visualization-kpi/power-bi-report-view.png)。
 
 1. 选择 ![黄色选项卡的屏幕截图。](media/power-bi-visualization-kpi/power-bi-yellow-tab.png) ，以添加新报表页。
 
@@ -43,7 +43,7 @@ ms.locfileid: "73870933"
      
    ![包含所选圆环图的可视化效果窗格](media/power-bi-visualization-doughnut-charts/power-bi-doughnut-chart.png)
 
-4. 依次选择“**项**”\>“**类别**”，将其添加到**图例**区域中。 
+4. 依次选择“项”\>“类别”，将其添加到图例区域中    。 
      
     ![字段窗格旁边的圆环图](media/power-bi-visualization-doughnut-charts/power-bi-doughnut-done.png)
 

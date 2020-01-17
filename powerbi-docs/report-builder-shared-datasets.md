@@ -1,20 +1,20 @@
 ---
-title: 在 Power BI 分页报表生成器中使用共享数据集
-description: 从 Power BI 分页报表生成器连接到共享数据集。
-ms.date: 07/23/2019
+title: 使用 Power BI 共享数据集创建分页报表 - Power BI 报表生成器
+description: 在 Power BI 报表生成器中基于 Power BI 共享数据集创建分页报表。
+ms.date: 01/03/2020
 ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: conceptual
 author: maggiesMSFT
 ms.author: maggies
-ms.openlocfilehash: c44f90bc29887a5431c893803cf4910e0e5093d3
-ms.sourcegitcommit: a5853ef44ed52e80eabee3757bb6887fa400b75b
+ms.openlocfilehash: 335b93720718bb72027c29c6093aad952cc4cdb2
+ms.sourcegitcommit: b09de56e971b8844a3771413d1f56d49b31baaaf
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/07/2019
-ms.locfileid: "73791266"
+ms.lasthandoff: 01/07/2020
+ms.locfileid: "75691466"
 ---
-# <a name="use-shared-datasets-in-power-bi-report-builder"></a>在 Power BI 报表生成器中使用共享数据集
+# <a name="create-a-paginated-report-based-on-a-power-bi-shared-dataset"></a>基于 Power BI 共享数据集创建分页报表
 
 可以将在 Power BI Desktop 中创建的数据集用作 Power BI 报表生成器分页报表的数据源。 假设有这样一个场景：你已经在 Power BI Desktop 中创建了一个 Power BI 报表。 你花了很多时间来设计数据模型，然后创建了一个包含各种出色视觉对象的精美 Power BI 报表。 此报表中有一个包含多个行的矩阵，需要滚动页面才能查看全部内容。 报表阅览者希望打印该报表，以便显示矩阵中的所有行。 Power BI 分页报表可以实现此目的：打印分为多页的一张表或一个矩阵，并包含页眉页脚以及设计的完美页面布局。 它可进一步完善 Power BI Desktop 报表。 要想报表基于完全相同的数据且没有任何差异，需要使用同一数据集。
 
@@ -99,13 +99,13 @@ ms.locfileid: "73791266"
 
     ![查询结果](media/report-builder-shared-datasets/power-bi-report-builder-query-results.png)
 
-1. 选择**确定**。
+1. 选择“确定”。 
 
     在“数据集属性”对话框的“查询”窗口中可以查看查询   。
 
     ![“数据集属性”对话框](media/report-builder-shared-datasets/power-bi-report-builder-dataset-properties.png)
 
-1. 选择**确定**。
+1. 选择“确定”。 
 
     在“报表数据”窗格中，现在可以看到新数据集及其字段列表。
 

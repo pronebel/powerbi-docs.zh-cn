@@ -9,14 +9,14 @@ ms.topic: conceptual
 ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Model your data
-ms.openlocfilehash: 87a72ba5ac69334c04e65871c81a9006e183d88d
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 8e1babaa39a1f52a06c69dcb9aac2441ca02452b
+ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73876378"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "75761263"
 ---
-# <a name="data-view-in-power-bi-desktop"></a>Power BI Desktop 中的数据视图
+# <a name="work-with-data-view-in-power-bi-desktop"></a>使用 Power BI Desktop 中的数据视图
 数据视图有助于检查、浏览和了解 Power BI Desktop 模型中的数据   。 它与你在查询编辑器中查看表、列和数据的方式不同。  在数据视图中，你所看到的数据是在将其加载到模型之后的样子。 
 
 进行数据建模时，有时想要查看表或列中的实际内容而不想在报表画布上创建视觉对象，通常需要查看到行级别。 如果要创建度量值和计算列，或者需要识别数据类型或数据类别，这会非常有用。

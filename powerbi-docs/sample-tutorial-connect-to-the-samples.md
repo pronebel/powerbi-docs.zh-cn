@@ -10,14 +10,14 @@ ms.topic: conceptual
 ms.date: 07/19/2019
 ms.author: maggies
 LocalizationGroup: Samples
-ms.openlocfilehash: 90136f39d9f2a8e330748b56d6302bb75d2a31fe
-ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
+ms.openlocfilehash: c1fbd57f1c92c9900178eb212a1369d25fdf838a
+ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/06/2020
-ms.locfileid: "73873833"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "75762154"
 ---
-#  <a name="connect-to-the-samples-in-the-power-bi-service"></a>连接到 Power BI 服务中的示例
+#  <a name="import-and-open-sample-packs-for-power-bi"></a>为 Power BI 导入和打开示例包
 
 本教程介绍如何： 
 - 导入示例内容包、将其添加到 Power BI 服务以及打开内容。 内容包  是一种示例类型，其中，数据集与仪表板和报表捆绑在一起。 

@@ -9,14 +9,14 @@ ms.topic: conceptual
 ms.date: 11/18/2019
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: d22ac09ac357f3060e4fd79a4e9344a059dace53
-ms.sourcegitcommit: 7f27b9eb0e001034e672050735ab659b834c54a3
+ms.openlocfilehash: 08d222f03991bdf605f8e465ff0152d40d07d815
+ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/22/2019
-ms.locfileid: "74311330"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "75761878"
 ---
-# <a name="use-bookmarks-in-power-bi-desktop-to-share-insights-and-build-stories"></a>使用 Power BI Desktop 中的书签来共享见解和创建情景
+# <a name="create-bookmarks-in-power-bi-desktop-to-share-insights-and-build-stories"></a>在 Power BI Desktop 中创建书签以共享见解和创建情景
 使用 Power BI Desktop 中的书签，可以捕获当前配置的报表页视图（其中包含视觉对象的筛选和状态）  。 稍后，可以通过选择已保存书签恢复相应状态。 
 
 还可以创建一系列书签，按所需的顺序进行排列，随后在演示文稿中逐个展示所有书签，以突出显示一系列见解，或要通过视觉对象和报表诠释的情景。 
@@ -102,7 +102,7 @@ ms.locfileid: "74311330"
 
 若要将书签分配给对象： 
 
-1. 在报表画布中选择对象。 然后，从显示的“设置形状格式”窗格中，启用“操作”滑块    。
+1. 在报表画布中选择对象。 然后，从显示的“**设置形状格式**”窗格中，启用“**操作**”**滑块**。
 
 2. 展开“操作”部分  。 在“类型”下，选择“书签”   。
 

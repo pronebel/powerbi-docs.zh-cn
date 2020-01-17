@@ -8,14 +8,14 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 10/24/2019
 ms.author: v-pemyer
-ms.openlocfilehash: 623a0bbd187a997003ce7b82cc76d5c4fbe9ce44
-ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
+ms.openlocfilehash: 740760121635cc0dccb0f2aa64750ebf649d8de3
+ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/06/2020
-ms.locfileid: "73868071"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "75761194"
 ---
-# <a name="directquery-model-troubleshooting-in-power-bi-desktop"></a>Power BI Desktop 中的 DirectQuery 模型疑难解答
+# <a name="troubleshoot-developing-directquery-models-in-power-bi-desktop"></a>在 Power BI Desktop 中开发 DirectQuery 模型的疑难解答
 
 本文面向使用 Power BI Desktop 或 Power BI 服务开发 Power BI DirectQuery 模型的数据建模者。 本文介绍如何诊断性能问题、如何获取更详细的信息以优化报表。
 

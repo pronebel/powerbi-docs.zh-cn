@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 11/04/2019
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 046a8f61154db5956efa10a0e10e847bbb69374c
-ms.sourcegitcommit: c395fe83d63641e0fbd7c98e51bbab224805bbcc
+ms.openlocfilehash: 69295657702f995786379b18d3ad1ed3641bcbb8
+ms.sourcegitcommit: b68a47b1854588a319a5a2d5d6a79bba2da3a4e6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/21/2019
-ms.locfileid: "74265039"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "75729801"
 ---
 # <a name="create-power-bi-visuals-using-r"></a>使用 R 创建 Power BI 视觉对象
 借助 Power BI Desktop，可以使用 R 将数据可视化  。 [R](https://mran.revolutionanalytics.com/documents/what-is-r) 是用于统计计算和图形的一种语言和环境。
@@ -129,17 +129,19 @@ Power BI Desktop 中的 R 视觉对象有以下限制：
 
 * 数据大小：R 视觉对象用于绘制的数据仅限 150,000 行。 如果选择了 150,000 行以上，则只会使用前 150,000 行，且在图像上显示一条消息。
 
+* 分辨率：所有 R 视觉对象均以 72 DPI 显示。
+
 * 计算时间：如果 R 视觉对象计算时间超过五分钟，则会导致超时错误。
 
 * 关系：如同其他 Power BI Desktop 视觉对象，如果选择的不同表中数据字段间没有定义关系，则会发生错误。
 
 * 刷新：R 视觉对象在数据更新、筛选和突出显示时进行刷新。 但是，图像本身不是交互的并且不能为交叉筛选的源。
 
-* 突出显示：如果突出显示其他视觉对象，R 视觉对象会响应，但你不能选择 R 视觉对象中的元素以进行其他元素的交叉筛选。
+* 突出显示：如果突出显示其他视觉对象，但你不能选择 R 视觉对象中的元素以进行其他元素的交叉筛选，R 视觉对象会进行响应。
 
 * 显示设备：只有绘制到 R 默认显示设备的绘图会正确地显示在画布上。 避免显式使用不同的 R 显示设备。
 
-* RRO 安装：在此版本中，32 位版本的 Power BI Desktop 不会自动标识 RRO 安装；因此必须在“选项和设置” > “选项” > “R 脚本”中手动提供 R 安装目录的路径    。
+* RRO 安装：在此版本中，32 位版本的 Power BI Desktop 不会自动标识 RRO 安装；必须在“选项和设置” > “选项” > “R 脚本”中手动提供 R 安装目录的路径    。
 
 ## <a name="next-steps"></a>后续步骤
 有关 Power BI 中的 R 的详细信息，请参阅以下文章：

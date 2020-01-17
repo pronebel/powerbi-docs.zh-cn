@@ -9,14 +9,14 @@ ms.topic: tutorial
 ms.date: 05/31/2019
 ms.author: davidi
 LocalizationGroup: Learn more
-ms.openlocfilehash: 8d1b253d5e84bb15dea4612978ee970faccb7a1a
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 712864afdea5431fa630d052271e8cb2c05e9dd2
+ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73866090"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "75759873"
 ---
-# <a name="tutorial-combine-sales-data-from-excel-and-an-odata-feed"></a>教程：合并来自 Excel 和 OData 源的销售数据
+# <a name="tutorial-analyze-sales-data-from-excel-and-an-odata-feed"></a>教程：分析来自 Excel 和 OData 源的销售数据
 
 拥有多个数据源的数据是很常见的。 例如，可以拥有两个数据库，一个用于产品信息，另一个用于销售信息。 使用 Power BI Desktop  ，可以合并来自不同源的数据，以创建令人感兴趣的、引人注目的数据分析和可视化效果。 
 
@@ -75,7 +75,7 @@ ms.locfileid: "73866090"
    
    ![获取 OData](media/desktop-tutorial-analyzing-sales-data-from-excel-and-an-odata-feed/get_odata.png)
    
-2. 在“OData 源”对话框中，粘贴 Northwind OData 源 URL `https://services.odata.org/V3/Northwind/Northwind.svc/`  。 选择**确定**。
+2. 在“OData 源”对话框中，粘贴 Northwind OData 源 URL `https://services.odata.org/V3/Northwind/Northwind.svc/`  。 选择“确定”。 
    
    ![OData 源对话框](media/desktop-tutorial-analyzing-sales-data-from-excel-and-an-odata-feed/get_odata2.png)
    
@@ -120,7 +120,7 @@ Power Query 编辑器可以用来创建计算和自定义字段以丰富你的�
 
 3. 在 = 后的“自定义列公式”字段中，输入 [Order_Details.UnitPrice] \*[Order_Details.Quantity]     。 （你还可以从可用列  滚动框中选择字段名称，然后选择“<< 插入”  ，而不是键入它们。） 
 
-4. 选择**确定**。
+4. 选择“确定”。 
    
    ![自定义列对话框](media/desktop-tutorial-analyzing-sales-data-from-excel-and-an-odata-feed/11.png)
 

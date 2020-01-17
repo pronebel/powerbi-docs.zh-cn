@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 10/24/2019
+ms.date: 01/08/2020
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: 64e9ff8f4952abe79a62b6b805596554b32aa6c9
-ms.sourcegitcommit: c395fe83d63641e0fbd7c98e51bbab224805bbcc
+ms.openlocfilehash: f14734f168abca1003bd5b6c773c4c70daf53d15
+ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/21/2019
-ms.locfileid: "74265451"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "75762085"
 ---
 # <a name="power-bi-for-us-government-customers"></a>适用于美国政府客户的 Power BI
 **Power BI 服务**有一个可供美国政府客户使用的版本，作为 **Office 365 美国政府社区**订阅的一部分。 本文中讨论的 **Power BI 服务**版本是为美国政府客户专门设计的，独立且不同于 **Power BI 服务**的商业版本。
@@ -59,6 +59,7 @@ Azure 分布在多个云中。 默认情况下，租户可以打开对云专属�
 * **仪表板和报表的使用情况指标** - 使用情况指标不适用于报表和仪表板。 客户可以使用审核日志数据，获取其组织内的内容的使用情况信息。
 * **数据流** - 数据流不可用。
 * **分页报表** - 分页报表目前仅适用于 US Gov 弗吉尼亚州。  已计划提供 US Gov 德克萨斯州支持，但尚未发布。
+* 嵌入政府社区云 (GCC) 的 Power BI 内容，只能通过 Office 365 SKU 完成。 GCC High 客户可以使用 [Office 365 或 Azure SKU](developer/embedded-faq.md#what-is-the-difference-between-the-a-skus-in-azure-and-the-em-skus-in-office-365)。
 
 如果已将 **Power BI** 免费版许可证分配给你的帐户，则这些帐户将在 **Power BI** 服务的商业版中运行，而不属于 **Power BI 美国政府版**产品/服务的组成部分。 对于这些免费版帐户，可能会遇到以下问题：
 

@@ -6,18 +6,22 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 11/22/2019
+ms.date: 01/08/2020
 ms.author: kfollis
-ms.openlocfilehash: be7f95b2bbbd6e5e6314c7fd57869a30c176746c
-ms.sourcegitcommit: 320d83ab392ded71bfda42c5491acab3d9d357b0
+ms.openlocfilehash: 2578f8621140a64b85e6765d80d860c1489a5900
+ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/10/2019
-ms.locfileid: "74958485"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "75762545"
 ---
 # <a name="power-bi-data-sources"></a>Power BI 数据源
 
 下表展示了 Power BI 支持的数据集的数据源，其中包括有关 DirectQuery 和本地数据网关的信息。 有关数据流的信息，请参阅[连接到 Power BI 数据流的数据源](service-dataflows-data-sources.md)。
+
+> [!NOTE]
+> Power BI Desktop 中的大多数数据连接都需要 Internet Explorer 10（或更高版本）进行身份验证。 
+
 
 | 数据源 | 从桌面连接 | 从服务连接并刷新 | DirectQuery/实时连接 | 网关（支持） | 网关（必需） |
 |---|---|---|---|---|---|---|---|
@@ -33,7 +37,7 @@ ms.locfileid: "74958485"
 | Azure 成本管理 | 是 | 是 | 否 | 否 | 否 |
 | Azure 数据资源管理器 (kusto) | 是 | 是 | 是 | 否 | 否 |
 | Azure Data Lake Storage Gen1 | 是 | 是 | 否 | 否 | 否 |
-| Azure Data Lake Storage Gen2 | 是 | 是 | 否 | 否 | 否 |
+| Azure Data Lake Storage Gen2 | 是 | 是 | 否 | 是 | 否 |
 | Azure DevOps | 是 | 是 | 否 | 否 | 否 |
 | Azure DevOps Server | 是 | 是 | 否 | 是 | 是 |
 | Azure HDInsight (HDFS) | 是 | 是 | 否 | 否 | 否 |
@@ -65,8 +69,8 @@ ms.locfileid: "74958485"
 | Google BigQuery | 是 | 是 | 否 | 否 | 否 |
 | Hadoop 文件 (HDFS) | 是 | 否 | 否 | 否 | 否 |
 | HDInsight 交互式查询 | 是 | 是 | 是 | 否 | 否 |
-| IBM DB2 | 是 | 是 | 是 | 是 | 是 |
-| IBM Informix 数据库 | 是 | 是 | 否 | 是 | 是 |
+| IBM DB2 | 是 | 是 | 是 | 是 | 否 |
+| IBM Informix 数据库 | 是 | 是 | 否 | 是 | 否 |
 | IBM Netezza | 是 | 是 | 是 | 是 | 是 |
 | Impala | 是 | 是 | 是 | 是 | 是 |
 | Indexima | 是 | 是 | 是 | 是 | 是 |
@@ -95,7 +99,7 @@ ms.locfileid: "74958485"
 | Planview Enterprise One - CTM | 是 | 是 | 否 | 否 | 否 |
 | Planview Enterprise One - PRM | 是 | 是 | 否 | 否 | 否 |
 | Planview Projectplace | 是 | 是 | 否 | 否 | 否 |
-| PostgreSQL | 是 | 是 | 是 | 是 | 是 |
+| PostgreSQL | 是 | 是 | 是 | 是 | 否 |
 | Power BI 数据流 | 是 | 是 | 否 | 否 | 否 |
 | Power BI 数据集 | 是 | 是 | 是 | 否 | 否 |
 | Power platform 数据流 | 是 | 是 | 否 | 否 | 否 |
@@ -114,7 +118,7 @@ ms.locfileid: "74958485"
 | SharePoint 列表 | 是 | 是 | 否 | 是 | 否 <sup>4</sup> |
 | SharePoint Online 列表 | 是 | 是 | 否 | 是 <sup>2</sup> | 否 |
 | Smartsheet | 是 | 是 | 否 | 否 | 否 |
-| Snowflake | 是 | 是 | 是 | 是 | 是 |
+| Snowflake | 是 | 是 | 是 | 是 | 否 |
 | Spark | 是 | 是 | 是 | 是 | 否 |
 | SparkPost | 是 | 是 | 否 | 否 | 否 |
 | SQL Server | 是 | 是 | 是 | 是 | 是 |

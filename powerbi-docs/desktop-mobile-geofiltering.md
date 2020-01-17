@@ -8,14 +8,14 @@ ms.topic: conceptual
 ms.date: 01/16/2018
 ms.author: maggies
 LocalizationGroup: Model your data
-ms.openlocfilehash: c054bc933cb1eaac7475ac0c7649c7e0f77f503b
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: b30310f78dca919474baf6d5870294bfc05dcacf
+ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73878084"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "75760987"
 ---
-# <a name="set-geographic-filters-in-power-bi-desktop-for-the-mobile-apps"></a>在 Power BI Desktop 中为移动应用设置地理筛选器
+# <a name="set-geographic-filters-in-power-bi-desktop-for-use-in-the-mobile-app"></a>在 Power BI Desktop 中为移动应用中的使用设置地理筛选器
 在 Power BI Desktop 中，可以针对列进行[地理数据分类](desktop-data-categorization.md)，以便 Power BI Desktop 知道如何处理报表中可视化对象的值。 还有一个好处就是，当你或你的同事在 Power BI 移动应用中查看相应的报表时，Power BI 会自动提供与你所在地理位置匹配的地理位置筛选器。 
 
 比如说，你是一名需要会见客户的销售经理，那么你会想要快速筛选出目标客户的销售总额和收入。 你想要按省/自治区、城市或实际地址对当前位置的数据进行分类。 之后，如果还有时间，你会想要去拜访附近的其他客户。 可以[按你所在位置来筛选报表以查找这些客户](consumer/mobile/mobile-apps-geographic-filtering.md)。
@@ -60,5 +60,5 @@ ms.locfileid: "73878084"
 
 ## <a name="next-steps"></a>后续步骤
 * [Power BI Desktop 中的数据分类](desktop-data-categorization.md)  
-* 是否有任何问题？ [尝试咨询 Power BI 社区](https://community.powerbi.com/)
+* 是否有任何问题? [尝试咨询 Power BI 社区](https://community.powerbi.com/)
 

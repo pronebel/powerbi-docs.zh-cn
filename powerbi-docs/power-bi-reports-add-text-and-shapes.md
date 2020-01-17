@@ -10,14 +10,14 @@ ms.topic: conceptual
 ms.date: 05/29/2019
 ms.author: maggies
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 3da18269817ef89dfff9524c8875814430bc6cce
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: b90bfd9482e28faa8d9dfb0d089ca07656663b53
+ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73874449"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "75762453"
 ---
-# <a name="text-boxes-and-shapes-in-power-bi-reports"></a>Power BI 报表中的文本框和形状
+# <a name="add-text-boxes-and-shapes-to-power-bi-reports"></a>添加文本框和形状到 Power BI 报表
 可以使用 Power BI 服务和 Power BI Desktop 将文本框和形状添加到报表中。 在这两种情况下，必须具有报表的编辑权限。 如果已在 Power BI 服务中与你共享报表，你将没有编辑权限。 
 
 请观看 Will 使用 Power BI Desktop [向报表添加静态图像](/learn/modules/visuals-in-power-bi/12-formatting)，然后按照以下步骤，改用 Power BI 服务亲自尝试一下。

@@ -9,14 +9,14 @@ ms.topic: conceptual
 ms.date: 08/20/2018
 ms.author: otarb
 LocalizationGroup: Create reports
-ms.openlocfilehash: 567b775cb7323dbd343f2a26d4abc0d60885ab7a
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 21ec26182efe2d0b08b2a64227264d5b80756962
+ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73877984"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "75760718"
 ---
-# <a name="create-power-bi-visuals-using-python"></a>使用 Python 创建 Power BI 视觉对象
+# <a name="create-power-bi-visuals-by-using-python"></a>使用 Python 创建 Power BI 视觉对象
 借助 Power BI Desktop  ，可以使用 Python  将数据可视化。
 
 ## <a name="prerequisites"></a>先决条件
@@ -167,6 +167,7 @@ plt.show()
 Power BI Desktop 中的 Python 视觉对象有一些限制  ：
 
 * 数据大小限制 - Python 视觉对象用于绘制的数据仅限 150,000 行。 如果选择了 150,000 行以上，则只会使用前 150,000 行，且在图像上显示一条消息。
+* 解决方法 - 所有 Python 视觉对象均以 72 DPI 显示。
 * 计算时间限制 - 如果 Python 视觉对象计算时间超过 5 分钟，则执行将超时并生成一个错误。
 * 关系 - 如同其他 Power BI Desktop 视觉对象，如果选择的不同表中数据字段间没有定义关系，则会发生错误。
 * Python 视觉对象在数据更新、筛选和突出显示时进行刷新。 但是，图像本身不是交互的并且不能为交叉筛选的源。

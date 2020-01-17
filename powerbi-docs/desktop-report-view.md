@@ -9,15 +9,15 @@ ms.topic: conceptual
 ms.date: 09/19/2019
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 06b8c9d0be2ec8bc5b350767263bfc5e0ab4ec81
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 3e40d26570e37167c61ffd3241cfe96a90c55fa0
+ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73877863"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "75760540"
 ---
-# <a name="report-view-in-power-bi-desktop"></a>Power BI Desktop 中的报表视图
-如果你一直在使用 Power BI，就知道它非常便于创建可为数据提供动态透视和深入见解的报表。 在 Power BI Desktop 中，Power BI 还具有更高级的功能。 通过 Power BI Desktop，可创建高级查询、混合多个源中的数据和创建表格之间的关系等。
+# <a name="work-with-report-view-in-power-bi-desktop"></a>使用 Power BI Desktop 中的报表视图
+如果你一直在使用 Power BI，就会知道它可以非常方便的为数据创建动态透视和提供深入见解的报表。 在 Power BI Desktop 中，Power BI 还具有更高级的功能。 通过 Power BI Desktop，可创建高级查询、混合多个源中的数据和创建表格之间的关系等。
 
 Power BI Desktop 提供**报表视图**，可在其中创建任何数量具有可视化内容的报表页。 此处报表视图所提供的设计体验与 Power BI 中报表的编辑视图所提供的几乎相同。 可四处移动可视化内容，进行复制粘贴、合并等。
 

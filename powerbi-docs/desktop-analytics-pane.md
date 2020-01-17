@@ -9,14 +9,14 @@ ms.topic: conceptual
 ms.date: 08/29/2019
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: a3ba6f8faf22d3854ecfcbc40e7931ca887de0f7
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 25d80cd81eb06913eb24c17ef10db47fa4d2bea5
+ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73876653"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "75761901"
 ---
-# <a name="using-the-analytics-pane-in-power-bi-desktop"></a>使用 Power BI Desktop 中的“分析”窗格
+# <a name="use-the-analytics-pane-in-power-bi-desktop"></a>使用 Power BI Desktop 中的“分析”窗格
 通过 **Power BI Desktop** 的“**分析**”窗格，你可以向视觉对象添加动态参考行，并重点关注重要趋势或见解。  “分析”  窗格位于 Power BI Desktop 的“可视化效果”  区域中。
 
 ![](media/desktop-analytics-pane/analytics-pane_1.png)
@@ -100,7 +100,7 @@ ms.locfileid: "73876653"
 
 最后，非笛卡尔视觉对象当前无法应用“**分析**”窗格中的动态行，例如：
 
-* 矩形图
+* 矩阵
 * 饼图
 * 圆环图
 * 表

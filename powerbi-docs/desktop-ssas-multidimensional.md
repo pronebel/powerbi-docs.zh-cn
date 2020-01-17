@@ -9,14 +9,14 @@ ms.topic: conceptual
 ms.date: 08/29/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 68ae5b04f951fcc0fa8a067e60a408d1610c3fdd
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: ccae3f9d1f6d56f2b58706fbb8d8bf36d55d2165
+ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73879659"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "75759850"
 ---
-# <a name="connect-to-ssas-multidimensional-models-in-power-bi-desktop"></a>连接到 Power BI Desktop 中的 SSAS 多维模型
+# <a name="connect-to-ssas-multidimensional-models-in-power-bi-desktop"></a>在 Power BI Desktop 中连接到 SSAS 多维模型
 使用 Power BI Desktop，你可以访问 **SSAS 多维模型**，通常称为 **SSAS MD**。
 
 要连接到 SSAS MD 数据库，请选择“获取数据”&gt;“数据库”&gt;“SQL Server Analysis Services 数据库”，如下图所示：  

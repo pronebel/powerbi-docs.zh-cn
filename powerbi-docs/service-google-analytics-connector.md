@@ -10,14 +10,14 @@ ms.topic: conceptual
 ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: da7d4de1aa356c9df5004ecc07d479188d9e3a9e
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 4b279ebb1ae4ae34f1b9832883ddde5d804a7ace
+ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73881401"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "75762384"
 ---
-# <a name="google-analytics-connector-for-power-bi-desktop"></a>适用于 Power BI Desktop 的 Google Analytics 连接器
+# <a name="use-the-google-analytics-connector-for-power-bi-desktop"></a>使用适用于 Power BI Desktop 的 Google Analytics 连接器
 > [!NOTE]
 > Power BI Desktop 中的 Google Analytics 内容包和连接器依赖于 Google Analytics Core Reporting API。 同样，功能和可用性可能会随着时间推移有所不同。
 

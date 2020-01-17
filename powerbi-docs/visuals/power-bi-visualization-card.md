@@ -9,14 +9,14 @@ ms.topic: conceptual
 ms.date: 06/10/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 37b7a85534e1ad8f1f301994dea895e098758d1b
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 2b584c0664623f62b6d1d77cce74eaa51b0e9041
+ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73870972"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "75758028"
 ---
-# <a name="card-visualizations"></a>卡片可视化对象
+# <a name="create-card-visualizations"></a>创建卡片可视化对象
 
 [!INCLUDE [power-bi-visuals-desktop-banner](../includes/power-bi-visuals-desktop-banner.md)]
 
@@ -32,7 +32,7 @@ ms.locfileid: "73870972"
    
 2. 查找**零售分析示例 PBIX 文件**的副本
 
-1. 在报表视图中打开**零售分析示例 PBIX 文件** ![报表视图屏幕截图图标](media/power-bi-visualization-kpi/power-bi-report-view.png)。
+1. 在报表视图中打开**零售分析示例 PBIX 文件**![报表视图屏幕截图图标](media/power-bi-visualization-kpi/power-bi-report-view.png)。
 
 1. 选择 ![黄色选项卡的屏幕截图。](media/power-bi-visualization-kpi/power-bi-yellow-tab.png) ，以添加新报表页。
 
@@ -40,7 +40,7 @@ ms.locfileid: "73870972"
 
 创建卡片的第一种方法是使用 Power BI Desktop 中的报表编辑器。
 
-1. 从空白报表页入手，依次选择“商店”  \>“打开商店计数”  字段。
+1. 从空白报表页入手，依次选择“商店”\>“打开商店计数”字段   。
 
     Power BI 将创建一个包含一个数字的柱形图。
 

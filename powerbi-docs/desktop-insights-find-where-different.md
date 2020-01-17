@@ -10,14 +10,14 @@ ms.topic: conceptual
 ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: bb4e177ff813c332c8b60b490ead1f6d97a03935
-ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
+ms.openlocfilehash: 33fc0faf92d1730c1d08f91eabc276cdafadfffb
+ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/06/2020
-ms.locfileid: "73867111"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "75761102"
 ---
-# <a name="use-insights-in-power-bi-desktop-to-find-where-a-distribution-is-different-preview"></a>使用 Power BI Desktop 中的见解找出分布的不同之处（预览版）
+# <a name="apply-insights-in-power-bi-desktop-to-discover-where-distributions-vary-preview"></a>在 Power BI Desktop 中应用见解以发现分配发生变化的位置（预览）
 
 在视觉对象中，你通常会看到一个数据点，并想知道不同类别的分布是否相同。 借助 **Power BI Desktop** 中的**见解**，只需单击几下即可了解。
 

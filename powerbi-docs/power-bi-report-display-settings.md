@@ -10,14 +10,14 @@ ms.topic: conceptual
 ms.date: 05/29/2019
 ms.author: maggies
 LocalizationGroup: Reports
-ms.openlocfilehash: cc2ddd0b6fbd0b621c07056ed4b525f66d81319c
-ms.sourcegitcommit: c395fe83d63641e0fbd7c98e51bbab224805bbcc
+ms.openlocfilehash: 6aefe879e6d5871c8f88ac15407038aa600bf980
+ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/21/2019
-ms.locfileid: "74265868"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "75762499"
 ---
-# <a name="page-display-settings-in-a-power-bi-report"></a>Power BI 报表中的页面显示设置
+# <a name="apply-page-display-settings-in-a-power-bi-report"></a>应用 Power BI 报表中的页面显示设置
 我们了解保持报表布局像素完美的重要性。 有时候这会有点困难，因为你和你的同事可能会使用纵横比和大小不同的屏幕查看这些报表。 
 
 默认显示视图为**调整到页面大小**，而默认显示大小为 **16:9**。 如果你想要锁定不同的纵横比，或者想要用不同的方式调整报表，有两种工具可帮助你：“页面视图”设置和“页面大小”设置。

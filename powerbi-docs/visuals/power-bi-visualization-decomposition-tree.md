@@ -7,17 +7,17 @@ ms.reviewer: juluczni
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: tutorial
-ms.date: 11/13/2019
+ms.date: 01/10/2020
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: d653bb0193351e2ecb38c09e6b34d02eea5cce67
-ms.sourcegitcommit: f7b28ecbad3e51f410eff7ee4051de3652e360e8
+ms.openlocfilehash: 8aa392b69d21905901f8304c577b87b00ed19057
+ms.sourcegitcommit: 801d2baa944469a5b79cf591eb8afd18ca4e00b1
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/13/2019
-ms.locfileid: "74060636"
+ms.lasthandoff: 01/11/2020
+ms.locfileid: "75885272"
 ---
-# <a name="use-the-decomposition-tree-visual-in-power-bi-preview"></a>在 Power BI 中使用分解树视觉对象（预览版）
+# <a name="create-and-view-decomposition-tree-visuals-in-power-bi-preview"></a>创建并查看 Power BI 中的分解数视觉对象（预览版）
 [!INCLUDE [power-bi-visuals-desktop-banner](../includes/power-bi-visuals-desktop-banner.md)]
 
 通过 Power BI 中的分解树视觉对象，可以在多个维度之间实现数据的可视化。 它可自动聚合数据，并按任意顺序向下钻取到各个维度中。 它也是一种人工智能 (AI) 可视化效果，因此可以要求它查找下一个维度，以根据特定条件向下钻取。 这使它成为具体探索和执行根本原因分析的有用工具。
@@ -41,10 +41,10 @@ ms.locfileid: "74060636"
 
 将度量值拖到字段后，视觉对象会更新展示聚合度量值。 在下面的示例中，我们将可视化![分解树根节点](media/power-bi-visualization-decomposition-tree/tree-root.png)上延迟交货产品的平均百分比 (5.07%)。
 
-下一步将引入要向下钻取到的一个或多个维度。 将这些字段添加到“解释依据”Bucket。 请注意，根节点旁边会出现一个加号。 选择“+”可选择要钻取到的字段（可以按所需的任意顺序向下钻取到字段）。
+下一步将引入要向下钻取到的一个或多个维度。 将这些字段添加到“解释依据”Bucket  。 请注意，根节点旁边会出现一个加号。 选择“+”可选择要钻取到的字段（可以按所需的任意顺序向下钻取到字段）。
 ![分解树菜单](media/power-bi-visualization-decomposition-tree/tree-menu.png)
 
-选择“预测偏差”会导致树展开并按列中的值细分度量值。 可以选择另一个要向下钻取到的节点来重复此过程。
+选择“预测偏差”会导致树展开并按列中的值细分度量值  。 可以选择另一个要向下钻取到的节点来重复此过程。
 ![分解树扩展](media/power-bi-visualization-decomposition-tree/tree-expansion.png)
 
 从最后一个级别选择节点将交叉筛选数据。 选择先前级别的节点会更改路径。
@@ -70,21 +70,21 @@ ms.locfileid: "74060636"
 **高值**：考虑所有可用字段，并确定要钻取到的字段，以获得要分析的度量值的最高值。  
 **低值**：考虑所有可用字段，并确定要钻取到的字段，以获得要分析的度量值的最低值。  
 
-在延迟交货示例中选择“高值”时，会产生以下结果：![分解树 AI 拆分](media/power-bi-visualization-decomposition-tree/tree-ai-split.png)
+在延迟交货示例中选择“高值”  时，会产生以下结果：![分解树 AI 拆分](media/power-bi-visualization-decomposition-tree/tree-ai-split.png)
 
-产品类型旁显示一个灯泡，指示这是“AI 拆分”。 该树还提供了一条指示“患者监护”节点的虚线，因为它会导致最大延迟交货值 (9.2%)。 
+产品类型旁显示一个灯泡，指示这是“AI 拆分”  。 该树还提供了一条指示“患者监护”节点的虚线  ，因为它会导致最大延迟交货值 (9.2%)。 
 
 将鼠标悬停在灯泡上即可看到工具提示。 在此示例中，工具提示为“产品类型为患者监护”时脱销百分比最高”。
 
-可以配置视觉对象以查找“相对”AI 拆分，而不是“绝对”AI 拆分。 
+可以配置视觉对象以查找“相对”AI 拆分，而不是“绝对”AI 拆分   。 
 
 相对模式查找突出显示的高值（与列中的其余数据相比）。 为了说明这一点，我们来看一个示例：![分解树绝对拆分](media/power-bi-visualization-decomposition-tree/tree-ai-absolute.png)
 
-在上面的屏幕截图中，我们可以看到北美的视频游戏销售额。 首先，将树按“发布者名称”拆分，然后钻取到“任天堂”。 选择“高值”会使平台扩展为“任天堂”。 由于任天堂（发布者）仅针对任天堂控制台进行开发，只有一个值存在，因此理所当然是最高值。
+在上面的屏幕截图中，我们可以看到北美的视频游戏销售额。 首先，将树按“发布者名称”拆分，然后钻取到“任天堂”  。 选择“高值”会使平台扩展为“任天堂”   。 由于任天堂（发布者）仅针对任天堂控制台进行开发，只有一个值存在，因此理所当然是最高值。
 
-尽管如此，更有趣的拆分就是查看相对于同一列中其他值而突出显示的高值。 如果将“分析类型”从“绝对”改为“相对”，则会得到以下任天堂结果：![分解树相对拆分](media/power-bi-visualization-decomposition-tree/tree-ai-relative.png)
+尽管如此，更有趣的拆分就是查看相对于同一列中其他值而突出显示的高值。 如果将“分析类型”从“绝对”改为“相对”，则会得到以下任天堂结果   ：![分解树相对拆分](media/power-bi-visualization-decomposition-tree/tree-ai-relative.png)
 
-这一次，推荐值是“游戏流派平台”。  平台不会产生比任天堂更高的绝对值（$19,950,000 与 $46,950,000）。 不过，这是一个值得注意的值。
+这一次，推荐值是“游戏流派平台”  。  平台不会产生比任天堂更高的绝对值（$19,950,000 与 $46,950,000）。 不过，这是一个值得注意的值。
 
 更准确地说，由于有 10 个“游戏流派”值，因此，如果要均匀拆分，则平台的预期值为 $4.6M。 由于平台的值将近 $20M，因此这是一个有趣的结果，因为它比预期结果高四倍。
 
@@ -100,7 +100,7 @@ ms.locfileid: "74060636"
 与  
 46,950,000/ (46,950,000/1) = 1x  
 
-如果不想使用树中的任何 AI 拆分，还可以选择在“分析格式设置”选项下将其关闭：  
+如果不想使用树中的任何 AI 拆分，还可以选择在“分析格式设置”选项下将其关闭  ：  
 
 ![分解树禁用 AI 拆分](media/power-bi-visualization-decomposition-tree/tree-ai-disable.png)
 
@@ -108,13 +108,13 @@ ms.locfileid: "74060636"
 
 你可以有多个后续 AI 级别。 还可以混用不同类型的 AI 级别（从高值到低值后返回高值）：![分解树多个 AI 路径](media/power-bi-visualization-decomposition-tree/tree-multi-ai-path.png)
 
-如果在树中选择另一个节点，则 AI 拆分会从头开始重新计算。 在下面的示例中，我们更改了“预测偏差”级别中的选定节点。 后续级别会变化以产生正确的高值和低值![分解树 AI 交互](media/power-bi-visualization-decomposition-tree/tree-ai-interactions.png)
+如果在树中选择另一个节点，则 AI 拆分会从头开始重新计算。 在下面的示例中，我们更改了“预测偏差”级别中的选定节点  。 后续级别会变化以产生正确的高值和低值![分解树 AI 交互](media/power-bi-visualization-decomposition-tree/tree-ai-interactions.png)
 
 当你通过其他视觉对象交叉筛选分解树时，也会重新计算 AI 级别。 在下面的示例中，我们可以看到，第 0477 号工厂的脱销百分比最高。
 
 ![分解树交叉筛选](media/power-bi-visualization-decomposition-tree/tree-ai-crossfilter1.png)
 
-但如果在条形图中选择“四月”，则最高级变为“产品类型为高级外科”。 在这种情况下，不只是节点重新排序，而是会选中完全不同的列。 
+但如果在条形图中选择“四月”，则最高级变为“产品类型为高级外科”   。 在这种情况下，不只是节点重新排序，而是会选中完全不同的列。 
 
 ![分解树交叉筛选](media/power-bi-visualization-decomposition-tree/tree-ai-crossfilter2.png)
 
@@ -131,6 +131,8 @@ ms.locfileid: "74060636"
 ![分解树锁定](media/power-bi-visualization-decomposition-tree/tree-locking.png)
 
 ## <a name="known-limitations"></a>已知限制
+
+树的最大级别数为 50。 一次最多可视化树中的 5000 个数据点。 截断级别以显示前 n 个。 目前每个级别的前 n 个设置为 10。 
 
 在以下情况下，不支持分解树：  
 -   本地 Analysis Services

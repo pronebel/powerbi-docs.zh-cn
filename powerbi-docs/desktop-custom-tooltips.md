@@ -9,14 +9,14 @@ ms.topic: conceptual
 ms.date: 05/07/2019
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: efbae4250b7b3cab18892cf519bfac5da3a88e1b
-ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
+ms.openlocfilehash: 08eda4e93a3e02e357c8153c656ec16811893ea9
+ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/06/2020
-ms.locfileid: "73868649"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "75761424"
 ---
-# <a name="customizing-tooltips-in-power-bi-desktop"></a>在 Power BI Desktop 中自定义工具提示
+# <a name="customize-tooltips-in-power-bi-desktop"></a>在 Power BI Desktop 中自定义工具提示
 工具提示是向视觉对象上的数据点提供更多上下文信息和详细信息的一种巧妙方法。 下图展示了应用到 Power BI Desktop 中的图表的工具提示。
 
 ![默认工具提示](media/desktop-custom-tooltips/custom-tooltips-1.png)

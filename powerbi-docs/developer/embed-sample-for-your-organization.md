@@ -8,13 +8,13 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: tutorial
 ms.custom: seodec18
-ms.date: 07/29/2019
-ms.openlocfilehash: c67ce4ef9b5b0ac2054d4ecdf76ee3a1a79571d8
-ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
+ms.date: 02/04/2020
+ms.openlocfilehash: 7a10df09bd6b0f4ce81ee32ae72700080a8020d9
+ms.sourcegitcommit: b09de56e971b8844a3771413d1f56d49b31baaaf
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/06/2020
-ms.locfileid: "74311064"
+ms.lasthandoff: 01/07/2020
+ms.locfileid: "75691356"
 ---
 # <a name="tutorial-embed-power-bi-content-into-an-application-for-your-organization"></a>教程：为组织将 Power BI 内容嵌入应用程序
 
@@ -53,6 +53,8 @@ ms.locfileid: "74311064"
 向 Azure Active Directory [注册应用程序](register-app.md)，以允许应用程序访问 [Power BI REST API](https://docs.microsoft.com/rest/api/power-bi/)。 通过注册应用，可以建立应用标识，并指定对 Power BI REST 资源的权限。
 
 你必须继续注册服务器端 Web 应用程序  。 注册服务器端 Web 应用程序以创建应用程序密码。
+
+在 Azure 中创建应用程序后，在 Azure 中打开应用程序，导航到“身份验证”，然后在“重定向 URI”中添加“/重定向”到“重定向 URI”     。
 
 ## <a name="set-up-your-power-bi-environment"></a>设置 Power BI 环境
 

@@ -9,29 +9,29 @@ ms.topic: conceptual
 ms.date: 05/07/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: f7af1c584802181cab68f6ce2fc4823ec7078354
-ms.sourcegitcommit: 331ebf6bcb4a5cdbdc82e81a538144a00ec935d4
+ms.openlocfilehash: 7ce20b8b6dc382cdafe61bde3e9305197fd33ea6
+ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/28/2019
-ms.locfileid: "75523018"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "75762062"
 ---
-# <a name="using-analysis-services-tabular-data-in-power-bi-desktop"></a>在 Power BI Desktop 中使用 Analysis Services 表格数据
-借助 Power BI Desktop，你有两种方法可以连接到 SQL Server Analysis Services 表格模型并从中获取数据：通过使用实时连接浏览或选择项目并将其导入到 Power BI Desktop。
+# <a name="connect-to-analysis-services-tabular-data-in-power-bi-desktop"></a>在 Power BI Desktop 中连接到 Analysis Services 表格数据
+借助 Power BI Desktop，可通过两种方法连接到 SQL Server Analysis Services 表格模型并从中获取数据：通过使用实时连接浏览或选择项目并将其导入到 Power BI Desktop。
 
 让我们仔细了解下。
 
-**通过使用实时连接浏览** – 使用实时连接时，表格模型或透视中的项目（如表格、列和度量值）会显示在 Power BI Desktop 字段列表中。 你可以使用 Power BI Desktop 的高级可视化效果和报表工具以全新且高度交互的方式浏览你的表格模型。
+**通过使用实时连接浏览** – 使用实时连接时，表格模型或透视中的项目（如表格、列和度量值）会显示在 Power BI Desktop 字段列表中。 可以使用 Power BI Desktop 的高级可视化效果和报表工具以全新且高度交互的方式浏览表格模型。
 
-在进行实时连接时，表格模型中的数据不会导入到 Power BI Desktop 中。 每次与可视化效果进行交互时，Power BI Desktop 都将查询表格模型，并计算你所看到的结果。 始终都可查看表格模型中提供的最新数据，可以从上次处理时间开始查看，也可以从表格模型中提供的直接查询表查看。 
+在进行实时连接时，表格模型中的数据不会导入到 Power BI Desktop 中。 每次与可视化效果进行交互时，Power BI Desktop 都将查询表格模型，并计算出你所看到的结果。 始终都可查看表格模型中提供的最新数据，可以从上次处理时间开始查看，也可以从表格模型中提供的直接查询表查看。 
 
 请记住，表格模型是高度安全的。 在 Power BI Desktop 中显示的项目取决于你对连接到的表格模型所具有的权限。
 
 当你在 Power BI Desktop 中创建了动态报表后，可以将它们发布到 Power BI 站点进行共享。 当使用与表格模型的实时连接将 Power BI Desktop 文件发布到 Power BI 站点时，管理员必须安装并配置本地数据网关。 若要了解详细信息，请参阅[本地数据网关](service-gateway-onprem.md)。
 
-**选择项目并导入到 Power BI Desktop 中** – 使用此选项进行连接时，你可以在表格模型或透视中选择项目（如表、列和度量值），并将其加载到 Power BI Desktop 模型中。 你可以使用 Power BI Desktop 的高级查询编辑器进一步调整你所需查询的内容。 你可以使用 Power BI Desktop 的建模功能进一步对数据进行建模。 Power BI Desktop 和表格模型之间不会保持实时连接。 接着，你可以脱机浏览你的 Power BI Desktop 模型或将其发布到 Power BI 站点。
+**选择项目并导入到 Power BI Desktop 中** – 使用此选项进行连接时，可以在表格模型或透视中选择项目（如表、列和度量值），并将其加载到 Power BI Desktop 模型中。 你可以使用 Power BI Desktop 的高级查询编辑器进一步调整你所需查询的内容。 你可以使用 Power BI Desktop 的建模功能进一步对数据进行建模。 Power BI Desktop 和表格模型之间不会保持实时连接。 接着，你可以脱机浏览你的 Power BI Desktop 模型或将其发布到 Power BI 站点。
 
-## <a name="to-connect-to-a-tabular-model"></a>连接到表格模型
+## <a name="to-connect-to-a-tabular-model"></a>要连接到表格模型，请执行以下操作：
 1. 在 Power BI Desktop 中，在**开始**选项卡上，单击**获取数据**。
    
    ![](media/desktop-analysis-services-tabular-data/pbid_sqlas_getdata.png)
@@ -43,10 +43,10 @@ ms.locfileid: "75523018"
    ![](media/desktop-analysis-services-tabular-data/pbid_sqlas_getdata_as_server.png)
 4. 此步骤取决于你所选的连接模式：
 
-* 如果你正在进行实时连接中，请在导航器中选择“表格”模型或透视。
+* 如果你正在进行实时连接中，请在导航器中选择表格模型或透视。
   
   ![](media/desktop-analysis-services-tabular-data/pbid_sqlas_getdata_as_live.png)
-* 如果你选择了选择项目并获取数据，请在导航器中选择“表格”模型或透视。 你可以进一步仅选择特定的表或列进行加载。 若要在加载前对数据进行调整，请单击“编辑”以打开查询编辑器。 准备就绪时，单击“加载”将数据导入到 Power BI Desktop 中。
+* 如果你选择了选择项目并获取数据，请在导航器中选择表格模型或透视。 你可以进一步仅选择特定的表或列进行加载。 若要在加载前对数据进行调整，请单击“编辑”以打开查询编辑器。 准备就绪时，单击“加载”将数据导入到 Power BI Desktop 中。
 
   ![](media/desktop-analysis-services-tabular-data/pbid_sqlas_getdata_as_select.png)
 
@@ -81,7 +81,7 @@ ms.locfileid: "75523018"
 
 **答：** 是。 根据表格模型所使用的功能，Power BI Desktop 中的体验可能会发生改变。 示例包括：
 * 你可能会看到模型中的度量值组合在“字段列表”的顶部，而不是列旁边的表中。 不必担心！ 你仍可以正常使用它们，这样更容易找到它们！
-* 如果表格模型定义了计算组，则只能将它们与模型度量值结合使用，而不能与通过向视觉对象添加数值字段而创建的隐式度量值结合使用。 该模型还可能手动设置了“DiscourageImplicitMeasures”标记，这具有相同的效果。 要了解详细信息，请参阅 [Analysis Services 中的计算组](https://docs.microsoft.com/analysis-services/tabular-models/calculation-groups#benefits)
+* 如果表格模型定义了计算组，则只能将它们与模型度量值结合使用，而不能与通过向视觉对象添加数值字段而创建的隐式度量值结合使用。 该模型还可能手动设置了“DiscourageImplicitMeasures”标记，这具有相同的效果  。 要了解详细信息，请参阅 [Analysis Services 中的计算组](https://docs.microsoft.com/analysis-services/tabular-models/calculation-groups#benefits)
 
 ## <a name="to-change-the-server-name-after-initial-connection"></a>初始连接后更改服务器名称
 使用实时浏览连接创建 Power BI Desktop 文件后，可能会出现你想要将连接切换到其他服务器的情况。 例如，如果当你在连接到开发服务器时创建了 Power BI Desktop 文件，在发布到 Power BI 服务前，你想要将连接切换至生产服务器。

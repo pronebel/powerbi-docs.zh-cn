@@ -10,14 +10,14 @@ ms.topic: conceptual
 ms.date: 08/16/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 1070cf40fb743fc0d4661bd067b6475ef8dc8217
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 8bb07269b6406f052caceedb7b1f924e4424fde4
+ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73871681"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "75762338"
 ---
-# <a name="r-packages-in-the-power-bi-service"></a>Power BI 服务中的 R 程序包
+# <a name="create-visuals-by-using-r-packages-in-the-power-bi-service"></a>在 Power BI 服务中使用 R 包创建视觉对象
 可以使用功能强大的 [R 编程语言](https://www.r-project.org/)在 Power BI 服务中创建视觉对象。 许多 R 程序包在 Power BI 服务中受到支持（并且更多包始终受支持），某些包不受支持。
 
 以下各部分提供一个按字母顺序排列的表，分别介绍在 Power BI 中受支持和不受支持的 R 程序包。 有关 Power BI 中的 R 的详细信息，请参阅 [R 视觉对象](visuals/service-r-visuals.md)一文。
@@ -143,7 +143,7 @@ R 程序包存在大量要求和限制：
 |callr|2.0.2|https://cran.r-project.org/web/packages/callr/index.html|
 |car|2.1-6|https://cran.r-project.org/web/packages/car/index.html|
 |carData|3.0-1|https://cran.r-project.org/web/packages/carData/index.html|
-|caret|6.0-78|https://cran.r-project.org/web/packages/caret/index.html|
+|脱字号|6.0-78|https://cran.r-project.org/web/packages/caret/index.html|
 |catnet|1.15.3|https://cran.r-project.org/web/packages/catnet/index.html|
 |caTools|1.17.1|https://cran.r-project.org/web/packages/caTools/index.html|
 |cclust|0.6-21|https://cran.r-project.org/web/packages/cclust/index.html|
@@ -810,7 +810,7 @@ R 程序包存在大量要求和限制：
 |smoothSurv|2.0|https://cran.r-project.org/web/packages/smoothSurv/index.html|
 |sna|2.4|https://cran.r-project.org/web/packages/sna/index.html|
 |snakecase|0.9.1|https://cran.r-project.org/web/packages/snakecase/index.html|
-|snow|0.4-2|https://cran.r-project.org/web/packages/snow/index.html|
+|雪白色|0.4-2|https://cran.r-project.org/web/packages/snow/index.html|
 |SnowballC|0.5.1|https://cran.r-project.org/web/packages/SnowballC/index.html|
 |snowFT|1.6-0|https://cran.r-project.org/web/packages/snowFT/index.html|
 |sourcetools|0.1.6|https://cran.r-project.org/web/packages/sourcetools/index.html|

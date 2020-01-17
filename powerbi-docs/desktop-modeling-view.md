@@ -9,16 +9,16 @@ ms.topic: conceptual
 ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Transform and shape data
-ms.openlocfilehash: 6869430e3fece78210d538c9886234c7728b667a
-ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
+ms.openlocfilehash: b9df4398c410f52e3d5cdd51a99a40de107f5867
+ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/06/2020
-ms.locfileid: "73866525"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "75760873"
 ---
-# <a name="modeling-view-in-power-bi-desktop"></a>Power BI Desktop 中的建模视图
+# <a name="work-with-modeling-view-in-power-bi-desktop"></a>使用 Power BI Desktop 中的建模视图
 
-使用 Power BI Desktop  中的建模视图  ，可以查看和使用含有多个表的复杂数据集。
+使用“Power BI Desktop”中的“建模视图”，可以查看和使用含有多个表的复杂数据集   。
 
 
 ## <a name="using-modeling-view"></a>使用建模视图

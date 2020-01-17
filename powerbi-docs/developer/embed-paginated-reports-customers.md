@@ -8,13 +8,13 @@ ms.topic: tutorial
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.custom: seodec18
-ms.date: 11/04/2019
-ms.openlocfilehash: 1493f628ce822afa020e300ff7428da059fcc65d
-ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
+ms.date: 01/04/2019
+ms.openlocfilehash: 48aae2391ead5ded0860364ce5942d7bd725c2d9
+ms.sourcegitcommit: b68a47b1854588a319a5a2d5d6a79bba2da3a4e6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/06/2020
-ms.locfileid: "74311429"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "75731234"
 ---
 # <a name="tutorial-embed-power-bi-paginated-reports-into-an-application-for-your-customers-preview"></a>教程：在应用程序中为客户嵌入 Power BI 分页报表（预览版）
 
@@ -39,7 +39,7 @@ ms.locfileid: "74311429"
 如果没有 Azure 订阅，请在开始之前先创建一个[免费帐户](https://azure.microsoft.com/free/?WT.mc_id=A261C142F)。
 
 > [!IMPORTANT]
-> * 必须使用“服务主体”。 主用户不受支持。
+> * 必须使用“服务主体”  。 主用户不受支持。
 > * 不支持需要单点登录 (SSO) 的数据源。
 > * Power BI 数据集不支持作为[数据源](../service-get-data.md)。
 
@@ -90,7 +90,7 @@ ms.locfileid: "74311429"
 
     ![“应用拥有数据”应用程序示例](media/embed-sample-for-customers/embed-sample-for-customers-026.png)
 
-3. 在示例应用程序中打开 Web.config 文件。 必须填写以下字段，才能运行应用程序。 为“AuthenticationType”选择“ServicePrincipal”。
+3. 在示例应用程序中打开 Web.config 文件  。 必须填写以下字段，才能运行应用程序。 为“AuthenticationType”选择“ServicePrincipal”   。
 
     填写以下字段：
     * [applicationId](#application-id)
@@ -100,34 +100,34 @@ ms.locfileid: "74311429"
     * [tenant](#tenant)
 
     > [!Note]
-    > 本示例中的默认 AuthenticationType 是 MasterUser。 请确保将其更改为“ServicePrincipal”。 
+    > 本示例中的默认 AuthenticationType 是 MasterUser  。 请确保将其更改为“ServicePrincipal”  。 
 
 
     ![Web 配置文件](media/embed-sample-for-customers/embed-sample-for-customers-030.png)
 
 ### <a name="application-id"></a>应用程序 ID
 
-将 Azure 中的“应用 ID”填入“applicationId”字段。 应用使用“applicationId”对你向其请求获取权限的用户标识自身。
+将 Azure  中的“应用 ID”  填入“applicationId”  字段。 应用使用“applicationId”  对你向其请求获取权限的用户标识自身。
 
-若要获取“applicationId”，请按以下步骤操作：
+若要获取“applicationId”  ，请按以下步骤操作：
 
 1. 登录到 [Azure 门户](https://portal.azure.com)。
 
-2. 在左侧导航窗格中，选择“所有服务”，并搜索“应用注册”。
+2. 在左侧导航窗格中，选择“所有服务”，并搜索“应用注册”   。
 
     ![应用注册搜索](media/embed-paginated-reports-for-customers/app-registration.png)
 
-3. 选择需要 applicationId 的应用程序。
+3. 选择需要 applicationId 的应用程序  。
 
     ![选择应用](media/embed-paginated-reports-for-customers/display-name.png)
 
-4. 存在列为 GUID 的“应用程序 ID”。 使用此“应用 ID”作为应用的“applicationId”。
+4. 存在列为 GUID 的“应用程序 ID”  。 使用此“应用 ID”  作为应用的“applicationId”  。
 
     ![applicationId](media/embed-paginated-reports-for-customers/application-id.png)
 
 ### <a name="workspace-id"></a>工作区 ID
 
-使用 Power BI 中的“应用工作区(组) GUID”填写“workspaceId”信息。 登录 Power BI 服务或使用 Powershell 时，可获得该信息。
+使用 Power BI 中的“应用工作区(组) GUID”填写“workspaceId”信息  。 登录 Power BI 服务或使用 Powershell 时，可获得该信息。
 
 URL <br>
 
@@ -143,7 +143,7 @@ Get-PowerBIworkspace -name "Paginated Report Embed"
 
 ### <a name="report-id"></a>报表 ID
 
-使用 Power BI 中的“报表 GUID”填写“reportId”信息。 登录 Power BI 服务或使用 Powershell 时，可获得该信息。
+使用 Power BI 中的“报表 GUID”填写“reportId”信息  。 登录 Power BI 服务或使用 Powershell 时，可获得该信息。
 
 URL<br>
 
@@ -159,39 +159,39 @@ Get-PowerBIworkspace -name "Paginated Report Embed" | Get-PowerBIReport
 
 ### <a name="application-secret"></a>应用程序密码
 
-将 Azure 的“应用注册”部分中的“密钥”部分信息填入“ApplicationSecret”字段。
+将 Azure  的“应用注册”  部分中的“密钥”  部分信息填入“ApplicationSecret”  字段。
 
-若要获取“ApplicationSecret”，请按以下步骤操作：
+若要获取“ApplicationSecret”  ，请按以下步骤操作：
 
 1. 登录 [Azure 门户](https://portal.azure.com)。
 
-2. 在左侧导航窗格中，选择“所有服务”，并搜索“应用注册”。
+2. 在左侧导航窗格中，选择“所有服务”，并搜索“应用注册”   。
 
     ![应用注册搜索](media/embed-paginated-reports-for-customers/app-registration.png)
 
-3. 选择需要使用“ApplicationSecret”的应用。
+3. 选择需要使用“ApplicationSecret”  的应用。
 
     ![选择应用](media/embed-paginated-reports-for-customers/display-name-2.png)
 
-4. 在“管理”下选择“证书和密码”。
+4. 在“管理”下选择“证书和密码”   。
 
-5. 选择“新的客户端密码”。
+5. 选择“新的客户端密码”  。
 
-6. 在“说明”框中输入一个名称并选择持续时间。 然后选择“保存”为应用程序获取“值”。 如果在保存密钥值后关闭“密钥”窗格，值字段会仅显示为隐藏状态。 此时，你无法检索密钥值。 如果忘记了密钥值，请在 Azure 门户中新建密钥值。
+6. 在“说明”框中输入一个名称并选择持续时间。  然后选择“保存”为应用程序获取“值”。   如果在保存密钥值后关闭“密钥”窗格，  值字段会仅显示为隐藏状态。 此时，你无法检索密钥值。 如果忘记了密钥值，请在 Azure 门户中新建密钥值。
 
     ![密钥值](media/embed-paginated-reports-for-customers/client-secret.png)
 
 ### <a name="tenant"></a>租户
 
-使用 Azure 租户 ID 填写“租户”信息。 登录 Power BI 服务后通过 [Azure AD 管理中心](/onedrive/find-your-office-365-tenant-id)或使用 Powershell 可以获得该信息。
+使用 Azure 租户 ID 填写“租户”信息  。 登录 Power BI 服务后通过 [Azure AD 管理中心](/onedrive/find-your-office-365-tenant-id)或使用 Powershell 可以获得该信息。
 
 ### <a name="run-the-application"></a>运行应用程序
 
-1. 在“Visual Studio”中选择“运行”。
+1. 在“Visual Studio”  中选择“运行”  。
 
     ![运行应用程序](media/embed-sample-for-customers/embed-sample-for-customers-033.png)
 
-2. 然后，选择“嵌入报表”。
+2. 然后，选择“嵌入报表”  。
 
     ![选择内容](media/embed-sample-for-customers/embed-sample-for-customers-034.png)
 
@@ -203,9 +203,9 @@ Get-PowerBIworkspace -name "Paginated Report Embed" | Get-PowerBIReport
 
 即使已使用 [Power BI REST API](https://docs.microsoft.com/rest/api/power-bi/) 完成嵌入 Power BI 分页报表的步骤，也可使用 **.NET SDK** 编写本文中所述的示例代码。
 
-在应用程序中为客户嵌入 Power BI 分页报表时，需要具有 Azure AD [服务主体](embed-service-principal.md)，并获取 Power BI 应用程序的 [Azure AD 访问令牌](get-azuread-access-token.md#access-token-for-non-power-bi-users-app-owns-data)，然后才能调用 [Power BI REST API](https://docs.microsoft.com/rest/api/power-bi/)。
+在应用程序中为客户嵌入 Power BI 分页报表时，需要具有 Azure AD [服务主体](embed-service-principal.md)，并获取 Power BI 应用程序的 [Azure AD 访问令牌](get-azuread-access-token.md#access-token-for-non-power-bi-users-app-owns-data)，然后才能调用 [Power BI REST API](https://docs.microsoft.com/rest/api/power-bi/)  。
 
-若要使用**访问令牌**创建 Power BI 客户端，可创建便于与 [Power BI REST API](https://docs.microsoft.com/rest/api/power-bi/) 进行交互的 Power BI 客户端对象。 使用 Microsoft.Rest.TokenCredentials 对象包装 AccessToken，以创建 Power BI 客户端对象。
+若要使用**访问令牌**创建 Power BI 客户端，可创建便于与 [Power BI REST API](https://docs.microsoft.com/rest/api/power-bi/) 进行交互的 Power BI 客户端对象。 使用 Microsoft.Rest.TokenCredentials   对象包装 AccessToken，以创建 Power BI 客户端对象。
 
 ```csharp
 using Microsoft.IdentityModel.Clients.ActiveDirectory;
@@ -227,7 +227,7 @@ using (var client = new PowerBIClient(new Uri(ApiUrl), tokenCredentials))
 
 下面的代码示例展示了如何从给定工作区检索首个报表。
 
-[示例应用程序](https://github.com/Microsoft/PowerBI-Developer-Samples)的 Services\EmbedService.cs 文件中提供了获取内容项的示例，内容项包括报表、仪表板和希望嵌入的磁贴。
+[示例应用程序](https://github.com/Microsoft/PowerBI-Developer-Samples)的 Services\EmbedService.cs 文件中提供了获取内容项的示例，内容项包括报表、仪表板和希望嵌入的磁贴。 
 
 ```csharp
 using Microsoft.PowerBI.Api.V2;
@@ -271,6 +271,12 @@ var embedConfig = new EmbedConfig()
 
 ## <a name="next-steps"></a>后续步骤
 
-本教程介绍了如何在应用程序中为客户嵌入 Power BI 分页报表。 你也可以尝试为组织嵌入 Power BI 内容。
+本教程介绍了如何在应用程序中为客户嵌入 Power BI 分页报表。 你也可以尝试为客户或组织嵌入 Power BI 内容。
+
+> [!div class="nextstepaction"]
+>[为客户嵌入内容](embed-sample-for-customers.md)
+
+> [!div class="nextstepaction"]
+>[为组织嵌入内容](embed-sample-for-your-organization.md)
 
 更多问题？ [尝试咨询 Power BI 社区](https://community.powerbi.com/)

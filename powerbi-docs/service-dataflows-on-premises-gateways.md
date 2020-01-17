@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 12/06/2018
+ms.date: 01/08/2020
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: 53124f2b1ede9d8a9c3a9866416f713af1fd2061
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: efd110ad73b1bd72813d418a1f641613c88dc0d5
+ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73877265"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "75762568"
 ---
 # <a name="using-dataflows-with-on-premises-data-sources"></a>将数据流与本地数据源配合使用
 
@@ -24,7 +24,8 @@ ms.locfileid: "73877265"
 
 ## <a name="configuring-an-enterprise-gateway-for-use-with-dataflows"></a>配置企业网关以用于数据流
 
-要在数据流中使用本地数据源，创建数据流的任何用户都必须安装并配置企业网关  。 另外，创建数据流的用户还必须是企业网关的管理员才能将该网关用于数据流。
+若要使用网关创建数据流，用户必须是企业网关的管理员，或者管理员必须已与用户共享其计划使用的数据源。 
+
 
 > [!NOTE]
 > 仅在使用企业网关时支持数据流。
@@ -35,7 +36,7 @@ ms.locfileid: "73877265"
 
 ![选择本地数据源](media/service-dataflows-onpremises-gateways/onpremises-gateways_02a.png)
 
-完成选择后，系统会提示用户提供将用于访问本地数据的企业网关的连接详细信息。 必须选择网关本身，并提供选定网关的凭据。 只有用户作为管理者的网关才会显示在下拉列表中。
+完成选择后，系统会提示用户提供将用于访问本地数据的企业网关的连接详细信息。 必须选择网关本身，并提供选定网关的凭据。
 
 ![提供连接详细信息](media/service-dataflows-onpremises-gateways/onpremises-gateways_03.png)
 

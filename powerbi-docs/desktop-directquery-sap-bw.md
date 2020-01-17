@@ -9,14 +9,14 @@ ms.topic: conceptual
 ms.date: 11/28/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: ffff443716f11101347debd97f28349afc3904bb
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: fee47524be70955a123d08e10dca5ee0dd3e07fd
+ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73876327"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "75761171"
 ---
-# <a name="directquery-and-sap-business-warehouse-bw"></a>DirectQuery 和 SAP Business Warehouse (BW)
+# <a name="connect-to-sap-business-warehouse-by-using-directquery-in-power-bi"></a>使用 Power BI 中的 DirectQuery 连接到 SAP Business Warehouse
 可以使用 DirectQuery  直接连接到 SAP Business Warehouse (BW)  数据源。 鉴于 SAP BW 的 OLAP/多维特性，SAP BW 的 DirectQuery 与 SQL Server 等关系源之间存在许多重要区别。 这些区别总结如下：
 
 * 在关系源的 DirectQuery  中，有一组查询（在“获取数据”  或“查询编辑器”  对话框中定义）从逻辑上定义字段列表中的可用数据。 连接到 OLAP 源（如 SAP BW）时不是  这样的情况。 当使用“获取数据”  连接到 SAP 服务器时，只选择 Infocube 或 BEx 查询。 所选 Infocube/BEx 查询的所有键数字和维度都将在字段列表中可用。   

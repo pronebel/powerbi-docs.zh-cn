@@ -8,14 +8,14 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 01/16/2018
 LocalizationGroup: Model your data
-ms.openlocfilehash: d2b034d6e58f98169a5b1b260571001d5a929f28
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: e2b1c90c6a4ee237af0d800dd7d1c6e1dc8dc3ba
+ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73866589"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "75760896"
 ---
-# <a name="tag-barcodes-in-power-bi-desktop-for-the-mobile-apps"></a>在适用于移动应用的 Power BI Desktop 中标记条形码
+# <a name="tag-barcodes-in-power-bi-desktop-for-use-in-the-mobile-app"></a>Power BI Desktop 中用于移动应用的标记条形码
 
 在 Power BI Desktop 中，你可以针对列进行[数据分类](desktop-data-categorization.md)，以便 Power BI Desktop 知道如何处理报表中可视化对象的值。 此外还可将列分类为**条形码**。 当你或你的同事通过 iPhone [使用 Power BI 应用扫描产品上的条形码](consumer/mobile/mobile-apps-scan-barcode-iphone.md)时，你将看到所有包含此条形码的报表。 在移动应用中打开报表时，Power BI 将自动筛选报表中与该条形码相关的数据。
 
@@ -47,5 +47,5 @@ ms.locfileid: "73866589"
 * [从你的 iPhone 上的 Power BI 应用中扫描条形码](consumer/mobile/mobile-apps-scan-barcode-iphone.md)
 * [在 iPhone 上扫描条形码时遇到的问题](consumer/mobile/mobile-apps-scan-barcode-iphone.md#issues-with-scanning-a-barcode)
 * [Power BI Desktop 中的数据分类](desktop-data-categorization.md)  
-* 是否有任何问题？ [尝试咨询 Power BI 社区](https://community.powerbi.com/)
+* 是否有任何问题? [尝试咨询 Power BI 社区](https://community.powerbi.com/)
 

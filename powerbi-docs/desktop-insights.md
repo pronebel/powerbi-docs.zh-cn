@@ -10,14 +10,14 @@ ms.topic: conceptual
 ms.date: 02/21/2019
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 69b6cd3200627c5b0523fce914eae5899e594c27
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 925d63f0abf92bd7a9c0d5fdd2ff6eff5b88b961
+ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73867234"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "75761148"
 ---
-# <a name="use-insights-in-power-bi-desktop-to-explain-increases-and-decreases-seen-in-visuals-preview"></a>使用 Power BI Desktop 中的见解来解释视觉对象中显示的增长和下降（预览版）
+# <a name="apply-insights-in-power-bi-desktop-to-explain-fluctuations-in-visuals-preview"></a>在 Power BI Desktop 中应用见解解释视觉对象中的波动（预览版）
 
 在视觉对象中，你通常会看到值大幅上升又急剧下降的情况，并且想知道导致这种波动的原因。 借助 **Power BI Desktop** 中的**见解**，只需单击几下即可了解原因。
 

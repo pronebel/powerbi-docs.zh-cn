@@ -10,14 +10,14 @@ ms.topic: conceptual
 ms.date: 12/05/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: e7fa98be039093015e1b19ba8bf20f1368658a43
-ms.sourcegitcommit: 212fb4a46af3e434a230331f18456c6a49a408fd
+ms.openlocfilehash: 6a3458de09cece30948ff848859f05ed8127d034
+ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/07/2019
-ms.locfileid: "74907773"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "75757837"
 ---
-# <a name="filled-maps-choropleth-in-power-bi"></a>Power BI 中的着色地图（等值线图）
+# <a name="create-and-use-filled-maps-choropleth-maps-in-power-bi"></a>创建和使用 Power BI 中的着色地图（等值线图）
 
 [!INCLUDE [power-bi-visuals-desktop-banner](../includes/power-bi-visuals-desktop-banner.md)]
 
@@ -47,7 +47,7 @@ Power BI 与必应相集成，提供默认地图坐标（一个称为地理编�
 
 ### <a name="prerequisites"></a>先决条件
 本教程使用[销售和市场营销示例 PBIX 文件](https://download.microsoft.com/download/9/7/6/9767913A-29DB-40CF-8944-9AC2BC940C53/Sales%20and%20Marketing%20Sample%20PBIX.pbix)。
-1. 在菜单栏的左上部分，选择“文件”   > “打开” 
+1. 在菜单栏的左上部分，选择“文件” > “打开”  
    
 2. 找到“销售和市场营销示例 PBIX 文件”的副本 
 
@@ -66,7 +66,7 @@ Power BI 与必应相集成，提供默认地图坐标（一个称为地理编�
 [视频 https://www.youtube.com/embed/ajTPGNpthcg ]
 
 ### <a name="create-a-filled-map"></a>创建着色地图
-1. 从“字段”窗格中，选择“地区”  \>“状态”  字段。    
+1. 从“字段”窗格中，选择“地区”\>“状态”字段   。    
 
    ![“状态”旁的黄色复选标记](media/power-bi-visualization-filled-maps-choropleths/power-bi-state.png)
 2. [将图表转换](power-bi-report-change-visualization-type.md)为着色地图。 请注意，州  现在位于位置  框中。 必应地图使用位置  框中的字段创建地图。  该位置可以是各种有效位置：国家/地区、州、县、市、邮政编码或其他邮政编码等。必应地图可提供世界各地的着色地图形状。 如果“位置”框中没有有效的条目，则 Power BI 无法创建着色地图。  

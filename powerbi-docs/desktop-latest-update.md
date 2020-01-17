@@ -9,14 +9,14 @@ ms.topic: conceptual
 ms.date: 12/18/2019
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: 75b3c370e6b17c5a5a4937da6db989f814a0ebd9
-ms.sourcegitcommit: 02b05932a119527f255e1eacc745a257044e392f
+ms.openlocfilehash: ab98463f6dc1defd9ee3f2a97b322fefbe582779
+ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/19/2019
-ms.locfileid: "75221979"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "75761033"
 ---
-# <a name="whats-new-in-the-latest-power-bi-desktop-update"></a>最新 Power BI Desktop 更新中的新增功能
+# <a name="whats-new-in-power-bi-desktop"></a>Power BI Desktop 中的新增功能是什么？
 
 
 ## <a name="december-2019-update-2765678661"></a>2019 年 12 月更新 (2.76.5678.661)
@@ -42,8 +42,8 @@ Power BI Desktop 更新列表中每个功能旁边的链接解释如下：
 
 
 ### <a name="reporting"></a>报表
-* 主题更新（预览）[[视频]](https://youtu.be/eCEwgZsVUOs?t=10)  [[文章]](desktop-report-themes.md#customize-report-themes-preview)  [[博客]](https://powerbi.microsoft.com/blog/power-bi-desktop-december-2019-feature-summary/#customizeTheme) 
-* 导出当前主题（预览）[[视频]](https://youtu.be/eCEwgZsVUOs?t=242)  [[文章]](desktop-report-themes.md#customize-report-themes-preview)  [[博客]](https://powerbi.microsoft.com/blog/power-bi-desktop-december-2019-feature-summary/#exportTheme) 
+* 自定义当前主题（预览） [[视频]](https://youtu.be/eCEwgZsVUOs?t=10)[[文章]](desktop-report-themes.md#create-and-customize-a-theme-in-power-bi-desktop-preview)[[博客]](https://powerbi.microsoft.com/blog/power-bi-desktop-december-2019-feature-summary/#customizeTheme) 
+* 导出当前主题（预览）[[视频]](https://youtu.be/eCEwgZsVUOs?t=242) [[文章]](desktop-report-themes.md#export-report-themes-preview)[[博客]](https://powerbi.microsoft.com/blog/power-bi-desktop-december-2019-feature-summary/#exportTheme) 
 * 将表列或矩阵值设置为自定义 URL [[视频]](https://youtu.be/eCEwgZsVUOs?t=277)  [[博客]](https://powerbi.microsoft.com/blog/power-bi-desktop-december-2019-feature-summary/#customURL) 
 * KPI 视觉对象格式设置 [[视频]](https://youtu.be/eCEwgZsVUOs?t=354)  [[博客]](https://powerbi.microsoft.com/blog/power-bi-desktop-december-2019-feature-summary/#KPI) 
 * 新的分解树格式设置 [[视频]](https://youtu.be/eCEwgZsVUOs?t=442)  [[博客]](https://powerbi.microsoft.com/blog/power-bi-desktop-december-2019-feature-summary/#decomp) 

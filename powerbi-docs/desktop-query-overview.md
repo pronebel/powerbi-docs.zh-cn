@@ -9,14 +9,14 @@ ms.topic: conceptual
 ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Transform and shape data
-ms.openlocfilehash: 3ee7c094972e7251ab99d9092691bf809344a3d5
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 294bd8017d6e6c8a1eaca836b32c7bd5d50d88e1
+ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73876308"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "75760787"
 ---
-# <a name="query-overview-in-power-bi-desktop"></a>Power BI Desktop 中的查询概述
+# <a name="about-using-query-editor-in-power-bi-desktop"></a>使用 Power BI Desktop 中的查询编辑器简介
 借助 **Power BI Desktop**，可以连接到世界上的数据，创建具有吸引力的基础报表，与依赖你的工作、扩展自身商业智能工作的其他人共享你的工作。
 
 Power BI Desktop 具有三种视图：
@@ -33,7 +33,7 @@ Power BI Desktop 还附带有**查询编辑器**，其中你可连接到一个�
 
 本文档概述了处理**查询编辑器**中数据的相关内容。 当然还有更多需要了解，因此在本文档末尾提供有链接，你可了解有关受支持数据类型、连接到数据、调整数据、创建关系以及如何入门的详细指导。
 
-但首先让我们了解**查询编辑器**。
+但首先让我们了解“查询编辑器”  。
 
 ## <a name="the-query-editor"></a>查询编辑器
 若要访问“查询编辑器”  ，请从 Power BI Desktop“开始”  选项卡选择“编辑查询”  。  

@@ -6,17 +6,17 @@ author: mihart
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 12/18/2019
+ms.date: 01/07/2019
 ms.author: mihart
-ms.openlocfilehash: 046f35613e5fe748e93389fbe10a77af08f449e3
-ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
+ms.openlocfilehash: cf70774712a8b72493c8957139d8f802dc4d1ed7
+ms.sourcegitcommit: 4b926ab5f09592680627dca1f0ba016b07a86ec0
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/06/2020
-ms.locfileid: "75303923"
+ms.lasthandoff: 01/10/2020
+ms.locfileid: "75836666"
 ---
 # <a name="glossary-for-power-bi-service"></a>Power BI 服务词汇表
-Power BI 服务可能会引入不熟悉或容易混淆的术语。 词汇表是查找术语的好地方，可能需要将其加入书签。 了解构成 Power BI 服务的构建块的另一个极佳资源是[基本概念](end-user-basic-concepts.md)。 “基本概念”提供 Power BI 组件及其如何连接的简要概述。
+Power BI 服务可能会引入不熟悉或容易混淆的术语。 词汇表是查找术语的好地方，可能需要将其加入书签。 了解构成 Power BI 服务的构建块的另一个极佳资源是[基本概念](end-user-basic-concepts.md)。 “基本概念”提供 Power BI 组件及其如何连接的简要概述。 
 
 本词汇表是社区共同努力的结果。  此处看不到词语？ 请告诉我们进行添加（你可以使用本文底部的文档反馈按钮）。
 
@@ -41,7 +41,9 @@ Power BI 服务可能会引入不熟悉或容易混淆的术语。 词汇表是�
 
 **ArcGIS for Power BI** ArcGIS 是由 ESRI 公司创建的地图和分析平台。 Power BI 视觉对象库中包括的视觉对象称为 ArcGIS for Power BI。
 
-**assign (分配)** [Power BI Premium] 动词，将工作区移入或移出专用容量。 请不要使用“提升”将工作区移到专用容量，因为它具有优先于共享容量的“专用”的含义。  
+**assign (分配)** [Power BI Premium] 动词，将工作区移入或移出专用容量。 请不要使用“提升”将工作区移到专用容量，因为它具有优先于共享容量的“专用”的含义。 
+
+“自动见解”现在称为“快速见解”。  
 
 ## <a name="b"></a>B
 
@@ -49,7 +51,7 @@ Power BI 服务可能会引入不熟悉或容易混淆的术语。 词汇表是�
 
 **bookmark (书签)** Power BI Desktop 或服务中报告的“书签”窗格中所捕捉的数据视图。 在 Desktop 中，书签保存在 .pbix 报告文件中，以便在 Power BI 服务上共享
   
-**breadcrumbs (痕迹)** 左上角的导航，可在工作区之间快速导航。
+**痕迹**：左上角的导航，可在报表和仪表板之间快速导航。
 
 ## <a name="c"></a>C
 
@@ -57,7 +59,7 @@ Power BI 服务可能会引入不熟悉或容易混淆的术语。 词汇表是�
 
 **卡片**（视觉对象类型）：Power BI [视觉对象类型](end-user-visual-type.md)。
 
-**卡片**（Power BI 主页）：Power BI 主页显示表示仪表板、报表、应用等的矩形和正方形图片。 这些图片称为“卡片”。
+**卡片**（Power BI 主页）：Power BI 主页显示表示仪表板、报表、应用等的矩形和正方形图片。 这些图片称为“卡片”。 
 
 **certified custom visual (认证的自定义视觉对象)** 符合要求并已通过严格安全测试的 Power BI 自定义视觉对象。
 
@@ -65,19 +67,19 @@ Power BI 服务可能会引入不熟悉或容易混淆的术语。 词汇表是�
 
 **connect live (实时连接)** 连接到 SQL Server Analysis Services 数据模型的方法。 也称为即时连接。
 
-**容器**：导航窗格上的区域称为“容器”。 在导航窗格中，你将看到以下内容的容器：收藏夹、最新、应用、与我共享和主页。 
+**容器**：导航窗格上的区域称为“容器”。  在导航窗格中，你将看到以下内容的容器：收藏夹、最新、应用、与我共享和主页。 
 
 **内容**：Power BI 服务的内容通常是仪表板、报表和应用。 此外，它还可能包括工作簿和数据集。
 
 **content list (内容列表)** 应用的内容索引。
 
-**content pack (内容包)** 预打包的数据集、报表和仪表板的集合。 现在为**应用**，了解[新工作区体验](https://docs.microsoft.com/power-bi/service-create-the-new-workspaces)。 
+**content pack (内容包)** 预打包的数据集、报表和仪表板的集合。 应用将替换它们  ，请了解[新工作区体验](https://docs.microsoft.com/power-bi/service-create-the-new-workspaces)。 
 
 **content view (内容视图)**
 
-**交叉筛选** 适用于视觉对象交互。 交叉筛选删除不适用的数据。 例如，选择圆环图中的“审查”会交叉筛选折线图。 折线图现在只显示适用于“审查”段的数据点。
+**交叉筛选** 适用于视觉对象交互。 交叉筛选删除不适用的数据。 例如，选择圆环图中的“审查”会交叉筛选折线图  。 折线图现在只显示适用于“审查”段的数据点。
 
-**交叉突出显示** 适用于视觉对象交互。 交叉突出显示将保留所有原始数据点，但会使不适用于所选内容的部分变暗。 例如，选择圆环图中的“审查”会交叉突出显示柱形图。 柱形图将不适用于“审查”段的所有数据变暗，并突出显示适用于“审查”段的所有数据。
+**交叉突出显示** 适用于视觉对象交互。 交叉突出显示将保留所有原始数据点，但会使不适用于所选内容的部分变暗。 例如，选择圆环图中的“审查”会交叉突出显示柱形图  。 柱形图将不适用于“审查”段的所有数据变暗，并突出显示适用于“审查”段的所有数据。
 
 **custom visual (自定义视觉对象)** 由社区和 Microsoft 创建的视觉对象。 可从 Office 应用商店下载以在 Power BI 报告中使用。
 
@@ -89,26 +91,29 @@ Power BI 服务可能会引入不熟悉或容易混淆的术语。 词汇表是�
 
 **data connector (数据连接器)** 请见“连接器”
 
-**data model, Excel Data Model (数据模型，Excel 数据模型)**
+**数据模型，Excel 数据模型**：在 Power BI 内容中，数据模型是指表格格式中的数据结构图。 数据模型显示用于生成数据库的关系。 报表设计人员、管理员和开发人员创建并使用数据模型来创建 Power BI 内容。
 
+**数据流**：数据流通过定义数据源连接、ETL 逻辑、刷新计划等来引入、转换、集成和丰富大数据。 以前称为数据池。
 
-**dataset (数据集)** 和**data source (数据源)** 数据集是用于创建可视化效果和报表的数据的集合。
+**dataset (数据集)** 和**data source (数据源)** 数据集  是用于创建可视化效果和报表的数据的集合。
 
 **dedicated capacity (专用容量)** [Power BI Premium] 在 Microsoft 云数据中心中的专用硬件上运行的数据模型，可帮助确保大规模的一致性能。 BI 解决方案提供给整个组织，不论有没有 Power BI 许可证。
 
-**Desktop** 首个实例：Power BI Desktop 后续提及：桌面
+**Desktop** 或 **Power BI Desktop**：报表设计人员、管理员和开发人员使用的主要免费 Power BI 工具。 
+
 
 
 **diamond (钻石)** Power BI Premium。 图标形状，表示该工作区是 Premium 容量工作区。
 
-**drill up, drill down, drillthrough (向上钻取，向下钻取，穿透钻取)**
+**向上钻取、向下钻取、钻取**：在 Power BI 中，使用向下钻取和向上钻取指的是浏览报表或视觉对象的下一个详细信息级别的功能。 使用钻取指的是以下功能：选中视觉对象某个部分并转到报表其他页面、筛选到与在原始页面选中的视觉对象相应部分相关的数据。
+钻取到详细信息通常表示显示基础记录。
 
 ## <a name="e"></a>E
 
-**Editing View (编辑视图)** 报表设计者可探索、设计、构建和共享报表的模式。
+**Editing View (编辑视图)** 报表设计者  可探索、设计、构建和共享报表的模式。
 
 **ellipsis (省略号)** ...    
-选择省略号，将显示其他菜单选项。
+选择省略号，将显示其他菜单选项。 又称为“更多操作”菜单。 
 
 **embed code (嵌入代码)** Internet 中的一个常用标准。 在 Power BI 中，客户可以生成嵌入代码并进行复制以在网站或博客上放置报表视觉对象等内容。
 
@@ -117,22 +122,20 @@ Power BI 服务可能会引入不熟悉或容易混淆的术语。 词汇表是�
 **embedding (嵌入)** 在 Power BI 开发人员产品中，使用 BI REST API 和 Power BI SDK 将分析集成到应用的过程。
 
 
-**environment (环境)** [Power BI Desktop、Power BI 移动版等] 使用 Power BI 环境。 对于多租户客户，使用此术语来提及选择要连接到的租户。
-可以在文档中使用 Power BI 环境（租户），帮助熟悉术语“租户”的商业分析师知道这指的是同一个东西。
+**环境**：[Power BI Desktop、Power BI 移动版、Power BI 服务等] 表示某个 Power BI 工具的另一种方式。 可以在文档中使用 Power BI 环境（租户），帮助熟悉术语“租户”的商业分析师知道这指的是同一个东西。
 
 ## <a name="f"></a>F
 
 **favorite, unfavorite (收藏，取消收藏)** 动词，在 Power BI 中是指添加到收藏夹列表以便快速访问经常访问的仪表板和报表。 当你不再希望收藏时，可取消收藏。
 
-**filter (筛选器)**
+**筛选**与**突出显示**：筛选器会删除不适用的数据。 突出显示会将不适用的数据灰显。 
 
-**formatting (格式设置)**
 
-**focus mode (焦点模式)** [Power BI 服务]
+**焦点模式**：使用焦点模式弹出视觉对象或磁贴以查看更多详细信息。 处于焦点模式时，你仍然可以与此视觉对象或磁贴交互。 
 
-**Free account (免费帐户)** 请参见本术语集中的“帐户”
+**免费帐户**：请参阅“帐户” 
 
-**full screen, full-screen mode (全屏，全屏模式)** [Power BI 服务]
+**全屏，全屏模式**：使用全屏模式查看 Power BI 内容，无需受到菜单和导航窗格的干扰。 有时这也称为电视模式。 
 
 ## <a name="g"></a>G
 
@@ -145,7 +148,7 @@ Power BI 服务可能会引入不熟悉或容易混淆的术语。 词汇表是�
 
 ## <a name="i"></a>I
 
-**insights (见解)** 通过运行我们的见解机器学习算法执行的自动数据分析。
+**见解**：请参阅“快速见解”。 
 
 
 ## <a name="j"></a>J
@@ -157,7 +160,7 @@ Power BI 服务可能会引入不熟悉或容易混淆的术语。 词汇表是�
 
 ## <a name="l"></a>L
 
-**left navigation (left nav) (左侧导航(左导航))**：已将其替换为“nav pane (导航窗格)”，但其在某些文档中可能仍会出现。    
+**left navigation (left nav) (左侧导航(左导航))** ：已将其替换为“nav pane (导航窗格)”，但其在某些文档中可能仍会出现。     
 沿 Power BI 服务左侧边缘的控件。
 
 第一次出现：navigation pane，后面提及或空间紧促时：nav pane
@@ -170,17 +173,15 @@ Power BI 服务可能会引入不熟悉或容易混淆的术语。 词汇表是�
 
 **modeling (建模)** [Power BI Desktop] 让已连接的数据可在 Power BI 中使用。 这包括，在多个数据源的表中创建关系，创建度量值，以及分配指标。
 
-**My workspace (我的工作区)** 每个 Power BI 客户用于创建内容的工作区。 如果他们想将在这里创建的任何内容绑定到应用，并且有“设计者”权限，他们会将其上传到适当的工作区或新建一个。
+**我的工作区**：每个 Power BI 客户用于创建内容的工作区。 如果他们想将在这里创建的任何内容绑定到应用，并且有“设计者”权限，他们会将其上传到适当的工作区或新建一个  。
 
 ## <a name="n"></a>N
 
-**native (本机)** 产品附带。 例如，Power BI 附带了一套本机可视化效果类型。 但是，你也可以导出其他类型，例如自定义视觉对象。
+**native (本机)** 产品附带。 例如，Power BI 附带了一套本机  可视化效果类型。 但是，你也可以导出其他类型，例如自定义视觉对象。
 
-**navigation pane (导航窗格)**：沿 Power BI 服务左侧边缘的控件。
+**导航窗格**：沿 Power BI 服务左侧边缘的控件。 
 
 第一次出现：navigation pane，后面提及或空间紧促时：nav pane
-
-**nav pane (导航窗格)** 请参见“导航窗格”
 
 **notification (通知)** Power BI 通知中心发送和收到的消息。  
 
@@ -191,29 +192,28 @@ Power BI 服务可能会引入不熟悉或容易混淆的术语。 词汇表是�
 
 **OneDrive for Business** 与 **OneDrive** OneDrive 是个人帐户，而 OneDrive for Business 适用于工作帐户。  
 
-**On-premises data gateway (本地数据网关)**
-
+**本地**：用于区分本地计算（计算资源位于客户自己的设施上）与云计算的术语。
 
 
 ## <a name="p"></a>P
 
 **PaaS** PaaS 代表平台即服务。 例如，Power BI Embedded。
 
-**page (页)** 报表包含一页或多页。 报表画布底部的每个选项卡代表一页。
+**page (页)** 报表包含一页或多页。 报表画布上的每个选项卡代表一页。
 
 **pbiviz** Power BI 自定义视觉对象的文件扩展名。
 
 **pbix** Power BI Desktop 文件的文件扩展名。
 
-**permissions (权限)** 用户在 Power BI 中可以执行哪些操作、不可以执行哪些操作都是基于权限。 作为使用者，你的权限与设计者、管理员或开发人员不同。
+**permissions (权限)** 用户在 Power BI 中可以执行哪些操作、不可以执行哪些操作都是基于权限。 作为使用者  ，你的权限与设计者  、管理员或开发人员不同。
 
 **phone report (手机报表)** 经过格式设置可在手机上查看的 Power BI 报表。
 
 **phone view (手机视图)** Power BI 服务中用于设计手机报表的用户界面。
 
-**pin, unpin (固定，取消固定)** 将视觉对象（通常从报表）放置到仪表板上的动作。
+**固定，取消固定**：报表设计人员将视觉对象（通常从报表）放置到仪表板上的动作。 
 
-**Power BI**、**Power BI 服务**、**Power BI Desktop**、**Power BI 移动版**、一些其他 Power BI 产品。 *Power BI* 是一个泛称。 通常在首次提及完整产品名称之后用于代替完整产品名称，例如 Power BI 服务和 Power BI 移动版。
+**Power BI**、**Power BI 服务**、**Power BI Desktop**、**Power BI 移动版**、一些其他 Power BI 产品。 *Power BI* 是一个泛称。 通常在首次提及完整产品名称之后用于代替完整产品名称，例如 Power BI 服务  和 Power BI 移动版  。
 
 **Power BI Desktop** 也称为 *Desktop*。 可在本地计算机上安装的免费的 Windows Power BI 应用程序，可用于连接到数据、转换数据并实现数据的可视化效果。 由报表设计人员和管理员使用。 有关详细信息，请参阅[什么是 Power BI？](../fundamentals/power-bi-overview.md)。
 
@@ -227,10 +227,9 @@ Power BI 服务可能会引入不熟悉或容易混淆的术语。 词汇表是�
 
 **Power BI service (Power BI 服务)** 联机 SaaS（软件即服务）服务。 有关详细信息，请参阅[什么是 Power BI？](../fundamentals/power-bi-overview.md)。
 
-**Power BI service connector (Power BI 服务连接器)** 此连接器让 Power BI Desktop 用户能够从 Desktop 连接到 Power BI 服务中的数据集。 他们可以创建一次模型，然后在许多报表和仪表板中重复使用。
-
 **Premium workspace (Premium 工作区)** 在专用容量中运行的工作区，使用钻石图标向客户表示。  
 
+**发布**：Power BI 服务报表设计人员捆绑 Power BI 工作区的内容，以 Power BI 应用的形式向其他人提供。  Power BI Desktop 报表设计人员使用发布来表示将 .pbix 格式的 Power BI Desktop 报表发送到 Power BI 服务，以便他们可以通过它生成仪表板，并轻松地将它与其他人共享。  
 
 ## <a name="q"></a>Q
 **Q&A (问答)** 键入有关数据集的自然语言问题并以可视化效果的形式获得回复。 显示在 Power BI 服务和 Desktop 中。
@@ -243,13 +242,10 @@ Power BI 服务可能会引入不熟悉或容易混淆的术语。 词汇表是�
 **query string parameter (查询字符串参数)**  
 添加到 URL，以对 Power BI 报表中看到的结果进行预筛选。 从最广泛的意义上来说，查询字符串可从数据库找回信息。
 
-**Quick Insights (快速见解)**
-
-
-**quick measures (快速度量值)**
+**快速见解**：快速见解表示显示数据趋势和模式的自动生成的见解。  
 
 ## <a name="r"></a>R
-**R，Microsoft R**
+**R，Microsoft R**：R 是统计计算和图形的编程语言和软件环境。
 
 **Reading View (阅读视图)** 报表的只读视图（与编辑视图相对）。
 
@@ -264,19 +260,24 @@ Power BI 服务可能会引入不熟悉或容易混淆的术语。 词汇表是�
 **report (报表)**  
 单一数据集的多视角视图，通过可视化效果表示来自该数据集的不同发现结果和见解。 可拥有单一或多个可视化效果，单一或多个页。  
 
-**report editor (报表编辑器)**
+**报表编辑器**：报表设计人员通过报表编辑器创建报表并对现有报表进行更改。  
 
-**report measures (报表度量值)** 也称为“自定义计算值”。 在 Excel 中称为计算字段。 另请参见“度量值”。   
-**report server (报表服务器)** 报表服务器的实例。
+**report measures (报表度量值)** 也称为“自定义计算值”。 在 Excel 中称为计算字段。  另请参见“度量值”  。   
 
 **responsive visuals (响应式视觉对象)** 可大幅度更改以显示最大数量的数据和见解的视觉对象，与屏幕大小无关。
 
+**行级别安全性，RLS**：一种 Power BI 功能，它允许数据库管理员基于执行查询的用户的特性（例如组成员身份）来控制对数据库表中的行的访问。  
+
+管理员可以使用 Power BI Desktop 为导入到 Power BI 的数据模型配置 RLS。  
+
+
 ## <a name="s"></a>S
 **SaaS**   
+软件即服务 (SaaS) 是通过 Internet 将应用程序作为基于 Web 的服务交付的方式。 又称为：基于 Web 的软件、按需软件或托管软件。 
 
 **screenshot (屏幕截图)** 可使用“发送屏幕截图”功能通过电子邮件发送报表的简单屏幕截图。
 
-**service (服务)** 请参见“Power BI 服务”
+**服务**：请参阅“Power BI 服务”，通过订阅或许可证为客户提供的独立资源。  服务是通过云专门提供的产品服务。  
 
 **Settings (设置)** Power BI 用户管理自己的常规设置（例如是否预览新功能、设置默认语言、关闭帐户等）的地方。另外，用户还管理内容资产、警报和订阅的单独设置。 使用齿轮图标表示。
 
@@ -285,16 +286,15 @@ Power BI 服务可能会引入不熟悉或容易混淆的术语。 词汇表是�
 
 **与我共享** 导航窗格中的容器，用于容纳其他 Power BI 用户共享的所有单独项目。
 
-**snapshot (快照)**
-
+**快照**：在 Power BI 中，快照是磁贴、仪表板或报表的静态图像与实时图像。
 
 **SQL Server Analysis Services (SSAS)** 
  
 **SQL Server Reporting Services (SSRS)**
 
-**streaming data (流式数据)** 请参见“实时流”。
+**streaming data (流式数据)** 请参见“实时流”  。
 
-**subscriptions, Subscribe (订阅)**  
+**subscriptions, Subscribe (订阅)**   
 你可以订阅报表页、应用和仪表板，并接收包含快照的电子邮件。 需要 Power BI Pro 许可证。
 
 **summarization (归纳)** [Power BI Desktop] 应用于一列中的值的操作。

@@ -6,16 +6,20 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
-ms.date: 10/22/2018
+ms.date: 01/07/2020
 ms.author: maggies
-ms.openlocfilehash: b8dd79e4b256a80ba5159a1b3980e798bc611840
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 4c4228ea4276235a983849d2ea88e1030f4690f7
+ms.sourcegitcommit: b68a47b1854588a319a5a2d5d6a79bba2da3a4e6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73875034"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "75732029"
 ---
 # <a name="create-a-paginated-report-for-power-bi-report-server"></a>为 Power BI 报表服务器创建分页报表
+本文介绍如何通过执行简单几步为 Power BI 报表服务器创建分页报表。
+
+正在查找有关在报表生成器中为 Power BI 服务创建分页报表的帮助吗？ 请参阅 [Power BI 分页报表生成器](../report-builder-power-bi.md)。
+
 顾名思义，分页报表可以生成很多页。 它们以固定格式布局，并允许进行精准自定义。 分页报表是 .rdl 文件。
 
 可以在 Power BI 报表服务器 Web 门户中存储和管理分页报表，就像在 SQL Server Reporting Services (SSRS) Web 门户中一样。 在 SQL Server Data Tools (SSDT) 中的报表生成器或报表设计器中创建和编辑分页报表，然后将其发布到任意 Web 门户。 接下来，组织中的报表读取器可以在浏览器或移动设备上的 Power BI 移动应用中查看报表。
@@ -24,7 +28,7 @@ ms.locfileid: "73875034"
 
 如果已在报表生成器或报表设计器中创建了分页报表，则可以为 Power BI 报表服务器创建分页报表。 如果还没有，可以参阅下面的一些快速入门步骤。
 
-## <a name="step-1-install-and-start-report-builder"></a>步骤 1：安装并启动报表生成器
+## <a name="step-1-start-report-builder"></a>步骤 1：启动报表生成器
 可能已安装报表生成器来为 SSRS 服务器创建报表。 可以使用相同版本的报表生成器来为 Power BI 报表服务器创建报表。 如果尚未安装，也不用担心，操作过程非常简单。
 
 1. 在 Power BI 报表服务器 Web 门户中，选择“新建”   > “分页报表”  。

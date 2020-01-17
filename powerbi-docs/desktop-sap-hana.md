@@ -10,14 +10,14 @@ ms.topic: conceptual
 ms.date: 08/21/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: bf258597f6369541fb9a221c8d423e8a9078a3a4
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 7c70c4f4e5fec55ffd98d0156944c9973cffdb2a
+ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73879745"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "75760287"
 ---
-# <a name="use-sap-hana-in-power-bi-desktop"></a>在 Power BI Desktop 中使用 SAP HANA
+# <a name="connect-to-sap-hana-databases-in-power-bi-desktop"></a>连接到 Power BI Desktop 中的 SAP HANA 数据库
 使用 Power BI Desktop，你现在可以访问 **SAP HANA** 数据库。 若要使用 **SAP HANA**，必须在本地客户端计算机上按顺序安装 SAP HANA ODBC 驱动程序，以使 Power BI Desktop **SAP HANA** 数据连接能够正常运行。 可以从 [SAP 开发工具](https://tools.hana.ondemand.com/#hanatools)下载 SAP HANA 客户端工具，其中包含所需的 ODBC 驱动程序。 或者，可以从 [SAP 软件下载中心](https://support.sap.com/swdc)获取。 在“软件”门户中，搜索 Windows 计算机的 SAP HANA 客户端。 由于 **SAP 软件下载中心**的结构经常发生变化，因此没有有关站点导航的更多具体指导。
 
 要连接 SAP HANA 数据库，请依次选择“获取数据”>“数据库”>“SAP HANA 数据库”，如下图所示   ：

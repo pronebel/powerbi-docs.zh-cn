@@ -9,12 +9,12 @@ ms.author: maggies
 ms.reviewer: cfinlan
 ms.custom: ''
 ms.date: 08/29/2019
-ms.openlocfilehash: 44e56613a69069351f21aa7d515fc2bb296e6728
-ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
+ms.openlocfilehash: b8301ca17559b81d4db132fbeaa0955ce68a4c6e
+ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/06/2020
-ms.locfileid: "74128270"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "75762131"
 ---
 # <a name="pass-a-report-parameter-in-a-url-for-a-paginated-report-in-power-bi"></a>在 Power BI 分页报表的 URL 中传递报表参数 
 
@@ -64,6 +64,8 @@ rp:SalesOrderNumber:isnull=true
 
 > [!NOTE]
 > 如果报表包含具有默认值的报表参数，并且“Prompt”属性的值为 false（即未在报表管理器中选择“Prompt User”属性），则不能在 URL 中为该报表参数传递值    。 这样，管理员就可以选择阻止最终用户添加或修改某些报表参数的值。
+
+> Power BI 不支持超过 900 个字符的查询字符串。  如果使用 url 参数查看分页报表，则可以超过此值。  如果使用多值参数，则更是如此。
 
 ## <a name="additional-examples"></a>其他示例 
 

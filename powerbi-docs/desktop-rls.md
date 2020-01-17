@@ -10,14 +10,14 @@ ms.topic: conceptual
 ms.custom: ''
 ms.date: 12/05/2019
 LocalizationGroup: Create reports
-ms.openlocfilehash: abbd8f34f42bdcfdca6e65df58c78bf394f00d91
-ms.sourcegitcommit: 9a265d8117cc202f5f700286b5ff42a631aacdb4
+ms.openlocfilehash: dc2c1e312592048c90643526a898ebe654907a68
+ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/06/2019
-ms.locfileid: "74882778"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "75760649"
 ---
-# <a name="row-level-security-rls-with-power-bi-desktop"></a>Power BI Desktop 行级别安全性 (RLS)
+# <a name="restrict-data-access-with-row-level-security-rls-for-power-bi-desktop"></a>使用 Power BI Desktop 行级安全性 (RLS) 限制数据访问
 
 可以结合使用行级别安全性 (RLS) 和 Power BI Desktop，以限制给定用户的数据访问。 筛选器可限制行级别上的数据。 你可以定义角色中的筛选器。
 

@@ -10,18 +10,18 @@ ms.topic: conceptual
 ms.date: 10/29/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 359d36e3becb58386aeaca66f12670bd463644d1
-ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
+ms.openlocfilehash: c9e0658eb277ae25b3a418dd80fb9323be6f6ab0
+ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/06/2020
-ms.locfileid: "73871101"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "75758390"
 ---
-# <a name="arcgis-maps-in-power-bi-desktop"></a>Power BI Desktop 中的 ArcGIS Maps
+# <a name="create-arcgis-maps-in-power-bi-desktop"></a>在 Power BI Desktop 中创建 ArcGIS Maps
 
 [!INCLUDE [power-bi-visuals-desktop-banner](../includes/power-bi-visuals-desktop-banner.md)]
 
-本教程是从 ArcGIS Map for Power BI 创建者的角度进行编写。 设计者与同事共享 ArcGIS Map for Power BI 地图后，此同事便可以查看相应的地图并与之交互，但无法保存更改。 若要详细了解如何查看 ArcGIS 地图，请参阅[与 ArcGIS Maps for Power BI 交互](power-bi-visualizations-arcgis.md)。
+本教程是从 ArcGIS Map for Power BI 创建者的角度进行编写。 设计者与同事共享 ArcGIS Map for Power BI 地图后，此同事便可以查看相应的地图并与之交互，但无法保存更改  。 若要详细了解如何查看 ArcGIS 地图，请参阅[与 ArcGIS Maps for Power BI 交互](power-bi-visualizations-arcgis.md)。
 
 ArcGIS 地图和 Power BI 的结合将超越地图点表示法的地图绘制技术提升到全新水平。 从基本地图、位置类型、主题、符号样式和引用层中进行选择，创建丰富多彩的信息性地图可视化效果。 地图上权威数据层与空间分析的结合可传达出可视化效果中数据的更深层次的理解。
 
@@ -41,7 +41,7 @@ ArcGIS 地图和 Power BI 的结合将超越地图点表示法的地图绘制技
 ## <a name="user-consent"></a>用户须知
 ArcGIS Maps for Power BI 由 Esri (https://www.esri.com) 提供。 你使用 ArcGIS Maps for Power BI 必须遵守 Esri 的条款和隐私策略。 Power BI 用户如果希望使用适用于 Power BI 的 ArcGIS 地图视觉对象，则需要接受同意对话框。
 
-资源
+资源 
 
 [条款](https://go.microsoft.com/fwlink/?LinkID=826322)
 
@@ -54,11 +54,11 @@ ArcGIS Maps for Power BI 由 Esri (https://www.esri.com) 提供。 你使用 Arc
 
 本教程使用 Power BI Desktop 和 PBIX [零售分析示例](https://download.microsoft.com/download/9/6/D/96DDC2FF-2568-491D-AAFA-AFDD6F763AE3/Retail%20Analysis%20Sample%20PBIX.pbix)。 还可以使用 Power BI 服务创建 ArcGIS Maps for Power BI。 
 
-1. 在菜单栏的左上角，选择“文件”\>“打开”
+1. 在菜单栏的左上角，选择“文件”\>“打开”  
    
 2. 查找本地计算机中保存的**零售分析示例 PBIX 文件**。
 
-1. 在报表视图 ![报表视图图标的屏幕截图。](media/power-bi-visualization-kpi/power-bi-report-view.png) 中，打开“零售分析示例”。
+1. 在报表视图 ![报表视图图标的屏幕截图。](media/power-bi-visualization-kpi/power-bi-report-view.png) 中，打开“零售分析示例”  。
 
 1. 选择 ![黄色选项卡的屏幕截图。](media/power-bi-visualization-kpi/power-bi-yellow-tab.png) ，以添加新报表页。
 
@@ -84,7 +84,7 @@ Watch 将创建几个不同的可视化效果，然后使用以下步骤通过[�
    ![ArcGIS 可视化效果占位符](media/power-bi-visualization-arcgis/power-bi-sign-in.png)
 
 
-3. 从“**字段**”窗格中，拖动一个数据字段到“**位置**”或“**纬度**”和/或“**经度**”框。 在此示例中，我们使用“存储 > 城市”。
+3. 从“**字段**”窗格中，拖动一个数据字段到“**位置**”或“**纬度**”和/或“**经度**”框。 在此示例中，我们使用“存储 > 城市”  。
    
    > [!NOTE]
    > ArcGIS Maps for Power BI 会自动检测已选字段显示为地图上的形状或点是否是最佳方式。 可以调整设置中的默认值（如下所示）。
@@ -93,16 +93,16 @@ Watch 将创建几个不同的可视化效果，然后使用以下步骤通过[�
    
     ![ArcGIS 字段窗格](media/power-bi-visualization-arcgis/power-bi-fields-pane3new.png)
 
-4. 从“字段”窗格中，拖动一个度量值到“大小”框，以调整数据的显示方式。 在本示例中，我们使用“销售额 > 去年销售额”。
+4. 从“字段”  窗格中，拖动一个度量值到“大小”  框，以调整数据的显示方式。 在本示例中，我们使用“销售额 > 去年销售额”  。
    
     ![Esri 点图可视化效果](media/power-bi-visualization-arcgis/power-bi-esri-point-map-size2new.png)
 
 你已为 Power BI 地图创建第一个 ArcGIS 地图。 现在，让我们使用基本地图、位置类型、主题等改进地图并设置其格式。
 
 ## <a name="settings-and-formatting-for-arcgis-maps-for-power-bi"></a>ArcGIS Maps for Power BI 设置和格式
-若要访问 ArcGIS Maps for Power BI 的格式化功能，请执行以下操作：
+若要访问 ArcGIS Maps for Power BI  的格式化功能，请执行以下操作：
 
-1. 通过选择可视化效果右上角的“更多选项”(…)，然后选择“编辑”，访问其他功能。
+1. 通过选择可视化效果右上角的“更多选项”(…)，然后选择“编辑”，访问其他功能   。
    
    ![ArcGIS 编辑窗格](media/power-bi-visualization-arcgis/power-bi-edit2.png)
    
@@ -112,11 +112,11 @@ Watch 将创建几个不同的可视化效果，然后使用以下步骤通过[�
    
 
 > [!TIP]
-> Esri 针对 ArcGIS Maps for Power BI 的功能集提供[综合文档](https://go.microsoft.com/fwlink/?LinkID=828772)。
+> Esri  针对 ArcGIS Maps for Power BI  的功能集提供[综合文档](https://go.microsoft.com/fwlink/?LinkID=828772)。
 
 
 ### <a name="base-maps"></a>基本地图
-提供了四个基本地图：暗灰色画布、浅灰色画布、OpenStreetMap 和街道。  街道是 ArcGIS 的标准基本地图。
+提供了四个基本地图：暗灰色画布、浅灰色画布、OpenStreetMap 和街道。  街道是 ArcGIS 的标准基本地图  。
 
 若要应用基本地图，在任务窗格中选择它。
 
@@ -127,10 +127,10 @@ ArcGIS Maps for Power BI 自动检测在地图上显示数据的最佳方法。 
 
 ![Esri 位置类型示例](media/power-bi-visualization-arcgis/power-bi-esri-location-types-new.png)
 
-仅当数据包含标准地理位置值时，边界才可使用。 ArcGIS Maps for Power BI 自动找出要在地图上显示的形状。 标准地理位置值包括国家/地区、省、邮政编码等。但是和 GeoCoding 一样，默认情况下 Power BI 不会为数据检测字段是否为边界，或者找不到数据边界。  
+仅当数据包含标准地理位置值时，边界  才可使用。 ArcGIS Maps for Power BI 自动找出要在地图上显示的形状。 标准地理位置值包括国家/地区、省、邮政编码等。但是和 GeoCoding 一样，默认情况下 Power BI 不会为数据检测字段是否为边界，或者找不到数据边界。  
 
 ### <a name="map-theme"></a>地图主题
-提供了四个地图主题。 Power BI 根据添加到“位置”和“大小”存储桶的字段，自动选择“仅位置”或“大小”主题。 由于我们已将字段添加到这两个存储桶，因此地图已默认为“大小”。 请先尝试其他主题并返回到“大小”，然后再继续下一步。  
+提供了四个地图主题。 Power BI 根据添加到“位置”和“大小”存储桶的字段，自动选择“仅位置”或“大小”主题     。 由于我们已将字段添加到这两个存储桶，因此地图已默认为“大小”  。 请先尝试其他主题并返回到“大小”，然后再继续下一步  。  
 
 ![Esri 地图主题示例](media/power-bi-visualization-arcgis/power-bi-esri-map-theme-new.png)
 
@@ -156,14 +156,14 @@ ArcGIS Maps for Power BI 自动检测在地图上显示数据的最佳方法。 
 
 
 ### <a name="symbol-style"></a>符号样式
-使用符号样式可以对地图上数据的显示方式进行精细调整。 根据所选的位置类型和地图主题，符号样式会有所不同。 以下示例演示如何将地图主题设置为“大小”，以及如何进行透明度、样式和大小的多个符号样式调整。 
+使用符号样式可以对地图上数据的显示方式进行精细调整。 根据所选的位置类型和地图主题，符号样式会有所不同。 以下示例演示如何将地图主题设置为“大小”，以及如何进行透明度、样式和大小的多个符号样式调整  。 
 
 ![Esri 符号样式示例](media/power-bi-visualization-arcgis/power-bi-esri-symbol-style-new.png)
 
 ### <a name="pins"></a>固定
 通过添加固定内容引起对地图上点的注意。  
 
-1. 选择“固定内容”选项卡。
+1. 选择“固定内容”  选项卡。
 2. 在搜索框中键入关键字（如地址、地点和兴趣点），再从下拉列表中进行选择。 地图上会显示一个符号，并会自动缩放到相应位置。 搜索结果将会保存为“大头针”窗格中的位置卡。 最多可以保存 10 张位置卡。
    
    ![ArcGIS 地图固定示例](media/power-bi-visualization-arcgis/power-bi-southampton.png)
@@ -186,7 +186,7 @@ ArcGIS Maps for Power BI 自动检测在地图上显示数据的最佳方法。 
    > 如果放大地图，选择位置将更加容易。 可以使用“+”图标或通过鼠标滚动来放大。
    > 
    > 
-2. 假设你在几天内将飞抵 Charlotte Douglas 机场，并想知道哪家连锁商店位于合理的驾驶距离以内。 将搜索区域更改为“驾驶时间”，将距离更改为 25 分钟。 选择“确定”。    
+2. 假设你在几天内将飞抵 Charlotte Douglas 机场，并想知道哪家连锁商店位于合理的驾驶距离以内。 将搜索区域更改为“驾驶时间”，将距离更改为 25 分钟   。 选择“确定”。    
    
     ![驾驶时间半径](media/power-bi-visualization-arcgis/power-bi-esri-drive-time-radius.png)
 
@@ -200,7 +200,7 @@ ArcGIS Maps for Power BI 自动检测在地图上显示数据的最佳方法。 
 #### <a name="reference-layer---demographics"></a>引用层 — 人口统计
 ArcGIS Maps for Power BI 中可选择人口统计信息层，这些图层可以为 PowerBI的数据提供相关的对照信息。
 
-1. 选择“引用层”选项卡，然后选择“人口统计”。
+1. 选择“引用层”  选项卡，然后选择“人口统计”  。
 2. 所列出的每一个图层都带有一个复选框。 勾选图层即可将该图层添加到地图中。  在此示例中，我们已将家庭平均收入图层添加到地图中。<br/>
    
     ![引用层人口统计示例](media/power-bi-visualization-arcgis/power-bi-demographics.png)
@@ -211,11 +211,11 @@ ArcGIS Maps for Power BI 中可选择人口统计信息层，这些图层可以�
 #### <a name="reference-layer---arcgis"></a>引用层 — ArcGIS
 ArcGIS Online 允许组织发布公共的 Web 地图。 另外，Esri 还通过 Living Atlas 提供了一套精选的 Web 地图集。 在 ArcGIS 选项卡中，可以搜索所有的公共 Web 地图或 Living Atlas 地图，并将搜索到的地图作为引用层添加到地图中。
 
-1. 选择“引用层”选项卡，然后选择“ArcGIS”。
+1. 选择“引用层”  选项卡，然后选择“ArcGIS”  。
 2. 输入搜索词，然后选择一个地图图层。 在本例中我们选择美国参议院选区分布图。
    
     ![Esri 人口统计示例](media/power-bi-visualization-arcgis/power-bi-reference-details.png)
-3. 若要查看详细信息，请选择阴影区域以打开“从引用层选择”：对引用层上的所选内容边界或对象使用引用层选择工具。
+3. 若要查看详细信息，请选择阴影区域以打开  “从引用层选择”：对引用层上的所选内容边界或对象使用引用层选择工具。
 
 <br/>
 
@@ -246,7 +246,7 @@ ArcGIS Maps for Power BI 允许通过五种选择模式来帮助准确、快速�
 <br/>
 
 ## <a name="getting-help"></a>获取帮助
-Esri 针对 ArcGIS Maps for Power BI 的功能集提供[综合文档](https://go.microsoft.com/fwlink/?LinkID=828772)。
+Esri  针对 ArcGIS Maps for Power BI  的功能集提供[综合文档](https://go.microsoft.com/fwlink/?LinkID=828772)。
 
 可以在 [Power BI 社区中与**适用于 Power BI 的 ArcGIS 地图**相关的帖子](https://go.microsoft.com/fwlink/?LinkID=828771)中提问题和查找最新信息，报告问题并查找答案。
 
@@ -258,12 +258,12 @@ Esri 针对 ArcGIS Maps for Power BI 的功能集提供[综合文档](https://go
 Power BI 允许设计者、租户管理员、IT 管理员设置 ArcGIS Maps for Power BI 的使用。 在下面可找到每个角色可执行的步骤。 
 
 ### <a name="designer-options"></a>设计者选项
-在 Power BI Desktop 中，设计者可以在“安全”选项卡上禁用 ArcGIS Maps for Power BI。选择“文件” > “选项和设置”，然后选择“选项” > “安全”。 禁用后，默认不会加载 ArcGIS Maps。
+在 Power BI Desktop 中，设计者可以在“安全”选项卡上禁用 ArcGIS Maps for Power BI。选择“文件” > “选项和设置”，然后选择“选项” > “安全”     。 禁用后，默认不会加载 ArcGIS Maps。
 
 ![桌面安全性对话框示例](media/power-bi-visualization-arcgis/power-bi-desktop-security-dialog2.png)
 
 ### <a name="tenant-admin-options"></a>租户管理员选项
-在 PowerBI.com 中，租户管理员可以为所有用户禁用 ArcGIS Maps for Power BI。 选择“设置” > “管理门户” > “租户设置”。 禁用后，Power BI 不再能在“可视化效果”窗格中显示 ArcGIS Maps for Power BI 图标。
+在 PowerBI.com 中，租户管理员可以为所有用户禁用 ArcGIS Maps for Power BI。 选择“设置” > “管理门户” > “租户设置”    。 禁用后，Power BI 不再能在“可视化效果”窗格中显示 ArcGIS Maps for Power BI 图标。
 
 ![ArcGIS 管理门户示例](media/power-bi-visualization-arcgis/power-bi-arcgis-admin-portal2.png)
 
@@ -334,23 +334,23 @@ ArcGIS Maps for Power BI 由 Esri (https://www.esri.com) 提供。 使用 ArcGIS
 **向 Esri 发送哪些数据？**
 可以在[文档站点](https://doc.arcgis.com/en/maps-for-powerbi/get-started/data-transfer.htm)中了解有关向 Esri 传输哪些数据的信息。
 
-使用适用于 Power BI 的 ArcGIS 地图需要付费吗？
+使用适用于 Power BI 的 ArcGIS 地图需要付费吗？ 
 
-ArcGIS Map for Power BI 由 Esri 提供，无需额外付费。 你必须同意用户协议。  
+ArcGIS Map for Power BI 由 Esri 提供，无需额外付费  。 你必须同意用户协议。  
 
 **我在 Power BI Desktop 中看到关于缓存已满的错误消息**
 
 我们正在修复此 bug。  在此期间，若要清除缓存，请尝试删除以下位置的文件：C:\Users\\AppData\Local\Microsoft\Power BI Desktop\CEF，然后重启 Power BI。
 
-适用于 Power BI 的 ArcGIS 地图是否支持 Esri 形状文件？
+适用于 Power BI 的 ArcGIS 地图是否支持 Esri 形状文件？ 
 
 ArcGIS Maps for Power BI 自动检测诸如国家/地区、州/省，以及邮政编码等标准边界。 如果需要提供自定义的形状，可以使用 [Shape Maps for Power BI Desktop](desktop-shape-map.md) 来操作。
 
-是否能够离线查看 ArcGIS 地图？
+是否能够离线查看 ArcGIS 地图？ 
 
 否，Power BI 需要网络连接才能显示地图。
 
-可以从 Power BI 连接我的 ArcGIS Online 帐户吗？
+可以从 Power BI 连接我的 ArcGIS Online 帐户吗？ 
 
 目前还不行。 [投票支持此建议](https://ideas.powerbi.com/forums/265200-power-bi-ideas/suggestions/9154765-arcgis-geodatabases)吧。等我们着手开发此功能时，我们会向你发送一封电子邮件。  
 

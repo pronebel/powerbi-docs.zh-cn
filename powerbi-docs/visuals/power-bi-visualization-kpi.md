@@ -10,14 +10,14 @@ ms.topic: tutorial
 ms.date: 06/24/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 42a9f2c641a0cdac9b7a129ffc5ecc6f7fb8cf8d
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: f477c21a337838fb275087f744eef02eb7fd57ce
+ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73870874"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "75762361"
 ---
-# <a name="key-performance-indicator-kpi-visuals"></a>关键绩效指标 (KPI) 视觉对象
+# <a name="create-key-performance-indicator-kpi-visualizations"></a>创建关键绩效指标 (KPI) 视觉对象
 
 [!INCLUDE [power-bi-visuals-desktop-banner](../includes/power-bi-visuals-desktop-banner.md)]
 
@@ -97,7 +97,7 @@ KPI 也适用于 Power BI 服务和移动设备。 这样，可以始终连接�
 
 ## <a name="considerations-and-troubleshooting"></a>注意事项和疑难解答
 
-如果 KPI 并非如上所示，可能是因为你未按“会计月份”  进行排序。 KPI 没有排序选项。 必须重新开始，并先按“会计月份”  排序，再  将可视化效果转换为 KPI。
+如果 KPI 并非如上所示，可能是因为你未按“会计月份”  进行排序。 KPI 没有排序选项。 必须重新开始，并先按“会计月份”排序，再将可视化效果转换为 KPI   。
 
 ## <a name="next-steps"></a>后续步骤
 

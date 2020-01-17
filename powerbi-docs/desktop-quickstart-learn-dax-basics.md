@@ -9,14 +9,14 @@ ms.topic: conceptual
 ms.date: 10/21/2019
 ms.author: davidi
 LocalizationGroup: Model your data
-ms.openlocfilehash: fcff0bf1d6c68b9bdb000855f4984b3664b882c1
-ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
+ms.openlocfilehash: 9ff04510a786fa89e1e461e6eefee1af90e58a8e
+ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/06/2020
-ms.locfileid: "73877914"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "75760626"
 ---
-# <a name="dax-basics-in-power-bi-desktop"></a>Power BI Desktop 中的 DAX 基本概念
+# <a name="apply-dax-basics-in-power-bi-desktop"></a>在 Power BI Desktop 中应用 DAX 的基础知识
 本文适用于刚开始使用 Power BI Desktop 的用户。 为你提供有关如何使用数据分析表达式 (DAX) 的快速而简单的介绍，以便解决一些基本计算和数据分析问题。 我们将逐一探讨一些概念性信息、一系列可以完成的任务以及测试所学内容的知识检查。 学习完本文后，你便可充分了解 DAX 中最重要的基本概念。
 
 ## <a name="what-is-dax"></a>DAX 是什么？

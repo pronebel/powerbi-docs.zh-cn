@@ -9,12 +9,12 @@ ms.topic: reference
 ms.date: 09/05/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: a3ca4b8ffe709fec7953eb5d4081bdf296504eb1
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 3f263e67b866f6d6a3ea76257c64bbb2308a25d2
+ms.sourcegitcommit: b68a47b1854588a319a5a2d5d6a79bba2da3a4e6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73868514"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "75729704"
 ---
 # <a name="data-types-in-power-bi-desktop"></a>Power BI Desktop 中的数据类型
 本文介绍 Power BI Desktop 和数据分析表达式 (DAX) 中支持的数据类型。 
@@ -51,7 +51,7 @@ Power BI Desktop 支持三种数字类型：
 >
 
 ### <a name="datetime-types"></a>日期/时间类型
-Power BI Desktop 支持查询视图中的五种日期/时间数据类型，以及报表视图和模型中的三种日期/时间数据类型。   在加载到模型的过程中，日期/时间/时区和持续时间都将被转换。
+Power BI Desktop 支持查询视图中的五种日期/时间数据类型。  在加载到模型的过程中，日期/时间/时区和持续时间都将被转换。 Power BI Desktop 数据模型只支持日期/时间，但它们可以独立地格式化为日期或时间。 
 
 **日期/时间** – 表示日期和时间值。  实际上，日期/时间值是以十进制数类型进行存储的。  因此你实际上可以在这两种类型之间进行转换。   日期的时间部分存储为 1/300 秒 (3.33 ms) 的整数倍的分数。  支持 1900 年和 9999 年之间的日期。
 
@@ -59,7 +59,7 @@ Power BI Desktop 支持查询视图中的五种日期/时间数据类型，以�
 
 **时间** – 仅表示时间（没有日期部分）。  转换为模型时，时间值与小数位数左侧没有数字的日期/时间值相同。
 
-**日期/时间/时区** – 表示 UTC 日期/时间。  目前，加载到模型中时，它将被转换为日期/时间类型。
+**日期/时间/时区** – 表示带时区偏移量的 UTC 日期/时间。  将这种数据加载到模型中时，它将被转换为日期/时间类型。 Power BI 模型不会根据用户的位置或区域设置等调整时区。如果在美国将值 09:00 加载到模型中，则无论在何处打开或查看报表，它都将显示为 09:00。 
 
 **持续时间** – 表示时间的长度。 加载到模型中时，它将被转换为十进制数类型。  与十进制数类型相同，可将其添加到日期/时间字段，或从日期/时间字段中减去，并获取正确的结果。  与十进制数类型相同，你可以在显示度量值的可视化效果中轻松地使用它。
 
@@ -175,13 +175,13 @@ DAX 在许多函数中使用表数据类型，例如聚合和时间智能计算�
 | BLANK + BLANK |BLANK |0（零） |
 | BLANK + 5 |5 |5 |
 | BLANK * 5 |BLANK |0（零） |
-| 5/BLANK |无穷大 |错误 |
-| 0/BLANK |NaN |错误 |
-| 空白/空白 |BLANK |错误 |
+| 5/BLANK |无穷大 |Error |
+| 0/BLANK |NaN |Error |
+| 空白/空白 |BLANK |Error |
 | FALSE OR BLANK |FALSE |FALSE |
 | FALSE AND BLANK |FALSE |FALSE |
 | TRUE OR BLANK |TRUE |TRUE |
 | TRUE AND BLANK |FALSE |TRUE |
-| BLANK OR BLANK |BLANK |错误 |
-| BLANK AND BLANK |BLANK |错误 |
+| BLANK OR BLANK |BLANK |Error |
+| BLANK AND BLANK |BLANK |Error |
 

@@ -10,12 +10,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 10/23/2019
 LocalizationGroup: Reports
-ms.openlocfilehash: be45941e67417cbed15433405953cf728fe0aa8d
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 2d564b22ecf02c0d8593ed5676e46f2eb4168964
+ms.sourcegitcommit: 4b926ab5f09592680627dca1f0ba016b07a86ec0
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73876930"
+ms.lasthandoff: 01/10/2020
+ms.locfileid: "75836723"
 ---
 # <a name="filter-a-report-using-query-string-parameters-in-the-url"></a>通过在 URL 中添加查询字符串参数来筛选报表
 
@@ -46,7 +46,7 @@ URL?filter=***表***/***字段*** eq '***值***'
 
 如以下示例所示：
 
-app.powerbi.com/groups/me/apps/app-id/reports/report-id/ReportSection?filter=Table/Field eq 'value&'ctid=ctid      
+app.powerbi.com/groups/me/apps/app-id/reports/report-id/ReportSection?filter=Table/Field eq 'value'&ctid=ctid      
 
 ### <a name="field-types"></a>字段类型
 
@@ -107,7 +107,7 @@ app.powerbi.com/groups/me/apps/app-id/reports/report-id/ReportSection?filter=Tab
 |运算符  | 定义 | 字符串  | 数字 | 日期 |  示例|
 |---------|---------|---------|---------|---------|---------|
 |**and**     | 和 |  是      | 是 |  是|  product/price le 200 and price gt 3.5 |
-|**eq**     | equals |  是      | 是   |  是       | Address/City eq 'Redmond' |
+|**eq**     | 等于 |  是      | 是   |  是       | Address/City eq 'Redmond' |
 |**ne**     | 不等于 |   是      | 是  | 是        |  Address/City ne 'London' |
 |**ge**     |  大于或等于       | 否 | 是 |是 |  product/price ge 10
 |**gt**     | 大于        |否 | 是 | 是  | product/price gt 20

@@ -10,14 +10,14 @@ ms.topic: conceptual
 ms.date: 05/22/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 03a426947787cbd2720661267cac4601a4b9b13a
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 11be774515552d10846b51863eda6c155b92b57f
+ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73880947"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "75758074"
 ---
-# <a name="combo-chart-in-power-bi"></a>Power BI 中的组合图
+# <a name="create-and-use-combo-charts-in-power-bi"></a>创建和使用 Power BI 中的组合图
 
 [!INCLUDE [power-bi-visuals-desktop-banner](../includes/power-bi-visuals-desktop-banner.md)]
 
@@ -41,7 +41,7 @@ ms.locfileid: "73880947"
    
 2. 查找**零售分析示例 PBIX 文件**的副本
 
-1. 在报表视图中打开**零售分析示例 PBIX 文件** ![报表视图屏幕截图图标](media/power-bi-visualization-kpi/power-bi-report-view.png)。
+1. 在报表视图中打开**零售分析示例 PBIX 文件**![报表视图屏幕截图图标](media/power-bi-visualization-kpi/power-bi-report-view.png)。
 
 1. 选择 ![黄色选项卡的屏幕截图。](media/power-bi-visualization-kpi/power-bi-yellow-tab.png) ，以添加新报表页。
 
@@ -59,11 +59,11 @@ ms.locfileid: "73880947"
 
 1. 从空白报表页入手，并创建按月显示本年度销售额和毛利的组合图。
 
-    a.  从“字段”窗格，选择**销售额** \> **本年度销售额**  >  **值**。
+    a.  从“字段”窗格，选择“销售额”\>“本年度销售额” > “值”    。
 
-    b.  将**销售额** \> **本年度毛利**拖动到**值**框。
+    b.  将“销售额”\>“本年度毛利”拖动到“值”框    。
 
-    c. 选择**时间** \> **会计月份**以将它添加到**轴**框。
+    c. 选择“时间”\>“会计月”以将其添加到“轴”    。
 
     ![组合教程示例](media/power-bi-visualization-combo-chart/combotutorial1new.png)
 5. 选择可视化效果右上角的“更多选项”(…)，再选择“排序依据”>“会计月份”   。 要更改排序顺序，请再次选择省略号并选择  “升序排序”或“降序排序”  。 本示例将使用“升序排序”  。
@@ -71,7 +71,7 @@ ms.locfileid: "73880947"
 6. 将柱形图转换为组合图。 提供了两个组合图表：  “折线图和堆积柱形图”和“折线图和簇状柱形图”  。 在选择了柱形图的情况下，从“可视化效果”  窗格中选择“折线和簇状柱形图”  。
 
     ![转换组合图示例](media/power-bi-visualization-combo-chart/converttocombo-new2.png)
-7. 从**字段**窗格，将**销售额** \> **去年销售额**拖动到**行值**存储段。
+7. 从“字段”窗格，将“销售额”\>“去年销售额”拖动到“行值”存储段     。
 
    ![](media/power-bi-visualization-combo-chart/linevaluebucket.png)
 

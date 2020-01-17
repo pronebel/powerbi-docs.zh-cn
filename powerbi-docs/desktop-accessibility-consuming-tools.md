@@ -9,14 +9,14 @@ ms.topic: conceptual
 ms.date: 10/28/2019
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: ca2f1cd4908f99d47519f2dfca42bf2afae5fbed
-ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
+ms.openlocfilehash: c006d35baa14e68cca7009aabf79438321396802
+ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/06/2020
-ms.locfileid: "73878946"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "75761924"
 ---
-# <a name="consuming-reports-in-power-bi-with-accessibility-tools"></a>使用辅助功能工具使用 Power BI 报表
+# <a name="consume-power-bi-reports-by-using-accessibility-features"></a>通过辅助功能使用 Power BI 报表
 Power BI 提供许多内置功能，用于帮助残疾人士更轻松地使用 Power BI 报表并与之进行交互。 这些工具可帮助用户获取到无需使用辅助技术的用户可获取的报表信息。
 
 ![Windows 高对比度设置](media/desktop-accessibility/accessibility-consuming-tools-01.png)

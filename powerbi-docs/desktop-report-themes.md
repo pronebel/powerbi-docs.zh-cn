@@ -1,45 +1,63 @@
 ---
 title: 在 Power BI Desktop 中使用报表主题
-description: 了解如何使用自定义调色板，并将其应用于 Power BI Desktop 中的整个报表
+description: 了解如何使用自定义调色板，并将其应用于 Power BI Desktop 中的整个报表。
 author: davidiseminger
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 12/16/2019
+ms.date: 01/03/2019
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 4fdcfd4d7684cef3e6b703709b2739ebbff1badd
-ms.sourcegitcommit: 02b05932a119527f255e1eacc745a257044e392f
+ms.openlocfilehash: c111b04847cba56781b1dd77f899d456ad5f4162
+ms.sourcegitcommit: b68a47b1854588a319a5a2d5d6a79bba2da3a4e6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/19/2019
-ms.locfileid: "75223573"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "75731398"
 ---
 # <a name="use-report-themes-in-power-bi-desktop"></a>在 Power BI Desktop 中使用报表主题
-使用报表主题  ，你可以将设计更改应用于整个报表，如使用公司颜色、更改图标集或应用新的默认视觉对象格式。 在你应用报表主题  后，报表中的所有视觉对象都会使用选定主题中的颜色和格式设置。 也存在少数例外情况，本文稍后将进行介绍。
+借助 Power BI Desktop 报表主题，可以将设计更改应用于整个报表，如使用公司颜色、更改图标集或应用新的默认视觉对象格式。  在你应用某个报表主题后，报表中的所有视觉对象都会使用选定主题中的颜色和格式。 也存在少数例外情况，本文稍后将进行介绍。
 
 ![报表主题](media/desktop-report-themes/report-themes-1a.png)
 
-应用自定义报表主题  时，需要采用基础结构的 JSON 文件。 然后，可以将此 JSON 文件导入 Power BI Desktop，并将它应用于报表。
+报表主题有两种类型，即内置报表主题和自定义报表主题文件：
 
-还可以通过直接在 Power BI Desktop 中进行自定义或通过主题 JSON 文件，自定义和标准化“格式设置”窗格中显示的几乎所有元素  。 目标是让你能完全精细地控制报表外观。
+- 内置报表主题提供 Power BI Desktop 已安装的各种预定义配色方案。 可直接从 Power BI Desktop 菜单选择内置报表主题。 
+
+- 自定义报表主题文件是在定义其基本结构的 JSON 文件中创建的报表主题。 要应用自定义报表主题，可将其 JSON 文件导入 Power BI Desktop，并将它应用于报表。
+
+可以通过直接在 Power BI Desktop 中进行自定义或通过报表主题 JSON 文件，来自定义和标准化“可视化效果”窗格的“格式”部分中列出的几乎所有元素   。 目的是让用户能够完全精细地控制报表的外观。
 
 ## <a name="how-report-themes-work"></a>报表主题的工作原理
-要将报表主题应用于 Power BI Desktop 报表，请从可用的内置报表主题中选择，或者创建或导入自定义主题。
+要将报表主题应用于 Power BI Desktop 报表，请从可用的内置报表主题中进行选择，或者创建或导入自定义主题文件。
+
+### <a name="built-in-report-themes"></a>内置报表主题
+
+要从可用的内置报表主题中进行选择，请执行以下操作： 
+
+1. 从“主页”功能区选择“切换主题”。   
+
+   ![选择报表主题](media/desktop-report-themes/report-themes-2a.png)
+
+2. 从下拉菜单选择一个包含的主题。
+
+   报表主题现已应用到报表。
+
+下表显示可用的内置报表主题。
 
 | 内置报表主题 | 默认颜色序列    |
 |------ |---------- |
 | 默认   | ![默认](media/desktop-report-themes/report-themes-color-scheme-default.png)|
-| 高层建筑  | ![高层建筑](media/desktop-report-themes/report-themes-color-scheme-highrise.png)|
+| Highrise  | ![Highrise](media/desktop-report-themes/report-themes-color-scheme-highrise.png)|
 | 主管     | ![主管](media/desktop-report-themes/report-themes-color-scheme-executive.png)|
 | 边界  | ![边界](media/desktop-report-themes/report-themes-color-scheme-frontier.png)|
-| 创新    | ![创新](media/desktop-report-themes/report-themes-color-scheme-innovative.png)|
+| 创新  | ![创新](media/desktop-report-themes/report-themes-color-scheme-innovative.png)|
 | 开花     | ![开花](media/desktop-report-themes/report-themes-color-scheme-bloom.png)|
 | 潮汐 | ![潮汐](media/desktop-report-themes/report-themes-color-scheme-tidal.png)|
 | 温度   | ![温度](media/desktop-report-themes/report-themes-color-scheme-temperature.png)|
 | 太阳 | ![太阳](media/desktop-report-themes/report-themes-color-scheme-solar.png)|
-| 发散     | ![发散](media/desktop-report-themes/report-themes-color-scheme-divergent.png)|
+| 散开     | ![散开](media/desktop-report-themes/report-themes-color-scheme-divergent.png)|
 | 暴风     | ![暴风](media/desktop-report-themes/report-themes-color-scheme-storm.png)|
 | 经典   | ![经典](media/desktop-report-themes/report-themes-color-scheme-classic.png)|
 | 城市公园     | ![城市公园](media/desktop-report-themes/report-themes-color-scheme-city-park.png)|
@@ -50,87 +68,78 @@ ms.locfileid: "75223573"
 | 日落    | ![日落](media/desktop-report-themes/report-themes-color-scheme-sunset.png)|
 | 黄昏  | ![黄昏](media/desktop-report-themes/report-themes-color-scheme-twilight.png)|
 
-若要选择可用的内置报表主题，请在“主页”功能区中选择“切换主题”，然后从下拉列表菜单中一个主题   。
+### <a name="import-custom-report-theme-files"></a>导入自定义报表主题文件
 
-![选择报表主题](media/desktop-report-themes/report-themes-2a.png)
+要导入自定义报表主题文件，请执行以下操作： 
 
-报表主题将应用于报表，可开始操作。
+1. 在“主页”功能区中选择“切换主题”，然后从下拉菜单中选择“导入主题”    。 
 
-### <a name="importing-report-themes"></a>导入报表主题
+   ![导入主题](media/desktop-report-themes/report-themes-3a.png)
 
-若要导入自定义报表主题，请选择“主页”  功能区中的“切换主题”  按钮。 然后，选择下拉菜单中的“导入主题”  。
+   此时，便于转到 JSON 主题文件所在位置的窗口显示。 
 
-![导入主题](media/desktop-report-themes/report-themes-3a.png)
+2. 下图中提供了一些假日主题文件。 我们将为 3 月选择假日主题，即“St Patricks Day.json”。 
 
-此时，便于转到 JSON 主题文件所在位置的窗口显示。 Power BI Desktop 之所以查找 JSON 文件是因为，JSON 是 Power BI 报表主题文件类型。 下图中提供了一些假日主题文件。 我们将对 3 月选择假日主题。
+   ![假日主题](media/desktop-report-themes/report-themes_4.png)
 
-![假日主题](media/desktop-report-themes/report-themes_4.png)
+   成功加载主题文件后，Power BI Desktop 将显示成功消息。
 
-成功加载主题文件后，Power BI Desktop 便会发出提示。
+   ![已成功导入主题](media/desktop-report-themes/report-themes_5.png)
 
-![已成功导入主题](media/desktop-report-themes/report-themes_5.png)
-
-可以通过两种方法在 Power BI Desktop 中自定义主题。 接下来我们会逐一介绍。
-
+可以通过两种方法在 Power BI Desktop 中自定义报表主题。 接下来我们会逐一介绍。
 
 ## <a name="customize-report-themes-preview"></a>自定义报表主题（预览）
 
-从 2019 年 12 月版 Power BI Desktop 开始，现在可以通过两种方法来自定义报表主题  ：
+从 2019 年 12 月版 Power BI Desktop 开始，现在可以通过两种方法来自定义报表主题：
 
-* 在 Power BI Desktop 中创建和自定义主题（预览）
-* 创建和自定义一个自定义报表主题 JSON 文件
+* [在 Power BI Desktop 中创建和自定义主题（预览）](#create-and-customize-a-theme-in-power-bi-desktop-preview)
+* [创建和自定义一个自定义报表主题 JSON 文件](#introduction-to-report-theme-json-files)
 
-要在 Power BI Desktop 中直接自定义主题，必须先选择“文件”>“选项和设置”>“选项”，然后在“预览功能”部分中，选中“自定义当前主题”旁边的框，如下图所示    。
+### <a name="create-and-customize-a-theme-in-power-bi-desktop-preview"></a>在 Power BI Desktop 中创建和自定义主题（预览）
 
-![启用自定义的主题](media/desktop-report-themes/report-themes_5a.png)
+从 2019 年 12 月版 Power BI Desktop 开始，推出直接在 Power BI Desktop 中自定义主题的预览功能。
 
-系统将提示你重启 Power BI Desktop 才能启用预览功能。
+要直接在 Power BI Desktop 中自定义主题，请执行以下操作： 
 
-重启后，可以通过选择“主页”功能区，然后从功能区中选择“开关主题”>“自定义当前主题”，开始自定义当前主题   。 此时将显示一个对话框，其中显示了自定义现有主题的多种方法。
+1. 选择  “文件” >   “选项和设置” >   “选项”。 
 
-![自定义主题](media/desktop-report-themes/report-themes_5b.png)
+2. 在“预览功能”部分中选择“自定义当前主题”，然后选择“确定”。   
 
-如果你喜欢现有主题，并想要进行一些调整，可以选择一个现有主题，然后从对话框中选择“自定义当前主题”，如下图所示  。 
+   ![启用自定义的主题](media/desktop-report-themes/report-themes_5a.png)
 
-![自定义当前主题](media/desktop-report-themes/report-themes_5c.png)
+   系统将提示你重启 Power BI Desktop 以启用预览功能。 重启后，可开始自定义当前应用的主题。 
 
-> [!NOTE]
-> 上图是在启用新功能区的情况下捕获的，目前处于预览状态。 可以通过选择“文件”>“选项和设置”>“选项”，然后在“预览功能”部分，选择“新功能区预览”来启用新功能区预览    。
+3. 从“主页”功能区中，选择“切换主题” > “自定义当前主题”。    
 
-可自定义的主题设置可以在以下类别中找到，并反映在自定义主题对话框中：
+   此时将显示一个对话框，其中显示了自定义现有主题的方法。
 
-* 主题名称（为自定义的主题命名）和各种颜色设置（主题颜色、情绪颜色、不同颜色等）
-* 文本设置，包括字体系列、大小和颜色，以及轴标题、颜色、卡片和 KPI 以及选项卡标题
-* 视觉对象元素，例如背景、边框、标头和工具提示
-* 页面元素，例如墙纸和背景
-* 筛选器窗格设置，包括背景色、透明度、字体和图标颜色、大小、筛选器卡等
+   ![自定义主题](media/desktop-report-themes/report-themes_5b.png)
 
-进行更改并选择“应用并保存”按钮后，你的主题将被保存并可在当前报表中使用，而且可以导出  。 
+4. 如果喜欢某个现有的主题，并且想要进行一些调整，则选中该主题，然后选择“自定义当前主题”。  
 
-以这种方式自定义当前主题可以快速、轻松、可视化地自定义主题。 但是，对主题有一些有限调整，需要修改主题的 JSON 文件，如下一节所述。
+   ![自定义当前主题](media/desktop-report-themes/report-themes_5c.png)
+
+可自定义的主题设置可以在以下类别中找到，并反映在“自定义主题”窗口中： 
+
+* **名称和颜色**：主题名称和颜色设置包括主题颜色、情绪颜色和不同颜色。
+* **文本**：文本设置包括字体系列、大小和颜色，以及轴标题、颜色、卡片和 KPI 以及选项卡标题。
+* **视觉对象**：视觉对象元素设置包括背景、边框、标头和工具提示。
+* **页面**：页面元素设置包括壁纸和背景。
+* **筛选器窗格**：筛选器窗格设置包括背景色、透明度、字体和图标颜色、大小、筛选器卡。
+
+进行更改后，选择“应用并保存”以保存主题。  主题现已可用于当前报表，并可将其导出。 
+
+以这种方式自定义当前主题可以快速、轻松、可视化地自定义主题。 不过，可以对主题进行更精细的调整，而这需要修改主题的 [JSON 文件](#report-theme-json-file-format)。
 
 > [!TIP]
-> 你可以通过“自定义当前主题”对话框，使用视觉对象元素自定义大多数主题元素，然后，可以导出 JSON 文件并手动进行微调（通过修改 JSON 文件本身）  。 然后，可以重命名微调后的 JSON 文件，将其导入，并进行所需的全部调整。
+> 通过使用  “自定义主题”窗口中的视觉对象元素，可以自定义多数主题元素。 然后，可以选择导出 JSON 文件，并通过修改 JSON 文件中的设置来手动进行精细调整。 可以重命名这个经过精细调整的 JSON 文件，并在以后导入它。
 
+## <a name="introduction-to-report-theme-json-files"></a>报表主题 JSON 文件介绍
+ 打开上一部分提到的基本 JSON 文件 (St Patricks Day.json) 时，它将如下所示：
 
-## <a name="structure-of-a-report-theme-json-file"></a>报表主题 JSON 文件的结构
- 在编辑器中打开在上一部分中选择的基本 JSON 文件（即 St Patrick's Day.json  文件）后，看到如下屏幕截图：
-
-![St Patrick's Day.json 文件](media/desktop-report-themes/report-themes_6.png)
-
-该 JSON 文件必须包含以下各行：
-
-* **name**：主题名称，也是唯一的必填字段。
-
-* **dataColors**：要对 Power BI Desktop 视觉对象数据使用的十六进制颜色代码列表。 可以视需要在此列表中添加任意数量的颜色。
-
-* background  、foreground  和 tableAccent  ：几个颜色类。 本文稍后会介绍颜色类的详细信息，但请了解，颜色类使你能够在报表中同时设置多个颜色。
-
-下面展示了 St Patrick's Day.json  文件的文本，可根据它创建你自己的 JSON 文件：
-
-```json
+ ```json
     {
-        "name": "St Patricks Day",
+        "name": "St Patrick's Day",
         "dataColors": ["#568410", "#3A6108", "#70A322", "#915203", "#D79A12", "#bb7711", "#114400", "#aacc66"],
         "background":"#FFFFFF",
         "foreground": "#3A6108",
@@ -138,68 +147,79 @@ ms.locfileid: "75223573"
     }
 ```
 
-如果你只想要调整报表的基本颜色，你可以只更改此文件的名称和十六进制代码，让你自己的个人 JSON 文件做好导入准备。
+此报表主题 JSON 文件包含以下行：
 
-在 JSON 文件中，只定义要调整的格式设置，而未  在 JSON 文件中指定的任何格式设置都会直接恢复到 Power BI 默认设置。
+* **name**：报表主题名称。 此字段是唯一的必填字段。
 
-创建 JSON 文件具有多种优点。 例如，可以指定所有图表都使用字号 12，也可以指定某些视觉对象使用特定字体系列。 还可以对特定图表类型禁用数据标签。
+* **dataColors**：要对 Power BI Desktop 视觉对象数据使用的十六进制颜色代码列表。 可以视需要在此列表中添加任意数量的颜色。
 
-使用具体 JSON 文件时，可创建用于标准化图表和报表的主题文件，以方便组织报表保持一致。
+* background  、foreground  和 tableAccent  ：颜色类。 借助颜色类，可以一次在报表中设置许多颜色。 
 
-若要详细了解详细 JSON 文件的格式，请参阅本文稍后介绍的“报表主题 JSON 文件格式”  部分。
+可以将此 JSON 文件作为基础，创建自己的自定义报表主题文件并将其导入。 若想要仅调整报表的基本颜色，则更改文件中的名称和十六进制代码。
 
-## <a name="how-report-theme-colors-stick-to-your-reports"></a>如何在报表中保留报表主题颜色
-将报表发布到 **Power BI 服务**时，报表主题颜色也会随之一同发布。
+在报表主题 JSON 文件中，仅定义想要更改的格式设置。 任何未在 JSON 文件中指定的内容均将恢复为 Power BI Desktop 默认设置。
 
-“格式”  面板的“数据颜色”  部分反映了报表主题。 例如，在应用“圣帕特里克节”  主题中的大量绿色和棕色后，选择一个视觉对象。 然后，依次转到“格式”>“数据颜色”  ，可以看到如下信息：
+创建 JSON 文件具有多种优点。 例如，可以指定所有图表都使用字号 12，指定某些视觉对象使用特定字体系列，或禁用特定图表类型的数据标签。 通过使用 JSON 文件，可创建用于标准化图表和报表的报表主题文件，以方便组织报表保持一致。
 
-![可视化效果](media/desktop-report-themes/report-themes_8.png)
+有关 JSON 文件格式的详细信息，请参阅[报表主题 JSON 文件格式](#report-theme-json-file-format)。
 
-看到所有这些绿色了吗？ 这是因为我们导入并应用的报表主题  包含这些颜色。
+## <a name="how-report-theme-colors-stick-with-your-reports"></a>如何在报表中保留报表主题颜色
+将报表发布到 Power BI 服务时，报表主题颜色也会随之一同发布。 “格式”  面板的“数据颜色”  部分反映了报表主题。 
 
-调色板中的颜色也与当前主题相关。 因此，例如，如果你选择了数据点第一行的第三个颜色，随后更改为其他主题，则该数据点的颜色将自动更新为新主题中第一行的第三个颜色，就像在 Microsoft Office 中更改主题时的效果一样。
+要查看报表主题中的可用颜色，请执行以下操作：
+
+1. 选择一个视觉对象。 
+
+2. 从“可视化效果”窗格的“格式”部分中，选择“数据颜色”。   
+ 
+3. 选中一个项的下拉列表，查看该报表主题的“主题颜色”。 
+
+   ![主题颜色](media/desktop-report-themes/report-themes_8.png)
+
+例如，在应用“圣帕特里克节”报表主题中的大量绿色和棕色后，查看主题颜色。 看到所有这些绿色了吗？ 这是因为我们导入并应用的报表主题包含这些颜色。
+
+调色板中的颜色与当前主题相关。 例如，假设你为数据点选择首行的第三个颜色。 稍后，若更改为其他主题，该数据点的颜色会自动更新为新主题首行的第三个颜色，就像在 Microsoft Office 中更改主题时看到的情况一样。
 
 ### <a name="situations-when-report-theme-colors-wont-stick-to-your-reports"></a>无法在报表中保留报表主题颜色的情况
-假设使用颜色选取器中的“自定义颜色”选项将自定义颜色集（或单个颜色）应用于视觉对象中的特定数据点。 应用的报表主题不会  替代自定义数据点颜色。
+假设使用颜色选取器中的“自定义颜色”选项将自定义颜色集（或单个颜色）应用于视觉对象中的特定数据点。  应用报表主题时，该主题不会  替代自定义数据点颜色。
 
-也许还要使用“主题颜色”部分手动设置数据点颜色。 在你应用新报表主题后，颜色不会  更新。 若要恢复默认颜色（以便在应用新报表主题时更新颜色），可以在颜色选取器中选择“还原为默认值”  或从“主题颜色”  调色板中选择一个颜色。
+或者假设你要使用“主题颜色”部分手动设置数据点颜色。  在应用新报表主题后，这些颜色不会  更新。 若要恢复默认颜色（以便在应用新报表主题时更新颜色），可以在颜色选取器中选择“还原为默认值”  或从“主题颜色”  调色板中选择一个颜色。
 
 ![还原为默认值](media/desktop-report-themes/report-themes_9.png)
 
-此外，许多自定义视觉对象  也不会应用报表主题。
+许多自定义视觉对象将不会应用于报表主题。
 
-## <a name="report-theme-files-you-can-use-right-now"></a>可以立即使用的报表主题文件
-想开始使用**报表主题**吗？ 以下是一些现成的报表主题 JSON 文件，可以将它们下载并导入 Power BI Desktop  报表中。 我们还添加了应用于本文中报表的报表主题的图像。
+## <a name="custom-report-theme-files-you-can-use-right-now"></a>可以立即使用的自定义报表主题文件
+想开始使用报表主题吗？ 请查看[主题库](https://community.powerbi.com/t5/Themes-Gallery/bd-p/ThemesGallery)中的自定义报表主题，或者试用以下现成的自定义报表主题 JSON 文件（可以下载它们并将其导入到 Power BI Desktop 报表）：
 
-* 宣布首次推出**报表主题**的[博文](https://powerbi.microsoft.com/blog/power-bi-desktop-march-feature-summary/)中使用的[主题](https://go.microsoft.com/fwlink/?linkid=843924)[*waveform.json*](https://go.microsoft.com/fwlink/?linkid=843924)。
+* [波形主题](https://community.powerbi.com/t5/Themes-Gallery/Waveform/m-p/140536)。 宣布首次推出报表主题的[博客文章](https://powerbi.microsoft.com/blog/power-bi-desktop-march-feature-summary/)引入了此报表主题。 [下载 Waveform.json](https://go.microsoft.com/fwlink/?linkid=843924)。
 
-  ![waverform.json 主题](media/desktop-report-themes/report-themes_10.png)
+  ![Waverform.json 主题](media/desktop-report-themes/report-themes_10.png)
 
-* 比默认颜色主题[更易于有视力缺陷的用户阅读的主题](https://go.microsoft.com/fwlink/?linkid=843923)。 文件名为 [ColorblindSafe-Longer.json  ](https://go.microsoft.com/fwlink/?linkid=843923)。
+* [色盲友好主题](https://community.powerbi.com/t5/Themes-Gallery/Color-Blind-Friendly/m-p/140597)。
+对于存在视觉障碍的人士而言，此报表主题更易于阅读。 [下载 ColorblindSafe-Longer.json](https://go.microsoft.com/fwlink/?linkid=843923)。
 
-  ![ColorblindSafe-Longer.json 主题。](media/desktop-report-themes/report-themes_11.png)
+  ![ColorblindSafe-Longer.json 主题](media/desktop-report-themes/report-themes_11.png)。
 
-* 打包到 zip 文件中的一组 [Power View 主题](https://go.microsoft.com/fwlink/?linkid=843925)，包括如下所示的 [Apothecary.json  ](https://go.microsoft.com/fwlink/?linkid=843925) 主题。
+* 采用 Apothecary.json 的 Power View 主题。 [下载 Power View 主题 zip 文件](https://go.microsoft.com/fwlink/?linkid=843925)。
 
   ![Apothecary.json 主题](media/desktop-report-themes/report-themes_12.png)
 
-* 最后是“情人节”  主题。
+* “情人节”主题。
 
   ![“情人节”主题](media/desktop-report-themes/report-themes_13.png)
 
-下面提供了“情人节”主题 JSON 文件的代码，而不是下载链接：
+  下面提供了“情人节”主题 JSON 文件的代码：
 
-```json
-    {
-        "name": "Valentine's Day",
-        "dataColors": ["#990011", "#cc1144", "#ee7799", "#eebbcc", "#cc4477", "#cc5555", "#882222", "#A30E33"],
-        "background":"#FFFFFF",
-        "foreground": "#ee7799",
-        "tableAccent": "#990011"
-    }
-```
-
-**报表主题**可以让 Power BI Desktop 报表通过缤纷色彩来展示你、你的组织或当前季节或假日。 
+   ```json
+       {
+           "name": "Valentine's Day",
+           "dataColors": ["#990011", "#cc1144", "#ee7799", "#eebbcc", "#cc4477", "#cc5555", "#882222", "#A30E33"],
+           "background":"#FFFFFF",
+           "foreground": "#ee7799",
+           "tableAccent": "#990011"
+       }
+   ```
 
 还可以从下面的一些补充报表主题入手：
 
@@ -207,6 +227,25 @@ ms.locfileid: "75223573"
 * [梅红](https://community.powerbi.com/t5/Themes-Gallery/Plum/m-p/140711)
 * [秋天](https://community.powerbi.com/t5/Themes-Gallery/Autumn/m-p/140746)
 * [高对比度](https://community.powerbi.com/t5/Themes-Gallery/Color-Blind-Friendly/m-p/140597)
+
+报表主题可以让 Power BI Desktop 报表通过缤纷色彩来展示你、你的组织或当前季节或假日。 
+
+
+## <a name="export-report-themes-preview"></a>导出报表主题（预览）
+
+从 2019 年 12 月版 Power BI Desktop 开始，可以选择直接从 Power BI Desktop 将当前应用的报表主题导出到 JSON 文件。 导出报表主题后，可以在自己的报表中重用它。 通过此选项，可以导出大部分内置主题的 JSON 文件。 基本主题（“经典”和“默认”）是唯一的例外情况，导入其他主题时其他主题要基于它们生成。 
+
+要从 Power BI Desktop 导出当前应用的主题，请执行以下操作： 
+
+1. 选择  “文件” >   “选项和设置” >   “选项”。 
+
+2. 在“预览功能”部分中选择“自定义当前主题”，然后选择“确定”。   
+
+   系统将提示你重启 Power BI Desktop 以启用预览功能。 重启后，可开始导出当前应用的主题。 
+
+3.  从“主页”功能区中，选择“切换主题” > “导出当前主题”。    
+
+4. 在“另存为”对话框中，浏览到要用于保存该 JSON 文件的目录，然后选择“保存”。  
 
 ## <a name="report-theme-json-file-format"></a>报表主题 JSON 文件格式
 在最基本的层面上，主题 JSON 文件只有一个必需行：“名称”  。 
@@ -217,16 +256,15 @@ ms.locfileid: "75223573"
     }
 ```
 
-除名称  之外的所有其他参数都是可选的，这意味着你只需添加专门想要设置主题文件格式的属性，其他属性继续使用 Power BI 的默认值。 
+除“名称”  之外的所有其他参数都是可选的，这意味着你只需添加专门想要设置主题文件格式的属性，其他属性继续使用 Power BI 的默认值。 
 
-在“名称”下，可以添加一些与基本数据颜色相关的属性。 
-
+在“名称”下，可以添加以下与基本数据颜色相关的属性：  
 
 * **dataColors**：要对 Power BI Desktop 视觉对象数据使用的十六进制颜色代码列表。 可以视需要在此列表中添加任意数量的颜色。 使用此列表中的所有颜色后，如果视觉对象仍需要更多颜色，它会还原为使用 Power BI 的默认调色板。 
-* **好、中、差**：这些值设置瀑布图和 KPI 视觉对象使用的状态颜色。
-* **最大值、中心值、最小值、空值**：这些颜色设置“条件格式”对话框中的各种渐变色。  
+* **好**、**中**、**差**：这些属相设置瀑布图和 KPI 视觉对象使用的状态颜色。
+* 最大值  、中心值  、最小值  、空值  ：这些颜色设置“条件格式”对话框中的各种渐变色。  
 
-定义这些颜色的基本主题如下所示：
+定义这些颜色的基本主题可能如下所示：
 
 ```json
     {
@@ -253,20 +291,19 @@ ms.locfileid: "75223573"
     }
 ```
 
-接下来，可以添加各种颜色类。 通过使用颜色类，你可以用一行设置整个报表中的多个颜色，方法是将通常具有相同颜色的类似视觉对象属性组合在一起。 
+接下来，可以添加各种颜色类，如“background”和“foreground”。   通过使用颜色类，你可以用一行设置整个报表中的多个颜色，方法是将通常具有相同颜色的类似视觉对象属性组合在一起。 
 
-可以在下表中看到可以设置格式的六个颜色类。
-
+下表显示可以设置格式的六个颜色类。
 
 |颜色分类  |格式  |
 |---------|---------|
-|前景 | 标签背景色（在数据点外时） <br> 趋势线颜色 <br>  文本框默认颜色 <br> 表和矩阵值以及总计字体颜色数据条轴颜色 <br> 卡片数据标签 <br> 仪表标注值颜色 <br> KPI 目标颜色 <br>  KPI 文本颜色 <br> 切片器项颜色（处于焦点模式时）  <br> 切片器下拉菜单项字体颜色 <br> 切片器数字输入字体颜色 <br> 切片器标题字体颜色 <br> 散点图比率线颜色 <br> 折线图预测线颜色 <br> 地图引导线颜色 <br> 筛选器窗格和卡片文本颜色|
-|foregroundNeutralSecondary |标签颜色  <br> 数据标签颜色 <br> 轴标签颜色 <br> 表和矩阵标题字体颜色 <br> 仪表目标和目标引导线颜色 <br>  KPI 趋势轴颜色 <br> 切片器颜色 <br> 切片器项字体颜色 <br> 轮廓颜色 <br> 折线图悬停颜色 <br> 多行卡片标题颜色 <br> 功能区图表笔划颜色 <br> 形状地图边框颜色 <br> 按钮文本字体颜色 <br> 按钮图标线条颜色 <br> 按钮轮廓颜色 |
-| foregroundNeutralTertiary | 图例灰显颜色 <br> 卡片类别标签颜色 <br> 多行卡片类别标签颜色 <br> 多行卡片栏颜色 <br> 漏斗图转换率笔划颜色 
-| backgroundLight | 轴网格线颜色 <br> 表和矩阵网格颜色 <br> 切片器标题背景色（处于焦点模式时）  <br> 多行卡片轮廓颜色  <br> 形状填充颜色 <br> 仪表弧背景色 <br> 应用的筛选器卡片背景色 <br> |
-backgroundNeutral | 表和矩阵网格轮廓颜色 <br> 形状地图默认颜色 <br> 功能区图表功能区填充颜色（“匹配系列”选项处于关闭状态时） |
-背景 | 标签背景色（在数据点内部时） <br> 切片器下拉菜单项背景色  <br> 环形图笔划颜色 <br> 树状图笔划颜色 <br> 组合图背景色 <br> 按钮填充颜色 <br> 筛选器窗格和可用筛选器卡片背景色 |
-tableAccent | 当存在时覆盖表和矩阵网格轮廓颜色 |
+|**foreground** | 标签背景色（在数据点外时） <br> 趋势线颜色 <br>  文本框默认颜色 <br> 表和矩阵值以及总计字体颜色数据条轴颜色 <br> 卡片数据标签 <br> 仪表标注值颜色 <br> KPI 目标颜色 <br>  KPI 文本颜色 <br> 切片器项颜色（处于焦点模式时）  <br> 切片器下拉菜单项字体颜色 <br> 切片器数字输入字体颜色 <br> 切片器标题字体颜色 <br> 散点图比率线颜色 <br> 折线图预测线颜色 <br> 地图引导线颜色 <br> 筛选器窗格和卡片文本颜色|
+|**foregroundNeutralSecondary** |标签颜色  <br> 数据标签颜色 <br> 轴标签颜色 <br> 表和矩阵标题字体颜色 <br> 仪表目标和目标引导线颜色 <br>  KPI 趋势轴颜色 <br> 切片器颜色 <br> 切片器项字体颜色 <br> 轮廓颜色 <br> 折线图悬停颜色 <br> 多行卡片标题颜色 <br> 功能区图表笔划颜色 <br> 形状地图边框颜色 <br> 按钮文本字体颜色 <br> 按钮图标线条颜色 <br> 按钮轮廓颜色 |
+| **foregroundNeutralTertiary** | 图例灰显颜色 <br> 卡片类别标签颜色 <br> 多行卡片类别标签颜色 <br> 多行卡片栏颜色 <br> 漏斗图转换率笔划颜色 
+| **backgroundLight** | 轴网格线颜色 <br> 表和矩阵网格颜色 <br> 切片器标题背景色（处于焦点模式时）  <br> 多行卡片轮廓颜色  <br> 形状填充颜色 <br> 仪表弧背景色 <br> 应用的筛选器卡片背景色 <br> |
+**backgroundNeutral** | 表和矩阵网格轮廓颜色 <br> 形状地图默认颜色 <br> 功能区图表功能区填充颜色（“匹配系列”选项处于关闭状态时） |
+**background** | 标签背景色（在数据点内部时） <br> 切片器下拉菜单项背景色  <br> 环形图笔划颜色 <br> 树状图笔划颜色 <br> 组合图背景色 <br> 按钮填充颜色 <br> 筛选器窗格和可用筛选器卡片背景色 |
+**tableAccent** | 当存在时覆盖表和矩阵网格轮廓颜色 |
 
 
 设置颜色类的主题示例如下：
@@ -284,16 +321,16 @@ tableAccent | 当存在时覆盖表和矩阵网格轮廓颜色 |
     }
 ```
 
-接下来，你可以将文本类添加到 JSON 文件中，该文件类似于颜色类，但旨在允许你更新报表中的文本组的字号、颜色和系列。 有 12 个文本类，但实际上只需设置四个类（称为“主要类”  ），即可更改报表中的所有文本格式。 其他文本类（称为“次要类”  ）会自动从其关联的主要类继承或派生其属性。 通常情况下，与主要类相比，次要类将派生较浅的文本颜色阴影，或以百分比表示较大或较小的文本大小。 
+接下来，可以将文本类添加到 JSON 文件。 文本类类似于颜色类，但旨在允许你更新整个报表中文本组的字号、字体颜色和字体系列。 有 12 个文本类，但只需要设置四个类（称为“主要类”  ），即可更改报表中的所有文本格式。 其他文本类（称为“次要类”  ）会自动从其关联的主要类继承或派生其属性。 通常情况下，与主要类相比，次要类将派生较浅的文本颜色阴影，或以百分比表示较大或较小的文本大小。 
 
-以标签  类为例。 标签类的默认格式为 Segoe UI、#252423 （深灰色）以及 12 磅，并且此类用于设置表和矩阵中的值的格式。 通常，表或矩阵中的总计将具有类似的格式，但以粗体显示以使其更突出，因此它们可以使用粗体标签类。 但是，你无需在主题 JSON 中自行指定。 Power BI 将自动为你指明。 如果以后决定将标签设置为 14 磅字体并在主题中指定该标签，则不需要同时更新粗体标签类，因为它继承标签类中的所有文本格式，并仅加粗其顶部显示的字体系列。 
+以标签  类为例。 标签类的默认格式设置是：Segoe UI #252423（深灰色），12 磅。  此类用于设置表和矩阵中值的格式。 通常，表或矩阵中的总计具有类似的格式，但使用粗体标签类加粗，以突出它们。  但无需在主题 JSON 中指定该类；Power BI 会自动执行此操作。 若以后决定在主题中指定使用 14 磅字体的标签，则无需同时更新粗体标签类，因为它继承此标签类的文本格式设置。   
 
-表列表显示以下内容：
+下表显示了以下信息：
 * 四个主要文本类及其格式和默认设置
 * 每个次要类及其格式和相对于主要类而言独一无二的默认设置
 
 
-|主要类  |次要类  |JSON 中的类名  |设置  |关联的视觉对象  |
+|主要类  |次要类  |JSON 类名称  |设置  |关联的视觉对象  |
 |---------|---------|---------|---------|---------|
 | 标注   | 不适用   | 标注 | DIN <br> #252423 <br> 45pt |卡片数据标签 <br> KPI 指示器|
 |标题|不适用|标头|Segoe UI Semibold <br> #252423 <br> 12pt |关键影响因素标题 |
@@ -309,7 +346,7 @@ tableAccent | 当存在时覆盖表和矩阵网格轮廓颜色 |
 |-|小和浅  |smallLightLabel    |#605E5C<br>9pt |数据标签<br>值轴标签|
 
 
-尽管你无需在主题文件中设置次要类，因为它们继承自主要类，但如果你不喜欢继承规则（例如，如果你不希望总计成为表中粗体版本的值），你可以在主题文件中显式设置次要类的格式，就像你可以设置主要类的格式一样。
+次要类继承自主要类，因此无需在主题文件中设置它们。 但如果不喜欢继承规则（例如，如果不希望总计成为表中值的粗体版本），则可以在主题文件中显式设置次要类的格式，就像可以设置主要类的格式一样。
 
 仅设置主要文本类的示例主题如下： 
 
@@ -341,7 +378,7 @@ tableAccent | 当存在时覆盖表和矩阵网格轮廓颜色 |
     }
 ```
 
-最后，若要创建扩展格式的 JSON 文件，并能更精细地控制所有视觉对象格式设置，可以向 JSON 文件添加“visualStyles”  部分。 在“visualStyles”  部分中，嵌套格式设置具体内容。 “visualStyles”  部分的格式如下所示：
+最后，若要创建扩展格式的 JSON 文件，并能更精细地控制所有视觉对象格式设置，则向 JSON 文件添加“visualStyles”  部分，以嵌套格式设置具体内容。 下面是 visualStyles 部分的示例： 
 
     visualStyles: {
         visualName: {
@@ -353,11 +390,11 @@ tableAccent | 当存在时覆盖表和矩阵网格轮廓颜色 |
         }
     }
 
-在“visualName”  和“cardName”  部分中，使用特定视觉对象和卡片名称。 当前，“styleName”  始终为星号（“*”），但在将来的版本中，你可以为视觉对象创建不同的样式，并为其命名（类似于表和矩阵样式功能）。 “propertyName”  是特定格式设置选项的名称，“propertyValue”  是要放置格式设置选项的位置。  
+在“visualName”  和“cardName”  部分中，使用特定视觉对象和卡片名称。 当前，“styleName”  始终为星号 (*)，但在将来的版本中，你可以为视觉对象创建不同的样式，并为其命名（类似于表和矩阵样式功能）。 “propertyName”  是格式设置选项的名称，“propertyValue”  是该格式设置选项的值。  
 
-对于“visualName”  和“cardName”  ，若要将此设置应用于包含属性的所有视觉对象或卡片，请使用星号（“\*”）而不是特定视觉对象或卡片名称。 如果视觉对象和卡片名称使用星号（“\*”），则可以高效地在报表中全局应用设置，如所有视觉对象中所有文本的字体大小或特定字体系列。
+对于“visualName”和“cardName”，若要将此设置应用于包含属性的所有视觉对象或卡片，请使用星号并使用引号括起来（“*”）。   如果视觉对象和卡片名称使用星号，则可以高效地在报表中全局应用设置，如所有视觉对象中所有文本的字号或特定字体系列。
 
-以下是通过视觉样式设置几个属性的示例。 
+以下是通过视觉样式设置几个属性的示例： 
 
 ```json
 {  
@@ -392,7 +429,7 @@ tableAccent | 当存在时覆盖表和矩阵网格轮廓颜色 |
 }
 ```
 
-此示例显示以下内容：
+本示例做出如下设置：
 
 * 在任何位置打开自动换行
 * 将具有类别轴的所有视觉对象的网格线样式设置为虚线
@@ -408,7 +445,7 @@ tableAccent | 当存在时覆盖表和矩阵网格轮廓颜色 |
 ### <a name="json-file-element-definitions"></a>JSON 文件元素定义
 此部分中的表定义视觉对象名称 (visualName  )、卡片名称 (cardName  )，以及创建 JSON 文件所需的枚举。
 
-| **visualName** |
+| visualName 值 |
 | --- |
 | areaChart |
 | barChart |
@@ -442,9 +479,9 @@ tableAccent | 当存在时覆盖表和矩阵网格轮廓颜色 |
 | treemap |
 | waterfallChart |
 
-下表定义了 cardName  值。 每个单元格中的第一个值是 JSON 文件术语。 第二个值是卡片名称，如 Power BI Desktop  用户界面中所示。
+下表定义了 cardName  值。 每个单元格中的第一个值是 JSON 文件术语。 第二个值是卡片名称，如 Power BI Desktop 用户界面中所示。
 
-| **cardName** |
+| cardName 值 |
 | --- |
 | axis:测量轴 |
 | breakdown:明细 |
@@ -501,13 +538,13 @@ tableAccent | 当存在时覆盖表和矩阵网格轮廓颜色 |
 ### <a name="properties-within-each-card"></a>每个卡中的属性
 下面的部分定义了每个卡中的属性。 卡片名称后跟每个属性名称。 对于每个属性，即“格式设置”窗格显示时看到的名称、“格式设置”选项的功能说明以及格式设置选项的类型。 利用此方法，你可以了解能够在主题文件中使用的值类型。 
 
-使用 dateTime  时，日期必须是用单引号括住的 ISO 日期（以“datetime”开头）。 示例如下：
+使用 dateTime  时，日期必须是用单引号括住的 ISO 日期（以“datetime”开头）。 请参阅以下示例：
 
     “datetime’2011-10-05T14:48:00.000Z’”
 
 布尔值为 true 或 false。 字符串必须用双引号括起来，如“这是一个字符串”。 数字只以值本身表示，不用引号括起来。
 
-颜色应采用以下格式，即采用自定义十六进制代码，其中“FFFFFF”如以下示例所示。  
+颜色采用以下格式，即采用自定义十六进制代码替换“FFFFFF”，如以下示例所示：  
 
     { "solid": { "color": "#FFFFFF" } }
 

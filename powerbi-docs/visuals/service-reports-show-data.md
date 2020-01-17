@@ -9,14 +9,15 @@ ms.topic: conceptual
 ms.date: 11/4/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 5417511b12c85cb467c3613671a1e101541c9609
-ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
+ms.openlocfilehash: f1598aabee45359b312d39f836cede8ca4198bb2
+ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/06/2020
-ms.locfileid: "73880617"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "75758614"
 ---
-# <a name="show-the-data-that-was-used-to-create-the-visualization"></a>显示用于创建可视化效果的数据
+# <a name="display-a-visualizations-underlying-data"></a>显示可视化效果的基础数据
+
 ## <a name="show-data"></a>显示数据
 Power BI 可视化效果是使用数据集中的数据创建的。 如果你对幕后感兴趣，可以使用 Power BI *显示* 用于创建视觉对象的数据。 在用户选择“显示数据”  后，Power BI 在可视化效果下方（或旁边）显示数据。
 
