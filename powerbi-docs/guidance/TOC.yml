@@ -26,11 +26,11 @@
               href: star-schema.md
             - name: 减少数据模型大小
               href: import-modeling-data-reduction.md
-            - name: Power BI Desktop 中的自动日期/时间指南
+            - name: 自动日期/时间指南
               href: auto-date-time.md
             - name: 多对多关系指导
               href: relationships-many-to-many.md
-            - name: Power BI Desktop 中的 DirectQuery 模型指导
+            - name: DirectQuery 模型指南
               href: directquery-model-guidance.md
         - name: DAX
           items:
@@ -58,9 +58,11 @@
               href: report-drillthrough.md
             - name: 何时使用 Power BI 中的分页报表
               href: report-paginated-or-power-bi.md
+            - name: 在分页报表中使用级联参数
+              href: paginated-report-cascading-parameter.md
             - name: 打印分页报表时避免出现空白页
               href: report-paginated-blank-page.md
-            - name: 将 SQL Server Reporting Services 报表迁移到 Power BI
+            - name: 将 SSRS 报表迁移到 Power BI
               href: migrate-ssrs-reports-to-power-bi.md
     - name: 白皮书
       items:

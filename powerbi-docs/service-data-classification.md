@@ -1,20 +1,20 @@
 ---
 title: 仪表板数据分类
 description: 了解仪表板数据分类，包括管理员应如何设置以及仪表板所有者可如何更改分类。
-author: amandacofsky
+author: maggiesMSFT
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 08/10/2017
-ms.author: amac
+ms.author: maggies
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 421c587c96563784d84500ba9ba06a41ed5cdade
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: b9aeb033586eaf5c0effd838626af6c877080f64
+ms.sourcegitcommit: 052df769e6ace7b9848493cde9f618d6a2ae7df9
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73872764"
+ms.lasthandoff: 01/14/2020
+ms.locfileid: "75925738"
 ---
 # <a name="dashboard-data-classification"></a>仪表板数据分类
 每个仪表板都不同，具体取决于你连接到的数据源，你可能会发现你和你与其共享的同事将需要根据数据的敏感性采取不同的预防措施。 一些仪表板永远不应与公司外部的人员共享，或打印出来，而其它仪表板则可以随意共享。 通过使用仪表板数据分类，你将能够提高查看你仪表板的人员应使用何种安全级别方面的意识。 你可以使用公司 IT 部门定义的分类来标记仪表板，以便查看该内容的每个人对于数据的敏感性都有相同层面的理解。

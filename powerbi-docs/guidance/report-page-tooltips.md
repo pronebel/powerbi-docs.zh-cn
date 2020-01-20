@@ -8,14 +8,14 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 11/24/2019
 ms.author: v-pemyer
-ms.openlocfilehash: 95cf62057cdea001a438f4555aa3384c54efe4b5
-ms.sourcegitcommit: 02b05932a119527f255e1eacc745a257044e392f
+ms.openlocfilehash: 826af7b224b901b6dc9f3926260b1d920836a792
+ms.sourcegitcommit: 0ae9328e7b35799d5d9613a6d79d2f86f53d9ab0
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/19/2019
-ms.locfileid: "75221933"
+ms.lasthandoff: 01/16/2020
+ms.locfileid: "76040358"
 ---
-# <a name="extending-visuals-with-report-page-tooltips"></a>用报表页工具提示扩展视觉对象
+# <a name="extend-visuals-with-report-page-tooltips"></a>用报表页工具提示扩展视觉对象
 
 本文面向设计 Power BI 报表的报表作者。 该文章提供创建[报表页工具提示](../desktop-tooltips.md)的意见和建议。
 
