@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 10/14/2019
 ms.author: maggies
 LocalizationGroup: Data refresh
-ms.openlocfilehash: bdb5b797146dae0bd8c6a70163a245f44430da8c
-ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
+ms.openlocfilehash: 2db2b4f02dac1ebcd9d24a8217a181efa9ce0779
+ms.sourcegitcommit: 0ae9328e7b35799d5d9613a6d79d2f86f53d9ab0
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/06/2020
-ms.locfileid: "74791687"
+ms.lasthandoff: 01/16/2020
+ms.locfileid: "76039033"
 ---
 # <a name="data-refresh-in-power-bi"></a>Power BI 中的数据刷新
 
@@ -317,10 +317,9 @@ in
 
 ## <a name="automatic-page-refresh"></a>自动页面刷新
 
-自动页面刷新针对报表页面执行，使用此功能，报表作者可以为页面中仅在使用页面时处于活动状态的视觉对象设置刷新间隔。 自动页面刷新仅适用于 DirectQuery 数据源。 最小刷新间隔取决于要在其中发布报表的工作区的类型，以及高级工作区的容量管理设置。
+自动页面刷新针对报表页面执行，使用此功能，报表作者可以为页面中仅在使用页面时处于活动状态的视觉对象设置刷新间隔。 自动页面刷新仅适用于 DirectQuery 数据源。 最小刷新间隔取决于要在其中发布报表的工作区的类型，以及 Premium 工作区和[嵌入工作区](developer/embedding.md)的容量管理设置。
 
 有关自动页面刷新的详细信息，请参阅[自动页面刷新](desktop-automatic-page-refresh.md)一文。
-
 
 ## <a name="best-practices"></a>最佳做法
 

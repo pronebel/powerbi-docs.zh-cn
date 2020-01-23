@@ -8,17 +8,17 @@ ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 01/07/2020
 ms.author: maggies
-ms.openlocfilehash: 4c4228ea4276235a983849d2ea88e1030f4690f7
-ms.sourcegitcommit: b68a47b1854588a319a5a2d5d6a79bba2da3a4e6
+ms.openlocfilehash: 54416b314b03a5889c58004918513fecd7ff5ccd
+ms.sourcegitcommit: df8bcc65f0df69bf1fc1d47eb06575742eac1622
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/08/2020
-ms.locfileid: "75732029"
+ms.lasthandoff: 01/15/2020
+ms.locfileid: "75954247"
 ---
 # <a name="create-a-paginated-report-for-power-bi-report-server"></a>为 Power BI 报表服务器创建分页报表
 本文介绍如何通过执行简单几步为 Power BI 报表服务器创建分页报表。
 
-正在查找有关在报表生成器中为 Power BI 服务创建分页报表的帮助吗？ 请参阅 [Power BI 分页报表生成器](../report-builder-power-bi.md)。
+正在查找有关在报表生成器中为 Power BI 服务创建分页报表的帮助吗？ 请参阅 [Power BI Report Builder](../report-builder-power-bi.md)。
 
 顾名思义，分页报表可以生成很多页。 它们以固定格式布局，并允许进行精准自定义。 分页报表是 .rdl 文件。
 

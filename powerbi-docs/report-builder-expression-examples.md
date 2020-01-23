@@ -1,6 +1,6 @@
 ---
 title: Power BI 报表生成器中的表达式示例
-description: Power BI 分页报表生成器分页报表中经常使用表达式来控制内容和报表外观。
+description: Power BI Report Builder 分页报表中经常使用表达式来控制内容和报表外观。
 ms.date: 10/21/2019
 ms.service: powerbi
 ms.subservice: report-builder
@@ -8,15 +8,15 @@ ms.topic: conceptual
 ms.assetid: 87ddb651-a1d0-4a42-8ea9-04dea3f6afa4
 author: maggiesMSFT
 ms.author: maggies
-ms.openlocfilehash: 06847956eae4dfefc7cff75b5a360fbb8b892c39
-ms.sourcegitcommit: d173e22f5a3e76717adfaa573ea391bde0338ffe
+ms.openlocfilehash: 48e81c91a4555b4c8ea847ddffb1413058bbb152
+ms.sourcegitcommit: df8bcc65f0df69bf1fc1d47eb06575742eac1622
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/22/2019
-ms.locfileid: "72728547"
+ms.lasthandoff: 01/15/2020
+ms.locfileid: "75953982"
 ---
 # <a name="expression-examples-in-power-bi-report-builder"></a>Power BI 报表生成器中的表达式示例
-Power BI 分页报表生成器分页报表中经常使用表达式来控制内容和报表外观。 表达式是用 Microsoft Visual Basic 编写的，可以使用内置函数、自定义代码、报表和组变量以及用户定义的变量。 表达式以等号 (=) 开头。   
+Power BI Report Builder 分页报表中经常使用表达式来控制内容和报表外观。 表达式是用 Microsoft Visual Basic 编写的，可以使用内置函数、自定义代码、报表和组变量以及用户定义的变量。 表达式以等号 (=) 开头。   
 
 本主题提供可用于报表中常见任务的表达式的示例。  
   

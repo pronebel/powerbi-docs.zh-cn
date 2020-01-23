@@ -1,31 +1,33 @@
 ---
-title: 从其他工作区复制报表（预览） - Power BI
-description: 了解如何与整个组织的用户共享数据集。 然后，他们可以在其工作区中基于你的数据集生成报表。
+title: 从其他应用或工作区复制报表（预览）- Power BI
+description: 了解如何创建报表的副本并将其保存到自己的工作区。
 author: maggiesMSFT
 ms.reviewer: chbraun
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 08/12/2019
+ms.date: 01/16/2020
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 9c7cbd895a913b76a9c0b87155f7800c5538ab28
-ms.sourcegitcommit: 02b05932a119527f255e1eacc745a257044e392f
+ms.openlocfilehash: 8716a304e5b117c027d75db149ebcc8d95efebfe
+ms.sourcegitcommit: 313a5a6a01c09038a6152d681103accbd2faf437
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/19/2019
-ms.locfileid: "75223847"
+ms.lasthandoff: 01/18/2020
+ms.locfileid: "76268889"
 ---
 # <a name="copy-reports-from-other-workspaces-preview"></a>从其他工作区复制报表（预览）
 
-在工作区或应用中找到自己喜欢的报表时，你可以复制它，然后将其保存到不同工作区。 然后，你可以修改该报表的副本，添加或删除视觉对象和其他元素。 无需担心如何创建数据模型。 它已为你创建。 修改现有报表比从头开始创建要容易得多。 但是，当你从新工作区创建应用时，有时无法从应用中发布报表副本。 有关详细信息，请参阅[“跨工作区使用数据集”一文中的其他注意事项和限制](service-datasets-across-workspaces.md#considerations-and-limitations)。
+在工作区或应用中找到自己喜欢的报表时，你可以复制它，然后将其保存到不同工作区。 然后，你可以修改该报表的副本，添加或删除视觉对象和其他元素。 无需担心如何创建数据模型。 它已为你创建。 修改现有报表比从头开始创建要容易得多。 但是，当你从工作区创建应用时，有时无法从应用中发布报表副本。 有关详细信息，请参阅[“跨工作区使用数据集”一文中的其他注意事项和限制](service-datasets-across-workspaces.md#considerations-and-limitations)。
 
 > [!NOTE]
 > 若要创建副本，即使原始报表位于高级容量的工作区中，你也需要一个 Pro 许可证。
 
-## <a name="save-a-copy-of-a-report"></a>保存报表的副本
+## <a name="save-a-copy-of-a-report-in-a-workspace"></a>在工作区中保存报表的副本
 
-1. 在应用或工作区中，转到“报表”列表视图。
+1. 在工作区中，转到“报表”列表视图。
+
+    ![报表列表视图](media/service-datasets-copy-reports/power-bi-report-list-view.png)
 
 1. 在“操作”下，选择“保存副本”   。
 
@@ -37,22 +39,46 @@ ms.locfileid: "75223847"
 
     ![“保存副本”对话框](media/service-datasets-copy-reports/power-bi-dataset-save-report.png)
 
-    可以保存到的工作区取决于从何处进行复制。 从工作区复制时，可以将报表保存到当前工作区或 Power BI 服务中的其他工作区。 你只看到新的体验工作区，而你是其中的一名成员。 从应用复制时，可以将报表保存到“我的工作区”。
+    可以将报表保存到当前工作区或 Power BI 服务中的其他工作区。 你只看到新的体验工作区，而你是其中的一名成员。 
   
 4. 选择“保存”。 
 
-    保存报表副本时，将创建与该数据集的实时连接，并且可以使用完整的可用数据集打开报表创建体验。 尚未创建数据集的副本。 数据集仍位于其原始位置。 可以在自己的报表中使用数据集中的所有表和度量值。 数据集上应用了行级别安全性 (RLS) 限制，因此你只能根据 RLS 角色查看有权查看的数据。
-
-    如果报表基于工作区外的数据集，Power BI 会自动在数据集列表中创建一个条目。 此数据集的图标与工作区中数据集的图标不同： ![共享数据集图标](media/service-datasets-discover-across-workspaces/power-bi-shared-dataset-icon.png)
-
-
+    如果报表基于工作区外的数据集，Power BI 不仅会自动创建报表的副本，还会在数据集列表中创建一个条目。 此数据集的图标与工作区中数据集的图标不同： ![共享数据集图标](media/service-datasets-discover-across-workspaces/power-bi-shared-dataset-icon.png)
+    
     这样，工作区的成员可以区分哪些报表和仪表板使用工作区外的数据集。 该条目显示有关数据集的信息以及一些选择操作。
 
     ![数据集操作](media/service-datasets-across-workspaces/power-bi-dataset-actions.png)
 
+    有关报表和相关数据集的详细信息，请参阅本文中的[报表副本](#your-copy-of-the-report)。
+
+## <a name="copy-a-report-in-an-app"></a>在应用中复制报表
+
+1. 在应用中，打开要复制的报表。
+2. 在菜单栏中，选择“更多选项”  ( **...** ) >“保存副本”  。
+
+    ![保存该报表的副本](media/service-datasets-copy-reports/power-bi-save-copy.png)
+
+    只有当报表位于新的体验工作区且你具有[生成权限](service-datasets-build-permissions.md)时，你才会看到“保存副本”选项  。
+
+3. “为报表指定名称”>“保存”  。
+
+    ![为该报表的副本命名](media/service-datasets-copy-reports/power-bi-save-report-from-app.png)
+
+    副本将自动保存到“我的工作区”。
+
+4. 选择“转到报表”  打开副本。
+
+## <a name="your-copy-of-the-report"></a>报表副本
+
+保存报表副本时，将创建与该数据集的实时连接，并且可以使用完整的可用数据集打开报表创建体验。 
+
+![编辑报表副本](media/service-datasets-copy-reports/power-bi-edit-report-copy.png)
+
+尚未创建数据集的副本。 数据集仍位于其原始位置。 可以在自己的报表中使用数据集中的所有表和度量值。 数据集上应用了行级别安全性 (RLS) 限制，因此你只能根据 RLS 角色查看有权查看的数据。
+
 ## <a name="view-related-datasets"></a>查看相关数据集
 
-当你在工作区中有报表时，可能需要知道它所基于的数据集。
+如果一个工作区中的报表基于另一个工作区中的数据集，则可能需要了解有关其所基于数据集的详细信息。
 
 1. 在“报表”列表视图中，选择“查看相关项”  。
 

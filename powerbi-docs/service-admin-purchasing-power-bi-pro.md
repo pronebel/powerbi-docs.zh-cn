@@ -1,28 +1,31 @@
 ---
 title: 购买和分配 Power BI Pro 许可证
-description: 了解如何购买和分配 Power BI Pro 用户许可证，以便用户可以访问 Power BI 服务中的所有内容并与同事协作。
+description: 了解如何购买和分配 Power BI Pro 用户许可证，以便用户可以访问 Power BI 服务中的所有内容并与他人协作。
 author: kfollis
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
-ms.topic: quickstart
-ms.date: 12/18/2019
+ms.topic: conceptual
+ms.date: 01/16/2020
 ms.author: kfollis
 LocalizationGroup: Administration
-ms.openlocfilehash: 01eb30857b0b76f96e7e18115d92fb1d68dbef0c
-ms.sourcegitcommit: 02b05932a119527f255e1eacc745a257044e392f
+ms.openlocfilehash: abf93f18643287e7210fad2cb6cbf23913c087b2
+ms.sourcegitcommit: 313a5a6a01c09038a6152d681103accbd2faf437
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/19/2019
-ms.locfileid: "75223828"
+ms.lasthandoff: 01/18/2020
+ms.locfileid: "76268844"
 ---
 # <a name="purchase-and-assign-power-bi-pro-user-licenses"></a>购买和分配 Power BI Pro 用户许可证
 
-Power BI Pro 是独立的用户许可证，它允许用户读取其他用户在 Power BI 服务中发布的报表和仪表板并与之交互，还允许用户与其他 Power BI Pro 用户共享内容和进行协作。 只有具有 Power BI Pro 用户许可证的用户才能发布或与其他用户共享内容，或使用其他用户创建的内容，除非该内容托管于 Power BI Premium 容量中。 有关详细信息，请参阅 [Power BI 定价](https://powerbi.microsoft.com/pricing/)的“Power BI 功能比较”  部分。
+Power BI Pro 是一种单独的用户许可证，使用户能够读取他人已发布到 Power BI 服务的报表和仪表板并与之进行交互。 具有此许可证类型的用户可以与 Power BI Pro 用户共享内容并开展协作。 只有 Power BI Pro 用户才能发布或与其他用户共享内容，或使用其他用户创建的内容，除非 Power BI Premium 容量托管该内容。 有关详细信息，请参阅 [Power BI 定价](https://powerbi.microsoft.com/pricing/)的“Power BI 功能比较”  部分。
 
-## <a name="purchase-and-assign-power-bi-pro-user-licenses"></a>购买和分配 Power BI Pro 用户许可证
+## <a name="purchase-power-bi-pro-user-licenses"></a>购买 Power BI Pro 用户许可证
 
-本文介绍如何在 Microsoft 365 管理中心购买 Power BI Pro 用户许可证，并介绍管理员将这些许可证分配给单个用户的两种方法：Microsoft 365 管理中心和 Azure 门户（选择一项）。
+本文介绍了如何在 Microsoft 365 管理中心购买 Power BI Pro 用户许可证。 购买许可证后，可以将其分配给 Microsoft 365 管理中心或 Azure 门户中的用户。
+
+> [!NOTE]
+> 从 2020 年 1 月 14 日开始，美国的商业云客户可以使用面向 Power Platform 产品（Power BI、Power Apps 和 Power Automate）的自助服务购买、订阅和许可证管理功能。 有关详细信息，包括在组织中启用或禁用自助服务购买的步骤，请参阅[自助购买常见问题解答](https://docs.microsoft.com/microsoft-365/commerce/subscriptions/self-service-purchase-faq)。
 
 ### <a name="prerequisites"></a>先决条件
 
@@ -34,47 +37,43 @@ Power BI Pro 是独立的用户许可证，它允许用户读取其他用户在 
 
 按照以下步骤在 Microsoft 365 管理中心购买 Power BI Pro 许可证：
 
-1. 打开 [MIcrosoft 365 管理中心](https://portal.office.com/adminportal/home#/homepage)。
+1. 登录 [MIcrosoft 365 管理中心](https://admin.microsoft.com)。
 
-2. 在导航窗格中，选择“账单”，然后选择“订阅”   。
+2. 在“导航”菜单上，选择“计费”   > “购买服务”  。
 
-3. 在“订阅”页面的右上角，选择“添加订阅”   。
+3. 搜索或滚动以查找要购买的订阅。 你会发现“Power BI”  位于页面底部附近“可能感兴趣的其他类别”  下方。 选择链接以查看可供组织使用的 Power BI 订阅。
 
-4. 找到所需的订阅套餐：
+4. 选择“Power BI Pro”  。
 
-    - 在“企业套件”下选择“Office 365 企业版 E5”   。
+5. 在“购买服务”  页面上，选择“购买”  。
 
-    - 在“其他计划”下选择“Power BI Pro”   。
+6. 根据你的付费方式，选择“按月付费”或“按年付费”   。
 
-5. 将鼠标悬停在所需订阅的省略号 ( **. . .** ) 处，选择“立即购买”  。
+7. 在“需要多少个用户?”下，输入要购买的许可证数量，然后选择“立即签出”完成此交易   。
 
-6. 根据你的计费偏好，选择“按月付费”或“按年付费”   。
+8. 若要验证你的购买情况，请前往“账单”   > “产品和服务”  并查找“Power BI Pro”  。
 
-7. 在“需要多少个用户?”下，输入所需的许可证数量，然后选择“立即签出”完成此交易   。
+9. 若要稍后添加更多许可证，请在“产品和服务”  页面上查找“Power BI Pro”  ，然后选择“添加/删除”  。
 
-8. 验证获取的订阅是否已在“订阅”页面上列出  。
-
-9. 要在最初购买后添加更多许可证，请从“订阅”页面中选择“Power BI Pro”，然后选择“更改许可证数量”    。
-
-### <a name="assign-licenses-in-the-microsoft-365-admin-center"></a>在 Microsoft 365 管理中心分配许可证
+## <a name="assign-licenses-in-the-microsoft-365-admin-center"></a>在 Microsoft 365 管理中心分配许可证
 
 有关在 Microsoft 365 管理中心分配许可证的信息，请参阅[将许可证分配给用户](/office365/admin/manage/assign-licenses-to-users)。
 
 对于来宾用户，请参阅[在“许可证”页上将许可证分配给用户](/office365/admin/manage/assign-licenses-to-users#assign-licenses-to-users-on-the-licenses-page)。 在将 Pro 许可证分配给来宾用户之前，请联系 Microsoft 帐户代表，以确保符合与 Microsoft 达成的协议条款。
 
-### <a name="assign-licenses-in-the-azure-portal"></a>在 Azure 门户中分配许可证
+## <a name="assign-licenses-in-the-azure-portal"></a>在 Azure 门户中分配许可证
 
 按照以下步骤将 Power BI Pro 许可证分配给个人用户帐户：
 
-1. 打开 [Azure 门户](https://portal.azure.com/)。
+1. 登录 [Azure 门户](https://portal.azure.com/)。
 
 2. 搜索并选择“Azure Active Directory”  。
 
-3. 在“Azure Active Directory”  下，选择“许可证”  。
+3. 在“Azure Active Directory”  资源菜单上的“管理”  下方，选择“许可证”  。
 
-4. 在“许可证”  下，选择“所有产品”  ，然后选择“Power BI Pro”  以显示许可用户列表。
+4. 从“许可证 - 概述”  资源菜单中选择“所有产品”  ，然后选择“Power BI Pro”  以显示许可用户列表。
 
-5. 选择“分配”  将 Power BI Pro 许可证添加到用户帐户。
+5. 从命令栏中选择“+ 分配”  。 “分配许可证”  页面上，先选择一个用户，然后选择“分配选项”  为选择的用户帐户启用 Power BI Pro 许可证。
 
 ## <a name="next-steps"></a>后续步骤
 

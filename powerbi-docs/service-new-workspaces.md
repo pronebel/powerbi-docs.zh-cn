@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 11/27/2019
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 749d8d5b62df87b0e6b29d524e90c694a0e38efe
-ms.sourcegitcommit: ef9ab7c0d84b926094c33e8aa2765cd43b844314
+ms.openlocfilehash: 6337c4c5e3098d56e869b8ce71117da2413802e6
+ms.sourcegitcommit: 052df769e6ace7b9848493cde9f618d6a2ae7df9
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/03/2020
-ms.locfileid: "75622418"
+ms.lasthandoff: 01/14/2020
+ms.locfileid: "75925676"
 ---
 # <a name="organize-work-in-the-new-workspaces-in-power-bi"></a>在 Power BI 的新工作区中整理工作
 
@@ -124,6 +124,10 @@ Power BI 不会将配置为拥有工作区访问权限的用户或组的权限�
 | 已更新 Power BI 文件夹访问权限| UpdateFolderAccess |
 
 详细了解 [Power BI 审核](service-admin-auditing.md)。
+
+## <a name="guest-users"></a>来宾用户
+
+默认情况下，[Azure AD B2B 来宾用户](service-admin-azure-ad-b2b.md)无法访问工作区。 Power BI 管理员[允许外部来宾用户编辑和管理组织中的内容](service-admin-azure-ad-b2b.md#guest-users-who-can-edit-and-manage-content)。 已启用的来宾用户可以访问他们有权访问的工作区。
 
 ## <a name="limitations-and-considerations"></a>限制和注意事项
 

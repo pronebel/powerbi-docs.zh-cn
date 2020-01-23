@@ -1,132 +1,134 @@
 ---
 title: Power BI 视觉对象概念
-description: 本文介绍了如何集成视觉对象和 Power BI
-author: zBritva
-ms.author: v-ilgali
+description: 本文介绍视觉对象与 Power BI 的集成方式，以及用户如何与 Power BI 中的视觉对象进行交互。
+author: KesemSharabi
+ms.author: kesharab
 manager: rkarlin
 ms.reviewer: sranins
 ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: conceptual
 ms.date: 06/18/2019
-ms.openlocfilehash: 36742917829013a6efca9d74f88b01bc686437a8
-ms.sourcegitcommit: f77b24a8a588605f005c9bb1fdad864955885718
+ms.openlocfilehash: bb0834527ba23c6cfcc155cc65cd0318b296ba84
+ms.sourcegitcommit: 052df769e6ace7b9848493cde9f618d6a2ae7df9
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/02/2019
-ms.locfileid: "74700837"
+ms.lasthandoff: 01/14/2020
+ms.locfileid: "75925598"
 ---
-# <a name="power-bi-visual-concept"></a>Power BI 视觉对象概念
+# <a name="visuals-in-power-bi"></a>Power BI 中的视觉对象
 
-本文介绍用户和视觉对象如何与 Power BI 交互，以及用户如何与 Power BI 视觉对象交互。 在关系图中，可以看到哪些操作直接影响视觉对象或通过 Power BI 影响视觉对象（例如，用户选择书签）。
+本文介绍视觉对象与 Power BI 的集成方式，以及用户如何与 Power BI 中的视觉对象进行交互。 
 
-![Power BI 视觉对象](./media/visual-concept.svg)
+下图描述了如何在 Power BI 中处理用户所采取的常见的基于视觉对象的操作，比如选择书签。
 
-## <a name="the-visual-gets-update-from-power-bi"></a>视觉对象从 Power BI 获取更新
+![Power BI 视觉对象操作示意图](./media/visual-concept.svg)
 
-视觉对象具有 `update` 方法，此方法通常包含视觉对象的主要逻辑，并负责呈现图表或可视化数据。
+## <a name="visuals-get-updates-from-power-bi"></a>视觉对象在 Power BI 中获得更新
 
-调用 `update` 方法可获得更多更新。
+视觉对象调用 `update` 方法以在 Power BI 中获得更新。 `update` 方法通常包含视觉对象的主要逻辑，并负责呈现图表或可视化数据。
 
-### <a name="user-interacts-with-visual-through-power-bi"></a>用户通过 Power BI 与视觉对象交互
+当视觉对象调用 `update` 方法时，将触发更新。
 
-* 用户打开视觉对象属性面板。
+## <a name="action-and-update-patterns"></a>操作和更新模式
 
-    Power BI 从视觉对象 `capabilities.json` 中提取支持的对象和属性，并接收 Power BI 调用视觉对象 `enumerateObjectInstances` 方法的属性的实际值。
+Power BI 视觉对象中的操作和后续更新采用以下三种模式之一：
 
-    视觉对象必须返回属性的实际值。
+* 用户通过 Power BI 与视觉对象交互。
+* 用户直接与视觉对象交互。
+* 视觉对象与 Power BI 交互。
 
-    有关详细信息，请[阅读视觉对象功能](capabilities.md)。
+### <a name="user-interacts-with-a-visual-through-power-bi"></a>用户通过 Power BI 与视觉对象交互
 
-* 格式面板中的[用户更改视觉对象的属性](../../visuals/power-bi-visualization-customize-title-background-and-legend.md)。
+* 用户打开视觉对象的属性面板。
 
-    更改属性值之后，Power BI 调用视觉对象的 `update` 方法，并使用对象的新值将新的 `options` 传递到更新方法。
+    当用户打开视觉对象的属性面板时，Power BI 将从视觉对象的 capabilities.json  文件中获取支持的对象和属性。 若要接收属性的实际值，Power BI 调用视觉对象的 `enumerateObjectInstances` 方法。 视觉对象返回属性的实际值。
 
-    有关详细信息，请参阅[视觉对象的对象和属性](objects-properties.md)。
+    有关详细信息，请参阅 [Power BI 视觉对象的功能和属性](capabilities.md)。
+
+* 用户在格式面板中[更改视觉对象的属性](../../visuals/power-bi-visualization-customize-title-background-and-legend.md)。
+
+    当用户在“格式”面板中更改属性的值时，Power BI 将调用视觉对象的 `update` 方法。 Power BI 将新的 `options` 对象传入 `update` 方法。 对象包含新值。
+
+    有关详细信息，请参阅 [Power BI 视觉对象的对象和属性](objects-properties.md)。
 
 * 用户调整视觉对象的大小。
 
-    当用户更改视觉对象的大小时，Power BI 将使用新 `option` 对象调用 `update` 方法。 选项嵌套了具有新视觉对象宽度和高度的 `viewport` 对象。
+    当用户更改视觉对象的大小时，Power BI 将使用新 `options` 对象调用 `update` 方法。 `options` 对象具有嵌套的 `viewport` 对象，这些对象包含视觉对象的新宽度和高度。
 
 * 用户应用报表、页面或视觉对象级筛选器。
 
-    Power BI 根据筛选条件筛选数据，并调用视觉对象的 `update` 方法来向视觉对象分配新数据。
+    Power BI 根据筛选条件筛选数据。 Power BI 调用视觉对象的 `update` 方法，以通过新数据更新视觉对象。
 
-    视觉对象通过一个嵌套对象中的新数据获取 `options` 的新更新。 这取决于视觉对象的数据视图映射配置。
+    当其中一个嵌套对象中有新数据，视觉对象将获取 `options` 对象的新更新。 更新发生的方式取决于视觉对象的数据视图映射配置。
 
-    有关详细信息，请参阅[数据视图映射](dataview-mappings.md)。
+    有关详细信息，请参阅[了解 Power BI 视觉对象中的数据视图映射](dataview-mappings.md)。
 
 * 用户选择报表的另一个视觉对象中的数据点。
 
-    Power BI 筛选器或突出显示所选数据点，并调用视觉对象的 `update` 方法。
+    当用户在报表中选择另一个视觉对象中的数据点时，Power BI 将筛选或突出显示所选数据点并调用视觉对象的 `update` 方法。 视觉对象通过突出显示的数组获取新的筛选数据或相同数据。
 
-    视觉对象通过突出显示的数组获取新的筛选数据或相同数据。
+    有关详细信息，请参阅[突出显示 Power BI 视觉对象中的数据点](highlight.md)。
 
-    有关详细信息，请参阅[如何在视觉对象中突出显示数据](highlight.md)。
+* 用户选择报表“书签”面板中的书签。
 
-* 用户选择报表的书签面板上的书签。
+    当用户在报表的“书签”面板中选择书签时，可能会发生以下两种操作之一：
 
-    可能会发生两个操作：
+    * Power BI 调用通过 `registerOnSelectionCallback` 方法传递和注册的函数。 回调函数获取相应书签的选择数组。
 
-    1. Power BI 调用通过方法 `registerOnSelectionCallback` 传递的已注册函数，并回调获取对应书签选择的数组的函数。
+    * Power BI 使用 `options` 对象内的相应 `filter` 对象调用 `update` 方法。
 
-    2. Power BI 通过 `options` 内对应的筛选器对象调用 `update` 方法。
+    在任一情况下，视觉对象都必须根据接收到的选择或 `filter` 对象更改其状态。
 
-    在这两种情况下，视觉对象都必须根据收到的选择或筛选器对象来更改可视化状态。
+    有关书签和筛选器的详细信息，请参阅 [Power BI 视觉对象中的可视筛选器 API](filter-api.md)。
 
-    有关书签的详细信息，请参阅[如何处理书签](filter-api.md)。
+### <a name="user-interacts-with-the-visual-directly"></a>用户直接与视觉对象交互
 
-    有关筛选器的详细信息，请参阅 [Power BI 视觉对象如何在其他视觉对象中筛选数据](filter-api.md)。
+* 用户将鼠标悬停在数据元素上。
 
-### <a name="user-interacts-with-visual-directly"></a>用户直接与视觉对象交互
+    视觉对象可通过 Power BI 工具提示 API 来显示关于数据点的更多信息。 当用户将鼠标悬停在某个可视元素上时，视觉对象可以处理该事件，并显示关联的工具提示元素的相关数据。 视觉对象可显示标准工具提示或报表页工具提示。
 
-* 用户将鼠标悬停在数据元素上
+    有关详细信息，请参阅 [Power BI 视觉对象中的工具提示](add-tooltips.md)。
 
-    视觉对象可通过 Power BI 工具提示 API 来显示关于数据点的其他信息。
-    用户将鼠标悬停在视觉对象元素上，视觉对象可以处理事件并在工具提示元素上显示数据。
+* 用户更改视觉对象属性。 （例如，用户展开树，视觉对象将状态保存在视觉对象属性中。）
 
-    视觉对象可显示标准工具提示或报表页工具提示。
+    视觉对象可以通过 Power BI API 保存属性值。 例如，当用户与视觉对象交互且视觉对象需要保存或更新属性值时，视觉对象可以调用 `presistProperties` 方法。
 
-    有关详细信息，请参阅[如何添加工具提示](add-tooltips.md)指南。
+* 用户选择 URL。
 
-* 用户更改视觉对象属性（例如，用户展开树，以及视觉对象保存属性状态）
+    默认情况下，视觉对象不能直接打开 URL。 相反，若要在新选项卡中打开 URL，视觉对象可以调用 `launchUrl` 方法，并将 URL 作为参数传递。
 
-    视觉对象可以通过 Power BI API 保存属性值。 例如，当用户与视觉对象交互时。 视觉对象需要保存或更新属性值。 视觉对象可以为其调用 `presistProperties` 方法。
+    有关详细信息，请参阅[创建启动 URL](launch-url.md)。
 
-* 用户单击 URL 链接。
+* 用户通过视觉对象应用筛选器。
 
-    默认情况下，视觉对象不能打开该 URL。 若要在新选项卡中打开 URL，视觉对象应调用 `launchURL` 方法，并将 URL 作为参数进行传递。
+    视觉对象可以调用 `applyJsonFilter` 方法，并传递条件来筛选其他视觉对象中的数据。 多个筛选器类型可用，包括基本筛选器、高级筛选器和元组筛选器。
 
-    有关详细信息，请参阅[启动 URL API](launch-url.md)。
+    有关详细信息，请参阅 [Power BI 视觉对象中的可视筛选器 API](filter-api.md)。
 
-* 用户应用筛选器引发视觉对象
+* 用户在视觉对象中选择元素。
 
-    视觉对象调用 `applyJSONFilter` 并将筛选条件传递给筛选器以筛选其他视觉对象中的数据。
+    有关 Power BI 视觉对象中的选择的详细信息，请参阅[使用 Power BI 视觉对象选择添加交互性](selection-api.md)。
 
-    视觉对象可以使用多种类型的筛选器，例如基本筛选器、高级筛选器、元组筛选器。
-
-    有关筛选器的详细信息，请参阅 [Power BI 视觉对象如何在其他视觉对象中筛选数据](filter-api.md)。
-
-* 用户单击/选择视觉对象上的元素。
-
-    有关选择的详细信息，请参阅[视觉对象的交互方式](selection-api.md)。
-
-### <a name="the-visual-interacts-with-power-bi"></a>视觉对象与 Power BI 交互
+### <a name="visual-interacts-with-power-bi"></a>视觉对象与 Power BI 交互
 
 * 视觉对象请求 Power BI 中的更多数据。
 
-    视觉对象可以按部分处理数据部分。 FetchMoreData API 方法请求下一个数据集片段。
+    视觉对象逐项处理数据。 `fetchMoreData` API 方法请求数据集中的下一个数据片段。
 
-    有关 `fetchMoreData` 的详细信息，请参阅[如何从 Power BI 获取更多数据](fetch-more-data.md)
+    有关详细信息，请参阅[从 Power BI 获取更多数据](fetch-more-data.md)。
 
-* 事件服务
+* 将触发事件服务。
 
-    Power BI 可以将报表导出为 PDF 或通过电子邮件发送（仅支持经过认证的视觉对象）。 若要通知 Power BI 已完成呈现，并且已准备好捕获 PDF/电子邮件，视觉对象应调用呈现事件 API。
+    Power BI 可以将报表导出为 PDF 或通过电子邮件发送报表（仅适用于经认证的视觉对象）。 若要通知 Power BI 呈现已完成，并且视觉对象已准备好以 PDF 或电子邮件的形式捕获，则视觉对象应调用呈现事件 API。
 
-    有关详细信息，请参阅[从 Power BI 导出报表到 PDF](../../consumer/end-user-pdf.md)
+    有关详细信息，请参阅[从 Power BI 导出报表到 PDF](../../consumer/end-user-pdf.md)。
 
-    查找更多[事件服务的信息](event-service.md)
+    若要了解有关事件服务的信息，请参阅[在 Power BI 视觉对象中呈现事件](event-service.md)。
 
 ## <a name="next-steps"></a>后续步骤
 
-你是 Web 开发者吗？对创建自己的可视化效果，并将它们添加到 AppSource 感兴趣吗？ 请参阅[开发 Power BI 视觉对象](./custom-visual-develop-tutorial.md)，了解如何[将 Power BI 视觉对象发布到 AppSource](../office-store.md)。
+对创建可视化效果并将它们添加到 Microsoft AppSource 感兴趣吗？ 请参阅以下文章：
+
+* [开发 Power BI 视觉对象](./custom-visual-develop-tutorial.md)
+* [将 Power BI 视觉对象发布到合作伙伴中心](../office-store.md)

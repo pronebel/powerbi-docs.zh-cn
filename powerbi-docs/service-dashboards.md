@@ -1,7 +1,7 @@
 ---
 title: Power BI 设计器的仪表板简介
 description: 仪表板是 Power BI 服务的一个主要功能。 仪表板是通过可视化效果讲述故事的单个页面，常被称为画布。
-author: maggieMSFT
+author: maggiesMSFT
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 09/19/2019
 ms.author: maggies
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 41381a2f0ccc2c5db904d9ac94c7dad19edfa4e5
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: eb2c513e8ee8ad1c8ad93866f688e40f6c5af56d
+ms.sourcegitcommit: 3d6b27e3936e451339d8c11e9af1a72c725a5668
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73872742"
+ms.lasthandoff: 01/17/2020
+ms.locfileid: "76160779"
 ---
 # <a name="introduction-to-dashboards-for-power-bi-designers"></a>Power BI 设计器的仪表板简介
 
@@ -38,7 +38,7 @@ Power BI“仪表板”是通过可视化效果讲述故事的单个页面，常
 仪表板不仅仅是美观的图片。 它具有高度互动性，并且磁贴随着基础数据的更改而更新。
 
 ## <a name="who-can-create-a-dashboard"></a>谁可以创建仪表板？
-创建仪表板的能力被视为创建者  功能，需要拥有报表编辑权限。 报表创建者及其所授予访问权限的同事拥有编辑权限。 例如，如果 David 在 workspaceABC 中创建了一个报表，然后将你添加为该工作区的成员，则你和 David 都将拥有编辑权限。 另一方面，如果报表已与你直接共享或作为 [Power BI 应用](service-create-distribute-apps.md)的一部分（你正在使用  该报表）， 则可能无法将磁贴固定到仪表板。 
+创建仪表板的能力被视为创建者  功能，需要拥有报表编辑权限。 报表创建者及其所授予访问权限的同事拥有编辑权限。 例如，如果 David 在 workspace ABC 中创建了一个报表，然后将你添加为该工作区的成员，则你和 David 都将拥有编辑权限。 另一方面，如果报表已与你直接共享或作为 [Power BI 应用](service-create-distribute-apps.md)的一部分（你正在使用  该报表）， 则可能无法将磁贴固定到仪表板。 
 
 > [!IMPORTANT]
 > 需要 [Power BI Pro](service-free-vs-pro.md) 许可证方可在工作区中创建仪表板。 可以在你自己的“我的工作区”中创建仪表板，而无需 Power BI Pro 许可证。
@@ -49,12 +49,12 @@ Power BI“仪表板”是通过可视化效果讲述故事的单个页面，常
 
 | **功能** | **仪表板** | **报表** |
 | --- | --- | --- |
-| 页面 |一个页面 |一个或多个页面 |
+| 页数 |一个页面 |一个或多个页面 |
 | 数据源 |每个仪表板的一个或多个报表和一个或多个数据集 |每个报表的单个数据集 |
 | 可用于 Power BI Desktop |否 | 是。 可在 Power BI Desktop 中生成和查看报表 |
 | 订阅 |是。 可订阅仪表板 |是。 可订阅报表页面 |
 | 筛选 |否。 无法筛选或切片 |是。 许多不同的方式来筛选、突出显示和切片 |
-| 特色 |是。 可将一个仪表板设置为精选  仪表板 |否 |
+| 特别推荐 |是。 可将一个仪表板设置为精选  仪表板 |否 |
 | 收藏夹 | 是。 可将多个仪表板设置为“收藏夹”  | 是。 可将多个报表设置为“收藏夹” 
 | 设置警报 |是。 可在某些情况下用于仪表板磁贴 |否 |
 | 自然语言查询（“问答”） |是 | 是，前提是你有权编辑报表及基础数据集 |

@@ -1,6 +1,6 @@
 ---
 title: 在 Power BI 报表生成器中规划报表
-description: 使用 Power BI 分页报表生成器，可创建多种类型的分页报表。 要创建有用且易于理解的报表，先进行规划会很有帮助。
+description: 利用 Power BI Report Builder 可创建多种类型的分页报表。 要创建有用且易于理解的报表，先进行规划会很有帮助。
 ms.date: 07/25/2019
 ms.service: powerbi
 ms.subservice: report-builder
@@ -8,16 +8,16 @@ ms.topic: conceptual
 ms.assetid: 79113505-1ce8-4f8c-9260-d861838f7813
 author: maggiesMSFT
 ms.author: maggies
-ms.openlocfilehash: 33cdb53ab411e0d2f4686f7cc9a41bb3f0fe4cb6
-ms.sourcegitcommit: bc688fab9288ab68eaa9f54b9b59cacfdf47aa2e
+ms.openlocfilehash: 30ab632d11befd34ff9a234e441b345c696fb54d
+ms.sourcegitcommit: df8bcc65f0df69bf1fc1d47eb06575742eac1622
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/30/2019
-ms.locfileid: "68623873"
+ms.lasthandoff: 01/15/2020
+ms.locfileid: "75953816"
 ---
 # <a name="planning-a-report-in-power-bi-report-builder"></a>在 Power BI 报表生成器中规划报表
 
-使用 Power BI 分页报表生成器，可创建多种类型的分页报表。 例如，可以创建显示摘要或详细销售数据、营销和销售趋势的报表、运营报表或仪表板。 还可以创建文本格式丰富的的报表，例如销售订单、产品目录或套用信函。 所有这些报表都是通过在报表生成器中使用相同基本构建基块的不同组合来创建的。 要创建有用且易于理解的报表，先进行规划会很有帮助。 在开始之前，可能需要考虑以下事项：  
+利用 Power BI Report Builder 可创建多种类型的分页报表。 例如，可以创建显示摘要或详细销售数据、营销和销售趋势的报表、运营报表或仪表板。 还可以创建文本格式丰富的的报表，例如销售订单、产品目录或套用信函。 所有这些报表都是通过在报表生成器中使用相同基本构建基块的不同组合来创建的。 要创建有用且易于理解的报表，先进行规划会很有帮助。 在开始之前，可能需要考虑以下事项：  
   
 ## <a name="in-what-format-do-you-want-the-report-to-appear"></a>希望报表以何种格式显示？
   

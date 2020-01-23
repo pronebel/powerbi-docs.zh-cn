@@ -1,6 +1,6 @@
 ---
 title: Power BI 报表生成器中的报表数据
-description: 在 Power BI 分页报表设计器中设计报表的第一步是创建表示基础报表数据的数据源和数据集。
+description: 在 Power BI Report Builder 中设计报表的第一步是创建表示基础报表数据的数据源和数据集。
 author: maggiesMSFT
 ms.author: maggies
 ms.reviewer: ''
@@ -9,12 +9,12 @@ ms.subservice: report-builder
 ms.topic: conceptual
 ms.custom: seodec18
 ms.date: 06/06/2019
-ms.openlocfilehash: cbcb710a806c400ea33ac4d605614b5325277d07
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 602c6a00f773147072b97ecf8c11588bc981eb05
+ms.sourcegitcommit: df8bcc65f0df69bf1fc1d47eb06575742eac1622
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73860416"
+ms.lasthandoff: 01/15/2020
+ms.locfileid: "75953992"
 ---
 # <a name="report-data-in-power-bi-report-builder"></a>Power BI 报表生成器中的报表数据
 

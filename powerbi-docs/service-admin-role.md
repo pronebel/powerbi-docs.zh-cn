@@ -9,16 +9,16 @@ ms.topic: conceptual
 ms.date: 01/02/2020
 ms.author: kfollis
 LocalizationGroup: Administration
-ms.openlocfilehash: 04ffeb01efeaa714b30b2246174584f2caf90468
-ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
+ms.openlocfilehash: fc1a0c524a3cb4a713cbaf049c259a4b96714131
+ms.sourcegitcommit: 3d6b27e3936e451339d8c11e9af1a72c725a5668
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/06/2020
-ms.locfileid: "75622279"
+ms.lasthandoff: 01/17/2020
+ms.locfileid: "76160802"
 ---
 # <a name="understanding-power-bi-service-administrator-roles"></a>了解 Power BI 服务管理员角色
 
-要管理 Power BI 租户，必须是以下角色之一：Power BI 管理员、Power Platform 管理员或 Microsoft 365 全局管理员。Microsoft 365 用户管理管理员可以在 Microsoft 365 管理中心或使用 PowerShell 脚本，向用户分配 Power BI 管理员或 Power Platform 管理员角色。
+要管理 Power BI 租户，必须是以下角色之一：Power BI 管理员、Power Platform 管理员或 Microsoft 365 全局管理员。Microsoft 365 用户管理管理员可以在 Microsoft 365 管理中心或使用 PowerShell 脚本，向用户分配 Power BI 管理员或 Power Platform 管理员角色。 有关详细信息，请参阅[将角色分配给具有 Office 365 PowerShell 的用户帐户](/office365/enterprise/powershell/assign-roles-to-user-accounts-with-office-365-powershell)。
 
 拥有 Power BI 管理员或 Power Platform 管理员角色的用户可以完全控制 Power BI 租户及其管理功能（许可除外）。 分配有此角色后，用户便可以访问 [Power BI 管理门户](service-admin-portal.md)。 在管理门户中，用户可以访问整个租户范围内的使用情况指标，并能控制整个租户范围内的 Power BI 功能使用。 这些管理员角色非常适合需要 Power BI 管理门户访问权限的用户，还可不向这些用户授予完整的 Microsoft 365 管理访问权限。
 

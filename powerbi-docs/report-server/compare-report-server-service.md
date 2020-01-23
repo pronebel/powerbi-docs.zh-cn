@@ -8,13 +8,13 @@ ms.topic: overview
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.custom: mvc
-ms.date: 12/03/2019
-ms.openlocfilehash: 88df45a95e485695a9a2f36358c1fcca9670f258
-ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
+ms.date: 01/16/2020
+ms.openlocfilehash: f7f163a8930d8bd90d6270f59e8afa602e89dd57
+ms.sourcegitcommit: 3d6b27e3936e451339d8c11e9af1a72c725a5668
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/06/2020
-ms.locfileid: "74831143"
+ms.lasthandoff: 01/17/2020
+ms.locfileid: "76160825"
 ---
 # <a name="comparing-power-bi-report-server-and-the-power-bi-service"></a>比较 Power BI 报表服务器和 Power BI 服务
 
@@ -31,6 +31,7 @@ Power BI 报表服务器和 Power BI 服务有许多相似之处和一些关键�
 | 发行周期 | 一年三次（1 月、5 月、9 月） | 每个月一次 | Power BI 服务中首先提供最新功能和修补程序。 Power BI 报表服务器在接下来的几个版本中提供了最核心功能；某些功能仅适用于 Power BI 服务。 |
 | 在 Power BI Desktop 中创建 Power BI 报表 | 是 | 是 |  |
 | 在浏览器中创建 Power BI 报表 | 否 | 是 |  |
+| 托管并连接到 Power BI 共享数据集 | 否 | 是 | [跨工作区使用数据集简介](../service-datasets-across-workspaces.md) |
 | 需要网关 | 否 | 对于本地数据源，则为“是” |  |
 | 实时流式处理 | 否 | 是 | [Power BI 中的实时流式处理](../service-real-time-streaming.md) |
 | 仪表板 | 否 | 是 | [Power BI 服务中的仪表板](../consumer/end-user-dashboards.md) |

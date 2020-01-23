@@ -8,16 +8,20 @@ ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 10/24/2019
 ms.author: maggies
-ms.openlocfilehash: 77716514ffbb6dc8d3f128ada85276b46bf7af05
-ms.sourcegitcommit: 17f45a81b0dcbf9e3f1fb2a551584170baecd320
+ms.openlocfilehash: 5cdf29c71ef3e5f8dc02799945cf76ccc518dabe
+ms.sourcegitcommit: df8bcc65f0df69bf1fc1d47eb06575742eac1622
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/25/2019
-ms.locfileid: "72923656"
+ms.lasthandoff: 01/15/2020
+ms.locfileid: "75953754"
 ---
 # <a name="change-data-source-connection-strings-in-power-bi-reports-with-powershell---power-bi-report-server"></a>使用 PowerShell 更改 Power BI 报表中的数据源连接字符串 - Power BI 报表服务器
 
+
 可以使用 PowerShell 中的 API，在 Power BI 报表服务器中更改 Power BI 报表中的数据源连接字符串。 
+
+> [!NOTE]
+> 此功能目前仅适用于 DirectQuery。 即将提供对导入和数据刷新的支持。
 
 1. 安装 Power BI 报表服务器 PowerShell commandlet。 在 [https://github.com/Microsoft/ReportingServicesTools](https://github.com/Microsoft/ReportingServicesTools) 中查找 commandlet 和安装说明。 
 
@@ -67,4 +71,3 @@ ms.locfileid: "72923656"
 [Power BI 报表服务器中的分页报表数据源](connect-data-sources.md) 
 
 更多问题？ [尝试咨询 Power BI 社区](https://community.powerbi.com/)
-

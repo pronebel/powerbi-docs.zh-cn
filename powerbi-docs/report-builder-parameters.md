@@ -1,6 +1,6 @@
 ---
 title: Power BI 报表生成器中的报表参数
-description: 本主题介绍了 Power BI 分页报表生成器报表参数的常见用法、可以设置的属性及其他内容。
+description: 本主题介绍了 Power BI Report Builder 报表参数的常见用法、可以设置的属性等内容。
 ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: conceptual
@@ -9,16 +9,16 @@ ms.author: maggies
 ms.reviewer: ''
 ms.custom: ''
 ms.date: 06/06/2019
-ms.openlocfilehash: d31036676a5960f7f6eb0f346c2c02ab979ff9bc
-ms.sourcegitcommit: 01de0b01f66f28ca45b8d309d7864f261d6c9a85
+ms.openlocfilehash: 5a7e91c03b11902f324d6a7c639a03f7652acf16
+ms.sourcegitcommit: 3d6b27e3936e451339d8c11e9af1a72c725a5668
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/16/2019
-ms.locfileid: "74128421"
+ms.lasthandoff: 01/17/2020
+ms.locfileid: "76160848"
 ---
 # <a name="report-parameters-in-power-bi-report-builder"></a>Power BI 报表生成器中的报表参数
 
-本主题介绍了 Power BI 分页报表生成器报表参数的常见用法、可以设置的属性及其他内容。 使用报表参数，可以控制报表数据，将相关报表连接在一起以及更改报表显示。 可以在报表生成器中创建的分页报表中使用报表参数。
+本主题介绍了 Power BI Report Builder 报表参数的常见用法、可以设置的属性等内容。 使用报表参数，可以控制报表数据，将相关报表连接在一起以及更改报表显示。 可以在报表生成器中创建的分页报表中使用报表参数。
 
 ## <a name="bkmk_Common_Uses_for_Parameters"></a>参数的常见用法
 
@@ -93,7 +93,7 @@ ms.locfileid: "74128421"
   
 - 从下列列表选择多个参数值。  
   
-- 从下拉列表中为一个参数选择一个值，该参数决定了另一个参数的下拉列表中可用的值。 这些是级联参数。 使用级联参数可将参数值从数千个值连续筛选限定到一个可管理的量。  
+- 从下拉列表中为一个参数选择一个值，该参数决定了另一个参数的下拉列表中可用的值。 这些是级联参数。 使用级联参数可将参数值从数千个值连续筛选限定到一个可管理的量。 有关详细信息，请参阅[在分页报表中使用级联参数](guidance/paginated-report-cascading-parameter.md)。
   
 - 运行报表时不必先选择参数值，因为已为参数创建默认值。  
   
@@ -148,5 +148,4 @@ ms.locfileid: "74128421"
 ## <a name="next-steps"></a>后续步骤
 
 - [Power BI Premium 中的分页报表是什么？](paginated-reports-report-builder-power-bi.md)  
- 
- 
+- [在分页报表中使用级联参数](guidance/paginated-report-cascading-parameter.md)

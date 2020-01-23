@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 12/16/2019
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: 3928b90d3aba8084cb5f1bf3677adb31afb01722
-ms.sourcegitcommit: b68a47b1854588a319a5a2d5d6a79bba2da3a4e6
+ms.openlocfilehash: 3a2b06071986b6994c68bde06e87c5ae7f5e7360
+ms.sourcegitcommit: df8bcc65f0df69bf1fc1d47eb06575742eac1622
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/08/2020
-ms.locfileid: "75729664"
+ms.lasthandoff: 01/15/2020
+ms.locfileid: "75953715"
 ---
 # <a name="previous-monthly-updates-to-power-bi-desktop"></a>此前的 Power BI Desktop 月度更新
 
@@ -609,7 +609,7 @@ Power BI Desktop 更新列表中每个功能旁边的链接解释如下：
 * M Intellisense 在编辑栏和自定义列对话框中受到支持并正式发布 [[视频]](https://youtu.be/vih35kSrEHU?t=1491) [[博客]](https://powerbi.microsoft.com/blog/power-bi-desktop-april-2019-feature-summary/#intellisense) 
 
 ### <a name="other"></a>其他
-* Power BI 分页报表生成器 [[博客]](https://powerbi.microsoft.com/blog/power-bi-desktop-april-2019-feature-summary/#paginatedReports) 
+* Power BI Report Builder [[博客]](https://powerbi.microsoft.com/blog/power-bi-desktop-april-2019-feature-summary/#paginatedReports) 
 
 
 

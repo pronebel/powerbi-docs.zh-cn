@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 10/30/2019
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 50a5705f5e236dc326f4c2b33716e55f6a9f7ce5
-ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
+ms.openlocfilehash: 2b43727799316ade5ccdb868077360da0b315c56
+ms.sourcegitcommit: 052df769e6ace7b9848493cde9f618d6a2ae7df9
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/09/2020
-ms.locfileid: "75761970"
+ms.lasthandoff: 01/14/2020
+ms.locfileid: "75925694"
 ---
 # <a name="design-power-bi-reports-for-accessibility"></a>设计可访问的 Power BI 报表
 你可以设计和创建引人注目的报表，同时也可以针对可访问性进行设计。 无论何时构建报表，无论受众是谁，你都应该创建一个可供尽可能多的人使用的报表，而不需要使报表套用某种特殊的设计。
@@ -22,6 +22,8 @@ ms.locfileid: "75761970"
 ![Windows 高对比度设置](media/desktop-accessibility/accessibility-05.png)
 
 本文介绍用于在 Power BI 中创建可访问的报表的辅助功能和工具。
+
+通常，将 Power BI 与屏幕阅读器结合使用时，建议关闭扫描模式或浏览模式。
 
 若要改进使用屏幕阅读器创建报表的过程，可以使用上下文菜单。 菜单允许在“字段”列表中向上或向下移动井中的字段  。 该菜单还允许将字段移动到其他井，例如“图例”、“值”等   。
 

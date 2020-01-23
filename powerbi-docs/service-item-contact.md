@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 10/08/2010
+ms.date: 10/08/2019
 ms.author: lukaszp
 LocalizationGroup: Common tasks
-ms.openlocfilehash: bb98f7bbb92b72512f880513ec94ccb55d64fc67
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 7ed0920f66c178c23e6c4db22ff6acd998619522
+ms.sourcegitcommit: 3d6b27e3936e451339d8c11e9af1a72c725a5668
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73872152"
+ms.lasthandoff: 01/17/2020
+ms.locfileid: "76160549"
 ---
 # <a name="set-contact-information-for-reports-and-dashboards-in-the-power-bi-service"></a>在 Power BI 服务中设置报表和仪表板的联系人信息
 本文介绍如何在 Power BI 服务中设置仪表板或报表的联系人信息。
@@ -60,6 +60,7 @@ ms.locfileid: "73872152"
 ## <a name="limitations-and-considerations"></a>限制和注意事项
 * 自动为 Power BI 服务中创建的新项设置联系人。 现有项将显示工作区默认值。
 * 可以在联系人列表中设置任何用户或组，但不会自动向他们授予对该项的权限。 使用共享或通过角色向需要访问工作区的用户提供权限。 
+* 项目级联系人列表在发布时不会被推送到应用中。 新应用导航体验提供了一个支持 URL，你可以配置该 URL 来帮助管理大量应用用户的反馈。
 
 
 ## <a name="next-steps"></a>后续步骤

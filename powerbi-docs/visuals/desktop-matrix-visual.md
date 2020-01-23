@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 06/25/2019
+ms.date: 01/14/2020
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 150de174b15e684c49c38f67767b13a3a7f9a36a
-ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
+ms.openlocfilehash: fa097489fcf81ec1bb1df2162465e6413bd116c0
+ms.sourcegitcommit: 0ae9328e7b35799d5d9613a6d79d2f86f53d9ab0
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/09/2020
-ms.locfileid: "75758959"
+ms.lasthandoff: 01/16/2020
+ms.locfileid: "76040431"
 ---
 # <a name="create-matrix-visualizations-in-power-bi"></a>在 Power BI 中创建矩阵可视化效果
 
@@ -197,6 +197,6 @@ Watch the following video to learn more about expand/collapse in the matrix:
 
 ## <a name="next-steps"></a>后续步骤
 
-[Power BI 中的散点图和气泡图](power-bi-visualization-scatter.md)
+[适用于 Power BI 的 Power Apps 视觉对象](power-bi-visualization-powerapp.md)
 
 [Power BI 中的可视化效果类型](power-bi-visualization-types-for-reports-and-q-and-a.md)

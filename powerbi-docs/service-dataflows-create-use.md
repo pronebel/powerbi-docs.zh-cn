@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 04/02/2019
+ms.date: 01/15/2020
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: 704e073299f89859c507b3ddc6ccba0b4be03d76
-ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
+ms.openlocfilehash: 9338bc914c7f4e4afd826bcd3e3452e7c7a3ef35
+ms.sourcegitcommit: 0ae9328e7b35799d5d9613a6d79d2f86f53d9ab0
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/06/2020
-ms.locfileid: "73877375"
+ms.lasthandoff: 01/16/2020
+ms.locfileid: "76040450"
 ---
 # <a name="creating-and-using-dataflows-in-power-bi"></a>在 Power BI 中创建和使用数据流
 
@@ -155,6 +155,14 @@ Power BI 数据流使用 Power BI 数据刷新过程使数据保持最新状态�
 * **JSON 文件连接器** - 当前你只可使用基本身份验证连接到 JSON 文件。  当前不支持通过在 URL 中提供凭据来连接到 JSON 文件（例如， https://XXXXX.blob.core.windows.net/path/file.json?sv=2019-01-01&si=something&sr=c&sig=123456abcdefg.. 。）  。  
 
 * **Azure SQL 数据仓库** - 数据流目前不支持对 Azure SQL 数据仓库使用 Azure Active Directory (AAD) 身份验证。 对于此情况请使用基本身份验证。
+
+## <a name="considerations-and-limitations"></a>注意事项和限制
+
+数据流有几个已知限制，如下表中所述。
+
+* 数据流必须输出以下类型之一：日期/时间、十进制数字、文本、整数、日期/时间/区域、True/False、日期、时间 
+* 当前数据流中不支持动态函数
+
 
 ## <a name="next-steps"></a>后续步骤
 

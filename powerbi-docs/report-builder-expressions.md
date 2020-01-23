@@ -1,6 +1,6 @@
 ---
 title: Power BI 报表生成器中的表达式
-description: 表达式在 Power BI 分页报表生成器分页报表中被广泛用于检索、计算、显示、分组、排序、筛选、参数化和格式化数据。
+description: 表达式在 Power BI Report Builder 分页报表中被广泛用于检索、计算、显示、分组、排序、筛选、参数化和格式化数据。
 ms.date: 06/06/2019
 ms.service: powerbi
 ms.subservice: report-builder
@@ -8,15 +8,15 @@ ms.topic: conceptual
 ms.assetid: 76d3ac86-650c-46fe-8086-8b3edcea3882
 author: maggiesMSFT
 ms.author: maggies
-ms.openlocfilehash: d3a72fd967eeb24cfa1093d16c4434447d5fc89d
-ms.sourcegitcommit: 797bb40f691384cb1b23dd08c1634f672b4a82bb
+ms.openlocfilehash: 96c62fec55f87a31970b624a79314656ced0c159
+ms.sourcegitcommit: df8bcc65f0df69bf1fc1d47eb06575742eac1622
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/12/2019
-ms.locfileid: "66840616"
+ms.lasthandoff: 01/15/2020
+ms.locfileid: "75953865"
 ---
 # <a name="expressions-in-power-bi-report-builder"></a>Power BI 报表生成器中的表达式
-  表达式在 Power BI 分页报表生成器分页报表中被广泛用于检索、计算、显示、分组、排序、筛选、参数化和格式化数据。 
+  表达式在 Power BI Report Builder 分页报表中被广泛用于检索、计算、显示、分组、排序、筛选、参数化和格式化数据。 
   
   许多报表项属性可设置为表达式。 表达式可帮助控制报表内容、设计和交互性。 表达式用 Microsoft Visual Basic 编写，保存在报表定义中，并在运行报表时由报表处理器进行计算。  
   

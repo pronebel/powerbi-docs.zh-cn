@@ -1,6 +1,6 @@
 ---
 title: Power BI 报表生成器中的报表设计提示
-description: 利用以下提示，在 Power BI 分页报表生成器中设计分页报表。
+description: 利用以下提示，在 Power BI Report Builder 中设计分页报表。
 ms.date: 06/06/2019
 ms.service: powerbi
 ms.subservice: report-builder
@@ -8,15 +8,15 @@ ms.topic: conceptual
 ms.assetid: c1490ff0-5b8a-43c1-8d22-e459395db4f6
 author: maggiesMSFT
 ms.author: maggies
-ms.openlocfilehash: d7e232d09eee2a4cfff17d4565443195e6f7f1aa
-ms.sourcegitcommit: 797bb40f691384cb1b23dd08c1634f672b4a82bb
+ms.openlocfilehash: 3b436156d6bd36fe5da7b9b4404227ca1a6de336
+ms.sourcegitcommit: 3d6b27e3936e451339d8c11e9af1a72c725a5668
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/12/2019
-ms.locfileid: "66840340"
+ms.lasthandoff: 01/17/2020
+ms.locfileid: "76160526"
 ---
 # <a name="report-design-tips-in-power-bi-report-builder"></a>Power BI 报表生成器中的报表设计提示
-  利用以下提示，在 Power BI 分页报表生成器中设计分页报表。  
+  利用以下提示，在 Power BI Report Builder 中设计分页报表。  
   
    
   
@@ -131,7 +131,7 @@ ms.locfileid: "66840340"
   
 -   如果计划将报表另存为.pdf 文件，须将报表宽度显式设置为一个值，该值以导出文件格式提供所需结果。 例如，将报表页宽度精确设置为 7.9375 英寸，左右边距为 .5 英寸。  
   
--   使用报表查看器工具栏上的“打印布局”和“页面设置”，在打印兼容的视图中呈现报表   。 若要删除多余的水平页面，请执行以下操作：  
+-   使用报表查看器工具栏上的“打印布局”和“页面设置”，在打印兼容的视图中呈现报表   。 若要删除不必要的空白页，请执行以下操作：  
   
     1.  删除数据区域之间以及报表边缘上所有多余空白区域。  
   
@@ -140,8 +140,10 @@ ms.locfileid: "66840340"
     3.  使用“矩形”作为容器来控制报表项呈现的方式  。  
   
     4.  在列标题中，更改文本框属性 WritingMode 以使用垂直文本。  
-  
- 此行为、报表项的宽度和高度属性、表体大小、页面高度和页面宽度定义、父报表的边距设置以及特定于呈现器的分页支持，所有这些因素共同决定了哪些报表项适合在页面上一起呈现。 
+
+ 有关更多指导，请参阅[打印分页报表时避免出现空白页](guidance/report-paginated-blank-page.md)。
+
+ 此行为、报表项的宽度和高度属性、表体大小、页面高度和页面宽度定义、父报表的边距设置以及特定于呈现器的分页支持，所有这些因素共同决定了哪些报表项适合在页面上一起呈现。
  
 ## <a name="next-steps"></a>后续步骤
 

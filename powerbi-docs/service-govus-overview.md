@@ -1,109 +1,117 @@
 ---
 title: 适用于美国政府客户的 Power BI - 概述
-description: 对于美国政府客户，了解 Power BI 美国政府服务的功能和限制
-author: davidiseminger
+description: 美国政府客户可以向其 Office 365 政府版计划添加 Power BI Pro 订阅。 了解如何在此服务说明中注册和查看功能可用性。
+author: kfollis
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 01/08/2020
-ms.author: davidi
+ms.date: 01/13/2020
+ms.author: kfollis
 LocalizationGroup: Get started
-ms.openlocfilehash: f14734f168abca1003bd5b6c773c4c70daf53d15
-ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
+ms.openlocfilehash: 26dabde3846ec33e2f5910de75fb8165cce6513a
+ms.sourcegitcommit: 3d6b27e3936e451339d8c11e9af1a72c725a5668
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/09/2020
-ms.locfileid: "75762085"
+ms.lasthandoff: 01/17/2020
+ms.locfileid: "76160756"
 ---
 # <a name="power-bi-for-us-government-customers"></a>适用于美国政府客户的 Power BI
-**Power BI 服务**有一个可供美国政府客户使用的版本，作为 **Office 365 美国政府社区**订阅的一部分。 本文中讨论的 **Power BI 服务**版本是为美国政府客户专门设计的，独立且不同于 **Power BI 服务**的商业版本。
+本文适用于将 Power BI 作为 Office 365 政府版计划的一部分进行部署的美国政府客户。 政府版计划专为必须满足美国合规性和安全性标准的组织的独特需求而设计。 为美国政府客户设计的 Power BI 服务不同于 Power BI 服务的商业版本。 下面几节说明了这些特性差异和功能。
 
-![](media/service-govus-overview/service_usgov_overview-1.png)
+## <a name="add-power-bi-to-your-office-365-government-plan"></a>将 Power BI 添加到 Office 365 政府版计划
 
-以下各节介绍了 **Power BI 服务**的美国政府版本可用的功能  ，阐明了一些限制  ，列出了常见问题 (**FAQ**) 和解答（包括如何注册），并提供了有关更多信息的链接。
+必须先注册 Office 365 政府版计划，然后才能获取 Power BI 美国政府版订阅并将许可证分配给用户。 如果组织已有 Office 365 政府版计划，请跳到[购买 Power BI Pro 政府版订阅](#purchase-a-power-bi-pro-government-subscription)。
 
-## <a name="features-of-power-bi-us-government"></a>Power BI 美国政府版功能
-请务必注意，**Power BI 美国政府版**仅可用作 **Pro 许可证**，不能用作免费版许可证。 Power BI 服务的某些功能适用于该服务的 **Power BI 美国政府版**。
+### <a name="enroll-in-office-365-government-plan"></a>注册 Office 365 政府版计划
 
-以下功能适用于 **Power BI 美国政府版**客户，因为它们适用于 **Pro** 许可证功能：
+如果你是新客户，则必须先验证组织的资格，然后才能注册政府版计划。  请先完成 [Office 365 政府版资格验证表单](https://www.microsoft.com/microsoft-365/government/eligibility-validation)。 若要确保为组织选择正确的计划，请参阅 [Office 365 美国政府服务说明](https://docs.microsoft.com/office365/servicedescriptions/office-365-platform-service-description/office-365-us-government/office-365-us-government)。
 
-* 创建和查看仪表板和报表
-* [数据容量限制](service-admin-manage-your-data-storage-in-power-bi.md)
-* [计划的数据刷新](refresh-data.md)
-* 可刷新的团队仪表板
-* 用于共享和管理访问控制的 Active Directory 组
-* 从 Excel、CSV 和 Power BI Desktop 文件中[导入数据](service-get-data.md)和报表
-* 数据管理网关
-* 所有数据都在 Azure SQL 和 Blob 存储中为 Power BI 加密
-* 连接到包含[内容包](service-connect-to-services.md)的服务
+> [!NOTE]
+> 如果已将 Power BI 部署到商业环境中并想要迁移到美国政府云，则需要将新的 Power BI Pro 订阅添加到 Office 365 政府版计划中。 接下来，将商业数据复制到适用于美国政府的 Power BI 服务，从用户帐户中删除商业许可证分配，然后将 Power BI Pro 政府版许可证分配给用户帐户。
+>
+>
 
-## <a name="connectivity-between-government-and-global-azure-cloud-services"></a>政府版本和全局 Azure 云服务之间的连接 
+### <a name="government-cloud-instances"></a>政府云实例
+Office 365 为政府机构提供不同的环境，以满足不同的符合性要求。 有关每个环境提供的内容的特定详细信息，请参阅链接服务说明。
 
-Azure 分布在多个云中。 默认情况下，租户可以打开对云专属实例的防火墙规则。不过，跨云网络则不同，必须打开特定防火墙规则，才能在服务之间进行通信。 如果是 Power BI 客户，并且公有云中有需要访问的现有 SQL 实例，必须在 SQL 中为以下数据中心打开对 Azure 政府云 IP 空间的特定防火墙规则：
+* [Office 365 政府社区云 (GCC)](https://docs.microsoft.com/office365/servicedescriptions/office-365-platform-service-description/office-365-us-government/gcc) 专为联邦、州/省/直辖市/自治区和地方政府设计。
+
+* [Office 365 政府社区云高 (GCC-High)](https://docs.microsoft.com/office365/servicedescriptions/office-365-platform-service-description/office-365-us-government/gcc-high-and-dod) 专为联邦机构、国防行业、航空工业以及持有受控非分类信息的其他组织设计。 此环境适用于具有国际武器贸易条例 (ITAR) 数据或国防联邦采购补充规定 (DFARS) 要求的美国安全组织和公司。
+
+* [Office 365 DoD 环境](https://docs.microsoft.com/office365/servicedescriptions/office-365-platform-service-description/office-365-us-government/gcc-high-and-dod)专为美国国防部设计。 
+
+### <a name="purchase-a-power-bi-pro-government-subscription"></a>购买 Power BI Pro 政府版订阅
+
+部署 Office 365 后，可以添加 Power BI 订阅。 按照[注册美国政府组织](service-govus-signup.md#existing-office-government-cloud-customers)中的分步指南来购买 Power BI Pro 政府版服务。 为需要使用 Power BI 的所有用户购买足够的许可证，然后将这些许可证分配给单个用户帐户。
+
+> [!IMPORTANT]
+> Power BI 美国政府版不可用作免费许可证。 必须为每个用户分配 Pro 许可证，才能访问政府社区云。 如果为用户帐户分配了免费许可证，则他们只能访问商业云，并会遇到身份验证和访问问题。 若要查看许可证类型之间的差异，请参阅[按许可证类型划分 Power BI 服务功能](service-features-license-type.md)。
+>
+>
+
+## <a name="connect-to-power-bi-for-us-government"></a>连接到适用于美国政府的 Power BI
+
+不同于商业用户，请使用不同的 URL 连接到适用于美国政府的 Power BI。 若要登录 Power BI，请使用以下 URL：
+
+| 商业版本 URL | 美国政府版本 URL | GCC High 的美国政府版 URL |
+| --- | --- | --- |
+| https://app.powerbi.com/ |[https://app.powerbigov.us](https://app.powerbigov.us) | [https://app.high.powerbigov.us](https://app.high.powerbigov.us) |
+
+帐户可以预配到多个云。 在这种情况下，使用 Power BI Desktop 时，可以在登录时选择要连接的云。
+
+## <a name="connectivity-between-government-and-global-azure-cloud-services"></a>政府版本和全局 Azure 云服务之间的连接
+
+Azure 分布在多个云中。 默认情况下，你可以启用防火墙规则以打开与特定于云的实例的连接，但跨云网络不同。  若要在公有云中的服务和政府社区云中的服务之间进行通信，必须配置特定的防火墙规则。 例如，如果要从 Power BI 的政府云部署中访问 SQL 的公有云实例，则需要 SQL 中的防火墙规则。 在 SQL 中配置特定的防火墙规则，以便为以下数据中心建立与 Azure 政府云的连接：
 
 * USGov Iowa
 * USGov Virginia
 * USGov Texas
 * USGov Arizona
 
-在公有云中，这些 IP 地址空间可用。 有关政府云，请参阅可下载的 [Azure 政府服务文档](https://www.microsoft.com/download/details.aspx?id=57063)，了解最新信息。
+在公有云中，这些 IP 范围可用。 若要获取美国政府云 IP 范围，请下载 [Azure IP 范围和服务标记 – 美国政府云](https://www.microsoft.com/download/details.aspx?id=57063)文件。 
 
-## <a name="limitations-of-power-bi-us-government"></a>Power BI 美国政府版限制
-**Power BI 服务**的商业版本中提供的某些功能在适用于美国政府客户的 **Power BI 服务**中不  可用。 Power BI 团队正在积极致力于使这些功能适用于美国政府客户，并将在这些功能变为可用时更新本文。
+若要在 SQL 中设置防火墙，请按照步骤[创建和管理 IP 防火墙规则](https://docs.microsoft.com/azure/sql-database/sql-database-firewall-configure#create-and-manage-ip-firewall-rules)。
 
-*  在 SharePoint Online 中嵌入 - 不能使用 Power BI Web 部件在 SharePoint Online 中嵌入内容。 但，确实可以使用[嵌入 Web 部件](https://docs.microsoft.com/power-bi/service-embed-secure)安全的嵌入内容  。 必须将 app.powerbigov.us 添加到例外列表中，可以按[允许或限制在 SharePoint 页面上嵌入内容的功能](https://support.office.com/article/allow-or-restrict-the-ability-to-embed-content-on-sharepoint-pages-e7baf83f-09d0-4bd1-9058-4aa483ee137b)一文中的说明添加  。
-* **Power BI 美国政府版**仅可用作 **Pro** 许可证。 在管理门户中（或作为用户）对 Power BI（免费版）许可证的所有引用均在商业版 Power BI 服务云中运行。
-* **审核** - 自 2018 年 6 月起，可通过 Office 365 安全与合规门户进行审核。
-* **外部用户共享** - 允许在 Power BI 租户内共享；自 2018 年 6 月起，也可与 Power BI 租户外部用户共享。 请参阅[使用 Azure AD B2B 将 Power BI 内容分发给外部来宾用户](service-admin-azure-ad-b2b.md)。
-* **仪表板和报表的使用情况指标** - 使用情况指标不适用于报表和仪表板。 客户可以使用审核日志数据，获取其组织内的内容的使用情况信息。
-* **数据流** - 数据流不可用。
-* **分页报表** - 分页报表目前仅适用于 US Gov 弗吉尼亚州。  已计划提供 US Gov 德克萨斯州支持，但尚未发布。
-* 嵌入政府社区云 (GCC) 的 Power BI 内容，只能通过 Office 365 SKU 完成。 GCC High 客户可以使用 [Office 365 或 Azure SKU](developer/embedded-faq.md#what-is-the-difference-between-the-a-skus-in-azure-and-the-em-skus-in-office-365)。
+## <a name="power-bi-feature-availability"></a>Power BI 功能可用性
 
-如果已将 **Power BI** 免费版许可证分配给你的帐户，则这些帐户将在 **Power BI** 服务的商业版中运行，而不属于 **Power BI 美国政府版**产品/服务的组成部分。 对于这些免费版帐户，可能会遇到以下问题：
+为了满足政府云客户的要求，政府版计划与商业版计划之间存在一些差异。 请参阅下表，了解每个政府环境中有哪些功能可用。
 
-* Power BI Gateway、Mobile 和 Desktop 无法进行身份验证
-* 无法访问 Azure 商业数据源
-* 必须从商业数据源手动上载 PBIX 文件
-* Power BI 移动应用不可用
-
-若要解决相关问题，请与你的客户代表联系。
-
-## <a name="frequently-asked-questions-faq-for-the-us-government-version-of-the-power-bi-service"></a>Power BI 服务的美国政府版本的常见问题 (FAQ)
-下面提供的问题（和解答）可帮助你快速获取所需的有关服务的信息。
-
-**问：** 如何将商业版的**Power BI** 数据迁移到适用于美国政府的 **Power BI 服务**？
-
-**答：** 你的管理员必须在单独的美国政府特定的订阅下创建 **Power BI** 的新实例。 然后，你可以在适用于美国政府的 **Power BI 服务**中复制你的商业数据、删除你的商业许可，以及将你的现有域关联到新的美国政府特定的服务。
-
-**问：** 为什么无法连接到特定的内容包？
-
-**答：** 你需要确保在连接到该内容包之前启用你的订阅。
-
-**问：** 我有兴趣为我的美国政府组织获得 **Power BI**。 如何开始？
-
-**答：** 根据你的现有许可证和订阅，注册（通常称为载入  ）过程可能会有所不同。 有关更多信息，请参阅[注册适用于美国政府的 Power BI](service-govus-signup.md) 一文。
-
-**问：** 用于连接到适用于美国政府的 **Power BI** 的 URL 是否与商业 **Power BI** URL 有所不同？ 政府社区云“高”级别 (GCC High) 客户的 URL 有所不同？
-
-**答：** 是的，URL 是不同的。 下表显示了每个 URL：
-
-| 商业版本 URL | 美国政府版本 URL | GCC High 的美国政府版 URL |
-| --- | --- | --- |
-| https://app.powerbi.com/ |[https://app.powerbigov.us](https://app.powerbigov.us) | [https://app.high.powerbigov.us](https://app.high.powerbigov.us) |
-
-**问：** 我的帐户在多个国家云中预配。 使用 **Power BI Desktop** 时，如何选择连接到什么云？
-
-**答：** 从 Power BI Desktop 2018 年 7 月版开始，可在登录 Power BI Desktop 时选择要使用的云   。
-
+|功能 |   |GCC |GCC-High |DoD|
+|------|------|------|------|------|
+|管理|免费许可证|不可用|不可用|不可用|
+|  |设置数据存储限制|可用|可用|可用|
+|  |使用 Active Directory 组进行共享和访问控制|可用|可用|可用|
+|  |通过 Office 365 安全和合规管理中心进行审核|可用|可用|可用|
+|  |外部用户共享|可用|可用|可用|
+|  |报表和仪表板的使用指标|不可用|不可用|不可用|
+|  |GCC 和商业云之间的 Azure B2B|不可用|不可用|不可用|
+|报表创建|创建和查看仪表板和报表|可用|可用|可用|
+|  |计划的数据刷新|可用|可用|可用|
+|  |可刷新的团队仪表板|可用|可用|可用|
+|  |分页报表|仅适用于 USGov 德克萨斯州和 USGov 弗吉尼亚州 |可用|在路线图上|
+|  |模板应用|不可用|不可用|不可用|
+|连接到数据|从 Excel 导入数据和报表|可用|可用|可用|
+|  |从 CSV 文件导入数据|可用|可用|可用|
+|  |从 Power BI Desktop 文件导入数据|可用|可用|可用|
+|  |与 CDS 的连接|不可用|不可用|不可用|
+|  |Azure Data Lake Storage Gen2 连接器|不可用|不可用|不可用|
+|数据管理|数据管理网关|可用|可用|可用|
+|  |Azure SQL 中的数据加密|可用|可用|可用|
+|  |Power BI Blob 存储中的数据加密|可用|可用|可用|
+|跨产品集成|使用 Power BI Web 部件在 SharePoint Online 中嵌入|不可用|不可用|不可用|
+|  |使用嵌入的 Web 部件在 SharePoint Online 中嵌入|可用|可用|可用|
+|  |数据流和 AI 函数|不可用|不可用|不可用|
+|  |用于数据驱动警报的 Power Automate 连接|不可用|不可用|不可用|
+|  |Teams 中 Power BI 选项卡|不可用|不可用|不可用|
+|  |自动化机器学习|不可用|不可用|不可用|
+|  |认知服务|不可用|不可用|不可用|
+|  |Azure ML|不可用|不可用|不可用|
 
 ## <a name="next-steps"></a>后续步骤
-你可以使用 Power BI 执行各种操作。 有关更多信息和学习资料（包括介绍如何注册服务的文章），请查看以下资源：
 
 * [注册适用于美国政府的 Power BI](service-govus-signup.md)
 * <a href="https://channel9.msdn.com/Blogs/Azure/Cognitive-Services-HDInsight-and-Power-BI-on-Azure-Government">Power BI 美国政府版演示</a>
-* [Power BI 的引导学习](guided-learning/index.yml)
 * [Power BI 服务入门](service-get-started.md)
 * [什么是 Power BI Desktop？](desktop-what-is-desktop.md)
 

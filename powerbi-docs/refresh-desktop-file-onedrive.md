@@ -7,15 +7,15 @@ ms.custom: seodec18
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 01/08/2020
+ms.date: 01/15/2020
 ms.author: davidi
 LocalizationGroup: Data refresh
-ms.openlocfilehash: ba911361ad2837a10f28358cbd1510effc1dd7eb
-ms.sourcegitcommit: 4b926ab5f09592680627dca1f0ba016b07a86ec0
+ms.openlocfilehash: b2a05f3112a9272d5e41cff20729c445c7a0ae39
+ms.sourcegitcommit: 0ae9328e7b35799d5d9613a6d79d2f86f53d9ab0
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/10/2020
-ms.locfileid: "75837642"
+ms.lasthandoff: 01/16/2020
+ms.locfileid: "76038544"
 ---
 # <a name="refresh-a-dataset-stored-on-onedrive-or-sharepoint-online"></a>刷新 OneDrive 或 SharePoint Online 上存储的数据集
 将 OneDrive 或 SharePoint Online 中的文件导入 Power BI 服务，可以有效确保在 Power BI Desktop 中所执行的操作与 Power BI 服务保持同步。
@@ -37,7 +37,7 @@ ms.locfileid: "75837642"
 对于通过从本地驱动器导入的 Power BI Desktop 文件创建的数据集，Power BI 支持“立即刷新”  和“计划刷新”  功能。在本地驱动器中，可使用“获取数据”  或“查询编辑器”  连接到以下数据源，并从以下数据源加载数据。
 
 > [!NOTE]
-> 支持 OneDrive 上导入的文件，但不支持将 OneDrive 中的实时连接数据集作为 OneDrive 刷新方案。
+> 支持对实时连接数据集进行 Onedrive 刷新。 但是，OneDrive 刷新方案不支持在已发布的报表中将实时连接数据集从一个数据集更改为另一个数据集。
 
 ### <a name="power-bi-gateway---personal"></a>Power BI Gateway - Personal
 * Power BI Desktop 的“获取数据”  和“查询编辑器”  中显示的所有联机数据源。

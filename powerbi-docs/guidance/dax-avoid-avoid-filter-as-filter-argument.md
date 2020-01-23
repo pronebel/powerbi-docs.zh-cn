@@ -8,12 +8,12 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 12/30/2019
 ms.author: v-pemyer
-ms.openlocfilehash: 935b453dabeaa731a218175526ddddeb980a2b92
-ms.sourcegitcommit: b09de56e971b8844a3771413d1f56d49b31baaaf
+ms.openlocfilehash: 6abcb77e3eb534e8b5d20c1d5567c117cbb97ffe
+ms.sourcegitcommit: 3d6b27e3936e451339d8c11e9af1a72c725a5668
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/07/2020
-ms.locfileid: "75692450"
+ms.lasthandoff: 01/17/2020
+ms.locfileid: "76161423"
 ---
 # <a name="dax-avoid-using-filter-as-a-filter-argument"></a>DAX：避免使用 FILTER 作为筛选器参数
 
@@ -36,13 +36,13 @@ CALCULATE(
 
 CALCULATE 函数接受 [FILTER ](/dax/filter-function-dax)DAX 函数返回的表表达式，该函数将为“产品”表的每一行计算其筛选器表达式  。 它得出了正确的结果 - 红色产品的销售量结果。 但是，使用布尔表达式可以更有效地实现此目的。
 
-下面是改进后的度量值定义，它使用布尔表达式而不是表表达式。
+下面是改进后的度量值定义，它使用布尔表达式而不是表表达式。 [KEEPFILTERS](/dax/keepfilters-function-dax) DAX 函数可确保任何应用到“颜色”  列的现有筛选器会保留，不会被覆盖。
 
 ```dax
 Red Sales =
 CALCULATE(
     [Sales],
-    'Product'[Color] = "Red"
+    KEEPFILTERS('Product'[Color] = "Red")
 )
 ```
 

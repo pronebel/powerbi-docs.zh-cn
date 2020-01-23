@@ -1,6 +1,6 @@
 ---
 title: Power BI 报表生成器中的表、矩阵和列表
-description: 在 Power BI 分页报表生成器中，表、矩阵和列表都是数据区域，它们在按行和列整理的单元格中显示分页报表数据。
+description: 在 Power BI Report Builder 中，表、矩阵和列表都是数据区域，它们在按行和列整理的单元格中显示分页报表数据。
 ms.date: 06/06/2019
 ms.service: powerbi
 ms.subservice: report-builder
@@ -8,12 +8,12 @@ ms.topic: conceptual
 ms.assetid: 9dcf3fc8-bf9c-4a14-a03d-e78254aa4098
 author: maggiesMSFT
 ms.author: maggies
-ms.openlocfilehash: f48187edc3d955b3b87f902a3056e86a933817e1
-ms.sourcegitcommit: 797bb40f691384cb1b23dd08c1634f672b4a82bb
+ms.openlocfilehash: 02ac131325dab59590cb88c524ace68a1226fc69
+ms.sourcegitcommit: df8bcc65f0df69bf1fc1d47eb06575742eac1622
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/12/2019
-ms.locfileid: "66840202"
+ms.lasthandoff: 01/15/2020
+ms.locfileid: "75953842"
 ---
 # <a name="tables-matrixes-and-lists-in-power-bi-report-builder"></a>Power BI 报表生成器中的表、矩阵和列表
  在报表生成器中，表、矩阵和列表都是数据区域，它们在按行和列整理的单元格中显示分页报表数据。  。 单元格通常包含文本、日期和数字等文本数据，但它们也可以包含仪表、图表或图像等报表项。 表、矩阵和列表通常称为 tablix 数据区域。  。  
