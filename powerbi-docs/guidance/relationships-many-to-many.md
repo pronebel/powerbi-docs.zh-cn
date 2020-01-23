@@ -8,12 +8,12 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 11/25/2019
 ms.author: v-pemyer
-ms.openlocfilehash: becde542f68b2f9fb1412a904793f46a8f154856
-ms.sourcegitcommit: 4359baa43ca01b179d28ec59f4e61ba8c07ee288
+ms.openlocfilehash: 6ce82516413fe43cfbc1336e2f6f51003277fb4a
+ms.sourcegitcommit: 3d6b27e3936e451339d8c11e9af1a72c725a5668
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/20/2019
-ms.locfileid: "75308240"
+ms.lasthandoff: 01/17/2020
+ms.locfileid: "76161285"
 ---
 # <a name="many-to-many-relationship-guidance"></a>多对多关系指导
 
@@ -82,7 +82,7 @@ ms.locfileid: "75308240"
 - 帐户 02 的余额为 200
 - 总计为 275
 
-第二个视觉对象的标题为 **“Customer Balance”** ，其中包含以下两列：“Customer”和“Amount”   。 显示结果如下：
+第二个视觉对象的标题为“**Customer Balance**”，其中包含以下两列：“Customer”和“Amount”   。 显示结果如下：
 
 - 客户 91 的余额为 275
 - 客户 92 的余额为 275
@@ -120,7 +120,7 @@ ms.locfileid: "75308240"
 - 添加桥接表以存储关联的实体
 - 在三个表之间创建一对多关系
 - 配置一个双向关系以允许筛选器继续传播到事实类型表 
-- 当不适合具有缺失 ID 值时，可将 ID 列的“Is Nullable”属性设置为 TRUE - 如果获取缺失值，数据刷新将失败 
+- 当不适合具有缺失 ID 值时，可将 ID 列的“Is Nullable”  属性设置为 FALSE - 如果获取缺失值，数据刷新将失败
 - 隐藏桥接表（除非它包含报表所需的其他列或度量值）
 - 隐藏不适用于报表的任何 ID 列（例如，ID 是代理键时）
 - 如果需要显示 ID 列，请确保它位于关系的“一”侧（始终隐藏“多”侧列）。 这样可使筛选器的性能达到最佳。
@@ -229,7 +229,7 @@ IF(
 )
 ```
 
-以下矩阵现在使用“Target Quantity”度量值  。 它显示所有每月目标数量均为空白。
+以下矩阵现在使用“**Target Quantity**”度量值。 它显示所有每月目标数量均为空白。
 
 ![矩阵视觉对象显示 2020 年的目标数量为 270。 展开以显示 2020 的月份时，每个月份级别的目标数量都为空白。](media/relationships-many-to-many/sales-targets-model-matrix-blank-months-good.png)
 
@@ -273,7 +273,7 @@ IF(
 )
 ```
 
-以下表视觉对象现在使用“Target Quantity”度量值  。 它显示所有颜色目标数量均为空白。
+以下表视觉对象现在使用“**Target Quantity**”度量值。 它显示所有颜色目标数量均为空白。
 
 ![表视觉对象有两列：“Color”和“TargetQuantity”。 蓝色为空白，绿色为空白，总数为 100。](media/relationships-many-to-many/sales-targets-model-visual-color-targets-good.png)
 
