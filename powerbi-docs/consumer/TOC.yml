@@ -176,8 +176,8 @@
               href: mobile/mobile-share-dashboard-from-the-mobile-apps.md
             - name: 移动应用中的收藏夹
               href: mobile/mobile-apps-favorites.md
-            - name: 在移动应用中配置报告交互（仅限手机）
-              href: mobile/mobile-app-single-tap.md
+            - name: 配置交互设置（仅限手机）
+              href: mobile/mobile-app-interaction-settings.md
             - name: 在 Power BI 移动应用中设置数据警报
               href: mobile/mobile-set-data-alerts-in-the-mobile-apps.md
             - name: 获取 Power BI 移动应用中的通知
