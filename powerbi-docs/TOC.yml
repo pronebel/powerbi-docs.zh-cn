@@ -961,16 +961,18 @@
       items:
         - name: 新增功能
           href: report-server/whats-new.md
+        - name: 管理员概述
+          href: report-server/admin-handbook-overview.md
         - name: 更改日志
           href: report-server/changelog.md
         - name: 支持时间线
           href: report-server/support-timeline.md
+        - name: Always Encrypted 支持
+          href: report-server/always-encrypted-support.md
         - name: 硬件和软件要求
           href: report-server/system-requirements.md
         - name: 浏览器支持
           href: report-server/browser-support.md
-        - name: 管理员概述
-          href: report-server/admin-handbook-overview.md
         - name: 报表服务器基本信息
           items:
             - name: Power BI 报表计划刷新

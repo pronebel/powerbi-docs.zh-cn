@@ -7,13 +7,13 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
-ms.date: 07/23/2019
-ms.openlocfilehash: aeb47f7f2a6e2de7c8c5095561819367ab16a7e9
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.date: 01/21/2020
+ms.openlocfilehash: 7b8c106f13df381152b6323cf1263747a3064709
+ms.sourcegitcommit: 02342150eeab52b13a37b7725900eaf84de912bc
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73873943"
+ms.lasthandoff: 01/23/2020
+ms.locfileid: "76540558"
 ---
 # <a name="hardware-and-software-requirements-for-installing-power-bi-report-server"></a>安装 Power BI 报表服务器所要满足的硬件和软件要求
 
@@ -38,6 +38,7 @@ ms.locfileid: "73873943"
 
 SQL Server 用于托管报表服务器数据库。 SQL Server 数据库引擎实例可以是本地或远程实例。 以下是可用于托管报表服务器数据的 SQL Server 数据库引擎受支持的版本：
 
+* SQL Server 2019
 * SQL Server 2017
 * SQL Server 2016
 * SQL Server 2014

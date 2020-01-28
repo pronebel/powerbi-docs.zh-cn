@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 07/25/2019
 ms.author: maggies
 LocalizationGroup: Dashboards
-ms.openlocfilehash: a012320a12d2516cb24dc92f2472e3c49ce9081e
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 0c9e3db46c66fcd440ebd304370d31539dd5c5c7
+ms.sourcegitcommit: 313a5a6a01c09038a6152d681103accbd2faf437
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73853518"
+ms.lasthandoff: 01/20/2020
+ms.locfileid: "76282042"
 ---
 # <a name="add-images-videos-and-more-to-your-dashboard"></a>向仪表板添加图像、视频等
 
@@ -118,15 +118,13 @@ ms.locfileid: "73853518"
 你可以使用 PubNub 将流数据（例如 Twitter 订阅源或传感器数据）添加到仪表板中的磁贴。 Power BI 已经创建了一个集成来从 PubNub 获取数据。 这里将介绍它的工作原理。
    
 
-你可以使用 PubNub 将流数据（例如 Twitter 订阅源或传感器数据）添加到仪表板中的磁贴。 Power BI 已经创建了一个集成来从 PubNub 获取数据。 这里将介绍它的工作原理。 
-
 <iframe width="560" height="315" src="https://www.youtube.com/embed/kOuINwgkEkQ" frameborder="0" allowfullscreen></iframe>
 
 1. 在“添加磁贴”窗口中，选择“自定义流数据” > “下一步”    。
 2. 选择“添加流数据集”  。
 3. 使用 Power BI API 或 PubNub 创建“新的流数据集”  。
 4. 填写“数据集名称”、“订阅密钥”和“频道名称”字段    。 如果它是安全连接，还会有授权密钥。 你可以使用 PubNub 中的示例值进行试用。
-5. 选择**下一步**。
+5. 选择“下一步”  。
     你会看到数据集中可用的字段及其数据类型和 JSON 格式。
 6. 选择“连接”  。
     你已创建流数据集。
@@ -135,7 +133,7 @@ ms.locfileid: "73853518"
 9. 选择所需的视觉对象类型。 通常，此类数据适合使用折线图。
 10. 选择“轴”、“图例”和“值”    。
 11. 确定要显示的时间量，以秒、分钟或小时为单位。
-12. 选择**下一步**。
+12. 选择“下一步”  。
 13. 如果需要，可为其提供“标题”和“副标题”   。
 14. 将其固定到仪表板。
 
@@ -148,7 +146,7 @@ ms.locfileid: "73853518"
 
 4. 填写“数据集名称”、“订阅密钥”和“频道名称”字段    。 如果它是安全连接，还会有授权密钥。 你可以使用 PubNub 中的示例值进行试用。
 
-5. 选择**下一步**。
+5. 选择“下一步”  。
 
    你会看到数据集中可用的字段及其数据类型和 JSON 格式。
 
@@ -166,7 +164,7 @@ ms.locfileid: "73853518"
 
 11. 确定要显示的时间量，以秒、分钟或小时为单位。
 
-12. 选择**下一步**。
+12. 选择“下一步”  。
 
 13. （可选）为其提供“标题”和“副标题”   。
 
