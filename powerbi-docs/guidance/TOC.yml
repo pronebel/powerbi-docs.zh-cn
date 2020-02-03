@@ -32,6 +32,8 @@
               href: relationships-many-to-many.md
             - name: DirectQuery 模型指南
               href: directquery-model-guidance.md
+            - name: 复合模型指导
+              href: composite-model-guidance.md
         - name: DAX
           items:
             - name: DIVIDE 函数与除法运算符 (/)
@@ -50,8 +52,6 @@
               href: dax-column-measure-references.md
             - name: 避免使用 FILTER 作为筛选器参数
               href: dax-avoid-avoid-filter-as-filter-argument.md
-        - name: 报表创建
-          items:
             - name: 用报表页工具提示扩展视觉对象
               href: report-page-tooltips.md
             - name: 使用报表页钻取
@@ -64,6 +64,10 @@
               href: report-paginated-blank-page.md
             - name: 将 SSRS 报表迁移到 Power BI
               href: migrate-ssrs-reports-to-power-bi.md
+        - name: 管理和部署
+          items:
+            - name: 本地数据网关大小调整
+              href: gateway-onprem-sizing.md
     - name: 白皮书
       items:
         - name: 白皮书概述

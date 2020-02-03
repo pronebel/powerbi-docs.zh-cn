@@ -489,8 +489,10 @@
               href: service-new-workspaces.md
             - name: 共享工作
               href: service-how-to-collaborate-distribute-dashboards-reports.md
-            - name: 监视 Power BI 使用情况
+            - name: 在经典工作区中监视使用情况
               href: service-usage-metrics.md
+            - name: 在新工作区中监视使用情况
+              href: service-modern-usage-metrics.md
         - name: 许可
           items:
             - name: 注册 Power BI
@@ -645,8 +647,6 @@
               href: service-create-qr-code-for-report.md
             - name: 将报表导出到 Power BI Desktop（预览）
               href: service-export-to-pbix.md
-            - name: 使用 URL 参数筛选报表
-              href: service-url-filters.md
             - name: 编辑 SAP 变量
               href: service-edit-sap-variables.md
             - name: 生成快速可靠报表的最佳做法
@@ -691,8 +691,10 @@
           items:
             - name: 共享仪表板和报表
               href: service-share-dashboards.md
-            - name: 共享筛选报表
+            - name: 筛选和共享报表
               href: service-share-reports.md
+            - name: 使用 URL 参数筛选报表
+              href: service-url-filters.md
             - name: 自己和他人订阅
               href: service-report-subscribe.md
             - name: 在 SharePoint Online 中嵌入报表
