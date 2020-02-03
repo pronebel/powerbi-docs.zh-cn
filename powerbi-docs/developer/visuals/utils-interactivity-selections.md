@@ -1,20 +1,20 @@
 ---
 title: Power BI 视觉对象交互 utils
 description: 本文介绍如何通过使用交互 utils 向 Power BI 视觉对象添加选择
-author: zBritva
-ms.author: v-ilgali
+author: KesemSharabi
+ms.author: kesharab
+ms.reviewer: rkarlin
 manager: rkarlin
-ms.reviewer: sranins
 ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: conceptual
 ms.date: 06/18/2019
-ms.openlocfilehash: e2587140d5436552e26be90c67eb5e6240bf6a1d
-ms.sourcegitcommit: f77b24a8a588605f005c9bb1fdad864955885718
+ms.openlocfilehash: be7a708dfcc6ebc40c62a1a9075e2cbf134363b1
+ms.sourcegitcommit: 0cc594ebb78a6d0e88784673ed09f8aefd10c7a7
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/02/2019
-ms.locfileid: "74696131"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "76818677"
 ---
 # <a name="microsoft-power-bi-visuals-interactivity-utils"></a>Microsoft Power BI 视觉对象交互 utils
 

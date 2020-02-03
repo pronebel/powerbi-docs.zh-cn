@@ -1,20 +1,20 @@
 ---
 title: 关于在 Power BI 视觉对象中使用数据视图 utils 的简介
 description: 本文介绍如何使用 SVG utils 简化对 Power BI 视觉对象的 DataView 对象的解析
-author: vtkalek
-ms.author: asander
-manager: asander
+author: KesemSharabi
+ms.author: kesharab
+manager: rkarlin
 ms.reviewer: sranins
 ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: conceptual
 ms.date: 06/18/2019
-ms.openlocfilehash: 16dc3c6ec1125f85282670091bc41057ae5b1112
-ms.sourcegitcommit: 4359baa43ca01b179d28ec59f4e61ba8c07ee288
+ms.openlocfilehash: 79ad33a632a1f4935f462bcde0d36f2ccc55a2bd
+ms.sourcegitcommit: 0cc594ebb78a6d0e88784673ed09f8aefd10c7a7
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/20/2019
-ms.locfileid: "75308654"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "76818976"
 ---
 # <a name="dataviewutils"></a>DataViewUtils
 
@@ -40,7 +40,7 @@ npm install powerbi-visuals-utils-dataviewutils --save 此命令安装包并将�
 function getMeasureIndexOfRole(grouped: DataViewValueColumnGroup[], roleName: string): number;
 ```
 
-示例:
+示例：
 
 ```typescript
 import powerbi from "powerbi-visuals-api";
@@ -85,7 +85,7 @@ dataRoleHelper.getMeasureIndexOfRole(columnGroup, "product");
 function getCategoryIndexOfRole(categories: DataViewCategoryColumn[], roleName: string): number;
 ```
 
-示例:
+示例：
 
 ```typescript
 import powerbi from "powerbi-visuals-api";
@@ -128,7 +128,7 @@ dataRoleHelper.getCategoryIndexOfRole(categoryGroup, "product");
 function hasRole(column: DataViewMetadataColumn, name: string): boolean;
 ```
 
-示例:
+示例：
 
 ```typescript
 import powerbi from "powerbi-visuals-api";
@@ -156,7 +156,7 @@ DataRoleHelper.hasRole(metadata, "company");
 function hasRoleInDataView(dataView: DataView, name: string): boolean;
 ```
 
-示例:
+示例：
 
 ```typescript
 import powerbi from "powerbi-visuals-api";
@@ -196,7 +196,7 @@ DataRoleHelper.hasRoleInDataView(dataView, "product");
 function hasRoleInValueColumn(valueColumn: DataViewValueColumn, name: string): boolean;
 ```
 
-示例:
+示例：
 
 ```typescript
 import powerbi from "powerbi-visuals-api";
@@ -233,7 +233,7 @@ dataRoleHelper.hasRoleInValueColumn(valueColumn, "company");
 function getValue<T>(objects: DataViewObjects, propertyId: DataViewObjectPropertyIdentifier, defaultValue?: T): T;
 ```
 
-示例:
+示例：
 
 ```typescript
 import powerbi from "powerbi-visuals-api";
@@ -266,7 +266,7 @@ dataViewObjects.getValue(objects, property);
 function getObject(objects: DataViewObjects, objectName: string, defaultValue?: IDataViewObject): IDataViewObject;
 ```
 
-示例:
+示例：
 
 ```typescript
 import { dataViewObjects } from "powerbi-visuals-utils-dataviewutils";
@@ -296,7 +296,7 @@ dataViewObjects.getObject(objects, "microsoft");
 function getFillColor(objects: DataViewObjects, propertyId: DataViewObjectPropertyIdentifier, defaultColor?: string): string;
 ```
 
-示例:
+示例：
 
 ```typescript
 import powerbi from "powerbi-visuals-api";
@@ -333,7 +333,7 @@ dataViewObjects.getFillColor(objects, property);
 function getCommonValue(objects: DataViewObjects, propertyId: DataViewObjectPropertyIdentifier, defaultValue?: any): any;
 ```
 
-示例:
+示例：
 
 ```typescript
 import powerbi from "powerbi-visuals-api";
@@ -380,7 +380,7 @@ dataViewObjects.getCommonValue(objects, biProperty); // returns: Power
 function getValue<T>(object: IDataViewObject, propertyName: string, defaultValue?: T): T;
 ```
 
-示例:
+示例：
 
 ```typescript
 import { dataViewObject } from "powerbi-visuals-utils-dataviewutils";
@@ -404,7 +404,7 @@ dataViewObject.getValue(object, "microsoft");
 function getFillColorByPropertyName(object: IDataViewObject, propertyName: string, defaultColor?: string): string;
 ```
 
-示例:
+示例：
 
 ```typescript
 import { dataViewObject } from "powerbi-visuals-utils-dataviewutils";
@@ -438,7 +438,7 @@ dataViewObject.getFillColorByPropertyName(object, "fillColor");
 function categoryIsAlsoSeriesRole(dataView: DataViewCategorical, seriesRoleName: string, categoryRoleName: string): boolean;
 ```
 
-示例:
+示例：
 
 ```typescript
 import powerbi from "powerbi-visuals-api";
@@ -474,7 +474,7 @@ converterHelper.categoryIsAlsoSeriesRole(categorical, "power", "bi");
 function getSeriesName(source: DataViewMetadataColumn): PrimitiveValue;
 ```
 
-示例:
+示例：
 
 ```typescript
 import powerbi from "powerbi-visuals-api";
@@ -504,7 +504,7 @@ converterHelper.getSeriesName(metadata);
 function isImageUrlColumn(column: DataViewMetadataColumn): boolean;
 ```
 
-示例:
+示例：
 
 ```typescript
 import powerbi from "powerbi-visuals-api";
@@ -534,7 +534,7 @@ converterHelper.isImageUrlColumn(metadata);
 function isWebUrlColumn(column: DataViewMetadataColumn): boolean;
 ```
 
-示例:
+示例：
 
 ```typescript
 import powerbi from "powerbi-visuals-api";
@@ -564,7 +564,7 @@ converterHelper.isWebUrlColumn(metadata);
 function hasImageUrlColumn(dataView: DataView): boolean;
 ```
 
-示例:
+示例：
 
 ```typescript
 import DataView = powerbi.DataView;
@@ -608,7 +608,7 @@ converterHelper.hasImageUrlColumn(dataView);
 static getDefault(): DataViewObjectsParser;
 ```
 
-示例:
+示例：
 
 ```typescript
 import { dataViewObjectsParser } from "powerbi-visuals-utils-dataviewutils";
@@ -627,7 +627,7 @@ dataViewObjectsParser.getDefault();
 static parse<T extends DataViewObjectsParser>(dataView: DataView): T;
 ```
 
-示例:
+示例：
 
 ```typescript
 import powerbi from "powerbi-visuals-api";
@@ -675,7 +675,7 @@ export class YourVisual extends IVisual {
 static enumerateObjectInstances(dataViewObjectParser: dataViewObjectsParser.DataViewObjectsParser, options: EnumerateVisualObjectInstancesOptions): VisualObjectInstanceEnumeration;
 ```
 
-示例:
+示例：
 
 ```typescript
 import powerbi from "powerbi-visuals-api";

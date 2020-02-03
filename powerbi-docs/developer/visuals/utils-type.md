@@ -1,20 +1,20 @@
 ---
 title: 关于在 Power BI 视觉对象中使用类型 utils 的简介
 description: 本文介绍如何使用 SVG utils 扩展 Power BI 视觉对象的基本类型
-author: vtkalek
-ms.author: asander
-manager: asander
+author: KesemSharabi
+ms.author: kesharab
+manager: rkarlin
 ms.reviewer: sranins
 ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: conceptual
 ms.date: 06/18/2019
-ms.openlocfilehash: 16645dc70cc236f809a2f2977a2b2fc1a048c254
-ms.sourcegitcommit: 4359baa43ca01b179d28ec59f4e61ba8c07ee288
+ms.openlocfilehash: 206fda4e64dd13782753bfd067c962b3079bb4ff
+ms.sourcegitcommit: 0cc594ebb78a6d0e88784673ed09f8aefd10c7a7
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/20/2019
-ms.locfileid: "75308539"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "76818723"
 ---
 # <a name="type-utils"></a>类型 utils
 
@@ -26,7 +26,7 @@ TypeUtils 是一组函数和类，用于扩展 Power BI 视觉对象的基本类
 
 npm install powerbi-visuals-utils-typeutils --save 此命令用于安装包并将包作为依赖项添加到 package.json
 
-## <a name="double"></a>双精度
+## <a name="double"></a>Double
 
 `Double` 提供操纵数值精度的能力。
 
@@ -40,7 +40,7 @@ npm install powerbi-visuals-utils-typeutils --save 此命令用于安装包并�
 function pow10(exp: number): number;
 ```
 
-示例:
+示例：
 
 ```typescript
 import { double } from "powerbi-visuals-utils-typeutils";
@@ -59,7 +59,7 @@ double.pow10(25);
 function log10(val: number): number;
 ```
 
-示例:
+示例：
 
 ```typescript
 import { double } from "powerbi-visuals-utils-typeutils";
@@ -78,7 +78,7 @@ double.log10(25);
 function getPrecision(x: number, decimalDigits?: number): number;
 ```
 
-示例:
+示例：
 
 ```typescript
 import { double } from "powerbi-visuals-utils-typeutils";
@@ -97,7 +97,7 @@ double.getPrecision(562344, 6);
 function equalWithPrecision(x: number, y: number, precision?: number): boolean;
 ```
 
-示例:
+示例：
 
 ```typescript
 import { double } from "powerbi-visuals-utils-typeutils";
@@ -116,7 +116,7 @@ double.equalWithPrecision(1, 1.005, 0.01);
 function lessWithPrecision(x: number, y: number, precision?: number): boolean;
 ```
 
-示例:
+示例：
 
 ```typescript
 import { double } from "powerbi-visuals-utils-typeutils";
@@ -135,7 +135,7 @@ double.lessWithPrecision(0.995, 1, 0.001);
 function lessOrEqualWithPrecision(x: number, y: number, precision?: number): boolean;
 ```
 
-示例:
+示例：
 
 ```typescript
 import { double } from "powerbi-visuals-utils-typeutils";
@@ -154,7 +154,7 @@ double.lessOrEqualWithPrecision(1.005, 1, 0.01);
 function greaterWithPrecision(x: number, y: number, precision?: number): boolean;
 ```
 
-示例:
+示例：
 
 ```typescript
 import { double } from "powerbi-visuals-utils-typeutils";
@@ -173,7 +173,7 @@ double.greaterWithPrecision(1, 0.995, 0.01);
 function greaterOrEqualWithPrecision(x: number, y: number, precision?: number): boolean;
 ```
 
-示例:
+示例：
 
 ```typescript
 import { double } from "powerbi-visuals-utils-typeutils";
@@ -192,7 +192,7 @@ double.greaterOrEqualWithPrecision(1, 1.005, 0.01);
 function floorWithPrecision(x: number, precision?: number): number;
 ```
 
-示例:
+示例：
 
 ```typescript
 import { double } from "powerbi-visuals-utils-typeutils";
@@ -211,7 +211,7 @@ double.floorWithPrecision(5.96, 0.001);
 function ceilWithPrecision(x: number, precision?: number): number;
 ```
 
-示例:
+示例：
 
 ```typescript
 import { double } from "powerbi-visuals-utils-typeutils";
@@ -230,7 +230,7 @@ double.ceilWithPrecision(5.06, 0.001);
 function floorToPrecision(x: number, precision?: number): number;
 ```
 
-示例:
+示例：
 
 ```typescript
 import { double } from "powerbi-visuals-utils-typeutils";
@@ -249,7 +249,7 @@ double.floorToPrecision(5.96, 0.1);
 function ceilToPrecision(x: number, precision?: number): number;
 ```
 
-示例:
+示例：
 
 ```typescript
 import { double } from "powerbi-visuals-utils-typeutils";
@@ -268,7 +268,7 @@ double.ceilToPrecision(-506, 10);
 function roundToPrecision(x: number, precision?: number): number;
 ```
 
-示例:
+示例：
 
 ```typescript
 import { double } from "powerbi-visuals-utils-typeutils";
@@ -287,7 +287,7 @@ double.roundToPrecision(596, 10);
 function ensureInRange(x: number, min: number, max: number): number;
 ```
 
-示例:
+示例：
 
 ```typescript
 import { double } from "powerbi-visuals-utils-typeutils";
@@ -306,7 +306,7 @@ double.ensureInRange(-27.2, -10, -5);
 function round(x: number): number;
 ```
 
-示例:
+示例：
 
 ```typescript
 import { double } from "powerbi-visuals-utils-typeutils";
@@ -325,7 +325,7 @@ double.round(27.45);
 function removeDecimalNoise(value: number): number;
 ```
 
-示例:
+示例：
 
 ```typescript
 import { double } from "powerbi-visuals-utils-typeutils";
@@ -344,7 +344,7 @@ double.removeDecimalNoise(21.493000000000002);
 function isInteger(value: number): boolean;
 ```
 
-示例:
+示例：
 
 ```typescript
 import { double } from "powerbi-visuals-utils-typeutils";
@@ -363,7 +363,7 @@ double.isInteger(21.493000000000002);
 function toIncrement(value: number, increment: number): number;
 ```
 
-示例:
+示例：
 
 ```typescript
 import { double } from "powerbi-visuals-utils-typeutils";
@@ -388,7 +388,7 @@ double.toIncrement(0.6383723, 0.05);
 function inherit<T>(obj: T, extension?: (inherited: T) => void): T;
 ```
 
-示例:
+示例：
 
 ```typescript
 import { prototype } from "powerbi-visuals-utils-typeutils";
@@ -413,7 +413,7 @@ prototype.inherit(base);
 function inheritSingle<T>(obj: T): T;
 ```
 
-示例:
+示例：
 
 ```typescript
 import { prototype } from "powerbi-visuals-utils-typeutils";
@@ -444,7 +444,7 @@ prototype.inheritSingle(base);
 function toString(px: number): string;
 ```
 
-示例:
+示例：
 
 ```typescript
 import { pixelConverter } from "powerbi-visuals-utils-typeutils";
@@ -463,7 +463,7 @@ pixelConverter.toString(25);
 function fromPoint(pt: number): string;
 ```
 
-示例:
+示例：
 
 ```typescript
 import { pixelConverter } from "powerbi-visuals-utils-typeutils";
@@ -482,7 +482,7 @@ pixelConverter.fromPoint(8);
 function fromPointToPixel(pt: number): number;
 ```
 
-示例:
+示例：
 
 ```typescript
 import { pixelConverter } from "powerbi-visuals-utils-typeutils";
@@ -501,7 +501,7 @@ pixelConverter.fromPointToPixel(8);
 function toPoint(px: number): number;
 ```
 
-示例:
+示例：
 
 ```typescript
 import { pixelConverter } from "powerbi-visuals-utils-typeutils";

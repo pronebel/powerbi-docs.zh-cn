@@ -1,20 +1,20 @@
 ---
 title: 关于在 Power BI 视觉对象中使用 SVG utils 的简介
 description: 本文介绍如何使用 SVG utils 简化 Power BI 自定义视觉对象的 SVG 操作
-author: vtkalek
-ms.author: asander
-manager: asander
+author: KesemSharabi
+ms.author: kesharab
+manager: rkarlin
 ms.reviewer: sranins
 ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: conceptual
 ms.date: 06/18/2019
-ms.openlocfilehash: 15398c0e8d7322e29c502f49b8c1ea0798f52afe
-ms.sourcegitcommit: 4359baa43ca01b179d28ec59f4e61ba8c07ee288
+ms.openlocfilehash: 612c253e53cdaec5819387548354595c8bd94fa0
+ms.sourcegitcommit: 0cc594ebb78a6d0e88784673ed09f8aefd10c7a7
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/20/2019
-ms.locfileid: "75308516"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "76819298"
 ---
 # <a name="svg-utils"></a>SVG utils
 
@@ -53,7 +53,7 @@ interface ClassAndSelector {
 function createClassAndSelector(className: string): ClassAndSelector;
 ```
 
-示例:
+示例：
 
 ```typescript
 import { CssConstants } from "powerbi-visuals-utils-svgutils";
@@ -80,7 +80,7 @@ divSelector.class === "sample-block"; // returns: true
 function translate(x: number, y: number): string;
 ```
 
-示例:
+示例：
 
 ```typescript
 import { manipulation } from "powerbi-visuals-utils-svgutils";
@@ -99,7 +99,7 @@ manipulation.translate(100, 100);
 function translateXWithPixels(x: number): string;
 ```
 
-示例:
+示例：
 
 ```typescript
 import { manipulation } from "powerbi-visuals-utils-svgutils";
@@ -118,7 +118,7 @@ manipulation.translateXWithPixels(100);
 function translateWithPixels(x: number, y: number): string;
 ```
 
-示例:
+示例：
 
 ```typescript
 import { manipulation } from "powerbi-visuals-utils-svgutils";
@@ -143,7 +143,7 @@ function translateAndRotate(
 ): string;
 ```
 
-示例:
+示例：
 
 ```typescript
 import { manipulation } from "powerbi-visuals-utils-svgutils";
@@ -162,7 +162,7 @@ manipulation.translateAndRotate(100, 100, 50, 50, 35);
 function scale(scale: number): string;
 ```
 
-示例:
+示例：
 
 ```typescript
 import { manipulation } from "powerbi-visuals-utils-svgutils";
@@ -181,7 +181,7 @@ manipulation.scale(50);
 function transformOrigin(xOffset: string, yOffset: string): string;
 ```
 
-示例:
+示例：
 
 ```typescript
 import { manipulation } from "powerbi-visuals-utils-svgutils";
@@ -200,7 +200,7 @@ manipulation.transformOrigin(5, 5);
 function flushAllD3Transitions(): void;
 ```
 
-示例:
+示例：
 
 ```typescript
 import { manipulation } from "powerbi-visuals-utils-svgutils";
@@ -219,7 +219,7 @@ manipulation.flushAllD3Transitions();
 function parseTranslateTransform(input: string): { x: string; y: string };
 ```
 
-示例:
+示例：
 
 ```typescript
 import { manipulation } from "powerbi-visuals-utils-svgutils";
@@ -242,7 +242,7 @@ function createArrow(
 ): { path: string; transform: string };
 ```
 
-示例:
+示例：
 
 ```typescript
 import { manipulation } from "powerbi-visuals-utils-svgutils";
@@ -270,7 +270,7 @@ manipulation.createArrow(10, 20, 5);
 function getOffset(rect: IRect): IPoint;
 ```
 
-示例:
+示例：
 
 ```typescript
 import { shapes } from "powerbi-visuals-utils-svgutils";
@@ -293,7 +293,7 @@ Rect.getOffset({ left: 25, top: 25, width: 100, height: 100 });
 function getSize(rect: IRect): ISize;
 ```
 
-示例:
+示例：
 
 ```typescript
 import { shapes } from "powerbi-visuals-utils-svgutils";
@@ -316,7 +316,7 @@ Rect.getSize({ left: 25, top: 25, width: 100, height: 100 });
 function setSize(rect: IRect, value: ISize): void;
 ```
 
-示例:
+示例：
 
 ```typescript
 import { shapes } from "powerbi-visuals-utils-svgutils";
@@ -338,7 +338,7 @@ Rect.setSize(rectangle, { width: 250, height: 250 });
 function right(rect: IRect): number;
 ```
 
-示例:
+示例：
 
 ```typescript
 import { shapes } from "powerbi-visuals-utils-svgutils";
@@ -358,7 +358,7 @@ Rect.right({ left: 25, top: 25, width: 100, height: 100 });
 function bottom(rect: IRect): number;
 ```
 
-示例:
+示例：
 
 ```typescript
 import { shapes } from "powerbi-visuals-utils-svgutils";
@@ -378,7 +378,7 @@ Rect.bottom({ left: 25, top: 25, width: 100, height: 100 });
 function topLeft(rect: IRect): IPoint;
 ```
 
-示例:
+示例：
 
 ```typescript
 import { shapes } from "powerbi-visuals-utils-svgutils";
@@ -398,7 +398,7 @@ Rect.topLeft({ left: 25, top: 25, width: 100, height: 100 });
 function topRight(rect: IRect): IPoint;
 ```
 
-示例:
+示例：
 
 ```typescript
 import { shapes } from "powerbi-visuals-utils-svgutils";
@@ -418,7 +418,7 @@ Rect.topRight({ left: 25, top: 25, width: 100, height: 100 });
 function bottomLeft(rect: IRect): IPoint;
 ```
 
-示例:
+示例：
 
 ```typescript
 import { shapes } from "powerbi-visuals-utils-svgutils";
@@ -458,7 +458,7 @@ Rect.bottomRight({ left: 25, top: 25, width: 100, height: 100 });
 function clone(rect: IRect): IRect;
 ```
 
-示例:
+示例：
 
 ```typescript
 import { shapes } from "powerbi-visuals-utils-svgutils";
@@ -480,7 +480,7 @@ Rect.clone({ left: 25, top: 25, width: 100, height: 100 });
 function toString(rect: IRect): string;
 ```
 
-示例:
+示例：
 
 ```typescript
 import { shapes } from "powerbi-visuals-utils-svgutils";
@@ -500,7 +500,7 @@ Rect.toString({ left: 25, top: 25, width: 100, height: 100 });
 function offset(rect: IRect, offsetX: number, offsetY: number): IRect;
 ```
 
-示例:
+示例：
 
 ```typescript
 import { shapes } from "powerbi-visuals-utils-svgutils";
@@ -525,7 +525,7 @@ Rect.offset({ left: 25, top: 25, width: 100, height: 100 }, 50, 50);
 function add(rect: IRect, rect2: IRect): IRect;
 ```
 
-示例:
+示例：
 
 ```typescript
 import { shapes } from "powerbi-visuals-utils-svgutils";
@@ -553,7 +553,7 @@ Rect.add(
 function getClosestPoint(rect: IRect, x: number, y: number): IPoint;
 ```
 
-示例:
+示例：
 
 ```typescript
 import { shapes } from "powerbi-visuals-utils-svgutils";
@@ -576,7 +576,7 @@ Rect.getClosestPoint({ left: 0, top: 0, width: 100, height: 100 }, 50, 50);
 function equal(rect1: IRect, rect2: IRect): boolean;
 ```
 
-示例:
+示例：
 
 ```typescript
 import { shapes } from "powerbi-visuals-utils-svgutils";
@@ -599,7 +599,7 @@ Rect.equal(
 function equalWithPrecision(rect1: IRect, rect2: IRect): boolean;
 ```
 
-示例:
+示例：
 
 ```typescript
 import { shapes } from "powerbi-visuals-utils-svgutils";
@@ -622,7 +622,7 @@ Rect.equalWithPrecision(
 function isEmpty(rect: IRect): boolean;
 ```
 
-示例:
+示例：
 
 ```typescript
 import { shapes } from "powerbi-visuals-utils-svgutils";
@@ -642,7 +642,7 @@ Rect.isEmpty({ left: 0, top: 0, width: 0, height: 0 });
 function containsPoint(rect: IRect, point: IPoint): boolean;
 ```
 
-示例:
+示例：
 
 ```typescript
 import { shapes } from "powerbi-visuals-utils-svgutils";
@@ -665,7 +665,7 @@ Rect.containsPoint(
 function isIntersecting(rect1: IRect, rect2: IRect): boolean;
 ```
 
-示例:
+示例：
 
 ```typescript
 import { shapes } from "powerbi-visuals-utils-svgutils";
@@ -688,7 +688,7 @@ Rect.isIntersecting(
 function intersect(rect1: IRect, rect2: IRect): IRect;
 ```
 
-示例:
+示例：
 
 ```typescript
 import { shapes } from "powerbi-visuals-utils-svgutils";
@@ -716,7 +716,7 @@ Rect.intersect(
 function combine(rect1: IRect, rect2: IRect): IRect;
 ```
 
-示例:
+示例：
 
 ```typescript
 import { shapes } from "powerbi-visuals-utils-svgutils";
@@ -744,7 +744,7 @@ Rect.combine(
 function getCentroid(rect: IRect): IPoint;
 ```
 
-示例:
+示例：
 
 ```typescript
 import { shapes } from "powerbi-visuals-utils-svgutils";
@@ -773,7 +773,7 @@ Rect.getCentroid({ left: 0, top: 0, width: 100, height: 100 });
 function getCoordinates(rootNode: Element, isPointerEvent: boolean): number[];
 ```
 
-示例:
+示例：
 
 ```typescript
 import { pointer } from "powerbi-visuals-utils-svgutils";

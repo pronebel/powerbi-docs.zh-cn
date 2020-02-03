@@ -1,27 +1,27 @@
 ---
 title: 迁移到 powerbi-visuals-tools 版本 3.x
 description: 新版本的 powerbi-visuals-tools 入门
-author: zBritva
-ms.author: v-ilgali
+author: KesemSharabi
+ms.author: kesharab
+ms.reviewer: rkarlin
 manager: rkarlin
-ms.reviewer: sranins
 ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: conceptual
 ms.date: 06/18/2019
-ms.openlocfilehash: 1b819aeb0f59df9ee0d48d7c41807abe62efed08
-ms.sourcegitcommit: 801d2baa944469a5b79cf591eb8afd18ca4e00b1
+ms.openlocfilehash: d9af0ab870732990201ab3478d71fdafa9e13439
+ms.sourcegitcommit: 0cc594ebb78a6d0e88784673ed09f8aefd10c7a7
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/11/2020
-ms.locfileid: "75885131"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "76818815"
 ---
-# <a name="migrate-to-the-new-powerbi-visuals-tools-version-3x"></a>迁移到新 powerbi-visuals-tools 版本 3.x 
+# <a name="migrate-to-the-new-powerbi-visuals-tools-version-3x"></a>迁移到新 powerbi-visuals-tools 版本 3.x
 
 从版本 3 开始，Power BI 视觉对象工具（powerbi-visuals-tools 或 `pbiviz`）使用 Webpack 来生成自定义视觉对象。
 新版本为开发者提供了许多有关创建视觉对象方面的改进：
 
-- 默认使用 TypeScript 版本 3.x  。 从 TypeScript 1.5 开始，已更改了命名法。 [阅读更多有关 TypeScript 模块的详细信息](https://www.typescriptlang.org/docs/handbook/modules.html)。
+- 默认使用 TypeScript 版本 3.x。 从 TypeScript 1.5 开始，已更改了命名法。 [阅读更多有关 TypeScript 模块的详细信息](https://www.typescriptlang.org/docs/handbook/modules.html)。
 
 - 支持 ECMAScript 6 (ES6) 模块。 现在使用 ES6 导入，而不是 [externalJS](migrate-to-new-tools.md#configure-loading-of-external-libraries)。
 
@@ -37,7 +37,7 @@ ms.locfileid: "75885131"
 
 本文介绍了新版本 Power BI 视觉对象工具的所有迁移步骤。
 
-## <a name="backward-compatibility"></a>后向兼容性
+## <a name="backward-compatibility"></a>向后兼容性
 
 新工具为旧的视觉对象基本代码保留了后向兼容性信息，但可能需要进行一些额外的更改以加载外部库。
 

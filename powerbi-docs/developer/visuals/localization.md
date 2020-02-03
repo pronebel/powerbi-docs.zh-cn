@@ -1,20 +1,20 @@
 ---
 title: 了解 Power BI 视觉对象中的数据视图映射
 description: 本文介绍了 Power BI 如何在将数据传递给视觉对象之前对其进行转换。
-author: asander
-ms.author: asander
+author: KesemSharabi
+ms.author: kesharab
 manager: rkarlin
 ms.reviewer: sranins
 ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: conceptual
 ms.date: 06/18/2019
-ms.openlocfilehash: 85cfa292055f7db96dcb714ec8c4dd78fe75ee67
-ms.sourcegitcommit: f77b24a8a588605f005c9bb1fdad864955885718
+ms.openlocfilehash: ad63a1b97c744e8614e584874c4d896a85598e48
+ms.sourcegitcommit: 0cc594ebb78a6d0e88784673ed09f8aefd10c7a7
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/02/2019
-ms.locfileid: "74700285"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "76819114"
 ---
 # <a name="add-the-locale-in-power-bi-for-custom-visuals"></a>为自定义视觉对象添加 Power BI 区域设置
 
@@ -153,7 +153,7 @@ zh-TW | 中國（繁体中文）
 
 ## <a name="setup-environment"></a>设置环境
 
-### <a name="desktop"></a>桌面
+### <a name="desktop"></a>桌面型
 
 对于桌面使用，请从 https://powerbi.microsoft.com 下载 Power BI Desktop 的本地化版本。
 

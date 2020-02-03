@@ -1,19 +1,19 @@
 ---
 title: 突出显示
 description: 在 Power BI 视觉对象中突出显示数据点选择
-author: zBritva
-ms.author: v-ilgali
-ms.reviewer: sranins
+author: KesemSharabi
+ms.author: kesharab
+ms.reviewer: rkarlin
 ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: conceptual
 ms.date: 10/31/2019
-ms.openlocfilehash: bf5cd8d8ae649071b3c9cc7243f87ac3cc316c3b
-ms.sourcegitcommit: f77b24a8a588605f005c9bb1fdad864955885718
+ms.openlocfilehash: 0c1263760157371f9f4d9fc0f122d6e37d73d720
+ms.sourcegitcommit: 0cc594ebb78a6d0e88784673ed09f8aefd10c7a7
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/02/2019
-ms.locfileid: "74695351"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "76819160"
 ---
 # <a name="highlight-data-points-in-power-bi-visuals"></a>突出显示 Power BI 视觉对象中的数据点
 
@@ -323,7 +323,7 @@ div.value {
 
 示例数据，用于创建矩阵数据视图映射的层次结构：
 
-|   行 1   |   行 2   |   行 3   |   列 1   |   列 2   |   Column3   |   值   |
+|   行 1   |   行 2   |   行 3   |   Column1   |   Column2   |   Column3   |   值   |
 |-----|-----|------|-------|-------|-------|-------|
 |   R1   |   R11   |   R111   |   C1   |   C11   |   C111   |   1   |
 |   R1   |   R11   |   R112   |   C1   |   C11   |   C112   |   2   |

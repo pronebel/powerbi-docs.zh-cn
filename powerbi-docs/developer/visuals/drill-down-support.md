@@ -1,20 +1,20 @@
 ---
 title: 添加向下钻取支持
 description: 本文介绍了如何将向下钻取支持添加到 Power BI 视觉对象
-author: asander
-ms.author: asander
+author: KesemSharabi
+ms.author: kesharab
 manager: rkarlin
 ms.reviewer: sranins
 ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: conceptual
 ms.date: 06/18/2019
-ms.openlocfilehash: 197f2904288d9a42bd45096a3f897a399f5abce5
-ms.sourcegitcommit: f77b24a8a588605f005c9bb1fdad864955885718
+ms.openlocfilehash: 0253455cfba96c3c467f4cf8882550e22edce8ba
+ms.sourcegitcommit: 0cc594ebb78a6d0e88784673ed09f8aefd10c7a7
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/02/2019
-ms.locfileid: "74700584"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "76819229"
 ---
 # <a name="add-drill-down-support"></a>添加向下钻取支持
 
@@ -205,7 +205,7 @@ button {
 
 准备示例数据以测试视觉对象：
 
-|   H1  |   H2    | H3  |   值  |
+|   H1  |   H2    | H3  |   VALUES  |
 |-----|-----|------|-------|
 |   A   |   A1  |   A11 |   1   |
 |   A   |   A1  |   A12 |   2   |
@@ -315,7 +315,7 @@ export class Visual implements IVisual {
 
 准备示例数据以使用矩阵数据视图映射测试视觉对象：
 
-|   行 1   |   行 2   |   行 3   |   列 1   |   列 2   |   Column3   |   值   |
+|   行 1   |   行 2   |   行 3   |   Column1   |   Column2   |   Column3   |   值   |
 |-----|-----|------|-------|-------|-------|-------|
 |   R1   |   R11   |   R111   |   C1   |   C11   |   C111   |   1   |
 |   R1   |   R11   |   R112   |   C1   |   C11   |   C112   |   2   |

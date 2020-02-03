@@ -1,19 +1,19 @@
 ---
 title: 将数据推送到数据集
 description: 将数据推送到 Power BI 数据集
-author: rkarlin
-ms.author: rkarlin
-ms.reviewer: madia
+author: KesemSharabi
+ms.author: kesharab
+ms.reviewer: rkarlin
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 05/22/2019
-ms.openlocfilehash: 5db16bfdc1013668be5103f392d6f298c8faf925
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: ceebf32f62395db8741eaf43cfc494652fbbbf98
+ms.sourcegitcommit: 0cc594ebb78a6d0e88784673ed09f8aefd10c7a7
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73875446"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "76818792"
 ---
 # <a name="push-data-into-a-power-bi-dataset"></a>将数据推送到 Power BI 数据集
 
@@ -58,7 +58,7 @@ ms.locfileid: "73875446"
         ]
     }
 
-对于我们的“销售与市场营销”数据集示例，将传递如下所示的 JSON 字符串。 在此示例中，“SalesMarketing”是该数据集名称，“Product”是表名称。   定义表后，再定义表架构。 对于 SalesMarketing  数据集，表架构包含以下列：ProductID、制造商、类别、段、产品和 IsCompete。
+对于我们的“销售与市场营销”数据集示例，将传递如下所示的 JSON 字符串。 在此示例中，“SalesMarketing”是该数据集名称，“Product”是表名称。 定义表后，再定义表架构。 对于 SalesMarketing 数据集，表架构包含以下列：ProductID、制造商、类别、段、产品和 IsCompete。
 
 **数据集对象 JSON 示例**
 
@@ -105,9 +105,9 @@ ms.locfileid: "73875446"
 | --- | --- |
 | Int64 |不允许使用 Int64.MaxValue 和 Int64.MinValue。 |
 | 双精度 |不允许使用 Double.MaxValue 和 Double.MinValue 值。 不支持 NaN。某些函数（例如 Min、Max）中不支持使用正无穷和负无穷。 |
-| 布尔 |无 |
-| 日期时间 |在数据加载期间，我们将不足一天的值量化为 1/300 秒（3.33 毫秒）的整数倍。 |
-| 字符串 |当前允许最多 12.8 万个字符。 |
+| Boolean |无 |
+| Datetime |在数据加载期间，我们将不足一天的值量化为 1/300 秒（3.33 毫秒）的整数倍。 |
+| String |当前允许最多 12.8 万个字符。 |
 
 ## <a name="learn-more-about-pushing-data-into-power-bi"></a>了解有关将数据推送到 Power BI 的详细信息
 
@@ -120,4 +120,4 @@ ms.locfileid: "73875446"
 [注册 Power BI](create-an-azure-active-directory-tenant.md)  
 [JSON 简介](https://json.org/)  
 [Power BI REST API 概述](overview-of-power-bi-rest-api.md)  
-更多问题？ [尝试参与 Power BI 社区](https://community.powerbi.com/)
+更多疑问？ [尝试参与 Power BI 社区](https://community.powerbi.com/)
