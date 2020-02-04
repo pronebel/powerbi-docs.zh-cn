@@ -9,14 +9,14 @@ ms.topic: conceptual
 ms.date: 12/18/2019
 ms.author: mihart
 LocalizationGroup: Ask questions of your data
-ms.openlocfilehash: 5dd924f066b6382ed895d81ed0ada5d913c040e6
-ms.sourcegitcommit: 02b05932a119527f255e1eacc745a257044e392f
+ms.openlocfilehash: cc20d981e1e774eed109c614e146415ec3813601
+ms.sourcegitcommit: a1409030a1616027b138128695b80f6843258168
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/19/2019
-ms.locfileid: "75218126"
+ms.lasthandoff: 01/24/2020
+ms.locfileid: "76709797"
 ---
-# <a name="qa-for-power-bi-consumers"></a>面向 Power BI 使用者的问答 
+# <a name="qa-for-power-bi-consumers"></a>面向 Power BI 使用者的问答
 
 [!INCLUDE [power-bi-service-new-look-include](../includes/power-bi-service-new-look-include.md)]
 
@@ -167,6 +167,10 @@ Power BI 帮助你提问的另一种方式是通过提示、自动完成和视�
 **回答**：选择与报表或仪表板所有者联系的选项。 你可直接在“Q&A”仪表板页或“Q&A”视觉对象中进行此操作。 也可在 Power BI 标头中查找所有者。  设计者可以执行许多操作来改善问答结果。 例如，设计者可以将数据集中的列重命名为易于理解的术语（`CustomerFirstName`而不是 `CustFN`）。 设计者非常了解数据集，因此，他也可以提出有用的问题并将其添加到 Q&A 建议的问题中。
 
 ![显示联系信息](media/end-user-q-and-a/power-bi-q-and-a-contact.png)
+
+## <a name="privacy"></a>隐私
+
+Microsoft 可能会使用你的问题来改进 Power BI。 有关详细信息，请查看 [Microsoft 隐私声明](https://go.microsoft.com/fwlink/?LinkId=521839)。
 
 ## <a name="next-steps"></a>后续步骤
 要了解报表设计者是如何创建和管理 Q&A 视觉对象的，请参阅 [Q&A 视觉对象类型](../visuals/power-bi-visualization-q-and-a.md)  。

@@ -7,30 +7,28 @@ ms.topic: conceptual
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.date: 11/07/2019
-ms.openlocfilehash: f797dd55202ff4cba87cc3a15601d85091e94823
-ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
+ms.openlocfilehash: 1f54ce3a6bfd69caa3f386b7684e3df7f725523d
+ms.sourcegitcommit: a1409030a1616027b138128695b80f6843258168
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/06/2020
-ms.locfileid: "74164063"
+ms.lasthandoff: 01/24/2020
+ms.locfileid: "76709549"
 ---
 # <a name="connect-a-report-to-a-dataset-using-dynamic-binding"></a>使用动态绑定将报表连接到数据集 
 
-在将报表连接到数据集时，可以使用动态绑定。 报表与数据集之间的连接也称为“绑定”  。 如果绑定是快要嵌入时确定的，而不是之前预先确定的，则绑定被称为[动态绑定](https://nam06.safelinks.protection.outlook.com/?url=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FLate_binding&data=02%7C01%7CKesem.Sharabi%40microsoft.com%7C5d5b0d2d62cf4818f0c108d7635b151e%7C72f988bf86f141af91ab2d7cd011db47%7C1%7C0%7C637087115150775585&sdata=AbEtdJvgy4ivi4v4ziuui%2Bw2ibTQQXBQNYRKbXn5scA%3D&reserved=0)。
- 
+在将报表连接到数据集时，可以使用动态绑定。 报表与数据集之间的连接也称为“绑定”  。 如果绑定是快要嵌入时确定的，而不是之前预先确定的，则绑定被称为动态绑定。
+
 使用动态绑定嵌入 Power BI 报表时  ，可将同一报表连接到不同的数据集，具体取决于用户的凭据。
- 
+
 这意味着可使用一个报表显示不同的信息，具体由它连接到的数据集而定。 例如，显示零售销售值的报表可连接到不同的零售商数据集并生成不同的结果，具体由它连接到零售商的数据集而定。
- 
+
 报表和数据集不需要驻留在同一个工作区中。 必须将两个工作区（包含报表的工作区和包含数据集的工作区）分配到一个[容量](azure-pbie-create-capacity.md)。
 
 在嵌入过程中，请确保生成有足够权限的令牌，并调整配置对象   。
 
-
 ## <a name="generating-a-token-with-sufficient-permissions"></a>生成具有足够权限的令牌
 
 两种嵌入方案（为组织嵌入内容和为客户嵌入内容）都支持动态绑定   。 下表描述了每种方案的注意事项。
-
 
 |方案  |数据所有权  |令牌  |要求  |
 |---------|---------|---------|---------|

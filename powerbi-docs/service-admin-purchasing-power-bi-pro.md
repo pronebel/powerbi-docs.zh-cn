@@ -9,14 +9,17 @@ ms.topic: conceptual
 ms.date: 01/16/2020
 ms.author: kfollis
 LocalizationGroup: Administration
-ms.openlocfilehash: abf93f18643287e7210fad2cb6cbf23913c087b2
-ms.sourcegitcommit: 313a5a6a01c09038a6152d681103accbd2faf437
+ms.openlocfilehash: 138173d30b9c37c04047c61dbd04cbd3101696aa
+ms.sourcegitcommit: 08f65ea314b547b41b51afef6876e56182190266
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/18/2020
-ms.locfileid: "76268844"
+ms.lasthandoff: 01/25/2020
+ms.locfileid: "76753182"
 ---
 # <a name="purchase-and-assign-power-bi-pro-user-licenses"></a>购买和分配 Power BI Pro 用户许可证
+
+>[!IMPORTANT]
+>你是否准备好升级到 Power BI Pro 许可证？ 直接转到[开始使用 Power BI Pro](https://go.microsoft.com/fwlink/?LinkId=2106428&clcid=0x409&cmpid=pbidocs-purchasing-power-bi-pro) 以设置帐户。
 
 Power BI Pro 是一种单独的用户许可证，使用户能够读取他人已发布到 Power BI 服务的报表和仪表板并与之进行交互。 具有此许可证类型的用户可以与 Power BI Pro 用户共享内容并开展协作。 只有 Power BI Pro 用户才能发布或与其他用户共享内容，或使用其他用户创建的内容，除非 Power BI Premium 容量托管该内容。 有关详细信息，请参阅 [Power BI 定价](https://powerbi.microsoft.com/pricing/)的“Power BI 功能比较”  部分。
 

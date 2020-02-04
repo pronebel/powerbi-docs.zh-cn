@@ -1,27 +1,27 @@
 ---
-title: 颜色格式设置和轴属性入门
-description: 颜色格式设置和轴属性入门
+title: 报表可视化效果格式设置入门
+description: 开始使用报表可视化效果格式设置选项
 author: mihart
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 08/06/2018
+ms.date: 12/14/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 7eded3d17e0db5894bd2f1a03fae49357eb27c69
-ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
+ms.openlocfilehash: b42d83b4cea6f5f5e8908244b2b298dc3f327468
+ms.sourcegitcommit: 02342150eeab52b13a37b7725900eaf84de912bc
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/09/2020
-ms.locfileid: "75762246"
+ms.lasthandoff: 01/23/2020
+ms.locfileid: "76540606"
 ---
-# <a name="get-started-with-color-formatting-and-axis-properties"></a>颜色格式设置和轴属性入门
-在 Power BI  中，可以更改数据系列、数据点和可视化效果背景的颜色。 如果你能完全控制仪表板和报表的显示方式，你还可以更改 X 轴和 Y 轴的显示方式。
+# <a name="getting-started-with-the-formatting-pane"></a>“格式设置”窗格入门
+如果对报表具有编辑权限，则可以使用许多可用的格式设置选项。 在 Power BI  报表中，可以更改数据系列、数据点的颜色，甚至可以更改可视化效果的背景。 可以更改 x 轴和 y 轴的显示方式。 甚至可以设置可视化效果、形状和标题的字体属性的格式，从而完全控制报表的显示方式。
 
-若要开始，请从**我的工作区**窗格中选择**报表**。 然后从顶部菜单区域，选择**编辑报表**。  
+若要开始，请在 Power BI Desktop 或 Power BI 服务中打开报表。 两者都提供几乎相同的格式设置选项。 在 Power BI 服务中打开报表时，请确保从菜单栏中选择“编辑报表”  。  
 
-![](media/service-getting-started-with-color-formatting-and-axis-properties/gettingstartedcolor_1a.png)
+![显示“编辑”选项的菜单栏](media/service-getting-started-with-color-formatting-and-axis-properties/power-bi-edit.png)
 
 在你编辑报表并已经选择了可视化效果时，将出现让你可添加或更改可视化效果的**可视化效果**窗格。 可用可视化效果的正下方有三个图标：“字段”  图标（叠放的条形）、“格式”  图标（滚筒刷）和“分析”  图标（放大镜）。 以下图像中，**字段**图标处于选中状态，图标下方以黄色栏指示。
 

@@ -7,21 +7,21 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: tutorial
-ms.date: 01/14/2020
+ms.date: 01/16/2020
 ms.author: mblythe
 LocalizationGroup: Visualizations
-ms.openlocfilehash: d9549364f9129ee4ddc6e90fb973cb73c241e4a9
-ms.sourcegitcommit: 0ae9328e7b35799d5d9613a6d79d2f86f53d9ab0
+ms.openlocfilehash: bbca812644b82f8a0b848dc16e450f880ccb596c
+ms.sourcegitcommit: 02342150eeab52b13a37b7725900eaf84de912bc
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/16/2020
-ms.locfileid: "76042109"
+ms.lasthandoff: 01/23/2020
+ms.locfileid: "76539891"
 ---
 # <a name="tutorial-embed-a-power-apps-visual-in-a-power-bi-report"></a>教程：在 Power BI 报表中嵌入 Power Apps 视觉对象
 
 本教程使用 Power Apps 视觉对象，创建可嵌入到示例 Power BI 报表中的新应用。 此应用可与报表中的其他视觉对象进行交互。
 
-如果没有 Power Apps 订阅，请在开始之前先[创建一个免费帐户](https://docs.microsoft.com/powerapps/maker/signup-for-powerapps)。
+如果没有 Power Apps 订阅，请在开始之前先[创建一个免费帐户](https://web.powerapps.com/signup?redirect=marketing&email=)。
 
 在本教程中，了解如何：
 > [!div class="checklist"]
@@ -33,12 +33,12 @@ ms.locfileid: "76042109"
 
 * [Google Chrome](https://www.google.com/chrome/browser/) 或 [Microsoft Edge](https://www.microsoft.com/windows/microsoft-edge) 浏览器
 * 安装了[机会分析示例](https://docs.microsoft.com/power-bi/sample-opportunity-analysis#get-the-content-pack-for-this-sample)的 [Power BI 订阅](https://docs.microsoft.com/power-bi/service-self-service-signup-for-power-bi)
-* 了解如何[在 Power Apps 中创建应用](https://docs.microsoft.com/powerapps/maker/canvas-apps/data-platform-create-app-scratch.md)以及如何[编辑 Power BI 报表](https://docs.microsoft.com/power-bi/service-the-report-editor-take-a-tour)
+* 了解如何[在 Power Apps 中创建应用](https://docs.microsoft.com/powerapps/maker/canvas-apps/data-platform-create-app-scratch)以及如何[编辑 Power BI 报表](https://docs.microsoft.com/power-bi/service-the-report-editor-take-a-tour)
 
 
 
 ## <a name="create-a-new-app"></a>创建新应用
-在报表中添加 Power Apps 视觉对象时，它会通过 Power Apps 与 Power BI 之间的实时数据连接启动 PowerApps Studio。
+在报表中添加 Power Apps 视觉对象时，它会通过 Power Apps 与 Power BI 之间的实时数据连接启动 Power Apps Studio。
 
 1. 打开“机会分析”示例报表，然后选择“临近的机会”  页面。 
 
@@ -49,7 +49,7 @@ ms.locfileid: "76042109"
 
 2. 从“可视化效果”窗格中选择“Power Apps”图标，然后调整视觉对象的大小以适合您留出的空间。
 
-    ![选择了“PowerApps”图标的“可视化效果”窗格](media/power-bi-visualization-powerapp/power-bi-powerapps-icon.jpg)
+    ![选择了“Power Apps”图标的“可视化效果”窗格](media/power-bi-visualization-powerapp/power-bi-powerapps-icon.jpg)
 
 3. 在“字段”窗格中，选择“名称”、“产品代码”和“销售阶段”     。 
 

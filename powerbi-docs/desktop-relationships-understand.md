@@ -8,12 +8,12 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 10/15/2019
 ms.author: v-pemyer
-ms.openlocfilehash: 56ff7d09530030d1a1ae046a3439022cbf638b9d
-ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
+ms.openlocfilehash: 124f373e7841cb899f0a26debb2bcc8302e8e970
+ms.sourcegitcommit: 7efbe508787029e960d6d535ac959a922c0846ca
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/09/2020
-ms.locfileid: "75760563"
+ms.lasthandoff: 01/22/2020
+ms.locfileid: "76309109"
 ---
 # <a name="create-model-relationships-in-power-bi-desktop"></a>在 Power BI Desktop 中创建模型关系
 
@@ -227,4 +227,6 @@ Import 或 DirectQuery 模型从 Vertipaq 缓存或源数据库中获取其所�
 
 - [了解星型架构及其对 Power BI 的重要性](guidance/star-schema.md)
 - [多对多关系指南](guidance/relationships-many-to-many.md)
+- 视频：[Power BI 关系的准则](https://youtu.be/78d6mwR8GtA)
 - 是否有任何问题? [尝试咨询 Power BI 社区](https://community.powerbi.com/)
+- 建议？ [提出改进 Power BI 的想法](https://ideas.powerbi.com)

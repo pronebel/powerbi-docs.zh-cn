@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 12/16/2019
+ms.date: 01/22/2020
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: c3f703bfe2685166ce575b37c053b2a9603a799f
-ms.sourcegitcommit: 02b05932a119527f255e1eacc745a257044e392f
+ms.openlocfilehash: e91900632b7cf470cd91923ca9ec871247c154ba
+ms.sourcegitcommit: a1409030a1616027b138128695b80f6843258168
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/19/2019
-ms.locfileid: "75223880"
+ms.lasthandoff: 01/24/2020
+ms.locfileid: "76710189"
 ---
 # <a name="connect-azure-data-lake-storage-gen2-for-dataflow-storage"></a>连接 Azure Data Lake Storage Gen2 以存储数据流
 
@@ -45,7 +45,7 @@ ms.locfileid: "75223880"
 1. 必须在与 Power BI 租户相同的 AAD 租户中创建存储帐户。
 2. 必须在 Power BI 租户所在的同一区域中创建存储帐户。 要确定 Power BI 租户的位置，请参阅 [Power BI 租户的所在位置](service-admin-where-is-my-tenant-located.md)。
 3. 存储帐户必须启用  “层次结构命名空间”功能。
-4. 必须在存储帐户上为 Power BI 服务授予  读取者角色。
+4. 必须在存储帐户上为 Power BI 服务授予读者或数据访问角色   。
 5. 必须创建名为  powerbi 的文件系统。
 6. 必须授权 Power BI 服务使用用户创建的  powerbi 文件系统。
 
@@ -59,16 +59,13 @@ ms.locfileid: "75223880"
 2. 确保启用分层命名空间功能
 3. 建议将复制设置设置为  “读取访问权限异地冗余存储 (RA-GRS)”
 
-### <a name="grant-the-power-bi-service-a-reader-role"></a>授予 Power BI 服务读取者角色
+### <a name="grant-the-power-bi-service-reader-and-data-access-roles"></a>授予 Power BI 服务读者和数据访问角色
 
-接下来，需要在创建的存储帐户中授予 Power BI 服务读取者角色。 这是内置角色，因而步骤很简单。 
+接下来，需要在创建的存储帐户中授予 Power BI 服务读者和数据访问角色。 这些角色都是内置角色，因此步骤很简单。 
 
 按照[分配内置 RBAC 角色](https://docs.microsoft.com/azure/storage/common/storage-auth-aad-rbac#assign-a-built-in-rbac-role)中的步骤操作。
 
-在  “添加角色分配”窗口中，选择要分配给 Power BI 服务的  读取者角色。 然后使用搜索来查找  Power BI 服务。 下图显示了分配给 Power BI 服务的  读取者角色。
-
-![已分配读取者角色的 Power BI 服务](media/service-dataflows-connect-azure-data-lake-storage-gen2/dataflows-connect-adlsg2_05.jpg)
-
+在“添加角色分配”窗口中，选择要分配给 Power BI 服务的“读者”或“数据访问”角色    。 然后使用搜索来查找  Power BI 服务。 
 
 > [!NOTE]
 > 留出至少 30 分钟等待权限从门户传播到 Power BI。 每次在门户中更改权限后，都留出 30 分钟让这些权限在 Power BI 中得到反映。 

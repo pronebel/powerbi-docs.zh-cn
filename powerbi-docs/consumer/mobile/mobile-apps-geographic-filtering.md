@@ -7,19 +7,19 @@ ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 09/25/2019
 ms.author: mshenhav
-ms.openlocfilehash: 1079b624ebab827b41f4da55095028796319fdcd
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 002ddeac915b2b2b67570e8b4078a175de09aaef
+ms.sourcegitcommit: 02342150eeab52b13a37b7725900eaf84de912bc
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73870627"
+ms.lasthandoff: 01/23/2020
+ms.locfileid: "76538189"
 ---
 # <a name="filter-a-report-by-geographic-location-in-the-power-bi-mobile-apps"></a>在 Power BI 移动应用中按地理位置筛选报表
 适用于：
 
-| ![iPhone](./media/mobile-apps-geographic-filtering/iphone-logo-50-px.png) | ![iPad](./media/mobile-apps-geographic-filtering/ipad-logo-50-px.png) | ![Android 手机](./media/mobile-apps-geographic-filtering/android-phone-logo-50-px.png) | ![Android 平板电脑](./media/mobile-apps-geographic-filtering/win-10-logo-50-px.png) |
-|:--- |:--- |:--- |:--- |
-| iPhone |iPad |Android 手机 |Windows 10 手机 |
+| ![iPhone](./media/mobile-apps-geographic-filtering/iphone-logo-50-px.png) | ![iPad](./media/mobile-apps-geographic-filtering/ipad-logo-50-px.png) | ![Android 手机](./media/mobile-apps-geographic-filtering/android-phone-logo-50-px.png) | ![Android 平板电脑](./media/mobile-apps-view-dashboard/android-tablet-logo-50-px.png) | ![Windows Phone](./media/mobile-apps-geographic-filtering/win-10-logo-50-px.png) |
+|:--- |:--- |:--- |:--- |:--- |
+| iPhone |iPad |Android 手机 |Android 平板电脑 |Windows 10 手机 |
 
 在移动设备上查看 Power BI 报表时，是否注意到右上角有一个小图钉图标？ 如果看到了，那么可以根据你的地理位置筛选该报表。
 
@@ -42,7 +42,7 @@ ms.locfileid: "73870627"
 * 位于在相应列中有数据的位置之一。
 * 使用的是下面一种移动设备：
   * iOS（iPad、iPhone、iPod）。
-  * Android 手机。
+  * Android（手机、平板电脑）。
   * Windows 10 手机（其他 Windows 10 设备（如 PC 和平板电脑）不支持地理位置筛选）。
 
 阅读有关在 Power BI Desktop 中[设置地理筛选](../../desktop-mobile-geofiltering.md)的详细信息。
@@ -50,5 +50,5 @@ ms.locfileid: "73870627"
 ### <a name="next-steps"></a>后续步骤
 * 使用移动应用[从真实世界连接到 Power BI 数据](mobile-apps-data-in-real-world-context.md)
 * [Power BI Desktop 中的数据分类](../../desktop-data-categorization.md) 
-* 是否有任何问题？ [尝试咨询 Power BI 社区](https://community.powerbi.com/)
+* 是否有任何问题? [尝试咨询 Power BI 社区](https://community.powerbi.com/)
 

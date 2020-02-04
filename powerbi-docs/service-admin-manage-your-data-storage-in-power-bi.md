@@ -1,35 +1,44 @@
 ---
 title: 管理工作区中的数据存储
-description: 了解如何管理个人或工作区中的数据存储，以确保可以继续发布报表和数据集。
+description: 了解如何管理个人或工作区中的数据存储，确保可以继续发布报表和数据集。
 author: maggiesMSFT
 ms.reviewer: ''
 ms.custom: seodec18
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 12/21/2018
+ms.date: 01/23/2020
 ms.author: maggies
 LocalizationGroup: Administration
-ms.openlocfilehash: f8e7240b34e20a3d18443cadb5265c5d0d870790
-ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
+ms.openlocfilehash: bc8b8c16675e6d413c22d4ae88018222b02b17d6
+ms.sourcegitcommit: a1409030a1616027b138128695b80f6843258168
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/06/2020
-ms.locfileid: "73873663"
+ms.lasthandoff: 01/24/2020
+ms.locfileid: "76709879"
 ---
 # <a name="manage-data-storage-in-power-bi-workspaces"></a>管理 Power BI 工作区中的数据存储
 
-了解如何管理个人或工作区中的数据存储，以确保可以继续发布报表和数据集。
+了解如何管理个人或工作区中的数据存储，以便可以继续发布报表和数据集。
 
-用户和工作区有自己的数据容量：
+## <a name="capacity-limits"></a>容量限制
 
-* 所有用户的数据存储上限均为 10 GB。
-* 拥有 Power BI Pro 许可证的用户可以创建工作区，每个工作区的数据存储上限为 10 GB。
-* 高级容量中的工作区不计入 Power BI Pro 用户的存储。
+无论是我的工作区还是应用工作区，工作区存储限制都取决于工作区是[共享容量还是高级容量](service-basic-concepts.md#capacities)。
 
-在租户一级，跨租户中的所有 Pro 用户和工作区，每个 Pro 用户的总使用量不得超过 10 GB。
+### <a name="shared-capacity-limits"></a>共享容量限制
+对于共享容量中的工作区： 
+
+- 每个工作区的存储限制为 10 GB。
+- 对于应用工作区，总使用量不能超过 10 GB 乘以租户中的 Pro 许可证数量。
+
+### <a name="premium-capacity-limits"></a>高级容量限制
+对于高级容量中的工作区：
+- 每个高级容量的限制为 100 TB。
+- 每个用户都没有存储限制。
 
 了解有关 [Power BI 定价模型](https://powerbi.microsoft.com/pricing)的其他功能。
+
+## <a name="whats-included-in-storage"></a>存储中包含的内容
 
 数据存储中包含你自己的数据集和 Excel 报表，以及某人与你共享的这些项。 数据集是任何已上传或连接到的数据源。 这些数据源包括正在使用的 Power BI Desktop 文件和 Excel 工作簿。 以下内容也包含在数据容量中。
 
@@ -48,6 +57,7 @@ ms.locfileid: "73873663"
 1. 若要管理你自己的存储，请转到导航窗格中的“我的工作区”  。
    
     ![我的工作区](media/service-admin-manage-your-data-storage-in-power-bi/pbi_myworkspace.png)
+
 2. 依次选择右上角的齿轮图标![齿轮图标](media/service-admin-manage-your-data-storage-in-power-bi/pbi_gearicon.png)\>“管理个人存储”  。
    
     顶部栏会显示你已使用的存储限制量。
@@ -57,6 +67,7 @@ ms.locfileid: "73873663"
     数据集和报表会分为两个选项卡：
    
     **由我所有：** 你已将这些报表和数据集上传到 Power BI 帐户，包括服务数据集（如 Salesforce 和 Dynamics CRM）。  
+
     **由他人所有：** 其他人与你共享了这些报表和数据集。
 1. 若要删除数据集或报表，请选择垃圾桶图标 ![垃圾桶图标](media/service-admin-manage-your-data-storage-in-power-bi/pbi_deleteicon.png)。
 
@@ -75,15 +86,15 @@ ms.locfileid: "73873663"
     数据集和报表会分为两个选项卡：
    
     **由我们所有：** 你或其他人已将这些表和数据集上传到组的 Power BI 帐户，包括服务数据集（如 Salesforce 和 Dynamics CRM）。
+
     **由他人所有：** 其他人与你共享了组内的这些报表和数据集。
+
 3. 若要删除数据集或报表，请选择垃圾桶图标 ![垃圾桶图标](media/service-admin-manage-your-data-storage-in-power-bi/pbi_deleteicon.png)。
    
    > [!NOTE]
-   > 工作区中拥有编辑权限的任何成员都有权从工作区中删除数据集和报表。
-   > 
-   > 
-
-请记住，你或组中的其他人可能会具有基于某个数据集的报表和仪表板。 如果删除该数据集，则这些报表和仪表板将无法再正常工作。
+   > 请记住，你或组中的其他人可能会具有基于某个数据集的报表和仪表板。 如果删除该数据集，则这些报表和仪表板将无法再正常工作。
+   
+   工作区中具有管理员、成员或参与者角色的任何成员都有权从工作区中删除数据集和报表。
 
 ## <a name="dataset-limits"></a>数据集限制
 导入到 Power BI 中的每个数据集都有 1 GB 的限制。 如果选择保留 Excel 体验，而不是导入数据，则数据集的限制为 250 MB。
@@ -102,6 +113,8 @@ ms.locfileid: "73873663"
  尝试执行的操作达到某个限制时，你会看到一条超出限制的消息。 可以[管理](#manage)存储，以减少存储量，从而符合限制要求。
 
  ![超出存储空间上限](media/service-admin-manage-your-data-storage-in-power-bi/powerbi-pro-over-limit.png)
+
+ ## <a name="next-steps"></a>后续步骤
 
  更多问题？ [尝试咨询 Power BI 社区](https://community.powerbi.com/)
 

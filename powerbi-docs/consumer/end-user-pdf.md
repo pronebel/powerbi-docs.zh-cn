@@ -7,15 +7,15 @@ ms.reviewer: cmfinlan
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 11/27/2019
+ms.date: 1/16/2020
 ms.author: mihart
 LocalizationGroup: Share your work
-ms.openlocfilehash: 9e00e68e0a5f6df62072a1d9744276bffbd3beb4
-ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
+ms.openlocfilehash: 4570fea58a19acb4f35a5c24d0a5bfa93beba215
+ms.sourcegitcommit: 02342150eeab52b13a37b7725900eaf84de912bc
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/06/2020
-ms.locfileid: "74791666"
+ms.lasthandoff: 01/23/2020
+ms.locfileid: "76537545"
 ---
 # <a name="export-reports-from-power-bi-to-pdf"></a>从 Power BI 将报表导出为 PDF
 
@@ -63,6 +63,7 @@ ms.locfileid: "74791666"
 * 如果为导出选择“当前值”，当前不遵循 URL 筛选器  。
 * 自定义页面大小异常的报表在导出方案中可能会出现问题。 为获得最佳结果，请考虑切换为报表的标准页面大小。
 * 导出到 PDF 时，使用带有自定义字体的主题的报表会将自定义字体替换为默认字体。
+* 尽管我们希望提供一致的体验，但我们无法保证从 Power BI 服务导出的 PDF 文件始终与从本地 Power BI Desktop 文件导出的 PDF 文件匹配。
 
 ## <a name="next-steps"></a>后续步骤
 [打印报表](end-user-print.md)

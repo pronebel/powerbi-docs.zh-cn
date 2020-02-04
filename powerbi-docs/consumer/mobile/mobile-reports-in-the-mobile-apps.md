@@ -6,14 +6,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: conceptual
-ms.date: 12/16/2019
+ms.date: 01/18/2020
 ms.author: painbar
-ms.openlocfilehash: bb54a4e403f2cc12800d0c97e44308f7ad5c5f65
-ms.sourcegitcommit: 02b05932a119527f255e1eacc745a257044e392f
+ms.openlocfilehash: 27f6469cb960ff101f45636e0720b935929ff010
+ms.sourcegitcommit: 02342150eeab52b13a37b7725900eaf84de912bc
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/19/2019
-ms.locfileid: "75220675"
+ms.lasthandoff: 01/23/2020
+ms.locfileid: "76538099"
 ---
 # <a name="explore-reports-in-the-power-bi-mobile-apps"></a>在 Power BI 移动应用中浏览报表
 适用于：
@@ -53,6 +53,13 @@ Power BI 移动应用中的报表有两个图标：
 ## <a name="interact-with-reports"></a>与报表交互
 在应用中打开报表后，就可开始使用该报表了。 你可对报表及其数据执行许多操作。 报表页脚中显示有可对报表执行的操作。 通过点击并长按报表中显示的数据，还可以对数据进行切片和切块。
 
+### <a name="single-tap-versus-double-tap-interaction"></a>单击与双击交互
+下载 Power BI 移动应用时，会针对单击交互进行设置。 这意味着，在视觉对象中点击以执行某个操作（如选择切片器项、交叉突出显示、单击链接或按钮等）时，点击会同时选择视觉对象并执行所需操作。
+
+如果愿意，可以切换到双击交互。 使用双击交互时，首先点击一个视觉对象以选择它，然后再次点击视觉对象以执行所需操作。
+
+若要切换到双击交互，或切换回单击交互，请转到[应用交互设置](./mobile-app-interaction-settings.md)。
+
 ### <a name="using-tap-and-long-tap"></a>使用点击和长按
 点击与鼠标单击效果相同。 因此，如果要基于数据点交叉突出显示报表，请点击该数据点。
 点击一个切片器值即可选中该值，且此报表的其余部分会根据该值进行切片。
@@ -63,7 +70,6 @@ Power BI 移动应用中的报表有两个图标：
 ![视觉对象和菜单](./media/mobile-reports-in-the-mobile-apps/report-visual-menu.png)
 
 ### <a name="tooltip-and-drill-actions"></a>工具提示和钻取操作
-
 长按（点击并按住）数据点时，会出现一个工具提示，显示此数据点所代表的值：
 
 ![工具提示](./media/mobile-reports-in-the-mobile-apps/report-tooltip.png)
@@ -126,6 +132,8 @@ Power BI 移动应用中的报表有两个图标：
 
 Power BI 移动应用支持报表创建者已定义的报表书签和可在 Power BI 服务中定义的个人书签。 可以在[报表操作工具栏](mobile-reports-in-the-mobile-apps.md#all-report-actions)上的“更多选项”(…) 下找到书签菜单  。
 
+默认书签由特殊图标进行指示。 对于个人书签，可以通过点击要更改的书签旁的“更多选项(...)”  ，然后选择“设为默认值”  或“清除默认值”  ，来设置、取消设置或更改默认设置。
+
 ![书签菜单](./media/mobile-reports-in-the-mobile-apps/power-bi-mobile-report-bookmark-menu.png)
 
 当报表的书签视图处于打开状态时，该书签的名称将显示在报表的顶部。
@@ -133,6 +141,15 @@ Power BI 移动应用支持报表创建者已定义的报表书签和可在 Powe
 ![书签视图](./media/mobile-reports-in-the-mobile-apps/power-bi-mobile-report-bookmark-title.png)
 
 [了解有关 Power BI 服务中书签的详细信息](https://docs.microsoft.com/power-bi/consumer/end-user-bookmarks)。
+
+## <a name="configure-your-experience-with-reports"></a>配置报表体验
+Power BI 移动应用提供许多设置，使你可以控制报表体验。 当前可以配置
+* **与报表视觉对象的交互**：可以选择使用单点击或双击交互。
+* **数据刷新方法**：可以选择使用刷新按钮或下拉操作来刷新报表数据。
+* **报表页脚可见性**：可以选择使用始终可见的停靠页脚，或根据操作（例如滚动）隐藏和重新显示的动态页脚。
+
+有关如何更改这些设置的信息，请参阅[应用交互设置](./mobile-app-interaction-settings.md)。
+
 
 ## <a name="next-steps"></a>后续步骤
 * [查看手机优化版 Power BI 报表并与之交互](mobile-apps-view-phone-report.md)

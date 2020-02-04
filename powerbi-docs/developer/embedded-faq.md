@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 05/27/2019
-ms.openlocfilehash: 7670f8147af54f3b3a6c2c0eba34bb3ca7843eda
-ms.sourcegitcommit: c395fe83d63641e0fbd7c98e51bbab224805bbcc
+ms.openlocfilehash: 8a3b9389769c92bc52512dbf1215afa405161cd5
+ms.sourcegitcommit: 02342150eeab52b13a37b7725900eaf84de912bc
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/21/2019
-ms.locfileid: "74264072"
+ms.lasthandoff: 01/23/2020
+ms.locfileid: "76539040"
 ---
 # <a name="frequently-asked-questions-about-power-bi-embedded"></a>有关 Power BI Embedded 的常见问题
 
@@ -67,8 +67,8 @@ Power BI Embedded 是一组开发人员可用于创建嵌入式分析解决方�
 |----------------------------------------------------------------------------------|-------------------|---------------------------|---------------------------|
 |   | SKU - Azure 容量 | EM SKU - O365 容量 | P SKU - O365 容量 |
 | 从 Power BI 工作区嵌入项目 | 是 | 是 | 是 |
-| 在嵌入式应用程序中使用 Power BI 报表 - SaaS | 否 | 是 | 是 |
-| 在嵌入式应用程序中使用 Power BI 报表 - PaaS | 是 | 是 | 是 |
+| 为组织在嵌入式应用程序中使用 Power BI 报表  | 否 | 是 | 是 |
+| 为客户在嵌入式应用程序中使用 Power BI 报表 | 是 | 是 | 是 |
 | 在 SharePoint 中使用 Power BI 报表 | 否 | 是 | 是 |
 | 在 Dynamics 中使用 Power BI 报表 | 否 | 是 | 是 |
 | 在 Teams 中使用 Power BI 报表（不包括移动应用） | 否 | 是 | 是 |
@@ -79,7 +79,7 @@ Power BI Embedded 是一组开发人员可用于创建嵌入式分析解决方�
 
 |  |A SKU (Power BI Embedded)  |EM SKU (Power BI Premium)  |P SKU (Power BI Premium)  |
 |---------|---------|---------|---------|
-|Purchase  |Azure 门户 |Office |Office |
+|购买  |Azure 门户 |Office |Office |
 |用例 | 在自己的应用程序中嵌入内容 | <li> 在自己的应用程序中嵌入内容 <br><br><br> <li> 在 MS Office 应用程序中嵌入内容： <br> - [SharePoint](https://powerbi.microsoft.com/blog/integrate-power-bi-reports-in-sharepoint-online/) <br> - [Teams（不包括移动应用）](https://powerbi.microsoft.com/blog/power-bi-teams-up-with-microsoft-teams/) <br> - [Dynamics 365](https://docs.microsoft.com/dynamics365/customer-engagement/basics/add-edit-power-bi-visualizations-dashboard) | <li> 在自己的应用程序中嵌入内容 <br><br><br> <li> 在 MS Office 应用程序中嵌入内容： <br> - [SharePoint](https://powerbi.microsoft.com/blog/integrate-power-bi-reports-in-sharepoint-online/) <br> - [Teams（不包括移动应用）](https://powerbi.microsoft.com/blog/power-bi-teams-up-with-microsoft-teams/) <br> - [Dynamics 365](https://docs.microsoft.com/dynamics365/customer-engagement/basics/add-edit-power-bi-visualizations-dashboard) <br><br><br> <li> 通过 [Power BI 服务](https://powerbi.microsoft.com/)与 Power BI 用户共享内容  |
 |账单 |每小时 |每月 |每月 |
 |承诺  |无承诺 |每年  |每月/每年 |

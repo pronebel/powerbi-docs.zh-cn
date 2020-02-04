@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 10/25/2019
 ms.author: painbar
 LocalizationGroup: Data from files
-ms.openlocfilehash: 024e04bd309080b5b31e43bde7c783255bfc3dba
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 70a1aed046ac213e314da2ddaecafab9c5a941ee
+ms.sourcegitcommit: 02342150eeab52b13a37b7725900eaf84de912bc
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73851067"
+ms.lasthandoff: 01/23/2020
+ms.locfileid: "76537223"
 ---
 # <a name="enable-data-sensitivity-labels-in-power-bi-preview"></a>在 Power BI 中启用数据敏感度标签（预览）
 
@@ -73,3 +73,4 @@ Power BI 使用 Microsoft 信息保护敏感度标签。 因此，如果在尝�
 * [Power BI 中的数据保护概述](service-security-data-protection-overview.md)
 * [在 Power BI 中应用数据敏感度标签](../designer/service-security-apply-data-sensitivity-labels.md)
 * [在 Power BI 中使用 Microsoft Cloud App Security 控件](service-security-using-microsoft-cloud-app-security-controls.md)
+* [数据保护指标报表](service-security-data-protection-metrics-report.md)

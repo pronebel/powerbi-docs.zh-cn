@@ -6,14 +6,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: conceptual
-ms.date: 12/16/2019
+ms.date: 01/08/2019
 ms.author: painbar
-ms.openlocfilehash: 44fcfdbaa51b85b191ff1452c66daee7da0360f8
-ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
+ms.openlocfilehash: caed3a107b8f7a57d2fb3da92073cb8a5f5331cd
+ms.sourcegitcommit: 02342150eeab52b13a37b7725900eaf84de912bc
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/06/2020
-ms.locfileid: "75220508"
+ms.lasthandoff: 01/23/2020
+ms.locfileid: "76538396"
 ---
 # <a name="whats-new-in-the-mobile-apps-for-power-bi"></a>Power BI 移动应用中的新功能
 有关相关的“新增功能”的信息，请参阅：
@@ -21,6 +21,27 @@ ms.locfileid: "75220508"
 * [适用于移动应用的 Power BI 工作组日志](https://powerbi.microsoft.com/blog/tag/mobile/)
 * [Power BI Desktop 中的新增功能](../../desktop-latest-update.md)  
 * [Power BI 服务中的最近更新](../../service-whats-new.md)  
+
+## <a name="december-2019"></a>2019 年 12 月
+
+### <a name="docked-report-footer-and-a-refresh-button---new-experiences-for-interacting-with-reports-android"></a>停靠的报表页脚和刷新按钮 - 与报表进行交互的新体验 (Android)
+
+我们已经从 Android 用户那里得知，他们使用报表的体验不是最佳的 - 使用报表页脚不太方便，并且在某些设备中下拉以刷新过于敏感。 因此，在此版本中，我们已更改以下行为：
+* **停靠的报表页脚** - 现在，在手机上打开报表时，你将发现报表页脚停靠在报表页面的底部，无论在页面上进行何种操作，该报表页脚始终可见且可用。 这样就可以轻松地使用报表提供的所有选项。
+* **报表页眉上的刷新按钮** - 你还将在报表页眉中找到一个刷新按钮，使你可以在需要时轻松刷新报表。
+
+如果这些用户喜欢以前的行为，则可以使用移动应用的新扩展的[交互设置](./mobile-app-interaction-settings.md)来还原这些行为。
+
+此外，IT 管理员还可以通过使用应用配置文件所选的 MDM 工具以其用户身份[远程覆盖新的默认设置](./mobile-app-configuration.md#interaction-settings-android)。 这样，就可以为组织中的所有用户配置相同的行为。
+
+> [!NOTE]
+> 刷新按钮的交互设置和用于停靠报表页脚的交互设置当前对报表服务器报表没有影响。 这将随着一月报表服务器版本而更改！
+
+### <a name="set-default-bookmarks-from-your-mobile-app"></a>从移动应用设置默认书签
+现在，你可以直接从 Power BI 移动应用为报表设置默认书签。 然后，每次打开报表时，都会自动应用报表的默认书签。 [了解详细信息！](./mobile-reports-in-the-mobile-apps.md#bookmarks)
+
+### <a name="filtering-by-location-on-android-tablets"></a>在 Android 平板电脑上按位置进行筛选
+使用地理位置筛选功能，你可以根据当前位置筛选报表。 现在，适用于 Android 平板电脑的 Power BI 应用中也提供了此功能。 [了解详细信息！](./mobile-apps-geographic-filtering.md)
 
 ## <a name="november-2019"></a>2019 年 11 月
 

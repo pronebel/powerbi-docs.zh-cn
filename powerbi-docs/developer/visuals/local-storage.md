@@ -3,17 +3,17 @@ title: Power BI 视觉对象中的本地存储 API
 description: 本文介绍如何使用 Power BI 视觉对象 API 来获取对浏览器本地存储的访问权限
 author: uve
 ms.author: v-grniki
-ms.reviewer: sranins
+ms.reviewer: KesemSharabi
 ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: conceptual
-ms.date: 10/31/2019
-ms.openlocfilehash: f69a3c8928b8079f79b8a6dd5f5b132235a7089c
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.date: 01/21/2019
+ms.openlocfilehash: 85517fcd7ec773f947135614c94c0c4e4638ea48
+ms.sourcegitcommit: 02342150eeab52b13a37b7725900eaf84de912bc
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73879887"
+ms.lasthandoff: 01/23/2020
+ms.locfileid: "76539316"
 ---
 # <a name="local-storage-api"></a>本地存储 API
 
@@ -59,4 +59,5 @@ export class Visual implements IVisual {
 
 ## <a name="known-limitations-and-issues"></a>已知限制和问题
 
-默认情况下，不会为自定义视觉对象激活本地存储 API。 若要为自定义视觉对象激活它，请将请求发送到 Power BI 自定义视觉对象支持 `pbicvsupport@microsoft.com`
+默认情况下，不会为自定义视觉对象激活本地存储 API。 若要为自定义视觉对象激活它，请将请求发送到 Power BI 自定义视觉对象支持 `pbicvsupport@microsoft.com`。  
+请注意，视觉对象应在 [AppSource](https://appsource.microsoft.com/en-us/marketplace/apps?product=power-bi-visuals) 中可用且[经过认证](https://powerbi.microsoft.com/en-us/documentation/powerbi-custom-visuals-certified/)  。

@@ -6,14 +6,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
-ms.date: 05/17/2018
+ms.date: 01/21/2020
 ms.author: maggies
-ms.openlocfilehash: 019cbc489ae6433629898e44088e689767ef12ae
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 343c7d7e81d8e8ec53383feab6dc4dcfb17129d6
+ms.sourcegitcommit: 02342150eeab52b13a37b7725900eaf84de912bc
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73874181"
+ms.lasthandoff: 01/23/2020
+ms.locfileid: "76540581"
 ---
 # <a name="power-bi-report-data-sources-in-power-bi-report-server"></a>Power BI 报表服务器中 Power BI 报表数据源
 Power BI 报表可以连接到多个数据源。 根据数据使用方式，可以提供不同的数据源。 可以导入数据，或者可以直接使用 DirectQuery 或与 SQL Server Analysis Services 的实时连接查询数据。
@@ -202,12 +202,12 @@ Power BI 报表服务器不支持将基于 OAuth 的身份验证用于 DirectQue
 | Azure SQL 数据仓库 |否 |否 |是 |否 |否 |
 | Oracle 数据库 |否 |否 |是 |是 |是 |
 | SAP Business Warehouse 服务器 |否 |否 |是 |否 |否 |
-| SAP HANA 数据库 |否 |否 |是 |是 |否 |
+| SAP HANA 数据库 |否 |否 |是 |是 |是** |
 | Teradata |否 |否 |是 |是 |是 |
 
+**仅当 SAP HANA 作为发布的 Power BI Desktop 文件 (.pbix) 中的关系数据库使用 DirectQuery 时，它才支持带有集成 Windows 身份验证的 DirectQuery。
 
 ## <a name="next-steps"></a>后续步骤
 现在你已连接到数据源，接下来使用该数据源中的数据[创建 Power BI 报表](quickstart-create-powerbi-report.md)。
 
 更多问题？ [尝试咨询 Power BI 社区](https://community.powerbi.com/)
-

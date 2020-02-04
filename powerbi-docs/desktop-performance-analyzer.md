@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 05/15/2019
+ms.date: 01/23/2020
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 8bbf391135442d6490033c0fc65b7372154820d2
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: e3e9e8ebc7feda46cb4c79ffd1535807d04a178b
+ms.sourcegitcommit: a1409030a1616027b138128695b80f6843258168
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73866430"
+ms.lasthandoff: 01/24/2020
+ms.locfileid: "76709767"
 ---
 # <a name="use-performance-analyzer-to-examine-report-element-performance"></a>使用性能分析器检查报表元素性能
 
@@ -54,9 +54,12 @@ ms.locfileid: "73866430"
 
 每个视觉对象的日志信息都包含完成以下类别的任务所花费的时间：
 
-* **DAX 查询** - 如果需要 DAX 查询，这是从视觉对象发送查询到 Analysis Services 返回结果之间的时间。
+* **DAX 查询** - 如果需要 DAX 查询，这是视觉对象发送查询到 Analysis Services 返回结果的时间。
 * **视觉对象显示** - 在屏幕上绘制视觉对象所需的时间，其中包括检索任何 Web 图像或地理编码所需的时间。 
 * **其他** - 视觉对象准备查询、等待其他视觉对象完成或执行其他后台处理所需的时间。
+
+“持续时间(毫秒)”  值指示每个操作的开始  与结束  时间戳之间的差异。 大多数画布和视觉对象操作在单个用户界面线程（由多个操作共享）中按顺序执行。 报告的持续时间包括在其他操作完成期间排队等待的时间。 GitHub 上的[性能分析器示例](https://github.com/microsoft/powerbi-desktop-samples/tree/master/Performance%20Analyzer)及其关联[文档](https://github.com/microsoft/powerbi-desktop-samples/blob/master/Performance%20Analyzer/Power%20BI%20Performance%20Analyzer%20Export%20File%20Format.docx)提供有关视觉对象如何查询数据以及如何呈现的详细信息。
+
 
 ![日志信息的元素](media/desktop-performance-analyzer/performance-analyzer-06.png)
 
@@ -89,3 +92,7 @@ ms.locfileid: "73866430"
 * [使用 Power BI Desktop 调整和合并数据](desktop-shape-and-combine-data.md)
 * [Power BI Desktop 中的常见查询任务](desktop-common-query-tasks.md)   
 
+有关性能分析器示例的详细信息，请查看以下资源。
+
+* [性能分析器示例](https://github.com/microsoft/powerbi-desktop-samples/tree/master/Performance%20Analyzer)
+* [性能分析器示例文档](https://github.com/microsoft/powerbi-desktop-samples/blob/master/Performance%20Analyzer/Power%20BI%20Performance%20Analyzer%20Export%20File%20Format.docx)
