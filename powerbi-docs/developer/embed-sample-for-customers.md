@@ -10,10 +10,10 @@ ms.subservice: powerbi-developer
 ms.custom: seodec18
 ms.date: 12/12/2019
 ms.openlocfilehash: a07a3e6e1086c463e0f0c8911d7a9b6ce89aa115
-ms.sourcegitcommit: 53c2b5ea4ee1fe2659804d5ccc8e4bb445a8bcad
+ms.sourcegitcommit: 8e3d53cf971853c32eff4531d2d3cdb725a199af
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/01/2020
+ms.lasthandoff: 02/04/2020
 ms.locfileid: "76913649"
 ---
 # <a name="tutorial-embed-power-bi-content-into-an-application-for-your-customers"></a>教程：为客户将 Power BI 内容嵌入应用中
@@ -22,12 +22,12 @@ ms.locfileid: "76913649"
 
 ![Power BI 嵌入报表](media/embed-sample-for-customers/embed-sample-for-customers-035.png)
 
-在本教程中，你将了解如何执行以下操作：
+在本教程中，了解如何：
 > [!div class="checklist"]
 > * 在 Azure 中注册应用程序。
 > * 将 Power BI 报表嵌入到应用程序。
 
-## <a name="prerequisites"></a>必备条件
+## <a name="prerequisites"></a>先决条件
 
 若要开始使用，则需要具有：
 
@@ -137,11 +137,11 @@ ms.locfileid: "76913649"
 
 使用 Power BI 中的“工作区(组) GUID”填写“workspaceId”信息  。 登录 Power BI 服务或使用 Powershell 时，可获得该信息。
 
-代码 <br>
+URL <br>
 
 ![workspaceId](media/embed-sample-for-customers/embed-sample-for-customers-031.png)
 
-Powershell <br>
+PowerShell <br>
 
 ```powershell
 Get-PowerBIworkspace -name "App Owns Embed Test"
@@ -155,7 +155,7 @@ Get-PowerBIworkspace -name "App Owns Embed Test"
 
 使用 Power BI 中的“报表 GUID”填写“reportId”信息  。 登录 Power BI 服务或使用 Powershell 时，可获得该信息。
 
-代码<br>
+URL<br>
 
 ![reportId](media/embed-sample-for-customers/embed-sample-for-customers-032.png)
 
@@ -399,7 +399,7 @@ var token = client.GetClient().EmbedToken.GenerateToken(request);
 </script>
 ```
 
-## <a name="move-to-production"></a>移到生产环境
+## <a name="move-to-production"></a>移动到生产环境
 
 至此，你已完成应用程序的开发，接下来请回到工作区了解专用容量。 
 
@@ -446,7 +446,7 @@ var token = client.GetClient().EmbedToken.GenerateToken(request);
 
     ![编辑工作区](media/embed-sample-for-customers/embed-sample-for-customers-036.png)
 
-2. 展开“高级”，启用“专用容量”，然后选择所创建的专用容量   。 再选择“保存”  。
+2. 展开“高级”，启用“专用容量”，然后选择所创建的专用容量   。 然后，选择“保存”  。
 
     ![分配专用容量](media/embed-sample-for-customers/embed-sample-for-customers-024.png)
 
@@ -461,4 +461,4 @@ var token = client.GetClient().EmbedToken.GenerateToken(request);
 > [!div class="nextstepaction"]
 >[为组织嵌入内容](embed-sample-for-your-organization.md)
 
-更多疑问？ [尝试咨询 Power BI 社区](https://community.powerbi.com/)
+更多问题？ [尝试咨询 Power BI 社区](https://community.powerbi.com/)

@@ -10,10 +10,10 @@ ms.date: 11/18/2019
 ms.author: maggies
 LocalizationGroup: Create reports
 ms.openlocfilehash: 2dca4094ed0c21c421aa2fef89353e6f210b3ea4
-ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
+ms.sourcegitcommit: 8e3d53cf971853c32eff4531d2d3cdb725a199af
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/09/2020
+ms.lasthandoff: 02/04/2020
 ms.locfileid: "75761470"
 ---
 # <a name="optimize-power-bi-reports-for-the-mobile-app"></a>优化移动应用的 Power BI 报表
@@ -29,15 +29,15 @@ ms.locfileid: "75761470"
 
 创建报表后，可以针对手机和平板电脑对其进行优化。
 
-1. 在 Power BI Desktop 中的报表视图的“视图”选项卡上，选择“手机布局”    。  
+1. 在 Power BI Desktop 中的报表视图的“视图”选项卡上，选择“手机布局”。  
    
     ![“手机布局”图标](media/desktop-create-phone-report/desktop-create-phone-report-3.png)
    
-    在 Power BI 服务中，选择“编辑报表” > “移动布局”   。
+    在 Power BI 服务中，选择“编辑报表” > “移动布局”。
 
-    可以看到一个形状类似手机的空白画布。 原始报表页上的所有视觉对象将列在右侧的“可视化效果”窗格中  。
+    可以看到一个形状类似手机的空白画布。 原始报表页上的所有视觉对象将列在右侧的“可视化效果”窗格中。
 
-1. 要将视觉对象添加到手机布局中，请将它从“可视化效果”窗格拖动到手机画布中  。
+1. 要将视觉对象添加到手机布局中，请将它从“可视化效果”窗格拖动到手机画布中。
    
     手机报表使用网格布局。 在将视觉对象拖动到移动画布时，它们将与该网格对齐。
    
@@ -52,7 +52,7 @@ ms.locfileid: "75761470"
    ![重设视觉对象大小](media/desktop-create-phone-report/desktop-create-phone-report-5.gif)
 
 ## <a name="optimize-a-visual-for-any-size"></a>将视觉对象优化为适应任意大小
-可以将仪表板或报表中的视觉对象设置为“响应式”。  视觉对象大幅度更改以显示最大数量的数据和见解的视觉对象，与屏幕大小无关。 
+可以将仪表板或报表中的视觉对象设置为“响应式”。 视觉对象大幅度更改以显示最大数量的数据和见解的视觉对象，与屏幕大小无关。 
 
 在视觉对象缩放时，Power BI 会优先确保显示数据视图。 例如，它可以自动删除填充，并将图例移至视觉对象顶部，这样即便视觉对象变小，也仍可提供信息。
 
@@ -68,7 +68,7 @@ ms.locfileid: "75761470"
 * Power BI 在移动应用中提供手机报表的默认标题和页面名称。 如果你已在报表中创建了标题和页面名称的文本视觉对象，请考虑不将它们添加到手机报表中。     
 
 ## <a name="remove-a-visual-from-the-phone-layout"></a>从手机布局中删除视觉对象
-* 要删除视觉对象，请选择手机画布上的视觉对象右上角的“X”，或将其选中，然后按“删除”   。
+* 要删除视觉对象，请选择手机画布上的视觉对象右上角的“X”，或将其选中，然后按“删除”。
   
    从此次删除视觉对象只会将其从手机布局画布中删除。 视觉对象和原始报表不受影响。
   
@@ -79,7 +79,7 @@ ms.locfileid: "75761470"
 
 * 确定报表读取器是否仅可以选择一个项或多个项。
 * 在切片器周围放置一个框，以使报表更易于扫描。
-* 使切片器呈垂直、水平或响应式  。 
+* 使切片器呈垂直、水平或响应式。 
 
 如果将切片器设置为响应式，则在改变它大小和形状时，它显示更多或更少的选项。 它可以是调高、调短、调宽或调窄。 如果将其调整得足够小，它将变为报表页上的一个筛选器图标。 
 

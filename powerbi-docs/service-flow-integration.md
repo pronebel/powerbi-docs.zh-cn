@@ -11,10 +11,10 @@ ms.date: 03/01/2018
 ms.author: maggies
 LocalizationGroup: Get started
 ms.openlocfilehash: e9c6185506d1992a46ee14ff1eafe0c37d9f65c1
-ms.sourcegitcommit: 02b05932a119527f255e1eacc745a257044e392f
+ms.sourcegitcommit: 8e3d53cf971853c32eff4531d2d3cdb725a199af
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/19/2019
+ms.lasthandoff: 02/04/2020
 ms.locfileid: "75223789"
 ---
 # <a name="power-automate-and-power-bi"></a>Power Automate 和 Power BI
@@ -42,7 +42,7 @@ ms.locfileid: "75223789"
 3. 选择“**使用模板创建**”。
    
     ![我的流菜单栏](media/service-flow-integration/power-bi-template.png)
-4. 在搜索框中查找 Power BI 模板，然后选择“在触发 Power BI 数据警时，向任何受众发送电子邮件>继续”  。
+4. 在搜索框中查找 Power BI 模板，然后选择“在触发 Power BI 数据警时，向任何受众发送电子邮件>继续”。
    
     ![搜索结果](media/service-flow-integration/power-bi-flow-alert.png)
 
@@ -55,7 +55,7 @@ ms.locfileid: "75223789"
 1. 在触发器下拉列表中，选择一个 Power BI 数据警报。 选择“**爱尔兰新获奖牌**”。 若要了解如何创建警报，请参阅 [Power BI 中的数据警报](service-set-data-alerts.md)。
    
    ![警报下拉列表](media/service-flow-integration/power-bi-trigger-flow.png)
-2. 输入一个或多个有效电子邮件地址，然后选择“编辑”  （如下所示） 或“添加动态内容”  。 
+2. 输入一个或多个有效电子邮件地址，然后选择“编辑”（如下所示） 或“添加动态内容”。 
    
    ![发送电子邮件屏幕](media/service-flow-integration/power-bi-flow-email.png)
 
@@ -63,13 +63,13 @@ ms.locfileid: "75223789"
 
    ![发送电子邮件屏幕](media/service-flow-integration/power-bi-flow-email-default.png)
 
-1.  例如，如果你在 Power BI 中创建了警报标题“我们获得了另一枚奖牌”  ，则可以选择“警报标题”  将该文本添加到电子邮件的“主题”字段。
+1.  例如，如果你在 Power BI 中创建了警报标题“我们获得了另一枚奖牌”，则可以选择“警报标题”将该文本添加到电子邮件的“主题”字段。
 
     ![创建电子邮件文本](media/service-flow-integration/power-bi-flow-message.png)
 
     而且，你可以接受默认电子邮件正文或自行创建正文。 以上示例包含对消息的一些修改。
 
-1. 完成后，选择“创建流”  或“保存流”  。  此时，系统已创建并计算流。  Flow 会在有错误时提示你。
+1. 完成后，选择“创建流”或“保存流”。  此时，系统已创建并计算流。  Flow 会在有错误时提示你。
 2. 如果有错误，请选择“**编辑流**”修复错误。如果没有错误，请选择“**完成**”运行这一新流。
    
    ![成功消息](media/service-flow-integration/power-bi-flow-running.png)
@@ -81,16 +81,16 @@ ms.locfileid: "75223789"
 在此任务中，我们将从头开始创建一个由 Power BI 数据警报（通知）触发的简单流。
 
 1. 登录 Power Automate。
-2. 依次选择“我的流”   > “从头开始创建”  。
+2. 依次选择“我的流” > “从头开始创建”。
    
    ![流顶部菜单栏](media/service-flow-integration/power-bi-my-flows.png)
-3. 在搜索框中查找 Power BI 触发器，然后选择“Power BI - 当数据驱动警报触发时”  。
+3. 在搜索框中查找 Power BI 触发器，然后选择“Power BI - 当数据驱动警报触发时”。
 
 ### <a name="build-your-flow"></a>生成流
 1. 在下拉列表中，选择警报名称。  若要了解如何创建警报，请参阅 [Power BI 中的数据警报](service-set-data-alerts.md)。
    
     ![选择警报名称](media/service-flow-integration/power-bi-totalstores2.png)
-2. 选择“新建步骤”   > “添加操作”  。
+2. 选择“新建步骤” > “添加操作”。
    
    ![添加新步骤](media/service-flow-integration/power-bi-new-step.png)
 3. 搜索 **Outlook**，然后选择“**创建事件**”。
@@ -99,7 +99,7 @@ ms.locfileid: "75223789"
 4. 填写事件字段。 在你选择字段的同时，Flow 会显示可以包含的动态内容。
    
    ![继续生成流](media/service-flow-integration/power-bi-flow-event.png)
-5. 完成后，选择“创建流”  。  此时，Flow 会保存并计算流。 如果没有错误，请选择“**完成**”运行此流。  此时，系统会将这一新流添加到“**我的流**”页中。
+5. 完成后，选择“创建流”。  此时，Flow 会保存并计算流。 如果没有错误，请选择“**完成**”运行此流。  此时，系统会将这一新流添加到“**我的流**”页中。
    
    ![完成流](media/service-flow-integration/power-bi-flow-running.png)
 6. 当 Power BI 数据警报触发流时，你会收到如下 Outlook 事件通知。

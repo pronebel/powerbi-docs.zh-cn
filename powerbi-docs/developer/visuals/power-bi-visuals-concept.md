@@ -10,10 +10,10 @@ ms.subservice: powerbi-custom-visuals
 ms.topic: conceptual
 ms.date: 06/18/2019
 ms.openlocfilehash: bb0834527ba23c6cfcc155cc65cd0318b296ba84
-ms.sourcegitcommit: 052df769e6ace7b9848493cde9f618d6a2ae7df9
+ms.sourcegitcommit: 8e3d53cf971853c32eff4531d2d3cdb725a199af
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/14/2020
+ms.lasthandoff: 02/04/2020
 ms.locfileid: "75925598"
 ---
 # <a name="visuals-in-power-bi"></a>Power BI 中的视觉对象
@@ -42,7 +42,7 @@ Power BI 视觉对象中的操作和后续更新采用以下三种模式之一�
 
 * 用户打开视觉对象的属性面板。
 
-    当用户打开视觉对象的属性面板时，Power BI 将从视觉对象的 capabilities.json  文件中获取支持的对象和属性。 若要接收属性的实际值，Power BI 调用视觉对象的 `enumerateObjectInstances` 方法。 视觉对象返回属性的实际值。
+    当用户打开视觉对象的属性面板时，Power BI 将从视觉对象的 capabilities.json 文件中获取支持的对象和属性。 若要接收属性的实际值，Power BI 调用视觉对象的 `enumerateObjectInstances` 方法。 视觉对象返回属性的实际值。
 
     有关详细信息，请参阅 [Power BI 视觉对象的功能和属性](capabilities.md)。
 
