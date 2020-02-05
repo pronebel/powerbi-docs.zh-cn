@@ -10,10 +10,10 @@ ms.date: 10/22/2019
 ms.author: nikhilga
 LocalizationGroup: Get started
 ms.openlocfilehash: 06e46413be709ac3eda2102332740d709092187e
-ms.sourcegitcommit: c395fe83d63641e0fbd7c98e51bbab224805bbcc
+ms.sourcegitcommit: 8e3d53cf971853c32eff4531d2d3cdb725a199af
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/21/2019
+ms.lasthandoff: 02/04/2020
 ms.locfileid: "74265339"
 ---
 # <a name="whats-new-in-the-power-bi-service"></a>Power BI 服务中的新功能
@@ -353,7 +353,7 @@ ms.locfileid: "74265339"
 
 * 自动完成“is”：如果你键入列名，并且后跟“is”，则问答将提供一些建议值。
 
-***移动***
+***移动窗体***
 
 * Apple Watch 上的 KPI：无需打开 Power BI 应用即可监视 KPI 和卡片磁贴。
 

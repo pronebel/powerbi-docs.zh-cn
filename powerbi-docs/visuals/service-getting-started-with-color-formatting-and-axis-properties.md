@@ -6,32 +6,32 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 12/14/2019
+ms.date: 01/30/2020
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: b42d83b4cea6f5f5e8908244b2b298dc3f327468
-ms.sourcegitcommit: 02342150eeab52b13a37b7725900eaf84de912bc
+ms.openlocfilehash: 2433f030f00ec8cd337d97c4402b83ed6c4c5a00
+ms.sourcegitcommit: 64a270362c60581a385af7fbc31394e3ebcaca41
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/23/2020
-ms.locfileid: "76540606"
+ms.lasthandoff: 01/31/2020
+ms.locfileid: "76895146"
 ---
 # <a name="getting-started-with-the-formatting-pane"></a>“格式设置”窗格入门
-如果对报表具有编辑权限，则可以使用许多可用的格式设置选项。 在 Power BI  报表中，可以更改数据系列、数据点的颜色，甚至可以更改可视化效果的背景。 可以更改 x 轴和 y 轴的显示方式。 甚至可以设置可视化效果、形状和标题的字体属性的格式，从而完全控制报表的显示方式。
+如果对报表具有编辑权限，则可以使用许多可用的格式设置选项。 在 Power BI 报表中，可以更改数据系列、数据点的颜色，甚至可以更改可视化效果的背景。 可以更改 x 轴和 y 轴的显示方式。 甚至可以对可视化效果、形状和标题的字体属性进行格式设置。 使用 Power BI，你可以全面控制报表的显示方式。
 
-若要开始，请在 Power BI Desktop 或 Power BI 服务中打开报表。 两者都提供几乎相同的格式设置选项。 在 Power BI 服务中打开报表时，请确保从菜单栏中选择“编辑报表”  。  
+若要开始，请在 Power BI Desktop 或 Power BI 服务中打开报表。 两者都提供几乎相同的格式设置选项。 在 Power BI 服务中打开报表时，请确保从菜单栏中选择“编辑”  。 
 
 ![显示“编辑”选项的菜单栏](media/service-getting-started-with-color-formatting-and-axis-properties/power-bi-edit.png)
 
-在你编辑报表并已经选择了可视化效果时，将出现让你可添加或更改可视化效果的**可视化效果**窗格。 可用可视化效果的正下方有三个图标：“字段”  图标（叠放的条形）、“格式”  图标（滚筒刷）和“分析”  图标（放大镜）。 以下图像中，**字段**图标处于选中状态，图标下方以黄色栏指示。
+在编辑报表时，选中可视化效果后，将显示“可视化效果”  窗格。 可使用此窗格更改可视化效果。 “可视化效果”的正下方有三个图标：“字段”图标（叠放的条形）、“格式”图标（滚动油漆刷）和“分析”图标（放大镜）。     以下图像中，“字段”  图标处于选中状态，图标下方以黄色栏指示。
 
-![](media/service-getting-started-with-color-formatting-and-axis-properties/gettingstartedcolor_2a.png)
+![](media/service-getting-started-with-color-formatting-and-axis-properties/power-bi-format.png)
 
-当选择**格式**时，图标下方的区域将显示适用于当前所选可视化效果的颜色和轴自定义选项。  
+当选择“格式”  时，图标下方的区域将显示适用于当前所选可视化效果的自定义选项。  
 
-![](media/service-getting-started-with-color-formatting-and-axis-properties/gettingstartedcolor_3a.png)
+![](media/service-getting-started-with-color-formatting-and-axis-properties/power-bi-format-selected.png)
 
-你可以自定义每个可视化效果的多个元素：
+可以自定义每个可视化效果的多个元素。 可用选项取决于所选视觉对象。 其中一些选项包括：
 
 * 图例
 * X 轴
@@ -44,6 +44,12 @@ ms.locfileid: "76540606"
 * 背景
 * 锁定纵横比
 * 边框
+* 工具提示
+* 视觉对象标头
+* 形状
+* 位置    
+等等。
+
 
 > [!NOTE]
 >  
@@ -51,49 +57,101 @@ ms.locfileid: "76540606"
 
 另请注意，如果没有选择任何可视化效果，**筛选器**将会在图标的位置出现，这让你可以将筛选器应用于页面上的所有可视化效果。
 
-我们来看两个示例：一个处理颜色，另一个更改轴的属性。 此处你应该随时准备好自定义颜色、轴和标签。
+了解如何使用“格式设置”选项的最佳方式是试用它们。可以随时撤消更改或还原为默认值。 我们提供了大量的可用选项，并会持续添加新选项。 一篇文章无法介绍所有格式设置选项。 但作为入门指引，让我们一起看看其中几个选项吧。 
+
+1. 更改视觉对象中使用的颜色   
+2. 应用样式    
+3. 更改轴属性    
+4. 添加数据标签    
+
+
+
 
 ## <a name="working-with-colors"></a>处理颜色
 
-让我们逐步完成图表上自定义颜色所必需的步骤。
+让我们逐步完成自定义可视化效果颜色所必需的步骤。
 
-1. 我从报表画布中选择**簇状柱形图**。
-2. 接下来，我选择**格式**图标来显示可用的自定义项。
-3. 然后，我选择**数据颜色**自定义项左侧的向下小箭头。 这将显示我可以自定义数据颜色的方式，以及特定于我所选的可视化效果的选项。
-4. **数据颜色**将向下展开以显示其可用的自定义项。  
-   ![](media/service-getting-started-with-color-formatting-and-axis-properties/gettingstartedcolor_4a.png)
+1. 选择可视化组件并将其激活。
 
-我们来做一些更改。 我可以选择颜色旁边的向下箭头来对每个可用的数据系列进行更改。 我将“生活费用”  设为黄色，将“天气”  设为橙色，并将“社区福祉”  设为绿色。 以下屏幕将在上一步，即更改**生活成本**向我显示。  
+2. 选择滚动油漆刷图标，打开“格式”选项卡。“格式设置”选项卡显示了对所选视觉对象可用的所有格式设置元素。
 
-![](media/service-getting-started-with-color-formatting-and-axis-properties/gettingstartedcolor_5a.png)
+    ![此图表中选中了“格式设置”窗格选项卡](media/service-getting-started-with-color-formatting-and-axis-properties/power-bi-formatting.png)
 
-所做的更改显示于下图。 哇，这个图表真鲜艳。 以下是处理颜色时需要注意的几个有用的元素。 下面列表中的数字也会在以下屏幕上显示，用于指示可以访问或更改这些有用元素的位置。
+3. 选择“数据颜色”  以展开其可用自定义项。  
 
-1. 不喜欢这些颜色吗？ 没关系，只需选择**恢复为默认**，然后你的选择将恢复为默认设置。 你可以对一种颜色或对整个可视化效果进行该操作。
-2. 想要调色板中没有的颜色？ 只需选择**自定义颜色**，然后从色谱进行选择即可。  
-   ![](media/service-getting-started-with-color-formatting-and-axis-properties/gettingstartedcolor_6a.png)
+    ![此图表中打开了“格式设置”窗格并展开了“数据颜色”](media/service-getting-started-with-color-formatting-and-axis-properties/power-bi-data-colors.png)
+
+4. 将“全部显示”  切换为“开”，并为各列选择不同的颜色。
+
+    ![此图表中对某些列应用了新颜色](media/service-getting-started-with-color-formatting-and-axis-properties/power-bi-change-colors.png)
+
+下面介绍处理颜色的一些有用提示。 下面列表中的数字也会在以下屏幕上显示，用于指示可以访问或更改这些有用元素的位置。
+
+1. 不喜欢这个颜色？ 没关系，只需选择“还原为默认值”  ，所选内容就会恢复为默认设置。 
+
+2. 不喜欢任何颜色更改？ 从“数据颜色”选区的底部选择“还原为默认值”，即可将所有颜色还原为默认设置。   
+
+3. 想要调色板中没有的颜色？ 只需选择**自定义颜色**，然后从色谱进行选择即可。  
+
+   ![数据颜色选区，其中打开了调色板](media/service-getting-started-with-color-formatting-and-axis-properties/power-bi-color-extras.png)
 
 不喜欢你刚刚进行的更改？ 使用 **CTRL+Z** 撤销操作，就像你之前操作的那样。
+
+## <a name="applying-a-style-to-a-table"></a>向表应用样式
+某些 Power BI 可视化效果具有“样式”  选项。 一键单击，即可同时向可视化效果应用一组格式设置选项。 
+
+1. 选择表或矩阵以将其激活。   
+1. 打开“格式设置”选项卡并选择“样式”。 
+
+   ![从“格式设置”选项卡中选择“样式”](media/service-getting-started-with-color-formatting-and-axis-properties/power-bi-style.png)
+
+
+1. 从下拉列表中选择样式。 
+
+   ![相同的表格，包含带加粗标题的有格式行](media/service-getting-started-with-color-formatting-and-axis-properties/power-bi-style-flashy.png)
+
+即使在应用样式后，也可继续对该可视化效果的各属性（包括颜色）进行格式设置。
+
 
 ## <a name="changing-axis-properties"></a>更改轴属性
 
 修改 X 轴或 Y 轴通常很有用。 与处理颜色类似，可以通过选择想要更改的轴的左侧的向下箭头来修改轴，如下图所示。  
-![](media/service-getting-started-with-color-formatting-and-axis-properties/gettingstartedcolor_7a.png)
+![](media/service-getting-started-with-color-formatting-and-axis-properties/power-bi-y-axis.png)
 
-如果你想要折叠 **X 轴**选项，只需选择**X 轴**旁边的向上箭头图标。
+在以下示例中，我们对 Y 轴进行了以下格式设置：
+- 将标签移动到可视化效果右侧
 
-通过切换 X 轴  旁边的单选按钮，可以完全删除 X 轴标签。 还可以通过选择**标题**旁的单选按钮来选择是否打开或关闭轴标题。  
+- 将起始值改为零
 
-有各种类型的颜色可供选择，并且可以对 Power BI 报表和仪表板应用更多的自定义项。
+- 将标签字体颜色改为黑色
 
-> [!NOTE]
->  
-> 这些颜色、轴以及相关的可用自定义项在选中**格式**图标时可用，在 Power BI Desktop 中也可用。
+- 将标签字号增大到 12
 
-## <a name="setting-color-from-text-values"></a>设置文本值颜色
+- 添加 Y 轴标题
 
-从 2018 年 8 月版 Power BI Desktop 更新开始，对于给定报表元素，可按文本值设置颜色  。 有关详细信息，请参阅[表格中的条件格式设置](../desktop-conditional-table-formatting.md)。
 
+    ![相同的柱形图，但 Y 轴进行了多种格式设置](media/service-getting-started-with-color-formatting-and-axis-properties/power-bi-axis-changes.png)
+
+通过切换“X 轴”或“Y 轴”旁边的单选按钮，可以完全删除轴标签。   还可以通过选择**标题**旁的单选按钮来选择是否打开或关闭轴标题。  
+
+
+
+## <a name="adding-data-labels"></a>添加数据标签    
+
+在你开始自行探索之前，我们再看最后一个格式设置示例。  向分区图添加数据标签。 
+
+这是进行格式设置之前的图片  。 
+
+![未设置格式的分区图](media/service-getting-started-with-color-formatting-and-axis-properties/power-bi-area-chart.png)
+
+
+这是进行格式设置之后的图片  。
+
+![设置了格式的分区图](media/service-getting-started-with-color-formatting-and-axis-properties/power-bi-data-labels.png)
+
+我们选择了可视化效果以使其处于活动状态，并打开了“格式设置”选项卡。我们选择了“数据标签”  并将其打开。 然后，将字号增加到 12，将字体系列改为 Arial Black，将“显示背景”  设置为“开”，并将背景色改为白色、透明度 5%。
+
+以上只是可以进行的格式设置任务中的少数几个。 在“编辑”模式下打开报表，并任意探索“格式设置”窗格，可创建外观精美、信息丰富的可视化效果。
 
 ## <a name="next-steps"></a>后续步骤
 有关详细信息，请参阅以下文章：  

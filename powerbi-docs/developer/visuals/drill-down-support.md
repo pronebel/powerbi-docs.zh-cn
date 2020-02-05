@@ -10,10 +10,10 @@ ms.subservice: powerbi-custom-visuals
 ms.topic: conceptual
 ms.date: 06/18/2019
 ms.openlocfilehash: 0253455cfba96c3c467f4cf8882550e22edce8ba
-ms.sourcegitcommit: 0cc594ebb78a6d0e88784673ed09f8aefd10c7a7
+ms.sourcegitcommit: 8e3d53cf971853c32eff4531d2d3cdb725a199af
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/29/2020
+ms.lasthandoff: 02/04/2020
 ms.locfileid: "76819229"
 ---
 # <a name="add-drill-down-support"></a>添加向下钻取支持
@@ -205,7 +205,7 @@ button {
 
 准备示例数据以测试视觉对象：
 
-|   H1  |   H2    | H3  |   VALUES  |
+|   H1  |   H2    | H3  |   值  |
 |-----|-----|------|-------|
 |   A   |   A1  |   A11 |   1   |
 |   A   |   A1  |   A12 |   2   |
@@ -315,7 +315,7 @@ export class Visual implements IVisual {
 
 准备示例数据以使用矩阵数据视图映射测试视觉对象：
 
-|   行 1   |   行 2   |   行 3   |   Column1   |   Column2   |   Column3   |   值   |
+|   行 1   |   行 2   |   行 3   |   列 1   |   列 2   |   Column3   |   值   |
 |-----|-----|------|-------|-------|-------|-------|
 |   R1   |   R11   |   R111   |   C1   |   C11   |   C111   |   1   |
 |   R1   |   R11   |   R112   |   C1   |   C11   |   C112   |   2   |

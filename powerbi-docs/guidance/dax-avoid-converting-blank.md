@@ -9,10 +9,10 @@ ms.topic: conceptual
 ms.date: 11/24/2019
 ms.author: v-pemyer
 ms.openlocfilehash: 2f70b98ed540a2e5b87e5a949e30b0c1c02069d1
-ms.sourcegitcommit: f77b24a8a588605f005c9bb1fdad864955885718
+ms.sourcegitcommit: 8e3d53cf971853c32eff4531d2d3cdb725a199af
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/02/2019
+ms.lasthandoff: 02/04/2020
 ms.locfileid: "74700377"
 ---
 # <a name="dax-avoid-converting-blanks-to-values"></a>DAX：不要将空白转换为值
@@ -37,7 +37,7 @@ Profit Margin =
 DIVIDE([Profit], [Sales], 0)
 ```
 
-[DIVIDE](/dax/divide-function-dax) 函数将“Profit”度量值除以“Sales”度量值。 如果结果为零或 BLANK，则返回第三个参数，即备用结果（可选）。 在此示例中，由于将零作为备用结果传递，因此保证了度量值总会返回值。
+[DIVIDE](/dax/divide-function-dax) 函数将“Profit”度量值除以“Sales”度量值   。 如果结果为零或 BLANK，则返回第三个参数，即备用结果（可选）。 在此示例中，由于将零作为备用结果传递，因此保证了度量值总会返回值。
 
 这些度量值的设计效率低下，导致报表设计不佳。
 
@@ -45,16 +45,16 @@ DIVIDE([Profit], [Sales], 0)
 
 而且，过多分组常常会使报表用户不堪重负。
 
-让我们看看将“Profit Margin”度量值添加到表视觉对象后会发生什么情况，按客户分组显示。
+让我们看看将“Profit Margin”度量值添加到表视觉对象后会发生什么情况，按客户分组显示  。
 
 ![表视觉对象有三列：Customer、Sales 和 Profit Margin。 该表显示了大概 10 行数据，但垂直滚动条表明还有很多行没有显示出来。 “Sales”列不显示任何值。 “Profit Margin”列仅显示零。](media/dax-avoid-converting-blank/table-visual-poor.png)
 
-该表视觉对象显示的行数巨大。 （实际上模型中有 18484 名客户，因此表尝试显示所有客户。）请注意，视图中的客户达到没有任何销售量。 然而，由于“Profit Margin”度量值始终返回值，因此会显示没有销售量的客户。
+该表视觉对象显示的行数巨大。 （实际上模型中有 18484 名客户，因此表尝试显示所有客户。）请注意，视图中的客户达到没有任何销售量。 然而，由于“Profit Margin”度量值始终返回值，因此会显示没有销售量的客户  。
 
 > [!NOTE]
 > 如果视觉对象中要显示的数据点过多，Power BI 可能会使用数据缩减策略来删除或汇总大型查询结果。 有关更多信息，请查看[数据点限制和策略（按视觉对象类型）](../visuals/power-bi-data-points.md)。
 
-我们来看一看改进“Profit Margin”度量值定义后会发生什么情况。 仅当“Sales”度量值不为 BLANK（或零）时，它才会返回值。
+我们来看一看改进“Profit Margin”度量值定义后会发生什么情况  。 仅当“Sales”度量值不为 BLANK（或零）时，它才会返回值  。
 
 ```dax
 Profit Margin =
