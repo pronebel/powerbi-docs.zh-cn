@@ -1,6 +1,6 @@
 ---
-title: 符合 ISO 14289-1 标准的 PDF 呈现扩展插件 — Power BI 报表服务器
-description: 本文档介绍符合 ISO 14289-1 (PDF/UA) 规范的 Power BI 报表服务器和 SQL Reporting Services PDF 呈现扩展插件。
+title: 符合 ISO 14289-1 标准的 PDF 呈现扩展插件 - Power BI 报表服务器和 SSRS
+description: 本文档介绍符合 ISO 14289-1 (PDF/UA) 规范的 Power BI 报表服务器和 SQL Server Reporting Services PDF 呈现扩展插件。
 author: maggiesMSFT
 ms.reviewer: ''
 ms.service: powerbi
@@ -8,18 +8,18 @@ ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 11/04/2019
 ms.author: maggies
-ms.openlocfilehash: c800ee995bc3c03b3cbcda91503e6dea9495f6b5
-ms.sourcegitcommit: 721cf375627b010e8ad12c4c668295f38d450a17
+ms.openlocfilehash: bfefcef18b8cd92a5c3b15c2dcbd4653a6c7c9cd
+ms.sourcegitcommit: 0cc594ebb78a6d0e88784673ed09f8aefd10c7a7
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "73638071"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "76819505"
 ---
-# <a name="pdf-rendering-extension-conformance-to-iso-14289-1---power-bi-report-server"></a>符合 ISO 14289-1 标准的 PDF 呈现扩展插件 — Power BI 报表服务器 
+# <a name="pdf-rendering-extension-conformance-to-iso-14289-1---power-bi-report-server--ssrs"></a>符合 ISO 14289-1 标准的 PDF 呈现扩展插件 - Power BI 报表服务器和 SSRS
 
-适用于：Power BI 报表服务器和 SQL Reporting Services
+适用对象：Power BI 报表服务器和 SQL Server Reporting Services (SSRS)
 
-本文档介绍符合 [ISO 14289-1 (PDF/UA)](https://www.pdfa.org/publication/pdfua-in-a-nutshell/) 规范的 Power BI 报表服务器和 SQL Reporting Services PDF 呈现扩展插件。
+本文档介绍符合 [ISO 14289-1 (PDF/UA)](https://www.pdfa.org/publication/pdfua-in-a-nutshell/) 规范的 Power BI 报表服务器和 SQL Server Reporting Services PDF 呈现扩展插件。
 
 > [!NOTE]
 > 可以从浏览器中选择“打印”，然后选择“另存为 PDF”，以保存或打印此白皮书   。
@@ -48,7 +48,7 @@ ms.locfileid: "73638071"
 
 ## <a name="6--conformance-requirements"></a>6.一致性要求
 
-|     标准     |     支持功能     |     备注      |
+|     条件     |     支持功能     |     备注      |
 |----|--------|--------|
 |    6.1 常规    |                 支持    |    PDF 呈现扩展插件创建 PDF 版本 1.7。    |
 |    6.2 符合文件要求    |                 支持但有例外    |    请参阅第 7 节“文件格式要求”中的备注。    |
@@ -102,7 +102,7 @@ ms.locfileid: "73638071"
 
 ## <a name="disclaimer"></a>Disclaimer
 
-© 2017 Microsoft Corporation. All rights reserved. The names of actual companies and products mentioned herein may be the trademarks of their respective owners. The information contained in this document represents the current view of Microsoft Corporation on the issues discussed as of the date of publication. Microsoft cannot guarantee the accuracy of any information presented after the date of publication. Microsoft regularly updates its websites with new information about the accessibility of products as that information becomes available.
+© 2017 Microsoft Corporation. 保留所有权利。 The names of actual companies and products mentioned herein may be the trademarks of their respective owners. The information contained in this document represents the current view of Microsoft Corporation on the issues discussed as of the date of publication. Microsoft cannot guarantee the accuracy of any information presented after the date of publication. Microsoft regularly updates its websites with new information about the accessibility of products as that information becomes available.
 
 Customization of the product voids this conformance statement from Microsoft. Please consult with Assistive Technology (AT) vendors for compatibility specifications of specific AT products.
 
@@ -112,5 +112,5 @@ This document is for informational purposes only. MICROSOFT MAKES NO WARRANTIES,
 ## <a name="next-steps"></a>后续步骤
 [管理员概述](admin-handbook-overview.md)  
 
-更多问题？ [尝试咨询 Power BI 社区](https://community.powerbi.com/)
+更多疑问？ [尝试咨询 Power BI 社区](https://community.powerbi.com/)
 

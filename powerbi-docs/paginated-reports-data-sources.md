@@ -7,13 +7,13 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: conceptual
-ms.date: 12/03/2019
-ms.openlocfilehash: bd58f5f5f6ceaad07cbba5d25508a160b3447f88
-ms.sourcegitcommit: 4359baa43ca01b179d28ec59f4e61ba8c07ee288
+ms.date: 01/30/2020
+ms.openlocfilehash: 17d5661cf68b3a79598dc370ecff17c1c438fc8e
+ms.sourcegitcommit: 64a270362c60581a385af7fbc31394e3ebcaca41
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/20/2019
-ms.locfileid: "75304337"
+ms.lasthandoff: 01/31/2020
+ms.locfileid: "76895088"
 ---
 # <a name="supported-data-sources-for-power-bi-paginated-reports"></a>Power BI 分页报表支持的数据源
 
@@ -23,14 +23,14 @@ ms.locfileid: "75304337"
 
 分页报表本机支持下表中的数据源：
 
-| 数据源 | 身份验证 | 备注 |
+| 数据源 | 身份验证 | 说明 |
 | --- | --- | --- |
 | Azure SQL 数据库 <br>Azure SQL 数据仓库 | 基本、单一登录 (SSO)、OAuth2 |   |
 | Azure SQL 托管实例 | 基本 | 通过公共终结点使用 Azure SQL 数据库扩展  |
-| Azure Analysis Services | SSO、OAuth2 |   |
+| Azure Analysis Services | SSO、OAuth2 | 必须禁用 AAS 防火墙或将其配置为允许所有 IP 范围  |
 | Power BI 数据集 | SSO | 高级和非高级 Power BI 数据集。 需要读取权限 |
 | 高级 Power BI 数据集 (XMLA) | SSO |   |
-| 输入数据 | 不适用 | 数据嵌入在报表中。 |
+| 输入数据 | 空值 | 数据嵌入在报表中。 |
 
 将报表上传到 Power BI 服务之后，可使用除 Azure SQL 数据库之外的所有数据源。 如果适用的话，数据源默认使用单一登录 (SSO)。 对于 Azure Analysis Services，可将身份验证类型更改为 OAuth2。
 
@@ -73,4 +73,4 @@ ms.locfileid: "75304337"
 
 [在 Power BI 服务中查看分页报表](consumer/paginated-reports-view-power-bi-service.md)
 
-更多问题？ [尝试参与 Power BI 社区](https://community.powerbi.com/)
+更多疑问？ [尝试参与 Power BI 社区](https://community.powerbi.com/)

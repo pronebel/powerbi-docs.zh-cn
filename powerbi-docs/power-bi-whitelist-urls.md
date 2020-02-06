@@ -1,26 +1,26 @@
 ---
 title: 列入允许列表的 Power BI URL
-description: 本文介绍客户使用 Power BI 时应可访问的终结点。
+description: 本文列出了用于连接到 Power BI 的安全列表的 URL 终结点和端口。
 author: kfollis
 ms.author: kfollis
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 10/22/2018
+ms.date: 01/29/2020
 ms.custom: seodec18
-ms.openlocfilehash: cd13e36ca7216036a22db332a508e3c825fecf4b
-ms.sourcegitcommit: f77b24a8a588605f005c9bb1fdad864955885718
+ms.openlocfilehash: 48406a8c68237d182960b46de67f91dbd2717922
+ms.sourcegitcommit: 64a270362c60581a385af7fbc31394e3ebcaca41
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/02/2019
-ms.locfileid: "74698776"
+ms.lasthandoff: 01/31/2020
+ms.locfileid: "76894651"
 ---
 # <a name="power-bi-urls-for-whitelisting"></a>列入允许列表的 Power BI URL
 
 Power BI 联机服务也称为 Power BI SaaS（服务型软件）应用程序，需要连接 Internet  。 下面的终结点应可供使用 Power BI 联机服务的客户访问。
 
-若要使用 Power BI 联机服务，必须有权连接到下表中标记为“必需”的终结点，以及链接站点上任何标记为“必需”的终结点   。 如果指向外部站点的链接表示特定部分，只需查看该部分中的终结点即可。
+若要使用 Power BI 联机服务，必须能够连接到下表中标记为“必需”  的终结点，以及链接站点上任何标记为“必需”  的终结点。 如果指向外部站点的链接表示特定部分，只需查看该部分中的终结点即可。
 
 为使特定功能正常运行，标记为“可选”的终结点也可能列入允许列表   。
 
@@ -37,7 +37,7 @@ Power BI 依赖于 Office 365 身份验证和标识部分中所需的终结点�
 
 | 行 | 用途 | 目标 | 端口 |
 | --- | --- | --- | --- |
-| 1 | **必需：** 身份验证和标识 | 请参阅 Office 365 文档，了解 [Office Online 和常用 URL](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges#microsoft-365-common-and-office-online)  | 不适用 |
+| 1 | **必需：** 身份验证和标识 | 请参阅 Office 365 文档，了解 [Office Online 和常用 URL](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges#microsoft-365-common-and-office-online)  | 空值 |
 
 ## <a name="general-site-usage"></a>常规站点使用
 
@@ -46,11 +46,12 @@ Power BI 依赖于 Office 365 身份验证和标识部分中所需的终结点�
 | 行 | 用途 | 目标 | 端口 |
 | --- | --- | --- | --- |
 | 1 | **必需：** 后端 API | *.analysis.windows.net | TCP 443 |
-| 2 | **必需：** Office 365 集成 | 请参阅 Office 365 文档，了解 [Office Online 和常用 URL](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges#microsoft-365-common-and-office-online) | 不适用 |
-| 3 | **必需：** 门户 | app.powerbi.com | TCP 443 |
-| 4 | **必需：** 服务遥测 | dc.services.visualstudio.com | TCP 443 |
-| 5 | **可选：** 信息性消息 | dynmsg.modpim.com | TCP 443 |
-| 6 | **可选：** NPS 调查 | nps.onyx.azure.net | TCP 443 |
+| 2 | **必需：** 后端 API | *.pbidedicated.windows.net | TCP 443 |
+| 3 | **必需：** Office 365 集成 | 请参阅 Office 365 文档，了解 [Office Online 和常用 URL](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges#microsoft-365-common-and-office-online) | 空值 |
+| 4 | **必需：** 门户 | app.powerbi.com | TCP 443 |
+| 5 | **必需：** 服务遥测 | dc.services.visualstudio.com | TCP 443 |
+| 6 | **可选：** 信息性消息 | dynmsg.modpim.com | TCP 443 |
+| 7 | **可选：** NPS 调查 | nps.onyx.azure.net | TCP 443 |
 | | | |
 
 ## <a name="administration"></a>管理
@@ -59,20 +60,20 @@ Power BI 依赖于 Office 365 身份验证和标识部分中所需的终结点�
 
 | 行 | 用途 | 目标 | 端口 |
 | --- | --- | --- | --- |
-| 1 | **必需：** 用于管理用户和查看审核日志 | 请参阅 Office 365 文档，了解 [Office Online 和常用 URL](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges#microsoft-365-common-and-office-online) | 不适用 |
+| 1 | **必需：** 用于管理用户和查看审核日志 | 请参阅 Office 365 文档，了解 [Office Online 和常用 URL](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges#microsoft-365-common-and-office-online) | 空值 |
 | | | |
 
 ## <a name="getting-data"></a>获取数据
 
-若要从特定数据源（如 OneDrive）获取数据，必须能够连接到下表中的终结点。 访问其他 Internet 域和 URL 可能需要组织内部使用特定的数据源。
+若要从特定数据源（如 OneDrive）获取数据，必须能够连接到下表中的终结点。 组织中使用的特定数据源可能需要访问其他 Internet 域和 URL。
 
 | 行 | 用途 | 目标 | 端口 |
 | --- | --- | --- | --- |
 | 1 | **必需：** AppSource（Power BI 中的内部或外部应用） | appsource.microsoft.com <br> *.s-microsoft.com  | TCP 443 |
 | 2 | **可选：** 登录并获取内容包的数据 | 取决于使用的内容包 | 取决于使用的内容包 |
-| 3 | **可选：** 从个人 OneDrive 中导入文件 | 请参阅 [OneDrive 必需的 URL 和端口](https://docs.microsoft.com/onedrive/required-urls-and-ports) | 不适用 |
+| 3 | **可选：** 从个人 OneDrive 中导入文件 | 请参阅 [OneDrive 必需的 URL 和端口](https://docs.microsoft.com/onedrive/required-urls-and-ports) | 空值 |
 | 4 | **可选：** 60 秒教程视频中的 Power BI | *.doubleclick.net <br> *.ggpht.com <br> *.google.com <br> *.googlevideo.com <br> *.youtube.com <br> *.ytimg.com <br> fonts.gstatic.com | TCP 443 |
-| 5 | **可选：** PubNub 流式处理数据源 | 请参阅 [PubNub 文档](https://support.pubnub.com/support/solutions/articles/14000043522) | 不适用 |
+| 5 | **可选：** PubNub 流式处理数据源 | 请参阅 [PubNub 文档](https://support.pubnub.com/support/solutions/articles/14000043522) | 空值 |
 | | | |
 
 ## <a name="dashboard-and-report-integration"></a>仪表板和报表集成
@@ -81,24 +82,24 @@ Power BI 依赖于特定终结点，以便能够支持仪表板和报表。 必�
 
 | 行 | 用途 | 目标 | 端口 |
 | --- | --- | --- | --- |
-| 1 | **必需：** Excel 集成 | 请参阅 Office 365 文档，了解 [Office Online 和常用 URL](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges#microsoft-365-common-and-office-online) | 不适用 |
+| 1 | **必需：** Excel 集成 | 请参阅 Office 365 文档，了解 [Office Online 和常用 URL](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges#microsoft-365-common-and-office-online) | 空值 |
 | | | |
 
 ## <a name="custom-visuals"></a>自定义视觉对象
 
-Power BI 依赖于特定终结点，以便能够查看和访问自定义视觉对象。 必须能够连接到下表和以下链接站点中的终结点。
+Power BI 依赖于特定终结点，以便查看和访问自定义视觉对象。 必须能够连接到下表和以下链接站点中的终结点。
 
 | 行 | 用途 | 目标 | 端口 |
 | --- | --- | --- | --- |
-| 1 | **必需：** 从市场接口或从文件导入自定义视觉对象 | *.azureedge.net <br> *.blob.core.windows.net <br> store.office.com | TCP 443 |
+| 1 | **必需：** 从市场接口或从文件导入自定义视觉对象 | *.azureedge.net <br> \* .blob.core.windows.net <br> store.office.com | TCP 443 |
 | 2 | **可选：** 必应地图 | bing.com <br> platform.bing.com <br> *.virtualearth.net | TCP 443 |
-| 3 | **可选：** PowerApps | 请参阅 PowerApps 系统要求站点中的[必需的服务](https://docs.microsoft.com/powerapps/maker/canvas-apps/limits-and-config#required-services)部分 | 不适用 |
-| 4 | **可选：** Visio | 请参阅 Office 365 文档，了解 [Office Online 和常用 URL](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges#microsoft-365-common-and-office-online) 以及 [SharePoint Online 和 OneDrive for Business](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges#sharepoint-online-and-onedrive-for-business) | 不适用 |
+| 3 | **可选：** PowerApps | 请参阅 PowerApps 系统要求站点中的[必需的服务](https://docs.microsoft.com/powerapps/maker/canvas-apps/limits-and-config#required-services)部分 | 空值 |
+| 4 | **可选：** Visio | 请参阅 Office 365 文档，了解 [Office Online 和常用 URL](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges#microsoft-365-common-and-office-online) 以及 [SharePoint Online 和 OneDrive for Business](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges#sharepoint-online-and-onedrive-for-business) | 空值 |
 | | | |
 
 ## <a name="related-external-sites"></a>相关外部站点
 
-Power BI 可链接到其他相关站点。 包括文档、支持、新功能请求等站点。 这些站点不会影响 Power BI 的功能，可以根据需要将其加入允许名单。
+Power BI 可链接到其他相关站点。 这些站点托管文档、支持、新功能请求等。 对这些站点的访问不会影响 Power BI 的功能，因此允许列表是可选的。
 
 | 行 | 用途 | 目标 | 端口 |
 | --- | --- | --- | --- |

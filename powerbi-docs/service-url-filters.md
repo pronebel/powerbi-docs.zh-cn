@@ -8,14 +8,14 @@ featuredvideoid: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 10/23/2019
+ms.date: 01/30/2020
 LocalizationGroup: Reports
-ms.openlocfilehash: 2d564b22ecf02c0d8593ed5676e46f2eb4168964
-ms.sourcegitcommit: 4b926ab5f09592680627dca1f0ba016b07a86ec0
+ms.openlocfilehash: e2840d2695b70867b73c873aea7a06acf26bcc3e
+ms.sourcegitcommit: 53c2b5ea4ee1fe2659804d5ccc8e4bb445a8bcad
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/10/2020
-ms.locfileid: "75836723"
+ms.lasthandoff: 02/01/2020
+ms.locfileid: "76913552"
 ---
 # <a name="filter-a-report-using-query-string-parameters-in-the-url"></a>通过在 URL 中添加查询字符串参数来筛选报表
 
@@ -33,7 +33,7 @@ ms.locfileid: "75836723"
 
 通过参数，可筛选报表中的一个或多个值，即使这些值包含空格或特殊字符。 基本语法相当简单；从报表 URL 入手，然后依次添加问号和筛选语法。
 
-URL?filter=***表***/***字段*** eq '***值***'
+*URL*?filter=*Table*/*Field* eq '*value*'
 
 ![带筛选器的 URL](media/service-url-filters/power-bi-filter-urls7b.png)
 
@@ -84,6 +84,18 @@ app.powerbi.com/groups/me/apps/app-id/reports/report-id/ReportSection?filter=Tab
 
 ![针对北卡罗来纳州筛选的报表](media/service-url-filters/power-bi-report4.png)
 
+## <a name="filter-on-more-than-one-value-in-a-field"></a>筛选字段中的多个值
+
+若要在一个字段中筛选多个值，请使用 in  运算符，而不是 and  运算符。 语法为：
+
+*URL*?filter=*Table*/*Field* **in** ('*value1*', '*value2*')
+
+使用同一个示例，若要从报表中筛选出“NC”（北卡罗来纳州）或“TN”（田纳西州）商店的数据，请在 URL 后面追加以下内容：
+
+?filter=Store/Territory in ('NC', 'TN')
+
+有关其他有用运算符的列表，请参阅本文后面的[运算符](#operators)表。
+
 ## <a name="filter-on-multiple-fields"></a>筛选多个字段
 
 还可以通过将其他参数添加到 URL 来筛选多个字段。 让我们回到最初的筛选器参数。
@@ -92,22 +104,20 @@ app.powerbi.com/groups/me/apps/app-id/reports/report-id/ReportSection?filter=Tab
 ?filter=Store/Territory eq 'NC'
 ```
 
-若要对其他字段进行筛选，请添加“and”  和另一个采用上述相同格式的字段。 示例如下。
+若要对其他字段进行筛选，请添加“and”  和另一个采用上述相同格式的字段。 以下是一个示例。
 
 ```
 ?filter=Store/Territory eq 'NC' and Store/Chain eq 'Fashions Direct'
 ```
 
-<iframe width="640" height="360" src="https://www.youtube.com/embed/0sDGKxOaC8w?showinfo=0" frameborder="0" allowfullscreen></iframe>
-
 ## <a name="operators"></a>运算符
 
 除了“and”  之外，Power BI 还支持其他许多运算符。 下表列出了这些运算符及其支持的内容类型。
 
-|运算符  | 定义 | 字符串  | 数字 | 日期 |  示例|
+|运算符后的表达式  | 定义 | 字符串  | 数字 | Date |  示例|
 |---------|---------|---------|---------|---------|---------|
-|**and**     | 和 |  是      | 是 |  是|  product/price le 200 and price gt 3.5 |
-|**eq**     | 等于 |  是      | 是   |  是       | Address/City eq 'Redmond' |
+|**and**     | and |  是      | 是 |  是|  product/price le 200 and price gt 3.5 |
+|**eq**     | equals |  是      | 是   |  是       | Address/City eq 'Redmond' |
 |**ne**     | 不等于 |   是      | 是  | 是        |  Address/City ne 'London' |
 |**ge**     |  大于或等于       | 否 | 是 |是 |  product/price ge 10
 |**gt**     | 大于        |否 | 是 | 是  | product/price gt 20
@@ -194,4 +204,4 @@ TerritoryChain = [Territory] & " - " & [Chain]
 [将可视化效果固定到仪表板](service-dashboard-pin-tile-from-report.md)  
 [注册免费试用版](https://powerbi.microsoft.com/get-started/)
 
-更多问题？ [尝试咨询 Power BI 社区](https://community.powerbi.com/)
+更多疑问？ [尝试咨询 Power BI 社区](https://community.powerbi.com/)

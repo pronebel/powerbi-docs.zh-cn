@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 05/08/2019
+ms.date: 01/29/2020
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: d118cae8cd4b6fbd95066b15819b1e798c8bbe0f
-ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
+ms.openlocfilehash: c3ccbe6ad87a813185943845431fa1a859b09a76
+ms.sourcegitcommit: 8b300151b5c59bc66bfef1ca2ad08593d4d05d6a
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/09/2020
-ms.locfileid: "75761309"
+ms.lasthandoff: 01/30/2020
+ms.locfileid: "76888422"
 ---
 # <a name="power-bi-data-source-prerequisites"></a>Power BI 数据源必备条件
 对于每个数据提供程序，Power BI 支持有关对象的特定提供程序版本。 有关适用于 Power BI 的数据源的详细信息，请参阅[数据源](desktop-data-sources.md)。 下表描述了这些要求。
@@ -28,7 +28,7 @@ ms.locfileid: "75761309"
 | | System.Data.OracleClient（在 .NET Framework 中构建） |.NET Framework 3.5 |9.x+ |表/视图 |包含在 .NET Framework 3.5 或更高版本中 |
 | IBM DB2 |来自 IBM 的 ADO.Net 客户端（IBM 数据服务器驱动程序包的一部分） |10.1 |9.1+ |表/视图 |[下载链接](https://go.microsoft.com/fwlink/?linkid=274911&clcid=0x409) |
 | MySQL |连接器/Net |6.6.5 |5.1 |表/视图、标量函数 |[下载链接](https://go.microsoft.com/fwlink/?linkid=278885&clcid=0x409) |
-| PostgreSQL |NPGSQL ADO.NET 提供程序 |2.0.12 |7.4 |表/视图 |[下载链接](https://go.microsoft.com/fwlink/?linkid=282716&clcid=0x409) |
+| PostgreSQL |NPGSQL ADO.NET 提供程序 |2.0.12 |9.4 |表/视图 |[下载链接](https://go.microsoft.com/fwlink/?linkid=282716&clcid=0x409) |
 | Teradata |适用于 Teradata 的 .NET 数据提供程序 |14+ |12+ |表/视图 |[下载链接](https://go.microsoft.com/fwlink/?linkid=278886&clcid=0x409) |
 | SAP Sybase SQL Anywhere |面向 .NET 3.5 的 iAnywhere.Data.SQLAnywhere |16+ |16+ |表/视图 |[下载链接](https://go.microsoft.com/fwlink/?linkid=324846) |
 

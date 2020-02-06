@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 12/18/2019
+ms.date: 01/29/2020
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: cfde935b2cec6e86b56b4f70865ff2d02b5ce27a
-ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
+ms.openlocfilehash: 90721b059958e59cfd74f9ba1d0d25617a7438e6
+ms.sourcegitcommit: 8b300151b5c59bc66bfef1ca2ad08593d4d05d6a
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/09/2020
-ms.locfileid: "75759190"
+ms.lasthandoff: 01/30/2020
+ms.locfileid: "76889273"
 ---
 # <a name="use-directquery-in-power-bi-desktop"></a>在 Power BI Desktop 中使用 DirectQuery
 使用 Power BI Desktop 时，若已连接数据源，始终可以将数据副本导入 Power BI Desktop  。 对于某些数据源，还可使用另一种方法：使用 DirectQuery 直接连接到数据源。
@@ -37,7 +37,7 @@ ms.locfileid: "75759190"
 
 [Power BI 和 DirectQuery](desktop-directquery-about.md) 一文详细介绍了 DirectQuery。 有关使用 DirectQuery 的好处、限制条件和重要注意事项的详细信息，请参阅以下各节。
 
-## <a name="benefits-of-using-directquery"></a>通过使用 DirectQuery 带来的好处
+## <a name="benefits-of-using-directquery"></a>使用 DirectQuery 的优点
 使用 DirectQuery 带来的几个好处是：
 
 - DirectQuery 可使你在超大型数据集上生成可视化效果，除此之外将无法使用预聚合首先导入所有数据。
@@ -55,9 +55,9 @@ ms.locfileid: "75759190"
 
 - 为确保发送到基础数据源的查询具有可接受的性能，对度量值中的可用 DAX 表达式进行了限制。
 
-- 使用 DirectQuery 时，返回数据有 100 万行的限制。 此限制不影响用于创建使用 DirectQuery 返回的数据集的聚合或计算。 它仅影响返回的行。
+- 使用 DirectQuery 时，返回数据有 100 万行的限制，除非使用高级容量。 此限制不影响用于创建使用 DirectQuery 返回的数据集的聚合或计算。 它仅影响返回的行。 高级容量可以设置最大行限制，如[本文](https://powerbi.microsoft.com/blog/five-new-power-bi-premium-capacity-settings-is-available-on-the-portal-preloaded-with-default-values-admin-can-review-and-override-the-defaults-with-their-preference-to-better-fence-their-capacity/)所述。 
 
-    例如，可以通过在数据源上运行的查询聚合 1000 万行。 如果返回的 Power BI 数据小于 100 万行，查询将使用 DirectQuery 准确地将该聚合的结果返回到 Power BI。 如果从 DirectQuery 返回的结果超过 100 万行，则 Power BI 返回错误。
+    例如，可以通过在数据源上运行的查询聚合 1000 万行。 如果返回的 Power BI 数据小于 100 万行，查询将使用 DirectQuery 准确地将该聚合的结果返回到 Power BI。 如果从 DirectQuery 返回超过 100 万行，Power BI 将返回一个错误（除非在高级容量中，且行计数低于管理员设置的限制）。
 
 ## <a name="important-considerations-when-using-directquery"></a>使用 DirectQuery 的重要注意事项
 使用 DirectQuery 时，应考虑以下三点：

@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 09/09/2019
 ms.author: kfollis
 LocalizationGroup: Administration
-ms.openlocfilehash: 22328ddd6be697f658301516d05971cdcee0d260
-ms.sourcegitcommit: 02b05932a119527f255e1eacc745a257044e392f
+ms.openlocfilehash: 2a17e4963d4607b67279f65205579e115df2e550
+ms.sourcegitcommit: 75300b3f53f438ed7d3bd4edc93b9eb5925bf3af
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/19/2019
-ms.locfileid: "75223888"
+ms.lasthandoff: 02/05/2020
+ms.locfileid: "77026637"
 ---
 # <a name="distribute-power-bi-content-to-external-guest-users-with-azure-ad-b2b"></a>使用 Azure AD B2B 将 Power BI 内容分发给外部来宾用户
 
@@ -24,9 +24,12 @@ Power BI 与 Azure Active Directory 企业到企业 (Azure AD B2B) 集成，便�
 
 ## <a name="enable-access"></a>启用访问权限
 
-邀请来宾用户前，请务必先在 Power BI 管理门户中启用[与外部用户共享内容](service-admin-portal.md#export-and-sharing-settings)功能。
+邀请来宾用户前，请务必先在 Power BI 管理门户中启用[与外部用户共享内容](service-admin-portal.md#export-and-sharing-settings)功能。 即使启用了此选项，用户也必须具有 Azure Active Directory 中的权限才能邀请来宾用户，这些用户可以通过“来宾邀请者”角色授予。 
 
 还可以使用[允许外部来宾用户编辑和管理组织中的内容](service-admin-portal.md#allow-external-guest-users-to-edit-and-manage-content-in-the-organization)功能。 借助该功能可以选择哪个来宾用户可以在工作区中查看和创建内容，包括浏览组织的 Power BI。
+
+> [!NOTE]
+> [与外部用户共享内容](service-admin-portal.md#export-and-sharing-settings)设置控制是否可以通过 Power BI 将外部用户邀请到你的组织。 外部用户接受邀请后，就会成为你组织中的 Azure AD B2B 来宾用户。 他们会在整个 Power BI 体验中显示在人员选取器中。 禁用此设置后，组织中的现有来宾用户将继续访问他们有权访问的任何项目，并继续在人员选取器体验中列出。 此外，如果来宾是通过计划的邀请方法添加的，他们也会出现在人员选取器中。 若要阻止来宾用户访问 Power BI，可以使用 Azure AD 条件访问策略。
 
 ## <a name="who-can-you-invite"></a>可以邀请哪些用户？
 
@@ -37,6 +40,12 @@ Power BI 与 Azure Active Directory 企业到企业 (Azure AD B2B) 集成，便�
 ## <a name="invite-guest-users"></a>邀请来宾用户
 
 只有在首次邀请来宾用户加入组织时才需要发出邀请。 邀请用户的方法有两种：计划内邀请和临时邀请。
+
+可以通过 Power BI 中的以下功能邀请来宾用户：
+* 报表和仪表板共享
+* 应用访问列表
+
+如果需要向工作区添加外部用户，而这些用户还不是 Azure AD 中的来宾，你可以使用下面建议的计划邀请方法。 
 
 ### <a name="planned-invites"></a>计划性邀请
 
@@ -73,6 +82,7 @@ Power BI 与 Azure Active Directory 企业到企业 (Azure AD B2B) 集成，便�
 ![与来宾用户共享应用时发送的电子邮件的屏幕截图](media/service-admin-azure-ad-b2b/guest-user-invite-email-2.png)
 
 该来宾用户必须使用其组织电子邮件地址进行登录。 完成登录后，将收到接受邀请的提示。 登录后，将为来宾用户打开应用。 他们可以将链接设为书签，也可以保存电子邮件，以便稍后返回到应用。
+
 
 ## <a name="licensing"></a>许可
 
@@ -141,7 +151,10 @@ Power BI 与 Azure Active Directory 企业到企业 (Azure AD B2B) 集成，便�
 
 * 有一些 Active Directory 设置可以限制外部来宾用户在整个组织范围内可以执行的操作。 同时适用于你的 Power BI 环境。 以下文档探讨的设置为：
     * [管理外部协作设置](/azure/active-directory/b2b/delegate-invitations#configure-b2b-external-collaboration-settings)
-    * [允许或阻止向特定组织中的 B2B 用户发送邀请](https://docs.microsoft.com/azure/active-directory/b2b/allow-deny-list)  
+    * [允许或阻止向特定组织中的 B2B 用户发送邀请](https://docs.microsoft.com/azure/active-directory/b2b/allow-deny-list)
+    * [允许或阻止来宾用户访问 Power BI 服务](/azure/active-directory/conditional-access/overview)
+    
+* 国家/地区云不支持在组织外部共享。 而是在组织中创建外部用户可以用来访问内容的用户帐户。 
 
 ## <a name="next-steps"></a>后续步骤
 

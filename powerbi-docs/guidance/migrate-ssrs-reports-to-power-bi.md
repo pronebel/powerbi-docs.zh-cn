@@ -8,12 +8,12 @@ ms.subservice: powerbi-admin
 ms.topic: conceptual
 ms.date: 01/03/2020
 ms.author: v-pemyer
-ms.openlocfilehash: b1ce8644decb758775c0bbff87df7975a64692a2
-ms.sourcegitcommit: 801d2baa944469a5b79cf591eb8afd18ca4e00b1
+ms.openlocfilehash: 53940737f71e04fbf5bccd9520a749f6fc559db9
+ms.sourcegitcommit: 8b300151b5c59bc66bfef1ca2ad08593d4d05d6a
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/11/2020
-ms.locfileid: "75886104"
+ms.lasthandoff: 01/30/2020
+ms.locfileid: "76889227"
 ---
 # <a name="migrate-sql-server-reporting-services-reports-to-power-bi"></a>将 SQL Server Reporting Services 报表迁移到 Power BI
 
@@ -104,6 +104,8 @@ Microsoft 可能会随时间对该工具进行改进。 并且还鼓励社区促
 
 如果 RDL 报表依赖于 [Power BI 分页报表尚不支持的功能](../paginated-reports-faq.md#what-paginated-report-features-in-ssrs-arent-yet-supported-in-power-bi)，则可以计划将其重新开发为 [Power BI 报表](../consumer/end-user-reports.md)。 即使你的 RDL 报表可以迁移，我们也建议你在有意义的情况下考虑将它们现代化为 Power BI 报表。
 
+如果 RDL 报表需要从本地数据源  检索数据，则它们不能使用单一登录 (SSO)。 目前，将使用网关数据源用户帐户  的安全上下文来从这些源检索所有数据。 SQL Server Analysis Services (SSAS) 不可能基于每个用户强制执行行级别安全性 (RLS)。
+
 一般来说，Power BI 分页报表已针对“打印”或“PDF 生成”进行了优化   。 Power BI 报表已针对“浏览和交互性”进行了优化  。 有关更多详细信息，请参阅[何时使用 Power BI 中的分页报表](report-paginated-or-power-bi.md)。
 
 ### <a name="prepare"></a>准备
@@ -116,6 +118,8 @@ Microsoft 可能会随时间对该工具进行改进。 并且还鼓励社区促
 1. 熟悉 Power BI 共享，并计划如何通过发布 [Power BI 应用](../service-create-distribute-apps.md)来分发内容。
 1. 考虑使用[共享 Power BI 数据集](../service-datasets-build-permissions.md)来代替 SSRS 共享数据源。
 1. 使用 [Power BI Desktop](../desktop-what-is-desktop.md) 来开发移动优化报表，可以使用 [Power KPI 自定义视觉对象](https://appsource.microsoft.com/product/power-bi-visuals/WA104381083?tab=Overview)来代替 SSRS 移动报表和 KPI。
+1. 重新计算报表中 UserID  内置字段的使用。 如果依赖于 UserID  来保护报表数据，则请注意，对于分页报表（在 Power BI 服务中托管时），它会返回用户主体名称 (UPN)。 因此，内置字段将返回诸如  m.blythe&commat;adventureworks.com 的内容，而不会返回 NT 帐户名称，例如 AW\mblythe  。 你将需要修订数据集定义，可能还需要修订源数据。 修订并发布后，建议全面测试报表，以确保数据权限按预期方式工作。
+1. 重新计算报表中 ExecutionTime  内置字段的使用。 对于分页报表（在 Power BI 服务中托管时），内置字段以协调世界时（或 UTC）  返回日期/时间。 这可能会影响报表参数默认值和报表执行时间标签（通常被添加到报表页脚）。
 1. 确保你的报表作者已安装 [Power BI 报表生成器](../report-builder-power-bi.md)，并且可以轻松地在组织中分发更高版本。
 
 ## <a name="migration-stage"></a>迁移阶段
@@ -191,7 +195,7 @@ Microsoft 可能会随时间对该工具进行改进。 并且还鼓励社区促
 * [Power BI 中的分页报表：常见问题解答](../paginated-reports-faq.md)
 * [Power BI Premium 常见问题解答](../service-premium-faq.md)
 * [RDL 迁移工具](https://github.com/microsoft/RdlMigration)
-* 是否有任何问题? [尝试咨询 Power BI 社区](https://community.powerbi.com/)
+* 有疑问？ [尝试在 Power BI 社区中提问](https://community.powerbi.com/)
 * 建议？ [提出改进 Power BI 的想法](https://ideas.powerbi.com)
 
 Power BI 合作伙伴可帮助你的组织成功完成迁移过程。 若要加入 Power BI 合作伙伴，请访问 [Power BI 合作伙伴门户](https://powerbi.microsoft.com/partners/)。

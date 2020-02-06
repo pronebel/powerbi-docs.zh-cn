@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 12/18/2019
+ms.date: 01/29/2020
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: dc8dad0417ac2ed6498fb7612900ebdbb0ce2a18
-ms.sourcegitcommit: 4359baa43ca01b179d28ec59f4e61ba8c07ee288
+ms.openlocfilehash: 512ef5058fdb586a893c5ff9406abf6902ccc4e2
+ms.sourcegitcommit: 8b300151b5c59bc66bfef1ca2ad08593d4d05d6a
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/20/2019
-ms.locfileid: "75303901"
+ms.lasthandoff: 01/30/2020
+ms.locfileid: "76888491"
 ---
 # <a name="how-visuals-cross-filter-each-other-in-a-power-bi-report"></a>视觉对象如何在 Power BI 报表中彼此交叉筛选
 Power BI 的强大功能之一是报表页上所有视觉对象的互连方式。 如果在某个视觉对象上选择一个数据点，此页面上包含该数据的其他所有视觉对象将根据所选内容而更改。 
@@ -45,7 +45,8 @@ Power BI 的强大功能之一是报表页上所有视觉对象的互连方式�
 
 
 ## <a name="considerations-and-troubleshooting"></a>注意事项和疑难解答
-- 如果报表拥有支持[钻取](end-user-drill.md)的视觉对象，在默认情况下，钻取某个视觉对象不会对报表页上的其他视觉对象造成影响。     
+- 如果报表拥有支持[钻取](end-user-drill.md)的视觉对象，在默认情况下，钻取某个视觉对象不会对报表页上的其他视觉对象造成影响。 但是，报表设计人员  可以更改此行为，因此，请检查可钻取的视觉对象，以查看报表设计人员  是否已启用“钻取筛选其他视觉对象”  。
+    
 - 当在报表页上交叉筛选和交叉突出显示其他视觉对象时，将保留视觉对象级筛选器。 因此，如果 VisualA 包含由报表设计者或你应用的视觉对象级筛选器，并且你使用 visualA 与 visualB 交互，则 visualA 中的视觉对象级筛选器将应用于 visualB。
 
     ![选中圆环图的“审查”段之后的报表页](media/end-user-interactions/power-bi-visual-filters.png)

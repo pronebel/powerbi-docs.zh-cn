@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 01/14/2020
+ms.date: 01/30/2020
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: fa097489fcf81ec1bb1df2162465e6413bd116c0
-ms.sourcegitcommit: 0ae9328e7b35799d5d9613a6d79d2f86f53d9ab0
+ms.openlocfilehash: 2e4ab92d5d1adce8659cdb971c5061a0f133b38f
+ms.sourcegitcommit: 64a270362c60581a385af7fbc31394e3ebcaca41
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/16/2020
-ms.locfileid: "76040431"
+ms.lasthandoff: 01/31/2020
+ms.locfileid: "76895441"
 ---
 # <a name="create-matrix-visualizations-in-power-bi"></a>在 Power BI 中创建矩阵可视化效果
 
@@ -41,25 +41,24 @@ ms.locfileid: "76040431"
 
 查看总计和小计时，请注意这些值都是以基础数据为依据。 它们并不仅仅以可见值为依据。
 
-<!-- use Nov blog post video
 
-## Expanding and collapsing row headers
-There are two ways you can expand row headers. The first is through the right-click menu. You’ll see options to expand the specific row header you clicked on, the entire level or everything down to the very last level of the hierarchy. You have similar options for collapsing row headers as well.
+## <a name="expanding-and-collapsing-row-headers"></a>展开和折叠行标题
+可以通过两种方法展开行标题。 第一种是通过右键单击菜单。 你将看到一些选项，用于展开所选的特定行标题、整个级别或所有内容直至层次结构的最高级别。 还可以使用类似选项折叠行标题。
 
 ![](media/desktop-matrix-visual/power-bi-expand1.png)
 
-You can also add +/- buttons to the row headers through the formatting pane under the row headers card. By default, the icons will match the formatting of the row header, but you can customize the icons’ color and size separately if you want. 
-Once the icons are turned on, they work similarly to the icons from PivotTables in Excel.
+还可以通过“行标题”  卡下的“格式”窗格，将 +/- 按钮添加到行标题。 默认情况下，这些图标将与行标题格式匹配，但你可以根据需要单独自定义图标的颜色和大小。
+
+打开图标后，它们的工作方式类似于 Excel 中的数据透视表图标。
 
 ![](media/desktop-matrix-visual/power-bi-expand2.png)
 
-The expansion state of the matrix will save with your report. It can be pinned to dashboards as well, but consumers will need to open up the report to change the state. Conditional formatting will only apply to the inner most visible level of the hierarchy. Note that this expand/collapse experience is not currently supported when connecting to AS servers older than 2016 or MD servers.
+矩阵的展开状态将与报表一起保存。 矩阵可以固定到展开或折叠的仪表板。 选择该仪表板磁贴并打开报表时，仍可以在报表中更改展开状态。 
 
 ![](media/desktop-matrix-visual/power-bi-expand3.png)
 
-Watch the following video to learn more about expand/collapse in the matrix:
 
--->
+
 ## <a name="using-drill-down-with-the-matrix-visual"></a>结合使用向下钻取和矩阵视觉对象
 借助矩阵视觉对象，可以执行之前无法实现的各种有意思的向下钻取活动。 这包括向下钻取行、列、单独分区和单元格。 让我们来看看每种向下钻取活动的工作原理。
 
@@ -183,6 +182,16 @@ Watch the following video to learn more about expand/collapse in the matrix:
 * 副本将是另一个矩阵可视化效果，但仅包含复制的数据。
 
     ![显示“复制视觉对象”示例的屏幕截图](media/desktop-matrix-visual/power-bi-copy-visual-example.png)
+
+## <a name="setting-a-matrix-value-as-a-custom-url"></a>将矩阵值设置为自定义 URL
+
+如果有包含网站 URL 的列或度量值，可以使用条件格式将这些 URL 作为活动链接应用到字段。 可以在“格式”窗格中的“条件格式”  卡下找到此选项。
+
+![显示已选择哪些行的“筛选器”卡片](media/desktop-matrix-visual/power-bi-web-url.png)
+
+打开“Web URL”  ，然后选择要用作列的 URL 的字段。 应用后，该字段（列）中的值将成为活动链接。 悬停以查看链接，并选择跳转到该页面。 
+
+有关详细信息，请参阅[条件表格式设置](../desktop-conditional-table-formatting.md)
 
 ## <a name="shading-and-font-colors-with-matrix-visuals"></a>矩阵视觉对象的底纹和字体颜色
 借助矩阵视觉对象，可以将条件格式（颜色、底纹和数据栏）应用于矩阵中的单元格背景，并将条件格式应用于文本和值本身。

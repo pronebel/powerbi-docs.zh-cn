@@ -6,17 +6,17 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 04/02/2019
+ms.date: 01/29/2020
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: fa448dac3e7788639377ce2d73d9c0ed68952fb3
-ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
+ms.openlocfilehash: 516d3a682b669400a015aaec101c7e79c14dbb44
+ms.sourcegitcommit: 8b300151b5c59bc66bfef1ca2ad08593d4d05d6a
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/06/2020
-ms.locfileid: "73877327"
+ms.lasthandoff: 01/30/2020
+ms.locfileid: "76889342"
 ---
-# <a name="configure-workspace-dataflow-settings-preview"></a>配置工作区数据流设置（预览）
+# <a name="configure-workspace-dataflow-settings-preview"></a>配置工作区数据流设置（预览版）
 
 使用 Power BI 和数据流时，可以在 Azure Data Lake Storage Gen2 中存储工作区的数据流定义文件和数据文件。 工作区管理员可以将 Power BI 配置为执行此操作，本文介绍了实现此目标所需的步骤。 
 
@@ -75,7 +75,7 @@ ms.locfileid: "73877327"
 
 ![获取数据流文件的 URI](media/service-dataflows-configure-workspace-storage-settings/dataflow-storage-settings_07.jpg)
 
-在显示的信息中，“数据流存储位置”下会显示数据流的 CDM 文件夹位置，如下图所示。 
+在显示的信息中，“数据流存储位置”  下会显示数据流的 CDM 文件夹位置，如下图所示。
 
 ![数据流文件的位置](media/service-dataflows-configure-workspace-storage-settings/dataflow-storage-settings_08.jpg)
 

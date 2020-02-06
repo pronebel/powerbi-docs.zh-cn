@@ -1,24 +1,24 @@
 ---
 title: 从 Power BI 发布到 Web
 description: 借助 Power BI 发布到 Web，可在任何设备上通过电子邮件或社交媒体，轻松地将交互式 Power BI 可视化效果在线嵌入博客帖子、网站等处。
-author: rkarlin
-ms.author: rkarlin
+author: maggiesMSFT
+ms.author: maggies
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 05/16/2019
+ms.date: 01/30/2020
 LocalizationGroup: Share your work
-ms.openlocfilehash: 1fd640922f132f56a03b37ed59a6267a5af83d00
-ms.sourcegitcommit: 7f27b9eb0e001034e672050735ab659b834c54a3
+ms.openlocfilehash: 53cc311f2fb0bfa4ab876c80b81ee2a092c4fd8c
+ms.sourcegitcommit: 8e3d53cf971853c32eff4531d2d3cdb725a199af
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/22/2019
-ms.locfileid: "74311712"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "76913630"
 ---
 # <a name="publish-to-web-from-power-bi"></a>从 Power BI 发布到 Web
 
-使用 Power BI 的“发布到 Web”选项，可在任何设备上通过电子邮件或社交媒体，轻松地将交互式 Power BI 可视化效果在线嵌入博客帖子、网站等处  。 还可以方便地编辑、更新、刷新或取消共享已发布的视觉对象。
+使用 Power BI“发布到 Web”  选项，可在任何设备上通过电子邮件或社交媒体，轻松地将交互式 Power BI 可视化效果在线嵌入博客帖子、网站等处。 还可以方便地编辑、更新、刷新或取消共享已发布的视觉对象。
 
 > [!WARNING]
 > 使用“发布到 Web”时，Internet 上的所有人都可查看你发布的报表或视觉对象  。 这无需身份验证，并且还可查看报表聚合的详细数据。 发布报表前，请确保可以公开共享数据和可视化效果。 请勿发布机密或专有信息。 如果有任何疑问，请在发布前查看组织策略。
@@ -39,20 +39,24 @@ ms.locfileid: "74311712"
 1. 打开可编辑的工作区中的报表，然后选择“文件”>“发布到 Web”  。
 
    ![PtW1](media/service-publish-to-web/publish_to_web1.png)
+   
+2. 如果用户不允许你创建嵌入代码，请与你的 Power BI 管理员联系
 
-2. 查看对话框内容，然后选择“创建嵌入代码”  。
+   ![PtW1](media/service-publish-to-web/publish_to_web_admin_prompt.png)
+
+3. 查看对话框内容，然后选择“创建嵌入代码”  。
 
    ![PtW2](media/service-publish-to-web/publish_to_web2_ga.png)
 
-3. 查看如下所示的警告，并确认数据是否准备好嵌入到公共网站。 如果已准备好，选择“发布”  。
+4. 查看如下所示的警告，并确认数据是否准备好嵌入到公共网站。 如果已准备好，选择“发布”  。
 
    ![PtW3](media/service-publish-to-web/publish_to_web3_ga.png)
 
-4. 对话框显示一条链接。 可以将此链接发送到电子邮件、将其嵌入 iFrame 等代码，或直接粘贴到网页或博客。
+5. 对话框显示一条链接。 可以将此链接发送到电子邮件、将其嵌入 iFrame 等代码，或直接粘贴到网页或博客。
 
    ![PtW4](media/service-publish-to-web/publish_to_web4.png)
 
-5. 如果之前为报表创建了嵌入代码并选择“发布到 Web”，则不会显示步骤 2-4 中的对话框  。 相反，将显示“嵌入代码”对话框  ：
+6. 如果之前为报表创建了嵌入代码并选择“发布到 Web”，则不会显示步骤 2-4 中的对话框  。 相反，将显示“嵌入代码”对话框  ：
 
    ![PtW5](media/service-publish-to-web/publish_to_web5.png)
 
@@ -67,13 +71,13 @@ ms.locfileid: "74311712"
 
 | 视图模式 | 嵌入时外观 |
 | --- | --- |
-| ![PtW6b](media/service-publish-to-web/publish_to_web6b.png) |“调整到页面大小”会考虑报表的页面高度和宽度  。 如果将页面设置为“动态”比率，如 16:9 或 4:3，内容将在 iFrame 范围内缩放至合适的大小  。 嵌入 iFrame 中时，使用“调整到页面大小”可能会导致“宽屏”，内容在 iFrame 中调整至合适大小后，iFrame 区域会显示灰色背景   。 为了尽量避免宽屏，请正确设置 iFrame 的高度和宽度。 |
+| ![PtW6b](media/service-publish-to-web/publish_to_web6b.png) |“调整到页面大小”会考虑报表的页面高度和宽度  。 如果将页面设置为动态  比率，如 16:9 或 4:3，内容将在 iFrame 范围内缩放至合适的大小。 嵌入 iFrame 中时，使用“调整到页面大小”可能会导致“宽屏”，内容在 iFrame 中调整至合适大小后，iFrame 区域会显示灰色背景   。 为了尽量避免宽屏，请正确设置 iFrame 的高度和宽度。 |
 | ![PtW6d](media/service-publish-to-web/publish_to_web6d.png) |“实际大小”确保报表保持其在报表页上设置的大小  。 这可能导致 iFrame 中显示滚动条。 设置 iFrame 高度和宽度，以避免出现滚动条。 |
 | ![PtW6c](media/service-publish-to-web/publish_to_web6c.png) |“适应宽度”确保内容适合 iFrame 的水平区域  。 仍会显示一个边框，但内容进行缩放，以便利用所有可用的水平空间。 |
 
 ## <a name="tips-and-tricks-for-iframe-height-and-width"></a>iFrame 高度和宽度的提示和技巧
 
-“发布到 Web”嵌入如下所示的代码  ：
+“发布到 Web”  嵌入类似于以下示例的代码：
 
 ![PtW7](media/service-publish-to-web/publish_to_web7.png)
  
@@ -81,7 +85,7 @@ ms.locfileid: "74311712"
 
 若要更加完美地适应，可尝试为 iFrame 的高度添加 56 个像素，以适应底部栏的当前大小。 如果报表页使用动态尺寸，下表提供了一些可用于实现适应页面而不会造成宽屏的尺寸。
 
-| 比率 | 尺寸 | 维度（宽 x 高） |
+| 比率 | 大小 | 维度（宽 x 高） |
 | --- | --- | --- |
 | 16:9 |小 |640 x 416 px |
 | 16:9 |中 |800 x 506 px |
@@ -141,7 +145,15 @@ ms.locfileid: "74311712"
 
 ## <a name="tenant-setting"></a>租户设置
 
-Power BI 管理员可以启用或禁用“发布到 Web”功能  。 还可以限制对特定组的访问，这可能会对创建嵌入代码产生影响。
+“发布到 Web”  设置提供了用户可以为其创建嵌入代码的选项。
+
+![发布到 Web 设置](media/service-admin-portal/powerbi-admin-publish-to-web-setting.png)
+
+当“选择嵌入代码的工作方式”  选项设置为“仅允许使用现有嵌入代码”  以及“发布到 Web”  设置为“启用”  时，系统将要求你联系 Power BI 管理员以创建嵌入代码。
+
+![发布到 Web 提示符](media/service-publish-to-web/publish_to_web_admin_prompt.png)
+
+Power BI 管理员可以启用或禁用“发布到 Web”功能  。 还可以限制对特定组的访问，这可能会对创建嵌入代码产生影响。 根据“发布到 Web”  设置的内容，你会在 UI 中看到不同的选项。
 
 |功能 |为整个组织启用 |为整个组织禁用 |特定安全组   |
 |---------|---------|---------|---------|
@@ -151,6 +163,9 @@ Power BI 管理员可以启用或禁用“发布到 Web”功能  。 还可以�
 |现有的已发布报表|全部已启用|全部已禁用|继续向所有对象呈现报表。|
 
 ## <a name="understanding-the-embed-code-status-column"></a>了解嵌入代码状态列
+
+>[!Note]
+>应定期查看已发布的嵌入代码，并删除任何不再需要公开提供的嵌入代码。 
 
 “管理嵌入代码”页包括状态列  。 嵌入代码默认处于“激活”状态，但也可能处于以下状态之一  。
 

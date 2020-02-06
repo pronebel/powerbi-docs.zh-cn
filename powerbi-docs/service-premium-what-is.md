@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
-ms.date: 10/28/2019
+ms.date: 01/29/2020
 ms.custom: seodec18
 LocalizationGroup: Premium
-ms.openlocfilehash: 37107c1092b12a8efc230718c624f104aa31520f
-ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
+ms.openlocfilehash: 07fd9a00034a210dfbcc6cae4aa721e3b09bd37a
+ms.sourcegitcommit: 8e3d53cf971853c32eff4531d2d3cdb725a199af
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/06/2020
-ms.locfileid: "74958554"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "76889388"
 ---
 # <a name="what-is-power-bi-premium"></a>什么是 Power BI Premium？
 
@@ -223,7 +223,7 @@ Power BI Premium 随附 Power BI 报表服务器，后者是带有 Web 门户的
 
 ![内容共享](media/service-premium-what-is/premium-sharing.png)
 
-Premium 允许 Pro 用户广泛分发内容，且不要求查看内容的收件人提供 Pro 许可证。 内容创建者需要提供 Pro 许可证。 创建者连接到数据源、模型数据，并创建打包为工作区应用的报表和仪表板。 
+Premium 允许 Pro 用户广泛分发内容，且不要求查看内容的收件人提供 Pro 许可证。 内容创建者需要提供 Pro 许可证。 创建者连接到数据源、模型数据，并创建打包为工作区应用的报表和仪表板。 如果用户拥有“查看者”角色，即使没有 Pro 许可证仍可访问 Power BI Premium 容量的工作区。 
 
 若要了解详细信息，请参阅 [Power BI 许可](service-admin-licensing-organization.md)。
 

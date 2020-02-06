@@ -10,12 +10,12 @@ ms.date: 09/25/2019
 ms.author: kfollis
 ms.custom: seodec18
 LocalizationGroup: Administration
-ms.openlocfilehash: de745777a5ad6da1149328d9df92be9ecccfc181
-ms.sourcegitcommit: 801d2baa944469a5b79cf591eb8afd18ca4e00b1
+ms.openlocfilehash: c59f1c1653e3b1a506f342bffed6fa539dfe58b3
+ms.sourcegitcommit: 8e3d53cf971853c32eff4531d2d3cdb725a199af
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/11/2020
-ms.locfileid: "75885303"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "76819574"
 ---
 # <a name="administering-power-bi-in-the-admin-portal"></a>在管理门户中管理 Power BI
 
@@ -203,11 +203,24 @@ Office 365 中的全局管理员或分配有 Power BI 服务管理员角色的�
 
 ### <a name="publish-to-web"></a>发布到 Web
 
-组织中的用户可以将报表发布到 Web。 [了解详细信息](service-publish-to-web.md)
+组织中的用户可以将报表发布到 Web。 [了解详细信息](service-publish-to-web.md)。 这会使报表及其包含的数据可供 Web 上的任何用户使用。
+
+> [!NOTE]
+> Power BI 管理员必须允许创建新的“发布到 Web”嵌入代码。 组织可能具有现有的嵌入代码，请使用[嵌入代码](service-admin-portal.md#embed-codes)页查看当前发布的报表。
 
 下图显示了启用“发布到 Web”  设置时报表的“文件”  菜单。
 
-![发布到 Web 设置](media/service-admin-portal/powerbi-admin-publish-to-web.png)
+![“文件”菜单中的“发布到 Web”](media/service-admin-portal/powerbi-admin-publish-to-web.png)
+
+“发布到 Web”  设置提供了用户可以为其创建嵌入代码的选项。
+
+![发布到 Web 设置](media/service-admin-portal/powerbi-admin-publish-to-web-setting.png)
+
+
+当“选择嵌入代码的工作方式”  选项设置为“仅允许使用现有嵌入代码”  以及“发布到 Web”  设置为“启用”  时，系统将要求用户联系 Power BI 管理员以便创建嵌入代码。
+
+![发布到 Web 提示符](media/service-publish-to-web/publish_to_web_admin_prompt.png)
+
 
 根据“发布到 Web”  设置的内容，用户会在 UI 中看到不同的选项。
 
@@ -449,7 +462,7 @@ Power BI Desktop（2019 年 3 月版及更高版本）支持通过“组策略�
 
 ## <a name="embed-codes"></a>嵌入代码
 
-管理员可以查看针对其租户生成的嵌入代码。 此外，还可以撤消或删除代码。 [了解详细信息](service-publish-to-web.md)
+管理员可以查看针对其租户生成的用于公开共享报表的嵌入代码。 此外，还可以撤消或删除代码。 [了解详细信息](service-publish-to-web.md)
 
 ![在 Power BI 管理门户中嵌入代码](media/service-admin-portal/embed-codes.png)
 

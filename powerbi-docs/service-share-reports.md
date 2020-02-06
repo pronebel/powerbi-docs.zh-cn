@@ -1,34 +1,49 @@
 ---
-title: 共享筛选的 Power BI 报表的两种方式
-description: 了解筛选 Power BI 报表并与组织中的同事共享的两种方式。
+title: 筛选并共享 Power BI 报表
+description: 了解如何筛选 Power BI 报表并与组织中的同事共享。
 author: maggiesMSFT
 ms.reviewer: lukaszp
 featuredvideoid: 0tUwn8DHo3s
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 09/06/2019
+ms.date: 01/29/2020
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 79f09b5018efcdae88d74ae26f099ff095fb161a
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 16041ebc9ba293ab166178e008b12277d94e89c3
+ms.sourcegitcommit: 64a270362c60581a385af7fbc31394e3ebcaca41
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73871452"
+ms.lasthandoff: 01/31/2020
+ms.locfileid: "76894757"
 ---
-# <a name="two-ways-to-share-a-filtered-power-bi-report"></a>共享筛选的 Power BI 报表的两种方式
-共享  是一种使多人能够访问你的仪表板和报表的有效方式。 如果你想要共享筛选的报表版本，该怎么办？ 也许一个报表仅显示特定城市或销售人员或年份的数据。 尝试筛选报表并将其共享，或创建自定义 URL。 收件人第一次打开报表时，将对其进行筛选。 他们可以通过修改 URL 来删除筛选器。 
+# <a name="filter-and-share-a-power-bi-report"></a>筛选并共享 Power BI 报表
+共享  是一种使多人能够访问你的仪表板和报表的有效方式。 如果你想要共享筛选的报表版本，该怎么办？ 也许你希望报表仅显示特定城市或销售人员或年份的数据。 本文介绍如何筛选报表并共享报表的筛选版本。 共享筛选报表的另一种方法是[将查询参数添加到报表 URL](service-url-filters.md)。 在这两种情况下，收件人第一次打开报表时，将对其进行筛选。 用户可以清除报表中的筛选选项。
 
 ![筛选的报表](media/service-share-reports/power-bi-share-filter-pane-report.png)
 
 Power BI 还提供了[其他开展协作和分发报表的方式](service-how-to-collaborate-distribute-dashboards-reports.md)。 要进行共享，你和收件人都需要一个 [Power BI Pro 许可证](service-features-license-type.md)，或者内容需要位于[高级容量](service-premium-what-is.md)中。 
 
-## <a name="two-ways-to-filter-a-report"></a>筛选报表的两种方式
+## <a name="follow-along-with-sample-data"></a>跟踪示例数据
 
-我们会将市场营销和销售示例模板应用用于这两种筛选技术。 想要体验它？ 你也可以安装[市场营销和销售示例模板应用](https://appsource.microsoft.com/product/power-bi/microsoft-retail-analysis-sample.salesandmarketingsample?tab=Overview)。
+本文使用市场营销和销售示例模板应用。 想要体验它？ 
 
-### <a name="set-a-filter"></a>设置筛选器
+1. 安装[市场营销和销售示例模板应用](https://appsource.microsoft.com/product/power-bi/microsoft-retail-analysis-sample.salesandmarketingsample?tab=Overview)。
+2. 选择应用，然后选择“浏览应用”  。
+
+   ![浏览示例数据](media/service-share-reports/power-bi-sample-explore-data.png)
+
+3. 选择铅笔图标以打开随应用一起安装的工作区。
+
+    ![应用编辑铅笔](media/service-share-reports/power-bi-edit-pencil-app.png)
+
+4. 在工作区内容列表中，选择“报表”  ，然后选择报表“销售和市场营销示例 PBIX”  。
+
+    ![打开示例报表](media/service-share-reports/power-bi-open-sample-report.png)
+
+    现在，已准备就绪，可以执行后续操作了。
+
+## <a name="set-a-filter-in-the-report"></a>在报表中设置筛选器
 
 在[编辑视图](consumer/end-user-reading-view.md)中打开报表并应用筛选器。
 
@@ -38,41 +53,34 @@ Power BI 还提供了[其他开展协作和分发报表的方式](service-how-to
 
 保存报表。
 
-### <a name="create-a-filter-in-the-url"></a>在 URL 中创建筛选器
-
-将筛选器添加到报表页 URL 的末尾时，行为略有不同。 筛选的页面看起来相同。 但是，Power BI 会将筛选器添加到整个报表，并从筛选器窗格删除其他值。  
-
-将以下代码添加到以下报表页 URL 的末尾：
-   
-    ?filter=*tablename*/*fieldname* eq *value*
-   
-字段类型必须是数字、日期时间或字符串。 “Tablename”或“fieldname”值不能包含空格   。
-   
-在本示例中，表的名称是 Geo，字段的名称是 Region，我们要筛选的依据值是 Central：   
-   
-    ?filter=Geo/Region eq 'Central'
-
-浏览器会添加特殊字符来表示斜杠、空格和撇号，因此最终会看到如下内容：
-   
-    app.powerbi.com/groups/xxxx/reports/xxxx/ReportSection4d00c3887644123e310e?filter=Geo~2FRegion%20eq%20'Central'
-
-![带有 URL 筛选器的报表](media/service-share-reports/power-bi-share-report-filter-url.png)
-
-保存报表。
-
-有关详细信息，请参阅文章[在 URL 使用查询字符串参数筛选报表](service-url-filters.md)。
-
 ## <a name="share-the-filtered-report"></a>共享筛选的报表
 
-1. [共享报表](service-share-dashboards.md)时，请清除“向收件人发送电子邮件通知”复选框  。
+1. 选择**共享**。
 
-    ![共享报表对话框](media/service-share-reports/power-bi-share-report-dialog.png)
+   ![选择“共享”](media/service-share-reports/power-bi-share.png)
 
-4. 使用前面创建的筛选器发送链接。
+2. 清除“向收件人发送电子邮件通知”  ，因此你可以改为发送已筛选的链接，选择“与当前筛选器和切片器共享报表”  ，然后选择“共享”  。
+
+    ![与筛选器共享报表](media/service-share-reports/power-bi-share-with-filters.png)
+
+4. 再次选择“共享”  。
+
+   ![选择“共享”](media/service-share-reports/power-bi-share.png)
+
+5. 选择“访问”  选项卡，然后选择“管理共享报表视图”  。
+
+    ![管理共享的报表视图](media/service-share-reports/power-bi-manage-shared-report-views.png)
+
+6. 右键单击所需的 URL，并选择“复制链接”  。
+
+    ![复制筛选的链接](media/service-share-reports/power-bi-copy-filtered-link.png)
+
+7. 当你共享此链接时，收件人会看到你筛选的报表。 
+
 
 ## <a name="next-steps"></a>后续步骤
 * [在 Power BI 中共享工作的方式](service-how-to-collaborate-distribute-dashboards-reports.md)
 * [共享仪表板](service-share-dashboards.md)
-* 更多问题？ [尝试参与 Power BI 社区](https://community.powerbi.com/)。
-* 想提供反馈？ 请转到 [Power BI 社区站点](https://community.powerbi.com/)提出你的建议。
+* 更多疑问？ [尝试参与 Power BI 社区](https://community.powerbi.com/)。
+* 有反馈？ 请转到 [Power BI 社区站点](https://community.powerbi.com/)提出你的建议。
 

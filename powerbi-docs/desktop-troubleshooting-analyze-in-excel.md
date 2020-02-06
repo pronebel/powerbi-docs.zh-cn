@@ -6,17 +6,17 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: troubleshooting
-ms.date: 05/08/2019
+ms.date: 01/29/2020
 ms.author: davidi
 LocalizationGroup: Troubleshooting
-ms.openlocfilehash: 987078ae33af10e9c33b4d8a00f8e2e688be12a1
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 8f4ed049fad2739ef8cc5cd307c06100f68419bd
+ms.sourcegitcommit: 8b300151b5c59bc66bfef1ca2ad08593d4d05d6a
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73865757"
+ms.lasthandoff: 01/30/2020
+ms.locfileid: "76889296"
 ---
-# <a name="troubleshooting-analyze-in-excel"></a>Analyze in Excel 故障排除
+# <a name="troubleshooting-analyze-in-excel"></a>排查在 Excel 中分析时出现的问题
 
 有时，在使用 Analyze in Excel 期间可会能收意外的结果，或功能未按预期工作。 此页提供针对 Analyze in Excel 常见问题的解决方案。
 
@@ -67,7 +67,7 @@ Excel 库的位级别必须与 Windows 版本的位级别匹配。 如果已经�
 ## <a name="connection-cannot-be-made-error"></a>“无法建立连接”错误
 导致无法建立连接错误的主要原因是你计算机上的 OLE DB 提供程序客户端库不是最新版本。  有关如何确定正确更新的信息以及下载链接信息，请参阅本文前面的**更新 OLE DB 提供程序的 Excel 库**。
 
-## <a name="forbidden-error"></a>“已禁止”错误
+## <a name="forbidden-error"></a>禁止错误
 某些用户拥有多个 Power BI 帐户，并且当 Excel 尝试使用现有凭据连接到 Power BI 时可能会使用无权访问你要访问的数据集或报表的凭据。
 
 当发生这种情况时，你可能会收到标题为**已禁止**的错误，这意味着你在登录 Power BI 时可能使用了无权访问数据集的凭据。 在发生**已禁止**错误之后，当系统提示你输入凭据时，请使用有权访问你要使用的数据集的凭据。
@@ -84,7 +84,7 @@ Excel 库的位级别必须与 Windows 版本的位级别匹配。 如果已经�
 如果尝试访问已连接到本地 Analysis Services 数据的数据集，可能会收到错误消息。 **在 Excel 中分析**确实支持使用连接字符串连接到本地 **Analysis Services** 上的数据集和报表，前提是你的计算机与 **Analysis Services** 服务器位于相同的域中，且你的帐户有权访问该 **Analysis Services** 服务器。
 
 ## <a name="cant-drag-anything-to-the-pivottable-values-area-no-measures"></a>不能将任何对象拖动到数据透视表值区域（没有度量值）
-**Excel 中的分析**连接到外部 OLAP 模型（Excel 以此连接到 Power BI）时，数据透视表  [要求该外部模型中定义了**度量值**](https://support.microsoft.com/kb/234700)，因为所有计算都在服务器上执行。 这与处理本地数据源（如在 Excel 中处理格表，或在 **Power BI Desktop** 或 **Power BI 服务**中处理数据集）时不同，处理本地数据源时可使用本地表格模型，且[可使用隐式度量值](https://msdn.microsoft.com/library/gg399077.aspx)，这些度量值动态生成而不存储在数据模型中。 在这些情况下，Excel 中的行为与 **Power BI Desktop** 或 **Power BI 服务**中的行为不同：数据中可能有这样的列，在 Power BI 中可视为度量值，而在 Excel 中不能用作值（度量值）。
+“在 Excel 中分析”  连接到外部 OLAP 模型（Excel 以此连接到 Power BI）时，数据透视表  [要求该外部模型中定义了**度量值**](https://support.microsoft.com/kb/234700)，因为所有计算都在服务器上执行。 这与处理本地数据源（如在 Excel 中处理格表，或在 **Power BI Desktop** 或 **Power BI 服务**中处理数据集）时不同，处理本地数据源时可使用本地表格模型，且[可使用隐式度量值](https://msdn.microsoft.com/library/gg399077.aspx)，这些度量值动态生成而不存储在数据模型中。 在这些情况下，Excel 中的行为与 **Power BI Desktop** 或 **Power BI 服务**中的行为不同：数据中可能有这样的列，在 Power BI 中可视为度量值，而在 Excel 中不能用作值（度量值）。
 
 要解决此问题，有以下几个选项：
 
@@ -105,5 +105,4 @@ Excel 库的位级别必须与 Windows 版本的位级别匹配。 如果已经�
 
 [使用链接表将工作表数据添加到数据模型](https://support.office.com/article/Add-worksheet-data-to-a-Data-Model-using-a-linked-table-d3665fc3-99b0-479d-ba09-a37640f5be42)
 
-[在 Excel 中的 OLAP 和非 OLAP 数据透视表的区别](https://support.microsoft.com/kb/234700)
 

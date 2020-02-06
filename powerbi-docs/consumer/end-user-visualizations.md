@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 10/14/2019
+ms.date: 01/29/2020
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: fc663f34b5ed95502f84f3858cb54cdb42f6fead
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: c182639e97bcaf272c656d2ee2e002e7470efc40
+ms.sourcegitcommit: 8b300151b5c59bc66bfef1ca2ad08593d4d05d6a
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73860970"
+ms.lasthandoff: 01/30/2020
+ms.locfileid: "76888515"
 ---
 # <a name="interact-with-visuals-in-reports-dashboards-and-apps"></a>与报表、仪表板和应用中的视觉对象交互
 
@@ -37,7 +37,7 @@ ms.locfileid: "73860970"
 
 
 > [!IMPORTANT]
-> 但这里先来简单介绍一下问答功能。 问答是 Power BI 的自然语言搜索工具。 你使用自然语言键入问题，问答以视觉对象的形式回答问题。 借助问答，使用者可以创建自己的视觉对象。 不过，使用问答创建的视觉对象无法保存。 但是，如果需要从数据中了解某些特定信息，而设计器没有将其包含在报表或仪表板中，那么问答会是一个不错的选择。 要了解有关问答的详细信息，请参阅[使用者问答](end-user-q-and-a.md)。
+> 但这里先来简单介绍一下问答功能。 问答是 Power BI 的自然语言搜索工具。 你使用自然语言键入问题，问答以视觉对象的形式回答问题。 借助问答，使用者可以随时创建自己的视觉对象。 不过，使用问答创建的视觉对象无法保存。 但是，如果需要从数据中了解某些特定信息，而设计器没有将其包含在报表或仪表板中，那么问答会是一个不错的选择。 要了解有关问答的详细信息，请参阅[使用者问答](end-user-q-and-a.md)。
 
 
 
@@ -45,13 +45,13 @@ ms.locfileid: "73860970"
 |---------|---------|---------|--------|
 |[在视觉对象中为你自己添加注释，或开始与同事进行有关视觉对象的对话](end-user-comment.md)。     |  是       |   是      |  否  |
 |[打开并浏览其中创建了视觉对象的报表](end-user-tiles.md)。     |    是     |   na      |  否 |
-|[查看影响视觉对象的筛选器和切片器的列表](end-user-report-filter.md)。     |    否     |   是      |  是 |
+|[查看影响视觉对象的筛选器和切片器的列表](end-user-report-filter.md)。     |    是否以焦点模式打开     |   是      |  否 |
 |[在问答中打开并浏览视觉对象（如果设计器已使用问答创建视觉对象）](end-user-q-and-a.md)  。     |   是      |   na      |  na  |
 |[在问答中创建视觉对象（用于浏览，将无法保存该视觉对象）](end-user-q-and-a.md)。     |   是      |   如果设计器向报表添加了问答      |  是  |
-|[让 Power BI 为你在视觉对象数据中查找相关事实或趋势](end-user-insights.md)。  这些自动生成的视觉对象被称为见解  。     |    是     |  针对整个报表，而不是每个视觉对象       | 否   |
-|[使用焦点  模式一次仅查看一个视觉对象](end-user-focus.md)。     | 是        |   是      | na  |
+|[让 Power BI 为你在视觉对象数据中查找相关事实或趋势](end-user-insights.md)。  这些自动生成的视觉对象被称为见解  。     |    是，适用于磁贴    |  否       | 否   |
+|[使用焦点  模式一次仅查看一个视觉对象](end-user-focus.md)。     | 是，适用于磁贴        |   是，适用于视觉对象      | na  |
 |[查找视觉对象的上次刷新时间](end-user-fresh.md)。     |  是       |    是     | na  |
-|[使用全屏模式或焦点模式一次仅查看一个视觉对象（不含边框或导航窗格）](end-user-focus.md)   。     |   是      |  是       | 默认  |
+|[使用全屏  模式一次仅查看一个视觉对象（不含边框或导航窗格）](end-user-focus.md)。     |   是      |  是       | 默认  |
 |[打印](end-user-print.md)。     |  是       |   是      | 否  |
 |[通过添加和修改视觉对象筛选器来深入研究视觉对象](end-user-report-filter.md)。     |    否     |   是      | 否  |
 |将鼠标悬停在视觉对象之上，以显示更多详细信息和工具提示。     |    是     |   是      | 是  |
@@ -61,7 +61,7 @@ ms.locfileid: "73860970"
 | 向视觉对象添加聚焦。 | 否  | 是  |  否 |
 | [导出至 Excel](end-user-export.md)。 | 是 | 是 | 否|
 | [创建警报](end-user-alerts.md)，以在值超过设置的阈值时通知你。  | 是  | 否  | 否 |
-| [交叉筛选和交叉突出显示页面上的其他视觉对象](end-user-report-filter.md)。  | 否      | 是  | 否  |
+| [交叉筛选和交叉突出显示页面上的其他视觉对象](end-user-report-filter.md)。  | 否      | 是  | na |
 | [钻取具有层次结构的视觉对象](end-user-drill.md)。  | 否  | 是   | 否 |
 
 ## <a name="next-steps"></a>后续步骤
