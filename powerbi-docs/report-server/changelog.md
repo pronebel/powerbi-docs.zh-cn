@@ -7,19 +7,44 @@ ms.reviewer: maggies
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
-ms.date: 10/25/2019
-ms.openlocfilehash: ef85aea957ec470b348676b553248f30d3bf8532
-ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
+ms.date: 01/27/2020
+ms.openlocfilehash: 993d83e15eafa0e40938eee13cbeabec75389f47
+ms.sourcegitcommit: 0cc594ebb78a6d0e88784673ed09f8aefd10c7a7
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/06/2020
-ms.locfileid: "73874280"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "76819528"
 ---
 # <a name="change-log-for-power-bi-report-server"></a>Power BI 报表服务器的更改日志
 
 此更改日志适用于 Power BI 报表服务器，并列出了新项和每次发布版本的 bug 修复。
 
 有关新功能的详细信息，请参阅[Power BI 报表服务器中的新增功能](whats-new.md)。 
+
+
+## <a name="january-2020"></a>2020 年 1 月
+- **Power BI 报表服务器**
+    - *版本：1.6.7327.3007（内部版本 15.0.1102.759），发布日期：2020 年 1 月 23 日*
+         - 功能
+            -  从 Power BI 报表导出到 Excel。
+           -  Power BI Premium 数据集支持分页报表。
+           -  AltText（替代文本）支持分页报表元素。
+           -  支持自定义标头。
+           -  支持 Azure SQL 托管实例作为目录。
+           -  目录的透明数据库加密。
+        - 安全更新
+        - Bug 修复
+            - 修复了屏幕阅读器、报表呈现和键盘导航的可访问性问题。
+            - 修复了保存多字节报表标题的问题。
+            - 修复了详细日志记录影响报表服务器可靠性的问题。
+          - 修复了在移动设备上确保 Power BI 报表中实时数据的问题。
+          - 修复了在经过筛选的 Power BI 报表导出中将跨视觉对象突出显示作为视觉对象应用的问题。
+          - 修复了在导出到带表达式的 Word 以显示分页报表时写入页脚的问题。 
+     
+- Power BI Desktop（已针对 Power BI 报表服务器进行优化） 
+    - *版本：2.76.5678.1521（2020 年 1 月），发布日期：2020 年 1 月 23 日*（新内部版本和新版本）
+        - 包含与 Power BI 报表服务器连接所需的更改（2020 年 1 月）        
+
 
 ## <a name="september-2019"></a>2019 年 9 月
 - **Power BI 报表服务器**
@@ -141,7 +166,7 @@ ms.locfileid: "73874280"
             - 在 Power BI 移动应用中，视觉对象空闲时会显示问题
 
 - Power BI Desktop（已针对 Power BI 报表服务器进行优化） 
-    - *版本：2.65.5313.1562（2019 年 1 月），发布日期：2019 年 1 月 30 日*
+    - *版本：2.65.5313.1562（2019 年 1 月），发布日期：* 2019 年 1 月 30 日
         - 卸载 Power BI 报表服务器后快捷方式和固定图标仍保留
         - 修复了将 Power BI 报表服务器固定到开始菜单的问题 - 在黑色图标上显示黑色文本
 
@@ -176,7 +201,7 @@ ms.locfileid: "73874280"
         - Bug 修复
             - 针对错误遥测日志记录的修复
             
-## <a name="march-2018"></a>2018 年 3 月
+## <a name="march-2018"></a>2018 年 3月
 
 - **Power BI 报表服务器**
     - *版本 1.2.6690.34729（内部版本 15.0.2.402），发布日期：2018 年 4 月 27 日*
@@ -306,4 +331,4 @@ ms.locfileid: "73874280"
 [下载报表生成器](https://www.microsoft.com/download/details.aspx?id=53613)  
 [下载 SQL Server Data Tools (SSDT)](https://go.microsoft.com/fwlink/?LinkID=616714)
 
-更多问题？ [尝试咨询 Power BI 社区](https://community.powerbi.com/)
+更多疑问？ [尝试咨询 Power BI 社区](https://community.powerbi.com/)
