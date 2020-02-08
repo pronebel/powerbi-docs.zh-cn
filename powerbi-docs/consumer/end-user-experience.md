@@ -8,21 +8,21 @@ ms.custom: seodec18
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: quickstart
-ms.date: 10/30/2019
+ms.date: 01/31/2020
 ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: e6be58971b265414440041f4667a0b0cc455cdd4
-ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
+ms.openlocfilehash: fbd629ea7d2c5bb71471ac8073a5a823f1b2c192
+ms.sourcegitcommit: 8e3d53cf971853c32eff4531d2d3cdb725a199af
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/06/2020
-ms.locfileid: "73851530"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "76975068"
 ---
 # <a name="quickstart---getting-around-in-power-bi-service"></a>快速入门 - 使用 Power BI 服
 
 [!INCLUDE [power-bi-service-new-look-include](../includes/power-bi-service-new-look-include.md)]
 
-现已掌握 Power BI 的基础知识，接下来了解 Power BI 服务  。 如前所述，团队中有人可能将所有时间都花在 Power BI Desktop 上，为其他人合并数据和创建报表  。 但在另一方面，你的时间可能都花在 Power BI 服务上，你要查看其他人创建的内容并与之交互（使用体验），  。 在此快速入门教程中，将导入示例数据并使用该数据来了解 Power BI 服务的使用方式。 
+你现已掌握 Power BI 的基础知识，接下来了解 Power BI 服务  。 如前所述，团队中有人可能将所有时间都花在 Power BI Desktop 上，为其他人合并数据和创建报表  。 但在另一方面，你的时间可能都花在了 Power BI 服务上，用来查看其他人创建的内容并与他们交互（使用体验），  。 在此快速入门中，你将导入示例数据并使用该数据来了解 Power BI 服务的使用方式。 
  
 ## <a name="prerequisites"></a>先决条件
 
@@ -30,76 +30,84 @@ ms.locfileid: "73851530"
 
 - 了解 [Power BI 服务的基本概念](end-user-basic-concepts.md)
 
-## <a name="open-power-bi-service-and-get-some-data"></a>打开 Power BI 服务并获取一些数据
-我们将获取一些用于 Power BI 服务教程的示例数据。 我们提供了各种类型的示例数据供你浏览，这次我们将使用零售店数据。    
-1. 打开 app.powerbi.com，然后选择“示例”的链接  。 
-
-    ![第一次打开 Power BI 服务](./media/end-user-experience/power-bi-new-user.png)
-
-2. 依次选择“零售分析示例”和“连接”  。
-
-    ![选择此示例](./media/end-user-experience/power-bi-retail-sample.png)
-
-    Power BI 服务导入示例并显示仪表板。 仪表板可以区分 Power BI 服务和 Power BI Desktop。 该示例还包含一个报表和数据库（稍后将用到）。
-
-    ![仪表板显示](media/end-user-experience/power-bi-dashboard.png)
-
-请观看下面的视频，Amanda 将带你感受 Power BI 服务导航体验。  然后，按照视频下方的分步说明操作，自行进行探索。
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/G26dr2PsEpk" frameborder="0" allowfullscreen></iframe>
 
 
-## <a name="view-content-dashboards-reports-workbooks-datasets-workspaces-apps"></a>查看内容（仪表板、报表、工作簿、数据集、工作区、应用）
-让我们先来看看基本内容（仪表板、报表、数据集、工作簿）的组织方式。 在工作区的上下文中显示内容。 此时，只有一个工作区（称为“我的工作区”  。 通常，消费者不需要或使用任何其他工作区。 “我的工作区”存储你拥有的所有内容。 可以将其作为你的个人沙盒或自己内容的工作区域。 “我的工作区”是你刚刚下载的零售分析示例的保存位置。 
+## <a name="open-the-power-bi-service"></a>打开 Power BI 服务
 
-在“我的工作区”中，内容由 4 个选项卡组成：仪表板、报表、工作簿和数据集。
 
-![“我的工作区”屏幕](./media/end-user-experience/power-bi-my-workspace.png)
+首先，打开 Power BI 服务 (app.powerbi.com) 并导航到主页  。 
+1. 如果左侧导航窗格已折叠，则请选择导航窗格图标 ![有 3 条水平线的图标](./media/end-user-experience/power-bi-burger.png) 将其展开。 
 
-从导航窗格中选择工作区后，关联内容（仪表板、报表、工作簿、数据集）的选项卡在 Power BI 画布右侧显示。
+1. 选择“主页”（如果它尚未打开）  。 
 
-如果是新用户，则只能看到一个工作区，即“我的工作区”  。
 
-![工作区的短视频](./media/end-user-experience/nav.gif)
+1. 获取示例数据。 我们将获取一些用于 Power BI 服务教程的示例数据。 我们提供了各种类型的示例数据供你浏览，这次我们将使用营销和销售数据。 
 
-在这些选项卡（又名“内容视图”）中，可查看内容相关信息以及可对其执行的操作  。  例如，可在“仪表板”选项卡中执行打开仪表板、搜索、排序等更多操作。
+    要继续操作，请按照这些说明安装[“销售和市场营销示例”应用](end-user-app-marketing.md)。
 
-![“仪表板”选项卡](./media/end-user-experience/power-bi-dashboard-tab.png)
+1. 安装应用后，从导航窗格中选择“应用”  。 
+
+   ![第一次打开 Power BI 服务](./media/end-user-experience/power-bi-home-steps.png)
+
+
+2. 在“应用”屏幕上，选择“销售和市场营销示例”应用   。
+
+    ![第一次打开 Power BI 服务](./media/end-user-experience/power-bi-sample-app.png)
+
+2. 选择“浏览应用”  。
+
+    ![选择此示例](./media/end-user-experience/power-bi-explore.png)
+
+
+3. Power BI 服务会打开应用的仪表板。 仪表板可区分 Power BI 服务和 Power BI Desktop。 该示例还包含一个报表和数据库。 
+
+    ![仪表板显示](media/end-user-experience/power-bi-dash.png)
+
+    作为使用者，你收到的大部分应用都不包含对基础数据库的直接访问权限  。 由于 Power BI 示例是为所有 Power BI 使用者创建的，因此包含数据集。 你的设计者同事们可使用这些数据集来了解如何创建新的仪表板和报表  。 
+
+## <a name="view-content-dashboards-and-reports"></a>查看内容（仪表板和报表）
+让我们先来看看基本内容（仪表板、报表、应用）的组织方式。 在工作区的上下文中显示内容。 每个使用者都至少有一个工作区，叫做“我的工作区”  。 每次安装应用时，都会为该应用创建一个工作区。  由于我们安装了“销售和市场营销示例”应用，因此我们现在有两个工作区。 
+
+从左侧导航栏中选择“工作区”来自行查看  。 
+
+![我的工作区 ](./media/end-user-experience/power-bi-workspaces.png)
+
+“我的工作区”存储了你拥有和创建的所有内容  。 可以将其作为你的个人沙盒或自己内容的工作区域。 对于很多 Power BI 使用者来说，“我的工作区”保持为空，因为你的作业并不涉及到创建新内容   。  根据定义，使用者会使用其他人创建的数据并使用该数据作出业务决策  。 如果你发现你要创建内容，请考虑改为参阅[面向设计人员的 Power BI 文档](../power-bi-creator-landing.md)  。
+
+“应用工作区”包含该特定应用的所有内容  。  当设计人员创建一个应用时，他们会将使用该应用所必需的全部内容捆绑在一起  。  请选择“销售和市场营销”工作区，查看设计人员将哪些内容捆绑到了应用中  。 
+
+![“我的工作区”屏幕](./media/end-user-experience/power-bi-app-workspace.png)
+
+“销售和市场营销”应用工作区包含一个仪表板、一个报表和一个数据集。 并非每个应用都包含这三项内容。 一个应用可能只包含一个仪表板、每种内容类型中包含三个，或者甚至包含 20 个报表。 这一切都取决于设计人员在应用中随附的内容  。 由于销售和市场营销数据是一个示例，因此它包含一个数据集。 但更常见的是，面向使用者的应用工作区不包含任何数据集  。 
+
+工作区不仅仅是一个简单的内容列表。 在本页上，你可详细了解工作区的仪表板和报表。 请花几分钟时间来确定内容所有者、上次刷新日期、相关内容和引导指南。 如果工作区有说明，则该说明可帮助你更好地了解该工作区的目标，以及你可如何使用它来实现你的业务目的。 而如果工作区中有大量内容，可使用搜索和排序选项快速找到你需要的内容。
+
+![显示了“更多操作”菜单的“应用工作区”屏幕](./media/end-user-experience/power-bi-workspace-app.png)
+
+工作区也是指向数据的路径之一。 可从列表中选择仪表板或报表将其打开。  可将鼠标悬停在仪表板或报表上方并选择星形图标将其放入收藏夹。 如果设计人员向你授予了[共享权限](end-user-shared-with-me.md)，则悬停鼠标还会显示共享操作  。 
+
+![鼠标悬停时显示的菜单](./media/end-user-experience/power-bi-hover.png)
 
 通过选择仪表板名称打开仪表板。
 
-![仪表板已打开](./media/end-user-experience/power-bi-open-dashboard.png)
+![仪表板已打开](./media/end-user-experience/power-bi-dashboard-open.png)
 
 ## <a name="favorite-a-dashboard-and-a-report"></a>收藏仪表板和报表
- 利用收藏夹能快速访问你认为最重要的内容。  
+ 利用收藏夹能快速访问你认为最重要的内容。 你刚才了解了如何将工作区中的仪表板放入收藏夹。 你还可直接从仪表板或报表创建收藏项。
 
-1. 在打开的仪表板中，选择右上角的“收藏夹”  。
+1. 在打开的仪表板中，从菜单栏上选择“收藏夹”  。
    
-   ![添加收藏夹](./media/end-user-experience/powerbi-dashboard-favorite.png)
+   ![添加收藏夹](./media/end-user-experience/power-bi-select-favorite.png)
    
    此时，“**收藏**”变为“**取消收藏**”，星标变为黄色。
    
-   ![删除收藏夹](./media/end-user-experience/power-bi-unfavorite2.png)
+   ![删除收藏夹](./media/end-user-experience/power-bi-unfavorite.png)
 
-2. 若要显示已加入收藏夹的所有内容的列表，请在导航窗格中选择“收藏夹”右侧的箭头  。 导航窗格是 Power BI 服务的永久性功能，因此可以在 Power BI 服务中的任何位置访问此列表。
+2. 要显示已加入收藏夹的所有内容的列表，请从导航窗格中选择“收藏夹”右侧的箭头  。 导航窗格是 Power BI 服务的一项永久性功能，因此可在 Power BI 服务中的任何位置访问此列表。
    
-    ![收藏夹浮出控件](./media/end-user-experience/power-bi-favorite.png)
+    ![收藏夹浮出控件](./media/end-user-experience/power-bi-favorites-flyout.png)
    
-    到目前为止，我们只有一个收藏夹。 收藏夹可以是仪表板、报表或应用。  
-
-1. 另一种将仪表板或报表标记为收藏的方法是利用“仪表板”或“报表”内容视图选项卡   。打开“报表”选项卡，然后选择报表名称左侧的星形图标  。
-   
-   ![标记为收藏](./media/end-user-experience/power-bi-report-favorite.png)
-
-3. 通过选择导航窗格中的“收藏夹”或选择星形图标 ![显示黄色星形图标的屏幕截图](media/end-user-experience/powerbi-star-icon.png)，打开“收藏夹”窗格    。
-   
-   ![打开“收藏夹”屏幕](./media/end-user-experience/power-bi-favorite-pane.png)
-   
-   现在有两个收藏夹：一个仪表板和一个报表。 可在此处打开、搜索、取消收藏或与同事共享内容。
-
-4. 选择报表名称，在报表编辑器中将其打开。
-
-    ![打开报表](./media/end-user-experience/power-bi-report-open.png)
+    截至目前，此 Power BI 用户有 4 个收藏项。 收藏夹可以是仪表板、报表或应用。  
 
 
 要了解详细信息，请参阅[收藏](end-user-favorite.md)
@@ -108,43 +116,57 @@ ms.locfileid: "73851530"
 
 1. 与收藏夹类似，通过选择导航窗格中“最近访问的内容”旁边的箭头，可在 Power BI 服务中的任意位置快速查看最近访问的内容  。
 
-   ![最近访问内容浮出控件](./media/end-user-experience/power-bi-recent-flyout.png)
+   ![最近访问内容浮出控件](./media/end-user-experience/power-bi-flyout-recent.png)
 
     在浮出控件中选择内容将其打开。
 
-2. 有时，你不想只是打开最近访问的内容，而是希望查看信息或执行其他操作，例如查看见解或导出到 Excel。 在此类情况下，可通过从导航窗格中选择“最近访问的内容”或其图标，打开“最近访问的内容”窗格   。 如果有多个工作区，则此列表显示来自所有工作区的内容。
+2. 有时，你不想只打开最近访问的内容，而是希望查看信息或执行其他操作，例如查看见解或导出到 Excel。 在此类情况下，可通过从导航窗格中选择“最近访问的内容”或其图标，打开“最近访问的内容”窗格   。 在本例中，Power BI 用户有多个工作区，因此此列表可能包含其所有工作区中的内容。
 
-   ![“最近访问内容”窗格](./media/end-user-experience/power-bi-recent.png)
+   ![“最近访问内容”窗格](./media/end-user-experience/power-bi-recent-action.png)
 
 若要了解详细信息，请参阅[Power BI 中最近使用的项目](end-user-recent.md)
 
 ### <a name="search-and-sort-content"></a>对内容进行搜索和排序
-借助内容视图，可以更轻松地对内容进行搜索、筛选和排序。 若要搜索仪表板、报表或工作簿，请在搜索区域中键入内容。 Power BI 会筛选出名称中包含搜索字符串的内容。
+刚使用 Power BI 服务时，你只有少量的内容。 但随着同事开始与你共享内容以及你开始下载应用，你最终可能会有大量的内容。 那时你会发现搜索和排序非常有用。
 
-由于只有一个示例，因此无需搜索和排序。  但是如果列表上具有大量仪表板、报表、工作簿和数据集，你将发现搜索和排序非常有用。
+几乎可以从 Power BI 服务的每个部分进行搜索。 只需查找搜索框或搜索放大镜图标即可。    
+![放大镜图标](./media/end-user-experience/power-bi-search-icon.png)
 
-![搜索报表](./media/end-user-experience/power-bi-search.png)
+在“搜索”字段中，键入仪表板、报表、工作簿、应用或所有者的完整或部分名称。 Power BI 会搜索所有内容。
 
-也可以按名称或所有者对内容进行排序。 注意“名称”右侧的向上箭头  。 目前，我们按照名字的字母顺序对 83 个项目进行排序（升序）。 若要将排序顺序更改为降序，请选择“名称”  。 将向上箭头更改为向下箭头。
+![搜索报表](./media/end-user-experience/power-bi-search-field.png)
 
-![对内容排序](./media/end-user-experience/power-bi-sort-new.png)
+也有多种方式可对内容进行排序。 请将鼠标悬停在列标题上，查找表示可对列进行排序的箭头。 不是所有列都可以进行排序。 
 
-不是所有列都可以进行排序。 将鼠标悬停在列标题上可发现哪些列可以进行排序。
+![“类型”列标题旁边的箭头](./media/end-user-experience/power-bi-sort-icon.png)
+
+或者，查找在画布右上角附近的排序控件。 选择是按日期、名称还是所有者进行升序或降序排列。  
+
+![对内容排序](./media/end-user-experience/power-bi-sort-date.png)
+
 
 若要了解详细信息，请参阅 [Power BI 导航：搜索和排序](end-user-search-sort.md)
 
+## <a name="power-bi-home"></a>Power BI 主页
+我们最后将在此快速入门中讲讲一开始提到的内容，即 Power BI 主页  。 
+
+![“主页”画布](./media/end-user-experience/power-bi-home-oldest.png)
+
+“主页”将搜索和排序工具、导航窗格和画布汇聚在一起，有卡片供你选择来打开仪表板、报表和应用  。 最开始，“主页”画布上可能没有很多卡片，但随着你开始与同事一起使用 Power BI，这种情况将会发生改变。 “主页”画布也会更新推荐的内容和学习资源。
+
+有关详细信息，请参阅 [Power BI 主页](end-user-home.md)
+
 ## <a name="clean-up-resources"></a>清理资源
-完成此快速入门后，如果需要，可以删除零售分析示例仪表板、报表和数据集。
+完成本快速入门后，你可根据需要删除示例仪表板、报表和数据集。
 
 1. 打开 Power BI 服务 (app.powerbi.com) 并登录。    
-2. 在导航窗格中，选择“工作区”>“我的工作区”  。  
-    观察是否存在指示它为收藏项的黄星    
-3. 在“仪表板”选项卡下，选择零售分析仪表板旁边的垃圾桶“删除”图标   。    
+2. 打开 Power BI 主页、向下滚动到“工作区”，再选择“销售和市场营销”   。      
 
-    ![删除仪表板](./media/end-user-experience/power-bi-cleanup.png)
+3. 将鼠标悬停在仪表板、报表或数据集上，然后选择“更多选项(...)” > “删除”   。 重复此操作，直到三项内容均被删除。
 
-4. 依次选择“报表”选项卡和零售分析报表  。
-1. 依次选择“数据集”选项卡和零售分析数据集  。
+    ![删除仪表板](./media/end-user-experience/power-bi-delete.png)
+
+
 
 ## <a name="next-steps"></a>后续步骤
 

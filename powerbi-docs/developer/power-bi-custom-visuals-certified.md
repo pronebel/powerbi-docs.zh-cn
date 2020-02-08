@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.topic: conceptual
 ms.subservice: powerbi-custom-visuals
 ms.date: 01/12/2019
-ms.openlocfilehash: 04954397a16fecddabca63067c903dee742873ef
-ms.sourcegitcommit: 052df769e6ace7b9848493cde9f618d6a2ae7df9
+ms.openlocfilehash: 4ffab3913560498dd57103f0a25c39f7a03a42ec
+ms.sourcegitcommit: 75300b3f53f438ed7d3bd4edc93b9eb5925bf3af
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/14/2020
-ms.locfileid: "75925573"
+ms.lasthandoff: 02/05/2020
+ms.locfileid: "77026660"
 ---
 # <a name="get-a-power-bi-visual-certified"></a>获取 Power BI 视觉对象认证
 
@@ -45,7 +45,7 @@ Power BI 视觉对象必须由卖方仪表板或合作伙伴中心批准。 建�
 
 存储库必须只包含一个 Power BI 视觉对象的代码。 它不能包含多个 Power BI 视觉对象的代码或不相关的代码。
 
-存储库必须包含名为“认证”  的分支。 此分支中的源代码必须与提交的包匹配。 如果正在重新提交 Power BI 视觉对象，则只能在下一次提交过程中更新此代码。
+存储库必须包含名为 certification（需小写）的分支。 此分支中的源代码必须与提交的包匹配。 如果正在重新提交 Power BI 视觉对象，则只能在下一次提交过程中更新此代码。
 
 如果 Power BI 视觉对象使用私有 npm 包或 git 子模块，则必须提供对包含此代码的其他存储库的访问权限。
 
@@ -54,7 +54,7 @@ Power BI 视觉对象必须由卖方仪表板或合作伙伴中心批准。 建�
 使用最新版本的 API 编写 Power BI 视觉对象。
 
 存储库必须包含以下文件：
-* **.gitignore** - 将 `node_modules` 添加到此文件。 该代码不能包含 node_modules  文件夹。
+* **.gitignore** - 将 `node_modules` 添加到此文件。 该代码不能包含 node_modules 文件夹。
 * **capabilities.json** - 如果你提交的是Power BI 视觉对象的较新版本，并对该文件中的属性进行了更改，请验证它们不会中断现有用户的报表。
 * **pbiviz.json**
 * **package.json**
@@ -107,9 +107,9 @@ Power BI 视觉对象必须由卖方仪表板或合作伙伴中心批准。 建�
 请求 Power BI 认证的步骤：
 
 1. 登录到合作伙伴中心。
-2. 在“概述”页  上，选择你的 Power BI 视觉对象，然后转到“产品”  设置页。
-3. 选中“请求 Power BI 认证”  复选框。
-4. 在“审阅并发布”  页的“认证说明”  文本框中，提供指向源代码的链接以及访问它所需的凭据。
+2. 在“概述”页上，选择你的 Power BI 视觉对象，然后转到“产品”设置页。
+3. 选中“请求 Power BI 认证”复选框。
+4. 在“审阅并发布”页的“认证说明”文本框中，提供指向源代码的链接以及访问它所需的凭据。
 
 >[!NOTE]
 > 如果在 Power BI 的视觉对象提交过程中需要使用[卖家面板](https://docs.microsoft.com/office/dev/store/use-the-seller-dashboard-to-submit-to-the-office-store)（旧的管理工具），请查看[卖家面板认证提交流程](seller-dashboard.md#seller-dashboard-certification-submission-process)说明。
@@ -134,42 +134,42 @@ Power BI 视觉对象必须由卖方仪表板或合作伙伴中心批准。 建�
 * [MAQ 软件箱线图](https://appsource.microsoft.com/product/power-bi-visuals/WA104381351)
 *  [MAQ 软件砖形图](https://appsource.microsoft.com/product/power-bi-visuals/WA104380836)
 *  [Akvelon 气泡图](https://appsource.microsoft.com/product/power-bi-visuals/WA104381340)
-*  [项目符号图表](https://appsource.microsoft.com/product/power-bi-visuals/WA104380755)，[视频链接](https://youtu.be/AOlsFYkfkcw) 
+*  [项目符号图表](https://appsource.microsoft.com/product/power-bi-visuals/WA104380755)，[视频链接](https://youtu.be/AOlsFYkfkcw)
 * [项目符号图表](https://appsource.microsoft.com/product/power-bi-visuals/WA104380755)
-*  [OKViz 项目符号图表](https://appsource.microsoft.com/product/power-bi-visuals/WA104380953)，[视频链接](https://youtu.be/mtvUNl9bMjA) 
+*  [OKViz 项目符号图表](https://appsource.microsoft.com/product/power-bi-visuals/WA104380953)，[视频链接](https://youtu.be/mtvUNl9bMjA)
 * [MAQ 软件日历](https://appsource.microsoft.com/product/power-bi-visuals/WA104381844)
 *  [Tallan 的日历](https://appsource.microsoft.com/product/power-bi-visuals/WA104381146)
-*  [OKViz K 线图](https://appsource.microsoft.com/product/power-bi-visuals/WA104380952)，[视频链接](https://youtu.be/nT_18gyRxPo) 
+*  [OKViz K 线图](https://appsource.microsoft.com/product/power-bi-visuals/WA104380952)，[视频链接](https://youtu.be/nT_18gyRxPo)
 *  [Card with States by OKViz](https://appsource.microsoft.com/product/power-bi-visuals/WA104380967)
 *  [Chiclet 切片器](https://appsource.microsoft.com/product/power-bi-visuals/WA104380756)
-*  [和弦](https://appsource.microsoft.com/product/power-bi-visuals/WA104380761)，[视频链接](https://youtu.be/AQvd2FhRyCI) 
+*  [和弦](https://appsource.microsoft.com/product/power-bi-visuals/WA104380761)，[视频链接](https://youtu.be/AQvd2FhRyCI)
 *  [MAQ 软件圆形仪表](https://appsource.microsoft.com/product/power-bi-visuals/WA104380837)
 *  [群集映射](https://appsource.microsoft.com/product/power-bi-visuals/WA104380806)
 * [Akvelon 自定义日历](https://appsource.microsoft.com/product/power-bi-visuals/WA104381179)
 * [MAQ 软件圆柱仪表](https://appsource.microsoft.com/product/power-bi-visuals/WA104380874)
 *  [度盘式仪表](https://appsource.microsoft.com/product/power-bi-visuals/WA104381184)
 [点图](https://appsource.microsoft.com/product/power-bi-visuals/WA104380760)
-*  [OKViz 点图](https://appsource.microsoft.com/product/power-bi-visuals/WA104380949)，[视频链接](https://youtu.be/By16pX9KT40) 
+*  [OKViz 点图](https://appsource.microsoft.com/product/power-bi-visuals/WA104380949)，[视频链接](https://youtu.be/By16pX9KT40)
 *  [向下钻取变形地图](https://appsource.microsoft.com/product/power-bi-visuals/WA104381045)
 *  [向下钻取分级统计图](https://appsource.microsoft.com/product/power-bi-visuals/WA104381044)
-*  [向下钻取柱形图](https://appsource.microsoft.com/product/power-bi-visuals/WA104380857)，[视频链接](https://youtu.be/lBy2gQQ5YsQ) 
-*  [基于时间的数据的向下钻取柱形图](https://appsource.microsoft.com/product/power-bi-visuals/WA104380881)，[视频链接](https://youtu.be/T_mRou18vx0) 
-*  [向下钻取环形图](https://appsource.microsoft.com/product/power-bi-visuals/WA104380858)，[视频链接](https://youtu.be/AUVFrSHmPeo) 
+*  [向下钻取柱形图](https://appsource.microsoft.com/product/power-bi-visuals/WA104380857)，[视频链接](https://youtu.be/lBy2gQQ5YsQ)
+*  [基于时间的数据的向下钻取柱形图](https://appsource.microsoft.com/product/power-bi-visuals/WA104380881)，[视频链接](https://youtu.be/T_mRou18vx0)
+*  [向下钻取环形图](https://appsource.microsoft.com/product/power-bi-visuals/WA104380858)，[视频链接](https://youtu.be/AUVFrSHmPeo)
 *  [双 KPI](https://appsource.microsoft.com/product/power-bi-visuals/WA104380774)
 *  [Dynamic Tooltip by MAQ Software](https://appsource.microsoft.com/product/power-bi-visuals/WA104380983)
-*  [增强散点图](https://appsource.microsoft.com/product/power-bi-visuals/WA104380762)，[视频链接](https://youtu.be/xCfM0cjM4do) 
+*  [增强散点图](https://appsource.microsoft.com/product/power-bi-visuals/WA104380762)，[视频链接](https://youtu.be/xCfM0cjM4do)
 *  [Enlighten 水族馆](https://appsource.microsoft.com/product/power-bi-visuals/WA104381112)
 *  [Enlighten 切片器](https://appsource.microsoft.com/product/power-bi-visuals/WA104380960)
 *  [Enlighten 洗牌排序法](https://appsource.microsoft.com/product/power-bi-visuals/WA104380849)
 *  [Enlighten 方格百分比图](https://appsource.microsoft.com/product/power-bi-visuals/WA104380850)
-*  [按 Devscope 列表筛选](https://appsource.microsoft.com/product/power-bi-visuals/WA104381413)，[视频链接](https://youtu.be/RetEWGwBu0I) 
-*  [力导向图](https://appsource.microsoft.com/product/power-bi-visuals/WA104380764)，[视频链接](https://youtu.be/YsTa7uyJ4sg) 
+*  [按 Devscope 列表筛选](https://appsource.microsoft.com/product/power-bi-visuals/WA104381413)，[视频链接](https://youtu.be/RetEWGwBu0I)
+*  [力导向图](https://appsource.microsoft.com/product/power-bi-visuals/WA104380764)，[视频链接](https://youtu.be/YsTa7uyJ4sg)
 *  [MAQ 软件带有源的漏斗图](https://appsource.microsoft.com/product/power-bi-visuals/WA104381334)
-*  [甘特图](https://appsource.microsoft.com/product/power-bi-visuals/WA104380765)，[视频链接](https://youtu.be/qJ7s_KrGiUU) 
+*  [甘特图](https://appsource.microsoft.com/product/power-bi-visuals/WA104380765)，[视频链接](https://youtu.be/qJ7s_KrGiUU)
 * [MAQ 软件甘特图](https://appsource.microsoft.com/product/power-bi-visuals/WA104381364)
 *  [全球数据条](https://appsource.microsoft.com/product/power-bi-visuals/WA104381344)
 *  [MAQ 软件网格](https://appsource.microsoft.com/product/power-bi-visuals/WA104380825)
-*  [Akvelon 层次结构图](https://appsource.microsoft.com/product/power-bi-visuals/WA104381333)，[视频链接](https://youtu.be/0ZGzJaq_KT4) 
+*  [Akvelon 层次结构图](https://appsource.microsoft.com/product/power-bi-visuals/WA104381333)，[视频链接](https://youtu.be/0ZGzJaq_KT4)
 *  [直方图图表](https://appsource.microsoft.com/product/power-bi-visuals/WA104380776)
 *  [MAQ 软件含点直方图](https://appsource.microsoft.com/product/power-bi-visuals/WA104381032)
 * [水平条形图](https://appsource.microsoft.com/product/power-bi-visuals/WA104381230)
@@ -184,44 +184,44 @@ Power BI 视觉对象必须由卖方仪表板或合作伙伴中心批准。 建�
 *  [MAQ 软件 KPI 股票代码](https://appsource.microsoft.com/product/power-bi-visuals/WA104380946)
 * [MAQ 软件线性仪表](https://appsource.microsoft.com/product/power-bi-visuals/WA104380821)
 *  [点线图](https://appsource.microsoft.com/product/power-bi-visuals/WA104380766)
-*  [马赛克图](https://appsource.microsoft.com/product/power-bi-visuals/WA104380785)，[视频链接](https://youtu.be/90FLCKpgicA) 
+*  [马赛克图](https://appsource.microsoft.com/product/power-bi-visuals/WA104380785)，[视频链接](https://youtu.be/90FLCKpgicA)
 *  [多 KPI](https://appsource.microsoft.com/product/power-bi-visuals/WA104381763)
 *  [CloudScope 概述](https://appsource.microsoft.com/product/power-bi-visuals/WA104381477)
 *  [播放轴（动态切片器）](https://appsource.microsoft.com/product/power-bi-visuals/WA104380981)
 *  [Power KPI](https://appsource.microsoft.com/product/power-bi-visuals/WA104381083)，[视频链接](https://youtu.be/IvfIP3E6-1Q)
-*  [Power KPI 矩阵](https://appsource.microsoft.com/product/power-bi-visuals/WA104381299)，[视频链接](https://youtu.be/1enze8pcGzY) 
-*  [脉冲图](https://appsource.microsoft.com/product/power-bi-visuals/WA104381006)，[视频链接](https://youtu.be/DQWdcQtjDVw) 
+*  [Power KPI 矩阵](https://appsource.microsoft.com/product/power-bi-visuals/WA104381299)，[视频链接](https://youtu.be/1enze8pcGzY)
+*  [脉冲图](https://appsource.microsoft.com/product/power-bi-visuals/WA104381006)，[视频链接](https://youtu.be/DQWdcQtjDVw)
 *  [MAQ 软件象限图](https://appsource.microsoft.com/product/power-bi-visuals/WA104381011)
 *  [雷达图](https://appsource.microsoft.com/product/power-bi-visuals/WA104380771)
 *  [MAQ 软件环形图](https://appsource.microsoft.com/product/power-bi-visuals/WA104380824)
 *  [MAQ 软件旋转图](https://appsource.microsoft.com/product/power-bi-visuals/WA104381007)
-*  [Sankey 图](https://appsource.microsoft.com/product/power-bi-visuals/WA104380777)，[视频链接](https://youtu.be/WWP9wVUHGaA) 
+*  [Sankey 图](https://appsource.microsoft.com/product/power-bi-visuals/WA104380777)，[视频链接](https://youtu.be/WWP9wVUHGaA)
 *  [Akvelon 散点图](https://appsource.microsoft.com/product/power-bi-visuals/WA104381703)
 *  [滚动条](https://appsource.microsoft.com/product/power-bi-visuals/WA104381018)
-*  [OKViz 智能筛选器](https://appsource.microsoft.com/product/power-bi-visuals/WA104380859)，[视频链接](https://youtu.be/gcJsDDRQq28) 
-*  [OKViz 迷你图](https://appsource.microsoft.com/product/power-bi-visuals/WA104380910)，[视频链接](https://youtu.be/0m3Vnvso9tY) 
+*  [OKViz 智能筛选器](https://appsource.microsoft.com/product/power-bi-visuals/WA104380859)，[视频链接](https://youtu.be/gcJsDDRQq28)
+*  [OKViz 迷你图](https://appsource.microsoft.com/product/power-bi-visuals/WA104380910)，[视频链接](https://youtu.be/0m3Vnvso9tY)
 *  [Stream 关系图](https://appsource.microsoft.com/product/power-bi-visuals/WA104380772)
 *  [Sunburst](https://appsource.microsoft.com/product/power-bi-visuals/WA104380767)
 *  [通过 OKViz 实现的摘要面板](https://appsource.microsoft.com/product/power-bi-visuals/WA104380873)
 *  [热度地图表](https://appsource.microsoft.com/product/power-bi-visuals/WA104380818)
-*  [转速计](https://appsource.microsoft.com/product/power-bi-visuals/WA104380937)，[视频链接](https://youtu.be/C3OXdETbS9o) 
+*  [转速计](https://appsource.microsoft.com/product/power-bi-visuals/WA104380937)，[视频链接](https://youtu.be/C3OXdETbS9o)
 *  [文本筛选器](https://appsource.microsoft.com/product/power-bi-visuals/WA104381309)
 *  [MAQ 软件文本包装器](https://appsource.microsoft.com/product/power-bi-visuals/WA104380826)
 *  [MAQ 软件温度计](https://appsource.microsoft.com/product/power-bi-visuals/WA104380847)
 *  [时间刷切片器](https://appsource.microsoft.com/product/power-bi-visuals/WA104380798)
-*  [时间线切片器](https://appsource.microsoft.com/product/power-bi-visuals/WA104380786)，[视频链接](https://youtu.be/ozMtZ4_NZ10) 
+*  [时间线切片器](https://appsource.microsoft.com/product/power-bi-visuals/WA104380786)，[视频链接](https://youtu.be/ozMtZ4_NZ10)
 *  [CloudScope 时间线](https://appsource.microsoft.com/product/power-bi-visuals/WA104381427)，[视频链接](https://youtu.be/szNi9YgXFJc)
-*  [飓风图](https://appsource.microsoft.com/product/power-bi-visuals/WA104380768)，[视频链接](https://www.youtube.com/watch?v=AQvd2FhRyCI) 
+*  [飓风图](https://appsource.microsoft.com/product/power-bi-visuals/WA104380768)，[视频链接](https://www.youtube.com/watch?v=AQvd2FhRyCI)
 *  [MAQ 软件贸易图](https://appsource.microsoft.com/product/power-bi-visuals/WA104380823)
 * [终极 KPI 卡](https://appsource.microsoft.com/product/power-bi-visuals/WA104381977)
-*  [终极方差](https://appsource.microsoft.com/product/power-bi-visuals/WA104381140)，[视频链接](https://youtu.be/pDYF8iZxERs) 
-*  [终极瀑布图](https://appsource.microsoft.com/product/power-bi-visuals/WA104380956)，[视频链接](https://youtu.be/0BZsVCQdEkc) 
+*  [终极方差](https://appsource.microsoft.com/product/power-bi-visuals/WA104381140)，[视频链接](https://youtu.be/pDYF8iZxERs)
+*  [终极瀑布图](https://appsource.microsoft.com/product/power-bi-visuals/WA104380956)，[视频链接](https://youtu.be/0BZsVCQdEkc)
 *  [CloudScope 用户列表](https://appsource.microsoft.com/product/power-bi-visuals/WA104381426)
 *  [MAQ 软件文氏图](https://appsource.microsoft.com/product/power-bi-visuals/WA104381231)
 *  [小提琴图](https://appsource.microsoft.com/product/power-bi-visuals/WA104381947)
 *  [Visio 视觉对象](https://appsource.microsoft.com/product/power-bi-visuals/WA104381132)
-*  [方格百分比图](https://appsource.microsoft.com/product/power-bi-visuals/WA104381049)，[视频链接](https://youtu.be/1vRqYUsm3Vk) 
-*  [Word Cloud](https://appsource.microsoft.com/product/power-bi-visuals/WA104380752)，[视频链接](https://youtu.be/AblTenl9fqo) 
+*  [方格百分比图](https://appsource.microsoft.com/product/power-bi-visuals/WA104381049)，[视频链接](https://youtu.be/1vRqYUsm3Vk)
+*  [Word Cloud](https://appsource.microsoft.com/product/power-bi-visuals/WA104380752)，[视频链接](https://youtu.be/AblTenl9fqo)
 
 ## <a name="faq"></a>常见问题解答
 
