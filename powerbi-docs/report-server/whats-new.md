@@ -1,6 +1,6 @@
 ---
 title: Power BI 报表服务器中的新增功能
-description: 了解 Power BI 报表服务器中的新增功能。 本文包括主要功能区域，在发布新项时进行更新。
+description: 了解 Power BI 报表服务器中的新增功能。 本文涉及主要功能方面，并会在新功能发布时随之进行更新。
 author: maggiesMSFT
 ms.author: maggies
 ms.reviewer: ''
@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 01/23/2020
-ms.openlocfilehash: 9b7ea090d7860de9ec4132b070bd1286085cc5f3
-ms.sourcegitcommit: 0cc594ebb78a6d0e88784673ed09f8aefd10c7a7
+ms.openlocfilehash: d4e233e55731d77d4136c1b6ef1e341a2d043234
+ms.sourcegitcommit: 75300b3f53f438ed7d3bd4edc93b9eb5925bf3af
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "76819551"
+ms.lasthandoff: 02/05/2020
+ms.locfileid: "77026706"
 ---
 # <a name="whats-new-in-power-bi-report-server"></a>Power BI 报表服务器中的新增功能
 
@@ -35,7 +35,7 @@ ms.locfileid: "76819551"
 
 此发布引入了许多新功能，例如，按钮的条件格式设置、数据配置文件增强功能以及 KPI 和表格视觉对象的更多格式设置。 下面介绍汇总的更新列表：
 
-**Reporting**
+**报告**
 
 - 将表列或矩阵值设置为自定义 URL
 - KPI 视觉对象格式设置
@@ -56,7 +56,7 @@ ms.locfileid: "76819551"
 - 新文件格式：.pbids
 - 建模操作的性能改进
 
-**Reporting**
+**报告**
 
 *将表列或矩阵值设置为自定义 URL*
 
@@ -160,7 +160,7 @@ ms.locfileid: "76819551"
 
 #### <a name="custom-headers"></a>自定义标头
 
-为所有与指定的正则表达式模式匹配的 URL 设置标头值。 用户可以使用有效的 XML 更新自定义标头值，以设置所选请求 URL 的标头值。 管理员可以在 XML 中添加任意数量的标头。 有关详细信息，请参阅 Reporting Services“服务器属性高级页面”  一文中的[自定义标头](https://docs.microsoft.com/sql/reporting-services/tools/server-properties-advanced-page-reporting-services#custom-headers)。
+为所有与指定的正则表达式模式匹配的 URL 设置标头值。 用户可以使用有效的 XML 更新自定义标头值，以设置所选请求 URL 的标头值。 管理员可以在 XML 中添加任意数量的标头。 有关详细信息，请参阅 Reporting Services“服务器属性 -‘高级’页”  一文中的 [CustomHeaders](/sql/reporting-services/tools/server-properties-advanced-page-reporting-services#customheaders)。
 
 #### <a name="transparent-database-encryption"></a>透明数据库加密
 
@@ -202,7 +202,7 @@ Power BI 报表服务器的 2019 年 9 月更新包含大量 Power BI 报表功�
 - 主题中的颜色和文本类
 - 新的默认主题
 
-### <a name="analytics"></a>Analytics
+### <a name="analytics"></a>分析
 
 - 自定义格式字符串
 - 格式设置选项的条件格式设置更新
@@ -218,7 +218,7 @@ Power BI 报表服务器的 2019 年 9 月更新包含大量 Power BI 报表功�
 - 新 DAX 表达式：REMOVEFILTERS 和 CONVERT
 - 新 DAX 比较运算符：==
 
-### <a name="data-preparation"></a>数据准备工作
+### <a name="data-preparation"></a>数据准备
 
 - M Intellisense 改进
 - 新的转换：按位置拆分列
@@ -278,7 +278,7 @@ Power BI 报表为交互式报表。 报表中的标题为动态标题具有意�
 - 行数据标签位置控件
 - KPI 可视指示器文本大小控件
 
-#### <a name="analytics"></a>Analytics
+#### <a name="analytics"></a>分析
 
 - 将日期显示为层次结构现已正式发布  
 
@@ -323,13 +323,13 @@ Power BI 报表中支持以下功能：
 
 **AllowedResourceExtensionsForUpload** 设置可以上传到报表服务器的资源扩展。 不要求包含内置文件类型的扩展，如 &ast;.rdl 和 &ast;.pbix。 默认为“&ast;、&ast;.xml、&ast;.xsd、&ast;.xsl、&ast;.png、&ast;.gif、&ast;.jpg、&ast;.tif、&ast;.jpeg、&ast;.tiff、&ast;.bmp、&ast;.pdf、&ast;.svg、&ast;.rtf、&ast;.txt、&ast;.doc、&ast;.docx、&ast;.pps、&ast;.ppt、&ast;.pptx”。 
 
-**SupportedHyperlinkSchemes** 设置以逗号分隔的 URI 方案列表，这些方案可以在允许呈现的超链接操作上定义，或设置“&ast;”，启用所有超链接方案。 例如，设置“http、https”将允许指向“https://www. contoso.com”的超链接，但将删除指向“mailto:bill@contoso.com”或“javascript:window.open(‘ www.contoso.com’, ‘_blank’)”的超链接。 默认为“&ast;”。
+**SupportedHyperlinkSchemes** 设置以逗号分隔的 URI 方案列表，这些方案可以在允许呈现的超链接操作上定义，或设置“&ast;”，启用所有超链接方案。 例如，设置“http、https”将允许指向“https://www. contoso.com”的超链接，但会删除指向“mailto:bill@contoso.com”或“javascript:window.open(‘ www.contoso.com’, ‘_blank’)”的超链接。 默认为“&ast;”。
 
 ## <a name="august-2018"></a>2018 年 8 月
 
 2018 年 8 月，针对 Power BI 报表服务器优化的 Power BI Desktop 版本中新增了很多新功能。 这些功能涉及不同的方面：
 
-- [Reporting](#reporting)
+- [报告](#reporting)
 - [分析](#analytics)
 - [建模](#modeling)
 
@@ -411,7 +411,7 @@ Power BI 报表现在提供使用 Kerberos 的 SAP HANA SSO 直接查询支持�
 - [切片器重述](https://powerbi.microsoft.com/blog/power-bi-report-server-update-august-2018/#slicer)
 - [报表页工具提示](https://powerbi.microsoft.com/blog/power-bi-report-server-update-august-2018/#reportPageTooltips)
 
-### <a name="analytics"></a>Analytics
+### <a name="analytics"></a>分析
 
 - [新的 DAX 函数：COMBINEVALUES()](https://powerbi.microsoft.com/blog/power-bi-report-server-update-august-2018/#combineValues)
 - [度量值钻取](https://powerbi.microsoft.com/blog/power-bi-report-server-update-august-2018/#measureDrillthrough)
@@ -431,7 +431,7 @@ Power BI 报表现在提供使用 Kerberos 的 SAP HANA SSO 直接查询支持�
 
 作为 IT 管理员，你现在可以使用组织的 MDM 工具来远程配置 Power BI iOS 移动应用对报表服务器的访问权限。 有关详细信息，请参阅[远程配置 Power BI iOS 移动应用对报表服务器的访问权限](configure-powerbi-mobile-apps-remote.md)。
 
-## <a name="march-2018"></a>2018 年 3月
+## <a name="march-2018"></a>2018 年 3 月
 
 2018 年 3月，针对 Power BI 报表服务器优化的 Power BI Desktop 版本中新增了很多很多功能。 这些功能涉及不同的方面：
 
@@ -500,7 +500,7 @@ Power BI 报表现在提供使用 Kerberos 的 SAP HANA SSO 直接查询支持�
 - [搜索“格式化”和“分析”窗格](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2018-feature-summary/#search)
 - [字段属性窗格和字段说明](https://powerbi.microsoft.com/blog/power-bi-desktop-december-feature-summary/#fieldPropertiesPane)
 
-### <a name="analytics"></a>Analytics
+### <a name="analytics"></a>分析
 
 - [UTCNOW() 和 UTCTODAY()](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2018-feature-summary/#utcDAX)
 - [标记自定义日期表](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2018-feature-summary/#customDateTable)
@@ -619,6 +619,6 @@ Power BI 报表服务器现在支持新的 Power BI 表和矩阵视觉对象。 
 查看下面这些源，以便随时了解 Power BI 报表服务器中的新增功能。
 
 * [Microsoft Power BI 博客](https://powerbi.microsoft.com/blog/)
-* [Guy in a Cube YouTube 通道](https://aka.ms/guyinacube)
+* [Guy in a Cube YouTube 频道](https://aka.ms/guyinacube)
 
-更多疑问？ [尝试咨询 Power BI 社区](https://community.powerbi.com/)
+更多问题？ [尝试咨询 Power BI 社区](https://community.powerbi.com/)
