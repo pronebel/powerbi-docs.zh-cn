@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 01/10/2020
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 504b389bdbe50d17f969365d7e4f2e51d206918c
-ms.sourcegitcommit: 4b926ab5f09592680627dca1f0ba016b07a86ec0
+ms.openlocfilehash: dedbe3800dc4a6b1088ca5a4037bc8451c61d986
+ms.sourcegitcommit: 578d43aeb7cebf40f3caf03a614bc885cc039488
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/10/2020
-ms.locfileid: "75837210"
+ms.lasthandoff: 02/07/2020
+ms.locfileid: "77076663"
 ---
 # <a name="about-using-directquery-in-power-bi"></a>关于在 Power BI 中使用 DirectQuery
 
@@ -312,7 +312,7 @@ Power BI Desktop 支持所有数据源。 某些数据源还可直接在 Power B
 
 * **中值**：通常情况下，任何聚合（例如 `Sum` 或 `Count Distinct`）都会被推送到基础源。 但这一事实并不适用于中值，因为基础源通常不支持此聚合。 在这种情况下，会先从基础源中检索详细数据，然后从返回的结果中计算中值。 当要针对相对较少的结果计算中值时，此方法是合理的。 如果基数太大，则会出现性能问题或导致查询失败，因为行限制为一百万。 例如，“国家/地区人口的中值”可能是合理的，但“销售价格的中值”可能不合理   。
 
-* **高级文本筛选器（contains* 和类似筛选器）：** * 当对文本列进行筛选时，高级筛选功能允许使用筛选器“contains”、“begins with”等筛选器   。 对于某些数据源，这些筛选器肯定会导致性能下降。 特别是在需要完全匹配的情况下，不应使用默认的 contains 筛选器  。 尽管结果可能相同（具体取决于实际数据），但由于使用索引不同，性能可能也会完全不同。
+* **高级文本筛选器（“包含”  和类似筛选器）：** 当你对文本列进行筛选时，高级筛选功能允许使用“包含”  、“开头为”  等筛选器。 对于某些数据源，这些筛选器肯定会导致性能下降。 特别是在需要完全匹配的情况下，不应使用默认的 contains 筛选器  。 尽管结果可能相同（具体取决于实际数据），但由于使用索引不同，性能可能也会完全不同。
 
 * **多选切片器：** 默认情况下，切片器仅允许单选。 允许在筛选器中进行多重选择可能会导致一些性能问题，因为用户在切片器中选择了一组项。 例如，如果用户选择了所需的 10 种产品，每个新选择都会导致将查询发送到源。 尽管用户可以在查询完成之前选择下一项，但此方法会对基础源产生的额外负载。
 

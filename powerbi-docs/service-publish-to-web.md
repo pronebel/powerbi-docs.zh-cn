@@ -7,18 +7,18 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 01/30/2020
+ms.date: 02/06/2020
 LocalizationGroup: Share your work
-ms.openlocfilehash: 53cc311f2fb0bfa4ab876c80b81ee2a092c4fd8c
-ms.sourcegitcommit: 8e3d53cf971853c32eff4531d2d3cdb725a199af
+ms.openlocfilehash: a9417e7de98e0fa1867aa0561743c1ed6c5b63e2
+ms.sourcegitcommit: 578d43aeb7cebf40f3caf03a614bc885cc039488
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "76913630"
+ms.lasthandoff: 02/07/2020
+ms.locfileid: "77076693"
 ---
 # <a name="publish-to-web-from-power-bi"></a>从 Power BI 发布到 Web
 
-使用 Power BI“发布到 Web”  选项，可在任何设备上通过电子邮件或社交媒体，轻松地将交互式 Power BI 可视化效果在线嵌入博客帖子、网站等处。 还可以方便地编辑、更新、刷新或取消共享已发布的视觉对象。
+使用 Power BI“发布到 Web”  选项，可在任何设备上通过电子邮件或社交媒体，轻松地将交互式 Power BI 可视化效果在线嵌入博客帖子、网站等处。 还可以轻松编辑、更新、刷新或停止共享已发布的视觉对象。
 
 > [!WARNING]
 > 使用“发布到 Web”时，Internet 上的所有人都可查看你发布的报表或视觉对象  。 这无需身份验证，并且还可查看报表聚合的详细数据。 发布报表前，请确保可以公开共享数据和可视化效果。 请勿发布机密或专有信息。 如果有任何疑问，请在发布前查看组织策略。
@@ -40,9 +40,11 @@ ms.locfileid: "76913630"
 
    ![PtW1](media/service-publish-to-web/publish_to_web1.png)
    
-2. 如果用户不允许你创建嵌入代码，请与你的 Power BI 管理员联系
+2. 如果用户尚未允许你创建嵌入代码，请联系你的 [Power BI 管理员](service-admin-role.md)
 
    ![PtW1](media/service-publish-to-web/publish_to_web_admin_prompt.png)
+   
+   若要获取在查找谁能在组织中启用“发布到 Web”方面的帮助，请[查看这些提示](#how-to-find-your-power-bi-administrator)。
 
 3. 查看对话框内容，然后选择“创建嵌入代码”  。
 
@@ -71,9 +73,9 @@ ms.locfileid: "76913630"
 
 | 视图模式 | 嵌入时外观 |
 | --- | --- |
-| ![PtW6b](media/service-publish-to-web/publish_to_web6b.png) |“调整到页面大小”会考虑报表的页面高度和宽度  。 如果将页面设置为动态  比率，如 16:9 或 4:3，内容将在 iFrame 范围内缩放至合适的大小。 嵌入 iFrame 中时，使用“调整到页面大小”可能会导致“宽屏”，内容在 iFrame 中调整至合适大小后，iFrame 区域会显示灰色背景   。 为了尽量避免宽屏，请正确设置 iFrame 的高度和宽度。 |
+| ![PtW6b](media/service-publish-to-web/publish_to_web6b.png) |“调整到页面大小”会考虑报表的页面高度和宽度  。 如果将页面设置为动态  比率，如 16:9 或 4:3，内容将在 iFrame 范围内缩放至合适的大小。 嵌入 iFrame 中时，使用“调整到页面大小”可能会导致“宽屏”，内容在 iFrame 中调整至合适大小后，iFrame 区域会显示灰色背景   。 为了最大限度地减少上下黑边，请正确设置 iFrame 的高度和宽度。 |
 | ![PtW6d](media/service-publish-to-web/publish_to_web6d.png) |“实际大小”确保报表保持其在报表页上设置的大小  。 这可能导致 iFrame 中显示滚动条。 设置 iFrame 高度和宽度，以避免出现滚动条。 |
-| ![PtW6c](media/service-publish-to-web/publish_to_web6c.png) |“适应宽度”确保内容适合 iFrame 的水平区域  。 仍会显示一个边框，但内容进行缩放，以便利用所有可用的水平空间。 |
+| ![PtW6c](media/service-publish-to-web/publish_to_web6c.png) |“适应宽度”  确保内容填充 iFrame 的水平区域。 仍会显示一个边框，但内容进行缩放，以便利用所有可用的水平空间。 |
 
 ## <a name="tips-and-tricks-for-iframe-height-and-width"></a>iFrame 高度和宽度的提示和技巧
 
@@ -83,7 +85,7 @@ ms.locfileid: "76913630"
  
 可以手动编辑宽度和高度，确保它正以所希望的方式适应正将其嵌入到的页面。
 
-若要更加完美地适应，可尝试为 iFrame 的高度添加 56 个像素，以适应底部栏的当前大小。 如果报表页使用动态尺寸，下表提供了一些可用于实现适应页面而不会造成宽屏的尺寸。
+若要实现更完美的适应，可尝试为 iFrame 的高度添加 56 个像素，以适应底部栏的当前大小。 如果报表页使用动态尺寸，下表提供了一些可用于实现适应页面而不会造成宽屏的尺寸。
 
 | 比率 | 大小 | 维度（宽 x 高） |
 | --- | --- | --- |
@@ -194,6 +196,21 @@ Power BI 管理员可以启用或禁用“发布到 Web”功能  。 还可以�
 使用“发布到 Web”创建嵌入代码时，报表对所有 Internet 用户均可见  。 它是公开提供的，因此你可以期望将来查看者能够轻松地通过社交媒体共享报表。 用户查看报表，或者通过打开直接公共 URL，或者在嵌入到的网页或博客中查看，Power BI 将缓存报表定义和查看报表所需的查询结果。 这确保了成千上万的并发用户能够在不影响性能的情况下查看报表。
 
 缓存持续很长时间，因此如果你更新报表定义（例如更改其视图模式）或刷新报表数据，大约需要一小时才能在用户查看的报表版本中反映更改。 因此建议你提前暂存工作，并仅当你对设置满意时创建**发布到 Web** 嵌入代码。
+
+## <a name="how-to-find-your-power-bi-administrator"></a>如何查找 Power BI 管理员
+
+若要更改[“发布到 Web”租户设置](#tenant-setting)，需要与组织的 [Power BI 管理员](service-admin-role.md)协作。
+
+对于已注册 Power BI 的小型组织或个人，可能还没有 Power BI 管理员。 必须遵循[租户管理员接管流程](https://docs.microsoft.com/azure/active-directory/users-groups-roles/domains-admin-takeover)。 有了 Power BI 管理员后，他们就可以为你创建嵌入代码。
+
+已建立的组织通常已有 Power BI 管理员。 担任以下任何角色的人员都可以充当 Power BI 管理员：
+
+- Office 365 管理员
+- Azure Active Directory 管理员
+- 在 Azure Active Directory 中具有 Power BI 服务管理员角色的用户
+
+必须在组织中[找到这些人中的一个](https://docs.microsoft.com/office365/admin/admin-overview/admin-overview#who-has-admin-permissions-in-my-business)，他们可以更新设置。
+
 
 ## <a name="next-steps"></a>后续步骤
 

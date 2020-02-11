@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: tutorial
-ms.date: 01/16/2020
-ms.author: mblythe
+ms.date: 02/03/2020
+ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: bbca812644b82f8a0b848dc16e450f880ccb596c
-ms.sourcegitcommit: 02342150eeab52b13a37b7725900eaf84de912bc
+ms.openlocfilehash: 99869740eb20b14625e66ff50cb48b08e5cb3e15
+ms.sourcegitcommit: 75300b3f53f438ed7d3bd4edc93b9eb5925bf3af
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/23/2020
-ms.locfileid: "76539891"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "77036667"
 ---
 # <a name="tutorial-embed-a-power-apps-visual-in-a-power-bi-report"></a>教程：在 Power BI 报表中嵌入 Power Apps 视觉对象
 
@@ -25,7 +25,7 @@ ms.locfileid: "76539891"
 
 在本教程中，了解如何：
 > [!div class="checklist"]
-> * 在 Power BI 报表中添加 Power Apps 视觉对象
+> * 向 Power BI 报表添加 Power Apps 视觉对象
 > * 在 Power Apps 中创建一个使用 Power BI 报表中的数据的新应用
 > * 在报表中查看 Power Apps 视觉对象并与之交互
 

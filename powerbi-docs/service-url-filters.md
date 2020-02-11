@@ -10,12 +10,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 01/30/2020
 LocalizationGroup: Reports
-ms.openlocfilehash: e2840d2695b70867b73c873aea7a06acf26bcc3e
-ms.sourcegitcommit: 53c2b5ea4ee1fe2659804d5ccc8e4bb445a8bcad
+ms.openlocfilehash: b20820490ec88d34d4ee75c135cc54277e473545
+ms.sourcegitcommit: 578d43aeb7cebf40f3caf03a614bc885cc039488
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "76913552"
+ms.lasthandoff: 02/07/2020
+ms.locfileid: "77076641"
 ---
 # <a name="filter-a-report-using-query-string-parameters-in-the-url"></a>通过在 URL 中添加查询字符串参数来筛选报表
 
@@ -104,7 +104,7 @@ app.powerbi.com/groups/me/apps/app-id/reports/report-id/ReportSection?filter=Tab
 ?filter=Store/Territory eq 'NC'
 ```
 
-若要对其他字段进行筛选，请添加“and”  和另一个采用上述相同格式的字段。 以下是一个示例。
+若要对其他字段进行筛选，请添加“and”  和另一个采用上述相同格式的字段。 示例如下。
 
 ```
 ?filter=Store/Territory eq 'NC' and Store/Chain eq 'Fashions Direct'
@@ -114,10 +114,10 @@ app.powerbi.com/groups/me/apps/app-id/reports/report-id/ReportSection?filter=Tab
 
 除了“and”  之外，Power BI 还支持其他许多运算符。 下表列出了这些运算符及其支持的内容类型。
 
-|运算符后的表达式  | 定义 | 字符串  | 数字 | Date |  示例|
+|运算符  | 定义 | 字符串  | 数字 | 日期 |  示例|
 |---------|---------|---------|---------|---------|---------|
-|**and**     | and |  是      | 是 |  是|  product/price le 200 and price gt 3.5 |
-|**eq**     | equals |  是      | 是   |  是       | Address/City eq 'Redmond' |
+|**and**     | 和 |  是      | 是 |  是|  product/price le 200 and price gt 3.5 |
+|**eq**     | 等于 |  是      | 是   |  是       | Address/City eq 'Redmond' |
 |**ne**     | 不等于 |   是      | 是  | 是        |  Address/City ne 'London' |
 |**ge**     |  大于或等于       | 否 | 是 |是 |  product/price ge 10
 |**gt**     | 大于        |否 | 是 | 是  | product/price gt 20
@@ -193,7 +193,7 @@ TerritoryChain = [Territory] & " - " & [Chain]
 使用查询字符串参数时，需要注意两点。
 
 * 使用 in 运算符时，in 右侧的值必须是括在括号中的逗号分隔列表   。    
-* 在 Power BI 报表服务器中，可以通过将报表参数包含到报表 URL 中来[传递报表参数](https://docs.microsoft.com/sql/reporting-services/pass-a-report-parameter-within-a-url?view=sql-server-2017.md)。 这些 URL 参数不带前缀，因为它们被直接传递到报表处理引擎。
+* Power BI 报表服务器还支持使用“filter”URL 参数指定其他筛选器。  例如，在 Power BI 报表服务器中，URL 可能如下所示： https://reportserver/reports/powerbi/Store Sales?rs:Embed=true&filter= Store/Territory eq 'NC' and Store/Chain eq 'Fashions Direct'
 * 无法结合使用查询字符串筛选和[发布到 Web](service-publish-to-web.md) 或[导出到 PDF](consumer/end-user-pdf.md)。
 * [使用报表 Web 部件在 SharePoint Online 中嵌入报表](service-embed-report-spo.md)不支持 URL 筛选器。
 * 由于 Javascript 限制，长数据类型限制为 (2^53-1)。
@@ -204,4 +204,4 @@ TerritoryChain = [Territory] & " - " & [Chain]
 [将可视化效果固定到仪表板](service-dashboard-pin-tile-from-report.md)  
 [注册免费试用版](https://powerbi.microsoft.com/get-started/)
 
-更多疑问？ [尝试咨询 Power BI 社区](https://community.powerbi.com/)
+更多问题？ [尝试咨询 Power BI 社区](https://community.powerbi.com/)
