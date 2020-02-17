@@ -134,6 +134,8 @@
               href: embed-sample-for-customers-national-clouds.md
         - name: 概念
           items:
+            - name: Power BI 嵌入式分析中的容量和 SKU
+              href: embedded-capacity.md
             - name: 性能最佳做法
               href: embedded-performance-best-practices.md
             - name: 服务主体
