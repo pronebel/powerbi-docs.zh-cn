@@ -9,12 +9,12 @@ ms.subservice: powerbi-service
 ms.topic: tutorial
 ms.custom: seodec18
 ms.date: 02/05/2019
-ms.openlocfilehash: 0e1f3361abfc4f45f71edaf82a197cfa3ea8cad3
-ms.sourcegitcommit: 8e3d53cf971853c32eff4531d2d3cdb725a199af
+ms.openlocfilehash: 53432a0b3e6f09a558a189ef152c9d10645db546
+ms.sourcegitcommit: 17aad73762579d6822383b27b96b1b63f87f2d6f
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "74695418"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "77259678"
 ---
 # <a name="tutorial-embed-a-power-bi-content-into-your-application-for-national-clouds"></a>教程：将 Power BI 内容嵌入国家云的应用程序
 
@@ -54,7 +54,7 @@ Power BI 还支持[国家云](https://docs.microsoft.com/azure/active-directory/
 * 政府社区云 (GCC)：
 
     > [!NOTE]
-    > 嵌入政府社区云 (GCC) 的 Power BI 内容，只能通过 Office 356 SKU 完成。 其他国家/地区云客户可以使用 [Office 356 或 Azure SKU](embedded-faq.md#what-is-the-difference-between-the-a-skus-in-azure-and-the-em-skus-in-office-365)。
+    > 嵌入政府社区云 (GCC) 的 Power BI 内容，只能通过 Office 356 SKU 完成。 其他国家/地区云客户可以使用 [Office 356 或 Azure SKU](embedded-capacity.md)。
 
 1. 使用 GCCCloud.config 内容覆盖 Cloud.config 文件。
 
