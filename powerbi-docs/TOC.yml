@@ -429,6 +429,8 @@
           href: desktop-send-smile-privacy-statement.md
         - name: 管理员：管理 Power BI Desktop 登录窗体
           href: desktop-admin-sign-in-form.md
+        - name: Power BI Desktop 登录问题疑难解答
+          href: desktop-troubleshooting-sign-in.md
         - name: 辅助功能
           items:
             - name: 关于 Power BI 辅助功能
@@ -827,6 +829,8 @@
                   href: service-connect-to-xero.md
                 - name: Zendesk
                   href: service-connect-to-zendesk.md
+                - name: Snowflake 数据仓库
+                  href: service-connect-snowflake.md
             - name: 组织内容包
               items:
                 - name: 组织内容包简介
