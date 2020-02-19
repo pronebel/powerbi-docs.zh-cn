@@ -52,15 +52,19 @@
               href: dax-column-measure-references.md
             - name: 避免使用 FILTER 作为筛选器参数
               href: dax-avoid-avoid-filter-as-filter-argument.md
+        - name: Power BI 报表
+          items:
             - name: 用报表页工具提示扩展视觉对象
               href: report-page-tooltips.md
             - name: 使用报表页钻取
               href: report-drillthrough.md
-            - name: 何时使用 Power BI 中的分页报表
+        - name: Power BI 分页报表
+          items:
+            - name: 何时使用分页报表
               href: report-paginated-or-power-bi.md
-            - name: 在分页报表中使用级联参数
+            - name: 使用级联参数
               href: paginated-report-cascading-parameter.md
-            - name: 打印分页报表时避免出现空白页
+            - name: 打印时避免出现空白页
               href: report-paginated-blank-page.md
             - name: 将 SSRS 报表迁移到 Power BI
               href: migrate-ssrs-reports-to-power-bi.md
