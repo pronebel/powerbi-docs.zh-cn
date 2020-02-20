@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 01/30/2020
+ms.date: 02/10/2020
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 2e4ab92d5d1adce8659cdb971c5061a0f133b38f
-ms.sourcegitcommit: 64a270362c60581a385af7fbc31394e3ebcaca41
+ms.openlocfilehash: 10f79c8670b42828b4219723bd8e503424e77820
+ms.sourcegitcommit: e27d40054949421701f829113c4a5f6d260c8d5f
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/31/2020
-ms.locfileid: "76895441"
+ms.lasthandoff: 02/12/2020
+ms.locfileid: "77154347"
 ---
 # <a name="create-matrix-visualizations-in-power-bi"></a>在 Power BI 中创建矩阵可视化效果
 
@@ -136,17 +136,32 @@ ms.locfileid: "76895441"
 
 如果你禁用“梯级布局”，Power BI 会在另一列中显示子类别，而不是在父类别下缩进。
 
-## <a name="subtotals-with-matrix-visuals"></a>矩阵视觉对象小计
+## <a name="subtotals-and-grand-totals-with-matrix-visuals"></a>包含矩阵视觉对象的小计和总计
 
-可以在矩阵视觉对象中，打开或关闭行和列的小计。 在下图中，可以看到行小计已设置为“开”  。
+可以在矩阵视觉对象中，打开或关闭行和列的小计。 在下图中，可以看到行小计设置为“开”，并设置为显示在底部  。
 
-![显示总计和小计的矩阵](media/desktop-matrix-visual/matrix-visual_20.png)
+![显示总计和小计的矩阵](media/desktop-matrix-visual/power-bi-subtotals.png)
 
-在“可视化效果”窗格的“格式”部分中，展开“小计”卡，并将“行小计”滑块移动至“关闭”   。 在你执行此操作后，系统就不会显示小计。
+打开“小计”并添加标签时，Power BI 还会添加总计值行，并为该行添加相同的标签  。 若要格式化总计，请选择“总计”的格式化选项  。 
 
-![小计处于禁用状态的矩阵](media/desktop-matrix-visual/matrix-visual_21.png)
+![显示“总计”卡的矩阵](media/desktop-matrix-visual/power-bi-grand-total.png)
+
+如果要关闭小计和总计，请在“可视化效果”窗格的“格式”部分展开“小计”卡  。 将行小计滑块滑动到“关”  。 在你执行此操作后，系统就不会显示小计。
+
+![小计处于禁用状态的矩阵](media/desktop-matrix-visual/power-bi-no-subtotals.png)
 
 相同的操作过程适用于列小计。
+
+## <a name="add-conditional-icons"></a>添加条件图标
+使用“条件图标”向表或矩阵添加视觉提示  。 
+
+在“可视化效果”窗格的“格式”部分，展开“条件格式”卡  。 将“图标”滑块滑动到“开”，然后选择“高级控件”    。
+
+![显示带有图标的矩阵屏幕](media/desktop-matrix-visual/power-bi-icons.png)
+
+调整矩阵的条件、图标和颜色，然后选择“确定”  。 在这个例子中，我们使用红色标志表示低值，紫色圆圈表示高值，黄色三角形表示中间的所有值。 
+
+![显示图标的矩阵](media/desktop-matrix-visual/power-bi-icons-applied.png)
 
 ## <a name="cross-highlighting-with-matrix-visuals"></a>使用矩阵视觉对象进行交叉突出显示
 

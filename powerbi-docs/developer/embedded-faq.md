@@ -7,13 +7,13 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
-ms.date: 05/27/2019
-ms.openlocfilehash: 8a3b9389769c92bc52512dbf1215afa405161cd5
-ms.sourcegitcommit: 02342150eeab52b13a37b7725900eaf84de912bc
+ms.date: 02/11/2020
+ms.openlocfilehash: 3561d122dde324f1d383d40a152bccc193a2afbe
+ms.sourcegitcommit: 17aad73762579d6822383b27b96b1b63f87f2d6f
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/23/2020
-ms.locfileid: "76539040"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "77259696"
 ---
 # <a name="frequently-asked-questions-about-power-bi-embedded"></a>有关 Power BI Embedded 的常见问题
 
@@ -55,37 +55,11 @@ Microsoft 建议企业购买 Power BI Premium，这是一款企业级自助式�
 
 ## <a name="technical"></a>技术
 
-### <a name="what-is-the-difference-between-the-a-skus-in-azure-and-the-em-skus-in-office-365"></a>Azure 中的 A SKU 与 Office 365 中的 EM SKU 之间有什么区别？
+### <a name="where-can-i-learn-more-about-capacity-and-skus-in-power-bi-embedded-analytics"></a>在哪里可以了解到 Power BI 嵌入式分析中的容量和 SKU？
 
-PowerBI.com 是企业软件即服务 (SaaS) 解决方案，其拥有许多功能，例如社交协作、电子邮件订阅和其他功能。 PowerBI.com 帮助 ISV 管理其嵌入式分析解决方案内容和租户级别设置。
+请参阅 [Power BI 嵌入式分析中的容量和 SKU](embedded-capacity.md) 一文。
 
-Power BI Embedded 是一组开发人员可用于创建嵌入式分析解决方案的平台即服务 (PaaS) API。
-
-以下是部分功能差异的列表。
-
-| 功能 | Power BI Embedded | Power BI Premium 容量 | Power BI Premium 容量 |
-|----------------------------------------------------------------------------------|-------------------|---------------------------|---------------------------|
-|   | SKU - Azure 容量 | EM SKU - O365 容量 | P SKU - O365 容量 |
-| 从 Power BI 工作区嵌入项目 | 是 | 是 | 是 |
-| 为组织在嵌入式应用程序中使用 Power BI 报表  | 否 | 是 | 是 |
-| 为客户在嵌入式应用程序中使用 Power BI 报表 | 是 | 是 | 是 |
-| 在 SharePoint 中使用 Power BI 报表 | 否 | 是 | 是 |
-| 在 Dynamics 中使用 Power BI 报表 | 否 | 是 | 是 |
-| 在 Teams 中使用 Power BI 报表（不包括移动应用） | 否 | 是 | 是 |
-| 在 Powerbi.com 和 Power BI 移动版中使用免费的 Power BI 许可证访问内容 | 否 | 否 | 是 |
-| 使用 MS Office 应用中嵌入的免费 Power BI 许可证访问内容 | 否 | 是 | 是 |
-
-### <a name="power-bi-now-offers-three-skus-for-embedding-a-skus-em-skus-and-p-skus-which-one-should-i-purchase-for-my-scenario"></a>Power BI 现在提供三个用于嵌入的 SKU：A SKU、EM SKU 和 P SKU。 应该为我的方案购买哪一个？
-
-|  |A SKU (Power BI Embedded)  |EM SKU (Power BI Premium)  |P SKU (Power BI Premium)  |
-|---------|---------|---------|---------|
-|购买  |Azure 门户 |Office |Office |
-|用例 | 在自己的应用程序中嵌入内容 | <li> 在自己的应用程序中嵌入内容 <br><br><br> <li> 在 MS Office 应用程序中嵌入内容： <br> - [SharePoint](https://powerbi.microsoft.com/blog/integrate-power-bi-reports-in-sharepoint-online/) <br> - [Teams（不包括移动应用）](https://powerbi.microsoft.com/blog/power-bi-teams-up-with-microsoft-teams/) <br> - [Dynamics 365](https://docs.microsoft.com/dynamics365/customer-engagement/basics/add-edit-power-bi-visualizations-dashboard) | <li> 在自己的应用程序中嵌入内容 <br><br><br> <li> 在 MS Office 应用程序中嵌入内容： <br> - [SharePoint](https://powerbi.microsoft.com/blog/integrate-power-bi-reports-in-sharepoint-online/) <br> - [Teams（不包括移动应用）](https://powerbi.microsoft.com/blog/power-bi-teams-up-with-microsoft-teams/) <br> - [Dynamics 365](https://docs.microsoft.com/dynamics365/customer-engagement/basics/add-edit-power-bi-visualizations-dashboard) <br><br><br> <li> 通过 [Power BI 服务](https://powerbi.microsoft.com/)与 Power BI 用户共享内容  |
-|账单 |每小时 |每月 |每月 |
-|承诺  |无承诺 |每年  |每月/每年 |
-|区别 |全弹性 - 可以在 Azure 门户中或通过 API 纵向/横向扩展、暂停/恢复资源  |可用于在 SharePoint Online 和 Microsoft Teams（不包括移动应用）中嵌入内容 |合并嵌入在应用程序中并在相同的容量中使用 Power BI 服务 |
-
-### <a name="what-are-the-prerequisites-to-create-a-pbie-capacity-in-azure"></a>在 Azure 中创建 PBIE 容量的先决条件是什么？
+### <a name="what-are-the-prerequisites-for-creating-a-pbie-capacity-in-azure"></a>在 Azure 中创建 PBIE 容量的先决条件是什么？
 
 * 登录到组织目录（不支持 Microsoft 帐户）。
 * 需要拥有 Power BI 租户，即目录中至少有一个用户注册了 Power BI。 

@@ -11,18 +11,18 @@ ms.topic: conceptual
 ms.date: 10/16/2019
 ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: 24e5a06d3e835f7ff5114cbf17b772bc7efd00bb
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 7513479d14b57e47b30d2cd7ac9cc4acfe69d075
+ms.sourcegitcommit: 17aad73762579d6822383b27b96b1b63f87f2d6f
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73852225"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "77260122"
 ---
 # <a name="basic-concepts-for-the-power-bi-service-consumers"></a>面向 Power BI 服务使用者的基本概念
 
 [!INCLUDE [power-bi-service-new-look-include](../includes/power-bi-service-new-look-include.md)]
 
-本文假设你已阅读 [Power BI 概述](../fundamentals/power-bi-overview.md)，并将自己定位为 [Power BI 使用者](end-user-consumer.md)。 使用者接收来自同事的 Power BI 内容，例如仪表板和报表。 使用者使用 Power BI 服务（即网站版 Power BI）。
+本文假设你已阅读 [Power BI 概述](../fundamentals/power-bi-overview.md)，并将自己定位为 [Power BI _使用者_](end-user-consumer.md)  。 使用者接收来自同事的 Power BI 内容，例如仪表板和报表。 使用者使用 Power BI 服务（即网站版 Power BI）。
 
 你肯定听说过“Power BI Desktop”这个词，或仅听说过“Desktop”。 它是设计人员  使用的独立工具，设计人员生成仪表板和报表并与你共享。 请务必要知道还有其他 Power BI 工具。 只要你是使用者，就只能使用 Power BI 服务。 本文仅适用于 Power BI 服务。
 
@@ -54,13 +54,13 @@ _______________________________________________________
 
 ### <a name="introduction-to-building-blocks"></a>构建基块介绍
 
-对于 Power BI 使用者，五个构建基块分别为：可视化效果、仪表板、报表、应用和数据集。 它们有时也称为 Power BI 内容  。 内容  位于工作区中。 典型工作流包含所有构建基块：Power BI 设计人员  （下图中黄色所示）从数据集  收集数据，将数据引入 Power BI 以供分析，创建满是突出显示相关事实和见解的可视化效果  的报表  ，将可视化效果从报表固定到仪表板，并与像你这样的使用者  （下图中黑色所示）共享报表和仪表板。 设计人员  以应用  或其他类型共享内容的形式共享报表和仪表板。
+对于 Power BI 使用者，五个构建基块分别为：可视化效果、仪表板、报表、应用和数据集      。 它们有时也称为 Power BI 内容   。 内容位于工作区中   。 典型工作流包含所有构建基块：Power BI 设计人员  （下图中黄色所示）从数据集  收集数据，将数据引入 Power BI 以供分析，创建满是突出显示相关事实和见解的可视化效果  的报表  ，将可视化效果从报表固定到仪表板，并与像你这样的使用者  （下图中黑色所示）共享报表和仪表板。 设计人员  以应用  或其他类型共享内容的形式共享报表和仪表板。
 
 ![基本 Power BI 工作流图表。](media/end-user-basic-concepts/power-bi-workflow.png)
 
 最基本的概念：
 
-- ![可视化效果图标的屏幕截图。](media/end-user-basic-concepts/visual.png) 可视化效果（或视觉对象  ）是由 Power BI 设计人员  生成的一种图表。 视觉对象显示报表  和数据集  中的数据。 设计者通常在 Power BI Desktop 中生成视觉对象  。
+- ![可视化效果图标的屏幕截图。](media/end-user-basic-concepts/visual.png) 可视化效果（或视觉对象）是由 Power BI 设计人员生成的一种图表    。 视觉对象显示报表  和数据集  中的数据。 设计者通常在 Power BI Desktop 中生成视觉对象  。
 
     有关详细信息，请参阅[与报表、仪表板和应用中的视觉对象交互](end-user-visualizations.md)。
 

@@ -6,14 +6,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: conceptual
-ms.date: 12/08/2019
+ms.date: 02/10/2020
 ms.author: painbar
-ms.openlocfilehash: e3bfdf7fd53e71a4582a1f3e3ba08f55f2e9a290
-ms.sourcegitcommit: 02b05932a119527f255e1eacc745a257044e392f
+ms.openlocfilehash: ba39718a5a458ec18af976806bc634d32843afb2
+ms.sourcegitcommit: 17aad73762579d6822383b27b96b1b63f87f2d6f
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/19/2019
-ms.locfileid: "75220303"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "77259739"
 ---
 # <a name="get-started-with-the-power-bi-mobile-app-on-ios-devices"></a>iOS 设备上的 Power BI 移动应用入门
 iPhone 和 iPad 上的 iOS 版 Microsoft Power BI 应用提供了 Power BI、Power BI 报表服务器和 Reporting Services 的移动 BI 体验。 通过触控移动设备实现的实时访问，可以随时随地查看本地和云中的公司仪表板，并与之进行交互。 然后，可以浏览仪表板中的数据，并通过电子邮件或短信的方式将数据与同事共享。 在你的 [Apple Watch](mobile-apple-watch.md) 上保持最新的数据。  
@@ -40,19 +40,19 @@ iPhone 和 iPad 上的 iOS 版 Microsoft Power BI 应用提供了 Power BI、Pow
 
 ## <a name="get-started-with-the-power-bi-app"></a>Power BI 应用入门
 1. 在 iOS 设备中，打开 Power BI 应用。
-2. 若要查看 Power BI 仪表板，请点击“Power BI”  。  
-   要查看 Reporting Services 移动报表和 KPI，请点击“Report Server”  。
+2. 若要登录 Power BI，请点击 Power BI 选项卡并填写登录详细信息  。  
+   若要登录到 Reporting Services 移动报表和 KPI，请单击“报表服务器”选项卡并填写登录详细信息  。
    
    ![登录 Power BI 移动应用](./media/mobile-iphone-app-get-started/power-bi-connect-to-login.png)
    
-   在应用中时，只需点击屏幕左上角的帐户个人资料图像即可在两者之间切换。 
+   在应用中，只需点击屏幕左上角的帐户个人资料图像，即可在 Power BI 和报表服务器之间切换。 
 
 ## <a name="try-the-power-bi-and-reporting-services-samples"></a>体验 Power BI 和 Reporting Services 示例
 即使没有注册，也可以查看 Power BI 和 Reporting Services 示例并与之交互。
 
-要访问这些示例，请点击导航栏上“更多选项”(...)，然后选择“示例”   。
+要访问这些示例，请点击导航栏上“更多选项”(…)，然后选择“示例”   。
 
-多个 Power BI 示例后跟多个报表服务器示例。
+多个 Power BI 示例后为几个报表服务器示例。
 
    ![Power BI 移动示例](./media/mobile-iphone-app-get-started/power-bi-iphone-powerbi-samples.png)
    
@@ -63,7 +63,7 @@ iPhone 和 iPad 上的 iOS 版 Microsoft Power BI 应用提供了 Power BI、Pow
 
 ## <a name="find-your-content-in-the-power-bi-mobile-apps"></a>在 Power BI 移动应用中查找内容
 
-点击标题中的放大镜，开始搜索 Power BI 内容。
+点击标头中的放大镜，开始搜索 Power BI 内容。
 
 ## <a name="view-your-favorite-dashboards-and-reports"></a>查看你收藏的仪表板和报表
 点击导航栏上的“收藏夹”(![](./media/mobile-iphone-app-get-started/power-bi-mobile-apps-home-favorites-icon.png))，查看“收藏夹”页  。 

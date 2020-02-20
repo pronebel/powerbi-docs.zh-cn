@@ -1,19 +1,19 @@
 ---
 title: 在 Windows 10 Surface Hub 上使用演示模式查看报表 - Power BI
 description: 阅读有关在 Surface Hub 中显示 Power BI 报表以及在 Windows 10 设备上以全屏模式显示 Power BI 仪表板、报表和磁贴的内容。
-author: mshenhav
+author: paulinbar
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: conceptual
-ms.date: 12/10/2018
-ms.author: mshenhav
-ms.openlocfilehash: abd7fd34cf2dbdc2f8f12a7f3c6de6228941af5a
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.date: 02/08/2020
+ms.author: painbar
+ms.openlocfilehash: f900a329ccbfa2a6e80883baec9694ddeaf3833a
+ms.sourcegitcommit: 17aad73762579d6822383b27b96b1b63f87f2d6f
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73869527"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "77259892"
 ---
 # <a name="view-reports-and-dashboards-in-presentation-mode-on-surface-hub-and-windows-10-devices"></a>在 Windows 10 Surface Hub 设备上使用演示模式查看报表和仪表板
 可以使用演示模式在 Windows 10 设备和 Surface Hub 上全屏显示报表和仪表板。 
@@ -39,12 +39,15 @@ ms.locfileid: "73869527"
 
 从工具栏可以执行以下操作：
 
-1. 点击返回图标 ![返回图标](./media/mobile-windows-10-app-presentation-mode/power-bi-windows-10-presentation-back-icon.png) 返回上一页。 长按图标会弹出痕迹导航窗口，可导航到报表或仪表板的包含文件夹。
-2. 墨迹图标 ![墨迹图标](./media/mobile-windows-10-app-presentation-mode/power-bi-windows-10-presentation-ink-icon.png) 使用 Surface 触控笔在报表页上绘制和批注时，可借助其选择颜色。 
-3. 使用页面图标 ![分页图标](./media/mobile-windows-10-app-presentation-mode/power-bi-windows-10-presentation-pages-icon.png) 替换当前呈现的报表页。
-4. 播放图标  ![播放图标](./media/mobile-windows-10-app-presentation-mode/power-bi-windows-10-presentation-play-icon.png) 将隐藏操作栏和开始幻灯片，应用将在报表页之间自动轮替。 
-5. 点击搜索图标 ![搜索图标](./media/mobile-windows-10-app-presentation-mode/power-bi-windows-10-presentation-search-icon.png) 查找 Power BI 中的其他项目。
-6. 要退出演示模式，请点击带有两个相对箭头的图标 ![退出全屏模式](./media/mobile-windows-10-app-presentation-mode/power-bi-windows-10-exit-full-screen-icon.png) 在工具栏上。
+1. **返回** ![返回图标](./media/mobile-windows-10-app-presentation-mode/power-bi-windows-10-presentation-back-icon.png) 到上一页。 长按图标会弹出痕迹导航窗口，可导航到报表或仪表板的包含文件夹。
+2. **选择墨迹颜色** ![墨迹图标](./media/mobile-windows-10-app-presentation-mode/power-bi-windows-10-presentation-ink-icon.png) 使用 Surface 触控笔在报表页上绘制和批注时。
+3. **擦除墨迹** ![擦除图标](./media/mobile-windows-10-app-presentation-mode/power-bi-windows-10-presentation-eraser-icon.png) 可以使用 Surface 触控笔在报表页上绘制和批注。  
+4. **翻页**![分页图标](./media/mobile-windows-10-app-presentation-mode/power-bi-windows-10-presentation-pages-icon.png)以转到演示文稿中报表的另一页。
+5. **播放幻灯片**![播放图标](./media/mobile-windows-10-app-presentation-mode/power-bi-windows-10-presentation-play-icon.png)，隐藏操作栏并启动幻灯片；应用将在报表页之间自动切换。 
+6. **搜索** ![搜索图标](./media/mobile-windows-10-app-presentation-mode/power-bi-windows-10-presentation-search-icon.png) Power BI 中的其他项目。
+7. **刷新** ![刷新图标](./media/mobile-windows-10-app-presentation-mode/power-bi-windows-10-presentation-refresh-icon.png) 报表。
+8. **退出** ![退出全屏模式](./media/mobile-windows-10-app-presentation-mode/power-bi-windows-10-exit-full-screen-icon.png) 演示模式。
+8. 与同事**共享** ![共享图标](./media/mobile-windows-10-app-presentation-mode/power-bi-windows-10-share-icon.png) 演示文稿视图的图像。 此图像将包含你在演示过程中使用 Surface 触控笔进行的任何批注。
 
 可以分离工具栏并将其拖至屏幕的任何位置。 在使用大屏幕的情况下，有时需要专注于报告中的某个特定区域，并且希望此区域旁边有可用工具，这种时候使用此操作就会很方便。 只需将手指放在工具栏上，并将它滑动到报表画布上即可。
 
@@ -53,5 +56,5 @@ ms.locfileid: "73869527"
 
 ## <a name="next-steps"></a>后续步骤
 * [在 Power BI 服务中的全屏模式下显示仪表板和报表](../end-user-focus.md)
-* 是否有任何问题？ [尝试咨询 Power BI 社区](https://community.powerbi.com/)
+* 是否有任何问题? [尝试咨询 Power BI 社区](https://community.powerbi.com/)
 

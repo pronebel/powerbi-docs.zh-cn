@@ -7,15 +7,15 @@ featuredvideoid: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 12/04/2019
+ms.date: 02/10/2020
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 6d2f1eea22f83d90501581be7d2e9b8230962835
-ms.sourcegitcommit: e492895259aa39960063f9b337a144a60c20125a
+ms.openlocfilehash: 014186acf6bf6b8c00686c0b7a29d0b526b0afb7
+ms.sourcegitcommit: e27d40054949421701f829113c4a5f6d260c8d5f
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/05/2019
-ms.locfileid: "74830858"
+ms.lasthandoff: 02/12/2020
+ms.locfileid: "77154230"
 ---
 # <a name="tables-in-power-bi-reports-and-dashboards"></a>Power BI 报表和仪表板中的表
 
@@ -45,7 +45,7 @@ ms.locfileid: "74830858"
    
 2. 查找**零售分析示例 PBIX 文件**的副本
 
-1. 在报表视图中打开**零售分析示例 PBIX 文件** ![报表视图屏幕截图图标](media/power-bi-visualization-kpi/power-bi-report-view.png)。
+1. 在报表视图中打开**零售分析示例 PBIX 文件**![报表视图屏幕截图图标](media/power-bi-visualization-kpi/power-bi-report-view.png)。
 
 1. 选择 ![黄色选项卡的屏幕截图。](media/power-bi-visualization-kpi/power-bi-yellow-tab.png) ，以添加新报表页。
 
@@ -98,22 +98,19 @@ ms.locfileid: "74830858"
 
 ### <a name="conditional-formatting"></a>条件格式
 
-条件格式  是一种格式设置类型。 Power BI 向“可视化效果”  窗格的“值”  井中的字段应用条件格式。
+条件格式  是一种格式设置类型。 Power BI 可以向你添加到“可视化效果”窗格中“值”区的任何字段应用条件格式   。
 
-通过表的条件格式设置，可以根据单元格值指定自定义单元格背景色和字体颜色，包括使用渐变色。
+![可视化效果窗格](media/power-bi-visualization-tables/power-bi-table-values.png)
 
-1. 在“可视化效果”  窗格中，选择“字段”  图标 ![“字段”图标](media/power-bi-visualization-tables/power-bi-fields-icon.png)。
+通过表的条件格式设置，可以根据单元格值指定图标、URL、单元格背景色和字体颜色，包括使用渐变色。
 
-1. 在“值”  井中，选择要设置其格式的值旁边的向下箭头（或右键单击此字段）。
+1. 在“格式”窗格中，打开“条件格式”卡   。
 
-    > [!NOTE]
-    > 只能管理“字段”  格的“值”  区域中字段的条件格式。
+    ![“条件格式”卡](media/power-bi-visualization-tables/power-bi-conditional.png)
 
-    ![背景色阶的路径](media/power-bi-visualization-tables/power-bi-conditional-formatting-background.png)
+1. 选择要格式化的字段，并将“背景颜色”的滑块设置为“开”  。 Power BI 应用基于列中的值的渐变。 若要更改默认颜色，请选择“高级控件”  。
 
-1. 选择“背景色”  。
-
-1. 在随即显示的对话框中，可以配置颜色、“最小值”  和“最大值”  。 如果选中“散射”  选项，还可以配置可选的“居中”  值。
+    如果选中“散射”  选项，还可以配置可选的“居中”  值。
 
     ![背景色阶屏幕](media/power-bi-visualization-tables/power-bi-conditional-formatting-background2.png)
 
@@ -124,24 +121,24 @@ ms.locfileid: "74830858"
 
     ![显示一个最右侧的新字段](media/power-bi-visualization-tables/power-bi-conditional-formatting2.png)
 
-1. 添加数据条条件格式设置，方法是选择“总销售差额”  旁边的向下箭头，然后选择“条件格式设置”>“数据条”  。
+1. 通过将“数据条”滑块设置为“开”来添加数据条条件格式  。  
 
-    ![用于选择数据栏的路径](media/power-bi-visualization-tables/power-bi-conditional-formatting-data-bars.png)
+    ![数据条设置为“开”的条件格式卡](media/power-bi-visualization-tables/power-bi-data-bar-matrix.png)
 
-1. 在随即显示的对话框中，依次设置“正数据栏”  和“负数据栏”  的颜色，选中“仅显示数据栏”  选项，并进行所需的其他任何更改。
+1. 若要自定义数据条，请选择“高级控件”  。 在随即显示的对话框中，依次设置“正数据栏”  和“负数据栏”  的颜色，选中“仅显示数据栏”  选项，并进行所需的其他任何更改。
 
     ![用于仅显示条形图的选中标记](media/power-bi-visualization-tables/power-bi-data-bar.png)
 
-1. 选择**确定**。
+1. 选择“确定”。 
 
     数据栏会替换表中的数字值，让它更易于浏览。
 
     ![相同的表但在最后一列中有条形](media/power-bi-visualization-tables/power-bi-conditional-formatting-data-bars2.png)
 
-若要从可视化效果中删除条件格式，请再次右键单击相应字段，并选择“删除条件格式”  。
+1. 使用“条件图标”向表添加视觉提示  。  在“条件格式”卡中，从下拉菜单中选择“本年度销售额”   。 将“图标”滑块设置为“On”   。  若要自定义图标，请选择“高级控件”  。
 
-> [!TIP]
-> 还可以在“格式”  窗格中进行条件格式。 选择要设置其格式的值，然后将“色阶”  或“数据条”  设置为“打开”  以应用默认设置，或者，若要自定义设置，请选择“高级控件”  。
+    ![已添加图标的表](media/power-bi-visualization-tables/power-bi-table-icons.png)
+
 
 ## <a name="copy-values-from-power-bi-tables-for-use-in-other-applications"></a>复制 Power BI 表中的值以供在其他应用程序中使用
 
@@ -174,6 +171,7 @@ ms.locfileid: "74830858"
 有时 Power BI 会截断仪报表中或仪表板上的列标题。 若要显示整个列名，请将鼠标悬停在标题右侧的空白之上，以显示双箭头，然后选择并拖动它。
 
 ![调整列大小的视频特写](media/power-bi-visualization-tables/resizetable.gif)
+
 
 ## <a name="considerations-and-troubleshooting"></a>注意事项和疑难解答
 
