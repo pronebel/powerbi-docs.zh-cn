@@ -45,7 +45,7 @@ Power BI 租户管理员在管理门户中启用通知：
     ![启用服务通知](media/service-interruption-notifications/enable-notifications.png)
 
 > [!NOTE]
-> Power BI 将通过帐户 no-reply-powerbi@microsoft.com 发送通知。 确保此帐户已列入白名单，以防止通知被发送到垃圾邮件文件夹中。
+> Power BI 将通过帐户 no-reply-powerbi@microsoft.com 发送通知。 确保此帐户已列入允许列表，以防止通知被发送到垃圾邮件文件夹中。
 
 ## <a name="next-steps"></a>后续步骤
 

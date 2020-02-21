@@ -25,7 +25,7 @@ ms.locfileid: "75762591"
 * 安装和配置 [Power BI 报表服务器](https://powerbi.microsoft.com/report-server/)。
 * 安装[已针对 Power BI 报表服务器进行优化的 Power BI Desktop](install-powerbi-desktop.md)。
 * 安装和配置 [SharePoint](https://docs.microsoft.com/sharepoint/install/install) 环境。
-* 仅当文档模式设置为 IE11 (Edge) 模式或使用 SharePoint Online 时，才支持 Internet Explorer 11。 可以将其他受支持的浏览器用于本地 SharePoint 和 SharePoint Online。
+* 仅当文档模式设置为 IE11 (Microsoft Edge) 模式或使用 SharePoint Online 时，才支持 Internet Explorer 11。 可以将其他受支持的浏览器用于本地 SharePoint 和 SharePoint Online。
 
 ## <a name="create-the-power-bi-report-url"></a>创建 Power BI 报表 URL
 

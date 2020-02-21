@@ -95,7 +95,7 @@ ms.locfileid: "76829273"
 | 报表性能 | 每日性能 | 为每一天计算的打开报表操作的 10%、50% 和 90% 的性能。 |
 | 报表性能 | 7 天性能 | 在过去 7 天内为每个日期计算的打开报表操作的 10%、50% 和 90% 的性能。 |
 | 报表性能 | 使用方法 | 用户打开报表的方式，如通过 Power BI 服务 (powerbi.com)、Power BI Embedded 或移动设备。 |
-| 报表性能 | 浏览器 | 用户用于打开报表的浏览器，如 Firefox、Edge 和 Chrome。 |
+| 报表性能 | 浏览器 | 用户用于打开报表的浏览器，如 Firefox、Microsoft Edge 和 Chrome。 |
 
 ## <a name="update-usage-metrics-report-credentials"></a>更新使用情况指标报表凭据
 
