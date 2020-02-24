@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 01/29/2020
 ms.author: davidi
 LocalizationGroup: Model your data
-ms.openlocfilehash: 9c181deb4e36624fa714242583e3fe209abdfb47
-ms.sourcegitcommit: 8b300151b5c59bc66bfef1ca2ad08593d4d05d6a
+ms.openlocfilehash: c166f2d72b170dfb76e3c1f7f6d50052083df6a2
+ms.sourcegitcommit: d6a48e6f6e3449820b5ca03638b11c55f4e9319c
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/30/2020
-ms.locfileid: "76889319"
+ms.lasthandoff: 02/18/2020
+ms.locfileid: "77427383"
 ---
 # <a name="create-measures-for-data-analysis-in-power-bi-desktop"></a>在 Power BI Desktop 中创建用于数据分析的度量值
 
@@ -49,7 +49,7 @@ Jan 注意到，即使不指定计算，系统也已经自动提供了一种计�
 
 但是，Jan 需要度量值来计算明年的销售预测，即基于去年的销售额乘以 1.06，以代表预期为 6% 的业务增长。 对于此计算，Jan 将创建一个度量值。 使用新建度量值功能，Jan 可以创建新的度量值，然后输入下面的 DAX 公式  ：
 
-```sql
+```dax
     Projected Sales = SUM('Sales'[Last Years Sales])*1.06
 ```
 

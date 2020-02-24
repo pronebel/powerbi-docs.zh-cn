@@ -7,15 +7,15 @@ ms.service: powerbi
 ms.subservice: powerbi-service
 ms.custom: connect-to-services
 ms.topic: tutorial
-ms.date: 03/12/2019
+ms.date: 02/20/2020
 ms.author: davidi
 LocalizationGroup: Connect to services
-ms.openlocfilehash: e9b34d79a70207e175c873a88ec4d5dfe5417747
-ms.sourcegitcommit: 02b05932a119527f255e1eacc745a257044e392f
+ms.openlocfilehash: 6ffce8b209d78f5297812f2345f454aa94ac1c9a
+ms.sourcegitcommit: b22a9a43f61ed7fc0ced1924eec71b2534ac63f3
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/19/2019
-ms.locfileid: "75224209"
+ms.lasthandoff: 02/21/2020
+ms.locfileid: "77527808"
 ---
 # <a name="tutorial-use-cognitive-services-in-power-bi"></a>教程：在 Power BI 中使用认知服务
 
@@ -56,7 +56,7 @@ ms.locfileid: "75224209"
 
 ![创建数据流](media/service-tutorial-using-cognitive-services/tutorial-using-cognitive-services_03.png)
 
-在上方功能区中，选择“转换表”  ，然后选择“将第一行用作标题”  。 数据现已可供文本分析使用，并且可以对客户注释列使用情绪评分和关键短语提取。
+数据现已可供文本分析使用，并且可以对客户注释列使用情绪评分和关键短语提取。
 
 在 Power Query 编辑器中，选择“AI 见解” 
 

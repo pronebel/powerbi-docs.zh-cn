@@ -10,12 +10,12 @@ ms.topic: tutorial
 ms.date: 01/17/2020
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 1b90357aa6d8f66612857e8247a8b48dc2c2c369
-ms.sourcegitcommit: 02342150eeab52b13a37b7725900eaf84de912bc
+ms.openlocfilehash: 83cf7517fac569f8439f1debcdf621a786835d2c
+ms.sourcegitcommit: d6a48e6f6e3449820b5ca03638b11c55f4e9319c
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/23/2020
-ms.locfileid: "76539555"
+ms.lasthandoff: 02/18/2020
+ms.locfileid: "77427360"
 ---
 # <a name="implement-row-level-security-in-an-analysis-services-tabular-model"></a>在 Analysis Services 表格模型中实现行级别安全性
 
@@ -82,7 +82,7 @@ ms.locfileid: "76539555"
 
 1. `LOOKUPVALUE` 函数返回某个列的值，该列中的 Windows 用户名与 `USERNAME` 函数返回的用户名匹配。 然后，可以将查询限定为 `LOOKUPVALUE` 返回的值与同一表或相关表中的值相匹配的情况。 在 **DAX 筛选器**列中，键入以下公式︰
 
-    ```sql
+    ```dax
         =DimSalesTerritory[SalesTerritoryKey]=LOOKUPVALUE(DimUserSecurity[SalesTerritoryID], DimUserSecurity[UserName], USERNAME(), DimUserSecurity[SalesTerritoryID], DimSalesTerritory[SalesTerritoryKey])
     ```
 
@@ -95,7 +95,7 @@ ms.locfileid: "76539555"
 
 1. 对于 `DimUserSecurity` 表，在“DAX 筛选器”  列中，添加以下公式：
 
-    ```sql
+    ```dax
         =FALSE()
     ```
 
@@ -175,7 +175,7 @@ Grace 发布报表后，接下来需在 Power BI 服务中基于该报表创建�
 
 还可在下方看到执行用于填充报表数据的 DAX 查询。
    
-   ```sql
+   ```dax
    EVALUATE
      ROW(
        "SumEmployeeKey", CALCULATE(SUM(Employee[EmployeeKey]))
