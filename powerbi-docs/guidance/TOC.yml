@@ -62,6 +62,10 @@
           items:
             - name: 何时使用分页报表
               href: report-paginated-or-power-bi.md
+            - name: 数据检索指南
+              href: report-paginated-data-retrieval.md
+            - name: 图像使用指南
+              href: report-paginated-image.md
             - name: 使用级联参数
               href: paginated-report-cascading-parameter.md
             - name: 打印时避免出现空白页

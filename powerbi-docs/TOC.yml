@@ -579,6 +579,8 @@
           items:
             - name: 配置计划刷新
               href: refresh-scheduled-refresh.md
+            - name: 配置增量刷新
+              href: service-premium-incremental-refresh.md
             - name: 刷新来自本地 Power BI Desktop 文件的数据库
               href: refresh-desktop-file-local-drive.md
             - name: 刷新来自云端 Power BI Desktop 文件的数据库
@@ -701,6 +703,8 @@
               href: service-url-filters.md
             - name: 自己和他人订阅
               href: service-report-subscribe.md
+            - name: 在 Microsoft Teams 中嵌入报表
+              href: service-embed-report-microsoft-teams.md
             - name: 在 SharePoint Online 中嵌入报表
               href: service-embed-report-spo.md
             - name: 在安全门户或网站中嵌入报表
@@ -885,8 +889,6 @@
           href: service-premium-metrics-app.md
         - name: 在管理门户中监视容量
           href: service-admin-premium-monitor-portal.md
-        - name: 配置增量刷新
-          href: service-premium-incremental-refresh.md
         - name: 配置大型模型（预览）
           href: service-premium-large-models.md
         - name: 配置多地理位置
