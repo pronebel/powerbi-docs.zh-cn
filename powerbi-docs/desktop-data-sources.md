@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 01/09/2020
+ms.date: 02/13/2020
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 0cf9d6acd4fe5f729dafb575a2ab736b9e8db7bb
-ms.sourcegitcommit: 8e3d53cf971853c32eff4531d2d3cdb725a199af
+ms.openlocfilehash: f13c8f34fbbe927ee6929a0b3e717248aedd63d0
+ms.sourcegitcommit: d6a48e6f6e3449820b5ca03638b11c55f4e9319c
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "76039846"
+ms.lasthandoff: 02/18/2020
+ms.locfileid: "77427544"
 ---
 # <a name="data-sources-in-power-bi-desktop"></a>Power BI Desktop 中的数据源
 
@@ -89,8 +89,8 @@ ms.locfileid: "76039846"
 * Vertica
 * Snowflake
 * Essbase
-* AtScale 多维数据集 (Beta)
-* BI 连接器
+* AtScale 多维数据集
+* BI Connector Data Virtuality LDW (Beta)
 * Denodo
 * Dremio
 * Exasol
@@ -162,7 +162,6 @@ ms.locfileid: "76039846"
 * Adobe Analytics
 * appFigures (Beta)
 * Data.World - 获取数据集 (Beta)
-* Facebook
 * GitHub (Beta)
 * LinkedIn Sales Navigator (Beta)
 * MailChimp (Beta)
@@ -182,6 +181,7 @@ ms.locfileid: "76039846"
 * Dynamics 365 Customer Insights (Beta)
 * Emigo Data Source
 * Entersoft Business Suite (Beta)
+* FactSet Analytics (Beta)
 * Industrial App Store
 * Intune 数据仓库 (Beta)
 * Microsoft Graph Security (Beta)
@@ -210,7 +210,10 @@ ms.locfileid: "76039846"
 * ODBC
 * OLE DB
 * BI360 - Budgeting & Financial Reporting (Beta)
+* FHIR
 * Information Grid (Beta)
+* Jamf Pro (Beta)
+* 适用于 Power BI 的 MicroStrategy
 * Paxata
 * QubolePresto (Beta)
 * Roamler (Beta)
@@ -219,6 +222,7 @@ ms.locfileid: "76039846"
 * Tenforce (Smart)List (Beta)
 * Vena (Beta)
 * 工作人员维度 (Beta)
+* Zucchetti HR Infinity (Beta)
 * 空白查询
 
 下图显示**其他**的**获取数据**窗口。

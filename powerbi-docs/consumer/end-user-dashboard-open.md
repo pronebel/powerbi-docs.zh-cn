@@ -6,26 +6,28 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 09/18/2019
+ms.date: 02/18/2020
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: f250d380fc8938f7b5d7723b5b8becb65f27d79d
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 64809b2542cbe64951dc2f8fae12b13b8f6bc79e
+ms.sourcegitcommit: f9909731ff5b6b69cdc58e9abf2025b7dee0e536
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73852606"
+ms.lasthandoff: 02/20/2020
+ms.locfileid: "77496292"
 ---
 # <a name="view-a-dashboard"></a>查看仪表板
 
+[!INCLUDE[consumer-appliesto-ynny](../includes/consumer-appliesto-ynny.md)]
+
 [!INCLUDE [power-bi-service-new-look-include](../includes/power-bi-service-new-look-include.md)]
 
-Power BI 使用者需要花费大量时间查看仪表板  。 仪表板旨在突出显示基础报表和数据集中的特定信息。 Power BI 使用者利用这些信息进行跟踪、监视、解答问题、测试等，并制定数据驱动型业务决策。
+Power BI 使用者需要花费大量时间查看仪表板。 仪表板旨在突出显示基础报表和数据集中的特定信息。 Power BI 使用者利用这些信息进行跟踪、监视、解答问题、测试等，并制定数据驱动型业务决策。
 
 ![仪表板](media/end-user-dashboard-open/power-bi-new-dash-new.png)
 
 
-共享仪表板和查看共享仪表板都需要 Power BI Pro。
+共享仪表板和查看共享仪表板都需要 Power BI Pro 或高级许可证。 [我有哪种许可证？](end-user-license.md) 
 
 ## <a name="open-a-dashboard"></a>打开仪表板
 
@@ -33,7 +35,7 @@ Power BI 使用者需要花费大量时间查看仪表板  。 仪表板旨在�
 
 |              |         |
 |------------|--------------------------------|
-|![仪表板图标](media/end-user-dashboard-open/power-bi-dashboard-icon.png)      |可以从 Power BI 服务中的多个位置打开仪表板。 <br> 只需查找此仪表板图标。 确定 <br>仪表板后，打开它很简单 - 选中它，仪表板就会填充 <br>你的 Power BI 画布。 |
+|![仪表板图标](media/end-user-dashboard-open/power-bi-dashboard-icon.png)      |可以从 Power BI 服务中的多个位置打开仪表板。 <br> 只需查找此仪表板图标。 确定 <br>是仪表板后，打开它就很简单了 - 只需选中它，仪表板便会填充 Power BI 画布。 |
 |                    |          |
 
 
@@ -52,5 +54,5 @@ Power BI 使用者需要花费大量时间查看仪表板  。 仪表板旨在�
 
 
 ## <a name="next-steps"></a>后续步骤
-* 通过参观我们的[示例仪表板](../sample-tutorial-connect-to-the-samples.md)之一，轻松了解仪表板的使用。
+* 通过参观我们的[示例仪表板](../sample-tutorial-connect-to-the-samples.md)之一，轻松了解仪表板的使用。    
 * 了解[仪表板磁贴](end-user-tiles.md)，以及当你选择一个磁贴时将发生的情况。

@@ -1,26 +1,32 @@
 ---
 title: 共享数据集的生成权限（预览版）
-description: 了解如何使用生成权限来控制有权访问数据的人选。
+description: 了解如何使用生成权限来控制对数据的访问。
 author: maggiesMSFT
 ms.reviewer: chbraun
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 10/01/2019
+ms.date: 02/12/2020
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: b17fa4299d2db84f63f0d8f7ed4c17a0c9c437db
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 48380d40d819ea1af74430546b9548c372bd2091
+ms.sourcegitcommit: d6a48e6f6e3449820b5ca03638b11c55f4e9319c
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73872559"
+ms.lasthandoff: 02/18/2020
+ms.locfileid: "77426601"
 ---
 # <a name="build-permission-for-shared-datasets-preview"></a>共享数据集的生成权限（预览版）
 
-作为 Power BI Desktop 中数据模型的创建者，你可以在 Power BI 服务中将其作为数据集共享   。 之后报表创建者就可以轻松发现和重用你共享的数据集。 了解如何使用生成权限来控制有权访问数据的人选。
+在 Power BI Desktop 中创建报表时，该报表中的数据将存储在“数据模型”中。 将报表发布到 Power BI 服务时，也会将数据发布为数据集。 你可以向其他人提供该报表的生成权限，以便他们能够发现和重复使用你所共享的数据集。 本文介绍如何使用生成权限来控制对数据的访问。
 
-生成权限只与数据集相关。 为用户提供生成权限后，他们可以在数据集上生成报表、仪表板、问答的固定磁贴和 Insights 发现等新内容。 他们还可基于 Power BI 以外的数据集生成新内容（例如通过“在 Excel 中分析”、XMLA 和“导出”基础数据生成的 Excel 表）。
+生成权限适用于数据集。 为用户提供生成权限后，他们可以在数据集上生成报表、仪表板、问答的固定磁贴和 Insights 发现等新内容。 
+
+用户还需要生成权限才能在 Power BI 之外处理该数据 ：
+
+- 导出基础数据。
+- 在数据集上生成新内容，例如使用[在 Excel 中分析](service-analyze-in-excel.md)。
+- 通过 XMLA 终结点访问数据。
 
 ## <a name="ways-to-give-build-permission"></a>提供生成权限的方式
 
@@ -28,7 +34,7 @@ ms.locfileid: "73872559"
 
 - 至少具有“参与者”角色的工作区的成员自动拥有该工作区中的数据集的“生成”权限以及复制报表的权限。
  
-- 数据集所在的工作区中的成员可以在“权限中心”将权限分配给特定用户或安全组。 如果你是工作区的成员，请选择数据集旁边的“更多选项”(...) >“管理权限”   。
+- 数据集所在的工作区中的成员可以在“权限中心”将权限分配给特定用户或安全组。 如果你是工作区的成员，请选择数据集旁边的“更多选项”(...) >“管理权限”。
 
     ![选择省略号](media/service-datasets-build-permissions/power-bi-dataset-permissions-new-look.png)
 
@@ -48,12 +54,12 @@ ms.locfileid: "73872559"
 
 有时可能需要删除共享数据集的某些用户的生成权限。 
 
-1. 在工作区中，转到“数据集”  列表页。 
-1. 选择数据集旁边的“更多选项”(...) >“管理权限”   。
+1. 在工作区中，转到“数据集”列表页。 
+1. 选择数据集旁边的“更多选项”(...) >“管理权限”。
 
     ![管理权限](media/service-datasets-build-permissions/power-bi-dataset-permissions-new-look.png)
 
-1. 选择名称旁边的“更多选项”(...) >“删除生成”   。
+1. 选择名称旁边的“更多选项”(...) >“删除生成”。
 
     ![删除生成权限](media/service-datasets-build-permissions/power-bi-dataset-remove-build-permissions.png)
 
@@ -63,27 +69,27 @@ ms.locfileid: "73872559"
 
 假设你已将应用从工作区分发给一组人员。 稍后，你决定删除某些人员对应用的访问权限。 删除对应用的访问权限不会自动删除其生成权限和重新共享权限。 这是额外的步骤。 
 
-1. 在工作区列表页中，选择“更新应用”  。 
+1. 在工作区列表页中，选择“更新应用”。 
 
     ![更新应用](media/service-datasets-build-permissions/power-bi-app-update.png)
 
-1. 在“权限”  选项卡上，选择“X”  以删除人员或组。 
+1. 在“权限”选项卡上，选择“X”以删除人员或组。 
 
     ![选择“X”](media/service-datasets-build-permissions/power-bi-app-delete-user.png)
-1. 选择“更新应用”  。
+1. 选择“更新应用”。
 
-    你会看到一条消息，说明你需要转到“管理权限”  ，以便删除具有现有访问权限的用户的生成权限。 
+    你会看到一条消息，说明你需要转到“管理权限”，以便删除具有现有访问权限的用户的生成权限。 
 
     ![管理权限消息](media/service-datasets-build-permissions/power-bi-dataset-app-remove-message.png)
 
-1. 选择“更新”  。
+1. 选择“更新”。
 
-1. 在工作区中，转到“数据集”  列表页。 
-1. 选择数据集旁边的“更多选项”(...) >“管理权限”   。
+1. 在工作区中，转到“数据集”列表页。 
+1. 选择数据集旁边的“更多选项”(...) >“管理权限”。
 
     ![管理权限](media/service-datasets-build-permissions/power-bi-dataset-permissions-new-look.png)
 
-1. 选择名称旁边的“更多选项”(...) >“删除生成”   。
+1. 选择名称旁边的“更多选项”(...) >“删除生成”。
 
     ![删除生成权限](media/service-datasets-build-permissions/power-bi-dataset-remove-build-permissions.png)
 

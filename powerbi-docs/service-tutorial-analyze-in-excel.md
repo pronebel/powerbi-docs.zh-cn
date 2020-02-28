@@ -1,40 +1,40 @@
 ---
-title: 教程：使用“在 Excel 中分析”
-description: 在本教程中，使用“Power BI 数据集”页将数据集导入 Excel。
+title: 教程：从 Excel 开始，使用 Excel 中的 Power BI 分析
+description: 在本教程中，你将从 Excel 开始并连接到“Power BI 数据集”页，将数据集导入 Excel。
 author: tejaskulkarni
 ms.reviewer: davidiseminger
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.custom: connect-to-services
 ms.topic: tutorial
-ms.date: 01/27/2020
+ms.date: 02/13/2020
 ms.author: tekulkar
 LocalizationGroup: Connect to services
-ms.openlocfilehash: a68adccec019e64e554d199d23d7dddd782f56a2
-ms.sourcegitcommit: 53c2b5ea4ee1fe2659804d5ccc8e4bb445a8bcad
+ms.openlocfilehash: d3795c34e477c593af4afefbe5cc01040026bfa4
+ms.sourcegitcommit: d6a48e6f6e3449820b5ca03638b11c55f4e9319c
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "76921476"
+ms.lasthandoff: 02/18/2020
+ms.locfileid: "77426532"
 ---
-# <a name="tutorial-use-analyze-in-excel"></a>教程：使用“在 Excel 中分析”
+# <a name="tutorial-use-power-bi-analyze-in-excel-starting-in-excel"></a>教程：从 Excel 开始，使用 Excel 中的 Power BI 分析
 
-组织使用 Power BI 来共享对数据的访问权限。 使用“在 Excel 中分析”功能可以创建数据透视表和数据透视图，以将其他上下文添加到分析或减少查找和导入相关数据集所用的时间。
+组织使用 Power BI 来共享对数据的访问权限。 从 Excel 启动“在 Excel 中进行 Power BI 分析”功能，以便在 Excel 中创建数据透视表和数据透视图。 它们可将其他上下文引入分析，或者缩短查找和导入相关数据集的时间。
 
-若要开始选择数据集，请选择“在 Excel 中分析”。 将指导你创建使用该数据的数据透视表。  
+若要开始使用 Power BI 数据集，请在 Excel 中选择“在 Excel 中分析”。 指导你创建使用该数据的数据透视表。  
 
 可以通过返回到“数据集”页找到组织共享的其他数据集。
 
 如果在任何时候都遇到问题，请在以下流的相应步骤中选择“否”，并在链接的表单中提供反馈。  
 
-在本教程中，你将了解如何执行以下操作：
+在本教程中，了解如何：
 
 > [!div class="checklist"]
 > * 从“Power BI 数据集”页下载 ODC 文件。
 > * 启用从 Excel 访问数据集。
 > * 开始使用数据集创建数据透视表、图表和工作表
 
-## <a name="prerequisites"></a>必备条件
+## <a name="prerequisites"></a>先决条件
 
 要完成本教程，需要：
 
@@ -48,13 +48,13 @@ ms.locfileid: "76921476"
 
 * 有效的 [Microsoft Office E5 订阅](https://www.microsoft.com/microsoft-365/business/office-365-enterprise-e5-business-software?activetab=pivot%3aoverviewtab)
 
-## <a name="get-started"></a>入门
+## <a name="get-started"></a>开始使用
 
 从 Excel 开始，选择选项以创建具有 Power BI 共享数据的数据透视表，然后导航到“Power BI 数据集”页。
 
 ![“数据集”页](media/service-tutorial-analyze-in-excel/tutorial-analyze-in-excel-01.png)
 
-使用“在 Excel 中分析”工作流时，你将看到几个指导提示；指示是否已完成每个进程步骤。 如果在任何步骤中遇到问题，请选择“否”  并提供有关相应表单的反馈。
+使用“在 Excel 中分析”工作流时，你将看到几个指导提示；指示是否已完成每个进程步骤。 如果在任何步骤中遇到问题，请选择“否”并提供有关相应表单的反馈。
 
 ![工作流说明](media/service-tutorial-analyze-in-excel/tutorial-analyze-in-excel-02.png)
 
@@ -84,7 +84,7 @@ ms.locfileid: "76921476"
 
 ## <a name="clean-up-resources"></a>清理资源
 
-与“Power BI 服务”和“数据集”页的交互应仅限于下载 ODC 文件和单击工作流。 如果在执行这些步骤时遇到问题，请在相应步骤中指示“否”  ，并在链接的表单中提供反馈。 该表单包含一个指向有关此问题的详细信息的链接。 请重新访问“数据集”页重试该过程，或选择其他数据集。
+与“Power BI 服务”和“数据集”页的交互应仅限于下载 ODC 文件和单击工作流。 如果在执行这些步骤时遇到问题，请在相应步骤中指示“否”，并在链接的表单中提供反馈。 该表单包含一个指向有关此问题的详细信息的链接。 请重新访问“数据集”页重试该过程，或选择其他数据集。
 
 ## <a name="next-steps"></a>后续步骤
 

@@ -8,16 +8,16 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 12/17/2019
 ms.author: painbar
-ms.openlocfilehash: 528c86a75e2f255ad502dbdf973a61cd9de693d4
-ms.sourcegitcommit: 8e3d53cf971853c32eff4531d2d3cdb725a199af
+ms.openlocfilehash: bfc6a32f7b6ef83e6e69351fb4d87d89c8c2806e
+ms.sourcegitcommit: d6a48e6f6e3449820b5ca03638b11c55f4e9319c
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "75224151"
+ms.lasthandoff: 02/18/2020
+ms.locfileid: "77427568"
 ---
 # <a name="what-are-power-bi-template-apps"></a>什么是 Power BI 模板应用？
 
-新的 Power BI 模板应用使 Power BI 合作伙伴能够在极少编码或没有编码的情况下生成 Power BI 应用，并将它们部署到任何 Power BI 客户  。  本文概述了 Power BI 模板应用程序。
+新的 Power BI 模板应用使 Power BI 合作伙伴能够在极少编码或没有编码的情况下生成 Power BI 应用，并将它们部署到任何 Power BI 客户。  本文概述了 Power BI 模板应用程序。
 
 模板应用是当前服务内容包的替代品。 作为 Power BI 合作伙伴，你可以为客户创建一组现成可用的内容，并自行发布。  
 
@@ -31,7 +31,7 @@ Power BI 模板应用允许 Power BI Pro 或 Power BI Premium 用户通过可连
 
 |  |
 |     :---:      |
-| [![Microsoft Project Web 应用](./media/service-template-apps-overview/project-web.png)](https://app.powerbi.com/groups/me/getapps/services/pbi_msprojectonline.pbi-microsoftprojectwebapp) [![Azure 备份 Web 应用](./media/service-template-apps-overview/azure-backup.png)](https://app.powerbi.com/groups/me/getapps/services/pbi-azurebackup.pbi-azurebackup-template) [![Dynamics 365 Business Central - 销售 Web 应用](./media/service-template-apps-overview/dynamics-sales.png)](https://app.powerbi.com/groups/me/getapps/services/microsoftdynsmb.businesscentral_sales) [![Microsoft Forms Pro 客户满意度 Web 应用](./media/service-template-apps-overview/forms-pro.png)](https://app.powerbi.com/groups/me/getapps/services/msfp.formsprocustomersatisfaction) |
+| [![Microsoft Project Web 应用](./media/service-template-apps-overview/project-web.png)](https://app.powerbi.com/groups/me/getapps/services/pbi_msprojectonline.pbi-microsoftprojectwebapp) [![Microsoft 365 使用情况分析 Web 应用](./media/service-template-apps-overview/microsoft365-usage-analytics.png)](https://app.powerbi.com/groups/me/getapps/services/cia_microsoft365.microsoft-365-usage-analytics) [![Dynamics 365 Business Central - 销售 Web 应用](./media/service-template-apps-overview/dynamics-sales.png)](https://app.powerbi.com/groups/me/getapps/services/microsoftdynsmb.businesscentral_sales) [![Microsoft Forms Pro 客户满意度 Web 应用](./media/service-template-apps-overview/forms-pro.png)](https://app.powerbi.com/groups/me/getapps/services/msfp.formsprocustomersatisfaction) |
 |  |
 
 ## <a name="process"></a>流程

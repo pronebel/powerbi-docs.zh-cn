@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
-ms.date: 09/09/2019
+ms.date: 02/20/2020
 ms.author: kfollis
 LocalizationGroup: Administration
-ms.openlocfilehash: 24867d231cca0135c09119f4b885b393cb2b8dd8
-ms.sourcegitcommit: f77b24a8a588605f005c9bb1fdad864955885718
+ms.openlocfilehash: 3dd50d4f57b3146135cde5e91062ed3b2a0eecc1
+ms.sourcegitcommit: b22a9a43f61ed7fc0ced1924eec71b2534ac63f3
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/02/2019
-ms.locfileid: "74699052"
+ms.lasthandoff: 02/21/2020
+ms.locfileid: "77527329"
 ---
 # <a name="power-bi-high-availability-failover-and-disaster-recovery-faq"></a>Power BI 高可用性、故障转移和灾难恢复常见问题解答
 
@@ -28,7 +28,7 @@ Power BI 是完全托管的软件即服务 (SaaS)。  Microsoft 对它进行设�
 
 Power BI 维护 Azure 数据中心（也称为区域）中每个组件的多个实例，以保证业务连续性。 如果发生中断或导致 Power BI 在区域中无法访问或不可操作的问题，则 Power BI 会使该区域中的所有组件都故障转移到备份实例。 故障转移会将可用性和可操作性还原到新区域中的 Power BI 服务实例（通常在同一地理位置，记录在 [Microsoft 信任中心](https://www.microsoft.com/TrustCenter/CloudServices/business-application-platform/data-location)中）。
 
-进行了故障转移的 Power BI 服务实例仅支持读取操作  ，这意味着以下操作在故障转移期间不受支持：刷新、报表发布操作、仪表板或报表修改以及其他需要对 Power BI 元数据进行更改的操作（例如在报表中插入注释）。  显示仪表板和显示报表（不基于 Live Connect 到本地数据源上的 DirectQuery）等读取操作仍然可以正常运行。
+进行了故障转移的 Power BI 服务实例仅支持读取操作，这意味着以下操作在故障转移期间不受支持：刷新、报表发布操作、仪表板或报表修改以及其他需要对 Power BI 元数据进行更改的操作（例如在报表中插入注释）。  显示仪表板和显示报表（不基于 Live Connect 到本地数据源上的 DirectQuery）等读取操作仍然可以正常运行。
 
 ## <a name="how-are-backup-instances-kept-in-sync-with-my-data"></a>备份实例如何与我的数据保持同步？
 
@@ -53,7 +53,10 @@ Power BI 维护 Azure 数据中心（也称为区域）中每个组件的多个�
 
 ## <a name="how-long-does-it-take-power-bi-to-fail-over"></a>Power BI 进行故障转移需要多长时间？
 
-制定了故障转移的决策之后，可能需要多达 60 分钟的时间使故障转移实例成为可用状态。
+一旦确定需要进行故障转移，大约需要 15 分钟才能再次操作 Power BI。 确定故障转移所需的时间因故障的情况而异。 
+
+执行故障转移后，Power BI 使用 Azure 存储异地复制执行故障转移。 此类复制的返回点通常为 15 分钟，但 [Azure 存储不通过 SLA 保证此时间范围](https://docs.microsoft.com/azure/storage/common/storage-redundancy)，因此 Power BI 也无法保证时间范围。 
+
 
 ## <a name="when-does-my-power-bi-instance-return-to-the-original-region"></a>我的 Power BI 实例何时返回原始区域？
 

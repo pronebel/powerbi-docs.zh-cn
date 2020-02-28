@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 01/16/2020
+ms.date: 02/14/2020
 ms.author: davidi
 LocalizationGroup: Transform and shape data
-ms.openlocfilehash: d8db626300902125cf3536f03ed111ef3e052324
-ms.sourcegitcommit: 8e3d53cf971853c32eff4531d2d3cdb725a199af
+ms.openlocfilehash: b7ff14b4932ba77b47fdb603124d29858c622fc7
+ms.sourcegitcommit: d6a48e6f6e3449820b5ca03638b11c55f4e9319c
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "76538698"
+ms.lasthandoff: 02/18/2020
+ms.locfileid: "77427638"
 ---
 # <a name="use-aggregations-in-power-bi-desktop"></a>在 Power BI Desktop 中使用聚合
 
@@ -185,6 +185,10 @@ AVERAGE 函数可以受益于聚合。 以下查询将命中聚合，因为 AVER
 在某些情况下，DISTINCTCOUNT 函数可受益于聚合。 下面的查询将命中聚合，因为 CustomerKey 有 GroupBy 项，可在聚合表中维持 CustomerKey 的独特性。 此技术仍可能会达到性能阈值，其中有超过 200 万到 500 万个非重复值可影响查询性能。 然而，它可用于以下方案：详细信息表中包含数十亿行，但列中包含 200 万到 500 万个非重复值。 在这种情况下，DISTINCTCOUNT 的执行速度快于扫描包含数十亿行的表，即使缓存到内存中也是如此。
 
 ![DISTINCTCOUNT 聚合查询](media/desktop-aggregations/aggregations-code_07.jpg)
+
+DAX 时间智能函数支持聚合。 下面的查询会命中聚合，因为 DATESYTD 函数会生成一个“CalendarDay”值表，且聚合表的粒度在“Date”表中分组依据列的范围内。 这是 CALCULATE 函数的表值筛选器的一个示例，可以与聚合一起使用。
+
+![SUMMARIZECOLUMNS 聚合查询](media/desktop-aggregations/aggregations-code-07b.jpg)
 
 ## <a name="aggregation-based-on-groupby-columns"></a>基于 GroupBy 列的聚合 
 

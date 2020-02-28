@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.topic: conceptual
 ms.subservice: powerbi-custom-visuals
 ms.date: 01/12/2020
-ms.openlocfilehash: 16e7a317102602ffb4faf04da0ed2cae588a2a4d
-ms.sourcegitcommit: 052df769e6ace7b9848493cde9f618d6a2ae7df9
+ms.openlocfilehash: 58c226fd66c2551565f85ee75bd06469a46c4128
+ms.sourcegitcommit: d6a48e6f6e3449820b5ca03638b11c55f4e9319c
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/14/2020
-ms.locfileid: "75925532"
+ms.lasthandoff: 02/18/2020
+ms.locfileid: "77427061"
 ---
 # <a name="power-bi-visual-project-structure"></a>Power BI 视觉对象项目结构
 
@@ -48,7 +48,7 @@ project
 
 ## <a name="folder-and-file-description"></a>文件夹和文件说明
 
-本部分提供 Power BI 视觉对象“pbiciz”  工具所创建目录中的各文件夹和文件信息。  
+本部分提供 Power BI 视觉对象“pbiciz”工具所创建目录中的各文件夹和文件信息。  
 
 ### <a name="vscode"></a>.vscode
 
@@ -84,7 +84,7 @@ Power BI 视觉对象工具使用此文件作为 Power BI 可视化效果窗格�
 
 ### <a name="package-lockjson"></a>package-lock.json
 
-对于 npm  修改了 `node_modules` 树或 `package.json` 文件的任何操作，将自动生成此文件。
+对于 npm 修改了 `node_modules` 树或 `package.json` 文件的任何操作，将自动生成此文件。
 
 有关此文件的详细信息，请参阅官方 [npm-package-lock.json](https://docs.npmjs.com/files/package-lock.json) 文档。
 
@@ -115,7 +115,7 @@ Power BI 视觉对象工具使用此文件作为 Power BI 可视化效果窗格�
 `pbiviz.json` 文件的以下代码描述中的注释描述了元数据条目。
 
 > [!NOTE]
-> * 从“pbiciz”  工具的版本 3.x.x 开始，不再支持 `externalJS`。
+> * 从“pbiviz”工具的版本 3.x.x 开始，不再支持 `externalJS`。
 > * 为获得本地化支持，[将 Power BI 区域设置添加到你的视觉对象](./localization.md)。
 
 ```json

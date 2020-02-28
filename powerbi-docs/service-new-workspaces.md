@@ -6,19 +6,19 @@ ms.reviewer: lukaszp
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 11/27/2019
+ms.date: 02/12/2020
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 6337c4c5e3098d56e869b8ce71117da2413802e6
-ms.sourcegitcommit: 052df769e6ace7b9848493cde9f618d6a2ae7df9
+ms.openlocfilehash: 976d53a5a74bc077d3d4642ccec336b1225344ae
+ms.sourcegitcommit: d6a48e6f6e3449820b5ca03638b11c55f4e9319c
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/14/2020
-ms.locfileid: "75925676"
+ms.lasthandoff: 02/18/2020
+ms.locfileid: "77426555"
 ---
 # <a name="organize-work-in-the-new-workspaces-in-power-bi"></a>在 Power BI 的新工作区中整理工作
 
- 工作区  是与同事协作创建仪表板、报表和分页报表的集合的地方。 新工作区体验有助于更好地管理对内容的访问。 本文介绍了新工作区及其与经典工作区的区别。  与经典工作区一样，仍可以使用它们来创建和分发应用。 详细了解如何[创建提供新工作区体验的工作区](service-create-the-new-workspaces.md)。
+ 工作区是与同事协作创建仪表板、报表和分页报表的集合的地方。 新工作区体验有助于更好地管理对内容的访问。 本文介绍了新工作区及其与经典工作区的区别。  与经典工作区一样，仍可以使用它们来创建和分发应用。 详细了解如何[创建提供新工作区体验的工作区](service-create-the-new-workspaces.md)。
 
 提供新工作区体验的工作区已正式发布 (GA)，现在为默认工作区。 仍可以继续创建和使用基于 Office 365 组的[经典工作区](service-create-workspaces.md)。 
 
@@ -37,7 +37,7 @@ ms.locfileid: "75925676"
 ## <a name="administering-new-workspace-experience-workspaces"></a>管理提供新工作区体验的工作区
 Power BI 现在支持管理提供新工作区体验的工作区。Power BI 管理员不仅决定组织中谁能创建工作区， 他们还可以使用 Power BI 管理门户或 PowerShell CmdLets 来管理和恢复工作区。 对于基于 Office 365 组的经典工作区，管理工作继续在 Office 365 管理门户和 Azure Active Directory 中进行。
 
-在管理门户的“工作区设置”  中，管理员可以使用“创建工作区(新工作区体验)”设置，以允许组织中的每个人或禁止组织中的任何人创建提供新工作区体验的工作区。 管理员还可以限制特定安全组的成员进行创建。
+在管理门户的“工作区设置”中，管理员可以使用“创建工作区(新工作区体验)”设置，以允许组织中的每个人或禁止组织中的任何人创建提供新工作区体验的工作区。 管理员还可以限制特定安全组的成员进行创建。
 
 > [!NOTE]
 > “创建工作区(新工作区体验)”设置默认为，仅允许能够创建 Office 365 组的用户在 Power BI 中创建新工作区。 请务必在 Power BI 管理门户中设置值，以确保相应用户能够创建提供新工作区体验的工作区。
@@ -68,15 +68,16 @@ Power BI 管理门户中[提供工作区列表](service-admin-portal.md#workspac
 | 添加/删除人员，包括其他管理员。  | X  |   |   |   |
 | 添加成员或具有较低权限的其他人。  |  X | X  |   |   |
 | 发布和更新应用。 |  X | X  |   |   |
-| 共享一个项或共享应用。 |  X | X  |   |   |
-| 允许其他人重新共享项目。 |  X | X  |   |   |
+| 共享一个项或共享应用。<sup>1</sup> |  X | X  |   |   |
+| 允许其他人重新共享项目。<sup>1</sup> |  X | X  |   |   |
 | 在工作区中创建、编辑和删除内容。  |  X | X  | X  |   |
 | 将报表发布到工作区，删除内容。  |  X | X  | X  |   |
 | 基于此工作区中的数据集在其他工作区中创建报表。<sup>1</sup> |  X | X  | X  |   |
-| 复制报表。<sup>1</sup> | X | X | X |  |
-| 查看项并与之交互。<sup>2</sup> |  X | X  | X  | X  |
+| 复制报表。<sup>2</sup> | X | X | X |  |
+| 查看项并与之交互。<sup>3</sup> |  X | X  | X  | X  |
 
-1. 若要复制报表，并基于此工作区中的数据集在另一个工作区中创建报表，需要满足其他条件：
+1. 如果参与者和查看者具有“重新共享”权限，则他们可以共享工作区中的项。
+2. 若要复制报表，并基于此工作区中的数据集在另一个工作区中创建报表，需要满足其他条件：
     - 需要 Power BI Pro 许可证。 有关详细信息，请参阅下一部分[许可](#licensing)。
     - 需要此数据集的生成权限。 对于此工作区中的数据集，拥有管理员、成员和参与者角色的相关人员通过其工作区角色获得生成权限。
 2. 即使没有 Power BI Pro 许可证，如果项位于高级容量的工作区中，也可以查看 Power BI 服务中的项并与之交互。
@@ -101,7 +102,7 @@ Power BI 管理门户中[提供工作区列表](service-admin-portal.md#workspac
 - 可以从经典工作区使用组织内容包。 无法从新工作区使用组织内容包。
 
 ## <a name="workspace-contact-list"></a>工作区联系人列表
-借助联系人列表  这一新功能，可以指定哪些用户接收关于工作区中发生的问题的通知。 默认情况下，任何指定为工作区管理员的用户或组都会收到通知，但你可以自定义列表。 联系人列表中列出的用户或组将显示在用户界面 (UI) 中，以帮助用户获得与工作区相关的帮助。 
+借助联系人列表这一新功能，可以指定哪些用户接收关于工作区中发生的问题的通知。 默认情况下，任何指定为工作区管理员的用户或组都会收到通知，但你可以自定义列表。 联系人列表中列出的用户或组将显示在用户界面 (UI) 中，以帮助用户获得与工作区相关的帮助。 
 
 详细了解[如何设置工作区联系人列表](service-create-the-new-workspaces.md#workspace-contact-list)。
 
@@ -146,7 +147,7 @@ Power BI 不会将配置为拥有工作区访问权限的用户或组的权限�
 - 只读工作区：向用户分配查看者角色，此角色对对工作区中内容的权限与只读访问权限类似，而不是向用户授予对工作区的只读访问权限。
 - 如果工作区位于 Power BI 高级容量中，没有 Power BI Pro 许可证的用户可以访问工作区，即使用户只有查看者角色，也不例外。
 - 若要允许具有查看者角色的用户导出数据，请确保他们有权在工作区中生成数据集。 详细了解[数据集的“生成”权限](service-datasets-build-permissions.md)。
-- 没有“退出工作区”按钮  。
+- 没有“退出工作区”按钮。
 
 ## <a name="frequently-asked-questions"></a>常见问题解答
 

@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 11/11/2019
+ms.date: 02/20/2020
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 0f7debd49541679b2ec5d41eaa2307c50bf170ce
-ms.sourcegitcommit: 0d7ad791a2d2bef45d5d60e38e0af4c9fc22187b
+ms.openlocfilehash: df8c84b5b7baf55a32e07e3e48cb02317fdf7875
+ms.sourcegitcommit: b22a9a43f61ed7fc0ced1924eec71b2534ac63f3
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/13/2019
-ms.locfileid: "74016126"
+ms.lasthandoff: 02/21/2020
+ms.locfileid: "77527383"
 ---
 # <a name="use-the-updated-ribbon-in-power-bi-desktop-preview"></a>在 Power BI Desktop 中使用更新后的功能区（预览）
 
@@ -51,7 +51,18 @@ Power BI 中更新的功能区是预览功能，必须启用。 若要启用该�
 
 * **折叠后的单行功能区可节省空间** - 新功能区的另一个优点是能够将功能区折叠到一行中，并基于上下文动态地显示功能区项。 
 
-    ![更好的主题](media/desktop-ribbon/desktop-ribbon-06.png)
+    ![折叠功能区](media/desktop-ribbon/desktop-ribbon-06.png)
+
+* **用于导航和选择按钮的键提示** - 要帮助导航到功能区，可以按“Alt+Windows 键”激活键提示。 激活后，可以按键盘上显示的键进行导航。
+
+    ![键提示](media/desktop-ribbon/desktop-ribbon-07.png)
+
+* **自定义格式字符串** - 除了在“属性”窗格中设置自定义格式字符串以外，还可以在功能区中对其进行设置。 选择要自定义的度量值或列，根据选择将显示“度量值工具”或“列工具”上下文选项卡。 在该选项卡的格式部分，可以直接在下拉框中键入自定义格式字符串。
+
+    ![自定义格式字符串](media/desktop-ribbon/desktop-ribbon-08.png)
+
+* **辅助功能** - 标题栏、功能区和文件菜单都具有易访问性辅助功能。 按 Ctrl+F6 导航到功能区部分。 在该区域，可以使用 Tab 在顶栏和底栏之间移动，并使用箭头键在元素之间移动。
+
 
 除了这些看得见的更改之外，新功能区还允许我们对 Power BI Desktop 及其功能区进行后续更新，如下所示：
 

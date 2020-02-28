@@ -8,12 +8,12 @@ ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 01/15/2020
 ms.author: painbar
-ms.openlocfilehash: 58b2f96b069815af448352b3b54875dc4d6b27ee
-ms.sourcegitcommit: 02342150eeab52b13a37b7725900eaf84de912bc
+ms.openlocfilehash: b7a02261e6e00c01befa8ba7716b9e0d132323ea
+ms.sourcegitcommit: f9909731ff5b6b69cdc58e9abf2025b7dee0e536
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/23/2020
-ms.locfileid: "76538258"
+ms.lasthandoff: 02/20/2020
+ms.locfileid: "77496749"
 ---
 # <a name="remotely-configure-power-bi-app-using-mobile-device-management-mdm-tool"></a>使用移动设备管理 (MDM) 工具远程配置 Power BI 应用
 
@@ -51,7 +51,7 @@ Power BI 移动版应用支持以下配置方案：
 | 密钥 | 类型 | 值 | 说明 |
 |---|---|---|---|
 | com.microsoft.powerbi.mobile.ReportTapInteraction | 字符串 |  <nobr>单击</nobr><br><nobr>双击</nobr> | 配置点击视觉对象是否还会同时选择数据点。 |
-| ccom.microsoft.powerbi.mobile.RefreshAction | 字符串 |  <nobr>下拉以刷新</nobr><br>按钮 | 配置用户是使用按钮刷新报表还是下拉以刷新。 |
+| com.microsoft.powerbi.mobile.RefreshAction | 字符串 |  <nobr>下拉以刷新</nobr><br>按钮 | 配置用户是使用按钮刷新报表还是下拉以刷新。 |
 | com.microsoft.powerbi.mobile.FooterAppearance | 字符串 |  已停靠<br>动态 | 配置是将报表页脚停靠在报表底部还是自动隐藏。 |
 
 ## <a name="deploying-app-configuration-settings"></a>部署应用配置设置
