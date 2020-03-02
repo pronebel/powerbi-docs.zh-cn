@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 01/17/2020
+ms.date: 02/21/2020
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 8604ed2c737b7d2a75b3af052878ecb157ffacf1
-ms.sourcegitcommit: 02342150eeab52b13a37b7725900eaf84de912bc
+ms.openlocfilehash: a8bf446174cc16d95842022416352f538dca69ec
+ms.sourcegitcommit: 032a77f2367ca937f45e7e751997d7b7d0e89ee2
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/23/2020
-ms.locfileid: "76538603"
+ms.lasthandoff: 02/26/2020
+ms.locfileid: "77609852"
 ---
 # <a name="overview-of-accessibility-in-power-bi"></a>Power BI 中的辅助功能概览
 
@@ -30,7 +30,7 @@ ms.locfileid: "76538603"
 
 ## <a name="accessibility-standards"></a>辅助功能标准
 
-Power BI 致力于符合以下辅助功能标准。 这些标准有助于确保你的 Power BI 可供尽可能多的人访问。 Power BI 移动版应用已通过 C 级无障碍认证。 生成可访问报表或仪表板时，使用 Power BI 移动版查看这些对象的任何人都可访问该内容。
+Power BI 致力于符合以下辅助功能标准。 这些标准有助于确保你的 Power BI 可供尽可能多的人访问。 生成可访问报表或仪表板时，使用 Power BI 移动版查看这些对象的任何人都可访问该内容。
 
 ### <a name="wcag-21"></a>WCAG 2.1
 

@@ -757,8 +757,8 @@
               href: admin/service-security-data-protection-overview.md
             - name: 应用敏感度标签
               href: designer/service-security-apply-data-sensitivity-labels.md
-        - name: 数据世系
-          href: service-data-lineage.md
+        - name: 查看数据世系
+          href: designer/service-data-lineage.md
         - name: 模板应用
           items:
             - name: 模板应用概述
