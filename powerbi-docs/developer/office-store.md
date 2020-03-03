@@ -5,15 +5,15 @@ author: KesemSharabi
 ms.author: kesharab
 ms.reviewer: ''
 ms.service: powerbi
-ms.topic: conceptual
+ms.topic: how-to
 ms.subservice: powerbi-custom-visuals
-ms.date: 12/02/2019
-ms.openlocfilehash: ec1bd8666a9d76b4ccfa7793415488f85a24dfdb
-ms.sourcegitcommit: 8e3d53cf971853c32eff4531d2d3cdb725a199af
+ms.date: 02/13/2020
+ms.openlocfilehash: 031e1fd5d5c57e37e0d70541d6662b0af7b91b07
+ms.sourcegitcommit: 4d98274aa0b9aa09db99add2dda91a3ba8fed40b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "74999875"
+ms.lasthandoff: 02/25/2020
+ms.locfileid: "77576796"
 ---
 # <a name="publish-power-bi-visuals-to-partner-center"></a>将 Power BI 视觉对象发布到合作伙伴中心
 
@@ -39,7 +39,7 @@ ms.locfileid: "74999875"
 | 屏幕截图 |是 |至少提供一个屏幕截图。 格式可以为 .png、.jpg、.jpeg 或 .gif。 尺寸必须正好为 1366 px（宽）x 768 px（高）。 文件大小不能超过 1024 kb。<br>为了实现更好的利用率，添加文本气泡以阐明每个屏幕截图中所示的主要功能的价值主张。 |
 | 支持下载链接 |是 |为客户提供支持 URL。 此链接作为卖家面板列表的一部分输入，当用户在 AppSource 上访问你的视觉对象的列表时，用户可以看到此链接。 URL 的格式应包含 https:// 或 http://。 |
 | 隐私文档链接 |是 |提供指向视觉对象隐私策略的链接。 此链接作为卖家面板列表的一部分输入，当用户在 AppSource 上访问你的视觉对象的列表时，用户可以看到此链接。 链接的格式应包含 https:// 或 http://。 |
-| 最终用户许可协议 (EULA) |是 |必须上载 EULA 文件。 这可以是你自己的 EULA，也可以使用 Office 应用商店中适用于 Power BI 视觉对象的默认 EULA。 若要使用默认 EULA，请将以下 URL 粘贴到卖家面板的“最终用户许可协议”文件上传对话框中。 [https://visuals.azureedge.net/app-store/Power BI - Default Custom Visual EULA.pdf](https://visuals.azureedge.net/app-store/Power%20BI%20-%20Default%20Custom%20Visual%20EULA.pdf)。 |
+| 最终用户许可协议 (EULA) |是 |必须为 Power BI 视觉对象提供一个 EULA 文件。 |
 | 视频链接 |否 |为了增加用户对自定义视觉对象的兴趣，请提供一个指向视觉对象视频的链接。 URL 的格式应包含 https:// 或 http://。 |
 | GitHub 存储库 |否 |共享指向 [GitHub](https://www.github.com) 存储库的公共链接，其中包含 Power BI 视觉对象和示例数据的源。 这样其他开发人员即有机会提供反馈，并针对代码提出改进建议。 |
 

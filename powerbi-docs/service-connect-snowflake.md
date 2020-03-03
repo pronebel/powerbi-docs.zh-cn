@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 11/20/2019
 ms.author: gepopell
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 03e6e8efae5cd4a5f61e3d07bc0b3c524b3b0a46
-ms.sourcegitcommit: d6a48e6f6e3449820b5ca03638b11c55f4e9319c
+ms.openlocfilehash: 5e5519e30be30d6367791d1b6822196b407a21b1
+ms.sourcegitcommit: 4d98274aa0b9aa09db99add2dda91a3ba8fed40b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/18/2020
-ms.locfileid: "77429340"
+ms.lasthandoff: 02/25/2020
+ms.locfileid: "77576874"
 ---
 #  <a name="connecting-to-snowflake-in-power-bi-service"></a>在 Power BI 服务中连接到 Snowflake
 
@@ -49,7 +49,7 @@ ms.locfileid: "77429340"
 
 * 如果在数据模型中仅使用 Snowflake 源，选择不使用本地数据网关即可使用 SSO
 * 如果你使用的是 Snowflake 源和其他源，则如果没有源使用本地数据网关，便可以使用 SSO
-* 如果通过本地数据网关使用 Snowflake 源，则可以使用 AAD 凭据，但不能使用 SSO。 如果尝试从安装了网关的单个 IP（而不是从整个 Power BI IP 范围）访问 VNet，此信息可能相关。
+* 如果通过本地数据网关使用 Snowflake 源，则当前不支持 AAD 凭据。 如果尝试从安装了网关的单个 IP（而不是从整个 Power BI IP 范围）访问 VNet，此信息可能相关。
 * 如果要将 Snowflake 源与需要网关的另一个源一起使用，则还需要通过本地数据网关使用 Snowflake，并且将不能使用 SSO。
 
 有关如何使用本地数据网关的详细信息，请参阅文章[什么是本地数据网关？](https://docs.microsoft.com/power-bi/service-gateway-onprem)

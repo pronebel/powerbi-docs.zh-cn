@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 11/12/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: c2985f0281274adcdbde737c0f3b00688a401df7
-ms.sourcegitcommit: 02b05932a119527f255e1eacc745a257044e392f
+ms.openlocfilehash: ecb377ccabf3b94f37c3fcc69b24c4437c42281b
+ms.sourcegitcommit: 032a77f2367ca937f45e7e751997d7b7d0e89ee2
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/19/2019
-ms.locfileid: "75221266"
+ms.lasthandoff: 02/26/2020
+ms.locfileid: "77609808"
 ---
 # <a name="use-ai-insights-in-power-bi-desktop-preview"></a>在 Power BI Desktop 中使用 AI 见解（预览）
 
@@ -153,7 +153,7 @@ Power Query 和 Power Query Online 中使用的文本分析和视觉函数是相
 
 若要使用此功能，数据科学家只需使用 Azure 门户向 BI 分析师授予访问 Azure ML 模型的权限。 然后，在每个会话开始时，Power Query 将发现用户具有访问权限的所有 Azure ML 模型，并将其作为动态 Power Query 函数公开。 然后，用户可以通过从 Powre Query 编辑器中的功能区中访问这些函数来调用它们，或通过直接调用 M 函数来调用这些函数。 在为一组行调用 Azure ML 模型时，Power BI 还自动批处理访问请求，以实现更好的性能。
 
-此功能目前仅支持 Power BI 数据流以及 Power BI 服务中的联机 Power Query。
+此功能在 Power BI Desktop、Power BI 数据流以及 Power BI 服务中的联机 Power Query 中受支持。
 
 若要了解有关数据流的详细信息，请参阅 [Power BI 中的自助服务数据准备](service-dataflows-overview.md)。
 

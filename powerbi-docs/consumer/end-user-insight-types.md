@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 01/15/2020
+ms.date: 02/24/2020
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 184aeb1f26e54bb8b8935f2f06ec6cad2e282ecf
-ms.sourcegitcommit: 02342150eeab52b13a37b7725900eaf84de912bc
+ms.openlocfilehash: a89cb77b99356f9f282b522c2041e96210a026e9
+ms.sourcegitcommit: 4d98274aa0b9aa09db99add2dda91a3ba8fed40b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/23/2020
-ms.locfileid: "76537891"
+ms.lasthandoff: 02/25/2020
+ms.locfileid: "77576782"
 ---
 # <a name="types-of-insights-supported-by-power-bi"></a>Power BI 支持的见解类型
 
@@ -31,7 +31,7 @@ Power BI 快速搜索数据集的不同子集。 在搜索时，Power BI 会应�
 Power BI 使用统计算法来发现见解。 本文的下一节会将列出并介绍这些算法。 在讨论算法之前，这里有一些可能不熟悉的术语的定义。 
 
 * **度量值**：度量值是可以用于进行计算的定量（数值）字段。 常见计算有求和、平均值和最小值。 例如，如果我们的公司制造并销售滑板，则我们的度量值可能是每年销售的滑板数和平均利润。  
-* **维度**：维度是分类（文本）数据。 维度描述人员、物体、项目、产品、位置和时间。 在数据集中，维度是一种将度量值分组  为有用类别的方法。 对于我们的滑板公司，一些维度可能包括按型号、颜色、国家/地区或市场营销活动查看销售额（一种度量值）。   
+* **维度**：维度是分类（文本）数据。 维度描述人员、物体、项目、产品、位置和时间。 在数据集中，维度是一种将*度量值*分组为有用类别的方法。 对于我们的滑板公司，一些维度可能包括按型号、颜色、国家/地区或市场营销活动查看销售额（一种度量值）。   
 * **相关性**：相关性可告诉我们事物的行为如何相关。  如果它们的增加和减少模式相似，则它们是正相关。 如果它们的模式相反，则它们是负相关。 例如，如果每次开展电视市场营销活动时，我们的红色滑板销售额增加，则红色滑板销售额和电视市场活动是正相关。
 * **时序**：时序是一种将时间显示为连续数据点的方法。 这些数据点可以递增，如秒、小时、月或年。  
 * **连续变量**：连续变量可以是其最小限值与最大限值之间的任何值，否则它是离散变量。 示例包括温度、重量、年龄和时间。 连续变量可以包含值的小数或一部分。 由于我们无法销售半个滑板，售出的蓝色滑板总数是离散变量。  
@@ -55,7 +55,7 @@ Power BI 使用统计算法来发现见解。 本文的下一节会将列出并�
 ![关联示例](./media/end-user-insight-types/pbi-auto-insight-types-correlation.png)
 
 ### <a name="low-variance"></a>低方差
-检测数据点不偏离平均值的情况。
+检测维度的数据点不偏离平均值的情况，因此，“方差”较低。 假设你有度量值“销售额”和维度“区域”。 跨区域查看时，你会发现数据点和（数据点的）平均值之间几乎没有差异。 当所有区域的销售额方差低于阈值时，就会触发见解。 换句话说，所有地区的销售额都非常近似。
 
 ![低方差示例](./media/end-user-insight-types/power-bi-low-variance.png)
 
@@ -75,7 +75,9 @@ Power BI 使用统计算法来发现见解。 本文的下一节会将列出并�
 ![季节性示例](./media/end-user-insight-types/pbi-auto-insight-types-seasonality-new.png)
 
 ### <a name="steady-share"></a>稳定份额
-突出显示子值的份额相对于跨连续变量的整体父值有父子关联的情况。
+突出显示子值的份额相对于跨连续变量的整体父值有父子关联的情况。 稳定份额见解适用于包含一个度量值、一个维度和另一个日期/时间维度的上下文。 当特定维度值（例如，“东北地区”）在该日期/时间维度内占总销售额的百分比稳定，则触发此见解。
+
+稳定份额见解类似于低方差见解，因为它们都与某个值在整个时间内没有太多差异有关。 但是，稳定份额见解度量的是整个时间内总体百分比  没有太多差异，而低方差见解度量的是整个维度内绝对度量值没有太多差异。
 
 ![稳定份额示例](./media/end-user-insight-types/pbi-auto-insight-types-steadyshare.png)
 

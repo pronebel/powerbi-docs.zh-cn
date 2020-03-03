@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 02/10/2020
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 014186acf6bf6b8c00686c0b7a29d0b526b0afb7
-ms.sourcegitcommit: e27d40054949421701f829113c4a5f6d260c8d5f
+ms.openlocfilehash: de0328a35922279082c93a9a2d2a4948f1af7dc5
+ms.sourcegitcommit: 4d98274aa0b9aa09db99add2dda91a3ba8fed40b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/12/2020
-ms.locfileid: "77154230"
+ms.lasthandoff: 02/25/2020
+ms.locfileid: "77576817"
 ---
 # <a name="tables-in-power-bi-reports-and-dashboards"></a>Power BI 报表和仪表板中的表
 
@@ -175,7 +175,10 @@ ms.locfileid: "77154230"
 
 ## <a name="considerations-and-troubleshooting"></a>注意事项和疑难解答
 
-应用列格式时，每列只能选择一个对齐选项：“自动”  、“左对齐”  、“居中”  和“右对齐”  。 通常情况下，一个列包含的内容全部为文本或全部为数字，而不是二者的混合。 如果列中同时包含数字和文本，选择“自动”  选项会将文本左对齐，并将数字右对齐。 此行为支持从左往右阅读的语言。
+* 应用列格式时，每列只能选择一个对齐选项：“自动”  、“左对齐”  、“居中”  和“右对齐”  。 通常情况下，一个列包含的内容全部为文本或全部为数字，而不是二者的混合。 如果列中同时包含数字和文本，选择“自动”  选项会将文本左对齐，并将数字右对齐。 此行为支持从左往右阅读的语言。
+
+* 如果表的单元格或标题中的文本数据包含换行符，则除非你在元素的相关格式设置窗格卡中启用“自动换行”选项，否则这些字符将被忽略。 
+
 
 ## <a name="next-steps"></a>后续步骤
 

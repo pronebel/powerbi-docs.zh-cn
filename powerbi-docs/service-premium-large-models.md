@@ -7,18 +7,18 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
-ms.date: 12/18/2019
+ms.date: 02/25/2020
 LocalizationGroup: Premium
-ms.openlocfilehash: 044952c6ce5e3b1550067f9d288f8eab02b868bb
-ms.sourcegitcommit: 02b05932a119527f255e1eacc745a257044e392f
+ms.openlocfilehash: 4f256d9b0cbecf76ff002cc0214155b8b36014ee
+ms.sourcegitcommit: 032a77f2367ca937f45e7e751997d7b7d0e89ee2
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/19/2019
-ms.locfileid: "75223712"
+ms.lasthandoff: 02/26/2020
+ms.locfileid: "77609904"
 ---
 # <a name="large-models-in-power-bi-premium-preview"></a>Power BI Premium 中的大型模型（预览）
 
-Power BI 数据集可以在高度压缩的内存中缓存中存储数据，以便优化查询性能。 这实现了大型数据集上的快速用户交互。 大型模型功能允许 Power BI Premium 中的数据集的大小超过 10 GB。 数据集的大小会受到 Power BI Premium 容量大小的限制。 这与 Azure Analysis Services 在模型大小限制方面的情况类似。 有关 Power BI Premium 中的容量大小的详细信息，请参阅容量节点。 可以为所有 Premium P SKU 和 Embedded A SKU 设置大型模型；但它们仅适用于[新工作区](service-create-the-new-workspaces.md)。
+Power BI 数据集可以在高度压缩的内存中缓存中存储数据，以便优化查询性能，从而在大型数据集上实现快速的用户交互性。 大型模型功能允许 Power BI Premium 中的数据集的大小超过 10 GB。 相反，数据集的大小受 Power BI Premium 容量大小的限制，这与 Azure Analysis Services 的模型大小限制类似。 有关 Power BI Premium 中的容量大小的详细信息，请参阅容量节点。 可以为所有 Premium P SKU 和 Embedded A SKU 设置大型模型；但它们仅适用于[新工作区](service-create-the-new-workspaces.md)。
 
 大型模型不会影响 PBIX 上传大小，该大小仍限制为 10 GB。 然而刷新后，服务中的数据集将超过 10 GB。 可以使用增量刷新将数据集配置为可超过 10 GB。
 
@@ -110,12 +110,54 @@ SELECT * FROM SYSTEMRESTRICTSCHEMA
  [DATABASE_NAME] = '<Dataset Name>') //Sum USED_SIZE (bytes)
 ```
 
-## <a name="current-feature-restrictions"></a>当前功能限制
+## <a name="limitations-and-considerations"></a>限制和注意事项
 
 使用大型模型时，记住以下限制：
 
-- **引入自己的密钥 BYOK 加密**：启用了“高级文件”的数据集不通过 [BYOK](service-encryption-byok.md) 进行加密。
-- **多地理位置支持**：如果同时启用了 [multi-geo](service-admin-premium-multi-geo.md)，启用了“高级文件”的数据集将出现容量故障。
+- **创建自己的密钥 BYOK 加密**：启用了“高级文件”的数据集不通过 [BYOK](service-encryption-byok.md) 进行加密。
+- **Multi-Geo 支持**：如果同时启用了 [multi-geo](service-admin-premium-multi-geo.md)，启用了“高级文件”的数据集将出现容量故障。
 
 - **下载到 Power BI Desktop**：如果数据集存储在高级文件中，[下载为 .pbix](service-export-to-pbix.md) 文件将失败。
-- **支持的区域**：支持高级文件存储的所有 Azure 区域都支持大型模型。 有关详细信息，请参阅[各区域的可用产品](https://azure.microsoft.com/global-infrastructure/services/?products=storage)。
+- **支持的区域**：支持高级文件存储的所有 Azure 区域都支持大型模型。 若要了解详细信息，请参阅[按区域提供的产品](https://azure.microsoft.com/global-infrastructure/services/?products=storage)，并参考以下部分中的表格。
+
+
+## <a name="availability-in-regions"></a>区域可用性
+
+并非在提供 Power BI 的所有区域都提供大型模型。 Power BI 中的大型模型仅在支持 [Azure 高级文件存储](https://docs.microsoft.com/azure/storage/files/storage-files-planning#file-share-performance-tiers)的 Azure 区域中提供。
+
+以下列表提供了可以使用 Power BI 中的大型模型的区域。 未在以下列表中列出的区域不支持使用大型模型：
+
+
+|Azure 区域  |Azure 区域缩写  |
+|---------|---------|
+|澳大利亚东部     | australiaeast        |
+|澳大利亚东南部     | australiasoutheast        |
+|美国中部     | centralus        |
+|东亚     | eastasia        |
+|美国东部     | eastus        |
+|美国东部 2     | eastus2        |
+|日本东部     | japaneast        |
+|日本西部     | japanwest        |
+|韩国中部     | koreacentral        |
+|韩国南部     | koreasouth        |
+|美国中北部     | northcentralus        |
+|北欧     | northeurope        |
+|美国中南部     | southcentralus        |
+|东南亚     | southeastasia        |
+|英国南部     | uksouth        |
+|英国西部     | ukwest        |
+|西欧     | westeurope        |
+|美国西部     | westus        |
+|美国西部 2     | westus2        |
+
+
+
+## <a name="next-steps"></a>后续步骤
+
+以下链接提供了与使用大型模型相关的有用信息：
+
+* [Azure 高级文件存储](https://docs.microsoft.com/azure/storage/files/storage-files-planning#file-share-performance-tiers)
+* [配置 Power BI Premium 的 Multi-Geo 支持](service-admin-premium-multi-geo.md)
+* [对 Power BI 创建自己的加密密钥](service-encryption-byok.md)
+* [容量工作原理](service-premium-what-is.md#how-capacities-function)
+* [增量刷新](service-premium-incremental-refresh.md)。

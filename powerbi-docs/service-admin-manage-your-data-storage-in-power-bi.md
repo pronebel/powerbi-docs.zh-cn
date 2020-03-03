@@ -7,15 +7,15 @@ ms.custom: seodec18
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 01/23/2020
+ms.date: 02/25/2020
 ms.author: maggies
 LocalizationGroup: Administration
-ms.openlocfilehash: bc8b8c16675e6d413c22d4ae88018222b02b17d6
-ms.sourcegitcommit: a1409030a1616027b138128695b80f6843258168
+ms.openlocfilehash: f5bf1b55c2e092dc755da9f391c83ce3c42661b2
+ms.sourcegitcommit: 30ed21cca2125001f2f992dc6c5f546f4956631c
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/24/2020
-ms.locfileid: "76709879"
+ms.lasthandoff: 02/27/2020
+ms.locfileid: "77652510"
 ---
 # <a name="manage-data-storage-in-power-bi-workspaces"></a>管理 Power BI 工作区中的数据存储
 
@@ -28,8 +28,8 @@ ms.locfileid: "76709879"
 ### <a name="shared-capacity-limits"></a>共享容量限制
 对于共享容量中的工作区： 
 
-- 每个工作区的存储限制为 10 GB。
-- 对于应用工作区，总使用量不能超过 10 GB 乘以租户中的 Pro 许可证数量。
+- 每个工作区的存储限制为 100 GB。
+- 对于应用工作区，总使用量不能超过租户存储限制 10 GB 乘以租户中的 Pro 许可证数量。
 
 ### <a name="premium-capacity-limits"></a>高级容量限制
 对于高级容量中的工作区：

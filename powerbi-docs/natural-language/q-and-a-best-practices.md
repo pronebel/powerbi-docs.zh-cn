@@ -7,12 +7,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 10/23/2019
 ms.author: mohaali
-ms.openlocfilehash: e18579d654cb2ab17ed0dbff73fba95f5f9a64ed
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: d6b07025f2aefe334fbbd65659b527c2bcad1efd
+ms.sourcegitcommit: 032a77f2367ca937f45e7e751997d7b7d0e89ee2
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73875055"
+ms.lasthandoff: 02/26/2020
+ms.locfileid: "77609941"
 ---
 # <a name="best-practices-to-optimize-qa-in-power-bi"></a>优化 Power BI“问答”功能的最佳做法
 使用常用短语和自然语言来查询数据是一个非常有用的功能。 在用数据回答问题时，该项功能更为强大，而这就是 Power BI“问答”功能的作用。

@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 01/15/2020
 ms.author: otarb
 LocalizationGroup: Create reports
-ms.openlocfilehash: 9b21b733dd673c1b672a4590032808a174ecda1f
-ms.sourcegitcommit: 3d6b27e3936e451339d8c11e9af1a72c725a5668
+ms.openlocfilehash: c5105d038480bbee3e534574add91203f54e3119
+ms.sourcegitcommit: 032a77f2367ca937f45e7e751997d7b7d0e89ee2
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/17/2020
-ms.locfileid: "76161584"
+ms.lasthandoff: 02/26/2020
+ms.locfileid: "77609828"
 ---
 # <a name="create-power-bi-visuals-by-using-python"></a>使用 Python 创建 Power BI 视觉对象
 
@@ -170,7 +170,7 @@ plt.show()
 
 Power BI Desktop 中的 Python 视觉对象有一些限制：
 
-- 数据大小限制。 Python 视觉对象用于绘制的数据仅限 150,000 行。 如果选择了 150,000 行以上，则只会使用前 150,000 行，且在图像上显示一条消息。
+- 数据大小限制。 Python 视觉对象用于绘制的数据仅限 150,000 行。 如果选择了 150,000 行以上，则只会使用前 150,000 行，且在图像上显示一条消息。 此外，输入数据的限制为 250 MB。 
 - 分辨率。 所有 Python 视觉对象均以 72 DPI 显示。
 - 计算时间限制。 如果 Python 视觉对象计算时间超过 5 分钟，则执行将超时并生成一个错误。
 - 关系。 如同其他 Power BI Desktop 视觉对象，如果选择的不同表中数据字段间没有定义关系，则会发生错误。

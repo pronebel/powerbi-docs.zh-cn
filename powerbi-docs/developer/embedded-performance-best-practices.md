@@ -8,19 +8,19 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 12/12/2018
-ms.openlocfilehash: c3e2327131ae82fa025236c9242476466b6d9074
-ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
+ms.openlocfilehash: a0f4808aaf267e3cdb822e8778005c2eca247cb5
+ms.sourcegitcommit: 82c41f91055da8c1cc5d8cc67927d5246d11247b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/06/2020
-ms.locfileid: "73864055"
+ms.lasthandoff: 02/29/2020
+ms.locfileid: "78198995"
 ---
 # <a name="power-bi-embedded-performance-best-practices"></a>Power BI Embedded 性能最佳做法
 
 本文提供在应用程序中更快呈现报表、仪表板和磁贴的相关建议。
 
 > [!Note]
-> 请注意，加载时间主要取决于与报表和数据本身相关的元素，包括视觉对象、数据的大小以及查询和计算度量值的复杂性。 有关详细信息，请参阅 [Power BI 性能最佳做法](../power-bi-reports-performance.md)。
+> 请注意，加载时间主要取决于与报表和数据本身相关的元素，包括视觉对象、数据的大小以及查询和计算度量值的复杂性。 有关详细信息，请参阅 [Power BI 优化指南](../guidance/power-bi-optimization.md)。
 
 ## <a name="update-tools-and-sdk-packages"></a>更新工具和 SDK 包
 
@@ -106,6 +106,6 @@ ms.locfileid: "73864055"
 
 ## <a name="next-steps"></a>后续步骤
 
-* [Power BI 报表性能最佳做法](../power-bi-reports-performance.md)
+* [Power BI 优化指南](../guidance/power-bi-optimization.md)
 * [如何对 Power BI Embedded 问题进行故障排除](embedded-troubleshoot.md)
 * [Power BI Embedded 常见问题解答](embedded-faq.md)

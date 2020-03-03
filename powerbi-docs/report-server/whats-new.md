@@ -7,13 +7,13 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
-ms.date: 01/23/2020
-ms.openlocfilehash: d4e233e55731d77d4136c1b6ef1e341a2d043234
-ms.sourcegitcommit: 75300b3f53f438ed7d3bd4edc93b9eb5925bf3af
+ms.date: 02/27/2020
+ms.openlocfilehash: 251f89dd031d9a2bda146266308dc528f05eddb2
+ms.sourcegitcommit: ec4d2d0f52d737e8e0583f6a7b16e6fd87382510
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/05/2020
-ms.locfileid: "77026706"
+ms.lasthandoff: 02/28/2020
+ms.locfileid: "77782434"
 ---
 # <a name="whats-new-in-power-bi-report-server"></a>Power BI 报表服务器中的新增功能
 
@@ -165,6 +165,10 @@ ms.locfileid: "77026706"
 #### <a name="transparent-database-encryption"></a>透明数据库加密
 
 Power BI 报表服务器现在为企业版和标准版的 Power BI 报表服务器目录数据库提供透明数据库加密支持。
+
+#### <a name="power-bi-visuals-api"></a>Power BI 视觉对象 API
+
+此版本附带的 API 版本为 2.6。
 
 #### <a name="microsoft-report-builder-update"></a>Microsoft 报表生成器更新
 
@@ -446,34 +450,34 @@ Power BI 报表现在提供使用 Kerberos 的 SAP HANA SSO 直接查询支持�
 
 下面这些功能在大量新功能中脱颖而出，尤为值得关注。
 
-#### <a name="rule-based-conditional-formatting-for-table-and-matrixhttpspowerbimicrosoftcomblogpower-bi-desktop-november-2017-feature-summaryconditionalformatting"></a>[适用于表和矩阵的基于规则的条件格式](https://powerbi.microsoft.com/blog/power-bi-desktop-november-2017-feature-summary/#conditionalFormatting)
+#### <a name="rule-based-conditional-formatting-for-table-and-matrix"></a>[适用于表和矩阵的基于规则的条件格式](https://powerbi.microsoft.com/blog/power-bi-desktop-november-2017-feature-summary/#conditionalFormatting)
 
 创建规则，以便根据表或矩阵中特定的业务逻辑，有条件地对某一列的背景和字体进行着色。
 
-#### <a name="show-and-hide-pageshttpspowerbimicrosoftcomblogpower-bi-desktop-january-2018-feature-summaryhidepages"></a>[显示和隐藏页](https://powerbi.microsoft.com/blog/power-bi-desktop-january-2018-feature-summary/#hidePages)
+#### <a name="show-and-hide-pages"></a>[显示和隐藏页](https://powerbi.microsoft.com/blog/power-bi-desktop-january-2018-feature-summary/#hidePages)
 
 你希望读者访问你的报表，但是部分页面尚未完成。 现在就可以隐藏这些页面，直到它们已准备就绪。 或者可以在常规导航中隐藏页面，读者可以通过书签或钻取来访问此页面。
 
-#### <a name="bookmarkinghttpspowerbimicrosoftcomblogpower-bi-desktop-march-2018-feature-summarybookmarking"></a>[Bookmarking](https://powerbi.microsoft.com/blog/power-bi-desktop-march-2018-feature-summary/#bookmarking)
+#### <a name="bookmarking"></a>[Bookmarking](https://powerbi.microsoft.com/blog/power-bi-desktop-march-2018-feature-summary/#bookmarking)
 
 说到添加书签，就是创建书签，用报表中的数据来传达信息。
 
 - [书签交叉突出显示](https://powerbi.microsoft.com/blog/power-bi-desktop-december-feature-summary/#bookmarkCrossHighlighting)：书签维护并显示在创建书签时报告页的交叉突出显示状态。
 - [更多书签灵活性](https://powerbi.microsoft.com/blog/power-bi-desktop-december-feature-summary/#bookmarkFlexibility)：书签反映了你在报表中设置的属性，并且只影响你选择的视觉对象。
 
-#### <a name="multi-select-data-points-across-multiple-chartshttpspowerbimicrosoftcomblogpower-bi-desktop-february-2018-feature-summarycrosshighlight"></a>[跨多个图表选择多个数据点](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2018-feature-summary/#crosshighlight)
+#### <a name="multi-select-data-points-across-multiple-charts"></a>[跨多个图表选择多个数据点](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2018-feature-summary/#crosshighlight)
 
 在多个图表中选择多个数据点，并将交叉筛选应用于整个页面。
 
-#### <a name="sync-slicers-across-multiple-pages-of-your-reporthttpspowerbimicrosoftcomblogpower-bi-desktop-february-2018-feature-summarysyncslicers"></a>[跨报表的多个页面同步切片器](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2018-feature-summary/#syncSlicers)
+#### <a name="sync-slicers-across-multiple-pages-of-your-report"></a>[跨报表的多个页面同步切片器](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2018-feature-summary/#syncSlicers)
 
 切片器可应用于报表中的一页、两页或多页。
 
-#### <a name="quick-measureshttpspowerbimicrosoftcomblogpower-bi-desktop-february-2018-feature-summaryquickmeasures"></a>[快速度量](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2018-feature-summary/#quickMeasures) 
+#### <a name="quick-measures"></a>[快速度量](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2018-feature-summary/#quickMeasures) 
 
 基于现有度量值和表中的数字列新建度量值。
 
-#### <a name="drilling-down-filters-other-visualshttpspowerbimicrosoftcomblogpower-bi-desktop-december-feature-summarydrillfiltersothervisuals"></a>[向下钻取筛选其他视觉对象](https://powerbi.microsoft.com/blog/power-bi-desktop-december-feature-summary/#drillFiltersOtherVisuals)
+#### <a name="drilling-down-filters-other-visuals"></a>[向下钻取筛选其他视觉对象](https://powerbi.microsoft.com/blog/power-bi-desktop-december-feature-summary/#drillFiltersOtherVisuals)
 
 在一个视觉对象的给定类别中向下钻取时，可以让其按相同的类别筛选所有视觉对象。
 
