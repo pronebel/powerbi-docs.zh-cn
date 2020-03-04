@@ -60,6 +60,16 @@
               href: report-page-tooltips.md
             - name: 使用报表页钻取
               href: report-drillthrough.md
+            - name: 管理轴的提示
+              href: report-design-tips-axes.md
+            - name: 控制图表网格线的提示
+              href: report-tips-chart-gridlines.md
+            - name: 优化标签使用的提示
+              href: report-tips-labels.md
+            - name: 设置图例格式和实现图例的提示
+              href: report-tips-legends.md
+            - name: 优化视觉对象颜色的提示
+              href: report-tips-visual-colors.md
         - name: Power BI 分页报表
           items:
             - name: 何时使用分页报表
