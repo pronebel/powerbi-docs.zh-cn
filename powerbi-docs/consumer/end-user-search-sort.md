@@ -60,4 +60,4 @@ ms.locfileid: "76889049"
 ## <a name="next-steps"></a>后续步骤
 [对报表中的视觉对象排序](end-user-change-sort.md)
 
-更多疑问？ [尝试参与 Power BI 社区](https://community.powerbi.com/)
+更多问题？ [尝试参与 Power BI 社区](https://community.powerbi.com/)

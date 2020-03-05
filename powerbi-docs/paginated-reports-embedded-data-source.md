@@ -7,13 +7,13 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: conceptual
-ms.date: 06/06/2019
-ms.openlocfilehash: 7cfc52557d9dcce03dd2e42818bb04f4754c190d
-ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
+ms.date: 03/02/2020
+ms.openlocfilehash: 1d7b355987163ede2c70a4052e98ec02522db751
+ms.sourcegitcommit: d65da4738f011beec8f4423085cbd483511cdfb0
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/06/2020
-ms.locfileid: "75304308"
+ms.lasthandoff: 03/03/2020
+ms.locfileid: "78237882"
 ---
 # <a name="create-an-embedded-data-source-for-paginated-reports-in-the-power-bi-service"></a>在 Power BI 服务中为分页报表创建嵌入数据源
 
@@ -53,9 +53,7 @@ ms.locfileid: "75304308"
   
     -   在“连接字符串”  文本框中直接键入连接字符串。 
   
-    -   选择表达式 (fx)  按钮，创建一个计算结果为连接字符串的表达式。 在“表达式”  对话框的“表达式”窗格中键入表达式。 选择“确定”。  
-  
-    -   选择“构建”  以打开在步骤 2 中选择的数据源的“连接属性”  对话框。  
+     -   选择“构建”  以打开在步骤 2 中选择的数据源的“连接属性”  对话框。  
   
         根据数据源类型，填写“连接属性”  对话框中的字段。 连接属性包括数据源类型、数据源名称和要使用的凭据。 在此对话框中指定值后，选择“测试连接”  以验证数据源是否可用，以及指定的凭据是否正确。  
   

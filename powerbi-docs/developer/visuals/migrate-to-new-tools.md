@@ -16,12 +16,12 @@ ms.contentlocale: zh-CN
 ms.lasthandoff: 02/04/2020
 ms.locfileid: "76818815"
 ---
-# <a name="migrate-to-the-new-powerbi-visuals-tools-version-3x"></a>迁移到新 powerbi-visuals-tools 版本 3.x
+# <a name="migrate-to-the-new-powerbi-visuals-tools-version-3x"></a>迁移到新 powerbi-visuals-tools 版本 3.x 
 
 从版本 3 开始，Power BI 视觉对象工具（powerbi-visuals-tools 或 `pbiviz`）使用 Webpack 来生成自定义视觉对象。
 新版本为开发者提供了许多有关创建视觉对象方面的改进：
 
-- 默认使用 TypeScript 版本 3.x。 从 TypeScript 1.5 开始，已更改了命名法。 [阅读更多有关 TypeScript 模块的详细信息](https://www.typescriptlang.org/docs/handbook/modules.html)。
+- 默认使用 TypeScript 版本 3.x  。 从 TypeScript 1.5 开始，已更改了命名法。 [阅读更多有关 TypeScript 模块的详细信息](https://www.typescriptlang.org/docs/handbook/modules.html)。
 
 - 支持 ECMAScript 6 (ES6) 模块。 现在使用 ES6 导入，而不是 [externalJS](migrate-to-new-tools.md#configure-loading-of-external-libraries)。
 

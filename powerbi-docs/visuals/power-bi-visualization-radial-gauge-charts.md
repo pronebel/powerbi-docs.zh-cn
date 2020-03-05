@@ -54,7 +54,7 @@ ms.locfileid: "73880907"
    
 2. 查找**财务示例 Excel 文件**的副本
 
-1. 在报表视图中打开**财务示例 Excel 文件** ![报表视图屏幕截图图标](media/power-bi-visualization-kpi/power-bi-report-view.png)。
+1. 在报表视图中打开**财务示例 Excel 文件**![报表视图屏幕截图图标](media/power-bi-visualization-kpi/power-bi-report-view.png)。
 
 1. 选择“financials”和“Sheet1”  
 

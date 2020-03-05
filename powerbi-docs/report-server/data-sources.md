@@ -6,14 +6,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
-ms.date: 01/21/2020
+ms.date: 03/02/2020
 ms.author: maggies
-ms.openlocfilehash: 343c7d7e81d8e8ec53383feab6dc4dcfb17129d6
-ms.sourcegitcommit: 02342150eeab52b13a37b7725900eaf84de912bc
+ms.openlocfilehash: 08eca8ecb9aa941c2670a801113bc711bff409b2
+ms.sourcegitcommit: d65da4738f011beec8f4423085cbd483511cdfb0
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/23/2020
-ms.locfileid: "76540581"
+ms.lasthandoff: 03/03/2020
+ms.locfileid: "78237514"
 ---
 # <a name="power-bi-report-data-sources-in-power-bi-report-server"></a>Power BI 报表服务器中 Power BI 报表数据源
 Power BI 报表可以连接到多个数据源。 根据数据使用方式，可以提供不同的数据源。 可以导入数据，或者可以直接使用 DirectQuery 或与 SQL Server Analysis Services 的实时连接查询数据。
@@ -41,7 +41,7 @@ Power BI 报表可以连接到多个数据源。 根据数据使用方式，可�
 | Azure Blob 存储 |是 |是 |否 |
 | Azure Data Lake Store |是 |否 |否 |
 | Azure HDInsight (HDFS) |是 |否 |否 |
-| Azure HDInsight (Spark) |是 |是 |否 |
+| Azure HDInsight (Spark) |是 |否 |否 |
 | Azure 表存储 |是 |是 |否 |
 | Dynamics 365 (联机) |是 |否 |否 |
 | Facebook |是 |否 |否 |
@@ -128,7 +128,7 @@ Power BI 报表服务器不支持将基于 OAuth 的身份验证用于模型刷�
 | Azure Blob 存储 |是 |是 |否 |否 |
 | Azure Data Lake Store |否 |否 |否 |否 |
 | Azure HDInsight (HDFS) |否 |否 |否 |否 |
-| Azure HDInsight (Spark) |是 |是 |否 |否 |
+| Azure HDInsight (Spark) |否 |否 |否 |否 |
 | Azure 表存储 |否 |是 |否 |否 |
 | Dynamics 365 (联机) |否 |否 |否 |否 |
 | Facebook |否 |否 |否 |否 |

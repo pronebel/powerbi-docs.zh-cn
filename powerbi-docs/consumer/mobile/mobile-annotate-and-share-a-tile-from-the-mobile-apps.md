@@ -73,5 +73,5 @@ ms.locfileid: "73879500"
 
 ## <a name="next-steps"></a>后续步骤
 * [共享 Power BI 移动应用中的仪表板](mobile-share-dashboard-from-the-mobile-apps.md)
-* 是否有任何问题？ [尝试咨询 Power BI 社区](https://community.powerbi.com/)
+* 是否有任何问题? [尝试咨询 Power BI 社区](https://community.powerbi.com/)
 

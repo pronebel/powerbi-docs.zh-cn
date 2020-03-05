@@ -21,7 +21,7 @@ ms.locfileid: "76819137"
 
 呈现开始时，Power BI 视觉对象代码调用 `renderingStarted` 方法以指示呈现进程已开始。
 
-如果呈现已成功完成， Power BI 视觉对象代码将立即调用 `renderingFinished` 方法，通知侦听器（主要是“导出到 PDF”和“导出到 PowerPoint”）视觉对象的映像已准备好进行导出。
+如果呈现已成功完成， Power BI 视觉对象代码将立即调用 `renderingFinished` 方法，通知侦听器（主要是“导出到 PDF”和“导出到 PowerPoint”）视觉对象的映像已准备好进行导出   。
 
 如果在此过程中出现问题，Power BI 视觉对象则无法成功呈现。 要通知侦听器呈现过程尚未完成，Power BI 视觉对象代码应调用 `renderingFailed` 方法。 此方法还提供可选字符串用于说明失败原因。
 
