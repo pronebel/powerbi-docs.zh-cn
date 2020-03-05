@@ -35,13 +35,13 @@ iPhone 和 iPad 上的 iOS 版 Microsoft Power BI 应用提供了 Power BI、Pow
 可在运行 iOS 11 或更高版本的任意设备上运行适用于 iOS 的 Power BI 移动应用。 
 
 ## <a name="sign-up-for-the-power-bi-service"></a>注册 Power BI 服务
-如果还没有注册，请转到 [powerbi.com](https://powerbi.microsoft.com/get-started/)，在“Power BI - 云协作和共享”下，选择“免费试用”。
+如果还没有注册，请转到 [powerbi.com](https://powerbi.microsoft.com/get-started/)，在“Power BI - 云协作和共享”下，选择“免费试用”   。
 
 
 ## <a name="get-started-with-the-power-bi-app"></a>Power BI 应用入门
 1. 在 iOS 设备中，打开 Power BI 应用。
-2. 若要登录 Power BI，请点击 Power BI 选项卡并填写登录详细信息。  
-   若要登录到 Reporting Services 移动报表和 KPI，请单击“报表服务器”选项卡并填写登录详细信息。
+2. 若要登录 Power BI，请点击 Power BI 选项卡并填写登录详细信息  。  
+   若要登录到 Reporting Services 移动报表和 KPI，请单击“报表服务器”选项卡并填写登录详细信息  。
    
    ![登录 Power BI 移动应用](./media/mobile-iphone-app-get-started/power-bi-connect-to-login.png)
    
@@ -50,7 +50,7 @@ iPhone 和 iPad 上的 iOS 版 Microsoft Power BI 应用提供了 Power BI、Pow
 ## <a name="try-the-power-bi-and-reporting-services-samples"></a>体验 Power BI 和 Reporting Services 示例
 即使没有注册，也可以查看 Power BI 和 Reporting Services 示例并与之交互。
 
-要访问这些示例，请点击导航栏上“更多选项”(…)，然后选择“示例”。
+要访问这些示例，请点击导航栏上“更多选项”(…)，然后选择“示例”   。
 
 多个 Power BI 示例后为几个报表服务器示例。
 
@@ -66,7 +66,7 @@ iPhone 和 iPad 上的 iOS 版 Microsoft Power BI 应用提供了 Power BI、Pow
 点击标头中的放大镜，开始搜索 Power BI 内容。
 
 ## <a name="view-your-favorite-dashboards-and-reports"></a>查看你收藏的仪表板和报表
-点击导航栏上的“收藏夹”(![](./media/mobile-iphone-app-get-started/power-bi-mobile-apps-home-favorites-icon.png))，查看“收藏夹”页。 
+点击导航栏上的“收藏夹”(![](./media/mobile-iphone-app-get-started/power-bi-mobile-apps-home-favorites-icon.png))，查看“收藏夹”页  。 
 
 阅读有关 [Power BI 移动应用中的收藏夹](mobile-apps-favorites.md) 的更多信息。
 

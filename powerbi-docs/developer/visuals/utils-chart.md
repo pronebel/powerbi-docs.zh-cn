@@ -42,7 +42,7 @@ npm install powerbi-visuals-utils-chartutils --save
 function getRecommendedNumberOfTicksForXAxis(availableWidth: number): number;
 ```
 
-示例：
+示例:
 
 ```typescript
 import { axis } from "powerbi-visuals-utils-chartutils";
@@ -60,7 +60,7 @@ axis.getRecommendedNumberOfTicksForXAxis(1024);
 function getRecommendedNumberOfTicksForYAxis(availableWidth: number);
 ```
 
-示例：
+示例:
 
 ```typescript
 import { axis } from "powerbi-visuals-utils-chartutils";
@@ -84,7 +84,7 @@ function getBestNumberOfTicks(
 ): number;
 ```
 
-示例：
+示例:
 
 ```typescript
 import { axis } from "powerbi-visuals-utils-chartutils";
@@ -132,7 +132,7 @@ function getTickLabelMargins(
 ): TickLabelMargins;
 ```
 
-示例：
+示例:
 
 ```typescript
 import { axis } from "powerbi-visuals-utils-chartutils";
@@ -164,7 +164,7 @@ axis.getTickLabelMargins(
 function isOrdinal(type: ValueTypeDescriptor): boolean;
 ```
 
-示例：
+示例:
 
 ```typescript
 import { axis } from "powerbi-visuals-utils-chartutils";
@@ -183,7 +183,7 @@ axis.isOrdinal(type);
 function isDateTime(type: ValueTypeDescriptor): boolean;
 ```
 
-示例：
+示例:
 
 ```typescript
 import { axis } from "powerbi-visuals-utils-chartutils";
@@ -202,7 +202,7 @@ axis.isDateTime(ValueType.fromDescriptor({ dateTime: true }));
 function getCategoryThickness(scale: any): number;
 ```
 
-示例：
+示例:
 
 ```typescript
 import { axis } from "powerbi-visuals-utils-chartutils";
@@ -226,7 +226,7 @@ let actualThickness = axis.getCategoryThickness(scale);
 function invertOrdinalScale(scale: d3.scale.Ordinal<any, any>, x: number);
 ```
 
-示例：
+示例:
 
 ```typescript
 import { axis } from "powerbi-visuals-utils-chartutils";
@@ -256,7 +256,7 @@ function findClosestXAxisIndex(
 ): number;
 ```
 
-示例：
+示例:
 
 ```typescript
 import { axis } from "powerbi-visuals-utils-chartutils";
@@ -302,7 +302,7 @@ function diffScaled(
 ): number;
 ```
 
-示例：
+示例:
 
 ```typescript
 import { axis } from "powerbi-visuals-utils-chartutils";
@@ -335,7 +335,7 @@ function createDomain(
 ): number[];
 ```
 
-示例：
+示例:
 
 ```typescript
 import { axis } from "powerbi-visuals-utils-chartutils";
@@ -386,7 +386,7 @@ function getCategoryValueType(
 ): number[];
 ```
 
-示例：
+示例:
 
 ```typescript
 import { axis } from "powerbi-visuals-utils-chartutils";
@@ -431,7 +431,7 @@ axis.getCategoryValueType(
 function createAxis(options: CreateAxisOptions): IAxisProperties;
 ```
 
-示例：
+示例:
 
 ```typescript
 import { axis } from "powerbi-visuals-utils-chartutils";
@@ -476,7 +476,7 @@ var os = axis.createAxis({
 function applyCustomizedDomain(customizedDomain, forcedDomain: any[]): any[];
 ```
 
-示例：
+示例:
 
 ```typescript
 import { axis } from "powerbi-visuals-utils-chartutils";
@@ -503,7 +503,7 @@ function combineDomain(
 ): any[];
 ```
 
-示例：
+示例:
 
 ```typescript
 import { axis } from "powerbi-visuals-utils-chartutils";
@@ -526,7 +526,7 @@ axis.combineDomain(forcedYDomain, xDomain, ensureXDomain);
 function powerOfTen(d: any): boolean;
 ```
 
-示例：
+示例:
 
 ```typescript
 import { axis } from "powerbi-visuals-utils-chartutils";
@@ -556,7 +556,7 @@ function hideCollidedLabels(
 ): LabelEnabledDataPoint[];
 ```
 
-示例：
+示例:
 
 ```typescript
 let dataLabelManager = new DataLabelManager();
@@ -576,7 +576,7 @@ let filteredData = dataLabelManager.hideCollidedLabels(
 function isValid(rect: IRect): boolean;
 ```
 
-示例：
+示例:
 
 ```typescript
 let rectangle = {
@@ -613,7 +613,7 @@ function getLabelPrecision(precision: number, format: string): number;
 function getLabelFormattedText(options: LabelFormattedTextOptions): string;
 ```
 
-示例：
+示例:
 
 ```typescript
 import { dataLabelUtils } from "powerbi-visuals-utils-chartutils";
@@ -661,7 +661,7 @@ function enumerateCategoryLabels(
 function createColumnFormatterCacheManager(): IColumnFormatterCacheManager;
 ```
 
-示例：
+示例:
 
 ```typescript
 import { dataLabelUtils } from "powerbi-visuals-utils-chartutils";
@@ -699,7 +699,7 @@ function createLegend(
 ): ILegend;
 ```
 
-示例：
+示例:
 
 ```typescript
 public constructor(options: VisualConstructorOptions) {
@@ -749,7 +749,7 @@ export interface ILegend {
 function drawLegend(data: LegendData, viewport: IViewport): void;
 ```
 
-示例：
+示例:
 
 ```typescript
 private renderLegend(): void {

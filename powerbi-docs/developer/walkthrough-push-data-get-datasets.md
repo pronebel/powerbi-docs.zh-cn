@@ -27,7 +27,7 @@ ms.locfileid: "74265533"
 
 ## <a name="get-a-power-bi-dataset"></a>获取 Power BI 数据集
 
-> **注意**：在开始之前，先确保已按[将数据推送到数据集](walkthrough-push-data.md)演练中之前的步骤进行了操作。
+> **注意：** 在开始之前，先确保已按[将数据推送到数据集](walkthrough-push-data.md)演练中之前的步骤进行了操作。
 
 1. 在步骤 2 中创建的控制台应用程序项目中：推送数据演练，[获取身份验证访问令牌](walkthrough-push-data-get-token.md)，安装 Newtonsoft.Json NuGet 包。 下面介绍了安装此程序包的方法：
 

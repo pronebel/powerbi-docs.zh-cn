@@ -42,7 +42,7 @@ Power BI 视觉对象中的操作和后续更新采用以下三种模式之一�
 
 * 用户打开视觉对象的属性面板。
 
-    当用户打开视觉对象的属性面板时，Power BI 将从视觉对象的 capabilities.json 文件中获取支持的对象和属性。 若要接收属性的实际值，Power BI 调用视觉对象的 `enumerateObjectInstances` 方法。 视觉对象返回属性的实际值。
+    当用户打开视觉对象的属性面板时，Power BI 将从视觉对象的 capabilities.json  文件中获取支持的对象和属性。 若要接收属性的实际值，Power BI 调用视觉对象的 `enumerateObjectInstances` 方法。 视觉对象返回属性的实际值。
 
     有关详细信息，请参阅 [Power BI 视觉对象的功能和属性](capabilities.md)。
 
