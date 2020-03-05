@@ -92,7 +92,7 @@ Power BI 报表的所有其他功能对更适合在手机上查看的报表仍�
 ### <a name="drill-to-next-level"></a>钻取到下一个级别
 1. 在手机报表中，点击右上角的省略号 ( **...** ) >“**扩展至焦点模式**”。
    
-    ![扩展至焦点模式](././media/mobile-apps-view-phone-report/power-bi-phone-report-focus-mode.png)
+    ![展开为焦点模式](././media/mobile-apps-view-phone-report/power-bi-phone-report-focus-mode.png)
    
     在本示例中，柱线显示状态的值。
 2. 点击左下角的“浏览”图标 ![“浏览”图标](./media/mobile-apps-view-phone-report/power-bi-phone-report-explore-icon.png) （位于左下角）。

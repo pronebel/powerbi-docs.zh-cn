@@ -34,5 +34,5 @@ ms.locfileid: "73876673"
 ## <a name="next-steps"></a>后续步骤
 
 - [适用于 Windows 10 的 Power BI 移动应用入门](mobile-windows-10-phone-app-get-started.md)
-- 是否有任何问题？ [尝试咨询 Power BI 社区](https://community.powerbi.com/)
+- 是否有任何问题? [尝试咨询 Power BI 社区](https://community.powerbi.com/)
 

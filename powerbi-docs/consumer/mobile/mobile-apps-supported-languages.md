@@ -53,12 +53,12 @@ ms.locfileid: "73879155"
 * 乌克兰语 - українська
 * 越南语 - Tiếng Việt
 
-## <a name="notes"></a>注意
+## <a name="notes"></a>备注
 * Power BI 使用与移动设备的区域设置对应的语言。 不能设置其他语言。
 * 只有英语通知。 例如，如果有人与你共享仪表板，将看到英语通知。 
 
 ## <a name="next-steps"></a>后续步骤
 * [Power BI 支持的语言和国家/地区](../../supported-languages-countries-regions.md)
-* 是否有任何问题？ 请尝试在 [Power BI 社区](https://community.powerbi.com/)中提问
+* 是否有任何问题? 请尝试在 [Power BI 社区](https://community.powerbi.com/)中提问
 * 仍有问题？ 访问 [Power BI 支持页](https://powerbi.microsoft.com/support/)。
 

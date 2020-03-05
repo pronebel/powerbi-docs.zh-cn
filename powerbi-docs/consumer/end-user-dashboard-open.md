@@ -22,7 +22,7 @@ ms.locfileid: "77496292"
 
 [!INCLUDE [power-bi-service-new-look-include](../includes/power-bi-service-new-look-include.md)]
 
-Power BI 使用者需要花费大量时间查看仪表板。 仪表板旨在突出显示基础报表和数据集中的特定信息。 Power BI 使用者利用这些信息进行跟踪、监视、解答问题、测试等，并制定数据驱动型业务决策。
+Power BI 使用者需要花费大量时间查看仪表板  。 仪表板旨在突出显示基础报表和数据集中的特定信息。 Power BI 使用者利用这些信息进行跟踪、监视、解答问题、测试等，并制定数据驱动型业务决策。
 
 ![仪表板](media/end-user-dashboard-open/power-bi-new-dash-new.png)
 

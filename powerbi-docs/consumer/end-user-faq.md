@@ -43,7 +43,7 @@ Power BI Desktop 是一款免费应用程序，可直接安装到你自己的计
 
 仅需要 Web 浏览器和工作电子邮件地址。 也可使用 .gov 和 .mil 电子邮件地址进行注册   。 有关详细信息，请参阅[在 Power BI 服务中注册你的美国政府组织](../service-govus-signup.md)。
 
-## <a name="why-do-i-have-to-sign-up-with-my-work-email"></a>为什么必须使用我的工作电子邮件注册？
+## <a name="why-do-i-have-to-sign-up-with-my-work-email"></a>为何必须使用工作电子邮件注册？
 
 Power BI 不支持由使用者电子邮件服务或电信提供商提供的电子邮件地址。 了解有关 [Power BI 自助服务注册过程](../service-self-service-signup-for-power-bi.md)的详细信息。
 
@@ -53,7 +53,7 @@ Power BI 不支持由使用者电子邮件服务或电信提供商提供的电�
 
 ## <a name="does-power-bi-support-mobile-devices"></a>Power BI 是否支持移动设备？
 
-是的。 Power BI 拥有适用于 Android 手机和平板电脑、iOS 设备和 Windows 10 设备的本机应用。 从对应的应用商店下载以下 [Power BI 移动应用](https://powerbi.microsoft.com/mobile)之一：  
+是。 Power BI 拥有适用于 Android 手机和平板电脑、iOS 设备和 Windows 10 设备的本机应用。 从对应的应用商店下载以下 [Power BI 移动应用](https://powerbi.microsoft.com/mobile)之一：  
 
 * [Apple App Store](https://go.microsoft.com/fwlink/?LinkId=526218)
 * [Google Play](https://go.microsoft.com/fwlink/?LinkID=544867&clcid=0x409)

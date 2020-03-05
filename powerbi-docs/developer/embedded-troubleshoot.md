@@ -23,7 +23,7 @@ ms.locfileid: "74264108"
 
 ### <a name="fiddler-trace"></a>Fiddler 跟踪
 
-[Fiddler](https://www.telerik.com/fiddler) 是 Telerik 提供的一款用于监视 HTTP 流量的免费工具。  可以从客户端计算机通过 Power BI API 进行通信。 此工具可能会显示错误和其他相关信息。
+[Fiddler](https://www.telerik.com/fiddler) 是 Telerik 提供的一个免费工具，可以监视 HTTP 流量。  可以从客户端计算机通过 Power BI API 进行通信。 此工具可能会显示错误和其他相关信息。
 
 ![Fiddler 跟踪](media/embedded-troubleshoot/fiddler.png)
 

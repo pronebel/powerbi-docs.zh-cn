@@ -44,5 +44,5 @@ ms.locfileid: "73879484"
 
 ## <a name="next-steps"></a>后续步骤
 * 从 Android 应用商店[下载 Android 应用](https://go.microsoft.com/fwlink/?LinkID=544867)
-* 是否有任何问题？ [尝试咨询 Power BI 社区](https://community.powerbi.com/) 
+* 是否有任何问题? [尝试咨询 Power BI 社区](https://community.powerbi.com/) 
 

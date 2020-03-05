@@ -40,7 +40,7 @@ npm install powerbi-visuals-utils-dataviewutils --save 此命令安装包并将�
 function getMeasureIndexOfRole(grouped: DataViewValueColumnGroup[], roleName: string): number;
 ```
 
-示例：
+示例:
 
 ```typescript
 import powerbi from "powerbi-visuals-api";
@@ -85,7 +85,7 @@ dataRoleHelper.getMeasureIndexOfRole(columnGroup, "product");
 function getCategoryIndexOfRole(categories: DataViewCategoryColumn[], roleName: string): number;
 ```
 
-示例：
+示例:
 
 ```typescript
 import powerbi from "powerbi-visuals-api";
@@ -128,7 +128,7 @@ dataRoleHelper.getCategoryIndexOfRole(categoryGroup, "product");
 function hasRole(column: DataViewMetadataColumn, name: string): boolean;
 ```
 
-示例：
+示例:
 
 ```typescript
 import powerbi from "powerbi-visuals-api";
@@ -156,7 +156,7 @@ DataRoleHelper.hasRole(metadata, "company");
 function hasRoleInDataView(dataView: DataView, name: string): boolean;
 ```
 
-示例：
+示例:
 
 ```typescript
 import powerbi from "powerbi-visuals-api";
@@ -196,7 +196,7 @@ DataRoleHelper.hasRoleInDataView(dataView, "product");
 function hasRoleInValueColumn(valueColumn: DataViewValueColumn, name: string): boolean;
 ```
 
-示例：
+示例:
 
 ```typescript
 import powerbi from "powerbi-visuals-api";
@@ -233,7 +233,7 @@ dataRoleHelper.hasRoleInValueColumn(valueColumn, "company");
 function getValue<T>(objects: DataViewObjects, propertyId: DataViewObjectPropertyIdentifier, defaultValue?: T): T;
 ```
 
-示例：
+示例:
 
 ```typescript
 import powerbi from "powerbi-visuals-api";
@@ -266,7 +266,7 @@ dataViewObjects.getValue(objects, property);
 function getObject(objects: DataViewObjects, objectName: string, defaultValue?: IDataViewObject): IDataViewObject;
 ```
 
-示例：
+示例:
 
 ```typescript
 import { dataViewObjects } from "powerbi-visuals-utils-dataviewutils";
@@ -296,7 +296,7 @@ dataViewObjects.getObject(objects, "microsoft");
 function getFillColor(objects: DataViewObjects, propertyId: DataViewObjectPropertyIdentifier, defaultColor?: string): string;
 ```
 
-示例：
+示例:
 
 ```typescript
 import powerbi from "powerbi-visuals-api";
@@ -333,7 +333,7 @@ dataViewObjects.getFillColor(objects, property);
 function getCommonValue(objects: DataViewObjects, propertyId: DataViewObjectPropertyIdentifier, defaultValue?: any): any;
 ```
 
-示例：
+示例:
 
 ```typescript
 import powerbi from "powerbi-visuals-api";
@@ -380,7 +380,7 @@ dataViewObjects.getCommonValue(objects, biProperty); // returns: Power
 function getValue<T>(object: IDataViewObject, propertyName: string, defaultValue?: T): T;
 ```
 
-示例：
+示例:
 
 ```typescript
 import { dataViewObject } from "powerbi-visuals-utils-dataviewutils";
@@ -404,7 +404,7 @@ dataViewObject.getValue(object, "microsoft");
 function getFillColorByPropertyName(object: IDataViewObject, propertyName: string, defaultColor?: string): string;
 ```
 
-示例：
+示例:
 
 ```typescript
 import { dataViewObject } from "powerbi-visuals-utils-dataviewutils";
@@ -438,7 +438,7 @@ dataViewObject.getFillColorByPropertyName(object, "fillColor");
 function categoryIsAlsoSeriesRole(dataView: DataViewCategorical, seriesRoleName: string, categoryRoleName: string): boolean;
 ```
 
-示例：
+示例:
 
 ```typescript
 import powerbi from "powerbi-visuals-api";
@@ -474,7 +474,7 @@ converterHelper.categoryIsAlsoSeriesRole(categorical, "power", "bi");
 function getSeriesName(source: DataViewMetadataColumn): PrimitiveValue;
 ```
 
-示例：
+示例:
 
 ```typescript
 import powerbi from "powerbi-visuals-api";
@@ -504,7 +504,7 @@ converterHelper.getSeriesName(metadata);
 function isImageUrlColumn(column: DataViewMetadataColumn): boolean;
 ```
 
-示例：
+示例:
 
 ```typescript
 import powerbi from "powerbi-visuals-api";
@@ -534,7 +534,7 @@ converterHelper.isImageUrlColumn(metadata);
 function isWebUrlColumn(column: DataViewMetadataColumn): boolean;
 ```
 
-示例：
+示例:
 
 ```typescript
 import powerbi from "powerbi-visuals-api";
@@ -564,7 +564,7 @@ converterHelper.isWebUrlColumn(metadata);
 function hasImageUrlColumn(dataView: DataView): boolean;
 ```
 
-示例：
+示例:
 
 ```typescript
 import DataView = powerbi.DataView;
@@ -608,7 +608,7 @@ converterHelper.hasImageUrlColumn(dataView);
 static getDefault(): DataViewObjectsParser;
 ```
 
-示例：
+示例:
 
 ```typescript
 import { dataViewObjectsParser } from "powerbi-visuals-utils-dataviewutils";
@@ -627,7 +627,7 @@ dataViewObjectsParser.getDefault();
 static parse<T extends DataViewObjectsParser>(dataView: DataView): T;
 ```
 
-示例：
+示例:
 
 ```typescript
 import powerbi from "powerbi-visuals-api";
@@ -675,7 +675,7 @@ export class YourVisual extends IVisual {
 static enumerateObjectInstances(dataViewObjectParser: dataViewObjectsParser.DataViewObjectsParser, options: EnumerateVisualObjectInstancesOptions): VisualObjectInstanceEnumeration;
 ```
 
-示例：
+示例:
 
 ```typescript
 import powerbi from "powerbi-visuals-api";
