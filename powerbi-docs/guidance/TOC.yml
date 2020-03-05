@@ -30,8 +30,16 @@
               href: import-modeling-data-reduction.md
             - name: 自动日期/时间指南
               href: auto-date-time.md
-            - name: 多对多关系指导
+            - name: 一对一关系
+              href: relationships-one-to-one.md
+            - name: 多对多关系
               href: relationships-many-to-many.md
+            - name: 活动和非活动关系
+              href: relationships-active-inactive.md
+            - name: 双向关系
+              href: relationships-bidirectional-filtering.md
+            - name: 关系疑难解答
+              href: relationships-troubleshoot.md
             - name: DirectQuery 模型指南
               href: directquery-model-guidance.md
             - name: 复合模型指导

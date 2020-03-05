@@ -12,12 +12,12 @@ metadata:
   author: maggiesMSFT
   ms.author: maggies
   ms.date: 01/14/2020
-  ms.openlocfilehash: 9bb2835003d774bcc878114dbcc669a0bff7ff89
-  ms.sourcegitcommit: d65da4738f011beec8f4423085cbd483511cdfb0
+  ms.openlocfilehash: 23792d8d132702860c611623fc3888debe07cfed
+  ms.sourcegitcommit: d55d3089fcb3e78930326975957c9940becf2e76
   ms.translationtype: HT
   ms.contentlocale: zh-CN
-  ms.lasthandoff: 03/03/2020
-  ms.locfileid: "78237767"
+  ms.lasthandoff: 03/04/2020
+  ms.locfileid: "78260683"
 landingContent:
 - title: Power BI 指南
   linkLists:
@@ -51,12 +51,20 @@ landingContent:
       url: import-modeling-data-reduction.md
     - text: 自动日期/时间指南
       url: auto-date-time.md
+    - text: 一对一关系
+      url: relationships-one-to-one.md
+    - text: 多对多关系
+      url: relationships-many-to-many.md
+    - text: 活动和非活动关系
+      url: relationships-active-inactive.md
+    - text: 双向关系
+      url: relationships-bidirectional-filtering.md
+    - text: 关系疑难解答
+      url: relationships-troubleshoot.md
     - text: DirectQuery 模型指南
       url: directquery-model-guidance.md
     - text: 复合模型指导
       url: composite-model-guidance.md
-    - text: 多对多关系指导
-      url: relationships-many-to-many.md
 - title: DAX
   linkLists:
   - linkListType: concept

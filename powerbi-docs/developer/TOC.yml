@@ -73,6 +73,8 @@
               href: visuals/high-contrast-support.md
             - name: 启用同步切片器
               href: visuals/enable-sync-slicers.md
+            - name: 调试视觉对象
+              href: visuals/visuals-how-to-debug.md
             - name: Power BI 视觉对象疑难解答
               href: power-bi-custom-visuals-troubleshoot.md
         - name: 参考
@@ -101,6 +103,8 @@
                   href: visuals/utils-svg.md
                 - name: 类型 utils
                   href: visuals/utils-type.md
+                - name: 工具提示 utils
+                  href: visuals/utils-tooltip.md
                 - name: 数据视图 utils
                   href: visuals/utils-dataview.md
         - name: 资源
@@ -156,6 +160,8 @@
           items:
             - name: 从应用中嵌入
               href: embed-from-apps.md
+            - name: 将报表导出到文件
+              href: export-to.md
             - name: 自动安装应用
               href: embed-auto-install-app.md
             - name: 创建 Azure Active Directory 租户
@@ -257,8 +263,6 @@
           items:
             - name: 配置凭据
               href: configure-credentials.md
-            - name: 加密凭据
-              href: encrypt-credentials.md
         - name: 参考
           items:
             - name: REST API
