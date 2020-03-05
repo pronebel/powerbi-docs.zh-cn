@@ -8,12 +8,12 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 11/28/2019
 ms.author: v-pemyer
-ms.openlocfilehash: 48942b30b84706c933ccef455129c84a67ac5a1b
-ms.sourcegitcommit: 8e3d53cf971853c32eff4531d2d3cdb725a199af
+ms.openlocfilehash: d5599db57ef7b105575dcb7ee4b4342f374624f0
+ms.sourcegitcommit: b59ec11a4a0a3d5be2e4d91548d637d31b3491f8
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "76040379"
+ms.lasthandoff: 03/05/2020
+ms.locfileid: "78290567"
 ---
 # <a name="use-report-page-drillthrough"></a>使用报表页钻取
 
@@ -70,5 +70,5 @@ ms.locfileid: "76040379"
 有关本文的详细信息，请参阅以下资源：
 
 - [在 Power BI Desktop 中使用钻取](../desktop-drillthrough.md)
-- Guy in a Cube 视频：[深入了解 Power BI Desktop 中的钻取](https://www.youtube.com/watch?v=2x9lLHDbtDk)
 - 是否有任何问题? [尝试咨询 Power BI 社区](https://community.powerbi.com/)
+- 建议？ [提出改进 Power BI 的想法](https://ideas.powerbi.com/)
