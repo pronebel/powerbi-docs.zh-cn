@@ -1,0 +1,124 @@
+- name: Power BI 报表服务器
+  expanded: true
+  items:
+    - name: 概述
+      expanded: true
+      items:
+        - name: 什么是 Power BI 报表服务器？
+          href: get-started.md
+        - name: 比较 Power BI 报表服务器和服务
+          href: compare-report-server-service.md
+    - name: 教程
+      expanded: true
+      items:
+        - name: 浏览 VM 中的 Power BI 报表服务器
+          href: tutorial-explore-report-server-web-portal.md
+    - name: 概念
+      expanded: true
+      items:
+        - name: 新增功能
+          href: whats-new.md
+        - name: 管理员概述
+          href: admin-handbook-overview.md
+        - name: 更改日志
+          href: changelog.md
+        - name: 支持时间线
+          href: support-timeline.md
+        - name: Always Encrypted 支持
+          href: always-encrypted-support.md
+        - name: 硬件和软件要求
+          href: system-requirements.md
+        - name: 浏览器支持
+          href: browser-support.md
+        - name: 报表服务器基本信息
+          items:
+            - name: Power BI 报表计划刷新
+              href: scheduled-refresh.md
+            - name: Power BI 报表数据源
+              href: data-sources.md
+            - name: 分页报表数据源
+              href: connect-data-sources.md
+            - name: 订阅
+              href: 'https://go.microsoft.com/fwlink/?linkid=851310'
+            - name: 使用移动应用
+              href: 'https://go.microsoft.com/fwlink/?linkid=848711'
+            - name: 计划刷新疑难解答
+              href: scheduled-refresh-troubleshoot.md
+        - name: 面向开发人员的报表服务器
+          items:
+            - name: 面向开发人员的报表服务器
+              href: developer-handbook-overview.md
+            - name: 报告查看器控件
+              href: 'https://go.microsoft.com/fwlink/?linkid=848724'
+            - name: 开发扩展
+              href: 'https://go.microsoft.com/fwlink/?linkid=848723'
+            - name: 嵌入报表
+              href: quickstart-embed.md
+    - name: 操作方法
+      items:
+        - name: 安装 Power BI Desktop
+          href: install-powerbi-desktop.md
+        - name: 安装报表生成器
+          href: install-report-builder.md
+        - name: 报表服务器基本信息
+          items:
+            - name: 为报表服务器创建 Power BI 报表
+              href: quickstart-create-powerbi-report.md
+            - name: 管理报表服务器中的内容
+              href: getting-around.md
+            - name: 报表服务器中的行级别安全性 (RLS)
+              href: row-level-security-report-server.md
+            - name: 为报表服务器创建分页报表
+              href: quickstart-create-paginated-report.md
+            - name: 直接在分页报表中输入数据
+              href: ../paginated-reports/paginated-reports-enter-data.md
+            - name: 使用 KPI
+              href: 'https://go.microsoft.com/fwlink/?linkid=849021'
+            - name: 通过 OData 源访问共享数据集
+              href: access-dataset-odata.md
+            - name: 使用 PowerShell 更改数据源连接字符串
+              href: connect-data-source-apis.md
+            - name: 配置计划刷新
+              href: configure-scheduled-refresh.md
+            - name: 将注释添加到报表
+              href: add-comments.md
+        - name: 面向管理员的报表服务器
+          items:
+            - name: 安装报表服务器
+              href: install-report-server.md
+            - name: 查找产品密钥
+              href: find-product-key.md
+            - name: 升级报表服务器
+              href: upgrade.md
+            - name: 迁移报表服务器
+              href: migrate-report-server.md
+            - name: 配置 Kerberos 以使用 Power BI 报表
+              href: configure-kerberos-powerbi-reports.md
+            - name: 远程配置移动应用访问
+              href: configure-powerbi-mobile-apps-remote.md
+            - name: 配置 WAP 和 AD FS
+              href: connect-adfs-wap-report-server.md
+            - name: 使用 Azure 应用程序代理配置报表服务器
+              href: azure-application-proxy.md
+            - name: 使用 Azure AD 进行远程移动访问
+              href: 'https://docs.microsoft.com/azure/active-directory/manage-apps/application-proxy-integrate-with-power-bi'
+            - name: 托管 Excel 工作簿
+              href: excel-oos.md
+    - name: 参考
+      items:
+        - name: REST API
+          href: rest-api.md
+        - name: WMI
+          href: 'https://go.microsoft.com/fwlink/?linkid=848719'
+        - name: SOAP API
+          href: 'https://go.microsoft.com/fwlink/?linkid=848721'
+        - name: URL 访问
+          href: 'https://go.microsoft.com/fwlink/?linkid=848722'
+        - name: 扩展
+          href: 'https://go.microsoft.com/fwlink/?linkid=848723'
+    - name: 资源
+      items:
+        - name: 容量规划白皮书
+          href: capacity-planning.md
+        - name: PDF 呈现扩展插件一致性
+          href: rendering-extension-support.md

@@ -1,0 +1,71 @@
+### YamlMime:Landing
+title: 连接到 Power BI 中的数据 - 文档
+summary: 无论以何种方式使用 Power BI，Power BI 文档都可以提供专业的信息和答案来满足你的需求。
+metadata:
+  title: 连接到 Power BI 中的数据 - 文档
+  description: 无论以何种方式使用 Power BI，Power BI 文档都可以提供专业的信息和答案来满足你的需求。
+  services: powerbi
+  ms.service: powerbi
+  ms.subservice: powerbi
+  ms.topic: landing-page
+  ms.collection: collection
+  author: maggiesMSFT
+  ms.author: maggies
+  ms.date: 02/25/2020
+  ms.openlocfilehash: a46c459c61f85b2f8cb4885f93c1893724485dff
+  ms.sourcegitcommit: ced8c9d6c365cab6f63fbe8367fb33e6d827cb97
+  ms.translationtype: HT
+  ms.contentlocale: zh-CN
+  ms.lasthandoff: 03/07/2020
+  ms.locfileid: "78924129"
+landingContent:
+- title: 连接到 Power BI 中的数据
+  linkLists:
+  - linkListType: concept
+    links:
+    - text: 数据源
+      url: ../desktop-data-sources.md
+    - text: Power BI Desktop 中的数据视图
+      url: ../desktop-data-view.md
+  - linkListType: tutorial
+    links:
+    - text: 从网页导入数据
+      url: ../desktop-tutorial-importing-and-analyzing-data-from-a-web-page.md
+- title: 网关
+  linkLists:
+  - linkListType: concept
+    links:
+    - text: 本地数据网关
+      url: ../service-gateway-onprem.md
+  - linkListType: tutorial
+    links:
+    - text: 连接到本地 SQL Server 数据
+      url: ../service-gateway-sql-tutorial.md
+  - linkListType: how-to-guide
+    links:
+    - text: 使用个人网关
+      url: ../service-gateway-personal-mode.md
+- title: 模板应用
+  linkLists:
+  - linkListType: overview
+    links:
+    - text: 什么是模板应用？
+      url: ../service-template-apps-overview.md
+  - linkListType: concept
+    links:
+    - text: 创建模板应用
+      url: ../service-template-apps-create.md
+    - text: 在组织中分发模板应用
+      url: ../service-template-apps-install-distribute.md
+- title: 刷新数据
+  linkLists:
+  - linkListType: concept
+    links:
+    - text: 数据刷新
+      url: ../refresh-data.md
+    - text: Power BI Premium 中的增量刷新
+      url: ../service-premium-incremental-refresh.md
+  - linkListType: how-to-guide
+    links:
+    - text: 配置计划刷新
+      url: ../refresh-scheduled-refresh.md

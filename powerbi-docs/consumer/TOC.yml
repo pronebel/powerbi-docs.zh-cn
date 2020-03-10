@@ -1,8 +1,9 @@
-- name: 面向使用者的 Power BI
-  href: power-bi-consumer-landing.md
 - name: 面向使用者的 Power BI 服务
+  href: index.yml
+  expanded: true
   items:
     - name: 概述
+      expanded: true
       items:
         - name: 什么是 Power BI 使用者？
           href: end-user-consumer.md
@@ -11,6 +12,7 @@
         - name: 导览 Power BI 服务
           href: end-user-reading-view.md
     - name: 开始使用
+      expanded: true
       items:
         - name: 在 Power BI 中找到解决方法
           href: end-user-experience.md
@@ -20,7 +22,7 @@
           href: end-user-q-and-a.md
         - name: 首次登录
           href: end-user-sign-in.md
-        - name: 查找许可证类型
+        - name: 我拥有哪个 Power BI 许可证？
           href: end-user-license.md
         - name: 导航“全新外观”
           href: ../service-new-look.md
@@ -138,109 +140,3 @@
           href: end-user-browsers.md
         - name: 快速见解类型
           href: end-user-insight-types.md
-- name: Power BI 移动应用
-  items:
-    - name: 概述
-      items:
-        - name: 什么是移动应用？
-          href: mobile/mobile-apps-for-mobile-devices.md
-        - name: 了解主页
-          href: mobile/mobile-apps-home-page.md
-    - name: 快速入门
-      items:
-        - name: 浏览仪表板和报表
-          href: mobile/mobile-apps-quickstart-view-dashboard-report.md
-    - name: 教程
-      items:
-        - name: 在 iOS 移动应用中提问
-          href: mobile/tutorial-mobile-apps-ios-qna.md
-    - name: 概念
-      items:
-        - name: 移动应用中的新增功能
-          href: mobile/mobile-whats-new-in-the-mobile-apps.md
-        - name: 使用移动应用获取实际数据
-          href: mobile/mobile-apps-data-in-real-world-context.md
-        - name: 在移动应用中脱机查看数据
-          href: mobile/mobile-apps-offline-data.md
-        - name: Power BI for Mixed Reality 应用（预览版）
-          href: mobile/mobile-mixed-reality-app.md
-    - name: 操作方法
-      items:
-        - name: 所有移动应用
-          items:
-            - name: 移动 Power BI 的仪表板
-              href: mobile/mobile-apps-view-dashboard.md
-            - name: 移动应用中的报表
-              href: mobile/mobile-reports-in-the-mobile-apps.md
-            - name: 在移动应用中与磁贴进行交互
-              href: mobile/mobile-tiles-in-the-mobile-apps.md
-            - name: 在 Power BI 移动应用中共享仪表板
-              href: mobile/mobile-share-dashboard-from-the-mobile-apps.md
-            - name: 移动应用中的收藏夹
-              href: mobile/mobile-apps-favorites.md
-            - name: 配置交互设置（仅限手机）
-              href: mobile/mobile-app-interaction-settings.md
-            - name: 在 Power BI 移动应用中设置数据警报
-              href: mobile/mobile-set-data-alerts-in-the-mobile-apps.md
-            - name: 获取 Power BI 移动应用中的通知
-              href: mobile/mobile-apps-notification-center.md
-            - name: 创建指向特定位置的深层链接
-              href: mobile/mobile-apps-deep-link-specific-location.md
-            - name: 在 Power BI 移动应用中按位置筛选报表
-              href: mobile/mobile-apps-geographic-filtering.md
-            - name: 使用 OAuth 连接到 Reporting Services
-              href: mobile/mobile-oauth-ssrs.md
-        - name: iOS 和 Android
-          items:
-            - name: 查看针对手机进行优化的报表
-              href: mobile/mobile-apps-view-phone-report.md
-            - name: 在移动应用中查看本地报表
-              href: mobile/mobile-app-ssrs-kpis-mobile-on-premises-reports.md
-            - name: 从外部组织访问内容 (B2B)
-              href: mobile/mobile-apps-b2b.md
-            - name: 使用手机扫描 Power BI QR 代码
-              href: mobile/mobile-apps-qr-code.md
-            - name: 在移动应用中批注并共享
-              href: mobile/mobile-annotate-and-share-a-tile-from-the-mobile-apps.md
-            - name: 从 Power BI 移动应用中扫描条形码
-              href: mobile/mobile-apps-scan-barcode-iphone.md
-            - name: 使用移动设备管理进行配置
-              href: mobile/mobile-app-configuration.md
-        - name: iOS
-          items:
-            - name: 开始使用 iOS 应用
-              href: mobile/mobile-iphone-app-get-started.md
-            - name: 使用 Face ID、Touch ID 或密码进行保护
-              href: mobile/mobile-ios-native-secure-access.md
-            - name: iOS 移动应用中的问答虚拟分析师
-              href: mobile/mobile-apps-ios-qna.md
-            - name: 使用 Siri 快捷方式的 Power BI 移动应用集成
-              href: mobile/mobile-apps-iOS-siri-Shortcuts.md
-            - name: iOS 设备搜索集成
-              href: mobile/mobile-apps-iOS-search-integration.md
-            - name: Power BI Apple Watch 应用
-              href: mobile/mobile-apple-watch.md
-        - name: Android 设备
-          items:
-            - name: Android 应用入门
-              href: mobile/mobile-android-app-get-started.md
-            - name: 修复“你的企业 SSL 证书不受信任”的问题
-              href: mobile/mobile-android-app-error-corporate-ssl-account-is-untrusted.md
-            - name: 修复“需要更新 Android System Webview”的问题
-              href: mobile/mobile-android-error-update-android-system-webview.md
-        - name: 适用于 Windows 10 设备的 Power BI 应用
-          items:
-            - name: 开始使用 Windows 10 应用
-              href: mobile/mobile-windows-10-phone-app-get-started.md
-            - name: 将仪表板固定到开始屏幕
-              href: mobile/mobile-pin-dashboard-start-screen-windows-10-phone-app.md
-            - name: 查看 Reporting Services 移动报表和 KPI
-              href: mobile/mobile-app-windows-10-ssrs-kpis-mobile-reports.md
-            - name: 查看 Surface Hub 上的 Power BI
-              href: mobile/mobile-windows-10-app-presentation-mode.md
-            - name: Windows 应用中的单一登录
-              href: mobile/mobile-windows-10-app-single-sign-on-sso.md
-    - name: 资源
-      items:
-        - name: 移动应用中支持的语言
-          href: mobile/mobile-apps-supported-languages.md

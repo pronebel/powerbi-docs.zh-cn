@@ -1,0 +1,377 @@
+- name: 在 Power BI 中创建报表和仪表板
+  href: index.yml
+  items:
+    - name: 概述
+      expanded: true
+      items:
+        - name: 报表编辑器导览
+          href: ../service-the-report-editor-take-a-tour.md
+        - name: 什么是分页报表？
+          href: ../paginated-reports/paginated-reports-report-builder-power-bi.md
+    - name: 教程
+      expanded: true
+      items:
+        - name: 动手实验室：创建分页报表
+          href: 'https://www.microsoft.com/handsonlabs/selfpacedlabs/details/SQ00208'
+        - name: 创建分页报表并进行上传
+          href: ../paginated-reports/paginated-reports-quickstart-aw.md
+    - name: 示例
+      expanded: true
+      items:
+        - name: 获取 Power BI 示例数据
+          href: ../sample-datasets.md
+        - name: 导入和打开示例包
+          href: ../sample-tutorial-connect-to-the-samples.md
+        - name: 客户盈利率示例
+          href: ../sample-customer-profitability.md
+        - name: IT 支出分析示例
+          href: ../sample-it-spend.md
+        - name: 人力资源示例
+          href: ../sample-human-resources.md
+        - name: 商机分析示例
+          href: ../sample-opportunity-analysis.md
+        - name: 采购分析示例
+          href: ../sample-procurement.md
+        - name: 零售分析示例
+          href: ../sample-retail-analysis.md
+        - name: 销售和市场营销示例
+          href: ../sample-sales-and-marketing.md
+        - name: 供应商质量分析示例
+          href: ../sample-supplier-quality.md
+        - name: 下载财务示例工作簿
+          href: ../sample-financial-download.md
+    - name: 概念
+      expanded: true
+      items:
+        - name: Power BI 报表
+          items:
+            - name: 使用报表视图
+              href: ../desktop-report-view.md
+            - name: Power BI 报表中的筛选器类型
+              href: ../power-bi-report-filter-types.md
+            - name: 报表中的筛选器和突出显示
+              href: ../power-bi-reports-filters-and-highlighting.md
+            - name: 高密度直线采样
+              href: ../desktop-high-density-sampling.md
+            - name: 关于 Power BI 问答视觉对象
+              href: ../visuals/power-bi-visualization-q-and-a.md
+            - name: 关于 Power BI 辅助功能
+              href: ../desktop-accessibility-overview.md
+            - name: 自然语言问答
+              items:
+                - name: 问答简介
+                  href: ../natural-language/q-and-a-intro.md
+                - name: 问答工具简介
+                  href: ../natural-language/q-and-a-tooling-intro.md
+                - name: 问答高级工具
+                  href: ../natural-language/q-and-a-tooling-advanced.md
+                - name: 问答限制
+                  href: ../natural-language/q-and-a-limitations.md
+                - name: 问答中的可视化效果类型
+                  href: ../visuals/power-bi-visualization-types-for-reports-and-q-and-a.md
+        - name: 分页报表
+          items:
+            - name: Power BI 中的报表生成器
+              href: ../paginated-reports/report-builder-power-bi.md
+            - name: 处理报表设计视图
+              href: ../paginated-reports/paginated-reports-report-design-view.md
+            - name: 规划报表
+              href: ../paginated-reports/report-builder-planning-report.md
+            - name: 报表生成器数据
+              href: ../paginated-reports/report-builder-data.md
+            - name: 支持的数据源
+              href: ../paginated-reports/paginated-reports-data-sources.md
+            - name: 设计提示
+              href: ../paginated-reports/report-builder-design-tips.md
+            - name: 表、矩阵、列表
+              href: ../paginated-reports/report-builder-tables-matrices-lists.md
+            - name: 参数
+              href: ../paginated-reports/report-builder-parameters.md
+            - name: 分页报表中的 URL 参数
+              href: ../paginated-reports/report-builder-url-parameters.md
+            - name: 表达式示例
+              href: ../paginated-reports/report-builder-expression-examples.md
+            - name: 报告分页
+              href: ../paginated-reports/paginated-reports-pagination.md
+            - name: 预览报表
+              href: ../paginated-reports/report-builder-previewing-reports.md
+            - name: 分页报表常见问题解答
+              href: ../paginated-reports/paginated-reports-faq.md
+    - name: 操作指南
+      items:
+        - name: 发布数据集和报表
+          href: ../desktop-upload-desktop-files.md
+        - name: 向 Power BI 报表添加视觉对象（第 1 部分）
+          href: ../visuals/power-bi-report-add-visualizations-i.md
+        - name: 向 Power BI 报表添加视觉对象（第 2 部分）
+          href: ../visuals/power-bi-report-add-visualizations-ii.md
+        - name: 自定义视觉对象标题、背景和图例
+          href: ../visuals/power-bi-visualization-customize-title-background-and-legend.md
+        - name: 显示 Power BI 中不含数据的项目
+          href: ../desktop-show-items-no-data.md
+        - name: 应用自动日期/时间
+          href: ../desktop-auto-date-time.md
+        - name: Power BI 报表
+          items:
+            - name: 启用自动页面刷新（预览版）
+              href: ../desktop-automatic-page-refresh.md
+            - name: 用性能分析器检查报表元素
+              href: ../desktop-performance-analyzer.md
+            - name: 将视觉对象元素添加到报表
+              href: ../desktop-visual-elements-for-reports.md
+            - name: 添加报表工具提示以增强视觉对象
+              href: ../desktop-tooltips.md
+            - name: 将报表导出到 PDF 文件
+              href: ../desktop-export-to-pdf.md
+            - name: 应用见解解释视觉对象的波动（预览版）
+              href: ../desktop-insights.md
+            - name: 使用见解了解分发的变化情况（预览）
+              href: ../desktop-insights-find-where-different.md
+            - name: 创建按钮
+              href: ../desktop-buttons.md
+            - name: 创建用于保存和共享见解的书签
+              href: ../desktop-bookmarks.md
+            - name: 使用报表主题
+              href: ../desktop-report-themes.md
+            - name: 使用 Power BI 报表中的筛选器
+              href: ../power-bi-report-filter.md
+            - name: 使用钻取功能
+              href: ../desktop-drillthrough.md
+            - name: 使用跨报告钻取功能
+              href: ../desktop-cross-report-drill-through.md
+            - name: 应用分组和装箱
+              href: ../desktop-grouping-and-binning.md
+            - name: 使用 R 创建 Power BI 视觉对象
+              href: ../desktop-r-visuals.md
+            - name: 下载和使用 R 驱动的自定义视觉对象
+              href: ../desktop-r-powered-custom-visuals.md
+            - name: 应用网格线和对齐网格
+              href: ../desktop-gridlines-snap-to-grid.md
+            - name: 在 Power BI 报表中应用页面显示设置
+              href: ../power-bi-report-display-settings.md
+            - name: 从示例中添加列
+              href: ../desktop-add-column-from-example.md
+            - name: 添加自定义列
+              href: ../desktop-add-custom-column.md
+            - name: 使用内联层次结构标签
+              href: ../desktop-inline-hierarchy-labels.md
+            - name: 使用数值范围切片器
+              href: ../desktop-slicer-numeric-range.md
+            - name: 使用相对日期切片器和筛选器
+              href: ../desktop-slicer-filter-date-range.md
+            - name: 创建可重设大小的切片器
+              href: ../power-bi-slicer-filter-responsive.md
+            - name: 使用行级安全性限制数据访问
+              href: ../desktop-rls.md
+            - name: 自定义工具提示
+              href: ../desktop-custom-tooltips.md
+            - name: 向报表添加文本框和形状
+              href: ../power-bi-reports-add-text-and-shapes.md
+            - name: 向文本框添加超链接
+              href: ../service-add-hyperlink-to-text-box.md
+            - name: 向表中添加超链接
+              href: ../power-bi-hyperlinks-in-tables.md
+            - name: 显示表、矩阵或切片器中的图像
+              href: ../power-bi-images-tables.md
+            - name: 显示自定义格式字符串
+              href: ../desktop-custom-format-strings.md
+            - name: 应用条件表格式设置
+              href: ../desktop-conditional-table-formatting.md
+            - name: 创建基于表达式的动态标题
+              href: ../desktop-conditional-format-visual-titles.md
+            - name: 按列排序
+              href: ../desktop-sort-by-column.md
+            - name: 针对移动应用优化报表
+              href: ../desktop-create-phone-report.md
+            - name: 应用“查看数据”和“查看记录”选项
+              href: ../desktop-see-data-see-records.md
+            - name: 创建报表的相关提示和技巧
+              href: ../desktop-tips-and-tricks-for-creating-reports.md
+            - name: 将报表中的视觉对象分组
+              href: ../desktop-grouping-visuals.md
+            - name: 创建报表模板
+              href: ../desktop-templates.md
+            - name: 从数据集中创建报表
+              href: ../service-report-create-new.md
+            - name: 向报表添加筛选器
+              href: ../power-bi-report-add-filter.md
+            - name: 保存报表
+              href: ../service-report-save.md
+            - name: 在“编辑视图”中与报表进行交互
+              href: ../service-interact-with-a-report-in-editing-view.md
+            - name: 在 Excel 中分析
+              href: ../service-analyze-in-excel.md
+            - name: 创建报表的相关提示和技巧
+              href: ../power-bi-reports-tips-and-tricks-for-creating.md
+            - name: 在服务中使用聚合
+              href: ../service-aggregates.md
+            - name: 为报表创建 QR 代码
+              href: ../service-create-qr-code-for-report.md
+            - name: 将报表导出到 Power BI Desktop（预览）
+              href: ../service-export-to-pbix.md
+        - name: 可视化效果
+          items:
+            - name: 向 Power BI 报表添加视觉对象
+              href: ../visuals/power-bi-report-visualizations.md
+            - name: 在 Power BI 报表中更改视觉对象
+              href: ../visuals/power-bi-report-change-visualization-type.md
+            - name: 应用数据点限制和策略（按视觉对象类型）
+              href: ../visuals/power-bi-data-points.md
+            - name: 显示视觉对象的基础数据
+              href: ../visuals/service-reports-show-data.md
+            - name: 颜色格式设置和轴属性入门
+              href: ../visuals/service-getting-started-with-color-formatting-and-axis-properties.md
+            - name: 颜色格式设置提示和技巧
+              href: ../visuals/service-tips-and-tricks-for-color-formatting.md
+            - name: 复制并粘贴报表可视化效果
+              href: ../visuals/power-bi-visualization-copy-paste.md
+            - name: 探索用于创建可视化效果的数据
+              href: ../visuals/power-bi-visualization-export-data.md
+            - name: 在表中移动可视化效果、重设它的大小和弹出可视化效果
+              href: ../visuals/power-bi-visualization-move-and-resize.md
+            - name: 更改视觉对象在报表中的交互方式
+              href: ../service-reports-visual-interactions.md
+            - name: 用于 Power BI 地图可视化效果的提示和技巧
+              href: ../visuals/power-bi-map-tips-and-tricks.md
+            - name: 自定义 X 轴和 Y 轴属性
+              href: ../visuals/power-bi-visualization-customize-x-axis-and-y-axis.md
+            - name: 在 Power BI 视觉对象中与 ArcGIS Maps 交互
+              href: ../visuals/power-bi-visualizations-arcgis.md
+            - name: 创建 ArcGIS Maps for Power BI 视觉对象
+              href: ../visuals/power-bi-visualization-arcgis.md
+            - name: 创建和使用基本面积图
+              href: ../visuals/power-bi-visualization-basic-area-chart.md
+            - name: 创建卡片可视化对象（大数字磁贴）
+              href: ../visuals/power-bi-visualization-card.md
+            - name: 创建和使用组合图
+              href: ../visuals/power-bi-visualization-combo-chart.md
+            - name: 创建和使用分解树视觉对象（预览版）
+              href: ../visuals/power-bi-visualization-decomposition-tree.md
+            - name: 创建和使用圆环图
+              href: ../visuals/power-bi-visualization-doughnut-charts.md
+            - name: 创建和使用着色地图（等值线图）
+              href: ../visuals/power-bi-visualization-filled-maps-choropleths.md
+            - name: 创建和使用漏斗图
+              href: ../visuals/power-bi-visualization-funnel-charts.md
+            - name: 创建和使用关键影响因素视觉对象
+              href: ../visuals/power-bi-visualization-influencers.md
+            - name: 创建和使用 KPI 可视化效果
+              href: ../visuals/power-bi-visualization-kpi.md
+            - name: 创建和使用矩阵可视化效果
+              href: ../visuals/desktop-matrix-visual.md
+            - name: 创建和使用 Power Apps 视觉对象
+              href: ../visuals/power-bi-visualization-powerapp.md
+            - name: 创建和使用 R 可视化效果
+              href: ../visuals/service-r-visuals.md
+            - name: 创建和使用径向仪表图表
+              href: ../visuals/power-bi-visualization-radial-gauge-charts.md
+            - name: 创建和使用功能区图表
+              href: ../visuals/desktop-ribbon-charts.md
+            - name: 创建和使用散点图、气泡图和点图
+              href: ../visuals/power-bi-visualization-scatter.md
+            - name: 使用高密度散点图
+              href: ../visuals/desktop-high-density-scatter-charts.md
+            - name: 创建和使用形状地图视觉对象（预览版）
+              href: ../visuals/desktop-shape-map.md
+            - name: 创建和使用切片器
+              href: ../visuals/power-bi-visualization-slicers.md
+            - name: 创建和使用 Power BI 报表和仪表板中的表
+              href: ../visuals/power-bi-visualization-tables.md
+            - name: 创建和使用树状图
+              href: ../visuals/power-bi-visualization-treemaps.md
+            - name: 创建和使用瀑布图
+              href: ../visuals/power-bi-visualization-waterfall-charts.md
+        - name: 自然语言问答
+          items:
+            - name: 问答视觉对象
+              href: ../visuals/power-bi-visualization-q-and-a.md
+            - name: 教导“问答”以理解内容
+              href: ../natural-language/q-and-a-tooling-teach-q-and-a.md
+            - name: 问答最佳做法
+              href: ../natural-language/q-and-a-best-practices.md
+            - name: 通过问答浏览数据
+              href: ../power-bi-tutorial-q-and-a.md
+            - name: 通过问答创建视觉对象
+              href: ../power-bi-visualization-introduction-to-q-and-a.md
+            - name: 让 Excel 数据支持问答
+              href: ../service-prepare-data-for-q-and-a.md
+            - name: 创建问答的特别推荐问题
+              href: ../service-q-and-a-create-featured-questions.md
+            - name: 结合使用问答和实时连接
+              href: ../service-q-and-a-direct-query.md
+            - name: Power BI 中的 Quick Insights
+              href: ../service-insights.md
+            - name: 针对快速见解优化数据
+              href: ../service-insights-optimize.md
+        - name: 辅助功能
+          items:
+            - name: 设计可访问的 Power BI 报表
+              href: ../desktop-accessibility-creating-reports.md
+            - name: 使用辅助功能工具创建 Power BI 报表
+              href: ../desktop-accessibility-creating-tools.md
+            - name: 通过辅助功能使用 Power BI 报表
+              href: ../desktop-accessibility-consuming-tools.md
+            - name: Power BI Desktop 中的键盘快捷方式
+              href: ../desktop-accessibility-keyboard-shortcuts.md
+        - name: 数据世系
+          href: ../service-data-lineage.md
+        - name: 分页报表
+          items:
+            - name: 直接在分页报表中输入数据
+              href: ../paginated-reports/paginated-reports-enter-data.md
+            - name: 创建嵌入的数据源
+              href: ../paginated-reports/paginated-reports-embedded-data-source.md
+            - name: 创建嵌入的数据集
+              href: ../paginated-reports/paginated-reports-create-embedded-dataset.md
+            - name: 使用 Power BI 共享数据集创建报表
+              href: ../paginated-reports/report-builder-shared-datasets.md
+            - name: 创建参数
+              href: ../paginated-reports/paginated-reports-parameters.md
+            - name: 在 URL 中传递报表参数
+              href: ../paginated-reports/report-builder-url-pass-parameters.md
+            - name: 发布分页报表
+              href: ../paginated-reports/paginated-reports-save-to-power-bi-service.md
+        - name: 仪表板
+          items:
+            - name: 仪表板简介
+              href: ../service-dashboards.md
+            - name: 在推入数据时
+              href: ../service-dashboard-tiles.md
+            - name: 从报表创建仪表板
+              href: ../service-dashboard-create.md
+            - name: 创建仪表板副本
+              href: ../service-dashboard-copy.md
+            - name: 将磁贴从报表固定到仪表板
+              href: ../service-dashboard-pin-tile-from-report.md
+            - name: 将磁贴从一个仪表板固定到另一个仪表板
+              href: ../service-pin-tile-to-another-dashboard.md
+            - name: 将磁贴从 Excel 固定到仪表板
+              href: ../service-dashboard-pin-tile-from-excel.md
+            - name: 从问答将磁贴固定到仪表板
+              href: ../service-dashboard-pin-tile-from-q-and-a.md
+            - name: 将整个报表页固定到仪表板
+              href: ../service-dashboard-pin-live-tile-from-report.md
+            - name: Power BI 服务中的数据警报
+              href: ../service-set-data-alerts.md
+            - name: 向仪表板添加图像、文本框、视频或代码
+              href: ../service-dashboard-add-widget.md
+            - name: 编辑磁贴
+              href: ../service-dashboard-edit-tile.md
+            - name: 设计出色仪表板的提示
+              href: ../service-dashboards-design-tips.md
+            - name: 针对手机优化仪表板
+              href: ../service-create-dashboard-mobile-phone-view.md
+            - name: 为磁贴创建 QR 代码
+              href: ../service-create-qr-code-for-tile.md
+            - name: 仪表板数据分类
+              href: ../service-data-classification.md
+            - name: 仪表板主题
+              href: ../service-dashboard-themes.md
+        - name: 其他任务
+          items:
+            - name: 重命名 Power BI 中的内容
+              href: ../service-rename.md
+            - name: 设置项目联系人
+              href: ../service-item-contact.md
+            - name: 在 Power BI 中删除几乎所有内容
+              href: ../service-delete.md

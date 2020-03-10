@@ -1,0 +1,334 @@
+- name: 连接到 Power BI 中的数据
+  href: index.yml
+  expanded: true
+  items:
+    - name: 概述
+      expanded: true
+      items:
+        - name: Power BI 中的数据源
+          href: ../service-get-data.md
+        - name: 本地数据网关是什么？
+          href: ../service-gateway-onprem.md
+    - name: 快速入门
+      expanded: true
+      items:
+        - name: 连接到 Power BI Desktop 中的数据
+          href: ../desktop-quickstart-connect-to-data.md
+    - name: 教程
+      items:
+        - name: 调整和合并多个数据源
+          href: ../desktop-shape-and-combine-data.md
+        - name: 导入和分析网页数据
+          href: ../desktop-tutorial-importing-and-analyzing-data-from-a-web-page.md
+        - name: 分析来自 Excel 和 OData 源的销售数据
+          href: ../desktop-tutorial-analyzing-sales-data-from-excel-and-an-odata-feed.md
+        - name: 分析 Facebook 数据
+          href: ../desktop-tutorial-facebook-analytics.md
+        - name: 在 Analysis Services 表格模型中实现行级别安全性
+          href: ../desktop-tutorial-row-level-security-onprem-ssas-tabular.md
+        - name: 开始使用 Power BI
+          href: ../service-get-started.md
+        - name: 连接到 GitHub 示例
+          href: ../service-tutorial-connect-to-github.md
+        - name: 在 Excel 中使用分析
+          href: ../service-tutorial-analyze-in-excel.md
+        - name: 使用认知服务
+          href: ../service-tutorial-use-cognitive-services.md
+        - name: 机器学习集成
+          href: ../service-tutorial-invoke-machine-learning-model.md
+        - name: 构建机器学习模型
+          href: ../service-tutorial-build-machine-learning-model.md
+        - name: 刷新来自 SQL Server 的数据
+          href: ../service-gateway-sql-tutorial.md
+    - name: 概念
+      items:
+        - name: Power BI 数据源
+          href: ../power-bi-data-sources.md
+        - name: Power BI 数据源必备条件
+          href: ../desktop-data-source-prerequisites.md
+        - name: 在 Power BI 中使用多维模型
+          href: ../desktop-default-member-multidimensional-models.md
+        - name: 关于在 Power BI 中使用 DirectQuery
+          href: ../desktop-directquery-about.md
+        - name: 网关
+          items:
+            - name: 部署数据网关指南
+              href: ../service-gateway-deployment-guidance.md
+            - name: 本地数据网关常见问题
+              href: ../service-gateway-power-bi-faq.md
+    - name: 操作指南
+      items:
+        - name: 连接到数据源
+          href: ../desktop-connect-to-data.md
+        - name: 连接到数据
+          items:
+            - name: 连接到数据源
+              href: ../desktop-data-sources.md
+            - name: 在 SharePoint 列表中创建报表
+              href: ../desktop-sharepoint-online-list.md
+            - name: 连接到 LinkedIn Sales Navigator
+              href: ../desktop-connect-linkedin-sales-navigator.md
+            - name: 通过提供示例获取网页数据
+              href: ../desktop-connect-to-web-by-example.md
+            - name: 连接到 Power BI 服务中的数据集
+              href: ../desktop-report-lifecycle-datasets.md
+            - name: 导入 Excel 工作簿
+              href: ../desktop-import-excel-workbooks.md
+            - name: 使用 Power BI Desktop 通用接口连接到数据
+              href: ../desktop-connect-using-generic-interfaces.md
+            - name: 连接到 PDF 文件
+              href: ../desktop-connect-pdf.md
+            - name: 连接到 Adobe Analytics
+              href: ../desktop-connect-adobe-analytics.md
+            - name: 连接到 Oracle 数据库
+              href: ../desktop-connect-oracle-database.md
+            - name: Python
+              items:
+                - name: 运行 Python 脚本
+                  href: ../desktop-python-scripts.md
+                - name: 在查询编辑器中使用 Python
+                  href: ../desktop-python-in-query-editor.md
+                - name: 使用外部 Python IDE
+                  href: ../desktop-python-ide.md
+                - name: 通过 Python 创建视觉对象
+                  href: ../desktop-python-visuals.md
+            - name: 运行 R 脚本
+              href: ../desktop-r-scripts.md
+            - name: 在查询编辑器中使用 R
+              href: ../desktop-r-in-query-editor.md
+            - name: 使用外部 R IDE
+              href: ../desktop-r-ide.md
+            - name: 通过 R 包创建视觉对象
+              href: ../service-r-packages-support.md
+            - name: 直接在 Power BI Desktop 中输入数据
+              href: ../desktop-enter-data-directly-into-desktop.md
+            - name: 连接到 Excel 工作簿
+              href: ../desktop-connect-excel.md
+            - name: 连接到 SSAS 多维模型
+              href: ../desktop-ssas-multidimensional.md
+            - name: 连接到 .CSV 文件
+              href: ../desktop-connect-csv.md
+            - name: 连接到 Google BigQuery 数据库
+              href: ../desktop-connect-bigquery.md
+            - name: 连接到 Impala 数据库
+              href: ../desktop-connect-impala.md
+            - name: 连接到 OData 源
+              href: ../desktop-connect-odata.md
+            - name: 连接 Amazon Redshift 数据库
+              href: ../desktop-connect-redshift.md
+            - name: 连接到网页
+              href: ../desktop-connect-to-web.md
+            - name: 连接到 Snowflake 计算仓库
+              href: ../desktop-connect-snowflake.md
+            - name: 通过 Azure 成本管理连接器创建视觉对象
+              href: ../desktop-connect-azure-cost-management.md
+            - name: 连接到 Azure 使用见解数据
+              href: ../desktop-connect-azure-consumption-insights.md
+            - name: 连接到 SAP HANA 数据库
+              href: ../desktop-sap-hana.md
+            - name: 启用 SAP HANA 加密
+              href: ../desktop-sap-hana-encryption.md
+            - name: 连接到 Analysis Services 表格数据
+              href: ../desktop-analysis-services-tabular-data.md
+            - name: 使用 DirectQuery 连接到数据源
+              href: ../desktop-use-directquery.md
+            - name: 利用 DirectQuery 连接到 SAP 业务仓库
+              href: ../desktop-directquery-sap-bw.md
+            - name: 使用 DirectQuery 连接到 SAP HANA 数据源
+              href: ../desktop-directquery-sap-hana.md
+            - name: 应用完整性设置中的假设引用
+              href: ../desktop-assume-referential-integrity.md
+            - name: 使用 SAP BW 连接器访问 SAP BW 数据
+              href: ../desktop-sap-bw-connector.md
+            - name: 使用 OneDrive for Business 链接
+              href: ../desktop-use-onedrive-business-links.md
+            - name: 第三方服务：使用 Facebook 连接器
+              href: ../service-facebook-connector.md
+            - name: 第三方服务：使用 Google Analytics 连接器
+              href: ../service-google-analytics-connector.md
+            - name: 通过 Power BI Desktop 连接到 Project Online 数据
+              href: ../desktop-project-online-connect-to-data.md
+        - name: 从文件中获取数据
+          items:
+            - name: 从文件导入数据
+              href: ../service-get-data-from-files.md
+            - name: 从 Excel 变成出色的报表
+              href: ../service-from-excel-to-stunning-report.md
+            - name: 从 Excel 工作簿文件中获取数据
+              href: ../service-excel-workbook-files.md
+            - name: 从 Power BI Desktop 文件获取数据
+              href: ../service-desktop-files.md
+            - name: 编辑参数
+              href: ../service-parameters.md
+            - name: 从逗号分隔值 (.csv) 文件中获取数据
+              href: ../service-comma-separated-value-files.md
+            - name: Power BI 中的实时流式处理
+              href: ../service-real-time-streaming.md
+            - name: 从 Excel 发布到 Power BI
+              href: ../service-publish-from-excel.md
+            - name: 减小 Excel 工作簿的大小
+              href: ../reduce-the-size-of-an-excel-workbook.md
+        - name: 从共享数据集获取数据
+          items:
+            - name: 跨工作区使用数据集
+              href: ../service-datasets-across-workspaces.md
+            - name: 共享数据集（预览）
+              href: ../service-datasets-share.md
+            - name: 共享数据集的生成权限
+              href: ../service-datasets-build-permissions.md
+            - name: 基于数据集创建报表
+              href: ../service-datasets-discover-across-workspaces.md
+            - name: 基于数据集复制报表
+              href: ../service-datasets-copy-reports.md
+            - name: 控制数据集的使用
+              href: ../service-datasets-admin-across-workspaces.md
+        - name: 认可数据集
+          items:
+            - name: 提升数据集
+              href: ../service-datasets-promote.md
+            - name: 验证数据集
+              href: ../service-datasets-certify.md
+        - name: 从数据库获取数据
+          items:
+            - name: Azure 和 Power BI
+              href: ../service-azure-and-power-bi.md
+            - name: Power BI 和 Azure 流出量
+              href: ../service-azure-egress-power-bi.md
+            - name: 具有 DirectQuery 的 Azure SQL 数据仓库
+              href: ../service-azure-sql-data-warehouse-with-direct-connect.md
+            - name: 具有 DirectQuery 的 Azure SQL 数据库
+              href: ../service-azure-sql-database-with-direct-connect.md
+            - name: Power BI 中的 SQL Server Analysis Services 实时数据
+              href: ../sql-server-analysis-services-tabular-data.md
+        - name: 刷新数据
+          items:
+            - name: Power BI 中的数据刷新
+              href: ../refresh-data.md
+            - name: 配置计划刷新
+              href: ../refresh-scheduled-refresh.md
+            - name: 配置增量刷新
+              href: ../service-premium-incremental-refresh.md
+            - name: 刷新来自本地 Power BI Desktop 文件的数据库
+              href: ../refresh-desktop-file-local-drive.md
+            - name: 刷新来自云端 Power BI Desktop 文件的数据库
+              href: ../refresh-desktop-file-onedrive.md
+            - name: 刷新来自本地 Excel 工作簿的数据集
+              href: ../refresh-excel-file-local-drive.md
+            - name: 刷新来自云端 Excel 工作簿的数据集
+              href: ../refresh-excel-file-onedrive.md
+            - name: 刷新 OneDrive 上来自 .csv 文件的数据集
+              href: ../refresh-csv-file-onedrive.md
+            - name: 在 Power BI Premium 中查询缓存
+              href: ../power-bi-query-caching.md
+        - name: 模板应用
+          items:
+            - name: 模板应用概述
+              href: ../service-template-apps-overview.md
+            - name: 创建模板应用
+              href: ../service-template-apps-create.md
+            - name: 创建模板应用的提示
+              href: ../service-template-apps-tips.md
+            - name: 安装和分发模板应用
+              href: ../service-template-apps-install-distribute.md
+            - name: 更新、删除和提取 Power BI 模板应用
+              href: ../service-template-update-delete-extract.md
+            - name: 模板应用示例
+              href: ../service-template-apps-samples.md
+        - name: 疑难解答
+          items:
+            - name: 刷新方案疑难解答
+              href: ../refresh-troubleshooting-refresh-scenarios.md
+            - name: 排查刷新不支持的数据源
+              href: ../service-admin-troubleshoot-unsupported-data-source-for-refresh.md
+            - name: 排查 Azure SQL 数据库计划刷新方面的问题
+              href: ../service-admin-troubleshooting-scheduled-refresh-azure-sql-databases.md
+            - name: “在 Excel 中分析”疑难解答
+              href: ../desktop-troubleshooting-analyze-in-excel.md
+            - name: 错误：我们在你的 Excel 工作簿中找不到任何数据
+              href: ../service-admin-troubleshoot-excel-workbook-data.md
+            - name: 刷新失败时，如何刷新 Xero 内容包证书
+              href: ../service-refresh-xero-credentials.md
+        - name: 连接到服务
+          items:
+            - name: 通过应用连接到服务
+              href: ../service-connect-to-services.md
+            - name: GitHub
+              href: ../service-connect-to-github.md
+            - name: Microsoft 可持续性计算器
+              href: ../service-connect-to-microsoft-sustainability-calculator.md
+            - name: Office365Mon
+              href: ../service-connect-to-office365mon.md
+            - name: Project Online
+              href: ../service-connect-to-project-online.md
+            - name: QuickBooks Online
+              href: ../service-connect-to-quickbooks-online.md
+            - name: Salesforce
+              href: ../service-connect-to-salesforce.md
+            - name: Smartsheet
+              href: ../service-connect-to-smartsheet.md
+            - name: Xero
+              href: ../service-connect-to-xero.md
+            - name: Zendesk
+              href: ../service-connect-to-zendesk.md
+        - name: 网关
+          items:
+            - name: 本地数据网关 - 深入了解
+              href: ../service-gateway-onprem-indepth.md
+            - name: 本地数据网关(个人模型)
+              href: ../service-gateway-personal-mode.md
+            - name: 管理网关数据源
+              items:
+                - name: 管理数据源
+                  href: ../service-gateway-data-sources.md
+                - name: 管理企业数据源 - Analysis Services
+                  href: ../service-gateway-enterprise-manage-ssas.md
+                - name: 管理企业数据源 - SAP HANA
+                  href: ../service-gateway-enterprise-manage-sap.md
+                - name: 管理企业数据源 - SQL
+                  href: ../service-gateway-enterprise-manage-sql.md
+                - name: 管理数据源 - Oracle
+                  href: ../service-gateway-onprem-manage-oracle.md
+                - name: 管理企业数据源 - 导入/计划刷新
+                  href: ../service-gateway-enterprise-manage-scheduled-refresh.md
+                - name: 合并本地和云数据源
+                  href: ../service-gateway-mashup-on-premises-cloud.md
+            - name: 启用单一登录 (SSO)
+              items:
+                - name: SSO 概述
+                  href: ../service-gateway-sso-overview.md
+                - name: 基于 Kerberos 的 SSO
+                  items:
+                    - name: 配置基于 Kerberos 的 SSO
+                      href: ../service-gateway-sso-kerberos.md
+                    - name: 特定于数据源的配置
+                      items:
+                        - name: SAP HANA
+                          href: ../service-gateway-sso-kerberos-sap-hana.md
+                        - name: SAP BW - sapcrypto.dll（通用加密库）
+                          href: ../service-gateway-sso-kerberos-sap-bw-commoncryptolib.md
+                        - name: SAP BW - gx64krb5.dll
+                          href: ../service-gateway-sso-kerberos-sap-bw-gx64krb.md
+                - name: 基于 SAML 的 SSO
+                  href: ../service-gateway-sso-saml.md
+            - name: 对网关进行故障排除
+              href: ../service-gateway-onprem-tshoot.md
+            - name: 对网关进行故障排除（个人模式）
+              href: ../service-admin-troubleshooting-power-bi-personal-gateway.md
+            - name: 使用自定义连接器
+              href: ../service-gateway-custom-connectors.md
+        - name: 疑难解答
+          items:
+            - name: 导入 Access 和 Excel .xls 文件的疑难解答
+              href: ../desktop-access-database-errors.md
+            - name: 打开 Power BI Desktop 的疑难解答
+              href: ../desktop-error-launching-desktop.md
+            - name: 开发 DirectQuery 模型的疑难解答
+              href: ../desktop-directquery-troubleshoot.md
+    - name: 参考
+      items:
+        - name: Power BI Desktop 中的数据类型
+          href: ../desktop-data-types.md
+        - name: 连接器扩展性
+          href: ../desktop-connector-extensibility.md
+        - name: 受信任的第三方连接器
+          href: ../desktop-trusted-third-party-connectors.md

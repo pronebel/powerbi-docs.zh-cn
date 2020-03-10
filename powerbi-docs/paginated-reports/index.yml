@@ -1,0 +1,81 @@
+### YamlMime:Landing
+title: Power BI 分页报表文档
+summary: 无论以何种方式使用 Power BI，Power BI 分页报表文档都可以提供专业的信息和答案来满足你的需求。
+metadata:
+  title: Power BI 分页报表文档
+  description: 无论以何种方式使用 Power BI，Power BI 分页报表文档都可以提供专业的信息和答案来满足你的需求。
+  services: powerbi
+  ms.service: powerbi
+  ms.subservice: powerbi
+  ms.topic: landing-page
+  ms.collection: collection
+  author: maggiesMSFT
+  ms.author: maggies
+  ms.date: 02/25/2020
+  ms.openlocfilehash: 47a77e156c6b59440e0de500a3f2ab9dede01c85
+  ms.sourcegitcommit: ced8c9d6c365cab6f63fbe8367fb33e6d827cb97
+  ms.translationtype: HT
+  ms.contentlocale: zh-CN
+  ms.lasthandoff: 03/07/2020
+  ms.locfileid: "78924589"
+landingContent:
+- title: 关于 Power BI 分页报表
+  linkLists:
+  - linkListType: overview
+    links:
+    - text: 什么是 Power BI 分页报表？
+      url: paginated-reports-report-builder-power-bi.md
+    - text: Power BI 中的报表生成器
+      url: report-builder-power-bi.md
+- title: 开始使用
+  linkLists:
+  - linkListType: tutorial
+    links:
+    - text: 创建分页报表并进行上传
+      url: paginated-reports-quickstart-aw.md
+  - linkListType: concept
+    links:
+    - text: 了解报表设计视图
+      url: paginated-reports-report-design-view.md
+    - text: 规划分页报表
+      url: report-builder-planning-report.md
+- title: 连接到数据
+  linkLists:
+  - linkListType: concept
+    links:
+    - text: 报表生成器中的数据
+      url: report-builder-data.md
+    - text: 支持的数据源
+      url: paginated-reports-data-sources.md
+  - linkListType: how-to-guide
+    links:
+    - text: 创建嵌入的数据源
+      url: paginated-reports-embedded-data-source.md
+    - text: 创建嵌入的数据集
+      url: paginated-reports-create-embedded-dataset.md
+- title: 创建报表
+  linkLists:
+  - linkListType: concept
+    links:
+    - text: 表、矩阵和列表
+      url: report-builder-tables-matrices-lists.md
+  - linkListType: how-to-guide
+    links:
+    - text: 针对共享数据集创建报表
+      url: report-builder-shared-datasets.md
+    - text: 创建参数
+      url: paginated-reports-parameters.md
+- title: 优化和发布报表
+  linkLists:
+  - linkListType: concept
+    links:
+    - text: 表达式示例
+      url: report-builder-expression-examples.md
+    - text: 报告分页
+      url: paginated-reports-pagination.md
+  - linkListType: how-to-guide
+    links:
+    - text: 在 URL 中传递报表参数
+      url: report-builder-url-pass-parameters.md
+    - text: 发布分页报表
+      url: paginated-reports-save-to-power-bi-service.md

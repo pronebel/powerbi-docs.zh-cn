@@ -1,0 +1,67 @@
+### YamlMime:Landing
+title: Power BI 移动应用文档
+summary: 无论以何种方式使用 Power BI，Power BI 文档都可以提供专业的信息和答案来满足你的需求。
+metadata:
+  title: Power BI 移动应用文档
+  description: 无论以何种方式使用 Power BI，Power BI 文档都可以提供专业的信息和答案来满足你的需求。
+  services: powerbi
+  ms.service: powerbi
+  ms.subservice: powerbi
+  ms.topic: landing-page
+  ms.collection: collection
+  author: maggiesMSFT
+  ms.author: maggies
+  ms.date: 02/11/2020
+  ms.openlocfilehash: 96881ecb03132579643517679aaab3c87b7a977f
+  ms.sourcegitcommit: ced8c9d6c365cab6f63fbe8367fb33e6d827cb97
+  ms.translationtype: HT
+  ms.contentlocale: zh-CN
+  ms.lasthandoff: 03/07/2020
+  ms.locfileid: "78923899"
+landingContent:
+- title: 关于 Power BI 移动应用
+  linkLists:
+  - linkListType: overview
+    links:
+    - text: 什么是移动应用？
+      url: mobile-apps-for-mobile-devices.md
+    - text: 移动应用中有哪些新增功能？
+      url: mobile-whats-new-in-the-mobile-apps.md
+    - text: 移动应用主页
+      url: mobile-apps-home-page.md
+- title: 开始使用
+  linkLists:
+  - linkListType: get-started
+    links:
+    - text: Android 入门
+      url: mobile-android-app-get-started.md
+    - text: iOS 入门
+      url: mobile-iphone-app-get-started.md
+    - text: Windows 10 入门
+      url: mobile-windows-10-phone-app-get-started.md
+  - linkListType: quickstart
+    links:
+    - text: 了解仪表板和报表
+      url: mobile-apps-quickstart-view-dashboard-report.md
+- title: 浏览
+  linkLists:
+  - linkListType: tutorial
+    links:
+    - text: 询问有关数据的问题
+      url: tutorial-mobile-apps-ios-qna.md
+  - linkListType: how-to-guide
+    links:
+    - text: 脱机查看数据
+      url: mobile-apps-offline-data.md
+    - text: 共享仪表板或报表
+      url: mobile-share-dashboard-from-the-mobile-apps.md
+    - text: 设置数据警报
+      url: mobile-set-data-alerts-in-the-mobile-apps.md
+- title: 本地报表
+  linkLists:
+  - linkListType: how-to-guide
+    links:
+    - text: 查看本地报表和 KPI
+      url: mobile-app-ssrs-kpis-mobile-on-premises-reports.md
+    - text: 通过 OAuth 连接到本地报表
+      url: mobile-oauth-ssrs.md

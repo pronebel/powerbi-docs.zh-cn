@@ -1,9 +1,9 @@
 ### YamlMime:Landing
-title: Power BI 管理员文档
-summary: 无论你想要如何使用 Power BI，Power BI 管理员文档都可以为你提供专业的信息和答案，满足你的需求。
+title: Power BI 管理员和企业文档
+summary: 无论以何种方式使用 Power BI，Power BI 管理员和企业文档都可提供专家信息和答案来满足你的需求。
 metadata:
-  title: Power BI 管理员文档
-  description: 无论你想要如何使用 Power BI，Power BI 管理员文档都可以为你提供专业的信息和答案，满足你的需求。
+  title: Power BI 管理员和企业文档
+  description: 无论以何种方式使用 Power BI，Power BI 管理员和企业文档都可提供专家信息和答案来满足你的需求。
   services: powerbi
   ms.service: powerbi
   ms.subservice: powerbi-service
@@ -11,15 +11,15 @@ metadata:
   ms.collection: collection
   author: maggiesMSFT
   ms.author: maggies
-  ms.date: 10/25/2019
-  ms.openlocfilehash: 533b8dc4ccc800e3120f3a01c6069e224c2df27e
-  ms.sourcegitcommit: ee0ea65de52b38e5976d6eb15516b0b240fa40f9
+  ms.date: 03/03/2020
+  ms.openlocfilehash: b419ba38a28d3f4a05ea7c6db2b595af86df288d
+  ms.sourcegitcommit: ced8c9d6c365cab6f63fbe8367fb33e6d827cb97
   ms.translationtype: HT
   ms.contentlocale: zh-CN
-  ms.lasthandoff: 10/26/2019
-  ms.locfileid: "72959503"
+  ms.lasthandoff: 03/07/2020
+  ms.locfileid: "78919452"
 landingContent:
-- title: 关于面向管理员的 Power BI
+- title: 面向管理员和企业的 Power BI
   linkLists:
   - linkListType: overview
     links:
@@ -51,9 +51,23 @@ landingContent:
     links:
     - text: 我的租户位于何处？
       url: ../service-admin-where-is-my-tenant-located.md
-    - text: 找到已登录的用户
+    - text: 查找已登录的用户
       url: ../service-admin-access-usage.md
-    - text: Auditing Power BI
+    - text: 审核 Power BI
+      url: ../service-admin-auditing.md
+    - text: 跟踪服务运行状况
+      url: ../service-admin-health.md
+    - text: 关闭 Power BI 帐户
+      url: ../service-admin-closing-your-account.md
+- title: Power BI Premium
+  linkLists:
+  - linkListType: how-to-guide
+    links:
+    - text: 我的租户位于何处？
+      url: ../service-admin-where-is-my-tenant-located.md
+    - text: 查找已登录的用户
+      url: ../service-admin-access-usage.md
+    - text: 审核 Power BI
       url: ../service-admin-auditing.md
     - text: 跟踪服务运行状况
       url: ../service-admin-health.md

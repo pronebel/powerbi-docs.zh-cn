@@ -1,0 +1,67 @@
+### YamlMime:Landing
+title: Power BI 入门文档
+summary: 无论以何种方式使用 Power BI，Power BI 文档都可以提供专业的信息和答案来满足你的需求。
+metadata:
+  title: Power BI 入门文档
+  description: 无论以何种方式使用 Power BI，Power BI 文档都可以提供专业的信息和答案来满足你的需求。
+  services: powerbi
+  ms.service: powerbi
+  ms.subservice: powerbi
+  ms.topic: landing-page
+  ms.collection: collection
+  author: maggiesMSFT
+  ms.author: maggies
+  ms.date: 03/05/2020
+  ms.openlocfilehash: ec79ce7ca7d7e50f5a3a806ad14de50b786483f5
+  ms.sourcegitcommit: ced8c9d6c365cab6f63fbe8367fb33e6d827cb97
+  ms.translationtype: HT
+  ms.contentlocale: zh-CN
+  ms.lasthandoff: 03/07/2020
+  ms.locfileid: "78924359"
+landingContent:
+- title: 什么是 Power BI？
+  linkLists:
+  - linkListType: overview
+    links:
+    - text: 什么是 Power BI？
+      url: ../power-bi-overview.md
+    - text: 什么是 Power BI Desktop？
+      url: ../desktop-what-is-desktop.md
+    - text: 什么是 Power BI 服务？
+      url: ../power-bi-service-overview.md
+    - text: 比较 Power BI Desktop 和服务
+      url: ../service-service-vs-desktop.md
+- title: 新功能
+  linkLists:
+  - linkListType: concept
+    links:
+    - text: Power BI Desktop 中的新增功能是什么？
+      url: ../desktop-latest-update.md
+    - text: 服务中有哪些新增功能？
+      url: ../service-whats-new.md
+- title: 通过“学习”部分实现入门
+  linkLists:
+  - linkListType: learn
+    links:
+    - text: 创建和使用分析报表
+      url: https://docs.microsoft.com/learn/paths/create-use-analytics-reports-power-bi/
+    - text: 在 Power BI Desktop 中获取数据
+      url: https://docs.microsoft.com/power-bi/guided-learning/gettingdata?tutorial-step=1
+- title: 许可
+  linkLists:
+  - linkListType: concept
+    links:
+    - text: 注册 Power BI
+      url: ../service-self-service-signup-for-power-bi.md
+    - text: 按许可证类型列出的功能
+      url: ../service-features-license-type.md
+- title: 资源
+  linkLists:
+  - linkListType: reference
+    links:
+    - text: Power BI 视频
+      url: ../videos.md
+    - text: Power BI Desktop 视频
+      url: ../desktop-videos.md
+    - text: 网络研讨会
+      url: ../webinars.md

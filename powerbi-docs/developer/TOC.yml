@@ -93,12 +93,18 @@
               href: visuals/localization.md
             - name: Power BI 视觉对象实用工具
               items:
+                - name: 添加外部库
+                  href: visuals/adding-external-libraries.md
                 - name: 交互 utils
                   href: visuals/utils-interactivity-selections.md
                 - name: 格式化 utils
                   href: visuals/utils-formatting.md
+                - name: 数据视图 utils
+                  href: visuals/utils-dataview.md
                 - name: 图表 utils
                   href: visuals/utils-chart.md
+                - name: 颜色 utils
+                  href: visuals/utils-color.md
                 - name: SVG utils
                   href: visuals/utils-svg.md
                 - name: 类型 utils
