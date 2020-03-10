@@ -1,0 +1,121 @@
+### YamlMime:Landing
+title: 在 Power BI 中创建报表和仪表板 - 文档
+summary: 无论以何种方式使用 Power BI，Power BI 文档都可以提供专业的信息和答案来满足你的需求。
+metadata:
+  title: 在 Power BI 中创建报表和仪表板 - 文档
+  description: 无论以何种方式使用 Power BI，Power BI 文档都可以提供专业的信息和答案来满足你的需求。
+  services: powerbi
+  ms.service: powerbi
+  ms.subservice: powerbi
+  ms.topic: landing-page
+  ms.collection: collection
+  author: maggiesMSFT
+  ms.author: maggies
+  ms.date: 02/25/2020
+  ms.openlocfilehash: 592a7bff1f511158de929ce0a225f26558a1997b
+  ms.sourcegitcommit: ced8c9d6c365cab6f63fbe8367fb33e6d827cb97
+  ms.translationtype: HT
+  ms.contentlocale: zh-CN
+  ms.lasthandoff: 03/07/2020
+  ms.locfileid: "78924175"
+landingContent:
+- title: 开始使用
+  linkLists:
+  - linkListType: get-started
+    links:
+    - text: 使用更新的功能区
+      url: ../desktop-ribbon.md
+    - text: 辅助功能概述
+      url: ../desktop-accessibility-overview.md
+    - text: 获取示例数据
+      url: ../sample-datasets.md
+  - linkListType: tutorial
+    links:
+    - text: 导入和打开示例包
+      url: ../sample-tutorial-connect-to-the-samples.md
+  - linkListType: concept
+    links:
+    - text: “报表”视图
+      url: ../desktop-report-view.md
+- title: 可视化效果
+  linkLists:
+  - linkListType: overview
+    links:
+    - text: 可视化效果概述
+      url: ../visuals/power-bi-report-visualizations.md
+    - text: 可视化效果类型
+      url: ../visuals/power-bi-visualization-types-for-reports-and-q-and-a.md
+  - linkListType: how-to-guide
+    links:
+    - text: 适用于地图的提示和技巧
+      url: ../visuals/power-bi-map-tips-and-tricks.md
+    - text: 从视觉对象导出数据
+      url: ../visuals/power-bi-visualization-export-data.md
+    - text: 切片器
+      url: ../visuals/power-bi-visualization-slicers.md
+- title: 设计报表
+  linkLists:
+  - linkListType: concept
+    links:
+    - text: 报表主题
+      url: ../desktop-report-themes.md
+    - text: 文本框和形状
+      url: ../power-bi-reports-add-text-and-shapes.md
+  - linkListType: how-to-guide
+    links:
+    - text: 条件表格式设置
+      url: ../desktop-conditional-table-formatting.md
+    - text: 使用分组和分箱
+      url: ../desktop-grouping-and-binning.md
+    - text: 向报表添加书签
+      url: ../desktop-bookmarks.md
+- title: 设计报表交互
+  linkLists:
+  - linkListType: concept
+    links:
+    - text: Power BI Desktop 中的报表视图
+      url: ../desktop-report-view.md
+  - linkListType: how-to-guide
+    links:
+    - text: 通过问答浏览数据
+      url: ../power-bi-tutorial-q-and-a.md
+    - text: 在报表中使用钻取
+      url: ../desktop-drillthrough.md
+    - text: 向报表添加书签
+      url: ../desktop-bookmarks.md
+    - text: 向报表添加筛选器
+      url: ../power-bi-report-filter.md
+- title: Power BI 分页报表
+  linkLists:
+  - linkListType: overview
+    links:
+    - text: 什么是 Power BI 分页报表？
+      url: ../paginated-reports/paginated-reports-report-builder-power-bi.md
+    - text: Power BI 中的报表生成器
+      url: ../paginated-reports/report-builder-power-bi.md
+  - linkListType: concept
+    links:
+    - text: 表达式示例
+      url: ../paginated-reports/report-builder-expression-examples.md
+    - text: 表、矩阵和列表
+      url: ../paginated-reports/report-builder-tables-matrices-lists.md
+  - linkListType: how-to-guide
+    links:
+    - text: 针对共享数据集创建报表
+      url: ../paginated-reports/report-builder-shared-datasets.md
+    - text: 创建参数
+      url: ../paginated-reports/paginated-reports-parameters.md
+- title: 仪表板
+  linkLists:
+  - linkListType: concept
+    links:
+    - text: 仪表板简介
+      url: ../service-dashboards.md
+  - linkListType: how-to-guide
+    links:
+    - text: 创建仪表板
+      url: ../service-dashboard-create.md
+    - text: 将磁贴固定到仪表板
+      url: ../service-share-dashboards.md
+    - text: 向仪表板添加图像或视频
+      url: ../service-dashboard-add-widget.md

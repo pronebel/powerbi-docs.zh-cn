@@ -1,4 +1,4 @@
-- name: Power BI 管理员文档
+- name: Power BI 管理员和企业
   href: index.yml
   expanded: true
   items:
@@ -9,8 +9,8 @@
           href: ../service-admin-administering-power-bi-in-your-organization.md
         - name: 我的租户位于何处？
           href: ../service-admin-where-is-my-tenant-located.md
-        - name: 迁移到 Go Local 德国区域
-          href: service-admin-migrate-data-germany.md
+        - name: 什么是 Power BI Premium？
+          href: ../service-premium-what-is.md
     - name: 概念
       expanded: true
       items:
@@ -20,6 +20,20 @@
           href: ../service-admin-faq.md
         - name: 高可用性和故障转移的常见问题解答
           href: ../service-admin-failover.md
+        - name: 迁移到 Go Local 德国区域
+          href: service-admin-migrate-data-germany.md
+        - name: 针对德国云客户的常见问题解答
+          href: ../service-govde-faq.md
+        - name: Power BI Premium
+          items:
+            - name: 管理高级容量
+              href: ../service-premium-capacity-manage.md
+            - name: 优化高级容量
+              href: ../service-premium-capacity-optimize.md
+            - name: 高级容量方案
+              href: ../service-premium-capacity-scenarios.md
+            - name: Power BI Premium 常见问题解答
+              href: ../service-premium-faq.md
     - name: 操作方法
       items:
         - name: 授权和注册
@@ -28,7 +42,11 @@
               href: ../service-admin-licensing-organization.md
             - name: 购买 Power BI Pro
               href: ../service-admin-purchasing-power-bi-pro.md
-            - name: 使用 Microsoft 365 试用版注册
+            - name: Power BI for US Government
+              href: ../service-govus-overview.md
+            - name: 注册美国政府组织
+              href: ../service-govus-signup.md
+            - name: 注册 Microsoft 365 试用版
               href: ../service-admin-signing-up-for-power-bi-with-a-new-office-365-trial.md
             - name: 使用 Microsoft 365 合作伙伴版添加 Power BI
               href: ../service-admin-syndication-partner.md
@@ -44,6 +62,8 @@
           href: ../service-admin-closing-your-account.md
         - name: 使用 Azure AD B2B
           href: ../service-admin-azure-ad-b2b.md
+        - name: 管理 Power BI Desktop 登录窗体
+          href: ../desktop-admin-sign-in-form.md
         - name: 数据保护
           items:
             - name: 数据保护概述
@@ -58,6 +78,30 @@
           href: ../service-admin-rls.md
         - name: 使用 Intune 配置移动应用
           href: ../service-admin-mobile-intune.md
+        - name: Power BI Premium
+          items:
+            - name: 购买 Power BI Premium
+              href: ../service-admin-premium-purchase.md
+            - name: 配置和管理容量
+              href: ../service-admin-premium-manage.md
+            - name: 配置工作负载
+              href: ../service-admin-premium-workloads.md
+            - name: 使用应用监视容量
+              href: ../service-admin-premium-monitor-capacity.md
+            - name: 监视 Premium 工作负载指标
+              href: ../service-premium-metrics-app.md
+            - name: 在管理门户中监视容量
+              href: ../service-admin-premium-monitor-portal.md
+            - name: 配置大型模型（预览）
+              href: ../service-premium-large-models.md
+            - name: 配置多地理位置
+              href: ../service-admin-premium-multi-geo.md
+            - name: 引入你自己的加密密钥
+              href: ../service-encryption-byok.md
+            - name: 重新开始高级容量
+              href: ../service-admin-premium-restart.md
+            - name: 使用客户端应用程序和工具连接到数据集
+              href: ../service-premium-connect-tools.md
     - name: 参考
       items:
         - name: PowerShell、REST API 和 .NET SDK
@@ -73,3 +117,23 @@
           href: ../service-admin-governance.md
         - name: Power BI 安全性
           href: ../service-admin-power-bi-security.md
+        - name: 隐私级别
+          href: ../desktop-privacy-levels.md
+    - name: 疑难解答
+      items:
+        - name: 无法登录？
+          href: ../power-bi-cannot-sign-in.md
+        - name: Power BI 支持选项
+          href: ../service-support-options.md
+        - name: 服务中断通知
+          href: ../service-interruption-notifications.md
+        - name: 忘记了 Power BI 的密码？
+          href: ../service-admin-forgot-your-password.md
+        - name: 捕获 Power BI 的其他诊断信息
+          href: ../service-admin-capturing-additional-diagnostic-information-for-power-bi.md
+        - name: 用于 Power BI 的备用电子邮件地址
+          href: ../service-admin-alternate-email-address-for-power-bi.md
+        - name: 如何将相同的帐户登录名用于 Power BI 和 Azure
+          href: ../service-admin-how-to-use-the-same-account-as-azure.md
+        - name: Office 365 专用 - 已知问题
+          href: ../service-admin-office-365-dedicated-known-issues.md
