@@ -1,4 +1,5 @@
-- name: Power BI 报表服务器
+- name: Power BI 报表服务器文档
+  href: index.yml
   expanded: true
   items:
     - name: 概述
