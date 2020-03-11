@@ -9,12 +9,12 @@ ms.subservice: powerbi-gateways
 ms.topic: conceptual
 ms.date: 10/10/2019
 LocalizationGroup: Gateways
-ms.openlocfilehash: b5ef7e99edbf862891811047ea5f1f961aaea348
-ms.sourcegitcommit: b22a9a43f61ed7fc0ced1924eec71b2534ac63f3
+ms.openlocfilehash: 5eab21418eb1028d94ba2e50ffd6e736e6226018
+ms.sourcegitcommit: d65da4738f011beec8f4423085cbd483511cdfb0
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "77527582"
+ms.lasthandoff: 03/03/2020
+ms.locfileid: "78237905"
 ---
 # <a name="overview-of-single-sign-on-sso-for-gateways-in-power-bi"></a>Power BI 中网关的单一登录 (SSO) 概述
 
@@ -25,8 +25,8 @@ Power BI 支持以下数据源：
 * SQL Server (Kerberos)
 * SAP HANA（Kerberos 和 SAML）
 * SAP BW 应用程序服务器 (Kerberos)
-* SAP BW 消息服务器 (Kerberos) - 公共预览版
-* Oracle (Kerberos) - 公共预览版
+* SAP BW 消息服务器 (Kerberos) 
+* Oracle (Kerberos) 
 * Teradata (Kerberos)
 * Spark (Kerberos)
 * Impala (Kerberos)
@@ -45,11 +45,11 @@ Power BI 支持以下数据源：
 
 以下是有关每个步骤的其他详细信息：
 
-1. 对于每个查询，在向配置的网关发送查询请求时，Power BI 服务包括用户主体名称 (UPN)，即当前登录到 Power BI 服务的用户的完全限定用户名。
+1. 对于每个查询，在向配置的网关发送查询请求时，Power BI 服务包括用户主体名称 (UPN)，即当前登录到 Power BI 服务的用户的完全限定用户名  。
 
 2. 网关必须将 Azure Active Directory UPN 映射到本地 Active Directory 标识：
 
-   a. 如果已配置 Azure AD DirSync（也称为“Azure AD Connect”），则会自动在网关中进行映射。
+   a. 如果已配置 Azure AD DirSync（也称为“Azure AD Connect”），则会自动在网关中进行映射  。
 
    b.  或者，网关可以通过在本地 Active Directory 域进行查找的方式来查找 Azure AD UPN，并将其映射到本地 AD 用户。
 

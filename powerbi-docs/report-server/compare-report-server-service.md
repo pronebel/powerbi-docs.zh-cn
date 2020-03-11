@@ -8,13 +8,13 @@ ms.topic: overview
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.custom: mvc
-ms.date: 02/13/2020
-ms.openlocfilehash: c760450319f5ca32856520bce9c9f9b67a8616d6
-ms.sourcegitcommit: d6a48e6f6e3449820b5ca03638b11c55f4e9319c
+ms.date: 03/04/2020
+ms.openlocfilehash: a48f9c5938c93376cc5dcdbe3491ee2a7e6813c0
+ms.sourcegitcommit: b59ec11a4a0a3d5be2e4d91548d637d31b3491f8
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/18/2020
-ms.locfileid: "77427751"
+ms.lasthandoff: 03/05/2020
+ms.locfileid: "78290650"
 ---
 # <a name="comparing-power-bi-report-server-and-the-power-bi-service"></a>比较 Power BI 报表服务器和 Power BI 服务
 
@@ -24,11 +24,11 @@ Power BI 报表服务器和 Power BI 服务有许多相似之处和一些关键�
 
 | 功能 | Power BI 报表服务器 | Power BI 服务 | 备注 |
 |---------|---------|---------|---------|
-| 部署 | 本地云或托管云 | 云 | 如果通过 Power BI Premium 获得许可，则可以在 Azure VM（托管云）中部署 Power BI 报表服务器 |
+| 部署 | 本地云或托管云 | 云 | 如果通过 Power BI Premium 和享受软件保障服务的 SQL Server Enterprise 获得许可，则可以在 Azure VM（托管云）中部署 Power BI 报表服务器|
 | 源数据 | 云和/或本地 | 云和/或本地 |  |
 | 许可证 | 带软件保障 (SA) 的 Power BI Premium 或 SQL Server EE | Power BI Pro 和/或 Power BI Premium | |  
 | 生命周期 | 现代生命周期策略 | 完全托管的服务 |  |
-| 发行周期 | 一年三次（1 月、5 月、9 月） | 每个月一次 | Power BI 服务中首先提供最新功能和修补程序。 Power BI 报表服务器在接下来的几个版本中提供了最核心功能；某些功能仅适用于 Power BI 服务。 |
+| 发行周期 | 一年三次（1 月、5 月、9 月） | 每个月一次 | Power BI 服务中首先提供最新功能和修补程序。 Power BI Desktop 各版本中针对 Power BI 服务的功能汇总也针对 Power BI 报表服务器；其他大多数功能仅针对 Power BI 服务。 |
 | 在 Power BI Desktop 中创建 Power BI 报表 | 是 | 是 |  |
 | 在浏览器中创建 Power BI 报表 | 否 | 是 |  |
 | 托管并连接到 Power BI 共享数据集 | 否 | 是 | [跨工作区使用数据集简介](../service-datasets-across-workspaces.md) |

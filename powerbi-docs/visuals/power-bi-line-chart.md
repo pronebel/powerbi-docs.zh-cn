@@ -26,7 +26,7 @@ ms.locfileid: "73871083"
 
 1. 从空白报表页入手。 如果使用的是 Power BI 服务，请务必在[编辑视图](../service-interact-with-a-report-in-editing-view.md)中打开报表。
 
-2. 在“字段”窗格中，依次选择“销售事实”  \>“总单位数”  ，再依次选择“日期”   > “月份”  。  此时，Power BI 在报表画布上创建柱形图。
+2. 在“字段”窗格中，依次选择“SalesFact”  \>“Total units”  ，再依次选择“Date”   > “Month”  。  此时，Power BI 在报表画布上创建柱形图。
 
     ![在“字段”窗格中进行选择](media/power-bi-line-charts/power-bi-step1.png)
 
@@ -35,7 +35,7 @@ ms.locfileid: "73871083"
     ![转换为折线图](media/power-bi-line-charts/power-bi-convert-to-line.png)
    
 
-4. 将折线图筛选为仅显示 2012 年 - 2014 年的数据。 如果“筛选器”窗格处于折叠状态，立即展开它。 在“字段”窗格中，依次选择“日期”  \>“年份”  ，并将它拖到“筛选器”窗格中。 将它放在“此视觉对象中的筛选器”  标题下。 
+4. 将折线图筛选为仅显示 2012 年 - 2014 年的数据。 如果“筛选器”窗格处于折叠状态，立即展开它。 在“字段”窗格中，依次选择“Date”  \>“Year”  ，并将它拖到“筛选器”窗格中。 将它放在“此视觉对象中的筛选器”  标题下。 
      
     ![“字段”窗格旁边的折线图](media/power-bi-line-charts/power-bi-year-filter.png)
 

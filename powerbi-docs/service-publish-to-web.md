@@ -9,12 +9,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 02/25/2020
 LocalizationGroup: Share your work
-ms.openlocfilehash: 34754f413cd6bb8e520ff8d7f2c9d4a28da73ef5
-ms.sourcegitcommit: 032a77f2367ca937f45e7e751997d7b7d0e89ee2
+ms.openlocfilehash: 99fd17e8491613affbfe78e7cd9a2f268f588975
+ms.sourcegitcommit: d65da4738f011beec8f4423085cbd483511cdfb0
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/26/2020
-ms.locfileid: "77609921"
+ms.lasthandoff: 03/03/2020
+ms.locfileid: "78237974"
 ---
 # <a name="publish-to-web-from-power-bi"></a>从 Power BI 发布到 Web
 
@@ -134,6 +134,7 @@ ms.locfileid: "77609921"
 
 - 使用行级别安全性的报表。
 - 使用任何实时连接数据源的报表，包括在本地托管的 Analysis Services 表格、Analysis Services Multidimensional 以及 Azure Analysis Services。
+- 使用[共享数据集](service-datasets-across-workspaces.md)的报表，共享数据集与报表存储在不同的工作区中。
 - 直接或通过组织内容包共享的报表。
 - 你不是编辑成员的组中的报表。
 - “发布到 Web”报表中当前不支持“R”视觉对象  。

@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
-ms.date: 02/25/2020
+ms.date: 03/03/2020
 LocalizationGroup: Premium
-ms.openlocfilehash: 4f256d9b0cbecf76ff002cc0214155b8b36014ee
-ms.sourcegitcommit: 032a77f2367ca937f45e7e751997d7b7d0e89ee2
+ms.openlocfilehash: 2c984abaec40028fb01affa8ff7bf0bf87cdd616
+ms.sourcegitcommit: d55d3089fcb3e78930326975957c9940becf2e76
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/26/2020
-ms.locfileid: "77609904"
+ms.lasthandoff: 03/04/2020
+ms.locfileid: "78260867"
 ---
 # <a name="large-models-in-power-bi-premium-preview"></a>Power BI Premium 中的大型模型（预览）
 
@@ -123,7 +123,7 @@ SELECT * FROM SYSTEMRESTRICTSCHEMA
 
 ## <a name="availability-in-regions"></a>区域可用性
 
-并非在提供 Power BI 的所有区域都提供大型模型。 Power BI 中的大型模型仅在支持 [Azure 高级文件存储](https://docs.microsoft.com/azure/storage/files/storage-files-planning#file-share-performance-tiers)的 Azure 区域中提供。
+Power BI 中的大型模型只在支持 [Azure 高级文件存储](https://docs.microsoft.com/azure/storage/files/storage-files-planning#file-share-performance-tiers)的特定 Azure 区域中可用。
 
 以下列表提供了可以使用 Power BI 中的大型模型的区域。 未在以下列表中列出的区域不支持使用大型模型：
 

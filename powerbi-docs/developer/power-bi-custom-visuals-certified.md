@@ -8,13 +8,13 @@ featuredvideoid: ''
 ms.service: powerbi
 ms.topic: conceptual
 ms.subservice: powerbi-custom-visuals
-ms.date: 02/17/2020
-ms.openlocfilehash: 52a99380f8e1afc39ddfc59a401418e61fe6ad58
-ms.sourcegitcommit: ec4d2d0f52d737e8e0583f6a7b16e6fd87382510
+ms.date: 03/01/2020
+ms.openlocfilehash: 8aea9041665de69b2c5be954dc8f13a6402a06e0
+ms.sourcegitcommit: d55d3089fcb3e78930326975957c9940becf2e76
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/28/2020
-ms.locfileid: "77782410"
+ms.lasthandoff: 03/04/2020
+ms.locfileid: "78260752"
 ---
 # <a name="get-a-power-bi-visual-certified"></a>获取 Power BI 视觉对象认证
 
@@ -56,10 +56,14 @@ Power BI 视觉对象必须由卖方仪表板或合作伙伴中心批准。 建�
 使用最新版本的 API 编写 Power BI 视觉对象。
 
 存储库必须包含以下文件：
-* **.gitignore** - 将 `node_modules` 添加到此文件。 该代码不能包含 node_modules  文件夹。
+* **.gitignore** - 将 `node_modules`、`.tmp` 和 `dist` 添加到此文件。 代码不得包含 node_modules  、.tmp  或 dist  文件夹。
 * **capabilities.json** - 如果你提交的是Power BI 视觉对象的较新版本，并对该文件中的属性进行了更改，请验证它们不会中断现有用户的报表。
-* **pbiviz.json**
-* **package.json**
+* **pbiviz.json** 
+* **package.json**： 视觉对象必须已安装以下包：
+   * ["tslint"](https://www.npmjs.com/package/tslint)：“5.18.0”或更高版本
+   * ["typescript"](https://www.npmjs.com/package/typescript)：“3.0.0”或更高版本
+   * ["tslint-microsoftcontrib"](https://www.npmjs.com/package/tslint-microsoft-contrib)：“6.2.0”或更高版本
+   * 文件必须包含运行 Linter 的命令："lint": "tslint -c tslint.json -p tsconfig.json"
 * **package-lock.json**
 * **tsconfig.json**
 
@@ -70,7 +74,7 @@ Power BI 视觉对象必须由卖方仪表板或合作伙伴中心批准。 建�
 * `npm install`
 * `pbiviz package`
 * `npm audit` - 不得返回任何具有高级别或中等级别的警告。
-* [Microsoft 提供的 TSlint](https://www.npmjs.com/package/tslint-microsoft-contrib)，没有重写的配置。 此命令不得返回任何 Lint 错误。
+* [Microsoft 提供的 TSlint](https://www.npmjs.com/package/tslint-microsoft-contrib)，包含[所需的配置](https://github.com/microsoft/PowerBI-visuals-sampleBarChart/blob/master/tslint.json)。 此命令不得返回任何 Lint 错误。
 
 ### <a name="compiling-requirements"></a>编译要求
 

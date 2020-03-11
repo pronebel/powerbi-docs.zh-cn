@@ -44,7 +44,7 @@ ms.locfileid: "73879228"
 
 >[!NOTE]
 >
->若要禁用设备搜索和 Siri 建议，请转到“设备设置”>“Power BI 设置”>“Siri 和搜索”，然后禁用“Siri 和建议”设置     。
+>若要禁用设备搜索和 Siri 建议，请依次转到“设备设置”  >“Power BI 设置”  >“Siri 和搜索”  ，然后禁用“Siri 和建议”  设置。
 >
 
 ## <a name="next-steps"></a>后续步骤

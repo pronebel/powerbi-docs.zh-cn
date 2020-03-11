@@ -7,13 +7,13 @@ ms.reviewer: maggies
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
-ms.date: 01/27/2020
-ms.openlocfilehash: 993d83e15eafa0e40938eee13cbeabec75389f47
-ms.sourcegitcommit: 0cc594ebb78a6d0e88784673ed09f8aefd10c7a7
+ms.date: 03/02/2020
+ms.openlocfilehash: 0a8cf16ddf7fe9e091599f1790a37a83b9923240
+ms.sourcegitcommit: d65da4738f011beec8f4423085cbd483511cdfb0
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "76819528"
+ms.lasthandoff: 03/03/2020
+ms.locfileid: "78237951"
 ---
 # <a name="change-log-for-power-bi-report-server"></a>Power BI 报表服务器的更改日志
 
@@ -24,6 +24,14 @@ ms.locfileid: "76819528"
 
 ## <a name="january-2020"></a>2020 年 1 月
 - **Power BI 报表服务器**
+    - 版本：1.6.7364.4075（内部版本 15.0.1102.777），发布日期：2020 年 3 月 2 日 
+         - Bug 修复
+           -  修复了以下问题：对于某些数据源，Power BI 报表无法上传
+           -  修复了门户中的 Power BI 报表服务器桌面链接下载位置
+           -  修复了用于 Excel 呈现的 DynamicImageDPI
+           -  修复了以下问题：在某些多用户方案中，Oracle 连接使用不正确的线程区域性
+           -  修复了以下问题：CustomHeaders 默认值导致报表嵌入失败
+           -  修复了以下问题：在某些情况下，生成的 SQL 参数名称不正确
     - *版本：1.6.7327.3007（内部版本 15.0.1102.759），发布日期：2020 年 1 月 23 日*
          - 功能
             -  从 Power BI 报表导出到 Excel。
@@ -166,7 +174,7 @@ ms.locfileid: "76819528"
             - 在 Power BI 移动应用中，视觉对象空闲时会显示问题
 
 - Power BI Desktop（已针对 Power BI 报表服务器进行优化） 
-    - *版本：2.65.5313.1562（2019 年 1 月），发布日期：* 2019 年 1 月 30 日
+    - *版本：2.65.5313.1562（2019 年 1 月），发布日期：2019 年 1 月 30 日*
         - 卸载 Power BI 报表服务器后快捷方式和固定图标仍保留
         - 修复了将 Power BI 报表服务器固定到开始菜单的问题 - 在黑色图标上显示黑色文本
 
@@ -201,7 +209,7 @@ ms.locfileid: "76819528"
         - Bug 修复
             - 针对错误遥测日志记录的修复
             
-## <a name="march-2018"></a>2018 年 3月
+## <a name="march-2018"></a>2018 年 3 月
 
 - **Power BI 报表服务器**
     - *版本 1.2.6690.34729（内部版本 15.0.2.402），发布日期：2018 年 4 月 27 日*
@@ -331,4 +339,4 @@ ms.locfileid: "76819528"
 [下载报表生成器](https://www.microsoft.com/download/details.aspx?id=53613)  
 [下载 SQL Server Data Tools (SSDT)](https://go.microsoft.com/fwlink/?LinkID=616714)
 
-更多疑问？ [尝试咨询 Power BI 社区](https://community.powerbi.com/)
+更多问题？ [尝试咨询 Power BI 社区](https://community.powerbi.com/)

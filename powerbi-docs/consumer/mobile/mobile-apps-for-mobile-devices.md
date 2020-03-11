@@ -25,7 +25,7 @@ Power BI 提供一组适用于 iOS、Android 和 Windows 10 移动设备的移�
 
 ### <a name="get-the-app-from-the-application-store"></a>从应用程序商店获取应用 
 
-[![在 App Store 获取 Power BI](./media/mobile-apps-for-mobile-devices/mobile-apps-app-store.png)](https://go.microsoft.com/fwlink/?LinkId=526218&clcid=0x409) [![在 Google Play 上获取 Power BI](./media/mobile-apps-for-mobile-devices/mobile-apps-google-play.png)](https://go.microsoft.com/fwlink/?LinkId=544867&clcid=0x409) [![在 Windows 应用商店上获取 Power BI](./media/mobile-apps-for-mobile-devices/mobile-apps-windows-store.png)](https://go.microsoft.com/fwlink/?LinkId=526478&clcid=0x409)
+[![在 App Store 中获取 Power BI](./media/mobile-apps-for-mobile-devices/mobile-apps-app-store.png)](https://go.microsoft.com/fwlink/?LinkId=526218&clcid=0x409)[![在 Google Play 中获取 Power BI](./media/mobile-apps-for-mobile-devices/mobile-apps-google-play.png)](https://go.microsoft.com/fwlink/?LinkId=544867&clcid=0x409)[![在 Windows 应用商店中获取 Power BI](./media/mobile-apps-for-mobile-devices/mobile-apps-windows-store.png)](https://go.microsoft.com/fwlink/?LinkId=526478&clcid=0x409)
 
 ## <a name="mobile-apps-for-different-devices"></a>适用于不同设备的移动应用
 

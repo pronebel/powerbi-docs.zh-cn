@@ -45,7 +45,7 @@ ms.locfileid: "73879361"
 浏览示例以与 KPI 和移动报表进行交互。
 
 ## <a name="connect-to-a-reporting-services-report-server"></a>连接到 Reporting Services 报表服务器
-1. 在导航窗格底部，点击“设置”![设置图标](./././media/mobile-app-windows-10-ssrs-kpis-mobile-reports/power-bi-settings-icon.png) 
+1. 在导航窗格底部，点击“设置”![“设置”图标](./././media/mobile-app-windows-10-ssrs-kpis-mobile-reports/power-bi-settings-icon.png) 
 2. 点击“连接到服务器”  。
 3. 填写服务器地址以及用户名和密码。 对服务器地址使用如下格式：
    
@@ -95,7 +95,7 @@ Reporting Services KPI 和移动报表显示的文件夹与其在 Reporting Serv
 ## <a name="remove-a-connection-to-a-report-server"></a>删除与报表服务器的连接
 在 Power BI 移动应用中一次只能连接到一个报表服务器。 如果想要连接到不同的服务器，需要断开与当前服务器的连接。
 
-1. 在导航窗格底部，点击“设置”![设置图标](./././media/mobile-app-windows-10-ssrs-kpis-mobile-reports/power-bi-settings-icon.png)  。
+1. 在导航窗格底部，点击“设置”![“设置”图标](./././media/mobile-app-windows-10-ssrs-kpis-mobile-reports/power-bi-settings-icon.png)  。
 2. 点击并按住不想连接到的服务器的名称。
 3. 点击“删除服务器”  。
    

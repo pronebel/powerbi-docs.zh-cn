@@ -27,7 +27,7 @@ Power BI 的“可视化效果”窗格中还有其他许多视觉对象类型�
 
 ![具有各种可视化效果类型图标的窗格](media/power-bi-report-visualizations/power-bi-icons.png)
 
-如需有更多选择，请访问 [Microsoft AppSource 社区网站](https://appsource.microsoft.com)，查找并[下载](https://appsource.microsoft.com/marketplace/apps?page=1&product=power-bi-visuals) Microsoft 和社区提供的[自定义视觉对象](../developer/visuals/custom-visual-develop-tutorial.md)。
+如果需要更多选择，请访问 [Microsoft AppSource 社区网站](https://appsource.microsoft.com)，查找并[下载](https://appsource.microsoft.com/marketplace/apps?page=1&product=power-bi-visuals) Microsoft 和社区提供的[自定义视觉对象](../developer/visuals/custom-visual-develop-tutorial.md)。
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/SYk_gWrtKvM?list=PL1N57mwBHtN0JFoKSR0n-tBkUJHeMP2cP" frameborder="0" allowfullscreen></iframe>
 

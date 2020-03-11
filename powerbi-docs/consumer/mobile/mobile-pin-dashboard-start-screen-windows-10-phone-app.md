@@ -22,7 +22,7 @@ ms.locfileid: "73869862"
 
 ## <a name="pin-a-dashboard-to-your-start-screen-as-a-live-tile"></a>将仪表板固定到“开始”屏幕以作为动态磁贴
 1. 打开仪表板。
-2. 点击“固定到“开始”屏幕”  ![固定到“开始”屏幕图标](./media/mobile-pin-dashboard-start-screen-windows-10-phone-app/power-bi-windows-10-pin-start-icon.png)。
+2. 点击“固定到“开始”屏幕”  ![“固定到‘开始’屏幕”图标](./media/mobile-pin-dashboard-start-screen-windows-10-phone-app/power-bi-windows-10-pin-start-icon.png)。
    
    ![Windows 10 移动应用上栏](./media/mobile-pin-dashboard-start-screen-windows-10-phone-app/power-bi-windows-10-pin-start.png)
    

@@ -40,9 +40,9 @@ ms.locfileid: "73862422"
 
 ## <a name="actions-available-from-the-recent-content-list"></a>**最近访问**内容列表中的可用操作
 可供使用的操作取决于内容*设计者*分配的设置。 一些选项可能包括：
-* 选择星形图标以[将仪表板、报表或应用添加到收藏夹](end-user-favorite.md) ![星形图标](./media/end-user-shared-with-me/power-bi-star-icon.png)。
+* 选择星形图标 ![星形图标](./media/end-user-shared-with-me/power-bi-star-icon.png)，以[将仪表板、报表或应用添加到收藏夹](end-user-favorite.md)。
 * 可重新共享某些仪表板和报表  ![共享图标](./media/end-user-shared-with-me/power-bi-share-icon-new.png)。
-* [在 Excel 中打开报表](end-user-export.md) ![导出至 Excel 图标](./media/end-user-shared-with-me/power-bi-excel.png) 
+* [在 Excel 中打开报表](end-user-export.md) ![“导出到 Excel”图标](./media/end-user-shared-with-me/power-bi-excel.png) 
 * [查看](end-user-insights.md) Power BI 在数据中发现的见解 ![见解图标](./media/end-user-shared-with-me/power-bi-insights.png)。
 * 另外，如果列表过长，请[使用搜索字段和排序找到所需的仪表板](end-user-search-sort.md)。 若要确定是否可以对列进行排序，请将鼠标悬停以查看是否显示箭头。 在此示例中，将鼠标悬停在**上次访问**上时会显示一个箭头 - 可以按访问日期对最近访问的内容进行排序。 
 

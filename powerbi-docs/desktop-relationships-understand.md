@@ -8,16 +8,16 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 10/15/2019
 ms.author: v-pemyer
-ms.openlocfilehash: 124f373e7841cb899f0a26debb2bcc8302e8e970
-ms.sourcegitcommit: 7efbe508787029e960d6d535ac959a922c0846ca
+ms.openlocfilehash: 7be55c8b44a89ad5b317743b62e033cf34a01ef9
+ms.sourcegitcommit: b59ec11a4a0a3d5be2e4d91548d637d31b3491f8
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/22/2020
-ms.locfileid: "76309109"
+ms.lasthandoff: 03/05/2020
+ms.locfileid: "78290673"
 ---
 # <a name="create-model-relationships-in-power-bi-desktop"></a>在 Power BI Desktop 中创建模型关系
 
-本文主要面向使用 Power BI Desktop 的 Import 数据建模者。 它是一个重要的模型设计主题，对于提供直观、准确且最理想的模型至关重要。
+本文主要面向使用 Power BI Desktop 的 Import 数据建模者。 这是重要的模型设计主题，对于提供直观、准确的最佳模型至关重要。
 
 若要更深入地探讨包括表角色和关系在内的最佳模型设计，请参阅[了解星型架构及其对 Power BI 的重要性](guidance/star-schema.md)一文。
 
@@ -25,10 +25,10 @@ ms.locfileid: "76309109"
 
 简而言之，Power BI 关系会将应用于模型表列的筛选器传播到其他模型表。 只要有关系路径可循，筛选器就会进行传播，这可能涉及传播到多个表。
 
-关系路径是确定性的，这意味着筛选器始终以相同的方式传播，而不会随机变化。 但是，可以禁用关系，或通过使用特定 DAX 函数的模型计算来修改筛选器上下文。 有关详细信息，请参阅本文后面的[相关 DAX 函数](#relevant-dax-functions)主题。
+关系路径是确定性的，这意味着筛选器始终以相同的方式传播，而不会随机变化。 但是，可以禁用关系，或通过使用特定 DAX 函数的模型计算来修改筛选器上下文。 有关详细信息，请参阅本文稍后介绍的[相关 DAX 函数](#relevant-dax-functions)主题。
 
 > [!IMPORTANT]
-> 请务必了解，模型关系不强制实施数据完整性。 有关详细信息，请参阅本文后面的[关系评估](#relationship-evaluation)主题。 此主题介绍当数据存在数据完整性问题时模型关系的行为。
+> 请务必了解，模型关系不强制实施数据完整性。 有关详细信息，请参阅本文稍后介绍的[关系计算](#relationship-evaluation)主题。 此主题介绍当数据存在数据完整性问题时模型关系的行为。
 
 让我们通过一个动画示例，看看关系如何传播筛选器。
 
@@ -36,17 +36,17 @@ ms.locfileid: "76309109"
 
 在此示例中，模型由四个表组成：**Category**、**Product**、**Year** 和 **Sales**。 **Category** 表关联到 **Product** 表，而 **Product** 表关联到 **Sales** 表。 **Year** 表也关联到 **Sales** 表。 所有关系均为一对多（本文后面将对此进行详细介绍）。
 
-某个查询（可能由 Power BI 卡视觉对象生成）请求单个类别 **Cat-A** 和单个年份 **CY2018** 的销售订单的总销量。 这就是你可以看到 **Category** 和 **Year** 表上应用的筛选器的原因。 **Category** 表上的筛选器传播到 **Product** 表，分离出分配给类别 **Cat-A** 的两个产品。 然后，**Product** 表筛选器传播到 **Sales** 表，针对这些产品分离出两个销售行。 这两个销售行表示分配给类别 **Cat-A** 的产品的销量。 其总量为 14 个单位。 与此同时，传播 **Year** 表筛选器以进一步筛选 **Sales** 表，最终得到一个销售行，该行对应于分配给类别 **Cat-A** 并于 **CY2018** 年订购的产品。 该查询返回的数量值为 11 个单位。 请注意，向某个表应用多个筛选器时（例如本示例中的 **Sales** 表），始终进行 AND 运算，即，要求所有条件都必须成立。
+查询可能是由 Power BI 卡视觉对象生成，请求获取单个类别 Cat-A  和单个年份 CY2018  的销售订单的总销售量。 正因为此，可以看到 Category  和 Year  表上应用的筛选器。 **Category** 表上的筛选器传播到 **Product** 表，分离出分配给类别 **Cat-A** 的两个产品。 然后，**Product** 表筛选器传播到 **Sales** 表，针对这些产品分离出两个销售行。 这两个销售行表示分配给类别 **Cat-A** 的产品的销量。 其总量为 14 个单位。 与此同时，传播 **Year** 表筛选器以进一步筛选 **Sales** 表，最终得到一个销售行，该行对应于分配给类别 **Cat-A** 并于 **CY2018** 年订购的产品。 该查询返回的数量值为 11 个单位。 请注意，向某个表应用多个筛选器时（例如本示例中的 **Sales** 表），始终进行 AND 运算，即，要求所有条件都必须成立。
 
 ### <a name="disconnected-tables"></a>断开连接的表
 
-一个模型表与另一个模型表不关联的情况不太常见。 可以将有效模型设计中的此类表称为_断开连接的表_。 断开连接的表不用于将筛选器传播到其他模型表， 而用于接受“用户输入”（可能包含切片器视觉对象），从而使模型计算能够以有意义的方式使用输入值。 例如，假设有一个断开连接的表，表中加载了一系列货币汇率值。 如果应用筛选器以按单个费率值进行筛选，则度量值表达式可以使用该值来转换销售值。
+一个模型表与另一个模型表不关联的情况不太常见。 可以将有效模型设计中的此类表称为_断开连接的表_。 断开连接的表不用于将筛选器传播到其他模型表， 而用于接受“用户输入”（可能包含切片器视觉对象），从而使模型计算能够以有意义的方式使用输入值。 例如，假设有一个断开连接的表，表中加载了一系列货币汇率值。 只要应用筛选器以按单个费率值进行筛选，度量值表达式就可以使用此值来转换销售值。
 
-Power BI Desktop what-if 参数是一个用于创建断开连接的表的功能。 有关详细信息，请参阅[创建并使用 What if 参数来可视化 Power BI Desktop 中的变量](desktop-what-if.md)一文。
+Power BI Desktop what-if 参数是一个用于创建断开连接的表的功能。 有关详细信息，请参阅[在 Power BI Desktop 中创建并使用 What if 参数来可视化变量](desktop-what-if.md)一文。
 
 ## <a name="relationship-properties"></a>关系属性
 
-模型关系可将一个表中的一列关联到另一个表中的一列。 （在一种特殊情况下，此要求不成立，这种情况仅适用于 DirectQuery 模型中的多列关系。 有关详细信息，请参阅 [COMBINEVALUES](/dax/combinevalues-function-dax) DAX 函数一文。）
+模型关系可将一个表中的一列关联到另一个表中的一列。 （在一种特殊情况下，此要求不成立，它只适用于 DirectQuery 模型中的多列关系。 有关详细信息，请参阅“[COMBINEVALUES](/dax/combinevalues-function-dax) DAX 函数”一文。）
 
 > [!NOTE]
 > 无法将_同一表中_的一列关联到另一列。 这有时会与能够定义表自引用的关系数据库外键约束相混淆。 此关系数据库概念可用于存储父子关系（例如，每条员工记录均关联到一个“汇报对象”员工）。 无法通过创建模型关系来生成基于父子关系的模型层次结构。 若要生成这样的层次结构，请参阅[父函数和子函数](/dax/parent-and-child-functions-dax)一文。
@@ -65,13 +65,13 @@ Power BI Desktop what-if 参数是一个用于创建断开连接的表的功能�
 - 一对一 (1:1)
 - 多对多 (\*:\*)
 
-在 Power BI Desktop 中创建关系时，设计器将自动检测并设置基数类型。 设计器之所以可以执行此操作，是因为它会查询模型以了解哪些列包含唯一值。 对于 Import 模型，它使用内部存储统计信息；对于 DirectQuery 模型，它向数据源发送分析查询。 但是，有时可能会出错。 出错的原因有二：表中尚未加载数据，或者你希望包含重复值的列当前包含唯一值。 在任一情况下，如果任何“一”侧列包含唯一值（或者表中尚未加载数据行），你都可以更新基数类型。
+当你在 Power BI Desktop 中创建关系时，设计器会自动检测并设置基数类型。 设计器会查询模型，以了解哪些列包含唯一值。 对于导入模型，它使用内部存储统计信息；对于 DirectQuery 模型，它向数据源发送分析查询。 但是，有时可能会出错。 出现这种情况是因为，表中尚未加载数据，或你希望包含重复值的列当前包含唯一值。 不论是哪种原因，只要任何“一”端列包含唯一值（或表中尚未加载数据行），你都可以更新基数类型。
 
 “一对多”和“多对一”基数选项基本相同，并且它们也是最常见的基数类型   。
 
 配置一对多或多对一关系时，将选择与列关联顺序匹配的关系。 设想一下，如何使用每个表中的 **ProductID** 列来配置从 **Product** 表到 **Sales** 表的关系。 基数类型将为_一对多_，因为 **Product** 表中的 **ProductID** 列包含唯一值。 如果将表反向关联，即 **Sales** 到 **Product**，则基数为_多对一_。
 
-**一对一**关系意味着两个列都包含唯一值。 这种基数类型并不常见，并且由于冗余数据的存储，它可能代表了不太理想的模型设计。<!-- For guidance on using this cardinality type, see the [One-to-one relationship guidance](guidance/relationships-one-to-one) article.-->
+**一对一**关系意味着两个列都包含唯一值。 这种基数类型并不常见，并且由于冗余数据的存储，它可能代表了不太理想的模型设计。 若要详细了解如何使用此基数类型，请参阅[一对一关系指南](guidance/relationships-one-to-one.md)。
 
 **多对多**关系意味着两个列都可以包含重复值。 这种基数类型很少使用。 在设计复杂的模型需求时，它通常很有用。 有关使用此基数类型的指南，请参阅[多对多关系指南](guidance/relationships-many-to-many.md)。
 
@@ -95,13 +95,13 @@ _单_交叉筛选方向表示“单向”，_双_表示“双向”。 在两个
 
 在一对多关系中，交叉筛选方向始终从“一”侧开始，也可以选择从“多”侧开始（双向）。 在一对一关系中，交叉筛选方向始终同时从两个表开始。 最后，在多对多关系中，交叉筛选方向可以从其中一个表开始，也可以同时从两个表开始。 请注意，当基数类型包括“一”侧时，此类筛选器将始终从该侧传播。
 
-如果将交叉筛选方向设置为“双”，那么在实施行级别安全性 (RLS) 规则时，可以使用一个附加属性来应用双向筛选  。 有关 RLS 的详细信息，请参阅 [Power BI Desktop 行级别安全性 (RLS)](desktop-rls.md) 一文。
+当交叉筛选方向设置为“双向”  时，可以使用其他属性。 如果行级别安全性 (RLS) 规则已强制执行，它可以应用双向筛选。 若要详细了解 RLS，请参阅[结合使用行级别安全性 (RLS) 与 Power BI Desktop](desktop-rls.md) 一文。
 
-也可以通过模型计算来修改关系交叉筛选方向（包括禁用筛选器传播）。 这可以通过 [CROSSFILTER](/dax/crossfilter-function) DAX 函数来实现。
+也可以通过模型计算来修改关系交叉筛选方向（包括禁用筛选器传播）。 这是通过使用 [CROSSFILTER](/dax/crossfilter-function) DAX 函数来实现的。
 
 双向关系可能会对性能产生负面影响。 此外，尝试配置双向关系可能会导致筛选器传播路径不明确。 在这种情况下，Power BI Desktop 可能无法提交关系更改，并通过错误消息发出警报。 但是，有时 Power BI Desktop 可能允许你在表之间定义不明确的关系路径。 本文后面的[优先规则](#precedence-rules)主题将介绍影响歧义检测和路径解析的优先规则。
 
-建议仅在需要时使用双向筛选。<!-- For guidance on bi-directional filtering, see the [Cross filter relationship guidance](guidance/relationships-bidirectional-filtering) article.-->
+建议仅在需要时使用双向筛选。 有关详细信息，请参阅[双向关系指南](guidance/relationships-bidirectional-filtering.md)。
 
 > [!TIP]
 > 在 Power BI Desktop 模型视图中，可以通过观察关系线的箭头来解释关系的交叉筛选方向。 单箭头表示沿箭头方向的单向筛选器；双箭头表示双向关系。
@@ -110,7 +110,7 @@ _单_交叉筛选方向表示“单向”，_双_表示“双向”。 在两个
 
 两个模型表之间只能有一条活动的筛选器传播路径。 你可以引入其他关系路径，但必须将这些关系都配置为_非活动状态_。 只能在模型计算评估期间激活非活动关系。 这可以通过 [USERELATIONSHIP](/dax/userelationship-function-dax) DAX 函数来实现。
 
-<!--For guidance on defining inactive relationships, see the [Active vs inactive relationship guidance](guidance/relationships-active-inactive) article.-->
+有关详细信息，请参阅[活动与非活动关系指南](guidance/relationships-active-inactive.md)。
 
 > [!TIP]
 > 在 Power BI Desktop 模型视图中，可以解释关系的活动状态与非活动状态。 活动关系用实线表示；非活动关系用虚线表示。
@@ -119,12 +119,12 @@ _单_交叉筛选方向表示“单向”，_双_表示“双向”。 在两个
 
 _假设引用完整性_属性仅适用于基于同一数据源的两个 DirectQuery 存储模式表之间的一对多和一对一关系。 启用后，发送到数据源的本机查询会使用内部联接而不是外部联接来联接两个表。 通常，启用此属性可以提高查询性能，但具体取决于数据源的详细情况。
 
-当两个表之间存在数据库外键约束时，应始终启用此属性。 当不存在外键约束时，只要确定存在数据完整性，就仍然可以启用该属性。
+当两个表之间有数据库外键约束时，始终启用此属性。 如果没有外键约束，只要确定特定数据完整性存在，就仍可以启用此属性。
 
 > [!IMPORTANT]
 > 如果数据完整性受到损害，内部联接将消除表之间不匹配的行。 例如，假设有一个模型 **Sales** 表，其中的 **ProductID** 列值在关联 **Product** 表中不存在。 从 **Product** 表到 **Sales** 表的筛选器传播将消除未知产品的销售行。 这会导致低估销售结果。
 >
-> 有关详细信息，请参阅 [Power BI Desktop 中的假设引用完整性设置](desktop-assume-referential-integrity.md)一文。
+> 有关详细信息，请参阅 [Power BI Desktop 中的“假定引用完整性”设置](desktop-assume-referential-integrity.md)一文。
 
 ## <a name="relevant-dax-functions"></a>相关 DAX 函数
 
@@ -146,7 +146,7 @@ _假设引用完整性_属性仅适用于基于同一数据源的两个 DirectQu
 
 Import 或 DirectQuery 模型从 Vertipaq 缓存或源数据库中获取其所有数据。 在这两个实例中，Power BI 都能确定某个关系的“一”侧是否存在。
 
-但是，Composite 模型可能由使用不同存储模式（Import、DirectQuery 或 Dual）或多个 DirectQuery 源的表组成。 每个源（包括 Import 数据的 Vertipaq 缓存）都被视为一个_数据岛_。 然后，可以将模型关系分为_岛内_或_跨岛_两种。 岛内关系是指在一个数据岛中关联两个表，而跨岛关系是指关联不同数据岛中的表。 请注意，Import 或 DirectQuery 模型中的关系始终是岛内关系。
+但是，Composite 模型可能由使用不同存储模式（导入、DirectQuery 或双重）或多个 DirectQuery 源的表组成。 每个源（包括 Import 数据的 Vertipaq 缓存）都被视为一个_数据岛_。 然后，可以将模型关系分为_岛内_或_跨岛_两种。 岛内关系是指在一个数据岛中关联两个表，而跨岛关系是指关联不同数据岛中的表。 请注意，Import 或 DirectQuery 模型中的关系始终是岛内关系。
 
 让我们看一个 Composite 模型的示例。
 
@@ -164,7 +164,7 @@ Import 或 DirectQuery 模型从 Vertipaq 缓存或源数据库中获取其所�
 
 对于 Import 模型，其所有数据都存储在 Vertipaq 缓存中，在数据刷新时会为每​​个强关系创建一个数据结构。 数据结构由所有列到列值的索引映射组成，其用途是在查询时加快表的联接速度。
 
-在查询时，强关系允许进行_表扩展_。 表扩展会包含基表的本机列，然后扩展到关联表中，从而创建虚拟表。 对于 Import 表，此操作在查询引擎中完成；对于 DirectQuery 表，此操作在发送到源数据库的本机查询中完成（前提是未启用“假设引用完整性”属性）。 然后，查询引擎对扩展表进行操作，应用筛选器，并按扩展表列中的值进行分组。
+在查询时，强关系允许进行_表扩展_。 表扩展会包含基表的本机列，然后扩展到关联表中，从而创建虚拟表。 对于导入表，此操作在查询引擎中完成；对于 DirectQuery 表，此操作在发送到源数据库的本机查询中完成（前提是未启用“假定引用完整性”  属性）。 然后，查询引擎对扩展表进行操作，应用筛选器，并按扩展表列中的值进行分组。
 
 > [!NOTE]
 > 非活动关系也会进行扩展，即使计算操作未使用该关系也是如此。 双向关系对表扩展没有影响。
@@ -194,7 +194,7 @@ Import 或 DirectQuery 模型从 Vertipaq 缓存或源数据库中获取其所�
 
 对于 Import 模型，永远不会为弱关系创建数据结构。 这意味着必须在查询时解析表联接。
 
-对于弱关系，永远不会发生表扩展。 表联接是使用内部联接语义实现的，因此，不会添加空白虚拟行来补偿引用完整性冲突。
+对于弱关系，永远不会发生表扩展。 表联接是使用 INNER JOIN 语义实现的，因此不会添加空白虚拟行来补偿引用完整性冲突。
 
 还有一些与弱关系相关的限制：
 
@@ -210,7 +210,7 @@ Import 或 DirectQuery 模型从 Vertipaq 缓存或源数据库中获取其所�
 
 1. 多对一和一对一关系，包括弱关系
 2. 多对多关系
-3. 反向的双向关系（即，从“多”侧开始）
+3. 反向的双向关系（即从“多”端开始）
 
 ### <a name="performance-preference"></a>性能首选项
 
@@ -221,12 +221,16 @@ Import 或 DirectQuery 模型从 Vertipaq 缓存或源数据库中获取其所�
 3. 使用中间表实现的多对多模型关系，并且涉及至少一个双向关系
 4. 跨岛关系
 
-<!--For further information and guidance on many-to-many relationships, see the [Cross filter relationship guidance](guidance/relationships-bidirectional-filtering) article.-->
-
 ## <a name="next-steps"></a>后续步骤
 
+有关本文的详细信息，请参阅以下资源：
+
 - [了解星型架构及其对 Power BI 的重要性](guidance/star-schema.md)
+- [一对一关系指南](guidance/relationships-one-to-one.md)
 - [多对多关系指南](guidance/relationships-many-to-many.md)
-- 视频：[Power BI 关系的准则](https://youtu.be/78d6mwR8GtA)
+- [活动与非活动关系指南](guidance/relationships-active-inactive.md)
+- [双向关系指南](guidance/relationships-bidirectional-filtering.md)
+- [关系故障排除指南](guidance/relationships-troubleshoot.md)
+- 视频：[Power BI 关系的准则](https://www.youtube.com/watch?v=78d6mwR8GtA)
 - 是否有任何问题? [尝试咨询 Power BI 社区](https://community.powerbi.com/)
-- 建议？ [提出改进 Power BI 的想法](https://ideas.powerbi.com)
+- 建议？ [提出改进 Power BI 的想法](https://ideas.powerbi.com/)
