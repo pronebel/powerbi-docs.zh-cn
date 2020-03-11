@@ -8,16 +8,16 @@ ms.subservice: report-builder
 ms.topic: conceptual
 ms.date: 01/14/2020
 ms.author: v-pemyer
-ms.openlocfilehash: 2a8dca43077fe12e4903585e3926cc67fe864136
-ms.sourcegitcommit: 3d6b27e3936e451339d8c11e9af1a72c725a5668
+ms.openlocfilehash: 90f501b257313c48cbef13517747ff83cd9ea9d1
+ms.sourcegitcommit: ced8c9d6c365cab6f63fbe8367fb33e6d827cb97
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/17/2020
-ms.locfileid: "76162402"
+ms.lasthandoff: 03/07/2020
+ms.locfileid: "78920785"
 ---
 # <a name="use-cascading-parameters-in-paginated-reports"></a>在分页报表中使用级联参数
 
-本文面向设计 Power BI [分页报表](../paginated-reports-report-builder-power-bi.md)的报表作者。 提供用于设计级联参数的方案。 级联参数是具有依赖关系的报表参数。 当报表用户选择某个参数值（或多个值）时，可使用它为另一个参数设置可用值。
+本文面向设计 Power BI [分页报表](../paginated-reports/paginated-reports-report-builder-power-bi.md)的报表作者。 提供用于设计级联参数的方案。 级联参数是具有依赖关系的报表参数。 当报表用户选择某个参数值（或多个值）时，可使用它为另一个参数设置可用值。
 
 > [!NOTE]
 > 级联参数的介绍及其配置不在本文涵盖范围内。 如果你不完全了解级联参数，建议先阅读[将级联参数添加到报表（报表生成器和 SSRS）](/sql/reporting-services/report-design/add-cascading-parameters-to-a-report-report-builder-and-ssrs)。
@@ -281,7 +281,7 @@ WHERE
 
 有关本文的详细信息，请参阅以下资源：
 
-- [Power BI 报表生成器中的报表参数](../report-builder-parameters.md)
+- [Power BI 报表生成器中的报表参数](../paginated-reports/report-builder-parameters.md)
 - [向报表添加级联参数（报表生成器和 SSRS）](/sql/reporting-services/report-design/add-cascading-parameters-to-a-report-report-builder-and-ssrs)
 - 是否有任何问题? [尝试咨询 Power BI 社区](https://community.powerbi.com/)
 - 建议？ [提出改进 Power BI 的想法](https://ideas.powerbi.com)

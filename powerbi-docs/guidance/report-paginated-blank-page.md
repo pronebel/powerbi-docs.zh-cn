@@ -8,23 +8,23 @@ ms.subservice: report-builder
 ms.topic: conceptual
 ms.date: 01/14/2020
 ms.author: v-pemyer
-ms.openlocfilehash: 76d1631b95c30d5ae56ced5d64e5174f6f9db759
-ms.sourcegitcommit: 0ae9328e7b35799d5d9613a6d79d2f86f53d9ab0
+ms.openlocfilehash: 349459b95a815a52665e50687554f81f90a9c81b
+ms.sourcegitcommit: ced8c9d6c365cab6f63fbe8367fb33e6d827cb97
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/16/2020
-ms.locfileid: "76041856"
+ms.lasthandoff: 03/07/2020
+ms.locfileid: "78920857"
 ---
 # <a name="avoid-blank-pages-when-printing-paginated-reports"></a>打印分页报表时避免出现空白页
 
-本文面向设计 Power BI [分页报表](../paginated-reports-report-builder-power-bi.md)的报表作者。 它提供了相关建议，以帮助你在将报表导出到硬分页格式（如 PDF 或 Microsoft Word）或打印时避免出现空白页。
+本文面向设计 Power BI [分页报表](../paginated-reports/paginated-reports-report-builder-power-bi.md)的报表作者。 它提供了相关建议，以帮助你在将报表导出到硬分页格式（如 PDF 或 Microsoft Word）或打印时避免出现空白页。
 
 ## <a name="page-setup"></a>页面设置
 
 报表页面大小属性可确定页面方向、尺寸和边距。 通过以下方式访问这些报表属性：
 
 - 使用报表“属性页”  ：右键单击报表画布外的深灰色区域，然后选择“报表属性”  。
-- 使用[“属性”窗格](../paginated-reports-report-design-view.md#4-properties-pane)  ：单击报表画布外的深灰色区域以选择报表对象。 确保“属性”窗格处于打开状态  。
+- 使用[“属性”窗格](../paginated-reports/paginated-reports-report-design-view.md#4-properties-pane)  ：单击报表画布外的深灰色区域以选择报表对象。 确保“属性”窗格处于打开状态  。
 
 报表“属性页”的“页面设置”页提供了一个用户友好的界面，可查看和更新页面设置属性   。
 
@@ -91,7 +91,7 @@ ms.locfileid: "76041856"
 
 有关本文的详细信息，请参阅以下资源：
 
-- [Power BI Premium 中的分页报表是什么？](../paginated-reports-report-builder-power-bi.md)
-- [Power BI 分页报表中的分页](../paginated-reports-pagination.md)
+- [Power BI Premium 中的分页报表是什么？](../paginated-reports/paginated-reports-report-builder-power-bi.md)
+- [Power BI 分页报表中的分页](../paginated-reports/paginated-reports-pagination.md)
 - 是否有任何问题? [尝试咨询 Power BI 社区](https://community.powerbi.com/)
 - 建议？ [提出改进 Power BI 的想法](https://ideas.powerbi.com)

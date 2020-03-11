@@ -3,19 +3,18 @@ title: 打开 Power BI 服务后选择要显示的仪表板
 description: 有关如何在 Power BI 服务中创建特色仪表板的文档
 author: mihart
 ms.reviewer: ''
-featuredvideoid: G26dr2PsEpk
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 09/14/2019
+ms.date: 02/19/2020
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 412bcf397d550e002957e7379bf41381e8e3eea8
-ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
+ms.openlocfilehash: 27a7bdce79d0cf39a15b3350d06fd01d7d9e13c2
+ms.sourcegitcommit: 87b7cb4a2e626711b98387edaa5ff72dc26262bb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/06/2020
-ms.locfileid: "73852530"
+ms.lasthandoff: 03/10/2020
+ms.locfileid: "79040013"
 ---
 # <a name="featured-dashboards-in-the-power-bi-service"></a>Power BI 服务中的特色仪表板
 
@@ -33,9 +32,6 @@ ms.locfileid: "73852530"
 如果未设置特色仪表板，Power BI 会打开最近使用的仪表板或 Power BI **主页**。 
 
 ### <a name="set-a-dashboard-as-featured"></a>将仪表板设置为特色仪表板
-观看视频，了解 Amanda 如何创建特色仪表板。 然后，按照以下步骤亲自尝试。
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/G26dr2PsEpk" frameborder="0" allowfullscreen></iframe>
 
 
 1. 打开想要设置为特色仪表板的仪表板。 
@@ -51,7 +47,6 @@ ms.locfileid: "73852530"
 
 1. 按照前面的步骤 1 和 2 执行操作。
    
-    ![更改精选仪表板窗口](./media/end-user-featured/power-bi-change-feature.png)
 2. 选择“设置为特色仪表板”  。 取消将某个仪表板设置为特色仪表板并不会将它从 Power BI 中删除。 
    
     ![成功消息](./media/end-user-featured/power-bi-unfeature-new.png)
@@ -62,9 +57,9 @@ ms.locfileid: "73852530"
 1. 打开最近设置为特色仪表板的仪表板。
 2. 在顶部菜单栏中，依次选择“更多选项”(…) 和“禁用精选”   。
 
-    ![禁用所选的特色仪表板](./media/end-user-featured/power-bi-unfeature-newer.png)
+    ![禁用所选的特色仪表板](./media/end-user-featured/power-bi-unfeature.png)
    
 ## <a name="next-steps"></a>后续步骤
-- [收藏仪表板](end-user-favorite.md)
+- [收藏仪表板](end-user-favorite.md)    
 - 更多问题？ 尝试参与 [Power BI 社区](https://community.powerbi.com/)。
 

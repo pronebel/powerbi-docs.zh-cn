@@ -8,16 +8,16 @@ ms.subservice: report-builder
 ms.topic: conceptual
 ms.date: 01/04/2020
 ms.author: v-pemyer
-ms.openlocfilehash: 3838c0b487be7faace2e58dd706aa7d172841215
-ms.sourcegitcommit: b59ec11a4a0a3d5be2e4d91548d637d31b3491f8
+ms.openlocfilehash: 049b6ac14c6d35d68815eac32520a4eaa654ad42
+ms.sourcegitcommit: ced8c9d6c365cab6f63fbe8367fb33e6d827cb97
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/05/2020
-ms.locfileid: "78290489"
+ms.lasthandoff: 03/07/2020
+ms.locfileid: "78920742"
 ---
 # <a name="when-to-use-paginated-reports-in-power-bi"></a>何时使用 Power BI 中的分页报表
 
-本文适用于设计 Power BI 报表的报表作者。 它提供了一些建议，帮助你选择何时开发 [Power BI 分页报表](../paginated-reports-report-builder-power-bi.md)。
+本文适用于设计 Power BI 报表的报表作者。 它提供了一些建议，帮助你选择何时开发 [Power BI 分页报表](../paginated-reports/paginated-reports-report-builder-power-bi.md)。
 
 > [!NOTE]
 > 发布 Power BI 分页报表需要 Power BI Premium 订阅。 仅当报表位于[启用了分页报表工作负荷](../service-admin-premium-workloads.md#paginated-reports)的专用容量的工作区中时，才会呈现这些报表。
@@ -49,7 +49,7 @@ Power BI 分页报表已针对“打印”或“PDF 生成”进行了优化   �
 - **精确布局**：可以设计确切大小和位置（以英寸或厘米为单位）的高度格式化、像素完美的布局。
 - **动态布局**：通过将许多报表属性设置为使用 VB.NET 表达式，可以生成高响应性布局。 表达式可以访问许多核心 .NET Framework 库。
 - **特定于呈现的布局**：可以使用表达式根据应用的呈现格式修改报表布局。 例如，当报表使用非交互格式（如 PDF）呈现时，可以将其设计为禁用切换可见性（以实现向下钻取和向上钻取）。
-- **本机查询**：不需要首先开发 Power BI 数据集。 可以为任何[受支持的数据源](../paginated-reports-data-sources.md)编写本机查询（或使用存储过程）。 查询可以包含参数化。
+- **本机查询**：不需要首先开发 Power BI 数据集。 可以为任何[受支持的数据源](../paginated-reports/paginated-reports-data-sources.md)编写本机查询（或使用存储过程）。 查询可以包含参数化。
 - **图形查询设计器**：Power BI 报表生成器包括图形查询设计器，可助你编写和测试数据集查询。
 - **静态数据集**：你可以定义一个数据集，并直接在报表定义中输入数据。 此功能对于支持演示或提供概念验证 (POC) 特别有用。
 - **数据集成**：可以合并来自不同数据源的数据，或将其与静态数据集进行合并。 此操作通过使用 VB.NET 表达式创建自定义字段完成。
@@ -70,7 +70,7 @@ Power BI 分页报表已针对“打印”或“PDF 生成”进行了优化   �
 
 有关本文的详细信息，请参阅以下资源：
 
-- [Power BI Premium 中的分页报表是什么？](../paginated-reports-report-builder-power-bi.md)
+- [Power BI Premium 中的分页报表是什么？](../paginated-reports/paginated-reports-report-builder-power-bi.md)
 - [将 SQL Server Reporting Services 报表迁移到 Power BI](migrate-ssrs-reports-to-power-bi.md)
 - 是否有任何问题? [尝试咨询 Power BI 社区](https://community.powerbi.com/)
 - 建议？ [提出改进 Power BI 的想法](https://ideas.powerbi.com/)

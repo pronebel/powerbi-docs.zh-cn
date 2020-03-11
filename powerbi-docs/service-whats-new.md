@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 10/22/2019
 ms.author: nikhilga
 LocalizationGroup: Get started
-ms.openlocfilehash: 06e46413be709ac3eda2102332740d709092187e
-ms.sourcegitcommit: 8e3d53cf971853c32eff4531d2d3cdb725a199af
+ms.openlocfilehash: 32f0c03fc0ae586b8b98c7a4c84c9d4c7bbd9078
+ms.sourcegitcommit: ced8c9d6c365cab6f63fbe8367fb33e6d827cb97
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "74265339"
+ms.lasthandoff: 03/07/2020
+ms.locfileid: "78920970"
 ---
 # <a name="whats-new-in-the-power-bi-service"></a>Power BI 服务中的新功能
 请阅读此页，了解 Power BI 服务中的已知问题和最近发布的功能  。 有关相关的“新增功能”的信息，请参阅：
@@ -41,11 +41,11 @@ ms.locfileid: "74265339"
 * Power BI Premium 的新容量设置。
 * 所在组织的[自定义品牌](https://powerbi.microsoft.com/blog/announcing-custom-branding-for-your-organization/)。
 * 使用生成权限导出汇总数据。
-* 支持适用于[分页报表](paginated-reports-report-builder-power-bi.md)的 URL 参数。
+* 支持适用于[分页报表](paginated-reports/paginated-reports-report-builder-power-bi.md)的 URL 参数。
 * 支持月度电子邮件订阅。 
 
 ### <a name="july-2019"></a>2019 年 7 月
-* 支持适用于[分页报表](paginated-reports-report-builder-power-bi.md)的非高级数据集。
+* 支持适用于[分页报表](paginated-reports/paginated-reports-report-builder-power-bi.md)的非高级数据集。
 * Power BI [聚合](desktop-aggregations.md)正式发布。
 * 将刷新通知发送给其他人。
 * 用于优化 Power BI Premium 容量的[测试工具](https://powerbi.microsoft.com/blog/power-bi-premium-know-what-your-premium-capacity-can-handle/)。
@@ -57,7 +57,7 @@ ms.locfileid: "74265339"
 * 公共预览版[共享和经认证的数据集](service-datasets-across-workspaces.md)。
 * [Premium 容量指标应用](service-admin-premium-monitor-capacity.md)中提供的 AI 指标。
 * Power BI [模板应用](service-template-apps-overview.md)正式发布。
-* Power BI [分页报表](paginated-reports-report-builder-power-bi.md)正式发布。
+* Power BI [分页报表](paginated-reports/paginated-reports-report-builder-power-bi.md)正式发布。
 * 公共预览版 Power BI Premium 创建自己的密钥 ([BYOK](service-encryption-byok.md))。
 * 适用于[新的工作区体验](service-new-workspaces.md)的查看者角色。
 
@@ -71,7 +71,7 @@ ms.locfileid: "74265339"
 * 新工作区体验正式发布。
 * 在法国和韩国推出了新的 Power BI 区域。
 * 更新了仪表板问答体验。
-* [分页报表](paginated-reports-report-builder-power-bi.md)中支持 Azure Analysis Services。
+* [分页报表](paginated-reports/paginated-reports-report-builder-power-bi.md)中支持 Azure Analysis Services。
 * Power BI 应用中支持分页报表。
 * 含 PDF 附件的[电子邮件订阅](https://powerbi.microsoft.com/blog/e-mail-subscriptions-for-paginated-reports-is-now-available/)中支持分页报表。
 * 管理门户中支持 Power BI Premium 摘要和工作负荷指标。
@@ -108,7 +108,7 @@ ms.locfileid: "74265339"
 
 ### <a name="november-2018"></a>2018 年 11 月
 * Power BI 数据准备适用于[数据流](service-dataflows-overview.md)的公开预览版。
-* Power BI Premium 中的[分页报表](paginated-reports-report-builder-power-bi.md)的公开预览版。
+* Power BI Premium 中的[分页报表](paginated-reports/paginated-reports-report-builder-power-bi.md)的公开预览版。
 * [容量监视应用](https://powerbi.microsoft.com/blog/new-monitoring-capabilities-for-power-bi-premium-capacities/)的内存中的数据大小和数据集数量。
 
 ### <a name="october-2018"></a>2018 年 10 月

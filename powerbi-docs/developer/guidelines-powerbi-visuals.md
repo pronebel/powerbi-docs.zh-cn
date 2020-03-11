@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.topic: conceptual
 ms.subservice: powerbi-custom-visuals
 ms.date: 07/16/2019
-ms.openlocfilehash: 6bf7610a010a72248a3d2fdd96718eea513a68da
-ms.sourcegitcommit: 8e3d53cf971853c32eff4531d2d3cdb725a199af
+ms.openlocfilehash: 0203c191965bd2a496c1a5062b85af64d22b3b76
+ms.sourcegitcommit: 743167a911991d19019fef16a6c582212f6a9229
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "75000080"
+ms.lasthandoff: 03/06/2020
+ms.locfileid: "78400445"
 ---
 # <a name="guidelines-for-power-bi-visuals"></a>Power BI 视觉对象指南
 在将 Power BI 视觉对象[发布](https://docs.microsoft.com/power-bi/developer/office-store)到 Microsoft AppSource 供其他人了解和使用之前，请遵循相关指南，为用户创造好的体验。
@@ -28,7 +28,7 @@ IAP Power BI 视觉对象与免费 Power BI 视觉对象类似，也可以认证
 
 IAP Power BI 视觉对象是一种免费的视觉对象，可提供免费功能   。 它还有一些高级功能，可能需要支付额外费用。 在 Power BI 视觉对象的描述中，开发人员必须告知用户哪些功能需要额外付费。 目前，Microsoft 不提供支持购买应用和加载项的本机 API。
 
-开发人员可使用各种第三方支付系统进行购买。 有关详细信息，请参阅[我们的应用商店策略](https://docs.microsoft.com/office/dev/store/validation-policies#2-apps-or-add-ins-can-display-certain-ads)。
+开发人员可使用各种第三方支付系统进行购买。 有关详细信息，请参阅[我们的应用商店策略](https://docs.microsoft.com/legal/marketplace/certification-policies#11002-displaying-ads)。
 
 
 >[!IMPORTANT]  

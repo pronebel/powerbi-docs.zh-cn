@@ -8,12 +8,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 09/15/2019
 ms.author: tebercov
-ms.openlocfilehash: 4b3158cbe26efe05e3d35c1c6c93027738cc817a
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 649f4d002c9adbfa882c4ee4320f040f490fd116
+ms.sourcegitcommit: 87b7cb4a2e626711b98387edaa5ff72dc26262bb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73871496"
+ms.lasthandoff: 03/10/2020
+ms.locfileid: "79041714"
 ---
 # <a name="create-a-template-app-in-power-bi"></a>在 Power BI 中创建模板应用
 
@@ -50,7 +50,7 @@ Power BI 租户管理员管理和控制组织中谁可以创建模板应用，�
 
     ![开发模板应用](media/service-template-apps-create/power-bi-template-app-develop.png)
 
-5. 选择**保存**。
+5. 选择“保存”。 
 >[!NOTE]
 >需要 Power BI 管理员授权才能提升模板应用。
 
@@ -58,7 +58,7 @@ Power BI 租户管理员管理和控制组织中谁可以创建模板应用，�
 
 与常规 Power BI 工作区一样，下一步是在工作区中创建内容。  
 
-- 在工作区中[创建 Power BI 内容](power-bi-creator-landing.md)。
+- 在工作区中[创建 Power BI 内容](index.yml)。
 
 如果在 Power Query 中使用参数，请确保这些参数具有明确定义的类型（例如，Text）。 不支持 Any 和 Binary 类型。
 

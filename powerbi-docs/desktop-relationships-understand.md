@@ -8,14 +8,14 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 10/15/2019
 ms.author: v-pemyer
-ms.openlocfilehash: 7be55c8b44a89ad5b317743b62e033cf34a01ef9
-ms.sourcegitcommit: b59ec11a4a0a3d5be2e4d91548d637d31b3491f8
+ms.openlocfilehash: 991f8b47337ba563ecfd223d69d687269a44ed78
+ms.sourcegitcommit: 87b7cb4a2e626711b98387edaa5ff72dc26262bb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/05/2020
-ms.locfileid: "78290673"
+ms.lasthandoff: 03/10/2020
+ms.locfileid: "79041599"
 ---
-# <a name="create-model-relationships-in-power-bi-desktop"></a>在 Power BI Desktop 中创建模型关系
+# <a name="model-relationships-in-power-bi-desktop"></a>Power BI Desktop 中的模型关系
 
 本文主要面向使用 Power BI Desktop 的 Import 数据建模者。 这是重要的模型设计主题，对于提供直观、准确的最佳模型至关重要。
 
