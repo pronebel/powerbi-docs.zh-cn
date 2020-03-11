@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 11/04/2019
-ms.openlocfilehash: f9ed7f47c0f36e540d22270048e93acd2d3a8e21
-ms.sourcegitcommit: df8bcc65f0df69bf1fc1d47eb06575742eac1622
+ms.openlocfilehash: 09471cdacacc8d0b1067598cefac41915b0ef0d7
+ms.sourcegitcommit: ced8c9d6c365cab6f63fbe8367fb33e6d827cb97
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2020
-ms.locfileid: "75953759"
+ms.lasthandoff: 03/07/2020
+ms.locfileid: "78920924"
 ---
 # <a name="implementing-row-level-security-in-embedded-paginated-reports-preview"></a>在嵌入的分页报表中实现行级别安全性（预览）
 
@@ -26,13 +26,13 @@ ms.locfileid: "75953759"
 
 ## <a name="configuring-a-parameter-to-filter-the-dataset"></a>配置参数以筛选数据集
 
-将行级别安全性应用于 Power BI 分页报表时，需要将[参数](../report-builder-parameters.md)分配到 UserID 特性  。 此参数将限制嵌入报表前从数据集中提取的数据。
+将行级别安全性应用于 Power BI 分页报表时，需要将[参数](../paginated-reports/report-builder-parameters.md)分配到 UserID 特性  。 此参数将限制嵌入报表前从数据集中提取的数据。
 
 将参数分配到 UserID 后，使用 [Reports GenerateTokenForCreateInGroup](https://docs.microsoft.com/rest/api/power-bi/embedtoken/reports_generatetokenforcreateingroup) API 获取嵌入令牌  。
 
 ## <a name="use-userid-as-a-filter-at-report-or-query-level"></a>在报表或查询级别使用 UderID 作为筛选器
 
-可以使用 UserId  作为筛选器  ，也可将其用于对 [Power BI Report Builder](../report-builder-power-bi.md) 中数据源的查询  。
+可以使用 UserId  作为筛选器  ，也可将其用于对 [Power BI Report Builder](../paginated-reports/report-builder-power-bi.md) 中数据源的查询  。
 
 ### <a name="using-the-filter"></a>使用筛选器
 

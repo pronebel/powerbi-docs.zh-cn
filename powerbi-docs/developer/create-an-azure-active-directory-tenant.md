@@ -8,20 +8,20 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 05/28/2019
-ms.openlocfilehash: bdad4a068a5463bd683bc0dbfd20e68873599ace
-ms.sourcegitcommit: c395fe83d63641e0fbd7c98e51bbab224805bbcc
+ms.openlocfilehash: c1944f80616b748d1120d28b1ba91e1f0f2ab6e8
+ms.sourcegitcommit: 87b7cb4a2e626711b98387edaa5ff72dc26262bb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/21/2019
-ms.locfileid: "74265135"
+ms.lasthandoff: 03/10/2020
+ms.locfileid: "79041438"
 ---
 # <a name="create-an-azure-active-directory-tenant-to-use-with-power-bi"></a>创建要用于 Power BI 的 Azure Active Directory 租户
 
-了解如何为调用 [Power BI REST API](rest-api-reference.md) 的自定义应用程序创建新 Azure Active Directory (Azure AD) 租户。
+了解如何为调用 [Power BI REST API](automation/rest-api-reference.md) 的自定义应用程序创建新 Azure Active Directory (Azure AD) 租户。
 
 租户表示 Azure Active Directory 中的组织。 它是专用的 Azure AD 服务实例，组织在注册 Azure、Microsoft Intune 或 Office 365 等 Microsoft 云服务时收到并拥有该服务实例。 各个 Azure AD 租户各不相同，相互独立。
 
-拥有 Azure AD 租户后，可以定义应用程序并为其分配权限，以便该应用程序可以调用 [Power BI REST API](rest-api-reference.md)。
+拥有 Azure AD 租户后，可以定义应用程序并为其分配权限，以便该应用程序可以调用 [Power BI REST API](automation/rest-api-reference.md)。
 
 你的组织可能已拥有你可用于应用程序的 Azure AD 租户。 还可以专门为应用程序创建新租户。 本文介绍如何创建新租户。
 

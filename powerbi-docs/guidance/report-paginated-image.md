@@ -8,16 +8,16 @@ ms.subservice: report-builder
 ms.topic: conceptual
 ms.date: 02/16/2020
 ms.author: v-pemyer
-ms.openlocfilehash: 09fd2197cca31e083c0242b187d7e242244235eb
-ms.sourcegitcommit: b22a9a43f61ed7fc0ced1924eec71b2534ac63f3
+ms.openlocfilehash: d2f3f36911c72df1b95ceb5bd90043870559cc62
+ms.sourcegitcommit: ced8c9d6c365cab6f63fbe8367fb33e6d827cb97
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "77530363"
+ms.lasthandoff: 03/07/2020
+ms.locfileid: "78920712"
 ---
 # <a name="image-use-guidance-for-paginated-reports"></a>分页报表的图像使用指南
 
-本文面向设计 Power BI [分页报表](../paginated-reports-report-builder-power-bi.md)的报表作者。 它在处理图像时提供建议。 通常，报表布局中的图像可以显示公司徽标或图片之类的图形。
+本文面向设计 Power BI [分页报表](../paginated-reports/paginated-reports-report-builder-power-bi.md)的报表作者。 它在处理图像时提供建议。 通常，报表布局中的图像可以显示公司徽标或图片之类的图形。
 
 图像可以存储在三个不同的位置：
 
@@ -47,12 +47,12 @@ ms.locfileid: "77530363"
 - **使用数据库存储**：当关系数据库存储图像数据时，可以直接从数据库表中获取图像数据，尤其是在图像不太大的情况下。
 - **适当的背景图像**：如果决定使用背景图像，请注意不要分散报表用户对报表数据的注意力。 
 
-    此外，请务必使用水印样式的图像。 通常，水印样式的图像具有透明背景（或具有报表所用的背景色）。 它们还使用淡色。 水印样式图像的常见示例包括公司徽标或敏感度标签（如“草稿”或“机密”）。
+    此外，请务必使用水印样式的图像  。 通常，水印样式的图像具有透明背景（或具有报表所用的背景色）。 它们还使用淡色。 水印样式图像的常见示例包括公司徽标或敏感度标签（如“草稿”或“机密”）。
 
 ## <a name="next-steps"></a>后续步骤
 
 有关本文的详细信息，请参阅以下资源：
 
-- [Power BI Premium 中的分页报表是什么？](../paginated-reports-report-builder-power-bi.md)
+- [Power BI Premium 中的分页报表是什么？](../paginated-reports/paginated-reports-report-builder-power-bi.md)
 - 是否有任何问题? [尝试咨询 Power BI 社区](https://community.powerbi.com/)
 - 建议？ [提出改进 Power BI 的想法](https://ideas.powerbi.com/)

@@ -8,12 +8,12 @@ ms.subservice: powerbi-admin
 ms.topic: conceptual
 ms.date: 01/03/2020
 ms.author: v-pemyer
-ms.openlocfilehash: f8b7cc302cd4a26aa099f723f47865723dccb7c9
-ms.sourcegitcommit: b59ec11a4a0a3d5be2e4d91548d637d31b3491f8
+ms.openlocfilehash: cf11b98d7eacd7b1e245fb0aed62d0f14e7f4c4c
+ms.sourcegitcommit: 87b7cb4a2e626711b98387edaa5ff72dc26262bb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/05/2020
-ms.locfileid: "78290627"
+ms.lasthandoff: 03/10/2020
+ms.locfileid: "79041302"
 ---
 # <a name="migrate-sql-server-reporting-services-reports-to-power-bi"></a>将 SQL Server Reporting Services 报表迁移到 Power BI
 
@@ -60,11 +60,11 @@ ms.locfileid: "78290627"
 
 该工具自动执行以下任务：
 
-- 检查[不支持的数据源](../paginated-reports-data-sources.md)和[不支持的报表功能](../paginated-reports-faq.md#what-paginated-report-features-in-ssrs-arent-yet-supported-in-power-bi)
-- 将任何共享资源转换为嵌入资源   ：
-  - 共享数据源成为嵌入数据源 
-  - 共享数据集成为嵌入数据集 
-- 将（通过检查的）报表作为分页报表发布到指定的 Power BI 工作区（在高级容量中）
+* 检查[不支持的数据源](../paginated-reports/paginated-reports-data-sources.md)和[不支持的报表功能](../paginated-reports/paginated-reports-faq.md#what-paginated-report-features-in-ssrs-arent-yet-supported-in-power-bi)
+* 将任何共享资源转换为嵌入资源   ：
+  * 共享数据源成为嵌入数据源 
+  * 共享数据集成为嵌入数据集 
+* 将（通过检查的）报表作为分页报表发布到指定的 Power BI 工作区（在高级容量中）
 
 它不会修改或删除现有报表。 完成后，该工具将输出已完成的所有操作（无论成功与否）的摘要。
 
@@ -102,7 +102,7 @@ Microsoft 可能会随时间对该工具进行改进。 并且还鼓励社区促
 
 <sup>1</sup> [RDL 迁移工具](https://github.com/microsoft/RdlMigration)自动转换共享数据源和共享数据集，前提是它们使用受支持的数据源。
 
-如果 RDL 报表依赖于 [Power BI 分页报表尚不支持的功能](../paginated-reports-faq.md#what-paginated-report-features-in-ssrs-arent-yet-supported-in-power-bi)，则可以计划将其重新开发为 [Power BI 报表](../consumer/end-user-reports.md)。 即使你的 RDL 报表可以迁移，我们也建议你在有意义的情况下考虑将它们现代化为 Power BI 报表。
+如果 RDL 报表依赖于 [Power BI 分页报表尚不支持的功能](../paginated-reports/paginated-reports-faq.md#what-paginated-report-features-in-ssrs-arent-yet-supported-in-power-bi)，则可以计划将其重新开发为 [Power BI 报表](../consumer/end-user-reports.md)。 即使你的 RDL 报表可以迁移，我们也建议你在有意义的情况下考虑将它们现代化为 Power BI 报表。
 
 如果 RDL 报表需要从本地数据源  检索数据，则它们不能使用单一登录 (SSO)。 目前，将使用网关数据源用户帐户  的安全上下文来从这些源检索所有数据。 SQL Server Analysis Services (SSAS) 不可能基于每个用户强制执行行级别安全性 (RLS)。
 
@@ -113,7 +113,7 @@ Microsoft 可能会随时间对该工具进行改进。 并且还鼓励社区促
 “准备”阶段的目标是准备好一切事情  。 它包括设置 Power BI 环境、计划如何保护和发布报表，以及重新开发不会迁移的 SSRS 项的想法。
 
 1. 确保为 Power BI Premium 容量启用了[分页报表工作负荷](../service-admin-premium-workloads.md#paginated-reports)，并且该工作负荷具有足够的内存。
-1. 验证对报表[数据源](../paginated-reports-data-sources.md)的支持，并设置 [Power BI 网关](../service-gateway-onprem.md)以允许与任何本地数据源连接。
+1. 验证对报表[数据源](../paginated-reports/paginated-reports-data-sources.md)的支持，并设置 [Power BI 网关](../service-gateway-onprem.md)以允许与任何本地数据源连接。
 1. 熟悉 Power BI 安全性，并计划如何通过 [Power BI 工作区和工作区角色](../service-new-workspaces.md)[复制 SSRS 文件夹和权限](/sql/reporting-services/security/secure-folders)。
 1. 熟悉 Power BI 共享，并计划如何通过发布 [Power BI 应用](../service-create-distribute-apps.md)来分发内容。
 1. 考虑使用[共享 Power BI 数据集](../service-datasets-build-permissions.md)来代替 SSRS 共享数据源。
@@ -121,7 +121,7 @@ Microsoft 可能会随时间对该工具进行改进。 并且还鼓励社区促
 1. 重新计算报表中 UserID  内置字段的使用。 如果依赖于 UserID  来保护报表数据，则请注意，对于分页报表（在 Power BI 服务中托管时），它会返回用户主体名称 (UPN)。 因此，内置字段将返回诸如  m.blythe&commat;adventureworks.com 的内容，而不会返回 NT 帐户名称，例如 AW\mblythe  。 你将需要修订数据集定义，可能还需要修订源数据。 修订并发布后，建议全面测试报表，以确保数据权限按预期方式工作。
 1. 重新计算报表中 ExecutionTime  内置字段的使用。 对于分页报表（在 Power BI 服务中托管时），内置字段以协调世界时（或 UTC）  返回日期/时间。 这可能会影响报表参数默认值和报表执行时间标签（通常被添加到报表页脚）。
 1. 如果你的数据源是 SQL Server（本地），请验证报表是否未使用地图可视化效果。 地图可视化效果依赖于 SQL Server 空间数据类型，网关不支持这些数据类型。 有关详细信息，请参阅[分页报表的数据检索指南（SQL Server 复杂数据类型）](report-paginated-data-retrieval.md#sql-server-complex-data-types)。
-1. 确保你的报表作者已安装 [Power BI 报表生成器](../report-builder-power-bi.md)，并且可以轻松地在组织中分发更高版本。
+1. 确保你的报表作者已安装 [Power BI 报表生成器](../paginated-reports/report-builder-power-bi.md)，并且可以轻松地在组织中分发更高版本。
 
 ## <a name="migration-stage"></a>迁移阶段
 
@@ -137,7 +137,7 @@ Microsoft 可能会随时间对该工具进行改进。 并且还鼓励社区促
 1. 下载每个报表定义，将 .rdl 文件保存在本地。
 1. 打开 Power BI 报表生成器的最新版本，并使用 Azure AD 凭据连接到 Power BI 服务  。
 1. 在 Power BI 报表生成器中打开每个报表，然后：
-   1. 验证所有数据源和数据集是否都嵌入到了报表定义中，以及它们是否是[受支持的数据源](../paginated-reports-data-sources.md)。
+   1. 验证所有数据源和数据集是否都嵌入到了报表定义中，以及它们是否是[受支持的数据源](../paginated-reports/paginated-reports-data-sources.md)。
    1. 预览报表以确保其正确呈现。
    1. 选择“另存为”选项，然后选择“Power BI 服务”   。
    1. 选择将包含报表的工作区。
@@ -156,7 +156,7 @@ Microsoft 可能会随时间对该工具进行改进。 并且还鼓励社区促
 
 有关 API 的详细信息，请参阅：
 
-- [Power BI REST API 引用](../developer/rest-api-reference.md)
+- [Power BI REST API 引用](../developer/automation/rest-api-reference.md)
 - [SQL Server Reporting Services REST API](/sql/reporting-services/developer/rest-api)
 
 ## <a name="post-migration-stage"></a>迁移后阶段
@@ -165,7 +165,7 @@ Microsoft 可能会随时间对该工具进行改进。 并且还鼓励社区促
 
 ### <a name="configure-data-sources"></a>配置数据源
 
-将报表迁移到 Power BI 之后，需要确保正确设置其数据源。 它可以包括分配给网关数据源，以及[安全地存储数据源凭据](../paginated-reports-data-sources.md#azure-sql-database-authentication)。 RDL 迁移工具不会执行这些操作。
+将报表迁移到 Power BI 之后，需要确保正确设置其数据源。 它可以包括分配给网关数据源，以及[安全地存储数据源凭据](../paginated-reports/paginated-reports-data-sources.md#azure-sql-database-authentication)。 RDL 迁移工具不会执行这些操作。
 
 ### <a name="review-report-performance"></a>查看报表性能
 
@@ -190,13 +190,13 @@ Microsoft 可能会随时间对该工具进行改进。 并且还鼓励社区促
 
 有关本文的详细信息，请参阅以下资源：
 
-- [Power BI Premium 中的分页报表是什么？](../paginated-reports-report-builder-power-bi.md)
+- [Power BI Premium 中的分页报表是什么？](../paginated-reports/paginated-reports-report-builder-power-bi.md)
 - [分页报表的数据检索指南](report-paginated-data-retrieval.md)
 - [何时使用 Power BI 中的分页报表](report-paginated-or-power-bi.md)
-- [Power BI 中的分页报表：常见问题解答](../paginated-reports-faq.md)
+- [Power BI 中的分页报表：常见问题解答](../paginated-reports/paginated-reports-faq.md)
 - [Power BI Premium 常见问题解答](../service-premium-faq.md)
 - [RDL 迁移工具](https://github.com/microsoft/RdlMigration)
 - 是否有任何问题? [尝试咨询 Power BI 社区](https://community.powerbi.com/)
-- 建议？ [提出改进 Power BI 的想法](https://ideas.powerbi.com/)
+- 建议？ [提出改进 Power BI 的想法](https://ideas.powerbi.com)
 
 Power BI 合作伙伴可帮助你的组织成功完成迁移过程。 若要加入 Power BI 合作伙伴，请访问 [Power BI 合作伙伴门户](https://powerbi.microsoft.com/partners/)。

@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 01/16/2020
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 4e42a00c516cf9cd24c307c8f953a6cc7f840314
-ms.sourcegitcommit: 02342150eeab52b13a37b7725900eaf84de912bc
+ms.openlocfilehash: f4e7d1aa580f7ad95da103fc2cb1e7e069a80ee6
+ms.sourcegitcommit: ced8c9d6c365cab6f63fbe8367fb33e6d827cb97
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/23/2020
-ms.locfileid: "76539692"
+ms.lasthandoff: 03/10/2020
+ms.locfileid: "78946866"
 ---
 # <a name="export-the-data-that-was-used-to-create-a-visualization"></a>探索用于创建可视化效果的数据
 
@@ -166,7 +166,7 @@ Power BI 管理员和设计人员应使用几种策略来保护专有数据。
 
 - 数据集所有者可以设置行级别安全性 (RLS)。 RLS 将限制对只读用户的访问。 但是，如果已配置应用工作区，并且授予给定成员编辑权限，则将不会对其应用 RLS 角色。 有关详细信息，请参阅[行级别安全性](../service-admin-rls.md)。
 
-- 报表设计人员可以隐藏列，使其不显示在“字段”列表中  。 有关详细信息，请参阅[数据集属性](../developer/api-dataset-properties.md)
+- 报表设计人员可以隐藏列，使其不显示在“字段”列表中  。 有关详细信息，请参阅[数据集属性](../developer/automation/api-dataset-properties.md)
 
 - Power BI 管理员可以将[敏感度标签](../admin/service-security-data-protection-overview.md)添加到仪表板、报表、数据集和数据流中。 然后，在导出数据时，他们可以强制执行加密或水印等保护设置。 
 

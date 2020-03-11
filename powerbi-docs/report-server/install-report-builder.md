@@ -8,18 +8,18 @@ ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 01/07/2020
-ms.openlocfilehash: 1cf8797939eafb69734ecd0f4be752926d1994a1
-ms.sourcegitcommit: df8bcc65f0df69bf1fc1d47eb06575742eac1622
+ms.openlocfilehash: a18e0a094c5bc42f7a77a045ac7b552e458e5628
+ms.sourcegitcommit: ced8c9d6c365cab6f63fbe8367fb33e6d827cb97
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2020
-ms.locfileid: "75953934"
+ms.lasthandoff: 03/07/2020
+ms.locfileid: "78919847"
 ---
 # <a name="install-report-builder---power-bi-report-server"></a>安装报表生成器 - Power BI 报表服务器
 
 报表生成器是一个独立应用，由你或管理员安装到你的电脑上。 你可以从 Microsoft 下载中心或 Power BI 报表服务器安装它。  
 
-正在查找有关为 Power BI 服务安装报表生成器的帮助吗？ 请参阅 [Power BI Report Builder](../report-builder-power-bi.md)。
+正在查找有关为 Power BI 服务安装报表生成器的帮助吗？ 请参阅 [Power BI Report Builder](../paginated-reports/report-builder-power-bi.md)。
   
 通常，由管理员安装和配置 Power BI 报表服务器、授予从 Web 门户下载报表生成器的权限，以及管理文件夹与对报表和保存到报表服务器的共享数据集的权限。 有关 Power BI 报表服务器管理的详细信息，请参阅[管理员概述：Power BI 报表服务器](admin-handbook-overview.md)。  
   

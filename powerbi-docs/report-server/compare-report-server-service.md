@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.custom: mvc
 ms.date: 03/04/2020
-ms.openlocfilehash: a48f9c5938c93376cc5dcdbe3491ee2a7e6813c0
-ms.sourcegitcommit: b59ec11a4a0a3d5be2e4d91548d637d31b3491f8
+ms.openlocfilehash: 4c48b9c2695c7feab5897527c9ff2fbf2a2d0455
+ms.sourcegitcommit: ced8c9d6c365cab6f63fbe8367fb33e6d827cb97
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/05/2020
-ms.locfileid: "78290650"
+ms.lasthandoff: 03/07/2020
+ms.locfileid: "78920937"
 ---
 # <a name="comparing-power-bi-report-server-and-the-power-bi-service"></a>比较 Power BI 报表服务器和 Power BI 服务
 
@@ -41,7 +41,7 @@ Power BI 报表服务器和 Power BI 服务有许多相似之处和一些关键�
 | 问答 | 否 | 是 | [Power BI 服务和 Power BI Desktop 中的问答](../power-bi-tutorial-q-and-a.md) 
 | 快速见解 | 否 | 是 | [通过 Power BI 自动生成数据见解](../consumer/end-user-insights.md) |
 | 在 Excel 中分析 | 否 | 是 | [在 Excel 中分析](../service-analyze-in-excel.md) 
-| 分页报表 | 是 | 是 | [Power BI 服务中提供的分页报表](../paginated-reports-report-builder-power-bi.md)在高级容量中处于预览状态 |
+| 分页报表 | 是 | 是 | [Power BI 服务中提供的分页报表](../paginated-reports/paginated-reports-report-builder-power-bi.md)在高级容量中处于预览状态 |
 | Power BI 移动应用 | 是 | 是 | [Power BI 移动应用概述](../consumer/mobile/mobile-apps-for-mobile-devices.md) |
 | ARC GIS 地图 | 否 | 是 | [Power BI 服务和 Power BI Desktop 中通过 Esri 实现的 ArcGIS 地图](../visuals/power-bi-visualization-arcgis.md) |
 | Power BI 报表的电子邮件订阅 | 否 | 是 | 在 Power BI 服务中[为自己或他人订阅](../service-report-subscribe.md)报表或仪表板 |
