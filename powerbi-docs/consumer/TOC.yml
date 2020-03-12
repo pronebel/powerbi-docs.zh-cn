@@ -66,6 +66,8 @@
               href: end-user-powerpoint.md
             - name: 向报表添加书签
               href: end-user-bookmarks.md
+            - name: 向报表添加聚焦
+              href: end-user-spotlight.md
             - name: Power BI 中的分页报表
               items:
                 - name: 分页报表
@@ -116,6 +118,8 @@
               href: end-user-notification-center.md
         - name: 获取数据
           items:
+            - name: Power BI 中的工作区
+              href: end-user-workspaces.md
             - name: Power BI 中的“应用”
               href: end-user-apps.md
             - name: 安装和使用应用

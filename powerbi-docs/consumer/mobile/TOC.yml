@@ -7,6 +7,8 @@
       items:
         - name: 什么是移动应用？
           href: mobile-apps-for-mobile-devices.md
+        - name: 移动应用中的新增功能
+          href: mobile-whats-new-in-the-mobile-apps.md
         - name: 了解主页
           href: mobile-apps-home-page.md
     - name: 快速入门
@@ -22,8 +24,6 @@
     - name: 概念
       expanded: true
       items:
-        - name: 移动应用中的新增功能
-          href: mobile-whats-new-in-the-mobile-apps.md
         - name: 使用移动应用获取实际数据
           href: mobile-apps-data-in-real-world-context.md
         - name: 在移动应用中脱机查看数据
@@ -44,8 +44,6 @@
               href: mobile-share-dashboard-from-the-mobile-apps.md
             - name: 移动应用中的收藏夹
               href: mobile-apps-favorites.md
-            - name: 配置交互设置（仅限手机）
-              href: mobile-app-interaction-settings.md
             - name: 在 Power BI 移动应用中设置数据警报
               href: mobile-set-data-alerts-in-the-mobile-apps.md
             - name: 获取 Power BI 移动应用中的通知
@@ -70,6 +68,8 @@
               href: mobile-annotate-and-share-a-tile-from-the-mobile-apps.md
             - name: 从 Power BI 移动应用中扫描条形码
               href: mobile-apps-scan-barcode-iphone.md
+            - name: 配置交互设置
+              href: mobile-app-interaction-settings.md
             - name: 使用移动设备管理进行配置
               href: mobile-app-configuration.md
         - name: iOS
@@ -100,7 +100,7 @@
               href: mobile-windows-10-phone-app-get-started.md
             - name: 将仪表板固定到开始屏幕
               href: mobile-pin-dashboard-start-screen-windows-10-phone-app.md
-            - name: 查看 Reporting Services 移动报表和 KPI
+            - name: 查看本地报表和 KPI
               href: mobile-app-windows-10-ssrs-kpis-mobile-reports.md
             - name: 查看 Surface Hub 上的 Power BI
               href: mobile-windows-10-app-presentation-mode.md

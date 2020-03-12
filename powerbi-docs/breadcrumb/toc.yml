@@ -2,26 +2,41 @@
   href: /
   topicHref: /
   items:
-    - name: Power BI
-      tocHref: /power-bi/
-      topicHref: /power-bi/
+    - name: Power Platform
+      href: /power-platform/
+      topicHref: /power-platform/
       items:
-        - name: 使用者
-          tocHref: /power-bi/consumer/
-          topicHref: /power-bi/consumer/power-bi-consumer-landing
-        - name: 开发人员
-          tocHref: /power-bi/developer/
-          topicHref: /power-bi/developer/index
+        - name: Power BI
+          tocHref: /power-bi/
+          topicHref: /power-bi/
           items:
-            - name: 在 Power BI 中使用 R 驱动的 Power BI 视觉对象
+            - name: 使用者
+              tocHref: /power-bi/consumer/
+              topicHref: /power-bi/consumer/index
+            - name: 开发人员
               tocHref: /power-bi/developer/
               topicHref: /power-bi/developer/index
-        - name: 引导式学习
-          tocHref: /power-bi/guided-learning/
-          topicHref: /power-bi/guided-learning/
-        - name: 报表服务器
-          tocHref: /power-bi/report-server/
-          topicHref: /power-bi/report-server/get-started
-        - name: 指南
-          tocHref: /power-bi/guidance/
-          topicHref: /power-bi/guidance/index
+            - name: 引导式学习
+              tocHref: /power-bi/guided-learning/
+              topicHref: /power-bi/guided-learning/
+            - name: 报表服务器
+              tocHref: /power-bi/report-server/
+              topicHref: /power-bi/report-server/index
+            - name: 指南
+              tocHref: /power-bi/guidance/
+              topicHref: /power-bi/guidance/index
+            - name: 协作、共享、集成
+              tocHref: /power-bi/collaborate-share/
+              topicHref: /power-bi/collaborate-share/index
+            - name: 创建报表和仪表板
+              tocHref: /power-bi/create-reports/
+              topicHref: /power-bi/create-reports/index
+            - name: 连接到数据
+              tocHref: /power-bi/connect-data/
+              topicHref: /power-bi/connect-data/index
+            - name: 开始使用
+              tocHref: /power-bi/fundamentals/
+              topicHref: /power-bi/fundamentals/index
+            - name: 转换、形状和模型数据
+              tocHref: /power-bi/transform-model/
+              topicHref: /power-bi/transform-model/index
