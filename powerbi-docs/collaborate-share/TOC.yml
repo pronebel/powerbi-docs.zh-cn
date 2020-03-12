@@ -31,6 +31,8 @@
               href: ../service-create-distribute-apps.md
             - name: 管理工作区中的数据存储
               href: ../service-admin-manage-your-data-storage-in-power-bi.md
+            - name: 数据世系
+              href: service-data-lineage.md
             - name: 连接到组的 OneDrive 上的文件
               href: ../service-connect-to-files-in-app-workspace-onedrive-for-business.md
             - name: 在经典工作区中协作

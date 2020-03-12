@@ -313,8 +313,6 @@
               href: ../desktop-accessibility-consuming-tools.md
             - name: Power BI Desktop 中的键盘快捷方式
               href: ../desktop-accessibility-keyboard-shortcuts.md
-        - name: 数据世系
-          href: ../service-data-lineage.md
         - name: 分页报表
           items:
             - name: 直接在分页报表中输入数据
