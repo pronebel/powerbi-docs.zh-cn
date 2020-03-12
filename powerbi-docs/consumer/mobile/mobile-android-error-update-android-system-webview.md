@@ -1,19 +1,19 @@
 ---
 title: 修复“需要更新 Android System Webview”的问题- Power BI
 description: 在登录 Android 移动应用时，你可能会收到一条消息，提示你需要更新 Android System Webview。
-author: mshenhav
+author: paulinbar
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: conceptual
-ms.date: 06/28/2018
-ms.author: mshenhav
-ms.openlocfilehash: d156d438086cbfe4a471c20f38dfb17424554406
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.date: 03/11/2020
+ms.author: painbar
+ms.openlocfilehash: 82005eb448164b863811ab78a8f76ed954da60a2
+ms.sourcegitcommit: 480bba9c745cb9af2005637e693c5714b3c64a8a
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73879513"
+ms.lasthandoff: 03/11/2020
+ms.locfileid: "79114545"
 ---
 # <a name="fixing-need-to-update-android-system-webview"></a>修复“需要更新 Android System Webview”的问题
 登录适用于 Microsoft Power BI 的 Android 移动应用时，可能会收到一条消息，提示你需要更新 Android System Webview。 

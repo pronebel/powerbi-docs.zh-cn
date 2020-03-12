@@ -4,21 +4,22 @@ description: 使用导航这一预览功能，可以更轻松地查看仪表板�
 author: mihart
 ms.reviewer: ''
 featuredvideoid: B2vd4MQrz4M
-ms.custom: seodec18
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 09/18/2019
+ms.date: 03/11/2020
 ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: 9e202d22c2ff42a29eb28a8ee154b09f18097d04
-ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
+ms.openlocfilehash: 0d3bbbf9042d2b0d1a42ab9c1f759ccfd03c6609
+ms.sourcegitcommit: 480bba9c745cb9af2005637e693c5714b3c64a8a
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/06/2020
-ms.locfileid: "73862285"
+ms.lasthandoff: 03/11/2020
+ms.locfileid: "79114381"
 ---
 # <a name="view-related-content-in-the-power-bi-service"></a>查看 Power BI 服务中的相关内容
+
+[!INCLUDE[consumer-appliesto-ynny](../includes/consumer-appliesto-ynny.md)]
 
 [!INCLUDE [power-bi-service-new-look-include](../includes/power-bi-service-new-look-include.md)]
 

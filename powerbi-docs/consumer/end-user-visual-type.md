@@ -6,17 +6,20 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 01/15/2020
+ms.date: 03/11/2020
 ms.author: mihart
 LocalizationGroup: Consumer
-ms.openlocfilehash: 6fd970064bbe686a433fba0c0675948576edd8c1
-ms.sourcegitcommit: 0ae9328e7b35799d5d9613a6d79d2f86f53d9ab0
+ms.openlocfilehash: d9e291ff4f61f69ec84e39767906a79f65c2f30f
+ms.sourcegitcommit: 480bba9c745cb9af2005637e693c5714b3c64a8a
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/16/2020
-ms.locfileid: "76039076"
+ms.lasthandoff: 03/11/2020
+ms.locfileid: "79114178"
 ---
 # <a name="visual-types-in-power-bi"></a>Power BI 中的视觉对象类型
+
+[!INCLUDE[consumer-appliesto-yynn](../includes/consumer-appliesto-yynn.md)]
+
 你会在报表、仪表板和问答中找到视觉对象。 其中某些视觉对象类型与 Power BI 打包在一起，另有一些是自定义视觉对象  。 自定义视觉对象在 Power BI 外部创建，其创建方式使报表设计器  可以将它们添加到 Power BI 报表和仪表板。 
 
 本文是与 Power BI 服务打包在一起的视觉对象的概述。  这些是最常遇到的视觉对象。 有关这些视觉对象的详细信息，请参阅[有关视觉对象类型的 Power BI 报表设计器文档](../visuals/power-bi-visualization-types-for-reports-and-q-and-a.md) 

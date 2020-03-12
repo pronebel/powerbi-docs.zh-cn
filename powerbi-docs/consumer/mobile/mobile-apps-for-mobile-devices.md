@@ -1,20 +1,20 @@
 ---
 title: 什么是 Power BI 移动应用？
 description: 使用 Power BI 移动应用，可连接本地数据或云数据。 在移动设备上查看 Power BI 仪表板和报表。
-author: mshenhav
+author: paulinbar
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: overview
-ms.date: 04/26/2018
-ms.author: mshenhav
+ms.date: 03/11/2020
+ms.author: painbar
 ms.custom: ''
 ms.reviewer: ''
-ms.openlocfilehash: f5e0f44ff8f808c36ad2a89c64d70e847a59df02
-ms.sourcegitcommit: 01de0b01f66f28ca45b8d309d7864f261d6c9a85
+ms.openlocfilehash: 7318ec8f7305920d107424f381ca59b8836fe8da
+ms.sourcegitcommit: 480bba9c745cb9af2005637e693c5714b3c64a8a
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/16/2019
-ms.locfileid: "74128143"
+ms.lasthandoff: 03/11/2020
+ms.locfileid: "79114783"
 ---
 # <a name="what-are-the-power-bi-mobile-apps"></a>什么是 Power BI 移动应用？
 Power BI 提供一组适用于 iOS、Android 和 Windows 10 移动设备的移动应用。 在移动应用中，可连接到云和本地数据并与之进行交互。 
