@@ -10,11 +10,11 @@ ms.date: 03/07/2019
 ms.author: davidi
 LocalizationGroup: Conceptual
 ms.openlocfilehash: 538c533a1b951fd2dff1b481adb94e2b1d0cf87b
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.sourcegitcommit: 7e845812874b3347bcf87ca642c66bed298b244a
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73870897"
+ms.lasthandoff: 03/13/2020
+ms.locfileid: "79213594"
 ---
 # <a name="distribute-power-bi-content-to-external-guest-users-using-azure-active-directory-b2b"></a>使用 Azure Active Directory B2B 将 Power BI 内容分发给外部来宾用户
 
@@ -27,7 +27,7 @@ ms.locfileid: "73870897"
 > [!NOTE]
 > 可以从浏览器中选择“打印”，然后选择“另存为 PDF”文件，以保存或打印此白皮书。
 
-## <a name="introduction"></a>简介
+## <a name="introduction"></a>介绍
 
 Power BI 为组织提供了360度的业务视图，并使这些组织中的每个人都可以使用数据做出明智的决策。 其中的许多组织都具有与外部合作伙伴、客户和承包商的强大信任关系。 这些组织需要提供对这些外部合作伙伴中的用户 Power BI 的仪表板和报表的安全访问。
 
@@ -38,7 +38,7 @@ Power BI 与[Azure Active Directory 企业到企业（AZURE AD B2B）](https://d
 > [!NOTE]
 > 在此白皮书中，我们将 Azure Active Directory 称为 Azure AD 并 Azure Active Directory 企业 Azure AD B2B。
 
-## <a name="scenarios"></a>各种
+## <a name="scenarios"></a>方案
 
 Contoso 是一家汽车制造商，可与许多不同的供应商合作，为其提供运行其生产操作所需的所有组件、材料和服务。 Contoso 想要简化其供应链物流，并计划使用 Power BI 来监视其供应链的关键性能指标。 Contoso 想要以一种安全且可管理的方式与外部供应链合作伙伴分析共享。
 
@@ -218,7 +218,7 @@ Power BI 与 Azure AD B2B 的集成为 Contoso 提供一种无缝且无障碍的
 
 - Contoso 的 BI 团队在 Power BI 中创建一个工作区
 
-    ![空间](media/whitepaper-azure-b2b-power-bi/whitepaper-azure-b2b-power-bi_12.png)
+    ![工作区](media/whitepaper-azure-b2b-power-bi/whitepaper-azure-b2b-power-bi_12.png)
     
 
 - 其他作者已添加到工作区
@@ -336,7 +336,7 @@ Power BI 与 Azure AD B2B 的集成适用于所有业务电子邮件地址。 �
 Contoso 可以选择以下三种方法之一，让来宾用户从其供应商和合作伙伴组织那里获得 Power BI 内容的访问权限。
 
 > [!NOTE]
-> _Azure AD B2B's 免费层足以与 AZURE AD B2B 一起使用 Power BI。某些高级 Azure AD B2B 功能（如动态组）需要额外的许可。有关其他信息，请参阅 Azure AD B2B 文档：_ [ _https://docs.microsoft.com/azure/active-directory/b2b/licensing-guidance_ ](https://docs.microsoft.com/azure/active-directory/b2b/licensing-guidance)
+> _Azure AD B2B's 免费层足以与 AZURE AD B2B 一起使用 Power BI。某些高级 Azure AD B2B 功能（如动态组）需要额外的许可。有关其他信息，请参阅 Azure AD B2B 文档：_ [ _https://docs.microsoft.com/azure/active-directory/b2b/licensing-guidance_](https://docs.microsoft.com/azure/active-directory/b2b/licensing-guidance)
 
 ### <a name="approach-1-contoso-uses-power-bi-premium"></a>方法1： Contoso 使用 Power BI Premium
 
@@ -517,7 +517,7 @@ Power BI 管理门户在租户设置中的 "组织" 设置中提供 "**允许外
 
 
 
-## <a name="governance"></a>管理
+## <a name="governance"></a>调控
 
 ### <a name="additional-azure-ad-settings-that-affect-experiences-in-power-bi-related-to-azure-ad-b2b"></a>影响与 Azure AD B2B 相关的 Power BI 体验的其他 Azure AD 设置
 
@@ -586,7 +586,7 @@ Contoso 的另一种选择是通过自定义身份验证（["应用拥有数据"
 
 在 web 应用中，Power BI 报表嵌入 Power BI Embedded 部署。 Web 应用将简化对报表和任何相关服务的访问，旨在使供应商能够轻松地与 Contoso 交互。 此门户环境将与 Contoso 内部 AAD 和 Contoso 内部 Power BI 环境隔离，以确保供应商无法访问这些资源。 通常，数据将存储在单独的合作伙伴数据仓库中，以确保数据的隔离。 此隔离具有一些优点，因为它限制了可直接访问你的组织数据的外部用户的数量，从而限制了可能向外部用户提供的数据，以及限制与外部用户的意外共享。
 
-使用 Power BI Embedded，门户可以利用应用令牌、主用户和 Azure 模型中购买的高级容量来利用有利的许可，这简化了向最终用户分配许可证的顾虑，并可根据需要进行扩展/缩减使用情况. 门户可以提供整体上质量和一致的体验，因为合作伙伴可访问单个门户，该门户旨在满足合作伙伴的所有需求。 最后，由于基于 Power BI Embedded 的解决方案通常设计为多租户，因此可以更轻松地确保合作伙伴组织之间的隔离。
+使用 Power BI Embedded，门户可以利用应用令牌、主用户和 Azure 模型中购买的高级容量来利用有利的许可，这简化了向最终用户分配许可证，并可基于预期使用量增加/减少的问题。 门户可以提供整体上质量和一致的体验，因为合作伙伴可访问单个门户，该门户旨在满足合作伙伴的所有需求。 最后，由于基于 Power BI Embedded 的解决方案通常设计为多租户，因此可以更轻松地确保合作伙伴组织之间的隔离。
 
 选择此替代项的原因：
 
@@ -606,7 +606,7 @@ Contoso 的另一种选择是通过自定义身份验证（["应用拥有数据"
 
 
 
-## <a name="faq"></a>常见问题解答
+## <a name="faq"></a>常见问题
 
 **Contoso 是否可以发送自动兑换的邀请，使用户只需 "准备就绪"？或者，用户是否始终需要单击到兑换 URL？**
 
@@ -616,7 +616,7 @@ Contoso 的另一种选择是通过自定义身份验证（["应用拥有数据"
 
 **如果来宾用户的合作伙伴没有多重身份验证，Contoso 用户是否可以强制使用多因素身份验证？**
 
-是。 有关详细信息，请参阅[B2B 协作用户的条件性访问](https://docs.microsoft.com/azure/active-directory/active-directory-b2b-mfa-instructions)。
+可以。 有关详细信息，请参阅[B2B 协作用户的条件性访问](https://docs.microsoft.com/azure/active-directory/active-directory-b2b-mfa-instructions)。
 
 **当受邀伙伴使用联合添加自己的本地身份验证时，B2B 协作的工作原理是什么？**
 
