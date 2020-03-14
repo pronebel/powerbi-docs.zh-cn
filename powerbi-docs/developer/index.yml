@@ -12,12 +12,12 @@ metadata:
   author: maggiesMSFT
   ms.author: maggies
   ms.date: 10/25/2019
-  ms.openlocfilehash: 1c7d24ae1a941cb820bed8ce23a142771829dc6c
-  ms.sourcegitcommit: 87b7cb4a2e626711b98387edaa5ff72dc26262bb
+  ms.openlocfilehash: 94800e2b5996b9b9fc6bf60c4c95dd72b0725b81
+  ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
   ms.translationtype: HT
   ms.contentlocale: zh-CN
-  ms.lasthandoff: 03/10/2020
-  ms.locfileid: "79041415"
+  ms.lasthandoff: 03/14/2020
+  ms.locfileid: "79378239"
 landingContent:
 - title: 关于面向开发人员的 Power BI
   linkLists:
@@ -61,7 +61,7 @@ landingContent:
     links:
     - text: 认证视觉对象
       url: power-bi-custom-visuals-certified.md
-    - text: 将自定义视觉对象发布到 AppSource
+    - text: 将 Power BI 视觉对象发布到 AppSource
       url: office-store.md
 - title: 嵌入式分析
   linkLists:
