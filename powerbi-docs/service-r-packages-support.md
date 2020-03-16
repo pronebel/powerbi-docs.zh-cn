@@ -143,7 +143,7 @@ R 程序包存在大量要求和限制：
 |callr|2.0.2|https://cran.r-project.org/web/packages/callr/index.html|
 |car|2.1-6|https://cran.r-project.org/web/packages/car/index.html|
 |carData|3.0-1|https://cran.r-project.org/web/packages/carData/index.html|
-|脱字号|6.0-78|https://cran.r-project.org/web/packages/caret/index.html|
+|caret|6.0-78|https://cran.r-project.org/web/packages/caret/index.html|
 |catnet|1.15.3|https://cran.r-project.org/web/packages/catnet/index.html|
 |caTools|1.17.1|https://cran.r-project.org/web/packages/caTools/index.html|
 |cclust|0.6-21|https://cran.r-project.org/web/packages/cclust/index.html|
@@ -155,7 +155,7 @@ R 程序包存在大量要求和限制：
 |chron|2.3-52|https://cran.r-project.org/web/packages/chron/index.html|
 |circlize|0.4.3|https://cran.r-project.org/web/packages/circlize/index.html|
 |Ckmeans.1d.dp|4.2.1|https://cran.r-project.org/web/packages/Ckmeans.1d.dp/index.html|
-|类|7.3-14|https://cran.r-project.org/web/packages/class/index.html|
+|class|7.3-14|https://cran.r-project.org/web/packages/class/index.html|
 |classInt|0.1-24|https://cran.r-project.org/web/packages/classInt/index.html|
 |cli|1.0.0|https://cran.r-project.org/web/packages/cli/index.html|
 |ClickClust|1.1.5|https://cran.r-project.org/web/packages/ClickClust/index.html|
@@ -197,8 +197,8 @@ R 程序包存在大量要求和限制：
 |d3r|0.8.0|https://cran.r-project.org/web/packages/d3r/index.html|
 |data.table|1.10.4-3|https://cran.r-project.org/web/packages/data.table/index.html|
 |data.tree|0.7.5|https://cran.r-project.org/web/packages/data.tree/index.html|
-|数据集|3.4.4|NA|
-|日期|1.2-38|https://cran.r-project.org/web/packages/date/index.html|
+|datasets|3.4.4|NA|
+|date|1.2-38|https://cran.r-project.org/web/packages/date/index.html|
 |DBI|0.8|https://cran.r-project.org/web/packages/DBI/index.html|
 |dbplyr|1.2.1|https://cran.r-project.org/web/packages/dbplyr/index.html|
 |dbscan|1.1-1|https://cran.r-project.org/web/packages/dbscan/index.html|
@@ -502,7 +502,7 @@ R 程序包存在大量要求和限制：
 |MasterBayes|2.55|https://cran.r-project.org/web/packages/MasterBayes/index.html|
 |Matching|4.9-5|https://cran.r-project.org/web/packages/Matching/index.html|
 |MatchIt|3.0.2|https://cran.r-project.org/web/packages/MatchIt/index.html|
-|矩阵|1.2-12|https://cran.r-project.org/web/packages/Matrix/index.html|
+|Matrix|1.2-12|https://cran.r-project.org/web/packages/Matrix/index.html|
 |matrixcalc|1.0-3|https://cran.r-project.org/web/packages/matrixcalc/index.html|
 |MatrixModels|0.4-1|https://cran.r-project.org/web/packages/MatrixModels/index.html|
 |matrixStats|0.54.0|https://cran.r-project.org/web/packages/matrixStats/index.html|
@@ -810,7 +810,7 @@ R 程序包存在大量要求和限制：
 |smoothSurv|2.0|https://cran.r-project.org/web/packages/smoothSurv/index.html|
 |sna|2.4|https://cran.r-project.org/web/packages/sna/index.html|
 |snakecase|0.9.1|https://cran.r-project.org/web/packages/snakecase/index.html|
-|雪白色|0.4-2|https://cran.r-project.org/web/packages/snow/index.html|
+|snow|0.4-2|https://cran.r-project.org/web/packages/snow/index.html|
 |SnowballC|0.5.1|https://cran.r-project.org/web/packages/SnowballC/index.html|
 |snowFT|1.6-0|https://cran.r-project.org/web/packages/snowFT/index.html|
 |sourcetools|0.1.6|https://cran.r-project.org/web/packages/sourcetools/index.html|
