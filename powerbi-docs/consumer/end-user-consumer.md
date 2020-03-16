@@ -5,15 +5,15 @@ author: mihart
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: overview
-ms.date: 02/18/2020
+ms.date: 02/24/2020
 ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: 100a9302e260a7c8f34c6fa07cc6b231e7271ce6
-ms.sourcegitcommit: f9909731ff5b6b69cdc58e9abf2025b7dee0e536
+ms.openlocfilehash: fb1209103c88e78148f746321d5ff8d8bd6e1a20
+ms.sourcegitcommit: 87b7cb4a2e626711b98387edaa5ff72dc26262bb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/20/2020
-ms.locfileid: "77496174"
+ms.lasthandoff: 03/10/2020
+ms.locfileid: "79039920"
 ---
 # <a name="the-power-bi-service-for-consumers"></a>面向使用者的 Power BI 服务
 
@@ -31,11 +31,11 @@ ms.locfileid: "77496174"
 
 ![Power BI 仪表板](media/end-user-consumer/power-bi-consumer-examples.png)
  
-只需在浏览器或移动设备上打开 Power BI 服务。 你和你的同事即可通过相同的受信任仪表板和报表工作，自动更新和刷新，因此使用的内容始终都是最新的。   
+只需在浏览器或移动设备上打开 Power BI 服务。 你和你的同事处理相同的受信任仪表板和报表，它们自动更新和刷新，因此你们处理的内容始终都是最新的。   
 
 ![Power BI 仪表板](media/end-user-consumer/power-bi-funnel.png)
 
-由于这不是静态内容，因此你可以进行深入研究、寻找趋势、见解和其他商业智能。 切分内容并对内容进行切片，甚至使用自己的话语向其提问。 或者，不采取任何操作，让数据发现你感兴趣的见解、在数据更改时向你发送警报并按所设置的计划向你发送电子邮件。 任何时间、任何设备、云中或本地的所有数据。 而 Power BI 可以执行的操作远不止这些。 
+由于这不是静态内容，因此你可以进行深入挖掘、寻求趋势、见解和其他商业智能。 切分内容并对内容进行切片，甚至使用自己的话语向其提问。 或者，不采取任何操作，让数据发现你感兴趣的见解、在数据更改时向你发送警报并按所设置的计划向你发送电子邮件。 任何时间、任何设备、云中或本地的所有数据。 而 Power BI 可以执行的操作远不止这些。 
 
 ## <a name="am-i-a-power-bi-consumer"></a>我是 Power BI“使用者”吗  ？
 
@@ -45,13 +45,13 @@ ms.locfileid: "77496174"
 
 毫无疑问，你会听到“Power BI Desktop”或“Desktop”一词，这是指与你一起生成和共享仪表板和报表的设计者所使用的独立工具  。  请务必知晓，还有其他 Power BI 工具，但只要你是使用者，就只能使用 Power BI 服务。 
 
-由于处理的是“共享”内容，所以需要 Power BI Pro 或 Premium 许可证  。 [我有哪种许可证？](end-user-license.md)
+由于要处理的是共享  内容，因此你需要标准免费  许可证，同时必须在使用高级  容量的组织中工作。 [我有哪种许可证？](end-user-license.md)
 
 
 ## <a name="safely-interact-with-content"></a>安全地与内容交互 
 进行筛选、切片、订阅和导出时，不要担心 — 你的工作不会影响基础数据集或原始共享内容（仪表板、报表和应用）。  
 
-请记住，不能损坏数据。  Power BI 是一个探索和试验的好位置，不用担心会损坏任何内容。  
+请记住，不能损坏数据。  Power BI 是可进行探索和试验的理想工具，不用担心会损坏任何内容。  
  
 这并不意味着无法保存更改 — 可以保存。 但这些更改只会影响你的内容视图。 还原为原始默认视图如同单击按钮一样简单。  
 

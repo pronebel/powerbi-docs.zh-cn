@@ -7,12 +7,12 @@ ms.topic: conceptual
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.date: 03/01/2020
-ms.openlocfilehash: 3245f8ed4c4d10213d3fab8d533572d3dfd3c345
-ms.sourcegitcommit: d55d3089fcb3e78930326975957c9940becf2e76
+ms.openlocfilehash: 2459982cdce9d2ee2af731ab479a94aefa2a8576
+ms.sourcegitcommit: 480bba9c745cb9af2005637e693c5714b3c64a8a
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/04/2020
-ms.locfileid: "78264188"
+ms.lasthandoff: 03/11/2020
+ms.locfileid: "79115011"
 ---
 # <a name="export-report-to-file-preview"></a>将报表导出到文件（预览版）
 
@@ -96,8 +96,9 @@ PDF 和 PPTX 格式支持[敏感度标签](../admin/service-security-data-protec
 
 ## <a name="limitations"></a>限制
 
-* 要导出的报表必须驻留在容量中。
-* 要导出的报表的数据集必须驻留在容量中。
+* 要导出的报表必须驻留在高级容量或嵌入式容量中。
+* 要导出的数据集必须驻留在高级容量或嵌入式容量中。
+* 对于个人预览版，每小时最多可导出50 张 Power BI 报表页。
 * 导出的报表的文件大小不得超过 250MB。
 * 导出为 PNG 时，不支持敏感度标签。
 * 不支持使用[服务主体](embed-service-principal.md)。

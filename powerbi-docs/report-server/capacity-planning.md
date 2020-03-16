@@ -7,13 +7,13 @@ ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 3/5/2018
-ms.author: pashah
-ms.openlocfilehash: ad657da4e0a81c6b3b9845d9c130755334f5a97f
-ms.sourcegitcommit: a21f7f9de32203e3a4057292a24ef9b5ac6ce94b
+ms.author: parshah
+ms.openlocfilehash: ecb4f9540651b52f28626f8baa88854ff133b9d0
+ms.sourcegitcommit: 743167a911991d19019fef16a6c582212f6a9229
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/27/2019
-ms.locfileid: "74565730"
+ms.lasthandoff: 03/06/2020
+ms.locfileid: "78402011"
 ---
 # <a name="capacity-planning-guidance-for-power-bi-report-server"></a>Power BI 报表服务器容量计划指南
 Power BI 报表服务器是自助式 BI 和企业报表解决方案，客户可以在本地（防火墙后）进行部署。 它将 Power BI Desktop 的交互式报表功能与 SQL Server Reporting Services 的本地服务器平台相结合。 随着企业中对分析和报表的大量日益频繁使用，对衡量企业用户群所需的硬件基础结构和软件许可证进行预算可能会成为一项挑战。 本文旨在通过共享针对报表服务器的各种工作负载的大量加载测试执行的结果，提供 Power BI 报表服务器的容量计划指南。 虽然组织的报表、查询和使用模式差异巨大，但是本文中显示的结果，以及所用的实际测试和测试执行方式的详细描述，均可用作部署 Power BI 报表服务器早期阶段计划过程中的任何用户的参考点。
@@ -21,7 +21,7 @@ Power BI 报表服务器是自助式 BI 和企业报表解决方案，客户可�
 ## <a name="executive-summary"></a>执行摘要
 我们针对 Power BI 报表服务器执行两种不同类型的工作负载；每个工作负载由呈现不同类型的报表、以及执行各种 Web 门户操作组成。 
 
-* 在“Power BI 报表重负载”工作负载中，最常执行的操作（即 60% 的时间中执行的操作）是呈现 Power BI 报表。
+* 在“Power BI 报表重负载”工作负载中，最常执行的操作（即操作执行时间占 60%）是呈现 Power BI 报表。
 * 在“分页报表重负载”工作负载中，最常执行的操作是呈现分页报表。
 
 在 Power BI 报表服务器的四服务器拓扑和不超过 5% 的用户将在任何一个时间访问报表服务器的预期下，下表介绍了 Power BI 报表服务器以至少 99% 的可靠性能够处理的最大用户数。 
@@ -56,7 +56,7 @@ Power BI 报表服务器部署由以下虚拟机组成：
 * 模拟呈现小型和大型分页报表的测试以及 
 * 模拟执行各种类型的 Web 门户操作的测试。 
 
-所有测试均编写用于执行端到端操作（例如，呈现报表、创建新数据源等）。 它们通过向报表服务器（通过 API）发出一个或多个 Web 请求完成此操作。 在实际情况中，用户可能需要执行几个中间操作才能完成其中的一个端到端操作。 例如，要呈现报表，用户将需要转到 Web 门户，导航到报表所在的文件夹，然后单击该报表来呈现它。 虽然测试不执行完成端到端任务所需的所有操作，但它们仍会处理 Power BI 报告服务器所遇到的大部分负载。 可以通过浏览 GitHub 项目详细了解所使用的不同类型报表以及执行的操作的多样性。  
+所有测试均编写用于执行端到端操作（例如，呈现报表、创建新数据源等）。 它们通过向报表服务器（通过 API）发出一个或多个 Web 请求完成此操作。 在实际情况中，用户可能需要执行几个中间操作才能完成其中的一个端到端操作。 例如，要呈现报表，用户将需要转到 Web 门户，导航到报表所在的文件夹，然后单击该报表来呈现它。 虽然测试不执行完成端到端任务所需的全部操作，但它们仍会处理 Power BI 报告服务器所遇到的大部分负载。 可以通过浏览 GitHub 项目详细了解所使用的不同类型报表以及执行的操作的多样性。  
 
 > [!NOTE]
 > 此工具没有得到 Microsoft 的正式支持，但产品团队确实对项目作出了贡献，并回答了其他参与者提出的问题。
@@ -84,7 +84,7 @@ Power BI 报表服务器部署由以下虚拟机组成：
 | **分页报表重负载** |100 个并发用户 |160 个并发用户 |
 
 ### <a name="total-user-capacity"></a>总用户容量
-在 Microsoft，我们有一个 Power BI 报表服务器的生产部署，几个团队已使用过。 当我们分析此环境的实际使用情况时，我们观察到，任何给定时间（即使在每日的峰值负载期间）的并发用户数往往不超过总用户群的 5%。 将此 5% 并发率用作基准，我们推测，总用户群 Power BI 报表服务器能够处理 99% 的可靠性。
+在 Microsoft，我们有一个 Power BI 报表服务器的生产部署，几个团队已使用过。 分析此环境的实际使用情况时，我们观察到，任何给定时间（即使在每日的峰值负载期间）的并发用户数往往不超过总用户群的 5%。 将此 5% 并发率用作基准，我们推测，总用户群 Power BI 报表服务器能够处理 99% 的可靠性。
 
 | 工作负载 | 8 核/32 GB | 16 核/64 GB |
 | --- | --- | --- |
@@ -110,13 +110,13 @@ Power BI 报表服务器部署由以下虚拟机组成：
 ## <a name="summary"></a>摘要
 对于每个负载测试运行，CPU 是 Power BI 报表服务器计算机上的峰值负载点中最过载的资源。 因此，应增加的第一个资源是内核数。 或者，可以考虑通过在拓扑中添加更多托管 Power BI 报表服务器的服务器来进行纵向扩展。
 
-本文中显示的结果源自执行一个特定的报表集，该报表集使用一个以特定方式重复的特定数据集。 它是一个有用的参考点，但请记住，使用情况将取决于报表、查询、使用模式以及 Power BI 报表服务器的部署。
+本文中显示的结果源自执行一个特定的报表集，该报表集使用一个以特定方式重复的特定数据集。 它是实用参考点，但请注意，具体使用情况视报表、查询、使用模式以及 Power BI 报表服务器部署而定。
 
 ## <a name="appendix"></a>附录
 ### <a name="1-topology"></a>1 拓扑
 **1.1 Power BI 报表服务器拓扑**
 
-为专注于不同配置下的 Power BI 报表服务器行为，修复了每种类型的计算机（托管 Power BI 报表服务器的计算机除外）的 VM 配置。 根据具有高级存储磁盘的第二代 (v2) D 系列计算机对每台计算机进行了预配。 可以在 https://azure.microsoft.com/pricing/details/virtual-machines/windows/ 上的“常规用途”下找到有关每个 VM 大小的详细信息。
+为专注于不同配置下的 Power BI 报表服务器行为，修复了每种类型的计算机（托管 Power BI 报表服务器的计算机除外）的 VM 配置。 根据具有高级存储磁盘的第二代 (v2) D 系列计算机对每台计算机进行了预配。 可以在 https://azure.microsoft.com/pricing/details/virtual-machines/windows/ 上的“常规用途”下找到每个 VM 大小的详细信息。
 
 | 虚拟机类型 | 处理器 | 内存 | Azure VM 大小 |
 | --- | --- | --- | --- |
@@ -126,7 +126,7 @@ Power BI 报表服务器部署由以下虚拟机组成：
 
 **1.2 Power BI 报表服务器虚拟机配置** 
 
-不同的处理器和内存配置用于托管 Power BI 报表服务器的虚拟机。 和其他 VM 不同，此计算机根据具有高级存储磁盘的第三代 (v3) D 系列计算机进行了预配。 可以在 https://azure.microsoft.com/pricing/details/virtual-machines/windows/ 上的“常规用途”下找到有关此 VM 大小的详细信息。
+不同的处理器和内存配置用于托管 Power BI 报表服务器的虚拟机。 和其他 VM 不同，此计算机根据具有高级存储磁盘的第三代 (v3) D 系列计算机进行了预配。 可以在 https://azure.microsoft.com/pricing/details/virtual-machines/windows/ 上的“常规用途”下找到此 VM 大小的详细信息。
 
 | 虚拟机 | 处理器 | 内存 | Azure VM 大小 |
 | --- | --- | --- | --- |
@@ -134,7 +134,7 @@ Power BI 报表服务器部署由以下虚拟机组成：
 | **Power BI 报表服务器（大型）** |16 核 |64 GB |vStandard_D16S_v3 |
 
 ### <a name="2-run-the-loadtest-tool"></a>2 运行 LoadTest 工具
-如果想针对自己的 Power BI 报表服务器部署或 Power BI 报表服务器的 Microsoft Azure 部署运行 Reporting Services LoadTest 工具，请遵循以下步骤。
+若要对你或 Microsoft Azure 部署的 Power BI 报表服务器运行 Reporting Services LoadTest 工具，请按照以下步骤操作。
 
 1. 从 GitHub 中克隆 Reporting Services LoadTest 项目 (https://github.com/Microsoft/Reporting-Services-LoadTest) )。  
 2. 在项目目录中，将找到一个名为 RSLoadTests.sln 的解决方案文件。 在 Visual Studio 2015 或更高版本中打开此文件。
@@ -143,4 +143,3 @@ Power BI 报表服务器部署由以下虚拟机组成：
 5. 部署完环境后，按照 https://github.com/Microsoft/Reporting-Services-LoadTest#load-test-execution 上列出的说明操作来运行测试。
 
 更多问题？ [尝试咨询 Power BI 社区](https://community.powerbi.com/)
-

@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.custom: seodec18
 ms.date: 01/04/2019
-ms.openlocfilehash: 48aae2391ead5ded0860364ce5942d7bd725c2d9
-ms.sourcegitcommit: b68a47b1854588a319a5a2d5d6a79bba2da3a4e6
+ms.openlocfilehash: d32030db9c3cff04dfff6c5545626b4b70dcae07
+ms.sourcegitcommit: ced8c9d6c365cab6f63fbe8367fb33e6d827cb97
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/08/2020
-ms.locfileid: "75731234"
+ms.lasthandoff: 03/07/2020
+ms.locfileid: "78920693"
 ---
 # <a name="tutorial-embed-power-bi-paginated-reports-into-an-application-for-your-customers-preview"></a>教程：在应用程序中为客户嵌入 Power BI 分页报表（预览版）
 
@@ -57,7 +57,7 @@ ms.locfileid: "75731234"
 * **Power BI Premium**：对于嵌入分页报表，需要 *P* SKU 容量。 嵌入 Power BI 内容时，此解决方案称为 *Power BI 嵌入*。 有关此订阅的详细信息，请参阅[什么是 Power BI Premium？](../service-premium-what-is.md)
 * **Azure Power BI Embedded**：可从 [Microsoft Azure 门户](https://portal.azure.com)购买专用容量。 此订阅使用 *A* SKU。 对于嵌入分页报表，至少需要 *A4* 订阅。 有关如何创建 Power BI Embedded 容量的详细信息，请参阅[在 Azure 门户中创建 Power BI Embedded 容量](azure-pbie-create-capacity.md)。
 
-下表介绍每个 SKU 的资源和限制。 若要确定最能满足你需求的容量，请参阅[应该为我的方案购买哪一个 SKU](https://docs.microsoft.com/power-bi/developer/embedded-faq#power-bi-now-offers-three-skus-for-embedding-a-skus-em-skus-and-p-skus-which-one-should-i-purchase-for-my-scenario) 表。
+下表介绍每个 SKU 的资源和限制。 若要确定最能满足你需求的容量，请参阅[应该为我的方案购买哪一个 SKU](https://docs.microsoft.com/power-bi/developer/embedded-faq#which-solution-should-i-choose) 表。
 
 | 容量节点 | 总虚拟核心 | 后端 V 核心 | RAM (GB) | 前端 V 核心 | 
 | --- | --- | --- | --- | --- |
@@ -74,7 +74,7 @@ ms.locfileid: "75731234"
 
 ### <a name="create-and-upload-your-paginated-reports"></a>创建并上传分页报表
 
-可使用 [Power BI 报表生成器](../paginated-reports-report-builder-power-bi.md#create-reports-in-power-bi-report-builder)创建分页报表，然后[将报表上传到服务](../paginated-reports-quickstart-aw.md#upload-the-report-to-the-service)。
+可使用 [Power BI 报表生成器](../paginated-reports/paginated-reports-report-builder-power-bi.md#create-reports-in-power-bi-report-builder)创建分页报表，然后[将报表上传到服务](../paginated-reports/paginated-reports-quickstart-aw.md#upload-the-report-to-the-service)。
 
 可使用 [Power BI REST API](https://docs.microsoft.com/rest/api/power-bi/imports/postimportingroup) 将分页报表导入新工作区。
 
@@ -127,7 +127,7 @@ ms.locfileid: "75731234"
 
 ### <a name="workspace-id"></a>工作区 ID
 
-使用 Power BI 中的“应用工作区(组) GUID”填写“workspaceId”信息  。 登录 Power BI 服务或使用 Powershell 时，可获得该信息。
+使用 Power BI 中的“应用工作区(组) GUID”填写“workspaceId”信息  。 若要获取此信息，可以在登录 Power BI 服务时使用 URL，也可以使用 PowerShell。
 
 URL <br>
 
@@ -139,11 +139,11 @@ PowerShell <br>
 Get-PowerBIworkspace -name "Paginated Report Embed"
 ```
 
-   ![powershell 中的 workspaceId](media/embed-paginated-reports-for-customers/powershell.png)
+   ![PowerShell 中的 workspaceId](media/embed-paginated-reports-for-customers/powershell.png)
 
 ### <a name="report-id"></a>报表 ID
 
-使用 Power BI 中的“报表 GUID”填写“reportId”信息  。 登录 Power BI 服务或使用 Powershell 时，可获得该信息。
+使用 Power BI 中的“报表 GUID”填写“reportId”信息  。 若要获取此信息，可以在登录 Power BI 服务时使用 URL，也可以使用 PowerShell。
 
 URL<br>
 
@@ -155,7 +155,7 @@ PowerShell <br>
 Get-PowerBIworkspace -name "Paginated Report Embed" | Get-PowerBIReport
 ```
 
-![powershell 中的 reportId](media/embed-paginated-reports-for-customers/powershell-report-id.png)
+![PowerShell 中的 reportId](media/embed-paginated-reports-for-customers/powershell-report-id.png)
 
 ### <a name="application-secret"></a>应用程序密码
 
@@ -183,7 +183,7 @@ Get-PowerBIworkspace -name "Paginated Report Embed" | Get-PowerBIReport
 
 ### <a name="tenant"></a>租户
 
-使用 Azure 租户 ID 填写“租户”信息  。 登录 Power BI 服务后通过 [Azure AD 管理中心](/onedrive/find-your-office-365-tenant-id)或使用 Powershell 可以获得该信息。
+使用 Azure 租户 ID 填写“租户”信息  。 若要获取此信息，可以在登录 Power BI 服务时使用 [Azure AD 管理中心](/onedrive/find-your-office-365-tenant-id)，也可以使用 PowerShell。
 
 ### <a name="run-the-application"></a>运行应用程序
 

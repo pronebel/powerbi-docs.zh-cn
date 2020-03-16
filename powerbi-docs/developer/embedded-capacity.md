@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 02/11/2020
-ms.openlocfilehash: 1c6c4faa9f5cff46695ddd9d30869103d7bf482b
-ms.sourcegitcommit: d6a48e6f6e3449820b5ca03638b11c55f4e9319c
+ms.openlocfilehash: de47022d00583dae99ad259a531e955b6396b96f
+ms.sourcegitcommit: 743167a911991d19019fef16a6c582212f6a9229
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/18/2020
-ms.locfileid: "77427194"
+ms.lasthandoff: 03/06/2020
+ms.locfileid: "78400551"
 ---
 # <a name="capacity-and-skus-in-power-bi-embedded-analytics"></a>Power BI 嵌入式分析中的容量和 SKU
 
@@ -46,15 +46,15 @@ Power BI Premium 是一款 SaaS 产品，能够让用户通过移动应用、内
 
 每个容量提供一系列的 SKU，每个 SKU 为内存和计算能力提供不同的资源层。 所需的 SKU 类型取决于要部署的解决方案类型。
 
-在决定要购买的 SKU 之前，请查看本节中的信息。
-* 要了解每个层支持的工作负载，请参阅[在 Premium 容量中配置工作负载](../service-admin-premium-workloads.md)一文
-* 使用此链接[计划并测试容量](../service-premium-capacity-optimize.md#testing-approaches)
+要了解每个层支持的工作负载，请参阅[在 Premium 容量中配置工作负载](../service-admin-premium-workloads.md)一文
+
+若要计划并测试容量，请使用以下链接：
+* [容量规划](embedded-capacity-planning.md)
+* [测试方法](../service-premium-capacity-optimize.md#testing-approaches)
 
 ### <a name="power-bi-embedded-skus"></a>Power BI Embedded SKU
 
-Power BI Embedded 附带了 A SKU  。
-* [了解 Power BI Embedded 容量可处理的内容](https://powerbi.microsoft.com/blog/power-bi-developer-community-june-july-update/#Capacity-Plan)
-* [购买 A SKU](../service-admin-premium-purchase.md#purchase-a-skus-for-testing-and-other-scenarios) 
+Power BI Embedded 随附了 [a SKU  ](../service-admin-premium-purchase.md#purchase-a-skus-for-testing-and-other-scenarios)。
 
 ### <a name="power-bi-premium-skus"></a>Power BI Premium SKU
 

@@ -6,21 +6,24 @@ ms.reviewer: Mohammad
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 10/23/2019
+ms.date: 03/11/2020
 ms.author: mihart
 LocalizationGroup: Ask questions of your data
-ms.openlocfilehash: 9fd5375684466eca49582ff9d153fd2533ad7e92
-ms.sourcegitcommit: 08b73af260ded51daaa6749338cb85db2eab587f
+ms.openlocfilehash: 83db194ab670f1726f9598193dc2d3addf2eae72
+ms.sourcegitcommit: 480bba9c745cb9af2005637e693c5714b3c64a8a
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/15/2019
-ms.locfileid: "74099025"
+ms.lasthandoff: 03/11/2020
+ms.locfileid: "79114282"
 ---
 # <a name="tips-for-asking-questions-in-power-bi-qa"></a>在 Power BI 问答中提问的提示
+
+[!INCLUDE[consumer-appliesto-yyny](../includes/consumer-appliesto-yyny.md)]
+
 ## <a name="words-and-terminology-that-qa-recognizes"></a>“问答”识别的单词和术语
 此页上的关键字列表并不详尽。  查看 Power BI 是否识别某个关键字的最佳方法是通过在问题框中键入此关键字来进行试验。  如果字词或术语灰显，则 Power BI 无法识别。
 
-下面的列表使用现在时，但在大多数情况下能识别所有时态。 例如，“is”包括：“are”、“was”、“were”、“will be”、“have”、“has”、“had”、“will have”、“has got”、“do”、“does”、“did”。              “sort”包括：“sorted”和“sorting”。    此外，Power BI 还识别并添加单数和复数形式的单词。 
+下面的列表使用现在时，但在大多数情况下能识别所有时态。 例如，“is”包括：“are”  、“was”  、“were”  、“will be”  、“have”  、“has”  、“had”  、“will have”  、“has got”  、“do”  、“does”  、“did”  。  “sort”包括：“sorted”  和“sorting”  。  此外，Power BI 还识别并添加单数和复数形式的单词。 
 
 > [!NOTE]
 > [iPad、iPhone 和 iPod Touch 设备上的 iOS 版 Microsoft Power BI 应用](mobile/mobile-apps-ios-qna.md)也支持问答。
@@ -33,13 +36,13 @@ ms.locfileid: "74099025"
 |     |         |         
 **冠词**     |  a、an、the              |
 |     |         |         
-|**空白和布尔值**     |   空白、空、null、以“非”为前缀、空字符串、空文本、true、t、false、f          |
+|**空白和布尔值**     |   空白、空、null、以“non”或“non-”为前缀、空字符串、空文本、true、t、false、f          |
 |     |         |         |
 |**比较词**     |   vs、对比、比较            |
 |     |         |         |
 |**连词**     |  和、或、每个、与、比较、&、和、但是、也不、加之、除了       |         
 |          |         |
-|**缩约词**     |  Q&A 可识别几乎所有的缩约词，请尝试一下。比如下面这几个例子：didn’t、haven’t、he’d、he’s、isn’t、it’s、she’ll、they’d、weren’t、who’s、won’t、wouldn’t          |
+|**缩约词**     |  Q&A 可识别几乎所有的缩约词，请尝试一下。举几个例子：didn’t、haven’t、he’d、he’s、isn’t、it’s、she’ll、they’d、weren’t、who’s、won’t、wouldn’t          |
 |        |         |
 |**日期**     |       Power BI 可识别大多数日期术语（日、周、月、年、季度、十年等）以及以多种不同格式编写的日期（见下文）。 Power BI 还可识别下列关键字：月份名称、1 - 31 日、十年。 示例：January 3rd of 1995（1995 年 1 月 3 日）、January 3rd 1995、jan 03 1995、3 Jan 1995、the 3rd of January、January 1995（1995 年 1 月）、1995 January、1995-01、01/1995（1995/01）、月份名称         |
 |        |         |

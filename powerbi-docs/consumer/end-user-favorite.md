@@ -7,24 +7,25 @@ featuredvideoid: G26dr2PsEpk
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 09/19/2019
+ms.date: 03/09/2020
 ms.author: mihart
 LocalizationGroup: Common tasks
-ms.openlocfilehash: 48322b554a7b600bc5cadc7c40fe366c64cd8549
-ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
+ms.openlocfilehash: bb69d1ecc4e91912b947a2120607e1a0502d8162
+ms.sourcegitcommit: 87b7cb4a2e626711b98387edaa5ff72dc26262bb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/06/2020
-ms.locfileid: "73852655"
+ms.lasthandoff: 03/10/2020
+ms.locfileid: "79040495"
 ---
 # <a name="favorite-dashboards-reports-and-apps-in-the-power-bi-service"></a>在 Power BI 服务中收藏仪表板、报表和应用
+
+[!INCLUDE[consumer-appliesto-yyny](../includes/consumer-appliesto-yyny.md)]
+
 将内容设为“收藏项”时，可从“收藏夹”内容列表以及从 Power BI **主页** > “收藏夹 + 最常访问”中快速访问该内容    。 收藏夹通常是最常访问的内容，并且标有黄色星标。
 
    ![“收藏夹”图标](./media/end-user-favorite/power-bi-favorite-nav.png)
 
    ![“收藏夹 + 最常访问”图标](./media/end-user-favorite/power-bi-home.png)
-
-还可以选择单个仪表板作为 Power BI 服务中的[特色仪表板](end-user-featured.md)。
 
 ## <a name="add-a-dashboard-or-report-as-a-favorite"></a>将仪表板或报表添加为收藏项
 
@@ -67,7 +68,7 @@ ms.locfileid: "73852655"
 2. 选择想要取消收藏的内容旁边的黄色星号。
 
 > [!NOTE]
-> 还可以取消收藏仪表板、报表或应用。 只需打开并取消选中黄色图标。 
+> 还可以取消收藏仪表板、报表或应用。 只需打开并选择黄色星标，即可将它变回为白色星标。 
 > 
 > 
 ## <a name="limitations-and-considerations"></a>限制和注意事项

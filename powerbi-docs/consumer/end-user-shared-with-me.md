@@ -7,17 +7,19 @@ featuredvideoid: G26dr2PsEpk
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 09/25/2019
+ms.date: 03/11/2020
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 6fdb336faaceee21347f426beb6fdefc0bdb70f4
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: d97727969ed48c50a86be032835b237d293a1d96
+ms.sourcegitcommit: 480bba9c745cb9af2005637e693c5714b3c64a8a
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73861695"
+ms.lasthandoff: 03/11/2020
+ms.locfileid: "79114144"
 ---
 # <a name="display-the-dashboards-and-reports-that-have-been-shared-with-me"></a>显示已与我共享的仪表板和报表
+
+[!INCLUDE[consumer-appliesto-ynny](../includes/consumer-appliesto-ynny.md)]
 
 [!INCLUDE [power-bi-service-new-look-include](../includes/power-bi-service-new-look-include.md)]
 
@@ -25,7 +27,7 @@ ms.locfileid: "73861695"
 
 ![“共享”图标](./media/end-user-shared-with-me/power-bi-share-dashboard.png)
 
-请观看下面的视频，Amanda 将介绍“与我共享”  内容列表，并演示如何导航和筛选此列表。 然后可以按照视频下面的分步说明来自己尝试。 要查看与你共享的仪表板，你需要具有 Power BI Pro 许可证。 请阅读[什么是 Power BI Premium？](../service-premium-what-is.md)了解详细信息。
+请观看下面的视频，Amanda 将介绍“与我共享”  内容列表，并演示如何导航和筛选此列表。 然后可以按照视频下面的分步说明来自己尝试。 要查看与你共享的仪表板，你需要具有 Power BI Pro 许可证。 有关详细信息，请参阅[我有哪种许可证？](end-user-license.md)。
     
 
 > [!NOTE]

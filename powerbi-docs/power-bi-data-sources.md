@@ -6,14 +6,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 01/08/2020
+ms.date: 03/10/2020
 ms.author: kfollis
-ms.openlocfilehash: 261d800dac9b65747e648bc76944a0b8a5077b73
-ms.sourcegitcommit: d6a48e6f6e3449820b5ca03638b11c55f4e9319c
+ms.openlocfilehash: 1853e710958b5bed0dad011594d9e04ccc99842d
+ms.sourcegitcommit: 87b7cb4a2e626711b98387edaa5ff72dc26262bb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/18/2020
-ms.locfileid: "77427084"
+ms.lasthandoff: 03/10/2020
+ms.locfileid: "79041668"
 ---
 # <a name="power-bi-data-sources"></a>Power BI 数据源
 
@@ -43,7 +43,7 @@ ms.locfileid: "77427084"
 | Azure HDInsight (HDFS) | 是 | 是 | 否 | 否 | 否 |
 | Azure HDInsight Spark | 是 | 是 | 是 | 否 | 否 |
 | Azure SQL 数据库 | 是 | 是 | 是 | 是 <sup>2</sup> | 否 |
-| Azure SQL 数据仓库 | 是 | 是 | 是 | 否 | 否 |
+| Azure SQL 数据仓库 | 是 | 是 | 是 | 是 <sup>2</sup> | 否 |
 | Azure 表存储 | 是 | 是 | 否 | 是 | 否 |
 | BI 连接器 | 是 | 是 | 是 | 是 | 是 |
 | BI360 - Budgeting & Financial Reporting | 是 | 是 | 否 | 否 | 否 |
@@ -134,7 +134,7 @@ ms.locfileid: "77427084"
 | Twilio | 是 | 是 | 否 | 否 | 否 |
 | tyGraph | 是 | 是 | 否 | 否 | 否 |
 | Vertica | 是 | 是 | 是 | 是 | 是 |
-| Web | 是 | 是 | 否 | 是 | 是 |
+| Web | 是 | 是 | 否 | 是 | 是<sup>6</sup> |
 | Webtrends | 是 | 是 | 否 | 否 | 否 |
 | 工作人员维度 | 是 | 是 | 否 | 是 | 否 |
 | XML | 是 | 是 | 否 | 是 | 否 <sup>4</sup> |
@@ -143,13 +143,15 @@ ms.locfileid: "77427084"
 
 <sup>1</sup> 通过 [ACE OLEDB 提供程序](https://www.microsoft.com/download/details.aspx?id=54920)提供支持，与网关安装在同一台计算机上。
 
-<sup>2</sup> 通过与本地版本相同的 M 函数提供支持。
+<sup>2</sup>可以与本地版本相同的 M 函数配合使用，导致身份验证选项受限（网关不支持 OAuth）。
 
 <sup>3</sup> Excel 1997-2003 文件 (.xls) 需要 [ACE OLEDB 提供程序](https://www.microsoft.com/download/details.aspx?id=54920)。
 
 <sup>4</sup> 该技术本地版本的必要条件。
 
 <sup>5</sup> 仅通过[个人网关](service-gateway-personal-mode.md)提供支持。
+
+<sup>6</sup>为 .html、.xls 和 Access 数据库所必需
 
 ## <a name="single-sign-on-sso-for-directquery-sources"></a>DirectQuery 源的单一登录 (SSO)
 

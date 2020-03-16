@@ -1,19 +1,19 @@
 ---
 title: 使用 OAuth 连接到 Power BI 报表服务器和 SSRS
 description: 了解如何将环境配置为支持 OAuth 对 Power BI 移动应用进行身份验证以连接到 SQL Server Reporting Services 2016 或更高版本。
-author: maggiesMSFT
-ms.author: maggies
+author: paulinbar
+ms.author: painbar
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: conceptual
-ms.date: 07/03/2019
-ms.openlocfilehash: 3680344c3449c80064b818f7ab2a5b48020fba4b
-ms.sourcegitcommit: 02b05932a119527f255e1eacc745a257044e392f
+ms.date: 03/11/2020
+ms.openlocfilehash: c3c6e8d7ddb823eb1e857b102c2f6c788e366141
+ms.sourcegitcommit: 480bba9c745cb9af2005637e693c5714b3c64a8a
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/19/2019
-ms.locfileid: "75220599"
+ms.lasthandoff: 03/11/2020
+ms.locfileid: "79114960"
 ---
 # <a name="using-oauth-to-connect-to-power-bi-report-server-and-ssrs"></a>使用 OAuth 连接到 Power BI 报表服务器和 SSRS
 
@@ -54,7 +54,7 @@ https://fs.contoso.com
 
 ## <a name="reporting-services-configuration"></a>Reporting Services 配置
 
-Reporting Services 端无其他需要配置的内容。 我们只需确保具备有效的服务主体名称 (SPN) 来使 Kerberos 身份验证正常进行，并且已启用 Reporting Services 服务器以进行协商身份验证。
+Reporting Services 端没有太多要配置的。 我们只需确保具备有效的服务主体名称 (SPN) 来使 Kerberos 身份验证正常进行，并且已启用 Reporting Services 服务器以进行协商身份验证。
 
 ### <a name="service-principal-name-spn"></a>服务主体名称 (SPN)
 
@@ -124,7 +124,7 @@ SPN 是使用 Kerberos 身份验证的服务的唯一标识符。 需要确保�
    ![ADFS 应用程序组向导 03](media/mobile-oauth-ssrs/adfs-application-group-wizard3.png)
 9. 选择“下一步”  。
 
-10. 选择符合组织需求的“**访问控制策略**”。
+10. 选择符合组织需求的访问控制策略  。
 
     ![ADFS 应用程序组向导 04](media/mobile-oauth-ssrs/adfs-application-group-wizard4.png)
 
@@ -207,7 +207,7 @@ Add-WebApplicationProxyApplication -Name "Contoso Reports" -ExternalPreauthentic
 添加 WAP 应用程序后，需要将 BackendServerAuthenticationMode 设置为使用 IntegratedWindowsAuthentication。 若要进行设置，需要 WAP 应用程序的 ID。
 
 ```powershell
-Get-WebApplicationProxyApplication “Contoso Reports” | fl
+Get-WebApplicationProxyApplication "Contoso Reports" | fl
 ```
 
 ![添加应用程序组](media/mobile-oauth-ssrs/wap-application-id.png)

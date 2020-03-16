@@ -7,24 +7,27 @@ featuredvideoid: et_MLSL2sA8
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 9/22/2019
+ms.date: 03/11/2020
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: ab37c806aaf3cd666c71dc22ee1f3d4d457647e0
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: e86e8c87ca7942e74ff2f16e299304f56f4a2aa3
+ms.sourcegitcommit: 480bba9c745cb9af2005637e693c5714b3c64a8a
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73863384"
+ms.lasthandoff: 03/11/2020
+ms.locfileid: "79113085"
 ---
 # <a name="view-data-insights-on-dashboard-tiles-with-power-bi"></a>使用 Power BI 查看有关仪表板磁贴的数据见解
+
+[!INCLUDE[consumer-appliesto-yyny](../includes/consumer-appliesto-yyny.md)]
+
 仪表板上的每个视觉对象[磁贴](end-user-tiles.md)都是数据探索的入口。 选择磁贴时，它将打开报表或[打开“问答”](end-user-q-and-a.md)，可以在其中筛选、排序以及深入挖掘报表背后的数据集。 当运行见解时，Power BI 会为你进行数据探索。
 
 ![省略号菜单模式](./media/end-user-insights/power-bi-insight.png)
 
 运行见解便可基于数据生成有趣的交互式视觉对象。 见解可以在特定的仪表板磁贴上运行，甚至可以在见解上运行见解！
 
-见解功能以一组与 Microsoft Research 联合开发且数量不断增长的[高级分析算法](end-user-insight-types.md)为基础构建而成，我们将继续通过该功能让更多人以新颖直观的方式从其数据中寻找见解。
+见解功能是在一组与 Microsoft Research 联合开发且数量不断增长的[高级分析算法](end-user-insight-types.md)的基础之上构建而成，我们将继续使用这些算法让更多人以直观的新方式从数据中获取见解。
 
 ## <a name="run-insights-on-a-dashboard-tile"></a>对仪表板磁贴运行见解
 当在仪表板磁贴上运行见解时，Power BI 仅搜索用于创建该单个仪表板磁贴的数据。 

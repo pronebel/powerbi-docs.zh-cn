@@ -9,12 +9,12 @@ ms.subservice: powerbi-developer
 ms.topic: tutorial
 ms.custom: seodec18
 ms.date: 02/04/2020
-ms.openlocfilehash: 7a10df09bd6b0f4ce81ee32ae72700080a8020d9
-ms.sourcegitcommit: b09de56e971b8844a3771413d1f56d49b31baaaf
+ms.openlocfilehash: f22320eb275888225babf50d0369a492ed09d7ed
+ms.sourcegitcommit: ced8c9d6c365cab6f63fbe8367fb33e6d827cb97
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/07/2020
-ms.locfileid: "75691356"
+ms.lasthandoff: 03/07/2020
+ms.locfileid: "78920057"
 ---
 # <a name="tutorial-embed-power-bi-content-into-an-application-for-your-organization"></a>教程：为组织将 Power BI 内容嵌入应用程序
 
@@ -34,7 +34,7 @@ ms.locfileid: "75691356"
 * [Power BI Pro 帐户](../service-self-service-signup-for-power-bi.md)。
 * [Microsoft Azure](https://azure.microsoft.com/) 订阅。
 * 需要设置自己的 [Azure Active Directory 租户](create-an-azure-active-directory-tenant.md)。
-* 若要嵌入分页报表，至少需要 P1 容量，请参阅[需要多大的 Premium 容量才能使用分页报表？](../paginated-reports-faq.md#what-size-premium-capacity-do-i-need-for-paginated-reports)。
+* 若要嵌入分页报表，至少需要 P1 容量，请参阅[需要多大的 Premium 容量才能使用分页报表？](../paginated-reports/paginated-reports-faq.md#what-size-premium-capacity-do-i-need-for-paginated-reports)。
 
 如果未注册 Power BI Pro  ，请在开始之前[注册以获得免费试用](https://powerbi.microsoft.com/pricing/)。
 
@@ -84,7 +84,7 @@ ms.locfileid: "75691356"
    
 ### <a name="create-and-publish-your-paginated-reports"></a>创建并发布分页报表
 
-可使用 [Power BI 报表生成器](../paginated-reports-report-builder-power-bi.md#create-reports-in-power-bi-report-builder)创建分页报表。 然后可以将[报表上传](../paginated-reports-quickstart-aw.md#upload-the-report-to-the-service)到分配有至少 P1 容量的工作区。 上传报表的最终用户需要具有 Power BI Pro 许可证才能发布到工作区。
+可使用 [Power BI 报表生成器](../paginated-reports/paginated-reports-report-builder-power-bi.md#create-reports-in-power-bi-report-builder)创建分页报表。 然后可以将[报表上传](../paginated-reports/paginated-reports-quickstart-aw.md#upload-the-report-to-the-service)到分配有至少 P1 容量的工作区。 上传报表的最终用户需要具有 Power BI Pro 许可证才能发布到工作区。
    
 ## <a name="embed-your-content-by-using-the-sample-application"></a>使用示例应用程序嵌入内容
 
@@ -131,7 +131,7 @@ ms.locfileid: "75691356"
 
 ### <a name="workspace-id"></a>工作区 ID
 
-使用 Power BI 中的“工作区(组) GUID”填写“workspaceId”信息  。 登录 Power BI 服务或使用 Powershell 时，可获得该信息。
+使用 Power BI 中的“工作区(组) GUID”填写“workspaceId”信息  。 若要获取此信息，可以在登录 Power BI 服务时使用 URL，也可以使用 PowerShell。
 
 URL <br>
 
@@ -143,11 +143,11 @@ PowerShell <br>
 Get-PowerBIworkspace -name "User Owns Embed Test"
 ```
 
-   ![powershell 中的 workspaceId](media/embed-sample-for-your-organization/embed-sample-for-your-organization-040-ps.png)
+   ![PowerShell 中的 workspaceId](media/embed-sample-for-your-organization/embed-sample-for-your-organization-040-ps.png)
 
 ### <a name="report-id"></a>报表 ID
 
-使用 Power BI 中的“报表 GUID”填写“reportId”信息  。 登录 Power BI 服务或使用 Powershell 时，可获得该信息。
+使用 Power BI 中的“报表 GUID”填写“reportId”信息  。 若要获取此信息，可以在登录 Power BI 服务时使用 URL，也可以使用 PowerShell。
 
 Power BI 报表 URL <br>
 
@@ -164,7 +164,7 @@ PowerShell <br>
 Get-PowerBIworkspace -name "User Owns Embed Test" | Get-PowerBIReport
 ```
 
-![powershell 中的 reportId](media/embed-sample-for-your-organization/embed-sample-for-your-organization-041-ps.png)
+![PowerShell 中的 reportId](media/embed-sample-for-your-organization/embed-sample-for-your-organization-041-ps.png)
 
 ### <a name="aadauthorityurl"></a>AADAuthorityUrl
 
@@ -397,7 +397,7 @@ function updateEmbedReport() {
 | P5 |128 个 vCore |64 vCore，400 GB RAM |64 个 vCore |每秒 480 个 |
 
 > [!NOTE]
-> - 当你尝试嵌入到 Microsoft Office 应用时，可以使用 EM SKU 访问具有免费 Power BI 许可证的内容。 但是，如果使用 Powerbi.com 或 Power BI 移动版时，将无法使用免费 Power BI 许可证访问内容。
+> - 尝试通过 Microsoft Office 应用实现嵌入时，可以使用 EM SKU 和免费 Power BI 许可证来访问内容。 但是，如果使用 Powerbi.com 或 Power BI 移动版时，将无法使用免费 Power BI 许可证访问内容。
 > - 在尝试使用 Powerbi.com 或 Power BI 移动版嵌入到 Microsoft Office 应用时，可以使用免费 Power BI 许可证访问内容。
 
 ### <a name="assign-a-workspace-to-a-dedicated-capacity"></a>为工作区分配专用容量

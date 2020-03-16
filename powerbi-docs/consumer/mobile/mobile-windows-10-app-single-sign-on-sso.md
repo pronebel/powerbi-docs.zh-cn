@@ -1,19 +1,19 @@
 ---
 title: Power BI 移动 Windows 应用中的单一登录
 description: 阅读有关 Power BI 移动 Windows 应用中的单一登录 (SSO) 的内容。 SSO 意味着，使用单个用户帐户仅登录一次即可访问业务所需的所有应用程序和资源。
-author: mshenhav
+author: paulinbar
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: conceptual
-ms.date: 09/17/2018
-ms.author: mshenhav
-ms.openlocfilehash: 4ec2e43843d37f0966070d39e08ae0ab6160dbf8
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.date: 03/11/2020
+ms.author: painbar
+ms.openlocfilehash: 767ea586ce35d60c99742ada6f90fe342bd59313
+ms.sourcegitcommit: 480bba9c745cb9af2005637e693c5714b3c64a8a
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73876673"
+ms.lasthandoff: 03/11/2020
+ms.locfileid: "79114721"
 ---
 # <a name="single-sign-on-in-the-power-bi-mobile-windows-app"></a>Power BI 移动 Windows 应用中的单一登录
 
@@ -29,7 +29,7 @@ ms.locfileid: "73876673"
 
 如果你已使用适用于 Windows 的 Power BI 移动应用，则在升级到新版本的应用时还可以使用 SSO。 注销应用，关闭并重新打开它。 重新打开应用时，它会自动尝试使用当前的 Windows 凭据对 Power BI 服务进行身份验证。 
 
-如果你不希望使用当前的 Windows 活动会话凭据登录到 Power BI，则只需转到“设置”  ，注销，然后使用其他凭据登录。 
+如果你不希望使用当前的 Windows 活动会话凭据登录 Power BI，只需转到“设置”  进行注销，然后使用其他凭据登录即可。 
  
 ## <a name="next-steps"></a>后续步骤
 

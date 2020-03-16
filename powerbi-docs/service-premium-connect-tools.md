@@ -10,16 +10,16 @@ ms.topic: conceptual
 ms.date: 07/24/2019
 ms.custom: seodec18
 LocalizationGroup: Premium
-ms.openlocfilehash: 0364fae1648e6155cc5e5a92850861c3bedbabdc
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: aaafaa5b2822e3e17fdc92b43bf7b745330a547b
+ms.sourcegitcommit: ced8c9d6c365cab6f63fbe8367fb33e6d827cb97
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73871880"
+ms.lasthandoff: 03/10/2020
+ms.locfileid: "78946848"
 ---
 # <a name="connect-to-datasets-with-client-applications-and-tools-preview"></a>使用客户端应用程序和工具连接到数据集（预览）
 
-Power BI Premium 工作区和数据集支持 Microsoft 和第三方客户端应用程序和工具的只读连接  。 默认情况下，连接处于启用状态
+Power BI Premium 工作区和数据集支持 Microsoft 和第三方客户端应用程序和工具的只读连接  。 默认情况下，连接处于启用状态。
 
 > [!NOTE]
 > 本文将只介绍 Power BI Premium 工作区和数据集的只读连接。 且不提供关于可编程性、特定工具和应用程序、体系结构以及工作区和数据集管理的深入信息  。 接下来介绍的主题需要读者对 Analysis Services 表格模型数据库体系结构和管理有扎实的理解。
@@ -104,17 +104,13 @@ Power BI 服务不支持以下数据集：
 
 目前，无法使用 XMLA 终结点发现或显示模型角色和角色成员身份。
 
-## <a name="disable-connectivity"></a>禁用连接
-
-默认情况下，为数据集工作负载启用了 XMLA 终结点连接。 可以在[工作负载设置](service-admin-premium-workloads.md#workload-settings)中禁用连接。
-
 ## <a name="audit-logs"></a>审核日志 
 
 客户端应用程序和工具连接到工作区时，通过 XMLA 终结点进行的访问记录在 GetWorkspaces 操作下的 Power BI 审核日志中  。 若要了解详细信息，请参阅[审核 Power BI](service-admin-auditing.md)。
 
 ## <a name="see-also"></a>另请参阅
 
-[Analysis Services 参考](https://docs.microsoft.com/bi-reference/#pivot=home&panel=home-all)   
+[Analysis Services 参考](https://docs.microsoft.com/bi-reference/?pivot=home&panel=home-all)   
 [SQL Server Management Studio](https://docs.microsoft.com/sql/ssms/sql-server-management-studio-ssms)   
 [SQL Server Analysis Services 表格数据](https://docs.microsoft.com/openspecs/sql_server_protocols/ms-ssas-t/b98ed40e-c27a-4988-ab2d-c9c904fe13cf)   
 [动态管理视图 (DMV)](https://docs.microsoft.com/sql/analysis-services/instances/use-dynamic-management-views-dmvs-to-monitor-analysis-services)   

@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.custom: mvc
 ms.date: 03/15/2019
-ms.openlocfilehash: 9f9383e5cdb4b4690ef75294f7ff8c17fb643d9a
-ms.sourcegitcommit: c395fe83d63641e0fbd7c98e51bbab224805bbcc
+ms.openlocfilehash: 4e8ce6d9a892abf3e24ecae6dee1e3ea23504d31
+ms.sourcegitcommit: 87b7cb4a2e626711b98387edaa5ff72dc26262bb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/21/2019
-ms.locfileid: "74265031"
+ms.lasthandoff: 03/10/2020
+ms.locfileid: "79041346"
 ---
 # <a name="what-can-developers-do-with-power-bi"></a>开发人员可以使用 Power BI 做什么？
 
@@ -37,7 +37,7 @@ Azure (PaaS) 中的 Power BI 服务 (SaaS) 和 Power BI 嵌入式服务具有用
 
 ## <a name="developing-custom-visuals"></a>开发自定义视觉对象
 
-可以使用 Power BI 的自定义视觉对象创建为你或贵公司量身定做的唯一视觉对象类型。 通常这些自定义视觉对象由开发人员创建。 它们是在 Power BI 附带的大量视觉对象不能完全满足你的需求时构建的。
+可以结合使用自定义视觉对象和 Power BI，创建为你或贵公司量身定制的唯一类型视觉对象。 通常这些自定义视觉对象由开发人员创建。 它们是在 Power BI 随附的大量视觉对象无法完全满足你的需求时生成的。
 
 可以通过自定义视觉对象创建视觉对象，以便在 Power BI 报表中使用。 自定义视觉对象将写入 TypeScript，即 JavaScript 的超集。 TypeScript 支持某些高级功能并提前获取 ES6/ES7 功能。 视觉对象样式使用层叠样式表 (CSS) 进行处理。 为方便起见，我们使用 Less 预编译器，该编译器支持某些高级功能，例如嵌套、变量、条件、循环和其他功能。 如果不想使用其中任何一种功能，可以在 less 文件中编写普通 CSS。
 
@@ -53,7 +53,7 @@ Power BI 显示可从众多不同数据源创建和实时更新的交互式仪�
 
 ![推送数据示例](media/what-can-you-do/powerbi-push-data.png)
 
-若要查看可以使用 Power BI API 执行的一些操作，请参阅[开发人员可以使用 Power BI API 执行哪些操作](overview-of-power-bi-rest-api.md)？
+若要查看可以使用 Power BI API 执行的一些操作，请参阅[开发人员可以使用 Power BI API 执行哪些操作](automation/overview-of-power-bi-rest-api.md)？
 
 ## <a name="next-steps"></a>后续步骤
 
@@ -61,6 +61,6 @@ Power BI 显示可从众多不同数据源创建和实时更新的交互式仪�
 
 [开发 Power BI 自定义视觉对象](https://microsoft.github.io/PowerBI-visuals/docs/step-by-step-lab/developing-a-power-bi-custom-visual/)
 
-[开发人员可以使用 Power BI API 做什么？](overview-of-power-bi-rest-api.md)
+[开发人员可以使用 Power BI API 做什么？](automation/overview-of-power-bi-rest-api.md)
 
 [Power BI 开发人员中心](https://powerbi.microsoft.com/developers/)

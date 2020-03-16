@@ -6,14 +6,14 @@ author: mihart
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 01/17/2019
+ms.date: 02/18/2020
 ms.author: mihart
-ms.openlocfilehash: e5c3f8b327d6899d83e2304e56e5813a47fc4698
-ms.sourcegitcommit: 02342150eeab52b13a37b7725900eaf84de912bc
+ms.openlocfilehash: 4679973cf65ced31a40b3a1bb40c820184e10e2c
+ms.sourcegitcommit: 87b7cb4a2e626711b98387edaa5ff72dc26262bb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/23/2020
-ms.locfileid: "76537798"
+ms.lasthandoff: 03/10/2020
+ms.locfileid: "79040101"
 ---
 # <a name="glossary-for-power-bi-service"></a>Power BI 服务词汇表
 Power BI 服务可能会引入不熟悉或容易混淆的术语。 词汇表是查找术语的好地方，可能需要将其加入书签。 了解构成 Power BI 服务的构建块的另一个极佳资源是[基本概念](end-user-basic-concepts.md)。 “基本概念”提供 Power BI 组件及其如何连接的简要概述。 
@@ -22,7 +22,9 @@ Power BI 服务可能会引入不熟悉或容易混淆的术语。 词汇表是�
 
 ## <a name="a"></a>A
 
-**account (帐户)** 有各种不同类型的 Power BI 帐户。  Power BI 专业帐户是收费的，按月订阅。  通过 Power BI 免费帐户，可以查看 Power BI Premium 容量中托管的内容。  
+**帐户**：有各种不同类型的 Power BI 帐户（亦称为“许可证”  ）。  帐户可以是每用户帐户，也可以是组织帐户。 每用户帐户作为免费  帐户或 Pro  帐户提供。  Power BI 免费  用户要么使用独立的 Power BI Desktop，要么在 Premium 组织帐户中使用 Power BI 服务。 Power BI 每用户 Pro  帐户是付费每月订阅，可便于与其他 Pro  用户进行协作和内容共享。 
+
+组织 Premium  （亦称为“高级容量”  ）帐户在每用户许可证的基础之上添加了一层功能。 例如，与没有 Premium  许可证的免费  用户相比，有 Premium  许可证的组织内的免费  每用户帐户持有者可以使用 Power BI 执行更多操作。 例如，Premium  组织帐户中的免费  用户可以与同事协作，并能查看 Power BI 高级容量中托管的内容。  
 
 **admin portal (管理门户)** Power BI 管理员管理其组织内 Power BI 的用户、功能和设置的地方。 （注意：Office 365、Azure 和 PowerApps 使用管理中心。）
 
@@ -170,6 +172,8 @@ Power BI 服务可能会引入不熟悉或容易混淆的术语。 词汇表是�
 
 第一次出现：navigation pane，后面提及或空间紧促时：nav pane
 
+**许可证**：请参阅“帐户”  。
+
 **list page (列表页)** 或 **content list (内容列表)** 导航窗格中元素的部分页面之一。 例如，“收藏夹”、“最近访问”、“我的工作区”。
 
 ## <a name="m"></a>M
@@ -226,15 +230,17 @@ Power BI 服务可能会引入不熟悉或容易混淆的术语。 词汇表是�
 
 **Power BI Embedded** 由开发人员使用，将 Power BI 仪表板和报表嵌入自己的应用、站点和工具。
 
-**Power BI Premium** Power BI Pro 许可证的一个加载项，可让组织通过购买专用硬件预测性地扩展 BI 解决方案。
+**Power BI Premium** Power BI Pro 许可证的一个加载项，可让组织通过购买专用硬件预测性地扩展 BI 解决方案。 请参阅“帐户”  。
 
-**Power BI Pro license (Power BI Pro 许可证)** 每月用户许可证，可提供构建仪表板、对共享数据进行协同合作、自动保持最新、审核和监管数据的访问和使用以及将内容打包以进行分发等功能（Power BI 应用）。
+**Power BI Pro**：每月每用户许可证，可提供生成报表和仪表板、对共享数据进行协作、自动不断更新数据、审核和监管数据访问方式和使用方式、打包内容以供分发（Power BI 应用）等功能。 请参阅“帐户”  。
 
 **Power BI Report Server (Power BI 报表服务器)** SSRS 的一个新品牌产品，与 Power BI Premium 一起发布，让组织可以构建已分发的混合 BI 系统（云和本地部署的混合体）。 Embedded 提供了存储和管理 Power BI 报表的本地化方法。
 
 **Power BI service (Power BI 服务)** 联机 SaaS（软件即服务）服务。 有关详细信息，请参阅[什么是 Power BI？](../fundamentals/power-bi-overview.md)。
 
 **Premium workspace (Premium 工作区)** 在专用容量中运行的工作区，使用钻石图标向客户表示。  
+
+Pro  许可证或 Pro  帐户：请参阅“帐户”  。
 
 **发布**：Power BI 服务报表设计人员捆绑 Power BI 工作区的内容，以 Power BI 应用的形式向其他人提供。  Power BI Desktop 报表设计人员使用发布来表示将 .pbix 格式的 Power BI Desktop 报表发送到 Power BI 服务，以便他们可以通过它生成仪表板，并轻松地将它与其他人共享。  
 

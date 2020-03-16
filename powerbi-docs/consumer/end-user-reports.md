@@ -6,17 +6,19 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 09/05/2019
+ms.date: 03/11/2020
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: 3f6f534b71ba6d8e8798418275c4758a95fc6fb5
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 089d1df9a63a30d602ac12f1bf18f32787374654
+ms.sourcegitcommit: 480bba9c745cb9af2005637e693c5714b3c64a8a
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73851227"
+ms.lasthandoff: 03/11/2020
+ms.locfileid: "79114248"
 ---
 # <a name="reports-in-power-bi"></a>Power BI 中的报表
+
+[!INCLUDE[consumer-appliesto-yyny](../includes/consumer-appliesto-yyny.md)]
 
 [!INCLUDE [power-bi-service-new-look-include](../includes/power-bi-service-new-look-include.md)]
 
@@ -41,7 +43,7 @@ Power BI 基于单个数据集的生成报表。 报表设计者在报表中创�
 在你探索内容并与之交互时（例如筛选、切片、订阅和导出时），不能中断报表。 基础数据集或原始共享内容不受你的工作影响。 这适用于仪表板、报表和应用。
 
 > [!NOTE]
-> 请记住，不能损坏数据。 Power BI 是一个探索和试验的好位置，不用担心会损坏任何内容。
+> 请注意，不能损坏数据。 Power BI 是可进行探索和试验的理想工具，不用担心会损坏内容。
 
 ### <a name="save-your-changes-or-revert-to-the-default-settings"></a>保存更改或还原为默认设置
 
@@ -78,7 +80,7 @@ Power BI 基于单个数据集的生成报表。 报表设计者在报表中创�
 * 要查看报表正在使用哪个数据集及哪个仪表板显示来自报表的视觉对象（固定）  ，请参阅[在 Power BI 服务中查看相关内容](end-user-related.md)。
 
 > [!TIP]
-> 如果未在此处找到你所查找的内容，请按照左侧的目录浏览所有的报表文章  。
+> 如果在此处找不到要查找的内容，请使用左侧的目录浏览所有“报表”  文章。
 
 ## <a name="next-steps"></a>后续步骤
 

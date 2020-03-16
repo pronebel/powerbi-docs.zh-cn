@@ -8,16 +8,18 @@ featuredvideoid: ''
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 01/30/2020
-rLocalizationGroup: Common tasks
-ms.openlocfilehash: 267a1e8b2f45198059e5acfcdf0233445babbd14
-ms.sourcegitcommit: 8b300151b5c59bc66bfef1ca2ad08593d4d05d6a
+ms.date: 03/09/2020
+LocalizationGroup: Common tasks
+ms.openlocfilehash: 869da47cd64e93a930fe6e92071345be093617a7
+ms.sourcegitcommit: 480bba9c745cb9af2005637e693c5714b3c64a8a
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/30/2020
-ms.locfileid: "76888565"
+ms.lasthandoff: 03/11/2020
+ms.locfileid: "79114036"
 ---
 # <a name="subscribe-to-a-report-or-dashboard-in-the-power-bi-service"></a>在 Power BI 服务中订阅报表或仪表板 
+
+[!INCLUDE[consumer-appliesto-ynny](../includes/consumer-appliesto-ynny.md)]
 
 [!INCLUDE [power-bi-service-new-look-include](../includes/power-bi-service-new-look-include.md)]
 
@@ -34,7 +36,7 @@ ms.locfileid: "76888565"
 必须有特定类型的许可证，才能为你自己创建  订阅。 如果无法创建订阅，请联系 Power BI 管理员。 “订阅其他内容”  仅适用于仪表板或报表所有者。 
 
 ## <a name="subscribe-to-a-dashboard-or-a-report-page"></a>订阅仪表板或报表页
-无论是订阅仪表板还是报表页，订阅过程都类似。 使用同一按钮，即可订阅 Power BI 服务仪表板和报表。
+无论是要订阅仪表板还是报表，过程都类似。 使用同一按钮，即可订阅 Power BI 服务仪表板和报表。
  
 ![选择“订阅”图标](./media/end-user-subscribe/power-bi-subscribe.png)。
 
@@ -63,7 +65,7 @@ ms.locfileid: "76888565"
 
 3. 如果看起来一切正常，请选择“保存并关闭”，保存订阅  。 你会按照所设置的计划收到仪表板或报表的电子邮件和快照。 频率设置为“数据刷新后”的所有订阅都只会在该天的第一次计划刷新之后发送电子邮件  。
    
-   ![仪表板的电子邮件快照](media/end-user-subscribe/power-bi-subscribe-email.png)
+   ![仪表板的电子邮件快照](media/end-user-subscribe/power-bi-email.png)
    
     刷新报表页不会刷新数据集。 只有数据集所有者能够手动刷新数据集。 若要查找基础数据集的所有者名称，请从菜单栏中选择下拉列表或查看原始订阅电子邮件。
    
@@ -73,11 +75,12 @@ ms.locfileid: "76888565"
 ## <a name="manage-your-subscriptions"></a>管理订阅
 只有你可以管理你所创建的订阅。 再次选择“订阅”  ，然后选择左下角的“管理所有订阅”  （见上面的屏幕截图）。 
 
-![请参阅我的工作区中的所有订阅](./media/end-user-subscribe/power-bi-manage.png)
+![请参阅我的工作区中的所有订阅](./media/end-user-subscribe/power-bi-manage-subscriptions.png)
 
 如果 Pro 许可证到期、所有者删除仪表板或报表，或用于创建订阅的用户帐户被删除，那么订阅将结束。
 
 ## <a name="considerations-and-troubleshooting"></a>注意事项和疑难解答
+* 为了避免订阅电子邮件转到垃圾邮件文件夹，请将 Power Platform 电子邮件别名 (PowerPlat-noreply@microsoft.com) 添加到联系人中。 如果使用的是 Microsoft Outlook，请右键单击别名，然后选择“添加到 Outlook 联系人”  。 
 * 具有超过 25 个固定磁贴或四个固定活动报表页面的仪表板可能无法完全呈现在发送给用户的订阅电子邮件中。 我们建议你联系并要求磁贴设计者将固定磁贴减少到 25 个以下，并将固定活动报表固定为少于 4 个，以确保电子邮件正确呈现。  
 * 对于仪表板电子邮件说明，如果任何磁贴应用了行级别安全性 (RLS)，则不会显示这些磁贴。  对于报表电子邮件说明，如果数据集使用 RLS，则无法创建订阅。
 * 如果电子邮件中的链接（指向内容）停止工作，则可能是该内容已被删除。 在电子邮件的屏幕截图下方，你可以查看自己或其他人是否订阅了你的邮件。 如果是其他人，请让该同事取消电子邮件或重新订阅。

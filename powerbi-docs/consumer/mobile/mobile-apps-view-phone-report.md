@@ -1,19 +1,19 @@
 ---
 title: 查看针对你的手机进行优化的 Power BI 报表
 description: 阅读有关与经过优化，以便在 Power BI 手机应用中查看的报表页交互的信息。
-author: mshenhav
+author: paulinbar
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: conceptual
-ms.date: 04/22/2019
-ms.author: mshenhav
-ms.openlocfilehash: f8dba41a15390e4b52227c7daaa603daf7c08939
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.date: 03/11/2020
+ms.author: painbar
+ms.openlocfilehash: 1db56c2844d217bf6bff633609893e5a97a6dae5
+ms.sourcegitcommit: 480bba9c745cb9af2005637e693c5714b3c64a8a
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73870517"
+ms.lasthandoff: 03/11/2020
+ms.locfileid: "79114886"
 ---
 # <a name="view-power-bi-reports-optimized-for-your-phone"></a>查看针对你的手机进行优化的 Power BI 报表
 
@@ -27,7 +27,7 @@ ms.locfileid: "73870517"
 
 ![纵向模式的报表](./media/mobile-apps-view-phone-report/07-power-bi-phone-report-portrait.png)
 
-如果不存在优化的手机报表，则报表仍将打开，但以非优化的横向视图显示。 即使是更适合在手机上查看的报表，如果翻转手机，报表也会按照原始报表布局，在未优化的视图中打开。 如果只优化了某些页，则你将在纵向视图中看到消息，指示该报表提供横向视图。
+如果没有更适合手机的报表，报表仍会打开，但是以非优化的横向视图显示。 即使是更适合在手机上查看的报表，如果翻转手机，报表也会按照原始报表布局，在未优化的视图中打开。 如果只优化了某些页，则你将在纵向视图中看到消息，指示该报表提供横向视图。
 
 ![报表页未优化](./media/mobile-apps-view-phone-report/06-power-bi-phone-report-page-not-optimized.png)
 
