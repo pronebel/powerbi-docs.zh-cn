@@ -145,7 +145,7 @@
               href: ../desktop-grouping-and-binning.md
             - name: 使用 R 创建 Power BI 视觉对象
               href: ../desktop-r-visuals.md
-            - name: 下载和使用 R 驱动的自定义视觉对象
+            - name: 下载和使用 R 驱动的 Power BI 视觉对象
               href: ../desktop-r-powered-custom-visuals.md
             - name: 应用网格线和对齐网格
               href: ../desktop-gridlines-snap-to-grid.md
