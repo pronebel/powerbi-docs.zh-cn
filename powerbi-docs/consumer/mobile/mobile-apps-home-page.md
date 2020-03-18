@@ -9,11 +9,11 @@ ms.topic: quickstart
 ms.date: 12/16/2019
 ms.author: painbar
 ms.openlocfilehash: 9af7fd95bcdaf0d747d1a3f2313f965d18a888e3
-ms.sourcegitcommit: d5de66b591c2e1de979ce0e3ce5e5b6e1f2a08db
+ms.sourcegitcommit: 7e845812874b3347bcf87ca642c66bed298b244a
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/31/2019
-ms.locfileid: "75548550"
+ms.lasthandoff: 03/13/2020
+ms.locfileid: "79205656"
 ---
 # <a name="a-quick-tour-of-the-mobile-app-home-page"></a>移动应用主页快速教程
 在本教程中，你将了解 Power BI 移动应用的主页及其提供的导航帮助，以便快速找到所需的内容。

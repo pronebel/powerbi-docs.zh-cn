@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 12/05/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 6a3458de09cece30948ff848859f05ed8127d034
-ms.sourcegitcommit: 8e3d53cf971853c32eff4531d2d3cdb725a199af
+ms.openlocfilehash: a2ac2820c7beb3a82650716896ddd36b79c82e07
+ms.sourcegitcommit: abc8419155dd869096368ba744883b865c5329fa
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "75757837"
+ms.lasthandoff: 03/17/2020
+ms.locfileid: "79436056"
 ---
 # <a name="create-and-use-filled-maps-choropleth-maps-in-power-bi"></a>创建和使用 Power BI 中的着色地图（等值线图）
 
@@ -63,7 +63,7 @@ Power BI 与必应相集成，提供默认地图坐标（一个称为地理编�
    > 
    > 
 
-[视频 https://www.youtube.com/embed/ajTPGNpthcg ]
+> [视频 https://www.youtube.com/embed/ajTPGNpthcg ]
 
 ### <a name="create-a-filled-map"></a>创建着色地图
 1. 从“字段”窗格中，选择“地区”\>“状态”字段   。    
@@ -130,7 +130,7 @@ Power BI 让你可以充分控制着色地图的外观。 使用这些数据颜�
 
 如果你具有编辑 Power BI Desktop 中的数据集的权限，则观看该视频有助于解决地图数据的模糊性。
 
-[视频 https://www.youtube.com/embed/Co2z9b-s_yM ]
+> [视频 https://www.youtube.com/embed/Co2z9b-s_yM ]
 
 如果无法访问纬度和经度数据，但确实可以对数据集进行编辑，则[按照这些说明来更新数据集](https://support.office.com/article/Maps-in-Power-View-8A9B2AF3-A055-4131-A327-85CC835271F7)。
 

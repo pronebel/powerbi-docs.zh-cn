@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.topic: conceptual
 ms.subservice: powerbi-custom-visuals
 ms.date: 01/12/2020
-ms.openlocfilehash: 58c226fd66c2551565f85ee75bd06469a46c4128
-ms.sourcegitcommit: d6a48e6f6e3449820b5ca03638b11c55f4e9319c
+ms.openlocfilehash: 2db9cdcb1238b5f26a34cf652f8f614411c2992b
+ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/18/2020
-ms.locfileid: "77427061"
+ms.lasthandoff: 03/14/2020
+ms.locfileid: "79379034"
 ---
 # <a name="power-bi-visual-project-structure"></a>Power BI 视觉对象项目结构
 
@@ -63,8 +63,6 @@ project
 此文件夹包含 `icon.png` 文件。
 
 Power BI 视觉对象工具使用此文件作为 Power BI 可视化效果窗格中的新 Power BI 视觉对象图标。
-
-<!--- ![Visualization pane](./media/visualization-pane-analytics-tab.png) --->
 
 ### <a name="src"></a>src
 

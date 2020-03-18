@@ -8,12 +8,12 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 11/09/2019
 ms.author: v-pemyer
-ms.openlocfilehash: eaa4354ed7355c0e01d9f75675cb7fed4bdc9d96
-ms.sourcegitcommit: 01de0b01f66f28ca45b8d309d7864f261d6c9a85
+ms.openlocfilehash: 6170217119e443a2eb24aac056623dce5070303e
+ms.sourcegitcommit: 7e845812874b3347bcf87ca642c66bed298b244a
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/16/2019
-ms.locfileid: "74133718"
+ms.lasthandoff: 03/13/2020
+ms.locfileid: "79208002"
 ---
 # <a name="datasets-in-the-power-bi-service"></a>Power BI 服务中的数据集
 
@@ -26,7 +26,7 @@ Power BI 数据集表示可报告和可视化的数据源。 有五种不同的�
 - 连接到非 Power BI 容量托管的现有数据模型
 - 上传包含模型的 Power BI Desktop 文件
 - 上传 Excel 工作簿（包含一个或多个 Excel 表和/或工作簿数据模型），或上传 CSV（逗号分隔值）文件
-- 使用 Power BI 服务创建[推送数据集](developer/walkthrough-push-data.md)
+- 使用 Power BI 服务创建[推送数据集](developer/automation/walkthrough-push-data.md)
 - 使用 Power BI 服务创建[流或混合流数据集](service-real-time-streaming.md)
 
 除了流数据集以外，数据集均表示使用成熟的 [Analysis Services](/analysis-services/analysis-services-overview) 建模技术的数据模型。

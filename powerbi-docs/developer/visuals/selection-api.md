@@ -7,14 +7,14 @@ ms.reviewer: rkarlin
 manager: rkarlin
 ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 06/18/2019
-ms.openlocfilehash: 6854dad244636854cc8b77ddf1ffc15342281771
-ms.sourcegitcommit: 8e3d53cf971853c32eff4531d2d3cdb725a199af
+ms.openlocfilehash: a631e6f5baf7942b81ce22a238d80f4aea40d022
+ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "76818884"
+ms.lasthandoff: 03/14/2020
+ms.locfileid: "79379668"
 ---
 # <a name="add-interactivity-into-visual-by-power-bi-visuals-selections"></a>通过 Power BI 视觉对象选择将交互性添加到视觉对象
 
@@ -179,11 +179,11 @@ export interface ISelectionIdBuilder {
 | Nissan | **进口汽车** | 5485 |
 | Toyota | **进口汽车** | 20799 |
 
-![具有类别和系列选择的视觉对象](media/visual-selections-sample.png)
+![具有类别和系列选择的视觉对象](media/selection-api/visual-selections-sample.png)
 
 需要填写视觉对象数据篮。
 
-![带选择的视觉对象的数据篮](media/visual-selections-databuckets.png)
+![带选择的视觉对象的数据篮](media/selection-api/visual-selections-databuckets.png)
 
 其中 `Manufacturer` 为类别（列）、`Type` 为序列（行）、`Value` 为序列 `Values`。
 

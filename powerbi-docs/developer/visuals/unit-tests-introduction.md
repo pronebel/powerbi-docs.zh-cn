@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: tutorial
 ms.date: 06/18/2019
-ms.openlocfilehash: 590f11f23a04a698459cc4db99efe5308ccc0ce3
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 996e409e634292ca0767f34c49931cfbcdcd4b94
+ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73879961"
+ms.lasthandoff: 03/14/2020
+ms.locfileid: "79379487"
 ---
 # <a name="tutorial-add-unit-tests-for-power-bi-visual-projects"></a>教程：为 Power BI 视觉对象项目添加单元测试
 
@@ -381,7 +381,7 @@ npm run test
 
 `karma.js` 在 Chrome 浏览器中运行测试用例。
 
-![在 Chrome 中打开的 Karma JavaScript](./media/karmajs-chrome.png)
+![在 Chrome 中打开的 Karma JavaScript](media/unit-tests-introduction/karmajs-chrome.png)
 
 > [!NOTE]
 > 必须在本地安装 Google Chrome。
@@ -453,7 +453,7 @@ export class SampleBarChartDataBuilder extends TestDataViewBuilder {
 
 将数据放入数据字段存储桶时，Power BI 会生成基于数据的类别 `dataview` 对象。
 
-![数据字段存储桶](./media/fields-buckets.png)
+![数据字段存储桶](media/unit-tests-introduction/fields-buckets.png)
 
 在单元测试中，你没有可用于重现数据的 Power BI 核心函数。 但你需要将静态数据映射到类别 `dataview`。 `TestDataViewBuilder` 类可协助你进行映射。
 
@@ -596,23 +596,23 @@ Lines        : 52.83% ( 112/212 )
 
 视觉对象将在 Chrome 浏览器中打开，如下所示：
 
-![UT 在 Chrome 中启动](./media/karmajs-chrome-ut-runned.png)
+![UT 在 Chrome 中启动](media/unit-tests-introduction/karmajs-chrome-ut-runned.png)
 
 摘要显示覆盖范围有所增加。 若要详细了解当前代码覆盖率，请打开 `coverage\index.html`。
 
-![UT 覆盖率索引](./media/code-coverage-index.png)
+![UT 覆盖率索引](media/unit-tests-introduction/code-coverage-index.png)
 
 或查看 `src` 文件夹的范围：
 
-![src 文件夹的覆盖率](./media/code-coverage-src-folder.png)
+![src 文件夹的覆盖率](media/unit-tests-introduction/code-coverage-src-folder.png)
 
 在文件范围内，可查看源代码。 如果在单元测试期间未执行某些代码，`Coverage` 实用程序将以红色突出显示该行。
 
-![visual.ts 文件的代码覆盖率](./media/code-coverage-visual-src.png)
+![visual.ts 文件的代码覆盖率](media/unit-tests-introduction/code-coverage-visual-src.png)
 
 > [!IMPORTANT]
 > 代码覆盖并不意味会实现好的视觉对象功能覆盖。 一个简单的单元测试可以在 `src\visual.ts` 中提供超过 96% 的覆盖率。
 
 ## <a name="next-steps"></a>后续步骤
 
-当视觉对象就绪时，你可以提交并发布它。 有关详细信息，请参阅[将 Power BI 视觉对象发布到 AppSource](../office-store.md)。
+当视觉对象就绪时，你可以提交并发布它。 有关详细信息，请参阅[将 Power BI 视觉对象发布到 AppSource](office-store.md)。

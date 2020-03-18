@@ -6,14 +6,14 @@ ms.author: kesharab
 ms.reviewer: sranins
 ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 06/18/2019
-ms.openlocfilehash: 021040706ff34f43c6a7772849f2e27181041bc9
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 56ebfeb8c1c52b83f5be0ca9e9db6f312986dd57
+ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73880056"
+ms.lasthandoff: 03/14/2020
+ms.locfileid: "79380105"
 ---
 # <a name="high-contrast-mode-support-in-power-bi-visuals"></a>Power BI 视觉对象中的高对比度模式支持
 
@@ -82,9 +82,9 @@ Power BI 原生视觉对象遵循以下准则：
 
 例如，在以下示例条形图中，所有条形都采用两个像素粗的前景轮廓和背景填充色进行绘制。 将其外观与默认颜色和几个高对比度主题进行比较：
 
-![使用标准颜色的示例条形图](./media/hc-samplebarchart-standard.png)
-![使用*深色 #2* 颜色主题的示例条形图](./media/hc-samplebarchart-dark2.png)
-![使用*白色*颜色主题的示例条形图](./media/hc-samplebarchart-white.png)
+![使用标准颜色的示例条形图](media/high-contrast-support/hc-samplebarchart-standard.png)
+![使用*深色 #2* 颜色主题的示例条形图](media/high-contrast-support/hc-samplebarchart-dark2.png)
+![使用*白色*颜色主题的示例条形图](media/high-contrast-support/hc-samplebarchart-white.png)
 
 下一节将显示 `visualTransform` 函数中为支持高对比度而更改的一个位置。 在更新过程中将其作为呈现的一部分进行调用。
 

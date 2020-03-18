@@ -6,14 +6,14 @@ ms.author: kesharab
 ms.reviewer: sranins
 ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 06/18/2019
-ms.openlocfilehash: ee4ac2db9d27129172797db9743790b5175dcd89
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 097dea720db6314bdb1fc9f51259196e4db44032
+ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73880079"
+ms.lasthandoff: 03/14/2020
+ms.locfileid: "79380196"
 ---
 # <a name="the-visual-filters-api-in-power-bi-visuals"></a>Power BI 视觉对象中的视觉对象筛选器 API
 
@@ -281,7 +281,7 @@ export interface VisualUpdateOptions extends extensibility.VisualUpdateOptions {
 
 一些示例 JSON 筛选器代码如下图所示：
 
-![JSON 筛选器代码](./media/json-filter.png)
+![JSON 筛选器代码](media/filter-api/json-filter.png)
 
 ### <a name="clear-the-json-filter"></a>清除 JSON 筛选器
 

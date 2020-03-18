@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 05/22/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 11be774515552d10846b51863eda6c155b92b57f
-ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
+ms.openlocfilehash: b0ed499a272fc3f6fc0590117898c64551fedac1
+ms.sourcegitcommit: abc8419155dd869096368ba744883b865c5329fa
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/09/2020
-ms.locfileid: "75758074"
+ms.lasthandoff: 03/17/2020
+ms.locfileid: "79436079"
 ---
 # <a name="create-and-use-combo-charts-in-power-bi"></a>创建和使用 Power BI 中的组合图
 
@@ -98,8 +98,7 @@ ms.locfileid: "75758074"
    ![群集组合图示例](media/power-bi-visualization-combo-chart/power-bi-clustered-combo.png)    
 
 ## <a name="add-titles-to-the-axes"></a>向轴添加标题
-1. 选择滚动油漆刷图标 
-1. ![滚动油漆刷图标](media/power-bi-visualization-combo-chart/power-bi-paintroller.png) ，以打开“格式设置”窗格。
+1. 选择滚动油漆刷图标 ![滚动油漆刷图标](media/power-bi-visualization-combo-chart/power-bi-paintroller.png) ，以打开“格式设置”窗格。
 1. 选择向下箭头以展开 **Y 轴**选项。
 1. 对于“Y 轴(列)”，将“位置”设置为“左”，将“标题”设置为“打开”，将“样式”设置为“仅显示标题”，并将“显示单位”设置为“百万”          。
 

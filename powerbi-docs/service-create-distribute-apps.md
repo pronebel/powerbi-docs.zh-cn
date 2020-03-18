@@ -9,11 +9,11 @@ ms.date: 08/15/2019
 ms.author: maggies
 LocalizationGroup: Share your work
 ms.openlocfilehash: 622d01632b9c9cbe6203090b3ac2149d4bc94474
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.sourcegitcommit: 7e845812874b3347bcf87ca642c66bed298b244a
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73853641"
+ms.lasthandoff: 03/13/2020
+ms.locfileid: "79207864"
 ---
 # <a name="publish-an-app-in-power-bi"></a>在 Power BI 中发布应用
 
@@ -37,7 +37,7 @@ ms.locfileid: "73853641"
 * **选项 1** 此应用的工作区不包括在 Power BI Premium 容量中  ：所有业务用户都需要 Power BI Pro 许可才能查看应用。 
 * **选项 2** 此应用的工作区包含在 Power BI Premium 容量中  ：组织中没有 Power BI Pro 许可证的业务用户也可查看应用内容。 但是，他们无法复制报表，也无法基于基础数据集创建报表。 请阅读[什么是 Power BI Premium？](service-premium.md)了解详细信息。
 
-## <a name="publish-your-app"></a>发布应用
+## <a name="publish-your-app"></a>发布你的应用
 工作区中的仪表板和报表准备就绪后，选择要发布的仪表板和报表，然后将其作为应用发布。 
 
 1. 在工作区列表视图中决定应用要包含的仪表板和报表  。

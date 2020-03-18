@@ -8,12 +8,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 01/29/2020
 ms.author: v-pemyer
-ms.openlocfilehash: f9832948fdd25d1bd807e0ff5d916b08b55aea95
-ms.sourcegitcommit: e27d40054949421701f829113c4a5f6d260c8d5f
+ms.openlocfilehash: fdd7504823f088ed0e88657a6fcccaeb9a5a36d0
+ms.sourcegitcommit: a175faed9378a7d040a08ced3e46e54503334c07
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/12/2020
-ms.locfileid: "77155010"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "79487800"
 ---
 # <a name="tenant-admin-settings-guidance"></a>租户管理员设置指南
 
@@ -128,7 +128,7 @@ ms.locfileid: "77155010"
 
 ### <a name="developer-settings"></a>开发人员设置
 
-有两个租户设置与[嵌入 Power BI 内容](../developer/embedding.md)相关。 它们分别是：
+有两个租户设置与[嵌入 Power BI 内容](../developer/embedded/embedding.md)相关。 它们分别是：
 
 - 在应用中嵌入内容（默认启用）
 - 允许服务主体使用 Power BI API（默认禁用）

@@ -1,19 +1,19 @@
 ---
 title: 查看 Power BI 移动应用中的仪表板和报表
 description: 在 Power BI 服务中创建或连接仪表板和报表。 然后可以在 Power BI 移动应用中对其进行查看。
-author: mshenhav
+author: paulinbar
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: conceptual
-ms.date: 07/05/2019
-ms.author: mshenhav
-ms.openlocfilehash: d35d54308f778033f508549bfd52e9d61ef2a949
-ms.sourcegitcommit: 02b05932a119527f255e1eacc745a257044e392f
+ms.date: 03/11/2020
+ms.author: painbar
+ms.openlocfilehash: 3410d8fa8c2f9300fccbe47683a90cbca8ff8383
+ms.sourcegitcommit: 7e845812874b3347bcf87ca642c66bed298b244a
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/19/2019
-ms.locfileid: "75218304"
+ms.lasthandoff: 03/13/2020
+ms.locfileid: "79205518"
 ---
 # <a name="view-dashboards-and-reports-in-the-power-bi-mobile-apps"></a>查看 Power BI 移动应用中的仪表板和报表
 适用于：
@@ -70,11 +70,11 @@ ms.locfileid: "75218304"
    ![痕迹导航](./media/mobile-apps-view-dashboard/power-bi-iphone-breadcrumb.png)
 
 ### <a name="view-dashboards-in-landscape-mode-in-your-iphone"></a>在 iPhone 上的横向模式下查看仪表板
-只需旋转手机，即可在横向模式中查看仪表板。 仪表板布局从一系列磁贴变为整个仪表板的视图&#151；可以看到和 Power BI 服务中一样的仪表板的所有磁贴。
+只需旋转手机，即可在横向模式中查看仪表板。 仪表板布局从一系列磁贴变为整个仪表板的视图，可以看到仪表板的所有磁贴，与 Power BI 服务中展示的一样。
 
 ![仪表板横向](././media/mobile-apps-view-dashboard/power-bi-iphone-dashboard-landscape.png)
 
-你可以在仪表板的不同区域使用“收缩”手势进行放大和缩小，你还可以使用平移来进行导航。 你仍然可以[点击磁贴](mobile-tiles-in-the-mobile-apps.md)以在焦点模式下打开该磁贴，并与你的数据进行交互。
+可以在仪表板的不同区域使用“收缩”手势进行放大和缩小，还可以使用平移来进行导航。 你仍然可以[点击磁贴](mobile-tiles-in-the-mobile-apps.md)以在焦点模式下打开该磁贴，并与你的数据进行交互。
 
 ## <a name="view-dashboards-on-your-ipad"></a>在 iPad 上查看仪表板
 1. 打开 Power BI 应用。
@@ -138,12 +138,12 @@ ms.locfileid: "75218304"
    ![省略号菜单](././media/mobile-apps-view-dashboard/pbi_andr_dashellipsis.png)
 4. 向上和向下轻扫可查看[仪表板中的所有磁贴](mobile-tiles-in-the-mobile-apps.md)。 
    
-   你可以在仪表板的不同区域使用“收缩”手势进行放大和缩小，你还可以使用平移来进行导航。 你仍然可以[点击磁贴](mobile-tiles-in-the-mobile-apps.md)以在焦点模式下打开该磁贴，并与你的数据进行交互。
+   可以在仪表板的不同区域使用“收缩”手势进行放大和缩小，还可以使用平移来进行导航。 你仍然可以[点击磁贴](mobile-tiles-in-the-mobile-apps.md)以在焦点模式下打开该磁贴，并与你的数据进行交互。
 5. 若要返回到仪表板主页上，点击仪表板名称以打开导航路径记录，然后点击“**我的工作区**”：
    
     ![痕迹导航](./media/mobile-apps-view-dashboard/power-bi-android-tablet-breadcrumb.png)
 
-    你可以在仪表板的不同区域使用“收缩”手势进行放大和缩小，你还可以使用平移来进行导航。 你仍然可以[点击磁贴](mobile-tiles-in-the-mobile-apps.md)以在焦点模式下打开该磁贴，并与你的数据进行交互。
+    可以在仪表板的不同区域使用“收缩”手势进行放大和缩小，还可以使用平移来进行导航。 你仍然可以[点击磁贴](mobile-tiles-in-the-mobile-apps.md)以在焦点模式下打开该磁贴，并与你的数据进行交互。
 
 ## <a name="create-a-phone-view-of-a-dashboard-in-the-power-bi-service"></a>在 Power BI 服务中创建仪表板电话视图
 如果你是仪表板所有者，则可以*在 Power BI 服务中*创建手机专用仪表板纵向模式视图。 

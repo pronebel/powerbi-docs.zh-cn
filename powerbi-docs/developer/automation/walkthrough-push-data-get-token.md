@@ -8,22 +8,22 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: tutorial
 ms.date: 05/29/2019
-ms.openlocfilehash: 4b1c890a69863f3e05dee052efe9529b174f0874
-ms.sourcegitcommit: 87b7cb4a2e626711b98387edaa5ff72dc26262bb
+ms.openlocfilehash: 7e74b01a6b12302393a3e4bc40b2e9cccfc13d63
+ms.sourcegitcommit: a175faed9378a7d040a08ced3e46e54503334c07
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/10/2020
-ms.locfileid: "79079108"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "79488260"
 ---
 # <a name="step-2-get-an-authentication-access-token"></a>步骤 2：获取身份验证访问令牌
 
 本文是[将数据推送到 Power BI 数据集](walkthrough-push-data.md)系列中的第二步。
 
-在步骤 1 中，你[在 Azure AD 中注册了客户端应用](../register-app.md)。 在此步骤中，你将获得身份验证访问令牌。 Power BI 应用与 Azure Active Directory 集成，为你的应用提供安全的登录和授权。 你的应用使用令牌向 Azure AD 进行身份验证，并获得对 Power BI 资源的访问权限。
+在步骤 1 中，你[在 Azure AD 中注册了客户端应用](../embedded/register-app.md)。 在此步骤中，你将获得身份验证访问令牌。 Power BI 应用与 Azure Active Directory 集成，为你的应用提供安全的登录和授权。 你的应用使用令牌向 Azure AD 进行身份验证，并获得对 Power BI 资源的访问权限。
 
 ## <a name="get-an-authentication-access-token"></a>获取身份验证访问令牌
 
-在开始之前，请确保已完成[将数据推送到 Power BI 数据集](walkthrough-push-data.md)系列中的[上一步骤](../register-app.md)。 
+在开始之前，请确保已完成[将数据推送到 Power BI 数据集](walkthrough-push-data.md)系列中的[上一步骤](../embedded/register-app.md)。 
 
 此过程要求使用 Visual Studio 2015 或更高版本。
 
@@ -39,7 +39,7 @@ ms.locfileid: "79079108"
 
 3. 将这些步骤后列出的示例代码添加到 Program.cs。
 
-4. 使用[上一篇系列文章](../register-app.md)中注册应用时获取的**客户端 ID** 替换“{ClientID}”。
+4. 使用[上一篇系列文章](../embedded/register-app.md)中注册应用时获取的**客户端 ID** 替换“{ClientID}”。
 
 5. 运行控制台应用并登录 Power BI 帐户。 
 

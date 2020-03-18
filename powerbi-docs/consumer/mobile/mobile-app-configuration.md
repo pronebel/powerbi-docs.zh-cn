@@ -6,14 +6,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: conceptual
-ms.date: 01/15/2020
+ms.date: 03/07/2020
 ms.author: painbar
-ms.openlocfilehash: b7a02261e6e00c01befa8ba7716b9e0d132323ea
-ms.sourcegitcommit: f9909731ff5b6b69cdc58e9abf2025b7dee0e536
+ms.openlocfilehash: 1991381f8b2917fe3bc61a8be22fbdf44e706d71
+ms.sourcegitcommit: 7e845812874b3347bcf87ca642c66bed298b244a
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/20/2020
-ms.locfileid: "77496749"
+ms.lasthandoff: 03/13/2020
+ms.locfileid: "79205541"
 ---
 # <a name="remotely-configure-power-bi-app-using-mobile-device-management-mdm-tool"></a>使用移动设备管理 (MDM) 工具远程配置 Power BI 应用
 
@@ -22,8 +22,8 @@ ms.locfileid: "77496749"
 Power BI 移动版应用支持以下配置方案：
 
 * 报表服务器配置（iOS 和 Android）
-* 数据保护设置（iOS 和 Android）
-* 交互设置 (Android)
+* 数据保护设置 (iOS)
+* 交互设置（iOS 和 Android）
 
 ## <a name="report-server-configuration-ios-and-android"></a>报表服务器配置（iOS 和 Android）
 
@@ -38,20 +38,24 @@ Power BI 移动版应用支持以下配置方案：
 
 ## <a name="data-protection-settings-ios"></a>数据保护设置 (iOS)
 
-适用于 iOS 和 Android 的 Power BI 应用使管理员能够自定义安全和隐私设置的默认配置。 可强制用户在访问 Power BI 应用时提供其 Face ID、Touch ID 或密码。
+适用于 iOS 的 Power BI 应用使管理员能够自定义安全和隐私设置的默认配置。 可强制用户在访问 Power BI 应用时提供其 Face ID、Touch ID 或密码。
 
 | 密钥 | 类型 | 说明 |
 |---|---|---|
 | com.microsoft.powerbi.mobile.ForceDeviceAuthentication | 布尔 | 默认值为 False。 <br><br>用户可能需要使用生物识别技术（例如 Touch ID 或 Face ID）来访问其设备上的应用。 需要时，除身份验证外还会使用生物识别技术。<br><br>如果使用应用保护策略，Microsoft 建议禁用此设置来防止双重访问提示。 |
 
-## <a name="interaction-settings-android"></a>交互设置 (Android)
+## <a name="interaction-settings-ios-and-android"></a>交互设置（iOS 和 Android）
 
-适用于 Android 的 Power BI 应用使管理员能够在确定需要跨组织中的用户组更改默认交互设置时配置交互设置。 
+适用于 iOS 和 Android 的 Power BI 应用使管理员能够在确定需要跨组织中的用户组更改默认交互设置时配置交互设置。
+
+>[!NOTE]
+>并非所有设备目前都支持所有交互。 若要查看当前跨设备可用性的图表，请参阅[配置报表交互设置](mobile-app-interaction-settings.md)。
 
 | 密钥 | 类型 | 值 | 说明 |
 |---|---|---|---|
-| com.microsoft.powerbi.mobile.ReportTapInteraction | 字符串 |  <nobr>单击</nobr><br><nobr>双击</nobr> | 配置点击视觉对象是否还会同时选择数据点。 |
-| com.microsoft.powerbi.mobile.RefreshAction | 字符串 |  <nobr>下拉以刷新</nobr><br>按钮 | 配置用户是使用按钮刷新报表还是下拉以刷新。 |
+| com.microsoft.powerbi.mobile.ReportTapInteraction | 字符串 |  <nobr>单击</nobr><br><nobr>双击</nobr> | 配置在点击视觉对象时，是否还会同时选择数据点。 |
+| com.microsoft.powerbi.mobile.EnableMultiSelect | 布尔 |  <nobr>True</nobr><br><nobr>False</nobr> | 配置在点击数据点时，是会替换当前选定内容还是添加到当前选定内容中。 |
+| com.microsoft.powerbi.mobile.RefreshAction | 字符串 |  <nobr>下拉以刷新</nobr><br>按钮 | 配置用户是使用按钮刷新报表还是应使用下拉刷新。 |
 | com.microsoft.powerbi.mobile.FooterAppearance | 字符串 |  已停靠<br>动态 | 配置是将报表页脚停靠在报表底部还是自动隐藏。 |
 
 ## <a name="deploying-app-configuration-settings"></a>部署应用配置设置

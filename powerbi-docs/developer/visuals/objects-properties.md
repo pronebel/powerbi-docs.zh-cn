@@ -9,11 +9,11 @@ ms.subservice: powerbi-custom-visuals
 ms.topic: conceptual
 ms.date: 06/18/2019
 ms.openlocfilehash: ae548abd0d579414a69b0d970213ff9d69ff2f08
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.sourcegitcommit: 7e845812874b3347bcf87ca642c66bed298b244a
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73879855"
+ms.lasthandoff: 03/13/2020
+ms.locfileid: "79205863"
 ---
 # <a name="objects-and-properties-of-power-bi-visuals"></a>Power BI 视觉对象的对象和属性
 

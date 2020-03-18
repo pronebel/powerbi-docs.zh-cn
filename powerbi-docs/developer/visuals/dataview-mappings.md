@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: conceptual
 ms.date: 06/18/2019
-ms.openlocfilehash: b50ebde94d78ca42437979d792fb6402affe8855
-ms.sourcegitcommit: 8e3d53cf971853c32eff4531d2d3cdb725a199af
+ms.openlocfilehash: 571d4a2992a5017114cf94c3f49296769062d8ee
+ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "74696595"
+ms.lasthandoff: 03/14/2020
+ms.locfileid: "79380775"
 ---
 # <a name="understand-data-view-mapping-in-power-bi-visuals"></a>了解 Power BI 视觉对象中的数据视图映射
 
@@ -185,7 +185,7 @@ export class Visual implements IVisual {
 
 因此，视觉对象显示 Power BI 中的单个值：
 
-![单个数据视图映射视觉对象的示例](./media/visual-simple-dataview-mapping.png)
+![单个数据视图映射视觉对象的示例](media/dataview-mappings/visual-simple-dataview-mapping.png)
 
 ## <a name="categorical-data-mapping"></a>类别数据映射
 
@@ -493,7 +493,7 @@ export class Visual implements IVisual {
 
 视觉对象的结果：
 
-![具有分类数据视图映射的视觉对象](./media/categorical-data-view-mapping-visual.png)
+![具有分类数据视图映射的视觉对象](media/dataview-mappings/categorical-data-view-mapping-visual.png)
 
 ## <a name="table-data-mapping"></a>表数据映射
 
@@ -508,7 +508,7 @@ export class Visual implements IVisual {
     {
         "displayName": "Column",
         "name": "column",
-        "kind": "Measure"
+        "kind": "Grouping"
     },
     {
         "displayName": "Value",
@@ -557,7 +557,7 @@ export class Visual implements IVisual {
 
 数据绑定：
 
-![表数据视图映射数据绑定](./media/table-dataview-mapping-data.png)
+![表数据视图映射数据绑定](media/dataview-mappings/table-dataview-mapping-data.png)
 
 Power BI 以表数据视图的形式显示数据。 不应假定数据已排序。
 
@@ -603,7 +603,7 @@ Power BI 以表数据视图的形式显示数据。 不应假定数据已排序�
 
 可以通过选择所需的字段，然后选择“求和”来聚合数据。  
 
-![数据聚合](./media/data-aggregation.png)
+![数据聚合](media/dataview-mappings/data-aggregation.png)
 
 处理表数据视图映射的代码示例。
 
@@ -686,7 +686,7 @@ td {
 }
 ```
 
-![具有表数据视图映射的视觉对象](./media/table-dataview-mapping-visual.png)
+![具有表数据视图映射的视觉对象](media/dataview-mappings/table-dataview-mapping-visual.png)
 
 ## <a name="matrix-data-mapping"></a>矩阵数据映射
 
@@ -767,7 +767,7 @@ Power BI 创建分层数据结构。 树层次结构的根包括来自 `Category
 
 Power BI 的核心矩阵视觉对象将数据呈现为表。
 
-![矩阵视觉对象](./media/matrix-visual-smaple.png)
+![矩阵视觉对象](media/dataview-mappings/matrix-visual-smaple.png)
 
 视觉对象按以下代码所述获取其数据结构（此处仅显示前两个表行）：
 

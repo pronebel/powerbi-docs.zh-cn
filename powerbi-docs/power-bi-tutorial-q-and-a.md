@@ -8,18 +8,18 @@ ms.topic: conceptual
 ms.date: 05/13/2019
 ms.author: maggies
 LocalizationGroup: Ask questions of your data
-ms.openlocfilehash: 183ce11457069612f84bb834d7060a047cae1866
-ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
+ms.openlocfilehash: 71a727d1d7e39661ed86a4fdf574e3f1fa8fb595
+ms.sourcegitcommit: a175faed9378a7d040a08ced3e46e54503334c07
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/06/2020
-ms.locfileid: "73875088"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "79488858"
 ---
 # <a name="use-power-bi-qa-to-explore-your-data-and-create-visuals"></a>使用 Power BI 问答浏览数据和创建视觉对象
 
 有时从你的数据中获得答案的最快方法是使用自然语言提问。 使用 Power BI 中的问答功能可以按自己的措辞浏览数据。  本文的第一部分介绍如何在 Power BI 服务的仪表板中使用问答。 第二部分介绍在 Power BI 服务或 Power BI Desktop 中创建报表时，使用问答能够实现的操作。 有关详细背景信息，请参阅[面向使用者的问答](consumer/end-user-q-and-a.md)一文。 
 
-[Power BI 移动应用中的问答](consumer/mobile/mobile-apps-ios-qna.md)和 [Power BI Embedded 中的问答](developer/qanda.md)通过单独的文章进行了介绍。 
+[Power BI 移动应用中的问答](consumer/mobile/mobile-apps-ios-qna.md)和 [Power BI Embedded 中的问答](developer/embedded/qanda.md)通过单独的文章进行了介绍。 
 
 问答是互动式的，甚至很好玩。 由于可视化效果显示值得关注的其他了解路径，因此一个问题通常会延伸到其他问题。 请观看 Amanda 是如何使用 Power BI 问答创建可视化效果、向下钻取这些视觉对象，并将它们固定到仪表板的。
 

@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: overview
 ms.date: 03/25/2019
-ms.openlocfilehash: 3ff7eb4a771ed8c65d18262f61170f312049a898
-ms.sourcegitcommit: 87b7cb4a2e626711b98387edaa5ff72dc26262bb
+ms.openlocfilehash: 1a74d856ad46dc6843546919aa4234dc86d2be5c
+ms.sourcegitcommit: a175faed9378a7d040a08ced3e46e54503334c07
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/10/2020
-ms.locfileid: "79079407"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "79488423"
 ---
 # <a name="what-can-developers-do-with-the-power-bi-api"></a>开发人员可以使用 Power BI API 做什么？
 
@@ -25,10 +25,10 @@ ms.locfileid: "79079407"
 
 | **了解详细信息的方法** | **参考信息** |
 |----------------------------------------------------------------------------------|------------------------------------------------------------------------------------|
-| 为 Power BI 用户和非 Power BI 用户嵌入仪表板、报表和磁贴。 | [如何嵌入 Power BI 仪表板、报表和磁贴](../embed-sample-for-customers.md) |
+| 为 Power BI 用户和非 Power BI 用户嵌入仪表板、报表和磁贴。 | [如何嵌入 Power BI 仪表板、报表和磁贴](../embedded/embed-sample-for-customers.md) |
 | 在 Power BI 对象上执行管理任务。 | [Power BI REST API 引用](https://docs.microsoft.com/rest/api/power-bi/) |
 | 扩展现有业务工作流以将关键数据推送到 Power BI 仪表板。 | [将数据推送到仪表板](walkthrough-push-data.md) |
-| 进行 Power BI 身份验证。 | [进行 Power BI 身份验证](../get-azuread-access-token.md) |
+| 进行 Power BI 身份验证。 | [进行 Power BI 身份验证](../embedded/get-azuread-access-token.md) |
 
 > [!NOTE]
 > Power BI API 仍以组的形式引用工作区。 对组的任何引用都意味着正使用工作区工作。

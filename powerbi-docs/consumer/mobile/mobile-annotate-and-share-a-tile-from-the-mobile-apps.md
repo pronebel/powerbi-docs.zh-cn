@@ -1,19 +1,19 @@
 ---
 title: 在 Power BI 移动应用中批注并共享
 description: '了解如何从适用于 iOS 和 Android 的 Microsoft Power BI 移动应用批注和共享磁贴、报表和视觉对象。 '
-author: mshenhav
+author: paulinbar
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: conceptual
-ms.date: 03/20/2018
-ms.author: mshenhav
-ms.openlocfilehash: 013cbc58a8404fa803a14c73b1668be1215cf642
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.date: 03/11/2020
+ms.author: painbar
+ms.openlocfilehash: 5d1a014b32bcb3ce90938659e2b6478518e8aefc
+ms.sourcegitcommit: 7e845812874b3347bcf87ca642c66bed298b244a
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73879500"
+ms.lasthandoff: 03/13/2020
+ms.locfileid: "79205495"
 ---
 # <a name="annotate-and-share-a-tile-report-or-visual-in-power-bi-mobile-apps"></a>在 Power BI 移动应用中批注并共享磁贴、报表或视觉对象
 适用于：

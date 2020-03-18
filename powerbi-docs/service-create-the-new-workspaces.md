@@ -10,11 +10,11 @@ ms.date: 10/02/2019
 ms.author: maggies
 LocalizationGroup: Share your work
 ms.openlocfilehash: bbb5eeee7422670c771f7bbfb4b051de0538a10a
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.sourcegitcommit: 7e845812874b3347bcf87ca642c66bed298b244a
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73877515"
+ms.lasthandoff: 03/13/2020
+ms.locfileid: "79207818"
 ---
 # <a name="create-the-new-workspaces-in-power-bi"></a>在 Power BI 中创建新工作区
 
@@ -59,9 +59,9 @@ Power BI 引入了新工作区体验。 工作区仍是与同事协作创建仪�
 
     若要将工作区分配给专用容量，请在“高级”选项卡上选择“专用容量”    。
      
-    ![专用的容量](media/service-create-the-new-workspaces/power-bi-workspace-premium.png)
+    ![专用容量](media/service-create-the-new-workspaces/power-bi-workspace-premium.png)
 
-1. 选择**保存**。
+1. 选择“保存”。 
 
     Power BI 创建工作区并将其打开。 可以在你所属的工作区列表中看到它。 
 
@@ -81,7 +81,7 @@ Power BI 引入了新工作区体验。 工作区仍是与同事协作创建仪�
 
     ![工作区联系人](media/service-create-the-new-workspaces/power-bi-workspace-contacts.png)
 
-3. 选择**保存**。
+3. 选择“保存”。 
 
 ## <a name="workspace-onedrive"></a>工作区 OneDrive
 
@@ -101,7 +101,7 @@ Power BI 不会将配置为拥有工作区访问权限的用户或组的权限�
 
     ![指定 OneDrive 位置](media/service-create-the-new-workspaces/power-bi-new-workspace-onedrive.png)
 
-3. 选择**保存**。
+3. 选择“保存”。 
 
 ### <a name="access-the-workspace-onedrive-location"></a>访问工作区 OneDrive 位置
 
