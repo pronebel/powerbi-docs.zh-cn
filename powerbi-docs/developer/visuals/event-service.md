@@ -6,14 +6,14 @@ ms.author: kesharab
 ms.reviewer: rkarlin
 ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
-ms.topic: conceptual
+ms.topic: reference
 ms.date: 06/18/2019
-ms.openlocfilehash: 873968a89a230171d8fecba81a7d528767ee7077
-ms.sourcegitcommit: 0cc594ebb78a6d0e88784673ed09f8aefd10c7a7
+ms.openlocfilehash: c54aaa92f3463ce1102866c8d3b69532c8b25cf7
+ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "76819137"
+ms.lasthandoff: 03/14/2020
+ms.locfileid: "79380240"
 ---
 # <a name="render-events-in-power-bi-visuals"></a>在 Power BI 视觉对象中呈现事件
 
@@ -113,4 +113,4 @@ export interface IVisualEventService {
 
 ## <a name="rendering-events-for-visual-certification"></a>视觉对象认证的呈现事件
 
-视觉对象认证的要求之一是支持视觉对象呈现事件。 有关详细信息，请参阅[认证要求](https://docs.microsoft.com/power-bi/power-bi-custom-visuals-certified?#certification-requirements)。
+视觉对象认证的要求之一是支持视觉对象呈现事件。 有关详细信息，请参阅[认证要求](power-bi-custom-visuals-certified.md#certification-requirements)。

@@ -9,12 +9,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 10/04/2019
 LocalizationGroup: ''
-ms.openlocfilehash: 1f1d88e2484d48e1f479523dddf6bb0cb63e5d0f
-ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
+ms.openlocfilehash: bf9248b29c71f42de9fed53ee0148847a8f60d30
+ms.sourcegitcommit: a175faed9378a7d040a08ced3e46e54503334c07
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/06/2020
-ms.locfileid: "73875192"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "79488628"
 ---
 # <a name="query-caching-in-power-bi-premiumembedded"></a>在 Power BI Premium/Embedded 中查询缓存
 
@@ -41,4 +41,4 @@ ms.locfileid: "73875192"
 ## <a name="next-steps"></a>后续步骤
 
 * [什么是 Power BI Premium？](service-premium-what-is.md)
-* [Azure 中的 Power BI Embedded 是指什么？](developer/azure-pbie-what-is-power-bi-embedded.md)
+* [Azure 中的 Power BI Embedded 是指什么？](developer/embedded/azure-pbie-what-is-power-bi-embedded.md)

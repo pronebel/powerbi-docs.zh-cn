@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: conceptual
 ms.date: 06/18/2019
-ms.openlocfilehash: 19714db2d1307ac9d7eb8861955870ba9988539e
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 97242883fe90c8f5e115818a24e4bb1c49f69b77
+ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73880327"
+ms.lasthandoff: 03/14/2020
+ms.locfileid: "79380540"
 ---
 # <a name="advanced-edit-mode-in-power-bi-visuals"></a>Power BI 视觉对象中的高级编辑模式
 
@@ -39,7 +39,7 @@ ms.locfileid: "73880327"
 
 如果 capabilities.json 文件中缺少属性 `advancedEditModeSupport` 或将其设置为 `NotSupported`，则不会显示“编辑”按钮   。
 
-![进入编辑模式](./media/edit-mode.png)
+![进入编辑模式](media/advanced-edit-mode/edit-mode.png)
 
 选择“编辑”  时，视觉对象将获取 update() 调用，并将 EditMode 设置为 `Advanced`。 根据 capabilities.json 文件中设置的值，将发生以下操作  ：
 

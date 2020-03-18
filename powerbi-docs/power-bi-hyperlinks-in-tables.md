@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 02/13/2020
 ms.author: maggies
 LocalizationGroup: Visualizations
-ms.openlocfilehash: f8a49780804449296194d7adb8091f7f0c5748fe
-ms.sourcegitcommit: d6a48e6f6e3449820b5ca03638b11c55f4e9319c
+ms.openlocfilehash: 021aeafab4deb5afb39cd3986b3fb68b62b483f0
+ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/18/2020
-ms.locfileid: "77427797"
+ms.lasthandoff: 03/14/2020
+ms.locfileid: "79381252"
 ---
 # <a name="add-hyperlinks-urls-to-a-table-or-matrix"></a>向表或矩形图添加超链接 (URL)
 本主题介绍如何向表添加超链接 (URL)。 使用 Power BI Desktop 向数据集添加超链接 (URL)。 可以在 Power BI Desktop 或 Power BI 服务中将这些超链接添加到报表表格和矩形图。 然后，可以显示 URL 或链接图标，或将另一列的格式设置为链接文本。
@@ -36,7 +36,7 @@ ms.locfileid: "77427797"
 
 2. 在“数据”视图或“报表”视图中，选择列。 
 
-3. 在“建模”选项卡上，选择“数据类别” > “Web URL”。
+3. 在“建模”  选项卡上，选择“数据类别”   > “Web URL”  。
    
     ![数据类别下拉列表](media/power-bi-hyperlinks-in-tables/power-bi-format-web-url.png)
 
@@ -62,9 +62,9 @@ ms.locfileid: "77427797"
 
 2. 选择表，使其处于活动状态。
 
-    选择“格式”图标![滚动油漆刷图标](media/power-bi-hyperlinks-in-tables/power-bi-paintroller.png)，打开“格式”选项卡。
+    选择“格式”  图标![滚动油漆刷图标](media/power-bi-hyperlinks-in-tables/power-bi-paintroller.png)，打开“格式”选项卡。
 
-    展开“值”，找到“URL 图标”并将其“打开”。
+    展开“值”  ，找到“URL 图标”  并将其“打开”  。
 
     ![打开 URL 图标](media/power-bi-hyperlinks-in-tables/power-bi-url-icon-on.png)
 
@@ -81,20 +81,20 @@ ms.locfileid: "77427797"
 
 2. 在“数据”视图或“报表”视图中，选择包含 URL 的列。 
 
-3. 在“建模”选项卡上，选择“数据类别”。 确保列的格式设置为“未分类”。
+3. 在“建模”选项卡上，选择“数据类别”   。 确保列的格式设置为“未分类”  。
 
 2. 在“报表”视图中，创建一个表或矩形图，其中包含 URL 列和要设置为链接文本的列。
 
-3. 选择表后，选择“格式”图标![滚动油漆刷图标](media/power-bi-hyperlinks-in-tables/power-bi-paintroller.png)以打开“格式”选项卡。
+3. 选择表后，选择“格式”  图标![滚动油漆刷图标](media/power-bi-hyperlinks-in-tables/power-bi-paintroller.png)以打开“格式”选项卡。
 
-4. 展开“条件格式”，确保框中的名称是要作为链接文本的列。 找到 Web URL，并将其“打开”。
+4. 展开“条件格式”  ，确保框中的名称是要作为链接文本的列。 找到 Web URL，并将其“打开”   。
 
     ![条件格式 Web URL](media/power-bi-hyperlinks-in-tables/power-bi-format-conditional-web-url.png)
 
     > [!NOTE]
-    > 如果没看到“Web URL”选项，请确保在“数据类别”下拉框中，包含超链接的列未设置为“Web URL”格式。
+    > 如果没看到“Web URL”选项，请确保在“数据类别”下拉框中，包含超链接的列未设置为“Web URL”格式     。
 
-5. 在“Web URL”对话框中，选择“基于字段”框中包含 URL 的字段，然后选择“确定”。
+5. 在“Web URL”  对话框中，选择“基于字段”  框中包含 URL 的字段，然后选择“确定”  。
 
     ![“Web URL”对话框](media/power-bi-hyperlinks-in-tables/power-bi-format-web-url-dialog.png)
 

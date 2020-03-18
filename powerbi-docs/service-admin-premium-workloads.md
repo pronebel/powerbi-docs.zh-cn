@@ -9,16 +9,16 @@ ms.subservice: powerbi-admin
 ms.topic: conceptual
 ms.date: 02/14/2020
 LocalizationGroup: Premium
-ms.openlocfilehash: ae05fdcd3a38f10707e991524bac61a305b88794
-ms.sourcegitcommit: d6a48e6f6e3449820b5ca03638b11c55f4e9319c
+ms.openlocfilehash: de988442edf4c60841bac757bb67ea5ed5038b25
+ms.sourcegitcommit: 7e845812874b3347bcf87ca642c66bed298b244a
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/18/2020
-ms.locfileid: "77427705"
+ms.lasthandoff: 03/13/2020
+ms.locfileid: "79207956"
 ---
 # <a name="configure-workloads-in-a-premium-capacity"></a>在高级容量中配置工作负载
 
-本文介绍如何为 Power BI 高级容量启用和配置工作负载。 默认情况下，容量仅支持与正在运行的 Power BI 查询关联的工作负载。 还可以为 [AI（认知服务）](service-cognitive-services.md)、[数据流](service-dataflows-overview.md#dataflow-capabilities-on-power-bi-premium)和[分页报表](paginated-reports-save-to-power-bi-service.md)启用和配置其他工作负载。
+本文介绍如何为 Power BI 高级容量启用和配置工作负载。 默认情况下，容量仅支持与正在运行的 Power BI 查询关联的工作负载。 还可以为 [AI（认知服务）](service-cognitive-services.md)  、[数据流](service-dataflows-overview.md#dataflow-capabilities-on-power-bi-premium)  和[分页报表](paginated-reports/paginated-reports-save-to-power-bi-service.md)  启用和配置其他工作负载。
 
 ## <a name="default-memory-settings"></a>默认内存设置
 
@@ -64,11 +64,11 @@ ms.locfileid: "77427705"
 |---------------------------------|----------------------------------------|
 | **最大内存(%)** | 数据集可在容量中使用的最大内存百分比。 |
 | **XMLA 终结点** | 指定来自客户端应用程序的连接采用工作区和应用级别设置的安全组成员身份。 有关详细信息，请参阅[使用客户端应用程序和工具连接到数据集](service-premium-connect-tools.md)。 |
-| 最大中间行设置计数 | DirectQuery 返回的最大中间行数。 默认值为 1000000，允许范围为 100000 - 2147483647。 |
-| 最大脱机数据集大小 (GB) | 内存中脱机数据集的最大大小。 这是磁盘上的压缩大小。 默认值由 SKU 设置，允许范围为 0.1 – 10 GB。 |
-| 最大结果行设置计数 | DAX 查询中返回的最大行数。 默认值为 -1（无限制），允许范围为 100000 - 2147483647。 |
-| 查询内存限制(%) | 工作负载中可用于执行 MDX 或 DAX 查询的可用内存的最大百分比。 |
-| 查询超时值(秒) | 查询超时前允许的最长时间。默认值为 3600 秒（1 小时）。 值为 0 时表示查询不会超时。 |
+| 最大中间行设置计数  | DirectQuery 返回的最大中间行数。 默认值为 1000000，允许范围为 100000 - 2147483647。 |
+| 最大脱机数据集大小 (GB)  | 内存中脱机数据集的最大大小。 这是磁盘上的压缩大小。 默认值由 SKU 设置，允许范围为 0.1 – 10 GB。 |
+| 最大结果行设置计数  | DAX 查询中返回的最大行数。 默认值为 -1（无限制），允许范围为 100000 - 2147483647。 |
+| 查询内存限制(%)  | 工作负载中可用于执行 MDX 或 DAX 查询的可用内存的最大百分比。 默认值为 0，这将导致应用特定于 SKU 的自动查询内存限制。 |
+| 查询超时值(秒)  | 查询超时前允许的最长时间。默认值为 3600 秒（1 小时）。 值为 0 时表示查询不会超时。 |
 | **自动页面刷新（预览版）** | 启用/禁用切换，允许高级工作区的报表具有自动页面刷新功能。 |
 | **最小刷新间隔** | 启用自动页面刷新情况下，页面刷新间隔允许的最小间隔。 默认值为 5 分钟，允许的最小值为 1 秒。 |
 |  |  |  |
@@ -103,6 +103,14 @@ ms.locfileid: "77427705"
 
 请注意，数据刷新操作还可以在刷新数据集中的数据后，在刷新仪表板磁贴和可视化缓存的过程中执行 DAX 查询。 此类查询可能还会因为此设置而失败，这可能会导致数据刷新操作显示为失败状态，即使数据集中的数据已成功更新。
 
+默认设置为 0，这将导致应用以下特定于 SKU 的自动查询内存限制。
+
+|                              | EM1 / A1 | EM2 / A2 | EM3 / A3 | P1 / A4 | P2 / A5 | P3 / A6 |   
+|------------------------------|----------|----------|----------|---------|---------|---------|
+| 自动查询内存限制 | 1GB     | 2 GB     | 2 GB     | 6 GB    | 6 GB    | 10GB   |
+|                              |          |          |          |         |         |         |
+
+
 #### <a name="query-timeout"></a>查询超时
 
 使用此设置可以更好地控制长时间运行的查询，此类查询可能会导致用户加载报表速度缓慢。
@@ -113,7 +121,7 @@ ms.locfileid: "77427705"
 
 此设置适用于单个查询，而不适用于运行与更新数据集或报表相关联的所有查询所用的时间长度。 请考虑以下示例：
 
-- “查询超时”设置为 1200（20 分钟）。
+- “查询超时”设置为 1200（20 分钟）  。
 - 需要执行五个查询，每个查询运行 15 分钟。
 
 所有查询的合并时间为 75 分钟，但由于所有单个查询运行的时间少于 20 分钟，因此不会达到设置限制。
@@ -180,11 +188,11 @@ ms.locfileid: "77427705"
 
 ### <a name="to-configure-workloads-in-the-power-bi-admin-portal"></a>在 Power BI 管理门户中配置工作负载
 
-1. 在“容量设置” > “高级容量”中，选择一个容量。
+1. 在“容量设置” > “高级容量”中，选择一个容量   。
 
-1. 在“更多选项”下，展开“工作负载”。
+1. 在“更多选项”  下，展开“工作负载”  。
 
-1. 启用一个或多个工作负载，并设置“最大内存”和其他设置的值。
+1. 启用一个或多个工作负载，并设置“最大内存”和其他设置的值  。
 
 1. 选择**应用**。
 
@@ -200,7 +208,7 @@ ms.locfileid: "77427705"
 
 [优化 Power BI Premium 容量](service-premium-capacity-optimize.md)     
 [Power BI 中通过数据流自助进行数据准备](service-dataflows-overview.md)   
-[Power BI Premium 中的分页报表是什么？](paginated-reports-report-builder-power-bi.md)   
+[Power BI Premium 中的分页报表是什么？](paginated-reports/paginated-reports-report-builder-power-bi.md)   
 [Power BI Desktop 中的自动页面刷新（预览版）](desktop-automatic-page-refresh.md)
 
 更多问题？ [在 Power BI 社区提问](https://community.powerbi.com/)

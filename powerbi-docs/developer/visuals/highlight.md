@@ -6,28 +6,28 @@ ms.author: kesharab
 ms.reviewer: rkarlin
 ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 10/31/2019
-ms.openlocfilehash: 0c1263760157371f9f4d9fc0f122d6e37d73d720
-ms.sourcegitcommit: 8e3d53cf971853c32eff4531d2d3cdb725a199af
+ms.openlocfilehash: d406396db64b52326bbd8ea2aa485cd3d7451294
+ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "76819160"
+ms.lasthandoff: 03/14/2020
+ms.locfileid: "79379991"
 ---
 # <a name="highlight-data-points-in-power-bi-visuals"></a>突出显示 Power BI 视觉对象中的数据点
 
 默认情况下，只要选择了某个元素，`dataView` 对象中的 `values` 数组就会被筛选为所选的值。 这将导致页面上的所有其他视觉对象仅显示所选数据。
 
-![突出显示 `dataview` 默认行为](./media/highlight-dataview.png)
+![突出显示 `dataview` 默认行为](media/highlight/highlight-dataview.png)
 
 如果将 `capabilities.json` 中的 `supportsHighlight` 属性设置为 `true`，则会获得未经筛选的完整 `values` 数组和 `highlights` 数组。 `highlights` 数组的长度与 values 数组的长度相同，并且任何未选定的值都将设置为 `null`。 启用此属性后，视觉对象负责通过将 `values` 数组与 `highlights` 数组进行比较来突出显示相应的数据。
 
-![`dataview` 支持突出显示](./media/highlight-dataview-supports.png)
+![`dataview` 支持突出显示](media/highlight/highlight-dataview-supports.png)
 
 在此示例中，你会注意到 1 栏处于选定状态。 它是突出显示数组中唯一的值。 另外，请务必注意，可能存在多个选择和部分突出显示。 突出显示的值将显示在数据视图中。
 
-> [!Note]
+> [!NOTE]
 > 表数据视图映射不支持突出显示功能。
 
 ## <a name="highlight-data-points-with-categorical-data-view-mapping"></a>用分类数据视图映射功能突出显示数据点
@@ -187,7 +187,7 @@ public update(options: VisualUpdateOptions) {
 
 其中 `categoryValues` 是类别值数组，`measureValues` 是度量值数组，`measureHighlights` 是值的突出显示部分。
 
-> [!Note]
+> [!NOTE]
 > `measureHighlights` 属性的值可以小于 `categoryValues` 属性的值。
 > 这意味着已突出显示了该值的一部分。
 
@@ -271,7 +271,7 @@ div.value {
 
 在结果中，应显示为视觉对象的以下视图。
 
-![具有分类数据视图映射和突出显示功能的视觉对象](./media/dev-categorical-visual-highlight-demo.gif)
+![具有分类数据视图映射和突出显示功能的视觉对象](media/highlight/dev-categorical-visual-highlight-demo.gif)
 
 ## <a name="highlight-data-points-with-matrix-data-view-mapping"></a>用矩阵数据视图映射突出显示数据点
 
@@ -582,7 +582,7 @@ JSON.stringify(options.dataViews[0].matrix.rows.root.children[0].children[0].chi
 
 其中 `value` 属性表示节点的值，而不应用其他视觉对象的选定内容，而突出显示属性指示要突出显示的数据部分。
 
-> [!Note]
+> [!NOTE]
 > `highlight` 属性的值可以小于 `value` 属性的值。
 > 这意味着已突出显示了该值的一部分。
 
@@ -643,7 +643,7 @@ public update(options: VisualUpdateOptions) {
 
 这样，你将获得带有按钮和值 `highlighted value/default value` 的视觉对象
 
-![带有矩阵数据视图映射和突出显示的视觉对象](./media/dev-matrix-visual-highlight-demo.gif)
+![带有矩阵数据视图映射和突出显示的视觉对象](media/highlight/dev-matrix-visual-highlight-demo.gif)
 
 ## <a name="next-steps"></a>后续步骤
 

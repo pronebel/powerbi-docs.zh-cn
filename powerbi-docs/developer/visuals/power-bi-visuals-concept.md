@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: conceptual
 ms.date: 06/18/2019
-ms.openlocfilehash: bb0834527ba23c6cfcc155cc65cd0318b296ba84
-ms.sourcegitcommit: 8e3d53cf971853c32eff4531d2d3cdb725a199af
+ms.openlocfilehash: 96f1fd217a59ee95aed05b790800024dc9f72be9
+ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "75925598"
+ms.lasthandoff: 03/14/2020
+ms.locfileid: "79378125"
 ---
 # <a name="visuals-in-power-bi"></a>Power BI 中的视觉对象
 
@@ -22,7 +22,7 @@ ms.locfileid: "75925598"
 
 下图描述了如何在 Power BI 中处理用户所采取的常见的基于视觉对象的操作，比如选择书签。
 
-![Power BI 视觉对象操作示意图](./media/visual-concept.svg)
+![Power BI 视觉对象操作示意图](media/power-bi-visuals-concept/visual-concept.svg)
 
 ## <a name="visuals-get-updates-from-power-bi"></a>视觉对象在 Power BI 中获得更新
 
@@ -131,4 +131,4 @@ Power BI 视觉对象中的操作和后续更新采用以下三种模式之一�
 对创建可视化效果并将它们添加到 Microsoft AppSource 感兴趣吗？ 请参阅以下文章：
 
 * [开发 Power BI 视觉对象](./custom-visual-develop-tutorial.md)
-* [将 Power BI 视觉对象发布到合作伙伴中心](../office-store.md)
+* [将 Power BI 视觉对象发布到合作伙伴中心](office-store.md)

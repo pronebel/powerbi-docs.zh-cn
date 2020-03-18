@@ -6,22 +6,22 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 12/09/2019
+ms.date: 03/13/2020
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: b32eee568ba560e95899cf0965a11f3bb037aed6
-ms.sourcegitcommit: 02b05932a119527f255e1eacc745a257044e392f
+ms.openlocfilehash: 719c07abdcdb42916db8a01a7fab28d3f6c98fba
+ms.sourcegitcommit: 22991861c2b9454b170222591f64266335b9fcff
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/19/2019
-ms.locfileid: "75222233"
+ms.lasthandoff: 03/12/2020
+ms.locfileid: "79133352"
 ---
 # <a name="get-started-with-power-bi-desktop"></a>Power BI Desktop 入门
 欢迎使用 Power BI Desktop 入门指南。 本教程介绍 Power BI Desktop 的工作原理和功能，并介绍如何生成可靠的数据模型和奇妙的报表来提升你的商业智能。
 
 要快速了解 Power BI Desktop 的工作原理及其使用方式，只需花几分钟浏览一下本指南中的屏幕。 要更深入地了解，可通读各个部分，执行相关步骤，创建自己的 Power BI Desktop 文件并将其发布到 [Power BI 服务](https://app.powerbi.com/)以与他人共享。
 
-![Power BI Desktop 报表](media/desktop-getting-started/hero.png)
+![Power BI Desktop 报表](media/desktop-getting-started/hero-02.png)
 
 还可观看 [Power BI Desktop 入门](https://www.youtube.com/watch?v=Qgam9M8I0xA)视频，并下载 [财务示例](https://go.microsoft.com/fwlink/?LinkID=521962) Excel 工作簿按视频进行操作。
 
@@ -158,7 +158,7 @@ Power BI Desktop 的查询功能开始运行并与 Web 资源联系。 “导航
 
 ![新增源](media/desktop-getting-started/pbi_gettingstartedsplash_resized.png)
 
-在“来自 Web”对话框中，输入州缩写站点的 URL：*https:\//en.wikipedia.org/wiki/List_of_U.S._state_abbreviations*  。
+在“来自 Web”对话框中，输入州缩写站点的 URL：https:\//en.wikipedia.org/wiki/List_of_U.S._state_abbreviations   。
 
 在“导航器”窗口中，选择“美国各州、联邦地区、领地及其他区域的代码和缩写”表，然后选择“确定”    。 该表将在 Power Query 编辑器中打开。
 
@@ -279,7 +279,7 @@ Power BI Desktop 的查询功能开始运行并与 Web 资源联系。 “导航
 
 ![“表”和“折线和簇状柱形图”可视化效果](media/desktop-getting-started/designer_gsg_report2costofliving.png)
 
-你可以在不同的报表页上显示不同的可视化效果。 要添加新页面，请选择页面栏上现有页面旁边的 **+** 符号，或在功能区的“主页”选项卡中选择“插入” > “新页面”    。 要重命名某个页面，请在页面栏中双击该页面的名称，或右键单击它并选择“重命名页面”，然后键入新名称  。 要切换到报表的其他页面，请从页面栏中选择该页面。 
+你可以在不同的报表页上显示不同的可视化效果。 要添加新页面，请选择页面栏上现有页面旁边的 + 符号，或在功能区的“主页”选项卡中选择“插入” > “新页面”     。 要重命名某个页面，请在页面栏中双击该页面的名称，或右键单击它并选择“重命名页面”，然后键入新名称  。 要切换到报表的其他页面，请从页面栏中选择该页面。 
 
 ![页面栏](media/desktop-getting-started/pages.png)
 

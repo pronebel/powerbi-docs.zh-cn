@@ -1,19 +1,19 @@
 ---
 title: Power BI for Mixed Reality 应用（预览版）
 description: 无论是沉浸在虚拟世界中，还是处于环境上下文中，均可查看 Power BI for Mixed 应用（预览版）中的仪表板和报表。
-author: mshenhav
+author: paulinbar
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: conceptual
-ms.date: 06/05/2018
-ms.author: mshenhav
-ms.openlocfilehash: 04a77aa9a5a464baf0ce1c9a88604d84ad0feb53
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.date: 03/11/2020
+ms.author: painbar
+ms.openlocfilehash: 99e9c407a92d126ddc4c6f4822106cfa6458dbac
+ms.sourcegitcommit: 7e845812874b3347bcf87ca642c66bed298b244a
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73879131"
+ms.lasthandoff: 03/13/2020
+ms.locfileid: "79205909"
 ---
 # <a name="power-bi-for-mixed-reality-app-preview"></a>Power BI for Mixed Reality 应用（预览版）
 沉浸在虚拟世界中或将其置于境上下文中的特定位置时，均可查看 Power BI for Mixed Reality 应用（预览版）中的仪表板和报表。 
@@ -60,7 +60,7 @@ Power BI for Mixed Reality 基于 Power BI Windows 移动应用，结合了混�
 
 **“停靠”** 
 
-使用“停靠”命令可以将项目放入 Power BI 停靠带，于是该项目虽然不在你的主要视野，但也会跟随你，方便你访问。
+使用“停靠”命令可以将项目放入 Power BI 停靠带，虽然该项目不在你的主要视野，但也会跟随你，方便你访问。
 
 **“放在这里”**
 
