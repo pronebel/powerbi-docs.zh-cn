@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 03/07/2019
 ms.author: davidi
 LocalizationGroup: Conceptual
-ms.openlocfilehash: 538c533a1b951fd2dff1b481adb94e2b1d0cf87b
-ms.sourcegitcommit: 7e845812874b3347bcf87ca642c66bed298b244a
+ms.openlocfilehash: 955a14b37d59f554fb12b302c16472387c896e54
+ms.sourcegitcommit: a175faed9378a7d040a08ced3e46e54503334c07
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/13/2020
-ms.locfileid: "79213594"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "79488582"
 ---
 # <a name="distribute-power-bi-content-to-external-guest-users-using-azure-active-directory-b2b"></a>使用 Azure Active Directory B2B 将 Power BI 内容分发给外部来宾用户
 
@@ -336,7 +336,7 @@ Power BI 与 Azure AD B2B 的集成适用于所有业务电子邮件地址。 �
 Contoso 可以选择以下三种方法之一，让来宾用户从其供应商和合作伙伴组织那里获得 Power BI 内容的访问权限。
 
 > [!NOTE]
-> _Azure AD B2B's 免费层足以与 AZURE AD B2B 一起使用 Power BI。某些高级 Azure AD B2B 功能（如动态组）需要额外的许可。有关其他信息，请参阅 Azure AD B2B 文档：_ [ _https://docs.microsoft.com/azure/active-directory/b2b/licensing-guidance_](https://docs.microsoft.com/azure/active-directory/b2b/licensing-guidance)
+> _Azure AD B2B's 免费层足以与 AZURE AD B2B 一起使用 Power BI。某些高级 Azure AD B2B 功能（如动态组）需要额外的许可。有关其他信息，请参阅 Azure AD B2B 文档：_ [ _https://docs.microsoft.com/azure/active-directory/b2b/licensing-guidance_ ](https://docs.microsoft.com/azure/active-directory/b2b/licensing-guidance)
 
 ### <a name="approach-1-contoso-uses-power-bi-premium"></a>方法1： Contoso 使用 Power BI Premium
 
@@ -576,7 +576,7 @@ Contoso 可以为访问 Contoso 租户内容的来宾用户强制实施条件性
 
 ### <a name="alternative-option-2-create-a-custom-power-bi-embedded-application-using-custom-authentication"></a>替代选项2：使用自定义身份验证创建自定义 Power BI Embedded 应用程序
 
-Contoso 的另一种选择是通过自定义身份验证（["应用拥有数据"](https://docs.microsoft.com/power-bi/developer/embed-sample-for-customers)）构建自己的自定义嵌入 Power BI 应用程序。 尽管许多组织没有时间或资源来创建自定义应用程序以将 Power BI 内容分发给其外部合作伙伴，但对于某些组织来说，这是最佳方法，值得认真考虑。
+Contoso 的另一种选择是通过自定义身份验证（["应用拥有数据"](https://docs.microsoft.com/power-bi/developer/embedded/embed-sample-for-customers)）构建自己的自定义嵌入 Power BI 应用程序。 尽管许多组织没有时间或资源来创建自定义应用程序以将 Power BI 内容分发给其外部合作伙伴，但对于某些组织来说，这是最佳方法，值得认真考虑。
 
 通常，组织具有可集中访问合作伙伴的所有组织资源的现有合作伙伴门户，提供与内部组织资源的隔离，并为合作伙伴提供简化的体验，以支持多个合作伙伴和各自的用户。
 
