@@ -13,6 +13,9 @@
             - name: 使用者
               tocHref: /power-bi/consumer/
               topicHref: /power-bi/consumer/index
+            - name: 移动
+              tocHref: /power-bi/consumer/mobile/
+              topicHref: /power-bi/consumer/mobile/index
             - name: 开发人员
               tocHref: /power-bi/developer/
               topicHref: /power-bi/developer/index

@@ -11,12 +11,12 @@ ms.topic: quickstart
 ms.date: 01/31/2020
 ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: fbd629ea7d2c5bb71471ac8073a5a823f1b2c192
-ms.sourcegitcommit: 8e3d53cf971853c32eff4531d2d3cdb725a199af
+ms.openlocfilehash: 595ce61bf2020c27420a33871e82ca7ff9025d60
+ms.sourcegitcommit: 87b7cb4a2e626711b98387edaa5ff72dc26262bb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "76975068"
+ms.lasthandoff: 03/10/2020
+ms.locfileid: "79040134"
 ---
 # <a name="quickstart---getting-around-in-power-bi-service"></a>快速入门 - 使用 Power BI 服
 
@@ -72,7 +72,7 @@ ms.locfileid: "76975068"
 
 ![我的工作区 ](./media/end-user-experience/power-bi-workspaces.png)
 
-“我的工作区”存储了你拥有和创建的所有内容  。 可以将其作为你的个人沙盒或自己内容的工作区域。 对于很多 Power BI 使用者来说，“我的工作区”保持为空，因为你的作业并不涉及到创建新内容   。  根据定义，使用者会使用其他人创建的数据并使用该数据作出业务决策  。 如果你发现你要创建内容，请考虑改为参阅[面向设计人员的 Power BI 文档](../power-bi-creator-landing.md)  。
+“我的工作区”存储了你拥有和创建的所有内容  。 可以将其作为你的个人沙盒或自己内容的工作区域。 对于很多 Power BI 使用者来说，“我的工作区”保持为空，因为你的作业并不涉及到创建新内容   。  根据定义，使用者会使用其他人创建的数据并使用该数据作出业务决策  。 如果你发现自己正在创建内容，不妨改为阅读[面向报表创建者  的 Power BI 文章](../index.yml)。
 
 “应用工作区”包含该特定应用的所有内容  。  当设计人员创建一个应用时，他们会将使用该应用所必需的全部内容捆绑在一起  。  请选择“销售和市场营销”工作区，查看设计人员将哪些内容捆绑到了应用中  。 
 
@@ -84,7 +84,7 @@ ms.locfileid: "76975068"
 
 ![显示了“更多操作”菜单的“应用工作区”屏幕](./media/end-user-experience/power-bi-workspace-app.png)
 
-工作区也是指向数据的路径之一。 可从列表中选择仪表板或报表将其打开。  可将鼠标悬停在仪表板或报表上方并选择星形图标将其放入收藏夹。 如果设计人员向你授予了[共享权限](end-user-shared-with-me.md)，则悬停鼠标还会显示共享操作  。 
+工作区也是指向数据的路径之一。 可从列表中选择仪表板或报表将其打开。  可将鼠标悬停在仪表板或报表上方并选择星形图标将其放入收藏夹。 如果设计人员向你授予了共享权限，则悬停鼠标还会显示共享操作  [sharing permissions](end-user-shared-with-me.md)。 
 
 ![鼠标悬停时显示的菜单](./media/end-user-experience/power-bi-hover.png)
 

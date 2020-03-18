@@ -129,6 +129,8 @@
               href: ../desktop-insights-find-where-different.md
             - name: 创建按钮
               href: ../desktop-buttons.md
+            - name: 创建钻取按钮
+              href: ../desktop-drill-through-buttons.md
             - name: 创建用于保存和共享见解的书签
               href: ../desktop-bookmarks.md
             - name: 使用报表主题
