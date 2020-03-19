@@ -51,6 +51,8 @@
               href: ../service-url-filters.md
             - name: 自己和他人订阅
               href: ../service-report-subscribe.md
+            - name: 主页上的精选内容
+              href: service-featured-content.md
             - name: 在 Microsoft Teams 中嵌入报表
               href: ../service-embed-report-microsoft-teams.md
             - name: 在 SharePoint Online 中嵌入报表

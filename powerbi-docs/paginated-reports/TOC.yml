@@ -12,6 +12,8 @@
     - name: 教程
       expanded: true
       items:
+        - name: 在线课程
+          href: paginated-reports-online-course.md
         - name: 动手实验室：创建分页报表
           href: 'https://www.microsoft.com/handsonlabs/selfpacedlabs/details/SQ00208'
         - name: 创建分页报表并进行上传
