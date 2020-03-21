@@ -75,6 +75,8 @@
               href: ../desktop-measures.md
             - name: 导入和显示 KPI
               href: ../desktop-import-and-display-kpis.md
+            - name: 应用自动日期/时间
+              href: ../desktop-auto-date-time.md
         - name: 自助服务数据准备
           items:
             - name: 创建和使用数据流
