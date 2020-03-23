@@ -8,12 +8,12 @@ ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 03/11/2020
 ms.author: painbar
-ms.openlocfilehash: db636f16729847c40806bc328efbbdd700e79083
-ms.sourcegitcommit: 480bba9c745cb9af2005637e693c5714b3c64a8a
+ms.openlocfilehash: 0bbdc13e1adf52ba90435f22920e4351e8f34404
+ms.sourcegitcommit: abc8419155dd869096368ba744883b865c5329fa
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/11/2020
-ms.locfileid: "79114748"
+ms.lasthandoff: 03/17/2020
+ms.locfileid: "79435941"
 ---
 # <a name="get-started-with-the-power-bi-mobile-app-for-windows-10"></a>适用于 Windows 10 的 Power BI 移动应用入门
 通过适用于 Windows 10 的 Power BI 移动应用，可以在平板电脑或手机上使用 Power BI。 可通过触控式移动设备访问最新业务信息。 在任何地方查看公司仪表板并与之进行交互 - 就在 [Windows 开始屏幕](mobile-pin-dashboard-start-screen-windows-10-phone-app.md)上查看。
@@ -28,8 +28,11 @@ ms.locfileid: "79114748"
 * 从 Windows 应用商店中[**获取适用于 Windows 10 的 Power BI 移动应用**](https://go.microsoft.com/fwlink/?LinkID=526478)
   
   设备必须运行 Windows 10。 该应用可在具有至少 3 GB RAM 和 8 GB 内部存储的设备上运行。
+
+  >[!NOTE]
+  >我们将于 2021 年 3 月 16 日终止对使用 Windows 10 移动版的手机提供 Power BI 移动应用支持  。 [了解详细信息](https://go.microsoft.com/fwlink/?linkid=2121400)
    
-* 查找 [Power BI 移动应用中的新功能](mobile-whats-new-in-the-mobile-apps.md)。
+* 了解 [Power BI 移动应用中的新功能](mobile-whats-new-in-the-mobile-apps.md)。
 
 ## <a name="sign-up-for-the-power-bi-service-on-the-web"></a>在 Web 上注册 Power BI 服务
 如果尚未注册，请访问 [Power BI 服务](https://powerbi.com/)。 注册自己的帐户，以便创建和存储仪表板和报表，并集合数据。 然后，从 Windows 10 设备登录到 Power BI，即可在任何地方查看你的仪表板。

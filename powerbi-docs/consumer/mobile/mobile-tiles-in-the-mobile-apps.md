@@ -8,12 +8,12 @@ ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 03/11/2020
 ms.author: painbar
-ms.openlocfilehash: 0f3aa67ea3d8a1cdf34503a833fad42b2d258859
-ms.sourcegitcommit: 480bba9c745cb9af2005637e693c5714b3c64a8a
+ms.openlocfilehash: c9957b1f190f3e2cfc2aa5f082eb11df4d647b5f
+ms.sourcegitcommit: abc8419155dd869096368ba744883b865c5329fa
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/11/2020
-ms.locfileid: "79114673"
+ms.lasthandoff: 03/17/2020
+ms.locfileid: "79435895"
 ---
 # <a name="explore-tiles-in-the-power-bi-mobile-apps"></a>在 Power BI 移动应用中浏览磁贴
 适用于：
@@ -85,6 +85,10 @@ ms.locfileid: "79114673"
 4. 点击左上角的箭头关闭磁贴，并返回到仪表板。
 
 ## <a name="tiles-in-the-windows-10-mobile-app"></a>Windows 10 移动应用中的磁贴
+
+>[!NOTE]
+>我们将于 2021 年 3 月 16 日终止对使用 Windows 10 移动版的手机提供 Power BI 移动应用支持  。 [了解详细信息](https://go.microsoft.com/fwlink/?linkid=2121400)
+
 1. 在[适用于 Windows 10 的 Power BI 移动应用中打开仪表板](mobile-apps-view-dashboard.md)。
 2. 点击磁贴上的垂直省略号。 你可以在此处： 
    
