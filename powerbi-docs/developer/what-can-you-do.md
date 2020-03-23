@@ -1,6 +1,6 @@
 ---
 title: 开发人员可以使用 Power BI 做什么？
-description: Power BI 为开发人员提供了大量选项。 此范围涉及从嵌入到自定义视觉对象到流式处理数据集。
+description: Power BI 为开发人员提供了大量选项。 此范围涉及从嵌入 Power BI 视觉对象到流式处理数据集。
 author: KesemSharabi
 ms.author: kesharab
 ms.topic: overview
@@ -8,16 +8,16 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.custom: mvc
 ms.date: 03/15/2019
-ms.openlocfilehash: 4e8ce6d9a892abf3e24ecae6dee1e3ea23504d31
-ms.sourcegitcommit: 87b7cb4a2e626711b98387edaa5ff72dc26262bb
+ms.openlocfilehash: c92eea927368d885a297fd83d39f528f7dae848e
+ms.sourcegitcommit: a175faed9378a7d040a08ced3e46e54503334c07
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/10/2020
-ms.locfileid: "79041346"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "79487777"
 ---
 # <a name="what-can-developers-do-with-power-bi"></a>开发人员可以使用 Power BI 做什么？
 
-开发人员有不同选项来尝试将 Power BI 内容包含在应用程序中。 作为开发人员，可以使用这些选项，包括“使用 Power BI 嵌入”、“自定义视觉对象”和“将数据推送到 Power BI”    。
+开发人员有不同选项来尝试将 Power BI 内容包含在应用程序中。 开发人员可以使用这些选项，包括“使用 Power BI 嵌入”、“Power BI 视觉对象”和“将数据推送到 Power BI”    。
 
 ## <a name="embedding-power-bi-content"></a>嵌入 Power BI 内容
 
@@ -27,19 +27,19 @@ Azure (PaaS) 中的 Power BI 服务 (SaaS) 和 Power BI 嵌入式服务具有用
 
 选择最适合你的解决方案：
 
-* 通过[为客户嵌入内容](embedding.md#embedding-for-your-customers)，可为没有 Power BI 帐户的用户嵌入仪表板和报表。 运行[为客户嵌入](https://aka.ms/embedsetup/AppOwnsData)解决方案。
+* 通过[为客户嵌入内容](embedded/embedding.md#embedding-for-your-customers)，可为没有 Power BI 帐户的用户嵌入仪表板和报表。 运行[为客户嵌入](https://aka.ms/embedsetup/AppOwnsData)解决方案。
 
-* 通过[为组织嵌入内容](embedding.md#embedding-for-your-organization)，可以扩展 Power BI 服务。 运行[为组织嵌入](https://aka.ms/embedsetup/UserOwnsData)解决方案。
+* 通过[为组织嵌入内容](embedded/embedding.md#embedding-for-your-organization)，可以扩展 Power BI 服务。 运行[为组织嵌入](https://aka.ms/embedsetup/UserOwnsData)解决方案。
 
 ![PBIE 示例](media/what-can-you-do/what-can-you-do-02.png)
 
-若要详细了解如何使用 Power BI 进行嵌入，请参阅[使用 Power BI 进行嵌入](embedding.md)。
+若要详细了解如何使用 Power BI 进行嵌入，请参阅[使用 Power BI 进行嵌入](embedded/embedding.md)。
 
-## <a name="developing-custom-visuals"></a>开发自定义视觉对象
+## <a name="developing-power-bi-visuals"></a>开发 Power BI 视觉对象
 
-可以结合使用自定义视觉对象和 Power BI，创建为你或贵公司量身定制的唯一类型视觉对象。 通常这些自定义视觉对象由开发人员创建。 它们是在 Power BI 随附的大量视觉对象无法完全满足你的需求时生成的。
+可以结合使用 Power BI 视觉对象和 Power BI，以创建为你或公司量身定制的唯一视觉对象类型。 通常这些 Power BI 视觉对象由开发人员创建。 它们是在 Power BI 随附的大量视觉对象无法完全满足你的需求时生成的。
 
-可以通过自定义视觉对象创建视觉对象，以便在 Power BI 报表中使用。 自定义视觉对象将写入 TypeScript，即 JavaScript 的超集。 TypeScript 支持某些高级功能并提前获取 ES6/ES7 功能。 视觉对象样式使用层叠样式表 (CSS) 进行处理。 为方便起见，我们使用 Less 预编译器，该编译器支持某些高级功能，例如嵌套、变量、条件、循环和其他功能。 如果不想使用其中任何一种功能，可以在 less 文件中编写普通 CSS。
+可以通过 Power BI 视觉对象创建视觉对象，以便在 Power BI 报表中使用。 Power BI 视觉对象将写入 TypeScript，即 JavaScript 的超集。 TypeScript 支持某些高级功能并提前获取 ES6/ES7 功能。 视觉对象样式使用层叠样式表 (CSS) 进行处理。 为方便起见，我们使用 Less 预编译器，该编译器支持某些高级功能，例如嵌套、变量、条件、循环和其他功能。 如果不想使用其中任何一种功能，可以在 less 文件中编写普通 CSS。
 
 ![CV 示例](media/what-can-you-do/powerbi-custom-visual-store.png)
 
@@ -57,7 +57,7 @@ Power BI 显示可从众多不同数据源创建和实时更新的交互式仪�
 
 ## <a name="next-steps"></a>后续步骤
 
-[使用 Power BI 嵌入](embedding.md)  
+[使用 Power BI 嵌入](embedded/embedding.md)  
 
 [开发 Power BI 自定义视觉对象](https://microsoft.github.io/PowerBI-visuals/docs/step-by-step-lab/developing-a-power-bi-custom-visual/)
 

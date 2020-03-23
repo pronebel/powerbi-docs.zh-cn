@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
-ms.date: 01/29/2020
+ms.date: 03/12/2020
 ms.custom: seodec18
 LocalizationGroup: Premium
-ms.openlocfilehash: 07fd9a00034a210dfbcc6cae4aa721e3b09bd37a
-ms.sourcegitcommit: 8e3d53cf971853c32eff4531d2d3cdb725a199af
+ms.openlocfilehash: 1caa68ac00f9821979f741bf3266514fcb33c36a
+ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "76889388"
+ms.lasthandoff: 03/14/2020
+ms.locfileid: "79381160"
 ---
 # <a name="what-is-power-bi-premium"></a>什么是 Power BI Premium？
 
@@ -88,7 +88,7 @@ Power BI Premium 订阅由 Microsoft 365 管理中心的管理员购买。 具�
 
 ### <a name="capacity-workloads"></a>容量工作负载
 
-容量工作负载是为用户提供的服务。 默认情况下，Premium 和 Azure 容量仅支持与运行 Power BI 查询关联的数据集工作负载。 无法禁用数据集工作负载。 可以为 [AI（认知服务）](https://powerbi.microsoft.com/blog/easy-access-to-ai-in-power-bi-preview/)、[数据流](service-dataflows-overview.md#dataflow-capabilities-on-power-bi-premium)和[分页报表](paginated-reports-save-to-power-bi-service.md)启用其他工作负载。 这些工作负载仅在 Premium 订阅中受到支持。 
+容量工作负载是为用户提供的服务。 默认情况下，Premium 和 Azure 容量仅支持与运行 Power BI 查询关联的数据集工作负载。 无法禁用数据集工作负载。 可以为 [AI（认知服务）](https://powerbi.microsoft.com/blog/easy-access-to-ai-in-power-bi-preview/)、[数据流](service-dataflows-overview.md#dataflow-capabilities-on-power-bi-premium)和[分页报表](paginated-reports/paginated-reports-save-to-power-bi-service.md)启用其他工作负载。 这些工作负载仅在 Premium 订阅中受到支持。 
 
 每个额外的工作负载都允许配置工作负载可使用的最大内存（以占可用内存总量的百分比的形式）。 最大内存的默认值由 SKU 确定。 通过在使用这些额外工作负载时仅启用这些额外工作负载，可以最大化容量的可用资源。 仅在已确定默认设置不满足容量资源要求时，才能更改内存设置。 通过使用[管理门户](service-admin-portal.md)中的“容量设置”，或通过使用[容量 REST API](https://docs.microsoft.com/rest/api/power-bi/capacities)，容量管理员可以为容量启用和配置工作负载  。  
 
@@ -209,7 +209,7 @@ P1-P3 和 A4_A6 SKU 支持的分页报表基于 SQL Server Reporting Services �
 
 在 Power BI Premium 中，分页报表是必须使用管理门户为容量启用的工作负载。 容量管理员可以启用内存，然后以容量内存资源总量百分比的形式指定内存量。 与其他类型的工作负载不同，Premium 在容量范所含的空间中运行分页报表。 无论工作负载是否处于活动状态，系统都将使用为此空间指定的最大内存。 默认值为 20%。 
 
-若要了解详细信息，请参阅 [Power BI Premium 中的分页报表](paginated-reports-report-builder-power-bi.md)。 若要了解有关启用分页报表工作负载的详细信息，请参阅[配置工作负载](service-admin-premium-workloads.md)。
+若要了解详细信息，请参阅 [Power BI Premium 中的分页报表](paginated-reports/paginated-reports-report-builder-power-bi.md)。 若要了解有关启用分页报表工作负载的详细信息，请参阅[配置工作负载](service-admin-premium-workloads.md)。
 
 ## <a name="power-bi-report-server"></a>Power BI 报表服务器
  
@@ -227,7 +227,7 @@ Premium 允许 Pro 用户广泛分发内容，且不要求查看内容的收件�
 
 若要了解详细信息，请参阅 [Power BI 许可](service-admin-licensing-organization.md)。
 
-## <a name="tool-connectivity-preview"></a>工具连接性（预览）
+## <a name="analysis-services-in-power-bi-premium-preview"></a>Power BI Premium 中的 Analysis Services（预览）
 
 实质上，经过企业验证的 Microsoft **Analysis Services Vertipaq 引擎**为 Power BI 数据集提供支持。 Analysis Services 通过支持开放标准 XMLA 协议的客户端库和 API 提供可编程性以及客户端应用程序和工具支持。 目前，Power BI Premium 数据集通过 **XMLA 终结点**支持来自 Microsoft 和第三方客户端应用程序及工具的*只读*操作。 
 

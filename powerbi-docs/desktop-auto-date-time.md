@@ -8,12 +8,12 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 10/23/2019
 ms.author: v-pemyer
-ms.openlocfilehash: 01996f3460b7c7a507796bd3f071f7887a69854e
-ms.sourcegitcommit: e27d40054949421701f829113c4a5f6d260c8d5f
+ms.openlocfilehash: 6ec4e5afe63fbdf754fcb20ec8cd12379740d33d
+ms.sourcegitcommit: 7e845812874b3347bcf87ca642c66bed298b244a
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/12/2020
-ms.locfileid: "77154203"
+ms.lasthandoff: 03/13/2020
+ms.locfileid: "79201530"
 ---
 # <a name="apply-auto-datetime-in-power-bi-desktop"></a>在 Power BI Desktop 中应用自动日期/时间
 
@@ -33,7 +33,7 @@ ms.locfileid: "77154203"
 每个自动日期/时间表实际上都是使用 DAX [CALENDAR](/dax/calendar-function-dax) 函数生成数据行的[计算表](desktop-calculated-tables.md)。 每个表还包含六个计算列：**Day**、**MonthNo**、**Month**、**QuarterNo**、**Quarter** 和 **Year**
 
 > [!NOTE]
-> Power BI 按[模型语言](supported-languages-countries-regions.md#choose-the-language-for-the-model-in-power-bi-desktop)对列名称和值进行转换和格式化。
+> Power BI 按[模型语言](supported-languages-countries-regions.md#choose-the-language-for-the-model-in-power-bi-desktop)对列名称和值进行转换和格式化。 例如，如果模型是使用英语创建的，则即使使用韩国客户端进行查看，它仍将以英语显示月份名称等。
 
 Power BI Desktop 还会创建自动日期/时间表的“Date”列与模型日期列的关系  。
 

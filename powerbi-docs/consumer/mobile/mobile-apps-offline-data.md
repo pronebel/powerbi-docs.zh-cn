@@ -8,12 +8,12 @@ ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 12/09/2019
 ms.author: painbar
-ms.openlocfilehash: 2974f257509d88a469f981bbdecf8cdca47c8e9e
-ms.sourcegitcommit: 02b05932a119527f255e1eacc745a257044e392f
+ms.openlocfilehash: 9c38aef858d723e548529f450e34d0480de5f8b2
+ms.sourcegitcommit: abc8419155dd869096368ba744883b865c5329fa
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/19/2019
-ms.locfileid: "75219059"
+ms.lasthandoff: 03/17/2020
+ms.locfileid: "79435435"
 ---
 # <a name="view-your-data-offline-in-the-power-bi-mobile-apps"></a>在 Power BI 移动应用中查看你的脱机数据
 适用于：
@@ -21,6 +21,9 @@ ms.locfileid: "75219059"
 | ![iPhone](./media/mobile-apps-offline-data/iphone-logo-50-px.png) | ![iPad](./media/mobile-apps-offline-data/ipad-logo-50-px.png) | ![Android 手机](./media/mobile-apps-offline-data/android-phone-logo-50-px.png) | ![Android 平板电脑](./media/mobile-apps-offline-data/android-tablet-logo-50-px.png) | ![Windows 10](./media/mobile-apps-offline-data/win-10-logo-50-px.png) |
 |:--- |:--- |:--- |:--- |:--- |
 | iPhone |iPad |Android 手机 |Android 平板电脑 |Windows 10 设备 |
+
+>[!NOTE]
+>我们将于 2021 年 3 月 16 日终止对使用 Windows 10 移动版的手机提供 Power BI 移动应用支持  。 [了解详细信息](https://go.microsoft.com/fwlink/?linkid=2121400)
 
 在移动应用而不是在移动浏览器中查看 Power BI 的一个优点是，未连接到网络时也可以看到你的数据。 
 
@@ -34,7 +37,7 @@ ms.locfileid: "75219059"
 还对以前从移动应用访问的任何 Power BI 报表具有只读访问权限。 可以看到完整的报表，但不能在其上进行筛选、交叉筛选、排序或在其上使用切片器。
 
 ## <a name="background-data-refresh"></a>后台数据刷新
-后台刷新功能会利用 Power BI 服务数据（而非数据源）更新你收藏的仪表板，以及你在过去两周内查看过的仪表板和报表。 如果你已连接 WIFI，后台刷新功能会每 2 小时更新一次。 在其他情况下，如果你使用的是 3G 网络，Power BI 会每 24 小时更新一次内容。
+后台刷新功能会利用 Power BI 服务数据（而非数据源）更新你收藏的仪表板，以及你在过去两周内查看过的仪表板和报表。 如果你已连接 WIFI，后台刷新功能会每 2 小时更新一次。 在其他情况下，如果使用的是 3G 网络，Power BI 会每 24 小时更新一次内容。
 
 可以出于一些目的关闭后台刷新功能。例如，为了避免使用网络。 检查设备上的设置。
 
@@ -59,7 +62,7 @@ ms.locfileid: "75219059"
 * 在网络处于脱机状态时，分页报表 (RDL) 不可用。
 
 ## <a name="next-steps"></a>后续步骤
-你的反馈将帮助我们决定未来要做什么，如果你想在 Power BI 移动应用中看到其他功能，别忘了向我们提出你的建议。 
+你的反馈有助于我们决定在未来实现什么，所以不要忘记为你希望在 Power BI 移动应用中实现的其他功能投票。 
 
 * [适用于移动设备的 Power BI 应用](mobile-apps-for-mobile-devices.md)
 * 关注 Twitter 上的 @MSPowerBI

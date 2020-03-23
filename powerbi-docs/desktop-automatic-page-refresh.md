@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 11/26/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 50daa90f937a9d1c7081d9b22e3c743da950945c
-ms.sourcegitcommit: fe9253a6021b9e198afa28aa9c670c3bacf59674
+ms.openlocfilehash: e7e5e406a0a4c9cdcecfab5a5af681857600feb5
+ms.sourcegitcommit: a175faed9378a7d040a08ced3e46e54503334c07
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/26/2019
-ms.locfileid: "74548558"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "79488513"
 ---
 # <a name="automatic-page-refresh-in-power-bi-desktop-preview"></a>Power BI Desktop 中的自动页面刷新（预览）
 
@@ -35,9 +35,9 @@ ms.locfileid: "74548558"
 
 ![页面刷新卡片](media/desktop-automatic-page-refresh/automatic-page-refresh-02.png)
 
-1.  自动页面刷新滑块 - 启用或禁用页面刷新
-2.  页面刷新间隔值 - 刷新间隔的数字值
-3.  页面刷新间隔单位 - 页面刷新的间隔单位
+1.    自动页面刷新滑块 - 启用或禁用页面刷新
+2.    页面刷新间隔值 - 刷新间隔的数字值
+3.    页面刷新间隔单位 - 页面刷新的间隔单位
 
 可在此处启用页面刷新并选择刷新持续时间。 默认值为 30 分钟，最小刷新间隔为 1 秒。 报表将按设置的间隔开始刷新。 
 
@@ -62,10 +62,10 @@ ms.locfileid: "74548558"
 
 我们思考一下有关此数据源的一些其他特征。 
 
-1.  数据以两秒的频率到达。 
-2.  性能分析器显示最大查询 + 显示时间大约为 4.9 秒（4688 毫秒）。 
-3.  数据源配置为每秒处理大约 1000 个并发查询。 
-4.  预计大约 10 个用户可以同时查看报表。
+1.    数据以两秒的频率到达。 
+2.    性能分析器显示最大查询 + 显示时间大约为 4.9 秒（4688 毫秒）。 
+3.    数据源配置为每秒处理大约 1000 个并发查询。 
+4.    预计大约 10 个用户可以同时查看报表。
 
 这会得出以下结果：
 
@@ -83,13 +83,13 @@ ms.locfileid: "74548558"
 
 还可以为已在 Power BI Desktop 中创作的报表设置自动页面刷新间隔，并将其发布到 Power BI 服务。 
 
-配置 Power BI 服务中的报表的自动页面刷新的步骤与 Power BI Desktop 中的配置步骤类似。 在 Power BI 服务中配置时，自动页面刷新还支持[嵌入式 Power BI](developer/embedding.md) 内容。 下图显示了 Power BI 服务的“页面刷新”  配置：
+配置 Power BI 服务中的报表的自动页面刷新的步骤与 Power BI Desktop 中的配置步骤类似。 在 Power BI 服务中配置时，自动页面刷新还支持[嵌入式 Power BI](developer/embedded/embedding.md) 内容。 下图显示了 Power BI 服务的“页面刷新”  配置：
 
 ![Power BI 服务中的自动页面刷新](media/desktop-automatic-page-refresh/automatic-page-refresh-04.png)
 
-1.  自动页面刷新滑块 - 启用或禁用页面刷新
-2.  页面刷新间隔值 - 刷新间隔的数字值，必须是整数
-3.  页面刷新间隔单位 - 页面刷新的间隔单位
+1.    自动页面刷新滑块 - 启用或禁用页面刷新
+2.    页面刷新间隔值 - 刷新间隔的数字值，必须是整数
+3.    页面刷新间隔单位 - 页面刷新的间隔单位
 
 ### <a name="page-refresh-intervals"></a>页面刷新间隔
 

@@ -11,11 +11,11 @@ ms.date: 03/02/2018
 ms.author: maggies
 LocalizationGroup: Dashboards
 ms.openlocfilehash: bdd2ec136ae741e15e0cb60d141c651cd5fb6749
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.sourcegitcommit: 7e845812874b3347bcf87ca642c66bed298b244a
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73877465"
+ms.lasthandoff: 03/13/2020
+ms.locfileid: "79207588"
 ---
 # <a name="edit-or-remove-a-dashboard-tile"></a>编辑或删除仪表板磁贴
 
@@ -65,7 +65,7 @@ ms.locfileid: "73877465"
 
    ![将鼠标悬停在一个磁贴上](media/service-dashboard-edit-tile/power-bi-pin.png)
 
-6. 看到“成功”消息时，选择“转至仪表板”  。 此时，系统会提示保存更改。 选择**保存**。
+6. 看到“成功”消息时，选择“转至仪表板”  。 此时，系统会提示保存更改。 选择“保存”。 
 
 - - -
 <a name="move"></a>
@@ -126,7 +126,7 @@ ms.locfileid: "73877465"
 <a name="different"></a>
 
 ### <a name="pin-the-tile-to-a-different-dashboard"></a>将磁贴固定到其他仪表板
-1. 在省略号下拉菜单中，选择“固定磁贴”![固定磁贴](media/service-dashboard-edit-tile/pinnooutline.png)。 
+1. 在省略号下拉菜单中，选择“固定磁贴”![固定磁贴](media/service-dashboard-edit-tile/pinnooutline.png)  。
 2. 确定是将此磁贴的副本固定到现有仪表板，还是固定到新仪表板。 
    
    ![“固定到仪表板”对话框](media/service-dashboard-edit-tile/pbi_pintoanotherdash.png)
@@ -135,7 +135,7 @@ ms.locfileid: "73877465"
 <a name="delete"></a>
 
 ### <a name="delete-the-tile"></a>删除磁贴
-1. 要从仪表板中永久删除磁贴，请从省略号下拉菜单中选择“删除磁贴”![删除磁贴](media/service-dashboard-edit-tile/power-bi-delete-tile-icon.png)。  
+1. 要从仪表板中永久删除磁贴，请从省略号下拉菜单中选择“删除磁贴”![删除磁贴](media/service-dashboard-edit-tile/power-bi-delete-tile-icon.png)  。 
 
 2. 删除磁贴不会删除基础可视化效果。 选择“金额”磁贴，打开基础报表。 打开报表中的最后一页，可以看到原始可视化效果尚未从报表中删除。 
 

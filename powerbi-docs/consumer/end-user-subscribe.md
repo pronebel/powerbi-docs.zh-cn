@@ -8,14 +8,14 @@ featuredvideoid: ''
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 03/09/2020
+ms.date: 03/17/2020
 LocalizationGroup: Common tasks
-ms.openlocfilehash: 869da47cd64e93a930fe6e92071345be093617a7
-ms.sourcegitcommit: 480bba9c745cb9af2005637e693c5714b3c64a8a
+ms.openlocfilehash: 11e9bfb2c8dce526ad81395645165c2c7dd70a00
+ms.sourcegitcommit: 646d2de454a2897dc52cbc02b7743aaa021bac04
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/11/2020
-ms.locfileid: "79114036"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "79525697"
 ---
 # <a name="subscribe-to-a-report-or-dashboard-in-the-power-bi-service"></a>在 Power BI 服务中订阅报表或仪表板 
 
@@ -65,7 +65,7 @@ ms.locfileid: "79114036"
 
 3. 如果看起来一切正常，请选择“保存并关闭”，保存订阅  。 你会按照所设置的计划收到仪表板或报表的电子邮件和快照。 频率设置为“数据刷新后”的所有订阅都只会在该天的第一次计划刷新之后发送电子邮件  。
    
-   ![仪表板的电子邮件快照](media/end-user-subscribe/power-bi-email.png)
+   ![仪表板的电子邮件快照](media/end-user-subscribe/power-bi-email-old.png)
    
     刷新报表页不会刷新数据集。 只有数据集所有者能够手动刷新数据集。 若要查找基础数据集的所有者名称，请从菜单栏中选择下拉列表或查看原始订阅电子邮件。
    
@@ -80,14 +80,14 @@ ms.locfileid: "79114036"
 如果 Pro 许可证到期、所有者删除仪表板或报表，或用于创建订阅的用户帐户被删除，那么订阅将结束。
 
 ## <a name="considerations-and-troubleshooting"></a>注意事项和疑难解答
-* 为了避免订阅电子邮件转到垃圾邮件文件夹，请将 Power Platform 电子邮件别名 (PowerPlat-noreply@microsoft.com) 添加到联系人中。 如果使用的是 Microsoft Outlook，请右键单击别名，然后选择“添加到 Outlook 联系人”  。 
+* 为了避免订阅电子邮件转到垃圾邮件文件夹，请将 Power BI 电子邮件别名 (no-reply-powerbi@microsoft.com) 添加到联系人中。 如果使用的是 Microsoft Outlook，请右键单击别名，然后选择“添加到 Outlook 联系人”  。 
 * 具有超过 25 个固定磁贴或四个固定活动报表页面的仪表板可能无法完全呈现在发送给用户的订阅电子邮件中。 我们建议你联系并要求磁贴设计者将固定磁贴减少到 25 个以下，并将固定活动报表固定为少于 4 个，以确保电子邮件正确呈现。  
 * 对于仪表板电子邮件说明，如果任何磁贴应用了行级别安全性 (RLS)，则不会显示这些磁贴。  对于报表电子邮件说明，如果数据集使用 RLS，则无法创建订阅。
 * 如果电子邮件中的链接（指向内容）停止工作，则可能是该内容已被删除。 在电子邮件的屏幕截图下方，你可以查看自己或其他人是否订阅了你的邮件。 如果是其他人，请让该同事取消电子邮件或重新订阅。
 * 报表页订阅与报表页面的名称是相关联的。 如果你订阅一个报表页，而后将其重命名，则必须重新创建订阅。
 * 如果无法使用订阅功能，请与系统管理员联系。 你的组织可能禁用了此功能。  
-* 电子邮件订阅不支持大多数[自定义视觉对象](../developer/power-bi-custom-visuals.md)。  已经过[认证](../developer/power-bi-custom-visuals-certified.md)的自定义视觉对象除外。  
-* 目前电子邮件订阅不支持 R 驱动的自定义视觉对象。  
+* 电子邮件订阅不支持大多数 [Power BI 视觉对象](../developer/visuals/power-bi-custom-visuals.md)。  已经过[认证](../developer/visuals/power-bi-custom-visuals-certified.md)的 Power BI 视觉对象除外。  
+* 目前，电子邮件订阅不支持 R 驱动的 Power BI 视觉对象。  
 * 对于仪表板订阅，具体来说，尚不支持某些类型的磁贴。  其中包括流磁贴、视频磁贴、自定义 Web 内容磁贴。     
 * 由于电子邮件大小限制，可能无法订阅包含极大图像的仪表板或报表。    
 * 如果超过两个月一直没有人访问仪表板和报表，那么 Power BI 会自动暂停刷新与它们关联的数据集。  不过，如果添加对仪表板或报表的订阅，即使无人访问，也不会暂停刷新。

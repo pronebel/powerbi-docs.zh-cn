@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 03/02/2020
-ms.openlocfilehash: 0a8cf16ddf7fe9e091599f1790a37a83b9923240
-ms.sourcegitcommit: d65da4738f011beec8f4423085cbd483511cdfb0
+ms.openlocfilehash: f27f03a88a39ce046ae64454b9b092e87c07d0a3
+ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/03/2020
-ms.locfileid: "78237951"
+ms.lasthandoff: 03/14/2020
+ms.locfileid: "79381091"
 ---
 # <a name="change-log-for-power-bi-report-server"></a>Power BI 报表服务器的更改日志
 
@@ -24,7 +24,7 @@ ms.locfileid: "78237951"
 
 ## <a name="january-2020"></a>2020 年 1 月
 - **Power BI 报表服务器**
-    - 版本：1.6.7364.4075（内部版本 15.0.1102.777），发布日期：2020 年 3 月 2 日 
+    - *版本：1.6.7364.4075（内部版本 15.0.1102.777），发布日期：2020 年 3 月 2 日 
          - Bug 修复
            -  修复了以下问题：对于某些数据源，Power BI 报表无法上传
            -  修复了门户中的 Power BI 报表服务器桌面链接下载位置
@@ -200,7 +200,7 @@ ms.locfileid: "78237951"
         - 功能
             - Power BI 报表现在提供使用 Kerberos 的 SAP HANA SSO 直接查询支持
             - 发布版附带的自定义视觉对象 API - 版本 1.13.0
-            - 自定义视觉对象回退到与当前版本的服务器 API 兼容的先前版本（如果可用）
+            - Power BI 视觉对象回退到与当前版本的服务器 API 兼容的先前版本（如果可用）
 
 - Power BI Desktop（已针对 Power BI 报表服务器进行优化） 
     - *版本：2.61.5192.641（2018 年 8 月），发布日期：2018 年 8 月 15 日*
@@ -322,7 +322,7 @@ ms.locfileid: "78237951"
             - `{{UserId}}` 标记解析为存储的凭据，而不是在 Power BI 报表中执行报表的用户
             - 某些图像无法在 Power BI 报表服务器报表中呈现
             - 无法在 Power BI 报表服务器中更改 Power BI 报表的名称
-            - 无法在 Power BI 移动应用程序中加载自定义视觉对象（需要重新安装移动应用以清除本地缓存）
+            - 无法在 Power BI 移动应用程序中加载 Power BI 视觉对象（需要重新安装移动应用以清除本地缓存）
 
     - *内部版本 14.0.600.271，发布日期：2017 年 6 月 12 日*
         - Power BI 报表服务器初始版本

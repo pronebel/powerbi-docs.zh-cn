@@ -7,12 +7,12 @@ ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 03/09/2020
 ms.author: painbar
-ms.openlocfilehash: 010513ec8ca908167bbc99255a6fd207ca0ccfba
-ms.sourcegitcommit: 87b7cb4a2e626711b98387edaa5ff72dc26262bb
+ms.openlocfilehash: 67daafc0938216b135b31d3190c191402e9a10de
+ms.sourcegitcommit: abc8419155dd869096368ba744883b865c5329fa
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/10/2020
-ms.locfileid: "79040826"
+ms.lasthandoff: 03/17/2020
+ms.locfileid: "79435366"
 ---
 # <a name="view-on-premises-reports-and-kpis-in-the-power-bi-windows-app"></a>在 Power BI Windows 应用中查看本地报表和 KPI
 使用适用于 Windows 10 的 Power BI 应用，可以通过触控实时移动访问 SQL Server 2016 Reporting Services 中的重要本地业务信息。 
@@ -26,8 +26,9 @@ ms.locfileid: "79040826"
 
 > [!NOTE]
 > 设备需要运行 Windows 10。 该应用在至少具有 1 GB RAM 和 8 GB 内部存储的设备上运行最佳。
-> 
-> 
+
+>[!NOTE]
+>我们将于 2021 年 3 月 16 日终止对使用 Windows 10 移动版的手机提供 Power BI 移动应用支持  。 [了解详细信息](https://go.microsoft.com/fwlink/?linkid=2121400)
 
 ## <a name="explore-samples-without-a-sql-server-2016-reporting-services-server"></a>在没有 SQL Server 2016 Reporting Services 服务器的情况下浏览示例
 即使你没有对 Reporting Services Web 门户的访问权限，仍可以浏览 Reporting Services 移动报表的功能。

@@ -10,11 +10,11 @@ ms.date: 10/18/2019
 ms.author: davidi
 LocalizationGroup: Transform and shape data
 ms.openlocfilehash: d6a36f8ef3ef5d668fe8d6021758b651cdbf7fd5
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.sourcegitcommit: 7e845812874b3347bcf87ca642c66bed298b244a
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73877827"
+ms.lasthandoff: 03/13/2020
+ms.locfileid: "79206760"
 ---
 # <a name="tutorial-shape-and-combine-data-in-power-bi-desktop"></a>教程：在 Power BI Desktop 中调整和合并数据
 
@@ -107,7 +107,7 @@ Power BI Desktop 中的查询编辑器大量地使用右键单击菜单和“转
 1. 右键单击某个步骤。 查询编辑器会提供一个菜单，让你执行以下任务： 
    - **重命名**；为步骤重命名。
    - **删除**：删除步骤。
-   - **删除** **至结尾**：删除当前步骤以及所有后续步骤。
+   - 删除到末尾   ：删除当前步骤以及所有后续步骤。
    - **上移**：在列表中向上移动该步骤。
    - **下移**：在列表中向下移动该步骤。
 
@@ -251,7 +251,7 @@ Power BI Desktop 中的查询编辑器大量地使用右键单击菜单和“转
 - 当你有一列或多列要添加到另一个查询时，你可*合并*这些查询。 
 - 当你有其他列要添加到现有查询时，你可*追加*查询。
 
-在本例中，我们需要合并查询。 为此，请执行以下步骤：
+在本例中，我们需要合并查询。 为此，请执行下列步骤：
  
 1. 在查询编辑器的左窗格中，选择要将其他查询合并到其中的查询  。 在本例中选择 RetirementStats  。 
 
@@ -269,7 +269,7 @@ Power BI Desktop 中的查询编辑器大量地使用右键单击菜单和“转
 
    ![“合并”窗口](media/desktop-shape-and-combine-data/shapecombine_merge2.png)
 
-1. 选择**确定**。
+1. 选择“确定”。 
 
    查询编辑器在查询的结尾创建 NewColumn 列，其中包含与现有查询合并的表（查询）的内容  。 已合并查询中的所有列将压缩到 NewColumn 列中，但你可以扩展表，使之包含所需的任何列   。
 

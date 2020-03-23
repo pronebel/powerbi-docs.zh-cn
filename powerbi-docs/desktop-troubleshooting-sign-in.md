@@ -9,12 +9,12 @@ ms.topic: troubleshooting
 ms.date: 03/05/2020
 ms.author: davidi
 LocalizationGroup: Troubleshooting
-ms.openlocfilehash: 50cb15e95f051dd6860112243514464dd80a8b1e
-ms.sourcegitcommit: 743167a911991d19019fef16a6c582212f6a9229
+ms.openlocfilehash: 299329cad78d831a3b77e55107e94a234d6f64b1
+ms.sourcegitcommit: 22991861c2b9454b170222591f64266335b9fcff
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/06/2020
-ms.locfileid: "78401169"
+ms.lasthandoff: 03/12/2020
+ms.locfileid: "79133180"
 ---
 # <a name="troubleshooting-sign-in-for-power-bi-desktop"></a>Power BI Desktop 登录问题疑难解答
 在尝试登录 Power BI Desktop 时，可能有时会遇到错误  。 登录时遇到问题的两个主要原因有：代理身份验证错误  和非 HTTPS URL 重定向错误  。 
@@ -75,4 +75,37 @@ Power BI Desktop  跟踪文件中的以下异常与此错误相关联：
     `C:\Users/<user name>/AppData/Local/Microsoft/Power BI Desktop/Traces`
 
 在该文件夹中可能有多个跟踪文件。 请确保仅将新文件发送给管理员，以帮助快速发现错误。 
+
+
+## <a name="using-default-system-credentials-for-web-proxy"></a>使用 Web 代理的默认系统凭据
+
+Power BI Desktop 发出的 Web 请求不使用 Web 代理凭据。 在使用代理服务器的网络中，Power BI Desktop 可能无法成功发出 Web 请求。 
+
+从 Power BI Desktop 2020 年 3 月版本开始，系统或网络管理员可允许使用默认系统凭据进行 Web 代理身份验证。 管理员可以创建名为 UseDefaultCredentialsForProxy 的注册表项，并将值设置为一 (1)，以允许使用默认系统凭据进行 Web 代理身份验证  。
+
+注册表项可以放在以下任一位置：
+
+`[HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\Microsoft Power BI Desktop]`
+`[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Microsoft Power BI Desktop]`
+
+无需同时在两个位置放置该注册表项。
+
+![使用默认系统凭据的注册表项](media/desktop-troubleshooting-sign-in/desktop-tshoot-sign-in-03.png)
+
+创建该注册表项后（可能需要重启），Power BI Desktop 发出 Web 请求时，将使用 Internet Explorer 中定义的代理设置。 
+
+与对代理或凭据设置所做的任何更改一样，创建此注册表项也会带来安全隐患，因此管理员必须确保先正确配置 Internet Explorer 代理，然后再启用此功能。         
+
+### <a name="limitations-and-considerations-for-using-default-system-credentials"></a>使用默认系统凭据的限制和注意事项
+
+在启用此功能之前，管理员应考虑一系列安全隐患。 
+
+为客户端启用此功能时，应遵循以下建议：
+
+* 仅将“协商”用作代理服务器上的身份验证方案，以确保客户端仅使用加入 Active Directory 网络的代理服务器  。 
+* 请勿在使用此功能的客户端上使用“NTLM 回退”  。
+* 按照本节的建议启用和配置此功能后，如果用户未在使用代理的网络上，则不使用尝试联系代理服务器和使用默认系统凭据的过程。
+
+
+[使用 Web 代理的默认系统凭据](#using-default-system-credentials-for-web-proxy)
 

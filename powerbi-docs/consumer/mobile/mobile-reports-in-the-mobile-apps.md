@@ -6,14 +6,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: conceptual
-ms.date: 01/18/2020
+ms.date: 03/07/2020
 ms.author: painbar
-ms.openlocfilehash: 27f6469cb960ff101f45636e0720b935929ff010
-ms.sourcegitcommit: 02342150eeab52b13a37b7725900eaf84de912bc
+ms.openlocfilehash: 9f9a0afb766becefa5b74c5737795f6f227e7c27
+ms.sourcegitcommit: abc8419155dd869096368ba744883b865c5329fa
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/23/2020
-ms.locfileid: "76538099"
+ms.lasthandoff: 03/17/2020
+ms.locfileid: "79435757"
 ---
 # <a name="explore-reports-in-the-power-bi-mobile-apps"></a>在 Power BI 移动应用中浏览报表
 适用于：
@@ -21,6 +21,9 @@ ms.locfileid: "76538099"
 | ![iPhone](././media/mobile-reports-in-the-mobile-apps/ios-logo-40-px.png) | ![iPad](././media/mobile-reports-in-the-mobile-apps/ios-logo-40-px.png) | ![Android 手机](././media/mobile-reports-in-the-mobile-apps/android-logo-40-px.png) | ![Android 平板电脑](././media/mobile-reports-in-the-mobile-apps/android-logo-40-px.png) | ![Windows 10 设备](./media/mobile-reports-in-the-mobile-apps/win-10-logo-40-px.png) |
 |:---: |:---: |:---: |:---: |:---: |
 | iPhone |iPad |Android 手机 |Android 平板电脑 |Windows 10 设备 |
+
+>[!NOTE]
+>我们将于 2021 年 3 月 16 日终止对使用 Windows 10 移动版的手机提供 Power BI 移动应用支持  。 [了解详细信息](https://go.microsoft.com/fwlink/?linkid=2121400)
 
 Power BI 报表是一个交互式数据视图，它使用视觉对象来表示不同的数据发现和见解。 在 Power BI 移动应用中查看报表是三步流程中的第三步：
 
@@ -59,6 +62,14 @@ Power BI 移动应用中的报表有两个图标：
 如果愿意，可以切换到双击交互。 使用双击交互时，首先点击一个视觉对象以选择它，然后再次点击视觉对象以执行所需操作。
 
 若要切换到双击交互，或切换回单击交互，请转到[应用交互设置](./mobile-app-interaction-settings.md)。
+
+### <a name="single-select-versus-multi-select-mode-for-data-point-selection"></a>用于数据点选择的单选模式与多选模式
+
+在报表中，点击一个数据点以将其选中。 可以选择是要使用单选模式还是多选模式。 在单选模式下，点击数据点以将其选中时，所选内容会替换以前所做的任何选择。 在多选模式下，点击数据点以将其选中时，所选内容被添加  到你当前拥有的任何选择内容中，并且所有选择内容的合并结果将在所有报表的视觉对象中突出显示。
+
+若要取消选择所选的数据点，只需再次点击它即可。
+
+若要在单选模式和多选模式之间切换，请转到[应用交互设置](./mobile-app-interaction-settings.md)。
 
 ### <a name="using-tap-and-long-tap"></a>使用点击和长按
 点击与鼠标单击效果相同。 因此，如果要基于数据点交叉突出显示报表，请点击该数据点。

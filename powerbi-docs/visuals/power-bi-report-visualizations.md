@@ -10,12 +10,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 10/28/2019
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 02617e690c347448ecb1c313bc86969dabeb9984
-ms.sourcegitcommit: 08b73af260ded51daaa6749338cb85db2eab587f
+ms.openlocfilehash: bd8053123d8a5c2fa0c4362cb2a534021208ba36
+ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/15/2019
-ms.locfileid: "74099093"
+ms.lasthandoff: 03/14/2020
+ms.locfileid: "79381459"
 ---
 # <a name="visualizations-in-power-bi-reports"></a>Power BI 报表中的可视化效果
 
@@ -27,7 +27,7 @@ Power BI 的“可视化效果”窗格中还有其他许多视觉对象类型�
 
 ![具有各种可视化效果类型图标的窗格](media/power-bi-report-visualizations/power-bi-icons.png)
 
-如果需要更多选择，请访问 [Microsoft AppSource 社区网站](https://appsource.microsoft.com)，查找并[下载](https://appsource.microsoft.com/marketplace/apps?page=1&product=power-bi-visuals) Microsoft 和社区提供的[自定义视觉对象](../developer/visuals/custom-visual-develop-tutorial.md)。
+如果需要更多选择，请访问 [Microsoft AppSource 社区网站](https://appsource.microsoft.com)，查找并[下载](https://appsource.microsoft.com/marketplace/apps?page=1&product=power-bi-visuals) Microsoft 和社区提供的 [Power BI 视觉对象](../developer/visuals/custom-visual-develop-tutorial.md)。
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/SYk_gWrtKvM?list=PL1N57mwBHtN0JFoKSR0n-tBkUJHeMP2cP" frameborder="0" allowfullscreen></iframe>
 
@@ -40,7 +40,7 @@ Power BI 的“可视化效果”窗格中还有其他许多视觉对象类型�
 
 ## <a name="upload-a-custom-visualization-and-use-it-in-power-bi"></a>上载自定义可视化效果并在 Power BI 中使用
 
-添加自己创建或在 [Microsoft AppSource 社区网站](https://appsource.microsoft.com/marketplace/apps?product=power-bi-visuals)中找到的自定义可视化效果。 有创造性的点子？ 深入了解我们的源代码，使用我们的[开发工具](../developer/visuals/custom-visual-develop-tutorial.md)创建新的可视化效果类型，并[将它与社区共享](../developer/office-store.md)。 若要详细了解如何开发自定义视觉对象，请访问[开发 Power BI 自定义视觉对象](../developer/visuals/custom-visual-develop-tutorial.md)。
+添加自己创建或在 [Microsoft AppSource 社区网站](https://appsource.microsoft.com/marketplace/apps?product=power-bi-visuals)中找到的自定义可视化效果。 有创造性的点子？ 深入了解我们的源代码，使用我们的[开发工具](../developer/visuals/custom-visual-develop-tutorial.md)创建新的可视化效果类型，并[将它与社区共享](../developer/visuals/office-store.md)。 若要详细了解如何开发自定义视觉对象，请访问[开发 Power BI 自定义视觉对象](../developer/visuals/custom-visual-develop-tutorial.md)。
 
 ## <a name="personalize-your-visualization-pane-preview"></a>个性化可视化效果窗格（预览）
 
@@ -70,4 +70,4 @@ Power BI 的“可视化效果”窗格中还有其他许多视觉对象类型�
 ## <a name="next-steps"></a>后续步骤
 
 * [Power BI 中的可视化效果类型](power-bi-visualization-types-for-reports-and-q-and-a.md)
-* [自定义视觉对象](../developer/power-bi-custom-visuals.md)
+* [Power BI 视觉对象](../developer/visuals/power-bi-custom-visuals.md)

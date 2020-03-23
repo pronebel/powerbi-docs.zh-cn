@@ -9,12 +9,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 02/25/2020
 LocalizationGroup: Share your work
-ms.openlocfilehash: 99fd17e8491613affbfe78e7cd9a2f268f588975
-ms.sourcegitcommit: d65da4738f011beec8f4423085cbd483511cdfb0
+ms.openlocfilehash: 0876d5ecd1d58c909242bbc05be213780d3aefdc
+ms.sourcegitcommit: a175faed9378a7d040a08ced3e46e54503334c07
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/03/2020
-ms.locfileid: "78237974"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "79488766"
 ---
 # <a name="publish-to-web-from-power-bi"></a>从 Power BI 发布到 Web
 
@@ -124,9 +124,9 @@ ms.locfileid: "78237974"
 
 数据刷新自动反映在嵌入的报表或视觉对象中。 大约需要一小时才可从嵌入代码中看到刷新的数据。 若要禁用自动刷新，选择报表所用数据集计划上的“不刷新”  。  
 
-## <a name="custom-visuals"></a>自定义视觉对象
+## <a name="power-bi-visuals"></a>Power BI 视觉对象
 
-自定义视觉对象在**发布到 Web** 中受到支持。 使用“发布到 Web”时，共享你的已发布视觉对象的用户不需要启用自定义视觉对象来查看报表  。
+在“发布到 Web 中”，支持 Power BI 视觉对象  。 使用“发布到 Web”时，共享你的已发布视觉对象的用户不需要启用 Power BI 视觉对象即可查看报表  。
 
 ## <a name="limitations"></a>限制
 
@@ -144,7 +144,7 @@ ms.locfileid: "78237974"
 - 单一登录数据查询模型。
 - 保护机密或专有信息。
 - [共享和经认证的数据集](service-datasets-share.md)。
-- 随“嵌入”  选项提供的自动身份验证功能不适用于 Power BI JavaScript API。 对于 Power BI JavaScript API，请使用[用户拥有数据](developer/embed-sample-for-your-organization.md)方法进行嵌入。
+- 随“嵌入”  选项提供的自动身份验证功能不适用于 Power BI JavaScript API。 对于 Power BI JavaScript API，请使用[用户拥有数据](developer/embedded/embed-sample-for-your-organization.md)方法进行嵌入。
 
 ## <a name="tenant-setting"></a>租户设置
 
@@ -181,7 +181,7 @@ Power BI 管理员可以启用或禁用“发布到 Web”功能  。 还可以�
 
 ## <a name="how-to-report-a-concern-with-publish-to-web-content"></a>如何报告有关发布到 Web 内容的问题
 
-若要报告与嵌入到网页或博客中的“发布到 Web”内容相关的问题，请使用底部栏中的“标志”图标，如下图所示   。 你将需要向 Microsoft 发送一封电子邮件，解释该问题。 Microsoft 将基于 Power BI 服务条款评估该内容，并采取相应的措施。
+若要报告与嵌入到网页或博客中的“发布到 Web”内容相关的问题，请使用底部栏中的“标志”图标，如下图所示   。 你需要向 Microsoft 发送一封电子邮件，解释该问题。 Microsoft 将基于 Power BI 服务条款评估该内容，并采取相应的措施。
 
 若要报告问题，请选择所见“发布到 Web”报表的底部栏中的“标志”图标   。
 
@@ -196,7 +196,7 @@ Power BI 管理员可以启用或禁用“发布到 Web”功能  。 还可以�
 
 使用“发布到 Web”创建嵌入代码时，报表对所有 Internet 用户均可见  。 它是公开提供的，因此你可以期望将来查看者能够轻松地通过社交媒体共享报表。 用户查看报表，或者通过打开直接公共 URL，或者在嵌入到的网页或博客中查看，Power BI 将缓存报表定义和查看报表所需的查询结果。 这确保了成千上万的并发用户能够在不影响性能的情况下查看报表。
 
-缓存持续很长时间，因此如果你更新报表定义（例如更改其视图模式）或刷新报表数据，大约需要一小时才能在用户查看的报表版本中反映更改。 因此建议你提前暂存工作，并仅当你对设置满意时创建**发布到 Web** 嵌入代码。
+缓存持续很长时间，因此如果你更新报表定义（例如更改其视图模式）或刷新报表数据，大约需要一小时才能在用户查看的报表版本中反映更改。 因此建议你提前暂存工作，并仅在对设置满意时创建“发布到 Web”嵌入代码  。
 
 ## <a name="how-to-find-your-power-bi-administrator"></a>如何查找 Power BI 管理员
 

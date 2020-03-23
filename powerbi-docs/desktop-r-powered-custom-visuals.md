@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.subservice: powerbi-custom-visuals
 ms.date: 07/27/2018
 LocalizationGroup: Create reports
-ms.openlocfilehash: 9cc5c40328955f54cb0f37567d7ff91d37a302ce
-ms.sourcegitcommit: 01de0b01f66f28ca45b8d309d7864f261d6c9a85
+ms.openlocfilehash: 020967948e3f0551de50e4485be0dde450a4f18b
+ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/16/2019
-ms.locfileid: "74128250"
+ms.lasthandoff: 03/14/2020
+ms.locfileid: "79378676"
 ---
 # <a name="use-r-powered-power-bi-visuals-in-power-bi"></a>在 Power BI 中使用 R 驱动的 Power BI 视觉对象
 
@@ -129,7 +129,7 @@ Power BI 团队正在努力降低你遇到这些问题的可能性，下一版 P
 
    b.  在 R 控制台中运行以下命令：
 
-       source(“C:/Users/david/Downloads/ScriptInstallPackagesForForecastWithWorkarounds.R”)
+       source("C:/Users/david/Downloads/ScriptInstallPackagesForForecastWithWorkarounds.R")
 
    典型的默认安装位置如下所示：
 
@@ -149,7 +149,7 @@ Power BI 团队正在努力降低你遇到这些问题的可能性，下一版 P
 
 查看以下更多信息，了解有关 Power BI 中的 R。
 
-* [Power BI Power BI 视觉对象库](https://app.powerbi.com/visuals/)
+* [Power BI 视觉对象库](https://app.powerbi.com/visuals/)
 * [在 Power BI Desktop 中运行 R 脚本](desktop-r-scripts.md)
 * [在 Power BI Desktop 中创建 R 视觉对象](desktop-r-visuals.md)
 * [将外部 R IDE 与 Power BI 一起使用](desktop-r-ide.md)

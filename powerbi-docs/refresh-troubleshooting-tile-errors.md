@@ -10,12 +10,12 @@ ms.topic: troubleshooting
 ms.date: 12/06/2018
 ms.author: maggies
 LocalizationGroup: Troubleshooting
-ms.openlocfilehash: 04ee1386547ed888531ea139227969d49629863d
-ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
+ms.openlocfilehash: 79f18faf56fba8afa85afd808f6faa1bd16811d8
+ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/06/2020
-ms.locfileid: "74699535"
+ms.lasthandoff: 03/14/2020
+ms.locfileid: "79381137"
 ---
 # <a name="troubleshooting-tile-errors"></a>磁贴错误故障排除
 下面是使用磁贴可能会遇到的常见错误以及错误说明。
@@ -31,13 +31,14 @@ ms.locfileid: "74699535"
 
 我们无法访问你的数据，因为数据源不可访问。 如果数据源已删除、重命名、移动、脱机或权限已更改，则可能出现此问题。 确认源是否仍处于我们指向的位置，你是否仍有权访问该源。 如果这不是问题，可能是源速度比较慢。 请稍后在源上的负载较小时重试。 如果是本地源，数据源所有者可以提供详细信息。
 
-**你没有权限查看此磁贴或打开该工作簿。**
+你没有权限查看此磁贴或打开该工作簿。 
 
 联系仪表板所有者，确保数据源和模型存在并且你的帐户可以访问。
 
-自定义视觉对象已由管理员禁用  。
+Power BI 视觉对象已由管理员禁用  。
 
-Power BI 管理员已禁用组织或安全组的自定义视觉对象。 将无法从 [Microsoft 市场](https://appsource.microsoft.com/marketplace/apps?page=1&product=power-bi-visuals)使用自定义视觉对象或从文件导入专用视觉对象。 将仅能够使用预先打包的一组视觉对象。
+Power BI 管理员已禁用组织或安全组的 Power BI 视觉对象。
+无法从 [Microsoft 市场](https://appsource.microsoft.com/marketplace/apps?page=1&product=power-bi-visuals)使用 Power BI 视觉对象或从文件导入专用视觉对象。 将仅能够使用预先打包的一组视觉对象。
 
 
 **数据形状必须至少包含一个输出数据的组或计算。请联系仪表板所有者。**

@@ -1,36 +1,45 @@
 ---
 title: 使用 Power BI 中的按钮
-description: 借助 Power BI Desktop 中的按钮，可以制作出类似应用的报表和仪表板，并加深与用户的互动
+description: 可以在 Power BI 报表中添加各种按钮，以使报表的行为类似于应用，并加深与用户的互动。
 author: davidiseminger
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 05/07/2019
+ms.date: 03/12/2020
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: a38b54bdacd0f60ee0151ad7c1a2084cebac2a37
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 6629165ec031fea0d1c1af443e1d7b311bc743aa
+ms.sourcegitcommit: 7e845812874b3347bcf87ca642c66bed298b244a
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73878712"
+ms.lasthandoff: 03/13/2020
+ms.locfileid: "79201561"
 ---
-# <a name="using-buttons-in-power-bi"></a>使用 Power BI 中的按钮
-使用 Power BI 中的“按钮”，可创建类似于应用的报表和仪表板，从而创建引人入胜的环境，以便用户可悬停鼠标在 Power BI 内容上、单击它并进一步与之交互  。 可将按钮添加到 Power BI Desktop 中的报表，并将这些报表共享或发布到 Power BI 服务，以创建为用户提供行为类似于应用的仪表板  。
+# <a name="use-buttons-in-power-bi"></a>使用 Power BI 中的按钮
+使用 Power BI 中的“按钮”，可创建类似于应用的报表，从而创建极具吸引力的环境，以便用户可悬停鼠标在 Power BI 内容上、单击它并进一步与之交互  。 可在 Power BI Desktop 和 Power BI 服务中向报表添加按钮   。 在 Power BI 服务中共享报表时，它们为用户提供类似于应用的体验。
 
-![Power BI 中的按钮](media/desktop-buttons/desktop-buttons_01.png)
+![Power BI 中的按钮](media/desktop-buttons/power-bi-buttons.png)
 
-在 Power BI Desktop 中创建的按钮可用于在 Power BI 服务中发布的报表或仪表板   。
+## <a name="create-buttons-in-reports"></a>在报表中创建按钮
 
-## <a name="creating-buttons-in-reports"></a>在报表中创建按钮
-要在 Power BI Desktop 报表中创建按钮，请在“主页”功能区上选择“按钮”，然后会出现下拉菜单，可在其中的系列选项中选择所需按钮，如下图所示    。 
+### <a name="create-a-button-in-power-bi-desktop"></a>在 Power BI Desktop 中创建按钮
 
-![在 Power BI Desktop 中添加按钮控件](media/desktop-buttons/desktop-buttons_02.png)
+要在 Power BI Desktop 中创建按钮，请在“插入”功能区上选择“按钮”，一个下拉菜单随即显示，可在其中的一系列选项中选择所需按钮，如下图所示    。 
 
-创建按钮并在报表画布上选择该按钮时，“可视化效果”窗格将提供众多途径助你自定义按钮来满足需要  。 例如，通过切换“可视化效果”窗格的卡片中的滑块，打开或关闭“按钮文本”   。 还可更改按钮的图标、按钮填充、标题、用户单击报表或仪表板中的按钮时所执行的操作和其他属性。
+![在 Power BI Desktop 中添加按钮控件](media/desktop-buttons/power-bi-button-dropdown.png)
 
-![在 Power BI Desktop 中设置按钮的格式](media/desktop-buttons/desktop-buttons_03.png)
+### <a name="create-a-button-in-the-power-bi-service"></a>在 Power BI 服务中创建按钮
+
+要在 Power BI 服务中创建按钮，请在“编辑”视图中打开报表  。 选择顶部菜单栏中的“按钮”，一个下拉菜单随即显示，可在其中的一系列选项中选择所需按钮，如下图所示  。 
+
+![在 Power BI 服务中添加按钮控件](media/desktop-buttons/power-bi-button-service-dropdown.png)
+
+## <a name="customize-a-button"></a>自定义按钮
+
+无论是在 Power BI Desktop 中还是 Power BI 服务中创建按钮，其余过程都是相同的。 在报表画布上选择按钮时，“可视化效果”窗格提供众多途径助你自定义按钮来满足需要  。 例如，通过切换“可视化效果”窗格的“按钮文本”卡片中的滑块，可打开或关闭按钮文本   。 还可更改按钮图标、按钮填充、标题、用户在报表中选择按钮时所执行的操作以及其他属性。
+
+![在 Power BI 报表中设置按钮的格式](media/desktop-buttons/power-bi-button-properties.png)
 
 ## <a name="set-button-properties-when-idle-hovered-over-or-selected"></a>空闲、悬停或选中时设置按钮属性
 
@@ -43,37 +52,46 @@ Power BI 中的按钮有三种状态：默认状态（未悬停或选中时的�
 * 轮廓
 * 填充
 
-要为每种状态选择按钮的显示方式，请展开其中一张卡，然后选择卡顶部的下拉列表。 在下图中，将看到已展开的“边框”卡，且选中了下拉列表显示出三种状态  ：
+要为每种状态选择按钮的显示方式，请展开其中一张卡，然后选择卡顶部的下拉列表。 在下图中，可看到已展开的“图标”卡片，其中的下拉列表处于选中状态，显示出三种状态  。
 
-![Power BI Desktop 中按钮的三种状态](media/desktop-buttons/desktop-buttons_04.png)
+![Power BI 报表中按钮的三种状态](media/desktop-buttons/power-bi-button-format.png)
 
 
 ## <a name="select-the-action-for-a-button"></a>选择按钮的操作
 
 可选择用户在 Power BI 中选择按钮时所采取的操作。 可从“可视化效果”窗格中的“操作”卡访问按钮操作的选项   。
 
-![Power BI 中按钮的操作](media/desktop-buttons/desktop-buttons_05.png)
+![Power BI 中按钮的操作](media/desktop-buttons/power-bi-button-action.png)
 
-按钮操作的选项如下：
+下面是按钮操作的选项：
 
-* 返回
-* 书签
-* 问答
+- “返回”可让用户返回到报表的上一页  。 此项非常适合钻取页面。
+- “书签”可显示与为当前报表定义的书签关联的报表页  。 详细了解 [Power BI 中的书签](desktop-bookmarks.md)。 
+- “钻取(预览)”可让用户导航到已按照所选内容筛选的钻取页，而无需使用书签  。 详细了解[报表中的钻取按钮](desktop-drill-through-buttons.md)。
+- “页面导航”可让用户导航到报表中的其他页面，也无需使用书签  。 有关详细信息，请参阅本文中的[创建页面导航](#create-page-navigation)。
+- “问答”可打开一个“问答资源管理器”窗口   。 
 
-选择“返回”  会将用户返回到报表的上一页。 这对于下钻页面特别有用。
-
-选择“书签”将显示与为当前报表定义的书签关联的报表页  。 可以[了解 Power BI 中书签的详细信息](desktop-bookmarks.md)。 
-
-从下拉菜单中选择“问答”将显示“问答资源管理器”窗口   。 
-
-某些按钮将自动选择默认操作。 例如，“问答”按钮类型会自动选择“问答”作为默认操作   。 通过查看[此博客文章](https://powerbi.microsoft.com/blog/power-bi-desktop-april-2018-feature-summary/#Q&AExplorer)，了解有关“问答资源管理器”的更多信息  。
+某些按钮已自动选择默认操作。 例如，“问答”按钮类型会自动选择“问答”作为默认操作   。 通过查看[此博客文章](https://powerbi.microsoft.com/blog/power-bi-desktop-april-2018-feature-summary/#Q&AExplorer)，了解有关“问答资源管理器”的更多信息  。
 
 通过单击想使用的按钮同时按 Ctrl，试用或测试为报表创建的按钮  。 
+
+### <a name="create-page-navigation"></a>创建页面导航
+
+“操作”类型为“页面导航”时，无需保存或管理任何书签即可快速生成整个导航体验   。
+
+要设置页面导航按钮，请创建一个操作类型为“页面导航”的按钮，然后选择“目标”页   。
+
+![页面导航操作](media/desktop-buttons/power-bi-page-navigation.png)
+
+可以快速生成自定义导航窗格。 如果要更改导航窗格中显示的页面，不必编辑和管理书签。
+
+![创建导航页面](media/desktop-buttons/power-bi-build-navigation-pane.png)
+
+此外，还可以有条件地设置工具提示的格式，就像对其他按钮类型执行的操作一样。
 
 ## <a name="next-steps"></a>后续步骤
 若要详细了解与按钮类似或与其交互的功能，请参阅以下文章：
 
-* [在 Power BI Desktop 中使用钻取](desktop-drillthrough.md)
-* [在“焦点”模式下显示仪表板磁贴或报表视觉对象](consumer/end-user-focus.md)
+* [在 Power BI 报表中使用钻取](desktop-drillthrough.md)
 * [在 Power BI 中使用书签共享见解和创建情景](desktop-bookmarks.md)
 

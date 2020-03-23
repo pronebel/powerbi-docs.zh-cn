@@ -9,12 +9,12 @@ ms.topic: overview
 ms.date: 09/09/2019
 ms.author: kfollis
 LocalizationGroup: Administration
-ms.openlocfilehash: 864854e774defee16d446a513622e1134c77d75c
-ms.sourcegitcommit: 578d43aeb7cebf40f3caf03a614bc885cc039488
+ms.openlocfilehash: cfe877d6fac96124badc19f6ab685523077132fc
+ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/10/2020
-ms.locfileid: "77115253"
+ms.lasthandoff: 03/14/2020
+ms.locfileid: "79381275"
 ---
 # <a name="what-is-power-bi-administration"></a>什么是 Power BI 管理？
 
@@ -59,7 +59,7 @@ Power BI 服务管理员角色不授予将许可证分配给用户或在 Office 
 | 管理 Premium 容量 |<ul><li>获取和使用 Premium 容量<br><li>确保服务质量|
 | 管理 Embedded 容量 |<ul><li>获取 Embedded 容量来简化 ISV 和开发人员对 Power BI 功能的使用</ul>|
 | 确保符合内部策略、法律和法规 | <ul><li>管理业务数据分类<br><li>帮助强制实施内容发布和共享策略</ul>|
-| 管理 Power BI 资源 |<ul><li>管理工作区<br><li>发布自定义视觉对象<br><li>验证用于在其他应用程序中嵌入 Power BI 的代码|
+| 管理 Power BI 资源 |<ul><li>管理工作区<br><li>发布 Power BI 视觉对象<br><li>验证用于在其他应用程序中嵌入 Power BI 的代码|
 | 为租户用户提供帮助和支持 |<ul><li>数据访问和其他问题疑难解答</ul>|
 | 其他任务 |<ul><li>部署 Power BI Desktop，例如，使用 Microsoft Endpoint Configuration Manager<br><li>使用 Intune 管理 Power BI 移动应用部署<br><li>管理数据隐私和安全，如源数据安全</ul>|
 
@@ -69,7 +69,7 @@ Power BI 服务管理员角色不授予将许可证分配给用户或在 Office 
 
 | **工具** | **典型任务** |
 | --- | --- |
-| Power BI 管理门户 |<ul><li>获取和使用 Premium 容量</li><li>确保服务质量</li><li>管理业务数据分类</li><li>帮助强制实施内容发布和共享策略</li><li>管理工作区<br><li>发布自定义视觉对象</li><li>验证用于在其他应用程序中嵌入 Power BI 的代码</li><li>数据访问和其他问题疑难解答</li></ul>|
+| Power BI 管理门户 |<ul><li>获取和使用 Premium 容量</li><li>确保服务质量</li><li>管理业务数据分类</li><li>帮助强制实施内容发布和共享策略</li><li>管理工作区<br><li>发布 Power BI 视觉对象</li><li>验证用于在其他应用程序中嵌入 Power BI 的代码</li><li>数据访问和其他问题疑难解答</li></ul>|
 | MIcrosoft 365 管理中心 |<ul><li>管理用户注册</li><li>购买和分配 Pro 许可证</li><li>阻止用户访问 Power BI</li></ul>|
 | Office 365 安全与合规中心 |<ul><li>查看和管理事件审核</li></ul>|
 | Azure 门户中的 Azure Active Directory (AAD) |<ul><li>通过 AAD 配置对 Power BI 资源的条件访问</li><li>设置 Power BI Embedded 容量</li></ul>|

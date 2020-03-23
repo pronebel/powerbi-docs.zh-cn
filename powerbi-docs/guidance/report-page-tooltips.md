@@ -8,12 +8,12 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 11/24/2019
 ms.author: v-pemyer
-ms.openlocfilehash: f86317b12e3637d6522eebc2f304786c1b39c083
-ms.sourcegitcommit: b59ec11a4a0a3d5be2e4d91548d637d31b3491f8
+ms.openlocfilehash: 5a6b7bda8bf5e8d80ae8b22a71035f8bc362fb89
+ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/05/2020
-ms.locfileid: "78290604"
+ms.lasthandoff: 03/14/2020
+ms.locfileid: "79377733"
 ---
 # <a name="extend-visuals-with-report-page-tooltips"></a>用报表页工具提示扩展视觉对象
 
@@ -31,7 +31,7 @@ ms.locfileid: "78290604"
 >
 > 页面工具提示不支持交互。 如果希望报表用户进行交互，请改为创建[钻取页](../desktop-drillthrough.md)。
 >
-> 自定义视觉对象不支持页面工具提示。
+> Power BI 视觉对象不支持页面工具提示。
 
 下面是一些建议的设计方案：
 

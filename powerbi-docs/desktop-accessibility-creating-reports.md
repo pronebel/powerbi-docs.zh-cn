@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 10/30/2019
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 2b43727799316ade5ccdb868077360da0b315c56
-ms.sourcegitcommit: 052df769e6ace7b9848493cde9f618d6a2ae7df9
+ms.openlocfilehash: ae13bc69d7049dc9cf5c9d71ce0961ec566252bf
+ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/14/2020
-ms.locfileid: "75925694"
+ms.lasthandoff: 03/14/2020
+ms.locfileid: "79379090"
 ---
 # <a name="design-power-bi-reports-for-accessibility"></a>设计可访问的 Power BI 报表
 你可以设计和创建引人注目的报表，同时也可以针对可访问性进行设计。 无论何时构建报表，无论受众是谁，你都应该创建一个可供尽可能多的人使用的报表，而不需要使报表套用某种特殊的设计。
@@ -162,7 +162,7 @@ Power BI 如此引人注目的一个特征是它的数据是动态的。 你可�
 
 ![应用数据标签时要考虑周全](media/desktop-accessibility/accessibility-creating-reports-16.png)
 
-如果不确定视觉对象或报表是否太繁杂，可执行一个 [以测试是否存在该情况](https://chrome.google.com/webstore/detail/the-squint-test/gppnipfbappicilfniaimcnagbpfflpg)。  如果你的眼睛更多地被数据标签吸引而不是被数据点吸引，请禁用数据标签。
+如果不确定视觉对象或报表是否太繁杂，可执行一个 [Squint 测试](https://chrome.google.com/webstore/detail/the-squint-test/gppnipfbappicilfniaimcnagbpfflpg)，以测试是否存在该情况。  如果你的眼睛更多地被数据标签吸引而不是被数据点吸引，请禁用数据标签。
 
 
 ### <a name="themes-contrast-and-colorblind-friendly-colors"></a>主题、对比度和色盲友好颜色
@@ -253,8 +253,8 @@ Power BI 如此引人注目的一个特征是它的数据是动态的。 你可�
 * 请确保所有装饰性图像都在 Tab 键顺序中标记为隐藏，这样屏幕阅读器就不会朗读它们。
 * 避免使用太多装饰性图像，以免分散注意力。
 
-### <a name="custom-visuals"></a>自定义视觉对象
-* 查看可访问的“显示数据”表  以获取自定义视觉对象。 如果显示的信息不足，请查找其他视觉对象。
+### <a name="power-bi-visuals"></a>Power BI 视觉对象
+* 查看可访问的“显示数据”表  以获取 Power BI 视觉对象。 如果显示的信息不足，请查找其他视觉对象。
 * 如果使用“播放轴”自定义视觉对象，请确保它不会自动播放  。 请注意，用户必须按播放/暂停按钮才能启动/停止更改值。
 
 ### <a name="across-visuals-on-the-page"></a>跨页面的视觉对象

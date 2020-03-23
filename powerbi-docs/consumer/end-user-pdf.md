@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 03/11/2020
 ms.author: mihart
 LocalizationGroup: Share your work
-ms.openlocfilehash: 3e23f56da424ae18565b6cbec591c9d855f23139
-ms.sourcegitcommit: 480bba9c745cb9af2005637e693c5714b3c64a8a
+ms.openlocfilehash: e45d3e109d072984d6c01b2cbdfdd9b53e936a3b
+ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/11/2020
-ms.locfileid: "79113149"
+ms.lasthandoff: 03/14/2020
+ms.locfileid: "79377204"
 ---
 # <a name="export-reports-from-power-bi-to-pdf"></a>从 Power BI 将报表导出为 PDF
 
@@ -53,7 +53,7 @@ ms.locfileid: "79113149"
 在使用“导出为 PDF”功能时，有几个注意事项和限制需要牢记  。
 
 * 目前不支持 R 视觉对象和 Python 视觉对象。 在 PDF 中，这些视觉对象为空白，并会显示一条错误消息。 
-* 支持已认证的自定义视觉对象。 有关已认证的自定义视觉对象的详细信息（包括如何完成自定义视觉对象认证），请参阅[获取自定义视觉对象认证](../developer/power-bi-custom-visuals-certified.md)。 不支持尚未认证的自定义视觉对象。 在 PDF 中，它们会显示一条错误消息。
+* 支持经认证的 Power BI 视觉对象。 有关经认证的 Power BI 视觉对象的详细信息（包括如何完成 Power BI 视觉对象认证），请参阅[获取 Power BI 视觉对象认证](../developer/visuals/power-bi-custom-visuals-certified.md)。 不支持尚未认证的 Power BI 视觉对象。 在 PDF 中，它们会显示一条错误消息。
 * ESRI 视觉对象不受支持
 * 目前不能导出包含 30 个以上报表页的报表。
 * 将报表导出为 PDF 的过程可能需要几分钟才能完成，请耐心等待。 影响所需时间的因素包括报表的结构和 Power BI 服务的当前负载。

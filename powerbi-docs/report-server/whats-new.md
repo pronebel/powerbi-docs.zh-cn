@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 02/27/2020
-ms.openlocfilehash: 251f89dd031d9a2bda146266308dc528f05eddb2
-ms.sourcegitcommit: ec4d2d0f52d737e8e0583f6a7b16e6fd87382510
+ms.openlocfilehash: 6ee1740d536a1bfd248b91d002142470b3894180
+ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/28/2020
-ms.locfileid: "77782434"
+ms.lasthandoff: 03/14/2020
+ms.locfileid: "79381298"
 ---
 # <a name="whats-new-in-power-bi-report-server"></a>Power BI 报表服务器中的新增功能
 
@@ -317,7 +317,7 @@ Power BI 报表中支持以下功能：
 
 **辅助功能**要列出的辅助功能太多：例如，[字段列表窗格辅助功能支持](https://powerbi.microsoft.com/blog/power-bi-desktop-december-2018-feature-summary/#fieldList)。 字段列表窗格完全可供访问。 可以浏览窗格，仅需使用键盘和屏幕阅读器即可实现，还可以使用上下文菜单将字段添加到报告页面。
 
-#### <a name="custom-visuals"></a>自定义视觉对象
+#### <a name="power-bi-visuals"></a>Power BI 视觉对象
 
 - 此版本附带的 API 版本为 2.3。
 
@@ -381,11 +381,11 @@ Power BI 报表现在提供使用 Kerberos 的 SAP HANA SSO 直接查询支持�
 >[!Note]
 >仅当将 SAP HANA 视为具有在 Power BI Desktop 中创建的报表的关系数据源时，才支持此方案。  若要在 Power BI Desktop 中启用此功能，请在“选项”下的“DirectQuery”菜单中选中“将 SAP HANA 视为关系源”，然后单击“确定”。
 
-#### <a name="custom-visuals"></a>自定义视觉对象
+#### <a name="power-bi-visuals"></a>Power BI 视觉对象
 
 - 此版本附带的 API 版本为 1.13.0。
 
-- 现在，自定义视觉对象可回退到与当前版本的服务器 API 兼容的先前版本（如果可用）。
+- 现在，Power BI 视觉对象可回退到与当前版本的服务器 API 兼容的先前版本（如果可用）。
 
 ### <a name="reporting"></a>报表 
 
@@ -613,7 +613,7 @@ Power BI 报表服务器现在支持新的 Power BI 表和矩阵视觉对象。 
 
 * Power BI 报表服务器预览版已发布
 * 可以在本地发布 Power BI 报表
-  * 支持自定义视觉对象
+  * 对 Power BI 视觉对象的支持
   * 仅支持 Analysis Services 实时连接，今后将会支持更多数据源  。
   * Power BI 移动应用更新为显示在 Power BI 报表服务器中托管的 Power BI 报表
 * 通过注释增强了报表协作

@@ -1,24 +1,24 @@
 ---
 title: 关于在 Power BI 视觉对象中使用 SVG utils 的简介
-description: 本文介绍如何使用 SVG utils 简化 Power BI 自定义视觉对象的 SVG 操作
+description: 本文介绍如何使用 SVG utils 简化 Power BI 视觉对象的 SVG 操作
 author: KesemSharabi
 ms.author: kesharab
 manager: rkarlin
 ms.reviewer: sranins
 ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
-ms.topic: conceptual
+ms.topic: reference
 ms.date: 06/18/2019
-ms.openlocfilehash: 612c253e53cdaec5819387548354595c8bd94fa0
-ms.sourcegitcommit: 0cc594ebb78a6d0e88784673ed09f8aefd10c7a7
+ms.openlocfilehash: aa1ac8074e842a51b369c48f57c4b5016a80140c
+ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "76819298"
+ms.lasthandoff: 03/14/2020
+ms.locfileid: "79377963"
 ---
 # <a name="svg-utils"></a>SVG utils
 
-SVG utils 是一组函数和类，用于简化 Power BI 自定义视觉对象的 SVG 操作
+SVG utils 是一组函数和类，用于简化 Power BI 视觉对象的 SVG 操作
 
 ## <a name="installation"></a>安装
 

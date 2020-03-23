@@ -9,12 +9,12 @@ ms.subservice: powerbi-admin
 ms.topic: conceptual
 ms.date: 12/19/2019
 LocalizationGroup: Premium
-ms.openlocfilehash: b7a45309c3bfad27cc3b26990ee148a9e44b8998
-ms.sourcegitcommit: 052df769e6ace7b9848493cde9f618d6a2ae7df9
+ms.openlocfilehash: ae11ec64a0bffbd3e64c0fd677a7225c2b31f521
+ms.sourcegitcommit: a175faed9378a7d040a08ced3e46e54503334c07
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/14/2020
-ms.locfileid: "75927105"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "79488674"
 ---
 # <a name="power-bi-premium-metrics-app"></a>Power BI Premium 指标应用
 
@@ -42,7 +42,7 @@ ms.locfileid: "75927105"
 
 ## <a name="the-active-memory-metric"></a>活动内存指标
 
-活动内存指标是“容量规划”类别的一部分，这是一个很好的运行状况指标，用于评估容量的资源消耗情况，因此，你可以根据需要调整容量以规划容量规模   。 
+活动内存指标是“容量规划”类别的一部分，这是一个很好的运行状况指标，用于评估容量的资源消耗情况，因此，可以根据需要调整容量以规划容量规模   。 
 
 ![活动内存 KPI](media/service-premium-metrics-app/premium-metrics-app-02.png)
 
@@ -262,7 +262,7 @@ ms.locfileid: "75927105"
 
 若要诊断方案 1，请首先确定限制是否是由于内存不足引起的。 步骤如下：
 
-1.  通过单击“表 A”，从表中选择你感兴趣的数据集  ： 
+1.    通过单击“表 A”，从表中选择你感兴趣的数据集  ： 
 
     ![表 A](media/service-premium-metrics-app/premium-metrics-app-22.png)
 
@@ -305,7 +305,7 @@ ms.locfileid: "75927105"
 
 若要诊断方案 2，请首先确定限制是否是由于刷新的最大并发数。 步骤如下：
 
-1.  通过单击“表 A”，从表中选择你感兴趣的数据集  ： 
+1.    通过单击“表 A”，从表中选择你感兴趣的数据集  ： 
 
     ![表 A](media/service-premium-metrics-app/premium-metrics-app-22.png)
 
@@ -341,6 +341,6 @@ ms.locfileid: "75927105"
 * [Microsoft Power BI Premium 白皮书](https://aka.ms/pbipremiumwhitepaper)
 * [规划 Power BI Enterprise 部署白皮书](https://aka.ms/pbienterprisedeploy)
 * [激活延长的 Power BI Pro 试用期](service-extended-pro-trial.md)
-* [Power BI Embedded 常见问题解答](developer/embedded-faq.md)
+* [Power BI Embedded 常见问题解答](developer/embedded/embedded-faq.md)
 
 更多问题？ [尝试咨询 Power BI 社区](https://community.powerbi.com/)

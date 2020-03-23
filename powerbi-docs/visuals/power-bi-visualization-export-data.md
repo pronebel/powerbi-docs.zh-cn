@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 01/16/2020
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: f4e7d1aa580f7ad95da103fc2cb1e7e069a80ee6
-ms.sourcegitcommit: ced8c9d6c365cab6f63fbe8367fb33e6d827cb97
+ms.openlocfilehash: 9823e35fb2ddb99cf2932fa83e92598ba40f6690
+ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/10/2020
-ms.locfileid: "78946866"
+ms.lasthandoff: 03/14/2020
+ms.locfileid: "79381367"
 ---
 # <a name="export-the-data-that-was-used-to-create-a-visualization"></a>探索用于创建可视化效果的数据
 
@@ -252,7 +252,7 @@ Power BI 报表设计器控制向使用者提供的数据导出选项的类型�
 
 - 如果可视化效果使用多个数据表中的数据，但这些表在数据模型中没有任何关系，Power BI 只导出第一个表中的数据。
 
-- 暂不支持自定义视觉对象和 R 视觉对象。
+- 目前不支持 Power BI 视觉对象和 R 视觉对象。
 
 - 在 Power BI 中，可以双击字段并键入新名称，从而重命名字段（列）。 Power BI 将新名称称为“别名”  。 虽然 Power BI 报表可以包含重复的字段名称，但 Excel 禁止重复。 因此，当 Power BI 将数据导出至 Excel 后，字段别名还原为原始字段（列）名称。  
 

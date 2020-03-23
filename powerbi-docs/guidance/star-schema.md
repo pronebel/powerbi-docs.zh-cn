@@ -8,18 +8,18 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 09/09/2019
 ms.author: v-pemyer
-ms.openlocfilehash: 279e6895122f6b82f8e7670d982a8b50c78ec83a
-ms.sourcegitcommit: d55d3089fcb3e78930326975957c9940becf2e76
+ms.openlocfilehash: ba1909c5fc75abdf7338572c646d98fca83595b0
+ms.sourcegitcommit: 22991861c2b9454b170222591f64266335b9fcff
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/04/2020
-ms.locfileid: "78260407"
+ms.lasthandoff: 03/12/2020
+ms.locfileid: "79133246"
 ---
 # <a name="understand-star-schema-and-the-importance-for-power-bi"></a>了解星型架构及其对 Power BI 的重要性
 
 本文面向 Power BI Desktop 数据建模者。 本文介绍星型架构的设计及其与开发 Power BI 数据模型的关系，这些数据模型已针对性能和可用性进行优化。
 
-本文并不旨在提供有关星型架构设计的完整讨论。 若要了解详细信息，请直接参阅已发布的内容，例如 Ralph Kimball 等人所作的“数据仓库工具包：  维度建模的完整指南（2002 年第 2 版）。
+本文并不旨在提供有关星型架构设计的完整讨论。 若要了解详细信息，请直接参阅已发布的内容，例如 Ralph Kimball 等人所作的“数据仓库工具包：  权威的维度建模指南（2013 年第 3 版）。
 
 ## <a name="star-schema-overview"></a>星型架构概述
 

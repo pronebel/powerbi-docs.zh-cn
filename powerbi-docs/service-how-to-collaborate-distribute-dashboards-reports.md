@@ -7,14 +7,14 @@ ms.reviewer: lukaszp
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 09/06/2019
+ms.date: 03/12/2020
 LocalizationGroup: Share your work
-ms.openlocfilehash: 7633f0771a87c01d53261d13135d831e95e80136
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 86992d2e1426616f8d902a9f49d35407fde60ef2
+ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73881345"
+ms.lasthandoff: 03/14/2020
+ms.locfileid: "79376744"
 ---
 # <a name="ways-to-share-your-work-in-power-bi"></a>Power BI 中的工作共享方式
 
@@ -23,10 +23,12 @@ ms.locfileid: "73881345"
 * 在*工作区*中与同事进行协作，创建有价值的报表和仪表板。
 * 将这些仪表板和报表打包为*应用*，并将其分发到更大的组或整个组织。
 * 创建*共享数据集*，以便同事可以在其自己的工作区中将共享数据集用作其自己的报表的基础。
-* 创建*模板应用*，以便通过 Microsoft AppSource 将其分发给外部 Power BI 用户。
 * 通过服务或 Power BI 移动应用与几位用户共享仪表板或报表。
+* 从 Power BI 移动应用添加批注并共享。
+* 在 Microsoft Teams 中嵌入报表。
 * 打印报表。
 * 在安全门户或公共网站中*嵌入*报表。
+* 创建*模板应用*，以便通过 Microsoft AppSource 将其分发给外部 Power BI 用户。
 
 无论选择哪个选项，都需要 [Power BI Pro 许可证](service-features-license-type.md)才能共享内容，否则内容需要位于[高级容量](service-premium-what-is.md)中。 许可证要求因查看内存的同事而异，具体取决于所选择的选项。 以下各节将进行详细说明。 
 
@@ -97,6 +99,10 @@ Power BI 提供新的工作区体验。 阅读[创建新工作区](service-creat
 有关从 iOS 和 Android 移动应用[添加注释并共享磁贴、报表和视觉对象](consumer/mobile/mobile-annotate-and-share-a-tile-from-the-mobile-apps.md)的详细信息。
 
 还可以通过适用于 Windows 10 设备的 Power BI 应用[共享磁贴快照](consumer/mobile/mobile-windows-10-phone-app-get-started.md)。
+
+## <a name="embed-a-report-in-microsoft-teams"></a>在 Microsoft Teams 中嵌入报表
+
+通过将 Power BI 报表和 Power BI 分页报表嵌入 Microsoft Teams 中，增强组织中数据驱动的协作能力。 可以为每个单独的报表添加单独的 Power BI 选项卡，并为每个选项卡指定报表名称或任何其他名称。 你的同事可以在 Teams 的 Power BI 选项卡中查看报表。 他们还可以直接在 Teams 中打开“对话”窗口并对报表进行注释。 详细了解[在 Microsoft Teams 中嵌入报表](service-embed-report-microsoft-teams.md)。
 
 ## <a name="print-or-save-as-pdf-or-other-static-file"></a>打印或另存为 PDF 或其他静态文件
 

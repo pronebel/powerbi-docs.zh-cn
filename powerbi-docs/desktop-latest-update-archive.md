@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 02/12/2020
+ms.date: 03/12/2020
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: a15b309cd2e50eb47242895c808eaa4386c53a4b
-ms.sourcegitcommit: 743167a911991d19019fef16a6c582212f6a9229
+ms.openlocfilehash: 360461a009187df5fdf2769e7c9a03e7d194b5ad
+ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/06/2020
-ms.locfileid: "78401256"
+ms.lasthandoff: 03/14/2020
+ms.locfileid: "79378492"
 ---
 # <a name="previous-monthly-updates-to-power-bi-desktop"></a>此前的 Power BI Desktop 月度更新
 
@@ -32,6 +32,81 @@ ms.locfileid: "78401256"
 也可以通过单击更新列表下的视频图像上的“**播放**”按钮，从头观看本文中的**最新更新**视频。
 
 以下各节描述了 **Power BI Desktop** 之前月份的更新。
+
+
+## <a name="february-2020-update-2785740642"></a>2020 年 2 月更新 (2.78.5740.642)
+
+我们喜欢 2 月更新，我们觉得其中的新功能比一盒心形巧克力更棒。 
+
+> [!IMPORTANT]
+> 从 2019 年 9 月版本开始，Power BI Desktop 仅发布为包含所有受支持语言的单个 .exe 文件。 不再发布 .msi 版本。
+
+Power BI Desktop 更新列表中每个功能旁边的链接解释如下：
+
+* [博客]: Most features are explained in a section in the monthly update blog post.
+* [视频]: Some features have a video excerpt that discusses the feature, which plays in a new browser tab.
+* [文章]: Some features have an article that provides more detail.
+* 其余功能是明白易懂的，不需要文章或视频。
+
+以下是本月推出的 Power BI Desktop 新增功能的更新：
+
+
+### <a name="data-management"></a>数据管理
+* 增量刷新现已公开发布 [[视频]](https://youtu.be/TN61JvbUAxk?t=16) [[文章]](service-premium-incremental-refresh.md) [[博客]](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2020-feature-summary/#_Incremental_refresh) 
+
+### <a name="reporting"></a>报表
+* 分层切片器（预览版）[[视频]](https://youtu.be/TN61JvbUAxk?t=207) [[博客]](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2020-feature-summary/#_Hierarchical_slicer) 
+* 新功能区的更新（预览版）[[视频]](https://youtu.be/TN61JvbUAxk?t=424) [[文章]](desktop-ribbon.md) [[博客]](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2020-feature-summary/#_Ribbon) 
+
+
+### <a name="modeling"></a>建模
+* 新的 DAX 函数：FirstNonBlankValue 和 LastNonBlankValue [[视频]](https://youtu.be/TN61JvbUAxk?t=716) [[文章]](https://docs.microsoft.com/dax/firstnonblankvalue-function-dax) [[博客]](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2020-feature-summary/#_New_DAX_Functions) 
+
+### <a name="visuals"></a>视觉对象
+* 新的自定义视觉对象 [[视频]](https://youtu.be/TN61JvbUAxk?t=835)  [[博客]](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2020-feature-summary/#_Visualizations) 
+
+
+### <a name="template-apps"></a>模板应用
+* Microsoft 365 使用情况分析 [[视频]](https://youtu.be/TN61JvbUAxk?t=910) [[博客]](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2020-feature-summary/#_Microsoft_365_usage) 
+* 由 P3 进行的 NFL 分析 [[视频]](https://youtu.be/TN61JvbUAxk?t=928) [[博客]](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2020-feature-summary/#_NFL)
+* Acterys for Quickbooks、Zero 和 WorkflowMax [[视频]](https://youtu.be/TN61JvbUAxk?t=932) [[博客]](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2020-feature-summary/#_Acterys) 
+
+
+### <a name="data-preparation"></a>数据准备
+* 查询诊断 - 对非管理员用户的支持 [[视频]](https://youtu.be/TN61JvbUAxk?t=938) [[博客]](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2020-feature-summary/#_non_admin_support) 
+
+
+### <a name="data-connectivity"></a>数据连接
+* MicroStrategy 连接器（正式发布）[[视频]](https://youtu.be/TN61JvbUAxk?t=962) [[博客]](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2020-feature-summary/#_MicroStrategy_connector) 
+* FHIR 连接器（正式发布）[[视频]](https://youtu.be/TN61JvbUAxk?t=962) [[博客]](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2020-feature-summary/#_FHIR) 
+* 其他连接器：Factset、TIBCO、Jamf Pro 和 Asana [[视频]](https://youtu.be/TN61JvbUAxk?t=978) [[博客]](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2020-feature-summary/#_Factset_connector) 
+
+
+
+有关这些新功能的详细信息，请参阅 [Power BI Desktop 功能摘要博客文章](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2020-feature-summary/)。
+
+查看 [Power BI 服务中的新增功能](service-whats-new.md)，以及 [Power BI 移动应用中的新增功能](consumer/mobile/mobile-whats-new-in-the-mobile-apps.md)。
+
+> [!NOTE]
+> 查看 [Power BI Desktop 可用的数据源](desktop-data-sources.md)。 我们的列表将不断增加，请经常返回查看。
+
+
+## <a name="power-bi-desktop-monthly-update-video"></a>Power BI Desktop 每月更新视频
+以下视频介绍了上述每项更新。 你还可以从博客文章查看该视频：
+
+> [!VIDEO https://www.youtube.com/embed/TN61JvbUAxk]
+
+还可以下载旧版 Power BI Desktop（若组织需要）。 始终建议使用最新版 Power BI Desktop，而不是旧版本。 所有旧版本都存在以下限制：
+
+* 旧版 Power BI Desktop 无法提供服务，应始终使用最新版本获取最新功能和更新。
+* 可能无法使用旧版 Power BI Desktop 打开在较新版本的 Power BI Desktop 中创建或保存的文件。 
+* 如果在加载较新版本的 Power BI Desktop 中保存的报表时收到警告，然后将该报表保存在旧版本中，则会丢失与新功能相关的所有信息。
+* 我们只存档 Power BI Desktop 的英文版本。
+
+请选择以下链接以下载早期版本： 
+
+* [2020 年 2 月版 Power BI Desktop（32 位）](https://download.microsoft.com/download/8/8/0/880BCA75-79DD-466A-927D-1ABF1F5454B0/PBIDesktopSetup-2020-02.exe)
+* [2020 年 2 月版 Power BI Desktop（64 位）](https://download.microsoft.com/download/8/8/0/880BCA75-79DD-466A-927D-1ABF1F5454B0/PBIDesktopSetup-2020-02_x64.exe)
 
 
 ## <a name="december-2019-update-2765678661"></a>2019 年 12 月更新 (2.76.5678.661)
@@ -67,7 +142,7 @@ Power BI Desktop 更新列表中每个功能旁边的链接解释如下：
 
 ### <a name="visuals"></a>视觉对象
 * 个性化“视觉对象”窗格（正式发布）[[视频]](https://youtu.be/eCEwgZsVUOs?t=865)  [[博客]](https://powerbi.microsoft.com/blog/power-bi-desktop-december-2019-feature-summary/#personalizeViz) 
-* 新的自定义视觉对象 [[视频]](https://youtu.be/eCEwgZsVUOs?t=886)  [[博客]](https://powerbi.microsoft.com/blog/power-bi-desktop-december-2019-feature-summary/#xViz) 
+* 新的 Power BI 视觉对象 [[视频]](https://youtu.be/eCEwgZsVUOs?t=886) [[博客]](https://powerbi.microsoft.com/blog/power-bi-desktop-december-2019-feature-summary/#xViz) 
 
 
 ### <a name="data-connectivity"></a>数据连接
@@ -391,7 +466,7 @@ Power BI Desktop 更新列表中每个功能旁边的链接解释如下：
 
 
 ### <a name="visuals"></a>视觉对象
-* 新的自定义视觉对象和更新 [[视频]](https://youtu.be/sf4n7VXoQHY?t=956) [[博客]](https://powerbi.microsoft.com/blog/power-bi-desktop-august-2019-feature-summary/#xviz) 
+* 新的 Power BI 视觉对象和更新 [[视频]](https://youtu.be/sf4n7VXoQHY?t=956) [[博客]](https://powerbi.microsoft.com/blog/power-bi-desktop-august-2019-feature-summary/#xviz) 
 
 
 ### <a name="data-connectivity"></a>数据连接
@@ -457,7 +532,7 @@ Power BI Desktop 更新列表中每个功能旁边的链接解释如下：
 
 ### <a name="visuals"></a>视觉对象
 * PowerApps 视觉对象现已通过认证 [[视频]](https://youtu.be/l7OMRUF9UYg?t=894) [[博客]](https://powerbi.microsoft.com/blog/power-bi-desktop-july-2019-feature-summary/#powerapps) 
-* 三个新的自定义视觉对象和更新 [[视频]](https://youtu.be/l7OMRUF9UYg?t=932) [[博客]](https://powerbi.microsoft.com/blog/power-bi-desktop-july-2019-feature-summary/#infocard) 
+* 三个新的 Power BI 视觉对象和更新 [[视频]](https://youtu.be/l7OMRUF9UYg?t=932) [[博客]](https://powerbi.microsoft.com/blog/power-bi-desktop-july-2019-feature-summary/#infocard) 
 
 
 ### <a name="data-connectivity"></a>数据连接
@@ -531,7 +606,7 @@ Power BI Desktop 更新列表中每个功能旁边的链接解释如下：
 
 ### <a name="visuals"></a>视觉对象
 * 个性化可视化效果窗格（预览版）[[视频]](https://youtu.be/7k-nP38uHyQ?t=1349) [[博客]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-2019-feature-summary/#personalizedVizPane) 
-* 三个新的自定义视觉对象和更新 [[视频]](https://youtu.be/7k-nP38uHyQ?t=1391) [[博客]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-2019-feature-summary/#synopticVisual) 
+* 三个新的 Power BI 视觉对象和更新 [[视频]](https://youtu.be/7k-nP38uHyQ?t=1391) [[博客]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-2019-feature-summary/#synopticVisual) 
 
 
 ### <a name="data-connectivity"></a>数据连接
@@ -600,7 +675,7 @@ Power BI Desktop 更新列表中每个功能旁边的链接解释如下：
 
 ### <a name="visuals"></a>视觉对象
 * ArcGIS Maps for Power BI 更新 [[视频]](https://youtu.be/O8GlHDz8xUQ?t=1093) [[博客]](https://powerbi.microsoft.com/blog/power-bi-desktop-may-2019-feature-summary/#esri) 
-* 六个新的自定义视觉对象和更新 [[视频]](https://youtu.be/O8GlHDz8xUQ?t=1199) [[博客]](https://powerbi.microsoft.com/blog/power-bi-desktop-may-2019-feature-summary/#mapbox) 
+* 六个新的 Power BI 视觉对象和更新 [[视频]](https://youtu.be/O8GlHDz8xUQ?t=1199) [[博客]](https://powerbi.microsoft.com/blog/power-bi-desktop-may-2019-feature-summary/#mapbox) 
 
 
 ### <a name="data-connectivity"></a>数据连接
@@ -659,7 +734,7 @@ Power BI Desktop 更新列表中每个功能旁边的链接解释如下：
 ### <a name="modeling"></a>建模
 * 新的 DAX 函数 - ALLCROSSFILTERED [[视频]](https://youtu.be/vih35kSrEHU?t=970) [[博客]](https://powerbi.microsoft.com/blog/power-bi-desktop-april-2019-feature-summary/#dax) 
 
-### <a name="custom-visuals"></a>自定义视觉对象
+### <a name="power-bi-visuals"></a>Power BI 视觉对象
 * 一个新的自定义视觉对象 [[博客]](https://powerbi.microsoft.com/blog/power-bi-desktop-april-2019-feature-summary/#rainbowGauge) 
 
 
@@ -737,9 +812,9 @@ Power BI Desktop 更新列表中每个功能旁边的链接解释如下：
 * 新的建模视图现已正式发布 [[视频]](https://youtu.be/rBPGH6eYlT0?t=417) [[博客]](https://powerbi.microsoft.com/blog/power-bi-desktop-march-2019-feature-summary/#modellingView) 
 * 新 DAX 函数 [[视频]](https://youtu.be/rBPGH6eYlT0?t=560) [[博客]](https://powerbi.microsoft.com/blog/power-bi-desktop-march-2019-feature-summary/#DAX) 
 
-### <a name="custom-visuals"></a>自定义视觉对象
-* 管理门户中新认证的自定义视觉对象设置 [[视频]](https://youtu.be/rBPGH6eYlT0?t=624) [[博客]](https://powerbi.microsoft.com/blog/power-bi-desktop-march-2019-feature-summary/#certifiedAdminSetting) 
-* 两个新的自定义视觉对象 [[视频]](https://youtu.be/rBPGH6eYlT0?t=693) [[博客]](https://powerbi.microsoft.com/blog/power-bi-desktop-march-2019-feature-summary/#customVisuals) 
+### <a name="power-bi-visuals"></a>Power BI 视觉对象
+* 管理门户中新认证的 Power BI 视觉对象设置 [[视频]](https://youtu.be/rBPGH6eYlT0?t=624) [[博客]](https://powerbi.microsoft.com/blog/power-bi-desktop-march-2019-feature-summary/#certifiedAdminSetting) 
+* 两个新的 Power BI 视觉对象 [[视频]](https://youtu.be/rBPGH6eYlT0?t=693) [[博客]](https://powerbi.microsoft.com/blog/power-bi-desktop-march-2019-feature-summary/#customVisuals) 
 
 
 ### <a name="data-connectivity"></a>数据连接
@@ -797,8 +872,8 @@ Power BI Desktop 更新列表中每个功能旁边的链接解释如下：
 * 问答资源管理器中自动生成的建议问题 [[视频]](https://youtu.be/dMD25wfElLg?t=1121) [[博客]](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2019-feature-summary/#autoSuggestions) 
 * 改进的 Python 和 R 脚本编辑器 [[视频]](https://youtu.be/dMD25wfElLg?t=1282) [[博客]](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2019-feature-summary/#scriptEditor) 
 
-### <a name="custom-visuals"></a>自定义视觉对象
-* 十个新的自定义视觉对象、新的自定义视觉对象功能 [[视频]](https://youtu.be/dMD25wfElLg?t=1324) [[博客]](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2019-feature-summary/#customVisuals) 
+### <a name="power-bi-visuals"></a>Power BI 视觉对象
+* 十个新的 Power BI 视觉对象、新的 Power BI 视觉功能 [[视频]](https://youtu.be/dMD25wfElLg?t=1324) [[博客]](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2019-feature-summary/#customVisuals) 
 
 ### <a name="data-connectivity"></a>数据连接
 
@@ -873,7 +948,7 @@ Power BI Desktop 更新列表中每个功能旁边的链接解释如下：
 * 数据视图辅助功能支持 [[视频]](https://youtu.be/AHNlkjRFdYI?t=1253) [[文章]](desktop-composite-models.md) [[博客]](https://powerbi.microsoft.com/blog/power-bi-desktop-december-2018-feature-summary/#dataView) 
 
 
-### <a name="custom-visuals"></a>自定义视觉对象
+### <a name="power-bi-visuals"></a>Power BI 视觉对象
 
 * 一个新自定义视觉对象 [[视频]](https://youtu.be/AHNlkjRFdYI?t=1370) [[博客]](https://powerbi.microsoft.com/blog/power-bi-desktop-december-2018-feature-summary/#customVisuals) 
 
@@ -934,9 +1009,9 @@ Power BI Desktop 更新列表中每个功能旁边的链接解释如下：
 * 建模辅助功能改进 [[视频]](https://youtu.be/1xsXXoyTxfk?t=2023) [[文章]](desktop-accessibility.md) [[博客]](https://powerbi.microsoft.com/blog/power-bi-desktop-november-2018-feature-summary/%23modellingAccessibility) 
 * 新 DAX 函数 [[视频]](https://youtu.be/1xsXXoyTxfk?t=2066) [[博客]](https://powerbi.microsoft.com/blog/power-bi-desktop-november-2018-feature-summary/%23dax) 
 
-### <a name="custom-visuals"></a>自定义视觉对象
+### <a name="power-bi-visuals"></a>Power BI 视觉对象
 
-* 五个新自定义视觉对象 [[视频]](https://youtu.be/1xsXXoyTxfk?t=2108) [[博客]](https://powerbi.microsoft.com/blog/power-bi-desktop-november-2018-feature-summary/%23customVisuals) 
+* 五个新的 Power BI 视觉对象 [[视频]](https://youtu.be/1xsXXoyTxfk?t=2108) [[博客]](https://powerbi.microsoft.com/blog/power-bi-desktop-november-2018-feature-summary/%23customVisuals) 
 
 ### <a name="data-connectivity"></a>数据连接
 
@@ -981,9 +1056,9 @@ Power BI Desktop 更新列表中每个功能旁边的链接解释如下：
 * Power BI 服务中的复合模型和聚合支持（预览）[[视频]](https://youtu.be/8E6UokaDtc0) [[文章 - 聚合]](desktop-aggregations.md) [[文章 - 复合模型]](desktop-composite-models.md) [[博客]](https://powerbi.microsoft.com/blog/power-bi-desktop-october-2018-feature-summary/%23compositeModels) 
 * 解释非累加性度量值的增加 [[视频]](https://youtu.be/8E6UokaDtc0?t=107) [[博客]](https://powerbi.microsoft.com/blog/power-bi-desktop-october-2018-feature-summary/%23Insights) 
 
-### <a name="custom-visuals"></a>自定义视觉对象
+### <a name="power-bi-visuals"></a>Power BI 视觉对象
 
-* 五个新自定义视觉对象 [[视频]](https://youtu.be/ZfJSSG17SEY) [[博客]](https://powerbi.microsoft.com/blog/power-bi-desktop-october-2018-feature-summary/%23customVisuals) 
+* 五个新的 Power BI 视觉对象 [[视频]](https://youtu.be/ZfJSSG17SEY) [[博客]](https://powerbi.microsoft.com/blog/power-bi-desktop-october-2018-feature-summary/%23customVisuals) 
 
 ### <a name="data-connectivity"></a>数据连接
 
@@ -1036,9 +1111,9 @@ Power BI Desktop 更新列表中每个功能旁边的链接解释如下：
 
 * 聚合（预览）[[视频]](https://youtu.be/Rzw2WyI09kY?t=11m37s) [[文章]](desktop-aggregations.md) [[博客]](https://powerbi.microsoft.com/blog/power-bi-desktop-september-2018-feature-summary/#aggregations) 
 
-### <a name="custom-visuals"></a>自定义视觉对象
+### <a name="power-bi-visuals"></a>Power BI 视觉对象
 
-* 五个新自定义视觉对象 [[视频]](https://youtu.be/Rzw2WyI09kY?t=23m8s) [[博客]](https://powerbi.microsoft.com/blog/power-bi-desktop-september-2018-feature-summary/#customVisuals) 
+* 五个新的 Power BI 视觉对象 [[视频]](https://youtu.be/Rzw2WyI09kY?t=23m8s) [[博客]](https://powerbi.microsoft.com/blog/power-bi-desktop-september-2018-feature-summary/#customVisuals) 
 
 ### <a name="data-connectivity"></a>数据连接
 
@@ -1091,9 +1166,9 @@ Power BI Desktop 更新列表中每个功能旁边的链接解释如下：
 * Python 集成 [[视频]](https://youtu.be/dgv5HhHxxe8?t=11m14s) [[博客]](https://powerbi.microsoft.com/blog/power-bi-desktop-august-2018-feature-summary/#python) 
 * 问答改进 [[视频]](https://youtu.be/dgv5HhHxxe8?t=13m1s) [[博客]](https://powerbi.microsoft.com/blog/power-bi-desktop-august-2018-feature-summary/#Q&A) 
 
-### <a name="custom-visuals"></a>自定义视觉对象
+### <a name="power-bi-visuals"></a>Power BI 视觉对象
 
-* 五个新自定义视觉对象 [[视频]](https://youtu.be/dgv5HhHxxe8?t=19m48s) [[博客]](https://powerbi.microsoft.com/blog/power-bi-desktop-august-2018-feature-summary/#customVisuals) 
+* 五个新的 Power BI 视觉对象 [[视频]](https://youtu.be/dgv5HhHxxe8?t=19m48s) [[博客]](https://powerbi.microsoft.com/blog/power-bi-desktop-august-2018-feature-summary/#customVisuals) 
 
 ### <a name="data-connectivity"></a>数据连接
 
@@ -1145,11 +1220,11 @@ Power BI Desktop 更新列表中每个功能旁边的链接解释如下：
 
 * 分配系数见解 [[视频]](https://youtu.be/Mtig3rmIUe0?t=37m) [[博客]](https://powerbi.microsoft.com/blog/power-bi-desktop-july-2018-feature-summary/#distributionFactor) 
 
-### <a name="custom-visuals"></a>自定义视觉对象
+### <a name="power-bi-visuals"></a>Power BI 视觉对象
 
 * Power BI 认证类别 [[视频]](https://youtu.be/Mtig3rmIUe0?t=41m13s) [[博客]](https://powerbi.microsoft.com/blog/power-bi-desktop-july-2018-feature-summary/#certifiedVisuals) 
 * 禁用特定的组织视觉对象 [[视频]](https://youtu.be/Mtig3rmIUe0?t=42m32s) [[博客]](https://powerbi.microsoft.com/blog/power-bi-desktop-july-2018-feature-summary/#orgCustomVisuals) 
-* 四个新的自定义视觉对象 [[视频]](https://youtu.be/Mtig3rmIUe0?t=44m) [[博客]](https://powerbi.microsoft.com/blog/power-bi-desktop-july-2018-feature-summary/#visio) 
+* 四个新的 Power BI 视觉对象 [[视频]](https://youtu.be/Mtig3rmIUe0?t=44m) [[博客]](https://powerbi.microsoft.com/blog/power-bi-desktop-july-2018-feature-summary/#visio) 
 
 ### <a name="data-connectivity"></a>数据连接
 
@@ -1187,9 +1262,9 @@ Power BI Desktop 更新列表中每个功能旁边的链接解释如下：
 * 为组合图中的每个度量值单独设置数据标签格式 [[视频]](https://youtu.be/4VpGtWSrssE?t=9m29s) [[博客]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-2018-feature-summary/#comboLabels) 
 * 较长的电话报表 [[视频]](https://youtu.be/4VpGtWSrssE?t=11m26s) [[博客]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-2018-feature-summary/#phoneReports) 
 
-### <a name="custom-visuals"></a>自定义视觉对象
+### <a name="power-bi-visuals"></a>Power BI 视觉对象
 
-* 两个新的自定义视觉对象 [[视频]](https://youtu.be/4VpGtWSrssE?t=17m42s) [[博客]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-2018-feature-summary/#customVisuals) 
+* 两个新的 Power BI 视觉对象 [[视频]](https://youtu.be/4VpGtWSrssE?t=17m42s) [[博客]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-2018-feature-summary/#customVisuals) 
 
 ### <a name="modeling"></a>建模
 * 数据视图中的筛选和排序 [[视频]](https://youtu.be/4VpGtWSrssE?t=13m11s) [[文章]](desktop-data-view.md#filtering-in-data-view) [[博客]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-2018-feature-summary/#filterAndSort) 
@@ -1236,15 +1311,15 @@ Power BI Desktop 更新列表中每个功能旁边的链接解释如下：
 
 ### <a name="analytics"></a>分析
 
-* 度量值钻取 [[视频]](https://youtu.be/-_GMCE1TLvQ?t=2m9s) [[文章]](desktop-drillthrough.md#pass-all-filters-in-drillthrough) [[博客]](https://powerbi.microsoft.com/blog/power-bi-desktop-may-2018-feature-summary/#measureDrillthrough) 
+* 度量值钻取 [[视频]](https://youtu.be/-_GMCE1TLvQ?t=2m9s) [[文章]](desktop-drillthrough.md#pass-all-filters-in-drill-through) [[博客]](https://powerbi.microsoft.com/blog/power-bi-desktop-may-2018-feature-summary/#measureDrillthrough) 
 
 ### <a name="power-bi-premium"></a>Power BI Premium
 
 * 增量刷新（预览）[[视频]](https://youtu.be/-_GMCE1TLvQ?t=7m42s) [[文章]](service-premium-incremental-refresh.md) [[博客]](https://powerbi.microsoft.com/blog/power-bi-desktop-may-2018-feature-summary/#incrementalRefresh) 
 
-### <a name="custom-visuals"></a>自定义视觉对象
+### <a name="power-bi-visuals"></a>Power BI 视觉对象
 
-* 多个新的自定义视觉对象 [[视频]](https://youtu.be/-_GMCE1TLvQ?t=9m44s) [[博客]](https://powerbi.microsoft.com/blog/power-bi-desktop-may-2018-feature-summary/#customVisuals) 
+* 多个新的 Power BI 视觉对象 [[视频]](https://youtu.be/-_GMCE1TLvQ?t=9m44s) [[博客]](https://powerbi.microsoft.com/blog/power-bi-desktop-may-2018-feature-summary/#customVisuals) 
 
 ### <a name="data-connectivity"></a>数据连接
 
@@ -1291,13 +1366,13 @@ Power BI Desktop 更新列表中每个功能旁边的链接解释如下：
 
 ### <a name="analytics"></a>分析
 
-* 更新语言架构 [[视频]](https://youtu.be/W_Nb73Od_AI?t=22m) [[文章]](developer/power-bi-custom-visuals-organization.md) [[博客]](https://powerbi.microsoft.com/blog/power-bi-desktop-april-2018-feature-summary/#linguisticSchema) 
+* 更新语言架构 [[视频]](https://youtu.be/W_Nb73Od_AI?t=22m) [[文章]](developer/visuals/power-bi-custom-visuals-organization.md) [[博客]](https://powerbi.microsoft.com/blog/power-bi-desktop-april-2018-feature-summary/#linguisticSchema) 
 * 新的 DAX 函数：COMBINEVALUES() [[视频]](https://youtu.be/W_Nb73Od_AI?t=23m37s) [[博客]](https://powerbi.microsoft.com/blog/power-bi-desktop-april-2018-feature-summary/#combineValues) 
 
-### <a name="custom-visuals"></a>自定义视觉对象
+### <a name="power-bi-visuals"></a>Power BI 视觉对象
 
-* 组织的视觉对象现已公开发布 [[视频]](https://youtu.be/W_Nb73Od_AI?t=26m11s) [[文章]](developer/power-bi-custom-visuals-organization.md) [[博客]](https://powerbi.microsoft.com/blog/power-bi-desktop-april-2018-feature-summary/#organizationalVisuals) 
-* 多个新的自定义视觉对象 [[视频]](https://youtu.be/W_Nb73Od_AI?t=28m8s) [[博客]](https://powerbi.microsoft.com/blog/power-bi-desktop-april-2018-feature-summary/#overviewByCloudScope) 
+* 组织的视觉对象现已公开发布 [[视频]](https://youtu.be/W_Nb73Od_AI?t=26m11s) [[文章]](developer/visuals/power-bi-custom-visuals-organization.md) [[博客]](https://powerbi.microsoft.com/blog/power-bi-desktop-april-2018-feature-summary/#organizationalVisuals) 
+* 多个新的 Power BI 视觉对象 [[视频]](https://youtu.be/W_Nb73Od_AI?t=28m8s) [[博客]](https://powerbi.microsoft.com/blog/power-bi-desktop-april-2018-feature-summary/#overviewByCloudScope) 
 
 ### <a name="data-connectivity"></a>数据连接
 
@@ -1334,9 +1409,9 @@ Power BI Desktop 更新列表中每个功能旁边的链接解释如下：
 * 关闭报表读取模式中的视觉对象标头 [[视频]](https://youtu.be/kuI6MMzDh34?t=12m25s) [[博客]](https://powerbi.microsoft.com/blog/power-bi-desktop-march-2018-feature-summary/#visualHeader) 
 * 改进了默认视觉对象布局 [[视频]](https://youtu.be/kuI6MMzDh34?t=14m45s) [[博客]](https://powerbi.microsoft.com/blog/power-bi-desktop-march-2018-feature-summary/#visualPlacement) 
 
-### <a name="custom-visuals"></a>自定义视觉对象
+### <a name="power-bi-visuals"></a>Power BI 视觉对象
 
-* 多个新的自定义视觉对象 [[视频]](https://youtu.be/kuI6MMzDh34?t=15m43s) [[文章]](developer/power-bi-custom-visuals-organization.md) [[博客]](https://powerbi.microsoft.com/blog/power-bi-desktop-march-2018-feature-summary/#customVisuals) 
+* 多个新的 Power BI 视觉对象 [[视频]](https://youtu.be/kuI6MMzDh34?t=15m43s) [[文章]](developer/visuals/power-bi-custom-visuals-organization.md) [[博客]](https://powerbi.microsoft.com/blog/power-bi-desktop-march-2018-feature-summary/#customVisuals) 
 
 ### <a name="data-connectivity"></a>数据连接
 
@@ -1393,9 +1468,9 @@ Power BI Desktop 更新列表中每个功能旁边的链接解释如下：
 * 搜索“格式化”和“分析”窗格 [[视频]](https://youtu.be/KeVB5RwMzJo?t=14m46s) [[文章]](desktop-analytics-pane.md) [[博客]](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2018-feature-summary/#search) 
 
 
-### <a name="custom-visuals"></a>自定义视觉对象
+### <a name="power-bi-visuals"></a>Power BI 视觉对象
 
-* 组织自定义视觉对象（预览）[[视频]](https://youtu.be/KeVB5RwMzJo?t=19m23s) [[文章]](developer/power-bi-custom-visuals-organization.md) [[博客]](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2018-feature-summary/#organizationalVisuals) 
+* 组织 Power BI 视觉对象（预览）[[视频]](https://youtu.be/KeVB5RwMzJo?t=19m23s) [[文章]](developer/visuals/power-bi-custom-visuals-organization.md) [[博客]](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2018-feature-summary/#organizationalVisuals) 
 
 
 ### <a name="analytics"></a>分析
@@ -1455,7 +1530,7 @@ Power BI Desktop 更新列表中每个功能旁边的链接解释如下：
 -   将日期显示为层次结构（预览）[[视频]](https://youtu.be/W8Pp5wuCXJw?t=7m41s) [[博客]](https://powerbi.microsoft.com/blog/power-bi-desktop-january-2018-feature-summary/#dateHierarchy) 
 -   为相对日期切片器添加定位标记日期 [[视频]](https://youtu.be/W8Pp5wuCXJw?t=9m22s) [[博客]](https://powerbi.microsoft.com/blog/power-bi-desktop-january-2018-feature-summary/#anchorDate) 
 -   问答中的前 N 个选择[[博客]](https://powerbi.microsoft.com/blog/power-bi-desktop-january-2018-feature-summary/#topN) 
--   多个新的自定义视觉对象 [[视频]](https://youtu.be/W8Pp5wuCXJw?t=11m32s) [[博客]](https://powerbi.microsoft.com/blog/power-bi-desktop-january-2018-feature-summary/#customVisuals) 
+-   多个新的 Power BI 视觉对象 [[视频]](https://youtu.be/W8Pp5wuCXJw?t=11m32s) [[博客]](https://powerbi.microsoft.com/blog/power-bi-desktop-january-2018-feature-summary/#customVisuals) 
 
 ### <a name="analytics"></a>分析
 
@@ -1505,7 +1580,7 @@ Power BI Desktop 更新列表中每个功能旁边的链接解释如下：
 -   基于 x 轴和 y 轴分组的散点图视觉对象 [[视频]](https://youtu.be/ZPU8B-1BxjI?t=15m12s) [[博客]](https://powerbi.microsoft.com/blog/power-bi-desktop-december-feature-summary/#scatterChart) 
 -   地图基于纬度和经度的高密度抽样 [[视频]](https://youtu.be/ZPU8B-1BxjI?t=17m3s) [[博客]](https://powerbi.microsoft.com/blog/power-bi-desktop-december-feature-summary/#highDensityMaps) 
 -   响应式切片器 [[视频]](https://youtu.be/sI3yRjdnJ7w?t=20m9s) [[博客]](https://powerbi.microsoft.com/blog/power-bi-desktop-december-feature-summary/#responsive) 
--   最近发布的自定义视觉对象 [[视频]](https://youtu.be/ZPU8B-1BxjI?t=18m25s) [[博客]](https://powerbi.microsoft.com/blog/power-bi-desktop-december-feature-summary/#customVisuals) 
+-   最近发布的 Power BI 视觉对象 [[视频]](https://youtu.be/ZPU8B-1BxjI?t=18m25s) [[博客]](https://powerbi.microsoft.com/blog/power-bi-desktop-december-feature-summary/#customVisuals) 
 
 
 ### <a name="analytics"></a>分析
@@ -1560,7 +1635,7 @@ Power BI Desktop 更新列表中每个功能旁边的链接解释如下：
 -   Esri Plus 订阅适用于 ArcGIS Maps for Power BI [[视频]](https://youtu.be/sI3yRjdnJ7w?t=10m31s) [[博客]](https://powerbi.microsoft.com/blog/power-bi-desktop-november-2017-feature-summary/#esriPlus) 
 -   适用于慢数据源的报表选项 [[视频]](https://youtu.be/sI3yRjdnJ7w?t=16m11s) [[博客]](https://powerbi.microsoft.com/blog/power-bi-desktop-november-2017-feature-summary/#slowDataSource) 
 -   筛选功能性能改进 [[视频]](https://youtu.be/sI3yRjdnJ7w?t=20m9s) [[博客]](https://powerbi.microsoft.com/blog/power-bi-desktop-november-2017-feature-summary/#filtering) 
--   最近发布的自定义视觉对象 [[视频]](https://youtu.be/sI3yRjdnJ7w?t=20m50s) [[博客]](https://powerbi.microsoft.com/blog/power-bi-desktop-november-2017-feature-summary/#customVisuals) 
+-   最近发布的 Power BI 视觉对象 [[视频]](https://youtu.be/sI3yRjdnJ7w?t=20m50s) [[博客]](https://powerbi.microsoft.com/blog/power-bi-desktop-november-2017-feature-summary/#customVisuals) 
 
 
 ### <a name="analytics"></a>分析
@@ -1665,7 +1740,7 @@ Power BI Desktop 更新列表中每个功能旁边的链接解释如下：
     -   键盘快捷方式帮助程序对话框 [[视频]](https://youtu.be/moTQJlnClJw?t=28m50s) [[博客]](https://powerbi.microsoft.com/blog/power-bi-desktop-september-2017-feature-summary/#shortcuts) [[文章]](desktop-accessibility.md)
 -   高密度散点图采样 [[视频]](https://youtu.be/moTQJlnClJw?t=30m22s) [[博客]](https://powerbi.microsoft.com/blog/power-bi-desktop-september-2017-feature-summary/#highDensityScatter) [[文章]](desktop-high-density-scatter-charts.md)
 -   网格线样式控件 [[视频]](https://youtu.be/moTQJlnClJw?t=33m53s) [[博客]](https://powerbi.microsoft.com/blog/power-bi-desktop-september-2017-feature-summary/#gridlines) [[文章]](desktop-gridlines-snap-to-grid.md)
--   新的自定义视觉对象 [[视频]](https://youtu.be/moTQJlnClJw?t=36m4s) [[博客]](https://powerbi.microsoft.com/blog/power-bi-desktop-september-2017-feature-summary/#communityVisuals)
+-   新的 Power BI 视觉对象 [[视频]](https://youtu.be/moTQJlnClJw?t=36m4s) [[博客]](https://powerbi.microsoft.com/blog/power-bi-desktop-september-2017-feature-summary/#communityVisuals)
     -   Tallan 提供的日历 [[视频]](https://youtu.be/moTQJlnClJw?t=36m26s) [[博客]](https://powerbi.microsoft.com/blog/power-bi-desktop-september-2017-feature-summary/#calendarByTallan)
     -   启发水族馆 [[视频]](https://youtu.be/moTQJlnClJw?t=38m11s) [[博客]](https://powerbi.microsoft.com/blog/power-bi-desktop-september-2017-feature-summary/#enlightenAquarium)
     -   Visio 视觉对象（预览版）[[视频]](https://youtu.be/moTQJlnClJw?t=40m15s) [[博客]](https://powerbi.microsoft.com/blog/power-bi-desktop-september-2017-feature-summary/#visio)
@@ -1701,7 +1776,7 @@ Power BI Desktop 更新列表中每个功能旁边的链接解释如下：
 -   每个矩阵级别的自定义小计设置 [[视频]](https://youtu.be/ND8U0yXroaQ?t=4m29s) [[博客]](https://powerbi.microsoft.com/blog/power-bi-desktop-august-2017-feature-summary/#customSubtotal)
 -   行样式和图例选项 [[视频]](https://youtu.be/ND8U0yXroaQ?t=6m54s) [[博客]](https://powerbi.microsoft.com/blog/power-bi-desktop-august-2017-feature-summary/#lineStyles)
 -   散点图的性能改进 [[视频]](https://youtu.be/ND8U0yXroaQ?t=13m59s) [[博客]](https://powerbi.microsoft.com/blog/power-bi-desktop-august-2017-feature-summary/#scatterChartPerformance)
--   新的自定义视觉对象 [[视频]](https://youtu.be/ND8U0yXroaQ?t=14m32s) [[博客]](https://powerbi.microsoft.com/blog/power-bi-desktop-august-2017-feature-summary/#customVisuals)
+-   新的 Power BI 视觉对象 [[视频]](https://youtu.be/ND8U0yXroaQ?t=14m32s) [[博客]](https://powerbi.microsoft.com/blog/power-bi-desktop-august-2017-feature-summary/#customVisuals)
     -   MAQ 软件点图 [[视频]](https://youtu.be/ND8U0yXroaQ?t=14m45s) [[博客]](https://powerbi.microsoft.com/blog/power-bi-desktop-august-2017-feature-summary/#dotPlot)
     -   Power KPI [[视频]](https://youtu.be/ND8U0yXroaQ?t=19m11s) [[博客]](https://powerbi.microsoft.com/blog/power-bi-desktop-august-2017-feature-summary/#powerKPI)
     -   漏斗图 [[视频]](https://youtu.be/ND8U0yXroaQ?t=21m55s) [[博客]](https://powerbi.microsoft.com/blog/power-bi-desktop-august-2017-feature-summary/#funnelPlot)
@@ -1743,7 +1818,7 @@ Power BI Desktop 更新列表中每个功能旁边的链接解释如下：
 
 -   新的表和矩阵视觉对象现已全面推出 [[视频]](https://youtu.be/4X96ow7FnSY?t=1m27s) [[博客]](https://powerbi.microsoft.com/blog/power-bi-desktop-july-feature-summary-2/#tableAndMatrix)
 -   重命名视觉对象中的字段 [[视频]](https://youtu.be/4X96ow7FnSY?t=6m3s) [[博客]](https://powerbi.microsoft.com/blog/power-bi-desktop-july-feature-summary-2/#rename)
--   自定义视觉对象存储集成 [[视频]](https://youtu.be/4X96ow7FnSY?t=8m7s) [[博客]](https://powerbi.microsoft.com/blog/power-bi-desktop-july-feature-summary-2/#customVisualsStore)
+-   Power BI 视觉对象存储集成 [[视频]](https://youtu.be/4X96ow7FnSY?t=8m7s) [[博客]](https://powerbi.microsoft.com/blog/power-bi-desktop-july-feature-summary-2/#customVisualsStore)
 -   相对日期筛选器 [[视频]](https://youtu.be/4X96ow7FnSY?t=10m46s) [[博客]](https://powerbi.microsoft.com/blog/power-bi-desktop-july-feature-summary-2/#relativeDateFilter)
 -   视觉对象的响应式布局（预览阶段）[[视频]](https://youtu.be/4X96ow7FnSY?t=12m14s) [[博客]](https://powerbi.microsoft.com/blog/power-bi-desktop-july-feature-summary-2/#responsiveVisuals)
 -   新的瀑布图选项 - 细目 [[视频]](https://youtu.be/4X96ow7FnSY?t=14m29s) [[博客]](https://powerbi.microsoft.com/blog/power-bi-desktop-july-feature-summary-2/#waterfall)
@@ -1751,7 +1826,7 @@ Power BI Desktop 更新列表中每个功能旁边的链接解释如下：
     -   向下钻取分级统计图 [[视频]](https://youtu.be/4X96ow7FnSY?t=18m11s) [[博客]](https://powerbi.microsoft.com/blog/power-bi-desktop-july-feature-summary-2/#drilldownChoropleth)
     -   向下钻取统计图 [[视频]](https://youtu.be/4X96ow7FnSY?t=19m14s) [[博客]](https://powerbi.microsoft.com/blog/power-bi-desktop-july-feature-summary-2/#drilldownCartogram)
     -   向下钻取播放器 [[视频]](https://youtu.be/4X96ow7FnSY?t=20m17s) [[博客]](https://powerbi.microsoft.com/blog/power-bi-desktop-july-feature-summary-2/#drilldownPlayer)
-    -   认证的自定义视觉对象 [[博客]](https://powerbi.microsoft.com/blog/power-bi-desktop-july-feature-summary-2/#certifiedCustomVisuals)
+    -   经认证的 Power BI 视觉对象 [[博客]](https://powerbi.microsoft.com/blog/power-bi-desktop-july-feature-summary-2/#certifiedCustomVisuals)
 
 
 ### <a name="analytics--modeling"></a>分析和建模：
@@ -2123,7 +2198,7 @@ Power BI Desktop 更新列表中每个功能旁边的链接解释如下：
 -   装箱 [[博客]](https://powerbi.microsoft.com/blog/power-bi-desktop-october-feature-summary/preview/#binning) [[视频]](https://youtu.be/UXEYSvgvMaQ?t=12m17s)
 -   前 N 个筛选器 [[博客]](https://powerbi.microsoft.com/blog/power-bi-desktop-october-feature-summary/preview/#topN) [[视频]](https://youtu.be/UXEYSvgvMaQ?t=13m55s)
 -   包括/排除数据点 [[博客]](https://powerbi.microsoft.com/blog/power-bi-desktop-october-feature-summary/preview/#includeExclude) [[视频]](https://youtu.be/UXEYSvgvMaQ?t=15m36s)
--   R 驱动的自定义视觉对象[[博客]](https://powerbi.microsoft.com/blog/power-bi-desktop-october-feature-summary/preview/#rCustomVisuals)
+-   R 驱动的 Power BI 视觉对象 [[博客]](https://powerbi.microsoft.com/blog/power-bi-desktop-october-feature-summary/preview/#rCustomVisuals)
 
 
 ### <a name="data-connectors"></a>数据连接器：

@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
-ms.date: 09/17/2019
+ms.date: 03/12/2020
 LocalizationGroup: Premium
-ms.openlocfilehash: 34b409bc6c319594c6b8e79acd48e5ed0d674ced
-ms.sourcegitcommit: f77b24a8a588605f005c9bb1fdad864955885718
+ms.openlocfilehash: 8bb95da5383eedac57fb705f697a8481e934e379
+ms.sourcegitcommit: 7e845812874b3347bcf87ca642c66bed298b244a
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/02/2019
-ms.locfileid: "74698454"
+ms.lasthandoff: 03/13/2020
+ms.locfileid: "79202013"
 ---
 # <a name="restart-a-power-bi-premium-capacity"></a>重启 Power BI 高级容量
 
@@ -30,7 +30,9 @@ Power BI 不断改进其保护高级容量用户免受此类问题的影响。 �
 
 ## <a name="is-the-restart-process-safe-will-i-lose-any-data"></a>重启过程是否安全？ 是否会丢失任何数据？
 
-重启后，所有保存在容量上的数据、定义、报表和仪表板都保持完整。 重启容量时，将停止所有正在进行的计划和临时刷新。 容量可用时，服务会尝试重试刷新。 使用容量进行交互的用户将丢失未保存的工作。 在重启完成后，他们应刷新其浏览器。
+重启后，所有保存在容量上的数据、定义、报表和仪表板都保持完整。 在大多数情况下，重启容量时，刷新引擎会暂时停止正在进行的计划刷新和临时刷新。 然后这些刷新因 Power BI 中内置的刷新重试逻辑而重启。 当容量可用时，服务会尝试重试任何受影响的刷新。 在重启过程中，用户界面中的刷新状态可能不会更改。 
+
+在重启过程中，与容量进行交互的用户将丢失未保存的工作。 在重启完成后，用户应刷新其浏览器。
 
 ## <a name="how-do-i-restart-a-capacity"></a>如何重启容量？
 
@@ -38,7 +40,7 @@ Power BI 不断改进其保护高级容量用户免受此类问题的影响。 �
 
 1. 在 Power BI 管理门户中，在“容量设置”选项卡上，导航到你的容量  。 
 
-1. 将“CapacityRestart”功能标记添加到容量 URL： https://app.powerbi.com/admin-portal/capacities/<YourCapacityId>?capacityRestartButton=true.  
+1. 将“CapacityRestart”功能标记添加到容量 URL： https://app.powerbi.com/admin-portal/capacities/<YourCapacityId>?capacityRestartButton=true   。
 
 1. 在“高级设置” > “容量重启”下，请选择“重启容量”    。
 

@@ -8,12 +8,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 06/26/2019
 ms.author: tebercov
-ms.openlocfilehash: 632c1f1a9f0cba3f403cae4a471df6b7e699f481
-ms.sourcegitcommit: a1409030a1616027b138128695b80f6843258168
+ms.openlocfilehash: dcb7ba5dabbbb0387b92908f7e299d61f2145d44
+ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/24/2020
-ms.locfileid: "76710160"
+ms.lasthandoff: 03/14/2020
+ms.locfileid: "79376583"
 ---
 # <a name="tips-for-authoring-template-apps-in-power-bi"></a>在 Power BI 中创作模板应用的提示
 
@@ -157,7 +157,7 @@ Power BI Desktop 中的[参数](https://powerbi.microsoft.com/blog/deep-dive-int
 | 数据源 | 可支持云“计划数据”刷新的数据源。 <br>不支持： <li> DirectQuery</li><li>实时连接（无 Azure AS）</li> <li>本地数据源（不支持个人和企业网关）</li> <li>实时数据源（不支持推送数据集）</li> <li>复合模型</li></ul> |
 | 数据集：跨工作区 | 不支持跨工作区的数据集  |
 | 查询参数 | 不支持：用于数据集的“Any”或“Binary”类型块刷新操作的参数 |
-| 自定义视觉对象 | 仅支持公开可用的自定义视觉效果。 不支持[组织自定义视觉效果](developer/power-bi-custom-visuals-organization.md) |
+| Power BI 视觉对象 | 仅支持公开可用的 Power BI 视觉对象。 不支持[组织的 Power BI 视觉对象](developer/visuals/power-bi-custom-visuals-organization.md) |
 
 ## <a name="next-steps"></a>后续步骤
 

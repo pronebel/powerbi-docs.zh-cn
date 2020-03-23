@@ -9,13 +9,13 @@ ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
 LocalizationGroup: Share your work
-ms.date: 01/31/2020
-ms.openlocfilehash: fb4846a777dda4787e1ed0be7de869367a616ea5
-ms.sourcegitcommit: b22a9a43f61ed7fc0ced1924eec71b2534ac63f3
+ms.date: 03/12/2020
+ms.openlocfilehash: fe8b5ed0e3cdf0003986ffe6eab18e97e83f3dec
+ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "77530478"
+ms.lasthandoff: 03/14/2020
+ms.locfileid: "79381185"
 ---
 # <a name="embed-report-with-the-power-bi-tab-for-microsoft-teams"></a>通过 Microsoft Teams 的“Power BI”选项卡嵌入报表
 
@@ -25,7 +25,7 @@ ms.locfileid: "77530478"
 
 ## <a name="requirements"></a>要求
 
-要使 Microsoft Teams 的“Power BI”选项卡工作，需要满足以下要求：
+要使 Microsoft Teams 的“Power BI”选项卡工作，需要满足以下要求  ：
 
 - Power BI Pro 许可证，或报告包含在具有 Power BI 许可证的 [Power BI Premium 容量（EM 或 P SKU）](service-premium-what-is.md)中。
 - Microsoft Teams 的“Power BI”选项卡。
@@ -35,7 +35,7 @@ ms.locfileid: "77530478"
 ## <a name="embed-your-report"></a>嵌入报表
 若要将报表嵌入 Microsoft Teams 频道或聊天，请按如下所述进行添加。
 
-1. 在 Microsoft Teams 中打开所需的频道或聊天，然后选择“+”图标。
+1. 在 Microsoft Teams 中打开所需的频道或聊天，然后选择“+”图标  。
 
     ![将选项卡添加到频道或聊天](media/service-embed-report-microsoft-teams/service-embed-report-microsoft-teams-add.png)
 
@@ -49,7 +49,7 @@ ms.locfileid: "77530478"
 
 4. 选项卡名称会自动更新以匹配报表名称，但你可以自行更改。 
 
-5. 按“保存”。
+5. 按“保存”  。
 
 ## <a name="supported-reports"></a>支持的报表
 
@@ -69,10 +69,22 @@ ms.locfileid: "77530478"
 
 要确保团队中的每个人都有权访问嵌入的报表，一种方法是将报表放在 Power BI 的单个工作区中，并为团队的 Office 365 组授予对工作区的访问权限。
 
+## <a name="start-a-conversation"></a>开始对话
+
+将“Power BI 报表”选项卡添加到 Teams 时，Teams 可自动创建报表随附的选项卡对话。 
+
+- 选择右上角的“显示选项卡对话”  。
+
+    ![显示选项卡对话图标](media/service-embed-report-microsoft-teams/power-bi-teams-conversation-icon.png)
+
+    第一个注释是指向报表的链接。 该 Teams 频道中的每个人都可以在对话中查看并讨论报表。
+
+    ![选项卡对话](media/service-embed-report-microsoft-teams/power-bi-teams-conversation-tab.png)
+
 ## <a name="known-issues-and-limitations"></a>已知问题和限制
 
 - Power BI 不支持 Microsoft Teams 支持的本地化语言。 因此，可能无法在嵌入的报表中看到正确的本地化内容。
-- 不能在 Microsoft 团队的“Power BI”选项卡中嵌入 Power BI 仪表板。
+- 不能在 Microsoft Teams 的“Power BI”选项卡中嵌入 Power BI 仪表板。
 - 没有 Power BI 许可证或报表权限的用户将看到“内容不可用”消息。
 - 如果使用的是 Internet Explorer 10，可能会遇到问题。 <!--You can look at the [browsers support for Power BI](consumer/end-user-browsers.md) and for [Office 365](https://products.office.com/office-system-requirements#Browsers-section). -->
 - Microsoft Teams 的“Power BI”选项卡不支持 [URL 筛选器](service-url-filters.md)。

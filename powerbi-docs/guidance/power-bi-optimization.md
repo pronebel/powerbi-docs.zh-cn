@@ -8,12 +8,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 02/16/2020
 ms.author: v-pemyer
-ms.openlocfilehash: 0f29b70a42375be945d206672116219b7d5a3b48
-ms.sourcegitcommit: 032a77f2367ca937f45e7e751997d7b7d0e89ee2
+ms.openlocfilehash: d718c9c7f627d735c083a46c1483815e3744faca
+ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/26/2020
-ms.locfileid: "77609986"
+ms.lasthandoff: 03/14/2020
+ms.locfileid: "79378860"
 ---
 # <a name="optimization-guide-for-power-bi"></a>Power BI 优化指南
 
@@ -69,7 +69,7 @@ Power BI 可视化效果可以是仪表板、Power BI 报表或 Power BI 分页�
 
 #### <a name="evaluate-custom-visual-performance"></a>评估自定义视觉对象性能
 
-确保将每个自定义的视觉对象通过其节奏来确保高性能。 自定义视觉对象优化欠佳可能会对整个报表性能产生负面影响。
+确保将每个自定义的视觉对象通过其节奏来确保高性能。 Power BI 视觉对象优化欠佳可能会对整个报表的性能产生负面影响。
 
 ### <a name="power-bi-paginated-reports"></a>Power BI 分页报表
 

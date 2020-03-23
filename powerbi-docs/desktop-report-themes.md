@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 01/23/2020
+ms.date: 03/12/2020
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 5a4ed3ffc833b2405a3c231b80047c71b40a64cc
-ms.sourcegitcommit: 08f65ea314b547b41b51afef6876e56182190266
+ms.openlocfilehash: 2316fcf5d0b5c0a4c63e4786b80b8c7e20c643e3
+ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/25/2020
-ms.locfileid: "76753688"
+ms.lasthandoff: 03/14/2020
+ms.locfileid: "79378952"
 ---
 # <a name="use-report-themes-in-power-bi-desktop"></a>在 Power BI Desktop 中使用报表主题
 
@@ -195,7 +195,7 @@ ms.locfileid: "76753688"
 
 ![还原为默认值](media/desktop-report-themes/report-themes_9.png)
 
-许多自定义视觉对象将不会应用于报表主题。
+许多 Power BI 视觉对象将不会应用于报表主题。
 
 ## <a name="custom-report-theme-files-you-can-use-right-now"></a>可以立即使用的自定义报表主题文件
 
@@ -312,10 +312,10 @@ ms.locfileid: "76753688"
 |---------|---------|
 | **firstLevelElements** <br> **foreground**（已弃用） | 标签背景色（在数据点外时） <br> 趋势线颜色 <br>  文本框默认颜色 <br> 表和矩阵值以及总计字体颜色数据条轴颜色 <br> 卡片数据标签 <br> 仪表标注值颜色 <br> KPI 目标颜色 <br>  KPI 文本颜色 <br> 切片器项颜色（处于焦点模式时）  <br> 切片器下拉菜单项字体颜色 <br> 切片器数字输入字体颜色 <br> 切片器标题字体颜色 <br> 散点图比率线颜色 <br> 折线图预测线颜色 <br> 地图引导线颜色 <br> 筛选器窗格和卡片文本颜色|
 | **secondLevelElements** <br> **foregroundNeutralSecondary**（已弃用） | “浅色”[次要文本类](#setting-formatted-text-defaults) <br> 标签颜色  <br> 数据标签颜色 <br> 轴标签颜色 <br> 表和矩阵标题字体颜色 <br> 仪表目标和目标引导线颜色 <br>  KPI 趋势轴颜色 <br> 切片器颜色 <br> 切片器项字体颜色 <br> 轮廓颜色 <br> 折线图悬停颜色 <br> 多行卡片标题颜色 <br> 功能区图表笔划颜色 <br> 形状地图边框颜色 <br> 按钮文本字体颜色 <br> 按钮图标线条颜色 <br> 按钮轮廓颜色 |
-| **thirdLevelElements** <br >**backgroundLight**（已弃用） | 轴网格线颜色 <br> 表和矩阵网格颜色 <br> 切片器标题背景色（处于焦点模式时）  <br> 多行卡片轮廓颜色  <br> 形状填充颜色 <br> 仪表弧背景色 <br> 应用的筛选器卡片背景色 <br> |
-| **fourthLevelElements** <br> **foregroundNeutralTertiary**（已弃用） | 图例灰显颜色 <br> 卡片类别标签颜色 <br> 多行卡片类别标签颜色 <br> 多行卡片栏颜色 <br> 漏斗图转换率笔划颜色
+| **thirdLevelElements** <br >**backgroundLight**（已弃用） | 轴网格线颜色 <br> 表和矩阵网格颜色 <br> 切片器标题背景色（处于焦点模式时）  <br> 多行卡片轮廓颜色  <br> 形状填充颜色 <br> 仪表弧背景色 <br> 应用的筛选器卡片背景色 <br> 当背景色为 FFFFFF 时： <br> 已禁用按钮填充颜色 <br> 已禁用按钮轮廓颜色 <br> |
+| **fourthLevelElements** <br> **foregroundNeutralTertiary**（已弃用） | 图例灰显颜色 <br> 卡片类别标签颜色 <br> 多行卡片类别标签颜色 <br> 多行卡片栏颜色 <br> 漏斗图转换率笔划颜色 <br> 已禁用按钮文本字体颜色 <br> 已禁用按钮图标线条颜色 <br> |
 | **background** | 标签背景色（在数据点内部时） <br> 切片器下拉菜单项背景色  <br> 环形图笔划颜色 <br> 树状图笔划颜色 <br> 组合图背景色 <br> 按钮填充颜色 <br> 筛选器窗格和可用筛选器卡片背景色 |
-| **secondaryBackground** <br> **backgroundNeutral**（已弃用） | 表和矩阵网格轮廓颜色 <br> 形状地图默认颜色 <br> 功能区图表功能区填充颜色（“匹配系列”选项处于关闭状态时） |
+| **secondaryBackground** <br> **backgroundNeutral**（已弃用） | 表和矩阵网格轮廓颜色 <br> 形状地图默认颜色 <br> 功能区图表功能区填充颜色（“匹配系列”选项处于关闭状态时） <br> 当背景色为 != FFFFFF 时： <br> 已禁用按钮填充颜色 <br> 已禁用按钮轮廓颜色 <br> |
 | **tableAccent** | 当存在时覆盖表和矩阵网格轮廓颜色 |
 
 设置颜色类的主题示例如下：

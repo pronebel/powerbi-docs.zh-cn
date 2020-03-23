@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 02/13/2020
-ms.openlocfilehash: ee789274f6581423ed7adebc5b662a732dbeaa7a
-ms.sourcegitcommit: d6a48e6f6e3449820b5ca03638b11c55f4e9319c
+ms.openlocfilehash: 74e2c60bfe0d6d494fc1175fb001b4b4b7eb24fa
+ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/18/2020
-ms.locfileid: "77426647"
+ms.lasthandoff: 03/14/2020
+ms.locfileid: "79381114"
 ---
 # <a name="install-power-bi-desktop-optimized-for-power-bi-report-server"></a>安装更适合 Power BI 报表服务器的 Power BI Desktop
 
@@ -25,13 +25,13 @@ ms.locfileid: "77426647"
 
 确保使用已针对 Power BI 报表服务器进行优化的最新 Power BI Desktop 版本的最简单方法是从报表服务器的 Web 门户启动。
 
-1. 在报表服务器 Web 门户中，选择“下载”箭头 >“Power BI Desktop”。
+1. 在报表服务器 Web 门户中，选择“下载”箭头 >“Power BI Desktop”。  
 
     ![从 Web 门户下载 Power BI Desktop](media/install-powerbi-desktop/report-server-download-web-portal.png)
 
-    或转到 [Power BI 报表服务器](https://powerbi.microsoft.com/report-server/)主页，然后选择“高级下载选项”。
+    或转到 [Power BI 报表服务器](https://powerbi.microsoft.com/report-server/)主页，然后选择“高级下载选项”  。
 
-2. 在“下载中心”页中，选择一种语言，然后选择“下载”。
+2. 在“下载中心”页中，选择一种语言，然后选择“下载”  。
 
 3. 根据所用的计算机选择： 
 
@@ -40,12 +40,12 @@ ms.locfileid: "77426647"
 
 1. 下载安装程序后，运行 Power BI Desktop（2019 年 9 月版）安装向导。
 
-2. 安装结束时，选择“启动 Power BI Desktop”。
+2. 安装结束时，选择“启动 Power BI Desktop”  。
 
     此时，它会自动启动，可以开始使用了。
 
 ## <a name="verify-youre-using-the-correct-version"></a>验证当前使用的版本是否正确。
-简单操作即可验证你是否在使用正确的 Power BI Desktop：查看 Power BI Desktop 中的启动屏幕或标题栏。 根据标题栏中显示的“Power BI Desktop (2019 年 9 月版)”，便知道使用了正确的版本。 此外，Power BI 徽标的颜色也会颠倒，在黑色上面显示黄色而不是在黄色上面显示黑色。
+简单操作即可验证你是否在使用正确的 Power BI Desktop：查看 Power BI Desktop 中的启动屏幕或标题栏。 根据标题栏中显示的“Power BI Desktop (2019 年 9 月版)”，便知道使用了正确的版本  。 此外，Power BI 徽标的颜色也会颠倒，在黑色上面显示黄色而不是在黄色上面显示黑色。
 
 ![Power BI Desktop 2019 年 9 月版](media/install-powerbi-desktop/power-bi-report-server-desktop-sept-2019.png)
 
@@ -62,7 +62,7 @@ ms.locfileid: "77426647"
 
 ## <a name="considerations-and-limitations"></a>注意事项和限制
 
-Power BI 报表服务器、Power BI 服务 (https://app.powerbi.com)) 和 Power BI 移动应用中 Power BI 报表的行为几乎完全相同，但有一些功能不同。
+Power BI 报表服务器、Power BI 服务 (https://app.powerbi.com) ) 和 Power BI 移动应用中 Power BI 报表的行为几乎完全相同，但有一些功能不同。
 
 ### <a name="selecting-a-language"></a>选择语言
 
@@ -70,7 +70,7 @@ Power BI 报表服务器、Power BI 服务 (https://app.powerbi.com)) 和 Power 
 
 ### <a name="report-visuals-in-a-browser"></a>浏览器中的报表视觉对象
 
-Power BI 报表服务器报表支持几乎所有可视化效果，包括自定义视觉对象。 Power BI 报表服务器报表不支持：
+Power BI 报表服务器报表支持几乎所有可视化效果，包括 Power BI 视觉对象。 Power BI 报表服务器报表不支持：
 
 * R 视觉对象
 * ArcGIS 地图
@@ -89,7 +89,7 @@ Power BI 报表服务器报表不支持 Power BI 移动应用中的如下功能�
 
 * R 视觉对象
 * ArcGIS 地图
-* 自定义视觉对象
+* Power BI 视觉对象
 * 痕迹导航栏
 * 地理位置筛选或条码
 

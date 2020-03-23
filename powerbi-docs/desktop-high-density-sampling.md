@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 40e11f6423df12355800a2c62876e5de1f8b3f82
-ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
+ms.openlocfilehash: 344b041b8cca3e6ed4be1f40c0e783df18315679
+ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/06/2020
-ms.locfileid: "73867459"
+ms.lasthandoff: 03/14/2020
+ms.locfileid: "79378584"
 ---
 # <a name="high-density-line-sampling-in-power-bi"></a>Power BI 中的高密度行采样
 从 2017 年 6 月发布 Power BI Desktop 和 Power BI 服务更新开始，可使用新的采样算法来改进对高密度数据进行采样的视觉对象   。 例如，每个零售店每年的销售额超过一万，可以根据零售店的销售业绩创建一个折线图。 此类销售信息折线图对每个零售店的数据进行数据采样（选择有意义的数据代表，以展示销售情况如何随时间变化），并创建一个多系列折线图表示基础数据。 这是将高密度数据可视化的常见做法。 Power BI Desktop 改进了高密度数据的采样，本文详细介绍了相关信息。
@@ -46,7 +46,7 @@ ms.locfileid: "73867459"
 对于以下视觉对象类型（3500 个数据点限制的例外情况  ），最大数据限制数更高：
 
 * 对于 R 视觉对象，最多为 150000  个数据点。
-* 对于自定义视觉对象，则为 30000  个数据点。
+* Power BI 视觉对象的数据点为 30,000 个  。
 * 对于散点图（散点图默认为 3500 个），则为 10,000  个数据点
 * 对于所有其他视觉对象，则为 3500  个数据点
 

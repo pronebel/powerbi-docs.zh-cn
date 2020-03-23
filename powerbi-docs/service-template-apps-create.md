@@ -8,12 +8,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 09/15/2019
 ms.author: tebercov
-ms.openlocfilehash: 649f4d002c9adbfa882c4ee4320f040f490fd116
-ms.sourcegitcommit: 87b7cb4a2e626711b98387edaa5ff72dc26262bb
+ms.openlocfilehash: 6b7b472b0c16c47ae2497c5dc8c74cc1c4d778d4
+ms.sourcegitcommit: abc8419155dd869096368ba744883b865c5329fa
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/10/2020
-ms.locfileid: "79041714"
+ms.lasthandoff: 03/17/2020
+ms.locfileid: "79436010"
 ---
 # <a name="create-a-template-app-in-power-bi"></a>在 Power BI 中创建模板应用
 
@@ -30,7 +30,7 @@ Power BI 租户管理员管理和控制组织中谁可以创建模板应用，�
 - 一个 [Power BI Pro 许可证](service-self-service-signup-for-power-bi.md)
 - [安装 Power BI Desktop](desktop-get-the-desktop.md)（可选）
 - 熟悉 [Power BI 的基本概念](service-basic-concepts.md)
-- 用于公开共享模板应用的权限。 有关详细信息，请参阅 Power BI [管理门户的模板应用设置](service-admin-portal.md#template-apps-settings)。
+- 公开共享模板应用的权限（有关详细信息，请参阅 Power BI [管理门户的模板应用设置](service-admin-portal.md#template-apps-settings)）
 
 ## <a name="create-the-template-workspace"></a>创建模板工作区
 
@@ -87,9 +87,9 @@ Power BI 租户管理员管理和控制组织中谁可以创建模板应用，�
 
     激活“新导航生成器”，可在其中定义应用的导航窗格（有关详细信息，请参阅本文中的[设计导航体验](service-create-distribute-apps.md#design-the-navigation-experience)）  。
 
-   ![设置应用登陆页面](media/service-template-apps-install-distribute/power-bi-install-app-content.png)
+   ![设置应用登陆页面](media/service-template-apps-create/power-bi-install-app-content.png)
     
-    应用登陆页面：  如果决定退出导航生成器，则可以选择应用登陆页面。 将报表或仪表板定义为应用的登陆页面。 使用可以给人留下正确印象的登陆页面。
+    应用登陆页面：  如果决定选择退出导航生成器，则可以选择应用登陆页面。 将报表或仪表板定义为应用的登陆页面。 使用可以给人留下正确印象的登陆页面。
 
     **控件**
 
@@ -109,7 +109,7 @@ Power BI 租户管理员管理和控制组织中谁可以创建模板应用，�
     - **必需**：可用于要求安装程序输入特定于用户的参数。
     - **锁定**：锁定阻止安装程序更新参数。
 
-    **访问**在测试阶段，确定组织中的其他人可以安装和测试应用。 不用担心，可在以后随时返回和更改这些设置（设置不会影响对分布式模板应用的访问）。
+    **访问**在测试阶段，确定组织中的其他人可以安装和测试应用。 别担心，可以随时返回并在稍后更改这些设置。 该设置不影响分布式模板应用的访问权限。
 
 2. 选择“创建应用”  。
 

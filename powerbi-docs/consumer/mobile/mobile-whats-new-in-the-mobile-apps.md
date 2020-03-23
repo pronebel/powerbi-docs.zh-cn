@@ -8,19 +8,22 @@ ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 03/09/2020
 ms.author: painbar
-ms.openlocfilehash: 97d2a3acba87309b74de1776f1325bb4c4a78910
-ms.sourcegitcommit: 87b7cb4a2e626711b98387edaa5ff72dc26262bb
+ms.openlocfilehash: 6885f635f96da3bbea039f445e83cd7cada144ce
+ms.sourcegitcommit: abc8419155dd869096368ba744883b865c5329fa
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/10/2020
-ms.locfileid: "79041534"
+ms.lasthandoff: 03/17/2020
+ms.locfileid: "79435964"
 ---
 # <a name="whats-new-in-the-mobile-apps-for-power-bi"></a>Power BI 移动应用中的新功能
 有关相关的“新增功能”的信息，请参阅：
 
 * [适用于移动应用的 Power BI 工作组日志](https://powerbi.microsoft.com/blog/tag/mobile/)
 * [Power BI Desktop 中的新增功能](../../desktop-latest-update.md)  
-* [Power BI 服务中的最近更新](../../service-whats-new.md)  
+* [Power BI 服务中的最近更新](../../service-whats-new.md)
+
+>[!NOTE]
+>我们将于 2021 年 3 月 16 日终止对使用 Windows 10 移动版的手机提供 Power BI 移动应用支持  。 [了解详细信息](https://go.microsoft.com/fwlink/?linkid=2121400)
 
 ## <a name="february-2020"></a>2020 年 2 月
 
@@ -396,7 +399,7 @@ Power BI for Mixed Reality 应用现已在 Microsoft Store 上架。 可以沉�
 
 #### <a name="improved-hyperlink-support"></a>改进的超链接支持
 
-现在可以点击自定义视觉对象中的链接，在移动浏览器中将其打开。
+现在可以点击 Power BI 视觉对象中的链接，在移动浏览器中将其打开。
 
 #### <a name="intune-integration-android"></a>Intune 集成 (Android)
 
@@ -470,7 +473,7 @@ Power BI for Mixed Reality 应用现已在 Microsoft Store 上架。 可以沉�
 #### <a name="all-devices"></a>所有设备
  手机报表的背景色 - 定义了 Power BI Desktop 中报表的背景色后，手机报表将具有相同的背景色。 有关[优化手机的报表页](../../desktop-create-phone-report.md)的详细信息。
 
- 开发移动友好型自定义视觉对象 - 阅读此[开发人员指南](https://github.com/Microsoft/PowerBI-visuals/blob/master/Tutorial/MobileGuideline.md)，了解在移动设备上创建外观精美、运行良好的自定义视觉对象的提示。
+ 开发适合移动设备的 Power BI 视觉对象 - 阅读此[开发人员指南](https://github.com/Microsoft/PowerBI-visuals/blob/master/Tutorial/MobileGuideline.md)，了解在移动设备上创建外观精美、运行良好的 Power BI 视觉对象的提示。
 
 #### <a name="ios-devices"></a>iOS 设备
  与数据对话 - 通过说话提问 - 现在，你可以通过说话而不是键入信息来[使用问答功能询问数据相关问题](mobile-apps-ios-qna.md)。 

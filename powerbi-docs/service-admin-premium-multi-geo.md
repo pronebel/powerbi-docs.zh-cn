@@ -9,12 +9,12 @@ ms.subservice: powerbi-admin
 ms.topic: conceptual
 ms.date: 02/05/2019
 LocalizationGroup: Premium
-ms.openlocfilehash: 27e4bbd1437f59b7cf213333d9df27019aaadcd4
-ms.sourcegitcommit: f77b24a8a588605f005c9bb1fdad864955885718
+ms.openlocfilehash: ad7c0dab0c4390326eea157351735802d12b3795
+ms.sourcegitcommit: a175faed9378a7d040a08ced3e46e54503334c07
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/02/2019
-ms.locfileid: "74698845"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "79488559"
 ---
 # <a name="configure-multi-geo-support-for-power-bi-premium"></a>配置 Power BI Premium 的 Multi-Geo 支持
 
@@ -33,7 +33,7 @@ Multi-Geo（多地理位置）是一项 Power BI Premium 功能，可帮助跨�
 
 Multi-Geo 不适用于 Power BI Germany、由世纪互联运营的 Power BI China 或 Power BI 美国政府版。
 
-Power BI Embedded 现在也提供 Multi-Geo 功能。 阅读[Power BI Embedded 中的 Multi-Geo 支持](developer/embedded-multi-geo.md)，了解详细信息。
+Power BI Embedded 现在也提供 Multi-Geo 功能。 阅读[Power BI Embedded 中的 Multi-Geo 支持](developer/embedded/embedded-multi-geo.md)，了解详细信息。
 
 ## <a name="enable-and-configure"></a>启用和配置
 
@@ -99,6 +99,6 @@ Power BI Embedded 现在也提供 Multi-Geo 功能。 阅读[Power BI Embedded �
 ## <a name="next-steps"></a>后续步骤
 
 - [什么是 Power BI Premium？](service-premium-what-is.md)
-- [Power BI Embedded 的 Multi-Geo 功能](developer/embedded-multi-geo.md)
+- [Power BI Embedded 的 Multi-Geo 功能](developer/embedded/embedded-multi-geo.md)
 
 更多问题？ [尝试咨询 Power BI 社区](https://community.powerbi.com/)

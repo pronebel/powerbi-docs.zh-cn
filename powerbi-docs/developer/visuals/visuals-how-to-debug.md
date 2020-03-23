@@ -6,23 +6,23 @@ ms.author: kesharab
 ms.reviewer: sranins
 ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 02/14/2020
-ms.openlocfilehash: 4ce61fcd4f322abc0362956453d76ced9b78d887
-ms.sourcegitcommit: d55d3089fcb3e78930326975957c9940becf2e76
+ms.openlocfilehash: c87d1af9033044a8b79d6fe00d566d9b46c499fc
+ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/04/2020
-ms.locfileid: "78264234"
+ms.lasthandoff: 03/14/2020
+ms.locfileid: "79377873"
 ---
 # <a name="how-to-debug-power-bi-visuals"></a>如何调试 Power BI 视觉对象
 
 本页介绍了在生成视觉对象时进行调试的一些提示与技巧。 其中不仅介绍了基本步骤，还介绍了标准前端应用和 Power BI 视觉对象调试的区别。
-阅读本文后，你将能够在 Chrome 和 Edge 中使用断点、记录异常和捕获异常来调试自定义视觉对象。
+阅读本文后，你将能够在 Chrome 和 Microsoft Edge 中使用断点、记录异常和捕获异常来调试 Power BI 视觉对象。
 
 ## <a name="using-breakpoints"></a>使用断点
 
-由于每次更新视觉对象时都会完全重载视觉对象的 JavaScript，因此在调试视觉对象刷新后，你添加的任何断点都会丢失。 解决方法是，在代码中使用 `debugger` 语句。 建议在代码中使用 `debugger` 时禁用自动重载。
+由于每次更新视觉对象时都会完全重载视觉对象的 JavaScript，因此在调试视觉对象刷新后，添加的任何断点都会丢失。 解决方法是，在代码中使用 `debugger` 语句。 建议在代码中使用 `debugger` 时禁用自动重载。
 
 ```typescript
 public update(options: VisualUpdateOptions) {
@@ -35,7 +35,7 @@ public update(options: VisualUpdateOptions) {
 
 ## <a name="showing-exceptions"></a>显示异常
 
-处理视觉对象时，你会注意到 Power BI 服务“使用”所有错误。 这是 Power BI 有意为之的一种功能，以防运行不正常的视觉对象导致整个应用变得不稳定。
+处理视觉对象时，可看到 Power BI 服务“使用”所有错误。 这是 Power BI 有意为之的一种功能，以防运行不正常的视觉对象导致整个应用变得不稳定。
 
 解决方法是，添加代码来捕获和记录异常，或将调试器设置为在捕获到异常时中断。
 
@@ -80,7 +80,7 @@ public update(options: VisualUpdateOptions) {
 3. 单击“在捕获到异常时中断”  图标（带有暂停符号的六边形）。
 4. 选中“在捕获到任意异常时中断”  。
 
-![数据角色字段](./media/how-to-debug-edge.png)
+![数据角色字段](media/visuals-how-to-debug/how-to-debug-edge.png)
 
 ## <a name="chrome"></a>Chrome
 
@@ -89,8 +89,8 @@ public update(options: VisualUpdateOptions) {
 3. 单击“在捕获到异常时中断”  图标（带有暂停符号的停止标志）。
 4. 选中“在捕获到异常时暂停”  复选框。
 
-![数据角色字段](./media/how-to-debug-chrome.png)
+![数据角色字段](media/visuals-how-to-debug/how-to-debug-chrome.png)
 
 ## <a name="next-steps"></a>后续步骤
-* [排除 Power BI 视觉对象故障](../power-bi-custom-visuals-troubleshoot.md)
-* 有关详细信息和常见问题解答，请参阅 [Power BI 视觉对象常见问题解答](../power-bi-custom-visuals-faq.md#organizational-power-bi-visuals)
+* [排除 Power BI 视觉对象故障](power-bi-custom-visuals-troubleshoot.md)
+* 有关详细信息和常见问题解答，请参阅 [Power BI 视觉对象常见问题解答](power-bi-custom-visuals-faq.md#organizational-power-bi-visuals)

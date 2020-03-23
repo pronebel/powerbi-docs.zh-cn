@@ -9,12 +9,12 @@ ms.subservice: powerbi-admin
 ms.topic: conceptual
 ms.date: 09/16/2019
 LocalizationGroup: Premium
-ms.openlocfilehash: ff2f22620cf062dcc342323e71dc7401b5991cd7
-ms.sourcegitcommit: f77b24a8a588605f005c9bb1fdad864955885718
+ms.openlocfilehash: 6b2876ca78e07cf7c3c2b778ef9c571745baa1e5
+ms.sourcegitcommit: a175faed9378a7d040a08ced3e46e54503334c07
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/02/2019
-ms.locfileid: "74697028"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "79488651"
 ---
 # <a name="power-bi-premium-faq"></a>Power BI Premium 常见问题解答
 
@@ -45,7 +45,7 @@ Power BI Premium 是基于容量的许可证，而 Power BI Pro 的是基于用�
 * 与 Microsoft Teams 集成内容
 
 是否需要 Power BI Pro 才可使用 Power BI Premium？   
-是的。 需要使用 Power BI Pro 来发布报表、共享仪表板、在工作区内与同事协作和进行其他相关活动。 Power BI Pro 无需使用 Premium 容量中的内容。
+是。 需要使用 Power BI Pro 来发布报表、共享仪表板、在工作区内与同事协作和进行其他相关活动。 Power BI Pro 无需使用 Premium 容量中的内容。
 
 你是否可以概述使用 Power BI Pro 和 Power BI Premium 满足组织的现代 BI 需求的场景？   
 以下示例概述了客户如何使用 Power BI Pro 和 Power BI Premium 的组合来满其 BI 需求。
@@ -88,6 +88,6 @@ Power BI 报表服务器是一个本地服务器，可用于完全在组织防�
 [Microsoft Power BI Premium 白皮书](https://aka.ms/pbipremiumwhitepaper)
 [规划 Power BI 企业部署白皮书](https://aka.ms/pbienterprisedeploy)
 [延长的 Pro 试用版激活](service-extended-pro-trial.md)
-[Power BI Embedded 常见问题解答](developer/embedded-faq.md)
+[Power BI Embedded 常见问题解答](developer/embedded/embedded-faq.md)
 
 更多问题？ [尝试咨询 Power BI 社区](https://community.powerbi.com/)

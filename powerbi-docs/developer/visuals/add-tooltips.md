@@ -6,14 +6,14 @@ ms.author: kesharab
 ms.reviewer: sranins
 ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 06/18/2019
-ms.openlocfilehash: 8829cb8af41611fb29cd4fc22da7706e80ef3210
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 4379fbfe051b69a2c9502a033ba462c1dded2022
+ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73880342"
+ms.lasthandoff: 03/14/2020
+ms.locfileid: "79380610"
 ---
 # <a name="tooltips-in-power-bi-visuals"></a>Power BI 视觉对象中的工具提示
 
@@ -27,7 +27,7 @@ ms.locfileid: "73880342"
 
 下图显示了示例条形图中的工具提示：
 
-![示例条形图工具提示](./media/tooltips-in-samplebarchart.png)
+![示例条形图工具提示](media/add-tooltips/tooltips-in-samplebarchart.png)
 
 上述工具提示图显示了单个条形的类别和值。 可以扩展单个工具提示以显示多个值。
 
@@ -209,7 +209,7 @@ BarChart 类添加了成员 `getTooltipData`，后者只是将数据点的 `cate
 
 可以在“格式”窗格中定义报表页工具提示  。
 
-![报表页工具提示](media/report-page-tooltip.png)
+![报表页工具提示](media/add-tooltips/report-page-tooltips.png)
 
 * `supportedTypes`：工具提示配置受视觉对象支持，并且很好地在字段中反映。 
    * `default`：指定是否支持通过数据字段绑定“自动”工具提示。 

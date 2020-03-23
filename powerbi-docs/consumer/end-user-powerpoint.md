@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 02/21/2020
 ms.author: mihart
 LocalizationGroup: Share your work
-ms.openlocfilehash: 4194afb71dec7b50d75def0677489d3ff009917e
-ms.sourcegitcommit: 480bba9c745cb9af2005637e693c5714b3c64a8a
+ms.openlocfilehash: f9e0288c91f65d10329aaac29df8eb6e7a81f297
+ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/11/2020
-ms.locfileid: "79113754"
+ms.lasthandoff: 03/14/2020
+ms.locfileid: "79377147"
 ---
 # <a name="export-reports-from-power-bi-to-powerpoint"></a>将报表从 Power BI 导出到 PowerPoint
 
@@ -78,7 +78,7 @@ Power BI 服务完成导出过程后，通知横幅会发生变化以通知你�
 在使用“导出到 PowerPoint”功能时，有几个注意事项和限制需要牢记  。
 
 * 目前不支持 R 视觉对象和 Python 视觉对象。 任何此类视觉对象都将作为空白图像导出到 PowerPoint 中，并显示一条错误消息，指示不支持该视觉对象。
-* 支持已认证的自定义视觉对象。 有关已认证的自定义视觉对象的详细信息（包括如何完成自定义视觉对象认证），请参阅[获取自定义视觉对象认证](../developer/power-bi-custom-visuals-certified.md)。 不支持尚未认证的自定义视觉对象。 它们将作为空白图像导出到 PowerPoint 中，并显示一条错误消息，指示不支持该视觉对象。
+* 支持经认证的 Power BI 视觉对象。 有关已认证的自定义视觉对象的详细信息（包括如何完成自定义视觉对象认证），请参阅[获取自定义视觉对象认证](../developer/power-bi-custom-visuals-certified.md)。 不支持尚未认证的自定义视觉对象。 它们将作为空白图像导出到 PowerPoint 中，并显示一条错误消息，指示不支持该视觉对象。
 * ESRI 视觉对象不受支持
 * 暂无法导出报表页超过 30 个的报表。
 * 具有滚动条的视觉对象以其默认状态导出。 PowerPoint 中的视觉对象将仅显示数据的顶部部分。 PowerPoint 中的滚动功能不可用，因为每张幻灯片都是图像。 

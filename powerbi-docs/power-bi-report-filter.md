@@ -1,20 +1,20 @@
 ---
 title: Power BI 报表中的新筛选器体验
-description: Power BI 中的筛选器添加了新功能和新设计。
+description: Power BI 中的筛选器新增了功能，并采用了新设计。
 author: maggiesMSFT
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 09/06/2019
+ms.date: 02/26/2020
 ms.author: maggies
 LocalizationGroup: Reports
-ms.openlocfilehash: e991b84dede16f35a732c54ff916ec02f5610783
-ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
+ms.openlocfilehash: f4dbbdd30b403c8ac14db069b826f26af0bce24a
+ms.sourcegitcommit: 7e845812874b3347bcf87ca642c66bed298b244a
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/09/2020
-ms.locfileid: "75762522"
+ms.lasthandoff: 03/13/2020
+ms.locfileid: "79201776"
 ---
 # <a name="work-with-filters-in-power-bi-reports"></a>使用 Power BI 报表中的筛选器
 
@@ -52,8 +52,11 @@ Power BI 中的筛选器新增了功能，并采用了新设计。 选择启用�
 
 如果尚未启用新外观，按照如下步骤操作也可启用新筛选体验。
 
-1. 在 Power BI 服务中，选择工作区内容列表中的“报表”选项卡  。
-2. 找到要启用的报表，然后为该报表选择“设置”图标![报表“设置”图标](media/power-bi-report-filter/power-bi-settings-icon.png)  。
+1. 在 Power BI 服务中，打开工作区的内容列表。
+2. 找到要启用的报表，选择“更多选项(…)”，然后选择相应报表的“设置”   。
+
+    ![报表设置](media/power-bi-report-filter/power-bi-filter-options.png)
+
 3. 在“筛选体验”  下，选择“启用更新后的‘筛选器’窗格，并在此报表的视觉对象标头中显示筛选器”  。
 
     ![启用已更新的筛选器窗格](media/power-bi-report-filter/power-bi-service-filter-enable.png)
@@ -82,11 +85,21 @@ Power BI 中的筛选器新增了功能，并采用了新设计。 选择启用�
 
 1. 默认情况下，报表使用者可以看到“筛选器”窗格。 如果你不希望报表使用者看到此窗格，请选择“筛选器”  旁边的睛形图标。
 
-    ![Power BI 筛选器睛形图标](media/power-bi-report-filter/power-bi-filter-eye.png)
+    ![Power BI 筛选器睛形图标](media/power-bi-report-filter/power-bi-filter-eye-icon.png)
 
 2. 若要开始生成新“筛选器”窗格，请将相关字段作为视觉对象级别、报表页级别或报表级别筛选器拖到新“筛选器”窗格中。
 
 当你将视觉对象添加到报表画布后，Power BI 会为视觉对象中的每个字段，自动将筛选器添加到“筛选器”窗格中。 
+
+## <a name="hide-the-filters-pane-while-editing"></a>编辑时隐藏“筛选器”窗格
+
+Power BI Desktop 以预览版的形式提供了一个新功能区。 在“视图”选项卡上，使用“筛选”切换按钮，可以显示或隐藏“筛选器”窗格   。 当无需使用“筛选器”窗格并且需要屏幕上有额外的空间时，此功能很有用。 使用此新增功能，可以使“筛选器”窗格与其他可以打开和关闭的窗格（例如“书签”和“选择”窗格）对齐。 
+
+![编辑时显示或隐藏“筛选器”窗格](media/power-bi-report-filter/power-bi-filter-hide.png)
+
+此设置仅在 Power BI Desktop 中隐藏“筛选器”窗格。 如果要为最终用户隐藏“筛选器”窗格，请改为选择“筛选器”旁边的“眼睛”图标   。
+
+![眼睛图标](media/power-bi-report-filter/power-bi-filter-eye.png) 
 
 ## <a name="lock-or-hide-filters"></a>锁定或隐藏筛选器
 
@@ -126,13 +139,13 @@ Power BI 中的筛选器新增了功能，并采用了新设计。 选择启用�
 
 1. 展开“筛选器窗格”  以设置背景色、图标和左边框，以补充报表页。
 
-    ![展开筛选器窗格](media/power-bi-report-filter/power-bi-format-filter-pane.png)
+    ![展开“筛选器”窗格](media/power-bi-report-filter/power-bi-format-filter-pane.png)
 
 1. 展开“筛选器卡”  以设置“可用”  的“已应用”  颜色和边框。 如果将可用和已应用卡设置为不同的颜色，则可以明显地区分所应用的筛选器。 
   
     ![展开筛选器卡](media/power-bi-report-filter/power-bi-format-filter-cards.png)
 
-## <a name="theming-for-filter-pane"></a>“筛选器”窗格的主题设置
+## <a name="theming-for-filters-pane"></a>“筛选器”窗格的主题设置
 现在可以使用主题文件来修改“筛选器”窗格的默认设置。 下面是入门示例主题代码片段：
 
  
@@ -204,7 +217,7 @@ Power BI 中的筛选器新增了功能，并采用了新设计。 选择启用�
 }] 
 ```
 
-## <a name="sort-the-filter-pane"></a>对“筛选器”窗格排序
+## <a name="sort-the-filters-pane"></a>对“筛选器”窗格进行排序
 
 新“筛选器”窗格体验提供自定义排序功能。 报表创建者可以拖放筛选器，以按照任意顺序重新排列它们。
 
@@ -223,11 +236,25 @@ Power BI 中的筛选器新增了功能，并采用了新设计。 选择启用�
 
 ![重命名筛选器](media/power-bi-report-filter/power-bi-filter-rename.png)
 
+## <a name="filters-pane-search"></a>筛选器窗格搜索
+
+使用筛选器窗格搜索功能，可以跨筛选器卡按标题进行搜索。 如果“筛选器”窗格中有多个不同的筛选器卡，并且需要有关查找相关筛选器的帮助，此功能很有用。
+
+![搜索筛选器](media/power-bi-report-filter/power-bi-filter-search.png)
+
+还可以设置搜索框的格式，就像设置“筛选器”窗格中其他元素的格式一样。
+
+![设置搜索框的格式](media/power-bi-report-filter/power-bi-filter-format-search.png)
+
+尽管默认情况下此筛选器窗格搜索功能处于启用状态，但也可以选择启用或禁用该功能，方法是在“选项”对话框的“报表”设置中选择“启用对筛选器窗格搜索”  。
+
+![启用或禁用搜索](media/power-bi-report-filter/power-bi-enable-search-filter.png)
+
 ## <a name="restrict-changes-to-filter-type"></a>限制更改筛选器类型
 
 在报表设置的“筛选体验”部分下，可控制用户能否更改筛选器类型。
 
-![限制更改筛选器类型](media/power-bi-report-filter/power-bi-filter-restrict-change.png)
+![限制更改筛选器类型](media/power-bi-report-filter/power-bi-enable-change-filter-type.png)
 
 ## <a name="next-steps"></a>后续步骤
 

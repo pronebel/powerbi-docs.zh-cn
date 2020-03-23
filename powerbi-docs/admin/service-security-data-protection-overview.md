@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 01/22/2020
+ms.date: 03/12/2020
 ms.author: painbar
 LocalizationGroup: Data from files
-ms.openlocfilehash: adfa99a3e973108d65a06361ed967bef2ce37eb3
-ms.sourcegitcommit: 02342150eeab52b13a37b7725900eaf84de912bc
+ms.openlocfilehash: fa373fca782a582ec2ac2ef60cb36322efaff327
+ms.sourcegitcommit: 7e845812874b3347bcf87ca642c66bed298b244a
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/23/2020
-ms.locfileid: "76537200"
+ms.lasthandoff: 03/13/2020
+ms.locfileid: "79205265"
 ---
 # <a name="data-protection-in-power-bi-preview"></a>Power BI 中的数据保护（预览版）
 
@@ -105,9 +105,6 @@ ms.locfileid: "76537200"
 * 在 Power BI 中应用的标签不支持 [HYOK 保护](https://docs.microsoft.com/azure/information-protection/configure-adrms-restrictions)。
 * 要在 Office 应用中查看和应用标签，需满足[许可要求](https://docs.microsoft.com/microsoft-365/compliance/sensitivity-labels-office-apps#subscription-and-licensing-requirements-for-sensitivity-labels)。
 * 仅全球（公有）云中的租户支持敏感度标签。 其他云中的租户不支持敏感度标签。
-* [外部用户（Azure Active Directory B2B 来宾用户）](../service-admin-azure-ad-b2b.md)不支持敏感度标签。 这表示外部用户无法查看标签，并且将被阻止将数据导出到 Excel、PDF 和 PPTX 文件中。 [删除标签](../designer/service-security-apply-data-sensitivity-labels.md#removing-sensitivity-labels)，使外部用户可以将数据导出到这些文件类型。
-
-
 
 ## <a name="next-steps"></a>后续步骤
 

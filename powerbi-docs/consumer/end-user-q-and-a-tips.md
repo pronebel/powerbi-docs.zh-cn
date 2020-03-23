@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 03/11/2020
 ms.author: mihart
 LocalizationGroup: Ask questions of your data
-ms.openlocfilehash: 83db194ab670f1726f9598193dc2d3addf2eae72
-ms.sourcegitcommit: 480bba9c745cb9af2005637e693c5714b3c64a8a
+ms.openlocfilehash: d97ff72c385edd4c59c6eb72ce1eb873656923c9
+ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/11/2020
-ms.locfileid: "79114282"
+ms.lasthandoff: 03/14/2020
+ms.locfileid: "79376813"
 ---
 # <a name="tips-for-asking-questions-in-power-bi-qa"></a>在 Power BI 问答中提问的提示
 
@@ -67,7 +67,7 @@ ms.locfileid: "79114282"
 |  |  |
 |**前 N 个**     |     （排序、排名）：前...名、后...名、最高、最低、第一、最后、下个、最早、最新、最旧、最新的、最近的、下一个            |
 |        |         |
-|**视觉对象类型**     |  来源于 Power BI 的所有视觉对象。  如果是“可视化效果”面板中的选项，那么你可以将其包含在你的问题中。  此规则的例外是，你已手动添加到“可视化效果”窗格的[自定义视觉对象](../developer/power-bi-custom-visuals.md)。  |
+|**视觉对象类型**     |  来源于 Power BI 的所有视觉对象。  如果是“可视化效果”面板中的选项，那么你可以将其包含在你的问题中。  此规则的例外情况是，你已手动添加到“可视化效果”窗格的 [Power BI 视觉对象](../developer/visuals/power-bi-custom-visuals.md)。  |
 |  |  示例：按照月份和销售总额以条形图显示地区               |
 |        |         |
 |**疑问词（关系、限定）**  | 时间、哪里、哪个、谁、多少、多少次、多久一次、金额、数字、数量、多久、什么                |

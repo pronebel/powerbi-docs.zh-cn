@@ -7,18 +7,18 @@ manager: rkarlin
 ms.reviewer: sranins
 ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
-ms.topic: conceptual
+ms.topic: tutorial
 ms.date: 06/18/2019
-ms.openlocfilehash: 0253455cfba96c3c467f4cf8882550e22edce8ba
-ms.sourcegitcommit: 8e3d53cf971853c32eff4531d2d3cdb725a199af
+ms.openlocfilehash: dd8510230a66a9897023686aefb72990ac01a5fd
+ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "76819229"
+ms.lasthandoff: 03/14/2020
+ms.locfileid: "79380345"
 ---
 # <a name="add-drill-down-support"></a>添加向下钻取支持
 
-自定义视觉对象可使用 Power BI 向下钻取。
+Power BI 视觉对象可使用 Power BI 向下钻取。
 
 在[此处](./../../consumer/end-user-drill.md)阅读有关 Power BI 向下钻取的详细信息
 
@@ -205,38 +205,38 @@ button {
 
 准备示例数据以测试视觉对象：
 
-|   H1  |   H2    | H3  |   值  |
+|   H1  |   H2    | H3  |   VALUES  |
 |-----|-----|------|-------|
-|   A   |   A1  |   A11 |   1   |
-|   A   |   A1  |   A12 |   2   |
-|   A   |   A2  |   A21 |   3   |
-|   A   |   A2  |   A22 |   4   |
-|   A   |   A3  |   A31 |   5   |
-|   A   |   A3  |   A32 |   6   |
-|   B   |   B1  |   B11 |   7   |
-|   B   |   B1  |   B12 |   8   |
-|   B   |   B2  |   B21 |   9   |
-|   B   |   B2  |   B22 |   10  |
-|   B   |   B3  |   B31 |   11  |
-|   B   |   B3  |   B32 |   12  |
+|   A   |    A1  |    A11 |    1   |
+|   A    |    A1    |    A12    |    2    |
+|   A    |    A2    |    A21    |    3    |
+|   A    |    A2    |    A22    |    4    |
+|   A    |    A3    |    A31    |    5    |
+|   A    |    A3    |    A32    |    6    |
+|   B    |    B1    |    B11    |    7    |
+|   B    |    B1    |    B12    |    8    |
+|   B    |    B2    |    B21    |    9    |
+|   B    |    B2    |    B22    |    10    |
+|   B    |    B3    |    B31    |    11    |
+|   B    |    B3    |    B32    |    12    |
 
 并在 Power BI Desktop 中创建层次结构：
 
-![创建新层次结构](./media/create-new-hierarchy.png)
+![创建新层次结构](media/drill-down-support/create-new-hierarchy.png)
 
 将所有类别列（H1、H2、H3）包括到新层次结构中：
 
-![创建新层次结构](./media/new-hierarchy.png)
+![创建新层次结构](media/drill-down-support/new-hierarchy.png)
 
 完成这些步骤后，将获取以下视觉对象：
 
-![具有按钮的开发视觉对象](./media/dev-visual-drilldown1.png)
+![具有按钮的开发视觉对象](media/drill-down-support/dev-visual-drilldown1.png)
 
 ## <a name="add-context-menu-to-visual-elements"></a>将上下文菜单添加到视觉对象元素
 
 在此步骤中，你将向视觉对象上的按钮添加上下文菜单：
 
-![视觉对象中的上下文菜单](./media/dev-visual-drilldown-context-menu.png)
+![视觉对象中的上下文菜单](media/drill-down-support/dev-visual-drilldown-context-menu.png)
 
 若要创建上下文菜单，请保存视觉对象属性中的 `host` 对象，并使用 Power BI 视觉对象 API 调用创建选择管理器的 `createSelectionManager` 方法以显示上下文菜单。
 
@@ -305,11 +305,11 @@ export class Visual implements IVisual {
 
 将数据应用于视觉对象：
 
-![带有数据的视觉对象](./media/dev-visual-drilldown-data.png)
+![带有数据的视觉对象](media/drill-down-support/dev-visual-drilldown-data.png)
 
 在最后的步骤，你将获取带有选择和上下文菜单的视觉对象：
 
-![带有向下钻取支持的视觉对象](./media/dev-visual-drilldown-demo.gif)
+![带有向下钻取支持的视觉对象](media/drill-down-support/dev-visual-drilldown-demo.gif)
 
 ## <a name="add-drill-down-support-for-matrix-data-view-mapping"></a>添加矩阵数据视图映射的向下钻取支持
 
@@ -389,7 +389,7 @@ export class Visual implements IVisual {
 
 将数据应用于视觉对象：
 
-![带有数据的视觉对象](./media/dev-matrix-visual-drilldown-data.png)
+![带有数据的视觉对象](media/drill-down-support/dev-matrix-visual-drilldown-data.png)
 
 导入所需接口以处理矩阵数据视图映射：
 
@@ -614,7 +614,7 @@ public update(options: VisualUpdateOptions) {
 
 在最后的步骤，你将获取带有上下文菜单的视觉对象：
 
-![带有向下钻取支持的视觉对象](./media/dev-matrix-visual-drilldown-demo.gif)
+![带有向下钻取支持的视觉对象](media\drill-down-support\dev-visual-drilldown-demo.gif)
 
 ## <a name="next-steps"></a>后续步骤
 

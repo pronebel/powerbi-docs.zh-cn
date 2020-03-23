@@ -9,23 +9,23 @@ ms.topic: conceptual
 ms.date: 03/11/2020
 ms.author: mihart
 LocalizationGroup: Consumer
-ms.openlocfilehash: d9e291ff4f61f69ec84e39767906a79f65c2f30f
-ms.sourcegitcommit: 480bba9c745cb9af2005637e693c5714b3c64a8a
+ms.openlocfilehash: 6bf8ccd9048262ce05aff68819ecdb31a44ddfe2
+ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/11/2020
-ms.locfileid: "79114178"
+ms.lasthandoff: 03/14/2020
+ms.locfileid: "79377181"
 ---
 # <a name="visual-types-in-power-bi"></a>Power BI 中的视觉对象类型
 
 [!INCLUDE[consumer-appliesto-yynn](../includes/consumer-appliesto-yynn.md)]
 
-你会在报表、仪表板和问答中找到视觉对象。 其中某些视觉对象类型与 Power BI 打包在一起，另有一些是自定义视觉对象  。 自定义视觉对象在 Power BI 外部创建，其创建方式使报表设计器  可以将它们添加到 Power BI 报表和仪表板。 
+你会在报表、仪表板和问答中找到视觉对象。 其中某些视觉对象类型使用 Power BI 进行打包，而另一些视觉对象类型是 Power BI 视觉对象  。 自定义视觉对象在 Power BI 外部创建，其创建方式使报表设计器  可以将它们添加到 Power BI 报表和仪表板。 
 
 本文是与 Power BI 服务打包在一起的视觉对象的概述。  这些是最常遇到的视觉对象。 有关这些视觉对象的详细信息，请参阅[有关视觉对象类型的 Power BI 报表设计器文档](../visuals/power-bi-visualization-types-for-reports-and-q-and-a.md) 
 
 > [!NOTE]
-> 若要了解自定义视觉对象，请在 [Microsoft AppSource](https://appsource.microsoft.com/marketplace/apps?product=power-bi-visuals) 的“Power BI 视觉对象”  部分中搜索它们。 对于每个视觉对象，你会找到说明、创建者信息以及屏幕截图或视频。 
+> 要了解 Power BI 视觉对象，请在 [Microsoft AppSource](https://appsource.microsoft.com/marketplace/apps?product=power-bi-visuals) 的“Power BI 视觉对象”  部分中搜索它们。 对于每个视觉对象，你会找到说明、创建者信息以及屏幕截图或视频。 
 
 ## <a name="list-of-visuals-available-in-power-bi"></a>Power BI 支持的视觉对象列表
 所有这些视觉对象都可以在 Power BI 仪表板和报表中找到，并[在问答中指定](end-user-q-and-a.md)。 若要了解如何与视觉对象进行交互，请参阅[与报表、仪表板和应用中的视觉对象交互](end-user-visualizations.md)
@@ -133,7 +133,7 @@ ArcGIS 地图和 Power BI 的结合将超越地图点表示法的地图绘制技
 
 形状地图使用颜色比较地图上的区域。 形状地图无法在地图上显示数据点的精确地理位置。 相反，其主要目的是通过不同方式对地图上的区域着色来显示这些区域的相对比较。
 
-### <a name="matrix"></a>矩阵
+### <a name="matrix"></a>Matrix
 ![矩形图](media/end-user-visual-type/matrix.png)
 
 矩阵视觉对象是一种支持渐变布局的表视觉对象类型（请参阅下面的“表”）。 通常，报表设计器在报表和仪表板中包括矩阵，以便使用户可以选择矩阵中的一个或多个元素（行、列、单元格）以在报表页上交叉突出其他视觉对象。  
@@ -237,7 +237,7 @@ ArcGIS 地图和 Power BI 的结合将超越地图点表示法的地图绘制技
 - 要说明一年中公司的起始和结束员工人数。
 - 要可视化你每月的收入和支出，以及你的帐户的不断变化的余额。
 
-## <a name="qna"></a>告知问答要使用哪个视觉对象
+## <a name="tell-qa-which-visual-to-use"></a><a name="qna"></a>告知问答要使用哪个视觉对象
 使用 Power BI 问答键入自然语言查询时，可以在查询中指定视觉对象类型。  例如：
 
 

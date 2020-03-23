@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 02/19/2020
+ms.date: 03/13/2020
 ms.author: kfollis
 LocalizationGroup: Get started
-ms.openlocfilehash: 590b00f5eb03b1bd31430866a52faa4748f9b32a
-ms.sourcegitcommit: f9909731ff5b6b69cdc58e9abf2025b7dee0e536
+ms.openlocfilehash: b36bc6d23b56b4118f848ad9fa4e8f39dbc65d2d
+ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/20/2020
-ms.locfileid: "77496927"
+ms.lasthandoff: 03/14/2020
+ms.locfileid: "79376715"
 ---
 # <a name="power-bi-for-us-government-customers"></a>适用于美国政府客户的 Power BI
 本文适用于将 Power BI 作为 Office 365 政府版计划的一部分进行部署的美国政府客户。 政府版计划专为必须满足美国合规性和安全性标准的组织的独特需求而设计。 为美国政府客户设计的 Power BI 服务不同于 Power BI 服务的商业版本。 下面几节说明了这些特性差异和功能。
@@ -46,7 +46,7 @@ Office 365 为政府机构提供不同的环境，以满足不同的符合性要
 部署 Office 365 后，可以添加 Power BI 订阅。 按照[注册美国政府组织](service-govus-signup.md#existing-office-government-cloud-customers)中的分步指南来购买 Power BI Pro 政府版服务。 为需要使用 Power BI 的所有用户购买足够的许可证，然后将这些许可证分配给单个用户帐户。
 
 > [!IMPORTANT]
-> Power BI 美国政府版不可用作免费许可证。 必须为每个用户分配 Pro 许可证，才能访问政府社区云。 如果为用户帐户分配了免费许可证，则他们只能访问商业云，并会遇到身份验证和访问问题。 若要查看许可证类型之间的差异，请参阅[按许可证类型划分 Power BI 服务功能](service-features-license-type.md)。
+> Power BI 美国政府版不可用作免费许可证。 必须为每个用户分配 Pro 许可证，才能访问政府社区云。 如果为用户帐户分配了免费许可证，则他们只能访问商业云，并会遇到身份验证和访问权限问题。 如果你已购买 Power BI Premium，则你无需分配 Pro 许可证即可启用用户访问权限。  只要将报表发布到 Premium 容量，组织中的任何用户都可以访问与他们共享的报表。 若要查看许可证类型之间的差异，请参阅[按许可证类型划分 Power BI 服务功能](service-features-license-type.md)。
 >
 >
 

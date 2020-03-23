@@ -2,19 +2,19 @@
 title: 使用 Power BI Desktop 中的形状地图（预览）
 description: 使用 Power BI Desktop 中的形状地图创建区域的相对比较
 author: mihart
-ms.reviewer: amanda, justyna, sujata
+ms.reviewer: justyna, sujata
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 11/14/2019
+ms.date: 03/18/2020
 ms.author: mihart
 LocalizationGroup: Transform and shape data
-ms.openlocfilehash: 3a043a343994c02a916102b83fe79d1ccd5208bf
-ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
+ms.openlocfilehash: 67c2acad74827c515c92ed0d16dd642170b8dc61
+ms.sourcegitcommit: 646d2de454a2897dc52cbc02b7743aaa021bac04
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/09/2020
-ms.locfileid: "75762315"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "79525651"
 ---
 # <a name="create-shape-map-visualizations-in-power-bi-desktop-preview"></a>在 Power BI Desktop 中创建形状地图可视化效果（预览）
 
@@ -22,7 +22,7 @@ ms.locfileid: "75762315"
 
 创建  “形状地图”视觉对象以使用颜色比较地图上的区域 与  “地图”视觉对象不同，  “形状地图”无法在地图上显示数据点的精确地理位置。 相反，其主要目的是通过不同方式对地图上的区域着色来显示这些区域的相对比较。
 
- “形状地图”视觉对象基于 ESRI/TopoJSON 地图，它有一项极具吸引力的功能，即，使用你可以创建的自定义地图。 自定义地图包括地理位置、座位安排和楼层平面图等等。 在预览版“形状地图”中无法使用自定义地图  。
+“形状地图”视觉对象基于 TopoJSON 地图，它有一项极具吸引力的功能，即，使用你可以创建的自定义地图  。 自定义地图包括地理位置、座位安排和楼层平面图等等。 在预览版“形状地图”中无法使用自定义地图  。
 
 ## <a name="creating-shape-maps"></a>创建形状地图
 你可以使用与此预览版本一同发行的地图测试“形状地图”  控件，或者你可以使用自定义地图，只要它满足以下**使用自定义映射**章节中列出的要求。
@@ -79,7 +79,7 @@ https://www.justice.gov/usao/resources/annual-statistical-reports
 
 ![德克萨斯州形状地图](media/desktop-shape-map/shape-map-7b.png)
 
-如果想试验该数据集和可视化效果，可以从下列链接下载用于生成此报表的原始 PBIX 文件。
+如果想使用该数据集和可视化效果进行试验，可以从下列链接下载用于生成此报表的原始 PBIX 文件。
 
 * [自定义形状地图的演示 .PBIX 文件](https://download.microsoft.com/download/1/2/8/128943FB-9231-42BD-8A5D-5E2362C9D589/DistrictAttorneyFiscalReport.pbix)
 

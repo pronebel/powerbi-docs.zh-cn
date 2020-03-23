@@ -9,18 +9,18 @@ ms.topic: conceptual
 ms.date: 01/14/2020
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 8737a0e9b2dd8ba17d28962ed51e24ec0c5cefc4
-ms.sourcegitcommit: 0ae9328e7b35799d5d9613a6d79d2f86f53d9ab0
+ms.openlocfilehash: 12c2d839c14a4a982505f56b7d605bacc5edc728
+ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/16/2020
-ms.locfileid: "76040464"
+ms.lasthandoff: 03/14/2020
+ms.locfileid: "79381413"
 ---
 # <a name="visualization-types-in-power-bi"></a>Power BI 中的可视化效果类型
 ## <a name="power-bi-visualizations"></a>Power BI 可视化效果
 我们将添加新的可视化效果，请继续关注！
 
-同时可以浏览 [Microsoft AppSource](https://appsource.microsoft.com/marketplace/apps?product=power-bi-visuals)，上面有不断扩增的[自定义视觉对象](../developer/power-bi-custom-visuals.md)列表。可以下载并在自己的仪表板和报表中使用这些视觉对象。 有创造性的点子？ [了解如何创建并将自己的视觉对象添加到此社区网站](../developer/office-store.md)。  
+同时可以浏览 [Microsoft AppSource](https://appsource.microsoft.com/marketplace/apps?product=power-bi-visuals)，上面有不断扩增的 [Power BI 视觉对象](../developer/visuals/power-bi-custom-visuals.md)列表。可以下载这些视觉对象并在自己的仪表板和报表中使用。 有创造性的点子？ [了解如何创建并将自己的视觉对象添加到此社区网站](../developer/visuals/office-store.md)。  
 
 ## <a name="list-of-visualizations-available-in-power-bi"></a>Power BI 中可用的可视化效果列表
 所有这些可视化效果可以被添加到 Power BI 报表、在问答中指定和固定到仪表板。
@@ -132,7 +132,7 @@ ms.locfileid: "76040464"
 有关详细信息，请参阅 [Power BI 中的形状图](desktop-shape-map.md)。
 
 
-### <a name="matrix"></a>矩阵
+### <a name="matrix"></a>Matrix
 ![矩形图](media/power-bi-visualization-types-for-reports-and-q-and-a/matrix.png)
 
 >[!TIP]

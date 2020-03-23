@@ -9,17 +9,17 @@ ms.topic: conceptual
 ms.date: 10/22/2019
 ms.author: nikhilga
 LocalizationGroup: Get started
-ms.openlocfilehash: 32f0c03fc0ae586b8b98c7a4c84c9d4c7bbd9078
-ms.sourcegitcommit: ced8c9d6c365cab6f63fbe8367fb33e6d827cb97
+ms.openlocfilehash: 878e4a2e033d33e8c6bb027f35976c19e8b108c9
+ms.sourcegitcommit: a175faed9378a7d040a08ced3e46e54503334c07
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/07/2020
-ms.locfileid: "78920970"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "79488835"
 ---
 # <a name="whats-new-in-the-power-bi-service"></a>Power BI 服务中的新功能
 请阅读此页，了解 Power BI 服务中的已知问题和最近发布的功能  。 有关相关的“新增功能”的信息，请参阅：
 
-- [2018 年 10 月商业智能](https://docs.microsoft.com/business-applications-release-notes/October18/intelligence-platform/planned-features)发行说明（由 Microsoft 商务应用程序团队提供）：针对业务应用程序的最新更新。
+- [2018 年 10 月商业智能的新增功能](https://docs.microsoft.com/business-applications-release-notes/October18/intelligence-platform/planned-features)发行说明（由 Microsoft Business Applications 团队提供）：针对业务应用程序的最新更新。
 - [Power BI Desktop 中的新增功能](desktop-latest-update.md)  
 - [Power BI 移动应用中的新增功能](consumer/mobile/mobile-whats-new-in-the-mobile-apps.md)  
 - [Power BI 团队博客](https://powerbi.microsoft.com/blog/)
@@ -91,7 +91,7 @@ ms.locfileid: "78920970"
 * 经过筛选的 PPT 和 PDF 导出操作。
 * 管理门户中的[帮助和支持设置](https://powerbi.microsoft.com/blog/tailoring-help-and-support-for-power-bi-users/)。
 * [数据流](service-dataflows-overview.md)的数据沿袭体验。
-* 管理门户中的“认证的自定义视觉对象”设置。
+* 管理门户中的“经认证的 Power BI 视觉对象”设置。
 
 ### <a name="january-2019"></a>2019 年 1 月
 * 在内部门户或网站中[嵌入的安全 Power BI 报表](service-embed-secure.md)。
@@ -126,7 +126,7 @@ ms.locfileid: "78920970"
 * Power BI [报表 URL 筛选器](service-url-filters.md)改进。
 
 ### <a name="july-2018"></a>2018 年 7 月
-* [永久筛选器](https://powerbi.microsoft.com/blog/announcing-persistent-filters-in-the-service/)的自定义视觉对象支持。
+* [永久筛选器](https://powerbi.microsoft.com/blog/announcing-persistent-filters-in-the-service/)的 Power BI 视觉对象支持。
 * 适用于 Power BI 管理员的 [API 和 PowerShell Cmdlet](https://powerbi.microsoft.com/blog/announcing-apis-and-powershell-cmdlets-for-power-bi-administrators/)。
 * Power BI Premium 的[多地理位置支持](service-admin-premium-multi-geo.md)。
 
@@ -153,20 +153,20 @@ ms.locfileid: "78920970"
 ### <a name="february-2018"></a>2018 年 2 月
 * 自动为最终用户安装 [Power BI 应用](service-create-distribute-apps.md)。
 * Power BI Premium 上的 P4 和 P5 容量
-* [组织自定义视觉对象](developer/power-bi-custom-visuals-organization.md)预览。
+* [组织 Power BI 视觉对象](developer/visuals/power-bi-custom-visuals-organization.md)预览。
 
 ### <a name="january-2018"></a>2018 年 1 月
-*   共享和收藏 Power BI 报表。
-*   针对 Azure SQL 数据库和数据仓库的 OAuth2 和 DirectQuery 单一登录 (SSO) 支持。
-*   区域内审核：审核日志现在将存储在与其租户相同的 Office 365 区域中。
-*   公开发行版的 SharePoint Online [Power BI 报表 Web 部件](https://go.microsoft.com/fwlink/p/?LinkId=825698)。
-*   禁止查看租户中所有用户的自定义视觉对象的管理员控制。
-*   针对 Azure Analysis Services (AAS) 的计划刷新支持。
+*    共享和收藏 Power BI 报表。
+*    针对 Azure SQL 数据库和数据仓库的 OAuth2 和 DirectQuery 单一登录 (SSO) 支持。
+*    区域内审核：审核日志现在将存储在与其租户相同的 Office 365 区域中。
+*    公开发行版的 SharePoint Online [Power BI 报表 Web 部件](https://go.microsoft.com/fwlink/p/?LinkId=825698)。
+*    禁止查看租户中所有用户的 Power BI 视觉对象的管理员控件。
+*    针对 Azure Analysis Services (AAS) 的计划刷新支持。
 
 ## <a name="previous-months-2017"></a>前几个月 (2017)
 ### <a name="october-and-november-2017"></a>2017 年 10 月和 11 月
-*   通过 [Power BI 应用](service-create-distribute-apps.md)进行内容选择性发布。
-*   使用 [Azure Active Directory B2B](https://powerbi.microsoft.com/blog/power-bi-expands-access-to-intelligence-for-external-guest-users/preview/) 进行外部用户分发。
+*    通过 [Power BI 应用](service-create-distribute-apps.md)进行内容选择性发布。
+*    使用 [Azure Active Directory B2B](https://powerbi.microsoft.com/blog/power-bi-expands-access-to-intelligence-for-external-guest-users/preview/) 进行外部用户分发。
 * 由 AI 提供支持的应用建议。
 * 仪表板磁贴上的 UI 更新。
 * 针对应用的电子邮件订阅支持。 
@@ -183,8 +183,8 @@ ms.locfileid: "78920970"
 * 通过[每用户使用情况指标](https://powerbi.microsoft.com/blog/introducing-per-user-usage-metrics-know-your-audience-and-amplify-your-impact/)了解你的受众。
 * 开始使用 [Power BI 服务](service-connect-to-services.md)应用，获取在线服务。
 * 通过导入和 DirectQuery 连接模式使用本地数据网关连接到 IBM Netezza。
-* [动态 RLS](developer/embedded-row-level-security.md) 现支持 Power BI Embedded。
-* 现为 1.7 版本的自定义视觉对象 API 添加了高级[筛选 API](https://github.com/Microsoft/powerbi-visuals-sampleslicer/blob/master/doc/UsingAdvancedFilterAPI.md)。
+* [动态 RLS](developer/embedded/embedded-row-level-security.md) 现支持 Power BI Embedded。
+* 现为 1.7 版本的 Power BI 视觉对象 API 添加了高级[筛选 API](https://github.com/Microsoft/powerbi-visuals-sampleslicer/blob/master/doc/UsingAdvancedFilterAPI.md)。
 
 ### <a name="july-2017"></a>2017 年 7 月
 * 支持在仪表板上进行[电子邮件订阅](consumer/end-user-subscribe.md)。
@@ -197,7 +197,7 @@ ms.locfileid: "78920970"
 * 多个 API 改进[便于自动执行计划的刷新](https://powerbi.microsoft.com/blog/announcing-data-refresh-apis-in-the-power-bi-service/)，[克隆和重新绑定报表](https://github.com/Azure-Samples/powerbi-powershell/blob/master/rebindReport.ps1)，[更新网关绑定](https://msdn.microsoft.com/library/mt784650.aspx)等
 * Power BI 应用中从仪表板磁贴到其他仪表板和报表的相对链接。
 * [Impala 连接器](https://powerbi.microsoft.com/blog/power-bi-desktop-june-feature-summary/#impala)通常可在 Power BI Desktop 上使用。
-* 使用[交互式 R 自定义视觉对象](https://powerbi.microsoft.com/blog/interactive-r-custom-visuals-support-is-here/)扩展 Power BI 的视觉对象功能。
+* 使用[交互式 R Power BI 视觉对象](https://powerbi.microsoft.com/blog/interactive-r-custom-visuals-support-is-here/)扩展 Power BI 的视觉对象功能。
 
 ### <a name="april-and-may-2017"></a>2017 年 4 月和 5 月
 * 通过[适用于仪表板和报表创建者的使用情况指标](service-usage-metrics.md)衡量并扩大影响。
@@ -213,7 +213,7 @@ ms.locfileid: "78920970"
 * 改进了[用于 DAX 查询的故障排除消息](https://powerbi.microsoft.com/blog/power-bi-service-march-feature-summary/#DAXtroubleshooting)。
 * 使用[自定义缓存刷新计划](https://powerbi.microsoft.com/blog/announcing-custom-cache-refresh-schedules-in-the-power-bi-service/)更好地控制数据集。
 * 连接到 [Amazon Redshift](https://powerbi.microsoft.com/blog/announcing-support-for-amazon-redshift-reports-in-the-power-bi-service/)。
-* 浏览 [Office 应用商店中的 Power BI 自定义视觉对象](https://powerbi.microsoft.com/blog/custom-visuals-now-available-in-the-office-store/)。
+* 浏览 [Office 应用商店中的 Power BI 视觉对象](https://powerbi.microsoft.com/blog/custom-visuals-now-available-in-the-office-store/)。
 * 预览：[订阅报表页](https://powerbi.microsoft.com/blog/introducing-email-subscriptions-in-power-bi-stay-informed-when-it-matters/)以便随时了解数据。
 * 使用 Azure AD 内容包深入了解你的员工和合作伙伴如何使用 Azure AD。
 
@@ -225,7 +225,7 @@ ms.locfileid: "78920970"
 ### <a name="january-2017"></a>2017 年 1 月
 * 使用 [Power BI 管理员角色](https://powerbi.microsoft.com/blog/power-bi-service-january-feature-summary/#pbiadminrole)管理 Power BI。
 * Office 365 审核门户中的 [Power BI 审核日志](https://powerbi.microsoft.com/blog/power-bi-service-january-feature-summary/#auditlogs)面向全球推出。
-* 发布了 1.4 版的[开发人员工具和自定义可视化 API](https://powerbi.microsoft.com/blog/new-apis-available-for-custom-visuals-developers/)。
+* 发布了 1.4 版的[开发人员工具和 Power BI 可视化 API](https://powerbi.microsoft.com/blog/new-apis-available-for-custom-visuals-developers/)。
 * 公开发布了[实时流式处理功能集](https://powerbi.microsoft.com/blog/announcing-general-availability-of-power-bi-real-time-streaming-datasets/)。
 * [使用 Power Automate 将数据推送到 Power BI](https://powerbi.microsoft.com/blog/push-rows-to-a-power-bi-streaming-dataset-without-writing-any-code-using-microsoft-flow/)，无需编写代码。
 * 预览：[订阅报表页](https://powerbi.microsoft.com/blog/introducing-email-subscriptions-in-power-bi-stay-informed-when-it-matters/)以便随时了解数据。
@@ -604,7 +604,7 @@ Power BI 团队在整个假期都在忙。 有关所有详细信息，[请访问
 
 **2015 年 10 月 6 日**
 
-* 在 Power BI问答中，你可以使用简单、直观的问题来浏览数据，并以交互式图表和图形的方式来获取答案。 在此版本中，我们添加了一项功能来帮助你 Power BI 问答入门，即使你不知道任何有关数据的信息。 若要开始使用此功能，请[导航到任何仪表板并单击靠近问答问题框的“如何提问”链接](power-bi-tutorial-q-and-a.md)。 Power BI 将根据你的数据向你提供很多建议。
+* 在 Power BI问答中，你可以使用简单、直观的问题来浏览数据，并以交互式图表和图形的方式来获取答案。 在此版本中，我们添加了一项功能来帮助你 Power BI 问答入门，即使你不知道任何有关数据的信息。 要开始使用此功能，请[导航到任何仪表板并单击问答提问框旁边的“如何提问”链接](power-bi-tutorial-q-and-a.md)。 Power BI 将根据你的数据向你提供很多建议。
 * 两个星期前，我们引入在 Power BI Desktop 的报表画布中插入形状的支持。 本周我们非常高兴地宣布当你在 Power BI Web 应用中创作和/或编辑报表时可以将形状添加到报表画布中。
 * 我们添加了在共享仪表板时关闭电子邮件通知的选项。 只需取消选中 Power BI 共享对话框中的“向收件人发送电子邮件通知”复选框。 系统将向你提供一个 URL – 复制并向你的同事共享此 URL，以便授予他们访问仪表板的权限。
 * Microsoft Dynamics NAV 是面向小到中型组织的业务管理解决方案。 它为客户的业务提供完整的解决方案，使他们能够更好地控制其财务和业务流程。 此 Power BI 内容包为 Dynamics NAV 用户提供现成的报表，如销售额和利润、机会渠道、盈利能力等等。 这些指标在可以完全自定义的仪表上进行组织，你可以轻松连接并立即开始探究你的数据。
@@ -613,7 +613,7 @@ Power BI 团队在整个假期都在忙。 有关所有详细信息，[请访问
 
 **2015 年 9 月 29 日**
 
-* 通过本周的服务更新，当你创建新报表时可以从多个页面大小中进行选择，也可以定义自己的页面大小。 这可以控制报表中每页的大小和纵横比。
+* 通过本周的服务更新，创建新报表时可以从多个页面大小中进行选择，也可以定义自己的页面大小。 这可以控制报表中每页的大小和纵横比。
 * 我们为图像和气泡图添加了额外的可视化格式支持。 调整图像大小时你可以锁定图像的纵横比，以避免图像扭曲，可以将散点图和气泡图配置为填充或不填充。
 * 现在，Power BI 将向备选电子邮件地址发送共享邀请。 当与你共享仪表板时，我们将同时向你的原始电子邮件地址和备用电子邮件地址（如果已配置）发送共享邀请链接。
 * Power BI 可供所有客户使用，包括 Dedicated on Multitenant (DonMT) O365 体系结构中的客户。 你将在多租户模式下将 Power BI 作为共享服务使用。 在大多数情况下，你可以按照简单的[自助服务注册流程](https://powerbi.microsoft.com/)注册 Power BI – 只需输入你的工作电子邮件地址，输入名称和密码就可以开始注册。 如果你是租户管理员，你可以使用[此处](https://go.microsoft.com/fwlink/?LinkId=627174)的说明将许可证分配给用户。
@@ -626,7 +626,7 @@ Power BI 团队在整个假期都在忙。 有关所有详细信息，[请访问
 * 仪表板具有更多灵活性，你可以使用更多磁贴大小（范围从 1x1 到 5x5）自定义仪表板。
 * 你现在可以在组空间[共享（和取消共享）仪表板](service-collaborate-power-bi-workspace.md)，其方法与在自己空间共享的方法一样。 一旦同事接受了你的共享邀请，将在他们自己的空间添加此具有只读权限的共享仪表板（和相关联的报表）。
 * 我们在 Power BI 中添加了 5 个额外的[行业相关示例](sample-datasets.md)：客户盈利率、人力资源、机会分析、采购分析和销售和市场营销示例。
-* Stripe 是一个针对在线业务的高级支付平台。 从刚起步的公司到财富 500 强企业，数以千计的公司使用 Stripe 接受 130 多种货币的、来自世界上任何人的付款。 通过将 Power BI 与你现有的 Stripe 帐户相连接，你可以[使用 Power BI Stripe 内容包来监视、浏览和可视化 Stripe 活动](service-connect-to-stripe.md)。
+* Stripe 是一个针对在线业务的高级支付平台。 从刚起步的公司到财富 500 强企业，数以千计的公司使用 Stripe 接受 130 多种货币的、来自世界上任何人的付款。 通过将 Power BI 与你现有的 Stripe 帐户相连接，可以[使用 Power BI Stripe 内容包来监视、浏览和可视化 Stripe 活动](service-connect-to-stripe.md)。
 
 [在我们的博客中了解详细信息](https://blogs.msdn.com/b/powerbi/archive/2015/09/22/power-bi-weekly-service-update-0922.aspx)。
 
@@ -654,7 +654,7 @@ Power BI 团队在整个假期都在忙。 有关所有详细信息，[请访问
 
 **2015 年 8 月 18 日**
 
-* Azure Mobile Engagement 是一个应用程序分析服务，允许开发人员跟踪他们的应用程序的性能，以帮助他们增加用户保留率和应用程序使用率。 使用 [Power BI Azure Mobile Engagement 内容包](https://blogs.msdn.com/b/powerbi/archive/2015/08/17/monitor-and-analyze-your-azure-mobile-engagement-data-in-power-bi.aspx)可以快速连接到现成的仪表板、一组报表和一个策展的数据集，并且立即深入了解应用程序的运行情况。 有关详细信息，请参阅[适用于 Power BI 的 Azure Mobile Engagement 内容包](service-connect-to-azure-mobile.md)。
+* Azure Mobile Engagement 是一个应用程序分析服务，允许开发人员跟踪他们的应用程序的性能，以帮助他们增加用户保留率和应用使用率。 使用 [Power BI Azure Mobile Engagement 内容包](https://blogs.msdn.com/b/powerbi/archive/2015/08/17/monitor-and-analyze-your-azure-mobile-engagement-data-in-power-bi.aspx)可以快速连接到现成的仪表板、一组报表和一个策展的数据集，并且立即深入了解应用程序的运行情况。 有关详细信息，请参阅[适用于 Power BI 的 Azure Mobile Engagement 内容包](service-connect-to-azure-mobile.md)。
 
 **2015 年 8 月 11 日**
 

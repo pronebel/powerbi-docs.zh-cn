@@ -8,12 +8,12 @@ ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 03/08/2020
 ms.author: painbar
-ms.openlocfilehash: c7280b2b6bb34b070e7ced3785959d61c74cd165
-ms.sourcegitcommit: 87b7cb4a2e626711b98387edaa5ff72dc26262bb
+ms.openlocfilehash: 58ef9c6760194e3f11374bdb0663552fd11ce285
+ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/10/2020
-ms.locfileid: "79041234"
+ms.lasthandoff: 03/14/2020
+ms.locfileid: "79377366"
 ---
 # <a name="configure-report-interaction-settings"></a>配置报表交互设置
 
@@ -49,7 +49,7 @@ Power BI 移动应用具有许多可配置的“交互”设置，使你可以�
 若要取消选择数据点，请再次点击它。
 
 >[!NOTE]
->自定义视觉对象不支持多选。
+>Power BI 视觉对象不支持多选。
 >
 >在下一版报表服务器中，Power BI 报表服务器将支持多选模式。
 

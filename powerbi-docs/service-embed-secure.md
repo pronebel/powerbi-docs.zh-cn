@@ -9,12 +9,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 01/30/2020
 LocalizationGroup: Share your work
-ms.openlocfilehash: 019a3af81cd3661307fd9de6d0577ac58a11ae6a
-ms.sourcegitcommit: ced8c9d6c365cab6f63fbe8367fb33e6d827cb97
+ms.openlocfilehash: 58f9a56d41bd35987f7c258fafdbff26aedf5df1
+ms.sourcegitcommit: a175faed9378a7d040a08ced3e46e54503334c07
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/07/2020
-ms.locfileid: "78919799"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "79488812"
 ---
 # <a name="embed-a-report-in-a-secure-portal-or-website"></a>在安全门户或网站中嵌入报表
 
@@ -40,7 +40,7 @@ ms.locfileid: "78919799"
 
     ![嵌入报表](media/service-embed-secure/secure-embed-report.png)
 
-5. 使用 iFrame 时，你可能需要编辑“高度”和“宽度”，以使其适合门户的网页   。
+5. 使用 iFrame 时，可能需要编辑“高度”和“宽度”，以使其适合门户的网页   。
 
     ![设置高度和宽度](media/service-embed-secure/secure-embed-size.png)
 
@@ -81,7 +81,7 @@ ms.locfileid: "78919799"
 
 将 pageName  和 [URL 筛选器](service-url-filters.md)结合使用的功能非常强大。 可以使用基本 HTML 和 JavaScript 生成体验。
 
-例如，你可以将以下按钮添加到 HTML 页面：
+例如，可以将以下按钮添加到 HTML 页面：
 
 ```html
 <button class="textLarge" onclick='show("ReportSection", "Energy");' style="display: inline-block;">Show Energy</button>
@@ -104,7 +104,7 @@ newUrl += "&$filter=Industries/Industry eq '" + filterValue + "'";
 
 }
 
-//Assumes there’s an iFrame on the page with id=”iFrame”
+//Assumes there's an iFrame on the page with id="iFrame"
 
 var report = document.getElementById("iFrame")
 
@@ -133,9 +133,9 @@ report.src = newUrl;
 
 * 经典 SharePoint Server 不受支持，因为它需要 11 之前的 Internet Explorer 版本或启用“兼容性视图”模式。
 
-* 要实现单一登录体验，请使用[“在 SharePoint Online 中嵌入”选项](service-embed-report-spo.md)，或使用[用户拥有数据](developer/embed-sample-for-your-organization.md)嵌入方法生成自定义集成。 
+* 要实现单一登录体验，请使用[“在 SharePoint Online 中嵌入”选项](service-embed-report-spo.md)，或使用[用户拥有数据](developer/embedded/embed-sample-for-your-organization.md)嵌入方法生成自定义集成。 
 
-* 随“嵌入”  选项提供的自动身份验证功能不适用于 Power BI JavaScript API。 对于 Power BI JavaScript API，请使用[用户拥有数据](developer/embed-sample-for-your-organization.md)嵌入方法。 
+* 随“嵌入”  选项提供的自动身份验证功能不适用于 Power BI JavaScript API。 对于 Power BI JavaScript API，请使用[用户拥有数据](developer/embedded/embed-sample-for-your-organization.md)嵌入方法。 
 
 * 身份验证令牌生存期基于 AAD 设置进行控制。 当身份验证令牌过期时，用户需要刷新其浏览器以获取更新的身份验证令牌。 默认生存期为一小时，但你的组织可能设置更短或更长的时间。
 

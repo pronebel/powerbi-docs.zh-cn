@@ -7,16 +7,16 @@ manager: rkarlin
 ms.reviewer: sranins
 ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
-ms.topic: conceptual
+ms.topic: reference
 ms.date: 06/18/2019
-ms.openlocfilehash: ad63a1b97c744e8614e584874c4d896a85598e48
-ms.sourcegitcommit: 8e3d53cf971853c32eff4531d2d3cdb725a199af
+ms.openlocfilehash: bb323737934ade08ed4998bdcf8d441e8951732c
+ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "76819114"
+ms.lasthandoff: 03/14/2020
+ms.locfileid: "79379813"
 ---
-# <a name="add-the-locale-in-power-bi-for-custom-visuals"></a>为自定义视觉对象添加 Power BI 区域设置
+# <a name="add-the-locale-in-power-bi-for-power-bi-visuals"></a>在 Power BI 中为 Power BI 视觉对象添加区域设置
 
 视觉对象可以检索 Power BI 区域设置，以将其内容本地化为相关语言。
 
@@ -24,7 +24,7 @@ ms.locfileid: "76819114"
 
 例如，在 Sample Bar Chart 视觉对象中获取区域设置。
 
-![Sample Bar Chart 视觉对象中的本地化](media/locale-in-samplebarchart.png)
+![Sample Bar Chart 视觉对象中的本地化](media/localization/locale-in-samplebarchart.png)
 
 其中的每个条形图都是使用不同的区域设置（英语、巴斯克语和印地语）创建的，并显示在工具提示中。
 
@@ -95,13 +95,13 @@ zh-TW | 中國（繁体中文）
 > [!NOTE]
 > 在 PowerBI Desktop 中，区域设置属性将包含所安装的 PowerBI Desktop 的语言。
 
-## <a name="localizing-the-property-pane-for-custom-visuals"></a>本地化自定义视觉对象的“属性”窗格
+## <a name="localizing-the-property-pane-for-power-bi-visuals"></a>本地化 Power BI 视觉对象的“属性”窗格
 
 可对“属性”窗格中的字段进行本地化，以提供更加完整和一致的体验。 该操作可使自定义视觉对象的行为类似于任何其他 Power BI 核心视觉对象。
 
 例如，使用 `pbiviz new` 命令创建的未本地化的自定义视觉对象将在“属性”窗格中显示以下字段：
 
-![“属性”窗格中的本地化](media/property-pane.png)
+![“属性”窗格中的本地化](media/localization/property-pane.png)
 
 类别数据和度量数据均在 capability.json 文件中定义为 `displayName`。
 
@@ -132,7 +132,7 @@ zh-TW | 中國（繁体中文）
 
 在我们的示例中，假设我们要支持阿拉伯语和希伯来语。 我们将需要按以下方式添加两个 JSON 文件：
 
-![字符串资源文件夹中的本地化字符串](media/stringresources-files.png)
+![字符串资源文件夹中的本地化字符串](media/localization/stringresources-files.png)
 
 每个 JSON 文件定义一个区域设置（此文件必须是上面支持的列表中的区域设置之一），其中包含所需显示名称键的字符串值。 在我们的示例中，希伯来语字符串资源文件如下所示：
 
@@ -161,13 +161,13 @@ zh-TW | 中國（繁体中文）
 
 如果在服务中使用 Web 客户端（浏览器），请在设置中更改语言：
 
-![Web 服务中的本地化](media/webservice-settings.png)
+![Web 服务中的本地化](media/localization/webservice-settings.png)
 
 ## <a name="resource-file"></a>资源文件
 
 将 resource.resjson 文件添加到一个文件夹中，该文件夹以将在 stringResources 文件夹中使用的区域设置命名。 本例中为 en-US 和 ru-RU。
 
-![新的 resjson 文件](media/new-resjson.png)
+![新的 resjson 文件](media/localization/new-resjson.png)
 
 然后，将要使用的所有本地化字符串添加到上一步中添加的 resources.resjson 文件中。
 

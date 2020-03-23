@@ -3,19 +3,19 @@ title: 在 Power BI 报表中嵌入新的 Power App
 description: 嵌入一个使用相同数据源并且可以像其他报表项一样进行筛选的应用
 author: mihart
 manager: kvivek
-ms.reviewer: ''
+ms.reviewer: tapan maniar
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: tutorial
-ms.date: 02/03/2020
+ms.date: 03/17/2020
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 99869740eb20b14625e66ff50cb48b08e5cb3e15
-ms.sourcegitcommit: 75300b3f53f438ed7d3bd4edc93b9eb5925bf3af
+ms.openlocfilehash: 3be5f9efe3a6e18ba46f6990b09952d37b967e16
+ms.sourcegitcommit: 646d2de454a2897dc52cbc02b7743aaa021bac04
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "77036667"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "79525927"
 ---
 # <a name="tutorial-embed-a-power-apps-visual-in-a-power-bi-report"></a>教程：在 Power BI 报表中嵌入 Power Apps 视觉对象
 
@@ -106,4 +106,5 @@ ms.locfileid: "77036667"
 
 
 ## <a name="next-steps"></a>后续步骤
-[问答视觉对象](power-bi-visualization-types-for-reports-and-q-and-a.md)
+[问答视觉对象](power-bi-visualization-types-for-reports-and-q-and-a.md)    
+[教程：在 Power BI 报表中嵌入 Power Apps 视觉对象](https://docs.microsoft.com/powerapps/maker/canvas-apps/powerapps-custom-visual)

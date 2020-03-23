@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 10/14/2019
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: 047aa5e19089555538c874702dd50da0f1146ff1
-ms.sourcegitcommit: 578d43aeb7cebf40f3caf03a614bc885cc039488
+ms.openlocfilehash: ed1100a418259845e6a2656e1c5bab6d80358df0
+ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/10/2020
-ms.locfileid: "77115276"
+ms.lasthandoff: 03/14/2020
+ms.locfileid: "79381068"
 ---
 # <a name="real-time-streaming-in-power-bi"></a>Power BI 中的实时流式处理
 通过 Power BI 实时流式处理，可以流式处理数据并实时更新仪表板。 可以在 Power BI 中创建的任何视觉对象或仪表板也可以创建为显示和更新实时数据和视觉对象。 流式处理数据的设备和源可以是工厂传感器、社交媒体源、服务使用情况指标和其他可从其收集或传输时间敏感数据的任何设备。
@@ -33,7 +33,7 @@ ms.locfileid: "77115276"
 首先让我们来了解这些数据集之间的区别（本节），然后讨论如何将数据推送到各个数据集中。
 
 ### <a name="push-dataset"></a>推送数据集
-使用**推送数据集**，数据将推送到 Power BI 服务中。 创建数据集后，Power BI 服务会在服务中自动创建一个新数据库以存储数据。 由于有一个基础数据库在不断存储传入的数据，因此可以使用数据创建报表。 这些报表及其视觉对象就像任何其他报表视觉对象一样，这意味着你可以使用 Power BI 的所有报表生成功能来创建视觉对象，包括自定义视觉对象、数据警报、固定的仪表板磁贴等。
+使用**推送数据集**，数据将推送到 Power BI 服务中。 创建数据集后，Power BI 服务会在服务中自动创建一个新数据库以存储数据。 由于有一个基础数据库在不断存储传入的数据，因此可以使用数据创建报表。 这些报表及其视觉对象就像任何其他报表视觉对象一样，这意味着你可以使用 Power BI 的所有报表生成功能来创建视觉对象，包括 Power BI 视觉对象、数据警报、固定的仪表板磁贴等。
 
 使用推送数据集创建报表后，其任何视觉对象都可以固定到仪表板。 在该仪表板上，每当数据更新时，视觉对象就会实时更新。 在服务中，仪表板每次接收新数据时都会触发磁贴刷新。
 
@@ -45,16 +45,16 @@ ms.locfileid: "77115276"
 ### <a name="streaming-dataset"></a>流式处理数据集
 使用**流式处理数据集**，数据也会推送到 Power BI 服务中，但有一个重要区别：Power BI 仅将数据存储到临时缓存中，该缓存很快就会过期。 临时缓存仅用于显示具有一些暂时性历史感的视觉对象，例如具有一小时的时间窗口的折线图。
 
-使用**流式处理数据集**时，  没有基础数据库，因此  不能使用从流中流入的数据生成报表视觉对象。 因此，你不能使用报表功能，例如筛选、自定义视觉对象和其他报表功能。
+使用**流式处理数据集**时，  没有基础数据库，因此  不能使用从流中流入的数据生成报表视觉对象。 因此，你不能使用报表功能，例如筛选、Power BI 视觉对象和其他报表功能。
 
-可视化流式处理数据集的唯一方法是添加磁贴，并将流式处理数据集用作**自定义流式处理数据**的数据源。 基于**流式处理数据集**的自定义流式处理磁贴被优化用于快速显示实时数据。 在将数据推送到 Power BI 服务中时和更新视觉对象时，两者之间存在非常小的延迟，因为不需要将数据输入到数据库中或从数据库中读取数据。
+可视化流式处理数据集的唯一方法是添加磁贴，并将流式处理数据集用作**自定义流式处理数据**的数据源。 基于**流式处理数据集**的自定义流式处理磁贴被优化用于快速显示实时数据。 将数据推送到 Power BI 服务和更新视觉对象的两个过程之间的延迟非常小，因为不需要将数据输入到数据库中或从数据库中读取数据。
 
 在实践中，流式处理数据集及其伴随的流式处理视觉对象最适用于最小化数据推送和可视化之间的延迟的关键情况。 此外，最佳做法是以可以直观显示的格式推送数据，而无需任何其他聚合。 准备好的数据的示例包括温度和预计算的平均值。
 
 ### <a name="pubnub-streaming-dataset"></a>PubNub 流式处理数据集
 使用 **PubNub** 流式处理数据集，Power BI Web 客户端使用 PubNub SDK 读取现有的 PubNub 数据流，Power BI 服务不存储任何数据。
 
-与使用**流式处理数据集**一样，使用 **PubNub 流式处理数据集**时，Power BI 中没有基础数据库，因此你无法针对流入的数据生成报表视觉对象，也无法利用报表功能，如筛选、自定义视觉对象等。 因此，**PubNub 流式处理数据集**也只能通过向仪表板添加磁贴并将 PubNub 数据流配置为源来进行可视化。
+与使用流式处理数据集一样，使用 PubNub 流式处理数据集时，Power BI 中没有基础数据库，因此你无法针对流入的数据生成报表视觉对象，也无法利用报表功能，如筛选、Power BI 视觉对象等   。 因此，**PubNub 流式处理数据集**也只能通过向仪表板添加磁贴并将 PubNub 数据流配置为源来进行可视化。
 
 对基于 **PubNub 流式处理数据集**的磁贴进行优化，用于快速显示实时数据。 由于 Power BI 直接连接到 PubNub 数据流，因此在将数据推送到 Power BI 服务和更新视觉对象之间只有很少的延迟。
 
@@ -64,9 +64,7 @@ ms.locfileid: "77115276"
 ![](media/service-real-time-streaming/real-time-streaming_11.png)
 
 > [!NOTE]
-> 有关推送  限制可推入数据量的信息，请参阅[此文章](https://docs.microsoft.com/power-bi/developer/api-rest-api-limitations)。
-> 
-> 
+> 有关推送  限制可推入数据量的信息，请参阅[此文章](developer/automation/api-rest-api-limitations.md)。
 
 ## <a name="pushing-data-to-datasets"></a>将数据推送到数据集
 上一节描述了可以在实时流式处理中使用的三种主要类型的实时数据集，以及它们之间的区别。 本节介绍如何创建数据并将数据推送到这些数据集。
@@ -110,7 +108,7 @@ ms.locfileid: "77115276"
 ### <a name="using-azure-stream-analytics-to-push-data"></a>使用 Azure 流分析推送数据
 你可以在 **Azure 流分析** (ASA) 中将 Power BI 添加为输出，然后实时可视化 Power BI 服务中的这些数据流。 本节介绍有关此过程发生的技术详细信息。
 
-Azure 流分析使用 Power BI REST API 创建其到 Power BI 的输出数据流，且  defaultMode 设置为  pushStreaming （有关  defaultMode 的信息，请参阅本文前面的部分），这会导致产生可以利用**推送**和**流式处理**的数据集。 在数据集创建期间，Azure 流分析还会将“retentionPolicy”*  标志设为“basicFIFO”  ；这样设置后，支持其推送数据集的数据库可存储 200,000 行，并且在达到上限后，按照先进先出 (FIFO) 的方式删除行。
+Azure 流分析使用 Power BI REST API 创建其到 Power BI 的输出数据流，且  defaultMode 设置为  pushStreaming （有关  defaultMode 的信息，请参阅本文前面的部分），这会导致产生可以利用**推送**和**流式处理**的数据集。 在数据集创建期间，Azure 流分析还会将“retentionPolicy”  标志设为“basicFIFO”  ；这样设置后，支持其推送数据集的数据库可存储 200,000 行，并且在达到上限后，按照先进先出 (FIFO) 的方式删除行。
 
 > [!CAUTION]
 > 如果 Azure 流分析查询对 Power BI 产生非常快速的输出（例如，每秒一次或两次），则 Azure 流分析会开始将这些输出批处理到单个请求中。 这可能会导致请求大小超过流式处理磁贴限制。 在这种情况下，如前面各部分所述，流式处理磁贴将无法呈现。 在此类情况下，最佳做法是减慢数据输出到 Power BI 的速率；例如将其设置为超过 10 秒的最大值，而不是每秒的最大值。
@@ -226,7 +224,7 @@ Azure 流分析使用 Power BI REST API 创建其到 Power BI 的输出数据流
 在推送数据集上，你可以使用删除行 REST API 调用。 目前没有办法从流式处理数据集中清除数据，但数据将在一个小时后自行清除。
 
 #### <a name="i-set-up-an-azure-stream-analytics-output-to-power-bi-but-i-dont-see-it-appearing-in-power-bi--whats-wrong"></a>我设置了到 Power BI 的 Azure 流分析输出，但没有看到它出现在 Power BI 中，这是怎么回事？
-以下是你可以用于解决问题的清单：
+可以使用以下清单来解决问题：
 
 1. 重启 Azure 流分析作业（在流式处理 GA 版本之前创建的作业将需要重启）
 2. 尝试在 Azure 流分析中重新授权 Power BI 连接

@@ -6,14 +6,14 @@ ms.author: kesharab
 ms.reviewer: sranins
 ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
-ms.topic: conceptual
+ms.topic: reference
 ms.date: 02/14/2020
-ms.openlocfilehash: d688e54607283a6bcb67f895a89ca991f68bc01b
-ms.sourcegitcommit: ced8c9d6c365cab6f63fbe8367fb33e6d827cb97
+ms.openlocfilehash: 8de530871739a18c1afc72cee3e0da5fc70ebb16
+ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/07/2020
-ms.locfileid: "78922473"
+ms.lasthandoff: 03/14/2020
+ms.locfileid: "79379343"
 ---
 # <a name="color-utils"></a>颜色 utils
 阅读本文有助于安装、导入和使用颜色 utils。 本文介绍了如何使用颜色 utils 来简化对 Power BI 视觉对象的数据点应用主题和调色板。
@@ -40,7 +40,7 @@ npm install powerbi-visuals-utils-colorutils --save
 import { ColorHelper } from "powerbi-visuals-utils-colorutils";
 ```
 
-了解如何在自定义视觉对象中安装和使用 ColorUtils：
+了解如何在 Power BI 视觉对象中安装和使用 ColorUtils：
 
 * [使用指南] -“使用指南”介绍了此包的公共 API。 其中包括此包的每个公共接口的说明和一些示例。
 

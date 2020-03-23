@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.custom: mvc
 ms.date: 03/04/2020
-ms.openlocfilehash: 4c48b9c2695c7feab5897527c9ff2fbf2a2d0455
-ms.sourcegitcommit: ced8c9d6c365cab6f63fbe8367fb33e6d827cb97
+ms.openlocfilehash: 7762ace1da913713567b79a9650b3f07aa71146d
+ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/07/2020
-ms.locfileid: "78920937"
+ms.lasthandoff: 03/14/2020
+ms.locfileid: "79381045"
 ---
 # <a name="comparing-power-bi-report-server-and-the-power-bi-service"></a>比较 Power BI 报表服务器和 Power BI 服务
 
@@ -52,7 +52,7 @@ Power BI 报表服务器和 Power BI 服务有许多相似之处和一些关键�
 | 高级 Office 365 协作 | 否 | 是 | 使用 Office 365 [在工作区中协作](../service-collaborate-power-bi-workspace.md) |
 | R 视觉对象 | 否 | 是 | 在 Power BI Desktop 中[创建 R 视觉对象](../desktop-r-visuals.md)并将其发布到 Power BI 服务。 无法将带有 R 视觉对象的 Power BI 报表保存到 Power BI 报表服务器。  |
 | 预览功能 | 否 | 是 | [选择使用 Power BI 服务预览](../consumer/end-user-preview-features.md)功能 |
-| 自定义视觉对象 | 是 | 是 | [在 Power BI 中自定义视觉对象](../developer/power-bi-custom-visuals.md) |
+| Power BI 视觉对象 | 是 | 是 | [Power BI 视觉对象](../developer/visuals/power-bi-custom-visuals.md) |
 | 复合模型 | 否 | 是 |
 | Power BI Desktop | 更适合报表服务器的版本，可使用报表服务器下载 | 更适合 Power BI 服务的版本，可从 Windows 应用商店下载 | [适用于报表服务器的 Power BI Desktop](https://powerbi.microsoft.com/report-server/) <br><br> [适用于 Power BI 服务的 Power BI Desktop](https://aka.ms/pbidesktopstore) |
 
