@@ -7,14 +7,14 @@ ms.author: kesharab
 editor: ''
 tags: ''
 ms.service: power-bi-embedded
-ms.topic: how-to
+ms.topic: conceptual
 ms.date: 09/28/2017
-ms.openlocfilehash: 492750e232173480d71bd49b83623d41244bb83b
-ms.sourcegitcommit: a175faed9378a7d040a08ced3e46e54503334c07
+ms.openlocfilehash: 07c9c12366b100936e03fe07358ee180e026dfc5
+ms.sourcegitcommit: 2c798b97fdb02b4bf4e74cf05442a4b01dc5cbab
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "79495587"
+ms.lasthandoff: 03/21/2020
+ms.locfileid: "80114741"
 ---
 # <a name="pause-and-start-your-power-bi-embedded-capacity-in-the-azure-portal"></a>在 Azure 门户中暂停和启动 Power BI Embedded 容量
 

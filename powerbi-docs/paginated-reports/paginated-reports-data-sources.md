@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: conceptual
 ms.date: 01/30/2020
-ms.openlocfilehash: 1f27d05f2de5cdc8e04b6fabb48b7625fc45ce2a
-ms.sourcegitcommit: ced8c9d6c365cab6f63fbe8367fb33e6d827cb97
+ms.openlocfilehash: ec299ceb5862be3f1e121e0e7d67eca6447f2da6
+ms.sourcegitcommit: 2c798b97fdb02b4bf4e74cf05442a4b01dc5cbab
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/07/2020
-ms.locfileid: "78921898"
+ms.lasthandoff: 03/21/2020
+ms.locfileid: "80113729"
 ---
 # <a name="supported-data-sources-for-power-bi-paginated-reports"></a>Power BI 分页报表支持的数据源
 
@@ -27,7 +27,7 @@ ms.locfileid: "78921898"
 | --- | --- | --- |
 | Azure SQL 数据库 <br>Azure SQL 数据仓库 | 基本、单一登录 (SSO)、OAuth2 |   |
 | Azure SQL 托管实例 | 基本 | 通过公共终结点使用 Azure SQL 数据库扩展  |
-| Azure Analysis Services | SSO、OAuth2 | AAS 防火墙要么必须禁用，要么必须配置为允许所有 IP 范围。  不支持使用别名  |
+| Azure Analysis Services | SSO、OAuth2 | AAS 防火墙要么必须禁用，要么必须配置为允许所有 IP 范围。|
 | Power BI 数据集 | SSO | 高级和非高级 Power BI 数据集。 需要读取权限 |
 | 高级 Power BI 数据集 (XMLA) | SSO |   |
 | 输入数据 | 不适用 | 数据嵌入在报表中。 |
