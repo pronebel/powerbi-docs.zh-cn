@@ -12,12 +12,12 @@ metadata:
   author: maggiesMSFT
   ms.author: maggies
   ms.date: 01/14/2020
-  ms.openlocfilehash: 23792d8d132702860c611623fc3888debe07cfed
-  ms.sourcegitcommit: d55d3089fcb3e78930326975957c9940becf2e76
+  ms.openlocfilehash: 5f6e5c71f368b5b707534cde769de477bd8fa6a6
+  ms.sourcegitcommit: ad638d553d5f7f5831587791ffa7aa37a47dd6ae
   ms.translationtype: HT
   ms.contentlocale: zh-CN
-  ms.lasthandoff: 03/04/2020
-  ms.locfileid: "78260683"
+  ms.lasthandoff: 03/26/2020
+  ms.locfileid: "80273423"
 landingContent:
 - title: Power BI 指南
   linkLists:
@@ -89,7 +89,7 @@ landingContent:
   linkLists:
   - linkListType: concept
     links:
-    - text: 用报表页工具提示扩展视觉对象
+    - text: 使用报表页工具提示
       url: report-page-tooltips.md
     - text: 使用报表页钻取
       url: report-drillthrough.md
@@ -103,6 +103,10 @@ landingContent:
       url: report-tips-legends.md
     - text: 优化视觉对象颜色的提示
       url: report-tips-visual-colors.md
+    - text: 排序和分配数据绘图的提示
+      url: report-tips-sort-distribute-data-plots.md
+    - text: 使用形状、图像和图标的提示
+      url: report-tips-shapes-images-icons.md
 - title: Power BI 分页报表
   linkLists:
   - linkListType: concept

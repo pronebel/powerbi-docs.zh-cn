@@ -6,17 +6,19 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 02/26/2020
+ms.date: 03/17/2020
 ms.author: maggies
 LocalizationGroup: Reports
-ms.openlocfilehash: f4dbbdd30b403c8ac14db069b826f26af0bce24a
-ms.sourcegitcommit: 7e845812874b3347bcf87ca642c66bed298b244a
+ms.openlocfilehash: 8dfc6e872b67605a262c7390b91703649a2cfb0f
+ms.sourcegitcommit: 2c798b97fdb02b4bf4e74cf05442a4b01dc5cbab
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/13/2020
-ms.locfileid: "79201776"
+ms.lasthandoff: 03/21/2020
+ms.locfileid: "80114011"
 ---
 # <a name="work-with-filters-in-power-bi-reports"></a>使用 Power BI 报表中的筛选器
+
+[!INCLUDE [applies-to](includes/applies-to.md)] [!INCLUDE [yes-desktop](includes/yes-desktop.md)] [!INCLUDE [yes-service](includes/yes-service.md)]
 
 Power BI 中的筛选器新增了功能，并采用了新设计。 选择启用新筛选器体验后，可以将“筛选器”窗格的格式设置为，与报表的其余部分类似。 可以锁定甚至隐藏筛选器。 设计报表时，根本不会再在“可视化效果”窗格中看到旧“筛选器”窗格。 可以在一个“筛选器”窗格中执行所有筛选器编辑和格式设置操作。 
 
@@ -28,7 +30,7 @@ Power BI 中的筛选器新增了功能，并采用了新设计。 选择启用�
 - 更改筛选器状态。
 - 设置和自定义“筛选器”窗格的格式，让它与报表融为一体。
 - 定义当使用者打开报表时，筛选器窗格在默认情况下为打开状态还是折叠状态。
-- 隐藏不想让报表使用者看到的整个“筛选器”窗格或特定筛选器。
+- 隐藏不想让报表使用者看到的整个筛选器窗格或特定筛选器。
 - 控制新“筛选器”窗格的可见、打开和折叠状态，甚至为之添加书签。
 - 锁定你不希望使用者编辑的筛选器。
 
@@ -146,7 +148,7 @@ Power BI Desktop 以预览版的形式提供了一个新功能区。 在“视�
     ![展开筛选器卡](media/power-bi-report-filter/power-bi-format-filter-cards.png)
 
 ## <a name="theming-for-filters-pane"></a>“筛选器”窗格的主题设置
-现在可以使用主题文件来修改“筛选器”窗格的默认设置。 下面是入门示例主题代码片段：
+现在可以使用主题文件来修改“筛选器”窗格的默认设置。 下面是入门示例主题片段：
 
  
 ```

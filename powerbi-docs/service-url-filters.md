@@ -8,14 +8,14 @@ featuredvideoid: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 01/30/2020
+ms.date: 03/25/2020
 LocalizationGroup: Reports
-ms.openlocfilehash: b20820490ec88d34d4ee75c135cc54277e473545
-ms.sourcegitcommit: 578d43aeb7cebf40f3caf03a614bc885cc039488
+ms.openlocfilehash: 79f3fa8c9c175b698cb91784f95d3bb9d8ca0cc5
+ms.sourcegitcommit: ad638d553d5f7f5831587791ffa7aa37a47dd6ae
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/07/2020
-ms.locfileid: "77076641"
+ms.lasthandoff: 03/26/2020
+ms.locfileid: "80273239"
 ---
 # <a name="filter-a-report-using-query-string-parameters-in-the-url"></a>通过在 URL 中添加查询字符串参数来筛选报表
 
@@ -193,11 +193,17 @@ TerritoryChain = [Territory] & " - " & [Chain]
 使用查询字符串参数时，需要注意两点。
 
 * 使用 in 运算符时，in 右侧的值必须是括在括号中的逗号分隔列表   。    
-* Power BI 报表服务器还支持使用“filter”URL 参数指定其他筛选器。  例如，在 Power BI 报表服务器中，URL 可能如下所示： https://reportserver/reports/powerbi/Store Sales?rs:Embed=true&filter= Store/Territory eq 'NC' and Store/Chain eq 'Fashions Direct'
-* 无法结合使用查询字符串筛选和[发布到 Web](service-publish-to-web.md) 或[导出到 PDF](consumer/end-user-pdf.md)。
-* [使用报表 Web 部件在 SharePoint Online 中嵌入报表](service-embed-report-spo.md)不支持 URL 筛选器。
-* 由于 Javascript 限制，长数据类型限制为 (2^53-1)。
+* Power BI 报表服务器还支持使用“filter”URL 参数指定其他筛选器。 下面的示例展示了 URL 在 Power BI 报表服务器可能出现的呈现效果：`https://reportserver/reports/powerbi/Store Sales?rs:Embed=true&filter= Store/Territory eq 'NC' and Store/Chain eq 'Fashions Direct'`
 * 报表 URL 筛选器有 10 个表达式限制（通过 AND 连接的 10 个筛选器）。
+* 由于 JavaScript 限制，长数据类型限制为 (2^53-1)。
+
+一些嵌入场景支持 URL 筛选器，而另一些不支持。
+
+- 支持[在安全门户或网站中嵌入报表](service-embed-secure.md)。
+- Power BI Embedded 中支持 URL 筛选器。 有关详细信息，请参阅 [Power BI Embedded 高级 URL 筛选功能](https://azure.microsoft.com/updates/power-bi-embedded-advanced-url-filtering-capabilities)。
+- 无法结合使用查询字符串筛选和[发布到 Web](service-publish-to-web.md) 或[导出到 PDF](consumer/end-user-pdf.md)。
+- [使用报表 Web 部件在 SharePoint Online 中嵌入报表](service-embed-report-spo.md)不支持 URL 筛选器。
+- Teams 不允许指定 URL。
 
 ## <a name="next-steps"></a>后续步骤
 

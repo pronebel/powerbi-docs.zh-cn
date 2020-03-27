@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 05/29/2019
 ms.author: maggies
 LocalizationGroup: Visualizations
-ms.openlocfilehash: b90bfd9482e28faa8d9dfb0d089ca07656663b53
-ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
+ms.openlocfilehash: 6e5281b03ecf9de5414b334d4f88658fb9741d3f
+ms.sourcegitcommit: ad638d553d5f7f5831587791ffa7aa37a47dd6ae
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/09/2020
-ms.locfileid: "75762453"
+ms.lasthandoff: 03/26/2020
+ms.locfileid: "80273193"
 ---
 # <a name="add-text-boxes-and-shapes-to-power-bi-reports"></a>添加文本框和形状到 Power BI 报表
 可以使用 Power BI 服务和 Power BI Desktop 将文本框和形状添加到报表中。 在这两种情况下，必须具有报表的编辑权限。 如果已在 Power BI 服务中与你共享报表，你将没有编辑权限。 
@@ -63,8 +63,10 @@ ms.locfileid: "75762453"
    > 
 
 ## <a name="next-steps"></a>后续步骤
-[向文本框添加超链接](service-add-hyperlink-to-text-box.md)
 
-[Power BI 服务中设计器的基本概念](service-basic-concepts.md)
+你可能还会对以下文章感兴趣：
 
-更多问题？ [尝试参与 Power BI 社区](https://community.powerbi.com/)
+* [向文本框添加超链接](service-add-hyperlink-to-text-box.md)
+* [Power BI 服务中设计器的基本概念](service-basic-concepts.md)
+* [关于在 Power BI 报表中使用形状、图像和图标来改进分析的提示](guidance/report-tips-shapes-images-icons.md)
+* 更多问题？ [尝试参与 Power BI 社区](https://community.powerbi.com/)

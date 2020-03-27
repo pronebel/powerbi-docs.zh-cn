@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 01/13/2020
 ms.author: otarb
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 5693e75ff186c3edb95eeaa92d26823e0e0d3a60
-ms.sourcegitcommit: 0ae9328e7b35799d5d9613a6d79d2f86f53d9ab0
+ms.openlocfilehash: d5b57b782af52542ed944b5e5e7504a974ee9d81
+ms.sourcegitcommit: ad638d553d5f7f5831587791ffa7aa37a47dd6ae
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/16/2020
-ms.locfileid: "76039064"
+ms.lasthandoff: 03/26/2020
+ms.locfileid: "80273331"
 ---
 # <a name="run-python-scripts-in-power-bi-desktop"></a>在 Power BI Desktop 中运行 Python 脚本
 
@@ -109,6 +109,14 @@ print (df)
 如果未安装或未标识 Python，系统将显示警告。 如果有多个本地计算机安装，系统也会显示一条警告。 重新回顾并查看之前的“安装 Python 并启用 Python 脚本”部分。
 
 ![警告未安装 Python](media/desktop-python-scripts/python-scripts-3.png)
+
+#### <a name="using-custom-python-distributions"></a>使用自定义 Python 分发
+
+Power BI 直接通过从用户提供的目录（通过设置页面提供）使用 python.exe 可执行文件来执行脚本。 如果分发需要额外的步骤来准备环境（例如 Conda），则可能会遇到执行失败的问题。
+
+为避免相关问题，建议使用来自 https://www.python.org/ 的官方 Python 分发。
+
+一个可能的解决方案是，你可从自定义 Python 环境提示处启动 Power BI Desktop。
 
 ### <a name="refresh"></a>刷新
 

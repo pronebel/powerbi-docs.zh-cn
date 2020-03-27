@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 11/21/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: a03ac63caf8da96cd7e786c99c8a8dcd36f45a75
-ms.sourcegitcommit: 7f27b9eb0e001034e672050735ab659b834c54a3
+ms.openlocfilehash: e7160505a720b6629067d7b1486f0dd227efd862
+ms.sourcegitcommit: ad638d553d5f7f5831587791ffa7aa37a47dd6ae
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/22/2019
-ms.locfileid: "74311625"
+ms.lasthandoff: 03/26/2020
+ms.locfileid: "80273308"
 ---
 # <a name="scatter-charts-bubble-charts-and-dot-plot-charts-in-power-bi"></a>Power BI 中的散点图、气泡图和点图
 
@@ -184,8 +184,10 @@ ms.locfileid: "74311625"
 
 ## <a name="next-steps"></a>后续步骤
 
-* [Power BI 散点图中的高密度采样](desktop-high-density-scatter-charts.md)
+你可能还会对以下文章感兴趣：
 
+* [Power BI 散点图中的高密度采样](desktop-high-density-scatter-charts.md)
 * [Power BI 中的可视化效果类型](power-bi-visualization-types-for-reports-and-q-and-a.md)
+* [关于在 Power BI 报表中排序和分配数据绘图的提示](../guidance/report-tips-sort-distribute-data-plots.md)
 
 更多问题？ [尝试参与 Power BI 社区](https://community.powerbi.com/)

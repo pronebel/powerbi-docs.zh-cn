@@ -7,13 +7,13 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: conceptual
-ms.date: 02/28/2020
-ms.openlocfilehash: d9d97715853ab87ac507ff41117ab176b8620e2e
-ms.sourcegitcommit: 7e845812874b3347bcf87ca642c66bed298b244a
+ms.date: 03/18/2020
+ms.openlocfilehash: 885c6b98e66a6ce2fd8069cc86bf50440cb94b4b
+ms.sourcegitcommit: 2c798b97fdb02b4bf4e74cf05442a4b01dc5cbab
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/13/2020
-ms.locfileid: "79205242"
+ms.lasthandoff: 03/21/2020
+ms.locfileid: "80113592"
 ---
 # <a name="paginated-reports-in-power-bi-faq"></a>Power BI 中的分页报表：常见问题解答 
 
@@ -48,7 +48,7 @@ Office 365 审核日志在以下活动下详细记录此报表类型的使用情
 - 创建 Power BI 报表
 - 已下载 Power BI 报表
 
-字段 ReportType 使用“PaginatedReport”值来标识分页，这与 Power BI 报表不同。
+ReportType 字段使用“PaginatedReport”值来标识分页，这与 Power BI 报表不同。
 
 此外，审核日志为分页报表提供以下事件：
 
@@ -68,13 +68,17 @@ Office 365 审核日志在以下活动下详细记录此报表类型的使用情
 
 你将收到一条错误消息，且在工作负载重新打开前，你将无法查看你的报表。 你仍然可以从工作区中删除报表。
 
-### <a name="what-is-the-default-memory-for-each-of-the-premium-skus-supported-for-paginated-reports"></a>每个高级 SKU 支持的分页报表的默认内存是多少？
+### <a name="what-is-the-default-memory-for-each-of-the-premium-skus-that-support-paginated-reports"></a>支持分页报表的每个高级 SKU 的默认内存是多少？
 
 每个高级 SKU 支持的分页报表的默认内存为：
 
 - **P1/A4**：默认为 20%，最低为 10%
 - **P2/A5**：默认为 20%，最低为 5%
 - **P3/A6**：默认为 20%，最低为 2.5%
+
+Power BI 租户管理员可在管理门户修改默认最大内存百分比。 请参阅“Power BI Premium”下“容量设置”选项卡上的“分页报表”工作负载    。
+
+:::image type="content" source="media/paginated-reports-faq/paginated-reports-capacity-settings.png" alt-text="分页报表的“容量设置”选项卡":::
 
 ## <a name="general"></a>常规
 
@@ -86,7 +90,7 @@ Power BI 报表针对浏览和交互性进行了优化。  例如，对于销售
 
 ### <a name="the-documentation-says-power-bi-report-builder-is-the-preferred-authoring-tool-can-i-create-paginated-reports-in-sql-server-data-tools-for-power-bi"></a>文档中提到 Power BI 报表生成器是首选创作工具。 我可以在适用于 Power BI 的 SQL Server Data Tools 中创建分页报表吗？
 
-可以，但 Power BI 服务仅允许你一次上传一个项目，因此，作者使用 SQL Server Data Tools (SSDT) 的许多应用场景尚未受支持。 在此常见问题解答中查看以后提供的完整的[不受支持的功能的列表](#what-paginated-report-features-in-ssrs-arent-yet-supported-in-power-bi)。  
+可以，但 Power BI 服务仅允许你一次上传一个项目，因此，尚不支持作者使用 SQL Server Data Tools (SSDT) 的许多应用场景。 在此常见问题解答中查看以后提供的完整的[不受支持的功能的列表](#what-paginated-report-features-in-ssrs-arent-yet-supported-in-power-bi)。  
 
 ### <a name="what-versions-of-report-builder-do-you-support"></a>支持哪些报表生成器版本？
 

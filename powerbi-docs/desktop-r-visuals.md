@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 11/04/2019
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 69295657702f995786379b18d3ad1ed3641bcbb8
-ms.sourcegitcommit: b68a47b1854588a319a5a2d5d6a79bba2da3a4e6
+ms.openlocfilehash: 729a50e251a9c2ae083375e187ff133022f3ce91
+ms.sourcegitcommit: 2c798b97fdb02b4bf4e74cf05442a4b01dc5cbab
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/08/2020
-ms.locfileid: "75729801"
+ms.lasthandoff: 03/21/2020
+ms.locfileid: "80114856"
 ---
 # <a name="create-power-bi-visuals-using-r"></a>使用 R 创建 Power BI 视觉对象
 借助 Power BI Desktop，可以使用 R 将数据可视化  。 [R](https://mran.revolutionanalytics.com/documents/what-is-r) 是用于统计计算和图形的一种语言和环境。
@@ -130,6 +130,8 @@ Power BI Desktop 中的 R 视觉对象有以下限制：
 * 数据大小：R 视觉对象用于绘制的数据仅限 150,000 行。 如果选择了 150,000 行以上，则只会使用前 150,000 行，且在图像上显示一条消息。
 
 * 分辨率：所有 R 视觉对象均以 72 DPI 显示。
+
+* 绘图设备：仅支持绘制到默认设备上。 
 
 * 计算时间：如果 R 视觉对象计算时间超过五分钟，则会导致超时错误。
 

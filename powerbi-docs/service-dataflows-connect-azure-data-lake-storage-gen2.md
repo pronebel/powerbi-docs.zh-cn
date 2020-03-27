@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 01/22/2020
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: e91900632b7cf470cd91923ca9ec871247c154ba
-ms.sourcegitcommit: a1409030a1616027b138128695b80f6843258168
+ms.openlocfilehash: 8297d5e16c15baac058f82b75634eb4f31b3c630
+ms.sourcegitcommit: 2c798b97fdb02b4bf4e74cf05442a4b01dc5cbab
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/24/2020
-ms.locfileid: "76710189"
+ms.lasthandoff: 03/21/2020
+ms.locfileid: "80113154"
 ---
 # <a name="connect-azure-data-lake-storage-gen2-for-dataflow-storage"></a>连接 Azure Data Lake Storage Gen2 以存储数据流
 
@@ -42,12 +42,10 @@ ms.locfileid: "76710189"
 
 在使用 Azure Data Lake Storage Gen2 帐户配置 Power BI 之前，必须创建并配置存储帐户。 我们来看看 Power BI 的要求：
 
-1. 必须在与 Power BI 租户相同的 AAD 租户中创建存储帐户。
-2. 必须在 Power BI 租户所在的同一区域中创建存储帐户。 要确定 Power BI 租户的位置，请参阅 [Power BI 租户的所在位置](service-admin-where-is-my-tenant-located.md)。
-3. 存储帐户必须启用  “层次结构命名空间”功能。
-4. 必须在存储帐户上为 Power BI 服务授予读者或数据访问角色   。
-5. 必须创建名为  powerbi 的文件系统。
-6. 必须授权 Power BI 服务使用用户创建的  powerbi 文件系统。
+1. 你必须是 ADLS 存储帐户的所有者。 这需要在资源级别进行分配，而不是从订阅级别继承。
+2. 必须在与 Power BI 租户相同的 AAD 租户中创建存储帐户。
+3. 必须在 Power BI 租户所在的同一区域中创建存储帐户。 要确定 Power BI 租户的位置，请参阅 [Power BI 租户的所在位置](service-admin-where-is-my-tenant-located.md)。
+4. 存储帐户必须启用  “层次结构命名空间”功能。
 
 以下部分详细介绍了配置 Azure Data Lake Storage Gen2 帐户所需的步骤。
 
@@ -59,73 +57,17 @@ ms.locfileid: "76710189"
 2. 确保启用分层命名空间功能
 3. 建议将复制设置设置为  “读取访问权限异地冗余存储 (RA-GRS)”
 
-### <a name="grant-the-power-bi-service-reader-and-data-access-roles"></a>授予 Power BI 服务读者和数据访问角色
+### <a name="grant-permissions-to-power-bi-services"></a>授予对 Power BI 服务的权限
 
 接下来，需要在创建的存储帐户中授予 Power BI 服务读者和数据访问角色。 这些角色都是内置角色，因此步骤很简单。 
 
 按照[分配内置 RBAC 角色](https://docs.microsoft.com/azure/storage/common/storage-auth-aad-rbac#assign-a-built-in-rbac-role)中的步骤操作。
 
-在“添加角色分配”窗口中，选择要分配给 Power BI 服务的“读者”或“数据访问”角色    。 然后使用搜索来查找  Power BI 服务。 
+在“添加角色分配”窗口中，选择“读取者和数据访问”角色   。 然后使用搜索来查找“Power BI 服务”应用程序  。
+对“存储 Blob 数据所有者”重复相同步骤，再将该角色同时分配给“Power BI 服务”和“Power BI Premium”应用程序    。
 
 > [!NOTE]
 > 留出至少 30 分钟等待权限从门户传播到 Power BI。 每次在门户中更改权限后，都留出 30 分钟让这些权限在 Power BI 中得到反映。 
-
-
-### <a name="create-a-file-system-for-power-bi"></a>为 Power BI 创建文件系统
-
-在将存储帐户添加到 Power BI 之前，必须创建名为  powerbi 的文件系统。 创建此类文件系统的方法有多种，包括使用 Azure Databricks、HDInsight、AZCopy 或 Azure 存储资源管理器创建。 本节介绍使用 Azure 存储资源管理器创建文件系统的简单方法。
-
-此步骤要求安装 Azure 存储资源管理器 1.6.2 版本或更高版本。 要安装适用于 Windows、Macintosh 或 Linux 的 Azure 存储资源管理器，请参阅 [Azure 存储资源管理器](https://azure.microsoft.com/features/storage-explorer/)。
-
-1. 成功安装 Azure 存储资源管理器后，首次启动时将显示 Microsoft Azure 存储资源管理器 - 连接窗口。 虽然存储资源管理器提供了多种连接存储帐户的方法，但目前只支持一种方式进行所需的设置。 
-
-2. 在左侧窗格中，找到并展开上面创建的存储帐户。
-
-3. 右键单击“Blob 容器”，然后从上下文菜单中选择“创建 Blob 容器”。
-
-   ![右键单击“BLOB 容器”](media/service-dataflows-connect-azure-data-lake-storage-gen2/dataflows-connect-adlsg2_05a.jpg)
-
-4. Blob 容器文件夹下方将出现一个文本框。 输入名称“powerbi”  
-
-   ![输入名称“powerbi”](media/service-dataflows-connect-azure-data-lake-storage-gen2/dataflows-connect-adlsg2_05b.jpg)
-
-5. 完成后按 Enter 键以创建 blob 容器
-
-   ![按 Enter 键以创建 blob 容器](media/service-dataflows-connect-azure-data-lake-storage-gen2/dataflows-connect-adlsg2_05c.jpg)
-
-在下一节中，为 Power BI 系列服务授予对创建的文件系统的完全访问权限。 
-
-### <a name="grant-power-bi-permissions-to-the-file-system"></a>为 Power BI 授予对文件系统的权限
-
-要授予对文件系统的权限，请应用授予 Power BI 服务访问权限的访问控制列表 (ACL) 设置。 该操作第一步是在租户中获取 Power BI 服务标识。 可以在 Azure 门户的  “企业应用”部分中查看 Azure Active Directory (AAD) 应用程序。
-
-要查找租户应用程序，请按照下列步骤操作：
-
-1. 在 [Azure 门户](https://portal.azure.com/)中，从导航窗格选择“Azure Active Directory”  。
-2. 在 Azure“Active Directory”  边栏选项卡中，选择  “企业应用程序”。
-3. 从  “应用程序类型”下拉菜单中，选择  “所有应用程序”，然后选择“应用”  。 然后将显示租户应用程序示例，如下图所示。
-
-    ![AAD 企业应用程序](media/service-dataflows-connect-azure-data-lake-storage-gen2/dataflows-connect-adlsg2_06.jpg)
-
-4. 在搜索栏中，键入 Power  ，将显示 Power BI 和 Power Query 应用程序的对象 ID 集合。 需要在后续步骤中用到这三个值。  
-
-    ![搜索 Power 应用程序](media/service-dataflows-connect-azure-data-lake-storage-gen2/dataflows-connect-adlsg2_07.jpg)
-
-5. 从搜索结果中在线选择并复制 Power BI Premium 服务和 Power Query 的对象 ID。 准备好在后续步骤中粘贴这些值。
-
-6. 接下来，使用 Azure存储资源管理器  导航到在上一节中创建的  powerbi 文件系统。 按照[使用 Azure 存储资源管理器设置文件和目录级别权限](https://docs.microsoft.com/azure/storage/blobs/data-lake-storage-how-to-set-permissions-storage-explorer)一文的[管理访问权限](https://docs.microsoft.com/azure/storage/blobs/data-lake-storage-how-to-set-permissions-storage-explorer#managing-access)部分中的说明进行操作。
-
-7. 对于在步骤 5 中收集的两个 Power BI Premium 对象 ID 中的每一个，将读取、写入、执行访问权限和默认 ACL 分配给 powerbi 文件系统     。
-
-   ![将全部三个访问权限分配给两个对象 ID](media/service-dataflows-connect-azure-data-lake-storage-gen2/dataflows-connect-adlsg2_07a.jpg)
-
-8. 对于在步骤 4 中收集的 Power Query Online 对象 ID，将写入、执行访问权限和默认 ACL 分配给 powerbi 文件系统    。
-
-   ![接下来，分配写入和执行权限](media/service-dataflows-connect-azure-data-lake-storage-gen2/dataflows-connect-adlsg2_07b.jpg)
-
-9. 此外，对于  其他对象 ID，还分配  执行访问权限和默认 ACL。
-
-    ![最后，对于其他对象 ID 分配执行权限](media/service-dataflows-connect-azure-data-lake-storage-gen2/dataflows-connect-adlsg2_07c.jpg)
 
 ## <a name="connect-your-azure-data-lake-storage-gen2-to-power-bi"></a>将 Azure Data Lake Storage Gen2 连接到 Power BI
 

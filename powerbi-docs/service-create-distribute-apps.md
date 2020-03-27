@@ -5,15 +5,15 @@ author: maggiesMSFT
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 08/15/2019
+ms.date: 03/23/2020
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 622d01632b9c9cbe6203090b3ac2149d4bc94474
-ms.sourcegitcommit: 7e845812874b3347bcf87ca642c66bed298b244a
+ms.openlocfilehash: 0b420a41474349f86be682987ff9f8144debab11
+ms.sourcegitcommit: 075a0ade4134d28f578fda78996595e8cd9f3555
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/13/2020
-ms.locfileid: "79207864"
+ms.lasthandoff: 03/24/2020
+ms.locfileid: "80147368"
 ---
 # <a name="publish-an-app-in-power-bi"></a>在 Power BI 中发布应用
 
@@ -28,6 +28,7 @@ ms.locfileid: "79207864"
 - 他们可以从 Microsoft AppSource 中找到并安装应用。
 - 你可以向他们发送直接链接。
 - 如果 Power BI 管理员已授予权限，则可将这些应用自动安装到同事的 Power BI 帐户中。
+- 在你分发或更新应用时，Power BI 不会向内部用户发送任何电子邮件。 如果你将应用分发给外部用户，则这些用户会收到附有直接链接的电子邮件。 
 
 你可以创建其中具有内置导航的应用，这样你的用户就可以轻松找到你的内容。 他们无法修改应用的内容。 但可以在 Power BI 服务或其中一个移动应用中与之进行交互 - 自行对数据进行筛选、突出显示和排序。 他们将自动获得更新，你可以控制数据刷新的频率。 你还可以为他们提供生成权限以连接到基础数据集，并在应用中创建报表的副本。 详细了解[生成权限](service-datasets-build-permissions.md)。
 

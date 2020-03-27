@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 03/12/2020
+ms.date: 03/22/2020
 ms.author: painbar
 LocalizationGroup: Data from files
-ms.openlocfilehash: fa373fca782a582ec2ac2ef60cb36322efaff327
-ms.sourcegitcommit: 7e845812874b3347bcf87ca642c66bed298b244a
+ms.openlocfilehash: 02bea09bcd6400b4dc316a08ec74ed2780ad3363
+ms.sourcegitcommit: ad638d553d5f7f5831587791ffa7aa37a47dd6ae
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/13/2020
-ms.locfileid: "79205265"
+ms.lasthandoff: 03/26/2020
+ms.locfileid: "80273170"
 ---
 # <a name="data-protection-in-power-bi-preview"></a>Power BI 中的数据保护（预览版）
 
@@ -105,6 +105,8 @@ ms.locfileid: "79205265"
 * 在 Power BI 中应用的标签不支持 [HYOK 保护](https://docs.microsoft.com/azure/information-protection/configure-adrms-restrictions)。
 * 要在 Office 应用中查看和应用标签，需满足[许可要求](https://docs.microsoft.com/microsoft-365/compliance/sensitivity-labels-office-apps#subscription-and-licensing-requirements-for-sensitivity-labels)。
 * 仅全球（公有）云中的租户支持敏感度标签。 其他云中的租户不支持敏感度标签。
+* 模板应用不支持数据敏感度标签。
+* Power BI 不支持“请勿转发”和“临时”这两种保存类型的敏感度标签   。
 
 ## <a name="next-steps"></a>后续步骤
 

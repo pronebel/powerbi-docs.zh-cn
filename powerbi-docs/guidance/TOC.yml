@@ -78,6 +78,12 @@
               href: report-tips-legends.md
             - name: 优化视觉对象颜色的提示
               href: report-tips-visual-colors.md
+            - name: 优化视觉对象颜色的提示
+              href: report-tips-visual-colors.md
+            - name: 排序和分配数据绘图的提示
+              href: report-tips-sort-distribute-data-plots.md
+            - name: 使用形状、图像和图标的提示
+              href: report-tips-shapes-images-icons.md
         - name: Power BI 分页报表
           items:
             - name: 何时使用分页报表
