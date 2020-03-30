@@ -100,7 +100,7 @@
               href: ../service-encryption-byok.md
             - name: 重新开始高级容量
               href: ../service-admin-premium-restart.md
-            - name: 使用客户端应用程序和工具连接到数据集
+            - name: 使用 XMLA 终结点的数据集连接（预览）
               href: ../service-premium-connect-tools.md
     - name: 参考
       items:

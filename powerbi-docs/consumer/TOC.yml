@@ -102,12 +102,12 @@
               href: end-user-favorite.md
             - name: '打印仪表板, 打印仪表板磁贴, 打印报表页'
               href: end-user-print.md
+            - name: 查看与我共享的内容
+              href: end-user-shared-with-me.md
             - name: 查看相关内容
               href: end-user-related.md
             - name: 查看最新内容
               href: end-user-recent.md
-            - name: 查看“与我共享”容器中的内容
-              href: end-user-shared-with-me.md
             - name: 订阅报表或仪表板
               href: end-user-subscribe.md
             - name: 在 Power BI 中对内容进行搜索和排序
