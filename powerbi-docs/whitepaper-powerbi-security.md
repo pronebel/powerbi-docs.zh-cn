@@ -9,12 +9,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 10/24/2019
 LocalizationGroup: Conceptual
-ms.openlocfilehash: 50c8416573b995c34d62129d11926e70d9d4242d
-ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
+ms.openlocfilehash: 88c32a3d32a8d6c6653fa9badcf728bad0ee2c54
+ms.sourcegitcommit: 444f7fe5068841ede2a366d60c79dcc9420772d4
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/14/2020
-ms.locfileid: "79381390"
+ms.lasthandoff: 03/30/2020
+ms.locfileid: "80404578"
 ---
 # <a name="power-bi-security-whitepaper"></a>Power BI 安全性白皮书
 
@@ -135,7 +135,7 @@ Power BI 服务的用户身份验证包括用户的浏览器与 Power BI 服务�
 
 Power BI 服务的用户身份验证序列如下图中的步骤所示。
 
-1. 用户通过在地址栏中（例如 https://app.powerbi.com) ）键入 Power BI 地址或从 Power BI 登录页面 (https://powerbi.microsoft.com) ) 选择“登录”，从浏览器发起与 Power BI 服务的连接。 使用 TLS 1.2 和 HTTPS 建立连接，浏览器和 Power BI 服务之间的所有后续通信都使用 HTTPS。 请求将发送到 Azure 流量管理器。
+1. 用户通过在地址栏中键入 "Power BI 地址" （例如 `https://app.powerbi.com`）或从 Power BI 登陆页面（ https://powerbi.microsoft.com) ）中选择 "_登录_"，从浏览器启动到 Power BI 服务的连接。 使用 TLS 1.2 和 HTTPS 建立连接，浏览器和 Power BI 服务之间的所有后续通信都使用 HTTPS。 请求将发送到 Azure 流量管理器。
 
 2. Azure 流量管理器检查用户的 DNS 记录，以确定部署 Power BI 的最近数据中心，并使用应将用户发送到其中的 WFE 群集的 IP 地址响应 DNS。
 
