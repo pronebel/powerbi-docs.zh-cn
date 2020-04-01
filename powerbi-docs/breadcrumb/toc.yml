@@ -19,6 +19,16 @@
             - name: 开发人员
               tocHref: /power-bi/developer/
               topicHref: /power-bi/developer/index
+              items:
+                - name: 嵌入式分析
+                  tocHref: /power-bi/developer/embedded/
+                  topicHref: /power-bi/developer/embedded/
+                - name: Power BI 视觉对象
+                  tocHref: /power-bi/developer/visuals/
+                  topicHref: /power-bi/developer/visuals/
+                - name: 自动化
+                  tocHref: /power-bi/developer/automation/
+                  topicHref: /power-bi/developer/automation/
             - name: 引导式学习
               tocHref: /power-bi/guided-learning/
               topicHref: /power-bi/guided-learning/

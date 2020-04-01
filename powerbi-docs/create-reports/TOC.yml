@@ -18,10 +18,8 @@
     - name: 示例
       expanded: true
       items:
-        - name: 获取 Power BI 示例数据
+        - name: 获取 Power BI 示例
           href: ../sample-datasets.md
-        - name: 导入和打开示例包
-          href: ../sample-tutorial-connect-to-the-samples.md
         - name: 客户盈利率示例
           href: ../sample-customer-profitability.md
         - name: IT 支出分析示例
@@ -34,6 +32,8 @@
           href: ../sample-procurement.md
         - name: 零售分析示例
           href: ../sample-retail-analysis.md
+        - name: 浏览零售分析示例
+          href: ../sample-tutorial-connect-to-the-samples.md
         - name: 销售和市场营销示例
           href: ../sample-sales-and-marketing.md
         - name: 供应商质量分析示例
