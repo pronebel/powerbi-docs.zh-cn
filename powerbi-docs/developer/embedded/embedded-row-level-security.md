@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 06/10/2019
-ms.openlocfilehash: 80b97757ab0ab8fefa23f4481abb2d8bc02de78d
-ms.sourcegitcommit: a175faed9378a7d040a08ced3e46e54503334c07
+ms.openlocfilehash: 66a1253233ab623ff2332a7b112575a7509c0e3c
+ms.sourcegitcommit: 444f7fe5068841ede2a366d60c79dcc9420772d4
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "79492482"
+ms.lasthandoff: 03/30/2020
+ms.locfileid: "80403708"
 ---
 # <a name="row-level-security-with-power-bi-embedded"></a>Power BI Embedded 的行级安全性
 
@@ -217,7 +217,7 @@ public EffectiveIdentity(string username, IList<string> datasets, IList<string> 
 
 7. 使用 Power BI API 在应用程序中使用 CustomData 功能。  必须有用户名，才能使用 CustomData 功能生成令牌。 用户名必须等于主用户的 UPN。 主用户必须是你创建的一个或多个角色的成员。 如果未指定任何角色，主用户所属的全部角色都用于 RLS 计算。
 
-    使用[服务主体](embed-service-principal.md)时，还需要执行上述步骤来代替使用主帐户。 生成嵌入令牌时，使用[服务主体对象 ID](embed-service-principal.md#how-to-get-the-service-principal-object-id) 作为用户名。
+    使用[服务主体](embed-service-principal.md)时，还需要执行上述步骤来代替使用主帐户。 生成嵌入令牌时，使用[服务主体对象 ID](embed-service-principal.md) 作为用户名。
 
     > [!Note]
     > 如果你已准备好将应用程序部署到生产，主用户帐户字段或选项不得对最终用户可见。

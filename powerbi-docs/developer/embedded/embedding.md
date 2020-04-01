@@ -16,12 +16,12 @@ helpviewer_keywords:
 - Power BI APIs
 ms.custom: seodec18
 ms.date: 05/15/2019
-ms.openlocfilehash: 779ca338a211e569c0dd7f529208cf7bfb1bcf7c
-ms.sourcegitcommit: a175faed9378a7d040a08ced3e46e54503334c07
+ms.openlocfilehash: ade60bf8b786f70002f0af0672acf951348fee49
+ms.sourcegitcommit: 9ecd7cadb9ff47f0fc0e400730777cc4dadbd80d
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "79492321"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "80487842"
 ---
 # <a name="embedded-analytics-with-power-bi"></a>Power BI 嵌入式分析
 
@@ -34,7 +34,7 @@ Azure (PaaS) 中的 Power BI 服务 (SaaS) 和 Power BI 嵌入式服务具有用
 * 通过[为组织嵌入内容](embedding.md#embedding-for-your-organization)，可以扩展 Power BI 服务。 为达成此目标，请实现[为组织嵌入内容](https://aka.ms/embedsetup/UserOwnsData)解决方案。
 * 通过[为客户嵌入内容](embedding.md#embedding-for-your-customers)，可为没有 Power BI 帐户的用户嵌入仪表板和报表。 为达成此目标，请实现[为客户嵌入内容](https://aka.ms/embedsetup/AppOwnsData)解决方案。
 
-![PBIE 示例](../media/what-can-you-do/what-can-you-do-02.png)
+![PBIE 示例](media/embedding/what-can-you-do-02.png)
 
 ## <a name="use-apis"></a>使用 API
 

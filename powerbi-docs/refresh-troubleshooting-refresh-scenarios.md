@@ -9,12 +9,12 @@ ms.topic: troubleshooting
 ms.date: 09/13/2019
 ms.author: maggies
 LocalizationGroup: Data refresh
-ms.openlocfilehash: dcf8f3ca104e4caf749070b45cd47b0ca03f0dbd
-ms.sourcegitcommit: f77b24a8a588605f005c9bb1fdad864955885718
+ms.openlocfilehash: 62159b9dec4f82cfad3eecbc13b1d3a2c3b68f17
+ms.sourcegitcommit: 444f7fe5068841ede2a366d60c79dcc9420772d4
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/02/2019
-ms.locfileid: "74699581"
+ms.lasthandoff: 03/30/2020
+ms.locfileid: "80404842"
 ---
 # <a name="troubleshooting-refresh-scenarios"></a>刷新方案故障排除
 
@@ -79,11 +79,11 @@ Microsoft 正在研究一个解决方案，允许数据加载过程刷新令牌�
 
 ## <a name="access-to-the-resource-is-forbidden"></a>禁止访问该资源  
 
-缓存凭据过期可能导致发生此错误。 转到 Power BI 签名并转到 https://app.powerbi.com?alwaysPromptForContentProviderCreds=true ，以清除 Internet 浏览器缓存。 这将强制更新你的凭据。
+缓存凭据过期可能导致发生此错误。 转到 Power BI 签名并转到 `https://app.powerbi.com?alwaysPromptForContentProviderCreds=true`，以清除 Internet 浏览器缓存。 这将强制更新你的凭据。
 
 ## <a name="data-refresh-failure-because-of-password-change-or-expired-credentials"></a>密码更改或凭据过期会导致数据刷新失败
 
-数据刷新也可能因缓存凭据过期而失败。 转到 Power BI 签名并转到 https://app.powerbi.com?alwaysPromptForContentProviderCreds=true ，以清除 Internet 浏览器缓存。 这将强制更新你的凭据。
+数据刷新也可能因缓存凭据过期而失败。 转到 Power BI 签名并转到 `https://app.powerbi.com?alwaysPromptForContentProviderCreds=true`，以清除 Internet 浏览器缓存。 这将强制更新你的凭据。
 
 ## <a name="next-steps"></a>后续步骤
 

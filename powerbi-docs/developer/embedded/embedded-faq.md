@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 02/11/2020
-ms.openlocfilehash: 6dd5b7838a1f59971e11a4674853abead7af0b90
-ms.sourcegitcommit: a175faed9378a7d040a08ced3e46e54503334c07
+ms.openlocfilehash: 0042c7db70cac103d04d1c48d06c12b71634b541
+ms.sourcegitcommit: 444f7fe5068841ede2a366d60c79dcc9420772d4
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "79492781"
+ms.lasthandoff: 03/30/2020
+ms.locfileid: "80403648"
 ---
 # <a name="frequently-asked-questions-about-power-bi-embedded"></a>有关 Power BI Embedded 的常见问题
 
@@ -96,7 +96,7 @@ Microsoft 建议企业购买 Power BI Premium，这是一款企业级自助式�
 
 可以使用 PBI 门户查找 PBI 租户区域。
 
-[https://app.powerbi.com/](https://app.powerbi.com/ ) > ? > 关于 Power BI
+[https://app.powerbi.com/](`https://app.powerbi.com/`) > ? > 关于 Power BI
 
 ![关于 Power BI](media/embedded-faq/about-01.png)
 ![租户区域](media/embedded-faq/tenant-location-01.png)
@@ -200,7 +200,7 @@ var authenticationResult = await context.AcquireTokenAsync(resourceId, clientAss
 
 传递应用程序 ID 进行身份验证时，[应用程序 ID](embed-sample-for-customers.md#application-id) 用于创建访问令牌  。
 
-若要引用服务主体用于操作或进行更改，请使用[服务主体对象 ID](embed-service-principal.md#how-to-get-the-service-principal-object-id) - 例如，以管理员身份将服务主体应用于工作区  。
+若要引用服务主体用于操作或进行更改，请使用[服务主体对象 ID](embed-service-principal.md) - 例如，以管理员身份将服务主体应用于工作区  。
 
 ### <a name="can-you-manage-an-on-premises-data-gateway-with-service-principal"></a>能否使用服务主体管理本地数据网关？
 

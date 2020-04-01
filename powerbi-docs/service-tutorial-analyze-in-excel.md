@@ -8,14 +8,14 @@ ms.subservice: powerbi-service
 ms.custom: connect-to-services
 ms.topic: tutorial
 ms.date: 02/13/2020
-ms.author: tekulkar
+ms.author: tekulka
 LocalizationGroup: Connect to services
-ms.openlocfilehash: d3795c34e477c593af4afefbe5cc01040026bfa4
-ms.sourcegitcommit: d6a48e6f6e3449820b5ca03638b11c55f4e9319c
+ms.openlocfilehash: 9a8dd1eb7aa6b239cc542884ab3fae3679997017
+ms.sourcegitcommit: 3c51431d85793b71f378c4b0b74483dfdd8411b3
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/18/2020
-ms.locfileid: "77426532"
+ms.lasthandoff: 03/31/2020
+ms.locfileid: "80464600"
 ---
 # <a name="tutorial-use-power-bi-analyze-in-excel-starting-in-excel"></a>教程：从 Excel 开始，使用 Excel 中的 Power BI 分析
 
@@ -25,7 +25,7 @@ ms.locfileid: "77426532"
 
 可以通过返回到“数据集”页找到组织共享的其他数据集。
 
-如果在任何时候都遇到问题，请在以下流的相应步骤中选择“否”，并在链接的表单中提供反馈。  
+如果在任何时候都遇到问题，请在以下流的相应步骤中选择“否”，并在链接的表单中提供反馈  。  
 
 在本教程中，了解如何：
 
@@ -54,7 +54,7 @@ ms.locfileid: "77426532"
 
 ![“数据集”页](media/service-tutorial-analyze-in-excel/tutorial-analyze-in-excel-01.png)
 
-使用“在 Excel 中分析”工作流时，你将看到几个指导提示；指示是否已完成每个进程步骤。 如果在任何步骤中遇到问题，请选择“否”并提供有关相应表单的反馈。
+使用“在 Excel 中分析”工作流时，你将看到几个指导提示；指示是否已完成每个进程步骤。 如果在任何步骤中遇到问题，请选择“否”  并提供有关相应表单的反馈。
 
 ![工作流说明](media/service-tutorial-analyze-in-excel/tutorial-analyze-in-excel-02.png)
 
@@ -84,7 +84,7 @@ ms.locfileid: "77426532"
 
 ## <a name="clean-up-resources"></a>清理资源
 
-与“Power BI 服务”和“数据集”页的交互应仅限于下载 ODC 文件和单击工作流。 如果在执行这些步骤时遇到问题，请在相应步骤中指示“否”，并在链接的表单中提供反馈。 该表单包含一个指向有关此问题的详细信息的链接。 请重新访问“数据集”页重试该过程，或选择其他数据集。
+与“Power BI 服务”和“数据集”页的交互应仅限于下载 ODC 文件和单击工作流。 如果在执行这些步骤时遇到问题，请在相应步骤中指示“否”  ，并在链接的表单中提供反馈。 该表单包含一个指向有关此问题的详细信息的链接。 请重新访问“数据集”页重试该过程，或选择其他数据集。
 
 ## <a name="next-steps"></a>后续步骤
 
