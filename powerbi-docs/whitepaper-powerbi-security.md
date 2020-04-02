@@ -9,12 +9,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 10/24/2019
 LocalizationGroup: Conceptual
-ms.openlocfilehash: 88c32a3d32a8d6c6653fa9badcf728bad0ee2c54
-ms.sourcegitcommit: 444f7fe5068841ede2a366d60c79dcc9420772d4
+ms.openlocfilehash: a13e48e413f047812d9b00fe67c2ee2b69bbc2dc
+ms.sourcegitcommit: 6e56d038280efab86521602cbc089b3989dddbd0
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/30/2020
-ms.locfileid: "80404578"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "80551112"
 ---
 # <a name="power-bi-security-whitepaper"></a>Power BI 安全性白皮书
 
@@ -33,7 +33,7 @@ ms.locfileid: "80404578"
 
 Power BI 是 Microsoft 提供的在线软件服务（SaaS 或软件即服务），你可以通过它轻松快速地创建自助式商业智能仪表板、报表、数据集和可视化。 使用 Power BI，可以连接到多个不同的数据源，合并并调整来自这些连接的数据，然后创建可与其他人共享的报表和仪表板。
 
-Power BI 服务受 [Microsoft Online Services 条款](https://www.microsoftvolumelicensing.com/DocumentSearch.aspx?Mode=3&amp;DocumentTypeId=31)和 [Microsoft Enterprise Privacy 声明](https://www.microsoft.com/privacystatement/OnlineServices/Default.aspx)约束。 有关数据处理的位置，参阅 Microsoft Online Services 条款中的数据处理条款位置。 有关符合性信息，[Microsoft 信任中心](https://www.microsoft.com/trustcenter)提供了适用于 Power BI 的大量资源。 Power BI 团队正在努力为客户提供最新创新和提高生产效率。 Power BI 当前在[Office 365 相容性框架](https://download.microsoft.com/download/1/4/3/1434ABAB-B8E9-412D-8C3A-187B5FCB7A2F/Compliance%20Framework%20document.pdf)的第 D 层中。
+Power BI 服务受 [Microsoft Online Services 条款](https://www.microsoftvolumelicensing.com/DocumentSearch.aspx?Mode=3&amp;DocumentTypeId=31)和 [Microsoft Enterprise Privacy 声明](https://www.microsoft.com/privacystatement/OnlineServices/Default.aspx)约束。 有关数据处理的位置，参阅 Microsoft Online Services 条款中的数据处理条款位置。 有关符合性信息，[Microsoft 信任中心](https://www.microsoft.com/trustcenter)提供了适用于 Power BI 的大量资源。 Power BI 团队正在努力为客户提供最新创新和提高生产效率。 Power BI 当前在[Office 365 相容性框架](https://www.microsoft.com/trust-center/compliance/compliance-overview)的第 D 层中。
 
 本文通过以下方式介绍了 Power BI 的安全性：首先说明 Power BI 的体系结构，然后说明用户如何对 Power BI 进行身份验证以及如何建立数据连接，最后描述 Power BI 如何通过服务存储和移动数据。 最后一部分专门讨论与安全相关的问题，并附上了每个问题的答案。
 
