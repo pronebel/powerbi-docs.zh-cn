@@ -1,0 +1,59 @@
+### YamlMime:Landing
+title: Power BI 视觉对象文档
+summary: 开发自己的 Power BI 视觉对象，供你自己、你的组织或整个 Power BI 社区使用。 我们的文档提供了你需要的信息。
+metadata:
+  title: Power BI 视觉对象文档
+  description: 开发自己的 Power BI 视觉对象，供你自己、你的组织或整个 Power BI 社区使用。 我们的文档提供了你需要的信息。
+  services: powerbi
+  ms.service: powerbi
+  ms.subservice: powerbi-developer
+  ms.topic: landing-page
+  ms.collection: collection
+  author: KesemSharabi
+  ms.author: kesharab
+  ms.date: 31/03/2020
+  ms.openlocfilehash: d68b08f941ebe04c41e29f1260332e6f2b0d332c
+  ms.sourcegitcommit: 9ecd7cadb9ff47f0fc0e400730777cc4dadbd80d
+  ms.translationtype: HT
+  ms.contentlocale: zh-CN
+  ms.lasthandoff: 04/01/2020
+  ms.locfileid: "80516229"
+landingContent:
+- title: 开始使用
+  linkLists:
+  - linkListType: get-started
+    links:
+    - text: Power BI 中的视觉对象
+      url: power-bi-custom-visuals.md
+    - text: Power BI 视觉对象项目结构
+      url: visual-project-structure.md
+    - text: 常见问题解答
+      url: power-bi-custom-visuals-faq.md
+- title: 开发 Power BI 视觉对象
+  linkLists:
+  - linkListType: tutorial
+    links:
+    - text: 教程：开发 Power BI 视觉对象
+      url: custom-visual-develop-tutorial.md
+    - text: 教程：向 Power BI 视觉对象添加格式设置选项
+      url: custom-visual-develop-tutorial-format-options.md
+  - linkListType: concept
+    links:
+    - text: Power BI 视觉对象指南
+      url: guidelines-powerbi-visuals.md
+- title: 发布 Power BI 视觉对象
+  linkLists:
+  - linkListType: concept
+    links:
+    - text: 将 Power BI 视觉对象发布到合作伙伴中心
+      url: office-store.md
+    - text: 获取 Power BI 视觉对象认证
+      url: power-bi-custom-visuals-certified.md
+- title: 参考和资源
+  linkLists:
+  - linkListType: reference
+    links:
+    - text: Power BI 视觉对象示例
+      url: https://microsoft.github.io/PowerBI-visuals/samples/
+    - text: Git 存储库
+      url: https://github.com/Microsoft/PowerBI-visuals

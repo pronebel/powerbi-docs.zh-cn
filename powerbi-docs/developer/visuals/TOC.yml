@@ -1,0 +1,120 @@
+- name: Power BI 视觉对象文档
+  href: index.yml
+  expanded: true
+  items:
+    - name: 概述
+      expanded: true
+      items:
+        - name: Power BI 中的视觉对象
+          href: power-bi-custom-visuals.md
+    - name: 教程
+      expanded: true
+      items:
+        - name: 开发 Power BI 视觉对象
+          href: custom-visual-develop-tutorial.md
+        - name: 添加格式设置选项
+          href: custom-visual-develop-tutorial-format-options.md
+        - name: 为视觉对象项目添加单位测试
+          href: unit-tests-introduction.md
+    - name: 概念
+      items:
+        - name: Power BI 视觉对象项目结构
+          href: visual-project-structure.md
+        - name: 视觉对象概念
+          href: power-bi-visuals-concept.md
+        - name: Power BI 中适用于组织的视觉对象
+          href: power-bi-custom-visuals-organization.md
+        - name: Power BI 视觉对象指南
+          href: guidelines-powerbi-visuals.md
+        - name: 视觉对象常见问题解答
+          href: power-bi-custom-visuals-faq.md
+        - name: 使用功能
+          href: capabilities.md
+        - name: 数据视图映射
+          href: dataview-mappings.md
+        - name: 对象和属性
+          href: objects-properties.md
+        - name: 高级编辑模式
+          href: advanced-edit-mode.md
+    - name: 操作方法
+      items:
+        - name: 获取 Power BI 视觉对象认证
+          href: power-bi-custom-visuals-certified.md
+        - name: 将 Power BI 视觉对象发布到 AppSource
+          href: office-store.md
+        - name: 在 Power BI 中使用 R 驱动的 Power BI 视觉对象
+          href: ../../desktop-r-powered-custom-visuals.md?toc=/powerbi-docs/developer/TOC.json&bc=/powerbi-docs/breadcrumb/toc.json
+        - name: 视觉对象交互
+          href: visuals-interactions.md
+        - name: 添加选择
+          href: selection-api.md
+        - name: 添加视觉对象工具提示
+          href: add-tooltips.md
+        - name: 添加分析窗格
+          href: analytics-pane.md
+        - name: 筛选视觉对象
+          href: filter-api.md
+        - name: 提取更多数据
+          href: fetch-more-data.md
+        - name: 添加书签支持
+          href: bookmarks-support.md
+        - name: 添加上下文菜单支持
+          href: context-menu.md
+        - name: 添加向下钻取支持
+          href: drill-down-support.md
+        - name: 在视觉对象中突出显示数据
+          href: highlight.md
+        - name: 添加高对比度模式支持
+          href: high-contrast-support.md
+        - name: 启用同步切片器
+          href: enable-sync-slicers.md
+        - name: 调试视觉对象
+          href: visuals-how-to-debug.md
+        - name: Power BI 视觉对象疑难解答
+          href: power-bi-custom-visuals-troubleshoot.md
+    - name: 参考
+      items:
+        - name: 登陆页面
+          href: landing-page.md
+        - name: 启动 URL
+          href: launch-url.md
+        - name: 本地存储 API
+          href: local-storage.md
+        - name: 呈现事件
+          href: event-service.md
+        - name: 排序
+          href: sort-options.md
+        - name: 本地化
+          href: localization.md
+        - name: Power BI 视觉对象实用工具
+          items:
+            - name: 添加外部库
+              href: adding-external-libraries.md
+            - name: 交互 utils
+              href: utils-interactivity-selections.md
+            - name: 格式化 utils
+              href: utils-formatting.md
+            - name: 数据视图 utils
+              href: utils-dataview.md
+            - name: 图表 utils
+              href: utils-chart.md
+            - name: 颜色 utils
+              href: utils-color.md
+            - name: SVG utils
+              href: utils-svg.md
+            - name: 类型 utils
+              href: utils-type.md
+            - name: 工具提示 utils
+              href: utils-tooltip.md
+            - name: 数据视图 utils
+              href: utils-dataview.md
+    - name: 资源
+      items:
+        - name: 开发中心
+          href: 'https://powerbi.microsoft.com/developers/'
+        - name: Power BI 视觉对象示例
+          href: 'https://microsoft.github.io/PowerBI-visuals/samples/'
+        - name: Power BI 视觉对象 Git 存储库
+          href: 'https://go.microsoft.com/fwlink/?linkid=848277'
+        - name: 创建 SSL 证书
+          href: create-ssl-certificate.md

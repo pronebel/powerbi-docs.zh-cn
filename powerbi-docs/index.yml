@@ -12,15 +12,18 @@ metadata:
   ms.collection: collection
   author: maggiesMSFT
   ms.author: maggies
-  ms.date: 03/03/2020
-  ms.openlocfilehash: f49dfe708430969802e6f3b75d330c3ca6ca2e62
-  ms.sourcegitcommit: 87b7cb4a2e626711b98387edaa5ff72dc26262bb
+  ms.date: 03/31/2020
+  ms.openlocfilehash: ac6ecb181cd5b06e54ab611976532638d43359f6
+  ms.sourcegitcommit: 9ecd7cadb9ff47f0fc0e400730777cc4dadbd80d
   ms.translationtype: HT
   ms.contentlocale: zh-CN
-  ms.lasthandoff: 03/10/2020
-  ms.locfileid: "79041116"
+  ms.lasthandoff: 04/01/2020
+  ms.locfileid: "80487715"
 highlightedContent:
   items:
+  - title: 使用美国数据创建新冠肺炎报表
+    itemType: sample
+    url: create-reports/sample-covid-19-us.md
   - title: Power BI Desktop 入门
     itemType: get-started
     url: desktop-getting-started.md
@@ -76,15 +79,15 @@ conceptualContent:
       text: 了解详细内容
   - title: 在 Power BI 中进行开发
     links:
-    - url: developer/what-can-you-do.md
-      itemType: overview
-      text: 开发人员可以执行的操作
-    - url: power-bi-custom-visuals.md
-      itemType: overview
-      text: 开发人员和视觉对象
-    - url: developer/embedding.md
+    - url: developer/embedded/index.yml
       itemType: overview
       text: 嵌入式分析
+    - url: developer/visuals/index.yml
+      itemType: overview
+      text: Power BI 视觉对象
+    - url: developer/automation/index.yml
+      itemType: overview
+      text: 自动化
     footerLink:
       url: developer/index.yml
       text: 了解详细内容

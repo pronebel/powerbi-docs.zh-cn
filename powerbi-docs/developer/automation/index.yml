@@ -1,0 +1,65 @@
+### YamlMime:Landing
+title: Power BI 自动化文档
+summary: 借助 Power BI 自动化，可在报表、数据集和工作区等 Power BI 对象上执行管理任务。
+metadata:
+  title: Power BI 自动化文档
+  description: 借助 Power BI 自动化，可在报表、数据集和工作区等 Power BI 对象上执行管理任务。
+  services: powerbi
+  ms.service: powerbi
+  ms.subservice: powerbi-developer
+  ms.topic: landing-page
+  ms.collection: collection
+  author: KesemSharabi
+  ms.author: kesharab
+  ms.date: 31/03/2020
+  ms.openlocfilehash: 33f3caa20bc29c41b9d2c43f6727947ce9b7d446
+  ms.sourcegitcommit: 9ecd7cadb9ff47f0fc0e400730777cc4dadbd80d
+  ms.translationtype: HT
+  ms.contentlocale: zh-CN
+  ms.lasthandoff: 04/01/2020
+  ms.locfileid: "80516390"
+landingContent:
+- title: 开始使用
+  linkLists:
+  - linkListType: get-started
+    links:
+    - text: 了解可使用 Power BI API 执行哪些操作
+      url: overview-of-power-bi-rest-api.md
+  - linkListType: tutorial
+    links:
+    - text: 教程：将数据推送到数据集
+      url: walkthrough-push-data.md
+    - text: 教程：获取身份验证访问令牌
+      url: walkthrough-push-data-get-token.md
+    - text: 教程：创建数据集
+      url: walkthrough-push-data-create-dataset.md
+    - text: 获取数据集以添加行
+      url: walkthrough-push-data-get-datasets.md
+    - text: 向 Power BI 表中添加行
+      url: walkthrough-push-data-add-rows.md
+- title: 处理数据
+  linkLists:
+  - linkListType: concept
+    links:
+    - text: 实时数据的自动保留策略
+      url: api-automatic-retention-policy-for-real-time-data.md
+    - text: Power BI REST API 限制
+      url: api-rest-api-limitations.md
+    - text: 数据集属性
+      url: api-dataset-properties.md
+  - linkListType: how-to-guide
+    links:
+    - text: 配置凭据
+      url: configure-credentials.md
+- title: 参考和资源
+  linkLists:
+  - linkListType: reference
+    links:
+    - text: Power BI REST API
+      url: https://docs.microsoft.com/rest/api/power-bi/
+    - text: Power BI REST API 引用
+      url: https://docs.microsoft.com/power-bi/developer/automation/rest-api-reference
+    - text: 开发人员中心
+      url: https://powerbi.microsoft.com/developers/
+    - text: Power BI 库
+      url: https://www.nuget.org/profiles/powerbi

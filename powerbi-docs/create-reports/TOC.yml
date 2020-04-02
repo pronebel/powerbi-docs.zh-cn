@@ -20,6 +20,8 @@
       items:
         - name: 获取 Power BI 示例
           href: ../sample-datasets.md
+        - name: 新冠肺炎美国示例
+          href: sample-covid-19-us.md
         - name: 客户盈利率示例
           href: ../sample-customer-profitability.md
         - name: IT 支出分析示例

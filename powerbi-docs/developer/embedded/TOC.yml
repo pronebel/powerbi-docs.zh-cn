@@ -1,0 +1,110 @@
+- name: Power BI 嵌入式分析文档
+  href: index.yml
+  expanded: true
+  items:
+    - name: 概述
+      expanded: true
+      items:
+        - name: 什么是使用 Power BI 嵌入
+          href: embedding.md
+        - name: Azure 中的 Power BI Embedded 是指什么
+          href: azure-pbie-what-is-power-bi-embedded.md
+    - name: 教程
+      expanded: true
+      items:
+        - name: 为客户嵌入内容
+          href: embed-sample-for-customers.md
+        - name: 为组织嵌入内容
+          href: embed-sample-for-your-organization.md
+        - name: 为客户嵌入分页报表
+          href: embed-paginated-reports-customers.md
+        - name: 为国家云嵌入内容
+          href: embed-sample-for-customers-national-clouds.md
+    - name: 概念
+      items:
+        - name: Power BI 嵌入式分析中的容量和 SKU
+          href: embedded-capacity.md
+        - name: 容量规划
+          href: embedded-capacity-planning.md
+        - name: 性能最佳做法
+          href: embedded-performance-best-practices.md
+        - name: 服务主体
+          href: embed-service-principal.md
+        - name: 行级别安全性
+          href: embedded-row-level-security.md
+        - name: 分页报表行级安全性
+          href: paginated-reports-row-level-security.md
+        - name: 管理多租户
+          href: embed-multi-tenancy.md
+        - name: Azure 中 Power BI Embedded 的诊断日志记录
+          href: azure-pbie-diag-logs.md
+        - name: 嵌入式常见问题解答
+          href: embedded-faq.md
+        - name: Power BI 权限
+          href: power-bi-permissions.md
+    - name: 操作方法
+      items:
+        - name: 从应用中嵌入
+          href: embed-from-apps.md
+        - name: 将报表导出到文件
+          href: export-to.md
+        - name: 自动安装应用
+          href: embed-auto-install-app.md
+        - name: 创建 Azure Active Directory 租户
+          href: create-an-azure-active-directory-tenant.md
+        - name: 注册应用程序
+          href: register-app.md
+        - name: 获取 Azure AD 访问令牌
+          href: get-azuread-access-token.md
+        - name: 使用动态绑定连接报告
+          href: embed-dynamic-binding.md
+        - name: 嵌入常见问题解答
+          href: qanda.md
+        - name: 嵌入式应用程序疑难解答
+          href: embedded-troubleshoot.md
+        - name: 在 Azure 中管理容量
+          items:
+            - name: 在 Azure 中创建容量
+              href: azure-pbie-create-capacity.md
+            - name: 在 Azure 中使用 Multi-Geo 创建容量
+              href: embedded-multi-geo.md
+            - name: 在 Azure 中扩展容量
+              href: azure-pbie-scale-capacity.md
+            - name: 在 Azure 中暂停和启动容量
+              href: azure-pbie-pause-start.md
+        - name: 从工作区集合进行迁移
+          items:
+            - name: 如何从 Power BI 工作区集合进行迁移
+              href: migrate-from-powerbi-embedded.md
+            - name: 迁移工具
+              href: migrate-tool.md
+            - name: 迁移代码片段
+              href: migrate-code-snippets.md
+    - name: 参考
+      items:
+        - name: API
+          items:
+            - name: Azure 资源管理器 REST API
+              href: 'https://docs.microsoft.com/rest/api/power-bi-embedded/'
+            - name: Power BI REST API
+              href: 'https://msdn.microsoft.com/library/mt147898.aspx'
+        - name: Power BI 库
+          href: 'https://go.microsoft.com/fwlink/?linkid=848274'
+        - name: 在应用中嵌入自定义布局
+          href: embedded-custom-layout.md
+    - name: 资源
+      items:
+        - name: 开发人员中心
+          href: 'https://powerbi.microsoft.com/en-us/developers/'
+        - name: 嵌入安装程序工具
+          href: 'https://aka.ms/embedsetup'
+        - name: JavaScript 演练示例
+          href: 'https://go.microsoft.com/fwlink/?linkid=848279'
+        - name: Power BI JavaScript wiki
+          href: 'https://github.com/Microsoft/powerbi-javascript/wiki'
+        - name: 开发人员示例和脚本
+          href: 'https://go.microsoft.com/fwlink/?linkid=851293'
+        - name: Power BI 社区
+          href: 'https://go.microsoft.com/fwlink/?linkid=848280'
+        - name: 堆栈溢出
+          href: 'https://go.microsoft.com/fwlink/?linkid=848281'

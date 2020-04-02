@@ -1,0 +1,54 @@
+- name: Power BI 自动化文档
+  href: index.yml
+  expanded: true
+  items:
+    - name: 概述
+      expanded: true
+      items:
+        - name: 借助 Power BI API 可以做什么？
+          href: overview-of-power-bi-rest-api.md
+    - name: 教程
+      expanded: true
+      items:
+        - name: 将数据推送到数据集
+          href: walkthrough-push-data.md
+        - name: 获取身份验证访问令牌
+          href: walkthrough-push-data-get-token.md
+        - name: 创建数据集
+          href: walkthrough-push-data-create-dataset.md
+        - name: 获取数据集以添加行
+          href: walkthrough-push-data-get-datasets.md
+        - name: 向表中添加行
+          href: walkthrough-push-data-add-rows.md
+    - name: 概念
+      items:
+        - name: 实时数据的自动保留策略
+          href: api-automatic-retention-policy-for-real-time-data.md
+        - name: 推送数据
+          items:
+            - name: Power BI REST API 限制
+              href: api-rest-api-limitations.md
+            - name: 数据集属性
+              href: api-dataset-properties.md
+            - name: 数据模型版本控制
+              href: api-data-model-versioning.md
+    - name: 操作方法
+      items:
+        - name: 配置凭据
+          href: configure-credentials.md
+    - name: 参考
+      items:
+        - name: REST API
+          href: 'https://docs.microsoft.com/rest/api/power-bi'
+        - name: Power BI REST API 引用
+          href: rest-api-reference.md
+        - name: 完整代码清单
+          href: walkthrough-push-data-complete-code.md
+    - name: 资源
+      items:
+        - name: 开发中心
+          href: 'https://powerbi.microsoft.com/en-us/developers/'
+        - name: 'Power BI C# Git 存储库'
+          href: 'https://go.microsoft.com/fwlink/?linkid=848273'
+        - name: .NET SDK 下载
+          href: 'https://go.microsoft.com/fwlink/?linkid=848274'
