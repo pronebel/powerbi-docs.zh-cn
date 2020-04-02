@@ -10,12 +10,12 @@ ms.subservice: powerbi-desktop
 ms.topic: overview
 ms.date: 01/03/2019
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 26b2cbfc8e57009b836b5ca650e16977de425f3a
-ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
+ms.openlocfilehash: 22c367dbc6160928541570bf2de37c51edcbfc14
+ms.sourcegitcommit: 6e56d038280efab86521602cbc089b3989dddbd0
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/14/2020
-ms.locfileid: "79383473"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "80550879"
 ---
 # <a name="visuals-in-power-bi"></a>Power BI 中的视觉对象
 
@@ -41,7 +41,7 @@ Microsoft 和社区成员已将 Power BI 视觉对象公布到[ AppSource](https
 
 ### <a name="what-is-appsource"></a>什么是 AppSource？
 
-[AppSource](office-store.md) 是可以在其中查找与 Microsoft 软件相关的应用、加载项和扩展的地方。 AppSource 为 Office 365、Azure、Dynamics 365、Cortana 和 Power BI 等产品的数百万用户提供解决方案，帮助他们更高效、更有见地完成工作。
+[AppSource](https://appsource.microsoft.com/marketplace/apps?product=power-bi-visuals) 是可以在其中查找与 Microsoft 软件相关的应用、加载项和扩展的地方。 AppSource 为 Office 365、Azure、Dynamics 365、Cortana 和 Power BI 等产品的数百万用户提供解决方案，帮助他们更高效、更有见地完成工作。
 
 ### <a name="certified-power-bi-visuals"></a>已认证的 Power BI 视觉对象
 

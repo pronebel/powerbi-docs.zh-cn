@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.topic: conceptual
 ms.subservice: powerbi-custom-visuals
 ms.date: 03/08/2020
-ms.openlocfilehash: f357c3ee937c75afcbf2095c6cbd586f9748420e
-ms.sourcegitcommit: 2c798b97fdb02b4bf4e74cf05442a4b01dc5cbab
+ms.openlocfilehash: bfdac85b50851f840db04d2b3d8e88d434ab7b7e
+ms.sourcegitcommit: 6e56d038280efab86521602cbc089b3989dddbd0
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/21/2020
-ms.locfileid: "80114189"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "80550891"
 ---
 # <a name="publish-power-bi-visuals-to-partner-center"></a>将 Power BI 视觉对象发布到合作伙伴中心
 
@@ -100,8 +100,6 @@ Power BI 团队必须为新 Power BI 视觉对象提交、现有 Power BI 视觉
 10. 选择“产品设置”，单击“审阅并发布”。  
 
 ## <a name="tracking-submission-status-and-usage"></a>跟踪提交状态和使用情况
-
-可以查看[验证策略](https://dev.office.com/officestore/docs/validation-policies#13-power-bi-custom-visuals)。
 
 提交后，可以在[“应用仪表板”](https://sellerdashboard.microsoft.com/Application/Summary/)中查看提交状态。
 
