@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 02/13/2020
-ms.openlocfilehash: 74e2c60bfe0d6d494fc1175fb001b4b4b7eb24fa
-ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
+ms.openlocfilehash: dfb6c313e989514da2aa04facd6c6136a0eadc1a
+ms.sourcegitcommit: 444f7fe5068841ede2a366d60c79dcc9420772d4
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/14/2020
-ms.locfileid: "79381114"
+ms.lasthandoff: 03/30/2020
+ms.locfileid: "80404186"
 ---
 # <a name="install-power-bi-desktop-optimized-for-power-bi-report-server"></a>安装更适合 Power BI 报表服务器的 Power BI Desktop
 
@@ -62,7 +62,7 @@ ms.locfileid: "79381114"
 
 ## <a name="considerations-and-limitations"></a>注意事项和限制
 
-Power BI 报表服务器、Power BI 服务 (https://app.powerbi.com) ) 和 Power BI 移动应用中 Power BI 报表的行为几乎完全相同，但有一些功能不同。
+在 Power BI 报表服务器、Power BI 服务 (`https://app.powerbi.com`) 和 Power BI 移动应用中，Power BI 报表的行为几乎完全相同，但有一些功能不同。
 
 ### <a name="selecting-a-language"></a>选择语言
 

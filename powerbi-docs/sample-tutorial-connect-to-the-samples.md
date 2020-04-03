@@ -1,37 +1,37 @@
 ---
-title: 连接到 Power BI 服务中的示例
-description: 了解如何安装和浏览 Power BI 服务中的示例。
+title: 探索“零售分析”示例
+description: 了解如何在 Power BI 服务和 Power BI Desktop 中安装和探索“零售分析”示例。
 author: maggiesMSFT
 ms.reviewer: amac
 ms.custom: seodec18
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 07/19/2019
+ms.date: 03/27/2020
 ms.author: maggies
 LocalizationGroup: Samples
-ms.openlocfilehash: c1fbd57f1c92c9900178eb212a1369d25fdf838a
-ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
+ms.openlocfilehash: f18ec650167b7872cb332bc9ccd606f7ea1f7500
+ms.sourcegitcommit: 444f7fe5068841ede2a366d60c79dcc9420772d4
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/09/2020
-ms.locfileid: "75762154"
+ms.lasthandoff: 03/30/2020
+ms.locfileid: "80404595"
 ---
-#  <a name="import-and-open-sample-packs-for-power-bi"></a>为 Power BI 导入和打开示例包
+# <a name="explore-the-retail-analysis-sample"></a>探索“零售分析”示例
 
 本教程介绍如何： 
-- 导入示例内容包、将其添加到 Power BI 服务以及打开内容。 内容包  是一种示例类型，其中，数据集与仪表板和报表捆绑在一起。 
-- 在 Power BI Desktop 中打开示例 .pbix 文件。
+- 导入“零售分析”示例内容包，将它添加到 Power BI 服务，并打开内容。 内容包  是一种示例类型，其中，数据集与仪表板和报表捆绑在一起。 
+- 在 Power BI Desktop 中打开“零售分析”示例 .pbix 文件。
 
 如需更多背景信息，请参阅 [Power BI 的示例数据集](sample-datasets.md)。 在本文章中，你将了解这些示例的全部信息：如何获取，在何处保存，如何使用这些示例，以及每个示例所表示的一些应用场景。 
 
 ## <a name="prerequisites"></a>先决条件
-Power BI 服务和 Power BI Desktop 均支持该示例。 要继续学习，我们将使用零售分析示例。
+Power BI 服务和 Power BI Desktop 均支持该示例。 如果你要跟着本教程一起操作，请注意，我们使用的是“零售分析”示例。
 
 本教程使用的零售分析  示例内容包包含仪表板、报表和数据集。
 为了熟悉此特定内容包及其应用场景，请在开始之前查看 [Power BI 的零售分析示例：体验教程](sample-retail-analysis.md)。
 
-## <a name="samples-in-the-power-bi-service"></a>Power BI 服务中的示例
+## <a name="import-the-sample-in-the-power-bi-service"></a>在 Power BI 服务中导入示例
 
 1. 打开并登录 Power BI 服务 (app.powerbi.com)，然后打开要在其中保存此示例的工作区。 
 
@@ -94,8 +94,8 @@ Power BI 服务和 Power BI Desktop 均支持该示例。 要继续学习，我�
      
     ![见解报表](media/sample-tutorial-connect-to-the-samples/power-bi-insights.png)
 
-## <a name="samples-in-power-bi-desktop"></a>Power BI Desktop 中的示例 
-首次在 Power BI Desktop 中打开示例 .pbix 文件时，它将在报表视图中显示，可在其中浏览、创建和修改可视化效果中的任何报表页数。 报表视图所提供的设计体验与 Power BI 服务中报表的编辑视图所提供的几乎相同。 可四处移动可视化内容，进行复制粘贴、合并等。 
+## <a name="download-the-sample-in-power-bi-desktop"></a>在 Power BI Desktop 中下载示例 
+首次在 Power BI Desktop 中打开示例 .pbix 文件时，它将在报表视图中显示，可在其中浏览、创建和修改可视化效果中的任何报表页数。 报表视图提供与 Power BI 服务中的报表编辑视图几乎相同的设计体验。 可四处移动可视化内容，进行复制粘贴、合并等。 
 
 与在 Power BI 服务中编辑报表不同，在 Power BI Desktop 中，还可运用查询并对数据建模以确保数据支持报表中的最佳见解。 无论在本地驱动器还是云中，都可在任何位置保存 Power BI Desktop 文件。
 
@@ -119,7 +119,7 @@ Power BI 服务和 Power BI Desktop 均支持该示例。 要继续学习，我�
 
     在数据视图中，可以检查、浏览和了解 Power BI Desktop 模型中的数据。 它与你在查询编辑器中查看表、列和数据的方式不同。 数据视图中的数据已加载到模型中。
 
-    进行数据建模时，有时想要查看表的行和列中的实际内容而不想在报表画布上创建视觉对象。 特别是当你要创建度量值和计算列时，或者需要识别数据类型或数据类别时。
+    在进行数据建模时，你有时希望无需在报表画布上创建视觉对象，即可查看表中行和列内的实际内容。 特别是当你要创建度量值和计算列时，或当你需要确定数据类型或数据类别时。
 
 1. 通过选择以下图标切换到[关系视图](desktop-relationship-view.md)：![关系视图图标](media/sample-tutorial-connect-to-the-samples/power-bi-desktop-relationship-icon.png)。
  

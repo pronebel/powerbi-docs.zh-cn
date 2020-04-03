@@ -6,20 +6,20 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 08/12/2019
+ms.date: 04/01/2020
 ms.author: maggies
 LocalizationGroup: Reports
-ms.openlocfilehash: de7a01f70d179237c45205447f564b3833db2156
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 15a4d88ac9de5d50caeb975afa8ad1758246031f
+ms.sourcegitcommit: 6e56d038280efab86521602cbc089b3989dddbd0
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73881821"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "80551091"
 ---
 # <a name="download-a-report-from-the-power-bi-service-to-power-bi-desktop-preview"></a>将报表从 Power BI 服务下载到 Power BI Desktop（预览版）
 在 Power BI Desktop 中，可以将报表（.pbix 文件）从本地计算机发布到 Power BI 服务  。 Power BI 报表也可以反向流动：可以将报表从 Power BI 服务下载到 Power BI Desktop。 两种情况下，Power BI 报表的扩展均为 .pbix。
 
-有几个需要牢记的限制和注意事项，将稍后在本文中讨论。
+有几个需要注意的限制，本文的[注意事项和疑难解答](#considerations-and-troubleshooting)部分中讨论了这些限制。
 
 ![文件下拉列表](media/service-export-to-pbix/power-bi-file-export.png)
 
@@ -55,6 +55,7 @@ ms.locfileid: "73881821"
 * 打开下载的文件时，始终使用最新版本的 Power BI Desktop。 在 Power BI Desktop 的非当前版本中可能无法打开下载的 .pbix 文件。
 * 如果管理员已关闭数据下载功能，则此功能在 Power BI 服务中将不可见。
 * 不能将包含递增刷新的数据集下载到 .pbix 文件。
+* 如果你创建基于一个工作区中数据集的 Power BI 报表，并将此报表发布到另一个工作区，那么你和你的用户就无法下载此报表。 此场景暂不支持下载功能。
 
 ## <a name="next-steps"></a>后续步骤
 查看有关此功能的 **Guy in a Cube** 一分钟视频：

@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 07/05/2019
 ms.author: maggies
 LocalizationGroup: Samples
-ms.openlocfilehash: 160c5736bc2894e629f5bb375dd07e993def1e0c
-ms.sourcegitcommit: 7e845812874b3347bcf87ca642c66bed298b244a
+ms.openlocfilehash: cef0983479a4b63dd97c1f709d69d65172dea334
+ms.sourcegitcommit: 444f7fe5068841ede2a366d60c79dcc9420772d4
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/13/2020
-ms.locfileid: "79205288"
+ms.lasthandoff: 03/30/2020
+ms.locfileid: "80404172"
 ---
 # <a name="customer-profitability-sample-for-power-bi-take-a-tour"></a>Power BI 的客户盈利率示例：参观
 
@@ -56,7 +56,7 @@ ms.locfileid: "79205288"
 
 ### <a name="get-the-excel-workbook-for-this-sample"></a>获取 Excel 工作簿形式的此示例
 
-若要查看此示例的数据源，还可以将它下载为 [Excel 工作簿](https://go.microsoft.com/fwlink/?LinkId=529781)。 该工作簿包含你可以查看和修改的 Power View 工作表。 若要查看原始数据，请启用“数据分析”加载项，再依次选择“Power Pivot”>“管理”  。 若要启用 Power View 和 Power Pivot 加载项，请参阅[从 Excel 本身内查看 Excel 示例](sample-datasets.md#optional-take-a-look-at-the-excel-samples-from-inside-excel-itself)，以了解详细信息。
+若要查看此示例的数据源，还可以将它下载为 [Excel 工作簿](https://go.microsoft.com/fwlink/?LinkId=529781)。 该工作簿包含你可以查看和修改的 Power View 工作表。 若要查看原始数据，请启用“数据分析”加载项，再依次选择“Power Pivot”>“管理”  。 若要启用 Power View 和 Power Pivot 加载项，请参阅[在 Excel 中探索 Excel 示例](sample-datasets.md#explore-excel-samples-inside-excel)，以了解详细信息。
 
 ## <a name="what-is-our-dashboard-telling-us"></a>仪表板告诉我们什么？
 
@@ -87,7 +87,7 @@ ms.locfileid: "79205288"
 通过分析特定于经理的仪表板磁贴，我们可以观察到以下几点：
 
 - 除 Carlos 外，所有管理人员均已超过目标销售额。 但 Carlos 的实际销售额是最高的。
-- Annelie 的毛利润百分比最低，但从 3 月开始我们可以看到稳定的增长。
+- 可以看到，Annelie 的毛利率最低，但从 3 月开始稳步增长。
 - 另一方面，可以看到 Valery 的 GM % 在显著下降。
 - Andrew 经过了多变的一年。
 
@@ -133,25 +133,25 @@ ms.locfileid: "79205288"
 ### <a name="team-scorecard-page"></a>“团队记分卡”页
 ![“团队记分卡”报表页](media/sample-customer-profitability/customer2.png)
 
-我们来了解一下零售团队成员中的两名成员，看一看可获得哪些见解： 
+让我们来仔细研究一下两名零售团队成员，看看可以得出什么见解： 
 
 1. 在左侧的“管理人员”框中，选择 Andrew 的名字，将报表页面筛选为仅显示 Andrew 的相关数据  ：
 
-   * 为快速了解 KPI，可查看 Andrew 的“收入状态(全年)”；该项显示为绿色，表明他的表现还不错  。
+   * 若要快速了解 KPI，看看 Andrew 的“收入状态(全年)”  ；它是绿色的，表明他的绩效不错。
    * “收入与预算差额百分比(按月和管理人员)”  图显示，除 2 月份有所下降以外，Andrew 的绩效非常不错。 Andrew 的最主要区域是东部，其中包括 49 个客户和 5 款产品（共 7 款）。 Andrew 的 GM% 既不是最高的，也不是最低的。
    * “全年总收入和按月划分的收入与预算差额百分比”图显示了一种稳定的盈亏平衡情况  。 但当通过选择区域树状图中的“中部”方块进行筛选时，你会发现 Andrew 仅在 3 月份才有收入，并且仅限于印第安纳州  。 这种趋势是有意为之还是别有隐情？
 
-2. 现在转向 Valery。 在“管理人员”切片器中，选择 Valery 的名字，将报表页筛选为仅显示 Valery 的相关数据  。 
+2. 现在转向 Valery。 在“主管人员”  切片器中，选择 Valery 的名字，以将报表页筛选为只显示 Valery 的相关数据。 
 
    ![Valery 的数据](media/sample-customer-profitability/customer3.png)
 
    * 请注意，“收入状态(全年)”的 KPI 为红色  。 此项肯定需要进一步调查。
    * Valery 的收入差也令人担心；Valery 没有达到设定的收入毛利率。
    * Valery 只有 9 个客户，只负责 2 款产品，合作的客户几乎全部位于北部区域。 这种特殊性可以解释指标中存在的大范围波动。
-   * 如果选择树状图中的“北部”方块，则会显示 Valery 在北部区域的毛利率与整体利润保持一致  。
+   * 如果选择树状图中的“北部”  方块，可以看到 Valery 在北部区域的毛利率与总毛利率保持一致。
    * 选择其他每个“各区域的总收入”方块出现了很有趣的现象：他们的毛利率范围为 23% 到 79%  。 Valery 在除北部区域外的所有区域中的收入数字非常具有季节性。
 
-3. 继续探索，找出 Valery 的区域表现不佳的原因。 看一看各个区域、其他业务部门以及该报表的下一页：“行业利润率分析”  。
+3. 继续探索，以确定 Valery 区域绩效不佳的原因所在。 看一看各个区域、其他业务部门以及该报表的下一页：“行业利润率分析”  。
 
 ### <a name="industry-margin-analysis"></a>行业利润率分析
 此报表页提供了不同的数据片段。 通过分析细分市场，介绍了整个行业的毛利率。 CFO 利用此页将公司和业务部门指标与行业指标进行比较，以帮助他们阐释趋势和盈利性。 你可能会想“按月和管理人员划分的毛利率百分比”图为什么会出现在此页，因为它是特定于团队的  。 在此处列出可让我们按业务部门经理筛选页面。  
@@ -160,14 +160,14 @@ ms.locfileid: "79205288"
 
 1. 盈利性如何随行业而变化？ 如何按行业细分产品和客户？ 若要回答这些问题，请从左上方选择一个或多个行业（从 CPG 行业开始）。 若要清除筛选器，可选择橡皮擦图标。
 
-2. 在“按行业划分的收入与预算差额百分比、毛利率百分比和全年总收入”气泡图中，CFO 要查找最大的气泡，因为它们对收入产生的影响最大  。 要按行业细分市场轻松查看对各经理产生的影响，请依次选择分区图中各经理的名字来筛选页面。
+2. 在“按行业划分的收入与预算差额百分比、毛利率百分比和全年总收入”气泡图中，CFO 要查找最大的气泡，因为它们对收入产生的影响最大  。 若要按行业细分轻松查看各经理的影响，请在分区图中依次选择各经理的名字来筛选页面。
 
 3. 在图表中选择每位经理时，请注意下列详细信息：
    * Andrew 受影响的区域跨度许多不同行业的细分市场，GM%（大部分是正面影响）和 Var% 变化都很大。
    * Annelie 的图表与之相似，只是 Annelie 只集中在一小部分行业细分市场，专注于“联邦”细分市场和 Gladius 产品。
    * Carlos 主要侧重于“服务”细分市场，利润很好。 Carlos 也已显著提高了“高科技”细分市场和新细分市场（工业）的差额百分比，与预算相比，表现异常出色。
    * Tina 负责少量细分市场，GM% 最高，但她的气泡大部分都是小气泡，这表示 Tina 对公司的账本底线产生的影响最小。
-   * Valery 只负责一款产品，并且只负责五个行业细分市场。 Valery 的行业影响也具有季节性，但始终会产生大气泡，表明对公司的账本底线影响较大。 行业细分市场是否能解释他们的消极表现？
+   * Valery 只负责一款产品，并且只负责五个行业细分市场。 虽然 Valery 的行业影响具有季节性，但总是会产生大气泡，表明对公司盈利有重大影响。 行业细分市场是否能解释他们的消极表现？
 
 ### <a name="executive-scorecard"></a>管理人员记分卡
 此页面采用自定义页面大小格式。

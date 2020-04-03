@@ -9,12 +9,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 05/08/2019
 LocalizationGroup: Data from databases
-ms.openlocfilehash: db988dfd360aae00fed1f6d917376a6ba54f9089
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 6b2b457c2df8e37b4fac3108061a325261f5574b
+ms.sourcegitcommit: 9ecd7cadb9ff47f0fc0e400730777cc4dadbd80d
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73873222"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "80487765"
 ---
 # <a name="azure-and-power-bi"></a>Azure 和 Power BI
 
@@ -58,7 +58,7 @@ Power BI 拥有多种 Azure 连接可用，而且使用这些服务创建的商�
 
 在 [Power BI 开发人员门户](https://dev.powerbi.com)中查看 Power BI API 的详细信息。
 
-有关详细信息，请参阅[开发人员可以使用 Power BI 做什么？](developer/what-can-you-do.md)。
+有关详细信息，请参阅[什么是 Azure 中的 Power BI Embedded？](developer/embedded/azure-pbie-what-is-power-bi-embedded.md)。
 
 ## <a name="embed-your-power-bi-data-within-your-app"></a>在应用中嵌入 Power BI 数据
 

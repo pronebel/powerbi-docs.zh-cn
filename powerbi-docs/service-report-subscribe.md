@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 12/03/2019
 ms.author: maggies
 LocalizationGroup: Common tasks
-ms.openlocfilehash: 5208c72016a148f86a119bdddd2bbd1f69d3456b
-ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
+ms.openlocfilehash: 0804650149f98d7f63315025ffe3f8a1771ac2ef
+ms.sourcegitcommit: bcc42e938fa28abe433287fecb9abb28c253b6bb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/14/2020
-ms.locfileid: "79381022"
+ms.lasthandoff: 03/26/2020
+ms.locfileid: "80302752"
 ---
 # <a name="subscribe-yourself-and-others-to-reports-and-dashboards-in-the-power-bi-service"></a>在 Power BI 服务中为自己和他人订阅报表和仪表板
 
@@ -96,7 +96,7 @@ ms.locfileid: "79381022"
 * 报表页订阅与报表页面的名称是相关联的。 如果你订阅一个报表页，随后将其重命名，则必须重新创建订阅。
 * 组织可能在 Azure Active Directory 中配置的某些设置会限制 Power BI 中电子邮件订阅的使用。  这些限制包括但不限于针对资源访问设置多重身份验证或 IP 范围限制。
 * 当前，在订阅自己以外的用户时，不支持对使用实时连接数据集的报表/仪表板进行电子邮件订阅，除非你使用的是分页报表，分页报表允许你使用安全性上下文将订阅发送给其他人。
-* 电子邮件订阅不支持大多数 [Power BI 视觉对象](developer/visuals/power-bi-custom-visuals.md)。  已经过[认证](developer/visuals/power-bi-custom-visuals-certified.md)的 Power BI 视觉对象除外。  
+* 电子邮件订阅只支持默认和[认证 Power BI 视觉对象](developer/visuals/power-bi-custom-visuals.md)。  
 * 目前，电子邮件订阅不支持 R 驱动的 Power BI 视觉对象。  
 * 电子邮件订阅与报表的默认筛选器和切片器状态一起发送。 在订阅后对默认设置所做的任何更改都不会显示在电子邮件中。  分页报表支持此功能，并允许你为每个订阅设置特定的参数值。
 * 对于仪表板订阅，具体来说，尚不支持某些类型的磁贴。  其中包括流磁贴、视频磁贴、自定义 Web 内容磁贴。     

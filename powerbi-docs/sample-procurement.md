@@ -9,16 +9,16 @@ ms.topic: conceptual
 ms.date: 07/02/2019
 ms.author: maggies
 LocalizationGroup: Samples
-ms.openlocfilehash: 0998ebec15a4e02262ab54a3b08593a65f37af4e
-ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
+ms.openlocfilehash: 8ee77485da03cb8e507d30d511c08aa869c3e4ba
+ms.sourcegitcommit: 444f7fe5068841ede2a366d60c79dcc9420772d4
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/06/2020
-ms.locfileid: "73873855"
+ms.lasthandoff: 03/30/2020
+ms.locfileid: "80404662"
 ---
 # <a name="procurement-analysis-sample-for-power-bi-take-a-tour"></a>Power BI 的采购分析示例：参观
 
-“采购分析示例”内容包包含一个仪表板、报告和数据集，按类别和位置分析制造公司对供应商的支出。 本示例探讨以下几方面：
+“采购分析”示例内容包中有仪表板、报表和数据集，用于按类别和位置分析制造公司对供应商的支出。 本示例探讨以下几方面：
 
 * 首选供应商有哪些
 * 我们在哪些类别上的支出最多
@@ -61,11 +61,11 @@ ms.locfileid: "73873855"
 
 ### <a name="get-the-excel-workbook-for-this-sample"></a>获取 Excel 工作簿形式的此示例
 
-若要查看此示例的数据源，还可以将它下载为 [Excel 工作簿](https://go.microsoft.com/fwlink/?LinkId=529784)。 该工作簿包含你可以查看和修改的 Power View 工作表。 若要查看原始数据，请启用“数据分析”加载项，再依次选择“Power Pivot”>“管理”  。 若要启用 Power View 和 Power Pivot 加载项，请参阅[从 Excel 本身内查看 Excel 示例](sample-datasets.md#optional-take-a-look-at-the-excel-samples-from-inside-excel-itself)，以了解详细信息。
+若要查看此示例的数据源，还可以将它下载为 [Excel 工作簿](https://go.microsoft.com/fwlink/?LinkId=529784)。 该工作簿包含你可以查看和修改的 Power View 工作表。 若要查看原始数据，请启用“数据分析”加载项，再依次选择“Power Pivot”>“管理”  。 若要启用 Power View 和 Power Pivot 加载项，请参阅[在 Excel 中探索 Excel 示例](sample-datasets.md#explore-excel-samples-inside-excel)，以了解详细信息。
 
 
 ## <a name="spending-trends"></a>支出趋势
-我们先来看按类别和位置划分的支出趋势。  
+首先，按类别和位置分析支出趋势。  
 
 1. 在保存示例的工作区中，打开“仪表板”  选项卡，然后找到“采购分析示例”  仪表板，并选择它。 
 2. 选择仪表板磁贴，“按国家/地区划分的发票总计”  ，将打开“采购分析示例”  报表的“支出概况”  页。
@@ -80,7 +80,7 @@ ms.locfileid: "73873855"
 * 在“按层划分的发票总计”  条形图中，我们大多数的业务都是与第 1 层（前 10 大）供应商合作完成的。 这样做使我们能够管理更好的供应商关系。
 
 ## <a name="spending-in-mexico"></a>墨西哥的支出
-让我们来浏览墨西哥的支出部分。
+让我们来看看墨西哥的支出区域。
 
 1. 在“按国家/地区划分的发票总计”  地图中，选择“墨西哥”  气泡。 请注意，在“按子类别划分的发票总计”  柱形图中，大部分支出都在“间接货物与服务”  子类别中。
 
@@ -104,12 +104,12 @@ ms.locfileid: "73873855"
 我们可以使用突出显示来评估不同的城市。
 
 1. 选择仪表板磁贴，“按月份划分的发票总计、折扣百分比”  ，将打开“采购分析示例”  报表的“折扣分析”  页。
-2. 在“按城市划分的发票总计”  树状图中，依次选择每个城市，以查看城市的比较结果。 请注意，几乎所有迈阿密的发票都来自第 1 层供应商。
+2. 在“按城市划分的发票总计”  树状图中，依次选择每个城市，以查看城市的比较结果。 注意到，几乎所有迈阿密的发票都来自第 1 层供应商。
 
    ![按层划分的城市和折扣百分比](media/sample-procurement/pbi_procsample_miamitreemap2.png)
 
 ## <a name="vendor-discounts"></a>供应商折扣
-接着，我们来探索供应商提供的折扣和我们获得最多折扣的时间段：
+让我们也来看看供应商提供的折扣，以及我们享受最大折扣的时间段：
 * 每个月的折扣是不同的还是保持不变？
 * 部分城市的折扣比其他城市多吗？
 
