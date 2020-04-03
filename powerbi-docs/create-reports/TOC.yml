@@ -317,8 +317,6 @@
               href: ../desktop-accessibility-keyboard-shortcuts.md
         - name: 分页报表
           items:
-            - name: 动手实验室：创建分页报表
-              href: 'https://www.microsoft.com/handsonlabs/selfpacedlabs/details/SQ00208'
             - name: 直接在分页报表中输入数据
               href: ../paginated-reports/paginated-reports-enter-data.md
             - name: 创建嵌入的数据源
