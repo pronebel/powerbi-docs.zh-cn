@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: tutorial
 ms.date: 11/06/2018
-ms.openlocfilehash: aa916afbf439beb7019bd6f0af30cc56ad903704
-ms.sourcegitcommit: 7e845812874b3347bcf87ca642c66bed298b244a
+ms.openlocfilehash: 17742c48d9ac5cb49b6d04fe6fe4674e7f6c7ac9
+ms.sourcegitcommit: 444f7fe5068841ede2a366d60c79dcc9420772d4
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/13/2020
-ms.locfileid: "79207220"
+ms.lasthandoff: 03/30/2020
+ms.locfileid: "80404885"
 ---
 # <a name="tutorial-create-a-paginated-report-and-upload-it-to-the-power-bi-service"></a>教程：创建分页报表并将其上传到 Power BI 服务
 
@@ -286,7 +286,7 @@ ms.locfileid: "79207220"
 
 既然已经创建了这个分页报表，现在是时候将它上传到 Power BI 服务了。
 
-1. 在 Power BI 服务中（导航窗格中的 https://app.powerbi.com) ，选择“工作区” > “创建工作区”   。
+1. 在 Power BI 服务 (`https://app.powerbi.com`) 的导航窗格中，依次选择“工作区”   > “创建工作区”  。
 
 2. 将工作区命名为“Azure AW”  或其他唯一名称。 现在，你是唯一的成员。 
 

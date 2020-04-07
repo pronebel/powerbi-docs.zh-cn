@@ -10,12 +10,12 @@ ms.topic: tutorial
 ms.date: 08/07/2019
 ms.author: maggies
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 986f35cd1c4f612b16374107487d0ca20c9c607e
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: a3c87a700df1c35596b6520cc64d9b580ccb74eb
+ms.sourcegitcommit: 444f7fe5068841ede2a366d60c79dcc9420772d4
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73871251"
+ms.lasthandoff: 03/30/2020
+ms.locfileid: "80403405"
 ---
 # <a name="tutorial-connect-to-a-github-repo-with-power-bi"></a>教程：使用 Power BI 连接到 GitHub 存储库
 在本教程中，使用 Power BI 连接到 GitHub 服务中的真实数据，Power BI 即会自动创建仪表板和报表。 连接到 Power BI 内容公共存储库（也称为“存储库”），同时查看以下问题的答案  ：有多少人参与编辑 Power BI 公共内容？ 谁贡献最多？ 一周中哪天的贡献最大？ 以及其他问题。 
@@ -43,7 +43,7 @@ ms.locfileid: "73871251"
 
 
 ## <a name="how-to-connect"></a>如何连接
-1. 登录 Power BI 服务 (https://app.powerbi.com) 。 
+1. 登录 Power BI 服务 (`https://app.powerbi.com`)。 
 2. 在导航窗格中选择“应用”，然后选择“获取应用”   。
    
    ![Power BI 获取应用](media/service-tutorial-connect-to-github/power-bi-github-app-tutorial.png) 
@@ -64,7 +64,7 @@ ms.locfileid: "73871251"
 
 5. 输入创建的 GitHub 凭据。 如果已在浏览器中登录到 GitHub，Power BI 可能会跳过此步骤。 
 
-6. 对于“身份验证方法”，请选择“oAuth2”\>“登录”    。
+6. 对于“身份验证方法”  ，请依次选择“oAuth2”  \>“登录”  。
 
 7. 按照 GitHub 验证界面执行操作。 向 Power BI 授予访问 GitHub 数据的权限。
    

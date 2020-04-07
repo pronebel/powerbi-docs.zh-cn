@@ -9,12 +9,12 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 12/11/2018
 LocalizationGroup: Visualizations
-ms.openlocfilehash: ab2aa7f1771c09a7ec725f9cc533717e7daf11a0
-ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
+ms.openlocfilehash: 52ebb1bf049024051846936237d35b202f00d630
+ms.sourcegitcommit: 3c51431d85793b71f378c4b0b74483dfdd8411b3
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/14/2020
-ms.locfileid: "79383496"
+ms.lasthandoff: 03/31/2020
+ms.locfileid: "80464577"
 ---
 # <a name="organizational-visuals-in-power-bi"></a>Power BI 中的组织视觉对象
 
@@ -35,7 +35,7 @@ Power BI 管理员从“管理”门户部署和管理组织视觉对象。 视�
 若要详细了解如何执行、部署和管理组织中的组织 Power BI 视觉对象，请参阅以下文章：[详细了解如何部署和管理组织 Power BI 视觉对象](https://go.microsoft.com/fwlink/?linkid=866790)。
 
 > [!WARNING]
-> 自定义视觉对象可能包含存在安全或隐私风险的代码。 在将任何自定义视觉对象部署到组织存储库之前，请确保你信任其作者和来源。
+> 通过文件安装的 Power BI 视觉对象可能包含存在安全或隐私风险的代码。 在将 Power BI 视觉对象文件部署到组织存储库之前，请确保你信任它的作者和源。
 
 ## <a name="considerations-and-limitations"></a>注意事项和限制
 
@@ -45,7 +45,9 @@ Power BI 管理员从“管理”门户部署和管理组织视觉对象。 视�
 
 * 不支持旧版 Power BI 视觉对象（例如并非基于新版本 API 生成的 Power BI 视觉对象）
 
-* 如果从存储库中删除了某自定义视觉对象，则任何使用该视觉对象的现有报表都将停止呈现。 存储库中的删除操作是不可逆的。 若要暂时禁用自定义视觉对象，请使用“禁用”功能。
+* 如果从存储库中删除 ApSource 或文件中的 Power BI 视觉对象，任何使用删除的视觉对象的现有报表都会停止呈现。 从存储库中删除是不可逆的。 若要暂时禁用 ApSource 或文件中的 Power BI 视觉对象，请使用“禁用”功能。
+
+* Power BI 报表服务器不支持组织 Power BI 视觉对象。
 
 最终用户：
 

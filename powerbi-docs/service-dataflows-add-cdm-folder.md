@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 04/02/2019
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: 5b6b8658e4480173c32a591c2fc763a238cfd13a
-ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
+ms.openlocfilehash: f1e48fb2f20c531f4dc66e86d13b76f54165b81c
+ms.sourcegitcommit: 444f7fe5068841ede2a366d60c79dcc9420772d4
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/06/2020
-ms.locfileid: "73872692"
+ms.lasthandoff: 03/30/2020
+ms.locfileid: "80404767"
 ---
 # <a name="add-a-cdm-folder-to-power-bi-as-a-dataflow-preview"></a>将 CDM 文件夹添加到 Power BI 作为数据流（预览）
 
@@ -24,9 +24,10 @@ ms.locfileid: "73872692"
 
 下面列出了从 CDM 文件夹创建数据流的几个要求：
 
+* 管理员必须先在 Power BI 中关联 ADLS Gen2 存储帐户，然后才能使用它。 请参阅[连接用于数据流存储的 Azure Data Lake Storage Gen2](service-dataflows-connect-azure-data-lake-storage-gen2.md)，了解如何将 ADLS Gen2 帐户关联到 Power BI。
 * 从 CDM 文件夹创建数据流  仅适用于[新的工作区体验](service-create-the-new-workspaces.md)。 
 * 将 CDM 文件夹添加到 Power BI 要求用户添加文件夹以便拥有 [CDM 文件夹及其文件的授权](https://go.microsoft.com/fwlink/?linkid=2029121)。
-* 必须授予对 CDM 文件夹中的所有文件和文件夹的读取和执行权限，以便将其添加到 Power BI。
+* 必须授予对 CDM 文件夹中的所有文件和文件夹的读取和执行权限，才能将它们添加到 Power BI。
 
 以下部分介绍了如何从 CDM 文件夹创建数据流。
 
@@ -62,7 +63,7 @@ Power BI Pro、Premium 和 Embedded 工作区：
 * 读取 CDM 文件夹中创建的数据流的权限由 CDM 文件夹的所有者（而不是 Power BI）管理
 
 Power BI Desktop：
-* 只有有权访问创建数据流的工作区和 CDM 文件夹的用户才能从 Power BI 数据流连接器访问其数据
+* 只有同时有权访问创建数据流的工作区和 CDM 文件夹的用户，才能从 Power BI 数据流连接器访问它的数据
 
 
 下面还列出了一些其他注意事项：
@@ -71,13 +72,13 @@ Power BI Desktop：
 * 链接实体不适用于 CDM 文件夹中创建的数据流
 
 
- Power BI Desktop 客户无法访问存储在 Azure Data Lake Storage Gen2 帐户中的数据流，除非他们是数据流的所有者，或者他们已被显式授权访问数据流的 CDM 文件夹。 请考虑以下情况：
+Power BI Desktop  客户无法访问存储在 Azure Data Lake Storage Gen2 帐户中的数据流，除非他们是数据流所有者，或已被显式授权访问数据流的 CDM 文件夹。 请考虑以下情况：
 
-1.  Anna 创建了一个新的工作区，并将其配置为存储 CDM 文件夹中的数据流。
-2.  Ben 也是 Anna 所创建工作区的成员，他希望利用 Power BI Desktop 和数据流连接器从 Anna 创建的数据流获取数据。
-3.  Ben 收到一个错误，因为他没有被添加为 Data Lake 中数据流的 CDM 文件夹的授权用户。
+1.    Anna 创建了一个新的工作区，并将其配置为存储 CDM 文件夹中的数据流。
+2.    Ben 也是 Anna 所创建工作区的成员，他希望利用 Power BI Desktop 和数据流连接器从 Anna 创建的数据流获取数据。
+3.    Ben 看到了错误，因为他没有被添加为数据湖中数据流的 CDM 文件夹的授权用户。
 
-    ![尝试使用数据流时出错](media/service-dataflows-configure-workspace-storage-settings/dataflow-storage-settings_08.jpg)
+  ![尝试使用数据流时出错](media/service-dataflows-configure-workspace-storage-settings/dataflow-storage-settings_08.jpg)
 
 要解决此问题，必须授予 Ben 对 CDM 文件夹及其文件的读取权限。 可以在[本文](https://go.microsoft.com/fwlink/?linkid=2029121)中了解有关如何授予 CDM 文件夹访问权限的详细信息。
 

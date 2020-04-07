@@ -11,18 +11,18 @@ ms.topic: conceptual
 ms.date: 11/14/2019
 ms.author: maggies
 LocalizationGroup: Get started
-ms.openlocfilehash: f86b9ae056770240485ff1984be4714faec9dc83
-ms.sourcegitcommit: 7e845812874b3347bcf87ca642c66bed298b244a
+ms.openlocfilehash: 280e29d90e956ba47de6a0ff80b6f29bc0f00a18
+ms.sourcegitcommit: 444f7fe5068841ede2a366d60c79dcc9420772d4
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/13/2020
-ms.locfileid: "79207910"
+ms.lasthandoff: 03/30/2020
+ms.locfileid: "80404068"
 ---
 # <a name="basic-concepts-for-designers-in-the-power-bi-service"></a>Power BI 服务中设计器的基本概念
 
 本文旨在让你了解 Power BI 服务：有哪些不同的元素，它们如何协作，以及如何使用它们。 如果你已[注册 Power BI 服务](service-self-service-signup-for-power-bi.md)并已[添加了一些数据](service-get-data.md)，那么就可以更充分地利用它。 通常情况下，设计人员的典型工作流程是首先在 Power BI Desktop 中创建报表。 然后将报表发布到 Power BI 服务，可在其中继续修改报表。 还可以在 Power BI 服务中根据报表创建仪表板。 
 
-根据本文内容，如果你还没有自己的报表，请尝试安装 [Power BI 示例内容包](sample-datasets.md#the-power-bi-samples-as-content-packs)。
+根据本文内容，如果你还没有自己的报表，请尝试安装一个 [Power BI 示例](sample-datasets.md)。
 
 ![浏览器中的 Power BI 服务主页屏幕](media/service-basic-concepts/power-bi-home-screen.png)
 
@@ -165,9 +165,9 @@ Power BI 报表是一页或多页可视化对象（如折线图、地图和树�
 ## <a name="workbooks"></a>工作簿
 工作簿是特殊类型的数据集。 如果你已阅读前面的**数据集**部分，则大致已了解有关工作簿的所有信息。 但你可能想要知道，为何 Power BI 有时将 Excel 工作簿分类为**数据集**，而有时又将它分类为**工作簿**。
 
-对 Excel 文件使用“获取数据”时，可以选择“导入”或“连接”文件。    选择“连接”时，工作簿会显示在 Power BI 中，就像在 Excel Online 中那样。 但与 Excel Online 不同，你会有一些出色的功能，可帮助你将各元素从你的工作表固定仪表板中。
+对 Excel 文件使用“获取数据”时，可以选择“导入”或“连接”文件。    选择“连接”时，工作簿会显示在 Power BI 中，就像在 Excel Online 中那样。 但与 Excel Online 不同的是，有一些超棒的功能，可有助于将工作表中的元素固定到仪表板。
 
-不能在 Power BI 中编辑你的工作簿。 但是，如果你需要进行一些更改，你可以单击“编辑”，然后选择在 Excel Online 中编辑你的工作簿或在计算机上的 Excel 中打开工作簿。 你所作的任何更改都会保存到 OneDrive 上的工作簿中。
+无法在 Power BI 中编辑工作簿。 但是，如果你需要进行一些更改，你可以单击“编辑”，然后选择在 Excel Online 中编辑你的工作簿或在计算机上的 Excel 中打开工作簿。 你所作的任何更改都会保存到 OneDrive 上的工作簿中。
 
 ### <a name="dig-deeper"></a>深入了解
 * [从 Excel 工作簿文件中获取数据](service-excel-workbook-files.md)

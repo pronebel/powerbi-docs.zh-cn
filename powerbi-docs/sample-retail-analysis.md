@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 07/02/2019
 ms.author: maggies
 LocalizationGroup: Samples
-ms.openlocfilehash: 42e3a95e344e17d1ceba11911fc8aa349ebafd0c
-ms.sourcegitcommit: 7e845812874b3347bcf87ca642c66bed298b244a
+ms.openlocfilehash: eac1c22ba23f7a1a67b2cc120fe38d4c396d864a
+ms.sourcegitcommit: 444f7fe5068841ede2a366d60c79dcc9420772d4
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/13/2020
-ms.locfileid: "79207473"
+ms.lasthandoff: 03/30/2020
+ms.locfileid: "80404704"
 ---
 # <a name="retail-analysis-sample-for-power-bi-take-a-tour"></a>Power BI 的零售分析示例：参观
 
@@ -57,7 +57,7 @@ ms.locfileid: "79207473"
 
 ### <a name="get-the-excel-workbook-for-this-sample"></a>获取 Excel 工作簿形式的此示例
 
-若要查看此示例的数据源，还可以将它下载为 [Excel 工作簿](https://go.microsoft.com/fwlink/?LinkId=529778)。 该工作簿包含你可以查看和修改的 Power View 工作表。 若要查看原始数据，请启用“数据分析”加载项，再依次选择“Power Pivot”>“管理”  。 若要启用 Power View 和 Power Pivot 加载项，请参阅[从 Excel 本身内查看 Excel 示例](sample-datasets.md#optional-take-a-look-at-the-excel-samples-from-inside-excel-itself)，以了解详细信息。
+若要查看此示例的数据源，还可以将它下载为 [Excel 工作簿](https://go.microsoft.com/fwlink/?LinkId=529778)。 该工作簿包含你可以查看和修改的 Power View 工作表。 若要查看原始数据，请启用“数据分析”加载项，再依次选择“Power Pivot”>“管理”  。 若要启用 Power View 和 Power Pivot 加载项，请参阅[在 Excel 中浏览 Excel 示例](sample-datasets.md#explore-excel-samples-inside-excel)，以了解详细信息。
 
 ## <a name="start-on-the-dashboard-and-open-the-report"></a>启动仪表板并打开报表
 
@@ -111,7 +111,7 @@ ms.locfileid: "79207473"
 
    ![“按会计月划分的总销售差额百分比”图表](media/sample-retail-analysis/pbi_sample_retanlsalesvarcol.png)
 
-   我们来看看是否可以缩小问题范围。
+   让我们来看看能否缩小问题范围。
 2. 在气泡图中，选择“020-男性”  气泡。
 
    ![选择 020-男性](media/sample-retail-analysis/retail11.png)  
@@ -131,12 +131,12 @@ ms.locfileid: "79207473"
 
    ![选择 Allan Guinot](media/sample-retail-analysis/retail13.png)
 
-   注意，Allan 地区在 3 月和 6 月的表现都超过去年。
+   注意到，Allan 所在地区在 3 月和 6 月的表现都超过去年。
 2. 在“Allan Guinot”  仍处于选中状态情况下，选择气泡图中的”女性-10”  气泡。
 
    ![已选择 Allan Guinot 和女性-10](media/sample-retail-analysis/power-bi-allan.png)
 
-   请注意，对于“女性-10”类别，Allan 地区的销量没有达到去年水平。
+   注意到，对于“女性-10”类别，Allan 所在地区的销量没有达到去年水平。
 3. 探索其他地区经理及类别；你还能发现什么其他见解？
 4. 准备就绪后，返回到仪表板。
 

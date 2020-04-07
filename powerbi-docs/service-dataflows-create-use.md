@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 01/15/2020
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: 9338bc914c7f4e4afd826bcd3e3452e7c7a3ef35
-ms.sourcegitcommit: 0ae9328e7b35799d5d9613a6d79d2f86f53d9ab0
+ms.openlocfilehash: 403537f8cd18948c99cc4dffb911009771a8b806
+ms.sourcegitcommit: 444f7fe5068841ede2a366d60c79dcc9420772d4
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/16/2020
-ms.locfileid: "76040450"
+ms.lasthandoff: 03/30/2020
+ms.locfileid: "80404738"
 ---
 # <a name="creating-and-using-dataflows-in-power-bi"></a>在 Power BI 中创建和使用数据流
 
@@ -32,14 +32,14 @@ ms.locfileid: "76040450"
 2. 计划要置于数据流的数据的刷新频率
 3. 使用 Power BI Desktop 和数据流生成数据集 
 
-通过以下各节，我们可以了解以上各个步骤，并熟悉用于完成各个步骤的工具。 让我们开始吧。
+通过以下各节，我们可以了解以上各个步骤，并熟悉用于完成各个步骤的工具。 现在就开始吧。
 
 ## <a name="creating-a-dataflow"></a>创建数据流
 若要创建数据流，请在浏览器中启动 Power BI 服务，然后从左侧导航窗格选择一个工作区（数据流在 Power BI 服务的“我的工作区”中不可用），如以下屏幕所示   。 也可以新建一个工作区，用于创建新的工作流。 
 
 ![在 Power BI 中创建数据流](media/service-dataflows-create-use/dataflows-create-use_02a.png)
 
-处于可用于创建数据流的工作区区域后，画布的右上角会出现“+ 创建”按钮   。 选择“+ 创建”按钮，然后从下拉列表选择“数据流”。   
+在进入可以创建数据流的工作区  区域后，便会在画布的右上角看到“+ 创建”  按钮。 选择“+ 创建”按钮，然后从下拉列表选择“数据流”。   
 
 须知任何数据流均只有一个所有者，即创建该数据流的人。  只有所有者可以编辑该数据流。 对创建该数据流的工作区具有读取或写入权限的所有工作区成员都可以从 Power BI Desktop 中连接到该数据流，如本文后续部分中所述   。
 
@@ -55,7 +55,7 @@ ms.locfileid: "76040450"
 
 ![选择数据源以添加实体](media/service-dataflows-create-use/dataflows-create-use_05a.png)
 
-选择数据源时，会提示你提供连接设置，其中包括连接到该数据源时要使用的帐户，如下图所示。
+选择数据源时，你会看到提供连接设置的提示，其中包括连接到数据源时要使用的帐户，如下图所示。
 
 ![连接到数据源](media/service-dataflows-create-use/dataflows-create-use_06.png)
 
@@ -75,7 +75,7 @@ ms.locfileid: "76040450"
 
 ### <a name="dataflows-and-the-common-data-model-cdm"></a>数据流和通用数据模型 (CDM)
 
-数据流实体包含新工具，通过它们可将业务数据轻松映射到通用数据模型（Microsoft 的标准化架构）、使用 Microsoft 和第三方数据丰富此模型，并可轻松访问机器学习。 可利用这些新功能提供关于业务数据的智能可操作见解。 完成“编辑查询”步骤中的任意转换后，可将数据源表中的列映射到通用数据模型定义的标准实体字段。 标准实体具有通用数据模型定义的已知架构。
+借助数据流实体包含的新工具，可以将业务数据轻松映射到 Common Data Model（Microsoft 的标准化架构）、使用 Microsoft 和第三方数据丰富此模型，并可轻松访问机器学习。 可利用这些新功能提供关于业务数据的智能可操作见解。 完成“编辑查询”步骤中的任意转换后，可将数据源表中的列映射到 Common Data Model 定义的标准实体字段。 标准实体具有通用数据模型定义的已知架构。
 
 有关此方法和通用数据模型的详细信息，请参阅[什么是通用数据模型](https://docs.microsoft.com/powerapps/common-data-model/overview)一文。
 
@@ -92,7 +92,7 @@ ms.locfileid: "76040450"
 
 所有未映射的源列保持原样，以确保映射的结果是包含自定义字段的标准实体。
 
-完成选择且实体及其数据设置已就绪并可供保存后，可从菜单中选择“保存”。  请注意，可通过选择“添加实体”按钮创建多个实体，并且可以通过编辑实体来优化所创建的查询和实体。 
+完成选择且实体及其数据设置已可供保存后，可选择菜单中的“保存”  。 请注意，可通过选择“添加实体”  按钮创建多个实体，并能通过“编辑实体”来优化所创建的查询和实体。
 
 ![保存实体映射](media/service-dataflows-create-use/dataflows-create-use_09.png)
 
@@ -100,15 +100,15 @@ ms.locfileid: "76040450"
 
 ![新数据流的名称和说明](media/service-dataflows-create-use/dataflows-create-use_10.png)
 
-准备就绪后选择“保存”按钮，会出现一个窗口，用于通知你已创建数据流。   
+在你准备好并选择“保存”  按钮后，系统会显示一个窗口，用于通知你数据流  已创建。 
 
 ![数据流已保存](media/service-dataflows-create-use/dataflows-create-use_11.png)
 
-太棒了 – 现在你已为下一个步骤做好准备了，即计划数据源的刷新频率。
+太棒了 - 你现在已准备好执行下一步，即计划数据源的刷新频率。
 
 ## <a name="schedule-the-refresh-frequency"></a>计划刷新频率
 
-保存数据流后，需要为各个已连接的数据源计划刷新频率。
+保存数据流后，需要计划各个已连接数据源的刷新频率。
 
 Power BI 数据流使用 Power BI 数据刷新过程使数据保持最新状态。 在 Power BI 服务的“工作区”区域中有可列出信息的区域的集合，其中包括数据流，如下图所示   。
 
@@ -118,7 +118,7 @@ Power BI 数据流使用 Power BI 数据刷新过程使数据保持最新状态�
 
 ![“操作”区域中的“计划刷新”按钮](media/service-dataflows-create-use/dataflows-create-use_13.png)
 
-选择“计划刷新”时，将转到“计划刷新”窗格，可在其中设置数据流刷新频率和时间。  
+选择“计划刷新”  图标会转到“计划刷新”  窗格，在其中可以设置数据流刷新频率和时间。
 
 ![“计划刷新”设置](media/service-dataflows-create-use/dataflows-create-use_14.png)
 
@@ -127,7 +127,7 @@ Power BI 数据流使用 Power BI 数据刷新过程使数据保持最新状态�
 
 ## <a name="connect-to-your-dataflow-in-power-bi-desktop"></a>在 Power BI Desktop 中连接到数据流
 
-创建数据流并已为用于填充模型的各个数据源计划刷新频率后，则为第三个步骤（也是最后一步）做好了准备，即从 Power BI Desktop 中连接到数据流。  
+创建数据流并计划将填充模型的各个数据源的刷新频率后，就可以执行第三步（也是最后一步），即从 Power BI Desktop  中连接到数据流。 
 
 若要连接到数据流，则在 Power BI Desktop 中选择“获取数据 > Power BI > Power BI 数据流 (Beta)”，如下图中所示  。
 
@@ -150,9 +150,9 @@ Power BI 数据流使用 Power BI 数据刷新过程使数据保持最新状态�
 
 * Salesforce 连接器  - 将 Salesforce 试用帐户用于数据流导致连接失败，且未提供任何信息。 若要解决此问题，请使用 Salesforce 生产帐户或开发人员帐户进行测试。
 
-* SharePoint 连接器  - 确保提供了 SharePoint 站点的根地址，不包含任何子文件夹或文档。 例如，使用类似于以下内容的链接： https://microsoft.sharepoint.com/teams/ObjectModel/ 。 
+* SharePoint 连接器  - 确保提供了 SharePoint 站点的根地址，不包含任何子文件夹或文档。 例如，使用类似于以下内容的链接：`https://microsoft.sharepoint.com/teams/ObjectModel/`。 
 
-* **JSON 文件连接器** - 当前你只可使用基本身份验证连接到 JSON 文件。  当前不支持通过在 URL 中提供凭据来连接到 JSON 文件（例如， https://XXXXX.blob.core.windows.net/path/file.json?sv=2019-01-01&si=something&sr=c&sig=123456abcdefg.. 。）  。  
+* **JSON 文件连接器** - 当前你只可使用基本身份验证连接到 JSON 文件。  暂不  支持通过在 URL 中提供凭据（例如，`https://XXXXX.blob.core.windows.net/path/file.json?sv=2019-01-01&si=something&sr=c&sig=123456abcdefg`...）来连接到 JSON 文件。  
 
 * **Azure SQL 数据仓库** - 数据流目前不支持对 Azure SQL 数据仓库使用 Azure Active Directory (AAD) 身份验证。 对于此情况请使用基本身份验证。
 

@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 07/19/2019
 ms.author: maggies
 LocalizationGroup: Samples
-ms.openlocfilehash: 156b00c7f7287f12397afea422a38f3870d6c399
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 51c9b8a570abf2686abe9b26a4d9e111e8ef022a
+ms.sourcegitcommit: 444f7fe5068841ede2a366d60c79dcc9420772d4
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73858403"
+ms.lasthandoff: 03/30/2020
+ms.locfileid: "80404639"
 ---
 # <a name="supplier-quality-analysis-sample-for-power-bi-take-a-tour"></a>Power BI 的供应商质量分析示例：参观
 
@@ -62,7 +62,7 @@ ms.locfileid: "73858403"
 
 ### <a name="get-the-excel-workbook-for-this-sample"></a>获取 Excel 工作簿形式的此示例
 
-若要查看此示例的数据源，还可以将它下载为 [Excel 工作簿](https://go.microsoft.com/fwlink/?LinkId=529779)。 该工作簿包含你可以查看和修改的 Power View 工作表。 若要查看原始数据，请启用“数据分析”加载项，再依次选择“Power Pivot”>“管理”  。 若要启用 Power View 和 Power Pivot 加载项，请参阅[从 Excel 本身内查看 Excel 示例](sample-datasets.md#optional-take-a-look-at-the-excel-samples-from-inside-excel-itself)，以了解详细信息。
+若要查看此示例的数据源，还可以将它下载为 [Excel 工作簿](https://go.microsoft.com/fwlink/?LinkId=529779)。 该工作簿包含你可以查看和修改的 Power View 工作表。 若要查看原始数据，请启用“数据分析”加载项，再依次选择“Power Pivot”>“管理”  。 若要启用 Power View 和 Power Pivot 加载项，请参阅[在 Excel 中浏览 Excel 示例](sample-datasets.md#explore-excel-samples-inside-excel)，以了解详细信息。
 
 ## <a name="downtime-caused-by-defective-materials"></a>用料瑕疵所造成的停工时间
 让我们来分析用料瑕疵所造成的停工时间，并查看应由哪些供应商负责。  
@@ -73,7 +73,7 @@ ms.locfileid: "73858403"
 
    “供应商质量分析示例”报表会打开“停工时间分析”页面  。
 
-   可以看到瑕疵品总数为 3,300 万，导致总停工时间达 77,000 分钟。 尽管部分用料的瑕疵品相对较少，但它们会导致延误，从而导致更长的停工时间。 让我们在报表页面上浏览这些项目。  
+   可以看到瑕疵品总数为 3,300 万，导致总停工时间达 77,000 分钟。 尽管部分用料的瑕疵品相对较少，但它们会导致延误，从而导致更长的停工时间。 让我们在报表页上浏览这些项目。  
 2. 查看“按用料类型划分的瑕疵品和停工时间(分钟)”组合图中的“停工时间总分钟数”一行，我们发现起皱的用料导致的停工时间最长   。  
 3. 选择“起皱”列可以查看受此瑕疵影响最大的工厂以及负责的供应商  。  
 
@@ -96,7 +96,7 @@ ms.locfileid: "73858403"
 3. 在顶部导航窗格中选择“供应商质量分析示例”，返回到仪表板  。
 
 ### <a name="comparing-plants"></a>工厂比较
-现在让我们来探索哪些工厂在管理瑕疵用料方面表现较佳，从而缩短了停工时间。  
+现在，让我们来看看哪些工厂在管理瑕疵用料方面表现较佳，从而缩短了停工时间。  
 
 1. 在仪表板中，选择“按工厂和瑕疵类型划分的总瑕疵报表”地图图块  。      
 
@@ -108,7 +108,7 @@ ms.locfileid: "73858403"
 
     ![选择“有影响”](media/sample-supplier-quality/supplier7.png)  
 
-    可以看到，在气泡图中，“物流”是问题最多的类别  。 该类别中的总瑕疵量、瑕疵报告次数和停工分钟数最多。 让我们进一步研究此类别。  
+    可以看到，在气泡图中，“物流”是问题最多的类别  。 此类别中的瑕疵品总数量、瑕疵报告次数和停工分钟数最多。 让我们进一步研究此类别。  
 3. 在气泡图中选择“物流”气泡，并观察伊利诺斯州斯普林菲尔德市和伊利诺伊州内伯威尔市的工厂  。 内伯威尔市似乎在管理瑕疵供货方面做得更好，因为它的退货量较高，影响量也较小，而斯普林菲尔德市的影响量就较大。  
 
    ![选择“物流”](media/sample-supplier-quality/supplier8.png)  
@@ -150,7 +150,7 @@ ms.locfileid: "73858403"
    可以看到，虽然 2014 年的原料瑕疵品更多，但 2013 年和 2014 年的原料停工时间差不多。 2014 年原料瑕疵品更多并未导致 2014 年原料停工时间长太多。
 
 ### <a name="compare-defects-to-downtime-month-to-month"></a>按月份比较瑕疵品与停工时间的关系
-让我们看看另一个与瑕疵品总数相关的仪表板磁贴。  
+让我们看看另一个与瑕疵品总数量相关的仪表板磁贴。  
 
 1. 选择左上角的“编辑问答”，返回到仪表板  。  
 
@@ -158,12 +158,12 @@ ms.locfileid: "73858403"
 
     ![“瑕疵品总数(按月份和年份)”图块](media/sample-supplier-quality/supplier14.png)  
 
-    我们来看看瑕疵品数的增加是否会导致停工时间分钟数也跟着增加。  
+    让我们来看看瑕疵品数量增加是否会导致停工时间分钟数也跟着增加。  
 2. 在问题框中键入“按月份和年份划分的停工时间总分钟数折线图”  。  
 
    ![问题：按月份和年份划分的停工时间总分钟数折线图](media/sample-supplier-quality/supplier15.png)
 
-   除了六月和十月停工时间分钟数激增外，瑕疵品数量并未导致停工时间显著增加。 这意味着我们很好地完成了瑕疵品管理工作。  
+   除了 6 月和 10 月停工时间分钟数激增外，瑕疵品数量并未导致停工时间显著增加。 这意味着我们很好地完成了瑕疵品管理工作。  
 3. 要将此图表固定到仪表板，请选择问题框上方的 ![固定图标](media/sample-supplier-quality/pin.png) 固定图标。  
 4. 若要浏览离群值月份，可提出问题（例如“工厂 10 月份的停工时间总分钟数”），按用料类型、工厂位置、类别等查看 10 月的停工时间分钟数  。 
 5. 选择左上角的“编辑问答”，返回到仪表板  。

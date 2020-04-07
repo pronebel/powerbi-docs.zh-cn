@@ -8,12 +8,12 @@ ms.topic: overview
 ms.date: 09/04/2019
 ms.author: maggies
 LocalizationGroup: Get started
-ms.openlocfilehash: 5ad960560ba6c99228ba63ee0041789b9ec6ff7d
-ms.sourcegitcommit: 480bba9c745cb9af2005637e693c5714b3c64a8a
+ms.openlocfilehash: c3218e20274c0607c2bbec86e961685ccd276659
+ms.sourcegitcommit: 9ecd7cadb9ff47f0fc0e400730777cc4dadbd80d
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/11/2020
-ms.locfileid: "79114970"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "80487748"
 ---
 # <a name="what-is-power-bi"></a>什么是 Power BI？
 **Power BI** 是软件服务、应用和连接器的集合，它们协同工作以将相关数据来源转换为连贯的视觉逼真的交互式见解。 数据可以是 Excel 电子表格，也可以是基于云和本地混合数据仓库的集合。 使用 Power BI，可以轻松连接到数据源，可视化并发现重要内容，并根据需要与任何人共享。
@@ -44,8 +44,12 @@ Power BI Desktop、服务和移动应用这三个元素旨在让你能够采用�
 浏览与你的角色相关的文档：
 - 适用于[设计者](../desktop-what-is-desktop.md)的 Power BI Desktop 
 - 面向[*使用者*](../consumer/end-user-consumer.md)的 Power BI
-- 面向[*开发人员*](../developer/what-can-you-do.md)的 Power BI
 - 面向[*管理员*](../service-admin-administering-power-bi-in-your-organization.md)的 Power BI
+- 面向开发人员  的 Power BI
+    * [Power BI 嵌入式分析](../developer/embedded/embedding.md)
+    * [Azure 中的 Power BI Embedded 是指什么？](../developer/embedded/azure-pbie-what-is-power-bi-embedded.md)
+    * [Power BI 中的视觉对象](../developer/visuals/power-bi-custom-visuals.md)
+    * [开发人员可以使用 Power BI API 做什么？](../developer/automation/overview-of-power-bi-rest-api.md)
 
 ## <a name="the-flow-of-work-in-power-bi"></a>Power BI 中的工作流
 Power BI 中的常见工作流始于连接到数据源并在 Power BI Desktop 中生成报表。 然后，将该报表从 Power BI Desktop 发布到 Power BI 服务并进行共享，以便使用 Power BI 服务和移动设备的最终用户可以查看报表并与之交互。

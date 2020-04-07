@@ -6,22 +6,26 @@ ms.reviewer: lukaszp
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 03/05/2020
+ms.date: 03/10/2020
 ms.author: mihart
 LocalizationGroup: Consumers
-ms.openlocfilehash: 0f0957962a761623262268f8c84c338000ba56f2
-ms.sourcegitcommit: 87b7cb4a2e626711b98387edaa5ff72dc26262bb
+ms.openlocfilehash: 6886bc628add44f94c91b77cada97abf81635e78
+ms.sourcegitcommit: bcc42e938fa28abe433287fecb9abb28c253b6bb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/10/2020
-ms.locfileid: "79078970"
+ms.lasthandoff: 03/26/2020
+ms.locfileid: "80302273"
 ---
 # <a name="collaborate-in-workspaces"></a>在工作区中协作
 
  在工作区  中，可以与同事协作处理特定内容。 工作区是由 Power BI 设计人员  创建，用于保留仪表板、报表和应用集合。 
 
+## <a name="types-of-workspaces"></a>工作区类型
+“我的工作区”存储了你拥有和创建的所有内容  。 可以将其作为你的个人沙盒或自己内容的工作区域。 对于很多 Power BI 使用者来说，“我的工作区”  仍然是空的，因为你的作业不涉及新建内容。 根据定义，使用者会使用其他人创建的数据，并根据此数据做出业务决策。 如果你发现自己要创建内容，不妨改为阅读[面向设计人员的 Power BI 文档](../create-reports/index.yml)。
 
-<art showing different wss>
+“应用工作区”  包含特定应用的所有内容。 当设计人员创建一个应用时，他们会将使用该应用所必需的全部内容捆绑在一起  。 内容可能包括仪表板、报表、应用和数据集。 并非每个应用都包含这四项内容。 一个应用可能只包含一个仪表板、每种内容类型中包含三个，或者甚至包含 20 个报表。 这一切都取决于设计人员在应用中随附的内容  。 通常情况下，面向使用者  的应用工作区不包含任何数据集。
+
+<!--<art showing different wss> -->
 
 ## <a name="roles-in-the-workspaces"></a>工作区中的角色
 
@@ -42,3 +46,16 @@ ms.locfileid: "79078970"
 ## <a name="next-steps"></a>后续步骤
 * [Power BI 中的应用](end-user-apps.md)    
 * 是否有任何问题? [尝试咨询 Power BI 社区](https://community.powerbi.com/)
+
+
+
+
+
+
+
+
+
+
+
+
+

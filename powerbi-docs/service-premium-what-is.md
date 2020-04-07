@@ -7,19 +7,19 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
-ms.date: 03/12/2020
+ms.date: 03/26/2020
 ms.custom: seodec18
 LocalizationGroup: Premium
-ms.openlocfilehash: 1caa68ac00f9821979f741bf3266514fcb33c36a
-ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
+ms.openlocfilehash: f53f7a1e51ce1cb17c337569ba770ac2b5643d19
+ms.sourcegitcommit: 8267a7383d6506dae42f87e4f4a2362b875b2911
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/14/2020
-ms.locfileid: "79381160"
+ms.lasthandoff: 03/27/2020
+ms.locfileid: "80329669"
 ---
 # <a name="what-is-power-bi-premium"></a>什么是 Power BI Premium？
 
-Power BI Premium 提供用于为组织运行 Power BI 服务的专用增强资源。 例如：
+你可以使用 Power BI Premium 为组织获得增强的专用资源，这样组织中的用户就能使用性能更高且响应速度更快的 Power BI 服务。 例如，借助 Power BI Premium 订阅，你和组织用户可以：
 
 > [!div class="checklist"]
 > * 规模更大，性能更强
@@ -29,13 +29,16 @@ Power BI Premium 提供用于为组织运行 Power BI 服务的专用增强资�
 > * 支持按区域数据驻留（多地理位置）
 > * 与任何人共享数据而无需购买每用户许可证
 
+
+![管理门户](media/service-premium-what-is/premium-admin-portal.png) 
+
 本文介绍了 Power BI Premium 中的主要功能。 必要时，提供包含更多详细信息的其他文章的链接。 有关 Power BI Pro 和 Power BI Premium 的详细信息，请参阅 [Power BI 定价](https://powerbi.microsoft.com/pricing/)的“Power BI 功能比较”  部分。
 
 ## <a name="subscriptions-and-licensing"></a>订阅和许可
 
 Power BI Premium 是租户级别的 Office 365 订阅，可在两个 SKU（库存单位）系列中使用：
 
-- 用于嵌入和企业功能的 **P** SKU (P1-P3)，需要按月或按年承诺并按月计费，包含用于在本地安装 Power BI 报表服务器的许可。
+- P  SKU (P1-P5)：用于嵌入和企业功能，需要包月或包年承诺，并按月计费，包含用于在本地安装 Power BI 报表服务器的许可证。
 
 - 用于组织嵌入的 EM SKU (EM1-EM3)，要求按年承诺并按月计费   。 EM1 和 EM2 SKU 仅通过批量许可计划提供， 无法直接购买。
 
@@ -81,6 +84,8 @@ Power BI Premium 订阅由 Microsoft 365 管理中心的管理员购买。 具�
 | P1/A4 | 8 | 4 | 25 | 4 | 30 | 6 |
 | P2/A5 | 16 | 8 | 50 | 8 | 60 | 12 |
 | P3/A6 | 32 | 16 | 100 | 16 | 120 | 24 |
+| P4 | 64 | 32 | 200 | 32 | 240 | 48 |
+| P5 | 128 | 64 | 400 | 64 | 480 | 96 |
 | | | | | | | |
 
 > [!NOTE]
@@ -213,13 +218,13 @@ P1-P3 和 A4_A6 SKU 支持的分页报表基于 SQL Server Reporting Services �
 
 ## <a name="power-bi-report-server"></a>Power BI 报表服务器
  
-Power BI Premium 随附 Power BI 报表服务器，后者是带有 Web 门户的本地  报表服务器。 可在本地生成 BI 环境，并在组织的防火墙后分发报表。 报表服务器使用户可以访问 SQL Server Reporting Services 丰富的交互式功能以及企业报告功能。 用户可以浏览可视化数据并快速发现模式，以便更快地作出更好的决策。 报表服务器按照你自己的方式提供治理。 如果时机成熟，Power BI 报表服务器会使其能够轻松迁移到云中，此时，组织可以充分利用所有 Power BI Premium 功能。
+Power BI Premium 随附 Power BI 报表服务器，后者是带有 Web 门户的本地  报表服务器。 可以在本地生成 BI 环境，并在组织的防火墙后面分发报表。 报表服务器使用户可以访问 SQL Server Reporting Services 丰富的交互式功能以及企业报告功能。 用户可以浏览可视化数据并快速发现模式，以便更快地作出更好的决策。 报表服务器按照你自己的方式提供治理。 如果时机成熟，Power BI 报表服务器会使其能够轻松迁移到云中，此时，组织可以充分利用所有 Power BI Premium 功能。
 
 若要了解详细信息，请参阅 [Power BI 报表服务器](report-server/get-started.md)。
 
 ## <a name="unlimited-content-sharing"></a>无限内容共享
 
-借助 Premium，每个人（无论在组织内还是组织外）都可以查看 Power BI 内容（包括分页和交互式报表），而无需购买单独的许可证。 
+借助 Premium，每个人（无论是在组织内外）都可以查看 Power BI 内容（包括分页和交互式报表），而无需购买单独的许可证。 
 
 ![内容共享](media/service-premium-what-is/premium-sharing.png)
 
@@ -229,13 +234,14 @@ Premium 允许 Pro 用户广泛分发内容，且不要求查看内容的收件�
 
 ## <a name="analysis-services-in-power-bi-premium-preview"></a>Power BI Premium 中的 Analysis Services（预览）
 
-实质上，经过企业验证的 Microsoft **Analysis Services Vertipaq 引擎**为 Power BI 数据集提供支持。 Analysis Services 通过支持开放标准 XMLA 协议的客户端库和 API 提供可编程性以及客户端应用程序和工具支持。 目前，Power BI Premium 数据集通过 **XMLA 终结点**支持来自 Microsoft 和第三方客户端应用程序及工具的*只读*操作。 
+在后台，久经企业考验的 Microsoft Analysis Services Vertipaq 引擎  为 Power BI Premium 工作区和数据集提供技术支持。 Analysis Services 通过支持开放标准 XMLA 协议的客户端库和 API 提供可编程性以及客户端应用程序和工具支持。 默认情况下，Power BI Premium 容量数据集工作负荷支持 Microsoft 和第三方客户端应用程序和工具通过 XMLA 终结点  执行只读  操作。 容量管理员还可以选择禁用或允许通过终结点执行读/写  操作。
 
-SQL Server Management Studio 和 SQL Server Profiler 等 Microsoft 工具以及 DAX Studio 和数据可视化应用程序等第三方应用程序可以使用 XMLA、DAX、MDX、DMV 和 Trace 事件连接到 Premium 数据集并进行查询。 
+借助只读权限，SQL Server Management Studio (SSMS) 和 SQL Server Profiler 等 Microsoft 工具以及 DAX Studio 和数据可视化应用程序等第三方应用程序可以使用 XMLA、DAX、MDX、DMV 和跟踪事件连接到并查询 Premium 数据集。 借助读/写权限，企业数据建模工具（如包含 Analysis Services 项目扩展的 Visual Studio 或开放源代码表格编辑器）可以将表格模型作为数据集部署到 Premium 工作区。 借助 SSMS 等工具，管理员可以使用表格模型脚本语言 (TMSL)，为元数据更改和高级数据刷新方案编写脚本。 
+
+若要了解详情，请参阅[使用 XMLA 终结点的数据集连接](service-premium-connect-tools.md)。
 
 ![SSMS](media/service-premium-what-is/connect-tools-ssms-dax.png)
 
-若要了解详细信息，请参阅[使用客户端应用程序和工具连接到数据集](service-premium-connect-tools.md)。
 
 ## <a name="next-steps"></a>后续步骤
 

@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 03/13/2020
+ms.date: 03/31/2020
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 3812f16489d304912ec9574352897e1effb29d4a
-ms.sourcegitcommit: 7e845812874b3347bcf87ca642c66bed298b244a
+ms.openlocfilehash: 54c3622b0a4dd6c690c2f22a0b93aed39e9d2799
+ms.sourcegitcommit: 3c51431d85793b71f378c4b0b74483dfdd8411b3
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/13/2020
-ms.locfileid: "79201392"
+ms.lasthandoff: 03/31/2020
+ms.locfileid: "80464628"
 ---
 # <a name="using-enhanced-dataset-metadata-preview"></a>使用增强的数据集元数据（预览）
 
@@ -24,6 +24,8 @@ Power BI Desktop 创建报表时，还会使用相应的 PBIX 和 PBIT 文件创
 
 
 增强的数据集元数据功能具有战略性和基础性，因为未来的 Power BI 功能将基于其元数据构建  。 始终都可从增强的数据集元数据中获益的一些其他功能包括用于管理 Power BI 数据集的 [XMLA 读/写](https://docs.microsoft.com/power-platform-release-plan/2019wave2/business-intelligence/xmla-readwrite)，以及将 Analysis Services 工作负载迁移到 Power BI 以受益于下一代功能。
+
+
 
 ## <a name="enable-enhanced-dataset-metadata"></a>启用增强的数据集元数据
 
@@ -36,6 +38,9 @@ Power BI Desktop 创建报表时，还会使用相应的 PBIX 和 PBIT 文件创
 ![重启提示](media/desktop-enhanced-dataset-metadata/enhanced-dataset-metadata-02.png)
 
 启用预览功能后，Power BI Desktop 会尝试升级使用以前的元数据格式的 PBIX 和 PBIT 文件。 
+
+> [!IMPORTANT]
+> 启用“增强型数据集元数据”  功能会导致不可逆地升级报表。 在启用“增强型数据集元数据”  后，任何使用 Power BI Desktop 加载或创建的 Power BI 报表都会不可逆地转换为增强型数据集元数据格式。
 
 ## <a name="considerations-and-limitations"></a>注意事项和限制
 

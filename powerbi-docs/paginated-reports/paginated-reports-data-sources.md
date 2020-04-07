@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: conceptual
 ms.date: 01/30/2020
-ms.openlocfilehash: ec299ceb5862be3f1e121e0e7d67eca6447f2da6
-ms.sourcegitcommit: 2c798b97fdb02b4bf4e74cf05442a4b01dc5cbab
+ms.openlocfilehash: b4ed632d6106fa552cebf9837ba238bdc7a4d3f1
+ms.sourcegitcommit: 444f7fe5068841ede2a366d60c79dcc9420772d4
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/21/2020
-ms.locfileid: "80113729"
+ms.lasthandoff: 03/30/2020
+ms.locfileid: "80404834"
 ---
 # <a name="supported-data-sources-for-power-bi-paginated-reports"></a>Power BI 分页报表支持的数据源
 
@@ -32,7 +32,7 @@ ms.locfileid: "80113729"
 | 高级 Power BI 数据集 (XMLA) | SSO |   |
 | 输入数据 | 不适用 | 数据嵌入在报表中。 |
 
-将报表上传到 Power BI 服务之后，可使用除 Azure SQL 数据库之外的所有数据源。 如果适用的话，数据源默认使用单一登录 (SSO)。 对于 Azure Analysis Services，可将身份验证类型更改为 OAuth2。
+将报表上传到 Power BI 服务之后，可使用除 Azure SQL 数据库之外的所有数据源。 如果适用的话，数据源默认使用单一登录 (SSO)。 对于 Azure Analysis Services，可将身份验证类型更改为 OAuth2。 但是，一旦将给定数据源的身份验证类型更改为 OAuth2，就无法还原回使用 SSO 了。  另外，此更改适用于跨给定租户的所有工作区使用相应数据源的全部报表。  分页报表中的行级别安全性不起作用，除非用户选择 SSO 作为身份验证类型。
 
 对于 Azure SQL 数据库数据源，需提供更多信息，如 [Azure SQL 数据库身份验证](#azure-sql-database-authentication)一节所述。
 

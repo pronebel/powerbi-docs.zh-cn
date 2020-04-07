@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
-ms.date: 02/20/2020
+ms.date: 03/27/2020
 ms.author: davidi
 LocalizationGroup: Premium
-ms.openlocfilehash: 852bdcdeb71f6dae555c37467145bad6b584e324
-ms.sourcegitcommit: b22a9a43f61ed7fc0ced1924eec71b2534ac63f3
+ms.openlocfilehash: 1208a598c08b87d0e479e4d8901f880a5dfa6900
+ms.sourcegitcommit: dc18209dccb6e2097a92d87729b72ac950627473
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "77527606"
+ms.lasthandoff: 03/27/2020
+ms.locfileid: "80361794"
 ---
 # <a name="incremental-refresh-in-power-bi"></a>Power BI 中的增量刷新
 
@@ -39,34 +39,34 @@ Power BI Desktop 模型可能不适合处理具有可能数十亿行的大型数
 
 #### <a name="rangestart-and-rangeend-parameters"></a>RangeStart 和 RangeEnd 参数
 
-对于增量刷新，数据集使用名称为 RangeStart 和 RangeEnd（为保留名称且区分大小写）的 Power Query 日期/时间参数进行筛选。 这些参数用于筛选导入 Power BI Desktop 的数据，还用于在将数据发布到 Power BI 服务后将其动态地划分为多个范围。 参数值由服务进行替换，以筛选每个分区。 无需在服务的数据集设置中进行设置。 发布后，Power BI 服务会自动替代参数值。
+对于增量刷新，数据集使用名称为 RangeStart 和 RangeEnd（为保留名称且区分大小写）的 Power Query 日期/时间参数进行筛选   。 这些参数用于筛选导入 Power BI Desktop 的数据，还用于在将数据发布到 Power BI 服务后将其动态地划分为多个范围。 参数值由服务进行替换，以筛选每个分区。 无需在服务的数据集设置中进行设置。 发布后，Power BI 服务会自动替代参数值。
 
-若要使用默认值定义参数，请选择 Power Query 编辑器中的“管理参数”。
+若要使用默认值定义参数，请选择 Power Query 编辑器中的“管理参数”  。
 
 ![管理参数](media/service-premium-incremental-refresh/manage-parameters.png)
 
-借助已定义的参数，可通过为列选择“自定义筛选器”菜单选项来应用筛选。
+借助已定义的参数，可通过为列选择“自定义筛选器”菜单选项来应用筛选  。
 
 ![自定义筛选器](media/service-premium-incremental-refresh/custom-filter.png)
 
-当列值在 RangeStart 上或其后且在 RangeEnd 之前时，请务必筛选行。 其他筛选器组合可能导致行的重复计数。
+当列值在 RangeStart 上或其后且在 RangeEnd 之前时，请务必筛选行     。 其他筛选器组合可能导致行的重复计数。
 
 ![筛选行](media/service-premium-incremental-refresh/filter-rows.png)
 
 > [!IMPORTANT]
-> 确保查询中的 RangeStart 或 RangeEnd 参数上存在一个等号 (=)，但二者不能同时具有等号。 如果这两个参数都具有等号 (=)，部分行可能满足两个分区的条件，导致模型中存在重复数据。 例如，  
+> 确保查询中的 RangeStart 或 RangeEnd 参数上存在一个等号 (=)，但二者不能同时具有等号   。 如果这两个参数都具有等号 (=)，部分行可能满足两个分区的条件，导致模型中存在重复数据。 例如，  
 > \#"Filtered Rows" = Table.SelectRows(dbo_Fact, each [OrderDate] **>= RangeStart** and [OrderDate] **<= RangeEnd**) 可能导致重复数据。
 
 > [!TIP]
-> 虽然参数的数据类型必须是日期/时间，但可进行转换以符合数据源的要求。 例如，下面的 Power Query 函数将日期/时间值转换为类似于 yyyymmdd 形式的整数代理键，这对数据仓库而言非常常见。 此函数可通过筛选步骤调用。
+> 虽然参数的数据类型必须是日期/时间，但可进行转换以符合数据源的要求。 例如，下面的 Power Query 函数将日期/时间值转换为类似于 yyyymmdd 形式的整数代理键，这对数据仓库而言非常常见  。 此函数可通过筛选步骤调用。
 >
 > `(x as datetime) => Date.Year(x)*10000 + Date.Month(x)*100 + Date.Day(x)`
 
-在 Power Query 编辑器中选择“关闭并应用”。 必须具备 Power BI Desktop 中数据集的子集。
+在 Power Query 编辑器中选择“关闭并应用”  。 必须具备 Power BI Desktop 中数据集的子集。
 
 #### <a name="filter-date-column-updates"></a>筛选日期列更新
 
-对日期列的筛选用于动态地将数据划分为 Power BI 服务中的多个范围。 增量刷新不支持源系统中筛选后的日期列已更新的情况。 更新将体现为插入和删除，而非实际更新。 如果删除发生在历史范围内，而不是增量范围内，则不会被删除。 这可能会因分区键冲突而导致数据刷新失败。
+对日期列的筛选用于动态地将数据划分为 Power BI 服务中的多个范围。 增量刷新不支持源系统中筛选后的日期列已更新的情况。 更新将体现为插入和删除，而非实际更新。 如果删除发生在历史范围内，而不是增量范围内，则不会被拾取。 这可能会因分区键冲突而导致数据刷新失败。
 
 #### <a name="query-folding"></a>查询折叠
 
@@ -114,7 +114,7 @@ Power BI 服务中的第一次刷新可能需要更长时间才能导入全部�
 
 #### <a name="current-date"></a>当前日期
 
-当前日期基于刷新时的系统日期。 如果为 Power BI 服务中的数据集启用了计划的刷新，则在确定当前日期时将考虑指定的时区。 手动调用和计划的刷新都将遵循时区（如果可用）。 例如，指定在太平洋时间（美国和加拿大）晚上 8 点刷新并指定时区，将根据太平洋时间确定当前日期，而不是 GMT（若根据后者确定，则当前时间将晚一天）。
+当前日期基于刷新时的系统日期  。 如果为 Power BI 服务中的数据集启用了计划的刷新，则在确定当前日期时将考虑指定的时区。 手动调用和计划的刷新都将遵循时区（如果可用）。 例如，指定在太平洋时间（美国和加拿大）晚上 8 点刷新并指定时区，将根据太平洋时间确定当前日期，而不是 GMT（若根据后者确定，则当前时间将晚一天）。
 
 ![时区](media/service-premium-incremental-refresh/time-zone2.png)
 
@@ -125,7 +125,7 @@ Power BI 服务中的第一次刷新可能需要更长时间才能导入全部�
 
 #### <a name="detect-data-changes"></a>检测数据更改
 
-10 天的增量刷新比 5 年的完全刷新更有效。 但是，还可以做得更好。 如果选中“检测数据更改”复选框，则可选择用于仅标识和刷新数据更改日期的日期/时间列。 此操作假定源系统中存在通常用于审核的列。 这不应与用于使用 RangeStart/RangeEnd 参数对数据进行分区的列相同。 将针对增量范围中的每个周期评估此列的最大值。 如果自上次刷新后未更改，则无需刷新周期。 在示例中，这可将增量刷新的天数从 10 天进一步减少到 2 天左右。
+10 天的增量刷新比 5 年的完全刷新更有效。 但是，还可以做得更好。 如果选中“检测数据更改”复选框，则可选择用于仅标识和刷新数据更改日期的日期/时间列  。 此操作假定源系统中存在通常用于审核的列。  这不应与用于使用 RangeStart/RangeEnd 参数对数据进行分区的列相同。 将针对增量范围中的每个周期评估此列的最大值。 如果自上次刷新后未更改，则无需刷新周期。 在示例中，这可将增量刷新的天数从 10 天进一步减少到 2 天左右。
 
 ![检测更改](media/service-premium-incremental-refresh/detect-changes.png)
 
@@ -136,7 +136,7 @@ Power BI 服务中的第一次刷新可能需要更长时间才能导入全部�
 >
 > 根据刷新频率要求，将精度降低到可接受的水平。
 >
-> 我们计划在未来让用户能够针对数据更改检测进行自定义查询的定义。 这可用于完全避免保留列值。
+> 请定义使用 XMLA 终结点来检测数据更改的自定义查询，并避免完全暂留列值。 有关详细信息，请参阅下面的“用于检测数据更改的自定义查询”部分。
 
 #### <a name="only-refresh-complete-periods"></a>仅刷新完成周期
 
@@ -155,7 +155,7 @@ Power BI 服务中的第一次刷新可能需要更长时间才能导入全部�
 
 ## <a name="query-timeouts"></a>查询超时
 
-若要了解超时值如何对 Power BI 服务中的刷新操作进行限制，请参阅[刷新方案故障排除](https://docs.microsoft.com/power-bi/refresh-troubleshooting-refresh-scenarios)一文。 查询还受到数据源的默认超时值的限制。 大多数关系源允许重写 M 表达式中的超时值。 例如，以下表达式通过 [SQL Server 数据访问函数](https://msdn.microsoft.com/query-bi/m/sql-database)将其设置为 2 小时。 策略范围定义的每个周期提交一个查询，以观察命令超时设置。
+若要了解超时值如何对 Power BI 服务中的刷新操作进行限制，请参阅[刷新方案故障排除](refresh-troubleshooting-refresh-scenarios.md)一文。 查询还受到数据源的默认超时值的限制。 大多数关系源允许重写 M 表达式中的超时值。 例如，以下表达式通过 [SQL Server 数据访问函数](https://docs.microsoft.com/powerquery-m/sql-database)将其设置为 2 小时。 策略范围定义的每个周期提交一个查询，以观察命令超时设置。
 
 ```powerquery-m
 let
@@ -166,7 +166,89 @@ in
     #"Filtered Rows"
 ```
 
-## <a name="limitations"></a>限制
+## <a name="xmla-endpoint-benefits-for-incremental-refresh"></a>XMLA 终结点有利于增量刷新
 
-对于[复合模型](desktop-composite-models.md)，增量刷新当前仅支持用于 SQL Server、Azure SQL 数据库、SQL 数据仓库、Oracle 和 Teradata 数据源。
+可以为 Premium 容量中数据集的 [XMLA 终结点](service-premium-connect-tools.md)启用读写操作，这可能会大大有利于增量刷新。 通过 XMLA 终结点执行的刷新操作不限于[每天 48 次刷新](refresh-data.md#data-refresh)，并且不强制实施[计划刷新超时](refresh-troubleshooting-refresh-scenarios.md#scheduled-refresh-timeout)，这可能对增量刷新方案很有用。
 
+### <a name="refresh-management-with-sql-server-management-studio-ssms"></a>使用 SQL Server Management Studio (SSMS) 管理刷新
+
+在启用 XMLA 终结点读写操作后，可以使用 SSMS 查看和管理通过应用增量刷新策略生成的分区。
+
+![SSMS 中的分区](media/service-premium-incremental-refresh/ssms-partitions.png)
+
+#### <a name="refresh-historical-partitions"></a>刷新历史分区
+
+例如，这样就可以刷新增量范围之外的特定历史分区，从而执行回溯更新，而无需刷新所有历史数据。
+
+#### <a name="override-incremental-refresh-behavior"></a>重写增量刷新行为
+
+借助 SSMS，还可以更全面地控制如何使用[表格模型脚本语言 (TMSL)](https://docs.microsoft.com/analysis-services/tmsl/tabular-model-scripting-language-tmsl-reference?view=power-bi-premium-current) 和[表格对象模型 (TOM)](https://docs.microsoft.com/analysis-services/tom/introduction-to-the-tabular-object-model-tom-in-analysis-services-amo?view=power-bi-premium-current) 调用增量刷新。 例如，在 SSMS 的“对象资源管理器”中，右键单击表，然后选择“处理表”  菜单选项。 然后，单击“脚本”  按钮，以生成 TMSL 刷新命令。
+
+![“处理表”对话框中的“脚本”按钮](media/service-premium-incremental-refresh/ssms-process-table.png)
+
+可以将下面的参数插入到 TMSL 刷新命令中，以重写默认增量刷新行为。
+
+- **applyRefreshPolicy** - 如果表已定义增量刷新策略，applyRefreshPolicy 会确定策略是否已应用。 如果策略未应用，完全处理操作会保持分区定义不变，并且会完全刷新表中的所有分区。 默认值为 True。
+
+- **effectiveDate** - 如果正在应用增量刷新策略，它需要知道当前日期，才能确定历史范围和增量范围的滚动窗口范围。 使用 effectiveDate 参数，可以重写当前日期。 这对于将数据增量刷新到过去或未来某个日期的测试、演示和业务方案（如未来预算）十分有用。 默认值是[当前日期](#current-date)。
+
+```json
+{ 
+  "refresh": {
+    "type": "full",
+
+    "applyRefreshPolicy": true,
+    "effectiveDate": "12/31/2013",
+
+    "objects": [
+      {
+        "database": "IR_AdventureWorks", 
+        "table": "FactInternetSales" 
+      }
+    ]
+  }
+}
+```
+
+### <a name="custom-queries-for-detect-data-changes"></a>用于检测数据更改的自定义查询
+
+可以使用 TMSL 和/或 TOM 重写检测数据更改的行为。 这不仅可用于避免在内存中缓存内暂留“上次更新时间”列，还可以实现以下方案：由 ETL 进程准备配置/指令表，用于仅标记需要刷新的分区。 这可以创建更高效的增量刷新流程，即无论更新是多久之前发生的，都只会刷新所需的时间段。
+
+pollingExpression 应为轻量级 M 表达式或其他 M 查询的名称。 它必须返回标量值，并对各个分区都执行。 如果返回的值不同于上次发生增量刷新时的值，就会将分区标记为要完全处理。
+
+下面的示例涵盖了回溯更改的历史范围中的全部 120 个月。 指定 120 个月（而不是 10 年）意味着，数据压缩的效率可能不那么高，但是可以避免刷新整个历史年份，因为如果一个月就可以完成回溯更改，那么刷新整个历史年份的成本会更高。
+
+```json
+"refreshPolicy": {
+    "policyType": "basic",
+    "rollingWindowGranularity": "month",
+    "rollingWindowPeriods": 120,
+    "incrementalGranularity": "month",
+    "incrementalPeriods": 120,
+    "pollingExpression": "<M expression or name of custom polling query>",
+    "sourceExpression": [
+    "let ..."
+    ]
+}
+```
+
+## <a name="metadata-only-deployment"></a>仅元数据部署
+
+将 Power BI Desktop 中的新版 PBIX 文件发布到 Power BI 服务中的工作区时，如果已有同名数据集，系统会提示你替换现有数据集。
+
+![替换数据集的提示](media/service-premium-incremental-refresh/replace-dataset-prompt.png)
+
+在某些情况下，你可能不希望替换数据集，特别是在使用增量刷新时。 Power BI Desktop 中的数据集可能比服务中的数据集小得多。 如果服务中的数据集已应用增量刷新策略，它可能包含多个年份的历史数据；如果替换数据集，这些历史数据就会丢失。 刷新所有历史数据可能需要数小时，并导致用户的系统停机时间发生。
+
+相反，最好执行仅元数据部署。 这样，可以部署新对象，而不丢失历史数据。 例如，如果已添加一些度量值，可以只部署新度量值，而无需刷新数据，从而节省了大量时间。
+
+如果已配置读写操作，XMLA 终结点会提供与实现仅元数据部署的工具的兼容性。 例如，ALM 工具包是 Power BI 数据集的架构区分工具，可用于执行仅元数据部署。
+
+请从 [Analysis Services Git 存储库](https://github.com/microsoft/Analysis-Services/releases)下载并安装最新版 ALM 工具包。 可通过“帮助”功能区获取文档链接和关于可支持性的信息。 若要执行仅元数据部署，请执行比较，然后选择正在运行的 Power BI Desktop 实例作为源，并选择服务中的现有数据集作为目标。 请考虑所显示的差异，跳过更新包含增量刷新分区的表，或者使用“选项”对话框为表更新保留分区。 验证选择，以确保目标模型的完整性，然互进行更新。
+
+![ALM 工具包](media/service-premium-incremental-refresh/alm-toolkit.png)
+
+## <a name="see-also"></a>另请参阅
+
+[使用 XMLA 终结点的数据集连接](service-premium-connect-tools.md)   
+[刷新方案故障排除](refresh-troubleshooting-refresh-scenarios.md)   

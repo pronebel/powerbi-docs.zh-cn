@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 07/05/2019
 ms.author: maggies
 LocalizationGroup: Samples
-ms.openlocfilehash: 3f0c95673bd6a9a5af2a828869f38d32440b617a
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 8124a80f471e33ebbd140a30d6a49e2a762206ee
+ms.sourcegitcommit: 444f7fe5068841ede2a366d60c79dcc9420772d4
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73858865"
+ms.lasthandoff: 03/30/2020
+ms.locfileid: "80404119"
 ---
 # <a name="human-resources-sample-for-power-bi-take-a-tour"></a>Power BI 的人力资源示例：参观
 
@@ -61,10 +61,10 @@ ms.locfileid: "73858865"
 
 ### <a name="get-the-excel-workbook-for-this-sample"></a>获取 Excel 工作簿形式的此示例
 
-若要查看此示例的数据源，还可以将它下载为 [Excel 工作簿](https://go.microsoft.com/fwlink/?LinkId=529780)。 该工作簿包含你可以查看和修改的 Power View 工作表。 若要查看原始数据，请启用“数据分析”加载项，再依次选择“Power Pivot”>“管理”  。 若要启用 Power View 和 Power Pivot 加载项，请参阅[从 Excel 本身内查看 Excel 示例](sample-datasets.md#optional-take-a-look-at-the-excel-samples-from-inside-excel-itself)，以了解详细信息。
+若要查看此示例的数据源，还可以将它下载为 [Excel 工作簿](https://go.microsoft.com/fwlink/?LinkId=529780)。 该工作簿包含你可以查看和修改的 Power View 工作表。 若要查看原始数据，请启用“数据分析”加载项，再依次选择“Power Pivot”>“管理”  。 若要启用 Power View 和 Power Pivot 加载项，请参阅[在 Excel 中浏览 Excel 示例](sample-datasets.md#explore-excel-samples-inside-excel)，以了解详细信息。
 
 ## <a name="new-hires"></a>新员工
-首先来了解一下新员工。
+首先来浏览一下新员工。
 
 1. 在工作区中，选择“仪表板”  选项卡，并打开“人力资源示例”  仪表板。
 2. 在仪表板上，选择“新员工数、去年同期新员工数和与去年同期相比的在职员工数变化率(%)(按月)”  磁贴。  
@@ -78,8 +78,8 @@ ms.locfileid: "73858865"
 3. 研究下面这些相关项：
 
     * “新员工数、去年同期新员工数和与去年同期相比的在职员工数变化率(%)(按月)”  组合图显示，今年每个月雇佣的员工数都比去年多。 有几个月的雇佣员工数明显很多。
-    * 从**按地区和种族划分的新员工计数和在职员工计数**组合图可以看出，我们在**东部**区域招聘的员工较之更少。
-    * **按年龄组划分的新员工增长率变化**瀑布图显示，我们主要招聘的是年轻员工。 这种趋势可能是因大部分工作都是兼职性质所致。
+    * 从“按地区和种族划分的新员工计数和在职员工计数”  组合图可以看出，我们在“东部”  区域雇佣的员工变少了。
+    * “按年龄组划分的新员工增长率变化”  瀑布图显示，我们主要雇佣的是年轻人。 这种趋势可能是因大部分工作都是兼职性质所致。
     * “新员工数(按性别)”  饼图显示，新员工数按性别大致均分。
 
     还能发现更多见解吗？ 例如，哪个区域的新员工数按性别不均分。 
@@ -91,7 +91,7 @@ ms.locfileid: "73858865"
    ![返回到仪表板](media/sample-human-resources/power-bi-breadcrumbs.png)
 
 ## <a name="compare-currently-active-and-former-employees"></a>比较当前在职员工数和离职员工数
-接下来，将探索当前在职员工和离职员工的数据。
+让我们来浏览一下当前在职员工和离职员工的数据。
 
 1. 在仪表板上，选择**按年龄组划分的在职员工计数**磁贴。
 
@@ -108,7 +108,7 @@ ms.locfileid: "73858865"
     * 我们注意到，在饼图中，在职员工数按性别和年龄段均分。 选择不同的年龄段可以了解各个年龄段是否按性别均分。 每个年龄组中的性别划分是否都很平均？
 
 ## <a name="reasons-for-separation"></a>离职原因
-我们来看一看“编辑视图”中的报表。 可以将饼图更改为，显示离职员工数据，而不是在职员工数据。
+让我们来看看“编辑视图”中的报表。 可以将饼图更改为，显示离职员工数据，而不是在职员工数据。
 
 1. 选择左上角的**编辑报表**。
 
@@ -135,7 +135,7 @@ ms.locfileid: "73858865"
 9. 选择顶部导航窗格中的“人力资源示例”，以返回到仪表板  。 可以选择保存对报表所做的更改。
 
 ## <a name="bad-hires"></a>差员工
-要探究的最后一个部分是差员工。 差员工定义为上班不超过 60 天就走人的员工。 我们正在快速雇佣，但我们是否雇佣到了优秀候选员工？
+要探究的最后一个部分是差员工。 “坏员工”定义为，工作时间不超过 60 天的员工。 我们正在快速雇佣，但我们是否雇佣到了优秀候选员工？
 
 1. 选择**差员工占按年龄组划分的在职员工比例**仪表板磁贴。 此时，报表打开第三个选项卡“差员工数”  。
 

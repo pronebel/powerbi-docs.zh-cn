@@ -1,167 +1,191 @@
 ---
 title: Power BI 的服务主体
-description: 了解如何使用服务主体在 Azure Active Directory 中注册应用程序，以用于嵌入 Power BI 内容。
+description: 了解如何使用服务主体和应用程序密码在 Azure Active Directory 中注册应用程序，以用于嵌入 Power BI 内容。
 author: KesemSharabi
 ms.author: kesharab
-ms.reviewer: nishalit
+ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.custom: ''
-ms.date: 12/12/2019
-ms.openlocfilehash: ce72abc3f3b60423344c2b28f39d9bdbfbcee7cd
-ms.sourcegitcommit: a175faed9378a7d040a08ced3e46e54503334c07
+ms.date: 03/30/2020
+ms.openlocfilehash: 9ec08ebe583110b2775f107be0ace2a03929c72d
+ms.sourcegitcommit: 444f7fe5068841ede2a366d60c79dcc9420772d4
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "79493494"
+ms.lasthandoff: 03/30/2020
+ms.locfileid: "80403483"
 ---
-# <a name="service-principal-with-power-bi"></a>Power BI 的服务主体
+# <a name="embedding-power-bi-content-with-service-principal-and-application-secret"></a>使用服务主体和应用程序密码嵌入 Power BI 内容
 
-使用服务主体，可将 Power BI 内容嵌入应用程序，并通过仅限应用的令牌在 Power BI 中使用自动化   。 使用 Power BI Premium Embedded 或自动处理 Power BI 任务和进程时，服务主体特别有用   。
+服务主体是一种身份验证方法，可用于让 Azure AD 应用程序访问 Power BI 服务内容和 API。
 
-使用 Power BI Embedded 时，使用服务主体具有优势。 主要优势是不需要主帐户（仅包含登录用户名和密码的 Power BI Pro 许可证）即可对应用程序进行身份验证。 服务主体使用应用程序 ID 和应用程序密码对应用程序进行身份验证。
+在 Azure Active Directory (Azure AD) 应用程序创建后，[服务主体对象](https://docs.microsoft.com/azure/active-directory/develop/app-objects-and-service-principals#service-principal-object)也随之创建。 借助服务主体对象（亦称为“服务主体”  ），Azure AD 可以对应用程序进行身份验证。 经过身份验证后，应用程序可以访问 Azure AD 租户资源。
 
-努力自动处理 Power BI 任务时，还可编写如何处理和管理服务主体以进行缩放的脚本。
+为了进行身份验证，服务主体使用 Azure AD 应用程序的应用程序 ID  ，以及下列项之一：
+* 应用程序密码
+* 证书
 
-## <a name="application-and-service-principal-relationship"></a>应用程序和服务主体的关系
+本文介绍了如何使用应用程序 ID  和应用程序密码  进行服务主体身份验证。 若要结合使用服务主体和证书进行身份验证，请参阅 [Power BI 基于证书的身份验证]()。
 
-为了访问用于保护 Azure AD 租户的资源，需要访问权限的实体应表示安全主体。 此操作同时适用于用户（用户主体）和应用程序（服务主体）。
+## <a name="method"></a>方法
 
-安全主体定义适用于 Azure AD 租户中的用户和应用程序的访问策略和权限。 此访问策略支持核心功能（例如，登录期间的用户和应用程序身份验证和资源访问期间的授权）。 有关详细信息，请参考 [Azure Active Directory (AAD) 中的应用程序和服务主体](https://docs.microsoft.com/azure/active-directory/develop/app-objects-and-service-principals)。
+若要将服务主体和应用程序 ID 与嵌入式分析结合使用，请按照以下步骤操作：
 
-在 Azure 门户中注册 Azure AD 应用程序时，Azure AD 租户中将创建两个对象：
+1. 创建 [Azure AD 应用程序](https://docs.microsoft.com/azure/active-directory/manage-apps/what-is-application-management)。
 
-* [应用程序对象](https://docs.microsoft.com/azure/active-directory/develop/app-objects-and-service-principals#application-object)
-* [服务主体对象](https://docs.microsoft.com/azure/active-directory/develop/app-objects-and-service-principals#service-principal-object)
+    1. 创建 Azure AD 应用程序密码。
+    
+    2. 获取应用程序的应用程序 ID  和应用程序密码  。
 
-将应用程序对象视为应用程序的全局表示形式以用于所有租户，将服务主体对象视为本地本地表示形式以用于特定租户   。
+    >[!NOTE]
+    >“第 1 步”  中介绍了这些步骤。 若要详细了解如何创建 Azure AD 应用程序，请参阅[创建 Azure AD 应用程序](https://docs.microsoft.com/azure/active-directory/develop/howto-create-service-principal-portal)一文。
 
-应用程序对象可充当派生常见和默认属性的模板，以用于创建对应的服务主体对象  。
+2. 创建 Azure AD 安全组。
 
-每个使用应用程序的租户都需要服务主体 - 因此，它可以生成标识，以用于登录和访问受租户保护的资源。 单租户应用程序仅创建一个服务主体（在其主租户中）并允许在应用程序注册期间使用该服务主体。
+3. 启用 Power BI 服务管理设置。
 
-## <a name="service-principal-with-power-bi-embedded"></a>Power BI Embedded 的服务主体
+4. 将服务主体添加到工作区中。
 
-凭借服务主体，可以使用应用程序 ID 和应用程序密码屏蔽应用程序中的主帐户信息。 无需再将主帐户硬编码到应用程序中也可进行身份验证。
+5. 嵌入内容。
 
-由于 Power BI API 和 Power BI .NET SDK 现支持使用服务主体调用，因此可以将 [Power BI REST API](https://docs.microsoft.com/rest/api/power-bi/) 与服务主体配合使用   。 例如，可以更改工作区，例如，创建工作区、添加或删除工作区中的用户，并将内容导入工作区。
+> [!IMPORTANT]
+> 在使服务主体可用于 Power BI 后，应用程序的 AD 权限将不再有效。 然后，将通过 Power BI 管理门户管理应用程序权限。
 
-如果 Power BI 项目和资源存储于[新的 Power BI 工作区](../../service-create-the-new-workspaces.md)，则只能使用服务主体。
+## <a name="step-1---create-an-azure-ad-app"></a>第 1 步 - 创建 Azure AD 应用程序
 
-## <a name="service-principal-vs-master-account"></a>服务主体与主帐户
+使用下面的一种方法来创建 Azure AD 应用程序：
+* 在 [Microsoft Azure 门户](https://ms.portal.azure.com/#allservices)中创建应用程序
+* 使用 [PowerShell](https://docs.microsoft.com/powershell/azure/create-azure-service-principal-azureps?view=azps-3.6.1) 创建应用程序。
 
-使用服务主体和标准主帐户（Power BI Pro 许可证）进行身份验证之间存在差异。 下表突出显示部分显著差异。
+### <a name="creating-an-azure-ad-app-in-the-microsoft-azure-portal"></a>在 Microsoft Azure 门户中创建 Azure AD 应用程序
 
-| 函数 | 主用户帐户 <br> （Power BI Pro 许可证） | 服务主体 <br> （仅限应用的令牌） |
-|------------------------------------------------------|---------------------|-------------------|
-| 可以登录 Power BI 服务  | 是 | 否 |
-| 在 Power BI 管理门户中启用 | 否 | 是 |
-| [使用工作区 (v1)](../../service-create-workspaces.md) | 是 | 否 |
-| [使用新工作区 (v2)](../../service-create-the-new-workspaces.md) | 是 | 是 |
-| 如果与 Power BI Embedded 配合使用，则需要是工作区管理员 | 是 | 是 |
-| 可以使用 Power BI REST API | 是 | 是 |
-| 需要全局管理员才能创建 | 是 | 否 |
-| 可以安装和管理本地数据网关 | 是 | 否 |
+1. 登录 [Microsoft Azure](https://ms.portal.azure.com/#allservices)。
 
-## <a name="get-started-with-a-service-principal"></a>开始使用服务主体
+2. 搜索“应用程序注册”  ，然后单击“应用程序注册”  链接。
 
-不同于主帐户的传统用法，使用服务主体（仅限应用的令牌）需要几个不同的部分才能设置。 要开始使用服务主体（仅限应用的令牌），则需要设置适当的环境。
+    ![Azure 应用程序注册](media/embed-service-principal/azure-app-registration.png)
 
-1. 在 Azure Active Directory (AAD) 中[注册服务器端 Web 应用程序](register-app.md)，以便与 Power BI 配合使用。 注册应用程序之后，可以捕获应用程序 ID、应用程序密码和服务主体对象 ID 以访问 Power BI 内容。 可以使用 [PowerShell](https://docs.microsoft.com/powershell/azure/create-azure-service-principal-azureps?view=azps-1.1.0) 创建服务主体。
+3. 单击“新建注册”  。
 
-    下面是创建新的 Azure Active Directory 应用程序的示例脚本。
+    ![新建注册](media/embed-service-principal/new-registration.png)
 
-    ```powershell
-    # The app id - $app.appid
-    # The service principal object id - $sp.objectId
-    # The app key - $key.value
+4. 填写所需信息：
+    * **名称** - 输入应用程序名称
+    * **受支持的帐户类型** - 选择受支持的帐户类型
+    * （可选）**重定向 URI** - 视需要输入 URI
 
-    # Sign in as a user that is allowed to create an app.
-    Connect-AzureAD
+5. 单击“注册”  。
 
-    # Create a new AAD web application
-    $app = New-AzureADApplication -DisplayName "testApp1" -Homepage "https://localhost:44322" -ReplyUrls "https://localhost:44322"
+6. 注册后，可以从“概览”  选项卡中获取“应用程序 ID”  。复制并保存“应用程序 ID”  ，以供日后使用。
 
-    # Creates a service principal
-    $sp = New-AzureADServicePrincipal -AppId $app.AppId
+    ![应用程序 ID](media/embed-service-principal/application-id.png)
 
-    # Get the service principal key.
-    $key = New-AzureADServicePrincipalPasswordCredential -ObjectId $sp.ObjectId
-    ```
+7. 单击“证书和密码”  选项卡。
 
-   > [!Important]
-   > 在使服务主体可用于 Power BI 后，应用程序的 AD 权限将不再有效。 然后，将通过 Power BI 管理门户管理应用程序权限。
+     ![应用程序 ID](media/embed-service-principal/certificates-and-secrets.png)
 
-2.  **建议** - 在 Azure Active Directory (AAD) 中创建安全组，并将所创建的[应用程序](https://docs.microsoft.com/azure/active-directory/develop/app-objects-and-service-principals)添加到该安全组。 可以使用 [PowerShell](https://docs.microsoft.com/powershell/azure/create-azure-service-principal-azureps?view=azps-1.1.0) 创建 AAD 安全组。
+8. 单击“新建客户端密码” 
 
-    下面的示例脚本可用于创建新安全组并向该安全组添加应用程序。
+    ![新建客户端密码](media/embed-service-principal/new-client-secret.png)
 
-    ```powershell
-    # Required to sign in as a tenant admin
-    Connect-AzureAD
+9. 在“添加客户端密码”  窗口中，输入描述，指定所需的客户端密码到期时间，然后单击“添加”  。
 
-    # Create an AAD security group
-    $group = New-AzureADGroup -DisplayName <Group display name> -SecurityEnabled $true -MailEnabled $false -MailNickName notSet
+10. 复制并保存“客户端密码”  值。
 
-    # Add the service principal to the group
-    Add-AzureADGroupMember -ObjectId $($group.ObjectId) -RefObjectId $($sp.ObjectId)
-    ```
+    ![“客户端密码”值](media/embed-service-principal/client-secret-value.png)
 
-3. Power BI 管理员需要启用 Power BI 管理门户中“开发人员设置”中的服务主体  。 将 Azure AD 中创建的安全组添加到“开发人员设置”中的特定安全组部分  。 还可以为整个组织启用服务主体访问。 在这种情况下，无需执行步骤 2。
+    >[!NOTE]
+    >在你离开此窗口后，客户端密码值将会隐藏起来，你将无法再次查看或复制它。
 
-   > [!Important]
-   > 服务主体有权访问为整个组织启用的或者为包含服务主体的安全组启用的所有租户设置。 要限制服务主体访问特定租户设置，请只允许访问特定安全组，或者为服务主体创建一个专用安全组并将其排除在外。
+### <a name="creating-an-azure-ad-app-using-powershell"></a>使用 PowerShell 创建 Azure AD 应用程序
 
-    ![管理门户](media/embed-service-principal/admin-portal.png)
+此部分中包含使用 [PowerShell](https://docs.microsoft.com/powershell/azure/create-azure-service-principal-azureps?view=azps-1.1.0) 新建 Azure AD 应用程序的示例脚本。
 
-4. 设置 [Power BI 环境](embed-sample-for-customers.md#set-up-your-power-bi-environment)。
+```powershell
+# The app ID - $app.appid
+# The service principal object ID - $sp.objectId
+# The app key - $key.value
 
-5. 以管理员身份将服务主体添加到创建的新工作区  。 可以通过 [API](https://docs.microsoft.com/rest/api/power-bi/groups/addgroupuser) 或使用 Power BI 服务管理此任务。
+# Sign in as a user that's allowed to create an app
+Connect-AzureAD
 
-    ![以管理员身份将服务主体添加到工作区](media/embed-service-principal/add-service-principal-in-the-UI.png)
+# Create a new Azure AD web application
+$app = New-AzureADApplication -DisplayName "testApp1" -Homepage "https://localhost:44322" -ReplyUrls "https://localhost:44322"
 
-6. 现在选择在示例应用程序或自己的应用程序中嵌入内容。
+# Creates a service principal
+$sp = New-AzureADServicePrincipal -AppId $app.AppId
 
-    * [使用示例应用程序嵌入内容](embed-sample-for-customers.md#embed-content-using-the-sample-application)
-    * [在应用程序中嵌入内容](embed-sample-for-customers.md#embed-content-within-your-application)
+# Get the service principal key
+$key = New-AzureADServicePrincipalPasswordCredential -ObjectId $sp.ObjectId
+```
 
-7. 现在，你已准备好[移动到生产环境](embed-sample-for-customers.md#move-to-production)。
+## <a name="step-2---create-an-azure-ad-security-group"></a>第 2 步 - 创建 Azure AD 安全组
 
-## <a name="migrate-to-service-principal"></a>改为使用服务主体
+服务主体无权访问你的任何 Power BI 内容和 API。 若要向服务主体授予访问权限，请在 Azure AD 中创建安全组，并将创建的服务主体添加到此安全组中。
 
-如果目前正在使用 Power BI 或 Power BI Embedded 的主帐户，则可改为使用服务主体。
+创建 Azure AD 安全组有以下两种方法：
+* 手动（在 Azure 中）
+* 使用 PowerShell
 
-完成[开始使用服务主体](#get-started-with-a-service-principal)部分中的前三个步骤，在完成后，按照以下说明操作。
+### <a name="create-a-security-group-manually"></a>手动创建安全组
 
-如果已使用 Power BI 中的[新工作区](../../service-create-the-new-workspaces.md)，则以管理员身份使用 Power BI 项目将服务主体添加到该工作区  。 但如果使用[传统工作区](../../service-create-workspaces.md)，则将 Power BI 项目和资源复制并迁移到新工作区，然后以管理员身份将服务主体添加到这些工作区  。
+若要手动创建 Azure 安全组，请按照[使用 Azure Active Directory 创建基本组并添加成员](https://docs.microsoft.com/azure/active-directory/fundamentals/active-directory-groups-create-azure-portal)一文中的说明操作。 
 
-没有用于将 Power BI 项目和资源从一个工作区移到另一个工作区的 UI 功能，因此需要使用 [API](https://powerbi.microsoft.com/pt-br/blog/duplicate-workspaces-using-the-power-bi-rest-apis-a-step-by-step-tutorial/) 才能完成此任务。 将 API 与服务主体配合使用时，需要使用服务主体对象 ID。
+### <a name="create-a-security-group-using-powershell"></a>使用 PowerShell 创建安全组
 
-### <a name="how-to-get-the-service-principal-object-id"></a>如何获取服务主体对象 ID
+下面的示例脚本用于新建安全组，并向此安全组中添加应用程序。
 
-要将服务主体分配到新的工作区，请使用 [Power BI REST API](https://docs.microsoft.com/rest/api/power-bi/groups/addgroupuser)。 若要引用服务主体用于操作或进行更改，请使用服务主体对象 ID - 例如，以管理员身份将服务主体应用于工作区  。
+>[!NOTE]
+>若要为整个组织启用服务主体访问权限，请跳过这一步。
 
-下面是从 Azure 门户获取服务主体对象 ID 的步骤。
+```powershell
+# Required to sign in as a tenant admin
+Connect-AzureAD
 
-1. 在 Azure 门户中创建新的应用注册。  
+# Create an Azure AD security group
+$group = New-AzureADGroup -DisplayName <Group display name> -SecurityEnabled $true -MailEnabled $false -MailNickName notSet
 
-2. 然后在“本地目录中的托管应用程序”下，选择创建的应用程序的名称  。
+# Add the service principal to the group
+Add-AzureADGroupMember -ObjectId $($group.ObjectId) -RefObjectId $($sp.ObjectId)
+```
 
-   ![本地目录中的托管应用程序](media/embed-service-principal/managed-application-in-local-directory.png)
+## <a name="step-3---enable-the-power-bi-service-admin-settings"></a>第 3 步 - 启用 Power BI 服务管理设置
 
-    > [!NOTE]
-    > 上图中的对象 ID 不是用于服务主体的对象 ID。
+为了让 Azure AD 应用程序能够访问 Power BI 内容和 API，Power BI 管理员必须在 Power BI 管理门户中启用服务主体访问权限。
 
-3. 选择“属性”查看对象 ID  。
+在“开发人员设置”  中，将你在 Azure AD 中创建的安全组添加到特定安全组部分。
 
-    ![服务主体对象 ID 属性](media/embed-service-principal/service-principal-object-id-properties.png)
+>[!IMPORTANT]
+>服务主体有权访问为其启用的任何租户设置。 这包括特定安全组或整个组织，具体视管理设置而定。
+>
+>若要限制服务主体只能访问特定租户设置，请只允许访问特定安全组。 也可以为服务主体创建专用安全组，并将它排除在相应租户设置之外。
 
-以下是使用 PowerShell 检索服务主体对象 ID 的示例脚本。
+![管理门户](media/embed-service-principal/admin-portal.png)
 
-   ```powershell
-   Get-AzureADServicePrincipal -Filter "DisplayName eq '<application name>'"
-   ```
+## <a name="step-4---add-the-service-principal-as-an-admin-to-your-workspace"></a>第 4 步- 以管理员身份将服务主体添加到工作区
+
+若要让 Azure AD 应用程序能够访问 Power BI 服务中的项目（如报表、仪表板和数据集），请以成员或管理员身份将服务主体实体添加到工作区。
+
+>[!NOTE]
+>此部分提供了 UI 说明。 也可以使用[“组 - 添加组用户”API](https://docs.microsoft.com/rest/api/power-bi/groups/addgroupuser) 将服务主体添加到工作区。
+
+1. 滚动到要能够访问的工作区，然后选择“更多”  菜单中的“工作区访问”  。
+
+    ![工作区设置](media/embed-service-principal/workspace-access.png)
+
+2. 以管理员  或成员  身份将服务主体添加到工作区。
+
+    ![工作区管理员](media/embed-service-principal/add-service-principal-in-the-UI.png)
+
+## <a name="step-5---embed-your-content"></a>第 5 步 - 嵌入内容
+
+可以在示例应用程序或你自己的应用程序中嵌入内容。
+
+* [使用示例应用程序嵌入内容](embed-sample-for-customers.md#embed-content-using-the-sample-application)
+* [在应用程序中嵌入内容](embed-sample-for-customers.md#embed-content-within-your-application)
+
+嵌入内容后，你便可以[迁移到生产阶段](embed-sample-for-customers.md#move-to-production)。
 
 ## <a name="considerations-and-limitations"></a>注意事项和限制
 
@@ -171,14 +195,15 @@ ms.locfileid: "79493494"
 * 无法使用服务主体登录 Power BI 门户。
 * 在 Power BI 管理门户的开发人员设置中启用服务主体需要 Power BI 管理权限。
 * 无法使用服务主体安装或管理本地数据网关。
-* [为组织嵌入内容](embed-sample-for-your-organization.md)应用程序无法使用服务主体。
+* 无法使用服务主体[为组织应用程序嵌入内容](embed-sample-for-your-organization.md)。
 * 不支持[数据流](../../service-dataflows-overview.md)管理。
 * 服务主体目前不支持任何管理员 API。
 * 使用带有 [Azure Analysis Services](https://docs.microsoft.com/azure/analysis-services/analysis-services-overview) 数据源的服务主体时，服务主体本身必须具有 Azure Analysis Services 实例权限。 使用包含服务主体的安全组来实现此目的，这不起作用。
 
 ## <a name="next-steps"></a>后续步骤
 
-* [注册应用](register-app.md)
 * [适用于客户的 Power BI Embedded](embed-sample-for-customers.md)
-* [Azure Active Directory 中的应用程序和服务主体对象](https://docs.microsoft.com/azure/active-directory/develop/app-objects-and-service-principals)
+
 * [配合使用本地数据网关与服务主体的行级别安全性](embedded-row-level-security.md#on-premises-data-gateway-with-service-principal)
+
+* [使用服务主体和证书嵌入 Power BI 内容]()

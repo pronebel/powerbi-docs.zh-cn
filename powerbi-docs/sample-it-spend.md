@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 07/05/2019
 ms.author: maggies
 LocalizationGroup: Samples
-ms.openlocfilehash: 6f39f8b5c288c1dbff3cd87c7beee27683cfeae2
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 00effa1838327a9463671cf9be2f5764be71deb4
+ms.sourcegitcommit: 444f7fe5068841ede2a366d60c79dcc9420772d4
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73873906"
+ms.lasthandoff: 03/30/2020
+ms.locfileid: "80404682"
 ---
 # <a name="it-spend-analysis-sample-for-power-bi-take-a-tour"></a>Power BI 的 IT 支出分析示例：参观
 
@@ -57,7 +57,7 @@ IT 支出分析示例内容包中有仪表板、报表和数据集，分析了 I
 
 ### <a name="get-the-excel-workbook-for-this-sample"></a>获取 Excel 工作簿形式的此示例
 
-若要查看此示例的数据源，还可以将它下载为 [Excel 工作簿](https://go.microsoft.com/fwlink/?LinkId=529783)。 该工作簿包含你可以查看和修改的 Power View 工作表。 若要查看原始数据，请启用“数据分析”加载项，再依次选择“Power Pivot”>“管理”  。 若要启用 Power View 和 Power Pivot 加载项，请参阅[从 Excel 本身内查看 Excel 示例](sample-datasets.md#optional-take-a-look-at-the-excel-samples-from-inside-excel-itself)，以了解详细信息。
+若要查看此示例的数据源，还可以将它下载为 [Excel 工作簿](https://go.microsoft.com/fwlink/?LinkId=529783)。 该工作簿包含你可以查看和修改的 Power View 工作表。 若要查看原始数据，请启用“数据分析”加载项，再依次选择“Power Pivot”>“管理”  。 若要启用 Power View 和 Power Pivot 加载项，请参阅[在 Excel 中浏览 Excel 示例](sample-datasets.md#explore-excel-samples-inside-excel)，以了解详细信息。
 
 ## <a name="it-spend-analysis-sample-dashboard"></a>IT 支出分析示例仪表板
 仪表板左侧有两个数字磁贴，分别为“与计划差异(%)”  和“与第 3 季度最新估计差异(%)”  ，它们提供了与计划和最新季度估计（LE3 = 第 3 季度最新估计）相比的实际支出概况。 总体上，我们与计划大约有 6% 的差异。 接下来，将探索导致此差异产生的原因：时间、地点和类别。

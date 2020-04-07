@@ -6,15 +6,15 @@ ms.reviewer: kayu
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 10/14/2019
+ms.date: 03/26/2020
 ms.author: maggies
 LocalizationGroup: Data refresh
-ms.openlocfilehash: 810077e8c651d3d6faf91eecb6fd320c24a69d2f
-ms.sourcegitcommit: a175faed9378a7d040a08ced3e46e54503334c07
+ms.openlocfilehash: 63275e882d71cd5c47a9a10baf4f0975abc2a845
+ms.sourcegitcommit: bcc42e938fa28abe433287fecb9abb28c253b6bb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "79488789"
+ms.lasthandoff: 03/26/2020
+ms.locfileid: "80302460"
 ---
 # <a name="data-refresh-in-power-bi"></a>Power BI 中的数据刷新
 
@@ -92,7 +92,7 @@ Power BI 刷新操作可以包含多种刷新类型，包括数据刷新、OneDr
 
 #### <a name="data-refresh"></a>数据刷新
 
-对 Power BI 用户而言，刷新数据通常意味着根据刷新计划或按需将数据从原始数据源导入到数据集。 可以每天执行多次数据集刷新，如果基础源数据经常更改，则可能必须执行多次刷新。 Power BI 将共享容量上的数据集限制为每天最多刷新 8 次。 如果数据集驻留在 Premium 容量上，则每天最多可在数据集设置中计划 48 次刷新。 有关详细信息，请参阅本文后面的[配置计划刷新](#configure-scheduled-refresh)。
+对 Power BI 用户而言，刷新数据通常意味着根据刷新计划或按需将数据从原始数据源导入到数据集。 可以每天执行多次数据集刷新，如果基础源数据经常更改，则可能必须执行多次刷新。 Power BI 将共享容量上的数据集限制为每天最多刷新 8 次。 如果数据集驻留在 Premium 容量上，则每天最多可在数据集设置中计划 48 次刷新。 有关详细信息，请参阅本文后面的[配置计划刷新](#configure-scheduled-refresh)。 在以编程方式使用 TMSL 或 PowerShell 进行配置时，[XMLA 终结点](service-premium-connect-tools.md)已启用读写操作的 Premium 容量中的数据集支持无限刷新操作。
 
 还有一点非常重要，就是每日刷新的共享容量限制适用于计划刷新和组合 API 刷新。 还可以通过在数据集菜单中选择“立即刷新”来触发按需刷新，如下面的屏幕截图所示  。 刷新限制不包括按需刷新。 另请注意，Premium 容量中的数据集不会对 API 刷新施加限制。 如果你有兴趣使用 Power BI REST API 生成自己的刷新解决方案，请参阅[数据集 - 刷新数据集](/rest/api/power-bi/datasets/refreshdataset)。
 
