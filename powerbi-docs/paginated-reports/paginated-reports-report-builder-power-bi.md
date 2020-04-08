@@ -8,20 +8,18 @@ ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: overview
 ms.date: 11/27/2019
-ms.openlocfilehash: 7ab9ac60e416502f69401fcea87a697f53176448
-ms.sourcegitcommit: 444f7fe5068841ede2a366d60c79dcc9420772d4
+ms.openlocfilehash: 924c2850efe1e9e09a8f6f350be616695ab061ea
+ms.sourcegitcommit: 8eeb784fd46321680367ac913ef976aeedaa7766
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/30/2020
-ms.locfileid: "80404786"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "80621554"
 ---
 # <a name="what-are-paginated-reports-in-power-bi-premium"></a>Power BI Premium 中的分页报表是什么？
 
 长期以来，分页报表一直是 SQL Server Reporting Services 中的标准报表格式，现在可在 Power BI 服务中使用。 可以打印或共享这些报表。 它们被称为“分页”，因为它们已进行了格式化，以适应页面。 即使某个表跨多个页，分页报表也能显示表中的所有数据。 它们有时被称为“像素完美”，因为用户可以准确地控制其报表页面布局。 分页报表基于 SQL Server Reporting Services 中的 RDL 报表技术。 报表生成器是用于创作分页报表的独立工具。 
 
 分页报表可以有很多页。 例如，此报表有 563 页。 每页都采用精准布局，每个发票占一页，重复页眉和页脚。
-
-试用[动手实验室：创建 Microsoft Power BI 分页报表](https://www.microsoft.com/handsonlabs/selfpacedlabs/details/SQ00208)。
 
 ![分页](media/paginated-reports-report-builder-power-bi/power-bi-paginated-wwi-report-page.png)
 
@@ -87,5 +85,4 @@ ms.locfileid: "80404786"
 - [从 Microsoft 下载中心安装 Power BI 报表生成器](https://go.microsoft.com/fwlink/?linkid=2086513)
 - [教程：创建分页报表](paginated-reports-quickstart-aw.md)
 - [直接在分页报表中输入数据](paginated-reports-enter-data.md)
-- [动手实验室：创建 Microsoft Power BI 分页报表](https://www.microsoft.com/handsonlabs/selfpacedlabs/details/SQ00208)
-- [教程：在应用程序中为客户嵌入 Power BI 分页报表](../developer/embed-paginated-reports-customers.md)。
+- [教程：在应用程序中为客户 ](../developer/embed-paginated-reports-customers.md) 嵌入 Power BI 分页报表

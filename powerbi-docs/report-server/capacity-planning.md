@@ -1,19 +1,19 @@
 ---
 title: Power BI 报表服务器容量计划指南
 description: 本文通过共享各种工作负载的加载测试执行结果，提供 Power BI 报表服务器的容量计划指南。
-author: parthsha
+author: maggiesMSFT
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
-ms.date: 3/5/2018
-ms.author: parshah
-ms.openlocfilehash: 8b30089fe04c832734bd418cc58fabb7b574a082
-ms.sourcegitcommit: dc18209dccb6e2097a92d87729b72ac950627473
+ms.date: 04/02/2020
+ms.author: maggies
+ms.openlocfilehash: 25bf9d8a05805fad268152c64b5aefa36f602803
+ms.sourcegitcommit: e0833ec22b263f919025acae88551570b4def0cd
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/27/2020
-ms.locfileid: "80361784"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "80647646"
 ---
 # <a name="capacity-planning-guidance-for-power-bi-report-server"></a>Power BI 报表服务器容量计划指南
 Power BI 报表服务器是自助式 BI 和企业报表解决方案，客户可以在本地（防火墙后）进行部署。 它将 Power BI Desktop 的交互式报表功能与 SQL Server Reporting Services 的本地服务器平台相结合。 随着企业中对分析和报表的大量日益频繁使用，对衡量企业用户群所需的硬件基础结构和软件许可证进行预算可能会成为一项挑战。 本文旨在通过共享针对报表服务器的各种工作负载的大量加载测试执行的结果，提供 Power BI 报表服务器的容量计划指南。 虽然组织的报表、查询和使用模式差异巨大，但是本文中显示的结果，以及所用的实际测试和测试执行方式的详细描述，均可用作部署 Power BI 报表服务器早期阶段计划过程中的任何用户的参考点。
@@ -90,22 +90,6 @@ Power BI 报表服务器部署由以下虚拟机组成：
 | --- | --- | --- |
 | **Power BI 报表重负载** |1,000 个用户 |3,000 个用户 |
 | **分页报表重负载** |2,000 个用户 |3,200 个用户 |
-
-### <a name="view-results"></a>查看结果
-选择一个报表，查看负载测试的结果。
-
-| 工作负载 | 8 核/32 GB | 16 核/64 GB |
-| --- | --- | --- |
-| **Power BI 报表重负载** |[视图 - 8 核](https://msit.powerbi.com/view?r=eyJrIjoiMDhhNGY4NGQtNGRhYy00Yzk4LTk2MzAtYzFlNWI5NjBkMGFiIiwidCI6IjcyZjk4OGJmLTg2ZjEtNDFhZi05MWFiLTJkN2NkMDExZGI0NyIsImMiOjV9) |[视图 - 16 核](https://msit.powerbi.com/view?r=eyJrIjoiNDBiODk1OGUtYTAyOC00MzVhLThmZmYtNzVjNTFjNzMwYzkwIiwidCI6IjcyZjk4OGJmLTg2ZjEtNDFhZi05MWFiLTJkN2NkMDExZGI0NyIsImMiOjV9) |
-| **分页报表重负载** |[视图 - 8 核](https://msit.powerbi.com/view?r=eyJrIjoiNDFiZWYzMTktZGIxNS00MzcwLThjODQtMmJkMGRiZWEzNjhlIiwidCI6IjcyZjk4OGJmLTg2ZjEtNDFhZi05MWFiLTJkN2NkMDExZGI0NyIsImMiOjV9) |[视图 - 16 核](https://msit.powerbi.com/view?r=eyJrIjoiOTU0YjJkYTgtNDg4Yy00NzlhLWIwMGYtMzg4YWI2MjNmOTZjIiwidCI6IjcyZjk4OGJmLTg2ZjEtNDFhZi05MWFiLTJkN2NkMDExZGI0NyIsImMiOjV9) |
-
-<iframe width="640" height="360" src="https://msit.powerbi.com/view?r=eyJrIjoiMDhhNGY4NGQtNGRhYy00Yzk4LTk2MzAtYzFlNWI5NjBkMGFiIiwidCI6IjcyZjk4OGJmLTg2ZjEtNDFhZi05MWFiLTJkN2NkMDExZGI0NyIsImMiOjV9" frameborder="0" allowFullScreen="true"></iframe>
-
-<iframe width="640" height="360" src="https://msit.powerbi.com/view?r=eyJrIjoiNDBiODk1OGUtYTAyOC00MzVhLThmZmYtNzVjNTFjNzMwYzkwIiwidCI6IjcyZjk4OGJmLTg2ZjEtNDFhZi05MWFiLTJkN2NkMDExZGI0NyIsImMiOjV9" frameborder="0" allowFullScreen="true"></iframe>
-
-<iframe width="640" height="360" src="https://msit.powerbi.com/view?r=eyJrIjoiNDFiZWYzMTktZGIxNS00MzcwLThjODQtMmJkMGRiZWEzNjhlIiwidCI6IjcyZjk4OGJmLTg2ZjEtNDFhZi05MWFiLTJkN2NkMDExZGI0NyIsImMiOjV9" frameborder="0" allowFullScreen="true"></iframe>
-
-<iframe width="640" height="360" src="https://msit.powerbi.com/view?r=eyJrIjoiOTU0YjJkYTgtNDg4Yy00NzlhLWIwMGYtMzg4YWI2MjNmOTZjIiwidCI6IjcyZjk4OGJmLTg2ZjEtNDFhZi05MWFiLTJkN2NkMDExZGI0NyIsImMiOjV9" frameborder="0" allowFullScreen="true"></iframe>
 
 ## <a name="summary"></a>摘要
 对于每个负载测试运行，CPU 是 Power BI 报表服务器计算机上的峰值负载点中最过载的资源。 因此，应增加的第一个资源是内核数。 或者，可以考虑通过在拓扑中添加更多托管 Power BI 报表服务器的服务器来进行纵向扩展。

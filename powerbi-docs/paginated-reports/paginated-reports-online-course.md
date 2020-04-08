@@ -9,12 +9,12 @@ ms.subservice: report-builder
 ms.topic: tutorial
 ms.date: 03/18/2020
 ms.author: v-pemyer
-ms.openlocfilehash: 69f498239b80dd7445898528aeb09396d0046689
-ms.sourcegitcommit: 646d2de454a2897dc52cbc02b7743aaa021bac04
+ms.openlocfilehash: 4df77ee94ee72e2104b7964f1835b446bde6b676
+ms.sourcegitcommit: 8eeb784fd46321680367ac913ef976aeedaa7766
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "79526086"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "80621491"
 ---
 # <a name="online-course-power-bi-paginated-reports-in-a-day"></a>在线课程：一天玩转 Power BI 分页报表
 
@@ -88,6 +88,5 @@ ms.locfileid: "79526086"
 有关本文的详细信息，请参阅以下资源：
 
 - 教程：[创建分页报表并将其上传到 Power BI 服务](paginated-reports-quickstart-aw.md)
-- 托管动手实验：[创建 Microsoft Power BI 分页报表](https://www.microsoft.com/handsonlabs/selfpacedlabs/details/SQ00208)
 - 是否有任何问题? [尝试咨询 Power BI 社区](https://community.powerbi.com/)
 - 建议？ [提出改进 Power BI 的想法](https://ideas.powerbi.com/)

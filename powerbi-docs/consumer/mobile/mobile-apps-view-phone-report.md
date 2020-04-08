@@ -8,12 +8,12 @@ ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 03/11/2020
 ms.author: painbar
-ms.openlocfilehash: 1db56c2844d217bf6bff633609893e5a97a6dae5
-ms.sourcegitcommit: 480bba9c745cb9af2005637e693c5714b3c64a8a
+ms.openlocfilehash: 91fc7e9e3664f21d50b475f316a9a6c64875fab4
+ms.sourcegitcommit: 9b806dfe62c2dee82d971bb4f89d983b97931b43
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/11/2020
-ms.locfileid: "79114886"
+ms.lasthandoff: 04/07/2020
+ms.locfileid: "80802110"
 ---
 # <a name="view-power-bi-reports-optimized-for-your-phone"></a>查看针对你的手机进行优化的 Power BI 报表
 
@@ -39,10 +39,11 @@ Power BI 报表的所有其他功能对更适合在手机上查看的报表仍�
 ## <a name="filter-the-report-page-on-a-phone"></a>筛选手机上的报表页
 如果针对手机优化的报表已定义筛选器，则在手机上查看报表时可以使用这些筛选器。 在手机上打开的报表已筛选出网页版报表中筛选的值。 还会通过消息提示报表页上有活动筛选器。 可以在手机上更改筛选器。
 
-1. 点击筛选器图标 ![页面底部的](./media/mobile-apps-view-phone-report/power-bi-phone-filter-icon.png) 手机筛选器图标。 
+1. 点击筛选器图标 ![页面底部的](./media/mobile-apps-view-phone-report/power-bi-phone-filter-icon.png) 手机筛选器图标。
+
 2. 使用基本筛选或高级筛选查看你感兴趣的结果。
    
-    ![Power BI 手机报表高级筛选器](./media/mobile-apps-view-phone-report/power-bi-iphone-advanced-filter-toronto.gif)
+    ![Power BI 手机报表高级筛选器](./media/mobile-apps-view-phone-report/power-bi-iphone-advanced-filter-toronto.png)
 
 ## <a name="cross-highlight-visuals"></a>交叉突出显示视觉对象
 纵向视图中交叉突出显示视觉对象的工作方式与 Power BI 服务中的视觉对象相同，并且在横向视图下的手机中也是如此：在一个视觉对象中选择数据时，它会突出显示该页面上其他视觉对象中的相关数据。
