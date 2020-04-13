@@ -7,19 +7,19 @@ ms.custom: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 03/31/2020
+ms.date: 04/06/2020
 ms.author: lukaszp
 LocalizationGroup: Samples
-ms.openlocfilehash: 432312b5ceb7632e0249d1d7dda6158bf97d0224
-ms.sourcegitcommit: 3c51431d85793b71f378c4b0b74483dfdd8411b3
+ms.openlocfilehash: 66e76c21e7d5171d24ff1518745a35947aa7ca42
+ms.sourcegitcommit: e7fda395b47e404c61e961a60816b7a1b0182759
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/31/2020
-ms.locfileid: "80472051"
+ms.lasthandoff: 04/08/2020
+ms.locfileid: "80979767"
 ---
 # <a name="covid-19-tracking-sample-for-us-state-and-local-governments"></a>适用于美国各州和地方政府的 COVID-19 跟踪示例
 
-Power BI 团队创建了 COVID-19 跟踪示例，可便于美国各州和地方政府发布或自定义关于 COVID-19 的交互式报表。 使用 Power BI Desktop，他们可以分析和直观呈现 COVID-19 数据，以便在市、县、州和国家级别向社区提供信息。 然后，使用 Power BI 的“发布到 Web”，他们可以公开共享此报表，以告知公民。 本文介绍了在你自己的公共故事、博客或网站中使用 Power BI 交互式可视化效果的三种不同方法。
+Power BI 团队创建了 COVID-19 跟踪示例，可便于美国各州和地方政府发布或自定义关于 COVID-19 的交互式报表。 使用 Power BI Desktop，他们可以分析和直观呈现 COVID-19 数据，以便在市、县、州和国家级别向社区提供信息。 然后，使用 Power BI 的“发布到 Web”，他们可以公开共享此报表，以告知公民。 本文介绍了在你自己的公共故事、博客或网站中使用 Power BI 交互式可视化效果的不同方法。
 
 :::image type="content" source="media/sample-covid-19-us/covid-19-us-tracking-sample.png" alt-text="包含美国数据的 COVID-19 示例":::
 
@@ -45,10 +45,10 @@ Microsoft 已发布示例报表，并创建了“发布到 Web”嵌入代码。
 若要在你的网站上添加交互式图形，请将以下嵌入代码复制并粘贴到你网页上的相应图形显示位置。  
 
 ```
-<iframe width="800" height="600" src="https://app.powerbi.com/view?r=eyJrIjoiMmI2ZjExMzItZTcwNy00YmUwLWFlMTAtYTUxYzVjODZmYjA5IiwidCI6ImMxMzZlZWMwLWZlOTItNDVlMC1iZWFlLTQ2OTg0OTczZTIzMiIsImMiOjF9" frameborder="0" allowFullScreen="true"></iframe>
+<iframe width="1600" height="900" src="https://app.powerbi.com/view?r=eyJrIjoiMmI2ZjExMzItZTcwNy00YmUwLWFlMTAtYTUxYzVjODZmYjA5IiwidCI6ImMxMzZlZWMwLWZlOTItNDVlMC1iZWFlLTQ2OTg0OTczZTIzMiIsImMiOjF9" frameborder="0" allowFullScreen="true"></iframe>
 ```
 
-嵌入代码是可以插入到任意 HTML 页中的 HTML iFrame 元素。 调整所提供 iFrame 的宽度和高度，以适应你网站的尺寸。 由于示例报表是按 16:9 比例创作，因此请选择维持此比例的尺寸。 正确实现后，显示的图形不带任何额外的灰色边框。 在进行这些更改时，[审阅 iFrame 大小调整提示和技巧](https://docs.microsoft.com/power-bi/service-publish-to-web#tips-and-tricks-for-iframe-height-and-width)会很有用。
+嵌入代码是可以插入到任意 HTML 页中的 HTML iFrame 元素。 调整所提供 iFrame 的宽度和高度，以适应你网站的尺寸。 由于示例报表是按 16:9 比例创作，因此请选择维持此比例的尺寸。 正确实现后，显示的图形不带任何额外的灰色边框。 在进行这些更改时，[审阅 iFrame 大小调整提示和技巧](../service-publish-to-web.md#tips-and-tricks-for-iframe-height-and-width)会很有用。
 
 ## <a name="option-2-customize-the-sample-power-bi-file"></a>选项 2：自定义示例 Power BI 文件
 
@@ -106,7 +106,7 @@ USAFacts 数据是根据需要归属的 Creative Commons 许可证提供的。 �
 
 若要测试刷新设置，请选择[数据集项中提供的“立即刷新”选项](../refresh-data.md#data-refresh)。
 
-每次运行计划刷新，都会加载刷新后的数据。 请注意，基础数据是由 USAFacts 提供的，可能不会像刷新计划一样频繁更新。 若要了解基础数据的上次更新时间，请查看 [USAFacts 网站](https://usafacts.org/visualizations/coronavirus-covid-19-spread-map/)。 
+每次运行计划刷新，都会加载刷新后的数据。 基础数据是由 USAFacts 提供的，可能不会像刷新计划一样频繁更新。 若要了解基础数据的上次更新时间，请查看 [USAFacts 网站](https://usafacts.org/visualizations/coronavirus-covid-19-spread-map/)。 
 
 若要在你的网站上发布自定义报表，最好将计划刷新配置为运行频率不低于 USAFacts 数据更新频率。 由于 USAFacts 可能在每天的不同时间刷新数据，因此你不妨配置为每天刷新多次。 
 
@@ -147,6 +147,11 @@ USAFacts 数据是根据需要归属的 Creative Commons 许可证提供的。 �
     
 然后，可以使用 Power BI Desktop 来直观呈现数据。 最后，按照“选项2：  [将报表发布到 Power BI 服务](#publish-your-report-to-the-power-bi-service)”中的步骤操作，以发布此报表并创建自定义嵌入代码。 
 
+## <a name="option-4-use-the-covid-19-us-tracking-template-app"></a>选项 4：使用 COVID-19 美国跟踪模板应用
+
+还有一个选项，Power BI 团队创建了 COVID-19 美国跟踪模板应用，方便你快速入门  。 模板应用是报表、仪表板和特定数据源数据的捆绑包。 可从 AppSource 下载它们，根据需要使用或修改它们，并将其分发给你的同事。 
+
+此 COVID-19 美国跟踪模板应用包含预构建的 COVID-19 指标报表，可按原有内容使用、直接在 Power BI 服务中进行个性化设置或者根据需要下载并添加其他数据源。 了解如何安装 [COVID-19 美国跟踪模板应用](../connect-data/service-connect-to-covid-19-tracking.md)并立即开始使用。
 
 ## <a name="about-the-data-source-for-this-report"></a>关于此报表的数据源
 此交互式报表汇总了美国疾病控制与预防中心 (CDC) 以及州级和地方级公共卫生机构提供的数据。 县级数据是通过直接咨询州和地方机构（链接）来确认。

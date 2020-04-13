@@ -49,15 +49,15 @@
           items:
             - name: 使用报表视图
               href: ../desktop-report-view.md
-            - name: Power BI 报表中的筛选器类型
+            - name: 报表中筛选器的类型
               href: ../power-bi-report-filter-types.md
             - name: 报表中的筛选器和突出显示
               href: ../power-bi-reports-filters-and-highlighting.md
             - name: 高密度直线采样
               href: ../desktop-high-density-sampling.md
-            - name: 关于 Power BI 问答视觉对象
+            - name: 关于问答视觉对象
               href: ../visuals/power-bi-visualization-q-and-a.md
-            - name: 关于 Power BI 辅助功能
+            - name: 关于辅助功能
               href: ../desktop-accessibility-overview.md
             - name: 自然语言问答
               items:
@@ -125,7 +125,7 @@
               href: ../desktop-bookmarks.md
             - name: 使用报表主题
               href: ../desktop-report-themes.md
-            - name: 使用 Power BI 报表中的筛选器
+            - name: 在报表中使用筛选器
               href: ../power-bi-report-filter.md
             - name: 使用钻取功能
               href: ../desktop-drillthrough.md
@@ -139,7 +139,7 @@
               href: ../desktop-r-powered-custom-visuals.md
             - name: 应用网格线和对齐网格
               href: ../desktop-gridlines-snap-to-grid.md
-            - name: 在 Power BI 报表中应用页面显示设置
+            - name: 在报表中应用页面显示设置
               href: ../power-bi-report-display-settings.md
             - name: 从示例中添加列
               href: ../desktop-add-column-from-example.md
@@ -147,12 +147,16 @@
               href: ../desktop-add-custom-column.md
             - name: 使用内联层次结构标签
               href: ../desktop-inline-hierarchy-labels.md
-            - name: 使用数值范围切片器
+            - name: 切片器
+              href: ../visuals/power-bi-visualization-slicers.md
+            - name: 数值范围切片器
               href: ../desktop-slicer-numeric-range.md
-            - name: 使用相对日期切片器和筛选器
-              href: ../desktop-slicer-filter-date-range.md
+            - name: 相对日期切片器和筛选器
+              href: ../visuals/desktop-slicer-filter-date-range.md
             - name: 创建可重设大小的切片器
               href: ../power-bi-slicer-filter-responsive.md
+            - name: 向切片器添加多个字段
+              href: power-bi-slicer-hierarchy-multiple-fields.md
             - name: 使用行级安全性限制数据访问
               href: ../desktop-rls.md
             - name: 自定义工具提示
@@ -205,17 +209,17 @@
               href: ../desktop-upload-desktop-files.md
         - name: 可视化效果
           items:
-            - name: 向 Power BI 报表添加视觉对象（第 1 部分）
+            - name: 向报表添加视觉对象（第 1 部分）
               href: ../visuals/power-bi-report-add-visualizations-i.md
-            - name: 向 Power BI 报表添加视觉对象（第 2 部分）
+            - name: 向报表添加视觉对象（第 2 部分）
               href: ../visuals/power-bi-report-add-visualizations-ii.md
-            - name: 向 Power BI 报表添加视觉对象
+            - name: 向报表添加视觉对象
               href: ../visuals/power-bi-report-visualizations.md
-            - name: 在 Power BI 报表中更改视觉对象
+            - name: 更改报表中的视觉对象
               href: ../visuals/power-bi-report-change-visualization-type.md
             - name: 自定义视觉对象标题、背景和图例
               href: ../visuals/power-bi-visualization-customize-title-background-and-legend.md
-            - name: 显示 Power BI 中不含数据的项目
+            - name: 显示不含数据的项
               href: ../desktop-show-items-no-data.md
             - name: 应用数据点限制和策略（按视觉对象类型）
               href: ../visuals/power-bi-data-points.md
@@ -233,7 +237,7 @@
               href: ../visuals/power-bi-visualization-move-and-resize.md
             - name: 更改视觉对象在报表中的交互方式
               href: ../service-reports-visual-interactions.md
-            - name: 用于 Power BI 地图可视化效果的提示和技巧
+            - name: 关于地图可视化效果的提示和技巧
               href: ../visuals/power-bi-map-tips-and-tricks.md
             - name: 自定义 X 轴和 Y 轴属性
               href: ../visuals/power-bi-visualization-customize-x-axis-and-y-axis.md
@@ -241,47 +245,45 @@
               href: ../visuals/power-bi-visualizations-arcgis.md
             - name: 创建 ArcGIS Maps for Power BI 视觉对象
               href: ../visuals/power-bi-visualization-arcgis.md
-            - name: 创建和使用基本面积图
+            - name: 基本面积图
               href: ../visuals/power-bi-visualization-basic-area-chart.md
             - name: 创建卡片可视化对象（大数字磁贴）
               href: ../visuals/power-bi-visualization-card.md
-            - name: 创建和使用组合图
+            - name: 组合图
               href: ../visuals/power-bi-visualization-combo-chart.md
-            - name: 创建和使用分解树视觉对象（预览版）
+            - name: 分解树视觉对象（预览版）
               href: ../visuals/power-bi-visualization-decomposition-tree.md
-            - name: 创建和使用圆环图
+            - name: 圆环图
               href: ../visuals/power-bi-visualization-doughnut-charts.md
-            - name: 创建和使用着色地图（等值线图）
+            - name: 着色地图（等值线图）
               href: ../visuals/power-bi-visualization-filled-maps-choropleths.md
-            - name: 创建和使用漏斗图
+            - name: 漏斗图
               href: ../visuals/power-bi-visualization-funnel-charts.md
-            - name: 创建和使用关键影响因素视觉对象
+            - name: 关键影响因素视觉对象
               href: ../visuals/power-bi-visualization-influencers.md
-            - name: 创建和使用 KPI 可视化效果
+            - name: KPI 视觉对象
               href: ../visuals/power-bi-visualization-kpi.md
-            - name: 创建和使用矩阵可视化效果
+            - name: 矩阵视觉对象
               href: ../visuals/desktop-matrix-visual.md
-            - name: 创建和使用 Power Apps 视觉对象
+            - name: Power Apps 视觉对象
               href: ../visuals/power-bi-visualization-powerapp.md
-            - name: 创建和使用 R 可视化效果
+            - name: R 视觉对象
               href: ../visuals/service-r-visuals.md
-            - name: 创建和使用径向仪表图表
+            - name: 径向仪表盘
               href: ../visuals/power-bi-visualization-radial-gauge-charts.md
-            - name: 创建和使用功能区图表
+            - name: 带状图
               href: ../visuals/desktop-ribbon-charts.md
-            - name: 创建和使用散点图、气泡图和点图
+            - name: 散点图、气泡图和点图
               href: ../visuals/power-bi-visualization-scatter.md
             - name: 使用高密度散点图
               href: ../visuals/desktop-high-density-scatter-charts.md
-            - name: 创建和使用形状地图视觉对象（预览版）
+            - name: 形状地图视觉对象（预览版）
               href: ../visuals/desktop-shape-map.md
-            - name: 创建和使用切片器
-              href: ../visuals/power-bi-visualization-slicers.md
-            - name: 创建和使用 Power BI 报表和仪表板中的表
+            - name: 报表和仪表板中的表格
               href: ../visuals/power-bi-visualization-tables.md
-            - name: 创建和使用树状图
+            - name: 树状图
               href: ../visuals/power-bi-visualization-treemaps.md
-            - name: 创建和使用瀑布图
+            - name: 瀑布图
               href: ../visuals/power-bi-visualization-waterfall-charts.md
         - name: 自然语言问答
           items:
@@ -301,17 +303,17 @@
               href: ../service-q-and-a-create-featured-questions.md
             - name: 结合使用问答和实时连接
               href: ../service-q-and-a-direct-query.md
-            - name: Power BI 中的 Quick Insights
+            - name: 快速见解
               href: ../service-insights.md
             - name: 针对快速见解优化数据
               href: ../service-insights-optimize.md
         - name: 辅助功能
           items:
-            - name: 设计可访问的 Power BI 报表
+            - name: 设计可访问的报表
               href: ../desktop-accessibility-creating-reports.md
-            - name: 使用辅助功能工具创建 Power BI 报表
+            - name: 使用辅助功能工具创建报表
               href: ../desktop-accessibility-creating-tools.md
-            - name: 通过辅助功能使用 Power BI 报表
+            - name: 通过辅助功能使用报表
               href: ../desktop-accessibility-consuming-tools.md
             - name: Power BI Desktop 中的键盘快捷方式
               href: ../desktop-accessibility-keyboard-shortcuts.md
@@ -351,7 +353,7 @@
               href: ../service-dashboard-pin-tile-from-q-and-a.md
             - name: 将整个报表页固定到仪表板
               href: ../service-dashboard-pin-live-tile-from-report.md
-            - name: Power BI 服务中的数据警报
+            - name: 服务中的数据警报
               href: ../service-set-data-alerts.md
             - name: 向仪表板添加图像、文本框、视频或代码
               href: ../service-dashboard-add-widget.md
@@ -369,9 +371,9 @@
               href: ../service-dashboard-themes.md
         - name: 其他任务
           items:
-            - name: 重命名 Power BI 中的内容
+            - name: 重命名内容
               href: ../service-rename.md
             - name: 设置项目联系人
               href: ../service-item-contact.md
-            - name: 在 Power BI 中删除几乎所有内容
+            - name: 删除几乎所有内容
               href: ../service-delete.md

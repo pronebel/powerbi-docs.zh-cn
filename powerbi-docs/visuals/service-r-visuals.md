@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 11/14/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 60432c110df7c20aa13969d70ed7c2a90d0ef575
-ms.sourcegitcommit: 2c798b97fdb02b4bf4e74cf05442a4b01dc5cbab
+ms.openlocfilehash: 9f9b0ec77d0273374d940332abd5d186c2604866
+ms.sourcegitcommit: e7fda395b47e404c61e961a60816b7a1b0182759
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/21/2020
-ms.locfileid: "80114833"
+ms.lasthandoff: 04/08/2020
+ms.locfileid: "80979813"
 ---
 # <a name="create-and-use-r-visuals-in-power-bi"></a>创建并使用 Power BI 中的 R 视觉对象
 R 视觉对象暂时只能在 **Power BI Desktop** 中创建，然后发布到 Power BI 服务。 要详细了解如何创建 R 视觉对象，请参阅[使用 R 创建 Power BI 视觉对象](../desktop-r-visuals.md)。
@@ -93,7 +93,8 @@ Power BI 服务中的 R 视觉对象有几个限制：
 * R 视觉对象在数据更新、筛选和突出显示时进行刷新。 但是，图像本身不可交互，并且不支持工具提示。
 * R 视觉对象响应突出显示的其他视觉对象，但你不能单击 R 视觉对象中的元素以进行其他元素的交叉筛选。
 * R 视觉对象目前不支持 *时间* 数据类型。 请改为使用日期/时间。
-* 使用“发布到 Web”  时，不会显示 R 视觉对象。
+* 使用“发布到 Web”时，不会显示 R 视觉对象  。
+* R 视觉对象不支持重命名输入列。 在脚本执行期间，将按列的原始名称对其进行引用。
 * R 视觉对象目前不会随仪表板和报表一起打印
 * Analysis Services 的 DirectQuery 模式目前不支持 R 视觉对象
 * R 视觉对象可以将文本标签转化为图形元素。 在 Power BI 服务中这样做需要执行一个额外步骤：

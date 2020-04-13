@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
-ms.date: 03/24/2020
+ms.date: 04/08/2020
 LocalizationGroup: Premium
-ms.openlocfilehash: d468ab70f47edcd5487b548596f4aea4080cd994
-ms.sourcegitcommit: 8267a7383d6506dae42f87e4f4a2362b875b2911
+ms.openlocfilehash: aa44f0c8c11cb26ecfc7763ec127ca8a8505536a
+ms.sourcegitcommit: e7fda395b47e404c61e961a60816b7a1b0182759
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/27/2020
-ms.locfileid: "80329634"
+ms.lasthandoff: 04/08/2020
+ms.locfileid: "80979905"
 ---
 # <a name="configure-workloads-in-a-premium-capacity"></a>在高级容量中配置工作负载
 
@@ -65,7 +65,7 @@ ms.locfileid: "80329634"
 | **最大内存(%)** | 数据集可在容量中使用的最大内存百分比。 |
 | **XMLA 终结点** | 指定来自客户端应用程序的连接采用工作区和应用级别设置的安全组成员身份。 有关详细信息，请参阅[使用客户端应用程序和工具连接到数据集](service-premium-connect-tools.md)。 |
 | 最大中间行设置计数  | DirectQuery 返回的最大中间行数。 默认值为 1000000，允许范围为 100000 - 2147483647。 |
-| 最大脱机数据集大小 (GB)  | 内存中脱机数据集的最大大小。 这是磁盘上的压缩大小。 默认值由 SKU 设置，允许范围为 0.1 – 10 GB。 |
+| 最大脱机数据集大小 (GB)  | 内存中脱机数据集的最大大小。 这是磁盘上的压缩大小。 默认值为 0，这是由 SKU 定义的最大限制。 允许的范围介于 0 和容量大小限制之间。 |
 | 最大结果行设置计数  | DAX 查询中返回的最大行数。 默认值为 -1（无限制），允许范围为 100000 - 2147483647。 |
 | 查询内存限制(%)  | 工作负载中可用于执行 MDX 或 DAX 查询的可用内存的最大百分比。 默认值为 0，这将导致应用特定于 SKU 的自动查询内存限制。 |
 | 查询超时值(秒)  | 查询超时前允许的最长时间。默认值为 3600 秒（1 小时）。 值为 0 时表示查询不会超时。 |
@@ -203,6 +203,9 @@ ms.locfileid: "80329634"
 ## <a name="monitoring-workloads"></a>监视工作负载
 
 [Power BI Premium 容量指标应用](service-admin-premium-monitor-capacity.md)提供数据集、数据流和分页报表指标，以监视为容量启用的工作负载。 
+
+> [!IMPORTANT]
+> 如果 Power BI Premium 容量遇到资源使用量过高的情况，从而导致性能或可靠性问题，可通过接收通知电子邮件来识别和解决问题。 有关详细信息，请参阅[容量和可靠性通知](service-interruption-notifications.md#capacity-and-reliability-notifications)。
 
 ## <a name="next-steps"></a>后续步骤
 

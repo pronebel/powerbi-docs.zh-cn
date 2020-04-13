@@ -2,18 +2,17 @@
 title: Power BI 应用配置设置
 description: 如何使用 MDM 工具自定义 Power BI 的行为
 author: paulinbar
-ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: conceptual
-ms.date: 03/07/2020
+ms.date: 04/05/2020
 ms.author: painbar
-ms.openlocfilehash: 1991381f8b2917fe3bc61a8be22fbdf44e706d71
-ms.sourcegitcommit: 7e845812874b3347bcf87ca642c66bed298b244a
+ms.openlocfilehash: ce147be4c23b738e1a09296a5d798fb0f94efe13
+ms.sourcegitcommit: 9b806dfe62c2dee82d971bb4f89d983b97931b43
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/13/2020
-ms.locfileid: "79205541"
+ms.lasthandoff: 04/07/2020
+ms.locfileid: "80802017"
 ---
 # <a name="remotely-configure-power-bi-app-using-mobile-device-management-mdm-tool"></a>使用移动设备管理 (MDM) 工具远程配置 Power BI 应用
 
@@ -22,7 +21,7 @@ ms.locfileid: "79205541"
 Power BI 移动版应用支持以下配置方案：
 
 * 报表服务器配置（iOS 和 Android）
-* 数据保护设置 (iOS)
+* 数据保护设置（iOS 和 Android）
 * 交互设置（iOS 和 Android）
 
 ## <a name="report-server-configuration-ios-and-android"></a>报表服务器配置（iOS 和 Android）
@@ -36,13 +35,16 @@ Power BI 移动版应用支持以下配置方案：
 | com.microsoft.powerbi.mobile.ServerDisplayName | 字符串 | [可选]<br><br>默认值为“报表服务器”<br><br>应用中用于表示服务器的易记名称。 |
 | com.microsoft.powerbi.mobile.OverrideServerDetails | 布尔 | [可选]<br><br>默认值为 True。 设置为 True 时，它会替代移动设备中已有的任何报表服务器定义。 已删除已配置的现有服务器。 将“替代”设置为 True 还可防止用户删除该配置。<br><br>设置为“False”将添加推送值，并保留任何现有设置。 如果已在移动应用中配置相同的服务器 URL，则应用将按原样保留该配置。 应用不会要求用户重新验证同一服务器。 |
 
-## <a name="data-protection-settings-ios"></a>数据保护设置 (iOS)
+## <a name="data-protection-settings-ios-and-android"></a>数据保护设置（iOS 和 Android）
 
-适用于 iOS 的 Power BI 应用使管理员能够自定义安全和隐私设置的默认配置。 可强制用户在访问 Power BI 应用时提供其 Face ID、Touch ID 或密码。
+适用于 iOS 和 Android 的 Power BI 移动应用使管理员能够自定义安全和隐私设置的默认配置。 对于 iOS，可强制用户在访问 Power BI 移动应用时提供其 Face ID、Touch ID 或密码。 对于 Android，可以强制用户使用生物识别身份验证（指纹 ID）。
 
 | 密钥 | 类型 | 说明 |
 |---|---|---|
-| com.microsoft.powerbi.mobile.ForceDeviceAuthentication | 布尔 | 默认值为 False。 <br><br>用户可能需要使用生物识别技术（例如 Touch ID 或 Face ID）来访问其设备上的应用。 需要时，除身份验证外还会使用生物识别技术。<br><br>如果使用应用保护策略，Microsoft 建议禁用此设置来防止双重访问提示。 |
+| com.microsoft.powerbi.mobile.ForceDeviceAuthentication | 布尔 | 默认值为 False。 <br><br>用户可能需要使用生物识别技术，例如 TouchID、FaceID (iOS) 或指纹 ID (Android)，来访问其设备上的应用。 需要时，除身份验证外还会使用生物识别技术。<br><br>如果使用应用保护策略，Microsoft 建议禁用此设置来防止双重访问提示。 |
+
+>[!NOTE]
+>将仅在支持生物识别身份验证的 Android 设备上应用数据保护设置。
 
 ## <a name="interaction-settings-ios-and-android"></a>交互设置（iOS 和 Android）
 

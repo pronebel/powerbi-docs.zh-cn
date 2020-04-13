@@ -8,12 +8,12 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 09/09/2019
 ms.author: v-pemyer
-ms.openlocfilehash: ba1909c5fc75abdf7338572c646d98fca83595b0
-ms.sourcegitcommit: 22991861c2b9454b170222591f64266335b9fcff
+ms.openlocfilehash: a2e53d27a8ca49e9fc318fd25cc20acbb7bacc38
+ms.sourcegitcommit: 34cca70ba84f37b48407d5d8a45c3f51fb95eb3c
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/12/2020
-ms.locfileid: "79133246"
+ms.lasthandoff: 04/06/2020
+ms.locfileid: "80751599"
 ---
 # <a name="understand-star-schema-and-the-importance-for-power-bi"></a>了解星型架构及其对 Power BI 的重要性
 
@@ -75,7 +75,7 @@ ms.locfileid: "79133246"
 
 - 如果你知道报表作者将使用[多维表达式 (MDX)](https://docs.microsoft.com/sql/analysis-services/multidimensional-models/mdx/mdx-query-the-basic-query?view=sql-server-2017) 查询模型，则该模型必须包含“显式度量值”  。 使用 DAX 定义显式度量值。 当使用 MDX 查询 Power-BI 数据集时，由于 MDX 无法实现列值的汇总，因此这种设计方法具有很高的相关性。 值得注意的是，执行[在 Excel 中分析](https://docs.microsoft.com/power-bi/service-analyze-in-excel)时使用的是 MDX，因为数据透视表发出 MDX 查询。
 - 如果你知道报表作者将使用 MDX 查询设计器创建 Power BI 分页报表，则该模型必定包含显式度量值。 只有 MDX 查询设计器支持[服务器聚合](/sql/reporting-services/report-design/report-builder-functions-aggregate-function)。 因此，如果报表作者需要通过 Power BI（而不是通过分页报表引擎）计算度量值，就必须使用 MDX 查询设计器。
-- 接下来我们讨论需要确保报表作者只能以特定方式对列进行汇总的情况。 例如经销商销售的“单位价格”列（表示每个单位的费率）可以汇总，但只能使用特定的聚合函数进行汇总  。 在汇总时，绝不采用求和的方式，但可以使用其他聚合函数（MIN、MAX、AVERAGE 等）。 在本例中，建模者可以隐藏“单位价格”列，并为所有适用的聚合函数创建度量值  。
+- 当需要确保报表作者只能以特定方式对列进行汇总的情况。 例如经销商销售的“单位价格”列（表示每个单位的费率）可以汇总，但只能使用特定的聚合函数进行汇总  。 在汇总时，绝不采用求和的方式，但可以使用其他聚合函数（如 MIN、MAX、AVERAGE 等）。在本例中，建模者可以隐藏“单位价格”列，并为所有适用的聚合函数创建度量值  。
 
 这种设计方法非常适用于在 Power BI 服务中创作的报表以及问答。 但是，Power BI Desktop 实时连接允许报表作者在“字段”窗格中显示隐藏的字段，这可能会绕过此设计方法  。
 
@@ -188,7 +188,7 @@ Power BI 模型应支持查询成员的历史数据（不受更改影响），�
 
 ![退化维度示例](media/star-schema/degenerate-dimension.png)
 
-有关详细信息，请参阅[一对一关系指南（退化维度）](relationships-one-to-one.md#degenerate-dimensions)。
+但是，如果 Adventure Works 经销商销售表有订单号和订单行号列，并且它们需要进行筛选，则采用退化维度表设计会是一个不错的选择  。 有关详细信息，请参阅[一对一关系指南（退化维度）](relationships-one-to-one.md#degenerate-dimensions)。
 
 ## <a name="factless-fact-tables"></a>无事实事实数据表
 
@@ -196,7 +196,7 @@ Power BI 模型应支持查询成员的历史数据（不受更改影响），�
 
 无事实事实数据表可以存储由维度键定义的观察值。 例如，在特定日期和时间，特定客户登录到你的网站。 你可以定义一个度量值以对无事实事实数据表中的行进行计数，从而对客户的登录时间和数量进行分析。
 
-无事实事实数据表的更有力的用途是存储维度之间的关系，并且我们建议使用此 Power BI 模型设计方法定义“多对多”维度关系。 在“多对多”维度关系设计中，无事实事实数据表称为桥接表  。
+无事实事实数据表的更有力的用途是存储维度之间的关系，并且我们建议使用此 Power BI 模型设计方法定义“多对多”维度关系。 在[“多对多”维度关系设计](relationships-many-to-many.md#relate-many-to-many-dimensions)中，无事实事实数据表称为_桥接表_。
 
 例如，假设销售人员可以分配到一个或多个销售区域  。 桥接表将被设计为包含两列的无事实事实数据表：销售人员键和区域键。 这两列中可以存储重复的值。
 

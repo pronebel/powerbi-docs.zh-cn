@@ -9,24 +9,18 @@ ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.custom: ''
 ms.date: 03/30/2020
-ms.openlocfilehash: 9ec08ebe583110b2775f107be0ace2a03929c72d
-ms.sourcegitcommit: 444f7fe5068841ede2a366d60c79dcc9420772d4
+ms.openlocfilehash: 7ae2752627e24c5de2feed372009061e523a3fc8
+ms.sourcegitcommit: 34cca70ba84f37b48407d5d8a45c3f51fb95eb3c
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/30/2020
-ms.locfileid: "80403483"
+ms.lasthandoff: 04/06/2020
+ms.locfileid: "80751633"
 ---
 # <a name="embedding-power-bi-content-with-service-principal-and-application-secret"></a>使用服务主体和应用程序密码嵌入 Power BI 内容
 
-服务主体是一种身份验证方法，可用于让 Azure AD 应用程序访问 Power BI 服务内容和 API。
+[!INCLUDE[service principal overview](../../includes/service-principal-overview.md)]
 
-在 Azure Active Directory (Azure AD) 应用程序创建后，[服务主体对象](https://docs.microsoft.com/azure/active-directory/develop/app-objects-and-service-principals#service-principal-object)也随之创建。 借助服务主体对象（亦称为“服务主体”  ），Azure AD 可以对应用程序进行身份验证。 经过身份验证后，应用程序可以访问 Azure AD 租户资源。
-
-为了进行身份验证，服务主体使用 Azure AD 应用程序的应用程序 ID  ，以及下列项之一：
-* 应用程序密码
-* 证书
-
-本文介绍了如何使用应用程序 ID  和应用程序密码  进行服务主体身份验证。 若要结合使用服务主体和证书进行身份验证，请参阅 [Power BI 基于证书的身份验证]()。
+本文介绍了如何使用应用程序 ID  和应用程序密码  进行服务主体身份验证。
 
 ## <a name="method"></a>方法
 
@@ -55,12 +49,12 @@ ms.locfileid: "80403483"
 ## <a name="step-1---create-an-azure-ad-app"></a>第 1 步 - 创建 Azure AD 应用程序
 
 使用下面的一种方法来创建 Azure AD 应用程序：
-* 在 [Microsoft Azure 门户](https://ms.portal.azure.com/#allservices)中创建应用程序
+* 在 [Microsoft Azure 门户](https://portal.azure.com/#allservices)中创建应用程序
 * 使用 [PowerShell](https://docs.microsoft.com/powershell/azure/create-azure-service-principal-azureps?view=azps-3.6.1) 创建应用程序。
 
 ### <a name="creating-an-azure-ad-app-in-the-microsoft-azure-portal"></a>在 Microsoft Azure 门户中创建 Azure AD 应用程序
 
-1. 登录 [Microsoft Azure](https://ms.portal.azure.com/#allservices)。
+1. 登录 [Microsoft Azure](https://portal.azure.com/#allservices)。
 
 2. 搜索“应用程序注册”  ，然后单击“应用程序注册”  链接。
 
@@ -72,7 +66,7 @@ ms.locfileid: "80403483"
 
 4. 填写所需信息：
     * **名称** - 输入应用程序名称
-    * **受支持的帐户类型** - 选择受支持的帐户类型
+    * **支持的帐户类型** - 选择所需的 Azure AD 帐户
     * （可选）**重定向 URI** - 视需要输入 URI
 
 5. 单击“注册”  。
@@ -205,5 +199,3 @@ Add-AzureADGroupMember -ObjectId $($group.ObjectId) -RefObjectId $($sp.ObjectId)
 * [适用于客户的 Power BI Embedded](embed-sample-for-customers.md)
 
 * [配合使用本地数据网关与服务主体的行级别安全性](embedded-row-level-security.md#on-premises-data-gateway-with-service-principal)
-
-* [使用服务主体和证书嵌入 Power BI 内容]()

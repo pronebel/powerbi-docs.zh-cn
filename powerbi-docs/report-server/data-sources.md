@@ -6,14 +6,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
-ms.date: 03/02/2020
+ms.date: 04/08/2020
 ms.author: maggies
-ms.openlocfilehash: 08eca8ecb9aa941c2670a801113bc711bff409b2
-ms.sourcegitcommit: d65da4738f011beec8f4423085cbd483511cdfb0
+ms.openlocfilehash: 166f72a717c99457e1d6b8e9a1f30535a9b4686f
+ms.sourcegitcommit: e7fda395b47e404c61e961a60816b7a1b0182759
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/03/2020
-ms.locfileid: "78237514"
+ms.lasthandoff: 04/08/2020
+ms.locfileid: "80979836"
 ---
 # <a name="power-bi-report-data-sources-in-power-bi-report-server"></a>Power BI 报表服务器中 Power BI 报表数据源
 Power BI 报表可以连接到多个数据源。 根据数据使用方式，可以提供不同的数据源。 可以导入数据，或者可以直接使用 DirectQuery 或与 SQL Server Analysis Services 的实时连接查询数据。
@@ -156,7 +156,7 @@ Power BI 报表服务器不支持将基于 OAuth 的身份验证用于模型刷�
 | SharePoint Online 列表 |否 |否 |否 |否 |
 | Snowflake |否 |否 |否 |否 |
 | Sybase 数据库 |否 |否 |是 |是 |
-| Teradata |否 |否 |是 |是 |
+| Teradata |否 |否 |是 |是** |
 | appFigures (Beta) |否 |否 |否 |否 |
 | Azure Analysis Services 数据库 (Beta) |否 |否 |否 |否 |
 | Azure Cosmos DB (Beta) |否 |否 |否 |否 |
@@ -189,6 +189,8 @@ Power BI 报表服务器不支持将基于 OAuth 的身份验证用于模型刷�
 | Visual Studio Team Services (Beta) |否 |否 |否 |否 |
 | Webtrends (Beta) |否 |否 |否 |否 |
 | Zendesk (Beta) |否 |否 |否 |否 |
+
+**模型刷新不支持配合使用 LDAP 身份验证与 Teradata（通过使用命令提示命令“setx PBI_EnableTeradataLdap true”在 Power BI Desktop 中启用）。
 
 ## <a name="list-of-supported-authentication-methods-for-directquery"></a>用于 DirectQuery 的受支持的身份验证方法列表
 

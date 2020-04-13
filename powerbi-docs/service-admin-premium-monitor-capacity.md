@@ -7,20 +7,23 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
-ms.date: 05/31/2019
+ms.date: 04/06/2020
 LocalizationGroup: Premium
-ms.openlocfilehash: a61288c9792d562e9a5efecd43d879d6df6d1782
-ms.sourcegitcommit: f77b24a8a588605f005c9bb1fdad864955885718
+ms.openlocfilehash: 268aa73506be5cc025645672f402b88646497b1c
+ms.sourcegitcommit: 2b93c1cc29aaf199ab7441a04c8e5ae49ffca5d6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/02/2019
-ms.locfileid: "74698868"
+ms.lasthandoff: 04/07/2020
+ms.locfileid: "80813066"
 ---
 # <a name="monitor-premium-capacities-with-the-app"></a>使用应用监视高级容量
 
 监视容量对于正确决定如何充分利用高级容量资源至关重要。 可以在管理门户中或使用 Power BI Premium Capacity Metrics 应用监视容量  。 本文介绍如何使用 Premium Capacity Metrics 应用。 应用提供有关容量性能的深度信息。 有关过去七天内平均使用量指标的更高级别概述，可以使用管理门户。 要了解在门户中监视的详细信息，请参阅[在管理门户中监视高级容量](service-admin-premium-monitor-portal.md)。
 
 应用定期更新新特性和新功能。 请确保正在运行最新版本。 如果已安装上个版本，则最好将其从应用中删除，然后按 Ctrl+F5 进行刷新。
+
+> [!IMPORTANT]
+> 如果 Power BI Premium 容量遇到资源使用量过高的情况，从而导致性能或可靠性问题，可通过接收通知电子邮件来识别和解决问题。 这可以充当一种用于排查重载容量的简化方法。 有关详细信息，请参阅[容量和可靠性通知](service-interruption-notifications.md#capacity-and-reliability-notifications)。
 
 ## <a name="install-the-app"></a>安装应用
 

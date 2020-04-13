@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 11/04/2019
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 729a50e251a9c2ae083375e187ff133022f3ce91
-ms.sourcegitcommit: 2c798b97fdb02b4bf4e74cf05442a4b01dc5cbab
+ms.openlocfilehash: 061a2a99ad4cc812aac0d66ec4993001187179a0
+ms.sourcegitcommit: e7fda395b47e404c61e961a60816b7a1b0182759
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/21/2020
-ms.locfileid: "80114856"
+ms.lasthandoff: 04/08/2020
+ms.locfileid: "80979882"
 ---
 # <a name="create-power-bi-visuals-using-r"></a>使用 R 创建 Power BI 视觉对象
 借助 Power BI Desktop，可以使用 R 将数据可视化  。 [R](https://mran.revolutionanalytics.com/documents/what-is-r) 是用于统计计算和图形的一种语言和环境。
@@ -142,6 +142,8 @@ Power BI Desktop 中的 R 视觉对象有以下限制：
 * 突出显示：如果突出显示其他视觉对象，但你不能选择 R 视觉对象中的元素以进行其他元素的交叉筛选，R 视觉对象会进行响应。
 
 * 显示设备：只有绘制到 R 默认显示设备的绘图会正确地显示在画布上。 避免显式使用不同的 R 显示设备。
+
+* 列重命名：R 视觉对象不支持重命名输入列。 在脚本执行期间，将按列的原始名称对其进行引用。
 
 * RRO 安装：在此版本中，32 位版本的 Power BI Desktop 不会自动标识 RRO 安装；必须在“选项和设置” > “选项” > “R 脚本”中手动提供 R 安装目录的路径    。
 

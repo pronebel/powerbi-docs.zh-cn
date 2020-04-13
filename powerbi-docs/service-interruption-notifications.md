@@ -6,14 +6,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 09/16/2019
+ms.date: 04/06/2020
 ms.author: kfollis
-ms.openlocfilehash: cb117cb325255f63a0c5d21eddc01e9806358f7f
-ms.sourcegitcommit: f77b24a8a588605f005c9bb1fdad864955885718
+ms.openlocfilehash: 984991d8640df04c19b6461f5f0faaf0a50fe4ed
+ms.sourcegitcommit: 2b93c1cc29aaf199ab7441a04c8e5ae49ffca5d6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/02/2019
-ms.locfileid: "74697235"
+ms.lasthandoff: 04/07/2020
+ms.locfileid: "80812952"
 ---
 # <a name="service-interruption-notifications"></a>服务中断通知
 
@@ -31,6 +31,28 @@ ms.locfileid: "74697235"
 
 > [!NOTE]
 > 此功能目前仅适用于 Power BI Premium 中的专用容量。 不适用于共享容量或嵌入容量。
+
+## <a name="capacity-and-reliability-notifications"></a>容量和可靠性通知
+
+如果 Power BI Premium 容量长期存在资源使用量较高的情况，进而可能影响可靠性时，系统会接收到通知电子邮件。 此类影响的示例包括操作中长时间的延迟，例如在打开报表、刷新数据集和执行查询的时候。 
+
+通知电子邮件提供有关资源使用量高的原因的信息，包括：
+
+* 相关数据集的数据集 ID
+* 操作类型
+* 与高资源使用量相关的 CPU 时间
+
+当 Power BI 检测到 Power BI Premium 容量存在重载时，也会发送电子邮件通知。 电子邮件会说明重载的可能原因、过去 10 分钟内产生负载的操作以及每个操作生成的负载量。 
+
+如果有多个 Premium 容量，则电子邮件会包含重载期间所有这些容量的信息，以便你可以考虑将包含资源密集型项目的工作区移动到负载最少的容量。
+
+仅当触发重载阈值时，才会发送重载电子邮件通知。 当 Premium 容量上的负载恢复为非重载水平后，就不会再收到相关电子邮件。
+
+下图显示了通知电子邮件的示例：
+
+
+![重载容量通知电子邮件](media/service-interruption-notifications/refresh-notification-email-2.png)
+
 
 ## <a name="enable-notifications"></a>启用通知
 

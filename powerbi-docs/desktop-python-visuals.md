@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 01/15/2020
+ms.date: 04/03/2020
 ms.author: otarb
 LocalizationGroup: Create reports
-ms.openlocfilehash: c5105d038480bbee3e534574add91203f54e3119
-ms.sourcegitcommit: 032a77f2367ca937f45e7e751997d7b7d0e89ee2
+ms.openlocfilehash: 72c285fd57af21fcb3d1a4568a5ff2e83016072f
+ms.sourcegitcommit: e7fda395b47e404c61e961a60816b7a1b0182759
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/26/2020
-ms.locfileid: "77609828"
+ms.lasthandoff: 04/08/2020
+ms.locfileid: "80979859"
 ---
 # <a name="create-power-bi-visuals-by-using-python"></a>使用 Python 创建 Power BI 视觉对象
 
@@ -155,9 +155,9 @@ plt.show()
 > **Python 脚本安全性：** Python 视觉对象是基于 Python 脚本创建的，这可能包含具有安全风险或隐私风险的代码。 当尝试查看 Python 视觉对象或首次与其交互时，用户会看到一条安全警告消息。 仅当你信任作者和来源，或者在查看并了解 Python 脚本之后，才启用 Python 视觉对象。
 >  
 
-## <a name="more-information-about-plotting-with-matprolib-pandas-and-python"></a>有关使用 Matprolib、Pandas 和 Python 绘图的详细信息
+## <a name="more-information-about-plotting-with-matplotlib-pandas-and-python"></a>有关使用 Matplotlib、Pandas 和 Python 绘图的详细信息
 
-本教程旨在帮助用户开始在 Power BI Desktop 中使用 Python 创建视觉对象。 它仅仅浅显地介绍了使用 Python、Pandas 和 Matprolib 库创建视觉对象报表的多种选项和功能。 下面提供了很多详细的信息，以及一些入门介绍链接。
+本教程旨在帮助用户开始在 Power BI Desktop 中使用 Python 创建视觉对象。 它仅仅浅显地介绍了使用 Python、Pandas 和 Matplotlib 库创建视觉对象报表的多种选项和功能。 下面提供了很多详细的信息，以及一些入门介绍链接。
 
 - [Matplotlib](https://matplotlib.org/) 网站上的文档。 
 - [Matplotlib 教程：使用 Matplotlib 和 Python 的基本指南](https://www.datasciencelearner.com/matplotlib-tutorial-complete-guide-to-use-matplotlib-with-python/) 
@@ -177,6 +177,7 @@ Power BI Desktop 中的 Python 视觉对象有一些限制：
 - Python 视觉对象在数据更新、筛选和突出显示时进行刷新。 但是，图像本身不是交互的并且不能为交叉筛选的源。
 - Python 视觉对象响应突出显示的其他视觉对象，但你不能单击 Python 视觉对象中的元素以进行其他元素的交叉筛选。
 - 只有绘制到 Python 默认显示设备的绘图会正确地显示在画布上。 避免显式使用不同的 Python 显示设备。
+- Python 视觉对象不支持对输入列进行重命名。 在脚本执行期间，将按列的原始名称对其进行引用。
 
 ## <a name="next-steps"></a>后续步骤
 
