@@ -271,7 +271,7 @@ Power BI 进行这些设置的原因在于，对于 Power BI Desktop 而言，�
 
  ![交叉筛选方向](media/desktop-create-and-manage-relationships/candmrel_repcrossfiltersingle.png)
 
-筛选器规范将从“CompanyProject”流向“CompanyEmployee”（如下图所示），但不会抵达“CompanyEmployee”    。 
+筛选器规范将从“CompanyProject”流向“ProjectHours”（如下图所示），但不会抵达“CompanyEmployee”    。 
 
  ![交叉筛选示例](media/desktop-create-and-manage-relationships/candmrel_singledircrossfiltering.png)
 

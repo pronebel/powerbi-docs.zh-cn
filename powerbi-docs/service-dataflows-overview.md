@@ -26,7 +26,7 @@ Power BI 引入数据流  ，以帮助组织统一来自不同来源的数据并
 
 数据作为实体存储在 Azure Data Lake Storage Gen2 中的[通用数据模型  ](https://docs.microsoft.com/powerapps/common-data-model/overview)中。 使用 Power BI 服务在工作区中创建和管理数据流。  
  
-数据流  设计为使用通用数据模型  ，该模式是 Microsoft 发布的标准化数据架构集合，它采用模块化结构，可进行扩展，旨在简化生成、使用和分析数据的过程。 使用此模型，用户可以不费摧毁之力将数据源导入到 Power BI 仪表板。
+数据流  设计为使用通用数据模型  ，该模式是 Microsoft 发布的标准化数据架构集合，它采用模块化结构，可进行扩展，旨在简化生成、使用和分析数据的过程。 使用此模型，用户可以不费吹灰之力将数据源导入到 Power BI 仪表板。
 
 用户可以使用数据流从大型且不断增长的受支持的本地和基于云的数据源（包括 Dynamics 365、Salesforce、Azure SQL 数据库、Excel、SharePoint 等）中引入数据。
 
