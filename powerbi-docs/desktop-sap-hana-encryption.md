@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 07/26/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: ae57579c88924d4c34ec2c2a1d4aed5238dce64b
-ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
+ms.openlocfilehash: 364736ae8f4cf800c9c63282feb07f8e081aeb42
+ms.sourcegitcommit: 915cb7d8088deb0d9d86f3b15dfb4f6f5b1b869c
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/06/2020
-ms.locfileid: "74695832"
+ms.lasthandoff: 04/10/2020
+ms.locfileid: "81006655"
 ---
 # <a name="enable-encryption-for-sap-hana"></a>启用 SAP HANA 加密
 
@@ -92,7 +92,7 @@ ms.locfileid: "74695832"
     openssl x509 -outform der -in your-cert.pem -out your-cert.crt
     ```
     
-    有关使用 OpenSSL 进行转换的信息，请参阅 [OpenSSL 文档](https://www.openssl.org/docs/manmaster/man1/x509.html)。
+    有关使用 OpenSSL 进行转换的信息，请参阅 [OpenSSL 文档](https://www.openssl.org/docs/man1.0.2/man3/x509.html)。
 
 ## <a name="test-the-connection"></a>测试连接
 

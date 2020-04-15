@@ -96,7 +96,7 @@ Microsoft 建议企业购买 Power BI Premium，这是一款企业级自助式�
 
 可以使用 PBI 门户查找 PBI 租户区域。
 
-[https://app.powerbi.com/](`https://app.powerbi.com/`) > ? > 关于 Power BI
+`https://app.powerbi.com/` > ? > 关于 Power BI
 
 ![关于 Power BI](media/embedded-faq/about-01.png)
 ![租户区域](media/embedded-faq/tenant-location-01.png)

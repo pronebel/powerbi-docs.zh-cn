@@ -9,12 +9,12 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 02/15/2020
 ms.author: v-pemyer
-ms.openlocfilehash: fbd0915eebca6024c6545b84b49c6d2a23744552
-ms.sourcegitcommit: d65da4738f011beec8f4423085cbd483511cdfb0
+ms.openlocfilehash: 8f2698d37c306451ccd73f2b1dd3017933077a0c
+ms.sourcegitcommit: 915cb7d8088deb0d9d86f3b15dfb4f6f5b1b869c
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/03/2020
-ms.locfileid: "78237997"
+ms.lasthandoff: 04/10/2020
+ms.locfileid: "81006471"
 ---
 # <a name="tips-to-optimize-visual-colors-in-power-bi-reports"></a>优化 Power BI 报表中视觉对象颜色的提示与技巧
 
@@ -22,7 +22,7 @@ ms.locfileid: "78237997"
 
 请观看视频，其中演示了优化 Power BI 报表中视觉对象颜色的八大提示与技巧。
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/RhYcEsdPqJg" frameborder="0" allowfullscreen></iframe>
+> [!VIDEO https://www.youtube.com/embed/RhYcEsdPqJg]
 
 ## <a name="tips"></a>提示
 

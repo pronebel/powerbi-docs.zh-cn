@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 10/25/2019
 ms.author: painbar
 LocalizationGroup: Data from files
-ms.openlocfilehash: ea4e8da2e821483fc567a3038c6133c60992e593
-ms.sourcegitcommit: 02342150eeab52b13a37b7725900eaf84de912bc
+ms.openlocfilehash: ab171f81224c3c6cf90070bf221e6b93285d8caa
+ms.sourcegitcommit: 915cb7d8088deb0d9d86f3b15dfb4f6f5b1b869c
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/23/2020
-ms.locfileid: "76538419"
+ms.lasthandoff: 04/10/2020
+ms.locfileid: "81006402"
 ---
 # <a name="apply-data-sensitivity-labels-in-power-bi-preview"></a>在 Power BI（预览版）中应用数据敏感度标签
 
@@ -79,7 +79,7 @@ ms.locfileid: "76538419"
 * Power BI 资产上的敏感度标签仅在工作区列表和世系视图中可见。目前标签在收藏夹、与我共享、最近或应用视图中不可见。 但请注意，应用于 Power BI 资产的标签（即使不可见）将始终保留在导出到 Excel、PowerPoint 和 PDF 文件中的数据上。
 * 在 [Microsoft 365 安全中心](https://security.microsoft.com/)或 [Microsoft 365 合规中心](https://compliance.microsoft.com/)中配置的敏感度标签“文件加密设置”仅适用于从 Power BI 导出的文件。该标签不会在 Power BI 中强制实施    。
 * 在 Power BI 中应用的标签不支持 [HYOK 保护](https://docs.microsoft.com/azure/information-protection/configure-adrms-restrictions)。
-* 要在 Office 应用中查看和应用标签，需满足[许可要求](https://docs.microsoft.com/microsoft-365/compliance/sensitivity-labels-office-apps#subscription-and-licensing-requirements-for-sensitivity-labels)。
+* 要在 Office 应用中查看和应用标签，需满足[许可要求](https://docs.microsoft.com/microsoft-365/compliance/get-started-with-sensitivity-labels#subscription-and-licensing-requirements-for-sensitivity-labels)。
 * 仅全球（公有）云中的租户支持敏感度标签。 其他云中的租户不支持敏感度标签。
 * [外部用户（Azure Active Directory B2B 来宾用户）](../service-admin-azure-ad-b2b.md)不支持敏感度标签。 这表示外部用户无法查看标签，并且将被阻止将数据导出到 Excel、PDF 和 PPTX 文件中。 [删除标签](#removing-sensitivity-labels)，使外部用户可以将数据导出到这些文件类型。
 
