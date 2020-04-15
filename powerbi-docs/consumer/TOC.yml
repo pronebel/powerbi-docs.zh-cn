@@ -18,12 +18,14 @@
           href: end-user-experience.md
         - name: 使用主登陆页面查找页面
           href: end-user-home.md
-        - name: 了解如何通过自然语言进行提问
-          href: end-user-q-and-a.md
+        - name: 可供使用者使用的功能列表
+          href: end-user-features.md
         - name: 首次登录
           href: end-user-sign-in.md
         - name: 我拥有哪个 Power BI 许可证？
           href: end-user-license.md
+        - name: 了解如何通过自然语言进行提问
+          href: end-user-q-and-a.md
         - name: 导航“全新外观”
           href: ../service-new-look.md
         - name: “全新外观”：操作位于何处？
@@ -60,6 +62,8 @@
               href: end-user-report-filter.md
             - name: 了解报表视觉对象如何彼此交叉筛选
               href: end-user-interactions.md
+            - name: 与报表切片器交互
+              href: end-user-slicer.md
             - name: 将报表导出为 PDF
               href: end-user-pdf.md
             - name: 将报表导出为 PowerPoint

@@ -1,0 +1,21 @@
+- name: 学习目录
+  href: index.yml
+  items:
+    - name: 业务决策者
+      href: learning-catalog-bdm.md
+    - name: 使用者
+      href: learning-catalog-consumer.md
+    - name: 报表创建者
+      href: learning-catalog-report-creator.md
+    - name: 数据分析师
+      href: learning-catalog-data-analyst.md
+    - name: 管理员
+      href: learning-catalog-administrator.md
+    - name: 开发人员
+      href: learning-catalog-developer.md
+    - name: 合作伙伴售前角色
+      href: learning-catalog-presales.md
+    - name: 职能顾问
+      href: learning-catalog-functional-consultant.md
+    - name: 解决方案架构师
+      href: learning-catalog-solution-architect.md

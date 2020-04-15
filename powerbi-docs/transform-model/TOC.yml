@@ -81,7 +81,9 @@
           items:
             - name: 创建和使用数据流
               href: ../service-dataflows-create-use.md
-            - name: 将增强的计算引擎与数据流配合使用
+            - name: 提升或认证数据流
+              href: service-dataflows-promote-certify.md
+            - name: 将增强的计算引擎用于数据流
               href: ../service-dataflows-enhanced-compute-engine.md
             - name: Power BI Premium 计算实体
               href: ../service-dataflows-computed-entities-premium.md
