@@ -64,6 +64,8 @@
               href: dax-avoid-avoid-filter-as-filter-argument.md
         - name: Power BI 报表
           items:
+            - name: 分隔模型中的报表
+              href: report-separate-from-model.md
             - name: 用报表页工具提示扩展视觉对象
               href: report-page-tooltips.md
             - name: 使用报表页钻取

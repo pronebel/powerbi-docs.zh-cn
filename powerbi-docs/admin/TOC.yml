@@ -16,14 +16,24 @@
       items:
         - name: Microsoft 365 中的管理角色
           href: ../service-admin-role.md
+        - name: 为组织授权
+          href: ../service-admin-licensing-organization.md
+        - name: Power BI for US Government
+          items:
+            - name: Power BI for US Government
+              href: ../service-govus-overview.md
+            - name: 注册美国政府组织
+              href: ../service-govus-signup.md
+        - name: 区域云中的 Power BI
+          items:
+            - name: 迁移到 Go Local 德国区域
+              href: service-admin-migrate-data-germany.md
+            - name: 针对德国云客户的常见问题解答
+              href: ../service-govde-faq.md
         - name: 常见问题解答 (FAQ)
           href: ../service-admin-faq.md
         - name: 高可用性和故障转移的常见问题解答
           href: ../service-admin-failover.md
-        - name: 迁移到 Go Local 德国区域
-          href: service-admin-migrate-data-germany.md
-        - name: 针对德国云客户的常见问题解答
-          href: ../service-govde-faq.md
         - name: Power BI Premium
           items:
             - name: 管理高级容量
@@ -38,14 +48,14 @@
       items:
         - name: 授权和注册
           items:
-            - name: 为组织授权
-              href: ../service-admin-licensing-organization.md
+            - name: 为组织获取 Power BI
+              href: service-admin-org-subscription.md
             - name: 购买 Power BI Pro
               href: ../service-admin-purchasing-power-bi-pro.md
-            - name: Power BI for US Government
-              href: ../service-govus-overview.md
-            - name: 注册美国政府组织
-              href: ../service-govus-signup.md
+            - name: 禁用自助注册
+              href: service-admin-disable-self-service.md
+            - name: 查看和管理用户许可证
+              href: service-admin-manage-licenses.md
             - name: 注册 Microsoft 365 试用版
               href: ../service-admin-signing-up-for-power-bi-with-a-new-office-365-trial.md
             - name: 使用 Microsoft 365 合作伙伴版添加 Power BI
