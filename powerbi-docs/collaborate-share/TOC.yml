@@ -23,6 +23,8 @@
           items:
             - name: 创建新工作区
               href: ../service-create-the-new-workspaces.md
+            - name: 选择对工作区使用新外观
+              href: service-workspaces-new-look.md
             - name: 升级经典工作区
               href: ../designer/service-upgrade-workspaces.md
             - name: 创建工作区
@@ -65,8 +67,6 @@
               href: ../service-publish-to-web.md
             - name: 共享连接到 OneDrive 上 Excel 工作簿的仪表板
               href: ../service-share-dashboard-that-links-to-excel-onedrive.md
-            - name: Power BI Publisher for Excel
-              href: ../publisher-for-excel.md
         - name: 扩展 Power BI
           items:
             - name: 在 Excel 中分析
