@@ -9,12 +9,12 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 11/09/2019
 ms.author: v-pemyer
-ms.openlocfilehash: be8716cebb091dafcc927b4bd1ecd0942ad88b47
-ms.sourcegitcommit: 7e845812874b3347bcf87ca642c66bed298b244a
+ms.openlocfilehash: cd2086facbeb581a4418a3358a79cca0e80140ff
+ms.sourcegitcommit: 81407c9ccadfa84837e07861876dff65d21667c7
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/13/2020
-ms.locfileid: "79208048"
+ms.lasthandoff: 04/13/2020
+ms.locfileid: "81267333"
 ---
 # <a name="dataset-modes-in-the-power-bi-service"></a>Power BI 服务中的数据集模式
 
@@ -77,19 +77,10 @@ DirectQuery 模型有一些优点：
 - 可以使用[自动页刷新](desktop-automatic-page-refresh.md)功能来开发实时报表
 - 如果仪表板磁贴基于 DirectQuery 模型，则可以每 15 分钟自动更新一次
 
-但是，DirectQuery 模型也有许多缺点和限制：
+但是，DirectQuery 模型也有许多限制：
 
-- 模型必须基于单个受支持的数据源。 这就是数据源中必须已经实现任何数据集成的原因。 支持的数据源是关系和分析系统，且支持许多常用的数据存储。
-
-    > [!TIP]
-    > 支持许多 Microsoft 数据源。 Microsoft 数据源包括 SQL Server、Azure 数据块、Azure HDInsight Spark（Beta 版本）、Azure SQL 数据库和 Azure SQL 数据仓库。 有关详细信息，请参阅 [Power BI 中 Direct Query 支持的数据源](desktop-directquery-data-sources.md)一文。
-
-- 性能可能很慢，可能会对 Power BI 服务造成负面影响。 出现此问题的原因可能是，对 Power BI 服务的某些查询属于 CPU 密集型。 这也可能是因为数据源未针对 Power BI 发送的查询进行优化。
-- Power Query 查询必须可折叠。 此要求意味着 Power Query 逻辑不能太复杂。 此外，必须将逻辑限制为使用 M 表达式和函数，这些表达式和函数可转置为数据源所理解的本机查询。
-- 对 DAX 公式进行限制，只使用可转置为数据源所理解的本机查询的函数。 此外，也不支持计算表或 DAX 时间智能函数。
-- 需要检索超过一百万行的模型查询将会失败
-- 具有多个视觉对象的报表和仪表板可能显示不一致的结果（尤其是当数据源可变时）
-- 不支持 Q&A 和快速见解功能
+- 对 DAX 公式进行限制，只使用可转置为数据源所理解的本机查询的函数。 不支持计算表。
+- 不支持问答和快速见解功能
 
 从 Power BI 服务资源的角度来看，DirectQuery 模型需要：
 

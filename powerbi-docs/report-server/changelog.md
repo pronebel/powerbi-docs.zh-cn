@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 04/08/2020
-ms.openlocfilehash: ff63e38e52a3c8970edfa5b6d9e2ccabeff2e16a
-ms.sourcegitcommit: e7fda395b47e404c61e961a60816b7a1b0182759
+ms.openlocfilehash: abe0b97a4c4f593f8bb22be8b72c12295d0f656c
+ms.sourcegitcommit: 915cb7d8088deb0d9d86f3b15dfb4f6f5b1b869c
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/08/2020
-ms.locfileid: "80979790"
+ms.lasthandoff: 04/10/2020
+ms.locfileid: "81006448"
 ---
 # <a name="change-log-for-power-bi-report-server"></a>Power BI 报表服务器的更改日志
 
@@ -29,7 +29,7 @@ ms.locfileid: "80979790"
            -  修复了以下问题：对于某些数据源，Power BI 报表无法上传
            -  修复了门户中的 Power BI 报表服务器桌面链接下载位置
            -  修复了用于 Excel 呈现的 DynamicImageDPI
-           -  修复了以下问题：在某些多用户方案中，Oracle 连接使用不正确的线程区域性（有关详细信息，请参阅 [UseInstalledUICulture 文档] (https://docs.microsoft.com/power-bi/report-server/connect-data-sources) ）
+           -  修复了以下问题：在某些多用户方案中，Oracle 连接使用不正确的线程区域性（有关详细信息，请参阅 [UseInstalledUICulture 文档](https://docs.microsoft.com/power-bi/report-server/connect-data-sources)）
            -  修复了以下问题：CustomHeaders 默认值导致报表嵌入失败
            -  修复了以下问题：在某些情况下，生成的 SQL 参数名称不正确
     - *版本：1.6.7327.3007（内部版本 15.0.1102.759），发布日期：2020 年 1 月 23 日*

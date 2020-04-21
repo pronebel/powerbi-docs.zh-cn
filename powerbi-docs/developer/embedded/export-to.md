@@ -7,36 +7,36 @@ ms.topic: conceptual
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.date: 03/24/2020
-ms.openlocfilehash: 35b5c5f05a9c0ae5a36875671a919df12843e295
-ms.sourcegitcommit: ad638d553d5f7f5831587791ffa7aa37a47dd6ae
+ms.openlocfilehash: 472797cf30d6b88a59af5b3846e9b710bf4607c7
+ms.sourcegitcommit: 81407c9ccadfa84837e07861876dff65d21667c7
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/26/2020
-ms.locfileid: "80273285"
+ms.lasthandoff: 04/13/2020
+ms.locfileid: "81267494"
 ---
 # <a name="export-power-bi-report-to-file-preview"></a>将 Power BI 报表导出到文件（预览）
 
 使用 `exportToFile` API，可通过 REST 调用来导出 Power BI 报表。 支持以下文件格式：
-* **PPTX** (PowerPoint)
-* **PDF**
-* **PNG**
-    * 导出为 PNG 时，包含多个报表页的报表会压缩为 zip 文件
-    * PNG zip 中的每个文件都代表一个报表页
+* **.pptx** (PowerPoint)
+* **.pdf**
+* **.png**
+    * 导出为 .png 时，包含多个报表页的报表会压缩为 zip 文件
+    * .zip 中的每个文件都代表一个报表页
     * 报表页名称与 [Get Pages](https://docs.microsoft.com/rest/api/power-bi/reports/getpages) 或 [Get Pages in Group](https://docs.microsoft.com/rest/api/power-bi/reports/getpagesingroup) API 返回的值相同
 
 ## <a name="usage-examples"></a>用法示例
 
 可以多种方式使用导出功能。 下面是几个示例：
 
-* **“发送到打印程序”按钮** - 在应用中创建一个按钮；如果有人单击此按钮，就会触发导出作业。 此作业可以将查看后的报表导出为 PDF 或 PPTX；完成后，用户可以下载文件。 使用书签，可以导出处于特定状态（包括应用配置的筛选器、切片器和其他设置）的报表。 由于此 API 是异步的，因此可能需要一段时间才能获取文件。
+* **“发送到打印程序”按钮** - 在应用中创建一个按钮；如果有人单击此按钮，就会触发导出作业。 此作业可以将查看后的报表导出为 .pdf 或 .pptx；完成后，用户可以下载文件。 使用书签，可以导出处于特定状态（包括应用配置的筛选器、切片器和其他设置）的报表。 由于此 API 是异步的，因此可能需要一段时间才能获取文件。
 
-* **电子邮件附件** - 每隔一段时间自动发送包含 PDF 报表附件的电子邮件。 如果需要自动向主管发送每周报表，就会发现此方案非常有用。
+* **电子邮件附件** - 每隔一段时间自动发送包含 .pdf 报表附件的电子邮件。 如果需要自动向主管发送每周报表，就会发现此方案非常有用。
 
 ## <a name="using-the-api"></a>使用 API
 
 使用此 API 前，请先验证是否已启用以下[管理员租户设置](../../service-admin-portal.md#tenant-settings)：
 * **将报表导出为 PowerPoint 演示文稿或 PDF 文档** - 默认处于启用状态。
-* **将报表导出为图像文件** - 只有导出为 PNG 才需要启用，默认处于禁用状态。
+* **将报表导出为图像文件** - 只有导出为 .png 才需要启用，默认处于禁用状态  。
 
 此 API 是异步的。 调用后，[exportToFile](https://docs.microsoft.com/rest/api/power-bi/reports/exporttofile) API 会触发导出作业。 在导出作业触发后，使用[轮询](https://docs.microsoft.com/rest/api/power-bi/reports/getexporttofilestatus)来跟踪此作业，直到它完成。
 
@@ -73,9 +73,9 @@ ms.locfileid: "80273285"
 
 ### <a name="data-protection"></a>数据保护
 
-PDF 和 PPTX 格式支持[敏感度标签](../../admin/service-security-data-protection-overview.md#sensitivity-labels-in-power-bi)。 如果你将包含敏感度标签的报表导出为 PDF 或 PPTX，导出的文件会显示包含其敏感度标签的报表。
+.pdf 和 .pptx 格式支持[敏感度标签](../../admin/service-security-data-protection-overview.md#sensitivity-labels-in-power-bi)。 如果将包含敏感度标签的报表导出为 .pdf 或 .pptx，导出的文件会显示包含其敏感度标签的报表。
 
-无法使用[服务主体](embed-service-principal.md)将具有敏感度标签的报表导出到 PDF 或 PPTX。
+无法使用[服务主体](embed-service-principal.md)将具有敏感度标签的报表导出到 .pdf 或 .pptx。
 
 ### <a name="localization"></a>本地化
 
@@ -102,8 +102,8 @@ PDF 和 PPTX 格式支持[敏感度标签](../../admin/service-security-data-pro
 * 要导出的数据集必须驻留在高级容量或嵌入式容量中。
 * 对于公共预览版，每小时导出的 Power BI 报表页数限制为每个容量 50 张。
 * 导出的报表的文件大小不得超过 250MB。
-* 导出为 PNG 时，不支持敏感度标签。
-* 无法使用[服务主体](embed-service-principal.md)将具有敏感度标签的报表导出到 PDF 或 PPTX。
+* 导出为 .png 时，不支持敏感度标签。
+* 无法使用[服务主体](embed-service-principal.md)将具有敏感度标签的报表导出到 .pdf 或 .pptx。
 * 导出的报表中可包含 30 个报表页。 如果报表包含更多报表页，此 API 会返回错误，导出作业也会遭取消。
 * 不支持导出使用[个人书签](../../consumer/end-user-bookmarks.md#personal-bookmarks)和[永久性筛选器](https://powerbi.microsoft.com/blog/announcing-persistent-filters-in-the-service/)的报表。
 * 不支持导出包含下列 Power BI 视觉对象的报表。 如果你导出包含这些视觉对象的报表，包含这些视觉对象的报表部分将不会呈现，并会显示错误符号。
@@ -263,6 +263,9 @@ private async Task<ExportedFile> ExportPowerBIReport(
 ## <a name="next-steps"></a>后续步骤
 
 了解如何为客户和组织嵌入内容：
+
+> [!div class="nextstepaction"]
+>[将分页报表导出为文件](export-paginated-report.md)
 
 > [!div class="nextstepaction"]
 >[为客户嵌入内容](embed-sample-for-customers.md)

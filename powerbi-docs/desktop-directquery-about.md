@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 01/10/2020
+ms.date: 04/09/2020
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: dedbe3800dc4a6b1088ca5a4037bc8451c61d986
-ms.sourcegitcommit: 578d43aeb7cebf40f3caf03a614bc885cc039488
+ms.openlocfilehash: 0f2d6bae607383eb8934b3f395add540c6754690
+ms.sourcegitcommit: 915cb7d8088deb0d9d86f3b15dfb4f6f5b1b869c
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/07/2020
-ms.locfileid: "77076663"
+ms.lasthandoff: 04/10/2020
+ms.locfileid: "81006701"
 ---
 # <a name="about-using-directquery-in-power-bi"></a>关于在 Power BI 中使用 DirectQuery
 
@@ -98,7 +98,7 @@ SQL Server Analysis Services 报表发布到 Power BI 服务时，其行为在�
 
 | 限制 | 说明 |
 | --- | --- |
-| 数据频繁变化，需要几乎实时的报表 |导入数据模型最快可以每小时刷新一次。 如果数据不断改变且报表必须显示最新数据，使用按计划刷新的导入可能无法满足需求。 可以将数据直接流式传输到 Power BI 中（尽管这种情况下支持的数据量有限制）。 <br/> <br/> 相比之下，使用 DirectQuery 意味着打开或刷新报表或仪表板始终显示源中最新的数据。 此外，可以更频繁地（每 15 分钟）更新仪表板磁贴。 |
+| 数据频繁变化，需要几乎实时的报表 |具有导入数据的模型最多每小时刷新一次（使用 Power BI Pro 或 Power BI Premium 订阅可以更频繁地刷新）。 如果数据不断改变且报表必须显示最新数据，使用按计划刷新的导入可能无法满足需求。 可以将数据直接流式传输到 Power BI 中（尽管这种情况下支持的数据量有限制）。 <br/> <br/> 相比之下，使用 DirectQuery 意味着打开或刷新报表或仪表板始终显示源中最新的数据。 此外，可以更频繁地（每 15 分钟）更新仪表板磁贴。 |
 | 数据量非常大 |如果数据量非常大，将其全部导入是不可行的。 相比之下，DirectQuery 不需要大量数据传输，因为它可以进行就地查询。 <br/> <br/> 但是，大量数据可能也意味着对该基础源查询的速度很慢，如[使用 DirectQuery 的影响](#implications-of-using-directquery)中所述。 你不必始终导入完整的详细数据。 相反，数据可在导入过程中预先进行聚合。 查询编辑器使得在导入期间预聚合变得容易  。 在极端情况下，可以只导入每个视觉对象所需的聚合数据。 虽然 DirectQuery 是处理大量数据的最简单方法，但如果基础数据源太慢，导入聚合数据也许是一个解决方案。 |
 | 基础数据源中定义的安全规则 |导入数据时，Power BI 使用 Power BI Desktop 中当前用户的凭据连接到数据源，或使用 Power BI 服务中作为配置计划刷新的一部分定义的凭据连接到数据源。 在发布和共享此类报表时，请注意只与允许查看相同数据的用户共享，或将行级别安全性定义为数据集的一部分。 <br/> <br/> 理想情况下，由于 DirectQuery 始终查询基础数据源，此配置将允许应用该基础数据源中的任何安全规则。 但是，目前 Power BI 始终使用与采用导入方法时使用的相同凭据来连接基础数据源。 <br/> <br/> 除非 Power BI 允许将报表使用者的标识传递给基础数据源，否则 DirectQuery 对数据源安全性没有任何优势。 |
 | 数据主权限制应用 |某些组织对数据主权制定有相应策略，这意味着数据不能离开组织规定的前提。 基于导入的解决方案很显然会存在问题。 相比之下，如果使用 DirectQuery，数据将保留在基础数据源中。 <br/> <br/> 但是，由于磁贴按计划刷新，即使使用 DirectQuery，某些视觉对象级别的数据缓存也会保留在 Power BI 服务中。 |

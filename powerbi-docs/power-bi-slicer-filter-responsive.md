@@ -6,19 +6,21 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 05/04/2018
+ms.date: 04/06/2020
 ms.author: maggies
 LocalizationGroup: Create reports
-ms.openlocfilehash: aa7dc612d7a1b16fdc02fb1b40c98257cda3183d
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 2feb20907bbcffcb8aa395705b34604ebbedb682
+ms.sourcegitcommit: 915cb7d8088deb0d9d86f3b15dfb4f6f5b1b869c
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73877578"
+ms.lasthandoff: 04/10/2020
+ms.locfileid: "81006494"
 ---
 # <a name="create-a-responsive-slicer-you-can-resize-in-power-bi"></a>在 Power BI 中创建可以重设大小的响应式切片器
 
-重设响应式切片器的大小以适合报表上的任意空间。 你可以将响应式切片器重设为不同的大小和形状，从水平到方形再到垂直均可，切片器中的值可按照你的操作重新排列。 在 Power BI Desktop 和 Power BI 服务中，你可以使水平切片器和日期/范围切片器响应。 日期/范围切片器也具有改进的触摸区域，所以用指尖更换它们更容易。 可以根据需要变换响应式切片器的大小，它们还会自动重设大小以适应 Power BI 服务以及 Power BI 移动应用中的报表。 
+[!INCLUDE [applies-to](includes/applies-to.md)] [!INCLUDE [yes-desktop](includes/yes-desktop.md)] [!INCLUDE [yes-service](includes/yes-service.md)]
+
+重设响应式切片器的大小以适合报表上的任意空间。 你可以将响应式切片器重设为不同的大小和形状，从水平到方形再到垂直均可，切片器中的值可按照你的操作重新排列。 在 Power BI Desktop 和 Power BI 服务中，你可以使水平切片器和日期/范围切片器响应。 日期/范围切片器也具有改进的触摸区域，因此可以用指尖更轻松地对它们进行更改。 可以根据需要变换响应式切片器的大小，它们还会自动重设大小以适应 Power BI 服务以及 Power BI 移动应用中的报表。 
 
 ![响应式切片器可以有各种形状](media/power-bi-slicer-filter-responsive/power-bi-slicer-filter-responsive-0-slicer.gif)
 

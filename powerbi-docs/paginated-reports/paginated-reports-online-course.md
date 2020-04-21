@@ -9,16 +9,16 @@ ms.subservice: report-builder
 ms.topic: tutorial
 ms.date: 03/18/2020
 ms.author: v-pemyer
-ms.openlocfilehash: 4df77ee94ee72e2104b7964f1835b446bde6b676
-ms.sourcegitcommit: 8eeb784fd46321680367ac913ef976aeedaa7766
+ms.openlocfilehash: 325e62bbf326e9f30d4c41299998c61cc5d7f487
+ms.sourcegitcommit: 81407c9ccadfa84837e07861876dff65d21667c7
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "80621491"
+ms.lasthandoff: 04/13/2020
+ms.locfileid: "81267586"
 ---
 # <a name="online-course-power-bi-paginated-reports-in-a-day"></a>在线课程：一天玩转 Power BI 分页报表
 
-《一天玩转 Power BI 分页报表》在线课程旨在为报表作者提供创建、发布和分发 Power BI 分页报表所需的技术知识  。 本课程包含将近 4 个小时 20 分钟的可观看内容，按需免费提供。
+《一天玩转 Power BI 分页报表》在线课程旨在为报表作者提供创建、发布和分发 Power BI 分页报表所需的技术知识  。 本课程包含将近 4 个小时 20 分钟的可观看内容，按需免费提供。 还有一个[自学工具包](#self-study-kit)，可以下载该工具包并使用它来完成八个动手实验。
 
 具体而言，本课程面向以下对象：
 
@@ -39,7 +39,7 @@ ms.locfileid: "80621491"
 
 观看欢迎和简介视频，开始学习课程。
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/DN1t5p9aui0" frameborder="0" allowfullscreen></iframe>
+> [!VIDEO https://www.youtube.com/embed/DN1t5p9aui0]
 
 ## <a name="course-outline"></a>课程大纲
 
@@ -79,9 +79,32 @@ ms.locfileid: "80621491"
   - 视频 23：[附赠内容：分页报表的演变](https://www.youtube.com/watch?v=pevpai65MvY&list=PL1N57mwBHtN1icIhpjQOaRL8r9G-wytpT)
   - 视频 24：[附赠内容：降低准入障碍](https://www.youtube.com/watch?v=vu32LfckCt8&list=PL1N57mwBHtN1icIhpjQOaRL8r9G-wytpT)
 
-## <a name="additional-content"></a>更多内容
+## <a name="self-study-kit"></a>自学工具包
 
-不久，我们将发布 PowerPoint 演示文稿和动手实验，并将其作为自学工具包。 稍后返回本文以找到下载链接。
+可以下载并设置一个自学工具包，其中包括演示内容和八个动手实验：
+
+1. 使用[此链接](https://aka.ms/priad-ilt-student)将自学工具包 (.zip) 以本地方式下载到你的电脑。
+1. 打开文件属性，并选中“取消阻止”（Windows 可能会将该文件标记为潜在不受信任的文件）。
+1. 将文件内容提取到文件系统中的文件夹中。 建议创建一个易于查找的文件夹，可将其命名为“训练”  。 实验文档将此位置称为“&lt;CourseFolder&gt;”  。
+
+提取后，将生成“PowerBIPRIAD”文件夹，在其中可找到以下文件夹  ：
+
+- Lab01A（和所有其他实验文件夹）  。 实验文件夹包含实验文档和实验资源，其中可能包括资源和解决方案文件。
+- **MySolution**：此文件夹存储解决方案文件。 实验说明将说明何时使用它。
+- **演示**：此文件夹包含课程演示文稿文件，可作为 PDF 文档使用。
+
+### <a name="getting-started"></a>入门
+
+建议先观看在线课程。 打开 &lt;CourseFolder&gt;\PowerBIPRIAD\Presentation\PowerBIPRIAD_Presentation.pdf 文件，可以重新参考演示文稿理论  。 该演示文稿包括八张实验幻灯片，这些幻灯片表明何时该将理论付诸实践。 它还包含许多资源链接，可帮助你查找相关内容。
+
+当准备开始第一个实验时，请打开 &lt;CourseFolder&gt;\PowerBIPRIAD\Lab01A\PowerBIPRIAD_Lab01A.pdf 文件  。 本文档将介绍如何登录 Power BI 服务，上传数据集，然后安装 [Power BI 报表生成器](report-builder-power-bi.md)。
+
+> [!NOTE]
+> 需要拥有自己的 Power BI 帐户。 如果还没有帐户，请参阅[以个人身份注册 Power BI](../service-self-service-signup-for-power-bi.md)。
+>
+> 必须登录 Power BI 才能将 Power BI Desktop 文件发布到工作区。 发布内容将生成用作报表数据源的数据集。 将数据集用作报表数据源不需要 Power BI Pro 许可证或 Power BI Premium 订阅。
+>
+> 但是，有些实验任务涉及将分页报表发布到工作区。 只有将分页报表保存到[专用容量](../service-premium-what-is.md#dedicated-capacities)上的工作区（启用了分页报表工作负载）时，才能打开该报表。 如果无法访问合适的工作区，系统将提供一个链接，用于观看演示报表发布的视频。
 
 ## <a name="next-steps"></a>后续步骤
 

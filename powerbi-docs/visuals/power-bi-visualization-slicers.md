@@ -1,31 +1,35 @@
 ---
 title: Power BI 中的切片器
 description: Power BI 切片器是另一种筛选方法，用于限制在报表的其他可视化效果中显示的部分数据集。
-author: v-thepet
+author: maggiesMSFT
 ms.reviewer: ''
-featuredvideoid: zIZPA0UrJyA
 ms.service: powerbi
 ms.subservice: powerbi-desktop
-ms.topic: tutorial
-ms.date: 11/04/2019
-ms.author: mihart
+ms.topic: conceptual
+ms.date: 04/06/2020
+ms.author: maggies
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 97ad95346715cd5ad38f41d6e7b9df3cc7493f40
-ms.sourcegitcommit: c395fe83d63641e0fbd7c98e51bbab224805bbcc
+ms.openlocfilehash: 105a9afe7292412227f67ef80e15eb23eb7d5f71
+ms.sourcegitcommit: 915cb7d8088deb0d9d86f3b15dfb4f6f5b1b869c
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/21/2019
-ms.locfileid: "74265409"
+ms.lasthandoff: 04/10/2020
+ms.locfileid: "81006772"
 ---
 # <a name="slicers-in-power-bi"></a>Power BI 中的切片器
 
-[!INCLUDE [power-bi-visuals-desktop-banner](../includes/power-bi-visuals-desktop-banner.md)]
+[!INCLUDE [applies-to](../includes/applies-to.md)] [!INCLUDE [yes-desktop](../includes/yes-desktop.md)] [!INCLUDE [yes-service](../includes/yes-service.md)]
 
-假设你希望报表读者能够查看总体销售指标，但同时突出显示各个地区经理和不同时间范围的业绩表现。 可以创建单独的报表或比较图表。 也可以使用切片器。 切片器是另一种筛选方法，用于限制在报表的其他可视化效果中显示的部分数据集。 
-
-本教程通过免费的[零售分析示例](../sample-retail-analysis.md)，演示如何创建、格式化以及使用列表及日期范围切片器。 通过有趣的新方法使用切片器并进行格式化。 
+假设你希望报表读者能够查看总体销售指标，但同时突出显示各个地区经理和不同时间范围的业绩表现。 可以创建单独的报表或比较图表。 也可以使用切片器  。 切片器是另一种筛选方法，用于限制在报表的其他可视化效果中显示的部分数据集。 
 
 ![切片器动画](media/power-bi-visualization-slicers/slicer2.gif)
+
+本文介绍如何使用免费的[零售分析示例](../sample-retail-analysis.md)创建基本切片器并设置其格式。 它还演示了如何控制受切片器影响的视觉对象，以及如何与其他页面上的切片器进行同步。 下面是一些介绍如何创建特定类型的切片器的其他文章：
+
+- [数值范围切片器](../desktop-slicer-numeric-range.md)。
+- [相对日期切片器](desktop-slicer-filter-date-range.md)。
+- 响应迅速、[可调整大小的切片器](../power-bi-slicer-filter-responsive.md)。
+- 具有多个字段的[层次结构切片器](../create-reports/power-bi-slicer-hierarchy-multiple-fields.md)。
 
 ## <a name="when-to-use-a-slicer"></a>何时使用切片器
 在要完成以下操作时，切片器非常有用：
@@ -40,16 +44,13 @@ Power BI 切片器不支持以下操作：
 - 输入字段
 - 向下钻取
 
+## <a name="create-a-slicer"></a>创建切片器
 
-## <a name="create-slicers"></a>创建切片器
+此切片器按地区经理筛选数据。 如果要按照此过程进行操作，请下载[零售分析示例 PBIX 文件](https://download.microsoft.com/download/9/6/D/96DDC2FF-2568-491D-AAFA-AFDD6F763AE3/Retail%20Analysis%20Sample%20PBIX.pbix)。
 
-创建新的切片器以按地区经理筛选数据 
-
-1. 下载[零售分析示例 PBIX 文件](https://download.microsoft.com/download/9/6/D/96DDC2FF-2568-491D-AAFA-AFDD6F763AE3/Retail%20Analysis%20Sample%20PBIX.pbix)。
-
-1. 在 Power BI Desktop 菜单栏，选择“文件” > “打开”   。
+1. 打开 Power BI Desktop，然后在菜单栏中选择“文件” > “打开”   。
    
-1. 浏览到“零售分析示例 PBIX.pbix”文件，然后选择“打开”   。
+1. 浏览到零售分析示例 PBIX.pbix 文件，然后选择“打开”   。
 
 1. 在左侧窗格中，选择“报表”图标![报表图标](media/power-bi-visualization-kpi/power-bi-report-view.png)，在“报表”视图中打开文件  。
 
@@ -73,36 +74,6 @@ Power BI 切片器不支持以下操作：
 
    >[!TIP]
    >默认情况下，切片器列表项按升序的方式进行排序。 若要按反向降序顺序进行排序，请选择切片器右上角的省略号 (...  )，然后选择“降序排序”  。
-
-**创建新的切片器以按日期范围筛选数据**
-
-1. 选择报表的“概述”页  。 报表画布上不选中任何内容，在“字段”窗格中，选择“存储” >  “OpenDate”    。
-
-    此操作会填充“可视化效果”窗格中的“值”框，以创建新的可视化效果   。
-
-1. 在选择报表中的新可视化效果后，选择“可视化效果”窗格中的“切片器”图标，将新的可视化效果转换为切片器   。 此 OpenDate 切片器是填充有日期范围的滑块控件  。
-    
-    ![创建 OpenDate 可视化效果](media/power-bi-visualization-slicers/power-bi-date-slicer.png)
-
-1. 调整大小并将切片器和其他元素拖至画布，以便为切片器腾出空间。 虽然滑块大小根据切片器大小进行调整，但如果切片器大小调整得过小，它将消失且日期会被截断。 
-
-1. 在滑块中选择不同的日期范围，或选择“日期”字段以输入数据，或弹出日历以便更精确地进行选择。 请注意对页面上其他可视化效果的影响。
-    
-    >[!NOTE]
-    >默认情况下，数值和日期/时间数据类型会生成范围滑块切片器。 从 2018 年 2 月 Power BI 更新开始，整数数据类型范围滑块现对齐到整数值，而不是显示小数位。 
-
-1. 若要更改切片器类型，请在选择切片器后，将鼠标悬停在切片器的右上方区域，选择显示的脱字号图标，然后选择其他选项之一，如“列表”或“之前”   。 请注意切片器的外观和选择选项如何变化。 
- 
-    ![切片器的新范围](media/power-bi-visualization-slicers/power-bi-between-slicer.png)
-
-
-若要详细了解如何创建日期和数值范围切片器，请观看以下视频或参阅[在 Power BI Desktop 中使用数值范围切片器](../desktop-slicer-numeric-range.md)。
-   > [!NOTE]
-   > 此视频使用较旧版本的 Power BI Desktop。
-   > 
-   > 
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/zIZPA0UrJyA" frameborder="0" allowfullscreen></iframe> 
 
 ## <a name="control-which-page-visuals-are-affected-by-slicers"></a>控制受切片器影响的页面视觉对象
 默认情况下，报表页上的切片器会影响该页上的所有其他可视化效果，而且还会相互影响。 在刚创建的列表和日期滑块中选择值时，请注意对其他可视化效果的影响。 筛选后的数据是这两个切片器中所选值的交集。 
@@ -208,7 +179,7 @@ Power BI 切片器不支持以下操作：
 
 ### <a name="title-options"></a>标题选项
 “标题”选项默认为“开”   。 此选择将在切片器顶部显示数据字段名称。 
-- 对于本教程，请按下面的方式设置标题文本的格式： 
+- 对于本文，请按下面的方式设置标题文本的格式： 
    - 字体颜色：红色 
    - **文本大小**：14 磅 
    - 对齐方式  ：居中 
@@ -216,7 +187,7 @@ Power BI 切片器不支持以下操作：
 
 
 ### <a name="items-options-list-slicers-only"></a>项选项（仅列表切片器）
-1. 对于本教程，请按下面的方式设置“项”选项的格式  ：
+1. 对于本文，请按下面的方式设置“项”选项的格式  ：
     - 字体颜色：黑色 
     - 背景颜色：浅红色 
     - **文本大小**：10 磅 

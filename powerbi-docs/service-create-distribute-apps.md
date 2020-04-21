@@ -8,12 +8,12 @@ ms.topic: conceptual
 ms.date: 03/23/2020
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 0b420a41474349f86be682987ff9f8144debab11
-ms.sourcegitcommit: 075a0ade4134d28f578fda78996595e8cd9f3555
+ms.openlocfilehash: 93cb384c06fc78f8d006aed02aef323bf3a72d31
+ms.sourcegitcommit: 915cb7d8088deb0d9d86f3b15dfb4f6f5b1b869c
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/24/2020
-ms.locfileid: "80147368"
+ms.lasthandoff: 04/10/2020
+ms.locfileid: "81006292"
 ---
 # <a name="publish-an-app-in-power-bi"></a>在 Power BI 中发布应用
 
@@ -43,25 +43,26 @@ ms.locfileid: "80147368"
 
 1. 在工作区列表视图中决定应用要包含的仪表板和报表  。
 
-     ![选择要发布的仪表板](media/service-create-distribute-apps/power-bi-apps-incude-dashboard.png)
+    ![选择要发布的仪表板](media/service-create-distribute-apps/power-bi-apps-incude-dashboard.png)
 
-     如果选择不包含具有相关仪表板的报表，则该报表旁边将显示一条警告。 此时仍然可以发布应用，但这个相关的仪表板将缺少来自该报表的磁贴。
+    如果选择不包含具有相关仪表板的报表，则该报表旁边将显示一条警告。 此时仍然可以发布应用，但这个相关的仪表板将缺少来自该报表的磁贴。
 
-     ![关于相关仪表板的警告](media/service-create-distribute-apps/power-bi-apps-report-warning.png)
+    ![关于相关仪表板的警告](media/service-create-distribute-apps/power-bi-apps-report-warning.png)
 
 2. 选择右上角的“发布应用”按钮，启动从工作区创建和发布应用的进程  。
    
-     ![发布应用](media/service-create-distribute-apps/power-bi-apps-publish-button.png)
+    ![发布应用](media/service-create-distribute-apps/power-bi-apps-publish-button.png)
 
 3. 在“设置”中，填写名称和说明以帮助用户查找应用  。 可以选择主题颜色对其进行个性化设置。 还可以添加指向支持站点的链接。
    
-     ![生成应用](media/service-create-distribute-apps/power-bi-apps-build-your-apps.png)
+    ![生成应用](media/service-create-distribute-apps/power-bi-apps-build-your-apps.png)
 
 4. 在“导航”中，选择要作为应用的一部分进行发布的内容  。 然后添加应用导航以组织各节的内容。 请参阅本文中的[设计应用的导航体验](#design-the-navigation-experience)，获取详细信息。
    
-     ![应用导航](media/service-create-distribute-apps/power-bi-apps-navigation.png)
+    ![应用导航](media/service-create-distribute-apps/power-bi-apps-navigation.png)
 
 5. 在“权限”中，确定可以访问应用的人员，以及他们可对应用进行的操作  。 
+
     - 在[经典工作区](service-create-workspaces.md)中：你组织中的每个人、特定人员或 Azure Active Directory (AAD) 安全组。
     - 在[新的体验工作区](service-create-the-new-workspaces.md)中：特定人员、AAD 安全组和通讯组列表，以及 Office 365 组。 所有工作区用户都将自动获得对工作区应用的访问权限。
     - 可以允许应用用户通过授予他们“生成”权限来连接到应用的基础数据集。 他们在搜索共享数据集时会看到这些数据集。 阅读本文，了解有关[允许用户连接到应用的数据集](#allow-users-to-connect-to-datasets)的详细信息。
@@ -73,24 +74,24 @@ ms.locfileid: "80147368"
 
 6. 如果 Power BI 管理员已在 Power BI 管理员门户中为你启用了此设置，则你可自动为收件人安装应用。 详细了解本文中的[自动安装应用](#automatically-install-apps-for-end-users)。
 
-     ![应用权限](media/service-create-distribute-apps/power-bi-apps-permissions.png)
+    ![应用权限](media/service-create-distribute-apps/power-bi-apps-permissions.png)
 
-7. 选择“发布应用”时，将看到一条消息，确认已准备好发布  。 在“共享此应用”对话框中，你可以复制指向此应用的直接链接 URL  。
+7. 选择“发布应用”时，将看到一条消息，用于确认应用已准备好发布  。 在“共享此应用”对话框中，可以复制指向此应用的直接链接 URL  。
    
-     ![应用完成](media/service-create-distribute-apps/power-bi-apps-success.png)
+    ![应用完成](media/service-create-distribute-apps/power-bi-apps-success.png)
 
-你可将该直接链接发送给你已与其共享过的人，或者他们可以通过转到“从 AppSource 下载并浏览更多应用”，在“应用”选项卡上找到你的应用  。 详细了解[业务用户的应用体验](consumer/end-user-apps.md)。
+可将该直接链接发送给你已与其共享过的人，或者他们可以通过转到“从 AppSource 下载并浏览更多应用”，在“应用”选项卡上找到你的应用  。 详细了解[业务用户的应用体验](consumer/end-user-apps.md)。
 
 ## <a name="change-your-published-app"></a>更改已发布的应用
 发布应用后，你可能想要更改或更新它。 如果你是新工作区的管理员或成员，则很方便进行更新。 
 
 1. 打开对应于应用的工作区。 
    
-     ![打开工作区](media/service-create-distribute-apps/power-bi-apps-open-workspace.png)
+    ![打开工作区](media/service-create-distribute-apps/power-bi-apps-open-workspace.png)
 
 2. 对仪表板或报表进行任何想要的更改。
  
-     该工作区为临时区域，因此应用中所做更改在再次发布前不会生效。 这样就方便进行更改，而不会影响已发布的应用。  
+    该工作区为临时区域，因此应用中所做更改在再次发布前不会生效。 这样就方便进行更改，而不会影响已发布的应用。  
  
     > [!IMPORTANT]
     > 如果删除报表并更新应用，那么即使将报表添加回应用，应用使用者也会丢失书签、评论等所有自定义设置。  
@@ -111,6 +112,7 @@ ms.locfileid: "80147368"
 ![应用导航](media/service-create-distribute-apps/power-bi-apps-navigation.png)
 
 可以通过以下方式进一步自定义应用导航：
+
 * 使用向上/向下箭头重新排列项。 
 * 重命名“报表详细信息”、“仪表板详细信息”和“工作簿详细信息”中的项    。
 * 隐藏导航栏中的某些项。
@@ -121,16 +123,20 @@ ms.locfileid: "80147368"
 
 ### <a name="considerations-for-using-the-new-navigation-builder-option"></a>使用“新建导航生成器”选项的注意事项
 以下是使用“新建导航生成器”时，需要注意的一般事项：
-* 报表页在应用导航区域（可展开的节）中显示
+
+* 报表页在应用导航区域（可展开的部分）中显示。 当报表具有一个可见页时，只显示报表名称。 单击导航中的报表名称将打开报表的第一页。 
+
+    > [!NOTE]
+    > 报表可能只有一个可见页，因为已使用按钮或钻取操作设置了对其余页的导航。
+
 * 如果关闭“新建导航生成器”，然后发布或更新应用，那么你将丢失已完成的自定义设置。 例如，导航项的节、排序、链接和自定义名称将全部丢失。
+* 提供不使用应用生成器的选项。
 
 为应用导航添加链接和选择“内容”区域选项时，需注意以下方面：
 * 确保可以嵌入链接。 某些服务在 Power BI 等第三方站点会阻止嵌入其内容。
 * 不支持在其他工作区中嵌入报表或仪表板等 Power BI 服务内容。 
 * 通过本地嵌入 URL 内容从本地部署嵌入 Power BI 报表服务器内容。 使用[创建 Power BI 报表服务器 URL](https://docs.microsoft.com/power-bi/report-server/quickstart-embed#create-the-power-bi-report-url) 中的步骤获取 URL。 注意，常规身份验证规则适用，因此查看内容需要与本地服务器建立 VPN 连接。 
 * 嵌入内容的顶部显示安全警告，表示该内容不在 Power BI 中。
-
-
 
 ## <a name="automatically-install-apps-for-end-users"></a>自动为最终用户安装应用
 如果管理员为你提供了权限，则你可以自动安装应用，并将其推送到最终用户  。 借助此推送功能可以更轻松地将合适的应用分发给合适的人员或组。 最终用户的应用内容列表中自动显示你的应用。 用户无需通过 Microsoft AppSource 或单击安装链接查找你的应用。 请在 Power BI 管理员门户文章中参阅管理员如何确保[将应用推送给最终用户](service-admin-portal.md#push-apps-to-end-users)。
@@ -181,22 +187,28 @@ ms.locfileid: "80147368"
 
 * 在工作区中，依次选择右上角的省略号 (...) 和“取消发布应用”   。
   
-     ![取消发布应用](media/service-create-distribute-apps/power-bi-app-unpublish.png)
+    ![取消发布应用](media/service-create-distribute-apps/power-bi-app-unpublish.png)
 
 此操作会为已向其发布该应用的所有人员卸载此应用，而且他们也不再有权访问此应用。 此操作不会删除工作区或其内容。
 
 ## <a name="view-your-published-app"></a>查看已发布的应用
 
-应用使用者打开你的应用时，他们将看到你创建的导航，而不是标准的 Power BI 导航窗格。 应用导航列出你定义的各节中的报表和仪表板。 它还列出每个报表中的各个页面，而不仅仅是报表名称。
+应用使用者打开你的应用时，他们将看到你创建的导航，而不是标准的 Power BI 导航窗格。 应用导航列出你定义的各节中的报表和仪表板。 它还列出每个报表中的各个页面，而不仅仅是报表名称。 使用菜单栏中的箭头可以展开和折叠左侧导航。
 
 ![具有导航的应用](media/service-create-distribute-apps/power-bi-new-apps-navigation.png)
+
+在全屏模式下，可以通过选择角落中的选项来显示或隐藏导航。
+
+![全屏导航](media/service-create-distribute-apps/full-screen-app-show-navigation.png)
 
 ## <a name="considerations-and-limitations"></a>注意事项和限制
 发布应用时的注意事项：
 
+* “权限”页不会更改其他工作区中数据集的权限。 你会看到一个警告，提醒你单独向这些数据集授予访问权限。 最佳做法是在开始构建应用之前与数据集所有者联系，以确保允许所有应用用户访问这些数据集。 
 * 应用访问列表中最多可以有 100 个用户或组。 但是，可以向超过 100 个用户提供对应用的访问权限。 为此，请使用包含全部所需用户的一个或多个用户组。
 * 对于新工作区体验，如果添加到应用访问列表中的用户已经可以通过工作区访问应用，则他们不会在该应用的访问列表中显示。  
-
+* 使用具有新外观的 Power BI 服务时，支持站点 URL 将显示在项目信息卡中。 详细了解 [Power BI 的新外观](service-new-look.md)。
+* 应用有一个选项，可允许用户通过使用共享权限来共享应用和应用的基础数据集。 对于新应用，该选项默认情况下处于关闭状态。 我们建议对现有应用关闭此选项，并更新对基础数据集的权限。 已为现有应用启用此选项，因为设计应用的最初目的是替换具有此行为的内容包。
 
 ## <a name="next-steps"></a>后续步骤
 * [创建工作区](service-create-workspaces.md)

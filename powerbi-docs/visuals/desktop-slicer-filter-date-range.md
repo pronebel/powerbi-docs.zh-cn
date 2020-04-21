@@ -1,22 +1,24 @@
 ---
-title: 在 Power BI Desktop 中使用相对日期切片器或筛选器
-description: 了解如何使用切片器或筛选器在 Power BI Desktop 中约束相对日期范围
+title: 在 Power BI 中使用相对日期切片器或筛选器
+description: 了解如何使用切片器或筛选器在 Power BI 中约束相对日期范围。
 author: mihart
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 06/24/2019
+ms.date: 04/06/2020
 ms.author: mihart
 LocalizationGroup: Create reports
-ms.openlocfilehash: 9d7173225cc52df5d7221b32a6fad81617afa422
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 9ce36bfa61b16bd30e59bc8491af80efdfdc8a35
+ms.sourcegitcommit: 915cb7d8088deb0d9d86f3b15dfb4f6f5b1b869c
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73876803"
+ms.lasthandoff: 04/10/2020
+ms.locfileid: "81006771"
 ---
-# <a name="use-a-relative-date-slicer-and-filter-in-power-bi-desktop"></a>在 Power BI Desktop 中使用相对日期切片器和筛选器
+# <a name="use-a-relative-date-slicer-and-filter-in-power-bi"></a>在 Power BI 中使用相对日期切片器和筛选器
+
+[!INCLUDE [applies-to](../includes/applies-to.md)] [!INCLUDE [yes-desktop](../includes/yes-desktop.md)] [!INCLUDE [yes-service](../includes/yes-service.md)]
 
 借助相对日期切片器  或筛选器  ，可以向数据模型中的任意日期列应用时间筛选器。 例如，可使用相对日期切片器，仅显示过去 30 天（或月、日历月等）的销售数据  。 刷新数据时，相对时间段会自动应用相应的相对日期约束。
 
@@ -98,7 +100,7 @@ ms.locfileid: "73876803"
 
 * Power BI 中的数据模型不包含时区信息  。 模型可以存储时间，但并不指明所在时区。
 
-* 切片器和筛选器始终基于 UTC 的时间。 如果在报表中设置筛选器并将其发送给位于其他时区的同事，你们将看到相同的数据。 除非你处于 UTC 时区，否则你和你的同事都必须考虑将遭遇的时间偏移量。
+* 切片器和筛选器始终基于 UTC 的时间。 如果在报表中设置筛选器并将其发送给位于其他时区的同事，你们将看到相同的数据。 除非你处于 UTC 时区，否则你和你的同事都必须考虑将会遇到的时间偏移量。
 
 * 可使用查询编辑器将在本地时区捕获的数据转换为 UTC  。
 

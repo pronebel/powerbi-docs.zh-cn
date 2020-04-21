@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 02/13/2020
-ms.openlocfilehash: dfb6c313e989514da2aa04facd6c6136a0eadc1a
-ms.sourcegitcommit: 444f7fe5068841ede2a366d60c79dcc9420772d4
+ms.openlocfilehash: dfb57d6344e6a8e020404f9cd23c957967b960f7
+ms.sourcegitcommit: a9ebab692c670192b62a31bfe99447908506251b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/30/2020
-ms.locfileid: "80404186"
+ms.lasthandoff: 04/11/2020
+ms.locfileid: "81122261"
 ---
 # <a name="install-power-bi-desktop-optimized-for-power-bi-report-server"></a>安装更适合 Power BI 报表服务器的 Power BI Desktop
 
@@ -96,6 +96,10 @@ Power BI 报表服务器报表不支持 Power BI 移动应用中的如下功能�
 ### <a name="custom-security"></a>自定义安全性
 
 针对 Power BI 报表服务器进行优化的 Power BI Desktop 不支持自定义安全性。 如果你的 Power BI 报表服务器配置了自定义安全扩展，则不能将 Power BI 报表从 Power BI Desktop（已针对 Power BI 报表服务器进行优化）保存到 Power BI 报表服务器实例。 需要从 Power BI Desktop 保存 .pbix 报表文件，并将其上传到 Power BI 报表服务器门户站点。
+
+### <a name="saving-reports-to-a-power-bi-report-server-in-a-different-domain"></a>将报表保存到不同域中的 Power BI 报表服务器
+
+将 Power BI 报表保存到 Power BI 报表服务器时，会使用你的 Windows 凭据。 不支持直接保存到与 Windows 凭据不同的域中的报表服务器。 可以改为使用 Web 浏览器查看报表服务器，然后手动从计算机上传文件。
 
 ## <a name="power-bi-desktop-for-earlier-versions-of-power-bi-report-server"></a>适用于早期版本 Power BI 报表服务器的 Power BI Desktop
 

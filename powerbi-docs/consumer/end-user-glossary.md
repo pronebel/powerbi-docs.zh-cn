@@ -6,14 +6,14 @@ author: mihart
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 02/18/2020
+ms.date: 04/07/2020
 ms.author: mihart
-ms.openlocfilehash: 19a3b1bbf5f2ea3043b92d97a66196ca3e32118c
-ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
+ms.openlocfilehash: 2e5b8cf174e5e2180a42d2ccb3d2b43ba31b2d38
+ms.sourcegitcommit: 81407c9ccadfa84837e07861876dff65d21667c7
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/14/2020
-ms.locfileid: "79377227"
+ms.lasthandoff: 04/13/2020
+ms.locfileid: "81267218"
 ---
 # <a name="glossary-for-power-bi-service"></a>Power BI 服务词汇表
 Power BI 服务可能会引入不熟悉或容易混淆的术语。 词汇表是查找术语的好地方，可能需要将其加入书签。 了解构成 Power BI 服务的构建块的另一个极佳资源是[基本概念](end-user-basic-concepts.md)。 “基本概念”提供 Power BI 组件及其如何连接的简要概述。 
@@ -24,7 +24,7 @@ Power BI 服务可能会引入不熟悉或容易混淆的术语。 词汇表是�
 
 **帐户**：有各种不同类型的 Power BI 帐户（亦称为“许可证”  ）。  帐户可以是每用户帐户，也可以是组织帐户。 每用户帐户作为免费  帐户或 Pro  帐户提供。  Power BI 免费  用户要么使用独立的 Power BI Desktop，要么在 Premium 组织帐户中使用 Power BI 服务。 Power BI 每用户 Pro  帐户是付费每月订阅，可便于与其他 Pro  用户进行协作和内容共享。 
 
-组织 Premium  （亦称为“高级容量”  ）帐户在每用户许可证的基础之上添加了一层功能。 例如，与没有 Premium  许可证的免费  用户相比，有 Premium  许可证的组织内的免费  每用户帐户持有者可以使用 Power BI 执行更多操作。 例如，Premium  组织帐户中的免费  用户可以与同事协作，并能查看 Power BI 高级容量中托管的内容。  
+组织 Premium  （亦称为“高级容量”  ）帐户在每用户许可证的基础之上添加了一层功能。 例如，与没有 Premium  许可证的免费  用户相比，有 Premium  许可证的组织内的免费  每用户帐户持有者可以使用 Power BI 执行更多操作。 例如，Premium 组织帐户中的免费用户可以与同事协作，并能查看 Power BI 高级容量中托管的内容   。  
 
 **admin portal (管理门户)** Power BI 管理员管理其组织内 Power BI 的用户、功能和设置的地方。 （注意：Office 365、Azure 和 PowerApps 使用管理中心。）
 
@@ -36,8 +36,7 @@ Power BI 服务可能会引入不熟悉或容易混淆的术语。 词汇表是�
 
 **annotate (标注)** 在适用于 iOS 和 Android 设备的 Power BI 移动应用的磁贴、报告或视觉对象的快照副本上写入行、文本或标记。
 
-**app, apps (应用)** 
-
+**应用**：一系列仪表板、报表和数据集。 它还指用于使用内容的移动应用，如适用于 iOS 的 Power BI 应用。
 
 **AppSource** 集中式联机存储库，可以在此处浏览和发现要下载的仪表板、报表、数据集和应用。
 
@@ -203,7 +202,7 @@ Power BI 服务可能会引入不熟悉或容易混淆的术语。 词汇表是�
 
 **OneDrive for Business** 与 **OneDrive** OneDrive 是个人帐户，而 OneDrive for Business 适用于工作帐户。  
 
-**本地**：用于区分本地计算（计算资源位于客户自己的设施上）与云计算的术语。
+**本地**：该术语用于区分本地计算（计算资源位于客户自己的设施上）与云计算。
 
 
 ## <a name="p"></a>P
