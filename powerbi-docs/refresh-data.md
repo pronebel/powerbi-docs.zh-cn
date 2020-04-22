@@ -1,20 +1,20 @@
 ---
 title: Power BI 中的数据刷新
 description: 本文从概念层面介绍了 Power BI 的数据刷新功能及其依赖项。
-author: maggiesMSFT
+author: davidiseminger
 ms.reviewer: kayu
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 03/26/2020
-ms.author: maggies
+ms.author: davidi
 LocalizationGroup: Data refresh
-ms.openlocfilehash: 63275e882d71cd5c47a9a10baf4f0975abc2a845
-ms.sourcegitcommit: bcc42e938fa28abe433287fecb9abb28c253b6bb
+ms.openlocfilehash: e51361d910c558824f33fb9ed00f6332aa3bba07
+ms.sourcegitcommit: b2cb0b02bdc451bf11a92a68f2c4d560a811f563
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/26/2020
-ms.locfileid: "80302460"
+ms.lasthandoff: 04/16/2020
+ms.locfileid: "81440023"
 ---
 # <a name="data-refresh-in-power-bi"></a>Power BI 中的数据刷新
 

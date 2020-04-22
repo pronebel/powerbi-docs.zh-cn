@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
-ms.date: 04/06/2020
+ms.date: 04/17/2020
 LocalizationGroup: Premium
-ms.openlocfilehash: c15576ac6ab9b20a3492341c05d2f9d8eb42e107
-ms.sourcegitcommit: 2b93c1cc29aaf199ab7441a04c8e5ae49ffca5d6
+ms.openlocfilehash: 80f870f1657e629786cec299484f3b3c97609e79
+ms.sourcegitcommit: d43761104f7daf4b2f297648855bb573b53e6d8c
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/07/2020
-ms.locfileid: "80813043"
+ms.lasthandoff: 04/18/2020
+ms.locfileid: "81637938"
 ---
 # <a name="power-bi-premium-metrics-app"></a>Power BI Premium 指标应用
 
@@ -28,8 +28,9 @@ ms.locfileid: "80813043"
 
 以下部分详细介绍了登陆页面和三个指标报表页。 
 
-> [!IMPORTANT]
-> 如果 Power BI Premium 容量遇到资源使用量过高的情况，从而导致性能或可靠性问题，可通过接收通知电子邮件来识别和解决问题。 有关详细信息，请参阅[容量和可靠性通知](service-interruption-notifications.md#capacity-and-reliability-notifications)。
+
+
+
 
 ## <a name="premium-capacity-health-center"></a>Premium 容量运行状况中心
 

@@ -1,20 +1,20 @@
 ---
 title: 使用 Power BI 中的按钮
 description: 可以在 Power BI 报表中添加各种按钮，以使报表的行为类似于应用，并加深与用户的互动。
-author: davidiseminger
+author: maggiesMSFT
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 03/12/2020
-ms.author: davidi
+ms.author: maggies
 LocalizationGroup: Create reports
-ms.openlocfilehash: 6629165ec031fea0d1c1af443e1d7b311bc743aa
-ms.sourcegitcommit: 7e845812874b3347bcf87ca642c66bed298b244a
+ms.openlocfilehash: c703a4b67b642af5199413e80ff1e140905a2338
+ms.sourcegitcommit: b2cb0b02bdc451bf11a92a68f2c4d560a811f563
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/13/2020
-ms.locfileid: "79201561"
+ms.lasthandoff: 04/16/2020
+ms.locfileid: "81439816"
 ---
 # <a name="use-buttons-in-power-bi"></a>使用 Power BI 中的按钮
 使用 Power BI 中的“按钮”，可创建类似于应用的报表，从而创建极具吸引力的环境，以便用户可悬停鼠标在 Power BI 内容上、单击它并进一步与之交互  。 可在 Power BI Desktop 和 Power BI 服务中向报表添加按钮   。 在 Power BI 服务中共享报表时，它们为用户提供类似于应用的体验。

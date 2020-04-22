@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 09/06/2019
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: 45f3ff801b2f1bffd2396fe9f59ea32dd4b11ffb
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: a6dd3040fd765010c5d6baaf76991f7d1be4cfa7
+ms.sourcegitcommit: d43761104f7daf4b2f297648855bb573b53e6d8c
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73877066"
+ms.lasthandoff: 04/18/2020
+ms.locfileid: "81637889"
 ---
 # <a name="get-data-from-excel-workbook-files"></a>从 Excel 工作簿文件中获取数据
 ![](media/service-excel-workbook-files/excel_icon.png)
@@ -63,7 +63,7 @@ Power BI 支持以下数据类型：整数、小数、货币、日期、True/Fal
 
 ![](media/service-excel-workbook-files/excel_import_connect.png)
 
-### <a name="import-excel-data-into-power-bi"></a>将 Excel 数据导入到 Power BI
+### <a name="import-excel-data-into-power-bi"></a>将 Excel 数据导入 Power BI
 当你选择“导入”  时，表和/或数据模型中支持的任何数据将导入到 Power BI 中的新数据集中。 如果你有任何 Power View 工作表，将作为报表在 Power BI 中重新创建。
 
 你可以继续编辑工作簿。 保存所做的更改后，它们将与 Power BI 中的数据集同步（通常大约在一小时之内）。 如果你需要更即时地满足需求，只需再次单击“发布”，而所做的更改便会立即导出。 同样，也会更新报表和仪表板中的任何可视化效果。
@@ -124,8 +124,6 @@ Power BI 支持以下数据类型：整数、小数、货币、日期、True/Fal
 **计划刷新** - 如果你的 Excel 工作簿文件连接到外部数据源，或你从本地驱动器导入，你可以设置计划刷新，以确保你的数据集或报表始终为最新。 在大多数情况下，设置计划刷新非常容易，但本文不会进行详细介绍。 若要了解详细信息，请参阅 [Power BI 中的数据刷新](refresh-data.md)。
 
 [从 Excel 2016 发布到 Power BI](service-publish-from-excel.md)
-
-[Power BI publisher for Excel](publisher-for-excel.md)
 
 [Power BI 中的数据刷新](refresh-data.md)
 

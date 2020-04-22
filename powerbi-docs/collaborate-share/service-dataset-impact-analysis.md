@@ -1,5 +1,5 @@
 ---
-title: 数据集影响分析（预览）
+title: 数据集影响分析
 description: 可视化和分析对数据集进行更改的下游影响。
 author: paulinbar
 ms.reviewer: ''
@@ -8,14 +8,14 @@ ms.topic: conceptual
 ms.date: 04/13/2020
 ms.author: painbar
 LocalizationGroup: ''
-ms.openlocfilehash: 016c555c6df65a45a9d429c25db93110022d9d8f
-ms.sourcegitcommit: 81407c9ccadfa84837e07861876dff65d21667c7
+ms.openlocfilehash: d6d62583d6ef6bd1fcc1630b46bdb5d97c221f16
+ms.sourcegitcommit: 5ece366fceee9832724dae40eacf8755e1d85b04
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/13/2020
-ms.locfileid: "81268020"
+ms.lasthandoff: 04/16/2020
+ms.locfileid: "81525321"
 ---
-# <a name="dataset-impact-analysis-preview"></a>数据集影响分析（预览）
+# <a name="dataset-impact-analysis"></a>数据集影响分析
 
 对数据集进行更改或考虑进行更改时，能够评估这些更改对依赖于该数据集的下游报表和仪表板的影响非常重要。 数据集影响分析提供有助于进行此项评估的信息  。
 * 它可以显示可能受到更改影响的工作区、报表和仪表板，并能轻松导航到受影响的报表和仪表板所在的工作区，方便你进行进一步的调查。

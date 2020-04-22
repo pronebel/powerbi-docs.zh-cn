@@ -7,13 +7,13 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: conceptual
-ms.date: 03/18/2020
-ms.openlocfilehash: 885c6b98e66a6ce2fd8069cc86bf50440cb94b4b
-ms.sourcegitcommit: 2c798b97fdb02b4bf4e74cf05442a4b01dc5cbab
+ms.date: 04/21/2020
+ms.openlocfilehash: dcf154105b8940bd400fbb4e630a1d1cfd00ddf0
+ms.sourcegitcommit: 8775168ed916c517c57c696ebe45699e638b86e8
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/21/2020
-ms.locfileid: "80113592"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "81766284"
 ---
 # <a name="paginated-reports-in-power-bi-faq"></a>Power BI 中的分页报表：常见问题解答 
 
@@ -88,6 +88,8 @@ Power BI 租户管理员可在管理门户修改默认最大内存百分比。 �
 
 Power BI 报表针对浏览和交互性进行了优化。  例如，对于销售报表（其中不同的销售人员想要在同一区域针对其特定区域/行业/客户切分数据并查看数字的变化情况），Power BI 报表将是最理想的选择。
 
+有关更多详细信息，请参阅[何时使用 Power BI 中的分页报表](../guidance/report-paginated-or-power-bi.md)。
+
 ### <a name="the-documentation-says-power-bi-report-builder-is-the-preferred-authoring-tool-can-i-create-paginated-reports-in-sql-server-data-tools-for-power-bi"></a>文档中提到 Power BI 报表生成器是首选创作工具。 我可以在适用于 Power BI 的 SQL Server Data Tools 中创建分页报表吗？
 
 可以，但 Power BI 服务仅允许你一次上传一个项目，因此，尚不支持作者使用 SQL Server Data Tools (SSDT) 的许多应用场景。 在此常见问题解答中查看以后提供的完整的[不受支持的功能的列表](#what-paginated-report-features-in-ssrs-arent-yet-supported-in-power-bi)。  
@@ -110,10 +112,8 @@ GitHub 上的项目现在支持将内容从 SQL Server Reporting Services 迁移
 
 - 共享数据源
 - 共享的数据集
-- 子报表
 - 钻取到和单击后到达其他报表
 - 链接报表
-- 必应地图层
 - 自定义字体
 
 如果你尝试上传具有在 Power BI 服务中不受支持的功能的文件，则将收到一条错误消息，而不是切换/排序。

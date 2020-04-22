@@ -10,12 +10,12 @@ ms.topic: tutorial
 ms.date: 03/17/2020
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 3be5f9efe3a6e18ba46f6990b09952d37b967e16
-ms.sourcegitcommit: 646d2de454a2897dc52cbc02b7743aaa021bac04
+ms.openlocfilehash: 5628a114b872b7c0d92d5079198616a20fe85b87
+ms.sourcegitcommit: d43761104f7daf4b2f297648855bb573b53e6d8c
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "79525927"
+ms.lasthandoff: 04/18/2020
+ms.locfileid: "81637810"
 ---
 # <a name="tutorial-embed-a-power-apps-visual-in-a-power-bi-report"></a>教程：在 Power BI 报表中嵌入 Power Apps 视觉对象
 
@@ -53,7 +53,7 @@ ms.locfileid: "79525927"
 
 3. 在“字段”窗格中，选择“名称”、“产品代码”和“销售阶段”     。 
 
-    ![选择字段](media/power-bi-visualization-powerapp/power-bi-fields.jpg)
+    ![选择字段](media/power-bi-visualization-powerapp/power-bi-fields.png)
 
 4. 在 Power Apps 视觉对象中，选择想要在其中创建应用的 Power Apps 环境，然后选择“新建”  。
 
