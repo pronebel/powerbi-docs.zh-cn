@@ -67,7 +67,11 @@
     "live": [
       "Publish",
       "Pdf"
-    ]
+    ],
+    "art-testing": [
+      "Publish",
+      "Pdf"
+      ]
   },
   "need_generate_pdf_url_template": true,
   "targets": {},
