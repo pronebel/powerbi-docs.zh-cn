@@ -9,12 +9,12 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 03/25/2020
 ms.author: v-pemyer
-ms.openlocfilehash: f497060c4e36c648bd2b3ef23ae8914d303adfa6
-ms.sourcegitcommit: 915cb7d8088deb0d9d86f3b15dfb4f6f5b1b869c
+ms.openlocfilehash: e532c78254dffc9a3f95a165f509f8cc0553f09b
+ms.sourcegitcommit: 01bcbc8f0280aec875b22542a9c193c80899dc10
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/10/2020
-ms.locfileid: "81006517"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "82065930"
 ---
 # <a name="tips-to-sort-and-distribute-data-plots-in-power-bi-reports"></a>关于在 Power BI 报表中排序和分配数据绘图的提示
 
@@ -42,7 +42,7 @@ ms.locfileid: "81006517"
 
 有关本文的详细信息，请参阅以下资源：
 
-- [创建出色报表的提示与技巧](../power-bi-reports-tips-and-tricks-for-creating.md)
+- [创建出色报表的提示与技巧](../desktop-tips-and-tricks-for-creating-reports.md)
 - biDezine 视频：[关于在 Power BI 中排序和分配数据绘图的前九大提示](https://www.youtube.com/watch?v=BnhA4qa-9Jk)
 - 是否有任何问题? [尝试咨询 Power BI 社区](https://community.powerbi.com/)
 - 建议？ [提出改进 Power BI 的想法](https://ideas.powerbi.com/)
