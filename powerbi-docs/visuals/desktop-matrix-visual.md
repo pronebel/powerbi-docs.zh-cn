@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 02/10/2020
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 6a45dcc195514bc1af71470beeead9f73a798942
-ms.sourcegitcommit: 4d98274aa0b9aa09db99add2dda91a3ba8fed40b
+ms.openlocfilehash: c091295d50bac576af411d967b9902d6804f82be
+ms.sourcegitcommit: d43761104f7daf4b2f297648855bb573b53e6d8c
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/25/2020
-ms.locfileid: "77576847"
+ms.lasthandoff: 04/18/2020
+ms.locfileid: "81637849"
 ---
 # <a name="create-matrix-visualizations-in-power-bi"></a>在 Power BI 中创建矩阵可视化效果
 
@@ -57,7 +57,8 @@ ms.locfileid: "77576847"
 
 ![](media/desktop-matrix-visual/power-bi-expand3.png)
 
-
+> [!NOTE]
+> 如果要在 Analysis Services 多维模型之上生成报表，并且该模型使用“默认成员”功能，则展开/折叠具有一些特殊注意事项。 有关详细信息，请参阅[在 Power BI 中使用多维模型](../desktop-default-member-multidimensional-models.md)
 
 ## <a name="using-drill-down-with-the-matrix-visual"></a>结合使用向下钻取和矩阵视觉对象
 借助矩阵视觉对象，可以执行之前无法实现的各种有意思的向下钻取活动。 这包括向下钻取行、列、单独分区和单元格。 让我们来看看每种向下钻取活动的工作原理。

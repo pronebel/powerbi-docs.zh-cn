@@ -7,12 +7,12 @@ ms.topic: conceptual
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.date: 03/24/2020
-ms.openlocfilehash: 472797cf30d6b88a59af5b3846e9b710bf4607c7
-ms.sourcegitcommit: 81407c9ccadfa84837e07861876dff65d21667c7
+ms.openlocfilehash: db907897256ef4afc0bdb9a253a23880b6e79f53
+ms.sourcegitcommit: 5ece366fceee9832724dae40eacf8755e1d85b04
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/13/2020
-ms.locfileid: "81267494"
+ms.lasthandoff: 04/16/2020
+ms.locfileid: "81525459"
 ---
 # <a name="export-power-bi-report-to-file-preview"></a>将 Power BI 报表导出到文件（预览）
 
@@ -106,6 +106,7 @@ ms.locfileid: "81267494"
 * 无法使用[服务主体](embed-service-principal.md)将具有敏感度标签的报表导出到 .pdf 或 .pptx。
 * 导出的报表中可包含 30 个报表页。 如果报表包含更多报表页，此 API 会返回错误，导出作业也会遭取消。
 * 不支持导出使用[个人书签](../../consumer/end-user-bookmarks.md#personal-bookmarks)和[永久性筛选器](https://powerbi.microsoft.com/blog/announcing-persistent-filters-in-the-service/)的报表。
+* 目前不支持主权云。
 * 不支持导出包含下列 Power BI 视觉对象的报表。 如果你导出包含这些视觉对象的报表，包含这些视觉对象的报表部分将不会呈现，并会显示错误符号。
     * 未经认证的 Power BI 视觉对象
     * R 视觉对象

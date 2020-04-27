@@ -1,158 +1,106 @@
 ---
 title: 组织中的 Power BI 许可
-description: 了解 Power BI 中可用的不同许可证类型：免费许可、Power BI Pro 和 Power BI Premium。
+description: 概述 Power BI 中提供的不同许可证类型以及管理员如何为其组织购买和管理许可。
 author: kfollis
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
-ms.date: 09/09/2019
+ms.date: 04/08/2020
 ms.author: kfollis
 LocalizationGroup: Administration
-ms.openlocfilehash: 7a2cc9a1deb87e94c0887b1ae00174d6791cf712
-ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
+ms.openlocfilehash: a41e9453158c38a208fe7f4ac937b4e86a515f4b
+ms.sourcegitcommit: b2cb0b02bdc451bf11a92a68f2c4d560a811f563
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/06/2020
-ms.locfileid: "74700018"
+ms.lasthandoff: 04/16/2020
+ms.locfileid: "81436313"
 ---
 # <a name="power-bi-licensing-in-your-organization"></a>组织中的 Power BI 许可
 
-[!INCLUDE [license-capabilities](includes/license-capabilities.md)]
+用户可在 Power BI 服务中执行的操作取决于他们所拥有的用户个人许可证类型以及他们所处理的内容是否位于分配给 Power BI 高级容量的工作区中。 Power BI 服务的所有用户都必须拥有许可证。
 
-本文从管理员角度重点介绍用户许可。
+用户可以通过两种方式获取许可证。 使用自助注册功能及其工作或学校帐户，用户可以获得自己的免费或 Pro 许可证。 或者，管理员可以获取 Power BI 订阅并将许可证分配给用户。
 
-## <a name="manage-power-bi-pro-licenses"></a>管理 Power BI Pro 许可证
+本文从管理员角度重点介绍购买服务和用户个人许可。 要详细了解用户如何获取自己的许可证，请参阅[以个人身份注册 Power BI](service-self-service-signup-for-power-bi.md)。
 
-作为管理员，你可以购买和分配 Power BI Pro 许可证；可以为你的组织注册 Power BI Pro 试用版。 用户自己也可以注册 Power BI Pro 试用版。
+## <a name="who-can-purchase-and-assign-licenses"></a>谁可以购买和分配许可证？
 
-### <a name="purchase-power-bi-pro-licenses"></a>购买 Power BI Pro 许可证
+必须分到管理员角色才能为组织购买或分配许可证。 使用 Azure Active Directory 管理中心或 Microsoft 365 管理中心分配管理角色。 下表显示了执行与购买和许可相关的任务所需的角色。 要详细了解 Azure Active Directory 中的管理员角色，请参阅[在 Azure Active Directory 中查看和分配管理员角色](https://docs.microsoft.com/azure/active-directory/users-groups-roles/directory-manage-roles-portal)。 要详细了解 Microsoft 365 中的管理员角色（包括最佳做法），请参阅[关于管理员角色](https://docs.microsoft.com/microsoft-365/admin/add-users/about-admin-roles?view=o365-worldwide)。
 
-作为管理员，你可以通过 Microsoft Office 365 或已认证的 Microsoft 合作伙伴购买 Power BI Pro 许可证。 购买许可证后，你可以将它们分配给各个用户。 有关更多信息，请参阅[购买和分配 Power BI Pro 许可证](service-admin-purchasing-power-bi-pro.md)。
+| 谁可以购买服务和许可证？ | 谁可以管理用户许可证？ |
+| --------------- | --------------- |
+| 帐务管理员 | 许可证管理员 |
+| 全局管理员 | 用户管理员 |
+|  | 全局管理员 |
+
+这些角色管理组织。 要了解 Power BI 服务管理员角色，请参阅[了解 Power BI 服务管理员角色](service-admin-role.md)。
+
+## <a name="get-power-bi-for-your-organization"></a>为组织获取 Power BI
+
+全局管理员或计费管理员可以注册 Power BI 服务并为组织中的用户购买许可证。 如果你还没有准备好购买，请选择 Power BI Pro 试用版。 你将获得 25 个许可证，有效期为一个月。 有关如何注册的分步说明，请参阅[获取组织的 Power BI 订阅](admin/service-admin-org-subscription.md)。
+
+## <a name="about-self-service-sign-up"></a>关于自助注册
+
+个人用户可以通过使用他们的工作或学校帐户注册来获得自己的 Power BI 许可证。 通过免费许可证，用户可以使用“我的工作区”探索 Power BI 以进行个人数据分析和可视化，但不能发起与其他用户协作。 共享内容需要 Power BI Pro 许可证。 如果组织正在使用商业云，用户可以将其许可证类型升级到 Pro，或直接注册 Pro。 直接购买或升级到 Pro 不适合部署到政府或主权云实例的（教育）组织。
+
+如果不希望组织中的用户可以使用自助注册，请参阅[启用或禁用自助注册](admin/service-admin-disable-self-service.md)，了解如何关闭此功能。
+
+若要查看组织中哪些用户可能已经拥有许可证，请参阅[查看和管理用户许可证](admin/service-admin-manage-licenses.md)，了解操作方法。
+
+## <a name="license-types-and-capabilities"></a>许可证类型和功能
+
+Power BI 用户个人许可证有两种类型：免费版和 Pro 版。 用户需要的许可证类型取决于内容的存储位置以及他们与该内容进行交互的方式。 内容的存储位置取决于组织的[订阅类型](#subscription-types)。
+
+一种订阅类型（[Power BI Premium](service-admin-premium-purchase.md)允许拥有免费许可证的用户处理分配给高级容量的工作区中的内容。 在高级容量之外，具有免费许可证的用户只能使用 Power BI 服务连接到数据并在个人工作区中创建报表和仪表板。 他们无法与他人共享内容或将内容发布到应用工作区。
+
+标准 Power BI 订阅使用共享容量。 当内容存储在共享容量中时，分到 Power BI Pro 许可证的用户只能与其他 Power BI Pro 用户协作。 他们可以使用其他用户共享的内容，将内容发布到应用工作区，共享仪表板以及订阅仪表板和报表。  当工作区在高级容量中时，Pro 用户可以将内容分发给没有 Power BI Pro 许可证的用户。
+
+下表总结了每种许可证类型的基本功能。 有关每个许可证类型的功能可用性的详细信息，请参阅[按许可证类型列出的功能](service-features-license-type.md)。
+
+| 许可证类型 | 工作区在共享容量中时的功能 | 工作区在高级容量中时的其他功能 |
+| --------- | ----------- | ----------- |
+| Power BI（免费） | 访问“我的工作区”的内容 | 使用与之共享的内容 |
+| Power BI Pro | 将内容发布到应用工作区，共享仪表板，订阅仪表板和报表，与拥有 Pro 许可证的用户共享 | 向拥有免费许可证的用户分发内容 |
+
+## <a name="subscription-types"></a>订阅类型
+
+来自 Microsoft 的所有基于用户的商业许可证订阅都基于 Azure Active Directory 标识。 这意味着必须使用 Azure Active Directory 支持的商业许可证标识登录。 你可以将 Power BI 订阅添加到任何使用 Azure Active Directory 进行标识服务的 Microsoft 订阅。 某些订阅（如 Office 365 E5）包含 Power BI Pro 许可证，因此无需单独注册 Power BI。
+
+组织有两种类型的 Power BI 订阅：Power BI Pro 的自助 BI 和 Power BI Premium 的高级分析。
+
+使用标准的自助 Power BI Pro 订阅，管理员可分配用户个人许可证。 Power BI Pro 许可证支持协作、发布、共享和临时分析，每个用户每月需要缴纳相应费用。 内容将保存到由 Microsoft 完全托管的共享存储容量中。
+
+Power BI Premium 订阅向组织分配专用容量。 Premium 适用于企业 BI、大数据分析以及云和本地报表，提供高级管理和部署控制。 专用计算和存储资源由组织中的容量管理员管理。 每月需要为此专用环境支付费用。 除了其他高级优势外，存储在高级容量中的内容可以由没有 Power BI Pro 许可证的用户访问并分发给用户。 必须至少有一个用户分到 Power BI Pro 许可证才能使用 Premium，并且内容创建者和开发人员仍然需要 Power BI Pro 许可证。
+
+这两种类型的订阅不互相排斥。 可以同时拥有 Power BI Premium 和 Power BI Pro。 在此配置中，存储在高级容量中的内容可以与所有用户共享，并且共享容量也可以。 有关容量限制的信息，请参阅[管理 Power BI 工作区中的数据存储](service-admin-manage-your-data-storage-in-power-bi.md)。
+
+若要比较产品功能和定价，请参阅 [Power BI 定价](https://powerbi.microsoft.com/pricing)。
+
+## <a name="guest-user-access"></a>来宾用户访问权限
+
+你可能希望将内容分发给组织之外的用户。 可以通过邀请外部用户以来宾身份查看内容来与外部用户共享内容。 Azure Active Directory 企业对企业 (Azure AD B2B) 允许与外部来宾用户共享。 必须满足以下先决条件才能与外部用户共享：
+
+- 必须启用与外部用户共享内容的能力
+
+- 来宾用户必须获得适当许可才能查看共享内容
+
+如需详细了解来宾用户访问权限，请参阅[使用 Azure AD B2B 将 Power BI 内容分发给外部来宾用户](service-admin-azure-ad-b2b.md)。
+
+## <a name="purchase-power-bi-pro-licenses"></a>购买 Power BI Pro 许可证
+
+管理员通过 Microsoft Office 365 或 Microsoft 合作伙伴购买 Power BI Pro 许可证。 购买许可证后，你可以将它们分配给个人用户。 有关更多信息，请参阅[购买和分配 Power BI Pro 许可证](service-admin-purchasing-power-bi-pro.md)。
 
 ### <a name="power-bi-pro-license-expiration"></a>Power BI Pro 许可证过期
 
-Power BI Pro 许可证过期后，还有一个宽限期。 对于批量购买的许可证，宽限期为 90 天。 如果是直接购买许可证，则宽限期为 30 天。
+Power BI Pro 许可证到期后有一段宽限期。 对于批量购买的许可证，宽限期为 90 天。 如果是直接购买许可证，则宽限期为 30 天。
 
 Power BI Pro 的订阅生命周期与 Office 365 相同。 有关详细信息，请参阅 [Office 365 商业版订阅过期时，我的数据和访问权限会发生什么变化？](https://support.office.com/article/What-happens-to-my-data-and-access-when-my-Office-365-for-business-subscription-ends-4436582f-211a-45ec-b72e-33647f97d8a3)。
 
-### <a name="power-bi-pro-trial-for-individuals"></a>面向个人的 Power BI Pro 试用版
-
-你组织中的个人可以注册 Power BI Pro 试用版。 有关更多信息，请参阅[以个人身份注册 Power BI](service-self-service-signup-for-power-bi.md)。
-
-自己申请享受 Power BI Pro 试用版功能的用户不会在 Microsoft 365 管理中心内显示为 Power BI Pro 试用版用户（他们显示为 Power BI 免费用户）。 但是，他们会在 Power BI 中管理存储页面上显示为 Power BI Pro 试用版用户。
-
-### <a name="power-bi-pro-trial-for-organizations"></a>面向组织的 Power BI Pro 试用版
-
-如果你希望获取 Power BI 试用版许可证并调配给组织中的多个用户使用而无需其分别接受试用条款，则可以以组织为单位注册 Power BI Pro 试用版。
-
-在执行注册步骤之前，请记住以下几点：
-
-* 要进行注册，你必须是 Office 365 [全局管理员或帐务管理员](https://support.office.com/article/about-office-365-admin-roles-da585eea-f576-4f55-a1e0-87090b6aaa9d)角色中的一员。  
-
-* 每个租户只能申请一个组织试用版。 这意味着如果有人已将 Power BI Pro 试用版应用到你的租户，则无法再次应用。 如果需要这方面的帮助，请联系 [Office 365 计费支持](https://support.office.microsoft.com/article/contact-support-for-business-products-admin-help-32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b?CorrelationId=552bbf37-214f-4202-80cb-b94240dcd671)。
-
-1. 导航到 [MIcrosoft 365 管理中心](https://portal.office.com/adminportal/home#/homepage)。
-
-1. 在导航窗格中，选择“账单”，然后选择“订阅”   。
-
-   ![计费和订阅](media/service-admin-licensing-organization/service-power-bi-pro-in-your-organization-05.png)
-
-1. 选择右侧的“添加订阅”。 
-
-   ![添加订阅](media/service-admin-licensing-organization/service-power-bi-pro-in-your-organization-06.png)
-
-1. 在“其他计划”下，将鼠标悬停在 Power BI Pro 的省略号 (...) 上方，然后选择“开始免费试用”。   
-
-   ![开始免费试用](media/service-admin-licensing-organization/service-power-bi-pro-in-your-organization-07.png) 
-
-1. 在订单确认屏幕上，选择“立即试用”。 
-
-1. 在订单签收上选择“继续”。 
-
-现在，可以[在 Office 365 中分配许可证](https://support.office.com/article/assign-licenses-to-users-in-office-365-for-business-997596b5-4173-4627-b915-36abac6786dc)。
-
-## <a name="manage-power-bi-free-licenses"></a>管理 Power BI 免费许可证
-
-组织中的用户可以通过两种不同方式获取 Power BI 免费许可证的使用权：
-
-* 你可在 Microsoft 365 管理中心内为其分配 Power BI 许可证。
-
-* 如果用户[以个人身份注册 Power BI](service-self-service-signup-for-power-bi.md)，则会自动为其分配免费许可证。
-
-### <a name="requesting-and-assigning-free-licenses"></a>请求和分配免费许可证
-
-如果你计划集中管理许可证请求和分配，请首先检查你是否已拥有不受限制的 Power BI（免费）许可证块。
-
-在某个用户首次以个人身份注册 Power BI 之后此许可证块可用。 在该过程中，此许可证块会附加到你的组织，并自动为进行注册的用户分配一个许可证。
-
-1. 在 Microsoft 365 管理中心的“账单” > “许可证”下，检查是否为“无限制”    。
-
-    ![无限制的免费许可证块](media/service-admin-licensing-organization/unlimited-licenses.png)
-
-1. 如果此块可用，你现在可以[在 Office 365 中分配许可证](https://support.office.com/article/assign-licenses-to-users-in-office-365-for-business-997596b5-4173-4627-b915-36abac6786dc)。 如果此块不可用，你有两种选择：
-
-    * 让你组织内的某个成员单独先注册，以触发无限制块的创建。
-
-    * 转到下一个步骤，注册固定数量的许可证。
-
-如果不受限制的 Power BI（免费）许可证块不可用且你不想让用户单独进行注册，请按照此步骤操作。
-
-1. 导航到 [MIcrosoft 365 管理中心](https://portal.office.com/admin/default.aspx)。
-
-1. 在导航窗格中，选择“账单” > “订阅”   。
-
-1. 选择右侧的“添加订阅 +”。 
-
-1. 在“其他计划”下，将鼠标悬停在 Power BI（免费）的省略号 (...)  上方，然后选择“立即购买”  。 
-
-    ![立即购买 - Power BI（免费）](media/service-admin-licensing-organization/buy-powerbi-free.png)
-
-1. 输入要添加的许可证数，并选择  “立即结帐”或“添加到购物车”  。
-
-1. 输入结帐流程中的所需信息。
-
-    使用此方法时不会进行实际购买，不过你需要输入信用卡信息以进行计帐或选择开票。
-
-1. 现在，你可以[在 Office 365 中分配许可证](https://support.office.com/article/assign-licenses-to-users-in-office-365-for-business-997596b5-4173-4627-b915-36abac6786dc)。
-
-1. 如果以后你决定要添加更多许可证，则可以返回到“添加订阅”，然后对 Power BI（免费）选择“更改许可证数量”   。
-
-    ![更改许可证数量](media/service-admin-licensing-organization/change-license-quantity.png)
-
-### <a name="enable-or-disable-individual-user-sign-up-in-azure-active-directory"></a>在 Azure Active Directory 中启用或禁用个人用户注册
-
-作为管理员，你可以通过 Azure Active Directory (AAD) 选择启用或禁用个人用户注册。 本文中下面部分内容向你展示了如何使用 PowerShell 命令管理注册设定。 有关 Azure PowerShell 的详细信息，请参阅 [ Azure PowerShell 概述](/powershell/azure/overview)。
-
-Azure AD 设置中用于控制注册功能的是 AllowAdHocSubscriptions 命令  。 在大多数租户环境中，该处值设定的是 true，这意味着它处于启用状态  。 如果你是通过合作伙伴获取 Power BI，则此处可能被设置为 false ，这意味着它处于禁用状态  。 如果你将该设置从 true 更改为 false，则会阻止组织中的新用户以个人身份进行注册   。 在设置更改之前注册 Power BI 的用户将保留其许可证。 请注意，设置为“false”，具有 Power BI（免费）许可证的用户仍可以注册个人 Power BI Pro 试用版  。
-
-1. 使用 Microsoft 365 凭据登录 Azure Active Directory。 以下 PowerShell 脚本中的第一行会提示你输入凭据。 第二行连接到 Azure Active Directory。
-
-    ```powershell
-     $msolcred = get-credential
-     connect-msolservice -credential $msolcred
-    ```
-
-   ![Azure Active Directory 登录](media/service-admin-licensing-organization/azure-ad-sign-in.png)
-
-1. 登录之后，运行以下命令以查看当前是如何配置租户环境的。 （请注意，下面的“fl”使用字母“l”，而不是数字 1。）
-
-    ```powershell
-     Get-MsolCompanyInformation | fl AllowAdHocSubscriptions 
-    ```
-1. 运行以下命令启用 ($true) 或禁用 ($false) AllowAdHocSubscriptions  。
-
-    ```powershell
-     Set-MsolCompanySettings -AllowAdHocSubscriptions $true
-    ```
-
-> [!NOTE]
-> AllowAdHocSubscriptions 标记用于控制组织中的若干用户权限，其中包括用户注册 Azure 权限管理服务的功能。 更改此标志会影响所有这些功能。
 
 ## <a name="next-steps"></a>后续步骤
 
-[自助注册 Power BI](service-self-service-signup-for-power-bi.md)  
-
-[购买和分配 Power BI Pro 许可证](service-admin-purchasing-power-bi-pro.md)
-
-更多问题？ [尝试咨询 Power BI 社区](https://community.powerbi.com/)
+- [购买和分配 Power BI Pro 许可证](service-admin-purchasing-power-bi-pro.md)
+- [Microsoft 365 商业版订阅和计费文档](https://docs.microsoft.com/microsoft-365/commerce/?view=o365-worldwide)
+- [查找已登录的 Power BI 用户](service-admin-access-usage.md)
+- 更多问题？ [尝试咨询 Power BI 社区](https://community.powerbi.com/)

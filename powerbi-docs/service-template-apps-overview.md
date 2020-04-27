@@ -6,24 +6,24 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 12/17/2019
+ms.date: 04/16/2020
 ms.author: painbar
-ms.openlocfilehash: c9a42949ca517860c8b3f0e6faa07d49bd8054e8
-ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
+ms.openlocfilehash: 42fa16228deea88f606e348d1a87f9d465c8c2ea
+ms.sourcegitcommit: 01bcbc8f0280aec875b22542a9c193c80899dc10
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/14/2020
-ms.locfileid: "79376675"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "82066316"
 ---
 # <a name="what-are-power-bi-template-apps"></a>什么是 Power BI 模板应用？
 
 新的 Power BI 模板应用使 Power BI 合作伙伴能够在极少编码或没有编码的情况下生成 Power BI 应用，并将它们部署到任何 Power BI 客户  。  本文概述了 Power BI 模板应用程序。
 
-模板应用是当前服务内容包的替代品。 作为 Power BI 合作伙伴，你可以为客户创建一组现成可用的内容，并自行发布。  
+作为 Power BI 合作伙伴，你可以为客户创建一组现成可用的内容，并自行发布。  
 
 生成模板应用，允许客户在自己的帐户内连接并实例化。 对于域专业人员而言，可采用便于业务用户使用的方式来解锁数据。  
 
-将模板应用提交到云合作伙伴门户。 随后，应用将在 [Power BI 应用市场](https://app.powerbi.com/getdata/services)和 [Microsoft AppSource](https://appsource.microsoft.com/?product=power-bi) 上公开可用。 下文深入介绍了公共模板应用创建体验。
+向合作伙伴中心提交模板应用。 随后，应用将在 [Power BI 应用市场](https://app.powerbi.com/getdata/services)和 [Microsoft AppSource](https://appsource.microsoft.com/?product=power-bi) 上公开可用。 下文深入介绍了公共模板应用创建体验。
 
 ## <a name="power-bi-apps-marketplace"></a>Power BI 应用市场
 
@@ -38,7 +38,7 @@ Power BI 模板应用允许 Power BI Pro 或 Power BI Premium 用户通过可连
 开发和提交模板应用的常规过程涉及多个步骤。 某些阶段可能同时包含多个活动。
 
 
-| 阶段 | Power BI Desktop |  |Power BI 服务  |  |云合作伙伴门户  |
+| 阶段 | Power BI Desktop |  |Power BI 服务  |  |合作伙伴中心  |
 |---|--------|--|---------|---------|---------|
 | **一** | 在 .pbix 文件中生成数据模型和报表 |  | 创建工作区。 导入 .pbix 文件。 创建互补仪表板  |  | 注册为合作伙伴 |
 | **二** |  |  | 创建测试包并运行内部验证        |  | |
@@ -49,7 +49,7 @@ Power BI 模板应用允许 Power BI Pro 或 Power BI Premium 用户通过可连
 
 若要创建模板应用，需要权限以进行创建。 有关详细信息，请参阅 Power BI 管理门户的模板应用设置。 
 
-若要将模板应用发布到 Power BI 服务和 AppSource，必须满足[成为云市场发布者](https://docs.microsoft.com/azure/marketplace/become-publisher)的要求。
+若要将模板应用发布到 Power BI 服务和 AppSource，必须满足[成为合作伙伴中心发布者](https://docs.microsoft.com/azure/marketplace/become-publisher)的要求。
  
 ## <a name="high-level-steps"></a>高级步骤
 
@@ -67,7 +67,7 @@ Power BI 模板应用允许 Power BI Pro 或 Power BI Premium 用户通过可连
 
 6. 将测试应用提升到预生产，以在 AppSource 中提交应用进行验证，并在自己的租户之外进行测试。 
 
-7. 将内容提交到“云合作伙伴平台”进行发布。 
+7. 将内容提交到[合作伙伴中心](https://docs.microsoft.com/azure/marketplace/partner-center-portal/create-power-bi-app-offer)以便发布。 
 
 8. 让产品/服务在 AppSource 中“上线”，并将应用移至 Power BI 中的生产。
 
@@ -75,11 +75,11 @@ Power BI 模板应用允许 Power BI Pro 或 Power BI Premium 用户通过可连
 
 ## <a name="requirements"></a>要求
 
-若要创建模板应用，需要权限以进行创建。 有关详细信息，请参阅 Power BI [管理门户的模板应用设置](service-admin-portal.md#template-apps-settings)。 
+若要创建模板应用，需要权限以进行创建。 有关详细信息，请参阅 Power BI [管理门户的模板应用设置](service-admin-portal.md#template-apps-settings)。
 
-若要将模板应用发布到 Power BI 服务和 AppSource，必须满足[成为云市场发布者](https://docs.microsoft.com/azure/marketplace/become-publisher)的要求。
+若要将模板应用发布到 Power BI 服务和 AppSource，必须满足[成为合作伙伴中心发布者](https://docs.microsoft.com/azure/marketplace/become-publisher)的要求。
  > [!NOTE] 
- > 模板应用提交内容在[云合作伙伴门户](https://cloudpartner.azure.com)中进行管理。 使用同一 Microsoft 开发人员中心注册帐户进行登录。 你的 AppSource 产品/服务应只有一个 Microsoft 帐户。 帐户不得特定于单个服务或产品。
+ > 模板应用提交内容在[伙伴中心](https://docs.microsoft.com/azure/marketplace/partner-center-portal/create-power-bi-app-offer)中进行管理。 使用同一 Microsoft 开发人员中心注册帐户进行登录。 你的 AppSource 产品/服务应只有一个 Microsoft 帐户。 帐户不得特定于单个服务或产品。
 
 ## <a name="tips"></a>提示 
 

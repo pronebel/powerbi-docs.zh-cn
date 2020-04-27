@@ -10,12 +10,12 @@ ms.subservice: powerbi-consumer
 ms.topic: conceptual
 ms.date: 03/24/2020
 LocalizationGroup: Common tasks
-ms.openlocfilehash: bfec81aaa47f210855c4db4c8c97ab259b685110
-ms.sourcegitcommit: bcc42e938fa28abe433287fecb9abb28c253b6bb
+ms.openlocfilehash: 10d1e87fabc54c5886930c52ce60ed4a62479847
+ms.sourcegitcommit: 5ece366fceee9832724dae40eacf8755e1d85b04
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/26/2020
-ms.locfileid: "80302455"
+ms.lasthandoff: 04/16/2020
+ms.locfileid: "81525419"
 ---
 # <a name="subscribe-to-a-report-or-dashboard-in-the-power-bi-service"></a>在 Power BI 服务中订阅报表或仪表板 
 
@@ -33,7 +33,7 @@ ms.locfileid: "80302455"
 
 
 ## <a name="requirements"></a>要求
-必须有特定类型的[许可证](end-user-license.md)，才能为你自己创建  订阅。 如果无法创建订阅，请联系 Power BI 管理员。 “订阅其他内容”  仅适用于仪表板或报表所有者。 订阅分页报表略有不同。 有关详细信息，请参阅 [在 Power BI 服务中为自己和他人订阅分页报表](paginated-reports-subscriptions.md) 。 
+必须有特定类型的[许可证](end-user-license.md)，才能为你自己创建  订阅。 如果无法创建订阅，请联系 Power BI 管理员。 “订阅其他内容”  仅适用于仪表板或报表所有者。 订阅分页报表略有不同。 请参阅[在 Power BI 服务中为自己和他人订阅分页报表](paginated-reports-subscriptions.md)，获取详细信息。 
 
 ## <a name="subscribe-to-a-dashboard-or-a-report-page"></a>订阅仪表板或报表页
 无论是要订阅仪表板还是报表，过程都类似。 使用同一按钮，即可订阅 Power BI 服务仪表板和报表。
@@ -55,7 +55,7 @@ ms.locfileid: "80302455"
 
     c. （可选）添加主题和电子邮件详细信息。 
 
-    d. 选择订阅的“频率”  。  可以选择“每天”、“每周”或“数据刷新后(每天)”。  若要仅在某些天接收订阅电子邮件，请选择“每周”  ，然后选择要在哪几天接收电子邮件。  例如，若要仅在工作日收到订阅电子邮件，请选择“每周一次”  作为频率，并取消选中“周六”和“周日”对应的框。 如果选择“每月”  ，请输入要在每月的哪（几）天接收订阅邮件。    
+    d. 选择订阅的“频率”  。  可以选择“每天”、“每周”或“数据刷新后(每天)”。  若要仅在某些天接收订阅电子邮件，请选择“每周”  ，然后选择要在哪几天接收电子邮件。  例如，若要仅在工作日收到订阅电子邮件，请选择“每周一次”  作为频率，并取消选中“周六”和“周日”对应的框。 如果选择“每月”  ，请输入要接收订阅邮件的月份的日期。   
 
     e. 如果选择“每天”、“每小时”、“每月”或“每周”，还可以为订阅选择“计划时间”。 可使它按小时运行，或在过去 15、30 或 45 分钟时运行。 选择早上 (AM) 或下午/晚上 (PM)。 还可以指定时区。 如果选择“每小时”，请选择你希望订阅开始的“计划时间”，之后它将每小时运行一次。  
 
@@ -73,7 +73,7 @@ ms.locfileid: "80302455"
 
 
 ## <a name="manage-your-subscriptions"></a>管理订阅
-只有你可以管理你所创建的订阅。 再次选择“订阅”  ，然后选择左下角的“管理所有订阅”  （见上面的屏幕截图）。 具体显示哪些订阅视当前处于活动状态的工作区而定。 若要一次性查看所有工作区的全部订阅，请确保“我的工作区” **** 处于活动状态。  若要了解工作区，请参阅  [Power BI 中的工作区](end-user-workspaces.md)。 
+只有你可以管理你所创建的订阅。 再次选择“订阅”  ，然后选择左下角的“管理所有订阅”  （见上面的屏幕截图）。 具体显示哪些订阅视当前处于活动状态的工作区而定。 若要一次性查看所有工作区的全部订阅，请确保“**我的工作区**”处于活动状态。 若要了解工作区，请参阅 [Power BI 中的工作区](end-user-workspaces.md)。 
 
 ![请参阅我的工作区中的所有订阅](./media/end-user-subscribe/power-bi-manage-subscriptions.png)
 

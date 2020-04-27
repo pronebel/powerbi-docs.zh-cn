@@ -9,12 +9,12 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 02/16/2020
 ms.author: v-pemyer
-ms.openlocfilehash: b1ab74ec7f7f6594450ec2cf95528d06dc45f613
-ms.sourcegitcommit: 032a77f2367ca937f45e7e751997d7b7d0e89ee2
+ms.openlocfilehash: 2962d5f8504b7214cb685457c59b11f1d9d7b85e
+ms.sourcegitcommit: 5ece366fceee9832724dae40eacf8755e1d85b04
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/26/2020
-ms.locfileid: "77610009"
+ms.lasthandoff: 04/16/2020
+ms.locfileid: "81525528"
 ---
 # <a name="monitor-report-performance-in-power-bi"></a>在 Power BI 中监视报表性能
 
@@ -23,7 +23,7 @@ ms.locfileid: "77610009"
 在下列情况下会监视性能：
 
 - 导入数据模型刷新速度缓慢。
-- DirectQuery 或 LiveConnection 报表速度缓慢。
+- DirectQuery 或 Live Connection 报表速度缓慢。
 - 模型计算速度缓慢。
 
 应重点针对速度缓慢的查询或报表视觉对象进行持续优化。
@@ -85,6 +85,7 @@ ms.locfileid: "77610009"
 
 - [查询诊断](/power-query/QueryDiagnostics)
 - [性能分析器](../desktop-performance-analyzer.md)
+- [Power BI 中的报表性能疑难解答](report-performance-troubleshoot.md)
 - [Power BI Premium 指标应用](../service-premium-metrics-app.md)
 - 是否有任何问题? [尝试咨询 Power BI 社区](https://community.powerbi.com/)
 - 建议？ [提出改进 Power BI 的想法](https://ideas.powerbi.com/)

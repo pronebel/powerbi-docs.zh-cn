@@ -8,12 +8,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 03/24/2020
 ms.author: tebercov
-ms.openlocfilehash: 92d5a5177b0fa03af583e9e89ce574c0197f3f7a
-ms.sourcegitcommit: ad638d553d5f7f5831587791ffa7aa37a47dd6ae
+ms.openlocfilehash: 12ba04381c5227c897f4b1f13def4c52999bc1a5
+ms.sourcegitcommit: 01bcbc8f0280aec875b22542a9c193c80899dc10
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/26/2020
-ms.locfileid: "80273216"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "82066273"
 ---
 # <a name="tips-for-authoring-template-apps-in-power-bi"></a>在 Power BI 中创作模板应用的提示
 
@@ -128,7 +128,7 @@ Power BI Desktop 中的[参数](https://powerbi.microsoft.com/blog/deep-dive-int
 * 制定可供验证团队遵循的说明，其中包括连接到数据所需的凭据和参数。
 * 应用必须在 Power BI 中和 CPP 产品/服务上添加“应用”图标。 [了解详细信息](https://docs.microsoft.com/power-bi/service-template-apps-create#create-the-test-template-app)
 * 已配置登陆页面。 [了解详细信息](https://docs.microsoft.com/power-bi/service-template-apps-create#create-the-test-template-app)
-* 务必遵循 [Power BI 应用产品/服务](https://docs.microsoft.com/azure/marketplace/cloud-partner-portal/power-bi/cpp-power-bi-offer)文档中的指南。
+* 务必遵循 [合作伙伴中心 -> Power BI 应用产品/服务](https://docs.microsoft.com/azure/marketplace/partner-center-portal/create-power-bi-app-offer)文档中的指南。
 * 如果仪表板是应用的一部分，请确保仪表板不为空。
 * 提交前，先使用应用链接安装应用，以确保你能连接数据集，且应用体验符合预期。
 * 将 pbix 上传到模板工作区前，请先务必卸载任何不必要的连接。

@@ -6,19 +6,21 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 10/08/2019
+ms.date: 04/15/2020
 ms.author: maggies
 LocalizationGroup: Get started
-ms.openlocfilehash: 2216fb2b18fd0f35fe9ece25ae2bfeea26672a66
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 69b42452af53b8929f49a6bde6b47b0cf3cc152e
+ms.sourcegitcommit: 5ece366fceee9832724dae40eacf8755e1d85b04
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73872026"
+ms.lasthandoff: 04/16/2020
+ms.locfileid: "81525551"
 ---
 # <a name="the-new-look-where-did-the-actions-go"></a>“全新外观”：操作位于何处？
 
 Power BI 服务 (app.powerbi.com) 的新外观使报表查看和交互更加容易。 因此，已移动多个菜单操作。 本文中的表将旧位置映射到新位置。 有关背景，请参阅 [Power BI 服务的“新外观”](service-new-look.md)。
+
+正在查找有关 Power BI Desktop 中新外观的信息  ？ 请参阅[在 Power BI Desktop 中使用更新后的功能区](desktop-ribbon.md)。
 
 ## <a name="report-actions-in-the-new-look"></a>新外观中的报表操作
 

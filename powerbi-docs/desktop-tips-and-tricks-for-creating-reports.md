@@ -7,14 +7,14 @@ ms.custom: seodec18
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 01/31/2020
+ms.date: 04/22/2020
 ms.author: davidi
-ms.openlocfilehash: d3733b651ac8b9687d3b0547cc2f76c04a0d0823
-ms.sourcegitcommit: d6a48e6f6e3449820b5ca03638b11c55f4e9319c
+ms.openlocfilehash: 95492b8561c37b52e77fbd8b16ce5e1e2ec4e4e1
+ms.sourcegitcommit: 01bcbc8f0280aec875b22542a9c193c80899dc10
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/18/2020
-ms.locfileid: "77427245"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "82066209"
 ---
 # <a name="tips-and-tricks-for-creating-reports-in-power-bi-desktop"></a>在 Power BI Desktop 创建报表的相关提示和技巧
 若要充分利用你的数据，有时你还需要一点帮助。 我们整理了一些提示和技巧，以便你在 Microsoft Power BI Desktop *及*启用了 Power Pivot 加载项且安装和启用了 Power Query 的 Microsoft Excel 2016 或 Excel 2013 Pro-Plus 版本中创建报表时可加以使用。 
@@ -36,7 +36,7 @@ Power BI Desktop 中的查询编辑器与 Excel 2013 中的 Power Query 加载�
 
 * 将文件用作查询的数据源时，指向文件的绝对路径存储在查询中。 在分享或移动 Power BI Desktop 文件或 Excel workbook 时，可通过仅更新一次来更新路径，从而节省时间。
 
-默认情况下，所有查询都将加载到数据模型。 某些查询是中间步骤，不用于最终用户。 按上述所提方式引用查询时，通常是这种情况。 可右键单击浏览器中的查询并切换“启用加载”选项，从而控制查询加载行为。 如果“启用加载”旁边没有勾号，则查询仍可用于查询选项卡且可与其他查询一同使用。 在与“合并”、“追加”和“引用”转换配合使用时，此功能尤其有用。 但由于查询结果未加载到数据模型，此查询将不会打乱报表字段列表或数据模型。 
+默认情况下，所有查询都将加载到数据模型。 某些查询是中间步骤，不用于最终用户。 按上述所提方式引用查询时，通常是这种情况。 可右键单击浏览器中的查询并切换“启用加载”选项，从而控制查询加载行为。 如果“启用加载”旁边没有勾号，则查询仍可用于查询选项卡且可与其他查询一同使用  。 在与“合并”、“追加”和“引用”转换配合使用时，此功能尤其有用。 但由于查询结果未加载到数据模型，此查询将不会打乱报表字段列表或数据模型。 
 
 ## <a name="scatter-charts-need-a-point-identifier"></a>散点图需要点标识符
 举个例子，一个简单的表上记录了天气和进行读取的时间。 如果将其直接绘制在散点图上，Power BI 会将所有值都聚合为一个点。 若要显示单独的数据点，必须在字段框的“详细信息”Bucket 中添加一个字段。 在 Power BI Desktop 中执行此操作的一种简单方法是在“查询”选项卡上，使用“添加列”功能区中的“添加索引列”选项。 
@@ -148,10 +148,10 @@ Power BI 与必应相集成，提供默认地图坐标（一个称为地理编�
 查询编辑器功能非常强大，它可操作数据以对其进行整理和清理，使数据可用于进行可视化和建模。 下面是需注意的几种模式。
 
 ### <a name="temporary-columns-can-be-deleted-after-computing-a-result"></a>计算出结果后，可删除临时列
-通常，你需要在 Power BI Desktop 中构建一个计算，将多列中的数据转换到单个新列中。 这可能很复杂。 克服此问题的一种简单的方法是将操作分解为多个步骤。 首先复制初始列。 再生成临时列步骤。 然后，创建最终结果列。 随后可删除临时列，使最终的数据集不杂乱。 这可能是由于查询选项卡按顺序执行步骤造成的。 
+通常，你需要在 Power BI Desktop 中构建一个计算，将多列中的数据转换到单个新列中。 这可能很复杂。 克服此问题的一种简单的方法是将操作分解为多个步骤。 首先复制初始列。 再生成临时列。 然后，创建最终结果列。 随后可删除临时列，使最终的数据集不杂乱。 这可能是由于查询选项卡按顺序执行步骤造成的。 
 
 ### <a name="duplicate-or-reference-queries-followed-by-merge-to-original-query"></a>复制或引用查询，然后合并到原始查询
-有时这有助于计算数据集的汇总统计信息。 此操作的简单方法是复制或引用查询选项卡中的查询。然后使用**分组依据**来计算汇总统计信息。 汇总统计信息可帮助你规范化原始数据中的数据，使其更加适于比较。 在将单独的值与整体相比较时，此项尤其有用。 此次，请转到原始查询并选择“合并”选项。 然后合并汇总统计信息查询中按合适标识符进行匹配的数据。 现在就可规范化分析所需的数据了。
+有时这有助于计算数据集的汇总统计信息。 此操作的简单方法是复制或引用查询选项卡中的查询。然后使用**分组依据**来计算汇总统计信息。 汇总统计信息可帮助你规范化原始数据中的数据，使其更加适合用于比较。 在将单独的值与整体相比较时，此项尤其有用。 此次，请转到原始查询并选择“合并”选项。 然后合并汇总统计信息查询中按合适标识符进行匹配的数据。 现在就可规范化分析所需的数据了。
 
 ## <a name="using-dax-for-the-first-time"></a>首次使用 DAX
 DAX 是 Power BI Desktop 中的计算公式语言。 它针对 BI 分析进行了优化。 与你仅使用 SQL（如查询语言）时可能熟知的功能相比，它可能略有不同。 可参阅详尽的在线资料和宣传资料来了解 DAX。 
@@ -161,3 +161,64 @@ DAX 是 Power BI Desktop 中的计算公式语言。 它针对 BI 分析进行�
 [数据分析表达式 (DAX) 引用](https://msdn.microsoft.com/library/gg413422.aspx)
 
 [DAX 资源中心](https://social.technet.microsoft.com/wiki/contents/articles/1088.dax-resource-center.aspx)
+
+## <a name="power-bi-service-and-power-bi-desktop"></a>Power BI 服务和  Power BI Desktop
+
+### <a name="read-andor-watch-how-to-design-visually-stunning-reports-and-dashboards-in-power-bi"></a>阅读和/或观看“如何在 Power BI 中设计视觉效果令人震撼的报表（和仪表板）”
+社区成员 Miguel Myers 既是数据科学家又是图形设计师。
+
+![Power BI 报表](media/desktop-tips-and-tricks-for-creating-reports/power-bi-reports.png)
+
+* [阅读博客](https://powerbi.microsoft.com/blog/how-to-design-visually-stunning-reports/)
+* [观看网络研讨会](https://info.microsoft.com/CO-PowerBI-WBNR-FY16-04Apr-19-Design-Reports-in-PowerBI-Registration.html)
+
+### <a name="consider-your-audience"></a>考虑受众
+可帮助他们做决定的关键指标是什么？ 如何使用报表？ 何种习得设定或文化设定可能会影响设计选择？ 你的受众需要哪些信息才能成功？
+
+将在什么位置显示报表？ 如果将在大型监视器上显示，你可在其上放置更多内容。 如果读者将在其平板电脑上查看它，则更少的可视化效果将更具可读性。
+
+### <a name="tell-a-story-and-keep-it-to-one-screen"></a>呈现一个情景，并将其保持在一个屏幕
+每个报表页应一目了然地呈现一个情景。 你是否可以在你的页面上避免使用滚动条？ 报表是否太杂乱或太拥挤？  删除可以轻松读取和解释的基本信息以外的所有信息。
+
+### <a name="make-the-most-important-information-biggest"></a>让最重要的信息以最大字体显示
+如果报表页上的文本和可视化效果大小相同，你的读者会很难将重点放在最重要的信息上。 例如，卡片可视化效果是突出显示重要数字的好办法：  
+![卡片可视化效果](media/service-dashboards-design-tips/pbi_card.png)
+
+### <a name="but-be-sure-to-provide-context"></a>但请务必提供上下文  
+
+使用文本框和工具提示等功能将上下文添加到可视化效果。
+
+### <a name="put-the-most-important-information-in-the-upper-corner"></a>将最重要的信息置于顶部角落
+大多数人会从上到下阅读，因此将最高级别的详细信息置于顶部，并在你以受众阅读的方向移动时显示更多详细信息（从左到右、从右到左）。
+
+### <a name="use-the-right-visualization-for-the-data-and-format-it-for-easy-reading"></a>对数据使用适当的可视化效果并设置其格式以方便阅读
+避免出于多样性的目的而使可视化效果多样。  可视化效果应对图片润色，且应易于“阅读”和解释。  对于某些数据和可视化效果，简单的图形可视化就足够了。 但其他数据可能会要求更复杂的可视化效果 - 确保使用标题和标签以及其他自定义来帮助读者。  
+
+* 请谨慎使用扭曲实体的图表（如三维图表）和不从零开始的图表。 请记住，对人脑来说，很难解释圆形形状。 饼图、环形图、仪表以及其他圆形的图表类型可能看起来相当美观，但是否可以使用其他视觉对象？    
+* 与轴上的图表比例、图表维序，以及用于图表内维度值的颜色保持一致。    
+* 务必恰当地对定量数据进行编码。 显示数字时，不要超过三个或四个数字。 对小数点左侧的一个或两个数字显示度量值并显示千或百万的单位，即 3.4 百万，而不是 3,400,000。    
+* 尽量避免混合精度级别和时间级别。 确保时间范围易于理解。  不要将上个月的图表置于该年度特定月份的已筛选图表旁。    
+* 此外，尽量避免在同一比例上（如在折线图或条形图上）混合大度量值和小度量值。  例如，一个度量值可能以百万计，其他度量值则以千计。  使用这种大比例，很难看出以千计的度量值的差异。  如果需要混合，则选择一个允许使用第二个轴的可视化效果，如组合图。    
+* 避免使用不需要的数据标签打乱图表。 条形图中的值（如果足够大）通常易于了解，而不显示实际数。   
+* 请注意如何[对图表进行排序](consumer/end-user-change-sort.md)。 如果你想要将注意点放在最高或最低的数字，则通过度量值进行排序。 如果希望用户能够在许多其他类别中快速找到特定类别，则按轴进行排序。  
+* 如果类别少于八个，则饼图最佳。 由于不能并排比较值，所以在饼图中的比较值要比在条形图和柱形图中比较值更难。 饼图有助于查看部分对整体的关系，而不利于将部分进行比较。 仪表盘则非常适合用于在目标上下文中显示当前状态。    
+
+有关更多可视化效果特定指南，请参阅 [Power BI 中的可视化效果类型](visuals/power-bi-visualization-types-for-reports-and-q-and-a.md)。  
+
+### <a name="learn-more-about-best-practice-dashboard-design"></a>了解更多关于最佳仪表板设计的信息
+一些我们最喜爱的书籍有：
+
+* *Storytelling with Data*，Cole Nussbaumer Knafic 著
+* *Data points*，Nathan Yau 著
+* *The truthful Art*，Alberto Cairo 著
+* *Now You See It* ，Stephen Few 著  
+* *Envisioning Information* ，Edward Tufte 著  
+* *Advanced Presentations Design*，Andrew Abela 著   
+
+## <a name="next-steps"></a>后续步骤
+* [Power BI 服务中设计器的基本概念](service-basic-concepts.md)
+* [Power BI 中的报表](consumer/end-user-reports.md)
+
+更多问题？ [尝试参与 Power BI 社区](https://community.powerbi.com/)
+
+

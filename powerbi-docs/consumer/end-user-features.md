@@ -1,5 +1,5 @@
 ---
-title: 免费用户的功能可用性
+title: 具有免费许可证的用户的功能可用性
 description: 显示可供使用者和免费用户使用的功能的说明和图表。
 author: mihart
 ms.reviewer: ''
@@ -7,17 +7,17 @@ ms.custom: ''
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: how-to
-ms.date: 04/05/2020
+ms.date: 04/17/2020
 ms.author: mihart
 LocalizationGroup: consumers
-ms.openlocfilehash: 60ac58c2d1cb815ca322abf6806d9e866f719660
-ms.sourcegitcommit: 81407c9ccadfa84837e07861876dff65d21667c7
+ms.openlocfilehash: 4c4b923199ccd35433b7bf743314395fc70bbe30
+ms.sourcegitcommit: 01bcbc8f0280aec875b22542a9c193c80899dc10
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/13/2020
-ms.locfileid: "81267997"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "82065703"
 ---
-# <a name="power-bi-feature-list-for-consumers-and-other-free-users"></a>面向使用者和其他免费用户的 Power BI 功能列表 
+# <a name="power-bi-feature-list-for-consumers-and-others-with-free-licenses"></a>面向使用者和拥有免费许可证的其他用户的 Power BI 功能列表 
 
 [!INCLUDE[consumer-appliesto-ynnn](../includes/consumer-appliesto-ynnn.md)]
 
@@ -27,40 +27,47 @@ ms.locfileid: "81267997"
 
 ![Power BI 导航窗格](media/end-user-features/power-bi-share.png)
 
-[上一篇文章](end-user-license.md)介绍了不同类型的 Power-BI 许可证（免费和 Pro）和订阅 (Premium)，并说明了如何查找正在使用的许可证和订阅。 本文基于许可证和订阅列出了可供使用的 Power BI 功能。   
+[上一篇文章](end-user-license.md)介绍了，你可以使用 Power BI 服务中的仪表板、报表和应用（内容）执行哪些操作取决于三件事：你的许可证、角色和权限以及内容的存储位置。
+
+本文列出了 Power BI 服务中的哪些功能可供像你这样的使用者使用  。 根据定义，使用者使用免费许可证在 Power BI 服务（不是 Power BI Desktop）中工作，并且是具有高级容量的组织的成员  。
 
 <art>
 
 ## <a name="quick-review-of-terminology"></a>术语快速回顾
-在了解这个列表之前，让我们先回顾一下 Power BI 的一些概念。 这将是一个快速回顾，如果需要更多详细信息，请访问[使用者的许可证和订阅](end-user-license.md)或 [Power BI 基本概念](end-user-basic-concepts.md)。
+在了解这个列表之前，让我们先回顾一下 Power BI 的一些概念。 这将是一个快速回顾，如果需要更多详细信息，请访问[使用者的许可证](end-user-license.md)或 [Power BI 基本概念](end-user-basic-concepts.md)。
 
 ### <a name="workspaces-and-roles"></a>工作区和角色
-有两种类型的工作区：“我的工作区”和“应用工作区”  。 只有你自己有权访问“我的工作区”  。 要进行协作和共享，内容设计人员需要使用应用工作区。 
+有两种类型的工作区：“我的工作区”和“应用工作区”  。 只有你自己才有权访问“我的工作区”  。 要进行协作和共享，拥有 Pro 许可证的内容设计者需要使用应用工作区  。 
 
-Power BI 设计人员使用工作区角色管理谁能在工作区中执行哪些操作  。 “使用者”将分配到“查看者”角色   。 
+在应用工作区中，设计者分配角色，用于管理谁可以在该工作区中执行哪些操作  。 “使用者”将分配到“查看者”角色   。 
 
-### <a name="premium-capacity-subscription"></a>高级容量订阅
-当组织拥有高级容量订阅时，管理员和 Pro 用户可以将工作区分配给“高级容量”  。 在高级容量中的工作区内，Pro 用户可以与免费用户共享和协作，而不要求免费用户拥有 Pro 许可证。 在这些工作区中，免费用户拥有提升的权限（请参见下面的列表）。 
+### <a name="premium-capacity"></a>高级容量
+当组织拥有高级容量订阅时，管理员和 Pro 用户可以将工作区分配给专用容量  。 在专用容量中的工作区内，Pro 用户可以与免费用户共享和协作，而不要求免费用户拥有 Pro 许可证。 在这些工作区中，免费用户拥有提升的权限（请参见下面的列表）。 
 
 ### <a name="licenses"></a>许可证 
-每个 Power BI 服务用户都有免费许可证或 Pro 许可证。 某些功能是为拥有 Pro 许可证的用户预留的。
+每个 Power BI 服务用户都有免费许可证或 Pro 许可证。 使用者拥有免费许可证  。
 
-- **免费许可证** - 通常分配给组织内的使用者  。 也可供任何以个人身份注册 Power BI 并想试用[独立模式下的 Power BI 服务](../service-self-service-signup-for-power-bi.md)的人使用。  
-- **Pro 许可证** - 通常分配给组织内的设计人员、分析人员和开发人员。   
-- **免费许可证 + 高级容量** - 允许免费用户（使用者）查看 Pro 用户在高级容量中创建的和共享的内容并与之交互  。 这样，Pro 用户可以与工作区内的免费用户协作，也可以使用“与我共享”  。
+- 免费许可证 - 通常分配给组织内的使用者（见下面第一幅图）   。 也可分配给任何以个人身份注册 Power BI 服务并想试用[独立模式下的 Power BI 服务](../service-self-service-signup-for-power-bi.md)的人使用（见下面第二幅图）。 
 
-对于免费用户，成为拥有高级容量订阅的组织的成员将为其带来超能力。 只要 Pro 同事使用高级容量工作区来共享内容，免费用户就可以查看这些内容并与这些 Pro 同事协作。  通过这种方式，免费用户就成为了 Power BI 使用者，并能够接收和共享内容，从而做出业务决策   。 
+    ![屏幕显示免费版用户](media/end-user-features/power-bi-free-organization.png)
+
+    对于免费版用户，成为拥有高级容量的组织的成员将获得更大的能力。 只要 Pro 同事使用高级容量工作区来共享内容，免费用户就可以查看这些内容并与这些 Pro 同事协作。  通过这种方式，免费用户就成为了 Power BI 使用者，并能够接收和共享内容，从而做出业务决策   。 
+ 
+    ![屏幕显示免费版用户](media/end-user-features/power-bi-free-user.png)
+
+
+   
 
 ## <a name="power-bi-feature-list-for-consumers-and-free-users"></a>面向使用者和免费用户的 Power BI 功能列表 
-下表标识了拥有高级订阅的组织中的使用者可以执行哪些任务  。    
+下图确定与高级容量和共享容量中的内容进行交互的使用者可以执行哪些任务  。    
 
-第一列表示在“我的工作区”中处理内容的免费用户  。 此用户不能与工作区中的同事协作。 同事无法直接与该用户共享内容，该用户也不能从“我的工作区”中共享  。 
+第一列表示在“我的工作区”中处理内容的免费用户  。 此用户不能与 Power BI 服务中的同事协作。 同事无法直接与该用户共享内容，该用户也不能从“我的工作区”中共享  。 
 
 第二列表示“使用者”  。  使用者：
 
 - 拥有免费的用户许可证
 - 是拥有高级容量订阅的组织的成员
-- 从 Pro 用户处获取内容（应用、仪表板、报表），这些用户使用高级容量的应用工作区共享该内容。
+- 从 Pro 用户处获取内容（应用、仪表板、报表），这些用户使用专用容量的应用工作区共享该内容。
 - 将“查看者”角色分配给这些应用工作区  。 
 
 ### <a name="legend"></a>图例
@@ -72,7 +79,7 @@ Power BI 设计人员使用工作区角色管理谁能在工作区中执行哪�
 
 ### <a name="feature-list"></a>功能列表
 
-|功能   | 应用场景 1：Power BI 免费用户无法访问在高级容量中托管的内容。    | 应用场景 2：Power BI 免费用户对存储在高级容量中的内容拥有“查看者”权限  。 此人是 Power BI 使用者  。 |
+|功能   | 应用场景 1：Power BI 免费用户无法访问在专用容量中托管的内容。    | 应用场景 2：Power BI 免费用户对存储在专用容量中的内容拥有“查看者”权限  。 此人是 Power BI 使用者  。 |
 |---|---|---|
 |**应用** 
 |自动安装 | ![橙 x](media/end-user-features/orange-x.png) | ![绿点](media/end-user-license/power-bi-green-dot.png)*| 

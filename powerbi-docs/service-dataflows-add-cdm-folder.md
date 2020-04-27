@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 04/02/2019
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: f1e48fb2f20c531f4dc66e86d13b76f54165b81c
-ms.sourcegitcommit: 444f7fe5068841ede2a366d60c79dcc9420772d4
+ms.openlocfilehash: cc47820e5903426d4f3635c78e0dc108049f897e
+ms.sourcegitcommit: b2cb0b02bdc451bf11a92a68f2c4d560a811f563
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/30/2020
-ms.locfileid: "80404767"
+ms.lasthandoff: 04/16/2020
+ms.locfileid: "81439333"
 ---
 # <a name="add-a-cdm-folder-to-power-bi-as-a-dataflow-preview"></a>将 CDM 文件夹添加到 Power BI 作为数据流（预览）
 
@@ -30,6 +30,12 @@ ms.locfileid: "80404767"
 * 必须授予对 CDM 文件夹中的所有文件和文件夹的读取和执行权限，才能将它们添加到 Power BI。
 
 以下部分介绍了如何从 CDM 文件夹创建数据流。
+
+## <a name="authorizing-users-for-cdm-folders-to-create-a-dataflow"></a>授权用户使用 CDM 文件夹创建数据流
+
+若要使用 CDM 文件夹创建数据流，必须添加以下权限：
+* 将通过 Power BI 访问 CDM 文件夹的用户必须列在存储帐户的“存储 Blob 数据所有者”角色下  。
+* 将通过 Power BI 访问 CDM 文件夹的用户必须对 CDM 文件夹本身及其中的任何文件或文件夹具有“读取访问”和“执行访问”ACL   。 
 
 ## <a name="create-a-dataflow-from-a-cdm-folder"></a>从 CDM 文件夹创建数据流
 

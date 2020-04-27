@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 01/13/2020
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 278aa4c28db97c348e683b759e8a7f9415f19c3e
-ms.sourcegitcommit: 7e845812874b3347bcf87ca642c66bed298b244a
+ms.openlocfilehash: 1312e56edfb17c57334af263b9f38c3dd97c1894
+ms.sourcegitcommit: 5ece366fceee9832724dae40eacf8755e1d85b04
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/13/2020
-ms.locfileid: "79206829"
+ms.lasthandoff: 04/16/2020
+ms.locfileid: "81525413"
 ---
 # <a name="connect-to-datasets-in-the-power-bi-service-from-power-bi-desktop"></a>通过 Power BI Desktop 连接 Power BI 服务中的数据集
 
@@ -91,7 +91,7 @@ Anna 创建一个报表并创建报表所基于的数据集。 随后 Anna 将�
 
 如果尚未登录，Power BI 会提示你登录。 登录后，Power BI 会显示你所属的工作区。 可以选择包含要建立 Power BI 服务实时连接的数据集的工作区。
 
-列表中的数据集包含你在任何工作区中具有“生成”权限的所有共享数据集。 可以搜索特定数据集并查看其名称、所有者、其所在的工作区以及上次刷新时间。 还会在列表顶部看到认可  数据集，这些数据集经过认证或推广。
+列表中的数据集包含你在任何工作区中具有“生成”权限的所有共享数据集。 可以搜索特定数据集并查看其名称、所有者、其所在的工作区以及上次刷新时间。 还可以在列表顶部看到认可认证或推广的数据集  。
 
 ![可用数据集列表](media/desktop-report-lifecycle-datasets/desktop-select-shared-dataset.png)
 

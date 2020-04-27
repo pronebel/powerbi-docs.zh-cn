@@ -1,20 +1,20 @@
 ---
 title: 适用于美国政府客户的 Power BI - 概述
-description: 美国政府客户可以向其 Office 365 政府版计划添加 Power BI Pro 订阅。 了解如何在此服务说明中注册和查看功能可用性。
+description: 美国政府客户可以向其 Microsoft 365 政府版计划添加 Power BI Pro 订阅。 了解如何在此服务说明中注册和查看功能可用性。
 author: kfollis
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 03/13/2020
+ms.date: 04/07/2020
 ms.author: kfollis
 LocalizationGroup: Get started
-ms.openlocfilehash: 14c01eb3041964a858b1aeeaeaa471f0d839898e
-ms.sourcegitcommit: 444f7fe5068841ede2a366d60c79dcc9420772d4
+ms.openlocfilehash: 8a6351c96a2d2bef596cbdd693b4b7035fc16e14
+ms.sourcegitcommit: b2cb0b02bdc451bf11a92a68f2c4d560a811f563
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/30/2020
-ms.locfileid: "80404802"
+ms.lasthandoff: 04/16/2020
+ms.locfileid: "81436336"
 ---
 # <a name="power-bi-for-us-government-customers"></a>适用于美国政府客户的 Power BI
 本文适用于将 Power BI 作为 Office 365 政府版计划的一部分进行部署的美国政府客户。 政府版计划专为必须满足美国合规性和安全性标准的组织的独特需求而设计。 为美国政府客户设计的 Power BI 服务不同于 Power BI 服务的商业版本。 下面几节说明了这些特性差异和功能。
@@ -31,8 +31,7 @@ ms.locfileid: "80404802"
 > 如果已将 Power BI 部署到商业环境中并想要迁移到美国政府云，则需要将新的 Power BI Pro 订阅添加到 Office 365 政府版计划中。 接下来，将商业数据复制到适用于美国政府的 Power BI 服务，从用户帐户中删除商业许可证分配，然后将 Power BI Pro 政府版许可证分配给用户帐户。
 >
 >
-
-### <a name="government-cloud-instances"></a>政府云实例
+## <a name="government-cloud-instances"></a>政府云实例
 Office 365 为政府机构提供不同的环境，以满足不同的符合性要求。 有关每个环境提供的内容的特定详细信息，请参阅链接服务说明。
 
 * [Office 365 政府社区云 (GCC)](https://docs.microsoft.com/office365/servicedescriptions/office-365-platform-service-description/office-365-us-government/gcc) 专为联邦、州/省/直辖市/自治区和地方政府设计。
@@ -41,24 +40,24 @@ Office 365 为政府机构提供不同的环境，以满足不同的符合性要
 
 * [Office 365 DoD 环境](https://docs.microsoft.com/office365/servicedescriptions/office-365-platform-service-description/office-365-us-government/gcc-high-and-dod)专为美国国防部设计。 
 
-### <a name="purchase-a-power-bi-pro-government-subscription"></a>购买 Power BI Pro 政府版订阅
+## <a name="connect-to-power-bi-for-us-government"></a>连接到适用于美国政府的 Power BI
 
-部署 Office 365 后，可以添加 Power BI 订阅。 按照[注册美国政府组织](service-govus-signup.md#existing-office-government-cloud-customers)中的分步指南来购买 Power BI Pro 政府版服务。 为需要使用 Power BI 的所有用户购买足够的许可证，然后将这些许可证分配给单个用户帐户。
+不同于商业用户，请使用不同的 URL 连接到适用于美国政府的 Power BI。 若要登录 Power BI，请使用以下 URL：
+
+| 商业版本  | GCC  | GCC High | DoD |
+| --- | --- | --- | --- |
+| [https://app.powerbi.com/](https://app.powerbi.com) |[https://app.powerbigov.us](https://app.powerbigov.us) | [https://app.high.powerbigov.us](https://app.high.powerbigov.us) | [https://app.mil.powerbigov.us](https://app.mil.powerbigov.us) |
+
+帐户可以预配到多个云。 在这种情况下，使用 Power BI Desktop 时，可以在登录时选择要连接的云。
+
+## <a name="purchase-a-power-bi-pro-government-subscription"></a>购买 Power BI Pro 政府版订阅
+
+部署 Office 365 后，可以添加 Power BI 订阅。 按照[注册美国政府组织](service-govus-signup.md)中的分步指南来购买 Power BI Pro 政府版服务。 为需要使用 Power BI 的所有用户购买足够的许可证，然后将这些许可证分配给单个用户帐户。
 
 > [!IMPORTANT]
 > Power BI 美国政府版不可用作免费许可证。 必须为每个用户分配 Pro 许可证，才能访问政府社区云。 如果为用户帐户分配了免费许可证，则他们只能访问商业云，并会遇到身份验证和访问权限问题。 如果你已购买 Power BI Premium，则你无需分配 Pro 许可证即可启用用户访问权限。  只要将报表发布到 Premium 容量，组织中的任何用户都可以访问与他们共享的报表。 若要查看许可证类型之间的差异，请参阅[按许可证类型划分 Power BI 服务功能](service-features-license-type.md)。
 >
 >
-
-## <a name="connect-to-power-bi-for-us-government"></a>连接到适用于美国政府的 Power BI
-
-不同于商业用户，请使用不同的 URL 连接到适用于美国政府的 Power BI。 若要登录 Power BI，请使用以下 URL：
-
-| 商业版本 URL | 美国政府版本 URL | GCC High 的美国政府版 URL |
-| --- | --- | --- |
-| `https://app.powerbi.com/` |[https://app.powerbigov.us](https://app.powerbigov.us) | [https://app.high.powerbigov.us](https://app.high.powerbigov.us) |
-
-帐户可以预配到多个云。 在这种情况下，使用 Power BI Desktop 时，可以在登录时选择要连接的云。
 
 ## <a name="connectivity-between-government-and-global-azure-cloud-services"></a>政府版本和全局 Azure 云服务之间的连接
 
@@ -69,7 +68,7 @@ Azure 分布在多个云中。 默认情况下，你可以启用防火墙规则�
 * USGov Texas
 * USGov Arizona
 
-在公有云中，这些 IP 范围可用。 若要获取美国政府云 IP 范围，请下载 [Azure IP 范围和服务标记 – 美国政府云](https://www.microsoft.com/download/details.aspx?id=57063)文件。 
+在公有云中，这些 IP 范围可用。 若要获取美国政府云 IP 范围，请下载 [Azure IP 范围和服务标记 - 美国政府云](https://www.microsoft.com/download/details.aspx?id=57063)文件。 
 
 若要在 SQL 中设置防火墙，请按照步骤[创建和管理 IP 防火墙规则](https://docs.microsoft.com/azure/sql-database/sql-database-firewall-configure#create-and-manage-ip-firewall-rules)。
 

@@ -6,33 +6,33 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
-ms.date: 01/16/2020
+ms.date: 04/08/2020
 ms.author: kfollis
 LocalizationGroup: Administration
-ms.openlocfilehash: eefae2b230bf087635b79ed4645a9297b7194edd
-ms.sourcegitcommit: 646d2de454a2897dc52cbc02b7743aaa021bac04
+ms.openlocfilehash: 410058cad59fdf134b54b45754ef06c0d382c4ef
+ms.sourcegitcommit: b2cb0b02bdc451bf11a92a68f2c4d560a811f563
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "79525628"
+ms.lasthandoff: 04/16/2020
+ms.locfileid: "81439931"
 ---
 # <a name="purchase-and-assign-power-bi-pro-user-licenses"></a>购买和分配 Power BI Pro 用户许可证
 
 >[!IMPORTANT]
->你是否准备好升级到 Power BI Pro 许可证？ 直接转到[开始使用 Power BI Pro](https://go.microsoft.com/fwlink/?LinkId=2106428&clcid=0x409&cmpid=pbidocs-purchasing-power-bi-pro) 以设置帐户。
+>本文适用于管理员。 你是否准备好升级到 Power BI Pro 许可证？ 直接转到[开始使用 Power BI Pro](https://go.microsoft.com/fwlink/?LinkId=2106428&clcid=0x409&cmpid=pbidocs-purchasing-power-bi-pro) 以设置帐户。
 
-Power BI Pro 是一种单独的用户许可证，使用户能够读取他人已发布到 Power BI 服务的报表和仪表板并与之进行交互。 具有此许可证类型的用户可以与 Power BI Pro 用户共享内容并开展协作。 只有 Power BI Pro 用户才能发布或与其他用户共享内容，或使用其他用户创建的内容，除非 Power BI Premium 容量托管该内容。 有关详细信息，请参阅 [Power BI 定价](https://powerbi.microsoft.com/pricing/)的“Power BI 功能比较”  部分。
+Power BI Pro 是一种单独的用户许可证，使用户能够读取他人已发布到 Power BI 服务的报表和仪表板并与之进行交互。 具有此许可证类型的用户可以与 Power BI Pro 用户共享内容并开展协作。 只有 Power BI Pro 用户才能发布或与其他用户共享内容，或使用其他用户创建的内容，除非 Power BI Premium 容量托管该内容。 有关可用许可证和订阅类型的详细信息，请参阅[组织中的 Power BI 许可](service-admin-licensing-organization.md)。
 
 ## <a name="purchase-power-bi-pro-user-licenses"></a>购买 Power BI Pro 用户许可证
 
 本文介绍了如何在 Microsoft 365 管理中心购买 Power BI Pro 用户许可证。 购买许可证后，可以将其分配给 Microsoft 365 管理中心或 Azure 门户中的用户。
 
 > [!NOTE]
-> 从 2020 年 1 月 14 日开始，商业云客户可以使用面向 Power Platform 产品（Power BI、Power Apps 和 Power Automate）的自助服务购买、订阅和许可证管理功能。 有关详细信息，包括在组织中启用或禁用自助服务购买的步骤，请参阅[自助购买常见问题解答](https://docs.microsoft.com/microsoft-365/commerce/subscriptions/self-service-purchase-faq)。
+> 从 2020 年 1 月 14 日开始，商业云客户可以使用面向 Power Platform 产品（Power BI、Power Apps 和 Power Automate）的自助服务购买、订阅和许可证管理功能。 有关详细信息，请参阅[自助购买常见问题解答](https://docs.microsoft.com/microsoft-365/commerce/subscriptions/self-service-purchase-faq)。 若要启用或禁用自助购买功能，请参阅[启用或禁用自助注册和购买](admin/service-admin-disable-self-service.md)。
 
 ### <a name="prerequisites"></a>先决条件
 
-要在 Microsoft 365 管理中心购买并分配许可证，你必须是 Microsoft 365 中的[全局管理员或计费管理员](https://support.office.com/article/about-office-365-admin-roles-da585eea-f576-4f55-a1e0-87090b6aaa9d)角色的成员  。
+若要在 Microsoft 365 管理中心购买并分配许可证，则必须是 Microsoft 365 中的[全局管理员或计费管理员](https://support.office.com/article/about-office-365-admin-roles-da585eea-f576-4f55-a1e0-87090b6aaa9d)角色的成员。
 
 要在 Azure 门户中分配许可证，则必须是 Power BI 用于 Azure Active Directory 查找的 Azure 订阅的所有者。
 
@@ -80,10 +80,10 @@ Power BI Pro 是一种单独的用户许可证，使用户能够读取他人已�
 
 ## <a name="next-steps"></a>后续步骤
 
-现已分配许可证，可以了解有关 Power BI Pro 的详细信息。
+- [组织中的 Power BI 许可](service-admin-licensing-organization.md)
 
-[组织中的 Power BI 许可](service-admin-licensing-organization.md)
+ - [查找已登录的 Power BI 用户](service-admin-access-usage.md)
 
-[查找已登录的 Power BI 用户](service-admin-access-usage.md)
+ - [以个人身份注册 Power BI](service-self-service-signup-for-power-bi.md)
 
 更多问题？ [尝试咨询 Power BI 社区](https://community.powerbi.com/)

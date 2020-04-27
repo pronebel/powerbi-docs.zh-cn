@@ -9,12 +9,12 @@ ms.subservice: report-builder
 ms.topic: tutorial
 ms.date: 03/18/2020
 ms.author: v-pemyer
-ms.openlocfilehash: 325e62bbf326e9f30d4c41299998c61cc5d7f487
-ms.sourcegitcommit: 81407c9ccadfa84837e07861876dff65d21667c7
+ms.openlocfilehash: 5ff7891ce704ebaf8677df6f0872396ffa1b04a2
+ms.sourcegitcommit: 1f768dfef27cd8887318671f91427f72d02370c6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/13/2020
-ms.locfileid: "81267586"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "81675641"
 ---
 # <a name="online-course-power-bi-paginated-reports-in-a-day"></a>在线课程：一天玩转 Power BI 分页报表
 
@@ -83,7 +83,7 @@ ms.locfileid: "81267586"
 
 可以下载并设置一个自学工具包，其中包括演示内容和八个动手实验：
 
-1. 使用[此链接](https://aka.ms/priad-ilt-student)将自学工具包 (.zip) 以本地方式下载到你的电脑。
+1. 使用[此链接](https://aka.ms/priad-student)将自学工具包 (.zip) 以本地方式下载到你的电脑。
 1. 打开文件属性，并选中“取消阻止”（Windows 可能会将该文件标记为潜在不受信任的文件）。
 1. 将文件内容提取到文件系统中的文件夹中。 建议创建一个易于查找的文件夹，可将其命名为“训练”  。 实验文档将此位置称为“&lt;CourseFolder&gt;”  。
 
@@ -105,6 +105,10 @@ ms.locfileid: "81267586"
 > 必须登录 Power BI 才能将 Power BI Desktop 文件发布到工作区。 发布内容将生成用作报表数据源的数据集。 将数据集用作报表数据源不需要 Power BI Pro 许可证或 Power BI Premium 订阅。
 >
 > 但是，有些实验任务涉及将分页报表发布到工作区。 只有将分页报表保存到[专用容量](../service-premium-what-is.md#dedicated-capacities)上的工作区（启用了分页报表工作负载）时，才能打开该报表。 如果无法访问合适的工作区，系统将提供一个链接，用于观看演示报表发布的视频。
+
+## <a name="instructor-kit"></a>Instructor 工具包
+
+使用[此链接](https://aka.ms/priad-instructor)将 Instructor 工具包 (.zip) 下载到你的电脑本地。
 
 ## <a name="next-steps"></a>后续步骤
 
