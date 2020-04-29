@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 04/07/2020
 ms.author: kfollis
 LocalizationGroup: Get started
-ms.openlocfilehash: 8a6351c96a2d2bef596cbdd693b4b7035fc16e14
-ms.sourcegitcommit: b2cb0b02bdc451bf11a92a68f2c4d560a811f563
+ms.openlocfilehash: a9a5f3fd5304e64209b6069741dffcc3fa9b07c8
+ms.sourcegitcommit: c772c544ce2e1e2a147b9b62e5579ac3cb59d54c
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/16/2020
-ms.locfileid: "81436336"
+ms.lasthandoff: 04/29/2020
+ms.locfileid: "82256166"
 ---
 # <a name="power-bi-for-us-government-customers"></a>适用于美国政府客户的 Power BI
 本文适用于将 Power BI 作为 Office 365 政府版计划的一部分进行部署的美国政府客户。 政府版计划专为必须满足美国合规性和安全性标准的组织的独特需求而设计。 为美国政府客户设计的 Power BI 服务不同于 Power BI 服务的商业版本。 下面几节说明了这些特性差异和功能。
@@ -65,8 +65,8 @@ Azure 分布在多个云中。 默认情况下，你可以启用防火墙规则�
 
 * USGov Iowa
 * USGov Virginia
-* USGov Texas
-* USGov Arizona
+* US Gov 德克萨斯州
+* US Gov 亚利桑那州
 
 在公有云中，这些 IP 范围可用。 若要获取美国政府云 IP 范围，请下载 [Azure IP 范围和服务标记 - 美国政府云](https://www.microsoft.com/download/details.aspx?id=57063)文件。 
 
@@ -76,7 +76,7 @@ Azure 分布在多个云中。 默认情况下，你可以启用防火墙规则�
 
 为了满足政府云客户的要求，政府版计划与商业版计划之间存在一些差异。 请参阅下表，了解每个政府环境中有哪些功能可用。
 
-|功能 |   |GCC |GCC-High |DoD|
+|Feature |   |GCC |GCC-High |DoD|
 |------|------|------|------|------|
 |管理|免费许可证|不可用|不可用|不可用|
 |  |设置数据存储限制|可用|可用|可用|
@@ -88,7 +88,7 @@ Azure 分布在多个云中。 默认情况下，你可以启用防火墙规则�
 |报表创建|创建和查看仪表板和报表|可用|可用|可用|
 |  |计划的数据刷新|可用|可用|可用|
 |  |可刷新的团队仪表板|可用|可用|可用|
-|  |分页报表|可用|可用|在路线图上|
+|  |分页报表|可用|在路线图上|在路线图上|
 |  |模板应用|不可用|不可用|不可用|
 |连接到数据|从 Excel 导入数据和报表|可用|可用|可用|
 |  |从 CSV 文件导入数据|可用|可用|可用|

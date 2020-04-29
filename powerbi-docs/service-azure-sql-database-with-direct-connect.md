@@ -8,14 +8,14 @@ author: davidiseminger
 ms.author: davidi
 ms.reviewer: ''
 ms.custom: ''
-ms.date: 09/16/2019
+ms.date: 04/28/2020
 LocalizationGroup: Data from databases
-ms.openlocfilehash: e1f770ac43207666966d3844e1e3728020849346
-ms.sourcegitcommit: f77b24a8a588605f005c9bb1fdad864955885718
+ms.openlocfilehash: cb9ae846f1033c6e7bcbecae28c039dd985adec0
+ms.sourcegitcommit: c772c544ce2e1e2a147b9b62e5579ac3cb59d54c
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/02/2019
-ms.locfileid: "74699765"
+ms.lasthandoff: 04/29/2020
+ms.locfileid: "82255815"
 ---
 # <a name="azure-sql-database-with-directquery"></a>具有 DirectQuery 的 Azure SQL 数据库
 
@@ -23,7 +23,7 @@ ms.locfileid: "74699765"
 
 借助 DirectQuery，查询会在你浏览报表视图中的数据时发送回 Azure SQL 数据库。 对于熟悉数据库以及它们连接到的实体的用户，建议使用此体验。
 
-**注意：**
+注意： 
 
 * 在连接时指定完全限定的服务器名称（请参阅下文了解详细信息）。
 * 确保数据库的防火墙规则配置为“[允许访问 Azure 服务](https://docs.microsoft.com/azure/sql-database/sql-database-networkaccess-overview#allow-azure-services)”。
@@ -32,7 +32,7 @@ ms.locfileid: "74699765"
 * 问答不可用于 DirectQuery 数据集。
 * 不会自动选取架构更改。
 
-随着我们继续改进体验，这些限制和说明可能会发生变化。 下面详细介绍了用于连接的步骤。
+随着我们持续改进体验，这些限制和说明可能会更改。 连接步骤详述如下。
 
 > [!Important]
 > 我们在不断改进与 Azure SQL 数据库的连接。  若要获取连接到 Azure SQL 数据库数据源的最佳体验，请使用 Power BI Desktop。  生成模型和报表后，即可将其发布到 Power BI 服务中。  Power BI 服务的 Azure SQL 数据库现已弃用直接连接器。
@@ -57,4 +57,4 @@ ms.locfileid: "74699765"
 * [什么是 Power BI？](fundamentals/power-bi-overview.md)  
 * [获取 Power BI 的数据](service-get-data.md)  
 
-更多问题？ [尝试参与 Power BI 社区](https://community.powerbi.com/)
+更多疑问？ [尝试参与 Power BI 社区](https://community.powerbi.com/)

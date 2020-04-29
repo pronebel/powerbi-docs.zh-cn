@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 03/16/2020
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 27ebe50030fbd06f65be5530ee2a2c0a7897f0f5
-ms.sourcegitcommit: a175faed9378a7d040a08ced3e46e54503334c07
+ms.openlocfilehash: 40bbec8a6a28def6cde9128b51c8919fd4f493de
+ms.sourcegitcommit: 9ec2c608b90bf651df613f0714addd251a885039
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "79488720"
+ms.lasthandoff: 04/24/2020
+ms.locfileid: "82120334"
 ---
 # <a name="organize-work-in-the-new-workspaces-in-power-bi"></a>在 Power BI 的新工作区中整理工作
 
@@ -60,32 +60,9 @@ Power BI 管理门户中[提供工作区列表](service-admin-portal.md#workspac
 
 向用户组分配角色，组中的个人有权访问内容。 如果嵌套用户组，则包含的所有用户都具有权限。
 
-下面介绍以下四种角色的功能：管理员、成员、参与者和查看者。 上述功能（查看和交互除外）都需要 Power BI Pro 许可证。
+[!INCLUDE [power-bi-workspace-roles-table](includes/power-bi-workspace-roles-table.md)]
 
-|功能   | 管理员  | 成员  | 参与者  | 查看器 |
-|---|---|---|---|---|
-| 更新和删除工作区。  | X  |   |   |   | 
-| 添加/删除人员，包括其他管理员。  | X  |   |   |   |
-| 添加成员或具有较低权限的其他人。  |  X | X  |   |   |
-| 发布和更新应用。 |  X | X  |   |   |
-| 共享一个项或共享应用。<sup>1</sup> |  X | X  |   |   |
-| 允许其他人重新共享项目。<sup>1</sup> |  X | X  |   |   |
-| 在同事的“主页”上特别推荐应用 |  X | X  |   |   |
-| 在同事的“主页”上特别推荐仪表板和报表 |  X | X  | X |   |
-| 在工作区中创建、编辑和删除内容。  |  X | X  | X  |   |
-| 将报表发布到工作区，删除内容。  |  X | X  | X  |   |
-| 基于此工作区中的数据集在其他工作区中创建报表。<sup>1</sup> |  X | X  | X  |   |
-| 复制报表。<sup>2</sup> | X | X | X |  |
-| 查看项并与之交互。<sup>3</sup> |  X | X  | X  | X  |
-| 读取存储在工作区数据流中的数据 | X | X | X | X |
-
-1. 如果参与者和查看者具有“重新共享”权限，则他们可以共享工作区中的项。
-2. 若要复制报表，并基于此工作区中的数据集在另一个工作区中创建报表，需要满足其他条件：
-    - 需要 Power BI Pro 许可证。 有关详细信息，请参阅下一部分[许可](#licensing)。
-    - 需要此数据集的生成权限。 对于此工作区中的数据集，拥有管理员、成员和参与者角色的相关人员通过其工作区角色获得生成权限。
-2. 即使没有 Power BI Pro 许可证，如果项位于高级容量的工作区中，也可以查看 Power BI 服务中的项并与之交互。
-
-## <a name="licensing"></a>许可
+## <a name="licensing"></a>授权
 你添加到共享容量中的工作区的每个人都需要 Power BI Pro 许可证。 在工作区中，这些用户全都可协作处理计划向更广泛的受众，甚至整个组织发布的仪表板和报表。 
 
 如果要将内容分发给组织内的其他人，可将 Power BI Pro 许可证分配给这些用户，或将工作区置于 Power BI 高级容量中。
@@ -152,22 +129,22 @@ Power BI 不会将配置为拥有工作区访问权限的用户或组的权限�
 - 若要允许具有查看者角色的用户导出数据，请确保他们有权在工作区中生成数据集。 详细了解[数据集的“生成”权限](service-datasets-build-permissions.md)。
 - 没有“退出工作区”按钮  。
 
-## <a name="frequently-asked-questions"></a>常见问题解答
+## <a name="frequently-asked-questions"></a>常见问题
 
 **指向现有内容的链接是否会受到新工作区体验正式版的影响？**
 
-否。 指向经典工作区中现有项的链接不会受到新工作区体验的影响。 新工作区体验正式版 (GA) 更改你创建的默认工作区，但不更改现有工作区。 
+不是。 指向经典工作区中现有项的链接不会受到新工作区体验的影响。 新工作区体验正式版 (GA) 更改你创建的默认工作区，但不更改现有工作区。 
 
 **现有工作区是否会升级到新工作区体验正式版？**
 
-否。 新工作区体验正式版只将默认工作区类型更改为新工作区体验。 基于 Office 365 组的现有经典工作区保持不变。
+不是。 新工作区体验正式版只将默认工作区类型更改为新工作区体验。 基于 Office 365 组的现有经典工作区保持不变。
 
 **是否仍自动为 Office 365 组创建工作区？**
 
-是。 由于现在同时支持两种类型工作区，因此工作区列表中会继续列出用户有权访问的所有 Office 365 组。
+是的。 由于现在同时支持两种类型工作区，因此工作区列表中会继续列出用户有权访问的所有 Office 365 组。
 
 ## <a name="next-steps"></a>后续步骤
 * [在 Power BI 中创建新工作区](service-create-the-new-workspaces.md)
 * [创建经典工作区](service-create-workspaces.md)
 * [在 Power BI 中安装并使用应用](service-create-distribute-apps.md)
-* 是否有任何问题? [尝试咨询 Power BI 社区](https://community.powerbi.com/)
+* 有疑问？ [尝试在 Power BI 社区中提问](https://community.powerbi.com/)
