@@ -2,20 +2,20 @@
 title: 适用于美国各州和地方政府的 COVID-19 跟踪示例
 description: 下载并修改包含美国各州和地方 COVID-19 流行病数据的示例报表。
 author: LukaszPawlowski-MS
-ms.reviewer: ''
+ms.reviewer: maggies
 ms.custom: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 04/06/2020
+ms.date: 04/28/2020
 ms.author: lukaszp
 LocalizationGroup: Samples
-ms.openlocfilehash: 66e76c21e7d5171d24ff1518745a35947aa7ca42
-ms.sourcegitcommit: e7fda395b47e404c61e961a60816b7a1b0182759
+ms.openlocfilehash: 8cdc4a9a78c20c7c4e6986b63a3af61a319df1b6
+ms.sourcegitcommit: 20f15ee7a11162127e506b86d21e2fff821a4aee
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/08/2020
-ms.locfileid: "80979767"
+ms.lasthandoff: 04/29/2020
+ms.locfileid: "82584925"
 ---
 # <a name="covid-19-tracking-sample-for-us-state-and-local-governments"></a>适用于美国各州和地方政府的 COVID-19 跟踪示例
 
@@ -48,7 +48,7 @@ Microsoft 已发布示例报表，并创建了“发布到 Web”嵌入代码。
 <iframe width="1600" height="900" src="https://app.powerbi.com/view?r=eyJrIjoiMmI2ZjExMzItZTcwNy00YmUwLWFlMTAtYTUxYzVjODZmYjA5IiwidCI6ImMxMzZlZWMwLWZlOTItNDVlMC1iZWFlLTQ2OTg0OTczZTIzMiIsImMiOjF9" frameborder="0" allowFullScreen="true"></iframe>
 ```
 
-嵌入代码是可以插入到任意 HTML 页中的 HTML iFrame 元素。 调整所提供 iFrame 的宽度和高度，以适应你网站的尺寸。 由于示例报表是按 16:9 比例创作，因此请选择维持此比例的尺寸。 正确实现后，显示的图形不带任何额外的灰色边框。 在进行这些更改时，[审阅 iFrame 大小调整提示和技巧](../service-publish-to-web.md#tips-and-tricks-for-iframe-height-and-width)会很有用。
+嵌入代码是可以插入到任意 HTML 页中的 HTML iFrame 元素。 调整所提供 iFrame 的宽度和高度，以适应你网站的尺寸。 由于示例报表是按 16:9 比例创作，因此请选择维持此比例的尺寸。 正确实现后，显示的图形不带任何额外的灰色边框。 在进行这些更改时，[审阅 iFrame 大小调整提示和技巧](../service-publish-to-web.md#tips-for-iframe-height-and-width)会很有用。
 
 ## <a name="option-2-customize-the-sample-power-bi-file"></a>选项 2：自定义示例 Power BI 文件
 
@@ -112,7 +112,7 @@ USAFacts 数据是根据需要归属的 Creative Commons 许可证提供的。 �
 
 ### <a name="create-a-publish-to-web-embed-code"></a>创建“发布到 Web”嵌入代码 
 
-若要在你自己的网站中嵌入自定义报表，请按照[如何创建你自己的“发布到 Web”嵌入代码](../service-publish-to-web.md#how-to-use-publish-to-web)中的说明操作。
+若要在你自己的网站中嵌入自定义报表，请按照[如何创建你自己的“发布到 Web”嵌入代码](../service-publish-to-web.md#create-embed-codes-with-publish-to-web)中的说明操作。
 
 发布嵌入代码后，可以使用“确认”对话框中的 iFrame 将自定义报表嵌入到你的网站中。
 

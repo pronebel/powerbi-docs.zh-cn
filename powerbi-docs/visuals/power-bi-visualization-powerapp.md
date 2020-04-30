@@ -8,14 +8,14 @@ ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: tutorial
 ms.date: 03/17/2020
-ms.author: mihart
+ms.author: rien
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 5628a114b872b7c0d92d5079198616a20fe85b87
-ms.sourcegitcommit: d43761104f7daf4b2f297648855bb573b53e6d8c
+ms.openlocfilehash: bd27973a1cf6a73ba79079911ec175f990925524
+ms.sourcegitcommit: 20f15ee7a11162127e506b86d21e2fff821a4aee
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/18/2020
-ms.locfileid: "81637810"
+ms.lasthandoff: 04/29/2020
+ms.locfileid: "82585466"
 ---
 # <a name="tutorial-embed-a-power-apps-visual-in-a-power-bi-report"></a>教程：在 Power BI 报表中嵌入 Power Apps 视觉对象
 
@@ -107,4 +107,4 @@ ms.locfileid: "81637810"
 
 ## <a name="next-steps"></a>后续步骤
 [问答视觉对象](power-bi-visualization-types-for-reports-and-q-and-a.md)    
-[教程：在 Power BI 报表中嵌入 Power Apps 视觉对象](https://docs.microsoft.com/powerapps/maker/canvas-apps/powerapps-custom-visual)
+[教程：在 Power BI 报表中嵌入 Power Apps 视觉对象](https://docs.microsoft.com/powerapps/maker/canvas-apps/powerapps-custom-visual)    
