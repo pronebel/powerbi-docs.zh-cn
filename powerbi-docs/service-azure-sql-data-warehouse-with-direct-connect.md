@@ -8,14 +8,14 @@ author: davidiseminger
 ms.author: davidi
 ms.reviewer: ''
 ms.custom: ''
-ms.date: 06/20/2018
+ms.date: 04/28/2020
 LocalizationGroup: Data from databases
-ms.openlocfilehash: 932c13b84184ad237879e33e943d85020640dd4c
-ms.sourcegitcommit: f77b24a8a588605f005c9bb1fdad864955885718
+ms.openlocfilehash: 472eacea2a84d1f4a71d6869406e17f2ffd03e6b
+ms.sourcegitcommit: c772c544ce2e1e2a147b9b62e5579ac3cb59d54c
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/02/2019
-ms.locfileid: "74698295"
+ms.lasthandoff: 04/29/2020
+ms.locfileid: "82255882"
 ---
 # <a name="azure-sql-data-warehouse-with-directquery"></a>具有 DirectQuery 的 Azure SQL 数据仓库
 
@@ -30,14 +30,14 @@ ms.locfileid: "74698295"
 * 问答不可用于 DirectQuery 数据集
 * 不会自动选取架构更改
 
-随着我们继续改进体验，这些限制和说明可能会发生变化。 下面详细介绍了用于连接的步骤。
+随着我们持续改进体验，这些限制和说明可能会更改。 连接步骤详述如下。
 
 ## <a name="using-the-open-in-power-bi-button"></a>使用“在 Power BI 中打开”按钮
 
 > [!Important]
 > 我们在不断改进与 Azure SQL 数据仓库的连接。  若要获取连接到 Azure SQL 数据仓库数据源的最佳体验，请使用 Power BI Desktop。  生成模型和报表后，即可将其发布到 Power BI 服务中。  Power BI 服务的 Azure SQL 数据仓库现已弃用直接连接器。
 
-在 SQL 数据仓库与 Power BI 之间移动的最简单方法是使用 Azure 门户中的“在 Power BI 中打开”  按钮。 通过此按钮可以无缝地开始在 Power BI 中创建新仪表板。
+在 SQL 数据仓库与 Power BI 之间移动的最简单方法是使用 Azure 门户中的“在 Power BI 中打开”  按钮。 此按钮允许你在 Power BI 中无缝开始创建新仪表板。
 
 1. 若要开始，请在 Azure 门户中导航到 SQL 数据仓库实例。 请注意，SQL 数据仓库当前只在 Azure 门户中存在。
 
@@ -57,11 +57,11 @@ SQL 数据仓库还在 Power BI 获取数据页面上列出。
 
     ![“获取数据”按钮](media/service-azure-sql-data-warehouse-with-direct-connect/getdatabutton.png)
 
-2. 在**数据库**中，选择**获取**。
+2. 在“数据库”  中，选择“获取”  。
 
     ![数据库](media/service-azure-sql-data-warehouse-with-direct-connect/databases.png)
 
-3. 选择**SQL 数据仓库** \> **连接**。
+3. 选择“SQL 数据仓库”  \>“连接”  。
 
     ![具有直接连接的 Azure SQL 数据仓库](media/service-azure-sql-data-warehouse-with-direct-connect/azuresqldatawarehouseconnect.png)
 
@@ -80,7 +80,7 @@ SQL 数据仓库还在 Power BI 获取数据页面上列出。
 
     ![数据集 2](media/service-azure-sql-data-warehouse-with-direct-connect/dataset2.png)
 
-6. 你可以浏览所有表和列。 选择某列会将查询发送回源，从而动态创建视觉对象。 筛选器也会转换为返回到数据仓库的查询。 这些视觉对象可以保存在新报表中，并重新固定到仪表板。
+6. 你可以浏览所有表和列。 选择某列会将查询发送回源，从而动态创建视觉对象。 筛选器也会转换为返回到数据仓库的查询。 可将这些视觉效果保存在新报表中，并固定回到仪表板。
 
     ![浏览 3](media/service-azure-sql-data-warehouse-with-direct-connect/explore3.png)
 
@@ -101,4 +101,4 @@ SQL 数据仓库还在 Power BI 获取数据页面上列出。
 * [获取 Power BI 的数据](service-get-data.md)  
 * [Azure SQL 数据仓库](/azure/sql-data-warehouse/sql-data-warehouse-overview-what-is/)
 
-更多问题？ [尝试参与 Power BI 社区](https://community.powerbi.com/)
+更多疑问？ [尝试参与 Power BI 社区](https://community.powerbi.com/)

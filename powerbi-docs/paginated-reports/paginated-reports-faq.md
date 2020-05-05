@@ -7,13 +7,13 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: conceptual
-ms.date: 04/21/2020
-ms.openlocfilehash: dcf154105b8940bd400fbb4e630a1d1cfd00ddf0
-ms.sourcegitcommit: 8775168ed916c517c57c696ebe45699e638b86e8
+ms.date: 04/29/2020
+ms.openlocfilehash: 3677e29e4ca9bc13bf0c7397d854dea62ec5f70f
+ms.sourcegitcommit: 20f15ee7a11162127e506b86d21e2fff821a4aee
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "81766284"
+ms.lasthandoff: 04/29/2020
+ms.locfileid: "82584992"
 ---
 # <a name="paginated-reports-in-power-bi-faq"></a>Power BI 中的分页报表：常见问题解答 
 
@@ -173,6 +173,11 @@ SaaS 嵌入（包括安全嵌入支持）现已可用。 有关 PaaS 嵌入，�
 ### <a name="can-you-search-for-paginated-reports-from-the-new-home-experience-in-the-power-bi-service"></a>可以在 Power BI 服务中的新主页体验中搜索分页报表吗？
 
 能，现在可以从“主页”搜索分页报表。  还可以在新“主页”体验的其他部分中看到它们。
+
+## <a name="considerations-and-troubleshooting"></a>注意事项和疑难解答
+在分页报表中使用 DateTime 字段时，有一些事项需要注意。
+
+- 当前存在一些与 DateTime 参数相关的全球化限制。 无论以何种方式在 Power BI 报表生成器中设计 DataTime，Power BI 服务中的所有 DateTime 参数都以美国格式 (MM/DD/YYYY) 提取。
 
 ## <a name="next-steps"></a>后续步骤
 

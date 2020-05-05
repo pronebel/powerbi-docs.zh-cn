@@ -7,14 +7,14 @@ ms.reviewer: lukaszp
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 01/30/2020
+ms.date: 04/27/2020
 LocalizationGroup: Share your work
-ms.openlocfilehash: 58f9a56d41bd35987f7c258fafdbff26aedf5df1
-ms.sourcegitcommit: a175faed9378a7d040a08ced3e46e54503334c07
+ms.openlocfilehash: 4be8a1ce88d50461ca51bb65278b823046459e30
+ms.sourcegitcommit: 20f15ee7a11162127e506b86d21e2fff821a4aee
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "79488812"
+ms.lasthandoff: 04/29/2020
+ms.locfileid: "82585023"
 ---
 # <a name="embed-a-report-in-a-secure-portal-or-website"></a>在安全门户或网站中嵌入报表
 
@@ -22,11 +22,13 @@ ms.locfileid: "79488812"
 
 “嵌入”选项支持 [URL 筛选器](service-url-filters.md)和 URL 设置  。 它使你可以使用只需要基本 HTML 和 JavaScript 知识的低代码方法来与门户集成。
 
-## <a name="how-to-embed-power-bi-reports-into-portals"></a>如何将  Power BI 报表嵌入门户
+## <a name="how-to-embed-power-bi-reports-into-portals"></a>如何将 Power BI 报表嵌入门户
 
-1. 在 Power BI 服务中报表的“文件”  菜单上提供新的“嵌入”  选项。
+1. 在 Power BI 服务中打开报表。
 
-    ![“安全嵌入”选项下拉选项](media/service-embed-secure/secure-embed-drop-down-menu.png)
+2. 在“更多选项(...)”  菜单中，选择“嵌入”   >  “网站或门户”  。
+
+    ![网站或门户选项](media/service-embed-secure/power-bi-more-options-website.png)
 
 2. 选择“嵌入”选项将打开一个对话框，该对话框提供一个链接和一个可用于安全嵌入报表的 iFrame  。
 

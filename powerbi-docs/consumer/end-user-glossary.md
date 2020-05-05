@@ -8,12 +8,12 @@ ms.subservice: powerbi-consumer
 ms.topic: conceptual
 ms.date: 04/07/2020
 ms.author: mihart
-ms.openlocfilehash: 2e5b8cf174e5e2180a42d2ccb3d2b43ba31b2d38
-ms.sourcegitcommit: 81407c9ccadfa84837e07861876dff65d21667c7
+ms.openlocfilehash: 101cdbc7ad7ea5d07edf182765d305ad2f1fa8c7
+ms.sourcegitcommit: 9ec2c608b90bf651df613f0714addd251a885039
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/13/2020
-ms.locfileid: "81267218"
+ms.lasthandoff: 04/24/2020
+ms.locfileid: "82120105"
 ---
 # <a name="glossary-for-power-bi-service"></a>Power BI 服务词汇表
 Power BI 服务可能会引入不熟悉或容易混淆的术语。 词汇表是查找术语的好地方，可能需要将其加入书签。 了解构成 Power BI 服务的构建块的另一个极佳资源是[基本概念](end-user-basic-concepts.md)。 “基本概念”提供 Power BI 组件及其如何连接的简要概述。 
@@ -22,9 +22,9 @@ Power BI 服务可能会引入不熟悉或容易混淆的术语。 词汇表是�
 
 ## <a name="a"></a>A
 
-**帐户**：有各种不同类型的 Power BI 帐户（亦称为“许可证”  ）。  帐户可以是每用户帐户，也可以是组织帐户。 每用户帐户作为免费  帐户或 Pro  帐户提供。  Power BI 免费  用户要么使用独立的 Power BI Desktop，要么在 Premium 组织帐户中使用 Power BI 服务。 Power BI 每用户 Pro  帐户是付费每月订阅，可便于与其他 Pro  用户进行协作和内容共享。 
+帐户  ：有各种不同类型的 Power BI 帐户（亦称为“许可证”  或“订阅”  ）。  帐户可以是每用户帐户，也可以是组织帐户。 每用户帐户作为免费  帐户或 Pro  帐户提供。  Power BI 免费  用户要么使用独立的 Power BI Desktop，，要么独立使用 Power BI 服务，要么在具有 Premium 组织订阅的组织中使用 Power BI 服务。 Power BI 每用户 Pro  帐户是付费每月订阅，可便于与其他 Pro  用户进行协作和内容共享。 
 
-组织 Premium  （亦称为“高级容量”  ）帐户在每用户许可证的基础之上添加了一层功能。 例如，与没有 Premium  许可证的免费  用户相比，有 Premium  许可证的组织内的免费  每用户帐户持有者可以使用 Power BI 执行更多操作。 例如，Premium 组织帐户中的免费用户可以与同事协作，并能查看 Power BI 高级容量中托管的内容   。  
+组织 Premium  （亦称为“高级容量”  ）订阅在每用户许可证的基础之上添加了一层功能。 例如，与没有 Premium  许可证的免费  用户相比，有 Premium  订阅的组织内的免费  每用户帐户持有者可以使用 Power BI 执行更多操作。 例如，Premium 组织帐户中的免费用户可以与同事协作，并能查看 Power BI 高级容量中托管的内容   。 
 
 **admin portal (管理门户)** Power BI 管理员管理其组织内 Power BI 的用户、功能和设置的地方。 （注意：Office 365、Azure 和 PowerApps 使用管理中心。）
 
@@ -225,7 +225,7 @@ Power BI 服务可能会引入不熟悉或容易混淆的术语。 词汇表是�
 
 **Power BI**、**Power BI 服务**、**Power BI Desktop**、**Power BI 移动版**、一些其他 Power BI 产品。 *Power BI* 是一个泛称。 通常在首次提及完整产品名称之后用于代替完整产品名称，例如 Power BI 服务  和 Power BI 移动版  。
 
-**Power BI Desktop** 也称为 *Desktop*。 可在本地计算机上安装的免费的 Windows Power BI 应用程序，可用于连接到数据、转换数据并实现数据的可视化效果。 由报表设计人员和管理员使用。 有关详细信息，请参阅[什么是 Power BI？](../fundamentals/power-bi-overview.md)。
+**Power BI Desktop** 也称为 *Desktop*。 可在本地计算机上安装的免费的 Windows Power BI 应用程序，可用于连接到数据、转换数据并实现数据的可视化效果。 由报表设计人员和管理员使用。 有关详细信息，请参阅[什么是 Power BI](../fundamentals/power-bi-overview.md)。
 
 **Power BI Embedded** 由开发人员使用，将 Power BI 仪表板和报表嵌入自己的应用、站点和工具。
 
@@ -235,7 +235,7 @@ Power BI 服务可能会引入不熟悉或容易混淆的术语。 词汇表是�
 
 **Power BI Report Server (Power BI 报表服务器)** SSRS 的一个新品牌产品，与 Power BI Premium 一起发布，让组织可以构建已分发的混合 BI 系统（云和本地部署的混合体）。 Embedded 提供了存储和管理 Power BI 报表的本地化方法。
 
-**Power BI service (Power BI 服务)** 联机 SaaS（软件即服务）服务。 有关详细信息，请参阅[什么是 Power BI？](../fundamentals/power-bi-overview.md)。
+**Power BI service (Power BI 服务)** 联机 SaaS（软件即服务）服务。 有关详细信息，请参阅[什么是 Power BI](../fundamentals/power-bi-overview.md)。
 
 **Premium workspace (Premium 工作区)** 在专用容量中运行的工作区，使用钻石图标向客户表示。  
 

@@ -5,15 +5,15 @@ author: mihart
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: overview
-ms.date: 02/24/2020
+ms.date: 04/22/2020
 ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: fb1209103c88e78148f746321d5ff8d8bd6e1a20
-ms.sourcegitcommit: 87b7cb4a2e626711b98387edaa5ff72dc26262bb
+ms.openlocfilehash: b3f23b85d048a4ca4232152e5d2252c522a036ac
+ms.sourcegitcommit: 9ec2c608b90bf651df613f0714addd251a885039
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/10/2020
-ms.locfileid: "79039920"
+ms.lasthandoff: 04/24/2020
+ms.locfileid: "82120220"
 ---
 # <a name="the-power-bi-service-for-consumers"></a>面向使用者的 Power BI 服务
 
@@ -45,7 +45,7 @@ ms.locfileid: "79039920"
 
 毫无疑问，你会听到“Power BI Desktop”或“Desktop”一词，这是指与你一起生成和共享仪表板和报表的设计者所使用的独立工具  。  请务必知晓，还有其他 Power BI 工具，但只要你是使用者，就只能使用 Power BI 服务。 
 
-由于要处理的是共享  内容，因此你需要标准免费  许可证，同时必须在使用高级  容量的组织中工作。 [我有哪种许可证？](end-user-license.md)
+由于要处理的是共享  内容，因此你只需要免费  许可证，因为你在使用高级  容量的组织中工作。 [我有哪种许可证？](end-user-license.md)
 
 
 ## <a name="safely-interact-with-content"></a>安全地与内容交互 

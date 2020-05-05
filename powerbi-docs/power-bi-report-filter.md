@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 03/17/2020
+ms.date: 04/20/2020
 ms.author: maggies
 LocalizationGroup: Reports
-ms.openlocfilehash: 8dfc6e872b67605a262c7390b91703649a2cfb0f
-ms.sourcegitcommit: 2c798b97fdb02b4bf4e74cf05442a4b01dc5cbab
+ms.openlocfilehash: 548c76e2d344e996d367cba810bf42442af8d27d
+ms.sourcegitcommit: 9ec2c608b90bf651df613f0714addd251a885039
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/21/2020
-ms.locfileid: "80114011"
+ms.lasthandoff: 04/24/2020
+ms.locfileid: "82120309"
 ---
 # <a name="work-with-filters-in-power-bi-reports"></a>使用 Power BI 报表中的筛选器
 
@@ -71,7 +71,7 @@ Power BI 中的筛选器新增了功能，并采用了新设计。 选择启用�
 
 以下是此视图显示的筛选器类型： 
 - 基本筛选器
-- 切片器
+- 切片器 (Slicers)
 - 交叉突出显示 
 - 交叉筛选
 - 高级筛选器
@@ -258,6 +258,10 @@ Power BI Desktop 以预览版的形式提供了一个新功能区。 在“视�
 
 ![限制更改筛选器类型](media/power-bi-report-filter/power-bi-enable-change-filter-type.png)
 
+## <a name="considerations-and-limitations"></a>注意事项和限制
+
+发布到 Web 不显示“筛选器”窗格。 如果计划将报表发布到 Web，请考虑添加切片器进行筛选。
+
 ## <a name="next-steps"></a>后续步骤
 
 试用新筛选器体验。 在 [Power BI Ideas 网站](https://ideas.powerbi.com/forums/265200-power-bi)上，提供有关此功能的反馈，以及如何继续改进它。 
@@ -266,5 +270,5 @@ Power BI Desktop 以预览版的形式提供了一个新功能区。 在“视�
 - [报表中的筛选器和突出显示](power-bi-reports-filters-and-highlighting.md)
 - [Power BI 中不同种类的筛选器](power-bi-report-filter-types.md)
 
-更多问题？ [尝试参与 Power BI 社区](https://community.powerbi.com/)
+更多疑问？ [尝试参与 Power BI 社区](https://community.powerbi.com/)
 

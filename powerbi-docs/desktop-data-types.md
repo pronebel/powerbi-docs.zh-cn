@@ -9,12 +9,12 @@ ms.topic: reference
 ms.date: 09/05/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 3f263e67b866f6d6a3ea76257c64bbb2308a25d2
-ms.sourcegitcommit: b68a47b1854588a319a5a2d5d6a79bba2da3a4e6
+ms.openlocfilehash: 281cb03e8d22688b23970c66b0fbc5a5bec1e15d
+ms.sourcegitcommit: 20f15ee7a11162127e506b86d21e2fff821a4aee
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/08/2020
-ms.locfileid: "75729704"
+ms.lasthandoff: 04/29/2020
+ms.locfileid: "82584764"
 ---
 # <a name="data-types-in-power-bi-desktop"></a>Power BI Desktop 中的数据类型
 本文介绍 Power BI Desktop 和数据分析表达式 (DAX) 中支持的数据类型。 
@@ -35,6 +35,8 @@ ms.locfileid: "75729704"
 ![](media/desktop-data-types/pbiddatatypesindatareportview.png)
 
 查询编辑器中的“数据类型”下拉列表中有两种数据类型在当前数据或报表视图中不存在，分别是：“日期/时间/时区”  和“持续时间”  。 当将使用这些数据类型的列加载到模型中，并在数据或报表视图中进行查看时，使用日期/时间/时区数据类型的列将会被转换为日期/时间，而使用持续时间数据类型的列将会被转换为十进制数字。
+
+当前在查询编辑器外部不支持“二进制”  数据类型。 在查询编辑器中，如果先将二进制文件转换为其他数据类型，然后再将它加载到 Power BI 模型，则可以在加载这些文件时使用该类型。 由于旧原因，它存在于数据视图和报表视图菜单中，但如果尝试将二进制列加载到 Power BI 模型，则可能会遇到错误。  
 
 ### <a name="number-types"></a>数字类型
 Power BI Desktop 支持三种数字类型：
@@ -71,6 +73,16 @@ Power BI Desktop 支持查询视图中的五种日期/时间数据类型。  在
 
 ### <a name="blanksnulls-type"></a>空白/Null 类型
 **空白** - DAX 中表示和替代 SQL Null 的数据类型。 你可以使用 [BLANK](https://msdn.microsoft.com/library/ee634820.aspx) 函数创建空白，并使用 [ISBLANK](https://msdn.microsoft.com/library/ee634204.aspx) 逻辑函数对其进行测试。
+
+### <a name="binary-data-type"></a>二进制数据类型
+
+二进制数据类型可用于表示具有二进制格式的任何其他数据。 在查询编辑器中，如果先将二进制文件转换为其他数据类型，然后再将它加载到 Power BI 模型，则可以在加载这些文件时使用该类型。 Power BI 数据模型中不支持二进制列。 由于旧原因，它存在于数据视图和报表视图菜单中，但如果尝试将二进制列加载到 Power BI 模型，则可能会遇到错误。
+
+
+> [!NOTE]
+>  如果二进制列处于查询步骤的输出中，则尝试通过网关刷新数据可能会导致错误。 建议在查询的最后一个步骤中显式删除任何二进制列。    
+> 
+>
 
 ### <a name="table-data-type"></a>表数据类型
 DAX 在许多函数中使用表数据类型，例如聚合和时间智能计算。 某些函数需要引用表；其他函数返回随后可用于输入到其他函数的表。 在某些需要表作为输入的函数中，你可以指定计算结果为表格的表达式；对于一些函数，则需要引用基础表。 有关特定函数的要求的详细信息，请参阅 [DAX 函数引用](https://msdn.microsoft.com/library/ee634396.aspx)。

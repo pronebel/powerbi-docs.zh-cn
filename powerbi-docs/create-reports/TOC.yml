@@ -327,6 +327,10 @@
               href: ../paginated-reports/report-builder-shared-datasets.md
             - name: 创建参数
               href: ../paginated-reports/paginated-reports-parameters.md
+            - name: 子报表
+              href: ../paginated-reports/subreports.md
+            - name: 排除子报表故障
+              href: ../paginated-reports/subreports-troubleshoot.md
             - name: 在 URL 中传递报表参数
               href: ../paginated-reports/report-builder-url-pass-parameters.md
             - name: 发布分页报表

@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 11/20/2019
+ms.date: 04/24/2020
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: c2290963db54f150eed8176c2820c59f8f138666
-ms.sourcegitcommit: 02b05932a119527f255e1eacc745a257044e392f
+ms.openlocfilehash: a118cd0874410e538ca8329e0b8c0ed1bdb430b7
+ms.sourcegitcommit: 834cad24901f7fd966c4010e36a7904bc120e57f
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/19/2019
-ms.locfileid: "75223248"
+ms.lasthandoff: 04/24/2020
+ms.locfileid: "82149598"
 ---
 # <a name="connect-to-an-oracle-database"></a>连接到 Oracle 数据库
 要使用 Power BI Desktop 连接到 Oracle 数据库，必须在运行 Power BI Desktop 的计算机上安装正确的 Oracle 客户端软件。 使用的 Oracle 客户端软件取决于已安装的 Power BI Desktop 版本：32 位或 64 位。
@@ -22,6 +22,10 @@ ms.locfileid: "75223248"
 支持的 Oracle 版本： 
 - Oracle 9 及更高版本
 - Oracle 客户端软件 8.1.7 及更高版本
+
+> [!NOTE]
+> 如果要为 Power BI 报表服务器配置 Oracle 数据库，请参阅 [Oracle 连接类型](https://docs.microsoft.com/sql/reporting-services/report-data/oracle-connection-type-ssrs?view=sql-server-ver15)一文中的信息。 
+
 
 ## <a name="determining-which-version-of-power-bi-desktop-is-installed"></a>确定安装了哪个版本的 Power BI Desktop
 要确定所安装的 Power BI Desktop 版本，请选择“文件” > “帮助” > “关于”，然后查看“版本”行     。 下图中安装的是 64 位版本的 Power BI Desktop：
@@ -56,7 +60,7 @@ ms.locfileid: "75223248"
 5. 如果 Oracle 数据库需要数据库用户凭据，请在出现提示时，输入这些凭据。
 
 
-## <a name="troubleshooting"></a>故障排除
+## <a name="troubleshooting"></a>疑难解答
 
 如果已从 Microsoft Store 下载 Power BI Desktop，则 Oracle 驱动程序问题可能导致你无法连接到 Oracle 数据库。 如果遇到此问题，则返回的错误消息为：未设置对象引用  。 要解决此问题，请执行以下步骤之一：
 
@@ -65,3 +69,5 @@ ms.locfileid: "75223248"
 * 要使用 Microsoft Store 中的版本，请在本地计算机上将 12.X.X\client_X 中的 oraons.dll 复制到 12.X.X\client_X\bin，其中 X 表示版本和目录号    。
 
 如果在连接到 Oracle Database 时 Power BI Gateway 中出现“未设置对象引用”错误消息，请按照[管理数据源 - Oracle](service-gateway-onprem-manage-oracle.md) 中的说明进行操作  。
+
+如果使用 Power BI 报表服务器，请参阅 [Oracle 连接类型](https://docs.microsoft.com/sql/reporting-services/report-data/oracle-connection-type-ssrs?view=sql-server-ver15)一文中的指导。

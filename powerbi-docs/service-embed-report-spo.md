@@ -1,23 +1,23 @@
 ---
-title: 使用报表 Web 部件在 SharePoint Online 中嵌入报表
+title: 在 SharePoint Online 中嵌入报表 Web 部件
 description: 借助 Power BI 新推出的适用于 SharePoint Online 的报表 Web 部件，可以在 SharePoint Online 页面中轻松嵌入交互式 Power BI 报表。
-author: KesemSharabi
-ms.author: kesharab
+author: maggiesMSFT
+ms.author: maggies
 ms.reviewer: ''
 featuredvideoid: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
 LocalizationGroup: Share your work
-ms.date: 12/18/2019
-ms.openlocfilehash: d1ac9238e361a0889e52838eb0b3c3889c1cccf7
-ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
+ms.date: 04/27/2020
+ms.openlocfilehash: 5b726137fae0087701833b2d713cf7b5a329f899
+ms.sourcegitcommit: 20f15ee7a11162127e506b86d21e2fff821a4aee
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/06/2020
-ms.locfileid: "75221703"
+ms.lasthandoff: 04/29/2020
+ms.locfileid: "82585226"
 ---
-# <a name="embed-with-report-web-part-in-sharepoint-online"></a>使用报表 Web 部件在 SharePoint Online 中嵌入报表
+# <a name="embed-a-report-web-part-in-sharepoint-online"></a>在 SharePoint Online 中嵌入报表 Web 部件
 
 借助 Power BI 新推出的适用于 SharePoint Online 的报表 Web 部件，可以在 SharePoint Online 页面中轻松嵌入交互式 Power BI 报表。
 
@@ -38,9 +38,9 @@ ms.locfileid: "75221703"
 
 1. 在 Power BI 中查看报表。
 
-2. 选择“文件”下拉菜单，然后选择“在 SharePoint Online 中嵌入”   。
+2. 在“更多选项 (...)”  下拉菜单中，选择“嵌入”   > “SharePoint Online”  。
 
-    ![文件菜单](media/service-embed-report-spo/powerbi-file-menu.png)
+    ![SharePoint Online 中的“更多选项”菜单](media/service-embed-report-spo/power-bi-more-options-sharepoint-online.png)
 
 3. 复制对话框的报表 URL。
 

@@ -6,15 +6,15 @@ ms.reviewer: lukaszp
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 02/19/2020
+ms.date: 04/19/2020
 ms.author: mihart
 LocalizationGroup: Share your work
-ms.openlocfilehash: fd11e6fd45a3978eb301adabc15ac8941e7824bf
-ms.sourcegitcommit: f9909731ff5b6b69cdc58e9abf2025b7dee0e536
+ms.openlocfilehash: 1b23f76425fdf7ceb245b25bcc2b7551dabf0600
+ms.sourcegitcommit: 9ec2c608b90bf651df613f0714addd251a885039
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/20/2020
-ms.locfileid: "77496718"
+ms.lasthandoff: 04/24/2020
+ms.locfileid: "82120225"
 ---
 # <a name="apps-in-power-bi"></a>Power BI 中的“应用”
 
@@ -29,8 +29,8 @@ ms.locfileid: "77496718"
 
 ![Power BI 中的“应用”](./media/end-user-apps/power-bi-apps.png)
 
-> [!NOTE]
-> 必须有 Power BI Pro 许可证，才能使用应用功能。 [查找许可证类型](end-user-license.md)
+
+使用应用功能需要 Power BI Pro 许可证或将应用存储在高级容量中。 若要了解有关许可证和高级容量的详细信息，请参阅[使用者的许可证](end-user-license.md)。
 
 ## <a name="app-designers-and-app-consumers"></a>应用设计者和应用使用者  
 根据你的角色，如果你是设计者，则可创建应用供你自己使用或与同事共享  。 或者，如果你是使用者，则可接收和下载其他人创建的应用  。 本文适用于应用使用者  。
@@ -44,13 +44,13 @@ ms.locfileid: "77496718"
 ## <a name="get-a-new-app"></a>获取新的应用
 可以通过多种不同的方式获取应用。 下面列出了一些方法。  但有关获取和浏览应用的详细分步说明，请参阅[打开应用并与之交互](end-user-app-view.md)。
 
-- 应用设计者可以在 Power BI 帐户中自动安装应用，下次打开 Power BI 时，就可在“应用”内容列表中看到此新应用  。 
-- 应用设计人员可通过电子邮件向你发送应用的直接链接。 选择此链接将在 Power BI 中打开该应用。
+- 应用设计者可以在 Power BI 帐户中自动安装应用，下次打开 Power BI 服务时，就可在“应用”内容列表中看到此新应用  。 
+- 应用设计人员可通过电子邮件向你发送应用的直接链接。 选择此链接将在 Power BI 服务中打开该应用。
 - 在移动设备上的 Power BI 中，只能通过直接链接（而不是 AppSource）安装应用。 如果应用作者自动安装应用，将能够在你的应用列表中看到它。
 - 可以在 [AppSource](https://appsource.microsoft.com) 中搜索应用。 AppSource 包含由公司内部和外部的报表设计者发布的应用。 例如，可以在 AppSource 上找到已使用服务的应用，例如 Google Analytics、GitHub 或 Microsoft Dynamics。 还可找到用于了解 Power BI 的示例应用。  
 
 
-## <a name="next-step"></a>下一步
+## <a name="next-step"></a>后续步骤
 * [打开某一应用并与之交互](end-user-app-view.md)
 * [共享内容的其他方法](end-user-shared-with-me.md)
 

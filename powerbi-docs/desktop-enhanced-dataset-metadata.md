@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 03/31/2020
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 54c3622b0a4dd6c690c2f22a0b93aed39e9d2799
-ms.sourcegitcommit: 3c51431d85793b71f378c4b0b74483dfdd8411b3
+ms.openlocfilehash: 301d6397e4a3ae4498234bae3ad8a49aa7552722
+ms.sourcegitcommit: 20f15ee7a11162127e506b86d21e2fff821a4aee
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/31/2020
-ms.locfileid: "80464628"
+ms.lasthandoff: 04/29/2020
+ms.locfileid: "82584667"
 ---
 # <a name="using-enhanced-dataset-metadata-preview"></a>使用增强的数据集元数据（预览）
 
@@ -46,6 +46,7 @@ Power BI Desktop 创建报表时，还会使用相应的 PBIX 和 PBIT 文件创
 
 在预览版中，启用预览功能时存在以下限制。
 
+### <a name="unsupported-features-and-connectors"></a>不支持的功能和连接器
 打开尚未升级的现有 PBIX 或 PBIT 文件时，如果数据集包含以下任何功能或连接器，则升级将失败。 如果发生此类失败，不会对用户体验产生直接影响，Power BI Desktop 继续使用以前的元数据格式。
 
 * Python 脚本
@@ -67,6 +68,8 @@ Power BI Desktop 创建报表时，还会使用相应的 PBIX 和 PBIT 文件创
 
 此外，已成功升级为使用“增强的数据集元数据”的 PBIX 和 PBIT 文件无法在当前版本中使用上述功能或连接器   。
 
+### <a name="lineage-view"></a>世系视图
+使用新元数据格式的数据集当前不会在 Power BI 服务的沿袭视图中显示指向数据流的链接。
 
 ## <a name="next-steps"></a>后续步骤
 

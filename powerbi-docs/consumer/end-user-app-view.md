@@ -6,15 +6,15 @@ ms.reviewer: lukaszp
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 02/18/2020
+ms.date: 04/18/2020
 ms.author: mihart
 LocalizationGroup: Share your work
-ms.openlocfilehash: f42455033a0853cc9a962d3167ed8a69a0f42c4e
-ms.sourcegitcommit: f9909731ff5b6b69cdc58e9abf2025b7dee0e536
+ms.openlocfilehash: 3b8985158092227fde5eb64eddabc9990d0606f6
+ms.sourcegitcommit: 9ec2c608b90bf651df613f0714addd251a885039
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/20/2020
-ms.locfileid: "77496913"
+ms.lasthandoff: 04/24/2020
+ms.locfileid: "82120266"
 ---
 # <a name="install-and-use-apps-with-dashboards-and-reports-in-power-bi"></a>在 Power BI 中安装和使用包含仪表板和报表的应用
 
@@ -28,6 +28,11 @@ ms.locfileid: "77496913"
 有几种方式都可用于获取新应用。 报表设计者同事可以在 Power BI 帐户中自动安装应用，或者向你发送指向某一应用的直接链接。 而你可以转到 AppSource 并从公司内部和外部的应用程序设计器中搜索可用应用。 
 
 在移动设备上的 Power BI 中，只能通过直接链接（而不是 AppSource）安装应用。 如果应用设计者自动安装应用，将能够在你的应用列表中看到它。
+
+## <a name="apps-and-licenses"></a>应用和许可证
+并非所有 Power BI 用户都可以查看应用并与之交互。 
+- 如果你有免费许可证，则可以打开已与你共享的应用，以及在高级容量内的工作区中存储的应用。
+- 如果你有 Pro 许可证，则可以打开已与你共享的应用。
 
 ## <a name="install-an-app-from-a-direct-link"></a>通过直接链接安装应用
 自行安装新应用的最简单方法是从应用程序设计器中通过电子邮件获取直接链接。  
@@ -45,7 +50,10 @@ ms.locfileid: "77496913"
 ![移动设备上的应用内容列表](./media/end-user-app-view/power-bi-ios.png)
 
 ## <a name="get-the-app-from-microsoft-appsource"></a>从 Microsoft AppSource 获取应用
-还可以从 Microsoft AppSource 中查找并安装应用。 仅显示可以访问的应用（即应用作者向你或每个人授予了权限）。
+还可以从 Microsoft AppSource 中查找并安装应用。 仅显示可以访问的应用（即应用作者向你或每个人授予了权限）。 
+
+> [!NOTE]
+> 如果你使用的是免费用户许可证，则能够下载应用，但无法查看它们，除非你升级到 Power BI Pro 帐户或应用存储在高级容量中。 有关详细信息，请参阅[使用者的许可证](end-user-license.md)。
 
 1. 选择“应用”  > “获取应用”   。 
    
@@ -79,7 +87,12 @@ ms.locfileid: "77496913"
 
 5. 安装应用后，Power BI 服务将显示一条指示成功的消息。 选择“转到应用”  ，打开应用。 根据设计器创建应用的方式，将显示应用仪表板或应用报表。
 
+
+
     ![已成功安装应用 ](./media/end-user-apps/power-bi-app-ready.png)
+
+    > [!NOTE]
+    > 如果你使用的是免费用户许可证，则能够下载应用，但无法查看它们，除非你升级到 Power BI Pro 帐户。 
 
     还可通过选择“应用”，然后选择“销售和营销”，直接从应用内容列表打开应用   。
 
@@ -123,8 +136,6 @@ ms.locfileid: "77496913"
     > 安装新版本会覆盖可能对报表和仪表板所做的任何更改。 若要保留更新的报表和仪表板，可以在安装前用其他名称或位置保存它们。 
 
     4. 安装更新版本后，选择“更新应用”  以完成更新过程。 
-
-    <!--![Update app](./media/end-user-app-view/power-bi-new-app-version-update-app.png) -->
 
 
 ## <a name="next-steps"></a>后续步骤

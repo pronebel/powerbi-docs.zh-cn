@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 01/15/2020
 ms.author: davidi
 LocalizationGroup: Model your data
-ms.openlocfilehash: 218a05c41c3befed8f8600f6a584560f5be92a1f
-ms.sourcegitcommit: a1409030a1616027b138128695b80f6843258168
+ms.openlocfilehash: 4ce9946672514d3d3f181c573789b256888a4372
+ms.sourcegitcommit: 20f15ee7a11162127e506b86d21e2fff821a4aee
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/24/2020
-ms.locfileid: "76709575"
+ms.lasthandoff: 04/29/2020
+ms.locfileid: "82584840"
 ---
 # <a name="specify-data-categories-in-power-bi-desktop"></a>在 Power BI Desktop 中指定数据类别
 在 Power BI Desktop 中，你可以为列指定数据类别，以便让 Power BI Desktop 知道如何在可视化效果中处理其值  。
@@ -33,7 +33,7 @@ Power BI Desktop 是否应显示一张世界图片，并突出显示各个国家
 **指定数据类别**
 
 1. 在“报表”视图或“数据”视图中的字段列表中，选择你想要按不同的分类进行排序的字段    。
-2. 在功能区上，在“建模”选项卡的“属性”区域中，选择“数据类别”旁边的下拉箭头    。  此列表显示了可以为列选择的数据类别。 如果某些选项不适用于列的当前数据类型，它们可能会被禁用。  例如，如果列为二进制数据类型，Power BI Desktop 将不允许你选择地理数据类别。 
+2. 在功能区上，在“建模”选项卡的“属性”区域中，选择“数据类别”旁边的下拉箭头    。  此列表显示了可以为列选择的数据类别。 如果某些选项不适用于列的当前数据类型，它们可能会被禁用。  例如，如果列为日期或时间数据类型，Power BI Desktop 将不允许你选择地理数据类别。 
 3. 选择所需类别。
 
    ![](media/desktop-data-categorization/desktop-data-categorization.png)

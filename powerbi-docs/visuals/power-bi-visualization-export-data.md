@@ -8,15 +8,15 @@ featuredvideoid: jtlLGRKBvXY
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 01/16/2020
+ms.date: 04/28/2020
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 9823e35fb2ddb99cf2932fa83e92598ba40f6690
-ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
+ms.openlocfilehash: f82bde423d910cb5622e5e709890502e96daab36
+ms.sourcegitcommit: 20f15ee7a11162127e506b86d21e2fff821a4aee
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/14/2020
-ms.locfileid: "79381367"
+ms.lasthandoff: 04/29/2020
+ms.locfileid: "82585383"
 ---
 # <a name="export-the-data-that-was-used-to-create-a-visualization"></a>探索用于创建可视化效果的数据
 
@@ -242,7 +242,7 @@ Power BI 报表设计器控制向使用者提供的数据导出选项的类型�
 
 - 如果为 Power BI 要导出的可视化效果启用“显示不含数据的项”  选项，无法使用“基础数据”  导出数据。
 
-- 使用 DirectQuery 时，Power BI 最多可以导出 16-MB 未压缩的数据。 可能出现的意外结果是，导出数据低于行数上限。 在以下情况下，可能会出现这样的结果：
+- 使用 DirectQuery 时，Power BI 最多可以导出 16-MB 未压缩的数据。 可能出现的意外结果是，导出的行数小于最大行数 150,000。 在以下情况下，可能会出现这样的结果：
 
     - 有许多列。
 

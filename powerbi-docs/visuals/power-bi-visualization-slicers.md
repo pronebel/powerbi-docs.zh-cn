@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 04/06/2020
 ms.author: maggies
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 105a9afe7292412227f67ef80e15eb23eb7d5f71
-ms.sourcegitcommit: 915cb7d8088deb0d9d86f3b15dfb4f6f5b1b869c
+ms.openlocfilehash: 1ba284aa3c925ef0679572ca55cad9e5267d3f21
+ms.sourcegitcommit: 20f15ee7a11162127e506b86d21e2fff821a4aee
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/10/2020
-ms.locfileid: "81006772"
+ms.lasthandoff: 04/29/2020
+ms.locfileid: "82585068"
 ---
 # <a name="slicers-in-power-bi"></a>Power BI 中的切片器
 
@@ -131,6 +131,11 @@ Power BI 切片器不支持以下操作：
     >[!NOTE]
     >如果将切片器同步到一个页面，但不让它在该页上可见，那么在其他页面上所做的切片器选择仍然会筛选该页上的数据。
  
+## <a name="filtering-slicers"></a>筛选切片器
+可以将视觉对象级筛选器应用于切片器以减少切片器中显示的值的列表。 例如，可以从列表切片器中筛选出空白值，或从范围切片器中筛选出特定日期。 执行此操作时，它只会影响切片器中显示的值  ，而不是在进行选择时切片器应用于其他视觉对象的筛选器  。 例如，假设将筛选器应用于范围切片器，以便仅显示特定日期。 对切片器的选择仅显示该范围中的第一个日期和最后一个日期，但仍会看到其他视觉对象中的其他日期。 更改切片器中的所选范围后，会看到其他视觉对象更新。 清除切片器会再次显示所有日期。
+
+有关视觉对象级筛选器的详细信息，请参阅[筛选器类型](../power-bi-report-filter-types.md)。
+
 ## <a name="format-slicers"></a>格式化切片器
 可用的不同格式化选项具体取决于切片器类型。 通过使用“水平”  方向、“响应式”  布局，和“项”  着色，可以生成按钮或磁贴，而不是标准列表项，并使切片器项调整大小以适应不同的屏幕大小和布局。  
 
