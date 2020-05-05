@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 10/28/2019
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 8c4db4d659c64fba8b7a79e6e36a5f27d8dd5d34
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 986c09e404e0190a3efee8480d413d49cbd49186
+ms.sourcegitcommit: 20f15ee7a11162127e506b86d21e2fff821a4aee
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73869379"
+ms.lasthandoff: 04/29/2020
+ms.locfileid: "82584823"
 ---
 # <a name="keyboard-shortcuts-in-power-bi-desktop"></a>Power BI Desktop 中的键盘快捷方式
 
@@ -56,6 +56,7 @@ ms.locfileid: "73869379"
 | 多选 | Ctrl+Enter  或 Ctrl+空格键  |
 | 右键单击 | <ul><li>Windows 键盘：Windows 上下文键+F10  。 Windows 上下文键位于左 Alt 键和向左键之间</li><li>其他键盘：Shift+F10 </li></ul> |
 | 清除选定内容 | Ctrl+Shift+C  |
+| 显示或隐藏工具提示 | Ctrl + H  |
 
 ## <a name="table-and-matrix-navigation"></a>表和矩阵导航
 | 要执行此操作          | 操作方法                |
