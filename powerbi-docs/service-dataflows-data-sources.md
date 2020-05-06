@@ -10,10 +10,10 @@ ms.date: 09/20/2019
 ms.author: davidi
 LocalizationGroup: Data from files
 ms.openlocfilehash: 650fb243152d9bf2ca2ecfc37143145d734b78fe
-ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/06/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "73872664"
 ---
 # <a name="connect-to-data-sources-for-power-bi-dataflows"></a>连接到 Power BI 数据流的数据源
@@ -50,8 +50,8 @@ ms.locfileid: "73872664"
 
 * 所有类别
 * 文件
-* 数据库
-* Power BI
+* Database
+* 分析 Azure 使用情况
 * Azure
 * Online Services
 * 其他
@@ -70,7 +70,7 @@ ms.locfileid: "73872664"
 
 * IBM DB2 数据库
 * MySQL 数据库
-* Oracle 数据库
+* Oracle Database
 * PostgreSQL 数据库
 * SQL Server 数据库
 * Sybase 数据库
@@ -92,7 +92,7 @@ ms.locfileid: "73872664"
 “联机服务”类别包括以下用于数据流的可用数据连接  ：
 
 * Amazon Redshift
-* 面向应用程序的 Common Data Service
+* Common Data Service for Apps
 * Microsoft Exchange Online
 * Salesforce 对象
 * Salesforce 报表
@@ -107,7 +107,7 @@ ms.locfileid: "73872664"
 * Web API
 * 网页
 * 空白表格
-* 空白查询
+* 空查询
 
 
 ## <a name="connecting-to-a-data-source"></a>连接到数据源
@@ -159,7 +159,7 @@ ms.locfileid: "73872664"
 * Adobe Analytics
 * ODBC
 * OLE DB
-* 文件夹
+* Folder
 * SharePoint Online 文件夹
 * SharePoint 文件夹
 * Hadoop HDFS

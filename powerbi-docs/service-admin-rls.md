@@ -10,12 +10,12 @@ ms.author: kfollis
 ms.date: 12/05/2019
 ms.custom: seodec18
 LocalizationGroup: Administration
-ms.openlocfilehash: 831c6f1d2cecfa51b64c8ff77f14ead9f644bcc7
-ms.sourcegitcommit: b2cb0b02bdc451bf11a92a68f2c4d560a811f563
+ms.openlocfilehash: 70f10620932708dd178b635f966a55f8139cde65
+ms.sourcegitcommit: 220910f0b68cb1e265ccd5ac0cee4ee9c6080b26
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/16/2020
-ms.locfileid: "81439977"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "82841149"
 ---
 # <a name="row-level-security-rls-with-power-bi"></a>Power BI 行级别安全性 (RLS)
 
@@ -51,7 +51,7 @@ Power BI 行级别安全性 (RLS) 可用于限制给定用户的数据访问。 
 
 ### <a name="add-members"></a>添加成员
 
-你可以通过键入邮件地址、用户姓名、你想要添加的安全组或通讯组列表，以向你的角色添加成员。 不能添加在 Power BI 内创建的组。 可将成员[添加到组织的外部](whitepaper-azure-b2b-power-bi.md#data-security-for-external-partners)。
+你可以通过键入邮件地址、用户姓名、你想要添加的安全组或通讯组列表，以向你的角色添加成员。 不能添加在 Power BI 内创建的组。 可将成员[添加到组织的外部](guidance/whitepaper-azure-b2b-power-bi.md#data-security-for-external-partners)。
 
 ![添加成员](media/service-admin-rls/rls-add-member.png)
 

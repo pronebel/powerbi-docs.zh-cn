@@ -10,17 +10,17 @@ ms.date: 11/28/2018
 ms.author: davidi
 LocalizationGroup: Data refresh
 ms.openlocfilehash: bf007dfe70b5bfb7be9fa8c00865663b07210367
-ms.sourcegitcommit: f77b24a8a588605f005c9bb1fdad864955885718
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/02/2019
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "74698753"
 ---
 # <a name="refresh-a-dataset-created-from-an-excel-workbook-on-a-local-drive"></a>刷新使用本地驱动器上的 Excel 工作簿创建的数据集
 ## <a name="whats-supported"></a>支持的功能有哪些？
 在 Power BI 中，数据集是使用本地驱动器导入的 Excel 工作簿创建的，它支持“立即刷新”和“计划刷新”功能。在本地驱动器中，Power Query（在 Excel 2016 中获取和转换数据）可用于连接到以下任一数据源并将数据加载到 Excel 数据模型：  
 
-### <a name="power-bi-gateway---personal"></a>Power BI Gateway - Personal
+### <a name="power-bi-gateway---personal"></a>Power BI 网关 - 个人
 * Power Query 中显示的所有联机数据源。
 * Power Query 中显示的所有本地数据源，Hadoop 文件 (HDFS) 和 Microsoft Exchange 除外。
 * Power Pivot 中显示的所有联机数据源。\*
