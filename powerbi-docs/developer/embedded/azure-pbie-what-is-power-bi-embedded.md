@@ -11,10 +11,10 @@ ms.topic: overview
 ms.custom: seodec18
 ms.date: 12/10/2018
 ms.openlocfilehash: f04621fdfe7e6055d84fa4d2672c874837ff5ea4
-ms.sourcegitcommit: a175faed9378a7d040a08ced3e46e54503334c07
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/18/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "79495265"
 ---
 # <a name="what-is-power-bi-embedded-in-azure"></a>Azure 中的 Power BI Embedded 是指什么？
@@ -43,12 +43,12 @@ Power BI Embedded 旨在简化 ISV 和开发人员对具有嵌入式分析的 Po
 * [**Visual Studio Code**](https://code.visualstudio.com/docs)：一款免费、可下载、开源的代码编辑器，适用于支持扩展的 Windows、macOS 和 Linux
 * [**Power BI Desktop**](https://powerbi.microsoft.com/desktop/)：一款免费、可下载的工具，通过可视化分析来创建内容丰富的交互式报告
 
-借助 REST API，Power BI Embedded 允许使用任何语言进行开发。
+将 REST API 和 Power BI Embedded 相结合，可以使用任何语言进行开发。
 
 ## <a name="engage-with-the-power-bi-engineering-team"></a>与 Power BI 工程团队合作
 
-* [社区](https://community.powerbi.com/)：提出 Power BI 问题
-* [Power BI Ideas](https://ideas.powerbi.com)：请求提供功能并为功能投票
+* [社区](https://community.powerbi.com/)：就 Power BI 提问
+* [Power BI Ideas](https://ideas.powerbi.com)：提出请求并进行功能投票
 * [Reddit](https://www.reddit.com/r/PowerBI/)：讨论 Power BI
 
 ## <a name="next-steps"></a>后续步骤

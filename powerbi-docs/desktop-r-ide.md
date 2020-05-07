@@ -11,10 +11,10 @@ ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
 ms.openlocfilehash: 4440db5888eeeab638eab4ea3819107d37bdbdbd
-ms.sourcegitcommit: 02b05932a119527f255e1eacc745a257044e392f
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/19/2019
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "75223464"
 ---
 # <a name="use-an-external-r-ide-with-power-bi"></a>将外部 R IDE 与 Power BI 一起使用
@@ -31,19 +31,19 @@ ms.locfileid: "75223464"
 要使用此功能，需要在本地计算机上安装 **R IDE**。 Power BI Desktop  不包含 R 引擎，也不部署和安装该引擎，因此必须在本地计算机上单独安装 R  。 通过以下选项，你可以选择使用哪个 R IDE：
 
 * 你可以安装最喜欢的 R IDE，其中大部分都是免费的，例如 [Revolution Open 下载页面](https://mran.revolutionanalytics.com/download/) 和 [CRAN 存储库](https://cran.r-project.org/bin/windows/base/)。
-* **Power BI Desktop** 还支持 [R Studio](https://www.rstudio.com/) 和具有 [*R Tools for Visual Studio*](/visualstudio/rtvs) 编辑器的 **Visual Studio 2015**。
+* **Power BI Desktop** 还支持 [R Studio](https://www.rstudio.com/) 和具有  R Tools for Visual Studio[*编辑器的*Visual Studio 2015](/visualstudio/rtvs)。
 * 此外，还可以安装不同的 R IDE，并通过执行以下任一操作，使 **Power BI Desktop** 启动相应 **R IDE**：
   
   * 可以将 **.R** 文件与 **Power BI Desktop** 要启动的外部 IDE 相关联。
-  * 通过从“ **选项** ”对话框的“ **R 脚本选项** ”部分中选择“ *其他* ”，你可以指定 **Power BI Desktop** 应启动的 .exe。 通过转到 **“文件”>“选项和设置”>“选项”** ，你可以打开“**选项**”对话框。
+  * 通过从“ **选项** ”对话框的“ *R 脚本选项* ”部分中选择“ **其他** ”，你可以指定 **Power BI Desktop** 应启动的 .exe。 通过转到 **“文件”>“选项和设置”>“选项”** ，你可以打开“**选项**”对话框。
     
     ![](media/desktop-r-ide/r-ide_1b.png)
 
-如果安装了多个 R Ide，则通过在“ **选项** ”对话框中“ *检测到的 R Ide* ”下拉列表中进行选择就可以指定要启动哪个 R Ide。
+如果安装了多个 R Ide，则通过在“ *选项* ”对话框中“ **检测到的 R Ide** ”下拉列表中进行选择就可以指定要启动哪个 R Ide。
 
 默认情况下，**Power BI Desktop** 将启动 **R Studio** 作为外部 R IDE（如果它已安装在本地计算机上）；如果未安装 **R Studio**，而是安装了具有 **R Tools for Visual Studio** 的 **Visual Studio 2015**，则将启动 Visual Studio 2015。 如果这些 R IDE 均未安装，则将启动与 **.R** 文件关联的应用程序。
 
-如果 **.R** 文件不存在任何关联，则可以在“ **选项** ”对话框的“ *浏览到你的首选 R IDE* ”部分中指定自定义 IDE 的路径。 通过选择 **Power BI Desktop** 中“**启动 R IDE**”箭头图标旁边的“**设置**”齿轮图标，你还可以启动不同的 R IDE。
+如果 **.R** 文件不存在任何关联，则可以在“ *选项* ”对话框的“ **浏览到你的首选 R IDE** ”部分中指定自定义 IDE 的路径。 通过选择 **Power BI Desktop** 中“**启动 R IDE**”箭头图标旁边的“**设置**”齿轮图标，你还可以启动不同的 R IDE。
 
 ## <a name="launch-an-r-ide-from-power-bi-desktop"></a>通过 Power BI Desktop 启动 R IDE
 要通过 Power BI Desktop  启动 R IDE，请执行以下步骤：

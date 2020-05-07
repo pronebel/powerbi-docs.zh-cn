@@ -10,10 +10,10 @@ ms.date: 07/15/2019
 ms.author: arthii
 LocalizationGroup: Gateways
 ms.openlocfilehash: 10aec8659fcb643c5b0511360ba798c7b4873c77
-ms.sourcegitcommit: f77b24a8a588605f005c9bb1fdad864955885718
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/02/2019
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "74697879"
 ---
 # <a name="merge-or-append-on-premises-and-cloud-data-sources"></a>合并或追加本地和云数据源
@@ -25,7 +25,7 @@ ms.locfileid: "74697879"
 >[!NOTE]
 >本文仅适用于在单个查询中合并或追加了云和本地数据源的数据集。 对于包含单独查询的数据集（一个连接到本地数据源，另一个连接到云数据源），网关不会执行云数据源的查询。
 
-## <a name="prerequisites"></a>先决条件
+## <a name="prerequisites"></a>必备组件
 
 - 安装在本地计算机上的[网关](/data-integration/gateway/service-gateway-install)。
 - 包含合并了本地和云数据源的查询的 Power BI Desktop 文件。

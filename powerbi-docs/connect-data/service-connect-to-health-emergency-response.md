@@ -9,10 +9,10 @@ ms.date: 04/06/2020
 ms.author: painbar
 LocalizationGroup: Connect to services
 ms.openlocfilehash: b951e96a5d81603dc91e4fc47a2b412d4140f85d
-ms.sourcegitcommit: 34cca70ba84f37b48407d5d8a45c3f51fb95eb3c
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/06/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "80752041"
 ---
 # <a name="connect-to-the-hospital-emergency-response-decision-support-dashboard"></a>连接到医院紧急响应决策支持仪表板
@@ -58,7 +58,7 @@ ms.locfileid: "80752041"
 
    ![模板应用初始屏幕](media/service-connect-to-health-emergency-response/service-health-emergency-response-app-splash-screen.png)
 
-   随即应用打开，并显示示例数据。
+   应用将打开，显示示例数据。
 
 1. 选择页面顶部横幅上的“连接数据”链接  。
 
