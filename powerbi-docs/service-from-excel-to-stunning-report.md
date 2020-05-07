@@ -10,10 +10,10 @@ ms.date: 08/12/2019
 ms.author: maggies
 LocalizationGroup: Data from files
 ms.openlocfilehash: c2a4719a03e37569e40d4247939a9f2c73379e52
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/09/2019
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "73872520"
 ---
 # <a name="from-excel-workbook-to-stunning-report-in-the-power-bi-service"></a>从 Excel 工作簿变为 Power BI 服务中的出色报表
@@ -129,7 +129,7 @@ Power BI 服务连接到多个数据源，包括位于计算机上的 Excel 文�
 
 2. 在“输入电子邮件地址”框中输入收件人的电子邮件地址，并在其下方的框中添加一封邮件  。 
 
-3. 若要允许收件人将你的仪表板与他人共享，请选择**允许收件人共享仪表板**。 选择**共享**。
+3. 若要允许收件人将你的仪表板与他人共享，请选择**允许收件人共享仪表板**。 选择“共享”  。
 
    ![共享仪表板窗口](media/service-from-excel-to-stunning-report/power-bi-share-dash-new.png)
 

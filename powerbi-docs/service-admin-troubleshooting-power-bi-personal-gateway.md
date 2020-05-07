@@ -10,10 +10,10 @@ ms.date: 5/06/2019
 ms.author: arthii
 LocalizationGroup: Troubleshooting
 ms.openlocfilehash: 910f52466b4700e4d0cc4168ef80ea5ee0164364
-ms.sourcegitcommit: f77b24a8a588605f005c9bb1fdad864955885718
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/02/2019
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "74698385"
 ---
 # <a name="troubleshooting-power-bi-gateway-personal-mode"></a>Power BI 网关（个人模式）故障排除
@@ -127,7 +127,7 @@ ms.locfileid: "74698385"
 ![数据管理网关和 PowerBIGateway 日志](media/service-admin-troubleshooting-power-bi-personal-gateway/event-logs.png)
 
 ### <a name="fiddler-trace"></a>Fiddler 跟踪
-[Fiddler](https://www.telerik.com/fiddler) 是 Telerik 提供的一款用于监视 HTTP 流量的免费工具。 可以看到从客户端计算机与 Power BI 服务的通信。 此通信可能会显示错误和其他相关信息。
+[Fiddler](https://www.telerik.com/fiddler) 是 Telerik 提供的一个免费工具，可以监视 HTTP 流量。 可以看到从客户端计算机与 Power BI 服务的通信。 此通信可能会显示错误和其他相关信息。
 
 ![Fiddler 跟踪](media/service-admin-troubleshooting-power-bi-personal-gateway/fiddler.png)
 

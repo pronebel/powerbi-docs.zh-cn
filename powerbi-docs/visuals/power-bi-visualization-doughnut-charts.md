@@ -10,10 +10,10 @@ ms.date: 06/11/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
 ms.openlocfilehash: 0e870163552e64594e574669ed8dea6937633282
-ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/09/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "75757706"
 ---
 # <a name="create-and-use-doughnut-charts-in-power-bi"></a>在 Power BI 中创建和使用圆环图
@@ -26,24 +26,24 @@ ms.locfileid: "75757706"
 
 本教程使用[零售分析示例 PBIX 文件](https://download.microsoft.com/download/9/6/D/96DDC2FF-2568-491D-AAFA-AFDD6F763AE3/Retail%20Analysis%20Sample%20PBIX.pbix)。
 
-1. 在菜单栏的左上方，选择“文件” > “打开”  
+1. 在菜单栏的左上方，选择“文件” **“打开”**  >  
    
 2. 查找**零售分析示例 PBIX 文件**的副本
 
 1. 在报表视图中打开**零售分析示例 PBIX 文件**![报表视图屏幕截图图标](media/power-bi-visualization-kpi/power-bi-report-view.png)。
 
-1. 选择 ![黄色选项卡的屏幕截图。](media/power-bi-visualization-kpi/power-bi-yellow-tab.png) ，以添加新报表页。
+1. Select ![黄色选项卡的屏幕截图。](media/power-bi-visualization-kpi/power-bi-yellow-tab.png) ，以添加新报表页。
 
 
 ## <a name="create-a-doughnut-chart"></a>创建圆环图
 
-1. 从空白报表页入手，在“字段”窗格中选择“销售额”\>“去年销售额”   。  
+1. 从空白报表页入手，在“字段”窗格中选择“销售额” **“去年销售额”** \>  。  
    
 3. 从可视化对象窗格中，选择圆环图的图标![圆环图图标](media/power-bi-visualization-doughnut-charts/power-bi-icon.png)，将条形图转换为圆环图。 如果“去年销售额”不在“值”区域中，请将它拖动到其中。  
      
    ![包含所选圆环图的可视化效果窗格](media/power-bi-visualization-doughnut-charts/power-bi-doughnut-chart.png)
 
-4. 依次选择“项”\>“类别”，将其添加到图例区域中    。 
+4. 依次选择“项” **“类别”，将其添加到图例区域中**\>   。 
      
     ![字段窗格旁边的圆环图](media/power-bi-visualization-doughnut-charts/power-bi-doughnut-done.png)
 

@@ -9,10 +9,10 @@ ms.assetid: c1490ff0-5b8a-43c1-8d22-e459395db4f6
 author: maggiesMSFT
 ms.author: maggies
 ms.openlocfilehash: 13b9e37d4a64493dfdcac02d9df86a1e19a1c24b
-ms.sourcegitcommit: ced8c9d6c365cab6f63fbe8367fb33e6d827cb97
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/07/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "78921162"
 ---
 # <a name="report-design-tips-in-power-bi-report-builder"></a>Power BI 报表生成器中的报表设计提示
@@ -20,7 +20,7 @@ ms.locfileid: "78921162"
   
    
   
-##  <a name="DesigningReports"></a>设计报表  
+##  <a name="designing-reports"></a><a name="DesigningReports"></a>设计报表  
   
 -   设计精良的报表可提供具有指导意义的信息。 确定可借助报表解答的问题。 设计报表时应考虑这些问题。  
   
@@ -36,7 +36,7 @@ ms.locfileid: "78921162"
   
  有关设计报表时应考虑的事项的详细信息，请参阅[在报表生成器中规划报表](report-builder-planning-report.md)）。  
   
-##  <a name="NamingConventions"></a>报表、数据源和数据集的命名约定  
+##  <a name="naming-conventions-for-reports-data-sources-and-datasets"></a><a name="NamingConventions"></a>报表、数据源和数据集的命名约定  
   
 -   为数据源和记录数据来源的数据集使用命名约定。  
   
@@ -44,7 +44,7 @@ ms.locfileid: "78921162"
   
     2.  **数据集。** 使用的名称应让用户了解数据基于哪个数据源。  
   
-##  <a name="Data"></a>使用数据  
+##  <a name="working-with-data"></a><a name="Data"></a>使用数据  
   
 -   第一步，获取要处理并在报表数据窗格中显示的所有数据。 在思考报表要解答的问题时，应思考如何根据所需精简报表数据集里的数据。  
   
@@ -54,7 +54,7 @@ ms.locfileid: "78921162"
   
 -   根据具体需求，可在报表中显示报表数据源的名称和位置、数据集查询命令文本和参数值。 许多新用户的第一个问题均与数据的来源有关。 为避免报表内容混乱，可以有条件地隐藏包含此类型信息的文本框，并让用户选择是否显示它。 可尝试在报表的最后一页上添加此信息。 基于某个用户可更改的参数来设置文本框可见性。  
   
-##  <a name="DesignSurface"></a>与报表设计图面交互  
+##  <a name="interacting-with-the-report-design-surface"></a><a name="DesignSurface"></a>与报表设计图面交互  
  报表设计图面不是 WYSIWIG（所见即所得）。 将报表项放在设计图面上时，其相对位置会影响这些项在所呈现的报表页上的显示方式。 保留空白区域。  
   
 -   使用对齐线和布局按钮对齐并排列报表设计图面上的项。 例如，可以将选定项的顶部或边缘对齐、展开项以匹配另一个项的大小或者调整项之间的间距。  
@@ -67,7 +67,7 @@ ms.locfileid: "78921162"
   
     -   **CTRL+SHIFT+箭头键** 增大或减小选中的报表项的大小。  
   
--   若要向矩形添加某个项，请使用鼠标的左上端指向该项在矩形容器中的初始位置。 使用键盘快捷方式来帮助确定所选对象的位置。 矩形会自动扩大到能容纳所含项的大小。  
+-   若要向矩形添加项，请用鼠标的左上尖端指向该项在矩形容器中的初始位置。 使用键盘快捷方式来帮助确定所选对象的位置。 矩形会自动扩大到能容纳所含项的大小。  
   
 -   若要将多个项添加到 tablix 单元中，请先添加一个矩形，再添加项。  
   
@@ -77,7 +77,7 @@ ms.locfileid: "78921162"
   
 -   若要将字段从报表数据窗格拖至分组窗格中，拖动字段时请避免经过设计图面上的其他报表项，因为这会导致选中其他项并取消选定 tablix 数据区域。 将该字段拖下报表数据窗格，然后拖到分组窗格。  
   
-###  <a name="Selecting"></a> 选择项  
+###  <a name="selecting-items"></a><a name="Selecting"></a> 选择项  
  若要在报表设计图面上选择所需对象，可使用 ESC 键、通过右键单击显示的上下文菜单、属性窗格和分组窗格。  
   
 -   -   按下 ESC 键以遍历设计图面上占用相同空间的报表项。  
@@ -89,31 +89,31 @@ ms.locfileid: "78921162"
     -   若要使用 tablix 数据区域中的行组和列组，请从分组窗格中选择该组。  
 
   
-##  <a name="ReportItems"></a>使用特定的报表项类型  
+##  <a name="working-with-specific-types-of-report-items"></a><a name="ReportItems"></a>使用特定的报表项类型  
   
-###  <a name="Parameters"></a>使用参数  
+###  <a name="working-with-parameters"></a><a name="Parameters"></a>使用参数  
   
 -   报表参数的主要用途是筛选数据源处的数据和检索报告所需的内容。  
   
 -   使用报表参数时，需要平衡两个效果：交互支持和帮助用户取得所需结果。 例如，可以将参数的默认值设置为熟知的常用值。  
   
-###  <a name="Text"></a>使用文本  
+###  <a name="working-with-text"></a><a name="Text"></a>使用文本  
   
 -   把多行文本粘贴到文本框中时，该文本将被添加为一次文本运行。 每次文本运行只能格式化为一个单元。 若要单独设置每个行的格式，请根据需要按下 RETURN 键，在文本运行中插入新行。 然后可以对文本框中每一行独立文本应用格式设置和样式。  
   
 -   可以在文本框或文本框中的占位符文本上设置格式属性和操作。 如果只有一行文本，在文本框上设置属性比在文本上设置效率高。  
   
-###  <a name="Expressions"></a>使用表达式  
+###  <a name="working-with-expressions"></a><a name="Expressions"></a>使用表达式  
   
 -   了解简单和复杂表达式的格式。 可以直接在文本框中、属性窗格中的属性中或者在对话框中接受表达式的位置处键入简单表达式格式。
   
 -   在创建表达式时，这有助于单独创建每个部分并验证其值。 然后便可将所有部分合并成最终的表达式。 一个实用的方法是在矩阵单元格中添加一个文本框，显示表达式中的每个部分并在文本框上设置条件可见性。 若要在文本框处于隐藏状态时控制边框样式和颜色，请先将文本框置于矩形内，然后设置矩形边框的样式和颜色，使其与矩阵相匹配。  
   
-###  <a name="Indicators"></a>使用指示器  
+###  <a name="working-with-indicators"></a><a name="Indicators"></a>使用指示器  
   
 -   默认情况下，指示器会显示至少三种状态。 将指示器添加到报表后，可通过添加或删除状态来配置它。 为了便于用户查看，请根据需要选择指示器（有不同的颜色和形状）。  
   
-##  <a name="Rendering"></a>控制报表页上报表项的呈现  
+##  <a name="controlling-the-rendering-of-report-items-on-the-report-page"></a><a name="Rendering"></a>控制报表页上报表项的呈现  
   
 -   报表设计图面上的报表项会不断扩展，以容纳关联数据集、表达式、子报表或文本的内容。  
   

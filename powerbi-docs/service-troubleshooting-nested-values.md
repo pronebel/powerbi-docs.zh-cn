@@ -11,10 +11,10 @@ ms.date: 6/4/2019
 ms.author: gepopell
 LocalizationGroup: Reports
 ms.openlocfilehash: ab40ca9c415dacf52f4d82eb2c157d57aef92f93
-ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/06/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "73871292"
 ---
 # <a name="troubleshooting-nested-values-returned-as-text-in-power-bi-service"></a>对 Power BI 服务中作为文本返回的嵌套值进行故障排除
@@ -35,7 +35,7 @@ ms.locfileid: "73871292"
 
 由于这些错误仅在加载/刷新期间发生，因此它们不会出现在 Power Query 编辑器中。
 
-### <a name="before"></a>先于
+### <a name="before"></a>改进前
 
 - 加载/刷新操作无错误
 - 加载的表包含“[Table]”、“[Record]”等。

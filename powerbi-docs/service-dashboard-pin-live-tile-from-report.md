@@ -11,10 +11,10 @@ ms.date: 03/02/2018
 ms.author: maggies
 LocalizationGroup: Dashboards
 ms.openlocfilehash: d620c1def289cea39a90092876ce275eea8ee699
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/09/2019
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "73853075"
 ---
 # <a name="pin-an-entire-report-page-as-a-live-tile-to-a-power-bi-dashboard"></a>将整个报表页以动态磁贴的形式固定到 Power BI 仪表板
@@ -37,7 +37,7 @@ ms.locfileid: "73853075"
 2. 在未选择任何视觉化效果的情况下，从菜单栏中选择“固定活动页”  。
    
    ![“固定活动页面”图标](media/service-dashboard-pin-live-tile-from-report/pbi-pin-live-page.png) 
-3. 将磁贴固定到现有仪表板或新仪表板。 请注意突出显示的文本：*如果固定活动页，在刷新页面后，对报表所做的更改将显示在仪表板磁贴中。*
+3. 将磁贴固定到现有仪表板或新仪表板。 请注意突出显示的文本：*刷新页面时，固定活动页可使对报表所做的更改出现在仪表板磁贴中。*
    
    * 现有仪表板：从下拉列表中选择仪表板的名称。 已与你共享的仪表板不会出现在下拉列表中。
    * 新仪表板：键入新仪表板的名称。

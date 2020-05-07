@@ -11,10 +11,10 @@ ms.date: 06/12/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
 ms.openlocfilehash: 356d738795f8bf99ba1e2f8dfc705b23f52a6d5e
-ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/09/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "75762430"
 ---
 # <a name="create-and-use-funnel-charts"></a>创建和使用漏斗图
@@ -54,13 +54,13 @@ ms.locfileid: "75762430"
 本教程使用[机会分析示例 PBIX 文件](https://download.microsoft.com/download/9/1/5/915ABCFA-7125-4D85-A7BD-05645BD95BD8/Opportunity%20Analysis%20Sample%20PBIX.pbix
 )。
 
-1. 在菜单栏的左上方，选择“文件” > “打开”  
+1. 在菜单栏的左上方，选择“文件” **“打开”**  >  
    
 2. 查找**机会分析示例 PBIX 文件**的副本
 
 1. 在报表视图中打开**机会分析示例 PBIX 文件**![报表视图屏幕截图图标](media/power-bi-visualization-kpi/power-bi-report-view.png)。
 
-1. 选择 ![黄色选项卡的屏幕截图。](media/power-bi-visualization-kpi/power-bi-yellow-tab.png) ，以添加新报表页。
+1. Select ![黄色选项卡的屏幕截图。](media/power-bi-visualization-kpi/power-bi-yellow-tab.png) ，以添加新报表页。
 
 
 ## <a name="create-a-basic-funnel-chart"></a>创建基本漏斗图
@@ -71,13 +71,13 @@ ms.locfileid: "75762430"
 
 现在让我们创建自己的漏斗图，该图用于显示在每个销售阶段我们所拥有的机会数。
 
-1. 从空白报表页入手，依次选择“SalesStage”\>“销售阶段”字段   。
+1. 从空白报表页入手，依次选择“SalesStage” **“销售阶段”字段**\>  。
    
     ![选择销售阶段](media/power-bi-visualization-funnel-charts/funnelselectfield-new.png)
 
 1. 选择漏斗图标 ![漏斗图图标](media/power-bi-visualization-funnel-charts/power-bi-funnel-icon.png) 以将柱形图转换为漏斗图。
 
-2. 从“字段”窗格中选择“事实”\>“机会计数”    。
+2. 从“字段”窗格中选择“事实” **“机会计数”**  \>  。
    
     ![生成漏斗图](media/power-bi-visualization-funnel-charts/power-bi-funnel-2.png)
 4. 将鼠标悬停在条形图上可显示大量的信息。

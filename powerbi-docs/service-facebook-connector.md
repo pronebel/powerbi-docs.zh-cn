@@ -10,10 +10,10 @@ ms.date: 02/20/2020
 ms.author: davidi
 LocalizationGroup: Connect to data
 ms.openlocfilehash: 882cddf7728a27e78056a35c14fde20f00678e33
-ms.sourcegitcommit: b22a9a43f61ed7fc0ced1924eec71b2534ac63f3
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "77527693"
 ---
 # <a name="use-the-facebook-connector-for-power-bi-desktop"></a>使用适用于 Power BI Desktop 的 Facebook 连接器
@@ -22,7 +22,7 @@ ms.locfileid: "77527693"
 你可以查看 [Power BI Desktop 的 Facebook 连接器的相关教程](desktop-tutorial-facebook-analytics.md)。
 
 > [!IMPORTANT]
-> **弃用 Facebook 数据连接器的通知：** 从 2020 年 4 月开始，在 Excel 中从 Facebook 导入和刷新数据将不再正常工作。 在此之前，可以使用 Facebook 的“获取和转换(Power Query)”连接器。 在此日期之后，无法连接到 Facebook，并将收到错误消息。 建议尽快更正或删除现有任何使用 Facebook 连接器的“获取和转换”(Power Query) 查询，以免出现意外结果。
+> **弃用 Facebook 数据连接器的通知：** 从 2020 年 4 月开始，在 Excel 中从 Facebook 导入和刷新数据将不再正常工作。 在此之前，可以使用 Facebook 的“获取和转换(Power Query)”连接器  。 在此日期之后，无法连接到 Facebook，并将收到错误消息。 建议尽快更正或删除现有任何使用 Facebook 连接器的“获取和转换”(Power Query) 查询，以免出现意外结果  。
 
 
 Facebook 的 Graph API v1.0 已在 2015 年 4 月 30 日过期。 Power BI 在后台对 Facebook 连接器使用 Graph API，从而允许你连接到你的数据并对其进行分析。
