@@ -10,10 +10,10 @@ ms.date: 03/13/2018
 ms.author: maggies
 LocalizationGroup: Reports
 ms.openlocfilehash: c98f06afe2af93e32d98ff1c3147cc15b64fbb57
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/09/2019
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "73853365"
 ---
 # <a name="create-a-qr-code-for-a-report-in-power-bi-to-use-in-the-mobile-apps"></a>在 Power BI 中为报表创建 QR 码以供在移动应用中使用
@@ -39,7 +39,7 @@ Power BI 中的 QR 代码可以将现实生活中的任何东西直接连接到�
 ## <a name="print-the-qr-code"></a>打印 QR 代码
 Power BI 可将 QR 代码生成为 JPG 文件，以备打印。 
 
-1. 选择**下载**，然后在连接到打印机的计算机上打开该 JPG 文件。  
+1. 选择“下载”  ，然后在已连接至打印机的计算机上打开此 JPG 文件。  
    
    JPG 文件与磁贴同名。 例如，“销售和市场营销示例.jpg”。
    

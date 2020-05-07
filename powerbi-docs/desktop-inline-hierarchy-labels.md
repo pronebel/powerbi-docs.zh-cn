@@ -10,10 +10,10 @@ ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Create reports
 ms.openlocfilehash: db86fee2303759d30b2ff64dc59b56314f220474
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/09/2019
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "73867362"
 ---
 # <a name="use-inline-hierarchy-labels-in-power-bi-desktop"></a>在 Power BI Desktop 中使用内联层次结构标签
@@ -71,7 +71,7 @@ ms.locfileid: "73867362"
 1. 启用**内联层次结构标签**功能
 2. 创建带有层次结构的视觉对象
 3. 然后**全部展开**并保存文件
-4. 随后 *禁用* **内联层次结构标签** 功能，并重新启动 Power BI Desktop
+4. 随后 *禁用***内联层次结构标签** 功能，并重新启动 Power BI Desktop
 5. 然后重新打开文件
 
 如果碰巧执行了这些步骤，并且在展开模式中视觉对象出现卡顿，则可以执行以下操作来解决：

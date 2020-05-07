@@ -9,10 +9,10 @@ ms.subservice: powerbi-custom-visuals
 ms.topic: reference
 ms.date: 02/14/2020
 ms.openlocfilehash: 67470ec405806f44fdb483e857d222ad4ff05a45
-ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/14/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "79379159"
 ---
 # <a name="tooltip-utils"></a>工具提示 Utils
@@ -26,7 +26,7 @@ ms.locfileid: "79379159"
 
 ## <a name="installation"></a>安装
 
-要安装包，应在包含当前视觉对象的目录中运行以下命令：
+要安装包，应在目录中运行以下命令和当前的视觉对象：
 
 ```bash
 npm install powerbi-visuals-utils-colorutils --save
@@ -61,9 +61,9 @@ npm install powerbi-visuals-utils-colorutils --save
 function createTooltipServiceWrapper(tooltipService: ITooltipService, rootElement: Element, handleTouchDelay?: number,  getEventMethod?: () => MouseEvent): ITooltipServiceWrapper;
 ```
 
-[IVisualHost](https://github.com/microsoft/PowerBI-visuals-tools/blob/master/templates/visuals/.api/v2.6.0/PowerBI-visuals.d.ts#L1335) 提供 ```ITooltipService```。
+```ITooltipService```IVisualHost[ 提供 ](https://github.com/microsoft/PowerBI-visuals-tools/blob/master/templates/visuals/.api/v2.6.0/PowerBI-visuals.d.ts#L1335)。
 
-**示例**
+ 示例
 
 ```typescript
 import { createTooltipServiceWrapper } from "powerbi-visuals-utils-tooltiputils";
@@ -101,7 +101,7 @@ interface ITooltipServiceWrapper {
 addTooltip<T>(selection: d3.Selection<any>, getTooltipInfoDelegate: (args: TooltipEventArgs<T>) => VisualTooltipDataItem[], getDataPointIdentity?: (args: TooltipEventArgs<T>) => ISelectionId, reloadTooltipDataOnMouseMove?: boolean): void;
 ```
 
-**示例**
+ 示例
 
 ```typescript
 import { createTooltipServiceWrapper, TooltipEventArgs, ITooltipServiceWrapper, TooltipEnabledDataPoint } from "powerbi-visuals-utils-tooltiputils";
@@ -144,7 +144,7 @@ tooltipServiceWrapper.addTooltip<TooltipEnabledDataPoint>(element, (eventArgs: T
 hide(): void;
 ```
 
-**示例**
+ 示例
 
 ```typescript
 import {createTooltipServiceWrapper} from "powerbi-visuals-utils-tooltiputils";

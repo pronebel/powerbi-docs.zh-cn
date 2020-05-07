@@ -9,10 +9,10 @@ ms.topic: conceptual
 ms.date: 03/11/2020
 ms.author: painbar
 ms.openlocfilehash: 0bbdc13e1adf52ba90435f22920e4351e8f34404
-ms.sourcegitcommit: abc8419155dd869096368ba744883b865c5329fa
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/17/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "79435941"
 ---
 # <a name="get-started-with-the-power-bi-mobile-app-for-windows-10"></a>适用于 Windows 10 的 Power BI 移动应用入门
@@ -57,7 +57,7 @@ ms.locfileid: "79435941"
 ### <a name="power-bi-samples"></a>Power BI 示例
 可以查看 Power BI 仪表板示例并与之交互。 但无法对其进行某些操作。 无法打开仪表板背后的报表、与他人共享示例，或将其加入收藏夹。
 
-1. 点击左上角的 ![全局导航按钮](././media/mobile-windows-10-phone-app-get-started/power-bi-windows-10-navigation-icon.png) 全局导航按钮。
+1. 点击左上角的 ![全局导航按钮 ](././media/mobile-windows-10-phone-app-get-started/power-bi-windows-10-navigation-icon.png) 全局导航按钮。
 2. 依次点击“设置”  图标 ![设置图标](./media/mobile-windows-10-phone-app-get-started/power-bi-win10-settings-icon.png)，你的名字，然后点击“查看示例”  。
    
    ![查看示例](./media/mobile-windows-10-phone-app-get-started/power-bi-win10-view-samples.png)
@@ -66,7 +66,7 @@ ms.locfileid: "79435941"
    ![选择一个角色](./media/mobile-windows-10-phone-app-get-started/power-bi-win10-samples.png)
 
 ### <a name="reporting-services-mobile-report-samples"></a>Reporting Services 移动报表示例
-1. 点击左上角的 ![全局导航按钮](././media/mobile-windows-10-phone-app-get-started/power-bi-windows-10-navigation-icon.png) 全局导航按钮。
+1. 点击左上角的 ![全局导航按钮 ](././media/mobile-windows-10-phone-app-get-started/power-bi-windows-10-navigation-icon.png) 全局导航按钮。
 2. 点击“设置”  图标 ![](./media/mobile-windows-10-phone-app-get-started/power-bi-win10-settings-icon.png)，右键单击或点击并按住“连接到服务器”  ，再点击“查看示例”  。
    
    ![](media/mobile-windows-10-phone-app-get-started/power-bi-win10-connect-ssrs-samples.png)

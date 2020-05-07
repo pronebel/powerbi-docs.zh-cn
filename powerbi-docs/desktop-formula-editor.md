@@ -10,10 +10,10 @@ ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Transform and shape data
 ms.openlocfilehash: f36b0a92d09330b4efec078ae5bc767fed434393
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/09/2019
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "73867623"
 ---
 # <a name="formula-editor-in-power-bi-desktop"></a>Power BI Desktop 中的公式编辑器
@@ -60,7 +60,7 @@ ms.locfileid: "73867623"
 
 以下文章提供有关 Power BI Desktop 中公式和 DAX 的详细信息。
 
-* [Power BI Desktop 中的 DAX 基本概念](desktop-quickstart-learn-dax-basics.md)
+* [Power BI Desktop 中的 DAX 基础知识](desktop-quickstart-learn-dax-basics.md)
 * [了解适用于 Power BI 的 DAX](https://docs.microsoft.com/power-bi/guided-learning/introductiontodax?tutorial-step=1)
 * [DAX 参考](https://msdn.microsoft.com/query-bi/dax/data-analysis-expressions-dax-reference)
 

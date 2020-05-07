@@ -10,10 +10,10 @@ ms.topic: conceptual
 ms.date: 02/13/2020
 LocalizationGroup: Premium
 ms.openlocfilehash: aed0d1e4dec6f6efe49dd39cd5b6fc60f8977e44
-ms.sourcegitcommit: a175faed9378a7d040a08ced3e46e54503334c07
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/18/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "79488605"
 ---
 # <a name="how-to-purchase-power-bi-premium"></a>如何购买 Power BI Premium
@@ -71,7 +71,7 @@ ms.locfileid: "79488605"
 
 现在已有容量，可随着需求的增长添加更多容量。 可以在组织中使用任何高级容量 SKU（P1 到 P3）组合。 不同的 SKU 提供不同的资源容量。
 
-1. 在 Microsoft 365 管理中心内，选择“账单” > “购买服务”   。
+1. 在 Microsoft 365 管理中心内，选择“账单” **“购买服务”**  >   。
 
 1. 在“其他计划”  下找到需额外购买的 Power BI Premium 项目。
 
@@ -98,7 +98,7 @@ ms.locfileid: "79488605"
 
 1. 从列表中选择 Power BI Premium 订阅。
 
-1. 选择“更多操作” > “取消订阅”   。
+1. 选择“更多操作” **“取消订阅”**  >   。
 
 1. “取消订阅”  页会指明是否需要支付[提前终止费](https://support.office.com/article/early-termination-fees-6487d4de-401a-466f-8bc3-c0beb5cc40d3)。 此页还会指明何时删除订阅数据。
 

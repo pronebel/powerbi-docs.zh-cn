@@ -10,10 +10,10 @@ ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Learn more
 ms.openlocfilehash: 66fe4a9eb109565108cd150369b2260a9d3e1d06
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/09/2019
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "73877764"
 ---
 # <a name="use-see-data-and-see-records-in-power-bi-desktop"></a>使用 Power BI Desktop 的“查看数据”和“查看记录”功能
@@ -32,7 +32,7 @@ ms.locfileid: "73877764"
 >  - 漏斗图
 >  - 地图
 >  - 饼图
->  - 树状图
+>  - Treemap
 
 ## <a name="use-see-data-in-power-bi-desktop"></a>使用 Power BI Desktop 中的“查看数据”功能
 
@@ -57,7 +57,7 @@ ms.locfileid: "73877764"
 
 若要返回报表，请选择画布左上角的“< 返回报表”  。
 
-![返回报表](media/desktop-see-data-see-records/see-data5.png)
+![返回到报表](media/desktop-see-data-see-records/see-data5.png)
 
 ## <a name="use-see-records-in-power-bi-desktop"></a>使用 Power BI Desktop 中的“查看记录”功能
 
