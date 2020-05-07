@@ -9,10 +9,10 @@ ms.date: 09/10/2019
 ms.author: maggies
 ms.custom: include file
 ms.openlocfilehash: 6d8de145f9158e4aa649fa39670fdf2808fc5af4
-ms.sourcegitcommit: 2aa83bd53faad6fb02eb059188ae623e26503b2a
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/29/2019
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "73021108"
 ---
 1. 首先，创建工作区。 选择“工作区”   > “创建工作区”  。 
@@ -51,7 +51,7 @@ ms.locfileid: "73021108"
    
     管理员可以编辑工作区本身，包括添加其他成员。 成员可以编辑工作区中的内容，除非他们只具有“仅查看”访问权限。 管理员和成员均可以发布应用。
 
-7. 选择**保存**。
+7. 选择“保存”  。
 
 Power BI 创建工作区并将其打开。 它显示在你作为成员的工作区的列表中。 作为管理员，你可以选择“更多选项”(…) 返回并进行更改，添加新成员或更改其权限  。
 

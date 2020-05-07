@@ -10,10 +10,10 @@ ms.date: 04/20/2020
 ms.author: maggies
 LocalizationGroup: Reports
 ms.openlocfilehash: 548c76e2d344e996d367cba810bf42442af8d27d
-ms.sourcegitcommit: 9ec2c608b90bf651df613f0714addd251a885039
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/24/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "82120309"
 ---
 # <a name="work-with-filters-in-power-bi-reports"></a>使用 Power BI 报表中的筛选器
@@ -71,7 +71,7 @@ Power BI 中的筛选器新增了功能，并采用了新设计。 选择启用�
 
 以下是此视图显示的筛选器类型： 
 - 基本筛选器
-- 切片器 (Slicers)
+- 切片器
 - 交叉突出显示 
 - 交叉筛选
 - 高级筛选器
@@ -270,5 +270,5 @@ Power BI Desktop 以预览版的形式提供了一个新功能区。 在“视�
 - [报表中的筛选器和突出显示](power-bi-reports-filters-and-highlighting.md)
 - [Power BI 中不同种类的筛选器](power-bi-report-filter-types.md)
 
-更多疑问？ [尝试参与 Power BI 社区](https://community.powerbi.com/)
+更多问题？ [尝试参与 Power BI 社区](https://community.powerbi.com/)
 

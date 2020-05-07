@@ -9,10 +9,10 @@ ms.topic: conceptual
 ms.date: 11/01/2017
 ms.author: maggies
 ms.openlocfilehash: 6e341f80e3631228c28590ccf0a7711e0b624f2c
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/09/2019
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "73874222"
 ---
 # <a name="configure-kerberos-to-use-power-bi-reports"></a>配置 Kerberos 以使用 Power BI 报表
@@ -194,7 +194,7 @@ SPN 的放置也类似于 Power BI 报表服务器 SPN 的放置。 不同之处
 6. 在新对话框中，选择“用户或计算机”  。
 7. 输入 Analysis Services 服务的服务帐户，然后选择“确定”  。
 8. 选择已创建的 SPN。 它以 `MSOLAPSvc.3` 开头。 如果 FQDN 和 NetBIOS SPN 都添加了，两个都会被选中。 你可能只会看到其中一个。
-9. 选择**确定**。  现在，列表中应该会显示 SPN。
+9. 选择“确定”。   现在，列表中应该会显示 SPN。
 10. 也可以选中“已扩展”  ，在列表中同时显示 FQDN 和 NetBIOS SPN。
 11. 再次选择“添加”  。 现在，我们将添加 SQL Browser SPN。
 12. 在新对话框中，选择“用户或计算机”  。

@@ -10,10 +10,10 @@ ms.date: 06/04/2019
 ms.author: davidi
 LocalizationGroup: Data refresh
 ms.openlocfilehash: 63d49a439d10acc5d7cda10b76b04a26fcdb085a
-ms.sourcegitcommit: f77b24a8a588605f005c9bb1fdad864955885718
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/02/2019
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "74698799"
 ---
 # <a name="refresh-a-dataset-created-from-a-power-bi-desktop-file-on-a-local-drive"></a>刷新从本地驱动器的 Power BI Desktop 文件创建的数据集
@@ -22,7 +22,7 @@ ms.locfileid: "74698799"
 
 在 Power BI 中，数据集是使用本地驱动器导入的 Power BI Desktop 文件创建的，它支持“立即刷新”和“计划刷新”功能。在本地驱动器中，“获取数据”/“查询编辑器”可用于连接到以下任一数据源并从以下任一数据源加载数据：
 
-### <a name="power-bi-gateway---personal"></a>Power BI Gateway - Personal
+### <a name="power-bi-gateway---personal"></a>Power BI 网关 - 个人
 
 - Power BI Desktop“获取数据”和“查询编辑器”中显示的所有联机数据源。
 - Power BI Desktop“获取数据”和“查询编辑器”中显示的所有本地数据源，Hadoop 文件 (HDFS) 和 Microsoft Exchange 除外。
@@ -35,11 +35,11 @@ ms.locfileid: "74698799"
 >
 >
 
-可在 Power BI Desktop 中通过选择“主页”功能区上的“刷新”来手动执行一次性刷新操作  。 选择此处的“刷新”时，将用原始数据源中更新后的数据刷新*文件*模型中的数据  。 这种类型的刷新完全是从 Power BI Desktop 应用程序自身内部进行，不同于在 Power BI 中进行的手动或计划内刷新，理解这种区别至关重要。
+可在 Power BI Desktop 中通过选择“主页”功能区上的“刷新”来手动执行一次性刷新操作  。 选择此处的“刷新”时，将用原始数据源中更新后的数据刷新**文件**模型中的数据  。 这种类型的刷新完全是从 Power BI Desktop 应用程序自身内部进行，不同于在 Power BI 中进行的手动或计划内刷新，理解这种区别至关重要。
 
-![刷新](media/refresh-desktop-file-local-drive/pbix-refresh.png)
+![全部](media/refresh-desktop-file-local-drive/pbix-refresh.png)
 
-从本地驱动器导入 Power BI Desktop 文件时，数据以及有关模型的其他信息会加载到 Power BI 服务中的数据集。 在 Power BI 服务中，而不是在 Power BI Desktop 中，建议刷新数据集中的数据，因为 Power BI 服务中的报表就是基于该数据集创建的。 因为数据源是外部数据源，所以可以手动刷新数据集，方法是使用“立即刷新”或通过使用“计划刷新”设置刷新计划   。
+从本地驱动器导入 Power BI Desktop 文件时，数据以及有关模型的其他信息会加载到 Power BI 服务中的数据集。 在 Power BI 服务中，而不是在 Power BI Desktop 中，建议刷新数据集中的数据，因为 Power BI 服务中的报表就是基于该数据集创建的。 因为数据源是外部数据源，所以可以使用“立即刷新”  来手动刷新数据集，也可以使用“计划刷新”  来创建刷新计划。
 
 刷新数据集时，Power BI 不会连接到本地驱动器上的文件对更新后的数据进行查询。 而是使用数据集中的信息直接连接到数据源对更新后的数据进行查询，然后再将其加载到数据集。
 

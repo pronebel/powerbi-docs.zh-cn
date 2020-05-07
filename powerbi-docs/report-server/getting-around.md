@@ -9,10 +9,10 @@ ms.topic: conceptual
 ms.date: 05/24/2018
 ms.author: maggies
 ms.openlocfilehash: ecc33c6176214cb8178e55d716294bf9446a7b1d
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/09/2019
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "73859479"
 ---
 # <a name="manage-content-in-the-web-portal"></a>管理 Web 门户中的内容 
@@ -39,7 +39,7 @@ Web 门户应用程序在浏览器中运行。 启动 Web 门户后看到的具�
    
     默认情况下，URL 为 <em>https://[ComputerName]/reports</em>。
    
-    可以将报表服务器配置为使用特定端口。 例如，<em>https://[ComputerName]:80/reports</em> 或 <em>https://[ComputerName]:8080/reports</em>
+    报表服务器可能已配置为使用特定的端口。 例如，<em>https://[ComputerName]:80/reports</em> 或 <em>https://[ComputerName]:8080/reports</em>
    
     Web 门户按照以下类别进行项目分类：
    
@@ -61,7 +61,7 @@ Power BI 报表服务器允许对 Web 门户中存储的项目进行精细化控
 2. 选择要设置的属性或其他功能。
    
     ![选择属性](media/getting-around/report-server-web-portal-manage-properties.png)
-3. 选择**应用**。
+3. 选择“应用”。 
 
 详细了解如何[在 Web 门户中处理订阅](https://docs.microsoft.com/sql/reporting-services/working-with-subscriptions-web-portal)。
 

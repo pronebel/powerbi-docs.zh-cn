@@ -10,10 +10,10 @@ ms.date: 12/09/2019
 ms.author: kfollis
 LocalizationGroup: Administration
 ms.openlocfilehash: aa05ffa7ba07ea1daf162f8ebb2baa3d18f64b29
-ms.sourcegitcommit: 02b05932a119527f255e1eacc745a257044e392f
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/19/2019
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "75256347"
 ---
 # <a name="migrate-your-subscription-to-the-new-go-local-german-regions"></a>将订阅迁移到新的“Go Local”德国区域
@@ -24,6 +24,6 @@ ms.locfileid: "75256347"
 
 订阅迁移后，我们将降低定价以匹配公有云定价。 直接客户将看到新订阅，其中包含新的年度续订日期。 以下服务将作为此方法的一部分进行迁移：
 
-* Power BI
+* 分析 Azure 使用情况
 
 在接下来的几个月中，我们将继续更新本文，添加有关先决条件、分步过程，以及迁移将对组织产生的任何影响的详细信息。

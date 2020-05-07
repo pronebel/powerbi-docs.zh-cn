@@ -1,9 +1,9 @@
 ---
 ms.openlocfilehash: 5bc0d3bbfb2c2b67b56e6406646f6131a360b97d
-ms.sourcegitcommit: a5853ef44ed52e80eabee3757bb6887fa400b75b
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/07/2019
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "73799700"
 ---
 **DAX** 和 Excel 公式语言的一个显著区别是 DAX 允许在表达式之间传递整个表  ，而不仅限于单个值。 DAX 的一项强大功能是允许你在其表达式中筛选表格，然后使用筛选的值集。
@@ -16,7 +16,7 @@ ms.locfileid: "73799700"
 DAX 提供一套丰富的**表**函数，包括：
 
 * FILTER
-* ALL
+* 全部
 * VALUES
 * DISTINCT
 * RELATEDTABLE
