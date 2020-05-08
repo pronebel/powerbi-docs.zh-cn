@@ -1,9 +1,9 @@
 ### YamlMime:Hub
-title: Power BI 开发人员文档
+title: Power BI 开发者文档
 summary: 作为 Power BI 开发人员，你可嵌入 Power BI 内容、开发 Power BI 视觉对象，还可自动执行 Power BI 过程。
 brand: power-bi
 metadata:
-  title: Power BI 开发人员文档
+  title: Power BI 开发者文档
   description: 作为 Power BI 开发人员，你可嵌入 Power BI 内容、开发 Power BI 视觉对象，还可自动执行 Power BI 过程。
   services: powerbi
   ms.service: powerbi
@@ -14,17 +14,17 @@ metadata:
   ms.author: kesharab
   ms.date: 31/03/2020
   ms.openlocfilehash: 8d37f5a4cde341dd8788791fecdbd1c7f20249d0
-  ms.sourcegitcommit: 9ecd7cadb9ff47f0fc0e400730777cc4dadbd80d
+  ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
   ms.translationtype: HT
   ms.contentlocale: zh-CN
-  ms.lasthandoff: 04/01/2020
+  ms.lasthandoff: 05/05/2020
   ms.locfileid: "80487790"
 highlightedContent:
   items:
-  - title: Power BI 嵌入式分析
+  - title: Power BI 的嵌入式分析
     itemType: overview
     url: embedded/embedding.md
-  - title: Azure 中的 Power BI Embedded 是指什么？
+  - title: 嵌入 Azure 中的 Power BI 是什么？
     itemType: overview
     url: embedded/azure-pbie-what-is-power-bi-embedded.md
   - title: Power BI 中的视觉对象
@@ -39,16 +39,16 @@ conceptualContent:
     links:
     - url: embedded/embedding.md
       itemType: overview
-      text: Power BI 嵌入式分析
+      text: Power BI 的嵌入式分析
     - url: embedded/azure-pbie-what-is-power-bi-embedded.md
       itemType: overview
-      text: Azure 中的 Power BI Embedded 是指什么？
+      text: 嵌入 Azure 中的 Power BI 是什么？
     - url: embedded/embedded-capacity.md
       itemType: concept
       text: 容量和 SKU
     footerLink:
       url: embedded/index.yml
-      text: 了解详细内容
+      text: 查看详细信息
   - title: Power BI 视觉对象
     links:
     - url: visuals/power-bi-custom-visuals.md
@@ -62,7 +62,7 @@ conceptualContent:
       text: 将 Power BI 视觉对象发布到合作伙伴中心
     footerLink:
       url: visuals/index.yml
-      text: 了解详细内容
+      text: 查看详细信息
   - title: 自动化
     links:
     - url: automation/overview-of-power-bi-rest-api.md
@@ -76,7 +76,7 @@ conceptualContent:
       text: 配置凭据
     footerLink:
       url: automation/index.yml
-      text: 了解详细内容
+      text: 查看详细信息
 additionalContent:
   sections:
   - title: 相关工具

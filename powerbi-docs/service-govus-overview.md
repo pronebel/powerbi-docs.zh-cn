@@ -10,10 +10,10 @@ ms.date: 04/07/2020
 ms.author: kfollis
 LocalizationGroup: Get started
 ms.openlocfilehash: a9a5f3fd5304e64209b6069741dffcc3fa9b07c8
-ms.sourcegitcommit: c772c544ce2e1e2a147b9b62e5579ac3cb59d54c
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/29/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "82256166"
 ---
 # <a name="power-bi-for-us-government-customers"></a>适用于美国政府客户的 Power BI
@@ -65,8 +65,8 @@ Azure 分布在多个云中。 默认情况下，你可以启用防火墙规则�
 
 * USGov Iowa
 * USGov Virginia
-* US Gov 德克萨斯州
-* US Gov 亚利桑那州
+* USGov Texas
+* USGov Arizona
 
 在公有云中，这些 IP 范围可用。 若要获取美国政府云 IP 范围，请下载 [Azure IP 范围和服务标记 - 美国政府云](https://www.microsoft.com/download/details.aspx?id=57063)文件。 
 
@@ -76,7 +76,7 @@ Azure 分布在多个云中。 默认情况下，你可以启用防火墙规则�
 
 为了满足政府云客户的要求，政府版计划与商业版计划之间存在一些差异。 请参阅下表，了解每个政府环境中有哪些功能可用。
 
-|Feature |   |GCC |GCC-High |DoD|
+|功能 |   |GCC |GCC-High |DoD|
 |------|------|------|------|------|
 |管理|免费许可证|不可用|不可用|不可用|
 |  |设置数据存储限制|可用|可用|可用|

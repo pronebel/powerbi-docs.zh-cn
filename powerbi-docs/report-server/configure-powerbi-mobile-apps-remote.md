@@ -9,10 +9,10 @@ ms.topic: conceptual
 ms.date: 11/07/2019
 ms.author: painbar
 ms.openlocfilehash: b84d7a23cf947b18302c761ff5f78143bf3356aa
-ms.sourcegitcommit: 50c4bebd3432ef9c09eacb1ac30f028ee4e66d61
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/12/2019
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "73925902"
 ---
 # <a name="configure-power-bi-mobile-app-access-to-report-server-remotely"></a>远程配置 Power BI 移动应用对报表服务器的访问权限
@@ -43,7 +43,7 @@ ms.locfileid: "73925902"
 | com.microsoft.powerbi.mobile.ServerURL | 字符串 | 报表服务器 URL <br> 应以 http/https 开头 |
 | com.microsoft.powerbi.mobile.ServerUsername | 字符串 | [可选] <br> 要用于连接服务器的用户名。 <br> 如果不存在此项，应用将提示用户键入用于连接的用户名。| 
 | com.microsoft.powerbi.mobile.ServerDisplayName | 字符串 | [可选] <br> 默认值为“报表服务器” <br> 应用中用于表示服务器的友好名称 | 
-| com.microsoft.powerbi.mobile.OverrideServerDetails | 布尔 | 默认值为 True <br>设置为“True”时，它将替代移动设备中已有的任何报表服务器定义。 已删除已配置的现有服务器。 <br> 将“替代”设置为 True 还可防止用户删除该配置。 <br> 设置为“False”将添加推送值，并保留任何现有设置。 <br> 如果已在移动应用中配置相同的服务器 URL，则应用将按原样保留该配置。 该应用不会要求用户重新验证同一服务器。 |
+| com.microsoft.powerbi.mobile.OverrideServerDetails | 布尔型 | 默认值为 True <br>设置为“True”时，它将替代移动设备中已有的任何报表服务器定义。 已删除已配置的现有服务器。 <br> 将“替代”设置为 True 还可防止用户删除该配置。 <br> 设置为“False”将添加推送值，并保留任何现有设置。 <br> 如果已在移动应用中配置相同的服务器 URL，则应用将按原样保留该配置。 该应用不会要求用户重新验证同一服务器。 |
 
 下面的示例使用 Intune 设置配置策略。
 
@@ -53,15 +53,15 @@ ms.locfileid: "73925902"
 
  假设你发布了通讯组列表的应用配置策略。 当该通讯组列表上的用户和设备启动移动应用时，他们将有如下体验。 
 
-1. 他们将看到一条消息（表示已为其移动应用配置报表服务器），然后点击“登录”。
+1. 他们将看到一条消息（表示已为其移动应用配置报表服务器），然后点击“登录”  。
 
     ![登录报表服务器](media/configure-powerbi-mobile-apps-remote/power-bi-config-server-sign-in.png)
 
-2.  在“连接到服务器”页上，已填写报表服务器详细信息。 他们将点击“连接”。
+2.  在“连接到服务器”页上，已填写报表服务器详细信息  。 他们将点击“连接”  。
 
     ![已填写报表服务器详细信息](media/configure-powerbi-mobile-apps-remote/power-bi-ios-remote-configure-connect-server.png)
 
-3. 他们将键入密码进行身份验证，然后点击“登录”。 
+3. 他们将键入密码进行身份验证，然后点击“登录”  。 
 
     ![已填写报表服务器详细信息](media/configure-powerbi-mobile-apps-remote/power-bi-config-server-address.png)
 
