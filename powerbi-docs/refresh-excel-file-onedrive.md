@@ -10,10 +10,10 @@ ms.date: 06/06/2019
 ms.author: davidi
 LocalizationGroup: Data refresh
 ms.openlocfilehash: 21b7b93b4e522a8e6a49d22b54c9ddd83cb5e042
-ms.sourcegitcommit: f77b24a8a588605f005c9bb1fdad864955885718
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/02/2019
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "74699612"
 ---
 # <a name="refresh-a-dataset-created-from-an-excel-workbook-on-onedrive-or-sharepoint-online"></a>刷新使用 OneDrive 或 SharePoint Online 上的 Excel 工作簿创建的数据集
@@ -32,7 +32,7 @@ ms.locfileid: "74699612"
 
 在 Power BI 中，通过从本地驱动器导入的 Power BI Desktop 文件创建的数据集支持“立即刷新”和“计划刷新”功能。在本地驱动器中，“获取数据”/“查询编辑器”可用于连接到以下任何数据源以及从以下任何数据源加载数据   ：  
 
-### <a name="power-bi-gateway---personal"></a>Power BI Gateway - Personal
+### <a name="power-bi-gateway---personal"></a>Power BI 网关 - 个人
 
 * Power BI Desktop“获取数据”和“查询编辑器”中显示的所有联机数据源。
 * Power BI Desktop“获取数据”和“查询编辑器”中显示的所有本地数据源，Hadoop 文件 (HDFS) 和 Microsoft Exchange 除外。
@@ -51,7 +51,7 @@ ms.locfileid: "74699612"
 
 连接到 Power BI 中的 OneDrive for Business 通常为无缝体验，因为用于登录 Power BI 的帐户通常与用于登录 OneDrive for Business 的帐户是同一个帐户。 但使用个人 OneDrive 时，你可能需要使用其他 [Microsoft 帐户](https://account.microsoft.com)才能登录。
 
-使用 Microsoft 帐户登录时，请确保选中“保持登录状态”  。 随后，Power BI 会将在 Power BI Desktop 文件中进行的所有更新与 Power BI 中的数据集同步。  
+如果使用 Microsoft 帐户登录，请务必选中“保持登录状态”  。 随后，Power BI 会将在 Power BI Desktop 文件中进行的所有更新与 Power BI 中的数据集同步。  
 
 ![“保持登录状态”复选框](media/refresh-excel-file-onedrive/refresh_signin_keepmesignedin.png)
 

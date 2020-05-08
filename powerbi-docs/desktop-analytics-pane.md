@@ -10,10 +10,10 @@ ms.date: 01/10/2020
 ms.author: davidi
 LocalizationGroup: Create reports
 ms.openlocfilehash: 4ad843078e452502a94aa7d60b3304528fd25496
-ms.sourcegitcommit: 0ae9328e7b35799d5d9613a6d79d2f86f53d9ab0
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/16/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "76038770"
 ---
 # <a name="use-the-analytics-pane-in-power-bi-desktop"></a>使用 Power BI Desktop 中的“分析”窗格
@@ -59,7 +59,7 @@ ms.locfileid: "76038770"
 
     ![“平均值线”、“分析”窗格、“可视化效果”、Power BI Desktop](media/desktop-analytics-pane/analytics-pane_3.png)
 
-3. 若要创建一个新行，请选择“+&nbsp;添加”  。 然后，可以命名该行。 双击文本框，然后输入名称。
+3. 若要创建一个新行，请选择“ **+添加”&nbsp;** 。 然后，可以命名该行。 双击文本框，然后输入名称。
 
     现在，你已经为行提供了各种选项。 可以指定其“颜色”  、“透明度”  百分比、“线型”  和“位置”  （与视觉对象的数据元素相比）。 还可以选择是否包含“数据标签”  。 若要指定线所基于的视觉对象度量值，请选择“度量值”  下拉列表，该列表将自动填充来自视觉对象的数据元素。 我们在此选择“区域性”  作为度量值，对其设置“区域性平均值”  标签。
 
@@ -106,7 +106,7 @@ ms.locfileid: "76038770"
 * 折线图
 * 散点图
 
-以下视觉对象仅能使用“**分析**”窗格中的恒线  ：
+以下视觉对象仅能使用“*分析*”窗格中的恒线  ：
 
 * 堆积面积图
 * 堆积条形图

@@ -10,10 +10,10 @@ ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Transform and shape data
 ms.openlocfilehash: b9df4398c410f52e3d5cdd51a99a40de107f5867
-ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/09/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "75760873"
 ---
 # <a name="work-with-modeling-view-in-power-bi-desktop"></a>使用 Power BI Desktop 中的建模视图
@@ -29,7 +29,7 @@ ms.locfileid: "75760873"
 
 ## <a name="creating-separate-diagrams"></a>创建单独关系图
 
-使用建模视图，可以创建仅包含模型中表子集的模型的关系图。 这可以帮助你提供你想要使用的表的更清晰视图，并让你能够更为轻松地使用复杂数据集。 若要创建仅包含表子集的新关系图，请单击 Power BI Desktop 窗口底部的“所有表”  选项卡旁的 **+** 符号。
+使用建模视图，可以创建仅包含模型中表子集的模型的关系图。 这可以帮助你提供你想要使用的表的更清晰视图，并让你能够更为轻松地使用复杂数据集。 若要创建仅包含表子集的新关系图，请单击 Power BI Desktop 窗口底部的“所有表” **+选项卡旁的**  符号。
 
 ![单击选项卡部分中的 + 号以新建关系图](media/desktop-modeling-view/modeling-view_03.png)
 

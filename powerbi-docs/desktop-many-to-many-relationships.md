@@ -10,10 +10,10 @@ ms.date: 12/19/2019
 ms.author: davidi
 LocalizationGroup: Transform and shape data
 ms.openlocfilehash: 7452879e47cd4b058fcdb3e08f0ded35a85da1aa
-ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/09/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "75761056"
 ---
 # <a name="apply-many-many-relationships-in-power-bi-desktop"></a>在 Power BI Desktop 中应用多对多关系
@@ -60,7 +60,7 @@ Power BI Desktop 中的“具有多对多基数的关系”由三个相关功能
 
 * “ProductSales”表中任何与“Product”表没有对应关系的行。   此处反应的是引用完整性问题，就像此示例中的产品 C 一样。
 
-* “ProductSales”  表中所有外键列是空的行。
+* “ProductSales”  表中所有外键列是空的行。 
 
 因此，在这两种情况下，空白行表示 ProductName  和 Price  未知的销售。
 

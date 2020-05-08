@@ -10,16 +10,16 @@ ms.date: 04/25/2019
 ms.author: maggies
 LocalizationGroup: Reports
 ms.openlocfilehash: c3f30206a01dce9cf9fd3ce0600b46b401df2b1f
-ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/06/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "73871749"
 ---
 # <a name="create-a-report-in-the-power-bi-service-by-importing-a-dataset"></a>通过导入数据集在 Power BI 服务中创建报表
 你已经阅读了 [Power BI 中的报表](consumer/end-user-reports.md)，并且现在想要创建你自己的仪表板。 有不同的方法可创建报表。 在本文中，我们将首先通过 Excel 数据集在 Power BI 服务中创建基本报表。 了解创建报表的基础知识后，请查看结尾处的[后续步骤](#next-steps)，以获取更高级的报表主题。  
 
-## <a name="prerequisites"></a>先决条件
+## <a name="prerequisites"></a>必备组件
 - [注册 Power BI 服务](service-self-service-signup-for-power-bi.md)。 有关使用 Power BI Desktop 创建报表的信息，请参阅 [Desktop 报表视图](desktop-report-view.md)。 
 - [下载零售分析示例 Excel 数据集](https://go.microsoft.com/fwlink/?LinkId=529778)并将其保存到 OneDrive for Business 或进行本地保存。
 

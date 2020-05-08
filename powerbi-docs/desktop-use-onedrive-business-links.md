@@ -10,10 +10,10 @@ ms.date: 01/15/2020
 ms.author: davidi
 LocalizationGroup: Connect to data
 ms.openlocfilehash: 706703985242284725fb4fc2d42bf46e54c605c7
-ms.sourcegitcommit: a1409030a1616027b138128695b80f6843258168
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/24/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "76709681"
 ---
 # <a name="use-onedrive-for-business-links-in-power-bi-desktop"></a>在 Power BI Desktop 中使用 OneDrive for Business 链接
@@ -30,14 +30,14 @@ ms.locfileid: "76709681"
    > 
    
    ![](media/desktop-use-onedrive-business-links/odb-links_02.png)
-2. 在 Excel 中，选择“文件” > “信息”，然后选择“保护工作簿”上方的“复制路径”     。
+2. 在 Excel 中，选择“文件” **“信息”，然后选择“保护工作簿”上方的“复制路径”**  >     。
    
    ![](media/desktop-use-onedrive-business-links/onedrive-copy-path.png)
 
 ## <a name="use-the-link-in-power-bi-desktop"></a>在 Power BI Desktop 中使用链接
 在 Power BI Desktop 中，你可以使用刚刚复制到剪贴板的链接。 可执行以下步骤：
 
-1. 在 Power BI Desktop 中，选择“获取数据” > “Web”   。
+1. 在 Power BI Desktop 中，选择“获取数据” **“Web”**  >   。
    
    ![](media/desktop-use-onedrive-business-links/power-bi-web-link-onedrive.png)
 2. 选中“基本”选项后，将链接粘贴到“从 Web”对话框中   。

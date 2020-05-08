@@ -10,10 +10,10 @@ ms.topic: conceptual
 LocalizationGroup: Gateways
 ms.date: 07/15/2019
 ms.openlocfilehash: 96a006f60e08d35ef6bbe13a2033d866814ec5b2
-ms.sourcegitcommit: 8e3d53cf971853c32eff4531d2d3cdb725a199af
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/04/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "74697534"
 ---
 # <a name="what-is-an-on-premises-data-gateway"></a>本地数据网关是什么？
@@ -22,7 +22,7 @@ ms.locfileid: "74697534"
 
 本地数据网关充当网桥，提供本地数据（不位于云中的数据）与几种 Microsoft 云服务之间快速安全的数据传输。 这些云服务包括 Power BI、PowerApps、Power Automate、Azure Analysis Services 和 Azure 逻辑应用。 通过使用网关，组织可以将数据库和其他数据源保留在其本地网络上，还可以在云服务中安全地使用该本地数据。
 
-## <a name="how-the-gateway-works"></a>网关工作原理
+## <a name="how-the-gateway-works"></a>网关的工作原理
 
 ![网关概述](media/service-gateway-onprem/on-premises-data-gateway.png)
 
@@ -32,9 +32,9 @@ ms.locfileid: "74697534"
 
 有两种不同类型的网关，各适用于不同的方案：
 
-* 本地数据网关允许多个用户连接到多个本地数据源。 可以将本地数据网关与所有支持的服务结合使用，只需要安装单个网关即可。 此网关非常适用于多个用户访问多个数据源的复杂场景。
+* 本地数据网关  允许多个用户连接到多个本地数据源。 可以将本地数据网关与所有支持的服务结合使用，只需要安装单个网关即可。 此网关非常适用于多个用户访问多个数据源的复杂场景。
 
-* 本地数据网关（个人模式）允许一个用户连接到源，且无法与其他人共享。 本地数据网关（个人模式）只能与 Power BI 一起使用。 此网关非常适用于你是创建报表的唯一人员且不需要与其他人共享数据源的场景。
+*  本地数据网关（个人模式）允许一个用户连接到源，且无法与其他人共享。 本地数据网关（个人模式）只能与 Power BI 一起使用。 此网关非常适用于你是创建报表的唯一人员且不需要与其他人共享数据源的场景。
 
 ## <a name="use-a-gateway"></a>使用网关
 
