@@ -10,30 +10,30 @@ ms.topic: conceptual
 ms.custom: seodec18
 ms.date: 06/06/2019
 ms.openlocfilehash: fea4e4927b009e30bc040593f9237cc49ff73956
-ms.sourcegitcommit: ced8c9d6c365cab6f63fbe8367fb33e6d827cb97
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/07/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "78921438"
 ---
 # <a name="report-data-in-power-bi-report-builder"></a>Power BI 报表生成器中的报表数据
 
-报表数据可以来自组织中的多个数据源。 设计 Power BI 报表生成器报表的第一步是创建表示基础报表数据的数据源和数据集。 每个数据源都包含数据连接信息。 每个数据集都包含一个查询命令，用于定义要用作数据源数据的字段集。 要可视化每个数据集中的数据，请添加表、矩阵、图表或地图等数据区域。 处理报表时，查询将在数据源上运行，并且每个数据区域都会按需进行扩展，以显示数据集的查询结果。  
+报表数据可以来自组织中的多个数据源。 设计 Power BI 报表生成器报表的第一步是创建表示基础报表数据的数据源和数据集。 每个数据源都包含数据连接信息。 每个数据集都包含一个查询命令，用于定义要用作数据源数据的字段集。 要可视化每个数据集中的数据，请添加表、矩阵、图表或地图等数据区域。 处理报表时，将对数据源运行查询，并且每个数据区域都可以根据需要进行扩展，以便显示数据集的查询结果。  
 
 了解如何[在 Power BI 报表生成器中为分页报表创建嵌入数据源](paginated-reports-embedded-data-source.md)。
 
 
-##  <a name="BkMk_ReportDataTerms"></a> 术语  
+##  <a name="terms"></a><a name="BkMk_ReportDataTerms"></a> 术语  
   
 - **数据连接。** 也称为数据源  。 数据连接包括一个名称和取决于连接类型的连接属性。 数据连接设计为不包括凭证。 数据连接不指定要从外部数据源检索的数据。 为此，请在创建数据集时指定查询。  
   
 - **连接字符串。** 连接字符串是连接到数据源所需的连接属性的字符串版本。 连接属性因数据连接类型而异。  
   
-- **嵌入的数据源。** 也称为特定于报表的数据源  。 在报表中定义且仅由该报表使用的数据源。  
+- **嵌入的数据源。** 也称为 *特定于报表的数据源*。 在报表中定义且仅由该报表使用的数据源。  
   
 - **凭据。** 凭据是必须提供才可以访问外部数据的身份验证信息。  
   
-##  <a name="BkMk_ReportDataTips"></a> 关于指定报表数据的提示
+##  <a name="tips-for-specifying-report-data"></a><a name="BkMk_ReportDataTips"></a> 关于指定报表数据的提示
 
  以下信息用于设计报表数据策略。  
   

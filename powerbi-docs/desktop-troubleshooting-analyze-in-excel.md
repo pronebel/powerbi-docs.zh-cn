@@ -10,13 +10,13 @@ ms.date: 01/29/2020
 ms.author: davidi
 LocalizationGroup: Troubleshooting
 ms.openlocfilehash: 8f4ed049fad2739ef8cc5cd307c06100f68419bd
-ms.sourcegitcommit: 8b300151b5c59bc66bfef1ca2ad08593d4d05d6a
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/30/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "76889296"
 ---
-# <a name="troubleshooting-analyze-in-excel"></a>排查在 Excel 中分析时出现的问题
+# <a name="troubleshooting-analyze-in-excel"></a>Analyze in Excel 故障排除
 
 有时，在使用 Analyze in Excel 期间可会能收意外的结果，或功能未按预期工作。 此页提供针对 Analyze in Excel 常见问题的解决方案。
 
@@ -67,7 +67,7 @@ Excel 库的位级别必须与 Windows 版本的位级别匹配。 如果已经�
 ## <a name="connection-cannot-be-made-error"></a>“无法建立连接”错误
 导致无法建立连接错误的主要原因是你计算机上的 OLE DB 提供程序客户端库不是最新版本。  有关如何确定正确更新的信息以及下载链接信息，请参阅本文前面的**更新 OLE DB 提供程序的 Excel 库**。
 
-## <a name="forbidden-error"></a>禁止错误
+## <a name="forbidden-error"></a>“已禁止”错误
 某些用户拥有多个 Power BI 帐户，并且当 Excel 尝试使用现有凭据连接到 Power BI 时可能会使用无权访问你要访问的数据集或报表的凭据。
 
 当发生这种情况时，你可能会收到标题为**已禁止**的错误，这意味着你在登录 Power BI 时可能使用了无权访问数据集的凭据。 在发生**已禁止**错误之后，当系统提示你输入凭据时，请使用有权访问你要使用的数据集的凭据。
@@ -97,7 +97,7 @@ Excel 库的位级别必须与 Windows 版本的位级别匹配。 如果已经�
 ## <a name="next-steps"></a>后续步骤
 [在 Excel 中分析](service-analyze-in-excel.md)
 
-[教程：在 Power BI Desktop 中创建你自己的度量值](desktop-tutorial-create-measures.md)
+[教程：在 Power BI Desktop 中创建自己的度量值](desktop-tutorial-create-measures.md)
 
 [PowerPivot 中的度量值](https://msdn.microsoft.com/library/gg399077.aspx)
 

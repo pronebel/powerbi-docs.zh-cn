@@ -15,7 +15,7 @@
           href: ../service-service-vs-desktop.md
     - name: 概念
       items:
-        - name: 最新 Power BI Desktop 更新中有哪些新增功能？
+        - name: 最新的 Power BI Desktop 更新中有什么新增功能？
           href: ../desktop-latest-update.md
         - name: Power BI 服务中的新功能
           href: ../service-whats-new.md
@@ -23,13 +23,13 @@
           href: ../service-basic-concepts.md
         - name: 寻求帮助的 10 个技巧
           href: ../service-tips-for-finding-help.md
-        - name: 许可
+        - name: 授权
           items:
             - name: 注册 Power BI
               href: ../service-self-service-signup-for-power-bi.md
             - name: 按许可证类型列出的功能
               href: ../service-features-license-type.md
-    - name: 操作指南
+    - name: 操作方法指南
       items:
         - name: 获取 Power BI Desktop
           href: ../desktop-get-the-desktop.md

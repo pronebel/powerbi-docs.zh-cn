@@ -10,10 +10,10 @@ ms.date: 07/15/2019
 ms.author: arthii
 LocalizationGroup: Gateways
 ms.openlocfilehash: 13d8cd9838cdcb035e7dd30a1180ac77957441ea
-ms.sourcegitcommit: 7e845812874b3347bcf87ca642c66bed298b244a
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/13/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "79207404"
 ---
 # <a name="manage-your-data-source---importscheduled-refresh"></a>管理数据源 - 导入/计划刷新
@@ -35,7 +35,7 @@ ms.locfileid: "79207404"
 > [!NOTE]
 > 将使用这些凭据运行对数据源的所有查询。 若要详细了解如何存储凭据，请参阅[在云中存储加密凭据](service-gateway-data-sources.md#store-encrypted-credentials-in-the-cloud)。
 
-![填充数据源设置](media/service-gateway-enterprise-manage-scheduled-refresh/datasourcesettings3-oracle.png)
+![填写数据源设置](media/service-gateway-enterprise-manage-scheduled-refresh/datasourcesettings3-oracle.png)
 
 有关可与计划刷新一起使用的数据源类型的列表，请参阅[可用数据源类型列表](service-gateway-data-sources.md#list-of-available-data-source-types)。
 

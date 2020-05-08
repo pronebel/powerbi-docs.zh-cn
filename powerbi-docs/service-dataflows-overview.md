@@ -10,10 +10,10 @@ ms.date: 04/01/2019
 ms.author: davidi
 LocalizationGroup: Data from files
 ms.openlocfilehash: 28be15b1f62f410c14faaa5d3e8c36060596c466
-ms.sourcegitcommit: 7e845812874b3347bcf87ca642c66bed298b244a
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/13/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "79208117"
 ---
 # <a name="self-service-data-prep-in-power-bi"></a>Power BI 中的自助服务数据准备
@@ -75,7 +75,7 @@ Power BI 还可以使用通用数据模型格式的系统化数据连接到文�
 
 |数据流功能 | Power BI Pro |   Power BI Premium |
 |---------|---------|---------|
-|计划的刷新| 每天 8 次|  48|
+|计划内刷新| 每天 8 次|  48|
 |存储总量| 10 GB/用户  |100 TB/节点|
 |使用 Power Query Online 进行数据流创作|    +   |+|
 |Power BI 中的数据流管理|   +|  +|

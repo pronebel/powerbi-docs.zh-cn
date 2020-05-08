@@ -10,10 +10,10 @@ ms.date: 11/14/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
 ms.openlocfilehash: 9f9b0ec77d0273374d940332abd5d186c2604866
-ms.sourcegitcommit: e7fda395b47e404c61e961a60816b7a1b0182759
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/08/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "80979813"
 ---
 # <a name="create-and-use-r-visuals-in-power-bi"></a>创建并使用 Power BI 中的 R 视觉对象
@@ -65,7 +65,7 @@ Power BI 服务应用了 *沙盒* 技术，可使用户和服务远离安全风�
 
 ![显示运行时错误的屏幕截图](media/service-r-visuals/r-visuals-service-5.png)
 
-## <a name="licensing"></a>许可
+## <a name="licensing"></a>授权
 R 视觉对象需要 [Power BI Pro](../service-self-service-signup-for-power-bi.md) 许可证才能在报表中呈现、刷新、筛选和交叉筛选。 有关 Power BI Pro 许可证及其与免费许可证的区别的详细信息，请参阅 [Power BI Pro 内容 — 它是什么？](../service-admin-purchasing-power-bi-pro.md)
 
 Power BI 的免费用户只能使用在 Premium 工作区中与其共享的磁贴。 有关详细信息，请参阅[购买 Power BI Pro](../service-admin-purchasing-power-bi-pro.md)。
@@ -75,10 +75,10 @@ Power BI 的免费用户只能使用在 Premium 工作区中与其共享的磁�
 
 |  |在 Power BI Desktop 中创作 R 视觉对象  | 使用 R 视觉对象创建 PBI 服务报表 |查看报表中的 R 视觉对象  | 查看仪表板中的 R 磁贴 |
 |---------|---------|---------|---------|--------|
-|**来宾** (Power BI Embedded)     |  支持|  不支持      | 仅在高级容量/Azure 容量中受支持  | 仅在高级容量/Azure 容量中受支持 |
-|**非托管租户**（域未验证） | 支持 | 不支持 |  不支持 |支持（B2B 方案） |
-|具有免费许可证的托管租户     |  支持       |  不支持       |    仅高级容量中受支持    | 支持 |
-具有 Pro 许可证的托管租户      |   支持      | 支持      | 支持    |支持|
+|**来宾** (Power BI Embedded)     |  受支持|  不支持      | 仅在高级容量/Azure 容量中受支持  | 仅在高级容量/Azure 容量中受支持 |
+|**非托管租户**（域未验证） | 受支持 | 不支持 |  不支持 |支持（B2B 方案） |
+|具有免费许可证的托管租户     |  受支持       |  不支持       |    仅高级容量中受支持    | 受支持 |
+具有 Pro 许可证的托管租户      |   受支持      | 受支持      | 受支持    |受支持|
 
 
 
@@ -116,7 +116,7 @@ R 程序包是以定义明确的格式组合的 R 函数、数据和已编译代
 
 **Power BI Desktop** 可以使用任意类型的 R 程序包，且没有任何限制。 可以自行安装 R 程序包用于 **Power BI Desktop**（例如，使用 [RStudio IDE](https://www.rstudio.com/)）。
 
-[本文](../service-r-packages-support.md)中介绍的“**支持的程序包**”部分中的程序包支持“**Power BI 服务**”中的 R 视觉对象。 如果在支持的程序包列表中未找到所需的程序包，可以请求获得所需程序包的支持。 请参阅 [Power BI 服务中的 R 程序包](../service-r-packages-support.md)，了解有关如何请求支持的信息。
+**本文**中介绍的“**支持的程序包**”部分中的程序包支持“[Power BI 服务](../service-r-packages-support.md)”中的 R 视觉对象。 如果在支持的程序包列表中未找到所需的程序包，可以请求获得所需程序包的支持。 请参阅 [Power BI 服务中的 R 程序包](../service-r-packages-support.md)，了解有关如何请求支持的信息。
 
 ### <a name="requirements-and-limitations-of-r-packages"></a>R 程序包要求和限制
 R 程序包存在大量要求和限制：

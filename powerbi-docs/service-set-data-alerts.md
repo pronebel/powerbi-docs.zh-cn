@@ -11,17 +11,17 @@ ms.date: 04/02/2020
 ms.author: maggies
 LocalizationGroup: Dashboards
 ms.openlocfilehash: a67d983d11ae8fa2f82a540c0649c2da475d5249
-ms.sourcegitcommit: 8eeb784fd46321680367ac913ef976aeedaa7766
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/03/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "80621632"
 ---
 # <a name="data-alerts-in-the-power-bi-service"></a>Power BI 服务中的数据警报
 
 设置警报，以便在仪表板中的数据更改超出你设置的限制时通知你。
 
-可以在“我的工作区”中的磁贴上设置警报。 如果有人共享具有 [Premium 容量](service-premium-what-is.md)的仪表板，你也可以设置警报。 如果拥有 Power BI Pro 许可证，也可以在任何其他工作区的磁贴上设置警报。 只能为报表视觉对象固定到的磁贴设置警报，而且只能为仪表、KPI 和卡片设置警报。 可以在从报表固定到仪表板的流数据集创建的视觉对象上设置警报。 不能对使用“添加磁贴” > “自定义流式处理数据”在仪表板上直接创建的流式处理磁贴上设置警报   。
+可以在“我的工作区”中的磁贴上设置警报。 如果有人共享具有 [Premium 容量](service-premium-what-is.md)的仪表板，你也可以设置警报。 如果拥有 Power BI Pro 许可证，也可以在任何其他工作区的磁贴上设置警报。 只能为报表视觉对象固定到的磁贴设置警报，而且只能为仪表、KPI 和卡片设置警报。 可以在从报表固定到仪表板的流数据集创建的视觉对象上设置警报。 不能对使用“添加磁贴” **“自定义流式处理数据”在仪表板上直接创建的流式处理磁贴上设置警报** >   。
 
 即使共享你的仪表板，也只有你可以看到自己设置的警报。 即使是仪表板所有者也看不到你在仪表板的视图上设置的警报。 数据警报跨平台完全同步；可以在 [Power BI 移动应用](consumer/mobile/mobile-set-data-alerts-in-the-mobile-apps.md)和 Power BI 服务中设置和查看数据警报。 它们对 Power BI Desktop 不可用。 甚至可以通过 Power Automate 自动化和集成警报。 可在此 [Power Automate 和 Power BI](service-flow-integration.md) 文章中亲自尝试执行操作。
 
@@ -89,7 +89,7 @@ ms.locfileid: "80621632"
 
 ### <a name="from-the-dashboard-tile"></a>从仪表板磁贴
 
-1. 如果需要更改或删除磁贴的警报，请通过选择钟形图标 ![警报图标](media/service-set-data-alerts/power-bi-bell-icon.png)，重新打开“管理警报”窗口  。
+1. 如果需要更改或删除磁贴的警报，请通过选择钟形图标 **警报图标**，重新打开“管理警报”窗口![](media/service-set-data-alerts/power-bi-bell-icon.png)。
 
     Power BI 显示为该磁贴设置的警报。
 
