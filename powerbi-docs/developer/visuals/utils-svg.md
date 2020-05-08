@@ -10,10 +10,10 @@ ms.subservice: powerbi-custom-visuals
 ms.topic: reference
 ms.date: 06/18/2019
 ms.openlocfilehash: aa1ac8074e842a51b369c48f57c4b5016a80140c
-ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/14/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "79377963"
 ---
 # <a name="svg-utils"></a>SVG utils
@@ -22,7 +22,7 @@ SVG utils 是一组函数和类，用于简化 Power BI 视觉对象的 SVG 操�
 
 ## <a name="installation"></a>安装
 
-要安装包，应在包含当前视觉对象的目录中运行以下命令：
+要安装包，应在目录中运行以下命令和当前的视觉对象：
 
 ```bash
 npm install powerbi-visuals-utils-svgutils --save

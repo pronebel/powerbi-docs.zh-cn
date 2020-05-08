@@ -9,10 +9,10 @@ ms.subservice: powerbi-custom-visuals
 ms.topic: conceptual
 ms.date: 06/18/2019
 ms.openlocfilehash: 9372187ae1fdfac27f6b3e7267a1c0622c063464
-ms.sourcegitcommit: 2c798b97fdb02b4bf4e74cf05442a4b01dc5cbab
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/21/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "80114327"
 ---
 # <a name="high-contrast-mode-support-in-power-bi-visuals"></a>Power BI 视觉对象中的高对比度模式支持
@@ -88,7 +88,7 @@ Power BI 原生视觉对象遵循以下准则：
 
 下一节将显示 `visualTransform` 函数中为支持高对比度而更改的一个位置。 在更新过程中将其作为呈现的一部分进行调用。
 
-### <a name="before"></a>先于
+### <a name="before"></a>改进前
 
 ```typescript
 for (let i = 0, len = Math.max(category.values.length, dataValue.values.length); i < len; i++) {

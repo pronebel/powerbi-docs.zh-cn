@@ -10,10 +10,10 @@ ms.date: 08/16/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
 ms.openlocfilehash: 25ed90dba0c164a44d691f8247023f2ff7e0a67f
-ms.sourcegitcommit: 53c2b5ea4ee1fe2659804d5ccc8e4bb445a8bcad
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/01/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "76913533"
 ---
 # <a name="create-report-templates-for-power-bi-desktop"></a>为 Power BI Desktop 创建报表模板
@@ -66,7 +66,7 @@ Power BI 报表模板就这样在指定的文件位置创建，其扩展名为 .
 
 指定了参数和数据后，将创建一个报表，其中包含所有页面、视觉对象、数据模型项目和查询，这些元素是模板所基于的报表的一部分。 
 
-就这么简单。 在 Power BI Desktop 中创建和使用报表模板非常简单，使你可以轻松地重现引人注目的布局和报表的方方面面，并与他人共享。
+大功告成。 在 Power BI Desktop 中创建和使用报表模板非常简单，使你可以轻松地重现引人注目的布局和报表的方方面面，并与他人共享。
 
 ## <a name="next-steps"></a>后续步骤
 你可能还希望了解**查询参数**：

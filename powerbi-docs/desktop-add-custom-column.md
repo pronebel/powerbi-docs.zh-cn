@@ -10,10 +10,10 @@ ms.date: 10/18/2019
 ms.author: davidi
 LocalizationGroup: Create reports
 ms.openlocfilehash: 443053bc973005d3e2a655b1222d049a4251e7d7
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/09/2019
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "73878877"
 ---
 # <a name="add-a-custom-column-in-power-bi-desktop"></a>在 Power BI Desktop 中添加自定义列
@@ -67,7 +67,7 @@ ms.locfileid: "73878877"
 
    ![“添加自定义列”页上的错误](media/desktop-add-custom-column/add-custom-column_05.png)
 
-3. 选择**确定**。 
+3. 选择“确定”。  
 
    Power BI Desktop 将自定义列添加到模型中，并将“已添加的自定义”步骤添加到“查询设置”中查询的“应用的步骤”列表中    。
 
@@ -79,7 +79,7 @@ ms.locfileid: "73878877"
 
 ## <a name="use-the-advanced-editor-for-custom-columns"></a>为自定义列使用高级编辑器
 
-创建查询后，还可以使用“高级编辑器”修改查询的任何步骤  。 为此，请执行以下步骤：
+创建查询后，还可以使用“高级编辑器”修改查询的任何步骤  。 为此，请执行下列步骤：
 
 1. 在“查询编辑器”窗口中，选择功能区上的“视图”选项卡   。 
 

@@ -1,5 +1,5 @@
 ---
-title: Power BI 安全
+title: Power BI 安全性
 description: Power BI 安全。 如何将 Power BI 与 Azure Active Directory 和其他 Azure 服务关联。 本主题还包括指向白皮书（其中会更深入地进行介绍）的链接。
 author: davidiseminger
 ms.author: davidi
@@ -9,16 +9,16 @@ ms.subservice: powerbi-admin
 ms.topic: conceptual
 ms.date: 09/09/2019
 LocalizationGroup: Administration
-ms.openlocfilehash: e856c3afca0578c906a54f636dd58cd9208607a8
-ms.sourcegitcommit: 7e845812874b3347bcf87ca642c66bed298b244a
+ms.openlocfilehash: 31ce44059ec2abd5a2615267311ba651993342ba
+ms.sourcegitcommit: 220910f0b68cb1e265ccd5ac0cee4ee9c6080b26
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/13/2020
-ms.locfileid: "79207979"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "82841885"
 ---
-# <a name="power-bi-security"></a>Power BI 安全
+# <a name="power-bi-security"></a>Power BI 安全性
 
-有关 Power BI 安全的详细说明，请[阅读 Power BI 安全白皮书](whitepaper-powerbi-security.md)。
+有关 Power BI 安全的详细说明，请[阅读 Power BI 安全白皮书](guidance/whitepaper-powerbi-security.md)。
 
 Power BI 服务基于 **Azure**，后者是 Microsoft 的云计算基础结构和平台。 Power BI 服务体系结构基于两个群集 – Web 前端 (WFE) 群集和后端群集   。 WFE 群集管理初始连接并对 Power BI 服务进行身份验证，经过身份验证后后，后端会处理所有后续的用户交互。 Power BI 使用 Azure Active Directory (AAD) 来存储和管理用户身份，并分别使用 Azure BLOB 和 Azure SQL Database 管理数据和元数据存储。
 

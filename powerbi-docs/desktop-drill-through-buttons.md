@@ -10,10 +10,10 @@ ms.date: 03/12/2020
 ms.author: maggies
 LocalizationGroup: Create reports
 ms.openlocfilehash: d3cb3c8093446d4417a59c5f64ab6b85a765e3c8
-ms.sourcegitcommit: 7e845812874b3347bcf87ca642c66bed298b244a
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/13/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "79206438"
 ---
 # <a name="create-a-drill-through-button-in-power-bi-preview"></a>在 Power BI 中创建钻取按钮（预览）
@@ -84,7 +84,7 @@ String_for_button = If(SELECTEDVALUE('Product'[Product], 0) == 0), "See product 
 
 ## <a name="pass-filter-context"></a>传递筛选器上下文
 
-按钮的工作方式与常规钻取类似，因此还可以通过交叉筛选包含钻取字段的视觉对象在其他字段中传递筛选器。 例如，使用 Ctrl  +  单击和交叉筛选，可以将 Store 中的多个筛选器传递到钻取页面，因为所选内容对包含“产品”（即钻取字段）的视觉对象进行了交叉筛选   ：
+按钮的工作方式与常规钻取类似，因此还可以通过交叉筛选包含钻取字段的视觉对象在其他字段中传递筛选器。 例如，使用 Ctrl  **单击和交叉筛选，可以将 Store 中的多个筛选器传递到钻取页面，因为所选内容对包含“产品”（即钻取字段）的视觉对象进行了交叉筛选** +   ：
 
 ![传递筛选器上下文](media/desktop-drill-through-buttons/power-bi-cross-filter-drill-through-button.png)
 

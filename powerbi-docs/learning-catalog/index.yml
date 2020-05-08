@@ -10,10 +10,10 @@ metadata:
   ms.author: v-lshann
   ms.date: 04/08/2020
   ms.openlocfilehash: 9f03f812eb20454f655a876438312ba50b521a29
-  ms.sourcegitcommit: b2cb0b02bdc451bf11a92a68f2c4d560a811f563
+  ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
   ms.translationtype: HT
   ms.contentlocale: zh-CN
-  ms.lasthandoff: 04/16/2020
+  ms.lasthandoff: 05/05/2020
   ms.locfileid: "81439287"
 landingContent:
 - title: 业务决策者
@@ -34,13 +34,13 @@ landingContent:
     links:
     - text: 报表创建者学习目录
       url: learning-catalog-report-creator.md#
-    - text: 开始使用
+    - text: 入门
       url: learning-catalog-report-creator.md#get-started
     - text: 仪表板
       url: learning-catalog-report-creator.md#dashboards
     - text: 报表设计
       url: learning-catalog-report-creator.md#report-design
-    - text: 可视化效果
+    - text: 可视化
       url: learning-catalog-report-creator.md#visualization
     - text: 集成
       url: learning-catalog-report-creator.md#integration
@@ -50,7 +50,7 @@ landingContent:
     links:
     - text: 数据分析师学习目录
       url: learning-catalog-data-analyst.md#
-    - text: 开始使用
+    - text: 入门
       url: learning-catalog-data-analyst.md#get-started
     - text: 最佳做法
       url: learning-catalog-data-analyst.md#best-practices
@@ -72,9 +72,9 @@ landingContent:
     links:
     - text: 管理员学习目录
       url: learning-catalog-administrator.md
-    - text: 开始使用
+    - text: 入门
       url: learning-catalog-administrator.md#get-started
-    - text: Deploy
+    - text: 部署
       url: learning-catalog-administrator.md#deploy
 - title: 开发人员
   linkLists:
@@ -82,13 +82,13 @@ landingContent:
     links:
     - text: 开发人员学习目录
       url: learning-catalog-developer.md
-    - text: 开始使用
+    - text: 入门
       url: learning-catalog-developer.md#get-started
     - text: 嵌入
       url: learning-catalog-developer.md#embedded
     - text: DAX
       url: learning-catalog-developer.md#dax
-    - text: Development
+    - text: 开发
       url: learning-catalog-developer.md#development
 - title: 合作伙伴售前角色
   linkLists:
@@ -102,7 +102,7 @@ landingContent:
     links:
     - text: 职能应用程序顾问学习目录
       url: learning-catalog-functional-consultant.md
-    - text: 开始使用
+    - text: 入门
       url: learning-catalog-functional-consultant.md#get-started
     - text: 最佳做法
       url: learning-catalog-functional-consultant.md#best-practices
@@ -124,7 +124,7 @@ landingContent:
     links:
     - text: 解决方案架构师学习目录
       url: learning-catalog-solution-architect.md
-    - text: 开始使用
+    - text: 入门
       url: learning-catalog-solution-architect.md#get-started
     - text: 案例研究
       url: learning-catalog-solution-architect.md#case-studies
