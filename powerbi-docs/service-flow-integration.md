@@ -11,10 +11,10 @@ ms.date: 02/25/2020
 ms.author: maggies
 LocalizationGroup: Get started
 ms.openlocfilehash: aafba825c5bd4ece3c8b97256d5943f91b456cd7
-ms.sourcegitcommit: 032a77f2367ca937f45e7e751997d7b7d0e89ee2
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/26/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "77609692"
 ---
 # <a name="power-automate-and-power-bi"></a>Power Automate 和 Power BI
@@ -29,7 +29,7 @@ ms.locfileid: "77609692"
 
 ## <a name="create-a-flow-that-is-triggered-by-a-power-bi-data-alert"></a>创建由 Power BI 数据警报触发的流
 
-### <a name="prerequisites"></a>先决条件
+### <a name="prerequisites"></a>必备组件
 本教程介绍了如何创建两个不同的流：一个是通过模板创建，另一个是从头开始创建。 若要继续学习本教程，请[在 Power BI 中创建数据警报](service-set-data-alerts.md)，创建一个免费的 Slack 帐户，然后[注册 Power Automate](https://flow.microsoft.com/#home-signup)（此产品免费！）。
 
 ## <a name="create-a-flow-that-uses-power-bi---from-a-template"></a>通过模板创建使用 Power BI 的流

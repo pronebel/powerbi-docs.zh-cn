@@ -9,10 +9,10 @@ ms.date: 02/18/2020
 ms.author: mihart
 LocalizationGroup: Create reports
 ms.openlocfilehash: 7d1e355f2c28679f5c2101d250a9fc2d5c99a2bd
-ms.sourcegitcommit: 7e845812874b3347bcf87ca642c66bed298b244a
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/13/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "79205633"
 ---
 # <a name="what-are-bookmarks"></a>什么是书签？
@@ -31,7 +31,7 @@ ms.locfileid: "79205633"
 ![在功能区中选择“书签”，即可显示“书签”窗格。](media/end-user-bookmarks/power-bi-select-bookmark.png)
 
 ## <a name="open-bookmarks"></a>打开书签
-若要打开“书签”窗格，请从菜单栏中选择“书签” > “显示多个书签”   。 要返回到报表的原始发布视图，请选择“重置为默认值”  。
+若要打开“书签”窗格，请从菜单栏中选择“书签” **“显示多个书签”**  >   。 要返回到报表的原始发布视图，请选择“重置为默认值”  。
 
 ### <a name="report-bookmarks"></a>报表书签
 如果报表设计器包含报表书签，可在“报表书签”标题下找到它们   。 此报表页具有两个书签 B1 和 B2。 

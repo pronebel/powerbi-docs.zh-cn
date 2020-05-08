@@ -9,10 +9,10 @@ ms.date: 01/16/2018
 ms.author: maggies
 LocalizationGroup: Model your data
 ms.openlocfilehash: b30310f78dca919474baf6d5870294bfc05dcacf
-ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/09/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "75760987"
 ---
 # <a name="set-geographic-filters-in-power-bi-desktop-for-use-in-the-mobile-app"></a>在 Power BI Desktop 中为移动应用中的使用设置地理筛选器
@@ -41,7 +41,7 @@ ms.locfileid: "75760987"
    > 
 
 ## <a name="create-visuals-with-your-geographic-data"></a>使用地理数据创建视觉对象
-1. 切换到报表视图 ![报表视图图标，](media/desktop-mobile-geofiltering/power-bi-desktop-report-icon.png)然后创建使用数据中的地理字段的视觉对象。 
+1. 切换到报表视图  ![报表视图图标，](media/desktop-mobile-geofiltering/power-bi-desktop-report-icon.png)然后创建使用数据中的地理字段的视觉对象。 
    
     ![带有地图的报表](media/desktop-mobile-geofiltering/power-bi-desktop-geo-report.png)
    
@@ -60,5 +60,5 @@ ms.locfileid: "75760987"
 
 ## <a name="next-steps"></a>后续步骤
 * [Power BI Desktop 中的数据分类](desktop-data-categorization.md)  
-* 是否有任何问题? [尝试咨询 Power BI 社区](https://community.powerbi.com/)
+* 是否有任何问题？ [尝试咨询 Power BI 社区](https://community.powerbi.com/)
 

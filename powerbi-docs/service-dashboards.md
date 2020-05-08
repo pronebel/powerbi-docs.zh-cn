@@ -10,17 +10,17 @@ ms.date: 09/19/2019
 ms.author: maggies
 LocalizationGroup: Dashboards
 ms.openlocfilehash: eb2c513e8ee8ad1c8ad93866f688e40f6c5af56d
-ms.sourcegitcommit: 3d6b27e3936e451339d8c11e9af1a72c725a5668
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/17/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "76160779"
 ---
 # <a name="introduction-to-dashboards-for-power-bi-designers"></a>Power BI 设计器的仪表板简介
 
 Power BI“仪表板”是通过可视化效果讲述故事的单个页面，常被称为画布  。 因为它被限制为一页，设计精良的仪表板仅包含该故事的亮点。 读者可查看相关报表了解详细信息。
 
-![仪表板](media/service-dashboards/power-bi-dashboard2.png)
+![Dashboard](media/service-dashboards/power-bi-dashboard2.png)
 
 仪表板只是 Power BI 服务的一个功能。 Power BI Desktop 中无此功能。 虽然无法在移动设备上创建仪表板，但可以[查看和共享](mobile-apps-view-dashboard.md)仪表板。
 
@@ -49,16 +49,16 @@ Power BI“仪表板”是通过可视化效果讲述故事的单个页面，常
 
 | **功能** | **仪表板** | **报表** |
 | --- | --- | --- |
-| 页数 |一个页面 |一个或多个页面 |
+| 页面 |一个页面 |一个或多个页面 |
 | 数据源 |每个仪表板的一个或多个报表和一个或多个数据集 |每个报表的单个数据集 |
-| 可用于 Power BI Desktop |否 | 是。 可在 Power BI Desktop 中生成和查看报表 |
-| 订阅 |是。 可订阅仪表板 |是。 可订阅报表页面 |
-| 筛选 |否。 无法筛选或切片 |是。 许多不同的方式来筛选、突出显示和切片 |
-| 特别推荐 |是。 可将一个仪表板设置为精选  仪表板 |否 |
-| 收藏夹 | 是。 可将多个仪表板设置为“收藏夹”  | 是。 可将多个报表设置为“收藏夹” 
-| 设置警报 |是。 可在某些情况下用于仪表板磁贴 |否 |
+| 可用于 Power BI Desktop |否 | 是的。 可在 Power BI Desktop 中生成和查看报表 |
+| 订阅 |是的。 可订阅仪表板 |是的。 可订阅报表页面 |
+| 筛选 |不行。 无法筛选或切片 |是的。 许多不同的方式来筛选、突出显示和切片 |
+| 特色 |是的。 可将一个仪表板设置为精选  仪表板 |否 |
+| 收藏 | 是的。 可将多个仪表板设置为“收藏夹”  | 是的。 可将多个报表设置为“收藏夹” 
+| 设置警报 |是的。 可在某些情况下用于仪表板磁贴 |否 |
 | 自然语言查询（“问答”） |是 | 是，前提是你有权编辑报表及基础数据集 |
-| 可以看到基础数据集表和字段 |否。 可以导出数据，但看不到仪表板本身的表和字段 |是 |
+| 可以看到基础数据集表和字段 |不行。 可以导出数据，但看不到仪表板本身的表和字段 |是 |
 
 
 ## <a name="next-steps"></a>后续步骤

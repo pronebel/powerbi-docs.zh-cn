@@ -9,10 +9,10 @@ ms.topic: conceptual
 ms.date: 01/16/2018
 LocalizationGroup: Model your data
 ms.openlocfilehash: e2b1c90c6a4ee237af0d800dd7d1c6e1dc8dc3ba
-ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/09/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "75760896"
 ---
 # <a name="tag-barcodes-in-power-bi-desktop-for-use-in-the-mobile-app"></a>Power BI Desktop 中用于移动应用的标记条形码
@@ -47,5 +47,5 @@ ms.locfileid: "75760896"
 * [从你的 iPhone 上的 Power BI 应用中扫描条形码](consumer/mobile/mobile-apps-scan-barcode-iphone.md)
 * [在 iPhone 上扫描条形码时遇到的问题](consumer/mobile/mobile-apps-scan-barcode-iphone.md#issues-with-scanning-a-barcode)
 * [Power BI Desktop 中的数据分类](desktop-data-categorization.md)  
-* 是否有任何问题? [尝试咨询 Power BI 社区](https://community.powerbi.com/)
+* 是否有任何问题？ [尝试咨询 Power BI 社区](https://community.powerbi.com/)
 

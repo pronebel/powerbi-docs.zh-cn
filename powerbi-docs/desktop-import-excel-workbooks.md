@@ -10,22 +10,22 @@ ms.date: 01/22/2020
 ms.author: davidi
 LocalizationGroup: Connect to data
 ms.openlocfilehash: 0a9880eea0511b942c3c7310a059caf5cd9415e1
-ms.sourcegitcommit: f9909731ff5b6b69cdc58e9abf2025b7dee0e536
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/20/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "77496813"
 ---
 # <a name="import-excel-workbooks-into-power-bi-desktop"></a>将 Excel 工作簿导入 Power BI Desktop
 通过 Power BI Desktop，你可以轻松地将包含 Power Query 查询、Power Pivot 模型和 Power View 工作表的 Excel 工作簿导入到 Power BI Desktop。 Power BI Desktop 可基于 Excel 工作簿自动创建报表和可视化效果。 导入后，可以使用 Power BI Desktop 的现有功能及其每月更新的新功能继续改进和优化这些报表。
 
 ## <a name="how-do-i-import-an-excel-workbook"></a>如何导入 Excel 工作簿？
-1. 若要将 Excel 工作簿导入到 Power BI Desktop，请选择“文件” > “导入” > “Power Query、Power Pivot 和 Power View”。
+1. 若要将 Excel 工作簿导入到 Power BI Desktop，请选择“文件” > “导入” > “Power Query、Power Pivot 和 Power View”    。
 
    ![导入 Excel 工作簿](media/desktop-import-excel-workbooks/importexceltopbi_1.png)
 
 
-2. 从“打开”窗口中，选择要导入的 Excel 工作簿。 
+2. 从“打开”窗口中，选择要导入的 Excel 工作簿  。 
 
    目前对于工作簿中对象的数量和大小没有限制，但在 Power BI Desktop 中分析和导入较大的工作簿会花费更长的时间。
 
@@ -34,7 +34,7 @@ ms.locfileid: "77496813"
    > 
    > 
 
-3. 从出现的“导入”对话框中，选择“启动”。
+3. 从出现的“导入”对话框中，选择“启动”  。
 
    ![导入 Excel 工作簿内容](media/desktop-import-excel-workbooks/import-excel-power-bi-5.png)
 
@@ -45,7 +45,7 @@ ms.locfileid: "77496813"
 
    ![导入摘要页](media/desktop-import-excel-workbooks/importexceltopbi_3.png)
 
-4. 选择“关闭”。 
+4. 选择“关闭”  。 
 
    Power BI Desktop 会导入 Excel 工作簿并加载基于工作簿内容的报表。
 
@@ -58,9 +58,9 @@ Power BI Desktop 可导入以下元素，在 Excel 中通常称为*对象*。
 
 | Excel 工作簿中的对象 | Power BI Desktop 文件中的最终结果 |
 | --- | --- |
-| Power Query 查询 |Excel 中的所有 Power Query 查询都会转换为 Power BI Desktop 中的查询。 如果 Excel 工作簿中已定义查询组，则将在 Power BI Desktop 中复制相同组织。 除非在“导入数据”Excel 对话框中将所有查询设置为“仅创建连接”，否则将加载所有查询。 从 Power BI Desktop 中的 Power Query Editor“主页”选项卡中选择“属性”，可自定义加载行为。 |
+| Power Query 查询 |Excel 中的所有 Power Query 查询都会转换为 Power BI Desktop 中的查询。 如果 Excel 工作簿中已定义查询组，则将在 Power BI Desktop 中复制相同组织。 除非在“导入数据”Excel 对话框中将所有查询设置为“仅创建连接”，否则将加载所有查询   。 从 Power BI Desktop 中的 Power Query Editor“主页”选项卡中选择“属性”，可自定义加载行为   。 |
 | Power Pivot 外部数据连接 |所有 Power Pivot 外部数据连接都转换为 Power BI Desktop 中的查询。 |
-| 链接表或当前工作簿表 |如果 Excel 中有工作表数据表链接到数据模型或链接到查询（通过使用“从表格”或 M 中的“Excel.CurrentWorkbook()”函数），将显示下列选项： <ol><li><b>将表导入到 Power BI Desktop 文件</b>。 该表是数据的一次性快照，此后数据在 Power BI Desktop 中的表中为只读。 使用此选项创建的表有大小限制，字数上限为 100 万个字符（总数，包括所有列标题和单元格）。</li><li><b>保持与原始工作簿的连接</b>。 你还可以保留与原始 Excel 工作簿的连接，Power BI Desktop 每次刷新时都会检索表中的最新内容，就像在 Power BI Desktop 中针对 Excel 工作簿创建的其他查询一样。</li></ul> |
+| 链接表或当前工作簿表 |如果 Excel 中有工作表数据表链接到数据模型或链接到查询（通过使用“从表格”或 M 中的“Excel.CurrentWorkbook()”函数），将显示下列选项   ： <ol><li><b>将表导入到 Power BI Desktop 文件</b>。 该表是数据的一次性快照，此后数据在 Power BI Desktop 中的表中为只读。 使用此选项创建的表有大小限制，字数上限为 100 万个字符（总数，包括所有列标题和单元格）。</li><li><b>保持与原始工作簿的连接</b>。 你还可以保留与原始 Excel 工作簿的连接，Power BI Desktop 每次刷新时都会检索表中的最新内容，就像在 Power BI Desktop 中针对 Excel 工作簿创建的其他查询一样。</li></ul> |
 | 数据模型计算列、度量值、KPI、数据类别和数据关系 |这些数据模型对象将转换为 Power BI Desktop 中的等效对象。 注意：某些数据类别在 Power BI Desktop 中不可用，例如图像。 在这些情况下，将对有问题的相关列重置数据类别信息。 |
 | Power View 工作表 |为每个 Power View Excel 工作表创建新报表页。 报表的名称和报表页面顺序与原始 Excel 工作簿匹配。 |
 
@@ -71,6 +71,6 @@ Power BI Desktop 可导入以下元素，在 Excel 中通常称为*对象*。
 * **层次结构：** Power BI Desktop 目前不支持这种数据模型对象类型。 因此，将 Excel 工作簿导入到 Power BI Desktop 时会略过层次结构。
 * **二进制数据列：** Power BI Desktop 目前不支持这种数据模型列类型。 已从 Power BI Desktop 中的结果表中删除二进制数据列。
 * **不支持的 Power View 元素：** Power BI Desktop 目前尚未提供 Power View 中的一些功能，例如布景主题或特定可视化效果类型（具有播放轴的散点图、向下钻取行为等）。 这些不支持的可视化效果会导致在 Power BI Desktop 报表中的对应位置出现*可视化效果不受支持*的消息，你可以根据需要删除或重新配置。
-* **使用 Power Query 中的“从表”或使用 M 中的“Excel.CurrentWorkbook”的命名范围：** 目前不支持将此名称范围数据导入到 Power BI Desktop，但已计划此更新。 目前，这些名称范围会当做外部 Excel 工作簿的连接，加载到 Power BI Desktop。
+* **使用 Power Query 中的“从表”或使用 M 中的“Excel.CurrentWorkbook”的命名范围：**     目前不支持将此名称范围数据导入到 Power BI Desktop，但已计划此更新。 目前，这些名称范围会当做外部 Excel 工作簿的连接，加载到 Power BI Desktop。
 * **PowerPivot 至 SSRS：** 由于 Power BI Desktop 目前不提供该数据源，因此目前不支持到 SQL Server Reporting Services (SSRS) 的 PowerPivot 外部连接。
 

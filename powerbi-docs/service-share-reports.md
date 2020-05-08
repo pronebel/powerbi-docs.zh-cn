@@ -11,10 +11,10 @@ ms.date: 01/29/2020
 ms.author: maggies
 LocalizationGroup: Share your work
 ms.openlocfilehash: 16041ebc9ba293ab166178e008b12277d94e89c3
-ms.sourcegitcommit: 64a270362c60581a385af7fbc31394e3ebcaca41
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/31/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "76894757"
 ---
 # <a name="filter-and-share-a-power-bi-report"></a>筛选并共享 Power BI 报表
@@ -51,11 +51,11 @@ Power BI 还提供了[其他开展协作和分发报表的方式](service-how-to
  
 ![报表筛选窗格](media/service-share-reports/power-bi-share-report-filter.png)
 
-保存报表。
+保存报告。
 
 ## <a name="share-the-filtered-report"></a>共享筛选的报表
 
-1. 选择**共享**。
+1. 选择“共享”  。
 
    ![选择“共享”](media/service-share-reports/power-bi-share.png)
 
@@ -81,6 +81,6 @@ Power BI 还提供了[其他开展协作和分发报表的方式](service-how-to
 ## <a name="next-steps"></a>后续步骤
 * [在 Power BI 中共享工作的方式](service-how-to-collaborate-distribute-dashboards-reports.md)
 * [共享仪表板](service-share-dashboards.md)
-* 更多疑问？ [尝试参与 Power BI 社区](https://community.powerbi.com/)。
-* 有反馈？ 请转到 [Power BI 社区站点](https://community.powerbi.com/)提出你的建议。
+* 更多问题？ [尝试参与 Power BI 社区](https://community.powerbi.com/)。
+* 想提供反馈？ 请转到 [Power BI 社区站点](https://community.powerbi.com/)提出你的建议。
 

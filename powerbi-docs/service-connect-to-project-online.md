@@ -10,10 +10,10 @@ ms.date: 07/25/2019
 ms.author: sarinas
 LocalizationGroup: Connect to services
 ms.openlocfilehash: 32d731c354d848809d336392ef51f667b14427d8
-ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/06/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "74565682"
 ---
 # <a name="connect-to-project-web-app-with-power-bi"></a>使用 Power BI 连接到 Project Web 应用
@@ -21,7 +21,7 @@ Microsoft Project Web 应用是一个灵活的在线解决方案，用于项目�
 
 连接到 Power BI 的 [Project Web 应用模板应用](https://appsource.microsoft.com/product/power-bi/pbi_msprojectonline.pbi-microsoftprojectwebapp)。
 
-## <a name="how-to-connect"></a>如何连接
+## <a name="how-to-connect"></a>连接方式
 
 1. 选择导航窗格中的“应用”，然后选择右上角的“获取应用”   。
 
@@ -44,7 +44,7 @@ Microsoft Project Web 应用是一个灵活的在线解决方案，用于项目�
 7. 在 Project Web 应用 URL 文本框中，输入你要连接到的 Project Web 应用 (PWA) 的 URL  。  请注意，如果你使用自定义域，则它可能与示例不同。 在“PWA 站点语言”  文本框中，键入与 PWA 站点语言相对应的数字。 对于英语，键入单个数字“1”；法语键入“2”；德语键入“3”；葡萄牙语（巴西）键入“4”；葡萄牙语（葡萄牙）键入“5”以及西班牙语键入“6”。 
    
    ![连接到 Microsoft Project Online](media/service-connect-to-project-online/params.png)
-8. 对于身份验证方法，请选择“oAuth2”\>“登录”   。 出现提示时，输入 Project Web 应用凭据，然后按照身份验证过程进行操作。
+8. 对于身份验证方法，请选择“oAuth2” **“登录”** \>  。 出现提示时，输入 Project Web 应用凭据，然后按照身份验证过程进行操作。
 
     > [!NOTE]
     > 你需要具有项目组合查看者、项目组合经理或管理员权限才能连接到 Project Web App。
