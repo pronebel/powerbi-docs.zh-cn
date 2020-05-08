@@ -6,15 +6,15 @@ ms.reviewer: lukaszp
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 03/16/2020
+ms.date: 05/01/2020
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 40bbec8a6a28def6cde9128b51c8919fd4f493de
-ms.sourcegitcommit: 9ec2c608b90bf651df613f0714addd251a885039
+ms.openlocfilehash: 7f1815adeb83e68ea42d68b084752068c210e484
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/24/2020
-ms.locfileid: "82120334"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "82781333"
 ---
 # <a name="organize-work-in-the-new-workspaces-in-power-bi"></a>在 Power BI 的新工作区中整理工作
 
@@ -62,7 +62,7 @@ Power BI 管理门户中[提供工作区列表](service-admin-portal.md#workspac
 
 [!INCLUDE [power-bi-workspace-roles-table](includes/power-bi-workspace-roles-table.md)]
 
-## <a name="licensing"></a>授权
+## <a name="licensing"></a>许可
 你添加到共享容量中的工作区的每个人都需要 Power BI Pro 许可证。 在工作区中，这些用户全都可协作处理计划向更广泛的受众，甚至整个组织发布的仪表板和报表。 
 
 如果要将内容分发给组织内的其他人，可将 Power BI Pro 许可证分配给这些用户，或将工作区置于 Power BI 高级容量中。
@@ -129,22 +129,22 @@ Power BI 不会将配置为拥有工作区访问权限的用户或组的权限�
 - 若要允许具有查看者角色的用户导出数据，请确保他们有权在工作区中生成数据集。 详细了解[数据集的“生成”权限](service-datasets-build-permissions.md)。
 - 没有“退出工作区”按钮  。
 
-## <a name="frequently-asked-questions"></a>常见问题
+## <a name="frequently-asked-questions"></a>常见问题解答
 
 **指向现有内容的链接是否会受到新工作区体验正式版的影响？**
 
-不是。 指向经典工作区中现有项的链接不会受到新工作区体验的影响。 新工作区体验正式版 (GA) 更改你创建的默认工作区，但不更改现有工作区。 
+否。 指向经典工作区中现有项的链接不会受到新工作区体验的影响。 新工作区体验正式版 (GA) 更改你创建的默认工作区，但不更改现有工作区。 
 
 **现有工作区是否会升级到新工作区体验正式版？**
 
-不是。 新工作区体验正式版只将默认工作区类型更改为新工作区体验。 基于 Office 365 组的现有经典工作区保持不变。
+否。 新工作区体验正式版只将默认工作区类型更改为新工作区体验。 基于 Office 365 组的现有经典工作区保持不变。
 
 **是否仍自动为 Office 365 组创建工作区？**
 
-是的。 由于现在同时支持两种类型工作区，因此工作区列表中会继续列出用户有权访问的所有 Office 365 组。
+是。 由于现在同时支持两种类型工作区，因此工作区列表中会继续列出用户有权访问的所有 Office 365 组。
 
 ## <a name="next-steps"></a>后续步骤
 * [在 Power BI 中创建新工作区](service-create-the-new-workspaces.md)
 * [创建经典工作区](service-create-workspaces.md)
 * [在 Power BI 中安装并使用应用](service-create-distribute-apps.md)
-* 有疑问？ [尝试在 Power BI 社区中提问](https://community.powerbi.com/)
+* 是否有任何问题? [尝试咨询 Power BI 社区](https://community.powerbi.com/)

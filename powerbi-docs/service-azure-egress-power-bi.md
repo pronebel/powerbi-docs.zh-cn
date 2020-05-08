@@ -1,5 +1,5 @@
 ---
-title: Power BI 和 Azure 出口
+title: Power BI 和 Azure 流出量
 description: 基于租户位置和 Power BI Premium，了解 Azure 出口费用和 Power BI
 author: davidiseminger
 ms.reviewer: ''
@@ -10,13 +10,13 @@ ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Data from databases
 ms.openlocfilehash: 17175e1accb5013b960c5e1a71ae036b3dda72f3
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/09/2019
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "73855571"
 ---
-# <a name="power-bi-and-azure-egress"></a>Power BI 和 Azure 出口
+# <a name="power-bi-and-azure-egress"></a>Power BI 和 Azure 流出量
 
 将 Power BI 与 Azure 数据源一起使用时，通过确保 Power BI 租户与 Azure 数据源位于同一区域，可以避免 Azure 出口费用。
 

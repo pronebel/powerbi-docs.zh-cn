@@ -9,10 +9,10 @@ ms.topic: conceptual
 ms.date: 01/29/2020
 ms.author: v-pemyer
 ms.openlocfilehash: fdd7504823f088ed0e88657a6fcccaeb9a5a36d0
-ms.sourcegitcommit: a175faed9378a7d040a08ced3e46e54503334c07
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/18/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "79487800"
 ---
 # <a name="tenant-admin-settings-guidance"></a>租户管理员设置指南
@@ -143,5 +143,5 @@ ms.locfileid: "79487800"
 
 - [什么是 Power BI 管理？](../service-admin-administering-power-bi-in-your-organization.md)
 - [在管理门户中管理 Power BI](../service-admin-portal.md)
-- 是否有任何问题? [尝试咨询 Power BI 社区](https://community.powerbi.com/)
+- 是否有任何问题？ [尝试咨询 Power BI 社区](https://community.powerbi.com/)
 - 建议？ [提出改进 Power BI 的想法](https://ideas.powerbi.com)

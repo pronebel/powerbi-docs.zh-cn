@@ -35,7 +35,7 @@
           href: ../desktop-bidirectional-filtering.md
         - name: 在 Power BI 中使用多维模型
           href: ../desktop-default-member-multidimensional-models.md
-    - name: 操作指南
+    - name: 操作方法指南
       items:
         - name: 执行常见查询任务
           href: ../desktop-common-query-tasks.md
@@ -55,7 +55,7 @@
               href: ../desktop-combine-binaries.md
             - name: 使用 AI 见解（预览版）
               href: ../desktop-ai-insights.md
-        - name: 为你的数据建模
+        - name: 为数据建模
           items:
             - name: 创建快速度量执行常见计算
               href: ../desktop-quick-measures.md
@@ -103,7 +103,7 @@
               href: ../service-dataflows-azure-data-lake-integration.md
             - name: 连接 Azure Data Lake Storage Gen2 以存储数据流
               href: ../service-dataflows-connect-azure-data-lake-storage-gen2.md
-            - name: 配置工作区数据流设置（预览）
+            - name: 配置工作区数据流设置（预览版）
               href: ../service-dataflows-configure-workspace-storage-settings.md
             - name: 将 CDM 文件夹添加到 Power BI 作为数据流（预览）
               href: ../service-dataflows-add-cdm-folder.md

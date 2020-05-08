@@ -9,10 +9,10 @@ ms.topic: conceptual
 ms.date: 04/02/2020
 ms.author: maggies
 ms.openlocfilehash: 25bf9d8a05805fad268152c64b5aefa36f602803
-ms.sourcegitcommit: e0833ec22b263f919025acae88551570b4def0cd
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/03/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "80647646"
 ---
 # <a name="capacity-planning-guidance-for-power-bi-report-server"></a>Power BI 报表服务器容量计划指南
@@ -64,7 +64,7 @@ Power BI 报表服务器部署由以下虚拟机组成：
 ### <a name="workloads"></a>工作负载
 测试中使用了 2 个工作负载配置文件：Power BI 报表重负载和分页报表重负载。 下表介绍了针对报表服务器执行的请求的分布。
 
-| 活动 | Power BI 报表重负载，出现频率 | 分页报表重负载，出现频率 |
+| Activity | Power BI 报表重负载，出现频率 | 分页报表重负载，出现频率 |
 | --- | --- | --- |
 | **呈现 Power BI 报表** |60% |10% |
 | **呈现分页 (RDL) 报表** |30% |60% |
@@ -91,7 +91,7 @@ Power BI 报表服务器部署由以下虚拟机组成：
 | **Power BI 报表重负载** |1,000 个用户 |3,000 个用户 |
 | **分页报表重负载** |2,000 个用户 |3,200 个用户 |
 
-## <a name="summary"></a>摘要
+## <a name="summary"></a>总结
 对于每个负载测试运行，CPU 是 Power BI 报表服务器计算机上的峰值负载点中最过载的资源。 因此，应增加的第一个资源是内核数。 或者，可以考虑通过在拓扑中添加更多托管 Power BI 报表服务器的服务器来进行纵向扩展。
 
 本文中显示的结果源自执行一个特定的报表集，该报表集使用一个以特定方式重复的特定数据集。 它是实用参考点，但请注意，具体使用情况视报表、查询、使用模式以及 Power BI 报表服务器部署而定。

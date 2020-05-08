@@ -8,12 +8,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 04/23/2020
 ms.author: kfollis
-ms.openlocfilehash: cfdb4f380cd8ad9655593798f591a4c915988c43
-ms.sourcegitcommit: 9ec2c608b90bf651df613f0714addd251a885039
+ms.openlocfilehash: 11e6e1b1359841ea85bcb65b384abab926f003e0
+ms.sourcegitcommit: 220910f0b68cb1e265ccd5ac0cee4ee9c6080b26
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/24/2020
-ms.locfileid: "82120082"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "82841931"
 ---
 # <a name="power-bi-webinars"></a>Power BI 网络研讨会
 [//]: # "Tatevik Tatero 是与 Chauncy Freels 合作的供应商，可帮助维护此网络研讨会列表"
@@ -228,7 +228,7 @@ Power BI 采用框架网络研讨会系列
 
 ## <a name="see-also"></a>另请参阅
 
-- [Power BI 白皮书](whitepapers.md)
+- [Power BI 白皮书](guidance/whitepapers.md)
 
 - [什么是 Power BI？](fundamentals/power-bi-overview.md)
 
@@ -236,4 +236,4 @@ Power BI 采用框架网络研讨会系列
 
 - 订阅我们的 [YouTube 频道](https://www.youtube.com/mspowerbi)
 
-更多疑问？ [尝试咨询 Power BI 社区](https://community.powerbi.com/)
+更多问题？ [尝试咨询 Power BI 社区](https://community.powerbi.com/)

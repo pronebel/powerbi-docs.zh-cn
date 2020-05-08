@@ -10,10 +10,10 @@ ms.date: 08/02/2018
 ms.author: maggies
 LocalizationGroup: Share your work
 ms.openlocfilehash: 3936ebfedb1e4e51fe93b948a49de0b9fb133c52
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/09/2019
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "73881291"
 ---
 # <a name="remove-your-connection-to-a-power-bi-organizational-content-pack"></a>删除与 Power BI 组织内容包的连接
@@ -26,7 +26,7 @@ ms.locfileid: "73881291"
 
 要删除内容包，可以删除其数据集。  
 
-* 在导航窗格中，选择该数据集右侧的省略号，然后选择“删除”\>“是”  。  
+* 在导航窗格中，选择该数据集右侧的省略号，然后选择“删除” **“是”\>** 。  
   
   ![删除内容包](media/service-organizational-content-pack-disconnect/power-bi-remove-organizational-content-pack-dataset.png)
 

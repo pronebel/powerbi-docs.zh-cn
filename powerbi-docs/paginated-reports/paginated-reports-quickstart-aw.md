@@ -9,10 +9,10 @@ ms.subservice: report-builder
 ms.topic: tutorial
 ms.date: 11/06/2018
 ms.openlocfilehash: 17742c48d9ac5cb49b6d04fe6fe4674e7f6c7ac9
-ms.sourcegitcommit: 444f7fe5068841ede2a366d60c79dcc9420772d4
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/30/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "80404885"
 ---
 # <a name="tutorial-create-a-paginated-report-and-upload-it-to-the-power-bi-service"></a>教程：创建分页报表并将其上传到 Power BI 服务

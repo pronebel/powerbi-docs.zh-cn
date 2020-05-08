@@ -9,10 +9,10 @@ ms.subservice: powerbi-custom-visuals
 ms.topic: conceptual
 ms.date: 06/18/2019
 ms.openlocfilehash: ae548abd0d579414a69b0d970213ff9d69ff2f08
-ms.sourcegitcommit: 7e845812874b3347bcf87ca642c66bed298b244a
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/13/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "79205863"
 ---
 # <a name="objects-and-properties-of-power-bi-visuals"></a>Power BI 视觉对象的对象和属性
@@ -30,7 +30,7 @@ ms.locfileid: "79205863"
 }
 ```
 
-## <a name="display-name"></a>显示名称
+## <a name="display-name"></a>显示名
 
 `displayName` 是将显示在属性窗格中的名称。
 
@@ -136,9 +136,9 @@ export interface StructuralTypeDescriptor {
 }
 ```
 
-请注意填充和 fillRule 属性   。 第一个属性是颜色选取器，第二个属性是在满足规则条件时将替代“填充”属性 `visually` 的渐变替代规则  。
+请注意填充和 fillRule 属性   。 第一个属性是颜色选取器，第二个属性是在满足规则条件时将替代“填充”属性  *的渐变替代规则*`visually`。
 
-填充属性和替代规则之间的此链接在 fillRule 属性的 `"rule"`>`"output"` 部分中设置   。
+填充属性和替代规则之间的此链接在 fillRule 属性的  `"rule"` 部分中设置>`"output"` 。
 
 `"Rule"`>`"InputRole"` 属性设置触发规则（条件）的数据角色。 在此示例中，如果数据角色 `"Gradient"` 包含数据，将为 `"fill"` 属性应用该规则。
 

@@ -10,10 +10,10 @@ ms.date: 04/24/2020
 ms.author: mihart
 LocalizationGroup: Administration
 ms.openlocfilehash: 667c20c0e904ca9a91aed3c0566f722e54336a9f
-ms.sourcegitcommit: c772c544ce2e1e2a147b9b62e5579ac3cb59d54c
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/29/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "82256314"
 ---
 # <a name="signing-up-for-power-bi-with-a-new-microsoft-365-trial"></a>通过新 Microsoft 365 试用版注册 Power BI
@@ -47,7 +47,7 @@ ms.locfileid: "82256314"
 
 1. 在创建新租户期间，可能需要等待。 
 
-就这么简单！  现在，你有了可用于注册 Power BI 的电子邮件地址。 前往[以个人身份注册 Power BI 服务](service-self-service-signup-for-power-bi.md)
+大功告成。  现在，你有了可用于注册 Power BI 的电子邮件地址。 前往[以个人身份注册 Power BI 服务](service-self-service-signup-for-power-bi.md)
 
 
 
@@ -64,4 +64,4 @@ ms.locfileid: "82256314"
 [组织中的 Power BI 许可](service-admin-licensing-organization.md)  
 [以个人身份注册 Power BI](service-self-service-signup-for-power-bi.md)
 
-更多疑问？ [尝试咨询 Power BI 社区](https://community.powerbi.com/)
+更多问题？ [尝试咨询 Power BI 社区](https://community.powerbi.com/)

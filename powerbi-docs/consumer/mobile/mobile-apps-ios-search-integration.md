@@ -9,10 +9,10 @@ ms.topic: conceptual
 ms.date: 03/11/2020
 ms.author: painbar
 ms.openlocfilehash: 7d61a57a928df95bd2210bf58cc44e37d14c393d
-ms.sourcegitcommit: 480bba9c745cb9af2005637e693c5714b3c64a8a
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/11/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "79114483"
 ---
 # <a name="ios-device-search-spotlight-integration-with-power-bi-mobile-ios-app-preview"></a>iOS 设备搜索（聚焦）与 Power BI 移动版 iOS 应用集成（预览版）
@@ -31,7 +31,7 @@ ms.locfileid: "79114483"
    搜索结果将包括以下类型的 Power BI 项目：
 
     * 仪表板
-    * 报表
+    * Reports
     * 应用
     * 工作区
     * 所搜索的联系人共享项目

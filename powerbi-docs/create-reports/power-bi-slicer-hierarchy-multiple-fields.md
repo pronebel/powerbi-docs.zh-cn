@@ -10,10 +10,10 @@ ms.date: 04/06/2020
 ms.author: maggies
 LocalizationGroup: Create reports
 ms.openlocfilehash: c41fa1e0c8510f64f9c6e53c83fe9ee8a2e75e67
-ms.sourcegitcommit: 915cb7d8088deb0d9d86f3b15dfb4f6f5b1b869c
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/10/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "81006884"
 ---
 # <a name="add-multiple-fields-to-a-slicer-preview"></a>向切片器添加多个字段（预览）
@@ -24,7 +24,7 @@ ms.locfileid: "81006884"
 
 :::image type="content" source="media/power-bi-slicer-hierarchy-multiple-fields/power-bi-slicer-hierarchy.png" alt-text="Power BI 中的层次结构切片器":::
 
-要启用此预览功能，请在“文件”菜单中，依次选择“选项和设置” > “选项”    。 在“全局”下，转到“预览功能”部分，并确保选中“层次结构切片器”    。
+要启用此预览功能，请在“文件”菜单中，依次选择“选项和设置” **“选项”**   >   。 在“全局”下，转到“预览功能”部分，并确保选中“层次结构切片器”    。
 
 :::image type="content" source="media/power-bi-slicer-hierarchy-multiple-fields/power-bi-slicer-hierarchy-preview.png" alt-text="选择层次结构切片器预览功能":::
 

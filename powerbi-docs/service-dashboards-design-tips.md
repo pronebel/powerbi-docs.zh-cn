@@ -10,10 +10,10 @@ ms.date: 08/14/2019
 ms.author: maggies
 LocalizationGroup: Dashboards
 ms.openlocfilehash: 95170ec36c5b4da0314c858ae415c3bbcb2ab556
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/09/2019
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "73877401"
 ---
 # <a name="tips-for-designing-a-great-power-bi-dashboard"></a>设计出色 Power BI 仪表板的提示
@@ -22,7 +22,7 @@ ms.locfileid: "73877401"
 ![市场营销和销售示例仪表板](media/service-dashboards-design-tips/power-bi-marketing-sample-dashboard.png)
 
 > [!TIP]
-> 喜欢这个仪表板吗？ 可从 AppSource 下载它和相关报表。 转到“获取数据” > “服务”   。 搜索“Microsoft 示例 - 销售和市场营销” > “立即获取”   。
+> 喜欢这个仪表板吗？ 可从 AppSource 下载它和相关报表。 转到“获取数据” **“服务”**  >   。 搜索“Microsoft 示例 - 销售和市场营销” **“立即获取”**  >   。
 
 以下是有关仪表板的一些提示。
 

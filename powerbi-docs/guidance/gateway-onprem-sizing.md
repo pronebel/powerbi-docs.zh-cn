@@ -9,10 +9,10 @@ ms.topic: conceptual
 ms.date: 12/30/2019
 ms.author: v-pemyer
 ms.openlocfilehash: 4f289bf319bf29de8f8765d55bf3400048420af5
-ms.sourcegitcommit: 0cc594ebb78a6d0e88784673ed09f8aefd10c7a7
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/29/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "76829043"
 ---
 # <a name="on-premises-data-gateway-sizing"></a>本地数据网关大小调整
@@ -89,9 +89,9 @@ ms.locfileid: "76829043"
 - 对于 Azure VM 中的数据源，请确保 VM [与 Power BI 服务并置](../service-admin-where-is-my-tenant-located.md)
 - 对于涉及动态 RLS 的 SQL Server Analysis Services (SSAS) 的实时连接工作负载，请确保网关计算机和本地 Active Directory 之间良好连接
 
-### <a name="clustering"></a>群集
+### <a name="clustering"></a>聚类
 
-对于大规模部署，你可以创建群集安装网关。 群集可避免单一故障点，并可跨网关实现流量负载均衡。 可以：
+对于大规模部署，你可以创建群集安装网关。 群集可避免单一故障点，并可跨网关实现流量负载均衡。 你可以：
 
 - 在群集中安装一个或多个网关
 - 将工作负载隔离到独立网关或网关服务器群集
@@ -131,5 +131,5 @@ ms.locfileid: "76829043"
 - [对网关进行排除故障 - Power BI](../service-gateway-onprem-tshoot.md)
 - [本地数据网关故障排除](/data-integration/gateway/service-gateway-tshoot)
 - [查询折叠的重要性](power-query-folding.md)
-- 有疑问？ [尝试在 Power BI 社区中提问](https://community.powerbi.com/)
+- 是否有任何问题? [尝试咨询 Power BI 社区](https://community.powerbi.com/)
 - 建议？ [提出改进 Power BI 的想法](https://ideas.powerbi.com)

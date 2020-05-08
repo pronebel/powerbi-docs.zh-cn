@@ -9,10 +9,10 @@ ms.assetid: 87ddb651-a1d0-4a42-8ea9-04dea3f6afa4
 author: maggiesMSFT
 ms.author: maggies
 ms.openlocfilehash: 48e81c91a4555b4c8ea847ddffb1413058bbb152
-ms.sourcegitcommit: ced8c9d6c365cab6f63fbe8367fb33e6d827cb97
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/07/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "78921139"
 ---
 # <a name="expression-examples-in-power-bi-report-builder"></a>Power BI 报表生成器中的表达式示例
@@ -37,7 +37,7 @@ Power BI Report Builder 分页报表中经常使用表达式来控制内容和�
 ## <a name="functions"></a>函数  
  报表中的许多表达式都包含函数。 可使用这些函数设置数据格式化、应用逻辑和访问报表元数据。 可以编写使用 Microsoft Visual Basic 运行时库以及 `xref:System.Convert` 和 `xref:System.Math` 命名空间中的函数的表达式。 你可以在自定义代码中添加对函数的引用。 还可以使用 Microsoft .NET Framework 中的类，包括 `xref:System.Text.RegularExpressions`。  
   
-##  <a name="VisualBasicFunctions"></a> Visual Basic 函数  
+##  <a name="visual-basic-functions"></a><a name="VisualBasicFunctions"></a> Visual Basic 函数  
  可以使用 Visual Basic 函数来操作文本框中显示的数据或用于参数、属性或报表其他区域的数据。 本部分提供的示例展示其中一些功能。 有关详细信息，请参阅 MSDN 上的 [Visual Basic 运行时库成员](https://go.microsoft.com/fwlink/?LinkId=198941)。  
   
  .NET Framework 提供许多自定义格式选项，例如，特定日期格式。 有关详细信息，请参阅[格式设置类型](/dotnet/standard/base-types/formatting-types)。  
@@ -56,7 +56,7 @@ Power BI Report Builder 分页报表中经常使用表达式来控制内容和�
     = Round(1.3*5)/5  
     ```  
   
-###  <a name="DateFunctions"></a> 日期函数  
+###  <a name="date-functions"></a><a name="DateFunctions"></a> 日期函数  
   
 -   “Today”函数提供当前日期  。 此表达式可在文本框中使用，用于显示报表上的日期，或在参数中使用，用于根据当前日期筛选数据。  
   
@@ -89,7 +89,7 @@ Power BI Report Builder 分页报表中经常使用表达式来控制内容和�
     =DateAdd(DateInterval.Month, 6, Parameters!StartDate.Value)  
     ```  
   
--   “Year”函数显示特定日期的年份  。 可以使用此选项将日期组合在一起，或将年份显示为一组日期的标签。 此表达式提供一组给定的销售订单日期的年份。 也可用“Month”函数和其他功能来操作日期  。 有关详细信息，请参阅 Visual Basic 文档。  
+-   “Year”函数显示特定日期的年份  。 可以使用此选项将日期组合在一起，或将年份显示为一组日期的标签。 此表达式可以提供一组给定的销售订单日期的年份。 也可用“Month”函数和其他功能来操作日期  。 有关详细信息，请参阅 Visual Basic 文档。  
   
     ```  
     =Year(Fields!OrderDate.Value)  
@@ -161,9 +161,9 @@ Power BI Report Builder 分页报表中经常使用表达式来控制内容和�
 |一年前|`=DateSerial(Year(Parameters!TodaysDate.Value)-1,Month(Parameters!TodaysDate.Value),Day(Parameters!TodaysDate.Value))`|  
 |两年前|`=DateSerial(Year(Parameters!TodaysDate.Value)-2,Month(Parameters!TodaysDate.Value),Day(Parameters!TodaysDate.Value))`|  
   
-###  <a name="StringFunctions"></a> 字符串函数  
+###  <a name="string-functions"></a><a name="StringFunctions"></a> 字符串函数  
   
--   通过使用连接运算符和 Visual Basic 常量组合多个字段。 以下表达式返回两个字段，每个字段位于同一文本框中的单独行上：  
+-   通过使用连接运算符和 Visual Basic 常量组合多个字段。 以下表达式返回两个字段，它们分别位于同一文本框的不同行中：  
   
     ```  
     =Fields!FirstName.Value & vbCrLf & Fields!LastName.Value   
@@ -177,7 +177,7 @@ Power BI Report Builder 分页报表中经常使用表达式来控制内容和�
   
      如果文本框仅包含日期或数字，则应使用文本框的“Format”属性来应用格式而不是在文本框中使用“Format”函数  。  
   
--   “Right”、“Len”和“InStr”函数可用于返回子字符串，例如，将 DOMAIN\\username 剪裁为仅用户名称      。 以下表达式将字符串的一部分返回到名为 User 的参数的反斜杠 (\\) 字符的右侧  ：  
+-   “Right”、“Len”和“InStr”函数可用于返回子字符串，例如，将 DOMAIN**username 剪裁为仅用户名称**    \\  。 以下表达式将字符串的一部分返回到名为 User 的参数的反斜杠 (\\) 字符的右侧  ：  
   
     ```  
     =Right(Parameters!User.Value, Len(Parameters!User.Value) - InStr(Parameters!User.Value, "\"))  
@@ -189,20 +189,20 @@ Power BI Report Builder 分页报表中经常使用表达式来控制内容和�
     =Parameters!User.Value.Substring(Parameters!User.Value.IndexOf("\")+1, Parameters!User.Value.Length-Parameters!User.Value.IndexOf("\")-1)  
     ```  
   
--   显示多值参数中的选定值。 以下示例使用“Join”函数将参数 MySelection 的选定值连接成一个字符串，该字符串可以设置为报表项中文本框值的表达式   ：  
+-   显示多值参数的所选值。 以下示例使用“Join”函数将参数 MySelection 的选定值连接成一个字符串，该字符串可以设置为报表项中文本框值的表达式   ：  
   
     ```  
     = Join(Parameters!MySelection.Value)  
     ```  
   
-     以下示例与上述示例的作用相同，并会在所选值列表之前显示文本字符串。  
+     以下示例的作用与上面的示例相同，另外在所选值列表之前显示文本字符串。  
   
     ```  
     ="Report for " & JOIN(Parameters!MySelection.Value, " & ")  
   
     ```  
   
--   .NET Framework `xref:System.Text.RegularExpressions` 中的“Regex”函数可用于更改现有字符串的格式，例如，设置电话号码的格式  。 以下表达式使用“Replace”函数将字段中 10 位电话号码的格式从“nnn-nnn-nnnn”更改为“(nnn)nnn-nnnn”        ：  
+-   .NET Framework  **中的“Regex”函数可用于更改现有字符串的格式，例如，设置电话号码的格式**`xref:System.Text.RegularExpressions`。 以下表达式使用“Replace”函数将字段中 10 位电话号码的格式从“nnn**nnn**nnnn”更改为“(nnn)nnn*nnnn”* -  -    -  ：  
   
     ```  
     =System.Text.RegularExpressions.Regex.Replace(Fields!Phone.Value, "(\d{3})[ -.]*(\d{3})[ -.]*(\d{4})", "($1) $2-$3")  
@@ -227,7 +227,7 @@ Power BI Report Builder 分页报表中经常使用表达式来控制内容和�
     =Join(LookupSet(Fields!ContactID.Value, Fields!PersonID.Value, Fields!PhoneNumber.Value, "PhoneList"),",")  
     ```  
   
-###  <a name="ConversionFunctions"></a> 转换函数  
+###  <a name="conversion-functions"></a><a name="ConversionFunctions"></a> 转换函数  
  可以使用 Visual Basic 函数将字段从一种数据类型转换为另一种数据类型。 转换函数可用于将字段的默认数据类型转换为计算或组合文本所需的数据类型。  
   
 -   以下表达式将常量 500 转换为十进制类型，以便将其与某个筛选表达式的“值”字段中的 Transact-SQL money 数据类型进行比较。  
@@ -242,15 +242,15 @@ Power BI Report Builder 分页报表中经常使用表达式来控制内容和�
     =CStr(Parameters!MySelection.Count)  
     ```  
   
-###  <a name="DecisionFunctions"></a> 决策函数  
+###  <a name="decision-functions"></a><a name="DecisionFunctions"></a> 决策函数  
   
--   “Iif”函数根据表达式是否为 true，返回两个值中的一个  。 如果 `LineTotal` 的值超过 100，则以下表达式使用“Iif”函数返回布尔值“True”   。 否则它将返回“False”  ：  
+-   “Iif”函数根据表达式是否为 true，返回两个值中的一个  。 如果  **的值超过 100，则以下表达式使用“Iif”函数返回布尔值“True”**  `LineTotal`。 否则它将返回“False”  ：  
   
     ```  
     =IIF(Fields!LineTotal.Value > 100, True, False)  
     ```  
   
--   使用多个“IIF”函数（也称为“嵌套 IIF”）根据 `PctComplete` 的值返回三个值中的一个  。 可以将以下表达式放置在文本框的填充颜色中，用于根据文本框中的值更改背景颜色。  
+-   使用多个“IIF”函数（也称为“嵌套 IIF”）根据  **的值返回三个值中的一个**`PctComplete`。 可以将以下表达式放置在文本框的填充颜色中，用于根据文本框中的值更改背景颜色。  
   
     ```  
     =IIF(Fields!PctComplete.Value >= 10, "Green", IIF(Fields!PctComplete.Value >= 1, "Blue", "Red"))  
@@ -264,7 +264,7 @@ Power BI Report Builder 分页报表中经常使用表达式来控制内容和�
     =Switch(Fields!PctComplete.Value >= 10, "Green", Fields!PctComplete.Value >= 1, "Blue", Fields!PctComplete.Value = 1, "Yellow", Fields!PctComplete.Value <= 0, "Red")  
     ```  
   
-     大于或等于 10 的值显示绿色背景，1 到 9 显示蓝色背景，等于 1 显示黄色背景，0 或更小显示红色背景。  
+     值大于或等于 10 时，显示绿色背景；介于 1 和 9 之间时，显示蓝色背景；等于 1 时显示黄色背景；小于或等于 0 时，显示红色背景。  
   
 -   测试 `ImportantDate` 字段的值，如果超过一周，则返回“红色”，否则返回“蓝色”。 此表达式可用于控制报表项中文本框的 Color 属性：  
   
@@ -297,10 +297,10 @@ Power BI Report Builder 分页报表中经常使用表达式来控制内容和�
   
     ```  
   
-##  <a name="ReportFunctions"></a> 报表函数  
+##  <a name="report-functions"></a><a name="ReportFunctions"></a> 报表函数  
  在表达式中，可以添加对可操作报表中数据的其他报表函数的引用。 本节提供了其中两个函数的示例。 
   
-###  <a name="Sum"></a> Sum  
+###  <a name="sum"></a><a name="Sum"></a> Sum  
   
 -   “Sum”函数可以对组或数据区域中的值进行求和  。 此功能可用于组的页眉或页脚中。 以下表达式显示 Order 组或数据区域中的数据的总和：  
   
@@ -314,7 +314,7 @@ Power BI Report Builder 分页报表中经常使用表达式来控制内容和�
     =Sum(IIF(Fields!State.Value = "Finished", 1, 0))  
     ```  
   
-###  <a name="RowNumber"></a> RowNumber  
+###  <a name="rownumber"></a><a name="RowNumber"></a> RowNumber  
   
 -   在数据区域的文本框中使用“RowNumber”函数时，会显示表达式所在的文本框的每个实例的行号  。 此函数可用于对表中的行进行编号。 它还可用于更复杂的任务，例如根据行数提供分页符。 有关详细信息，请参阅本主题中的[分页符](#PageBreaks)。  
   
@@ -324,10 +324,10 @@ Power BI Report Builder 分页报表中经常使用表达式来控制内容和�
     =RowNumber(Nothing)  
     ```  
   
-##  <a name="AppearanceofReportData"></a> 报表数据的外观  
+##  <a name="appearance-of-report-data"></a><a name="AppearanceofReportData"></a> 报表数据的外观  
  可以使用表达式来控制数据在报表上的显示方式。 例如，可以在单个文本框中显示两个字段的值、显示有关报表的信息或影响在报表中插入分页符的方式。  
   
-###  <a name="PageHeadersandFooters"></a> 页眉和页脚  
+###  <a name="page-headers-and-footers"></a><a name="PageHeadersandFooters"></a> 页眉和页脚  
  设计报表时，可能会想在报表页脚中显示报表名称和页码。 可以使用以下表达式来实现此目的：  
   
 -   以下表达式提供报表的名称及其运行时间。 可将其放在报表页脚的文本框中，也可以放在报表正文中。 使用用于短日期的 .NET Framework 格式字符串来格式化时间：  
@@ -367,7 +367,7 @@ Power BI Report Builder 分页报表中经常使用表达式来控制内容和�
 > [!NOTE]  
 >  页眉或页脚中的每个表达式只能引用一个报表项。 此外，还可以在页眉和页脚表达式中引用文本框名称，但不能引用文本框中的实际数据表达式。  
   
-###  <a name="PageBreaks"></a> 分页符  
+###  <a name="page-breaks"></a><a name="PageBreaks"></a> 分页符  
  在某些报表中，你可能想要在指定行数的末尾放置分页符，而不是在组或报表项上添加。 若要实现此目的，请创建一个包含所需组或详细信息记录的组，向该组添加分页符，然后按指定的行数向组添加组表达式。  
   
 -   以下表达式放置在组表达式中时，可为以 25 行为单位的每个组分配一个数字。 当为组定义分页符时，该表达式每 25 行产生一个分页符。  
@@ -382,10 +382,10 @@ Power BI Report Builder 分页报表中经常使用表达式来控制内容和�
     =Ceiling(RowNumber(Nothing)/Parameters!RowsPerPage.Value)  
     ```  
   
-##  <a name="Properties"></a> 属性  
+##  <a name="properties"></a><a name="Properties"></a> 属性  
  表达式不仅可用于在文本框中显示数据。 还可用于更改对报表项应用属性的方式。 可以更改报表项的样式信息，或更改其可见性。  
   
-###  <a name="Formatting"></a> 格式设置  
+###  <a name="formatting"></a><a name="Formatting"></a> 格式设置  
   
 -   在文本框的 Color 属性中使用以下表达式时，它会根据 `Profit` 字段的值更改文本的颜色：  
   
@@ -415,8 +415,8 @@ Power BI Report Builder 分页报表中经常使用表达式来控制内容和�
 ### <a name="chart-colors"></a>图表颜色  
  要指定形状图表的颜色，可以使用自定义代码来控制颜色映射到数据点值的顺序。 这有助于为具有相同类别组的多个图表使用一致的颜色。 
   
-###  <a name="Visibility"></a> 可见性  
- 可以使用报表项的可见性属性在报表中显示和隐藏项目。 在诸如表之类的数据区域中，可以在一开始根据表达式中的值隐藏详细信息行。  
+###  <a name="visibility"></a><a name="Visibility"></a> 可见性  
+ 您可以使用报表项的可见性属性来显示和隐藏报表中的项。 在诸如表之类的数据区域中，可以在一开始根据表达式中的值隐藏详细信息行。  
   
 -   以下表达式在用于组中详细信息行的初始可见性时，会在 `PctQuota` 字段中显示超过 90% 的总销售额的详细信息行：  
   
@@ -436,7 +436,7 @@ Power BI Report Builder 分页报表中经常使用表达式来控制内容和�
     =IIF(Fields!Column_1.IsMissing, true, false)  
     ```  
   
-###  <a name="Hyperlinks"></a> URLs  
+###  <a name="urls"></a><a name="Hyperlinks"></a> URLs  
  可以使用报表数据自定义 URL，还可以有条件地控制是否添加 URL，作为文本框的一个操作。  
   
 -   如果使用以下表达式来实现针对文本框的一个操作，该表达式会生成自定义 URL，该 URL 将数据集字段 `EmployeeID` 指定为 URL 参数。  
@@ -451,10 +451,10 @@ Power BI Report Builder 分页报表中经常使用表达式来控制内容和�
     =IIF(Parameters!IncludeURLs.Value,"https://adventure-works.com/productcatalog",Nothing)  
     ```  
   
-##  <a name="ReportData"></a> 报表数据  
+##  <a name="report-data"></a><a name="ReportData"></a> 报表数据  
  表达式可用于操作报表中使用的数据。 可以引用参数和其他报表信息。 甚至可以更改用于检索报表数据的查询。  
   
-###  <a name="Parameters"></a> 参数  
+###  <a name="parameters"></a><a name="Parameters"></a> 参数  
  可以在参数中使用表达式来更改参数的默认值。 例如，可以使用参数，基于运行报表时所使用的用户 ID，将数据筛选限定到特定用户。  
   
 -   以下表达式在用作参数的默认值时，会收集运行报表的人员的用户 ID：  
@@ -475,14 +475,14 @@ Power BI Report Builder 分页报表中经常使用表达式来控制内容和�
     =Fields(Parameters!ParameterField.Value).Value  
     ```  
   
-##  <a name="CustomCode"></a> 自定义代码  
+##  <a name="custom-code"></a><a name="CustomCode"></a> 自定义代码  
  可以使用报表中嵌入的自定义代码。 
   
 ### <a name="using-group-variables-for-custom-aggregation"></a>使用组变量实现自定义聚合  
  可以将限定到特定组范围的组变量的值进行初始化，然后在表达式中包含对该变量的引用。 将组变量与自定义代码一起使用的方法之一是实现自定义聚合。 
   
 ## <a name="suppressing-null-or-zero-values-at-run-time"></a>在运行时取消 null 或零值  
- 表达式中的某些值在报表处理时可能会计算为 null 或未定义。 这可能会产生运行时错误，导致在文本框中显示“#Error”而不是计算表达式  。 “IIF”函数对这种行为特别敏感，因为与 If-Then-Else 语句不同，“IIF”语句的每个部分会在传递到执行“true”或“false”测试的例程之前进行评估（包括函数调用）     。 如果 `Fields!Sales.Value` 为 NOTHING，则语句 `=IIF(Fields!Sales.Value is NOTHING, 0, Fields!Sales.Value)` 在呈现的报表中生成“#Error”  。  
+ 表达式中的某些值在报表处理时可能会计算为 null 或未定义。 这可能会产生运行时错误，导致在文本框中显示“#Error”而不是计算表达式  。 “IIF”函数对这种行为特别敏感，因为与 If-Then-Else 语句不同，“IIF”语句的每个部分会在传递到执行“true”或“false”测试的例程之前进行评估（包括函数调用）     。 如果 `=IIF(Fields!Sales.Value is NOTHING, 0, Fields!Sales.Value)` 为 NOTHING，则语句  **在呈现的报表中生成“#Error”** `Fields!Sales.Value`。  
   
  若要避免这种情况，请使用以下策略之一：  
   

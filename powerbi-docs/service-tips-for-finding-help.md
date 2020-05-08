@@ -10,10 +10,10 @@ ms.date: 06/28/2018
 ms.author: maggies
 LocalizationGroup: Get started
 ms.openlocfilehash: 10540ed49064b9e28543ce46b43d8bb2d9ca6cf7
-ms.sourcegitcommit: 57ec4d51744b89bd695e6c62184c21342f2eae83
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/19/2019
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "74178230"
 ---
 # <a name="10-tips-for-getting-help-with-your-power-bi-questions"></a>有关获取 Power BI 问题解答的 10 个提示
@@ -29,7 +29,7 @@ ms.locfileid: "74178230"
 Power BI 团队在不断更新和改进 Power BI 文档和培训内容。 可以在其中找到精彩内容，包括录制的在线讲座、白皮书、引导式学习以及涵盖所有最新功能的博文链接。
 
 ## <a name="3-read-the-power-bi-blog-for-the-latest-news"></a>提示 3：阅读 Power BI 博客，了解最新资讯
-Power BI 团队在其 [Power BI 博客文章](https://powerbi.microsoft.com/blog/)中定期介绍所有新增功能。 可以了解一切最新资讯，从 Power BI Desktop 到 Power BI 移动应用，无所不包。 请习惯性地经常返回查看新增内容：每周花几分钟时间浏览博客。 说不定你就会从数月前看到的一点信息中获益。
+Power BI 团队在其 [Power BI 博客文章](https://powerbi.microsoft.com/blog/)中定期介绍所有新增功能。 可以了解一切最新资讯，从 Power BI Desktop 到 Power BI 移动应用，无所不包。 请养成经常回来看看博文的习惯，了解最新资讯：每周花几分钟的时间来浏览博客。 说不定你就会从数月前看到的一点信息中获益。
 
 ## <a name="4-try-twitter"></a>提示 4：尝试 Twitter
 很多 Power BI 客户和专家都在使用 Twitter。 通过推文提问。 添加井号标签 #powerbi 和 #powerbihelp，以便了解情况的人可以看到你的推文。

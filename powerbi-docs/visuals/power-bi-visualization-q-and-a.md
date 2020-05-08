@@ -8,10 +8,10 @@ ms.topic: conceptual
 ms.date: 11/19/2019
 ms.author: mohaali
 ms.openlocfilehash: a17f98859e637621fbae037610359c8f29391a98
-ms.sourcegitcommit: 8e3d53cf971853c32eff4531d2d3cdb725a199af
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/04/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "75762269"
 ---
 # <a name="introduction-to-power-bi-qa-visualizations"></a>Power BI Q&A 可视化效果简介
@@ -35,17 +35,17 @@ Q&A 视觉对象由四个核心部分组成；
 - 将 Q&A 视觉对象转换为标准视觉对象的图标。 
 - 用于打开 Q&A 工具的图标，使设计人员能够配置基本的自然语言引擎。
 
-## <a name="prerequisites"></a>先决条件
+## <a name="prerequisites"></a>必备组件
 
 1. 本教程使用“[销售和市场营销示例 PBIX 文件](https://download.microsoft.com/download/9/7/6/9767913A-29DB-40CF-8944-9AC2BC940C53/Sales%20and%20Marketing%20Sample%20PBIX.pbix)”。 
 
-1. 在 Power BI Desktop 菜单栏的左上部分，选择“文件” > “打开”  
+1. 在 Power BI Desktop 菜单栏的左上部分，选择“文件” **“打开”**  >  
    
 2. 查找“销售和市场营销示例 PBIX 文件”的副本 
 
 1. 在报表视图中打开文件 ![报表视图图标的屏幕截图。](media/power-bi-visualization-kpi/power-bi-report-view.png)。
 
-1. 选择 ![黄色选项卡的屏幕截图。](media/power-bi-visualization-kpi/power-bi-yellow-tab.png) ，以添加新报表页。
+1. Select ![黄色选项卡的屏幕截图。](media/power-bi-visualization-kpi/power-bi-yellow-tab.png) ，以添加新报表页。
 
 
 如果在创建 Q&A 视觉对象时看到错误，请确保查看[限制](../natural-language/q-and-a-limitations.md)部分以查看是否支持数据源配置。
@@ -87,7 +87,7 @@ Q&A 视觉对象由四个核心部分组成；
 
 5. 在 Power BI 的帮助下，我们能够提出所有可识别术语的问题。 Power BI 将结果显示为折线图。 
 
-    ![Q&A 视觉对象结果](media/power-bi-visualization-q-and-a/power-bi-type.png)
+    ![问答视觉对象结果](media/power-bi-visualization-q-and-a/power-bi-type.png)
 
 
 6. 让我们将视觉对象更改为柱形图。 
@@ -110,7 +110,7 @@ Q&A 视觉对象由四个核心部分组成；
 
     
     
-2. 在此示例中，我们选择了“更多主题” > “色盲安全”   。
+2. 在此示例中，我们选择了“更多主题” **“色盲安全”**  >   。
 
     ![应用了“色盲主题”的 Q&A 视觉对象](media/power-bi-visualization-q-and-a/power-bi-color-blind.png)
 
@@ -151,4 +151,4 @@ Q&A 视觉对象与 Office 和 Bing 集成在一起，以尝试将无法识别�
 可以通过多种方式集成自然语言。 有关详细信息，请参阅以下文章：
 
 * [Q&A 工具](../natural-language/q-and-a-tooling-intro.md)
-* [Q&A 最佳做法](../natural-language/q-and-a-best-practices.md)
+* [问答最佳做法](../natural-language/q-and-a-best-practices.md)

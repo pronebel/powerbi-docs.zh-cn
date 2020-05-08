@@ -10,10 +10,10 @@ ms.service: power-bi-embedded
 ms.topic: conceptual
 ms.date: 09/28/2017
 ms.openlocfilehash: 07c9c12366b100936e03fe07358ee180e026dfc5
-ms.sourcegitcommit: 2c798b97fdb02b4bf4e74cf05442a4b01dc5cbab
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/21/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "80114741"
 ---
 # <a name="pause-and-start-your-power-bi-embedded-capacity-in-the-azure-portal"></a>在 Azure 门户中暂停和启动 Power BI Embedded 容量
@@ -31,7 +31,7 @@ ms.locfileid: "80114741"
 
 1. 登录到 [Azure 门户](https://portal.azure.com/)。
 
-2. 选择“所有服务” > “Power BI Embedded”以查看容量   。
+2. 选择“所有服务” **“Power BI Embedded”以查看容量** >   。
 
     ![Azure 门户中的所有服务](media/azure-pbie-pause-start/azure-portal-more-services.png)
 
@@ -53,7 +53,7 @@ ms.locfileid: "80114741"
 
 1. 登录到 [Azure 门户](https://portal.azure.com/)。
 
-2. 选择“所有服务” > “Power BI Embedded”以查看容量   。
+2. 选择“所有服务” **“Power BI Embedded”以查看容量** >   。
 
     ![Azure 门户中的所有服务](media/azure-pbie-pause-start/azure-portal-more-services.png)
 

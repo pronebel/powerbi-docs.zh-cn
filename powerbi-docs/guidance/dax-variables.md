@@ -9,10 +9,10 @@ ms.topic: conceptual
 ms.date: 11/23/2019
 ms.author: v-pemyer
 ms.openlocfilehash: f352cbbd7c42aa54ae876e73c0ed821eccda59c8
-ms.sourcegitcommit: 8e3d53cf971853c32eff4531d2d3cdb725a199af
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/04/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "74700699"
 ---
 # <a name="dax-use-variables-to-improve-your-formulas"></a>DAX：使用变量改进公式
@@ -26,7 +26,7 @@ ms.locfileid: "74700699"
 - [简化调试](#simplify-debugging)
 - [降低复杂性](#reduce-complexity)
 
-在本文中，我们将通过使用同比 (YoY) 销售增长的示例度量值来演示前三个优势。 （YoY 销售增长公式为：现年销售额减去去年同期销售额，再除以去年同期销售额。）
+在本文中，我们将通过使用同比 (YoY) 销售增长的示例度量值来演示前三个优势。 （YoY 销售增长公式为：现年销售额减去去年同期销售额，再除以去年同期销售额。  ）
 
 让我们从下面的度量值定义开始。
 
@@ -44,7 +44,7 @@ DIVIDE(
 
 请注意，该公式重复了计算“去年同期”的表达式。 此公式效率很低，因为它要求 Power BI 计算两次相同的表达式。 使用变量可以更高效地进行度量定义。
 
-下面的度量值定义表示一项改进。 它使用表达式将“去年同期”结果分配给名为 SalesPriorYear 的变量。 然后，在 RETURN 表达式中使用该变量两次。
+下面的度量值定义表示一项改进。 它使用表达式将“去年同期”结果分配给名为 SalesPriorYear 的变量  。 然后，在 RETURN 表达式中使用该变量两次。
 
 ```dax
 Sales YoY Growth % =
@@ -64,7 +64,7 @@ RETURN
 
 变量还有助于调试公式。 要测试分配给变量的表达式，可以临时重写 RETURN 表达式以输出变量。
 
-以下度量值定义仅返回 SalesPriorYear 变量。 请注意它注释掉预期 RETURN 表达式的方式。 通过此方法，可以在调试完成后轻松将其还原。
+以下度量值定义仅返回 SalesPriorYear 变量  。 请注意它注释掉预期 RETURN 表达式的方式。 通过此方法，可以在调试完成后轻松将其还原。
 
 ```dax
 Sales YoY Growth % =
@@ -81,7 +81,7 @@ RETURN
 
 变量始终在应用 RETURN 表达式的筛选器之外进行计算。 出于此原因，在修改后的筛选器上下文中使用变量时，实现的结果与 EARLIEST 函数相同。 因此，可以避免使用 EARLIER 或 EARLIEST 函数。 这意味着你现在可以编写较简单且更易于理解的公式。
 
-请考虑以下添加到 Subcategory 表中的计算列定义。 它基于 Subcategory Sales 列值评估每个产品子类别的排名。
+请考虑以下添加到 Subcategory 表中的计算列定义  。 它基于 Subcategory Sales 列值评估每个产品子类别的排名  。
 
 ```dax
 Subcategory Sales Rank =
@@ -93,9 +93,9 @@ COUNTROWS(
 ) + 1
 ```
 
-EARLIER 函数用于引用当前行上下文中的 Subcategory Sales 列值。
+EARLIER 函数用于引用当前行上下文中的 Subcategory Sales 列值   。
 
-可以通过使用变量而不是 EARLIER 函数来改进计算的列定义。 CurrentSubcategorySales 变量将 Subcategory Sales 列值存储在当前行上下文中，并且 RETURN 表达式在修改的筛选器上下文中使用它。
+可以通过使用变量而不是 EARLIER 函数来改进计算的列定义。 CurrentSubcategorySales 变量将 Subcategory Sales 列值存储在当前行上下文中，并且 RETURN 表达式在修改的筛选器上下文中使用它    。
 
 ```dax
 Subcategory Sales Rank =

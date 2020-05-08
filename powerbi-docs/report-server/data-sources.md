@@ -9,10 +9,10 @@ ms.topic: conceptual
 ms.date: 04/08/2020
 ms.author: maggies
 ms.openlocfilehash: 166f72a717c99457e1d6b8e9a1f30535a9b4686f
-ms.sourcegitcommit: e7fda395b47e404c61e961a60816b7a1b0182759
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/08/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "80979836"
 ---
 # <a name="power-bi-report-data-sources-in-power-bi-report-server"></a>Power BI 报表服务器中 Power BI 报表数据源
@@ -43,9 +43,9 @@ Power BI 报表可以连接到多个数据源。 根据数据使用方式，可�
 | Azure HDInsight (HDFS) |是 |否 |否 |
 | Azure HDInsight (Spark) |是 |否 |否 |
 | Azure 表存储 |是 |是 |否 |
-| Dynamics 365 (联机) |是 |否 |否 |
+| Dynamics 365(在线) |是 |否 |否 |
 | Facebook |是 |否 |否 |
-| 文件夹 |是 |是 |否 |
+| Folder |是 |是 |否 |
 | Google Analytics |是 |否 |否 |
 | Hadoop 文件 (HDFS) |是 |否 |否 |
 | IBM DB2 数据库 |是 |是 |否 |
@@ -54,10 +54,10 @@ Power BI 报表可以连接到多个数据源。 根据数据使用方式，可�
 | Microsoft Exchange |是 |否 |否 |
 | Microsoft Exchange Online |是 |否 |否 |
 | MySQL 数据库 |是 |是 |否 |
-| OData 数据源 |是 |是 |否 |
+| OData 源 |是 |是 |否 |
 | ODBC |是 |是 |否 |
 | OLE DB |是 |是 |否 |
-| Oracle 数据库 |是 |是 |是 |
+| Oracle Database |是 |是 |是 |
 | PostgreSQL 数据库 |是 |是 |否 |
 | Power BI 服务 |否 |否 |否 |
 | R 脚本 |是 |否 |否 |
@@ -66,7 +66,7 @@ Power BI 报表可以连接到多个数据源。 根据数据使用方式，可�
 | SAP Business Warehouse 服务器 |是 |是 |是 |
 | SAP HANA 数据库 |是 |是 |是 |
 | SharePoint 文件夹（本地） |是 |是 |否 |
-| SharePoint 列表(本地) |是 |是 |否 |
+| SharePoint 列表（本地） |是 |是 |否 |
 | SharePoint Online 列表 |是 |否 |否 |
 | Snowflake |是 |否 |否 |
 | Sybase 数据库 |是 |是 |否 |
@@ -88,13 +88,13 @@ Power BI 报表可以连接到多个数据源。 根据数据使用方式，可�
 | IBM Netezza (Beta) |是 |否 |否 |
 | Kusto (Beta) |是 |否 |否 |
 | MailChimp (Beta) |是 |否 |否 |
-| Microsoft Azure 使用见解(Beta) |是 |否 |否 |
+| Microsoft Azure 使用情况见解 (Beta) |是 |否 |否 |
 | Mixpanel (Beta) |是 |否 |否 |
 | Planview Enterprise (Beta) |是 |否 |否 |
 | Projectplace (Beta) |是 |否 |否 |
 | QuickBooks Online (Beta) |是 |否 |否 |
 | Smartsheet |是 |否 |否 |
-| Spark (Beta 版本) |是 |否 |否 |
+| Spark（Beta 版本） |是 |否 |否 |
 | SparkPost (Beta) |是 |否 |否 |
 | SQL Sentry (Beta) |是 |否 |否 |
 | Stripe (Beta) |是 |否 |否 |
@@ -130,9 +130,9 @@ Power BI 报表服务器不支持将基于 OAuth 的身份验证用于模型刷�
 | Azure HDInsight (HDFS) |否 |否 |否 |否 |
 | Azure HDInsight (Spark) |否 |否 |否 |否 |
 | Azure 表存储 |否 |是 |否 |否 |
-| Dynamics 365 (联机) |否 |否 |否 |否 |
+| Dynamics 365(在线) |否 |否 |否 |否 |
 | Facebook |否 |否 |否 |否 |
-| 文件夹 |否 |否 |否 |是 |
+| Folder |否 |否 |否 |是 |
 | Google Analytics |否 |否 |否 |否 |
 | Hadoop 文件 (HDFS) |否 |否 |否 |否 |
 | IBM DB2 数据库 |否 |否 |是 |是 |
@@ -140,10 +140,10 @@ Power BI 报表服务器不支持将基于 OAuth 的身份验证用于模型刷�
 | Microsoft Exchange |否 |否 |否 |否 |
 | Microsoft Exchange Online |否 |否 |否 |否 |
 | MySQL 数据库 |否 |否 |是 |是 |
-| OData 数据源 |是 |是 |是 |是 |
+| OData 源 |是 |是 |是 |是 |
 | ODBC |是 |否 |是 |是 |
 | OLE DB |是 |否 |是 |是 |
-| Oracle 数据库 |否 |否 |是 |是 |
+| Oracle Database |否 |否 |是 |是 |
 | PostgreSQL 数据库 |否 |否 |是 |否 |
 | Power BI 服务 |否 |否 |否 |否 |
 | R 脚本 |否 |否 |否 |否 |
@@ -152,7 +152,7 @@ Power BI 报表服务器不支持将基于 OAuth 的身份验证用于模型刷�
 | SAP Business Warehouse 服务器 |否 |否 |是 |否 |
 | SAP HANA 数据库 |否 |否 |是 |是 |
 | SharePoint 文件夹（本地） |是 |否 |否 |是 |
-| SharePoint 列表(本地) |是 |否 |否 |是 |
+| SharePoint 列表（本地） |是 |否 |否 |是 |
 | SharePoint Online 列表 |否 |否 |否 |否 |
 | Snowflake |否 |否 |否 |否 |
 | Sybase 数据库 |否 |否 |是 |是 |
@@ -171,13 +171,13 @@ Power BI 报表服务器不支持将基于 OAuth 的身份验证用于模型刷�
 | IBM Netezza (Beta) |否 |否 |否 |否 |
 | Kusto (Beta) |否 |否 |否 |否 |
 | MailChimp (Beta) |否 |否 |否 |否 |
-| Microsoft Azure 使用见解(Beta) |否 |否 |否 |否 |
+| Microsoft Azure 使用情况见解 (Beta) |否 |否 |否 |否 |
 | Mixpanel (Beta) |否 |否 |否 |否 |
 | Planview Enterprise (Beta) |否 |否 |否 |否 |
 | Projectplace (Beta) |否 |否 |否 |否 |
 | QuickBooks Online (Beta) |否 |否 |否 |否 |
 | Smartsheet |否 |否 |否 |否 |
-| Spark (Beta 版本) |否 |否 |否 |否 |
+| Spark（Beta 版本） |否 |否 |否 |否 |
 | SparkPost (Beta) |否 |否 |否 |否 |
 | SQL Sentry (Beta) |否 |否 |否 |否 |
 | Stripe (Beta) |否 |否 |否 |否 |
@@ -202,7 +202,7 @@ Power BI 报表服务器不支持将基于 OAuth 的身份验证用于 DirectQue
 | SQL Server Analysis Services |否 |否 |是 |是 |是 |
 | Azure SQL 数据库 |否 |否 |是 |否 |否 |
 | Azure SQL 数据仓库 |否 |否 |是 |否 |否 |
-| Oracle 数据库 |否 |否 |是 |是 |是 |
+| Oracle Database |否 |否 |是 |是 |是 |
 | SAP Business Warehouse 服务器 |否 |否 |是 |否 |否 |
 | SAP HANA 数据库 |否 |否 |是 |是 |是** |
 | Teradata |否 |否 |是 |是 |是 |

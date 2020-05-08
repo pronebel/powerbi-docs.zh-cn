@@ -7,13 +7,13 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: conceptual
-ms.date: 01/03/2020
-ms.openlocfilehash: 0207cbdbc3fae8636f8fd73a008d54ee7d10c5f9
-ms.sourcegitcommit: ced8c9d6c365cab6f63fbe8367fb33e6d827cb97
+ms.date: 05/04/2020
+ms.openlocfilehash: 3e7e1590adbf953db4232ddffa5f26778e5670c2
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/07/2020
-ms.locfileid: "78921599"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "82781607"
 ---
 # <a name="publish-a-paginated-report-to-the-power-bi-service"></a>将分页报表发布到 Power BI 服务
 
@@ -107,9 +107,6 @@ ms.locfileid: "78921599"
 
 1. 请参阅 Power BI 服务文章[本地数据网关是什么](../service-gateway-onprem.md)，了解详细信息和后续步骤。
 
-### <a name="gateway-limitations"></a>网关限制
-
-当前网关不支持多值参数。
 
 
 ## <a name="next-steps"></a>后续步骤

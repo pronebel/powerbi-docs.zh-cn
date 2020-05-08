@@ -30,7 +30,7 @@
               href: service-admin-migrate-data-germany.md
             - name: 针对德国云客户的常见问题解答
               href: ../service-govde-faq.md
-        - name: 常见问题解答 (FAQ)
+        - name: 常见问题 (FAQ)
           href: ../service-admin-faq.md
         - name: 高可用性和故障转移的常见问题解答
           href: ../service-admin-failover.md
@@ -44,7 +44,7 @@
               href: ../service-premium-capacity-scenarios.md
             - name: Power BI Premium 常见问题解答
               href: ../service-premium-faq.md
-    - name: 操作方法
+    - name: 如何
       items:
         - name: 授权和注册
           items:
@@ -84,7 +84,7 @@
               href: service-security-using-microsoft-cloud-app-security-controls.md
             - name: 数据保护指标报表
               href: service-security-data-protection-metrics-report.md
-        - name: 行级别安全性
+        - name: 行级安全性
           href: ../service-admin-rls.md
         - name: 设置数据集和数据流认证
           href: service-admin-setup-certification.md
@@ -131,7 +131,7 @@
           href: ../service-admin-power-bi-security.md
         - name: 隐私级别
           href: ../desktop-privacy-levels.md
-    - name: 疑难解答
+    - name: 故障排除
       items:
         - name: 无法登录？
           href: ../power-bi-cannot-sign-in.md
@@ -147,5 +147,3 @@
           href: ../service-admin-alternate-email-address-for-power-bi.md
         - name: 如何将相同的帐户登录名用于 Power BI 和 Azure
           href: ../service-admin-how-to-use-the-same-account-as-azure.md
-        - name: Office 365 专用 - 已知问题
-          href: ../service-admin-office-365-dedicated-known-issues.md

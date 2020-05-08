@@ -10,10 +10,10 @@ ms.date: 06/18/2018
 ms.author: otarb
 LocalizationGroup: Connect to data
 ms.openlocfilehash: 82a03731ffea49f7e41fc8582155fe09734d475b
-ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/09/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "75760833"
 ---
 # <a name="use-python-in-query-editor"></a>在查询编辑器中使用 Python
@@ -76,7 +76,7 @@ ms.locfileid: "75760833"
 创建好该视觉对象，以及需要使用 Power BI Desktop  创建的任何其他视觉对象之后，可保存 Power BI Desktop  文件（保存为 .pbix 文件），然后在 Power BI 服务中使用数据模型（及其内附的 Python 脚本）。
 
 > [!NOTE]
-> 想要查看完成了这些步骤的完整 .pbix 文件吗？ 真幸运 - 你可以在[此处](https://download.microsoft.com/download/A/B/C/ABCF5589-B88F-49D4-ADEB-4A623589FC09/Complete%20Values%20with%20Python%20in%20PQ.pbix)下载示例中使用的完整 **Power BI Desktop** 文件。
+> 想要查看完成了这些步骤的完整 .pbix 文件吗？ 真幸运 - 你可以在**此处**下载示例中使用的完整 [Power BI Desktop](https://download.microsoft.com/download/A/B/C/ABCF5589-B88F-49D4-ADEB-4A623589FC09/Complete%20Values%20with%20Python%20in%20PQ.pbix) 文件。
 
 将 .pbix 文件上传到 Power BI 服务后，还需要几个步骤来启用数据刷新（在服务中），以及启用服务中待更新的视觉对象（为了更新视觉对象，数据需要访问 Python）。 其它步骤如下所示：
 

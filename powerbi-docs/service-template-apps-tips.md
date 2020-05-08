@@ -1,19 +1,19 @@
 ---
 title: 在 Power BI 中创作模板应用的提示
 description: 有关创建查询、数据模型、报表和仪表板以制作优秀模板应用的提示
-author: teddybercovitz
+author: paulinbar
 ms.reviewer: ''
 ms.service: powerbi
-ms.subservice: powerbi-service
+ms.subservice: powerbi-template-apps
 ms.topic: conceptual
-ms.date: 03/24/2020
-ms.author: tebercov
-ms.openlocfilehash: 12ba04381c5227c897f4b1f13def4c52999bc1a5
-ms.sourcegitcommit: 01bcbc8f0280aec875b22542a9c193c80899dc10
+ms.date: 05/04/2020
+ms.author: painbar
+ms.openlocfilehash: 266e44b5e5ecff2f86bcd3d43ce91368cc57b9e1
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "82066273"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "82781285"
 ---
 # <a name="tips-for-authoring-template-apps-in-power-bi"></a>在 Power BI 中创作模板应用的提示
 
@@ -142,22 +142,8 @@ Power BI Desktop 中的[参数](https://powerbi.microsoft.com/blog/deep-dive-int
 * Power BI - 可供 Power BI 用户查看。
 
 若要将用户重定向到 Power BI 中的应用下载链接，请参阅以下代码示例：[GitHub 存储库](https://github.com/microsoft/Template-apps-examples/tree/master/src)。
+
 [![应用下载链接](media/service-template-apps-tips/service-template-apps-tips-download.png)](https://app.powerbi.com/groups/me/getapps/services/pbi-contentpacks.pbiapps-github)
-
-
-
-## <a name="known-limitations"></a>已知限制
-
-| 功能 | 已知限制 |
-|---------|---------|
-|目录：数据集   | 应存在一个完整的数据集。 仅支持在 Power BI Desktop（.pbix 文件）中构建的数据集。 <br>不支持：来自其他模板应用、跨工作区数据集、分页报表（.rdl 文件）、Excel 工作簿和增强数据集元数据的数据集 |
-|目录：仪表板 | 禁止使用实时磁贴（也就是说，不支持推送或流式处理数据集） |
-|目录：数据流 | 不支持：数据流 |
-|文件内容 | 仅支持 PBIX 文件。 <br>不支持：.rdl 文件（分页报表）、Excel 工作簿   |
-| 数据源 | 可支持云“计划数据”刷新的数据源。 <br>不支持： <li> DirectQuery</li><li>实时连接（无 Azure AS）</li> <li>本地数据源（不支持个人和企业网关）</li> <li>实时数据源（不支持推送数据集）</li> <li>复合模型</li></ul> |
-| 数据集：跨工作区 | 不支持跨工作区的数据集  |
-| 查询参数 | 不支持：用于数据集的“Any”或“Binary”类型块刷新操作的参数 |
-| Power BI 视觉对象 | 仅支持公开可用的 Power BI 视觉对象。 不支持[组织的 Power BI 视觉对象](developer/visuals/power-bi-custom-visuals-organization.md) |
 
 ## <a name="next-steps"></a>后续步骤
 

@@ -10,10 +10,10 @@ ms.date: 10/16/2018
 ms.author: maggies
 LocalizationGroup: Ask questions of your data
 ms.openlocfilehash: cf1d67318fc86b1044e38e6f4f5f56c9473c39a1
-ms.sourcegitcommit: 8e3d53cf971853c32eff4531d2d3cdb725a199af
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/04/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "74265489"
 ---
 # <a name="enable-qa-for-live-connections-in-power-bi"></a>为 Power BI 中的实时连接启用问答
@@ -37,13 +37,13 @@ ms.locfileid: "74265489"
 ## <a name="enable-qa"></a>启用问答
 设置数据网关后，请从 Power BI 连接数据。  使用本地数据创建仪表板，或使用本地数据上传 .pbix 文件。  可能已与你共享的仪表板、报表和数据集中已存在本地数据。
 
-1. 在 Power BI 的右上角，选择齿轮图标 ![齿轮图标](media/service-q-and-a-direct-query/power-bi-cog.png)，然后选择“设置”。
+1. 在 Power BI 的右上角，选择齿轮图标 ![齿轮图标](media/service-q-and-a-direct-query/power-bi-cog.png)，然后选择“设置”。 
    
    ![“设置”菜单](media/service-q-and-a-direct-query/powerbi-settings.png)
 2. 选择**数据集**，然后选择要为其启用问答的数据集。
    
    ![“设置”菜单的“数据集”屏幕](media/service-q-and-a-direct-query/power-bi-q-and-a-settings.png)
-3. 展开“问答”，选择“启用此数据集的问答”复选框，然后选择“应用”。
+3. 展开“问答”，选择“启用此数据集的问答”复选框，然后选择“应用”    。
    
     ![展开的问答区域](media/service-q-and-a-direct-query/power-bi-qna-dataset-direct-query.png)
 

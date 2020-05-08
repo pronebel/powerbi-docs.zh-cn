@@ -10,10 +10,10 @@ ms.date: 02/18/2020
 ms.author: mihart
 LocalizationGroup: Get started
 ms.openlocfilehash: 81581b861f731ac287cc18f4ab1fdf77ab7a4e7c
-ms.sourcegitcommit: 87b7cb4a2e626711b98387edaa5ff72dc26262bb
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/10/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "79040104"
 ---
 # <a name="your-content-is-up-to-date"></a>内容为最新内容
@@ -55,7 +55,7 @@ ms.locfileid: "79040104"
     ![2 个应用，其中一个已选中](media/end-user-fresh/power-bi-app.png)
 
 
-### <a name="shared-with-me"></a>与我共享的内容
+### <a name="shared-with-me"></a>与我共享
 “与我共享”屏幕显示内容所有者的姓名，以及该内容最近一次与你共享的日期  。
 
 ![“与我共享”屏幕显示更改日期和所有者](media/end-user-fresh/power-bi-share.png) 
@@ -64,7 +64,7 @@ ms.locfileid: "79040104"
 ## <a name="how-to-look-up-the-last-refresh-date"></a>如何查找上次刷新日期
 如果感兴趣，可以查找大多数内容的上次刷新日期。 
 
-### <a name="dashboard-tiles"></a>在推入数据时
+### <a name="dashboard-tiles"></a>仪表板磁贴
 对于仪表板磁贴，在焦点模式下查看磁贴，以查看上次刷新的时间戳。
 
 1. 在仪表板磁贴上，选择“更多选项”(…)，然后选择“以焦点模式打开”   。

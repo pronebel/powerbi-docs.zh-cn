@@ -11,10 +11,10 @@ ms.date: 02/21/2019
 ms.author: davidi
 LocalizationGroup: Create reports
 ms.openlocfilehash: 925d63f0abf92bd7a9c0d5fdd2ff6eff5b88b961
-ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/09/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "75761148"
 ---
 # <a name="apply-insights-in-power-bi-desktop-to-explain-fluctuations-in-visuals-preview"></a>在 Power BI Desktop 中应用见解解释视觉对象中的波动（预览版）
@@ -50,7 +50,7 @@ ms.locfileid: "75761148"
 
 在页面顶部提供“很棒”  和“很差”  图标，这样你就可以提供关于视觉对象和功能的反馈。 这样做虽然可以提供反馈，但它目前不会训练算法来影响下次使用该功能时返回的结果。
 
-请注意，视觉对象顶部的“+”  按钮可让你将选定的视觉对象添加到报表中，就像你手动创建视觉对象一样。 然后，可以格式化或调整添加的视觉对象，类似于在报表上对任何其他视觉对执行的操作。 在 Power BI Desktop  中编辑报表时，只能添加选定的见解视觉对象。
+请注意，视觉对象顶部的“ **”+** 按钮可让你将选定的视觉对象添加到报表中，就像你手动创建视觉对象一样。 然后，可以格式化或调整添加的视觉对象，类似于在报表上对任何其他视觉对执行的操作。 在 Power BI Desktop  中编辑报表时，只能添加选定的见解视觉对象。
 
 如果报表处于阅读或编辑模式，则可以将见解用于分析数据和创建可轻松添加到报表中的视觉对象。
 
@@ -121,7 +121,7 @@ ms.locfileid: "75761148"
 
 此外，目前不支持见解的以下模型类型和数据源：
 
-* DirectQuery
+* 直接查询
 * 实时连接
 * 本地 Reporting Services
 * 嵌入

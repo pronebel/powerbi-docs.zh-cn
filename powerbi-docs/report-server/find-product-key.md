@@ -9,10 +9,10 @@ ms.topic: conceptual
 ms.date: 10/24/2018
 ms.author: maggies
 ms.openlocfilehash: f6eba8e1138f3c7e934de7152acf52a020c19f07
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/09/2019
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "73859681"
 ---
 # <a name="how-to-find-your-report-server-product-key"></a>如何查找报表服务器产品密钥
@@ -29,7 +29,7 @@ ms.locfileid: "73859681"
 
 ![高级设置中的 Power BI 报表服务器密钥](media/find-product-key/pbirs-product-key.png)
 
-选择“Power BI 报表服务器密钥”  将显示包含产品密钥的对话框。 可以复制该密钥并用来进行安装。
+选择“Power BI 报表服务器密钥”  将显示包含产品密钥的对话框。 可以复制密钥，用于安装。
 
 ![Power BI 报表服务器产品密钥](media/find-product-key/pbirs-product-key-dialog.png)
 

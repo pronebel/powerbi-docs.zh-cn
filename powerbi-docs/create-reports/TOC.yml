@@ -99,6 +99,14 @@
               href: ../paginated-reports/report-builder-previewing-reports.md
             - name: 分页报表常见问题解答
               href: ../paginated-reports/paginated-reports-faq.md
+        - name: 部署管道
+          items:
+            - name: 部署管道简介
+              href: deployment-pipelines-overview.md
+            - name: 了解部署过程
+              href: deployment-pipelines-process.md
+            - name: 最佳做法
+              href: deployment-pipelines-best-practices.md
     - name: 操作指南
       items:
         - name: Power BI 报表
@@ -121,22 +129,20 @@
               href: ../desktop-buttons.md
             - name: 创建钻取按钮
               href: ../desktop-drill-through-buttons.md
+            - name: 使用钻取功能
+              href: ../desktop-drillthrough.md
+            - name: 使用跨报告钻取功能
+              href: ../desktop-cross-report-drill-through.md
             - name: 创建用于保存和共享见解的书签
               href: ../desktop-bookmarks.md
             - name: 使用报表主题
               href: ../desktop-report-themes.md
             - name: 在报表中使用筛选器
               href: ../power-bi-report-filter.md
-            - name: 使用钻取功能
-              href: ../desktop-drillthrough.md
-            - name: 使用跨报告钻取功能
-              href: ../desktop-cross-report-drill-through.md
+            - name: 向报表添加筛选器
+              href: ../power-bi-report-add-filter.md
             - name: 应用分组和装箱
               href: ../desktop-grouping-and-binning.md
-            - name: 使用 R 创建 Power BI 视觉对象
-              href: ../desktop-r-visuals.md
-            - name: 下载和使用 R 驱动的 Power BI 视觉对象
-              href: ../desktop-r-powered-custom-visuals.md
             - name: 应用网格线和对齐网格
               href: ../desktop-gridlines-snap-to-grid.md
             - name: 在报表中应用页面显示设置
@@ -153,6 +159,8 @@
               href: ../desktop-slicer-numeric-range.md
             - name: 相对日期切片器和筛选器
               href: ../visuals/desktop-slicer-filter-date-range.md
+            - name: 相对时间切片器和筛选器
+              href: slicer-filter-relative-time.md
             - name: 创建可重设大小的切片器
               href: ../power-bi-slicer-filter-responsive.md
             - name: 向切片器添加多个字段
@@ -189,8 +197,6 @@
               href: ../desktop-templates.md
             - name: 从数据集中创建报表
               href: ../service-report-create-new.md
-            - name: 向报表添加筛选器
-              href: ../power-bi-report-add-filter.md
             - name: 保存报表
               href: ../service-report-save.md
             - name: 在“编辑视图”中与报表进行交互
@@ -201,6 +207,8 @@
               href: ../service-aggregates.md
             - name: 为报表创建 QR 代码
               href: ../service-create-qr-code-for-report.md
+            - name: 允许使用者自定义视觉对象（预览）
+              href: power-bi-personalize-visuals.md
             - name: 将报表导出到 Power BI Desktop（预览）
               href: ../service-export-to-pbix.md
             - name: 发布数据集和报表
@@ -267,6 +275,10 @@
               href: ../visuals/power-bi-visualization-powerapp.md
             - name: R 视觉对象
               href: ../visuals/service-r-visuals.md
+            - name: 使用 R 创建 Power BI 视觉对象
+              href: ../desktop-r-visuals.md
+            - name: 下载和使用 R 驱动的 Power BI 视觉对象
+              href: ../desktop-r-powered-custom-visuals.md
             - name: 径向仪表盘
               href: ../visuals/power-bi-visualization-radial-gauge-charts.md
             - name: 带状图
@@ -371,6 +383,12 @@
               href: ../service-data-classification.md
             - name: 仪表板主题
               href: ../service-dashboard-themes.md
+        - name: 部署管道
+          items:
+            - name: 开始使用
+              href: deployment-pipelines-get-started.md
+            - name: 故障排除
+              href: deployment-pipelines-troubleshooting.md
         - name: 其他任务
           items:
             - name: 重命名内容

@@ -9,10 +9,10 @@ ms.topic: quickstart
 ms.date: 12/16/2019
 ms.author: painbar
 ms.openlocfilehash: 9af7fd95bcdaf0d747d1a3f2313f965d18a888e3
-ms.sourcegitcommit: 7e845812874b3347bcf87ca642c66bed298b244a
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/13/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "79205656"
 ---
 # <a name="a-quick-tour-of-the-mobile-app-home-page"></a>移动应用主页快速教程
@@ -65,7 +65,7 @@ ms.locfileid: "79205656"
 * ![“示例”图标](./media/mobile-apps-home-page/powerbi-mobile-app-samples-icon.png) **示例** - 可用于了解 Power BI 功能的 Power BI 示例。
 * ![“扫描仪”图标](./media/mobile-apps-home-page/powerbi-mobile-app-scanner-icon.png) **扫描仪** - 设备相机，可用作扫描仪以扫描[条形码](../../mobile-apps-scan-barcode-iphone.md)和 [QR 码](../../mobile-apps-qr-code.md)。
 
-## <a name="header"></a>标题
+## <a name="header"></a>标头
 
 页面顶部的标头显示当前所在的 Power BI 页、报表或仪表板的名称。
 

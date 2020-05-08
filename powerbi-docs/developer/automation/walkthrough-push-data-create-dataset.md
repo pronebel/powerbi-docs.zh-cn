@@ -9,10 +9,10 @@ ms.subservice: powerbi-developer
 ms.topic: tutorial
 ms.date: 02/05/2019
 ms.openlocfilehash: 149b4f8663838c0a87609a1ec24358fb9ee9727e
-ms.sourcegitcommit: 444f7fe5068841ede2a366d60c79dcc9420772d4
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/30/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "80403639"
 ---
 # <a name="step-3-create-a-dataset-in-power-bi"></a>步骤 3：在 Power BI 中创建数据集

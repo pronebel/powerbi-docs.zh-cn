@@ -8,10 +8,10 @@ ms.topic: conceptual
 ms.date: 03/11/2020
 ms.author: painbar
 ms.openlocfilehash: 4a9dcf14d1745087e2596507d4c7dbc7a03b5ab3
-ms.sourcegitcommit: abc8419155dd869096368ba744883b865c5329fa
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/17/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "79435320"
 ---
 # <a name="filter-a-report-by-geographic-location-in-the-power-bi-mobile-apps"></a>在 Power BI 移动应用中按地理位置筛选报表
@@ -51,5 +51,5 @@ ms.locfileid: "79435320"
 ### <a name="next-steps"></a>后续步骤
 * 使用移动应用[从真实世界连接到 Power BI 数据](mobile-apps-data-in-real-world-context.md)
 * [Power BI Desktop 中的数据分类](../../desktop-data-categorization.md) 
-* 是否有任何问题? [尝试咨询 Power BI 社区](https://community.powerbi.com/)
+* 是否有任何问题？ [尝试咨询 Power BI 社区](https://community.powerbi.com/)
 

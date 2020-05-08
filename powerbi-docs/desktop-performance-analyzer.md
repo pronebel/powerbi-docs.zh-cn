@@ -10,10 +10,10 @@ ms.date: 01/23/2020
 ms.author: davidi
 LocalizationGroup: Create reports
 ms.openlocfilehash: e3e9e8ebc7feda46cb4c79ffd1535807d04a178b
-ms.sourcegitcommit: a1409030a1616027b138128695b80f6843258168
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/24/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "76709767"
 ---
 # <a name="use-performance-analyzer-to-examine-report-element-performance"></a>使用性能分析器检查报表元素性能
@@ -38,7 +38,7 @@ ms.locfileid: "76709767"
 
 若要使用性能分析器开始记录，选择“开始记录”即可 
 
-![开始记录](media/desktop-performance-analyzer/performance-analyzer-03.png)
+![开始录制](media/desktop-performance-analyzer/performance-analyzer-03.png)
 
 “性能分析器”窗格将按 Power BI 加载视觉对象的顺序显示并记录你在报表中执行的任何操作。 例如，用户可能报告称你的某个报表刷新时间过长。 或者调整滑块后要过很久才会显示报表中的某些视觉对象。 性能分析器可以指出导致上述情况的视觉对象，并确定处理该视觉对象的哪些方面所需时间最长。 
 

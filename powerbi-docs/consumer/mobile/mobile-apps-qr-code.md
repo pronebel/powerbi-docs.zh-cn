@@ -9,10 +9,10 @@ ms.topic: conceptual
 ms.date: 12/02/2019
 ms.author: painbar
 ms.openlocfilehash: 55b71508380a424ba48e4d24ac6c6fc70d9a570d
-ms.sourcegitcommit: 9b806dfe62c2dee82d971bb4f89d983b97931b43
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/07/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "80802063"
 ---
 # <a name="scan-a-power-bi-qr-code-from-your-mobile-device"></a>使用移动设备扫描 Power BI QR 码
@@ -22,7 +22,7 @@ ms.locfileid: "80802063"
 |:--- |:--- |:--- |:--- |
 |iPhone |iPad |Android 手机 |Android 平板电脑 |
 
-Power BI 中的 QR 代码可以将现实生活中的任何项目直接连接到相关的 BI 信息&#151;无需进行导航或搜索。
+Power BI 中的 QR 代码可以将现实生活中的所有物品直接连接到相关的 BI 信息&#151;，无需导航或搜索。
 
 假设某位同事在 Power BI 服务中[为仪表板中的报表或磁贴创建了 QR 码](../../service-create-qr-code-for-tile.md)，然后与你共享此仪表板或报表，并且将 QR 码置于关键位置&#151;比如说在某个电子邮件中或某个特定项目中。 
 
@@ -39,7 +39,7 @@ Power BI 中的 QR 代码可以将现实生活中的任何项目直接连接到�
 
     ![](media/mobile-apps-qr-code/power-bi-scanner.png)
 
-2. 如果未启用照相机，你需要许可 Power BI 应用使用照相机。 这是一次性允许。 
+2. 如果未启用照相机，你需要许可 Power BI 应用使用照相机。 此许可为一次性的。 
  
 3. 将扫描程序指向 Power BI QR 代码。 
    
@@ -51,7 +51,7 @@ Power BI 中的 QR 代码可以将现实生活中的任何项目直接连接到�
 5. 点击报表或磁贴以便在焦点模式下打开，或返回到扫描程序。
 
 ### <a name="scan-a-qr-code-from-an-external-scanner-on-your-iphone"></a>在 iPhone 上使用外部扫描程序扫描 QR 码
-1. 通过安装在手机上的任何扫描器，将扫描器指向相关的 Power BI QR 代码，可立即访问该磁贴或报表。 
+1. 将手机上安装的任何扫描程序指向相关的 Power BI QR 码，以便立即访问磁贴或报表。 
 2. 如果你没有安装 Power BI 应用，将会被重定向到 iPhone 上的[ Apple App Store 以下载应用](https://go.microsoft.com/fwlink/?LinkId=522062)。
 
 ## <a name="scan-a-power-bi-qr-code-on-your-android-device-with-the-power-bi-scanner"></a>使用 Power BI 扫描程序在 Android 设备上扫描 Power BI QR 码
@@ -60,7 +60,7 @@ Power BI 中的 QR 代码可以将现实生活中的任何项目直接连接到�
 
     ![](media/mobile-apps-qr-code/power-bi-scanner.png)
 
-2. 如果未启用照相机，你需要许可 Power BI 应用使用照相机。 这是一次性允许。 
+2. 如果未启用照相机，你需要许可 Power BI 应用使用照相机。 此许可为一次性的。 
 
 3. 将扫描程序指向 Power BI QR 代码。 
    
@@ -78,5 +78,5 @@ Power BI 中的 QR 代码可以将现实生活中的任何项目直接连接到�
 * [为 Power BI 服务中的磁贴创建 QR 代码](../../service-create-qr-code-for-tile.md)
 * [为 Power BI 服务中的报表创建 QR 代码](../../service-create-qr-code-for-report.md)
 * 还可以[使用 Power BI for Mixed Reality 应用扫描 QR 码](mobile-mixed-reality-app.md)
-* 是否有任何问题? [尝试咨询 Power BI 社区](https://community.powerbi.com/)
+* 是否有任何问题？ [尝试咨询 Power BI 社区](https://community.powerbi.com/)
 

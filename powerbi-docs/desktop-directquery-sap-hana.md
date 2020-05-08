@@ -10,16 +10,16 @@ ms.date: 04/10/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
 ms.openlocfilehash: 86307a871503dd42e565099b810cb82efa109417
-ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/09/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "75761217"
 ---
 # <a name="connect-to-sap-hana-data-sources-by-using-directquery-in-power-bi"></a>使用 Power BI 中的 DirectQuery 连接到 SAP HANA 数据源
 可以使用 DirectQuery  直接连接到 SAP HANA  数据源。 连接到 SAP HANA 时存在两个选项：
 
-* **将 SAP HANA 视为多维源（默认）：** 在这种情况下，该行为将类似于 Power BI 连接到其他多维源（如 SAP Business Warehouse 或 Analysis Services）时的行为。 使用此设置连接到 SAP HANA 时，会选择单个分析或计算视图，并且字段列表中将显示该视图的所有度量值、层次结构和属性。 创建视觉对象后，将始终从 SAP HANA 中检索聚合数据。 建议使用此方法，且 SAP HANA 中的新 DirectQuery 报表均默认采用此方法。
+* **将 SAP HANA 视为多维源(默认)：** 此情况下，该行为将类似于 Power BI 连接到其他多维源（如 SAP Business Warehouse 或 Analysis Services）时的行为。 使用此设置连接到 SAP HANA 时，会选择单个分析或计算视图，并且字段列表中将显示该视图的所有度量值、层次结构和属性。 创建视觉对象后，将始终从 SAP HANA 中检索聚合数据。 建议使用此方法，且 SAP HANA 中的新 DirectQuery 报表均默认采用此方法。
 
 * **将 SAP HANA 视为关系源：** 此情况下，Power BI 将 SAP HANA 视为关系源。 这提供了更大的灵活性。 请务必谨慎使用此方法，确保按预期方式聚合度量值，并避免出现性能问题。
 
@@ -63,17 +63,17 @@ ms.locfileid: "75761217"
 
 使用 DirectQuery（视为多维源）连接到 SAP HANA 时的主要其他建模限制如下所示： 
 
-* **不支持计算列：** 创建计算列的功能处于禁用状态。 这也意味着创建计算列的“分组”和“聚类分析”功能不可用。
+* 不支持计算列：  创建计算列的功能处于禁用状态。 这也意味着创建计算列的“分组”和“聚类分析”功能不可用。
 * **针对度量值的其他限制：** 对可在度量值中使用的 DAX 表达式规定有其他限制，以反映 SAP HANA 提供的支持级别。
 * **不支持定义关系：** 在报表中只能查询单个视图，因此，不支持定义关系。
-* **没有数据视图：** 数据视图通常在表格中显示详细信息级别数据。  鉴于 OLAP 源（如 SAP HANA）的性质，此视图不适用于 SAP HANA。
-* **列和度量值详细信息是固定的：** 字段列表中所示的列和度量值列表由基础源固定，不能修改。 例如，不能删除列，也不能更改其数据类型（但是，可以将其重命名）。
-* **DAX 中的其他限制：** DAX 中存在可在度量值定义中使用的其他限制，以反映源中的限制。 例如，不能在表中使用聚合函数。
+* 没有数据视图：数据视图通常显示表中的详细信息级别数据。   鉴于 OLAP 源（如 SAP HANA）的性质，此视图不适用于 SAP HANA。
+* 列和度量值详细信息固定：字段列表中所示的列和度量值列表由基础源固定，不能修改。  例如，不能删除列，也不能更改其数据类型（但是，可以将其重命名）。
+* DAX 中的其他限制：DAX 中存在可在度量值定义中使用的其他限制，以反映源中的限制。  例如，不能在表中使用聚合函数。
 
 ### <a name="additional-visualization-restrictions"></a>其他可视化效果限制
 
 使用 DirectQuery（视为多维源）连接到 SAP HANA 时，视觉对象中存在限制： 
-* **没有列聚合：** 不能更改视觉对象上的列的聚合，而且它始终为“不汇总”  。
+* **没有列聚合：** 不能更改视觉对象上的列的聚合，而且它始终为不汇总  。
 
 ## <a name="treat-sap-hana-as-a-relational-source"></a>将 SAP HANA 视为关系源 
 

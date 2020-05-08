@@ -9,10 +9,10 @@ ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 01/11/2019
 ms.openlocfilehash: 435f643ba155bc9d6c67d1131d946769e3d61730
-ms.sourcegitcommit: a175faed9378a7d040a08ced3e46e54503334c07
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/18/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "79494943"
 ---
 # <a name="manage-multi-tenancy-with-power-bi-embedded-analytics"></a>使用 Power BI 嵌入式分析来管理多租户
@@ -181,7 +181,7 @@ Power BI Embedded 支持多地理位置部署（预览功能）。 [多地理位
 
 借助基于行级别安全性的隔离，SaaS 应用程序可以使用单个工作区来承载多个租户。 这意味着每个 Power BI 项目报表、仪表板和数据集都在所有租户使用过之后创建的。 租户之间的数据分离是在多租户数据集中使用[行级别安全性](embedded-row-level-security.md)实现的。 当最终用户登录 SaaS 应用程序并打开内容时，将为该用户会话生成一个嵌入令牌，其中的角色和筛选器将确保用户只看到允许他们看到的数据。 如果不允许来自同一租户的用户查看相同数据，应用程序开发人员需要在租户之间和同一租户内部实现分层角色。
 
-![行级别安全性](media/embed-multi-tenancy/multi-tenant-saas-rls.png)
+![行级安全性](media/embed-multi-tenancy/multi-tenant-saas-rls.png)
 
 ### <a name="data-architecture"></a>数据体系结构
 

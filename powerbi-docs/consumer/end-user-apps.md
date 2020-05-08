@@ -10,10 +10,10 @@ ms.date: 04/19/2020
 ms.author: mihart
 LocalizationGroup: Share your work
 ms.openlocfilehash: 1b23f76425fdf7ceb245b25bcc2b7551dabf0600
-ms.sourcegitcommit: 9ec2c608b90bf651df613f0714addd251a885039
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/24/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "82120225"
 ---
 # <a name="apps-in-power-bi"></a>Power BI 中的“应用”
@@ -50,7 +50,7 @@ ms.locfileid: "82120225"
 - 可以在 [AppSource](https://appsource.microsoft.com) 中搜索应用。 AppSource 包含由公司内部和外部的报表设计者发布的应用。 例如，可以在 AppSource 上找到已使用服务的应用，例如 Google Analytics、GitHub 或 Microsoft Dynamics。 还可找到用于了解 Power BI 的示例应用。  
 
 
-## <a name="next-step"></a>后续步骤
+## <a name="next-step"></a>下一步
 * [打开某一应用并与之交互](end-user-app-view.md)
 * [共享内容的其他方法](end-user-shared-with-me.md)
 

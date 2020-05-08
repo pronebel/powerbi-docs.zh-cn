@@ -10,10 +10,10 @@ ms.date: 06/11/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
 ms.openlocfilehash: 5fda121af151e787c444b928c320b7f33fe1405c
-ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/09/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "75757867"
 ---
 # <a name="create-and-use-basic-area-charts"></a>创建和使用基本面积图
@@ -32,16 +32,16 @@ ms.locfileid: "75757867"
 * 查看并比较各个时序间的量趋势 
 * 对于表示可以物理方式计数的集合的各个序列
 
-### <a name="prerequisites"></a>先决条件
+### <a name="prerequisites"></a>必备组件
 本教程使用[零售分析示例 PBIX 文件](https://download.microsoft.com/download/9/6/D/96DDC2FF-2568-491D-AAFA-AFDD6F763AE3/Retail%20Analysis%20Sample%20PBIX.pbix)。
 
-1. 在菜单栏的左上方，选择“文件” > “打开”  
+1. 在菜单栏的左上方，选择“文件” **“打开”**  >  
    
 2. 查找**零售分析示例 PBIX 文件**的副本
 
 1. 在报表视图中打开**零售分析示例 PBIX 文件**![报表视图屏幕截图图标](media/power-bi-visualization-kpi/power-bi-report-view.png)。
 
-1. 选择 ![黄色选项卡的屏幕截图。](media/power-bi-visualization-kpi/power-bi-yellow-tab.png) ，以添加新报表页。
+1. Select ![黄色选项卡的屏幕截图。](media/power-bi-visualization-kpi/power-bi-yellow-tab.png) ，以添加新报表页。
 
 
 ## <a name="create-a-basic-area-chart"></a>创建基本面积图
@@ -49,7 +49,7 @@ ms.locfileid: "75757867"
 
 1. 这些步骤有助于创建按月显示本年度销售额和上年度销售额的分区图。
    
-   a. 在“字段”窗格中，依次选择“销售额”\>“去年销售额”，再依次选择“今年销售额 > 值”   。
+   a. 在“字段”窗格中，依次选择“销售额” **“去年销售额”，再依次选择“今年销售额 > 值”\>**  。
 
    ![分区图数据值](media/power-bi-visualization-basic-area-chart/power-bi-bar-chart.png)
 
@@ -57,7 +57,7 @@ ms.locfileid: "75757867"
 
    ![分区图图标](media/power-bi-visualization-basic-area-chart/convertchart.png)
    
-   c.  选择“时间”\>“会计月”  以将其添加到“轴”  。   
+   c.  选择“时间” **“会计月”\>** 以将其添加到“轴”  。   
    ![分区图轴值](media/power-bi-visualization-basic-area-chart/powerbi-area-chartnew.png)
    
    d.  若要按月显示图表，请选择“省略号”（视觉对象的右上角）并选择“按月排序”  。 要更改排序顺序，请再次选择省略号并选择  “升序排序”或“降序排序”  。

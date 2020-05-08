@@ -10,10 +10,10 @@ ms.date: 01/14/2020
 ms.author: davidi
 LocalizationGroup: Connect to data
 ms.openlocfilehash: 358a61c13418bd29a9e83ed7029e8b90f9a5988e
-ms.sourcegitcommit: 3d6b27e3936e451339d8c11e9af1a72c725a5668
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/17/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "76161497"
 ---
 # <a name="run-r-scripts-in-power-bi-desktop"></a>在 Power BI Desktop 中运行 R 脚本
@@ -61,7 +61,7 @@ ms.locfileid: "76161497"
 
 ![“R 脚本”选项、“选项”对话框、Power BI Desktop](media/desktop-r-scripts/r-scripts-4.png)
 
-### <a name="refresh"></a>刷新
+### <a name="refresh"></a>全部
 
 你可以在 Power BI Desktop 中刷新 R 脚本。 刷新 R 脚本时，Power BI Desktop 会再次在 Power BI Desktop 环境中运行 R 脚本。
 

@@ -10,10 +10,10 @@ ms.date: 01/13/2020
 ms.author: otarb
 LocalizationGroup: Connect to data
 ms.openlocfilehash: d5b57b782af52542ed944b5e5e7504a974ee9d81
-ms.sourcegitcommit: ad638d553d5f7f5831587791ffa7aa37a47dd6ae
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/26/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "80273331"
 ---
 # <a name="run-python-scripts-in-power-bi-desktop"></a>在 Power BI Desktop 中运行 Python 脚本

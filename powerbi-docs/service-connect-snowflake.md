@@ -10,10 +10,10 @@ ms.date: 11/20/2019
 ms.author: gepopell
 LocalizationGroup: Connect to services
 ms.openlocfilehash: 5e5519e30be30d6367791d1b6822196b407a21b1
-ms.sourcegitcommit: 4d98274aa0b9aa09db99add2dda91a3ba8fed40b
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/25/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "77576874"
 ---
 #  <a name="connecting-to-snowflake-in-power-bi-service"></a>在 Power BI 服务中连接到 Snowflake

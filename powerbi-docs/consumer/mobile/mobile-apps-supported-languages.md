@@ -9,10 +9,10 @@ ms.topic: conceptual
 ms.date: 03/11/2020
 ms.author: painbar
 ms.openlocfilehash: 4f135a411d69835e925cf97b418bda6ae80adc1a
-ms.sourcegitcommit: 480bba9c745cb9af2005637e693c5714b3c64a8a
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/11/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "79113182"
 ---
 # <a name="supported-languages-in-the-power-bi-mobile-apps"></a>Power BI 移动应用中支持的语言
@@ -59,6 +59,6 @@ ms.locfileid: "79113182"
 
 ## <a name="next-steps"></a>后续步骤
 * [Power BI 支持的语言和国家/地区](../../supported-languages-countries-regions.md)
-* 是否有任何问题? 请尝试在 [Power BI 社区](https://community.powerbi.com/)中提问
+* 是否有任何问题？ 请尝试在 [Power BI 社区](https://community.powerbi.com/)中提问
 * 仍有问题？ 访问 [Power BI 支持页](https://powerbi.microsoft.com/support/)。
 

@@ -113,10 +113,10 @@
     - name: 白皮书
       items:
         - name: 白皮书概述
-          href: ../whitepapers.md
-        - name: Power BI 安全白皮书
-          href: ../whitepaper-powerbi-security.md
+          href: whitepapers.md
+        - name: Power BI 安全性白皮书
+          href: whitepaper-powerbi-security.md
         - name: Power BI Premium 部署
-          href: ../whitepaper-powerbi-premium-deployment.md
+          href: whitepaper-powerbi-premium-deployment.md
         - name: 使用 Azure Active Directory B2B 在外部分发 Power BI
-          href: ../whitepaper-azure-b2b-power-bi.md
+          href: whitepaper-azure-b2b-power-bi.md

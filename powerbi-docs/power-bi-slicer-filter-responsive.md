@@ -10,10 +10,10 @@ ms.date: 04/06/2020
 ms.author: maggies
 LocalizationGroup: Create reports
 ms.openlocfilehash: 2feb20907bbcffcb8aa395705b34604ebbedb682
-ms.sourcegitcommit: 915cb7d8088deb0d9d86f3b15dfb4f6f5b1b869c
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/10/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "81006494"
 ---
 # <a name="create-a-responsive-slicer-you-can-resize-in-power-bi"></a>在 Power BI 中创建可以重设大小的响应式切片器
@@ -28,7 +28,7 @@ ms.locfileid: "81006494"
 
 创建动态切片器的第一步是创建基本切片器。 
 
-1. 在“可视化效果”  窗格中，选择切片器图标  ![切片器图标](media/power-bi-slicer-filter-responsive/power-bi-slicer-filter-responsive-0-slicer-icon.png)。
+1. 在“可视化效果”  窗格中，选择切片器图标![](media/power-bi-slicer-filter-responsive/power-bi-slicer-filter-responsive-0-slicer-icon.png)**切片器图标**。
 2. 将要筛选的字段拖动到“字段”  。
 
     ![将字段添加到切片器](media/power-bi-slicer-filter-responsive/power-bi-slicer-filter-responsive-1-create.png)
