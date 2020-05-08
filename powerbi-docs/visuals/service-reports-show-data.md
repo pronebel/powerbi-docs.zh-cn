@@ -10,10 +10,10 @@ ms.date: 11/4/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
 ms.openlocfilehash: f1598aabee45359b312d39f836cede8ca4198bb2
-ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/09/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "75758614"
 ---
 # <a name="display-a-visualizations-underlying-data"></a>显示可视化效果的基础数据
@@ -54,7 +54,7 @@ Power BI 可视化效果是使用数据集中的数据创建的。 如果你对�
 
 1. 若要使用“查看记录”，选择可视化组件并将其激活  。 
 
-2. 在“桌面”功能区中，选择“可视化工具” > “数据/钻取” > “查看记录”选项卡    。 
+2. 在“桌面”功能区中，选择“可视化工具” **“数据/钻取”** “查看记录”选项卡 >    >   。 
 
     ![选中“查看记录”的屏幕截图。](media/service-reports-show-data/power-bi-see-record.png)
 

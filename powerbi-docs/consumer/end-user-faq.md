@@ -10,10 +10,10 @@ ms.date: 02/20/2020
 ms.author: mihart
 LocalizationGroup: Get started
 ms.openlocfilehash: 9a59f8e230ecd8eec6338e92b7fb01e525831617
-ms.sourcegitcommit: 87b7cb4a2e626711b98387edaa5ff72dc26262bb
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/10/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "79039968"
 ---
 # <a name="frequently-asked-questions-about-power-bi"></a>有关 Power BI 的常见问题
@@ -54,13 +54,13 @@ Power BI Desktop 是一款免费应用程序，可直接安装到你自己的计
 
 也可以个人身份注册 Power BI 服务。 请参阅 [Power BI 自助注册流程](../service-self-service-signup-for-power-bi.md)。
 
-## <a name="why-do-i-have-to-sign-up-with-my-work-email"></a>为何必须使用工作电子邮件注册？
+## <a name="why-do-i-have-to-sign-up-with-my-work-email"></a>为什么必须使用我的工作电子邮件注册？
 
 Power BI 不支持由使用者电子邮件服务或电信提供商提供的电子邮件地址。 了解有关 [Power BI 自助服务注册过程](../service-self-service-signup-for-power-bi.md)的详细信息。
 
 ## <a name="does-power-bi-support-mobile-devices"></a>Power BI 是否支持移动设备？
 
-是。 Power BI 拥有适用于 Android 手机和平板电脑、iOS 设备和 Windows 10 设备的本机应用。 从对应的应用商店下载以下 [Power BI 移动应用](https://powerbi.microsoft.com/mobile)之一：  
+是的。 Power BI 拥有适用于 Android 手机和平板电脑、iOS 设备和 Windows 10 设备的本机应用。 从对应的应用商店下载以下 [Power BI 移动应用](https://powerbi.microsoft.com/mobile)之一：  
 
 * [Apple App Store](https://go.microsoft.com/fwlink/?LinkId=526218)
 * [Google Play](https://go.microsoft.com/fwlink/?LinkID=544867&clcid=0x409)
@@ -83,7 +83,7 @@ Power BI 不支持由使用者电子邮件服务或电信提供商提供的电�
 * [Power BI 博客](https://blogs.msdn.com/b/powerbi/)
 * [网络研讨会](../webinars.md)
 * 我们 [YouTube 频道](https://www.youtube.com/user/mspowerbi)上的入门视频
-* [以使用者身份开始使用 Power BI](index.yml) 文章 
+* [以使用者身份开始使用 Power BI *文章*](index.yml)
 * [加入我们的社区](https://community.powerbi.com/)并提出问题
 * 有关更多建议，请参阅[如何获取帮助的 10 条提示](../service-tips-for-finding-help.md)
 

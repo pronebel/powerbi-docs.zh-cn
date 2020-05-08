@@ -9,10 +9,10 @@ ms.topic: conceptual
 ms.date: 04/07/2020
 ms.author: mihart
 ms.openlocfilehash: 101cdbc7ad7ea5d07edf182765d305ad2f1fa8c7
-ms.sourcegitcommit: 9ec2c608b90bf651df613f0714addd251a885039
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/24/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "82120105"
 ---
 # <a name="glossary-for-power-bi-service"></a>Power BI 服务词汇表
@@ -225,7 +225,7 @@ Power BI 服务可能会引入不熟悉或容易混淆的术语。 词汇表是�
 
 **Power BI**、**Power BI 服务**、**Power BI Desktop**、**Power BI 移动版**、一些其他 Power BI 产品。 *Power BI* 是一个泛称。 通常在首次提及完整产品名称之后用于代替完整产品名称，例如 Power BI 服务  和 Power BI 移动版  。
 
-**Power BI Desktop** 也称为 *Desktop*。 可在本地计算机上安装的免费的 Windows Power BI 应用程序，可用于连接到数据、转换数据并实现数据的可视化效果。 由报表设计人员和管理员使用。 有关详细信息，请参阅[什么是 Power BI](../fundamentals/power-bi-overview.md)。
+**Power BI Desktop** 也称为 *Desktop*。 可在本地计算机上安装的免费的 Windows Power BI 应用程序，可用于连接到数据、转换数据并实现数据的可视化效果。 由报表设计人员和管理员使用。 有关详细信息，请参阅[什么是 Power BI？](../fundamentals/power-bi-overview.md)。
 
 **Power BI Embedded** 由开发人员使用，将 Power BI 仪表板和报表嵌入自己的应用、站点和工具。
 
@@ -235,7 +235,7 @@ Power BI 服务可能会引入不熟悉或容易混淆的术语。 词汇表是�
 
 **Power BI Report Server (Power BI 报表服务器)** SSRS 的一个新品牌产品，与 Power BI Premium 一起发布，让组织可以构建已分发的混合 BI 系统（云和本地部署的混合体）。 Embedded 提供了存储和管理 Power BI 报表的本地化方法。
 
-**Power BI service (Power BI 服务)** 联机 SaaS（软件即服务）服务。 有关详细信息，请参阅[什么是 Power BI](../fundamentals/power-bi-overview.md)。
+**Power BI service (Power BI 服务)** 联机 SaaS（软件即服务）服务。 有关详细信息，请参阅[什么是 Power BI？](../fundamentals/power-bi-overview.md)。
 
 **Premium workspace (Premium 工作区)** 在专用容量中运行的工作区，使用钻石图标向客户表示。  
 

@@ -10,10 +10,10 @@ ms.date: 09/09/2019
 ms.author: kfollis
 LocalizationGroup: Administration
 ms.openlocfilehash: 9d0ed841da3f398b8e0a8dc0a35ed040ccf3cab6
-ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/06/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "74699995"
 ---
 # <a name="track-power-bi-service-health-in-office-365"></a>跟踪 Office 365 中的 Power BI 服务运行状况
@@ -28,7 +28,7 @@ Microsoft 365 管理中心为 Power BI 管理员提供重要工具。 这些工�
 
 1. 登录 [MIcrosoft 365 管理中心](https://portal.office.com/adminportal)。
 
-1. 从导航窗格中，选择“全部显示” > “运行状况” > “服务运行状况”    。 将显示“服务运行状况”页面：
+1. 从导航窗格中，选择“全部显示” **“运行状况”** “服务运行状况” >    >   。 将显示“服务运行状况”页面：
 
     ![Microsoft 365 管理中心（启用了“运行状况”和“服务运行状况”选项）的屏幕截图。](media/service-admin-health/service-health-tile.png)
 

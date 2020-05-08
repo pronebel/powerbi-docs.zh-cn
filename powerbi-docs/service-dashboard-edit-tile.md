@@ -11,10 +11,10 @@ ms.date: 03/02/2018
 ms.author: maggies
 LocalizationGroup: Dashboards
 ms.openlocfilehash: bdd2ec136ae741e15e0cb60d141c651cd5fb6749
-ms.sourcegitcommit: 7e845812874b3347bcf87ca642c66bed298b244a
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/13/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "79207588"
 ---
 # <a name="edit-or-remove-a-dashboard-tile"></a>编辑或删除仪表板磁贴
@@ -38,7 +38,7 @@ ms.locfileid: "79207588"
   > 若要更改磁贴本身显示的可视化效果，请删除磁贴，并添加新的 [仪表板磁贴](consumer/end-user-tiles.md)。
 
   
-## <a name="prerequisites"></a>先决条件
+## <a name="prerequisites"></a>必备组件
 若要跟着介绍一起操作，请打开 Power BI 服务（而非 Power BI Desktop），并[下载“IT 支出分析示例”](sample-it-spend.md)。 看到“成功”消息时，选择“转至仪表板” 
 
 - - -
@@ -65,7 +65,7 @@ ms.locfileid: "79207588"
 
    ![将鼠标悬停在一个磁贴上](media/service-dashboard-edit-tile/power-bi-pin.png)
 
-6. 看到“成功”消息时，选择“转至仪表板”  。 此时，系统会提示保存更改。 选择“保存”。 
+6. 看到“成功”消息时，选择“转至仪表板”  。 此时，系统会提示保存更改。 选择“保存”  。
 
 - - -
 <a name="move"></a>
@@ -117,7 +117,7 @@ ms.locfileid: "79207588"
 
     ![“功能”对话框](media/service-dashboard-edit-tile/power-bi-custom-link.png)
 
-3. 选择**应用**。
+3. 选择“应用”。 
 
 4. 此时，磁贴上显示新标题。  此外，如果选择磁贴，Power BI 会打开“人力资源”仪表板。 
 
@@ -126,16 +126,16 @@ ms.locfileid: "79207588"
 <a name="different"></a>
 
 ### <a name="pin-the-tile-to-a-different-dashboard"></a>将磁贴固定到其他仪表板
-1. 在省略号下拉菜单中，选择“固定磁贴”![固定磁贴](media/service-dashboard-edit-tile/pinnooutline.png)  。
+1. 在省略号下拉菜单中，选择“固定磁贴”**固定磁贴**![](media/service-dashboard-edit-tile/pinnooutline.png)。
 2. 确定是将此磁贴的副本固定到现有仪表板，还是固定到新仪表板。 
    
    ![“固定到仪表板”对话框](media/service-dashboard-edit-tile/pbi_pintoanotherdash.png)
-3. 选择“固定”  。
+3. 选择**固定**。
 
 <a name="delete"></a>
 
 ### <a name="delete-the-tile"></a>删除磁贴
-1. 要从仪表板中永久删除磁贴，请从省略号下拉菜单中选择“删除磁贴”![删除磁贴](media/service-dashboard-edit-tile/power-bi-delete-tile-icon.png)  。 
+1. 要从仪表板中永久删除磁贴，请从省略号下拉菜单中选择“删除磁贴”**删除磁贴**![](media/service-dashboard-edit-tile/power-bi-delete-tile-icon.png)。 
 
 2. 删除磁贴不会删除基础可视化效果。 选择“金额”磁贴，打开基础报表。 打开报表中的最后一页，可以看到原始可视化效果尚未从报表中删除。 
 

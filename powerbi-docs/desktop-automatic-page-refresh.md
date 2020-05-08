@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 11/26/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: e7e5e406a0a4c9cdcecfab5a5af681857600feb5
-ms.sourcegitcommit: a175faed9378a7d040a08ced3e46e54503334c07
+ms.openlocfilehash: 95ccee8e2c711c272d6114339161cbf1d1c883a9
+ms.sourcegitcommit: 220910f0b68cb1e265ccd5ac0cee4ee9c6080b26
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "79488513"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "82841678"
 ---
 # <a name="automatic-page-refresh-in-power-bi-desktop-preview"></a>Power BI Desktop 中的自动页面刷新（预览）
 
@@ -212,7 +212,7 @@ Power BI 工作区  驻留在容量内，它们代表安全、协作和部署容
 
 * [在 Power BI 中使用 DirectQuery](desktop-directquery-about.md)
 * [使用性能分析器检查报表元素性能](desktop-performance-analyzer.md)
-* [部署和管理 Power BI Premium 容量](whitepaper-powerbi-premium-deployment.md)
+* [部署和管理 Power BI Premium 容量](guidance/whitepaper-powerbi-premium-deployment.md)
 * [Power BI Desktop 中的数据源](desktop-data-sources.md)
 * [使用 Power BI Desktop 调整和合并数据](desktop-shape-and-combine-data.md)
 * [通过 Power BI Desktop 连接到 Excel 工作簿](desktop-connect-excel.md)   

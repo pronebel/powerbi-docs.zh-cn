@@ -10,10 +10,10 @@ ms.topic: conceptual
 ms.date: 04/27/2020
 LocalizationGroup: Share your work
 ms.openlocfilehash: 4be8a1ce88d50461ca51bb65278b823046459e30
-ms.sourcegitcommit: 20f15ee7a11162127e506b86d21e2fff821a4aee
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/29/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "82585023"
 ---
 # <a name="embed-a-report-in-a-secure-portal-or-website"></a>在安全门户或网站中嵌入报表

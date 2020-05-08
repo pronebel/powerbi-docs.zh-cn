@@ -2,7 +2,7 @@
   href: /
   topicHref: /
   items:
-    - name: Power Platform
+    - name: Power 平台
       href: /power-platform/
       topicHref: /power-platform/
       items:
@@ -13,7 +13,7 @@
             - name: 使用者
               tocHref: /power-bi/consumer/
               topicHref: /power-bi/consumer/index
-            - name: 移动
+            - name: 移动型
               tocHref: /power-bi/consumer/mobile/
               topicHref: /power-bi/consumer/mobile/index
             - name: 开发人员
@@ -29,7 +29,7 @@
                 - name: 自动化
                   tocHref: /power-bi/developer/automation/
                   topicHref: /power-bi/developer/automation/
-            - name: 指导式学习
+            - name: 引导式学习
               tocHref: /power-bi/guided-learning/
               topicHref: /power-bi/guided-learning/
             - name: 学习目录
@@ -50,7 +50,7 @@
             - name: 连接到数据
               tocHref: /power-bi/connect-data/
               topicHref: /power-bi/connect-data/index
-            - name: 开始使用
+            - name: 入门
               tocHref: /power-bi/fundamentals/
               topicHref: /power-bi/fundamentals/index
             - name: 转换、形状和模型数据
