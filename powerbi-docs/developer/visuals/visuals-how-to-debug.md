@@ -9,10 +9,10 @@ ms.subservice: powerbi-custom-visuals
 ms.topic: conceptual
 ms.date: 02/14/2020
 ms.openlocfilehash: 9469127ea28b0370edebd4c044bd929ff22c488f
-ms.sourcegitcommit: 1f768dfef27cd8887318671f91427f72d02370c6
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/21/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "81675714"
 ---
 # <a name="how-to-debug-power-bi-visuals"></a>如何调试 Power BI 视觉对象
@@ -71,7 +71,7 @@ public update(options: VisualUpdateOptions) {
 
 还可以将浏览器设置为，在捕获到异常时中断。 每当错误发生时，此设置都会停止执行代码，你可以从中断处进行调试。
 
-### <a name="edge"></a>Microsoft Edge
+### <a name="edge"></a>Edge
 
 1. 打开开发人员工具 (F12)。
 2. 转到“调试器”  选项卡。

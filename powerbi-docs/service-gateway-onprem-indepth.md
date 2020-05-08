@@ -10,10 +10,10 @@ ms.date: 07/15/2019
 ms.author: arthii
 LocalizationGroup: Gateways
 ms.openlocfilehash: c277c21ffd3546307f9c38dfc06364324702986f
-ms.sourcegitcommit: f77b24a8a588605f005c9bb1fdad864955885718
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/02/2019
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "74699374"
 ---
 # <a name="on-premises-data-gateway-in-depth"></a>深入了解本地数据网关
@@ -22,7 +22,7 @@ ms.locfileid: "74699374"
 
 我们已将本文中的信息移至 Power BI 和常规文档中的几篇文章中。请按照每个标题下的链接查找相关内容。
 
-## <a name="how-the-gateway-works"></a>网关的工作原理
+## <a name="how-the-gateway-works"></a>网关工作原理
 
 请参阅[本地数据网关体系结构](/data-integration/gateway/service-gateway-onprem-indepth)。
 

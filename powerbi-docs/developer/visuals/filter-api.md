@@ -9,17 +9,17 @@ ms.subservice: powerbi-custom-visuals
 ms.topic: conceptual
 ms.date: 06/18/2019
 ms.openlocfilehash: 95e661e81e7753d0a28806cca5d652f8e92666a8
-ms.sourcegitcommit: 2c798b97fdb02b4bf4e74cf05442a4b01dc5cbab
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/21/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "80114097"
 ---
 # <a name="the-visual-filters-api-in-power-bi-visuals"></a>Power BI 视觉对象中的视觉对象筛选器 API
 
 通过视觉对象筛选器 API，可在 Power BI 视觉对象中筛选数据。 它与其他选择的主要区别是可通过任意方式筛选其他视觉对象，尽管其他视觉对象支持突出显示。
 
-若要对此视觉对象启用筛选，该视觉对象应在 capabilities.json 代码的 `general` 部分中包含 `filter` 对象  。
+若要对此视觉对象启用筛选，该视觉对象应在 capabilities.json 代码的 `filter` 部分中包含 `general` 对象  。
 
 ```json
 "objects": {
@@ -120,7 +120,7 @@ visualHost.applyJsonFilter(filter, "general", "filter", FilterAction.merge);
 
 视觉对象 API 1.7.0 中引入了此筛选器。
 
-高级筛选器 API 还需要含 `table` 和 `column` 名称的 `target`。 但高级筛选器 API 运算符为“And”和“Or”   。 
+高级筛选器 API 还需要含 `target` 和 `table` 名称的 `column`。 但高级筛选器 API 运算符为“And”和“Or”   。 
 
 此外，该筛选器在接口中使用条件而不是值：
 
@@ -191,7 +191,7 @@ interface ITupleFilter extends IFilter {
 
 * `filterType` 为 FilterType.Tuple  。
 
-* 仅允许在“In”运算符中使用 `operator`  。
+* 仅允许在“In”运算符中使用 `operator` 。
 
 * `values` 是由值元组构成的数组，每个元组表示一个允许的目标列值组合。 
 

@@ -8,10 +8,10 @@ ms.topic: conceptual
 ms.date: 04/05/2020
 ms.author: painbar
 ms.openlocfilehash: ce147be4c23b738e1a09296a5d798fb0f94efe13
-ms.sourcegitcommit: 9b806dfe62c2dee82d971bb4f89d983b97931b43
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/07/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "80802017"
 ---
 # <a name="remotely-configure-power-bi-app-using-mobile-device-management-mdm-tool"></a>使用移动设备管理 (MDM) 工具远程配置 Power BI 应用
@@ -33,7 +33,7 @@ Power BI 移动版应用支持以下配置方案：
 | com.microsoft.powerbi.mobile.ServerURL | 字符串 | 报表服务器 URL。<br><br>应以 http/https 开头。|
 | com.microsoft.powerbi.mobile.ServerUsername | 字符串 | [可选]<br><br>要用于连接服务器的用户名。<br><br>如果不存在此项，应用将提示用户键入用于连接的用户名。|
 | com.microsoft.powerbi.mobile.ServerDisplayName | 字符串 | [可选]<br><br>默认值为“报表服务器”<br><br>应用中用于表示服务器的易记名称。 |
-| com.microsoft.powerbi.mobile.OverrideServerDetails | 布尔 | [可选]<br><br>默认值为 True。 设置为 True 时，它会替代移动设备中已有的任何报表服务器定义。 已删除已配置的现有服务器。 将“替代”设置为 True 还可防止用户删除该配置。<br><br>设置为“False”将添加推送值，并保留任何现有设置。 如果已在移动应用中配置相同的服务器 URL，则应用将按原样保留该配置。 应用不会要求用户重新验证同一服务器。 |
+| com.microsoft.powerbi.mobile.OverrideServerDetails | 布尔型 | [可选]<br><br>默认值为 True。 设置为 True 时，它会替代移动设备中已有的任何报表服务器定义。 已删除已配置的现有服务器。 将“替代”设置为 True 还可防止用户删除该配置。<br><br>设置为“False”将添加推送值，并保留任何现有设置。 如果已在移动应用中配置相同的服务器 URL，则应用将按原样保留该配置。 应用不会要求用户重新验证同一服务器。 |
 
 ## <a name="data-protection-settings-ios-and-android"></a>数据保护设置（iOS 和 Android）
 
@@ -41,7 +41,7 @@ Power BI 移动版应用支持以下配置方案：
 
 | 密钥 | 类型 | 说明 |
 |---|---|---|
-| com.microsoft.powerbi.mobile.ForceDeviceAuthentication | 布尔 | 默认值为 False。 <br><br>用户可能需要使用生物识别技术，例如 TouchID、FaceID (iOS) 或指纹 ID (Android)，来访问其设备上的应用。 需要时，除身份验证外还会使用生物识别技术。<br><br>如果使用应用保护策略，Microsoft 建议禁用此设置来防止双重访问提示。 |
+| com.microsoft.powerbi.mobile.ForceDeviceAuthentication | 布尔型 | 默认值为 False。 <br><br>用户可能需要使用生物识别技术，例如 TouchID、FaceID (iOS) 或指纹 ID (Android)，来访问其设备上的应用。 需要时，除身份验证外还会使用生物识别技术。<br><br>如果使用应用保护策略，Microsoft 建议禁用此设置来防止双重访问提示。 |
 
 >[!NOTE]
 >将仅在支持生物识别身份验证的 Android 设备上应用数据保护设置。
@@ -56,7 +56,7 @@ Power BI 移动版应用支持以下配置方案：
 | 密钥 | 类型 | 值 | 说明 |
 |---|---|---|---|
 | com.microsoft.powerbi.mobile.ReportTapInteraction | 字符串 |  <nobr>单击</nobr><br><nobr>双击</nobr> | 配置在点击视觉对象时，是否还会同时选择数据点。 |
-| com.microsoft.powerbi.mobile.EnableMultiSelect | 布尔 |  <nobr>True</nobr><br><nobr>False</nobr> | 配置在点击数据点时，是会替换当前选定内容还是添加到当前选定内容中。 |
+| com.microsoft.powerbi.mobile.EnableMultiSelect | 布尔型 |  <nobr>True</nobr><br><nobr>False</nobr> | 配置在点击数据点时，是会替换当前选定内容还是添加到当前选定内容中。 |
 | com.microsoft.powerbi.mobile.RefreshAction | 字符串 |  <nobr>下拉以刷新</nobr><br>按钮 | 配置用户是使用按钮刷新报表还是应使用下拉刷新。 |
 | com.microsoft.powerbi.mobile.FooterAppearance | 字符串 |  已停靠<br>动态 | 配置是将报表页脚停靠在报表底部还是自动隐藏。 |
 

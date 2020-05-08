@@ -10,10 +10,10 @@ ms.date: 03/16/2020
 ms.author: maggies
 LocalizationGroup: Share your work
 ms.openlocfilehash: 01e41520ec4cc391e241cd53a03c3e71d15379d7
-ms.sourcegitcommit: a175faed9378a7d040a08ced3e46e54503334c07
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/18/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "79496254"
 ---
 # <a name="feature-content-on-colleagues-power-bi-home-page"></a>在同事的 Power BI 主页上特别推荐内容
@@ -46,7 +46,7 @@ ms.locfileid: "79496254"
 
     :::image type="content" source="media/service-featured-content/power-bi-featured-content-settings.png" alt-text="特别推荐的内容设置":::
 
-4. 选择“保存”。 
+4. 选择“保存”  。
 
     现在，所有可以访问此仪表板或报表的用户都可在“主页”的“特别推荐”部分看到特别推荐的内容   。
 
@@ -60,5 +60,5 @@ ms.locfileid: "79496254"
 
 * [应如何针对仪表板及报表开展协作并进行共享？](../service-how-to-collaborate-distribute-dashboards-reports.md)
 * [在管理门户中管理特别推荐的内容](../service-admin-portal.md#manage-featured-content)
-* 是否有任何问题? [尝试参与 Power BI 社区](https://community.powerbi.com/)
+* 是否有任何问题？ [尝试参与 Power BI 社区](https://community.powerbi.com/)
 

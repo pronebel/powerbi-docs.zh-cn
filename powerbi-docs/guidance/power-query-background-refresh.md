@@ -10,10 +10,10 @@ ms.topic: conceptual
 ms.date: 09/26/2019
 ms.author: v-pemyer
 ms.openlocfilehash: 59cb62a9186da03a265fc3a8711d7275c3772af3
-ms.sourcegitcommit: ef9ab7c0d84b926094c33e8aa2765cd43b844314
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/03/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "75623052"
 ---
 # <a name="disable-power-query-background-refresh"></a>禁用 Power Query 后台刷新
@@ -43,4 +43,4 @@ ms.locfileid: "75623052"
 有关本文的详细信息，请参阅以下资源：
 
 - [Power Query 文档](/power-query/)
-- 是否有任何问题? [尝试咨询 Power BI 社区](https://community.powerbi.com/)
+- 是否有任何问题？ [尝试咨询 Power BI 社区](https://community.powerbi.com/)

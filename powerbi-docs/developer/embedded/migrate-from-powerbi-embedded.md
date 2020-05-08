@@ -8,10 +8,10 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 06/30/2018
 ms.openlocfilehash: a8ce4209610e229ae1da7773bd7cb10bd522f72c
-ms.sourcegitcommit: 444f7fe5068841ede2a366d60c79dcc9420772d4
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/30/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "80404051"
 ---
 # <a name="how-to-migrate-power-bi-workspace-collection-content-to-power-bi-embedded"></a>如何将 Power BI 工作区集合内容迁移到 Power BI Embedded
@@ -116,7 +116,7 @@ Microsoft 最近[发布了 Power BI Embedded](https://powerbi.microsoft.com/blog
 
 缓存数据集是指已导入数据的 PBIX 文件，而不是采用实时连接或 DirectQuery 连接。
 
-流 
+**流**
 
 1. 从 PaaS 工作区调用下载 PBIX API。
 2. 保存 PBIX。
@@ -124,7 +124,7 @@ Microsoft 最近[发布了 Power BI Embedded](https://powerbi.microsoft.com/blog
 
 #### <a name="directquery-dataset--report"></a>DirectQuery 数据集和报表
 
-流 
+**流**
 
 1. 调用 GET `https://api.powerbi.com/v1.0/collections/{collection_id}/workspaces/{wid}/datasets/{dataset_id}/Default.GetBoundGatewayDataSources` 并保存收到的连接字符串。
 2. 从 PaaS 工作区调用下载 PBIX API。
@@ -138,7 +138,7 @@ Microsoft 最近[发布了 Power BI Embedded](https://powerbi.microsoft.com/blog
 
 这些数据集/报表是在 2016 年 10 月之前创建的。 下载 PBIX 不支持 2016 年 10 月之前上传的 PBIX
 
-流 
+**流**
 
 1. 从开发环境中获取 PBIX（内部源代码管理）。
 2. 将导入 PBIX 调用到 SaaS 工作区。
@@ -147,7 +147,7 @@ Microsoft 最近[发布了 Power BI Embedded](https://powerbi.microsoft.com/blog
 
 下载 PBIX 不支持推送 API  数据集。 无法将推送 API 数据集从 PaaS 移植到 SaaS。
 
-流 
+**流**
 
 1. 使用数据集 JSON 调用“创建数据集” API，在 SaaS 工作区中创建数据集。
 2. 为创建的数据集重新生成报表*。
@@ -168,12 +168,12 @@ Microsoft 最近[发布了 Power BI Embedded](https://powerbi.microsoft.com/blog
 ## <a name="rebuild-your-application"></a>重新生成应用程序
 
 1. 需要修改应用程序以使用 Power BI REST API 和 powerbi.com 中的报表位置。
-2. 使用应用程序的*主*帐户重新生成 AuthN/AuthZ 身份验证。 可以使用[嵌入令牌](https://docs.microsoft.com/rest/api/power-bi/embedtoken)来允许此用户代表其他用户执行操作。
+2. 使用应用程序的 *主* 帐户重新生成 AuthN/AuthZ 身份验证。 可以使用[嵌入令牌](https://docs.microsoft.com/rest/api/power-bi/embedtoken)来允许此用户代表其他用户执行操作。
 3. 将报表从 powerbi.com 嵌入到应用程序。
 
 ## <a name="map-your-users-to-a-power-bi-user"></a>将用户映射到 Power BI 用户
 
-在应用程序中，将在应用程序中管理的用户映射到应用程序的*主* Power BI 凭据。 此 Power BI *主*帐户的凭据将存储在应用程序中，并且可用于创建嵌入令牌。
+在应用程序中，将在应用程序中管理的用户映射到应用程序的*主* Power BI 凭据。 此 Power BI *主* 帐户的凭据将存储在应用程序中，并且可用于创建嵌入令牌。
 
 ## <a name="what-to-do-when-you-are-ready-for-production"></a>做好生产准备时应执行的操作
 

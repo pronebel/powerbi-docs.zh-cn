@@ -10,10 +10,10 @@ ms.date: 04/24/2020
 ms.author: davidi
 LocalizationGroup: Connect to data
 ms.openlocfilehash: a118cd0874410e538ca8329e0b8c0ed1bdb430b7
-ms.sourcegitcommit: 834cad24901f7fd966c4010e36a7904bc120e57f
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/24/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "82149598"
 ---
 # <a name="connect-to-an-oracle-database"></a>连接到 Oracle 数据库
@@ -60,7 +60,7 @@ ms.locfileid: "82149598"
 5. 如果 Oracle 数据库需要数据库用户凭据，请在出现提示时，输入这些凭据。
 
 
-## <a name="troubleshooting"></a>疑难解答
+## <a name="troubleshooting"></a>故障排除
 
 如果已从 Microsoft Store 下载 Power BI Desktop，则 Oracle 驱动程序问题可能导致你无法连接到 Oracle 数据库。 如果遇到此问题，则返回的错误消息为：未设置对象引用  。 要解决此问题，请执行以下步骤之一：
 

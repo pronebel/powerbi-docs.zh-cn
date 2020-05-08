@@ -9,10 +9,10 @@ ms.topic: conceptual
 ms.date: 11/01/2017
 ms.author: davidi
 ms.openlocfilehash: cab64bdcd5707cfd0b1578e82334de4b5c84495c
-ms.sourcegitcommit: b2cb0b02bdc451bf11a92a68f2c4d560a811f563
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/16/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "81439954"
 ---
 # <a name="how-to-configure-power-bi-report-scheduled-refresh"></a>如何配置 Power BI 报表计划的刷新
@@ -78,7 +78,7 @@ ms.locfileid: "81439954"
    | 正在刷新数据 |刷新模型内的数据。 |
    | 正在从模型中删除凭据 |从模型中删除用于连接到数据源的凭据 |
    | 正在将模型保存到目录 |数据刷新已完成，并且正在将刷新的模型保存回报表服务器目录数据库。 |
-   | 已完成：数据刷新 |刷新完成。 |
+   | 已完成: 数据刷新 |刷新完成。 |
    | 错误： |刷新期间出错并显示错误。 |
 
 若要查看当前的状态，必须刷新网页。 该状态不会自动更改。

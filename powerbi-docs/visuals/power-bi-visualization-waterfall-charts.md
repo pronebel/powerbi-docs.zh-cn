@@ -11,10 +11,10 @@ ms.date: 12/5/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
 ms.openlocfilehash: 6abca661a1553bfabc3da35fe714ff9bced5555a
-ms.sourcegitcommit: 8e3d53cf971853c32eff4531d2d3cdb725a199af
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/04/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "74907590"
 ---
 # <a name="waterfall-charts-in-power-bi"></a>Power BI 中的瀑布图
@@ -42,7 +42,7 @@ ms.locfileid: "74907590"
 
 * 若要通过显示各种收入来源来绘制公司的年利润图，并计算出总利润（或损失）。
 
-* 若要说明一年中公司的起始和结束员工数。
+* 显示一年开始和结束时公司的员工总数。
 
 * 若要直观呈现每月收入和支出，以及帐户不断变化的余额。
 
@@ -50,13 +50,13 @@ ms.locfileid: "74907590"
 
 本教程使用[零售分析示例 PBIX 文件](https://download.microsoft.com/download/9/6/D/96DDC2FF-2568-491D-AAFA-AFDD6F763AE3/Retail%20Analysis%20Sample%20PBIX.pbix)。
 
-1. 在菜单栏的左上方，选择“文件” > “打开”  
+1. 在菜单栏的左上方，选择“文件” **“打开”**  >  
    
 2. 查找**零售分析示例 PBIX 文件**的副本
 
 1. 在报表视图中打开**零售分析示例 PBIX 文件**![报表视图屏幕截图图标](media/power-bi-visualization-kpi/power-bi-report-view.png)。
 
-1. 选择 ![黄色选项卡的屏幕截图。](media/power-bi-visualization-kpi/power-bi-yellow-tab.png) ，以添加新报表页。
+1. Select ![黄色选项卡的屏幕截图。](media/power-bi-visualization-kpi/power-bi-yellow-tab.png) ，以添加新报表页。
 
 
 ## <a name="create-a-waterfall-chart"></a>创建瀑布图
@@ -73,7 +73,7 @@ ms.locfileid: "74907590"
 
     ![可视化效果模板](media/power-bi-visualization-waterfall-charts/convert-waterfall.png)
 
-1. 依次选择“时间”   > “会计月份”  ，以将它添加到“类别”  井中。
+1. 选择**时间** > **财月**以将它添加到**类别**框。
 
     ![瀑布图](media/power-bi-visualization-waterfall-charts/power-bi-waterfall-month.png)
 
@@ -97,7 +97,7 @@ ms.locfileid: "74907590"
 
 进一步了解每月发生变化的最主要原因。
 
-1.  选择“商店” > “区域”，这会将“区域”添加到“细分”存储桶中     。
+1.  选择“商店” **“区域”，这会将“区域”添加到“细分”存储桶中** >     。
 
     ![显示明细存储桶中的存储](media/power-bi-visualization-waterfall-charts/power-bi-waterfall-breakdown.png)
 

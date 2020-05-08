@@ -10,10 +10,10 @@ ms.topic: conceptual
 ms.date: 04/17/2020
 LocalizationGroup: Premium
 ms.openlocfilehash: 9dbbf38b69d71811de4dd599951529234068b178
-ms.sourcegitcommit: d43761104f7daf4b2f297648855bb573b53e6d8c
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/18/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "81637931"
 ---
 # <a name="configure-and-manage-capacities-in-power-bi-premium"></a>配置和管理 Power BI Premium 容量
@@ -126,14 +126,14 @@ Power BI 管理员和 Office 365 全局管理员可以更改 Power BI Premium �
 
     ![分配工作区](media/service-admin-premium-manage/assign-workspaces.png)
 
-   | 选择 | 说明 |
+   | Selection | 说明 |
    | --- | --- |
    | 按用户分配工作区  | 按用户或按组分配工作区时，这些用户拥有的所有工作区都将被分配到高级容量，包括用户的个人工作区。 所述的用户自动获得工作区分配权限。<br>包括已分配到不同容量的工作区。 |
    | 特定工作区  | 输入要分配给所选容量的特定工作区的名称。 |
    | 整个组织的工作区  | 将整个组织的工作区分配到高级容量，会把组织中的所有“工作区”和“我的工作区”分配到这个高级容量。 此外，当前和未来的所有用户都将有权向此容量重新分配个别工作区。 |
    | | |
 
-1. 选择**应用**。
+1. 选择“应用”。 
 
 ### <a name="assign-from-workspace-settings"></a>从工作区设置分配
 
@@ -149,7 +149,7 @@ Power BI 管理员和 Office 365 全局管理员可以更改 Power BI Premium �
 
     ![容量选择下拉列表](media/service-admin-premium-manage/app-workspace-advanced.png)
 
-1. 选择“保存”。 
+1. 选择“保存”  。
 
 保存后，工作区及其所有内容都会被迁移到高级容量，这不会影响最终用户的任何体验。
 
@@ -159,7 +159,7 @@ Power BI 管理员和 Office 365 全局管理员可以更改 Power BI Premium �
 
 ![容量设置中的 Power BI 报表服务器密钥](media/service-admin-premium-manage/pbirs-product-key.png)
 
-选择“Power BI 报表服务器密钥”  将显示包含产品密钥的对话框。 可以复制该密钥并用来进行安装。
+选择“Power BI 报表服务器密钥”  将显示包含产品密钥的对话框。 可以复制密钥，用于安装。
 
 ![Power BI 报表服务器产品密钥](media/service-admin-premium-manage/pbirs-product-key-dialog.png)
 
