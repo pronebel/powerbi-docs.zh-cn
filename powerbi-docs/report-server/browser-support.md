@@ -9,10 +9,10 @@ ms.topic: conceptual
 ms.date: 10/24/2018
 ms.author: maggies
 ms.openlocfilehash: 724bd7a9a11c42520c520019f1c4a67415aa5487
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/09/2019
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "73874304"
 ---
 # <a name="browser-support-for-power-bi-report-server"></a>Power BI 报表服务器的浏览器支持
@@ -75,7 +75,7 @@ OS X 10.9-10.11
 | Microsoft Internet Explorer  |协商、Kerberos、NTLM、基本 |协商 |是的。 默认身份验证设置适用于 Internet Explorer。 |
 | Google Chrome  (+) |协商、NTLM、基本 |协商 |是的。 默认身份验证设置适用于 Chrome。 |
 | Mozilla Firefox  (+) |NTLM、基本 |NTLM |是的。 默认身份验证设置适用于 Firefox。 |
-| Apple Safari  (+) |NTLM、基本 |基本 |是的。 默认身份验证设置适用于 Safari。 |
+| Apple Safari  (+) |NTLM、基本 |基本信息 |是的。 默认身份验证设置适用于 Safari。 |
 
  (+)  表示最新公开发布的版本
 

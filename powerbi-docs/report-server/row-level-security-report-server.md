@@ -9,10 +9,10 @@ ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 01/22/2019
 ms.openlocfilehash: 7436b97cdeacf08f1d4ed9374ec615d56ae92db1
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/09/2019
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "73859183"
 ---
 # <a name="row-level-security-rls-in-power-bi-report-server"></a>Power BI 报表服务器中的行级别安全性 (RLS)
@@ -47,7 +47,7 @@ ms.locfileid: "73859183"
 1. 在 Power BI Desktop 中，将报表保存到 Power BI 报表服务器。 需要使用更适合 Power BI 报表服务器的 Power BI Desktop 版本。
 2. 在 Power BI 报表服务中，请选择报表旁边的省略号(…)  。 
 
-3. 选择“管理” > “行级别安全性”   。 
+3. 选择“管理” **“行级别安全性”**  >   。 
 
      ![管理行级别安全性](media/row-level-security-report-server/power-bi-report-server-rls-dialog.png)
 
@@ -105,7 +105,7 @@ ms.locfileid: "73859183"
 
 ### <a name="can-i-use-rls-to-limit-the-columns-or-measures-accessible-by-my-users"></a>我能使用 RLS 限制用户可以访问的列或度量值吗？ 
 
-否。 如果用户有权访问特定数据行，那么他们可以查看该行的所有数据列。 
+不行。 如果用户有权访问特定数据行，那么他们可以查看该行的所有数据列。 
 
 ### <a name="does-rls-let-me-hide-detailed-data-but-give-access-to-data-summarized-in-visuals"></a>RLS 是否允许我隐藏详细的数据，但提供对在视觉对象中汇总的数据的访问权限？ 
 

@@ -10,10 +10,10 @@ ms.date: 01/02/2020
 ms.author: gepopell
 LocalizationGroup: Connect to data
 ms.openlocfilehash: b604ade56335e65b25501eb9fe3d3c2fd185a6f0
-ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/09/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "75761379"
 ---
 # <a name="connector-extensibility-in-power-bi"></a>Power BI 中的连接器扩展性
@@ -28,11 +28,11 @@ Power BI 可以通过使用现有连接器和通用数据源（例如 ODBC、ODa
 
 非认证自定义连接器可以容纳很多可能性，包括对业务至关重要的小型 API，以及 Microsoft 尚未发布连接器的大型行业特色服务。 许多连接器由供应商进行分发。 如果需要特定数据连接器，请联系供应商。 
 
-若要使用非认证自定义连接，请将连接器 .pq、.pqx、.m 或 .mez 文件放入 \[Documents]\\Power BI Desktop\\Custom Connectors 文件夹中      。 如果此文件夹不存在，请创建它。
+若要使用非认证自定义连接，请将连接器 .pq、.pqx、.m 或 .mez 文件放入 *Documents]* Power BI Desktop*Custom Connectors 文件夹中*   *\[\\\\* 。 如果此文件夹不存在，请创建它。
 
 按如下所示调整数据扩展安全设置：
 
-在 Power BI Desktop 中，选择“文件” > “选项和设置” > “选项” > “安全”     。
+在 Power BI Desktop 中，选择“文件” **“选项和设置”** “选项” > “安全”   >    >   。
 
 在“数据扩展”下，选择“(不推荐)允许加载任何扩展而不经过验证或发出警告”   。 选择“确定”，然后重启 Power BI Desktop  。 
 

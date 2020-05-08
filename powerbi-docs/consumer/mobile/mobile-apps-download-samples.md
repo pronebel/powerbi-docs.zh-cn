@@ -8,17 +8,17 @@ ms.topic: conceptual
 ms.date: 11/26/2019
 ms.author: painbar
 ms.openlocfilehash: 82a299dad5d58ca03d2b05ae02c49e0da0478303
-ms.sourcegitcommit: 02b05932a119527f255e1eacc745a257044e392f
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/19/2019
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "75256784"
 ---
 # <a name="downloading-samples-to-my-workspace-in-the-power-bi-service"></a>将示例下载到 Power BI 服务中的“我的工作区”
 
 此处提供的某些移动应用文档使用示例数据进行说明。 若要在设备上执行操作，可以将示例数据下载到 Power BI 服务帐户，之后可以在设备上的 Power BI 移动版应用中查看它。 本文介绍如何将示例数据下载到 Power BI 服务帐户。 
 
-## <a name="prerequisites"></a>先决条件
+## <a name="prerequisites"></a>必备组件
 
 必须具有 Power BI 服务帐户才能下载数据。 如果尚未注册 Power BI，请[注册免费试用版](https://app.powerbi.com/signupredirect?pbi_source=web)后再进行操作。
 
@@ -46,4 +46,4 @@ ms.locfileid: "75256784"
 
 ## <a name="next-steps"></a>后续步骤
 * [快速入门](mobile-apps-quickstart-view-dashboard-report.md)
-* 是否有任何问题? 查看 [Power BI 社区中的“移动应用”部分](https://go.microsoft.com/fwlink/?linkid=839277)
+* 是否有任何问题？ 查看 [Power BI 社区中的“移动应用”部分](https://go.microsoft.com/fwlink/?linkid=839277)

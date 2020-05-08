@@ -9,10 +9,10 @@ ms.date: 04/24/2020
 ms.author: painbar
 LocalizationGroup: Connect to services
 ms.openlocfilehash: 6af8568dc39544ce064643c8dfb80fa2932cf13a
-ms.sourcegitcommit: 834cad24901f7fd966c4010e36a7904bc120e57f
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/24/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "82149661"
 ---
 # <a name="connect-to-the-regional-emergency-response-dashboard"></a>连接到区域紧急响应仪表板
@@ -97,6 +97,6 @@ ms.locfileid: "82149661"
 ## <a name="next-steps"></a>后续步骤
 * [了解区域紧急响应仪表板](https://docs.microsoft.com/powerapps/sample-apps/regional-emergency-response/portals-admin-reporting#get-insights)
 * [在 Power Apps 中设置并了解危机通信示例模板](https://docs.microsoft.com/powerapps/maker/canvas-apps/sample-crisis-communication-app)
-* 有疑问？ [尝试在 Power BI 社区中提问](https://community.powerbi.com/)
+* 是否有任何问题? [尝试咨询 Power BI 社区](https://community.powerbi.com/)
 * [什么是 Power BI 模板应用？](../service-template-apps-overview.md)
 * [在组织中安装和分发模板应用](../service-template-apps-install-distribute.md)

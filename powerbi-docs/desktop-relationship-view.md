@@ -10,10 +10,10 @@ ms.date: 01/17/2020
 ms.author: davidi
 LocalizationGroup: Model your data
 ms.openlocfilehash: ea568c061142e66e79351de8a6c0f0603a46f775
-ms.sourcegitcommit: 08f65ea314b547b41b51afef6876e56182190266
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/25/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "76753207"
 ---
 # <a name="work-with-model-view-in-power-bi-desktop"></a>使用 Power BI Desktop 中的模型视图
@@ -24,6 +24,6 @@ ms.locfileid: "76753207"
 
 ![模型视图，Power BI Desktop](media/desktop-relationship-view/model-view-full-screen.png)
 
-在上图中，“商店”表中有一个 StoreKey 列，该列与“销售”表中的 StoreKey 列相关     。 这两个表具有多对一 (\*:1) 关系  。 行中间的箭头显示了筛选器上下文流的方向。 双箭头表示交叉筛选器方向均设置为“双向”  。
+在上图中，“商店”表中有一个 StoreKey 列，该列与“销售”表中的 StoreKey 列相关     。 这两个表具有多对一 ( *:1) 关系*\*。 行中间的箭头显示了筛选器上下文流的方向。 双箭头表示交叉筛选器方向均设置为“双向”  。
 
 你可以双击关系以在“编辑关系”  对话框中将其打开。 有关关系的详细信息，请参阅[在 Power BI Desktop 中创建和管理关系](desktop-create-and-manage-relationships.md)。

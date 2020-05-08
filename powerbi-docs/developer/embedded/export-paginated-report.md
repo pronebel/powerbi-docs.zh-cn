@@ -8,10 +8,10 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.date: 04/05/2020
 ms.openlocfilehash: acb13a70ea4693f447b70aa59da07cd91639de25
-ms.sourcegitcommit: 81407c9ccadfa84837e07861876dff65d21667c7
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/13/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "81268756"
 ---
 # <a name="export-paginated-report-to-file-preview"></a>将分页报表导出为文件（预览）
@@ -100,7 +100,7 @@ ms.locfileid: "81268756"
 }
 ```
 
-### <a name="authentication"></a>身份验证
+### <a name="authentication"></a>Authentication
 
 只能使用用户（或主用户）或[服务主体](embed-service-principal.md)进行身份验证。
 

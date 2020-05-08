@@ -9,19 +9,19 @@ ms.topic: conceptual
 ms.date: 09/09/2019
 ms.author: kfollis
 LocalizationGroup: Administration
-ms.openlocfilehash: 828736dac528a8ba8c77b90162309236f5bc7018
-ms.sourcegitcommit: d42fbe235b6cf284ecc09c2a3c005459cec11272
+ms.openlocfilehash: d17c6bbe5ddf6cd39626ac0038595543cd2fecfb
+ms.sourcegitcommit: 220910f0b68cb1e265ccd5ac0cee4ee9c6080b26
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/22/2020
-ms.locfileid: "77558616"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "82841057"
 ---
 # <a name="distribute-power-bi-content-to-external-guest-users-with-azure-ad-b2b"></a>使用 Azure AD B2B 将 Power BI 内容分发给外部来宾用户
 
 Power BI 允许通过 Azure Active Directory 企业到企业 (Azure AD B2B) 与外部来宾用户共享内容。
 使用 Azure AD B2B，你的组织可以在一个中心位置启用和管理与外部用户的共享。 默认情况下，外部来宾具有仅限使用的体验。 另外，你还可以使组织外部的来宾用户能够编辑和管理组织内的内容。
 
-本文对 Power BI 中的 Azure AD B2B 进行了基本介绍。 有关详细信息，请参阅[使用 Azure Active Directory B2B 将 Power BI 内容分发给外部来宾用户](whitepaper-azure-b2b-power-bi.md)。
+本文对 Power BI 中的 Azure AD B2B 进行了基本介绍。 有关详细信息，请参阅[使用 Azure Active Directory B2B 将 Power BI 内容分发给外部来宾用户](guidance/whitepaper-azure-b2b-power-bi.md)。
 
 ## <a name="enable-access"></a>启用访问权限
 
@@ -34,7 +34,7 @@ Power BI 允许通过 Azure Active Directory 企业到企业 (Azure AD B2B) 与�
 
 ## <a name="who-can-you-invite"></a>可以邀请哪些用户？
 
-可以邀请拥有最普遍电子邮件地址的来宾用户（包括如 gmail.com、outlook.com 以及 hotmail.com 等个人帐户）加入你的组织。 Azure AD B2B 将这些地址称为“社交标识”。
+可以邀请拥有最普遍电子邮件地址的来宾用户（包括如 gmail.com、outlook.com 以及 hotmail.com 等个人帐户）加入你的组织。 Azure AD B2B 将这些地址称为“社交标识”  。
 
 不能邀请与政府云服务（如 [面向美国政府的 Power BI](service-govus-overview.md)）关联的用户。
 
@@ -54,21 +54,21 @@ Power BI 允许通过 Azure Active Directory 企业到企业 (Azure AD B2B) 与�
 
 若要在 Azure 门户中发送邀请，请按以下步骤操作。
 
-1. 在[Azure 门户](https://portal.azure.com)中，选择“Azure Active Directory”。
+1. 在[Azure 门户](https://portal.azure.com)中，选择“Azure Active Directory”  。
 
-1. 在“管理”下，选择“用户” > “所有用户” > “新建来宾用户”。
+1. 在“管理”  下，选择“用户”   > “所有用户”   > “新建来宾用户”  。
 
     ![显示“新建来宾用户”选项的 Azure 门户的屏幕截图。](media/service-admin-azure-ad-b2b/azure-ad-portal-new-guest-user.png)
 
-1. 输入“电子邮件地址”和“个人消息”。
+1. 输入“电子邮件地址”  和“个人消息”  。
 
     ![Azure AD 门户“新建来宾用户”对话框的屏幕截图。](media/service-admin-azure-ad-b2b/azure-ad-portal-invite-message.png)
 
-1. 选择“邀请”。
+1. 选择“邀请”  。
 
 若要邀请多个来宾用户，请使用 PowerShell。 有关详细信息，请参阅 [Azure AD B2B 协作代码和 PowerShell 示例](/azure/active-directory/b2b/code-samples/)。
 
-来宾用户需要在他们收到的电子邮件邀请中选择“开始”。 然后就会将该来宾用户添加到租户。
+来宾用户需要在他们收到的电子邮件邀请中选择“开始”  。 然后就会将该来宾用户添加到租户。
 
 ![来宾用户电子邮件邀请的屏幕截图。](media/service-admin-azure-ad-b2b/guest-user-invite-email.png)
 
@@ -115,9 +115,9 @@ Power BI 允许通过 Azure Active Directory 企业到企业 (Azure AD B2B) 与�
  
 若要帮助经允许的来宾登录到 Power BI，请向其提供租户 URL。 要查找租户 URL，请执行以下步骤。
 
-1. 在 Power BI 服务的顶部菜单栏中，依次选择帮助图标 (?)和“关于 Power BI”。
+1. 在 Power BI 服务的顶部菜单栏中，依次选择帮助图标 (?  )和“关于 Power BI”  。
 
-2. 查找“租户 URL”旁的值。 与允许访问的来宾用户共享租户 URL。
+2. 查找“租户 URL”旁的值  。 与允许访问的来宾用户共享租户 URL。
 
     ![“关于 Power BI”对话框的屏幕截图，其中突出显示了“来宾用户租户 URL”。](media/service-admin-azure-ad-b2b/power-bi-about-dialog.png)
 

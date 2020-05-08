@@ -10,10 +10,10 @@ ms.topic: conceptual
 ms.date: 02/20/2020
 LocalizationGroup: Premium
 ms.openlocfilehash: 133d807d26ba6571eeb614852f3f651a749a369f
-ms.sourcegitcommit: b22a9a43f61ed7fc0ced1924eec71b2534ac63f3
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "77527762"
 ---
 # <a name="bring-your-own-encryption-keys-for-power-bi"></a>自带加密密钥使用 Power BI
@@ -54,41 +54,41 @@ BYOK 仅适用于数据集。 用户可以上传到服务的推送数据集、Ex
     > [!IMPORTANT]
     > Power BI BYOK 仅支持 4096 位长度的 RSA 密钥。
 
-1. 建议：检查并确保密钥保管库已启用“软删除”选项。
+1. 建议：检查并确保密钥保管库已启用“软删除”选项  。
 
 ### <a name="add-the-service-principal"></a>添加服务主体
 
-1. 在 Azure 门户的密钥保管库中，在“访问策略”下，选择“新建”。
+1. 在 Azure 门户的密钥保管库中，在“访问策略”下，选择“新建”   。
 
-1. 在“选择主体”下，搜索并选择“Microsoft.Azure.AnalysisServices”。
+1. 在“选择主体”下，搜索并选择“Microsoft.Azure.AnalysisServices”  。
 
     > [!NOTE]
     > 如果找不到“Microsoft.Azure.AnalysisServices”，则可能是与 Azure Key Vault 关联的 Azure 订阅没有与之关联的 Power BI 资源。 请尝试改为搜索以下字符串：00000009-0000-0000-c000-000000000000。
 
-1. 在“密钥权限”下，选择“解包密钥”和“包装密钥”。
+1. 在“密钥权限”下，选择“解包密钥”和“包装密钥”    。
 
     ![PBIX 文件组件](media/service-encryption-byok/service-principal.png)
 
-1. 依次选择“确定”和“保存”。
+1. 依次选择“确定”和“保存”   。
 
 > [!NOTE]
 > 若要在将来撤消 Power BI 对你的数据的访问权限，请从 Azure 密钥保管库中删除对此服务主体的访问权限。
 
 ### <a name="create-an-rsa-key"></a>创建 RSA 密钥
 
-1. 在密钥保管库中的“密钥”下，选择“生成/导入”。
+1. 在密钥保管库中的“密钥”下，选择“生成/导入”   。
 
-1. 选择 RSA 的“密钥类型”和 4096 的“RSA 密钥大小”。
+1. 选择 RSA 的“密钥类型”和 4096 的“RSA 密钥大小”   。
 
     ![PBIX 文件组件](media/service-encryption-byok/create-rsa-key.png)
 
-1. 选择“创建”。
+1. 选择“创建”  。
 
-1. 在“密钥”下，选择所创建的密钥。
+1. 在“密钥”下，选择所创建的密钥  。
 
-1. 选择密钥“当前版本”的 GUID。
+1. 选择密钥“当前版本”的 GUID  。
 
-1. 检查并确保已选中“包装密钥”和“解包密钥”。 复制“密钥标识符”，以在 Power BI 中启用 BYOK 时使用。
+1. 检查并确保已选中“包装密钥”和“解包密钥”   。 复制“密钥标识符”，以在 Power BI 中启用 BYOK 时使用  。
 
     ![PBIX 文件组件](media/service-encryption-byok/key-properties.png)
 
