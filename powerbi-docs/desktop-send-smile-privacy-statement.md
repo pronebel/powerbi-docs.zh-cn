@@ -10,15 +10,15 @@ ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Learn more
 ms.openlocfilehash: 39fa082133b519feab004f475110a3a701ff085c
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/09/2019
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "73876120"
 ---
 # <a name="power-bi-desktop-send-a-smile-privacy-statement"></a>Power BI Desktop“发送微笑”隐私声明
 
-自 Power BI Desktop 的 2018 年 3 月版起，错误报告使用 Windows 错误报告平台，而不是“发送微笑”/“发送哭脸”功能    。 有关 Windows 错误报告平台的详细信息，可查看 [Windows 隐私博客](https://blogs.windows.com/windowsexperience/2018/01/24/microsoft-introduces-new-privacy-tools-ahead-of-data-privacy-day/)。 
+自 Power BI Desktop 的 2018 年 3 月版起，错误报告使用 Windows 错误报告平台，而不是“发送微笑”/“发送皱眉表情”功能    。 有关 Windows 错误报告平台的详细信息，可查看 [Windows 隐私博客](https://blogs.windows.com/windowsexperience/2018/01/24/microsoft-introduces-new-privacy-tools-ahead-of-data-privacy-day/)。 
 
 ## <a name="for-versions-of-power-bi-desktop-prior-to-march-2018"></a>对于 2018 年 3 月之前的 Power BI Desktop 版本
 

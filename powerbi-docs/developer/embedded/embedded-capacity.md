@@ -9,10 +9,10 @@ ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 02/11/2020
 ms.openlocfilehash: 27d6ddd9b24e09805bd22150a22347e5cd93c8e0
-ms.sourcegitcommit: a175faed9378a7d040a08ced3e46e54503334c07
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/18/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "79492827"
 ---
 # <a name="capacity-and-skus-in-power-bi-embedded-analytics"></a>Power BI 嵌入式分析中的容量和 SKU
@@ -59,7 +59,7 @@ Power BI Embedded 随附了 [a SKU  ](../../service-admin-premium-purchase.md#pu
 ### <a name="power-bi-premium-skus"></a>Power BI Premium SKU
 
 Power BI premium 提供两个 SKU，P 和 EM   。
-* [了解 P 和 EM SKU 的区别](../../service-premium-what-is.md#subscriptions-and-licensing)  
+* [了解 P 和 EM SKU 的区别   ](../../service-premium-what-is.md#subscriptions-and-licensing)
 * [购买 Premium SKU](../../service-admin-premium-purchase.md)
 
 ### <a name="which-sku-should-i-use"></a>我应该使用哪个 SKU？
@@ -158,7 +158,7 @@ Power BI premium 提供两个 SKU，P 和 EM   。
 </tr>
 <tr>
 <td><p><strong>Billing</strong></td>
-<td style="text-align: center;">每小时</td>
+<td style="text-align: center;">小时</td>
 <td style="text-align: center;">每月</td>
 <td style="text-align: center;">每月</td>
 </tr>
@@ -180,12 +180,12 @@ Power BI premium 提供两个 SKU，P 和 EM   。
 
 ### <a name="sku-memory-and-computing-power"></a>SKU 内存和计算能力
 
-下表介绍每个 SKU 的资源和限制。
+下表介绍了每个 SKU 的资源和限制。
 
 | 容量节点 | 总虚拟核心 | 后端 V 核心 | RAM (GB) | 前端 V 核心 | DirectQuery/Live Connection（每秒） | 模型刷新并行度 |
 | --- | --- | --- | --- | --- | --- | --- |
-| EM1/A1 | 1 | 0.5 | 2.5 | 0.5 | 3.75 | 1 |
-| EM2/A2 | 2 | 1 | 5 | 1 | 7.5 | 2 |
+| EM1/A1 | 第 1 个 | 0.5 | 2.5 | 0.5 | 3.75 | 第 1 个 |
+| EM2/A2 | 2 | 第 1 个 | 5 | 第 1 个 | 7.5 | 2 |
 | EM3/A3 | 4 | 2 | 10 | 2 | 15 | 3 |
 | P1/A4 | 8 | 4 | 25 | 4 | 30 | 6 |
 | P2/A5 | 16 | 8 | 50 | 8 | 60 | 12 |

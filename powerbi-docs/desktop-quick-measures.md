@@ -11,10 +11,10 @@ ms.date: 11/22/2019
 ms.author: davidi
 LocalizationGroup: Create reports
 ms.openlocfilehash: 4e5ea5e5fcbffb5c61434ecc26a90d80d1cd1736
-ms.sourcegitcommit: 8e3d53cf971853c32eff4531d2d3cdb725a199af
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/04/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "74415259"
 ---
 # <a name="use-quick-measures-for-common-calculations"></a>使用快速度量执行常见计算
@@ -60,7 +60,7 @@ ms.locfileid: "74415259"
   * 类别总数（应用筛选器）
   * 类别总数（未应用筛选器）
 * **数学运算**
-  * 相加
+  * 加法
   * 减法
   * 乘法
   * 除法
@@ -134,5 +134,5 @@ ms.locfileid: "74415259"
 可以将自己的自定义日期表与时间智能快速度量配合使用。 如果使用的是外部表格模型，请确保在生成模型时，此表中的主日期列被标记为“日期”表，如[指定“标记为日期表”以便与时间智能配合使用](https://docs.microsoft.com/sql/analysis-services/tabular-models/specify-mark-as-date-table-for-use-with-time-intelligence-ssas-tabular)所述。 如果要导入自己的日期表，请确保将其标记为“日期”表，如[在 Power BI Desktop 中设置和使用日期表](desktop-date-tables.md)所述。
 
 ### <a name="additional-information-and-examples"></a>其他信息和示例
-对尚未提供的快速度量有建议吗？ 很好！ 请参阅 [Power BI 建议](https://go.microsoft.com/fwlink/?linkid=842906)页，并提交你的建议以及想要在 Power BI Desktop 中使用的快速度量的 DAX 公式。 在未来版本中，我们会考虑将其添加到“快速度量”列表。
+对尚未提供的快速度量有建议吗？ 很棒！ 请参阅 [Power BI 建议](https://go.microsoft.com/fwlink/?linkid=842906)页，并提交你的建议以及想要在 Power BI Desktop 中使用的快速度量的 DAX 公式。 在未来版本中，我们会考虑将其添加到“快速度量”列表。
 

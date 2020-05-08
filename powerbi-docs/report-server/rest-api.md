@@ -9,10 +9,10 @@ ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 05/25/2018
 ms.openlocfilehash: 9b8e795c4a55f9efd6fd534d92d95b36c93cf2c0
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/09/2019
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "73874077"
 ---
 # <a name="develop-with-the-rest-apis-for-power-bi-report-server"></a>使用适用于 Power BI 报表服务器的 REST API 进行开发
@@ -29,7 +29,7 @@ REST API 请求/响应对可以分为五个组件：
 
 * 请求 URI  ，其中包括：`{URI-scheme} :// {URI-host} / {resource-path} ? {query-string}`。 尽管请求 URI 包含在请求消息标头中，但我们还是可以在此单独调出，因为大多数语言或框架都要求你单独将其从请求消息传递出去。
   
-  * URL 方案：指示用来传输请求的协议。 例如 `http` 或 `https`。
+  * URI 方案：指示用来传输请求的协议。 例如 `http` 或 `https`。
   * URI 主机：指定托管 REST 服务终结点的服务器的域名或 IP 地址，如 `myserver.contoso.com`。
   * 资源路径：指定资源或资源集合，其可能包括服务使用的用于确定资源选择的多个段。 例如：`CatalogItems(01234567-89ab-cdef-0123-456789abcdef)/Properties` 可用于获取 CatalogItem 的指定属性。
   * 查询字符串（可选）：提供附加的简单参数，如 API 版本或资源选择条件。

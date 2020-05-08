@@ -1,9 +1,9 @@
 ---
 ms.openlocfilehash: c3b1b7288d0d277fc866ea47887335d10279c6cc
-ms.sourcegitcommit: a5853ef44ed52e80eabee3757bb6887fa400b75b
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/07/2019
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "73799699"
 ---
 DAX 拥有许多可用于成形、组织或分析数据的函数。 这些函数可以分为以下几个类别：
@@ -52,7 +52,7 @@ DAX 中经常使用的**计数**函数包括：
 ## <a name="logical-functions"></a>逻辑函数
 DAX 中的**逻辑**函数包括：
 
-* AND
+* 和
 * OR
 * NOT
 * IF

@@ -9,14 +9,14 @@ ms.date: 08/29/2019
 ms.author: maggies
 LocalizationGroup: Connect to services
 ms.openlocfilehash: c342a7472666ee50b7213e7d933ad36da85ce7f6
-ms.sourcegitcommit: 8e3d53cf971853c32eff4531d2d3cdb725a199af
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/04/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "76975024"
 ---
 # <a name="connect-to-the-services-you-use-with-power-bi"></a>使用 Power BI 连接到要使用的服务
-使用 Power BI，可连接到多个用于运行业务的服务，例如 Salesforce、Microsoft Dynamics 和 Google Analytics。 Power BI 首先使用凭据连接到服务。 然后创建包含一个仪表板和一组 Power BI 报表的 Power BI 工作区，这些报表可自动显示数据并提供业务视觉对象见解。
+使用 Power BI，可连接到多个用于运行业务的服务，例如 Salesforce、Microsoft Dynamics 和 Google Analytics。 Power BI 首先使用凭据连接到服务。 然后创建包含一个仪表板和一组 Power BI 报表的 Power BI 工作区，这些报表可自动显示数据并提供业务视觉对象见解  。
 
 >[!IMPORTANT]
 >正在将服务内容包替换为[模板应用](https://docs.microsoft.com/power-bi/service-template-apps-overview)。 自 2019 年 9 月 25 日起，大量内容包已遭弃用。 你已安装但已被弃用的任何内容包将保留在你的帐户中，但不会对其提供任何文档或支持，也无法再安装它们。
@@ -25,17 +25,17 @@ ms.locfileid: "76975024"
 
 ![AppSource 应用](media/service-connect-to-services/overview.png)
 
-安装应用后，可在应用中查看仪表板和报表，并在 Power BI 服务 ([https://app.powerbi.com](https://app.powerbi.com)) 中查看工作区。 也可在 Power BI 移动应用中查看它们。 在工作区中，可以修改仪表板和报表来满足组织的需要，然后将其作为应用分发给同事。 
+安装应用后，可在应用中查看仪表板和报表，并在 Power BI 服务 ([https://app.powerbi.com](https://app.powerbi.com)) 中查看工作区。 也可在 Power BI 移动应用中查看它们。 在工作区中，可以修改仪表板和报表来满足组织的需要，然后将其作为应用分发给同事  。 
 
 ![Power BI 移动应用中的 Google Analytics 应用](media/service-connect-to-services/power-bi-service-mobile-app-240.png)
 
-## <a name="get-started"></a>开始使用
+## <a name="get-started"></a>入门
 [!INCLUDE [powerbi-service-apps-get-more-apps](./includes/powerbi-service-apps-get-more-apps.md)]
 
 ## <a name="edit-the-dashboard-and-reports"></a>编辑仪表板和报表
 导入完成后，新的应用将显示在“应用”页上。
 
-1. 选择导航窗格中的“应用”，然后选择应用。
+1. 选择导航窗格中的“应用”，然后选择应用  。
    
      ![应用页](media/service-connect-to-services/power-bi-service-apps-open-app.png)
 2. 可以通过在问答框中键入来提出问题，或单击磁贴打开基础报表。 
@@ -55,7 +55,7 @@ ms.locfileid: "76975024"
 **空磁贴**  
 Power BI 首次连接到服务时，你可能会在仪表板上看到一组空磁贴。 如果 2 小时后，仪表板仍然为空，很有可能是连接失败造成的。 如果没有看到包含可修复此问题相关信息的错误消息，请提交支持票证。
 
-* 选择右上角的问号图标 (“?”)，然后选择“获取帮助”。
+* 选择右上角的问号图标 (“?”  )，然后选择“获取帮助”  。
   
     ![获取帮助图标](media/service-connect-to-services/power-bi-service-get-help.png)
 
@@ -70,5 +70,5 @@ Power BI 首次连接到服务时，你可能会在仪表板上看到一组空�
 ## <a name="next-steps"></a>后续步骤
 * [将应用分发到给同事](service-create-distribute-apps.md)
 * [在 Power BI 中创建新工作区](service-create-the-new-workspaces.md)
-* 是否有任何问题? [尝试咨询 Power BI 社区](https://community.powerbi.com/)
+* 是否有任何问题？ [尝试咨询 Power BI 社区](https://community.powerbi.com/)
 

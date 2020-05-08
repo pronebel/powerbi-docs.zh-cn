@@ -9,10 +9,10 @@ ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 06/04/2019
 ms.openlocfilehash: cac59a4689eecd75c53ca1c62d7b097438b2ae53
-ms.sourcegitcommit: 2c798b97fdb02b4bf4e74cf05442a4b01dc5cbab
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/21/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "80114511"
 ---
 # <a name="get-an-azure-ad-access-token-for-your-power-bi-application"></a>获取 Power BI 应用程序的 Azure AD 访问令牌
@@ -99,7 +99,7 @@ protected void signInButton_Click(object sender, EventArgs e)
 
 在 **Azure AD** 使用**授权代码**重定向回 Web 应用后，可使用授权代码来获取访问令牌。 下面的 C# 示例可用于重定向页面和 default.aspx 的 `Page_Load` 事件。
 
-可从 [Active Directory 身份验证库](https://www.nuget.org/packages/Microsoft.IdentityModel.Clients.ActiveDirectory/) NuGet 包检索 **Microsoft.IdentityModel.Clients.ActiveDirectory** 命名空间。
+可从 **Active Directory 身份验证库** NuGet 包检索 [Microsoft.IdentityModel.Clients.ActiveDirectory](https://www.nuget.org/packages/Microsoft.IdentityModel.Clients.ActiveDirectory/) 命名空间。
 
 ```powershell
 Install-Package Microsoft.IdentityModel.Clients.ActiveDirectory
@@ -196,7 +196,7 @@ var authenticationContext = new AuthenticationContext(AuthorityUrl);
 m_tokenCredentials = new TokenCredentials(authenticationResult.AccessToken, "Bearer");
 ```
 
-## <a name="troubleshoot"></a>疑难解答
+## <a name="troubleshoot"></a>故障排除
 
 错误消息：“'AuthenticationContext' 不包含 'AcquireToken' 的定义，并且找不到接受 'AuthenticationContext' 类型的第一个参数的可访问 'AcquireToken' (是否缺少 using 指令或程序集引用?)”。
 

@@ -9,10 +9,10 @@ ms.topic: conceptual
 ms.date: 01/14/2020
 ms.author: v-pemyer
 ms.openlocfilehash: 349459b95a815a52665e50687554f81f90a9c81b
-ms.sourcegitcommit: ced8c9d6c365cab6f63fbe8367fb33e6d827cb97
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/07/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "78920857"
 ---
 # <a name="avoid-blank-pages-when-printing-paginated-reports"></a>打印分页报表时避免出现空白页

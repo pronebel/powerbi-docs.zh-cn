@@ -12,10 +12,10 @@ ms.date: 01/31/2020
 ms.author: mihart
 LocalizationGroup: Get started
 ms.openlocfilehash: 595ce61bf2020c27420a33871e82ca7ff9025d60
-ms.sourcegitcommit: 87b7cb4a2e626711b98387edaa5ff72dc26262bb
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/10/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "79040134"
 ---
 # <a name="quickstart---getting-around-in-power-bi-service"></a>快速入门 - 使用 Power BI 服
@@ -84,7 +84,7 @@ ms.locfileid: "79040134"
 
 ![显示了“更多操作”菜单的“应用工作区”屏幕](./media/end-user-experience/power-bi-workspace-app.png)
 
-工作区也是指向数据的路径之一。 可从列表中选择仪表板或报表将其打开。  可将鼠标悬停在仪表板或报表上方并选择星形图标将其放入收藏夹。 如果设计人员向你授予了共享权限，则悬停鼠标还会显示共享操作  [sharing permissions](end-user-shared-with-me.md)。 
+工作区也是指向数据的路径之一。 可从列表中选择仪表板或报表将其打开。  可将鼠标悬停在仪表板或报表上方并选择星形图标将其放入收藏夹。 如果设计人员向你授予了[共享权限](end-user-shared-with-me.md)，则悬停鼠标还会显示共享操作  。 
 
 ![鼠标悬停时显示的菜单](./media/end-user-experience/power-bi-hover.png)
 

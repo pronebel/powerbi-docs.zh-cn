@@ -10,10 +10,10 @@ ms.date: 07/15/2019
 ms.author: arthii
 LocalizationGroup: Gateways
 ms.openlocfilehash: ea6d4186d2f02665201f2161f50e06ad8f0f45a6
-ms.sourcegitcommit: f77b24a8a588605f005c9bb1fdad864955885718
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/02/2019
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "74699397"
 ---
 # <a name="manage-your-data-source---analysis-services"></a>管理数据源 - Analysis Services
@@ -38,7 +38,7 @@ ms.locfileid: "74699397"
 > [!NOTE]
 > 输入的 Windows 帐户必须具有连接到该实例的服务器管理员权限。 如果此帐户的密码设置为过期，且数据源未更新此密码，则用户将遇到连接错误。 若要详细了解如何存储凭据，请参阅[在云中存储加密凭据](service-gateway-data-sources.md#store-encrypted-credentials-in-the-cloud)。
 
-![填充数据源设置](media/service-gateway-enterprise-manage-ssas/datasourcesettings3-ssas.png)
+![填写数据源设置](media/service-gateway-enterprise-manage-ssas/datasourcesettings3-ssas.png)
 
 填写所有内容之后，选择“添加”  。 现在可以使用此数据源对本地的 Analysis Services 实例进行计划刷新或实时连接。 如果成功，则会看到“连接成功”  。
 
@@ -116,7 +116,7 @@ Power BI 允许映射 Analysis Services 数据源的用户名。 你可以配置
 
 1. [下载和安装最新网关](/data-integration/gateway/service-gateway-install)。
 
-2. 在网关中，将本地数据网关服务更改为使用域帐户（而不是本地服务帐户）运行。 否则 Active Directory 查找将无法在运行时正常工作。 在计算机上转到[本地数据网关应用](/data-integration/gateway/service-gateway-app)，然后转到“服务设置” > “更改服务帐户”   。 请确保自己拥有此网关的恢复密钥，因为需要在同一台计算机上还原它，除非要改为新建网关。 重启网关服务以便使更改生效。
+2. 在网关中，将本地数据网关服务更改为使用域帐户（而不是本地服务帐户）运行。 否则 Active Directory 查找将无法在运行时正常工作。 在计算机上转到[本地数据网关应用](/data-integration/gateway/service-gateway-app)，然后转到“服务设置” **“更改服务帐户”**  >   。 请确保自己拥有此网关的恢复密钥，因为需要在同一台计算机上还原它，除非要改为新建网关。 重启网关服务以便使更改生效。
 
 3. 以管理员身份转到网关的安装文件夹 C:\Program Files\On-premises data gateway  ，以确保自己拥有写入权限。 打开 Microsoft.PowerBI.DataMovement.Pipeline.GatewayCore.dll.config  文件。
 
@@ -194,7 +194,7 @@ Analysis Services 还可以基于此帐户提供筛选。 筛选可能伴随基�
 
 模型提供了基于用户角色的安全性。 在 SQL Server Data Tools – Business Intelligence 中创作期间，或在部署模型之后，通过使用 SQL Server Management Studio 为特定模型项目定义角色。 角色按 Windows 用户名或按 Windows 组包含成员。 角色定义了用户进行查询或对模型执行操作所具有的权限。 大多数用户属于具有读取权限的角色。 其他角色用于具有处理项目、管理数据库功能和管理其他角色的权限的管理员。
 
-## <a name="row-level-security"></a>行级别安全性
+## <a name="row-level-security"></a>行级安全性
 
 行级别安全性特指 Analysis Services 行级别安全性。 模型可以提供动态的行级别安全性。 与至少具有一个用户所属的角色不同，任何表格模型都不需要动态安全性。 在较高级别，动态安全定义了用户对数据以至特定表中的特定行的读取访问权限。 类似于角色，动态行级别安全性依赖于用户的 Windows 用户名。
 

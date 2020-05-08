@@ -8,10 +8,10 @@ ms.topic: conceptual
 ms.date: 04/06/2020
 ms.author: painbar
 ms.openlocfilehash: 177f029073320c8db68b532fdb282b745c69a408
-ms.sourcegitcommit: 9b806dfe62c2dee82d971bb4f89d983b97931b43
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/07/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "80802631"
 ---
 # <a name="find-and-access-your-content-with-google-search"></a>使用 Google Search 查找并访问你的内容
@@ -28,7 +28,7 @@ ms.locfileid: "80802631"
 
 ## <a name="search-using-google-search"></a>使用 Google Search 搜索
 
-在 Google 搜索框中，使用表单“搜索 power bi 中的&lt;搜索项&gt;”。 例如，“搜索 power bi 中的销售额”  。
+在 Google 搜索框中，使用表单“搜索 power bi 中的***搜索项&lt;”&gt;***。 例如，“搜索 power bi 中的销售额”  。
 
 * 如果仅找到一个匹配项，Power BI 移动应用会打开此匹配项。
 * 如果找到多个匹配项，Power BI 将打开搜索屏幕，根据你的请求进行筛选。

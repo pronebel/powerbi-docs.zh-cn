@@ -10,10 +10,10 @@ ms.assetid: 55bf4f9c-d037-412f-ae57-3fc39ce32fa5
 author: maggiesMSFT
 ms.author: maggies
 ms.openlocfilehash: 0118bc427ce58f48d50b3e8ed4e918bf66c6e8fc
-ms.sourcegitcommit: 8eeb784fd46321680367ac913ef976aeedaa7766
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/03/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "80621526"
 ---
 # <a name="power-bi-report-builder"></a>Power BI 报表生成器
@@ -32,11 +32,11 @@ ms.locfileid: "80621526"
  
 -   **首先使用表、矩阵或图表向导**。 创建数据源连接，拖放字段以创建数据集查询，选择布局和样式，以及自定义报表。  
   
--   **开始使用“地图”向导**创建根据地理或几何背景显示聚合数据的报表。 地图数据可能是来自 Transact-SQL 查询或美国环境系统研究所公司(ESRI) 形状文件的空间数据。 除此之外，还可以添加 Microsoft 必应地图图块背景。  
+-   **开始使用“地图”向导**创建根据地理或几何背景显示聚合数据的报表。 地图数据可能是来自 Transact-SQL 查询或美国环境系统研究所公司 (ESRI) 形状文件的空间数据。 除此之外，还可以添加 Microsoft 必应地图图块背景。  
 
 ##  <a name="design-your-report"></a><a name="DesignRept"></a> 设计报表  
   
--   **创建带有表、矩阵、图表和自由格式布局的分页报表。** 为基于列的数据创建表报表，为汇总数据创建矩阵报表（如交叉表或数据透视表报表），为图形数据创建图表报表，为其他任何数据创建自由格式的报表。 报表中可以嵌入其他报表和图表，还可以嵌入列表、图形和用于基于 Web 的动态应用程序的控件。  
+-   **创建具有表、矩阵、图表或自由格式报表布局的分页报表。** 为基于列的数据创建表报表，为汇总数据创建矩阵报表（如交叉表或数据透视表报表），为图形数据创建图表报表，为其他任何数据创建自由格式的报表。 报表中可以嵌入其他报表和图表，还可以嵌入列表、图形和用于基于 Web 的动态应用程序的控件。  
   
 -   **来自各种数据源的报表。** 可以创建使用 SQL Server 和 Analysis Services、Oracle、Power BI 数据集和其他数据库的关系数据和多维数据的报表。  
   

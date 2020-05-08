@@ -10,10 +10,10 @@ ms.date: 07/26/2019
 ms.author: davidi
 LocalizationGroup: Create reports
 ms.openlocfilehash: 2492996c8bbc6ea7a8d359b4b1015de67bb17430
-ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/14/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "79378699"
 ---
 # <a name="create-tooltips-based-on-report-pages-in-power-bi-desktop"></a>根据 Power BI Desktop 中的报表页创建工具提示
@@ -26,7 +26,7 @@ ms.locfileid: "79378699"
 可通过报表工具提示执行各种有趣的操作。 接下来介绍如何创建工具提示以及配置工具提示时的必备操作。
 
 ## <a name="create-a-report-tooltip-page"></a>创建报表工具提示页
-首先，通过单击 + 按钮创建新的报表页（该按钮位于页选项卡区域的 Power BI Desktop 画布底部）   。 该按钮位于报表最后一页的旁边。 
+首先，通过单击  **按钮创建新的报表页（该按钮位于页选项卡区域的 Power BI Desktop 画布底部）+**  。 该按钮位于报表最后一页的旁边。 
 
 ![新建工具提示的报表页](media/desktop-tooltips/desktop-tooltips_02.png)
 

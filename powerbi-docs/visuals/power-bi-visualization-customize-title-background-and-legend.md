@@ -11,10 +11,10 @@ ms.date: 03/06/2020
 ms.author: mihart
 LocalizationGroup: Visualizations
 ms.openlocfilehash: 7ff02eb07d4b052892cc80ab4710223d8d302a9f
-ms.sourcegitcommit: 743167a911991d19019fef16a6c582212f6a9229
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/07/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "78893427"
 ---
 # <a name="customize-visualization-titles-backgrounds-and-legends"></a>自定义可视化效果的标题、背景和图例
@@ -24,7 +24,7 @@ ms.locfileid: "78893427"
 无法自定义所有的可视化效果。 有关详细信息，请参阅可视化效果的[完整列表](#visualization-types-that-you-can-customize)。
 
 
-## <a name="prerequisites"></a>先决条件
+## <a name="prerequisites"></a>必备组件
 
 - Power BI 服务或 Power BI Desktop
 
@@ -139,7 +139,7 @@ ms.locfileid: "78893427"
 | 条形图 | 是 | 是 |是 |
 | 卡片 | 是 | 是 |不适用 |
 | 多行卡片 | 是 | 是 | 不适用 |
-| 列 | 是 | 是 | 是 |
+| 柱形图 | 是 | 是 | 是 |
 | 组合图 | 是 | 是 | 是 |
 | 圆环图 | 是 | 是 | 是 |
 | 着色地图 | 是 | 是 | 是 |
@@ -147,17 +147,17 @@ ms.locfileid: "78893427"
 | 仪表 | 是 | 是 | 不适用 |
 | 关键影响因素 | 是 | 是 | 不适用 |
 | KPI | 是 | 是 | 不适用 |
-| 折线图 | 是 | 是 | 是 |
+| 线条 | 是 | 是 | 是 |
 | 地图 | 是 | 是 | 是 |
-| 矩阵 | 是 | 是 | 不适用 |
+| 矩形图 | 是 | 是 | 不适用 |
 | 饼图 | 是 | 是 | 是 |
-| 问答 | 是 | 是 | 不适用 |
+| Q&A | 是 | 是 | 不适用 |
 | 散点图 | 是 | 是 | 是 |
 | 形状 | 是 | 是 | 是 |
 | 切片器 | 是 | 是 | 不适用 |
-| 表 | 是 | 是 | 不适用 |
+| 表格 | 是 | 是 | 不适用 |
 | 文本框 | 否 | 是 | 不适用 |
-| 树状图 | 是 | 是 | 是 |
+| Treemap | 是 | 是 | 是 |
 | 瀑布图 | 是 | 是 | 是 |
 
 ## <a name="next-steps"></a>后续步骤

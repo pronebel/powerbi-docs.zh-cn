@@ -10,10 +10,10 @@ ms.date: 03/05/2020
 ms.author: davidi
 LocalizationGroup: Troubleshooting
 ms.openlocfilehash: 299329cad78d831a3b77e55107e94a234d6f64b1
-ms.sourcegitcommit: 22991861c2b9454b170222591f64266335b9fcff
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/12/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "79133180"
 ---
 # <a name="troubleshooting-sign-in-for-power-bi-desktop"></a>Power BI Desktop 登录问题疑难解答
@@ -33,7 +33,7 @@ ms.locfileid: "79133180"
 Power BI Desktop  跟踪文件中的以下异常与此错误相关联：
 
 * Microsoft.PowerBI.Client.Windows.Services.PowerBIWebException 
-* *HttpStatusCode：ProxyAuthenticationRequired*
+* HttpStatusCode: ProxyAuthenticationRequired 
 
 出现此错误时，最可能的原因是网络上的代理身份验证服务器阻止 Power BI Desktop  发出 Web 请求。 
 
@@ -55,7 +55,7 @@ Power BI Desktop  跟踪文件中的以下异常与此错误相关联：
 
 Power BI Desktop  跟踪文件中的以下异常与此错误相关联：
 
-* Microsoft.IdentityModel.Clients.ActiveDirectory.AdalServiceException：  非 HTTPS url 重定向在 webview 中不受支持
+* Microsoft.IdentityModel.Clients.ActiveDirectory.AdalServiceException：非 HTTPS url 重定向在 webview 中不受支持 
 * ErrorCode: non_https_redirect_failed 
 
 如果发生 ErrorCode: non_https_redirect_failed  ，则表明一个或多个重定向页或重定向链中的提供程序不是受保护的 HTTPS 端点，或者一个或多个重定向的证书颁发者不在设备的受信任的根中。 任何登录重定向链中的所有提供程序都必须使用 HTTPS URL。 若要解决此问题，请与管理员联系并请求将受保护的 URL 用于其身份验证网站。 

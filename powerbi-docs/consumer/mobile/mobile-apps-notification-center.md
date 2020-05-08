@@ -9,10 +9,10 @@ ms.topic: conceptual
 ms.date: 03/11/2020
 ms.author: painbar
 ms.openlocfilehash: 23291659a12bb08becf0d9a4f57a41a93eadbc5e
-ms.sourcegitcommit: abc8419155dd869096368ba744883b865c5329fa
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/17/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "79435573"
 ---
 # <a name="get-notifications-in-the-power-bi-mobile-apps"></a>获取 Power BI 移动应用中的通知
@@ -53,7 +53,7 @@ ms.locfileid: "79435573"
 
 1. 在 iOS 设备上，依次转到 **“设置”**  >  **“通知”** 。 
    
-    在 Android 手机上，转到“设置” > “通知”   。
+    在 Android 手机上，转到“设置” **“通知”**  >   。
    
     在 Windows 设备上，从“设置”  上转到“系统”   > “通知和操作”  。
 2. 在应用列表中，选择“Power BI”  。 
