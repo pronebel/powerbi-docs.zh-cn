@@ -6,13 +6,13 @@ ms.author: kesharab
 ms.reviewer: sranins
 ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
-ms.topic: how-to
+ms.topic: conceptual
 ms.date: 06/18/2019
-ms.openlocfilehash: 5bf1c79aa411788fdb3275b938e7eaad7d6014a1
-ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
+ms.openlocfilehash: aed8317c36cdd118b03bff2db93788f493ac9ad2
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/14/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "79380516"
 ---
 # <a name="add-bookmark-support-for-power-bi-visuals"></a>添加对 Power BI 视觉对象的书签支持
@@ -29,7 +29,7 @@ ms.locfileid: "79380516"
 
 1. 安装（或更新）所需的实用程序 - [powerbi-visuals-utils-interactivityutils](https://github.com/Microsoft/PowerBI-visuals-utils-interactivityutils/) 版本 3.0.0 或更高版本。 它包含使用状态选择或筛选器进行操作的其他类。 筛选器视觉对象和使用 `InteractivityService` 的任何视觉对象都需要它。
 
-2. 将视觉对象 API 更新到版本 1.11.0，以便在 `SelectionManager` 的实例中使用 `registerOnSelectCallback`。 使用普通 `SelectionManager` 而非 `InteractivityService` 的非筛选器视觉对象都需要它。
+2. 将视觉对象 API 更新到版本 1.11.0，以便在 `registerOnSelectCallback` 的实例中使用 `SelectionManager`。 使用普通 `SelectionManager` 而非 `InteractivityService` 的非筛选器视觉对象都需要它。
 
 ### <a name="how-power-bi-visuals-interact-with-power-bi-in-report-bookmarks"></a>Power BI 视觉对象如何在报表书签中与 Power BI 进行交互
 
@@ -51,7 +51,7 @@ ms.locfileid: "79380516"
 
 * 如果视觉对象尚未使用 [InteractivityService](https://github.com/Microsoft/powerbi-visuals-utils-interactivityutils/blob/master/docs/api/interactivityService.md)，则你可以使用 `FilterManager.restoreSelectionIds` 方法。
 
-* 如果视觉对象已使用 [InteractivityService](https://github.com/Microsoft/powerbi-visuals-utils-interactivityutils/blob/master/docs/api/interactivityService.md) 来管理选择，则应使用 `InteractivityService` 实例中的 `applySelectionFromFilter` 方法。
+* 如果视觉对象已使用 [InteractivityService](https://github.com/Microsoft/powerbi-visuals-utils-interactivityutils/blob/master/docs/api/interactivityService.md) 来管理选择，则应使用 `applySelectionFromFilter` 实例中的 `InteractivityService` 方法。
 
 #### <a name="use-iselectionmanagerregisteronselectcallback"></a>使用 ISelectionManager.registerOnSelectCallback
 
@@ -187,7 +187,7 @@ if (jsonFilters
 
 `filterState` 属性构成筛选某部分的一个属性。 视觉对象可在书签中存储不同的值。
 
-若要将属性值保存为筛选器状态，请在 capabilities.json 文件中将对象属性标记为 `"filterState": true`  。
+若要将属性值保存为筛选器状态，请在 capabilities.json 文件中将对象属性标记为 `"filterState": true` 。
 
 例如，时间线切片器将 `Granularity` 属性值存储在筛选器中。 通过该切片器可在更改书签时更改当前粒度。
 

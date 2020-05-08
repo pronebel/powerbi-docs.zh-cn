@@ -10,10 +10,10 @@ ms.date: 07/16/2019
 ms.author: arthii
 LocalizationGroup: Gateways
 ms.openlocfilehash: 6c944b52deb72e556506d88f4358af2c816b46fc
-ms.sourcegitcommit: f77b24a8a588605f005c9bb1fdad864955885718
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/02/2019
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "74698155"
 ---
 # <a name="manage-your-data-source---sap-hana"></a>管理数据源 - SAP HANA
@@ -33,7 +33,7 @@ ms.locfileid: "74698155"
 > [!NOTE]
 > 将使用这些凭据运行对数据源的所有查询。 若要详细了解如何存储凭据，请参阅[在云中存储加密凭据](service-gateway-data-sources.md#store-encrypted-credentials-in-the-cloud)。
 
-![填充数据源设置](media/service-gateway-enterprise-manage-sap/datasourcesettings3-sap.png)
+![填写数据源设置](media/service-gateway-enterprise-manage-sap/datasourcesettings3-sap.png)
 
 填写所有内容之后，选择“添加”  。 现在你可以使用此数据源对本地 SAP HANA 服务器进行计划刷新或 DirectQuery。 如果成功，则会看到“连接成功”  。
 

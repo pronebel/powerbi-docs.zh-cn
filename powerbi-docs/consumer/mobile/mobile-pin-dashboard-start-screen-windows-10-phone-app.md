@@ -8,10 +8,10 @@ ms.topic: conceptual
 ms.date: 04/25/2020
 ms.author: painbar
 ms.openlocfilehash: 2377505586aea70b8bedd62f22e7716ce870749e
-ms.sourcegitcommit: c772c544ce2e1e2a147b9b62e5579ac3cb59d54c
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/29/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "82255736"
 ---
 # <a name="pin-a-dashboard-to-your-windows-10-start-screen-from-the-power-bi-mobile-app"></a>从 Power BI 移动应用将仪表板固定到 Windows 10“开始”屏幕
@@ -34,6 +34,6 @@ ms.locfileid: "82255736"
 
 ## <a name="next-steps"></a>后续步骤
 * 从 Windows 应用商店中[下载适用于 Windows 10 的 Power BI 移动应用](https://go.microsoft.com/fwlink/?LinkID=526478)  
-* [Windows 10 版 Power BI 移动应用入门](mobile-windows-10-phone-app-get-started.md)  
+* [适用于 Windows 10 的 Power BI 移动应用入门](mobile-windows-10-phone-app-get-started.md)  
 * [什么是 Power BI？](../../fundamentals/power-bi-overview.md)
-* 有疑问？ [尝试在 Power BI 社区中提问](https://community.powerbi.com/)
+* 是否有任何问题? [尝试咨询 Power BI 社区](https://community.powerbi.com/)

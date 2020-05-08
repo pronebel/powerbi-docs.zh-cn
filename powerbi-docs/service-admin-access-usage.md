@@ -10,10 +10,10 @@ ms.date: 09/09/2019
 ms.author: kfollis
 LocalizationGroup: Administration
 ms.openlocfilehash: 32ca01d06f4fc8c3f90f73bf8137349eed0220a6
-ms.sourcegitcommit: f77b24a8a588605f005c9bb1fdad864955885718
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/02/2019
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "74698822"
 ---
 # <a name="find-power-bi-users-that-have-signed-in"></a>查找已登录的 Power BI 用户
@@ -29,13 +29,13 @@ ms.locfileid: "74698822"
 
 * 租户必须将 Azure Active Directory Premium 许可证与其关联。
 
-* 必须属于以下角色之一：全局管理员、安全管理员或安全读取者。
+* 必须是以下角色之一：全局管理员、安全管理员或安全读取者。
 
 ## <a name="use-the-azure-portal-to-view-sign-ins"></a>使用 Azure 门户查看登录活动
 
 若要查看登录活动，请按以下步骤操作。
 
-1. 在“Azure 门户”  中，选择“Azure Active Directory”  。
+1. 在**Azure 门户**中，选择“Azure Active Directory”  。
 
 1. 在“监视”  下，选择“登录活动”  。
    

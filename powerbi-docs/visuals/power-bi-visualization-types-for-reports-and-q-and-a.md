@@ -10,10 +10,10 @@ ms.date: 01/14/2020
 ms.author: mihart
 LocalizationGroup: Visualizations
 ms.openlocfilehash: 12c2d839c14a4a982505f56b7d605bacc5edc728
-ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/14/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "79381413"
 ---
 # <a name="visualization-types-in-power-bi"></a>Power BI 中的可视化效果类型
@@ -44,7 +44,7 @@ ms.locfileid: "79381413"
 ### <a name="cards-multi-row"></a>卡片：多行
 ![多行卡片图](media/power-bi-visualization-types-for-reports-and-q-and-a/multi-row-card.png)
 
-### <a name="cards-single-number"></a>卡片：单个数字
+### <a name="cards-single-number"></a>卡片：一个数字
 ![数字卡片](media/power-bi-visualization-types-for-reports-and-q-and-a/pbi_nancy_viz_card.png)
 
 有关详细信息，请参阅[创建卡片（大数字磁贴）](power-bi-visualization-card.md)。
@@ -115,7 +115,7 @@ ms.locfileid: "79381413"
 
 有关详细信息，请参阅 [Power BI 中的 ArcGIS 地图](power-bi-visualization-arcgis.md)。
 
-### <a name="maps-filled-maps-choropleth"></a>地图：着色地图（等值线图）
+### <a name="maps-filled-maps-choropleth"></a>地图：着色地图（地区分布图）
 ![着色地图](media/power-bi-visualization-types-for-reports-and-q-and-a/pbi_nancy_viz_filledmap.png)
 
 >[!TIP]
@@ -123,7 +123,7 @@ ms.locfileid: "79381413"
 
 有关详细信息，请参阅 [Power BI 中的着色地图](power-bi-visualization-filled-maps-choropleths.md)。
 
-### <a name="maps-shape-maps"></a>地图：形状地图
+### <a name="maps-shape-maps"></a>地图：形状图
 ![德克萨斯州的形状地图](media/power-bi-visualization-types-for-reports-and-q-and-a/power-bi-shape-map2.png)
 
 >[!TIP]
@@ -132,7 +132,7 @@ ms.locfileid: "79381413"
 有关详细信息，请参阅 [Power BI 中的形状图](desktop-shape-map.md)。
 
 
-### <a name="matrix"></a>Matrix
+### <a name="matrix"></a>矩形图
 ![矩形图](media/power-bi-visualization-types-for-reports-and-q-and-a/matrix.png)
 
 >[!TIP]
@@ -194,7 +194,7 @@ ms.locfileid: "79381413"
 有关详细信息，请参阅 [Power BI 中的高密度散点图](desktop-high-density-scatter-charts.md)。
 
 ### <a name="slicers"></a>切片器
-![slicer](media/power-bi-visualization-types-for-reports-and-q-and-a/pbi_slicer.png)
+![切片器](media/power-bi-visualization-types-for-reports-and-q-and-a/pbi_slicer.png)
 
 有关详细信息，请参阅 [Power BI 中的切片器](power-bi-visualization-slicers.md)。
 

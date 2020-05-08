@@ -10,10 +10,10 @@ ms.date: 04/27/2020
 ms.author: mihart
 LocalizationGroup: Get started
 ms.openlocfilehash: a2c711376a3665cfa56c25384e8351890eee7198
-ms.sourcegitcommit: c772c544ce2e1e2a147b9b62e5579ac3cb59d54c
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/29/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "82256021"
 ---
 # <a name="sign-up-for-the-power-bi-service-as-an-individual"></a>以个人身份注册 Power BI 服务
@@ -72,11 +72,11 @@ Desktop、服务和移动应用这三个元素旨在使用户通过最有效的�
 
     - 如果收到类似于下面的消息，请确保使用工作或学校电子邮件地址，而不是使用者地址（如 hotmail、gmail 或 outlook）。 请参阅[上面受支持的电子邮件地址。](#supported-email-addresses)
 
-       ![入门](media/service-self-service-signup-for-power-bi/power-bi-did-you.png)
+       ![开始使用](media/service-self-service-signup-for-power-bi/power-bi-did-you.png)
    
     - 如果收到类似于下面的消息，则同意条款和条件。
 
-        ![入门](media/service-self-service-signup-for-power-bi/power-bi-almost.png)
+        ![开始使用](media/service-self-service-signup-for-power-bi/power-bi-almost.png)
 
 1. 可以视需要邀请一些同事加入你。
 
@@ -121,7 +121,7 @@ Power BI 登录无法识别你的密码  |  有时需要多次尝试。 如果�
 [购买 Power BI Pro](service-admin-purchasing-power-bi-pro.md)  
 [适用于个人用户的 Power BI 服务协议](https://powerbi.microsoft.com/terms-of-service/)  
 
-更多疑问？ [尝试咨询 Power BI 社区](https://community.powerbi.com/)
+更多问题？ [尝试咨询 Power BI 社区](https://community.powerbi.com/)
 
 
 

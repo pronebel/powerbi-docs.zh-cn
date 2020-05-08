@@ -11,10 +11,10 @@ ms.date: 05/29/2019
 ms.author: maggies
 LocalizationGroup: Visualizations
 ms.openlocfilehash: 6e5281b03ecf9de5414b334d4f88658fb9741d3f
-ms.sourcegitcommit: ad638d553d5f7f5831587791ffa7aa37a47dd6ae
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/26/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "80273193"
 ---
 # <a name="add-text-boxes-and-shapes-to-power-bi-reports"></a>添加文本框和形状到 Power BI 报表
@@ -44,7 +44,7 @@ ms.locfileid: "80273193"
 
 6. 若要关闭文本框，可选择报表画布上的任意空白区域。 
 
-7. 选择“固定”图标  ![固定图标](media/power-bi-reports-add-text-and-shapes/pbi_pintile.png) 以将文本框固定到仪表板。 
+7. 选择“固定”图标  ![大头针图标](media/power-bi-reports-add-text-and-shapes/pbi_pintile.png) 以将文本框固定到仪表板。 
 
 ## <a name="add-a-shape-to-a-report"></a>向报表添加形状
 1. 将光标置于报表画布中的任意位置，然后选择“形状”  。

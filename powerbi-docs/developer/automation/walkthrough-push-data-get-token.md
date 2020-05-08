@@ -9,10 +9,10 @@ ms.subservice: powerbi-developer
 ms.topic: tutorial
 ms.date: 05/29/2019
 ms.openlocfilehash: 7e74b01a6b12302393a3e4bc40b2e9cccfc13d63
-ms.sourcegitcommit: a175faed9378a7d040a08ced3e46e54503334c07
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/18/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "79488260"
 ---
 # <a name="step-2-get-an-authentication-access-token"></a>步骤 2：获取身份验证访问令牌
@@ -23,7 +23,7 @@ ms.locfileid: "79488260"
 
 ## <a name="get-an-authentication-access-token"></a>获取身份验证访问令牌
 
-在开始之前，请确保已完成[将数据推送到 Power BI 数据集](walkthrough-push-data.md)系列中的[上一步骤](../embedded/register-app.md)。 
+在开始之前，请确保已完成[将数据推送到 Power BI 数据集](../embedded/register-app.md)系列中的[上一步骤](walkthrough-push-data.md)。 
 
 此过程要求使用 Visual Studio 2015 或更高版本。
 
@@ -31,7 +31,7 @@ ms.locfileid: "79488260"
 
 2. 安装 [Azure AD Authentication Library for .NET NuGet 程序包](https://www.nuget.org/packages/Microsoft.IdentityModel.Clients.ActiveDirectory/2.22.302111727)。 .Net 应用需要此包才能获取身份验证安全令牌。 
 
-     a. 选择“工具” > “NuGet 包管理器” > “包管理器控制台”    。
+     a. 选择“工具” **“NuGet 包管理器”** “包管理器控制台” >    >   。
 
      b. 输入 **Install-Package Microsoft.IdentityModel.Clients.ActiveDirectory -Version 2.21.301221612**
 
@@ -39,7 +39,7 @@ ms.locfileid: "79488260"
 
 3. 将这些步骤后列出的示例代码添加到 Program.cs。
 
-4. 使用[上一篇系列文章](../embedded/register-app.md)中注册应用时获取的**客户端 ID** 替换“{ClientID}”。
+4. 使用**上一篇系列文章**中注册应用时获取的[客户端 ID](../embedded/register-app.md) 替换“{ClientID}”。
 
 5. 运行控制台应用并登录 Power BI 帐户。 
 
