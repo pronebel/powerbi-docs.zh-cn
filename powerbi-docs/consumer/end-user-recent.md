@@ -11,10 +11,10 @@ ms.date: 03/11/2020
 ms.author: mihart
 LocalizationGroup: Common tasks
 ms.openlocfilehash: f59d83823ee14648cb8c3d3fe740074d057d3425
-ms.sourcegitcommit: 480bba9c745cb9af2005637e693c5714b3c64a8a
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/11/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "79114352"
 ---
 # <a name="recent-content-in-the-power-bi-service"></a>Power BI 服务中**最近访问的**内容
@@ -37,13 +37,13 @@ ms.locfileid: "79114352"
 
 ![最近访问内容浮出控件](./media/end-user-recent/power-bi-recent-flyout.png)
 
-如果最近访问的项目超过五个，请选择“查看全部”以打开“最近访问”屏幕  。 还可从导航窗格中选择“最近访问”，或“最近访问”![最近访问图标](./media/end-user-recent/power-bi-icon.png)图标  。
+如果最近访问的项目超过五个，请选择“查看全部”以打开“最近访问”屏幕  。 还可从导航窗格中选择“最近访问”，或“最近访问”**最近访问图标**图标![](./media/end-user-recent/power-bi-icon.png)。
 
 ![显示所有最近访问的内容](./media/end-user-recent/power-bi-recent.png)
 
 ## <a name="actions-available-from-the-recent-content-list"></a>**最近访问**内容列表中的可用操作
 可供使用的操作取决于内容*设计者*分配的设置。 一些选项可能包括：
-* 选择星形图标 ![星形图标](./media/end-user-shared-with-me/power-bi-star-icon.png)，以[将仪表板、报表或应用添加到收藏夹](end-user-favorite.md)。
+* 选择星形图标 [星形图标](end-user-favorite.md)，以![将仪表板、报表或应用添加到收藏夹](./media/end-user-shared-with-me/power-bi-star-icon.png)。
 * 可重新共享某些仪表板和报表  ![共享图标](./media/end-user-shared-with-me/power-bi-share-icon-new.png)。
 * [在 Excel 中打开报表](end-user-export.md) ![“导出到 Excel”图标](./media/end-user-shared-with-me/power-bi-excel.png) 
 * [查看](end-user-insights.md) Power BI 在数据中发现的见解 ![见解图标](./media/end-user-shared-with-me/power-bi-insights.png)。
