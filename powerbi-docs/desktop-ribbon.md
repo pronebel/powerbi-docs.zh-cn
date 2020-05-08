@@ -10,10 +10,10 @@ ms.date: 03/20/2020
 ms.author: davidi
 LocalizationGroup: Connect to data
 ms.openlocfilehash: cbaf3244ce8e8aa2755b6b47bf6381c191293306
-ms.sourcegitcommit: 22991861c2b9454b170222591f64266335b9fcff
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/12/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "79133219"
 ---
 # <a name="use-the-updated-ribbon-in-power-bi-desktop"></a>在 Power BI Desktop 中使用更新后的功能区

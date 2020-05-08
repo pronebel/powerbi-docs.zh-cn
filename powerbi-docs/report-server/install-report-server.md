@@ -9,10 +9,10 @@ ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 01/16/2020
 ms.openlocfilehash: 0b57ec084477955086b3d1bb0acd0a3139d325c6
-ms.sourcegitcommit: 3d6b27e3936e451339d8c11e9af1a72c725a5668
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/17/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "76160595"
 ---
 # <a name="install-power-bi-report-server"></a>安装 Power BI 报表服务器
@@ -47,7 +47,7 @@ ms.locfileid: "76160595"
 
 ![Premium 设置](../report-server/media/install-report-server/pbirs-product-key.png "高级设置中的 Power BI 报表服务器密钥")
 
-选择“Power BI 报表服务器密钥”  会显示包含产品密钥的对话框。 可以复制该密钥并用来进行安装。
+选择“Power BI 报表服务器密钥”  会显示包含产品密钥的对话框。 可以复制密钥，用于安装。
 
 ![产品密钥](../report-server/media/install-report-server/pbirs-product-key-dialog.png "Power BI 报表服务器产品密钥")
 

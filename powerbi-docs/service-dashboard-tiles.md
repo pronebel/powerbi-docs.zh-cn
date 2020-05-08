@@ -11,10 +11,10 @@ ms.date: 04/17/2020
 ms.author: maggies
 LocalizationGroup: Dashboards
 ms.openlocfilehash: efa5acbe70ea4541c2f9819d5260cb662ca0adac
-ms.sourcegitcommit: d43761104f7daf4b2f297648855bb573b53e6d8c
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/18/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "81637883"
 ---
 # <a name="intro-to-dashboard-tiles-for-power-bi-designers"></a>Power BI 设计器的仪表板磁贴简介
@@ -27,7 +27,7 @@ ms.locfileid: "81637883"
 
 除固定的磁贴以外，还可使用[添加磁贴](service-dashboard-add-widget.md)控件直接在仪表板上创建独立磁贴。 独立磁贴包含：文本框、图像、视频、流数据和 Web 内容。
 
-需要有关理解构成 Power BI 的生成块的帮助？ 请参阅 [Power BI 服务中设计器的基本概念](service-basic-concepts.md)。
+是否需要帮助了解构成 Power BI 的构建基块？ 请参阅 [Power BI 服务中设计器的基本概念](service-basic-concepts.md)。
 
 > [!NOTE]
 > 如果原始可视化效果用于创建磁贴更改，则磁贴不会更改。  例如，如果从报表固定一个折线图，然后将折线图更改为条形图，则仪表板磁贴将继续显示为折线图。 数据将会刷新，但可视化效果类型不会。

@@ -9,10 +9,10 @@ ms.subservice: powerbi-custom-visuals
 ms.topic: conceptual
 ms.date: 06/18/2019
 ms.openlocfilehash: e3af800696fd593f092cc46f9a59df2d0a5f94e2
-ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/14/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "79380287"
 ---
 # <a name="capabilities-and-properties-of-power-bi-visuals"></a>Power BI 视觉对象的功能和属性 
@@ -197,7 +197,7 @@ DataViewMappings 属性描述数据角色如何彼此相关，并允许你为它
 
 ## <a name="handle-partial-highlighting-supportshighlight"></a>处理部分突出显示：supportsHighlight
 
-默认情况下，此值设置为 `false`，这意味着选择页面上的某些内容时，会自动筛选值。 此自动筛选会进而更新视觉对象以仅显示所选值。 如果要显示完整的数据，且只突出显示选定项，则需要在 capabilities.json 文件中将 `supportsHighlight` 设置为 `true`  。
+默认情况下，此值设置为 `false`，这意味着选择页面上的某些内容时，会自动筛选值。 此自动筛选会进而更新视觉对象以仅显示所选值。 如果要显示完整的数据，且只突出显示选定项，则需要在 capabilities.json 文件中将 `supportsHighlight` 设置为 `true` 。
 
 有关详细信息，请参阅[突出显示 Power BI 视觉对象中的数据点](highlight.md)。
 
