@@ -16,7 +16,7 @@
           href: ../service-usage-metrics.md
         - name: 在新工作区中监视使用情况
           href: ../service-modern-usage-metrics.md
-    - name: 操作指南
+    - name: 操作方法指南
       expanded: true
       items:
         - name: Power BI 中的协作
@@ -73,7 +73,7 @@
               href: ../service-analyze-in-excel.md
             - name: “在 Excel 中分析”疑难解答
               href: ../desktop-troubleshooting-analyze-in-excel.md
-            - name: 错误：我们在你的 Excel 工作簿中找不到任何数据
+            - name: '错误: 我们在你的 Excel 工作簿中找不到任何数据'
               href: ../service-admin-troubleshoot-excel-workbook-data.md
             - name: Power Automate 和 Power BI
               href: ../service-flow-integration.md

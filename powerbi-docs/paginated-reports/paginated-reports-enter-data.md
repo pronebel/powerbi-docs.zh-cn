@@ -9,27 +9,27 @@ ms.topic: conceptual
 ms.date: 01/03/2020
 ms.author: maggies
 ms.openlocfilehash: 5ef019c1c8d488735509ac3c2767fbc9d395786a
-ms.sourcegitcommit: ced8c9d6c365cab6f63fbe8367fb33e6d827cb97
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/07/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "78922082"
 ---
 # <a name="enter-data-directly-in-a-paginated-report-in-report-builder---power-bi"></a>直接在报表生成器 - Power BI 的分页报表中输入数据
 
 本文介绍新版 SQL Server 2016 报表生成器中的一项功能，使用该功能可将数据作为嵌入数据集直接输入 RDL 报表。  此功能类似于 Power BI Desktop。 可以直接在报表的数据集中键入数据，也可从其他程序（如 Microsoft Excel）中粘贴数据。 通过输入数据创建数据集后，可像使用任何其他已创建的嵌入数据集一样使用它。 此外，可以添加多个表，并使用一个表作为另一个表的筛选器。 此功能对可能要用于报表的小型静态数据集（如报表参数）特别有用。
  
-## <a name="prerequisites"></a>先决条件
+## <a name="prerequisites"></a>必备组件
 
 - 若要直接在分页报表中输入数据，请[从 Microsoft 下载中心](https://www.microsoft.com/download/details.aspx?id=53613)安装新版本的报表生成器。 
 - 若要将分页报表保存到 Power BI 服务，则需 [Power BI Pro 帐户](../service-self-service-signup-for-power-bi.md)，以及对 [Power BI 高级容量](../service-premium-what-is.md)中的工作区的写入权限。
 - 若要将分页报表保存到报表服务器，则需[编辑 RsReportServer.config 文件](#upload-the-paginated-report-to-a-report-server)的权限。
 
-## <a name="get-started"></a>开始使用
+## <a name="get-started"></a>入门
 
-下载并安装报表生成器后，按照向报表添加嵌入数据源和数据集的相同工作流程操作。 在以下过程中，“数据源”下会出现一个新选项：  “输入数据”  。  只需在报表中设置一次此数据源。 之后，可创建多个输入数据表作为单独的数据集，数据集全部使用该单个数据源。
+下载并安装报表生成器后，按照向报表添加嵌入数据源和数据集的相同工作流程操作。 在以下过程中，“数据源”下会出现一个新选项：“输入数据”   。  只需在报表中设置一次此数据源。 之后，可创建多个输入数据表作为单独的数据集，数据集全部使用该单个数据源。
 
-1. 在“报表数据”窗格中，选择“新建” > “数据集”    。
+1. 在“报表数据”窗格中，选择“新建” **“数据集”**   >   。
 
     ![报表生成器新建数据集](media/paginated-reports-enter-data/paginated-new-dataset.png)
 
@@ -40,7 +40,7 @@ ms.locfileid: "78922082"
     ![新建嵌入的数据源](media/paginated-reports-enter-data/paginated-new-data-source.png)
 
 1. 在“数据源属性”对话框中，选择“使用我的报告中嵌入的连接”   。
-2. 在“选择连接类型”框中，选择“输入数据” > “确定”    。
+2. 在“选择连接类型”框中，选择“输入数据” **“确定”**   >   。
 
     ![“输入数据”数据源](media/paginated-reports-enter-data/paginated-data-source-properties-enter-data.png)
 

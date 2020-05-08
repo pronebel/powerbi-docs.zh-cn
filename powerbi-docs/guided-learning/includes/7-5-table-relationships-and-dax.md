@@ -1,9 +1,9 @@
 ---
 ms.openlocfilehash: 679c3e8c3d94c93899e9dcfae1e57f4b678fb218
-ms.sourcegitcommit: a5853ef44ed52e80eabee3757bb6887fa400b75b
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/07/2019
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "73799697"
 ---
 Power BI 可以让你在多个表（包括来自完全不同数据源的表）之间建立关系。 你可以在 Power BI Desktop 的“关系”  视图中看到任何数据模型的关系。

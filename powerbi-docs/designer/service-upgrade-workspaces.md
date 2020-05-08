@@ -10,10 +10,10 @@ ms.date: 11/14/2019
 ms.author: maggies
 LocalizationGroup: Share your work
 ms.openlocfilehash: 266a8609123f05f258daee60f6ae17f032ebae29
-ms.sourcegitcommit: f1f57c5bc6ea3057007ed8636ede50188ed90ce1
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/23/2019
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "74410825"
 ---
 # <a name="upgrade-classic-workspaces-to-the-new-workspaces-in-power-bi"></a>在 Power BI 中将经典工作区升级到新工作区
@@ -29,7 +29,7 @@ ms.locfileid: "74410825"
 
 ## <a name="things-to-do-after-upgrading"></a>升级后要执行的操作
 
-升级后应执行的几项操作。 最好先规划再升级：
+升级后  应执行的几项操作。 最好先  规划再升级：
 - 查看访问列表并了解[升级后的权限](#permissions-after-upgrade)。
 - 查看[联系列表](#modify-the-contact-list)并确保按要求设置。
 - 如果尚未升级，请了解[新工作区体验](../service-new-workspaces.md)。
@@ -38,21 +38,21 @@ ms.locfileid: "74410825"
 
 任何工作区管理员都可以升级工作区。 对于经典工作区，作为工作区管理员，你必须是基础 Office 365 组的所有者。 若要升级工作区，请执行以下步骤。
 
-1. 在工作区内容列表中，选择“更多选项”(**...**) >“编辑此工作区”。
+1. 在工作区内容列表中，选择“更多选项”  ( **...** ) >“编辑此工作区”  。
 
     ![编辑此工作区](media/service-upgrade-workspaces/power-bi-content-list-edit-workspace.png)
 
-1. 展开“高级”并选择“立即升级”。
+1. 展开“高级”  并选择“立即升级”  。
 
     ![立即升级](media/service-upgrade-workspaces/power-bi-upgrade-now.png)
 
-1. 查看对话框信息。 如果已在工作区中发布或安装内容包，则会出现警告。 准备就绪后，选中“我已准备好升级此工作区”，然后选择“升级”。
+1. 查看对话框信息。 如果已在工作区中发布或安装内容包，则会出现警告。 准备就绪后，选中“我已准备好升级此工作区”  ，然后选择“升级”  。
 
     ![升级准备就绪](media/service-upgrade-workspaces/power-bi-ready-upgrade.png)
 
-2. 在升级过程中，会看到“正在升级”消息。 升级工作区通常需要不到一分钟的时间。
+2. 在升级过程中，会看到“正在升级”  消息。 升级工作区通常需要不到一分钟的时间。
 
-1. 升级完成后，将看到“成功”对话框。 建议阅读[在 Power BI 的新工作区中组织工作](../service-new-workspaces.md)，以便熟悉新工作区与经典工作区的不同之处。
+1. 升级完成后，将看到“成功”  对话框。 建议阅读[在 Power BI 的新工作区中组织工作](../service-new-workspaces.md)，以便熟悉新工作区与经典工作区的不同之处。
 
 ### <a name="impact-on-other-workspace-users"></a>对其他工作区用户的影响
 
@@ -66,18 +66,18 @@ ms.locfileid: "74410825"
 - 新工作区中不支持内容包。 阅读有关[已发布内容包](#published-content-packs)或[已安装内容包](#installed-content-packs)的内容，以了解升级期间如何进行处理。 建议在升级之前删除安装或发布在工作区的内容包。
 - 经典工作区的 Office 365 组不受 Power BI 中工作区升级的影响。 任何团队、SharePoint 站点、邮箱或由 Office 365 管理的其他资源都不会发生变化。 升级 Power BI 工作区后，它们将保持不变。 Office 365 组继续像以前一样存在。
 - 升级后，你的工作区的保护方式发生了变化。 有关详细信息，请参阅[升级后的工作区权限](#permissions-after-upgrade)部分。
-- 如有需要，可提供“退回到经典工作区”选项。 但是，它不会在升级之前完全还原工作区的某些方面。 如果开始使用仅适用于新工作区的功能，则无法退回。 升级后 30 天内可以使用退回选项。
+- 如有需要，可提供“退回到经典工作区”  选项。 但是，它不会在升级之前完全还原工作区的某些方面。 如果开始使用仅适用于新工作区的功能，则无法退回。 升级后 30 天内可以使用退回选项。
 
 ## <a name="permissions-after-upgrade"></a>升级后的权限
 
-在工作区内容列表顶部的菜单栏中选择“访问”，以便在升级后查看权限。
+在工作区内容列表顶部的菜单栏中选择“访问”  ，以便在升级后查看权限。
 
 ![菜单栏中的访问权限](media/service-upgrade-workspaces/power-bi-workspace-access-menu-bar.png)
 
-将每个 Office 365 组所有者分别添加到已升级工作区的管理员角色中。 将 Office 365 组本身将添加到工作区角色。 它所添加到的角色取决于经典工作区是“只读”还是“读写”：
+将每个 Office 365 组所有者分别添加到已升级工作区的管理员角色中。 将 Office 365 组本身将添加到工作区角色。 它所添加到的角色取决于经典工作区是“只读”  还是“读写”  ：
 
-- 如果工作区设置为“成员可以编辑 Power BI 内容”，则在升级后，会将 Office 365 组添加到具有“成员”角色的工作区访问列表中。
-- 如果工作区设置为“成员仅可读取 Power BI 内容”，则在升级后，会将 Office 365 组添加到具有“查看者”角色的工作区访问列表中。
+- 如果工作区设置为“成员可以编辑 Power BI 内容”  ，则在升级后，会将 Office 365 组添加到具有“成员”  角色的工作区访问列表中。
+- 如果工作区设置为“成员仅可读取 Power BI 内容”  ，则在升级后，会将 Office 365 组添加到具有“查看者”  角色的工作区访问列表中。
 
 由于 Office 365 组已在工作区获得了角色，升级后添加到 Office 365 组的任何用户都将在工作区中使用该角色。 但是，如果在升级后将新所有者添加到 Office 365 组，则他们不具有工作区的管理员角色。
 
@@ -86,8 +86,8 @@ ms.locfileid: "74410825"
 
 经典工作区和新工作区中的工作区角色不同。 在新的工作区，你可以向 Office 365 组、安全组或通讯组列表提供工作区角色。
 
-- “成员”可以通过“成员”、“参与者”或“查看者”角色共享单个项目并授予对整个工作区的访问权限
-- “查看者”只能查看内容，也不能在 Excel 中为任何工作区数据集导出基础数据或进行分析，除非他们具有“生成”权限。
+- “成员”  可以通过“成员”、“参与者”或“查看者”角色共享单个项目并授予对整个工作区的访问权限
+- “查看者”  只能查看内容，也不能在 Excel 中为任何工作区数据集导出基础数据或进行分析，除非他们具有“生成”权限。
 
 通过共享或拥有应用权限而有权访问工作区项目的任何用户可以继续访问这些项目。 任何拥有工作区访问权限的用户还可以访问从工作区发布的应用。 这些用户未在应用访问列表中列出。
 
@@ -109,17 +109,17 @@ ms.locfileid: "74410825"
 
 ### <a name="modify-the-contact-list"></a>修改联系人列表
 
-1. 在工作区内容列表顶部的菜单栏中选择“设置”，以便访问工作区设置。
+1. 在工作区内容列表顶部的菜单栏中选择“设置”  ，以便访问工作区设置。
 
     ![工作区设置](media/service-upgrade-workspaces/power-bi-new-workspace-settings.png)
 
-2. 在“高级”下，将工作区“联系人列表”配置为从中升级工作区的 Office 365 组。 你可以将更多的用户或组添加到联系人列表，或将其切换到工作区管理员。
+2. 在“高级”  下，将工作区“联系人列表”  配置为从中升级工作区的 Office 365 组。 你可以将更多的用户或组添加到联系人列表，或将其切换到工作区管理员。
 
     ![联系人列表](media/service-upgrade-workspaces/power-bi-contact-list-workspace.png)
 
 ### <a name="the-workspace-onedrive"></a>工作区 OneDrive 
 
-升级后，工作区 OneDrive 将连接到 Office 365 组 SharePoint 文档库。 此文档库在“获取数据”>“文件”中显示为“OneDrive”选项。 请注意，并非所有工作区用户都有权使用该文档库，如果他们不在 Office 365 组中的话。
+升级后，工作区 OneDrive  将连接到 Office 365 组 SharePoint 文档库。 此文档库在“获取数据”>“文件”  中显示为“OneDrive”  选项。 请注意，并非所有工作区用户都有权使用该文档库，如果他们不在 Office 365 组中的话。
 
 ## <a name="content-packs-during-upgrade"></a>升级过程中的内容包
 
@@ -146,15 +146,15 @@ ms.locfileid: "74410825"
 
 若要退回，你需要在工作区升级之前成为与之关联的 Office 365 组的所有者。 请执行以下步骤。
 
-1. 在工作区内容列表中，选择“更多选项”(**...**) >“工作区设置”。
+1. 在工作区内容列表中，选择“更多选项”  ( **...** ) >“工作区设置”  。
 
     ![工作区设置](media/service-upgrade-workspaces/power-bi-workspace-settings-more-options.png)
 
-1. 展开“高级”，然后选择“切换回经典”。 如果此选项不可用，请参阅本文中的[切换回经典工作区的注意事项](#considerations-for-switching-back-to-classic)。
+1. 展开“高级”  ，然后选择“切换回经典”  。 如果此选项不可用，请参阅本文中的[切换回经典工作区的注意事项](#considerations-for-switching-back-to-classic)。
 
     ![切换回经典工作区](media/service-upgrade-workspaces/power-bi-switch-back-classic.png)
 
-1. 准备就绪后，选择“我已准备好切换回经典”框，然后选择“切换到经典”。 你可能会在此对话框中看到警告或阻止程序。 如果遇到这些问题，请参阅本文中的[切换回注意事项](#considerations-for-switching-back-to-classic)。
+1. 准备就绪后，选择“我已准备好切换回经典”  框，然后选择“切换到经典”  。 你可能会在此对话框中看到警告或阻止程序。 如果遇到这些问题，请参阅本文中的[切换回注意事项](#considerations-for-switching-back-to-classic)。
 
     ![准备好切换回](media/service-upgrade-workspaces/power-bi-ready-switch-back.png)
 
@@ -178,7 +178,7 @@ ms.locfileid: "74410825"
 
 - 工作区的权限由升级后的工作区最初连接到的 Office 365 组设置。
   - Office 365 组的任何管理员都会成为经典工作区的管理员。
-  - Office 365 组的任何成员都会成为经典工作区的成员。 如果经典工作区原来设置为成员只能读取 Power BI 内容，则将还原此设置。
+  - Office 365 组的任何成员都会成为经典工作区的成员。 如果经典工作区原来设置为成员只能读取 Power BI 内容  ，则将还原此设置。
   - 升级完成后添加到工作区的任何用户或用户组（Office 365 组外部）将失去对工作区的访问权限。 可将他们添加到 Office 365 组，以授予其访问权限。 请注意，Office 365 组不允许在成员身份中嵌套安全组或通讯组。
   - 获得工作区应用访问权限的用户可以继续访问该应用。
   - 通过共享获得对工作区中项目的访问权限的用户可以继续访问这些项目。
@@ -212,4 +212,4 @@ ms.locfileid: "74410825"
 ## <a name="next-steps"></a>后续步骤
 * [在 Power BI 中创建新工作区](../service-create-the-new-workspaces.md)
 * [创建经典工作区](../service-create-workspaces.md)
-* 是否有任何问题? [尝试咨询 Power BI 社区](https://community.powerbi.com/)
+* 是否有任何问题？ [尝试咨询 Power BI 社区](https://community.powerbi.com/)

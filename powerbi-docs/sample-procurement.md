@@ -1,6 +1,6 @@
 ---
-title: 采购分析示例：参观
-description: Power BI 的采购分析示例：参观
+title: 采购分析示例：教程
+description: Power BI 的采购分析示例：教程
 author: maggiesMSFT
 ms.reviewer: amac
 ms.service: powerbi
@@ -10,13 +10,13 @@ ms.date: 07/02/2019
 ms.author: maggies
 LocalizationGroup: Samples
 ms.openlocfilehash: 8ee77485da03cb8e507d30d511c08aa869c3e4ba
-ms.sourcegitcommit: 444f7fe5068841ede2a366d60c79dcc9420772d4
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/30/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "80404662"
 ---
-# <a name="procurement-analysis-sample-for-power-bi-take-a-tour"></a>Power BI 的采购分析示例：参观
+# <a name="procurement-analysis-sample-for-power-bi-take-a-tour"></a>Power BI 的采购分析示例：教程
 
 “采购分析”示例内容包中有仪表板、报表和数据集，用于按类别和位置分析制造公司对供应商的支出。 本示例探讨以下几方面：
 
@@ -26,7 +26,7 @@ ms.locfileid: "80404662"
 
 ![采购分析示例仪表板](media/sample-procurement/procurement1.png)
 
-此示例是一系列示例的一部分，展示了如何将 Power BI 与面向业务的数据、报表和仪表板结合使用。 它是使用 [obviEnce](http://www.obvience.com/) 依据真实数据（已经过匿名处理）进行创建的。 数据可采用以下几种格式：内容包、.pbix Power BI Desktop 文件或 Excel 工作簿。 请参阅[用于 Power BI 的示例](sample-datasets.md)。 
+此示例是一系列教程的一部分，它展示了如何将 Power BI 与面向业务的数据、报表及仪表板搭配使用。 它是使用 [obviEnce](http://www.obvience.com/) 依据真实数据（已经过匿名处理）进行创建的。 数据可采用以下几种格式：内容包、.pbix Power BI Desktop 文件或 Excel 工作簿。 请参阅 [Power BI 示例](sample-datasets.md)。 
 
 本教程探讨了 Power BI 服务中的采购分析示例内容包。 由于报表体验在 Power BI Desktop 和服务中非常相似，因此也可以使用 Power BI Desktop 中的示例 .pbix 文件跟着本教程一起操作。 
 
@@ -42,10 +42,10 @@ ms.locfileid: "80404662"
 
     如果没有 Power BI Pro 许可证，可以将该示例保存到“我的工作区”。
 
-2. 选择左下角的“获取数据”  。
+2. 在左下角，选择“获取数据”  。
 
     ![选择“获取数据”](media/sample-datasets/power-bi-get-data.png)
-3. 在随即显示的“获取数据”  页上，选择“示例”  。
+3. 在显示的“获取数据”页上，选择“示例”   。
 
 4. 依次选择“采购分析示例”  和“连接”  。  
   
@@ -138,8 +138,8 @@ ms.locfileid: "80404662"
 * 更改图表的可视化效果类型；例如，将树状图更改为环形图。
 * 将图表固定到仪表板。
 
-## <a name="next-steps-connect-to-your-data"></a>后续步骤：连接到数据
-可以在此环境中安全操作，因为能够选择不保存更改。 不过，如果确实保存了更改，可随时选择“获取数据”  来获取此示例的新副本。
+## <a name="next-steps-connect-to-your-data"></a>后续步骤：连接到你的数据
+可在此环境中安全操作，因为你可选择不保存所作更改。 但是，如果保存更改，则可以始终选择“获取数据”来获取本示例的新副本  。
 
-我们希望本教程已经演示 Power BI 仪表板、问答和报表如何能够帮助深入了解示例数据。 现在轮到你了；立即连接到你自己的数据。 借助 Power BI，可以连接到各种数据源。 若要了解详细信息，请参阅 [Power BI 服务入门](service-get-started.md)。
+我们希望本教程已经演示 Power BI 仪表板、问答和报表如何能够帮助深入了解示例数据。 现在轮到你了；连接到你自己的数据。 借助 Power BI，你可以连接到各种数据源。 要了解详细信息，请参阅 [Power BI 服务入门](service-get-started.md)。
 

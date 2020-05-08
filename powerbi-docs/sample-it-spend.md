@@ -1,6 +1,6 @@
 ---
-title: Power BI 的 IT 支出分析示例：参观
-description: Power BI 的 IT 支出分析示例：参观
+title: Power BI 的 IT 支出分析示例教程
+description: Power BI 的 IT 支出分析示例教程
 author: maggiesMSFT
 ms.reviewer: amac
 ms.service: powerbi
@@ -10,19 +10,19 @@ ms.date: 07/05/2019
 ms.author: maggies
 LocalizationGroup: Samples
 ms.openlocfilehash: 00effa1838327a9463671cf9be2f5764be71deb4
-ms.sourcegitcommit: 444f7fe5068841ede2a366d60c79dcc9420772d4
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/30/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "80404682"
 ---
-# <a name="it-spend-analysis-sample-for-power-bi-take-a-tour"></a>Power BI 的 IT 支出分析示例：参观
+# <a name="it-spend-analysis-sample-for-power-bi-take-a-tour"></a>Power BI 的 IT 支出分析示例教程
 
 IT 支出分析示例内容包中有仪表板、报表和数据集，分析了 IT 部门的计划成本与实际成本。 这种比较可以帮助我们了解公司年度计划的效果如何并调查与计划有巨大偏差的区域。 此示例中的公司经历了一个年度计划周期，然后按季度生成新的最新估计 (LE)，以帮助分析会计年度中的 IT 支出变化。
 
 ![IT 支出分析示例仪表板](media/sample-it-spend/it1.png)
 
-此示例是一系列示例的一部分，展示了如何将 Power BI 与面向业务的数据、报表和仪表板结合使用。 它是使用 [obviEnce](http://www.obvience.com/) 依据真实数据（已经过匿名处理）进行创建的。 数据可采用以下几种格式：内容包、.pbix Power BI Desktop 文件或 Excel 工作簿。 请参阅[用于 Power BI 的示例](sample-datasets.md)。 
+此示例是一系列教程的一部分，它展示了如何将 Power BI 与面向业务的数据、报表及仪表板搭配使用。 它是使用 [obviEnce](http://www.obvience.com/) 依据真实数据（已经过匿名处理）进行创建的。 数据可采用以下几种格式：内容包、.pbix Power BI Desktop 文件或 Excel 工作簿。 请参阅 [Power BI 示例](sample-datasets.md)。 
 
 本教程探讨了 Power BI 服务中的“IT 支出分析示例”内容包。 由于报表体验在 Power BI Desktop 和服务中非常相似，因此也可以使用 Power BI Desktop 中的示例 .pbix 文件跟着本教程一起操作。 
 
@@ -38,16 +38,16 @@ IT 支出分析示例内容包中有仪表板、报表和数据集，分析了 I
 
    如果没有 Power BI Pro 许可证，可以将该示例保存到“我的工作区”。
 
-2. 选择左下角的“获取数据”  。
+2. 在左下角，选择“获取数据”  。
    
    ![选择“获取数据”](media/sample-datasets/power-bi-get-data.png)
-3. 在随即显示的“获取数据”  页上，选择“示例”  。
+3. 在显示的“获取数据”页上，选择“示例”   。
    
 4. 依次选择“IT 支出分析示例”  和“连接”  。  
   
    ![连接到示例](media/sample-it-spend/it-connect.png)
    
-5. 此时，Power BI 导入内容包，然后向当前工作区添加新的仪表板、报表和数据集。
+5. Power BI 导入内容包，然后向当前工作区添加新的仪表板、报表和数据集。
    
    ![IT 支出分析示例条目](media/sample-it-spend/it-spend-analysis-sample-entry.png)
   
@@ -57,7 +57,7 @@ IT 支出分析示例内容包中有仪表板、报表和数据集，分析了 I
 
 ### <a name="get-the-excel-workbook-for-this-sample"></a>获取 Excel 工作簿形式的此示例
 
-若要查看此示例的数据源，还可以将它下载为 [Excel 工作簿](https://go.microsoft.com/fwlink/?LinkId=529783)。 该工作簿包含你可以查看和修改的 Power View 工作表。 若要查看原始数据，请启用“数据分析”加载项，再依次选择“Power Pivot”>“管理”  。 若要启用 Power View 和 Power Pivot 加载项，请参阅[在 Excel 中浏览 Excel 示例](sample-datasets.md#explore-excel-samples-inside-excel)，以了解详细信息。
+若要查看此示例的数据源，还可以将它下载为 [Excel 工作簿](https://go.microsoft.com/fwlink/?LinkId=529783)。 该工作簿包含你可以查看和修改的 Power View 工作表。 若要查看原始数据，请启用“数据分析”加载项，再依次选择“Power Pivot”>“管理”  。 若要启用 Power View 和 Power Pivot 加载项，请参阅[在 Excel 中探索 Excel 示例](sample-datasets.md#explore-excel-samples-inside-excel)，以了解详细信息。
 
 ## <a name="it-spend-analysis-sample-dashboard"></a>IT 支出分析示例仪表板
 仪表板左侧有两个数字磁贴，分别为“与计划差异(%)”  和“与第 3 季度最新估计差异(%)”  ，它们提供了与计划和最新季度估计（LE3 = 第 3 季度最新估计）相比的实际支出概况。 总体上，我们与计划大约有 6% 的差异。 接下来，将探索导致此差异产生的原因：时间、地点和类别。
@@ -126,7 +126,7 @@ IT 支出分析示例内容包中有仪表板、报表和数据集，分析了 I
 * 更改每个图表的可视化效果类型。
 * 将相关图表固定到仪表板。
 
-## <a name="next-steps-connect-to-your-data"></a>后续步骤：连接到数据
-可以在此环境中安全操作，因为能够选择不保存更改。 不过，如果确实保存了更改，可随时选择“获取数据”  来获取此示例的新副本。
+## <a name="next-steps-connect-to-your-data"></a>后续步骤：连接到你的数据
+可在此环境中安全操作，因为你可选择不保存所作更改。 但是，如果保存更改，则可以始终选择“获取数据”来获取本示例的新副本  。
 
-我们希望本教程已经演示 Power BI 仪表板、问答和报表如何能够帮助深入了解示例数据。 现在轮到你了；立即连接到你自己的数据。 借助 Power BI，可以连接到各种数据源。 若要了解详细信息，请参阅 [Power BI 服务入门](service-get-started.md)。
+我们希望本教程已经演示 Power BI 仪表板、问答和报表如何能够帮助深入了解示例数据。 现在轮到你了；连接到你自己的数据。 借助 Power BI，你可以连接到各种数据源。 要了解详细信息，请参阅 [Power BI 服务入门](service-get-started.md)。

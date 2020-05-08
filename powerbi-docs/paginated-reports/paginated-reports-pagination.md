@@ -9,10 +9,10 @@ ms.subservice: report-builder
 ms.topic: conceptual
 ms.date: 12/03/2019
 ms.openlocfilehash: 03b361c56bd545036a8d706ae01e2bfa2ec30222
-ms.sourcegitcommit: ced8c9d6c365cab6f63fbe8367fb33e6d827cb97
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/07/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "78921231"
 ---
 # <a name="pagination-in-power-bi-paginated-reports"></a>Power BI 分页报表中的分页
@@ -30,13 +30,13 @@ ms.locfileid: "78921231"
  可以使用边框颜色、边框样式和边框宽度设置表体格式。 还可以添加背景色和背景图像。  
   
 ## <a name="the-physical-page"></a>物理页  
- 物理页大小是纸张大小。 为报表指定的纸张大小控制报表的呈现方式。 以强制分页符格式呈现的报表会根据物理页大小在水平方向和垂直方向上插入分页符。 当以强制分页符文件格式打印或查看报表时，这些分页符可提供经过优化的阅读体验。 以软分页格式呈现的报表会根据物理大小在水平方向上插入分页符。 同样，在 Web 浏览器中查看报表时，分页符会提供优化的阅读体验。  
+ 物理页大小为纸张大小。 为报表指定的纸张大小控制报表的呈现方式。 以强制分页符格式呈现的报表会根据物理页大小在水平方向和垂直方向上插入分页符。 当以强制分页符文件格式打印或查看报表时，这些分页符可提供经过优化的阅读体验。 以软分页格式呈现的报表会根据物理大小在水平方向上插入分页符。 同样，在 Web 浏览器中查看报表时，分页符会提供优化的阅读体验。  
   
  默认情况下，页大小为 8.5 x 11 英寸，但是可以“报表属性”  窗格或“页面设置”  对话框中更改此大小，也可以通过在“属性”  窗格中更改 PageHeight 和 PageWidth 属性来进行更改。 页大小不会增大或收缩以容纳表体的内容。 如果希望报表出现在单个页上，则表体中的所有内容都必须可容纳在该物理页中。 如果无法容纳并且使用的是强制分页符格式，则报表需要更多页面。 如果表体增大到超出物理页右边缘，则会水平插入分页符。 如果表体增大到超出物理页下边缘，则会垂直插入分页符。  
   
  如果要替代报表中定义的物理页大小，可以使用用于导出报表的特定呈现器“设备信息”设置来指定物理页大小。 有关完整列表，请参阅 SQL Server Reporting Services 文档中的[呈现扩展插件的设备信息设置](https://docs.microsoft.com/sql/reporting-services/device-information-settings-for-rendering-extensions-reporting-services?view=sql-server-2017)。  
   
-### <a name="margins"></a>Margins
+### <a name="margins"></a>边距
 
  边距从物理页尺寸的边缘向内绘制到指定边距设置。 如果报表项扩展到边距区域中，则会进行剪裁，以便不呈现重叠区域。 如果指定的边距大小导致页的水平或垂直宽度等于零，则边距设置默认为零。 边距在“报表属性”  窗格或“页面设置”  对话框中指定，或是通过在“属性”  窗格中更改 TopMargin、BottomMargin、LeftMargin 和 RightMargin 属性进行指定。 如果要替代报表中定义的边距大小，可以使用用于导出报表的特定呈现器“设备信息”设置来指定边距大小。  
   
@@ -61,7 +61,7 @@ ms.locfileid: "78921231"
 
  InitialPageName 属性提供报表的初始页名称。 如果报表不包含分页符的页名称，则初始页名称会用于由分页符创建的所有新页。 无需使用初始页名称。  
   
- 呈现的报表可以为分页符形成的新页提供新的页名称。 若要提供页名称，可设置表、矩阵、列表、组或矩形的 PageName 属性。 不必在分页符上指定页名称。 如果不这样做，则会改为使用 InitialPageName 的值。 如果 InitialPageName 也为空白，则新页没有名称。  
+ 呈现的报表可以为分页符形成的新页提供新的页名称。 为了提供页名称，可以设置表、矩阵、列表、组或矩形的 PageName 属性。 不必在分页符上指定页名称。 如果不这样做，则会改为使用 InitialPageName 的值。 如果 InitialPageName 也为空白，则新页没有名称。  
   
  表、矩阵和列表数据区域、组与矩形支持分页符。  
   

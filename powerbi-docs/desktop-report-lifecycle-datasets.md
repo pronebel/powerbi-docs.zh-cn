@@ -10,10 +10,10 @@ ms.date: 01/13/2020
 ms.author: davidi
 LocalizationGroup: Connect to data
 ms.openlocfilehash: 1312e56edfb17c57334af263b9f38c3dd97c1894
-ms.sourcegitcommit: 5ece366fceee9832724dae40eacf8755e1d85b04
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/16/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "81525413"
 ---
 # <a name="connect-to-datasets-in-the-power-bi-service-from-power-bi-desktop"></a>通过 Power BI Desktop 连接 Power BI 服务中的数据集

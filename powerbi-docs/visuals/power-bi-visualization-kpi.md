@@ -11,10 +11,10 @@ ms.date: 01/30/2020
 ms.author: mihart
 LocalizationGroup: Visualizations
 ms.openlocfilehash: 5d21fc3a2e585922e65e1385ed1fc436a6dbcf22
-ms.sourcegitcommit: 8e3d53cf971853c32eff4531d2d3cdb725a199af
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/04/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "76974978"
 ---
 # <a name="create-key-performance-indicator-kpi-visualizations"></a>创建关键绩效指标 (KPI) 视觉对象
@@ -44,17 +44,17 @@ ms.locfileid: "76974978"
 
 KPI 数据集需要包含 KPI 目标值。 如果数据集不包含目标值，你可以创建它们，具体方法是向数据模型或 PBIX 文件添加含目标的 Excel 工作表。
 
-## <a name="prerequisites"></a>先决条件
+## <a name="prerequisites"></a>必备组件
 
 本教程使用[零售分析示例 PBIX 文件](https://download.microsoft.com/download/9/6/D/96DDC2FF-2568-491D-AAFA-AFDD6F763AE3/Retail%20Analysis%20Sample%20PBIX.pbix)。
 
-1. 在菜单栏的左上方，选择“文件” > “打开”  
+1. 在菜单栏的左上方，选择“文件” **“打开”**  >  
 
 1. 查找**零售分析示例 PBIX 文件**的副本
 
 1. 在报表视图中打开“零售分析示例 PBIX 文件”  。 ![报表视图图标的屏幕截图。](media/power-bi-visualization-kpi/power-bi-report-view.png)
 
-1. 选择 + 来添加新页面  。 ![黄色选项卡的屏幕截图。](media/power-bi-visualization-kpi/power-bi-yellow-tab.png)
+1. 选择  **来添加新页面+** 。 ![黄色选项卡的屏幕截图。](media/power-bi-visualization-kpi/power-bi-yellow-tab.png)
 
 ## <a name="how-to-create-a-kpi"></a>如何创建 KPI
 

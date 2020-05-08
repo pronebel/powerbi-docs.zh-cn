@@ -10,10 +10,10 @@ ms.date: 01/17/2020
 ms.author: davidi
 LocalizationGroup: Learn more
 ms.openlocfilehash: 0e3f742e0ad9d3b9bf81c9dd95e9193413a70d6a
-ms.sourcegitcommit: 02342150eeab52b13a37b7725900eaf84de912bc
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/23/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "76539941"
 ---
 # <a name="tutorial-analyze-sales-data-from-excel-and-an-odata-feed"></a>教程：分析来自 Excel 和 OData 源的销售数据
@@ -75,7 +75,7 @@ ms.locfileid: "76539941"
 
    ![获取 OData](media/desktop-tutorial-analyzing-sales-data-from-excel-and-an-odata-feed/get_odata.png)
 
-1. 在“OData 源”对话框中，粘贴 Northwind OData 源 URL `https://services.odata.org/V3/Northwind/Northwind.svc/`  。 选择“确定”。 
+1. 在“OData 源”对话框中，粘贴 Northwind OData 源 URL `https://services.odata.org/V3/Northwind/Northwind.svc/` 。 选择“确定”。 
 
    ![OData 源对话框](media/desktop-tutorial-analyzing-sales-data-from-excel-and-an-odata-feed/get_odata2.png)
 

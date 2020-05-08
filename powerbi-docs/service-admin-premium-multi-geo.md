@@ -10,17 +10,17 @@ ms.topic: conceptual
 ms.date: 02/05/2019
 LocalizationGroup: Premium
 ms.openlocfilehash: 4b30e2fbf4ec3607b3ee155749a1ddeeb9f76cad
-ms.sourcegitcommit: 075a0ade4134d28f578fda78996595e8cd9f3555
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/24/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "80147345"
 ---
 # <a name="configure-multi-geo-support-for-power-bi-premium"></a>配置 Power BI Premium 的 Multi-Geo 支持
 
 Multi-Geo（多地理位置）是一项 Power BI Premium 功能，可帮助跨国客户解决地区、特定于行业或组织的数据驻留要求。 作为 Power BI Premium 客户，可以将内容部署到除 Power BI 租户主区域以外区域的数据中心。 一个地区 (geography) 可以包含多个区域。 例如，美国是一个地区，而美国中西部和美国中南部都是美国的区域。 可以选择将内容部署到以下任何地区：
 
-- 美国
+- United States
 - 加拿大
 - 英国
 - 巴西
