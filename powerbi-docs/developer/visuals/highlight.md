@@ -9,19 +9,19 @@ ms.subservice: powerbi-custom-visuals
 ms.topic: conceptual
 ms.date: 10/31/2019
 ms.openlocfilehash: a472db6c6dcc1266a11e78d72ab8465df7682042
-ms.sourcegitcommit: 2c798b97fdb02b4bf4e74cf05442a4b01dc5cbab
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/21/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "80114143"
 ---
 # <a name="highlight-data-points-in-power-bi-visuals"></a>突出显示 Power BI 视觉对象中的数据点
 
-默认情况下，只要选择了某个元素，`dataView` 对象中的 `values` 数组就会被筛选为所选的值。 这将导致页面上的所有其他视觉对象仅显示所选数据。
+默认情况下，只要选择了某个元素，`values` 对象中的 `dataView` 数组就会被筛选为所选的值。 这将导致页面上的所有其他视觉对象仅显示所选数据。
 
 ![突出显示 `dataview` 默认行为](media/highlight/highlight-dataview.png)
 
-如果将 `capabilities.json` 中的 `supportsHighlight` 属性设置为 `true`，则会获得未经筛选的完整 `values` 数组和 `highlights` 数组。 `highlights` 数组的长度与 values 数组的长度相同，并且任何未选定的值都将设置为 `null`。 启用此属性后，视觉对象负责通过将 `values` 数组与 `highlights` 数组进行比较来突出显示相应的数据。
+如果将 `supportsHighlight` 中的 `capabilities.json` 属性设置为 `true`，则会获得未经筛选的完整 `values` 数组和 `highlights` 数组。 `highlights` 数组的长度与 values 数组的长度相同，并且任何未选定的值都将设置为 `null`。 启用此属性后，视觉对象负责通过将 `values` 数组与 `highlights` 数组进行比较来突出显示相应的数据。
 
 ![`dataview` 支持突出显示](media/highlight/highlight-dataview-supports.png)
 
@@ -32,7 +32,7 @@ ms.locfileid: "80114143"
 
 ## <a name="highlight-data-points-with-categorical-data-view-mapping"></a>用分类数据视图映射功能突出显示数据点
 
-具有分类数据视图映射功能的视觉对象具有带 `"supportsHighlight": true` 参数的 `capabilities.json`。 例如：
+具有分类数据视图映射功能的视觉对象具有带 `capabilities.json` 参数的 `"supportsHighlight": true`。 例如：
 
 ```json
 {
@@ -275,7 +275,7 @@ div.value {
 
 ## <a name="highlight-data-points-with-matrix-data-view-mapping"></a>用矩阵数据视图映射突出显示数据点
 
-具有矩阵数据视图映射功能的视觉对象具有带 `"supportsHighlight": true` 参数的 `capabilities.json`。 例如：
+具有矩阵数据视图映射功能的视觉对象具有带 `capabilities.json` 参数的 `"supportsHighlight": true`。 例如：
 
 ```json
 {
@@ -323,9 +323,9 @@ div.value {
 
 示例数据，用于创建矩阵数据视图映射的层次结构：
 
-|   行 1   |   行 2   |   行 3   |   列 1   |   列 2   |   Column3   |   值   |
+|   行 1   |   行 2   |   行 3   |   Column1   |   Column2   |   Column3   |   值   |
 |-----|-----|------|-------|-------|-------|-------|
-|   R1   |   R11   |   R111   |   C1   |   C11   |   C111   |   1   |
+|   R1   |   R11   |   R111   |   C1   |   C11   |   C111   |   第 1 个   |
 |   R1   |   R11   |   R112   |   C1   |   C11   |   C112   |   2   |
 |   R1   |   R11   |   R113   |   C1   |   C11   |   C113   |   3   |
 |   R1   |   R12   |   R121   |   C1   |   C12   |   C121   |   4   |

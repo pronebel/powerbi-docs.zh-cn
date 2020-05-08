@@ -9,10 +9,10 @@ ms.topic: conceptual
 ms.date: 03/10/2020
 ms.author: kfollis
 ms.openlocfilehash: 1853e710958b5bed0dad011594d9e04ccc99842d
-ms.sourcegitcommit: 87b7cb4a2e626711b98387edaa5ff72dc26262bb
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/10/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "79041668"
 ---
 # <a name="power-bi-data-sources"></a>Power BI 数据源
@@ -20,7 +20,7 @@ ms.locfileid: "79041668"
 下表展示了 Power BI 支持的数据集的数据源，其中包括有关 DirectQuery 和本地数据网关的信息。 有关数据流的信息，请参阅[连接到 Power BI 数据流的数据源](service-dataflows-data-sources.md)。
 
 > [!NOTE]
-> Power BI Desktop 中的大多数数据连接都需要 Internet Explorer 10（或更高版本）进行身份验证。 
+> Power BI Desktop 中的许多数据连接器都需要 Internet Explorer 10（或更高版本）进行身份验证。 
 
 
 | 数据源 | 从桌面连接 | 从服务连接并刷新 | DirectQuery/实时连接 | 网关（支持） | 网关（必需） |
@@ -51,7 +51,7 @@ ms.locfileid: "79041668"
 | Data.World - Get Dataset | 是 | 是 | 否 | 否 | 否 |
 | Denodo | 是 | 是 | 是 | 是 | 是 |
 | Dremio | 是 | 是 | 是 | 是 | 是 |
-| Dynamics 365 (联机) | 是 | 是 | 否 | 否 | 否 |
+| Dynamics 365(在线) | 是 | 是 | 否 | 否 | 否 |
 | Dynamics 365 Business Central | 是 | 是 | 否 | 否 | 否 |
 | Dynamics 365 Business Central (本地) | 是 | 是 | 否 | 否 | 否 |
 | Dynamics 365 Customer Insights | 是 | 是 | 否 | 否 | 否 |
@@ -63,7 +63,7 @@ ms.locfileid: "79041668"
 | Excel | 是 <sup>3</sup> | 是 <sup>3</sup> | 否 | 是 <sup>3</sup> | 否 <sup>4</sup> |
 | Facebook | 是 | 是 | 否 | 否 | 否 |
 | 文件 | 是 | 是 | 否 | 是 | 是 |
-| 文件夹 | 是 | 是 | 否 | 是 | 是 |
+| Folder | 是 | 是 | 否 | 是 | 是 |
 | GitHub | 是 | 是 | 否 | 否 | 否 |
 | Google Analytics | 是 | 是 | 否 | 否 | 否 |
 | Google BigQuery | 是 | 是 | 否 | 否 | 否 |

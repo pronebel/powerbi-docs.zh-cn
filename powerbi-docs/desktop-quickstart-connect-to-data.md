@@ -10,10 +10,10 @@ ms.date: 01/10/2020
 ms.author: davidi
 LocalizationGroup: quickstart
 ms.openlocfilehash: 5aed52ec232d3e603d69bfe93640187401279ff6
-ms.sourcegitcommit: 801d2baa944469a5b79cf591eb8afd18ca4e00b1
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/11/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "75885242"
 ---
 # <a name="quickstart-connect-to-data-in-power-bi-desktop"></a>快速入门：连接到 Power BI Desktop 中的数据
@@ -24,7 +24,7 @@ ms.locfileid: "75885242"
 
 如果未注册 Power BI，请[免费注册](https://app.powerbi.com/signupredirect?pbi_source=web)后再进行操作。
 
-## <a name="prerequisites"></a>先决条件
+## <a name="prerequisites"></a>必备组件
 
 若要完成本文中的步骤，需要准备好以下资源：
 

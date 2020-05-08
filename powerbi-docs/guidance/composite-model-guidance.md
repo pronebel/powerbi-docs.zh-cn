@@ -9,10 +9,10 @@ ms.topic: conceptual
 ms.date: 12/24/2019
 ms.author: v-pemyer
 ms.openlocfilehash: fa9ecd66d30839e169252065f7f736189b71b6ce
-ms.sourcegitcommit: 8b300151b5c59bc66bfef1ca2ad08593d4d05d6a
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/30/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "76889471"
 ---
 # <a name="composite-model-guidance-in-power-bi-desktop"></a>Power BI Desktop 中的复合模型指南
@@ -67,7 +67,7 @@ Power BI 查询复合模型时，有几种可能的场景：
 - 使用适当的索引优化 DirectQuery 数据源来实现高效联接、筛选和分组
 - 如果存在截获本机查询的风险，请不要将敏感数据加载到导入表或双重表中；有关详细信息，请参阅[在 Power BI Desktop 中使用复合模型（安全隐患）](../desktop-composite-models.md#security-implications)
 
-### <a name="aggregations"></a>Aggregations
+### <a name="aggregations"></a>聚合
 
 可以在复合模型中向 DirectQuery 表添加聚合。 聚合缓存在模型中，因此它们表现为导入表（尽管它们不能像模型表那样使用）。 其目的是提高“更高粒度”查询的性能。 有关详细信息，请参阅 [Power BI Desktop 中的聚合](../desktop-aggregations.md)。
 
@@ -85,5 +85,5 @@ Power BI 查询复合模型时，有几种可能的场景：
 - [Power BI 数据源](../power-bi-data-sources.md)
 - [Power BI Desktop 中的存储模式](../desktop-storage-mode.md)
 - [Power BI Desktop 中的聚合](../desktop-aggregations.md)
-- 有疑问？ [尝试在 Power BI 社区中提问](https://community.powerbi.com/)
+- 是否有任何问题? [尝试咨询 Power BI 社区](https://community.powerbi.com/)
 - 建议？ [提出改进 Power BI 的想法](https://ideas.powerbi.com)
