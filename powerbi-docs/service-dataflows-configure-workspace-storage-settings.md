@@ -10,13 +10,13 @@ ms.date: 01/29/2020
 ms.author: davidi
 LocalizationGroup: Data from files
 ms.openlocfilehash: 516d3a682b669400a015aaec101c7e79c14dbb44
-ms.sourcegitcommit: 8b300151b5c59bc66bfef1ca2ad08593d4d05d6a
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/30/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "76889342"
 ---
-# <a name="configure-workspace-dataflow-settings-preview"></a>配置工作区数据流设置（预览版）
+# <a name="configure-workspace-dataflow-settings-preview"></a>配置工作区数据流设置（预览）
 
 使用 Power BI 和数据流时，可以在 Azure Data Lake Storage Gen2 中存储工作区的数据流定义文件和数据文件。 工作区管理员可以将 Power BI 配置为执行此操作，本文介绍了实现此目标所需的步骤。 
 

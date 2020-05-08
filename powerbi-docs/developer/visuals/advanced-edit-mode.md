@@ -9,10 +9,10 @@ ms.subservice: powerbi-custom-visuals
 ms.topic: conceptual
 ms.date: 06/18/2019
 ms.openlocfilehash: 97242883fe90c8f5e115818a24e4bb1c49f69b77
-ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/14/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "79380540"
 ---
 # <a name="advanced-edit-mode-in-power-bi-visuals"></a>Power BI 视觉对象中的高级编辑模式
@@ -33,7 +33,7 @@ ms.locfileid: "79380540"
 
 如果出现以下情况，则会显示“编辑”按钮  ：
 
-* 在 capabilities.json 文件中将 `advancedEditModeSupport` 属性设置为 `SupportedNoAction` 或 `SupportedInFocus`  。
+* 在 capabilities.json 文件中将 `advancedEditModeSupport` 属性设置为 `SupportedNoAction` 或 `SupportedInFocus` 。
 
 * 在报表编辑模式下查看视觉对象。
 
@@ -50,4 +50,4 @@ ms.locfileid: "79380540"
 
 如果出现以下情况，则会显示“返回报表”按钮  ：
 
-* 在 capabilities.json 文件中将 `advancedEditModeSupport` 属性设置为 `SupportedInFocus`  。
+* 在 capabilities.json 文件中将 `advancedEditModeSupport` 属性设置为 `SupportedInFocus` 。
