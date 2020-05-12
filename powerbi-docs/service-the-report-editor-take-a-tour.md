@@ -11,10 +11,10 @@ ms.date: 08/14/2019
 ms.author: maggies
 LocalizationGroup: Reports
 ms.openlocfilehash: 800079f20d0c16964b0e5dd5fbac5919e94317f7
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/09/2019
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "73871341"
 ---
 # <a name="tour-the-report-editor-in-power-bi"></a>Power BI 中的报表编辑器导览
@@ -62,7 +62,7 @@ Power BI 报表编辑器由几个主要部分组成：
 
 ![可视化效果中的“字段”](media/service-the-report-editor-take-a-tour/power-bi-fields-visualization-pane.png)“字段”显示视觉对象中的字段  。 有时可能需要向下滚动以查看全部详细信息。 此图表使用的是“StoreNumberName”和“This Year Sales”。
 
-![滚动油漆刷图标](media/service-the-report-editor-take-a-tour/power-bi-paint-roller.png)“格式”：要显示所选视觉效果的格式窗格，请选择滚动油漆刷图标  。
+![图标](media/service-the-report-editor-take-a-tour/power-bi-paint-roller.png)“格式”：要显示所选视觉效果的格式窗格，请选择滚漆筒图标  。
 
 ![放大镜图标](media/service-the-report-editor-take-a-tour/power-bi-magnifying-glass.png)“分析”：要显示“分析”窗格，请选择放大镜图标  。
 

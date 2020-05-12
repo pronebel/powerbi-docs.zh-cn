@@ -3,18 +3,19 @@ title: 将报表从 Power BI 导出到 PowerPoint
 description: 了解如何将 Power BI 报表导出到 PowerPoint。
 author: mihart
 ms.reviewer: ''
+ms.custom: contperfq4
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 02/21/2020
+ms.date: 05/05/2020
 ms.author: mihart
 LocalizationGroup: Share your work
-ms.openlocfilehash: f9e0288c91f65d10329aaac29df8eb6e7a81f297
-ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
+ms.openlocfilehash: 4a93bbc0d5d8014e11fb59129b22b5493def0ac2
+ms.sourcegitcommit: 220910f0b68cb1e265ccd5ac0cee4ee9c6080b26
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/14/2020
-ms.locfileid: "79377147"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "82841083"
 ---
 # <a name="export-reports-from-power-bi-to-powerpoint"></a>将报表从 Power BI 导出到 PowerPoint
 
@@ -22,7 +23,9 @@ ms.locfileid: "79377147"
 
 [!INCLUDE [power-bi-service-new-look-include](../includes/power-bi-service-new-look-include.md)]
 
-借助 Power BI，可以将报表发布到 Microsoft PowerPoint，并根据 Power BI 报表轻松地创建幻灯片组。 导出到 PowerPoint 时，会发生以下情况：
+![显示 Power BI 徽标和 PowerPoint 徽标的图片](media/end-user-powerpoint/logos.png)
+
+借助 Power BI 服务(app.powerbi.com)，可以将报表发布到 Microsoft PowerPoint，并根据 Power BI 报表轻松创建幻灯片组。 导出到 PowerPoint 时，会发生以下情况：
 
 * Power BI 报表中的每个页面成为 PowerPoint 中单独的幻灯片。
 * Power BI 报表中的每个页面导出为 PowerPoint 中的单张高分辨率图像。
@@ -30,6 +33,10 @@ ms.locfileid: "79377147"
 * PowerPoint 中会创建链接到 Power BI 报表的链接。
 
 将 Power BI 报表  导出到 PowerPoint  非常快速。 按照下一部分中所述的步骤执行操作。
+
+还可以从 Power BI 服务复制特定视觉对象并将其粘贴到 PowerPoint 中。 选择“复制为图像”图标，将视觉对象复制到剪贴板  。 然后，打开 PowerPoint 并粘贴该视觉对象。
+
+![选择“复制为图像”图标](media/end-user-powerpoint/power-bi-copy.png)
 
 ## <a name="export-your-power-bi-report-to-powerpoint"></a>将 Power BI 报表导出到 PowerPoint
 在 Power BI 服务中，选择要在画布上显示的报表  。 你还可以从导航窗格上的“主页”、“应用”或任何其他容器中选择报表   。
@@ -77,12 +84,13 @@ Power BI 服务完成导出过程后，通知横幅会发生变化以通知你�
 ## <a name="considerations-and-troubleshooting"></a>注意事项和疑难解答
 在使用“导出到 PowerPoint”功能时，有几个注意事项和限制需要牢记  。
 
-* 目前不支持 R 视觉对象和 Python 视觉对象。 任何此类视觉对象都将作为空白图像导出到 PowerPoint 中，并显示一条错误消息，指示不支持该视觉对象。
+
+* 将报表导出到 PowerPoint 的过程可能需要几分钟才能完成，请耐心等待。 影响所需时间的因素包括报表的结构和 Power BI 服务的当前负载。
 * 支持经认证的 Power BI 视觉对象。 有关已认证的自定义视觉对象的详细信息（包括如何完成自定义视觉对象认证），请参阅[获取自定义视觉对象认证](../developer/power-bi-custom-visuals-certified.md)。 不支持尚未认证的自定义视觉对象。 它们将作为空白图像导出到 PowerPoint 中，并显示一条错误消息，指示不支持该视觉对象。
-* ESRI 视觉对象不受支持
+* 如果为导出选择“当前值”，当前不遵循 URL 筛选器  。
+* 不支持 [ESRI ArcGIS 视觉对象](../visuals/power-bi-visualizations-arcgis.md)
 * 暂无法导出报表页超过 30 个的报表。
 * 具有滚动条的视觉对象以其默认状态导出。 PowerPoint 中的视觉对象将仅显示数据的顶部部分。 PowerPoint 中的滚动功能不可用，因为每张幻灯片都是图像。 
-* 将报表导出到 PowerPoint 的过程可能需要几分钟才能完成，请耐心等待。 影响所需时间的因素包括报表的结构和 Power BI 服务的当前负载。
 * 如果 Power BI 服务中没有“导出到 PowerPoint”菜单项，则可能是因为租户管理员已禁用该功能  。 有关详细信息，请联系租户管理员。
 * 背景图像会根据图表的边界区域进行裁剪。 我们建议在导出到 PowerPoint 之前删除背景图像。
 * PowerPoint 页始终以标准的 9:16 尺寸创建，无论 Power BI 报表页的原大小或原尺寸如何。
@@ -93,7 +101,10 @@ Power BI 服务完成导出过程后，通知横幅会发生变化以通知你�
 * Power BI 服务将你的 Power BI 语言设置用作 Power BI 导出的语言。 若要查看或设置语言首选项，请选择齿轮图标 ![齿轮图标](media/end-user-powerpoint/power-bi-settings-icon.png) > “设置” > “常规” > “语言”    。
 * 导出的 PowerPoint 文件的封面幻灯片上的下载  时间被设置为导出时计算机的时区。
 * 导出为 PPTX 时，使用含自定义字体的主题的报表会将自定义字体替换为默认字体。
-* 如果为导出选择“当前值”，当前不遵循 URL 筛选器  。
+* 当前不支持使用 R 和 Python 创建的视觉对象。 任何此类视觉对象都将作为空白图像导出到 PowerPoint 中，并显示一条错误消息，指示不支持该视觉对象。
+
+
 
 ## <a name="next-steps"></a>后续步骤
+[将视觉对象复制为静态图像](../power-bi-visualization-copy-paste.md)    
 [打印报表](end-user-print.md)

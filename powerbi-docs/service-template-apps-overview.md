@@ -4,16 +4,16 @@ description: 本文概述了 Power BI 模板应用程序。 了解如何在具�
 author: paulinbar
 ms.reviewer: ''
 ms.service: powerbi
-ms.subservice: powerbi-service
+ms.subservice: powerbi-template-apps
 ms.topic: conceptual
-ms.date: 04/16/2020
+ms.date: 05/04/2020
 ms.author: painbar
-ms.openlocfilehash: 42fa16228deea88f606e348d1a87f9d465c8c2ea
-ms.sourcegitcommit: 01bcbc8f0280aec875b22542a9c193c80899dc10
+ms.openlocfilehash: 466e7cb842244104b004c4f65f82dafe13dc9725
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "82066316"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "82781308"
 ---
 # <a name="what-are-power-bi-template-apps"></a>什么是 Power BI 模板应用？
 
@@ -103,6 +103,7 @@ Power BI 模板应用允许 Power BI Pro 或 Power BI Premium 用户通过可连
 | 数据集：跨工作区 | 不支持跨工作区的数据集  |
 | 查询参数 | 不支持：用于数据集的“Any”或“Binary”类型块刷新操作的参数 |
 | Power BI 视觉对象 | 仅支持公开可用的 Power BI 视觉对象。 不支持[组织的 Power BI 视觉对象](developer/visuals/power-bi-custom-visuals-organization.md) |
+| 主权云 | 主权云中未提供模板应用 |
 
 ## <a name="support"></a>支持
 若要在开发过程中获取支持，请访问 [https://powerbi.microsoft.com/support](https://powerbi.microsoft.com/support)。 我们积极监视和管理此网站。 客户事件可快速找到通往合适团队的方法。

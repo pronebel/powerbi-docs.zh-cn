@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.topic: conceptual
 ms.subservice: powerbi-custom-visuals
 ms.date: 03/08/2020
-ms.openlocfilehash: 2dee596648c9921cefab6903167e780bfacb122e
-ms.sourcegitcommit: 2c798b97fdb02b4bf4e74cf05442a4b01dc5cbab
+ms.openlocfilehash: b759d19046ddb375646743a50025689ab9a566c0
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/21/2020
-ms.locfileid: "80113891"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "82613525"
 ---
 # <a name="get-a-power-bi-visual-certified"></a>获取 Power BI 视觉对象认证
 
@@ -82,8 +82,6 @@ Power BI 视觉对象必须由合作伙伴中心批准。 建议 Power BI 视觉
 
 必须用 `pbiviz package` 编译 Power BI 视觉对象。 如果你使用自己的生成脚本，请提供 `npm run package` 自定义生成命令。
 
-
-
 ### <a name="source-code-requirements"></a>源代码要求
 
 验证是否遵循 [Power BI 视觉对象的其他认证](https://docs.microsoft.com/legal/marketplace/certification-policies#1200-power-bi-visuals-additional-certification)策略列表。 如果提交未遵循这些指导原则，则合作伙伴中心的拒绝电子邮件将包含此链接中列出的策略编号。
@@ -150,6 +148,25 @@ Power BI 视觉对象必须由合作伙伴中心批准。 建议 Power BI 视觉
     ![Power BI 接口中的认证 Power BI 视觉对象](media/power-bi-custom-visuals-certified/certified-visual-blue.png)
 
 * 可以通过选择“Power BI 认证”  筛选器选项，只显示认证 Power BI 视觉对象。
+
+## <a name="publication-timeline"></a>发布时间线
+
+部署到 AppSource 的过程可能需要一段时间。 完成此过程后，即可从 AppSource 下载 Power BI 视觉对象。
+
+### <a name="when-will-users-be-able-to-download-my-visual"></a>用户何时才能下载我的视觉对象？
+
+* 如果你是第一次提交 Power BI 视觉对象，则用户将能够在你收到来自 AppSource 的电子邮件后的几个小时内下载视觉对象。
+
+* 如果你提交了现有 Power BI 视觉对象的更新，则用户将能够在你提交的这个月内下载该更新。
+
+    >[!NOTE]
+    > AppSource 中的“版本”字段将更新为 AppSource 批准 Power BI 的当天日期（大约在你提交视觉对象后的一周进行更新）  。 用户将能够下载更新后的视觉对象，但更新后的功能将不会生效。 视觉对象的新功能将在大约一个月后才会在用户报表中生效。 
+
+### <a name="when-will-my-power-bi-visual-display-a-certification-badge"></a>我的 Power BI 视觉对象何时显示证书徽章？
+
+* 如果你是第一次提交 Power BI 视觉对象，则证书徽章将在你收到来自 AppSource 的批准电子邮件的一天内显示。
+
+* 如果你正在请求现有 Power BI 视觉对象的认证，则证书徽章将在你提交的月份内显示。
 
 ## <a name="next-steps"></a>后续步骤
 

@@ -10,10 +10,10 @@ ms.date: 03/07/2018
 ms.author: maggies
 LocalizationGroup: Dashboards
 ms.openlocfilehash: 10faca7cf81575dddd2abb29afee1aca0e9f1279
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/09/2019
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "73853341"
 ---
 # <a name="create-a-qr-code-for-a-tile-in-power-bi-to-use-in-the-mobile-apps"></a>在 Power BI 中为磁贴创建 QR 码以供在移动应用中使用
@@ -54,5 +54,5 @@ Power BI 可将 QR 代码生成为 JPG 文件，以备打印。
 * 使用移动应用[从真实世界连接到 Power BI 数据](consumer/mobile/mobile-apps-data-in-real-world-context.md)
 * [使用移动设备扫描 Power BI QR 码](consumer/mobile/mobile-apps-qr-code.md)
 * [创建报表的 QR 码](service-create-qr-code-for-report.md)
-* 是否有任何问题？ [尝试咨询 Power BI 社区](https://community.powerbi.com/)
+* 是否有任何问题? [尝试咨询 Power BI 社区](https://community.powerbi.com/)
 

@@ -10,10 +10,10 @@ ms.date: 05/14/2019
 ms.author: maggies
 LocalizationGroup: Ask questions of your data
 ms.openlocfilehash: 1571589844abb8e9acf0bbb78eccf5664db9bf52
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/09/2019
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "73881097"
 ---
 # <a name="create-featured-questions-for-power-bi-qa"></a>创建 Power BI 问答的精选问题
@@ -31,7 +31,7 @@ ms.locfileid: "73881097"
 1. 在仪表板上，选择“问答”问题框。   请注意，通过显示数据集中的术语列表，“问答”已很有帮助。
 2. 若要添加到此列表，请选择 Power BI 右上角的齿轮图标。  
    ![齿轮图标](media/service-q-and-a-create-featured-questions/pbi_gearicon2.jpg)
-3. 选择**设置** &gt; **数据集** &gt; **零售分析示例** &gt; **精选问答问题**。  
+3. 选择“设置”&gt;“数据集”&gt;零售分析示例”&gt;“精选问答问题”     。  
 4. 选择**添加问题**。
    
    ![“设置”菜单](media/service-q-and-a-create-featured-questions/power-bi-settings.png)

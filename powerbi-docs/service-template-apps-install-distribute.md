@@ -4,16 +4,16 @@ description: 了解如何在 Power BI 中安装、自定义和分发组织中的
 author: paulinbar
 ms.reviewer: ''
 ms.service: powerbi
-ms.subservice: powerbi-service
-ms.topic: how-to
-ms.date: 03/15/2020
+ms.subservice: powerbi-template-apps
+ms.topic: conceptual
+ms.date: 05/04/2020
 ms.author: painbar
-ms.openlocfilehash: 08aadc3027c5b265194e4239b150ea5d27fe2e43
-ms.sourcegitcommit: abc8419155dd869096368ba744883b865c5329fa
+ms.openlocfilehash: 86fe618508504faebc920c77a1f9605da59040d9
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/17/2020
-ms.locfileid: "79436102"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "82781655"
 ---
 # <a name="install-and-distribute-template-apps-in-your-organization"></a>在组织中安装和分发模板应用
 
@@ -65,7 +65,7 @@ ms.locfileid: "79436102"
 
 1. 单击“连接”  。
     
-    这将打开一个对话框或一系列对话框，你可以在其中将数据源从示例数据更改为自己的数据源。 这通常意味着重新定义数据集参数和数据源凭据。 请参阅[已知限制](service-template-apps-tips.md#known-limitations)。
+    这将打开一个对话框或一系列对话框，你可以在其中将数据源从示例数据更改为自己的数据源。 这通常意味着重新定义数据集参数和数据源凭据。 请参阅[已知限制](service-template-apps-overview.md#known-limitations)。
     
     在下面的示例中，连接到数据涉及两个对话框。
 
@@ -95,14 +95,18 @@ ms.locfileid: "79436102"
 
 模板应用的创建者有时会通过 AppSource 和/或直接链接发布其模板应用的新改进版本。
 
-如果最初是从 AppSource 下载的应用，则当新版本的模板应用可用时，Power BI 服务会出现一个更新横幅，通知你有新的应用版本可用。
+如果最初是从 AppSource 下载的应用程序，当新版本的模板应用可用时，可以通过两种方式获得通知：
+* Power BI 服务中会出现一个更新横幅，通知你有新应用版本可用。
+  ![模板应用更新通知](media/service-template-apps-install-distribute/power-bi-new-app-version-notification-banner.png)
+* 你会在 Power BI 的通知窗格中收到通知。
 
-  ![模板应用更新通知](media/service-template-apps-install-distribute/power-bi-new-app-version-notification.png)
+
+  ![模板应用更新通知](media/service-template-apps-install-distribute/power-bi-new-app-version-notification-pane.png)
 
 >[!NOTE]
 >如果最初是通过直接链接而不是通过 AppSource 获得的应用，则知道新版本何时可用的唯一方法是联系模板应用创建者。
 
-  要安装更新，请在通知横幅上单击“获取它”，或在 AppSource 中再次查找应用，然后选择“立即获取”   。 如果从模板应用创建者处获取了更新的直接链接，只需单击该链接。
+  要安装更新，请在通知横幅上或在通知中心单击“获取更新”，也可在 AppSource 中再次查找应用，然后选择“立即获取”   。 如果从模板应用创建者处获取了更新的直接链接，只需单击该链接。
   
   系统将询问你是要覆盖当前版本，还是要在新工作区中安装新版本。 默认情况下选择的是“覆盖”。
 

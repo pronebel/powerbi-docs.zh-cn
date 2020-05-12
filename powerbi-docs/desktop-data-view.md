@@ -6,19 +6,22 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 01/17/2020
+ms.date: 05/05/2020
 ms.author: davidi
 LocalizationGroup: Model your data
-ms.openlocfilehash: a82465adb5b0c7fe8be0e6e724c5eda1bfcf7ec0
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 1fee95bbfb790a1c61d82131579c8fb43980ca05
+ms.sourcegitcommit: a199dda2ab50184ce25f7c9a01e7ada382a88d2c
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "79206944"
+ms.lasthandoff: 05/06/2020
+ms.locfileid: "82866716"
 ---
 # <a name="work-with-data-view-in-power-bi-desktop"></a>使用 Power BI Desktop 中的数据视图
 
 数据视图  可帮助你检查、浏览和理解 Power BI Desktop  模型中的数据。 它与你在 Power Query 编辑器  中查看表、列和数据的方式不同。 在数据视图中，你所看到的数据是在将其加载到模型之后的样子。 
+
+> [!NOTE]
+> 由于数据视图将在数据加载到模型中后才显示数据，因此，如果所有数据源都基于 DirectQuery，则数据视图图标将不可见。 
 
 进行数据建模时，有时想要查看表或列中的实际内容而不想在报表画布上创建视觉对象。 可能需要向下查看到行级别。 如果要创建度量值和计算列，或者需要识别数据类型或数据类别，此功能会非常有用。
 
@@ -48,3 +51,14 @@ ms.locfileid: "79206944"
 
 > [!NOTE]
 > 当创建 Power BI 模型所用区域设置与当前界面设置不同时，除文本字段以外，搜索框不会出现在数据视图用户界面的其他字段中。 例如，这适用于以美国英语创建，而在以西班牙语查看的模型。
+
+
+## <a name="next-steps"></a>后续步骤
+
+可以使用 Power BI Desktop 执行各种操作。 有关其功能的详细信息，请参阅下列资源：
+
+* [什么是 Power BI Desktop？](desktop-what-is-desktop.md)
+* [Power BI Desktop 的查询概述](desktop-query-overview.md)
+* [Power BI Desktop 中的数据类型](desktop-data-types.md)
+* [使用 Power BI Desktop 成型和合并数据](desktop-shape-and-combine-data.md)
+* [Power BI Desktop 中的常见查询任务](desktop-common-query-tasks.md)

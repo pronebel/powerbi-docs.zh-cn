@@ -8,29 +8,24 @@ ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 12/5/2019
-ms.author: mihart
+ms.author: rien
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 6abca661a1553bfabc3da35fe714ff9bced5555a
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: d4e31d8c3d2bcbbfdf0d2d932be70cc2cd5f2625
+ms.sourcegitcommit: a199dda2ab50184ce25f7c9a01e7ada382a88d2c
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "74907590"
+ms.lasthandoff: 05/06/2020
+ms.locfileid: "82866486"
 ---
 # <a name="waterfall-charts-in-power-bi"></a>Power BI 中的瀑布图
+
+[!INCLUDE[consumer-appliesto-nyyn](../includes/consumer-appliesto-nyyn.md)]
 
 [!INCLUDE [power-bi-visuals-desktop-banner](../includes/power-bi-visuals-desktop-banner.md)]
 
 瀑布图显示随 Power BI 加上或减去值而不断变化的总计。 此类图可用于了解一系列正更改和负更改如何影响初始值（如净收入）。
 
 柱形使用颜色编码，这样就可以快速区分增加和减少。 初始值列和最终值列通常[从水平轴开始](https://support.office.com/article/Create-a-waterfall-chart-in-Office-2016-for-Windows-8de1ece4-ff21-4d37-acd7-546f5527f185#BKMK_Float "在水平轴上启动")，而中间值为浮动列。 由于这种样式，瀑布图亦称为“桥图”。
-
-   > [!NOTE]
-   > 此视频使用较旧版本的 Power BI Desktop。
-   > 
-   > 
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/qKRZPBnaUXM" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
 ## <a name="when-to-use-a-waterfall-chart"></a>何时使用瀑布图
 
@@ -42,7 +37,7 @@ ms.locfileid: "74907590"
 
 * 若要通过显示各种收入来源来绘制公司的年利润图，并计算出总利润（或损失）。
 
-* 显示一年开始和结束时公司的员工总数。
+* 若要说明一年中公司的起始和结束员工数。
 
 * 若要直观呈现每月收入和支出，以及帐户不断变化的余额。
 
@@ -50,14 +45,16 @@ ms.locfileid: "74907590"
 
 本教程使用[零售分析示例 PBIX 文件](https://download.microsoft.com/download/9/6/D/96DDC2FF-2568-491D-AAFA-AFDD6F763AE3/Retail%20Analysis%20Sample%20PBIX.pbix)。
 
-1. 在菜单栏的左上方，选择“文件” **“打开”**  >  
+1. 在菜单栏的左上方，选择“文件” > “打开”  
    
 2. 查找**零售分析示例 PBIX 文件**的副本
 
 1. 在报表视图中打开**零售分析示例 PBIX 文件**![报表视图屏幕截图图标](media/power-bi-visualization-kpi/power-bi-report-view.png)。
 
-1. Select ![黄色选项卡的屏幕截图。](media/power-bi-visualization-kpi/power-bi-yellow-tab.png) ，以添加新报表页。
+1. 选择 ![黄色选项卡的屏幕截图。](media/power-bi-visualization-kpi/power-bi-yellow-tab.png) ，以添加新报表页。
 
+> [!NOTE]
+> 与 Power BI 同事共享报表时，你和这位同事都应具有独立的 Power BI Pro 许可证，并且应将报表保存在 Premium 容量中。    
 
 ## <a name="create-a-waterfall-chart"></a>创建瀑布图
 
@@ -73,7 +70,7 @@ ms.locfileid: "74907590"
 
     ![可视化效果模板](media/power-bi-visualization-waterfall-charts/convert-waterfall.png)
 
-1. 选择**时间** > **财月**以将它添加到**类别**框。
+1. 依次选择“时间”   > “会计月份”  ，以将它添加到“类别”  井中。
 
     ![瀑布图](media/power-bi-visualization-waterfall-charts/power-bi-waterfall-month.png)
 
@@ -97,7 +94,7 @@ ms.locfileid: "74907590"
 
 进一步了解每月发生变化的最主要原因。
 
-1.  选择“商店” **“区域”，这会将“区域”添加到“细分”存储桶中** >     。
+1.  选择“商店” > “区域”，这会将“区域”添加到“细分”存储桶中     。
 
     ![显示明细存储桶中的存储](media/power-bi-visualization-waterfall-charts/power-bi-waterfall-breakdown.png)
 

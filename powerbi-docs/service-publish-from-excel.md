@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 03/26/2020
+ms.date: 05/05/2020
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: e503d2c68b4b726ab44c3bec0fad7001da33e184
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: ca3e954f64665798c439fba47c3135e93fe51ac0
+ms.sourcegitcommit: a199dda2ab50184ce25f7c9a01e7ada382a88d2c
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "80329613"
+ms.lasthandoff: 05/06/2020
+ms.locfileid: "82866785"
 ---
 # <a name="publish-to-power-bi-from-microsoft-excel"></a>从 Microsoft Excel 发布到 Power BI
 使用 Microsoft Excel 2016 及更高版本，可以将 Excel 工作簿直接发布到 [Power BI](https://powerbi.microsoft.com) 工作区，在其中能够根据工作簿数据创建高度交互的报表和仪表板。 然后你可以与组织中的其他人共享你的见解。
@@ -42,7 +42,7 @@ Excel 支持发布本地 Excel 文件。 不需要将文件保存到 OneDrive fo
 > 仅在结合使用 Excel 2016（或更高版本）与 Office 365 订阅时，才能发布本地文件。 只有在工作簿保存到 OneDrive for Business 或 SharePoint Online 时，Excel 2016 独立安装才支持“发布到 Power BI”。
 > 
 
-选择“发布”  时，可以选择要将文件发布到哪个工作区。 工作区可以是你的个人工作区，也可以是你有权访问的组工作区，如下图所示。
+选择“发布”  时，可以选择要将文件发布到哪个工作区。 如果 Excel 文件位于 OneDrive for Business 上，则只能发布到“我的工作区”  。 如果 Excel 文件位于本地驱动器上，则可以发布到“我的工作区”或你有权访问的共享工作区  。
 
 ![发布到 Power BI](media/service-publish-from-excel/pbi_choose_workspace.png)
 

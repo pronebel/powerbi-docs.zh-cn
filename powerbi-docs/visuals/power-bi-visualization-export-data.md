@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 04/28/2020
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: f82bde423d910cb5622e5e709890502e96daab36
-ms.sourcegitcommit: 20f15ee7a11162127e506b86d21e2fff821a4aee
+ms.openlocfilehash: e3e0108f539a7c42b41c36f743a0b8b79f3b61b8
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/29/2020
-ms.locfileid: "82585383"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "82781722"
 ---
 # <a name="export-the-data-that-was-used-to-create-a-visualization"></a>探索用于创建可视化效果的数据
 
@@ -265,6 +265,8 @@ Power BI 报表设计器控制向使用者提供的数据导出选项的类型�
   1. 依次选择“获取外部数据”   > “自文本”  。
   
   1. 转到存储此文件的本地文件夹，并选择“.csv”  。
+
+- 导出到 .csv 时，某些字符会通过前导“'”进行转义   。
 
 - Power BI 管理员可以禁用数据导出功能。
 

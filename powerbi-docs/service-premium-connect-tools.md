@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 03/26/2020
 ms.custom: seodec18
 LocalizationGroup: Premium
-ms.openlocfilehash: fe349e9eb29f85315e568d5851ce8206186cb61b
-ms.sourcegitcommit: bcc42e938fa28abe433287fecb9abb28c253b6bb
+ms.openlocfilehash: 776ef09de58c2bb3b47a6d55ae5e8cf2be0cf228
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/26/2020
-ms.locfileid: "80302616"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "82613643"
 ---
 # <a name="dataset-connectivity-with-the-xmla-endpoint-preview"></a>使用 XMLA 终结点的数据集连接（预览）
 
@@ -231,7 +231,20 @@ Analysis Services [DMV](https://docs.microsoft.com/analysis-services/instances/u
 
 ### <a name="power-bi-desktop-in-live-connect-mode"></a>Live Connect 模式下的 Power BI Desktop
 
-Power BI Desktop 可以连接到 Power BI Premium 数据集，就像它是部署到 Azure Analysis Services 或 SQL Server Analysis Services 的模型数据库一样。 在这种情况下，Power BI Desktop 使用 XMLA 终结点。 不过，建议 Power BI Desktop 用户改用专为 Power BI 数据集创建的 Live Connect 功能。 使用 Live Connect，可以使用改进后的发现体验，其中显示了数据集的认可级别，且用户无需跟踪工作区 URL，可以直接键入数据集名称。 若要了解详细信息，请参阅[在 Power BI 服务中通过 Power BI Desktop 连接到数据集](desktop-report-lifecycle-datasets.md)。
+Power BI Desktop 可通过实时连接功能连接 Power BI Premium 数据集 使用实时连接功能时，用户不需要在本地复制数据，因此可以更轻松地使用语义模型。 用户可以通过两种方式连接：
+
+选择“Power BI 数据集”，然后选择要创建报表的数据集  。 用户可采用这种建议方法实时连接数据集  。 这种方法提供了更好的发现体验，能够显示数据集的认可级别。 用户无需查找和跟踪工作区 URL。 要查找数据集，用户只需键入数据集名或滚动即可找到所需的数据集。
+
+![实时连接数据集](media/service-premium-connect-tools/dataset-live-connect.png)
+
+用户可以连接的另一种方法是，使用“获取数据” > “Analysis Services”，将 Power BI Premium 工作区名指定为 URL，选择“实时连接”，然后在导航器中选择一个数据集    。 在这种情况下，Power BI Desktop 将使用 XMLA 终结点实时连接数据集，就像它是 Analysis Services 数据模型一样。 
+
+![实时连接 Analysis Services 数据集](media/service-premium-connect-tools/as-live-connect.png)
+
+如果组织的现有报表实时连接到要迁移到 Power BI Premium 数据集的 Analysis Services 数据模型，则只需在“转换数据” > “数据源设置”中更改服务器名称 URL   。
+
+> [!NOTE]
+> 在 XMLA 读写公共预览版期间，使用 Power BI Desktop 连接 Power BI Premium 数据集时，目前不支持使用“获取数据” > “Analysis Services”，再选择“实时连接”选项，将报表发布到 Power BI 服务    。
 
 ## <a name="audit-logs"></a>审核日志
 

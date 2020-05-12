@@ -10,10 +10,10 @@ ms.date: 08/29/2019
 ms.author: sarinas
 LocalizationGroup: Connect to services
 ms.openlocfilehash: 511fb6674d84cc0d206fdb1807fcb9ebf9e41d30
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/09/2019
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "73873109"
 ---
 # <a name="connect-to-azure-search-with-power-bi"></a>使用 Power BI 连接到 Azure 搜索
@@ -30,7 +30,7 @@ Azure 搜索流量分析允许你监视并了解 Azure 搜索服务的流量。 
 2. 在**服务**框中，选择**获取**。
    
    ![](media/service-connect-to-azure-search/pbi_getservices.png) 
-3. 选择“Azure 搜索”  \>  “获取”。
+3. 选择“Azure 搜索”\>“获取”   。
    
    ![](media/service-connect-to-azure-search/azuresearch.png)
 4. 提供存储了 Azure 搜索分析的表存储帐户的名称。

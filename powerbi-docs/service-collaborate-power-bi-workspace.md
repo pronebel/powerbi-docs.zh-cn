@@ -10,10 +10,10 @@ ms.date: 07/25/2019
 ms.author: maggies
 LocalizationGroup: Share your work
 ms.openlocfilehash: cddb55ab85cfd6d8d6a5e49d81b83a80df2f81da
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/09/2019
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "73873170"
 ---
 # <a name="collaborate-in-a-classic-workspace"></a>在经典工作区中协作
@@ -55,7 +55,7 @@ Power BI 工作区是在仪表板、报表和数据集上与同事协作以创�
    当你首次前往你在 Office 365 中的组工作区时，可能需要一些时间。 等候 15 到 30 分钟，然后刷新浏览器。
 
 ## <a name="have-a-group-conversation-in-office-365"></a>在 Office 365 中建立组对话
-1. 依次选择工作区名称旁边的“更多选项”(…)\>“对话”   。 
+1. 选择工作区名称旁边的“更多选项”(…)\>“对话”   。 
    
     ![“会话”选项卡](media/service-collaborate-power-bi-workspace/power-bi-app-ellipsis.png)
    
@@ -65,7 +65,7 @@ Power BI 工作区是在仪表板、报表和数据集上与同事协作以创�
 2. 了解有关 [Outlook for Office 365 中的组对话](https://support.office.com/Article/Have-a-group-conversation-a0482e24-a769-4e39-a5ba-a7c56e828b22)的详细信息。
 
 ## <a name="schedule-an-event-on-the-group-workspace-calendar"></a>在组工作区日历上安排活动
-1. 依次选择工作区名称旁边的“更多选项”(…)\>“日历”   。 
+1. 选择工作区名称旁边的“更多选项”(…)\>“日历”   。 
    
    ![“日历”选项卡](media/service-collaborate-power-bi-workspace/power-bi-app-ellipsis.png)
    

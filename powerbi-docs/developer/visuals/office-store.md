@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.topic: conceptual
 ms.subservice: powerbi-custom-visuals
 ms.date: 03/08/2020
-ms.openlocfilehash: 08790c8c0c751f935d62357d86b6976a81dc977b
-ms.sourcegitcommit: 8eeb784fd46321680367ac913ef976aeedaa7766
+ms.openlocfilehash: 90e914cf9b5c03542436750253fd959808403214
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "80621458"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "82613548"
 ---
 # <a name="publish-power-bi-visuals-to-partner-center"></a>将 Power BI 视觉对象发布到合作伙伴中心
 
@@ -101,9 +101,11 @@ Power BI 团队必须为新 Power BI 视觉对象提交、现有 Power BI 视觉
 
 ## <a name="tracking-submission-status-and-usage"></a>跟踪提交状态和使用情况
 
-可以查看[验证策略](https://docs.microsoft.com/legal/marketplace/certification-policies#1180-power-bi-visuals)。
+* 可以查看[验证策略](https://docs.microsoft.com/legal/marketplace/certification-policies#1180-power-bi-visuals)。
 
-提交后，可以在[“应用仪表板”](https://sellerdashboard.microsoft.com/Application/Summary/)中查看提交状态。
+* 提交后，可以在[“应用仪表板”](https://sellerdashboard.microsoft.com/Application/Summary/)中查看提交状态。
+
+* 要了解何时可从 AppSource 下载 Power BI 视觉对象，请查看 Power BI 视觉对象[发布时间线](power-bi-custom-visuals-certified.md#publication-timeline)。
 
 ## <a name="certify-your-visual"></a>认证视觉对象
 

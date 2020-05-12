@@ -3,32 +3,28 @@ title: 关键绩效指标 (KPI) 视觉对象
 description: 在 Power BI 中创建关键绩效指标 (KPI) 视觉对象
 author: mihart
 ms.reviewer: ''
-featuredvideoid: xmja6EpqaO0
+featuredvideoid: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: tutorial
 ms.date: 01/30/2020
-ms.author: mihart
+ms.author: rien
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 5d21fc3a2e585922e65e1385ed1fc436a6dbcf22
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 7f865c53a1a47ad53137f0e7659917689243b914
+ms.sourcegitcommit: a199dda2ab50184ce25f7c9a01e7ada382a88d2c
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "76974978"
+ms.lasthandoff: 05/06/2020
+ms.locfileid: "82865154"
 ---
 # <a name="create-key-performance-indicator-kpi-visualizations"></a>创建关键绩效指标 (KPI) 视觉对象
+
+[!INCLUDE[consumer-appliesto-nyyn](../includes/consumer-appliesto-nyyn.md)]
 
 [!INCLUDE [power-bi-visuals-desktop-banner](../includes/power-bi-visuals-desktop-banner.md)]
 
 关键绩效指标 (KPI) 是一个视觉提示，用于传达针对可度量目标已完成的进度。 若要详细了解 KPI，请参阅 [PowerPivot 中的关键绩效指标 (KPI)](/previous-versions/sql/sql-server-2012/hh272050(v=sql.110))。
 
-请观看下面的视频，Will 在其中介绍了如何创建各个指标视觉对象：仪表、卡片和 KPI。
-   > [!NOTE]
-   > 此视频使用较旧版本的 Power BI Desktop。
-   > 
-   > 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/xmja6EpqaO0?list=PL1N57mwBHtN0JFoKSR0n-tBkUJHeMP2cP" frameborder="0" allowfullscreen></iframe>
 
 ## <a name="when-to-use-a-kpi"></a>何时使用 KPI
 
@@ -44,17 +40,20 @@ ms.locfileid: "76974978"
 
 KPI 数据集需要包含 KPI 目标值。 如果数据集不包含目标值，你可以创建它们，具体方法是向数据模型或 PBIX 文件添加含目标的 Excel 工作表。
 
-## <a name="prerequisites"></a>必备组件
+## <a name="prerequisites"></a>先决条件
 
 本教程使用[零售分析示例 PBIX 文件](https://download.microsoft.com/download/9/6/D/96DDC2FF-2568-491D-AAFA-AFDD6F763AE3/Retail%20Analysis%20Sample%20PBIX.pbix)。
 
-1. 在菜单栏的左上方，选择“文件” **“打开”**  >  
+1. 在菜单栏的左上方，选择“文件” > “打开”  
 
 1. 查找**零售分析示例 PBIX 文件**的副本
 
 1. 在报表视图中打开“零售分析示例 PBIX 文件”  。 ![报表视图图标的屏幕截图。](media/power-bi-visualization-kpi/power-bi-report-view.png)
 
-1. 选择  **来添加新页面+** 。 ![黄色选项卡的屏幕截图。](media/power-bi-visualization-kpi/power-bi-yellow-tab.png)
+1. 选择 + 来添加新页面  。 ![黄色选项卡的屏幕截图。](media/power-bi-visualization-kpi/power-bi-yellow-tab.png)
+
+> [!NOTE]
+> 与 Power BI 同事共享报表时，你和这位同事都应具有独立的 Power BI Pro 许可证，并且应将报表保存在 Premium 容量中。    
 
 ## <a name="how-to-create-a-kpi"></a>如何创建 KPI
 

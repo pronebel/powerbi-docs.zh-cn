@@ -6,14 +6,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: conceptual
-ms.date: 03/09/2020
+ms.date: 05/05/2020
 ms.author: painbar
-ms.openlocfilehash: af9a1ad5dd13f4f57947b0ca92459e7691eab5fd
-ms.sourcegitcommit: 9b806dfe62c2dee82d971bb4f89d983b97931b43
+ms.openlocfilehash: 8235f95d724b34e7ea815579e6f8ed6a1f71e409
+ms.sourcegitcommit: 220910f0b68cb1e265ccd5ac0cee4ee9c6080b26
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/07/2020
-ms.locfileid: "80802086"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "82841701"
 ---
 # <a name="whats-new-in-the-mobile-apps-for-power-bi"></a>Power BI 移动应用中的新功能
 有关相关的“新增功能”的信息，请参阅：
@@ -24,6 +24,14 @@ ms.locfileid: "80802086"
 
 >[!NOTE]
 >我们将于 2021 年 3 月 16 日终止对使用 Windows 10 移动版的手机提供 Power BI 移动应用支持  。 [了解详细信息](https://go.microsoft.com/fwlink/?linkid=2121400)
+
+## <a name="april-2020"></a>2020 年 4 月
+
+### <a name="sharing-from-workspaces-is-now-available"></a>现可使用“从工作区共享”功能
+我们添加了从工作区共享报表和仪表板的功能。 如果工作区所有者允许，现在可从“我的工作区”和其他工作区共享内容，就像在 Power BI 服务中一样。 
+
+### <a name="dashboards-now-support-full-screen-mode-ios-and-android"></a>仪表板现在支持全屏模式（iOS 和 Android）
+你现可在全屏模式下查看仪表板，这让你有更多空间来查看仪表板内容。 
 
 ## <a name="march-2020"></a>2020 年 3 月
 
@@ -871,4 +879,4 @@ Power BI 移动应用中的改进 -- Android、iOS（iPhone 和 iPad）和 Windo
 * 改进了焦点模式下地图磁贴的呈现方式以最大化屏幕的实际空间。
 * 改善了使用基于角色的安全性访问仪表板时的用户体验。 
 * 新增了一项功能可让你向后和向前浏览仪表板磁贴，直接在焦点模式下浏览它们，而无需返回到仪表板选择下一个磁贴。
-* 其他稳定性和性能改进。 
+* 其他稳定性和性能改进。

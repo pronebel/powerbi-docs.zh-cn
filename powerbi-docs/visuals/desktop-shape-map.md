@@ -7,22 +7,27 @@ ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 03/18/2020
-ms.author: mihart
+ms.author: rien
 LocalizationGroup: Transform and shape data
-ms.openlocfilehash: 67c2acad74827c515c92ed0d16dd642170b8dc61
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 5717d543d5c70bbbe7c25ed3e55778639d777170
+ms.sourcegitcommit: a199dda2ab50184ce25f7c9a01e7ada382a88d2c
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "79525651"
+ms.lasthandoff: 05/06/2020
+ms.locfileid: "82866532"
 ---
 # <a name="create-shape-map-visualizations-in-power-bi-desktop-preview"></a>在 Power BI Desktop 中创建形状地图可视化效果（预览）
+
+[!INCLUDE[consumer-appliesto-nyyn](../includes/consumer-appliesto-nyyn.md)]
 
 [!INCLUDE [power-bi-visuals-desktop-banner](../includes/power-bi-visuals-desktop-banner.md)]
 
 创建  “形状地图”视觉对象以使用颜色比较地图上的区域 与  “地图”视觉对象不同，  “形状地图”无法在地图上显示数据点的精确地理位置。 相反，其主要目的是通过不同方式对地图上的区域着色来显示这些区域的相对比较。
 
 “形状地图”视觉对象基于 TopoJSON 地图，它有一项极具吸引力的功能，即，使用你可以创建的自定义地图  。 自定义地图包括地理位置、座位安排和楼层平面图等等。 在预览版“形状地图”中无法使用自定义地图  。
+
+> [!NOTE]
+> 与 Power BI 同事共享报表时，你和这位同事都应具有独立的 Power BI Pro 许可证，并且应将报表保存在 Premium 容量中。
 
 ## <a name="creating-shape-maps"></a>创建形状地图
 你可以使用与此预览版本一同发行的地图测试“形状地图”  控件，或者你可以使用自定义地图，只要它满足以下**使用自定义映射**章节中列出的要求。
@@ -118,7 +123,7 @@ https://www.justice.gov/usao/resources/annual-statistical-reports
 | ID | 缩写 | iso | name | 邮政编码 |
 | --- | --- | --- | --- | --- |
 | au-wa |WA |AU-WA |西澳大利亚 |WA |
-| au-vic |Vic |AU-VIC |Victoria |VIC |
+| au-vic |Vic |AU-VIC |维多利亚州 |VIC |
 | au-tas |Tas |AU-TAS |塔斯马尼亚岛 |TAS |
 | au-sa |SA |AU-SA |南澳大利亚 |SA |
 | au-qld |Qld |AU-QLD |昆士兰 |QLD |
@@ -136,7 +141,7 @@ https://www.justice.gov/usao/resources/annual-statistical-reports
 | at-st |AT-6 |施第里尔 |施第里尔 |ST |
 | at-sz |AT-5 |萨尔斯堡 |萨尔斯堡 |SZ |
 | at-oo |AT-4 |上奥地利州 |上奥地利州 |OO |
-| at-no |AT-3 |下奥地利州 |下奥地利州 |否 |
+| at-no |AT-3 |下奥地利州 |下奥地利州 |NO |
 | at-ka |AT-2 |卡林西亚 |卡林西亚 |KA |
 | at-bu |AT-1 |布尔根兰 |布尔根兰 |BU |
 
@@ -186,7 +191,7 @@ https://www.justice.gov/usao/resources/annual-statistical-reports
 | ca-sk |CA-SK |萨斯喀彻温 |SK |
 | ca-qc |CA-QC |魁北克 |QC |
 | ca-pe |CA-PE |爱德华王子岛 |PE |
-| ca-on |CA-ON |安大略 |开 |
+| ca-on |CA-ON |安大略 |ON |
 | ca-ns |CA-NS |新斯科舍 |NS |
 | ca-nl |CA-NL |纽芬兰-拉布拉多 |NL |
 | ca-nb |CA-NB |新不伦瑞克 |NB |
@@ -194,7 +199,7 @@ https://www.justice.gov/usao/resources/annual-statistical-reports
 | ca-bc |CA-BC |不列颠哥伦比亚 |BC |
 | ca-ab |CA-AB |亚伯达 |AB |
 
-### <a name="france-regions"></a>法国：区域
+### <a name="france-regions"></a>法国：大区
 
 | ID | name | 中文名称 |
 | --- | --- | --- |
@@ -234,7 +239,7 @@ https://www.justice.gov/usao/resources/annual-statistical-reports
 | de-he |DE-HE |黑森 |黑森 |HE |
 | de-hh |DE-HH |汉堡 |汉堡 |HH |
 | de-hb |DE-HB |不来梅 |不来梅 |HB |
-| de-by |DE-BY |巴伐利亚 |巴伐利亚 |排序依据 |
+| de-by |DE-BY |巴伐利亚 |巴伐利亚 |BY |
 | de-bw |DE-BW |巴登-符腾堡州 |巴登-符腾堡州 |BW |
 
 ### <a name="ireland-counties"></a>爱尔兰：郡
@@ -268,7 +273,7 @@ https://www.justice.gov/usao/resources/annual-statistical-reports
 | 卡文 |
 | 卡洛 |
 
-### <a name="italy-regions"></a>意大利：区域
+### <a name="italy-regions"></a>意大利：大区
 
 | ID | iso | name | 中文名称 | 邮政编码 |
 | --- | --- | --- | --- | --- |
@@ -347,7 +352,7 @@ https://www.justice.gov/usao/resources/annual-statistical-reports
 | nl-fl |NL-FL |弗莱福兰 |弗莱福兰 |
 | nl-dr |NL-DR |德伦特 |德伦特 |
 
-### <a name="uk-countries"></a>英国：国家/地区
+### <a name="uk-countries"></a>英国：个国家/地区
 
 | ID | iso | name |
 | --- | --- | --- |
@@ -361,7 +366,7 @@ https://www.justice.gov/usao/resources/annual-statistical-reports
 | ID | name | 邮政编码 |
 | --- | --- | --- |
 | us-mi |密歇根 |MI |
-| us-ak |阿拉斯加 |AK |
+| us-ak |阿拉斯加州 |AK |
 | us-hi |夏威夷 |HI |
 | us-fl |佛罗里达 |FL |
 | us-la |路易斯安那 |LA |
@@ -373,15 +378,15 @@ https://www.justice.gov/usao/resources/annual-statistical-reports
 | us-nm |新墨西哥 |NM |
 | us-tx |德克萨斯 |TX |
 | us-tn |田纳西 |TN |
-| us-nc |北卡罗来纳州 |NC |
-| us-ok |俄克拉荷马 |确定 |
+| us-nc |北卡罗来纳 |NC |
+| us-ok |俄克拉荷马 |OK |
 | us-az |亚利桑那 |AZ |
 | us-mo |密苏里 |MO |
-| us-va |弗吉尼亚州 |VA |
+| us-va |弗吉尼亚 |VA |
 | us-ks |堪萨斯 |KS |
 | us-ky |肯塔基 |KY |
 | us-co |科罗拉多 |CO |
-| us-md |Maryland |MD |
+| us-md |马里兰 |MD |
 | us-wv |西佛吉尼亚 |WV |
 | us-de |特拉华 |DE |
 | us-dc |哥伦比亚特区 |DC |
@@ -409,8 +414,8 @@ https://www.justice.gov/usao/resources/annual-statistical-reports
 | us-sd |南达科他 |SD |
 | us-nd |北达科他 |ND |
 | us-me |缅因 |ME |
-| us-mt |Montana |MT |
-| us-wa |华盛顿 |WA |
+| us-mt |蒙大拿 |MT |
+| us-wa |华盛顿州 |WA |
 
 ## <a name="next-steps"></a>后续步骤
 

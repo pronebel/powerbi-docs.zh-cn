@@ -1,30 +1,32 @@
 ---
 title: 在 Power BI 中使用相对日期切片器或筛选器
 description: 了解如何使用切片器或筛选器在 Power BI 中约束相对日期范围。
-author: mihart
+author: maggiesMSFT
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 04/06/2020
-ms.author: mihart
+ms.date: 05/05/2020
+ms.author: maggies
 LocalizationGroup: Create reports
-ms.openlocfilehash: 9ce36bfa61b16bd30e59bc8491af80efdfdc8a35
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: f63a56ea350d089b82eb7a18470e1bcc439d1151
+ms.sourcegitcommit: a199dda2ab50184ce25f7c9a01e7ada382a88d2c
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "81006771"
+ms.lasthandoff: 05/06/2020
+ms.locfileid: "82866509"
 ---
-# <a name="use-a-relative-date-slicer-and-filter-in-power-bi"></a>在 Power BI 中使用相对日期切片器和筛选器
+# <a name="creating-a-relative-date-slicer-and-filter-in-power-bi"></a>在 Power BI 中创建相对日期切片器和筛选器
 
-[!INCLUDE [applies-to](../includes/applies-to.md)] [!INCLUDE [yes-desktop](../includes/yes-desktop.md)] [!INCLUDE [yes-service](../includes/yes-service.md)]
+[!INCLUDE[consumer-appliesto-nyyn](../includes/consumer-appliesto-nyyn.md)]
 
 借助相对日期切片器  或筛选器  ，可以向数据模型中的任意日期列应用时间筛选器。 例如，可使用相对日期切片器，仅显示过去 30 天（或月、日历月等）的销售数据  。 刷新数据时，相对时间段会自动应用相应的相对日期约束。
 
-![报表的屏幕截图，此箭头指向相对日期切片器。](media/desktop-slicer-filter-date-range/relative-date-range-slicer-filter-01.png)
+![报表的屏幕截图，其中箭头指向相对日期切片器。](media/desktop-slicer-filter-date-range/relative-date-range-slicer-filter-01.png)
 
-## <a name="use-the-relative-date-range-slicer"></a>使用相对日期范围切片器
+要与 Power BI 同事共享报表，你和这位同事都应具有独立的 Power BI Pro 许可证，并且应将报表保存在 Premium 容量中。
+
+## <a name="create-the-relative-date-range-slicer"></a>创建相对日期范围切片器
 
 相对日期切片器的使用方法与其他任何切片器的使用方法一样。 为报表创建“切片器”视觉对象，再选择日期值作为“字段”值   。 在下图中，选择的是“订购日期”字段  。
 
@@ -42,11 +44,11 @@ ms.locfileid: "81006771"
 
 ![标出第一个设置的“相对”配置选项的屏幕截图。](media/desktop-slicer-filter-date-range/relative-date-range-slicer-filter-04.png)
 
-* 最后
+* 最后一项
 
-* 下一条
+* 下一步
 
-* 此
+* 本
 
 通过相对日期切片器中的第二个(中间)设置，可输入一个数字来定义相对日期范围  。
 
@@ -68,7 +70,7 @@ ms.locfileid: "81006771"
 
 * 年
 
-* 年（日历）
+* 年(日历)
 
 如果在此该列表中选择“月”，并在中间设置中输入 2，则结果如下所示   ：
 
@@ -80,7 +82,7 @@ ms.locfileid: "81006771"
 
 相比之下，如果选择“月(日历)”  ，约束的视觉对象会显示 5 月 1 日到 6 月 30 日（过去两个整日历月）的数据。
 
-## <a name="using-the-relative-date-range-filter"></a>使用相对日期范围筛选器
+## <a name="create-the-relative-date-range-filter"></a>创建相对日期范围筛选器
 
 还可以为报表页或整个报表创建相对日期范围筛选器。 为此，请将日期字段拖到“字段”窗格中的“页面级筛选器”或“报表级筛选器”框    ：
 
@@ -106,4 +108,5 @@ ms.locfileid: "81006771"
 
 ## <a name="next-steps"></a>后续步骤
 
-了解如何[在 Power BI Desktop 中进行分组和装箱](../desktop-grouping-and-binning.md)。
+- [在 Power BI 中使用相对日期切片器和筛选器](desktop-slicer-filter-date-range.md)
+- [Power BI 中的切片器](power-bi-visualization-slicers.md)

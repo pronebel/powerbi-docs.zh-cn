@@ -8,16 +8,18 @@ ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 12/05/2019
-ms.author: mihart
+ms.author: rien
 LocalizationGroup: Visualizations
-ms.openlocfilehash: a2ac2820c7beb3a82650716896ddd36b79c82e07
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: ba344d66f967d502d9de8adef7defcae434fb3ef
+ms.sourcegitcommit: a199dda2ab50184ce25f7c9a01e7ada382a88d2c
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "79436056"
+ms.lasthandoff: 05/06/2020
+ms.locfileid: "82865451"
 ---
 # <a name="create-and-use-filled-maps-choropleth-maps-in-power-bi"></a>创建和使用 Power BI 中的着色地图（等值线图）
+
+[!INCLUDE[consumer-appliesto-nyyn](../includes/consumer-appliesto-nyyn.md)]
 
 [!INCLUDE [power-bi-visuals-desktop-banner](../includes/power-bi-visuals-desktop-banner.md)]
 
@@ -55,15 +57,8 @@ Power BI 与必应相集成，提供默认地图坐标（一个称为地理编�
 
 1. 选择 ![黄色选项卡的屏幕截图。](media/power-bi-visualization-kpi/power-bi-yellow-tab.png) ，以添加新报表页。
 
-
-## <a name="create-a-basic-filled-map"></a>创建基本的着色地图
-在此视频中，Kim 将创建基本地图并将其转换为着色地图。
-   > [!NOTE]
-   > 此视频使用较低版本的 Power BI Desktop。
-   > 
-   > 
-
-> [视频 https://www.youtube.com/embed/ajTPGNpthcg ]
+> [!NOTE]
+> 与 Power BI 同事共享报表时，你和这位同事都应具有独立的 Power BI Pro 许可证，并且应将报表保存在 Premium 容量中。    
 
 ### <a name="create-a-filled-map"></a>创建着色地图
 1. 从“字段”窗格中，选择“地区”\>“状态”字段   。    

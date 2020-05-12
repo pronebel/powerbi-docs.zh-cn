@@ -6,17 +6,19 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 06/11/2019
-ms.author: mihart
+ms.date: 05/05/2020
+ms.author: rien
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 5fda121af151e787c444b928c320b7f33fe1405c
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 18d16440e8894e69101357af700c9b295eaa30c6
+ms.sourcegitcommit: a199dda2ab50184ce25f7c9a01e7ada382a88d2c
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "75757867"
+ms.lasthandoff: 05/06/2020
+ms.locfileid: "82866946"
 ---
 # <a name="create-and-use-basic-area-charts"></a>创建和使用基本面积图
+
+[!INCLUDE[consumer-appliesto-nyyn](../includes/consumer-appliesto-nyyn.md)]
 
 [!INCLUDE [power-bi-visuals-desktop-banner](../includes/power-bi-visuals-desktop-banner.md)]
 
@@ -26,22 +28,25 @@ ms.locfileid: "75757867"
 
 ![](media/power-bi-visualization-basic-area-chart/power-bi-chart-example.png)
 
+> [!NOTE]
+> 与 Power BI 同事共享报表时，你和这位同事都应具有独立的 Power BI Pro 许可证，并且应将报表保存在 Premium 容量中。
+
 ## <a name="when-to-use-a-basic-area-chart"></a>何时使用基本面积图
 基本分区图适用情况：
 
 * 查看并比较各个时序间的量趋势 
 * 对于表示可以物理方式计数的集合的各个序列
 
-### <a name="prerequisites"></a>必备组件
+### <a name="prerequisites"></a>先决条件
 本教程使用[零售分析示例 PBIX 文件](https://download.microsoft.com/download/9/6/D/96DDC2FF-2568-491D-AAFA-AFDD6F763AE3/Retail%20Analysis%20Sample%20PBIX.pbix)。
 
-1. 在菜单栏的左上方，选择“文件” **“打开”**  >  
+1. 在菜单栏的左上方，选择“文件” > “打开”  
    
 2. 查找**零售分析示例 PBIX 文件**的副本
 
 1. 在报表视图中打开**零售分析示例 PBIX 文件**![报表视图屏幕截图图标](media/power-bi-visualization-kpi/power-bi-report-view.png)。
 
-1. Select ![黄色选项卡的屏幕截图。](media/power-bi-visualization-kpi/power-bi-yellow-tab.png) ，以添加新报表页。
+1. 选择 ![黄色选项卡的屏幕截图。](media/power-bi-visualization-kpi/power-bi-yellow-tab.png) ，以添加新报表页。
 
 
 ## <a name="create-a-basic-area-chart"></a>创建基本面积图
@@ -49,7 +54,7 @@ ms.locfileid: "75757867"
 
 1. 这些步骤有助于创建按月显示本年度销售额和上年度销售额的分区图。
    
-   a. 在“字段”窗格中，依次选择“销售额” **“去年销售额”，再依次选择“今年销售额 > 值”\>**  。
+   a. 在“字段”窗格中，依次选择“销售额”\>“去年销售额”，再依次选择“今年销售额 > 值”   。
 
    ![分区图数据值](media/power-bi-visualization-basic-area-chart/power-bi-bar-chart.png)
 
@@ -57,7 +62,7 @@ ms.locfileid: "75757867"
 
    ![分区图图标](media/power-bi-visualization-basic-area-chart/convertchart.png)
    
-   c.  选择“时间” **“会计月”\>** 以将其添加到“轴”  。   
+   c.  选择“时间”\>“会计月”  以将其添加到“轴”  。   
    ![分区图轴值](media/power-bi-visualization-basic-area-chart/powerbi-area-chartnew.png)
    
    d.  若要按月显示图表，请选择“省略号”（视觉对象的右上角）并选择“按月排序”  。 要更改排序顺序，请再次选择省略号并选择  “升序排序”或“降序排序”  。

@@ -9,12 +9,12 @@ ms.date: 03/11/2020
 ms.author: painbar
 ms.custom: ''
 ms.reviewer: ''
-ms.openlocfilehash: 3eb8aafca2257bff12d3b248d4f3c1d43708e563
-ms.sourcegitcommit: abc8419155dd869096368ba744883b865c5329fa
+ms.openlocfilehash: 8e24258d7431996bcdcc1c049daa2a6cbd4f60b5
+ms.sourcegitcommit: 220910f0b68cb1e265ccd5ac0cee4ee9c6080b26
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/17/2020
-ms.locfileid: "79435390"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "82841747"
 ---
 # <a name="what-are-the-power-bi-mobile-apps"></a>什么是 Power BI 移动应用？
 Power BI 提供一组适用于 iOS、Android 和 Windows 10 移动设备的移动应用。 在移动应用中，可连接到云和本地数据并与之进行交互。 
@@ -31,7 +31,7 @@ Power BI 提供一组适用于 iOS、Android 和 Windows 10 移动设备的移�
 
 | **设备** | **突出显示** |
 | --- | --- |
-| [![iPhone](./media/mobile-apps-for-mobile-devices/iphone-logo-50-px.png)](mobile-iphone-app-get-started.md) |iPhone  无处不在，[适用于 iPhone 的 Power BI 移动应用](mobile-iphone-app-get-started.md)也无处不在。 除了查看[特殊电话布局视图中的 Power BI 报表](mobile-apps-view-phone-report.md)外，还可[将 Power BI 添加到 Apple Watch](mobile-apple-watch.md)，并[通过问答虚拟分析师提问](mobile-apps-ios-qna.md)。 <br/>[适用于 iOS 的 Power BI 移动应用](mobile-iphone-app-get-started.md)入门。 |
+| [![iPhone](./media/mobile-apps-for-mobile-devices/iphone-logo-50-px.png)](mobile-iphone-app-get-started.md) |iPhone  无处不在，[适用于 iPhone 的 Power BI 移动应用](mobile-iphone-app-get-started.md)也无处不在。 除了查看[特殊电话布局视图中的 Power BI 报表](mobile-apps-view-phone-report.md)，还可[将 Power BI 添加到 Apple Watch](mobile-apple-watch.md)，并[通过问答虚拟分析师提问](mobile-apps-ios-qna.md)。 <br/>[适用于 iOS 的 Power BI 移动应用](mobile-iphone-app-get-started.md)入门。 |
 | [![iPad](./media/mobile-apps-for-mobile-devices/ipad-logo-50-px.png)](mobile-iphone-app-get-started.md) |在 iPad  上，Power BI 移动应用以为 Power BI 服务设计的方式显示仪表板和报表。 此外，还可以在 iPad 上查看 [Power BI 报表服务器和 Reporting Services KPI 和报表](mobile-app-ssrs-kpis-mobile-on-premises-reports.md)。 可以[在 Power BI 移动应用中设置数据警报](mobile-set-data-alerts-in-the-mobile-apps.md)，以便在仪表板中的数据更改超出你设置的限制时通知你。 <br/>[适用于 iOS 的 Power BI 移动应用](mobile-iphone-app-get-started.md)入门。 |
 | [![Android 手机](media/mobile-apps-for-mobile-devices/android-phone-logo-50-px.png)](mobile-android-app-get-started.md) |适用于 **Android 手机**的 Power BI 移动应用让你可以随身携带 Power BI，可提供对业务信息的最新的、可触控移动式访问。 另外，还可以[按地理位置筛选报表](mobile-apps-geographic-filtering.md)。 可以[使用 Android 手机扫描 QR 代码](mobile-apps-qr-code.md)并直接跳到 Power BI 仪表板或报表。 <br/>[适用于 Android 的 Power BI 移动应用](mobile-android-app-get-started.md)入门。 |
 | [![Android 平板电脑](./media/mobile-apps-for-mobile-devices/android-tablet-logo-50-px.png)](mobile-android-app-get-started.md) |使用在多个不同  Android 平板电脑上运行的移动应用，可以通过触摸移动设备掌握最新业务信息。 在 Android 平板电脑上，Power BI 移动应用以为 Power BI 服务设计的方式显示仪表板和报表。 可以[标记收藏仪表板和报表](mobile-apps-favorites.md)以便快速访问，以及喜爱的 Power BI 报表服务器和 Reporting Services KPI 和报表。 <br/>[适用于 Android 的 Power BI 移动应用](mobile-android-app-get-started.md)入门。 |

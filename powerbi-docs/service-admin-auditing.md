@@ -10,12 +10,12 @@ ms.date: 01/03/2020
 ms.author: kfollis
 ms.custom: seodec18
 LocalizationGroup: Administration
-ms.openlocfilehash: 1102022edca3afad2a658facdf43da7b8bca547d
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: c2a8372a5c31e41b49746ebbea3ba4801eeac493
+ms.sourcegitcommit: a199dda2ab50184ce25f7c9a01e7ada382a88d2c
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "80113775"
+ms.lasthandoff: 05/06/2020
+ms.locfileid: "82866647"
 ---
 # <a name="track-user-activities-in-power-bi"></a>跟踪 Power BI 中的用户活动
 
@@ -243,7 +243,7 @@ Remove-PSSession $Session
 | 已添加 Power BI 组成员                      | AddGroupMembers                             |                                          |
 | 管理员已将数据流存储帐户附加到租户 | AdminAttachedDataflowStorageAccountToTenant | 当前未使用                       |
 | 已分析 Power BI 数据集                         | AnalyzedByExternalApplication               |                                          |
-| 已分析 Power BI 报表                          | AnalyzeInExcel                              |                                          |
+| 已分析 Power BI 报表                          | AnalyzeInExcel                              | 用户与服务进行交互时生成。 下载 `*.odc` 文件不会创建审核事件                                         |
 | 附加的数据流存储帐户                 | AttachedDataflowStorageAccount              |                                          |
 | 将 Power BI 数据集绑定到网关                | BindToGateway                               |                                          |
 | 已取消的数据流刷新                        | CancelDataflowRefresh                       |                                          |

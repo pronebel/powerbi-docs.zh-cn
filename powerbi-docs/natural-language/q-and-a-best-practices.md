@@ -7,12 +7,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 10/23/2019
 ms.author: mohaali
-ms.openlocfilehash: d6b07025f2aefe334fbbd65659b527c2bcad1efd
-ms.sourcegitcommit: 032a77f2367ca937f45e7e751997d7b7d0e89ee2
+ms.openlocfilehash: b5865219d84c8fa388f297824550fd715f0c2923
+ms.sourcegitcommit: a199dda2ab50184ce25f7c9a01e7ada382a88d2c
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/26/2020
-ms.locfileid: "77609941"
+ms.lasthandoff: 05/06/2020
+ms.locfileid: "82866832"
 ---
 # <a name="best-practices-to-optimize-qa-in-power-bi"></a>优化 Power BI“问答”功能的最佳做法
 使用常用短语和自然语言来查询数据是一个非常有用的功能。 在用数据回答问题时，该项功能更为强大，而这就是 Power BI“问答”功能的作用。
@@ -195,6 +195,10 @@ ms.locfileid: "77609941"
 
 此步骤非常重要。 即使使用直观的表和列名称，“问答”功能的用户仍会使用他们首先想到的词汇进行提问。 而不是从列的预定义列表中选择词汇。 能够添加的有意义的同义词越多，用户使用报表的体验就越好。 若要添加同义词，请在 Power BI Desktop 中转到“模型”视图，选择“建模”选项卡，然后选择字段或表。 “属性”窗格显示“同义词”框，可在其中添加同义词  。
 
-![“问答属性”窗格同义词](media/qna-modelling-pane-synonyms.png)
+![“问答属性”窗格同义词](media/q-and-a-best-practices/qna-modelling-pane-synonyms.png)
 
  添加同义词时请谨慎。 将同一同义词添加到多个列或表中会导致产生歧义。 “问答”尽可能使用上下文在不确定的同义词之间进行选择，但并不是所有问题都具有充分的上下文。 例如，当用户提问“计数客户”时，如果在你的模型中对“客户”有三个同义词，则客户可能无法获得他们想要寻找的问题的答案。 在这些情况下，请确保主要同义词的唯一性，因为它将用于再次声明中。 它可以提醒用户出现歧义（例如，再次声明“显示已存档的客户记录数”），提示用户以不同的方式来提问。
+
+## <a name="next-steps"></a>后续步骤
+
+[Power BI 问答简介](q-and-a-intro.md)

@@ -9,16 +9,16 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 11/12/2019
 LocalizationGroup: Data from databases
-ms.openlocfilehash: cec8d598713000ec1d2b5a1fb72ebaa7d8932faf
-ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
+ms.openlocfilehash: a05b677a3a6c826c8207af29e965a7cd76149fbe
+ms.sourcegitcommit: 220910f0b68cb1e265ccd5ac0cee4ee9c6080b26
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/06/2020
-ms.locfileid: "74010901"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "82841034"
 ---
 # <a name="edit-sap-variables-in-the-power-bi-service"></a>在 Power BI 服务中编辑 SAP 变量
 
-将 SAP Business Warehouse 或 SAP HANA 与 DirectQuery 结合使用时，报表作者现可允许最终用户在高级和共享工作区的 Power BI 服务中编辑 SAP 变量  。 请注意，此功能不适用于“我的工作区”的“与我共享”选项卡中的报表。 
+将 SAP Business Warehouse 或 SAP HANA 与 DirectQuery 结合使用时，报表作者现可允许最终用户在高级和共享工作区的 Power BI 服务中编辑 SAP 变量  。 请注意，此功能不适用于基于 V1 工作区创建的“我的工作区和应用”的“与我共享”选项卡中的报表。 
 
 ![“编辑变量”对话框](media/service-edit-sap-variables/sap-edit-variables-dialog.png)
 

@@ -8,12 +8,12 @@ ms.topic: conceptual
 ms.date: 03/23/2020
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 93cb384c06fc78f8d006aed02aef323bf3a72d31
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: c2e68b894c7f3e259fd2236d655d562257383433
+ms.sourcegitcommit: a199dda2ab50184ce25f7c9a01e7ada382a88d2c
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "81006292"
+ms.lasthandoff: 05/06/2020
+ms.locfileid: "82866555"
 ---
 # <a name="publish-an-app-in-power-bi"></a>在 Power BI 中发布应用
 
@@ -63,8 +63,8 @@ ms.locfileid: "81006292"
 
 5. 在“权限”中，确定可以访问应用的人员，以及他们可对应用进行的操作  。 
 
-    - 在[经典工作区](service-create-workspaces.md)中：你组织中的每个人、特定人员或 Azure Active Directory (AAD) 安全组。
-    - 在[新的体验工作区](service-create-the-new-workspaces.md)中：特定人员、AAD 安全组和通讯组列表，以及 Office 365 组。 所有工作区用户都将自动获得对工作区应用的访问权限。
+    - 在[经典工作区](service-create-workspaces.md)中：你组织中的每个人、特定人员或 Azure Active Directory (Azure AD) 安全组。
+    - 在[新的体验工作区](service-create-the-new-workspaces.md)中：特定人员、Azure AD 安全组和通讯组列表，以及 Office 365 组。 所有工作区用户都将自动获得对工作区应用的访问权限。
     - 可以允许应用用户通过授予他们“生成”权限来连接到应用的基础数据集。 他们在搜索共享数据集时会看到这些数据集。 阅读本文，了解有关[允许用户连接到应用的数据集](#allow-users-to-connect-to-datasets)的详细信息。
     - 具有“生成”权限的用户还有权将此应用中的报表复制到其他工作区。 阅读本文，了解有关[允许用户在应用中复制报表](#allow-users-to-copy-reports)的详细信息。
     

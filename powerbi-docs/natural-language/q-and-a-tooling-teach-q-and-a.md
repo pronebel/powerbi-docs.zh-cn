@@ -1,19 +1,19 @@
 ---
 title: 在 Power BI 问答中教导 Q&A 以使其理解问题和术语
 description: 如何使用 Power BI 问答来浏览数据
-author: mohaali
+author: maggiesMSFT
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 10/17/2019
-ms.author: mohaali
+ms.date: 04/21/2020
+ms.author: maggies
 LocalizationGroup: Ask questions of your datadefintion
-ms.openlocfilehash: 695ad9143aa7074e079ae8606a9ad0eb6f6c964f
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: e5b870201943b93bfdaec2881005785c2f3c470b
+ms.sourcegitcommit: a199dda2ab50184ce25f7c9a01e7ada382a88d2c
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73874925"
+ms.lasthandoff: 05/06/2020
+ms.locfileid: "82865733"
 ---
 # <a name="teach-qa-to-understand-questions-and-terms-in-power-bi-qa"></a>在 Power BI 问答中教导 Q&A 以使其理解问题和术语
 
@@ -26,7 +26,7 @@ ms.locfileid: "73874925"
 
 1. 在 Power BI Desktop 的“建模”功能区，依次选择“问答设置” > “教导 Q&A”    。
 
-    ![教导 Q&A 红字的同义词](media/qna-tooling-teach-synonym-red.png)
+    ![教导 Q&A 红字的同义词](media/q-and-a-tooling-teach-q-and-a/qna-tooling-teach-synonym-red.png)
 
 2. 输入一句包含问答不能识别术语的句子，选择“提交”  。
 
@@ -36,7 +36,7 @@ ms.locfileid: "73874925"
     
 3. 在“定义问答不理解的术语”下，提供定义  。
 
-    ![教导 Q&A 同义词预览](media/qna-tooling-teach-fixpreview.png)
+    ![教导 Q&A 同义词预览](media/q-and-a-tooling-teach-q-and-a/qna-tooling-teach-fixpreview.png)
 
 4. 选择“保存”以预览更新后的视觉对象  。
 
@@ -61,7 +61,7 @@ ms.locfileid: "73874925"
 
 在框中填写数据中的术语。
 
-![教导 Q&A 同义词提示](media/qna-tooling-synonym-prompt.png)
+![教导 Q&A 同义词提示](media/q-and-a-tooling-teach-q-and-a/qna-tooling-synonym-prompt.png)
 
 如果提供数据模型中的字段以外的内容，可能会得到不理想的结果。
 
@@ -73,17 +73,26 @@ ms.locfileid: "73874925"
 
 在框中填写条件。
 
-![教导 Q&A 同义词提示](media/qna-tooling-adjectives.png)
+![教导 Q&A 同义词提示](media/q-and-a-tooling-teach-q-and-a/qna-tooling-adjectives.png)
 
 可定义的条件的示例有：
 
-- “国家/地区”是“美国”
-- 非“美国”的“国家/地区”
-- 'Weight' > 2000
-- 'Weight' = 2000
-- 'Weight' < 2000
+- “国家/地区”是美国
+- “国家/地区”不是美国
+- 产品数 > 100
+- 产品数大于 100
+- 产品数 = 100
+- 产品数为 100
+- 产品数 < 100
+- 产品数小于 100。
 
-只能在工具中定义单个条件。 要定义更复杂的条件，请使用 DAX 创建计算列，然后使用“工具”部分为该计算列创建单个条件。 不支持度量值。 请改用计算列。
+在这些示例中，“产品数”可以是列名称或度量值。 
+
+还可在问答表达式本身中指定聚合。 例如，如果“热销产品”是至少售出了 100 个单位的产品，则可以将“已售出的单位总数 > 100”的产品定义为热销产品。  
+
+:::image type="content" source="media/q-and-a-tooling-teach-q-and-a/power-bi-qna-popular-products.png" alt-text="定义“热销产品”":::
+
+只能在工具中定义单个条件。 要定义更复杂的条件，请使用 DAX 创建计算列或度量值，然后使用“工具”部分为该列或度量值创建单个条件。
 
 ## <a name="manage-terms"></a>管理术语
 
@@ -93,10 +102,8 @@ ms.locfileid: "73874925"
 
 2. 删除不再需要的任何术语。 当前无法编辑术语。 若要重新定义某个术语，请删除该术语并重新定义一个。
 
-    ![问答管理术语](media/qna-manage-terms.png)
+    ![问答管理术语](media/q-and-a-tooling-teach-q-and-a/qna-manage-terms.png)
 
 ## <a name="next-steps"></a>后续步骤
 
-用于改进自然语言引擎的最佳做法还有很多。 有关详细信息，请参阅以下文章：
-
-* [问答最佳做法](q-and-a-best-practices.md)
+用于改进自然语言引擎的最佳做法还有很多。 有关详细信息，请参阅[问答最佳做法](q-and-a-best-practices.md)。

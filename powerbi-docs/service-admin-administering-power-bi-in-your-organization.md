@@ -9,12 +9,12 @@ ms.topic: overview
 ms.date: 09/09/2019
 ms.author: kfollis
 LocalizationGroup: Administration
-ms.openlocfilehash: cfe877d6fac96124badc19f6ab685523077132fc
-ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
+ms.openlocfilehash: f7e21f5b9f2ac01fec19a7113cf595464619a0e0
+ms.sourcegitcommit: 220910f0b68cb1e265ccd5ac0cee4ee9c6080b26
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/14/2020
-ms.locfileid: "79381275"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "82841977"
 ---
 # <a name="what-is-power-bi-administration"></a>什么是 Power BI 管理？
 
@@ -50,7 +50,7 @@ Power BI 服务管理员角色不授予将许可证分配给用户或在 Office 
 
 ## <a name="administrative-tasks"></a>管理任务
 
-管理员执行许多任务来支持其组织的 Power BI 租户，如下表所述。
+管理员执行许多任务来支持其组织的 Power BI，如下表所述。
 
 | **任务区域** | **典型任务** |
 | --- | --- |
@@ -78,7 +78,7 @@ Power BI 服务管理员角色不授予将许可证分配给用户或在 Office 
 
 ## <a name="next-steps"></a>后续步骤
 
-我们希望你通过本文快速深入了解 Power BI 管理员的工作，以及所涉及的特定角色、任务和工具。 建议参阅以下文章主题进行深入了解。
+我们希望你通过本文快速深入了解 Power BI 管理员的工作，以及所涉及的特定角色、任务和工具。 请参阅以下文章，了解更多信息：
 
 - [使用 Power BI 管理门户](service-admin-portal.md)
 - [租户管理员设置指南](guidance/admin-tenant-settings.md)

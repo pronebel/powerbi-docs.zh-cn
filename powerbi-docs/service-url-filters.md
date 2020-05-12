@@ -8,14 +8,14 @@ featuredvideoid: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 03/25/2020
+ms.date: 05/04/2020
 LocalizationGroup: Reports
-ms.openlocfilehash: 79f3fa8c9c175b698cb91784f95d3bb9d8ca0cc5
-ms.sourcegitcommit: ad638d553d5f7f5831587791ffa7aa37a47dd6ae
+ms.openlocfilehash: 2c9b7a5d13f2bc0f74d82dd2ad78efdb76ff6a14
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/26/2020
-ms.locfileid: "80273239"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "82781406"
 ---
 # <a name="filter-a-report-using-query-string-parameters-in-the-url"></a>通过在 URL 中添加查询字符串参数来筛选报表
 
@@ -156,7 +156,9 @@ V3 和 V4 之间还存在其他差异。 OData V3 不支持日期，只支持日
 
 ## <a name="special-characters-in-url-filters"></a>URL 筛选器中的特殊字符
 
-特殊字符和空格需要一些额外的格式设置。 如果查询包含空格、破折号或其他非 ASCII 字符，请使用转义码  为这些特殊字符添加前缀，即以下划线字符和 X 开头 (_x  )，后面依次跟四位 Unicode  和另一个下划线字符。 如果 Unicode 少于四个字符，需要用零填充。 下面是一些示例。
+### <a name="special-characters-in-table-and-column-names"></a>表名和列名中的特殊字符
+
+表名和列名中的特殊字符和空格需要一些额外的格式设置。 如果查询包含空格、破折号或其他非 ASCII 字符，请使用转义码  为这些特殊字符添加前缀，即以下划线字符和 X 开头 (_x  )，后面依次跟四位 Unicode  和另一个下划线字符。 如果 Unicode 少于四个字符，需要用零填充。 下面是一些示例。
 
 |标识符  |Unicode  | Power BI 的编码  |
 |---------|---------|---------|
@@ -169,6 +171,24 @@ Table_x0020_Name/Column_x002B_Plus eq 3![表视觉对象呈现特殊字符](medi
 
 
 Table_x0020_Special/x005B_Column_x0020_Brackets_x005D eq '[C]' ![表视觉对象呈现特殊字符](media/service-url-filters/power-bi-special-characters2.png) 
+
+### <a name="special-characters-in-values"></a>值中的特殊字符
+
+URL 筛选器已支持字段值中的所有特殊字符，但单引号 (') 除外。 单引号是唯一需要转义的字符。 要搜索单引号字符，请使用两个单引号 ('')。 
+
+例如：
+
+- `?filter=Table/Name eq 'O''Brien'` 变为： 
+
+    :::image type="content" source="media/service-url-filters/power-bi-url-filter-obrien.png" alt-text="Name is O'Brien":::
+
+- `?filter=Table/Name eq 'Lee''s Summit'` 变为：
+
+    :::image type="content" source="media/service-url-filters/power-bi-url-filter-lees.png" alt-text="Lee's Summit":::
+
+- `in` 运算符也支持这种转义：`?filter=Table/Name in ('Lee''s Summit', 'O''Brien')` 变为：
+
+    :::image type="content" source="media/service-url-filters/power-bi-url-filter-in.png" alt-text="Lee's Summit or O'Brien":::
 
 ## <a name="use-dax-to-filter-on-multiple-values"></a>使用 DAX 来对多个值进行筛选
 

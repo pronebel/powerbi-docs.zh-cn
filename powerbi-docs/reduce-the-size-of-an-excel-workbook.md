@@ -10,10 +10,10 @@ ms.date: 01/10/2019
 ms.author: davidi
 LocalizationGroup: Data from files
 ms.openlocfilehash: 8c58c85ea46f9884586e1ff73f1ef9f7b1db9cdd
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/09/2019
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "73860571"
 ---
 # <a name="reduce-the-size-of-an-excel-workbook-to-view-it-in-power-bi"></a>减小 Excel 工作簿的大小以便在 Power BI 中进行查看
@@ -50,7 +50,7 @@ ms.locfileid: "73860571"
 *  在 Power Query 中：取消选中“加载到工作表”  框。
   
   数据将只导入到数据模型中，Excel 工作表中不含数据。
-* 如果之前在导入向导中勾选了“表格”  ，则在“Excel 数据”  选项卡中：转到  “现有连接”\>单击“连接”\>仅创建连接”  。 删除在初始导入过程中创建的原始表或表。
+* 如果之前在导入向导中勾选了“表格”  ，则在“Excel 数据”  选项卡中：转到“现有连接”\>单击“连接”\>“仅创建连接”   。 删除在初始导入过程中创建的原始表或表。
 * 在 **Excel 数据**选项卡中：请勿选中**导入数据**框中的**表**。
 
 ## <a name="workbook-size-optimizer"></a>工作簿大小优化器

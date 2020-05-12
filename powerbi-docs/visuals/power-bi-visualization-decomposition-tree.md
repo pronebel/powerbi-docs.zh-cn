@@ -8,16 +8,19 @@ ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: tutorial
 ms.date: 01/10/2020
-ms.author: mihart
+ms.author: rien
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 8aa392b69d21905901f8304c577b87b00ed19057
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: f7c907d31d4d58a9f39ad982e7d94f3f5ba3f118
+ms.sourcegitcommit: a199dda2ab50184ce25f7c9a01e7ada382a88d2c
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "75885272"
+ms.lasthandoff: 05/06/2020
+ms.locfileid: "82865559"
 ---
 # <a name="create-and-view-decomposition-tree-visuals-in-power-bi-preview"></a>创建并查看 Power BI 中的分解数视觉对象（预览版）
+
+[!INCLUDE[consumer-appliesto-nyyn](../includes/consumer-appliesto-nyyn.md)]
+
 [!INCLUDE [power-bi-visuals-desktop-banner](../includes/power-bi-visuals-desktop-banner.md)]
 
 通过 Power BI 中的分解树视觉对象，可以在多个维度之间实现数据的可视化。 它可自动聚合数据，并按任意顺序向下钻取到各个维度中。 它也是一种人工智能 (AI) 可视化效果，因此可以要求它查找下一个维度，以根据特定条件向下钻取。 这使它成为具体探索和执行根本原因分析的有用工具。
@@ -29,6 +32,8 @@ ms.locfileid: "75885272"
 - 一个供应链方案，用于分析公司的延迟交货（脱销）产品的百分比。  
 - 一个销售方案，按游戏流派和发行商等多种因素细分视频游戏销售情况。
 
+> [!NOTE]
+> 与 Power BI 同事共享报表时，你和这位同事都应具有独立的 Power BI Pro 许可证，并且应将报表保存在 Premium 容量中。    
 
 ## <a name="get-started"></a>开始使用
 从“可视化对象”窗格中，选择分解树图标。

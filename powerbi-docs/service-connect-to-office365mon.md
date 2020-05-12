@@ -10,10 +10,10 @@ ms.date: 11/26/2019
 ms.author: painbar
 LocalizationGroup: Connect to services
 ms.openlocfilehash: 8e9563d10d80290a48e20cd2d6a889831d34924b
-ms.sourcegitcommit: fe9253a6021b9e198afa28aa9c670c3bacf59674
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/26/2019
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "74548596"
 ---
 # <a name="connect-to-office365mon-with-power-bi"></a>使用 Power BI 连接到 Office365Mon
@@ -31,10 +31,10 @@ ms.locfileid: "74548596"
 2. 在**服务**框中，选择**获取**。
    
    ![](media/service-connect-to-office365mon/pbi_getservices.png) 
-3. 选择 **Office365Mon** \> **获取**。
+3. 选择“Office365Mon”\>“获取”   。
    
    ![](media/service-connect-to-office365mon/o365mon.png)
-4. 对于身份验证方法，选择 **oAuth2** \> **登录**。
+4. 对于身份验证方法，请选择“oAuth2”\>“登录”   。
    
    出现提示时，输入Office365Mon 管理凭据，然后按照身份验证过程进行操作。
    

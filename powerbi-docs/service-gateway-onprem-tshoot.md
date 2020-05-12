@@ -10,10 +10,10 @@ ms.topic: troubleshooting
 ms.date: 07/15/2019
 LocalizationGroup: Gateways
 ms.openlocfilehash: 73e2c923500a2d78072a711bc7662a5923811bba
-ms.sourcegitcommit: f77b24a8a588605f005c9bb1fdad864955885718
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/02/2019
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "74699328"
 ---
 # <a name="troubleshoot-gateways---power-bi"></a>对网关进行排除故障 - Power BI
@@ -230,7 +230,7 @@ ImpersonationLevel 与 SPN 设置或本地策略设置相关。
 
     ![如何选择“计划刷新”](media/service-gateway-onprem-tshoot/scheduled-refresh.png)
 
-2. 在**设置...** &gt;“计划刷新”  中，选择“刷新历史记录”  。
+2. 在**设置...** &gt;“计划刷新”中，选择“刷新历史记录”   。
 
     ![选择刷新历史记录](media/service-gateway-onprem-tshoot/scheduled-refresh-2.png)
 
@@ -240,7 +240,7 @@ ImpersonationLevel 与 SPN 设置或本地策略设置相关。
 
 ## <a name="fiddler-trace"></a>Fiddler 跟踪
 
-[Fiddler](https://www.telerik.com/fiddler) 是 Telerik 提供的一款用于监视 HTTP 流量的免费工具。 可以从客户端计算机通过 Power BI 服务来回查看。 此流量列表可能会显示错误和其他相关信息。
+[Fiddler](https://www.telerik.com/fiddler) 是 Telerik 提供的一个免费工具，可以监视 HTTP 流量。 可在客户端计算机中查看 Power BI 服务前前后后的活动。 此流量列表可能会显示错误和其他相关信息。
 
 ![使用 Fiddler 跟踪](media/service-gateway-onprem-tshoot/fiddler.png)
 

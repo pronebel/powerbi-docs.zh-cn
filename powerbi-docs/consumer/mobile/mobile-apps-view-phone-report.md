@@ -6,14 +6,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: conceptual
-ms.date: 03/11/2020
+ms.date: 05/05/2020
 ms.author: painbar
-ms.openlocfilehash: 91fc7e9e3664f21d50b475f316a9a6c64875fab4
-ms.sourcegitcommit: 9b806dfe62c2dee82d971bb4f89d983b97931b43
+ms.openlocfilehash: eba723e4e75c7ce051921a907d2a3d0aa9536833
+ms.sourcegitcommit: 220910f0b68cb1e265ccd5ac0cee4ee9c6080b26
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/07/2020
-ms.locfileid: "80802110"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "82841770"
 ---
 # <a name="view-power-bi-reports-optimized-for-your-phone"></a>查看针对你的手机进行优化的 Power BI 报表
 
@@ -96,7 +96,7 @@ Power BI 报表的所有其他功能对更适合在手机上查看的报表仍�
     ![展开为焦点模式](././media/mobile-apps-view-phone-report/power-bi-phone-report-focus-mode.png)
    
     在本示例中，柱线显示状态的值。
-2. 点击左下角的“浏览”图标 ![“浏览”图标](./media/mobile-apps-view-phone-report/power-bi-phone-report-explore-icon.png) （位于左下角）。
+2. 点击左下角的“浏览”图标  ![“浏览”图标](./media/mobile-apps-view-phone-report/power-bi-phone-report-explore-icon.png) （位于左下角）。
    
     ![浏览模式](./media/mobile-apps-view-phone-report/power-bi-phone-report-explore-mode.png)
 3. 点击“**显示下一个级别**”或“**扩展至下一级别**”。
@@ -131,7 +131,7 @@ Power BI 报表的所有其他功能对更适合在手机上查看的报表仍�
 
 
 ## <a name="next-steps"></a>后续步骤
-* [创建针对 Power BI 手机应用的优化报表](../../desktop-create-phone-report.md)
+* [创建针对 Power BI 移动应用的优化报表](../../desktop-create-phone-report.md)
 * [在 Power BI 中创建仪表板电话视图](../../service-create-dashboard-mobile-phone-view.md)
 * [创建优化为适应任意大小的响应式视觉对象](../../visuals/desktop-create-responsive-visuals.md)
 * 更多问题？ [尝试咨询 Power BI 社区](https://community.powerbi.com/)
