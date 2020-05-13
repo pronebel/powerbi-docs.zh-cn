@@ -8,12 +8,12 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 08/05/2019
 ms.author: v-pemyer
-ms.openlocfilehash: 5560181f2fc52a02eebce274d88dc66517181517
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 7816fd6e75c9b8925ba0d707f6a63f58af546fcf
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "79205771"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83279471"
 ---
 # <a name="data-reduction-techniques-for-import-modeling"></a>导入建模的数据缩减方法
 
@@ -23,8 +23,8 @@ ms.locfileid: "79205771"
 
 尽管 VertiPaq 存储引擎效率高，但务必最大程度地压缩将要加载到模型中的数据。 对于大型模型（或预计会随时间而变大的模型）尤其如此。 以下是四个令人信服的原因：
 
-- 容量可能不支持较大型的模型。 共享容量可以承载最多 1 GB 的模型，Premium 容量可以承载最多 13 GB 的模型。 有关详细信息，请参阅 [Power BI Premium 支持大型数据集](../service-premium-large-datasets.md)一文。
-- 较小型的模型可以减少对容量资源（尤其是内存）的争用。 这使得可以在更长的时间内同时加载更多的模型，从而降低逐出率。 有关详细信息，请参阅[管理高级容量](../service-premium-capacity-manage.md)。
+- 容量可能不支持较大型的模型。 共享容量可以承载最多 1 GB 的模型，Premium 容量可以承载最多 13 GB 的模型。 有关详细信息，请参阅 [Power BI Premium 支持大型数据集](../admin/service-premium-what-is.md)一文。
+- 较小型的模型可以减少对容量资源（尤其是内存）的争用。 这使得可以在更长的时间内同时加载更多的模型，从而降低逐出率。 有关详细信息，请参阅[管理高级容量](../admin/service-premium-capacity-manage.md)。
 - 较小型的模型可以更快地刷新数据，从而降低延迟报告、获得更高的数据集刷新吞吐量以及减少源系统和容量资源的压力。
 - 更小的表行数可以实现更快的计算评估，从而实现更优良的整体查询性能。
 
@@ -88,7 +88,7 @@ VertiPaq 存储引擎存储模型计算列（在 DAX 中定义），就像存储
 
 ## <a name="disable-auto-datetime"></a>禁用自动日期/时间
 
-Power BI Desktop 包含一个称为“自动日期/时间”的选项  。 启用后，它会为日期列创建一个隐藏的自动日期/时间表，以便在报表作者对日历时间段配置筛选器、进行分组和向下钻取时为其提供支持。 隐藏表实际上是计算得出的表，它会增加模型的大小。 有关使用此选项的指南，请参阅 [Power BI Desktop 中的自动日期/时间指南](../desktop-auto-date-time.md)一文。
+Power BI Desktop 包含一个称为“自动日期/时间”的选项  。 启用后，它会为日期列创建一个隐藏的自动日期/时间表，以便在报表作者对日历时间段配置筛选器、进行分组和向下钻取时为其提供支持。 隐藏表实际上是计算得出的表，它会增加模型的大小。 有关使用此选项的指南，请参阅 [Power BI Desktop 中的自动日期/时间指南](../transform-model/desktop-auto-date-time.md)一文。
 
 ## <a name="switch-to-mixed-mode"></a>切换为混合模式
 
@@ -96,12 +96,13 @@ Power BI Desktop 包含一个称为“自动日期/时间”的选项  。 启�
 
 减小模型大小的有效方法是将较大的事实型表的“存储模式”属性设置为 DirectQuery。 注意，此设计方法可以与前文所述的[分组依据和汇总](#group-by-and-summarize)方法很好地结合使用。 例如，汇总的销售数据可用于设计高性能的“汇总”报表。 钻取页面可以显示特定（和有限）筛选器上下文的粒度销售，显示上下文中的所有销售订单。 在本例中，钻取页面将包含 DirectQuery 表中的视觉对象，以便检索销售订单数据。
 
-但会导致许多与复合模型相关的安全性和性能影响。 有关详细信息，请参阅[在 Power BI Desktop 中使用复合模型](../desktop-composite-models.md)一文。
+但会导致许多与复合模型相关的安全性和性能影响。 有关详细信息，请参阅[在 Power BI Desktop 中使用复合模型](../transform-model/desktop-composite-models.md)一文。
 
 ## <a name="next-steps"></a>后续步骤
 
 查看以下文章，了解有关 Power BI 导入模型设计的详细信息：
 
-- [在 Power BI Desktop 中使用复合模型](../desktop-composite-models.md)
-- [Power BI Desktop 中的存储模式](../desktop-storage-mode.md)
+- [在 Power BI Desktop 中使用复合模型](../transform-model/desktop-composite-models.md)
+- [Power BI Desktop 中的存储模式](../transform-model/desktop-storage-mode.md)
 - 是否有任何问题? [尝试咨询 Power BI 社区](https://community.powerbi.com/)
+

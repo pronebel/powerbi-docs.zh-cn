@@ -8,12 +8,12 @@ ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 05/05/2020
 ms.author: painbar
-ms.openlocfilehash: f2aeb720221fa79aa95f9674aa1e3ac610b28c19
-ms.sourcegitcommit: 220910f0b68cb1e265ccd5ac0cee4ee9c6080b26
+ms.openlocfilehash: 48b13b73455d39eb7dc8cbf9df3e95408592f7f5
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "82841724"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83279494"
 ---
 # <a name="explore-reports-in-the-power-bi-mobile-apps"></a>在 Power BI 移动应用中浏览报表
 适用于：
@@ -27,7 +27,7 @@ ms.locfileid: "82841724"
 
 Power BI 报表是一个交互式数据视图，它使用视觉对象来表示不同的数据发现和见解。 在 Power BI 移动应用中查看报表是三步流程中的第三步：
 
-1. [在 Power BI Desktop 中创建报表](../../desktop-report-view.md)。 甚至可以在 Power BI Desktop 中[优化报表，使之更适合在手机中显示](mobile-apps-view-phone-report.md)。
+1. [在 Power BI Desktop 中创建报表](../../create-reports/desktop-report-view.md)。 甚至可以在 Power BI Desktop 中[优化报表，使之更适合在手机中显示](mobile-apps-view-phone-report.md)。
 2. 将这些报表发布到 Power BI 服务 [(https://powerbi.com)](https://powerbi.com) 或 [Power BI 报表服务器](../../report-server/get-started.md)。  
 3. 在 Power BI 移动应用中与报表进行交互。
 
@@ -100,7 +100,7 @@ Power BI 移动应用中的报表有两个图标：
 当你点击视觉对象的特定部分并点击“钻取”选项时，Power BI 会转到报表中的另一页，筛选出点击的值  。 报表作者可定义一个或多个钻取操作，每个操作分别转到不同页面。 在这种情况下，可选择所需的钻取操作。 使用返回按钮可返回到上一页。
 
 
-有关详细信息，请参阅[在 Power BI Desktop 中添加钻取](../../desktop-drillthrough.md)。
+有关详细信息，请参阅[在 Power BI Desktop 中添加钻取](../../create-reports/desktop-drillthrough.md)。
    
    > [!IMPORTANT]
    > 在 Power BI 移动应用中，矩阵和表视觉对象的钻取操作仅可通过单元格值启用，无法通过列或行标题启用。
@@ -164,6 +164,5 @@ Power BI 移动应用提供许多设置，使你可以控制报表体验。 当�
 
 ## <a name="next-steps"></a>后续步骤
 * [查看手机优化版 Power BI 报表并与之交互](mobile-apps-view-phone-report.md)
-* [创建手机优化版报表](../../desktop-create-phone-report.md)
+* [创建手机优化版报表](../../create-reports/desktop-create-phone-report.md)
 * 是否有任何问题? [尝试咨询 Power BI 社区](https://community.powerbi.com/)
-

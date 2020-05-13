@@ -8,12 +8,12 @@ ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 12/11/2019
 ms.author: painbar
-ms.openlocfilehash: ff33bc2005918ba08c6098afd91a020e0cb6ba79
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 288ac6620af03c49d0a7f96e219e88d855381caf
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "79435803"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83279540"
 ---
 # <a name="set-data-alerts-in-the-power-bi-mobile-apps"></a>在 Power BI 移动应用中设置数据警报
 适用于：
@@ -29,7 +29,7 @@ ms.locfileid: "79435803"
 > [!WARNING]
 > 数据驱动的警报通知提供有关数据的信息。 如果设备被盗，我们建议你转到 Power BI 服务，关闭所有数据驱动的警报规则。 
 > 
-> 详细了解[管理 Power BI 服务中的数据警报](../../service-set-data-alerts.md)。
+> 详细了解[管理 Power BI 服务中的数据警报](../../create-reports/service-set-data-alerts.md)。
 > 
 > 
 
@@ -58,7 +58,7 @@ ms.locfileid: "79435803"
    ![](media/mobile-set-data-alerts-in-the-mobile-apps/power-bi-iphone-add-another-alert-rule.png)
 
 ### <a name="manage-alerts-on-your-iphone-or-ipad"></a>在 iPhone 或 iPad 上管理警报
-可以在移动设备上管理单个警报，或 [在 Power BI 服务中管理所有警报](../../service-set-data-alerts.md)。
+可以在移动设备上管理单个警报，或 [在 Power BI 服务中管理所有警报](../../create-reports/service-set-data-alerts.md)。
 
 1. 在仪表板中，点击具有警报的数字或仪表盘磁贴。  
    
@@ -92,7 +92,7 @@ ms.locfileid: "79435803"
 8. 点击**保存**。
 
 ### <a name="manage-alerts-on-an-android-device"></a>在 Android 设备上管理警报
-你可以在 Power BI 移动应用中管理单个警报，或[在 Power BI 移动应用中管理所有警报](../../service-set-data-alerts.md)。
+你可以在 Power BI 移动应用中管理单个警报，或[在 Power BI 移动应用中管理所有警报](../../create-reports/service-set-data-alerts.md)。
 
 1. 在仪表板中，点击具有警报的卡片或仪表盘磁贴。  
 2. 点击实心铃图标 ![](media/mobile-set-data-alerts-in-the-mobile-apps/power-bi-android-filled-alert-bell.png)。  
@@ -131,7 +131,7 @@ ms.locfileid: "79435803"
    ![](media/mobile-set-data-alerts-in-the-mobile-apps/power-bi-windows-10-add-another-alert.png)
 
 ### <a name="manage-alerts-on-a-windows-device"></a>在 Windows 设备上管理警报
-你可以在 Power BI 移动应用中管理单个警报，或[在 Power BI 移动应用中管理所有警报](../../service-set-data-alerts.md)。
+你可以在 Power BI 移动应用中管理单个警报，或[在 Power BI 移动应用中管理所有警报](../../create-reports/service-set-data-alerts.md)。
 
 1. 在仪表板中，点击具有警报的卡片或仪表盘磁贴。  
 2. 点击钟形图标 ![](media/mobile-set-data-alerts-in-the-mobile-apps/power-bi-windows-10-alert-bell-on.png)。  
@@ -172,7 +172,6 @@ ms.locfileid: "79435803"
 * 警报不适用于包含流数据的磁贴。
 
 ## <a name="next-steps"></a>后续步骤
-* [在 Power BI 服务中管理警报](../../service-set-data-alerts.md)
+* [在 Power BI 服务中管理警报](../../create-reports/service-set-data-alerts.md)
 * [Power BI 移动通知中心](mobile-apps-notification-center.md)
 * 是否有任何问题? [尝试咨询 Power BI 社区](https://community.powerbi.com/)
-

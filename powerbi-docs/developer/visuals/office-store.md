@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.topic: conceptual
 ms.subservice: powerbi-custom-visuals
 ms.date: 03/08/2020
-ms.openlocfilehash: 90e914cf9b5c03542436750253fd959808403214
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 1aa682a71fe7469f8a9c7d5415fb843400e5d312
+ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "82613548"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83148335"
 ---
 # <a name="publish-power-bi-visuals-to-partner-center"></a>将 Power BI 视觉对象发布到合作伙伴中心
 
@@ -27,7 +27,7 @@ ms.locfileid: "82613548"
 
 ## <a name="preparing-to-submit-your-power-bi-visual"></a>准备提交 Power BI 视觉对象
 
-将 Power BI 视觉对象提交到 AppSource 前，请确保你已阅读 [Power BI 视觉对象指南](guidelines-powerbi-visuals.md)以及[测试自定义视觉对象](https://github.com/Microsoft/PowerBI-visuals/blob/master/Tutorial/SubmissionTesting.md)。
+将 Power BI 视觉对象提交到 AppSource 前，请确保你已阅读 [Power BI 视觉对象指南](guidelines-powerbi-visuals.md)以及[测试自定义视觉对象](./submission-testing.md)。
 
 准备好提交 Power BI 视觉对象时，请验证视觉对象是否符合下列所有要求。
 
@@ -99,9 +99,10 @@ Power BI 团队必须为新 Power BI 视觉对象提交、现有 Power BI 视觉
 
 10. 选择“产品设置”，单击“审阅并发布”。  
 
+
 ## <a name="tracking-submission-status-and-usage"></a>跟踪提交状态和使用情况
 
-* 可以查看[验证策略](https://docs.microsoft.com/legal/marketplace/certification-policies#1180-power-bi-visuals)。
+可以查看[验证策略](https://docs.microsoft.com/legal/marketplace/certification-policies#1180-power-bi-visuals)。
 
 * 提交后，可以在[“应用仪表板”](https://sellerdashboard.microsoft.com/Application/Summary/)中查看提交状态。
 

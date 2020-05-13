@@ -9,12 +9,12 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 12/11/2018
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 52ebb1bf049024051846936237d35b202f00d630
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 6683efbf9fa9dea9215914c097f249362fbffff2
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "80464577"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83278804"
 ---
 # <a name="organizational-visuals-in-power-bi"></a>Power BI 中的组织视觉对象
 
@@ -42,8 +42,6 @@ Power BI 管理员从“管理”门户部署和管理组织视觉对象。 视�
 需留意几个注意事项和限制。
 
 管理员：
-
-* 不支持旧版 Power BI 视觉对象（例如并非基于新版本 API 生成的 Power BI 视觉对象）
 
 * 如果从存储库中删除 ApSource 或文件中的 Power BI 视觉对象，任何使用删除的视觉对象的现有报表都会停止呈现。 从存储库中删除是不可逆的。 若要暂时禁用 ApSource 或文件中的 Power BI 视觉对象，请使用“禁用”功能。
 

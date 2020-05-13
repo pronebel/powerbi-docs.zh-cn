@@ -8,26 +8,26 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 10/24/2019
 ms.author: v-pemyer
-ms.openlocfilehash: 723cc7b2767f6a5ee4394bca74e507fc688b3af8
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: ace93dfe358c85e54863dece0303c889c6a766b2
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "75223640"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83279586"
 ---
 # <a name="directquery-model-guidance-in-power-bi-desktop"></a>Power BI Desktop 中的 DirectQuery 模型指导
 
 本文面向使用 Power BI Desktop 或 Power BI 服务开发 Power BI DirectQuery 模型的数据建模者。 其中介绍了 DirectQuery 用例、限制和指导。 具体而言，本指南旨在帮助你确定 DirectQuery 是否是适用于你的模型的模式，以及基于 DirectQuery 模型提高报表性能。 本文适用于 Power BI 服务或 Power BI 报表服务器中承载的 DirectQuery 模型。
 
-本文并不会提供有关 DirectQuery 模型设计的完全讨论。 有关简介，请参阅 [Power BI Desktop 中的 DirectQuery 模型](../desktop-directquery-about.md)一文。 有关更深入的讨论，请直接参阅 [DirectQuery in SQL Server 2016 Analysis Services](https://download.microsoft.com/download/F/6/F/F6FBC1FC-F956-49A1-80CD-2941C3B6E417/DirectQuery%20in%20Analysis%20Services%20-%20Whitepaper.pdf)（SQL Server 2016 Analysis Services 中的 DirectQuery）白皮书。 请记住，该白皮书介绍如何在 SQL Server Analysis Services 中使用 DirectQuery。 但大部分内容仍适用于 Power BI DirectQuery 模型。
+本文并不会提供有关 DirectQuery 模型设计的完全讨论。 有关简介，请参阅 [Power BI Desktop 中的 DirectQuery 模型](../connect-data/desktop-directquery-about.md)一文。 有关更深入的讨论，请直接参阅 [DirectQuery in SQL Server 2016 Analysis Services](https://download.microsoft.com/download/F/6/F/F6FBC1FC-F956-49A1-80CD-2941C3B6E417/DirectQuery%20in%20Analysis%20Services%20-%20Whitepaper.pdf)（SQL Server 2016 Analysis Services 中的 DirectQuery）白皮书。 请记住，该白皮书介绍如何在 SQL Server Analysis Services 中使用 DirectQuery。 但大部分内容仍适用于 Power BI DirectQuery 模型。
 
-本文不会直接涵盖复合模型。 复合模型至少包含一个 DirectQuery 源，并且可能有更多个。 本文中所述的指导仍与复合模型设计相关，至少部分相关。 但是，将导入表与 DirectQuery 表结合在一起所产生的影响并不在本文范围内。 有关详细信息，请参阅[在 Power BI Desktop 中使用复合模型](../desktop-composite-models.md)。
+本文不会直接涵盖复合模型。 复合模型至少包含一个 DirectQuery 源，并且可能有更多个。 本文中所述的指导仍与复合模型设计相关，至少部分相关。 但是，将导入表与 DirectQuery 表结合在一起所产生的影响并不在本文范围内。 有关详细信息，请参阅[在 Power BI Desktop 中使用复合模型](../transform-model/desktop-composite-models.md)。
 
 请务必了解，DirectQuery 模型在 Power BI 环境（Power BI 服务或 Power BI 报表服务器）和基础数据源上施加了不同的工作负载。 如果确定 DirectQuery 是适合的设计方法，我们建议你与项目相应的人员联系。 我们经常会发现，成功的 DirectQuery 模型部署总是离不开一组 IT 专业人员的密切合作。 团队通常包括模型开发者和源数据库管理员。 它还可以涉及数据架构师、数据仓库和 ETL 开发者。 通常，优化需要直接应用于数据源，以获得良好的性能结果。
 
 ## <a name="design-in-power-bi-desktop"></a>在 Power BI Desktop 中设计
 
-可直接连接到 Azure SQL 数据仓库和 Azure HDInsight Spark 数据源，而无需使用 Power BI Desktop。 这是通过“获取数据”并选择“数据库”磁贴在 Power BI 服务中实现的。 有关详细信息，请参阅[具有 DirectQuery 的 Azure SQL 数据仓库](../service-azure-sql-data-warehouse-with-direct-connect.md)。
+可直接连接到 Azure SQL 数据仓库和 Azure HDInsight Spark 数据源，而无需使用 Power BI Desktop。 这是通过“获取数据”并选择“数据库”磁贴在 Power BI 服务中实现的。 有关详细信息，请参阅[具有 DirectQuery 的 Azure SQL 数据仓库](../connect-data/service-azure-sql-data-warehouse-with-direct-connect.md)。
 
 尽管直接连接很方便，但我们不建议使用此方法。 主要原因是，基础数据源架构发生更改时，无法刷新模型结构。
 
@@ -77,8 +77,8 @@ ms.locfileid: "75223640"
     本指南中有一个例外，其中涉及到 [COMBINEVALUES](/dax/combinevalues-function-dax) DAX 函数的使用。 此函数的用途是支持多列模型关系。 该函数不生成关系所使用的表达式，而是生成多列 SQL 联接谓词。
 - **避免定义“唯一标识符”列上的关系：** Power BI 不能以本机方式支持唯一标识符 (GUID) 数据类型。 定义此类型的列之间的关系时，Power BI 将使用涉及强制转换的联接生成源查询。 此查询-时间数据转换通常会导致性能不佳。 在进行优化之前，唯一的解决方法是在基础数据库中具体化替代数据类型的列。
 - **隐藏关系的一方列：** 应隐藏关系的一方列。 （这通常是维度-类型表的主键列。）隐藏后，它在“字段”窗格中不可用，因此不能用于配置视觉对象  。 如果按列值对报表进行分组或筛选时，多方列有帮助，则可保持可见。 例如，假设有一个模型，该模型的销售表与产品表之间存在关系   。 关系列包含产品 SKU（库存单位）值。 如果必须将产品 SKU 添加到视觉对象中，则它应仅在销售表中可见  。 如果此列用于对视觉对象进行筛选或分组，Power BI 将生成不需要联接销售表和产品表的查询   。
-- **设置关系来强制实施完整性：** DirectQuery 关系的“假设引用完整性”属性决定 Power BI 是否使用内部联接而不是外部联接来生成源查询  。 这通常可以提高查询性能，但具体取决于关系数据库源的详细情况。 有关详细信息，请参阅 [Power BI Desktop 中的假设引用完整性设置](../desktop-assume-referential-integrity.md)。
-- **避免使用双向关系筛选：** 使用双向关系筛选可能导致查询语句应用效果不佳。 只有在必要时才使用此关系特征，这通常是在桥接表之间实现多对多关系的情况。 有关详细信息，请参阅 [Power BI Desktop 中具有多对多基数的关系](../desktop-many-to-many-relationships.md)。
+- **设置关系来强制实施完整性：** DirectQuery 关系的“假设引用完整性”属性决定 Power BI 是否使用内部联接而不是外部联接来生成源查询  。 这通常可以提高查询性能，但具体取决于关系数据库源的详细情况。 有关详细信息，请参阅 [Power BI Desktop 中的假设引用完整性设置](../connect-data/desktop-assume-referential-integrity.md)。
+- **避免使用双向关系筛选：** 使用双向关系筛选可能导致查询语句应用效果不佳。 只有在必要时才使用此关系特征，这通常是在桥接表之间实现多对多关系的情况。 有关详细信息，请参阅 [Power BI Desktop 中具有多对多基数的关系](../transform-model/desktop-many-to-many-relationships.md)。
 - **限制并行查询：** 可以为每个基础数据源设置 DirectQuery 打开的最大连接数。 这样可控制以并发形式发送到数据源的查询数。
 
     ![“Power BI Desktop”窗口处于打开状态，并且已选择“当前文件 DirectQuery”页。 突出显示“每个数据源的最大连接数”属性。](media/directquery-model-guidance/directquery-model-guidance-desktop-options-current-file-directquery.png)
@@ -121,9 +121,9 @@ ms.locfileid: "75223640"
 
 ## <a name="convert-to-a-composite-model"></a>转换为复合模型
 
-通过配置模型表的存储模式，可以将 Import 和 DirectQuery 模型的优点合并为单个模型。 表存储模式可以采用 Import 或 DirectQuery，也可以采用二者（称为 Dual）。 当模型包含具有不同存储模式的表时，就被称为复合模型。 有关详细信息，请参阅[在 Power BI Desktop 中使用复合模型](../desktop-composite-models.md)。
+通过配置模型表的存储模式，可以将 Import 和 DirectQuery 模型的优点合并为单个模型。 表存储模式可以采用 Import 或 DirectQuery，也可以采用二者（称为 Dual）。 当模型包含具有不同存储模式的表时，就被称为复合模型。 有关详细信息，请参阅[在 Power BI Desktop 中使用复合模型](../transform-model/desktop-composite-models.md)。
 
-通过将 DirectQuery 模型转换为复合模型，可实现许多功能和性能提升。 复合模型可以集成多个 DirectQuery 源，还可以包含聚合。 可以将聚合表添加到 DirectQuery 表以导入表的汇总表示形式。 当视觉对象查询较高级别的聚合时，可以实现显著的性能提升。 有关详细信息，请参阅 [Power BI Desktop 中的聚合](../desktop-aggregations.md)。
+通过将 DirectQuery 模型转换为复合模型，可实现许多功能和性能提升。 复合模型可以集成多个 DirectQuery 源，还可以包含聚合。 可以将聚合表添加到 DirectQuery 表以导入表的汇总表示形式。 当视觉对象查询较高级别的聚合时，可以实现显著的性能提升。 有关详细信息，请参阅 [Power BI Desktop 中的聚合](../transform-model/desktop-aggregations.md)。
 
 ## <a name="educate-users"></a>让用户了解更多内容
 
@@ -137,7 +137,7 @@ ms.locfileid: "75223640"
 
 有关 DirectQuery 的详细信息，请查看以下资源：
 
-- [Power BI Desktop 中的 DirectQuery 模型](../desktop-directquery-about.md)
-- [在 Power BI Desktop 中使用 DirectQuery](../desktop-use-directquery.md)
-- [Power BI Desktop 中的 DirectQuery 模型疑难解答](../desktop-directquery-troubleshoot.md)
+- [Power BI Desktop 中的 DirectQuery 模型](../connect-data/desktop-directquery-about.md)
+- [在 Power BI Desktop 中使用 DirectQuery](../connect-data/desktop-use-directquery.md)
+- [Power BI Desktop 中的 DirectQuery 模型疑难解答](../connect-data/desktop-directquery-troubleshoot.md)
 - 是否有任何问题? [尝试咨询 Power BI 社区](https://community.powerbi.com/)
