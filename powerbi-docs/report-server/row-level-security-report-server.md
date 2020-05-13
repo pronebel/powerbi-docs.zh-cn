@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 01/22/2019
-ms.openlocfilehash: 7436b97cdeacf08f1d4ed9374ec615d56ae92db1
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: d94e9696ee41e8bd76f7d11aab794ccd2dc701b3
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "73859183"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83277976"
 ---
 # <a name="row-level-security-rls-in-power-bi-report-server"></a>Power BI 报表服务器中的行级别安全性 (RLS)
 
@@ -33,7 +33,7 @@ ms.locfileid: "73859183"
 
 基于用户名或登录 ID 实现[动态行级别安全性](https://docs.microsoft.com/analysis-services/tutorial-tabular-1200/supplemental-lesson-implement-dynamic-security-by-using-row-filters)时，请选中此框。 
 
-若要了解更多信息，请参阅[在 Power BI Desktop 中使用 DirectQuery 的双向交叉筛选](../desktop-bidirectional-filtering.md)和[保护表格 BI 语义模型](https://download.microsoft.com/download/D/2/0/D20E1C5F-72EA-4505-9F26-FEF9550EFD44/Securing%20the%20Tabular%20BI%20Semantic%20Model.docx)技术白皮书。
+若要了解更多信息，请参阅[在 Power BI Desktop 中使用 DirectQuery 的双向交叉筛选](../transform-model/desktop-bidirectional-filtering.md)和[保护表格 BI 语义模型](https://download.microsoft.com/download/D/2/0/D20E1C5F-72EA-4505-9F26-FEF9550EFD44/Securing%20the%20Tabular%20BI%20Semantic%20Model.docx)技术白皮书。
 
 [!INCLUDE [rls-desktop-view-as-roles](../includes/rls-desktop-view-as-roles.md)]
 
@@ -84,7 +84,7 @@ ms.locfileid: "73859183"
 
 使用 username() DAX 函数生成报表的用户现在将注意到新的行为，该行为会返回用户主体名称 (UPN)，但配合使用 DirectQuery 和集成安全性时除外。  由于该场景中不考虑 RLS，因此该场景中的行为保持不变。
 
-只能在使用 Power BI Desktop 创建的数据集上定义 RLS。 若要为使用 Excel 创建的数据集启用 RLS，首先必须将你的文件转换为 Power BI Desktop (PBIX) 文件。 了解关于 [Excel 文件](../desktop-import-excel-workbooks.md)的详细信息。
+只能在使用 Power BI Desktop 创建的数据集上定义 RLS。 若要为使用 Excel 创建的数据集启用 RLS，首先必须将你的文件转换为 Power BI Desktop (PBIX) 文件。 了解关于 [Excel 文件](../connect-data/desktop-import-excel-workbooks.md)的详细信息。
 
 只支持使用已存储凭据的提取、转换、加载 (ETL) 和 DirectQuery 连接。 连接到分析服务的实时连接和使用集成身份验证的 DirectQuery 连接均在底层数据源中进行处理。 
 
@@ -122,3 +122,4 @@ ms.locfileid: "73859183"
 [管理员手册](admin-handbook-overview.md)  
 
 更多问题？ [尝试咨询 Power BI 社区](https://community.powerbi.com/)
+

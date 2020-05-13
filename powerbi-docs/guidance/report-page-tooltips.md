@@ -8,16 +8,16 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 11/24/2019
 ms.author: v-pemyer
-ms.openlocfilehash: 5a6b7bda8bf5e8d80ae8b22a71035f8bc362fb89
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: e3af0828afcc7c085b896fe9e1b99f3b10bfdd5f
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "79377733"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83277838"
 ---
 # <a name="extend-visuals-with-report-page-tooltips"></a>用报表页工具提示扩展视觉对象
 
-本文面向设计 Power BI 报表的报表作者。 该文章提供创建[报表页工具提示](../desktop-tooltips.md)的意见和建议。
+本文面向设计 Power BI 报表的报表作者。 该文章提供创建[报表页工具提示](../create-reports/desktop-tooltips.md)的意见和建议。
 
 ## <a name="suggestions"></a>建议
 
@@ -29,7 +29,7 @@ ms.locfileid: "79377733"
 > [!NOTE]
 > 如果工具提示页筛选器与视觉对象的设计兼容，则报表视觉对象只能显示页面工具提示。 例如，按产品分组的视觉对象与按产品筛选的工具提示页兼容   。
 >
-> 页面工具提示不支持交互。 如果希望报表用户进行交互，请改为创建[钻取页](../desktop-drillthrough.md)。
+> 页面工具提示不支持交互。 如果希望报表用户进行交互，请改为创建[钻取页](../create-reports/desktop-drillthrough.md)。
 >
 > Power BI 视觉对象不支持页面工具提示。
 
@@ -65,7 +65,7 @@ ms.locfileid: "79377733"
 
 有趣的是，按钮、图像、文本框和形状也可以显示视觉对象标头页工具提示。
 
-以下示例显示了报表用户将光标悬停在[“视觉对象标头”图标](../desktop-visual-elements-for-reports.md)上时会发生的情况。
+以下示例显示了报表用户将光标悬停在[“视觉对象标头”图标](../create-reports/desktop-visual-elements-for-reports.md)上时会发生的情况。
 
 ![报表用户已将其光标悬停在视觉对象标头图标（问号图标）上。 已显示格式丰富的工具提示。](media/report-page-tooltips/suggestion-add-help.png)
 
@@ -85,8 +85,8 @@ ms.locfileid: "79377733"
 
 有关本文的详细信息，请参阅以下资源：
 
-- [根据 Power BI Desktop 中的报表页创建工具提示](../desktop-tooltips.md)
-- [在 Power BI Desktop 中自定义工具提示](../desktop-custom-tooltips.md)
-- [使用视觉对象元素增强 Power BI 报表](../desktop-visual-elements-for-reports.md)
+- [根据 Power BI Desktop 中的报表页创建工具提示](../create-reports/desktop-tooltips.md)
+- [在 Power BI Desktop 中自定义工具提示](../create-reports/desktop-custom-tooltips.md)
+- [使用视觉对象元素增强 Power BI 报表](../create-reports/desktop-visual-elements-for-reports.md)
 - 是否有任何问题? [尝试咨询 Power BI 社区](https://community.powerbi.com/)
 - 建议？ [提出改进 Power BI 的想法](https://ideas.powerbi.com/)

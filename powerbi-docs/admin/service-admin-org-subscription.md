@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 04/08/2020
 ms.author: kfollis
 LocalizationGroup: Administration
-ms.openlocfilehash: 28acd982faed44a0912a486262c9db7611531265
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: c0f4e8fd72f3808633cde64a880130798fabb173
+ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "81447478"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83138296"
 ---
 # <a name="get-a-power-bi-subscription-for-your-organization"></a>为组织获取 Power BI 订阅
 
@@ -41,7 +41,7 @@ ms.locfileid: "81447478"
 
 ## <a name="sign-up-through-microsoft-365"></a>注册 Microsoft 365
 
-如果你是 Microsoft 365 全局管理员或计费管理员，则可为你的组织获取 Power BI 订阅。 有关详细信息，请参阅[谁可以购买并分配许可证？](../service-admin-licensing-organization.md#who-can-purchase-and-assign-licenses)。
+如果你是 Microsoft 365 全局管理员或计费管理员，则可为你的组织获取 Power BI 订阅。 有关详细信息，请参阅[谁可以购买并分配许可证？](service-admin-licensing-organization.md#who-can-purchase-and-assign-licenses)。
 
 > [!NOTE]
 >

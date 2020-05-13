@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 10/25/2019
 ms.author: painbar
 LocalizationGroup: Data from files
-ms.openlocfilehash: 6d342773f35adef5f7b61953b06e526a42be75dc
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 9e3527d4e32143a3bc261226a5f10c371bcaaef4
+ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "76537384"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83131972"
 ---
 # <a name="using-microsoft-cloud-app-security-controls-in-power-bi-preview"></a>在 Power BI 中使用 Microsoft Cloud App Security 控件（预览版）
 
@@ -60,7 +60,7 @@ Cloud App Security 还有两个专用于 Power BI 的内置检测。 [参阅本�
 
 敏感度标签可对敏感内容进行分类，并帮助保护这些内容，以便组织中的用户可以与组织外的合作伙伴协作，同时注意敏感内容和数据。 
 
-可以阅读有关 [Power BI 中的敏感度标签](../designer/service-security-apply-data-sensitivity-labels.md)的文章，其中详细介绍了如何使用 Power BI 的敏感度标签。 请参阅下面的[基于敏感度标签的 Power BI 策略的示例](#example)。
+可以阅读有关 [Power BI 中的敏感度标签](../collaborate-share/service-security-apply-data-sensitivity-labels.md)的文章，其中详细介绍了如何使用 Power BI 的敏感度标签。 请参阅下面的[基于敏感度标签的 Power BI 策略的示例](#example)。
 
 ## <a name="built-in-microsoft-cloud-app-security-detections-for-power-bi"></a>Power BI 的内置 Microsoft Cloud App Security 检测
 
@@ -136,7 +136,7 @@ Cloud App Security 还有两个专用于 Power BI 的内置检测。 [参阅本�
 
 * [Power BI 中数据保护的概述](service-security-data-protection-overview.md)
 * [在 Power BI 中启用数据敏感度标签](service-security-enable-data-sensitivity-labels.md)
-* [在 Power BI 中应用数据敏感度标签](../designer/service-security-apply-data-sensitivity-labels.md)
+* [在 Power BI 中应用数据敏感度标签](../collaborate-share/service-security-apply-data-sensitivity-labels.md)
 
 你可能还会对以下 Azure 和安全文章感兴趣：
 

@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 03/11/2020
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: cb3947ec7aaf6d67a22eb1d7543a57e66e87f5f3
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 029970885070fad34e38697aa4c81fce316b7410
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "79114446"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83277654"
 ---
 # <a name="take-a-tour-of-the-report-filters-pane"></a>浏览报表“筛选器”窗格
 
@@ -25,7 +25,7 @@ ms.locfileid: "79114446"
 
 本文将介绍 Power BI 服务中的报表“筛选器”窗格  。 使用筛选器可在数据中发现新见解。
 
-Power BI 中有许多不同的方法来筛选数据。 有关筛选器的详细信息，请参阅[关于 Power BI 报表中的筛选器和突出显示](../power-bi-reports-filters-and-highlighting.md)。
+Power BI 中有许多不同的方法来筛选数据。 有关筛选器的详细信息，请参阅[关于 Power BI 报表中的筛选器和突出显示](../create-reports/power-bi-reports-filters-and-highlighting.md)。
 
 ![浏览器中报表的屏幕截图，其中箭头指向“筛选器”选项。](media/end-user-report-filter/power-bi-report.png)
 

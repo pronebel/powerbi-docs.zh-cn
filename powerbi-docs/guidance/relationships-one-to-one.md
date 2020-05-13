@@ -8,12 +8,12 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 03/02/2020
 ms.author: v-pemyer
-ms.openlocfilehash: 92aa2c5d8da91590f5d491090761a6a6b1501061
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 43905b05bfe796c416bb8d91901497f6ca1e573e
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "78263797"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83278252"
 ---
 # <a name="one-to-one-relationship-guidance"></a>一对一关系指南
 
@@ -99,7 +99,7 @@ Sales Order  表通过以下三列为报表作者提供丰富体验：Sales Orde
 - 限制创建层次结构的功能，因为它们的级别必须以相同表  中的列为依据
 - 在表之间的行不完全匹配时导致意外结果出现
 
-具体建议因一对一关系是岛内  还是岛间  而异。 若要详细了解关系计算，请参阅 [Power BI Desktop 中的模型关系（关系计算）](../desktop-relationships-understand.md#relationship-evaluation)。
+具体建议因一对一关系是岛内  还是岛间  而异。 若要详细了解关系计算，请参阅 [Power BI Desktop 中的模型关系（关系计算）](../transform-model/desktop-relationships-understand.md#relationship-evaluation)。
 
 ### <a name="intra-island-one-to-one-relationship"></a>岛内一对一关系
 
@@ -107,7 +107,7 @@ Sales Order  表通过以下三列为报表作者提供丰富体验：Sales Orde
 
 下面的步骤提供了一种方法来合并和建模一对一关联数据：
 
-1. **合并查询**：[合并两个查询](../desktop-shape-and-combine-data.md#combine-queries)时，考虑每个查询中数据的完整性。 如果一个查询包含一组完整的行（如主列表），请将另一个查询与它合并。 将合并转换配置为使用左外部联接  （即默认联接类型）。 这种联接类型可确保你保留第一个查询的所有行，并使用第二个查询的任何匹配行进行补充。 将第二个查询的所有必需列扩展到第一个查询中。
+1. **合并查询**：[合并两个查询](../connect-data/desktop-shape-and-combine-data.md#combine-queries)时，考虑每个查询中数据的完整性。 如果一个查询包含一组完整的行（如主列表），请将另一个查询与它合并。 将合并转换配置为使用左外部联接  （即默认联接类型）。 这种联接类型可确保你保留第一个查询的所有行，并使用第二个查询的任何匹配行进行补充。 将第二个查询的所有必需列扩展到第一个查询中。
 2. **禁用查询负载**：请务必对第二个查询[禁用负载](import-modeling-data-reduction.md#disable-power-query-query-load)。 这样，它就不会将其结果加载为模型表。 此配置减少了数据模型存储大小，并有助于让“字段”  窗格保持整洁。
 
     在此示例中，报表作者现在“字段”  窗格中找到一个 Product  表。 它包含所有与产品相关的字段。
@@ -131,11 +131,11 @@ Sales Order  表通过以下三列为报表作者提供丰富体验：Sales Orde
 
 ![“字段”窗格在“Marketing”显示文件夹内显示“Category”字段。](media/relationships-one-to-one/product-to-product-category-fields-pane-consolidated-display-folder.png)
 
-如果你仍决定在模型中定义一对一岛内关系，请尽可能确保关联表中有匹配行。 由于一对一岛内关系被计算为[强关系](../desktop-relationships-understand.md#strong-relationships)，因此数据完整性问题可能会在报表视觉对象中作为 BLANK 出现。 （例如，本文中显示的第一个表视觉对象中就有 BLANK 分组。）
+如果你仍决定在模型中定义一对一岛内关系，请尽可能确保关联表中有匹配行。 由于一对一岛内关系被计算为[强关系](../transform-model/desktop-relationships-understand.md#strong-relationships)，因此数据完整性问题可能会在报表视觉对象中作为 BLANK 出现。 （例如，本文中显示的第一个表视觉对象中就有 BLANK 分组。）
 
 ### <a name="inter-island-one-to-one-relationship"></a>岛间一对一关系
 
-如果表之间有岛间  一对一关系，除非预先合并数据源中的数据，否则没有替换模型设计。 Power BI 会将一对一模型关系计算为[弱关系](../desktop-relationships-understand.md#weak-relationships)。 因此，请注意确保关联表中有匹配行，因为不匹配的行会从查询结果中删除。
+如果表之间有岛间  一对一关系，除非预先合并数据源中的数据，否则没有替换模型设计。 Power BI 会将一对一模型关系计算为[弱关系](../transform-model/desktop-relationships-understand.md#weak-relationships)。 因此，请注意确保关联表中有匹配行，因为不匹配的行会从查询结果中删除。
 
 现在来看看添加有这两个表（之间有弱关系）中字段的表视觉对象是什么样的。
 
@@ -147,7 +147,7 @@ Sales Order  表通过以下三列为报表作者提供丰富体验：Sales Orde
 
 有关本文的详细信息，请参阅以下资源：
 
-- [Power BI Desktop 中的模型关系](../desktop-relationships-understand.md)
+- [Power BI Desktop 中的模型关系](../transform-model/desktop-relationships-understand.md)
 - [了解星型架构及其对 Power BI 的重要性](star-schema.md)
 - [关系故障排除指南](relationships-troubleshoot.md)
 - 是否有任何问题? [尝试咨询 Power BI 社区](https://community.powerbi.com/)

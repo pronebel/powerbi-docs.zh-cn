@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 04/18/2020
 ms.author: mihart
 LocalizationGroup: Share your work
-ms.openlocfilehash: 3b8985158092227fde5eb64eddabc9990d0606f6
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: a38b3aa72c37d10ce19344ebe6f3c3f286661d62
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "82120266"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83275515"
 ---
 # <a name="install-and-use-apps-with-dashboards-and-reports-in-power-bi"></a>在 Power BI 中安装和使用包含仪表板和报表的应用
 
@@ -65,7 +65,7 @@ ms.locfileid: "82120266"
 
 ## <a name="get-an-app-from-the-microsoft-appsource-website"></a>从 Microsoft AppSource 网站获取应用 
 
-在此示例中，我们将打开一个 Microsoft 示例应用。 在 AppSource 上，可找到用于运行业务的许多服务的应用。  这些服务包括 Salesforce、Microsoft Dynamics、Google Analytics、GitHub、Zendesk、Marketo 等。 若要了解详细信息，请参阅[用于 Power BI 的服务的应用](../service-connect-to-services.md)。 
+在此示例中，我们将打开一个 Microsoft 示例应用。 在 AppSource 上，可找到用于运行业务的许多服务的应用。  这些服务包括 Salesforce、Microsoft Dynamics、Google Analytics、GitHub、Zendesk、Marketo 等。 若要了解详细信息，请参阅[用于 Power BI 的服务的应用](../connect-data/service-connect-to-services.md)。 
 
 1. 在浏览器中，打开 [https://appsource.microsoft.com](https://appsource.microsoft.com)，然后选择“Power BI 应用”。 
 
@@ -142,3 +142,4 @@ ms.locfileid: "82120266"
 * [返回到应用概述](end-user-apps.md)
 * [查看 Power BI 报表](end-user-report-open.md)
 * [与你共享内容的其他方法](end-user-shared-with-me.md)
+

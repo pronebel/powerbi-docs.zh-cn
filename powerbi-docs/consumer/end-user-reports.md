@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 03/11/2020
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: 089d1df9a63a30d602ac12f1bf18f32787374654
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 28af5cd89e918fad7fc7064479ac95c67ca3cee3
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "79114248"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83277447"
 ---
 # <a name="reports-in-power-bi"></a>Power BI 中的报表
 
@@ -76,7 +76,7 @@ Power BI 是在一个数据集的基础之上生成报表。 报表设计者在�
 
 * 首先查看 [Power BI 服务教程](end-user-basic-concepts.md)，了解在何处查找报表和报表工具。
 * 了解如何[打开报表](end-user-report-open.md)以及[使用者可用的所有交互](end-user-reading-view.md)。
-* 通过查看我们的任一[示例](../sample-tutorial-connect-to-the-samples.md)轻松了解报表的使用。  
+* 通过查看我们的任一[示例](../create-reports/sample-tutorial-connect-to-the-samples.md)轻松了解报表的使用。  
 * 要查看报表正在使用哪个数据集及哪个仪表板显示来自报表的视觉对象（固定）  ，请参阅[在 Power BI 服务中查看相关内容](end-user-related.md)。
 
 > [!TIP]
@@ -86,3 +86,4 @@ Power BI 是在一个数据集的基础之上生成报表。 报表设计者在�
 
 [打开并查看报表](end-user-report-open.md)    
 [Power BI 服务中的仪表板](end-user-dashboards.md)
+

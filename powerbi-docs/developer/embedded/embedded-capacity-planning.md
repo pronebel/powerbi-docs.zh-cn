@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 03/03/2020
-ms.openlocfilehash: f437b1d1fbfc1e905878fbb99875f1fc455e7b14
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 23018dce94efad6c63a22b6ee3a2c0919475adb5
+ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "79493241"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83145129"
 ---
 # <a name="capacity-planning-in-power-bi-embedded-analytics"></a>Power BI 嵌入式分析中的容量计划
 
@@ -51,7 +51,7 @@ ms.locfileid: "79493241"
 
 若要在测试运行后在 Metrics 应用中查看负载测试效果，请按照下面的说明操作。 从测试开始生成负载到 Metrics 应用中显示负载，预计最长会有 15 分钟的延迟。
 
-1. 展开 [Metrics 应用](../../service-admin-premium-monitor-capacity.md)登陆页面的“数据集”  选项卡。
+1. 展开 [Metrics 应用](../../admin/service-admin-premium-monitor-capacity.md)登陆页面的“数据集”  选项卡。
 2. 单击“立即刷新”  ，启动按需刷新。 管理员应该。
 
     ![Power BI Premium Capacity Metrics](media/embedded-capacity-planning/embedded-capacity-planning.png)

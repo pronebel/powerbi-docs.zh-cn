@@ -8,12 +8,12 @@ ms.subservice: powerbi-consumer
 ms.topic: conceptual
 ms.date: 03/11/2020
 ms.author: mihart
-ms.openlocfilehash: 6ffdc73e5e9ef9ccd416378c19da587986c80b55
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 661277337c00f160c010351ba5f827b6e0fc2f8f
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "79114324"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83277608"
 ---
 # <a name="view-a-report-in-the-power-bi-service-for-consumers"></a>在面向使用者的 Power BI 服务中查看报表 
 
@@ -99,14 +99,14 @@ Power BI 设计器可以直接与你共享单个报表，方法是通过电子�
     ![“阅读”视图中打开的报表](./media/end-user-report-open/power-bi-report-tabs.png)
 
 > [!NOTE]
-> 并非所有磁贴都会打开报表。 如果你选择了[使用问答创建](end-user-q-and-a.md)的磁贴，则问答屏幕将打开。 如果选择[使用仪表板“添加磁贴”小组件创建的](../service-dashboard-add-widget.md)磁贴，可能出现几种不同的情况：可能会播放视频、打开网站等  。  
+> 并非所有磁贴都会打开报表。 如果你选择了[使用问答创建](end-user-q-and-a.md)的磁贴，则问答屏幕将打开。 如果选择[使用仪表板“添加磁贴”小组件创建的](../create-reports/service-dashboard-add-widget.md)磁贴，可能出现几种不同的情况：可能会播放视频、打开网站等  。  
 
 
 ##  <a name="still-more-ways-to-open-a-report"></a>其他打开报表的更多方法
 能够熟练地导航 Power BI 服务之后，即可找到最适合自己的工作流。 下面是访问报表的其他几种方法：
 - 从导航窗格中使用[收藏夹](end-user-favorite.md)和[最近](end-user-recent.md)    
 - 使用[相关视图](end-user-related.md)    
-- 在电子邮件中，有人[与你共享](../service-share-reports.md)或你已[设置警报](end-user-alerts.md)时    
+- 在电子邮件中，有人[与你共享](../collaborate-share/service-share-reports.md)或你已[设置警报](end-user-alerts.md)时    
 - 从你的[通知中心](end-user-notification-center.md)    
 - 来自工作区
 - 其他更多方法

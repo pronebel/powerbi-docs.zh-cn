@@ -9,12 +9,12 @@ ms.subservice: powerbi-service
 ms.topic: tutorial
 ms.custom: seodec18
 ms.date: 02/05/2019
-ms.openlocfilehash: 3277bba0a4351f17d671adf9a70aae4adb7ddbac
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: d30dfaa36bc55e8da769d4eaf0f7c2d1b9be0724
+ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "81525367"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83145189"
 ---
 # <a name="tutorial-embed-a-power-bi-content-into-your-application-for-national-clouds"></a>教程：将 Power BI 内容嵌入国家云的应用程序
 
@@ -38,7 +38,7 @@ Power BI 还支持[国家云](https://docs.microsoft.com/azure/active-directory/
 
 ![嵌入的仪表板](media/embed-sample-for-customers/powerbi-embed-dashboard.png)
 
-若要开始本演练，需要一个 Power BI 帐户  。 如果未设置任何帐户，则可以根据政府或国家/地区的类型，选择合适的国家云。 可以注册[美国政府 Power BI 帐户](../../service-govus-signup.md)、[Power BI for Germany 云帐户](https://powerbi.microsoft.com/power-bi-germany/?ru=https%3A%2F%2Fapp.powerbi.de%2F%3FnoSignUpCheck%3D1)或 [Power BI for China 云帐户](https://www.21vbluecloud.com/powerbi/)。
+若要开始本演练，需要一个 Power BI 帐户  。 如果未设置任何帐户，则可以根据政府或国家/地区的类型，选择合适的国家云。 可以注册[美国政府 Power BI 帐户](../../admin/service-govus-signup.md)、[Power BI for Germany 云帐户](https://powerbi.microsoft.com/power-bi-germany/?ru=https%3A%2F%2Fapp.powerbi.de%2F%3FnoSignUpCheck%3D1)或 [Power BI for China 云帐户](https://www.21vbluecloud.com/powerbi/)。
 
 > [!NOTE]
 > 要改为为组织嵌入仪表板？ 请参阅[为组织将仪表板集成到应用中](embed-sample-for-your-organization.md)。

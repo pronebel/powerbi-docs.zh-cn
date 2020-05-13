@@ -8,18 +8,18 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 02/05/2019
-ms.openlocfilehash: 269fe87a61df3470a8d11e4934ff1fca4bde7e86
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 3b51fbfda8f63834a0b2445bd2b2b23734b8e234
+ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "80114649"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83149256"
 ---
 # <a name="multi-geo-support-for-power-bi-embedded"></a>Power BI Embedded 的 Multi-Geo 支持
 
 Power BI Embedded 的 Multi-Geo 支持意味着，对于使用 Power BI Embedded 构建应用程序并将分析嵌入其应用程序的 ISV 和组织，现在可以在全球不同地区部署其数据  。
 
-现在，使用 Power BI Embedded  的客户可以根据 [Power BI Premium 支持使用 Multi-Geo](../../service-admin-premium-Multi-Geo.md) 中的相同功能和限制，通过“Multi-Geo”  选项设置 A 容量  。
+现在，使用 Power BI Embedded  的客户可以根据 [Power BI Premium 支持使用 Multi-Geo](../../admin/service-admin-premium-Multi-Geo.md) 中的相同功能和限制，通过“Multi-Geo”  选项设置 A 容量  。
 
 ## <a name="creating-new-power-bi-embedded-capacity-resource-with-multi-geo"></a>使用 Multi-Geo 创建新的 Power BI Embedded 容量资源
 
@@ -89,6 +89,6 @@ Power BI Embedded 的 Multi-Geo 支持意味着，对于使用 Power BI Embedded
 
 * [创建 Power BI Embedded 容量](azure-pbie-create-capacity.md)
 
-* [Power BI Premium 容量中的 Multi-Geo](../../service-admin-premium-multi-geo.md)
+* [Power BI Premium 容量中的 Multi-Geo](../../admin/service-admin-premium-multi-geo.md)
 
 更多问题？ [尝试咨询 Power BI 社区](https://community.powerbi.com/)

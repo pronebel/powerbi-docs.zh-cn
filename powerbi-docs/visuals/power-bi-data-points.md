@@ -7,16 +7,18 @@ ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 01/10/2020
-ms.author: mihart
+ms.author: rien
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 98af83c726cfd4e5b4e6744cbcfa1f7e5a69f57b
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: a874875c470cd85720570e57b7c6d7cf50dabca1
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "79381436"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83274158"
 ---
 # <a name="apply-data-point-limits-and-strategies-by-visual-type"></a>应用数据点限制和策略（按视觉对象类型）
+
+[!INCLUDE[consumer-appliesto-yyyn](../includes/consumer-appliesto-yyyn.md)]    
 
 在 Power BI 中呈现视觉对象时，可视化效果必须快速而准确。 这就需要为每个视觉对象类型配置的基础算法。 Power BI 中的视觉对象必须足够灵活以处理不同大小的数据集。 某些数据集只有少量数据点，而其他数据集具有数千万亿字节的数据点。 本文介绍了 Power BI 用于呈现可视化效果的策略。
 
@@ -57,7 +59,7 @@ ms.locfileid: "79381436"
 ## <a name="strategies-and-data-point-limits-by-visual-type"></a>策略和数据点限制（按视觉对象类型）
 
 ### <a name="area-chart"></a>分区图
-请参阅[行采样的工作原理](../desktop-high-density-sampling.md#how-the-new-line-sampling-algorithm-works)
+请参阅[行采样的工作原理](../create-reports/desktop-high-density-sampling.md#how-the-new-line-sampling-algorithm-works)
 
 ### <a name="barcolumn-chart"></a>条形图/柱形图
 - 处于分类模式时
@@ -97,10 +99,10 @@ ms.locfileid: "79381436"
 - 后 3,500 个
 
 ### <a name="line-chart"></a>折线图
-请参阅[行采样的工作原理](../desktop-high-density-sampling.md#how-the-new-line-sampling-algorithm-works)
+请参阅[行采样的工作原理](../create-reports/desktop-high-density-sampling.md#how-the-new-line-sampling-algorithm-works)
 
 ### <a name="line-chart-high-density"></a>折线图，高密度
-请参阅[高密度采样](../desktop-high-density-sampling.md)
+请参阅[高密度采样](../create-reports/desktop-high-density-sampling.md)
 
 ### <a name="map"></a>地图 
 - 最大点数：3,500
@@ -109,9 +111,9 @@ ms.locfileid: "79381436"
 - 位置：前 3,500 个
 - 位置、大小：前 3,500 个
 - 位置、纬度和经度聚合（+/- 大小）：前 3,500 个
-- 纬度、经度：请参阅[高密度散点图](desktop-high-density-scatter-charts.md)
+- 纬度、经度：请参阅[高密度散点图](../create-reports/desktop-high-density-scatter-charts.md)
 - 纬度、经度、大小：前 3,500 个
-- 图例、纬度、经度：请参阅[高密度散点图](desktop-high-density-scatter-charts.md)
+- 图例、纬度、经度：请参阅[高密度散点图](../create-reports/desktop-high-density-scatter-charts.md)
 - 图例、纬度、经度、大小：前 233 个图例、前 15 个纬度和经度（可使用统计信息或动态限制）
 - 位置、图例、纬度和经度聚合（+/- 大小）：前 233 个位置、前 15 个图例（可使用统计信息或动态限制）
 

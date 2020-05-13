@@ -8,12 +8,12 @@ ms.topic: conceptual
 ms.date: 04/05/2020
 ms.author: painbar
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 90d5e48ca200a6817338ae6c44595905cc76bfed
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 97e0a4f6e522997e6f132d1c3dbc493188ba66ba
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "80752662"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83275469"
 ---
 # <a name="connect-to-the-covid-19-us-tracking-report"></a>连接到 COVID-19 美国跟踪报表
 本文介绍如何安装 COVID-19 跟踪报告的模板应用，以及如何连接到数据源。
@@ -54,14 +54,14 @@ ms.locfileid: "80752662"
 
 ## <a name="schedule-report-refresh"></a>计划报表刷新
 
-数据刷新完成后，你将位于与应用关联的工作区中。 [设置刷新计划](../refresh-scheduled-refresh.md)以保持报表数据为最新状态。
+数据刷新完成后，你将位于与应用关联的工作区中。 [设置刷新计划](../connect-data/refresh-scheduled-refresh.md)以保持报表数据为最新状态。
 
 ## <a name="customize-and-share"></a>自定义和共享
 
-有关详细信息，请参阅[自定义和共享应用](../service-template-apps-install-distribute.md#customize-and-share-the-app)。 在发布或分发应用之前，请务必查看[报告免责声明](../create-reports/sample-covid-19-us.md#disclaimers)。
+有关详细信息，请参阅[自定义和共享应用](../connect-data/service-template-apps-install-distribute.md#customize-and-share-the-app)。 在发布或分发应用之前，请务必查看[报告免责声明](../create-reports/sample-covid-19-us.md#disclaimers)。
 
 ## <a name="next-steps"></a>后续步骤
 * [适用于美国各州和地方政府的 COVID-19 跟踪示例](../create-reports/sample-covid-19-us.md)
 * 是否有任何问题? [尝试咨询 Power BI 社区](https://community.powerbi.com/)
-* [什么是 Power BI 模板应用？](../service-template-apps-overview.md)
-* [在组织中安装和分发模板应用](../service-template-apps-install-distribute.md)
+* [什么是 Power BI 模板应用？](../connect-data/service-template-apps-overview.md)
+* [在组织中安装和分发模板应用](../connect-data/service-template-apps-install-distribute.md)

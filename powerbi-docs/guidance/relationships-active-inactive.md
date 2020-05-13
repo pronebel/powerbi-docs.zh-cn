@@ -8,12 +8,12 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 03/02/2020
 ms.author: v-pemyer
-ms.openlocfilehash: a8c8c50369911e76376ccbda3a95743813fde6bb
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 3e3e44647ca7c85c09a3e7f4b3c309947559f5d3
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "78263659"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83273215"
 ---
 # <a name="active-vs-inactive-relationship-guidance"></a>活动与非活动关系指南
 
@@ -114,7 +114,7 @@ CALCULATE(
 
 报表页按 2019 年第 4 季度进行筛选。 表视觉对象按月份进行分组，并显示各种销售统计信息。 “订单数”  和“已发货订单数”  度量值的结果不同。 它们都使用相同的摘要逻辑（统计 Sales  表中的行数），但使用的 Date  表筛选器传播却不同。
 
-请注意，“季度”切片器包含 BLANK 项。 此切片器项作为[表扩大](../desktop-relationships-understand.md#strong-relationships)的结果显示。 虽然 Sales  表的每行都有订购日期，但某些行的发货日期显示为 BLANK（即这些订单尚未发货）。 表扩大也考虑非活动关系，因此显示 BLANK 可能是因为关系的“多”端包含 BLANK，也可能是因为出现数据完整性问题。
+请注意，“季度”切片器包含 BLANK 项。 此切片器项作为[表扩大](../transform-model/desktop-relationships-understand.md#strong-relationships)的结果显示。 虽然 Sales  表的每行都有订购日期，但某些行的发货日期显示为 BLANK（即这些订单尚未发货）。 表扩大也考虑非活动关系，因此显示 BLANK 可能是因为关系的“多”端包含 BLANK，也可能是因为出现数据完整性问题。
 
 ## <a name="recommendations"></a>建议
 
@@ -129,7 +129,7 @@ CALCULATE(
 
 有关本文的详细信息，请参阅以下资源：
 
-- [Power BI Desktop 中的模型关系](../desktop-relationships-understand.md)
+- [Power BI Desktop 中的模型关系](../transform-model/desktop-relationships-understand.md)
 - [了解星型架构及其对 Power BI 的重要性](star-schema.md)
 - [关系故障排除指南](relationships-troubleshoot.md)
 - 是否有任何问题? [尝试咨询 Power BI 社区](https://community.powerbi.com/)

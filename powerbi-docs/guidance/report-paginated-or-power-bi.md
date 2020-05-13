@@ -8,19 +8,19 @@ ms.subservice: report-builder
 ms.topic: conceptual
 ms.date: 01/04/2020
 ms.author: v-pemyer
-ms.openlocfilehash: 049b6ac14c6d35d68815eac32520a4eaa654ad42
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: f1608fd2511e38758b5bf05041d625cf524fff34
+ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "78920742"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83127817"
 ---
 # <a name="when-to-use-paginated-reports-in-power-bi"></a>何时使用 Power BI 中的分页报表
 
 本文适用于设计 Power BI 报表的报表作者。 它提供了一些建议，帮助你选择何时开发 [Power BI 分页报表](../paginated-reports/paginated-reports-report-builder-power-bi.md)。
 
 > [!NOTE]
-> 发布 Power BI 分页报表需要 Power BI Premium 订阅。 仅当报表位于[启用了分页报表工作负荷](../service-admin-premium-workloads.md#paginated-reports)的专用容量的工作区中时，才会呈现这些报表。
+> 发布 Power BI 分页报表需要 Power BI Premium 订阅。 仅当报表位于[启用了分页报表工作负荷](../admin/service-admin-premium-workloads.md#paginated-reports)的专用容量的工作区中时，才会呈现这些报表。
 
 Power BI 分页报表已针对“打印”或“PDF 生成”进行了优化   。 它们还使你能够生成高度格式化、像素完美的布局。 因此，分页报表是销售发票等操作报表的理想选择。
 
@@ -36,7 +36,7 @@ Power BI 分页报表已针对“打印”或“PDF 生成”进行了优化   �
 
 如果已具有 SQL Server Reporting Services (SSRS) [报表定义语言 (RDL)](/sql/reporting-services/reports/report-definition-language-ssrs) 报表，可以选择将它们重新开发为 [Power BI 报表](../consumer/end-user-reports.md)，或者将它们作为分页报表迁移到 Power BI。 有关详细信息，请参阅[将 SQL Server Reporting Services 报表迁移到 Power BI](migrate-ssrs-reports-to-power-bi.md)。
 
-在发布到 Power BI 工作区后，分页报表将与 Power BI 报表一起提供。 然后，可以使用 [Power BI 应用](../service-create-distribute-apps.md)轻松地分发它们。
+在发布到 Power BI 工作区后，分页报表将与 Power BI 报表一起提供。 然后，可以使用 [Power BI 应用](../collaborate-share/service-create-distribute-apps.md)轻松地分发它们。
 
 可以考虑重新开发 SSRS 报表，而不是迁移它们。 对于旨在提供分析体验的报表，尤其如此。 在这些情况下，Power BI 报表可能会提供更好的报表用户体验。
 

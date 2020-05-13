@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 05/05/2020
 ms.author: rien
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 189cc784577df277b0b0517253699ae06842b30c
-ms.sourcegitcommit: a199dda2ab50184ce25f7c9a01e7ada382a88d2c
+ms.openlocfilehash: afc18fa33ec1612900cecc0a34eb50851804fb62
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/06/2020
-ms.locfileid: "82866877"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83276688"
 ---
 # <a name="treemaps-in-power-bi"></a>Power BI 中的树状图
 
@@ -120,10 +120,11 @@ ms.locfileid: "82866877"
 1. 在按连锁店的上年度销售额  饼图中，选择“Fashions Direct”  切片，交叉筛选树状图。
    ![交叉筛选功能的 GIF 演示。](media/power-bi-visualization-treemaps/treemapnoowl.gif)
 
-1. 若要管理图表如何相互交叉突出显示和交叉筛选，请参阅[更改 Power BI 报表中视觉对象的交互方式](../service-reports-visual-interactions.md)。
+1. 若要管理图表如何相互交叉突出显示和交叉筛选，请参阅[更改 Power BI 报表中视觉对象的交互方式](../create-reports/service-reports-visual-interactions.md)。
 
 ## <a name="next-steps"></a>后续步骤
 
 * [Power BI 中的瀑布图](power-bi-visualization-waterfall-charts.md)
 
 * [Power BI 中的可视化效果类型](power-bi-visualization-types-for-reports-and-q-and-a.md)
+

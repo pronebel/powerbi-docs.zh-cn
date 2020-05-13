@@ -8,12 +8,12 @@ ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 12/09/2019
 ms.author: painbar
-ms.openlocfilehash: c5e1e0b90f24a81940edab46633f49df41d25fdc
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 711c920f5b0b7feeeeb2297e0f93714e1e89f1a2
+ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "75219821"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83148183"
 ---
 # <a name="view-power-bi-content-shared-with-you-from-an-external-organization"></a>查看外部组织与自己共享的 Power BI 内容
 
@@ -28,7 +28,7 @@ Power BI 与 Azure Active Directory 企业到企业 (Azure AD B2B) 集成后，�
 
 ## <a name="accessing-shared-content"></a>访问共享内容
 
-**首先，需要有一个属于外部组织的人员向你共享某个项目。** 若有人[向你共享项目](../../service-share-dashboards.md)，无论该人员属于与你相同的组织还是某个外部组织，你都将收到一封电子邮件，其中包含指向该共享项目的链接。 在移动设备上打开该链接，开启 Power BI 移动应用。 如果此应用识别出该项目是从外部组织共享的，则该应用将使用你的身份重新连接到对应的外部组织。 然后，应用会加载由该组织与你共享的所有项目。
+**首先，需要有一个属于外部组织的人员向你共享某个项目。** 若有人[向你共享项目](../../collaborate-share/service-share-dashboards.md)，无论该人员属于与你相同的组织还是某个外部组织，你都将收到一封电子邮件，其中包含指向该共享项目的链接。 在移动设备上打开该链接，开启 Power BI 移动应用。 如果此应用识别出该项目是从外部组织共享的，则该应用将使用你的身份重新连接到对应的外部组织。 然后，应用会加载由该组织与你共享的所有项目。
 
 ![Power BI 打开从电子邮件共享的项目 ](./media/mobile-apps-b2b/mobile-b2b-open-item-email-new.png)
 

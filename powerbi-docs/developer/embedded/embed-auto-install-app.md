@@ -8,16 +8,16 @@ ms.topic: conceptual
 ms.service: powerbi
 ms.custom: ''
 ms.date: 04/16/2019
-ms.openlocfilehash: 0adfb72c408f96749afc8a3d7a6884e10e52fadb
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 10939c23a5c25a2ff4233f6b74f9efd99d8e10fd
+ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "80114672"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83148071"
 ---
 # <a name="auto-install-power-bi-apps-when-embedding-for-your-organization"></a>在为组织嵌入内容时自动安装 Power BI 应用
 
-要嵌入应用中的内容，执行嵌入操作的用户必须有权[访问应用](../../service-create-distribute-apps.md)。 如果为用户安装了应用，嵌入工作会顺利进行。 有关详细信息，请参阅[从应用嵌入报表或仪表板](embed-from-apps.md)。 可以在 PowerBI.com 中定义为所有应用均可[自动安装](https://powerbi.microsoft.com/blog/automatically-install-apps/)。 但此操作是在租户级别完成，并会应用到所有应用。
+要嵌入应用中的内容，执行嵌入操作的用户必须有权[访问应用](../../collaborate-share/service-create-distribute-apps.md)。 如果为用户安装了应用，嵌入工作会顺利进行。 有关详细信息，请参阅[从应用嵌入报表或仪表板](embed-from-apps.md)。 可以在 PowerBI.com 中定义为所有应用均可[自动安装](https://powerbi.microsoft.com/blog/automatically-install-apps/)。 但此操作是在租户级别完成，并会应用到所有应用。
 
 ## <a name="auto-install-app-on-embedding"></a>嵌入内容时自动安装应用
 

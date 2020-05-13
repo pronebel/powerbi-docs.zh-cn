@@ -9,12 +9,12 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 01/29/2020
 ms.author: v-pemyer
-ms.openlocfilehash: 9a1d0abc065380a30b1868710bea31d0bf1fa89f
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 110aadce6bafd61b3c8b60a7370cedecf0d27ae0
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "82066141"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83278091"
 ---
 # <a name="tips-to-manage-axes-in-power-bi-reports"></a>管理 Power BI 报表中轴的提示与技巧
 
@@ -41,7 +41,8 @@ ms.locfileid: "82066141"
 
 有关本文的详细信息，请参阅以下资源：
 
-- [创建出色报表的提示与技巧](../desktop-tips-and-tricks-for-creating-reports.md)
+- [创建出色报表的提示与技巧](../create-reports/desktop-tips-and-tricks-for-creating-reports.md)
 - biDezine 视频：[在 Power BI 中有效管理轴的 8 大提示与技巧](https://www.youtube.com/watch?v=3t9W7Xvpzo0)
 - 是否有任何问题? [尝试咨询 Power BI 社区](https://community.powerbi.com/)
 - 建议？ [提出改进 Power BI 的想法](https://ideas.powerbi.com)
+

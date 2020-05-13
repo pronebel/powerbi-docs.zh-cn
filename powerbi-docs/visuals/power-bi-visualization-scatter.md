@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 11/21/2019
 ms.author: rien
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 33c07df0cd8c0e00489f344e721164ed9252fcaf
-ms.sourcegitcommit: a199dda2ab50184ce25f7c9a01e7ada382a88d2c
+ms.openlocfilehash: 9a9248f68f85f6dec2a70842c0931d7dd448d690
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/06/2020
-ms.locfileid: "82866900"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83276826"
 ---
 # <a name="scatter-charts-bubble-charts-and-dot-plot-charts-in-power-bi"></a>Power BI 中的散点图、气泡图和点图
 
@@ -177,13 +177,13 @@ ms.locfileid: "82866900"
 
 ![将“TempTime”添加到“详细信息”井的散点图的屏幕截图。](media/power-bi-visualization-scatter/pbi-scatter-tshoot2.png)
 
-要创建新字段，请[使用 Power BI Desktop 查询编辑器将索引列添加到数据集](../desktop-add-custom-column.md)。 然后，将此列添加到可视化效果的“详细信息”  井。
+要创建新字段，请[使用 Power BI Desktop 查询编辑器将索引列添加到数据集](../create-reports/desktop-add-custom-column.md)。 然后，将此列添加到可视化效果的“详细信息”  井。
 
 ## <a name="next-steps"></a>后续步骤
 
 你可能还会对以下文章感兴趣：
 
-* [Power BI 散点图中的高密度采样](desktop-high-density-scatter-charts.md)
+* [Power BI 散点图中的高密度采样](../create-reports/desktop-high-density-scatter-charts.md)
 * [Power BI 中的可视化效果类型](power-bi-visualization-types-for-reports-and-q-and-a.md)
 * [关于在 Power BI 报表中排序和分配数据绘图的提示](../guidance/report-tips-sort-distribute-data-plots.md)
 

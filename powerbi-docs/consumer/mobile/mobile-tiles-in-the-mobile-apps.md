@@ -8,12 +8,12 @@ ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 03/11/2020
 ms.author: painbar
-ms.openlocfilehash: c9957b1f190f3e2cfc2aa5f082eb11df4d647b5f
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: e5f4fc253fbb7427de8adb21305f66769abcd428
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "79435895"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83273077"
 ---
 # <a name="explore-tiles-in-the-power-bi-mobile-apps"></a>在 Power BI 移动应用中浏览磁贴
 适用于：
@@ -52,7 +52,7 @@ ms.locfileid: "79435895"
    
     ![](media/mobile-tiles-in-the-mobile-apps/power-bi-iphone-tile-link.png)
    
-    链接可以转到其他 Power BI 仪表板或外部 URL。 你可以[点击链接](../../service-dashboard-edit-tile.md#hyperlink)以在 Power BI 应用中打开它。 如果是外部站点，Power BI 会要求你允许访问此站点。
+    链接可以转到其他 Power BI 仪表板或外部 URL。 你可以[点击链接](../../create-reports/service-dashboard-edit-tile.md#hyperlink)以在 Power BI 应用中打开它。 如果是外部站点，Power BI 会要求你允许访问此站点。
    
     ![](media/mobile-tiles-in-the-mobile-apps/pbi_andr_openlinkmessage.png)
    
@@ -77,7 +77,7 @@ ms.locfileid: "79435895"
    
     ![](media/mobile-tiles-in-the-mobile-apps/power-bi-android-tile-link.png)
    
-    链接可以转到其他 Power BI 仪表板或外部 URL。 你可以[点击链接](../../service-dashboard-edit-tile.md#hyperlink)以在 Power BI 应用中打开它。 如果是外部站点，Power BI 会要求你允许访问此站点。
+    链接可以转到其他 Power BI 仪表板或外部 URL。 你可以[点击链接](../../create-reports/service-dashboard-edit-tile.md#hyperlink)以在 Power BI 应用中打开它。 如果是外部站点，Power BI 会要求你允许访问此站点。
    
     ![](media/mobile-tiles-in-the-mobile-apps/pbi_andr_openlinkmessage.png)
    
@@ -98,7 +98,7 @@ ms.locfileid: "79435895"
    
     点击“打开报表”![](././media/mobile-tiles-in-the-mobile-apps/power-bi-ipad-open-report-icon.png) 以[查看基础报表](mobile-reports-in-the-mobile-apps.md)  。
    
-    [打开链接](../../service-dashboard-edit-tile.md#hyperlink)（如果有链接）。 链接可以转到 Power BI 仪表板或外部 URL。
+    [打开链接](../../create-reports/service-dashboard-edit-tile.md#hyperlink)（如果有链接）。 链接可以转到 Power BI 仪表板或外部 URL。
 3. 点击“展开磁贴”  ![](media/mobile-tiles-in-the-mobile-apps/power-bi-windows-10-focus-mode-icon.png)。 将会在焦点模式下打开磁贴，在其中可以很方便地查看和浏览磁贴数据。 在此模式下，你可以：
    
    旋转饼图显示饼图顶部扇区的值。  
@@ -130,4 +130,3 @@ ms.locfileid: "79435895"
 ## <a name="next-steps"></a>后续步骤
 * [什么是 Power BI？](../../fundamentals/power-bi-overview.md)
 * 是否有任何问题? [尝试咨询 Power BI 社区](https://community.powerbi.com/)
-

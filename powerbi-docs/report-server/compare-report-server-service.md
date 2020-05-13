@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.custom: mvc
 ms.date: 03/04/2020
-ms.openlocfilehash: 7762ace1da913713567b79a9650b3f07aa71146d
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 18ca1b58d37fedb2c8246b91dc765168002e163e
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "79381045"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83275929"
 ---
 # <a name="comparing-power-bi-report-server-and-the-power-bi-service"></a>比较 Power BI 报表服务器和 Power BI 服务
 
@@ -31,26 +31,26 @@ Power BI 报表服务器和 Power BI 服务有许多相似之处和一些关键�
 | 发行周期 | 一年三次（1 月、5 月、9 月） | 每个月一次 | Power BI 服务中首先提供最新功能和修补程序。 Power BI Desktop 各版本中针对 Power BI 服务的功能汇总也针对 Power BI 报表服务器；其他大多数功能仅针对 Power BI 服务。 |
 | 在 Power BI Desktop 中创建 Power BI 报表 | 是 | 是 |  |
 | 在浏览器中创建 Power BI 报表 | 否 | 是 |  |
-| 托管并连接到 Power BI 共享数据集 | 否 | 是 | [跨工作区使用数据集简介](../service-datasets-across-workspaces.md) |
+| 托管并连接到 Power BI 共享数据集 | 否 | 是 | [跨工作区使用数据集简介](../connect-data/service-datasets-across-workspaces.md) |
 | 是否需要网关 | 否 | 对于本地数据源，则为“是” |  |
-| 实时流式处理 | 否 | 是 | [Power BI 中的实时流式处理](../service-real-time-streaming.md) |
+| 实时流式处理 | 否 | 是 | [Power BI 中的实时流式处理](../connect-data/service-real-time-streaming.md) |
 | 仪表板 | 否 | 是 | [Power BI 服务中的仪表板](../consumer/end-user-dashboards.md) |
-| 使用应用分发报表组 | 否 | 是 | [创建和发布包含仪表板和报表的应用](../service-create-distribute-apps.md) |
-| 内容包 | 否 | 是 | [组织内容包：简介](../service-organizational-content-pack-introduction.md) |
-| 连接到 Salesforce 等服务 | 是 | 是 | 使用 Power BI 服务中的内容包[连接到所使用的服务](../service-connect-to-services.md)。 在 Power BI 报表服务器中，使用经过认证的连接器连接到服务。 有关详细信息，请参阅 [Power BI 报表服务器中的 Power BI 报表数据源](data-sources.md)。 |
-| Q&A | 否 | 是 | [Power BI 服务和 Power BI Desktop 中的问答](../power-bi-tutorial-q-and-a.md) 
+| 使用应用分发报表组 | 否 | 是 | [创建和发布包含仪表板和报表的应用](../collaborate-share/service-create-distribute-apps.md) |
+| 内容包 | 否 | 是 | [组织内容包：简介](../collaborate-share/service-organizational-content-pack-introduction.md) |
+| 连接到 Salesforce 等服务 | 是 | 是 | 使用 Power BI 服务中的内容包[连接到所使用的服务](../connect-data/service-connect-to-services.md)。 在 Power BI 报表服务器中，使用经过认证的连接器连接到服务。 有关详细信息，请参阅 [Power BI 报表服务器中的 Power BI 报表数据源](data-sources.md)。 |
+| Q&A | 否 | 是 | [Power BI 服务和 Power BI Desktop 中的问答](../create-reports/power-bi-tutorial-q-and-a.md) 
 | 快速见解 | 否 | 是 | [通过 Power BI 自动生成数据见解](../consumer/end-user-insights.md) |
-| Analyze in Excel | 否 | 是 | [在 Excel 中分析](../service-analyze-in-excel.md) 
+| Analyze in Excel | 否 | 是 | [在 Excel 中分析](../collaborate-share/service-analyze-in-excel.md) 
 | 分页报表 | 是 | 是 | [Power BI 服务中提供的分页报表](../paginated-reports/paginated-reports-report-builder-power-bi.md)在高级容量中处于预览状态 |
 | Power BI 移动应用 | 是 | 是 | [Power BI 移动应用概述](../consumer/mobile/mobile-apps-for-mobile-devices.md) |
 | ARC GIS 地图 | 否 | 是 | [Power BI 服务和 Power BI Desktop 中通过 Esri 实现的 ArcGIS 地图](../visuals/power-bi-visualization-arcgis.md) |
-| Power BI 报表的电子邮件订阅 | 否 | 是 | 在 Power BI 服务中[为自己或他人订阅](../service-report-subscribe.md)报表或仪表板 |
+| Power BI 报表的电子邮件订阅 | 否 | 是 | 在 Power BI 服务中[为自己或他人订阅](../collaborate-share/service-report-subscribe.md)报表或仪表板 |
 | 分页报表的电子邮件订阅 | 是 | 是 | [在 Power BI 服务中为自己和他人订阅分页报表](../consumer/paginated-reports-subscriptions.md)<br><br>[Reporting Services 中的电子邮件传递](https://docs.microsoft.com/sql/reporting-services/working-with-subscriptions-web-portal)  |
-| 数据警报 | 否 | 是 | Power BI 服务中的[数据警报](../service-set-data-alerts.md)
-| 行级别安全性 (RLS) | 是 | 是 | 在 DirectQuery（数据源）和导入模式下均可用 <br><br>[Power BI 服务](../service-admin-rls.md)中的行级别安全性 <br><br>[Power BI 报表服务器](row-level-security-report-server.md)中的行级别安全性 |
+| 数据警报 | 否 | 是 | Power BI 服务中的[数据警报](../create-reports/service-set-data-alerts.md)
+| 行级别安全性 (RLS) | 是 | 是 | 在 DirectQuery（数据源）和导入模式下均可用 <br><br>[Power BI 服务](../admin/service-admin-rls.md)中的行级别安全性 <br><br>[Power BI 报表服务器](row-level-security-report-server.md)中的行级别安全性 |
 | 全屏模式 | 否 | 是 | Power BI 服务中的[全屏模式](../consumer/end-user-focus.md) |
-| 高级 Office 365 协作 | 否 | 是 | 使用 Office 365 [在工作区中协作](../service-collaborate-power-bi-workspace.md) |
-| R 视觉对象 | 否 | 是 | 在 Power BI Desktop 中[创建 R 视觉对象](../desktop-r-visuals.md)并将其发布到 Power BI 服务。 无法将带有 R 视觉对象的 Power BI 报表保存到 Power BI 报表服务器。  |
+| 高级 Office 365 协作 | 否 | 是 | 使用 Office 365 [在工作区中协作](../collaborate-share/service-collaborate-power-bi-workspace.md) |
+| R 视觉对象 | 否 | 是 | 在 Power BI Desktop 中[创建 R 视觉对象](../create-reports/desktop-r-visuals.md)并将其发布到 Power BI 服务。 无法将带有 R 视觉对象的 Power BI 报表保存到 Power BI 报表服务器。  |
 | 预览版功能 | 否 | 是 | [选择使用 Power BI 服务预览](../consumer/end-user-preview-features.md)功能 |
 | Power BI 视觉对象 | 是 | 是 | [Power BI 视觉对象](../developer/visuals/power-bi-custom-visuals.md) |
 | 复合模型 | 否 | 是 |
@@ -59,3 +59,9 @@ Power BI 报表服务器和 Power BI 服务有许多相似之处和一些关键�
 ## <a name="next-steps"></a>后续步骤
 
 [安装 Power BI 报表服务器](install-report-server.md)
+
+
+
+
+
+

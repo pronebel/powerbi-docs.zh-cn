@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 06/10/2019
-ms.openlocfilehash: 19abcd84809f0bf8d3560fd8734d30fcf31b9ecb
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 71f204058bfa94c61df8299d2a2c7c9063caad5d
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "80550974"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83277010"
 ---
 # <a name="row-level-security-with-power-bi-embedded"></a>Power BI Embedded 的行级安全性
 
@@ -21,7 +21,7 @@ ms.locfileid: "80550974"
 
 如果要为非 Power BI 用户（应用拥有数据）嵌入（通常是 ISV 方案），那本文很适合你！ 请配置嵌入令牌，以将用户和角色考虑在内。
 
-若要嵌入给组织内的 Power BI 用户（用户拥有数据），RLS 的工作方式与其直接在 Power BI 服务中的工作方式相同。 你无需在应用程序中执行其他任何操作。 有关详细信息，请参阅 [Power BI 行级别安全性 (RLS)](../../service-admin-rls.md)。
+若要嵌入给组织内的 Power BI 用户（用户拥有数据），RLS 的工作方式与其直接在 Power BI 服务中的工作方式相同。 你无需在应用程序中执行其他任何操作。 有关详细信息，请参阅 [Power BI 行级别安全性 (RLS)](../../admin/service-admin-rls.md)。
 
 ![涉及行级别安全性的项。](media/embedded-row-level-security/powerbi-embedded-rls-components.png)
 
@@ -29,7 +29,7 @@ ms.locfileid: "80550974"
 
 用户  – 查看项目（仪表板、磁贴、报表或数据集）的最终用户。 在 Power BI Embedded 中，用户由嵌入令牌中的 username 属性进行标识。
 
-**角色** – 用户属于角色。 角色是规则的容器，并可以命名为“销售经理”  或“销售代表”  之类的名称。可以在 Power BI Desktop 中创建角色。 有关详细信息，请参阅 [Power BI Desktop 行级别安全性 (RLS)](../../desktop-rls.md)。
+**角色** – 用户属于角色。 角色是规则的容器，并可以命名为“销售经理”  或“销售代表”  之类的名称。可以在 Power BI Desktop 中创建角色。 有关详细信息，请参阅 [Power BI Desktop 行级别安全性 (RLS)](../../create-reports/desktop-rls.md)。
 
 **规则** – 角色具有规则，并且这些规则要应用于数据的实际筛选器。 这些规则可以像“国家/地区 = 美国”一样简单，也可以是更动态的规则。
 在本文的剩余部分中，举例介绍了如何创作 RLS，再在已嵌入应用程序中使用此示例。 我们的示例使用[零售分析示例](https://go.microsoft.com/fwlink/?LinkID=780547) PBIX 文件。
@@ -135,7 +135,7 @@ var tokenResponse = await client.Reports.GenerateTokenInGroupAsync("groupId", "r
 
 ### <a name="on-premises-data-gateway-configuration"></a>本地数据网关配置
 
-在使用 Analysis Services 实时连接时，将使用[本地数据网关](../../service-gateway-onprem.md)。 当生成嵌入令牌时，如果列出标识，则主帐户需要列为网关的管理员。 如果主帐户未列出，行级别安全性不会应用于数据属性。 网关的非管理员可以提供角色，但必须为有效标识指定其自己的用户名。
+在使用 Analysis Services 实时连接时，将使用[本地数据网关](../../connect-data/service-gateway-onprem.md)。 当生成嵌入令牌时，如果列出标识，则主帐户需要列为网关的管理员。 如果主帐户未列出，行级别安全性不会应用于数据属性。 网关的非管理员可以提供角色，但必须为有效标识指定其自己的用户名。
 
 ### <a name="use-of-roles"></a>使用角色
 
@@ -235,9 +235,9 @@ public EffectiveIdentity(string username, IList<string> datasets, IList<string> 
 
 决定筛选报表数据时，可使用行级别安全性 (RLS)  或 JavaScript 筛选器  。
 
-[行级别安全性](../../service-admin-rls.md)是在数据模型一级筛选数据的功能。 后端数据源可控制 RLS 设置。 根据数据模型，嵌入令牌生成流程会为会话设置用户名和角色。 客户端代码无法替代、删除或控制它，正因为此，它被视为安全。 建议将 RLS 用于数据的安全筛选。 若要使用 RLS 筛选数据，可采用下列方法之一。
+[行级别安全性](../../admin/service-admin-rls.md)是在数据模型一级筛选数据的功能。 后端数据源可控制 RLS 设置。 根据数据模型，嵌入令牌生成流程会为会话设置用户名和角色。 客户端代码无法替代、删除或控制它，正因为此，它被视为安全。 建议将 RLS 用于数据的安全筛选。 若要使用 RLS 筛选数据，可采用下列方法之一。
 
-* [在 Power BI 报表中配置角色](../../desktop-rls.md)。
+* [在 Power BI 报表中配置角色](../../create-reports/desktop-rls.md)。
 * 在数据源一级配置角色（仅限 Analysis Services 实时连接）。
 * 使用 `EffectiveIdentity` 以编程方式生成[嵌入令牌](https://docs.microsoft.com/rest/api/power-bi/embedtoken/datasets_generatetokeningroup)。 使用嵌入令牌时，实际筛选器为特定会话传递嵌入令牌。
 

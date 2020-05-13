@@ -7,12 +7,12 @@ ms.subservice: report-builder
 ms.topic: conceptual
 author: maggiesMSFT
 ms.author: maggies
-ms.openlocfilehash: 717627e171df6a0843453a72b54ec591a7fd5a19
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 6f77b2c4ffa7b42cf99a75b4ae88ae0aeb631499
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "78923186"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83276619"
 ---
 # <a name="create-a-paginated-report-based-on-a-power-bi-shared-dataset"></a>基于 Power BI 共享数据集创建分页报表
 
@@ -20,14 +20,14 @@ ms.locfileid: "78923186"
 
 ![从 Power BI Desktop 到报表生成器分页报表](media/report-builder-shared-datasets/power-bi-desktop-report-builder-arrow-26-pgs.png)
 
-此数据集无需位于高级容量的工作区中，你也无需是该工作区的成员。 你只需要具备此数据集的[生成权限](../service-datasets-build-permissions.md)。 要发布分页报表，则需要 Power BI Pro 许可证。 此外，还至少需要高级容量中工作区的参与者角色。
+此数据集无需位于高级容量的工作区中，你也无需是该工作区的成员。 你只需要具备此数据集的[生成权限](../connect-data/service-datasets-build-permissions.md)。 要发布分页报表，则需要 Power BI Pro 许可证。 此外，还至少需要高级容量中工作区的参与者角色。
 
 ## <a name="what-you-need"></a>所需内容
 
 以下是在 Power BI 报表生成器中使用共享数据集所需和不需要的事项。
 
 - Power BI 报表生成器。 [下载并安装 Power BI 报表生成器](https://go.microsoft.com/fwlink/?linkid=2086513)。
-- 要访问 Power BI 数据集，需要具有该数据集的生成权限。 请参阅[生成权限](../service-datasets-build-permissions.md)。
+- 要访问 Power BI 数据集，需要具有该数据集的生成权限。 请参阅[生成权限](../connect-data/service-datasets-build-permissions.md)。
 - 在报表生成器中创建分页报表无需 Power BI Pro 许可证。 
 - 要发布分页报表，则需要 Power BI Pro 许可证。 此外，还至少需要高级容量中工作区的参与者角色。 
 - 可选：如果需要按照本文内容进行操作，请下载 Power BI Desktop [零售分析示例 .pbix](https://download.microsoft.com/download/9/6/D/96DDC2FF-2568-491D-AAFA-AFDD6F763AE3/Retail%20Analysis%20Sample%20PBIX.pbix) 文件，在 Power BI Desktop 中将其打开并添加一个包含多列的表。 在“格式”窗格中，关闭“总计”   。 然后将其发布到 Power BI 服务中的工作区。
@@ -74,7 +74,7 @@ ms.locfileid: "78923186"
 1. 在 Power BI Desktop 中打开 Power BI 报表 (.pbix)。
 1. 请确保报表中具有一张包含分页报表中所有数据的表。 表需要满足以下两个要求：
     - 它必须是一个平面表，而不是矩阵或其他视觉对象。 如果它不是表，请立即将其转换为表，完成下面的性能分析器步骤，然后将其转换回所需的视觉对象。
-    - 对于数字字段，需要使用预定义的度量值  。 它们旁边有一个计算器符号。 阅读有关[创建度量值](../desktop-measures.md)的信息。 
+    - 对于数字字段，需要使用预定义的度量值  。 它们旁边有一个计算器符号。 阅读有关[创建度量值](../transform-model/desktop-measures.md)的信息。 
 
         ![“度量值”图标](media/report-builder-shared-datasets/power-bi-measure-icon.png)
 

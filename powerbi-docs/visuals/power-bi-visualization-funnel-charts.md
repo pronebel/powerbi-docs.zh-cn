@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 05/05/2020
 ms.author: rien
 LocalizationGroup: Visualizations
-ms.openlocfilehash: b60a4c14873427bd06d2b6abce48c9d3d3008859
-ms.sourcegitcommit: a199dda2ab50184ce25f7c9a01e7ada382a88d2c
+ms.openlocfilehash: 6eee86423fdfc1e1a9338aa4fecfd5eae0c0d111
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/06/2020
-ms.locfileid: "82865244"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83272847"
 ---
 # <a name="create-and-use-funnel-charts"></a>创建和使用漏斗图
 
@@ -94,20 +94,23 @@ ms.locfileid: "82865244"
      
      ![建议栏的详细信息](media/power-bi-visualization-funnel-charts/funnelhover-new.png)
 
-6. [保存报表](../service-report-save.md)。
+6. [保存报表](../create-reports/service-report-save.md)。
 
 ## <a name="highlighting-and-cross-filtering"></a>突出显示和交叉筛选
-有关使用筛选器窗格的信息，请参阅[向报表添加筛选器](../power-bi-report-add-filter.md)。
+有关使用筛选器窗格的信息，请参阅[向报表添加筛选器](../create-reports/power-bi-report-add-filter.md)。
 
 突出显示漏斗图中的某个条可交叉筛选报表页上的其他可视化效果，反之亦然。 若要遵循此示例，请向包含漏斗图的报告页中再添加几个视觉对象。
 
 1. 在漏斗图中，选择“建议”  条。 这样可以交叉突出显示页面上的其他可视化效果。 使用 CTRL 键可选择多个。
    
    ![显示视觉对象交互的简短视频](media/power-bi-visualization-funnel-charts/funnelchartnoowl.gif)
-2. 若要设置视觉对象如何相互交叉突出显示和交叉筛选的首选项，请参阅 [Visual interactions in Power BI（Power BI 中的可视化交互）](../service-reports-visual-interactions.md)
+2. 若要设置视觉对象如何相互交叉突出显示和交叉筛选的首选项，请参阅 [Visual interactions in Power BI（Power BI 中的可视化交互）](../create-reports/service-reports-visual-interactions.md)
 
 ## <a name="next-steps"></a>后续步骤
 
 [Power BI 中的仪表](power-bi-visualization-radial-gauge-charts.md)
 
 [Power BI 中的可视化效果类型](power-bi-visualization-types-for-reports-and-q-and-a.md)
+
+
+

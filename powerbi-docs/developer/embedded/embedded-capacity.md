@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 02/11/2020
-ms.openlocfilehash: 27d6ddd9b24e09805bd22150a22347e5cd93c8e0
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 66ef36f669b5f34c19f283cf9ebc8be2b12332ec
+ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "79492827"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83148653"
 ---
 # <a name="capacity-and-skus-in-power-bi-embedded-analytics"></a>Power BI 嵌入式分析中的容量和 SKU
 
@@ -38,7 +38,7 @@ Power BI Embedded 适用于想要将视觉对象嵌入到其应用程序中的 I
 
 ### <a name="power-bi-premium"></a>Power BI Premium
 
-对于需要完整 BI 解决方案的企业而言，[Power BI Premium](../../service-premium-what-is.md) 可以提供组织、合作伙伴、客户和供应商的单一视图。
+对于需要完整 BI 解决方案的企业而言，[Power BI Premium](../../admin/service-premium-what-is.md) 可以提供组织、合作伙伴、客户和供应商的单一视图。
 
 Power BI Premium 是一款 SaaS 产品，能够让用户通过移动应用、内部开发的应用或 Power BI 门户（Power BI 服务）使用内容。 这使 Power BI Premium 能够为面向内部和外部客户的应用程序提供解决方案。
 
@@ -46,21 +46,21 @@ Power BI Premium 是一款 SaaS 产品，能够让用户通过移动应用、内
 
 每个容量提供一系列的 SKU，每个 SKU 为内存和计算能力提供不同的资源层。 所需的 SKU 类型取决于要部署的解决方案类型。
 
-要了解每个层支持的工作负载，请参阅[在 Premium 容量中配置工作负载](../../service-admin-premium-workloads.md)一文
+要了解每个层支持的工作负载，请参阅[在 Premium 容量中配置工作负载](../../admin/service-admin-premium-workloads.md)一文
 
 若要计划并测试容量，请使用以下链接：
 * [容量规划](embedded-capacity-planning.md)
-* [测试方法](../../service-premium-capacity-optimize.md#testing-approaches)
+* [测试方法](../../admin/service-premium-capacity-optimize.md#testing-approaches)
 
 ### <a name="power-bi-embedded-skus"></a>Power BI Embedded SKU
 
-Power BI Embedded 随附了 [a SKU  ](../../service-admin-premium-purchase.md#purchase-a-skus-for-testing-and-other-scenarios)。
+Power BI Embedded 随附了 [a SKU  ](../../admin/service-admin-premium-purchase.md#purchase-a-skus-for-testing-and-other-scenarios)。
 
 ### <a name="power-bi-premium-skus"></a>Power BI Premium SKU
 
 Power BI premium 提供两个 SKU，P 和 EM   。
-* [了解 P 和 EM SKU 的区别   ](../../service-premium-what-is.md#subscriptions-and-licensing)
-* [购买 Premium SKU](../../service-admin-premium-purchase.md)
+* [了解 P 和 EM SKU 的区别   ](../../admin/service-premium-what-is.md#subscriptions-and-licensing)
+* [购买 Premium SKU](../../admin/service-admin-premium-purchase.md)
 
 ### <a name="which-sku-should-i-use"></a>我应该使用哪个 SKU？
 

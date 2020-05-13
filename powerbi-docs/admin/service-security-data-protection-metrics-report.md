@@ -9,17 +9,17 @@ ms.topic: conceptual
 ms.date: 03/11/2020
 ms.author: painbar
 LocalizationGroup: Data from files
-ms.openlocfilehash: d2bd3308de21aa6064765b820745201efd8b23ab
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: e16acffd683b14eb48a6e21ddc456caeac25efc3
+ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "79112501"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83132005"
 ---
 # <a name="data-protection-metrics-report-preview"></a>数据保护指标报表（预览版）
 
 ## <a name="what-is-the-data-protection-metrics-report"></a>什么是数据保护指标报表？
-数据保护指标报表是一种专用报表，[Power BI 管理员](../service-admin-role.md)可以用于监视和跟踪其租户中的数据敏感度标签使用情况和采用情况。
+数据保护指标报表是一种专用报表，[Power BI 管理员](../admin/service-admin-role.md)可以用于监视和跟踪其租户中的数据敏感度标签使用情况和采用情况。
 
 ![数据保护指标报表](./media/service-security-data-protection-metrics-report/protection-metrics-seven-days-1.png)
  
@@ -32,7 +32,7 @@ ms.locfileid: "79112501"
 
 ## <a name="viewing-the-data-protection-metrics-report"></a>查看数据保护指标报表
 
-必须拥有 [Power BI 管理员角色](../service-admin-role.md)才能打开和查看该报表。
+必须拥有 [Power BI 管理员角色](../admin/service-admin-role.md)才能打开和查看该报表。
 若要查看该报表，请转到“设置”>“管理门户”  ，然后选择“保护指标(预览)”  。
 
 ![保护指标管理门户](./media/service-security-data-protection-metrics-report/protection-metrics-admin-portal.png)
@@ -47,13 +47,13 @@ ms.locfileid: "79112501"
 
 数据保护指标报表的改进版本会定期发布。 打开该报表时，如果有新版本可用，则系统会询问你是否要打开新版本。 如果你选择“是”，新版报表会加载并覆盖旧版本。 对旧报表和/或数据集进行的任何更改都会丢失。 可以选择不打开新版本，但在这种情况下，将无法受益于新版本的改进。 
 ## <a name="notes-and-considerations"></a>说明和注意事项
-* 若要成功生成数据保护指标报表，必须对租户启用[信息保护](./service-security-enable-data-sensitivity-labels.md) 并且[应该应用了敏感度标签](../designer/service-security-apply-data-sensitivity-labels.md)。 
+* 若要成功生成数据保护指标报表，必须对租户启用[信息保护](./service-security-enable-data-sensitivity-labels.md) 并且[应该应用了敏感度标签](../collaborate-share/service-security-apply-data-sensitivity-labels.md)。 
 * 若要访问 Cloud App Security 信息，组织必须具有相应的 [Cloud App Security 许可证](https://docs.microsoft.com/power-bi/admin/service-security-using-microsoft-cloud-app-security-controls#microsoft-cloud-app-security-licensing)。
 * 如果决定与不是 Power BI 管理员的用户共享数据保护指标报表中的信息，请注意，此报表包含有关组织的敏感信息。
 * 数据保护指标报表是一种特殊类型的报表，不会显示在“与我共享”、“最近动态”和“收藏夹”列表中。
-* [外部用户（Azure Active Directory B2B 来宾用户）](../service-admin-azure-ad-b2b.md)无法使用数据保护指标报表。
+* [外部用户（Azure Active Directory B2B 来宾用户）](../admin/service-admin-azure-ad-b2b.md)无法使用数据保护指标报表。
 ## <a name="next-steps"></a>后续步骤
 * [Power BI 中的数据保护（预览版）](./service-security-data-protection-overview.md)
 * [在 Power BI 中使用 Microsoft Cloud App Security 控件（预览版）](./service-security-using-microsoft-cloud-app-security-controls.md)
-* [了解 Power BI 服务管理员角色](../service-admin-role.md)
+* [了解 Power BI 服务管理员角色](../admin/service-admin-role.md)
 * [在 Power BI 中启用数据敏感度标签](./service-security-enable-data-sensitivity-labels.md)

@@ -8,12 +8,12 @@ ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 05/05/2020
 ms.author: painbar
-ms.openlocfilehash: eba723e4e75c7ce051921a907d2a3d0aa9536833
-ms.sourcegitcommit: 220910f0b68cb1e265ccd5ac0cee4ee9c6080b26
+ms.openlocfilehash: d3584ebc5233ccffc007118ac87ada49e906b34c
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "82841770"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83273514"
 ---
 # <a name="view-power-bi-reports-optimized-for-your-phone"></a>查看针对你的手机进行优化的 Power BI 报表
 
@@ -48,7 +48,7 @@ Power BI 报表的所有其他功能对更适合在手机上查看的报表仍�
 ## <a name="cross-highlight-visuals"></a>交叉突出显示视觉对象
 纵向视图中交叉突出显示视觉对象的工作方式与 Power BI 服务中的视觉对象相同，并且在横向视图下的手机中也是如此：在一个视觉对象中选择数据时，它会突出显示该页面上其他视觉对象中的相关数据。
 
-阅读有关 [Power BI 中的筛选和突出显示](../../power-bi-reports-filters-and-highlighting.md)的详细信息。
+阅读有关 [Power BI 中的筛选和突出显示](../../create-reports/power-bi-reports-filters-and-highlighting.md)的详细信息。
 
 ## <a name="select-visuals"></a>选择视觉对象
 在手机报表中选择视觉对象时，手机报表突出显示并专注于该视觉对象，以抵消画布笔势。
@@ -131,8 +131,7 @@ Power BI 报表的所有其他功能对更适合在手机上查看的报表仍�
 
 
 ## <a name="next-steps"></a>后续步骤
-* [创建针对 Power BI 移动应用的优化报表](../../desktop-create-phone-report.md)
-* [在 Power BI 中创建仪表板电话视图](../../service-create-dashboard-mobile-phone-view.md)
+* [创建针对 Power BI 移动应用的优化报表](../../create-reports/desktop-create-phone-report.md)
+* [在 Power BI 中创建仪表板电话视图](../../create-reports/service-create-dashboard-mobile-phone-view.md)
 * [创建优化为适应任意大小的响应式视觉对象](../../visuals/desktop-create-responsive-visuals.md)
 * 更多问题？ [尝试咨询 Power BI 社区](https://community.powerbi.com/)
-

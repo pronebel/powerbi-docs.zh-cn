@@ -8,16 +8,16 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 11/28/2019
 ms.author: v-pemyer
-ms.openlocfilehash: d5599db57ef7b105575dcb7ee4b4342f374624f0
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 853f6d7f5cd6696be55edeea101bc0ca51922ad3
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "78290567"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83278068"
 ---
 # <a name="use-report-page-drillthrough"></a>使用报表页钻取
 
-本文面向设计 Power BI 报表的报表作者。 该文章提供创建[报表页钻取](../desktop-drillthrough.md)的意见和建议。
+本文面向设计 Power BI 报表的报表作者。 该文章提供创建[报表页钻取](../create-reports/desktop-drillthrough.md)的意见和建议。
 
 建议将报表设计为允许报表用户实现以下流程：
 
@@ -58,8 +58,8 @@ ms.locfileid: "78290567"
 - **钻取筛选器：** 设置钻取筛选器，以便在设计钻取页时预览实际效果。 在发布报表之前，请务必删除这些筛选器。
 - **附加功能：** 钻取页与任何报表页都一样。 甚至可以通过其他交互功能（包括切片器或筛选器）来增强钻取页。
 - **空白：** 避免添加可能显示为 BLANK 或在应用钻取筛选器时产生错误的视觉对象。
-- **页面可见性：** 请考虑隐藏钻取页。 如果决定使钻取页保持可见状态，请确保添加一个按钮，该按钮使用户可以清除任何先前设置的钻取筛选器。 为该按钮分配[书签](../desktop-bookmarks.md)。 应将该书签配置为删除所有筛选器。
-- **返回按钮：** 分配钻取筛选器时，将自动添加后退[按钮](../desktop-buttons.md)。 最好保留该按钮。 以便报表用户可以轻松地返回到源页。
+- **页面可见性：** 请考虑隐藏钻取页。 如果决定使钻取页保持可见状态，请确保添加一个按钮，该按钮使用户可以清除任何先前设置的钻取筛选器。 为该按钮分配[书签](../create-reports/desktop-bookmarks.md)。 应将该书签配置为删除所有筛选器。
+- **返回按钮：** 分配钻取筛选器时，将自动添加后退[按钮](../create-reports/desktop-buttons.md)。 最好保留该按钮。 以便报表用户可以轻松地返回到源页。
 - **发现：** 通过设置视觉对象标题图标文本或向文本框添加说明来增强对钻取页的认识。 你还可以设计覆盖，如[此博客文章](https://alluringbi.com/2019/10/23/overlays-for-true-self-serve-reporting/)中所述。
 
 > [!TIP]
@@ -69,6 +69,6 @@ ms.locfileid: "78290567"
 
 有关本文的详细信息，请参阅以下资源：
 
-- [在 Power BI Desktop 中使用钻取](../desktop-drillthrough.md)
+- [在 Power BI Desktop 中使用钻取](../create-reports/desktop-drillthrough.md)
 - 是否有任何问题? [尝试咨询 Power BI 社区](https://community.powerbi.com/)
 - 建议？ [提出改进 Power BI 的想法](https://ideas.powerbi.com/)

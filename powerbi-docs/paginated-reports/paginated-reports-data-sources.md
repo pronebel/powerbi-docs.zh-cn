@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: conceptual
 ms.date: 04/28/2020
-ms.openlocfilehash: ad75cf6b85a896fbdc275748dc31c620206e08a2
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 865b60800b68aed410f10964148afdf2791b1ae1
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "82692886"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83279149"
 ---
 # <a name="supported-data-sources-for-power-bi-paginated-reports"></a>Power BI 分页报表支持的数据源
 
@@ -38,7 +38,7 @@ ms.locfileid: "82692886"
 
 ## <a name="other-data-sources"></a>其他数据源
 
-除上述本机支持的数据源以外，还可通过 [Power BI 数据网关](../service-gateway-onprem.md)访问以下数据源：
+除上述本机支持的数据源以外，还可通过 [Power BI 数据网关](../connect-data/service-gateway-onprem.md)访问以下数据源：
 
 - SQL Server
 - SQL Server Analysis Services
@@ -74,3 +74,4 @@ ms.locfileid: "82692886"
 [在 Power BI 服务中查看分页报表](../consumer/paginated-reports-view-power-bi-service.md)
 
 更多问题？ [尝试参与 Power BI 社区](https://community.powerbi.com/)
+

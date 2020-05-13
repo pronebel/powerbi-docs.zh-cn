@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: conceptual
 ms.date: 04/29/2020
-ms.openlocfilehash: 65d1401a66f8e670df1af3097f0e99fb6b647022
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 784e3fd3883adb9fc5b773cc730b992135d7ef8b
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "82615694"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83272801"
 ---
 # <a name="subreports-in-power-bi-paginated-reports"></a>Power BI 分页报表中的子报表
 
@@ -74,7 +74,7 @@ Power BI Report Builder 可以与计算机上的分页报表（称为本地报�
   
  可以将子报表放入报表的表体或数据区域中。 如果将子报表放在数据区域中，则子报表将重复数据区域中的组或行的每个实例。 可以将组或行中的值传递到子报表。 在子报表值属性中，对于包含要传递给子报表参数的值的字段，请使用字段表达式。  
   
- 如需详细了解如何使用参数和子报表，请参阅 SQL Server Reporting Services 文档中的 [添加子报表和参数](https://docs.microsoft.com/sql/reporting-services/report-design/add-a-subreport-and-parameters-report-builder-and-ssrs.md)。  
+ 如需详细了解如何使用参数和子报表，请参阅 SQL Server Reporting Services 文档中的 [添加子报表和参数](https://docs.microsoft.com/sql/reporting-services/report-design/add-a-subreport-and-parameters-report-builder-and-ssrs)。  
 
 ## <a name="preview-paginated-reports-in-report-builder"></a>在 Report Builder 中预览分页报表
 

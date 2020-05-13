@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.subservice: powerbi-custom-visuals
 ms.custom: ''
 ms.date: 12/17/2018
-ms.openlocfilehash: d70d1357af3309ddd9584b11ccf79115cde095c8
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 0a66b0fc1a984e0905fba209ca59afb3a02696b2
+ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "79383289"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83131313"
 ---
 # <a name="power-bi-visuals-faq"></a>Power BI 视觉对象常见问题解答
 
@@ -24,7 +24,7 @@ ms.locfileid: "79383289"
 
 ### <a name="how-can-the-admin-manage-organizational-power-bi-visuals"></a>管理员如何管理组织 Power BI 视觉对象？
 
-在管理门户中的“组织视觉对象”选项卡下，管理员可以查看和[管理企业中的所有组织 Power BI 视觉对象](../../service-admin-portal.md#organizational-visuals)  。 具体操作包括添加、禁用、启用和删除 Power BI 视觉对象。
+在管理门户中的“组织视觉对象”选项卡下，管理员可以查看和[管理企业中的所有组织 Power BI 视觉对象](../../admin/service-admin-portal.md#organizational-visuals)  。 具体操作包括添加、禁用、启用和删除 Power BI 视觉对象。
 
 组织中的用户可以轻松地查找 Power BI 视觉对象，并直接从 Power BI Desktop 或服务将视觉对象导入到自己的报表中。
 

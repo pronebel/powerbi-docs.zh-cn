@@ -8,12 +8,12 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 11/09/2019
 ms.author: v-pemyer
-ms.openlocfilehash: e8123bba9f68305e1944dbfb280b5255e4fb9b48
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 271ccd9abcba8fe75f0ad66a88cb970584855a35
+ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "75622158"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83149168"
 ---
 # <a name="query-folding-guidance-in-power-bi-desktop"></a>Power BI Desktop 中的查询折叠指南
 
@@ -52,5 +52,5 @@ ms.locfileid: "75622158"
 有关本文的详细信息，请参阅以下资源：
 
 - Power Query [查询折叠](/power-query/power-query-folding)概念文章
-- [Power BI Premium 中的增量刷新](../service-premium-incremental-refresh.md)
+- [Power BI Premium 中的增量刷新](../admin/service-premium-incremental-refresh.md)
 - 是否有任何问题? [尝试咨询 Power BI 社区](https://community.powerbi.com/)

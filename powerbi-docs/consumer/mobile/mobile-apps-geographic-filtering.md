@@ -7,12 +7,12 @@ ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 03/11/2020
 ms.author: painbar
-ms.openlocfilehash: 4a9dcf14d1745087e2596507d4c7dbc7a03b5ab3
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 7ee8887752f6a5161e0046e4aac1711f2ce64922
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "79435320"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83276205"
 ---
 # <a name="filter-a-report-by-geographic-location-in-the-power-bi-mobile-apps"></a>在 Power BI 移动应用中按地理位置筛选报表
 适用于：
@@ -39,17 +39,16 @@ ms.locfileid: "79435320"
 ## <a name="why-dont-i-see-location-tags-on-a-report"></a>我为什么在报表上看不到位置标记？
 必须全部满足以下三个条件才能查看位置标记。 
 
-* 在 Power BI Desktop 中，报表创建者必须对至少一列[地理位置数据进行分类](../../desktop-mobile-geofiltering.md)，例如“市/县”、“省/自治区/直辖市”或“国家/地区”。
+* 在 Power BI Desktop 中，报表创建者必须对至少一列[地理位置数据进行分类](../../transform-model/desktop-mobile-geofiltering.md)，例如“市/县”、“省/自治区/直辖市”或“国家/地区”。
 * 位于在相应列中有数据的位置之一。
 * 使用的是下面一种移动设备：
   * iOS（iPad、iPhone、iPod）。
   * Android（手机、平板电脑）。
   * Windows 10 手机（其他 Windows 10 设备（如 PC 和平板电脑）不支持地理位置筛选）。
 
-阅读有关在 Power BI Desktop 中[设置地理筛选](../../desktop-mobile-geofiltering.md)的详细信息。
+阅读有关在 Power BI Desktop 中[设置地理筛选](../../transform-model/desktop-mobile-geofiltering.md)的详细信息。
 
 ### <a name="next-steps"></a>后续步骤
 * 使用移动应用[从真实世界连接到 Power BI 数据](mobile-apps-data-in-real-world-context.md)
-* [Power BI Desktop 中的数据分类](../../desktop-data-categorization.md) 
+* [Power BI Desktop 中的数据分类](../../transform-model/desktop-data-categorization.md) 
 * 是否有任何问题？ [尝试咨询 Power BI 社区](https://community.powerbi.com/)
-

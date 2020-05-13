@@ -2,22 +2,25 @@
 title: 有关地图（包括必应地图集成）的提示和技巧
 description: '用于 Power BI 地图可视化效果、视觉对象、位置、经度和纬度，以及它们如何使用必应地图的提示和技巧。 '
 author: mihart
-ms.reviewer: ''
+ms.reviewer: rien
 featuredvideoid: ajTPGNpthcg
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 03/17/2020
+ms.date: 05/05/2020
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: e5c89a8089929b7d87d2a1291ef2c5d3a5b012b7
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 89b81286819e5f286a26efeb6b36d6336446132c
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "79525904"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83277815"
 ---
 # <a name="tips-and-tricks-for-power-bi-map-visualizations"></a>用于 Power BI 地图可视化效果的提示和技巧
+
+[!INCLUDE[consumer-appliesto-nyyn](../includes/consumer-appliesto-nyyn.md)]    
+
 Power BI 与必应地图集成，提供默认地图坐标（一种称为“地理位置编码”的过程），以便用户可以创建地图。 集成后，它们使用算法共同确定正确的位置，但有时只是一种最佳猜测。 如果 Power BI 进行了尝试，但无法自行创建地图可视化效果，则会借助必应地图的帮助。 
 
 你或管理员可能需要更新防火墙，以允许访问必应用来地理编码的 URL。  这些 URL 是：
@@ -47,7 +50,7 @@ Power BI 服务和 Power BI Desktop 会向必应发送创建地图可视化效�
 
 **1.在 Power BI Desktop 中对地理字段进行分类**
 
-在 Power BI Desktop 中，可以通过设置数据字段上的“数据类别”  来确保字段进行了正确地理编码。 在“数据视图”中，选择所需的列。 从功能区中选择“建模”选项卡，然后将“数据类别”设置为“地址”、“市”、“洲”、“国家/地区”、“县”、“邮政编码”、“州”或“省/自治区/直辖市”           。 这些数据分类有助于必应对日期进行正确编码。 若要了解详细信息，请参阅 [Power BI Desktop 中的数据分类](../desktop-data-categorization.md)。 若要实时连接到 SQL Server Analysis Services，需要使用 [SQL Server Data Tools (SSDT)](https://docs.microsoft.com/sql/ssdt/download-sql-server-data-tools-ssdt)，在 Power BI 外部设置数据分类。
+在 Power BI Desktop 中，可以通过设置数据字段上的“数据类别”  来确保字段进行了正确地理编码。 在“数据视图”中，选择所需的列。 从功能区中选择“建模”选项卡，然后将“数据类别”设置为“地址”、“市”、“洲”、“国家/地区”、“县”、“邮政编码”、“州”或“省/自治区/直辖市”           。 这些数据分类有助于必应对日期进行正确编码。 若要了解详细信息，请参阅 [Power BI Desktop 中的数据分类](../transform-model/desktop-data-categorization.md)。 若要实时连接到 SQL Server Analysis Services，需要使用 [SQL Server Data Tools (SSDT)](https://docs.microsoft.com/sql/ssdt/download-sql-server-data-tools-ssdt)，在 Power BI 外部设置数据分类。
 
 **2.使用多个位置列。**     
  有时，即使对地图设置数据分类也不足以使必应正确地猜测你的目标。 某些地理标记不明确，因为多个国家/区域都有相应的地理位置。 例如，英格兰、宾夕法尼亚州和纽约州都有南安普敦。
@@ -94,4 +97,5 @@ Power BI 使用必应的[非结构化 URL 模板服务](https://msdn.microsoft.c
 [Power BI 可视化效果](power-bi-report-visualizations.md)
 
 更多问题？ [尝试参与 Power BI 社区](https://community.powerbi.com/)
+
 

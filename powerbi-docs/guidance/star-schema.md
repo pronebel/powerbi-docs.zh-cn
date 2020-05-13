@@ -8,12 +8,12 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 09/09/2019
 ms.author: v-pemyer
-ms.openlocfilehash: a2e53d27a8ca49e9fc318fd25cc20acbb7bacc38
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 4172fc2ff4a1da409a1f5586e8b3579e4745fe99
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "80751599"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83273445"
 ---
 # <a name="understand-star-schema-and-the-importance-for-power-bi"></a>了解星型架构及其对 Power BI 的重要性
 
@@ -42,7 +42,7 @@ ms.locfileid: "80751599"
 - 维度表支持筛选和分组  
 - 事实数据表支持汇总 
 
-建模者没有设置将表类型配置为维度或事实的表属性。 这实际上是由模型关系决定的。 模型关系在两个表之间建立筛选器传播路径，并且它是确定表类型的关系基数属性  。 常见关系基数为“一对多”  或反过来的“多对一”  。 该关系中的“一”这一方始终是维度类型表，而“多”始终是事实类型的表。 若要详细了解关系，请参阅 [Power BI Desktop 中的模型关系](../desktop-relationships-understand.md)。
+建模者没有设置将表类型配置为维度或事实的表属性。 这实际上是由模型关系决定的。 模型关系在两个表之间建立筛选器传播路径，并且它是确定表类型的关系基数属性  。 常见关系基数为“一对多”  或反过来的“多对一”  。 该关系中的“一”这一方始终是维度类型表，而“多”始终是事实类型的表。 若要详细了解关系，请参阅 [Power BI Desktop 中的模型关系](../transform-model/desktop-relationships-understand.md)。
 
 ![概念上的星型架构](media/star-schema/star-schema-example2.png)
 
@@ -209,10 +209,12 @@ Power BI 模型应支持查询成员的历史数据（不受更改影响），�
 查看以下文章，详细了解星型架构设计或 Power BI 模型设计：
 
 - [维度建模维基百科文章](https://go.microsoft.com/fwlink/p/?linkid=246459)
-- [在 Power BI Desktop 中创建和管理关系](../desktop-create-and-manage-relationships.md)
+- [在 Power BI Desktop 中创建和管理关系](../transform-model/desktop-create-and-manage-relationships.md)
 - [一对一关系指南](relationships-one-to-one.md)
 - [多对多关系指南](relationships-many-to-many.md)
 - [双向关系指南](relationships-bidirectional-filtering.md)
 - [活动与非活动关系指南](relationships-active-inactive.md)
 - 是否有任何问题? [尝试咨询 Power BI 社区](https://community.powerbi.com/)
 - 建议？ [提出改进 Power BI 的想法](https://ideas.powerbi.com/)
+
+

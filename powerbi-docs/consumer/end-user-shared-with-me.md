@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 03/22/2020
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: d4fbc607b27999a9a1264a4cf004898ec05b0d18
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: e54fbf7c521d057b6cc9fe1dde6c66358a9c349d
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "80302496"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83277516"
 ---
 # <a name="display-the-dashboards-and-reports-that-have-been-shared-with-me"></a>显示已与我共享的仪表板和报表
 
@@ -26,7 +26,7 @@ ms.locfileid: "80302496"
 
 ![“共享”图标](./media/end-user-shared-with-me/power-bi-share-dashboard.png)
 
-请观看下面的视频，Amanda 将介绍“与我共享”  内容列表，并演示如何导航和筛选此列表。 然后可以按照视频下面的分步说明来自己尝试。 要查看与你共享的仪表板，你需要具有 Power BI Pro 许可证。 请阅读[什么是 Power BI Premium？](../service-premium-what-is.md)了解详细信息。
+请观看下面的视频，Amanda 将介绍“与我共享”  内容列表，并演示如何导航和筛选此列表。 然后可以按照视频下面的分步说明来自己尝试。 要查看与你共享的仪表板，你需要具有 Power BI Pro 许可证。 请阅读[什么是 Power BI Premium？](../admin/service-premium-what-is.md)了解详细信息。
     
 
 > [!NOTE]
@@ -50,7 +50,7 @@ ms.locfileid: "80302496"
 * [查看](end-user-insights.md) Power BI 在数据中发现的见解 ![见解图标](./media/end-user-shared-with-me/power-bi-insights.png)。
   
   > [!NOTE]
-  > 有关 EGRC 分类的信息，请选择“分类”按钮或[访问仪表板数据分类](../service-data-classification.md)  。
+  > 有关 EGRC 分类的信息，请选择“分类”按钮或[访问仪表板数据分类](../create-reports/service-data-classification.md)  。
   > 
 
 

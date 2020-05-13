@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 05/05/2020
 ms.author: rien
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 0f430747187729cbb939b67795ff0507770bb0f1
-ms.sourcegitcommit: a199dda2ab50184ce25f7c9a01e7ada382a88d2c
+ms.openlocfilehash: 9f7cd6c277a02ce4e44db40930184cce955e5948
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/06/2020
-ms.locfileid: "82867015"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83274181"
 ---
 # <a name="line-charts-in-power-bi"></a>Power BI 中的折线图
 
@@ -32,7 +32,7 @@ ms.locfileid: "82867015"
 > [!NOTE]
 > 与 Power BI 同事共享报表时，你和这位同事都应具有独立的 Power BI Pro 许可证，并且应将报表保存在 Premium 容量中。
 
-1. 从空白报表页入手。 如果使用的是 Power BI 服务，请务必在[编辑视图](../service-interact-with-a-report-in-editing-view.md)中打开报表。
+1. 从空白报表页入手。 如果使用的是 Power BI 服务，请务必在[编辑视图](../create-reports/service-interact-with-a-report-in-editing-view.md)中打开报表。
 
 2. 在“字段”窗格中，依次选择“SalesFact”  \>“Total units”  ，再依次选择“Date”   > “Month”  。  此时，Power BI 在报表画布上创建柱形图。
 
@@ -74,7 +74,7 @@ ms.locfileid: "82867015"
    ![高度相异值](media/power-bi-line-charts/power-bi-dual-axes.png)
 
 ## <a name="highlighting-and-cross-filtering"></a>突出显示和交叉筛选
-有关使用筛选器窗格的信息，请参阅[向报表添加筛选器](../power-bi-report-add-filter.md)。
+有关使用筛选器窗格的信息，请参阅[向报表添加筛选器](../create-reports/power-bi-report-add-filter.md)。
 
 选择折线图上的数据点可交叉突出显示和交叉筛选报表页上的其他可视化效果，反之亦然。 若要跟着本教程一起操作，请打开“市场占有率”  选项卡。  
 
@@ -86,7 +86,7 @@ ms.locfileid: "82867015"
 
 请注意柱形图是如何交叉突出显示的，仪表是如何交叉筛选的。
 
-若要管理图表相互交叉突出显示和交叉筛选的方式，请参阅 [Visualization interactions in a Power BI report（Power BI 报表中的可视化效果交互）](../service-reports-visual-interactions.md)
+若要管理图表相互交叉突出显示和交叉筛选的方式，请参阅 [Visualization interactions in a Power BI report（Power BI 报表中的可视化效果交互）](../create-reports/service-reports-visual-interactions.md)
 
 ## <a name="considerations-and-troubleshooting"></a>注意事项和疑难解答
 * 一个折线图不能有两个 Y 轴。  必须改用组合图。
@@ -95,5 +95,8 @@ ms.locfileid: "82867015"
 ## <a name="next-steps"></a>后续步骤
 
 [Power BI 中的可视化效果类型](power-bi-visualization-types-for-reports-and-q-and-a.md)
+
+
+
 
 

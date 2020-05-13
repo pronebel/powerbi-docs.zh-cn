@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 03/12/2020
 ms.author: mihart
 LocalizationGroup: Common tasks
-ms.openlocfilehash: 61322db7085bd41539c0c79d483403b794f23f26
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 8c91e2a07143a6355b7049e80cbdc3e4ba906013
+ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "79114302"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83145386"
 ---
 # <a name="printing-from-the-power-bi-service"></a>使用 Power BI 服务打印
 
@@ -116,7 +116,6 @@ ms.locfileid: "79114302"
 * 答：返回到仪表板或报表的默认视图，在焦点模式下重新打开视觉对象，然后重新打开全屏模式。 
 
 ## <a name="next-steps"></a>后续步骤
-[与同事和其他人共享仪表板和报表](../service-share-dashboards.md)
+[与同事和其他人共享仪表板和报表](../collaborate-share/service-share-dashboards.md)
 
 更多问题？ [尝试参与 Power BI 社区](https://community.powerbi.com/)
-

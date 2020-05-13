@@ -9,12 +9,12 @@ ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.custom: ''
 ms.date: 03/30/2020
-ms.openlocfilehash: 7ae2752627e24c5de2feed372009061e523a3fc8
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 40f713c2fd021ea8ecea5789b8ad0bc54cff2294
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "80751633"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83275952"
 ---
 # <a name="embedding-power-bi-content-with-service-principal-and-application-secret"></a>使用服务主体和应用程序密码嵌入 Power BI 内容
 
@@ -183,14 +183,14 @@ Add-AzureADGroupMember -ObjectId $($group.ObjectId) -RefObjectId $($sp.ObjectId)
 
 ## <a name="considerations-and-limitations"></a>注意事项和限制
 
-* 服务主体仅适用于[新的工作区](../../service-create-the-new-workspaces.md)。
+* 服务主体仅适用于[新的工作区](../../collaborate-share/service-create-the-new-workspaces.md)。
 * 使用服务主体时，不支持“我的工作区”  。
 * 移动到生产环境时，需要专用容量。
 * 无法使用服务主体登录 Power BI 门户。
 * 在 Power BI 管理门户的开发人员设置中启用服务主体需要 Power BI 管理权限。
 * 无法使用服务主体安装或管理本地数据网关。
 * 无法使用服务主体[为组织应用程序嵌入内容](embed-sample-for-your-organization.md)。
-* 不支持[数据流](../../service-dataflows-overview.md)管理。
+* 不支持[数据流](../../transform-model/service-dataflows-overview.md)管理。
 * 服务主体目前不支持任何管理员 API。
 * 使用带有 [Azure Analysis Services](https://docs.microsoft.com/azure/analysis-services/analysis-services-overview) 数据源的服务主体时，服务主体本身必须具有 Azure Analysis Services 实例权限。 使用包含服务主体的安全组来实现此目的，这不起作用。
 

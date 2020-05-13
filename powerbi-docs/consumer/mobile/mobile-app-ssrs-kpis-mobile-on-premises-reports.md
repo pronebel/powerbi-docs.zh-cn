@@ -8,12 +8,12 @@ ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 12/05/2019
 ms.author: painbar
-ms.openlocfilehash: 6020a6cb72be4e8d7be0485c7787fefc097e679d
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 387f0cd4ecea59fd55af0a9eceff2272ddd8097b
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "75220011"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83278850"
 ---
 # <a name="view-on-premises-report-server-reports-and-kpis-in-the-power-bi-mobile-apps"></a>在 Power BI 移动应用中查看本地报表服务器报表和 KPI
 
@@ -107,7 +107,7 @@ Power BI 报表、Reporting Services 移动报表和 KPI 的文件夹与它们�
   > Power BI 报表服务器上的 Power BI 报表中当前未启用向下钻取和向上钻取功能。
   
     ![Power BI 报表](./media/mobile-app-ssrs-kpis-mobile-on-premises-reports/power-bi-iphone-report-server-report.png)
-* 在 Power BI Desktop 中，报表所有者可以为 Power BI 移动应用[优化报表](../../desktop-create-phone-report.md)。 在你的移动手机上，已优化的报表都具有一个特殊的图标 ![Optimized Power BI report icon](./media/mobile-app-ssrs-kpis-mobile-on-premises-reports/power-bi-rs-mobile-optimized-icon.png)和布局。
+* 在 Power BI Desktop 中，报表所有者可以为 Power BI 移动应用[优化报表](../../create-reports/desktop-create-phone-report.md)。 在你的移动手机上，已优化的报表都具有一个特殊的图标 ![Optimized Power BI report icon](./media/mobile-app-ssrs-kpis-mobile-on-premises-reports/power-bi-rs-mobile-optimized-icon.png)和布局。
   
     ![为移动设备优化的 Power BI 报表](./media/mobile-app-ssrs-kpis-mobile-on-premises-reports/power-bi-rs-mobile-optimized-report.png)
 * 点击 KPI 以在焦点模式中查看它。
@@ -133,4 +133,3 @@ Power BI 报表、Reporting Services 移动报表和 KPI 的文件夹与它们�
 ## <a name="next-steps"></a>后续步骤
 * [什么是 Power BI？](../../fundamentals/power-bi-overview.md)  
 * 是否有任何问题？ [尝试咨询 Power BI 社区](https://community.powerbi.com/)
-

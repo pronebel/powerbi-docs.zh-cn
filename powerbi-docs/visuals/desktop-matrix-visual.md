@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 02/10/2020
 ms.author: rien
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 0a9bebd51e64c18e0c354386e168661542b9c5bf
-ms.sourcegitcommit: a199dda2ab50184ce25f7c9a01e7ada382a88d2c
+ms.openlocfilehash: b26cd958ad637f0dc3c27c7a0f6ccbe2591d37b7
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/06/2020
-ms.locfileid: "82866578"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83279172"
 ---
 # <a name="create-matrix-visualizations-in-power-bi"></a>在 Power BI 中创建矩阵可视化效果
 
@@ -62,7 +62,7 @@ ms.locfileid: "82866578"
 ![](media/desktop-matrix-visual/power-bi-expand3.png)
 
 > [!NOTE]
-> 如果要在 Analysis Services 多维模型之上生成报表，并且该模型使用“默认成员”功能，则展开/折叠具有一些特殊注意事项。 有关详细信息，请参阅[在 Power BI 中使用多维模型](../desktop-default-member-multidimensional-models.md)
+> 如果要在 Analysis Services 多维模型之上生成报表，并且该模型使用“默认成员”功能，则展开/折叠具有一些特殊注意事项。 有关详细信息，请参阅[在 Power BI 中使用多维模型](../connect-data/desktop-default-member-multidimensional-models.md)
 
 ## <a name="using-drill-down-with-the-matrix-visual"></a>结合使用向下钻取和矩阵视觉对象
 借助矩阵视觉对象，可以执行之前无法实现的各种有意思的向下钻取活动。 这包括向下钻取行、列、单独分区和单元格。 让我们来看看每种向下钻取活动的工作原理。
@@ -211,7 +211,7 @@ ms.locfileid: "82866578"
 
 打开“Web URL”  ，然后选择要用作列的 URL 的字段。 应用后，该字段（列）中的值将成为活动链接。 悬停以查看链接，并选择跳转到该页面。 
 
-有关详细信息，请参阅[条件表格式设置](../desktop-conditional-table-formatting.md)
+有关详细信息，请参阅[条件表格式设置](../create-reports/desktop-conditional-table-formatting.md)
 
 ## <a name="shading-and-font-colors-with-matrix-visuals"></a>矩阵视觉对象的底纹和字体颜色
 借助矩阵视觉对象，可以将条件格式（颜色、底纹和数据栏）应用于矩阵中的单元格背景，并将条件格式应用于文本和值本身。
@@ -233,3 +233,5 @@ ms.locfileid: "82866578"
 [适用于 Power BI 的 Power Apps 视觉对象](power-bi-visualization-powerapp.md)
 
 [Power BI 中的可视化效果类型](power-bi-visualization-types-for-reports-and-q-and-a.md)
+
+

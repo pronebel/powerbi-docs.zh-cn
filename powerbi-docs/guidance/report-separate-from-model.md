@@ -8,18 +8,18 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 04/11/2020
 ms.author: v-pemyer
-ms.openlocfilehash: dad451da460abed65a69990394522f268d7f21cd
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 971c699170103d5521763679c93d3641c094cc58
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "81525232"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83277424"
 ---
 # <a name="separate-reports-from-models-in-power-bi-desktop"></a>与 Power BI Desktop 中的模型分离报表
 
 创建新 Power BI Desktop 解决方案时，需要执行的第一项任务是“获取数据”。 获取数据可能会导致两种截然不同的结果。 它可以：
 
-- 与已发布的模型建立[实时连接](../desktop-report-lifecycle-datasets.md)这些模型可以是 Power BI 数据集或远程托管 Analysis Services 模型。
+- 与已发布的模型建立[实时连接](../connect-data/desktop-report-lifecycle-datasets.md)这些模型可以是 Power BI 数据集或远程托管 Analysis Services 模型。
 - 开始开发新模型，可以是 Import 模型、DirectQuery 模型或 Composite 模型。
 
 本文介绍第二个方案。 本文提供有关是否应将报表和模型合并到单个 Power BI Desktop 文件的指导。
@@ -67,7 +67,7 @@ ms.locfileid: "81525232"
 
 有关本文的详细信息，请参阅以下资源：
 
-- [通过 Power BI Desktop 连接 Power BI 服务中的数据集](../desktop-report-lifecycle-datasets.md)
+- [通过 Power BI Desktop 连接 Power BI 服务中的数据集](../connect-data/desktop-report-lifecycle-datasets.md)
 - [查看 Power BI 服务中的相关内容](../consumer/end-user-related.md)
 - [数据世系](../collaborate-share/service-data-lineage.md)
 - 是否有任何问题? [尝试咨询 Power BI 社区](https://community.powerbi.com/)

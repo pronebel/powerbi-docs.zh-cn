@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 12/05/2019
 ms.author: rien
 LocalizationGroup: Visualizations
-ms.openlocfilehash: ba344d66f967d502d9de8adef7defcae434fb3ef
-ms.sourcegitcommit: a199dda2ab50184ce25f7c9a01e7ada382a88d2c
+ms.openlocfilehash: ae73f2e32d34c3e1b37991358545997c4b4bb961
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/06/2020
-ms.locfileid: "82865451"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83272893"
 ---
 # <a name="create-and-use-filled-maps-choropleth-maps-in-power-bi"></a>创建和使用 Power BI 中的着色地图（等值线图）
 
@@ -92,12 +92,12 @@ Power BI 与必应相集成，提供默认地图坐标（一个称为地理编�
 7. 着色地图为绿色和红色，其中红色代表较低的消费意愿数值，绿色代表较高、较积极的消费意愿。  要显示其他详细信息，还请将字段拖动到工具提示。  此处我们添加了“SalesFact” > “情绪落差”   。 突出显示爱达荷州 (ID) 指示情绪落差较低，其值为 6。
    ![显示爱达荷州的着色地图工具提示](media/power-bi-visualization-filled-maps-choropleths/power-bi-idaho-filled-map.png)
 
-10. [保存报表](../service-report-save.md)。
+10. [保存报表](../create-reports/service-report-save.md)。
 
 Power BI 让你可以充分控制着色地图的外观。 使用这些数据颜色控件，直到你获得所需的外观。 
 
 ## <a name="highlighting-and-cross-filtering"></a>突出显示和交叉筛选
-有关使用筛选器窗格的信息，请参阅[向报表添加筛选器](../power-bi-report-add-filter.md)。
+有关使用筛选器窗格的信息，请参阅[向报表添加筛选器](../create-reports/power-bi-report-add-filter.md)。
 
 突出显示着色地图中的某个位置可交叉筛选报表页上的其他可视化效果，反之亦然。
 
@@ -136,3 +136,5 @@ Power BI 让你可以充分控制着色地图的外观。 使用这些数据颜�
 [形状映射](desktop-shape-map.md)
 
 [Power BI 中的可视化效果类型](power-bi-visualization-types-for-reports-and-q-and-a.md)
+
+

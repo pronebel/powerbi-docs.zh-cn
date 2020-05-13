@@ -8,12 +8,12 @@ ms.subservice: report-builder
 ms.topic: conceptual
 ms.date: 02/16/2020
 ms.author: v-pemyer
-ms.openlocfilehash: 067171f7ec74beccdb5a312c1cac5bbc6c87541f
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 511dc42a3090f838654cda84f596d34f02bb3439
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "79377641"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83275078"
 ---
 # <a name="data-retrieval-guidance-for-paginated-reports"></a>分页报表的数据检索指南
 
@@ -101,14 +101,14 @@ MDX 查询设计器要求模型包含度量值。 该设计器具有 DAX 查询�
 
 ## <a name="non-native-data-sources"></a>非本机数据源
 
-如果需要基于数据源开发分页报表，而这些数据源不[受分页报表本机支持](../paginated-reports/paginated-reports-data-sources.md)，可以先开发 Power BI Desktop 数据模型。 这样，你便可以连接到超过 100 的 [Power BI 数据源](../power-bi-data-sources.md)。 发布到 Power BI 服务后，即可开发连接到 Power BI 数据集的分页报表。
+如果需要基于数据源开发分页报表，而这些数据源不[受分页报表本机支持](../paginated-reports/paginated-reports-data-sources.md)，可以先开发 Power BI Desktop 数据模型。 这样，你便可以连接到超过 100 的 [Power BI 数据源](../connect-data/power-bi-data-sources.md)。 发布到 Power BI 服务后，即可开发连接到 Power BI 数据集的分页报表。
 
 ## <a name="data-integration"></a>数据集成
 
 如果需要合并来自多个数据源的数据，可以使用两个选项：
 
 - **合并报表数据集**：如果数据源[受分页报表本机支持](../paginated-reports/paginated-reports-data-sources.md)，则可以考虑创建使用 [Lookup](/sql/reporting-services/report-design/report-builder-functions-lookup-function) 或 [LookupSet](/sql/reporting-services/report-design/report-builder-functions-lookupset-function) Report Builder 函数的计算字段。
-- **开发 Power BI Desktop 模型**：但是，在 Power BI Desktop 中开发数据模型可能更有效。 可以使用 Power Query 根据任何[受支持的数据源](../power-bi-data-sources.md)来合并查询。 发布到 Power BI 服务后，即可开发连接到 Power BI 数据集的分页报表。
+- **开发 Power BI Desktop 模型**：但是，在 Power BI Desktop 中开发数据模型可能更有效。 可以使用 Power Query 根据任何[受支持的数据源](../connect-data/power-bi-data-sources.md)来合并查询。 发布到 Power BI 服务后，即可开发连接到 Power BI 数据集的分页报表。
 
 ## <a name="sql-server-complex-data-types"></a>SQL Server 复杂数据类型
 

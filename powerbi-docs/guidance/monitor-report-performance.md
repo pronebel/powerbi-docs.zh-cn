@@ -9,16 +9,16 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 02/16/2020
 ms.author: v-pemyer
-ms.openlocfilehash: 2962d5f8504b7214cb685457c59b11f1d9d7b85e
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 9245dd6c25917b2c8c861ea5b83710cd8b52bb22
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "81525528"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83279011"
 ---
 # <a name="monitor-report-performance-in-power-bi"></a>在 Power BI 中监视报表性能
 
-在 Power BI Desktop 中使用 [Power BI Premium 指标应用](../service-premium-metrics-app.md)监视报表性能，了解瓶颈所在，并了解如何提升报表性能。
+在 Power BI Desktop 中使用 [Power BI Premium 指标应用](../admin/service-premium-metrics-app.md)监视报表性能，了解瓶颈所在，并了解如何提升报表性能。
 
 在下列情况下会监视性能：
 
@@ -39,7 +39,7 @@ ms.locfileid: "81525528"
 
 ## <a name="use-performance-analyzer"></a>使用性能分析器
 
-在 Power BI Desktop 中使用[性能分析器](../desktop-performance-analyzer.md)了解视觉对象和 DAX 公式等报表元素的性能。 它特别适用于确定产生性能问题的查询或视觉对象呈现。
+在 Power BI Desktop 中使用[性能分析器](../create-reports/desktop-performance-analyzer.md)了解视觉对象和 DAX 公式等报表元素的性能。 它特别适用于确定产生性能问题的查询或视觉对象呈现。
 
 ## <a name="use-sql-server-profiler"></a>使用 SQL Server Profiler
 
@@ -77,15 +77,15 @@ ms.locfileid: "81525528"
 
 ## <a name="monitor-premium-metrics"></a>监视 Premium 指标
 
-对于 Power BI Premium 容量，可以使用 Power BI Premium 指标应用来监视 Power BI Premium 订阅的运行状况和容量  。 有关详细信息，请参阅 [Power BI Premium 指标应用](../service-premium-metrics-app.md)。
+对于 Power BI Premium 容量，可以使用 Power BI Premium 指标应用来监视 Power BI Premium 订阅的运行状况和容量  。 有关详细信息，请参阅 [Power BI Premium 指标应用](../admin/service-premium-metrics-app.md)。
 
 ## <a name="next-steps"></a>后续步骤
 
 有关本文的详细信息，请参阅以下资源：
 
 - [查询诊断](/power-query/QueryDiagnostics)
-- [性能分析器](../desktop-performance-analyzer.md)
+- [性能分析器](../create-reports/desktop-performance-analyzer.md)
 - [Power BI 中的报表性能疑难解答](report-performance-troubleshoot.md)
-- [Power BI Premium 指标应用](../service-premium-metrics-app.md)
+- [Power BI Premium 指标应用](../admin/service-premium-metrics-app.md)
 - 是否有任何问题? [尝试咨询 Power BI 社区](https://community.powerbi.com/)
 - 建议？ [提出改进 Power BI 的想法](https://ideas.powerbi.com/)

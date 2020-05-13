@@ -8,12 +8,12 @@ ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 12/02/2019
 ms.author: painbar
-ms.openlocfilehash: 043f27a2fb695811ac867689b4a63efdefded2e6
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: dfe5e6350d0209f836900a921aadc5347b181766
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "80802040"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83276159"
 ---
 # <a name="scan-a-barcode-with-your-device-from-the-power-bi-mobile-app"></a>使用设备上的 Power BI 移动应用扫描条形码
 扫描现实生活中的条形码，直接转到在 Power BI 移动应用中筛选后的 BI 信息。
@@ -25,7 +25,7 @@ ms.locfileid: "80802040"
 |:--- |:--- |:--- |:--- |
 |iPhone |iPad |Android 手机 |Android 平板电脑 |
 
-假设有一个同事已[标记 Power BI Desktop 报表中的条形码字段](../../desktop-mobile-barcodes.md)并与你共享该报表。 
+假设有一个同事已[标记 Power BI Desktop 报表中的条形码字段](../../transform-model/desktop-mobile-barcodes.md)并与你共享该报表。 
 
 ![](media/mobile-apps-scan-barcode-iphone/power-bi-barcode-scanner.png)
 
@@ -64,13 +64,12 @@ ms.locfileid: "80802040"
 ### <a name="looks-like-you-dont-have-any-reports-that-can-be-filtered-by-barcodes"></a>“看起来你没有可按条形码筛选的任何报表。”
 这意味着你没有任何已启用条形码的报表。 条形码扫描器只能筛选具有标记为 **条形码**的列的报表。  
 
-请确保你或报告所有者在 Power BI Desktop 中已将某列标记为**条形码** 。 了解更多关于[在 Power BI Desktop 中标记条形码字段](../../desktop-mobile-barcodes.md)的信息
+请确保你或报告所有者在 Power BI Desktop 中已将某列标记为**条形码** 。 了解更多关于[在 Power BI Desktop 中标记条形码字段](../../transform-model/desktop-mobile-barcodes.md)的信息
 
 ### <a name="couldnt-filter-report---looks-like-this-barcode-doesnt-exist-in-the-report-data"></a>“无法筛选报表 - 似乎报表数据中无此条形码。”
 你选择进行筛选的报表基于的数据模型不包括此条形码值。 例如，报表不包含产品“矿泉水”。 你可以扫描不同的产品，选择其他报表（如果提供了多个报表）或查看未筛选的报表。 
 
 ## <a name="next-steps"></a>后续步骤
-* [在 Power BI Desktop 中标记条形码字段](../../desktop-mobile-barcodes.md)
+* [在 Power BI Desktop 中标记条形码字段](../../transform-model/desktop-mobile-barcodes.md)
 * [Power BI 中的仪表板磁贴](../end-user-tiles.md)
 * [Power BI 中的仪表板](../end-user-dashboards.md)
-

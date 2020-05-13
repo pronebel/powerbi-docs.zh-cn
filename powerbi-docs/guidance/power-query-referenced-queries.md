@@ -8,12 +8,12 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 11/30/2019
 ms.author: v-pemyer
-ms.openlocfilehash: 49601798ae920d956441c5580079625bf7408e07
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 242f1e44e3314af900d9f4d4e4fb7380b28b4103
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "78290558"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83278666"
 ---
 # <a name="referencing-power-query-queries"></a>Power Query 查询参考
 
@@ -42,7 +42,7 @@ Query1  执行了三次。 多次执行可能会导致数据刷新速度变慢�
 
 通常建议引用查询，以避免查询中逻辑的重复。 但是，如本文所述，这种设计方法可能会导致数据刷新速度变慢以及数据源过载。
 
-建议改为创建[数据流](../service-dataflows-overview.md)。 使用数据流可以缩短数据刷新时间，并减小对数据源的影响。
+建议改为创建[数据流](../transform-model/service-dataflows-overview.md)。 使用数据流可以缩短数据刷新时间，并减小对数据源的影响。
 
 可以设计数据流来封装源数据和转换。 由于数据流是 Power BI 服务中的持久数据存储，因此数据检索速度很快。 因此，即使引用查询导致数据流的多个请求，也可以缩短数据刷新时间。
 
@@ -52,7 +52,7 @@ Query1  执行了三次。 多次执行可能会导致数据刷新速度变慢�
 
 有关本文的详细信息，请参阅以下资源：
 
-- [Power BI 中的自助服务数据准备](../service-dataflows-overview.md)
-- [在 Power BI 中创建和使用数据流](../service-dataflows-create-use.md)
+- [Power BI 中的自助服务数据准备](../transform-model/service-dataflows-overview.md)
+- [在 Power BI 中创建和使用数据流](../transform-model/service-dataflows-create-use.md)
 - 是否有任何问题? [尝试咨询 Power BI 社区](https://community.powerbi.com/)
 - 建议？ [提出改进 Power BI 的想法](https://ideas.powerbi.com/)

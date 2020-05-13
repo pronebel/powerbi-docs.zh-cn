@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 04/28/2020
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: e3e0108f539a7c42b41c36f743a0b8b79f3b61b8
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 49e4653152e8981222d3a2589781546eb25bcd0e
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "82781722"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83273008"
 ---
 # <a name="export-the-data-that-was-used-to-create-a-visualization"></a>探索用于创建可视化效果的数据
 
@@ -54,7 +54,7 @@ ms.locfileid: "82781722"
 
 ## <a name="export-data-from-a-report"></a>导出报表中的数据
 
-为此，请在 Power BI 服务的“编辑视图”中打开[采购分析示例报表](../sample-procurement.md)。 添加新的空白报表页。 然后按照以下步骤来添加聚合、层次结构和可视化效果级别筛选器。
+为此，请在 Power BI 服务的“编辑视图”中打开[采购分析示例报表](../create-reports/sample-procurement.md)。 添加新的空白报表页。 然后按照以下步骤来添加聚合、层次结构和可视化效果级别筛选器。
 
 ### <a name="create-a-stacked-column-chart"></a>新建一个堆积柱形图
 
@@ -94,7 +94,7 @@ ms.locfileid: "82781722"
 
     - **基础数据**
 
-    如需有关了解聚合的帮助，请参阅 [Power BI 中的聚合](../service-aggregates.md)。
+    如需有关了解聚合的帮助，请参阅 [Power BI 中的聚合](../create-reports/service-aggregates.md)。
 
 
     > [!NOTE]
@@ -133,7 +133,7 @@ ms.locfileid: "82781722"
 
     - **基础数据**
 
-    如需有关了解聚合的帮助，请参阅 [Power BI 中的聚合](../service-aggregates.md)。
+    如需有关了解聚合的帮助，请参阅 [Power BI 中的聚合](../create-reports/service-aggregates.md)。
 
 
     > [!NOTE]
@@ -164,7 +164,7 @@ Power BI 管理员和设计人员应使用几种策略来保护专有数据。
 
 - Power BI 管理员可以为其组织关闭数据导出。 
 
-- 数据集所有者可以设置行级别安全性 (RLS)。 RLS 将限制对只读用户的访问。 但是，如果已配置应用工作区，并且授予给定成员编辑权限，则将不会对其应用 RLS 角色。 有关详细信息，请参阅[行级别安全性](../service-admin-rls.md)。
+- 数据集所有者可以设置行级别安全性 (RLS)。 RLS 将限制对只读用户的访问。 但是，如果已配置应用工作区，并且授予给定成员编辑权限，则将不会对其应用 RLS 角色。 有关详细信息，请参阅[行级别安全性](../admin/service-admin-rls.md)。
 
 - 报表设计人员可以隐藏列，使其不显示在“字段”列表中  。 有关详细信息，请参阅[数据集属性](../developer/automation/api-dataset-properties.md)
 

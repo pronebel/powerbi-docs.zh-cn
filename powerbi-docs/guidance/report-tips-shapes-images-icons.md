@@ -9,12 +9,12 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 03/25/2020
 ms.author: v-pemyer
-ms.openlocfilehash: f03daf65ab938923906351acef9440fe0de88c5c
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 863f5f55eb4fb5d2427585bd2d792097ac1c6630
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "82065561"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83278919"
 ---
 # <a name="tips-to-improve-analysis-with-shapes-images-and-icons-in-power-bi-reports"></a>关于在 Power BI 报表中使用形状、图像和图标来改进分析的提示
 
@@ -37,7 +37,8 @@ ms.locfileid: "82065561"
 
 有关本文的详细信息，请参阅以下资源：
 
-- [创建出色报表的提示与技巧](../desktop-tips-and-tricks-for-creating-reports.md)
+- [创建出色报表的提示与技巧](../create-reports/desktop-tips-and-tricks-for-creating-reports.md)
 - biDezine 视频：[在 Power BI 中使用象形图来改进分析的前四大提示](https://www.youtube.com/watch?v=-gLwXonWNsI)
 - 是否有任何问题? [尝试咨询 Power BI 社区](https://community.powerbi.com/)
 - 建议？ [提出改进 Power BI 的想法](https://ideas.powerbi.com/)
+

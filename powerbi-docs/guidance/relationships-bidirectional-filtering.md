@@ -8,12 +8,12 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 03/02/2020
 ms.author: v-pemyer
-ms.openlocfilehash: 502e37cda5533fe6d9b1ce45faa67f809dbeec78
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 9c883b32d03362e5d0e0d6d5ed074cb627fabaf1
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "78263682"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83273171"
 ---
 # <a name="bi-directional-relationship-guidance"></a>双向关系指南
 
@@ -134,10 +134,11 @@ CALCULATE(
 
 有关本文的详细信息，请参阅以下资源：
 
-- [Power BI Desktop 中的模型关系](../desktop-relationships-understand.md)
+- [Power BI Desktop 中的模型关系](../transform-model/desktop-relationships-understand.md)
 - [了解星型架构及其对 Power BI 的重要性](star-schema.md)
 - [一对一关系指南](relationships-one-to-one.md)
 - [多对多关系指南](relationships-many-to-many.md)
 - [关系故障排除指南](relationships-troubleshoot.md)
 - 是否有任何问题? [尝试咨询 Power BI 社区](https://community.powerbi.com/)
 - 建议？ [提出改进 Power BI 的想法](https://ideas.powerbi.com/)
+

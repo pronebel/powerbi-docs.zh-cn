@@ -9,12 +9,12 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 02/15/2020
 ms.author: v-pemyer
-ms.openlocfilehash: c40d93cc06204ee7a935727c3b38494fdeb71256
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 1a8dba63b0832886ce550cb2ed02249317e7240e
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "82065516"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83272755"
 ---
 # <a name="tips-to-control-chart-gridlines-in-power-bi-reports"></a>控制 Power BI 报表中图表网格线的提示与技巧
 
@@ -36,7 +36,8 @@ ms.locfileid: "82065516"
 
 有关本文的详细信息，请参阅以下资源：
 
-- [创建出色报表的提示与技巧](../desktop-tips-and-tricks-for-creating-reports.md)
+- [创建出色报表的提示与技巧](../create-reports/desktop-tips-and-tricks-for-creating-reports.md)
 - biDezine 视频：[在 Power BI 中控制图表网格线的 3 大提示与技巧](https://www.youtube.com/watch?v=Y-igshes2LI)
 - 是否有任何问题? [尝试咨询 Power BI 社区](https://community.powerbi.com/)
 - 建议？ [提出改进 Power BI 的想法](https://ideas.powerbi.com)
+

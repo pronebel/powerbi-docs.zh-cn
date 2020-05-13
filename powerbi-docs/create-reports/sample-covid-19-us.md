@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 04/28/2020
 ms.author: lukaszp
 LocalizationGroup: Samples
-ms.openlocfilehash: 8cdc4a9a78c20c7c4e6986b63a3af61a319df1b6
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: aca7fc70bc70de553eee070ce5e1522b96c94880
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "82584925"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83277884"
 ---
 # <a name="covid-19-tracking-sample-for-us-state-and-local-governments"></a>适用于美国各州和地方政府的 COVID-19 跟踪示例
 
@@ -48,7 +48,7 @@ Microsoft 已发布示例报表，并创建了“发布到 Web”嵌入代码。
 <iframe width="1600" height="900" src="https://app.powerbi.com/view?r=eyJrIjoiMmI2ZjExMzItZTcwNy00YmUwLWFlMTAtYTUxYzVjODZmYjA5IiwidCI6ImMxMzZlZWMwLWZlOTItNDVlMC1iZWFlLTQ2OTg0OTczZTIzMiIsImMiOjF9" frameborder="0" allowFullScreen="true"></iframe>
 ```
 
-嵌入代码是可以插入到任意 HTML 页中的 HTML iFrame 元素。 调整所提供 iFrame 的宽度和高度，以适应你网站的尺寸。 由于示例报表是按 16:9 比例创作，因此请选择维持此比例的尺寸。 正确实现后，显示的图形不带任何额外的灰色边框。 在进行这些更改时，[审阅 iFrame 大小调整提示和技巧](../service-publish-to-web.md#tips-for-iframe-height-and-width)会很有用。
+嵌入代码是可以插入到任意 HTML 页中的 HTML iFrame 元素。 调整所提供 iFrame 的宽度和高度，以适应你网站的尺寸。 由于示例报表是按 16:9 比例创作，因此请选择维持此比例的尺寸。 正确实现后，显示的图形不带任何额外的灰色边框。 在进行这些更改时，[审阅 iFrame 大小调整提示和技巧](../collaborate-share/service-publish-to-web.md#tips-for-iframe-height-and-width)会很有用。
 
 ## <a name="option-2-customize-the-sample-power-bi-file"></a>选项 2：自定义示例 Power BI 文件
 
@@ -93,18 +93,18 @@ USAFacts 数据是根据需要归属的 Creative Commons 许可证提供的。 �
 
 ### <a name="publish-your-report-to-the-power-bi-service"></a>将报表发布到 Power BI 服务
 
-按照你自己的偏好自定义报表后，[请按照这篇文章中列出的步骤操作，以将报表发布到](../desktop-upload-desktop-files.md) Power BI 服务。
+按照你自己的偏好自定义报表后，[请按照这篇文章中列出的步骤操作，以将报表发布到](../create-reports/desktop-upload-desktop-files.md) Power BI 服务。
 
 ### <a name="configure-scheduled-refresh"></a>配置计划刷新
 
-为了让报表中的数据不断更新，可以在发布报表后[配置计划刷新](../refresh-scheduled-refresh.md)。
+为了让报表中的数据不断更新，可以在发布报表后[配置计划刷新](../connect-data/refresh-scheduled-refresh.md)。
 
 按照这些步骤操作时，请选择以下选项：
 
 1. 数据源凭据身份验证方法：匿名
 2. 此数据源的隐私级别设置：公用
 
-若要测试刷新设置，请选择[数据集项中提供的“立即刷新”选项](../refresh-data.md#data-refresh)。
+若要测试刷新设置，请选择[数据集项中提供的“立即刷新”选项](../connect-data/refresh-data.md#data-refresh)。
 
 每次运行计划刷新，都会加载刷新后的数据。 基础数据是由 USAFacts 提供的，可能不会像刷新计划一样频繁更新。 若要了解基础数据的上次更新时间，请查看 [USAFacts 网站](https://usafacts.org/visualizations/coronavirus-covid-19-spread-map/)。 
 
@@ -112,7 +112,7 @@ USAFacts 数据是根据需要归属的 Creative Commons 许可证提供的。 �
 
 ### <a name="create-a-publish-to-web-embed-code"></a>创建“发布到 Web”嵌入代码 
 
-若要在你自己的网站中嵌入自定义报表，请按照[如何创建你自己的“发布到 Web”嵌入代码](../service-publish-to-web.md#create-embed-codes-with-publish-to-web)中的说明操作。
+若要在你自己的网站中嵌入自定义报表，请按照[如何创建你自己的“发布到 Web”嵌入代码](../collaborate-share/service-publish-to-web.md#create-embed-codes-with-publish-to-web)中的说明操作。
 
 发布嵌入代码后，可以使用“确认”对话框中的 iFrame 将自定义报表嵌入到你的网站中。
 
@@ -143,7 +143,7 @@ USAFacts 数据是根据需要归属的 Creative Commons 许可证提供的。 �
 
     :::image type="content" source="media/sample-covid-19-us/power-bi-covid-19-load-data.png" alt-text="从 Web 加载数据":::
 
-    [从 Power BI Desktop 连接到网页](../desktop-connect-to-web.md)一文详细介绍了如何从 Web 加载数据。
+    [从 Power BI Desktop 连接到网页](../connect-data/desktop-connect-to-web.md)一文详细介绍了如何从 Web 加载数据。
     
 然后，可以使用 Power BI Desktop 来直观呈现数据。 最后，按照“选项2：  [将报表发布到 Power BI 服务](#publish-your-report-to-the-power-bi-service)”中的步骤操作，以发布此报表并创建自定义嵌入代码。 
 
@@ -168,4 +168,8 @@ USAFacts 数据是根据 Creative Commons 许可证提供的。 若要使用它�
 
 ## <a name="next-steps"></a>后续步骤
 
-[获取 Power BI 示例](../sample-datasets.md)
+[获取 Power BI 示例](../create-reports/sample-datasets.md)
+
+
+
+

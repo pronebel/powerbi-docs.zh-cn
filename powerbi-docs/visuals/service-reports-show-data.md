@@ -6,17 +6,19 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 11/4/2019
+ms.date: 12/4/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: f1598aabee45359b312d39f836cede8ca4198bb2
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: b2c587be792e0ad6318dd066cb239949b30cc9e5
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "75758614"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83276550"
 ---
 # <a name="display-a-visualizations-underlying-data"></a>显示可视化效果的基础数据
+
+[!INCLUDE[consumer-appliesto-yyyn](../includes/consumer-appliesto-nyyn.md)]    
 
 ## <a name="show-data"></a>显示数据
 Power BI 可视化效果是使用数据集中的数据创建的。 如果你对幕后感兴趣，可以使用 Power BI *显示* 用于创建视觉对象的数据。 在用户选择“显示数据”  后，Power BI 在可视化效果下方（或旁边）显示数据。
@@ -24,7 +26,7 @@ Power BI 可视化效果是使用数据集中的数据创建的。 如果你对�
 还可以导出正在用于创建为.xlsx 或.csv 文件的可视化效果的数据，并在 Excel 中查看该数据。 有关详细信息，请参阅[从 Power BI 可视化效果导出数据](power-bi-visualization-export-data.md)。
 
 > [!NOTE]
-> “显示数据”  和“导出数据”  在 Power BI 服务和 Power BI Desktop 中均可用。 不过，Power BI Desktop 还进一步提供了其他详细信息；[显示记录  显示数据集中的实际行](../desktop-see-data-see-records.md)。
+> “显示数据”  和“导出数据”  在 Power BI 服务和 Power BI Desktop 中均可用。 不过，Power BI Desktop 还进一步提供了其他详细信息；[显示记录  显示数据集中的实际行](../create-reports/desktop-see-data-see-records.md)。
 > 
 > 
 
@@ -75,4 +77,5 @@ Power BI 可视化效果是使用数据集中的数据创建的。 如果你对�
 [从 Power BI 可视化效果导出数据](power-bi-visualization-export-data.md)    
 
 更多问题？ [尝试参与 Power BI 社区](https://community.powerbi.com/)
+
 

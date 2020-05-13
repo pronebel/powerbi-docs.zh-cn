@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 04/22/2020
 ms.author: maggies
 LocalizationGroup: Create reports
-ms.openlocfilehash: 4f0bfdbf3eb3856f872c872fbe0880ad39839e07
-ms.sourcegitcommit: a199dda2ab50184ce25f7c9a01e7ada382a88d2c
+ms.openlocfilehash: 31563e5bb5b91468b8913c3204e9d27607716c77
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/06/2020
-ms.locfileid: "82867590"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83279195"
 ---
 # <a name="use-a-relative-time-slicer-and-filter-in-power-bi"></a>在 Power BI 中使用相对时间切片器和筛选器
 
@@ -24,7 +24,7 @@ ms.locfileid: "82867590"
 
 :::image type="content" source="media/slicer-filter-relative-time/power-bi-relative-time.gif" alt-text="相对时间示例":::
 
-你不必将此功能与[自动页刷新](../desktop-automatic-page-refresh.md)功能结合使用。 不过，很多相对时间方案都能与自动页面刷新功能搭配使用。  
+你不必将此功能与[自动页刷新](../create-reports/desktop-automatic-page-refresh.md)功能结合使用。 不过，很多相对时间方案都能与自动页面刷新功能搭配使用。  
 
 > [!NOTE]
 > 在页面或报表级别应用相对时间筛选器或切片器时，将使用共享锚点时间，将该页面或报表中的所有视觉对象筛选为完全相同的时间范围  。 由于视觉对象的执行时间可能略有不同，因此，此共享的锚点时间可确保在页面或报表之间同步视觉对象。 有关详细信息，请参阅本文中的[锚点时间](#understanding-anchor-time)。
@@ -107,4 +107,3 @@ ms.locfileid: "82867590"
 
 - [在 Power BI 中使用相对日期切片器和筛选器](../visuals/desktop-slicer-filter-date-range.md)
 - [Power BI 中的切片器](../visuals/power-bi-visualization-slicers.md)
-

@@ -8,12 +8,12 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 03/02/2020
 ms.author: v-pemyer
-ms.openlocfilehash: 937f8ca693113cf85d265420da44f7c9f8b68f5f
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 8718c67c592bf96d50efed475c0d27b4ec80ca04
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "78260432"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83278321"
 ---
 # <a name="many-to-many-relationship-guidance"></a>多对多关系指导
 
@@ -161,7 +161,7 @@ ms.locfileid: "78260432"
 
 ### <a name="relate-many-to-many-facts-guidance"></a>关于关联多对多事实的指导
 
-通常，我们不建议直接使用多对多基数来关联两个事实类型表。 主要原因是，该模型无法在报表视觉对象筛选或分组的方式上提供灵活性。 在此示例中，视觉对象只能按“Order”表“OrderID”列进行筛选或分组   。 另外一个原因与数据的质量有关。 如果数据存在完整性问题，在查询期间可能会由于“弱关系”的性质而省略某些行  。 有关详细信息，请参阅 [Power BI Desktop 中的模型关系（关系计算）](../desktop-relationships-understand.md#relationship-evaluation)。
+通常，我们不建议直接使用多对多基数来关联两个事实类型表。 主要原因是，该模型无法在报表视觉对象筛选或分组的方式上提供灵活性。 在此示例中，视觉对象只能按“Order”表“OrderID”列进行筛选或分组   。 另外一个原因与数据的质量有关。 如果数据存在完整性问题，在查询期间可能会由于“弱关系”的性质而省略某些行  。 有关详细信息，请参阅 [Power BI Desktop 中的模型关系（关系计算）](../transform-model/desktop-relationships-understand.md#relationship-evaluation)。
 
 我们建议采用[星型架构](star-schema.md)设计原则，而不是直接关联事实类型表。 可以通过添加维度类型表来实现。 然后，维度类型表通过使用一对多关系与事实类型表关联。 此设计方法非常可靠，因为它提供了灵活的报表选项。 通过这种设计方法，可使用任何维度类型列进行筛选或分组，并汇总任何相关联的事实类型表。
 
@@ -184,7 +184,7 @@ ms.locfileid: "78260432"
 - 报表视觉对象可以对维度类型表中的任何可见列进行“筛选或分组” 
 - 报表视觉对象可以汇总维度类型表中的任何可见列 
 - 应用于“OrderLine”、“OrderDate”或“Product”表的筛选器将传播到两个事实类型表   
-- 所有关系都是一对多关系，每个关系都是“强关系”  。 不会屏蔽数据完整性问题。 有关详细信息，请参阅 [Power BI Desktop 中的模型关系（关系计算）](../desktop-relationships-understand.md#relationship-evaluation)。
+- 所有关系都是一对多关系，每个关系都是“强关系”  。 不会屏蔽数据完整性问题。 有关详细信息，请参阅 [Power BI Desktop 中的模型关系（关系计算）](../transform-model/desktop-relationships-understand.md#relationship-evaluation)。
 
 ## <a name="relate-higher-grain-facts"></a>关联更高粒度的事实
 
@@ -209,7 +209,7 @@ ms.locfileid: "78260432"
 
 但是，必须注意确保月份或日期级别的筛选器能得到有意义的结果。 如果没有任何特殊的计算逻辑，报表视觉对象可能会报告目标日期是每年的第一天。 其他所有日期（一月除外的所有月份）都将目标数量汇总为空白。
 
-下面的矩阵视觉对象显示了报表用户从年份细化到月份后会发生的情况。 该视觉对象将汇总“TargetQuantity”  列。 （矩阵行已启用[显示不含数据的项](../desktop-show-items-no-data.md)选项。）
+下面的矩阵视觉对象显示了报表用户从年份细化到月份后会发生的情况。 该视觉对象将汇总“TargetQuantity”  列。 （矩阵行已启用[显示不含数据的项](../create-reports/desktop-show-items-no-data.md)选项。）
 
 ![矩阵视觉对象显示 2020 年的目标数量为 270。 展开以显示 2020 的月份时，一月为 270，其他各月份级别的目标数量为空白。](media/relationships-many-to-many/sales-targets-model-matrix-blank-months-bad.png)
 
@@ -295,7 +295,7 @@ IF(
 
 有关本文的详细信息，请参阅以下资源：
 
-- [Power BI Desktop 中的模型关系](../desktop-relationships-understand.md)
+- [Power BI Desktop 中的模型关系](../transform-model/desktop-relationships-understand.md)
 - [了解星型架构及其对 Power BI 的重要性](star-schema.md)
 - [关系故障排除指南](relationships-troubleshoot.md)
 - 是否有任何问题? [尝试咨询 Power BI 社区](https://community.powerbi.com/)

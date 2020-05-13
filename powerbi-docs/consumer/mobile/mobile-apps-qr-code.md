@@ -8,12 +8,12 @@ ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 12/02/2019
 ms.author: painbar
-ms.openlocfilehash: 55b71508380a424ba48e4d24ac6c6fc70d9a570d
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: c4d1ce3a4a15c2d79951865e03131e001260e2c9
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "80802063"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83276067"
 ---
 # <a name="scan-a-power-bi-qr-code-from-your-mobile-device"></a>使用移动设备扫描 Power BI QR 码
 适用于：
@@ -24,7 +24,7 @@ ms.locfileid: "80802063"
 
 Power BI 中的 QR 代码可以将现实生活中的所有物品直接连接到相关的 BI 信息&#151;，无需导航或搜索。
 
-假设某位同事在 Power BI 服务中[为仪表板中的报表或磁贴创建了 QR 码](../../service-create-qr-code-for-tile.md)，然后与你共享此仪表板或报表，并且将 QR 码置于关键位置&#151;比如说在某个电子邮件中或某个特定项目中。 
+假设某位同事在 Power BI 服务中[为仪表板中的报表或磁贴创建了 QR 码](../../create-reports/service-create-qr-code-for-tile.md)，然后与你共享此仪表板或报表，并且将 QR 码置于关键位置&#151;比如说在某个电子邮件中或某个特定项目中。 
 
 你可以使用 Power BI 应用中的扫描程序或手机上安装的其他任何扫描程序，通过扫描 QR 码立即访问相关的磁贴或报表。 
 
@@ -75,8 +75,7 @@ Power BI 中的 QR 代码可以将现实生活中的所有物品直接连接到�
 
 ## <a name="next-steps"></a>后续步骤
 * 使用移动应用[从真实世界连接到 Power BI 数据](mobile-apps-data-in-real-world-context.md)
-* [为 Power BI 服务中的磁贴创建 QR 代码](../../service-create-qr-code-for-tile.md)
-* [为 Power BI 服务中的报表创建 QR 代码](../../service-create-qr-code-for-report.md)
+* [为 Power BI 服务中的磁贴创建 QR 代码](../../create-reports/service-create-qr-code-for-tile.md)
+* [为 Power BI 服务中的报表创建 QR 代码](../../create-reports/service-create-qr-code-for-report.md)
 * 还可以[使用 Power BI for Mixed Reality 应用扫描 QR 码](mobile-mixed-reality-app.md)
 * 是否有任何问题？ [尝试咨询 Power BI 社区](https://community.powerbi.com/)
-

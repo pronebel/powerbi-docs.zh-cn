@@ -8,12 +8,12 @@ ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 12/09/2019
 ms.author: painbar
-ms.openlocfilehash: 9c38aef858d723e548529f450e34d0480de5f8b2
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: cfb5e4f1f75437db6235ece0d8661bab3f008649
+ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "79435435"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83148420"
 ---
 # <a name="view-your-data-offline-in-the-power-bi-mobile-apps"></a>在 Power BI 移动应用中查看你的脱机数据
 适用于：
@@ -44,7 +44,7 @@ ms.locfileid: "79435435"
 > [!NOTE]
 > 如果你在 iOS 设备上使用 Power BI 移动应用，并且组织已配置 Microsoft Intune MAM，则会关闭后台数据刷新。 在你下次进入应用时，Power BI 会刷新 Power BI 服务 Web 数据。
 > 
-> 详细了解[如何使用 Microsoft Intune 配置 Power BI 移动应用](../../service-admin-mobile-intune.md)。 
+> 详细了解[如何使用 Microsoft Intune 配置 Power BI 移动应用](../../admin/service-admin-mobile-intune.md)。 
 > 
 > 
 

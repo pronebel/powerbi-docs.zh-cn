@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 12/5/2019
 ms.author: rien
 LocalizationGroup: Visualizations
-ms.openlocfilehash: d4e31d8c3d2bcbbfdf0d2d932be70cc2cd5f2625
-ms.sourcegitcommit: a199dda2ab50184ce25f7c9a01e7ada382a88d2c
+ms.openlocfilehash: 20b597507a3619b60ef1db058d0ff3c8fd63b867
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/06/2020
-ms.locfileid: "82866486"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83276665"
 ---
 # <a name="waterfall-charts-in-power-bi"></a>Power BI 中的瀑布图
 
@@ -114,6 +114,7 @@ ms.locfileid: "82866486"
 
 ## <a name="next-steps"></a>后续步骤
 
-* [更改 Power BI 报表中视觉对象的交互方式](../service-reports-visual-interactions.md)
+* [更改 Power BI 报表中视觉对象的交互方式](../create-reports/service-reports-visual-interactions.md)
 
 * [Power BI 中的可视化效果类型](power-bi-visualization-types-for-reports-and-q-and-a.md)
+

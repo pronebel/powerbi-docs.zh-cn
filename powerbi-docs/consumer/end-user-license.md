@@ -10,12 +10,12 @@ ms.topic: how-to
 ms.date: 04/18/2020
 ms.author: mihart
 LocalizationGroup: consumers
-ms.openlocfilehash: 8610f5c0efbc3da394e4de7c263a88aad813eae2
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 14e3b0f2956252e0b09abcf314d6e14b9a9709ad
+ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "82065987"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83129482"
 ---
 # <a name="using-the-power-bi-service-as-a-consumer"></a>以使用者的身份使用 Power BI 服务 
 
@@ -47,7 +47,7 @@ Premium 允许 Pro 用户广泛分发内容，且不要求查看内容的收件�
 
 在这些工作区中，设计者分配角色（如“观看者”、“参与者”、“成员”和“管理员”），用于确定同事可与内容交互的程度     。 有关详细信息，请参阅[工作区权限和角色。](end-user-workspaces.md) 
 
-有关高级容量的详细信息，请参阅[什么是 Microsoft Power BI Premium？](../service-premium-what-is.md)。
+有关高级容量的详细信息，请参阅[什么是 Microsoft Power BI Premium？](../admin/service-premium-what-is.md)。
 
 
 ## <a name="find-out-which-licenses-you-have"></a>了解你拥有哪些许可证

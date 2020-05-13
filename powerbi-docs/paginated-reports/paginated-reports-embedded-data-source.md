@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: conceptual
 ms.date: 03/02/2020
-ms.openlocfilehash: 83fadfe5f690a87563d20b9c6385b9a37193b9c9
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: b70db42732143d5db938ad793be8aa3997ecdd8c
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "78921760"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83276895"
 ---
 # <a name="create-an-embedded-data-source-for-paginated-reports-in-the-power-bi-service"></a>在 Power BI 服务中为分页报表创建嵌入数据源
 
@@ -27,11 +27,11 @@ ms.locfileid: "78921760"
 - Oracle 
 - Teradata 
 
-对于以下数据源，请使用[SQL Server Analysis Services 连接](../service-premium-connect-tools.md)选项：
+对于以下数据源，请使用[SQL Server Analysis Services 连接](../admin/service-premium-connect-tools.md)选项：
 
 - Power BI Premium 数据集
 
-分页报表通过 [Power BI 网关](../service-gateway-onprem.md)连接到本地数据源。 将报表发布到 Power BI 服务后，可以设置网关。
+分页报表通过 [Power BI 网关](../connect-data/service-gateway-onprem.md)连接到本地数据源。 将报表发布到 Power BI 服务后，可以设置网关。
 
 有关更多详细信息，请参阅 [Power BI 报表生成器中的报表数据](report-builder-data.md)。
 
@@ -93,3 +93,4 @@ ms.locfileid: "78921760"
 
 - [在 Power BI 服务中为分页报表创建嵌入数据集](paginated-reports-create-embedded-dataset.md)
 - [Power BI Premium 中的分页报表是什么？](paginated-reports-report-builder-power-bi.md)
+

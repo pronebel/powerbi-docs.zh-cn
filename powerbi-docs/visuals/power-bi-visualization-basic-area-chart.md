@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 05/05/2020
 ms.author: rien
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 18d16440e8894e69101357af700c9b295eaa30c6
-ms.sourcegitcommit: a199dda2ab50184ce25f7c9a01e7ada382a88d2c
+ms.openlocfilehash: f6960d3087ba5b271c6c130df59e6e667e838165
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/06/2020
-ms.locfileid: "82866946"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83277148"
 ---
 # <a name="create-and-use-basic-area-charts"></a>创建和使用基本面积图
 
@@ -68,7 +68,7 @@ ms.locfileid: "82866946"
    d.  若要按月显示图表，请选择“省略号”（视觉对象的右上角）并选择“按月排序”  。 要更改排序顺序，请再次选择省略号并选择  “升序排序”或“降序排序”  。
 
 ## <a name="highlighting-and-cross-filtering"></a>突出显示和交叉筛选
-有关使用筛选器窗格的信息，请参阅[向报表添加筛选器](../power-bi-report-add-filter.md)。
+有关使用筛选器窗格的信息，请参阅[向报表添加筛选器](../create-reports/power-bi-report-add-filter.md)。
 
 若要突出显示图表中的特定分区，请选择相应分区或其上边框。  与其他可视化效果类型不同，如果同一页面上还有其他可视化效果，突出显示基本分区图不会交叉筛选报表页上的其他可视化效果。 但是，面积图是报表页上其他可视化效果触发的交叉筛选的目标。 
 
@@ -78,7 +78,7 @@ ms.locfileid: "82866946"
 
     ![筛选器示例](media/power-bi-visualization-basic-area-chart/power-bi-area-chart-filters.gif) 
 
-若要了解详细信息，请参阅[报表中的视觉对象交互](../service-reports-visual-interactions.md)
+若要了解详细信息，请参阅[报表中的视觉对象交互](../create-reports/service-reports-visual-interactions.md)
 
 
 ## <a name="considerations-and-troubleshooting"></a>注意事项和疑难解答   
@@ -87,4 +87,6 @@ ms.locfileid: "82866946"
 
 ## <a name="next-step"></a>下一步
 [Power BI 中的报表](power-bi-visualization-card.md)  
+
+
 
