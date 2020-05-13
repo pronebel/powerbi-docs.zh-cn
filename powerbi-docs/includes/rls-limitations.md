@@ -4,12 +4,12 @@ ms.service: powerbi
 ms.topic: include
 ms.date: 01/31/2020
 ms.author: davidi
-ms.openlocfilehash: b67025de5e2a70876a31fd42e22c9572403288fa
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 912b0213c328c623e7881f7f30fe7d67f6d889b3
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "77464324"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83274619"
 ---
 ## <a name="limitations"></a>限制
 
@@ -17,7 +17,7 @@ ms.locfileid: "77464324"
 
 * 如果你以前在 Power BI 服务中定义了角色和规则，则必须在 Power BI Desktop 中重新创建它们。
 
-* 只能在使用 Power BI Desktop 创建的数据集上定义 RLS。 若想为使用 Excel 创建的数据集启用 RLS，首先必须将你的文件转换为 Power BI Desktop (PBIX) 文件。 [了解更多](../desktop-import-excel-workbooks.md)。
+* 只能在使用 Power BI Desktop 创建的数据集上定义 RLS。 若想为使用 Excel 创建的数据集启用 RLS，首先必须将你的文件转换为 Power BI Desktop (PBIX) 文件。 [了解更多](../connect-data/desktop-import-excel-workbooks.md)。
 
 * 仅支持导入和 DirectQuery 连接。 在本地模型上处理到 Analysis Services 的实时连接。
 
@@ -32,3 +32,4 @@ ms.locfileid: "77464324"
 1. Anna 收到一个错误。
 
 解决方法：重新从 Power BI 服务中发布 Power BI Desktop 文件，直到此问题得到解决  。 可以通过选择“获取数据”   > “文件”  来执行此操作。
+

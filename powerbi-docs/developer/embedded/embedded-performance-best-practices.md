@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 12/12/2018
-ms.openlocfilehash: 7284532d95cce780f4022477faab9033adcd764a
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: c619f37ac062eec02eb379ba7cd97731254a171a
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "79492597"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83279379"
 ---
 # <a name="power-bi-embedded-performance-best-practices"></a>Power BI Embedded 性能最佳做法
 
@@ -59,7 +59,7 @@ ms.locfileid: "79492597"
 
 具有 Power BI Premium 容量或 Power BI Embedded容量的组织可使用查询缓存来加快与数据集关联的报表的速度。
 
-[详细了解 Power BI 中的查询缓存](../../power-bi-query-caching.md)。
+[详细了解 Power BI 中的查询缓存](../../connect-data/power-bi-query-caching.md)。
 
 ## <a name="preload"></a>预加载
 
@@ -99,7 +99,7 @@ ms.locfileid: "79492597"
 若要检查报表元素的性能，可以在 Power BI Desktop 中使用性能分析器。
 使用性能分析器可以查看和记录用于度量每个报表元素的执行方式的日志。
 
-[详细了解性能分析器](../../desktop-performance-analyzer.md)。
+[详细了解性能分析器](../../create-reports/desktop-performance-analyzer.md)。
 
 > [!NOTE]
 > 请务必始终将嵌入报表的性能与 powerbi.com 上的性能进行对比。 这可以帮助你了解性能问题的来源

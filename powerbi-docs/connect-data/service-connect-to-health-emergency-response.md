@@ -8,12 +8,12 @@ ms.topic: conceptual
 ms.date: 04/06/2020
 ms.author: painbar
 LocalizationGroup: Connect to services
-ms.openlocfilehash: b951e96a5d81603dc91e4fc47a2b412d4140f85d
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 65f1246185584b5887d97bb9188b43e016e78e8f
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "80752041"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83279241"
 ---
 # <a name="connect-to-the-hospital-emergency-response-decision-support-dashboard"></a>连接到医院紧急响应决策支持仪表板
 医院应急响应决策支持仪表板模板应用是[用于医疗保健应急响应的 Microsoft Power Platform 解决方案](https://powerapps.microsoft.com/blog/emergency-response-solution-a-microsoft-power-platform-solution-for-healthcare-emergency-response/)的报告组件。 仪表板显示整个健康状况系统中紧急管理器的聚合数据，可帮助他们及时做出正确的决策。
@@ -86,21 +86,21 @@ ms.locfileid: "80752041"
 
 ## <a name="schedule-report-refresh"></a>计划报表刷新
 
-完成数据刷新后，[设置刷新计划](../refresh-scheduled-refresh.md)以保持报表数据为最新状态。
+完成数据刷新后，[设置刷新计划](../connect-data/refresh-scheduled-refresh.md)以保持报表数据为最新状态。
 
 1. 在顶部标题栏中，选择“Power BI”  。
 
    ![Power BI 痕迹导航](media/service-connect-to-health-emergency-response/service-health-emergency-response-app-powerbi-breadcrumb.png)
 
-1. 在左侧导航窗格中，查找“工作区”下的医院紧急响应决策支持仪表板工作区，然后按照[配置计划刷新](../refresh-scheduled-refresh.md)一文中所述的说明进行操作  。
+1. 在左侧导航窗格中，查找“工作区”下的医院紧急响应决策支持仪表板工作区，然后按照[配置计划刷新](../connect-data/refresh-scheduled-refresh.md)一文中所述的说明进行操作  。
 
 ## <a name="customize-and-share"></a>自定义和共享
 
-有关详细信息，请参阅[自定义和共享应用](../service-template-apps-install-distribute.md#customize-and-share-the-app)。 在发布或分发应用之前，请务必查看[报告免责声明](../create-reports/sample-covid-19-us.md#disclaimers)。
+有关详细信息，请参阅[自定义和共享应用](../connect-data/service-template-apps-install-distribute.md#customize-and-share-the-app)。 在发布或分发应用之前，请务必查看[报告免责声明](../create-reports/sample-covid-19-us.md#disclaimers)。
 
 ## <a name="next-steps"></a>后续步骤
 * [了解医院紧急响应报表](https://docs.microsoft.com/powerapps/sample-apps/emergency-response/deploy-configure#view-the-power-bi-dashboard)
 * [在 Power Apps 中设置并了解危机通信示例模板](https://docs.microsoft.com/powerapps/maker/canvas-apps/sample-crisis-communication-app)
 * 是否有任何问题? [尝试咨询 Power BI 社区](https://community.powerbi.com/)
-* [什么是 Power BI 模板应用？](../service-template-apps-overview.md)
-* [在组织中安装和分发模板应用](../service-template-apps-install-distribute.md)
+* [什么是 Power BI 模板应用？](../connect-data/service-template-apps-overview.md)
+* [在组织中安装和分发模板应用](../connect-data/service-template-apps-install-distribute.md)
