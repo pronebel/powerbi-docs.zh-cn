@@ -9,18 +9,18 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: reference
 ms.date: 06/18/2019
-ms.openlocfilehash: bb323737934ade08ed4998bdcf8d441e8951732c
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: fece594fa6236f01c707f0b84ddca977fb32dede
+ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "79379813"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83349278"
 ---
 # <a name="add-the-locale-in-power-bi-for-power-bi-visuals"></a>在 Power BI 中为 Power BI 视觉对象添加区域设置
 
 视觉对象可以检索 Power BI 区域设置，以将其内容本地化为相关语言。
 
-阅读有关 [Power BI 支持的语言和国家/地区](./../../supported-languages-countries-regions.md)的详细信息
+阅读有关 [Power BI 支持的语言和国家/地区](./../../fundamentals/supported-languages-countries-regions.md)的详细信息
 
 例如，在 Sample Bar Chart 视觉对象中获取区域设置。
 
@@ -45,7 +45,7 @@ this.locale = options.host.locale;
 
 受支持的区域设置：
 
-区域设置字符串 | Language
+区域设置字符串 | 语言
 --------------|----------------------
 ar-SA | العربية（阿拉伯语）
 bg-BG | български（保加利亚语）
@@ -153,7 +153,7 @@ zh-TW | 中國（繁体中文）
 
 ## <a name="setup-environment"></a>设置环境
 
-### <a name="desktop"></a>Desktop
+### <a name="desktop"></a>桌面
 
 对于桌面使用，请从 https://powerbi.microsoft.com 下载 Power BI Desktop 的本地化版本。
 

@@ -8,12 +8,12 @@ ms.topic: conceptual
 ms.date: 02/27/2020
 ms.author: painbar
 LocalizationGroup: ''
-ms.openlocfilehash: fc1f55fbadfaa6c25dd9140a41064eaa876013df
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 101217023576783a32491b21ba254d54736b27db
+ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "81525390"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83348197"
 ---
 # <a name="data-lineage"></a>数据世系
 在现代商业智能 (BI) 项目中，了解数据从数据源到其目标的流可能是一项挑战。 如果已生成跨多个数据源、项目和依赖项的高级分析项目，则该挑战甚至更艰巨。 “如果更改此数据会发生什么情况？” 或“为什么此报表不是最新的？”之类的问题 可能很难回答。 他们可能需要专家团队或进行深入调查才能找到答案。 我们设计了数据世系视图来帮助你回答这些问题。
@@ -88,9 +88,9 @@ Power BI 具有多种项目类型，如仪表板、报表、数据集和数据�
 
 ## <a name="considerations-and-limitations"></a>注意事项和限制
 
-- 世系视图在 Internet Explorer 中不可用。 有关详细信息，请参阅 [Power BI 支持的浏览器](../power-bi-browsers.md)。
+- 世系视图在 Internet Explorer 中不可用。 有关详细信息，请参阅 [Power BI 支持的浏览器](../fundamentals/power-bi-browsers.md)。
 
 ## <a name="next-steps"></a>后续步骤
 
-* [跨工作区使用数据集简介（预览）](../service-datasets-across-workspaces.md)
+* [跨工作区使用数据集简介（预览）](../connect-data/service-datasets-across-workspaces.md)
 * [数据集影响分析](service-dataset-impact-analysis.md)

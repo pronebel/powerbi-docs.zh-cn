@@ -8,12 +8,12 @@ ms.subservice: powerbi-admin
 ms.topic: conceptual
 ms.date: 01/03/2020
 ms.author: v-pemyer
-ms.openlocfilehash: b87848953722d33235a11729a3643c627cca7234
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: d9fd23a0cf5c3ed26c78e4c53ae600bf74daca91
+ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "79525605"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83348174"
 ---
 # <a name="migrate-sql-server-reporting-services-reports-to-power-bi"></a>将 SQL Server Reporting Services 报表迁移到 Power BI
 
@@ -37,7 +37,7 @@ ms.locfileid: "79525605"
 
 ### <a name="preparing-for-migration"></a>准备迁移
 
-在准备将报表迁移到 Power BI 时，请首先验证你的组织是否具有 [Power BI Premium](../service-premium-what-is.md) 订阅。 托管和运行 Power BI 分页报表将需要此订阅。
+在准备将报表迁移到 Power BI 时，请首先验证你的组织是否具有 [Power BI Premium](../admin/service-premium-what-is.md) 订阅。 托管和运行 Power BI 分页报表将需要此订阅。
 
 ### <a name="supported-versions"></a>支持的版本
 
@@ -112,12 +112,12 @@ Microsoft 可能会随时间对该工具进行改进。 并且还鼓励社区促
 
 “准备”阶段的目标是准备好一切事情  。 它包括设置 Power BI 环境、计划如何保护和发布报表，以及重新开发不会迁移的 SSRS 项的想法。
 
-1. 确保为 Power BI Premium 容量启用了[分页报表工作负荷](../service-admin-premium-workloads.md#paginated-reports)，并且该工作负荷具有足够的内存。
-1. 验证对报表[数据源](../paginated-reports/paginated-reports-data-sources.md)的支持，并设置 [Power BI 网关](../service-gateway-onprem.md)以允许与任何本地数据源连接。
-1. 熟悉 Power BI 安全性，并计划如何通过 [Power BI 工作区和工作区角色](../service-new-workspaces.md)[复制 SSRS 文件夹和权限](/sql/reporting-services/security/secure-folders)。
-1. 熟悉 Power BI 共享，并计划如何通过发布 [Power BI 应用](../service-create-distribute-apps.md)来分发内容。
-1. 考虑使用[共享 Power BI 数据集](../service-datasets-build-permissions.md)来代替 SSRS 共享数据源。
-1. 使用 [Power BI Desktop](../desktop-what-is-desktop.md) 来开发移动优化报表，可以使用 [Power KPI 自定义视觉对象](https://appsource.microsoft.com/product/power-bi-visuals/WA104381083?tab=Overview)来代替 SSRS 移动报表和 KPI。
+1. 确保为 Power BI Premium 容量启用了[分页报表工作负荷](../admin/service-admin-premium-workloads.md#paginated-reports)，并且该工作负荷具有足够的内存。
+1. 验证对报表[数据源](../paginated-reports/paginated-reports-data-sources.md)的支持，并设置 [Power BI 网关](../connect-data/service-gateway-onprem.md)以允许与任何本地数据源连接。
+1. 熟悉 Power BI 安全性，并计划如何通过 [Power BI 工作区和工作区角色](../collaborate-share/service-new-workspaces.md)[复制 SSRS 文件夹和权限](/sql/reporting-services/security/secure-folders)。
+1. 熟悉 Power BI 共享，并计划如何通过发布 [Power BI 应用](../collaborate-share/service-create-distribute-apps.md)来分发内容。
+1. 考虑使用[共享 Power BI 数据集](../connect-data/service-datasets-build-permissions.md)来代替 SSRS 共享数据源。
+1. 使用 [Power BI Desktop](../fundamentals/desktop-what-is-desktop.md) 来开发移动优化报表，可以使用 [Power KPI 自定义视觉对象](https://appsource.microsoft.com/product/power-bi-visuals/WA104381083?tab=Overview)来代替 SSRS 移动报表和 KPI。
 1. 重新计算报表中 UserID  内置字段的使用。 如果依赖于 UserID  来保护报表数据，则请注意，对于分页报表（在 Power BI 服务中托管时），它会返回用户主体名称 (UPN)。 因此，内置字段将返回诸如  m.blythe&commat;adventureworks.com 的内容，而不会返回 NT 帐户名称，例如 AW\mblythe  。 你将需要修订数据集定义，可能还需要修订源数据。 修订并发布后，建议全面测试报表，以确保数据权限按预期方式工作。
 1. 重新计算报表中 ExecutionTime  内置字段的使用。 对于分页报表（在 Power BI 服务中托管时），内置字段以协调世界时（或 UTC）  返回日期/时间。 这可能会影响报表参数默认值和报表执行时间标签（通常被添加到报表页脚）。
 1. 如果你的数据源是 SQL Server（本地），请验证报表是否未使用地图可视化效果。 地图可视化效果依赖于 SQL Server 空间数据类型，网关不支持这些数据类型。 有关详细信息，请参阅[分页报表的数据检索指南（SQL Server 复杂数据类型）](report-paginated-data-retrieval.md#sql-server-complex-data-types)。
@@ -171,9 +171,9 @@ Microsoft 可能会随时间对该工具进行改进。 并且还鼓励社区促
 
 我们强烈建议你完成以下操作，以确保获得尽可能最佳的报表用户体验：
 
-1. 在 [Power BI 支持的每个浏览器](../power-bi-browsers.md)中测试报表，以确认报表呈现正确。
+1. 在 [Power BI 支持的每个浏览器](../fundamentals/power-bi-browsers.md)中测试报表，以确认报表呈现正确。
 1. 运行测试以比较 SSRS 和 Power BI 中的报表呈现时间。 检查 Power BI 报表是否能够在可接受的时间内呈现。
-1. 如果 Power BI 报表由于内存不足而无法呈现，[请为 Power BI Premium 容量分配其他资源](../service-admin-premium-workloads.md#paginated-reports)。
+1. 如果 Power BI 报表由于内存不足而无法呈现，[请为 Power BI Premium 容量分配其他资源](../admin/service-admin-premium-workloads.md#paginated-reports)。
 1. 对于长时间呈现的报表，请考虑让 Power BI 将它们作为[带有报表附件的电子邮件订阅](../consumer/paginated-reports-subscriptions.md)传递给报表用户。
 1. 对于基于 Power BI 数据集的 Power BI 报表，请查看模型设计，以确保它们已完全优化。
 
@@ -183,8 +183,8 @@ Microsoft 可能会随时间对该工具进行改进。 并且还鼓励社区促
 
 有关这些问题的更多信息，包括了解和缓解这些问题的具体步骤，请参阅以下文章：
 
-- [优化 Premium 容量](../service-premium-capacity-optimize.md)
-- [使用应用监视 Premium 容量](../service-admin-premium-monitor-capacity.md)
+- [优化 Premium 容量](../admin/service-premium-capacity-optimize.md)
+- [使用应用监视 Premium 容量](../admin/service-admin-premium-monitor-capacity.md)
 
 ## <a name="next-steps"></a>后续步骤
 
@@ -195,7 +195,7 @@ Microsoft 可能会随时间对该工具进行改进。 并且还鼓励社区促
 - [何时使用 Power BI 中的分页报表](report-paginated-or-power-bi.md)
 - [Power BI 中的分页报表：常见问题解答](../paginated-reports/paginated-reports-faq.md)
 - [在线课程：一天玩转分页报表](../paginated-reports/paginated-reports-online-course.md)
-- [Power BI Premium 常见问题解答](../service-premium-faq.md)
+- [Power BI Premium 常见问题解答](../admin/service-premium-faq.md)
 - [RDL 迁移工具](https://github.com/microsoft/RdlMigration)
 - 是否有任何问题? [尝试咨询 Power BI 社区](https://community.powerbi.com/)
 - 建议？ [提出改进 Power BI 的想法](https://ideas.powerbi.com)

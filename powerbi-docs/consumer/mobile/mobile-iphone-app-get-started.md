@@ -8,12 +8,12 @@ ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 02/10/2020
 ms.author: painbar
-ms.openlocfilehash: c766393c9a4c81c484afe6f934e1ebb8314d0fb9
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 56b3a4f67f5bc6dda777ea7c94b92c65abb4f3b0
+ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "77426624"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83349393"
 ---
 # <a name="get-started-with-the-power-bi-mobile-app-on-ios-devices"></a>iOS 设备上的 Power BI 移动应用入门
 iPhone 和 iPad 上的 iOS 版 Microsoft Power BI 应用提供了 Power BI、Power BI 报表服务器和 Reporting Services 的移动 BI 体验。 通过触控移动设备实现的实时访问，可以随时随地查看本地和云中的公司仪表板，并与之进行交互。 然后，可以浏览仪表板中的数据，并通过电子邮件或短信的方式将数据与同事共享。 在你的 [Apple Watch](mobile-apple-watch.md) 上保持最新的数据。  
@@ -22,7 +22,7 @@ iPhone 和 iPad 上的 iOS 版 Microsoft Power BI 应用提供了 Power BI、Pow
 
 可以在 Power BI Desktop 中创建 Power BI 报表，然后发布报表：
 
-* [将报表发布到 Power BI 服务中](../../service-get-started.md)，并创建仪表板。
+* [将报表发布到 Power BI 服务中](../../fundamentals/service-get-started.md)，并创建仪表板。
 * [在本地将报表发布到 Power BI 报表服务器中](../../report-server/quickstart-create-powerbi-report.md)。
 
 然后，即可在 iOS 版 Power BI 移动应用中与本地或云中的仪表板和报表进行交互。
@@ -79,11 +79,9 @@ iPhone 和 iPad 上的 iOS 版 Microsoft Power BI 应用提供了 Power BI、Pow
 > 如果在 iOS 设备上使用 Power BI 移动应用，并且组织已配置 Microsoft Intune MAM，则会关闭后台数据刷新。 在你下次进入应用时，Power BI 会刷新 Power BI 服务 Web 数据。
 > 
 
-详细了解[如何使用 Microsoft Intune 配置 Power BI 移动应用](../../service-admin-mobile-intune.md)。 
+详细了解[如何使用 Microsoft Intune 配置 Power BI 移动应用](../../admin/service-admin-mobile-intune.md)。 
 
 ## <a name="next-steps"></a>后续步骤
 
 * [什么是 Power BI？](../../fundamentals/power-bi-overview.md)
 * 是否有任何问题? [尝试咨询 Power BI 社区](https://community.powerbi.com/)
-
-

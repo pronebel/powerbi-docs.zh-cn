@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 02/27/2020
-ms.openlocfilehash: 6ee1740d536a1bfd248b91d002142470b3894180
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 3ce1ae5207af6f4aaf844679bcd3ae52d2c13819
+ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "79381298"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83348151"
 ---
 # <a name="whats-new-in-power-bi-report-server"></a>Power BI 报表服务器中的新增功能
 
@@ -23,8 +23,8 @@ ms.locfileid: "79381298"
 
 若要了解相关的 Power BI“新增功能”信息，请参阅：
 
-* [Power BI 服务中的最近更新](../service-whats-new.md)
-* [Power BI Desktop 中的新增功能](../desktop-latest-update.md)
+* [Power BI 服务中的最近更新](../fundamentals/service-whats-new.md)
+* [Power BI Desktop 中的新增功能](../fundamentals/desktop-latest-update.md)
 * [Power BI 移动应用中的新增功能](../consumer/mobile/mobile-whats-new-in-the-mobile-apps.md)
 
 ## <a name="january-2020"></a>2020 年 1 月
@@ -128,7 +128,7 @@ ms.locfileid: "79381298"
 
 报表创建者打开 .pbids 文件时，Power BI Desktop 会提示进行身份验证以连接到文件中指定的数据源。 然后，用户选择要加载到模型中的表。 如果未在文件中指定数据库，则他们可能还需要选择数据库。 现在，报表创建者可以开始生成可视化效果。
 
-在“Power BI Desktop 中的数据源”一文的[使用 .pbids 文件获取数据](../desktop-data-sources.md#using-pbids-files-to-get-data)部分中找到详细信息和示例。
+在“Power BI Desktop 中的数据源”一文的[使用 .pbids 文件获取数据](../connect-data/desktop-data-sources.md#using-pbids-files-to-get-data)部分中找到详细信息和示例。
 
 *建模操作的性能改进*
 
@@ -239,11 +239,11 @@ Power BI 报表服务器的 2019 年 9 月更新包含大量 Power BI 报表功�
 
 #### <a name="performance-analyzer"></a>性能分析器 
 
-如果报表的运行速度比预期慢，请尝试使用 Power BI Desktop 中的性能分析器。 启动时，它会创建日志文件，其中包含有关在报表中执行的每个操作的信息。 详细了解[性能分析器](../desktop-performance-analyzer.md)。
+如果报表的运行速度比预期慢，请尝试使用 Power BI Desktop 中的性能分析器。 启动时，它会创建日志文件，其中包含有关在报表中执行的每个操作的信息。 详细了解[性能分析器](../create-reports/desktop-performance-analyzer.md)。
 
 #### <a name="new-modeling-view"></a>新的建模视图
 
-在 Power BI Desktop 中的新建模视图中，可以查看和使用包含许多表的复杂数据集。 要点包括多种图表布局以及对列、度量值和表的批量编辑。 详细了解[建模视图](../desktop-modeling-view.md)。
+在 Power BI Desktop 中的新建模视图中，可以查看和使用包含许多表的复杂数据集。 要点包括多种图表布局以及对列、度量值和表的批量编辑。 详细了解[建模视图](../transform-model/desktop-modeling-view.md)。
 
 #### <a name="accessible-visual-interaction"></a>可访问的视觉对象交互
 
@@ -251,11 +251,11 @@ Power BI 报表服务器的 2019 年 9 月更新包含大量 Power BI 报表功�
 
 #### <a name="conditional-formatting-titles-and-web-url-actions"></a>条件格式设置标题和 Web URL 操作
 
-Power BI 报表为交互式报表。 报表中的标题为动态标题具有意义，因为可反映报表的当前状态。 可使用相同的表达式绑定格式来使按钮、形状和图像的 URL 动态化。 详细了解[基于表达式的标题](../desktop-conditional-format-visual-titles.md)。
+Power BI 报表为交互式报表。 报表中的标题为动态标题具有意义，因为可反映报表的当前状态。 可使用相同的表达式绑定格式来使按钮、形状和图像的 URL 动态化。 详细了解[基于表达式的标题](../create-reports/desktop-conditional-format-visual-titles.md)。
 
 #### <a name="cross-highlight-by-axis-labels"></a>通过轴标签交叉突出显示
 
-选择视觉对象中的轴类别标签以交叉突出显示页面上的其他元素，就像选择视觉对象中的数据点一样。 详细了解[交叉突出显示](../power-bi-reports-filters-and-highlighting.md#ad-hoc-highlighting)。
+选择视觉对象中的轴类别标签以交叉突出显示页面上的其他元素，就像选择视觉对象中的数据点一样。 详细了解[交叉突出显示](../create-reports/power-bi-reports-filters-and-highlighting.md#ad-hoc-highlighting)。
 
 #### <a name="all-the-new-features"></a>所有新功能
 

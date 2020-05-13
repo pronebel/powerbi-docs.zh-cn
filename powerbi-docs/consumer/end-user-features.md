@@ -10,12 +10,12 @@ ms.topic: how-to
 ms.date: 04/17/2020
 ms.author: mihart
 LocalizationGroup: consumers
-ms.openlocfilehash: 4c4b923199ccd35433b7bf743314395fc70bbe30
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 088844ccf52a67cfd67590e62a2dd8cab83add66
+ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "82065703"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83348404"
 ---
 # <a name="power-bi-feature-list-for-consumers-and-others-with-free-licenses"></a>面向使用者和拥有免费许可证的其他用户的 Power BI 功能列表 
 
@@ -23,7 +23,7 @@ ms.locfileid: "82065703"
 
 作为“使用者”，你可以使用 Power BI 服务来浏览报表和仪表板，以便做出业务决策  。 这些报表和仪表板由拥有 Power BI Pro 许可证的设计人员创建   。 Pro 用户可以与同事共享内容，并控制同事可对该内容执行哪些操作。 有时，设计人员通过向你发送链接来共享内容，有时这些内容会自动安装并显示在 Power BI 的“应用”或“与我共享”下   。
 
-设计人员可以通过多种方式共享内容。 但由于本文面向 Power BI 使用者，因此将仅介绍使用者如何接收内容并与内容交互  。 有关共享内容的其他方式的详细信息，请参阅[在 Power BI 中共享工作的方式](../service-how-to-collaborate-distribute-dashboards-reports.md)。
+设计人员可以通过多种方式共享内容。 但由于本文面向 Power BI 使用者，因此将仅介绍使用者如何接收内容并与内容交互  。 有关共享内容的其他方式的详细信息，请参阅[在 Power BI 中共享工作的方式](../collaborate-share/service-how-to-collaborate-distribute-dashboards-reports.md)。
 
 ![Power BI 导航窗格](media/end-user-features/power-bi-share.png)
 
@@ -47,7 +47,7 @@ ms.locfileid: "82065703"
 ### <a name="licenses"></a>许可证 
 每个 Power BI 服务用户都有免费许可证或 Pro 许可证。 使用者拥有免费许可证  。
 
-- 免费许可证 - 通常分配给组织内的使用者（见下面第一幅图）   。 也可分配给任何以个人身份注册 Power BI 服务并想试用[独立模式下的 Power BI 服务](../service-self-service-signup-for-power-bi.md)的人使用（见下面第二幅图）。 
+- 免费许可证 - 通常分配给组织内的使用者（见下面第一幅图）   。 也可分配给任何以个人身份注册 Power BI 服务并想试用[独立模式下的 Power BI 服务](../fundamentals/service-self-service-signup-for-power-bi.md)的人使用（见下面第二幅图）。 
 
     ![屏幕显示免费版用户](media/end-user-features/power-bi-free-organization.png)
 

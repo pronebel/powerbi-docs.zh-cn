@@ -8,19 +8,19 @@ ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 03/11/2020
 ms.author: painbar
-ms.openlocfilehash: 0bbdc13e1adf52ba90435f22920e4351e8f34404
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: cfbffaa06f3cfc393ba3381adbfc1a7613c2f0c1
+ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "79435941"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83349347"
 ---
 # <a name="get-started-with-the-power-bi-mobile-app-for-windows-10"></a>适用于 Windows 10 的 Power BI 移动应用入门
 通过适用于 Windows 10 的 Power BI 移动应用，可以在平板电脑或手机上使用 Power BI。 可通过触控式移动设备访问最新业务信息。 在任何地方查看公司仪表板并与之进行交互 - 就在 [Windows 开始屏幕](mobile-pin-dashboard-start-screen-windows-10-phone-app.md)上查看。
 
 ![Windows 动态磁贴](./media/mobile-windows-10-phone-app-get-started/pbi_win10_livetile.gif)
 
-你可以使用数据[在 Power BI 服务中创建仪表板和报表](../../service-get-started.md)。 
+你可以使用数据[在 Power BI 服务中创建仪表板和报表](../../fundamentals/service-get-started.md)。 
 
 然后与仪表板和报表进行交互、浏览数据、并将其共享，所有这些操作都可以通过适用于 Windows 10 的 Power BI 移动应用完成。
 
@@ -38,7 +38,7 @@ ms.locfileid: "79435941"
 如果尚未注册，请访问 [Power BI 服务](https://powerbi.com/)。 注册自己的帐户，以便创建和存储仪表板和报表，并集合数据。 然后，从 Windows 10 设备登录到 Power BI，即可在任何地方查看你的仪表板。
 
 1. 在 Power BI 服务中点击[注册](https://go.microsoft.com/fwlink/?LinkID=513879)创建 Power BI 帐户。
-2. 开始[创建自己的仪表板和报表](../../service-get-started.md)。
+2. 开始[创建自己的仪表板和报表](../../fundamentals/service-get-started.md)。
 
 ## <a name="get-started-with-the-power-bi-app"></a>Power BI 应用入门
 1. 在 Windows 10 设备的开始屏幕上，打开 Power BI 应用。
@@ -110,7 +110,7 @@ ms.locfileid: "79435941"
 下面介绍了还可以在适用于 Windows 10 设备的 Power BI 应用中对 Power BI 中的仪表板和报表，以及 Reporting Services Web 门户中的 Reporting Services 移动报表和 KPI 执行哪些操作。
 
 ### <a name="power-bi-dashboards-and-reports"></a>Power BI 仪表板和报表
-* 查看[你的应用](../../service-create-distribute-apps.md)。
+* 查看[你的应用](../../collaborate-share/service-create-distribute-apps.md)。
 * 查看你的[仪表板](mobile-apps-view-dashboard.md)。
 * [将 Power BI 磁贴和仪表板作为动态磁贴固定到设备的开始屏幕](mobile-pin-dashboard-start-screen-windows-10-phone-app.md)。
 * [共享磁贴](mobile-windows-10-phone-app-get-started.md)。
@@ -125,4 +125,3 @@ ms.locfileid: "79435941"
 * 从 Windows 应用商店[下载 Power BI 应用](https://go.microsoft.com/fwlink/?LinkID=526478)。  
 * [什么是 Power BI？](../../fundamentals/power-bi-overview.md)
 * 是否有任何问题? [尝试咨询 Power BI 社区](https://community.powerbi.com/)
-

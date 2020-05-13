@@ -8,12 +8,12 @@ ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 03/11/2020
 ms.author: painbar
-ms.openlocfilehash: c757534ba0d93fb5eb04f10ee7b8792c8c9e4af3
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 31d3ee405f77acaa47bb158ddde97778a8af9ff0
+ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "79435780"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83349324"
 ---
 # <a name="share-a-dashboard-or-report-from-the-power-bi-mobile-apps"></a>在 Power BI 移动应用中共享仪表板或报表
 适用于：
@@ -25,7 +25,7 @@ ms.locfileid: "79435780"
 >[!NOTE]
 >我们将于 2021 年 3 月 16 日终止对使用 Windows 10 移动版的手机提供 Power BI 移动应用支持  。 [了解详细信息](https://go.microsoft.com/fwlink/?linkid=2121400)
 
-使用 [Power BI Pro 许可证](../../service-features-license-type.md)，可以从 Power BI 移动应用共享链接，邀请他人查看仪表板和报表。 可以与组织内外的任何人共享，无论他/她是否拥有公司邮件帐户。 共享对象也必须具有 Power BI Pro 许可证，否则内容必须位于[高级容量](../../service-premium-what-is.md)中。
+使用 [Power BI Pro 许可证](../../fundamentals/service-features-license-type.md)，可以从 Power BI 移动应用共享链接，邀请他人查看仪表板和报表。 可以与组织内外的任何人共享，无论他/她是否拥有公司邮件帐户。 共享对象也必须具有 Power BI Pro 许可证，否则内容必须位于[高级容量](../../admin/service-premium-what-is.md)中。
 
 从适用于 iOS 和 Android 的 Power BI 移动应用中，还可以[批注并共享磁贴、报表或视觉对象的快照](mobile-annotate-and-share-a-tile-from-the-mobile-apps.md)。 
 
@@ -42,7 +42,7 @@ ms.locfileid: "79435780"
    * 在 Power BI 移动应用上，点击导航栏上的“更多选项”(...)，然后选择 **与我共享**“与我共享”![](./././media/mobile-share-dashboard-from-the-mobile-apps/power-bi-shared-with-me-icon.png)  。
    * 在 Power BI 服务中，单击左侧导航窗格中的 ![与我共享](./././media/mobile-share-dashboard-from-the-mobile-apps/power-bi-shared-with-me-icon.png)“与我共享”  。
    
-   详细了解[与同事共享的相关说明](../../service-share-dashboards.md)。
+   详细了解[与同事共享的相关说明](../../collaborate-share/service-share-dashboards.md)。
 
 ### <a name="unshare-from-your-iphone-or-ipad"></a>从 iPhone 或 iPad 中取消共享
 只有你是所有者才能取消共享。
@@ -67,7 +67,7 @@ ms.locfileid: "79435780"
    * 在 Power BI 移动应用上，点击导航栏上的“更多选项”(...)，然后选择 **与我共享**“与我共享”![](./././media/mobile-share-dashboard-from-the-mobile-apps/power-bi-shared-with-me-icon.png)  。
    * 在 Power BI 服务中，单击左侧导航窗格中的 ![与我共享](./././media/mobile-share-dashboard-from-the-mobile-apps/power-bi-shared-with-me-icon.png)“与我共享”  。
    
-   详细了解[与同事共享的相关说明](../../service-share-dashboards.md)。
+   详细了解[与同事共享的相关说明](../../collaborate-share/service-share-dashboards.md)。
 
 
 ### <a name="unshare-from-your-android-device"></a>取消从 Android 设备中共享
@@ -97,10 +97,9 @@ ms.locfileid: "79435780"
    * 在 Power BI 移动应用上，点击导航栏上的“更多选项”(...)，然后选择 **与我共享**“与我共享”![](./././media/mobile-share-dashboard-from-the-mobile-apps/power-bi-shared-with-me-icon.png)  。
    * 在 Power BI 服务中，单击左侧导航窗格中的 ![与我共享](./././media/mobile-share-dashboard-from-the-mobile-apps/power-bi-shared-with-me-icon.png)“与我共享”  。
    
-   详细了解[与同事共享的相关说明](../../service-share-dashboards.md)。
+   详细了解[与同事共享的相关说明](../../collaborate-share/service-share-dashboards.md)。
 
 ## <a name="next-steps"></a>后续步骤
 * [在移动应用中批注并共享磁贴、报表或视觉对象的快照](mobile-annotate-and-share-a-tile-from-the-mobile-apps.md)
-* [共享 Power BI 中的仪表板或报表](../../service-share-dashboards.md)
+* [共享 Power BI 中的仪表板或报表](../../collaborate-share/service-share-dashboards.md)
 * 是否有任何问题？ [尝试咨询 Power BI 社区](https://community.powerbi.com/)
-

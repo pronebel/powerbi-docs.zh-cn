@@ -8,19 +8,19 @@ ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 05/05/2020
 ms.author: painbar
-ms.openlocfilehash: 8235f95d724b34e7ea815579e6f8ed6a1f71e409
-ms.sourcegitcommit: 220910f0b68cb1e265ccd5ac0cee4ee9c6080b26
+ms.openlocfilehash: dd3d3702524bc8939720a177dcdcc291081542f4
+ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "82841701"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83349255"
 ---
 # <a name="whats-new-in-the-mobile-apps-for-power-bi"></a>Power BI 移动应用中的新功能
 有关相关的“新增功能”的信息，请参阅：
 
 * [适用于移动应用的 Power BI 工作组日志](https://powerbi.microsoft.com/blog/tag/mobile/)
-* [Power BI Desktop 中的新增功能](../../desktop-latest-update.md)  
-* [Power BI 服务中的最近更新](../../service-whats-new.md)
+* [Power BI Desktop 中的新增功能](../../fundamentals/desktop-latest-update.md)  
+* [Power BI 服务中的最近更新](../../fundamentals/service-whats-new.md)
 
 >[!NOTE]
 >我们将于 2021 年 3 月 16 日终止对使用 Windows 10 移动版的手机提供 Power BI 移动应用支持  。 [了解详细信息](https://go.microsoft.com/fwlink/?linkid=2121400)
@@ -476,7 +476,7 @@ Power BI for Mixed Reality 应用现已在 Microsoft Store 上架。 可以沉�
 
 ### <a name="june-2107"></a>2017 年 6 月
 #### <a name="all-devices"></a>所有设备
-**收藏应用**：已可以收藏仪表板。 最近，[Power BI 中添加了应用](../../service-create-distribute-apps.md)，现在也可以收藏应用了。 
+**收藏应用**：已可以收藏仪表板。 最近，[Power BI 中添加了应用](../../collaborate-share/service-create-distribute-apps.md)，现在也可以收藏应用了。 
 
 ### <a name="may-2017"></a>2017 年 5 月
 #### <a name="all-devices"></a>所有设备
@@ -493,7 +493,7 @@ Power BI for Mixed Reality 应用现已在 Microsoft Store 上架。 可以沉�
 请阅读 [2017 年 4 月移动应用功能摘要](https://powerbi.microsoft.com/blog/power-bi-mobile-apps-feature-summary-march-april-2017/)
 
 #### <a name="all-devices"></a>所有设备
- 手机报表的背景色 - 定义了 Power BI Desktop 中报表的背景色后，手机报表将具有相同的背景色。 有关[优化手机的报表页](../../desktop-create-phone-report.md)的详细信息。
+ 手机报表的背景色 - 定义了 Power BI Desktop 中报表的背景色后，手机报表将具有相同的背景色。 有关[优化手机的报表页](../../create-reports/desktop-create-phone-report.md)的详细信息。
 
  开发适合移动设备的 Power BI 视觉对象 - 阅读此[开发人员指南](https://github.com/Microsoft/PowerBI-visuals/blob/master/Tutorial/MobileGuideline.md)，了解在移动设备上创建外观精美、运行良好的 Power BI 视觉对象的提示。
 
@@ -553,7 +553,7 @@ Power BI for Mixed Reality 应用现已在 Microsoft Store 上架。 可以沉�
 #### <a name="all-devices"></a>所有设备
  加载表和矩阵中超过 100 行的数据 - 现在，如果仪表板或报表上有大型表或矩阵，我们会在磁贴中显示尽可能多的数据。 然后，可以在焦点模式下向下滚动加载其他行。
 
- 手机报表 - 公开发布 - Power BI 手机报表现已公开发布。 在 Power BI Desktop 中，可以为手机阅读器定制现有报表的纵向视图。 详细了解如何[在 Power BI Desktop 中创作移动报表](../../desktop-create-phone-report.md)和[手机报表体验](mobile-apps-view-phone-report.md)。
+ 手机报表 - 公开发布 - Power BI 手机报表现已公开发布。 在 Power BI Desktop 中，可以为手机阅读器定制现有报表的纵向视图。 详细了解如何[在 Power BI Desktop 中创作移动报表](../../create-reports/desktop-create-phone-report.md)和[手机报表体验](mobile-apps-view-phone-report.md)。
 
 #### <a name="ios"></a>iOS
  使用 Active Directory 联合身份验证服务 (ADFS) 预览进行 SSRS 身份验证 - 现在可以使用组织帐户从移动设备登录本地 SQL Server Reporting Services 服务器。 详细详细如何[使用 OAuth 连接 SSRS 服务器](mobile-oauth-ssrs.md)。
@@ -644,7 +644,7 @@ SandDance 可视化效果  - 现可在 Surface Hub 中使用此自定义可视�
 #### <a name="all-phones"></a>所有手机
 收藏夹  - 可在所有 Power BI 移动应用中查看最喜爱的仪表板，并在适用于 iOS 和 Windows 10 设备的 Power BI 移动应用中管理收藏夹列表。 阅读有关 [Power BI 移动应用中的收藏夹](mobile-apps-favorites.md) 的更多信息。
 
-仪表板数据分类  - 可查看仪表板所有者已向其仪表板分配的数据分类。 阅读有关[分类仪表板](../../service-data-classification.md)的更多信息。
+仪表板数据分类  - 可查看仪表板所有者已向其仪表板分配的数据分类。 阅读有关[分类仪表板](../../create-reports/service-data-classification.md)的更多信息。
 
 数据驱动警报  - 以预设的方式对 KPI、仪表和卡磁贴进行数据更改时，通过警报通知。 了解以下内容的详细信息：
 
@@ -659,14 +659,14 @@ iPad 上的焦点模式下的全屏磁贴  - 现在，在 iPad 上点击某个�
 
 支持 Intune MAM  - 新增对 Microsoft Intune 移动应用管理 (MAM) 功能的支持。
 
-详细了解 [Power BI 移动应用上的 Microsoft Intune](../../service-admin-mobile-intune.md)。
+详细了解 [Power BI 移动应用上的 Microsoft Intune](../../admin/service-admin-mobile-intune.md)。
 
 #### <a name="windows-10-devices"></a>Windows 10 设备
 全屏和演示模式  - 在 Surface Hub 上的演示模式下显示报表，并在 Windows 10 设备上的全屏模式下显示仪表板、报表和磁贴。
 
 ### <a name="july-2016"></a>2016 年 7 月
 #### <a name="all-phones"></a>所有手机
-现在，你可以在 Power BI 服务中[创建手机专用仪表板纵向模式视图](../../service-create-dashboard-mobile-phone-view.md)。 
+现在，你可以在 Power BI 服务中[创建手机专用仪表板纵向模式视图](../../create-reports/service-create-dashboard-mobile-phone-view.md)。 
 
 #### <a name="android-phones"></a>Android 手机
 收藏夹选项卡  - 从单个位置访问所有喜欢的仪表板。
@@ -795,7 +795,7 @@ SQL Server 2016 移动报表和 KPI - [查看 SQL Server 2016 移动报表和 KP
 
 R 磁贴和 Web 小组件  - 在移动设备上的仪表板中查看新磁贴类型。
 
-必应仪表板  - 在 Power BI 服务中，你现在可以[使用必应搜索结果创建仪表板](../../service-connect-to-services.md)，并在移动设备上查看它们。
+必应仪表板  - 在 Power BI 服务中，你现在可以[使用必应搜索结果创建仪表板](../../connect-data/service-connect-to-services.md)，并在移动设备上查看它们。
 
 将报表页作为磁贴固定到仪表板  - 现在可以在 Power BI 服务中将整个报表页固定到仪表板，所以可以在 iPhone 或 Android 手机上的 Power BI 应用中查看报表页。
 
@@ -805,41 +805,42 @@ R 磁贴和 Web 小组件  - 在移动设备上的仪表板中查看新磁贴类
 #### <a name="sql-server-2016-reporting-services-mobile-reports-in-ios"></a>iOS 中的 SQL Server 2016 Reporting Services 移动报表
 现在，你可以在 iOS 设备上（iPad 或 iPhone）的 Power BI 应用中查看 SQL Server 移动报表。 阅读更多资料：
 
-* [适用于 iOS 的 Power BI 应用上的 SQL 16 SSRS](https://blogs.msdn.com/b/powerbi/archive/2015/12/30/sql-16-ssrs-on-power-bi-app-for-ios.aspx) 博客文章
+* [适用于 iOS 的 Power BI 应用上的 SQL 16 SSRS](https://powerbi.microsoft.com/blog/sql-16-ssrs-on-power-bi-app-for-ios/
+) 博客文章
 * [在 iPhone 和 iPad 应用中查看 SQL Server 移动报表和 KPI](mobile-app-ssrs-kpis-mobile-on-premises-reports.md) 文档
 
 #### <a name="power-bi-app-for-windows-10-phones"></a>适用于 Windows 10 手机的 Power BI 应用
 适用于 Windows 10 手机的新 Power BI 应用针对触控和移动工作效率进行了优化。 浏览仪表板和报表、邀请同事查看数据，并通过电子邮件分享见解以便和你的团队建立联系。 你还可以[将 Power BI 仪表板固定到 Windows 手机的开始屏幕](mobile-pin-dashboard-start-screen-windows-10-phone-app.md)。
 
-* 阅读[适用于 Windows 10 手机的 Power BI 应用博客文章](https://blogs.msdn.com/b/powerbi/archive/2015/12/30/announcing-the-power-bi-app-for-windows-10-mobile.aspx)。
+* 阅读[适用于 Windows 10 手机的 Power BI 应用博客文章](https://powerbi.microsoft.com/blog/announcing-the-power-bi-app-for-windows-10-mobile/)。
 * [适用于 Windows 10 手机的 Power BI 应用入门](mobile-windows-10-phone-app-get-started.md)。
 
 #### <a name="other-additions"></a>其他新增功能：
-阅读 [Power BI 移动应用 12 月博客文章](https://blogs.msdn.com/b/powerbi/archive/2015/12/30/power-bi-mobile-apps-update-_2d00_-december-2015.aspx)以获取更多详细信息。
+阅读 [Power BI 移动应用 12 月博客文章](https://powerbi.microsoft.com/blog/power-bi-mobile-apps-update-2d00-december-2015/)以获取更多详细信息。
 
 * 当同事与你共享仪表板时收到通知。 (iOS)
 * 在仪表板中查看固定的整个报表页。 （iOS 和 Android）
-* [扫描 QR 代码](https://blogs.msdn.com/b/powerbi/archive/2015/12/08/bridge-the-gap-between-your-physical-world-and-your-bi-using-qr-codes.aspx)并直接转到 Android 手机上的相关磁贴。
+* [扫描 QR 代码](https://powerbi.microsoft.com/blog/bridge-the-gap-between-your-physical-world-and-your-bi-using-qr-codes/)并直接转到 Android 手机上的相关磁贴。
 
 ### <a name="november-2015"></a>2015 年 11 月
-阅读 [2015 年 11 月 Power BI 移动博客文章](https://blogs.msdn.com/b/powerbi/archive/2015/11/24/power-bi-mobile-apps-update-_2d00_-november-2015.aspx)。
+阅读 [2015 年 11 月 Power BI 移动博客文章](https://powerbi.microsoft.com/blog/power-bi-mobile-apps-update-2d00-november-2015/)。
 
 #### <a name="all-power-bi-mobile-apps"></a>所有 Power BI 移动应用
 * 全新的欢迎体验。
 * 改进的图表数据容量。
 
 #### <a name="ios-and-android-mobile-apps"></a>iOS 和 Android 移动应用
-* 现在，企业可以[使用 Microsoft Intune 来配置适用于 iOS 和 Android 的 Power BI 移动应用](../../service-admin-mobile-intune.md)以管理设备和应用程序。
+* 现在，企业可以[使用 Microsoft Intune 来配置适用于 iOS 和 Android 的 Power BI 移动应用](../../admin/service-admin-mobile-intune.md)以管理设备和应用程序。
 
 #### <a name="iphone-mobile-app"></a>iPhone 移动应用
 * [直接从 iPhone 将图片磁贴添加到仪表板](mobile-iphone-app-get-started.md)。
-* [在 Power BI 服务中创建 QR 代码](../../service-create-qr-code-for-tile.md)，然后在 iPhone 上扫描 QR 代码以便在特定磁贴中打开 Power BI 应用。
+* [在 Power BI 服务中创建 QR 代码](../../create-reports/service-create-qr-code-for-tile.md)，然后在 iPhone 上扫描 QR 代码以便在特定磁贴中打开 Power BI 应用。
 
 #### <a name="the-power-bi-app-for-windows-devices"></a>适用于 Windows 设备的 Power BI 应用
-* [直接从磁贴链接到特定的 URL](../../service-dashboard-edit-tile.md#hyperlink)。
+* [直接从磁贴链接到特定的 URL](../../create-reports/service-dashboard-edit-tile.md#hyperlink)。
 
 ### <a name="october-2015"></a>2015 年 10 月
-阅读 [10 月中旬的 Power BI 移动博客文章](https://blogs.msdn.com/b/powerbi/archive/2015/10/21/power-bi-mobile-mid-october-updates-are-here.aspx)。
+阅读 [10 月中旬的 Power BI 移动博客文章](https://powerbi.microsoft.com/blog/power-bi-mobile-mid-october-updates-are-here/)。
 
 #### <a name="all-power-bi-mobile-apps"></a>所有 Power BI 移动应用
 * 具有基于百分比的 y 轴的折线图现在根据实际数据计算可视化范围。 现在该图从图表的最低数据点开始，而不是从默认值开始。
@@ -851,12 +852,12 @@ R 磁贴和 Web 小组件  - 在移动设备上的仪表板中查看新磁贴类
 * 时刻关注组的最新仪表板 -- 每当团队成员将仪表板添加到你的一个组时，就会在 iPhone 上收到通知。
   
     ![](media/mobile-whats-new-in-the-mobile-apps/pbi_iph_grpdashalertcrop.png)
-* 你现在可以水平查看仪表板，只需旋转你的手机。 阅读更多有关 [iPhone 应用中的横向模式](https://blogs.msdn.com/b/powerbi/archive/2015/11/02/enjoy-the-landscape-with-the-power-bi-iphone-app.aspx)的内容。
+* 你现在可以水平查看仪表板，只需旋转你的手机。 阅读更多有关 [iPhone 应用中的横向模式](https://powerbi.microsoft.com/blog/enjoy-the-landscape-with-the-power-bi-iphone-app/)的内容。
   
     ![](media/mobile-whats-new-in-the-mobile-apps/pbi_iph_landscape.png)
 
 ### <a name="september-2015"></a>2015 年 9 月
-Power BI 移动应用中的改进 -- Android、iOS（iPhone 和 iPad）和 Windows。 阅读 [9 月中旬的 Power BI 移动博客文章](https://blogs.msdn.com/b/powerbi/archive/2015/09/23/power-bi-mobile-mid-september-updates-are-here.aspx)。
+Power BI 移动应用中的改进 -- Android、iOS（iPhone 和 iPad）和 Windows。 阅读 [9 月中旬的 Power BI 移动博客文章](https://powerbi.microsoft.com/blog/power-bi-mobile-mid-september-updates-are-here/)。
 
 #### <a name="android"></a>Android
 * 支持组工作区 - 与组工作区中的同事协作。 

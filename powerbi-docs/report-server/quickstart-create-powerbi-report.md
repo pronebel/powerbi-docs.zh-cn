@@ -8,12 +8,12 @@ ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 02/03/2020
 ms.author: maggies
-ms.openlocfilehash: 69ebfa9b1d2ef500b388a1bbb57926dc53ff2607
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: efc316e93bea9cfc1b3f429657ac2810e13f4e63
+ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "76975001"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83349462"
 ---
 # <a name="create-a-power-bi-report-for-power-bi-report-server"></a>为 Power BI 报表服务器创建 Power BI 报表
 可以在 Power BI 报表服务器 Web 门户中在本地存储和管理 Power BI 报表，就像在 Power BI 服务 (https://powerbi.com) ) 中的云中存储 Power BI 报表一样。 可以在 Power BI Desktop 中创建和编辑报表，并将其发布到 Web 门户中。 接下来，组织中的报表读取器可以在浏览器或移动设备上的 Power BI 移动应用中查看报表。
@@ -79,7 +79,7 @@ ms.locfileid: "76975001"
 2. 将要计入的字段拖到“值”  井中。 如果不是数值字段，Power BI Desktop 会自动将其转换成值计数  。
 3. 将要分组的字段拖到“组”  井中。
 
-请阅读有关[设计 Power BI 报表](../desktop-report-view.md)的详细信息。
+请阅读有关[设计 Power BI 报表](../create-reports/desktop-report-view.md)的详细信息。
 
 ## <a name="step-4-save-your-report-to-the-report-server"></a>步骤 4：将报表保存到报表服务器
 创建并设计完报表后，可以将其保存到步骤 2 中所选的 Power BI 报表服务器。
@@ -98,7 +98,7 @@ ms.locfileid: "76975001"
 ### <a name="power-bi-desktop"></a>Power BI Desktop
 若要了解如何在 Power BI Desktop 中创建报表，可以参阅许多有价值的资源。 此链接是一个良好的开端。
 
-* [Power BI Desktop 入门](../desktop-getting-started.md)
+* [Power BI Desktop 入门](../fundamentals/desktop-getting-started.md)
 * 引导式学习：[浏览 Power BI Desktop](/learn/modules/get-data-power-bi/2-getting-started-power-bi-desktop)
 
 ### <a name="power-bi-report-server"></a>Power BI 报表服务器

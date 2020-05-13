@@ -9,12 +9,12 @@ ms.subservice: report-builder
 ms.topic: tutorial
 ms.date: 03/18/2020
 ms.author: v-pemyer
-ms.openlocfilehash: 5ff7891ce704ebaf8677df6f0872396ffa1b04a2
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: ada695b2a568358f96010feb320226437beeb075
+ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "81675641"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83349163"
 ---
 # <a name="online-course-power-bi-paginated-reports-in-a-day"></a>在线课程：一天玩转 Power BI 分页报表
 
@@ -100,11 +100,11 @@ ms.locfileid: "81675641"
 当准备开始第一个实验时，请打开 &lt;CourseFolder&gt;\PowerBIPRIAD\Lab01A\PowerBIPRIAD_Lab01A.pdf 文件  。 本文档将介绍如何登录 Power BI 服务，上传数据集，然后安装 [Power BI 报表生成器](report-builder-power-bi.md)。
 
 > [!NOTE]
-> 需要拥有自己的 Power BI 帐户。 如果还没有帐户，请参阅[以个人身份注册 Power BI](../service-self-service-signup-for-power-bi.md)。
+> 需要拥有自己的 Power BI 帐户。 如果还没有帐户，请参阅[以个人身份注册 Power BI](../fundamentals/service-self-service-signup-for-power-bi.md)。
 >
 > 必须登录 Power BI 才能将 Power BI Desktop 文件发布到工作区。 发布内容将生成用作报表数据源的数据集。 将数据集用作报表数据源不需要 Power BI Pro 许可证或 Power BI Premium 订阅。
 >
-> 但是，有些实验任务涉及将分页报表发布到工作区。 只有将分页报表保存到[专用容量](../service-premium-what-is.md#dedicated-capacities)上的工作区（启用了分页报表工作负载）时，才能打开该报表。 如果无法访问合适的工作区，系统将提供一个链接，用于观看演示报表发布的视频。
+> 但是，有些实验任务涉及将分页报表发布到工作区。 只有将分页报表保存到[专用容量](../admin/service-premium-what-is.md#dedicated-capacities)上的工作区（启用了分页报表工作负载）时，才能打开该报表。 如果无法访问合适的工作区，系统将提供一个链接，用于观看演示报表发布的视频。
 
 ## <a name="instructor-kit"></a>Instructor 工具包
 

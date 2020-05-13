@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 03/11/2020
 ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: 0d3bbbf9042d2b0d1a42ab9c1f759ccfd03c6609
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 3dcd968d00d98106a8b717e635b8a7fdf958dc70
+ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "79114381"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83347323"
 ---
 # <a name="view-related-content-in-the-power-bi-service"></a>查看 Power BI 服务中的相关内容
 
@@ -47,12 +47,12 @@ ms.locfileid: "79114381"
 
 ![“相关内容”窗格](./media/end-user-related/power-bi-view-related-dashboard.png)
 
-在此窗格中，可以直接对相关内容执行操作。  例如，选择报表或仪表板名称即可将其打开。  对于列出的报表，选择一个图标以[在 Excel 中分析](../service-analyze-in-excel.md)或[获取见解](end-user-insights.md)。 对于数据集，可以查看上次刷新日期和时间、[在 Excel 中分析](../service-analyze-in-excel.md)以及[获取见解](end-user-insights.md)。  
+在此窗格中，可以直接对相关内容执行操作。  例如，选择报表或仪表板名称即可将其打开。  对于列出的报表，选择一个图标以[在 Excel 中分析](../collaborate-share/service-analyze-in-excel.md)或[获取见解](end-user-insights.md)。 对于数据集，可以查看上次刷新日期和时间、[在 Excel 中分析](../collaborate-share/service-analyze-in-excel.md)以及[获取见解](end-user-insights.md)。  
 
 
 
 ## <a name="view-related-content-for-a-dataset"></a>查看数据集的相关内容
-至少要拥有对数据集的查看  权限，才能打开“相关内容”  窗格。 在此示例中，我们使用的是[“采购分析”示例](../sample-procurement.md)。
+至少要拥有对数据集的查看  权限，才能打开“相关内容”  窗格。 在此示例中，我们使用的是[“采购分析”示例](../create-reports/sample-procurement.md)。
 
 在导航窗格中，找到“工作区”  标题，并从列表选择一个工作区。 如果工作区中包含数据，它将显示在右侧的画布中。 
 
@@ -67,7 +67,7 @@ ms.locfileid: "79114381"
 
 ![“相关内容”窗格在 Power BI 内容视图顶部打开](media/end-user-related/power-bi-dataset.png)
 
-在此窗格中，可以直接对相关内容执行操作。 例如，选择仪表板或报表名称即可打开仪表板或报表。  对于列出的任何仪表板，可以选择用于[与其他用户共享仪表板](../service-share-dashboards.md)的图标，也可以打开仪表板的“设置”  窗口。 对于报表，可以选择用于[在 Excel 中分析](../service-analyze-in-excel.md)、[重命名](../service-rename.md)或[获取见解](end-user-insights.md)的图标。  
+在此窗格中，可以直接对相关内容执行操作。 例如，选择仪表板或报表名称即可打开仪表板或报表。  对于列出的任何仪表板，可以选择用于[与其他用户共享仪表板](../collaborate-share/service-share-dashboards.md)的图标，也可以打开仪表板的“设置”  窗口。 对于报表，可以选择用于[在 Excel 中分析](../collaborate-share/service-analyze-in-excel.md)、[重命名](../create-reports/service-rename.md)或[获取见解](end-user-insights.md)的图标。  
 
 ## <a name="limitations-and-troubleshooting"></a>限制和疑难解答
 * 若未看到“相关视图”，则改为查找![“相关视图”图标](./media/end-user-related/power-bi-view-related-icon-new.png)。 选择此图标，可以打开“相关内容”  窗格。
@@ -75,6 +75,5 @@ ms.locfileid: "79114381"
 * “相关内容”功能不适用于流数据集。
 
 ## <a name="next-steps"></a>后续步骤
-* [Power BI 服务入门](../service-get-started.md)
+* [Power BI 服务入门](../fundamentals/service-get-started.md)
 * 更多问题？ [尝试参与 Power BI 社区](https://community.powerbi.com/)
-

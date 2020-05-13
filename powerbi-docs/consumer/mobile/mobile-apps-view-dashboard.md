@@ -8,12 +8,12 @@ ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 03/11/2020
 ms.author: painbar
-ms.openlocfilehash: 3410d8fa8c2f9300fccbe47683a90cbca8ff8383
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 8a3a80ea7bb318944961a57ac6fdac695aa46253
+ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "79205518"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83349439"
 ---
 # <a name="view-dashboards-and-reports-in-the-power-bi-mobile-apps"></a>查看 Power BI 移动应用中的仪表板和报表
 适用于：
@@ -29,8 +29,8 @@ ms.locfileid: "79205518"
 
 要在移动设备上查看仪表板和报表，则需要在 Web 浏览器中创建或连接它们。 
 
-1. 转到 Power BI 服务 ([https://www.powerbi.com](https://www.powerbi.com)) 和[注册帐户](../../service-self-service-signup-for-power-bi.md)。
-2. [自行创建 Power BI 仪表板和报表](../../service-get-started.md)，或者连接到现有 [Power BI 应用](../../service-connect-to-services.md)来获取各种服务，例如 [Microsoft Dynamics CRM](../../service-connect-to-microsoft-dynamics-crm.md)。
+1. 转到 Power BI 服务 ([https://www.powerbi.com](https://www.powerbi.com)) 和[注册帐户](../../fundamentals/service-self-service-signup-for-power-bi.md)。
+2. [自行创建 Power BI 仪表板和报表](../../fundamentals/service-get-started.md)，或者连接到现有 [Power BI 应用](../../connect-data/service-connect-to-services.md)来获取各种服务，例如 [Microsoft Dynamics CRM](../../connect-data/service-connect-to-services.md)。
 
 此处是一个 Power BI 服务中的 Power BI 仪表板：
 
@@ -45,14 +45,14 @@ ms.locfileid: "79205518"
     ![点击“仪表板”](./media/mobile-apps-view-dashboard/power-bi-iphone-dashboard-home.png)
    
    * 黄色星标  ![收藏夹星标](././././media/mobile-apps-view-dashboard/power-bi-mobile-yes-favorite-icon.png) 表示仪表板已加入收藏夹。 
-   * 每个仪表板名称下面的批注（在此示例中为“MBI”）![数据分类](././media/mobile-apps-view-dashboard/power-bi-dashboard-ios-medium-classification.png)指明了每个仪表板中的数据分类方式。 阅读更多有关 [Power BI 中的数据分类](../../service-data-classification.md)。
+   * 每个仪表板名称下面的批注（在此示例中为“MBI”）![数据分类](././media/mobile-apps-view-dashboard/power-bi-dashboard-ios-medium-classification.png)指明了每个仪表板中的数据分类方式。 阅读更多有关 [Power BI 中的数据分类](../../create-reports/service-data-classification.md)。
    
    默认情况下，在 iPhone 上 Power BI 仪表板看起来稍有不同。 所有磁贴大小相同，从顶部到底部一个接一个排列。
    
     ![仪表板纵向视图](./media/mobile-apps-view-dashboard/power-bi-iphone-dashboard-portrait.png)
    
    > [!TIP]
-   > 如果你是仪表板所有者，则可以在 Power BI 服务中[创建手机专用仪表板纵向模式视图](../../service-create-dashboard-mobile-phone-view.md)。 
+   > 如果你是仪表板所有者，则可以在 Power BI 服务中[创建手机专用仪表板纵向模式视图](../../create-reports/service-create-dashboard-mobile-phone-view.md)。 
    > 
    > 
    
@@ -85,7 +85,7 @@ ms.locfileid: "79205518"
    ![主仪表板](./media/mobile-apps-view-dashboard/power-bi-ipad-dashboard-home.png)
    
    * 黄色星标  ![收藏夹星标](././././media/mobile-apps-view-dashboard/power-bi-mobile-yes-favorite-icon.png) 表示仪表板已加入收藏夹。 
-   * 每个仪表板名称下面的批注（在此示例中为“MBI”）![数据分类](././media/mobile-apps-view-dashboard/power-bi-dashboard-ios-medium-classification.png)指明了每个仪表板中的数据分类方式。 阅读更多有关 [Power BI 中的数据分类](../../service-data-classification.md)。
+   * 每个仪表板名称下面的批注（在此示例中为“MBI”）![数据分类](././media/mobile-apps-view-dashboard/power-bi-dashboard-ios-medium-classification.png)指明了每个仪表板中的数据分类方式。 阅读更多有关 [Power BI 中的数据分类](../../create-reports/service-data-classification.md)。
 3. 你可以从工作区中共享仪表板。 依次点击仪表板磁贴右下角的省略号 ( **...** ) 和“**邀请其他人**”。
    
    ![邀请图标](./media/mobile-apps-view-dashboard/power-bi-ipad-tile-invite-others.png)
@@ -109,13 +109,13 @@ ms.locfileid: "79205518"
 
     黄色星标  ![收藏夹星标](././././media/mobile-apps-view-dashboard/power-bi-mobile-yes-favorite-icon.png) 表示仪表板已加入收藏夹。 
 
-    仪表板名称下面的批注（在此示例中为“MBI”）![数据分类](././media/mobile-apps-view-dashboard/power-bi-android-dashboard-medium-classification.png)指明了每个仪表板中的数据分类方式。 阅读更多有关 [Power BI 中的数据分类](../../service-data-classification.md)。
+    仪表板名称下面的批注（在此示例中为“MBI”）![数据分类](././media/mobile-apps-view-dashboard/power-bi-android-dashboard-medium-classification.png)指明了每个仪表板中的数据分类方式。 阅读更多有关 [Power BI 中的数据分类](../../create-reports/service-data-classification.md)。
 
     在 Android 手机上 Power BI 仪表板看起来稍有不同。 所有磁贴宽度相同，从顶部到底部一个接一个排列。
 
     ![仪表板纵向视图](./media/mobile-apps-view-dashboard/pbi_andr_dash.png)
 
-    如果你是仪表板所有者，则可以在 Power BI 服务中[创建手机专用仪表板纵向模式视图](../../service-create-dashboard-mobile-phone-view.md)。 
+    如果你是仪表板所有者，则可以在 Power BI 服务中[创建手机专用仪表板纵向模式视图](../../create-reports/service-create-dashboard-mobile-phone-view.md)。 
 
 1. 在仪表板上，你可以点击名称旁边的垂直“更多选项”(...) 按钮来邀请同事，刷新或获取有关仪表板的信息  ：
    
@@ -132,7 +132,7 @@ ms.locfileid: "79205518"
    ![主仪表板](./media/mobile-apps-view-dashboard/power-bi-android-tablet-dashboard-home.png)
    
    * 黄色星标  ![收藏夹星标](././././media/mobile-apps-view-dashboard/power-bi-mobile-yes-favorite-icon.png) 显示哪些仪表板已加入收藏夹。 
-   * 每个仪表板名称下面的批注（在此示例中为“MBI”）![数据分类](././media/mobile-apps-view-dashboard/power-bi-android-dashboard-medium-classification.png)指明了每个仪表板中的数据分类方式。 阅读更多有关 [Power BI 中的数据分类](../../service-data-classification.md)。
+   * 每个仪表板名称下面的批注（在此示例中为“MBI”）![数据分类](././media/mobile-apps-view-dashboard/power-bi-android-dashboard-medium-classification.png)指明了每个仪表板中的数据分类方式。 阅读更多有关 [Power BI 中的数据分类](../../create-reports/service-data-classification.md)。
 3. 在仪表板上，你可以点击名称旁边的垂直“更多选项”(...) 按钮来邀请同事，刷新或获取有关仪表板的信息  ：
    
    ![省略号菜单](././media/mobile-apps-view-dashboard/pbi_andr_dashellipsis.png)
@@ -150,11 +150,10 @@ ms.locfileid: "79205518"
 
 ![仪表板电话视图](./media/mobile-apps-view-dashboard/power-bi-phone-dashboard-in-progress.png)
 
-阅读有关[创建仪表板电话视图](../../service-create-dashboard-mobile-phone-view.md)的更多信息。
+阅读有关[创建仪表板电话视图](../../create-reports/service-create-dashboard-mobile-phone-view.md)的更多信息。
 
 ## <a name="next-steps"></a>后续步骤
 * 从 Google play [下载 Android 应用](https://go.microsoft.com/fwlink/?LinkID=544867)  
 * [适用于 Power BI 的 Android 应用入门](mobile-android-app-get-started.md)  
 * [什么是 Power BI？](../../fundamentals/power-bi-overview.md)
 * 是否有任何问题? [尝试咨询 Power BI 社区](https://community.powerbi.com/)
-

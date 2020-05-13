@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 08/12/2019
 ms.author: maggies
 LocalizationGroup: Reports
-ms.openlocfilehash: 39b95708b95144ba77a3b33b8ee15f913ae7ca2b
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 87a30acce38966d0e044f4ed0b6691ccbc7acd3f
+ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "79126250"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83349209"
 ---
 # <a name="comparing-power-bi-desktop-and-the-power-bi-service"></a>比较 Power BI Desktop 和 Power BI 服务
 
@@ -23,7 +23,7 @@ ms.locfileid: "79126250"
 
 ![Power BI Desktop 和服务的维恩图](media/service-service-vs-desktop/power-bi-venn-desktop-service.png)
 
-“Power BI Desktop”是一个完整的数据分析和报表创建工具，可以在本地计算机上为免费应用程序安装该工具  。 它包括查询编辑器，可以在其中连接到许多不同的数据源，并将其（通常称为建模）合并到数据模型中。 然后根据该数据模型设计报表。 请参阅 [Power BI Desktop 入门指南](../desktop-getting-started.md)了解整个过程。
+“Power BI Desktop”是一个完整的数据分析和报表创建工具，可以在本地计算机上为免费应用程序安装该工具  。 它包括查询编辑器，可以在其中连接到许多不同的数据源，并将其（通常称为建模）合并到数据模型中。 然后根据该数据模型设计报表。 请参阅 [Power BI Desktop 入门指南](desktop-getting-started.md)了解整个过程。
 
 “PowerBI 服务”是基于云的服务  。 它支持团队和组织的轻量级报表编辑和协作。 也可以连接到 Power BI 服务中的数据源，但建模不可以。 
 
@@ -50,19 +50,18 @@ Power BI Desktop 中和服务中的报表编辑器类似。 它们由三个部�
 ### <a name="collaborating"></a>协作
 
 
-创建报表后，可以将其保存到 Power BI 服务中的“工作区”，你和你的同事可以在其中进行协作   。 基于这些报表生成“仪表板”  。 然后，你可以与组织内外的报表使用者共享这些仪表板和报表。 报表使用者可在 Power BI 服务的阅读视图，而不是编辑视图中查看它们  。 报表使用者无法访问报告创建者可用的所有功能。  你还可以共享数据集，让其他人从中生成自己的报表。 详细了解[在 Power BI 服务中进行协作](../service-new-workspaces.md)。
+创建报表后，可以将其保存到 Power BI 服务中的“工作区”，你和你的同事可以在其中进行协作   。 基于这些报表生成“仪表板”  。 然后，你可以与组织内外的报表使用者共享这些仪表板和报表。 报表使用者可在 Power BI 服务的阅读视图，而不是编辑视图中查看它们  。 报表使用者无法访问报告创建者可用的所有功能。  你还可以共享数据集，让其他人从中生成自己的报表。 详细了解[在 Power BI 服务中进行协作](../collaborate-share/service-new-workspaces.md)。
 
 ### <a name="self-service-data-prep-with-dataflows"></a>数据流自助数据准备
 
-数据流有助于组织统一来自不同来源的数据并为建模做好数据准备。 分析人员可以使用熟悉的自助服务工具轻松创建数据流。 分析师通过定义数据源连接、ETL 逻辑、刷新计划等来引入、转换、集成和丰富大数据。 详细了解[数据流自助数据准备](../service-dataflows-overview.md)。
+数据流有助于组织统一来自不同来源的数据并为建模做好数据准备。 分析人员可以使用熟悉的自助服务工具轻松创建数据流。 分析师通过定义数据源连接、ETL 逻辑、刷新计划等来引入、转换、集成和丰富大数据。 详细了解[数据流自助数据准备](../transform-model/service-dataflows-overview.md)。
 
 ## <a name="next-steps"></a>后续步骤
 
-[什么是 Power BI Desktop？](../desktop-what-is-desktop.md)
+[什么是 Power BI Desktop？](desktop-what-is-desktop.md)
 
-在 Power BI 服务中[创建报表](../service-report-create-new.md)
+在 Power BI 服务中[创建报表](../create-reports/service-report-create-new.md)
 
-[报表设计器的基本概念](../service-basic-concepts.md)
+[报表设计器的基本概念](service-basic-concepts.md)
 
 更多问题？ [尝试参与 Power BI 社区](https://community.powerbi.com/)
-

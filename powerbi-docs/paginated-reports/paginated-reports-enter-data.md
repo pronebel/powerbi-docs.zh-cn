@@ -8,12 +8,12 @@ ms.subservice: report-builder
 ms.topic: conceptual
 ms.date: 01/03/2020
 ms.author: maggies
-ms.openlocfilehash: 5ef019c1c8d488735509ac3c2767fbc9d395786a
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 074bc95a9e259df84211d3f922831db323d506cc
+ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "78922082"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83348657"
 ---
 # <a name="enter-data-directly-in-a-paginated-report-in-report-builder---power-bi"></a>直接在报表生成器 - Power BI 的分页报表中输入数据
 
@@ -22,7 +22,7 @@ ms.locfileid: "78922082"
 ## <a name="prerequisites"></a>必备组件
 
 - 若要直接在分页报表中输入数据，请[从 Microsoft 下载中心](https://www.microsoft.com/download/details.aspx?id=53613)安装新版本的报表生成器。 
-- 若要将分页报表保存到 Power BI 服务，则需 [Power BI Pro 帐户](../service-self-service-signup-for-power-bi.md)，以及对 [Power BI 高级容量](../service-premium-what-is.md)中的工作区的写入权限。
+- 若要将分页报表保存到 Power BI 服务，则需 [Power BI Pro 帐户](../fundamentals/service-self-service-signup-for-power-bi.md)，以及对 [Power BI 高级容量](../admin/service-premium-what-is.md)中的工作区的写入权限。
 - 若要将分页报表保存到报表服务器，则需[编辑 RsReportServer.config 文件](#upload-the-paginated-report-to-a-report-server)的权限。
 
 ## <a name="get-started"></a>入门
