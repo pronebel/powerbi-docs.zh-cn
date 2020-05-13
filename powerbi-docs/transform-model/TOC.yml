@@ -6,114 +6,114 @@
       expanded: true
       items:
         - name: 查询编辑器概述
-          href: ../desktop-query-overview.md
+          href: desktop-query-overview.md
         - name: 数据流自助数据准备
-          href: ../service-dataflows-overview.md
+          href: service-dataflows-overview.md
     - name: 教程
       expanded: true
       items:
         - name: 创建自己的度量值
-          href: ../desktop-tutorial-create-measures.md
+          href: desktop-tutorial-create-measures.md
         - name: 创建计算列
-          href: ../desktop-tutorial-create-calculated-columns.md
+          href: desktop-tutorial-create-calculated-columns.md
     - name: 概念
       expanded: true
       items:
         - name: 了解模型关系
-          href: ../desktop-relationships-understand.md
+          href: desktop-relationships-understand.md
         - name: 使用建模视图
-          href: ../desktop-modeling-view.md
+          href: desktop-modeling-view.md
         - name: 管理聚合
-          href: ../desktop-aggregations.md
+          href: desktop-aggregations.md
         - name: 使用复合模型
-          href: ../desktop-composite-models.md
+          href: desktop-composite-models.md
         - name: 应用多对多关系
-          href: ../desktop-many-to-many-relationships.md
+          href: desktop-many-to-many-relationships.md
         - name: 管理存储模式
-          href: ../desktop-storage-mode.md
+          href: desktop-storage-mode.md
         - name: 启用双向交叉筛选
-          href: ../desktop-bidirectional-filtering.md
+          href: desktop-bidirectional-filtering.md
         - name: 在 Power BI 中使用多维模型
-          href: ../desktop-default-member-multidimensional-models.md
-    - name: 操作方法指南
+          href: ../connect-data/desktop-default-member-multidimensional-models.md
+    - name: 操作指南
       items:
         - name: 执行常见查询任务
-          href: ../desktop-common-query-tasks.md
+          href: desktop-common-query-tasks.md
         - name: 创建和管理关系
-          href: ../desktop-create-and-manage-relationships.md
+          href: desktop-create-and-manage-relationships.md
         - name: 使用“分析”窗格
-          href: ../desktop-analytics-pane.md
+          href: desktop-analytics-pane.md
         - name: 使用数据视图
-          href: ../desktop-data-view.md
+          href: ../connect-data/desktop-data-view.md
         - name: 应用 DAX 基础知识
-          href: ../desktop-quickstart-learn-dax-basics.md
+          href: desktop-quickstart-learn-dax-basics.md
         - name: 使用关系视图
-          href: ../desktop-relationship-view.md
+          href: desktop-relationship-view.md
         - name: 转换和构建数据
           items:
             - name: 合并文件（二进制文件）
-              href: ../desktop-combine-binaries.md
+              href: desktop-combine-binaries.md
             - name: 使用 AI 见解（预览版）
-              href: ../desktop-ai-insights.md
-        - name: 为数据建模
+              href: desktop-ai-insights.md
+        - name: 为你的数据建模
           items:
             - name: 创建快速度量执行常见计算
-              href: ../desktop-quick-measures.md
+              href: desktop-quick-measures.md
             - name: 创建和使用 what-if 参数可视化变量
-              href: ../desktop-what-if.md
+              href: desktop-what-if.md
             - name: 在 Power BI Desktop 中指定数据类别
-              href: ../desktop-data-categorization.md
+              href: desktop-data-categorization.md
             - name: 在适用于移动应用的 Power BI 中标记条形码字段
-              href: ../desktop-mobile-barcodes.md
+              href: desktop-mobile-barcodes.md
             - name: 在 Power BI 中为移动应用设置地理筛选器
-              href: ../desktop-mobile-geofiltering.md
+              href: desktop-mobile-geofiltering.md
             - name: 创建计算列
-              href: ../desktop-calculated-columns.md
+              href: desktop-calculated-columns.md
             - name: 创建计算表
-              href: ../desktop-calculated-tables.md
+              href: desktop-calculated-tables.md
             - name: 创建用于数据分析的度量值
-              href: ../desktop-measures.md
+              href: desktop-measures.md
             - name: 导入和显示 KPI
-              href: ../desktop-import-and-display-kpis.md
+              href: desktop-import-and-display-kpis.md
             - name: 应用自动日期/时间
-              href: ../desktop-auto-date-time.md
+              href: desktop-auto-date-time.md
         - name: 自助服务数据准备
           items:
             - name: 创建和使用数据流
-              href: ../service-dataflows-create-use.md
+              href: service-dataflows-create-use.md
             - name: 提升或认证数据流
               href: service-dataflows-promote-certify.md
             - name: 将增强的计算引擎用于数据流
-              href: ../service-dataflows-enhanced-compute-engine.md
+              href: service-dataflows-enhanced-compute-engine.md
             - name: Power BI Premium 计算实体
-              href: ../service-dataflows-computed-entities-premium.md
+              href: service-dataflows-computed-entities-premium.md
             - name: 使用数据流连接到数据源
-              href: ../service-dataflows-data-sources.md
+              href: service-dataflows-data-sources.md
             - name: 将数据流与本地数据源配合使用
-              href: ../service-dataflows-on-premises-gateways.md
+              href: service-dataflows-on-premises-gateways.md
             - name: 链接数据流之间的实体
-              href: ../service-dataflows-linked-entities.md
+              href: service-dataflows-linked-entities.md
             - name: 将增量刷新与数据流配合使用
-              href: ../service-dataflows-incremental-refresh.md
+              href: service-dataflows-incremental-refresh.md
             - name: 数据流的开发人员资源
-              href: ../service-dataflows-developer-resources.md
+              href: service-dataflows-developer-resources.md
             - name: 连接到 Power BI Desktop 中的数据流
-              href: ../desktop-connect-dataflows.md
+              href: desktop-connect-dataflows.md
             - name: 数据流和 Azure Data Lake 集成（预览）
-              href: ../service-dataflows-azure-data-lake-integration.md
+              href: service-dataflows-azure-data-lake-integration.md
             - name: 连接 Azure Data Lake Storage Gen2 以存储数据流
-              href: ../service-dataflows-connect-azure-data-lake-storage-gen2.md
-            - name: 配置工作区数据流设置（预览版）
-              href: ../service-dataflows-configure-workspace-storage-settings.md
+              href: service-dataflows-connect-azure-data-lake-storage-gen2.md
+            - name: 配置工作区数据流设置（预览）
+              href: service-dataflows-configure-workspace-storage-settings.md
             - name: 将 CDM 文件夹添加到 Power BI 作为数据流（预览）
-              href: ../service-dataflows-add-cdm-folder.md
+              href: service-dataflows-add-cdm-folder.md
             - name: 在 Power BI 中集成机器学习
-              href: ../service-machine-learning-integration.md
+              href: service-machine-learning-integration.md
             - name: 在 Power BI 中使用认知服务
-              href: ../service-cognitive-services.md
+              href: service-cognitive-services.md
             - name: Power BI 中的自动机器学习
-              href: ../service-machine-learning-automated.md
+              href: service-machine-learning-automated.md
     - name: 参考
       items:
         - name: 公式编辑器快捷方式
-          href: ../desktop-formula-editor.md
+          href: desktop-formula-editor.md

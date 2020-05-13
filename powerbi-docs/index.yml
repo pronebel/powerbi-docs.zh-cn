@@ -13,12 +13,12 @@ metadata:
   author: maggiesMSFT
   ms.author: maggies
   ms.date: 03/31/2020
-  ms.openlocfilehash: 0ad39302737284ecbde50a8810b740d68706c809
-  ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+  ms.openlocfilehash: 57fd08720d908ac67e383b91239e44373b1e586f
+  ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
   ms.translationtype: HT
   ms.contentlocale: zh-CN
-  ms.lasthandoff: 05/05/2020
-  ms.locfileid: "81439381"
+  ms.lasthandoff: 05/13/2020
+  ms.locfileid: "83348749"
 highlightedContent:
   items:
   - title: 使用美国数据创建新冠肺炎报表
@@ -26,24 +26,24 @@ highlightedContent:
     url: create-reports/sample-covid-19-us.md
   - title: Power BI Desktop 入门
     itemType: get-started
-    url: desktop-getting-started.md
+    url: fundamentals/desktop-getting-started.md
   - title: 注册 Power BI 服务
     itemType: how-to-guide
-    url: service-self-service-signup-for-power-bi.md
+    url: fundamentals/service-self-service-signup-for-power-bi.md
   - title: 协作和共享途径
     itemType: concept
-    url: service-how-to-collaborate-distribute-dashboards-reports.md
+    url: collaborate-share/service-how-to-collaborate-distribute-dashboards-reports.md
 conceptualContent:
   items:
   - title: Power BI：开始使用
     links:
-    - url: power-bi-overview.md
+    - url: fundamentals/power-bi-overview.md
       itemType: overview
       text: 什么是 Power BI？
-    - url: desktop-what-is-desktop.md
+    - url: fundamentals/desktop-what-is-desktop.md
       itemType: overview
       text: 什么是 Power BI Desktop？
-    - url: power-bi-service-overview.md
+    - url: fundamentals/power-bi-service-overview.md
       itemType: overview
       text: 什么是 Power BI 服务？
     footerLink:
@@ -65,13 +65,13 @@ conceptualContent:
       text: 了解详细内容
   - title: 管理 Power BI
     links:
-    - url: service-admin-administering-power-bi-in-your-organization.md
+    - url: admin/service-admin-administering-power-bi-in-your-organization.md
       itemType: overview
       text: 什么是 Power BI 管理？
-    - url: service-admin-licensing-organization.md
+    - url: admin/service-admin-licensing-organization.md
       itemType: concept
       text: 组织中的许可
-    - url: service-admin-portal.md
+    - url: admin/service-admin-portal.md
       itemType: concept
       text: 管理门户
     footerLink:
@@ -93,13 +93,13 @@ conceptualContent:
       text: 了解详细内容
   - title: 连接到数据
     links:
-    - url: desktop-quickstart-connect-to-data.md
+    - url: connect-data/desktop-quickstart-connect-to-data.md
       itemType: tutorial
       text: 连接到数据
-    - url: service-gateway-onprem.md
+    - url: connect-data/service-gateway-onprem.md
       itemType: concept
       text: 本地数据网关
-    - url: refresh-data.md
+    - url: connect-data/refresh-data.md
       itemType: concept
       text: 数据刷新
     footerLink:
@@ -107,13 +107,13 @@ conceptualContent:
       text: 了解详细内容
   - title: 转换和构建数据
     links:
-    - url: desktop-analytics-pane.md
+    - url: transform-model/desktop-analytics-pane.md
       itemType: how-to-guide
       text: 使用“分析”窗格
-    - url: desktop-common-query-tasks.md
+    - url: transform-model/desktop-common-query-tasks.md
       itemType: concept
       text: 常见查询任务
-    - url: desktop-shape-and-combine-data.md
+    - url: connect-data/desktop-shape-and-combine-data.md
       itemType: tutorial
       text: 调整和合并数据
     footerLink:
@@ -121,13 +121,13 @@ conceptualContent:
       text: 了解详细内容
   - title: 对数据建模
     links:
-    - url: desktop-add-custom-column.md
+    - url: create-reports/desktop-add-custom-column.md
       itemType: how-to-guide
       text: 添加自定义列
-    - url: desktop-tutorial-create-calculated-columns.md
+    - url: transform-model/desktop-tutorial-create-calculated-columns.md
       itemType: tutorial
       text: 创建计算列
-    - url: desktop-create-and-manage-relationships.md
+    - url: transform-model/desktop-create-and-manage-relationships.md
       itemType: how-to-guide
       text: 创建和管理关系
     footerLink:
@@ -135,13 +135,13 @@ conceptualContent:
       text: 了解详细内容
   - title: 创建报表和仪表板
     links:
-    - url: desktop-report-themes.md
+    - url: create-reports/desktop-report-themes.md
       itemType: concept
       text: 报表主题
     - url: paginated-reports/paginated-reports-report-builder-power-bi.md
       itemType: concept
       text: 什么是分页报表？
-    - url: service-dashboard-create.md
+    - url: create-reports/service-dashboard-create.md
       itemType: how-to-guide
       text: 创建仪表板
     footerLink:
@@ -149,13 +149,13 @@ conceptualContent:
       text: 了解详细内容
   - title: 协作和共享
     links:
-    - url: service-share-dashboards.md
+    - url: collaborate-share/service-share-dashboards.md
       itemType: concept
       text: 共享仪表板和报表
-    - url: service-create-the-new-workspaces.md
+    - url: collaborate-share/service-create-the-new-workspaces.md
       itemType: how-to-guide
       text: 创建新工作区
-    - url: service-datasets-across-workspaces.md
+    - url: connect-data/service-datasets-across-workspaces.md
       itemType: concept
       text: 共享数据集简介
     footerLink:
@@ -163,13 +163,13 @@ conceptualContent:
       text: 了解详细内容
   - title: 跨产品集成
     links:
-    - url: service-azure-and-power-bi.md
+    - url: connect-data/service-azure-and-power-bi.md
       itemType: concept
       text: Azure 和 Power BI
-    - url: service-analyze-in-excel.md
+    - url: collaborate-share/service-analyze-in-excel.md
       itemType: concept
       text: 在 Excel 中分析
-    - url: service-embed-report-spo.md
+    - url: collaborate-share/service-embed-report-spo.md
       itemType: concept
       text: 在 SharePoint Online 中嵌入
     footerLink:
@@ -191,10 +191,10 @@ conceptualContent:
       text: 了解详细内容
   - title: 企业
     links:
-    - url: service-premium-what-is.md
+    - url: admin/service-premium-what-is.md
       itemType: overview
       text: 什么是 Power BI Premium？
-    - url: service-admin-power-bi-security.md
+    - url: admin/service-admin-power-bi-security.md
       itemType: concept
       text: 安全性
     - url: admin/service-security-data-protection-overview.md

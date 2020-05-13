@@ -12,56 +12,56 @@ metadata:
   author: maggiesMSFT
   ms.author: maggies
   ms.date: 03/03/2020
-  ms.openlocfilehash: d4099c6ad1a5ed6396d8c4a777e3a0aa13a6d570
-  ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+  ms.openlocfilehash: 9b2f5fd70ed00dccb122fb4195284a1f3e0f75c2
+  ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
   ms.translationtype: HT
   ms.contentlocale: zh-CN
-  ms.lasthandoff: 05/05/2020
-  ms.locfileid: "79112768"
+  ms.lasthandoff: 05/13/2020
+  ms.locfileid: "83275170"
 landingContent:
 - title: 开始协作和共享
   linkLists:
   - linkListType: overview
     links:
     - text: 工作共享方式
-      url: ../service-how-to-collaborate-distribute-dashboards-reports.md
+      url: service-how-to-collaborate-distribute-dashboards-reports.md
 - title: 与同事协作
   linkLists:
   - linkListType: concept
     links:
     - text: 跨工作区使用数据集简介
-      url: ../service-datasets-across-workspaces.md
+      url: ../connect-data/service-datasets-across-workspaces.md
     - text: 共享数据集的生成权限
-      url: ../service-datasets-build-permissions.md
+      url: ../connect-data/service-datasets-build-permissions.md
   - linkListType: how-to-guide
     links:
     - text: 在新工作区中组织工作
-      url: ../service-new-workspaces.md
+      url: service-new-workspaces.md
 - title: 共享工作
   linkLists:
   - linkListType: concept
     links:
     - text: 发布应用
-      url: ../service-create-distribute-apps.md
+      url: service-create-distribute-apps.md
     - text: 监视使用情况指标
-      url: ../service-modern-usage-metrics.md
+      url: service-modern-usage-metrics.md
   - linkListType: how-to-guide
     links:
     - text: 共享报表和仪表板
-      url: ../service-share-dashboards.md
+      url: service-share-dashboards.md
     - text: 筛选和共享报表
-      url: ../service-share-reports.md
+      url: service-share-reports.md
     - text: 共享数据集
-      url: ../service-datasets-share.md
+      url: ../connect-data/service-datasets-share.md
 - title: 与其他服务集成
   linkLists:
   - linkListType: concept
     links:
     - text: Azure 和 Power BI
-      url: ../service-azure-and-power-bi.md
+      url: ../connect-data/service-azure-and-power-bi.md
     - text: 在 Excel 中分析
-      url: ../service-analyze-in-excel.md
+      url: service-analyze-in-excel.md
   - linkListType: how-to-guide
     links:
     - text: 在 SharePoint Online 中嵌入
-      url: ../service-embed-report-spo.md
+      url: service-embed-report-spo.md

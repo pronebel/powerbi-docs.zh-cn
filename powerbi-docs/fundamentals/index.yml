@@ -12,33 +12,33 @@ metadata:
   author: maggiesMSFT
   ms.author: maggies
   ms.date: 03/05/2020
-  ms.openlocfilehash: 04ce4ce2ec0038ff6e79a2e65de8279a3a73dcad
-  ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+  ms.openlocfilehash: cbe4b08f84dcd4246bceb83933366d1086d27bd0
+  ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
   ms.translationtype: HT
   ms.contentlocale: zh-CN
-  ms.lasthandoff: 05/05/2020
-  ms.locfileid: "81439586"
+  ms.lasthandoff: 05/13/2020
+  ms.locfileid: "83348772"
 landingContent:
 - title: 什么是 Power BI？
   linkLists:
   - linkListType: overview
     links:
     - text: 什么是 Power BI？
-      url: ../power-bi-overview.md
+      url: power-bi-overview.md
     - text: 什么是 Power BI Desktop？
-      url: ../desktop-what-is-desktop.md
+      url: desktop-what-is-desktop.md
     - text: 什么是 Power BI 服务？
-      url: ../power-bi-service-overview.md
+      url: power-bi-service-overview.md
     - text: 比较 Power BI Desktop 和服务
-      url: ../service-service-vs-desktop.md
-- title: 新增功能？
+      url: service-service-vs-desktop.md
+- title: 新功能
   linkLists:
   - linkListType: concept
     links:
     - text: Power BI Desktop 中的新增功能是什么？
-      url: ../desktop-latest-update.md
+      url: desktop-latest-update.md
     - text: 服务中有哪些新增功能？
-      url: ../service-whats-new.md
+      url: service-whats-new.md
 - title: 通过“学习”部分实现入门
   linkLists:
   - linkListType: learn
@@ -47,21 +47,21 @@ landingContent:
       url: https://docs.microsoft.com/learn/paths/create-use-analytics-reports-power-bi/
     - text: 使用 Power BI Desktop 获取数据
       url: https://docs.microsoft.com/learn/modules/get-data-power-bi/?tutorial-step=1
-- title: 授权
+- title: 许可
   linkLists:
   - linkListType: concept
     links:
     - text: 注册 Power BI
-      url: ../service-self-service-signup-for-power-bi.md
+      url: service-self-service-signup-for-power-bi.md
     - text: 按许可证类型列出的功能
-      url: ../service-features-license-type.md
+      url: service-features-license-type.md
 - title: 资源
   linkLists:
   - linkListType: reference
     links:
     - text: Power BI 视频
-      url: ../videos.md
+      url: videos.md
     - text: Power BI Desktop 视频
-      url: ../desktop-videos.md
+      url: desktop-videos.md
     - text: 网络研讨会
-      url: ../webinars.md
+      url: webinars.md

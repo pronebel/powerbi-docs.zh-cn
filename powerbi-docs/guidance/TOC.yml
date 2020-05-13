@@ -21,7 +21,7 @@
             - name: 禁用 Power Query 后台刷新
               href: power-query-background-refresh.md
             - name: 数据流的最佳做法
-              href: ../service-dataflows-best-practices.md
+              href: ../transform-model/service-dataflows-best-practices.md
         - name: 数据建模
           items:
             - name: 什么是星型架构？
@@ -114,7 +114,7 @@
       items:
         - name: 白皮书概述
           href: whitepapers.md
-        - name: Power BI 安全性白皮书
+        - name: Power BI 安全白皮书
           href: whitepaper-powerbi-security.md
         - name: Power BI Premium 部署
           href: whitepaper-powerbi-premium-deployment.md
