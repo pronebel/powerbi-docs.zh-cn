@@ -9,12 +9,12 @@ ms.subservice: powerbi-developer
 ms.topic: tutorial
 ms.custom: seodec18
 ms.date: 02/04/2020
-ms.openlocfilehash: 332b9d500aa45ed25199630422e89f890a81f6a3
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 125c8ddbdda48b5c7249a6f810d33a65a5f908ee
+ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "80621651"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83349784"
 ---
 # <a name="tutorial-embed-power-bi-content-into-an-application-for-your-organization"></a>教程：为组织将 Power BI 内容嵌入应用程序
 
@@ -31,7 +31,7 @@ ms.locfileid: "80621651"
 
 若要开始使用，则需要具有：
 
-* [Power BI Pro 帐户](../../service-self-service-signup-for-power-bi.md)。
+* [Power BI Pro 帐户](../../fundamentals/service-self-service-signup-for-power-bi.md)。
 * [Microsoft Azure](https://azure.microsoft.com/) 订阅。
 * 需要设置自己的 [Azure Active Directory 租户](create-an-azure-active-directory-tenant.md)。
 * 要嵌入分页报表，至少需要 P1 容量，请参阅[需要多大的 Premium 容量才能使用分页报表？](../../paginated-reports/paginated-reports-faq.md#what-size-premium-capacity-do-i-need-for-paginated-reports)
@@ -60,7 +60,7 @@ ms.locfileid: "80621651"
 
 ### <a name="create-a-workspace"></a>创建工作区
 
-如果为客户嵌入报表、仪表板或磁贴，则必须将内容放在工作区中。 具有可以设置的不同类型工作区：[传统工作区](../../service-create-workspaces.md)或[新工作区](../../service-create-the-new-workspaces.md)。
+如果为客户嵌入报表、仪表板或磁贴，则必须将内容放在工作区中。 具有可以设置的不同类型工作区：[传统工作区](../../collaborate-share/service-create-workspaces.md)或[新工作区](../../collaborate-share/service-create-the-new-workspaces.md)。
 
 ### <a name="create-and-publish-your-power-bi-reports"></a>创建并发布 Power BI 报表
 
@@ -381,9 +381,9 @@ function updateEmbedReport() {
 
 ### <a name="create-a-dedicated-capacity"></a>创建专用容量
 
-通过创建专用容量，则可获得在工作区中拥有内容专用资源这一优势。 对于分页报表，必须为工作区准备至少 P1 容量。 你可使用 [Power BI Premium](../../service-premium-what-is.md) 创建专用容量。
+通过创建专用容量，则可获得在工作区中拥有内容专用资源这一优势。 对于分页报表，必须为工作区准备至少 P1 容量。 你可使用 [Power BI Premium](../../admin/service-premium-what-is.md) 创建专用容量。
 
-下表列出了 [Microsoft Office 365](../../service-admin-premium-purchase.md) 中可用的 Power BI Premium SKU：
+下表列出了 [Microsoft Office 365](../../admin/service-admin-premium-purchase.md) 中可用的 Power BI Premium SKU：
 
 | 容量节点 | vCore 总数<br/>（后端 + 前端） | 后端 vCore | 前端 vCore | DirectQuery/实时连接限制 |
 | --- | --- | --- | --- | --- | --- |
@@ -418,7 +418,7 @@ function updateEmbedReport() {
 
 ## <a name="admin-settings"></a>管理员设置
 
-全局管理员或 Power BI 服务管理员可以为租户启用或禁用 REST API。 Power BI 管理员可以为整个组织或各个安全组设定此设置。 默认情况下，将为整个组织启用此功能。 你可以在 [Power BI 管理门户](../../service-admin-portal.md)中进行这些更改。
+全局管理员或 Power BI 服务管理员可以为租户启用或禁用 REST API。 Power BI 管理员可以为整个组织或各个安全组设定此设置。 默认情况下，将为整个组织启用此功能。 你可以在 [Power BI 管理门户](../../admin/service-admin-portal.md)中进行这些更改。
 
 ## <a name="next-steps"></a>后续步骤
 

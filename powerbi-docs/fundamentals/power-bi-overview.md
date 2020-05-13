@@ -8,12 +8,12 @@ ms.topic: overview
 ms.date: 09/04/2019
 ms.author: maggies
 LocalizationGroup: Get started
-ms.openlocfilehash: c3218e20274c0607c2bbec86e961685ccd276659
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: f02c383ddbe9eddca180ad8bd29816730c249561
+ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "80487748"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83349600"
 ---
 # <a name="what-is-power-bi"></a>什么是 Power BI？
 **Power BI** 是软件服务、应用和连接器的集合，它们协同工作以将相关数据来源转换为连贯的视觉逼真的交互式见解。 数据可以是 Excel 电子表格，也可以是基于云和本地混合数据仓库的集合。 使用 Power BI，可以轻松连接到数据源，可视化并发现重要内容，并根据需要与任何人共享。
@@ -42,9 +42,9 @@ Power BI Desktop、服务和移动应用这三个元素旨在让你能够采用�
 如何使用 Power BI 取决于 Power BI 的哪个功能或服务是适用的最佳工具。 例如，可以使用 Power BI Desktop 来为自己团队创建有关客户参与统计信息的报表，也可以在 Power BI 服务的实时仪表板中查看库存和生产进度。 Power BI 的每个部分都可供使用，这正是 Power BI 极具灵活性和吸引力的原因所在。
 
 浏览与你的角色相关的文档：
-- 适用于[设计者](../desktop-what-is-desktop.md)的 Power BI Desktop 
+- 适用于[设计者](desktop-what-is-desktop.md)的 Power BI Desktop 
 - 面向[*使用者*](../consumer/end-user-consumer.md)的 Power BI
-- 面向[*管理员*](../service-admin-administering-power-bi-in-your-organization.md)的 Power BI
+- 面向[*管理员*](../admin/service-admin-administering-power-bi-in-your-organization.md)的 Power BI
 - 面向开发人员  的 Power BI
     * [Power BI 嵌入式分析](../developer/embedded/embedding.md)
     * [Azure 中的 Power BI Embedded 是指什么？](../developer/embedded/azure-pbie-what-is-power-bi-embedded.md)
@@ -71,5 +71,5 @@ Power BI 报表服务器是在防火墙后面部署的解决方案，然后以�
 
 ## <a name="next-steps"></a>后续步骤
 - [快速入门：了解如何使用 Power BI 服务](../service-the-new-power-bi-experience.md)   
-- [教程：Power BI 服务入门](../service-get-started.md)
-- [快速入门：连接到 Power BI Desktop 中的数据](../desktop-quickstart-connect-to-data.md)
+- [教程：Power BI 服务入门](service-get-started.md)
+- [快速入门：连接到 Power BI Desktop 中的数据](../connect-data/desktop-quickstart-connect-to-data.md)
