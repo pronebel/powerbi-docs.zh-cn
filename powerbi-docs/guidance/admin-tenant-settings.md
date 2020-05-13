@@ -8,12 +8,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 01/29/2020
 ms.author: v-pemyer
-ms.openlocfilehash: fdd7504823f088ed0e88657a6fcccaeb9a5a36d0
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 1ab1ed139a62b1929cb1b4da411bf7949a5d151e
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "79487800"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83279747"
 ---
 # <a name="tenant-admin-settings-guidance"></a>租户管理员设置指南
 
@@ -21,7 +21,7 @@ ms.locfileid: "79487800"
 
 我们提供有关特定租户设置的指导，介绍哪些设置可帮助改进 Power BI 体验、哪些设置可能使你的组织面临风险。 建议始终使租户配置与组织的策略和流程保持一致。
 
-[租户设置](../service-admin-portal.md#tenant-settings)在[管理门户](https://app.powerbi.com/admin-portal/tenantSettings)中进行管理，可以由 [Power BI 服务管理员](../service-admin-administering-power-bi-in-your-organization.md#administrator-roles-related-to-power-bi)进行配置。 许多租户设置可以将功能和特性限制于一组有限的用户。 因此，建议首先熟悉设置以计划所需的安全组。 你可能会发现可以将同一安全组应用于多个设置。
+[租户设置](../admin/service-admin-portal.md#tenant-settings)在[管理门户](https://app.powerbi.com/admin-portal/tenantSettings)中进行管理，可以由 [Power BI 服务管理员](../admin/service-admin-administering-power-bi-in-your-organization.md#administrator-roles-related-to-power-bi)进行配置。 许多租户设置可以将功能和特性限制于一组有限的用户。 因此，建议首先熟悉设置以计划所需的安全组。 你可能会发现可以将同一安全组应用于多个设置。
 
 ## <a name="improve-power-bi-experience"></a>改进 Power BI 体验
 
@@ -88,7 +88,7 @@ ms.locfileid: "79487800"
 
 ### <a name="publish-to-web"></a>发布到 Web
 
-[发布到 Web](../service-publish-to-web.md) 功能允许在 Web 上发布公开报表。 如果使用不当，可能有在 Web 上实时公开保密信息的风险。
+[发布到 Web](../collaborate-share/service-publish-to-web.md) 功能允许在 Web 上发布公开报表。 如果使用不当，可能有在 Web 上实时公开保密信息的风险。
 
 默认为整个组织启用“发布到 Web”设置，但限制非管理员用户创建嵌入代码  。 它位于“导出和共享设置”组中  。
 
@@ -109,7 +109,7 @@ ms.locfileid: "79487800"
 建议分配一个或多个安全组。 可以授权或拒绝这些组发布报表  。
 
 > [!IMPORTANT]
-> 禁用此设置还会限制使用[在 Excel 中分析](../service-analyze-in-excel.md)和 Power BI 服务[实时连接](../desktop-report-lifecycle-datasets.md#using-a-power-bi-service-live-connection-for-report-lifecycle-management)功能。
+> 禁用此设置还会限制使用[在 Excel 中分析](../collaborate-share/service-analyze-in-excel.md)和 Power BI 服务[实时连接](../connect-data/desktop-report-lifecycle-datasets.md#using-a-power-bi-service-live-connection-for-report-lifecycle-management)功能。
 
 ![显示“导出数据”设置。](media/admin-tenant-settings/export-data.png)
 
@@ -118,7 +118,7 @@ ms.locfileid: "79487800"
 
 ### <a name="allow-external-guest-users-to-edit-and-manage-content-in-the-organization"></a>允许外部来宾用户编辑和管理组织中的内容
 
-外部来宾用户可以编辑和管理 Power BI 内容。 有关详细信息，请参阅[使用 Azure AD B2B 将 Power BI 内容分发给外部来宾用户](../service-admin-azure-ad-b2b.md)。
+外部来宾用户可以编辑和管理 Power BI 内容。 有关详细信息，请参阅[使用 Azure AD B2B 将 Power BI 内容分发给外部来宾用户](../admin/service-admin-azure-ad-b2b.md)。
 
 默认为整个组织禁用“允许外部来宾用户编辑和管理组织中的内容”设置  。 它位于“导出和共享设置”组中  。
 
@@ -141,7 +141,8 @@ ms.locfileid: "79487800"
 
 有关本文的详细信息，请参阅以下资源：
 
-- [什么是 Power BI 管理？](../service-admin-administering-power-bi-in-your-organization.md)
-- [在管理门户中管理 Power BI](../service-admin-portal.md)
+- [什么是 Power BI 管理？](../admin/service-admin-administering-power-bi-in-your-organization.md)
+- [在管理门户中管理 Power BI](../admin/service-admin-portal.md)
 - 是否有任何问题？ [尝试咨询 Power BI 社区](https://community.powerbi.com/)
 - 建议？ [提出改进 Power BI 的想法](https://ideas.powerbi.com)
+

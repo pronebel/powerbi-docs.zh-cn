@@ -8,12 +8,12 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 11/24/2019
 ms.author: v-pemyer
-ms.openlocfilehash: 2f70b98ed540a2e5b87e5a949e30b0c1c02069d1
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: aea24e96acadbf9fee9e6dbf3aa395e09ef8e541
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "74700377"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83279632"
 ---
 # <a name="dax-avoid-converting-blanks-to-values"></a>DAX：不要将空白转换为值
 
@@ -66,7 +66,7 @@ DIVIDE([Profit], [Sales])
 ![同一个表视觉对象现在显示四行数据。 每一行都表示一个具有销售值的客户，且 Profit Margin 的值非零。](media/dax-avoid-converting-blank/table-visual-good.png)
 
 > [!TIP]
-> 必要时，可启用[显示无数据的项目](../desktop-show-items-no-data.md)选项，将视觉对象配置为显示筛选器上下文中所有的组（即返回值或 BLANK 的组）。
+> 必要时，可启用[显示无数据的项目](../create-reports/desktop-show-items-no-data.md)选项，将视觉对象配置为显示筛选器上下文中所有的组（即返回值或 BLANK 的组）。
 
 ## <a name="recommendation"></a>建议
 
@@ -80,3 +80,4 @@ DIVIDE([Profit], [Sales])
 
 - [数据分析表达式 (DAX) 引用](/dax/)
 - 是否有任何问题? [尝试咨询 Power BI 社区](https://community.powerbi.com/)
+

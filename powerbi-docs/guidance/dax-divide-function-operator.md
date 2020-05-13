@@ -8,12 +8,12 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 09/09/2019
 ms.author: v-pemyer
-ms.openlocfilehash: 7eea15d4389afaac2ac69e2f26eaa38fe84e337b
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: b792c7d9f6200544188e9f9fe711cd1394e8b921
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "75304162"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83279563"
 ---
 # <a name="dax-divide-function-vs-divide-operator-"></a>DAX：DIVIDE 函数与除法运算符 (/)
 
@@ -58,7 +58,7 @@ DIVIDE([Profit], [Sales])
 
 如果分母是一个常数值，则建议使用除法运算符。 在这种情况下，除法运算一定会成功，而且由于避免了不必要的检测，表达式性能更好。
 
-仔细考虑 DIVIDE 函数是否应该返回替代值。 对于度量值，返回 BLANK 时通常设计更佳。 返回“空白”更好，因为在汇总为 BLANK 时报表视觉对象默认会取消分组。 这使视觉对象可专注于处理存在数据的组。 必要时，可启用[显示无数据的项目](../desktop-show-items-no-data.md)选项，将视觉对象配置为显示筛选器上下文中所有的组（即返回值或 BLANK 的组）。
+仔细考虑 DIVIDE 函数是否应该返回替代值。 对于度量值，返回 BLANK 时通常设计更佳。 返回“空白”更好，因为在汇总为 BLANK 时报表视觉对象默认会取消分组。 这使视觉对象可专注于处理存在数据的组。 必要时，可启用[显示无数据的项目](../create-reports/desktop-show-items-no-data.md)选项，将视觉对象配置为显示筛选器上下文中所有的组（即返回值或 BLANK 的组）。
 
 ## <a name="next-steps"></a>后续步骤
 
@@ -66,3 +66,4 @@ DIVIDE([Profit], [Sales])
 
 - [数据分析表达式 (DAX) 引用](/dax/)
 - 是否有任何问题? [尝试咨询 Power BI 社区](https://community.powerbi.com/)
+

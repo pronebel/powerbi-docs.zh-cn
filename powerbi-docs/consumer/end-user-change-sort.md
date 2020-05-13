@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 02/19/2020
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: 1a59618ea27944314465d8e08d5f0c249c3bed0b
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 811e0513c1b4a16a731e6d9bd90cbc0689ca76e0
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "77496479"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83279770"
 ---
 # <a name="change-how-a-chart-is-sorted-in-a-power-bi-report"></a>更改 Power BI 报表中的图表排序方式
 
@@ -22,7 +22,7 @@ ms.locfileid: "77496479"
 
 
 > [!IMPORTANT]
-> **本文适用于对报表或数据集没有编辑权限以及仅在 Power BI 的联机版本（Power BI 服务）中工作的 Power BI 用户。如果你是报表设计人员  或管理员  或所有者  ，则本文可能没有你所需的全部信息。请转为参阅[在 Power BI Desktop 中按列排序](../desktop-sort-by-column.md)** 。
+> **本文适用于对报表或数据集没有编辑权限以及仅在 Power BI 的联机版本（Power BI 服务）中工作的 Power BI 用户。如果你是报表设计人员  或管理员  或所有者  ，则本文可能没有你所需的全部信息。请转为参阅[在 Power BI Desktop 中按列排序](../create-reports/desktop-sort-by-column.md)** 。
 
 在 Power BI 服务中，你可以更改视觉对象的外观，方法是按不同的数据字段对其进行排序。 通过更改视觉对象的排序方式，可以突出显示想要表达的信息。 无论使用的是数值数据（如销售数据）还是文本数据（如州名），都可按所需的方式对可视化效果进行排序。 Power BI 对排序提供了很大的灵活性，并提供了快速菜单供你使用。 
 
@@ -69,7 +69,7 @@ Power BI 报表可保留你对筛选器、切片器、排序和其他数据视�
 
 ![显示联系信息的下拉列表](media/end-user-change-sort/power-bi-contact.png)
 
-如果你是设计人员  并且对内容具有编辑权限，请参阅 [Power BI Desktop 中的按列排序](../desktop-sort-by-column.md)，以了解如何更新数据集并启用此类排序。
+如果你是设计人员  并且对内容具有编辑权限，请参阅 [Power BI Desktop 中的按列排序](../create-reports/desktop-sort-by-column.md)，以了解如何更新数据集并启用此类排序。
 
 ## <a name="next-steps"></a>后续步骤
 [Power BI 报表中的可视化对象](end-user-visualizations.md)的详细信息。

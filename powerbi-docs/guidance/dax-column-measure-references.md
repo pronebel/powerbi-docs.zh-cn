@@ -8,12 +8,12 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 12/18/2019
 ms.author: v-pemyer
-ms.openlocfilehash: 3ca49008639f7e3e084c8d045bc911aff57b7b21
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 42d99c7139586a78565198b59bc74716261537e0
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "75498728"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83279609"
 ---
 # <a name="dax-column-and-measure-references"></a>DAX：列和度量值引用
 
@@ -43,7 +43,7 @@ Profit = Orders[Sales] - Orders[Cost]
 
 ## <a name="measures"></a>度量值
 
-度量值是模型级别对象。 因此，度量值名称在模型中必须是唯一的。 但是，在“字段”窗格中，报表作者将看到与单个模型表关联的每个度量值  。 此关联是出于装饰原因设置的，你可以通过设置度量值的“主表”属性来对其进行配置  。 有关详细信息，请参阅 [Power BI Desktop 中的度量值（组织度量值）](../desktop-measures.md#organizing-your-measures)。
+度量值是模型级别对象。 因此，度量值名称在模型中必须是唯一的。 但是，在“字段”窗格中，报表作者将看到与单个模型表关联的每个度量值  。 此关联是出于装饰原因设置的，你可以通过设置度量值的“主表”属性来对其进行配置  。 有关详细信息，请参阅 [Power BI Desktop 中的度量值（组织度量值）](../transform-model/desktop-measures.md#organizing-your-measures)。
 
 可以在表达式中使用完全限定的度量值。 DAX intellisense 甚至会提供建议。 但是，没必要这样做，也不建议这样做。 如果更改了度量值的主表，则使用完全限定的度量值引用的任何表达式都将中断。 然后需要对每个中断的公式进行编辑，以删除（或更新）度量值引用。
 
@@ -68,3 +68,4 @@ Profit = Orders[Sales] - Orders[Cost]
 
 - [数据分析表达式 (DAX) 引用](/dax/)
 - 是否有任何问题? [尝试咨询 Power BI 社区](https://community.powerbi.com/)
+
