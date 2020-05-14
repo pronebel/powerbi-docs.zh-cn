@@ -12,6 +12,10 @@
       items:
         - name: 开发 Power BI 视觉对象
           href: custom-visual-develop-tutorial.md
+        - name: 创建基于响应的视觉对象
+          href: create-react-visual.md
+        - name: 生成条形图
+          href: create-bar-chart.md
         - name: 添加格式设置选项
           href: custom-visual-develop-tutorial-format-options.md
         - name: 为视觉对象项目添加单位测试
@@ -38,14 +42,20 @@
           href: objects-properties.md
         - name: 高级编辑模式
           href: advanced-edit-mode.md
+        - name: supportsKeyboardFocus 功能
+          href: supportskeyboardfocus-feature.md
+        - name: supportsMultiVisualSelection-feature.md
+          href: supportsmultivisualselection-feature.md
     - name: 操作方法
       items:
         - name: 获取 Power BI 视觉对象认证
           href: power-bi-custom-visuals-certified.md
         - name: 将 Power BI 视觉对象发布到 AppSource
           href: office-store.md
+        - name: 测试 Power BI 视觉对象
+          href: submission-testing.md
         - name: 在 Power BI 中使用 R 驱动的 Power BI 视觉对象
-          href: ../../desktop-r-powered-custom-visuals.md?toc=/powerbi-docs/developer/TOC.json&bc=/powerbi-docs/breadcrumb/toc.json
+          href: ../../create-reports/desktop-r-powered-custom-visuals.md?toc=/powerbi-docs/developer/TOC.json&bc=/powerbi-docs/breadcrumb/toc.json
         - name: 视觉对象交互
           href: visuals-interactions.md
         - name: 添加选择
@@ -64,6 +74,8 @@
           href: context-menu.md
         - name: 添加向下钻取支持
           href: drill-down-support.md
+        - name: 向视觉对象添加颜色
+          href: add-colors-power-bi-visual.md
         - name: 在视觉对象中突出显示数据
           href: highlight.md
         - name: 添加高对比度模式支持
@@ -78,10 +90,14 @@
           href: power-bi-custom-visuals-troubleshoot.md
     - name: 参考
       items:
+        - name: 更改日志
+          href: changelog.md
         - name: 登陆页面
           href: landing-page.md
         - name: 启动 URL
           href: launch-url.md
+        - name: 视觉对象 API
+          href: visual-api.md
         - name: 本地存储 API
           href: local-storage.md
         - name: 呈现事件
@@ -119,8 +135,8 @@
         - name: 开发中心
           href: 'https://powerbi.microsoft.com/developers/'
         - name: Power BI 视觉对象示例
-          href: 'https://microsoft.github.io/PowerBI-visuals/samples/'
-        - name: Power BI 视觉对象 Git 存储库
+          href: samples.md
+        - name: 自定义视觉对象 Git 存储库
           href: 'https://go.microsoft.com/fwlink/?linkid=848277'
         - name: 创建 SSL 证书
           href: create-ssl-certificate.md
