@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 10/24/2019
+ms.date: 05/14/2020
 LocalizationGroup: Conceptual
-ms.openlocfilehash: ff8b6a139d0088b2ff2acc8f73b75431e500ba51
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 4454269803c45948c21c4448ab76b5397d3388b2
+ms.sourcegitcommit: 21b06e49056c2f69a363d3a19337374baa84c83f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83279080"
+ms.lasthandoff: 05/15/2020
+ms.locfileid: "83407516"
 ---
 # <a name="power-bi-security-whitepaper"></a>Power BI 安全白皮书
 
@@ -263,7 +263,7 @@ Power BI 通过以下方式提供数据完整性监视：
 
     &ensp;&ensp;一个。 对于使用 Excel for Office 365 创建的报表，不缓存任何内容。
 
-    &ensp;&ensp;b。 对于 Power BI 报表，在 Azure SQL 数据库中加密缓存显示的视觉对象的数据。
+    &ensp;&ensp;b。 对于 Power BI 报表，显示的报表视觉对象的数据将缓存并存储在以下部分所述的可视化数据缓存中。
  
 
 4. 发布到 Power BI 的原始 Power BI Desktop (.pbix) 或 Excel (.xlsx) 文件
@@ -272,11 +272,20 @@ Power BI 通过以下方式提供数据完整性监视：
 
 #### <a name="dashboards-and-dashboard-tiles"></a>仪表板和仪表板磁贴
 
-1. 缓存 - 仪表板上的视觉对象所需的数据通常在 Azure SQL 数据库中进行缓存和加密存储。 其他磁贴（例如，Excel 或 SQL Server Reporting Services (SSRS) 中的固定视觉对象）作为图像存储在 Azure Blob 中，并且也进行了加密。
+1. 缓存-仪表板上视觉对象所需的数据通常缓存并存储在以下部分所述的可视化数据缓存中。 其他磁贴（例如，Excel 或 SQL Server Reporting Services (SSRS) 中的固定视觉对象）作为图像存储在 Azure Blob 中，并且也进行了加密。
 
 2. 静态数据-包括在 Azure Blob 存储中存储、加密的背景图像和 Power BI 视觉对象等项目。
 
-无论使用何种加密方法，Microsoft 都会代表客户在机密存储或 Azure Key Vault 中管理密钥加密。
+无论使用哪种加密方法，Microsoft 都代表客户管理密钥加密。
+
+#### <a name="visual-data-cache"></a>可视化数据缓存
+
+视觉对象数据缓存在不同位置，具体取决于是否在 Power BI Premium 容量上承载数据集。 对于未托管在容量中的数据集，将缓存视觉数据并将其存储在 Azure SQL 数据库中进行加密。 对于在容量上承载的数据集，可在以下任何位置缓存可视数据：
+
+* Azure Blob 存储
+* Azure 高级文件
+* "Power BI Premium 容量" 节点
+
 
 ### <a name="data-transiently-stored-on-non-volatile-devices"></a>数据暂时存储在非易失性设备上
 
