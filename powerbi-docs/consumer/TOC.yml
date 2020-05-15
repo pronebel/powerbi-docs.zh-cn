@@ -72,6 +72,8 @@
               href: end-user-bookmarks.md
             - name: 向报表添加聚焦
               href: end-user-spotlight.md
+            - name: 个性化设置视觉对象
+              href: end-user-personalize-visuals.md
             - name: Power BI 中的分页报表
               items:
                 - name: 分页报表
