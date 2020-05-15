@@ -29,7 +29,7 @@ ms.locfileid: "79380516"
 
 1. 安装（或更新）所需的实用程序 - [powerbi-visuals-utils-interactivityutils](https://github.com/Microsoft/PowerBI-visuals-utils-interactivityutils/) 版本 3.0.0 或更高版本。 它包含使用状态选择或筛选器进行操作的其他类。 筛选器视觉对象和使用 `InteractivityService` 的任何视觉对象都需要它。
 
-2. 将视觉对象 API 更新到版本 1.11.0，以便在 `registerOnSelectCallback` 的实例中使用 `SelectionManager`。 使用普通 `SelectionManager` 而非 `InteractivityService` 的非筛选器视觉对象都需要它。
+2. 将视觉对象 API 更新到版本 1.11.0，以便在 `SelectionManager` 的实例中使用 `registerOnSelectCallback`。 使用普通 `SelectionManager` 而非 `InteractivityService` 的非筛选器视觉对象都需要它。
 
 ### <a name="how-power-bi-visuals-interact-with-power-bi-in-report-bookmarks"></a>Power BI 视觉对象如何在报表书签中与 Power BI 进行交互
 
@@ -51,7 +51,7 @@ ms.locfileid: "79380516"
 
 * 如果视觉对象尚未使用 [InteractivityService](https://github.com/Microsoft/powerbi-visuals-utils-interactivityutils/blob/master/docs/api/interactivityService.md)，则你可以使用 `FilterManager.restoreSelectionIds` 方法。
 
-* 如果视觉对象已使用 [InteractivityService](https://github.com/Microsoft/powerbi-visuals-utils-interactivityutils/blob/master/docs/api/interactivityService.md) 来管理选择，则应使用 `applySelectionFromFilter` 实例中的 `InteractivityService` 方法。
+* 如果视觉对象已使用 [InteractivityService](https://github.com/Microsoft/powerbi-visuals-utils-interactivityutils/blob/master/docs/api/interactivityService.md) 来管理选择，则应使用 `InteractivityService` 实例中的 `applySelectionFromFilter` 方法。
 
 #### <a name="use-iselectionmanagerregisteronselectcallback"></a>使用 ISelectionManager.registerOnSelectCallback
 

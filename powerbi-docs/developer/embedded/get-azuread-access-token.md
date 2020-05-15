@@ -99,7 +99,7 @@ protected void signInButton_Click(object sender, EventArgs e)
 
 在 **Azure AD** 使用**授权代码**重定向回 Web 应用后，可使用授权代码来获取访问令牌。 下面的 C# 示例可用于重定向页面和 default.aspx 的 `Page_Load` 事件。
 
-可从 **Active Directory 身份验证库** NuGet 包检索 [Microsoft.IdentityModel.Clients.ActiveDirectory](https://www.nuget.org/packages/Microsoft.IdentityModel.Clients.ActiveDirectory/) 命名空间。
+可从 [Active Directory 身份验证库](https://www.nuget.org/packages/Microsoft.IdentityModel.Clients.ActiveDirectory/) NuGet 包检索 **Microsoft.IdentityModel.Clients.ActiveDirectory** 命名空间。
 
 ```powershell
 Install-Package Microsoft.IdentityModel.Clients.ActiveDirectory

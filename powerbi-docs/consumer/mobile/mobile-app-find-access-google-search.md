@@ -28,7 +28,7 @@ ms.locfileid: "80802631"
 
 ## <a name="search-using-google-search"></a>使用 Google Search 搜索
 
-在 Google 搜索框中，使用表单“搜索 power bi 中的***搜索项&lt;”&gt;***。 例如，“搜索 power bi 中的销售额”  。
+在 Google 搜索框中，使用表单“搜索 power bi 中的&lt;搜索项&gt;”。 例如，“搜索 power bi 中的销售额”  。
 
 * 如果仅找到一个匹配项，Power BI 移动应用会打开此匹配项。
 * 如果找到多个匹配项，Power BI 将打开搜索屏幕，根据你的请求进行筛选。

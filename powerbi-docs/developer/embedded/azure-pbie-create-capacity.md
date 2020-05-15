@@ -54,7 +54,7 @@ ms.locfileid: "80114787"
     |**位置**|为你的租户托管 Power BI 的位置。 你的默认位置位于主区域内，但可以使用 [Multi-Geo 选项](embedded-multi-geo.md)更改该位置。
     |**定价层**|选择满足需求的 SKU（v 核心数和内存大小）。  有关详细信息，请参阅 [Power BI Embedded 定价](https://azure.microsoft.com/pricing/details/power-bi-embedded/)|
 
-可导航到“所有服务” **“Power BI Embedded”，查看容量是否已准备就绪** >   。 或者，可以在通知部分或边栏选项卡中选择“固定到仪表板”，导航到仪表板以查看新容量  。
+可导航到“所有服务” > “Power BI Embedded”，查看容量是否已准备就绪   。 或者，可以在通知部分或边栏选项卡中选择“固定到仪表板”，导航到仪表板以查看新容量  。
 
 ![提供 Power BI Embedded 容量的 Azure 门户仪表板](media/azure-pbie-create-capacity/azure-portal-dashboard.png)
 

@@ -17,11 +17,11 @@ ms.locfileid: "80114143"
 ---
 # <a name="highlight-data-points-in-power-bi-visuals"></a>突出显示 Power BI 视觉对象中的数据点
 
-默认情况下，只要选择了某个元素，`values` 对象中的 `dataView` 数组就会被筛选为所选的值。 这将导致页面上的所有其他视觉对象仅显示所选数据。
+默认情况下，只要选择了某个元素，`dataView` 对象中的 `values` 数组就会被筛选为所选的值。 这将导致页面上的所有其他视觉对象仅显示所选数据。
 
 ![突出显示 `dataview` 默认行为](media/highlight/highlight-dataview.png)
 
-如果将 `supportsHighlight` 中的 `capabilities.json` 属性设置为 `true`，则会获得未经筛选的完整 `values` 数组和 `highlights` 数组。 `highlights` 数组的长度与 values 数组的长度相同，并且任何未选定的值都将设置为 `null`。 启用此属性后，视觉对象负责通过将 `values` 数组与 `highlights` 数组进行比较来突出显示相应的数据。
+如果将 `capabilities.json` 中的 `supportsHighlight` 属性设置为 `true`，则会获得未经筛选的完整 `values` 数组和 `highlights` 数组。 `highlights` 数组的长度与 values 数组的长度相同，并且任何未选定的值都将设置为 `null`。 启用此属性后，视觉对象负责通过将 `values` 数组与 `highlights` 数组进行比较来突出显示相应的数据。
 
 ![`dataview` 支持突出显示](media/highlight/highlight-dataview-supports.png)
 
@@ -32,7 +32,7 @@ ms.locfileid: "80114143"
 
 ## <a name="highlight-data-points-with-categorical-data-view-mapping"></a>用分类数据视图映射功能突出显示数据点
 
-具有分类数据视图映射功能的视觉对象具有带 `capabilities.json` 参数的 `"supportsHighlight": true`。 例如：
+具有分类数据视图映射功能的视觉对象具有带 `"supportsHighlight": true` 参数的 `capabilities.json`。 例如：
 
 ```json
 {
@@ -275,7 +275,7 @@ div.value {
 
 ## <a name="highlight-data-points-with-matrix-data-view-mapping"></a>用矩阵数据视图映射突出显示数据点
 
-具有矩阵数据视图映射功能的视觉对象具有带 `capabilities.json` 参数的 `"supportsHighlight": true`。 例如：
+具有矩阵数据视图映射功能的视觉对象具有带 `"supportsHighlight": true` 参数的 `capabilities.json`。 例如：
 
 ```json
 {

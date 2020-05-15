@@ -28,7 +28,7 @@ ms.locfileid: "78921116"
   
  预览报表时，报表处理器将表数据区域与数据连接中的实际数据合并在一起，并将结果集中的每一行显示为表中的一行。  
   
- 要手动输入表达式，请在设计图面上选择某个项，然后使用快捷方式菜单和对话框来设置该项的属性。 在下拉列表中看到 (fx) 按钮或值  ***时，可以将属性设置为表达式***`<Expression>`。 
+ 要手动输入表达式，请在设计图面上选择某个项，然后使用快捷方式菜单和对话框来设置该项的属性。 在下拉列表中看到 (fx) 按钮或值 `<Expression>` 时，可以将属性设置为表达式。 
   
 ##  <a name="understanding-simple-and-complex-expressions"></a><a name="Types"></a> 了解简单和复杂表达式  
  表达式以等号 (=) 开头且用 Microsoft Visual Basic 编写。 表达式可以包含常量、运算符和对内置值（字段、集合和函数）及外部或自定义代码的引用，以及这些内容的组合。  
@@ -69,7 +69,7 @@ ms.locfileid: "78921116"
 |参考|说明|示例|  
 |----------------|-----------------|-------------|  
 |常量|描述可以交互式方式访问的属性常量，这些属性需要常量值（如字体颜色）。|`="Blue"`|  
-|Operators|描述可用于合并表达式中的引用的运算符。 例如， **运算符用于串联字符串&** 。|`="The report ran at: " & Globals!ExecutionTime & "."`|  
+|Operators|描述可用于合并表达式中的引用的运算符。 例如，& 运算符用于串联字符串  。|`="The report ran at: " & Globals!ExecutionTime & "."`|  
 |内置集合|描述可以包含在表达式中的内置集合（如 `Fields`、`Parameters` 和 `Variables`）。|`=Fields!Sales.Value`<br /><br /> `=Parameters!Store.Value`<br /><br /> `=Variables!MyCalculation.Value`|  
 |内置报表函数和聚合函数|描述可以通过表达式访问的内置函数（如 `Sum` 或 `Previous`）。|`=Previous(Sum(Fields!Sales.Value))`|  
 |报表生成器的表达式中的自定义代码和程序集引用 |描述如何访问内置 CLR 类 `xref:System.Math` 和 `xref:System.Convert`、其他 CLR 类、Visual Basic 运行时库函数或外部程序集中的方法。<br /><br /> 描述如何访问报表中嵌入的自定义代码，或同时在报表客户端和报表服务器上编译和安装为自定义程序集的自定义代码。|`=Sum(Fields!Sales.Value)`<br /><br /> `=CDate(Fields!SalesDate.Value)`<br /><br /> `=DateAdd("d",3,Fields!BirthDate.Value)`<br /><br /> `=Code.ToUSD(Fields!StandardCost.Value)`|  

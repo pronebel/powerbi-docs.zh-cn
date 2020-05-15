@@ -31,7 +31,7 @@ ms.locfileid: "80114741"
 
 1. 登录到 [Azure 门户](https://portal.azure.com/)。
 
-2. 选择“所有服务” **“Power BI Embedded”以查看容量** >   。
+2. 选择“所有服务” > “Power BI Embedded”以查看容量   。
 
     ![Azure 门户中的所有服务](media/azure-pbie-pause-start/azure-portal-more-services.png)
 
@@ -53,7 +53,7 @@ ms.locfileid: "80114741"
 
 1. 登录到 [Azure 门户](https://portal.azure.com/)。
 
-2. 选择“所有服务” **“Power BI Embedded”以查看容量** >   。
+2. 选择“所有服务” > “Power BI Embedded”以查看容量   。
 
     ![Azure 门户中的所有服务](media/azure-pbie-pause-start/azure-portal-more-services.png)
 

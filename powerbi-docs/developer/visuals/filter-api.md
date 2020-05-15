@@ -19,7 +19,7 @@ ms.locfileid: "80114097"
 
 通过视觉对象筛选器 API，可在 Power BI 视觉对象中筛选数据。 它与其他选择的主要区别是可通过任意方式筛选其他视觉对象，尽管其他视觉对象支持突出显示。
 
-若要对此视觉对象启用筛选，该视觉对象应在 capabilities.json 代码的 `filter` 部分中包含 `general` 对象  。
+若要对此视觉对象启用筛选，该视觉对象应在 capabilities.json 代码的 `general` 部分中包含 `filter` 对象  。
 
 ```json
 "objects": {
@@ -120,7 +120,7 @@ visualHost.applyJsonFilter(filter, "general", "filter", FilterAction.merge);
 
 视觉对象 API 1.7.0 中引入了此筛选器。
 
-高级筛选器 API 还需要含 `target` 和 `table` 名称的 `column`。 但高级筛选器 API 运算符为“And”和“Or”   。 
+高级筛选器 API 还需要含 `table` 和 `column` 名称的 `target`。 但高级筛选器 API 运算符为“And”和“Or”   。 
 
 此外，该筛选器在接口中使用条件而不是值：
 

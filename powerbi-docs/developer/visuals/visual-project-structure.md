@@ -102,7 +102,7 @@ Power BI 视觉对象工具使用此文件作为 Power BI 可视化效果窗格�
 
 [TypeScript](https://www.typescriptlang.org/docs/handbook/tsconfig-json.html) 的配置文件。
 
-此文件必须包含 **\*.ts** 文件的路径，在该文件中，将在 `visualClassName` 文件的 `pbiviz.json` 属性中指定视觉对象主类的位置。
+此文件必须包含 **\*.ts** 文件的路径，在该文件中，将在 `pbiviz.json` 文件的 `visualClassName` 属性中指定视觉对象主类的位置。
 
 ### <a name="tslintjson"></a>tslint.json
 
@@ -113,7 +113,7 @@ Power BI 视觉对象工具使用此文件作为 Power BI 可视化效果窗格�
 `pbiviz.json` 文件的以下代码描述中的注释描述了元数据条目。
 
 > [!NOTE]
-> * 从“pbiviz”工具的版本 3.x.x 开始，不再支持  `externalJS`。
+> * 从“pbiviz”工具的版本 3.x.x 开始，不再支持 `externalJS` 。
 > * 为获得本地化支持，[将 Power BI 区域设置添加到你的视觉对象](./localization.md)。
 
 ```json

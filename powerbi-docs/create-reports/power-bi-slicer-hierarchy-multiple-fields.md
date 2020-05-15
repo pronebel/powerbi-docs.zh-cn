@@ -24,7 +24,7 @@ ms.locfileid: "81006884"
 
 :::image type="content" source="media/power-bi-slicer-hierarchy-multiple-fields/power-bi-slicer-hierarchy.png" alt-text="Power BI 中的层次结构切片器":::
 
-要启用此预览功能，请在“文件”菜单中，依次选择“选项和设置” **“选项”**   >   。 在“全局”下，转到“预览功能”部分，并确保选中“层次结构切片器”    。
+要启用此预览功能，请在“文件”菜单中，依次选择“选项和设置” > “选项”    。 在“全局”下，转到“预览功能”部分，并确保选中“层次结构切片器”    。
 
 :::image type="content" source="media/power-bi-slicer-hierarchy-multiple-fields/power-bi-slicer-hierarchy-preview.png" alt-text="选择层次结构切片器预览功能":::
 

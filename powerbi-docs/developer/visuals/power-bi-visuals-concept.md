@@ -54,7 +54,7 @@ Power BI 视觉对象中的操作和后续更新采用以下三种模式之一�
 
 * 用户调整视觉对象的大小。
 
-    当用户更改视觉对象的大小时，Power BI 将使用新 `update` 对象调用 `options` 方法。 `options` 对象具有嵌套的 `viewport` 对象，这些对象包含视觉对象的新宽度和高度。
+    当用户更改视觉对象的大小时，Power BI 将使用新 `options` 对象调用 `update` 方法。 `options` 对象具有嵌套的 `viewport` 对象，这些对象包含视觉对象的新宽度和高度。
 
 * 用户应用报表、页面或视觉对象级筛选器。
 
@@ -76,7 +76,7 @@ Power BI 视觉对象中的操作和后续更新采用以下三种模式之一�
 
     * Power BI 调用通过 `registerOnSelectionCallback` 方法传递和注册的函数。 回调函数获取相应书签的选择数组。
 
-    * Power BI 使用 `update` 对象内的相应 `filter` 对象调用 `options` 方法。
+    * Power BI 使用 `options` 对象内的相应 `filter` 对象调用 `update` 方法。
 
     在任一情况下，视觉对象都必须根据接收到的选择或 `filter` 对象更改其状态。
 

@@ -159,7 +159,7 @@ export interface ISelectionIdBuilder {
 
 而且，视觉对象还可以通过 `Manufacturer` 和 `Type` 来切分数据。
 
-例如，当用户按 `Chrysler` 选择 `Manufacturer` 时，其他视觉对象应显示以下数据：
+例如，当用户按 `Manufacturer` 选择 `Chrysler` 时，其他视觉对象应显示以下数据：
 
 | Manufacturer | 类型 | Value |
 | - | - | - |
@@ -168,7 +168,7 @@ export interface ISelectionIdBuilder {
 | **Chrysler** | 进口汽车 | 0 |
 | **Chrysler** | 进口卡车 | 6362 |
 
-当用户按 `Import Car` 选择 `Type` 时（按系列选择数据），其他视觉对象应显示以下数据：
+当用户按 `Type` 选择 `Import Car` 时（按系列选择数据），其他视觉对象应显示以下数据：
 
 | Manufacturer | 类型 | Value |
 | - | - | - |

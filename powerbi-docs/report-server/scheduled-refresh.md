@@ -51,7 +51,7 @@ Power BI 报表服务器为所有计划的操作维护事件队列。 它会每�
 
 除了上述列表，在“导入”模式下，还有一些含数据源的特定场景，你不能为其创建刷新计划  。
 
-* 如果使用的是“文件”  或“文件夹”  数据源且文件路径是本地路径（例如 C:\Users\user\Documents），则无法创建刷新计划。 路径必须是报表服务器可以连接到网络共享之类的路径。 例如“*myshare\Documents”\\* 。
+* 如果使用的是“文件”  或“文件夹”  数据源且文件路径是本地路径（例如 C:\Users\user\Documents），则无法创建刷新计划。 路径必须是报表服务器可以连接到网络共享之类的路径。 例如“\\myshare\Documents”  。
 * 如果只能使用 OAuth（例如 Facebook、Google Analytics、Salesforce 等）连接数据源，则无法创建缓存刷新计划。 目前，RS 针对任何数据源均不支持 OAuth 身份验证，无论是针对分页报表、移动报表，还是 Power BI 报表。
 
 ### <a name="memory-limits"></a>内存限制
