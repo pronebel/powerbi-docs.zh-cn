@@ -33,7 +33,7 @@ ms.locfileid: "83281705"
 
 按照[演练步骤 1：创建机器学习工作室（经典）工作区](https://docs.microsoft.com/azure/machine-learning/studio/walkthrough-1-create-ml-workspace)，以创建机器学习  工作区。
 
-可以对已有的任何 Auzre ML 模型或数据集使用这些步骤。 如果还没有发布的模型，可以通过参考[在 Azure 机器学习工作室（经典）中创建你的第一个数据科学试验](https://docs.microsoft.com/azure/machine-learning/studio/create-experiment)（该教程设置有关汽车价格预测的 Azure ML 模型）在几分钟内创建一个模型。
+可以对已有的任何 Azure ML 模型或数据集使用这些步骤。 如果还没有发布的模型，可以通过参考[在 Azure 机器学习工作室（经典）中创建你的第一个数据科学试验](https://docs.microsoft.com/azure/machine-learning/studio/create-experiment)（该教程设置有关汽车价格预测的 Azure ML 模型）在几分钟内创建一个模型。
 
 按照[部署 Azure 机器学习工作室（经典）Web 服务](https://docs.microsoft.com/azure/machine-learning/studio/tutorial-part3-credit-risk-deploy)中的步骤操作，将 Azure ML 模型发布为 Web 服务。
 

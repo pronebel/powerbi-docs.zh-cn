@@ -184,7 +184,7 @@ Azure 门户列和详细名称与 API 和连接器中的相关信息类似，但
 | --- | --- | --- | --- |
 | AccountName |accountName |Account Name |否 |
 | AccountId |accountId | |是 |
-| AcccountOwnerId |accountOwnerEmail |AccountOwnerId |否 |
+| AccountOwnerId |accountOwnerEmail |AccountOwnerId |否 |
 | AdditionalInfo |additionalInfo |AdditionalInfo |否 |
 | AdditionalInfold | | |是 |
 | Consumed Quantity |consumedQuantity |Consumed Quantity |否 |
