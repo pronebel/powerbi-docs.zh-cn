@@ -21,7 +21,7 @@ ms.locfileid: "83348312"
 
 ![导出到 PDF](media/desktop-export-to-pdf/export-to-pdf_01.png)
 
-从 Power BI Desktop 中将报表导出到 PDF，以便能够打印或与他人共享该 PDF 文档的过程非常简单  。 只需在 Power BI Deskop 中选择“文件”>“导出到 PDF”即可  。
+从 Power BI Desktop 中将报表导出到 PDF，以便能够打印或与他人共享该 PDF 文档的过程非常简单  。 只需在 Power BI Desktop 中选择“文件”>“导出到 PDF”即可  。
 
 “导出到 PDF”过程将导出报表中的所有可见页，并且每个报表页将导出到 PDF 的单个页中   。 当前不可见的报表页（例如任何工具提示或隐藏页）不会导出到 PDF 文件中。 
 
