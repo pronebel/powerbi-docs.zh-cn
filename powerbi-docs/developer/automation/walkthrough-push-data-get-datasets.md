@@ -58,7 +58,7 @@ ms.locfileid: "79079292"
     string datasetId = GetDataset();
   }
   ```
-* 添加 GetDatset() 方法 ︰
+* 添加 GetDataset() 方法：
   
   ```csharp
     #region Get a dataset to add rows into a Power BI table
