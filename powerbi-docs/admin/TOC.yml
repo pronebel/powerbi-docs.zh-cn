@@ -112,8 +112,10 @@
               href: service-encryption-byok.md
             - name: 重新开始高级容量
               href: service-admin-premium-restart.md
-            - name: 使用 XMLA 终结点的数据集连接（预览）
+            - name: 使用 XMLA 终结点的数据集连接
               href: service-premium-connect-tools.md
+            - name: 使用服务主体进行自动化
+              href: service-premium-service-principal.md
     - name: 参考
       items:
         - name: PowerShell、REST API 和 .NET SDK

@@ -339,6 +339,8 @@
               href: ../paginated-reports/report-builder-shared-datasets.md
             - name: 创建参数
               href: ../paginated-reports/paginated-reports-parameters.md
+            - name: 设置报表视图
+              href: ../paginated-reports/page-view.md
             - name: 子报表
               href: ../paginated-reports/subreports.md
             - name: 排除子报表故障
