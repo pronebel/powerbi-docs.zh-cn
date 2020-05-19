@@ -12,7 +12,7 @@
       expanded: true
       items:
         - name: 在线课程：分页报表
-          href: ../paginated-reports/paginated-reports-online-course.md
+          href: ../learning-catalog/paginated-reports-online-course.md
         - name: 创建分页报表并进行上传
           href: ../paginated-reports/paginated-reports-quickstart-aw.md
     - name: 示例
