@@ -6,24 +6,27 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 01/29/2020
+ms.date: 03/29/2020
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 0b633f2482c5b9f1624f39e4f2c0e07afc55353f
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: c2800ab9d57732448db9e4fe647a0601a20a816c
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "76894937"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83276596"
 ---
 # <a name="tips-and-tricks-for-color-formatting-in-power-bi"></a>Power BI 中颜色格式设置的提示和技巧
+
+[!INCLUDE[consumer-appliesto-nyyn](../includes/consumer-appliesto-nyyn.md)]    
+
 Power BI 提供了自定义仪表板和报表的多种方法。 本文详细介绍了一些技巧，可以让你的 Power BI 可视化效果更引人注目、生动有趣，并可根据你的需求进行自定义。
 
-本文提供以下技巧。 还有更好的技巧？ 很棒！ 请将其发送给我们，我们会考虑将其添加到此列表中。
+本文提供以下技巧。 还有更好的技巧？ 太棒了！ 请将其发送给我们，我们会考虑将其添加到此列表中。
 
 * 将主题应用于整个报表
 * 更改单个数据点的颜色
-* 条件格式设置
+* 条件格式
 * 根据数值设置图表的颜色
 * 根据字段值设置数据点的颜色
 * 在色阶中自定义使用的颜色
@@ -31,20 +34,20 @@ Power BI 提供了自定义仪表板和报表的多种方法。 本文详细介�
 * 向表行添加颜色
 * 如何在 Power BI 中撤消操作
 
-若要进行任何更改，必须具有报表的编辑权限。 在 Power BI Desktop 中，在“报表”  视图中打开报表。 在 Power BI 服务中，这意味着打开报表并从菜单栏中选择“编辑”  ，如下图所示。
+若要进行任何更改，必须具有报表的编辑权限。 在 Power BI Desktop 中，在“报表”视图中打开报表。 在 Power BI 服务中，这意味着打开报表并从菜单栏中选择“编辑”，如下图所示。
 
 ![何处可以找到“编辑”菜单](media/service-tips-and-tricks-for-color-formatting/power-bi-edit-report.png)
 
-当“筛选器”和“可视化效果”窗格出现在报表画布的右侧时，即可开始进行自定义操作   。 如果未显示这些窗格，可选择右上角的箭头将其打开。
+当“筛选器”和“可视化效果”窗格出现在报表画布的右侧时，即可开始进行自定义操作 。 如果未显示这些窗格，可选择右上角的箭头将其打开。
 
 ![编辑视图中的报表画布](media/service-tips-and-tricks-for-color-formatting/power-bi-edit.png)
 
 ## <a name="apply-a-theme"></a>应用主题
-使用报表主题，你可以将设计更改应用于整个报表，如使用公司颜色、更改图标集或应用新的默认视觉对象格式。 在你应用某个报表主题后，报表中的所有视觉对象都会使用选定主题中的颜色和格式。 若要了解详细信息，请参阅[使用报表主题](../desktop-report-themes.md)
+使用报表主题，你可以将设计更改应用于整个报表，如使用公司颜色、更改图标集或应用新的默认视觉对象格式。 在你应用某个报表主题后，报表中的所有视觉对象都会使用选定主题中的颜色和格式。 若要了解详细信息，请参阅[使用报表主题](../create-reports/desktop-report-themes.md)
 
 ![菜单栏中的切换主题图标](media/service-tips-and-tricks-for-color-formatting/power-bi-theme.png)
 
-此处我们已将“创新”主题应用到“销售和市场营销”报表中  。
+此处我们已将“创新”主题应用到“销售和市场营销”报表中。
 
 ![已应用的创新主题](media/service-tips-and-tricks-for-color-formatting/power-bi-theme-innovate.png)
 
@@ -55,19 +58,19 @@ Power BI 提供了自定义仪表板和报表的多种方法。 本文详细介�
 
 ![将数据颜色更改为灰色](media/service-tips-and-tricks-for-color-formatting/power-bi-data.png)
 
-现在，假设你想通过使用颜色来调出  “便利性”细分，以展示这个全新细分的效果。 步骤如下：
+现在，假设你想通过使用颜色来调出“便利性”细分，以展示这个全新细分的效果。 步骤如下：
 
-展开“数据颜色”  卡，然后启用“全部显示”滑块  。 此操作将显示可视化效果中每个数据元素的颜色。 现在可以修改任意数据点。
+展开“数据颜色”卡，然后启用“全部显示”滑块。 此操作将显示可视化效果中每个数据元素的颜色。 现在可以修改任意数据点。
 
 ![](media/service-tips-and-tricks-for-color-formatting/power-bi-show.png)
 
-将  “便利性”设置为橙色。 
+将“便利性”设置为橙色。 
 
 ![](media/service-tips-and-tricks-for-color-formatting/power-bi-one-color.png)
 
-选择颜色后，  “便利性”数据点将显示为美丽的橙色阴影，自然就很显眼了。
+选择颜色后，“便利性”数据点将显示为美丽的橙色阴影，自然就很显眼了。
 
-即使更改了可视化效果类型，返回时 Power BI 仍会记住你的选择，并将  “便利性”保留为橙色。
+即使更改了可视化效果类型，返回时 Power BI 仍会记住你的选择，并将“便利性”保留为橙色。
 
 可以更改可视化效果中的一个、多个或全部数据元素的数据点颜色。 也许你希望视觉对象模拟企业颜色中的黄色、绿色和蓝色。 
 
@@ -81,11 +84,11 @@ Power BI 提供了自定义仪表板和报表的多种方法。 本文详细介�
 以下部分演示了根据数值设置颜色的不同方式。
 
 ### <a name="base-the-color-of-data-points-on-a-value"></a>根据数值设置数据点的颜色
-若要基于某个值更改颜色，请选择可视化效果以使其处于活动状态。 选择油漆滚筒图标，然后打开“数据颜色”  卡片，以打开“格式”窗格。 鼠标悬停在卡片上，选择竖直的三个点，再选择“条件格式”选项  。  
+若要基于某个值更改颜色，请选择可视化效果以使其处于活动状态。 选择油漆滚筒图标，然后打开“数据颜色”卡片，以打开“格式”窗格。 鼠标悬停在卡片上，选择竖直的三个点，再选择“条件格式”选项。  
 
 ![单击三个竖直点，选择“条件格式设置”选项](media/service-tips-and-tricks-for-color-formatting/power-bi-conditional-formatting.gif)
 
-在“默认颜色”窗格中，使用下拉列表标识要用于条件格式的字段  。 在此示例中，我们选择了“销售事实” **“总单位数”字段，并为“最低值”选择了浅蓝色，为“最高值”选择了深蓝色** >     。 
+在“默认颜色”窗格中，使用下拉列表标识要用于条件格式的字段。 在此示例中，我们选择了“销售事实” > “总单位数”字段，并为“最低值”选择了浅蓝色，为“最高值”选择了深蓝色   。 
 
 ![按数据颜色进行条件格式设置的相关设置](media/service-tips-and-tricks-for-color-formatting/power-bi-conditional-formatting2-new.png)
 
@@ -96,7 +99,7 @@ Power BI 提供了自定义仪表板和报表的多种方法。 本文详细介�
 ![](media/service-tips-and-tricks-for-color-formatting/power-bi-conditional-colors.png)
 
 
-可以看出，尽管销售的“Productivity”和“Extreme”的单位数更多（其柱形更高），但“Moderation”的“%Market Share SPLY YTD”更大（其柱形的色彩饱和度更高）     。
+可以看出，尽管销售的“Productivity”和“Extreme”的单位数更多（其柱形更高），但“Moderation”的“%Market Share SPLY YTD”更大（其柱形的色彩饱和度更高）   。
 
 ### <a name="customize-the-colors-used-in-the-color-scale"></a>在色阶中自定义使用的颜色
 你还可以更改数值对应这些颜色的方式。 在下图中，已分别将**最小值**和**最大值**设置为橙色和绿色。
@@ -105,7 +108,7 @@ Power BI 提供了自定义仪表板和报表的多种方法。 本文详细介�
 
 ![](media/service-tips-and-tricks-for-color-formatting/power-bi-conditional4.png)
 
-现在，让我们看看如果在“最小值”和“最大值”框中提供数值，会发生什么   。 选择“最小值”和“最大值”的 DropBox 中的“自定义”，将“最小值”设置为 3500，将最大值设置为 6000      。
+现在，让我们看看如果在“最小值”和“最大值”框中提供数值，会发生什么 。 选择“最小值”和“最大值”的 DropBox 中的“自定义”，将“最小值”设置为 3500，将最大值设置为 6000    。
 
 ![按数字设置的条件格式](media/service-tips-and-tricks-for-color-formatting/power-bi-conditional-formatting-numbers.png)
 
@@ -116,11 +119,11 @@ Power BI 提供了自定义仪表板和报表的多种方法。 本文详细介�
 ### <a name="use-diverging-color-scales"></a>使用发散色阶
 有时你的数据可能有自然的发散色阶。 例如，温度范围有自然的中间点（冻结点），盈利能力分数有自然的中间点（零）。
 
-若要使用发散色阶，请选择“发散”复选框  。 当“发散”处于开启状态时，将出现另一个颜色选择器，称为“中间点”，如下图所示   。
+若要使用发散色阶，请选择“发散”复选框。 当“发散”处于开启状态时，将出现另一个颜色选择器，称为“中间点”，如下图所示 。
 
 ![选择了色阶的默认颜色对话框](media/service-tips-and-tricks-for-color-formatting/power-bi-diverging-colors.png)
 
-当**发散**处于开启状态时，你可以单独设置**最小值**、**最大值**和**中间点**的颜色。 在下图中，为 **% Market Share SPLY YTD** 将“中间点”设置为 0.2，因此值高于 0.2 的条形图将显示为渐变的绿色，值低于 0.2 的条形图则显示为红色  。
+当**发散**处于开启状态时，你可以单独设置**最小值**、**最大值**和**中间点**的颜色。 在下图中，为 **% Market Share SPLY YTD** 将“中间点”设置为 0.2，因此值高于 0.2 的条形图将显示为渐变的绿色，值低于 0.2 的条形图则显示为红色。
 
 ![带有红条和绿条的柱形图](media/service-tips-and-tricks-for-color-formatting/power-bi-diverging.png)
 
@@ -129,20 +132,20 @@ Power BI 提供了自定义仪表板和报表的多种方法。 本文详细介�
 
 ![默认表](media/service-tips-and-tricks-for-color-formatting/power-bi-table.png)
 
-将颜色应用于表或矩阵的最快捷的方法之一是打开“格式”选项卡，然后选择“样式”  。  在下图中，我们选择了“带加粗标题的有格式行”  。
+将颜色应用于表或矩阵的最快捷的方法之一是打开“格式”选项卡，然后选择“样式”。  在下图中，我们选择了“带加粗标题的有格式行”。
 
 ![默认表](media/service-tips-and-tricks-for-color-formatting/power-bi-table-style.png)
 
-尝试其他颜色格式设置选项。 在此图中，我们更改了“列标题”  下的背景色，并更改了“值”  （行）的“背景色”  和“替代背景色”  。
+尝试其他颜色格式设置选项。 在此图中，我们更改了“列标题”下的背景色，并更改了“值”（行）的“背景色”和“替代背景色”。
 
 ![默认表](media/service-tips-and-tricks-for-color-formatting/power-bi-table-rows.png)
 
 ## <a name="how-to-undo-in-power-bi"></a>如何在 Power BI 中撤消操作
 与许多其他 Microsoft 服务和软件相类似，Power BI 提供了撤消上一项命令的简单方法。 例如，假设你更改了某个数据点或一系列数据点的颜色，但当其出现在可视化效果中时你不喜欢该颜色。 你不记得之前它是什么颜色，但是你知道你想用回之前的颜色！
 
-若要“撤消”上一次操作或最近几次操作，只需要按一下 Ctrl+Z  。
+若要“撤消”上一次操作或最近几次操作，只需要按一下 Ctrl+Z。
 
-若要放弃在“格式”卡上所做的所有更改，请选择“恢复为默认值”  。
+若要放弃在“格式”卡上所做的所有更改，请选择“恢复为默认值”。
 
 ![“格式”卡底部显示“恢复为默认值”](media/service-tips-and-tricks-for-color-formatting/power-bi-revert.png)
 
@@ -151,4 +154,6 @@ Power BI 提供了自定义仪表板和报表的多种方法。 本文详细介�
 
 ## <a name="next-steps"></a>后续步骤
 [颜色格式设置和轴属性入门](service-getting-started-with-color-formatting-and-axis-properties.md)
+
+[共享报表](../collaborate-share/service-share-reports.md)。
 

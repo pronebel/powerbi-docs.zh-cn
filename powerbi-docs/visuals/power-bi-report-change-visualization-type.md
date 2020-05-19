@@ -6,17 +6,19 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 10/28/2019
+ms.date: 12/28/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: c9de9031fdbee48fca3b9a025fe2547ec08a5f20
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 33511dd5a61882de77d6089a5f77e70361f3cbed
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "73871024"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83277585"
 ---
 # <a name="change-the-type-of-visualization-in-a-power-bi-report"></a>更改 Power BI 报表中的可视化效果类型
+
+[!INCLUDE[consumer-appliesto-nyyn](../includes/consumer-appliesto-nyyn.md)]    
 
 [!INCLUDE [power-bi-visuals-desktop-banner](../includes/power-bi-visuals-desktop-banner.md)]
 
@@ -29,10 +31,12 @@ ms.locfileid: "73871024"
 3. 在“可视化效果”窗格中选择新的可视化效果类型。 
    
    ![演示如何将柱形图更改为折线图的视频](media/power-bi-report-change-visualization-type/change-viz/change-viz.gif)。
-4. （可选）将可视化效果作为磁贴[固定到仪表板](../service-dashboard-pin-tile-from-report.md)。 
+4. （可选）将可视化效果作为磁贴[固定到仪表板](../create-reports/service-dashboard-pin-tile-from-report.md)。 
 
 ## <a name="considerations-and-troubleshooting"></a>注意事项和疑难解答
 如果在将报表中的可视化效果类型固定到仪表板之后对其进行了更改，仪表板磁贴不会自动更新。 因此，如果你使用 Power BI 服务将可视化效果固定为折线图，然后在报表中更改为条形图，则此数据的已固定版本仍然为折线图。 固定条形图，让它也显示在仪表板上。
+
+与 Power BI 同事共享报表时，你和这位同事都应具有独立的 Power BI Pro 许可证，并且应将报表保存在 Premium 容量中。 请参阅[共享报表](../collaborate-share/service-share-reports.md)。
 
 ## <a name="next-steps"></a>后续步骤
 有关 [Power BI 报表中的可视化效果](power-bi-report-visualizations.md)的详细信息

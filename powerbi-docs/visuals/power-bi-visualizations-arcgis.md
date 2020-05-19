@@ -7,18 +7,24 @@ featuredvideoid: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 11/18/2019
+ms.date: 05/06/2020
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 59685b4c3ceab4b60cba92ec1d3924b902c1426a
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 5783df071830cdb19ef124ebb908f53955823c69
+ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "77115299"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83130959"
 ---
 # <a name="interact-with-arcgis-maps-in-power-bi"></a>在 Power BI 中与 ArcGIS 地图交互
+
+[!INCLUDE[consumer-appliesto-yyyn](../includes/consumer-appliesto-yyyn.md)]    
+
 本主题从在 Power BI 服务、Power BI Desktop 或 Power BI 移动版中使用 ArcGIS 地图的人员的角度进行编写。 设计器与你共享 ArcGIS map for Power BI 视觉对象后，便可以通过多种方式与相应视觉对象进行交互。  若要详细了解如何创建 ArcGIS 地图，请参阅 [ESRI ArcGIS 地图教程](../visuals/power-bi-visualization-arcgis.md)。
+
+> [!NOTE]
+> 与 Power BI 同事共享报表时，你和这位同事都应具有独立的 Power BI Pro 许可证，并且应将报表保存在 Premium 容量中。 请参阅[共享报表](../collaborate-share/service-share-reports.md)。
 
 ArcGIS 地图和 Power BI 的结合将超越地图点表示法的地图绘制技术提升到全新水平。 报表设计器从地图开始，并将人口统计数据层附加到该地图。 将地图上基于此位置的数据层（如人口统计数据）与空间分析相结合，可以让用户更深入地了解可视化效果中的数据。
 
@@ -60,26 +66,26 @@ ArcGIS Maps for Power BI 视觉对象可以有多种不同类型的人口统计�
 
 ### <a name="reference-layers"></a>引用层
 
-报表“设计器”可以添加一个引用层  。 参考层由 Esri 托管，并提供有关位置的附加人口统计信息层。 下面的示例具有一个人口密度引用层。 较深的颜色代表较高的密度。
+报表“设计器”可以添加一个引用层。 参考层由 Esri 托管，并提供有关位置的附加人口统计信息层。 下面的示例具有一个人口密度引用层。 较深的颜色代表较高的密度。
 
 ![显示奥兰多地区人口密度的地图](media/power-bi-visualizations-arcgis/power-bi-reference.png)  
 
 ### <a name="infographics"></a>信息图
 
-报表“设计器”可以添加多个信息图层  。 信息图是显示在视觉对象画布右侧的快速可视指示器。 信息图由 Esri 托管，并提供有关位置的附加人口统计信息层。 下面的示例应用了三个信息图。 它们不会显示在地图上，而是显示在卡片上。 当你缩放、平移并选择地图上的区域时，信息图卡就会更新。
+报表“设计器”可以添加多个信息图层。 信息图是显示在视觉对象画布右侧的快速可视指示器。 信息图由 Esri 托管，并提供有关位置的附加人口统计信息层。 下面的示例应用了三个信息图。 它们不会显示在地图上，而是显示在卡片上。 当你缩放、平移并选择地图上的区域时，信息图卡就会更新。
 
 ![放大了奥兰多区域的地图和信息图卡显示在画布的右侧](media/power-bi-visualizations-arcgis/power-bi-infographics.png)  
 
 ### <a name="pins"></a>固定
 
-别针表示精确的位置，如城市或地址。 有时，“设计器”报表使用具有驾驶时间半径的别针  。 此示例显示北卡罗来纳州夏洛特 50 英里半径内的商店。
+别针表示精确的位置，如城市或地址。 有时，“设计器”报表使用具有驾驶时间半径的别针。 此示例显示北卡罗来纳州夏洛特 50 英里半径内的商店。
 
 
 ![绕北卡罗来纳州夏洛特一圈的驾驶时间](media/power-bi-visualizations-arcgis/power-bi-drive-times.png) 
 
 
 ## <a name="interact-with-an-arcgis-maps-for-power-bi-visual"></a>与 ArcGIS Maps for Power BI 视觉对象交互
-可以使用的功能取决于与你共享报表的方式和 Power BI 帐户类型。 如果有疑问，请与系统管理员联系。 ArcGIS Maps for Power BI 视觉对象的行为与报表中的其他视觉对象非常相似。 你将能够[显示用于创建可视化效果的数据](../consumer/end-user-show-data.md)，在[焦点模式和全屏模式](../consumer/end-user-focus.md)中查看地图，通过“设计器”报表[添加注释](../consumer/end-user-comment.md)、[与筛选器进行交互](../consumer/end-user-report-filter.md)等等  。 ArcGIS 视觉对象可以交叉筛选报表页面上的其他视觉对象，反之亦然。
+可以使用的功能取决于与你共享报表的方式和 Power BI 帐户类型。 如果有疑问，请与系统管理员联系。 ArcGIS Maps for Power BI 视觉对象的行为与报表中的其他视觉对象非常相似。 你将能够[显示用于创建可视化效果的数据](../consumer/end-user-show-data.md)，在[焦点模式和全屏模式](../consumer/end-user-focus.md)中查看地图，通过“设计器”报表[添加注释](../consumer/end-user-comment.md)、[与筛选器进行交互](../consumer/end-user-report-filter.md)等等。 ArcGIS 视觉对象可以交叉筛选报表页面上的其他视觉对象，反之亦然。
 
 将鼠标悬停在基本地图位置（例如，气泡）上以显示工具提示。 此外，使用 ArcGIS 视觉对象选择工具显示其他工具提示，并在基本地图或参考层上进行特定选择。  
 
@@ -103,7 +109,7 @@ ArcGIS Maps for Power BI 有五种选择模式。 一次最多可选择 250 个�
 
 ![棕色气泡的工具提示屏幕截图](media/power-bi-visualizations-arcgis/power-bi-single-selects.png)
 
-如果地图有引用层，请选择要在工具提示中显示详细信息的位置。 在这里，我们选择了 Seneca 县，并从“设计器”报表添加到地图的引用层（人口密度）中查看数据  。 在此示例中，我们的数据点包括两个不同的县，因此我们的工具提示有两页。 每页都有一个图表。 选择图表上的条形图以显示其他详细信息。 
+如果地图有引用层，请选择要在工具提示中显示详细信息的位置。 在这里，我们选择了 Seneca 县，并从“设计器”报表添加到地图的引用层（人口密度）中查看数据。 在此示例中，我们的数据点包括两个不同的县，因此我们的工具提示有两页。 每页都有一个图表。 选择图表上的条形图以显示其他详细信息。 
 
 ![Seneca 县的工具提示屏幕截图](media/power-bi-visualizations-arcgis/power-bi-single-select-ref.png)
 
@@ -175,20 +181,20 @@ ArcGIS Maps for Power BI 由 Esri (https://www.esri.com) 提供。 使用 ArcGIS
 **地图上并非显示我的所有信息**    
 在地图上对维度/经度进行地理编码时，将显示最多 30,000 个数据点。 在对邮政编码或街道地址等数据点进行地理编码时，将仅对前 15,000 个数据点进行编码。 对地名或国家/地区进行地理编码时，没有前 1500 个地址限制。
 
-使用适用于 Power BI 的 ArcGIS 地图需要付费吗？ 
+使用适用于 Power BI 的 ArcGIS 地图需要付费吗？
 
-所有 Power BI 用户都可以使用适用于 Power BI 的 ArcGIS 地图，无需额外付费。 此组件由 Esri  提供，应在本文前面所述的由 Esri  提供的使用条款及隐私政策的限制下使用此组件。 如果订阅 ArcGIS Plus  ，将收取费用。
+所有 Power BI 用户都可以使用适用于 Power BI 的 ArcGIS 地图，无需额外付费。 此组件由 Esri 提供，应在本文前面所述的由 Esri 提供的使用条款及隐私政策的限制下使用此组件。 如果订阅 ArcGIS Plus，将收取费用。
 
 **我看到关于缓存已满的错误消息**
 
 此行为是要解决的 bug。  在此期间，请选择错误消息中的链接，了解如何清除 Power BI 缓存。
 
-是否能够离线查看 ArcGIS 地图？ 
+是否能够离线查看 ArcGIS 地图？
 
 否，Power BI 需要网络连接才能显示地图。
 
 ## <a name="next-steps"></a>后续步骤
-获取帮助：Esri  针对 ArcGIS Maps for Power BI  的功能集提供[综合文档](https://go.microsoft.com/fwlink/?LinkID=828772)。
+获取帮助：Esri 针对 ArcGIS Maps for Power BI 的功能集提供[综合文档](https://go.microsoft.com/fwlink/?LinkID=828772)。
 
 可以在 [Power BI 社区中与**适用于 Power BI 的 ArcGIS 地图**相关的帖子](https://go.microsoft.com/fwlink/?LinkID=828771)中提问题和查找最新信息，报告问题并查找答案。
 

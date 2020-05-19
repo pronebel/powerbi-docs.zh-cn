@@ -7,14 +7,14 @@ ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 01/14/2020
-ms.author: mihart
+ms.author: rien
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 12c2d839c14a4a982505f56b7d605bacc5edc728
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 7210e2f2f6fa3581744a5400bcdeb795d8883120
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "79381413"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83276803"
 ---
 # <a name="visualization-types-in-power-bi"></a>Power BI 中的可视化效果类型
 ## <a name="power-bi-visualizations"></a>Power BI 可视化效果
@@ -44,7 +44,7 @@ ms.locfileid: "79381413"
 ### <a name="cards-multi-row"></a>卡片：多行
 ![多行卡片图](media/power-bi-visualization-types-for-reports-and-q-and-a/multi-row-card.png)
 
-### <a name="cards-single-number"></a>卡片：一个数字
+### <a name="cards-single-number"></a>卡片：单个数字
 ![数字卡片](media/power-bi-visualization-types-for-reports-and-q-and-a/pbi_nancy_viz_card.png)
 
 有关详细信息，请参阅[创建卡片（大数字磁贴）](power-bi-visualization-card.md)。
@@ -53,7 +53,7 @@ ms.locfileid: "79381413"
 ![组合图](media/power-bi-visualization-types-for-reports-and-q-and-a/combosmall.png)
 
 >[!TIP]
->组合图将柱形图和折线图结合在一起。 请在折线图和堆积柱形图  和折线图和簇状柱形图  中选择。
+>组合图将柱形图和折线图结合在一起。 请在折线图和堆积柱形图和折线图和簇状柱形图中选择。
 
 有关详细信息，请参阅 [Power BI 中的组合图](power-bi-visualization-combo-chart.md)。
 
@@ -115,7 +115,7 @@ ms.locfileid: "79381413"
 
 有关详细信息，请参阅 [Power BI 中的 ArcGIS 地图](power-bi-visualization-arcgis.md)。
 
-### <a name="maps-filled-maps-choropleth"></a>地图：着色地图（地区分布图）
+### <a name="maps-filled-maps-choropleth"></a>地图：着色地图（等值线图）
 ![着色地图](media/power-bi-visualization-types-for-reports-and-q-and-a/pbi_nancy_viz_filledmap.png)
 
 >[!TIP]
@@ -123,7 +123,7 @@ ms.locfileid: "79381413"
 
 有关详细信息，请参阅 [Power BI 中的着色地图](power-bi-visualization-filled-maps-choropleths.md)。
 
-### <a name="maps-shape-maps"></a>地图：形状图
+### <a name="maps-shape-maps"></a>地图：形状地图
 ![德克萨斯州的形状地图](media/power-bi-visualization-types-for-reports-and-q-and-a/power-bi-shape-map2.png)
 
 >[!TIP]
@@ -132,7 +132,7 @@ ms.locfileid: "79381413"
 有关详细信息，请参阅 [Power BI 中的形状图](desktop-shape-map.md)。
 
 
-### <a name="matrix"></a>矩形图
+### <a name="matrix"></a>Matrix
 ![矩形图](media/power-bi-visualization-types-for-reports-and-q-and-a/matrix.png)
 
 >[!TIP]
@@ -157,7 +157,7 @@ ms.locfileid: "79381413"
 ![问答视觉对象](media/power-bi-visualization-types-for-reports-and-q-and-a/power-bi-q-and-a.png)
 
 >[!TIP]
->与[仪表板上的问答体验](../power-bi-tutorial-q-and-a.md)相似，借助“问答”视觉对象，可以使用自然语言提出有关数据的问题。 
+>与[仪表板上的问答体验](../create-reports/power-bi-tutorial-q-and-a.md)相似，借助“问答”视觉对象，可以使用自然语言提出有关数据的问题。 
 
 有关详细信息，请参阅 [Power BI 中的问答视觉对象](power-bi-visualization-q-and-a.md)。
 
@@ -165,7 +165,7 @@ ms.locfileid: "79381413"
 ![R 视觉对象](media/power-bi-visualization-types-for-reports-and-q-and-a/power-bi-r-visuals.png)
 
 >[!TIP]
->使用 R 脚本创建的视觉对象通常称为“R 视觉对象”  ，它可以借助 R 丰富的分析和可视化效果功能来呈现高级数据整理和分析（如预测）。R 视觉对象可以在 Power BI Desktop 中创建，并发布到 Power BI 服务。   
+>使用 R 脚本创建的视觉对象通常称为“R 视觉对象”，它可以借助 R 丰富的分析和可视化效果功能来呈现高级数据整理和分析（如预测）。R 视觉对象可以在 Power BI Desktop 中创建，并发布到 Power BI 服务。   
 
 有关详细信息，请参阅 [Power BI 中的 R 视觉对象](service-r-visuals.md)。
 
@@ -191,17 +191,17 @@ ms.locfileid: "79381413"
 >[!TIP]
 >视觉对象上过多的数据点可能会阻碍它，因此使用复杂的采样算法来确保可视化效果的准确性。
 
-有关详细信息，请参阅 [Power BI 中的高密度散点图](desktop-high-density-scatter-charts.md)。
+有关详细信息，请参阅 [Power BI 中的高密度散点图](../create-reports/desktop-high-density-scatter-charts.md)。
 
 ### <a name="slicers"></a>切片器
-![切片器](media/power-bi-visualization-types-for-reports-and-q-and-a/pbi_slicer.png)
+![slicer](media/power-bi-visualization-types-for-reports-and-q-and-a/pbi_slicer.png)
 
 有关详细信息，请参阅 [Power BI 中的切片器](power-bi-visualization-slicers.md)。
 
 ### <a name="standalone-images"></a>独立图像
 ![独立图像视觉对象](media/power-bi-visualization-types-for-reports-and-q-and-a/pbi_nancy_viz_image.png)
 
-有关详细信息，请参阅 [Add an image widget to a dashboard（将图像小组件添加到仪表板）](../service-dashboard-add-widget.md)。
+有关详细信息，请参阅 [Add an image widget to a dashboard（将图像小组件添加到仪表板）](../create-reports/service-dashboard-add-widget.md)。
 
 ### <a name="tables"></a>表
 ![表视觉对象](media/power-bi-visualization-types-for-reports-and-q-and-a/tabletype.png)
@@ -232,8 +232,11 @@ ms.locfileid: "79381413"
 
 “***以树状图表示的每个州的销售额***”
 
+如果你的仪表板没有问答字段，则你的租户管理员可能已将其禁用。 
+
 ![显示指定了可视化效果类型的问答问题框](media/power-bi-visualization-types-for-reports-and-q-and-a/qatreemap.png)
 
 ## <a name="next-steps"></a>后续步骤
 [Power BI 报表中的可视化效果](power-bi-report-visualizations.md)    
 [sqlbi.com 中正确的视觉对象引用](https://www.sqlbi.com/wp-content/uploads/videotrainings/dashboarddesign/visuals-reference-may2017-A3.pdf)
+
