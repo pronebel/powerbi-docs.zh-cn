@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 05/12/2020
 ms.author: mihart
 LocalizationGroup: Share your work
-ms.openlocfilehash: 1dbb35ab45a1172044cedb7fbe484ed4da6c43db
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: f70c41e40ff2da385b2f63798b93dec3fcd7b7c5
+ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83348358"
+ms.lasthandoff: 05/19/2020
+ms.locfileid: "83565732"
 ---
 # <a name="export-reports-to-powerpoint"></a>将报表导出到 PowerPoint
 
@@ -31,7 +31,7 @@ ms.locfileid: "83348358"
 
 将 Power BI 报表导出到 PowerPoint 非常快速。 按照下一部分中所述的步骤执行操作。
 
-还可以一次从 Power BI 服务复制一个视觉对象，然后将其粘贴到 PowerPoint（或支持粘贴的任何其他程序）。 选择“复制为图像”图标，将视觉对象复制到剪贴板。 然后，打开 PowerPoint 并粘贴该视觉对象。 有关更多信息，请参阅[复制视觉对象为镜态图像](../power-bi-visualization-copy-paste.md)。
+还可以一次从 Power BI 服务复制一个视觉对象，然后将其粘贴到 PowerPoint（或支持粘贴的任何其他程序）。 选择“复制为图像”图标，将视觉对象复制到剪贴板。 然后，打开 PowerPoint 并粘贴该视觉对象。 有关更多信息，请参阅[复制视觉对象为镜态图像](../visuals/power-bi-visualization-copy-paste.md)。
 
 ![选择“复制为图像”图标](media/end-user-powerpoint/power-bi-copy.png)
 
@@ -87,12 +87,12 @@ Power BI 服务完成导出过程后，通知横幅会发生变化以通知你�
 在使用“导出到 PowerPoint”功能时，有几个注意事项和限制需要牢记。
  
 
-* 如果为导出选择“当前值”，当前不遵循 [URL 筛选器](../service-url-filters.md)。
+* 如果为导出选择“当前值”，当前不遵循 [URL 筛选器](../collaborate-share/service-url-filters.md)。
 
 * 导出到 PowerPoint 时，如果报表采用自定义字体，则该字体将被替换为默认字体。
 
 * 下列视觉对象类型不受支持，将不会导出到 PowerPoint：
-   - 不支持[未经认证的自定义视觉对象](../developer/power-bi-custom-visuals-certified.md)。 
+   - 不支持[未经认证的自定义视觉对象](../developer/visuals/power-bi-custom-visuals-certified.md)。 
    - 不支持 [ESRI ArcGIS 视觉对象](../visuals/power-bi-visualizations-arcgis.md)
    - 不支持 R 和 Python 视觉对象。
    - 背景图像会根据图表的边界区域进行裁剪。 我们建议在导出到 PowerPoint 之前删除背景图像。
@@ -109,5 +109,5 @@ Power BI 服务完成导出过程后，通知横幅会发生变化以通知你�
 
 
 ## <a name="next-steps"></a>后续步骤
-[将视觉对象复制为静态图像](../power-bi-visualization-copy-paste.md)    
+[将视觉对象复制为静态图像](../visuals/power-bi-visualization-copy-paste.md)    
 [打印报表](end-user-print.md)

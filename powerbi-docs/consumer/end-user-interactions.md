@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 03/11/2020
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: fb7bf439cdf2f7ebd6058aba6b147f800b9cf258
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 45f3aa4ccf92237085db0c7517c291fe8d0f0428
+ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "79113051"
+ms.lasthandoff: 05/19/2020
+ms.locfileid: "83564874"
 ---
 # <a name="how-visuals-cross-filter-each-other-in-a-power-bi-report"></a>视觉对象如何在 Power BI 报表中彼此交叉筛选
 
@@ -55,7 +55,7 @@ Power BI 的强大功能之一是报表页上所有视觉对象的互连方式�
     ![选中圆环图的“审查”段之后的报表页](media/end-user-interactions/power-bi-visual-filters.png)
 
 ## <a name="next-steps"></a>后续步骤
-[如何使用报表筛选器](../power-bi-how-to-report-filter.md)    
+[如何使用报表筛选器](../consumer/end-user-report-filter.md)
 
 
-[关于筛选和突出显示](end-user-report-filter.md)。 
+[关于筛选和突出显示](end-user-report-filter.md)。

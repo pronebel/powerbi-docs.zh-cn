@@ -8,12 +8,12 @@ ms.topic: overview
 ms.date: 09/04/2019
 ms.author: maggies
 LocalizationGroup: Get started
-ms.openlocfilehash: f02c383ddbe9eddca180ad8bd29816730c249561
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: 9a7e7319bf8f5ccf517596d708dea4c1f4a41590
+ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83349600"
+ms.lasthandoff: 05/19/2020
+ms.locfileid: "83564440"
 ---
 # <a name="what-is-power-bi"></a>什么是 Power BI？
 **Power BI** 是软件服务、应用和连接器的集合，它们协同工作以将相关数据来源转换为连贯的视觉逼真的交互式见解。 数据可以是 Excel 电子表格，也可以是基于云和本地混合数据仓库的集合。 使用 Power BI，可以轻松连接到数据源，可视化并发现重要内容，并根据需要与任何人共享。
@@ -70,6 +70,6 @@ Power BI 报表服务器是在防火墙后面部署的解决方案，然后以�
 详细了解 [Power BI 报表服务器](../report-server/get-started.md)。
 
 ## <a name="next-steps"></a>后续步骤
-- [快速入门：了解如何使用 Power BI 服务](../service-the-new-power-bi-experience.md)   
+- [快速入门：了解如何使用 Power BI 服务](../consumer/end-user-experience.md)   
 - [教程：Power BI 服务入门](service-get-started.md)
 - [快速入门：连接到 Power BI Desktop 中的数据](../connect-data/desktop-quickstart-connect-to-data.md)

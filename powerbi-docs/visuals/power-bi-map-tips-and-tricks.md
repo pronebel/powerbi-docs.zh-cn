@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 05/05/2020
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 89b81286819e5f286a26efeb6b36d6336446132c
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 8a7b5785712aeac318b3d8a2bbd14ab7170a435f
+ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83277815"
+ms.lasthandoff: 05/19/2020
+ms.locfileid: "83565893"
 ---
 # <a name="tips-and-tricks-for-power-bi-map-visualizations"></a>用于 Power BI 地图可视化效果的提示和技巧
 
@@ -55,7 +55,7 @@ Power BI 服务和 Power BI Desktop 会向必应发送创建地图可视化效�
 **2.使用多个位置列。**     
  有时，即使对地图设置数据分类也不足以使必应正确地猜测你的目标。 某些地理标记不明确，因为多个国家/区域都有相应的地理位置。 例如，英格兰、宾夕法尼亚州和纽约州都有南安普敦。
 
-Power BI 使用必应的[非结构化 URL 模板服务](https://msdn.microsoft.com/library/ff701714.aspx)，来基于一组任何国家/地区的地址值获取纬度和经度坐标。 如果数据未包含足够的位置数据，请适当地添加这些列并对它们进行分类。
+Power BI 使用必应的[非结构化 URL 模板服务](/bingmaps/rest-services/locations/find-a-location-by-address)，来基于一组任何国家/地区的地址值获取纬度和经度坐标。 如果数据未包含足够的位置数据，请适当地添加这些列并对它们进行分类。
 
  例如，如果只有一个“城市”列，必应可能会在进行地理位置编码时遇到困难。 请添加其他地理位置列，以便可以明确确定位置。  有时，只需向数据集再添加一个位置列（在此示例中，即为“州/省/自治区/直辖市”）即可。 另外，也不要忘了进行正确分类，请参阅上面的第 1 条提示。
 
@@ -97,5 +97,3 @@ Power BI 使用必应的[非结构化 URL 模板服务](https://msdn.microsoft.c
 [Power BI 可视化效果](power-bi-report-visualizations.md)
 
 更多问题？ [尝试参与 Power BI 社区](https://community.powerbi.com/)
-
-

@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 03/11/2020
-ms.openlocfilehash: c3c6e8d7ddb823eb1e857b102c2f6c788e366141
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 40bbf09e684b4fd3f86564c9b469c6ff248954a6
+ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "79114960"
+ms.lasthandoff: 05/19/2020
+ms.locfileid: "83565709"
 ---
 # <a name="using-oauth-to-connect-to-power-bi-report-server-and-ssrs"></a>使用 OAuth 连接到 Power BI 报表服务器和 SSRS
 
@@ -60,7 +60,7 @@ Reporting Services 端没有太多要配置的。 我们只需确保具备有效
 
 SPN 是使用 Kerberos 身份验证的服务的唯一标识符。 需要确保报表服务器存在正确的 HTTP SPN。
 
-有关如何为报表服务器配置正确的服务主体名称 (SPN) 的信息，请参阅[为报表服务器注册服务主体名称 (SPN)](https://msdn.microsoft.com/library/cc281382.aspx)。
+有关如何为报表服务器配置正确的服务主体名称 (SPN) 的信息，请参阅[为报表服务器注册服务主体名称 (SPN)](/sql/reporting-services/report-server/register-a-service-principal-name-spn-for-a-report-server)。
 
 ### <a name="enabling-negotiate-authentication"></a>启用协商身份验证
 
@@ -74,7 +74,7 @@ SPN 是使用 Kerberos 身份验证的服务的唯一标识符。 需要确保�
 </AuthenticationTypes>
 ```
 
-有关详细信息，请参阅[修改 Reporting Services 配置文件](https://msdn.microsoft.com/library/bb630448.aspx)和[在报表服务器上配置 Windows 身份验证](https://msdn.microsoft.com/library/cc281253.aspx)。
+有关详细信息，请参阅[修改 Reporting Services 配置文件](/sql/reporting-services/report-server/modify-a-reporting-services-configuration-file-rsreportserver-config)和[在报表服务器上配置 Windows 身份验证](/sql/reporting-services/security/configure-windows-authentication-on-the-report-server)。
 
 ## <a name="active-directory-federation-services-adfs-configuration"></a>Active Directory 联合身份验证服务 (ADFS) 配置
 
@@ -248,9 +248,9 @@ Set-WebApplicationProxyApplication -id 30198C7F-DDE4-0D82-E654-D369A47B1EE5 -Bac
 
 ## <a name="next-steps"></a>后续步骤
 
-[为报表服务器注册服务主体名称 (SPN)](https://msdn.microsoft.com/library/cc281382.aspx)  
-[修改 Reporting Services 配置文件](https://msdn.microsoft.com/library/bb630448.aspx)  
-[在报表服务器上配置 Windows 身份验证](https://msdn.microsoft.com/library/cc281253.aspx)  
+[为报表服务器注册服务主体名称 (SPN)](/sql/reporting-services/report-server/register-a-service-principal-name-spn-for-a-report-server)  
+[修改 Reporting Services 配置文件](/sql/reporting-services/report-server/modify-a-reporting-services-configuration-file-rsreportserver-config)  
+[在报表服务器上配置 Windows 身份验证](/sql/reporting-services/security/configure-windows-authentication-on-the-report-server)  
 [Active Directory 联合身份验证服务](https://technet.microsoft.com/windows-server-docs/identity/active-directory-federation-services)  
 [Windows Server 2016 中的 Web 应用程序代理](https://technet.microsoft.com/windows-server-docs/identity/web-application-proxy/web-application-proxy-windows-server)  
 [发布使用 AD FS 预身份验证的应用程序](https://technet.microsoft.com/windows-server-docs/identity/web-application-proxy/publishing-applications-using-ad-fs-preauthentication#a-namebkmk14apublish-an-application-that-uses-oauth2-such-as-a-windows-store-app)  

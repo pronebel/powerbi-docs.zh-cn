@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 07/15/2019
 ms.author: arthii
 LocalizationGroup: Gateways
-ms.openlocfilehash: deb72b1b66d4cbc87c2e317bb1fe1428c079cfea
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 2c71f26949f19ed1beb29a162c18dc36ed689c21
+ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83308937"
+ms.lasthandoff: 05/19/2020
+ms.locfileid: "83565337"
 ---
 # <a name="manage-your-data-source---analysis-services"></a>管理数据源 - Analysis Services
 
@@ -54,9 +54,9 @@ ms.locfileid: "83308937"
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/Qb5EEjkHoLg" frameborder="0" allowfullscreen></iframe>
 
-每次用户与连接到 Analysis Services 的报表交互时，有效用户名将传递到网关，然后传递到你的本地 Analysis Services 服务器。 你用于登录 Power BI 的电子邮件地址会作为有效用户传递到 Analysis Services。 在连接属性 [EffectiveUserName](https://msdn.microsoft.com/library/dn140245.aspx#bkmk_auth) 中传递它。 
+每次用户与连接到 Analysis Services 的报表交互时，有效用户名将传递到网关，然后传递到你的本地 Analysis Services 服务器。 你用于登录 Power BI 的电子邮件地址会作为有效用户传递到 Analysis Services。 在连接属性 [EffectiveUserName](/analysis-services/instances/connection-string-properties-analysis-services#bkmk_auth) 中传递它。 
 
-电子邮件地址必须与本地 Active Directory 域内定义的用户主体名称 (UPN) 匹配。 UPN 是 Active Directory 帐户的属性。 Windows 帐户必须存在于 Analysis Services 角色中。 如果在 Active Directory 中找不到匹配项，则登录不会成功。 若要详细了解 Active Directory 和用户命名，请参阅 [User Naming Attributes](https://msdn.microsoft.com/library/ms677605.aspx)（用户命名特性）。
+电子邮件地址必须与本地 Active Directory 域内定义的用户主体名称 (UPN) 匹配。 UPN 是 Active Directory 帐户的属性。 Windows 帐户必须存在于 Analysis Services 角色中。 如果在 Active Directory 中找不到匹配项，则登录不会成功。 若要详细了解 Active Directory 和用户命名，请参阅 [User Naming Attributes](/windows/win32/ad/naming-properties)（用户命名特性）。
 
 你还可以[将 Power BI 登录名与本地目录 UPN 映射](service-gateway-enterprise-manage-ssas.md#map-user-names-for-analysis-services-data-sources)。
 
@@ -116,7 +116,7 @@ Power BI 允许映射 Analysis Services 数据源的用户名。 你可以配置
 
 1. [下载和安装最新网关](/data-integration/gateway/service-gateway-install)。
 
-2. 在网关中，将本地数据网关服务更改为使用域帐户（而不是本地服务帐户）运行。 否则 Active Directory 查找将无法在运行时正常工作。 在计算机上转到[本地数据网关应用](/data-integration/gateway/service-gateway-app)，然后转到“服务设置” **“更改服务帐户”**  >   。 请确保自己拥有此网关的恢复密钥，因为需要在同一台计算机上还原它，除非要改为新建网关。 重启网关服务以便使更改生效。
+2. 在网关中，将本地数据网关服务更改为使用域帐户（而不是本地服务帐户）运行。 否则 Active Directory 查找将无法在运行时正常工作。 在计算机上转到[本地数据网关应用](/data-integration/gateway/service-gateway-app)，然后转到“服务设置” > “更改服务帐户”。 请确保自己拥有此网关的恢复密钥，因为需要在同一台计算机上还原它，除非要改为新建网关。 重启网关服务以便使更改生效。
 
 3. 以管理员身份转到网关的安装文件夹 C:\Program Files\On-premises data gateway  ，以确保自己拥有写入权限。 打开 Microsoft.PowerBI.DataMovement.Pipeline.GatewayCore.dll.config  文件。
 
@@ -203,7 +203,7 @@ Analysis Services 还可以基于此帐户提供筛选。 筛选可能伴随基�
 - 其 Windows 用户帐户作为成员所属的角色。
 - 动态行级别安全性（如果已配置）。
 
-在模型中实现角色和动态行级别安全性已超出本文的讨论范围。 若要了解详细信息，请参阅 MSDN 上的[角色（SSAS 表格）](https://msdn.microsoft.com/library/hh213165.aspx)和[安全角色（Analysis Services - 多维数据）](https://msdn.microsoft.com/library/ms174840.aspx)。 若要特别深入地了解表格模型的安全性，请下载并阅读[保护表格 BI 语义模型白皮书](https://msdn.microsoft.com/library/jj127437.aspx)。
+在模型中实现角色和动态行级别安全性已超出本文的讨论范围。 若要了解详细信息，请参阅 MSDN 上的[角色（SSAS 表格）](/analysis-services/tabular-models/roles-ssas-tabular)和[安全角色（Analysis Services - 多维数据）](/analysis-services/multidimensional-models/olap-logical/security-roles-analysis-services-multidimensional-data)。 若要特别深入地了解表格模型的安全性，请下载并阅读[保护表格 BI 语义模型白皮书](https://download.microsoft.com/download/D/2/0/D20E1C5F-72EA-4505-9F26-FEF9550EFD44/Securing%20the%20Tabular%20BI%20Semantic%20Model.docx)。
 
 ## <a name="what-about-azure-ad"></a>那么 Azure AD 呢？
 

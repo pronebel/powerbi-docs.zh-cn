@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 11/21/2019
 ms.author: rien
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 9a9248f68f85f6dec2a70842c0931d7dd448d690
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 4a6ba7f171f462fe6fe0d386305c82b486db5ed4
+ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83276826"
+ms.lasthandoff: 05/19/2020
+ms.locfileid: "83565017"
 ---
 # <a name="scatter-charts-bubble-charts-and-dot-plot-charts-in-power-bi"></a>Power BI 中的散点图、气泡图和点图
 
@@ -128,7 +128,7 @@ ms.locfileid: "83276826"
     > [!NOTE]
     > 数据点越多可能意味着加载时间越长。 如果确实选择发布有比例尺上限的报表，请务必也要跨 Web 和移动设备测试报表。 建议确认图表的性能是否符合用户预期。
 
-1. 继续设置可视化颜色、标签、标题、背景等等。 若要[提高可访问性](../desktop-accessibility.md)，请考虑将标记形状添加到每个行。 若要选择标记形状，请展开“形状”  ，并依次选择“标记形状”  和形状。
+1. 继续设置可视化颜色、标签、标题、背景等等。 若要[提高可访问性](../create-reports/desktop-accessibility-overview.md)，请考虑将标记形状添加到每个行。 若要选择标记形状，请展开“形状”  ，并依次选择“标记形状”  和形状。
 
     ![突出显示“标记形状”选项的“形状”下拉列表屏幕截图。](media/power-bi-visualization-scatter/pbi-scatter-marker.png)
 

@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 04/18/2019
 ms.author: maggies
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 93d94aadb8e7606fd6d55c463a2be88f87e48047
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 2aa75d1cbe04f33197bf8941fd101c66384142dd
+ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83314848"
+ms.lasthandoff: 05/19/2020
+ms.locfileid: "83565801"
 ---
 # <a name="optimize-a-dashboard-for-mobile-phones---power-bi"></a>针对移动电话优化仪表板 - Power BI 
 在手机上以纵向模式查看仪表板时，你会发现，仪表板磁贴采用相继布局的方式，所有磁贴的大小都一样。 在 Power BI 服务中，可以创建仪表板的自定义视图，专用于在手机上以纵向模式查看。 即使创建手机视图，当侧向打开手机时，你会看到仪表板仍以服务中的原有方式打开。
@@ -57,5 +57,5 @@ ms.locfileid: "83314848"
 
 ## <a name="next-steps"></a>后续步骤
 * [创建针对 Power BI 手机应用的优化报表](desktop-create-phone-report.md)
-* [创建优化为适应任意大小的响应式视觉对象](../visuals/desktop-create-responsive-visuals.md)
+* [创建优化为适应任意大小的响应式视觉对象](../visuals/power-bi-report-visualizations.md)
 * 更多问题？ [尝试咨询 Power BI 社区](https://community.powerbi.com/)

@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 11/18/2019
 ms.author: maggies
 LocalizationGroup: Create reports
-ms.openlocfilehash: 593847d229dcd4e2081843523a0a988415a9ef81
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: cab4accfa11a4c92c1672314e2157659ef68f21a
+ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83297966"
+ms.lasthandoff: 05/19/2020
+ms.locfileid: "83564737"
 ---
 # <a name="optimize-power-bi-reports-for-the-mobile-app"></a>优化移动应用的 Power BI 报表
 通过创建纵向布局可以改善在移动应用中查看报表的体验。 在 Power BI Desktop 和 Power BI 服务中，可以重新排列报表视觉对象并调整其大小，以便在纵向模式下获得最佳体验。  
@@ -58,7 +58,7 @@ ms.locfileid: "83297966"
 
 ![响应式视觉对象重设大小](media/desktop-create-phone-report/desktop-create-phone-report-6.gif)
 
-用户可自行选择是否为每个视觉对象启用响应式设置。 详细了解如何[优化视觉对象](../visuals/desktop-create-responsive-visuals.md)。
+用户可自行选择是否为每个视觉对象启用响应式设置。 详细了解如何[优化视觉对象](../visuals/power-bi-report-visualizations.md)。
 
 ## <a name="considerations-when-creating-phone-report-layouts"></a>创建手机报表布局时的注意事项
 * 对于多页报表，可以优化全部或部分页面。 
@@ -108,5 +108,5 @@ ms.locfileid: "83297966"
 ## <a name="next-steps"></a>后续步骤
 * [在 Power BI 中创建仪表板电话视图](service-create-dashboard-mobile-phone-view.md)。
 * [查看针对你的电话进行优化的 Power BI 报表](../consumer/mobile/mobile-apps-view-phone-report.md)。
-* [创建优化为适应任意大小的响应式视觉对象](../visuals/desktop-create-responsive-visuals.md)。
+* [创建优化为适应任意大小的响应式视觉对象](../visuals/power-bi-report-visualizations.md)。
 * 更多问题？ [尝试咨询 Power BI 社区](https://community.powerbi.com/)。

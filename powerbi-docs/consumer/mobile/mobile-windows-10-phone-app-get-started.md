@@ -8,12 +8,12 @@ ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 03/11/2020
 ms.author: painbar
-ms.openlocfilehash: cfbffaa06f3cfc393ba3381adbfc1a7613c2f0c1
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: 04b5bfbc08295974efcb7d583036d96274754bad
+ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83349347"
+ms.lasthandoff: 05/19/2020
+ms.locfileid: "83565686"
 ---
 # <a name="get-started-with-the-power-bi-mobile-app-for-windows-10"></a>适用于 Windows 10 的 Power BI 移动应用入门
 通过适用于 Windows 10 的 Power BI 移动应用，可以在平板电脑或手机上使用 Power BI。 可通过触控式移动设备访问最新业务信息。 在任何地方查看公司仪表板并与之进行交互 - 就在 [Windows 开始屏幕](mobile-pin-dashboard-start-screen-windows-10-phone-app.md)上查看。
@@ -118,8 +118,8 @@ ms.locfileid: "83349347"
 
 ### <a name="reporting-services-mobile-reports-and-kpis"></a>Reporting Services 移动报表和 KPI
 * 在适用于 Windows 10 设备的 Power BI 应用中[查看 Reporting Services 移动报表和 KPI](mobile-app-windows-10-ssrs-kpis-mobile-reports.md)
-* 创建 [KPIs on the Reporting Services Web portal](https://msdn.microsoft.com/library/mt683632.aspx)（在 Reporting Services Web 门户上创建 KPI）。
-* [借助 SQL Server 移动报表发布服务器创建自己的移动报表](https://msdn.microsoft.com/library/mt652547.aspx)，并将其发布到 Reporting Services Web 门户。
+* 创建 [KPIs on the Reporting Services Web portal](/sql/reporting-services/working-with-kpis-in-reporting-services)（在 Reporting Services Web 门户上创建 KPI）。
+* [借助 SQL Server 移动报表发布服务器创建自己的移动报表](/sql/reporting-services/mobile-reports/create-mobile-reports-with-sql-server-mobile-report-publisher)，并将其发布到 Reporting Services Web 门户。
 
 ## <a name="next-steps"></a>后续步骤
 * 从 Windows 应用商店[下载 Power BI 应用](https://go.microsoft.com/fwlink/?LinkID=526478)。  

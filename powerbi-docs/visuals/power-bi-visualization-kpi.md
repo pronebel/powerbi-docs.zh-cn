@@ -10,12 +10,12 @@ ms.topic: tutorial
 ms.date: 01/30/2020
 ms.author: rien
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 7f865c53a1a47ad53137f0e7659917689243b914
-ms.sourcegitcommit: a199dda2ab50184ce25f7c9a01e7ada382a88d2c
+ms.openlocfilehash: c125f1cdd30a717ae7f4cdb93cbf8ea5ed858e79
+ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/06/2020
-ms.locfileid: "82865154"
+ms.lasthandoff: 05/19/2020
+ms.locfileid: "83564714"
 ---
 # <a name="create-key-performance-indicator-kpi-visualizations"></a>创建关键绩效指标 (KPI) 视觉对象
 
@@ -23,22 +23,22 @@ ms.locfileid: "82865154"
 
 [!INCLUDE [power-bi-visuals-desktop-banner](../includes/power-bi-visuals-desktop-banner.md)]
 
-关键绩效指标 (KPI) 是一个视觉提示，针对可度量目标可以传达其完成的进度。 若要详细了解 KPI，请参阅 [PowerPivot 中的关键绩效指标 (KPI)](/previous-versions/sql/sql-server-2012/hh272050(v=sql.110))。
+关键绩效指标 (KPI) 是一个视觉提示，用于传达针对可度量目标已完成的进度。 若要详细了解 KPI，请参阅 [PowerPivot 中的关键绩效指标 (KPI)](https://support.office.com/en-us/article/Key-Performance-Indicators-KPIs-in-Power-Pivot-E653EDEF-8A21-40E4-9ECE-83A6C8C306AA)。
 
 
 ## <a name="when-to-use-a-kpi"></a>何时使用 KPI
 
-当存在以下情况时，使用 KPI 是一个不错的选择：
+当存在以下情况时，KPI 是一个不错的选择：
 
 * 若要度量进度。 回答问题：“我是领先还是落后？”
 
-* 度量与目标之间的距离。回答问题：“我领先或落后了多远？”
+* 若要度量与目标的距离。 回答问题：“我领先或落后了多远？”
 
 ## <a name="kpi-requirements"></a>KPI 要求
 
-设计人员将 KPI 视觉对象建立在特定度量值的基础上。KPI 旨在根据已定义的目标来评估指标的当前值和状态。KPI 视觉对象需要评估为值的基础度量值、目标度量值或值以及阈值或目标。
+设计人员将 KPI 视觉对象建立在特定度量值的基础上。 KPI 旨在根据已定义目标来评估指标的当前值和状态。 KPI 视觉对象需要用于评估值的基础  度量值、目标  度量值或值，以及阈值  或目标  。
 
-KPI 数据集需要包含 KPI 目标值。 如果数据集不包含目标值，你可以创建它们，具体方法是向数据模型或 PBIX 文件添加含包含目标值的 Excel 工作表。
+KPI 数据集需要包含 KPI 目标值。 如果数据集不包含目标值，你可以创建它们，具体方法是向数据模型或 PBIX 文件添加含目标的 Excel 工作表。
 
 ## <a name="prerequisites"></a>先决条件
 
@@ -63,7 +63,7 @@ KPI 数据集需要包含 KPI 目标值。 如果数据集不包含目标值，�
 
 1. 添加“时间”>“财政月”  。  此值表示趋势。
 
-1. 选择视觉对象右上角的省略号，并检查 Power BI 是否按“会计月份”升序方式对柱状图进行排序。
+1. 选择视觉对象右上角的省略号，并检查 Power BI 是否按“会计月份”  升序排序柱形。
 
     > [!IMPORTANT]
     > 将可视化效果转换为 KPI 后，便无  排序选项。 必须现在进行正确排序。
@@ -86,13 +86,13 @@ KPI 数据集需要包含 KPI 目标值。 如果数据集不包含目标值，�
 
     * **指标** - 控制指标的显示单位和小数位数。
 
-    * **趋势轴** - 如果设置为 * **趋势轴** - 如果设置为“开”，视觉对象将趋势轴显示为 KPI 视觉对象的背景。 
-  
-    * **目标** - 如果设置为“开”，视觉对象显示目标以及距离目标的百分比。
- 
-     * **颜色编码 > 方向** - 人们认为一些 KPI 值越高越，而另一些 KPI 值则越低越好。例如，收入与等待时间。通常更高的收入值好于更高的等待时间值。选择“越高越好”，并视需要更改颜色设置。
-     
-KPI 也适用于 Power BI 服务和移动设备。 这样，可以始终与企业的关键信息数据保持连接。
+    * **趋势轴** - 如果设置为“开”  ，视觉对象将趋势轴显示为 KPI 视觉对象的背景。  
+
+    * **目标** - 如果设置为“开”  ，视觉对象显示目标，以及与目标的距离百分比。
+
+    * **颜色编码 > 方向** - 人们认为一些 KPI 值越高越好  ，而另一些 KPI 值则越低越好  。 例如，收入与等待时间。 通常更高的收入值好于更高的等待时间值。 选择“越高越好”  ，并视需要更改颜色设置。
+
+KPI 也适用于 Power BI 服务和移动设备。 这样，可以始终连接到业务检测信号。
 
 ## <a name="considerations-and-troubleshooting"></a>注意事项和疑难解答
 

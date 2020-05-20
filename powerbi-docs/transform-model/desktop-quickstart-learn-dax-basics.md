@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 10/21/2019
 ms.author: davidi
 LocalizationGroup: Model your data
-ms.openlocfilehash: 9ff04510a786fa89e1e461e6eefee1af90e58a8e
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 783a9bdce34345afd87be379aff7e073ff8c548d
+ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83313376"
+ms.lasthandoff: 05/19/2020
+ms.locfileid: "83565847"
 ---
 # <a name="apply-dax-basics-in-power-bi-desktop"></a>在 Power BI Desktop 中应用 DAX 的基础知识
 本文适用于刚开始使用 Power BI Desktop 的用户。 为你提供有关如何使用数据分析表达式 (DAX) 的快速而简单的介绍，以便解决一些基本计算和数据分析问题。 我们将逐一探讨一些概念性信息、一系列可以完成的任务以及测试所学内容的知识检查。 学习完本文后，你便可充分了解 DAX 中最重要的基本概念。
@@ -66,7 +66,7 @@ DAX 是公式或表达式中可用于计算并返回一个或多个值的函数�
 
 你可能会想，“这个度量值的功能不是与直接将 SalesAmount 字段添加到我的报表中一样吗？” 没错。 但是，创建自己的度量值来对 SalesAmount 字段中的值求和有个好处：我们可以将它当作参数用于其他公式。 虽然现在可能有点难以理解，但随着你对 DAX 公式的熟悉，了解这度量值可让你的公式和模型更有效率。 事实上，稍后你将看到 Total Sales 度量值如何显示为其他公式中的参数。
 
-现在我们将讨论关于此公式的一些其他内容。 我们将着重介绍 [SUM](https://msdn.microsoft.com/library/ee634387.aspx) 函数。 函数是预编写的公式，能够简化复杂计算和对数字、日期、时间、文本等内容的操作。 稍后你将了解有关函数的详细信息。
+现在我们将讨论关于此公式的一些其他内容。 我们将着重介绍 [SUM](/dax/sum-function-dax) 函数。 函数是预编写的公式，能够简化复杂计算和对数字、日期、时间、文本等内容的操作。 稍后你将了解有关函数的详细信息。
 
 你还会看到 [SalesAmount] 列前面加上了列所属的 Sales 表。 这就是所谓的完全限定列名称，因为它包括列名称且前面加上了表名。 同一个表中引用的列不需要在公式中包含表名，这可以使引用多个列的长公式更短且更易于阅读。 但是，最好能够在你的度量值公式中包含表名，即使在同一表中亦然。
 
@@ -121,7 +121,7 @@ DAX 是公式或表达式中可用于计算并返回一个或多个值的函数�
 
 为你介绍 DAX 公式的几个重要方面： 
 
-- 此公式包括两个函数。 [PREVIOUSQUARTER](https://msdn.microsoft.com/library/ee634385.aspx) 时间智能函数被嵌套为参数传递给 [CALCULATE](https://msdn.microsoft.com/library/ee634825.aspx) 筛选器函数。 
+- 此公式包括两个函数。 [PREVIOUSQUARTER](/dax/previousquarter-function-dax) 时间智能函数被嵌套为参数传递给 [CALCULATE](/dax/calculate-function-dax) 筛选器函数。 
 
    DAX 可以包含多达 64 个嵌套函数。 一个公式不大可能会包含这么多嵌套函数。 实际上，创建和调试这样的公式会很困难，而且也不会太快。
 
@@ -142,7 +142,7 @@ DAX 是公式或表达式中可用于计算并返回一个或多个值的函数�
 ### <a name="functions"></a>函数
 函数是通过使用特定值、调用参数，并按特定顺序或结构来执行计算的预定义公式。 参数可以是其他函数、另一个公式、表达式、列引用、数字、文本、逻辑值（如 TRUE 或 FALSE）或者常量。
 
-DAX 包含以下函数类别：[日期和时间](https://msdn.microsoft.com/library/ee634786.aspx)函数、[时间智能](https://msdn.microsoft.com/library/ee634763.aspx)函数、[信息](https://msdn.microsoft.com/library/ee634552.aspx)函数、[逻辑](https://msdn.microsoft.com/library/ee634365.aspx)函数、[数学](https://msdn.microsoft.com/library/ee634241.aspx)函数、[统计](https://msdn.microsoft.com/library/ee634822.aspx)函数、[文本](https://msdn.microsoft.com/library/ee634938.aspx)函数、[父/子](https://msdn.microsoft.com/library/mt150102.aspx)函数和[其他](https://msdn.microsoft.com/library/mt150101.aspx)函数。 如果你熟悉 Excel 公式中的函数，那么 DAX 中的很多函数都会让你觉得相似；但是，DAX 函数在以下方面是独一无二的：
+DAX 包含以下函数类别：[日期和时间](/dax/date-and-time-functions-dax)函数、[时间智能](/dax/time-intelligence-functions-dax)函数、[信息](/dax/information-functions-dax)函数、[逻辑](/dax/logical-functions-dax)函数、[数学](/dax/math-and-trig-functions-dax)函数、[统计](/dax/statistical-functions-dax)函数、[文本](/dax/text-functions-dax)函数、[父/子](/dax/parent-and-child-functions-dax)函数和[其他](/dax/other-functions-dax)函数。 如果你熟悉 Excel 公式中的函数，那么 DAX 中的很多函数都会让你觉得相似；但是，DAX 函数在以下方面是独一无二的：
 
 * DAX 函数始终引用完整列或表。 如果你仅想使用某个表或列中的特定值，则可以向公式添加筛选器。
 * 如果需要逐行自定义计算，DAX 提供可让你将当前行值或相关值用作一种参数的函数，以便执行因上下文而变的计算。 稍后你将了解有关上下文的详细信息。
@@ -150,7 +150,7 @@ DAX 包含以下函数类别：[日期和时间](https://msdn.microsoft.com/libr
 * DAX 包括各种时间智能函数。 这些函数可让你定义或选择日期范围，并基于此范围执行动态计算。 例如，你可以比较并行时间段内的总和。
 * Excel 有一个热门的函数 VLOOKUP。 不同于 Excel 中的 VLOOKUP，DAX 函数不会采用单元格或单元格区域作为引用。 DAX 函数采用某一列或表作为引用。 请记住，在 Power BI Desktop 中，将使用关系数据模型。 查找另一个表中的值其实很简单，而且在大多数情况下，完全不需要创建任何公式。
   
-  如你所见，DAX 中的函数可帮助你创建功能非常强大的公式。 我们实际上只接触到了函数的基本概念。 随着你对 DAX 技能的熟悉，你将使用许多不同的函数来创建公式。 若要了解有关每个 DAX 函数的详细信息，最好的办法之一就是参阅 [DAX 函数参考](https://msdn.microsoft.com/query-bi/dax/data-analysis-expressions-dax-reference)。
+  如你所见，DAX 中的函数可帮助你创建功能非常强大的公式。 我们实际上只接触到了函数的基本概念。 随着你对 DAX 技能的熟悉，你将使用许多不同的函数来创建公式。 若要了解有关每个 DAX 函数的详细信息，最好的办法之一就是参阅 [DAX 函数参考](/dax/)。
 
 ### <a name="functions-quickquiz"></a>函数快速测验
 1. 函数会始终引用何项？
@@ -210,7 +210,7 @@ DAX 包含以下函数类别：[日期和时间](https://msdn.microsoft.com/libr
 本文末尾将提供解答。
 
 ## <a name="summary"></a>摘要
-现在你对 DAX 中最重要的概念有了基本的认识，可以开始独立创建度量值的 DAX 公式。 DAX 确实有点难以理解，但是有许多资源可供你使用。 读完本文并对自己的几个公式进行试验之后，你可以进一步了解可帮助你解决业务问题的 DAX 概念和公式。 有许多 DAX 资源可供你使用；最重要的就是[数据分析表达式 (DAX) 参考](https://msdn.microsoft.com/library/gg413422.aspx)。
+现在你对 DAX 中最重要的概念有了基本的认识，可以开始独立创建度量值的 DAX 公式。 DAX 确实有点难以理解，但是有许多资源可供你使用。 读完本文并对自己的几个公式进行试验之后，你可以进一步了解可帮助你解决业务问题的 DAX 概念和公式。 有许多 DAX 资源可供你使用；最重要的就是[数据分析表达式 (DAX) 参考](/dax/)。
 
 因为 DAX 在 Power Pivot 和 Analysis Services 表格模型等其他 Microsoft BI 工具中已存在数年，所以有许多有用信息。 你可以从 Microsoft 和顶级 BI 专业人员所提供的书籍、白皮书和博客中找到详细信息。 [TechNet 上的 DAX 资源中心 Wiki](https://social.technet.microsoft.com/wiki/contents/articles/dax-resource-center.aspx) 也是一个不错的起点。
 
@@ -224,11 +224,10 @@ DAX 包含以下函数类别：[日期和时间](https://msdn.microsoft.com/libr
 
 1. 表和列。
 2. 是。 公式可以包含多达 64 个嵌套函数。
-3. [文本函数](https://msdn.microsoft.com/library/ee634938.aspx)。
+3. [文本函数](/dax/text-functions-dax)。
 
 上下文：
 
 1. 行上下文和筛选上下文。
 2. 计算中用于确定单个值的一个或多个筛选器。
 3. 当前行。
-

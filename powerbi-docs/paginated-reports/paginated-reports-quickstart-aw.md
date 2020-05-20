@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: tutorial
 ms.date: 11/06/2018
-ms.openlocfilehash: 45edb3695acdcc5519fb0b62cebc853ff25ce97a
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: 81e293f4dbf15a21c2546a54f140b163ebc93c05
+ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83145227"
+ms.lasthandoff: 05/19/2020
+ms.locfileid: "83565640"
 ---
 # <a name="tutorial-create-a-paginated-report-and-upload-it-to-the-power-bi-service"></a>教程：创建分页报表并将其上传到 Power BI 服务
 
@@ -42,7 +42,7 @@ ms.locfileid: "83145227"
 
 以下是将分页报表上传到 Power BI 服务的先决条件：
 
-- 需要 [Power BI Pro 许可证](../service-admin-power-bi-pro-in-your-organization.md)。
+- 需要 [Power BI Pro 许可证](../admin/service-admin-licensing-organization.md)。
 - 需要 [Power BI Premium 容量](../admin/service-premium-what-is.md)中的服务上的工作区。 它在工作区名称旁边有一个菱形图标![高级菱形图标](media/paginated-reports-quickstart-aw/premium-diamond.png)。
 
 ## <a name="create-the-matrix-with-a-wizard"></a>使用向导创建矩阵

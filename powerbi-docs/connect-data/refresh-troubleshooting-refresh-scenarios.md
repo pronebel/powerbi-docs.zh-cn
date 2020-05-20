@@ -9,12 +9,12 @@ ms.topic: troubleshooting
 ms.date: 09/13/2019
 ms.author: maggies
 LocalizationGroup: Data refresh
-ms.openlocfilehash: 583d33a1d28fa926bdea41988d651f12de5a8e92
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: a490951808271cb845c1ec558344bcf5fdc6c145
+ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83309121"
+ms.lasthandoff: 05/19/2020
+ms.locfileid: "83564937"
 ---
 # <a name="troubleshooting-refresh-scenarios"></a>刷新方案故障排除
 
@@ -33,7 +33,7 @@ ms.locfileid: "83309121"
 
 ## <a name="refresh-using-web-connector-doesnt-work-properly"></a>使用 Web 连接器进行刷新的操作未能正常运行
 
-如果有正在使用 [**Web.Page**](https://msdn.microsoft.com/library/mt260924.aspx) 函数的 Web 连接器脚本，且在 2016 年 11 月 18 日后更新过数据集或报表，则必须使用网关才能让刷新正常工作。
+如果有正在使用 [**Web.Page**](/powerquery-m/web-page) 函数的 Web 连接器脚本，且在 2016 年 11 月 18 日后更新过数据集或报表，则必须使用网关才能让刷新正常工作。
 
 ## <a name="unsupported-data-source-for-refresh"></a>刷新不支持的数据源
 

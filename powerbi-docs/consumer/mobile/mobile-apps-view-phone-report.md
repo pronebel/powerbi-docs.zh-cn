@@ -8,12 +8,12 @@ ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 05/05/2020
 ms.author: painbar
-ms.openlocfilehash: d3584ebc5233ccffc007118ac87ada49e906b34c
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 380057c2c65db3ea659adc39d692d8955201483b
+ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83273514"
+ms.lasthandoff: 05/19/2020
+ms.locfileid: "83565114"
 ---
 # <a name="view-power-bi-reports-optimized-for-your-phone"></a>查看针对你的手机进行优化的 Power BI 报表
 
@@ -60,7 +60,7 @@ Power BI 报表的所有其他功能对更适合在手机上查看的报表仍�
 
 * 在手机报表中，点击视觉对象右上角的省略号 ( **...** ) >“**扩展至焦点模式**”。
   
-    ![展开为焦点模式](././media/mobile-apps-view-phone-report/power-bi-phone-report-focus-mode.png)
+    ![展开为焦点模式](media/mobile-apps-view-phone-report/power-bi-phone-report-focus-mode.png)
 
 在焦点模式下所执行的操作将传递到报表画布，反之亦然。 例如，如果突出显示视觉对象中的一个值，然后返回到整个报表，则该报表将筛选出你在视觉对象中突出显示的值。
 
@@ -72,7 +72,7 @@ Power BI 报表的所有其他功能对更适合在手机上查看的报表仍�
   
     若要清除视觉对象中的所有浏览，请点击省略号 ( **...** ) >“**还原**”。
   
-    ![还原](././media/mobile-apps-view-phone-report/power-bi-phone-report-revert-levels.png)
+    ![还原](media/mobile-apps-view-phone-report/power-bi-phone-report-revert-levels.png)
   
     可在报表级别或在视觉对象级别进行还原，前者将从所有视觉对象清除浏览，后者将从所选视觉对象清除浏览。   
 
@@ -86,14 +86,14 @@ Power BI 报表的所有其他功能对更适合在手机上查看的报表仍�
 2. 将显示工具提示，如果定义了层次结构，则工具提示页脚将显示向下钻取功能和向上键。
 3. 点击向下键以便向下钻取
 
-    ![点击向下钻取](././media/mobile-apps-view-phone-report/report-drill-down.png)
+    ![点击向下钻取](media/mobile-apps-view-phone-report/report-drill-down.png)
     
 4. 点击向上键以便向上钻取。
 
 ### <a name="drill-to-next-level"></a>钻取到下一个级别
 1. 在手机报表中，点击右上角的省略号 ( **...** ) >“**扩展至焦点模式**”。
    
-    ![展开为焦点模式](././media/mobile-apps-view-phone-report/power-bi-phone-report-focus-mode.png)
+    ![展开为焦点模式](media/mobile-apps-view-phone-report/power-bi-phone-report-focus-mode.png)
    
     在本示例中，柱线显示状态的值。
 2. 点击左下角的“浏览”图标  ![“浏览”图标](./media/mobile-apps-view-phone-report/power-bi-phone-report-explore-icon.png) （位于左下角）。
@@ -111,7 +111,7 @@ Power BI 报表的所有其他功能对更适合在手机上查看的报表仍�
     ![仍扩展至更低级别](./media/mobile-apps-view-phone-report/power-bi-back-to-phone-report-expanded-levels.png)
 5. 若要向上返回到原始级别，请再次点击省略号 ( **...** ) >“**还原**”。
    
-    ![还原](././media/mobile-apps-view-phone-report/power-bi-phone-report-revert-levels.png)
+    ![还原](media/mobile-apps-view-phone-report/power-bi-phone-report-revert-levels.png)
 
 ## <a name="drill-through-from-a-value"></a>从值中钻取
 钻取将一个报表页中的值与其他报表页连接起来。 从数据点钻取到其他报表页时，数据点值用于筛选钻取页，或它将位于所选数据的上下文中。
@@ -121,11 +121,11 @@ Power BI 报表的所有其他功能对更适合在手机上查看的报表仍�
 2. 将显示工具提示，如果定义了钻取，则工具提示页脚将显示钻取箭头。
 3. 点击箭头以便进行钻取
 
-    ![点击钻取](././media/mobile-apps-view-phone-report/report-drill-through1.png)
+    ![点击钻取](media/mobile-apps-view-phone-report/report-drill-through1.png)
 
 4. 选择要钻取的报表页
 
-    ![选择报表页](././media/mobile-apps-view-phone-report/report-drill-through2.png)
+    ![选择报表页](media/mobile-apps-view-phone-report/report-drill-through2.png)
 
 5. 使用应用标头中的“返回”按钮，以返回到开始的页面。
 
@@ -133,5 +133,5 @@ Power BI 报表的所有其他功能对更适合在手机上查看的报表仍�
 ## <a name="next-steps"></a>后续步骤
 * [创建针对 Power BI 移动应用的优化报表](../../create-reports/desktop-create-phone-report.md)
 * [在 Power BI 中创建仪表板电话视图](../../create-reports/service-create-dashboard-mobile-phone-view.md)
-* [创建优化为适应任意大小的响应式视觉对象](../../visuals/desktop-create-responsive-visuals.md)
+* [创建优化为适应任意大小的响应式视觉对象](../../visuals/power-bi-report-visualizations.md)
 * 更多问题？ [尝试咨询 Power BI 社区](https://community.powerbi.com/)

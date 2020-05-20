@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 02/27/2020
-ms.openlocfilehash: 3ce1ae5207af6f4aaf844679bcd3ae52d2c13819
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: f4585e4c1eb629b4676b74157c0520d70540da7b
+ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83348151"
+ms.lasthandoff: 05/19/2020
+ms.locfileid: "83565137"
 ---
 # <a name="whats-new-in-power-bi-report-server"></a>Power BI 报表服务器中的新增功能
 
@@ -160,7 +160,7 @@ ms.locfileid: "83348151"
 
 #### <a name="custom-headers"></a>自定义标头
 
-为所有与指定的正则表达式模式匹配的 URL 设置标头值。 用户可以使用有效的 XML 更新自定义标头值，以设置所选请求 URL 的标头值。 管理员可以在 XML 中添加任意数量的标头。 有关详细信息，请参阅 Reporting Services“服务器属性 -‘高级’页”  一文中的 [CustomHeaders](/sql/reporting-services/tools/server-properties-advanced-page-reporting-services#customheaders)。
+为所有与指定的正则表达式模式匹配的 URL 设置标头值。 用户可以使用有效的 XML 更新自定义标头值，以设置所选请求 URL 的标头值。 管理员可以在 XML 中添加任意数量的标头。 有关详细信息，请参阅 Reporting Services“服务器属性 -‘高级’页”一文中的 [CustomHeaders](/sql/reporting-services/tools/server-properties-advanced-page-reporting-services#customheaders)。
 
 #### <a name="transparent-database-encryption"></a>透明数据库加密
 
@@ -247,7 +247,7 @@ Power BI 报表服务器的 2019 年 9 月更新包含大量 Power BI 报表功�
 
 #### <a name="accessible-visual-interaction"></a>可访问的视觉对象交互
 
-现在，可以使用键盘导航访问许多内置视觉对象上的数据点。 详细了解 [Power BI 报表中的辅助功能](../desktop-accessibility.md)。
+现在，可以使用键盘导航访问许多内置视觉对象上的数据点。 详细了解 [Power BI 报表中的辅助功能](../create-reports/desktop-accessibility-overview.md)。
 
 #### <a name="conditional-formatting-titles-and-web-url-actions"></a>条件格式设置标题和 Web URL 操作
 
@@ -343,7 +343,7 @@ Power BI 报表中支持以下功能：
 
 #### <a name="report-theming"></a>报表主题
 
-2018 年 8 月版本的 Power BI 报表服务器中添加了报表主题，可快速为整个报表着色，以匹配主题或公司品牌。 导入主题时，所有图表都会自动更新为使用主题颜色，可从调色板访问主题颜色。 可使用“切换主题”按钮下的“导入主题”选项上传主题文件   。
+2018 年 8 月版本的 Power BI 报表服务器中添加了报表主题，可快速为整个报表着色，以匹配主题或公司品牌。 导入主题时，所有图表都会自动更新为使用主题颜色，可从调色板访问主题颜色。 可使用“切换主题”按钮下的“导入主题”选项上传主题文件 。
 
 主题文件是一个 JSON 文件，其中包含想要在报表中使用的所有颜色以及要应用于视觉对象的任何默认格式。
 这是一个简单的 JSON 主题示例，它只更新报表的默认颜色：
@@ -364,7 +364,7 @@ Power BI 报表中支持以下功能：
 
 #### <a name="conditional-formatting-by-values"></a>通过值设置条件格式
 
-另一个新的条件格式类型是“按字段设置格式”值  。 借助“按字段设置格式”值，可使用通过十六进制代码或名称指定颜色的度量值或列，并将该颜色应用于背景或字体颜色。
+另一个新的条件格式类型是“按字段设置格式”值。 借助“按字段设置格式”值，可使用通过十六进制代码或名称指定颜色的度量值或列，并将该颜色应用于背景或字体颜色。
 
 #### <a name="report-page-tooltips"></a>报告页工具提示
 
@@ -522,7 +522,7 @@ Power BI 报表现在提供使用 Kerberos 的 SAP HANA SSO 直接查询支持�
 
 #### <a name="export-to-accessible-pdf"></a>导出为可访问的 PDF
 
-现在将分页 (RDL) 报表导出为 PDF 时，可以获取一个可访问/标记的 PDF 文件。 虽然该文件比较大，但更方便屏幕阅读器和其他辅助技术阅读和导航。 通过将 AccessiblePDF 设备信息设置设为“True”，启用可访问的 PDF   。 请参阅 [PDF 设备信息设置](https://docs.microsoft.com/sql/reporting-services/pdf-device-information-settings)和[更改设备信息设置](https://docs.microsoft.com/sql/reporting-services/customize-rendering-extension-parameters-in-rsreportserver-config#changing-device-information-settings)。
+现在将分页 (RDL) 报表导出为 PDF 时，可以获取一个可访问/标记的 PDF 文件。 虽然该文件比较大，但更方便屏幕阅读器和其他辅助技术阅读和导航。 通过将 AccessiblePDF 设备信息设置设为“True”，启用可访问的 PDF 。 请参阅 [PDF 设备信息设置](https://docs.microsoft.com/sql/reporting-services/pdf-device-information-settings)和[更改设备信息设置](https://docs.microsoft.com/sql/reporting-services/customize-rendering-extension-parameters-in-rsreportserver-config#changing-device-information-settings)。
 
 ### <a name="other-improvements"></a>其他改进
 
@@ -603,7 +603,7 @@ Excel 和 Power BI 包含行业中独一无二的一套工具。 同时，它们
 
 ### <a name="support-for-new-table-and-matrix-visuals"></a>支持新的表和矩阵视觉对象
 
-Power BI 报表服务器现在支持新的 Power BI 表和矩阵视觉对象。 若要创建具有这些视觉对象的报表，需要 2017 年 10 月发布的更新的 Power BI Desktop 版本。 它不能与 Power BI Desktop（2017 年 6 月）版本并行安装。 对于最新版本的 Power BI Desktop，请在 [Power BI 报表服务器下载页](https://powerbi.microsoft.com/report-server/)上选择“高级下载选项”  。
+Power BI 报表服务器现在支持新的 Power BI 表和矩阵视觉对象。 若要创建具有这些视觉对象的报表，需要 2017 年 10 月发布的更新的 Power BI Desktop 版本。 它不能与 Power BI Desktop（2017 年 6 月）版本并行安装。 对于最新版本的 Power BI Desktop，请在 [Power BI 报表服务器下载页](https://powerbi.microsoft.com/report-server/)上选择“高级下载选项”。
 
 ## <a name="june-2017"></a>2017 年 6 月
 
@@ -614,7 +614,7 @@ Power BI 报表服务器现在支持新的 Power BI 表和矩阵视觉对象。 
 * Power BI 报表服务器预览版已发布
 * 可以在本地发布 Power BI 报表
   * 对 Power BI 视觉对象的支持
-  * 仅支持 Analysis Services 实时连接，今后将会支持更多数据源  。
+  * 仅支持 Analysis Services 实时连接，今后将会支持更多数据源。
   * Power BI 移动应用更新为显示在 Power BI 报表服务器中托管的 Power BI 报表
 * 通过注释增强了报表协作
 

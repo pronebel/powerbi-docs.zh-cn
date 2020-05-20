@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 02/20/2020
 ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: a22bba65b44446e7027627a24ebcf316f8f073d4
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: 39d30cc7949565872fd638f289756be6541eee0d
+ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83348381"
+ms.lasthandoff: 05/19/2020
+ms.locfileid: "83564977"
 ---
 # <a name="frequently-asked-questions-about-power-bi"></a>有关 Power BI 的常见问题
 
@@ -89,7 +89,7 @@ Power BI 不支持由使用者电子邮件服务或电信提供商提供的电�
 
 ## <a name="what-browsers-does-power-bi-support"></a>Power BI 支持哪些浏览器？
 
-以下是 [Power BI 支持的浏览器](../service-browser-support.md)的完整列表。
+以下是 [Power BI 支持的浏览器](../fundamentals/power-bi-browsers.md)的完整列表。
 
 ## <a name="what-regions-and-languages-does-power-bi-support"></a>Power BI 支持哪些区域和语言？
 

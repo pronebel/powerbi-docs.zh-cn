@@ -9,12 +9,12 @@ ms.topic: tutorial
 ms.date: 11/26/2019
 ms.author: davidi
 LocalizationGroup: Learn more
-ms.openlocfilehash: 858ecc07deabf5b91295220c2b92791b998ecf3a
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: e5394a9ac7b7dbfc9edcfac53ea87d061e306a47
+ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83349232"
+ms.lasthandoff: 05/19/2020
+ms.locfileid: "83565824"
 ---
 # <a name="tutorial-create-calculated-columns-in-power-bi-desktop"></a>教程：创建 Power BI Desktop 中的计算列
 
@@ -46,7 +46,7 @@ ms.locfileid: "83349232"
 
 2. 默认情况下，新计算列命名为“列”  。 如果不进行重命名，其他新列将命名为“列 2”、“列 3”，依此类推   。 你希望列更易于识别，因此鉴于“列”名称已在公式栏中突出显示，可以通过键入“ProductFullCategory”来重命名，然后键入等号 ( **)**  **=** 。
 
-3. 你希望新列中的值以“ProductCategory”字段中的名称开始  。 由于此列在不同但相关的表中，因此可以使用 [RELATED](https://msdn.microsoft.com/library/ee634202.aspx) 函数来帮助获得它。
+3. 你希望新列中的值以“ProductCategory”字段中的名称开始  。 由于此列在不同但相关的表中，因此可以使用 [RELATED](/dax/related-function-dax) 函数来帮助获得它。
 
    在等号后键入“r”  。 下拉建议列表显示了以字母 R 开头的所有 DAX 函数。选中每个函数时都将显示其效果说明。 键入时，建议列表会更接近你所需的函数。 选择“RELATED”  ，然后按 Enter  。
 
@@ -97,7 +97,7 @@ ms.locfileid: "83349232"
 
 Contoso 销售示例包括针对活跃商店和非活跃商店的销售数据。 通过创建一个“Active StoreName”字段，可以确保报表中活跃商店的销售额与非活跃商店的销售额明确分离  。 在新的“Active StoreName”计算列，每个活跃商店将以商店的完整名称显示，而非活跃商店的销售额将被组合到名为“非活跃”的行项目中   。
 
-幸运的是，“商店”表中有一个名为“状态”的列，其中值“开”用于活跃商店，而“关”则用于非活跃商店，我们可以使用该列创建新“Active StoreName”列的值    。 DAX 公式将使用逻辑 [IF](https://msdn.microsoft.com/library/ee634824.aspx) 函数来测试每个商店的“状态”，并根据结果返回特定值  。 如果商店状态为“开”，公式将返回商店名称  。 如果为“关”，则公式将为 Active StoreName 分配“非活跃”  。
+幸运的是，“商店”表中有一个名为“状态”的列，其中值“开”用于活跃商店，而“关”则用于非活跃商店，我们可以使用该列创建新“Active StoreName”列的值    。 DAX 公式将使用逻辑 [IF](/dax/if-function-dax) 函数来测试每个商店的“状态”，并根据结果返回特定值  。 如果商店状态为“开”，公式将返回商店名称  。 如果为“关”，则公式将为 Active StoreName 分配“非活跃”  。
 
 1. 在“商店”  表中新建计算列，并在公式栏中将其命名为“Active StoreName”  。
 
@@ -133,4 +133,4 @@ Contoso 销售示例包括针对活跃商店和非活跃商店的销售数据。
 
 如果想要深入了解 DAX 公式和使用更高级的公式创建计算列，请参阅 [Power BI Desktop 中的 DAX 基本信息](desktop-quickstart-learn-dax-basics.md)。 本文重点在于介绍 DAX 中的基本概念，如语法、函数和对上下文的透彻理解。
 
-请务必将[数据分析表达式 (DAX) 参考](https://msdn.microsoft.com/library/gg413422.aspx)添加到收藏夹。 你可以在这里找到有关 DAX 语法、运算符和 200 多个 DAX 函数的详细信息。
+请务必将[数据分析表达式 (DAX) 参考](/dax/)添加到收藏夹。 你可以在这里找到有关 DAX 语法、运算符和 200 多个 DAX 函数的详细信息。

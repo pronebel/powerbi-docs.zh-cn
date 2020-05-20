@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 05/02/2018
 ms.author: maggies
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 3f3b5f8967890a3bb0cda3464b8d122d40938f62
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 283b43ef60d88df64b66812956e79bdcce1f16e9
+ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83322001"
+ms.lasthandoff: 05/19/2020
+ms.locfileid: "83565778"
 ---
 # <a name="pin-a-tile-to-a-power-bi-dashboard-from-excel"></a>从 Excel 将磁贴固定到 Power BI 仪表板
 若要从 Excel 工作簿固定磁贴，请将该工作簿连接到 Power BI 服务 (app.powerbi.com)。 实际上，连接工作簿会将该工作簿链接的只读版本引入 Power BI 服务，并允许用户将区域固定到仪表板。 甚至可以将整个工作表固定到仪表板。  
@@ -80,7 +80,7 @@ ms.locfileid: "83322001"
  ![视频](media/service-dashboard-pin-tile-from-excel/pin-from-excel.gif)
 
 ## <a name="considerations-and-troubleshooting"></a>注意事项和疑难解答
-不支持的功能：Power BI 使用 Excel Services 来检索工作簿磁贴。 因此，由于 Excel 中的某些功能在 Excel Services REST API 中不受支持，因此将不会在 Power BI 中的磁贴上看到这些功能。 例如：迷你图、图标集条件格式设置和时间切片器。 有关不支持的功能的完整列表，请参阅 [Excel Services REST API 中不支持的功能](https://msdn.microsoft.com/library/office/ff394477.aspx)
+不支持的功能：Power BI 使用 Excel Services 来检索工作簿磁贴。 因此，由于 Excel 中的某些功能在 Excel Services REST API 中不受支持，因此将不会在 Power BI 中的磁贴上看到这些功能。 例如：迷你图、图标集条件格式设置和时间切片器。 有关不支持的功能的完整列表，请参阅 [Excel Services REST API 中不支持的功能](/sharepoint/dev/general-development/unsupported-features-in-excel-services-rest-api)
 
 ## <a name="next-steps"></a>后续步骤
 [共享具有 Excel 工作簿链接的仪表板](../collaborate-share/service-share-dashboard-that-links-to-excel-onedrive.md)
