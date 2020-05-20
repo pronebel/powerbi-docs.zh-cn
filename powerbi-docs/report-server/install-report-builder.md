@@ -25,7 +25,7 @@ ms.locfileid: "78919847"
   
 ## <a name="system-requirements"></a>系统要求
   
- 请参阅 Microsoft 下载中心上[报表生成器下载页](https://go.microsoft.com/fwlink/?LinkID=734968)的“系统要求”部分  。
+ 请参阅 Microsoft 下载中心上[报表生成器下载页](https://go.microsoft.com/fwlink/?LinkID=734968)的“系统要求”部分。
  
 ## <a name="install-report-builder-from-a-web-portal"></a>从 Web 门户安装报表生成器
   

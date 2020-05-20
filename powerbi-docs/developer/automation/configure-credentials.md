@@ -115,7 +115,7 @@ ms.locfileid: "80114764"
     var gateway = gateways.First();
     ```
 
-3. 使用第 2 步  中检索到的网关公钥，按照[更新数据源的凭据流](#update-credentials-flow-for-data-sources)中所述的方法操作，生成凭据详细信息。
+3. 使用第 2 步中检索到的网关公钥，按照[更新数据源的凭据流](#update-credentials-flow-for-data-sources)中所述的方法操作，生成凭据详细信息。
 
 4. 生成请求正文。
 
@@ -135,7 +135,7 @@ ms.locfileid: "80114764"
 
 ## <a name="credential-types"></a>凭据类型
 
-如果使用 [Power BI Rest API](https://docs.microsoft.com/rest/api/power-bi/) 在“企业本地网关”下调用 [Create Datasource](https://docs.microsoft.com/rest/api/power-bi/gateways/createdatasource) 或 [Update Datasource](https://docs.microsoft.com/rest/api/power-bi/gateways/updatedatasource)，则需要使用网关的公钥加密凭据值  。
+如果使用 [Power BI Rest API](https://docs.microsoft.com/rest/api/power-bi/) 在“企业本地网关”下调用 [Create Datasource](https://docs.microsoft.com/rest/api/power-bi/gateways/createdatasource) 或 [Update Datasource](https://docs.microsoft.com/rest/api/power-bi/gateways/updatedatasource)，则需要使用网关的公钥加密凭据值。
 
 >[!NOTE]
 >.NET SDK v3 还可以运行下面列出的 .NET SDK v2 示例。

@@ -60,4 +60,4 @@ export class Visual implements IVisual {
 ## <a name="known-limitations-and-issues"></a>已知限制和问题
 
 默认情况下，不会为 Power BI 视觉对象激活本地存储 API。 要为 Power BI 视觉对象激活它，请将请求发送到 Power BI 视觉对象支持团队 `pbicvsupport@microsoft.com`。  
-请注意，视觉对象应在 [AppSource](https://appsource.microsoft.com/en-us/marketplace/apps?product=power-bi-visuals) 中可用且[经过认证](https://powerbi.microsoft.com/en-us/documentation/powerbi-custom-visuals-certified/)  。
+请注意，视觉对象应在 [AppSource](https://appsource.microsoft.com/en-us/marketplace/apps?product=power-bi-visuals) 中可用且[经过认证](https://powerbi.microsoft.com/en-us/documentation/powerbi-custom-visuals-certified/)。
