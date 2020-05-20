@@ -37,7 +37,7 @@ ms.locfileid: "79114352"
 
 ![最近访问内容浮出控件](./media/end-user-recent/power-bi-recent-flyout.png)
 
-如果最近访问的项目超过五个，请选择“查看全部”以打开“最近访问”屏幕  。 还可从导航窗格中选择“最近访问”，或“最近访问”![最近访问图标](./media/end-user-recent/power-bi-icon.png)图标  。
+如果最近访问的项目超过五个，请选择“查看全部”以打开“最近访问”屏幕  。 还可从导航窗格中选择“最近访问”，或“最近访问”![最近访问图标](./media/end-user-recent/power-bi-icon.png)图标。
 
 ![显示所有最近访问的内容](./media/end-user-recent/power-bi-recent.png)
 

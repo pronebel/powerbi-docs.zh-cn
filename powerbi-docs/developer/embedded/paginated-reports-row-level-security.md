@@ -28,11 +28,11 @@ ms.locfileid: "79491723"
 
 将行级别安全性应用于 Power BI 分页报表时，需要将[参数](../../paginated-reports/report-builder-parameters.md)分配到 UserID 特性  。 此参数将限制嵌入报表前从数据集中提取的数据。
 
-将参数分配到 UserID 后，使用 [Reports GenerateTokenForCreateInGroup](https://docs.microsoft.com/rest/api/power-bi/embedtoken/reports_generatetokenforcreateingroup) API 获取嵌入令牌  。
+将参数分配到 UserID 后，使用 [Reports GenerateTokenForCreateInGroup](https://docs.microsoft.com/rest/api/power-bi/embedtoken/reports_generatetokenforcreateingroup) API 获取嵌入令牌。
 
 ## <a name="use-userid-as-a-filter-at-report-or-query-level"></a>在报表或查询级别使用 UderID 作为筛选器
 
-可以使用 UserId  作为筛选器  ，也可将其用于对 [Power BI Report Builder](../../paginated-reports/report-builder-power-bi.md) 中数据源的查询  。
+可以使用 UserId 作为筛选器，也可将其用于对 [Power BI Report Builder](../../paginated-reports/report-builder-power-bi.md) 中数据源的查询。
 
 ### <a name="using-the-filter"></a>使用筛选器
 
@@ -66,7 +66,7 @@ ms.locfileid: "79491723"
 
     ![Power BI 报表生成器参数](media/paginated-reports-row-level-security/parameters.png)
 
-2. 在“参数名称”中输入“\@UserID”，然后在“参数值”中添加“[&UserID]”     。
+2. 在“参数名称”中输入“\@UserID”，然后在“参数值”中添加“[&UserID]”。
 
     ![Power BI 报表生成器参数名](media/paginated-reports-row-level-security/parameter-name.png) 
 
@@ -80,7 +80,7 @@ ms.locfileid: "79491723"
 
 为客户嵌入分页报表时，使用 [Reports GenerateTokenForCreateInGroup](https://docs.microsoft.com/rest/api/power-bi/embedtoken/reports_generatetokenforcreateingroup) API 获取嵌入令牌。 此令牌还可用于筛选从分页报表中提取的某些数据。
 
-若要只公开某些数据，请用要显示的信息指定 `username` 字段。 例如，在使用 color 参数的分页报表中，如果在 `username` 字段中输入 green，则嵌入令牌会限制嵌入的数据，仅显示颜色列中具有 green 值的数据   。
+若要只公开某些数据，请用要显示的信息指定 `username` 字段。 例如，在使用 color 参数的分页报表中，如果在 `username` 字段中输入 green，则嵌入令牌会限制嵌入的数据，仅显示颜色列中具有 green 值的数据。
 
 ```JSON
 {

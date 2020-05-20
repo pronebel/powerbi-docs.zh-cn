@@ -30,7 +30,7 @@ ms.locfileid: "77464326"
    ![“管理角色”窗口](./media/rls-desktop-define-roles/powerbi-desktop-security-create-rule.png)
 
    > [!NOTE]
-   > 可以在此表达式内使用 *username()* 。 请注意，username() 在 Power BI Desktop 中采用“域\用户名”格式   。 在 Power BI 服务和 Power BI 报表服务器中，采用用户的用户主体名称 (UPN) 格式。 或者，可以使用 userprincipalname()，它始终返回采用其用户主体名称格式 username\@contoso.com 的用户   。
+   > 可以在此表达式内使用 *username()* 。 请注意，username() 在 Power BI Desktop 中采用“域\用户名”格式   。 在 Power BI 服务和 Power BI 报表服务器中，采用用户的用户主体名称 (UPN) 格式。 或者，可以使用 userprincipalname()，它始终返回采用其用户主体名称格式 username\@contoso.com 的用户。
    > 
    > 
 

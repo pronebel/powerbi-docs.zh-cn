@@ -19,7 +19,7 @@ ms.locfileid: "80114097"
 
 通过视觉对象筛选器 API，可在 Power BI 视觉对象中筛选数据。 它与其他选择的主要区别是可通过任意方式筛选其他视觉对象，尽管其他视觉对象支持突出显示。
 
-若要对此视觉对象启用筛选，该视觉对象应在 capabilities.json 代码的 `general` 部分中包含 `filter` 对象  。
+若要对此视觉对象启用筛选，该视觉对象应在 capabilities.json 代码的 `general` 部分中包含 `filter` 对象。
 
 ```json
 "objects": {

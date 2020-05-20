@@ -43,11 +43,11 @@ Power BI for Mixed Reality 基于 Power BI Windows 移动应用，结合了混�
 
 **固定项目** 
 
-隔空敲击“固定”图标 ![Pin icon](./media/mobile-mixed-reality-app/power-bi-hololens-pin.png) 可将 Windows 经典视图的仪表板或报表固定到全息视图  。 可以将很多项目固定到全息视图。 
+隔空敲击“固定”图标 ![Pin icon](./media/mobile-mixed-reality-app/power-bi-hololens-pin.png) 可将 Windows 经典视图的仪表板或报表固定到全息视图。 可以将很多项目固定到全息视图。 
 
 **切换到全息视图**
 
-在固定 Windows 经典视图中的项后，隔空敲击“全屏显示”图标 ![Full screen icon](./media/mobile-mixed-reality-app/power-bi-hololens-fullscreen.png) 可切换到全息视图  。 
+在固定 Windows 经典视图中的项后，隔空敲击“全屏显示”图标 ![Full screen icon](./media/mobile-mixed-reality-app/power-bi-hololens-fullscreen.png) 可切换到全息视图。 
 
 
 ## <a name="holographic-view-basics"></a>全息视图的基础知识

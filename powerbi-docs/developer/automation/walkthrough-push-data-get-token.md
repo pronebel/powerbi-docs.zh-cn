@@ -31,7 +31,7 @@ ms.locfileid: "79488260"
 
 2. 安装 [Azure AD Authentication Library for .NET NuGet 程序包](https://www.nuget.org/packages/Microsoft.IdentityModel.Clients.ActiveDirectory/2.22.302111727)。 .Net 应用需要此包才能获取身份验证安全令牌。 
 
-     a. 选择“工具” > “NuGet 包管理器” > “包管理器控制台”    。
+     a. 选择“工具” > “NuGet 包管理器” > “包管理器控制台”。
 
      b. 输入 **Install-Package Microsoft.IdentityModel.Clients.ActiveDirectory -Version 2.21.301221612**
 

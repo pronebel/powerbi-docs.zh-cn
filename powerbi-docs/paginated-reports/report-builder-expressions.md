@@ -69,7 +69,7 @@ ms.locfileid: "78921116"
 |参考|说明|示例|  
 |----------------|-----------------|-------------|  
 |常量|描述可以交互式方式访问的属性常量，这些属性需要常量值（如字体颜色）。|`="Blue"`|  
-|Operators|描述可用于合并表达式中的引用的运算符。 例如，& 运算符用于串联字符串  。|`="The report ran at: " & Globals!ExecutionTime & "."`|  
+|Operators|描述可用于合并表达式中的引用的运算符。 例如，& 运算符用于串联字符串。|`="The report ran at: " & Globals!ExecutionTime & "."`|  
 |内置集合|描述可以包含在表达式中的内置集合（如 `Fields`、`Parameters` 和 `Variables`）。|`=Fields!Sales.Value`<br /><br /> `=Parameters!Store.Value`<br /><br /> `=Variables!MyCalculation.Value`|  
 |内置报表函数和聚合函数|描述可以通过表达式访问的内置函数（如 `Sum` 或 `Previous`）。|`=Previous(Sum(Fields!Sales.Value))`|  
 |报表生成器的表达式中的自定义代码和程序集引用 |描述如何访问内置 CLR 类 `xref:System.Math` 和 `xref:System.Convert`、其他 CLR 类、Visual Basic 运行时库函数或外部程序集中的方法。<br /><br /> 描述如何访问报表中嵌入的自定义代码，或同时在报表客户端和报表服务器上编译和安装为自定义程序集的自定义代码。|`=Sum(Fields!Sales.Value)`<br /><br /> `=CDate(Fields!SalesDate.Value)`<br /><br /> `=DateAdd("d",3,Fields!BirthDate.Value)`<br /><br /> `=Code.ToUSD(Fields!StandardCost.Value)`|  

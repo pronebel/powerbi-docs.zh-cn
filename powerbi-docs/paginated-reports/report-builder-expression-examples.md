@@ -177,7 +177,7 @@ Power BI Report Builder 分页报表中经常使用表达式来控制内容和�
   
      如果文本框仅包含日期或数字，则应使用文本框的“Format”属性来应用格式而不是在文本框中使用“Format”函数  。  
   
--   “Right”、“Len”和“InStr”函数可用于返回子字符串，例如，将 DOMAIN\\username 剪裁为仅用户名称      。 以下表达式将字符串的一部分返回到名为 User 的参数的反斜杠 (\\) 字符的右侧  ：  
+-   “Right”、“Len”和“InStr”函数可用于返回子字符串，例如，将 DOMAIN\\username 剪裁为仅用户名称。 下面的表达式从名为 User 的参数返回反斜杠 (\\) 字符右侧的字符串部分：  
   
     ```  
     =Right(Parameters!User.Value, Len(Parameters!User.Value) - InStr(Parameters!User.Value, "\"))  
@@ -202,7 +202,7 @@ Power BI Report Builder 分页报表中经常使用表达式来控制内容和�
   
     ```  
   
--   .NET Framework `xref:System.Text.RegularExpressions` 中的“Regex”函数可用于更改现有字符串的格式，例如，设置电话号码的格式  。 以下表达式使用“Replace”函数将字段中 10 位电话号码的格式从“nnn-nnn-nnnn”更改为“(nnn)nnn-nnnn”        ：  
+-   .NET Framework `xref:System.Text.RegularExpressions` 中的“Regex”函数可用于更改现有字符串的格式，例如，设置电话号码的格式。 以下表达式使用“Replace”函数将字段中 10 位电话号码的格式从“nnn-nnn-nnnn”更改为“(nnn)nnn-nnnn”：  
   
     ```  
     =System.Text.RegularExpressions.Regex.Replace(Fields!Phone.Value, "(\d{3})[ -.]*(\d{3})[ -.]*(\d{4})", "($1) $2-$3")  
@@ -244,13 +244,13 @@ Power BI Report Builder 分页报表中经常使用表达式来控制内容和�
   
 ###  <a name="decision-functions"></a><a name="DecisionFunctions"></a> 决策函数  
   
--   “Iif”函数根据表达式是否为 true，返回两个值中的一个  。 如果 `LineTotal` 的值超过 100，则以下表达式使用“Iif”函数返回布尔值“True”   。 否则它将返回“False”  ：  
+-   “Iif”函数根据表达式是否为 true，返回两个值中的一个  。 如果 `LineTotal` 的值超过 100，则以下表达式使用“Iif”函数返回布尔值“True”。 否则它将返回“False”  ：  
   
     ```  
     =IIF(Fields!LineTotal.Value > 100, True, False)  
     ```  
   
--   使用多个“IIF”函数（也称为“嵌套 IIF”）根据 `PctComplete` 的值返回三个值中的一个  。 可以将以下表达式放置在文本框的填充颜色中，用于根据文本框中的值更改背景颜色。  
+-   使用多个“IIF”函数（也称为“嵌套 IIF”）根据 `PctComplete` 的值返回三个值中的一个。 可以将以下表达式放置在文本框的填充颜色中，用于根据文本框中的值更改背景颜色。  
   
     ```  
     =IIF(Fields!PctComplete.Value >= 10, "Green", IIF(Fields!PctComplete.Value >= 1, "Blue", "Red"))  
@@ -482,7 +482,7 @@ Power BI Report Builder 分页报表中经常使用表达式来控制内容和�
  可以将限定到特定组范围的组变量的值进行初始化，然后在表达式中包含对该变量的引用。 将组变量与自定义代码一起使用的方法之一是实现自定义聚合。 
   
 ## <a name="suppressing-null-or-zero-values-at-run-time"></a>在运行时取消 null 或零值  
- 表达式中的某些值在报表处理时可能会计算为 null 或未定义。 这可能会产生运行时错误，导致在文本框中显示“#Error”而不是计算表达式  。 “IIF”函数对这种行为特别敏感，因为与 If-Then-Else 语句不同，“IIF”语句的每个部分会在传递到执行“true”或“false”测试的例程之前进行评估（包括函数调用）     。 如果 `Fields!Sales.Value` 为 NOTHING，则语句 `=IIF(Fields!Sales.Value is NOTHING, 0, Fields!Sales.Value)` 在呈现的报表中生成“#Error”  。  
+ 表达式中的某些值在报表处理时可能会计算为 null 或未定义。 这可能会产生运行时错误，导致在文本框中显示“#Error”而不是计算表达式  。 “IIF”函数对这种行为特别敏感，因为与 If-Then-Else 语句不同，“IIF”语句的每个部分会在传递到执行“true”或“false”测试的例程之前进行评估（包括函数调用）     。 如果 `Fields!Sales.Value` 为 NOTHING，则语句 `=IIF(Fields!Sales.Value is NOTHING, 0, Fields!Sales.Value)` 在呈现的报表中生成“#Error”。  
   
  若要避免这种情况，请使用以下策略之一：  
   

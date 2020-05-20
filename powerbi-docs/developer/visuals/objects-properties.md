@@ -136,9 +136,9 @@ export interface StructuralTypeDescriptor {
 }
 ```
 
-请注意填充和 fillRule 属性   。 第一个属性是颜色选取器，第二个属性是在满足规则条件时将替代“填充”属性 `visually` 的渐变替代规则  。
+请注意填充和 fillRule 属性   。 第一个属性是颜色选取器，第二个属性是在满足规则条件时将替代“填充”属性 `visually` 的渐变替代规则。
 
-填充属性和替代规则之间的此链接在 fillRule 属性的 `"rule"`>`"output"` 部分中设置   。
+填充属性和替代规则之间的此链接在 fillRule 属性的 `"rule"`>`"output"` 部分中设置。
 
 `"Rule"`>`"InputRole"` 属性设置触发规则（条件）的数据角色。 在此示例中，如果数据角色 `"Gradient"` 包含数据，将为 `"fill"` 属性应用该规则。
 

@@ -172,7 +172,7 @@ ms.locfileid: "79495794"
 
 ![Azure 诊断](media/azure-pbie-diag-logs/azure-pbie-diag-logs-analytics-azure-diagnostics.png)
 
-选择 EventClass\_  或事件名称之一，Log Analytics 将继续构造查询。 请确保保存查询，以便稍后重复使用。
+选择 EventClass\_ 或事件名称之一，Log Analytics 将继续构造查询。 请确保保存查询，以便稍后重复使用。
 
 请确保参阅 [Log Analytics](https://docs.microsoft.com/azure/log-analytics/)，它提供了对收集的数据使用增强的查询、仪表板和警报功能的网站。
 
