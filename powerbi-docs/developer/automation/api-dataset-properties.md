@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 06/08/2018
-ms.openlocfilehash: e74e390a5d228cb4a158d422cf0adab48b573cce
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 7dad7071fbf887c36443cacdb9be83d83e0b89be
+ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "79079660"
+ms.lasthandoff: 05/19/2020
+ms.locfileid: "83561492"
 ---
 # <a name="dataset-properties"></a>数据集属性
 
@@ -46,8 +46,8 @@ isHidden     | 布尔型        | 如果为 True，表将从客户端工具中�
 Name  |类型  |说明  |只读  |需要
 ---------|---------|---------|---------|---------
 name     |  字符串        | 用户定义的列的名称。        |  False       | True       
-dataType     |  字符串       |  受支持的 [EDM 数据类型](https://msdn.microsoft.com/library/ee382832.aspx)(#edm-数据类型) 和限制。 请参阅 [数据类型限制](#data-type-restrictions)(#数据类型限制)。      |  False       | True        
-formatString     | 字符串        | 描述如何在显示值时对值进行格式化。 若要了解字符串格式化的详细信息，请参阅 [FORMAT_STRING 内容](https://msdn.microsoft.com/library/ms146084.aspx)(#format_string-内容)。      | False        | False        
+dataType     |  字符串       |  受支持的 [EDM 数据类型](/dotnet/framework/data/adonet/entity-data-model-primitive-data-types)(#edm-数据类型) 和限制。 请参阅 [数据类型限制](#data-type-restrictions)(#数据类型限制)。      |  False       | True        
+formatString     | 字符串        | 描述如何在显示值时对值进行格式化。 若要了解字符串格式化的详细信息，请参阅 [FORMAT_STRING 内容](/analysis-services/multidimensional-models/mdx/mdx-cell-properties-format-string-contents)(#format_string-内容)。      | False        | False        
 sortByColumn    | 字符串        |   在同一个表中用于排序当前列的某一列的字符串名称。     | False        | False       
 dataCategory     | 字符串        |  用于描述了该列中数据的数据类别的字符串值。 一些公用值包括：Address、City、Continent、Country、Image、ImageUrl、Latitude、Longitude、Organization、Place、PostalCode、StateOrProvince、WebUrl       |  False       | False        
 isHidden    |  布尔型       |  指示视图中是否隐藏该列的属性。 默认值为 false。       | False        | False        
@@ -59,7 +59,7 @@ Name  |类型  |说明  |只读  |需要
 ---------|---------|---------|---------|---------
 name     | 字符串        |  用户定义的度量值的名称。       |  False       | True        
 表达式     | 字符串        | 有效的 DAX 表达式。        | False        |  True       
-formatString     | 字符串        |  描述如何在显示值时对值进行格式化。 若要了解字符串格式化的详细信息，请参阅 [FORMAT_STRING 内容](https://msdn.microsoft.com/library/ms146084.aspx)(#format_string-内容)。       | False        | False        
+formatString     | 字符串        |  描述如何在显示值时对值进行格式化。 若要了解字符串格式化的详细信息，请参阅 [FORMAT_STRING 内容](/analysis-services/multidimensional-models/mdx/mdx-cell-properties-format-string-contents)(#format_string-内容)。       | False        | False        
 isHidden     | 字符串        |  如果为 True，表将从客户端工具中隐藏。       |  False       | False       
 
 ## <a name="relationship"></a>关系

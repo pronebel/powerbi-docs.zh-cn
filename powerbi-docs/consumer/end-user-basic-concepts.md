@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 02/18/2020
 ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: e303d85083624bb67e73729024875d0f6f44fc42
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: d8872499bb54e23aabe642f88a541b85948d6656
+ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "79377135"
+ms.lasthandoff: 05/19/2020
+ms.locfileid: "83561957"
 ---
 # <a name="basic-concepts-for-the-power-bi-service-consumers"></a>面向 Power BI 服务使用者的基本概念
 
@@ -116,7 +116,7 @@ _______________________________________________________
 
    ![八个示例视觉对象的屏幕截图。](media/end-user-basic-concepts/power-bi-visuals.png)
 
-请参阅 [Power BI 随附的可视化效果完整列表](../power-bi-visualization-types-for-reports-and-q-and-a.md)。
+请参阅 [Power BI 随附的可视化效果完整列表](../visuals/power-bi-visualization-types-for-reports-and-q-and-a.md)。
 
 社区也提供可视化效果，它们称为“Power BI 视觉对象”  。 如果收到的报表含不知道的视觉对象，它可能是自定义视觉对象。 如果需要在理解自定义视觉对象方面寻求帮助，请查找报表或仪表板设计人员  的姓名，并与之联系。
 

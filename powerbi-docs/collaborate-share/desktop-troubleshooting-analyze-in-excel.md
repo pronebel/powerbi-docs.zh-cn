@@ -9,12 +9,12 @@ ms.topic: troubleshooting
 ms.date: 01/29/2020
 ms.author: davidi
 LocalizationGroup: Troubleshooting
-ms.openlocfilehash: 45395fbb9d815580132ea254812fddec4cec4ba5
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 555d203cfa8bd00e745c0dcff5de7f7e8d48f06c
+ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83275262"
+ms.lasthandoff: 05/19/2020
+ms.locfileid: "83563175"
 ---
 # <a name="troubleshooting-analyze-in-excel"></a>Analyze in Excel 故障排除
 
@@ -84,7 +84,7 @@ Excel 库的位级别必须与 Windows 版本的位级别匹配。 如果已经�
 如果尝试访问已连接到本地 Analysis Services 数据的数据集，可能会收到错误消息。 **在 Excel 中分析**确实支持使用连接字符串连接到本地 **Analysis Services** 上的数据集和报表，前提是你的计算机与 **Analysis Services** 服务器位于相同的域中，且你的帐户有权访问该 **Analysis Services** 服务器。
 
 ## <a name="cant-drag-anything-to-the-pivottable-values-area-no-measures"></a>不能将任何对象拖动到数据透视表值区域（没有度量值）
-“在 Excel 中分析”  连接到外部 OLAP 模型（Excel 以此连接到 Power BI）时，数据透视表  [要求该外部模型中定义了**度量值**](https://support.microsoft.com/kb/234700)，因为所有计算都在服务器上执行。 这与处理本地数据源（如在 Excel 中处理格表，或在 **Power BI Desktop** 或 **Power BI 服务**中处理数据集）时不同，处理本地数据源时可使用本地表格模型，且[可使用隐式度量值](https://msdn.microsoft.com/library/gg399077.aspx)，这些度量值动态生成而不存储在数据模型中。 在这些情况下，Excel 中的行为与 **Power BI Desktop** 或 **Power BI 服务**中的行为不同：数据中可能有这样的列，在 Power BI 中可视为度量值，而在 Excel 中不能用作值（度量值）。
+“在 Excel 中分析”  连接到外部 OLAP 模型（Excel 以此连接到 Power BI）时，数据透视表  [要求该外部模型中定义了**度量值**](https://support.microsoft.com/kb/234700)，因为所有计算都在服务器上执行。 这与处理本地数据源（如在 Excel 中处理格表，或在 **Power BI Desktop** 或 **Power BI 服务**中处理数据集）时不同，处理本地数据源时可使用本地表格模型，且[可使用隐式度量值](https://support.microsoft.com/en-us/office/measures-in-power-pivot-86484821-a324-4da3-803b-82fd2e5033f4)，这些度量值动态生成而不存储在数据模型中。 在这些情况下，Excel 中的行为与 **Power BI Desktop** 或 **Power BI 服务**中的行为不同：数据中可能有这样的列，在 Power BI 中可视为度量值，而在 Excel 中不能用作值（度量值）。
 
 要解决此问题，有以下几个选项：
 
@@ -99,7 +99,7 @@ Excel 库的位级别必须与 Windows 版本的位级别匹配。 如果已经�
 
 [教程：在 Power BI Desktop 中创建自己的度量值](../transform-model/desktop-tutorial-create-measures.md)
 
-[PowerPivot 中的度量值](https://msdn.microsoft.com/library/gg399077.aspx)
+[PowerPivot 中的度量值](https://support.microsoft.com/en-us/office/measures-in-power-pivot-86484821-a324-4da3-803b-82fd2e5033f4)
 
 [在 PowerPivot 中创建一个度量值](https://support.office.com/article/Create-a-Measure-in-Power-Pivot-d3cc1495-b4e5-48e7-ba98-163022a71198)
 

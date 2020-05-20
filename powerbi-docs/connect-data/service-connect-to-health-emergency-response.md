@@ -5,15 +5,15 @@ author: paulinbar
 ms.service: powerbi
 ms.subservice: powerbi-template-apps
 ms.topic: conceptual
-ms.date: 04/06/2020
+ms.date: 05/13/2020
 ms.author: painbar
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 65f1246185584b5887d97bb9188b43e016e78e8f
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 40a585c78de4a95981ff157413e857b48fd35c14
+ms.sourcegitcommit: 21b06e49056c2f69a363d3a19337374baa84c83f
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83279241"
+ms.lasthandoff: 05/15/2020
+ms.locfileid: "83407566"
 ---
 # <a name="connect-to-the-hospital-emergency-response-decision-support-dashboard"></a>连接到医院紧急响应决策支持仪表板
 医院应急响应决策支持仪表板模板应用是[用于医疗保健应急响应的 Microsoft Power Platform 解决方案](https://powerapps.microsoft.com/blog/emergency-response-solution-a-microsoft-power-platform-solution-for-healthcare-emergency-response/)的报告组件。 仪表板显示整个健康状况系统中紧急管理器的聚合数据，可帮助他们及时做出正确的决策。
@@ -32,11 +32,11 @@ ms.locfileid: "83279241"
 
 ## <a name="install-the-app"></a>安装应用
 
-1. 单击以下链接可转到该应用：[医院紧急响应决策支持仪表板模板应用](https://appsource.microsoft.com/en-us/product/power-bi/pbi-contentpacks.powerapps_healthcare)
+1. 单击以下链接可转到该应用：[医院紧急响应决策支持仪表板模板应用](https://aka.ms/AppSource_Hospital_offer)
 
-1. 在应用的 AppSource 页面，选择“[立即获取](https://appsource.microsoft.com/en-us/product/power-bi/pbi-contentpacks.powerapps_healthcare)”  。
+1. 在应用的 AppSource 页面，选择“[立即获取](https://aka.ms/AppSource_Hospital_offer)”  。
 
-    [![AppSource 中的医院紧急响应决策支持仪表板应用](media/service-connect-to-health-emergency-response/service-health-emergency-response-app-appsource-get-it-now.png)](https://appsource.microsoft.com/en-us/product/power-bi/pbi-contentpacks.powerapps_healthcare)
+    [![AppSource 中的医院紧急响应决策支持仪表板应用](media/service-connect-to-health-emergency-response/service-health-emergency-response-app-appsource-get-it-now.png)](https://aka.ms/AppSource_Hospital_offer)
 
 1. 阅读“另一件事”中的信息，然后选择“继续”   。
 

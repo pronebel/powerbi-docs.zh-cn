@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 04/09/2020
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: cf937ea36727ec036e3799cb0ac48dfbb5740325
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: dfd44b7130c1c7e4e1d2d7a9c9f15208cb0d9b0c
+ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83292906"
+ms.lasthandoff: 05/19/2020
+ms.locfileid: "83563278"
 ---
 # <a name="about-using-directquery-in-power-bi"></a>关于在 Power BI 中使用 DirectQuery
 
@@ -371,7 +371,7 @@ Power BI Desktop 支持所有数据源。 某些数据源还可直接在 Power B
 
 该文件夹内是一个 \\Data  文件夹。 它包含当前 Power BI 会话的跟踪文件 FlightRecorderCurrent.trc  。 相关联的 Power BI Desktop 会话结束时，将删除相应的工作区文件夹。
 
-该跟踪文件可通过 SQL Server Profiler 工具进行读取  。 该工具可随免费下载的 [SQL Server Management Studio](https://msdn.microsoft.com/library/mt238290.aspx) 获取。
+该跟踪文件可通过 SQL Server Profiler 工具进行读取  。 该工具可随免费下载的 [SQL Server Management Studio](/sql/ssms/download-sql-server-management-studio-ssms) 获取。
 
 下载并安装 SQL Server Management Studio 后，运行 SQL Server Profiler。
 

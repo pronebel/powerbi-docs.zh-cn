@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 05/05/2020
 ms.author: rien
 LocalizationGroup: Visualizations
-ms.openlocfilehash: f6960d3087ba5b271c6c130df59e6e667e838165
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: e03a453b95a797b281f789e8aed40b3879b54e02
+ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83277148"
+ms.lasthandoff: 05/19/2020
+ms.locfileid: "83563861"
 ---
 # <a name="create-and-use-basic-area-charts"></a>创建和使用基本面积图
 
@@ -82,11 +82,8 @@ ms.locfileid: "83277148"
 
 
 ## <a name="considerations-and-troubleshooting"></a>注意事项和疑难解答   
-* [残障人士能够更轻松地访问报表](../desktop-accessibility.md)
+* [残障人士能够更轻松地访问报表](../create-reports/desktop-accessibility-overview.md)
 * 基本面积图对于比较值无效，因为分层区域上是封闭的。 Power BI 使用透明度指示区域的重叠。 但是，它只适用于两个或三个不同区域。 需要将趋势与三个以上的度量值进行比较时，请尝试使用折线图。 需要将量与三个以上的度量值进行比较时，请尝试使用树状图。
 
 ## <a name="next-step"></a>下一步
 [Power BI 中的报表](power-bi-visualization-card.md)  
-
-
-

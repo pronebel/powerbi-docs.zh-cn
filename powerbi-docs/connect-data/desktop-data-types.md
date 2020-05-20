@@ -9,12 +9,12 @@ ms.topic: reference
 ms.date: 05/06/2020
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 27509d42b09b9524b204da5ab0ce76f3d180a057
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 06033a65acd090f0297a53bfbf0f0a004b68649a
+ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83293159"
+ms.lasthandoff: 05/19/2020
+ms.locfileid: "83561561"
 ---
 # <a name="data-types-in-power-bi-desktop"></a>Power BI Desktop 中的数据类型
 本文介绍 Power BI Desktop 和数据分析表达式 (DAX) 中支持的数据类型。 
@@ -72,7 +72,7 @@ Power BI Desktop 支持查询视图中的五种日期/时间数据类型。  在
 **True/False** – 为 True 或 False 的布尔值。
 
 ### <a name="blanksnulls-type"></a>空白/Null 类型
-**空白** - DAX 中表示和替代 SQL Null 的数据类型。 你可以使用 [BLANK](https://msdn.microsoft.com/library/ee634820.aspx) 函数创建空白，并使用 [ISBLANK](https://msdn.microsoft.com/library/ee634204.aspx) 逻辑函数对其进行测试。
+**空白** - DAX 中表示和替代 SQL Null 的数据类型。 你可以使用 [BLANK](/dax/blank-function-dax) 函数创建空白，并使用 [ISBLANK](/dax/isblank-function-dax) 逻辑函数对其进行测试。
 
 ### <a name="binary-data-type"></a>二进制数据类型
 
@@ -86,7 +86,7 @@ Power BI Desktop 支持查询视图中的五种日期/时间数据类型。  在
 > 
 
 ### <a name="table-data-type"></a>表数据类型
-DAX 在许多函数中使用表数据类型，例如聚合和时间智能计算。 某些函数需要引用表；其他函数返回随后可用于输入到其他函数的表。 在某些需要表作为输入的函数中，你可以指定计算结果为表格的表达式；对于一些函数，则需要引用基础表。 有关特定函数的要求的详细信息，请参阅 [DAX 函数引用](https://msdn.microsoft.com/library/ee634396.aspx)。
+DAX 在许多函数中使用表数据类型，例如聚合和时间智能计算。 某些函数需要引用表；其他函数返回随后可用于输入到其他函数的表。 在某些需要表作为输入的函数中，你可以指定计算结果为表格的表达式；对于一些函数，则需要引用基础表。 有关特定函数的要求的详细信息，请参阅 [DAX 函数引用](/dax/dax-function-reference)。
 
 ## <a name="implicit-and-explicit-data-type-conversion-in-dax-formulas"></a>DAX 公式中的隐式和显式数据类型转换
 关于用作输入和输出的数据类型，每个 DAX 函数都有特定的要求。 例如，某些函数要求对部分参数使用整数，而其他部分使用日期；另外一些函数则要求使用文本或表。
@@ -197,4 +197,3 @@ DAX 在许多函数中使用表数据类型，例如聚合和时间智能计算�
 | TRUE AND BLANK |FALSE |TRUE |
 | BLANK OR BLANK |BLANK |Error |
 | BLANK AND BLANK |BLANK |Error |
-
