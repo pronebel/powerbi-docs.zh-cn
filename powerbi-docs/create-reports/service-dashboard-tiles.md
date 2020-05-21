@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 04/17/2020
 ms.author: maggies
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 0b0bf61672d383900dad50e5fe7404f7f4a7f0bc
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: 96a780d7d7b100acb283623107d4ec841666bb8f
+ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83348910"
+ms.lasthandoff: 05/19/2020
+ms.locfileid: "83561653"
 ---
 # <a name="intro-to-dashboard-tiles-for-power-bi-designers"></a>Power BI 设计器的仪表板磁贴简介
 
@@ -23,7 +23,7 @@ ms.locfileid: "83348910"
 
 ![Power BI 仪表板](media/service-dashboard-tiles/power-bi-dashboard.png)
 
-仪表板和仪表板磁贴是 Power BI 服务的一项功能，而不是 Power BI Desktop 的功能。 无法在移动设备上创建仪表板，但可以 [查看和共享]../consumer/mobile/mobile-apps-view-dashboard.md) 仪表板。
+仪表板和仪表板磁贴是 Power BI 服务的一项功能，而不是 Power BI Desktop 的功能。 无法在移动设备上创建仪表板，但可以[查看和共享](../consumer/mobile/mobile-apps-view-dashboard.md)仪表板。
 
 除固定的磁贴以外，还可使用[添加磁贴](service-dashboard-add-widget.md)控件直接在仪表板上创建独立磁贴。 独立磁贴包含：文本框、图像、视频、流数据和 Web 内容。
 
@@ -98,6 +98,6 @@ ms.locfileid: "83348910"
 - [Power BI 中的数据刷新](../connect-data/refresh-data.md)
 - [Power BI 服务中设计器的基本概念](../fundamentals/service-basic-concepts.md)
 - [Integrating Power BI tiles into Office documents](https://powerbi.microsoft.com/blog/integrating-power-bi-tiles-into-office-documents/)（将 Power BI 磁贴集成到 Office 文档）
-- [将 Reporting Services 项目固定到 Power BI 仪表板](https://msdn.microsoft.com/library/mt604784.aspx)
+- [将 Reporting Services 项目固定到 Power BI 仪表板](/sql/reporting-services/pin-reporting-services-items-to-power-bi-dashboards)
 
 更多问题？ [尝试参与 Power BI 社区](https://community.powerbi.com/)。

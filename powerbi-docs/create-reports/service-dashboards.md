@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 09/19/2019
 ms.author: maggies
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 35e5d3b93305f8f2271db6343164cad8b57a4bfd
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: c687486af1293660af5496e27ea707bb1afeec80
+ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83348841"
+ms.lasthandoff: 05/19/2020
+ms.locfileid: "83564543"
 ---
 # <a name="introduction-to-dashboards-for-power-bi-designers"></a>Power BI 设计器的仪表板简介
 
@@ -22,7 +22,7 @@ Power BI“仪表板”是通过可视化效果讲述故事的单个页面，常
 
 ![仪表板](media/service-dashboards/power-bi-dashboard2.png)
 
-仪表板只是 Power BI 服务的一个功能。 Power BI Desktop 中无此功能。 尽管无法在移动设备上创建仪表板，但可以[查看和共享]../consumer/mobile/mobile-apps-view-dashboard.md)仪表板。
+仪表板只是 Power BI 服务的一个功能。 Power BI Desktop 中无此功能。 虽然无法在移动设备上创建仪表板，但可以[查看和共享](../consumer/mobile/mobile-apps-view-dashboard.md)仪表板。
 
 ## <a name="dashboard-basics"></a>仪表板基础知识 
 
