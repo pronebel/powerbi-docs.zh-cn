@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 03/07/2019
 ms.author: davidi
 LocalizationGroup: Conceptual
-ms.openlocfilehash: 955a14b37d59f554fb12b302c16472387c896e54
-ms.sourcegitcommit: 220910f0b68cb1e265ccd5ac0cee4ee9c6080b26
+ms.openlocfilehash: 7ab103c5d7b568e7315f67193da4d8da25b77a6c
+ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "82843632"
+ms.lasthandoff: 05/19/2020
+ms.locfileid: "83565428"
 ---
 # <a name="distribute-power-bi-content-to-external-guest-users-using-azure-active-directory-b2b"></a>使用 Azure Active Directory B2B 将 Power BI 内容分发给外部来宾用户
 
@@ -415,7 +415,7 @@ Azure AD 解决此情况后，Contoso 可以看到该名称显示在 "准备添�
 
 另一个有趣的主题是了解动态行级别安全性（RLS）如何与 Azure AD B2B 一起工作。
 
-简而言之，动态行级别安全性的工作方式是根据连接到 Power BI 的用户的用户名筛选模型中的数据。 您可以在模型中定义用户，而不是为用户组添加多个角色。 本文不会详细介绍此模式。 Kasper de Jong 提供[Power BI Desktop 动态安全](https://www.kasperonbi.com/power-bi-desktop-dynamic-security-cheat-sheet/)备忘单和[此白皮书](https://msdn.microsoft.com/library/jj127437.aspx)中的所有行级别安全性的风格的详细信息。
+简而言之，动态行级别安全性的工作方式是根据连接到 Power BI 的用户的用户名筛选模型中的数据。 您可以在模型中定义用户，而不是为用户组添加多个角色。 本文不会详细介绍此模式。 Kasper de Jong 提供[Power BI Desktop 动态安全](https://www.kasperonbi.com/power-bi-desktop-dynamic-security-cheat-sheet/)备忘单和[此白皮书](https://download.microsoft.com/download/D/2/0/D20E1C5F-72EA-4505-9F26-FEF9550EFD44/Securing%20the%20Tabular%20BI%20Semantic%20Model.docx)中的所有行级别安全性的风格的详细信息。
 
 我们来看一个小示例-Contoso 提供了一个关于按组销售的简单报表：
 
@@ -504,7 +504,7 @@ Power BI 管理门户在租户设置中的 "组织" 设置中提供 "**允许外
 
 - 从 Power BI Desktop 直接向 Power BI 服务发布
 - 来宾用户不能使用 Power BI Desktop 连接 Power BI 服务中的服务数据集
-- 与 Office 365 组关联的经典工作区： Guest 用户不能创建或不是这些工作区的管理员。 可以是成员。
+- 与 Microsoft 365 组关联的经典工作区： Guest 用户不能创建或作为这些工作区的管理员。 可以是成员。
 - 对于工作区访问列表，不支持发送临时邀请
 - 不支持来宾用户使用 Power BI Publisher for Excel
 - 来宾用户不能安装 Power BI Gateway，也不能将它连接到组织
@@ -616,7 +616,7 @@ Contoso 的另一种选择是通过自定义身份验证（["应用拥有数据"
 
 **如果来宾用户的合作伙伴没有多重身份验证，Contoso 用户是否可以强制使用多因素身份验证？**
 
-是的。 有关详细信息，请参阅[B2B 协作用户的条件性访问](https://docs.microsoft.com/azure/active-directory/active-directory-b2b-mfa-instructions)。
+是。 有关详细信息，请参阅[B2B 协作用户的条件性访问](https://docs.microsoft.com/azure/active-directory/active-directory-b2b-mfa-instructions)。
 
 **受邀合作伙伴使用联合添加自己的本地身份验证时，B2B 协作如何工作？**
 

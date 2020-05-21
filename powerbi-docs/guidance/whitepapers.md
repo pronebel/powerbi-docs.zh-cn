@@ -6,28 +6,28 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 03/28/2019
+ms.date: 05/19/2020
 ms.author: maggies
-ms.openlocfilehash: 8b103902f7a151dcbfee9fa6ff54830129a65c14
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 98b5323efa8b6c6c0e1d6f1dbab640fe5f4cae4c
+ms.sourcegitcommit: 250242fd6346b60b0eda7a314944363c0bacaca8
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83279057"
+ms.lasthandoff: 05/20/2020
+ms.locfileid: "83693971"
 ---
 # <a name="whitepapers-for-power-bi"></a>Power BI 白皮书
 
 阅读白皮书，可以深入探索 Power BI 主题。 这里列出了已发布的 Power BI 白皮书。
 
-| 白皮书 | 描述 | Date |
+| 白皮书 | 说明 | 日期 |
 | --- | --- | --- |
-| [规划 Power BI Enterprise 部署](https://go.microsoft.com/fwlink/?linkid=2057861) |此技术白皮书简要介绍了性能良好且安全的 Power BI 组织部署的注意事项。 | 2018 年 7 月 |
+| [规划 Power BI Enterprise 部署](https://aka.ms/PBIEnterpriseDeploymentWP) |此更新技术白皮书概述了一种安全可靠的组织 Power BI 部署的注意事项和最佳实践。 | 2020 年 5 月 |
 | [Power BI 和数据流](https://go.microsoft.com/fwlink/?linkid=2034388&clcid=0x409)| 本白皮书详细介绍了数据流技术方面的信息，并描述了数据流特性和功能背后的功能和举措。 | 2018 年 11 月 |
 | [Microsoft Power BI Premium](https://aka.ms/pbipremiumwhitepaper) |介绍了 Power BI Premium 刚刚面世时的情况以及它的发展趋势。 | 2017 年 10 月 |
 | [Power BI Premium 规划和部署](whitepaper-powerbi-premium-deployment.md)| 本文介绍了如何针对已定义的工作负载规划和部署高级容量，以及相应的最佳做法。| 2019 年 3 月 |
 | [使用 Power BI Premium规划嵌入式分析的容量](https://aka.ms/pbiewhitepaper) |本文为应用开发人员/ISV 提供有关如何为其业务确定最合适容量的指导。 | 2017 年 10 月 |
-| [Power BI 报表服务器容量计划指南](../report-server/capacity-planning.md) |本文旨在通过共享针对报表服务器的各种工作负载的大量加载测试执行的结果，提供 Power BI 报表服务器的容量计划指南。 | 2018 年 3月 |
-| [Security](../admin/service-admin-power-bi-security.md) |详细介绍了 Power BI 中的安全性。 | 2019 年 3 月 |
+| [Power BI 报表服务器容量计划指南](../report-server/capacity-planning.md) |本文旨在通过共享针对报表服务器的各种工作负载的大量加载测试执行的结果，提供 Power BI 报表服务器的容量计划指南。 | 2018 年 3 月 |
+| [安全性](../admin/service-admin-power-bi-security.md) |详细介绍了 Power BI 中的安全性。 | 2019 年 3 月 |
 | [使用 Azure Active Directory B2B 将 Power BI 内容分发给外部来宾用户](../guidance/whitepaper-azure-b2b-power-bi.md)|本白皮书概述了如何使用 Azure Active Directory 企业到企业 (AAD B2B) 的集成将内容分发给组织外的用户。| 2019 年 3 月 |
 | [Power BI 的高级分析](https://info.microsoft.com/advanced-analytics-with-power-bi.html?Is=Website) |介绍 Power BI 的高级分析功能，包括预测分析、自定义可视化效果、R 集成和数据分析表达式。 | 2017 年 2 月 |
 | [双向筛选](../transform-model/desktop-bidirectional-filtering.md) |介绍了 Power BI Desktop 中的双向交叉筛选（此白皮书还介绍了 SQL Server Analysis Services 2016，两者行为相同）。 | 2018 年 7 月 |
@@ -38,4 +38,4 @@ ms.locfileid: "83279057"
 
 [!INCLUDE [GDPR-related guidance](../includes/gdpr-hybrid-note.md)]
 
-更多疑问？ [尝试在 Power BI 社区中提问](https://community.powerbi.com/)
+更多问题？ [尝试咨询 Power BI 社区](https://community.powerbi.com/)
