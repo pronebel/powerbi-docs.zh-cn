@@ -208,8 +208,8 @@
               href: refresh-data.md
             - name: 配置计划刷新
               href: refresh-scheduled-refresh.md
-            - name: 刷新中心
-              href: refresh-center.md
+            - name: 刷新摘要
+              href: refresh-summaries.md
             - name: 配置增量刷新
               href: ../admin/service-premium-incremental-refresh.md
             - name: 刷新来自本地 Power BI Desktop 文件的数据库
