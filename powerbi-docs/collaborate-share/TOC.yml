@@ -43,7 +43,7 @@
               href: ../connect-data/service-connect-to-files-in-app-workspace-onedrive-for-business.md
             - name: 在经典工作区中协作
               href: service-collaborate-power-bi-workspace.md
-            - name: 管理 Power BI 和 Office 365 中的组
+            - name: 在 Power BI 和 Microsoft 365 中管理组
               href: service-manage-app-workspace-in-power-bi-and-office-365.md
         - name: 发布和共享工作
           items:
@@ -71,9 +71,11 @@
           items:
             - name: 在 Excel 中分析
               href: service-analyze-in-excel.md
+            - name: Excel 中的 Power BI 精选表
+              href: service-excel-featured-tables.md
             - name: “在 Excel 中分析”疑难解答
               href: desktop-troubleshooting-analyze-in-excel.md
-            - name: 错误：我们在你的 Excel 工作簿中找不到任何数据
+            - name: 错误：在你的 Excel 工作簿中找不到任何数据
               href: ../connect-data/service-admin-troubleshoot-excel-workbook-data.md
             - name: Power Automate 和 Power BI
               href: service-flow-integration.md
