@@ -1,5 +1,5 @@
 ---
-title: Power BI 安全白皮书
+title: Power BI 安全性白皮书
 description: 白皮书讨论并描述了 Power BI 的安全性体系结构和实现
 author: davidiseminger
 ms.author: davidi
@@ -9,14 +9,14 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 05/14/2020
 LocalizationGroup: Conceptual
-ms.openlocfilehash: f4211b177c60c9bb990c6dc2c8aa8094ab9e69f0
-ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
+ms.openlocfilehash: a80870963cf045730fff18413884d9871354b169
+ms.sourcegitcommit: 5e5a7e15cdd55f71b0806016ff91256a398704c1
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/19/2020
-ms.locfileid: "83565268"
+ms.lasthandoff: 05/22/2020
+ms.locfileid: "83792908"
 ---
-# <a name="power-bi-security-whitepaper"></a>Power BI 安全白皮书
+# <a name="power-bi-security-whitepaper"></a>Power BI 安全性白皮书
 
 **摘要：** Power BI 是 Microsoft 提供的联机软件服务（*SaaS*或软件即服务），可让你轻松快速地创建自助服务商业智能仪表板、报表、数据集和可视化效果。 使用 Power BI，可以连接到多个不同的数据源，合并并调整来自这些连接的数据，然后创建可与其他人共享的报表和仪表板。
 
@@ -91,11 +91,11 @@ Azure SQL 数据库中存储和更新了用户的 Power BI 订阅相关的元数
 
 ## <a name="tenant-creation"></a>创建租户
 
-租户是 Azure AD 服务的专用实例，组织在注册 Microsoft 云服务（例如，Azure、Microsoft Intune、Power BI 或 Office 365）时收到并拥有该服务。 每个 Azure AD 租户都是独特的，独立于其他 Azure AD 租户。
+租户是组织在注册 Azure、Microsoft Intune、Power BI 或 Microsoft 365 等 Microsoft 云服务时接收并拥有的 Azure AD 服务的专用实例。 每个 Azure AD 租户都是独特的，独立于其他 Azure AD 租户。
 
 租户包含公司中的用户以及有关这些用户的信息 - 他们的密码、用户配置文件数据、权限，等等。 它还包含与某家组织及其安全性相关的组、应用程序和其他信息。 有关详细信息，请参阅[什么是 Azure AD 租户](/office365/enterprise/subscriptions-licenses-accounts-and-tenants-for-microsoft-cloud-offerings)。
 
-创建 Power BI 租户的数据中心应最邻近该国家（或地区）和为 Azure Active Directory 中的租户提供的状态信息，在最初预配 Office 365 或 Power BI 服务时提供了该信息。 当前，Power BI 租户不会从该数据中心位置移动。
+Power BI 租户在最接近国家（地区）和为 Azure Active Directory 中的租户提供的状态信息的数据中心创建，这是最初预配 Microsoft 365 或 Power BI 服务时提供的。 当前，Power BI 租户不会从该数据中心位置移动。
 
 ### <a name="multiple-geographies-multi-geo"></a>多地理位置 (Multi-geo)
 
@@ -129,7 +129,7 @@ Microsoft 还为国家/地区主权提供数据中心。 有关国家云的 Powe
 
 ## <a name="user-authentication"></a>用户身份验证
 
-Power BI 服务的用户身份验证包括用户的浏览器与 Power BI 服务或 Power BI 使用的 Azure 服务之间的一系列请求、响应和重定向。 该序列介绍了 Power BI 中用户身份验证的过程。 有关组织的用户身份验证模型（登录模型）选项的详细信息，请参阅 [Choosing a sign-in model for Office 365](https://blogs.office.com/2014/05/13/choosing-a-sign-in-model-for-office-365/)（为 Office 365 选择登录模型）。
+Power BI 服务的用户身份验证包括用户的浏览器与 Power BI 服务或 Power BI 使用的 Azure 服务之间的一系列请求、响应和重定向。 该序列介绍了 Power BI 中用户身份验证的过程。 有关组织的用户身份验证模型（登录模型）选项的详细信息，请参阅为[Microsoft 365 选择登录模型](https://blogs.office.com/2014/05/13/choosing-a-sign-in-model-for-office-365/)。
 
 ### <a name="authentication-sequence"></a>身份验证序列
 
@@ -245,9 +245,9 @@ Power BI 通过以下方式提供数据完整性监视：
 
 1. 元数据（报表定义）
 
-   a. 报告可以是 Excel for Office 365 报表，也可以是 Power BI 报表。 以下内容适用于基于报表类型的元数据：
+   a. 报表可以是 Excel Microsoft 365 报表，也可以 Power BI 报表。 以下内容适用于基于报表类型的元数据：
         
-    &ensp;&ensp;一个。 Excel 报表元数据存储在 SQL Azure 中进行加密。 元数据也存储在 Office 365 中。
+    &ensp;&ensp;一个。 Excel 报表元数据存储在 SQL Azure 中进行加密。 元数据也存储在 Microsoft 365 中。
 
     &ensp;&ensp;b。 Power BI 报表存储在 Azure SQL 数据库中。
 
@@ -255,13 +255,13 @@ Power BI 通过以下方式提供数据完整性监视：
 
    静态数据包括背景图像和 Power BI 视觉对象等项目。
 
-    &ensp;&ensp;一个。 对于使用 Excel for Office 365 创建的报表，不存储任何内容。
+    &ensp;&ensp;一个。 对于用 Excel Microsoft 365 创建的报表，不会存储任何内容。
 
     &ensp;&ensp;b。 对于 Power BI 报表，在 Azure Blob 存储中存储和加密静态数据。
 
 3. 缓存
 
-    &ensp;&ensp;一个。 对于使用 Excel for Office 365 创建的报表，不缓存任何内容。
+    &ensp;&ensp;一个。 对于用 Excel Microsoft 365 创建的报表，不会缓存任何内容。
 
     &ensp;&ensp;b。 对于 Power BI 报表，显示的报表视觉对象的数据将缓存并存储在以下部分所述的可视化数据缓存中。
  
