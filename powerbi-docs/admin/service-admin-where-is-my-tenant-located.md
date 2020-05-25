@@ -34,7 +34,7 @@ ms.locfileid: "83135995"
 
 ## <a name="how-the-data-region-is-selected"></a>选择该数据区域的操作过程
 
-数据区域是以你在创建租户时所选的国家/地区为依据。 此选择应用于 Powe BI 和 Office 365 注册，因为此类信息是共享的。 如果这是新租户，请在注册时从列表中选择相应的国家/地区。
+数据区域是以你在创建租户时所选的国家/地区为依据。 此选择应用于 Power BI 和 Office 365 注册，因为此类信息是共享的。 如果这是新租户，请在注册时从列表中选择相应的国家/地区。
 
 ![国家/地区选择](media/service-admin-where-is-my-tenant-located/sign-up-country-selection.png)
 
