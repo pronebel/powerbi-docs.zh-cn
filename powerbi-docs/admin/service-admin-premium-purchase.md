@@ -173,7 +173,7 @@ A SKU 通过 Azure Power BI Embedded 服务提供。 可按以下方式使用 A 
 
 [配置和管理 Power BI Premium 容量](service-admin-premium-manage.md)\
 [Power BI 定价页](https://powerbi.microsoft.com/pricing/)\
-[Power BI Pemium 计算器](https://powerbi.microsoft.com/calculator/)\
+[Power BI Premium 计算器](https://powerbi.microsoft.com/calculator/)\
 [Power BI Premium 常见问题解答](service-premium-faq.md)\
 [规划 Power BI Enterprise 部署白皮书](https://aka.ms/pbienterprisedeploy)
 
