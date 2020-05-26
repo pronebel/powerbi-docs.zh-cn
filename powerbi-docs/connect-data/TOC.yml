@@ -174,7 +174,7 @@
           items:
             - name: 跨工作区使用数据集
               href: service-datasets-across-workspaces.md
-            - name: 共享数据集（预览）
+            - name: 共享数据集
               href: service-datasets-share.md
             - name: 共享数据集的生成权限
               href: service-datasets-build-permissions.md
