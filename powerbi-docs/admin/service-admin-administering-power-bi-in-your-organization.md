@@ -9,12 +9,12 @@ ms.topic: overview
 ms.date: 09/09/2019
 ms.author: kfollis
 LocalizationGroup: Administration
-ms.openlocfilehash: 9e9ed930cc557250a9e1702d6010536ed069cd7b
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: afa8513267be4ec2de18a9adda7995c88f4f2aa8
+ms.sourcegitcommit: 6ba7cc9afaf91229f717374bc0c12f0b8201d15e
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83129517"
+ms.lasthandoff: 05/16/2020
+ms.locfileid: "83438030"
 ---
 # <a name="what-is-power-bi-administration"></a>什么是 Power BI 管理？
 
@@ -36,17 +36,17 @@ Power BI 旨在用于自助式商业智能，而管理员是 Power BI 租户中�
 
 | **管理员类型** | **管理范围** | **Power BI 范围** |
 | --- | --- | --- |
-| Office 365 全局管理员 | Office 365 | 可以管理 Power BI 租户和其他服务的所有方面。 |
-| Office 365 账务管理员 | Office 365 | 可以通过 Office 365 订阅获取 Power BI 许可证。 |
+| 全局管理员角色 | Microsoft 365 | 可以管理 Power BI 租户和其他服务的所有方面。 |
+| 计费管理员 | Microsoft 365 | 可以通过 Office 365 订阅获取 Power BI 许可证。 |
 | Power BI 服务管理员 | Power BI 租户 | 可以完全控制对 Power BI 租户及其管理功能（授权除外）。 |
 | Power BI Premium 容量管理员 | 单个 Premium 容量 | 可以完全控制高级容量及其管理功能。 |
 | Power BI Embedded 容量管理员 | 单个 Embedded 容量 | 可以完全控制嵌入容量及其管理功能。 |
 
-Office 365 或 Azure Active Directory 中的全局管理员在 Power BI 中具有管理员权限。 Office 365 全局管理员可以将其他用户分配到 Power BI 服务管理员角色，它仅对 Power BI 功能授予管理权限。
+Microsoft 365 或 Azure Active Directory 中的全局管理员在 Power BI 中具有管理员权限。 全局管理员可以将其他用户分配到 Power BI 服务管理员角色，它仅对 Power BI 功能授予管理权限。
 
 Power BI 服务管理员有权访问 Power BI 管理门户，其中包括有关功能、安全和监视的各种租户级设置。 服务管理员具有对 Power BI 租户所有资源的完全访问权限。 在大多数情况下，服务管理员确定问题，然后跟进资源所有者以便采取纠正措施。
 
-Power BI 服务管理员角色不授予将许可证分配给用户或在 Office 365 中查看审核日志的功能。 因此，作为 Power BI 服务管理员角色单独成员的用户当前无法执行管理 Power BI 的任务。
+Power BI 服务管理员角色不授予将许可证分配给用户或在 Microsoft 365 中查看审核日志的功能。 因此，作为 Power BI 服务管理员角色单独成员的用户当前无法执行管理 Power BI 的任务。
 
 ## <a name="administrative-tasks"></a>管理任务
 

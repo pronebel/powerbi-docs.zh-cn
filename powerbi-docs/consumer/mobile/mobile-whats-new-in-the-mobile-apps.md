@@ -8,12 +8,12 @@ ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 05/05/2020
 ms.author: painbar
-ms.openlocfilehash: dd3d3702524bc8939720a177dcdcc291081542f4
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: 7d0933b20c942df724a4d21fbba438cdc8748969
+ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83349255"
+ms.lasthandoff: 05/19/2020
+ms.locfileid: "83565291"
 ---
 # <a name="whats-new-in-the-mobile-apps-for-power-bi"></a>Power BI 移动应用中的新功能
 有关相关的“新增功能”的信息，请参阅：
@@ -23,7 +23,7 @@ ms.locfileid: "83349255"
 * [Power BI 服务中的最近更新](../../fundamentals/service-whats-new.md)
 
 >[!NOTE]
->我们将于 2021 年 3 月 16 日终止对使用 Windows 10 移动版的手机提供 Power BI 移动应用支持  。 [了解详细信息](https://go.microsoft.com/fwlink/?linkid=2121400)
+>我们将于 2021 年 3 月 16 日终止对使用 Windows 10 移动版的手机提供 Power BI 移动应用支持。 [了解详细信息](https://go.microsoft.com/fwlink/?linkid=2121400)
 
 ## <a name="april-2020"></a>2020 年 4 月
 
@@ -58,7 +58,7 @@ Power BI 应用中的筛选器新增了功能，并采用了新设计。 这包�
 
 ### <a name="report-footer-can-now-always-be-visible-in-the-mobile-app-for-iphones"></a>报表页脚现在可以在 iPhone 版移动应用中始终可见
 
-与在 Android 手机上一样，现在可以在 iPhone 手机上决定将报表页脚停靠在报表页底部，且始终可见可用，无论你在报表页上执行什么操作。 这样就可以轻松地使用报表提供的所有选项。 若要停靠页脚，请在[“移动应用设置”](./mobile-app-interaction-settings.md)页上切换“停靠报表页脚”  开关。
+与在 Android 手机上一样，现在可以在 iPhone 手机上决定将报表页脚停靠在报表页底部，且始终可见可用，无论你在报表页上执行什么操作。 这样就可以轻松地使用报表提供的所有选项。 若要停靠页脚，请在[“移动应用设置”](./mobile-app-interaction-settings.md)页上切换“停靠报表页脚”开关。
 
 ### <a name="support-for-pbirs-reports-preview-windows"></a>支持 PBIRS 报表（预览版）(Windows)
 
@@ -274,7 +274,7 @@ Power BI 移动应用现已支持在 Power BI 中创建的书签。 打开应用
 
 ### <a name="shared-credentials-now-in-android"></a>共享凭据（现在为 Android）
 
-从移动应用登录到 Power BI 从未如此简单。 借助共享凭据，我们通过在设备上使用其他 Office 365 应用凭据在 Power BI 服务中对用户进行身份验证，简化了登录过程。
+从移动应用登录到 Power BI 从未如此简单。 借助共享凭据，我们通过在设备上使用其他 Microsoft 365 应用凭据在 Power BI 服务中对用户进行身份验证，简化了登录过程。
 
 ### <a name="in-app-urls-now-in-android"></a>应用内 URL（现在为 Android） 
 
@@ -294,7 +294,7 @@ Power BI 移动应用现已支持在 Power BI 中创建的书签。 打开应用
 
 ### <a name="shared-credentials-ios"></a>共享凭据 (iOS)
 
-从移动应用登录到 Power BI 从未如此简单。 借助共享凭据，我们通过在设备上使用其他 Office 365 应用凭据在 Power BI 服务中对用户进行身份验证，简化了登录过程。
+从移动应用登录到 Power BI 从未如此简单。 借助共享凭据，我们通过在设备上使用其他 Microsoft 365 应用凭据在 Power BI 服务中对用户进行身份验证，简化了登录过程。
 
 ### <a name="in-app-urls-ios"></a>应用内 URL (iOS) 
 
@@ -413,11 +413,11 @@ Power BI for Mixed Reality 应用现已在 Microsoft Store 上架。 可以沉�
 
 #### <a name="report-favorites"></a>报表收藏夹
 
-将报表标记为收藏，以便它们可以出现在“收藏夹”  页上。 阅读有关 [Power BI 移动应用中的收藏夹](mobile-apps-favorites.md) 的更多信息。
+将报表标记为收藏，以便它们可以出现在“收藏夹”页上。 阅读有关 [Power BI 移动应用中的收藏夹](mobile-apps-favorites.md) 的更多信息。
 
 #### <a name="view-shared-reports"></a>查看共享的报表
 
-现在，如果有人与你共享报表，此报表将与仪表板一起列在“与我共享的内容”  页上。
+现在，如果有人与你共享报表，此报表将与仪表板一起列在“与我共享的内容”页上。
 
 #### <a name="improved-hyperlink-support"></a>改进的超链接支持
 
@@ -439,7 +439,7 @@ Power BI for Mixed Reality 应用现已在 Microsoft Store 上架。 可以沉�
 
 #### <a name="auto-installed-apps"></a>已自动安装应用
 
-完全不需要在 Power BI 中安装某些应用。 组织中的 Power BI 应用创建者可创建包含仪表板和报表集合的  应用。 然后，他们可发布应用，并将其设置为在 Power BI 服务和 Power BI 移动应用中自动安装。 当某应用设置为自动安装时，它就会自动显示在  “应用”菜单中：
+完全不需要在 Power BI 中安装某些应用。 组织中的 Power BI 应用创建者可创建包含仪表板和报表集合的应用。 然后，他们可发布应用，并将其设置为在 Power BI 服务和 Power BI 移动应用中自动安装。 当某应用设置为自动安装时，它就会自动显示在“应用”菜单中：
 
 ![在 Power BI 移动应用中的应用](./media/mobile-whats-new-in-the-mobile-apps/power-bi-apps-mobile-apps.png)
 
@@ -472,7 +472,7 @@ Power BI for Mixed Reality 应用现已在 Microsoft Store 上架。 可以沉�
 **iOS 上全新的问答体验（预览版）** ：现在可以使用自然语言获取限定范围的见解，而不单单是收到问题答案。 即使不确定要查找什么，问答依然能够主动呈现与数据相关的见解。 与 Microsoft Research 团队协作开发的全新手机问答体验在我们的产品内展现了功能强大的技术。 请试学教程[在 iOS 移动应用中咨询有关数据的问题](mobile-apps-ios-qna.md)。
 
 ### <a name="responsive-visuals"></a>响应式视觉对象
-**手机报表和仪表板的响应式视觉对象**：可以将仪表板或报表中的视觉对象设置为响应式  ，即动态缩放，尽可能显示最多的数据和见解，无论屏幕大小如何。 请阅读[有关响应式视觉对象的博客](https://powerbi.microsoft.com/blog/power-bi-desktop-july-feature-summary-2/#responsiveVisuals)。
+**手机报表和仪表板的响应式视觉对象**：可以将仪表板或报表中的视觉对象设置为响应式，即动态缩放，尽可能显示最多的数据和见解，无论屏幕大小如何。 请阅读[有关响应式视觉对象的博客](https://powerbi.microsoft.com/blog/power-bi-desktop-july-feature-summary-2/#responsiveVisuals)。
 
 ### <a name="june-2107"></a>2017 年 6 月
 #### <a name="all-devices"></a>所有设备
@@ -487,63 +487,63 @@ Power BI for Mixed Reality 应用现已在 Microsoft Store 上架。 可以沉�
 详细了解[组织 Power BI 内容的方法](mobile-apps-quickstart-view-dashboard-report.md)。
 
 #### <a name="ios-and-android-devices"></a>iOS 和 Android 设备
- Power BI 报表服务器预览 - 在本地创建和发布 Power BI 报表。 然后，[在你的 iOS 或 Android 移动设备中查看并与之交互](mobile-app-ssrs-kpis-mobile-on-premises-reports.md)。 
+Power BI 报表服务器预览 - 在本地创建和发布 Power BI 报表。 然后，[在你的 iOS 或 Android 移动设备中查看并与之交互](mobile-app-ssrs-kpis-mobile-on-premises-reports.md)。 
 
 ### <a name="april-2017"></a>2017 年 4 月
 请阅读 [2017 年 4 月移动应用功能摘要](https://powerbi.microsoft.com/blog/power-bi-mobile-apps-feature-summary-march-april-2017/)
 
 #### <a name="all-devices"></a>所有设备
- 手机报表的背景色 - 定义了 Power BI Desktop 中报表的背景色后，手机报表将具有相同的背景色。 有关[优化手机的报表页](../../create-reports/desktop-create-phone-report.md)的详细信息。
+手机报表的背景色 - 定义了 Power BI Desktop 中报表的背景色后，手机报表将具有相同的背景色。 有关[优化手机的报表页](../../create-reports/desktop-create-phone-report.md)的详细信息。
 
- 开发适合移动设备的 Power BI 视觉对象 - 阅读此[开发人员指南](https://github.com/Microsoft/PowerBI-visuals/blob/master/Tutorial/MobileGuideline.md)，了解在移动设备上创建外观精美、运行良好的 Power BI 视觉对象的提示。
+开发适合移动设备的 Power BI 视觉对象 - 阅读此[开发人员指南](https://github.com/Microsoft/PowerBI-visuals/blob/master/Tutorial/MobileGuideline.md)，了解在移动设备上创建外观精美、运行良好的 Power BI 视觉对象的提示。
 
 #### <a name="ios-devices"></a>iOS 设备
- 与数据对话 - 通过说话提问 - 现在，你可以通过说话而不是键入信息来[使用问答功能询问数据相关问题](mobile-apps-ios-qna.md)。 
+与数据对话 - 通过说话提问 - 现在，你可以通过说话而不是键入信息来[使用问答功能询问数据相关问题](mobile-apps-ios-qna.md)。 
 
 ### <a name="march-2017"></a>2017 年 3 月
 请参阅 [2017 年 3 月移动应用功能摘要](https://powerbi.microsoft.com/blog/power-bi-mobile-apps-feature-summary-march-2017/)。
 
 #### <a name="all-devices"></a>所有设备
-切片器交互 
+切片器交互
 
 我们改进了时间切片器的触摸交互。
 
 #### <a name="ios-devices"></a>iOS 设备
- 使用问答功能询问数据相关问题，然后向我们提供反馈 - 尝试使用问答功能就你的数据提问，然后通过笑脸或皱眉表情符号给予评价，让我们了解你对我们服务的感受如何。
+使用问答功能询问数据相关问题，然后向我们提供反馈 - 尝试使用问答功能就你的数据提问，然后通过笑脸或皱眉表情符号给予评价，让我们了解你对我们服务的感受如何。
 
- 使用 3D Touch 执行常见操作 - 在 iPhone 6s 或更高版本的主屏幕上按住 Power BI 应用图标可以查看通知、执行搜索和访问最近使用的仪表板。
+使用 3D Touch 执行常见操作 - 在 iPhone 6s 或更高版本的主屏幕上按住 Power BI 应用图标可以查看通知、执行搜索和访问最近使用的仪表板。
 
- 支持从右向左书写的语言 - Power BI 移动应用现在支持从右向左书写的语言。 在此上下文中，“从右向左书写语言”指的是希伯来语和阿拉伯语书写系统，该系统从右向左书写，而且需要上下文调整。 请查看 [Power BI 移动应用中支持的语言](mobile-apps-supported-languages.md)列表。
+支持从右向左书写的语言 - Power BI 移动应用现在支持从右向左书写的语言。 在此上下文中，“从右向左书写语言”指的是希伯来语和阿拉伯语书写系统，该系统从右向左书写，而且需要上下文调整。 请查看 [Power BI 移动应用中支持的语言](mobile-apps-supported-languages.md)列表。
 
 #### <a name="android-devices"></a>Android 设备
-连接多台 SSRS 服务器  
+连接多台 SSRS 服务器 
 
 现在可以同时连接最多五台 SQL Server Reporting Services (SSRS) 服务器。
 
-请求仪表板的访问权限  
+请求仪表板的访问权限 
 
 如果你对不具备访问权限的仪表板的 QR 代码进行扫描，现在可以提交直接从移动应用程序进行访问的请求。
 
 ### <a name="february-2017"></a>2017 年 2 月
 #### <a name="all-devices"></a>所有设备
-滚动浏览更为简单  
+滚动浏览更为简单 
 
 现在可以触摸图表本身（而不是触摸一侧的滚动条）来滚动浏览报表中的条形图和柱形图。
 
 #### <a name="ios-devices"></a>iOS 设备
-使用问答这一预览功能就你的数据提问  
+使用问答这一预览功能就你的数据提问 
 
 借助问答功能，可以用自己的话就你的数据提问，然后 Power BI 会回答你的问题。 问答已在 https://powerbi.com 上的 Power BI 服务中提供。 现在它也在 [iPhone 或 iPad 上的移动应用中提供](mobile-apps-ios-qna.md)。
 
-连接多台 SSRS 服务器  
+连接多台 SSRS 服务器 
 
 现在可以同时连接最多五台 SQL Server Reporting Services (SSRS) 服务器。
 
 #### <a name="android-tablets"></a>Android 平板电脑
-现在适用于 Android 平板电脑的 Power BI 移动应用  全局可用。 [Android 平板电脑上的的 Power BI](mobile-android-app-get-started.md)入门。
+现在适用于 Android 平板电脑的 Power BI 移动应用全局可用。 [Android 平板电脑上的的 Power BI](mobile-android-app-get-started.md)入门。
 
 #### <a name="ios-and-android-devices"></a>iOS 和 Android 设备
- 仪表板磁贴的新菜单 - 导航到基础报表，展开该磁贴，或管理警报，所有这些操作均可直接通过仪表板磁贴上的菜单来执行。 
+仪表板磁贴的新菜单 - 导航到基础报表，展开该磁贴，或管理警报，所有这些操作均可直接通过仪表板磁贴上的菜单来执行。 
 
 对于横向模式下的 iOS 手机、Android 手机和 Android 平板电脑而言，此菜单是一项新功能。 它已在纵向模式下的 Windows 和 Android 手机上应用。
 
@@ -551,15 +551,15 @@ Power BI for Mixed Reality 应用现已在 Microsoft Store 上架。 可以沉�
 请参阅 [2017 年 1 月移动应用博客的功能摘要](https://powerbi.microsoft.com/blog/power-bi-mobile-apps-feature-summary-january-2017)。
 
 #### <a name="all-devices"></a>所有设备
- 加载表和矩阵中超过 100 行的数据 - 现在，如果仪表板或报表上有大型表或矩阵，我们会在磁贴中显示尽可能多的数据。 然后，可以在焦点模式下向下滚动加载其他行。
+加载表和矩阵中超过 100 行的数据 - 现在，如果仪表板或报表上有大型表或矩阵，我们会在磁贴中显示尽可能多的数据。 然后，可以在焦点模式下向下滚动加载其他行。
 
- 手机报表 - 公开发布 - Power BI 手机报表现已公开发布。 在 Power BI Desktop 中，可以为手机阅读器定制现有报表的纵向视图。 详细了解如何[在 Power BI Desktop 中创作移动报表](../../create-reports/desktop-create-phone-report.md)和[手机报表体验](mobile-apps-view-phone-report.md)。
+手机报表 - 公开发布 - Power BI 手机报表现已公开发布。 在 Power BI Desktop 中，可以为手机阅读器定制现有报表的纵向视图。 详细了解如何[在 Power BI Desktop 中创作移动报表](../../create-reports/desktop-create-phone-report.md)和[手机报表体验](mobile-apps-view-phone-report.md)。
 
 #### <a name="ios"></a>iOS
- 使用 Active Directory 联合身份验证服务 (ADFS) 预览进行 SSRS 身份验证 - 现在可以使用组织帐户从移动设备登录本地 SQL Server Reporting Services 服务器。 详细详细如何[使用 OAuth 连接 SSRS 服务器](mobile-oauth-ssrs.md)。
+使用 Active Directory 联合身份验证服务 (ADFS) 预览进行 SSRS 身份验证 - 现在可以使用组织帐户从移动设备登录本地 SQL Server Reporting Services 服务器。 详细详细如何[使用 OAuth 连接 SSRS 服务器](mobile-oauth-ssrs.md)。
 
 #### <a name="android"></a>Android
- 使用 Active Directory 联合身份验证服务 (ADFS) 预览进行 SSRS 身份验证 - 现在可以使用组织帐户从移动设备登录本地 SQL Server Reporting Services 服务器。 详细详细如何[使用 OAuth 连接 SSRS 服务器](mobile-oauth-ssrs.md)。
+使用 Active Directory 联合身份验证服务 (ADFS) 预览进行 SSRS 身份验证 - 现在可以使用组织帐户从移动设备登录本地 SQL Server Reporting Services 服务器。 详细详细如何[使用 OAuth 连接 SSRS 服务器](mobile-oauth-ssrs.md)。
 
 **经过改进的新增功能：快速批注并共享见解** - 批注并共享功能现已完全适用于 Android 设备。 使用改进后的菜单，不仅可以更轻松快速地批注并共享见解，还可直接从 Power BI 应用共享经过批注的报表。
 
@@ -567,33 +567,33 @@ Power BI for Mixed Reality 应用现已在 Microsoft Store 上架。 可以沉�
 请参阅 [2016 年 12 月移动应用博客功能摘要](https://powerbi.microsoft.com/blog/power-bi-mobile-apps-feature-summary-december-2016)。
 
 #### <a name="all-devices"></a>所有设备
-脱机后台刷新 
+脱机后台刷新
 
 为了确保你可以在脱机时访问最新数据，我们在应用后台执行刷新，以更新你的业务信息，即使你有一段时间没有访问它。 若要确保某些仪表板始终保持最新状态，只需将其标记为收藏。 了解更多有关 [Power BI 移动应用中的脱机功能](mobile-apps-offline-data.md)的信息。
 
 #### <a name="ios-devices"></a>iOS 设备
-批注和共享 
+批注和共享
 
 现在可以从适用于 iOS 的 Power BI 移动应用批注并共享磁贴、报表或可视化效果。 
 
 * [在 iPhone 上](mobile-annotate-and-share-a-tile-from-the-mobile-apps.md)
 * [在 iPad 上](mobile-annotate-and-share-a-tile-from-the-mobile-apps.md)
 
-请求仪表板的访问权限 
+请求仪表板的访问权限
 
 如果你对不具备访问权限的仪表板的 QR 代码进行扫描，现在可以提交直接从移动应用程序进行访问的请求。
 
-映像磁贴上的自定义 URL 
+映像磁贴上的自定义 URL
 
 如果映像磁贴具有由仪表板所有者定义的自定义 URL，点击磁贴时你将直接转到该 URL，而无需在焦点模式下打开磁贴。 
 
 #### <a name="iphone"></a>iPhone
-Apple Watch 改进 
+Apple Watch 改进
 
 现在可以刷新直接来自 Watch 应用的 Apple Watch 数据。 在仪表板索引页中，深按以刷新你的数据。 （Power BI 移动应用程序必须在 iPhone 后台运行才能使之生效）。
 
 #### <a name="android"></a>Android
-映像磁贴上的自定义 URL 
+映像磁贴上的自定义 URL
 
 如果映像磁贴具有由仪表板所有者定义的自定义 URL，点击磁贴时你将直接转到该 URL，而无需在焦点模式下打开磁贴。 此外，包含预定义的自定义 URL 的仪表板磁贴现在可以使读者重定向到应用内的报表。
 
@@ -609,13 +609,13 @@ Apple Watch 改进
 #### <a name="android-devices"></a>Android 设备
 **预览阶段：Intune 移动应用程序管理** - 对于使用 Android 设备的 Power BI Pro 用户，Power BI 对 Microsoft Intune 移动应用程序管理器 (MAM) 的支持现已处于预览阶段。 
 
-收藏夹  - 在 Android 设备上将常用仪表板添加到收藏夹，然后在一个方便访问的位置上集中查看所有[常用 Power BI 仪表板和 Reporting Services 移动报表及 KPI](mobile-android-app-get-started.md#view-your-favorite-dashboards-and-reports)。 
+收藏夹 - 在 Android 设备上将常用仪表板添加到收藏夹，然后在一个方便访问的位置上集中查看所有[常用 Power BI 仪表板和 Reporting Services 移动报表及 KPI](mobile-android-app-get-started.md#view-your-favorite-dashboards-and-reports)。 
 
 #### <a name="ios-devices"></a>iOS 设备
-链接  - 现可单击磁贴和可视化效果中的 URL，并在浏览器中打开这些 URL。
+链接 - 现可单击磁贴和可视化效果中的 URL，并在浏览器中打开这些 URL。
 
 #### <a name="windows-devices"></a>Windows 设备
-在地图中以当前所在位置为中心  - 重点关注你位置附近的数据
+在地图中以当前所在位置为中心 - 重点关注你位置附近的数据
 
 ### <a name="septemberoctober-2016"></a>2016 年 9 月/10 月
 请参阅 [2016 年 10 月 Power BI 移动应用功能摘要](https://powerbi.microsoft.com/blog/power-bi-mobile-apps-feature-summary-october-2016/)。
@@ -623,77 +623,77 @@ Apple Watch 改进
 #### <a name="all-devices"></a>所有设备
 **收藏登陆页面** - 如果你已将任一仪表板标记为收藏项，那么登陆页面也会成为收藏夹条目。 
 
-改进了导航  - 主导航采用全新外观，导航组移到了组目录中。 
+改进了导航 - 主导航采用全新外观，导航组移到了组目录中。 
 
-报表和仪表板性能改进  - 改进了在 Power BI 移动应用中加载报表和仪表板的体验。
+报表和仪表板性能改进 - 改进了在 Power BI 移动应用中加载报表和仪表板的体验。
 
-改进了警报通知  - 数据驱动警报通知现在详细说明了是什么触发了警报以及为什么会触发。
+改进了警报通知 - 数据驱动警报通知现在详细说明了是什么触发了警报以及为什么会触发。
 
 #### <a name="ios-on-iphones"></a>iPhone 上的 iOS
-Apple Watch 刷新改进  - Apple Watch 移动应用已针对 Watch OS3 进行了改进。
+Apple Watch 刷新改进 - Apple Watch 移动应用已针对 Watch OS3 进行了改进。
 
 #### <a name="android-phones"></a>Android 手机
-新增手动刷新磁贴功能  - 现在可以手动刷新仪表板磁贴。 对于基于 DirectQuery 的磁贴，这样做会检索数据集中的最新数据。
+新增手动刷新磁贴功能 - 现在可以手动刷新仪表板磁贴。 对于基于 DirectQuery 的磁贴，这样做会检索数据集中的最新数据。
 
 #### <a name="windows-10-phones"></a>Windows 10 手机
-地理筛选  - 现在可以在 Windows 10 手机上根据当前地理位置筛选报表，只查看所需的数据。
+地理筛选 - 现在可以在 Windows 10 手机上根据当前地理位置筛选报表，只查看所需的数据。
 
-SandDance 可视化效果  - 现可在 Surface Hub 中使用此自定义可视化效果
+SandDance 可视化效果 - 现可在 Surface Hub 中使用此自定义可视化效果
 
 ### <a name="august-2016"></a>2016 年 8 月
 #### <a name="all-phones"></a>所有手机
-收藏夹  - 可在所有 Power BI 移动应用中查看最喜爱的仪表板，并在适用于 iOS 和 Windows 10 设备的 Power BI 移动应用中管理收藏夹列表。 阅读有关 [Power BI 移动应用中的收藏夹](mobile-apps-favorites.md) 的更多信息。
+收藏夹 - 可在所有 Power BI 移动应用中查看最喜爱的仪表板，并在适用于 iOS 和 Windows 10 设备的 Power BI 移动应用中管理收藏夹列表。 阅读有关 [Power BI 移动应用中的收藏夹](mobile-apps-favorites.md) 的更多信息。
 
-仪表板数据分类  - 可查看仪表板所有者已向其仪表板分配的数据分类。 阅读有关[分类仪表板](../../create-reports/service-data-classification.md)的更多信息。
+仪表板数据分类 - 可查看仪表板所有者已向其仪表板分配的数据分类。 阅读有关[分类仪表板](../../create-reports/service-data-classification.md)的更多信息。
 
-数据驱动警报  - 以预设的方式对 KPI、仪表和卡磁贴进行数据更改时，通过警报通知。 了解以下内容的详细信息：
+数据驱动警报 - 以预设的方式对 KPI、仪表和卡磁贴进行数据更改时，通过警报通知。 了解以下内容的详细信息：
 
 * [适用于 Android 手机的 Power BI 应用上的警报](mobile-set-data-alerts-in-the-mobile-apps.md)。 
 * [适用于 iOS 的 Power BI 应用上的警报](mobile-set-data-alerts-in-the-mobile-apps.md)。 
 * [适用于 Windows 10 设备的 Power BI 应用上的警报](mobile-set-data-alerts-in-the-mobile-apps.md)。
 
 #### <a name="ios-on-iphones-and-ipads"></a>iPhone 和 iPad 上的 iOS
-iPad 上的焦点模式下的全屏磁贴  - 现在，在 iPad 上点击某个磁贴时，该磁贴会在焦点模式下全屏打开（占据整个 iPad 屏幕大小）。
+iPad 上的焦点模式下的全屏磁贴 - 现在，在 iPad 上点击某个磁贴时，该磁贴会在焦点模式下全屏打开（占据整个 iPad 屏幕大小）。
 
-手动刷新磁贴  - 可通过打开适用于 iOS 的 Power BI 移动应用中的仪表板并从屏幕顶部下拉来手动刷新磁贴。 
+手动刷新磁贴 - 可通过打开适用于 iOS 的 Power BI 移动应用中的仪表板并从屏幕顶部下拉来手动刷新磁贴。 
 
-支持 Intune MAM  - 新增对 Microsoft Intune 移动应用管理 (MAM) 功能的支持。
+支持 Intune MAM - 新增对 Microsoft Intune 移动应用管理 (MAM) 功能的支持。
 
 详细了解 [Power BI 移动应用上的 Microsoft Intune](../../admin/service-admin-mobile-intune.md)。
 
 #### <a name="windows-10-devices"></a>Windows 10 设备
-全屏和演示模式  - 在 Surface Hub 上的演示模式下显示报表，并在 Windows 10 设备上的全屏模式下显示仪表板、报表和磁贴。
+全屏和演示模式 - 在 Surface Hub 上的演示模式下显示报表，并在 Windows 10 设备上的全屏模式下显示仪表板、报表和磁贴。
 
 ### <a name="july-2016"></a>2016 年 7 月
 #### <a name="all-phones"></a>所有手机
 现在，你可以在 Power BI 服务中[创建手机专用仪表板纵向模式视图](../../create-reports/service-create-dashboard-mobile-phone-view.md)。 
 
 #### <a name="android-phones"></a>Android 手机
-收藏夹选项卡  - 从单个位置访问所有喜欢的仪表板。
+收藏夹选项卡 - 从单个位置访问所有喜欢的仪表板。
 
-改进的安全管理  - 特定仪表板中显示的业务数据选择风险分类。
+改进的安全管理 - 特定仪表板中显示的业务数据选择风险分类。
 
 **改进了警告和横幅** - 改进了移动应用的警告和横幅。
 
-报表页的 QR 码  - 服务中生成的 QR 码将链接到特定页，而不是整个报表。
+报表页的 QR 码 - 服务中生成的 QR 码将链接到特定页，而不是整个报表。
 
 **改进了警报** - 数据驱动警报现在根据设备的区域设置进行格式设置。
 
 #### <a name="ios-on-iphones-and-ipads"></a>iPhone 和 iPad 上的 iOS
-改进的安全管理  - 特定仪表板中显示的业务数据选择风险分类。
+改进的安全管理 - 特定仪表板中显示的业务数据选择风险分类。
 
-移动见解  - 查看簇状柱形图磁贴上的汇总数据（最大值、最小值和总和）。
+移动见解 - 查看簇状柱形图磁贴上的汇总数据（最大值、最小值和总和）。
 
-改进的手动刷新  - 现在可以手动刷新仪表板磁贴。 对于基于直接查询的磁贴，将从数据模型中检索最新数据。
+改进的手动刷新 - 现在可以手动刷新仪表板磁贴。 对于基于直接查询的磁贴，将从数据模型中检索最新数据。
 
 **改进了警告和横幅** - 改进了移动应用的警告和横幅。
 
-报表页的 QR 码  - 服务中生成的 QR 码将链接到特定页，而不是整个报表。
+报表页的 QR 码 - 服务中生成的 QR 码将链接到特定页，而不是整个报表。
 
 **常规改进** - 改进了移动应用中的磁贴的错误消息。
 
 #### <a name="windows-10-devices"></a>Windows 10 设备
-改进的安全管理  - 特定仪表板中显示的业务数据选择风险分类。
+改进的安全管理 - 特定仪表板中显示的业务数据选择风险分类。
 
 **改进了警告和横幅** - 改进了移动应用的警告和横幅。
 
@@ -718,7 +718,7 @@ Power BI 移动应用中的通知中心将显示与你共享的新数据或仪�
 
 ### <a name="may-2016"></a>2016 年 5 月
 #### <a name="ios-devices-and-android-phones"></a>iOS 设备和 Android 手机
-* QR 码  现也可用于报表  。 使用 Power BI 应用扫描图码，可直接转到相关报表，而无需任何导航或搜索。
+* QR 码现也可用于报表。 使用 Power BI 应用扫描图码，可直接转到相关报表，而无需任何导航或搜索。
 * **为 SQL Server 2016 Reporting Services 改进了数据管理功能** - 减少了设备的加载时间和数据流量消耗。
 * **SQL Server 2016 主题移动报表** - 请查看设备上的移动报表主题。
 * **地区筛选**：通过当前位置筛选报告。
@@ -731,49 +731,49 @@ Power BI 移动应用中的通知中心将显示与你共享的新数据或仪�
 
 #### <a name="android-mobile-app"></a>Android 移动应用
 * 现在在 Android 手机上可使用 SQL Server 2016 **[Reporting Services 移动报表](mobile-app-ssrs-kpis-mobile-on-premises-reports.md)** 。
-* 报表库  - 在报表库中直接打开报表。
-* NTLM 身份验证  - 支持 SQL Server 2016 Reporting Services 中的移动报表。
+* 报表库 - 在报表库中直接打开报表。
+* NTLM 身份验证 - 支持 SQL Server 2016 Reporting Services 中的移动报表。
 
 #### <a name="power-bi-app-for-windows-10-devices"></a>适用于 Windows 10 设备的 Power BI 应用
-* 演示模式  - 在 Power BI 应用中以演示模式显示 Power BI 仪表板和报表。
+* 演示模式 - 在 Power BI 应用中以演示模式显示 Power BI 仪表板和报表。
 * 现在在 Windows 10 设备上可使用 SQL Server 2016 **[Reporting Services 移动报表](mobile-app-windows-10-ssrs-kpis-mobile-reports.md)** 。
-* 当鼠标悬停在仪表板磁贴时，可查看数据工具提示  。
+* 当鼠标悬停在仪表板磁贴时，可查看数据工具提示。
 
 ### <a name="march-2016"></a>2016 年 3 月
 阅读[2016 年 3 月的 Power BI 移动应用博客](https://powerbi.microsoft.com/blog/power-bi-mobile-apps-update-march-2016/)。
 
 #### <a name="iphone-mobile-app"></a>iPhone 移动应用
-Apple Watch  - 在[Apple Watch](mobile-apple-watch.md)上查看 Power BI 磁贴和 KPI。
+Apple Watch - 在[Apple Watch](mobile-apple-watch.md)上查看 Power BI 磁贴和 KPI。
 
-iOS 9.0 和更高版本  - 为了适应 Power BI 中的可能的最佳体验和新功能，我们现在仅支持运行 iOS 9.0 和更高版本的设备。
+iOS 9.0 和更高版本 - 为了适应 Power BI 中的可能的最佳体验和新功能，我们现在仅支持运行 iOS 9.0 和更高版本的设备。
 
 **全局搜索** - 新增了“最近查看”列表和全局搜索功能，以便你能够快速找到所需数据。
 
-报表库  - 在报表库中直接打开报表。
+报表库 - 在报表库中直接打开报表。
 
 **脱机时刷新数据** - 新增的后台刷新功能在联机时自动更新缓存数据，因此[即使在脱机状态下](mobile-apps-offline-data.md)也可以访问最新数据。 
 
-必应和 R 磁贴  - 在焦点模式下打开必应和 R 磁贴。
+必应和 R 磁贴 - 在焦点模式下打开必应和 R 磁贴。
 
 #### <a name="android-mobile-app"></a>Android 移动应用
-SQL Server 2016 移动报表和 KPI - [查看 SQL Server 2016 移动报表和 KPI](mobile-app-ssrs-kpis-mobile-on-premises-reports.md)，并在 SSRS 文件夹之间导航  。
+SQL Server 2016 移动报表和 KPI - [查看 SQL Server 2016 移动报表和 KPI](mobile-app-ssrs-kpis-mobile-on-premises-reports.md)，并在 SSRS 文件夹之间导航。
 
-查看报表  - 从仪表板上的磁贴中打开报表。
+查看报表 - 从仪表板上的磁贴中打开报表。
 
 **脱机时刷新数据** - 新增的后台刷新功能在联机时自动更新缓存数据，因此[即使在脱机状态下](mobile-apps-offline-data.md)也可以访问最新数据。 
 
 #### <a name="power-bi-app-for-windows-10-devices"></a>适用于 Windows 10 设备的 Power BI 应用
 **快速访问** - 通过新增的“最近查看”列表和全局搜索功能，快速访问仪表板、报表和组，以便找到所需数据。
 
-必应和 R 磁贴  - 在焦点模式下打开必应和 R 磁贴。
+必应和 R 磁贴 - 在焦点模式下打开必应和 R 磁贴。
 
-在开始屏幕上添加更多动态磁贴 - [将 KPI 和行卡片作为动态磁贴固定到开始屏幕](mobile-pin-dashboard-start-screen-windows-10-phone-app.md)，以便你可以快速浏览所有关键指标  。
+在开始屏幕上添加更多动态磁贴 - [将 KPI 和行卡片作为动态磁贴固定到开始屏幕](mobile-pin-dashboard-start-screen-windows-10-phone-app.md)，以便你可以快速浏览所有关键指标。
 
-收缩缩放  - 在平板电脑上使用收缩缩放手势，以便更加详细地检查仪表板。
+收缩缩放 - 在平板电脑上使用收缩缩放手势，以便更加详细地检查仪表板。
 
-通知  - 使用新数据更新数据集、报表和仪表板时获得通知。
+通知 - 使用新数据更新数据集、报表和仪表板时获得通知。
 
-报表库  - 在报表库中直接打开报表。
+报表库 - 在报表库中直接打开报表。
 
 ### <a name="february-2016"></a>2016 年 2 月
 #### <a name="android"></a>Android
@@ -787,17 +787,17 @@ SQL Server 2016 移动报表和 KPI - [查看 SQL Server 2016 移动报表和 KP
 ### <a name="january-2016"></a>2016 年 1 月
 2015 年 12 月发布的新的[适用于 Windows 10 手机的 Power BI 应用](mobile-windows-10-phone-app-get-started.md)已包括所有一月份的改进功能。 现在正在向其他适用于移动设备的 Power BI 应用推出这些改进功能。 阅读有关以下改进功能的博客文章。
 
-实时数据支持  - 仪表板可实时自动刷新，因此不需要手动刷新它们。
+实时数据支持 - 仪表板可实时自动刷新，因此不需要手动刷新它们。
 
-脱机状态指示器  - 当没有信号时，你会看到仪表板顶部有一个脱机状态指示器。
+脱机状态指示器 - 当没有信号时，你会看到仪表板顶部有一个脱机状态指示器。
 
-访问缓存数据  - 缓存数据不再会过期，所以在脱机时你可以无限期地访问缓存数据。
+访问缓存数据 - 缓存数据不再会过期，所以在脱机时你可以无限期地访问缓存数据。
 
-R 磁贴和 Web 小组件  - 在移动设备上的仪表板中查看新磁贴类型。
+R 磁贴和 Web 小组件 - 在移动设备上的仪表板中查看新磁贴类型。
 
-必应仪表板  - 在 Power BI 服务中，你现在可以[使用必应搜索结果创建仪表板](../../connect-data/service-connect-to-services.md)，并在移动设备上查看它们。
+必应仪表板 - 在 Power BI 服务中，你现在可以[使用必应搜索结果创建仪表板](../../connect-data/service-connect-to-services.md)，并在移动设备上查看它们。
 
-将报表页作为磁贴固定到仪表板  - 现在可以在 Power BI 服务中将整个报表页固定到仪表板，所以可以在 iPhone 或 Android 手机上的 Power BI 应用中查看报表页。
+将报表页作为磁贴固定到仪表板 - 现在可以在 Power BI 服务中将整个报表页固定到仪表板，所以可以在 iPhone 或 Android 手机上的 Power BI 应用中查看报表页。
 
 ### <a name="december-2015"></a>2015 年 12 月
 凭借一些重要的新增功能和更新，Power BI 团队强势收官 2015 年。

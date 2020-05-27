@@ -10,12 +10,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 01/22/2020
 LocalizationGroup: Dashboards
-ms.openlocfilehash: fdb6ee8f50eaf70c9180e2c5a01cefef1143aa0d
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: 183fceb6877109960ea1fb7e6f36bd74588f8f10
+ms.sourcegitcommit: 250242fd6346b60b0eda7a314944363c0bacaca8
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83143009"
+ms.lasthandoff: 05/20/2020
+ms.locfileid: "83693844"
 ---
 # <a name="monitor-usage-metrics-in-the-new-workspace-experience"></a>在新的工作区体验中监视使用情况指标
 
@@ -39,7 +39,7 @@ ms.locfileid: "83143009"
 只有具有“管理员”、“成员”或“参与者”权限的用户才能查看改进后的使用情况指标报表。 “查看者”权限不够。 如果你在报表所在的新式工作区上至少是一个参与者，则可以使用以下过程来显示改进的使用情况指标：
 
 1. 打开包含要分析其使用情况指标的报表的工作区。
-2. 从“工作区内容”列表中，打开报表的上下文菜单，然后选择“查看使用情况指标报表”  。 或者打开报表，在命令栏上打开上下文菜单，然后选择“使用情况指标”  。
+2. 从“工作区内容”列表中，打开报表的上下文菜单，然后选择“查看使用情况指标报表”。 或者打开报表，在命令栏上打开上下文菜单，然后选择“使用情况指标”。
 
     ![选择使用情况指标](media/service-modern-usage-metrics/power-bi-modern-view-usage-metrics.png)
 
@@ -47,8 +47,8 @@ ms.locfileid: "83143009"
 
     ![使用情况指标报表已就绪](media/service-modern-usage-metrics/power-bi-modern-usage-metrics-ready.png)
 
-1. 要查看结果，请选择“查看使用指标”  。
-2. 如果这是你第一次执行此操作，Power BI 可能会打开旧的使用情况指标报表。 若要显示改进的使用情况指标报表，请在右上角将新使用情况报表关闭开关切换为“打开”  。
+1. 要查看结果，请选择“查看使用指标”。
+2. 如果这是你第一次执行此操作，Power BI 可能会打开旧的使用情况指标报表。 若要显示改进的使用情况指标报表，请在右上角将新使用情况报表关闭开关切换为“打开”。
 
     ![切换到新式使用情况指标报表](media/service-modern-usage-metrics/power-bi-modern-usage-metrics-on.png)
 
@@ -102,11 +102,11 @@ ms.locfileid: "83143009"
 使用以下过程来接管使用情况指标报表数据集并更新凭据。
 
 1. 打开包含要更新其“使用情况指标报表”数据集的报表的工作区。
-2. 在顶部的黑色标题栏中，选择“设置”  图标，然后选择”设置”  。
+2. 在顶部的黑色标题栏中，选择“设置”图标，然后选择”设置”。
 
     ![选择“设置”](media/service-modern-usage-metrics/power-bi-settings-settings.png)
 
-3. 切换到“数据集”  选项卡。
+3. 切换到“数据集”选项卡。
 
 1. 选择“使用情况指标报表”数据集。 
 
@@ -114,13 +114,13 @@ ms.locfileid: "83143009"
     
     如果不是当前的数据集所有者，则必须接管所有权，然后才能更新数据源凭据。 
     
-5. 选择“接管”  按钮，然后在“接管数据集设置”  对话框中再次选择“接管”  。
+5. 选择“接管”按钮，然后在“接管数据集设置”对话框中再次选择“接管”。
 
-1. 在“数据源凭据”  下，选择“编辑凭据”  。
+1. 在“数据源凭据”下，选择“编辑凭据”。
 
     ![编辑凭据](media/service-modern-usage-metrics/power-bi-usage-metrics-edit-credentials.png)
 
-2. 在“配置使用情况指标报表”  对话框中，选择“登录”  。
+2. 在“配置使用情况指标报表”对话框中，选择“登录”。
 
     ![选择“登录”](media/service-modern-usage-metrics/power-bi-modern-usage-metrics-configure.png)
 
@@ -132,7 +132,7 @@ ms.locfileid: "83143009"
 
 ## <a name="disable-usage-metrics-reports"></a>禁用使用情况指标报表
 
-使用情况指标报表是 Power BI 或 Office 365 管理员可以启用或禁用的一项功能。 管理员可以精确控制哪些用户可以访问使用指标；默认情况下，对于组织中的所有用户，它们都处于“启用”状态。 有关这些设置的详细信息，请参阅“管理门户”一文中的[控制使用指标](../admin/service-admin-portal.md#control-usage-metrics)。
+使用情况指标报表是 Power BI 或 Microsoft 365 管理员可以启用或禁用的一项功能。 管理员可以精确控制哪些用户可以访问使用指标；默认情况下，对于组织中的所有用户，它们都处于“启用”状态。 有关这些设置的详细信息，请参阅“管理门户”一文中的[控制使用指标](../admin/service-admin-portal.md#control-usage-metrics)。
 
 > [!NOTE]
 > 只有 Power BI 租户的管理员才能看到管理门户和编辑设置。
@@ -141,9 +141,9 @@ ms.locfileid: "83143009"
 
 默认情况下，每个用户的数据都启用了使用指标并在指标报表中包含内容使用者帐户信息。 如果管理员不希望对某些或所有用户公开此信息，可以通过在指定安全组或整个组织的 Power BI 管理门户租户设置中禁用内容创建者的使用情况指标中的每个用户数据，从使用情况报表中排除用户信息。
 
-1. 在管理门户的“租户设置”  选项卡上，在“审核和使用情况设置”  下，展开“内容创建者指标中的每个用户数据”  ，然后选择“禁用”  。
+1. 在管理门户的“租户设置”选项卡上，在“审核和使用情况设置”下，展开“内容创建者指标中的每个用户数据”，然后选择“禁用”。
 
-2. 决定是否“删除当前使用情况指标内容中的所有现有每个用户的数据”  ，并选择“应用”  。
+2. 决定是否“删除当前使用情况指标内容中的所有现有每个用户的数据”，并选择“应用”。
 
     ![禁用每个用户指标](media/service-modern-usage-metrics/power-bi-admin-disable-per-user-metrics.png)
 
@@ -158,23 +158,23 @@ ms.locfileid: "83143009"
 
 若要深入了解报表数据，或基于基础数据集生成自己的报表，有以下几个选项：
 
-- 在 Power BI 服务中[创建报表的副本](#create-a-copy-of-the-usage-report)。    使用“保存副本”  来创建使用情况指标报表的单独实例，你可以自定义该实例来满足你的特定需求。
-- 使用新报表[连接到数据集](#create-a-new-usage-report-in-power-bi-desktop)。    对于每个工作区，数据集都具有名称“使用情况指标报表”，如前面的[使用情况指标报表数据集](#usage-metrics-report-dataset)部分所述。 可以使用 Power BI Desktop 基于基础数据集生成自定义使用情况指标报表。
-- [使用“在 Excel 中分析”](#analyze-usage-data-in-excel)。    还可以利用 Microsoft Excel 2010 SP1 或更高版本中的数据透视表、图表和切片器功能来分析 Power BI 使用情况数据。 阅读有关[在 Excel 中分析](service-analyze-in-excel.md)功能的详细信息。
+- 在 Power BI 服务中[创建报表的副本](#create-a-copy-of-the-usage-report)。   使用“保存副本”来创建使用情况指标报表的单独实例，你可以自定义该实例来满足你的特定需求。
+- 使用新报表[连接到数据集](#create-a-new-usage-report-in-power-bi-desktop)。   对于每个工作区，数据集都具有名称“使用情况指标报表”，如前面的[使用情况指标报表数据集](#usage-metrics-report-dataset)部分所述。 可以使用 Power BI Desktop 基于基础数据集生成自定义使用情况指标报表。
+- [使用“在 Excel 中分析”](#analyze-usage-data-in-excel)。   还可以利用 Microsoft Excel 2010 SP1 或更高版本中的数据透视表、图表和切片器功能来分析 Power BI 使用情况数据。 阅读有关[在 Excel 中分析](service-analyze-in-excel.md)功能的详细信息。
 
 ### <a name="create-a-copy-of-the-usage-report"></a>创建使用情况报表的副本
 
 创建预生成的只读使用情况报表的副本时，Power BI 将创建可编辑的报表实例。 从表面看，报表看上去相同。 但是，现在能在编辑视图中打开报表，添加新的可视化效果、筛选器和页面，以及修改或删除现有可视化效果等。 Power BI 将新报表保存到当前工作区中。
 
-1. 在新的使用情况指标报表中，选择“更多选项”  菜单 (...)，然后选择“保存副本”  。
+1. 在新的使用情况指标报表中，选择“更多选项”菜单 (...)，然后选择“保存副本”。
 
     ![保存该报表的副本](media/service-modern-usage-metrics/power-bi-modern-usage-metrics-save.png)
 
-2. 在“保存报表”  对话框中，输入名称，然后选择“保存”  。
+2. 在“保存报表”对话框中，输入名称，然后选择“保存”。
 
     Power BI 将创建可编辑的 Power BI 报表，并保存到当前工作区中，然后打开报表副本。 
 
-3. 选择“更多选项”  菜单 (...)，然后选择“编辑”  以切换到“编辑”视图。 
+3. 选择“更多选项”菜单 (...)，然后选择“编辑”以切换到“编辑”视图。 
 
     例如，可以更改筛选器、添加新页面和生成新的可视化效果、设置字体和颜色等。
 
@@ -188,17 +188,17 @@ ms.locfileid: "83143009"
 
 1. 打开 Power BI Desktop。
 
-2. 如果未登录到 Power BI 服务，请在“文件”  菜单中选择“登录”  。
+2. 如果未登录到 Power BI 服务，请在“文件”菜单中选择“登录”。
 
-1. 若要连接到“使用情况指标报表”数据集，请在“主页”  功能区选择“获取数据”  。
+1. 若要连接到“使用情况指标报表”数据集，请在“主页”功能区选择“获取数据”。
 
-4. 在左窗格中，选择“Power Platform”  ，然后选择“Power BI 数据集”   > “连接”  。
+4. 在左窗格中，选择“Power Platform”，然后选择“Power BI 数据集” > “连接”。
 
     ![“获取数据”>“Power Platform”](media/service-modern-usage-metrics/power-bi-desktop-get-data.png)
 
-1. 滚动到所需数据集，或在搜索框中键入“使用情况指标报表”  。 
+1. 滚动到所需数据集，或在搜索框中键入“使用情况指标报表”。 
 
-6. 验证在“工作区”列选择了正确数据集，然后选择“创建”  。 
+6. 验证在“工作区”列选择了正确数据集，然后选择“创建”。 
 
     ![选择“使用情况指标报表”数据集](media/service-modern-usage-metrics/power-bi-desktop-select-usage-metrics.png)
 
@@ -214,22 +214,22 @@ ms.locfileid: "83143009"
 
 1. 首先，如果尚未执行此操作，[请创建使用情况指标报表的副本](#create-a-copy-of-the-usage-report)。 
 
-2. 打开新的使用情况指标报表，选择“更多选项”  菜单 (...)，然后选择“在 Excel 中分析”  。
+2. 打开新的使用情况指标报表，选择“更多选项”菜单 (...)，然后选择“在 Excel 中分析”。
 
     ![在 Excel 中分析](media/service-modern-usage-metrics/power-bi-export-excel.png)
 
-1. 如果看到“首先，需要一些 Excel 更新”  对话框，选择”下载”  并安装 Power BI 连接的最新更新，或选择”我已安装了这些更新”  。
+1. 如果看到“首先，需要一些 Excel 更新”对话框，选择”下载”并安装 Power BI 连接的最新更新，或选择”我已安装了这些更新”。
 
     ![Excel 更新](media/service-modern-usage-metrics/power-bi-excel-updates.png)
 
     > [!NOTE]
     > 某些组织可能有组策略规则，导致无法对 Excel 安装所需的“在 Excel 中分析”更新。 如果无法安装更新，请与管理员确认。
 
-1. 在询问要如何使用 Usage Metrics report.odc 文件的浏览器对话框中，选择“打开”  。
+1. 在询问要如何使用 Usage Metrics report.odc 文件的浏览器对话框中，选择“打开”。
 
     ![打开 .odc 文件](media/service-modern-usage-metrics/power-bi-open-odc-file.png)
 
-1. Power BI 启动 Excel。 验证 .odc 文件的文件名和路径，然后选择“启用”  。
+1. Power BI 启动 Excel。 验证 .odc 文件的文件名和路径，然后选择“启用”。
 
     ![Excel 安全通知](media/service-modern-usage-metrics/power-bi-excel-security-notice.png)
 
@@ -334,11 +334,11 @@ Power BI 在单独的国家云中可用。 这些云提供与全球版本 Power 
 
 1. 打开包含要重置其“使用情况指标报表”数据集的报表的工作区。
 
-2. 在顶部的黑色标题栏中，选择“设置”  图标，然后选择”设置”  。
+2. 在顶部的黑色标题栏中，选择“设置”图标，然后选择”设置”。
 
     ![选择“设置”](media/service-modern-usage-metrics/power-bi-settings-settings.png)
 
-3. 切换到“数据集”  选项卡，然后选择“使用情况指标报表”数据集。 
+3. 切换到“数据集”选项卡，然后选择“使用情况指标报表”数据集。 
 
     ![使用情况指标数据集](media/service-modern-usage-metrics/power-bi-settings-usage-report-dataset.png)
 
@@ -346,15 +346,15 @@ Power BI 在单独的国家云中可用。 这些云提供与全球版本 Power 
 
     ![使用情况指标数据集 URL](media/service-modern-usage-metrics/power-bi-usage-metrics-url.png)
 
-1. 在浏览器中转到 [https://docs.microsoft.com/rest/api/power-bi/datasets/deletedatasetingroup](https://docs.microsoft.com/rest/api/power-bi/datasets/deletedatasetingroup)，然后选择“试用”  按钮。
+1. 在浏览器中转到 [https://docs.microsoft.com/rest/api/power-bi/datasets/deletedatasetingroup](https://docs.microsoft.com/rest/api/power-bi/datasets/deletedatasetingroup)，然后选择“试用”按钮。
 
     ![删除数据集“试用”](media/service-modern-usage-metrics/power-bi-delete-dataset-try-it.png)
 
-1. 登录到 Power BI，将工作区 ID 粘贴到“groupId”  文本框，并将数据集 ID 粘贴到“datasetId”  文本框，然后选择“运行”  。 
+1. 登录到 Power BI，将工作区 ID 粘贴到“groupId”文本框，并将数据集 ID 粘贴到“datasetId”文本框，然后选择“运行”。 
 
     ![尝试 REST API](media/service-modern-usage-metrics/power-bi-rest-api-try-it.png)
 
-1. 在“运行”  按钮下，验证服务是否返回 200  响应代码。 该代码指示已成功删除数据集及其关联的使用情况指标报表。
+1. 在“运行”按钮下，验证服务是否返回 200 响应代码。 该代码指示已成功删除数据集及其关联的使用情况指标报表。
 
     ![响应代码 200](media/service-modern-usage-metrics/power-bi-response-code-200.png)
 
