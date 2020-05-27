@@ -4,17 +4,17 @@ description: 获取 Power BI 报表服务器的概述，以了解它如何适应
 keywords: ''
 author: maggiesMSFT
 ms.author: maggies
-ms.date: 04/29/2020
+ms.date: 05/14/2020
 ms.topic: overview
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.custom: mvc
-ms.openlocfilehash: 39ccb9120b7dd61d7f160c296d2de799b7f3fe23
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: 55a3614c5da2ea8b5ea1a8cbb6ee87b20c542df4
+ms.sourcegitcommit: 6ba7cc9afaf91229f717374bc0c12f0b8201d15e
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83141109"
+ms.lasthandoff: 05/16/2020
+ms.locfileid: "83438283"
 ---
 # <a name="what-is-power-bi-report-server"></a>什么是 Power BI 报表服务器？
 
@@ -26,7 +26,7 @@ Power BI 报表服务器是一个本地报表服务器，其中包含一个可�
 Power BI 报表服务器类似于 SQL Server Reporting Services 和 Power BI 联机服务，但采用不同的方式。 与 Power BI 服务一样，Power BI 报表服务器也可托管 Power BI 报表 (.pbix)、Excel 文件和分页报表 (.rdl)。 和 Reporting Services 一样，Power BI 报表服务器是本地服务器。 Power BI 报表服务器功能是 Reporting Services 的超集：Reporting Services 可执行的所有操作均可由 Power BI 报表服务器执行，后者还支持 Power BI 报表。 有关详细信息，请参阅[比较 Power BI 报表服务器和 Power BI 服务](compare-report-server-service.md)。
 
 ## <a name="licensing-power-bi-report-server"></a>授权 Power BI 报表服务器
-可以通过以下两个不同许可证来访问 Power BI 报表服务器：带软件保障的 [Power BI Premium](../admin/service-premium-what-is.md) 和 [SQL Server Enterprise Edition](https://www.microsoft.com/sql-server/sql-server-2017-editions)。 使用 Power BI Premium 许可证可以创建混合云和本地的混合部署。  
+可以通过以下两个不同许可证来访问 Power BI 报表服务器：带软件保障的 [Power BI Premium](../admin/service-premium-what-is.md) 和 SQL Server Enterprise Edition。 有关详细信息，请参阅 [Microsoft 批量授权](https://www.microsoftvolumelicensing.com/DocumentSearch.aspx?Mode=3&DocumentTypeId=1&ShowArchived=True)。 使用 Power BI Premium 许可证可以创建混合云和本地的混合部署。  
 
 > [!NOTE]
 > 对于 Power BI Premium，Power BI 报表服务器仅包含在 P SKU 中。 它不包含在 EM SKU 中。
