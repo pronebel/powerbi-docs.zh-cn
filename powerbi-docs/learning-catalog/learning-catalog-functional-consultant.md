@@ -6,12 +6,12 @@ ms.prod: powerbi
 ms.topic: article
 ms.date: 03/25/2020
 ms.author: v-lshann
-ms.openlocfilehash: 0a0964f82c80017b53feb668cca8399b18a72cfc
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 8d7642dfbac40b3a31190bc02835a4132ee12e11
+ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "81268503"
+ms.lasthandoff: 05/19/2020
+ms.locfileid: "83564068"
 ---
 # <a name="functional-application-consultant-learning-catalog"></a>职能应用程序顾问学习目录
 
@@ -82,7 +82,7 @@ ms.locfileid: "81268503"
 | [另请参阅：使用 Power BI 的 Excel 用户可以获得的 5 个优势](https://info.microsoft.com/excel-powerbi-better-together-ondemand.html)  | Excel 是世界上最受欢迎的程序之一。 数百万的个人和企业都在使用该程序执行各个方面的工作，从简单的数据录入和核算到更高级的统计和数据分析。 然而，许多人没有意识到，当他们将 Excel 与另一个 Microsoft 程序配合使用时，这将大大扩展 Excel 的功能，还可以节省时间和提高效率：Power BI。 我们将探讨你和你的企业可以通过配合使用 Excel 和 Power BI 受益的五个不同原因。 最后，你应该具备了推动组织开始分析、解读和利用数据所需的所有知识。 | 网络研讨会 |   |
 | [超出电子表格的功能](https://info.microsoft.com/CA-PowerBI-WBNR-FY18-05May-09-DataBeyondtheSpreadsheet-MCW0006385_02OnDemandRegistration-ForminBody.html)  | 号召所有 Excel 用户和分析师：更智能地工作、提供更多价值、专注于重要的内容。 了解如何制作人们想要使用的精美报表，以一种无需解释同事就能理解的方式直观地共享数据，并使需要理解信息的人无论在哪里都可以获得见解。 在本在线网络研讨会中了解 Microsoft Power BI 中的实践操作。  | 网络研讨会 |   |
 | [使用 Power BI 和 Visio 绘制正确的见解](https://info.microsoft.com/ww-ondemand-powerbi-and-visio.html) | 加入此网络研讨会，了解如何将 Power BI 仪表板与 Microsoft Visio 图表组合以创建功能强大的视觉对象见解。 Visio 和 Power BI 极为直观且自然互补。 通过 Visio，可以创建说明性图表，例如互连工作流和实际布局。 Power BI 有助于使用图表和地图生成直观的仪表板，以测量关键绩效指标并跟踪目标。| 网络研讨会 |   |
-| [Power BI、Excel 和 Office 365：优化企业数据](https://info.microsoft.com/Unlocking-the-Value-of-your-Enterprise-Data-OnDemandRegistration.html?Is=Website)  | 在此演示内容丰富的研讨会中，了解如何在 Power BI 中使用 Microsoft Excel 的独特优势来提升业务分析和见解。  | 网络研讨会 |   |
+| [Power BI、Excel 和 Microsoft 365：优化企业数据](https://info.microsoft.com/Unlocking-the-Value-of-your-Enterprise-Data-OnDemandRegistration.html?Is=Website)  | 在此演示内容丰富的研讨会中，了解如何在 Power BI 中使用 Microsoft Excel 的独特优势来提升业务分析和见解。  | 网络研讨会 |   |
 | [配合使用 Power BI 与 Dynamics 365 Finance and Operations](https://info.microsoft.com/ww-landing-Using-Power-BI-with-Dynamics-365-Finance-and-Operations-OnDemand.html)   | 报名参加此网络研讨会，了解如何使用 Azure Data Lake 在 Dynamics 365 财务和运营中嵌入和管理 Power BI 报表解决方案。 了解如何在不中断服务的情况下快速提供可操作的见解，以及如何使用 Power BI 向企业分享分析解决方案。  | 网络研讨会 |   |
 ## <a name="security"></a>安全性<a name="security"></a>
 | 内容   | 说明  | 格式   | 长度   |

@@ -4,16 +4,16 @@ description: 如何设置 Power BI Q&A 视觉对象
 author: rien
 ms.reviewer: mihart
 ms.service: powerbi
-ms.subservice: powerbi-service
+ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 11/19/2019
 ms.author: mohaali
-ms.openlocfilehash: e94b27945f277c352773e7f9eaa3979fa8bc7451
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: f5010362ef16d8433e2e4004bca5d7af74b3f762
+ms.sourcegitcommit: 2cb249fc855e369eed1518924fbf026d5ee07eb1
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83148348"
+ms.lasthandoff: 05/24/2020
+ms.locfileid: "83813683"
 ---
 # <a name="introduction-to-power-bi-qa-visualizations"></a>Power BI Q&A 可视化效果简介
 

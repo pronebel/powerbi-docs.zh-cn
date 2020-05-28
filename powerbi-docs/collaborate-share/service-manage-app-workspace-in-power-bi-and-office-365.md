@@ -1,6 +1,6 @@
 ---
-title: 管理 Power BI 和 Office 365 中的工作区
-description: Power BI 中的工作区是以 Office 365 组为基础的协作体验。 管理 Power BI 和 Office 365 中的工作区。
+title: 管理 Power BI 和 Microsoft 365 中的工作区
+description: Power BI 中的工作区是以 Microsoft 365 组为基础的协作体验。 管理 Power BI 和 Microsoft 365 中的工作区。
 author: maggiesMSFT
 ms.reviewer: lukasz
 ms.service: powerbi
@@ -9,27 +9,27 @@ ms.topic: conceptual
 ms.date: 03/02/2020
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 27f3c88607f57be8b5abffdbec71ecfe80beea23
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: 1365eba697538255ea8c23b03f0b5db71a7ba1cd
+ms.sourcegitcommit: 250242fd6346b60b0eda7a314944363c0bacaca8
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83348059"
+ms.lasthandoff: 05/20/2020
+ms.locfileid: "83693808"
 ---
-# <a name="manage-your-workspace-in-power-bi-and-office-365"></a>管理 Power BI 和 Office 365 中的工作区
+# <a name="manage-your-workspace-in-power-bi-and-microsoft-365"></a>管理 Power BI 和 Microsoft 365 中的工作区
 
-作为 [Power BI 或 Office 365 中的工作区](service-create-distribute-apps.md)的创建者或管理员，可以在 Power BI 中管理工作区的某些方面。 你在 Office 365 中管理的其他方面。
+[Power BI 或 Microsoft 365 中的工作区](service-create-distribute-apps.md)的创建者或管理员可以在 Power BI 中管理工作区的某些方面。 你在 Microsoft 365 中管理的其他方面。
 
 > [!NOTE]
-> 新工作区体验会更改 Power BI 工作区与 Office 365 组之间的关系。 每次创建新工作区时，不会自动创建 Office 365 组。 了解如何[创建新工作区](service-create-the-new-workspaces.md)。
+> 新工作区体验会更改 Power BI 工作区与 Microsoft 365 组之间的关系。 每次创建新工作区时，不会自动创建 Microsoft 365 组。 了解如何[创建新工作区](service-create-the-new-workspaces.md)。
 
-在 Power BI 中，你可以  ：
+在 Power BI 中，你可以：
 
 * 添加或删除工作区成员，包括使某个工作区成员成为管理员。
 * 编辑工作区名称。
-* 删除工作区，此操作还会删除 Office 365 组。
+* 删除工作区，此操作还会删除 Microsoft 365 组。
 
-在 Office 365 中，你可以  ：
+在 Microsoft 365 中可以执行以下操作：
 
 * 添加或删除工作区的组成员，包括将成员设为所有者。
 * 编辑组名称、图像、说明和其他设置。
@@ -40,12 +40,12 @@ ms.locfileid: "83348059"
 
 ## <a name="edit-your-workspace-in-power-bi"></a>编辑 Power BI 中的工作区
 
-1. 在 Power BI 服务中，选择“工作区”旁边的箭头，然后选择工作区名称旁边的“更多选择”(…)，接下来选择“编辑此工作区”    。
+1. 在 Power BI 服务中，选择“工作区”旁边的箭头，然后选择工作区名称旁边的“更多选择”(…)，接下来选择“编辑此工作区”  。
 
    ![在 Power BI 中编辑工作区](media/service-manage-app-workspace-in-power-bi-and-office-365/power-bi-app-ellipsis.png)
 
    > [!NOTE]
-   > 如果你是工作区管理员，则只能看到“编辑此工作区”  。
+   > 如果你是工作区管理员，则只能看到“编辑此工作区”。
 
 1. 可以在此处重命名工作区、添加或删除成员，也可以删除工作区。
 
@@ -53,27 +53,27 @@ ms.locfileid: "83348059"
 
 1. 选择**保存**或**取消**。
 
-## <a name="edit-power-bi-workspace-properties-in-office-365"></a>在 Office 365 中编辑 Power BI 工作区属性
+## <a name="edit-power-bi-workspace-properties-in-microsoft-365"></a>在 Microsoft 365 中编辑 Power BI 工作区属性
 
-也可以直接在 Outlook for Office 365 中编辑工作区的各个方面。
+也可以直接在 Outlook for Microsoft 365 中编辑工作区的各个方面。
 
 ### <a name="edit-the-members-of-the-workspace-group"></a>编辑工作区组的成员
 
-1. 在 Power BI 服务中，选择“工作区”旁边的箭头，然后选择工作区名称旁边的“更多选项”(…)，接下来选择“成员”    。
+1. 在 Power BI 服务中，选择“工作区”旁边的箭头，然后选择工作区名称旁边的“更多选项”(…)，接下来选择“成员”  。
 
    ![在 Power BI 中编辑工作区](media/service-manage-app-workspace-in-power-bi-and-office-365/power-bi-app-ellipsis-members.png)
 
-   这将打开工作区的 Outlook for Office 365 组视图。 可能需要登录到你的公司帐户。
+   这将打开工作区的 Outlook for Microsoft 365 组视图。 可能需要登录到你的公司帐户。
 
-1. 选择队友姓名旁边的角色，将此人设为“成员”或“所有者”   。 选择“X”以从组中删除此人  。
+1. 选择队友姓名旁边的角色，将此人设为“成员”或“所有者” 。 选择“X”以从组中删除此人。
 
-   ![在 Office 365 中编辑组](media/service-manage-app-workspace-in-power-bi-and-office-365/pbi_managegroupo365.png)
+   ![在 Microsoft 365 中编辑组](media/service-manage-app-workspace-in-power-bi-and-office-365/pbi_managegroupo365.png)
 
 ### <a name="add-an-image-and-set-other-workspace-properties"></a>添加图像并设置其他工作区属性
 
-从工作区分发应用时，在此处添加的图像即为应用的图像。 请参阅“创建新工作区”一文的[将图像添加到 Office 365 工作区](service-create-workspaces.md#add-an-image-to-your-office-365-workspace-optional)  。
+从工作区分发应用时，在此处添加的图像即为应用的图像。 请参阅“创建新工作区”一文中的[将图像添加到 Microsoft 365 工作区](service-create-workspaces.md#add-an-image-to-your-microsoft-365-workspace-optional)。
 
-1. 在工作区的 Outlook for Office 365 视图中，转到“关于”选项卡并选择“编辑”   。
+1. 在工作区的 Outlook for Microsoft 365 视图中，转到“关于”选项卡并选择“编辑” 。
 
     ![编辑组图标](media/service-manage-app-workspace-in-power-bi-and-office-365/pbi_editgroupo365.png)
 1. 可以编辑与组相关的通知的名称、描述和语言。 也可在此处添加图像，以及设置其他属性。

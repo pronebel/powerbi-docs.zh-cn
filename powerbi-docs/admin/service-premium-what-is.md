@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
-ms.date: 03/26/2020
+ms.date: 05/15/2020
 ms.custom: seodec18
 LocalizationGroup: Premium
-ms.openlocfilehash: c206e35651ef28c03151c6c5af8e5bae453d5d2b
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 290174f7848e4518a4b1489d0a90136e86d245da
+ms.sourcegitcommit: 6ba7cc9afaf91229f717374bc0c12f0b8201d15e
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83274365"
+ms.lasthandoff: 05/16/2020
+ms.locfileid: "83438237"
 ---
 # <a name="what-is-power-bi-premium"></a>什么是 Power BI Premium？
 
@@ -32,17 +32,17 @@ ms.locfileid: "83274365"
 
 ![管理门户](media/service-premium-what-is/premium-admin-portal.png) 
 
-本文介绍了 Power BI Premium 中的主要功能。 必要时，提供包含更多详细信息的其他文章的链接。 有关 Power BI Pro 和 Power BI Premium 的详细信息，请参阅 [Power BI 定价](https://powerbi.microsoft.com/pricing/)的“Power BI 功能比较”  部分。
+本文介绍了 Power BI Premium 中的主要功能。 必要时，提供包含更多详细信息的其他文章的链接。 有关 Power BI Pro 和 Power BI Premium 的详细信息，请参阅 [Power BI 定价](https://powerbi.microsoft.com/pricing/)的“Power BI 功能比较”部分。
 
 ## <a name="subscriptions-and-licensing"></a>订阅和许可
 
 Power BI Premium 是租户级别的 Office 365 订阅，可在两个 SKU（库存单位）系列中使用：
 
-- P  SKU (P1-P5)：用于嵌入和企业功能，需要包月或包年承诺，并按月计费，包含用于在本地安装 Power BI 报表服务器的许可证。
+- P SKU (P1-P5)：用于嵌入和企业功能，需要包月或包年承诺，并按月计费，包含用于在本地安装 Power BI 报表服务器的许可证。
 
-- 用于组织嵌入的 EM SKU (EM1-EM3)，要求按年承诺并按月计费   。 EM1 和 EM2 SKU 仅通过批量许可计划提供， 无法直接购买。
+- 用于组织嵌入的 EM SKU (EM1-EM3)，要求按年承诺并按月计费。 EM1 和 EM2 SKU 仅通过批量许可计划提供， 无法直接购买。
 
-另一种方法是在 Azure 中购买 Power BI Embedded 订阅  。 有一个 A (A1-A6) SKU 系列，它不需要承诺并按小时计费，以在应用程序、门户和网站中使用带有白色标记的 Power BI，或者作为测试 P 或 EM 容量的一种方法  。 所有 SKU 都提供 V 核心用于创建容量，但 EM SKU 仅限于较小规模的嵌入。 V 核心少于四个的 EM1、EM2、A1 和 A2 SKU 不在专用基础设施上运行。
+另一种方法是在 Azure 中购买 Power BI Embedded 订阅。 有一个 A (A1-A6) SKU 系列，它不需要承诺并按小时计费，以在应用程序、门户和网站中使用带有白色标记的 Power BI，或者作为测试 P 或 EM 容量的一种方法。 所有 SKU 都提供 V 核心用于创建容量，但 EM SKU 仅限于较小规模的嵌入。 V 核心少于四个的 EM1、EM2、A1 和 A2 SKU 不在专用基础设施上运行。
 
 虽然本文的重点是 P SKU，但其中大部分内容也与 A SKU 相关。 与 Premium 订阅 SKU 相反，Azure SKU 不需要时间承诺，并按小时计费。 它们提供全方位的灵活性，可实现纵向扩展、横向扩展、暂停、恢复和删除。 
 
@@ -59,8 +59,9 @@ Power BI Premium 订阅由 Microsoft 365 管理中心的管理员购买。 具�
 * Excel 工作簿（除非是首次将数据导入 Power BI Desktop）
 * [推送数据集](/rest/api/power-bi/pushdatasets)
 * [流数据集](../connect-data/service-real-time-streaming.md#set-up-your-real-time-streaming-dataset-in-power-bi)
+* [问答](../create-reports/power-bi-tutorial-q-and-a.md)
 
-工作区驻留在容量范围内。 每个 Power BI 用户都有一个称为“我的工作区”的个人工作区  。 可创建其他工作区来启用协作，这些工作区称为“工作区”  。 默认情况下，工作区（包括个人工作区）在共享容量中创建。 如果拥有高级容量，可将“我的工作区”和“工作区”都分配给高级容量。
+工作区驻留在容量范围内。 每个 Power BI 用户都有一个称为“我的工作区”的个人工作区。 可创建其他工作区来启用协作，这些工作区称为“工作区”。 默认情况下，工作区（包括个人工作区）在共享容量中创建。 如果拥有高级容量，可将“我的工作区”和“工作区”都分配给高级容量。
 
 ### <a name="capacity-nodes"></a>容量节点
 
@@ -68,7 +69,7 @@ Power BI Premium 订阅由 Microsoft 365 管理中心的管理员购买。 具�
 
 处理由一定数量的 V 核心实现，并在后端和前端之间平均分配。
 
-**后端 V 核心**负责核心 Power BI 功能，包括查询处理、缓存管理、运行 R 服务、模型刷新、自然语言处理（问答）以及在服务器端呈现报表和图像。 后端 V 核心分配到固定数量的内存，这些内存主要用于托管模型，也称为“活动数据集”。
+**后端 V 核心**负责核心 Power BI 功能，包括查询处理、缓存管理、运行 R 服务、模型刷新以及在服务器端呈现报表和图像。 后端 V 核心分配到固定数量的内存，这些内存主要用于托管模型，也称为“活动数据集”。
 
 **前端 V 核心**负责 Web 服务、仪表板和报表文档管理、访问权限管理、时间安排、API、上传和下载，以及通常与用户体验相关的所有内容。
 
@@ -95,7 +96,7 @@ Power BI Premium 订阅由 Microsoft 365 管理中心的管理员购买。 具�
 
 容量工作负载是为用户提供的服务。 默认情况下，Premium 和 Azure 容量仅支持与运行 Power BI 查询关联的数据集工作负载。 无法禁用数据集工作负载。 可以为 [AI（认知服务）](https://powerbi.microsoft.com/blog/easy-access-to-ai-in-power-bi-preview/)、[数据流](../transform-model/service-dataflows-overview.md#dataflow-capabilities-on-power-bi-premium)和[分页报表](../paginated-reports/paginated-reports-save-to-power-bi-service.md)启用其他工作负载。 这些工作负载仅在 Premium 订阅中受到支持。 
 
-每个额外的工作负载都允许配置工作负载可使用的最大内存（以占可用内存总量的百分比的形式）。 最大内存的默认值由 SKU 确定。 通过在使用这些额外工作负载时仅启用这些额外工作负载，可以最大化容量的可用资源。 仅在已确定默认设置不满足容量资源要求时，才能更改内存设置。 通过使用[管理门户](service-admin-portal.md)中的“容量设置”，或通过使用[容量 REST API](https://docs.microsoft.com/rest/api/power-bi/capacities)，容量管理员可以为容量启用和配置工作负载  。  
+每个额外的工作负载都允许配置工作负载可使用的最大内存（以占可用内存总量的百分比的形式）。 最大内存的默认值由 SKU 确定。 通过在使用这些额外工作负载时仅启用这些额外工作负载，可以最大化容量的可用资源。 仅在已确定默认设置不满足容量资源要求时，才能更改内存设置。 通过使用[管理门户](service-admin-portal.md)中的“容量设置”，或通过使用[容量 REST API](https://docs.microsoft.com/rest/api/power-bi/capacities)，容量管理员可以为容量启用和配置工作负载。  
 
 ![启用工作负载](media/service-admin-premium-workloads/admin-portal-workloads.png)
 
@@ -218,7 +219,7 @@ P1-P3 和 A4_A6 SKU 支持的分页报表基于 SQL Server Reporting Services �
 
 ## <a name="power-bi-report-server"></a>Power BI 报表服务器
  
-Power BI Premium 随附 Power BI 报表服务器，后者是带有 Web 门户的本地  报表服务器。 可以在本地生成 BI 环境，并在组织的防火墙后面分发报表。 报表服务器使用户可以访问 SQL Server Reporting Services 丰富的交互式功能以及企业报告功能。 用户可以浏览可视化数据并快速发现模式，以便更快地作出更好的决策。 报表服务器按照你自己的方式提供治理。 如果时机成熟，Power BI 报表服务器会使其能够轻松迁移到云中，此时，组织可以充分利用所有 Power BI Premium 功能。
+Power BI Premium 随附 Power BI 报表服务器，后者是带有 Web 门户的本地报表服务器。 可以在本地生成 BI 环境，并在组织的防火墙后面分发报表。 报表服务器使用户可以访问 SQL Server Reporting Services 丰富的交互式功能以及企业报告功能。 用户可以浏览可视化数据并快速发现模式，以便更快地作出更好的决策。 报表服务器按照你自己的方式提供治理。 如果时机成熟，Power BI 报表服务器会使其能够轻松迁移到云中，此时，组织可以充分利用所有 Power BI Premium 功能。
 
 若要了解详细信息，请参阅 [Power BI 报表服务器](../report-server/get-started.md)。
 
@@ -234,7 +235,7 @@ Premium 允许 Pro 用户广泛分发内容，且不要求查看内容的收件�
 
 ## <a name="analysis-services-in-power-bi-premium-preview"></a>Power BI Premium 中的 Analysis Services（预览）
 
-在后台，久经企业考验的 Microsoft Analysis Services Vertipaq 引擎  为 Power BI Premium 工作区和数据集提供技术支持。 Analysis Services 通过支持开放标准 XMLA 协议的客户端库和 API 提供可编程性以及客户端应用程序和工具支持。 默认情况下，Power BI Premium 容量数据集工作负荷支持 Microsoft 和第三方客户端应用程序和工具通过 XMLA 终结点  执行只读  操作。 容量管理员还可以选择禁用或允许通过终结点执行读/写  操作。
+在后台，久经企业考验的 Microsoft Analysis Services Vertipaq 引擎为 Power BI Premium 工作区和数据集提供技术支持。 Analysis Services 通过支持开放标准 XMLA 协议的客户端库和 API 提供可编程性以及客户端应用程序和工具支持。 默认情况下，Power BI Premium 容量数据集工作负荷支持 Microsoft 和第三方客户端应用程序和工具通过 XMLA 终结点执行只读操作。 容量管理员还可以选择禁用或允许通过终结点执行读/写操作。
 
 借助只读权限，SQL Server Management Studio (SSMS) 和 SQL Server Profiler 等 Microsoft 工具以及 DAX Studio 和数据可视化应用程序等第三方应用程序可以使用 XMLA、DAX、MDX、DMV 和跟踪事件连接到并查询 Premium 数据集。 借助读/写权限，企业数据建模工具（如包含 Analysis Services 项目扩展的 Visual Studio 或开放源代码表格编辑器）可以将表格模型作为数据集部署到 Premium 工作区。 借助 SSMS 等工具，管理员可以使用表格模型脚本语言 (TMSL)，为元数据更改和高级数据刷新方案编写脚本。 
 
