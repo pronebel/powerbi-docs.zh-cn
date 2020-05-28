@@ -9,18 +9,18 @@ ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.custom: ''
 ms.date: 03/30/2020
-ms.openlocfilehash: 40f713c2fd021ea8ecea5789b8ad0bc54cff2294
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 5e9b14fb0eccc0418ca7d5b4a7859f26c1781d50
+ms.sourcegitcommit: a7b142685738a2f26ae0a5fa08f894f9ff03557b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83275952"
+ms.lasthandoff: 05/28/2020
+ms.locfileid: "84121210"
 ---
 # <a name="embedding-power-bi-content-with-service-principal-and-application-secret"></a>使用服务主体和应用程序密码嵌入 Power BI 内容
 
 [!INCLUDE[service principal overview](../../includes/service-principal-overview.md)]
 
-本文介绍了如何使用应用程序 ID  和应用程序密码  进行服务主体身份验证。
+本文介绍了如何使用应用程序 ID 和应用程序密码进行服务主体身份验证。
 
 ## <a name="method"></a>方法
 
@@ -30,10 +30,10 @@ ms.locfileid: "83275952"
 
     1. 创建 Azure AD 应用程序密码。
     
-    2. 获取应用程序的应用程序 ID  和应用程序密码  。
+    2. 获取应用程序的应用程序 ID 和应用程序密码。
 
     >[!NOTE]
-    >“第 1 步”  中介绍了这些步骤。 若要详细了解如何创建 Azure AD 应用程序，请参阅[创建 Azure AD 应用程序](https://docs.microsoft.com/azure/active-directory/develop/howto-create-service-principal-portal)一文。
+    >“第 1 步”中介绍了这些步骤。 若要详细了解如何创建 Azure AD 应用程序，请参阅[创建 Azure AD 应用程序](https://docs.microsoft.com/azure/active-directory/develop/howto-create-service-principal-portal)一文。
 
 2. 创建 Azure AD 安全组。
 
@@ -56,11 +56,11 @@ ms.locfileid: "83275952"
 
 1. 登录 [Microsoft Azure](https://portal.azure.com/#allservices)。
 
-2. 搜索“应用程序注册”  ，然后单击“应用程序注册”  链接。
+2. 搜索“应用程序注册”，然后单击“应用程序注册”链接。
 
     ![Azure 应用程序注册](media/embed-service-principal/azure-app-registration.png)
 
-3. 单击“新建注册”  。
+3. 单击“新建注册”。
 
     ![新建注册](media/embed-service-principal/new-registration.png)
 
@@ -69,23 +69,23 @@ ms.locfileid: "83275952"
     * **支持的帐户类型** - 选择所需的 Azure AD 帐户
     * （可选）**重定向 URI** - 视需要输入 URI
 
-5. 单击“注册”  。
+5. 单击“注册”。
 
-6. 注册后，可以从“概览”  选项卡中获取“应用程序 ID”  。复制并保存“应用程序 ID”  ，以供日后使用。
+6. 注册后，可以从“概览”选项卡中获取“应用程序 ID”。复制并保存“应用程序 ID”，以供日后使用。
 
     ![应用程序 ID](media/embed-service-principal/application-id.png)
 
-7. 单击“证书和密码”  选项卡。
+7. 单击“证书和密码”选项卡。
 
      ![应用程序 ID](media/embed-service-principal/certificates-and-secrets.png)
 
-8. 单击“新建客户端密码” 
+8. 单击“新建客户端密码”
 
     ![新建客户端密码](media/embed-service-principal/new-client-secret.png)
 
-9. 在“添加客户端密码”  窗口中，输入描述，指定所需的客户端密码到期时间，然后单击“添加”  。
+9. 在“添加客户端密码”窗口中，输入描述，指定所需的客户端密码到期时间，然后单击“添加”。
 
-10. 复制并保存“客户端密码”  值。
+10. 复制并保存“客户端密码”值。
 
     ![“客户端密码”值](media/embed-service-principal/client-secret-value.png)
 
@@ -148,7 +148,7 @@ Add-AzureADGroupMember -ObjectId $($group.ObjectId) -RefObjectId $($sp.ObjectId)
 
 为了让 Azure AD 应用程序能够访问 Power BI 内容和 API，Power BI 管理员必须在 Power BI 管理门户中启用服务主体访问权限。
 
-在“开发人员设置”  中，将你在 Azure AD 中创建的安全组添加到特定安全组部分。
+在“开发人员设置”中，将你在 Azure AD 中创建的安全组添加到特定安全组部分。
 
 >[!IMPORTANT]
 >服务主体有权访问为其启用的任何租户设置。 这包括特定安全组或整个组织，具体视管理设置而定。
@@ -164,11 +164,11 @@ Add-AzureADGroupMember -ObjectId $($group.ObjectId) -RefObjectId $($sp.ObjectId)
 >[!NOTE]
 >此部分提供了 UI 说明。 也可以使用[“组 - 添加组用户”API](https://docs.microsoft.com/rest/api/power-bi/groups/addgroupuser) 将服务主体添加到工作区。
 
-1. 滚动到要能够访问的工作区，然后选择“更多”  菜单中的“工作区访问”  。
+1. 滚动到要能够访问的工作区，然后选择“更多”菜单中的“工作区访问”。
 
     ![工作区设置](media/embed-service-principal/workspace-access.png)
 
-2. 以管理员  或成员  身份将服务主体添加到工作区。
+2. 以管理员或成员身份将服务主体添加到工作区。
 
     ![工作区管理员](media/embed-service-principal/add-service-principal-in-the-UI.png)
 
@@ -184,11 +184,10 @@ Add-AzureADGroupMember -ObjectId $($group.ObjectId) -RefObjectId $($sp.ObjectId)
 ## <a name="considerations-and-limitations"></a>注意事项和限制
 
 * 服务主体仅适用于[新的工作区](../../collaborate-share/service-create-the-new-workspaces.md)。
-* 使用服务主体时，不支持“我的工作区”  。
+* 使用服务主体时，不支持“我的工作区”。
 * 移动到生产环境时，需要专用容量。
 * 无法使用服务主体登录 Power BI 门户。
 * 在 Power BI 管理门户的开发人员设置中启用服务主体需要 Power BI 管理权限。
-* 无法使用服务主体安装或管理本地数据网关。
 * 无法使用服务主体[为组织应用程序嵌入内容](embed-sample-for-your-organization.md)。
 * 不支持[数据流](../../transform-model/service-dataflows-overview.md)管理。
 * 服务主体目前不支持任何管理员 API。

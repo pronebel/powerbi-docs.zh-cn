@@ -4,17 +4,17 @@ description: Power BI 服务中的聚焦会突出显示重要数据和见解。
 author: mihart
 ms.reviewer: ''
 ms.service: powerbi
-ms.subservice: powerbi-service
+ms.subservice: powerbi-consumer
 ms.topic: conceptual
 ms.date: 03/04/2020
 ms.author: mihart
 LocalizationGroup: Consumer
-ms.openlocfilehash: 0a306b3a5d23f8ed146d3a71c7b851fd809edae3
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: cc43d0df094befa231e696b6725c973cdb954f44
+ms.sourcegitcommit: 2cb249fc855e369eed1518924fbf026d5ee07eb1
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "79114011"
+ms.lasthandoff: 05/24/2020
+ms.locfileid: "83813775"
 ---
 # <a name="add-spotlights-to-power-bi-reports"></a>向 Power BI 报表添加聚焦
 
