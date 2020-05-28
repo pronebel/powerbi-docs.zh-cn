@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: conceptual
 ms.date: 04/29/2020
-ms.openlocfilehash: 3677e29e4ca9bc13bf0c7397d854dea62ec5f70f
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 0089a38c852d82acaebc8cab0f0fb653c6a304cb
+ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "82584992"
+ms.lasthandoff: 05/19/2020
+ms.locfileid: "83565617"
 ---
 # <a name="paginated-reports-in-power-bi-faq"></a>Power BI 中的分页报表：常见问题解答 
 
@@ -41,7 +41,7 @@ ms.locfileid: "82584992"
 
 ### <a name="how-can-i-monitor-usage-of-paginated-reports-in-my-tenant"></a>我如何在我的租户中监视分页报表的使用？
 
-Office 365 审核日志在以下活动下详细记录此报表类型的使用情况： 
+审核日志在以下活动下详细记录此报表类型的使用情况：
 
 - 查看 Power BI 报表
 - 删除 Power BI 报表
@@ -76,7 +76,7 @@ ReportType 字段使用“PaginatedReport”值来标识分页，这与 Power BI
 - **P2/A5**：默认为 20%，最低为 5%
 - **P3/A6**：默认为 20%，最低为 2.5%
 
-Power BI 租户管理员可在管理门户修改默认最大内存百分比。 请参阅“Power BI Premium”下“容量设置”选项卡上的“分页报表”工作负载    。
+Power BI 租户管理员可在管理门户修改默认最大内存百分比。 请参阅“Power BI Premium”下“容量设置”选项卡上的“分页报表”工作负载  。
 
 :::image type="content" source="media/paginated-reports-faq/paginated-reports-capacity-settings.png" alt-text="分页报表的“容量设置”选项卡":::
 
@@ -152,7 +152,7 @@ Azure Analysis Services、Azure SQL 数据库和 Power BI 数据源支持 SSO。
 
 ### <a name="can-i-use-power-bi-embedded-to-embed-my-paginated-reports-into-an-app-im-hosting"></a>我可以使用 Power BI Embedded 将我的分页报表嵌入到我正在管理的应用中吗？
 
-SaaS 嵌入（包括安全嵌入支持）现已可用。 有关 PaaS 嵌入，请参阅[在应用程序中为客户嵌入 Power BI 分页报表](../developer/embed-paginated-reports-customers.md)教程。
+SaaS 嵌入（包括安全嵌入支持）现已可用。 有关 PaaS 嵌入，请参阅[在应用程序中为客户嵌入 Power BI 分页报表](../developer/embedded/embed-paginated-reports-customers.md)教程。
 
 ### <a name="can-i-drill-through-from-a-power-bi-report-to-a-paginated-report"></a>我是否可以从 Power BI 报表钻取到分页报表？
 

@@ -8,16 +8,16 @@ ms.topic: conceptual
 ms.date: 03/23/2020
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 08b9585195e805548546e832915e07f0e02265f5
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: dd474da6a3fb61b6fd78dc55a6b0313e51bbb773
+ms.sourcegitcommit: 250242fd6346b60b0eda7a314944363c0bacaca8
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83348266"
+ms.lasthandoff: 05/20/2020
+ms.locfileid: "83693569"
 ---
 # <a name="publish-an-app-in-power-bi"></a>在 Power BI 中发布应用
 
-在 Power BI 中，可创建正式的打包内容，然后将其作为应用分发给广大受众  。 在工作区中创建应用，可在工作区中与同事协作处理 Power BI 内容  。 然后可以将已完成的应用发布给组织中的许多人员。 
+在 Power BI 中，可创建正式的打包内容，然后将其作为应用分发给广大受众。 在工作区中创建应用，可在工作区中与同事协作处理 Power BI 内容。 然后可以将已完成的应用发布给组织中的许多人员。 
 
 ![Power BI 应用](media/service-create-distribute-apps/power-bi-new-apps.png)
 
@@ -33,15 +33,15 @@ ms.locfileid: "83348266"
 你可以创建其中具有内置导航的应用，这样你的用户就可以轻松找到你的内容。 他们无法修改应用的内容。 但可以在 Power BI 服务或其中一个移动应用中与之进行交互 - 自行对数据进行筛选、突出显示和排序。 他们将自动获得更新，你可以控制数据刷新的频率。 你还可以为他们提供生成权限以连接到基础数据集，并在应用中创建报表的副本。 详细了解[生成权限](../connect-data/service-datasets-build-permissions.md)。
 
 ## <a name="licenses-for-apps"></a>应用许可证
-若要创建或更新应用，你需要具有 Power BI Pro 许可证。 对应用使用者来说，有以下两种选项  。
+若要创建或更新应用，你需要具有 Power BI Pro 许可证。 对应用使用者来说，有以下两种选项。
 
-* **选项 1** 此应用的工作区不包括在 Power BI Premium 容量中  ：所有业务用户都需要 Power BI Pro 许可才能查看应用。 
-* **选项 2** 此应用的工作区包含在 Power BI Premium 容量中  ：组织中没有 Power BI Pro 许可证的业务用户也可查看应用内容。 但是，他们无法复制报表，也无法基于基础数据集创建报表。 请阅读[什么是 Power BI Premium？](../admin/service-premium-what-is.md)了解详细信息。
+* **选项 1** 此应用的工作区不包括在 Power BI Premium 容量中：所有业务用户都需要 Power BI Pro 许可才能查看应用。 
+* **选项 2** 此应用的工作区包含在 Power BI Premium 容量中：组织中没有 Power BI Pro 许可证的业务用户也可查看应用内容。 但是，他们无法复制报表，也无法基于基础数据集创建报表。 请阅读[什么是 Power BI Premium？](../admin/service-premium-what-is.md)了解详细信息。
 
 ## <a name="publish-your-app"></a>发布你的应用
 工作区中的仪表板和报表准备就绪后，选择要发布的仪表板和报表，然后将其作为应用发布。 
 
-1. 在工作区列表视图中决定应用要包含的仪表板和报表  。
+1. 在工作区列表视图中决定应用要包含的仪表板和报表。
 
     ![选择要发布的仪表板](media/service-create-distribute-apps/power-bi-apps-incude-dashboard.png)
 
@@ -49,22 +49,22 @@ ms.locfileid: "83348266"
 
     ![关于相关仪表板的警告](media/service-create-distribute-apps/power-bi-apps-report-warning.png)
 
-2. 选择右上角的“发布应用”按钮，启动从工作区创建和发布应用的进程  。
+2. 选择右上角的“发布应用”按钮，启动从工作区创建和发布应用的进程。
    
     ![发布应用](media/service-create-distribute-apps/power-bi-apps-publish-button.png)
 
-3. 在“设置”中，填写名称和说明以帮助用户查找应用  。 可以选择主题颜色对其进行个性化设置。 还可以添加指向支持站点的链接。
+3. 在“设置”中，填写名称和说明以帮助用户查找应用。 可以选择主题颜色对其进行个性化设置。 还可以添加指向支持站点的链接。
    
     ![生成应用](media/service-create-distribute-apps/power-bi-apps-build-your-apps.png)
 
-4. 在“导航”中，选择要作为应用的一部分进行发布的内容  。 然后添加应用导航以组织各节的内容。 请参阅本文中的[设计应用的导航体验](#design-the-navigation-experience)，获取详细信息。
+4. 在“导航”中，选择要作为应用的一部分进行发布的内容。 然后添加应用导航以组织各节的内容。 请参阅本文中的[设计应用的导航体验](#design-the-navigation-experience)，获取详细信息。
    
     ![应用导航](media/service-create-distribute-apps/power-bi-apps-navigation.png)
 
-5. 在“权限”中，确定可以访问应用的人员，以及他们可对应用进行的操作  。 
+5. 在“权限”中，确定可以访问应用的人员，以及他们可对应用进行的操作。 
 
     - 在[经典工作区](service-create-workspaces.md)中：你组织中的每个人、特定人员或 Azure Active Directory (Azure AD) 安全组。
-    - 在[新的体验工作区](service-create-the-new-workspaces.md)中：特定人员、Azure AD 安全组和通讯组列表，以及 Office 365 组。 所有工作区用户都将自动获得对工作区应用的访问权限。
+    - 在[新的体验工作区](service-create-the-new-workspaces.md)中：特定人员、Azure AD 安全组和通讯组列表，以及 Microsoft 365 组。 所有工作区用户都将自动获得对工作区应用的访问权限。
     - 可以允许应用用户通过授予他们“生成”权限来连接到应用的基础数据集。 他们在搜索共享数据集时会看到这些数据集。 阅读本文，了解有关[允许用户连接到应用的数据集](#allow-users-to-connect-to-datasets)的详细信息。
     - 具有“生成”权限的用户还有权将此应用中的报表复制到其他工作区。 阅读本文，了解有关[允许用户在应用中复制报表](#allow-users-to-copy-reports)的详细信息。
     
@@ -76,11 +76,11 @@ ms.locfileid: "83348266"
 
     ![应用权限](media/service-create-distribute-apps/power-bi-apps-permissions.png)
 
-7. 选择“发布应用”时，将看到一条消息，用于确认应用已准备好发布  。 在“共享此应用”对话框中，可以复制指向此应用的直接链接 URL  。
+7. 选择“发布应用”时，将看到一条消息，用于确认应用已准备好发布。 在“共享此应用”对话框中，可以复制指向此应用的直接链接 URL。
    
     ![应用完成](media/service-create-distribute-apps/power-bi-apps-success.png)
 
-可将该直接链接发送给你已与其共享过的人，或者他们可以通过转到“从 AppSource 下载并浏览更多应用”，在“应用”选项卡上找到你的应用  。 详细了解[业务用户的应用体验](../consumer/end-user-apps.md)。
+可将该直接链接发送给你已与其共享过的人，或者他们可以通过转到“从 AppSource 下载并浏览更多应用”，在“应用”选项卡上找到你的应用。 详细了解[业务用户的应用体验](../consumer/end-user-apps.md)。
 
 ## <a name="change-your-published-app"></a>更改已发布的应用
 发布应用后，你可能想要更改或更新它。 如果你是新工作区的管理员或成员，则很方便进行更新。 
@@ -96,30 +96,30 @@ ms.locfileid: "83348266"
     > [!IMPORTANT]
     > 如果删除报表并更新应用，那么即使将报表添加回应用，应用使用者也会丢失书签、评论等所有自定义设置。  
  
-3. 返回到内容的工作区列表，然后在右上角选择“更新应用”  。
+3. 返回到内容的工作区列表，然后在右上角选择“更新应用”。
    
-1. 如有需要，更新“设置”、“导航”和“权限”，然后选择“更新应用”     。
+1. 如有需要，更新“设置”、“导航”和“权限”，然后选择“更新应用”   。
    
 应用的发布对象会自动看到更新版应用。 
 
 ## <a name="design-the-navigation-experience"></a>设计导航体验
-通过“新建导航生成器”选项可为应用生成自定义导航  。 用户通过自定义导航可以更轻松地找到和使用应用中的内容。 现有应用的此选项处于关闭状态，而新应用的此选项默认开启。
+通过“新建导航生成器”选项可为应用生成自定义导航。 用户通过自定义导航可以更轻松地找到和使用应用中的内容。 现有应用的此选项处于关闭状态，而新应用的此选项默认开启。
 
-关闭该选项时，可以选择将“应用登录页”设置为“特定内容”（例如仪表板或报表），或者选择“无”来向用户展示内容基本列表    。
+关闭该选项时，可以选择将“应用登录页”设置为“特定内容”（例如仪表板或报表），或者选择“无”来向用户展示内容基本列表  。
 
-打开“新建导航生成器”时，你可以设计自定义导航  。 应用中包含的所有报表、仪表板和 Excel 工作簿默认以简单列表形式列出。 
+打开“新建导航生成器”时，你可以设计自定义导航。 应用中包含的所有报表、仪表板和 Excel 工作簿默认以简单列表形式列出。 
 
 ![应用导航](media/service-create-distribute-apps/power-bi-apps-navigation.png)
 
 可以通过以下方式进一步自定义应用导航：
 
 * 使用向上/向下箭头重新排列项。 
-* 重命名“报表详细信息”、“仪表板详细信息”和“工作簿详细信息”中的项    。
+* 重命名“报表详细信息”、“仪表板详细信息”和“工作簿详细信息”中的项  。
 * 隐藏导航栏中的某些项。
-* 使用“新建”选项为组相关内容添加“节”   。
-* 使用“新建”选项将指向外部资源的“链接”添加到导航窗格   。 
+* 使用“新建”选项为组相关内容添加“节” 。
+* 使用“新建”选项将指向外部资源的“链接”添加到导航窗格 。 
 
-添加“链接”时，可在“链接详细信息”中选择打开链接的位置   。 链接默认在“当前选项卡”中打开，但也可以选择在“新选项卡”或“内容区域”中打开    。 
+添加“链接”时，可在“链接详细信息”中选择打开链接的位置 。 链接默认在“当前选项卡”中打开，但也可以选择在“新选项卡”或“内容区域”中打开  。 
 
 ### <a name="considerations-for-using-the-new-navigation-builder-option"></a>使用“新建导航生成器”选项的注意事项
 以下是使用“新建导航生成器”时，需要注意的一般事项：
@@ -139,10 +139,10 @@ ms.locfileid: "83348266"
 * 嵌入内容的顶部显示安全警告，表示该内容不在 Power BI 中。
 
 ## <a name="automatically-install-apps-for-end-users"></a>自动为最终用户安装应用
-如果管理员为你提供了权限，则你可以自动安装应用，并将其推送到最终用户  。 借助此推送功能可以更轻松地将合适的应用分发给合适的人员或组。 最终用户的应用内容列表中自动显示你的应用。 用户无需通过 Microsoft AppSource 或单击安装链接查找你的应用。 请在 Power BI 管理员门户文章中参阅管理员如何确保[将应用推送给最终用户](../admin/service-admin-portal.md#push-apps-to-end-users)。
+如果管理员为你提供了权限，则你可以自动安装应用，并将其推送到最终用户。 借助此推送功能可以更轻松地将合适的应用分发给合适的人员或组。 最终用户的应用内容列表中自动显示你的应用。 用户无需通过 Microsoft AppSource 或单击安装链接查找你的应用。 请在 Power BI 管理员门户文章中参阅管理员如何确保[将应用推送给最终用户](../admin/service-admin-portal.md#push-apps-to-end-users)。
 
 ### <a name="how-to-push-an-app-automatically-to-end-users"></a>如何将应用自动推送给最终用户
-管理员分配权限后，可通过一个新选项来自动安装应用  。 选中该框并选择“发布应用”（或“更新应用”）时，该应用将推送到“访问”选项卡上应用“权限”部分中定义的所有用户或组     。
+管理员分配权限后，可通过一个新选项来自动安装应用。 选中该框并选择“发布应用”（或“更新应用”）时，该应用将推送到“访问”选项卡上应用“权限”部分中定义的所有用户或组   。
 
 ![启用推送应用功能](media/service-create-distribute-apps//power-bi-apps-access.png)
 
@@ -166,7 +166,7 @@ ms.locfileid: "83348266"
 
 ## <a name="allow-users-to-connect-to-datasets"></a>允许用户连接到数据集
 
-选中“允许用户连接到应用基础数据集”的选项时，即意味着应用用户将获得对这些数据集的“生成”权限   。 具有此权限的用户可以执行几个关键操作：
+选中“允许用户连接到应用基础数据集”的选项时，即意味着应用用户将获得对这些数据集的“生成”权限。 具有此权限的用户可以执行几个关键操作：
 
 - [使用应用数据集](../connect-data/service-datasets-across-workspaces.md)作为其报表的基础。
 - 在 Power BI Desktop 和 Power BI 服务的“获取数据”体验中搜索这些数据集。
@@ -176,7 +176,7 @@ ms.locfileid: "83348266"
 
 ## <a name="allow-users-to-copy-reports"></a>允许用户复制报表
 
-选中“允许用户创建此应用中报表的副本”选项时，即意味着用户可以将应用中的任何报表保存到“我的工作区”或其他工作区  。 若要创建副本，即使原始报表位于高级容量的工作区中，用户也需要一个 Pro 许可证。 然后，他们可以根据自己的独特需求自定义报表。 必须首先选择“允许所有用户使用生成权限连接到应用的基础数据集”选项  。 选中这些选项，即意味着启用新的[从其他工作区复制报表](../connect-data/service-datasets-copy-reports.md)功能。
+选中“允许用户创建此应用中报表的副本”选项时，即意味着用户可以将应用中的任何报表保存到“我的工作区”或其他工作区。 若要创建副本，即使原始报表位于高级容量的工作区中，用户也需要一个 Pro 许可证。 然后，他们可以根据自己的独特需求自定义报表。 必须首先选择“允许所有用户使用生成权限连接到应用的基础数据集”选项。 选中这些选项，即意味着启用新的[从其他工作区复制报表](../connect-data/service-datasets-copy-reports.md)功能。
 
 ## <a name="unpublish-an-app"></a>取消发布应用
 工作区的任何成员都可以取消发布应用。
@@ -185,7 +185,7 @@ ms.locfileid: "83348266"
 >取消发布应用后，应用用户将丢失其自定义设置。 来宾用户将丢失与应用中的内容相关联的任何个人书签、注释或订阅。 仅在必须删除应用时才取消发布该应用。
 > 
 
-* 在工作区中，依次选择右上角的省略号 (...) 和“取消发布应用”   。
+* 在工作区中，依次选择右上角的省略号 (...) 和“取消发布应用” 。
   
     ![取消发布应用](media/service-create-distribute-apps/power-bi-app-unpublish.png)
 

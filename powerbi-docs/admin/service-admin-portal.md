@@ -10,22 +10,22 @@ ms.date: 04/27/2020
 ms.author: kfollis
 ms.custom: seodec18
 LocalizationGroup: Administration
-ms.openlocfilehash: 8ff022c09fc58f5ebeadbb869039c00c6dd28533
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: b08184e92730bd3a42a91424883d07cecec82549
+ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83275584"
+ms.lasthandoff: 05/19/2020
+ms.locfileid: "83564463"
 ---
 # <a name="administering-power-bi-in-the-admin-portal"></a>在管理门户中管理 Power BI
 
 借助管理门户，用户可以管理组织中的 Power BI 租户。 门户包括诸如使用情况指标、对 Microsoft 365 管理中心的访问以及设置这类项目。
 
-Office 365 中的全局管理员或分配有 Power BI 服务管理员角色的用户都可以访问完整的管理门户。 如果你不是这些角色之一，则只能在门户中看到“容量设置”。 若要详细了解 Power BI 服务管理员角色，请参阅[了解 Power BI 管理员角色](service-admin-role.md)。
+所有全局管理员或分配有 Power BI 服务管理员角色的所有用户都可以访问完整的管理门户。 如果你不是这些角色之一，则只能在门户中看到“容量设置”。 若要详细了解 Power BI 服务管理员角色，请参阅[了解 Power BI 管理员角色](service-admin-role.md)。
 
 ## <a name="how-to-get-to-the-admin-portal"></a>如何访问管理门户
 
-帐户必须标记为 Office 365 或 Azure Active Directory (Azure AD) 中的全局管理员，或者已分配 Power BI 服务管理员角色，才能获取对 Power BI 管理门户的访问权限。 若要详细了解 Power BI 服务管理员角色，请参阅[了解 Power BI 管理员角色](service-admin-role.md)。 若要访问 Power BI 管理门户，请执行以下操作。
+帐户必须标记为 Microsoft 365 或 Azure Active Directory (Azure AD) 中的全局管理员，或者已分配 Power BI 服务管理员角色，才能获取对 Power BI 管理门户的访问权限。 若要详细了解 Power BI 服务管理员角色，请参阅[了解 Power BI 管理员角色](service-admin-role.md)。 若要访问 Power BI 管理门户，请执行以下操作。
 
 1. 在 Power BI 服务右上角选择设置齿轮。
 
@@ -85,7 +85,7 @@ Office 365 中的全局管理员或分配有 Power BI 服务管理员角色的�
 
 ## <a name="control-usage-metrics"></a>控制使用指标
 
-使用情况指标报表是 Power BI 或 Office 365 管理员可以启用或禁用的一项功能。 管理员可以对哪些用户有权访问使用指标进行精细控制。 对于组织中的所有用户，默认情况下处于“打开”状态。
+使用情况指标报表是 Power BI 或 Microsoft 365 管理员可以启用或禁用的一项功能。 管理员可以对哪些用户有权访问使用指标进行精细控制。 对于组织中的所有用户，默认情况下处于“打开”状态。
 
 管理员还可以确定内容创建者是否可以查看使用指标中的每个用户数据。 
 
@@ -180,19 +180,19 @@ Office 365 中的全局管理员或分配有 Power BI 服务管理员角色的�
 
 在“租户设置”中，管理门户有两部分用于控制工作区：
 
-- 创建全新的工作区体验。
+- 创建新的工作区体验。
 - 跨工作区使用数据集。
 
 ### <a name="create-the-new-workspaces"></a>创建新工作区
 
-工作区是用户可在仪表板、报表和其他内容上开展协作的地方。 管理员使用“创建工作区(新工作区体验)”设置，指明组织中的哪些用户可以创建工作区。 管理员可以允许组织中的每个人或不允许组织中的任何人创建提供新工作区体验的工作区。 管理员还可以限制特定安全组的成员进行创建。 详细了解[工作区](../collaborate-share/service-new-workspaces.md)。
+工作区是用户可在仪表板、报表和其他内容上开展协作的地方。 管理员使用“创建工作区(新工作区体验)”设置，指明组织中的哪些用户可以创建工作区。 管理员可以允许组织中的每个人都可以创建新工作区体验的工作区，也可以不允许任何人进行创建。 管理员还可以限制特定安全组的成员进行创建。 详细了解[工作区](../collaborate-share/service-new-workspaces.md)。
 
 :::image type="content" source="media/service-admin-portal/power-bi-admin-workspace-settings.png" alt-text="创建新的工作区体验":::
 
-对于基于 Office 365 组的经典工作区，管理工作继续在 Office 365 管理门户和 Azure Active Directory 中进行。
+对于基于 Microsoft 365 组的经典工作区，管理工作继续在管理门户和 Azure Active Directory 中进行。
 
 > [!NOTE]
-> “创建工作区(新工作区体验)”设置默认为，仅允许能够创建 Office 365 组的用户创建新的 Power BI 工作区。 请务必在 Power BI 管理门户中设置值，以确保相应用户能够创建它们。
+> “创建工作区(新工作区体验)”设置默认为：仅允许能够创建 Microsoft 365 组的用户创建新的 Power BI 工作区。 请务必在 Power BI 管理门户中设置值，以确保相应用户能够创建它们。
 
 工作区列表
 
@@ -334,7 +334,7 @@ Azure AD B2B 来宾用户可以编辑和管理组织中的内容。 [了解详�
 
 ### <a name="create-template-apps-and-organizational-content-packs"></a>创建模板应用和组织内容包
 
-组织中的用户可以创建模板应用和组织内容包，它们使用基于 Power BI Desktop 中一个数据源生成的数据集。 详细了解[模板应用](../template-content-pack-authoring.md)。
+组织中的用户可以创建模板应用和组织内容包，它们使用基于 Power BI Desktop 中一个数据源生成的数据集。 详细了解[模板应用](../connect-data/service-template-apps-create.md)。
 
 ### <a name="push-apps-to-end-users"></a>将应用推送给最终用户
 
@@ -625,7 +625,3 @@ Power BI Desktop（2019 年 3 月版及更高版本）支持通过“组策略�
 [在组织中审核 Power BI](service-admin-auditing.md)  
 
 更多问题？ [尝试咨询 Power BI 社区](https://community.powerbi.com/)
-
-
-
-

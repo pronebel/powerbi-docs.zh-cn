@@ -10,22 +10,22 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 LocalizationGroup: Share your work
 ms.date: 04/27/2020
-ms.openlocfilehash: 60232b81633542d28b4cd52baf171557e95074c6
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: 046ebacc69642c1e7f399f0a44d7c5a32e411cb1
+ms.sourcegitcommit: 250242fd6346b60b0eda7a314944363c0bacaca8
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83143530"
+ms.lasthandoff: 05/20/2020
+ms.locfileid: "83693875"
 ---
 # <a name="embed-a-report-web-part-in-sharepoint-online"></a>在 SharePoint Online 中嵌入报表 Web 部件
 
 借助 Power BI 新推出的适用于 SharePoint Online 的报表 Web 部件，可以在 SharePoint Online 页面中轻松嵌入交互式 Power BI 报表。
 
-使用新增的“在 SharePoint Online 中嵌入”选项时，嵌入的报表绝对安全，因此你可以轻松创建安全的内部门户  。
+使用新增的“在 SharePoint Online 中嵌入”选项时，嵌入的报表绝对安全，因此你可以轻松创建安全的内部门户。
 
 ## <a name="requirements"></a>要求
 
-若要使“在 SharePoint Online 中嵌入”报表生效，以下是必需项  ：
+若要使“在 SharePoint Online 中嵌入”报表生效，以下是必需项：
 
 * Power BI Pro 许可证或具有 Power BI 许可证的 [Power BI Premium 容量（EM 或 P SKU）](../admin/service-premium-what-is.md)。
 * 适用于 SharePoint Online 的 Power BI Web 部件要求使用[新式页面](https://support.office.com/article/Allow-or-prevent-creation-of-modern-site-pages-by-end-users-c41d9cc8-c5c0-46b4-8b87-ea66abc6e63b)。
@@ -38,7 +38,7 @@ ms.locfileid: "83143530"
 
 1. 在 Power BI 中查看报表。
 
-2. 在“更多选项 (...)”  下拉菜单中，选择“嵌入”   > “SharePoint Online”  。
+2. 在“更多选项 (...)”下拉菜单中，选择“嵌入” > “SharePoint Online”。
 
     ![SharePoint Online 中的“更多选项”菜单](media/service-embed-report-spo/power-bi-more-options-sharepoint-online.png)
 
@@ -48,15 +48,15 @@ ms.locfileid: "83143530"
 
 ### <a name="add-the-power-bi-report-to-a-sharepoint-online-page"></a>将 Power BI 报表复制到 SharePoint Online 页面
 
-1. 打开 SharePoint Online 中的目标页面，然后选择“编辑”  。
+1. 打开 SharePoint Online 中的目标页面，然后选择“编辑”。
 
     ![SP 编辑页面](media/service-embed-report-spo/powerbi-sharepoint-edit-page.png)
 
-    或者，在 SharePoint Online 中选择“+ 新建”，新建新式网页  。
+    或者，在 SharePoint Online 中选择“+ 新建”，新建新式网页。
 
     ![SP 新建页面](media/service-embed-report-spo/powerbi-sharepoint-new-page.png)
 
-2. 选择 + 下拉列表，然后选择 Power BI Web 部件   。
+2. 选择 + 下拉列表，然后选择 Power BI Web 部件 。
 
     ![SP 新 Web 部件](media/service-embed-report-spo/powerbi-sharepoint-new-web-part.png)
 
@@ -64,7 +64,7 @@ ms.locfileid: "83143530"
 
     ![SP 新报表](media/service-embed-report-spo/powerbi-sharepoint-new-report.png)  
 
-4. 将之前复制的报表 URL 粘贴到“Power BI 报表链接”窗格  。 报表会自动加载。
+4. 将之前复制的报表 URL 粘贴到“Power BI 报表链接”窗格。 报表会自动加载。
 
     ![SP 新 Web 部件属性](media/service-embed-report-spo/powerbi-sharepoint-new-web-part-properties.png)
 
@@ -79,15 +79,15 @@ ms.locfileid: "83143530"
 > [!IMPORTANT]
 > 请务必在 Power BI 中检查哪些人员可以查看报表，然后向未列出的人员授予访问权限。
 
-在 Power BI 中提供报表访问权限有两种方法。 第一种：若要使用 Office 365 组生成 SharePoint Online 团队站点，请在 Power BI 服务和 SharePoint 页中将用户列为工作区的成员   。 有关详细信息，请参阅如何[管理工作区](service-manage-app-workspace-in-power-bi-and-office-365.md)。
+在 Power BI 中提供报表访问权限有两种方法。 第一种：若要使用 Microsoft 365 组生成 SharePoint Online 团队站点，请在 Power BI 服务和 SharePoint 页中将用户列为工作区的成员 。 有关详细信息，请参阅如何[管理工作区](service-manage-app-workspace-in-power-bi-and-office-365.md)。
 
 第二种：将报表嵌入应用并直接与用户共享。  
 
-1. 创建者（必须是 Pro 用户）在工作区中创建报表。 若要与 Power BI 免费用户共享，需要将工作区设置为“Premium 工作区”   。
+1. 创建者（必须是 Pro 用户）在工作区中创建报表。 若要与 Power BI 免费用户共享，需要将工作区设置为“Premium 工作区” 。
 
 2. 创建者发布并安装应用。 创建者必须安装应用，这样应用才能访问用于在 SharePoint Online 中嵌入的报表 URL。
 
-3. 此时，所有最终用户也必须要安装应用。 也可使用“自动安装应用”功能（可以在 [Power BI 管理门户](../admin/service-admin-portal.md)中启用），为最终用户预安装应用  。
+3. 此时，所有最终用户也必须要安装应用。 也可使用“自动安装应用”功能（可以在 [Power BI 管理门户](../admin/service-admin-portal.md)中启用），为最终用户预安装应用。
 
    ![自动安装应用](media/service-embed-report-spo/install-app-automatically.png)
 
@@ -102,7 +102,7 @@ ms.locfileid: "83143530"
 8. 添加将使用 SharePoint Online 页面和已创建 Power BI 应用中的数据的所有最终用户和/或组。
 
     > [!NOTE]
-    > 用户或组必须同时有权访问 SharePoint Online 页面和 Power BI 应用中的报表，才能查看 SharePoint 页面上的报表。 
+    > 用户或组必须同时有权访问 SharePoint Online 页面和 Power BI 应用中的报表，才能查看 SharePoint 页面上的报表。
 
 此时，最终用户可以转到 SharePoint Online 中的团队网站，并能查看页面上的报表。
 
@@ -141,7 +141,7 @@ ms.locfileid: "83143530"
 
 ## <a name="licensing"></a>许可
 
-在 SharePoint 中查看报表的用户需要具有 Power BI Pro 许可证  ，或该内容需要位于 [Power BI Premium 容量（EM 或 P SKU）](../admin/service-admin-premium-purchase.md)  中的工作区中。
+在 SharePoint 中查看报表的用户需要具有 Power BI Pro 许可证，或该内容需要位于 [Power BI Premium 容量（EM 或 P SKU）](../admin/service-admin-premium-purchase.md)中的工作区中。
 
 ## <a name="known-issues-and-limitations"></a>已知问题和限制
 
@@ -157,7 +157,7 @@ ms.locfileid: "83143530"
 
 * Power BI 不支持 SharePoint Online 支持的本地化语言。 因此，可能无法在嵌入的报表中看到正确的本地化内容。
 
-* 如果使用的是 Internet Explorer 10，可能会遇到问题。 <!--You can look at the [browsers support for Power BI](../consumer/end-user-browsers.md) and for [Office 365](https://products.office.com/office-system-requirements#Browsers-section). -->
+* 如果使用的是 Internet Explorer 10，可能会遇到问题。 <!--You can look at the [browsers support for Power BI](../consumer/end-user-browsers.md) and for [Microsoft 365](https://products.office.com/office-system-requirements#Browsers-section). -->
 
 * Power BI Web 部件不适用于[国家云](https://powerbi.microsoft.com/clouds/)。
 

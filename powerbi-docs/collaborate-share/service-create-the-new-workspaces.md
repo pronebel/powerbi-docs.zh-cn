@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 05/07/2020
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 0a362861aecda7fc9f7cac4820d4826d640a9dd6
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: 700b9a5dffc3abff00fb2ea738d0517a676a689b
+ms.sourcegitcommit: 250242fd6346b60b0eda7a314944363c0bacaca8
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83144097"
+ms.lasthandoff: 05/20/2020
+ms.locfileid: "83693769"
 ---
 # <a name="create-the-new-workspaces-in-power-bi"></a>在 Power BI 中创建新工作区
 
@@ -22,8 +22,8 @@ Power BI 引入了新工作区体验。 工作区仍是与同事协作创建仪�
 
 下面是不同之处。 在新工作区中，可以：
 
-- 将工作区角色分配给用户组：安全组、通讯组列表、Office 365 组和个人。
-- 在 Power BI 中创建工作区，而无需创建 Office 365 组。
+- 将工作区角色分配给用户组：安全组、通讯组列表、Microsoft 365 组和个人。
+- 在 Power BI 中创建工作区，而无需创建 Microsoft 365 组。
 - 使用更精细的工作区角色在工作区中实现更灵活的权限管理。
 
 已准备好迁移经典工作区？ 有关详细信息，请参阅[在 Power BI 中将经典工作区升级到新工作区](service-upgrade-workspaces.md)。
@@ -43,7 +43,7 @@ Power BI 引入了新工作区体验。 工作区仍是与同事协作创建仪�
    
      ![新工作区体验](media/service-create-the-new-workspaces/power-bi-new-workspace.png)
      
-     如果选择“还原为经典”，则会[基于 Office 365 组创建工作区](service-create-workspaces.md)。 
+     如果选择“还原为经典”，则会[基于 Microsoft 365 组创建工作区](service-create-workspaces.md)。 
 
 2. 为工作区命名。 如果命名不可用，则对其进行编辑以给定一个唯一名称。
    
@@ -55,7 +55,7 @@ Power BI 引入了新工作区体验。 工作区仍是与同事协作创建仪�
     
     [添加联系人列表](#workspace-contact-list)。 默认情况下，工作区管理员是联系人。 
     
-    只需键入现有 Office 365 组的名称（而不是 URL）即可[指定工作区 OneDrive](#workspace-onedrive)。 现在，此工作区可以使用该 Office 365 组的文件存储位置。 
+    只需键入现有 Microsoft 365 组的名称（而不是 URL）即可[指定工作区 OneDrive](#workspace-onedrive)。 现在，此工作区可以使用该 Microsoft 365 组的文件存储位置。
 
     ![指定 OneDrive 位置](media/service-create-the-new-workspaces/power-bi-new-workspace-onedrive.png)
 
@@ -87,9 +87,9 @@ Power BI 引入了新工作区体验。 工作区仍是与同事协作创建仪�
 
 ## <a name="workspace-onedrive"></a>工作区 OneDrive
 
-借助工作区 OneDrive 功能，可以配置 Office 365 组，而它的 SharePoint 文档库文件存储可供工作区用户使用。 首先在 Power BI 之外创建组。 
+借助工作区 OneDrive 功能，你可以配置 Microsoft 365 组，使其 SharePoint 文档库文件存储可供工作区用户使用。 首先在 Power BI 之外创建组。
 
-Power BI 不会将配置为拥有工作区访问权限的用户或组的权限，与 Office 365 组成员身份同步。 最佳做法是，为在此设置 Office 365 组中配置其文件存储的同一个 Office 365 组提供[工作区访问权限](#give-access-to-your-workspace)。 然后通过管理 Office 365 组的成员身份来管理工作区访问权限。 
+Power BI 不会将配置为拥有工作区访问权限的用户或组的权限，与 Microsoft 365 组成员身份同步。 最佳做法是，为在此设置 Microsoft 365 组中配置其文件存储的同一个 Microsoft 365 组提供[工作区访问权限](#give-access-to-your-workspace)。 然后通过管理 Microsoft 365 组的成员身份来管理工作区访问权限。
 
 1. 使用以下两种方法之一访问新的“工作区 OneDrive”设置：
 
@@ -99,7 +99,7 @@ Power BI 不会将配置为拥有工作区访问权限的用户或组的权限�
 
     ![工作区设置](media/service-create-the-new-workspaces/power-bi-workspace-new-settings.png)
 
-2. 在“高级” > “工作区 OneDrive”下，键入之前创建的 Office 365 组的名称。 Power BI 会自动为组选择 OneDrive。
+2. 在“高级” > “工作区 OneDrive”下，键入之前创建的 Microsoft 365 组的名称。 Power BI 会自动为组选择 OneDrive。
 
     ![指定 OneDrive 位置](media/service-create-the-new-workspaces/power-bi-new-workspace-onedrive.png)
 
@@ -129,7 +129,7 @@ Power BI 不会将配置为拥有工作区访问权限的用户或组的权限�
 
     ![工作区内容列表](media/service-create-the-new-workspaces/power-bi-workspace-access-icon.png)
 
-1. 将安全组、通讯组列表、Office 365 组或个人作为查看者、成员、参与者或管理员添加到这些工作区中。 有关不同角色的说明，请参阅[新工作区中的角色](service-new-workspaces.md#roles-in-the-new-workspaces)。
+1. 将安全组、通讯组列表、Microsoft 365 组或个人作为查看者、成员、参与者或管理员添加到这些工作区中。 有关不同角色的说明，请参阅[新工作区中的角色](service-new-workspaces.md#roles-in-the-new-workspaces)。
 
     ![在工作区中添加成员、管理员、参与者](media/service-create-the-new-workspaces/power-bi-workspace-add-members.png)
 

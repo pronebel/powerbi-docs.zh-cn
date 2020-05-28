@@ -1,5 +1,5 @@
 ---
-title: Power BI 安全性
+title: Power BI 安全
 description: Power BI 安全。 如何将 Power BI 与 Azure Active Directory 和其他 Azure 服务关联。 本主题还包括指向白皮书（其中会更深入地进行介绍）的链接。
 author: davidiseminger
 ms.author: davidi
@@ -9,22 +9,22 @@ ms.subservice: powerbi-admin
 ms.topic: conceptual
 ms.date: 09/09/2019
 LocalizationGroup: Administration
-ms.openlocfilehash: 4524e7c6cb8297f3c9bf71284140ddc31b38e33f
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 59400f05544efa9f4ffcca6ef3ebdf1b12423d33
+ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83275400"
+ms.lasthandoff: 05/19/2020
+ms.locfileid: "83564377"
 ---
-# <a name="power-bi-security"></a>Power BI 安全性
+# <a name="power-bi-security"></a>Power BI 安全
 
 有关 Power BI 安全的详细说明，请[阅读 Power BI 安全白皮书](../guidance/whitepaper-powerbi-security.md)。
 
-Power BI 服务基于 **Azure**，后者是 Microsoft 的云计算基础结构和平台。 Power BI 服务体系结构基于两个群集 – Web 前端 (WFE) 群集和后端群集   。 WFE 群集管理初始连接并对 Power BI 服务进行身份验证，经过身份验证后后，后端会处理所有后续的用户交互。 Power BI 使用 Azure Active Directory (AAD) 来存储和管理用户身份，并分别使用 Azure BLOB 和 Azure SQL Database 管理数据和元数据存储。
+Power BI 服务基于 **Azure**，后者是 Microsoft 的云计算基础结构和平台。 Power BI 服务体系结构基于两个群集 – Web 前端 (WFE) 群集和后端群集 。 WFE 群集管理初始连接并对 Power BI 服务进行身份验证，经过身份验证后后，后端会处理所有后续的用户交互。 Power BI 使用 Azure Active Directory (AAD) 来存储和管理用户身份，并分别使用 Azure BLOB 和 Azure SQL Database 管理数据和元数据存储。
 
 ## <a name="power-bi-architecture"></a>Power BI 体系结构
 
-每个 Power BI 部署均包含两个群集 - Web 前端 (WFE) 群集和后端群集   。
+每个 Power BI 部署均包含两个群集 - Web 前端 (WFE) 群集和后端群集 。
 
 **WFE** 群集为 Power BI 管理初始连接和身份验证进程，使用 AAD 对客户端进行身份验证并为后续客户端连接到 Power BI 服务提供令牌。 Power BI 还使用 **Azure 流量管理器** (ATM) 将用户流量定向到最近的数据中心，由针对身份验证进程尝试连接并下载静态内容和文件的客户端的 DNS 记录确定。 Power BI 使用 **Azure 内容分发网络** (CDN) 来有效地根据地理区域设置将所需的静态内容和文件分发到用户。
 
@@ -45,9 +45,9 @@ Power BI 使用两个主要的存储库进行数据存储和管理：用户上�
 
 ## <a name="user-authentication"></a>用户身份验证
 
-Power BI 使用 Azure Active Directory ([AAD](https://azure.microsoft.com/services/active-directory/)) 对要登录到 Power BI 服务的用户进行身份验证，反过来，只要用户尝试访问要求进行身份验证的资源，均使用 Power BI 登录凭据。 用户使用用于建立其 Power BI 帐户的电子邮件地址登录到 Power BI 服务，Power BI 使用登录电子邮件作为有效用户名，每当用户尝试连接到数据时，就会将其传递给资源  。 然后，*有效用户名*将映射到*用户主体名称* ([UPN](https://msdn.microsoft.com/library/windows/desktop/aa380525\(v=vs.85\).aspx))，解析为关联的 Windows 域帐户，对其应用身份验证。
+Power BI 使用 Azure Active Directory ([AAD](https://azure.microsoft.com/services/active-directory/)) 对要登录到 Power BI 服务的用户进行身份验证，反过来，只要用户尝试访问要求进行身份验证的资源，均使用 Power BI 登录凭据。 用户使用用于建立其 Power BI 帐户的电子邮件地址登录到 Power BI 服务，Power BI 使用登录电子邮件作为有效用户名，每当用户尝试连接到数据时，就会将其传递给资源。 然后，有效用户名将映射到[用户主体名称 (UPN)](/windows/win32/secauthn/user-name-formats)，解析为关联的 Windows 域帐户，并对其应用身份验证 。
 
-对于使用工作电子邮件（如 <em>david@contoso.com</em>）进行 Power BI 登录的组织，*有效用户名*映射到 UPN 非常简单。 对于未使用工作电子邮件（如 <em>david@contoso.onmicrosoft.com</em>）进行 Power BI 登录的组织，AAD 和本地凭据之间的映射需要[目录同步](https://technet.microsoft.com/library/jj573653.aspx)才能正常工作。
+对于使用工作电子邮件（如 <em>david@contoso.com</em>）进行 Power BI 登录的组织，*有效用户名*映射到 UPN 非常简单。 对于未使用工作电子邮件（如 <em>david@contoso.onmicrosoft.com</em>）进行 Power BI 登录的组织，AAD 和本地凭据之间的映射需要[目录同步](/azure/active-directory-domain-services/synchronization)才能正常工作。
 
 Power BI 的平台安全还包括多租户环境安全、网络安全和添加其他基于 AAD 的安全措施的能力。
 
@@ -55,9 +55,9 @@ Power BI 的平台安全还包括多租户环境安全、网络安全和添加�
 
 有关详细信息，请访问 [Microsoft 信任中心](https://www.microsoft.com/trustcenter)。
 
-如本文前面部分中所述，用户的 Power BI 登录名由本地 Active Directory 服务器使用以映射到凭据的 UPN。 但是，必须注意的是，用户将负责管理共享的数据：如果用户使用自己的凭据连接到数据源，然后基于这些数据（用户所共享的仪表板未针对原始数据源进行身份验证）共享报表（或仪表板、数据集），并将被授予访问报表的权限  。
+如本文前面部分中所述，用户的 Power BI 登录名由本地 Active Directory 服务器使用以映射到凭据的 UPN。 但是，必须注意的是，用户将负责管理共享的数据：如果用户使用自己的凭据连接到数据源，然后基于这些数据（用户所共享的仪表板未针对原始数据源进行身份验证）共享报表（或仪表板、数据集），并将被授予访问报表的权限。
 
-例外情况是使用本地数据网关连接到 SQL Server Analysis Services；仪表板缓存在 Power BI 中，但对基础报表或数据集的访问会对尝试访问报表（或数据集）启动用户身份验证，且仅当用户有足够的凭据访问数据时才会被授予访问权限   。 有关详细信息，请参阅[深入了解本地数据网关](../connect-data/service-gateway-onprem-indepth.md)。
+例外情况是使用本地数据网关连接到 SQL Server Analysis Services；仪表板缓存在 Power BI 中，但对基础报表或数据集的访问会对尝试访问报表（或数据集）启动用户身份验证，且仅当用户有足够的凭据访问数据时才会被授予访问权限 。 有关详细信息，请参阅[深入了解本地数据网关](../connect-data/service-gateway-onprem-indepth.md)。
 
 ## <a name="enforcing-tls-version-usage"></a>强制使用特定 TLS 版本
 
@@ -68,4 +68,3 @@ Power BI 的平台安全还包括多租户环境安全、网络安全和添加�
 **Power BI Desktop** 遵循这些文章中所述的注册表项设置，并且仅使用这些注册表设置所允许的 TLS 版本（如有）来创建连接。
 
 有关设置这些注册表项的详细信息，请参阅 [TLS 注册表设置](https://docs.microsoft.com/windows-server/security/tls/tls-registry-settings)一文。
-
