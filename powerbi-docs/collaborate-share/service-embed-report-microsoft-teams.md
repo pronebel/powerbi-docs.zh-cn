@@ -10,12 +10,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 LocalizationGroup: Share your work
 ms.date: 04/27/2020
-ms.openlocfilehash: c424572cf222e4b2f65354e7b9a0959b60a56fca
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: 7034bd544ee9c14dd5f32df9335faefd4221e4ac
+ms.sourcegitcommit: 250242fd6346b60b0eda7a314944363c0bacaca8
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83143921"
+ms.lasthandoff: 05/20/2020
+ms.locfileid: "83693904"
 ---
 # <a name="embed-reports-in-microsoft-teams-with-the-power-bi-tab"></a>使用“Power BI”选项卡在 Microsoft Teams 中嵌入报表
 
@@ -23,23 +23,24 @@ ms.locfileid: "83143921"
 
 ## <a name="requirements"></a>要求
 
-若要使 Microsoft Teams 的“Power BI”  选项卡正常工作，请确保：
+若要使 Microsoft Teams 的“Power BI”选项卡正常工作，请确保：
 
 - 用户具有 Power BI Pro 许可证，或报告包含在具有 Power BI 许可证的 [Power BI Premium 容量（EM 或 P SKU）](../admin/service-premium-what-is.md)中。
 - Microsoft Teams 具有“Power BI”选项卡。
 - 用户已登录到 Power BI 服务以激活其 Power BI 许可证，从而使用报表。
-- 用户必须具有查看报表的权限。
+- 若要使用 Power BI 选项卡在 Microsoft Teams 中添加报表，必须在托管报表的工作区中至少具有一个查看者角色。 有关不同角色的信息，请参阅[新工作区中的角色](service-new-workspaces.md#roles-in-the-new-workspaces)。
+- 若要在 Microsoft Teams 的 Power BI 选项卡中查看报表，用户必须具有查看报表的权限。
 
-此外，若要使链接预览  正常工作，请确保：
+此外，若要使链接预览正常工作，请确保：
 - 用户满足使用 Microsoft Teams 的“Power BI”选项卡的要求。
-- 用户已登录 Power BI 机器人服务。 
+- 用户已登录 Power BI 服务。 
 
 
 ## <a name="embed-your-report"></a>嵌入报表
 
 按照以下步骤将报表嵌入 Microsoft Teams 频道或聊天。
 
-1. 在 Microsoft Teams 中打开频道或聊天，然后选择“+”图标  。
+1. 在 Microsoft Teams 中打开频道或聊天，然后选择“+”图标。
 
     ![将选项卡添加到频道或聊天](media/service-embed-report-microsoft-teams/service-embed-report-microsoft-teams-add.png)
 
@@ -53,7 +54,7 @@ ms.locfileid: "83143921"
 
 4. 选项卡名称会自动更新以匹配报表名称，但你可以自行更改。 
 
-5. 按“保存”  。
+5. 按“保存”。
 
 ## <a name="supported-reports-for-embedding-the-power-bi-tab"></a>嵌入“Power BI”选项卡的受支持报表
 可以在“Power BI”选项卡上嵌入以下类型的报表：
@@ -90,12 +91,12 @@ ms.locfileid: "83143921"
 
 ## <a name="grant-access-to-reports"></a>授予报表访问权限
 
-在 Microsoft Teams 中嵌入报表或发送项的链接不会自动授予用户报表查看权限 - 你需要[在 Power BI 允许用户查看报表](service-share-dashboards.md)。 可以使用 Office 365 组，从而为团队提供更轻松的体验。 
+在 Microsoft Teams 中嵌入报表或发送项的链接不会自动授予用户报表查看权限 - 你需要[在 Power BI 允许用户查看报表](service-share-dashboards.md)。 可以使用 Microsoft 365 组，从而为团队提供更轻松的体验。
 
 > [!IMPORTANT]
 > 请务必在 Power BI 中检查哪些人员可以查看报表，然后向未列出的人员授予访问权限。
 
-要确保团队中的每个人都有权访问报表，一种方法是将报表放在 Power BI 的单个工作区中，并为团队的 Office 365 组授予对工作区的访问权限。
+要确保团队中的每个人都有权访问报表，一种方法是将报表放在 Power BI 的单个工作区中，并为团队的 Microsoft 365 组授予对工作区的访问权限。
 
 ## <a name="link-previews"></a>链接预览 
 
@@ -110,7 +111,7 @@ ms.locfileid: "83143921"
 
 将“Power BI 报表”选项卡添加到 Teams 时，Teams 可自动为报表创建选项卡对话。 
 
-- 选择右上角的“显示选项卡对话”  。
+- 选择右上角的“显示选项卡对话”。
 
     ![显示选项卡对话图标](media/service-embed-report-microsoft-teams/power-bi-teams-conversation-icon.png)
 
@@ -123,7 +124,7 @@ ms.locfileid: "83143921"
 - Power BI 不支持 Microsoft Teams 支持的本地化语言。 因此，可能无法在嵌入的报表中看到正确的本地化内容。
 - 不能在 Microsoft Teams 的“Power BI”选项卡中嵌入 Power BI 仪表板。
 - 没有 Power BI 许可证或报表权限的用户会看到“内容不可用”消息。
-- 如果使用的是 Internet Explorer 10，可能会遇到问题。 <!--You can look at the [browsers support for Power BI](../consumer/end-user-browsers.md) and for [Office 365](https://products.office.com/office-system-requirements#Browsers-section). -->
+- 如果使用的是 Internet Explorer 10，可能会遇到问题。 <!--You can look at the [browsers support for Power BI](../consumer/end-user-browsers.md) and for [Microsoft 365](https://products.office.com/office-system-requirements#Browsers-section). -->
 - Microsoft Teams 的“Power BI”选项卡不支持 [URL 筛选器](service-url-filters.md)。
 - 在国家云中，新的“Power BI”选项卡不可用。 可能有较旧的版本可用，该版本不支持 Power BI 应用中的新工作区体验工作区或报表。 
 - 保存选项卡之后，无法通过选项卡设置更改选项卡名称。 使用重命名选项对其进行更改。
