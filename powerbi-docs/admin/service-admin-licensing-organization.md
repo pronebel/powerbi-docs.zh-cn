@@ -6,19 +6,19 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
-ms.date: 04/08/2020
+ms.date: 05/14/2020
 ms.author: kfollis
 LocalizationGroup: Administration
-ms.openlocfilehash: 1bd3af61bb7c1fe525a4e5822724ccb07c57eace
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: a0ce3eab2992c59c5b887db1f0838f88db7ad2da
+ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83344287"
+ms.lasthandoff: 05/19/2020
+ms.locfileid: "83563479"
 ---
 # <a name="power-bi-licensing-in-your-organization"></a>组织中的 Power BI 许可
 
-用户可在 Power BI 服务中执行的操作取决于他们所拥有的用户个人许可证类型以及他们所处理的内容是否位于分配给 Power BI 高级容量的工作区中。 Power BI 服务的所有用户都必须拥有许可证。
+用户在 Power BI 服务中可以执行的操作取决于每位用户拥有的许可证类型。 而许可证提供的访问级别取决于要访问的工作区是否分配到 Power BI Premium 容量。 Power BI 服务的所有用户都必须拥有许可证。
 
 用户可以通过两种方式获取许可证。 使用自助注册功能及其工作或学校帐户，用户可以获得自己的免费或 Pro 许可证。 或者，管理员可以获取 Power BI 订阅并将许可证分配给用户。
 
@@ -38,13 +38,13 @@ ms.locfileid: "83344287"
 
 ## <a name="get-power-bi-for-your-organization"></a>为组织获取 Power BI
 
-全局管理员或计费管理员可以注册 Power BI 服务并为组织中的用户购买许可证。 如果你还没有准备好购买，请选择 Power BI Pro 试用版。 你将获得 25 个许可证，有效期为一个月。 有关如何注册的分步说明，请参阅[获取组织的 Power BI 订阅](service-admin-org-subscription.md)。
+全局管理员或计费管理员可以注册 Power BI 服务并为组织中的用户购买许可证。 如果还没有准备好购买，请选择 Power BI Pro 试用版。 你将获得 25 个许可证，有效期为一个月。 有关如何注册的分步说明，请参阅[获取组织的 Power BI 订阅](service-admin-org-subscription.md)。
 
 ## <a name="about-self-service-sign-up"></a>关于自助注册
 
-个人用户可以通过使用他们的工作或学校帐户注册来获得自己的 Power BI 许可证。 通过免费许可证，用户可以使用“我的工作区”探索 Power BI 以进行个人数据分析和可视化，但不能发起与其他用户协作。 共享内容需要 Power BI Pro 许可证。 如果组织正在使用商业云，用户可以将其许可证类型升级到 Pro，或直接注册 Pro。 直接购买或升级到 Pro 不适合部署到政府或主权云实例的（教育）组织。
+个人用户可以通过使用他们的工作或学校帐户注册来获得自己的 Power BI 许可证。 通过免费许可证，用户可以使用“我的工作区”探索 Power BI 以进行个人数据分析和可视化，但不能与其他用户共享。 共享内容需要 Power BI Pro 许可证。 如果组织正在使用商业云，用户可以将其许可证类型升级到 Pro，或直接注册 Pro。 直接购买或升级到 Pro 不适合部署到 Azure 政府、Azure 德国或 Azure 中国世纪互联云的（教育）组织。
 
-如果不希望组织中的用户可以使用自助注册，请参阅[启用或禁用自助注册](service-admin-disable-self-service.md)，了解如何关闭此功能。
+如果不希望组织中的用户使用自助注册，请参阅[启用或禁用自助注册](service-admin-disable-self-service.md)，了解如何关闭此功能。
 
 若要查看组织中哪些用户可能已经拥有许可证，请参阅[查看和管理用户许可证](service-admin-manage-licenses.md)，了解操作方法。
 
@@ -52,7 +52,7 @@ ms.locfileid: "83344287"
 
 Power BI 用户个人许可证有两种类型：免费版和 Pro 版。 用户需要的许可证类型取决于内容的存储位置以及他们与该内容进行交互的方式。 内容的存储位置取决于组织的[订阅类型](#subscription-types)。
 
-一种订阅类型（[Power BI Premium](service-admin-premium-purchase.md)允许拥有免费许可证的用户处理分配给高级容量的工作区中的内容。 在高级容量之外，具有免费许可证的用户只能使用 Power BI 服务连接到数据并在个人工作区中创建报表和仪表板。 他们无法与他人共享内容或将内容发布到应用工作区。
+一种订阅类型（[Power BI Premium](service-admin-premium-purchase.md)允许拥有免费许可证的用户处理分配给高级容量的工作区中的内容。 在高级容量之外，具有免费许可证的用户只能使用 Power BI 服务连接到数据并在“我的工作区”中创建报表和仪表板。 他们无法与他人共享内容或将内容发布到其他工作区。 若要详细了解工作区类型，请参阅[工作区类型](../consumer/end-user-workspaces.md#types-of-workspaces)。
 
 标准 Power BI 订阅使用共享容量。 当内容存储在共享容量中时，分到 Power BI Pro 许可证的用户只能与其他 Power BI Pro 用户协作。 他们可以使用其他用户共享的内容，将内容发布到应用工作区，共享仪表板以及订阅仪表板和报表。  当工作区在高级容量中时，Pro 用户可以将内容分发给没有 Power BI Pro 许可证的用户。
 
@@ -61,15 +61,15 @@ Power BI 用户个人许可证有两种类型：免费版和 Pro 版。 用户�
 | 许可证类型 | 工作区在共享容量中时的功能 | 工作区在高级容量中时的其他功能 |
 | --------- | ----------- | ----------- |
 | Power BI（免费） | 访问“我的工作区”的内容 | 使用与之共享的内容 |
-| Power BI Pro | 将内容发布到应用工作区，共享仪表板，订阅仪表板和报表，与拥有 Pro 许可证的用户共享 | 向拥有免费许可证的用户分发内容 |
+| Power BI Pro | 将内容发布到其他工作区，共享仪表板，订阅仪表板和报表，与拥有 Pro 许可证的用户共享 | 向拥有免费许可证的用户分发内容 |
 
 ## <a name="subscription-types"></a>订阅类型
 
-来自 Microsoft 的所有基于用户的商业许可证订阅都基于 Azure Active Directory 标识。 这意味着必须使用 Azure Active Directory 支持的商业许可证标识登录。 你可以将 Power BI 订阅添加到任何使用 Azure Active Directory 进行标识服务的 Microsoft 订阅。 某些订阅（如 Office 365 E5）包含 Power BI Pro 许可证，因此无需单独注册 Power BI。
+来自 Microsoft 的所有基于用户的商业许可证订阅都基于 Azure Active Directory 标识。 若要使用 Power BI 服务，必须使用 Azure Active Directory 支持的商业许可证标识登录。 可以将 Power BI 添加到任何使用 Azure Active Directory 进行标识服务的 Microsoft 订阅。 某些订阅（如 Office 365 E5）包含 Power BI Pro 许可证，因此无需单独注册 Power BI。
 
-组织有两种类型的 Power BI 订阅：Power BI Pro 的自助 BI 和 Power BI Premium 的高级分析。
+组织有两种类型的 Power BI 订阅：标准和高级。
 
-使用标准的自助 Power BI Pro 订阅，管理员可分配用户个人许可证。 Power BI Pro 许可证支持协作、发布、共享和临时分析，每个用户每月需要缴纳相应费用。 内容将保存到由 Microsoft 完全托管的共享存储容量中。
+使用标准的自助 Power BI Pro 订阅，管理员可分配用户个人许可证。 Power BI Pro 许可证每月按用户收费。 此许可证类型支持协作、发布、共享和临时分析。 内容将保存到由 Microsoft 完全托管的共享存储容量中。
 
 Power BI Premium 订阅向组织分配专用容量。 Premium 适用于企业 BI、大数据分析以及云和本地报表，提供高级管理和部署控制。 专用计算和存储资源由组织中的容量管理员管理。 每月需要为此专用环境支付费用。 除了其他高级优势外，存储在高级容量中的内容可以由没有 Power BI Pro 许可证的用户访问并分发给用户。 必须至少有一个用户分到 Power BI Pro 许可证才能使用 Premium，并且内容创建者和开发人员仍然需要 Power BI Pro 许可证。
 
@@ -95,12 +95,12 @@ Power BI Premium 订阅向组织分配专用容量。 Premium 适用于企业 BI
 
 Power BI Pro 许可证到期后有一段宽限期。 对于批量购买的许可证，宽限期为 90 天。 如果是直接购买许可证，则宽限期为 30 天。
 
-Power BI Pro 的订阅生命周期与 Office 365 相同。 有关详细信息，请参阅 [Office 365 商业版订阅过期时，我的数据和访问权限会发生什么变化？](https://support.office.com/article/What-happens-to-my-data-and-access-when-my-Office-365-for-business-subscription-ends-4436582f-211a-45ec-b72e-33647f97d8a3)。
+Power BI Pro 的订阅生命周期与 Microsoft 365 相同。 有关详细信息，请参阅 [Microsoft 365 商业版订阅过期时，我的数据和访问权限会发生什么变化](/microsoft-365/commerce/subscriptions/what-if-my-subscription-expires)。
 
 
 ## <a name="next-steps"></a>后续步骤
 
 - [购买和分配 Power BI Pro 许可证](service-admin-purchasing-power-bi-pro.md)
-- [Microsoft 365 商业版订阅和计费文档](https://docs.microsoft.com/microsoft-365/commerce/?view=o365-worldwide)
+- [商业版订阅和计费文档](/microsoft-365/commerce/?view=o365-worldwide)
 - [查找已登录的 Power BI 用户](service-admin-access-usage.md)
 - 更多问题？ [尝试咨询 Power BI 社区](https://community.powerbi.com/)
