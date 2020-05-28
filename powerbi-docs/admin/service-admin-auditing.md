@@ -10,22 +10,22 @@ ms.date: 05/11/2020
 ms.author: kfollis
 ms.custom: seodec18
 LocalizationGroup: Administration
-ms.openlocfilehash: 8fc1f2a668a0dfff4418749e7f3de7e0379b603f
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: 42203c65f6351422bbb65b5a0dc2245ac6a7b190
+ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83129175"
+ms.lasthandoff: 05/19/2020
+ms.locfileid: "83564606"
 ---
 # <a name="track-user-activities-in-power-bi"></a>跟踪 Power BI 中的用户活动
 
-了解 Power BI 租户中谁正在对何项目执行何种操作对帮助组织满足其需求非常关键，如满足法规遵从性和记录管理需求。 使用 Power BI，可以通过两个选项来跟踪用户活动：[Power BI 活动日志](#use-the-activity-log)和[统一 Office 365 审核日志](#use-the-audit-log)。 这些日志都包含 [Power BI 审核数据](#operations-available-in-the-audit-and-activity-logs)的完整副本，但有几个重要区别，如下表所概括。
+了解 Power BI 租户中谁正在对何项目执行何种操作对帮助组织满足其需求非常关键，如满足法规遵从性和记录管理需求。 使用 Power BI，可以通过两个选项来跟踪用户活动：[Power BI 活动日志](#use-the-activity-log)和[统一审核日志](#use-the-audit-log)。 这些日志都包含 [Power BI 审核数据](#operations-available-in-the-audit-and-activity-logs)的完整副本，但有几个重要区别，如下表所概括。
 
-| **统一 Office 365 审核日志** | **Power BI 活动日志** |
+| **统一审核日志** | **Power BI 活动日志** |
 | --- | --- |
 | 除了 Power BI 审核事件外，还包括来自 SharePoint Online、Exchange Online、Dynamics 365 和其他服务的事件。 | 仅包括 Power BI 审核事件。 |
 | 只有具有仅查看审核日志或审核日志权限的用户才有访问权限，例如全局管理员和审核员。 | 全局管理员和 Power BI 服务管理员具有访问权限。 |
-| 全局管理员和审核员可以使用 Office 365 安全与合规中心、Microsoft 365 安全中心和 Microsoft 365 合规中心搜索统一审核日志。 | 目前还没有用于搜索活动日志的用户界面。 |
+| 全局管理员和审核员可以使用 Microsoft 365 安全中心和 Microsoft 365 合规中心搜索统一审核日志。 | 目前还没有用于搜索活动日志的用户界面。 |
 | 全局管理员和审核员可以使用 Office 365 管理 API 和 cmdlet 下载审核日志条目。 | 全局管理员和 Power BI 服务管理员可以使用 Power BI REST API 和管理 cmdlet 下载活动日志条目。 |
 | 审核数据可保留 90 天 | 活动数据可保留 30 天（公共预览）。 |
 | 即使租户移动到其他 Azure 区域，也要保留审核数据。 | 当租户移到其他 Azure 区域时，不保留活动数据。 |
@@ -105,7 +105,7 @@ $activities[0]
 
 ## <a name="use-the-audit-log"></a>使用审核日志
 
-如果你的任务是跟踪 Power BI 和 Office 365 中的用户活动，请在 Office 365 安全与合规中心进行审核，或使用 PowerShell。 审核依赖于 Exchange Online 中的功能，该功能可自动进行预配以支持 Power BI。
+如果你的任务是跟踪 Power BI 和 Microsoft 365 中的用户活动，请在 Office 365 安全与合规中心进行审核，或使用 PowerShell。 审核依赖于 Exchange Online 中的功能，该功能可自动进行预配以支持 Power BI。
 
 可按日期范围、用户、仪表板、报表、数据集和活动类型筛选审核数据。 还可将活动下载到 CSV（逗号分隔值）文件供脱机分析。
 
@@ -184,7 +184,7 @@ $activities[0]
 
 #### <a name="view-the-details-for-an-event"></a>查看活动的详细信息
 
-要查看有关该事件的更多详细信息，请在搜索结果列表中选择事件记录。 随后会显示“详细信息”页，其中包含事件记录中的详细属性。 “详细信息”页根据在其中发生事件的 Office 365 服务来显示属性。
+要查看有关该事件的更多详细信息，请在搜索结果列表中选择事件记录。 随后会显示“详细信息”页，其中包含事件记录中的详细属性。 “详细信息”页根据在其中发生事件的 Microsoft 365 服务来显示属性。
 
 若要查看这些详细信息，请选择“更多信息”。 所有 Power BI 条目的 RecordType 属性值均为 20。 若要了解其他属性，请参阅[审核日志中的详细属性](/office365/securitycompliance/detailed-properties-in-the-office-365-audit-log/)。
 

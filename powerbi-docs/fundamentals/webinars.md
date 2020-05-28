@@ -6,14 +6,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 04/23/2020
+ms.date: 05/18/2020
 ms.author: kfollis
-ms.openlocfilehash: 7ed9f22f262e03885681cf2fdc36867533837cdc
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: 1a90a9826d794f84933a75213043c31a9a67a4b5
+ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83360913"
+ms.lasthandoff: 05/19/2020
+ms.locfileid: "83566031"
 ---
 # <a name="power-bi-webinars"></a>Power BI 网络研讨会
 [//]: # "Tatevik Tatero 是与 Chauncy Freels 合作的供应商，可帮助维护此网络研讨会列表"
@@ -22,13 +22,20 @@ ms.locfileid: "83360913"
 
 ## <a name="upcoming-webinars"></a>即将举行的网络研讨会
 
-尚无举办网络研讨会的计划。 请稍后再查看更多近期活动安排。
+**Analytics 和 BI 之间的区别是什么？**
+<br>作者：Microsoft 的 Nate Findley 和 Charles Feddersen
+<br>[注册以观看 2020 年 6 月 3 日上午 10:00–11:00（太平洋夏令时）的视频]( https://info.microsoft.com/ww-landing-What-is-the-difference-between-analytics-and-business-intelligence.html?lcid=en-u)
+
 
 >[Power BI 社区即将举行的网络研讨会](https://powerbi.microsoft.com/blog/tag/community-webinars/?Is=Website)
 
 ## <a name="featured-webinars"></a>特别推荐的网络研讨会
 
 开始加入这些受欢迎的按需网络研讨会
+
+**探索 Microsoft Power BI 的总体经济影响**
+<br>作者：Microsoft 的 Megan Tomlin 以及 Forrester Consulting 的 Jonathan Lipsitz
+<br>[立即观看]( https://info.microsoft.com/ww-landing-Explore-the-Total-Economic-Impact-Of-Microsoft-Power-BI.html?Lcid=EN-US)
 
 **Azure 虚拟事件中的分析：利用 Azure Synapse Analytics 加快获得见解的速度**
 <br>作者：Gayle Sheppard 和 John Macintyre
@@ -86,7 +93,7 @@ ms.locfileid: "83360913"
 <br>作者：Nimrod Shalit
 <br>[注册并立即观看](https://info.microsoft.com/ww-landing-PBI-JavaScript-API-video.html)
 
-**Power BI、Excel 和 Office 365：优化企业数据**
+**Power BI、Excel 和 Microsoft 365：优化企业数据**
 <br>作者：Olaf Hubel 和 Miguel Martinez
 <br>[注册并立即观看](https://info.microsoft.com/Unlocking-the-Value-of-your-Enterprise-Data-OnDemandRegistration.html?Is=Website)
 
@@ -157,7 +164,7 @@ ms.locfileid: "83360913"
 <br>作者：来自 Thorogood 的 Liz McCreesh
 <br>[注册并立即观看](https://info.microsoft.com/Achieving-a-Win-Win-for-Consumer-Packaged-Goods-Manufacturers-and-Retailers-registration.html)
 
-借助 Power BI 将客户数据转化为零售成功 
+借助 Power BI 将客户数据转化为零售成功
 <br>作者：来自 Hitachi Solutions 的 Angad Soni
 <br>[注册并立即观看](https://info.microsoft.com/Transform-Your-Customer-Data-into-Retail-Success-OnDemandRegistration.html?LCID=EN-US?wt.mc_id=undefined)
 
@@ -183,7 +190,7 @@ ms.locfileid: "83360913"
 
 ### <a name="community"></a>社区 ###
 
-PowerBI.Tips 所有者提供的 Power BI 技巧、提示和工具 
+PowerBI.Tips 所有者提供的 Power BI 技巧、提示和工具
 <br>作者：Mike Carlo 和 Seth Bauer
 <br>[立即观看](https://www.youtube.com/watch?v=fnj1_e3HXow)
 
@@ -214,7 +221,7 @@ PowerBI.Tips 所有者提供的 Power BI 技巧、提示和工具
 <br>[注册观看](https://info.microsoft.com/ww-landing-advanced-analytics-excel-powerbi.html?Is=Website)
 <br>[下载高级分析初学者工具包以跟进](https://aka.ms/pbiaawebinar)
 
-Power BI 采用框架网络研讨会系列 
+Power BI 采用框架网络研讨会系列
 <br>作者：Manu Kanwarpal 和 Paul Henwood
 <br>[注册并立即观看 - 第 1 部分 - 采用：采用数据驱动的文化](https://info.microsoft.com/ww-landing-powerbi-adoption-ondemand.html?Is=Website)
 <br>[注册并立即观看 - 第 2 部分 - 监管：监管 Power BI 的使用](https://info.microsoft.com/ww-ondemand-powerbi-governance.html?Is=Website)

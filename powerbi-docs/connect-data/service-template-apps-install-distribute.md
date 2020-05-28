@@ -6,14 +6,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-template-apps
 ms.topic: conceptual
-ms.date: 05/04/2020
+ms.date: 05/19/2020
 ms.author: painbar
-ms.openlocfilehash: 762d88789bb68777886a126589802b9e8d854879
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: a68c8a452752981b2526c450820e8d277f5c0b10
+ms.sourcegitcommit: 250242fd6346b60b0eda7a314944363c0bacaca8
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83347438"
+ms.lasthandoff: 05/20/2020
+ms.locfileid: "83693066"
 ---
 # <a name="install-and-distribute-template-apps-in-your-organization"></a>在组织中安装和分发模板应用
 
@@ -34,19 +34,19 @@ ms.locfileid: "83347438"
 
 ## <a name="install-a-template-app"></a>安装模板应用
 
-1. 在 Power BI 服务的导航窗格中，选择“应用” > “获取应用”   。
+1. 在 Power BI 服务的导航窗格中，选择“应用” > “获取应用” 。
 
     ![获取应用](media/service-template-apps-install-distribute/power-bi-get-apps-arrow.png)
 
-1. 在出现的 AppSource 窗口中，选择“应用”  。 浏览或搜索所需应用，然后选择“立即获取”  。
+1. 在出现的 AppSource 窗口中，选择“应用”。 浏览或搜索所需应用，然后选择“立即获取”。
 
     ![在 AppSource 中搜索](media/service-template-apps-install-distribute/power-bi-appsource.png)
 
-1. 在显示的对话框中，选择“安装”  。
+1. 在显示的对话框中，选择“安装”。
 
     ![安装应用](media/service-template-apps-install-distribute/power-install-dialog.png)
     
-    应用随关联的工作区一起安装。 如果决定自定义应用，则需要在此关联的工作区中执行此操作  。
+    应用随关联的工作区一起安装。 如果决定自定义应用，则需要在此关联的工作区中执行此操作。
 
     > [!NOTE]
     > 如果使用未在 AppSource 上列出的应用的安装链接，将出现一个验证对话框，要求你确认选择。
@@ -59,11 +59,19 @@ ms.locfileid: "83347438"
 
 ## <a name="connect-to-data"></a>连接到数据
 
-1. 选择“转到应用”  。 “开始使用新应用”窗口随即显示  。
+1. 选择“转到应用”。
 
-   ![开始使用应用](media/service-template-apps-install-distribute/power-bi-template-app-get-started.png)
+1. 在“开始使用新应用”窗口中，选择“浏览” 。
 
-1. 单击“连接”  。
+   ![模板应用初始屏幕](media/service-template-apps-install-distribute/power-bi-template-app-get-started.png)
+
+   应用将打开，显示示例数据。
+
+1. 选择页面顶部横幅上的“连接数据”链接。
+
+   ![GitHub 应用的“连接数据”链接](media/service-template-apps-install-distribute/power-bi-template-app-connect-data.png)
+
+
     
     这将打开一个对话框或一系列对话框，你可以在其中将数据源从示例数据更改为自己的数据源。 这通常意味着重新定义数据集参数和数据源凭据。 请参阅[已知限制](service-template-apps-overview.md#known-limitations)。
     
@@ -71,19 +79,20 @@ ms.locfileid: "83347438"
 
    ![连接到数据对话框](media/service-template-apps-install-distribute/power-bi-template-app-connect-to-data-dialogs.png)
 
-    填写完连接对话框后，连接过程开始。 系统会显示一个横幅，通知你正在查看示例数据。
+    填写完连接对话框后，连接过程开始。 横幅提示你正在刷新数据，与此同时你正在查看示例数据。
 
     ![正在查看示例数据](media/service-template-apps-install-distribute/power-bi-template-app-viewing-sample-data.png)
 
-    等待数据完成连接和更新。 要知道此过程何时完成，请查看数据集行（新外观）或选项卡（旧外观）上的进度指示器。
-
-   连接和数据刷新完成后，请刷新浏览器。横幅现在通知你需要更新应用，以应用对应用所做的任何更改并进行共享。
-
-    ![自定义和共享应用](media/service-template-apps-install-distribute/power-bi-template-app-customize-share.png)
+   除非在登录过程中禁用了此功能，否则报表数据将每天自动刷新一次。 也可以[设置自己的刷新计划](./refresh-scheduled-refresh.md)，根据需要使报表数据保持最新状态。
 
 ## <a name="customize-and-share-the-app"></a>自定义和共享应用
 
-在连接到数据和数据刷新后，刷新浏览器，然后可看到与应用关联的工作区。 此时，你可以在其中编辑任何项目，就像在任何工作区中一样。 但是，请记住，使用新版本更新应用后，所做的任何更改都将被覆盖，除非以不同的名称保存更改后的项目。 [查看有关覆盖的详细信息](#overwrite-behavior)。
+连接到数据并完成数据刷新后，可以自定义应用包含的任何报表和仪表板，并与同事共享该应用。 但是，请记住，使用新版本更新应用后，所做的任何更改都将被覆盖，除非以不同的名称保存更改后的项目。 [查看有关覆盖的详细信息](#overwrite-behavior)。
+
+若要自定义并共享你的应用，请选择页面右上角的铅笔图标。
+
+![编辑应用](media/service-template-apps-install-distribute/power-bi-template-app-edit-app.png)
+
 
 有关在工作区中编辑项目的信息，请参阅
 * [Power BI 中的报表编辑器导览](../create-reports/service-the-report-editor-take-a-tour.md)
@@ -106,7 +115,7 @@ ms.locfileid: "83347438"
 >[!NOTE]
 >如果最初是通过直接链接而不是通过 AppSource 获得的应用，则知道新版本何时可用的唯一方法是联系模板应用创建者。
 
-  要安装更新，请在通知横幅上或在通知中心单击“获取更新”，也可在 AppSource 中再次查找应用，然后选择“立即获取”   。 如果从模板应用创建者处获取了更新的直接链接，只需单击该链接。
+  要安装更新，请在通知横幅上或在通知中心单击“获取更新”，也可在 AppSource 中再次查找应用，然后选择“立即获取” 。 如果从模板应用创建者处获取了更新的直接链接，只需单击该链接。
   
   系统将询问你是要覆盖当前版本，还是要在新工作区中安装新版本。 默认情况下选择的是“覆盖”。
 
@@ -119,8 +128,8 @@ ms.locfileid: "83347438"
 ### <a name="overwrite-behavior"></a>覆盖行为
 
 * 覆盖会更新工作区（而非应用）中的报表、仪表板和数据集。 覆盖不会更改应用的导航、设置和权限。
-* 更新工作区后，需要更新应用，以将更改从工作区应用于应用  。
-* 覆盖将保留配置的参数和身份验证。 更新后，数据集会开始自动刷新。 在此刷新过程中，应用、报表和仪表板显示示例数据  。
+* 更新工作区后，需要更新应用，以将更改从工作区应用于应用。
+* 覆盖将保留配置的参数和身份验证。 更新后，数据集会开始自动刷新。 在此刷新过程中，应用、报表和仪表板显示示例数据。
 
   ![示例数据](media/service-template-apps-install-distribute/power-bi-sample-data.png)
 
@@ -132,4 +141,4 @@ ms.locfileid: "83347438"
 
 ## <a name="next-steps"></a>后续步骤
 
-[与同事一起在 Power BI 中创建工作区](../collaborate-share/service-create-workspaces.md)
+[与同事一起在 Power BI 中创建工作区](../collaborate-share/service-create-the-new-workspaces.md)

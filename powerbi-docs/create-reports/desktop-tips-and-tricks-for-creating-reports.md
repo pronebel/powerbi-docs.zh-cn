@@ -9,12 +9,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 05/07/2020
 ms.author: davidi
-ms.openlocfilehash: f66e564091c30e11604d0ab3fe58ba1f93addb28
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: e7e7c0f8df0f41d673920cf4af596ca33d46519c
+ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83349094"
+ms.lasthandoff: 05/19/2020
+ms.locfileid: "83564566"
 ---
 # <a name="tips-and-tricks-for-creating-reports-in-power-bi-desktop"></a>在 Power BI Desktop 创建报表的相关提示和技巧
 若要充分利用你的数据，有时你还需要一点帮助。 我们整理了一些提示和技巧，以便你在 Microsoft Power BI Desktop *及*启用了 Power Pivot 加载项且安装和启用了 Power Query 的 Microsoft Excel 2016 或 Excel 2013 Pro-Plus 版本中创建报表时可加以使用。 
@@ -92,7 +92,7 @@ Power BI 与必应相集成，提供默认地图坐标（一个称为地理编�
 >[!NOTE]
 >最好在生成视觉对象之前考虑排序顺序。 
 
-本过程中的下一步是在存储桶列上定义“存储桶”和“详细信息”查询之间的关系。 在 Power BI Desktop 中，单击功能区上的**管理关系**。 创建一个关系（其中“存储桶”位于左表，而“详细信息”在右表上），然后选择要用于直方图的字段。 
+本过程中的下一步是在存储桶列上定义“存储桶”和“详细信息”查询之间的关系。 在 Power BI Desktop 中，单击功能区上的**管理关系**。 创建一种关系，其中“存储桶”位于左表，而“详细信息”位于右表，然后选择将用于直方图的字段。 
 
 最后一步是创建直方图。 拖动“存储桶”表中的“存储桶”字段。 从所生成的柱形图中删除默认字段。 现在将直方图字段从“详细信息”表拖到相同的视觉对象中。 在字段框，将默认聚合更改为“计数”。 然后将生成直方图。 如果还通过“详细信息”表创建了类似树状图的视觉对象，请在树状图中选择一个数据点以查看直方图高亮区，并显示与整个数据集趋势相关的所选数据点的直方图。
 
@@ -112,7 +112,7 @@ Power BI 与必应相集成，提供默认地图坐标（一个称为地理编�
 
 如果我们加载来自活动客户支持请求的数据集，还加载一个具有以下架构的工作项的数据集：
 
-> CustomerInicdents: {IncidentID, CustomerName, IssueName, OpenedDate, Status} WorkItems: {WorkItemID, IncidentID, WorkItemName, OpenedDate, Status, CustomerName } 
+> CustomerIncidents: {IncidentID, CustomerName, IssueName, OpenedDate, Status} WorkItems: {WorkItemID, IncidentID, WorkItemName, OpenedDate, Status, CustomerName } 
 > 
 > 
 
@@ -158,7 +158,7 @@ DAX 是 Power BI Desktop 中的计算公式语言。 它针对 BI 分析进行�
 
 [了解 Power BI Desktop 中的 DAX 基础知识](../transform-model/desktop-quickstart-learn-dax-basics.md)
 
-[数据分析表达式 (DAX) 引用](https://msdn.microsoft.com/library/gg413422.aspx)
+[数据分析表达式 (DAX) 引用](/dax/)
 
 [DAX 资源中心](https://social.technet.microsoft.com/wiki/contents/articles/1088.dax-resource-center.aspx)
 

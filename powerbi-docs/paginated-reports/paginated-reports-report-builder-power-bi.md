@@ -7,13 +7,13 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: overview
-ms.date: 11/27/2019
-ms.openlocfilehash: 55e74809b47b2906edac9a06f701aa30b3498f80
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.date: 05/14/2020
+ms.openlocfilehash: 0cf3fcdbcfb49d501ccbb7fa191b566e298c84b7
+ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83144731"
+ms.lasthandoff: 05/19/2020
+ms.locfileid: "83565497"
 ---
 # <a name="what-are-paginated-reports-in-power-bi-premium"></a>Power BI Premium 中的分页报表是什么？
 
@@ -45,7 +45,7 @@ ms.locfileid: "83144731"
 
 ### <a name="create-paginated-reports-with-matrix-chart-and-free-form-layouts"></a>创建具有矩阵、图表和自由格式布局的分页报表
 
-表格报表非常适用于基于列的数据。 矩阵报表（如交叉表或数据透视表报表）适用于汇总数据。 图表报表以图形格式显示数据，自由格式  列表报表几乎可以显示任何其他内容，例如发票。 
+表格报表非常适用于基于列的数据。 矩阵报表（如交叉表或数据透视表报表）适用于汇总数据。 图表报表以图形格式显示数据，自由格式列表报表几乎可以显示任何其他内容，例如发票。 
   
 可以从其中一个报表生成器向导开始操作。 表、矩阵和图表向导将引导用户创建嵌入数据源连接和嵌入数据集。 然后拖放字段以创建数据集查询，选择布局和样式，以及自定义报表。  
   
@@ -59,7 +59,7 @@ ms.locfileid: "83144731"
 
 ## <a name="creating-a-report-definition"></a>创建报表定义
 
-在设计分页报表时，实际上要创建报表定义  。 它不包含数据。 它指定获取数据的位置、要获取的数据以及如何显示数据。 运行报表时，报表处理器将获取用户指定的报表定义、检索数据，并将其与报表布局组合以生成报表。 可以将报表定义上传到 Power BI 服务：`https://app.powerbi.com`，以上传到“我的工作区”或与同事共享的工作区中。 如果报表数据源位于本地环境中，则在上传报表后，可以将数据源连接重定向到网关。 
+在设计分页报表时，实际上要创建报表定义。 它不包含数据。 它指定获取数据的位置、要获取的数据以及如何显示数据。 运行报表时，报表处理器将获取用户指定的报表定义、检索数据，并将其与报表布局组合以生成报表。 可以将报表定义上传到 Power BI 服务：`https://app.powerbi.com`，以上传到“我的工作区”或与同事共享的工作区中。 如果报表数据源位于本地环境中，则在上传报表后，可以将数据源连接重定向到网关。 
 
 ## <a name="view-your-paginated-report"></a>查看分页报表
 可以通过浏览器在 Power BI 服务中查看分页报表，也可以在 Power BI 移动应用中查看。 在 Power BI 服务中，可以将报表导出为多种格式，例如 HTML、MHTML、PDF、XML、CSV、TIFF、Word 和 Excel。 还可以与其他人共享它。  
@@ -76,7 +76,7 @@ ms.locfileid: "83144731"
 
 - 将报表页或视觉对象固定到 Power BI 仪表板。 用户仍可以从 Power BI 报表服务器或 Reporting Services 报表服务器上的本地分页报表将可视化效果固定到 Power BI 仪表板。 有关详细信息，请参阅[将 Reporting Services 项目固定到 Power BI 仪表板](https://docs.microsoft.com/sql/reporting-services/pin-reporting-services-items-to-power-bi-dashboards)。
 - 文档结构图。
-- 子报表和钻取报表。  但是，你可以考虑将 URL 参数与分页报表配合使用，从而实现钻取方案。
+- 钻取报表。  请考虑将 URL 参数与分页报表配合使用，从而实现钻取方案。
 - 共享数据源和共享数据集。
 
  
@@ -85,4 +85,4 @@ ms.locfileid: "83144731"
 - [从 Microsoft 下载中心安装 Power BI 报表生成器](https://go.microsoft.com/fwlink/?linkid=2086513)
 - [教程：创建分页报表](paginated-reports-quickstart-aw.md)
 - [直接在分页报表中输入数据](paginated-reports-enter-data.md)
-- [教程：在应用程序中为客户 ](../developer/embed-paginated-reports-customers.md) 嵌入 Power BI 分页报表
+- [教程：在应用程序中为客户 ](../developer/embedded/embed-paginated-reports-customers.md) 嵌入 Power BI 分页报表

@@ -5,18 +5,20 @@ author: paulinbar
 ms.service: powerbi
 ms.subservice: powerbi-template-apps
 ms.topic: conceptual
-ms.date: 04/25/2020
+ms.date: 05/19/2020
 ms.author: painbar
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 1be2d3db9dbf341def86c087344ef7a32cd006a0
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 2d5a2f319753323dd391cf6f5dceb970de1720b5
+ms.sourcegitcommit: 250242fd6346b60b0eda7a314944363c0bacaca8
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83337710"
+ms.lasthandoff: 05/20/2020
+ms.locfileid: "83693313"
 ---
 # <a name="connect-to-github-with-power-bi"></a>使用 Power BI 连接到 GitHub
 本文介绍如何使用 Power BI 模板应用从 GitHub 帐户拉取数据。 模板应用生成一个带有仪表板、一组报表和数据集的工作区，以便你可以浏览 GitHub 数据。 适用于 Power BI 的 GitHub 应用使你通过参与、问题、拉取请求和活动用户的相关数据，深入了解 GitHub 存储机制（也称为存储库）。
+
+![GitHub 模板应用](media/service-connect-to-github/service-github-app-report.png)
 
 安装模板应用后，可以更改仪表板和报表。 然后可以将其作为应用分发给组织中的同事。
 
@@ -27,55 +29,69 @@ ms.locfileid: "83337710"
 >[!NOTE]
 >此模板应用要求 GitHub 帐户具有存储库的访问权限。 以下是有关要求的详细信息。
 >
->此模板应用不支持 GitHub Enterprise。 
+>此模板应用不支持 GitHub Enterprise。
 
-## <a name="how-to-connect"></a>如何连接
-[!INCLUDE [powerbi-service-apps-get-more-apps](../includes/powerbi-service-apps-get-more-apps.md)]
-   
-3. 选择“GitHub”\>“立即获取” 。
-4. 在“安装此 Power BI 应用?”中，选择“安装” 。
-4. 在“应用”窗格中，选择“GitHub”磁贴 。
+## <a name="install-the-app"></a>安装应用
 
-    ![Power BI GitHub 磁贴](media/service-connect-to-github/power-bi-github-tile.png)
+1. 单击以下链接可转到该应用：[GitHub 模板应用](https://app.powerbi.com/groups/me/getapps/services/pbi-contentpacks.pbiapps-github)
 
-6. 在“开始使用新应用”中，选择“连接” 。
+1. 在应用的 AppSource 页面，选择“[立即获取](https://app.powerbi.com/groups/me/getapps/services/pbi-contentpacks.pbiapps-github)”。
 
-    ![开始使用新应用](media/service-connect-to-zendesk/power-bi-new-app-connect-get-started.png)
+    [![AppSource 中的 GitHub 模板应用](media/service-connect-to-github/service-github-template-app-appsource-get-it-now.png)](https://app.powerbi.com/groups/me/getapps/services/pbi-contentpacks.pbiapps-github)
 
-5. 输入该存储库的存储库名称和存储库所有者。 请参阅下面有关[查找这些参数](#FindingParams)的详细信息。
-   
-    ![Power BI GitHub 存储库名称](media/service-tutorial-connect-to-github/power-bi-github-app-tutorial-connect.png)
+1. 选择“安装”。 
 
-5. 输入 GitHub 凭据（如果你已经登录浏览器，可跳过此步骤）。 
-6. 对于“身份验证方法”，请选择“oAuth2”\>“登录”  。 
-7. 按照 GitHub 验证界面执行操作。 向适用于 Power BI 的 GitHub 模板应用授予对 GitHub 数据的权限。
-   
-   ![Power BI GitHub 授权](media/service-connect-to-github/github_authorize.png)
-   
-    Power BI 连接 GitHub 和你的数据。  数据会每天刷新一次。 Power BI 导入数据之后，将显示新 GitHub 工作区的内容。
+    ![安装 GitHub 模板应用](media/service-connect-to-github/service-regional-emergency-response-select-install.png)
 
-## <a name="modify-and-distribute-your-app"></a>修改和分发应用
+    安装应用后，你将在应用页面上看到它。
 
-现已安装 GitHub 模板应用。 这意味着同时创建了 GitHub 工作区。 在工作区中，可以更改报表和仪表板，然后将其作为应用分发给组织中的同事。 
+   ![应用页面上的 GitHub 应用](media/service-connect-to-github/service-github-app-apps-page-icon.png)
 
-1. 在导航窗格中选择工作区名称旁边的箭头。 将看到工作区包含仪表板和报表。
+## <a name="connect-to-data-sources"></a>连接到数据源
 
-    ![导航窗格中的应用](media/service-tutorial-connect-to-github/power-bi-github-app-tutorial-left-nav-expanded.png)
+1. 选择应用页面上的图标以打开应用。
 
-8. 选择新的 [GitHub 仪表板](https://powerbi.microsoft.com/integrations/github)。    
-    ![Power BI 中的 GitHub 仪表板](media/service-tutorial-connect-to-github/power-bi-github-app-tutorial-new-dashboard.png)
+1. 在初始屏幕上，选择“浏览应用”。
 
-3. 若要查看新 GitHub 工作区的所有内容，请在导航窗格中选择“工作区” > “GitHub” 。
- 
-   ![导航窗格中的 GitHub 工作区](media/service-connect-to-github/power-bi-github-left-nav.png)
+   ![模板应用初始屏幕](media/service-connect-to-github/service-github-app-splash-screen.png)
 
-    此视图是工作区的内容列表。 在右上角，可以看到“更新应用”。 准备好将应用分发给同事后，就可以开始了。 
+   应用将打开，显示示例数据。
 
-    ![GitHub 内容列表](media/service-connect-to-github/power-bi-github-content-list.png)
+1. 选择页面顶部横幅上的“连接数据”链接。
 
-2. 选择“报表”和“数据集”可查看工作区中的其他元素 。
+   ![GitHub 应用的“连接数据”链接](media/service-connect-to-github/service-github-app-connect-data.png)
 
-    阅读并了解如何向同事[分发应用](../collaborate-share/service-create-distribute-apps.md)。
+1. 在出现的对话框中输入该存储库的存储库名称和存储库所有者。 请参阅下面有关[查找这些参数](#FindingParams)的详细信息。 完成后单击“下一步”。
+
+   ![Power BI GitHub 存储库名称](media/service-connect-to-github/power-bi-github-app-tutorial-connect.png)
+
+1. 在出现的下一个对话框中，请确保将身份验证方法设置为 OAuth2。 不必对隐私设置执行任何操作。 准备就绪后，单击“登录”。
+
+   ![Power BI GitHub 身份验证方法](media/service-connect-to-github/power-bi-github-authentication.png)
+
+1. 输入 GitHub 凭据并遵循 GitHub 身份验证过程（如果你已通过浏览器登录，可跳过此步骤）。
+
+   ![Power BI GitHub 身份验证过程](media/service-connect-to-github/power-bi-github-authenticate-process.png)
+
+
+登录后，报表将连接到数据源，并填充了最新的数据。 在此期间，活动监视器将转动。
+
+![正在刷新 Power BI GitHub 应用](media/service-connect-to-github/service-github-app-refresh-monitor.png)
+
+除非在登录过程中禁用了此功能，否则报表数据将每天自动刷新一次。 也可以[设置自己的刷新计划](./refresh-scheduled-refresh.md)，根据需要使报表数据保持最新状态。
+
+## <a name="customize-and-share"></a>自定义和共享
+
+若要自定义并共享你的应用，请选择页面右上角的铅笔图标。
+
+![编辑应用](media/service-template-apps-install-distribute/power-bi-template-app-edit-app.png)
+
+
+有关在工作区中编辑项目的信息，请参阅
+* [Power BI 中的报表编辑器导览](../create-reports/service-the-report-editor-take-a-tour.md)
+* [Power BI 服务中设计器的基本概念](../fundamentals/service-basic-concepts.md)
+
+在工作区中完成对项目的所有更改后，即可发布和共享应用。 请参阅[发布应用](../collaborate-share/service-create-distribute-apps.md#publish-your-app)，了解如何执行此操作。
 
 ## <a name="whats-included-in-the-app"></a>应用中包含的内容
 在 Power BI 中 GitHub 提供以下数据：     

@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 05/07/2020
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 8d70b291b4ff2b157c15967d602cfbee8e12965a
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: 1d37225e1de1ffdf0617a84c3b0514d32494c563
+ms.sourcegitcommit: 250242fd6346b60b0eda7a314944363c0bacaca8
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83144369"
+ms.lasthandoff: 05/20/2020
+ms.locfileid: "83693956"
 ---
 # <a name="create-classic-workspaces-in-power-bi"></a>在 Power BI 中创建经典工作区
 
@@ -22,30 +22,30 @@ ms.locfileid: "83144369"
 
 **你知道吗？** Power BI 提供了新的默认工作区体验。 有关新工作区的详细信息，请参阅[在新工作区中组织工作](service-new-workspaces.md)。 已准备好迁移经典工作区？ 有关详细信息，请参阅[在 Power BI 中将经典工作区升级到新工作区](service-upgrade-workspaces.md)。
 
-创建经典工作区时，将创建关联的基础 Office 365 组。 所有工作区管理操作都在 Office 365 中进行。 可以以成员或管理员身份将同事添加到这些工作区。 在工作区中，所有人可协作处理计划向更广大受众发布的仪表板、报表和其他项目。 添加到工作区中的每个人都需要 Power BI Pro 许可证。 
+创建经典工作区时，将创建关联的基础 Microsoft 365 组。 所有工作区管理操作都在 Microsoft 365 中进行。 可以以成员或管理员身份将同事添加到这些工作区。 在工作区中，所有人可协作处理计划向更广大受众发布的仪表板、报表和其他项目。 添加到工作区中的每个人都需要 Power BI Pro 许可证。
 
 ## <a name="video-apps-and-workspaces"></a>视频：应用和工作区
 <iframe width="640" height="360" src="https://www.youtube.com/embed/Ey5pyrr7Lk8?showinfo=0" frameborder="0" allowfullscreen></iframe>
 
-## <a name="create-a-classic-workspace-based-on-an-office-365-group"></a>根据 Office 365 组创建经典工作区
+## <a name="create-a-classic-workspace-based-on-a-microsoft-365-group"></a>根据 Microsoft 365 组创建经典工作区
 
-创建工作区时，即会创建 Office 365 组。
+创建工作区时，是基于 Microsoft 365 组构建的。
 
 [!INCLUDE [powerbi-service-create-app-workspace](../includes/powerbi-service-create-app-workspace.md)]
 
-首次创建工作区时，可能需要等待一小时左右，让工作区传播到 Office 365。 
+首次创建工作区时，可能需要等待一小时左右，让工作区传播到 Microsoft 365。
 
-### <a name="add-an-image-to-your-office-365-workspace-optional"></a>将图像添加到 Office 365 工作区（可选）
+### <a name="add-an-image-to-your-microsoft-365-workspace-optional"></a>将图像添加到 Microsoft 365 工作区（可选）
 默认情况下，Power BI 会为应用创建一个带有应用首字母的彩色小圆圈。 但你可能会想要使用图像对其进行自定义。 若要添加映像，需要 Exchange Online 许可证。
 
 1. 选择“工作区”，选择工作区名称旁边的“更多选项”(…)，然后选择“成员”  。 
    
      ![选择工作区成员](media/service-create-workspaces/power-bi-workspace-old-members.png)
    
-    工作区的 Office 365 Outlook 帐户将在新的浏览器窗口中打开。
+    工作区的 Microsoft 365 Outlook 帐户将在新的浏览器窗口中打开。
 2. 选择编辑铅笔。
    
-     ![Office 365 铅笔图标](media/service-create-workspaces/power-bi-workspace-old-edit-group.png)
+     ![Microsoft 365 铅笔图标](media/service-create-workspaces/power-bi-workspace-old-edit-group.png)
 3. 选择照相机图像，然后找到你要使用的图像。
    
      ![选择照相机图像](media/service-create-workspaces/power-bi-workspace-old-camera.png)
@@ -54,7 +54,7 @@ ms.locfileid: "83144369"
 
 4. 依次选择“确定”和“保存” 。
    
-    图像会替换 Office 365 Outlook 窗口中的彩色圆圈。 
+    图像会替换 Microsoft 365 Outlook 窗口中的彩色圆圈。
    
      ![自定义映像](media/service-create-workspaces/power-bi-workspace-old-new-image.png)
    
