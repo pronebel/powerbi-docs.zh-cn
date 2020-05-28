@@ -8,12 +8,12 @@ ms.topic: conceptual
 ms.date: 04/13/2020
 ms.author: painbar
 LocalizationGroup: ''
-ms.openlocfilehash: edb34fc5592a6b851ae2c48690a772d75049fb48
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: dd7387bcb008d10ec8887ac777431b5423d43f4c
+ms.sourcegitcommit: a7b142685738a2f26ae0a5fa08f894f9ff03557b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83274848"
+ms.lasthandoff: 05/28/2020
+ms.locfileid: "84120326"
 ---
 # <a name="dataset-impact-analysis"></a>数据集影响分析
 
@@ -54,7 +54,7 @@ ms.locfileid: "83274848"
 
 ## <a name="notify-contacts"></a>通知联系人
 
-如果你对数据集进行了更改，或考虑进行更改，那么你可能需要联系相关用户，告诉他们有关更改的信息。 通知联系人时，会向所有受影响工作区的[联系人列表](../collaborate-share/service-create-the-new-workspaces.md#workspace-contact-list)发送电子邮件。 你的名字会显示在电子邮件中，这样联系人就可以找到你，并在新的电子邮件会话中进行回复。 
+如果你对数据集进行了更改，或考虑进行更改，那么你可能需要联系相关用户，告诉他们有关更改的信息。 通知联系人时，会向所有受影响工作区的[联系人列表](../collaborate-share/service-create-the-new-workspaces.md#create-a-contact-list)发送电子邮件。 你的名字会显示在电子邮件中，这样联系人就可以找到你，并在新的电子邮件会话中进行回复。 
 
 1. 在影响分析侧窗格中，单击“通知联系人”  。 “通知联系人”对话框随即显示。
 
