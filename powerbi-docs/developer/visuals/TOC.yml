@@ -52,6 +52,8 @@
           href: power-bi-custom-visuals-certified.md
         - name: 将 Power BI 视觉对象发布到 AppSource
           href: office-store.md
+        - name: 创建 R 驱动的视觉对象
+          href: create-r-based-power-bi-desktop.md
         - name: 测试 Power BI 视觉对象
           href: submission-testing.md
         - name: 在 Power BI 中使用 R 驱动的 Power BI 视觉对象
