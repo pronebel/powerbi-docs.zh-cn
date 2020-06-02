@@ -9,14 +9,14 @@ ms.topic: conceptual
 ms.date: 08/02/2018
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 905e461c69a898b41b45e48405c3aaaa6e09cfec
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: 606f45cee844812b68bbbe774665b6a4c09cd09b
+ms.sourcegitcommit: c1f05254eaf5adb563f8d4f33c299119134c7d1f
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83141922"
+ms.lasthandoff: 05/21/2020
+ms.locfileid: "83733430"
 ---
-# <a name="organizational-content-packs-copy-refresh-and-get-access"></a>组织内容包：复制、刷新和获取访问权限
+# <a name="organizational-content-packs-copy-refresh-and-get-access"></a>组织内容包：复制、刷新和访问
 
 组织内容包发布后，所有收件人都会看到相同的仪表板、报表、Excel 工作簿、数据集和数据（SQL Server Analysis Services (SSAS) 数据源除外）。  [只有内容包创建者可以编辑和重新发布](service-organizational-content-pack-manage-update-delete.md)内容包。  但是，所有收件人均可保存内容包的副本，该副本可与原始内容包并存。
 
@@ -29,10 +29,10 @@ ms.locfileid: "83141922"
 ## <a name="create-a-copy-of-an-organizational-content-pack"></a>创建组织内容包的副本
 创建内容包的专属副本，并对其他用户不可见。
 
-1. 选择内容包仪表板旁边的“更多选项”(…) >“创建副本”  。
+1. 选择内容包仪表板旁边的“更多选项”(…) >“创建副本”。
 
     ![](media/service-organizational-content-pack-copy-refresh-access/power-bi-create-copy-organizational-content-pack.png)
-2. 选择“保存”  。  
+2. 选择“保存”。  
 
 现在，你有一个可以更改的副本。 其他所有人都看不到你做出的更改。
 
@@ -45,7 +45,7 @@ ms.locfileid: "83141922"
 ## <a name="help--i-can-no-longer-access-the-content-pack"></a>帮助！  我再也无法访问该内容包
 这可能是多种原因引起的：
 
-* **成员身份更改**：内容包将发布到电子邮件通讯组、安全组，以及[基于 Office 365 的 Power BI 组](https://support.office.com/article/Create-a-group-in-Office-365-7124dc4c-1de9-40d4-b096-e8add19209e9)。  如果已将你从组中删除，则你不能再访问该内容包。
+* **成员身份更改**：内容包将发布到电子邮件通讯组、安全组，以及[基于 Microsoft 365 的 Power BI 组](https://support.office.com/article/Create-a-group-in-Office-365-7124dc4c-1de9-40d4-b096-e8add19209e9)。  如果已将你从组中删除，则你不能再访问该内容包。
 * **通讯组更改**：内容包创建者更改了通讯组。 例如，如果内容包最初发布到整个组织，但之后创建者将其重新发布到较少的受众，则你可能不再包含于其中。
 * **安全设置更改**：如果仪表板和报表连接到本地 SSAS 数据源，并且对安全设置进行了更改，则可能会撤销你对该服务器的权限。
 

@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 05/14/2019
+ms.date: 05/26/2020
 ms.author: maggies
 LocalizationGroup: Ask questions of your data
-ms.openlocfilehash: 4b80d329c89299cbe87fb29aa340733f0031192a
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: 6e3d44c9871332842ed0e3f3d9b9fb5fc64a5a65
+ms.sourcegitcommit: a7b142685738a2f26ae0a5fa08f894f9ff03557b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83348979"
+ms.lasthandoff: 05/28/2020
+ms.locfileid: "84121103"
 ---
 # <a name="create-featured-questions-for-power-bi-qa"></a>创建 Power BI 问答的精选问题
 如果你拥有一个数据集，你可以向该数据集添加自己精选的问题。 Power BI 问答向使用基于该数据集的报表的同事显示这些问题。  精选问题会让你的同事了解他们可以就数据集询问哪些类型的问题。 你添加的精选问题都由你决定 -- 可以添加常见问题、显示有趣结果的问题，或可能会很难组织描述的问题。
@@ -31,7 +31,7 @@ ms.locfileid: "83348979"
 1. 在仪表板上，选择“问答”问题框。   请注意，通过显示数据集中的术语列表，“问答”已很有帮助。
 2. 若要添加到此列表，请选择 Power BI 右上角的齿轮图标。  
    ![齿轮图标](media/service-q-and-a-create-featured-questions/pbi_gearicon2.jpg)
-3. 选择“设置”&gt;“数据集”&gt;零售分析示例”&gt;“精选问答问题”     。  
+3. 选择“设置”&gt;“数据集”&gt;零售分析示例”&gt;“精选问答问题”   。  
 4. 选择**添加问题**。
    
    ![“设置”菜单](media/service-q-and-a-create-featured-questions/power-bi-settings.png)
@@ -40,7 +40,7 @@ ms.locfileid: "83348979"
 6. 向后导航到零售分析示例的 Power BI 仪表板，然后将光标置于问答问题框中。   
    ![带有精选问题的问答框](media/service-q-and-a-create-featured-questions/power-bi-qna-featured-question-to-start.png)
 7. 新的精选问题（**以地图形式显示地区销售额**）显示于列表之首。 请选择它。  
-8. 以着色地图可视化效果显示答案。  
+8. Power BI 会创建答案，并将其显示为着色地图可视化效果。  
    ![问答的精选问题回答：地图可视化效果](media/service-q-and-a-create-featured-questions/power-bi-qna-featured-question.png)
 
 ## <a name="next-steps"></a>后续步骤

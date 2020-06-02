@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 09/13/2019
 ms.author: kfollis
 LocalizationGroup: Troubleshooting
-ms.openlocfilehash: 7f5f24273b05666098376a2ef04a5dcaada6461b
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: b2743fee2c681f0923d243304ea8f44b45ee3e17
+ms.sourcegitcommit: 2cb249fc855e369eed1518924fbf026d5ee07eb1
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83139821"
+ms.lasthandoff: 05/24/2020
+ms.locfileid: "83812128"
 ---
 # <a name="forgot-your-password-for-power-bi"></a>忘记了 Power BI 的密码？
 
@@ -22,7 +22,7 @@ ms.locfileid: "83139821"
 
 <https://passwordreset.microsoftonline.com>
 
-如果你知道你的帐户未设置为进行密码重置，请与你的 Office 365 管理员联系。如果你使用的是免费试用版，则管理员是组织中进行注册的第一个人员。
+如果你知道自己的帐户未设置为进行密码重置，请与管理员联系。如果你使用的是免费试用版，则管理员是组织中进行注册的第一个人员。
 
 如果在访问帐户时仍存在问题，可以尝试与支持团队联系以进行密码重置。
 

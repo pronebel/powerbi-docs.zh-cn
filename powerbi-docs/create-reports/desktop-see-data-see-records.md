@@ -1,30 +1,30 @@
 ---
-title: 在 Power BI Desktop 中查看视觉对象的数据和记录
-description: 使用 Power BI Desktop 的“查看数据”和“查看记录”功能深入了解详细信息
+title: Power BI Desktop 视觉对象中的视觉对象表和记录
+description: 使用 Power BI Desktop 的视觉对象表和数据点表功能深入钻取详细信息
 author: davidiseminger
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 05/08/2019
+ms.date: 05/21/2020
 ms.author: davidi
 LocalizationGroup: Learn more
-ms.openlocfilehash: 66fe4a9eb109565108cd150369b2260a9d3e1d06
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: d1aca2499ecf2be3e38fe36bd00f5ff5b2c17cc7
+ms.sourcegitcommit: 5e5a7e15cdd55f71b0806016ff91256a398704c1
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83334352"
+ms.lasthandoff: 05/22/2020
+ms.locfileid: "83793959"
 ---
-# <a name="use-see-data-and-see-records-in-power-bi-desktop"></a>使用 Power BI Desktop 的“查看数据”和“查看记录”功能
-在 Power BI Desktop  中，可以深入了解可视化效果的详细信息，并能查看选定视觉对象的基础数据或单个数据记录的文本表示形式。 这些功能有时亦称为“单击后了解详细信息”  、“深入了解”  或“深入了解详细信息”  。
+# <a name="use-visual-table-and-data-point-table-in-power-bi-desktop"></a>使用 Power BI Desktop 中的视觉对象表和数据点表
+在 Power BI Desktop 中，可以深入了解可视化效果的详细信息，并能查看选定视觉对象的基础数据或单个数据记录的文本表示形式。 这些功能有时亦称为“单击后了解详细信息”、“深入了解”或“深入了解详细信息”。
 
-可以使用“查看数据”  功能查看选定可视化效果使用的值文本，也可以使用“查看记录”  功能查看某个选定记录或数据点的所有数据。 
+可以使用“视觉对象表”以表的形式查看视觉对象中的数据，也可以使用“数据点表”查看用于计算单一数据点的数据表。 
 
-![“查看数据”和“查看记录”](media/desktop-see-data-see-records/see-data-record.png)
+![视觉对象表和数据点表](media/desktop-see-data-see-records/see-data-record.png)
 
 >[!IMPORTANT]
->“查看数据”  和“查看记录”  仅支持以下可视化效果类型：
+>“视觉对象表”和“数据点表”仅支持以下可视化效果类型：
 >  - 条形图
 >  - 柱形图
 >  - 环形图
@@ -32,59 +32,58 @@ ms.locfileid: "83334352"
 >  - 漏斗图
 >  - 地图
 >  - 饼图
->  - Treemap
+>  - 树状图
 
-## <a name="use-see-data-in-power-bi-desktop"></a>使用 Power BI Desktop 中的“查看数据”功能
+## <a name="use-visual-table-in-power-bi-desktop"></a>使用 Power BI Desktop 中的视觉对象表
 
-“查看数据”  显示基础可视化效果数据。 在选择可视化效果后，“查看数据”  出现在功能区的“可视化工具”  部分中的“数据/钻取”  选项卡内。
+“视觉对象表”显示基础可视化效果数据。 在选择视觉对象后，“视觉对象表”出现在功能区的“显示”部分中的“数据/钻取”选项卡内。
 
-![功能区中的“查看数据”](media/desktop-see-data-see-records/see-data1.png)
+![功能区中的视觉对象表](media/desktop-see-data-see-records/visual-table-01.png)
 
-此外，还可以通过右键单击可视化效果，然后从显示的菜单中选择“显示数据”；或者通过选择可视化效果右上角的“更多选项”(…)，然后选择“显示数据”来查看数据    。
+此外，还可以通过右键单击可视化效果，然后从显示的菜单中选择“显示数据”；或者通过选择可视化效果右上角的“更多选项”(…)，然后选择“以表的形式显示”来查看数据  。
 
-![右键单击显示数据](media/desktop-see-data-see-records/see-data2.png)&nbsp;&nbsp;![更多选项显示数据](media/desktop-see-data-see-records/see-data3.png)
+![右键单击显示数据](media/desktop-see-data-see-records/visual-table-02.png)&nbsp;&nbsp;![更多选项显示数据](media/desktop-see-data-see-records/visual-table-03.png)
 
 > [!NOTE]
 > 必须将鼠标悬停在视觉对象中的数据点上方，才能在右键单击后看到菜单。
 
-当选择“查看数据”  或“显示数据”  ，Power BI Desktop 画布将显示视觉对象和数据的文本表示形式。 在“水平视图”  中，视觉对象显示在画布的上半部分，数据显示在下半部分。 
+当选择“视觉对象表”或“数据点表”时，Power BI Desktop 画布将显示视觉对象和数据的文本表示形式。 在“水平视图”中，视觉对象显示在画布的上半部分，数据显示在下半部分。 
 
-![水平视图](media/desktop-see-data-see-records/see-data4a.png)
+![水平视图](media/desktop-see-data-see-records/visual-table-04.png)
 
-可以通过选择画布右上角的图标，在“水平视图”和“垂直视图”  之间切换。
+可以通过选择画布右上角的图标，在“水平视图”和“垂直视图”之间切换。
 
-![垂直视图切换](media/desktop-see-data-see-records/see-data4.png)
+![垂直视图切换](media/desktop-see-data-see-records/visual-table-05.png)
 
-若要返回报表，请选择画布左上角的“< 返回报表”  。
+若要返回报表，请选择画布左上角的“< 返回报表”。
 
-![返回到报表](media/desktop-see-data-see-records/see-data5.png)
+![返回报表](media/desktop-see-data-see-records/visual-table-06.png)
 
-## <a name="use-see-records-in-power-bi-desktop"></a>使用 Power BI Desktop 中的“查看记录”功能
+## <a name="use-data-point-table-in-power-bi-desktop"></a>使用 Power BI Desktop 中的数据点表
 
-还可以重点关注可视化效果中的一个数据记录，然后深入了解此记录的数据。 若要使用“查看记录”  ，选择可视化效果，然后选择功能区“可视化工具”  部分“数据/钻取”  选项卡中的“查看记录”  ，然后选择数据点或可视化效果上的行。 
+还可以重点关注可视化效果中的一个数据记录，然后深入了解此记录的数据。 若要使用“数据点表”，选择一个可视化效果，然后选择功能区“可视化工具”部分“数据/钻取”选项卡中的“数据点表”，然后选择一个数据点或可视化效果行。 
 
-![功能区中的“查看记录”](media/desktop-see-data-see-records/see-record1.png)
-
-> [!NOTE]
-> 如果功能区中的“查看记录”  按钮处于禁用状态并灰显，则意味着所选可视化效果不支持“查看记录”  。
-
-此外可以右键单击数据元素，并从显示的菜单中选择“查看记录”  。
-
-![通过右键单击查看记录](media/desktop-see-data-see-records/see-record2.png)
-
-当选择某个数据元素的“查看记录”  ，Power BI Desktop 画布会显示与所选元素相关联的所有数据。 
-
-![](media/desktop-see-data-see-records/see-record3.png)
-
-若要返回报表，请选择画布左上角的“< 返回报表”  。
-
-![](media/desktop-see-data-see-records/see-record4.png)
+![功能区中的数据点表](media/desktop-see-data-see-records/visual-table-07.png)
 
 > [!NOTE]
->“查看记录”  具有以下限制：
-> - 无法更改“查看记录”  视图中的数据并将其保存回报表。
-> - 如果视觉对象使用计算度量值，不能使用“**查看记录**”。
-> - 连接到实时多维 (MD) 模型时无法使用“查看记录”  。
+> 如果功能区中的“数据点表”按钮处于禁用状态并灰显，则意味着所选可视化效果不支持“数据点表”。
+
+此外可以右键单击数据元素，并从显示的菜单中选择“数据点表”。
+
+![右键单击数据点表](media/desktop-see-data-see-records/visual-table-08.png)
+
+当选择某个数据元素的“数据点表”，Power BI Desktop 画布会显示与所选元素相关联的所有数据。 
+
+![](media/desktop-see-data-see-records/visual-table-09.png)
+
+若要返回报表，请选择画布左上角的“< 返回报表”。
+
+
+> [!NOTE]
+>“数据点表”具有以下限制：
+> - 无法更改“数据点表”视图中的数据并将其保存回报表。
+> - 如果视觉对象使用计算度量值，则不能使用“数据点表”。
+> - 连接到实时多维 (MD) 模型时无法使用“数据点表”。
 
 ## <a name="next-steps"></a>后续步骤
 **Power BI Desktop** 提供各种报表格式和数据管理功能。 请参阅下列资源，其中列举了部分示例：

@@ -6,18 +6,18 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 01/15/2020
+ms.date: 05/20/2020
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 3a67c36b2594696e1c576693cc5808eb0227c1c7
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 4a363ce72002003981f1bcbe46e0f5367f89860f
+ms.sourcegitcommit: c1f05254eaf5adb563f8d4f33c299119134c7d1f
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83333478"
+ms.lasthandoff: 05/21/2020
+ms.locfileid: "83733454"
 ---
 # <a name="publish-datasets-and-reports-from-power-bi-desktop"></a>从 Power BI Desktop 发布数据集和报表
-将 Power BI Desktop 文件发布到 Power BI 服务后，将模型中的数据发布到 Power BI 工作区。 这同样适用于在“报表”视图中创建的所有报表  。 你将看一个同名的新数据集以及工作区导航器中的任何报表。
+将 Power BI Desktop 文件发布到 Power BI 服务后，将模型中的数据发布到 Power BI 工作区。 这同样适用于在“报表”视图中创建的所有报表。 你将看到一个同名的新数据集以及工作区导航器中的若干报表。
 
 从 Power BI Desktop 发布文件等效于在 Power BI 中使用**获取数据**连接到并上载 Power BI Desktop 文件。
 
@@ -27,7 +27,7 @@ ms.locfileid: "83333478"
 > 
 
 ## <a name="to-publish-a-power-bi-desktop-dataset-and-reports"></a>发布 Power BI Desktop 数据集和报表
-1. 在 Power BI Desktop 中，选择“文件” **“发布”** “发布到 Power BI”或选择功能区上的“发布”\>  \>   。  
+1. 在 Power BI Desktop 中，选择“文件”\>“发布”\>“发布到 Power BI”或选择功能区上的“发布”   。  
 
    ![“发布”按钮](media/desktop-upload-desktop-files/pbid_publish_publishbutton.png)
 
@@ -49,5 +49,9 @@ ms.locfileid: "83333478"
 * 如果重命名或删除列或度量值，则 Power BI 中任何含有该字段的可视化都可能会被破坏。 
 * Power BI 将忽略对现有列某些格式的更改。 例如，如果将列的格式从 0.25% 更改为 25%。
 * 假设你有一个为 Power BI 中的现有数据集配置的刷新计划。 当你将新数据源添加到文件中，然后重新发布时，必须在下一次计划的刷新前登录这些数据源。
-* 重新发布从 Power BI Desktop 发布的数据集并定义刷新计划时，重新发布后即会开始数据集刷新。 
+* 重新发布从 Power BI Desktop 发布的数据集并定义刷新计划时，重新发布后即会开始数据集刷新。
+* 对数据集进行更改然后重新发布时，会显示一条消息，说明可能受更改影响的工作区、报表和仪表板数量，并会要求你确认是否将当前已发布的数据集替换为你修改过的数据集。 该消息还提供了指向 Power BI 服务中完整数据集影响分析的链接，你可以在其中了解更多信息并采取措施来降低更改的风险。
 
+   ![有关重新发布数据集的影响的警告](media/desktop-upload-desktop-files/pbid-dataset-impact-analysis-desktop-warning.png)
+
+   [详细了解数据集影响分析](../collaborate-share/service-dataset-impact-analysis.md)。

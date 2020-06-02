@@ -7,20 +7,20 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
-ms.date: 02/05/2019
+ms.date: 05/26/2019
 LocalizationGroup: Premium
-ms.openlocfilehash: 45229edbc6ed2c9e9c4618d44b4b74e42d0037b8
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 9df00079488b248f2e5bab52395a637e37045a24
+ms.sourcegitcommit: a7b142685738a2f26ae0a5fa08f894f9ff03557b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83274595"
+ms.lasthandoff: 05/28/2020
+ms.locfileid: "84119991"
 ---
 # <a name="configure-multi-geo-support-for-power-bi-premium"></a>配置 Power BI Premium 的 Multi-Geo 支持
 
 Multi-Geo（多地理位置）是一项 Power BI Premium 功能，可帮助跨国客户解决地区、特定于行业或组织的数据驻留要求。 作为 Power BI Premium 客户，可以将内容部署到除 Power BI 租户主区域以外区域的数据中心。 一个地区 (geography) 可以包含多个区域。 例如，美国是一个地区，而美国中西部和美国中南部都是美国的区域。 可以选择将内容部署到以下任何地区：
 
-- United States
+- 美国
 - 加拿大
 - 英国
 - 巴西
@@ -37,7 +37,7 @@ Power BI Embedded 现在也提供 Multi-Geo 功能。 阅读[Power BI Embedded �
 
 ## <a name="enable-and-configure"></a>启用和配置
 
-对于新容量，可以通过从下拉列表中选择除默认区域以外的区域来启用 Multi-Geo。  每个可用容量显示它当前所在的区域，如美国中西部  。
+对于新容量，可以通过从下拉列表中选择除默认区域以外的区域来启用 Multi-Geo。  每个可用容量显示它当前所在的区域，如美国中西部。
 
 ![容量大小：选择一个区域。 Power BI Multi-Geo](media/service-admin-premium-multi-geo/power-bi-multi-geo-capacity-size.png)
 
@@ -68,6 +68,8 @@ Power BI Embedded 现在也提供 Multi-Geo 功能。 阅读[Power BI Embedded �
 - 权限
 - 数据集凭据
 
+
+
 ## <a name="view-capacity-regions"></a>查看容量区域
 
 在管理门户中，可以查看 Power BI 租户的所有容量，以及它们当前所在的区域。
@@ -93,6 +95,7 @@ Power BI Embedded 现在也提供 Multi-Geo 功能。 阅读[Power BI Embedded �
 - 在启动数据传输之前，确认在区域之间发起的任何移动都遵循所有企业和政府的合规性要求。
 - 存储在远程区域中的缓存查询将停留在该区域内。 然而，传输中的其他数据可能在多个地区之间来回切换。
 - 当在 Multi-Geo 环境中将数据从一个区域移动到另一个区域时，源数据可能保留在从中移出数据的区域内达 30 天。 在此期间，最终用户无权访问该数据。 该数据会在 30 天内从该区域中删除并销毁。
+- 导入的数据模型的查询文本和查询结果流量传输不会经过主区域。 报表元数据仍来自远程区域，某些 DNS 路由状态可能会从区域传出流量。 
 
 - 目前，Multi-GEO 暂不支持[“数据流”](../transform-model/service-dataflows-overview.md)功能。
 

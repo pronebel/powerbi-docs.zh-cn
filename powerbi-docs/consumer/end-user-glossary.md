@@ -8,12 +8,12 @@ ms.subservice: powerbi-consumer
 ms.topic: conceptual
 ms.date: 04/07/2020
 ms.author: mihart
-ms.openlocfilehash: ebdd84dd4de054df08ac79dc2d28f7862cbb284b
-ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
+ms.openlocfilehash: 8426b9461b55ae6c29d5adc71f8073ec48731855
+ms.sourcegitcommit: 5e5a7e15cdd55f71b0806016ff91256a398704c1
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/19/2020
-ms.locfileid: "83564886"
+ms.lasthandoff: 05/22/2020
+ms.locfileid: "83794060"
 ---
 # <a name="glossary-for-power-bi-service"></a>Power BI 服务词汇表
 Power BI 服务可能会引入不熟悉或容易混淆的术语。 词汇表是查找术语的好地方，可能需要将其加入书签。 了解构成 Power BI 服务的构建块的另一个极佳资源是[基本概念](end-user-basic-concepts.md)。 “基本概念”提供 Power BI 组件及其如何连接的简要概述。
@@ -22,9 +22,7 @@ Power BI 服务可能会引入不熟悉或容易混淆的术语。 词汇表是�
 
 ## <a name="a"></a>A
 
-帐户：有各种不同类型的 Power BI 帐户（亦称为“许可证”或“订阅”）。  帐户可以是每用户帐户，也可以是组织帐户。 每用户帐户作为免费帐户或 Pro 帐户提供。  Power BI 免费用户要么使用独立的 Power BI Desktop，，要么独立使用 Power BI 服务，要么在具有 Premium 组织订阅的组织中使用 Power BI 服务。 Power BI 每用户 Pro 帐户是付费每月订阅，可便于与其他 Pro 用户进行协作和内容共享。 
-
-组织 Premium（亦称为“高级容量”）订阅在每用户许可证的基础之上添加了一层功能。 例如，与没有 Premium 许可证的免费用户相比，有 Premium 订阅的组织内的免费每用户帐户持有者可以使用 Power BI 执行更多操作。 例如，Premium 组织帐户中的免费用户可以与同事协作，并能查看 Power BI 高级容量中托管的内容 。 
+帐户：使用工作或学校帐户登录到 Power BI。 管理员在 Azure Active Directory 中管理工作或学校帐户。 你的访问级别由与该帐户关联的 Power BI 许可证以及存储内容的容量类型决定。 请参阅下面的许可证和 Premium。 
 
 **admin portal (管理门户)** Power BI 管理员管理其组织内 Power BI 的用户、功能和设置的地方。 （注意：Microsoft 365、Azure 和 PowerApps 使用管理中心。）
 
@@ -171,7 +169,11 @@ Power BI 服务可能会引入不熟悉或容易混淆的术语。 词汇表是�
 
 第一次出现：navigation pane，后面提及或空间紧促时：nav pane
 
-**许可证**：请参阅“帐户”。
+许可证：你的访问级别由与帐户关联的 Power BI 许可证以及存储内容的容量类型决定。 例如，在共享容量中，具有 Power BI Pro 许可证的用户只能与分到 Pro 许可证的用户协作。 在共享容量中，免费许可证只允许访问用户的个人工作区。 但是，当内容处于 Premium 容量中时，具有 Pro 许可证的用户可以与分到免费许可证的用户共享该内容。 
+
+给用户分配许可证时，可以是免费许可证或 Pro 许可证。 根据获取许可证的方式，它可以是付费的也可以是免费的。 帐户可以是每用户帐户，也可以是组织帐户。 每用户帐户作为免费帐户或 Pro 帐户提供。  Power BI 免费用户要么使用独立的 Power BI Desktop，，要么独立使用 Power BI 服务，要么在具有 Premium 组织订阅的组织中使用 Power BI 服务。 Power BI 每用户 Pro 帐户是付费每月订阅，可便于与其他 Pro 用户进行协作和内容共享。 
+
+组织 Premium（亦称为“高级容量”）订阅在每用户许可证的基础之上添加了一层功能。 例如，与没有 Premium 许可证的免费用户相比，有 Premium 订阅的组织内的免费每用户帐户持有者可以使用 Power BI 执行更多操作。 例如，Premium 组织帐户中的免费用户可以与同事协作，并能查看 Power BI 高级容量中托管的内容 。 
 
 **list page (列表页)** 或 **content list (内容列表)** 导航窗格中元素的部分页面之一。 例如，“收藏夹”、“最近访问”、“我的工作区”。
 

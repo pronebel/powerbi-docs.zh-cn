@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 05/15/2020
 ms.custom: seodec18
 LocalizationGroup: Premium
-ms.openlocfilehash: 290174f7848e4518a4b1489d0a90136e86d245da
-ms.sourcegitcommit: 6ba7cc9afaf91229f717374bc0c12f0b8201d15e
+ms.openlocfilehash: 7c9f198ac15311948e1789173851a6c85debc856
+ms.sourcegitcommit: 2cb249fc855e369eed1518924fbf026d5ee07eb1
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/16/2020
-ms.locfileid: "83438237"
+ms.lasthandoff: 05/24/2020
+ms.locfileid: "83812441"
 ---
 # <a name="what-is-power-bi-premium"></a>什么是 Power BI Premium？
 
@@ -50,7 +50,7 @@ Azure Power BI Embedded 在很大程度上超出了本文的范围，但在“�
 
 ### <a name="purchasing"></a>购买
 
-Power BI Premium 订阅由 Microsoft 365 管理中心的管理员购买。 具体而言，仅 Office 365 全局管理员或计费管理员才能购买 SKU。 购买时，租户会收到相应数量的 V 核心用于分配给容量，这称为 *V 核心池*。 例如，购买 P3 SKU 会为租户提供 32 个 V 核心。 若要了解详细信息，请参阅[如何购买 Power BI Premium](service-admin-premium-purchase.md)。
+Power BI Premium 订阅由 Microsoft 365 管理中心的管理员购买。 具体而言，仅全局管理员或计费管理员才能购买 SKU。 购买时，租户会收到相应数量的 V 核心用于分配给容量，这称为 *V 核心池*。 例如，购买 P3 SKU 会为租户提供 32 个 V 核心。 若要了解详细信息，请参阅[如何购买 Power BI Premium](service-admin-premium-purchase.md)。
 
 ## <a name="dedicated-capacities"></a>专用容量
 
@@ -127,13 +127,13 @@ Power BI 服务始终充分利用容量资源，同时不超过对容量施加�
 
 ### <a name="regional-support"></a>区域支持
 
-创建新容量时，Office 365 全局管理员和 Power BI 服务管理员可以指定分配给容量的工作区将驻留的区域。 这称为**多地理位置**。 借助多地理位置，组织可以通过将内容部署到特定区域中的数据中心来满足数据驻留要求，即使它与 Office 365 订阅所在的区域不同。 若要了解详细信息，请参阅 [Power BI Premium 的多地理位置支持](service-admin-premium-multi-geo.md)。
+创建新容量时，全局管理员和 Power BI 服务管理员可以指定一个区域供分配给容量的工作区驻留。 这称为**多地理位置**。 借助多地理位置，组织可以通过将内容部署到特定区域中的数据中心来满足数据驻留要求，即使它与 Office 365 订阅所在的区域不同。 若要了解详细信息，请参阅 [Power BI Premium 的多地理位置支持](service-admin-premium-multi-geo.md)。
 
 ### <a name="capacity-management"></a>容量管理
 
 管理 Premium 容量涉及创建或删除容量、分配管理员、分配工作区、配置工作负载、监视，以及进行调整来优化容量性能。 
 
-Office 365 全局管理员和 Power BI 服务管理员可以从可用的 V 核心创建 Premium 容量，或修改现有的 Premium 容量。 创建容量时会指定容量大小和地理区域，并分配至少一个容量管理员。 
+全局管理员和 Power BI 服务管理员可以从可用的 V 核心创建 Premium 容量，或修改现有的 Premium 容量。 创建容量时会指定容量大小和地理区域，并分配至少一个容量管理员。 
 
 创建容量后，大多数管理任务都在[管理门户](service-admin-portal.md)中完成。
 

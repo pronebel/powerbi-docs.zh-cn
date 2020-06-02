@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 01/15/2020
+ms.date: 05/27/2020
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: e5effe6f397dd53fe6347708774118e9c491abc1
-ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
+ms.openlocfilehash: 71acc85ecd74b2606d00c4e3b63b6f7532c9487c
+ms.sourcegitcommit: a7b142685738a2f26ae0a5fa08f894f9ff03557b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/19/2020
-ms.locfileid: "83564150"
+ms.lasthandoff: 05/28/2020
+ms.locfileid: "84120035"
 ---
 # <a name="use-onedrive-for-business-links-in-power-bi-desktop"></a>在 Power BI Desktop 中使用 OneDrive for Business 链接
 很多人将 Excel 工作簿存储在 OneDrive for Business 中，这在 Power BI Desktop 中使用起来非常方便。 通过 Power BI Desktop，你可以使用 OneDrive for Business 中存储的 Excel 文件的联机链接来创建报表和视觉对象。 你可以使用 OneDrive for Business 组帐户或 OneDrive for Business 个人帐户。
@@ -26,11 +26,10 @@ ms.locfileid: "83564150"
    
    > [!NOTE]
    > 你的浏览器界面可能与以下图像不完全相同。 可以通过多种方法为 OneDrive for Business 浏览器界面中的文件选择“在 Excel 中打开”。 可使用任何允许你在 Excel 中打开文件的选项。
-   > 
-   > 
    
    ![](media/desktop-use-onedrive-business-links/odb-links_02.png)
-2. 在 Excel 中，选择“文件” > “信息”，然后选择“保护工作簿”上方的“复制路径”   。
+
+2. 在 Excel 中，选择“文件” > “信息”，然后选择“复制路径”按钮，如下图所示。
    
    ![](media/desktop-use-onedrive-business-links/onedrive-copy-path.png)
 

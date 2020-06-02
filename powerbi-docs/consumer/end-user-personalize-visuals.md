@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 05/09/2020
+ms.date: 05/21/2020
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: 83f040fd021a3d3e1cd6ce344c84051c7ff58bb0
-ms.sourcegitcommit: faa8cfb66e79ea16ba46605f752cc9ca57924d0e
+ms.openlocfilehash: 9599d9b96b98feed4a8751c6bd028ca8b3f77ed3
+ms.sourcegitcommit: 5e5a7e15cdd55f71b0806016ff91256a398704c1
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83383148"
+ms.lasthandoff: 05/22/2020
+ms.locfileid: "83793587"
 ---
 # <a name="personalize-visuals-in-a-report"></a>在报表中个性化设置视觉对象
 
@@ -117,7 +117,7 @@ ms.locfileid: "83383148"
 
 - 对于整个报表或特定视觉对象，可以关闭“个性化设置此视觉对象”。 如果没有用于个性化设置视觉对象的选项，请咨询你的租户管理员或报表所有者。 若要显示报表所有者的联系人信息，请从 Power BI 菜单栏中选择报表的名称。
 - 用户浏览不会自动保留。 需要将视图另存为个人书签，以便捕获所做的更改。
-- 在 Power BI 移动应用中时，无法更改视觉对象。 但移动应用中会尊重在 Power BI 服务的个人书签中保存的任何视觉更改。
+- 适用于 iOS 和 Android 平板电脑的 Power BI 移动应用和 Power BI Windows 应用均支持此功能；适用于手机的 Power BI 移动应用则不支持。 但所有 Power BI 移动应用都将接受在 Power BI 服务的个人书签中保存的任何视觉对象更改。
 
 还存在一些待解决的已知问题：
 

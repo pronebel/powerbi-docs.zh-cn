@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 04/10/2019
 ms.custom: seodec18
 LocalizationGroup: Premium
-ms.openlocfilehash: 2e32a61891cee2fb5e2a80167d5283962dc164bb
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: fdb3db1db1fe82743658f6a6073386701e7fe961
+ms.sourcegitcommit: a7b142685738a2f26ae0a5fa08f894f9ff03557b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83134822"
+ms.lasthandoff: 05/28/2020
+ms.locfileid: "84120994"
 ---
 # <a name="managing-premium-capacities"></a>管理高级容量
 
@@ -23,7 +23,7 @@ ms.locfileid: "83134822"
 
 ## <a name="creating-and-managing-capacities"></a>创建和管理容量
 
-Power BI 管理门户的“容量设置”页面显示已购买的 vCore 数和可用的 Premium 容量  。 在此页面中，Office 365 全局管理员或 Power BI 服务管理员可以从可用的 vCore 创建 Premium 容量，或修改现有的 Premium 容量。
+Power BI 管理门户的“容量设置”页面显示已购买的 vCore 数和可用的 Premium 容量。 在此页面中，全局管理员或 Power BI 服务管理员可以从可用的 V 核心创建 Premium 容量，或修改现有的 Premium 容量。
 
 创建 Premium 容量时，需要管理员定义以下内容：
 
@@ -47,7 +47,7 @@ Power BI 管理门户的“容量设置”页面显示已购买的 vCore 数和�
 
 可以将 Premium 容量分配到 Power BI 租户的主区域以外的区域，这称为多地理位置。 多地理位置提供对 Power BI 内容所在的已定义地理区域内的数据中心的管理控制。 部署多地理位置通常是为了实现公司或政府合规性，而不是为了提升性能和规模。 加载报表和仪表板仍涉及对主区域元数据的请求。 若要了解详细信息，请参阅 [Power BI Premium 的多地理位置支持](service-admin-premium-multi-geo.md)。
 
-Power BI 服务管理员和 Office 365 全局管理员可以修改 Premium 容量。 具体而言，他们可以：
+Power BI 服务管理员和全局管理员可以修改 Premium 容量。 具体而言，他们可以：
 
 - 更改容量大小以增加或减少资源。
 - 添加或删除容量管理员。
@@ -57,7 +57,7 @@ Power BI 服务管理员和 Office 365 全局管理员可以修改 Premium 容�
 
 向特定的 Premium 容量分配工作区需要具有分配权限。 可以向整个组织、特定用户或组授予权限。
 
-默认情况下，Premium 容量仅支持与当前运行的 Power BI 查询关联的工作负载。 Premium 容量还支持其他工作负载：AI（认知服务）、分页报表和数据流    。 每个工作负载都要求配置工作负载可使用的最大内存（以占可用内存总量的百分比的形式）。 请务必了解，增加最大内存分配可能会影响可托管的活动模型的数量和刷新的吞吐量。 
+默认情况下，Premium 容量仅支持与当前运行的 Power BI 查询关联的工作负载。 Premium 容量还支持其他工作负载：AI（认知服务）、分页报表和数据流  。 每个工作负载都要求配置工作负载可使用的最大内存（以占可用内存总量的百分比的形式）。 请务必了解，增加最大内存分配可能会影响可托管的活动模型的数量和刷新的吞吐量。 
 
 内存动态分配给数据流，但静态分配给分页报表。 静态分配最大内存是因为分页报表在容量的安全包含空间中运行。 设置分页报表内存时应小心谨慎，因为它会减小用于加载模型的可用内存。 若要了解详细信息，请参阅[默认内存设置](service-admin-premium-workloads.md#default-memory-settings)。
 
@@ -65,16 +65,16 @@ Power BI 服务管理员和 Office 365 全局管理员可以修改 Premium 容�
 
 ### <a name="assigning-workspaces-to-capacities"></a>将工作区分配到容量
 
-可以在 Power BI 管理门户中将工作区分配到 Premium 容量，也可以在“工作区”  窗格中为工作区分配工作区。
+可以在 Power BI 管理门户中将工作区分配到 Premium 容量，也可以在“工作区”窗格中为工作区分配工作区。
 
-容量管理员以及 Office 365 全局管理员或 Power BI 服务管理员可以在 Power BI 管理门户中批量分配工作区。 批量分配适用于：
+容量管理员以及全局管理员或 Power BI 服务管理员可以在 Power BI 管理门户中批量分配工作区。 批量分配适用于：
 
 - **用户拥有的工作区** - 向 Premium 容量分配这些用户拥有的所有工作区（包括个人工作区）。 如果已将工作区分配给不同的 Premium 容量，则会重新分配工作区。 此外，还会为用户分配工作区分配权限。
 
-- 特定工作区 
+- 特定工作区
 - **整个组织的工作区** - 向 Premium 容量分配所有工作区（包括个人工作区）。 为所有现有和未来的用户分配工作区分配权限。 不建议使用此方法。 请首选更具针对性的方法。
 
-可以使用“工作区”  窗格将工作区分配到 Premium 容量，前提是用户既是工作区管理员，又具有分配权限。
+可以使用“工作区”窗格将工作区分配到 Premium 容量，前提是用户既是工作区管理员，又具有分配权限。
 
 ![使用“工作区”窗格将工作区分配到 Premium 容量](media/service-premium-capacity-manage/assign-workspace-capacity.png)
 
@@ -86,24 +86,24 @@ Power BI 服务管理员和 Office 365 全局管理员可以修改 Premium 容�
 
 ## <a name="monitoring-capacities"></a>监视容量
 
-监视 Premium 容量可使管理员了解容量的实时情况。 可使用 Power BI 管理门户或 Power BI Premium 容量指标 (Power BI) 应用  来监视容量。
+监视 Premium 容量可使管理员了解容量的实时情况。 可使用 Power BI 管理门户或 Power BI Premium 容量指标 (Power BI) 应用来监视容量。
 
 ### <a name="power-bi-admin-portal"></a>Power BI 管理门户
 
-在管理门户中，为每个容量提供“运行状况”选项卡，显示容量和每个已启用工作负载的摘要指标  。 指标显示过去七天的平均值。  
+在管理门户中，为每个容量提供“运行状况”选项卡，显示容量和每个已启用工作负载的摘要指标。 指标显示过去七天的平均值。  
 
 在容量级别，指标是已启用的所有工作负载的累积量。 提供以下指标：
 
 - **CPU 使用率** - 提供平均 CPU 使用率（以占容量可用 CPU 总量的百分比的形式）。  
 - **内存使用率** - 提供平均内存使用率 (GB)（以占容量可用内存总量的百分比的形式）。 
 
-对于每个已启用的工作负载，提供了 CPU 使用率和内存使用率，还提供了特定于工作负载的大量指标。 例如，对于数据流工作负载，总计计数显示每个数据流的总刷新次数，平均持续时间显示数据流的平均刷新持续时间   。
+对于每个已启用的工作负载，提供了 CPU 使用率和内存使用率，还提供了特定于工作负载的大量指标。 例如，对于数据流工作负载，总计计数显示每个数据流的总刷新次数，平均持续时间显示数据流的平均刷新持续时间 。
 
 ![门户中的“容量运行状况”选项卡](media/service-premium-capacity-manage/admin-portal-health-dataflows.png)
 
 若要详细了解每个工作负载的所有可用指标，请参阅[在管理门户中监视容量](service-admin-premium-monitor-portal.md)。
 
-Power BI 管理门户中的监视功能旨在提供关键容量指标的快速摘要。 若要进行更详细的监视，建议使用 Power BI Premium 容量指标  应用。
+Power BI 管理门户中的监视功能旨在提供关键容量指标的快速摘要。 若要进行更详细的监视，建议使用 Power BI Premium 容量指标应用。
 
 ### <a name="power-bi-premium-capacity-metrics-app"></a>Power BI Premium 容量指标应用
 

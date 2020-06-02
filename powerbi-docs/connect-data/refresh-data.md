@@ -6,15 +6,15 @@ ms.reviewer: kayu
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 05/08/2020
+ms.date: 05/27/2020
 ms.author: davidi
 LocalizationGroup: Data refresh
-ms.openlocfilehash: 50d0cb1d31a6ec20db69c1b06aaf64f3eed727a2
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 9bc8f7c100acc3805fbe6ab949e3584cb5fd26e1
+ms.sourcegitcommit: a7b142685738a2f26ae0a5fa08f894f9ff03557b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83309995"
+ms.lasthandoff: 05/28/2020
+ms.locfileid: "84121048"
 ---
 # <a name="data-refresh-in-power-bi"></a>Power BI 中的数据刷新
 
@@ -107,10 +107,12 @@ Power BI 刷新操作可以包含多种刷新类型，包括数据刷新、OneDr
 
 OneDrive 刷新与 Power BI 将数据从数据源导入到数据集的数据集刷新不同，它会将数据集和报表与其源文件同步。 默认情况下，Power BI 以大约每小时一次的频率检查连接到 OneDrive 或 SharePoint Online 上的文件的数据集是否需要同步。
 
-> [!IMPORTANT]
-> 注意如何在 OneDrive 上处理文件管理。 如果将 OneDrive 文件设置为数据源，Power BI 在执行刷新时会引用该文件的项 ID，这可能会在某些情况下引发问题。 请考虑这种情况：你有主文件 A 和该文件的生产副本 B，同时你为文件 B 配置了 OneDrive 刷新。如果随后复制文件 A 而不是文件 B，则复制操作会删除旧的文件 B，并新建具有不同项 ID 的文件 B，而这会中断 OneDrive 刷新  。 所以应改为上传并替换文件 B，这样即可保留相同的项 ID。
+Power BI 会根据 OneDrive 中的项 ID 执行刷新，因此在考虑进行更新与替换时请慎重。 如果将 OneDrive 文件设置为数据源，Power BI 在执行刷新时会引用该文件的项 ID。 请考虑以下情况：你有主文件 A 和该文件的生产副本 B，同时你为文件 B 配置了 OneDrive 刷新。如果随后复制文件 A 而不是文件 B，则复制操作会删除旧的文件 B，并新建具有不同项 ID 的文件 B，而这会中断 OneDrive 刷新  。 若要避免这种情况，可以改为上传并替换文件 B，这样可原样保留其项 ID。
 
-可以将文件移动（例如，使用拖放操作）到其他位置，由于 PBI 仍可识别文件 ID，刷新将继续进行。 但如果将该文件复制到其他位置，则会新建该文件的实例和文件 ID。 因而 Power BI 文件引用将失效，且刷新将失败。
+可以将文件移动（例如，使用拖放操作）到其他位置，由于 Power BI 仍可识别文件 ID，刷新将继续进行。 但如果将该文件复制到其他位置，则会新建该文件的实例和文件 ID。 因而 Power BI 文件引用将失效，且刷新将失败。
+
+> [!NOTE]
+> 即使已在本地计算机上完成了同步，并且已在 Power BI 服务中使用“立即刷新”，Power BI 也可能需要长达 10 分钟的时间才能刷新数据集。
 
 若要查看过去的同步周期，请检查刷新历史记录中的 OneDrive 选项卡。 以下屏幕截图显示了示例数据集的完整同步周期。
 

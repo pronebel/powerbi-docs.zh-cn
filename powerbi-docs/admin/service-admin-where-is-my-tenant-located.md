@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 09/09/2019
 ms.author: kfollis
 LocalizationGroup: Administration
-ms.openlocfilehash: 4a763b31333004a8cdecda5262967473817bc983
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: a797547562a8968591ca6551f85a56e0da98d680
+ms.sourcegitcommit: 5e5a7e15cdd55f71b0806016ff91256a398704c1
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83135995"
+ms.lasthandoff: 05/22/2020
+ms.locfileid: "83793288"
 ---
 # <a name="where-is-my-power-bi-tenant-located"></a>我的 Power BI 租户位于何处？
 
@@ -26,7 +26,7 @@ ms.locfileid: "83135995"
 
 若要查找租户所在的区域，请按以下步骤操作。
 
-1. 在 Power BI 服务的顶部菜单栏中，依次选择帮助图标 (?  )和“关于 Power BI”  。
+1. 在 Power BI 服务的顶部菜单栏中，依次选择帮助图标 (?)和“关于 Power BI”。
 
 1. 查看“**您的数据存储于**”旁的值。 这是租户所在的区域。 该值也是存储数据的区域，除非你为工作区的不同区域使用专用容量。
 
@@ -34,7 +34,7 @@ ms.locfileid: "83135995"
 
 ## <a name="how-the-data-region-is-selected"></a>选择该数据区域的操作过程
 
-数据区域是以你在创建租户时所选的国家/地区为依据。 此选择应用于 Power BI 和 Office 365 注册，因为此类信息是共享的。 如果这是新租户，请在注册时从列表中选择相应的国家/地区。
+数据区域是以你在创建租户时所选的国家/地区为依据。 此选择应用于 Powe BI 和 Microsoft 365 注册，因为此类信息是共享的。 如果这是新租户，请在注册时从列表中选择相应的国家/地区。
 
 ![国家/地区选择](media/service-admin-where-is-my-tenant-located/sign-up-country-selection.png)
 

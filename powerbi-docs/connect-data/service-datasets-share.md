@@ -1,22 +1,22 @@
 ---
-title: 共享数据集（预览）
+title: 共享数据集
 description: 作为数据集所有者，你可以创建和共享数据集，以便其他人使用。 了解如何共享它们。
 author: maggiesMSFT
-ms.reviewer: chbraun
+ms.reviewer: kayu
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 10/01/2019
+ms.date: 04/30/2020
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 4114287099300c371a6b02961a968702acb98f92
-ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
+ms.openlocfilehash: 4082647338adcca8518cc4d9c3a3b88cc3e04f4f
+ms.sourcegitcommit: 5e5a7e15cdd55f71b0806016ff91256a398704c1
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/19/2020
-ms.locfileid: "83565451"
+ms.lasthandoff: 05/22/2020
+ms.locfileid: "83794091"
 ---
-# <a name="share-a-dataset-preview"></a>共享数据集（预览）
+# <a name="share-a-dataset"></a>共享数据集
 
 作为 Power BI Desktop 中数据模型的创建者，你创建的数据集可在 Power BI 服务中进行分发 。 然后，其他报表创建者可以将你的数据集作为自己报表的基础。 本文介绍如何共享数据集。 若要了解如何授予和删除对共享数据集的访问权限，请参阅[生成权限](service-datasets-build-permissions.md)。
 
@@ -26,7 +26,7 @@ ms.locfileid: "83565451"
 
     最佳做法是将 .pbix 文件保存到 Microsoft 365 组。
 
-1. 将 .pbix 文件发布到 Power BI 服务中的[新的体验工作区](../collaborate-share/service-create-the-new-workspaces.md)。
+1. 将 .pbix 文件发布到 Power BI 服务中的[新的工作区体验](../collaborate-share/service-create-the-new-workspaces.md)。
     
     完成后，此工作区的其他成员可以在基于此数据集的其他工作区中创建报表。
 
@@ -53,5 +53,5 @@ ms.locfileid: "83565451"
 
 ## <a name="next-steps"></a>后续步骤
 
-- [跨工作区使用数据集（预览）](service-datasets-across-workspaces.md)
+- [跨工作区使用数据集](service-datasets-across-workspaces.md)
 - 是否有任何问题? [尝试咨询 Power BI 社区](https://community.powerbi.com/)

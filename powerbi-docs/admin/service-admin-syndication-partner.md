@@ -1,6 +1,6 @@
 ---
 title: 无法将 Power BI 添加到 O365 合作伙伴
-description: 无法将 Power BI 添加到 Office 365 联合合作伙伴。 联合模型是 Office 365 使用的购买模型。
+description: 无法将 Power BI 添加到 Microsoft 365 联合合作伙伴。 联合模型是 Microsoft 365 使用的购买模型。
 author: kfollis
 ms.reviewer: ''
 ms.service: powerbi
@@ -9,16 +9,16 @@ ms.topic: conceptual
 ms.date: 09/09/2019
 ms.author: kfollis
 LocalizationGroup: Administration
-ms.openlocfilehash: 5907f23bb5bf1bcdc5a4ca3412e5331a09d145c9
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: 2c590875b4dee81f7ca54434d6e5895be885be97
+ms.sourcegitcommit: 2cb249fc855e369eed1518924fbf026d5ee07eb1
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83344931"
+ms.lasthandoff: 05/24/2020
+ms.locfileid: "83812326"
 ---
 # <a name="unable-to-add-power-bi-to-office-365-partner-subscription"></a>无法将 Power BI 添加到 Office 365 合作伙伴订阅
 
-使用 Office 365，公司可以转售与自己的解决方案捆绑集成的 Office 365，从而为最终客户提供单一联系人，方便其购买产品、处理帐务和获取支持。
+使用 Microsoft 365，公司可以转售与自己的解决方案捆绑集成的 Microsoft 365，从而为最终客户提供单一联系人，方便其购买产品、处理帐务和获取支持。
 
 若要随 Office 365 订阅一起获取 Power BI，建议联系合作伙伴。 如果合作伙伴暂不提供 Power BI，可采用其他方法。
 
@@ -36,13 +36,13 @@ ms.locfileid: "83344931"
 
 1. 转到 [MIcrosoft 365 管理中心](https://admin.microsoft.com/AdminPortal/Home#/homepage)。
 
-1. 在左侧菜单中，打开“帐务”  ：
+1. 在左侧菜单中，打开“帐务”：
 
-    * 如果看到“订阅”  ，可以直接从 Microsoft 获取服务，也可以与提供 Power BI 的其他合作伙伴联系。
+    * 如果看到“订阅”，可以直接从 Microsoft 获取服务，也可以与提供 Power BI 的其他合作伙伴联系。
 
         ![“帐务”下有“订阅”](media/service-admin-syndication-partner/billingsub.png)
 
-    * 如果看不到“订阅”  ，便无法直接从 Microsoft 或其他合作伙伴处购买。
+    * 如果看不到“订阅”，便无法直接从 Microsoft 或其他合作伙伴处购买。
 
 如果合作伙伴不提供 Power BI，且你无法直接从 Microsoft 或其他合作伙伴处购买，请考虑注册免费试用版。
 
@@ -52,13 +52,13 @@ ms.locfileid: "83344931"
 
 ### <a name="enable-ad-hoc-subscriptions"></a>启用临时订阅
 
-默认情况下，个人注册（亦称为“临时订阅”）处于禁用状态。 在这种情况下，你会在尝试注册时看到以下消息：“IT 部门已禁止注册 Microsoft Power BI”  。
+默认情况下，个人注册（亦称为“临时订阅”）处于禁用状态。 在此情况下，如果尝试注册，会显示以下消息：你的 IT 部门已禁用注册 Microsoft Power BI。
 
 ![“抱歉...”图像](media/service-admin-syndication-partner/sorry.png)
 
 若要启用临时订阅，可以与合作伙伴联系并请求打开该功能。 如果你是租户管理员，并且知道如何使用 Azure Active Directory PowerShell 命令，可以自行启用临时订阅。 [Azure Active Directory Graph PowerShell](/powershell/azure/active-directory/install-adv2/)
 
-1. 使用 Office 365 凭据登录 Azure Active Directory。 下面脚本的第一行提示你输入凭据。 第二行连接到 Azure Active Directory。
+1. 使用 Microsoft 365 凭据登录 Azure Active Directory。 下面脚本的第一行提示你输入凭据。 第二行连接到 Azure Active Directory。
 
     ```powershell
     $msolcred = get-credential

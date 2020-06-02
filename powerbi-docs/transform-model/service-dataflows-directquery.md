@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 05/19/2020
+ms.date: 05/21/2020
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: 9de8c9611b24eaa627b3ddf044f13d36d7b9a3d4
-ms.sourcegitcommit: 250242fd6346b60b0eda7a314944363c0bacaca8
+ms.openlocfilehash: 469b8b13f77c56f9371ae8c1c81dcb94278c62e0
+ms.sourcegitcommit: 5e5a7e15cdd55f71b0806016ff91256a398704c1
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/20/2020
-ms.locfileid: "83694564"
+ms.lasthandoff: 05/22/2020
+ms.locfileid: "83793987"
 ---
 # <a name="use-directquery-with-dataflows-in-power-bi-preview"></a>在 Power BI（预览版）中将 DirectQuery 用于数据流
 
@@ -22,7 +22,7 @@ ms.locfileid: "83694564"
 
 将 DirectQuery 用于数据流，可以让 Power BI 和数据流过程得到以下增强：
 
-* **避免单独刷新计划** - DirectQuery 直接连接到数据流，无需创建数据集。 因此，将 DirectQuery 与数据流一起使用意味着不再需要数据流和数据集的单独刷新计划，就能确保数据已同步。
+* 避免单独刷新计划 - DirectQuery 直接连接到数据流，无需创建导入的数据集。 因此，将 DirectQuery 与数据流一起使用意味着不再需要数据流和数据集的单独刷新计划，就能确保数据已同步。
 
 * **筛选数据** - DirectQuery 对于处理数据流中经过筛选的数据视图非常有用。 如果要筛选数据以处理数据流中的一部分数据，可以使用 DirectQuery（和计算引擎）来筛选数据流数据，并处理筛选出的子集。
 
@@ -38,7 +38,7 @@ ms.locfileid: "83694564"
 
 ## <a name="enable-directquery-for-dataflows"></a>为数据流启用 DirectQuery
 
-为了确保数据流可用于 DirectQuery 访问，增强的计算引擎必须处于最优状态。 若要为数据流启用 DirectQuery，请将新的“增强的计算引擎设置”选项设置为“已优化” 。 下图展示的是正确选择的设置。
+为了确保数据流可用于 DirectQuery 访问，增强的计算引擎必须处于最优状态。 若要为数据流启用 DirectQuery，请将新的“增强的计算引擎设置”选项设置为“打开”。 下图展示的是正确选择的设置。
 
 ![为数据流启用增强的计算引擎](media/service-dataflows-directquery/dataflows-directquery-01.png)
 
@@ -50,7 +50,15 @@ ms.locfileid: "83694564"
 下面列出的是 DirectQuery 和数据流存在的几个已知限制。
 
 * 用于数据流的 DirectQuery 不适用于已启用增强的元数据预览功能的情况。 我们计划在即将推出的 Power BI Desktop 月度发行版中消除这种冲突。
+
 * 在此功能的预览期间，部分客户在将 DirectQuery 用于数据流时可能会遇到超时或性能问题。 我们会在此预览期间积极地解决此类问题。
+
+* 当前不支持具有导入和 DirectQuery 数据源的复合/混合模型。
+
+* 大型数据流在查看可视化效果时可能会遇到超时问题。 此限制将在功能正式发布时删除。 同时，遇到超时问题的大型数据流应使用导入模式。
+
+* 在“数据源设置”下，如果使用 DirectQuery，数据流连接器将显示无效凭据。 这不会影响行为，并且数据集可以正常工作。 此问题会在临近正式发布时解决。
+
 
 
 ## <a name="next-steps"></a>后续步骤

@@ -6,16 +6,16 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
-ms.date: 04/27/2020
+ms.date: 05/12/2020
 ms.author: kfollis
 ms.custom: seodec18
 LocalizationGroup: Administration
-ms.openlocfilehash: b08184e92730bd3a42a91424883d07cecec82549
-ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
+ms.openlocfilehash: 605d35d55f3191b230d9c4a8d118e2c238283ff2
+ms.sourcegitcommit: c1f05254eaf5adb563f8d4f33c299119134c7d1f
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/19/2020
-ms.locfileid: "83564463"
+ms.lasthandoff: 05/21/2020
+ms.locfileid: "83733570"
 ---
 # <a name="administering-power-bi-in-the-admin-portal"></a>在管理门户中管理 Power BI
 
@@ -356,6 +356,16 @@ Azure AD B2B 来宾用户可以编辑和管理组织中的内容。 [了解详�
 ### <a name="use-global-search-for-power-bi-preview"></a>使用 Power BI（预览版）的全局搜索
 
 组织中的用户可以使用依赖于 Azure 搜索的的外部搜索功能。
+
+## <a name="featured-tables-settings"></a>精选表设置
+
+在“租户设置”下，“允许连接到精选表”租户设置允许 Power BI 管理员控制组织中的哪些用户可以使用 Excel 数据类型库中的精选表。 
+
+:::image type="content" source="media/service-admin-portal/admin-allow-connections-featured-tables.png" alt-text="与精选表的所有连接":::
+
+如果将“导出数据”租户设置设置为“禁用”，则还会禁用与精选表的连接。
+
+详细了解 [Excel 中的 Power BI 精选表](../collaborate-share/service-excel-featured-tables.md)。
 
 ## <a name="power-bi-visuals-settings"></a>Power BI 视觉对象设置
 

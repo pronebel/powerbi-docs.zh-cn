@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 10/14/2019
+ms.date: 05/21/2020
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: b0ee72fdfdf504537073b0de22e5c386ca2572ad
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 8e991a8696ac35ed0a7d4b448bb4dd83d9a19c42
+ms.sourcegitcommit: 5e5a7e15cdd55f71b0806016ff91256a398704c1
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83327935"
+ms.lasthandoff: 05/22/2020
+ms.locfileid: "83793443"
 ---
 # <a name="real-time-streaming-in-power-bi"></a>Power BI 中的实时流式处理
 通过 Power BI 实时流式处理，可以流式处理数据并实时更新仪表板。 可以在 Power BI 中创建的任何视觉对象或仪表板也可以创建为显示和更新实时数据和视觉对象。 流式处理数据的设备和源可以是工厂传感器、社交媒体源、服务使用情况指标和其他可从其收集或传输时间敏感数据的任何设备。
@@ -52,7 +52,7 @@ ms.locfileid: "83327935"
 在实践中，流式处理数据集及其伴随的流式处理视觉对象最适用于最小化数据推送和可视化之间的延迟的关键情况。 此外，最佳做法是以可以直观显示的格式推送数据，而无需任何其他聚合。 准备好的数据的示例包括温度和预计算的平均值。
 
 ### <a name="pubnub-streaming-dataset"></a>PubNub 流式处理数据集
-使用 **PubNub** 流式处理数据集，Power BI Web 客户端使用 PubNub SDK 读取现有的 PubNub 数据流，Power BI 服务不存储任何数据。 由于此调用是直接从 Web 客户端进行的，因此，如果仅允许来自网络的加入白名单的出站流量，则需要将流向 PubNub 的流量加入白名单。 请参阅支持文章中有关[为 PubNub 将出站流量加入白名单](https://support.pubnub.com/support/solutions/articles/14000043522-can-i-whitelist-ips-for-pubnub-traffic-)的说明。
+使用 **PubNub** 流式处理数据集，Power BI Web 客户端使用 PubNub SDK 读取现有的 PubNub 数据流，Power BI 服务不存储任何数据。 由于此调用是直接从 Web 客户端进行的，因此，如果仅允许加入白名单的网络出站流量，则需要将流向 PubNub 的流量列为允许项。 请参阅支持文章中有关[为 PubNub 将出站流量加入白名单](https://support.pubnub.com/support/solutions/articles/14000043522-can-i-whitelist-ips-for-pubnub-traffic-)的说明。
 
 与使用流式处理数据集一样，使用 PubNub 流式处理数据集时，Power BI 中没有基础数据库，因此你无法针对流入的数据生成报表视觉对象，也无法利用报表功能，如筛选、Power BI 视觉对象等 。 因此，**PubNub 流式处理数据集**也只能通过向仪表板添加磁贴并将 PubNub 数据流配置为源来进行可视化。
 
@@ -215,7 +215,7 @@ Azure 流分析使用 Power BI REST API 创建其到 Power BI 的输出数据流
 对于推送数据集，假设你在架构中有一个时间戳，则可以尝试使用最后一个 N 筛选器创建报表视觉对象。
 
 #### <a name="can-i-connect-to-push-or-streaming-datasets-in-power-bi-desktop"></a>我可以连接到 Power BI Desktop 中的推送或流式处理数据集吗？
-暂不提供此功能。
+可以从 Power BI Desktop 中实时连接推送和混合数据集，但无法从 Power BI Desktop 中连接其他流式处理数据集。
 
 #### <a name="given-the-previous-question-how-can-i-do-any-modeling-on-real-time-datasets"></a>鉴于上述问题，如何对实时数据集进行任何建模？
 由于数据不会永久存储，因此不能对流式处理数据集进行建模。 对于推送数据集，你可以使用更新数据集/表 REST API 添加度量值和关系。 

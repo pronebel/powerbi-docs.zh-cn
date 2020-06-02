@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 09/09/2019
 ms.author: kfollis
 LocalizationGroup: Administration
-ms.openlocfilehash: 25b136bfa15b00333400b80781d968d0b40d9779
-ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
+ms.openlocfilehash: 2bb54bf7340e89b86bfbfd56390b79a7051dd709
+ms.sourcegitcommit: 2cb249fc855e369eed1518924fbf026d5ee07eb1
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/19/2020
-ms.locfileid: "83564486"
+ms.lasthandoff: 05/24/2020
+ms.locfileid: "83812269"
 ---
 # <a name="distribute-power-bi-content-to-external-guest-users-with-azure-ad-b2b"></a>使用 Azure AD B2B 将 Power BI 内容分发给外部来宾用户
 
@@ -153,7 +153,7 @@ Power BI 允许通过 Azure Active Directory 企业到企业 (Azure AD B2B) 与�
 * 有一些 Active Directory 设置可以限制外部来宾用户在整个组织范围内可以执行的操作。 同时适用于你的 Power BI 环境。 以下文档探讨的设置为：
     * [管理外部协作设置](/azure/active-directory/b2b/delegate-invitations#configure-b2b-external-collaboration-settings)
     * [允许或阻止向特定组织中的 B2B 用户发送邀请](https://docs.microsoft.com/azure/active-directory/b2b/allow-deny-list)
-    * [允许或阻止来宾用户访问 Power BI 服务](/azure/active-directory/conditional-access/overview)
+    * [使用条件访问允许或阻止访问](/azure/active-directory/conditional-access/concept-conditional-access-cloud-apps)
     
 * 国家/地区云不支持在组织外部共享。 而是在组织中创建外部用户可以用来访问内容的用户帐户。 
 

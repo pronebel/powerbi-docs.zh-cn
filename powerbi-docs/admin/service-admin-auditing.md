@@ -10,12 +10,12 @@ ms.date: 05/11/2020
 ms.author: kfollis
 ms.custom: seodec18
 LocalizationGroup: Administration
-ms.openlocfilehash: 42203c65f6351422bbb65b5a0dc2245ac6a7b190
-ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
+ms.openlocfilehash: c0f8e6f0282e4a862c8fc92e922a412ba0f56098
+ms.sourcegitcommit: 2cb249fc855e369eed1518924fbf026d5ee07eb1
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/19/2020
-ms.locfileid: "83564606"
+ms.lasthandoff: 05/24/2020
+ms.locfileid: "83812418"
 ---
 # <a name="track-user-activities-in-power-bi"></a>跟踪 Power BI 中的用户活动
 
@@ -26,7 +26,7 @@ ms.locfileid: "83564606"
 | 除了 Power BI 审核事件外，还包括来自 SharePoint Online、Exchange Online、Dynamics 365 和其他服务的事件。 | 仅包括 Power BI 审核事件。 |
 | 只有具有仅查看审核日志或审核日志权限的用户才有访问权限，例如全局管理员和审核员。 | 全局管理员和 Power BI 服务管理员具有访问权限。 |
 | 全局管理员和审核员可以使用 Microsoft 365 安全中心和 Microsoft 365 合规中心搜索统一审核日志。 | 目前还没有用于搜索活动日志的用户界面。 |
-| 全局管理员和审核员可以使用 Office 365 管理 API 和 cmdlet 下载审核日志条目。 | 全局管理员和 Power BI 服务管理员可以使用 Power BI REST API 和管理 cmdlet 下载活动日志条目。 |
+| 全局管理员和审核员可以使用 Microsoft 365 管理 API 和 cmdlet 下载审核日志条目。 | 全局管理员和 Power BI 服务管理员可以使用 Power BI REST API 和管理 cmdlet 下载活动日志条目。 |
 | 审核数据可保留 90 天 | 活动数据可保留 30 天（公共预览）。 |
 | 即使租户移动到其他 Azure 区域，也要保留审核数据。 | 当租户移到其他 Azure 区域时，不保留活动数据。 |
 
@@ -239,6 +239,7 @@ Remove-PSSession $Session
 
 | 友好名称                                     | 操作名称                              | 备注                                  |
 |---------------------------------------------------|---------------------------------------------|------------------------------------------|
+| 已访问 Excel 中的 Power BI 精选表 | AnalyzedByExternalApplication |    |
 | 已将数据源添加到 Power BI 网关             | AddDatasourceToGateway                      |                                          |
 | 已添加 Power BI 文件夹访问权限                      | AddFolderAccess                             | 当前未使用                       |
 | 已添加 Power BI 组成员                      | AddGroupMembers                             |                                          |
@@ -299,6 +300,7 @@ Remove-PSSession $Session
 | 已打印 Power BI 仪表板                        | PrintDashboard                              |                                          |
 | 已打印 Power BI 报表页                      | PrintReport                                 |                                          |
 | 已将 Power BI 报表发布到 Web                  | PublishToWebReport <sup>2</sup>                         |                                          |
+| 已发布或更新精选表 | UpdateFeaturedTables <sup>3</sup>   | |
 | 已从 Key Vault 接收 Power BI 数据流机密  | ReceiveDataflowSecretFromKeyVault           |                                          |
 | 已从 Power BI 网关删除数据源         | RemoveDatasourceFromGateway                 |                                          |
 | 已删除 Power BI 组成员                    | DeleteGroupMembers                          |                                          |
@@ -341,6 +343,8 @@ Remove-PSSession $Session
 <sup>1</sup> 从 Power BI Desktop 发布到服务是服务中的一个 CreateReport 事件。
 
 <sup>2</sup> PublishtoWebReport 是指[发布到 Web](../collaborate-share/service-publish-to-web.md) 功能。
+
+<sup>3</sup> UpdateFeaturedTables 是指 [Excel 中的 Power BI 精选表](../collaborate-share/service-excel-featured-tables.md)。
 
 ## <a name="next-steps"></a>后续步骤
 

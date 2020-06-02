@@ -6,41 +6,43 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 08/12/2019
+ms.date: 05/26/2020
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: a3a7d7b0afa4a1eb3d6af81d3e6ba1315e291c4b
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 25a0f5abe07b82c2397ab2800802eba6f624a27c
+ms.sourcegitcommit: a7b142685738a2f26ae0a5fa08f894f9ff03557b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83324715"
+ms.lasthandoff: 05/28/2020
+ms.locfileid: "84119942"
 ---
 # <a name="group-visuals-in-power-bi-desktop-reports"></a>在 Power BI Desktop 报表中对视觉对象进行分组
-使用 Power BI Desktop 中的分组功能，你可以在报表中将视觉对象（例如按钮、文本框、形状图像以及创建的任何视觉）分为一组，就像在 PowerPoint 中对项进行分组一样   。 通过在报表中对视觉对象进行分组，可以将组视为单个对象，从而更轻松、快速且直观地移动、调整大小和处理报表中的图层。
+使用 Power BI Desktop 中的分组功能，你可以在报表中将视觉对象（例如按钮、文本框、形状图像以及创建的任何视觉）分为一组，就像在 PowerPoint 中对项进行分组一样 。 通过在报表中对视觉对象进行分组，可以将组视为单个对象，从而更轻松、快速且直观地移动、调整大小和处理报表中的图层。
 
 ![使用分组](media/desktop-grouping-visuals/grouping-visuals-01.png)
 
 
 ## <a name="creating-groups"></a>创建组
 
-若要在 Power BI Desktop 中创建一组视觉对象，请从画布中选择第一个视觉对象，然后按住 Ctrl 按钮，单击组中你所需的一个或多个其他视觉对象，然后右键单击视觉对象集合，并从显示的菜单中选择“组”  。
+若要在 Power BI Desktop 中创建一组视觉对象，请从画布中选择第一个视觉对象，然后按住 Ctrl 按钮，单击组中你所需的一个或多个其他视觉对象，然后右键单击视觉对象集合，并从显示的菜单中选择“组”。
 
 ![选择两个或更多要分到一组的项](media/desktop-grouping-visuals/grouping-visuals-02.png)
 
-组显示在“选择”窗格中  。 可以根据报表需要设置多个视觉对象组，也可以嵌套视觉对象组。 在下图中，澳大利亚组嵌套在卡片图组下   。 可以通过选择组名旁边的插入符来展开组，并通过再次选择插入符来折叠它。 
+组显示在“选择”窗格中。 可以根据报表需要设置多个视觉对象组，也可以嵌套视觉对象组。 在下图中，澳大利亚组嵌套在卡片图组下 。 可以通过选择组名旁边的插入符来展开组，并通过再次选择插入符来折叠它。 
 
 ![正在嵌套组](media/desktop-grouping-visuals/grouping-visuals-03.png)
 
-在“选择”窗格中，还可以拖放所有视觉对象以将其包含在组中，从组中删除它们，嵌套组或从嵌套中删除组或单个视觉对象  。 只需拖动要调整的视觉对象，然后将其放置在所需位置即可。 如果存在重叠，则视觉分层由其在分层顺序列表中的顺序确定  。
+在“选择”窗格中，还可以拖放所有视觉对象以将其包含在组中，从组中删除它们，嵌套组或从嵌套中删除组或单个视觉对象。 只需拖动要调整的视觉对象，然后将其放置在所需位置即可。 如果存在重叠，则视觉分层由其在分层顺序列表中的顺序确定。
+
+重命名组非常简单：只需在“选择”窗格中双击组名称，然后键入组的新名称。
 
 ![拖放组](media/desktop-grouping-visuals/grouping-visuals-04.png)
 
-若要取消分组，只需选择该组，从显示的菜单中右键单击“取消分组”并选中它  。
+若要取消分组，只需选择该组，从显示的菜单中右键单击“取消分组”并选中它。
 
 ## <a name="hide-and-show-visuals-or-groups"></a>隐藏和显示视觉对象或组
 
-可以使用“选择”窗格轻松隐藏或显示组  。 若要隐藏组，请选择组名称（或任何单个视觉对象）旁边的眼睛按钮，以切换是隐藏还是显示该视觉对象或组。 在下图中，隐藏了“澳大利亚”组，并显示嵌套在“卡片”图组中的其余组   。
+可以使用“选择”窗格轻松隐藏或显示组。 若要隐藏组，请选择组名称（或任何单个视觉对象）旁边的眼睛按钮，以切换是隐藏还是显示该视觉对象或组。 在下图中，隐藏了“澳大利亚”组，并显示嵌套在“卡片”图组中的其余组 。
 
 
 ![隐藏和显示组](media/desktop-grouping-visuals/grouping-visuals-05.png)
@@ -53,12 +55,12 @@ ms.locfileid: "83324715"
 
 * 单击组内的空白区域（例如视觉对象之间的空白区域）不会选中任何内容
 * 单击组中的视觉对象将选中整个组；再次单击将选中该视觉对象
-* 选择一个组，再选择报表画布上的其他对象，然后从右键单击菜单中选择“组”，将创建一个嵌套组 
+* 选择一个组，再选择报表画布上的其他对象，然后从右键单击菜单中选择“组”，将创建一个嵌套组
 * 选择两个组并右键单击，将显示合并所选组的选项，而不显示嵌套所选组的选项
 
 ## <a name="apply-background-color"></a>应用背景色
 
-还可以使用“可视化效果”窗格的“格式设置”部分将背景颜色应用于组，如下图所示   。 
+还可以使用“可视化效果”窗格的“格式设置”部分将背景颜色应用于组，如下图所示 。 
 
 ![组的背景色](media/desktop-grouping-visuals/grouping-visuals-06.png)
 

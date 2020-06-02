@@ -9,12 +9,12 @@ ms.subservice: powerbi-admin
 ms.topic: conceptual
 ms.date: 05/20/2020
 LocalizationGroup: Premium
-ms.openlocfilehash: e3d3beb73ab788c1042abb8cc1790455c4789c59
-ms.sourcegitcommit: c1f05254eaf5adb563f8d4f33c299119134c7d1f
+ms.openlocfilehash: aa8b457dfd33cff40dbd651f0e07811e361e52d9
+ms.sourcegitcommit: a7b142685738a2f26ae0a5fa08f894f9ff03557b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/21/2020
-ms.locfileid: "83733246"
+ms.lasthandoff: 05/28/2020
+ms.locfileid: "84120951"
 ---
 # <a name="automate-premium-workspace-and-dataset-tasks-with-service-principals"></a>使用服务主体自动完成 Premium 工作区和数据集任务
 
@@ -29,7 +29,7 @@ Power BI Premium 使用与 Power BI Embedded 相同的服务主体功能。 有�
 - Azure 逻辑应用
 - 自定义客户端应用程序
 
-服务主体只能与 XMLA 终结点一起用于[新的工作区](../collaborate-share/service-new-workspaces.md)。 不支持经典工作区。 服务主体只具有为其分配的工作区执行任务所需的权限。 权限是通过工作区访问分配的，与常规 UPN 帐户非常类似。
+只有[新工作区](../collaborate-share/service-new-workspaces.md)支持使用服务主体的 XMLA 终结点连接。 不支持经典工作区。 服务主体只具有为其分配的工作区执行任务所需的权限。 权限是通过工作区访问分配的，与常规 UPN 帐户非常类似。
 
 若要执行写入操作，容量的数据集工作负载必须[为读写启用 XMLA 终结点](service-premium-connect-tools.md#enable-xmla-read-write)。 通过 Power BI Desktop 发布的数据集应启用[增强的元数据格式](../connect-data/desktop-enhanced-dataset-metadata.md)功能。
 

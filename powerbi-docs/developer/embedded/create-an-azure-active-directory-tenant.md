@@ -8,18 +8,18 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 05/28/2019
-ms.openlocfilehash: 67a9725e55f82e325466789064f5738222919ac8
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: c8c62709775bb269eb57b2f88c174f1dc4fd13ad
+ms.sourcegitcommit: 5e5a7e15cdd55f71b0806016ff91256a398704c1
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "80114718"
+ms.lasthandoff: 05/22/2020
+ms.locfileid: "83794117"
 ---
 # <a name="create-an-azure-active-directory-tenant-to-use-with-power-bi"></a>创建要用于 Power BI 的 Azure Active Directory 租户
 
 了解如何为调用 [Power BI REST API](../automation/rest-api-reference.md) 的自定义应用程序创建新 Azure Active Directory (Azure AD) 租户。
 
-租户表示 Azure Active Directory 中的组织。 它是专用的 Azure AD 服务实例，组织在注册 Azure、Microsoft Intune 或 Office 365 等 Microsoft 云服务时收到并拥有该服务实例。 各个 Azure AD 租户各不相同，相互独立。
+租户表示 Azure Active Directory 中的组织。 它是专用的 Azure AD 服务实例，组织在注册 Azure、Microsoft Intune 或 Microsoft 365 等 Microsoft 云服务时会收到并拥有该服务实例。 各个 Azure AD 租户各不相同，相互独立。
 
 拥有 Azure AD 租户后，可以定义应用程序并为其分配权限，以便该应用程序可以调用 [Power BI REST API](../automation/rest-api-reference.md)。
 
@@ -27,23 +27,23 @@ ms.locfileid: "80114718"
 
 ## <a name="create-an-azure-active-directory-tenant"></a>创建 Azure Active Directory 租户
 
-要将 Power BI 集成到自定义应用程序中，需要在 Azure AD 中定义应用程序，该应用程序需要 Azure AD 目录。 此目录便是租户  。 如果组织尚未拥有租户，原因是未使用 Power BI 或 Office 365，那么[需要设置开发环境](https://docs.microsoft.com/azure/active-directory/develop/active-directory-howto-tenant)。 如果不希望应用程序与组织的租户混淆，还需要创建一个租户，从而使两者保持独立。 或者，你可能只是出于测试目的创建租户。
+要将 Power BI 集成到自定义应用程序中，需要在 Azure AD 中定义应用程序，该应用程序需要 Azure AD 目录。 此目录便是租户。 如果组织尚未拥有租户，原因是未使用 Power BI 或 Microsoft 365，则[需要设置开发环境](https://docs.microsoft.com/azure/active-directory/develop/active-directory-howto-tenant)。 如果不希望应用程序与组织的租户混淆，还需要创建一个租户，从而使两者保持独立。 或者，你可能只是出于测试目的创建租户。
 
 创建新的 Azure AD 租户：
 
 1. 浏览到 [Azure 门户](https://portal.azure.com)使用具备 Azure 订阅的帐户登录。
 
-2. 选择“加号图标 (+)”  并搜索“Azure Active Directory”  。
+2. 选择“加号图标 (+)”并搜索“Azure Active Directory”。
 
     ![加号图标 (+)](media/create-an-azure-active-directory-tenant/new-directory.png)
 
-3. 在搜索结果中选择“Azure Active Directory”  。
+3. 在搜索结果中选择“Azure Active Directory”。
 
     ![AAD 搜索](media/create-an-azure-active-directory-tenant/new-directory2.png)
 
-4. 选择“创建”  。
+4. 选择“创建”。
 
-5. 提供“组织名称”和“初始域名”   。 然后选择“创建”  。 目录已创建。
+5. 提供“组织名称”和“初始域名” 。 然后选择“创建”。 目录已创建。
 
     ![组织和域](media/create-an-azure-active-directory-tenant/organization-and-domain.png)
 
@@ -66,21 +66,21 @@ ms.locfileid: "80114718"
 
     ![](media/create-an-azure-active-directory-tenant/aad-service.png)
 
-2. 在“管理”下选择“用户”   。
+2. 在“管理”下选择“用户” 。
 
     ![](media/create-an-azure-active-directory-tenant/users-and-groups.png)
 
-3. 选择“所有用户”  ，然后选择“+ 新建用户”  。
+3. 选择“所有用户”，然后选择“+ 新建用户”。
 
-4. 为租户全局管理员提供“名称”和“用户名”   。把“目录角色”更改为“全局管理员”   。 还可以显示临时密码。 完成后，选择“创建”  。
+4. 为租户全局管理员提供“名称”和“用户名” 。把“目录角色”更改为“全局管理员” 。 还可以显示临时密码。 完成后，选择“创建”。
 
     ![](media/create-an-azure-active-directory-tenant/global-admin.png)
 
-5. 为普通租户用户执行相同的操作。 此帐户可用于主嵌入帐户。 本次将“目录角色”保留为“用户”   。 记下密码，然后选择“创建”  。
+5. 为普通租户用户执行相同的操作。 此帐户可用于主嵌入帐户。 本次将“目录角色”保留为“用户” 。 记下密码，然后选择“创建”。
 
     ![](media/create-an-azure-active-directory-tenant/pbiembed-user.png)
 
-6. 使用在步骤 5 中创建的用户帐户注册 Power BI。 转到 [powerbi.com](https://powerbi.microsoft.com/get-started/)，然后选择“Power BI - 云协作和共享”下的“免费试用”   。
+6. 使用在步骤 5 中创建的用户帐户注册 Power BI。 转到 [powerbi.com](https://powerbi.microsoft.com/get-started/)，然后选择“Power BI - 云协作和共享”下的“免费试用” 。
 
     ![](media/create-an-azure-active-directory-tenant/try-powerbi-free.png)
 

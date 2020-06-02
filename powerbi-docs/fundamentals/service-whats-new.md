@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 04/14/2020
 ms.author: nikhilga
 LocalizationGroup: Get started
-ms.openlocfilehash: 78031bb4f8326b50917b5c299948518717cc18a9
-ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
+ms.openlocfilehash: 2f98071000715c65f50f39eb4d121a4af6e72f99
+ms.sourcegitcommit: 2cb249fc855e369eed1518924fbf026d5ee07eb1
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/19/2020
-ms.locfileid: "83566054"
+ms.lasthandoff: 05/24/2020
+ms.locfileid: "83813338"
 ---
 # <a name="whats-new-in-the-power-bi-service"></a>Power BI 服务中的新功能
 请阅读此页，了解 Power BI 服务中的已知问题和最近发布的功能。 有关相关的“新增功能”的信息，请参阅：
@@ -174,7 +174,7 @@ ms.locfileid: "83566054"
 
 ### <a name="april-2018"></a>2018 年 4 月
 * [有关数据保护的 Power BI 白皮书](https://servicetrust.microsoft.com/ViewPage/TrustDocuments?command=Download&downloadType=Document&downloadId=5bd4c466-277b-4726-b9e0-f816ac12872d&docTab=6d000410-c9e9-11e7-9a91-892aae8839ad_FAQ_and_White_Papers)
-* 对于 Office 365 租户，默认启用 Power BI 服务的[审核日志](../admin/service-admin-auditing.md)。
+* 为组织默认启用 Power BI 服务的[审核日志](../admin/service-admin-auditing.md)。
 
 ### <a name="march-2018"></a>2018 年 3 月
 * Power BI 服务中的[永久性筛选器](https://powerbi.microsoft.com/blog/announcing-persistent-filters-in-the-service/)。
@@ -188,7 +188,7 @@ ms.locfileid: "83566054"
 ### <a name="january-2018"></a>2018 年 1 月
 *    共享和收藏 Power BI 报表。
 *    针对 Azure SQL 数据库和数据仓库的 OAuth2 和 DirectQuery 单一登录 (SSO) 支持。
-*    区域内审核：审核日志现在将存储在与其租户相同的 Office 365 区域中。
+*    区域内审核：审核日志现在将存储在与其租户相同的 Microsoft 365 区域中。
 *    公开发行版的 SharePoint Online [Power BI 报表 Web 部件](https://go.microsoft.com/fwlink/p/?LinkId=825698)。
 *    禁止查看租户中所有用户的 Power BI 视觉对象的管理员控件。
 *    针对 Azure Analysis Services (AAS) 的计划刷新支持。
@@ -254,7 +254,7 @@ ms.locfileid: "83566054"
 
 ### <a name="january-2017"></a>2017 年 1 月
 * 使用 [Power BI 管理员角色](https://powerbi.microsoft.com/blog/power-bi-service-january-feature-summary/#pbiadminrole)管理 Power BI。
-* Office 365 审核门户中的 [Power BI 审核日志](https://powerbi.microsoft.com/blog/power-bi-service-january-feature-summary/#auditlogs)面向全球推出。
+* 审核门户中的 [Power BI 审核日志](https://powerbi.microsoft.com/blog/power-bi-service-january-feature-summary/#auditlogs)已面向全球推出。
 * 发布了 1.4 版的[开发人员工具和 Power BI 可视化 API](https://powerbi.microsoft.com/blog/new-apis-available-for-custom-visuals-developers/)。
 * 公开发布了[实时流式处理功能集](https://powerbi.microsoft.com/blog/announcing-general-availability-of-power-bi-real-time-streaming-datasets/)。
 * [使用 Power Automate 将数据推送到 Power BI](https://powerbi.microsoft.com/blog/push-rows-to-a-power-bi-streaming-dataset-without-writing-any-code-using-microsoft-flow/)，无需编写代码。
@@ -277,7 +277,7 @@ ms.locfileid: "83566054"
 * 利用 [Power BI 与全新 Microsoft 团队的集成](https://powerbi.microsoft.com/blog/power-bi-teams-up-with-microsoft-teams/)。
 * 无需掌握 R 即可在 Power BI 中设计 [R 可视化效果](https://powerbi.microsoft.com/blog/r-powered-custom-visuals/)。
 * 预览：使用 [Azure Analysis Services](https://powerbi.microsoft.com/blog/introducing-azure-analysis-services/)，BI 专业人员可以根据驻留在云中或本地的数据创建 BI 语义模型，从而向业务用户提供简化的数据视图。
-* 可以向应有 Power BI 管理门户访问权限（而不是其他 Office 365 管理访问权限）的用户分配全新的 [Power BI 服务管理员角色](https://powerbi.microsoft.com/blog/making-it-easier-to-administer-power-bi/)。
+* 可以向应有 Power BI 管理门户访问权限（而不是其他管理访问权限）的用户分配全新的 [Power BI 服务管理员角色](https://powerbi.microsoft.com/blog/making-it-easier-to-administer-power-bi/)。
 * [使用 Power BI 研究 MYOB 高级数据](https://powerbi.microsoft.com/blog/explore-your-myob-advanced-data-with-power-bi/)。
 * 非管理员如何查看 [Power BI 审核日志](https://powerbi.microsoft.com/blog/tech-tip-thursday-power-bi-auditing-for-a-non-administrator/)
 * [将文本列显示为工具提示](https://powerbi.microsoft.com/blog/tech-tip-thursday-displaying-text-columns-in-tool-tips/)。
@@ -693,7 +693,7 @@ Power BI 团队在整个假期都在忙。 有关所有详细信息，[请访问
 **2015 年 8 月 4 日**
 
 * Power BI 现在支持 [Circuit ID](https://powerbi.microsoft.com/blog/circuit-id-data-with-power-bi/) 用户跟踪和监视所有其 Circuit ID 云通信服务，使他们能够做出正确的业务决策。 有关该内容包入门的更多详细信息，请参阅 [Circuit ID content pack for Power BI help page（Power BI Circuit ID 内容包的帮助页）](../connect-data/service-connect-to-services.md)。
-* 现在我们发布了共享仪表板功能的一个增强功能，使其更易于使用。  如果你的组织对电子邮件使用 Office 365，那么你现在可以将仪表板[共享到电子邮件通讯组](https://powerbi.microsoft.com/blog/easier-dashboard-sharing-with-distribution-groups/)，其方式与在 Outlook 中发送一封电子邮件的方式相同。  只需输入通讯组的地址，然后单击“共享”。  通讯组的所有成员都将收到电子邮件邀请以查看仪表板。
+* 现在我们发布了共享仪表板功能的一个增强功能，使其更易于使用。  如果你的组织使用 Microsoft 365 收发电子邮件，那么你现在可以将仪表板[共享到电子邮件通讯组](https://powerbi.microsoft.com/blog/easier-dashboard-sharing-with-distribution-groups/)，其方式与在 Outlook 中发送电子邮件相同。  只需输入通讯组的地址，然后单击“共享”。  通讯组的所有成员都将收到电子邮件邀请以查看仪表板。
 
 **2015 年 7 月 28 日**
 
@@ -703,7 +703,7 @@ Power BI 团队在整个假期都在忙。 有关所有详细信息，[请访问
 
 * 我们非常高兴地宣布我们将发布 Power BI 的通用版本 (GA)。 立即注册 [Power BI Pro](service-self-service-signup-for-power-bi.md)。 作为 GA 版的一部分，我们将提供一些出色的新功能：
 * 全新的可视化效果和报表创建体验：新的报表画布可选择更多可视化效果，能更好地控制标题、图例、坐标轴、颜色、背景等的格式设置。
-* [Power BI 组](../collaborate-share/service-create-distribute-apps.md)：组功能可提供以 Office 365 组为基础的强大的协作体验。
+* [Power BI 组](../collaborate-share/service-create-distribute-apps.md)：组功能可提供以 Microsoft 365 组为基础的强大协作体验。
 * [组织内容包](../collaborate-share/service-organizational-content-pack-introduction.md)：Power BI 使仪表板和报表的创建变得非常简单，现在用户可以将此内容发布到组织内容库。
 * [引入整个 Excel 文件](../connect-data/service-excel-workbook-files.md)：你可以将存储在 OneDrive for Business 上的任何 Excel 工作簿引入 Power BI，并查看整个工作簿，就像在 Excel Online 中一样。
 * [引入 CSV 文件](../connect-data/service-get-data-from-files.md)：和 Excel 或 Power BI Desktop 文件一样，逗号分隔值文本文件 (CSV) 也可以是 Power BI 仪表板和报表的数据集。
@@ -714,7 +714,7 @@ Power BI 团队在整个假期都在忙。 有关所有详细信息，[请访问
 
 * Acumatica 云 ERP 提供了由强大而灵活的平台支持的一系列完全集成的业务管理应用，如财务、分配、CRM 和项目记帐。 通过 Power BI [Acumatica 内容包](https://powerbi.microsoft.com/blog/analyze-and-explore-your-acumatica-cloud-erp-data-with-power-bi/)可以快速连接并深入了解商机数据。 此内容包包括现成的仪表板、一组报表和一个策展数据集，用于浏览并提供详细信息，如按日期的赢得的商机总数。 在[此处](../connect-data/service-connect-to-services.md)阅读更多信息。 
 * [Azure HDInsight](https://powerbi.microsoft.com/blog/visualize-big-data-with-power-bi-and-spark-for-azure-hdinsight/) 现在提供完全托管的 Spark 服务。 此功能允许迭代机器学习和交互式数据分析等场景。 Power BI 允许你直接连接到提供简单和实时浏览的 HDInsight 上的 Spark 中的数据。 阅读我们的[帮助文档](../connect-data/power-bi-data-sources.md)以了解更多信息。
-* [Office 365 导航和应用程序启动器集成](https://powerbi.microsoft.com/blog/new-capabilities-added-to-power-bi#launcher)。 现在只需单击一下就可以导航到所有 Office 365 应用程序。
+* [Microsoft 365 导航和应用程序启动器集成](https://powerbi.microsoft.com/blog/new-capabilities-added-to-power-bi#launcher)。 现在只需单击一下就可以导航到所有 Microsoft 365 应用程序。
 * [指定用户单击磁贴时导航到的自定义 URL](https://powerbi.microsoft.com/blog/new-capabilities-added-to-power-bi#url)。 现在你可以准确控制用户转至的位置：特定报表、其他仪表板、SSRS 报表或外部网站。 
 * [Power BI 中你使用的存储的可见性和管理](https://powerbi.microsoft.com/blog/new-capabilities-added-to-power-bi#storage)
 * [配置问答中显示的视觉对象和字段](https://powerbi.microsoft.com/blog/new-capabilities-added-to-power-bi#visual)

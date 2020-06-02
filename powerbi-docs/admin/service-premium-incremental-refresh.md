@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
-ms.date: 04/30/2020
+ms.date: 05/26/2020
 ms.author: davidi
 LocalizationGroup: Premium
-ms.openlocfilehash: 73aade0ee10fe47ff669ccd6bd8c8ab0482f1f78
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: eb9a10c715a03adc9149ca8793ff248a23b9914d
+ms.sourcegitcommit: a7b142685738a2f26ae0a5fa08f894f9ff03557b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83274480"
+ms.lasthandoff: 05/28/2020
+ms.locfileid: "84121024"
 ---
 # <a name="incremental-refresh-in-power-bi"></a>Power BI 中的增量刷新
 
@@ -39,30 +39,30 @@ Power BI Desktop 模型可能不适合处理具有可能数十亿行的大型数
 
 #### <a name="rangestart-and-rangeend-parameters"></a>RangeStart 和 RangeEnd 参数
 
-对于增量刷新，数据集使用名称为 RangeStart 和 RangeEnd（为保留名称且区分大小写）的 Power Query 日期/时间参数进行筛选   。 这些参数用于筛选导入 Power BI Desktop 的数据，还用于在将数据发布到 Power BI 服务后将其动态地划分为多个范围。 参数值由服务进行替换，以筛选每个分区。 无需在服务的数据集设置中进行设置。 发布后，Power BI 服务会自动替代参数值。
+对于增量刷新，数据集使用名称为 RangeStart 和 RangeEnd（为保留名称且区分大小写）的 Power Query 日期/时间参数进行筛选 。 这些参数用于筛选导入 Power BI Desktop 的数据，还用于在将数据发布到 Power BI 服务后将其动态地划分为多个范围。 参数值由服务进行替换，以筛选每个分区。 无需在服务的数据集设置中进行设置。 发布后，Power BI 服务会自动替代参数值。
 
-若要使用默认值定义参数，请选择 Power Query 编辑器中的“管理参数”  。
+若要使用默认值定义参数，请选择 Power Query 编辑器中的“管理参数”。
 
 ![管理参数](media/service-premium-incremental-refresh/manage-parameters.png)
 
-借助已定义的参数，可通过为列选择“自定义筛选器”菜单选项来应用筛选  。
+借助已定义的参数，可通过为列选择“自定义筛选器”菜单选项来应用筛选。
 
 ![自定义筛选器](media/service-premium-incremental-refresh/custom-filter.png)
 
-当列值在 RangeStart 上或其后且在 RangeEnd 之前时，请务必筛选行     。 其他筛选器组合可能导致行的重复计数。
+当列值在 RangeStart 上或其后且在 RangeEnd 之前时，请务必筛选行。 其他筛选器组合可能导致行的重复计数。
 
 ![筛选行](media/service-premium-incremental-refresh/filter-rows.png)
 
 > [!IMPORTANT]
-> 确保查询中的 RangeStart 或 RangeEnd 参数上存在一个等号 (=)，但二者不能同时具有等号   。 如果这两个参数都具有等号 (=)，部分行可能满足两个分区的条件，导致模型中存在重复数据。 例如，  
+> 确保查询中的 RangeStart 或 RangeEnd 参数上存在一个等号 (=)，但二者不能同时具有等号 。 如果这两个参数都具有等号 (=)，部分行可能满足两个分区的条件，导致模型中存在重复数据。 例如，  
 > \#"Filtered Rows" = Table.SelectRows(dbo_Fact, each [OrderDate] **>= RangeStart** and [OrderDate] **<= RangeEnd**) 可能导致重复数据。
 
 > [!TIP]
-> 虽然参数的数据类型必须是日期/时间，但可进行转换以符合数据源的要求。 例如，下面的 Power Query 函数将日期/时间值转换为类似于 yyyymmdd 形式的整数代理键，这对数据仓库而言非常常见  。 此函数可通过筛选步骤调用。
+> 虽然参数的数据类型必须是日期/时间，但可进行转换以符合数据源的要求。 例如，下面的 Power Query 函数将日期/时间值转换为类似于 yyyymmdd 形式的整数代理键，这对数据仓库而言非常常见。 此函数可通过筛选步骤调用。
 >
 > `(x as datetime) => Date.Year(x)*10000 + Date.Month(x)*100 + Date.Day(x)`
 
-在 Power Query 编辑器中选择“关闭并应用”  。 必须具备 Power BI Desktop 中数据集的子集。
+在 Power Query 编辑器中选择“关闭并应用”。 必须具备 Power BI Desktop 中数据集的子集。
 
 #### <a name="filter-date-column-updates"></a>筛选日期列更新
 
@@ -114,7 +114,7 @@ Power BI 服务中的第一次刷新可能需要更长时间才能导入全部�
 
 #### <a name="current-date"></a>当前日期
 
-当前日期基于刷新时的系统日期  。 如果为 Power BI 服务中的数据集启用了计划的刷新，则在确定当前日期时将考虑指定的时区。 手动调用和计划的刷新都将遵循时区（如果可用）。 例如，指定在太平洋时间（美国和加拿大）晚上 8 点刷新并指定时区，将根据太平洋时间确定当前日期，而不是 GMT（若根据后者确定，则当前时间将晚一天）。
+当前日期基于刷新时的系统日期。 如果为 Power BI 服务中的数据集启用了计划的刷新，则在确定当前日期时将考虑指定的时区。 手动调用和计划的刷新都将遵循时区（如果可用）。 例如，指定在太平洋时间（美国和加拿大）晚上 8 点刷新并指定时区，将根据太平洋时间确定当前日期，而不是 GMT（若根据后者确定，则当前时间将晚一天）。
 
 ![时区](media/service-premium-incremental-refresh/time-zone2.png)
 
@@ -125,7 +125,7 @@ Power BI 服务中的第一次刷新可能需要更长时间才能导入全部�
 
 #### <a name="detect-data-changes"></a>检测数据更改
 
-10 天的增量刷新比 5 年的完全刷新更有效。 但是，还可以做得更好。 如果选中“检测数据更改”复选框，则可选择用于仅标识和刷新数据更改日期的日期/时间列  。 此操作假定源系统中存在通常用于审核的列。  这不应与用于使用 RangeStart/RangeEnd 参数对数据进行分区的列相同。 将针对增量范围中的每个周期评估此列的最大值。 如果自上次刷新后未更改，则无需刷新周期。 在示例中，这可将增量刷新的天数从 10 天进一步减少到 2 天左右。
+10 天的增量刷新比 5 年的完全刷新更有效。 但是，还可以做得更好。 如果选中“检测数据更改”复选框，则可选择用于仅标识和刷新数据更改日期的日期/时间列。 此操作假定源系统中存在通常用于审核的列。 这不应与用于使用 RangeStart/RangeEnd 参数对数据进行分区的列相同。 将针对增量范围中的每个周期评估此列的最大值。 如果自上次刷新后未更改，则无需刷新周期。 在示例中，这可将增量刷新的天数从 10 天进一步减少到 2 天左右。
 
 ![检测更改](media/service-premium-incremental-refresh/detect-changes.png)
 
@@ -172,17 +172,13 @@ in
 
 ### <a name="refresh-management-with-sql-server-management-studio-ssms"></a>使用 SQL Server Management Studio (SSMS) 管理刷新
 
-在启用 XMLA 终结点读写操作后，可以使用 SSMS 查看和管理通过应用增量刷新策略生成的分区。
+在启用 XMLA 终结点读写操作后，可以使用 SSMS 查看和管理通过应用增量刷新策略生成的分区。 例如，这样就可以刷新增量范围之外的特定历史分区，从而执行回溯更新，而无需刷新所有历史数据。 你还可以使用 SSMS，通过以批处理方式增量添加/刷新历史分区，为超大型数据集加载历史数据。
 
 ![SSMS 中的分区](media/service-premium-incremental-refresh/ssms-partitions.png)
 
-#### <a name="refresh-historical-partitions"></a>刷新历史分区
-
-例如，这样就可以刷新增量范围之外的特定历史分区，从而执行回溯更新，而无需刷新所有历史数据。
-
 #### <a name="override-incremental-refresh-behavior"></a>重写增量刷新行为
 
-借助 SSMS，还可以更全面地控制如何使用[表格模型脚本语言 (TMSL)](https://docs.microsoft.com/analysis-services/tmsl/tabular-model-scripting-language-tmsl-reference?view=power-bi-premium-current) 和[表格对象模型 (TOM)](https://docs.microsoft.com/analysis-services/tom/introduction-to-the-tabular-object-model-tom-in-analysis-services-amo?view=power-bi-premium-current) 调用增量刷新。 例如，在 SSMS 的“对象资源管理器”中，右键单击表，然后选择“处理表”  菜单选项。 然后，单击“脚本”  按钮，以生成 TMSL 刷新命令。
+借助 SSMS，还可以更全面地控制如何使用[表格模型脚本语言 (TMSL)](https://docs.microsoft.com/analysis-services/tmsl/tabular-model-scripting-language-tmsl-reference?view=power-bi-premium-current) 和[表格对象模型 (TOM)](https://docs.microsoft.com/analysis-services/tom/introduction-to-the-tabular-object-model-tom-in-analysis-services-amo?view=power-bi-premium-current) 调用增量刷新。 例如，在 SSMS 的“对象资源管理器”中，右键单击表，然后选择“处理表”菜单选项。 然后，单击“脚本”按钮，以生成 TMSL 刷新命令。
 
 ![“处理表”对话框中的“脚本”按钮](media/service-premium-incremental-refresh/ssms-process-table.png)
 

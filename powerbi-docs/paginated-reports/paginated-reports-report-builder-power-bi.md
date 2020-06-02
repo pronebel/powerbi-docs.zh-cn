@@ -4,26 +4,39 @@ description: 长期以来，分页报表一直是 SQL Server Reporting Services 
 author: maggiesMSFT
 ms.author: maggies
 ms.reviewer: ''
+featuredvideoid: jXTiYJKw1Rs
 ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: overview
-ms.date: 05/14/2020
-ms.openlocfilehash: 0cf3fcdbcfb49d501ccbb7fa191b566e298c84b7
-ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
+ms.date: 05/19/2020
+ms.openlocfilehash: 69d6f3c828066a66c59ab8becf4fd4f43e54c547
+ms.sourcegitcommit: c1f05254eaf5adb563f8d4f33c299119134c7d1f
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/19/2020
-ms.locfileid: "83565497"
+ms.lasthandoff: 05/21/2020
+ms.locfileid: "83733407"
 ---
 # <a name="what-are-paginated-reports-in-power-bi-premium"></a>Power BI Premium 中的分页报表是什么？
 
-长期以来，分页报表一直是 SQL Server Reporting Services 中的标准报表格式，现在可在 Power BI 服务中使用。 可以打印或共享这些报表。 它们被称为“分页”，因为它们已进行了格式化，以适应页面。 即使某个表跨多个页，分页报表也能显示表中的所有数据。 它们有时被称为“像素完美”，因为用户可以准确地控制其报表页面布局。 分页报表基于 SQL Server Reporting Services 中的 RDL 报表技术。 报表生成器是用于创作分页报表的独立工具。 
+分页报表是设计用于打印或共享的报表。 它们被称为“分页”，因为它们已进行了格式化，以适应页面。 即使某个表跨多个页，分页报表也能显示表中的所有数据。 它们有时被称为“像素完美”，因为用户可以准确地控制其报表页面布局。 Power BI 报表生成器是用于创作分页报表的独立工具。 分页报表基于 SQL Server Reporting Services 中的 RDL 报表技术以及标准报表格式。 
 
-分页报表可以有很多页。 例如，此报表有 563 页。 每页都采用精准布局，每个发票占一页，重复页眉和页脚。
+分页报表通常有很多页。 例如，此报表有 563 页。 每页都采用精准布局，每个发票占一页，具有重复页眉和页脚。
 
 ![分页](media/paginated-reports-report-builder-power-bi/power-bi-paginated-wwi-report-page.png)
 
 可以在报表生成器中预览报表，然后将报表发布到 Power BI 服务： `https://app.powerbi.com` 。 需要具有 Power BI Pro 许可证才能将报表发布到服务。 只要工作区处于 Power BI Premium 容量中，就可以在“我的工作区”或工作区中发布和共享分页报表。 另外，Power BI 管理员需要在 Power BI 管理门户的[高级容量部分](../admin/service-admin-premium-workloads.md#paginated-reports)中启用分页报表。 
+
+## <a name="compare-power-bi-reports-and-paginated-reports"></a>比较 Power BI 报表和分页报表
+
+分页报表的主要优点是能够打印表中的所有数据，而不考虑多长时间。 想象在 Power BI 报表中放入一个表。 页面上会显示表的部分行，并且有一个滚动条可查看其余部分。 如果打印该页面，或将其导出为 PDF，则打印的行仅是你在页面上看到的行。 
+
+现在假设你在分页报表中放入同一个表。 打印该报表或将其导出为 PDF 时，分页报表有足够多的页面来打印表中的每一行。 
+
+在下面的视频中，Microsoft 最有价值专家 - 数据平台 Peter Myers 和首席项目经理 Chris Finlan 演示了如何用这两种报表格式打印类似的表。 
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/jXTiYJKw1Rs?list=PL1N57mwBHtN1icIhpjQOaRL8r9G-wytpT" frameborder="0" allowfullscreen></iframe>
+
+此视频是基于八个模块的视频课程[一天玩转 Power BI 分页报表](../learning-catalog/paginated-reports-online-course.md)的一部分。 本课程旨在为报表作者提供创建、发布和分发 Power BI 分页报表所需的技术知识。
 
 ## <a name="create-reports-in-power-bi-report-builder"></a>在 Power BI 报表生成器中创建报表
 

@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 10/08/2019
 ms.author: lukaszp
 LocalizationGroup: Common tasks
-ms.openlocfilehash: 5330b4c42794f0fa3110cef57f6d62ead0381e52
-ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
+ms.openlocfilehash: 08a05a266dd505dd991d90738b81a2e7d413f090
+ms.sourcegitcommit: a7b142685738a2f26ae0a5fa08f894f9ff03557b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/19/2020
-ms.locfileid: "83561779"
+ms.lasthandoff: 05/28/2020
+ms.locfileid: "84119863"
 ---
 # <a name="set-contact-information-for-reports-and-dashboards-in-the-power-bi-service"></a>在 Power BI 服务中设置报表和仪表板的联系人信息
 本文介绍如何在 Power BI 服务中设置仪表板或报表的联系人信息。
@@ -28,7 +28,7 @@ ms.locfileid: "83561779"
 * 启用了电子邮件的安全组
 * 通讯组列表
 
-默认情况下，创建新报表或仪表板的人员是其联系人。 如果设置某个值，则该值会覆盖默认值。 当然，可以从联系人列表中删除所有人员或组。 执行此操作时，对于经典工作区，将显示该工作区的 Microsoft 365 组。 对于新工作区体验工作区，将使用[工作区联系人列表](../collaborate-share/service-create-the-new-workspaces.md#workspace-contact-list)。 如果未设置工作区联系人列表，则会显示工作区管理员。
+默认情况下，创建新报表或仪表板的人员是其联系人。 如果设置某个值，则该值会覆盖默认值。 当然，可以从联系人列表中删除所有人员或组。 执行此操作时，对于经典工作区，将显示该工作区的 Microsoft 365 组。 对于新工作区体验工作区，将使用[工作区联系人列表](../collaborate-share/service-create-the-new-workspaces.md#create-a-contact-list)。 如果未设置工作区联系人列表，则会显示工作区管理员。
 
 将向查看此项的人员显示联系人信息。 
 

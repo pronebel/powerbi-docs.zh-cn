@@ -1,28 +1,28 @@
 ---
-title: 跨工作区使用数据集简介（预览）
+title: 跨工作区使用数据集简介
 description: 了解如何与整个组织的用户共享数据集。 然后，他们可以在其工作区中基于你的数据集生成报表。
 author: maggiesMSFT
-ms.reviewer: chbraun
+ms.reviewer: kayu
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 10/01/2019
+ms.date: 04/30/2020
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 3fe0478a7fa570b4d88f4493c4b27fec083041ae
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 0458498b5677f20bac3a2e50f884d820ef1c3648
+ms.sourcegitcommit: 5e5a7e15cdd55f71b0806016ff91256a398704c1
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83285454"
+ms.lasthandoff: 05/22/2020
+ms.locfileid: "83793632"
 ---
-# <a name="intro-to-datasets-across-workspaces-preview"></a>跨工作区使用数据集简介（预览）
+# <a name="intro-to-datasets-across-workspaces"></a>跨工作区使用数据集简介
 
 商业智能是协作活动。 务必建立可能是一个真实源的标准化数据集。 然后发现和重用这些标准化数据集是关键所在。 组织中的专家数据建模人员创建和共享优化的数据集时，报表创建者可以从这些数据集开始生成精确的报表。 这样，你的组织就具有一致数据，可用于决策和健康的数据文化。
 
 ![选择共享数据集](media/service-datasets-across-workspaces/power-bi-select-shared-dataset.png)
 
-在 Power BI 中，数据集创建者可以使用[生成权限](service-datasets-build-permissions.md)来控制有权访问其数据的人选。 数据集创建者也可以轻松地验证或推广数据集，以便其他人能够发现   。 这样一来，报表作者就知道哪些数据集是高质量的官方数据集，并且可以在 Power BI 中创作的任何位置使用这些数据集。 租户管理员具有新的租户设置，可以[跨工作区治理数据集的使用](service-datasets-admin-across-workspaces.md)。
+在 Power BI 中，数据集创建者可以使用[生成权限](service-datasets-build-permissions.md)来控制有权访问其数据的人选。 数据集创建者也可以轻松地验证或推广数据集，以便其他人能够发现 。 这样一来，报表作者就知道哪些数据集是高质量的官方数据集，并且可以在 Power BI 中创作的任何位置使用这些数据集。 租户管理员具有新的租户设置，可以[跨工作区治理数据集的使用](service-datasets-admin-across-workspaces.md)。
 
 ## <a name="dataset-sharing-and-the-new-workspace-experience"></a>数据集共享和新的体验工作区
 
@@ -33,9 +33,9 @@ ms.locfileid: "83285454"
 - 在 Power BI Desktop 中，只要报表的数据集位于新的体验工作区中，你就可以将实时连接报表发布到不同工作区。
 - 跨工作区复制报表时，目标工作区需是新的体验工作区。
 
-## <a name="discover-datasets-preview"></a>发现数据集（预览）
+## <a name="discover-datasets"></a>发现数据集
 
-在现有数据集的基础上生成报表时，第一步是连接到 Power BI 服务或 Power BI Desktop 中的数据集。 了解[发现不同工作区的数据集（预览）](service-datasets-discover-across-workspaces.md)
+在现有数据集的基础上生成报表时，第一步是连接到 Power BI 服务或 Power BI Desktop 中的数据集。 阅读了解[发现不同工作区的数据集](service-datasets-discover-across-workspaces.md)
 
 ## <a name="copy-a-report"></a>复制报表
 

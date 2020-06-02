@@ -8,12 +8,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 09/17/2019
 ms.author: kfollis
-ms.openlocfilehash: 690f69f584b4b185929ad465cf4ddd75e26c1011
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: 3ec6e3f060b495efd6b961a7a16d8e1cf68f44c9
+ms.sourcegitcommit: a7b142685738a2f26ae0a5fa08f894f9ff03557b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83131615"
+ms.lasthandoff: 05/28/2020
+ms.locfileid: "84120631"
 ---
 # <a name="power-bi-pro-and-power-bi-premium-support-options"></a>Power BI Pro 和 Power BI Premium 支持选项
 
@@ -24,7 +24,7 @@ ms.locfileid: "83131615"
 | **社区支持**：Web 论坛，用户可通过其获取由全球 Power BI 专家和 Microsoft 员工提供的对等支持、指南、最佳实践和相关问题解答。 | X |   |   | 无，将尽最大努力支持参与。 | [Power BI 社区](https://community.powerbi.com) |
 | **Power BI Pro 最终用户支持**：为创建和使用 Power BI 中内容的最终用户提供的基本技术支持。 | X |   |   | 一个工作日。 | [Power BI 支持站点](https://support.powerbi.com)  |
 | **Power BI Premium 管理员支持**：为部署和操作 Power BI Premium 容量的管理员提供的技术支持。 | X |   |   | 一个工作日或一小时，具体取决于事件的严重级别。\* | [Power BI 支持站点](https://support.powerbi.com)<br>OR<br>[MIcrosoft 365 管理中心](https://portal.office.com/adminportal)<br>OR<br> 电话 |
-| **Power BI 管理员支持**：Power BI 部署的管理员在其组织中获取的技术和计费支持。  若要使用此选项，必须是 Azure Active Directory 公司管理员、Office 365 全局管理员、Office 365 服务管理员或 Power BI 服务管理员。 | X | X |   | 一个工作日或一小时，具体取决于事件的严重级别。\* | [MIcrosoft 365 管理中心](https://portal.office.com/adminportal)<br>OR<br> 电话 |
+| **Power BI 管理员支持**：Power BI 部署的管理员在其组织中获取的技术和计费支持。  若要使用此选项，必须是公司管理员、全局管理员、服务管理员或 Power BI 服务管理员。 | X | X |   | 一个工作日或一小时，具体取决于事件的严重级别。\* | [MIcrosoft 365 管理中心](https://portal.office.com/adminportal)<br>OR<br> 电话 |
 | **Microsoft 顶级支持**：企业级支持，通过帐户管理实现，提供现场支持选项，提供培训和数据模型性能优化等主动服务。 | X | X | X | 各种支持，具体取决于产品/服务和事件的严重级别。\* | 技术客户经理 <br>OR<br> [MIcrosoft 365 管理中心](https://portal.office.com/adminportal) |
 | | | | | | |
 

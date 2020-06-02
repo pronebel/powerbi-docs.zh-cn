@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 03/22/2020
 ms.author: painbar
 LocalizationGroup: Data from files
-ms.openlocfilehash: d7fc915c9c21460670bf86f308b756196886983a
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: d70262908df5568066533d1b638c7a1495a3f30b
+ms.sourcegitcommit: c1f05254eaf5adb563f8d4f33c299119134c7d1f
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83132033"
+ms.lasthandoff: 05/21/2020
+ms.locfileid: "83733223"
 ---
 # <a name="data-protection-in-power-bi-preview"></a>Power BI 中的数据保护（预览版）
 
@@ -23,7 +23,7 @@ ms.locfileid: "83132033"
 
 使用 Power BI 数据保护，你可以执行以下操作：
 
-* 通过与在 Office 365 中用于分类和保护文件相同的分类法，使用 Microsoft 的敏感度标签对 Power BI 服务（仪表板、报表、数据集和数据流）中的内容进行分类和标记。 
+* 通过与在 Microsoft 365 中用于分类和保护文件相同的分类法，使用 Microsoft 的敏感度标签对 Power BI 服务（仪表板、报表、数据集和数据流）中的内容进行分类和标记。
 
 * 通过应用内容的敏感度标签和保护（Excel、PowerPoint 和 PDF），在将数据从 Power BI 服务导出到文件时，强制实施加密或水印等保护设置。 
 
@@ -35,7 +35,7 @@ ms.locfileid: "83132033"
 
 在 [Microsoft 365 安全中心](https://security.microsoft.com/)或 [Microsoft 365 合规中心](https://compliance.microsoft.com/)创建和管理敏感度标签。
 
-要在任一中心访问敏感度标签，请导航到“分类”>“敏感度标签”  。 这些敏感度标签可由多个 Microsoft 服务（例如 Azure 信息保护、Office 应用和 Office 365 服务）使用。
+要在任一中心访问敏感度标签，请导航到“分类” > “敏感度标签”。 这些敏感度标签可由多个 Microsoft 服务（例如 Azure 信息保护、Office 应用和 Microsoft 365 服务）使用。
 
 > [!IMPORTANT]
 > Azure 信息保护的客户需要将标签迁移到前面列出的服务之一，以便在 Power BI 中使用敏感度标签。 此外，敏感度标签仅在公有云中受支持，而在云（如主权云）的租户中不受支持。
@@ -44,10 +44,10 @@ ms.locfileid: "83132033"
 
 ## <a name="how-sensitivity-labels-work"></a>敏感度标签的工作原理
 
-将敏感度标签应用到 Power BI 仪表板、报表、数据集或数据流时，这类似于将标记  应用于该资源，具有以下优点：
-*  可自定义 - 可以为组织中不同级别的敏感内容创建类别，如个人、公共、一般、机密和高度机密。
-*  明文 - 由于标签为明文形式，因此用户可以轻松地根据敏感度标签指南了解如何处理内容。
-*  持续性 - 在对内容应用敏感度标签后，在将内容导出到以下受支持的文件类型时，该标签随之一起导出：Excel、PowerPoint 和 PDF。 
+将敏感度标签应用到 Power BI 仪表板、报表、数据集或数据流时，这类似于将标记应用于该资源，具有以下优点：
+* 可自定义 - 可以为组织中不同级别的敏感内容创建类别，如个人、公共、一般、机密和高度机密。
+* 明文 - 由于标签为明文形式，因此用户可以轻松地根据敏感度标签指南了解如何处理内容。
+* 持续性 - 在对内容应用敏感度标签后，在将内容导出到以下受支持的文件类型时，该标签随之一起导出：Excel、PowerPoint 和 PDF。 
 
   这意味着，敏感度标签（包括其保护设置）随内容生效，并成为应用和执行策略的基础。 
 
@@ -55,7 +55,7 @@ ms.locfileid: "83132033"
 
 以下是有关 Power BI 中的敏感度标签如何工作的快速示例。
 
-1. 在 Power BI 服务中，“高度机密 - 仅限内部”  敏感度标签适用于报表。
+1. 在 Power BI 服务中，“高度机密 - 仅限内部”敏感度标签适用于报表。
 
    ![列表视图中的敏感度标签](media/service-security-data-protection-overview/sensitivity-labels-overview-01.png)
 
@@ -101,12 +101,12 @@ ms.locfileid: "83132033"
 * 从 Power BI 导出文件的用户有权根据敏感度标签设置访问和编辑该文件。 导出数据的用户不会获得该文件的所有者权限。 
 * 敏感度标签当前不可用于[分页报表]( https://docs.microsoft.com/power-bi/paginated-reports-report-builder-power-bi)和工作簿。
 * Power BI 资产上的敏感度标签仅在工作区列表和世系视图中可见。目前标签在收藏夹、与我共享、最近或应用视图中不可见。 但请注意，应用于 Power BI 资产的标签（即使不可见）将始终保留在导出到 Excel、PowerPoint 和 PDF 文件中的数据上。
-* 在 [Microsoft 365 安全中心](https://security.microsoft.com/)或 [Microsoft 365 合规中心](https://compliance.microsoft.com/)中配置的敏感度标签“文件加密设置”仅适用于从 Power BI 导出的文件。该标签不会在 Power BI 中强制实施    。
+* 在 [Microsoft 365 安全中心](https://security.microsoft.com/)或 [Microsoft 365 合规中心](https://compliance.microsoft.com/)中配置的敏感度标签“文件加密设置”仅适用于从 Power BI 导出的文件。该标签不会在 Power BI 中强制实施  。
 * 在 Power BI 中应用的标签不支持 [HYOK 保护](https://docs.microsoft.com/azure/information-protection/configure-adrms-restrictions)。
 * 要在 Office 应用中查看和应用标签，需满足[许可要求](https://docs.microsoft.com/microsoft-365/compliance/get-started-with-sensitivity-labels#subscription-and-licensing-requirements-for-sensitivity-labels)。
 * 仅全球（公有）云中的租户支持敏感度标签。 其他云中的租户不支持敏感度标签。
 * 模板应用不支持数据敏感度标签。 模板应用创建者设置的敏感度标签在提取和安装应用时被删除，应用使用者添加到已安装模板应用项目的敏感度标签在更新应用时丢失（重置为无）。
-* Power BI 不支持“请勿转发”和“临时”这两种保存类型的敏感度标签   。
+* Power BI 不支持“请勿转发”和“临时”这两种保存类型的敏感度标签 。
 
 ## <a name="next-steps"></a>后续步骤
 

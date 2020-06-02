@@ -6,21 +6,21 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 05/31/2019
+ms.date: 05/26/2020
 ms.author: davidi
 LocalizationGroup: conceptual
-ms.openlocfilehash: 1004549c37f4bff92e4a8b1d31b3844b7cdd0f2d
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 5562271eebc10789e27f7e65c7ff96b72de43aae
+ms.sourcegitcommit: a7b142685738a2f26ae0a5fa08f894f9ff03557b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83330396"
+ms.lasthandoff: 05/28/2020
+ms.locfileid: "84121061"
 ---
 # <a name="azure-machine-learning-integration-in-power-bi"></a>Power BI 中的 Azure 机器学习集成
 
-许多组织都使用机器学习  模型，以获得有关其业务的更好的见解和预测。 在报表、仪表板和其他分析中可视化和调用这些模型中的见解的功能可有助于将这些见解传播到最需要它们的业务用户。  现在，Power BI 通过使用简单的点击手势可轻松整合托管在 Azure 机器学习上的模型中的见解。
+许多组织都使用机器学习模型，以获得有关其业务的更好的见解和预测。 在报表、仪表板和其他分析中可视化和调用这些模型中的见解的功能可有助于将这些见解传播到最需要它们的业务用户。  现在，Power BI 通过使用简单的点击手势可轻松整合托管在 Azure 机器学习上的模型中的见解。
 
-若要使用此功能，数据科学家只需使用 Azure 门户向 BI 分析师授予访问 Azure ML 模型的权限。  然后，在每个会话开始时，Power Query 将发现用户具有访问权限的所有 Azure ML 模型，并将其作为动态 Power Query 函数公开。  然后，用户可以通过从 Power Query 编辑器中的功能区中访问这些函数来调用它们，或通过直接调用 M 函数来调用这些函数。 在为一组行调用 Azure ML 模型时，Power BI 还自动批处理访问请求，以实现更好的性能。
+若要使用此功能，数据科学家只需使用 Azure 门户向 BI 分析师授予访问 Azure ML 模型的权限。  然后，在每个会话开始时，Power Query 将发现用户具有访问权限的所有 Azure ML 模型，并将其作为动态 Power Query 函数公开。  然后，用户可以通过从 Powre Query 编辑器中的功能区中访问这些函数来调用它们，或通过直接调用 M 函数来调用这些函数。 在为一组行调用 Azure ML 模型时，Power BI 还自动批处理访问请求，以实现更好的性能。
 
 此功能目前仅支持 Power BI 数据流以及 Power BI 服务中的联机 Power Query。
 
@@ -31,18 +31,21 @@ ms.locfileid: "83330396"
 - 概述：[什么是 Azure 机器学习？](https://docs.microsoft.com/azure/machine-learning/service/overview-what-is-azure-ml)
 - Azure 机器学习的快速入门和教程：[Azure 机器学习文档](https://docs.microsoft.com/azure/machine-learning/)
 
+> [!NOTE]
+> 使用 Azure 机器学习集成需要 Power BI Premium 订阅。
+
 ## <a name="granting-access-to-the-azure-ml-model-to-a-power-bi-user"></a>向 Power BI 用户授予对 Azure ML 模型的访问权限
 
-若要从 Power BI 访问 Azure ML 模型，用户必须具有对 Azure 订阅的读取  权限。  此外：
+若要从 Power BI 访问 Azure ML 模型，用户必须具有对 Azure 订阅的读取权限。  此外：
 
-- 对于机器学习工作室（经典）模型，具有对机器学习工作室（经典）Web 服务的读取权限 
-- 对于机器学习模型，具有对机器学习工作区的读取权限 
+- 对于机器学习工作室（经典）模型，具有对机器学习工作室（经典）Web 服务的读取权限
+- 对于机器学习模型，具有对机器学习工作区的读取权限
 
 本文中的步骤介绍了如何向 Power BI 用户授予对托管在 Azure ML 服务上的模型的访问权限，以便他们可以将此模型作为 Power Query 函数进行访问。  有关更为详细的信息，请参阅[使用 RBAC 和 Azure 门户管理访问](https://docs.microsoft.com/azure/role-based-access-control/role-assignments-portal)。
 
 1. 登录 [Azure 门户](https://portal.azure.com)。
 
-2. 转到“订阅”  页。 可以通过 Azure 门户导航窗格菜单中的“所有服务”列表找到“订阅”页   。
+2. 转到“订阅”页。 可以通过 Azure 门户导航窗格菜单中的“所有服务”列表找到“订阅”页 。
 
     ![Azure 订阅页](media/service-machine-learning-integration/machine-learning-integration_01.png)
 
@@ -50,17 +53,17 @@ ms.locfileid: "83330396"
 
     ![选择订阅](media/service-machine-learning-integration/machine-learning-integration_02.png)
 
-4. 选择“访问控制 (IAM)”  ，然后选择“添加”  按钮。
+4. 选择“访问控制 (IAM)”，然后选择“添加”按钮。
 
     ![访问控制 AIM](media/service-machine-learning-integration/machine-learning-integration_03.png)
 
-5. 选择“读取器”  作为角色。 选择想要授予其访问 Azure AL 模型权限的 Power BI 用户。
+5. 选择“读取器”作为角色。 选择想要授予其访问 Azure AL 模型权限的 Power BI 用户。
 
     ![选择“读取器”作为角色](media/service-machine-learning-integration/machine-learning-integration_04.png)
 
-6. 选择“保存”。 
+6. 选择“保存”。
 
-7. 重复第三步至第六步的操作，以向用户授予对特定机器学习工作室（经典）Web 服务或托管模型的机器学习工作区的读者访问权限   。
+7. 重复第三步至第六步的操作，以向用户授予对特定机器学习工作室（经典）Web 服务或托管模型的机器学习工作区的读者访问权限。
 
 
 ## <a name="schema-discovery-for-machine-learning-models"></a>机器学习模型的架构发现
@@ -69,7 +72,7 @@ ms.locfileid: "83330396"
 
 此架构文件必须包含在为机器学习模型部署的 Web 服务中。 若要自动生成 Web 服务的架构，必须在已部署模型的条目脚本中提供输入/输出的示例。 请参阅 [Azure 机器学习服务文档的部署模型中关于（可选）自动生成 Swagger 架构](https://docs.microsoft.com/azure/machine-learning/how-to-deploy-and-where#optional-define-model-web-service-schema)的子节。 该链接包括示例条目脚本以及架构生成的语句。 
 
-具体来说，条目脚本中的 \@input_schema  和 \@output_schema  函数引用了 input_sample 和 output_sample 变量中的输入和输出示例格式，并在部署期间使用这些示例为 Web 服务生成 OpenAPI (Swagger) 规范   。
+具体来说，条目脚本中的 \@input_schema 和 \@output_schema 函数引用了 input_sample 和 output_sample 变量中的输入和输出示例格式，并在部署期间使用这些示例为 Web 服务生成 OpenAPI (Swagger) 规范 。
 
 通过更新条目脚本生成架构的这些说明还必须应用于在自动化机器学习试验中使用 Azure 机器学习 SDK 创建的模型。
 
@@ -78,21 +81,21 @@ ms.locfileid: "83330396"
 
 ## <a name="invoking-the-azure-ml-model-in-power-bi"></a>调用 Power BI 中的 Azure ML 模型
 
-你可以从数据流中的 Power Query 编辑器中直接调用已授予访问权限的任何 Azure ML 模型。 若要访问 Azure ML 模型，从 Azure ML 模型中选择想要使用见解进行扩充的实体的“编辑”  按钮，如下图中所示。
+你可以从数据流中的 Power Query 编辑器中直接调用已授予访问权限的任何 Azure ML 模型。 若要访问 Azure ML 模型，从 Azure ML 模型中选择想要使用见解进行扩充的实体的“编辑”按钮，如下图中所示。
 
 ![Power BI 服务 - 编辑实体](media/service-machine-learning-integration/machine-learning-integration_05.png)
 
-选择“编辑”  按钮将在数据流中为实体打开 Power Query 编辑器。
+选择“编辑”按钮将在数据流中为实体打开 Power Query 编辑器。
 
 ![Power Query 编辑器](media/service-machine-learning-integration/machine-learning-integration_06.png)
 
-选择功能区中的“AI 见解”按钮，然后选择导航窗格菜单中的“Azure 机器学习模型”文件夹   。 有权访问的所有 Azure ML 模型都在此处作为 Power Query 函数列出。 此外，会将 Azure ML 模型的输入参数自动映射为相应的 Power Query 函数的参数。
+选择功能区中的“AI 见解”按钮，然后选择导航窗格菜单中的“Azure 机器学习模型”文件夹。 有权访问的所有 Azure ML 模型都在此处作为 Power Query 函数列出。 此外，会将 Azure ML 模型的输入参数自动映射为相应的 Power Query 函数的参数。
 
 若要调用 Azure ML 模型，可以从下拉列表中将任一选定的实体的列指定为输入。 此外，还可以通过将列图标切换到输入对话框左侧来指定要用作输入内容的常量值。
 
 ![选择列](media/service-machine-learning-integration/machine-learning-integration_07.png)
 
-选择“调用”  以查看作为实体表中新列的 Azure ML 模型的输出预览。 还会将模型调用视作查询的一个应用步骤。
+选择“调用”以查看作为实体表中新列的 Azure ML 模型的输出预览。 还会将模型调用视作查询的一个应用步骤。
 
 ![选择“调用”](media/service-machine-learning-integration/machine-learning-integration_08.png)
 

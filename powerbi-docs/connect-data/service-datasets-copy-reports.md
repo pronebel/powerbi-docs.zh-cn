@@ -1,22 +1,22 @@
 ---
-title: 从其他应用或工作区复制报表（预览）- Power BI
+title: 从其他应用或工作区复制报表 - Power BI
 description: 了解如何创建报表的副本并将其保存到自己的工作区。
 author: maggiesMSFT
-ms.reviewer: chbraun
+ms.reviewer: kayu
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 01/16/2020
+ms.date: 04/30/2020
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 8716a304e5b117c027d75db149ebcc8d95efebfe
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: d70f029568dca578bb76350a42b5146ecc335759
+ms.sourcegitcommit: 5e5a7e15cdd55f71b0806016ff91256a398704c1
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83312617"
+ms.lasthandoff: 05/22/2020
+ms.locfileid: "83793104"
 ---
-# <a name="copy-reports-from-other-workspaces-preview"></a>从其他工作区复制报表（预览）
+# <a name="copy-reports-from-other-workspaces"></a>从其他工作区复制报表
 
 在工作区或应用中找到自己喜欢的报表时，你可以复制它，然后将其保存到不同工作区。 然后，你可以修改该报表的副本，添加或删除视觉对象和其他元素。 无需担心如何创建数据模型。 它已为你创建。 修改现有报表比从头开始创建要容易得多。 但是，当你从工作区创建应用时，有时无法从应用中发布报表副本。 有关详细信息，请参阅[“跨工作区使用数据集”一文中的其他注意事项和限制](service-datasets-across-workspaces.md#considerations-and-limitations)。
 
@@ -29,19 +29,19 @@ ms.locfileid: "83312617"
 
     ![报表列表视图](media/service-datasets-copy-reports/power-bi-report-list-view.png)
 
-1. 在“操作”下，选择“保存副本”   。
+1. 在“操作”下，选择“保存副本” 。
 
     ![保存报表的副本](media/service-datasets-copy-reports/power-bi-dataset-save-report-copy.png)
 
-    只有当报表位于新的体验工作区且你具有[生成权限](service-datasets-build-permissions.md)时，你才会看到“保存副本”图标  。 即使你有权访问工作区，也必须具有数据集的生成权限。
+    只有当报表位于新的体验工作区且你具有[生成权限](service-datasets-build-permissions.md)时，你才会看到“保存副本”图标。 即使你有权访问工作区，也必须具有数据集的生成权限。
 
-3. 在“保存此报表的副本”中，为报表提供名称并选择目标工作区  。
+3. 在“保存此报表的副本”中，为报表提供名称并选择目标工作区。
 
     ![“保存副本”对话框](media/service-datasets-copy-reports/power-bi-dataset-save-report.png)
 
     可以将报表保存到当前工作区或 Power BI 服务中的其他工作区。 你只看到新的体验工作区，而你是其中的一名成员。 
   
-4. 选择“保存”。 
+4. 选择“保存”。
 
     如果报表基于工作区外的数据集，Power BI 不仅会自动创建报表的副本，还会在数据集列表中创建一个条目。 此数据集的图标与工作区中数据集的图标不同： ![共享数据集图标](media/service-datasets-discover-across-workspaces/power-bi-shared-dataset-icon.png)
     
@@ -54,19 +54,19 @@ ms.locfileid: "83312617"
 ## <a name="copy-a-report-in-an-app"></a>在应用中复制报表
 
 1. 在应用中，打开要复制的报表。
-2. 在菜单栏中，选择“更多选项”  ( **...** ) >“保存副本”  。
+2. 在菜单栏中，选择“更多选项”( **...** ) >“保存副本”。
 
     ![保存该报表的副本](media/service-datasets-copy-reports/power-bi-save-copy.png)
 
-    只有当报表位于新的体验工作区且你具有[生成权限](service-datasets-build-permissions.md)时，你才会看到“保存副本”选项  。
+    只有当报表位于新的体验工作区且你具有[生成权限](service-datasets-build-permissions.md)时，你才会看到“保存副本”选项。
 
-3. “为报表指定名称”>“保存”  。
+3. “为报表指定名称”>“保存”。
 
     ![为该报表的副本命名](media/service-datasets-copy-reports/power-bi-save-report-from-app.png)
 
     副本将自动保存到“我的工作区”。
 
-4. 选择“转到报表”  打开副本。
+4. 选择“转到报表”打开副本。
 
 ## <a name="your-copy-of-the-report"></a>报表副本
 
@@ -80,11 +80,11 @@ ms.locfileid: "83312617"
 
 如果一个工作区中的报表基于另一个工作区中的数据集，则可能需要了解有关其所基于数据集的详细信息。
 
-1. 在“报表”列表视图中，选择“查看相关项”  。
+1. 在“报表”列表视图中，选择“查看相关项”。
 
     ![相关视图图标](media/service-datasets-copy-reports/power-bi-dataset-view-related.png)
 
-1. “相关内容”对话框显示所有相关项  。 在此列表中，数据集与任何其他数据集类似。 你无法判断它位于不同的工作区。 这是一个已知问题。
+1. “相关内容”对话框显示所有相关项。 在此列表中，数据集与任何其他数据集类似。 你无法判断它位于不同的工作区。 这是一个已知问题。
  
     ![“相关内容”对话框](media/service-datasets-copy-reports/power-bi-dataset-related.png)
 
@@ -92,11 +92,11 @@ ms.locfileid: "83312617"
 
 你可能决定不再需要工作区中的报表及其关联的共享数据集。
 
-1. 删除报表。 在工作区的报表列表中，选择“删除”  图标。
+1. 删除报表。 在工作区的报表列表中，选择“删除”图标。
 
     ![删除报表图表](media/service-datasets-across-workspaces/power-bi-datasets-delete-report.png)
 
-2. 在数据集列表中，可以看到共享数据集没有“删除”  图标。 刷新页面，或转到其他页，然后返回。 数据集将消失。 如果没有，请查看“相关视图”  。 它可能与工作区中的另一个表相关。
+2. 在数据集列表中，可以看到共享数据集没有“删除”图标。 刷新页面，或转到其他页，然后返回。 数据集将消失。 如果没有，请查看“相关视图”。 它可能与工作区中的另一个表相关。
 
     ![相关视图图标](media/service-datasets-across-workspaces/power-bi-dataset-view-related-icon.png)
 
@@ -106,5 +106,5 @@ ms.locfileid: "83312617"
 
 ## <a name="next-steps"></a>后续步骤
 
-- [跨工作区使用数据集（预览）](service-datasets-across-workspaces.md)
+- [跨工作区使用数据集](service-datasets-across-workspaces.md)
 - 是否有任何问题? [尝试咨询 Power BI 社区](https://community.powerbi.com/)
