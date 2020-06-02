@@ -1,9 +1,9 @@
 ### YamlMime:Landing
 title: Power BI 管理员和企业文档
-summary: 无论以何种方式使用 Power BI，Power BI 管理员和企业文档都可提供专家信息和答案来满足你的需求。
+summary: 无论以何种方式使用 Power BI，Power BI 文档都可以提供专业的信息和答案来满足你的需求。
 metadata:
   title: Power BI 管理员和企业文档
-  description: 无论以何种方式使用 Power BI，Power BI 管理员和企业文档都可提供专家信息和答案来满足你的需求。
+  description: 无论以何种方式使用 Power BI，Power BI 文档都可以提供专业的信息和答案来满足你的需求。
   services: powerbi
   ms.service: powerbi
   ms.subservice: powerbi-service
@@ -12,12 +12,12 @@ metadata:
   author: maggiesMSFT
   ms.author: maggies
   ms.date: 03/17/2020
-  ms.openlocfilehash: 2256fbfed7410aea069638a773b83156096ab855
-  ms.sourcegitcommit: 6ba7cc9afaf91229f717374bc0c12f0b8201d15e
+  ms.openlocfilehash: 583a42a230b869f2692cc35202dbd496a4f2b602
+  ms.sourcegitcommit: 49daa8964c6e30347e29e7bfc015762e2cf494b3
   ms.translationtype: HT
   ms.contentlocale: zh-CN
-  ms.lasthandoff: 05/16/2020
-  ms.locfileid: "83437962"
+  ms.lasthandoff: 06/02/2020
+  ms.locfileid: "84272462"
 landingContent:
 - title: 面向管理员和企业的 Power BI
   linkLists:
@@ -45,7 +45,7 @@ landingContent:
       url: service-admin-purchasing-power-bi-pro.md
     - text: 注册 Microsoft 365 试用版
       url: service-admin-signing-up-for-power-bi-with-a-new-office-365-trial.md
-    - text: 使用 Office 365 合作伙伴添加 Power BI
+    - text: 使用 Microsoft 365 合作伙伴版添加 Power BI
       url: service-admin-syndication-partner.md
 - title: 管理你的组织
   linkLists:
