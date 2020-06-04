@@ -35,10 +35,10 @@ Android 版 Microsoft Power BI 移动应用提供了 Power BI、Power BI 报表�
 
 从 Google Play [下载 Android 版 Power BI 应用](https://go.microsoft.com/fwlink/?LinkID=544867)。
   
-Power BI 可以在多个运行 Android 5.0 操作系统或更高版本的不同 Android 设备上运行。 若要检查设备，请转到“设置”   > “关于设备”   > “Android 版本”  。 
+Power BI 可以在多个运行 Android 5.0 操作系统或更高版本的不同 Android 设备上运行。 若要检查设备，请转到“设置” > “关于设备” > “Android 版本”。 
 
 **打开应用时启动**    
-即使没有注册或登录，打开该应用后，也可以浏览登录页面，获取有关对 Android 设备上的 Power BI 应用执行的操作的概述。 点击“跳过”  以查看和浏览示例，并获取该应用的亲自实践体验。 无论何时需要，你都可以从仪表板主页[返回到示例](mobile-android-app-get-started.md#try-the-power-bi-and-reporting-services-samples)。
+即使没有注册或登录，打开该应用后，也可以浏览登录页面，获取有关对 Android 设备上的 Power BI 应用执行的操作的概述。 点击“跳过”以查看和浏览示例，并获取该应用的亲自实践体验。 无论何时需要，你都可以从仪表板主页[返回到示例](mobile-android-app-get-started.md#try-the-power-bi-and-reporting-services-samples)。
 
 查找 [Power BI 移动应用中的新功能](mobile-whats-new-in-the-mobile-apps.md)。
 
@@ -52,18 +52,18 @@ Power BI 可以在多个运行 Android 5.0 操作系统或更高版本的不同 
 1. 在 Android 设备上，从开始屏幕打开 Android 版 Power BI 应用。
    
    ![Power BI 图标](./media/mobile-android-app-get-started/power-bi-logo-android.png)
-2. 若要登录 Power BI，请点击 Power BI 选项卡并填写登录详细信息  。
+2. 若要登录 Power BI，请点击 Power BI 选项卡并填写登录详细信息。
 
     如果你收到 Power BI 无法登录的消息，请参阅[“无法进行身份验证，因为你的企业 SSL 证书不受信任”](mobile-android-app-error-corporate-ssl-account-is-untrusted.md)，了解有关如何解决该问题的详细信息。
 
-   若要登录到 Reporting Services 移动报表和 KPI，请单击“报表服务器”选项卡并填写登录详细信息  。
+   若要登录到 Reporting Services 移动报表和 KPI，请单击“报表服务器”选项卡并填写登录详细信息。
    
    ![登录到 Power BI](./media/mobile-android-app-get-started/power-bi-connect-to-login.png)
 
 ## <a name="try-the-power-bi-and-reporting-services-samples"></a>体验 Power BI 和 Reporting Services 示例
 即使没有注册，也可以查看 Power BI 和 Reporting Services 示例并与之交互。
 
-要访问这些示例，请点击导航栏上“更多选项”(…)，然后选择“示例”   。
+要访问这些示例，请点击导航栏上“更多选项”(…)，然后选择“示例” 。
 
 多个 Power BI 示例后为几个报表服务器示例。
    
@@ -80,7 +80,7 @@ Power BI 可以在多个运行 Android 5.0 操作系统或更高版本的不同 
 点击标头中的放大镜，开始搜索 Power BI 内容。
 
 ## <a name="view-your-favorite-dashboards-and-reports"></a>查看你收藏的仪表板和报表
-点击导航栏上的“收藏夹”(![](./media/mobile-android-app-get-started/power-bi-mobile-apps-home-favorites-icon.png))，查看“收藏夹”页  。 
+点击导航栏上的“收藏夹”(![](./media/mobile-android-app-get-started/power-bi-mobile-apps-home-favorites-icon.png))，查看“收藏夹”页。 
 
 阅读有关 [Power BI 移动应用中的收藏夹](mobile-apps-favorites.md) 的更多信息。
 

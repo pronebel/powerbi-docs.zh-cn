@@ -20,6 +20,8 @@
           href: custom-visual-develop-tutorial-format-options.md
         - name: 为视觉对象项目添加单位测试
           href: unit-tests-introduction.md
+        - name: 根据 R 脚本对 R 视觉对象创建漏斗图
+          href: funnel-plot-from-r.md
     - name: 概念
       items:
         - name: Power BI 视觉对象项目结构

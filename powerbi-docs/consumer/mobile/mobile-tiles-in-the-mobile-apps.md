@@ -73,7 +73,7 @@ ms.locfileid: "83273077"
    * 点击图表以移动折线图、条形图、柱形图或气泡图中的条，以查看可视化效果中特定点的值。  
    * 点击铅笔图标 ![](./media/mobile-tiles-in-the-mobile-apps/power-bi-iphone-annotate-icon.png)，[为磁贴添加批注](mobile-annotate-and-share-a-tile-from-the-mobile-apps.md#annotate-and-share-the-tile-report-or-visual)，然后点击共享快照图标 ![](./media/mobile-tiles-in-the-mobile-apps/pbi_andr_sharesnapicon.png)，[与其他人共享](mobile-annotate-and-share-a-tile-from-the-mobile-apps.md#annotate-and-share-the-tile-report-or-visual)。
    * 点击“打开报表”图标 ![](./media/mobile-tiles-in-the-mobile-apps/power-bi-android-tablet-open-report-icon.png)，在移动应用中[查看报表](mobile-reports-in-the-mobile-apps.md)。
-3. 有时，仪表板创建者会为磁贴添加链接。 如果是这样，点击垂直省略号 ( **…** ) 时可看到“打开链接”![](media/mobile-tiles-in-the-mobile-apps/power-bi-iphone-link-icon.png)  ：
+3. 有时，仪表板创建者会为磁贴添加链接。 如果是这样，点击垂直省略号 ( **…** ) 时可看到“打开链接”![](media/mobile-tiles-in-the-mobile-apps/power-bi-iphone-link-icon.png)：
    
     ![](media/mobile-tiles-in-the-mobile-apps/power-bi-android-tile-link.png)
    
@@ -87,7 +87,7 @@ ms.locfileid: "83273077"
 ## <a name="tiles-in-the-windows-10-mobile-app"></a>Windows 10 移动应用中的磁贴
 
 >[!NOTE]
->我们将于 2021 年 3 月 16 日终止对使用 Windows 10 移动版的手机提供 Power BI 移动应用支持  。 [了解详细信息](https://go.microsoft.com/fwlink/?linkid=2121400)
+>我们将于 2021 年 3 月 16 日终止对使用 Windows 10 移动版的手机提供 Power BI 移动应用支持。 [了解详细信息](https://go.microsoft.com/fwlink/?linkid=2121400)
 
 1. 在[适用于 Windows 10 的 Power BI 移动应用中打开仪表板](mobile-apps-view-dashboard.md)。
 2. 点击磁贴上的垂直省略号。 你可以在此处： 
@@ -96,10 +96,10 @@ ms.locfileid: "83273077"
    
     [共享磁贴的快照](mobile-windows-10-phone-app-get-started.md)。
    
-    点击“打开报表”![](././media/mobile-tiles-in-the-mobile-apps/power-bi-ipad-open-report-icon.png) 以[查看基础报表](mobile-reports-in-the-mobile-apps.md)  。
+    点击“打开报表”![](././media/mobile-tiles-in-the-mobile-apps/power-bi-ipad-open-report-icon.png) 以[查看基础报表](mobile-reports-in-the-mobile-apps.md)。
    
     [打开链接](../../create-reports/service-dashboard-edit-tile.md#hyperlink)（如果有链接）。 链接可以转到 Power BI 仪表板或外部 URL。
-3. 点击“展开磁贴”  ![](media/mobile-tiles-in-the-mobile-apps/power-bi-windows-10-focus-mode-icon.png)。 将会在焦点模式下打开磁贴，在其中可以很方便地查看和浏览磁贴数据。 在此模式下，你可以：
+3. 点击“展开磁贴”![](media/mobile-tiles-in-the-mobile-apps/power-bi-windows-10-focus-mode-icon.png)。 将会在焦点模式下打开磁贴，在其中可以很方便地查看和浏览磁贴数据。 在此模式下，你可以：
    
    旋转饼图显示饼图顶部扇区的值。  
    
@@ -109,9 +109,9 @@ ms.locfileid: "83273077"
    
    ![](media/mobile-tiles-in-the-mobile-apps/pbi_win10ph_bartile0316.png)
    
-   在此条形图中，**Decor** 条的值显示在图表的顶部。 
+   在此条形图中，**Decor** 条的值显示在图表的顶部。
    
-   点击“全屏”  图标 ![](media/mobile-tiles-in-the-mobile-apps/power-bi-full-screen-icon.png)，以全屏幕模式打开磁贴而不显示导航和菜单栏。
+   点击“全屏”图标 ![](media/mobile-tiles-in-the-mobile-apps/power-bi-full-screen-icon.png)，以全屏幕模式打开磁贴而不显示导航和菜单栏。
    
    > [!NOTE]
    > 还可以在 Windows 10 版 Power BI 移动应用中的[全屏模式下查看仪表板和报表](mobile-windows-10-app-presentation-mode.md)。

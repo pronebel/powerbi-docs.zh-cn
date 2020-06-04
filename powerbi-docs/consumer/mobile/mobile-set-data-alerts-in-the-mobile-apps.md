@@ -39,7 +39,7 @@ ms.locfileid: "83279540"
    
    ![](media/mobile-set-data-alerts-in-the-mobile-apps/power-bi-iphone-card-visual.png)
 2. 点击钟形图标 ![](media/mobile-set-data-alerts-in-the-mobile-apps/power-bi-iphone-alert-icon.png) 添加警报。  
-3. 点击“添加警报规则”  。
+3. 点击“添加警报规则”。
    
    ![](media/mobile-set-data-alerts-in-the-mobile-apps/power-bi-iphone-add-alert-rule.png)
 4. 选择在大于或小于某个值时接收警报，然后设置值。
@@ -53,7 +53,7 @@ ms.locfileid: "83279540"
    > 
 6. 也可以更改警报标题。
 7. 点击**保存**。
-8. 单个的磁贴可以有超过或低于阈值的值的警报。 在“管理警报”  中，点击“添加警报规则”  。
+8. 单个的磁贴可以有超过或低于阈值的值的警报。 在“管理警报”中，点击“添加警报规则”。
    
    ![](media/mobile-set-data-alerts-in-the-mobile-apps/power-bi-iphone-add-another-alert-rule.png)
 
@@ -105,7 +105,7 @@ ms.locfileid: "83279540"
 ## <a name="data-alerts-on-a-windows-device"></a>Windows 设备上的数据警报
 
 >[!NOTE]
->我们将于 2021 年 3 月 16 日终止对使用 Windows 10 移动版的手机提供 Power BI 移动应用支持  。 [了解详细信息](https://go.microsoft.com/fwlink/?linkid=2121400)
+>我们将于 2021 年 3 月 16 日终止对使用 Windows 10 移动版的手机提供 Power BI 移动应用支持。 [了解详细信息](https://go.microsoft.com/fwlink/?linkid=2121400)
 
 ### <a name="set-data-alerts-on-a-windows-device"></a>在 Windows 设备上设置数据警报
 1. 点击仪表板中的数字或仪表盘磁贴以打开该磁贴。  
@@ -126,7 +126,7 @@ ms.locfileid: "83279540"
    > 
 6. 也可以更改警报标题。
 7. 点击复选标记。
-8. 单个的磁贴可以有超过或低于阈值的值的警报。 在“管理警报”  中，点击加号 (+)。
+8. 单个的磁贴可以有超过或低于阈值的值的警报。 在“管理警报”中，点击加号 (+)。
    
    ![](media/mobile-set-data-alerts-in-the-mobile-apps/power-bi-windows-10-add-another-alert.png)
 
@@ -140,7 +140,7 @@ ms.locfileid: "83279540"
 3. 点击该警报以更改值或将其关闭。
    
     ![](media/mobile-set-data-alerts-in-the-mobile-apps/power-bi-windows-10-add-another-alert.png)
-4. 若要完全删除该警报，请单击右键或点击并按住 >“删除”  。
+4. 若要完全删除该警报，请单击右键或点击并按住 >“删除”。
 
 ## <a name="receiving-alerts"></a>接收警报
 在移动设备上或在 Power BI 服务中的 Power BI [通知中心](mobile-apps-notification-center.md) 中接收警报，以及关于他人与你共享的新仪表板的通知。
@@ -156,7 +156,7 @@ ms.locfileid: "83279540"
 3. Power BI 将消息添加到[通知中心](mobile-apps-notification-center.md)，并在标题栏上的钟形图标 ![钟形图标](media/mobile-set-data-alerts-in-the-mobile-apps/powerbi-alert-tile-notification-icon.png)（iOS 和 Android）或全局导航按钮 ![全局导航按钮](./media/mobile-set-data-alerts-in-the-mobile-apps/power-bi-iphone-alert-global-nav-button.png)（Windows 10 设备）上添加黄点。
 
 
-4. 点击钟形图标 ![钟形图标](media/mobile-set-data-alerts-in-the-mobile-apps/powerbi-alert-tile-notification-icon.png) 或全局导航按钮 ![全局导航按钮](./media/mobile-set-data-alerts-in-the-mobile-apps/power-bi-iphone-alert-global-nav-button.png)[，打开“通知中心”](mobile-apps-notification-center.md)并查看警报详细信息  。
+4. 点击钟形图标 ![钟形图标](media/mobile-set-data-alerts-in-the-mobile-apps/powerbi-alert-tile-notification-icon.png) 或全局导航按钮 ![全局导航按钮](./media/mobile-set-data-alerts-in-the-mobile-apps/power-bi-iphone-alert-global-nav-button.png)[，打开“通知中心”](mobile-apps-notification-center.md)并查看警报详细信息。
    
      
 
