@@ -6,14 +6,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 05/27/2020
+ms.date: 06/03/2020
 ms.author: maggies
-ms.openlocfilehash: f0bf8edc3c954bf5c79d76c1a3bdba1a08ae40ae
-ms.sourcegitcommit: a7b142685738a2f26ae0a5fa08f894f9ff03557b
+ms.openlocfilehash: 529be27d10a5ac1a352473be14e6e7184493bdf9
+ms.sourcegitcommit: f05f7b0112a8ec2dce60839ea5f922eda3cc776c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/28/2020
-ms.locfileid: "84121098"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "84336788"
 ---
 # <a name="whitepapers-for-power-bi"></a>Power BI 白皮书
 
@@ -21,7 +21,7 @@ ms.locfileid: "84121098"
 
 | 白皮书 | 说明 | 日期 |
 | --- | --- | --- |
-| [规划 Power BI Enterprise 部署](https://aka.ms/PBIEnterpriseDeploymentWP) |此更新技术白皮书概述了一种安全可靠的组织 Power BI 部署的注意事项和最佳实践。 | 2020 年 5 月 |
+| [规划 Power BI Enterprise 部署](https://aka.ms/PBIEnterpriseDeploymentWP) |此更新技术白皮书概述了一种安全可靠的组织 Power BI 部署的注意事项和最佳实践。 | 2020年6月 |
 | [Power BI 和数据流](https://go.microsoft.com/fwlink/?linkid=2034388&clcid=0x409)| 本白皮书详细介绍了数据流技术方面的信息，并描述了数据流特性和功能背后的功能和举措。 | 2018 年 11 月 |
 | [Microsoft Power BI Premium](https://aka.ms/pbipremiumwhitepaper) |介绍了 Power BI Premium 刚刚面世时的情况以及它的发展趋势。 | 2017 年 10 月 |
 | [Power BI Premium 规划和部署](whitepaper-powerbi-premium-deployment.md)| 本白皮书中的内容已纳入一般指导。 有关为定义完善的工作负载规划和部署高级容量，请参阅链接。| 2019 年 3 月 |
