@@ -44,7 +44,7 @@ ms.locfileid: "83349439"
    
     ![点击“仪表板”](./media/mobile-apps-view-dashboard/power-bi-iphone-dashboard-home.png)
    
-   * 黄色星标  ![收藏夹星标](././././media/mobile-apps-view-dashboard/power-bi-mobile-yes-favorite-icon.png) 表示仪表板已加入收藏夹。 
+   * 黄色星标 ![收藏夹星标](././././media/mobile-apps-view-dashboard/power-bi-mobile-yes-favorite-icon.png) 表示仪表板已加入收藏夹。 
    * 每个仪表板名称下面的批注（在此示例中为“MBI”）![数据分类](././media/mobile-apps-view-dashboard/power-bi-dashboard-ios-medium-classification.png)指明了每个仪表板中的数据分类方式。 阅读更多有关 [Power BI 中的数据分类](../../create-reports/service-data-classification.md)。
    
    默认情况下，在 iPhone 上 Power BI 仪表板看起来稍有不同。 所有磁贴大小相同，从顶部到底部一个接一个排列。
@@ -63,7 +63,7 @@ ms.locfileid: "83349439"
    
    * [点击一个磁贴](mobile-tiles-in-the-mobile-apps.md)以在焦点模式中打开它，并与之进行交互。
    * 点击星标 ![收藏夹星标](././media/mobile-apps-view-dashboard/power-bi-mobile-not-favorite-icon.png)[以把它加入收藏夹](mobile-apps-favorites.md)。
-   * 点击“邀请”![邀请图标](./media/mobile-apps-view-dashboard/pbi_ipad_shareiconblk.png) 以[邀请同事](mobile-share-dashboard-from-the-mobile-apps.md)查看你的仪表板  。
+   * 点击“邀请”![邀请图标](./media/mobile-apps-view-dashboard/pbi_ipad_shareiconblk.png) 以[邀请同事](mobile-share-dashboard-from-the-mobile-apps.md)查看你的仪表板。
    * [使用 Apple Watch 对仪表板进行同步](mobile-apple-watch.md)。
 4. 若要返回到仪表板列表，点击仪表板标题旁边的箭头，然后点击“**我的工作区**”。
    
@@ -80,11 +80,11 @@ ms.locfileid: "83349439"
 1. 打开 Power BI 应用。
    
    是否需要首先从 Apple App Store [下载此 iPad 应用](https://go.microsoft.com/fwlink/?LinkId=522062)？
-2. 在该应用的顶部点击“仪表板”  。  
+2. 在该应用的顶部点击“仪表板”。  
    
    ![主仪表板](./media/mobile-apps-view-dashboard/power-bi-ipad-dashboard-home.png)
    
-   * 黄色星标  ![收藏夹星标](././././media/mobile-apps-view-dashboard/power-bi-mobile-yes-favorite-icon.png) 表示仪表板已加入收藏夹。 
+   * 黄色星标 ![收藏夹星标](././././media/mobile-apps-view-dashboard/power-bi-mobile-yes-favorite-icon.png) 表示仪表板已加入收藏夹。 
    * 每个仪表板名称下面的批注（在此示例中为“MBI”）![数据分类](././media/mobile-apps-view-dashboard/power-bi-dashboard-ios-medium-classification.png)指明了每个仪表板中的数据分类方式。 阅读更多有关 [Power BI 中的数据分类](../../create-reports/service-data-classification.md)。
 3. 你可以从工作区中共享仪表板。 依次点击仪表板磁贴右下角的省略号 ( **...** ) 和“**邀请其他人**”。
    
@@ -107,7 +107,7 @@ ms.locfileid: "83349439"
    
    ![主仪表板](./media/mobile-apps-view-dashboard/power-bi-android-dashboards.png)
 
-    黄色星标  ![收藏夹星标](././././media/mobile-apps-view-dashboard/power-bi-mobile-yes-favorite-icon.png) 表示仪表板已加入收藏夹。 
+    黄色星标 ![收藏夹星标](././././media/mobile-apps-view-dashboard/power-bi-mobile-yes-favorite-icon.png) 表示仪表板已加入收藏夹。 
 
     仪表板名称下面的批注（在此示例中为“MBI”）![数据分类](././media/mobile-apps-view-dashboard/power-bi-android-dashboard-medium-classification.png)指明了每个仪表板中的数据分类方式。 阅读更多有关 [Power BI 中的数据分类](../../create-reports/service-data-classification.md)。
 
@@ -117,7 +117,7 @@ ms.locfileid: "83349439"
 
     如果你是仪表板所有者，则可以在 Power BI 服务中[创建手机专用仪表板纵向模式视图](../../create-reports/service-create-dashboard-mobile-phone-view.md)。 
 
-1. 在仪表板上，你可以点击名称旁边的垂直“更多选项”(...) 按钮来邀请同事，刷新或获取有关仪表板的信息  ：
+1. 在仪表板上，你可以点击名称旁边的垂直“更多选项”(...) 按钮来邀请同事，刷新或获取有关仪表板的信息：
    
    ![省略号菜单](././media/mobile-apps-view-dashboard/pbi_andr_dashellipsis.png)
 2. 向上和向下轻扫可查看[仪表板中的所有磁贴](mobile-tiles-in-the-mobile-apps.md)。 
@@ -131,9 +131,9 @@ ms.locfileid: "83349439"
    
    ![主仪表板](./media/mobile-apps-view-dashboard/power-bi-android-tablet-dashboard-home.png)
    
-   * 黄色星标  ![收藏夹星标](././././media/mobile-apps-view-dashboard/power-bi-mobile-yes-favorite-icon.png) 显示哪些仪表板已加入收藏夹。 
+   * 黄色星标 ![收藏夹星标](././././media/mobile-apps-view-dashboard/power-bi-mobile-yes-favorite-icon.png) 显示哪些仪表板已加入收藏夹。 
    * 每个仪表板名称下面的批注（在此示例中为“MBI”）![数据分类](././media/mobile-apps-view-dashboard/power-bi-android-dashboard-medium-classification.png)指明了每个仪表板中的数据分类方式。 阅读更多有关 [Power BI 中的数据分类](../../create-reports/service-data-classification.md)。
-3. 在仪表板上，你可以点击名称旁边的垂直“更多选项”(...) 按钮来邀请同事，刷新或获取有关仪表板的信息  ：
+3. 在仪表板上，你可以点击名称旁边的垂直“更多选项”(...) 按钮来邀请同事，刷新或获取有关仪表板的信息：
    
    ![省略号菜单](././media/mobile-apps-view-dashboard/pbi_andr_dashellipsis.png)
 4. 向上和向下轻扫可查看[仪表板中的所有磁贴](mobile-tiles-in-the-mobile-apps.md)。 

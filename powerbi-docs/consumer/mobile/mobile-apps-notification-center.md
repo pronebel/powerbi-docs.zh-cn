@@ -23,12 +23,12 @@ ms.locfileid: "83276090"
 | iPhone |iPad |Android 手机 |Android 平板电脑 |Windows 10 设备 |
 
 >[!NOTE]
->我们将于 2021 年 3 月 16 日终止对使用 Windows 10 移动版的手机提供 Power BI 移动应用支持  。 [了解详细信息](https://go.microsoft.com/fwlink/?linkid=2121400)
+>我们将于 2021 年 3 月 16 日终止对使用 Windows 10 移动版的手机提供 Power BI 移动应用支持。 [了解详细信息](https://go.microsoft.com/fwlink/?linkid=2121400)
 
 “通知”会将你的 Power BI 体验相关信息通过 Power BI 服务或移动设备立即发送给你。 打开“通知”时，你会看到一组顺序消息源，关于[你已设置的警报](mobile-set-data-alerts-in-the-mobile-apps.md)、已与你共享的新仪表板、组工作区的更改、Power BI 事件和会议相关信息等。
 
 > [!NOTE]
-> 在 iOS 设备上第一次登录 [Power BI 应用更新版](https://powerbi.microsoft.com/mobile/)时，会看到一条消息，询问你是否希望 Power BI 发送通知。 还可以在设备的“设置”  中配置如何让 Power BI 为你发送通知。 
+> 在 iOS 设备上第一次登录 [Power BI 应用更新版](https://powerbi.microsoft.com/mobile/)时，会看到一条消息，询问你是否希望 Power BI 发送通知。 还可以在设备的“设置”中配置如何让 Power BI 为你发送通知。 
 > 
 > 
 
@@ -46,17 +46,17 @@ ms.locfileid: "83276090"
     最新的通知显示在顶部，未读通知突出显示。 通知将保留 90 天，除非被删除或超出最大条数 100。
    
    ![iOS 通知列表](./media/mobile-apps-notification-center/power-bi-iphone-notifications-list.png)
-4. 要在 iOS 和 Android 设备上消除通知，请点击、按住并轻扫。 在 Windows 10 设备上，右键单击并选择“消除”  。
+4. 要在 iOS 和 Android 设备上消除通知，请点击、按住并轻扫。 在 Windows 10 设备上，右键单击并选择“消除”。
 
 ## <a name="change-or-turn-off-notifications-on-your-mobile-device"></a>更改或关闭移动设备上的通知
 可以更改 Power BI 的通知方式。
 
 1. 在 iOS 设备上，依次转到 **“设置”**  >  **“通知”** 。 
    
-    在 Android 手机上，转到“设置” **“通知”**  >   。
+    在 Android 手机上，转到“设置” > “通知” 。
    
-    在 Windows 设备上，从“设置”  上转到“系统”   > “通知和操作”  。
-2. 在应用列表中，选择“Power BI”  。 
+    在 Windows 设备上，从“设置”上转到“系统” > “通知和操作”。
+2. 在应用列表中，选择“Power BI”。 
 3. 此处，你可以完全关闭通知或选择所需的通知。
    
     **在 iPhone 上**

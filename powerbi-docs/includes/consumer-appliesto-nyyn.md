@@ -15,4 +15,4 @@ ms.contentlocale: zh-CN
 ms.lasthandoff: 05/06/2020
 ms.locfileid: "82865153"
 ---
-<Token>适用对象：![否](media/no.png)面向消费者的 Power BI 服务 ![是](media/yes.png)面向设计师和开发者的 Power BI 服务 ![是](media/yes.png)Power BI Desktop ![否](media/no.png)需要 Pro 或 Premium 版许可证</Token> 
+<Token>适用对象：![否](media/no.png)面向消费者的 Power BI 服务 ![是](media/yes.png)面向设计师和开发者的 Power BI 服务 ![是](media/yes.png)Power BI Desktop ![否](media/no.png)需要 Pro 或 Premium 版许可证</Token>
