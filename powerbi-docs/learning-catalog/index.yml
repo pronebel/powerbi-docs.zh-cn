@@ -9,12 +9,12 @@ metadata:
   author: loreleishannonmsft
   ms.author: v-lshann
   ms.date: 04/08/2020
-  ms.openlocfilehash: 9f03f812eb20454f655a876438312ba50b521a29
-  ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+  ms.openlocfilehash: c53b6e74933557937f4a9449925199d6325f78e3
+  ms.sourcegitcommit: aece2382b618dc5b730705b4c76e76a657986588
   ms.translationtype: HT
   ms.contentlocale: zh-CN
-  ms.lasthandoff: 05/05/2020
-  ms.locfileid: "81439287"
+  ms.lasthandoff: 06/04/2020
+  ms.locfileid: "84427811"
 landingContent:
 - title: 业务决策者
   linkLists:
@@ -60,6 +60,8 @@ landingContent:
       url: learning-catalog-data-analyst.md#dashboards
     - text: 可视化效果
       url: learning-catalog-data-analyst.md#visualizations
+    - text: DAX
+      url: learning-catalog-data-analyst.md#dax
     - text: 治理和部署
       url: learning-catalog-data-analyst.md#governance-deployment
     - text: 集成
@@ -86,8 +88,6 @@ landingContent:
       url: learning-catalog-developer.md#get-started
     - text: 嵌入
       url: learning-catalog-developer.md#embedded
-    - text: DAX
-      url: learning-catalog-developer.md#dax
     - text: 开发
       url: learning-catalog-developer.md#development
 - title: 合作伙伴售前角色
