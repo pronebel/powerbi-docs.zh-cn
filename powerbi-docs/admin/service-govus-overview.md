@@ -6,16 +6,16 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 05/27/2020
+ms.date: 06/02/2020
 ms.author: kfollis
 ms.custom: licensing support
 LocalizationGroup: Get started
-ms.openlocfilehash: f4f0bc5de0480748344fa029c774c4d262facc08
-ms.sourcegitcommit: 3f864ec22f99ca9e25cda3a5abda8a5f69ccfa8e
+ms.openlocfilehash: 8be103d01b5f46c510a1e3658d5a5e29d566a5ff
+ms.sourcegitcommit: f05f7b0112a8ec2dce60839ea5f922eda3cc776c
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/29/2020
-ms.locfileid: "84159688"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "84336535"
 ---
 # <a name="power-bi-for-us-government-customers"></a>适用于美国政府客户的 Power BI
 本文适用于将 Power BI 作为 Microsoft 365 政府版计划的一部分进行部署的美国政府客户。 政府版计划专为必须满足美国合规性和安全性标准的组织的独特需求而设计。 为美国政府客户设计的 Power BI 服务不同于 Power BI 服务的商业版本。 下面几节说明了这些特性差异和功能。
@@ -83,12 +83,12 @@ Azure 分布在多个云中。 默认情况下，你可以启用防火墙规则�
 |  |使用 Active Directory 组进行共享和访问控制|可用|可用|可用|
 |  |通过 Office 365 安全和合规管理中心进行审核|可用|可用|可用|
 |  |外部用户共享|可用|可用|可用|
-|  |报表和仪表板的使用指标|不可用|不可用|不可用|
+|  |报表和仪表板的使用指标|可用|可用|可用|
 |  |GCC 和商业云之间的 Azure B2B|不可用|不可用|不可用|
 |报表创建|创建和查看仪表板和报表|可用|可用|可用|
 |  |计划的数据刷新|可用|可用|可用|
 |  |可刷新的团队仪表板|可用|可用|可用|
-|  |分页报表|可用|在路线图上|在路线图上|
+|  |分页报表|可用|可用|可用|
 |  |模板应用|不可用|不可用|不可用|
 |连接到数据|从 Excel 导入数据和报表|可用|可用|可用|
 |  |从 CSV 文件导入数据|可用|可用|可用|

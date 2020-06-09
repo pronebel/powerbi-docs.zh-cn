@@ -23,15 +23,15 @@ ms.locfileid: "83349209"
 
 ![Power BI Desktop 和服务的维恩图](media/service-service-vs-desktop/power-bi-venn-desktop-service.png)
 
-“Power BI Desktop”是一个完整的数据分析和报表创建工具，可以在本地计算机上为免费应用程序安装该工具  。 它包括查询编辑器，可以在其中连接到许多不同的数据源，并将其（通常称为建模）合并到数据模型中。 然后根据该数据模型设计报表。 请参阅 [Power BI Desktop 入门指南](desktop-getting-started.md)了解整个过程。
+“Power BI Desktop”是一个完整的数据分析和报表创建工具，可以在本地计算机上为免费应用程序安装该工具。 它包括查询编辑器，可以在其中连接到许多不同的数据源，并将其（通常称为建模）合并到数据模型中。 然后根据该数据模型设计报表。 请参阅 [Power BI Desktop 入门指南](desktop-getting-started.md)了解整个过程。
 
-“PowerBI 服务”是基于云的服务  。 它支持团队和组织的轻量级报表编辑和协作。 也可以连接到 Power BI 服务中的数据源，但建模不可以。 
+“PowerBI 服务”是基于云的服务。 它支持团队和组织的轻量级报表编辑和协作。 也可以连接到 Power BI 服务中的数据源，但建模不可以。 
 
-致力于商业智能项目的大多数报表设计器都使用“Power BI Desktop”创建报表，然后使用“Power BI 服务”将报表分发给其他人   。
+致力于商业智能项目的大多数报表设计器都使用“Power BI Desktop”创建报表，然后使用“Power BI 服务”将报表分发给其他人 。
 
 ## <a name="report-editing"></a>报表编辑
 
-在应用程序和服务中，可以生成和编辑报表  。 报表可以有一个或多个页面，带有视觉对象和视觉对象的集合。 添加书签、按钮、筛选器和钻取，以增强报表中的导航功能。
+在应用程序和服务中，可以生成和编辑报表。 报表可以有一个或多个页面，带有视觉对象和视觉对象的集合。 添加书签、按钮、筛选器和钻取，以增强报表中的导航功能。
 
 ![在 Power BI Desktop 或服务中编辑报表](media/service-service-vs-desktop/power-bi-editing-desktop-service.png)
 
@@ -39,7 +39,7 @@ Power BI Desktop 中和服务中的报表编辑器类似。 它们由三个部�
 
 1. 顶部导航窗格，在 Power BI Desktop 和服务中有所不同    
 2. 报表画布     
-3. “字段”、“可视化效果”和“筛选器”窗格   
+3. “字段”、“可视化效果”和“筛选器”窗格  
 
 此视频显示 Power BI Desktop 中的报表编辑器。 
 
@@ -50,7 +50,7 @@ Power BI Desktop 中和服务中的报表编辑器类似。 它们由三个部�
 ### <a name="collaborating"></a>协作
 
 
-创建报表后，可以将其保存到 Power BI 服务中的“工作区”，你和你的同事可以在其中进行协作   。 基于这些报表生成“仪表板”  。 然后，你可以与组织内外的报表使用者共享这些仪表板和报表。 报表使用者可在 Power BI 服务的阅读视图，而不是编辑视图中查看它们  。 报表使用者无法访问报告创建者可用的所有功能。  你还可以共享数据集，让其他人从中生成自己的报表。 详细了解[在 Power BI 服务中进行协作](../collaborate-share/service-new-workspaces.md)。
+创建报表后，可以将其保存到 Power BI 服务中的“工作区”，你和你的同事可以在其中进行协作。 基于这些报表生成“仪表板”。 然后，你可以与组织内外的报表使用者共享这些仪表板和报表。 报表使用者可在 Power BI 服务的阅读视图，而不是编辑视图中查看它们。 报表使用者无法访问报告创建者可用的所有功能。  你还可以共享数据集，让其他人从中生成自己的报表。 详细了解[在 Power BI 服务中进行协作](../collaborate-share/service-new-workspaces.md)。
 
 ### <a name="self-service-data-prep-with-dataflows"></a>数据流自助数据准备
 

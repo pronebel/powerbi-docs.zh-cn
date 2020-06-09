@@ -27,7 +27,7 @@ ms.locfileid: "83145129"
 * 数据刷新频率
 * 难以预测的其他使用模式。
 
-本文旨在简化 Power BI 嵌入式分析的容量计划，具体是通过引入 [Power BI 专用容量负载评估工具](https://github.com/microsoft/PowerBI-Tools-For-Capacities/tree/master/LoadTestingPowerShellTool/)，此工具是为了自动执行 Power BI 嵌入式分析容量（A  、EM  或 P  SKU）的负载测试而创建的。
+本文旨在简化 Power BI 嵌入式分析的容量计划，具体是通过引入 [Power BI 专用容量负载评估工具](https://github.com/microsoft/PowerBI-Tools-For-Capacities/tree/master/LoadTestingPowerShellTool/)，此工具是为了自动执行 Power BI 嵌入式分析容量（A、EM 或 P SKU）的负载测试而创建的。
 
 ## <a name="planning-tool"></a>计划工具
 
@@ -51,8 +51,8 @@ ms.locfileid: "83145129"
 
 若要在测试运行后在 Metrics 应用中查看负载测试效果，请按照下面的说明操作。 从测试开始生成负载到 Metrics 应用中显示负载，预计最长会有 15 分钟的延迟。
 
-1. 展开 [Metrics 应用](../../admin/service-admin-premium-monitor-capacity.md)登陆页面的“数据集”  选项卡。
-2. 单击“立即刷新”  ，启动按需刷新。 管理员应该。
+1. 展开 [Metrics 应用](../../admin/service-admin-premium-monitor-capacity.md)登陆页面的“数据集”选项卡。
+2. 单击“立即刷新”，启动按需刷新。 管理员应该。
 
     ![Power BI Premium Capacity Metrics](media/embedded-capacity-planning/embedded-capacity-planning.png)
 

@@ -7,23 +7,17 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: conceptual
-ms.date: 03/11/2020
-ms.openlocfilehash: 40bbf09e684b4fd3f86564c9b469c6ff248954a6
-ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
+ms.date: 06/01/2020
+ms.openlocfilehash: 3ca896512103aa285170eadc8435003257e57ac3
+ms.sourcegitcommit: cd64ddd3a6888253dca3b2e3fe24ed8bb9b66bc6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/19/2020
-ms.locfileid: "83565709"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "84316077"
 ---
 # <a name="using-oauth-to-connect-to-power-bi-report-server-and-ssrs"></a>使用 OAuth 连接到 Power BI 报表服务器和 SSRS
 
 可使用 OAuth 连接到 Power BI 报表服务器和 Reporting Services，以显示移动报表或 KPI。 了解如何将环境配置为支持 OAuth 对 Power BI 移动应用进行身份验证以连接到 Power BI Report Server 和 SQL Server Reporting Services 2016 或更高版本。
-
-观看 Adam 如何使用 OAuth 从 Power BI 移动连接到 SSRS：
-
-
-<iframe width="560" height="350" src="https://www.youtube.com/embed/okzPAI2uUek" frameborder="0" allowfullscreen></iframe>
-
 
 > [!NOTE]
 > iOS 和 Android 应用现支持查看在使用 WAP 进行身份验证的 Power BI 报表服务器中托管的 Power BI 报表。
@@ -40,13 +34,13 @@ Windows Server 2016 是 Web 应用程序代理 (WAP) 和 Active Directory 联合
 https://reports.contoso.com
 ```
 
-需要将报表的 DNS 记录指向 Web 应用程序代理 (WAP) 服务器的公用 IP 地址  。 还需要为 ADFS 服务器配置公用 DNS 记录。 例如，可能为 ADFS 服务器配置了以下 URL。
+需要将报表的 DNS 记录指向 Web 应用程序代理 (WAP) 服务器的公用 IP 地址。 还需要为 ADFS 服务器配置公用 DNS 记录。 例如，可能为 ADFS 服务器配置了以下 URL。
 
 ```https
 https://fs.contoso.com
 ```
 
-需要将 fs 的 DNS 记录指向 Web 应用程序代理 (WAP) 服务器的公用 IP 地址，因为会将其作为 WAP 应用程序的一部分发布  。
+需要将 fs 的 DNS 记录指向 Web 应用程序代理 (WAP) 服务器的公用 IP 地址，因为会将其作为 WAP 应用程序的一部分发布。
 
 ## <a name="certificates"></a>证书
 
@@ -86,7 +80,7 @@ SPN 是使用 Kerberos 身份验证的服务的唯一标识符。 需要确保�
 
 可以按照以下步骤创建应用程序组。
 
-1. 在“AD FS 管理”应用上，右键单击“应用程序组”，并选择“添加应用程序组…”  
+1. 在“AD FS 管理”应用上，右键单击“应用程序组”，并选择“添加应用程序组…” 
 
    ![ADFS 添加应用程序](media/mobile-oauth-ssrs/adfs-add-application-group.png)
 
@@ -94,13 +88,13 @@ SPN 是使用 Kerberos 身份验证的服务的唯一标识符。 需要确保�
 
    ![ADFS 应用程序组向导 01](media/mobile-oauth-ssrs/adfs-application-group-wizard1.png)
 
-3. 选择“下一步”  。
+3. 选择“下一步”。
 
 4. 为正在添加的应用程序提供“**名称**”。 
 
-5. “**客户端 ID**”将会自动生成，对于 iOS 和 Android 会输入 484d54fc-b481-4eee-9505-0258a1913020。 
+5. “**客户端 ID**”将会自动生成，对于 iOS 和 Android 会输入 484d54fc-b481-4eee-9505-0258a1913020。
 
-6. 需要添加以下“重定向 URL”： 
+6. 需要添加以下“重定向 URL”：
 
    **适用于 Power BI Mobile – iOS 的条目：**  
    msauth://code/mspbi-adal://com.microsoft.powerbimobile  
@@ -112,7 +106,7 @@ SPN 是使用 Kerberos 身份验证的服务的唯一标识符。 需要确保�
    urn:ietf:wg:oauth:2.0:oob
 
    ![ADFS 应用程序组向导 02](media/mobile-oauth-ssrs/adfs-application-group-wizard2.png)
-7. 选择“下一步”  。
+7. 选择“下一步”。
 
 8. 提供报表服务器的 URL。 该 URL 是将命中 Web 应用程序代理的外部 URL。 格式应如下所示。
 
@@ -122,17 +116,17 @@ SPN 是使用 Kerberos 身份验证的服务的唯一标识符。 需要确保�
    *https://< report server url >/*
 
    ![ADFS 应用程序组向导 03](media/mobile-oauth-ssrs/adfs-application-group-wizard3.png)
-9. 选择“下一步”  。
+9. 选择“下一步”。
 
-10. 选择符合组织需求的访问控制策略  。
+10. 选择符合组织需求的访问控制策略。
 
     ![ADFS 应用程序组向导 04](media/mobile-oauth-ssrs/adfs-application-group-wizard4.png)
 
-11. 选择“下一步”  。
+11. 选择“下一步”。
 
 12. 选择**下一步**。
 
-13. 选择“下一步”  。
+13. 选择“下一步”。
 
 14. 选择“**关闭**”。
 
@@ -156,7 +150,7 @@ SPN 是使用 Kerberos 身份验证的服务的唯一标识符。 需要确保�
 
 2. 找到 WAP 服务器的计算机帐户。 默认情况下，它会位于计算机容器中。
 
-3. 右键单击 WAP 服务器并转到“属性”  。
+3. 右键单击 WAP 服务器并转到“属性”。
 
 4. 选择“**委派**”选项卡。
 
@@ -185,7 +179,7 @@ SPN 是使用 Kerberos 身份验证的服务的唯一标识符。 需要确保�
 
     ![WAP 约束 04](media/mobile-oauth-ssrs/wap-contrained-delegation4.png)
 
-11. 选择“确定”。 
+11. 选择“确定”。
 
 ### <a name="add-wap-application"></a>添加 WAP 应用程序
 
@@ -226,11 +220,11 @@ Set-WebApplicationProxyApplication -id 30198C7F-DDE4-0D82-E654-D369A47B1EE5 -Bac
 
 ![键入服务器地址](media/mobile-oauth-ssrs/powerbi-mobile-app1.png)
 
-选择“连接”  后，将定向到 ADFS 登录页。 输入域的有效凭据。
+选择“连接”后，将定向到 ADFS 登录页。 输入域的有效凭据。
 
 ![登录到 ADFS](media/mobile-oauth-ssrs/powerbi-mobile-app2.png)
 
-选择“登录”后，将看到 Reporting Services 服务器中的元素  。
+选择“登录”后，将看到 Reporting Services 服务器中的元素。
 
 ## <a name="multi-factor-authentication"></a>多重身份验证
 

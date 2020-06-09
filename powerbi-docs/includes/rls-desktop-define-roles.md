@@ -17,20 +17,20 @@ ms.locfileid: "77464326"
    > 不能在 Power BI Desktop 中为 Analysis Services 实时连接定义角色。 需要在 Analysis Services 模型中执行此操作。
    > 
    > 
-2. 从“建模”选项卡中，选择“管理角色”   。
+2. 从“建模”选项卡中，选择“管理角色” 。
    
    ![选择“管理角色”](./media/rls-desktop-define-roles/powerbi-desktop-security.png)
-3. 从“管理角色”窗口中，选择“创建”   。
+3. 从“管理角色”窗口中，选择“创建” 。
    
    ![选择“创建”](./media/rls-desktop-define-roles/powerbi-desktop-security-create-role.png)
-4. 在“角色”下，提供角色的名称  。 
-5. 在“表”下，选择要对其应用 DAX 规则的表  。
-6. 在“表筛选器 DAX 表达式”框中，输入 DAX 表达式  。 此表达式返回值 true 或 false。 例如：```[Entity ID] = “Value”```。
+4. 在“角色”下，提供角色的名称。 
+5. 在“表”下，选择要对其应用 DAX 规则的表。
+6. 在“表筛选器 DAX 表达式”框中，输入 DAX 表达式。 此表达式返回值 true 或 false。 例如：```[Entity ID] = “Value”```。
       
    ![“管理角色”窗口](./media/rls-desktop-define-roles/powerbi-desktop-security-create-rule.png)
 
    > [!NOTE]
-   > 可以在此表达式内使用 *username()* 。 请注意，username() 在 Power BI Desktop 中采用“域\用户名”格式   。 在 Power BI 服务和 Power BI 报表服务器中，采用用户的用户主体名称 (UPN) 格式。 或者，可以使用 userprincipalname()，它始终返回采用其用户主体名称格式 username\@contoso.com 的用户。
+   > 可以在此表达式内使用 *username()* 。 请注意，username() 在 Power BI Desktop 中采用“域\用户名”格式 。 在 Power BI 服务和 Power BI 报表服务器中，采用用户的用户主体名称 (UPN) 格式。 或者，可以使用 userprincipalname()，它始终返回采用其用户主体名称格式 username\@contoso.com 的用户 。
    > 
    > 
 
@@ -43,7 +43,7 @@ ms.locfileid: "77464326"
    >
    >
    
-8. 选择“保存”  。
+8. 选择“保存”。
 
-无法在 Power BI Desktop 中将用户分配到角色。 在 Power BI 服务中分配用户。 通过使用 username()  或 userprincipalname()  DAX 函数并配置好正确的关系，则可以启用 Power BI Desktop 中的动态安全。 
+无法在 Power BI Desktop 中将用户分配到角色。 在 Power BI 服务中分配用户。 通过使用 username() 或 userprincipalname() DAX 函数并配置好正确的关系，则可以启用 Power BI Desktop 中的动态安全。 
 

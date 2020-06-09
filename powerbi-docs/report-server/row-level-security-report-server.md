@@ -27,7 +27,7 @@ ms.locfileid: "83277976"
 
 默认情况下，行级别安全性筛选采用单向筛选器，无需考虑关系是设置为单向还是双向。 可以手动启用具有行级别安全性的双向交叉筛选器。
 
-- 选择关系并选中“双向应用安全性筛选器”复选框  。 
+- 选择关系并选中“双向应用安全性筛选器”复选框。 
 
     ![应用安全性筛选器](media/row-level-security-report-server/rls-apply-security-filter.png)
 
@@ -45,15 +45,15 @@ ms.locfileid: "83277976"
  如果报表没有所需角色，则需要在 Power BI Desktop 中打开报表，添加或修改角色，然后将其保存回 Power BI 报表服务器。 
 
 1. 在 Power BI Desktop 中，将报表保存到 Power BI 报表服务器。 需要使用更适合 Power BI 报表服务器的 Power BI Desktop 版本。
-2. 在 Power BI 报表服务中，请选择报表旁边的省略号(…)  。 
+2. 在 Power BI 报表服务中，请选择报表旁边的省略号(…) 。 
 
-3. 选择“管理” **“行级别安全性”**  >   。 
+3. 选择“管理” > “行级别安全性” 。 
 
      ![管理行级别安全性](media/row-level-security-report-server/power-bi-report-server-rls-dialog.png)
 
-    在“行级别安全性”页上，将成员添加到在 Power BI Desktop 中创建的角色  。
+    在“行级别安全性”页上，将成员添加到在 Power BI Desktop 中创建的角色。
 
-5. 若要添加成员，请选择“添加成员”  。
+5. 若要添加成员，请选择“添加成员”。
 
 1. 在文本框中以用户名格式（域\用户）输入用户或组，并选择要为其分配的角色。 成员需在你的组织内。   
 
@@ -61,9 +61,9 @@ ms.locfileid: "83277976"
 
     根据配置 Active Directory 的方式，在此处输入“用户主体名称”同样有效。 在此情况下，报表服务器会在列表中显示相应用户名。
 
-1. 单击“确定”进行应用  。   
+1. 单击“确定”进行应用。   
 
-8. 若要删除成员，请选择成员名称旁边的框并选择“删除”  。  一次可以删除多个成员。 
+8. 若要删除成员，请选择成员名称旁边的框并选择“删除”。  一次可以删除多个成员。 
 
     ![删除成员](media/row-level-security-report-server/power-bi-report-server-delete-members.png)
 
@@ -105,7 +105,7 @@ ms.locfileid: "83277976"
 
 ### <a name="can-i-use-rls-to-limit-the-columns-or-measures-accessible-by-my-users"></a>我能使用 RLS 限制用户可以访问的列或度量值吗？ 
 
-不行。 如果用户有权访问特定数据行，那么他们可以查看该行的所有数据列。 
+否。 如果用户有权访问特定数据行，那么他们可以查看该行的所有数据列。 
 
 ### <a name="does-rls-let-me-hide-detailed-data-but-give-access-to-data-summarized-in-visuals"></a>RLS 是否允许我隐藏详细的数据，但提供对在视觉对象中汇总的数据的访问权限？ 
 

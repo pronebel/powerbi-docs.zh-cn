@@ -9,12 +9,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 01/29/2020
 ms.custom: seodec18
-ms.openlocfilehash: f74bfb92508564a01422729eefc251acc124baea
-ms.sourcegitcommit: 250242fd6346b60b0eda7a314944363c0bacaca8
+ms.openlocfilehash: c3a3bd98dc65e3b73ffe04b95fa9001c90af1d53
+ms.sourcegitcommit: cd64ddd3a6888253dca3b2e3fe24ed8bb9b66bc6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/20/2020
-ms.locfileid: "83692728"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "84315916"
 ---
 # <a name="power-bi-urls-for-whitelisting"></a>列入允许列表的 Power BI URL
 [//]: # "suparnap、miwehnia 是用于维护此列表的联系人"
@@ -46,14 +46,15 @@ Power BI 依赖于 Microsoft 365 身份验证和标识部分中所需的终结�
 
 | 行 | 用途 | 目标 | 端口 |
 | --- | --- | --- | --- |
-| 1 | **必需：** 后端 API | *.analysis.windows.net | TCP 443 |
-| 2 | **必需：** 后端 API | *.pbidedicated.windows.net | TCP 443 |
-| 3 | **必需：** 内容分发网络 (CDN) | content.powerapps.com | TCP 443 |
-| 4 | **必需：** Microsoft 365 集成 | 请参阅 [Microsoft 365 常用 URL 和 Office Online URL](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges#microsoft-365-common-and-office-online) 文档 | 不适用 |
-| 5 | **必需：** 门户 | app.powerbi.com | TCP 443 |
-| 6 | **必需：** 服务遥测 | dc.services.visualstudio.com | TCP 443 |
-| 7 | **可选：** 信息性消息 | dynmsg.modpim.com | TCP 443 |
-| 8 | **可选：** NPS 调查 | nps.onyx.azure.net | TCP 443 |
+| 1 | **必需：** 后端 API | api.powerbi.com | TCP 443 |
+| 2 | **必需：** 后端 API | *.analysis.windows.net | TCP 443 |
+| 3 | **必需：** 后端 API | *.pbidedicated.windows.net | TCP 443 |
+| 4 | **必需：** 内容分发网络 (CDN) | content.powerapps.com | TCP 443 |
+| 5 | **必需：** Microsoft 365 集成 | 请参阅 [Microsoft 365 常用 URL 和 Office Online URL](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges#microsoft-365-common-and-office-online) 文档 | 不适用 |
+| 6 | **必需：** 门户 | app.powerbi.com | TCP 443 |
+| 7 | **必需：** 服务遥测 | dc.services.visualstudio.com | TCP 443 |
+| 8 | **可选：** 信息性消息 | dynmsg.modpim.com | TCP 443 |
+| 9 | **可选：** NPS 调查 | nps.onyx.azure.net | TCP 443 |
 | | | |
 
 ## <a name="administration"></a>管理

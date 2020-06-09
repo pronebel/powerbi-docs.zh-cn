@@ -22,11 +22,11 @@ ms.locfileid: "83277516"
 
 [!INCLUDE [power-bi-service-new-look-include](../includes/power-bi-service-new-look-include.md)]
 
-当同事使用“共享”按钮与你共享内容时，该内容将出现在“与我共享”容器中   。 仪表板或报表只能从“与我共享”中获取，无法从“应用”中获取   。
+当同事使用“共享”按钮与你共享内容时，该内容将出现在“与我共享”容器中 。 仪表板或报表只能从“与我共享”中获取，无法从“应用”中获取 。
 
 ![“共享”图标](./media/end-user-shared-with-me/power-bi-share-dashboard.png)
 
-请观看下面的视频，Amanda 将介绍“与我共享”  内容列表，并演示如何导航和筛选此列表。 然后可以按照视频下面的分步说明来自己尝试。 要查看与你共享的仪表板，你需要具有 Power BI Pro 许可证。 请阅读[什么是 Power BI Premium？](../admin/service-premium-what-is.md)了解详细信息。
+请观看下面的视频，Amanda 将介绍“与我共享”内容列表，并演示如何导航和筛选此列表。 然后可以按照视频下面的分步说明来自己尝试。 要查看与你共享的仪表板，你需要具有 Power BI Pro 许可证。 请阅读[什么是 Power BI Premium？](../admin/service-premium-what-is.md)了解详细信息。
     
 
 > [!NOTE]
@@ -41,7 +41,7 @@ ms.locfileid: "83277516"
 
 ![“与我共享”容器](./media/end-user-shared-with-me/power-bi-shared.png)
 
-### <a name="actions-available-from-the-shared-with-me-container"></a>可在“与我共享的内容”容器中执行的操作 
+### <a name="actions-available-from-the-shared-with-me-container"></a>可在“与我共享的内容”容器中执行的操作
 可供使用的操作取决于内容*设计者*分配的设置。 一些选项可能包括：
 * 选择星形图标 ![星形图标](./media/end-user-shared-with-me/power-bi-star-icon.png)，以[将仪表板或报表添加到收藏夹](end-user-favorite.md)。
 * 删除仪表板或报表  ![垃圾桶图标](./media/end-user-shared-with-me/power-bi-delete-icon.png)。
@@ -50,11 +50,11 @@ ms.locfileid: "83277516"
 * [查看](end-user-insights.md) Power BI 在数据中发现的见解 ![见解图标](./media/end-user-shared-with-me/power-bi-insights.png)。
   
   > [!NOTE]
-  > 有关 EGRC 分类的信息，请选择“分类”按钮或[访问仪表板数据分类](../create-reports/service-data-classification.md)  。
+  > 有关 EGRC 分类的信息，请选择“分类”按钮或[访问仪表板数据分类](../create-reports/service-data-classification.md)。
   > 
 
 
 ## <a name="search-and-sort-shared-dashboards"></a>搜索和排序共享仪表板
-如果内容列表很长，可通过多个选项来查找所需的内容。 可使用搜索字段、按日期排序，也可以从“所有者”列中进行选择  。    
+如果内容列表很长，可通过多个选项来查找所需的内容。 可使用搜索字段、按日期排序，也可以从“所有者”列中进行选择。    
 
 ![仪表板所有者和搜索](./media/end-user-shared-with-me/power-bi-sort.png)

@@ -36,28 +36,28 @@ ms.locfileid: "83142313"
 
 特别推荐仪表板或报表的过程是类似的。
 
-1. 在工作区的“仪表板”或“报表”列表中，选择“设置”图标    。
+1. 在工作区的“仪表板”或“报表”列表中，选择“设置”图标  。
 
     :::image type="content" source="media/service-featured-content/power-bi-settings-icon.png" alt-text="报表设置图标":::
 
-2. 在“设置”窗格中，选中或更改名称  。 根据需要添加“描述”和上传“快照”   。 它们非常有用，因为它们可帮助用户找到你的内容。
+2. 在“设置”窗格中，选中或更改名称。 根据需要添加“描述”和上传“快照” 。 它们非常有用，因为它们可帮助用户找到你的内容。
 
-3. 选择“特别推荐”  。
+3. 选择“特别推荐”。
 
     :::image type="content" source="media/service-featured-content/power-bi-featured-content-settings.png" alt-text="特别推荐的内容设置":::
 
-4. 选择“保存”  。
+4. 选择“保存”。
 
-    现在，所有可以访问此仪表板或报表的用户都可在“主页”的“特别推荐”部分看到特别推荐的内容   。
+    现在，所有可以访问此仪表板或报表的用户都可在“主页”的“特别推荐”部分看到特别推荐的内容 。
 
 ## <a name="feature-an-app"></a>特别推荐应用
 
-- 要特别推荐应用，请打开应用对应的工作区，选择“选项”菜单 (…) >“在主页上特别推荐此应用”    。
+- 要特别推荐应用，请打开应用对应的工作区，选择“选项”菜单 (…) >“在主页上特别推荐此应用”  。
 
-现在，可以访问此应用的每个用户也可在“主页”的“特别推荐”部分中看到该应用   。
+现在，可以访问此应用的每个用户也可在“主页”的“特别推荐”部分中看到该应用 。
 
 ## <a name="next-steps"></a>后续步骤
 
 * [应如何针对仪表板及报表开展协作并进行共享？](../collaborate-share/service-how-to-collaborate-distribute-dashboards-reports.md)
 * [在管理门户中管理特别推荐的内容](../admin/service-admin-portal.md#manage-featured-content)
-* 是否有任何问题？ [尝试参与 Power BI 社区](https://community.powerbi.com/)
+* 是否有任何问题? [尝试参与 Power BI 社区](https://community.powerbi.com/)

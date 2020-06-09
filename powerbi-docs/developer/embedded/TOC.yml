@@ -28,8 +28,6 @@
           href: embedded-capacity-planning.md
         - name: 性能最佳做法
           href: embedded-performance-best-practices.md
-        - name: 服务主体
-          href: embed-service-principal.md
         - name: 行级别安全性
           href: embedded-row-level-security.md
         - name: 分页报表行级安全性
@@ -40,10 +38,12 @@
           href: azure-pbie-diag-logs.md
         - name: 嵌入式常见问题解答
           href: embedded-faq.md
-        - name: Power BI 权限
-          href: power-bi-permissions.md
     - name: 操作方法
       items:
+        - name: 结合使用服务主体和证书来进行嵌入
+          href: embed-service-principal-certificate.md
+        - name: 结合使用服务主体和应用密码来进行嵌入
+          href: embed-service-principal.md
         - name: 从应用中嵌入
           href: embed-from-apps.md
         - name: 将报表导出到文件
@@ -94,6 +94,8 @@
           href: 'https://go.microsoft.com/fwlink/?linkid=848274'
         - name: 在应用中嵌入自定义布局
           href: embedded-custom-layout.md
+        - name: Azure CLI
+          href: /cli/azure/ext/powerbidedicated/powerbi
     - name: 资源
       items:
         - name: 开发人员中心

@@ -6,15 +6,15 @@ metadata:
   description: 查找适合组织中的角色的 Power BI 培训选项。
   ms.service: powerbi
   ms.topic: landing-page
-  author: loreleishannonmsft
-  ms.author: v-lshann
+  author: margoc
+  ms.author: margoc
   ms.date: 04/08/2020
-  ms.openlocfilehash: 9f03f812eb20454f655a876438312ba50b521a29
-  ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+  ms.openlocfilehash: 60221a8a30c25b7a78fa76f54b9a8617ef7efe4f
+  ms.sourcegitcommit: 66b1a0c74b8a7dcb33a2f8570fb67bce2401a895
   ms.translationtype: HT
   ms.contentlocale: zh-CN
-  ms.lasthandoff: 05/05/2020
-  ms.locfileid: "81439287"
+  ms.lasthandoff: 06/08/2020
+  ms.locfileid: "84532801"
 landingContent:
 - title: 业务决策者
   linkLists:
@@ -34,13 +34,13 @@ landingContent:
     links:
     - text: 报表创建者学习目录
       url: learning-catalog-report-creator.md#
-    - text: 入门
+    - text: 开始使用
       url: learning-catalog-report-creator.md#get-started
     - text: 仪表板
       url: learning-catalog-report-creator.md#dashboards
     - text: 报表设计
       url: learning-catalog-report-creator.md#report-design
-    - text: 可视化
+    - text: 可视化效果
       url: learning-catalog-report-creator.md#visualization
     - text: 集成
       url: learning-catalog-report-creator.md#integration
@@ -50,7 +50,7 @@ landingContent:
     links:
     - text: 数据分析师学习目录
       url: learning-catalog-data-analyst.md#
-    - text: 入门
+    - text: 开始使用
       url: learning-catalog-data-analyst.md#get-started
     - text: 最佳做法
       url: learning-catalog-data-analyst.md#best-practices
@@ -60,6 +60,8 @@ landingContent:
       url: learning-catalog-data-analyst.md#dashboards
     - text: 可视化效果
       url: learning-catalog-data-analyst.md#visualizations
+    - text: DAX
+      url: learning-catalog-data-analyst.md#dax
     - text: 治理和部署
       url: learning-catalog-data-analyst.md#governance-deployment
     - text: 集成
@@ -72,9 +74,9 @@ landingContent:
     links:
     - text: 管理员学习目录
       url: learning-catalog-administrator.md
-    - text: 入门
+    - text: 开始使用
       url: learning-catalog-administrator.md#get-started
-    - text: 部署
+    - text: Deploy
       url: learning-catalog-administrator.md#deploy
 - title: 开发人员
   linkLists:
@@ -82,13 +84,11 @@ landingContent:
     links:
     - text: 开发人员学习目录
       url: learning-catalog-developer.md
-    - text: 入门
+    - text: 开始使用
       url: learning-catalog-developer.md#get-started
     - text: 嵌入
       url: learning-catalog-developer.md#embedded
-    - text: DAX
-      url: learning-catalog-developer.md#dax
-    - text: 开发
+    - text: Development
       url: learning-catalog-developer.md#development
 - title: 合作伙伴售前角色
   linkLists:
@@ -102,7 +102,7 @@ landingContent:
     links:
     - text: 职能应用程序顾问学习目录
       url: learning-catalog-functional-consultant.md
-    - text: 入门
+    - text: 开始使用
       url: learning-catalog-functional-consultant.md#get-started
     - text: 最佳做法
       url: learning-catalog-functional-consultant.md#best-practices
@@ -124,7 +124,7 @@ landingContent:
     links:
     - text: 解决方案架构师学习目录
       url: learning-catalog-solution-architect.md
-    - text: 入门
+    - text: 开始使用
       url: learning-catalog-solution-architect.md#get-started
     - text: 案例研究
       url: learning-catalog-solution-architect.md#case-studies
