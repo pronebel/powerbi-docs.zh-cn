@@ -17,12 +17,12 @@ ms.locfileid: "83274388"
 ---
 # <a name="set-up-dataset-and-dataflow-certification-preview"></a>设置数据集和数据流认证（预览版）
 
-组织可以对作为关键信息权威源的数据集和数据流进行认证。
+组织可以认证作为关键信息权威来源的数据集和数据流。
 
 Power BI 租户管理员负责为组织设置认证过程。 这意味着：
 * 对租户启用认证。
 * 定义有权认证数据集和数据流的组和用户的列表。
-* 对于数据集，提供组织的数据集认证策略的 URL（如果有）。
+* 对于数据集，提供组织数据集认证策略的 URL（如果有）。
 
 数据集和数据流认证是数据集和数据流认可的一部分。 有关详细信息，请参阅[数据集认可](../connect-data/service-datasets-promote.md)和[数据流认可](../transform-model/service-dataflows-promote-certify.md)。
 
