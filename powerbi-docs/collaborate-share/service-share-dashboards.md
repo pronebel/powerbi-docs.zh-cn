@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 11/26/2019
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: d094e3411bd5b8bef9b4a8f488412d903723a703
-ms.sourcegitcommit: c1f05254eaf5adb563f8d4f33c299119134c7d1f
+ms.openlocfilehash: cf971de1a60636def852080a523c227f08b4f888
+ms.sourcegitcommit: 49daa8964c6e30347e29e7bfc015762e2cf494b3
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/21/2020
-ms.locfileid: "83733545"
+ms.lasthandoff: 06/02/2020
+ms.locfileid: "84272922"
 ---
 # <a name="share-power-bi-dashboards-and-reports-with-coworkers-and-others"></a>与同事和其他人共享 Power BI 仪表板和报表
 共享是一种使多人能够访问你的仪表板和报表的有效方式。 Power BI 还提供了[其他多种开展协作和分发仪表板及报表的方式](service-how-to-collaborate-distribute-dashboards-reports.md)。
@@ -26,7 +26,7 @@ ms.locfileid: "83733545"
 
 可以从 Power BI 服务中的大多数位置共享仪表板和报表：“收藏夹”、“最近”、“我的工作区”以及“与我共享”（如果所有者允许）。 如果有其他工作区中的[管理员、成员或参与者角色](service-new-workspaces.md#roles-in-the-new-workspaces)，则还可以从该工作区进行共享。 
 
-共享仪表板或报表时，你与之共享的人员可查看并与其交互，但不能编辑它。 除非应用[行级别安全性 (RLS)](../admin/service-admin-rls.md)，否则他们会看到你在仪表板或报表中看到的相同数据。 如果你允许，与之共享的同事还可以与其他同事共享。 组织外的人员可以查看仪表板或报表并与之交互，但不能共享它。 
+共享仪表板或报表时，你与之共享的人员可查看并与其交互，但不能编辑它。 他们会看到你在仪表板和报表中看到的相同数据，并且可以访问整个基础数据集，除非向基础数据集应用了行级别安全性 (RLS)。  如果你允许，与之共享的同事还可以与其他同事共享。 组织外的人员可以查看仪表板或报表并与之交互，但不能共享它。 
 
 不能直接从 Power BI Desktop 进行共享。 将报表[从 Power BI Desktop 发布](../create-reports/desktop-upload-desktop-files.md)到 Power BI 服务。 但是，可[通过 Power BI 移动应用共享仪表板](../consumer/mobile/mobile-share-dashboard-from-the-mobile-apps.md)。  
 
@@ -123,7 +123,7 @@ Power BI 管理员允许外部来宾用户编辑和管理组织中的内容。 �
 ## <a name="limitations-and-considerations"></a>限制和注意事项
 共享仪表板和报表的注意事项：
 
-* 通常，你和同事将在仪表板或报表中会看到相同的数据。 因此，如果你有权限比他们查看更多的数据，他们将在仪表板或报表中看到你的所有数据。 但是，如果[行级别安全性 (RLS)](../admin/service-admin-rls.md) 应用于仪表板或报表下面的数据集，则他们可以访问的数据取决于其各自的凭据。
+* 在与同事共享仪表板时，还会共享基础数据集。 你的同事可以访问整个数据集，除非[行级别安全性 (RLS)](../admin/service-admin-rls.md) 限制其访问权限。 报表作者可以使用在查看报表或与报表交互时自定义用户体验的功能，例如隐藏列、限制对视觉对象执行的操作等。 这些自定义用户体验不会限制用户可以访问数据集中的哪些数据。 在数据集中使用[行级别安全性 (RLS)](../admin/service-admin-rls.md)，以便每个人的凭据都可以确定他们可以访问的数据。
 * 与之共享的每个人都可以查看仪表板，并在[阅读视图](../consumer/end-user-reading-view.md#reading-view)中与相关报表交互。 通常，他们不能创建报表或将更改保存到现有报表。 但是，如果选择“允许用户使用基础数据集生成新内容”，则用户可基于此仪表板或报表的数据集在其他工作区中自行创建报表。
 * 虽然任何人都不可以查看或下载数据集，但他们可以使用“在 Excel 中分析”功能来直接访问数据集。 管理员可以限制组内每个人使用“在 Excel 中分析”的能力。 但此限制适用于组内的每个人和该组所隶属的每个工作区。
 * 每个人都可以手动[刷新数据](../connect-data/refresh-data.md)。

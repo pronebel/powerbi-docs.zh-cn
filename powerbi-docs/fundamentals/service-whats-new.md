@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 04/14/2020
 ms.author: nikhilga
 LocalizationGroup: Get started
-ms.openlocfilehash: 2f98071000715c65f50f39eb4d121a4af6e72f99
-ms.sourcegitcommit: 2cb249fc855e369eed1518924fbf026d5ee07eb1
+ms.openlocfilehash: b43d52445c9a5232ba1747a9dae9333da8697f84
+ms.sourcegitcommit: 49daa8964c6e30347e29e7bfc015762e2cf494b3
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/24/2020
-ms.locfileid: "83813338"
+ms.lasthandoff: 06/02/2020
+ms.locfileid: "84273060"
 ---
 # <a name="whats-new-in-the-power-bi-service"></a>Power BI 服务中的新功能
 请阅读此页，了解 Power BI 服务中的已知问题和最近发布的功能。 有关相关的“新增功能”的信息，请参阅：
@@ -646,7 +646,7 @@ Power BI 团队在整个假期都在忙。 有关所有详细信息，[请访问
 * 通过本周的服务更新，创建新报表时可以从多个页面大小中进行选择，也可以定义自己的页面大小。 这可以控制报表中每页的大小和纵横比。
 * 我们为图像和气泡图添加了额外的可视化格式支持。 调整图像大小时你可以锁定图像的纵横比，以避免图像扭曲，可以将散点图和气泡图配置为填充或不填充。
 * 现在，Power BI 将向备选电子邮件地址发送共享邀请。 当与你共享仪表板时，我们将同时向你的原始电子邮件地址和备用电子邮件地址（如果已配置）发送共享邀请链接。
-* Power BI 可供所有客户使用，包括 Dedicated on Multitenant (DonMT) O365 体系结构中的客户。 你将在多租户模式下将 Power BI 作为共享服务使用。 在大多数情况下，你可以按照简单的[自助服务注册流程](https://powerbi.microsoft.com/)注册 Power BI – 只需输入你的工作电子邮件地址，输入名称和密码就可以开始注册。 如果你是租户管理员，你可以使用[此处](https://go.microsoft.com/fwlink/?LinkId=627174)的说明将许可证分配给用户。
+* Power BI 可供所有客户使用，包括 Dedicated on Multitenant (DonMT) Microsoft 365 体系结构中的客户。 你将在多租户模式下将 Power BI 作为共享服务使用。 在大多数情况下，你可以按照简单的[自助服务注册流程](https://powerbi.microsoft.com/)注册 Power BI – 只需输入你的工作电子邮件地址，输入名称和密码就可以开始注册。 如果你是租户管理员，你可以使用[此处](https://go.microsoft.com/fwlink/?LinkId=627174)的说明将许可证分配给用户。
 * 你可以使用 Azure Audit Logs 查看你的 Azure 订阅中的控制平面操作日志。 Power BI Azure 审核日志内容包可以帮助你轻松分析和可视化这些日志中包含的信息资源。 此内容包允许你使用现成的仪表板和报表连接到你的数据，并开始挖掘洞察力。 阅读我们的[博客](https://powerbi.microsoft.com/blog/monitor-azure-audit-logs-with-power-bi/)和[在线文档](../connect-data/service-connect-to-services.md)以获取更多信息。
 
 [在我们的博客中了解详细信息](https://powerbi.microsoft.com/blog/power-bi-weekly-service-update-0929/)。

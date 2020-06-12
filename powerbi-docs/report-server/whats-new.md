@@ -7,13 +7,13 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
-ms.date: 02/27/2020
-ms.openlocfilehash: f4585e4c1eb629b4676b74157c0520d70540da7b
-ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
+ms.date: 05/27/2020
+ms.openlocfilehash: ee725457475f1bccd593e2331d9e62c85ef08762
+ms.sourcegitcommit: 0d8261a3cdef05ed8d4eb2aaffff2c1cc2098624
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/19/2020
-ms.locfileid: "83565137"
+ms.lasthandoff: 05/28/2020
+ms.locfileid: "84126287"
 ---
 # <a name="whats-new-in-power-bi-report-server"></a>Power BI 报表服务器中的新增功能
 
@@ -23,9 +23,56 @@ ms.locfileid: "83565137"
 
 若要了解相关的 Power BI“新增功能”信息，请参阅：
 
-* [Power BI 服务中的最近更新](../fundamentals/service-whats-new.md)
-* [Power BI Desktop 中的新增功能](../fundamentals/desktop-latest-update.md)
-* [Power BI 移动应用中的新增功能](../consumer/mobile/mobile-whats-new-in-the-mobile-apps.md)
+- [Power BI 服务中的最近更新](../fundamentals/service-whats-new.md)
+- [Power BI Desktop 中的新增功能](../fundamentals/desktop-latest-update.md)
+
+## <a name="may-2020"></a>2020 年 5 月
+
+此次更新的亮点包括分层切片器、分解树视觉对象以及查询诊断。 下面是新功能和更新功能的完整列表。 有关详细信息，请参阅 [Power BI 报表服务器 2020 年 5 月博客文章](https://powerbi.microsoft.com/blog/power-bi-report-server-may-2020-feature-summary/)。 
+
+### <a name="reporting"></a>报表
+
+- 分层切片器
+- 按钮的新操作类型：
+
+    - 页面导航
+    - 钻取
+
+- 按钮现在支持填充图像
+- 表的多列排序
+- 折线图的双轴
+- 视觉对象的矩形选择
+- 表和矩阵中的总计和小计条件格式
+- “自定义主题”对话框
+- 条件格式可发现性
+- 分解树
+- 筛选器窗格更新：
+
+    - 新筛选器窗格体验
+    - 筛选器窗格搜索
+    
+### <a name="modeling"></a>建模
+
+- 新的 DAX 函数：
+
+    - FirstNonBlankValue
+    - LastNonBlankValue
+    - Coalesce
+
+- 标准 DAX 分隔符
+
+### <a name="visualizations"></a>可视化效果
+
+- 新可视化图标
+- 视觉对象投影
+
+### <a name="data-preparation"></a>数据准备
+
+- 查询诊断
+
+### <a name="other"></a>其他
+
+- 使用 Web 代理的默认系统凭据
 
 ## <a name="january-2020"></a>2020 年 1 月
 
@@ -561,13 +608,13 @@ Power BI 报表服务器中的 Power BI 报表可以连接到各种数据源。 
 
 管理员可以在服务器场的 SSMS 高级属性中设置以下属性：
 
-* EnableCustomVisuals：True/False
-* EnablePowerBIReportEmbeddedModels：True/False
-* EnablePowerBIReportExportData：True/False
-* MaxFileSizeMb：默认值现在为 1000
-* ModelCleanupCycleMinutes：检查并从内存中收回模型的频率
-* ModelExpirationMinutes：根据上次使用时间，定义模型过期并被收回的时长
-* ScheduleRefreshTimeoutMinutes：一个模型的数据刷新需要多长时间。 默认为 2 小时。  没有固定上限。
+- EnableCustomVisuals：True/False
+- EnablePowerBIReportEmbeddedModels：True/False
+- EnablePowerBIReportExportData：True/False
+- MaxFileSizeMb：默认值现在为 1000
+- ModelCleanupCycleMinutes：检查并从内存中收回模型的频率
+- ModelExpirationMinutes：根据上次使用时间，定义模型过期并被收回的时长
+- ScheduleRefreshTimeoutMinutes：一个模型的数据刷新需要多长时间。 默认为 2 小时。  没有固定上限。
 
 **配置文件 rsreportserver.config**
 
@@ -597,9 +644,9 @@ Excel 和 Power BI 包含行业中独一无二的一套工具。 同时，它们
 
 我们已发布了[如何将 Office Online Server (OOS) 添加到 Power BI 报表服务器预览环境的演练](excel-oos.md)。 具有批量许可帐户的客户可以从批量许可服务中心免费下载 OOS，并且将具有仅查看功能。 配置后，用户可以查看具有以下特点的 Excel 工作簿并与之交互：
 
-* 没有外部数据源依赖关系
-* 实时连接到外部 SQL Server Analysis Services 数据源
-* 具有 PowerPivot 数据模型
+- 没有外部数据源依赖关系
+- 实时连接到外部 SQL Server Analysis Services 数据源
+- 具有 PowerPivot 数据模型
 
 ### <a name="support-for-new-table-and-matrix-visuals"></a>支持新的表和矩阵视觉对象
 
@@ -607,22 +654,21 @@ Power BI 报表服务器现在支持新的 Power BI 表和矩阵视觉对象。 
 
 ## <a name="june-2017"></a>2017 年 6 月
 
-* Power BI 报表服务器已正式发布 (GA)。
+- Power BI 报表服务器已正式发布 (GA)。
 
 ## <a name="may-2017"></a>2017 年 5 月
 
-* Power BI 报表服务器预览版已发布
-* 可以在本地发布 Power BI 报表
-  * 对 Power BI 视觉对象的支持
-  * 仅支持 Analysis Services 实时连接，今后将会支持更多数据源。
-  * Power BI 移动应用更新为显示在 Power BI 报表服务器中托管的 Power BI 报表
-* 通过注释增强了报表协作
+- Power BI 报表服务器预览版已发布
+- 可以在本地发布 Power BI 报表
+  - 对 Power BI 视觉对象的支持
+  - 仅支持 Analysis Services 实时连接，今后将会支持更多数据源。
+  - Power BI 移动应用更新为显示在 Power BI 报表服务器中托管的 Power BI 报表
+- 通过注释增强了报表协作
 
 ## <a name="next-steps"></a>后续步骤
 
 查看下面这些源，以便随时了解 Power BI 报表服务器中的新增功能。
 
-* [Microsoft Power BI 博客](https://powerbi.microsoft.com/blog/)
-* [Guy in a Cube YouTube 频道](https://aka.ms/guyinacube)
+- [Microsoft Power BI 博客](https://powerbi.microsoft.com/blog/)
 
 更多问题？ [尝试咨询 Power BI 社区](https://community.powerbi.com/)

@@ -1,26 +1,27 @@
 ---
-title: 无法将 Power BI 添加到 O365 合作伙伴
-description: 无法将 Power BI 添加到 Microsoft 365 联合合作伙伴。 联合模型是 Microsoft 365 使用的购买模型。
+title: 通过 Microsoft 365 合作伙伴购买 Power BI
+description: 了解如何将 Power BI 添加到通过合作伙伴购买的 Microsoft 365 订阅。 联合模型是 Microsoft 365 使用的购买模型。
 author: kfollis
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
-ms.date: 09/09/2019
+ms.date: 05/27/2020
 ms.author: kfollis
+ms.custom: licensing support
 LocalizationGroup: Administration
-ms.openlocfilehash: 2c590875b4dee81f7ca54434d6e5895be885be97
-ms.sourcegitcommit: 2cb249fc855e369eed1518924fbf026d5ee07eb1
+ms.openlocfilehash: bc00c69869ea58aee8b4d0a79fce6b24489bde18
+ms.sourcegitcommit: 3f864ec22f99ca9e25cda3a5abda8a5f69ccfa8e
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/24/2020
-ms.locfileid: "83812326"
+ms.lasthandoff: 05/29/2020
+ms.locfileid: "84159714"
 ---
-# <a name="unable-to-add-power-bi-to-office-365-partner-subscription"></a>无法将 Power BI 添加到 Office 365 合作伙伴订阅
+# <a name="add-power-bi-to-a-microsoft-365-partner-subscription"></a>将 Power BI 添加到 Microsoft 365 合作伙伴订阅
 
-使用 Microsoft 365，公司可以转售与自己的解决方案捆绑集成的 Microsoft 365，从而为最终客户提供单一联系人，方便其购买产品、处理帐务和获取支持。
+使用 Microsoft 365，公司可以转售与自己的解决方案捆绑集成的 Microsoft 365，从而为客户提供单一联系人，方便其购买产品、处理帐务和获取支持。
 
-若要随 Office 365 订阅一起获取 Power BI，建议联系合作伙伴。 如果合作伙伴暂不提供 Power BI，可采用其他方法。
+要将 Power BI 添加到 Microsoft 365 订阅，建议联系合作伙伴。 如果合作伙伴当前未提供 Power BI，则可以采用以下所述的选项。
 
 ## <a name="work-with-your-partner-to-purchase-power-bi"></a>联系合作伙伴以购买 Power BI
 
@@ -36,13 +37,15 @@ ms.locfileid: "83812326"
 
 1. 转到 [MIcrosoft 365 管理中心](https://admin.microsoft.com/AdminPortal/Home#/homepage)。
 
-1. 在左侧菜单中，打开“帐务”：
+1. 在左侧菜单中，打开“计费”，然后选择“你的产品” ：
 
-    * 如果看到“订阅”，可以直接从 Microsoft 获取服务，也可以与提供 Power BI 的其他合作伙伴联系。
+   ![Microsoft 365 管理中心内的“计费”菜单](media/service-admin-syndication-partner/365-my-products.png)
 
-        ![“帐务”下有“订阅”](media/service-admin-syndication-partner/billingsub.png)
+ 1. 按下图所示查找“订阅”。 如果看到“订阅”，可以直接从 Microsoft 获取服务，也可以与提供 Power BI 的其他合作伙伴联系。
 
-    * 如果看不到“订阅”，便无法直接从 Microsoft 或其他合作伙伴处购买。
+    ![突出显示“订阅”的“你的产品”屏幕截图](media\service-admin-syndication-partner\365-subscriptions.png)
+
+    如果看不到“订阅”，便无法直接从 Microsoft 或其他合作伙伴处购买。
 
 如果合作伙伴不提供 Power BI，且你无法直接从 Microsoft 或其他合作伙伴处购买，请考虑注册免费试用版。
 
@@ -56,31 +59,11 @@ ms.locfileid: "83812326"
 
 ![“抱歉...”图像](media/service-admin-syndication-partner/sorry.png)
 
-若要启用临时订阅，可以与合作伙伴联系并请求打开该功能。 如果你是租户管理员，并且知道如何使用 Azure Active Directory PowerShell 命令，可以自行启用临时订阅。 [Azure Active Directory Graph PowerShell](/powershell/azure/active-directory/install-adv2/)
-
-1. 使用 Microsoft 365 凭据登录 Azure Active Directory。 下面脚本的第一行提示你输入凭据。 第二行连接到 Azure Active Directory。
-
-    ```powershell
-    $msolcred = get-credential
-    connect-msolservice -credential $msolcred
-    ```
-
-    ![输入凭据](media/service-admin-syndication-partner/aad-signin.png)
-
-1. 登录后，立即运行下面的命令，以检查 `AllowAdHocSubscriptions` 的当前设置。
-
-    ```powershell
-    Get-MsolCompanyInformation
-    ```
-
-1. 运行下面的命令，以启用注册免费试用版。
-
-    ```powershell
-    Set-MsolCompanySettings -AllowAdHocSubscriptions $true
-    ```
+若要启用临时订阅，可以与合作伙伴联系并请求打开该功能。 如果你是租户管理员，并且知道如何使用 Azure Active Directory PowerShell 命令，可以自行启用临时订阅。 有关详细信息，请按照[启用或禁用自助购买](service-admin-disable-self-service.md)中的步骤操作。
 
 ## <a name="next-steps"></a>后续步骤
 
-[组织中的 Power BI 许可](service-admin-licensing-organization.md)
+* [组织中的 Power BI 许可](service-admin-licensing-organization.md)
+* [购买和分配 Power BI Pro 许可证](service-admin-purchasing-power-bi-pro.md)
 
 更多问题？ [尝试咨询 Power BI 社区](https://community.powerbi.com/)

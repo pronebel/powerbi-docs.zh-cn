@@ -1,5 +1,5 @@
 ---
-title: 为组织获取 Power BI 订阅
+title: 为组织获取 Power BI 服务订阅
 description: 如何以管理员身份注册 Power BI 服务订阅，并批量购买许可证。
 author: kfollis
 ms.reviewer: ''
@@ -8,17 +8,18 @@ ms.subservice: powerbi-admin
 ms.topic: conceptual
 ms.date: 05/13/2020
 ms.author: kfollis
+ms.custom: licensing support
 LocalizationGroup: Administration
-ms.openlocfilehash: 1bb8abab7d3f8430037b31e2797d62ce8d7b03e1
-ms.sourcegitcommit: 6ba7cc9afaf91229f717374bc0c12f0b8201d15e
+ms.openlocfilehash: 39ecda08527e0805b1ce26ebd9a1c83ceb57187b
+ms.sourcegitcommit: 3f864ec22f99ca9e25cda3a5abda8a5f69ccfa8e
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/16/2020
-ms.locfileid: "83438102"
+ms.lasthandoff: 05/29/2020
+ms.locfileid: "84160033"
 ---
-# <a name="get-a-power-bi-subscription-for-your-organization"></a>为组织获取 Power BI 订阅
+# <a name="get-a-power-bi-service-subscription-for-your-organization"></a>为组织获取 Power BI 服务订阅
 
-管理员可通过 Microsoft 365 管理中心内的“购买服务”页来注册 Power BI。 当管理员注册 Power BI 时，他们可以将许可证分配给应具有访问权限的用户。
+管理员可通过 Microsoft 365 管理中心内的“购买服务”页面来注册 Power BI 服务。 当管理员注册 Power BI 时，他们可以将许可证分配给应具有访问权限的用户。
 
 组织中的用户可以通过 Power BI 网站注册 Power BI。 当组织中的用户注册 Power BI 时，系统会自动向他们分配 Power BI 许可证。 如果要关闭此自助功能，请按照[启用或禁用自助注册和购买](service-admin-disable-self-service.md)的步骤操作。
 

@@ -1,6 +1,6 @@
 ---
 title: 启用或禁用自助注册和购买
-description: 如何通知管理员关闭用户注册 Power BI 和购买许可证的功能。
+description: 如何通知管理员关闭用户注册 Power BI 服务以及购买或升级许可证的功能。
 author: kfollis
 ms.reviewer: ''
 ms.service: powerbi
@@ -8,13 +8,14 @@ ms.subservice: powerbi-admin
 ms.topic: conceptual
 ms.date: 04/08/2020
 ms.author: kfollis
+ms.custom: licensing support
 LocalizationGroup: Administration
-ms.openlocfilehash: 561d8b6cd0e17e885ced984315a04376400a2a58
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 751db634ceb9e7d6349b35f7348b09e0c0d648ed
+ms.sourcegitcommit: 3f864ec22f99ca9e25cda3a5abda8a5f69ccfa8e
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "81447501"
+ms.lasthandoff: 05/29/2020
+ms.locfileid: "84160056"
 ---
 # <a name="enable-or-disable-self-service-sign-up-and-purchasing"></a>启用或禁用自助注册和购买
 
@@ -27,13 +28,13 @@ ms.locfileid: "81447501"
 
 可以使用 PowerShell 命令更改控制自助注册和采购的设置。 有两种设置可用于控制组织中的用户是否可以进行自助注册或进行自助购买。
 
-- 如果要禁用所有自助注册，请使用 Azure AD PowerShell 命令更改 Azure Active Directory 中名为 AllowAdHocSubscriptions 的设置  。 请按照本文中的步骤[启用或禁用自助注册](#enable-or-disable-self-service-signup)。 此选项将禁用所有 Microsoft 基于云的应用和服务的自助注册  。
+- 如果要禁用所有自助注册，请使用 Azure AD PowerShell 命令更改 Azure Active Directory 中名为 AllowAdHocSubscriptions 的设置。 请按照本文中的步骤[启用或禁用自助注册](#enable-or-disable-self-service-signup)。 此选项将禁用所有 Microsoft 基于云的应用和服务的自助注册。
 
-- 如果要阻止用户购买自己的 Pro 许可证，请使用 MSCommerce PowerShell 命令更改“AllowSelfServicePurchase”设置  。 此设置允许关闭特定产品的自助购买。 请按照本文中的步骤[启用或禁用自用购买 Power BI Pro 许可证](#enable-or-disable-self-service-purchase)。
+- 如果要阻止用户购买自己的 Pro 许可证，请使用 MSCommerce PowerShell 命令更改“AllowSelfServicePurchase”设置。 此设置允许关闭特定产品的自助购买。 请按照本文中的步骤[启用或禁用自用购买 Power BI Pro 许可证](#enable-or-disable-self-service-purchase)。
 
 ## <a name="enable-or-disable-self-service-signup"></a>启用或禁用自助注册
 
-如果启用了自助注册，则 AllowAdHocSubscriptions 的值为 true   。 让我们来看看将此设置更改为 false 时会发生什么情况  ：
+如果启用了自助注册，则 AllowAdHocSubscriptions 的值为 true。 让我们来看看将此设置更改为 false 时会发生什么情况：
 
 - 如果将该设置从 true 更改为 false，则会阻止组织中的新用户以个人身份进行注册。 在更改设置之前注册 Power BI 的任何用户将保留其许可证。
 
@@ -43,7 +44,7 @@ ms.locfileid: "81447501"
 
 ### <a name="before-you-begin"></a>开始之前
 
-这些步骤使用 Azure Active Directory PowerShell 命令更改“AllowAdHocSubscriptions”设置的值  。 必须安装 Azure AD PowerShell 模块才能使用这些命令。 有关使用 PowerShell 的详细信息，请参阅 [Windows PowerShell 入门](https://docs.microsoft.com/powershell/scripting/getting-started/getting-started-with-windows-powershell?view=powershell-7)。
+这些步骤使用 Azure Active Directory PowerShell 命令更改“AllowAdHocSubscriptions”设置的值。 必须安装 Azure AD PowerShell 模块才能使用这些命令。 有关使用 PowerShell 的详细信息，请参阅 [Windows PowerShell 入门](https://docs.microsoft.com/powershell/scripting/getting-started/getting-started-with-windows-powershell?view=powershell-7)。
 
 若要安装 Azure AD 模块，请以管理员身份启动 Windows PowerShell。 确保本地执行策略允许运行脚本。 如果遇到问题，请参阅 [PowerShell 执行策略](https://docs.microsoft.com/powershell/module/microsoft.powershell.core/about/about_execution_policies?view=powershell-7#powershell-execution-policies)，了解如何更改本地策略。
 
@@ -79,7 +80,7 @@ Set-MsolCompanySettings -AllowAdHocSubscriptions $false
 
 ## <a name="enable-or-disable-self-service-purchase"></a>启用或禁用自助购买
 
-如果启用了自助购买，则 AllowSelfServicePurchase 的值为 true   。 让我们来看看将此设置更改为 false 时会发生什么情况  ：
+如果启用了自助购买，则 AllowSelfServicePurchase 的值为 true。 让我们来看看将此设置更改为 false 时会发生什么情况：
 
 - 如果将设置从 true 更改为 false，则会禁止组织中的用户购买自己的 Power BI Pro 许可证。 在更改设置之前购买许可证的任何用户将保留其许可证。
 
@@ -89,7 +90,7 @@ Set-MsolCompanySettings -AllowAdHocSubscriptions $false
 
 ### <a name="before-you-begin"></a>开始之前
 
-这些步骤使用 MSCommerce PowerShell 命令更改“AllowSelfServicePurchase”设置的值  。 必须安装 MSCommerce PowerShell 模块才能使用这些命令。 有关使用 PowerShell 的详细信息，请参阅 [Windows PowerShell 入门](https://docs.microsoft.com/powershell/scripting/getting-started/getting-started-with-windows-powershell?view=powershell-7)。
+这些步骤使用 MSCommerce PowerShell 命令更改“AllowSelfServicePurchase”设置的值。 必须安装 MSCommerce PowerShell 模块才能使用这些命令。 有关使用 PowerShell 的详细信息，请参阅 [Windows PowerShell 入门](https://docs.microsoft.com/powershell/scripting/getting-started/getting-started-with-windows-powershell?view=powershell-7)。
 
 若要安装 MSCommerce 模块，请以管理员身份启动 Windows PowerShell。 确保本地执行策略允许运行脚本。 如果遇到问题，请参阅 [PowerShell 执行策略](https://docs.microsoft.com/powershell/module/microsoft.powershell.core/about/about_execution_policies?view=powershell-7#powershell-execution-policies)，了解如何更改本地策略。
 
@@ -115,7 +116,7 @@ Connect-MSCommerce
 Get-MSCommercePolicy -PolicyId AllowSelfServicePurchase | fl
 ```
 
-可以通过提供 ProductId，禁用允许自助购买单独产品的设置  。 若要更改 Power BI 服务的当前设置，运行以下命令：
+可以通过提供 ProductId，禁用允许自助购买单独产品的设置。 若要更改 Power BI 服务的当前设置，运行以下命令：
 
 ```powershell
 Update-MSCommerceProductPolicy -PolicyId AllowSelfServicePurchase -ProductId CFQ7TTC0L3PB -Enabled $False

@@ -9,12 +9,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 03/12/2020
 LocalizationGroup: Share your work
-ms.openlocfilehash: c71467a279ed3a2304d6af82f7493dac97425c4f
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: 68ead14063c290c8ec9db5cb24814b93e493ea6b
+ms.sourcegitcommit: 49daa8964c6e30347e29e7bfc015762e2cf494b3
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83348082"
+ms.lasthandoff: 06/02/2020
+ms.locfileid: "84272945"
 ---
 # <a name="ways-to-share-your-work-in-power-bi"></a>Power BI 中的工作共享方式
 
@@ -34,7 +34,7 @@ ms.locfileid: "83348082"
 
 ![Power BI 服务中的应用](media/service-how-to-collaborate-distribute-dashboards-reports/power-bi-apps-new-look.png)
 
-Power BI 服务中的应用 
+Power BI 服务中的应用
 
 ## <a name="collaborate-in-a-workspace"></a>在工作区中协作
 
@@ -56,7 +56,7 @@ Power BI 提供新的工作区体验。 阅读[创建新工作区](service-creat
 
 ## <a name="distribute-insights-in-an-app"></a>在应用中分发见解
 
-假设想要将仪表板分发给组织中的广泛受众。 你和同事创建了工作区，然后在此工作区中创建并优化了仪表板、报表和数据集  。 现在选择所需的仪表板和报表，并将其作为应用发布，发布到组或整个组织。
+假设想要将仪表板分发给组织中的广泛受众。 你和同事创建了工作区，然后在此工作区中创建并优化了仪表板、报表和数据集。 现在选择所需的仪表板和报表，并将其作为应用发布，发布到组或整个组织。
 
 ![“发布应用”图标](media/service-how-to-collaborate-distribute-dashboards-reports/power-bi-publish-app.png)
 
@@ -78,11 +78,11 @@ Power BI 提供新的工作区体验。 阅读[创建新工作区](service-creat
 
 ## <a name="share-dashboards-and-reports"></a>共享仪表板和报表
 
-假设已在自己的“我的工作区”或工作区中完成仪表板和报表，并且希望某些其他人有权访问它。 一种用于访问的方法是  共享它。 
+假设已在自己的“我的工作区”或工作区中完成仪表板和报表，并且希望某些其他人有权访问它。 一种用于访问的方法是共享它。 
 
 ![共享报表](media/service-how-to-collaborate-distribute-dashboards-reports/power-bi-share-report.png)
 
-需要 Power BI Pro 许可证才能共享内容，你与之共享的人员也需要许可证才能共享，或者该内容需要位于[高级容量](../admin/service-premium-what-is.md)中的工作区内。 共享仪表板或报表时，收件人可以查看仪表板并与其交互，但无法对其进行编辑。 除非将行级别安全性 (RLS) 应用到基础数据集，否则他们会看到你在仪表板和报表中看到的相同数据。 如果你允许，与之共享的同事可以与其他同事共享。 
+需要 Power BI Pro 许可证才能共享内容，你与之共享的人员也需要许可证才能共享，或者该内容需要位于[高级容量](../admin/service-premium-what-is.md)中的工作区内。 共享仪表板或报表时，收件人可以查看仪表板并与其交互，但无法对其进行编辑。 他们会看到你在仪表板或报表中看到的相同数据，并且可以访问基础数据集中的所有数据，除非应用了[行级别安全性 (RLS)](../admin/service-admin-rls.md)。 如果你允许，与之共享的同事可以与其他同事共享。 
 
 也可以与组织外的用户共享。 他们可以查看仪表板或报表并与之交互，但无法进行共享。 
 
@@ -113,16 +113,16 @@ Power BI 提供新的工作区体验。 阅读[创建新工作区](service-creat
 ### <a name="embed-in-secure-portals"></a>在安全门户中嵌入
 
 可以在用户希望看到 Power BI 报表的门户或网站中嵌入这些报表。  
-利用 Power BI 服务中的“在 SharePoint Online 中嵌入”和“嵌入”选项，可以为内部用户安全地嵌入报告   。 
+利用 Power BI 服务中的“在 SharePoint Online 中嵌入”和“嵌入”选项，可以为内部用户安全地嵌入报告 。 
 
-- “在 SharePoint Online 中嵌入”适用于 SharePoint Online 的 Power BI Web 部件  。 它提供单一登录体验，并可控制报表的嵌入方式。 
+- “在 SharePoint Online 中嵌入”适用于 SharePoint Online 的 Power BI Web 部件。 它提供单一登录体验，并可控制报表的嵌入方式。 
 - **嵌入**适用于支持使用 URL 或 iFrame 嵌入内容的任何门户或网站。 
 
 无论选择哪个选项，Power BI 都会强制执行所有权限和数据安全措施，然后才允许用户查看内容。 查看报告的人员需要具有相应许可证。 详细了解 Power BI 中的[在 SharePoint Online 中嵌入](service-embed-report-spo.md)和[嵌入](service-embed-secure.md)选项。
 
 ### <a name="publish-to-public-web-sites"></a>发布到公共网站
 
-利用“发布到 Web”，可通过在任意设备上将交互式可视化效果嵌入到博客文章、网站、社交媒体以及其他联机交流媒介，来将 Power BI 报表发布到整个 Internet  。 Internet 上的任何人都可以查看你的报表，并且你无法控制谁可以查看已发布的内容。 他们不需要 Power BI 许可证。 只能将可以编辑的报表发布到 Web。 如果是与你共享的报表或者报表位于应用内部，则无法将其发布到 Web。 有关[发布到 Web](service-publish-to-web.md) 的详细信息。
+利用“发布到 Web”，可通过在任意设备上将交互式可视化效果嵌入到博客文章、网站、社交媒体以及其他联机交流媒介，来将 Power BI 报表发布到整个 Internet。 Internet 上的任何人都可以查看你的报表，并且你无法控制谁可以查看已发布的内容。 他们不需要 Power BI 许可证。 只能将可以编辑的报表发布到 Web。 如果是与你共享的报表或者报表位于应用内部，则无法将其发布到 Web。 有关[发布到 Web](service-publish-to-web.md) 的详细信息。
 
 >[!Warning]
 >使用[发布到 Web](service-publish-to-web.md)只用于公开共享内容，而不用于内部共享。

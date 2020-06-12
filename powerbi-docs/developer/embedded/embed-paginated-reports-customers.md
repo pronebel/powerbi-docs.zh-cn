@@ -9,14 +9,14 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.custom: seodec18
 ms.date: 01/04/2019
-ms.openlocfilehash: f9248b659bec744f7da02c4d2639f30bd646bb48
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 78487f52df9f62e85e80f02d9653c9ac2f5b52c7
+ms.sourcegitcommit: f05f7b0112a8ec2dce60839ea5f922eda3cc776c
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83276044"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "84337110"
 ---
-# <a name="tutorial-embed-power-bi-paginated-reports-into-an-application-for-your-customers-preview"></a>教程：在应用程序中为客户嵌入 Power BI 分页报表（预览版）
+# <a name="tutorial-embed-power-bi-paginated-reports-into-an-application-for-your-customers"></a>教程：在应用程序中为客户嵌入 Power BI 分页报表。
 
 借助 **Azure 中的 Power BI Embedded** 或 **Office 中的 Power BI 嵌入**，可使用“应用拥有数据”将分页报表嵌入应用程序中。 **应用拥有数据**是指将使用 Power BI 的应用程序作为其嵌入式分析平台。 作为 **ISV** 或**开发者**，你可创建在完全集成并交互的应用程序中显示分页报表的 Power BI 内容，而无需用户拥有 Power BI 许可证。 本教程演示如何使用 Power BI .NET SDK 以及 Power BI JavaScript API 将分页报表集成到应用程序中。
 
@@ -40,7 +40,7 @@ ms.locfileid: "83276044"
 
 > [!IMPORTANT]
 > * 必须使用“服务主体”。 主用户不受支持。
-> * 不支持需要单点登录 (SSO) 的数据源。
+> * 不支持需要单点登录 (SSO) 的数据源。 有关支持的数据集及其身份验证方法的列表，请参阅 [Power BI 分页报表支持的数据源](../../paginated-reports/paginated-reports-data-sources.md)。 
 > * Power BI 数据集不支持作为[数据源](../../connect-data/service-get-data.md)。
 
 ## <a name="set-up-your-power-bi-environment"></a>设置 Power BI 环境

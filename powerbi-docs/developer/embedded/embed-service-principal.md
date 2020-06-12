@@ -1,6 +1,6 @@
 ---
-title: Power BI 的服务主体
-description: 了解如何使用服务主体和应用程序密码在 Azure Active Directory 中注册应用程序，以用于嵌入 Power BI 内容。
+title: 使用服务主体和应用程序机密嵌入 Power BI 内容
+description: 了解如何使用 Azure Active Directory 应用程序服务主体和应用程序机密对嵌入的分析进行身份验证。
 author: KesemSharabi
 ms.author: kesharab
 ms.reviewer: ''
@@ -8,19 +8,24 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.custom: ''
-ms.date: 03/30/2020
-ms.openlocfilehash: 5e9b14fb0eccc0418ca7d5b4a7859f26c1781d50
-ms.sourcegitcommit: a7b142685738a2f26ae0a5fa08f894f9ff03557b
+ms.date: 05/12/2020
+ms.openlocfilehash: da7db691628b0fbcfd42d6a35f99b18b4cfdcc88
+ms.sourcegitcommit: cd64ddd3a6888253dca3b2e3fe24ed8bb9b66bc6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/28/2020
-ms.locfileid: "84121210"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "84315743"
 ---
-# <a name="embedding-power-bi-content-with-service-principal-and-application-secret"></a>使用服务主体和应用程序密码嵌入 Power BI 内容
+# <a name="embed-power-bi-content-with-service-principal-and-an-application-secret"></a>使用服务主体和应用程序机密嵌入 Power BI 内容
 
 [!INCLUDE[service principal overview](../../includes/service-principal-overview.md)]
 
 本文介绍了如何使用应用程序 ID 和应用程序密码进行服务主体身份验证。
+
+>[!NOTE]
+>建议使用证书而不是机密密钥来保护后端服务。
+>* [详细了解如何使用机密密钥或证书从 Azure AD 获取访问令牌](https://docs.microsoft.com/azure/architecture/multitenant-identity/client-assertion)。
+>* [使用服务主体和证书嵌入 Power BI 内容](embed-service-principal-certificate.md)。
 
 ## <a name="method"></a>方法
 
@@ -54,30 +59,12 @@ ms.locfileid: "84121210"
 
 ### <a name="creating-an-azure-ad-app-in-the-microsoft-azure-portal"></a>在 Microsoft Azure 门户中创建 Azure AD 应用程序
 
-1. 登录 [Microsoft Azure](https://portal.azure.com/#allservices)。
-
-2. 搜索“应用程序注册”，然后单击“应用程序注册”链接。
-
-    ![Azure 应用程序注册](media/embed-service-principal/azure-app-registration.png)
-
-3. 单击“新建注册”。
-
-    ![新建注册](media/embed-service-principal/new-registration.png)
-
-4. 填写所需信息：
-    * **名称** - 输入应用程序名称
-    * **支持的帐户类型** - 选择所需的 Azure AD 帐户
-    * （可选）**重定向 URI** - 视需要输入 URI
-
-5. 单击“注册”。
-
-6. 注册后，可以从“概览”选项卡中获取“应用程序 ID”。复制并保存“应用程序 ID”，以供日后使用。
-
-    ![应用程序 ID](media/embed-service-principal/application-id.png)
+[!INCLUDE[service create app](../../includes/service-principal-create-app.md)]
 
 7. 单击“证书和密码”选项卡。
 
      ![应用程序 ID](media/embed-service-principal/certificates-and-secrets.png)
+
 
 8. 单击“新建客户端密码”
 
@@ -157,7 +144,7 @@ Add-AzureADGroupMember -ObjectId $($group.ObjectId) -RefObjectId $($sp.ObjectId)
 
 ![管理门户](media/embed-service-principal/admin-portal.png)
 
-## <a name="step-4---add-the-service-principal-as-an-admin-to-your-workspace"></a>第 4 步- 以管理员身份将服务主体添加到工作区
+## <a name="step-4---add-the-service-principal-to-your-workspace"></a>第 4 步 - 将服务主体添加到工作区
 
 若要让 Azure AD 应用程序能够访问 Power BI 服务中的项目（如报表、仪表板和数据集），请以成员或管理员身份将服务主体实体添加到工作区。
 
@@ -181,20 +168,21 @@ Add-AzureADGroupMember -ObjectId $($group.ObjectId) -RefObjectId $($sp.ObjectId)
 
 嵌入内容后，你便可以[迁移到生产阶段](embed-sample-for-customers.md#move-to-production)。
 
-## <a name="considerations-and-limitations"></a>注意事项和限制
-
-* 服务主体仅适用于[新的工作区](../../collaborate-share/service-create-the-new-workspaces.md)。
-* 使用服务主体时，不支持“我的工作区”。
-* 移动到生产环境时，需要专用容量。
-* 无法使用服务主体登录 Power BI 门户。
-* 在 Power BI 管理门户的开发人员设置中启用服务主体需要 Power BI 管理权限。
-* 无法使用服务主体[为组织应用程序嵌入内容](embed-sample-for-your-organization.md)。
-* 不支持[数据流](../../transform-model/service-dataflows-overview.md)管理。
-* 服务主体目前不支持任何管理员 API。
-* 使用带有 [Azure Analysis Services](https://docs.microsoft.com/azure/analysis-services/analysis-services-overview) 数据源的服务主体时，服务主体本身必须具有 Azure Analysis Services 实例权限。 使用包含服务主体的安全组来实现此目的，这不起作用。
+[!INCLUDE[service principal limitations](../../includes/service-principal-limitations.md)]
 
 ## <a name="next-steps"></a>后续步骤
 
-* [适用于客户的 Power BI Embedded](embed-sample-for-customers.md)
+>[!div class="nextstepaction"]
+>[注册应用](register-app.md)
 
-* [配合使用本地数据网关与服务主体的行级别安全性](embedded-row-level-security.md#on-premises-data-gateway-with-service-principal)
+> [!div class="nextstepaction"]
+>[适用于客户的 Power BI Embedded](embed-sample-for-customers.md)
+
+>[!div class="nextstepaction"]
+>[Azure Active Directory 中的应用程序和服务主体对象](https://docs.microsoft.com/azure/active-directory/develop/app-objects-and-service-principals)
+
+>[!div class="nextstepaction"]
+>[配合使用本地数据网关与服务主体的行级别安全性](embedded-row-level-security.md#on-premises-data-gateway-with-service-principal)
+
+>[!div class="nextstepaction"]
+>[使用服务主体和证书嵌入 Power BI 内容](embed-service-principal-certificate.md)

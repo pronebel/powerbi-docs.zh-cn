@@ -1,6 +1,6 @@
 ---
-title: 组织中的 Power BI 许可
-description: 概述 Power BI 中提供的不同许可证类型以及管理员如何为其组织购买和管理许可。
+title: 组织中用户的 Power BI 许可
+description: 概述 Power BI 中提供的不同用户许可证类型以及管理员如何为其组织中的用户购买和管理许可。
 author: kfollis
 ms.reviewer: ''
 ms.service: powerbi
@@ -8,15 +8,16 @@ ms.subservice: powerbi-admin
 ms.topic: conceptual
 ms.date: 05/14/2020
 ms.author: kfollis
+ms.custom: licensing support
 LocalizationGroup: Administration
-ms.openlocfilehash: a0ce3eab2992c59c5b887db1f0838f88db7ad2da
-ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
+ms.openlocfilehash: 5bac52e98830c97262945e1434880f9c178a0932
+ms.sourcegitcommit: 3f864ec22f99ca9e25cda3a5abda8a5f69ccfa8e
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/19/2020
-ms.locfileid: "83563479"
+ms.lasthandoff: 05/29/2020
+ms.locfileid: "84159987"
 ---
-# <a name="power-bi-licensing-in-your-organization"></a>组织中的 Power BI 许可
+# <a name="licensing-the-power-bi-service-for-users-in-your-organization"></a>为组织中的用户授权 Power BI 服务
 
 用户在 Power BI 服务中可以执行的操作取决于每位用户拥有的许可证类型。 而许可证提供的访问级别取决于要访问的工作区是否分配到 Power BI Premium 容量。 Power BI 服务的所有用户都必须拥有许可证。
 

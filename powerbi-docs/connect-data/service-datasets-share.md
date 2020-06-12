@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 04/30/2020
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 4082647338adcca8518cc4d9c3a3b88cc3e04f4f
-ms.sourcegitcommit: 5e5a7e15cdd55f71b0806016ff91256a398704c1
+ms.openlocfilehash: b6e45113662117d5c6c793211644c4895f666a40
+ms.sourcegitcommit: 49daa8964c6e30347e29e7bfc015762e2cf494b3
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/22/2020
-ms.locfileid: "83794091"
+ms.lasthandoff: 06/02/2020
+ms.locfileid: "84273336"
 ---
 # <a name="share-a-dataset"></a>共享数据集
 
@@ -28,7 +28,7 @@ ms.locfileid: "83794091"
 
 1. 将 .pbix 文件发布到 Power BI 服务中的[新的工作区体验](../collaborate-share/service-create-the-new-workspaces.md)。
     
-    完成后，此工作区的其他成员可以在基于此数据集的其他工作区中创建报表。
+    完成后，此工作区的其他成员可以在基于此数据集的其他工作区中创建报表。 使用工作区内容列表中数据集上的“管理权限”选项可向其他用户授予对数据集的访问权限。 
 
 1. 也可以通过此工作区[发布应用](../collaborate-share/service-create-distribute-apps.md)。 进行创建时，在“权限”页上指定具有权限的人选及其权限范围。
 
@@ -50,6 +50,11 @@ ms.locfileid: "83794091"
 1. “相关内容”对话框显示所有相关项。 在此列表中，你可以查看此工作区和“其他工作区”中的相关项。
  
     ![“相关内容”对话框](media/service-datasets-build-permissions/power-bi-dataset-related-workspaces.png)
+
+## <a name="limitations-and-considerations"></a>限制和注意事项
+共享数据集的注意事项：
+
+* 如果通过管理权限、共享报表或仪表板或者发布应用来共享数据集，则将授予对整个数据集的访问权限，除非[行级别安全性 (RLS)](../admin/service-admin-rls.md) 限制其访问权限。 报表作者可以使用在查看报表或与报表交互时自定义用户体验的功能，例如隐藏列、限制对视觉对象执行的操作等。 这些自定义用户体验不会限制用户可以访问数据集中的哪些数据。 在数据集中使用[行级别安全性 (RLS)](../admin/service-admin-rls.md)，以便每个人的凭据都可以确定他们可以访问的数据。
 
 ## <a name="next-steps"></a>后续步骤
 

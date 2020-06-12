@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 05/20/2020
+ms.date: 06/01/2020
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 4a363ce72002003981f1bcbe46e0f5367f89860f
-ms.sourcegitcommit: c1f05254eaf5adb563f8d4f33c299119134c7d1f
+ms.openlocfilehash: 417d5a03ed45897896db15f2fd31d3badae837c5
+ms.sourcegitcommit: 49daa8964c6e30347e29e7bfc015762e2cf494b3
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/21/2020
-ms.locfileid: "83733454"
+ms.lasthandoff: 06/02/2020
+ms.locfileid: "84273451"
 ---
 # <a name="publish-datasets-and-reports-from-power-bi-desktop"></a>从 Power BI Desktop 发布数据集和报表
 将 Power BI Desktop 文件发布到 Power BI 服务后，将模型中的数据发布到 Power BI 工作区。 这同样适用于在“报表”视图中创建的所有报表。 你将看到一个同名的新数据集以及工作区导航器中的若干报表。
@@ -23,13 +23,12 @@ ms.locfileid: "83733454"
 
 > [!NOTE]
 > 在 Power BI 中对报表所做的任何更改都不会保存回原始 Power BI Desktop 文件。 这包括在报表中添加、删除或更改可视化效果。
-> 
-> 
 
 ## <a name="to-publish-a-power-bi-desktop-dataset-and-reports"></a>发布 Power BI Desktop 数据集和报表
 1. 在 Power BI Desktop 中，选择“文件”\>“发布”\>“发布到 Power BI”或选择功能区上的“发布”   。  
 
    ![“发布”按钮](media/desktop-upload-desktop-files/pbid_publish_publishbutton.png)
+
 
 2. 登录到 Power BI。
 3. 选择目标位置。
@@ -55,3 +54,7 @@ ms.locfileid: "83733454"
    ![有关重新发布数据集的影响的警告](media/desktop-upload-desktop-files/pbid-dataset-impact-analysis-desktop-warning.png)
 
    [详细了解数据集影响分析](../collaborate-share/service-dataset-impact-analysis.md)。
+
+> [!NOTE]
+> Power BI 报表中的某些数据连接可能包含指向数据的链接，而不是包含导入到 Power BI 服务的数据集中的数据。 例如，在发生更新或交互时，DirectQuery 连接将链接到数据，而不是导入数据本身。 如果报表中链接的数据源位于本地，则你可能需要网关才能从 Power BI 访问它们。 有关详细信息，请参阅[什么是本地数据网关？](../connect-data/service-gateway-onprem.md)。
+> 

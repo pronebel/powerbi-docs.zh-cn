@@ -10,12 +10,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 01/22/2020
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 183fceb6877109960ea1fb7e6f36bd74588f8f10
-ms.sourcegitcommit: 250242fd6346b60b0eda7a314944363c0bacaca8
+ms.openlocfilehash: 894aa17e0a6a2be52446be0a67452d96d45c9a5b
+ms.sourcegitcommit: cd64ddd3a6888253dca3b2e3fe24ed8bb9b66bc6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/20/2020
-ms.locfileid: "83693844"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "84316054"
 ---
 # <a name="monitor-usage-metrics-in-the-new-workspace-experience"></a>在新的工作区体验中监视使用情况指标
 
@@ -132,7 +132,7 @@ ms.locfileid: "83693844"
 
 ## <a name="disable-usage-metrics-reports"></a>禁用使用情况指标报表
 
-使用情况指标报表是 Power BI 或 Microsoft 365 管理员可以启用或禁用的一项功能。 管理员可以精确控制哪些用户可以访问使用指标；默认情况下，对于组织中的所有用户，它们都处于“启用”状态。 有关这些设置的详细信息，请参阅“管理门户”一文中的[控制使用指标](../admin/service-admin-portal.md#control-usage-metrics)。
+使用指标报表是 Power BI 或全局管理员可以启用或禁用的一项功能。 管理员可以精确控制哪些用户可以访问使用指标；默认情况下，对于组织中的所有用户，它们都处于“启用”状态。 有关这些设置的详细信息，请参阅“管理门户”一文中的[控制使用指标](../admin/service-admin-portal.md#control-usage-metrics)。
 
 > [!NOTE]
 > 只有 Power BI 租户的管理员才能看到管理门户和编辑设置。

@@ -9,12 +9,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 02/25/2020
 LocalizationGroup: Share your work
-ms.openlocfilehash: 28e19c750819b883adc2319c171ef1cb7b3125f1
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 136376da9d00e5f40397f0d4152e83d17a171168
+ms.sourcegitcommit: 49daa8964c6e30347e29e7bfc015762e2cf494b3
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83273882"
+ms.lasthandoff: 06/02/2020
+ms.locfileid: "84272968"
 ---
 # <a name="publish-to-web-from-power-bi"></a>从 Power BI 发布到 Web
 
@@ -169,8 +169,7 @@ Power BI 管理门户具有控制可以发布到 Web 的人员的设置。 与�
 
 已建立的组织通常已有 Power BI 管理员。 担任以下任何角色的人员都可以充当 Power BI 管理员：
 
-- Office 365 管理员
-- Azure Active Directory 管理员
+- 全局管理员
 - 在 Azure Active Directory 中具有 Power BI 服务管理员角色的用户
 
 需要在组织中[找到这些人中的一个](https://docs.microsoft.com/office365/admin/admin-overview/admin-overview#who-has-admin-permissions-in-my-business)，请他们在管理门户中更新[“发布到 Web”租户设置](../admin/service-admin-portal.md#publish-to-web)。

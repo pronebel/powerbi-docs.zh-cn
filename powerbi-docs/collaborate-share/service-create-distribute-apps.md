@@ -8,12 +8,12 @@ ms.topic: conceptual
 ms.date: 03/23/2020
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: dd474da6a3fb61b6fd78dc55a6b0313e51bbb773
-ms.sourcegitcommit: 250242fd6346b60b0eda7a314944363c0bacaca8
+ms.openlocfilehash: a26a93851d3914527bbb61275d763f95f21d7603
+ms.sourcegitcommit: f05f7b0112a8ec2dce60839ea5f922eda3cc776c
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/20/2020
-ms.locfileid: "83693569"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "84336811"
 ---
 # <a name="publish-an-app-in-power-bi"></a>在 Power BI 中发布应用
 
@@ -209,6 +209,7 @@ ms.locfileid: "83693569"
 * 对于新工作区体验，如果添加到应用访问列表中的用户已经可以通过工作区访问应用，则他们不会在该应用的访问列表中显示。  
 * 使用具有新外观的 Power BI 服务时，支持站点 URL 将显示在项目信息卡中。 详细了解 [Power BI 的新外观](../consumer/service-new-look.md)。
 * 应用有一个选项，可允许用户通过使用共享权限来共享应用和应用的基础数据集。 对于新应用，该选项默认情况下处于关闭状态。 我们建议对现有应用关闭此选项，并更新对基础数据集的权限。 已为现有应用启用此选项，因为设计应用的最初目的是替换具有此行为的内容包。
+* 应用最多可以包含 200 个仪表板。 
 
 ## <a name="next-steps"></a>后续步骤
 * [创建工作区](service-create-workspaces.md)

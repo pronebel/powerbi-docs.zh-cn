@@ -8,17 +8,18 @@ ms.subservice: powerbi-admin
 ms.topic: conceptual
 ms.date: 04/08/2020
 ms.author: kfollis
+ms.custom: licensing support
 LocalizationGroup: Administration
-ms.openlocfilehash: 2d5eab5dbbf600227611cadc870fab1b3e44a4b7
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: 16cd210955ff358bd6bf64346b4e3169648bab8d
+ms.sourcegitcommit: 3f864ec22f99ca9e25cda3a5abda8a5f69ccfa8e
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83138908"
+ms.lasthandoff: 05/29/2020
+ms.locfileid: "84160010"
 ---
 # <a name="view-and-manage-power-bi-user-licenses"></a>查看和管理 Power BI 用户许可证
 
-本文介绍管理员如何使用 Microsoft 365 管理中心或 Azure 门户查看和管理用户许可证。
+本文介绍管理员如何使用 Microsoft 365 管理中心或 Azure 门户查看和管理 Power BI 服务的用户许可证。
 
 > [!NOTE]
 >
@@ -30,7 +31,7 @@ ms.locfileid: "83138908"
 要查看你的组织具有的 Power BI 订阅，请按照以下步骤操作。
 
 1. 登录 [MIcrosoft 365 管理中心](https://admin.microsoft.com)。
-2. 在“导航”菜单上，选择“计费” > “产品和服务”   。
+2. 在“导航”菜单上，选择“计费” > “产品和服务” 。
 
 活动 Power BI 订阅与拥有的任何其他订阅一起列出。 你可能会看到 Power BI（免费）的意外订阅，如下所示。
 
@@ -48,15 +49,15 @@ ms.locfileid: "83138908"
 
 1. 登录 [Azure 门户](https://portal.azure.com)。
 
-2. 搜索并选择“Azure Active Directory”  。
+2. 搜索并选择“Azure Active Directory”。
 
-3. 在“Azure Active Directory”资源菜单上的“管理”下方，选择“许可证”   。
+3. 在“Azure Active Directory”资源菜单上的“管理”下方，选择“许可证” 。
 
-4. 从资源菜单中选择“所有产品”，然后选择 Power BI 许可证类型以显示许可用户列表  。
+4. 从资源菜单中选择“所有产品”，然后选择 Power BI 许可证类型以显示许可用户列表。
 
-5. 若要分配许可证，请从命令栏中选择“+ 分配”  。 在“分配许可证”页面上，选择一个用户，然后选择“分配选项”为选择的用户帐户启用 Power BI 许可证   。
+5. 若要分配许可证，请从命令栏中选择“+ 分配”。 在“分配许可证”页面上，选择一个用户，然后选择“分配选项”为选择的用户帐户启用 Power BI 许可证 。
 
-6. 若要删除许可证，请选择用户名旁的复选框，然后选择“删除许可证”  。
+6. 若要删除许可证，请选择用户名旁的复选框，然后选择“删除许可证”。
 
 ## <a name="next-steps"></a>后续步骤
 

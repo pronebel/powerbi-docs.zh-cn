@@ -8,13 +8,14 @@ ms.subservice: powerbi-admin
 ms.topic: conceptual
 ms.date: 04/08/2020
 ms.author: kfollis
+ms.custom: licensing support
 LocalizationGroup: Administration
-ms.openlocfilehash: cce546b489e0f49ff87af22f4955af1922f628e5
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: fc0bfea05449b3169e7a5f73a4c096d28579b35c
+ms.sourcegitcommit: 3f864ec22f99ca9e25cda3a5abda8a5f69ccfa8e
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83344954"
+ms.lasthandoff: 05/29/2020
+ms.locfileid: "84159665"
 ---
 # <a name="purchase-and-assign-power-bi-pro-user-licenses"></a>购买和分配 Power BI Pro 用户许可证
 
@@ -38,25 +39,29 @@ Power BI Pro 是一种单独的用户许可证，使用户能够读取他人已�
 
 ### <a name="purchase-licenses-in-microsoft-365"></a>在 Microsoft 365 中购买许可证
 
+> [!NOTE]
+> 如果通常通过批量许可协议（例如企业协议）购买许可证，并且想要接收发票而不是使用信用卡或银行帐户进行购买，则需要以不同方式提交订单。 请与 Microsoft 经销商合作，或通过批量许可服务中心来添加或删除许可证。 有关详细信息，请参阅[管理订阅许可证](https://docs.microsoft.com/microsoft-365/commerce/licenses/buy-licenses?view=o365-worldwide)。
+
 按照以下步骤在 Microsoft 365 管理中心购买 Power BI Pro 许可证：
 
 1. 登录 [MIcrosoft 365 管理中心](https://admin.microsoft.com)。
 
-2. 在“导航”菜单上，选择“计费”   > “购买服务”  。
+2. 在“导航”菜单上，选择“计费” > “购买服务”。
 
-3. 搜索或滚动以查找要购买的订阅。 你会发现“Power BI”  位于页面底部附近“可能感兴趣的其他类别”  下方。 选择链接以查看可供组织使用的 Power BI 订阅。
+3. 搜索或滚动以查找要购买的订阅。 你会发现“Power BI”位于页面底部附近“可能感兴趣的其他类别”下方。 选择链接以查看可供组织使用的 Power BI 订阅。
 
-4. 选择“Power BI Pro”  。
+4. 选择“Power BI Pro”。
 
-5. 在“购买服务”  页面上，选择“购买”  。
+5. 在“购买服务”页面上，选择“购买”。
 
-6. 根据你的付费方式，选择“按月付费”或“按年付费”   。
+6. 根据你的付费方式，选择“按月付费”或“按年付费” 。
 
-7. 在“需要多少个用户?”下，输入要购买的许可证数量，然后选择“立即签出”完成此交易   。
+7. 在“需要多少个用户?”下，输入要购买的许可证数量，然后选择“立即签出”完成此交易 。
 
-8. 若要验证你的购买情况，请前往“账单”   > “产品和服务”  并查找“Power BI Pro”  。
+8. 若要验证你的购买情况，请前往“账单” > “产品和服务”并查找“Power BI Pro”。
 
-9. 若要稍后添加更多许可证，请在“产品和服务”  页面上查找“Power BI Pro”  ，然后选择“添加/删除”  。
+9. 若要稍后添加更多许可证，请在“产品和服务”页面上查找“Power BI Pro”，然后选择“添加/删除”。
+
 
 ## <a name="assign-licenses-in-the-microsoft-365-admin-center"></a>在 Microsoft 365 管理中心分配许可证
 
@@ -70,13 +75,13 @@ Power BI Pro 是一种单独的用户许可证，使用户能够读取他人已�
 
 1. 登录 [Azure 门户](https://portal.azure.com/)。
 
-2. 搜索并选择“Azure Active Directory”  。
+2. 搜索并选择“Azure Active Directory”。
 
-3. 在“Azure Active Directory”  资源菜单上的“管理”  下方，选择“许可证”  。
+3. 在“Azure Active Directory”资源菜单上的“管理”下方，选择“许可证”。
 
-4. 从“许可证 - 概述”  资源菜单中选择“所有产品”  ，然后选择“Power BI Pro”  以显示许可用户列表。
+4. 从“许可证 - 概述”资源菜单中选择“所有产品”，然后选择“Power BI Pro”以显示许可用户列表。
 
-5. 从命令栏中选择“+ 分配”  。 “分配许可证”  页面上，先选择一个用户，然后选择“分配选项”  为选择的用户帐户启用 Power BI Pro 许可证。
+5. 从命令栏中选择“+ 分配”。 “分配许可证”页面上，先选择一个用户，然后选择“分配选项”为选择的用户帐户启用 Power BI Pro 许可证。
 
 ## <a name="next-steps"></a>后续步骤
 

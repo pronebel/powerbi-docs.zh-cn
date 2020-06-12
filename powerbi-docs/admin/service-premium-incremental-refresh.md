@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 05/26/2020
 ms.author: davidi
 LocalizationGroup: Premium
-ms.openlocfilehash: eb9a10c715a03adc9149ca8793ff248a23b9914d
-ms.sourcegitcommit: a7b142685738a2f26ae0a5fa08f894f9ff03557b
+ms.openlocfilehash: 2257e38183d87ef7fd4fdd12546c2a191a7acf74
+ms.sourcegitcommit: 3f864ec22f99ca9e25cda3a5abda8a5f69ccfa8e
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/28/2020
-ms.locfileid: "84121024"
+ms.lasthandoff: 05/29/2020
+ms.locfileid: "84159872"
 ---
 # <a name="incremental-refresh-in-power-bi"></a>Power BI 中的增量刷新
 
@@ -230,7 +230,7 @@ pollingExpression 应为轻量级 M 表达式或其他 M 查询的名称。 它�
 
 ## <a name="metadata-only-deployment"></a>仅元数据部署
 
-将 Power BI Desktop 中的新版 PBIX 文件发布到 Power BI 服务中的工作区时，如果已有同名数据集，系统会提示你替换现有数据集。
+将 Power BI Desktop 中的新版 PBIX 文件发布到 Power BI Premium 中的工作区时，如果已有同名数据集，系统会提示你替换现有数据集。
 
 ![替换数据集的提示](media/service-premium-incremental-refresh/replace-dataset-prompt.png)
 

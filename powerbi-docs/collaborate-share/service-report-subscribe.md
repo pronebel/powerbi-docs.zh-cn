@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 05/15/2020
 ms.author: maggies
 LocalizationGroup: Common tasks
-ms.openlocfilehash: f057395361840b7b16fa8a7cde5a6d2513196845
-ms.sourcegitcommit: 6ba7cc9afaf91229f717374bc0c12f0b8201d15e
+ms.openlocfilehash: c43b0710c15fcc77a08aa789a92d840d2425f5ab
+ms.sourcegitcommit: cd64ddd3a6888253dca3b2e3fe24ed8bb9b66bc6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/16/2020
-ms.locfileid: "83438214"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "84315939"
 ---
 # <a name="subscribe-yourself-and-others-to-reports-and-dashboards-in-the-power-bi-service"></a>在 Power BI 服务中为自己和他人订阅报表和仪表板
 
@@ -71,6 +71,10 @@ ms.locfileid: "83438214"
 1. （可选）选择是否包含返回 Power BI 中内容的链接，以及是否允许用户访问你为他们订阅的内容。  如果选择包括链接，为了获得最佳体验，请确保所有用户都有权访问该报表。
 2. 选择“保存并关闭”。 订阅者会按所选频率和时间收到仪表板或报表页的电子邮件和快照。 总共可以创建对每个报表或仪表板创建最多 24 个订阅，并可以为每个订阅提供独有的收件人、时间和频率。 对仪表板或报表，设置为“数据刷新后”的所有订阅仍然只会在第一次计划刷新之后发送电子邮件。
 
+    > [!NOTE]
+    > 如果在保存和关闭之后编辑订阅，则无论你之前选择了什么，都将启用允许用户访问你订阅的内容这一选项。
+    >
+
     > [!TIP]
     > 想立即通过订阅或随时按需发送电子邮件吗？ 选择“立即运行”以获取要发送的仪表板或报表的订阅。 你将看到一封电子邮件正发送给每个人的通知，通知内容是关于该特定订阅的。 执行此操作不计入每天每个报表或仪表板的 24 次预定订阅运行的限制。 这不会引起基础数据集的数据刷新。
     >
@@ -112,6 +116,7 @@ Power BI 管理员可以使用 Power BI 审核日志来查看有关订阅的详�
 - 如果你的仪表板或报表位于高级容量中，则可使用组电子邮件别名进行订阅，而不用一次使用一个电子邮件地址为同事订阅。 根据当前的 Active Directory 确定别名。
 - 如果内容不位于高级容量中，则只有 Power BI Pro 用户可以接收电子邮件订阅。 
 - 订阅当前不支持书签。
+- 编辑现有订阅时，提供对报表/仪表板的访问权限的选项始终显示为已启用。  如果清除此选项并保存订阅，则会保存该状态。 但是，在再次编辑报表时，将默认选中该状态。
 
 ### <a name="dashboards"></a>仪表板
 

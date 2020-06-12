@@ -10,12 +10,12 @@ ms.date: 05/12/2020
 ms.author: kfollis
 ms.custom: seodec18
 LocalizationGroup: Administration
-ms.openlocfilehash: 605d35d55f3191b230d9c4a8d118e2c238283ff2
-ms.sourcegitcommit: c1f05254eaf5adb563f8d4f33c299119134c7d1f
+ms.openlocfilehash: 460ab380798975065eb90bf904b2b5bacd1edd2c
+ms.sourcegitcommit: cd64ddd3a6888253dca3b2e3fe24ed8bb9b66bc6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/21/2020
-ms.locfileid: "83733570"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "84315962"
 ---
 # <a name="administering-power-bi-in-the-admin-portal"></a>在管理门户中管理 Power BI
 
@@ -85,7 +85,7 @@ ms.locfileid: "83733570"
 
 ## <a name="control-usage-metrics"></a>控制使用指标
 
-使用情况指标报表是 Power BI 或 Microsoft 365 管理员可以启用或禁用的一项功能。 管理员可以对哪些用户有权访问使用指标进行精细控制。 对于组织中的所有用户，默认情况下处于“打开”状态。
+使用指标报表是 Power BI 或全局管理员可以启用或禁用的一项功能。 管理员可以对哪些用户有权访问使用指标进行精细控制。 对于组织中的所有用户，默认情况下处于“打开”状态。
 
 管理员还可以确定内容创建者是否可以查看使用指标中的每个用户数据。 
 
@@ -132,6 +132,9 @@ ms.locfileid: "83733570"
 ## <a name="tenant-settings"></a>租户设置
 
 “租户设置”选项卡可以对组织可用的功能进行细粒度控制。 如果你担心敏感数据、我们的某些功能可能不适合你的组织，或者你只需要为特定组提供特定的功能。
+
+> [!NOTE]
+> 控制 Power BI 用户界面中功能可用性的租户设置可帮助建立治理策略，但它们并不是一种安全措施。 例如，“导出数据”设置不会限制 Power BI 用户对数据集的权限。 对数据集具有读取访问权限的 Power BI 用户具有查询此数据集的权限，并且可以在不使用 Power BI 用户界面“导出数据”功能的情况下保留结果。
 
 下图显示了“租户设置”选项卡上的几个设置。
 

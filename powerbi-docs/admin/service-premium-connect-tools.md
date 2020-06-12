@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 03/26/2020
 ms.custom: seodec18
 LocalizationGroup: Premium
-ms.openlocfilehash: 7a363af0bb8d6db9f0fd370b7c4b987b51c88221
-ms.sourcegitcommit: faa8cfb66e79ea16ba46605f752cc9ca57924d0e
+ms.openlocfilehash: 74ea78bf9f5e845eb86a38bad54ebde5e99ffbb0
+ms.sourcegitcommit: b66c913a50a5100082e1c8ff7cd1c4f76f514fe7
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83382729"
+ms.lasthandoff: 05/30/2020
+ms.locfileid: "84219562"
 ---
 # <a name="dataset-connectivity-with-the-xmla-endpoint-preview"></a>使用 XMLA 终结点的数据集连接（预览）
 
@@ -94,15 +94,18 @@ Premium 容量默认启用设置为“只读”的“XMLA 终结点”属性。 
 
 分配给专用容量的工作区具有 URL 格式的连接字符串，如下所示：`powerbi://api.powerbi.com/v1.0/[tenant name]/[workspace name]`。
 
-连接到工作区的应用程序使用此 URL，就像是在使用 Analysis Services 服务器名称一样。 例如，`powerbi://api.powerbi.com/v1.0/contoso.com/Sales Workspace` 。
+连接到工作区的应用程序使用此 URL，就像是在使用 Analysis Services 服务器名称一样。 例如，`powerbi://api.powerbi.com/v1.0/contoso.com/Sales Workspace`。
 
 同一租户（而不是 B2B）中使用 UPN 的用户可以将租户名称替换为 `myorg`。 例如： `powerbi://api.powerbi.com/v1.0/myorg/Sales Workspace`。
+
+B2B 用户必须在租户名称中指定其组织 UPN。 例如： `powerbi://api.powerbi.com/v1.0/fabrikam.com/Sales Workspace`。
 
 ### <a name="to-get-the-workspace-connection-url"></a>获取工作区连接 URL 的具体步骤
 
 在工作区中，依次转到“设置” > “Premium” > “工作区连接”，然后单击“复制”。
 
 ![工作区连接字符串](media/service-premium-connect-tools/xmla-endpoint-workspace-connection.png)
+
 
 ## <a name="connection-requirements"></a>连接要求
 

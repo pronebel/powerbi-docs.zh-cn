@@ -6,19 +6,22 @@ ms.reviewer: mihart
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 10/16/2018
+ms.date: 05/29/2020
 ms.author: maggies
 LocalizationGroup: Ask questions of your data
-ms.openlocfilehash: 3544a5330a21036e0ddecb351fd67b424ca6ebc7
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: cceeb3c874bf3320b7c826790c46b4cafd6d45a2
+ms.sourcegitcommit: b66c913a50a5100082e1c8ff7cd1c4f76f514fe7
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83348864"
+ms.lasthandoff: 05/30/2020
+ms.locfileid: "84219487"
 ---
 # <a name="enable-qa-for-live-connections-in-power-bi"></a>为 Power BI 中的实时连接启用问答
-## <a name="what-is-the-on-premises-data-gateway--what-is-a-live-connection"></a>什么是本地数据网关？  什么是实时连接？
-可以将 Power BI 中的数据集导入到 Power BI，也可以创建与它们的实时连接。 实时连接数据集通常称为“本地”。 使用[网关](../connect-data/service-gateway-onprem.md)管理实时连接并使用实时查询来回发送数据和查询。
+
+你可以将数据集导入 Power BI，也可以与它们建立实时连接。 实时连接数据集通常位于本地。 如果是这样，则使用[网关](../connect-data/service-gateway-onprem.md)来管理实时连接。 使用实时查询来回发送数据和查询。
+
+> [!NOTE]
+> 实时连接还支持 Azure Analysis Services 数据集，而它不需要网关。
 
 ## <a name="qa-for-on-premises-data-gateway-datasets"></a>关于本地数据网关数据集的问答
 如果你想要使用通过网关访问的数据集中的问答，首先你需要启用它们。
@@ -37,13 +40,13 @@ ms.locfileid: "83348864"
 ## <a name="enable-qa"></a>启用问答
 设置数据网关后，请从 Power BI 连接数据。  使用本地数据创建仪表板，或使用本地数据上传 .pbix 文件。  可能已与你共享的仪表板、报表和数据集中已存在本地数据。
 
-1. 在 Power BI 的右上角，选择齿轮图标 ![齿轮图标](media/service-q-and-a-direct-query/power-bi-cog.png)，然后选择“设置”。 
+1. 在 Power BI 的右上角，选择齿轮图标 ![齿轮图标](media/service-q-and-a-direct-query/power-bi-cog.png)，然后选择“设置”。
    
    ![“设置”菜单](media/service-q-and-a-direct-query/powerbi-settings.png)
 2. 选择**数据集**，然后选择要为其启用问答的数据集。
    
    ![“设置”菜单的“数据集”屏幕](media/service-q-and-a-direct-query/power-bi-q-and-a-settings.png)
-3. 展开“问答”，选择“启用此数据集的问答”复选框，然后选择“应用”    。
+3. 展开“问答”，选择“启用此数据集的问答”复选框，然后选择“应用”  。
    
     ![展开的问答区域](media/service-q-and-a-direct-query/power-bi-qna-dataset-direct-query.png)
 

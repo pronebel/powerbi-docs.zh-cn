@@ -7,15 +7,15 @@ ms.reviewer: tapan maniar
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: tutorial
-ms.date: 03/29/2020
+ms.date: 06/01/2020
 ms.author: rien
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 04e2092b3651fd3339706582001f37fc855ddbad
-ms.sourcegitcommit: 220910f0b68cb1e265ccd5ac0cee4ee9c6080b26
+ms.openlocfilehash: aead027780ad1e7887b172cba328c0c4e97675b5
+ms.sourcegitcommit: 49daa8964c6e30347e29e7bfc015762e2cf494b3
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "82841954"
+ms.lasthandoff: 06/02/2020
+ms.locfileid: "84273428"
 ---
 # <a name="tutorial-embed-a-power-apps-visual-in-a-power-bi-report"></a>教程：在 Power BI 报表中嵌入 Power Apps 视觉对象
 
@@ -40,7 +40,7 @@ ms.locfileid: "82841954"
 ## <a name="create-a-new-app"></a>创建新应用
 在报表中添加 Power Apps 视觉对象时，它会通过 Power Apps 与 Power BI 之间的实时数据连接启动 Power Apps Studio。
 
-1. 打开“机会分析”示例报表，然后选择“临近的机会”  页面。 
+1. 打开“机会分析”示例报表，然后选择“临近的机会”页面。 
 
 
 2. 移动某些报表磁贴并调整其大小，为新的视觉对象留出空间。
@@ -51,21 +51,21 @@ ms.locfileid: "82841954"
 
     ![选择了“Power Apps”图标的“可视化效果”窗格](media/power-bi-visualization-powerapp/power-bi-powerapps-icon.jpg)
 
-3. 在“字段”窗格中，选择“名称”、“产品代码”和“销售阶段”     。 
+3. 在“字段”窗格中，选择“名称”、“产品代码”和“销售阶段”   。 
 
     ![选择字段](media/power-bi-visualization-powerapp/power-bi-fields.png)
 
-4. 在 Power Apps 视觉对象中，选择想要在其中创建应用的 Power Apps 环境，然后选择“新建”  。
+4. 在 Power Apps 视觉对象中，选择想要在其中创建应用的 Power Apps 环境，然后选择“新建”。
 
     ![创建新应用](media/power-bi-visualization-powerapp/power-bi-create-new-powerapp.png)
 
-    在 Power Apps Studio 中，会看到已创建一个基本应用，以及一个库  ，显示了在 Power BI 中选择的一个字段。
+    在 Power Apps Studio 中，会看到已创建一个基本应用，以及一个库，显示了在 Power BI 中选择的一个字段。
 
     ![Power Apps 随即打开](media/power-bi-visualization-powerapp/power-bi-power-app.png)
 
 5.  调整库大小使其仅占用屏幕的一半。 
 
-6. 在左窗格中，选择“Screen1”，然后将屏幕的“填充”属性设置为“LightBlue”（以便更好地呈现在报表中）   。
+6. 在左窗格中，选择“Screen1”，然后将屏幕的“填充”属性设置为“LightBlue”（以便更好地呈现在报表中） 。
 
     ![调色板](media/power-bi-visualization-powerapp/power-bi-powerapps-fill.png)
 
@@ -74,11 +74,11 @@ ms.locfileid: "82841954"
     ![更改库维度](media/power-bi-visualization-powerapp/power-bi-powerapps-gallery.png)
 
 
-8. 在“库”  下，插入一个文本标签控件。
+8. 在“库”下，插入一个文本标签控件。
 
    ![标签控件](media/power-bi-visualization-powerapp/power-bi-label.png)
 
-7. 将标签拖到视觉对象的底部。 将“Text”  属性设为 `"Opportunity Count: " & CountRows(Gallery1.AllItems)`。 它现在会显示数据集中的机会的总数。
+7. 将标签拖到视觉对象的底部。 将“Text”属性设为 `"Opportunity Count: " & CountRows(Gallery1.AllItems)`。 它现在会显示数据集中的机会的总数。
 
     ![库的大小已调整的应用](media/power-bi-visualization-powerapp/power-bi-power-app-label.png)
 
@@ -94,7 +94,7 @@ ms.locfileid: "82841954"
 
 ![Power BI 报表中的应用](media/power-bi-visualization-powerapp/power-bi-powerapps-visual.png)
 
-在 Power BI 报表中，选择切片器中的“一月”，这会筛选整个报表（包括应用中的数据）  。
+在 Power BI 报表中，选择切片器中的“一月”，这会筛选整个报表（包括应用中的数据）。
 
 ![已筛选的报表](media/power-bi-visualization-powerapp/power-bi-last.png)
 
@@ -104,6 +104,8 @@ ms.locfileid: "82841954"
 ## <a name="clean-up-resources"></a>清理资源
 如果不想再使用机会分析示例，可删除仪表板、报表和数据集。
 
+## <a name="limitations-and-considerations"></a>限制和注意事项
+有关疑难解答信息，请参阅[适用于 Power BI 的 Power Apps 视觉对象](https://docs.microsoft.com/powerapps/maker/canvas-apps/powerapps-custom-visualbranch=pr-en-us-2943#limitations-of-the-power-apps-visual)
 
 ## <a name="next-steps"></a>后续步骤
 [问答视觉对象](power-bi-visualization-types-for-reports-and-q-and-a.md)    

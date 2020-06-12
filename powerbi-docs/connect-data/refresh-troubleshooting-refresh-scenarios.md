@@ -6,15 +6,15 @@ ms.reviewer: kayu
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: troubleshooting
-ms.date: 09/13/2019
+ms.date: 05/28/2020
 ms.author: davidi
 LocalizationGroup: Data refresh
-ms.openlocfilehash: 38f3b9e40001b5cc3d90d35ed56e768237345e5d
-ms.sourcegitcommit: a7b142685738a2f26ae0a5fa08f894f9ff03557b
+ms.openlocfilehash: f28182b8ecfcadae92f64a725622493ebd7a6c61
+ms.sourcegitcommit: 3f864ec22f99ca9e25cda3a5abda8a5f69ccfa8e
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/28/2020
-ms.locfileid: "84119805"
+ms.lasthandoff: 05/29/2020
+ms.locfileid: "84160240"
 ---
 # <a name="troubleshooting-refresh-scenarios"></a>刷新方案故障排除
 
@@ -23,7 +23,14 @@ ms.locfileid: "84119805"
 > [!NOTE]
 > 如果遇到导致问题但未在下面列出的方案，可以在[社区站点](https://community.powerbi.com/)上寻求进一步帮助，也可以创建[支持票证](https://powerbi.microsoft.com/support/)。
 >
->
+
+应始终确保满足和验证刷新的基本要求。 这些基本要求包括：
+
+* 验证网关版本是否为最新
+* 验证报表是否已选择网关 - 如果未选择，则数据源可能已更改或丢失
+
+确认满足这些要求后，请参阅以下各部分了解更多故障排除信息。 
+
 
 ## <a name="email-notifications"></a>电子邮件通知
 
@@ -63,7 +70,7 @@ Azure Active Directory (**AAD**) OAuth 令牌由许多不同的数据源使用�
 
 Microsoft 正在研究一个解决方案，允许数据加载过程刷新令牌并继续。 但是，如果 Dynamics CRM Online 或 SharePoint Online 实例（或其他 AAD OAuth 数据源）较大，则可能会达到两小时的数据加载阈值，此时也可能会遇到 Power BI 服务中数据加载超时的情况。
 
-另请注意，为了使刷新正常工作，请在使用 AAD OAuth 连接到 SharePoint Online  数据源时，务必使用与用于登录 Power BI 服务  相同的帐户。
+另请注意，为了使刷新正常工作，请在使用 AAD OAuth 连接到 SharePoint Online 数据源时，务必使用与用于登录 Power BI 服务相同的帐户。
 
 ## <a name="uncompressed-data-limits-for-refresh"></a>未经压缩数据的刷新限制
 
@@ -71,7 +78,7 @@ Microsoft 正在研究一个解决方案，允许数据加载过程刷新令牌�
 
 ## <a name="scheduled-refresh-timeout"></a>计划的刷新超时
 
-导入数据集的计划刷新在两个小时后超时。 对于高级  工作区中的数据集，此超时增加到五个小时。 如果遇到此限制，请考虑减小数据集大小或降低数据集复杂性，或者考虑将数据集拆分为更小的部分。
+导入数据集的计划刷新在两个小时后超时。 对于高级工作区中的数据集，此超时增加到五个小时。 如果遇到此限制，请考虑减小数据集大小或降低数据集复杂性，或者考虑将数据集拆分为更小的部分。
 
 ## <a name="scheduled-refresh-failures"></a>计划刷新失败
 

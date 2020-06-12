@@ -7,19 +7,48 @@ ms.reviewer: maggies
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
-ms.date: 04/08/2020
-ms.openlocfilehash: abe0b97a4c4f593f8bb22be8b72c12295d0f656c
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.date: 05/31/2020
+ms.openlocfilehash: 0391f0f2e4340b01c1f1ad7a3bce860487daabc9
+ms.sourcegitcommit: 49daa8964c6e30347e29e7bfc015762e2cf494b3
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "81006448"
+ms.lasthandoff: 06/02/2020
+ms.locfileid: "84272646"
 ---
 # <a name="change-log-for-power-bi-report-server"></a>Power BI 报表服务器的更改日志
 
 此更改日志适用于 Power BI 报表服务器，并列出了新项和每次发布版本的 bug 修复。
 
 有关新功能的详细信息，请参阅[Power BI 报表服务器中的新增功能](whats-new.md)。 
+
+
+## <a name="may-2020"></a>2020 年 5 月
+- **Power BI 报表服务器**
+    - 版本：*1.8.7450.37410（内部版本 15.0.1103.227），发布日期：* 2020 年 5 月 27 日
+         - 功能
+            -  添加了对可自定义目录连接池大小的支持（有关详细信息，请参阅 [MaxCatalogConnectionPoolSizePerProcess 设置](https://docs.microsoft.com/sql/reporting-services/report-server/rsreportserver-config-configuration-file?view=sql-server-ver15#bkmk_service)）。
+            -  改进了在执行刷新操作期间查看报表时的行为。
+        - 安全更新
+        - Bug 修复
+            - 修复了与文件夹和报表名称中的单引号有关的两个问题。
+            - 修复了与在特定浏览器和“查看记录”功能中进行横向滚动相关的问题。
+            - 修复了打开报表时计划的刷新偶尔导致基础模型出现架构错误的问题。
+            - 修复了用于 PDF 导出的替换文字未正确编码为多字节字符的问题。
+            - 修复了执行 LoadReport 的自定义应用程序误收到 TrustedHeader 错误的问题。
+            - 修复了计划刷新中的繁重负载导致刷新失败的问题。
+            - 修复了当报表名称与文件夹名称一致时报表保存到错误位置的问题。
+            - 修复了文档结构图中的制表符问题。
+            - 修复了在使用 DAX 查询时数据驱动的订阅失败的问题。
+            - 修复了 URL 访问导致 FindString 无法找到匹配项的问题。
+            - 修复了在移动报表时嵌入的数据源遭到破坏的问题。
+            - 修复了导致某些数据源的计划刷新失败的问题。
+            - 添加了对报表计划的验证，减少了无效请求。
+
+
+- Power BI Desktop（已针对 Power BI 报表服务器进行优化）
+    - 版本：*2.81.5831.941（2020 年 5 月），发布日期：* 2020 年 5 月 27 日（新内部版本和新版本）
+        - 包含与 Power BI 报表服务器建立连接所需的更改（2020 年 5 月）        
+
 
 
 ## <a name="january-2020"></a>2020 年 1 月
@@ -49,7 +78,7 @@ ms.locfileid: "81006448"
           - 修复了在经过筛选的 Power BI 报表导出中将跨视觉对象突出显示作为视觉对象应用的问题。
           - 修复了在导出到带表达式的 Word 以显示分页报表时写入页脚的问题。 
      
-- Power BI Desktop（已针对 Power BI 报表服务器进行优化） 
+- Power BI Desktop（已针对 Power BI 报表服务器进行优化）
     - *版本：2.76.5678.1521（2020 年 1 月），发布日期：2020 年 1 月 23 日*（新内部版本和新版本）
         - 包含与 Power BI 报表服务器连接所需的更改（2020 年 1 月）        
 
@@ -88,7 +117,7 @@ ms.locfileid: "81006448"
          - 可编程性
              - 更新 Web API：/PowerBIReports({Id})/DataSources (PATCH) 以允许连接字符串更新。
          
-- Power BI Desktop（已针对 Power BI 报表服务器进行优化） 
+- Power BI Desktop（已针对 Power BI 报表服务器进行优化）
     - *版本：2.73.5586.1501（2019 年 9 月），发布日期：2019年 10 月 25 日*
         - Bug 修复
             - 已修复：遥测问题。
@@ -118,7 +147,7 @@ ms.locfileid: "81006448"
          - 功能
             - 向 PBIRS 添加了对信任视觉对象的支持
 
-- Power BI Desktop（已针对 Power BI 报表服务器进行优化） 
+- Power BI Desktop（已针对 Power BI 报表服务器进行优化）
     - *版本：2.69.5467.1801（2019 年 5 月），发布日期：2019 年 5 月 21 日*
         - Bug 修复
             - 修复了问题：在 PBIX 上传到 PBIRS 期间重新输入凭据
@@ -152,7 +181,7 @@ ms.locfileid: "81006448"
             - 分页报表
                 - 修复了更新报表共享数据源使用的问题
 
-    - 版本 1.4.6960.38798（内部版本 15.0.1102.222），发布日期：  2019 年 1 月 22日
+    - 版本 1.4.6960.38798（内部版本 15.0.1102.222），发布日期：2019 年 1 月 22日
         - 功能
             - Power BI 报表 
                 - 支持行级别安全性
@@ -173,7 +202,7 @@ ms.locfileid: "81006448"
             - 在 Power BI 报表中保存具有多个数据源的密码会使未更改的密码失效
             - 在 Power BI 移动应用中，视觉对象空闲时会显示问题
 
-- Power BI Desktop（已针对 Power BI 报表服务器进行优化） 
+- Power BI Desktop（已针对 Power BI 报表服务器进行优化）
     - *版本：2.65.5313.1562（2019 年 1 月），发布日期：2019 年 1 月 30 日*
         - 卸载 Power BI 报表服务器后快捷方式和固定图标仍保留
         - 修复了将 Power BI 报表服务器固定到开始菜单的问题 - 在黑色图标上显示黑色文本
@@ -202,7 +231,7 @@ ms.locfileid: "81006448"
             - 发布版附带的自定义视觉对象 API - 版本 1.13.0
             - Power BI 视觉对象回退到与当前版本的服务器 API 兼容的先前版本（如果可用）
 
-- Power BI Desktop（已针对 Power BI 报表服务器进行优化） 
+- Power BI Desktop（已针对 Power BI 报表服务器进行优化）
     - *版本：2.61.5192.641（2018 年 8 月），发布日期：2018 年 8 月 15 日*
         - 包含与 Power BI 报表服务器连接所需的更改（2018 年 8 月）         
     - *版本：2.61.5192.7701（2018 年 8 月），发布日期：2019 年 8 月 8 日*（新内部版本和新版本）
@@ -248,7 +277,7 @@ ms.locfileid: "81006448"
             - 针对分页报表 (RDL)，修复将新数据集分配到现有分页报表 (RDL) 的能力
             - 其他稳定性和可用性的修复内容
 
-- Power BI Desktop（已针对 Power BI 报表服务器进行优化） 
+- Power BI Desktop（已针对 Power BI 报表服务器进行优化）
     - 版本:2.56.5023.1043（2018 年 3 月），发布日期：2018 年 3 月 19 日
         - 包含与 Power BI 报表服务器连接所需的更改（2018 年 3 月）
 
@@ -290,7 +319,7 @@ ms.locfileid: "81006448"
             - URL 参数 支持 PBIX 文件
             - 辅助功能改进
 
-- Power BI Desktop（已针对 Power BI 报表服务器进行优化） 
+- Power BI Desktop（已针对 Power BI 报表服务器进行优化）
     - *版本：2.51.4885.3981（2017 年 10 月），发布日期：2018 年 4 月 10 日*
         - 安全更新
 
@@ -327,7 +356,7 @@ ms.locfileid: "81006448"
     - *内部版本 14.0.600.271，发布日期：2017 年 6 月 12 日*
         - Power BI 报表服务器初始版本
 
-- Power BI Desktop（已针对 Power BI 报表服务器进行优化） 
+- Power BI Desktop（已针对 Power BI 报表服务器进行优化）
     - *版本：2.47.4766.4901（2017 年 6 月），发布日期：2018 年 1 月 10 日*
         - 安全更新
 

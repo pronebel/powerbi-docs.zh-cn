@@ -6,21 +6,21 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 01/08/2020
+ms.date: 06/01/2020
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: e126451bf016bf4e9dcce7b7a4df51db9ed20386
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: ec0d12ddf91b04654b90c5a3e7cdfda24bc04604
+ms.sourcegitcommit: cd64ddd3a6888253dca3b2e3fe24ed8bb9b66bc6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83320506"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "84315893"
 ---
 # <a name="the-enhanced-compute-engine"></a>增强的计算引擎
 
 Power BI 中增强的计算引擎使 Power BI Premium 订阅者能够使用其容量优化数据流的使用。 使用增强的计算引擎具有以下优势：
 
-* 大大减少了对计算实体执行长时间运行的 ETL 步骤所需的刷新时间，例如执行“联接”、“去重”、“筛选”和“分组”操作    
+* 大大减少了对计算实体执行长时间运行的 ETL 步骤所需的刷新时间，例如执行“联接”、“去重”、“筛选”和“分组”操作   
 * 对实体执行 DirectQuery 查询（2020 年 2 月）
 
 以下部分介绍如何启用增强的计算引擎，并回答常见问题。
@@ -28,11 +28,14 @@ Power BI 中增强的计算引擎使 Power BI Premium 订阅者能够使用其�
 
 ## <a name="using-the-enhanced-compute-engine"></a>使用增强的计算引擎
 
-从 Power BI 服务的“容量设置”页中，在“数据流”部分启用增强的计算引擎。   默认情况下，增强的计算引擎处于“关闭”状态  。 若要将其打开，请切换到“打开”（如下图所示），并保存设置  。 
+从 Power BI 服务的“容量设置”页中，在“数据流”部分启用增强的计算引擎。  默认情况下，增强的计算引擎处于“关闭”状态。 若要将其打开，请切换到“打开”（如下图所示），并保存设置。 
 
 ![打开增强的计算引擎](media/service-dataflows-enhanced-compute-engine/enhanced-compute-engine-01.png)
 
-打开增强的计算引擎后，返回到数据流。你应会看到，任何对基于现有的链接实体创建的数据流（容量相同）执行复杂操作（如“联结”  或“分组”  操作）的计算实体的性能都有所提高。 
+> [!IMPORTANT]
+> 增强的计算引擎仅适用于 A3 及以上的 Power BI 容量。
+
+打开增强的计算引擎后，返回到数据流。你应会看到，任何对基于现有的链接实体创建的数据流（容量相同）执行复杂操作（如“联结”或“分组”操作）的计算实体的性能都有所提高。 
 
 若要充分利用计算引擎，你应按照以下方式将 ETL 阶段分成两个单独的数据流：
 

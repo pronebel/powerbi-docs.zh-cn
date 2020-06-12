@@ -8,12 +8,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 01/29/2020
 ms.author: v-pemyer
-ms.openlocfilehash: 1ab1ed139a62b1929cb1b4da411bf7949a5d151e
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: b024ff52585a4b9b46b60e3230a059b3d07d7b24
+ms.sourcegitcommit: 9c72ec6b2d6d4574c86e976a65c076764473482d
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83279747"
+ms.lasthandoff: 06/02/2020
+ms.locfileid: "84273890"
 ---
 # <a name="tenant-admin-settings-guidance"></a>租户管理员设置指南
 
@@ -29,7 +29,7 @@ ms.locfileid: "83279747"
 
 建议使用 [Microsoft Teams](/microsoftteams) 或其他协作平台建立与 Power BI 相关的内部站点。 这些站点可用于存储培训文档、主持讨论、请求许可证或响应求助。
 
-如果执行此操作，建议为整个组织启用“发布‘获取帮助’信息”设置   。 它可以在“帮助和支持设置”组中找到  。 可以为以下内容设置 URL：
+如果执行此操作，建议为整个组织启用“发布‘获取帮助’信息”设置。 它可以在“帮助和支持设置”组中找到。 可以为以下内容设置 URL：
 
 - 培训文档
 - 讨论论坛
@@ -39,17 +39,17 @@ ms.locfileid: "83279747"
 这些 URL 将成为 Power BI 帮助菜单中的链接。
 
 > [!NOTE]
-> 提供“授权请求”URL 将阻止单个用户注册免费的 60 天 Power BI Pro 试用版  。 会将这些用户导向内部站点，提供有关如何获得（免费或 Pro）许可证的信息。
+> 提供“授权请求”URL 将阻止单个用户注册免费的 60 天 Power BI Pro 试用版。 会将这些用户导向内部站点，提供有关如何获得（免费或 Pro）许可证的信息。
 
 ![显示“发布‘获取帮助’信息”设置。](media/admin-tenant-settings/publish-get-help-information.png)
 
 ## <a name="manage-risk"></a>管理风险
-
+用于管理风险的设置可帮助在 Power BI 租户中建立治理策略。 但请记住，治理设置并不是一种安全措施。 例如，禁用“导出数据”设置将从 Power BI 用户界面中删除该功能，并以此方式帮助 Power BI 用户在符合组织治理策略的情况下工作，但不会阻止已确定的用户使用其他选项导出数据。 从安全角度来看，对某一数据集具有读取访问权限的 Power BI 用户具有查询此数据集的权限，并且无论 Power BI 用户界面中的可用功能如何，都可以保留结果。
 ### <a name="receive-email-notification-service-outages-or-incidents"></a>接收与服务中断或突发事件相关的电子邮件通知
 
 如果你的租户受到服务中断或突发事件的影响，可以通过电子邮件通知你。 这样，你就可以主动响应事件。
 
-建议启用“接收与服务中断或突发事件相关的电子邮件通知”设置  。 它可以在“帮助和支持设置”组中找到  。 分配一个或多个“启用了邮件的”安全组  。
+建议启用“接收与服务中断或突发事件相关的电子邮件通知”设置。 它可以在“帮助和支持设置”组中找到。 分配一个或多个“启用了邮件的”安全组。
 
 ![显示“接收与服务中断或突发事件相关的电子邮件通知”设置。](media/admin-tenant-settings/receive-email-notifications-for-service-outages-or-incidents.png)
 
@@ -68,9 +68,9 @@ ms.locfileid: "83279747"
 > [!NOTE]
 > 目前处于旧工作区体验过渡到新体验的时期。 此租户设置仅适用于新体验。
 
-默认为整个组织启用“创建工作区”设置  。 它位于“工作区设置”组中  。
+默认为整个组织启用“创建工作区”设置。 它位于“工作区设置”组中。
 
-建议分配一个或多个安全组。 可以授权或拒绝这些组创建工作区  。
+建议分配一个或多个安全组。 可以授权或拒绝这些组创建工作区。
 
 请确保在文档中包含说明，以使用户（没有工作区创建权限的用户）知道如何请求新的工作区。
 
@@ -80,9 +80,9 @@ ms.locfileid: "83279747"
 
 用户可以与组织外部的人员共享报表和仪表板。
 
-默认为整个组织启用“与外部用户共享内容”设置  。 它位于“导出和共享设置”组中  。
+默认为整个组织启用“与外部用户共享内容”设置。 它位于“导出和共享设置”组中。
 
-建议分配一个或多个安全组。 可以授权或拒绝这些组与外部用户共享内容  。
+建议分配一个或多个安全组。 可以授权或拒绝这些组与外部用户共享内容。
 
 ![显示“与外部用户共享内容”设置。](media/admin-tenant-settings/share-content-with-external-users.png)
 
@@ -90,11 +90,11 @@ ms.locfileid: "83279747"
 
 [发布到 Web](../collaborate-share/service-publish-to-web.md) 功能允许在 Web 上发布公开报表。 如果使用不当，可能有在 Web 上实时公开保密信息的风险。
 
-默认为整个组织启用“发布到 Web”设置，但限制非管理员用户创建嵌入代码  。 它位于“导出和共享设置”组中  。
+默认为整个组织启用“发布到 Web”设置，但限制非管理员用户创建嵌入代码。 它位于“导出和共享设置”组中。
 
-如果启用，建议分配一个或多个安全组。 可以授权或拒绝这些组发布报表  。
+如果启用，建议分配一个或多个安全组。 可以授权或拒绝这些组发布报表。
 
-此外，还可以选择嵌入代码的工作方式。 默认设置为“只允许现有代码”  。 这意味着将要求用户与 Power BI 管理员联系以创建嵌入代码。
+此外，还可以选择嵌入代码的工作方式。 默认设置为“只允许现有代码”。 这意味着将要求用户与 Power BI 管理员联系以创建嵌入代码。
 
 ![显示“发布到 Web”设置。](media/admin-tenant-settings/publish-to-web.png)
 
@@ -104,9 +104,9 @@ ms.locfileid: "83279747"
 
 可以限制用户从仪表板磁贴或报表视觉对象导出数据。
 
-默认为整个组织启用“导出数据”设置  。 它位于“导出和共享设置”组中  。
+默认为整个组织启用“导出数据”设置。 它位于“导出和共享设置”组中。
 
-建议分配一个或多个安全组。 可以授权或拒绝这些组发布报表  。
+建议分配一个或多个安全组。 可以授权或拒绝这些组发布报表。
 
 > [!IMPORTANT]
 > 禁用此设置还会限制使用[在 Excel 中分析](../collaborate-share/service-analyze-in-excel.md)和 Power BI 服务[实时连接](../connect-data/desktop-report-lifecycle-datasets.md#using-a-power-bi-service-live-connection-for-report-lifecycle-management)功能。
@@ -120,9 +120,9 @@ ms.locfileid: "83279747"
 
 外部来宾用户可以编辑和管理 Power BI 内容。 有关详细信息，请参阅[使用 Azure AD B2B 将 Power BI 内容分发给外部来宾用户](../admin/service-admin-azure-ad-b2b.md)。
 
-默认为整个组织禁用“允许外部来宾用户编辑和管理组织中的内容”设置  。 它位于“导出和共享设置”组中  。
+默认为整个组织禁用“允许外部来宾用户编辑和管理组织中的内容”设置。 它位于“导出和共享设置”组中。
 
-如果需要授权外部用户编辑和管理内容，建议分配一个或多个安全组。 可以授权或拒绝这些组发布报表  。
+如果需要授权外部用户编辑和管理内容，建议分配一个或多个安全组。 可以授权或拒绝这些组发布报表。
 
 ![显示“允许外部来宾用户编辑和管理组织中的内容”设置。](media/admin-tenant-settings/allow-external-guest-users.png)
 
@@ -143,6 +143,6 @@ ms.locfileid: "83279747"
 
 - [什么是 Power BI 管理？](../admin/service-admin-administering-power-bi-in-your-organization.md)
 - [在管理门户中管理 Power BI](../admin/service-admin-portal.md)
-- 是否有任何问题？ [尝试咨询 Power BI 社区](https://community.powerbi.com/)
+- 是否有任何问题? [尝试咨询 Power BI 社区](https://community.powerbi.com/)
 - 建议？ [提出改进 Power BI 的想法](https://ideas.powerbi.com)
 
