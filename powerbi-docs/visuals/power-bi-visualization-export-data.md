@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 05/20/2020
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 01f2d8add417b1d1d37ef043ccb3c48c2609162d
-ms.sourcegitcommit: 2cb249fc855e369eed1518924fbf026d5ee07eb1
+ms.openlocfilehash: b0fc91eab8c377f5571e66eb7baaf55234fafa97
+ms.sourcegitcommit: f05f7b0112a8ec2dce60839ea5f922eda3cc776c
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/24/2020
-ms.locfileid: "83813591"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "84337018"
 ---
 # <a name="export-the-data-that-was-used-to-create-a-visualization"></a>探索用于创建可视化效果的数据
 
@@ -154,24 +154,26 @@ ms.locfileid: "83813591"
 
     - 由于我们已将筛选器应用于可视化效果，导出数据将作为筛选后的数据导出。 请注意，第一行显示为“应用的筛选器：城市不是乔治亚洲亚特兰大”。 
 
-## <a name="protecting-proprietary-data"></a>保护专有数据
+## <a name="customize-the-export-data-user-experience"></a>自定义导出数据用户体验
 
-数据集可能包含不应被所有用户看见的内容。 如果你不小心，导出基础数据可能会让用户看到该视觉对象的所有详细数据（数据中的每一列和每一行）。 
+有权访问报表的用户具有访问整个基础数据集的权限，除非[行级别安全性 (RLS)](../admin/service-admin-rls.md) 限制其访问权限。 报表作者和 Power BI 管理员可以使用下面所述的功能来自定义用户体验。
 
-Power BI 管理员和设计人员应使用几种策略来保护专有数据。 
+- 报表作者[决定](#set-the-export-options)用户可以使用的导出选项。  
 
-- 设计人员[决定](#set-the-export-options)用户可以使用的导出选项。  
-
-- Power BI 管理员可以为其组织关闭数据导出。 
+- Power BI 管理员可为其组织关闭某些或所有数据导出选项。  
 
 - 数据集所有者可以设置行级别安全性 (RLS)。 RLS 将限制对只读用户的访问。 但是，如果已配置应用工作区，并且授予给定成员编辑权限，则将不会对其应用 RLS 角色。 有关详细信息，请参阅[行级别安全性](../admin/service-admin-rls.md)。
 
-- 报表设计人员可以隐藏列，使其不显示在“字段”列表中。 有关详细信息，请参阅[数据集属性](../developer/automation/api-dataset-properties.md)
+- 报表作者可以隐藏列，使其不显示在“字段”列表中。 有关详细信息，请参阅[数据集属性](../developer/automation/api-dataset-properties.md)
 
-- Power BI 管理员可以将[敏感度标签](../admin/service-security-data-protection-overview.md)添加到仪表板、报表、数据集和数据流中。 然后，在导出数据时，他们可以强制执行加密或水印等保护设置。 
 
-- Power BI 管理员可以使用 [Microsoft Cloud App Security](../admin/service-security-data-protection-overview.md) 监视用户访问和活动，执行实时风险分析，并设置标签特定的控件。 例如，组织可以使用 Microsoft Cloud App Security 来配置策略，防止用户将敏感数据从 Power BI 下载到非托管设备。 
+这些自定义用户体验不会限制用户可以访问数据集中的哪些数据。在数据集中使用[行级别安全性 (RLS)](../admin/service-admin-rls.md)，以便每个人的凭据都可以确定他们可以访问的数据。
 
+## <a name="protect-data-when-it-is-exported-out-of-power-bi"></a>在将数据导出 Power BI 时保护数据
+
+- 报表作者可以向报表应用[敏感度标签](../admin/service-security-data-protection-overview.md)。  这些标签确定谁可以访问报表数据，以及这些数据如何导出到 Excel、PowerPoint 和 PDF。 某些敏感度级别包括在导出数据时应用的保护设置（例如权限、加密）。 如果敏感度级别包括保护设置，则在将数据导出到 Excel、PowerPoint 和 PDF 时，将应用这些设置。 只有具有适当权限的人员才能导出、查看、保存和共享报表数据。 
+
+- 安全管理员和 Power BI 管理员可以使用 [Microsoft Cloud App Security](../admin/service-security-data-protection-overview.md) 来监视用户访问和活动，执行实时风险分析，并设置标签特定的控件。 例如，组织可以使用 Microsoft Cloud App Security 来配置策略，防止用户将敏感数据从 Power BI 下载到非托管设备。
 
 ## <a name="export-underlying-data-details"></a>导出基础数据的详细信息
 
