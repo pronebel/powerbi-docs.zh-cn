@@ -122,6 +122,8 @@
               href: desktop-connect-to-web.md
             - name: 连接到 Snowflake 计算仓库
               href: desktop-connect-snowflake.md
+            - name: 在 Power BI 服务中连接到 Snowflake
+              href: service-connect-snowflake.md
             - name: 通过 Azure 成本管理连接器创建视觉对象
               href: desktop-connect-azure-cost-management.md
             - name: 连接到 Azure 使用见解数据

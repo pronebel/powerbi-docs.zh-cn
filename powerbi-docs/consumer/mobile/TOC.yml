@@ -30,7 +30,7 @@
           href: mobile-apps-offline-data.md
         - name: Power BI for Mixed Reality 应用（预览版）
           href: mobile-mixed-reality-app.md
-    - name: 如何
+    - name: 操作方法
       items:
         - name: 所有移动应用
           items:
@@ -84,6 +84,8 @@
               href: mobile-apps-iOS-siri-Shortcuts.md
             - name: iOS 设备搜索集成
               href: mobile-apps-iOS-search-integration.md
+            - name: 深色模式
+              href: mobile-apps-dark-mode.md
             - name: Power BI Apple Watch 应用
               href: mobile-apple-watch.md
         - name: Android 设备
@@ -106,7 +108,7 @@
               href: mobile-pin-dashboard-start-screen-windows-10-phone-app.md
             - name: 查看本地报表和 KPI
               href: mobile-app-windows-10-ssrs-kpis-mobile-reports.md
-            - name: 查看 Surface Hub 上的 Power BI
+            - name: Surface Hub 和 Windows 10 设备上的演示模式
               href: mobile-windows-10-app-presentation-mode.md
             - name: Windows 应用中的单一登录
               href: mobile-windows-10-app-single-sign-on-sso.md

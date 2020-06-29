@@ -74,6 +74,8 @@
               href: end-user-spotlight.md
             - name: 个性化设置视觉对象
               href: end-user-personalize-visuals.md
+            - name: 分析视觉对象中的波动
+              href: end-user-analyze-visuals.md
             - name: Power BI 中的分页报表
               items:
                 - name: 分页报表
@@ -92,6 +94,8 @@
               href: end-user-visual-type.md
             - name: 显示用于创建可视化效果的数据
               href: end-user-show-data.md
+            - name: 复制视觉对象并将其粘贴到其他位置
+              href: end-user-copy-paste.md
             - name: 在可视化效果中向下钻取
               href: end-user-drill.md
             - name: 与 ArcGIS 地图交互
