@@ -28,6 +28,8 @@
               href: star-schema.md
             - name: 减少数据模型大小
               href: import-modeling-data-reduction.md
+            - name: 创建日期表
+              href: model-date-tables.md
             - name: 自动日期/时间指南
               href: auto-date-time.md
             - name: 一对一关系
@@ -44,6 +46,8 @@
               href: directquery-model-guidance.md
             - name: 复合模型指导
               href: composite-model-guidance.md
+            - name: 行级安全性 (RLS) 指南
+              href: rls-guidance.md
         - name: DAX
           items:
             - name: DIVIDE 函数与除法运算符 (/)

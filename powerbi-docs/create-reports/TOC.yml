@@ -47,6 +47,8 @@
       items:
         - name: Power BI 报表
           items:
+            - name: Power BI 新式功能区
+              href: desktop-ribbon.md
             - name: 使用报表视图
               href: desktop-report-view.md
             - name: 报表中筛选器的类型
