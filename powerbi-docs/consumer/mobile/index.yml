@@ -12,12 +12,12 @@ metadata:
   author: maggiesMSFT
   ms.author: maggies
   ms.date: 02/11/2020
-  ms.openlocfilehash: 96881ecb03132579643517679aaab3c87b7a977f
-  ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+  ms.openlocfilehash: 2d15b3e6bf3ab2c097353ecf7647c244db8cdcdc
+  ms.sourcegitcommit: 6d3a37eb636e1b71c7dcb9d1c3a9e495b78dec97
   ms.translationtype: HT
   ms.contentlocale: zh-CN
-  ms.lasthandoff: 05/05/2020
-  ms.locfileid: "78923899"
+  ms.lasthandoff: 06/11/2020
+  ms.locfileid: "84681873"
 landingContent:
 - title: 关于 Power BI 移动应用
   linkLists:
@@ -29,7 +29,7 @@ landingContent:
       url: mobile-whats-new-in-the-mobile-apps.md
     - text: 移动应用主页
       url: mobile-apps-home-page.md
-- title: 入门
+- title: 开始使用
   linkLists:
   - linkListType: get-started
     links:
@@ -43,7 +43,7 @@ landingContent:
     links:
     - text: 了解仪表板和报表
       url: mobile-apps-quickstart-view-dashboard-report.md
-- title: 探究
+- title: 浏览
   linkLists:
   - linkListType: tutorial
     links:
@@ -55,8 +55,8 @@ landingContent:
       url: mobile-apps-offline-data.md
     - text: 共享仪表板或报表
       url: mobile-share-dashboard-from-the-mobile-apps.md
-    - text: 设置数据警报
-      url: mobile-set-data-alerts-in-the-mobile-apps.md
+    - text: 针对移动应用优化报表
+      url: ../../create-reports/desktop-create-phone-report.md
 - title: 本地报表
   linkLists:
   - linkListType: how-to-guide

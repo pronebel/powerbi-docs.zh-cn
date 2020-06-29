@@ -13,18 +13,18 @@ metadata:
   author: KesemSharabi
   ms.author: kesharab
   ms.date: 31/03/2020
-  ms.openlocfilehash: 8d37f5a4cde341dd8788791fecdbd1c7f20249d0
-  ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+  ms.openlocfilehash: 57dbd3c64265ba532167db806d714054767bc506
+  ms.sourcegitcommit: 52f365af6ea5359e39d4d4547f1d61e5e0d08c5f
   ms.translationtype: HT
   ms.contentlocale: zh-CN
-  ms.lasthandoff: 05/05/2020
-  ms.locfileid: "80487790"
+  ms.lasthandoff: 06/16/2020
+  ms.locfileid: "84795038"
 highlightedContent:
   items:
-  - title: Power BI 的嵌入式分析
+  - title: Power BI 嵌入式分析
     itemType: overview
     url: embedded/embedding.md
-  - title: 嵌入 Azure 中的 Power BI 是什么？
+  - title: Azure 中的 Power BI Embedded 是指什么？
     itemType: overview
     url: embedded/azure-pbie-what-is-power-bi-embedded.md
   - title: Power BI 中的视觉对象
@@ -39,16 +39,16 @@ conceptualContent:
     links:
     - url: embedded/embedding.md
       itemType: overview
-      text: Power BI 的嵌入式分析
+      text: Power BI 嵌入式分析
     - url: embedded/azure-pbie-what-is-power-bi-embedded.md
       itemType: overview
-      text: 嵌入 Azure 中的 Power BI 是什么？
+      text: Azure 中的 Power BI Embedded 是指什么？
     - url: embedded/embedded-capacity.md
       itemType: concept
       text: 容量和 SKU
     footerLink:
       url: embedded/index.yml
-      text: 查看详细信息
+      text: 了解详细内容
   - title: Power BI 视觉对象
     links:
     - url: visuals/power-bi-custom-visuals.md
@@ -62,7 +62,7 @@ conceptualContent:
       text: 将 Power BI 视觉对象发布到合作伙伴中心
     footerLink:
       url: visuals/index.yml
-      text: 查看详细信息
+      text: 了解详细内容
   - title: 自动化
     links:
     - url: automation/overview-of-power-bi-rest-api.md
@@ -76,7 +76,7 @@ conceptualContent:
       text: 配置凭据
     footerLink:
       url: automation/index.yml
-      text: 查看详细信息
+      text: 了解详细内容
 additionalContent:
   sections:
   - title: 相关工具
@@ -95,7 +95,7 @@ additionalContent:
       url: https://powerbi.microsoft.com/developers/
     - title: Power BI 视觉对象示例
       summary: 由 Power BI 示例及其代码库组成的一个集合。
-      url: https://microsoft.github.io/PowerBI-visuals/samples/
+      url: visuals/samples.md
     - title: Power BI 库
       summary: Power BI 库 (NuGet)。
       url: https://www.nuget.org/profiles/powerbi
