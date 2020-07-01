@@ -5,16 +5,16 @@ author: maggiesMSFT
 ms.reviewer: lukaszp
 ms.service: powerbi
 ms.subservice: powerbi-service
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 08/02/2018
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: f628b4d2163a52582e2089671c5394be2ddcc740
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 3857478e972caef0a53c1de82f6dcc96650a7386
+ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83273721"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "85225701"
 ---
 # <a name="manage-update-and-delete-organizational-content-packs"></a>管理、更新和删除组织内容包
 > [!NOTE]
@@ -78,7 +78,7 @@ ms.locfileid: "83273721"
 > 
 
 1. 若要从 AppSource 中删除内容包，请转到在其中创建内容包的工作区，再依次选择齿轮图标 ![](media/service-organizational-content-pack-manage-update-delete/cog.png) 和“查看内容包”  。
-2. 依次选择“删除”\>“删除”  。 
+2. 依次选择“删除”\>“删除”。 
    
    * 对于未自定义内容包的组成员，将自动删除与该内容包相关联的仪表板和报表。 这些内容将不再可用，且导航窗格中不会显示该内容包。
    * 对于已自定义内容包的组成员，他们下次打开自定义仪表板时，将不再显示来自原始内容包的所有磁贴。  但仍将呈现固定自其他报表的磁贴。 原始内容包报表和数据集将不再可用，且导航窗格中不会显示该内容包。   

@@ -5,16 +5,16 @@ author: maggiesMSFT
 ms.reviewer: lukaszp
 ms.service: powerbi
 ms.subservice: powerbi-service
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 08/02/2018
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 81406726bacac4d2a59f513473d04a8c083c90bd
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: 031feb65d3a99dd18a7d47b44af1f346859d32d1
+ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83348013"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "85225784"
 ---
 # <a name="remove-your-connection-to-a-power-bi-organizational-content-pack"></a>删除与 Power BI 组织内容包的连接
 
@@ -26,7 +26,7 @@ ms.locfileid: "83348013"
 
 要删除内容包，可以删除其数据集。  
 
-* 在导航窗格中，选择该数据集右侧的省略号，然后选择“删除” **“是”\>** 。  
+* 在导航窗格中，选择该数据集右侧的省略号，然后选择“删除”\>“是”。  
   
   ![删除内容包](media/service-organizational-content-pack-disconnect/power-bi-remove-organizational-content-pack-dataset.png)
 
