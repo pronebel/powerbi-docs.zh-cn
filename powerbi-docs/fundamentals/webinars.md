@@ -6,14 +6,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 05/18/2020
+ms.date: 06/16/2020
 ms.author: kfollis
-ms.openlocfilehash: 1a90a9826d794f84933a75213043c31a9a67a4b5
-ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
+ms.openlocfilehash: 872c847f25c15b46338127dd4a5a15cc536e5ee2
+ms.sourcegitcommit: 3e7e3cb2c2e398cffe8733d99e3ac832ee056dc9
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/19/2020
-ms.locfileid: "83566031"
+ms.lasthandoff: 06/17/2020
+ms.locfileid: "84973398"
 ---
 # <a name="power-bi-webinars"></a>Power BI 网络研讨会
 [//]: # "Tatevik Tatero 是与 Chauncy Freels 合作的供应商，可帮助维护此网络研讨会列表"
@@ -22,12 +22,7 @@ ms.locfileid: "83566031"
 
 ## <a name="upcoming-webinars"></a>即将举行的网络研讨会
 
-**Analytics 和 BI 之间的区别是什么？**
-<br>作者：Microsoft 的 Nate Findley 和 Charles Feddersen
-<br>[注册以观看 2020 年 6 月 3 日上午 10:00–11:00（太平洋夏令时）的视频]( https://info.microsoft.com/ww-landing-What-is-the-difference-between-analytics-and-business-intelligence.html?lcid=en-u)
-
-
->[Power BI 社区即将举行的网络研讨会](https://powerbi.microsoft.com/blog/tag/community-webinars/?Is=Website)
+[Power BI 社区即将举行的网络研讨会](https://powerbi.microsoft.com/blog/tag/community-webinars/?Is=Website)
 
 ## <a name="featured-webinars"></a>特别推荐的网络研讨会
 

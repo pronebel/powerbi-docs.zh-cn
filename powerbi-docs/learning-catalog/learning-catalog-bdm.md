@@ -1,17 +1,17 @@
 ---
 title: 业务和技术决策者学习目录
 description: 查找针对 Power BI 的所有培训选项
-author: loreleishannonmsft
+author: margoc
 ms.prod: powerbi
 ms.topic: article
 ms.date: 03/25/2020
-ms.author: v-lshann
-ms.openlocfilehash: fbdd55309de033c4173c9068cf0f2bc499855307
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.author: margoc
+ms.openlocfilehash: f41699791ee79ae963978f69974e91f336ccd193
+ms.sourcegitcommit: 66b1a0c74b8a7dcb33a2f8570fb67bce2401a895
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "81268434"
+ms.lasthandoff: 06/08/2020
+ms.locfileid: "84532755"
 ---
 # <a name="business-and-technical-decision-makers-learning-catalog"></a>业务和技术决策者学习目录
 

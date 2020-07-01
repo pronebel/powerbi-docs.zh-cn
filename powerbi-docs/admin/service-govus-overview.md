@@ -10,14 +10,15 @@ ms.date: 06/02/2020
 ms.author: kfollis
 ms.custom: licensing support
 LocalizationGroup: Get started
-ms.openlocfilehash: 8be103d01b5f46c510a1e3658d5a5e29d566a5ff
-ms.sourcegitcommit: f05f7b0112a8ec2dce60839ea5f922eda3cc776c
+ms.openlocfilehash: 3d50b8678abd54d2a4543b5a2d187f32b491b063
+ms.sourcegitcommit: aece2382b618dc5b730705b4c76e76a657986588
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "84336535"
+ms.lasthandoff: 06/04/2020
+ms.locfileid: "84427115"
 ---
 # <a name="power-bi-for-us-government-customers"></a>适用于美国政府客户的 Power BI
+
 本文适用于将 Power BI 作为 Microsoft 365 政府版计划的一部分进行部署的美国政府客户。 政府版计划专为必须满足美国合规性和安全性标准的组织的独特需求而设计。 为美国政府客户设计的 Power BI 服务不同于 Power BI 服务的商业版本。 下面几节说明了这些特性差异和功能。
 
 ## <a name="add-power-bi-to-your-microsoft-365-government-plan"></a>将 Power BI 添加到 Microsoft 365 政府版计划
@@ -33,13 +34,14 @@ ms.locfileid: "84336535"
 >
 >
 ## <a name="government-cloud-instances"></a>政府云实例
+
 Microsoft 365 为政府机构提供不同的环境，以满足不同的符合性要求。 有关每个环境的详细信息，请参阅：
 
 * [Microsoft 365 政府社区云 (GCC)](https://docs.microsoft.com/office365/servicedescriptions/office-365-platform-service-description/office-365-us-government/gcc) 专为联邦、州/省/直辖市/自治区和地方政府设计。
 
 * [Microsoft 365 政府社区云“高”级别 (GCC High)](https://docs.microsoft.com/office365/servicedescriptions/office-365-platform-service-description/office-365-us-government/gcc-high-and-dod) 专为联邦机构、国防行业、航空工业以及持有受控非密信息的其他组织设计。 此环境适用于具有国际武器贸易条例 (ITAR) 数据或国防联邦采购补充规定 (DFARS) 要求的国家安全组织和公司。
 
-* [Microsoft 365 DoD 环境](https://docs.microsoft.com/office365/servicedescriptions/office-365-platform-service-description/office-365-us-government/gcc-high-and-dod)专为美国国防部设计。 
+* [Microsoft 365 DoD 环境](https://docs.microsoft.com/office365/servicedescriptions/office-365-platform-service-description/office-365-us-government/gcc-high-and-dod)专为美国国防部设计。
 
 ## <a name="connect-to-power-bi-for-us-government"></a>连接到适用于美国政府的 Power BI
 
@@ -68,7 +70,7 @@ Azure 分布在多个云中。 默认情况下，你可以启用防火墙规则�
 * USGov Texas
 * USGov Arizona
 
-在公有云中，这些 IP 范围可用。 若要获取美国政府云 IP 范围，请下载 [Azure IP 范围和服务标记 - 美国政府云](https://www.microsoft.com/download/details.aspx?id=57063)文件。 
+在公有云中，这些 IP 范围可用。 若要获取美国政府云 IP 范围，请下载 [Azure IP 范围和服务标记 - 美国政府云](https://www.microsoft.com/download/details.aspx?id=57063)文件。
 
 若要为 SQL 数据库设置防火墙，请[创建和管理 IP 防火墙规则](https://docs.microsoft.com/azure/sql-database/sql-database-firewall-configure#create-and-manage-ip-firewall-rules)。
 
@@ -84,7 +86,7 @@ Azure 分布在多个云中。 默认情况下，你可以启用防火墙规则�
 |  |通过 Office 365 安全和合规管理中心进行审核|可用|可用|可用|
 |  |外部用户共享|可用|可用|可用|
 |  |报表和仪表板的使用指标|可用|可用|可用|
-|  |GCC 和商业云之间的 Azure B2B|不可用|不可用|不可用|
+|  |GCC 和商业云之间的 Azure B2B|可用|可用|可用|
 |报表创建|创建和查看仪表板和报表|可用|可用|可用|
 |  |计划的数据刷新|可用|可用|可用|
 |  |可刷新的团队仪表板|可用|可用|可用|
@@ -112,4 +114,4 @@ Azure 分布在多个云中。 默认情况下，你可以启用防火墙规则�
 * [注册适用于美国政府的 Power BI](service-govus-signup.md)
 * [Microsoft Power Apps US Government](https://docs.microsoft.com/power-platform/admin/powerapps-us-government)
 * [Power Automate US Government](https://docs.microsoft.com/power-automate/us-govt)
-* <a href="https://channel9.msdn.com/Blogs/Azure/Cognitive-Services-HDInsight-and-Power-BI-on-Azure-Government">Power BI 美国政府版演示</a>
+* [Power BI 美国政府版演示](https://channel9.msdn.com/Blogs/Azure/Cognitive-Services-HDInsight-and-Power-BI-on-Azure-Government)

@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.topic: tutorial
 ms.subservice: powerbi-custom-visuals
 ms.date: 03/15/2019
-ms.openlocfilehash: 6a481681801b580b9eec47c5c704d8bdea8835f1
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: d82f09fa4c545129bbd1032041dcfab6f4f67901
+ms.sourcegitcommit: a07fa723bb459494c60cf6d749b4554af723482a
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "75222086"
+ms.lasthandoff: 06/12/2020
+ms.locfileid: "84739336"
 ---
 # <a name="tutorial-developing-a-power-bi-visual"></a>教程：开发 Power BI 视觉对象
 
@@ -645,7 +645,7 @@ ms.locfileid: "75222086"
 
 ## <a name="debugging"></a>调试
 
-有关调试自定义视觉对象的提示，请参阅[调试指南](https://microsoft.github.io/PowerBI-visuals/docs/how-to-guide/how-to-debug/)。
+有关调试自定义视觉对象的提示，请参阅[调试指南](./visuals-how-to-debug.md#how-to-debug-power-bi-visuals)。
 
 ## <a name="next-steps"></a>后续步骤
 

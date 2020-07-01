@@ -5,16 +5,16 @@ author: maggiesMSFT
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 04/25/2019
 ms.author: maggies
 LocalizationGroup: Reports
-ms.openlocfilehash: 66a690f9ee786747e59a55d498dfd206ecbcb992
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: 74a0238d39d778641d1906271fd478463ee4a95a
+ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83349738"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "85218930"
 ---
 # <a name="create-a-report-in-the-power-bi-service-by-importing-a-dataset"></a>通过导入数据集在 Power BI 服务中创建报表
 你已经阅读了 [Power BI 中的报表](../consumer/end-user-reports.md)，并且现在想要创建你自己的仪表板。 有不同的方法可创建报表。 在本文中，我们将首先通过 Excel 数据集在 Power BI 服务中创建基本报表。 了解创建报表的基础知识后，请查看结尾处的[后续步骤](#next-steps)，以获取更高级的报表主题。  

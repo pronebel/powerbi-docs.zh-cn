@@ -5,16 +5,16 @@ author: maggiesMSFT
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 05/26/2020
 ms.author: maggies
 LocalizationGroup: Ask questions of your data
-ms.openlocfilehash: 6e3d44c9871332842ed0e3f3d9b9fb5fc64a5a65
-ms.sourcegitcommit: a7b142685738a2f26ae0a5fa08f894f9ff03557b
+ms.openlocfilehash: 65ed1806491f281bcc4d8adc365e5d286b6204ec
+ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/28/2020
-ms.locfileid: "84121103"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "85218829"
 ---
 # <a name="create-featured-questions-for-power-bi-qa"></a>创建 Power BI 问答的精选问题
 如果你拥有一个数据集，你可以向该数据集添加自己精选的问题。 Power BI 问答向使用基于该数据集的报表的同事显示这些问题。  精选问题会让你的同事了解他们可以就数据集询问哪些类型的问题。 你添加的精选问题都由你决定 -- 可以添加常见问题、显示有趣结果的问题，或可能会很难组织描述的问题。

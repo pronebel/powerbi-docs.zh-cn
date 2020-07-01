@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: conceptual
 ms.date: 04/29/2020
-ms.openlocfilehash: 0089a38c852d82acaebc8cab0f0fb653c6a304cb
-ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
+ms.openlocfilehash: f18f8b56db8635d407417949bc35adb61fb4a2c5
+ms.sourcegitcommit: aece2382b618dc5b730705b4c76e76a657986588
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/19/2020
-ms.locfileid: "83565617"
+ms.lasthandoff: 06/04/2020
+ms.locfileid: "84427568"
 ---
 # <a name="paginated-reports-in-power-bi-faq"></a>Power BI 中的分页报表：常见问题解答 
 
@@ -96,7 +96,7 @@ Power BI 报表针对浏览和交互性进行了优化。  例如，对于销售
 
 ### <a name="what-versions-of-report-builder-do-you-support"></a>支持哪些报表生成器版本？
 
-我们发布了 Power BI 报表生成器，作为 Power BI 服务中分页报表的主要创作工具。 [从 Microsoft 下载中心安装 Power BI 报表生成器](https://go.microsoft.com/fwlink/?linkid=2086513)。
+我们发布了 Power BI 报表生成器，作为 Power BI 服务中分页报表的主要创作工具。 [从 Microsoft 下载中心安装 Power BI 报表生成器](https://aka.ms/pbireportbuilder)。
 
 ### <a name="how-do-i-move-existing-reports-i-have-saved-in-sql-server-reporting-services-to-power-bi"></a>我如何将保存在 SQL Server Reporting Services 中的报表移动到 Power BI？
 
@@ -181,5 +181,5 @@ SaaS 嵌入（包括安全嵌入支持）现已可用。 有关 PaaS 嵌入，�
 
 ## <a name="next-steps"></a>后续步骤
 
-- [从 Microsoft 下载中心安装 Power BI 报表生成器](https://go.microsoft.com/fwlink/?linkid=2086513)
+- [从 Microsoft 下载中心安装 Power BI 报表生成器](https://aka.ms/pbireportbuilder)
 - [教程：创建分页报表](paginated-reports-quickstart-aw.md)

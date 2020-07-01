@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.topic: tutorial
 ms.subservice: powerbi-custom-visuals
 ms.date: 11/21/2018
-ms.openlocfilehash: 3d0dc39fbf6d1daf978292d0e5e43129e66376c7
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 2a557f1e84e8102df6b22121c7f0b79d761ce49e
+ms.sourcegitcommit: a07fa723bb459494c60cf6d749b4554af723482a
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "79380999"
+ms.lasthandoff: 06/12/2020
+ms.locfileid: "84739313"
 ---
 # <a name="tutorial-adding-formatting-options-to-a-power-bi-visual"></a>教程：向 Power BI 视觉对象添加格式设置选项
 
@@ -283,7 +283,7 @@ ms.locfileid: "79380999"
 
 ## <a name="debugging"></a>调试
 
-有关调试自定义视觉对象的提示，请参阅[调试指南](https://microsoft.github.io/PowerBI-visuals/docs/how-to-guide/how-to-debug/)。
+有关调试自定义视觉对象的提示，请参阅[调试指南](./visuals-how-to-debug.md#how-to-debug-power-bi-visuals)。
 
 ## <a name="next-steps"></a>后续步骤
 

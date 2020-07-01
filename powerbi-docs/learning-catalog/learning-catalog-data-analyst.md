@@ -1,17 +1,17 @@
 ---
 title: 数据分析师学习目录
 description: 查找针对 Power BI 的所有培训选项
-author: loreleishannonmsft
+author: margoc
 ms.prod: powerbi
 ms.topic: article
 ms.date: 03/25/2020
-ms.author: v-lshann
-ms.openlocfilehash: 97ecff0abf13ff72d7794b06085be077efbe9027
-ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
+ms.author: margoc
+ms.openlocfilehash: 4664966098089d564e82207eb7aac923bc626b77
+ms.sourcegitcommit: 66b1a0c74b8a7dcb33a2f8570fb67bce2401a895
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/19/2020
-ms.locfileid: "83565755"
+ms.lasthandoff: 06/08/2020
+ms.locfileid: "84532180"
 ---
 # <a name="data-analyst-learning-catalog"></a>数据分析师学习目录
 
@@ -55,6 +55,11 @@ ms.locfileid: "83565755"
 | [使 Power BI 数据可视化：核心图表类型以及使用方法](https://info.microsoft.com/Make-your-Power-BI-Data-Visual-OnDemandRegistration.html)  | 图表类型是可视化分析最基本的组成部分之一。 通过正确使用图表，我们可以创建适当的模式和清晰度，并为用户提供正确的答案。  | 网络研讨会 |             |
 | [使用新的 Power BI 和 data.world 连接器查看公用或专用数据集](https://info.microsoft.com/data-world-connector-powerbi-ondemand.html)  | Microsoft 已与 data.world 合作发布了新的数据连接器，使用此连接器可以将 data.world 数据集导入 Power BI Desktop。 我们很高兴能与 data.world 携手合作，帮助数据爱好者更轻松地收集、管理、浏览、可视化数据并与他人分享见解。  | 网络研讨会 |             |
 | [在 Power BI 仪表板中使用现实生活中的可视化效果获取可操作见解](https://community.powerbi.com/t5/Webinars-and-Video-Gallery/8-10-18-Webinar-Get-actionable-insights-using-real-world/td-p/480242) | 倾听 Charles Sterling 和 Shakun Grover 的讲解，他们将在 Power BI 仪表板中使用现实生活中的可视化效果。  Microsoft Visio 提供了一个完美的画布，用于直观地将数据情景化并描述流程。 利用 Power BI 的新 Visio 视觉对象，可以轻松地在 Power BI 仪表板中使用 Visio 的生动、强大的可视化功能来获得见解和指导操作。                              | 网络研讨会 | 34 分钟 19 秒 |
+## <a name="dax"></a>DAX<a name="dax"></a>
+| 内容 | 说明 | 格式  | 长度      |
+|--------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------|-------------|
+| [适用于 Power BI 的实用 DAX（主讲人：Phil Seamark）](https://www.youtube.com/watch?v=1fGfqzS37qs)  | Phil Seamark 将在 Power BI 中演示实用 DAX 的最佳做法，这与他新书的内容相对应   | YouTube 视频 | 59 分钟 41 秒 |
+| [创造性的 DAX 解决方案（主讲人：Phil Seamark）](https://community.powerbi.com/t5/Webinars-and-Video-Gallery/10-2-18-Webinar-Creative-DAX-solutions-by-Philip-Seamark/td-p/516250) | 你是否知道，DAX 语言远比仅对列运行 SUM，或对表中的行进行计数更加强大？ DAX 是速度最快的数据库之一。 加入 Charles Sterling 和 Philip Seamark，因为他们将探索一些不寻常且具有创造性的方案，而你可能没有想到这些方案是可行的。 | 网络研讨会       | 58 分钟 12 秒 |
 ## <a name="governance-and-deployment"></a>治理和部署<a name="governance-deployment"></a>
 | 内容  | 说明   | 格式  | 长度 |
 |------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------|--------|

@@ -5,16 +5,16 @@ author: maggiesMSFT
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 03/01/2018
 ms.author: maggies
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 332b179c1eb097883592d1d1df531b525df585c2
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: baf48e1cfa2bc37652880c9ab4201f2f49ff3c32
+ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83323266"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "85218645"
 ---
 # <a name="pin-a-tile-from-one-dashboard-to-another-dashboard"></a>将磁贴从一个仪表板固定到另一个仪表板
 添加新的[仪表板磁贴](../consumer/end-user-tiles.md)的一种方法是从另一个仪表板中复制它。 每个磁贴在单击后都是一个返回到磁贴创建位置的链接 -- 在问答或报表中。 
