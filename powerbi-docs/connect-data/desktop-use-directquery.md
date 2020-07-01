@@ -5,16 +5,16 @@ author: davidiseminger
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 05/07/2020
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 1224b7eaa6a19cab4bf6fa8304eb5c5b1fb27581
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: fcf774af00fe65c5f9708f85f6270cda8405896f
+ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83285845"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "85222556"
 ---
 # <a name="use-directquery-in-power-bi-desktop"></a>在 Power BI Desktop 中使用 DirectQuery
 使用 Power BI Desktop 时，若已连接数据源，始终可以将数据副本导入 Power BI Desktop。 对于某些数据源，还可使用另一种方法：使用 DirectQuery 直接连接到数据源。
