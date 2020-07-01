@@ -5,16 +5,16 @@ author: davidiseminger
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 05/06/2020
 ms.author: davidi
 LocalizationGroup: Model your data
-ms.openlocfilehash: 22dc752a07c1633e0c42ceb25a8fcbf2a6314f4d
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 3f23f18002ce12c3b6706469f36bde077e117941
+ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83338860"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "85237870"
 ---
 # <a name="create-calculated-tables-in-power-bi-desktop"></a>在 Power BI Desktop 中创建计算表
 大多数情况下，你都是通过将数据从外部数据源导入模型来创建表。 但借助“计算表”，你可以根据已加载到模型中的数据添加新表。 你可以创建定义表值的[数据分析表达式 (DAX)](/dax/index) 公式，而非从数据源中查询值，并将值加载到新表的列中。

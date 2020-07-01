@@ -5,16 +5,16 @@ author: maggiesMSFT
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 08/14/2019
 ms.author: maggies
 LocalizationGroup: Dashboards
-ms.openlocfilehash: a989d0e31faf5bbe919782df82e90b0943f562ff
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: 30c0600e835ad7088d6d867e9d1f4de24550c8cc
+ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83348818"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "85237200"
 ---
 # <a name="tips-for-designing-a-great-power-bi-dashboard"></a>设计出色 Power BI 仪表板的提示
 现在，你已创建了一个仪表板并添加了一些磁贴，可考虑如何使你的仪表板不仅美观，而且实用。 一般来说，这意味着突出显示最重要的信息，使其整洁有序。
@@ -22,7 +22,7 @@ ms.locfileid: "83348818"
 ![市场营销和销售示例仪表板](media/service-dashboards-design-tips/power-bi-marketing-sample-dashboard.png)
 
 > [!TIP]
-> 喜欢这个仪表板吗？ 可从 AppSource 下载它和相关报表。 转到“获取数据” **“服务”**  >   。 搜索“Microsoft 示例 - 销售和市场营销” **“立即获取”**  >   。
+> 喜欢这个仪表板吗？ 可从 AppSource 下载它和相关报表。 转到“获取数据” > “服务”。 搜索“Microsoft 示例 - 销售和市场营销” > “立即获取”。
 
 以下是有关仪表板的一些提示。
 

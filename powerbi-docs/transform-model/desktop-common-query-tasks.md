@@ -5,20 +5,20 @@ author: davidiseminger
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 01/09/2020
 ms.author: davidi
 LocalizationGroup: Transform and shape data
-ms.openlocfilehash: a9386620bf5fad436b81156870dbc38d919c7910
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: 38c14aa33504e7a3bb21cf68c6466a829d0653a7
+ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83348726"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "85238862"
 ---
 # <a name="perform-common-query-tasks-in-power-bi-desktop"></a>在 Power BI Desktop 中执行常见查询任务
 
-在 Power BI Desktop 的 Power Query 编辑器窗口中，可执行很多常用任务。 本文演示了这些常见任务，并提供其他相关信息的链接。
+在 Power BI Desktop 的 Power Query 编辑器窗口中，可执行很多常用任务。 本文演示了这些常见任务，并提供其他信息的链接。
 
 本文展示了下列常见查询任务：
 
@@ -31,7 +31,7 @@ ms.locfileid: "83348726"
 
 我们将使用几个数据连接来完成这些任务。 如果你想要自己逐步完成这些任务，可下载或连接下列数据。
 
-第一个数据连接是 [Excel 工作簿](https://download.microsoft.com/download/5/7/0/5701F78F-C3C2-450C-BCCE-AAB60C31051D/PBI_Edu_ELSi_Enrollment_v2.xlsx)，可以下载该工作簿并保存到本地。 另一个是 Web 资源，也用于其他 Power BI Desktop 文章中：
+第一个数据连接是 [Excel 工作簿](https://download.microsoft.com/download/5/7/0/5701F78F-C3C2-450C-BCCE-AAB60C31051D/PBI_Edu_ELSi_Enrollment_v2.xlsx)，可以下载该工作簿并保存到本地。 另一个是 Web 资源，也用于其他 Power BI Desktop 文章：
 
 <https://www.bankrate.com/retirement/best-and-worst-states-for-retirement/>
 
@@ -39,15 +39,15 @@ ms.locfileid: "83348726"
 
 ## <a name="connect-to-data"></a>连接到数据
 
-若要在 Power BI Desktop 中连接数据，请依次选择“主页”  、“获取数据”  。 Power BI Desktop 将显示一个含有最常见数据源的菜单。 如果要查看 Power BI Desktop 可连接到的数据源的完整列表，请选择菜单末尾的“更多”  。 有关详细信息，请参阅 [Power BI Desktop 中的数据源](../connect-data/desktop-data-sources.md)。
+若要连接到 Power BI Desktop 中的数据，请依次选择“主页”  、“获取数据”  。 Power BI Desktop 将显示一个含有最常见数据源的菜单。 对于 Power BI Desktop 可连接到的数据源的完整列表，请选择菜单末尾的“更多”  。 有关详细信息，请参阅 [Power BI Desktop 中的数据源](../connect-data/desktop-data-sources.md)。
 
 ![“最常用”数据源菜单、“获取数据”按钮、Power BI Desktop](media/desktop-common-query-tasks/commonquerytasks_getdata.png)
 
-若要开始，请选择“Excel”  ，指定前面提到的 Excel 工作簿，然后选择“打开”  。 查询编辑器将检查该工作簿，然后当你选择表后在“导航器”  对话框中会呈现它找到的数据。
+若要开始，请选择“Excel”  ，指定前面提到的 Excel 工作簿，然后选择“打开”  。 查询将检查该工作簿，然后在你选择表后在“导航器”  对话框中呈现它找到的数据。
 
 ![“Excel”数据源、“导航器”对话框、“获取数据”、Power BI Desktop](media/desktop-common-query-tasks/commonquerytasks_navigator.png)
 
-在将数据加载到 Power BI Desktop 中之前，可选择“转换数据”  编辑、调整或组合  数据。 当你使用需要在加载前削减的大型数据集时，编辑特别有用。
+在将数据加载到 Power BI Desktop 中之前，可选择“转换数据”  编辑、调整或组织  数据。 当你使用需要在加载前削减的大型数据集时，编辑特别有用。
 
 连接到其它类型的数据同样很简单。 还需要连接到 Web 资源。 选择“获取数据”   > “更多”  ，然后选择“其他”   > “Web”   > “连接”  。
 
@@ -57,7 +57,7 @@ ms.locfileid: "83348726"
 
 ![“从 Web”对话框、“Web”数据源、“获取数据”、Power BI Desktop](media/desktop-common-query-tasks/datasources_fromwebbox.png)
 
-选择“确定”。  与之前一样，Power BI Desktop 会检查 Web 页面数据，并在“导航器”  对话框中显示预览选项。 选中表时，将显示数据预览。
+选择“确定”。  与之前一样，Power BI Desktop 会检查 Web 页面数据，并在“导航器”  对话框中显示预览选项。 选择表时，将显示数据预览。
 
 其他数据连接与此类似。 如果需要身份验证才能建立数据连接，Power BI Desktop 将提示你提供相应凭据。
 
@@ -77,13 +77,13 @@ ms.locfileid: "83348726"
 
 ![“删除列”命令、Power Query 编辑器、Power BI Desktop](media/desktop-common-query-tasks/commonquerytasks_removecolumns.png)
 
-在此查询中，可以通过其他多种方式来调整数据。 可以从顶部或底部删除任意数量的行。 也可以添加列、拆分列、替换值，并执行其他调整任务。 利用这些功能，可以按你希望的方式定向 Power Query 编辑器以获取数据。
+在此查询中，可以通过多种其他方式来调整数据。 可以从顶部或底部删除任意数量的行。 也可以添加列、拆分列、替换值，并执行其他调整任务。 利用这些功能，可以按你希望的方式定向 Power Query 编辑器以获取数据。
 
 ## <a name="group-rows"></a>行分组
 
-在 Power Query 编辑器中，可将多个行中的值聚合为单个值。 在对所提供的产品数、总销售额或学生计数进行汇总时，此功能会很有用。
+在 Power Query 编辑器中，可将多个行中的值聚集为单个值。 在汇总所提供的产品数、总销售额或学生计数时，此功能会很有用。
 
-在此示例中，将对教育注册数据集中的行进行分组。 数据来自 Excel 工作簿。 它已在 Power Query 编辑器中进行了调整，以获取所需的列、重命名表，然后再进行一些其他转换。
+在此示例中，将对教育注册数据集中的行进行分组。 数据来自 Excel 工作簿。 它已在 Power Query 编辑器中进行调整，以获取所需的列、重命名表，然后再进行一些其他转换。
 
 让我们了解每个州有多少个机构。 （机构可以包含学区、地区性服务区等其他教育机构。）选择“机构 ID - NCES 指定\[地区\]最新可用年份”  列，然后选择“转换”  选项卡中的“分组依据”  按钮或功能区的“开始”  选项卡。 （这两个选项卡中都有“分组依据”  。）
 
@@ -100,15 +100,15 @@ ms.locfileid: "83348726"
 
 ![“分组依据”对话框、Power Query 编辑器、Power BI Desktop](media/desktop-common-query-tasks/commonquerytasks_groupbynumbered.png)
 
-在选择“确定”  时，查询编辑器将执行“分组依据”  操作并返回结果。 嘿，看看这个 – 俄亥俄州、伊利诺伊州、德克萨斯州和加利福尼亚州，每个州现在都有 1,000 多个机构！
+在选择“确定”  时，查询将执行“分组依据”  操作并返回结果。 嘿，看看这个 – 俄亥俄州、伊利诺伊州、德克萨斯州和加利福尼亚州，每个州现在都有 1,000 多个机构！
 
 ![“计算”列、“分组依据”操作、Power Query 编辑器、Power BI Desktop](media/desktop-common-query-tasks/commonquerytasks_groupedresult.png)
 
-利用 Power Query 编辑器，随时可以删除最后一个调整操作。 在“查询设置”  窗格中的“已应用步骤”  下，只需选择最近完成的步骤旁边的“X”  。 因此请继续尝试。 如果对结果不满意，可重做此步骤，直到 Power Query 编辑器按所需的方式调整数据。
+利用 Power Query 编辑器，始终可以删除最后一个调整操作。 在“查询设置”  窗格中的“已应用步骤”  下，只需选择最近完成的步骤旁边的“X”  。 因此请继续尝试。 如果对结果不满意，可重做此步骤，直到 Power Query 编辑器按所需的方式调整数据。
 
 ## <a name="pivot-columns"></a>列透视
 
-可对列进行透视，并创建包含某列中每个唯一值的聚合值的表格。 例如，若要了解在每个产品类别中有多少种不同的产品，可快速创建一个表来执行此操作。
+可对列进行透视，并创建包含某列中每个唯一值的聚合值的表格。 例如，若要了解在每个产品类别中具有多少种不同的产品，可快速创建一个表来执行此操作。
 
 我们来看一个示例。 以下“Products_by_Categories”  表已调整为仅显示每个唯一产品（按名称）以及每种产品所属的类别。 若要新建一个表格来显示每个类别的产品计数（基于 CategoryName  列），请选中该列，然后选择“转换”   > “透视列”  。
 
@@ -124,7 +124,7 @@ ms.locfileid: "83348726"
 
 ## <a name="create-custom-columns"></a>创建自定义列
 
-在 Power Query 编辑器中，可以创建基于表中多个列上操作的自定义公式。 然后，可以将此类公式的结果置于新（自定义）列中。 Power Query 编辑器可轻松创建自定义列。
+在 Power Query 编辑器中，可以创建在表的多个列上操作的自定义公式。 然后，可以将此类公式的结果置于新（自定义）列中。 Power Query 编辑器可轻松创建自定义列。
 
 使用 Power Query 编辑器中的 Excel 工作簿数据，请转到功能区的“添加列”  选项卡，然后选择“自定义列”  。
 
@@ -144,7 +144,7 @@ ms.locfileid: "83348726"
 
 ![“公示栏”选项、Power Query 编辑器、Power BI Desktop](media/desktop-common-query-tasks/queryformulas_formulabar.png)
 
-Power Query 编辑器将所有查询的已应用步骤保存为可查看或修改的文本。 可以使用“高级编辑器”  查看或修改任何查询的文本。 只需选择“查看”  然后选择“高级编辑器”  即可。
+Power Query 编辑器将每个查询的所有已应用步骤保存为可查看或修改的文本。 可以使用“高级编辑器”  查看或修改任何查询的文本。 只需选择“查看”  然后选择“高级编辑器”  即可。
 
 ![“高级编辑器”命令、Power Query 编辑器、Power BI Desktop](media/desktop-common-query-tasks/queryformulas_advancededitorbutton.png)
 

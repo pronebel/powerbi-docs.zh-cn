@@ -5,16 +5,16 @@ author: maggiesMSFT
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 03/12/2020
 ms.author: maggies
 LocalizationGroup: Create reports
-ms.openlocfilehash: 9f017a4e93e76d91949b3cc3e12ef0c652664a91
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 7ba75bf5bce05f7a2614dc27d5ff8245ec1a31ef
+ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83281429"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "85239172"
 ---
 # <a name="set-up-drill-through-in-power-bi-reports"></a>在 Power BI 报表中设置钻取
 在 Power BI 报表中使用钻取功能，可创建以特定实体（如供应商、客户或制造商）为重点的报表页  。 报表读者使用钻取时，可右键单击其他报表页中的数据点，然后钻取到具有针对性的页面，以获取针对此上下文进行筛选后的详细信息。 你也可以创建一个单击后可钻取到详细信息的[按钮](desktop-drill-through-buttons.md)。

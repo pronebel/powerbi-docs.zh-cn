@@ -5,16 +5,16 @@ author: maggiesMSFT
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 08/22/2018
 ms.author: maggies
 LocalizationGroup: Create reports
-ms.openlocfilehash: e2793fe56df462fd5f1bd1c266b75ad14fd9b375
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 57331a49d5020308ebc39fbcb42a1728e6167593
+ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83311375"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "85236981"
 ---
 # <a name="use-dashboard-themes-in-power-bi-service"></a>在 Power BI 服务中使用仪表板主题
 借助“仪表板主题”，可以将颜色主题应用于整个仪表板，如企业品牌颜色、流行色或可能要应用的其他任何颜色主题  。 应用“仪表板主题”时，仪表板中的所有视觉对象都会使用选定主题中的颜色（少数例外情况除外，本文稍后将进行介绍）  。
@@ -80,7 +80,7 @@ Power BI 仪表板的默认主题是“浅色”  。 如果想要自定义颜�
 
 * 如果报表使用的主题和仪表板主题不同，你可以控制视觉对象是保留当前主题还是使用仪表板主题，使来自各个源的视觉对象实现主题一致性。 将磁贴固定到仪表板时，若要保留报表主题，请选择“保留当前主题”  。 仪表板上的视觉对象将保留报表主题（包括透明度设置）。 
 
-    仅当你在 Power BI Desktop 中创建了报表、[添加了报表主题](desktop-report-themes.md)，并将报表发布到 Power BI 服务时，才会看到“磁贴主题”选项  。 
+    仅当你在 Power BI Desktop 中创建了报表、[添加了报表主题](desktop-report-themes.md)，并将报表发布到 Power BI 服务时，才会看到“磁贴主题”选项。 
 
     ![已选择“保留当前主题”](media/service-dashboard-themes/power-bi-keep-current.png)
 

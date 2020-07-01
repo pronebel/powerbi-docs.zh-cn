@@ -5,16 +5,16 @@ author: maggiesMSFT
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 08/10/2017
 ms.author: maggies
 LocalizationGroup: Dashboards
-ms.openlocfilehash: b9aeb033586eaf5c0effd838626af6c877080f64
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 4179244dde8f5ebf2cc78bb84c4141e3bb3a6364
+ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83322714"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "85238362"
 ---
 # <a name="dashboard-data-classification"></a>仪表板数据分类
 每个仪表板都不同，具体取决于你连接到的数据源，你可能会发现你和你与其共享的同事将需要根据数据的敏感性采取不同的预防措施。 一些仪表板永远不应与公司外部的人员共享，或打印出来，而其它仪表板则可以随意共享。 通过使用仪表板数据分类，你将能够提高查看你仪表板的人员应使用何种安全级别方面的意识。 你可以使用公司 IT 部门定义的分类来标记仪表板，以便查看该内容的每个人对于数据的敏感性都有相同层面的理解。
@@ -62,7 +62,7 @@ ms.locfileid: "83322714"
 1. 选择“设置”齿轮，然后选择“管理门户”  。
    
     ![](media/service-data-classification/admin_portal_in_settings.png)
-2. 在“租户设置”  选项卡中，将“仪表板和报表的数据分类”  切换为“开启”  。
+2. 在“租户设置”选项卡中，将“仪表板和报表的数据分类”切换为“开启”。
    
     ![](media/service-data-classification/data_classification_switch_location.png)
 
