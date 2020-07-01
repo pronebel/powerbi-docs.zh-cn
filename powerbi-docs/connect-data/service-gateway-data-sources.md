@@ -5,17 +5,17 @@ author: arthiriyer
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-gateways
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 02/21/2020
 ms.author: arthii
 ms.custom: seodec18
 LocalizationGroup: Gateways
-ms.openlocfilehash: cdc03dd88451e614b32642a151903b62ef3ea049
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 5e1b127bae83338264ac450438956e03a5ec24cb
+ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83329867"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "85236640"
 ---
 # <a name="manage-data-sources"></a>管理数据源
 
@@ -45,7 +45,7 @@ Power BI 支持多个[本地数据源](power-bi-data-sources.md)，每个都具�
 
 5. 对于 SQL Server，可以选择“Windows”或“基本”的身份验证方法（SQL 身份验证）    。 如果选择“基本”  ，则输入数据源的凭据。
 
-6. 在“高级设置”下，可以为数据源配置[单一登录 (SSO)](service-gateway-sso-overview.md)  。 
+6. 在“高级设置”下，可以为数据源配置[单一登录 (SSO)](service-gateway-sso-overview.md)。 
 
     ![高级设置](media/service-gateway-data-sources/advanced-settings-02.png)
 
@@ -58,7 +58,7 @@ Power BI 支持多个[本地数据源](power-bi-data-sources.md)，每个都具�
 > [!NOTE]
 >导入查询的 SSO 仅适用于使用 [Kerberos 约束委派](service-gateway-sso-kerberos.md)的 SSO 数据源列表。
 
-7. 在“高级设置”下，可以选择配置数据源的[隐私级别](https://support.office.com/article/Privacy-levels-Power-Query-CC3EDE4D-359E-4B28-BC72-9BEE7900B540)（不适用于 [DirectQuery](desktop-directquery-about.md)）  。
+7. 在“高级设置”下，可以选择配置数据源的[隐私级别](https://support.office.com/article/Privacy-levels-Power-Query-CC3EDE4D-359E-4B28-BC72-9BEE7900B540)（不适用于 [DirectQuery](desktop-directquery-about.md)）。
 
     ![高级设置](media/service-gateway-data-sources/advanced-settings.png)
 

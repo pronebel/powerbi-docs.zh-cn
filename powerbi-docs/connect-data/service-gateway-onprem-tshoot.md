@@ -6,15 +6,15 @@ ms.author: arthii
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-gateways
-ms.topic: troubleshooting
+ms.topic: how-to
 ms.date: 07/15/2019
 LocalizationGroup: Gateways
-ms.openlocfilehash: 698765cd71873de3badfce45ef546ed61220b323
-ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
+ms.openlocfilehash: 0fd6e2d9a05c07ae5ed74a4f3f35af5267a68a87
+ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/19/2020
-ms.locfileid: "83565314"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "85236198"
 ---
 # <a name="troubleshoot-gateways---power-bi"></a>对网关进行排除故障 - Power BI
 
@@ -32,7 +32,7 @@ ms.locfileid: "83565314"
 
 ### <a name="error-unable-to-connect-details-invalid-connection-credentials"></a>错误：无法连接。 详细信息:“连接凭据无效”
 
-在“显示详细信息”中，显示从数据源收到的错误消息  。 对于 SQL Server，可看到如下所示的内容：
+在“显示详细信息”中，显示从数据源收到的错误消息。 对于 SQL Server，可看到如下所示的内容：
 
     Login failed for user 'username'.
 
@@ -42,7 +42,7 @@ ms.locfileid: "83565314"
 
 可以连接到服务器，但不能连接所提供的数据库。 验证该数据库的名称以及该用户凭据有适当的权限来访问该数据库。
 
-在“显示详细信息”中，显示从数据源收到的错误消息  。 对于 SQL Server，可看到如下所示的内容：
+在“显示详细信息”中，显示从数据源收到的错误消息。 对于 SQL Server，可看到如下所示的内容：
 
     Cannot open database "AdventureWorks" requested by the login. The login failed. Login failed for user 'username'.
 
@@ -50,15 +50,15 @@ ms.locfileid: "83565314"
 
 此错误可能会由于不同的原因发生。 请务必验证你可以从承载网关的计算机连接到数据源。 此情况可能是不可访问的服务器的结果。
 
-在“显示详细信息”中，可以看到错误代码 DM_GWPipeline_UnknownError   。
+在“显示详细信息”中，可以看到错误代码 DM_GWPipeline_UnknownError 。
 
-还可以查看“事件日志”   > “应用程序和服务日志”   > “本地数据网关服务”  ，了解详细信息。
+还可以查看“事件日志” > “应用程序和服务日志” > “本地数据网关服务”，了解详细信息。
 
-### <a name="error-we-encountered-an-error-while-trying-to-connect-to-server-details-we-reached-the-data-gateway-but-the-gateway-cant-access-the-on-premises-data-source"></a>错误：我们在尝试连接到\<服务器\>时遇到错误。 详细信息:“我们已连接到数据网关，但网关无法访问本地数据源。”
+### <a name="error-we-encountered-an-error-while-trying-to-connect-to-server-details-we-reached-the-data-gateway-but-the-gateway-cant-access-the-on-premises-data-source"></a>错误：尝试连接到 \<server\> 时遇到错误。 详细信息:“我们已连接到数据网关，但网关无法访问本地数据源。”
 
 无法连接到指定数据源。 请务必验证为该数据源所提供的信息。
 
-在“显示详细信息”中，可以看到错误代码 DM_GWPipeline_Gateway_DataSourceAccessError   。
+在“显示详细信息”中，可以看到错误代码 DM_GWPipeline_Gateway_DataSourceAccessError 。
 
 如果基础错误消息类似于以下内容，这意味着你正在对数据源使用的帐户不是该 Analysis Services 实例的服务器管理员。 有关详细信息，请参阅[授予对 Analysis Services 实例的服务器管理员权限](https://docs.microsoft.com/sql/analysis-services/instances/grant-server-admin-rights-to-an-analysis-services-instance)。
 
@@ -93,11 +93,11 @@ ms.locfileid: "83565314"
 
 #### <a name="unable-to-see-the-data-gateway-data-sources-in-the-get-data-experience-for-analysis-services-from-the-power-bi-service"></a>在 Power BI 服务中使用 Analysis Services 的“获取数据”功能时，无法查看数据网关数据源
 
-确保你的帐户列于网关配置中数据源的**用户**选项卡。 如果你没有权限访问网关，请与网关管理员核对，并请他们进行验证。 仅用户列表中的帐户可查看列于 Analysis Services 列表中的数据源  。
+确保你的帐户列于网关配置中数据源的**用户**选项卡。 如果你没有权限访问网关，请与网关管理员核对，并请他们进行验证。 仅用户列表中的帐户可查看列于 Analysis Services 列表中的数据源。
 
 ### <a name="error-you-dont-have-any-gateway-installed-or-configured-for-the-data-sources-in-this-dataset"></a>错误：没有为此数据集中的数据源安装或配置任何网关。
 
-请确保已按[添加数据源](service-gateway-data-sources.md#add-a-data-source)中所述，向网关添加一个或多个数据源。 如果“管理网关”下的管理门户中未显示网关，请清除浏览器缓存或注销服务，然后重新登录  。
+请确保已按[添加数据源](service-gateway-data-sources.md#add-a-data-source)中所述，向网关添加一个或多个数据源。 如果“管理网关”下的管理门户中未显示网关，请清除浏览器缓存或注销服务，然后重新登录。
 
 ## <a name="datasets"></a>数据集
 
@@ -114,7 +114,7 @@ ms.locfileid: "83565314"
 有几种不同的情况可能会导致此错误：
 
 - 在 Power BI Desktop 中输入的服务器和数据库名称与为网关配置的数据源中的名称不一致。 这些名称必须相同。 它们不区分大小写。
-- 网关配置中数据源的“用户”  选项卡上未列出你的帐户。 需要由网关的管理员将你添加到该列表。
+- 网关配置中数据源的“用户”选项卡上未列出你的帐户。 需要由网关的管理员将你添加到该列表。
 - Power BI Desktop 文件中有多个数据源，并不是所有这些数据源都配置为网关数据源。 需要定义每个网关数据源，这样相应网关才能在计划刷新内显示。
 
 ### <a name="error-the-received-uncompressed-data-on-the-gateway-client-has-exceeded-the-limit"></a>错误：网关客户端上收到的未压缩数据已超出限制。
@@ -144,7 +144,7 @@ ms.locfileid: "83565314"
 或者，你可以查看 Power BI 从 Azure Active Directory 获取的内容。
 
 1. 浏览到 [https://developer.microsoft.com/graph/graph-explorer](https://developer.microsoft.com/graph/graph-explorer)。
-2. 在右上角选择“登录”  。
+2. 在右上角选择“登录”。
 3. 运行以下查询。 你将看到相当大的 JSON 响应。
 
         https://graph.windows.net/me?api-version=1.5
@@ -224,13 +224,13 @@ ImpersonationLevel 与 SPN 设置或本地策略设置相关。
 
 ## <a name="refresh-history"></a>刷新历史记录
 
-将网关用于计划刷新时，“刷新历史记录”  可以帮助查看发生的错误。 如果需要创建支持请求，则它也可以提供有用数据。 可以查看计划刷新和按需刷新。 以下步骤介绍如何访问刷新历史记录。
+将网关用于计划刷新时，“刷新历史记录”可以帮助查看发生的错误。 如果需要创建支持请求，则它也可以提供有用数据。 可以查看计划刷新和按需刷新。 以下步骤介绍如何访问刷新历史记录。
 
-1. 在 Power BI 导航窗格的“数据集”中，选择一个数据集  。 打开菜单，然后选择“计划刷新”  。
+1. 在 Power BI 导航窗格的“数据集”中，选择一个数据集。 打开菜单，然后选择“计划刷新”。
 
     ![如何选择“计划刷新”](media/service-gateway-onprem-tshoot/scheduled-refresh.png)
 
-2. 在**设置...** &gt;“计划刷新”中，选择“刷新历史记录”   。
+2. 在**设置...** &gt;“计划刷新”中，选择“刷新历史记录” 。
 
     ![选择刷新历史记录](media/service-gateway-onprem-tshoot/scheduled-refresh-2.png)
 
