@@ -6,16 +6,16 @@ ms.reviewer: ''
 ms.custom: seodec18
 ms.service: powerbi
 ms.subservice: powerbi-desktop
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 12/18/2019
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 525f7bf4c967722d8f98a9184127bc8c7907cea1
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 0beca84bc95c2947fef500fb9e3a9e5c377a0a46
+ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83309466"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "85234020"
 ---
 # <a name="use-grouping-and-binning-in-power-bi-desktop"></a>在 Power BI Desktop 中使用分组和装箱
 在创建视觉对象后，Power BI Desktop 会根据基础数据中的值，将数据分入各区块（或组）。 这种归类的效果通常不错，但你有时可能会想要优化这些区块的显示方式。 例如，你可能想要在一个更宽泛的类别（ 一个组  ）中设置三个产品类别。 或者，你可能希望将销售额数据按 1,000,000 美元大小进行装箱，而不是 923,983 美元大小的区块。

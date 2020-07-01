@@ -4,15 +4,15 @@ description: 了解如何在报表所有者设置地理位置标记的情况下�
 author: paulinbar
 ms.service: powerbi
 ms.subservice: powerbi-mobile
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 03/11/2020
 ms.author: painbar
-ms.openlocfilehash: 7ee8887752f6a5161e0046e4aac1711f2ce64922
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 4cf94628b1d423d5b382e718d850fc403d516083
+ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83276205"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "85234313"
 ---
 # <a name="filter-a-report-by-geographic-location-in-the-power-bi-mobile-apps"></a>在 Power BI 移动应用中按地理位置筛选报表
 适用于：

@@ -5,16 +5,16 @@ author: davidiseminger
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 05/26/2020
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 25a0f5abe07b82c2397ab2800802eba6f624a27c
-ms.sourcegitcommit: a7b142685738a2f26ae0a5fa08f894f9ff03557b
+ms.openlocfilehash: 067a9cfc63b36f97716d61580f2e191756dbf0e6
+ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/28/2020
-ms.locfileid: "84119942"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "85233851"
 ---
 # <a name="group-visuals-in-power-bi-desktop-reports"></a>在 Power BI Desktop 报表中对视觉对象进行分组
 使用 Power BI Desktop 中的分组功能，你可以在报表中将视觉对象（例如按钮、文本框、形状图像以及创建的任何视觉）分为一组，就像在 PowerPoint 中对项进行分组一样 。 通过在报表中对视觉对象进行分组，可以将组视为单个对象，从而更轻松、快速且直观地移动、调整大小和处理报表中的图层。

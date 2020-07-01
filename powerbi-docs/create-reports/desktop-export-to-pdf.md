@@ -5,23 +5,23 @@ author: davidiseminger
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 02/28/2019
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 5f2412ec7aa548feecc3a6ceb6a2c90036d1623a
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: 7fc8b9bff06188a02914083705f7f9aed7862ab1
+ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83348312"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "85234147"
 ---
 # <a name="export-reports-to-pdf-from-power-bi-desktop"></a>从 Power BI Desktop 中将报表导出到 PDF
 在 Power BI Desktop 或 Power BI 服务中，可将报表导出到 PDF 文件，从而从该 PDF 中轻松共享或打印报表  。
 
 ![导出到 PDF](media/desktop-export-to-pdf/export-to-pdf_01.png)
 
-从 Power BI Desktop 中将报表导出到 PDF 的过程非常简单，只需在 Power BI Desktop 中选择“文件”>“导出为 PDF”即可。这样你便可打印或与他人共享该 PDF 文档。
+从 Power BI Desktop 中将报表导出到 PDF，以便能够打印或与他人共享该 PDF 文档的过程非常简单  。 只需在 Power BI Deskop 中选择“文件”>“导出到 PDF”即可  。
 
 “导出到 PDF”过程将导出报表中的所有可见页，并且每个报表页将导出到 PDF 的单个页中   。 当前不可见的报表页（例如任何工具提示或隐藏页）不会导出到 PDF 文件中。 
 

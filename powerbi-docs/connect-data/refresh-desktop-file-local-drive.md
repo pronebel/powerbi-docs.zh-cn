@@ -5,16 +5,16 @@ author: davidiseminger
 ms.reviewer: kayu
 ms.service: powerbi
 ms.subservice: powerbi-service
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 06/04/2019
 ms.author: davidi
 LocalizationGroup: Data refresh
-ms.openlocfilehash: b2d0e5311a8f4543634725298fbe1da111470c43
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: e3c0a702ccd1035a5f6019b6f439624fcd7c7267
+ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83303417"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "85232949"
 ---
 # <a name="refresh-a-dataset-created-from-a-power-bi-desktop-file-on-a-local-drive"></a>刷新从本地驱动器的 Power BI Desktop 文件创建的数据集
 
@@ -35,7 +35,7 @@ ms.locfileid: "83303417"
 >
 >
 
-可在 Power BI Desktop 中通过选择“主页”功能区上的“刷新”来手动执行一次性刷新操作  。 选择此处的“刷新”时，将用原始数据源中更新后的数据刷新**文件**模型中的数据  。 这种类型的刷新完全是从 Power BI Desktop 应用程序自身内部进行，不同于在 Power BI 中进行的手动或计划内刷新，理解这种区别至关重要。
+可在 Power BI Desktop 中通过选择“主页”功能区上的“刷新”来手动执行一次性刷新操作  。 选择此处的“刷新”时，将用原始数据源中更新后的数据刷新*文件*模型中的数据。 这种类型的刷新完全是从 Power BI Desktop 应用程序自身内部进行，不同于在 Power BI 中进行的手动或计划内刷新，理解这种区别至关重要。
 
 ![全部](media/refresh-desktop-file-local-drive/pbix-refresh.png)
 

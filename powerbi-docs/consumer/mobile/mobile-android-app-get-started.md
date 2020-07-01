@@ -5,15 +5,15 @@ author: paulinbar
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
-ms.topic: conceptual
-ms.date: 02/10/2020
+ms.topic: how-to
+ms.date: 06/06/2020
 ms.author: painbar
-ms.openlocfilehash: 105cef5b9df49d076491057d73f6929d46216a8b
-ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
+ms.openlocfilehash: a12f4d81e2cae913ddddd26ca3bd9c820ad716ca
+ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/19/2020
-ms.locfileid: "83564851"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "85233034"
 ---
 # <a name="get-started-with-the-power-bi-mobile-app-on-android-devices"></a>Android 设备上的 Power BI 移动应用入门
 Android 版 Microsoft Power BI 移动应用提供了 Power BI、Power BI 报表服务器和 Reporting Services 的移动 BI 体验。 通过触控移动设备实现的实时访问，可以随时随地查看本地和云中的公司仪表板，并与之进行交互。 然后，可以浏览仪表板中的数据，并通过电子邮件或短信的方式将数据与同事共享。 

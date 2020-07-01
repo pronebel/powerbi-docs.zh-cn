@@ -5,16 +5,16 @@ author: davidiseminger
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 05/05/2020
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: 9bbd5cbafa7f6c17fd9b9a02b93a27cc5859ee4a
-ms.sourcegitcommit: 49daa8964c6e30347e29e7bfc015762e2cf494b3
+ms.openlocfilehash: 81ba595be7262c81cdb68f2a1ed052c45663d7a7
+ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/02/2020
-ms.locfileid: "84272761"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "85234358"
 ---
 # <a name="publish-to-power-bi-from-microsoft-excel"></a>从 Microsoft Excel 发布到 Power BI
 使用 Microsoft Excel 2016 及更高版本，可以将 Excel 工作簿直接发布到 [Power BI](https://powerbi.microsoft.com) 工作区，在其中能够根据工作簿数据创建高度交互的报表和仪表板。 然后你可以与组织中的其他人共享你的见解。

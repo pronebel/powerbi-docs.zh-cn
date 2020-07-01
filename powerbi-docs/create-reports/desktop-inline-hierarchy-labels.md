@@ -5,16 +5,16 @@ author: davidiseminger
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: db86fee2303759d30b2ff64dc59b56314f220474
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: c840565e39e344011588f8d47925e435eb019b37
+ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83304199"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "85233720"
 ---
 # <a name="use-inline-hierarchy-labels-in-power-bi-desktop"></a>在 Power BI Desktop 中使用内联层次结构标签
 **Power BI Desktop** 支持使用**内联层次结构标签**，它是旨在提升分层钻取的两种功能中的第一种。 第二种功能当前正处于开发阶段，即使用嵌套层次结构标签的功能（请持续关注 - 我们经常发布更新）。   
