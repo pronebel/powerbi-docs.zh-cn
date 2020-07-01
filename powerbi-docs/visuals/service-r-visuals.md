@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 11/14/2019
 ms.author: rien
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 722516004a454f970b7a88e2bf4c48d1d0176b6b
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 91ca05a144166abbc903d42ba30a5c70b839987d
+ms.sourcegitcommit: e8b12d97076c1387088841c3404eb7478be9155c
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85237353"
+ms.lasthandoff: 07/01/2020
+ms.locfileid: "85782815"
 ---
 # <a name="create-and-use-r-visuals-in-power-bi"></a>创建并使用 Power BI 中的 R 视觉对象
 
@@ -104,15 +104,19 @@ Power BI 服务中的 R 视觉对象有几个限制：
   
   * 将以下行添加到 R 脚本的开头处：
     
-        powerbi_rEnableShowText =  1
+```powerbi_rEnableShowText =  1```
+
 * 中文、日语和朝鲜语字体还需要执行下列所有步骤才能在 Power BI 服务中正常工作：
   
   * 首先，安装 R 程序包 *showtext* 及其所有依赖项。 可以运行以下脚本来执行此操作：
     
-        *install.packages("showtext")*
+```install.packages("showtext")```
+
   * 接下来，在 R 脚本的开头添加以下行：
     
-        powerbi_rEnableShowTextForCJKLanguages =  1
+```R script
+powerbi_rEnableShowTextForCJKLanguages =  1
+```
 
 ## <a name="overview-of-r-packages"></a>R 程序包概述
 R 程序包是以定义明确的格式组合的 R 函数、数据和已编译代码的集合。 安装 R 后，会生成标准的程序包集，其他程序包可供下载和安装。 安装后，必须将 R 程序包加载到要使用的会话中。 免费 R 程序包的主要源是 CRAN，即 [Comprehensive R Archive Network](https://cran.r-project.org/web/packages/available_packages_by_name.html)。

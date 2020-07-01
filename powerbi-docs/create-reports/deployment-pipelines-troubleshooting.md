@@ -3,16 +3,16 @@ title: 解决部署管道问题
 description: 解决 Power BI 中的部署管道问题
 author: KesemSharabi
 ms.author: kesharab
-ms.topic: overview
+ms.topic: troubleshooting
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.date: 05/06/2020
-ms.openlocfilehash: fda846a19b5c6081c59f08f2bf9f94eddbc9852c
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: e41a13fac3e0ffea5171d2927cc0f3b9debbeef1
+ms.sourcegitcommit: a453ba52aafa012896f665660df7df7bc117ade5
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83148555"
+ms.lasthandoff: 06/27/2020
+ms.locfileid: "85485866"
 ---
 # <a name="deployment-pipelines-troubleshooting-preview"></a>解决部署管道问题（预览版）
 

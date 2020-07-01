@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 03/07/2019
 ms.author: davidi
 LocalizationGroup: Conceptual
-ms.openlocfilehash: 7ab103c5d7b568e7315f67193da4d8da25b77a6c
-ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
+ms.openlocfilehash: 2783f434e2bb1d6d45ed1a9442c60da7b09e7ae4
+ms.sourcegitcommit: e8b12d97076c1387088841c3404eb7478be9155c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/19/2020
-ms.locfileid: "83565428"
+ms.lasthandoff: 07/01/2020
+ms.locfileid: "85782791"
 ---
 # <a name="distribute-power-bi-content-to-external-guest-users-using-azure-active-directory-b2b"></a>使用 Azure Active Directory B2B 将 Power BI 内容分发给外部来宾用户
 
@@ -71,7 +71,7 @@ Contoso 与转包商合作来执行 radiators 的可靠性分析。 转包商团
 
 
 
-1. IT 管理员可以通过手动或通过 Azure Active Directory 提供的 API 来邀请来宾用户的过程星
+1. 此过程由 IT 管理员通过手动或通过 Azure Active Directory 提供的 API 来邀请来宾用户
 2. 用户接受邀请到组织。
 3. 用户接受邀请后，Power BI 中的用户可以与外部用户或其所在的安全组共享报表或仪表板。 与中的常规共享一样 Power BI 外部用户会收到一封电子邮件，其中包含指向该项目的链接。
 4. 当外部用户访问该链接时，其目录中的身份验证将传递给 Contoso 的 Azure AD，并用于获取 Power BI 内容的访问权限。
@@ -331,7 +331,7 @@ Power BI 与 Azure AD B2B 的集成适用于所有业务电子邮件地址。 �
 
 必须认识到 Azure AD 帐户将在外部方的 Azure AD 中使用或创建，这将使 Lucy 可以使用其自己的用户名和密码，并且每当 Lucy 在组织也使用 Azure AD 时，他们的凭据将在其他租户中自动停止工作。
 
-## <a name="licensing"></a>许可
+## <a name="licensing"></a>授权
 
 Contoso 可以选择以下三种方法之一，让来宾用户从其供应商和合作伙伴组织那里获得 Power BI 内容的访问权限。
 
@@ -409,7 +409,7 @@ Azure AD 解决此情况后，Contoso 可以看到该名称显示在 "准备添�
 
 现在，当此用户打开与之共享的应用时，他们将只看到包含欧洲数据的报表：
 
-![视图内容](media/whitepaper-azure-b2b-power-bi/whitepaper-azure-b2b-power-bi_33.png)
+![查看内容](media/whitepaper-azure-b2b-power-bi/whitepaper-azure-b2b-power-bi_33.png)
 
 ### <a name="dynamic-row-level-security"></a>动态行级别安全性
 
