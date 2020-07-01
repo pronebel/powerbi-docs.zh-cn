@@ -4,15 +4,15 @@ description: 了解如何配置 iOS 和 Android 应用来要求提供其他标�
 author: paulinbar
 ms.service: powerbi
 ms.subservice: powerbi-mobile
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 04/07/2020
 ms.author: painbar
-ms.openlocfilehash: ce7b3c3bc667023ef36650d8c551caaceab04c02
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 634252979129353ac628c574acb23bb184782ffa
+ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "80802792"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "85220002"
 ---
 # <a name="protect-power-bi-app-with-face-id-touch-id-passcode-or-biometric-data"></a>使用 Face ID、Touch ID、密码或生物特征数据来保护 Power BI 应用 
 

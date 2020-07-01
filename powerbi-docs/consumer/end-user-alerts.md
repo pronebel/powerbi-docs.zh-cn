@@ -6,16 +6,16 @@ ms.reviewer: ''
 featuredvideoid: removed
 ms.service: powerbi
 ms.subservice: powerbi-consumer
-ms.topic: tutorial
+ms.topic: how-to
 ms.date: 04/18/2020
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 4cad37b9d4a7bf9e74a29312786a02b26fce5463
-ms.sourcegitcommit: faa8cfb66e79ea16ba46605f752cc9ca57924d0e
+ms.openlocfilehash: 15efacda18980c4e79d91f291e1714eec69fef59
+ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83382752"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "85221420"
 ---
 # <a name="tutorial-set-alerts-on-power-bi-dashboards"></a>教程：在 Power BI 仪表板中设置警报
 

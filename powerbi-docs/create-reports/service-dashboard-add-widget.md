@@ -6,16 +6,16 @@ ms.reviewer: ''
 featuredvideoid: e2PD8m1Q0vU
 ms.service: powerbi
 ms.subservice: powerbi-service
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 07/25/2019
 ms.author: maggies
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 0c9e3db46c66fcd440ebd304370d31539dd5c5c7
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: f98fb7a9d5a01c70eb8cef2a8d5befdbe919d796
+ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83314526"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "85219464"
 ---
 # <a name="add-images-videos-and-more-to-your-dashboard"></a>向仪表板添加图像、视频等
 
@@ -50,7 +50,7 @@ ms.locfileid: "83314526"
 ## <a name="add-an-image"></a>添加图像
 如果要向仪表板添加公司徽标或一些其他图像，可以在线保存图像文件并链接到该图像文件。 请确保访问该图像文件无需安全凭据。 例如，OneDrive 和 SharePoint 需要身份验证，因此存储在该处的图像将无法按此种方式添加到仪表板。  
 
-1. 在“添加磁贴”窗口中，选择“图像” **“下一步”**   >   。
+1. 在“添加磁贴”窗口中，选择“图像” > “下一步”。
 
 2. 从“添加图像磁贴”窗口中，添加图像信息  ：   
    
@@ -74,7 +74,7 @@ ms.locfileid: "83314526"
 
 若要添加仪表板标题，请在文本框中键入标题并增大字体。
 
-1. 在“添加磁贴”窗口中，选择“文本框” **“下一步”**   >   。
+1. 在“添加磁贴”窗口中，选择“文本框” > “下一步”。
 
 2. 设置文本框格式：
    
@@ -95,7 +95,7 @@ ms.locfileid: "83314526"
 ## <a name="add-a-video"></a>添加视频
 向仪表板添加 YouTube 或 Vimeo 视频磁贴之后，该视频会直接在仪表板上播放。
 
-1. 在“添加磁贴”窗口中，选择“视频” **“下一步”**   >   。
+1. 在“添加磁贴”窗口中，选择“视频” > “下一步”。
 2. 将视频信息添加到“添加视频磁贴”窗口  ：   
    
    a. 要在视频磁贴顶部显示标题和副标题，请选择“显示标题和副标题”，然后输入“标题”和可选的“副标题”    。 在本例中，我们将添加“副标题”，然后将其转换为指向整个 YouTube 播放列表的超链接  。
@@ -120,7 +120,7 @@ ms.locfileid: "83314526"
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/kOuINwgkEkQ" frameborder="0" allowfullscreen></iframe>
 
-1. 在“添加磁贴”窗口中，选择“自定义流数据” **“下一步”**   >   。
+1. 在“添加磁贴”窗口中，选择“自定义流数据” > “下一步”。
 2. 选择“添加流数据集”  。
 3. 使用 Power BI API 或 PubNub 创建“新的流数据集”  。
 4. 填写“数据集名称”、“订阅密钥”和“频道名称”字段    。 如果它是安全连接，还会有授权密钥。 你可以使用 PubNub 中的示例值进行试用。
@@ -128,7 +128,7 @@ ms.locfileid: "83314526"
     你会看到数据集中可用的字段及其数据类型和 JSON 格式。
 6. 选择“连接”  。
     你已创建流数据集。
-7. 返回仪表板并再次选择“添加磁贴” **“自定义流数据”** “下一步” >    >   。
+7. 返回仪表板并再次选择“添加磁贴” > “自定义流数据” > “下一步”。
 8. 选择创建的传感器数据数据集，然后选择“下一步”  。
 9. 选择所需的视觉对象类型。 通常，此类数据适合使用折线图。
 10. 选择“轴”、“图例”和“值”    。
@@ -138,7 +138,7 @@ ms.locfileid: "83314526"
 14. 将其固定到仪表板。
 
 
-1. 在“添加磁贴”窗口中，选择“自定义流数据” **“下一步”**   >   。
+1. 在“添加磁贴”窗口中，选择“自定义流数据” > “下一步”。
 
 2. 选择“添加流数据集”  。
 
@@ -154,7 +154,7 @@ ms.locfileid: "83314526"
 
    你已创建流数据集。
 
-7. 返回仪表板并再次选择“添加磁贴” **“自定义流数据”** “下一步” >    >   。
+7. 返回仪表板并再次选择“添加磁贴” > “自定义流数据” > “下一步”。
 
 8. 选择创建的传感器数据数据集，然后选择“下一步”  。
 
@@ -173,7 +173,7 @@ ms.locfileid: "83314526"
 ## <a name="add-web-content"></a>添加 Web 内容
 你可以将任何 HTML 内容（作为磁贴）粘贴或键入到报表或仪表板中。 手动输入嵌入代码，或从 Twitter、YouTube、embed.ly 等站点复制/粘贴。
 
-1. 在“添加磁贴”窗口中，选择“Web 内容” **“下一步”**   >   。
+1. 在“添加磁贴”窗口中，选择“Web 内容” > “下一步”。
 
 2. 将信息添加到“添加 Web 内容磁贴”窗口  ：
    

@@ -6,16 +6,16 @@ ms.reviewer: kayu
 ms.custom: seodec18
 ms.service: powerbi
 ms.subservice: powerbi-service
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 01/15/2020
 ms.author: davidi
 LocalizationGroup: Data refresh
-ms.openlocfilehash: df0c49e2a9cd4561060ee0ff36c394ff947ad500
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 62beab136dce53c7a3412eb5e2a4ec6470d14ec2
+ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83307235"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "85220899"
 ---
 # <a name="refresh-a-dataset-stored-on-onedrive-or-sharepoint-online"></a>刷新 OneDrive 或 SharePoint Online 上存储的数据集
 将 OneDrive 或 SharePoint Online 中的文件导入 Power BI 服务，可以有效确保在 Power BI Desktop 中所执行的操作与 Power BI 服务保持同步。
@@ -23,7 +23,7 @@ ms.locfileid: "83307235"
 ## <a name="advantages-of-storing-a-power-bi-desktop-file-on-onedrive-or-sharepoint-online"></a>在 OneDrive 或 SharePoint Online 上存储 Power BI Desktop 文件的好处
 如果你在 OneDrive 或 SharePoint Online 上存储 Power BI Desktop 文件，已加载到文件模型的任何数据都会被导入数据集。 在此文件中创建的任何报表都会被加载到 Power BI 服务中的“报表”  内。 假设你更改了 OneDrive 或 SharePoint Online 上的文件。 这些更改可以包括添加新度量值、更改列名或编辑可视化效果。 在你保存此文件后，Power BI 服务也会与这些更改同步，通常在大约一小时内完成。
 
-可以直接在 Power BI Desktop 中手动执行一次性刷新操作，具体方法是选择“开始”  功能区上的“刷新”  。 选择“刷新”  后，就会使用原始数据源中更新后的数据来刷新文件模型。 这种刷新完全是在 Power BI Desktop 应用程序本身内发生。 它不同于 Power BI 中的手动刷新或计划刷新，请务必了解两者之间的区别。
+可以直接在 Power BI Desktop 中手动执行一次性刷新操作，具体方法是选择“开始”功能区上的“刷新”。 选择“刷新”  后，就会使用原始数据源中更新后的数据来刷新文件模型。 这种刷新完全是在 Power BI Desktop 应用程序本身内发生。 它不同于 Power BI 中的手动刷新或计划刷新，请务必了解两者之间的区别。
 
 ![](media/refresh-desktop-file-onedrive/pbix-refresh.png)
 
