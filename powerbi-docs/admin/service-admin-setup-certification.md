@@ -3,26 +3,26 @@ title: 设置数据集和数据流认证（预览版）
 description: 了解如何在组织中设置数据集和数据流认证流程。
 author: paulinbar
 ms.service: powerbi
-ms.subservice: powerbi-service
-ms.topic: conceptual
-ms.date: 03/22/2020
+ms.subservice: powerbi-eim
+ms.topic: how-to
+ms.date: 05/15/2020
 ms.author: painbar
 LocalizationGroup: Share your work
-ms.openlocfilehash: ae47c6ea0c7b9bf629f55701ba4242a195dc164d
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 41247a6dbee2ba6c4c5181a4646df735e43f8b18
+ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83274388"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "85227538"
 ---
 # <a name="set-up-dataset-and-dataflow-certification-preview"></a>设置数据集和数据流认证（预览版）
 
-组织可以认证作为关键信息权威来源的数据集和数据流。
+组织可以对作为关键信息权威源的数据集和数据流进行认证。
 
 Power BI 租户管理员负责为组织设置认证过程。 这意味着：
 * 对租户启用认证。
 * 定义有权认证数据集和数据流的组和用户的列表。
-* 对于数据集，提供组织数据集认证策略的 URL（如果有）。
+* 对于数据集，提供组织的数据集认证策略的 URL（如果有）。
 
 数据集和数据流认证是数据集和数据流认可的一部分。 有关详细信息，请参阅[数据集认可](../connect-data/service-datasets-promote.md)和[数据流认可](../transform-model/service-dataflows-promote-certify.md)。
 

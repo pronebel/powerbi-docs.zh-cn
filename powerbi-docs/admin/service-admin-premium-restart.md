@@ -6,15 +6,15 @@ ms.author: davidi
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 03/12/2020
 LocalizationGroup: Premium
-ms.openlocfilehash: fcf9dccef980413374e80fdecd028eb2a8bdc1e5
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: b74014048e7c0d53cb4b2273463752ab7ef3a528
+ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83274526"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "85227892"
 ---
 # <a name="restart-a-power-bi-premium-capacity"></a>重启 Power BI 高级容量
 
@@ -42,7 +42,7 @@ Power BI 不断改进其保护高级容量用户免受此类问题的影响。 �
 
 1. 将“CapacityRestart”  功能标志  添加到容量 URL：`https://app.powerbi.com/admin-portal/capacities/<YourCapacityId>?capacityRestartButton=true`。
 
-1. 在“高级设置” **“容量重启”下，请选择“重启容量”**  >    。
+1. 在“高级设置” > “容量重启”下，请选择“重启容量”。
 
     ![重启容量](media/service-admin-premium-restart/restart-capacity.png)
 

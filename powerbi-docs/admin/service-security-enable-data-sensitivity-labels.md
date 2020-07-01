@@ -3,17 +3,17 @@ title: 在 Power BI 中启用数据敏感度标签
 description: 了解如何在 Power BI 中启用数据敏感度标签
 author: paulinbar
 ms.service: powerbi
-ms.subservice: powerbi-service
-ms.topic: conceptual
-ms.date: 05/23/2020
+ms.subservice: powerbi-eim
+ms.topic: how-to
+ms.date: 06/15/2020
 ms.author: painbar
 LocalizationGroup: Data from files
-ms.openlocfilehash: ba1cacfa930bcc0ed51234dea13639420ac8fab7
-ms.sourcegitcommit: cd64ddd3a6888253dca3b2e3fe24ed8bb9b66bc6
+ms.openlocfilehash: c6c1c20e88e6da96ed0c7239ee26f63220c28a00
+ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "84315640"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "85227053"
 ---
 # <a name="enable-data-sensitivity-labels-in-power-bi"></a>在 Power BI 中启用数据敏感度标签
 
