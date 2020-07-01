@@ -6,15 +6,15 @@ ms.author: davidi
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 02/13/2020
 LocalizationGroup: Premium
-ms.openlocfilehash: fd2966ddab5abfda92deb7f5ef2d2b76204adcd5
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: af2af9ebe223917b78e2633c465e4ded8f2cb0bf
+ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83137844"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "85228151"
 ---
 # <a name="how-to-purchase-power-bi-premium"></a>如何购买 Power BI Premium
 
@@ -71,7 +71,7 @@ ms.locfileid: "83137844"
 
 现在已有容量，可随着需求的增长添加更多容量。 可以在组织中使用任何高级容量 SKU（P1 到 P3）组合。 不同的 SKU 提供不同的资源容量。
 
-1. 在 Microsoft 365 管理中心内，选择“账单” **“购买服务”**  >   。
+1. 在 Microsoft 365 管理中心内，选择“账单” > “购买服务”。
 
 1. 在“其他计划”  下找到需额外购买的 Power BI Premium 项目。
 
@@ -98,7 +98,7 @@ ms.locfileid: "83137844"
 
 1. 从列表中选择 Power BI Premium 订阅。
 
-1. 选择“更多操作” **“取消订阅”**  >   。
+1. 选择“更多操作” > “取消订阅”。
 
 1. “取消订阅”  页会指明是否需要支付[提前终止费](https://support.office.com/article/early-termination-fees-6487d4de-401a-466f-8bc3-c0beb5cc40d3)。 此页还会指明何时删除订阅数据。
 
@@ -173,7 +173,7 @@ A SKU 通过 Azure Power BI Embedded 服务提供。 可按以下方式使用 A 
 
 [配置和管理 Power BI Premium 容量](service-admin-premium-manage.md)\
 [Power BI 定价页](https://powerbi.microsoft.com/pricing/)\
-[Power BI Premium 计算器](https://powerbi.microsoft.com/calculator/)\
+[Power BI Pemium 计算器](https://powerbi.microsoft.com/calculator/)\
 [Power BI Premium 常见问题解答](service-premium-faq.md)\
 [规划 Power BI Enterprise 部署白皮书](https://aka.ms/pbienterprisedeploy)
 

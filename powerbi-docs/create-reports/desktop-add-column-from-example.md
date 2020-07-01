@@ -5,16 +5,16 @@ author: davidiseminger
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 01/16/2019
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: b10bbaa4158e6c5392cb6ed937c54bdbb5d555d2
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 9632bfaecc524aac95ec524cccb59ba08a7bc21f
+ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83295321"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "85229078"
 ---
 # <a name="add-a-column-from-examples-in-power-bi-desktop"></a>Power BI Desktop 中的“从示例中添加列”
 通过 Power Query 编辑器中的“从示例中添加列”  ，只需为新列提供一个或多个示例值，便可以将新列添加到数据模型。 可以通过所选内容创建新的列示例，或基于表中的所有现有列提供输入。

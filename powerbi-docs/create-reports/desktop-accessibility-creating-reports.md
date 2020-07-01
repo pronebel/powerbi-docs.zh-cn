@@ -5,16 +5,16 @@ author: davidiseminger
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 10/30/2019
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: ae13bc69d7049dc9cf5c9d71ce0961ec566252bf
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 40de850663f49a26c1d8ae290d88821bbab8c822
+ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83297023"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "85229466"
 ---
 # <a name="design-power-bi-reports-for-accessibility"></a>设计可访问的 Power BI 报表
 你可以设计和创建引人注目的报表，同时也可以针对可访问性进行设计。 无论何时构建报表，无论受众是谁，你都应该创建一个可供尽可能多的人使用的报表，而不需要使报表套用某种特殊的设计。

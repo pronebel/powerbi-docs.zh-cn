@@ -4,16 +4,16 @@ description: 如何获取和安装用于区域紧急响应模板应用的 COVID-
 author: paulinbar
 ms.service: powerbi
 ms.subservice: powerbi-template-apps
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 04/24/2020
 ms.author: painbar
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 52522c03a285290fbc01da49328516f62ddfc60a
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 3cf846ef7fa7b47b0eaa90c850885af65a4bab80
+ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83279218"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "85229662"
 ---
 # <a name="connect-to-the-regional-emergency-response-dashboard"></a>连接到区域紧急响应仪表板
 区域紧急响应仪表板是 [Microsoft Power Platform 区域紧急响应解决方案](https://docs.microsoft.com/powerapps/sample-apps/regional-emergency-response/overview)的报告组件。 区域组织管理员可以在其 Power BI 租户中查看仪表板，使他们可以快速查看可帮助他们做出高效决策的重要数据和指标。

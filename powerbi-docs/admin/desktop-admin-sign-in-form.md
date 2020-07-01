@@ -5,15 +5,15 @@ author: davidiseminger
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 04/15/2019
 ms.author: davidi
-ms.openlocfilehash: 934827311e089e34e56fbcffe4d4c58a056df4ad
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: 49b7d1129f73e146db1e34b1ec7d39a176cb37ed
+ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83130247"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "85228921"
 ---
 # <a name="administrators-manage-the-power-bi-desktop-sign-in-form"></a>管理员：管理 Power BI Desktop 登录窗体
 首次启动 Power BI Desktop 时，将会看到登录窗体。 若要继续操作，可以填写信息或登录 Power BI。 管理员可以使用注册表项来管理此窗体。 

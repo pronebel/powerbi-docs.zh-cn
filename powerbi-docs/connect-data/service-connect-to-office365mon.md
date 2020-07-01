@@ -5,16 +5,16 @@ author: paulinbar
 ms.reviewer: maggiesMSFT
 ms.service: powerbi
 ms.subservice: powerbi-template-apps
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 11/26/2019
 ms.author: painbar
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 0ea51e76e9637c78b4f8e18f8a38b35e29f00eee
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 471522e0f66fe4bf03a8c1616d1a24221149f2e0
+ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83337434"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "85229909"
 ---
 # <a name="connect-to-office365mon-with-power-bi"></a>使用 Power BI 连接到 Office365Mon
 使用 Power BI 和 Office365Mon 模板应用可轻松分析 Office 365 故障和运行状况性能数据。 Power BI 将检索你的数据（包括故障和运行状况探测），然后基于该数据构建可立即使用的仪表板和报表。
