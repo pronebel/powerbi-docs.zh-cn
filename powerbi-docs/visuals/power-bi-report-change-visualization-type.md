@@ -5,16 +5,16 @@ author: mihart
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 12/28/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 33511dd5a61882de77d6089a5f77e70361f3cbed
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 1db098b65a02d0949342f1e3192730a4b8be7f85
+ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83277585"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "85232029"
 ---
 # <a name="change-the-type-of-visualization-in-a-power-bi-report"></a>更改 Power BI 报表中的可视化效果类型
 

@@ -4,16 +4,16 @@ description: 如何获取和安装 COVID-19 危机通信状态报告模板应用
 author: paulinbar
 ms.service: powerbi
 ms.subservice: powerbi-template-apps
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 04/06/2020
 ms.author: painbar
 LocalizationGroup: Connect to services
-ms.openlocfilehash: fef6bc5c396ccaf89ff4cd0e5a449cb9d01ce75b
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: cd3a0a8974636d6962fe23a7ffe272e47e487754
+ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83275492"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "85230419"
 ---
 # <a name="connect-to-the-crisis-communication-presence-report"></a>连接到危机通信状态报表
 

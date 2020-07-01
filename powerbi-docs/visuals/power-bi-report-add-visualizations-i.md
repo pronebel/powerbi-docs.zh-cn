@@ -6,16 +6,16 @@ ms.reviewer: rien
 featuredvideoid: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 05/06/2020
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: fda9c63abbf20eb08adbebacc3f9351c80a2847b
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: 439807717a91a22520969a85a3991b76f8115833
+ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83148003"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "85232391"
 ---
 # <a name="add-visuals-to-a-power-bi-report-part-1"></a>向 Power BI 报表添加视觉对象（第 1 部分）
 
