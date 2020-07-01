@@ -6,14 +6,14 @@ ms.author: maggies
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: report-builder
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 04/29/2020
-ms.openlocfilehash: 784e3fd3883adb9fc5b773cc730b992135d7ef8b
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 9ced88289b2170d503a8394d5b83175659178e85
+ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83272801"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "85239594"
 ---
 # <a name="subreports-in-power-bi-paginated-reports"></a>Power BI 分页报表中的子报表
 
@@ -23,7 +23,7 @@ ms.locfileid: "83272801"
   
  在此图中，显示在 Sales Order 主报表中的联系人信息实际上来自于 Contacts 子报表。  
   
-你可以在 Power BI Report Builder 中创建和修改分页报表定义 (.rdl) 文件。 可以将 SQL Server Reporting Services 中存储的子报表上传到 Power BI 服务中的 Premium 工作区。 需要将主报表和子报表发布到同一个工作区。 安装 [Power BI Report Builder](https://go.microsoft.com/fwlink/?linkid=2086513)。
+你可以在 Power BI Report Builder 中创建和修改分页报表定义 (.rdl) 文件。 可以将 SQL Server Reporting Services 中存储的子报表上传到 Power BI 服务中的 Premium 工作区。 需要将主报表和子报表发布到同一个工作区。 安装 [Power BI Report Builder](https://aka.ms/pbireportbuilder)。
   
 ## <a name="work-with-report-builder-and-the-power-bi-service"></a>结合使用 Report Builder 和 Power BI 服务
 

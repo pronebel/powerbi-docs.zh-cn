@@ -6,14 +6,14 @@ ms.author: kesharab
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-developer
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 06/30/2018
-ms.openlocfilehash: 5df9ddd44bdc8952dab14809ce3facd74e5d3753
-ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
+ms.openlocfilehash: 60e80311ff12da2bc79b7f844c81c7b5c8f4c3ac
+ms.sourcegitcommit: caf60154a092f88617eb177bc34fb784f2365962
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/19/2020
-ms.locfileid: "83564175"
+ms.lasthandoff: 06/25/2020
+ms.locfileid: "85354860"
 ---
 # <a name="power-bi-embedded-migration-tool"></a>Power BI Embedded 迁移工具
 
@@ -151,7 +151,7 @@ PaaS 拓扑是“资源组”>“工作区集合”>“工作区”的列表。 
 
 在“下载”选项卡上可以看到报表和关联元数据的列表。 可以查看现在的导出状态和以前的导出状态。
 
-![](media/migrate-tool/migrate-tool-download-tab.png)
+![下载](media/migrate-tool/migrate-tool-download-tab.png)
 
 有两个选项。
 

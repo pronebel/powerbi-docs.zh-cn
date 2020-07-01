@@ -5,16 +5,16 @@ author: davidiseminger
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 01/08/2020
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: 8326d68408b083a606730355538d2aae7fe2ad4c
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 37687ab23d44821a51779d4e03663bd79189865f
+ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83322737"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "85239973"
 ---
 # <a name="link-entities-between-dataflows-in-power-bi"></a>在 Power BI 中链接数据流之间的实体
 
@@ -44,7 +44,7 @@ ms.locfileid: "83322737"
 
 ![Power BI 中链接的实体](media/service-dataflows-linked-entities/linked-entities_00.png)
 
-还可以从 Power BI 服务的“添加实体”  菜单项中选择“添加链接的实体”  。
+还可以从 Power BI 服务的“添加实体”菜单项中选择“添加链接的实体”。
 
 ![Power BI 中链接的实体](media/service-dataflows-linked-entities/linked-entities_01.png)
 

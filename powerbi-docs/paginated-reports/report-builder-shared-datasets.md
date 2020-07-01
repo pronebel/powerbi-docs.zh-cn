@@ -4,15 +4,15 @@ description: 在 Power BI 报表生成器中基于 Power BI 共享数据集创�
 ms.date: 02/12/2020
 ms.service: powerbi
 ms.subservice: report-builder
-ms.topic: conceptual
+ms.topic: how-to
 author: maggiesMSFT
 ms.author: maggies
-ms.openlocfilehash: 6f77b2c4ffa7b42cf99a75b4ae88ae0aeb631499
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: a13f346feeddc8196cb35e06acf027baeaa7a151
+ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83276619"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "85239782"
 ---
 # <a name="create-a-paginated-report-based-on-a-power-bi-shared-dataset"></a>基于 Power BI 共享数据集创建分页报表
 
@@ -26,7 +26,7 @@ ms.locfileid: "83276619"
 
 以下是在 Power BI 报表生成器中使用共享数据集所需和不需要的事项。
 
-- Power BI 报表生成器。 [下载并安装 Power BI 报表生成器](https://go.microsoft.com/fwlink/?linkid=2086513)。
+- Power BI 报表生成器。 [下载并安装 Power BI 报表生成器](https://aka.ms/pbireportbuilder)。
 - 要访问 Power BI 数据集，需要具有该数据集的生成权限。 请参阅[生成权限](../connect-data/service-datasets-build-permissions.md)。
 - 在报表生成器中创建分页报表无需 Power BI Pro 许可证。 
 - 要发布分页报表，则需要 Power BI Pro 许可证。 此外，还至少需要高级容量中工作区的参与者角色。 

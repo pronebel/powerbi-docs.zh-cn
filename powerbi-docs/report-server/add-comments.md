@@ -6,14 +6,14 @@ ms.author: maggies
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-report-server
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 11/15/2018
-ms.openlocfilehash: dd469bdbfa530a1a4728494d3c06e571600dfb5f
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 4d705176105013672bc89dc19620a1d67a3ce620
+ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "73874326"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "85239467"
 ---
 # <a name="add-comments-to-a-report-in-a-report-server---power-bi-report-server"></a>在报表服务器中将注释添加到报表 - Power BI 报表服务器
 

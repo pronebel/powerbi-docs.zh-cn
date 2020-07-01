@@ -5,16 +5,16 @@ author: davidiseminger
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 09/20/2019
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: 6c86467d821a93853a82920c5b85eab60578c42e
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: b4d1b969e82ef4f6a911f7adc79bf0d9308e7560
+ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83311674"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "85240123"
 ---
 # <a name="connect-to-data-sources-for-power-bi-dataflows"></a>连接到 Power BI 数据流的数据源
 
@@ -122,7 +122,7 @@ ms.locfileid: "83311674"
 
 提供服务器 URL 或资源连接信息后，请选择“登录”以输入用于数据访问的凭据，然后选择“下一步”   。
 
-“Power Query Online”发起并建立与数据源的连接，然后在“导航器”窗口中显示该数据源中的可用表，如下图所示   。
+“Power Query Online”发起并建立与数据源的连接，然后在“导航器”窗口中显示该数据源中的可用表，如下图所示 。
 
 ![导航器窗口显示数据源中的表](media/service-dataflows-data-sources/dataflows-data-sources_07.png)
 

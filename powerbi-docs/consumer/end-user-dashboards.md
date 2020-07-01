@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 02/18/2020
+ms.date: 06/19/2020
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: b0e52ebf4f529c7da75e79becf30c74d6e2c0248
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 64fa13f3e95f43813c657eb9be195fb03e57a06b
+ms.sourcegitcommit: caf60154a092f88617eb177bc34fb784f2365962
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "77496320"
+ms.lasthandoff: 06/25/2020
+ms.locfileid: "85354906"
 ---
 # <a name="dashboards-for-power-bi-service-consumers"></a>面向 Power BI 服务使用者的仪表板
 
@@ -32,7 +32,6 @@ Power BI ***仪表板***是单个页面，通常称为画布，使用可视化�
 > [可以在移动设备上查看和共享](mobile/mobile-apps-view-dashboard.md)仪表板。
 >
 > 若要查看与自己共享的仪表板，必须使用 Power BI Pro。
-> 
 
 仪表板上的可视化效果来自报表，并且每个报表基于一个数据集。 事实上，一种想到仪表板的方法就是进入基础报表和数据集。 选择一个可视化效果可将你转到用于创建仪表板的报表（和数据集）。
 

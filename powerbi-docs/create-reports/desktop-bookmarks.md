@@ -5,16 +5,16 @@ author: maggiesMSFT
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 05/06/2020
 ms.author: maggies
 LocalizationGroup: Create reports
-ms.openlocfilehash: 98fcfba1996f8732e903a7c1d3fa3db9c71c1c82
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 110abfd3ac8d258a6f4e800d218c08af9dc3c983
+ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83298679"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "85239303"
 ---
 # <a name="create-bookmarks-in-power-bi-desktop-to-share-insights-and-build-stories"></a>在 Power BI Desktop 中创建书签以共享见解和创建情景
 使用 Power BI Desktop 中的书签，可以捕获当前配置的报表页视图（其中包含视觉对象的筛选和状态）。 稍后，可以通过选择已保存书签恢复相应状态。 

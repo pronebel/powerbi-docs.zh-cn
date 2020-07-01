@@ -5,20 +5,20 @@ author: davidiseminger
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 04/02/2019
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: 1c79002cfc133be4c474aa992baa57f285ace182
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 0b43864078e52381aa92e6e16366ba4fdf5fea29
+ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83313951"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "85239746"
 ---
 # <a name="using-computed-entities-on-power-bi-premium"></a>在 Power BI Premium 上使用计算实体
 
-在 Power BI Premium 订阅中使用“数据流”  时，可以执行“存储中计算”  。 这让你能够对现有数据流执行计算，并返回让你能够专注于报表创建和分析的结果。 
+在 Power BI Premium 订阅中使用“数据流”时，可以执行“存储中计算”。 这让你能够对现有数据流执行计算，并返回让你能够专注于报表创建和分析的结果。 
 
 ![Power BI Premium 中的计算实体](media/service-dataflows-computed-entities-premium/computed-entities-premium_00.png)
 
@@ -52,7 +52,7 @@ ms.locfileid: "83313951"
 
 请考虑以下示例：你具有含有来自 Dynamics 365 订阅的所有客户的原始数据的帐户  实体。 你还具有来自服务中心的 ServiceCalls  原始数据，其中包含每年每天从不同的帐户执行的支持调用的数据。
 
-假设你想要使用 ServiceCalls  中的数据扩充帐户  实体。 
+假设你想要使用 ServiceCalls 中的数据扩充帐户实体。 
 
 首先，需要聚合来自 ServiceCalls 的数据，以计算最后一年为每个帐户执行的支持调用数。 
 
