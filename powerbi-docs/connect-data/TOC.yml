@@ -94,6 +94,8 @@
                   href: desktop-python-ide.md
                 - name: 通过 Python 创建视觉对象
                   href: desktop-python-visuals.md
+                - name: 了解支持哪些 Python 包
+                  href: service-python-packages-support.md
             - name: 运行 R 脚本
               href: desktop-r-scripts.md
             - name: 在查询编辑器中使用 R
