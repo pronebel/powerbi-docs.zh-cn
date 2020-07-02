@@ -1,18 +1,18 @@
 ### YamlMime:Landing
 metadata:
-  title: Microsoft Power BI 指导式学习
+  title: Microsoft Power BI 自定进度学习
   description: 本系列课程将开启你的学习旅程，帮助你了解 Microsoft Power BI 广博而强大的功能。
   layout: LandingPage
   ms.service: powerbi
   ms.author: davidiseminger
-  ms.date: 09/20/2019
-  ms.openlocfilehash: e358b7b78b4c87b500e6d749bee39fcdc9b2fd02
-  ms.sourcegitcommit: 66b1a0c74b8a7dcb33a2f8570fb67bce2401a895
+  ms.date: 06/23/2020
+  ms.openlocfilehash: 05fa98c9c2c2aa242f8068ee1792eef87638aec0
+  ms.sourcegitcommit: 7d7bb755d5a5af30d2b0eab89fb56e4498514890
   ms.translationtype: HT
   ms.contentlocale: zh-CN
-  ms.lasthandoff: 06/08/2020
-  ms.locfileid: "84532594"
-title: Microsoft Power BI 指导式学习
+  ms.lasthandoff: 07/02/2020
+  ms.locfileid: "85836915"
+title: Microsoft Power BI 自定进度学习
 summary: 本系列课程将开启你的学习旅程，帮助你了解 Microsoft Power BI 广博而强大的功能。
 landingContent:
 - title: 了解 Power BI 可为你执行哪些操作
