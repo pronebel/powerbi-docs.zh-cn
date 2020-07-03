@@ -26,8 +26,6 @@
           href: desktop-tutorial-facebook-analytics.md
         - name: 在 Analysis Services 表格模型中实现行级别安全性
           href: desktop-tutorial-row-level-security-onprem-ssas-tabular.md
-        - name: 开始使用 Power BI
-          href: ../fundamentals/service-get-started.md
         - name: 连接到 GitHub 示例
           href: service-tutorial-connect-to-github.md
         - name: 在 Excel 中使用分析

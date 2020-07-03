@@ -13,6 +13,10 @@
           href: power-bi-service-overview.md
         - name: 比较 Power BI Desktop 和服务
           href: service-service-vs-desktop.md
+    - name: 教程
+      items:
+        - name: Power BI 服务入门
+          href: service-get-started.md
     - name: 概念
       items:
         - name: 最新 Power BI Desktop 更新中有哪些新增功能？
