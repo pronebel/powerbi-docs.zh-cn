@@ -118,6 +118,14 @@
               href: report-performance-troubleshoot.md
             - name: 部署管道最佳做法
               href: ../create-reports/deployment-pipelines-best-practices.md
+    - name: 卓越中心 (COE)
+      items:
+        - name: Microsoft 的 BI 转换
+          href: center-of-excellence-microsoft-business-intelligence-transformation.md
+        - name: 建立 COE
+          href: center-of-excellence-establish.md
+        - name: COE 中的 BI 解决方案体系结构
+          href: center-of-excellence-business-intelligence-solution-architecture.md
     - name: 白皮书
       items:
         - name: 白皮书概述

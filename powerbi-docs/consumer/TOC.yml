@@ -68,6 +68,8 @@
               href: end-user-pdf.md
             - name: 将报表导出为 PowerPoint
               href: end-user-powerpoint.md
+            - name: 如何识别和使用按钮
+              href: end-user-buttons.md
             - name: 向报表添加书签
               href: end-user-bookmarks.md
             - name: 向报表添加聚焦
