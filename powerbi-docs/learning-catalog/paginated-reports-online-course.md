@@ -1,6 +1,6 @@
 ---
 title: 《一天玩转 Power BI 分页报表》课程
-description: 本在线课程旨在为报表作者提供创建、发布和分发 Power BI 分页报表所需的技术知识。
+description: 本基于视频的课程旨在为报表作者提供创建、发布和分发 Power BI 分页报表所需的技术知识。
 author: peter-myers
 ms.reviewer: maggies
 featuredvideoid: DN1t5p9aui0
@@ -9,12 +9,12 @@ ms.subservice: report-builder
 ms.topic: tutorial
 ms.date: 03/18/2020
 ms.author: v-pemyer
-ms.openlocfilehash: 3b6c3f79b6695c670b942253ddd2c2b158dc3acc
-ms.sourcegitcommit: 250242fd6346b60b0eda7a314944363c0bacaca8
+ms.openlocfilehash: d4d5386a7e56618a761e541ba7942778a09a7008
+ms.sourcegitcommit: aece2382b618dc5b730705b4c76e76a657986588
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/20/2020
-ms.locfileid: "83693232"
+ms.lasthandoff: 06/04/2020
+ms.locfileid: "84427494"
 ---
 # <a name="power-bi-paginated-reports-in-a-day-course"></a>《一天玩转 Power BI 分页报表》课程
 
@@ -93,11 +93,11 @@ ms.locfileid: "83693232"
 - **MySolution**：此文件夹存储解决方案文件。 实验说明将说明何时使用它。
 - **演示**：此文件夹包含课程演示文稿文件，可作为 PDF 文档使用。
 
-### <a name="getting-started-with-the-kit"></a>工具包入门
+### <a name="get-started-with-the-kit"></a>工具包入门
 
 建议先观看在线课程。 打开 &lt;CourseFolder&gt;\PowerBIPRIAD\Presentation\PowerBIPRIAD_Presentation.pdf 文件，可以重新参考演示文稿理论。 该演示文稿包括八张实验幻灯片，这些幻灯片表明何时该将理论付诸实践。 它还包含许多资源链接，可帮助你查找相关内容。
 
-当准备开始第一个实验时，请打开 &lt;CourseFolder&gt;\PowerBIPRIAD\Lab01A\PowerBIPRIAD_Lab01A.pdf 文件。 本文档将介绍如何登录 Power BI 服务，上传数据集，然后安装 [Power BI 报表生成器](../paginated-reports/report-builder-power-bi.md)。
+当准备开始第一个实验时，请打开 &lt;CourseFolder&gt;\PowerBIPRIAD\Lab01A\PowerBIPRIAD_Lab01A.pdf 文件。 本文档将介绍如何登录 Power BI 服务，上传数据集，然后安装 [Power BI 报表生成器](https://aka.ms/pbireportbuilder)。
 
 > [!NOTE]
 > 需要拥有自己的 Power BI 帐户。 如果还没有帐户，请参阅[以个人身份注册 Power BI](../fundamentals/service-self-service-signup-for-power-bi.md)。

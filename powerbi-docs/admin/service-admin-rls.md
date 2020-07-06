@@ -5,17 +5,17 @@ author: kfollis
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
-ms.topic: conceptual
+ms.topic: how-to
 ms.author: kfollis
 ms.date: 12/05/2019
 ms.custom: seodec18
 LocalizationGroup: Administration
-ms.openlocfilehash: 6622bff6123ac6985a5275ec72be3a78b13908e6
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 94a65a826cce3cdb0821e8127e45a1f983ad7d89
+ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83274620"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "85227889"
 ---
 # <a name="row-level-security-rls-with-power-bi"></a>Power BI 行级别安全性 (RLS)
 
@@ -25,7 +25,7 @@ Power BI 行级别安全性 (RLS) 可用于限制给定用户的数据访问。 
 
 [!INCLUDE [include-short-name](../includes/rls-desktop-define-roles.md)]
 
-默认情况下，行级别安全性筛选采用单双向筛选器，无需考虑关系是设置为单向还是双向。 通过选择关系并勾选  “在两个方向上应用安全筛选器”复选框，可手动启用具有行级别安全性的双向交叉筛选器。 如果你还在服务器级别实现了动态行级别安全性，则应选中此框，其中行级别安全性基于用户名或登录 ID。
+默认情况下，行级别安全性筛选采用单双向筛选器，无需考虑关系是设置为单向还是双向。 通过选择关系并勾选“在两个方向上应用安全筛选器”复选框，可手动启用具有行级别安全性的双向交叉筛选器。 如果你还在服务器级别实现了动态行级别安全性，则应选中此框，其中行级别安全性基于用户名或登录 ID。
 
 有关详细信息，请参阅[在 Power BI Desktop 中使用 DirectQuery 的双向交叉筛选](../transform-model/desktop-bidirectional-filtering.md)和[保护表格 BI 语义模型](https://download.microsoft.com/download/D/2/0/D20E1C5F-72EA-4505-9F26-FEF9550EFD44/Securing%20the%20Tabular%20BI%20Semantic%20Model.docx)技术文章。
 
@@ -38,8 +38,8 @@ Power BI 行级别安全性 (RLS) 可用于限制给定用户的数据访问。 
 
 若要管理数据模型上的安全性，你需要执行以下操作。
 
-1. 为数据集选择“省略号(...)”  。
-2. 选择“安全”  。
+1. 为数据集选择“省略号(...)”。
+2. 选择“安全”。
    
    ![在两个方向上应用安全筛选器](media/service-admin-rls/rls-security.png)
 
@@ -69,8 +69,8 @@ Power BI 行级别安全性 (RLS) 可用于限制给定用户的数据访问。 
 
 你可以通过测试角色来验证你定义的角色是否正常工作。 
 
-1. 选择该角色旁边的“更多选项”(...)  。
-2. 选择“作为角色测试数据” 
+1. 选择该角色旁边的“更多选项”(...)。
+2. 选择“作为角色测试数据”
 
 ![以角色身份测试](media/service-admin-rls/rls-test-role.png)
 
@@ -78,13 +78,13 @@ Power BI 行级别安全性 (RLS) 可用于限制给定用户的数据访问。 
 
 ![现在以 <角色> 身份查看](media/service-admin-rls/rls-test-role2.png)
 
-可通过选择“立即以此角色查看”  来测试其他角色或角色组合。
+可通过选择“立即以此角色查看”来测试其他角色或角色组合。
 
 ![测试其他角色](media/service-admin-rls/rls-test-role3.png)
 
 可选择以特定人员的身份查看数据，或选择可用角色的组合以验证它们是否工作。 
 
-选择“返回到行级安全性”  以返回到正常查看。
+选择“返回到行级安全性”以返回到正常查看。
 
 [!INCLUDE [include-short-name](../includes/rls-usernames.md)]
 
@@ -102,7 +102,10 @@ Power BI 行级别安全性 (RLS) 可用于限制给定用户的数据访问。 
 [!INCLUDE [include-short-name](../includes/rls-faq.md)]
 
 ## <a name="next-steps"></a>后续步骤
-[Power BI Desktop 行级别安全性 (RLS)](../create-reports/desktop-rls.md)  
 
-更多问题？ [尝试咨询 Power BI 社区](https://community.powerbi.com/)
+有关本文的详细信息，请参阅以下资源：
 
+- [使用 Power BI Desktop 行级别安全性 (RLS) 限制数据访问](../create-reports/desktop-rls.md)
+- [Power BI Desktop 中的行级别安全性 (RLS) 指南](../guidance/rls-guidance.md)
+- 是否有任何问题? [尝试咨询 Power BI 社区](https://community.powerbi.com/)
+- 建议？ [提出改进 Power BI 的想法](https://ideas.powerbi.com/)

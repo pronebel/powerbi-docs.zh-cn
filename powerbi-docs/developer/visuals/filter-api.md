@@ -6,14 +6,14 @@ ms.author: kesharab
 ms.reviewer: sranins
 ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 06/18/2019
-ms.openlocfilehash: 95e661e81e7753d0a28806cca5d652f8e92666a8
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 24e8ac32fb89db2fdc0d1f4ad3fbaffdadaf57bb
+ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "80114097"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "85237432"
 ---
 # <a name="the-visual-filters-api-in-power-bi-visuals"></a>Power BI 视觉对象中的视觉对象筛选器 API
 
@@ -68,7 +68,7 @@ export interface IBasicFilter extends IFilter {
 ```
 
 其中：
-* `operator` 是包含值“In”、“NotIn”和“All”的枚举    。
+* `operator` 是包含值“In”、“NotIn”和“All”的枚举  。
 * `values` 是条件值。
 
 基本筛选器示例：
@@ -116,11 +116,11 @@ visualHost.applyJsonFilter(filter, "general", "filter", FilterAction.merge);
 
 ## <a name="the-advanced-filter-api"></a>高级筛选器 API
 
-[高级筛选器 API](https://github.com/Microsoft/powerbi-models) 支持基于多条件（例如“LessThan”、“Contains”、“Is”和“IsBlank”等）的跨视觉对象数据点的复杂选择和筛选查询     。
+[高级筛选器 API](https://github.com/Microsoft/powerbi-models) 支持基于多条件（例如“LessThan”、“Contains”、“Is”和“IsBlank”等）的跨视觉对象数据点的复杂选择和筛选查询   。
 
 视觉对象 API 1.7.0 中引入了此筛选器。
 
-高级筛选器 API 还需要含 `table` 和 `column` 名称的 `target`。 但高级筛选器 API 运算符为“And”和“Or”   。 
+高级筛选器 API 还需要含 `table` 和 `column` 名称的 `target`。 但高级筛选器 API 运算符为“And”和“Or” 。 
 
 此外，该筛选器在接口中使用条件而不是值：
 
@@ -131,7 +131,7 @@ interface IAdvancedFilterCondition {
 }
 ```
 
-`operator` 参数的条件运算符为“None”、“LessThan”、“LessThanOrEqual”、“GreaterThan”、“GreaterThanOrEqual”、“Contains”、“DoesNotContain”、“StartsWith”、“DoesNotStartWith”、“Is”、“IsNot”、“IsBlank”和“IsNotBlank”            
+`operator` 参数的条件运算符为“None”、“LessThan”、“LessThanOrEqual”、“GreaterThan”、“GreaterThanOrEqual”、“Contains”、“DoesNotContain”、“StartsWith”、“DoesNotStartWith”、“Is”、“IsNot”、“IsBlank”和“IsNotBlank”           
 
 ```javascript
 let categories: DataViewCategoricalColumn = this.dataView.categorical.categories[0];
@@ -189,9 +189,9 @@ interface ITupleFilter extends IFilter {
 
 * `$schema` 为 https://powerbi.com/product/schema#tuple 。
 
-* `filterType` 为 FilterType.Tuple  。
+* `filterType` 为 FilterType.Tuple。
 
-* 仅允许在“In”运算符中使用 `operator` 。
+* 仅允许在“In”运算符中使用 `operator`。
 
 * `values` 是由值元组构成的数组，每个元组表示一个允许的目标列值组合。 
 
@@ -261,7 +261,7 @@ SELECT * FROM DataTable WHERE ( Team = "Team1" AND Value = 5 ) OR ( Team = "Team
 
 ## <a name="restore-the-json-filter-from-the-data-view"></a>从数据视图还原 JSON 筛选器
 
-从 API 版本 2.2 开始，可从 VisualUpdateOptions 还原 JSON 筛选器，如以下代码所示  ：
+从 API 版本 2.2.0 开始，可从 VisualUpdateOptions 还原 JSON 筛选器，如以下代码所示：
 
 ```typescript
 export interface VisualUpdateOptions extends extensibility.VisualUpdateOptions {
@@ -285,7 +285,7 @@ export interface VisualUpdateOptions extends extensibility.VisualUpdateOptions {
 
 ### <a name="clear-the-json-filter"></a>清除 JSON 筛选器
 
-进行重置或清除操作时，筛选器 API 接受筛选器的 `null` 值   。
+进行重置或清除操作时，筛选器 API 接受筛选器的 `null` 值 。
 
 ```typescript
 // invoke the filter

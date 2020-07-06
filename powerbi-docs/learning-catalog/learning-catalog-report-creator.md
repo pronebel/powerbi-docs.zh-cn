@@ -1,17 +1,17 @@
 ---
 title: 报表创建者学习目录
 description: 查找针对 Power BI 的所有培训选项
-author: loreleishannonmsft
+author: margoc
 ms.prod: powerbi
 ms.topic: article
 ms.date: 03/25/2020
-ms.author: v-lshann
-ms.openlocfilehash: f318aa59f33a9993b31787fcb3e0036286616608
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.author: margoc
+ms.openlocfilehash: ed36d045047215babb092eb074156c950af9d16f
+ms.sourcegitcommit: 66b1a0c74b8a7dcb33a2f8570fb67bce2401a895
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "81268802"
+ms.lasthandoff: 06/08/2020
+ms.locfileid: "84532272"
 ---
 # <a name="report-creator-learning-catalog"></a>报表创建者学习目录
 
@@ -39,6 +39,7 @@ ms.locfileid: "81268802"
 ## <a name="report-design"></a>报表设计<a name="report-design"></a>
 | 内容 | 说明  | 格式 | 长度   |
 |-------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------|----------------|
+|[在线课程：一天玩转 Power BI 分页报表](paginated-reports-online-course.md)|基于视频的本课程旨在为报表作者提供创建、发布和分发 Power BI 分页报表所需的技术知识。 建议按录制顺序观看视频，从视频 1 开始，到视频 24 结束。|YouTube 播放列表和自学工具包|4 小时 20 分钟|
 | [用 Power BI 讲述数据故事（主讲人：Tristan Malherbe）](https://www.youtube.com/watch?v=egk0suekwHo)  | 用 Power BI 讲述数据故事（主讲人：Tristan Malherbe）  | YouTube 视频 | 59 分钟 54 秒    |
 | [PowerBI.Tips 所有者主讲的 Power 技巧、提示和工具](https://community.powerbi.com/t5/Webinars-and-Video-Gallery/Power-Tricks-Tips-and-Tools-from-the-owners-of-PowerBI-Tips/td-p/382848) | PowerBI.Tips 所有者主讲的 Power 技巧、提示和工具 在这场非常特别的用户组网络研讨会中，PowerBI.Tips 的所有者和作为 Power BI MVP 的 Seth Baur 和 Mike Carlo 将分享他们过去 18 个月发布到 http://PowerBI.Tips 的关于 Power 技巧、提示和工具的大量内容 演示内容将包括他们的主题生成器，在查询编辑器中添加数据类型和最新推出的 Power BI 布局（及其最新布局“Cool Blue”的演示）。  | 网络研讨会       | 1 小时 7 分钟 4 秒 |
 | [2018 年 9 月 11 日网络研讨会：新工具和新模板，包括对颜色更改的演练](https://community.powerbi.com/t5/Webinars-and-Video-Gallery/9-11-18-Webinar-New-tools-and-new-templates-including-a/td-p/480220) | 倾听 Charles Sterling 和 PowerBI.Tips 的创建者以及作为 Microsoft MVP 的 Seth Bauer 和 Mike Carlo 的讲解，他们将分享过去 6 个月发布到 https://PowerBI.Tips 的关于 Power 技巧、建议和工具的海量内容。 演示内容将包括他们最新的主题生成器、提示和技巧，以及最新的 Power BI 布局。  | 网络研讨会       | 53 分钟 34 秒    |

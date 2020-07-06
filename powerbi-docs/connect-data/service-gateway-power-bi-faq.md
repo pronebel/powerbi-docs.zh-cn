@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 07/15/2019
 ms.author: arthii
 LocalizationGroup: Gateways
-ms.openlocfilehash: f64fcd86d54c20e1318d38c2a73e9bca2174558a
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: c4fe9f20e2b6b978479cfdad0651a96d6d322056
+ms.sourcegitcommit: a453ba52aafa012896f665660df7df7bc117ade5
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83302658"
+ms.lasthandoff: 06/27/2020
+ms.locfileid: "85485636"
 ---
 # <a name="on-premises-data-gateway-faq---power-bi"></a>本地数据网关常见问题解答 - Power BI
 
@@ -48,7 +48,7 @@ ms.locfileid: "83302658"
 
 ## <a name="analysis-services-in-power-bi"></a>Power BI 中的 Analysis Services
 
-**问：** 我可以使用 msdmpump.dll 为 Analysis Services 创建自定义的有效用户名映射吗？ 
+**问：** 我可以使用 msmdpump.dll 为 Analysis Services 创建自定义的有效用户名映射吗？ 
 
 **答：** 否。 此时不支持此用法。
 

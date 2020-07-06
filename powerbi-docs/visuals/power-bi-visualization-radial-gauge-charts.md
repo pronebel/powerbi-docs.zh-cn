@@ -7,15 +7,15 @@ featuredvideoid: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 05/05/2020
+ms.date: 06/17/2020
 ms.author: rien
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 4274136df063258b6879057636f11ec437873ae6
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 24f69255ae12400c23cd9ca506e5b103e14e7ffb
+ms.sourcegitcommit: caf60154a092f88617eb177bc34fb784f2365962
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83276343"
+ms.lasthandoff: 06/25/2020
+ms.locfileid: "85354883"
 ---
 # <a name="radial-gauge-charts-in-power-bi"></a>Power BI 中的径向仪表图
 
@@ -23,7 +23,7 @@ ms.locfileid: "83276343"
 
 [!INCLUDE [power-bi-visuals-desktop-banner](../includes/power-bi-visuals-desktop-banner.md)]
 
-径向仪表图在圆弧内显示一个值，用于度量在实现目标或关键绩效指标 (KPI) 方面的进度。 线（或指针  ）表示目标或目标值。 底纹表示在实现目标方面的进度。 圆弧内的值表示进度值。 Power BI 沿圆弧均匀分布所有可能的值，从最小值（最左边的值）到最大值（最右边的值）。
+径向仪表图在圆弧内显示一个值，用于度量在实现目标或关键绩效指标 (KPI) 方面的进度。 线（或指针）表示目标或目标值。 底纹表示在实现目标方面的进度。 圆弧内的值表示进度值。 Power BI 沿圆弧均匀分布所有可能的值，从最小值（最左边的值）到最大值（最右边的值）。
 
 ![径向仪表的屏幕截图。](media/power-bi-visualization-radial-gauge-charts/gauge-m.png)
 
@@ -48,15 +48,15 @@ ms.locfileid: "83276343"
 
 本教程使用[财务示例 Excel 文件](https://download.microsoft.com/download/9/6/D/96DDC2FF-2568-491D-AAFA-AFDD6F763AE3/Retail%20Analysis%20Sample%20PBIX.pbix)。
 
-1. 在菜单栏的左上方，选择“获取数据” > “Excel”  
+1. 在菜单栏的左上方，选择“获取数据” > “Excel” 
    
 2. 查找**财务示例 Excel 文件**的副本
 
 1. 在报表视图中打开**财务示例 Excel 文件**![报表视图屏幕截图图标](media/power-bi-visualization-kpi/power-bi-report-view.png)。
 
-1. 选择“financials”和“Sheet1”  
+1. 选择“financials”和“Sheet1” 
 
-1. 单击“加载” 
+1. 单击“加载”
 
 1. 选择 ![黄色选项卡的屏幕截图。](media/power-bi-visualization-kpi/power-bi-yellow-tab.png) ，以添加新报表页。
 
@@ -68,9 +68,9 @@ ms.locfileid: "83276343"
 
 1. 从空白报表页入手
 
-1. 在“字段”  窗格中，选择“总销售额”  。
+1. 在“字段”窗格中，选择“总销售额”。
 
-   ![](media/power-bi-visualization-radial-gauge-charts/grosssalesvalue-new.png)
+   ![财务表已展开并选择了“总销售额”](media/power-bi-visualization-radial-gauge-charts/grosssalesvalue-new.png)
 
 1. 将聚合函数更改为**平均值**。
 
@@ -80,14 +80,14 @@ ms.locfileid: "83276343"
 
     ![仪表图的屏幕截图。](media/power-bi-visualization-radial-gauge-charts/gauge-no-target.png)
 
-    你看到的数字可能会与这些数字不一致，具体视你何时下载“财务示例”  文件而定。
+    你看到的数字可能会与这些数字不一致，具体视你何时下载“财务示例”文件而定。
 
     > [!TIP]
-    > 默认情况下，Power BI 创建的仪表图假定当前值（在此示例中，为“平均总销售额”  ）位于仪表的中间点。 由于“平均总销售额”  的值为“$182.76K”，因此起始值（最小值）设为 0，终端值（最大值）设为当前值的两倍。
+    > 默认情况下，Power BI 创建的仪表图假定当前值（在此示例中，为“平均总销售额”）位于仪表的中间点。 由于“平均总销售额”的值为“$182.76K”，因此起始值（最小值）设为 0，终端值（最大值）设为当前值的两倍。
 
 ### <a name="step-3-set-a-target-value"></a>步骤 3：设置目标值
 
-1. 将“字段”  窗格中的“COGS”  拖放到“目标值”  井。
+1. 将“字段”窗格中的“COGS”拖放到“目标值”井。
 
 1. 将聚合函数更改为**平均值**。
 
@@ -102,9 +102,9 @@ ms.locfileid: "83276343"
 
 ### <a name="step-4-set-a-maximum-value"></a>步骤 4：设置最大值
 
-在第 2 步中，Power BI 使用了“值”  字段来自动设置最小值和最大值。 若要设置你自己的最大值，该怎么办？ 假设要将最大值设为数据集中的最高总销售额，而不使用当前值的两倍作为最大值。
+在第 2 步中，Power BI 使用了“值”字段来自动设置最小值和最大值。 若要设置你自己的最大值，该怎么办？ 假设要将最大值设为数据集中的最高总销售额，而不使用当前值的两倍作为最大值。
 
-1. 将“字段”  窗格中的“总销售额”  拖放到“最大值”  井。
+1. 将“字段”窗格中的“总销售额”拖放到“最大值”井。
 
 1. 将聚合函数更改为**最大值**。
 
@@ -122,15 +122,15 @@ ms.locfileid: "83276343"
 
 1. 将**最大总销售额**从**最大值**框中删除。
 
-1. 选择“滚动油漆刷”图标，以打开“格式”  窗格。
+1. 选择“滚动油漆刷”图标，以打开“格式”窗格。
 
    ![仪表图和突出显示“滚动油漆刷”图标的“格式”窗格屏幕截图。](media/power-bi-visualization-radial-gauge-charts/power-bi-roller.png)
 
-1. 展开“仪表轴”  ，并在“最小值”  和“最大值”  中输入值。
+1. 展开“仪表轴”，并在“最小值”和“最大值”中输入值。
 
     ![“仪表轴”选项的屏幕截图。](media/power-bi-visualization-radial-gauge-charts/power-bi-gauge-axis.png)
 
-1. 取消选中“字段”  窗格中的“COGS”  选项，以删除目标值。
+1. 取消选中“字段”窗格中的“COGS”选项，以删除目标值。
 
     ![已取消选中“COGS”选项的屏幕截图。](media/power-bi-visualization-radial-gauge-charts/pbi-remove-target.png)
 

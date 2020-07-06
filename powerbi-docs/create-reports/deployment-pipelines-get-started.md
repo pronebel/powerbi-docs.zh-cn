@@ -3,16 +3,16 @@ title: 开始使用部署管道
 description: 了解如何使用 Power BI 中的部署管道
 author: KesemSharabi
 ms.author: kesharab
-ms.topic: conceptual
+ms.topic: how-to
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.date: 05/06/2020
-ms.openlocfilehash: 8dc0dc97e2b4bca7154ea0f13273ee2dbaee1b61
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 6e9ed3217a7ee589eaf1469ba179ef8c8bc474e9
+ms.sourcegitcommit: caf60154a092f88617eb177bc34fb784f2365962
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83272824"
+ms.lasthandoff: 06/25/2020
+ms.locfileid: "85354722"
 ---
 # <a name="get-started-with-deployment-pipelines-preview"></a>开始使用部署管道（预览版）
 
@@ -84,7 +84,7 @@ ms.locfileid: "83272824"
 
 选择要从中进行部署的阶段，然后单击“部署”按钮。 部署过程会在目标阶段创建一个重复的工作区。 此工作区包含当前阶段中的所有现有内容。
 
-[![](media/deployment-pipelines-get-started/deploy.png "Deploy all content")](media/deployment-pipelines-get-started/deploy.png#lightbox)
+[![部署](media/deployment-pipelines-get-started/deploy.png "查看所有内容")](media/deployment-pipelines-get-started/deploy.png#lightbox)
 
 ### <a name="selective-deployment"></a>选择性部署
 
@@ -92,7 +92,7 @@ ms.locfileid: "83272824"
 
 由于仪表板、报表和数据集是相关的并且具有依赖关系，因此你可以使用选择相关按钮来检查这些项目所依赖的所有项。 例如，如果要将报表部署到下一阶段，则单击“选择相关”按钮将标记该报表所连接到的数据集，以便同时部署两者且报表不会中断。
 
-[![](media/deployment-pipelines-get-started/selective-deploy.png "Selective deployment")](media/deployment-pipelines-get-started/selective-deploy.png#lightbox)
+[![选择性部署](media/deployment-pipelines-get-started/selective-deploy.png "选择性部署")](media/deployment-pipelines-get-started/selective-deploy.png#lightbox)
 
 >[!NOTE]
 > * 如果报表或仪表板所依赖的项目在要部署到的阶段中不存在，则无法将其部署到下一阶段。
@@ -104,7 +104,7 @@ ms.locfileid: "83272824"
 
 仅当上一阶段内容为空时，才可部署到上一阶段。 当部署到上一阶段时，无法选择特定项目。 将部署此阶段中的所有内容。
 
-[![](media/deployment-pipelines-get-started/deploy-back.png "Backwards deployment")](media/deployment-pipelines-get-started/deploy-back.png#lightbox)
+[![反向部署](media/deployment-pipelines-get-started/deploy-back.png "反向部署")](media/deployment-pipelines-get-started/deploy-back.png#lightbox)
 
 ## <a name="step-4---create-dataset-rules"></a>步骤 4 - 创建数据集规则
 
@@ -125,11 +125,11 @@ ms.locfileid: "83272824"
 
 2. 在“部署设置”窗格中，选择要为其创建规则的数据集。
 
-    [![](media/deployment-pipelines-get-started/dataset-rules.png "Select a dataset")](media/deployment-pipelines-get-started/dataset-rules.png#lightbox)
+    [![数据集规则](media/deployment-pipelines-get-started/dataset-rules.png "选择一个数据集")](media/deployment-pipelines-get-started/dataset-rules.png#lightbox)
 
 3. 选择要创建的规则类型，展开列表，然后单击“添加规则”。
 
-     [![](media/deployment-pipelines-get-started/add-rule.png "Add a rule")](media/deployment-pipelines-get-started/add-rule.png#lightbox)
+     [![添加规则](media/deployment-pipelines-get-started/add-rule.png "添加规则")](media/deployment-pipelines-get-started/add-rule.png#lightbox)
 
 ### <a name="dataset-rule-types"></a>数据集规则类型
 
@@ -154,15 +154,14 @@ ms.locfileid: "83272824"
 * 如果更改在规则中定义的数据源或参数，或将其从源数据集中删除，则该规则将无效，且部署将失败。
 
 * 只能为以下数据源定义数据源规则：
-    * Analysis Services
-    * Azure SQL Server
     * Azure Analysis Services
+    * SQL Server Analysis Services (SSAS)
+    * Azure SQL Server
+    * SQL Server
     * OData 源
     * Oracle
-    * SapHana
+    * SapHana（仅支持导入模式；不支持直接查询模式）
     * SharePoint
-    * SQL Server
-    * SQL Server Analysis Services (SSAS)
     * Teradata
 
     对于其他数据源，我们建议[使用参数来配置数据源](deployment-pipelines-best-practices.md#use-parameters-in-your-model)。
@@ -181,7 +180,7 @@ ms.locfileid: "83272824"
 
 当两个连续阶段都有内容时，将基于内容项元数据对内容进行比较。 这种比较不包括比较各阶段之间的数据或刷新时间。
 
- [![](media/deployment-pipelines-get-started/deployment-flow.png "Comparing stages")](media/deployment-pipelines-get-started/deployment-flow.png#lightbox)
+ [![部署流](media/deployment-pipelines-get-started/deployment-flow.png "比较阶段")](media/deployment-pipelines-get-started/deployment-flow.png#lightbox)
 
 为了快速直观地了解两个连续阶段之间的差异，它们之间会出现比较图标指示器。 比较指示器有两种状态：
 
@@ -202,7 +201,7 @@ ms.locfileid: "83272824"
     >[!NOTE]
     >部署不会影响“缺少来源”项。
 
- [![](media/deployment-pipelines-get-started/compare.png "Compare view")](media/deployment-pipelines-get-started/compare.png#lightbox)
+ [![比较](media/deployment-pipelines-get-started/compare.png "比较视图")](media/deployment-pipelines-get-started/compare.png#lightbox)
 
 ## <a name="overriding-content"></a>覆盖内容
 

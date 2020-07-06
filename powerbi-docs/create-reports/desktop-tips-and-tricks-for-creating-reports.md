@@ -6,15 +6,15 @@ ms.reviewer: willthom
 ms.custom: seodec18
 ms.service: powerbi
 ms.subservice: powerbi-service
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 05/07/2020
 ms.author: davidi
-ms.openlocfilehash: e7e7c0f8df0f41d673920cf4af596ca33d46519c
-ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
+ms.openlocfilehash: ae9a3695c8db084d9c65871314edfef34cde1cb6
+ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/19/2020
-ms.locfileid: "83564566"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "85238488"
 ---
 # <a name="tips-and-tricks-for-creating-reports-in-power-bi-desktop"></a>在 Power BI Desktop 创建报表的相关提示和技巧
 若要充分利用你的数据，有时你还需要一点帮助。 我们整理了一些提示和技巧，以便你在 Microsoft Power BI Desktop *及*启用了 Power Pivot 加载项且安装和启用了 Power Query 的 Microsoft Excel 2016 或 Excel 2013 Pro-Plus 版本中创建报表时可加以使用。 
@@ -99,11 +99,11 @@ Power BI 与必应相集成，提供默认地图坐标（一个称为地理编�
 ## <a name="histograms"></a>直方图
 在 Power BI Desktop 中，可使用计算字段来定义直方图。 确定要在其上创建直方图的表格和列。 在计算区域，键入以下公式：
 
-> Frequency:=COUNTROWS(\<列名\>)
+> Frequency:=COUNTROWS(\<Column Name\>)
 > 
 > 
 
-保存更改并返回到报表。 将\<列名\>和“频率”添加到表格，然后转换为条形图。 确保\<列名\>位于 x 轴上，“频率”计算字段在 y 轴上。
+保存更改并返回到报表。 将 \<Column Name\> 和“频率”添加到表格，然后转换为条形图。 确保 \<Column Name\> 位于 x 轴上，“频率”计算字段在 y 轴上。
 
 ## <a name="tips-and-tricks-for-creating-relationships-in-power-bi-desktop"></a>在 Power BI Desktop 中创建关系的相关提示和技巧
 通常在加载来自多个源的详细信息数据集时，null 值、空白值或重复值等问题将阻止你创建关系。 

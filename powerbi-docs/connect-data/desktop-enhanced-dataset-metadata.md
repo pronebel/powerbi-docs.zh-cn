@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 05/21/2020
+ms.date: 06/11/2020
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 42e3f36689e62b196f5d8cb82bd4dd5ee118bf8b
-ms.sourcegitcommit: 5e5a7e15cdd55f71b0806016ff91256a398704c1
+ms.openlocfilehash: 0a09311c5fdb1a8b2e008996d993015f33ee9b5f
+ms.sourcegitcommit: a07fa723bb459494c60cf6d749b4554af723482a
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/22/2020
-ms.locfileid: "83793400"
+ms.lasthandoff: 06/12/2020
+ms.locfileid: "84739244"
 ---
 # <a name="using-enhanced-dataset-metadata-preview"></a>使用增强的数据集元数据（预览）
 
@@ -64,11 +64,13 @@ Power BI Desktop 创建报表时，还会使用相应的 PBIX 和 PBIT 文件创
 在预览版中，启用预览功能时存在以下限制。
 
 ### <a name="unsupported-features-and-connectors"></a>不支持的功能和连接器
+
+存在以下限制：
+
 打开尚未升级的现有 PBIX 或 PBIT 文件时，如果数据集包含以下任何功能或连接器，则升级将失败。 如果发生此类失败，不会对用户体验产生直接影响，Power BI Desktop 继续使用以前的元数据格式。
 
-* 所有自定义连接器
+* 所有自定义连接器（2020 年 5 月版本限制）
 * Python 脚本
-* 自定义连接器
 * Azure DevOps Server
 * BI 连接器
 * Denodo
@@ -84,16 +86,15 @@ Power BI Desktop 创建报表时，还会使用相应的 PBIX 和 PBIT 文件创
 * 列名中包含特定字符组合（例如“\\n”）的 M 表达式
 * 使用启用了“增强的数据集元数据”功能的数据集时，无法在 Power BI 服务中设置单一登录 (SSO) 数据源
 
-使用这些列出的连接器的报表不会升级为新格式。 对于已升级的报表或在启用此新功能之后创建的报表，将不支持添加所列出的不受支持的功能或连接器。 
+如果使用的是 2020 年 6 月版 Power BI Desktop（或更高版本），则 Power BI Desktop 和 Power BI 服务支持所有自定义连接器和所有内置连接器。 发布期间，如果使用的是 2020 年 6 月版或更高版本，则在网关遇到问题时，数据集将成功发布，但用户必须重新发布报表才能刷新数据。 “数据源设置”对话框是发布过程中出现问题的唯一指示器。
+
+使用不支持的连接器或功能的报表不会升级为新格式。 对于已升级的报表或在启用此新功能之后创建的报表，将不支持添加所列出的不受支持的功能或连接器。 
 
 不支持包含动态数据源的查询。 具有动态数据源的报表将不会升级为新格式，并且已升级的报表或在启用该功能的情况下新创建的报表将不支持添加动态数据源。 如果源随着参数、函数输入或可变函数而发生变化，则查询具有动态数据源。 
 
 不支持在上游步骤或分支中出现错误的查询。 
 
-此外，已成功升级为使用“增强的数据集元数据”的 PBIX 和 PBIT 文件无法在当前版本中使用上述功能或连接器。
-
-
-
+此外，已成功升级为使用“增强的数据集元数据”的 PBIX 和 PBIT 文件无法使用上述功能（或任何不受支持的连接器）。
 
 ### <a name="lineage-view"></a>世系视图
 使用新元数据格式的数据集当前不会在 Power BI 服务的沿袭视图中显示指向数据流的链接。

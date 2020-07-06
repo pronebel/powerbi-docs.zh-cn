@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: tutorial
 ms.date: 02/05/2019
-ms.openlocfilehash: 149b4f8663838c0a87609a1ec24358fb9ee9727e
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 8860a06355f201c463e97d81021a8e5476ac98c8
+ms.sourcegitcommit: caf60154a092f88617eb177bc34fb784f2365962
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "80403639"
+ms.lasthandoff: 06/25/2020
+ms.locfileid: "85354975"
 ---
 # <a name="step-3-create-a-dataset-in-power-bi"></a>步骤 3：在 Power BI 中创建数据集
 本文是[将数据推送到数据集](walkthrough-push-data.md)的分步演练的一部分。
@@ -26,7 +26,7 @@ ms.locfileid: "80403639"
 
 当调用 [PostDataset](https://docs.microsoft.com/rest/api/power-bi/pushdatasets) 操作时，创建新的数据集。 
 
-![](media/walkthrough-push-data-create-dataset/powerbi-developer-create-dataset.png)
+![创建数据集](media/walkthrough-push-data-create-dataset/powerbi-developer-create-dataset.png)
 
 下面介绍了如何在 Power BI 中创建数据集。
 

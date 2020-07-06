@@ -5,16 +5,16 @@ author: davidiseminger
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
-ms.topic: conceptual
-ms.date: 05/26/2020
+ms.topic: how-to
+ms.date: 06/22/2020
 ms.author: davidi
 LocalizationGroup: Premium
-ms.openlocfilehash: 2257e38183d87ef7fd4fdd12546c2a191a7acf74
-ms.sourcegitcommit: 3f864ec22f99ca9e25cda3a5abda8a5f69ccfa8e
+ms.openlocfilehash: a9045c5c088926b24bb9f71e2adf558da6ffa597
+ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/29/2020
-ms.locfileid: "84159872"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "85227445"
 ---
 # <a name="incremental-refresh-in-power-bi"></a>Power BI 中的增量刷新
 
@@ -114,7 +114,7 @@ Power BI 服务中的第一次刷新可能需要更长时间才能导入全部�
 
 #### <a name="current-date"></a>当前日期
 
-当前日期基于刷新时的系统日期。 如果为 Power BI 服务中的数据集启用了计划的刷新，则在确定当前日期时将考虑指定的时区。 手动调用和计划的刷新都将遵循时区（如果可用）。 例如，指定在太平洋时间（美国和加拿大）晚上 8 点刷新并指定时区，将根据太平洋时间确定当前日期，而不是 GMT（若根据后者确定，则当前时间将晚一天）。
+当前日期基于刷新时的系统日期。 如果为 Power BI 服务中的数据集启用了计划的刷新，则在确定当前日期时将考虑指定的时区。 通过 Power BI 服务手动调用和计划的刷新都将遵循时区（如果可用）。 例如，指定在太平洋时间（美国和加拿大）晚上 8 点刷新并指定时区，将根据太平洋时间确定当前日期，而不是 GMT（若根据后者确定，则当前时间将晚一天）。 不通过 Power BI 服务调用的刷新操作（如 [TMSL 刷新命令](https://docs.microsoft.com/analysis-services/tmsl/refresh-command-tmsl?view=power-bi-premium-current)）将不考虑计划的刷新时区
 
 ![时区](media/service-premium-incremental-refresh/time-zone2.png)
 
@@ -186,7 +186,7 @@ in
 
 - **applyRefreshPolicy** - 如果表已定义增量刷新策略，applyRefreshPolicy 会确定策略是否已应用。 如果策略未应用，完全处理操作会保持分区定义不变，并且会完全刷新表中的所有分区。 默认值为 True。
 
-- **effectiveDate** - 如果正在应用增量刷新策略，它需要知道当前日期，才能确定历史范围和增量范围的滚动窗口范围。 使用 effectiveDate 参数，可以重写当前日期。 这对于将数据增量刷新到过去或未来某个日期的测试、演示和业务方案（如未来预算）十分有用。 默认值是[当前日期](#current-date)。
+- **effectiveDate** - 如果正在应用增量刷新策略，它需要知道当前日期，才能确定历史范围和增量范围的滚动窗口范围。 使用 effectiveDate 参数，可以重写当前日期。 这对于将数据增量刷新到过去或未来某个日期的测试、演示和业务方案（如未来预算）十分有用。 默认值是当前日期。
 
 ```json
 { 
@@ -205,6 +205,8 @@ in
   }
 }
 ```
+
+若要详细了解如何使用 TMSL 重写默认增量刷新行为，请参阅[刷新命令](https://docs.microsoft.com/analysis-services/tmsl/refresh-command-tmsl?view=power-bi-premium-current)。
 
 ### <a name="custom-queries-for-detect-data-changes"></a>用于检测数据更改的自定义查询
 

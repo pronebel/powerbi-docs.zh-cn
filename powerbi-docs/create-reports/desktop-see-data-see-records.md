@@ -5,16 +5,16 @@ author: davidiseminger
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 05/21/2020
 ms.author: davidi
 LocalizationGroup: Learn more
-ms.openlocfilehash: d1aca2499ecf2be3e38fe36bd00f5ff5b2c17cc7
-ms.sourcegitcommit: 5e5a7e15cdd55f71b0806016ff91256a398704c1
+ms.openlocfilehash: f70876b3b8c1815576ed019f88b67296f7aec052
+ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/22/2020
-ms.locfileid: "83793959"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "85238627"
 ---
 # <a name="use-visual-table-and-data-point-table-in-power-bi-desktop"></a>使用 Power BI Desktop 中的视觉对象表和数据点表
 在 Power BI Desktop 中，可以深入了解可视化效果的详细信息，并能查看选定视觉对象的基础数据或单个数据记录的文本表示形式。 这些功能有时亦称为“单击后了解详细信息”、“深入了解”或“深入了解详细信息”。
@@ -82,7 +82,7 @@ ms.locfileid: "83793959"
 > [!NOTE]
 >“数据点表”具有以下限制：
 > - 无法更改“数据点表”视图中的数据并将其保存回报表。
-> - 如果视觉对象使用计算度量值，则不能使用“数据点表”。
+> - 如果视觉对象使用（多维）度量值组中的计算度量值，则不能使用“数据点表”。
 > - 连接到实时多维 (MD) 模型时无法使用“数据点表”。
 
 ## <a name="next-steps"></a>后续步骤

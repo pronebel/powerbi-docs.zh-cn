@@ -10,12 +10,12 @@ ms.date: 04/07/2020
 ms.author: kfollis
 ms.custom: licensing support
 LocalizationGroup: Get started
-ms.openlocfilehash: f494533c8b79dce250f3f25c706896d542f01f26
-ms.sourcegitcommit: 3f864ec22f99ca9e25cda3a5abda8a5f69ccfa8e
+ms.openlocfilehash: 885490554acfec10503ba8ce7bc1db6937ec8fce
+ms.sourcegitcommit: a453ba52aafa012896f665660df7df7bc117ade5
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/29/2020
-ms.locfileid: "84159550"
+ms.lasthandoff: 06/27/2020
+ms.locfileid: "85485452"
 ---
 # <a name="enroll-your-us-government-organization-in-the-power-bi-service"></a>在 Power BI 服务中注册你的美国政府组织
 
@@ -32,7 +32,7 @@ ms.locfileid: "84159550"
 
 你的美国政府组织可能是政府云社区的新用户，也可能已经拥有订阅。 以下各节根据你对 Microsoft 365 政府版计划和 Power BI 的参与程度，详细介绍了相应的注册步骤。 步骤因当前注册而异。
 
-注册 Power BI 美国政府版后，请与你的帐户团队合作，启动本文中描述的[“列入允许列表”流程](#additional-signup-information)。 需要此步骤才能在政府社区云中完全启用组织。
+注册 Power BI 美国政府版后，请与你的帐户团队合作，启动本文中描述的[允许列表流程](#additional-signup-information)。 需要此步骤才能在政府社区云中完全启用组织。
 
 ## <a name="sign-up-for-a-new-microsoft-365-government-plan"></a>注册新的 Microsoft 365 政府版计划
 
@@ -69,9 +69,9 @@ ms.locfileid: "84159550"
 
 ## <a name="additional-signup-information"></a>其他注册信息
 
-在使用美国政府 Power BI 服务之前，必须与 Microsoft 帐户团队合作，为组织启用“列入允许列表”。 “列入允许列表”是 Power BI 工程团队将客户从商业版云环境移动到安全的政府社区云的过程。 该步骤可以保证美国政府版云中提供的功能按预期方式工作。 
+在使用美国政府 Power BI 服务之前，必须与 Microsoft 帐户团队合作，以将组织添加到允许列表。 Power BI 工程团队使用允许列表流程将客户从商业版云环境移动到安全的政府社区云。 该步骤可以保证美国政府版云中提供的功能按预期方式工作。 
 
-若要启动“列入允许列表”流程，请与 Microsoft 帐户团队联系以获得帮助。 只有管理员才能请求列入允许列表。 此过程大约需要三个星期。 在此期间，Power BI 工程团队将作出适当更改以确保你的租户可在美国政府版云中正常运行。
+若要启动允许列表流程，请与 Microsoft 帐户团队联系以获得帮助。 只有管理员才能请求添加到允许列表。 此过程大约需要三个星期。 在此期间，Power BI 工程团队将作出适当更改以确保你的租户可在美国政府版云中正常运行。
 
 
 ## <a name="next-steps"></a>后续步骤

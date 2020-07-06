@@ -5,17 +5,17 @@ author: maggiesMSFT
 ms.reviewer: lukaszp
 ms.service: powerbi
 ms.subservice: powerbi-service
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 05/26/2020
 ms.author: maggies
 ms.custom: contperfq4
 LocalizationGroup: Share your work
-ms.openlocfilehash: edc06d7a46589c999e4bf18613c0c75f6d5bf983
-ms.sourcegitcommit: a7b142685738a2f26ae0a5fa08f894f9ff03557b
+ms.openlocfilehash: c3a625dcdd58f881c9314e821753f66098e073f5
+ms.sourcegitcommit: caf60154a092f88617eb177bc34fb784f2365962
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/28/2020
-ms.locfileid: "84120595"
+ms.lasthandoff: 06/25/2020
+ms.locfileid: "85354423"
 ---
 # <a name="create-the-new-workspaces-in-power-bi"></a>在 Power BI 中创建新工作区
 
@@ -144,6 +144,20 @@ Power BI 不会将配置为拥有工作区访问权限的用户或组的权限�
 如果要将官方内容分发给组织内的大量受众，可以从工作区发布应用。  内容准备好后，选择想要发布的仪表板和报表，然后将其作为应用发布。 可从每个工作区创建一个应用。
 
 请参阅如何[从新工作区发布应用](service-create-distribute-apps.md)。
+
+## <a name="security-settings"></a>安全设置
+
+“允许参与者更新此工作区的应用”设置允许工作区管理员向“参与者”角色中的用户委托更新工作区应用的能力。 默认情况下，只有工作区管理员和成员才能发布和更新工作区应用。 
+
+启用后，参与者可以：
+* 更新应用元数据，如名称、图标、说明、支持站点和颜色
+* 添加或删除应用中包含的项，例如添加报表或数据集
+* 更改应用打开的应用导航或默认项
+
+但参与者不能：
+* 首次发布应用
+* 更改对应用具有权限的人员
+
 
 ## <a name="next-steps"></a>后续步骤
 * 请参阅[在 Power BI 的新工作区体验中组织工作](service-new-workspaces.md)

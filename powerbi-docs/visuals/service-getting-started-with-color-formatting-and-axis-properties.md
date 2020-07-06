@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 04/30/2020
+ms.date: 06/17/2020
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 526d2face5b963b27ac17335bbe223c5e3bec672
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: e4f5007d60f7634b671f1178a7279fe5cc35be89
+ms.sourcegitcommit: caf60154a092f88617eb177bc34fb784f2365962
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83276573"
+ms.lasthandoff: 06/25/2020
+ms.locfileid: "85354584"
 ---
 # <a name="getting-started-with-the-formatting-pane"></a>“格式设置”窗格入门
 
@@ -28,11 +28,11 @@ ms.locfileid: "83276573"
 
 在编辑报表时，选中可视化效果后，将显示“可视化效果”窗格。 可使用此窗格更改可视化效果。 “可视化效果”的正下方有三个图标：“字段”图标（叠放的条形）、“格式”图标（滚动油漆刷）和“分析”图标（放大镜）。    以下图像中，“字段”图标处于选中状态，图标下方以黄色栏指示。
 
-![](media/service-getting-started-with-color-formatting-and-axis-properties/power-bi-format.png)
+![选择了“字段”图标的“可视化效果”窗格](media/service-getting-started-with-color-formatting-and-axis-properties/power-bi-format.png)
 
 当选择“格式”时，图标下方的区域将显示适用于当前所选可视化效果的自定义选项。  
 
-![](media/service-getting-started-with-color-formatting-and-axis-properties/power-bi-format-selected.png)
+![选择了“格式”图标的“可视化效果”窗格](media/service-getting-started-with-color-formatting-and-axis-properties/power-bi-format-selected.png)
 
 可以自定义每个可视化效果的多个元素。 可用选项取决于所选视觉对象。 其中一些选项包括：
 
@@ -119,7 +119,7 @@ ms.locfileid: "83276573"
 ## <a name="changing-axis-properties"></a>更改轴属性
 
 修改 X 轴或 Y 轴通常很有用。 与处理颜色类似，可以通过选择想要更改的轴的左侧的向下箭头来修改轴，如下图所示。  
-![](media/service-getting-started-with-color-formatting-and-axis-properties/power-bi-y-axis.png)
+![箭头指向 Y 轴卡片的“格式”窗格](media/service-getting-started-with-color-formatting-and-axis-properties/power-bi-y-axis.png)
 
 在以下示例中，我们对 Y 轴进行了以下格式设置：
 - 将标签移动到可视化效果右侧

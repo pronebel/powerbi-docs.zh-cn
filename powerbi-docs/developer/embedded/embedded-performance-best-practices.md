@@ -8,19 +8,19 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 12/12/2018
-ms.openlocfilehash: c619f37ac062eec02eb379ba7cd97731254a171a
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: ba0a85958fad500bd27f4697a7f46961ca430f49
+ms.sourcegitcommit: 0b1e96de184caf2371adedcc3ee43bcb88048187
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83279379"
+ms.lasthandoff: 06/24/2020
+ms.locfileid: "85299563"
 ---
 # <a name="power-bi-embedded-performance-best-practices"></a>Power BI Embedded 性能最佳做法
 
 本文提供在应用程序中更快呈现报表、仪表板和磁贴的相关建议。
 
 > [!Note]
-> 请注意，加载时间主要取决于与报表和数据本身相关的元素，包括视觉对象、数据的大小以及查询和计算度量值的复杂性。 有关详细信息，请参阅 [Power BI 优化指南](../../guidance/power-bi-optimization.md)。
+> 请注意，加载时间主要取决于与报表和数据本身相关的元素，包括视觉对象、数据的大小以及查询和度量值的复杂性。 有关详细信息，请参阅 [Power BI 优化指南](../../guidance/power-bi-optimization.md)。
 
 ## <a name="update-tools-and-sdk-packages"></a>更新工具和 SDK 包
 
@@ -36,11 +36,11 @@ ms.locfileid: "83279379"
 
 ### <a name="embed-url"></a>嵌入 URL
 
-避免自己生成嵌入 URL。 确保通过调用[获取报表](/rest/api/power-bi/reports/getreportsingroup)、[获取仪表板](/rest/api/power-bi/dashboards/getdashboardsingroup)或[获取磁贴](/rest/api/power-bi/dashboards/gettilesingroup) API 来获取嵌入 URL。 我们将一个名为 config 的参数添加到了 URL，用于改进性能  。
+避免自己生成嵌入 URL。 确保通过调用[获取报表](/rest/api/power-bi/reports/getreportsingroup)、[获取仪表板](/rest/api/power-bi/dashboards/getdashboardsingroup)或[获取磁贴](/rest/api/power-bi/dashboards/gettilesingroup) API 来获取嵌入 URL。 我们将一个名为 config 的参数添加到了 URL，用于改进性能。
 
 ### <a name="permissions"></a>权限
 
-如果不打算在“编辑模式”下嵌入报表，则提供“查看”权限  。 通过这种方式，嵌入代码不会初始化用于编辑模式的组件。
+如果不打算在“编辑模式”下嵌入报表，则提供“查看”权限。 通过这种方式，嵌入代码不会初始化用于编辑模式的组件。
 
 ### <a name="filters-bookmarks-and-slicers"></a>筛选器、书签和切片器
 
@@ -53,7 +53,7 @@ ms.locfileid: "83279379"
 在将多个报表嵌入到同一 iframe 时，不要为每个报表生成新的 iframe。 而是使用包含不同配置的 `powerbi.embed(element, config)` 嵌入新报表。
 
 > [!NOTE]
-> 由于需要生成新的嵌入令牌，因此，在“应用拥有数据”场景的报表之间切换可能不是非常有效。
+> 在为客户嵌入时切换报表（也称为“应用拥有数据”场景），需要使用一个对所有报表和数据集具有权限的嵌入令牌。 有关更多信息，请参阅[生成令牌 API](https://docs.microsoft.com/rest/api/power-bi/embedtoken/generatetoken)。
 
 ## <a name="query-caching"></a>查询缓存
 
@@ -63,7 +63,7 @@ ms.locfileid: "83279379"
 
 ## <a name="preload"></a>预加载
 
-使用 `powerbi.preload()` 改善最终用户体验。 方法 `powerbi.preload()` 会下载 javascript、css 文件和其他项目，这些内容稍后将用于嵌入报表。
+使用 `powerbi.preload()` 改善最终用户体验。 方法 `powerbi.preload()` 会下载 Javascript、css 文件和其他项目，这些内容稍后将用于嵌入报表。
 
 如果不立即嵌入报表，请调用 `powerbi.preload()`。 例如，如果主页未显示 Power BI 嵌入内容，则使用 `powerbi.preload()` 下载并缓存用于嵌入内容的项目。
 

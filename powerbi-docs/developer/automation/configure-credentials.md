@@ -6,18 +6,22 @@ ms.author: kesharab
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-developer
-ms.topic: conceptual
-ms.date: 02/23/2020
-ms.openlocfilehash: bd7758be32d18fd3be06a7847edc7795c2b5f9e1
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.topic: how-to
+ms.date: 06/23/2020
+ms.openlocfilehash: ed35775ac077be7c45807b950530e4e1277d5ac3
+ms.sourcegitcommit: caf60154a092f88617eb177bc34fb784f2365962
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "80114764"
+ms.lasthandoff: 06/25/2020
+ms.locfileid: "85354998"
 ---
 # <a name="configure-credentials-programmatically-for-power-bi"></a>以编程方式为 Power BI 配置凭据
 
-按照以下步骤以编程方式为 Power BI 配置凭据。
+按照本文中的步骤以编程方式为 Power BI 配置凭据。
+
+>[!NOTE]
+>* 调用用户必须是数据集所有者或网关管理员。还可以使用[服务主体](../embedded/embed-service-principal-certificate.md)。 例如，服务主体可以是数据集所有者。
+>* 云数据源及其相应的凭据在用户级别进行管理。
 
 ## <a name="update-credentials-flow-for-data-sources"></a>更新数据源的凭据流
 
@@ -73,7 +77,7 @@ ms.locfileid: "80114764"
 
     # <a name="net-sdk-v3"></a>[.NET SDK v3](#tab/sdk3)
 
-    将 AssymetricKeyEncriptor 类与第 3 步  中检索到的公钥结合使用。
+    将 AssymetricKeyEncriptor 类与第 3 步中检索到的公钥结合使用。
 
     ```csharp
     var credentialDetails = new CredentialDetails(

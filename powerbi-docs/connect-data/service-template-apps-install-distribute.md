@@ -5,15 +5,15 @@ author: paulinbar
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-template-apps
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 05/19/2020
 ms.author: painbar
-ms.openlocfilehash: a68c8a452752981b2526c450820e8d277f5c0b10
-ms.sourcegitcommit: 250242fd6346b60b0eda7a314944363c0bacaca8
+ms.openlocfilehash: e66d1b8b57af9ee04239e7222db742b64cc25883
+ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/20/2020
-ms.locfileid: "83693066"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "85235694"
 ---
 # <a name="install-and-distribute-template-apps-in-your-organization"></a>在组织中安装和分发模板应用
 
@@ -38,15 +38,19 @@ ms.locfileid: "83693066"
 
     ![获取应用](media/service-template-apps-install-distribute/power-bi-get-apps-arrow.png)
 
-1. 在出现的 AppSource 窗口中，选择“应用”。 浏览或搜索所需应用，然后选择“立即获取”。
+1. 在出现的 Power BI 应用商城中，选择“模板应用”。 将显示 AppSource 中提供的所有模板应用。 浏览查找所需的模板应用，或使用搜索框获取经筛选的模板应用。 键入模板应用的部分名称或类别（如财务、分析、市场营销等），可以更轻松地找到所需的项。
 
     ![在 AppSource 中搜索](media/service-template-apps-install-distribute/power-bi-appsource.png)
+
+1. 找到所需的模板应用后，单击该应用。 将显示模板应用产品/服务。 单击“立即获取”。
+
+   ![模板应用产品/服务](media/service-template-apps-install-distribute/power-bi-template-app-offer.png)
 
 1. 在显示的对话框中，选择“安装”。
 
     ![安装应用](media/service-template-apps-install-distribute/power-install-dialog.png)
     
-    应用随关联的工作区一起安装。 如果决定自定义应用，则需要在此关联的工作区中执行此操作。
+    将安装应用，并安装具有同一名称的工作区，该工作区具有用于进一步[自定义](#customize-and-share-the-app)所需的所有项目。
 
     > [!NOTE]
     > 如果使用未在 AppSource 上列出的应用的安装链接，将出现一个验证对话框，要求你确认选择。

@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: tutorial
 ms.date: 02/05/2019
-ms.openlocfilehash: ecd5b71d0b64e235d69d2b6d3933d393cb684b04
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: ba37d9fc79405518a59ff188fdb5890e6af8043c
+ms.sourcegitcommit: caf60154a092f88617eb177bc34fb784f2365962
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "79079246"
+ms.lasthandoff: 06/25/2020
+ms.locfileid: "85355021"
 ---
 # <a name="step-5-add-rows-to-a-power-bi-table"></a>步骤 5：向 Power BI 表中添加行
 
@@ -23,7 +23,7 @@ ms.locfileid: "79079246"
 
 调用 [PostRows ](https://docs.microsoft.com/rest/api/power-bi/pushdatasets/datasets_postrows)操作时，会将行添加到数据集。
 
-![](media/walkthrough-push-data-add-rows/powerbi-developer-add-rows.png)
+![添加行](media/walkthrough-push-data-add-rows/powerbi-developer-add-rows.png)
 
 下面介绍了如何使用 Power BI API 将行添加到数据集。
 
@@ -310,7 +310,7 @@ ms.locfileid: "79079246"
     }
 ```
 
-虽然我们指定在以上代码中 **_//Get 第一个 ID_** ，但正确的做法是按名称搜索数据集。
+虽然我们指定在以上代码中 **_//Get 第一个 ID_**，但正确的做法是按名称搜索数据集。
 
 ## <a name="next-steps"></a>后续步骤
 [将数据推送到 Power BI 仪表板](walkthrough-push-data.md)  

@@ -8,12 +8,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 05/11/2020
 ms.author: kfollis
-ms.openlocfilehash: 344ce3b83bbb9922e0359e04e65c01a1a088bcb3
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: 43d78710e4b60ed57ac46f713ce7bc787e852f26
+ms.sourcegitcommit: a453ba52aafa012896f665660df7df7bc117ade5
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83135367"
+ms.lasthandoff: 06/27/2020
+ms.locfileid: "85485475"
 ---
 # <a name="service-interruption-notifications"></a>服务中断通知
 
@@ -21,7 +21,7 @@ ms.locfileid: "83135367"
 
 ![刷新通知电子邮件](media/service-interruption-notifications/refresh-notification-email.png)
 
-目前，我们会针对以下可靠性场景发送电子邮件  ：
+目前，我们会针对以下可靠性场景发送电子邮件：
 
 - 打开报表可靠性
 - 模型刷新可靠性
@@ -60,14 +60,14 @@ Power BI 租户管理员在管理门户中启用通知：
 
 1. 标识或创建已启用电子邮件的安全组，该安全组将接收通知。
 
-1. 在管理员门户中，选择“租户设置”  。 在“帮助和支持设置”下，展开“接收服务中断或突发事件相关电子邮件通知”   。
+1. 在管理员门户中，选择“租户设置”。 在“帮助和支持设置”下，展开“接收服务中断或突发事件相关电子邮件通知” 。
 
-1. 启用通知，输入安全组，并选择“应用”  。
+1. 启用通知，输入安全组，并选择“应用”。
 
     ![启用服务通知](media/service-interruption-notifications/enable-notifications.png)
 
 > [!NOTE]
-> Power BI 将通过帐户 no-reply-powerbi@microsoft.com 发送通知。 确保此帐户已列入允许列表，以防止通知被发送到垃圾邮件文件夹中。
+> Power BI 将通过帐户 no-reply-powerbi@microsoft.com 发送通知。 确保已将此帐户添加到“安全发件人”列表，这样通知就不会出现在“垃圾邮件”文件夹中。
 
 ## <a name="next-steps"></a>后续步骤
 

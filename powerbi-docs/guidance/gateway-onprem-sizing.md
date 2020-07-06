@@ -8,12 +8,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 12/30/2019
 ms.author: v-pemyer
-ms.openlocfilehash: de84dd7e9021abf1198f2dc4f910afb8bd078ac6
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: b195e0bc11068b819a2f3133ed9ae135e3c30ffb
+ms.sourcegitcommit: a453ba52aafa012896f665660df7df7bc117ade5
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83279517"
+ms.lasthandoff: 06/27/2020
+ms.locfileid: "85485935"
 ---
 # <a name="on-premises-data-gateway-sizing"></a>本地数据网关大小调整
 
@@ -27,17 +27,17 @@ ms.locfileid: "83279517"
 
 ### <a name="cached-data-workload"></a>缓存的数据工作负载
 
-“缓存数据”  工作负载检索和转换源数据以加载到 Power BI 数据集。 它通过三个步骤完成：
+“缓存数据”工作负载检索和转换源数据以加载到 Power BI 数据集。 它通过三个步骤完成：
 
 1. **连接**：网关连接到源数据
-1. **数据检索和转换**：检索数据，并在必要时对其进行转换。 只要有可能，Power Query 混合引擎就会将转换步骤推送到数据源，这称为[查询折叠](power-query-folding.md)  。 如果无法进行转换，则必须由网关完成转换。 在这种情况下，网关会占用更多 CPU 和内存资源。
+1. **数据检索和转换**：检索数据，并在必要时对其进行转换。 只要有可能，Power Query 混合引擎就会将转换步骤推送到数据源，这称为[查询折叠](power-query-folding.md)。 如果无法进行转换，则必须由网关完成转换。 在这种情况下，网关会占用更多 CPU 和内存资源。
 1. **传输**：将数据传输到 Power BI 服务（可靠且快速的 Internet 连接非常重要，尤其是对于大型数据卷而言）
 
 ![关系图显示连接到本地源的本地数据网关：关系数据库、Excel 工作簿和 CSV 文件。 网关检索和转换数据。](media/gateway-onprem-sizing/gateway-onprem-workload-cached-data.png)
 
 ### <a name="live-connection-and-directquery-workloads"></a>实时连接和 DirectQuery 工作负载
 
-“实时连接和 DirectQuery”  工作负载主要在传递模式下工作。 Power BI 服务发送查询，网关则响应查询结果。 通常，查询结果的大小很小。
+“实时连接和 DirectQuery”工作负载主要在传递模式下工作。 Power BI 服务发送查询，网关则响应查询结果。 通常，查询结果的大小很小。
 
 - 有关实时连接的详细信息，请参阅 [Power BI 服务中的数据集（外部托管模型）](../connect-data/service-datasets-understand.md#external-hosted-models)。
 - 有关 DirectQuery 的详细信息，请参阅 [Power BI 服务中的数据集模式（DirectQuery 模式）](../connect-data/service-dataset-modes-understand.md#directquery-mode)。
@@ -84,7 +84,7 @@ ms.locfileid: "83279517"
 
 - 尽量实现可靠、快速和一致的低延迟性
 - 消除（或减少）网关和数据源之间的计算机跃点数
-- 删除防火墙代理层施加的任何网络限制。 有关 Power BI 终结点的详细信息，请参阅[列入允许列表的 Power BI URL](../admin/power-bi-whitelist-urls.md)。
+- 删除防火墙代理层施加的任何网络限制。 有关 Power BI 终结点的详细信息，请参阅[将 Power BI URL 添加到允许列表](../admin/power-bi-whitelist-urls.md)。
 - 配置 [Azure ExpressRoute](/azure/expressroute/expressroute-introduction) 以建立到 Power BI 的专用托管连接
 - 对于 Azure VM 中的数据源，请确保 VM [与 Power BI 服务并置](../admin/service-admin-where-is-my-tenant-located.md)
 - 对于涉及动态 RLS 的 SQL Server Analysis Services (SSAS) 的实时连接工作负载，请确保网关计算机和本地 Active Directory 之间良好连接

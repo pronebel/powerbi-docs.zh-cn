@@ -5,23 +5,23 @@ author: paulinbar
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 03/11/2020
 ms.author: painbar
-ms.openlocfilehash: f0a72cf315c8ad911414274daae11b712971b305
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 2590e5fad227027f7cc2fddf2f93a18b92f39ae3
+ms.sourcegitcommit: 46a340937d9f01c6daba86a4ab178743858722ec
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "79114491"
+ms.lasthandoff: 06/26/2020
+ms.locfileid: "85393765"
 ---
 # <a name="create-a-link-to-a-specific-location-in-the-power-bi-mobile-apps"></a>创建指向 Power BI 移动应用中特定位置的链接
 可以使用链接直接访问 Power BI 中的特定项：报表、仪表板和磁贴。
 
 在 Power BI 移动版中使用链接主要有两种方案： 
 
-* 从应用外部打开 Power BI，并登录特定内容（报表/仪表板/应用）  。 想要从其他应用打开 Power BI 移动版时，这通常是一种集成方案。 
-* 在 Power BI 中导航  。 通常是你想要在 Power BI 中创建自定义导航。
+* 从应用外部打开 Power BI，并登录特定内容（报表/仪表板/应用）。 想要从其他应用打开 Power BI 移动版时，这通常是一种集成方案。 
+* 在 Power BI 中导航。 通常是你想要在 Power BI 中创建自定义导航。
 
 
 ## <a name="use-links-from-outside-of-power-bi"></a>使用 Power BI 外部的链接
@@ -33,11 +33,11 @@ https://app.powerbi.com/Redirect?[**QUERYPARAMS**]
 ```
 
 > [!IMPORTANT]
-> 内容是否托管在特定数据中心（如政府、中国等）中。链接应以正确的 Power BI 地址开头，如 `app.powerbigov.us` 或 `app.powerbi.cn`。   
+> 内容是否托管在特定数据中心（如政府、中国等）。链接应以正确的 Power BI 地址开头，如 `app.powerbigov.us` 或 `app.powerbi.cn`。   
 >
 
 
-查询参数有  ：
+查询参数有：
 * **action**（强制）= OpenApp / OpenDashboard / OpenTile / OpenReport
 * **appId** = 如果要打开属于应用的报表或仪表板 
 * **groupObjectId** = 如果要打开属于工作区（但不是自己的工作区）的报表或仪表板
@@ -68,7 +68,7 @@ https://app.powerbi.com/Redirect?[**QUERYPARAMS**]
 
 #### <a name="links-of-apps-and-items-in-app"></a>应用中的应用和项的链接
 
-对于属于应用的应用和报表以及仪表板，获取链接的最简单方法是转到工作区并选择“更新应用”  。 此操作将打开“发布应用”体验，在 “访问”选项卡中，你将找到“链接”部分  。 展开该部分后，你将看到可用于直接访问该应用及其所有内容的链接列表。
+对于属于应用的应用和报表以及仪表板，获取链接的最简单方法是转到工作区并选择“更新应用”。 此操作将打开“发布应用”体验，在 “访问”选项卡中，你将找到“链接”部分。 展开该部分后，你将看到可用于直接访问该应用及其所有内容的链接列表。
 
 ![Power BI 发布应用链接 ](./media/mobile-apps-links/mobile-link-copy-app-links.png)
 
@@ -76,19 +76,19 @@ https://app.powerbi.com/Redirect?[**QUERYPARAMS**]
 
 对于不属于应用的报表和仪表板，需要从项 URL 中提取 ID。
 
-例如，若要查找包含 36 个字符的仪表板对象 ID，请导航到 Power BI 服务中的特定仪表板  。 
+例如，若要查找包含 36 个字符的仪表板对象 ID，请导航到 Power BI 服务中的特定仪表板。 
 
 ```html
 https://app.powerbi.com/groups/me/dashboards/**dashboard guid comes here**?ctid=**organization id comes here**`
 ```
 
-若要查找包含 36 个字符的报表对象 ID，请转到 Power BI 服务中的特定报表  。
+若要查找包含 36 个字符的报表对象 ID，请转到 Power BI 服务中的特定报表。
 下面是“我的工作区”报表示例
 
 ```html
 https://app.powerbi.com/groups/me/reports/**report guid comes here**/ReportSection3?ctid=**organization id comes here**`
 ```
-上述 URL 还包含特定的报表页“ReportSection3”  。
+上述 URL 还包含特定的报表页“ReportSection3”。
 
 下面是来自工作区（不是我的工作区）的报表示例
 

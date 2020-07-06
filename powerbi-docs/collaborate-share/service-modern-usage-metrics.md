@@ -10,12 +10,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 01/22/2020
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 894aa17e0a6a2be52446be0a67452d96d45c9a5b
-ms.sourcegitcommit: cd64ddd3a6888253dca3b2e3fe24ed8bb9b66bc6
+ms.openlocfilehash: ee5536f2c4026ceb019c5f89b6045afd44b35529
+ms.sourcegitcommit: 0b1e96de184caf2371adedcc3ee43bcb88048187
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "84316054"
+ms.lasthandoff: 06/24/2020
+ms.locfileid: "85299609"
 ---
 # <a name="monitor-usage-metrics-in-the-new-workspace-experience"></a>在新的工作区体验中监视使用情况指标
 
@@ -257,6 +257,7 @@ Power BI 在单独的国家云中可用。 这些云提供与全球版本 Power 
 - 使用嵌套组时，用户屏蔽没有按预期方式工作。 如果组织已禁用 Power BI 管理门户租户设置中内容创建者的使用情况指标中的每个用户数据，则只会屏蔽顶层的成员。 子组成员仍可见。
 - 初始化“使用情况指标报表”数据集可能需要几分钟的时间，结果显示空的使用情况指标报表，因为 Power BI 用户界面不会等待刷新完成。 检查“使用情况指标报表”数据集设置中的刷新历史记录，以验证刷新操作是否成功。
 - 初始化“使用情况指标报表”数据集可能会由于刷新过程中出现超时而失败。 请参阅下面的“故障排除”部分来解决此问题。
+- 已为使用情况指标报表禁用共享。 若要向用户授予对报表的读取访问权限，你需要先向他们授予对工作区的访问权限。
 
 ## <a name="frequently-asked-questions"></a>常见问题解答
 

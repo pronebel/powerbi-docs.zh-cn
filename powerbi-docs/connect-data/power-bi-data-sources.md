@@ -1,26 +1,26 @@
 ---
 title: Power BI 数据源
 description: 本文列出了 Power BI 支持的数据源，其中包括有关 DirectQuery 和本地数据网关的信息。
-author: kfollis
+author: davidiseminger
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 06/01/2020
-ms.author: kfollis
-ms.openlocfilehash: 7fcd5b5f7a6365aac597186618ce2b18fcc44d7f
-ms.sourcegitcommit: 49daa8964c6e30347e29e7bfc015762e2cf494b3
+ms.date: 06/10/2020
+ms.author: davidi
+ms.openlocfilehash: 0bc6b844457f625d0287f2ec85f582a6ea874624
+ms.sourcegitcommit: 6d3a37eb636e1b71c7dcb9d1c3a9e495b78dec97
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/02/2020
-ms.locfileid: "84273382"
+ms.lasthandoff: 06/11/2020
+ms.locfileid: "84681850"
 ---
 # <a name="power-bi-data-sources"></a>Power BI 数据源
 
 下表展示了 Power BI 支持的数据集的数据源，其中包括有关 DirectQuery 和本地数据网关的信息。 有关数据流的信息，请参阅[连接到 Power BI 数据流的数据源](../transform-model/service-dataflows-data-sources.md)。
 
 > [!NOTE]
-> Power BI Desktop 中的许多数据连接器都需要 Internet Explorer 10（或更高版本）进行身份验证。 
+> Power BI Desktop 中的大多数数据连接都需要 Internet Explorer 10（或更高版本）进行身份验证。 
 
 
 | 数据源 | 从桌面连接 | 从服务连接并刷新 | DirectQuery/实时连接 | 网关（支持） | 网关（必需） |
@@ -51,7 +51,7 @@ ms.locfileid: "84273382"
 | Data.World - Get Dataset | 是 | 是 | 否 | 否 | 否 |
 | Denodo | 是 | 是 | 是 | 是 | 是 |
 | Dremio | 是 | 是 | 是 | 是 | 是 |
-| Dynamics 365(在线) | 是 | 是 | 否 | 否 | 否 |
+| Dynamics 365 (联机) | 是 | 是 | 否 | 否 | 否 |
 | Dynamics 365 Business Central | 是 | 是 | 否 | 否 | 否 |
 | Dynamics 365 Business Central (本地) | 是 | 是 | 否 | 否 | 否 |
 | Dynamics 365 Customer Insights | 是 | 是 | 否 | 否 | 否 |
@@ -63,7 +63,7 @@ ms.locfileid: "84273382"
 | Excel | 是 <sup>3</sup> | 是 <sup>3</sup> | 否 | 是 <sup>3</sup> | 否 <sup>4</sup> |
 | Facebook | 是 | 是 | 否 | 否 | 否 |
 | 文件 | 是 | 是 | 否 | 是 | 是 |
-| Folder | 是 | 是 | 否 | 是 | 是 |
+| 文件夹 | 是 | 是 | 否 | 是 | 是 |
 | GitHub | 是 | 是 | 否 | 否 | 否 |
 | Google Analytics | 是 | 是 | 否 | 否 | 否 |
 | Google BigQuery | 是 | 是 | 是 | 否 | 否 |
@@ -90,7 +90,7 @@ ms.locfileid: "84273382"
 | Microsoft Graph Security | 是 | 是 | 否 | 是 | 否 |
 | Mixpanel | 是 | 是 | 否 | 否 | 否 |
 | MySQL | 是 | 是 | 否 | 是 | 是 |
-| OData | 是 | 是 | 否 | 是 | 否 |
+| OData | 是 | 是 <sup>7</sup> | 否 | 是 | 否 |
 | ODBC | 是 | 是 | 否 | 是 | 是 |
 | OleDb | 是 | 是 | 否 | 是 | 是 |
 | Oracle | 是 | 是 | 是 | 是 | 是 |
@@ -152,6 +152,8 @@ ms.locfileid: "84273382"
 <sup>5</sup> 仅通过[个人网关](service-gateway-personal-mode.md)提供支持。
 
 <sup>6</sup>为 .html、.xls 和 Access 数据库所必需
+
+<sup>7</sup> Power BI 服务不支持需要身份验证的 OData 源。
 
 ## <a name="single-sign-on-sso-for-directquery-sources"></a>DirectQuery 源的单一登录 (SSO)
 

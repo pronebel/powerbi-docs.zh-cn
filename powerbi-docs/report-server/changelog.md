@@ -7,13 +7,13 @@ ms.reviewer: maggies
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
-ms.date: 05/31/2020
-ms.openlocfilehash: 0391f0f2e4340b01c1f1ad7a3bce860487daabc9
-ms.sourcegitcommit: 49daa8964c6e30347e29e7bfc015762e2cf494b3
+ms.date: 06/30/2020
+ms.openlocfilehash: 0339dd4a8fa7b429db01715060bfd146db115e46
+ms.sourcegitcommit: e8b12d97076c1387088841c3404eb7478be9155c
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/02/2020
-ms.locfileid: "84272646"
+ms.lasthandoff: 07/01/2020
+ms.locfileid: "85782728"
 ---
 # <a name="change-log-for-power-bi-report-server"></a>Power BI 报表服务器的更改日志
 
@@ -21,10 +21,16 @@ ms.locfileid: "84272646"
 
 有关新功能的详细信息，请参阅[Power BI 报表服务器中的新增功能](whats-new.md)。 
 
-
 ## <a name="may-2020"></a>2020 年 5 月
 - **Power BI 报表服务器**
-    - 版本：*1.8.7450.37410（内部版本 15.0.1103.227），发布日期：* 2020 年 5 月 27 日
+    - *版本：1.8.7485.35104（内部版本 15.0.1103.234），发布日期：2020 年 6 月 30 日*
+        - Bug 修复
+            - 修复了扩展方案中的问题，即报表在上传后不会立即在服务器中反映编辑。
+    - *版本：1.8.7468.41510（内部版本 15.0.1103.232），发布日期：2020 年 6 月 15 日*
+        - Bug 修复
+            - 修复了报表在上传后不会立即在服务器中反映编辑的问题。
+            - 修复了在将模糊匹配用于合并查询时刷新失败的问题。
+    - *版本：1.8.7450.37410（内部版本 15.0.1103.227），发布日期：* 2020 年 5 月 27 日
          - 功能
             -  添加了对可自定义目录连接池大小的支持（有关详细信息，请参阅 [MaxCatalogConnectionPoolSizePerProcess 设置](https://docs.microsoft.com/sql/reporting-services/report-server/rsreportserver-config-configuration-file?view=sql-server-ver15#bkmk_service)）。
             -  改进了在执行刷新操作期间查看报表时的行为。
@@ -46,7 +52,7 @@ ms.locfileid: "84272646"
 
 
 - Power BI Desktop（已针对 Power BI 报表服务器进行优化）
-    - 版本：*2.81.5831.941（2020 年 5 月），发布日期：* 2020 年 5 月 27 日（新内部版本和新版本）
+    - *版本：2.81.5831.941（2020 年 5 月），发布日期：* 2020 年 5 月 27 日（新内部版本和新版本）
         - 包含与 Power BI 报表服务器建立连接所需的更改（2020 年 5 月）        
 
 

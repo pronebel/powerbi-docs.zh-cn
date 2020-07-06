@@ -6,16 +6,16 @@ ms.author: owend
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
-ms.topic: conceptual
-ms.date: 03/26/2020
+ms.topic: how-to
+ms.date: 06/04/2020
 ms.custom: seodec18
 LocalizationGroup: Premium
-ms.openlocfilehash: 74ea78bf9f5e845eb86a38bad54ebde5e99ffbb0
-ms.sourcegitcommit: b66c913a50a5100082e1c8ff7cd1c4f76f514fe7
+ms.openlocfilehash: b327730db126ad3f83e0a680d8dc29f384e606fe
+ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/30/2020
-ms.locfileid: "84219562"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "85227409"
 ---
 # <a name="dataset-connectivity-with-the-xmla-endpoint-preview"></a>使用 XMLA 终结点的数据集连接（预览）
 
@@ -169,7 +169,7 @@ Power BI Premium 暂不支持需要 Analysis Services 服务器管理员（而�
 
 ### <a name="service-principals"></a>服务主体
 
-在公共预览版期间，尚不支持使用用于自动化方案的[服务主体](https://docs.microsoft.com/azure/active-directory/develop/app-objects-and-service-principals)来通过 XMLA 终结点进行连接。
+Azure 服务主体可用于执行无人参与的资源和服务级别操作。 若要了解详细信息，请参阅[使用服务主体自动完成 Premium 工作区和数据集任务](service-premium-service-principal.md)。
 
 ## <a name="deploy-model-projects-from-visual-studio-ssdt"></a>部署 Visual Studio 中的模型项目 (SSDT)
 

@@ -6,16 +6,16 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
-ms.date: 05/14/2020
+ms.date: 06/24/2020
 ms.author: kfollis
 ms.custom: licensing support
 LocalizationGroup: Administration
-ms.openlocfilehash: 5bac52e98830c97262945e1434880f9c178a0932
-ms.sourcegitcommit: 3f864ec22f99ca9e25cda3a5abda8a5f69ccfa8e
+ms.openlocfilehash: e050fd4ec3e533c07ecfd0f0604092bec7fc00b5
+ms.sourcegitcommit: a453ba52aafa012896f665660df7df7bc117ade5
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/29/2020
-ms.locfileid: "84159987"
+ms.lasthandoff: 06/27/2020
+ms.locfileid: "85484923"
 ---
 # <a name="licensing-the-power-bi-service-for-users-in-your-organization"></a>为组织中的用户授权 Power BI 服务
 
@@ -39,6 +39,8 @@ ms.locfileid: "84159987"
 
 ## <a name="get-power-bi-for-your-organization"></a>为组织获取 Power BI
 
+有关定价的信息，请参阅[定价和产品比较](https://powerbi.microsoft.com/pricing/)。
+
 全局管理员或计费管理员可以注册 Power BI 服务并为组织中的用户购买许可证。 如果还没有准备好购买，请选择 Power BI Pro 试用版。 你将获得 25 个许可证，有效期为一个月。 有关如何注册的分步说明，请参阅[获取组织的 Power BI 订阅](service-admin-org-subscription.md)。
 
 ## <a name="about-self-service-sign-up"></a>关于自助注册
@@ -46,6 +48,16 @@ ms.locfileid: "84159987"
 个人用户可以通过使用他们的工作或学校帐户注册来获得自己的 Power BI 许可证。 通过免费许可证，用户可以使用“我的工作区”探索 Power BI 以进行个人数据分析和可视化，但不能与其他用户共享。 共享内容需要 Power BI Pro 许可证。 如果组织正在使用商业云，用户可以将其许可证类型升级到 Pro，或直接注册 Pro。 直接购买或升级到 Pro 不适合部署到 Azure 政府、Azure 德国或 Azure 中国世纪互联云的（教育）组织。
 
 如果不希望组织中的用户使用自助注册，请参阅[启用或禁用自助注册](service-admin-disable-self-service.md)，了解如何关闭此功能。
+
+关闭自助注册可阻止用户浏览 Power BI 进行数据可视化和分析。 如果阻止个人注册，你可能需要获取组织的 Power BI（免费）许可证，并将其分配给所有用户。 按照以下步骤将 Power BI（免费）许可证自动分配给所有现有用户：
+
+1. 使用全局管理员或计费管理员凭据登录到 [Microsoft 365 管理中心](https://admin.microsoft.com)。
+1. 在左侧边栏菜单中，选择“计费” > “购买服务”。
+1. 搜索或滚动以查找 Power BI（免费）产品。 选择产品/服务，然后选择“立即获取”。
+1. 输入涵盖所有用户所需的许可证数。
+1. 选择“自动分配给你的所有用户，无需许可证”，然后签出。
+
+  ![Power BI 免费版自动分配的订阅](media/service-admin-licensing-organization/m365-auto-assign.png) 
 
 若要查看组织中哪些用户可能已经拥有许可证，请参阅[查看和管理用户许可证](service-admin-manage-licenses.md)，了解操作方法。
 

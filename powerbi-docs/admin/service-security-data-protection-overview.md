@@ -4,17 +4,17 @@ description: 了解 Power BI 中数据保护的工作原理
 author: paulinbar
 manager: rkarlin
 ms.service: powerbi
-ms.subservice: powerbi-service
-ms.topic: conceptual
-ms.date: 05/21/2020
+ms.subservice: powerbi-eim
+ms.topic: how-to
+ms.date: 06/15/2020
 ms.author: painbar
 LocalizationGroup: Data from files
-ms.openlocfilehash: fa969f8f738cf09e9e01e284de8f60e2fd8ce9ab
-ms.sourcegitcommit: cd64ddd3a6888253dca3b2e3fe24ed8bb9b66bc6
+ms.openlocfilehash: 4575c80106329a00c959db73c2851c99959f41ec
+ms.sourcegitcommit: 46a340937d9f01c6daba86a4ab178743858722ec
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "84315663"
+ms.lasthandoff: 06/26/2020
+ms.locfileid: "85393648"
 ---
 # <a name="data-protection-in-power-bi"></a>Power BI 中的数据保护
 
@@ -37,7 +37,7 @@ ms.locfileid: "84315663"
 > 如果你的组织使用 Azure 信息保护敏感度标签，则需要将这些标签[迁移](https://docs.microsoft.com/azure/information-protection/configure-policy-migrate-labels)到前面列出的服务之一，以便在 Power BI 中使用它们。
 
 > [!NOTE]
-> 敏感度标签仅在公有云的租户中受支持，而在云（如主权云）的租户中不受支持。
+> 敏感度标签仅在公有云的租户中受支持，而在云（如国家/地区云）的租户中不受支持。
 
 ## <a name="how-sensitivity-labels-work-in-power-bi"></a>敏感度标签在 Power BI 中的工作原理
 

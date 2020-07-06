@@ -5,20 +5,20 @@ author: davidiseminger
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
-ms.topic: conceptual
+ms.topic: troubleshooting
 ms.date: 01/14/2020
 ms.author: davidi
 LocalizationGroup: Troubleshooting
-ms.openlocfilehash: 67c83f2cc0eb81e90f447961ed178a04e97e050e
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: ba59a08ee1b50e44af71312a25d77fb67c8fca2d
+ms.sourcegitcommit: a453ba52aafa012896f665660df7df7bc117ade5
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83292078"
+ms.lasthandoff: 06/27/2020
+ms.locfileid: "85485429"
 ---
 # <a name="troubleshoot-opening-power-bi-desktop"></a>打开 Power BI Desktop 的疑难解答
 
-在 Power BI Desktop 中，已安装且正在运行旧版 Power BI 本地数据网关  的用户可能无法打开 Power BI Desktop，因为 Power BI 本地网关对本地计算机的命名管道施加了管理策略限制。
+在 Power BI Desktop 中，已安装且正在运行旧版 Power BI 本地数据网关的用户可能无法打开 Power BI Desktop，因为 Power BI 本地网关对本地计算机的命名管道施加了管理策略限制。
 
 ## <a name="resolve-issues-with-the-on-premises-data-gateway-and-power-bi-desktop"></a>解决本地数据网关和 Power BI Desktop 存在的问题
 
@@ -36,7 +36,7 @@ ms.locfileid: "83292078"
 
 可以改为以管理员身份成功启动 Power BI Desktop，这也会使其成功打开。 仍建议安装最新版 Power BI 本地数据网关，如前文中所述。
 
-Power BI Desktop 是作为多进程体系结构设计的，其中一些进程使用 Windows 命名管道进行通信。 可能会有其他进程干扰这些命名管道。 此类干扰最常见原因是安全性，包括防病毒软件或防火墙可能会阻止管道或将流量重定向到特定端口的情况。 使用管理员权限打开 Power BI Desktop 可以解决该问题。 如果无法使用管理员权限打开，请让管理员确定哪些安全规则阻止命名管道正确通信。 然后，将 Power BI Desktop 及其各自的子进程列入允许列表。
+Power BI Desktop 是作为多进程体系结构设计的，其中一些进程使用 Windows 命名管道进行通信。 可能会有其他进程干扰这些命名管道。 此类干扰最常见原因是安全性，包括防病毒软件或防火墙可能会阻止管道或将流量重定向到特定端口的情况。 使用管理员权限打开 Power BI Desktop 可以解决该问题。 如果无法使用管理员权限打开，请让管理员确定哪些安全规则阻止命名管道正确通信。 然后，将 Power BI Desktop 及其各自的子进程添加到允许列表。
 
 ## <a name="resolve-issues-when-connecting-to-sql-server"></a>解决连接到 SQL Server 时发生的问题
 
@@ -54,6 +54,6 @@ Power BI Desktop 是作为多进程体系结构设计的，其中一些进程使
 
 我们会尽可能地收录 Power BI Desktop 出现的问题。 我们会定期查看可能会对大量客户造成影响的问题，并将其收录到我们的文章中。
 
-如果无法打开 Power BI Desktop 不是由于本地数据网关所致，或先前的解决方案不起作用，可以向 Power BI 支持 (<https://support.powerbi.com>) 提交支持事件，这样有助于我们发现并解决用户遇到的问题  。
+如果无法打开 Power BI Desktop 不是由于本地数据网关所致，或先前的解决方案不起作用，可以向 Power BI 支持 (<https://support.powerbi.com>) 提交支持事件，这样有助于我们发现并解决用户遇到的问题。
 
-如果将来在使用 Power BI Desktop 时遇到其他问题，启用跟踪和收集日志文件会很有帮助。 日志文件可能有助于隔离和识别问题。 若要启用跟踪，请选择“文件” > “选项和设置” > “选项”，选择“诊断”，然后选择“启用跟踪”    ,   。 必须运行 Power BI Desktop 才能设置此选项，但这有助于在以后解决打开 Power BI Desktop 时遇到的问题。
+如果将来在使用 Power BI Desktop 时遇到其他问题，启用跟踪和收集日志文件会很有帮助。 日志文件可能有助于隔离和识别问题。 若要启用跟踪，请选择“文件” > “选项和设置” > “选项”，选择“诊断”，然后选择“启用跟踪”  , 。 必须运行 Power BI Desktop 才能设置此选项，但这有助于在以后解决打开 Power BI Desktop 时遇到的问题。

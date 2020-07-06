@@ -1,21 +1,21 @@
 ---
 title: 以个人身份注册 Power BI 服务
 description: 了解如何注册 Power BI 服务并开始使用，以满足你的数据分析和可视化需求。
-author: kfollis
+author: mihart
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 05/20/2020
+ms.date: 06/24/2020
 ms.author: mihart
 ms.custom: licensing support
 LocalizationGroup: Get started
-ms.openlocfilehash: 7134db4e582d7d6020ef2ff133981b275adb231b
-ms.sourcegitcommit: 49daa8964c6e30347e29e7bfc015762e2cf494b3
+ms.openlocfilehash: 033ddd99061bde70070061fab4e19250f5fb4591
+ms.sourcegitcommit: caf60154a092f88617eb177bc34fb784f2365962
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/02/2020
-ms.locfileid: "84272577"
+ms.lasthandoff: 06/25/2020
+ms.locfileid: "85354446"
 ---
 # <a name="sign-up-for-the-power-bi-service-as-an-individual"></a>以个人身份注册 Power BI 服务
 
@@ -95,7 +95,6 @@ Desktop、服务和移动应用这三个元素旨在使用户通过最有效的�
 <sup>2</sup> 在某些组织中，默认 Power BI 帐户可能是 Power BI Pro 许可证。 例如，某些版本的 Microsoft 365 包含 Power BI Pro 许可证。 若要了解如何查找用户许可证，请参阅[我有哪种许可证？](../consumer/end-user-license.md)
 
 
-
 ## <a name="trial-expiration"></a>试用版有效期
 
 当免费 Power BI Pro 个人试用版到期后，许可证将恢复为 Power BI（免费）许可证。 试用版无法延期。 你将无法再使用需要 Power BI Pro 许可证的功能。 有关详细信息，请参阅[按许可证类型列出的功能](service-features-license-type.md)。    
@@ -108,14 +107,43 @@ Desktop、服务和移动应用这三个元素旨在使用户通过最有效的�
 
 ## <a name="troubleshooting-the-sign-up-process"></a>注册过程疑难解答
 
-在大多数情况下，可按照所述过程注册 Power BI。 下表列出了一些可能会妨碍注册的问题，并提供了可能的解决方法。
+在大多数情况下，可按照所述过程注册 Power BI。 下面列出了一些可能会妨碍注册的问题，并提供了可能的解决方法。
 
-| 症状/错误消息 | 原因和解决办法 |
-| ----------------------- | -------------------- |
-| <strong>个人电子邮件地址（例如 nancy@gmail.com）</strong> 你会在注册过程中收到类似于以下的消息： <br /><br /> *你输入的是个人电子邮件地址：请输入你的工作电子邮件地址，以便我们可以安全地存储你公司的数据。* <br /><br /> 或 <br /><br /> *这看起来像个人电子邮件地址。请输入你的工作地址，以便我们可以将你和公司中的其他人相连接。请不必担心。我们不会向任何人分享你的地址。* | Power BI 不支持由使用者电子邮件服务或电信提供商提供的电子邮件地址。 <br /><br /> 若要完成注册，请使用你的工作单位或学校分配的电子邮件地址再试一次。 <br /><br /> 如果你仍无法注册并且愿意完成更高级的安装过程，则可以[注册新的 Microsoft 365 试用版订阅并使用该电子邮件地址进行注册](../admin/service-admin-signing-up-for-power-bi-with-a-new-office-365-trial.md)。 <br /><br /> 此外，还可以让现有用户[向你发出来宾邀请](../admin/service-admin-azure-ad-b2b.md)。 |
-| **自助注册已禁用**：在注册期间收到一条如下消息： <br /><br /> *我们无法完成注册。你的 IT 部门已经关闭了注册 Microsoft Power BI。请与他们联系以完成注册。* <br /><br /> | 你组织的[全局管理员](https://docs.microsoft.com/azure/active-directory/users-groups-roles/directory-assign-admin-roles.md)已禁用自助注册 Power BI。 <br /><br /> 要完成注册，请与全局管理员联系，并要求他们[按照说明启用注册](../admin/service-admin-disable-self-service.md)。 <br/><br/> 如果通过合作伙伴注册 Microsoft 365，也可能会遇到此问题。 在这种情况下，请与负责提供 Microsoft 365 的组织联系。 |
-| **电子邮件地址不是 Microsoft 365 ID** 在注册期间，你会收到一条消息，消息内容如下所示： <br /><br /> *我们在 contoso.com 找不到你。你在工作或学校时使用其他 ID 吗？<br /><br />请使用该 ID 尝试登录，如果不起作用，请与你的 IT 部门联系。* | 你的组织使用不同于你的电子邮件地址的 ID 登录到 Microsoft 365 和其他 Microsoft 服务。  例如，你的电子邮件地址可能是 Nancy.Smith@contoso.com，但你的 ID 是 nancys@contoso.com。 <br /><br /> 要完成注册，请使用组织分配给你的 ID 登录到 Microsoft 365 或其他 Microsoft 服务。  如果你不知道这是什么，请与你的全局管理员联系。 <br /><br /> 如果你仍无法注册并且愿意完成更高级的安装过程，则可以[注册新的 Microsoft 365 试用版订阅并使用该电子邮件地址进行注册](../admin/service-admin-signing-up-for-power-bi-with-a-new-office-365-trial.md)。 |
-Power BI 登录无法识别你的密码  |  有时需要多次尝试。 如果多次重试密码，但仍无法登录，请尝试在 Incognito (Chrome) 或 InPrivate (Edge) 模式下运行浏览器。
+**个人电子邮件地址**   
+ 尝试使用个人电子邮件地址（例如 nancy@gmail.com）注册，并收到以下消息之一： 
+
+*你输入的是个人电子邮件地址：请输入你的工作电子邮件地址，以便我们可以安全地存储你公司的数据*。
+
+或 
+
+*这看起来像个人电子邮件地址。请输入你的工作地址，以便我们可以将你和公司中的其他人相连接。请不必担心。我们不会向任何人分享你的地址*。
+
+**解决方案**    
+Power BI 不支持由使用者电子邮件服务或电信提供商提供的电子邮件地址。 若要完成注册，请使用你的工作单位或学校分配的电子邮件地址再试一次。 
+
+如果你仍无法注册并且愿意完成更高级的安装过程，则可以[注册新的 Microsoft 365 试用版订阅并使用该电子邮件地址进行注册](../admin/service-admin-signing-up-for-power-bi-with-a-new-office-365-trial.md)。 
+
+此外，还可以让现有用户[向你发出来宾邀请](../admin/service-admin-azure-ad-b2b.md)。 
+
+
+[!INCLUDE[self-service-signup](../includes/self-service-signup-help.md)]
+
+**你的电子邮件地址不是 Microsoft 365 ID**    
+尝试注册并收到以下消息： 
+
+*我们在 contoso.com 找不到你。你在工作或学校时使用其他 ID 吗？请尝试使用该 ID 登录，如果仍不起作用，请联系 IT 部门。* 
+
+**解决方案**    
+你的组织使用 ID（不同于你的电子邮件地址）登录到 Microsoft 365 和其他 Microsoft 服务。  例如，你的电子邮件地址可能是 zalan.bola@contoso.com，但你的 ID 是 zalanb@contoso.com。 
+
+要完成注册，请使用组织分配给你的 ID 登录到 Microsoft 365 或其他 Microsoft 服务。  如果你不知道这是什么，请与你的全局管理员联系。  
+
+如果你仍无法注册并且愿意完成更高级的安装过程，则可以[注册新的 Microsoft 365 试用版订阅并使用该电子邮件地址进行注册](../admin/service-admin-signing-up-for-power-bi-with-a-new-office-365-trial.md)。 
+
+**Power BI 登录无法识别你的密码**  
+
+**解决方案**    
+有时需要多次尝试。 如果多次重试密码，但仍无法登录，请尝试在 Incognito (Chrome) 或 InPrivate (Edge) 模式下运行浏览器。
 
 ## <a name="next-steps"></a>后续步骤
 

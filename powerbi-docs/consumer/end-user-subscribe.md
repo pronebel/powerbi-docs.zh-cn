@@ -7,15 +7,15 @@ ms.reviewer: cmfinlan
 featuredvideoid: ''
 ms.service: powerbi
 ms.subservice: powerbi-consumer
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 05/11/2020
 LocalizationGroup: Common tasks
-ms.openlocfilehash: dfb307a53ac4fd75188965618a08bb4bdee5689b
-ms.sourcegitcommit: 5e5a7e15cdd55f71b0806016ff91256a398704c1
+ms.openlocfilehash: e82dde5022bf0ad28d37e0ed9a8ac9553fbbd75d
+ms.sourcegitcommit: a453ba52aafa012896f665660df7df7bc117ade5
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/22/2020
-ms.locfileid: "83794173"
+ms.lasthandoff: 06/27/2020
+ms.locfileid: "85485889"
 ---
 # <a name="subscribe-to-a-report-or-dashboard-in-the-power-bi-service"></a>在 Power BI 服务中订阅报表或仪表板 
 
@@ -93,7 +93,7 @@ ms.locfileid: "83794173"
 * 对于仪表板订阅，具体来说，尚不支持某些类型的磁贴。  其中包括流磁贴、视频磁贴、自定义 Web 内容磁贴。     
 * 由于电子邮件大小限制，可能无法订阅包含极大图像的仪表板或报表。    
 * 如果超过两个月一直没有人访问仪表板和报表，那么 Power BI 会自动暂停刷新与它们关联的数据集。  不过，如果添加对仪表板或报表的订阅，即使无人访问，也不会暂停刷新。
-* 请记住，与其他 BI 产品一样，设置订阅的时间是开始处理订阅的时间。  报表处理完成后，订阅将排队并发送给电子邮件收件人。  虽然我们努力尽可能快地处理和交付所有订阅，但在需求高峰期，由于一次可发送的订阅数量有限，因而可能会出现较长的延迟。  对于大多数客户而言，处理和发送报告的延迟不会超过 15 分钟，不过对于特定时间和使用量大的租户，延迟可能会长达 30 分钟。  我们从不希望从计划订阅时间起的任何交付延迟超过 60 分钟。  如果任何客户遇到此等长时间延迟，则应首先确保他们的电子邮件提供商已将地址 no-reply-powerbi@microsoft.com 列入白名单。  如果已列入白名单，他们应联系 Power BI 支持人员以寻求帮助。
+* 请记住，与其他 BI 产品一样，设置订阅的时间是开始处理订阅的时间。  报表处理完成后，订阅将排队并发送给电子邮件收件人。  虽然我们努力尽可能快地处理和交付所有订阅，但在需求高峰期，由于一次可发送的订阅数量有限，因而可能会出现较长的延迟。  对于大多数客户而言，处理和发送报告的延迟不会超过 15 分钟，不过对于特定时间和使用量大的租户，延迟可能会长达 30 分钟。  我们从不希望从计划订阅时间起的任何交付延迟超过 60 分钟。  如果任何客户遇到此等长时间延迟，则应首先确保地址 no-reply-powerbi@microsoft.com 位于安全发件人列表中，且未被电子邮件提供商阻止。  如果电子邮件未被阻止，他们应联系 Power BI 支持人员以寻求帮助。
 
 ## <a name="next-steps"></a>后续步骤
 

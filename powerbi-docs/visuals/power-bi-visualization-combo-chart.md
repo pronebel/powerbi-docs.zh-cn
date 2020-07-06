@@ -7,15 +7,15 @@ featuredvideoid: lnv66cTZ5ho
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 04/22/2020
+ms.date: 06/18/2020
 ms.author: rien
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 34d539af94f2bcbe03a2c9d6b870887e371a1a6e
-ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
+ms.openlocfilehash: 90c721f6c2f555bd632d6c8fff56d05994b1444b
+ms.sourcegitcommit: caf60154a092f88617eb177bc34fb784f2365962
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/19/2020
-ms.locfileid: "83563903"
+ms.lasthandoff: 06/25/2020
+ms.locfileid: "85354768"
 ---
 # <a name="create-and-use-combo-charts-in-power-bi"></a>创建和使用 Power BI 中的组合图
 
@@ -42,7 +42,7 @@ ms.locfileid: "83563903"
 ### <a name="prerequisites"></a>先决条件
 本教程使用[零售分析示例 PBIX 文件](https://download.microsoft.com/download/9/6/D/96DDC2FF-2568-491D-AAFA-AFDD6F763AE3/Retail%20Analysis%20Sample%20PBIX.pbix)。
 
-1. 在菜单栏的左上方，选择“文件” > “打开”  
+1. 在菜单栏的左上方，选择“文件” > “打开” 
    
 2. 查找**零售分析示例 PBIX 文件**的副本
 
@@ -64,21 +64,21 @@ ms.locfileid: "83563903"
 
 1. 从空白报表页入手，并创建按月显示本年度销售额和毛利的组合图。
 
-    a.  从“字段”窗格，选择“销售额”\>“本年度销售额” > “值”    。
+    a.  从“字段”窗格，选择“销售额”\>“本年度销售额” > “值”  。
 
-    b.  将“销售额”\>“本年度毛利”拖动到“值”框    。
+    b.  将“销售额”\>“本年度毛利”拖动到“值”框  。
 
-    c. 选择“时间”\>“会计月”以将其添加到“轴”    。
+    c. 选择“时间”\>“会计月”以将其添加到“轴”  。
 
     ![组合教程示例](media/power-bi-visualization-combo-chart/combotutorial1new.png)
-5. 选择可视化效果右上角的“更多选项”(…)，再选择“排序依据”>“会计月份”   。 要更改排序顺序，请再次选择省略号并选择  “升序排序”或“降序排序”  。 本示例将使用“升序排序”  。
+5. 选择可视化效果右上角的“更多选项”(…)，再选择“排序依据”>“会计月份” 。 要更改排序顺序，请再次选择省略号并选择“升序排序”或“降序排序”。 本示例将使用“升序排序”。
 
-6. 将柱形图转换为组合图。 提供了两个组合图表：  “折线图和堆积柱形图”和“折线图和簇状柱形图”  。 在选择了柱形图的情况下，从“可视化效果”  窗格中选择“折线和簇状柱形图”  。
+6. 将柱形图转换为组合图。 提供了两个组合图表：“折线图和堆积柱形图”和“折线图和簇状柱形图”。 在选择了柱形图的情况下，从“可视化效果”窗格中选择“折线和簇状柱形图”。
 
     ![转换组合图示例](media/power-bi-visualization-combo-chart/converttocombo-new2.png)
-7. 从“字段”窗格，将“销售额”\>“去年销售额”拖动到“行值”存储段     。
+7. 从“字段”窗格，将“销售额”\>“去年销售额”拖动到“行值”存储段   。
 
-   ![](media/power-bi-visualization-combo-chart/linevaluebucket.png)
+   ![显示去年销售额的行值区域](media/power-bi-visualization-combo-chart/linevaluebucket.png)
 
    组合图应如下所示：
 
@@ -87,11 +87,11 @@ ms.locfileid: "83563903"
 ## <a name="create-a-combo-chart-with-two-axes"></a>创建具有两个轴的组合图
 在此任务中，我们会比较毛利和销售额。
 
-1. 新建按“FiscalMonth”跟踪“去年毛利率”的折线图   。 选择省略号以按  “月”和“升序”  对其进行排序。  
+1. 新建按“FiscalMonth”跟踪“去年毛利率”的折线图 。 选择省略号以按“月”和“升序”对其进行排序。  
 一月的 GM% 是 35%，在四月达到峰值 45%，在七月下降，在八月再次达到峰值。 去年和本年度的销售额是否会呈现类似模式？
 
    ![组合图示例销售额](media/power-bi-visualization-combo-chart/combo1-new.png)
-2. 将**本年度销售额 > 值**和**去年销售额**添加到折线图。 “去年毛利率”  的比例尺比“销售额”  的比例尺小得多，因此比较起来非常困难。      
+2. 将**本年度销售额 > 值**和**去年销售额**添加到折线图。 “去年毛利率”的比例尺比“销售额”的比例尺小得多，因此比较起来非常困难。      
 
    ![组合图平线示例](media/power-bi-visualization-combo-chart/flatline-new.png)
 3. 若要使视觉对象更易于查看和解释，请将折线图转换为折线和堆积柱形图。
@@ -105,10 +105,10 @@ ms.locfileid: "83563903"
 ## <a name="add-titles-to-the-axes"></a>向轴添加标题
 1. 选择滚动油漆刷图标 ![滚动油漆刷图标](media/power-bi-visualization-combo-chart/power-bi-paintroller.png) ，以打开“格式设置”窗格。
 1. 选择向下箭头以展开 **Y 轴**选项。
-1. 对于“Y 轴(列)”，将“位置”设置为“左”，将“标题”设置为“打开”，将“样式”设置为“仅显示标题”，并将“显示单位”设置为“百万”          。
+1. 对于“Y 轴(列)”，将“位置”设置为“左”，将“标题”设置为“打开”，将“样式”设置为“仅显示标题”，并将“显示单位”设置为“百万”        。
 
    ![组合图打开 y 示例](media/power-bi-visualization-combo-chart/power-bi-open-y.png)
-4. 在“Y 轴(列)”下，向下滚动，直至看到“显示次级内容”   。 由于 Y 轴的选项太多，可能必须同时使用两个滚动条。 “显示次级内容”部分显示用于设置组合图的折线图部分格式的选项。
+4. 在“Y 轴(列)”下，向下滚动，直至看到“显示次级内容” 。 由于 Y 轴的选项太多，可能必须同时使用两个滚动条。 “显示次级内容”部分显示用于设置组合图的折线图部分格式的选项。
 
    ![组合图次级内容示例](media/power-bi-visualization-combo-chart/power-bi-secondary.png)
 5. 对于 **Y 轴（行）** ，将“**位置**”保留为“**右**”，将“**标题**”设置为“**打开**”，并将“**样式**”设置为“**仅显示标题**”。

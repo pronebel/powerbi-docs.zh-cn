@@ -7,16 +7,16 @@ ms.reviewer: tessa
 featuredvideoid: jtlLGRKBvXY
 ms.service: powerbi
 ms.subservice: powerbi-desktop
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 05/20/2020
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: b0fc91eab8c377f5571e66eb7baaf55234fafa97
-ms.sourcegitcommit: f05f7b0112a8ec2dce60839ea5f922eda3cc776c
+ms.openlocfilehash: f4d1bb58093ed3c78330370d5a44a3f98ee4aae7
+ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "84337018"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "85238972"
 ---
 # <a name="export-the-data-that-was-used-to-create-a-visualization"></a>探索用于创建可视化效果的数据
 
@@ -171,7 +171,7 @@ ms.locfileid: "84337018"
 
 ## <a name="protect-data-when-it-is-exported-out-of-power-bi"></a>在将数据导出 Power BI 时保护数据
 
-- 报表作者可以向报表应用[敏感度标签](../admin/service-security-data-protection-overview.md)。  这些标签确定谁可以访问报表数据，以及这些数据如何导出到 Excel、PowerPoint 和 PDF。 某些敏感度级别包括在导出数据时应用的保护设置（例如权限、加密）。 如果敏感度级别包括保护设置，则在将数据导出到 Excel、PowerPoint 和 PDF 时，将应用这些设置。 只有具有适当权限的人员才能导出、查看、保存和共享报表数据。 
+- 报表作者可以使用 Microsoft 信息保护[敏感度标签](../admin/service-security-data-protection-overview.md)对报表进行分类和标注。 如果敏感度标签具有保护设置，则在将报表数据导出到 Excel、PowerPoint 或 PDF 文件时，Power BI 将应用这些保护设置。 只有经过授权的用户才能打开受保护的文件。
 
 - 安全管理员和 Power BI 管理员可以使用 [Microsoft Cloud App Security](../admin/service-security-data-protection-overview.md) 来监视用户访问和活动，执行实时风险分析，并设置标签特定的控件。 例如，组织可以使用 Microsoft Cloud App Security 来配置策略，防止用户将敏感数据从 Power BI 下载到非托管设备。
 

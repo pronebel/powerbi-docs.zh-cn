@@ -1,7 +1,7 @@
 ---
 title: Power BI 报表生成器
 description: Power BI Report Builder 是一款用于创作分页报表的工具。
-ms.date: 11/27/2019
+ms.date: 06/29/2020
 ms.service: powerbi
 ms.subservice: report-builder
 featuredvideoid: 78TZeiEhveY
@@ -9,16 +9,18 @@ ms.topic: conceptual
 ms.assetid: 55bf4f9c-d037-412f-ae57-3fc39ce32fa5
 author: maggiesMSFT
 ms.author: maggies
-ms.openlocfilehash: 0118bc427ce58f48d50b3e8ed4e918bf66c6e8fc
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: a0c22be90b609e25a6403e33cb646b35e9467c07
+ms.sourcegitcommit: e8b12d97076c1387088841c3404eb7478be9155c
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "80621526"
+ms.lasthandoff: 07/01/2020
+ms.locfileid: "85782758"
 ---
 # <a name="power-bi-report-builder"></a>Power BI 报表生成器
 
- Power BI Report Builder 是一款用于创作分页报表的工具。  设计分页报表时，将创建一个报表定义，用于指定要检索的数据、获取数据的位置以及显示数据的方式。 运行报表时，报表处理器将获取用户指定的报表定义、检索数据，并将其与报表布局组合以生成报表。 可在报表生成器中预览报表。 然后将报表发布到 Power BI 服务。
+ Power BI Report Builder 是用于创作可发布到 Power BI 服务的分页报表的工具。  设计分页报表时，将创建一个报表定义，用于指定要检索的数据、获取数据的位置以及显示数据的方式。 运行报表时，报表处理器将获取用户指定的报表定义、检索数据，并将其与报表布局组合以生成报表。 可在报表生成器中预览报表。 然后将报表发布到 Power BI 服务。
+ 
+准备开始创作？ 从 Microsoft 下载中心[安装 Power BI Report Builder](https://aka.ms/pbireportbuilder)。
 
 更喜欢通过视频学习？ 请观看 YouTube 上由 Power BI 首席项目经理 Chris Finlan 制作的 Power BI 分页报表视频系列。
 
@@ -32,11 +34,11 @@ ms.locfileid: "80621526"
  
 -   **首先使用表、矩阵或图表向导**。 创建数据源连接，拖放字段以创建数据集查询，选择布局和样式，以及自定义报表。  
   
--   **开始使用“地图”向导**创建根据地理或几何背景显示聚合数据的报表。 地图数据可能是来自 Transact-SQL 查询或美国环境系统研究所公司 (ESRI) 形状文件的空间数据。 除此之外，还可以添加 Microsoft 必应地图图块背景。  
+-   **开始使用“地图”向导**创建根据地理或几何背景显示聚合数据的报表。 地图数据可能是来自 Transact-SQL 查询或美国环境系统研究所公司(ESRI) 形状文件的空间数据。 除此之外，还可以添加 Microsoft 必应地图图块背景。  
 
 ##  <a name="design-your-report"></a><a name="DesignRept"></a> 设计报表  
   
--   **创建具有表、矩阵、图表或自由格式报表布局的分页报表。** 为基于列的数据创建表报表，为汇总数据创建矩阵报表（如交叉表或数据透视表报表），为图形数据创建图表报表，为其他任何数据创建自由格式的报表。 报表中可以嵌入其他报表和图表，还可以嵌入列表、图形和用于基于 Web 的动态应用程序的控件。  
+-   **创建带有表、矩阵、图表和自由格式布局的分页报表。** 为基于列的数据创建表报表，为汇总数据创建矩阵报表（如交叉表或数据透视表报表），为图形数据创建图表报表，为其他任何数据创建自由格式的报表。 报表中可以嵌入其他报表和图表，还可以嵌入列表、图形和用于基于 Web 的动态应用程序的控件。  
   
 -   **来自各种数据源的报表。** 可以创建使用 SQL Server 和 Analysis Services、Oracle、Power BI 数据集和其他数据库的关系数据和多维数据的报表。  
   

@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
-ms.date: 05/15/2020
+ms.date: 06/13/2020
 ms.custom: licensing support
 LocalizationGroup: Premium
-ms.openlocfilehash: 1c72507759a69dc03f3d8b1510aef0e3ad369dd2
-ms.sourcegitcommit: 49daa8964c6e30347e29e7bfc015762e2cf494b3
+ms.openlocfilehash: 83383b93d9f61c30c22afa30a5d092aa62ce3a10
+ms.sourcegitcommit: 94fc44928bff09d874793964b5d7443db40934cd
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/02/2020
-ms.locfileid: "84272738"
+ms.lasthandoff: 06/12/2020
+ms.locfileid: "84754194"
 ---
 # <a name="what-is-power-bi-premium"></a>什么是 Power BI Premium？
 
@@ -85,12 +85,10 @@ Power BI Premium 订阅由 Microsoft 365 管理中心的管理员购买。 具�
 | P1/A4 | 8 | 4 | 25 | 4 | 30 | 6 |
 | P2/A5 | 16 | 8 | 50 | 8 | 60 | 12 |
 | P3/A6 | 32 | 16 | 100 | 16 | 120 | 24 |
-| P4 | 64 | 32 | 200 | 32 | 240 | 48 |
-| P5 | 128 | 64 | 400 | 64 | 480 | 96 |
 | | | | | | | |
 
-> [!NOTE]
-> 使用单个较大的 SKU（例如一个 P2 SKU）可能比组合较小的 SKU（例如两个 P1 SKU）更可取。 例如，你可以使用更大的模型，还可以实现与 P2 的更好的并行。
+>[!NOTE]
+>使用单个较大的 SKU（例如一个 P2 SKU）可能比组合较小的 SKU（例如两个 P1 SKU）更可取。 例如，你可以使用更大的模型，还可以实现与 P2 的更好的并行。
 
 ### <a name="capacity-workloads"></a>容量工作负载
 
@@ -179,17 +177,17 @@ Power BI Premium 支持上传 Power BI Desktop (.pbix) 模型文件，最大大�
 
 ### <a name="size-considerations"></a>大小注意事项
 
-大型数据集可能为资源密集型。 对于任何大于 1 GB 的数据集，应至少使用 P1 SKU。 虽然将大型数据集发布到 A SKU（最高 A3）支持的工作区可能有用，但刷新它们将不起作用。
+大型数据集可能为资源密集型。 对于任何大于 1 GB 的数据集，应至少使用 P1 或 A4 SKU。 虽然将大型数据集发布到 A SKU（最高 A3）支持的工作区可能有用，但刷新它们将不起作用。
 
 下表显示了用于将 .pbix 文件上传或发布到 Power BI 服务的建议 SKU：
 
    |SKU  |.Pbix 大小   |
    |---------|---------|
-   |P1    | < 3 GB        |
-   |P2    | < 6 GB        |
-   |P3、P4、P5    | 最多 10 GB   |
+   |P1/A4    | < 3 GB        |
+   |P2/A5    | < 6 GB        |
+   |P3/A6、P4、P5    | 最多 10 GB   |
 
-Power BI Embedded A4 SKU 等同于 P1 SKU、A5 = P2 和 A6 = P3。 将数据集发布到 A 和 EM SKU 可能会返回错误，这些错误并非特定于共享容量中的模型大小限制错误。 A 和 EM SKU 中数据集的刷新错误可能会指向超时。
+Power BI Embedded A4 SKU 等同于 P1 SKU、A5 = P2 和 A6 = P3。
 
 如果在数据集上启用[大型模型](service-premium-large-models.md)，则 .pbix 文件大小限制仍适用于文件上传或发布。 但是，在结合了增量刷新和大型模型的情况下，数据集的增长可能会远远超出这些限制。 对于大型模型，数据集大小仅受 Power BI Premium 容量大小的限制。
 
@@ -211,7 +209,7 @@ Power BI Embedded A4 SKU 等同于 P1 SKU、A5 = P2 和 A6 = P3。 将数据集�
 
 ## <a name="paginated-reports"></a>分页报表
 
-P1-P3 和 A4_A6 SKU 支持的分页报表基于 SQL Server Reporting Services 中的报表定义语言 (RDL) 技术。 虽然基于 RDL 技术，但它与 Power BI 报表服务器不同，后者是可下载的报表平台并可在本地安装，其也包含在 Power BI Premium 中。 分页报表的格式设置为适应可以打印或共享的页面。 即使表格跨多个页，数据也能在表格中显示。 通过使用免费的 [**Power BI 报表生成器**](https://go.microsoft.com/fwlink/?linkid=2086513) Windows 桌面应用程序，用户可以创建分页报表并将其发布到服务中。
+P1-P3 和 A4_A6 SKU 支持的分页报表基于 SQL Server Reporting Services 中的报表定义语言 (RDL) 技术。 虽然基于 RDL 技术，但它与 Power BI 报表服务器不同，后者是可下载的报表平台并可在本地安装，其也包含在 Power BI Premium 中。 分页报表的格式设置为适应可以打印或共享的页面。 即使表格跨多个页，数据也能在表格中显示。 通过使用免费的 [**Power BI 报表生成器**](https://aka.ms/pbireportbuilder) Windows 桌面应用程序，用户可以创建分页报表并将其发布到服务中。
 
 在 Power BI Premium 中，分页报表是必须使用管理门户为容量启用的工作负载。 容量管理员可以启用内存，然后以容量内存资源总量百分比的形式指定内存量。 与其他类型的工作负载不同，Premium 在容量范所含的空间中运行分页报表。 无论工作负载是否处于活动状态，系统都将使用为此空间指定的最大内存。 默认值为 20%。 
 

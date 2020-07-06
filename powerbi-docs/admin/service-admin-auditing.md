@@ -5,17 +5,17 @@ author: kfollis
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 05/11/2020
 ms.author: kfollis
 ms.custom: licensing support
 LocalizationGroup: Administration
-ms.openlocfilehash: f479bb865a11de57587a0302738411327327ed33
-ms.sourcegitcommit: 49daa8964c6e30347e29e7bfc015762e2cf494b3
+ms.openlocfilehash: ff61cdf25c83b1062fd7c4a471a49269d20c57a8
+ms.sourcegitcommit: e8b12d97076c1387088841c3404eb7478be9155c
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/02/2020
-ms.locfileid: "84272669"
+ms.lasthandoff: 07/01/2020
+ms.locfileid: "85782419"
 ---
 # <a name="track-user-activities-in-power-bi"></a>跟踪 Power BI 中的用户活动
 
@@ -244,8 +244,9 @@ Remove-PSSession $Session
 | 已添加 Power BI 文件夹访问权限                      | AddFolderAccess                             | 当前未使用                       |
 | 已添加 Power BI 组成员                      | AddGroupMembers                             |                                          |
 | 管理员已将数据流存储帐户附加到租户 | AdminAttachedDataflowStorageAccountToTenant | 当前未使用                       |
-| 已分析 Power BI 数据集                         | AnalyzedByExternalApplication               |                                          |
-| 已分析 Power BI 报表                          | AnalyzeInExcel                              | 用户与服务进行交互时生成。 下载 `*.odc` 文件不会创建审核事件                                         |
+| 已分析 Power BI 数据集                         | AnalyzedByExternalApplication               | 用户与服务进行交互时生成                                         |
+| 已分析 Power BI 报表                          | AnalyzeInExcel                              |                                          |
+| 已将工作区分配到部署管道                          | AssignWorkspaceToPipeline                              |                                          |
 | 附加的数据流存储帐户                 | AttachedDataflowStorageAccount              |                                          |
 | 将 Power BI 数据集绑定到网关                | BindToGateway                               |                                          |
 | 已取消的数据流刷新                        | CancelDataflowRefresh                       |                                          |
@@ -254,7 +255,9 @@ Remove-PSSession $Session
 | 已更改 Power BI 数据集连接              | SetAllConnections                           |                                          |
 | 已更改 Power BI 网关管理员                   | ChangeGatewayAdministrators                 |                                          |
 | 已更改 Power BI 网关数据源用户        | ChangeGatewayDatasourceUsers                |                                          |
+| 已创建组织的自定义视觉对象                          | InsertOrganizationalGalleryItem                                |                                          |
 | 已创建组织的 Power BI 内容包      | CreateOrgApp                                |                                          |
+| 已创建部署管道      | CreateAlmPipeline                                |                                          |
 | 已创建 Power BI 应用                              | CreateApp                                   |                                          |
 | 已创建 Power BI 仪表板                        | CreateDashboard                             |                                          |
 | 已创建 Power BI 数据流                         | CreateDataflow                              |                                          |
@@ -264,9 +267,13 @@ Remove-PSSession $Session
 | 已创建 Power BI 网关                          | CreateGateway                               |                                          |
 | 已创建 Power BI 组                            | CreateGroup                                 |                                          |
 | 已创建 Power BI 报表                           | CreateReport <sup>1</sup>                                |                                          |
+| 自定义视觉对象请求的 Azure AD 访问令牌                           | GenerateCustomVisualAADAccessToken                                |                                          |
+| 自定义视觉对象请求的 Office Web 应用访问令牌                           | GenerateCustomVisualWACAccessToken                                |                                          |
 | 已迁移到外部存储帐户的数据流     | DataflowMigratedToExternalStorageAccount    | 当前未使用                       |
 | 已添加的数据流权限                        | DataflowPermissionsAdded                    | 当前未使用                       |
 | 已删除的数据流权限                      | DataflowPermissionsRemoved                  | 当前未使用                       |
+| 已删除组织的自定义视觉对象     | DeleteOrganizationalGalleryItem                                |                                          |
+| 已删除部署管道      | DeleteAlmPipeline                                |                                          |
 | 已删除组织的 Power BI 内容包      | DeleteOrgApp                                |                                          |
 | 已删除 Power BI 注释                          | DeleteComment                               |                                          |
 | 已删除 Power BI 仪表板                        | DeleteDashboard                             | 当前未使用                       |
@@ -278,6 +285,7 @@ Remove-PSSession $Session
 | 已删除 Power BI 网关                          | DeleteGateway                               |                                          |
 | 已删除 Power BI 组                            | DeleteGroup                                 |                                          |
 | 已删除 Power BI 报表                           | DeleteReport                                |                                          |
+| 已部署到管道阶段                           | DeployAlmPipeline                                |                                          |
 | 已发现 Power BI 数据集数据源          | GetDatasources                              |                                          |
 | 已下载 Power BI 报表                        | DownloadReport                              |                                          |
 | 已编辑的数据流属性                        | EditDataflowProperties                      |                                          |
@@ -302,6 +310,7 @@ Remove-PSSession $Session
 | 已将 Power BI 报表发布到 Web                  | PublishToWebReport <sup>2</sup>                         |                                          |
 | 已发布或更新精选表 | UpdateFeaturedTables <sup>3</sup>   | |
 | 已从 Key Vault 接收 Power BI 数据流机密  | ReceiveDataflowSecretFromKeyVault           |                                          |
+| 已从部署管道中删除工作区         | UnassignWorkspaceFromPipeline                 |                                          |
 | 已从 Power BI 网关删除数据源         | RemoveDatasourceFromGateway                 |                                          |
 | 已删除 Power BI 组成员                    | DeleteGroupMembers                          |                                          |
 | 已从容量中删除工作区                 | RemoveWorkspacesFromCapacity                |                                          |
@@ -321,9 +330,12 @@ Remove-PSSession $Session
 | 已接管 Power BI 数据流                     | TookOverDataflow                             |                                          |
 | 未发布 Power BI 应用                          | UnpublishApp                                |                                          |
 | 更新容量资源管理设置      | UpdateCapacityResourceGovernanceSettings    | 目前不在 Microsoft 365 管理中心 |
+| 已上传组织的自定义视觉对象                     | UpdateOrganizationalGalleryItem                   |                                          |
 | 已更新容量管理员                            | UpdateCapacityAdmins                        |                                          |
 | 已更新容量显示名称                     | UpdateCapacityDisplayName                   |                                          |
 | 已更新数据流存储分配权限   | UpdatedDataflowStorageAssignmentPermissions |                                          |
+| 已更新部署管道访问   | UpdateAlmPipelineAccess |                                          |
+| 已更新部署管道配置   | SetConfigurationAlmPipeline |                                          |
 | 已更新组织的 Power BI 设置          | UpdatedAdminFeatureSwitch                   |                                          |
 | 已更新 Power BI 应用                              | UpdateApp                                   |                                          |
 | 已更新 Power BI 数据流                         | UpdateDataflow                              |                                          |

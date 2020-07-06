@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 03/29/2020
+ms.date: 06/18/2020
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: c2800ab9d57732448db9e4fe647a0601a20a816c
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: b273b5ea265815f26e58010356790186163c4aa8
+ms.sourcegitcommit: caf60154a092f88617eb177bc34fb784f2365962
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83276596"
+ms.lasthandoff: 06/25/2020
+ms.locfileid: "85354607"
 ---
 # <a name="tips-and-tricks-for-color-formatting-in-power-bi"></a>Power BI 中颜色格式设置的提示和技巧
 
@@ -62,11 +62,11 @@ Power BI 提供了自定义仪表板和报表的多种方法。 本文详细介�
 
 展开“数据颜色”卡，然后启用“全部显示”滑块。 此操作将显示可视化效果中每个数据元素的颜色。 现在可以修改任意数据点。
 
-![](media/service-tips-and-tricks-for-color-formatting/power-bi-show.png)
+![“显示全部”设置为“启用”的“格式”窗格](media/service-tips-and-tricks-for-color-formatting/power-bi-show.png)
 
 将“便利性”设置为橙色。 
 
-![](media/service-tips-and-tricks-for-color-formatting/power-bi-one-color.png)
+![带有一个橙色列的柱形图](media/service-tips-and-tricks-for-color-formatting/power-bi-one-color.png)
 
 选择颜色后，“便利性”数据点将显示为美丽的橙色阴影，自然就很显眼了。
 
@@ -96,7 +96,7 @@ Power BI 提供了自定义仪表板和报表的多种方法。 本文详细介�
 
 还可以使用不属于视觉对象的字段来设置视觉对象颜色的格式。 下图中使用的是 **%Market Share SPLY YTD**。 
 
-![](media/service-tips-and-tricks-for-color-formatting/power-bi-conditional-colors.png)
+![具有多个蓝色底纹的柱形图](media/service-tips-and-tricks-for-color-formatting/power-bi-conditional-colors.png)
 
 
 可以看出，尽管销售的“Productivity”和“Extreme”的单位数更多（其柱形更高），但“Moderation”的“%Market Share SPLY YTD”更大（其柱形的色彩饱和度更高）   。
@@ -106,7 +106,7 @@ Power BI 提供了自定义仪表板和报表的多种方法。 本文详细介�
 
 在第一张图片中，请注意图表中的条形图是如何反映渐变栏中的渐变的；最高的值为绿色，最低的值为橙色，中间的条形图都以介于绿色和橙色之间的色谱着色。
 
-![](media/service-tips-and-tricks-for-color-formatting/power-bi-conditional4.png)
+![显示从绿色到橙色渐变的柱形图](media/service-tips-and-tricks-for-color-formatting/power-bi-conditional4.png)
 
 现在，让我们看看如果在“最小值”和“最大值”框中提供数值，会发生什么 。 选择“最小值”和“最大值”的 DropBox 中的“自定义”，将“最小值”设置为 3500，将最大值设置为 6000    。
 

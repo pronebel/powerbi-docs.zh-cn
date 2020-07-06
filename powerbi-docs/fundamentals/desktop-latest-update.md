@@ -6,21 +6,21 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 05/19/2020
+ms.date: 06/10/2020
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: 2b170a9a5d6e5f36eab555401daf613774c2c984
-ms.sourcegitcommit: 250242fd6346b60b0eda7a314944363c0bacaca8
+ms.openlocfilehash: c5d8fc3eb74acb32364754385f4458f6b9441e87
+ms.sourcegitcommit: c006d7aabf90c7b29fb05641d1f94f1ee7132943
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/20/2020
-ms.locfileid: "83693990"
+ms.lasthandoff: 06/11/2020
+ms.locfileid: "84684653"
 ---
 # <a name="whats-new-in-power-bi-desktop"></a>Power BI Desktop 中的新增功能是什么？
 
-## <a name="may-2020-update-2815831621"></a>2020 年 5 月更新 (2.81.5831.621)
+## <a name="june-2020-update-2825858301"></a>2020 年 6 月更新 (2.82.5858.301)
 
-我们希望 5 月推出的 Power BI Desktop 能够为我们的全球社区带来新的见解、新的功能和积极的前景。 
+6 月推出的 Power BI Desktop 就像是一个全新的开始，其中包含各种新功能（正式发布的功能）以及许多深入了解你的数据并进行交互的机会。 
 
 从[下载中心](https://www.microsoft.com/download/details.aspx?id=58494)获取最新版 Power BI Desktop。 如果运行的是 Windows 10，还可以从 [Microsoft Store](https://aka.ms/pbidesktopstore) 获取 Power BI Desktop。 无论以何种方式安装 Power BI Desktop，每月版本都是相同的，虽然版本编号可能不同。 有关下载和安装 Power BI Desktop 的详细信息，请参阅[获取 Power BI Desktop](desktop-get-the-desktop.md)。 
 
@@ -41,43 +41,41 @@ Power BI Desktop 更新列表中每个功能旁边的链接解释如下：
 
 
 ### <a name="reporting"></a>报表
-* 策展 Excel 的精选表（预览）[[视频]](https://youtu.be/JtuHIslowxk?t=20)  [[博客]](https://powerbi.microsoft.com/blog/power-bi-desktop-may-2020-feature-summary/#_Excel) 
-* 应用所有筛选器（预览）   [[视频]](https://youtu.be/JtuHIslowxk?t=193) [[博客]](https://powerbi.microsoft.com/blog/power-bi-desktop-may-2020-feature-summary/#_Apply_all) 
-* 更改检测的增强（预览）  [[视频]](https://youtu.be/JtuHIslowxk?t=475)  [[博客]](https://powerbi.microsoft.com/blog/power-bi-desktop-may-2020-feature-summary/#_CDM) 
-* 钻取按钮操作现已正式发布  [[视频]](https://youtu.be/JtuHIslowxk?t=626)  [[文章]](../create-reports/desktop-drill-through-buttons.md) [[博客]](https://powerbi.microsoft.com/blog/power-bi-desktop-may-2020-feature-summary/#_Drill_through) 
-* 页面导航操作的增强   [[视频]](https://youtu.be/JtuHIslowxk?t=1143)  [[博客]](https://powerbi.microsoft.com/blog/power-bi-desktop-may-2020-feature-summary/#_page_nav) 
-* 按钮现在支持填充图像  [[视频]](https://youtu.be/JtuHIslowxk?t=1465)  [[博客]](https://powerbi.microsoft.com/blog/power-bi-desktop-may-2020-feature-summary/#_fill_images) 
-* 对视觉对象的投影支持  [[视频]](https://youtu.be/JtuHIslowxk?t=1561)  [[博客]](https://powerbi.microsoft.com/blog/power-bi-desktop-may-2020-feature-summary/#_shadow) 
-* 筛选器窗格迁移 [[视频]](https://youtu.be/JtuHIslowxk?t=1688) [[博客]](https://powerbi.microsoft.com/blog/power-bi-desktop-may-2020-feature-summary/#_migration) 
+* 移动布局创作的增强功能 [[视频]](https://youtu.be/WUo8TnHNHYM?t=15) [[博客]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-2020-feature-summary/#_mobile) 
+* 自动页面刷新现已正式发布 [[视频]](https://youtu.be/WUo8TnHNHYM?t=266) [[文章]](../create-reports/desktop-automatic-page-refresh.md) [[博客]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-2020-feature-summary/#_APR) 
+* 分层切片器现已正式发布 [[视频]](https://youtu.be/WUo8TnHNHYM?t=819) [[文章]](../create-reports/desktop-drill-through-buttons.md) [[博客]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-2020-feature-summary/#_Hierarchical_slicer) 
+* 新式功能区现已正式发布 [[视频]](https://youtu.be/WUo8TnHNHYM?t=1057) [[文章]](../create-reports/desktop-ribbon.md) [[博客]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-2020-feature-summary/#_ribbon) 
+* Excel 数据类型库中的精选表现在支持 RLS [[视频]](https://youtu.be/WUo8TnHNHYM?t=1075) [[文章]](../collaborate-share/service-excel-featured-tables.md) [[博客]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-2020-feature-summary/#_RLS) 
+
+
 
 ### <a name="analytics"></a>分析
-* 分解树现已正式发布 [[视频]](https://youtu.be/JtuHIslowxk?t=1701)  [[博客]](https://powerbi.microsoft.com/blog/power-bi-desktop-may-2020-feature-summary/#_Decomp_tree) 
+* AI 见解现已正式发布 [[视频]](https://youtu.be/WUo8TnHNHYM?t=1106) [[文章]](../transform-model/desktop-ai-insights.md) [[博客]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-2020-feature-summary/#_AI) 
 
 
 ### <a name="visuals"></a>视觉对象
-* 新的 Power BI 视觉对象 [[视频]](https://youtu.be/JtuHIslowxk?t=1840) [[博客]](https://powerbi.microsoft.com/blog/power-bi-desktop-may-2020-feature-summary/#_Visualizations)
-* Power Apps 视觉对象现已与所有支持的语言兼容 [[视频]](https://youtu.be/JtuHIslowxk?t=1861)  [[博客]](https://powerbi.microsoft.com/blog/power-bi-desktop-may-2020-feature-summary/#_lang)
+* 折线图点格式设置选项 [[视频]](https://youtu.be/WUo8TnHNHYM?t=1262) [[博客]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-2020-feature-summary/#_Line_chart)
+* 多个供应商的多个新视觉对象 [[视频]](https://youtu.be/WUo8TnHNHYM?t=1342) [[博客]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-2020-feature-summary/#_Radar)
+
+### <a name="template-apps"></a>模板应用
+* Agile HR Analytics [[视频]](https://youtu.be/WUo8TnHNHYM?t=1482) [[博客]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-2020-feature-summary/#_Agile_HR_Analytics)
+* Uber 用户数据报表 [[视频]](https://youtu.be/WUo8TnHNHYM?t=1507) [[博客]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-2020-feature-summary/#_Uber_User_Data)
+
 
 ### <a name="modeling"></a>建模
-* 列表分隔符和小数点符号现在默认为标准 DAX 分隔符 [[视频]](https://youtu.be/JtuHIslowxk?t=1869)  [[博客]](https://powerbi.microsoft.com/blog/power-bi-desktop-may-2020-feature-summary/#_List_separator)
-
-
-### <a name="data-preparation"></a>数据准备
-* 数据流上的 DirectQuery  [[视频]](https://youtu.be/JtuHIslowxk?t=1883)   [[文章]](../transform-model/service-dataflows-directquery.md)  [[博客]](https://powerbi.microsoft.com/blog/power-bi-desktop-may-2020-feature-summary/#_DQ_Dataflows) 
-* Web by example 现在默认自动推荐表  [[视频]](https://youtu.be/JtuHIslowxk?t=1916)  [[博客]](https://powerbi.microsoft.com/blog/power-bi-desktop-may-2020-feature-summary/#_Web_by_example) 
-* 对查询诊断的增强：隐私级别分区  [[视频]](https://youtu.be/JtuHIslowxk?t=1931)  [[博客]](https://powerbi.microsoft.com/blog/power-bi-desktop-may-2020-feature-summary/#_Query_Diag) 
+* 为 Live Connect 启用的模型视图（预览版）[[视频]](https://youtu.be/WUo8TnHNHYM?t=1527) [[博客]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-2020-feature-summary/#_Model_view_enabled)
+* 模型视图的更新 [[视频]](https://youtu.be/WUo8TnHNHYM?t=1624) [[博客]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-2020-feature-summary/#_Updates_to_Model)
 
 
 ### <a name="data-connectivity"></a>数据连接
-* 很多新的数据连接器  [[视频]](https://youtu.be/JtuHIslowxk?t=1948)   [[文章]](../connect-data/desktop-data-sources.md)  [[博客]](https://powerbi.microsoft.com/blog/power-bi-desktop-may-2020-feature-summary/#_Data_connectivity) 
-
+* Palantir Foundry 连接器 [[视频]](https://youtu.be/WUo8TnHNHYM?t=1700) [[文章]](../connect-data/desktop-data-sources.md) [[博客]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-2020-feature-summary/#_Palantir) 
 
 
 ### <a name="other-features"></a>其他功能
-* 数据集影响分析 [[视频]](https://youtu.be/JtuHIslowxk?t=1964)  [[博客]](https://powerbi.microsoft.com/blog/power-bi-desktop-may-2020-feature-summary/#_Impact) 
+* 新的 Power BI 训练 [[视频]](https://youtu.be/WUo8TnHNHYM?t=1722) [[博客]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-2020-feature-summary/#_pbi_training) 
 
 
-有关这些新功能的详细信息，请参阅 [Power BI Desktop 功能摘要博客文章](https://powerbi.microsoft.com/blog/power-bi-desktop-may-2020-feature-summary/)。
+有关这些新功能的详细信息，请参阅 [Power BI Desktop 功能摘要博客文章](https://powerbi.microsoft.com/blog/power-bi-desktop-june-2020-feature-summary/)。
 
 查看 [Power BI 服务中的新增功能](service-whats-new.md)，以及 [Power BI 移动应用中的新增功能](../consumer/mobile/mobile-whats-new-in-the-mobile-apps.md)。
 
@@ -88,7 +86,7 @@ Power BI Desktop 更新列表中每个功能旁边的链接解释如下：
 ### <a name="power-bi-desktop-monthly-update-video"></a>Power BI Desktop 每月更新视频
 以下视频介绍了上述每项更新。 你还可以从博客文章查看该视频：
 
-> [!VIDEO https://www.youtube.com/embed/JtuHIslowxk]
+> [!VIDEO https://www.youtube.com/embed/WUo8TnHNHYM]
 
 ## <a name="more-videos"></a>更多视频
 

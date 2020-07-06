@@ -1,6 +1,6 @@
 ---
 title: Power BI Premium 中的分页报表是什么？
-description: 长期以来，分页报表一直是 SQL Server Reporting Services 中的标准报表格式，现在可在 Power BI 服务中使用。 可以打印或共享这些报表。 用户可以精确控制报表布局。 例如，即使某个表跨多个页，分页报表也能显示表中的所有数据。
+description: 现在可以在 Power BI 服务中使用分页报表。 它们一直是 SQL Server Reporting Services 中的标准报表格式。 可以打印或共享这些报表。 用户可以精确控制报表布局。 例如，即使某个表跨多个页，分页报表也能显示表中的所有数据。
 author: maggiesMSFT
 ms.author: maggies
 ms.reviewer: ''
@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: overview
 ms.date: 05/19/2020
-ms.openlocfilehash: 69d6f3c828066a66c59ab8becf4fd4f43e54c547
-ms.sourcegitcommit: c1f05254eaf5adb563f8d4f33c299119134c7d1f
+ms.openlocfilehash: 7483b6878a7f7c2e01be7869827f8de66499cc5f
+ms.sourcegitcommit: 46a340937d9f01c6daba86a4ab178743858722ec
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/21/2020
-ms.locfileid: "83733407"
+ms.lasthandoff: 06/26/2020
+ms.locfileid: "85393764"
 ---
 # <a name="what-are-paginated-reports-in-power-bi-premium"></a>Power BI Premium 中的分页报表是什么？
 
@@ -95,7 +95,8 @@ ms.locfileid: "83733407"
  
 ## <a name="next-steps"></a>后续步骤
 
-- [从 Microsoft 下载中心安装 Power BI 报表生成器](https://go.microsoft.com/fwlink/?linkid=2086513)
+- [从 Microsoft 下载中心安装 Power BI 报表生成器](https://aka.ms/pbireportbuilder)
 - [教程：创建分页报表](paginated-reports-quickstart-aw.md)
+- [在线课程：一天玩转 Power BI 分页报表](../learning-catalog/paginated-reports-online-course.md)
 - [直接在分页报表中输入数据](paginated-reports-enter-data.md)
 - [教程：在应用程序中为客户 ](../developer/embedded/embed-paginated-reports-customers.md) 嵌入 Power BI 分页报表

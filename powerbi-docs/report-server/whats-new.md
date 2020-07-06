@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 05/27/2020
-ms.openlocfilehash: ee725457475f1bccd593e2331d9e62c85ef08762
-ms.sourcegitcommit: 0d8261a3cdef05ed8d4eb2aaffff2c1cc2098624
+ms.openlocfilehash: 9cb9939f665dabc910c0605f4c1864f7d80988c3
+ms.sourcegitcommit: a07fa723bb459494c60cf6d749b4554af723482a
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/28/2020
-ms.locfileid: "84126287"
+ms.lasthandoff: 06/12/2020
+ms.locfileid: "84739221"
 ---
 # <a name="whats-new-in-power-bi-report-server"></a>Power BI 报表服务器中的新增功能
 
@@ -215,7 +215,7 @@ Power BI 报表服务器现在为企业版和标准版的 Power BI 报表服务�
 
 #### <a name="power-bi-visuals-api"></a>Power BI 视觉对象 API
 
-此版本附带的 API 版本为 2.6。
+此版本附带的 API 版本为 2.6.0。
 
 #### <a name="microsoft-report-builder-update"></a>Microsoft 报表生成器更新
 
@@ -366,7 +366,7 @@ Power BI 报表中支持以下功能：
 
 #### <a name="power-bi-visuals"></a>Power BI 视觉对象
 
-- 此版本附带的 API 版本为 2.3。
+- 此版本附带的 API 版本为 2.3.0。
 
 ### <a name="administrator-settings"></a>管理员设置
 

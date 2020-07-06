@@ -9,12 +9,12 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 10/23/2019
 ms.author: v-pemyer
-ms.openlocfilehash: 69084048b46c77452bf94f04fd79a97c4f09af5b
-ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
+ms.openlocfilehash: b95eafbe797dcc28c54aa9781b0422820ccf1f4b
+ms.sourcegitcommit: 46a340937d9f01c6daba86a4ab178743858722ec
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/19/2020
-ms.locfileid: "83565985"
+ms.lasthandoff: 06/26/2020
+ms.locfileid: "85393602"
 ---
 # <a name="auto-datetime-guidance-in-power-bi-desktop"></a>Power BI Desktop 中的自动日期/时间指南
 
@@ -26,7 +26,7 @@ ms.locfileid: "83565985"
 
 下面的项目符号列表说明了与“自动日期/时间”选项相关的注意事项和可能的限制。
 
-- **全部适用或全部不适用：** 启用“自动日期/时间”选项后，它将应用到“导入”表中多对一关系“多”方以外的所有日期列（计算列除外）。 不能逐列选择性地启用或禁用它。
+- **全部适用或全部不适用：** 启用“自动日期/时间”选项后，它将适用于“导入”表中非关系的“多”方的所有日期列。 不能逐列选择性地启用或禁用它。
 - **仅日历时间段：** “年”和“季度”列与日历期间相关。 它表示年份从 1 月 1 日开始，在 12 月 31 日结束。 不能自定义年份的开始（或完成）日期。
 - **自定义：** 不能自定义用于描述时间段的值。 此外，不能添加其他列来描述其他时间段，例如，“星期”。
 - **年份筛选：** “季度”、“月份”和“日”列的值不包含年份值。 例如，“月份”列只包含月份名称（即，一月、二月等）。 这些值不是完全自描述的，在某些报表设计中可能无法传达年份筛选器上下文。
@@ -51,6 +51,7 @@ ms.locfileid: "83565985"
 
 有关本文的详细信息，请参阅以下资源：
 
+- [在 Power BI Desktop 中创建日期表](model-date-tables.md)
 - [Power BI Desktop 中的自动日期/时间](../transform-model/desktop-auto-date-time.md)
 - [在 Power BI Desktop 中设置和使用日期表](../transform-model/desktop-date-tables.md)
 - 是否有任何问题? [尝试咨询 Power BI 社区](https://community.powerbi.com/)

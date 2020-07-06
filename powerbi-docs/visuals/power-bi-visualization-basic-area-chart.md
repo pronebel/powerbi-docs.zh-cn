@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 05/05/2020
+ms.date: 06/16/2020
 ms.author: rien
 LocalizationGroup: Visualizations
-ms.openlocfilehash: e03a453b95a797b281f789e8aed40b3879b54e02
-ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
+ms.openlocfilehash: dd0cfbcb2b4e4d18a7aa69fb65063f9d81e0a14a
+ms.sourcegitcommit: caf60154a092f88617eb177bc34fb784f2365962
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/19/2020
-ms.locfileid: "83563861"
+ms.lasthandoff: 06/25/2020
+ms.locfileid: "85354791"
 ---
 # <a name="create-and-use-basic-area-charts"></a>创建和使用基本面积图
 
@@ -26,7 +26,7 @@ ms.locfileid: "83563861"
 
 分区图强调变化随时间推移的度量值，可以用于吸引人们关注某个趋势间的总值。 例如，可以在分区图中绘制表示随时间推移的利润的数据以强调总利润。
 
-![](media/power-bi-visualization-basic-area-chart/power-bi-chart-example.png)
+![基本分区图](media/power-bi-visualization-basic-area-chart/power-bi-chart-example.png)
 
 > [!NOTE]
 > 与 Power BI 同事共享报表时，你和这位同事都应具有独立的 Power BI Pro 许可证，并且应将报表保存在 Premium 容量中。
@@ -40,7 +40,7 @@ ms.locfileid: "83563861"
 ### <a name="prerequisites"></a>先决条件
 本教程使用[零售分析示例 PBIX 文件](https://download.microsoft.com/download/9/6/D/96DDC2FF-2568-491D-AAFA-AFDD6F763AE3/Retail%20Analysis%20Sample%20PBIX.pbix)。
 
-1. 在菜单栏的左上方，选择“文件” > “打开”  
+1. 在菜单栏的左上方，选择“文件” > “打开” 
    
 2. 查找**零售分析示例 PBIX 文件**的副本
 
@@ -54,7 +54,7 @@ ms.locfileid: "83563861"
 
 1. 这些步骤有助于创建按月显示本年度销售额和上年度销售额的分区图。
    
-   a. 在“字段”窗格中，依次选择“销售额”\>“去年销售额”，再依次选择“今年销售额 > 值”   。
+   a. 在“字段”窗格中，依次选择“销售额”\>“去年销售额”，再依次选择“今年销售额 > 值” 。
 
    ![分区图数据值](media/power-bi-visualization-basic-area-chart/power-bi-bar-chart.png)
 
@@ -62,17 +62,17 @@ ms.locfileid: "83563861"
 
    ![分区图图标](media/power-bi-visualization-basic-area-chart/convertchart.png)
    
-   c.  选择“时间”\>“会计月”  以将其添加到“轴”  。   
+   c.  选择“时间”\>“会计月”以将其添加到“轴”。   
    ![分区图轴值](media/power-bi-visualization-basic-area-chart/powerbi-area-chartnew.png)
    
-   d.  若要按月显示图表，请选择“省略号”（视觉对象的右上角）并选择“按月排序”  。 要更改排序顺序，请再次选择省略号并选择  “升序排序”或“降序排序”  。
+   d.  若要按月显示图表，请选择“省略号”（视觉对象的右上角）并选择“按月排序”。 要更改排序顺序，请再次选择省略号并选择“升序排序”或“降序排序”。
 
 ## <a name="highlighting-and-cross-filtering"></a>突出显示和交叉筛选
 有关使用筛选器窗格的信息，请参阅[向报表添加筛选器](../create-reports/power-bi-report-add-filter.md)。
 
 若要突出显示图表中的特定分区，请选择相应分区或其上边框。  与其他可视化效果类型不同，如果同一页面上还有其他可视化效果，突出显示基本分区图不会交叉筛选报表页上的其他可视化效果。 但是，面积图是报表页上其他可视化效果触发的交叉筛选的目标。 
 
-1. 通过选择分区图并将其复制到“新商店分析”  报表页（CTRL-C 和 CTRL-V）来进行尝试。
+1. 通过选择分区图并将其复制到“新商店分析”报表页（CTRL-C 和 CTRL-V）来进行尝试。
 2. 选择分区图中的其中一个阴影区域，然后选择另一个阴影区域。 你将注意到对页面上其他可视化效果的影响。
 1. 现在选择一个元素。 请注意对分区图的影响：它将被交叉筛选。
 

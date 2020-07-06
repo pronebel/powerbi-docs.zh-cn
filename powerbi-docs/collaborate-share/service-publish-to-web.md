@@ -6,15 +6,15 @@ ms.author: maggies
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 02/25/2020
 LocalizationGroup: Share your work
-ms.openlocfilehash: 136376da9d00e5f40397f0d4152e83d17a171168
-ms.sourcegitcommit: 49daa8964c6e30347e29e7bfc015762e2cf494b3
+ms.openlocfilehash: 5e7fe8a7c71927a1e89bd4e86209c580ae1f3b29
+ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/02/2020
-ms.locfileid: "84272968"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "85225680"
 ---
 # <a name="publish-to-web-from-power-bi"></a>从 Power BI 发布到 Web
 
@@ -118,11 +118,11 @@ ms.locfileid: "84272968"
 
 ## <a name="updates-to-reports-and-data-refresh"></a>报表更新和数据刷新
 
-创建“发布到 Web”嵌入代码并将其共享后，将使用你所做的所有更改对报表进行更新，并立即激活嵌入代码链接。 打开链接的任何人都可以查看。 但完成此初始操作之后，需要两到三小时用户才能看见对报表或视觉对象的更新。 若要了解详细信息，请参阅本文后面[工作方式](#howitworks)部分。 
+创建“发布到 Web”嵌入代码并将其共享后，将使用你所做的所有更改对报表进行更新，并立即激活嵌入代码链接。 打开链接的任何人都可以查看。 初始创建后，对报表或视觉对象的更新可能需要两个小时用户才能看到它们。 数据将缓存一小时（从检索时间开始）。 对于需要频繁刷新的数据，不建议使用“发布到 Web”。 若要了解详细信息，请参阅本文后面[工作方式](#howitworks)部分。 
 
 ### <a name="data-refresh"></a>数据刷新
 
-数据刷新自动反映在嵌入的报表或视觉对象中。 大约需要一小时才可从嵌入代码中看到刷新的数据。 若要禁用自动刷新，选择报表所用数据集计划上的“不刷新”。  
+数据刷新自动反映在嵌入的报表或视觉对象中。 从嵌入代码中看到刷新的数据可能需要两小时。 若要禁用自动刷新，选择报表所用数据集计划上的“不刷新”。  
 
 ## <a name="power-bi-visuals"></a>Power BI 视觉对象
 
@@ -159,7 +159,7 @@ ms.locfileid: "84272968"
 
 使用“发布到 Web”创建嵌入代码时，报表对所有 Internet 用户均可见。 它是公开提供的，因此你可以期望将来查看者能够轻松地通过社交媒体共享报表。 用户查看报表，或者通过打开直接公共 URL，或者在嵌入到的网页或博客中查看，Power BI 将缓存报表定义和查看报表所需的查询结果。 此缓存可确保成千上万的并发用户能够在不影响性能的情况下查看报表。
 
-缓存会持续很长时间。 如果你更新报表定义（例如更改其视图模式）或刷新报表数据，大约需要一小时才能在用户查看的报表版本中反映更改。 由于每个元素和数据值都是独立缓存的，因此当发生数据更新时，可以向用户显示当前值和以前值的组合。 因此建议你提前暂存工作，并仅在对设置满意时创建“发布到 Web”嵌入代码。 如果数据会刷新，则最大限度地减少刷新次数，并在关闭时执行刷新。
+数据将缓存一小时（从检索时间开始）。 如果你更新报表定义（例如更改其视图模式）或刷新报表数据，可能需要两小时才能在用户查看的报表版本中反映更改。 由于每个元素和数据值都是独立缓存的，因此当发生数据更新时，可以向用户显示当前值和以前值的组合。 因此建议你提前暂存工作，并仅在对设置满意时创建“发布到 Web”嵌入代码。 如果数据会刷新，则最大限度地减少刷新次数，并在关闭时执行刷新。 对于需要频繁刷新的数据，不建议使用“发布到 Web”。
 
 ## <a name="find-your-power-bi-administrator"></a>查找 Power BI 管理员
 

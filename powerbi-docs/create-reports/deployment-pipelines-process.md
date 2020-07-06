@@ -6,13 +6,13 @@ ms.author: kesharab
 ms.topic: conceptual
 ms.service: powerbi
 ms.subservice: powerbi-service
-ms.date: 05/06/2020
-ms.openlocfilehash: c4a823b0b41def6c10cd8f932bb97e91eb977ecb
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.date: 06/25/2020
+ms.openlocfilehash: fc7e6aa751bab6562e097b8ce14ff8416e6231e7
+ms.sourcegitcommit: e8b12d97076c1387088841c3404eb7478be9155c
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83148601"
+ms.lasthandoff: 07/01/2020
+ms.locfileid: "85782558"
 ---
 # <a name="understand-the-deployment-process-preview"></a>了解部署过程（预览版）
 
@@ -60,7 +60,7 @@ ms.locfileid: "83148601"
 
 如果可能，将保留目标数据集中的数据。 如果没有对数据集进行更改，则数据在部署前后没有变化。
 
-进行较小的更改（例如，添加表或计算度量值）后，Power BI 会保留原始数据，而刷新会经过优化，以便仅刷新所需的内容。 对于重大的架构更改或数据源连接中的更改，需要完全刷新。
+进行较小的更改（例如，添加表或度量值）后，Power BI 会保留原始数据，而刷新会经过优化，以便仅刷新所需的内容。 对于重大的架构更改或数据源连接中的更改，需要完全刷新。
 
 ### <a name="requirements-for-deploying-to-a-stage-with-an-existing-workspace"></a>部署到具有现有工作区的阶段的要求
 
@@ -152,11 +152,11 @@ ms.locfileid: "83148601"
 
 为每个部署管道阶段创建应用，以便可以从最终用户的角度测试每个应用更新。 部署管道可以轻松管理此过程。 使用工作区卡中的“发布”或“查看”按钮，在特定管道阶段中发布或查看应用。
 
-[![](media/deployment-pipelines-process/publish.png "Publish app")](media/deployment-pipelines-process/publish.png#lightbox)
+[![发布应用](media/deployment-pipelines-process/publish.png "发布应用")](media/deployment-pipelines-process/publish.png#lightbox)
 
 在生产阶段中，左下角的“主操作”按钮会在 Power BI 中打开“更新应用”页，以便任何内容更新可供应用用户使用。
 
-[![](media/deployment-pipelines-process/update-app.png "Update app")](media/deployment-pipelines-process/update-app.png#lightbox)
+[![更新应用](media/deployment-pipelines-process/update-app.png "更新应用")](media/deployment-pipelines-process/update-app.png#lightbox)
 
 >[!IMPORTANT]
 >部署过程不包括更新应用内容或设置。 若要应用对内容或设置的更改，需要在所需的管道阶段手动更新应用。
@@ -236,13 +236,23 @@ ms.locfileid: "83148601"
 
 * 无法部署具有 Power BI [敏感度标签](../admin/service-security-data-protection-overview.md#sensitivity-labels-in-power-bi)的 Power BI 项（如报表和仪表板）。
 
-* 无法部署使用[增量刷新](../admin/service-premium-incremental-refresh.md)配置的数据集。
+* 单个部署中可部署的 Power BI 项数上限为 300。
 
 * 有关工作区限制的列表，请参阅[工作区分配限制](deployment-pipelines-get-started.md#workspace-assignment-limitations)。
 
-* 有关数据集规则限制的列表，请参阅[数据集规则限制](deployment-pipelines-get-started.md#dataset-rule-limitations)
-
 * 有关不支持的项的列表，请参阅[不支持的项](#unsupported-items)。
+
+### <a name="dataset-limitations"></a>数据集限制
+
+* 无法部署使用[增量刷新](../admin/service-premium-incremental-refresh.md)配置的数据集。
+
+* 无法部署使用实时数据连接的数据集。
+
+* 在部署期间，如果目标数据集使用[实时连接](../connect-data/desktop-report-lifecycle-datasets.md)，则源数据集也必须使用此连接模式。
+
+* 部署之后，不支持下载数据集（从其部署到的阶段）。
+
+* 有关数据集规则限制的列表，请参阅[数据集规则限制](deployment-pipelines-get-started.md#dataset-rule-limitations)。
 
 ## <a name="next-steps"></a>后续步骤
 

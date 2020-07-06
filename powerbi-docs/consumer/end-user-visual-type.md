@@ -5,27 +5,29 @@ author: mihart
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-consumer
-ms.topic: conceptual
-ms.date: 03/11/2020
+ms.topic: how-to
+ms.date: 06/24/2020
 ms.author: mihart
+ms.custom: contperfq4
 LocalizationGroup: Consumer
-ms.openlocfilehash: acfcd863a537153e70734d5f83e89e384438885e
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 605b3fbc49d9a9dbf60b6963a89487ca15284b29
+ms.sourcegitcommit: 46a340937d9f01c6daba86a4ab178743858722ec
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83279425"
+ms.lasthandoff: 06/26/2020
+ms.locfileid: "85393832"
 ---
 # <a name="visual-types-in-power-bi"></a>Power BI 中的视觉对象类型
 
 [!INCLUDE[consumer-appliesto-yynn](../includes/consumer-appliesto-yynn.md)]
 
-你会在报表、仪表板和问答中找到视觉对象。 其中某些视觉对象类型使用 Power BI 进行打包，而另一些视觉对象类型是 Power BI 视觉对象  。 自定义视觉对象在 Power BI 外部创建，其创建方式使报表设计器  可以将它们添加到 Power BI 报表和仪表板。 
+视觉对象（也称为“图”和“可视化效果”）是数据的图片表示形式 。 一些常见示例包括柱形图、地图、散点图和径向仪表。 你会在报表、仪表板和问答中找到视觉对象。
 
-本文是与 Power BI 服务打包在一起的视觉对象的概述。  这些是最常遇到的视觉对象。 有关这些视觉对象的详细信息，请参阅[有关视觉对象类型的 Power BI 报表设计器文档](../visuals/power-bi-visualization-types-for-reports-and-q-and-a.md) 
+此页面上所述的视觉对象是使用 Power BI 打包的视觉对象。 这些是最常遇到的视觉对象类型。 此页面简要概述了这些预打包的视觉对象。 有关这些视觉对象的详细信息，请参阅[有关视觉对象类型的 Power BI 报表设计器文档](../visuals/power-bi-visualization-types-for-reports-and-q-and-a.md)。
 
-> [!NOTE]
-> 要了解 Power BI 视觉对象，请在 [Microsoft AppSource](https://appsource.microsoft.com/marketplace/apps?product=power-bi-visuals) 的“Power BI 视觉对象”  部分中搜索它们。 对于每个视觉对象，你会找到说明、创建者信息以及屏幕截图或视频。 
+不自动包含在 Power BI 中的视觉对象称为“自定义视觉对象”。 自定义视觉对象可以从外部网站（例如 Microsoft AppSource）或从内部源（例如你的组织存储）导入到 Power BI 中。 导入自定义视觉对象需要对该报表拥有编辑权限。 若要了解这些外接程序视觉对象，请访问 [Power BI 中的视觉对象](../developer/visuals/power-bi-custom-visuals.md)。
+
+
 
 ## <a name="list-of-visuals-available-in-power-bi"></a>Power BI 支持的视觉对象列表
 所有这些视觉对象都可以在 Power BI 仪表板和报表中找到，并[在问答中指定](end-user-q-and-a.md)。 若要了解如何与视觉对象进行交互，请参阅[与报表、仪表板和应用中的视觉对象交互](end-user-visualizations.md)
@@ -65,6 +67,12 @@ ms.locfileid: "83279425"
 - 检查一个度量值是否满足另一个度量值定义的目标
 - 节省画布空间
 
+
+### <a name="decomposition-tree"></a>分解树
+![分解树](media/end-user-visual-type/power-bi-decomposition.png)
+
+通过分解树视觉对象，可以在多个维度之间实现数据的可视化。 它可自动聚合数据，并按任意顺序向下钻取到各个维度中。 它也是一种人工智能 (AI) 可视化效果，因此可以要求它查找下一个维度，以根据特定条件向下钻取。 这使它成为具体探索和执行根本原因分析的有用工具。
+
 ### <a name="doughnut-charts"></a>圆环图
 ![圆环图](media/end-user-visual-type/donut-small.png)
 
@@ -97,7 +105,7 @@ ms.locfileid: "83279425"
 
 关键影响因素图表显示所选结果或值主要参与者。
 
-关键影响因素是一个不错的选择，有助于你了解影响关键指标的因素。 例如，是什么影响客户再次下订单或去年 6 月份为什么有那么高的销售额  。 
+关键影响因素是一个不错的选择，有助于你了解影响关键指标的因素。 例如，是什么影响客户再次下订单或去年 6 月份为什么有那么高的销售额。 
 
 ### <a name="kpis"></a>KPI
 ![kpi](media/end-user-visual-type/power-bi-kpi.png)
@@ -210,10 +218,10 @@ ArcGIS 地图和 Power BI 的结合将超越地图点表示法的地图绘制技
 - 以表格格式显示数据时
 - 按类别显示数值数据时
 
-### <a name="treemaps"></a>树状图
+### <a name="tree-maps"></a>树状图
 ![树状图](media/end-user-visual-type/pbi-nancy-viz-tree.png)
 
-包含带颜色的矩形的图，用矩形大小表示值。  具有层次结构，主矩形内可以嵌套矩形。 根据要度量的值分配每个矩形内部的空间。 矩形从左上方（最大）到右下方（最小）按大小排列。
+包含带颜色的矩形的树状图，用矩形大小表示值。  具有层次结构，主矩形内可以嵌套矩形。 根据要度量的值分配每个矩形内部的空间。 矩形从左上方（最大）到右下方（最小）按大小排列。
 
 当存在以下情况时，树状图是一个不错的选择：
 - 要显示大量的分层数据
@@ -241,7 +249,7 @@ ArcGIS 地图和 Power BI 的结合将超越地图点表示法的地图绘制技
 使用 Power BI 问答键入自然语言查询时，可以在查询中指定视觉对象类型。  例如：
 
 
-“***以树状图表示的每个州的销售额***”
+“***以树状图表示的每个省/市/自治区的销售额***”
 
 ![问答会话](media/end-user-visual-type/qa-treemap.png)
 

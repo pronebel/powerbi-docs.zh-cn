@@ -7,14 +7,14 @@ ms.reviewer: rkarlin
 manager: rkarlin
 ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 06/18/2019
-ms.openlocfilehash: 2cca057b2a91129745fe739160ffbb3e9e25b6da
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 57f443ec11d918966c25b9d59a1656bb02983fbb
+ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "80113683"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "85238050"
 ---
 # <a name="add-interactivity-into-visual-by-power-bi-visuals-selections"></a>通过 Power BI 视觉对象选择将交互性添加到视觉对象
 
@@ -81,7 +81,7 @@ export interface ISelectionIdBuilder {
 
 让我们回顾一下如何在示例数据集的分类数据视图映射上表示选择：
 
-| Manufacturer | 类型 | Value |
+| 制造商 | 类型 | 值 |
 | - | - | - |
 | Chrysler | 国产汽车 | 28883 |
 | Chrysler | 国产卡车 | 117131 |
@@ -161,7 +161,7 @@ export interface ISelectionIdBuilder {
 
 例如，当用户按 `Manufacturer` 选择 `Chrysler` 时，其他视觉对象应显示以下数据：
 
-| Manufacturer | 类型 | Value |
+| 制造商 | 类型 | 值 |
 | - | - | - |
 | **Chrysler** | 国产汽车 | 28883 |
 | **Chrysler** | 国产卡车 | 117131 |
@@ -170,7 +170,7 @@ export interface ISelectionIdBuilder {
 
 当用户按 `Type` 选择 `Import Car` 时（按系列选择数据），其他视觉对象应显示以下数据：
 
-| Manufacturer | 类型 | Value |
+| 制造商 | 类型 | 值 |
 | - | - | - |
 | Chrysler | **进口汽车** | 0 |
 | Ford | **进口汽车** | 0 |

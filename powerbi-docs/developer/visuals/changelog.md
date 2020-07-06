@@ -8,36 +8,39 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: reference
 ms.date: 03/13/2019
-ms.openlocfilehash: fa8759d7edb519240140263bcd01bfdddd9c7d86
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: 3cf415cbd14da28d523a042fdf4099fe464a4a8b
+ms.sourcegitcommit: a07fa723bb459494c60cf6d749b4554af723482a
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83141056"
+ms.lasthandoff: 06/12/2020
+ms.locfileid: "84739175"
 ---
 # <a name="power-bi-visuals-api-changelog"></a>Power BI 视觉对象 API 更改日志
 此页面包含 API 版本的快速摘要。 此处列出的版本被视为稳定版本，不会更改。
 
-## <a name="api-v26"></a>API v2.6
+## <a name="api-v320"></a>API v3.2.0
+  * 支持 [supportsMultiVisualSelection](./supportsmultivisualselection-feature.md)
+
+## <a name="api-v260"></a>API v2.6.0
   * 将 isInFocus 添加到更新选项，并将 switchFocusModeState 方法添加到视觉对象主机
   * 支持“小计”自定义
 
-## <a name="api-v25"></a>API v2.5
+## <a name="api-v250"></a>API v2.5.0
   * 支持[分析窗格](./analytics-pane.md)
   * 支持 `SelectionIdBuilder` withMatrixNode 和 withTable 方法
   * 不再支持 `DataRepetitionSelector` 接口，已替换为 `data.CustomVisualOpaqueIdentity` 接口
 
-## <a name="api-v23"></a>API v 2.3
+## <a name="api-v230"></a>API v2.3.0
   * [登陆页 API](./landing-page.md)
   * [本地存储 API](./local-storage.md)
   * **元组筛选器 API（多列筛选器） [](./filter-api.md#the-tuple-filter-api-multi-column-filter)**
   * **呈现事件 API [](./event-service.md#render-events-in-power-bi-visuals)**
 
-## <a name="api-v22"></a>API v2.2
+## <a name="api-v220"></a>API v2.2.0
   * 支持 **[从数据视图还原 JSON 筛选器](./filter-api.md#restore-the-json-filter-from-the-data-view)**
   * **ContextMenu API [](./context-menu.md)**
 
-## <a name="api-v21"></a>API v2.1
+## <a name="api-v210"></a>API v2.1.0
   * 性能增强：
     * 加载时间更快
     * 内存占用情况更小
@@ -58,32 +61,32 @@ ms.locfileid: "83141056"
    ```
 * `proto` 属性不再将隐藏的元数据/数据存储在 dataView 中。 通过 `proto` 访问属性的视觉对象可能会被此更新中断。
 
-## <a name="api-v113"></a>API v1.13
+## <a name="api-v1130"></a>API v1.13.0
 * 支持**同步切片器 [](./enable-sync-slicers.md)** ，请注意，由于 PBI 当前代码状态，此方法仅适用于单字段切片器，[了解更多信息](/power-bi/desktop-slicers)。
 * 辅助功能：[高对比度支持](./high-contrast-support.md) 
 * 辅助功能：允许键盘焦点标志
 
-## <a name="api-v112"></a>API v 1.12
+## <a name="api-v1120"></a>API v1.12.0
 * 支持主题
 * 支持 **fetchMoreData [](./fetch-more-data.md)** ，请注意，提取“更多的数据 API”克服 30000 数据点的硬限制
 * **画布工具提示 API [](./add-tooltips.md#add-report-page-tooltips)**
 
-## <a name="api-v111"></a>API v 1.11
+## <a name="api-v1110"></a>API v1.11.0
 * **FilterManager API [](./filter-api.md)**
 * 支持**书签 [](./bookmarks-support.md)** 
 
-## <a name="api-v110"></a>API v 1.10
+## <a name="api-v1100"></a>API v1.10.0
 * 添加 `ILocalizationManager`
 * 身份验证 API
 
-## <a name="api-v19"></a>API v1.9
+## <a name="api-v190"></a>API v1.9.0
 * **launchUrl API [](./launch-url.md)**
 
-## <a name="api-v18"></a>API v1.8
+## <a name="api-v180"></a>API v1.8.0
 * 支持功能架构中的新型 fillRule（渐变）
 * 支持功能架构中对象属性的 rule 属性
 
-## <a name="api-v17"></a>API v1.7
+## <a name="api-v170"></a>API v1.7.0
 * 支持 **RESJSON [](./localization.md#resource-file)**
 
 ## <a name="api-v162"></a>API v1.6.2

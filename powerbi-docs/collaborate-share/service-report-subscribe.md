@@ -6,16 +6,16 @@ ms.reviewer: ''
 featuredvideoid: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 05/15/2020
 ms.author: maggies
 LocalizationGroup: Common tasks
-ms.openlocfilehash: c43b0710c15fcc77a08aa789a92d840d2425f5ab
-ms.sourcegitcommit: cd64ddd3a6888253dca3b2e3fe24ed8bb9b66bc6
+ms.openlocfilehash: d7e1365ce1328e529d056a80b46230b97febc446
+ms.sourcegitcommit: a453ba52aafa012896f665660df7df7bc117ade5
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "84315939"
+ms.lasthandoff: 06/27/2020
+ms.locfileid: "85485659"
 ---
 # <a name="subscribe-yourself-and-others-to-reports-and-dashboards-in-the-power-bi-service"></a>在 Power BI 服务中为自己和他人订阅报表和仪表板
 
@@ -109,7 +109,7 @@ Power BI 管理员可以使用 Power BI 审核日志来查看有关订阅的详�
 
 ### <a name="general"></a>常规
 
-- 与其他 BI 产品一样，设置订阅的时间是开始处理订阅的时间。  完成报表处理后，订阅将排队并发送给电子邮件收件人。  我们努力尽快处理和交付所有订阅。 但是，有时在需求高峰时，由于 Power BI 可以一次性发送的订阅数量较少，你可能会看到更长的延迟。 对于大多数客户，处理和发送报表的延迟时间不超过 15 分钟。 对于特定时间和使用量大的租户，可能最多需要 30 分钟。  我们从不希望从计划订阅时间起的任何交付延迟超过 60 分钟。  如果遇到这么长时间的延迟，请首先确保地址 `no-reply-powerbi@microsoft.com` 已被电子邮件提供商列入允许列表。  如果已列入允许列表，请联系 Power BI 支持人员以寻求帮助。
+- 与其他 BI 产品一样，设置订阅的时间是开始处理订阅的时间。  完成报表处理后，订阅将排队并发送给电子邮件收件人。  我们努力尽快处理和交付所有订阅。 但是，有时在需求高峰时，由于 Power BI 可以一次性发送的订阅数量较少，你可能会看到更长的延迟。 对于大多数客户，处理和发送报表的延迟时间不超过 15 分钟。 对于特定时间和使用量大的租户，可能最多需要 30 分钟。  我们从不希望从计划订阅时间起的任何交付延迟超过 60 分钟。  如果遇到这么长时间的延迟，请首先确保地址 `no-reply-powerbi@microsoft.com` 在“安全发件人”列表中，并且没有被电子邮件提供商阻止。  如果电子邮件未被阻止，请联系 Power BI 支持人员以寻求帮助。
 - 目前，为其他用户订阅时，不支持使用实时连接数据集的报表和仪表板的电子邮件订阅（分页报表除外）。 你可以使用安全上下文为其他人订阅分页报表。 阅读有关[订阅分页报表](../consumer/paginated-reports-subscriptions.md)的详细信息。
 - 如果超过两个月一直没有人访问仪表板和报表，那么 Power BI 会自动暂停刷新与它们关联的数据集。 不过，如果添加对仪表板或报表的订阅，即使无人访问，也不会暂停刷新。
 - 如果未收到订阅电子邮件，请确保用户主体名称 (UPN) 可以接收电子邮件。
@@ -134,6 +134,7 @@ Power BI 管理员可以使用 Power BI 审核日志来查看有关订阅的详�
 - 电子邮件订阅不支持大多数[自定义视觉对象](../developer/power-bi-custom-visuals.md)。 已经过[认证](../developer/power-bi-custom-visuals-certified.md)的自定义视觉对象除外。
 - 目前电子邮件订阅不支持 R 驱动的自定义视觉对象。
 - 电子邮件订阅与报表的默认筛选器和切片器状态一起发送。 在订阅后对默认设置所做的任何更改都不会显示在电子邮件中。 分页报表支持此功能，并允许你为每个订阅设置特定的参数值。
+- 假设你有一个报表具有与 Analysis Services 的实时连接，并且已将订阅设置为在数据刷新后运行。 它将在 Power BI 服务轮询 Analysis Services 实例时第一次检测本地模型中的更改时运行。  Power BI 每小时检查一次 Analysis Services 数据模型中的更改，以确定何时发送订阅。
 
 ## <a name="next-steps"></a>后续步骤
 

@@ -5,16 +5,16 @@ author: maggiesMSFT
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 05/13/2019
 ms.author: maggies
 LocalizationGroup: Ask questions of your data
-ms.openlocfilehash: 102145e8c5b2fd3ad19b6703710405d06da5a93a
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: f7760021966673b93313809a806473b94c7750d3
+ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83323220"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "85218691"
 ---
 # <a name="make-excel-data-work-well-with-qa-in-power-bi"></a>通过 Power BI 中的问答功能有效利用 Excel 数据
 如果你是创建数据模型或生成用于 Power BI 的 Excel 工作簿的人员，请阅读...
@@ -40,7 +40,7 @@ ms.locfileid: "83323220"
 
 * 如果你的工作簿具有 Power Pivot 数据模型，则可以执行更多优化操作。 详细阅读有关我们内部的自然语言专家所提供的 [Demystifying Power BI问答part 2](https://powerbi.microsoft.com/blog/demystifying-power-bi-q-amp-a-part-2/)（阐述 Power BI 问答（第 2 部））。
 
-* 在 Power BI Desktop 中打开数据集，然后新建列、创建计算度量值、连接字段以创建唯一值、按类型（例如，日期、字符串、地理位置、图像、URL）对数据进行分类等。
+* 在 Power BI Desktop 中打开数据集，然后新建列、创建度量值、连接字段以创建唯一值、按类型（例如，日期、字符串、地理位置、图像、URL）对数据进行分类等。
 
 ## <a name="next-steps"></a>后续步骤
 

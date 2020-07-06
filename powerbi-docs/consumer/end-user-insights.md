@@ -7,15 +7,15 @@ featuredvideoid: et_MLSL2sA8
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 03/11/2020
+ms.date: 06/22/2020
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 891a9b1a5afee26bdb2d6b363ccd2cee5f2461cb
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 111b2b5fe0ae4b341816becdb4baf0b96e057cdd
+ms.sourcegitcommit: caf60154a092f88617eb177bc34fb784f2365962
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "79377274"
+ms.lasthandoff: 06/25/2020
+ms.locfileid: "85354492"
 ---
 # <a name="view-data-insights-on-dashboard-tiles-with-power-bi"></a>使用 Power BI 查看有关仪表板磁贴的数据见解
 
@@ -33,7 +33,7 @@ ms.locfileid: "79377274"
 当在仪表板磁贴上运行见解时，Power BI 仅搜索用于创建该单个仪表板磁贴的数据。 
 
 1. [打开仪表板](end-user-dashboards.md).
-2. 将鼠标悬停在一个磁上。 选择“更多选项”(…)，并选择“查看见解”   。 
+2. 将鼠标悬停在一个磁上。 选择“更多选项”(…)，并选择“查看见解” 。 
 
     ![省略号菜单模式](./media/end-user-insights/power-bi-hovers.png)
 
@@ -50,20 +50,22 @@ ms.locfileid: "79377274"
 
       ![深入查看已展开的“筛选器”菜单](./media/end-user-insights/power-bi-filters.png)
    
-   * 在见解卡自身上运行见解。 这通常称为“相关见解”  。 选择一个见解卡以将其激活。 它会出现在报表画布上。
+   * 在见解卡自身上运行见解。 这通常称为“相关见解”。 选择一个见解卡以将其激活。 它会出现在报表画布上。
    
       ![深入查看已展开的“筛选器”菜单](./media/end-user-insights/power-bi-insight-card.png)
    
-   * 在右上角，选择灯泡图标 ![获取见解图标](./media/end-user-insights/power-bi-bulb-icon.png)或选择“获取见解”  。 该见解显示在左侧，而完全根据该见解中的数据获得的新卡片显示在右侧。
+   * 在右上角，选择灯泡图标 ![获取见解图标](./media/end-user-insights/power-bi-bulb-icon.png)或选择“获取见解”。 该见解显示在左侧，而完全根据该见解中的数据获得的新卡片显示在右侧。
      
      ![菜单栏显示“获取见解”图标](./media/end-user-insights/power-bi-related.png)
      
-若要返回报告，请从左上角选择“退出焦点模式”  。
+若要返回报告，请从左上角选择“退出焦点模式”。
 
 ## <a name="considerations-and-troubleshooting"></a>注意事项和疑难解答
-- **查看见解**不适用于所有仪表板磁贴类型。 例如，它不适用于 Power BI 视觉对象。<!--[Power BI visuals](end-user-custom-visuals.md)-->
+- **查看见解**不适用于所有仪表板磁贴类型。 例如，它不适用于 Power BI 自定义视觉对象。<!--[Power BI visuals](end-user-custom-visuals.md)-->
 
 
 ## <a name="next-steps"></a>后续步骤
+
+[使用分析功能](end-user-analyze-visuals.md)  在报表视觉对象上运行见解  
 了解[可用的快速见解的类型](end-user-insight-types.md)
 
