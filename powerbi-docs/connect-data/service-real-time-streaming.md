@@ -5,16 +5,16 @@ author: davidiseminger
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
-ms.topic: how-to
+ms.topic: conceptual
 ms.date: 05/21/2020
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: 2679e9fa21b193fa4c19384c2bd7d22660cf657a
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 8e991a8696ac35ed0a7d4b448bb4dd83d9a19c42
+ms.sourcegitcommit: 5e5a7e15cdd55f71b0806016ff91256a398704c1
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85235791"
+ms.lasthandoff: 05/22/2020
+ms.locfileid: "83793443"
 ---
 # <a name="real-time-streaming-in-power-bi"></a>Power BI 中的实时流式处理
 通过 Power BI 实时流式处理，可以流式处理数据并实时更新仪表板。 可以在 Power BI 中创建的任何视觉对象或仪表板也可以创建为显示和更新实时数据和视觉对象。 流式处理数据的设备和源可以是工厂传感器、社交媒体源、服务使用情况指标和其他可从其收集或传输时间敏感数据的任何设备。
@@ -52,7 +52,7 @@ ms.locfileid: "85235791"
 在实践中，流式处理数据集及其伴随的流式处理视觉对象最适用于最小化数据推送和可视化之间的延迟的关键情况。 此外，最佳做法是以可以直观显示的格式推送数据，而无需任何其他聚合。 准备好的数据的示例包括温度和预计算的平均值。
 
 ### <a name="pubnub-streaming-dataset"></a>PubNub 流式处理数据集
-使用 **PubNub** 流式处理数据集，Power BI Web 客户端使用 PubNub SDK 读取现有的 PubNub 数据流，Power BI 服务不存储任何数据。 由于此调用是直接从 Web 客户端进行的，因此，如果仅允许加入白名单的网络出站流量，则需要将流向 PubNub 的流量列为允许项。 请参阅支持文章中有关[为 PubNub 将出站流量加入白名单](https://support.pubnub.com/support/solutions/articles/14000043522-can-i-whitelist-ips-for-pubnub-traffic-)的说明。
+使用 **PubNub** 流式处理数据集，Power BI Web 客户端使用 PubNub SDK 读取现有的 PubNub 数据流，Power BI 服务不存储任何数据。 由于此调用是直接从 Web 客户端进行的，因此，如果仅允许加入允许列表的网络出站流量，则需要将流向 PubNub 的流量列为允许项。 请参阅支持文章中有关[为 PubNub 将出站流量加入允许列表](https://support.pubnub.com/support/solutions/articles/14000043522-can-i-whitelist-ips-for-pubnub-traffic-)的说明。
 
 与使用流式处理数据集一样，使用 PubNub 流式处理数据集时，Power BI 中没有基础数据库，因此你无法针对流入的数据生成报表视觉对象，也无法利用报表功能，如筛选、Power BI 视觉对象等 。 因此，**PubNub 流式处理数据集**也只能通过向仪表板添加磁贴并将 PubNub 数据流配置为源来进行可视化。
 
