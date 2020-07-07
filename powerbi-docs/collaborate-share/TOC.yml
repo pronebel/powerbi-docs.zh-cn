@@ -38,7 +38,7 @@
             - name: 数据集影响分析
               href: service-dataset-impact-analysis.md
             - name: 应用数据敏感度标签
-              href: ../collaborate-share/service-security-apply-data-sensitivity-labels.md
+              href: ../admin/service-security-apply-data-sensitivity-labels.md
             - name: 连接到组的 OneDrive 上的文件
               href: ../connect-data/service-connect-to-files-in-app-workspace-onedrive-for-business.md
             - name: 在经典工作区中协作
