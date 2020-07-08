@@ -76,13 +76,15 @@
           href: desktop-admin-sign-in-form.md
         - name: 数据保护
           items:
-            - name: 数据保护概述
-              href: service-security-data-protection-overview.md
-            - name: 启用数据敏感度标记
+            - name: Power BI 中的敏感度标签
+              href: service-security-sensitivity-label-overview.md
+            - name: 启用敏感度标签
               href: service-security-enable-data-sensitivity-labels.md
+            - name: 如何应用敏感度标签
+              href: service-security-apply-data-sensitivity-labels.md
             - name: 将 Microsoft Cloud App Security 与 Power BI 配合使用
               href: service-security-using-microsoft-cloud-app-security-controls.md
-            - name: 数据保护指标报表
+            - name: 保护指标报表
               href: service-security-data-protection-metrics-report.md
         - name: 行级别安全性
           href: service-admin-rls.md
