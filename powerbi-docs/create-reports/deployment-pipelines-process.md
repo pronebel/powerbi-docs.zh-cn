@@ -7,12 +7,12 @@ ms.topic: conceptual
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.date: 06/25/2020
-ms.openlocfilehash: fc7e6aa751bab6562e097b8ce14ff8416e6231e7
-ms.sourcegitcommit: e8b12d97076c1387088841c3404eb7478be9155c
+ms.openlocfilehash: eee8d67caab4a3d7b888396fa62debaf0aab2490
+ms.sourcegitcommit: 181679a50c9d7f7faebcca3a3fc55461f594d9e7
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/01/2020
-ms.locfileid: "85782558"
+ms.lasthandoff: 07/07/2020
+ms.locfileid: "86034281"
 ---
 # <a name="understand-the-deployment-process-preview"></a>了解部署过程（预览版）
 
@@ -234,7 +234,7 @@ ms.locfileid: "85782558"
 
 * 工作区必须位于 [高级容量](../admin/service-premium-what-is.md)上。
 
-* 无法部署具有 Power BI [敏感度标签](../admin/service-security-data-protection-overview.md#sensitivity-labels-in-power-bi)的 Power BI 项（如报表和仪表板）。
+* 无法部署具有 Power BI [敏感度标签](../admin/service-security-sensitivity-label-overview.md)的 Power BI 项（如报表和仪表板）。
 
 * 单个部署中可部署的 Power BI 项数上限为 300。
 
