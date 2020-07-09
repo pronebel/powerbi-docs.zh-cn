@@ -12,12 +12,12 @@ metadata:
   author: maggiesMSFT
   ms.author: maggies
   ms.date: 01/14/2020
-  ms.openlocfilehash: 92a6892c2b7b59807eb0b6ccc707ce533cd5ff55
-  ms.sourcegitcommit: 561f6de3e4621d9d439dd54fab458ddca78ace2c
+  ms.openlocfilehash: 934916784df57b901fc2bbd45afa551b0dc3636e
+  ms.sourcegitcommit: c18130ea61e67ba111be870ddb971c6413a4b632
   ms.translationtype: HT
   ms.contentlocale: zh-CN
-  ms.lasthandoff: 07/03/2020
-  ms.locfileid: "85939592"
+  ms.lasthandoff: 07/09/2020
+  ms.locfileid: "86162312"
 landingContent:
 - title: Power BI 指南
   linkLists:
@@ -137,6 +137,8 @@ landingContent:
       url: monitor-report-performance.md
     - text: 报表性能疑难解答
       url: report-performance-troubleshoot.md
+    - text: 部署管道最佳做法
+      url: ../create-reports/deployment-pipelines-best-practices.md
 - title: 卓越中心 (COE)
   linkLists:
   - linkListType: concept
