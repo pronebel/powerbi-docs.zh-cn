@@ -8,12 +8,12 @@ ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 12/09/2019
 ms.author: painbar
-ms.openlocfilehash: cfb5e4f1f75437db6235ece0d8661bab3f008649
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: b719dc72d9137ac1c3ffc3eee4669ad6bd61fc9f
+ms.sourcegitcommit: 181679a50c9d7f7faebcca3a3fc55461f594d9e7
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83148420"
+ms.lasthandoff: 07/07/2020
+ms.locfileid: "86034235"
 ---
 # <a name="view-your-data-offline-in-the-power-bi-mobile-apps"></a>在 Power BI 移动应用中查看你的脱机数据
 适用于：
@@ -23,7 +23,7 @@ ms.locfileid: "83148420"
 | iPhone |iPad |Android 手机 |Android 平板电脑 |Windows 10 设备 |
 
 >[!NOTE]
->我们将于 2021 年 3 月 16 日终止对使用 Windows 10 移动版的手机提供 Power BI 移动应用支持  。 [了解详细信息](https://go.microsoft.com/fwlink/?linkid=2121400)
+>我们将于 2021 年 3 月 16 日终止对使用 Windows 10 移动版的手机提供 Power BI 移动应用支持。 [了解详细信息](https://go.microsoft.com/fwlink/?linkid=2121400)
 
 在移动应用而不是在移动浏览器中查看 Power BI 的一个优点是，未连接到网络时也可以看到你的数据。 
 
@@ -35,6 +35,9 @@ ms.locfileid: "83148420"
 你可以在脱机时访问以前从移动应用访问的仪表板，并与之进行交互。
 
 还对以前从移动应用访问的任何 Power BI 报表具有只读访问权限。 可以看到完整的报表，但不能在其上进行筛选、交叉筛选、排序或在其上使用切片器。
+
+>[!NOTE]
+> 基于 DirectQuery 的报表不能缓存，也不能脱机使用。
 
 ## <a name="background-data-refresh"></a>后台数据刷新
 后台刷新功能会利用 Power BI 服务数据（而非数据源）更新你收藏的仪表板，以及你在过去两周内查看过的仪表板和报表。 如果你已连接 WIFI，后台刷新功能会每 2 小时更新一次。 在其他情况下，如果使用的是 3G 网络，Power BI 会每 24 小时更新一次内容。

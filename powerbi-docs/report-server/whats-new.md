@@ -7,13 +7,13 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
-ms.date: 05/27/2020
-ms.openlocfilehash: 9cb9939f665dabc910c0605f4c1864f7d80988c3
-ms.sourcegitcommit: a07fa723bb459494c60cf6d749b4554af723482a
+ms.date: 07/06/2020
+ms.openlocfilehash: b6f2775d9aa23899a1e27ed58b818024129043b7
+ms.sourcegitcommit: 181679a50c9d7f7faebcca3a3fc55461f594d9e7
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/12/2020
-ms.locfileid: "84739221"
+ms.lasthandoff: 07/07/2020
+ms.locfileid: "86034028"
 ---
 # <a name="whats-new-in-power-bi-report-server"></a>Power BI 报表服务器中的新增功能
 
@@ -28,9 +28,11 @@ ms.locfileid: "84739221"
 
 ## <a name="may-2020"></a>2020 年 5 月
 
+### <a name="power-bi-desktop-optimized-for-power-bi-report-server"></a>针对 Power BI 报表服务器优化的 Power BI Desktop
+
 此次更新的亮点包括分层切片器、分解树视觉对象以及查询诊断。 下面是新功能和更新功能的完整列表。 有关详细信息，请参阅 [Power BI 报表服务器 2020 年 5 月博客文章](https://powerbi.microsoft.com/blog/power-bi-report-server-may-2020-feature-summary/)。 
 
-### <a name="reporting"></a>报表
+#### <a name="reporting"></a>报表
 
 - 分层切片器
 - 按钮的新操作类型：
@@ -51,7 +53,7 @@ ms.locfileid: "84739221"
     - 新筛选器窗格体验
     - 筛选器窗格搜索
     
-### <a name="modeling"></a>建模
+#### <a name="modeling"></a>建模
 
 - 新的 DAX 函数：
 
@@ -61,18 +63,24 @@ ms.locfileid: "84739221"
 
 - 标准 DAX 分隔符
 
-### <a name="visualizations"></a>可视化效果
+#### <a name="visualizations"></a>可视化效果
 
 - 新可视化图标
 - 视觉对象投影
 
-### <a name="data-preparation"></a>数据准备
+#### <a name="data-preparation"></a>数据准备
 
 - 查询诊断
 
-### <a name="other"></a>其他
+#### <a name="other"></a>其他
 
 - 使用 Web 代理的默认系统凭据
+
+### <a name="power-bi-report-server"></a>Power BI 报表服务器
+
+#### <a name="power-bi-visuals-api"></a>Power BI 视觉对象 API
+
+此版本附带的 API 版本为 3.2。
 
 ## <a name="january-2020"></a>2020 年 1 月
 

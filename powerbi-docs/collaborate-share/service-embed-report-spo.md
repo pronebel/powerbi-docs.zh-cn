@@ -9,19 +9,19 @@ ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: how-to
 LocalizationGroup: Share your work
-ms.date: 04/27/2020
-ms.openlocfilehash: 6448fd85f281024aaaf03973496eaa0c4350c13b
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.date: 06/28/2020
+ms.openlocfilehash: 94419bb25aa00645b22a1dad1f97fcc792c3d63d
+ms.sourcegitcommit: 561f6de3e4621d9d439dd54fab458ddca78ace2c
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85226263"
+ms.lasthandoff: 07/03/2020
+ms.locfileid: "85939540"
 ---
 # <a name="embed-a-report-web-part-in-sharepoint-online"></a>在 SharePoint Online 中嵌入报表 Web 部件
 
 借助 Power BI 新推出的适用于 SharePoint Online 的报表 Web 部件，可以在 SharePoint Online 页面中轻松嵌入交互式 Power BI 报表。
 
-使用新增的“在 SharePoint Online 中嵌入”选项时，嵌入的报表绝对安全，因此你可以轻松创建安全的内部门户。
+使用新的“在 SharePoint Online 中嵌入“选项时，嵌入式报表通过[行级别安全性 (RLS)](../admin/service-admin-rls.md) 遵循所有项权限和数据安全，因此你可轻松创建安全的内部门户。
 
 ## <a name="requirements"></a>要求
 

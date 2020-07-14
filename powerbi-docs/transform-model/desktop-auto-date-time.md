@@ -8,12 +8,12 @@ ms.subservice: powerbi-desktop
 ms.topic: how-to
 ms.date: 10/23/2019
 ms.author: v-pemyer
-ms.openlocfilehash: ae8121af4e3c16e7e8dd047284034fc95d0403fd
-ms.sourcegitcommit: 46a340937d9f01c6daba86a4ab178743858722ec
+ms.openlocfilehash: 0c62e423bdf357a5eee4ef5b03daa7ec145310e7
+ms.sourcegitcommit: 20cfd157af587b3910a2b6deec9518dca4105d71
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/26/2020
-ms.locfileid: "85393809"
+ms.lasthandoff: 07/03/2020
+ms.locfileid: "85943064"
 ---
 # <a name="apply-auto-datetime-in-power-bi-desktop"></a>在 Power BI Desktop 中应用自动日期/时间
 
@@ -61,7 +61,7 @@ Power BI Desktop 还会创建自动日期/时间表的“Date”列与模型日�
 
 可使用自动日期/时间生成的层次结构配置视觉对象，其方式与使用普通层次结构的方式完全相同。 可以使用整个“日期层次结构”层次结构或层次结构的特定级别来配置视觉对象。
 
-不过，有一个已添加的功能不受普通层次结构的支持。 将自动日期/时间层次结构（或层次结构的级别）添加到视觉对象井时，报表作者可以在使用层次结构或日期列之间进行切换。 如果某些视觉对象只需要日期列而不是层次结构和级别，则这种方法非常有意义。 首先配置视觉对象字段（右键单击视觉对象字段，或单击向下箭头），然后使用上下文菜单来在日期列或日期层次结构之间切换。
+不过，有一个已添加的功能不受普通层次结构的支持。 将自动日期/时间层次结构（或层次结构的级别）添加到视觉对象时，报表作者可以在使用层次结构或日期列之间进行切换。 如果某些视觉对象只需要日期列而不是层次结构和级别，则这种方法非常有意义。 首先配置视觉对象字段（右键单击视觉对象字段，或单击向下箭头），然后使用上下文菜单来在日期列或日期层次结构之间切换。
 
 ![OrderDate 层次结构的视觉对象字段配置的示例。 打开的上下文菜单显示两个选项，点击这两个选项可以使用“OrderDate”列或“日期”层次结构。](media/desktop-auto-date-time/auto-date-time-configure-visuals-fields.png)
 

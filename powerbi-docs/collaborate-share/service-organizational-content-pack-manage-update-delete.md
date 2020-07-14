@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 08/02/2018
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 3857478e972caef0a53c1de82f6dcc96650a7386
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: d741a489c5655e5a08f49f7197389a67c5d016ed
+ms.sourcegitcommit: 181679a50c9d7f7faebcca3a3fc55461f594d9e7
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85225701"
+ms.lasthandoff: 07/07/2020
+ms.locfileid: "86034396"
 ---
 # <a name="manage-update-and-delete-organizational-content-packs"></a>管理、更新和删除组织内容包
 > [!NOTE]
@@ -40,12 +40,12 @@ ms.locfileid: "85225701"
 
 1. 选择消息中的“**查看内容包**”。
    
-   ![](media/service-organizational-content-pack-manage-update-delete/pbi_contpkchangesmessage.png)
-2. 或选择右上角的齿轮图标 ![](media/service-organizational-content-pack-manage-update-delete/cog.png)，然后选择**查看内容包**。
+   ![用于选择“查看内容包”的消息对话框屏幕截图。](media/service-organizational-content-pack-manage-update-delete/pbi_contpkchangesmessage.png)
+2. 或选择右上角的齿轮图标 ![齿轮图标的屏幕截图。](media/service-organizational-content-pack-manage-update-delete/cog.png) 然后选择“查看内容包”。
    
-   ![](media/service-organizational-content-pack-manage-update-delete/pbi_contpkview.png)
+   ![右上角的齿轮图标的屏幕截图。](media/service-organizational-content-pack-manage-update-delete/pbi_contpkview.png)
    
-   注意警告图标 ![](media/service-organizational-content-pack-manage-update-delete/pbi_contpkwarningicon.png)。  该图标表示你已以某种方式修改内容包，使其不再与已发布的内容包相同。
+   注意警告图标 ![警告图标的屏幕截图。](media/service-organizational-content-pack-manage-update-delete/pbi_contpkwarningicon.png)。  该图标表示你已以某种方式修改内容包，使其不再与已发布的内容包相同。
 3. 选择**编辑**。  
 4. 在**更新内容包**窗口中进行任何所需更改，然后选择**更新**。 将显示**成功**消息。
    
@@ -55,8 +55,8 @@ ms.locfileid: "85225701"
 ## <a name="update-the-audience-expand-or-restrict-access"></a>更新受众：扩展或限制访问权限
 内容包创建者可进行另一种修改，即扩展和限制对内容包的访问权限。  也许你将内容包发布到了广泛的受众，又决定将访问权限限制于一个较小的组。  
 
-1. 选择齿轮图标 ![](media/service-organizational-content-pack-manage-update-delete/cog.png)，然后选择**查看内容包**。
-2. 选择“编辑”  。 
+1. 选择齿轮图标 ![齿轮图标的屏幕截图。](media/service-organizational-content-pack-manage-update-delete/cog.png) 然后选择“查看内容包”。
+2. 选择“编辑”。 
 3. 在**更新内容包**窗口中进行任何所需更改，然后选择**更新**。 例如，删除**特定组**字段中的原始通讯组，并将其替换为（成员较少的）其他通讯组。
    
    将显示“成功”消息。
@@ -77,7 +77,7 @@ ms.locfileid: "85225701"
 > 
 > 
 
-1. 若要从 AppSource 中删除内容包，请转到在其中创建内容包的工作区，再依次选择齿轮图标 ![](media/service-organizational-content-pack-manage-update-delete/cog.png) 和“查看内容包”  。
+1. 若要从 AppSource 中删除内容包，请转到在其中创建内容包的工作区，选择齿轮图标 ![齿轮图标的屏幕截图。](media/service-organizational-content-pack-manage-update-delete/cog.png) 然后选择“查看内容包”。
 2. 依次选择“删除”\>“删除”。 
    
    * 对于未自定义内容包的组成员，将自动删除与该内容包相关联的仪表板和报表。 这些内容将不再可用，且导航窗格中不会显示该内容包。

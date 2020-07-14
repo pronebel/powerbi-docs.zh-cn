@@ -10,12 +10,12 @@ ms.topic: how-to
 ms.date: 10/14/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: e499f6894890c379b76bfe0a11428715add30dfb
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 5e76cdfc2fd8ad4a90290ecaa559d502d5f847e6
+ms.sourcegitcommit: 181679a50c9d7f7faebcca3a3fc55461f594d9e7
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85224891"
+ms.lasthandoff: 07/07/2020
+ms.locfileid: "86034419"
 ---
 # <a name="connect-to-azure-consumption-insights-data-in-power-bi-desktop"></a>在 Power BI Desktop 中连接到 Azure 使用见解数据
 
@@ -42,25 +42,25 @@ ms.locfileid: "85224891"
 
 1. 选择“连接”。
 
-   ![](media/desktop-connect-azure-consumption-insights/azure-consumption-insights_01b.png)
+   ![“Microsoft Azure 使用见解”对话框的屏幕截图。 选择“连接”。](media/desktop-connect-azure-consumption-insights/azure-consumption-insights_01b.png)
 
    在出现的对话框中，输入你的“Azure 注册号”。
 
-   ![](media/desktop-connect-azure-consumption-insights/azure-consumption-insights_02.png)
+   ![输入 Azure 注册号的对话框的屏幕截图。](media/desktop-connect-azure-consumption-insights/azure-consumption-insights_02.png)
 
    * 可以从 [Azure Enterprise Portal](https://ea.azure.com) 获取合约编号，获取位置如下图所示：
 
-  ![](media/desktop-connect-azure-consumption-insights/azure-consumption-insights_08.png)
+  ![获取注册号的 Azure Enterprise Portal 的屏幕截图。](media/desktop-connect-azure-consumption-insights/azure-consumption-insights_08.png)
 
    此版本的连接器仅支持来自 https://ea.azure.com 的企业合约。 目前尚不支持中国合约。
 
    接下来，提供“访问密钥”进行连接。
 
-   ![](media/desktop-connect-azure-consumption-insights/azure-consumption-insights_03.png)
+   ![用于输入访问密钥以连接到 Microsoft Azure 使用见解的对话框的屏幕截图。](media/desktop-connect-azure-consumption-insights/azure-consumption-insights_03.png)
 
    * 合约的访问密钥可在 [Azure Enterprise Portal](https://ea.azure.com) 上找到。
 
-  ![](media/desktop-connect-azure-consumption-insights/azure-consumption-insights_09.png)
+  ![显示注册访问密钥的 Azure Enterprise Portal 的屏幕截图。](media/desktop-connect-azure-consumption-insights/azure-consumption-insights_09.png)
 
 提供“访问密钥”并选择“连接”后，将出现“导航”窗口并显示九个可用的表 ：
 
@@ -78,7 +78,7 @@ ms.locfileid: "85224891"
 
 可以选中任意表旁边的复选框来查看预览。 可以通过勾选表名称旁边的框来选择一个或多个表，然后选择“加载”。
 
-![](media/desktop-connect-azure-consumption-insights/azure-consumption-insights_04b.png)
+![显示所有可用表的“导航器”对话框的屏幕截图。](media/desktop-connect-azure-consumption-insights/azure-consumption-insights_04b.png)
 
 > [!NOTE]
 > “摘要”和“价目表”这两个表仅适用于注册级 API 密钥 。 此外，这些表中的数据默认包含“使用情况”和“价目表”的当前月份数据。 未将“摘要”和“市场”这两个表限制到当前月份。
@@ -87,11 +87,11 @@ ms.locfileid: "85224891"
 
 选择“加载”时，数据将加载到 Power BI Desktop 。
 
-![](media/desktop-connect-azure-consumption-insights/azure-consumption-insights_05.png)
+![加载数据时显示的对话框的屏幕截图。](media/desktop-connect-azure-consumption-insights/azure-consumption-insights_05.png)
 
 加载所选数据后，可以在“字段”窗格中看到选择的表和字段。
 
-![](media/desktop-connect-azure-consumption-insights/azure-consumption-insights_06.png)
+![从“导航器”窗口加载表后的“字段”窗格的屏幕截图。](media/desktop-connect-azure-consumption-insights/azure-consumption-insights_06.png)
 
 ## <a name="using-azure-consumption-insights"></a>使用 Azure 使用情况见解
 要使用 Azure 使用见解连接器，请访问 Azure 门户企业功能。
@@ -116,7 +116,7 @@ ms.locfileid: "85224891"
 
 下图展示的是出现的示例集合。
 
-![](media/desktop-connect-azure-consumption-insights/azure-consumption-insights_07.png)
+![示例集合的屏幕截图。](media/desktop-connect-azure-consumption-insights/azure-consumption-insights_07.png)
 
 处理报表和创建查询时，可以：
 
@@ -148,7 +148,7 @@ ms.locfileid: "85224891"
     in     
         data
 
-![](media/desktop-connect-azure-consumption-insights/azure-consumption-insights_10.png)
+![高级编辑器中“创建查询”的对话框的屏幕截图。](media/desktop-connect-azure-consumption-insights/azure-consumption-insights_10.png)
 
 需要将 enrollmentNumber 值替换为自己的注册号。 可以从 [Azure Enterprise 门户](https://ea.azure.com)获取该编号。 numberOfMonth 参数表示要从当前日期返回几个月的数据。 当前月份用零 (0) 表示。
 
@@ -160,7 +160,7 @@ ms.locfileid: "85224891"
 1. 打开记事本（或其他文本编辑器）。
 2. 选择要移动的度量值，从“公式”字段中复制文本并粘贴到记事本中。
 
-   ![](media/desktop-connect-azure-consumption-insights/azure-consumption-insights_11.png)
+   ![显示列和度量值的公式字段的屏幕截图。](media/desktop-connect-azure-consumption-insights/azure-consumption-insights_11.png)
 3. 将 Query1 重命名为原始详细信息表名称。
 4. 若要创建新的表度量值和自定义列，请右键单击表，然后选择“新建度量值”。 然后剪切并粘贴存储的度量值和列，直到全部完成。
 
@@ -169,7 +169,7 @@ ms.locfileid: "85224891"
 
 - 在 Power BI Desktop 的“建模”选项卡中，选择“管理关系”会弹出允许你管理模型中关系的窗口。 根据需要重新关联表。
 
-    ![](media/desktop-connect-azure-consumption-insights/azure-consumption-insights_12.png)
+    ![“创建关系”对话框的屏幕截图。 选择“管理关系”。](media/desktop-connect-azure-consumption-insights/azure-consumption-insights_12.png)
 
 ### <a name="step-5-verify-your-visuals-and-adjust-field-formatting-as-needed"></a>步骤 5：验证视觉对象，并根据需要调整字段格式
 此时大部分原始视觉对象、表和向下钻取应该按预期方式工作。 不过可能需要进行一些小调整，才能精确地设置外观和风格。 花点时间查看每个仪表板和视觉对象，确保它们按预期显示。

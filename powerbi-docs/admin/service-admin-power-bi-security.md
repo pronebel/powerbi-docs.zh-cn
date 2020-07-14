@@ -9,12 +9,12 @@ ms.subservice: powerbi-admin
 ms.topic: conceptual
 ms.date: 09/09/2019
 LocalizationGroup: Administration
-ms.openlocfilehash: 59400f05544efa9f4ffcca6ef3ebdf1b12423d33
-ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
+ms.openlocfilehash: 6e006bc858ad9d82073ced7929c87920da6559ab
+ms.sourcegitcommit: 181679a50c9d7f7faebcca3a3fc55461f594d9e7
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/19/2020
-ms.locfileid: "83564377"
+ms.lasthandoff: 07/07/2020
+ms.locfileid: "86034151"
 ---
 # <a name="power-bi-security"></a>Power BI 安全
 
@@ -28,11 +28,11 @@ Power BI 服务基于 **Azure**，后者是 Microsoft 的云计算基础结构�
 
 **WFE** 群集为 Power BI 管理初始连接和身份验证进程，使用 AAD 对客户端进行身份验证并为后续客户端连接到 Power BI 服务提供令牌。 Power BI 还使用 **Azure 流量管理器** (ATM) 将用户流量定向到最近的数据中心，由针对身份验证进程尝试连接并下载静态内容和文件的客户端的 DNS 记录确定。 Power BI 使用 **Azure 内容分发网络** (CDN) 来有效地根据地理区域设置将所需的静态内容和文件分发到用户。
 
-![](media/service-admin-power-bi-security/pbi_security_v2_wfe.png)
+![显示 Web 前端群集的 Power BI 体系结构的关系图。](media/service-admin-power-bi-security/pbi_security_v2_wfe.png)
 
 **后端**群集是指经身份验证的客户端如何与 Power BI 服务进行交互。 **后端**群集管理可视化、用户仪表板、数据集、报表、数据存储、数据连接、数据刷新以及与 Power BI 服务进行交互的其他方面。 **网关角色**充当用户请求与 Power BI 服务之间的网关。 用户并不直接与**网关角色**以外的任何角色进行交互。 **Azure API 管理**将最终处理**网关角色**。
 
-![](media/service-admin-power-bi-security/pbi_security_v2_backend_updated.png)
+![显示 Web 后端群集的 Power BI 体系结构的关系图。](media/service-admin-power-bi-security/pbi_security_v2_backend_updated.png)
 
 > [!IMPORTANT]
 > 必须注意，只有 **Azure API 管理** (APIM) 和**网关** (GW) 角色可通过公共 Internet 访问。 它们提供身份验证、授权、DDoS 保护、限制、负载平衡、路由和其他功能。

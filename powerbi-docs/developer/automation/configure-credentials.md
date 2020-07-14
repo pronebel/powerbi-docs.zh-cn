@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: how-to
 ms.date: 06/23/2020
-ms.openlocfilehash: ed35775ac077be7c45807b950530e4e1277d5ac3
-ms.sourcegitcommit: caf60154a092f88617eb177bc34fb784f2365962
+ms.openlocfilehash: dd85f44057c0e4069a903293ec162028b1cbd66e
+ms.sourcegitcommit: 181679a50c9d7f7faebcca3a3fc55461f594d9e7
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/25/2020
-ms.locfileid: "85354998"
+ms.lasthandoff: 07/07/2020
+ms.locfileid: "86034051"
 ---
 # <a name="configure-credentials-programmatically-for-power-bi"></a>以编程方式为 Power BI 配置凭据
 
@@ -49,13 +49,16 @@ ms.locfileid: "85354998"
 
     ---
 
-2. 调用 [Get Gateway](https://docs.microsoft.com/rest/api/power-bi/gateways/getgateways) 检索网关公钥。
+    >[!NOTE]
+    >如果你使用的是云数据源，请不要执行本部分中的后续步骤。 使用在步骤 1 中获取的网关 ID 和数据源 ID 设置凭据，方法是调用 [Update Datasource](https://docs.microsoft.com/rest/api/power-bi/gateways/updatedatasource)。 
+
+3. 调用 [Get Gateway](https://docs.microsoft.com/rest/api/power-bi/gateways/getgateways) 检索网关公钥。
 
     ```csharp
     var gateway = pbiClient.Gateways.GetGatewayById(datasource.GatewayId);
     ```
 
-3. 加密凭据。
+4. 加密凭据。
 
     # <a name="net-sdk-v3"></a>[.NET SDK v3](#tab/sdk3)
 
@@ -73,7 +76,7 @@ ms.locfileid: "85354998"
 
     ---  
 
-4. 使用加密凭据生成凭据详细信息。
+5. 使用加密凭据生成凭据详细信息。
 
     # <a name="net-sdk-v3"></a>[.NET SDK v3](#tab/sdk3)
 
@@ -101,7 +104,7 @@ ms.locfileid: "85354998"
 
     ---
 
-5. 调用 [Update Datasource](https://docs.microsoft.com/rest/api/power-bi/gateways/updatedatasource) 设置凭据。
+6. 调用 [Update Datasource](https://docs.microsoft.com/rest/api/power-bi/gateways/updatedatasource) 设置凭据。
 
     ```csharp
     pbiClient.Gateways.UpdateDatasource(gatewayId, datasourceId, credentialDetails);

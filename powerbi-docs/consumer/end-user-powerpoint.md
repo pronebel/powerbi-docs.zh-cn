@@ -7,19 +7,19 @@ ms.custom: contperfq4
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: how-to
-ms.date: 05/12/2020
+ms.date: 07/01/2020
 ms.author: mihart
 LocalizationGroup: Share your work
-ms.openlocfilehash: d1120b15974d0e747dc60cf2c56dff1135c9d29c
-ms.sourcegitcommit: e8b12d97076c1387088841c3404eb7478be9155c
+ms.openlocfilehash: 85dc7e9807e11114c4fb6abb988d10c583b9e56c
+ms.sourcegitcommit: 7d7bb755d5a5af30d2b0eab89fb56e4498514890
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/01/2020
-ms.locfileid: "85782528"
+ms.lasthandoff: 07/02/2020
+ms.locfileid: "85837030"
 ---
 # <a name="export-reports-to-powerpoint"></a>将报表导出到 PowerPoint
 
-[!INCLUDE[consumer-appliesto-yyny](../includes/consumer-appliesto-yyny.md)]
+[!INCLUDE[consumer-appliesto-yynn](../includes/consumer-appliesto-yynn.md)]
 
 
 借助 Power BI 服务(app.powerbi.com)，可以将报表发布到 Microsoft PowerPoint，并根据 Power BI 报表轻松创建幻灯片组。 导出到 PowerPoint 时，会发生以下情况：
@@ -40,7 +40,7 @@ ms.locfileid: "85782528"
 
 [!INCLUDE [power-bi-service-new-look-include](../includes/power-bi-service-new-look-include.md)]
 
-想要导出到 PowerPoint 的报表在画布上显示时，在菜单栏中选择“导出” > “PowerPoint” 。
+想要导出到 PowerPoint 的报表显示在画布上时，在菜单栏中选择“文件” > “导出到 PowerPoint” 。
 
 ![从菜单栏中选择“导出”](media/end-user-powerpoint/power-bi-export.png)
 
@@ -86,6 +86,10 @@ Power BI 服务完成导出过程后，通知横幅会发生变化以通知你�
 ## <a name="considerations-and-troubleshooting"></a>注意事项和疑难解答
 在使用“导出到 PowerPoint”功能时，有几个注意事项和限制需要牢记。
  
+
+* 如果看不到“导出”选项，请确保已启用“新外观”并且查看的是报表（而非仪表板）。
+
+    ![新外观切换的屏幕截图](media/end-user-powerpoint/power-bi-new-look.png)
 
 * 如果为导出选择“当前值”，当前不遵循 [URL 筛选器](../collaborate-share/service-url-filters.md)。
 

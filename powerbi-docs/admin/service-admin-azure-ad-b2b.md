@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: how-to
-ms.date: 06/02/2020
+ms.date: 07/02/2020
 ms.author: kfollis
 LocalizationGroup: Administration
-ms.openlocfilehash: 2782d639109b4901012e40ddb3d7c748bf063524
-ms.sourcegitcommit: 46a340937d9f01c6daba86a4ab178743858722ec
+ms.openlocfilehash: 17c19fbdf1c5057d287f50531f2b679a19e3a30e
+ms.sourcegitcommit: 561f6de3e4621d9d439dd54fab458ddca78ace2c
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/26/2020
-ms.locfileid: "85393533"
+ms.lasthandoff: 07/03/2020
+ms.locfileid: "85939454"
 ---
 # <a name="distribute-power-bi-content-to-external-guest-users-with-azure-ad-b2b"></a>使用 Azure AD B2B 将 Power BI 内容分发给外部来宾用户
 
@@ -98,7 +98,7 @@ Power BI 允许通过 Azure Active Directory 企业到企业 (Azure AD B2B) 与�
 
 ### <a name="assign-a-power-bi-pro-license-to-guest-user"></a>向来宾用户分配 Power BI Pro 许可证
 
-如果你向来宾用户分配来自组织的 Power BI Pro 许可证，来宾用户便能查看与他人共享的内容。 有关分配许可证的详细信息，请参阅[在“许可证”页上将许可证分配给用户](/office365/admin/manage/assign-licenses-to-users#assign-licenses-to-users-on-the-licenses-page)。 在将 Pro 许可证分配给来宾用户之前，请联系 Microsoft 帐户代表，以确保符合与 Microsoft 达成的协议条款。
+如果你向来宾用户分配来自组织的 Power BI Pro 许可证，来宾用户便能查看与他人共享的内容。 有关分配许可证的详细信息，请参阅[在“许可证”页上将许可证分配给用户](/office365/admin/manage/assign-licenses-to-users#assign-licenses-to-users-on-the-licenses-page)。 在将 Pro 许可证分配给来宾用户之前，请咨询[产品条款网站](https://www.microsoft.com/licensing/terms)，以确保符合与 Microsoft 达成的许可协议条款。
 
 ![在租户内分配 Pro 许可证时的来宾用户体验关系图。](media/service-admin-azure-ad-b2b/license-approach-2.png)
 

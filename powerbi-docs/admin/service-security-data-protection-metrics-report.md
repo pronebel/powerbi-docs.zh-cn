@@ -9,17 +9,17 @@ ms.topic: how-to
 ms.date: 06/15/2020
 ms.author: painbar
 LocalizationGroup: Data from files
-ms.openlocfilehash: 759957b6412f4835aaf170fcebb7fd2beac4e234
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 0452dabef54cc899abf7a6cbbd6ab718bf22524e
+ms.sourcegitcommit: 181679a50c9d7f7faebcca3a3fc55461f594d9e7
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85227159"
+ms.lasthandoff: 07/07/2020
+ms.locfileid: "86034304"
 ---
 # <a name="data-protection-metrics-report"></a>数据保护指标报表
 
 ## <a name="what-is-the-data-protection-metrics-report"></a>什么是数据保护指标报表？
-数据保护指标报表是一种专用报表，[Power BI 管理员](../service-admin-role.md)可以用于监视和跟踪其租户中的数据敏感度标签使用情况和采用情况。
+数据保护指标报表是一种专用报表，[Power BI 管理员](../service-admin-role.md)可以用于监视和跟踪其租户中的敏感度标签使用情况和采用情况。
 
 ![数据保护指标报表](./media/service-security-data-protection-metrics-report/protection-metrics-seven-days-1.png)
  
@@ -47,13 +47,13 @@ ms.locfileid: "85227159"
 
 数据保护指标报表的改进版本会定期发布。 打开该报表时，如果有新版本可用，则系统会询问你是否要打开新版本。 如果你选择“是”，新版报表会加载并覆盖旧版本。 对旧报表和/或数据集进行的任何更改都会丢失。 可以选择不打开新版本，但在这种情况下，将无法受益于新版本的改进。 
 ## <a name="notes-and-considerations"></a>说明和注意事项
-* 若要成功生成数据保护指标报表，必须对租户启用[信息保护](./service-security-enable-data-sensitivity-labels.md) 并且[应该应用了敏感度标签](../collaborate-share/service-security-apply-data-sensitivity-labels.md)。 
+* 若要成功生成数据保护指标报表，必须对租户启用[信息保护](./service-security-enable-data-sensitivity-labels.md) 并且[应该应用了敏感度标签](./service-security-apply-data-sensitivity-labels.md)。 
 * 若要访问 Cloud App Security 信息，组织必须具有相应的 [Cloud App Security 许可证](https://docs.microsoft.com/power-bi/admin/service-security-using-microsoft-cloud-app-security-controls#microsoft-cloud-app-security-licensing)。
 * 如果决定与不是 Power BI 管理员的用户共享数据保护指标报表中的信息，请注意，此报表包含有关组织的敏感信息。
 * 数据保护指标报表是一种特殊类型的报表，不会显示在“与我共享”、“最近动态”和“收藏夹”列表中。
 * [外部用户（Azure Active Directory B2B 来宾用户）](../service-admin-azure-ad-b2b.md)无法使用数据保护指标报表。
 ## <a name="next-steps"></a>后续步骤
-* [Power BI 中的数据保护](./service-security-data-protection-overview.md)
+* [Power BI 中的敏感度标签](./service-security-sensitivity-label-overview.md)
 * [在 Power BI 中使用 Microsoft Cloud App Security 控件](service-security-using-microsoft-cloud-app-security-controls.md)
 * [了解 Power BI 服务管理员角色](service-admin-role.md)
-* [在 Power BI 中启用数据敏感度标签](service-security-enable-data-sensitivity-labels.md)
+* [在 Power BI 中启用敏感度标签](service-security-enable-data-sensitivity-labels.md)

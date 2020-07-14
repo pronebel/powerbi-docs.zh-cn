@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 10/23/2019
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: ace3b89051ee5f7b082979f2739cef71ceb05440
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 84ecbb51663629b663373b884af86329f49e974f
+ms.sourcegitcommit: 181679a50c9d7f7faebcca3a3fc55461f594d9e7
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85225742"
+ms.lasthandoff: 07/07/2020
+ms.locfileid: "86034465"
 ---
 # <a name="intro-to-organizational-content-packs-in-power-bi"></a>Power BI 中的组织内容包简介
 > [!NOTE]
@@ -23,7 +23,7 @@ ms.locfileid: "85225742"
 
 你是否通过电子邮件向团队成员定期分发报表？ 改为试试下面这种做法：打包仪表板、报表、Excel 工作簿和数据集，以组织内容包的形式将它们发布到团队。 你的团队可以轻松找到你创建的内容包，因为它们都位于 AppSource 中。 因为它们是 Power BI 的一部分，所以它们将利用 Power BI 的所有功能，包括交互式数据浏览、新增视觉对象、问答、与其他数据源集成、数据刷新等。
 
-![](media/service-organizational-content-pack-introduction/power-bi-org-content-packs.png)
+![显示组织内容包的仪表板的屏幕截图。](media/service-organizational-content-pack-introduction/power-bi-org-content-packs.png)
 
 创建内容包不同于共享仪表板，也不同于在工作区中针对这些包开展协作。 阅读[应如何针对仪表板及报表开展协作并进行共享？](service-how-to-collaborate-distribute-dashboards-reports.md)以决定具体情况的最佳选项。 
 

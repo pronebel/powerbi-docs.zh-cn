@@ -10,36 +10,36 @@ ms.topic: how-to
 ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 28eb1efb28a1b8d394d68a9c57a9c2733cc08972
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: d0c7bf64eaae7467963ce1bfd7638e8eb87ae249
+ms.sourcegitcommit: 181679a50c9d7f7faebcca3a3fc55461f594d9e7
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85224524"
+ms.lasthandoff: 07/07/2020
+ms.locfileid: "86033867"
 ---
 # <a name="connect-to-excel-workbooks-in-power-bi-desktop"></a>通过 Power BI Desktop 连接到 Excel 工作簿
 从 Power BI Desktop 连接到 Excel 工作簿很简单，本文将指导你完成所有步骤。
 
-在 Power BI Desktop 中，在“主页”  功能区中选择“获取数据”>“Excel”  。
+在 Power BI Desktop 中，在“主页”功能区中选择“获取数据”>“Excel”。
 
-![](media/desktop-connect-excel/connect_to_excel_1.png)
+![Excel 选项的屏幕截图。](media/desktop-connect-excel/connect_to_excel_1.png)
 
-在出现的“打开”  对话框中选择你的工作簿。
-![](media/desktop-connect-excel/connect_to_excel_2.png)
+在出现的“打开”对话框中选择你的工作簿。
+![“打开”对话框的屏幕截图。](media/desktop-connect-excel/connect_to_excel_2.png)
 
-Power BI Desktop 会从“导航器”  窗口的工作簿中展示其他数据元素表。 在左窗格中选中一个表时，右窗格中会出现数据预览。
+Power BI Desktop 会从“导航器”窗口的工作簿中展示其他数据元素表。 在左窗格中选中一个表时，右窗格中会出现数据预览。
 
-![](media/desktop-connect-excel/connect_to_excel_3.png)
+![“导航器”窗口的屏幕截图。](media/desktop-connect-excel/connect_to_excel_3.png)
 
-可以选择“加载”按钮以导入数据，或者，在将数据引入 Power BI Desktop 之前如果想要通过“查询编辑器”  编辑数据，请选择“编辑”  按钮。
+可以选择“加载”按钮以导入数据，或者，在将数据引入 Power BI Desktop 之前如果想要通过“查询编辑器”编辑数据，请选择“编辑”按钮。
 
-加载数据时，Power BI Desktop 会显示“加载”  窗口并显示与加载数据相关联的活动。  
+加载数据时，Power BI Desktop 会显示“加载”窗口并显示与加载数据相关联的活动。  
 
-![](media/desktop-connect-excel/connect_to_excel_4.png)
+![“加载”窗口的屏幕截图。](media/desktop-connect-excel/connect_to_excel_4.png)
 
-完成时，Power BI Desktop 会在 Desktop 右侧显示表格以及从“字段”  窗格中的 Excel 工作簿导入的字段。
+完成时，Power BI Desktop 会在 Desktop 右侧显示表格以及从“字段”窗格中的 Excel 工作簿导入的字段。
 
-![](media/desktop-connect-excel/connect_to_excel_5.png)
+![“字段”窗格的屏幕截图。](media/desktop-connect-excel/connect_to_excel_5.png)
 
 这样就大功告成了！
 

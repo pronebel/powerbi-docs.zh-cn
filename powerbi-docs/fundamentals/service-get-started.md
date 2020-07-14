@@ -1,25 +1,27 @@
 ---
-title: Power BI 服务入门
+title: 教程：开始在 Power BI 服务中创建
 description: Power BI 在线服务入门 (app.powerbi.com)
 author: maggiesMSFT
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: tutorial
-ms.date: 09/05/2019
+ms.date: 07/02/2020
 ms.author: maggies
 LocalizationGroup: Get started
-ms.openlocfilehash: 67bb913f582b372d2c9ffcbe72a59aeade143fac
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: ee3919be08cfb2af2ad0e82e9f0f35b5d13147c6
+ms.sourcegitcommit: 20cfd157af587b3910a2b6deec9518dca4105d71
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83358751"
+ms.lasthandoff: 07/03/2020
+ms.locfileid: "85943556"
 ---
-# <a name="tutorial-get-started-with-the-power-bi-service"></a>教程：Power BI 服务入门
-本教程介绍了 Power BI 服务的一些功能  。 在这里，你可连接到数据、创建报表和仪表板，并就你的问题提问。 你还可在 Power BI 服务中执行更多其他操作；本教程仅作激发兴趣之用。 要了解 Power BI 服务如何与其他 Power BI 产品/服务契合，建议阅读[什么是 Power BI](power-bi-overview.md)。
+# <a name="tutorial-get-started-creating-in-the-power-bi-service"></a>教程：开始在 Power BI 服务中创建
+本教程介绍了 Power BI 服务的一些功能。 在这里，你可连接到数据、创建报表和仪表板，并就你的问题提问。 你还可在 Power BI 服务中执行更多其他操作；本教程仅作激发兴趣之用。 要了解 Power BI 服务如何与其他 Power BI 产品/服务契合，建议阅读[什么是 Power BI](power-bi-overview.md)。
 
-![Power BI 服务主页](media/service-get-started/power-bi-service-get-started-home.png)
+你是报表读者而不是创建者？ 建议先[了解 Power BI 服务](../consumer/end-user-experience.md)。
+
+:::image type="content" source="media/service-get-started/power-bi-service-rearranged-dashboard.png" alt-text="财务示例仪表板的屏幕截图。":::
 
 在本教程中，将完成以下步骤：
 
@@ -30,182 +32,195 @@ ms.locfileid: "83358751"
 > * 使用该数据创建可视化效果并将其另存为报表。
 > * 从该报表固定磁贴，创建仪表板。
 > * 使用问答自然语言工具将其他可视化效果添加到仪表板。
-> * 在仪表板上重新排列磁贴、调整其大小并与之交互。
+> * 在仪表板上调整磁贴大小、重新排列磁贴并编辑其详细信息。
 > * 删除数据集、报表和仪表板，清理资源。
 
-> [!TIP]
-> 更喜欢可以自主掌控进度的免费培训课程？ [在 EdX 上注册学习我们的“数据分析和可视化”课程](https://aka.ms/edxpbi)。
-
 ## <a name="sign-up-for-the-power-bi-service"></a>注册 Power BI 服务
-如果没有 Power BI 帐户，请先[注册一个 Power BI Pro 免费试用版](https://app.powerbi.com/signupredirect?pbi_source=web)，再进行操作。
-
-拥有帐户后，在浏览器中输入 app.powerbi.com 以打开 Power BI 服务  。 
+需要 Power BI Pro 许可证方可在 Power BI 中创建内容。 如果没有 Power BI 帐户，请先[注册一个 Power BI Pro 免费试用版](https://app.powerbi.com/signupredirect?pbi_source=web)，再进行操作。
 
 ## <a name="step-1-get-data"></a>步骤 1：获取数据
 
-通常，需要创建 Power BI 报表时，会先使用 Power BI Desktop。 而这一次，我们将在 Power BI 服务中从头开始创建一个报表。
+通常，需要创建 Power BI 报表时，会先使用 Power BI Desktop。 Power BI Desktop 提供更多功能。 在开始设计报表之前，可对数据进行转换、调整和建模。 而这一次，我们将在 Power BI 服务中从头开始创建一个报表。
 
-在本教程中，我们会从 CSV 文件中获取数据。 想要跟着做吗？ [下载财务示例 CSV 文件](https://go.microsoft.com/fwlink/?LinkID=521962)。
+在本教程中，我们将从一个简单的 Microsoft Excel 文件获取数据。 想要跟着做吗？ [下载财务示例文件](https://go.microsoft.com/fwlink/?LinkID=521962)。
 
-1. [登录 Power BI](https://www.powerbi.com/)。 还没有帐户？ 别担心，可以注册一个免费试用版。
-2. Power BI 将在浏览器中打开。 在导航窗格底部，选择“获取数据”  。
+1. 若要开始，请在浏览器中打开 Power BI 服务 (app.powerbi.com)。 
 
-    随即将打开“获取数据”页面  。   
+    还没有帐户？ 别担心，可以[注册一个 Power BI Pro 免费试用版](https://app.powerbi.com/signupredirect?pbi_source=web)
 
-3. 在“创建新内容”部分下，选择“文件”   。 
+1. 在导航窗格中选择“我的工作区”。
+
+1. 在“我的工作区”中，选择“新建” > “上传文件”  。
+
+    随即将打开“获取数据”页面。   
+
+3. 在“新建内容”部分中，确保选中“文件”，然后选择保存 Excel 文件的位置 。
    
-   ![获取文件](media/service-get-started/gs1.png)
-4.  选择“本地文件”  。
+    :::image type="content" source="media/service-get-started/power-bi-service-get-data-local-file.png" alt-text="“新建内容”>“文件”的屏幕截图。":::
+
+5. 浏览到计算机上的该文件，然后选择“打开”。
+
+5. 在本教程中，我们会选择“导入”，将 Excel 文件添加为数据集，然后就可以使用它来创建报表和仪表板。 如果选择“上传”，则整个 Excel 工作簿都将上传至 Power BI，然后可以在 Excel Online 中打开它并进行编辑。
    
-    ![“获取数据”>“文件”屏幕](media/service-get-started/power-bi-service-get-data-local-file.png)
+   :::image type="content" source="media/service-get-started/power-bi-import.png" alt-text="选择“导入”的屏幕截图。":::
+6. 数据集准备就绪后，选择财务示例数据集旁边的“更多选项(...)”，然后选择“创建报表” 。
+1. 打开报表编辑器。 
 
-5. 浏览到计算机上的该文件，然后选择“打开”  。
+    :::image type="content" source="media/service-get-started/power-bi-service-datasets.png" alt-text="“所有内容”>“创建报表”的的屏幕截图。":::
 
-5. 在本教程中，我们会选择“导入”，将 Excel 文件添加为数据集，然后就可以使用它来创建报表和仪表板  。 如果选择“上传”，则整个 Excel 工作簿都将上传至 Power BI，然后可以在 Excel Online 中打开它并进行编辑  。
-   
-   ![选择“导入”](media/service-get-started/power-bi-import.png)
-6. 数据集准备就绪后，选择“数据集”，然后选择“财务示例”数据集旁边的“创建报表”，打开报表编辑器    。 
+    报表画布是空白的。 我们看到右侧有“筛选器”、“可视化效果”和“字段”窗格  。
 
-    ![数据集列表](media/service-get-started/power-bi-service-datasets.png)
+    :::image type="content" source="media/service-get-started/power-bi-service-blank-report.png" alt-text="空白报表画布的屏幕截图。":::
 
-    报表画布是空白的。 我们看到右侧有“筛选器”、“可视化效果”和“字段”窗格    。
+    > [!TIP]
+    > 选择左上角的全局导航按钮来折叠导航窗格。 这样画布就有更多的空间。
+    >
+    >:::image type="content" source="media/service-get-started/power-bi-global-nav-button.png" alt-text="全局导航按钮。":::
+    >
 
-    ![空白报表画布](media/service-get-started/power-bi-service-blank-report.png)
+7. 你当前正在编辑视图中。 注意菜单栏中有“阅读视图”选项。 
 
-7. 请注意，顶部导航窗格上有“读取视图”选项  。 由于具有此选项，这意味着你当前处于“编辑视图”中。 进行[简要了解](../create-reports/service-the-report-editor-take-a-tour.md)是熟悉报表编辑器的一个不错的方法。
+    :::image type="content" source="media/service-get-started/power-bi-service-reading-view.png" alt-text="“阅读视图”选项的屏幕截图。":::
 
-    ![“阅读视图”选项](media/service-get-started/power-bi-service-reading-view.png)
-
-    同时，在“编辑视图”中，可以创建和修改报表，因为你是报表的所有者  。 也是创建者  。 与同事共享报表时，他们只能在“阅读视图”中与报表交互，你的同事是使用者  。 详细了解[阅读视图和编辑视图](../consumer/end-user-reading-view.md)。
-
+    在“编辑视图”中可以修改报表，因为你是报表的所有者和创建者 。 当你与同事共享报表时，通常他们只能在“阅读视图”中与报表交互。 他们是“我的工作区”中报表的使用者。 
 
 ## <a name="step-2-create-a-chart-in-a-report"></a>步骤 2：在报表中创建图表
-连接到数据后，请开始浏览数据。  发现有趣的内容后，可以创建仪表板来监视内容，并查看内容在不同时间的变化。 我们来看看具体的工作方式。
+连接到数据后，请开始浏览数据。 找到有趣的内容后，可以将其保存到报表画布上。 然后可将其固定到仪表板进行监视，并查看其随时间推移的变化情况。 但首先执行以下操作。
     
-1. 在报表编辑器中，我们首先使用页面右侧的“字段”窗格生成可视化效果。  选中“销售总额”和“日期”复选框   。
+1. 在报表编辑器中，首先使用页面右侧的“字段”窗格生成可视化效果。 依次选择“销售总额”字段和“日期”字段 。
    
-   ![字段列表](media/service-get-started/power-bi-service-fields-pane-selected.png)
+   :::image type="content" source="media/service-get-started/power-bi-service-fields-pane-selected.png" alt-text="字段列表的屏幕截图。":::
 
-    Power BI 会分析数据并创建可视化对象。 如果先选择“日期”，会看到一个表格  。 如果先选择“销售总额”，则会看到一个柱形图  。 
+    Power BI 会分析数据并创建柱形图可视化效果。 
 
-2. 切换到不同的数据显示方式。 让我们在折线图中查看此数据。 从“可视化对象”窗格中，选择折线图图标  。
-   
-   ![选择了折线图的报表编辑器](media/service-get-started/power-bi-service-select-line-chart.png)
+    > [!NOTE]
+    > 如果先选择了“日期”字段而非“销售总额”，则会出现一个表 。 别担心！ 我们将在下一步中更改可视化效果。
 
-3. 看起来不错，让我们将它固定到仪表板  。 将鼠标悬停在可视化对象上，并选择固定图标。 固定此可视化对象时，它将存储在仪表板上并会不断更新，由此你可以大致跟踪最新值。
-   
-   ![固定图标](media/service-get-started/power-bi-service-pin-visual.png)
+    某些字段旁有 sigma 符号，因为 Power BI 检测到它们包含数字值。
 
-4. 由于此报表是新建的，因此在可视化对象固定到仪表板之前，系统会提示保存。 为报表命名（例如“一段时间内的销售额”），然后选择“保存”   。 
+    :::image type="content" source="media/service-get-started/power-bi-sigma-fields.png" alt-text="包含 sigma 符号的字段。":::
 
-5. 选择“新建仪表板”，并将其命名为“教程用财务示例”   。 
+2. 接下来换一种方式来显示数据。 折线图是用于显示值随时间变化的良好视觉对象。 从“可视化效果”窗格中，选择“折线图” 。
    
-   ![为报表命名](media/service-get-started/power-bi-pin.png)
+   :::image type="content" source="media/service-get-started/power-bi-service-select-line-chart.png" alt-text="选择了折线图的报表编辑器的屏幕截图。":::
+
+3. 看起来不错，让我们将它固定到仪表板。 将鼠标悬停在可视化对象上，并选择固定图标。
    
-6. 选择“固定”  。
+   :::image type="content" source="media/service-get-started/power-bi-service-pin-visual.png" alt-text="“固定”图标的屏幕截图。":::
+
+4. 由于此报表是新建的，因此在可视化对象固定到仪表板之前，系统会提示保存。 为报表命名（例如财务示例报表），然后选择“保存”。 
+
+    现在你正在阅读视图中查看报表。 
+
+6. 再次选择“固定”图标。
+ 
+5. 选择“新建仪表板”，并为其命名（例如财务示例仪表板）。 
    
+   :::image type="content" source="media/service-get-started/power-bi-pin.png" alt-text="为仪表板命名的屏幕截图。":::
+  
     会显示一条成功消息（右上角附近），告知你可视化效果已作为磁贴添加到你的仪表板中。
    
-    ![“已固定到仪表板”对话框](media/service-get-started/power-bi-pin-success.png)
+    :::image type="content" source="media/service-get-started/power-bi-pin-success.png" alt-text="“已固定到仪表板”对话框的屏幕截图。":::
 
-7. 选择“转至仪表板”来查看新建的仪表板，它包含一个以磁贴形式固定的折线图  。 
+    固定此可视化效果后，它存储在仪表板上。 数据始终保持最新状态，因此你可一目了然地跟踪最新值。 但如果在报表中更改此可视化效果类型，仪表板上的可视化效果不会更改。
+
+7. 选择“转至仪表板”来查看新建的仪表板，它包含一个以磁贴形式固定的折线图。 
    
-   ![固定了可视化效果的仪表板](media/service-get-started/power-bi-service-dashboard-tile.png)
+   :::image type="content" source="media/service-get-started/power-bi-service-dashboard-tile.png" alt-text="固定了可视化效果的仪表板的屏幕截图。":::
    
-8. 在仪表板上选择新的磁贴，以便返回到报表。 Power BI 会转回到报表的“阅读视图”。 
+8. 选择仪表板上的新磁贴。 Power BI 会转回到报表的“阅读视图”。
 
-1. 要切换回“编辑视图”，请在顶部导航窗格中选择“更多选项”(…)，然后选择“编辑”   。 回到“编辑视图”后，可继续探索并固定磁贴。
+1. 要切换回“编辑视图”，请在菜单栏中选择“更多选项”(…)，然后选择“编辑” 。
 
-    ![选择“编辑”以编辑报表](media/service-get-started/power-bi-service-edit-report.png)
+    :::image type="content" source="media/service-get-started/power-bi-service-edit-report.png" alt-text="选择“编辑”以编辑报表的屏幕截图。":::
+
+    回到“编辑视图”后，可继续探索并固定磁贴。
 
 ## <a name="step-3-explore-with-qa"></a>步骤 3：探索问答功能
 
-要快速浏览数据，请尝试问答问题框中提问。 问答功能会创建有关你的数据的自然语言查询。 在仪表板中，问答框位于顶部（用于询问数据相关问题）  。 在报表中，它位于顶部导航窗格中（用于提问）  。
+要快速浏览数据，请尝试问答问题框中提问。 通过问答功能，可以提出有关数据的自然语言查询。 在仪表板中，问答框位于菜单栏下的顶部（用于询问数据相关问题）。 在报表中，它位于顶部菜单栏中（用于提问）。
 
-1. 要返回到仪表板，请在黑色“Power BI”栏中选择“我的工作区”   。
+1. 要返回到仪表板，请在黑色“Power BI”标题栏中选择“我的工作区” 。
 
-    ![回到我的工作区](media/service-get-started/power-bi-service-go-my-workspace.png)
+    :::image type="content" source="media/service-get-started/power-bi-service-go-my-workspace.png" alt-text="“返回我的工作区”的屏幕截图。":::
 
-1. 在“仪表板”选项卡上，选择你的仪表板  。
+1. 在“我的工作区”中，选择你的仪表板。
 
-    ![选择你的仪表板](media/service-get-started/power-bi-service-dashboard-tab.png)
+    :::image type="content" source="media/service-get-started/power-bi-service-dashboard-tab.png" alt-text="选择你的仪表板的屏幕截图。":::
 
-1. 选择“询问数据相关问题”  。 问答功能会自动提供多项建议。
+1. 选择“询问数据相关问题”。 问答功能会自动提供多项建议。 
 
-    ![问答画布](media/service-get-started/power-bi-service-new-qanda.png)
+    :::image type="content" source="media/service-get-started/power-bi-service-new-qanda.png" alt-text="问答画布的屏幕截图。":::
 
     > [!NOTE]
-    > 如果看不到这些建议，请打开“新问答体验”  。
+    > 如果看不到这些建议，请打开“新问答体验”。
 
-2. 部分建议会返回一个值。 例如，选择“最高销售额”  。
+    :::image type="content" source="media/service-get-started/power-bi-new-qna-experience.png" alt-text="启用新问答体验的屏幕截图。":::
 
-    问答功能会搜索答案，并以卡片可视化形式进行显示  。
+1. 某些建议会返回一个值。 例如，选择“什么是平均 cog”。
 
-    ![“最高销售额”卡片](media/service-get-started/power-bi-service-qanda-maximum-sale.png)
+    问答功能会搜索答案，并以卡片可视化形式进行显示。
 
-3. 选择“固定”图标 ![固定图标](media/service-get-started/pbi_pinicon.png) 以在“教程用财务示例”仪表板上显示此可视化效果。
+3. 选择“固定视觉对象”，然后将此可视化对象固定到财务示例仪表板。
 
-1. 向下滚动浏览“有助于入门的问题”列表，并选择“每月平均销售成本”   。 
+    :::image type="content" source="media/service-get-started/power-bi-qna-pin-tile.png" alt-text="固定视觉对象的屏幕截图。":::
 
-    ![每月平均销售成本](media/service-get-started/power-bi-service-qanda-average-cog.png)
+1. 返回到问答，并选择“显示所有建议”。
+1. 选择“按国家/地区列出的总利润”。 
 
-1. 另请将条形图固定到“教程用财务示例”仪表板中  。
+    :::image type="content" source="media/service-get-started/power-bi-qna-total-profit-country.png" alt-text="按国家/地区列出的总利润的屏幕截图。":::
 
-1. 将光标放在问答框中“按月”的后面，然后键入“折线图”   。 选择“折线图(可视化效果类型)”  。 
+1. 另将该地图固定到财务示例仪表板中。
 
-    ![图表直观显示为折线图](media/service-get-started/power-bi-service-qanda-as-line.png)
+1. 在仪表板上，选择刚刚固定的地图。 再次看它如何打开问答？ 
+1. 将光标放在问答框中“按国家/地区”的后面，然后键入“条形图” 。 Power BI 将使用结果创建条形图。
 
-4. 选择“退出问答”  以返回到仪表板，可在此处看到所创建的新磁贴。 
+    :::image type="content" source="media/service-get-started/power-bi-qna-profit-country-bar.png" alt-text="条形图可视化效果的屏幕截图。":::
 
-   ![固定了图表的仪表板](media/service-get-started/power-bi-service-dashboard-qna.png)
+1. 另请将条形图固定到财务示例仪表板中。
 
-   你会看到，即使你已将图表更改为折线图，磁贴仍为条形图，这是因为它保持固定时的效果。 
+4. 选择“退出问答”以返回到仪表板，可在此处看到所创建的新磁贴。 
+
+   :::image type="content" source="media/service-get-started/power-bi-service-dashboard-qna.png" alt-text="固定了问答视觉对象的仪表板的屏幕截图。":::
+
+   你会看到，即使你已在问答中将地图更改为条形图，磁贴仍为地图，这是因为它在固定时就是地图。 
 
 ## <a name="step-4-reposition-tiles"></a>步骤 4：重新放置磁贴
 
-仪表板很宽。 可重新排列磁贴，以便更好地利用仪表板的空间。
+可重新排列磁贴，以便更好地利用仪表板的空间。
 
-1. 将“销售总额”折线图的右下角向上拖动，直到它与“销售”磁贴等高，然后松开鼠标  。
+1. 将“销售总额”折线图的右下角向上拖动，直到它与“销售”磁贴等高，然后松开鼠标。
 
-    ![重设磁贴大小](media/service-get-started/power-bi-service-resize-tile.png)
+    :::image type="content" source="media/service-get-started/power-bi-service-resize-tile.png" alt-text="调整磁贴大小的屏幕截图。":::
 
     现在，上面两个磁贴高度相同。
 
-    ![调整后的磁贴](media/service-get-started/power-bi-service-resized-tile.png)
+1. 选择“COGS 平均值”磁贴的“更多选项(...)”>“编辑详细信息” 。 
 
-1. 拖动“平均销售成“条形图磁贴，直到它在“销售总额”折线图下方大小合适   。
+    :::image type="content" source="media/service-get-started/power-bi-tile-edit-details.png" alt-text="磁贴的“更多选项”菜单的屏幕截图。":::
+
+1. 在“标题”框中，键入“已售货物平均成本” > “应用”。
+
+    :::image type="content" source="media/service-get-started/power-bi-tile-details-dialog.png" alt-text="“编辑详细信息”对话框的屏幕截图。":::
+
+1. 重新排列其他视觉对象以组合在一起。
 
     现在效果更好。
 
-    ![重新排列后的仪表板](media/service-get-started/power-bi-service-rearranged-dashboard.png)
-
-## <a name="step-5-interact-with-tiles"></a>步骤 5：与磁贴进行交互
-
-下面是要观察的最后一个交互操作，然后你将开始自行创建仪表板和报表。 选择不同的磁贴会呈现不同的结果。 
-
-1. 首先，选择从报表中固定的“销售总额”折线图磁贴  。 
-
-    Power BI 会在阅读视图中打开报表。 
-
-2. 选择浏览器上的“后退”按钮。 
-
-1. 现在选择在问答中创建的“平均销售成本”条形图磁贴  。 
-
-    Power BI 不会打开报表。 改为打开问答，这是因为你是在问答中创建此图表的。
+    :::image type="content" source="media/service-get-started/power-bi-service-rearranged-dashboard.png" alt-text="重新排列后的仪表板的屏幕截图。":::
 
 
 ## <a name="clean-up-resources"></a>清理资源
 完成本教程后，现可删除数据集、报表和仪表板。 
 
-1. 在导航窗格中，确保自己位于“我的工作区”  。
-2. 选择“数据集”  选项卡并找到本教程导入的数据集。  
-3. 选择“更多选项”(…) >“删除”   。
+1. 在黑色“Power BI”标题栏中选择“我的工作区” 。
+2. 选择财务示例数据集旁边的“更多选项(...)”>“删除” 。
 
-    ![删除数据集](media/service-get-started/power-bi-service-delete-dataset.png)
+    :::image type="content" source="media/service-get-started/power-bi-service-delete-dataset.png" alt-text="删除数据集的屏幕截图。":::
 
-    删除数据集时，会看到一则警告，它提示还将删除该数据集中的所有包含数据的报告和仪表板磁贴  。
+    你会看到一则警告，它提示还将删除该数据集中的所有包含数据的报表和仪表板磁贴。
 
-4. 选择“删除”  。
+4. 选择“删除”。
 
 ## <a name="next-steps"></a>后续步骤
 

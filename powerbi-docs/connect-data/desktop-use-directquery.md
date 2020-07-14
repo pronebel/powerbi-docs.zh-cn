@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: how-to
-ms.date: 05/07/2020
+ms.date: 07/02/2020
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: fcf774af00fe65c5f9708f85f6270cda8405896f
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 4083304a13b75df900e25204b54f62368be43e70
+ms.sourcegitcommit: 561f6de3e4621d9d439dd54fab458ddca78ace2c
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85222556"
+ms.lasthandoff: 07/03/2020
+ms.locfileid: "85939508"
 ---
 # <a name="use-directquery-in-power-bi-desktop"></a>在 Power BI Desktop 中使用 DirectQuery
 使用 Power BI Desktop 时，若已连接数据源，始终可以将数据副本导入 Power BI Desktop。 对于某些数据源，还可使用另一种方法：使用 DirectQuery 直接连接到数据源。
@@ -53,7 +53,7 @@ ms.locfileid: "85222556"
 
 - 为确保发送到基础数据源的查询具有可接受的性能，对度量值中的可用 DAX 表达式进行了限制。
 
-- 使用 DirectQuery 时，返回数据有 100 万行的限制，除非使用高级容量。 此限制不影响用于创建使用 DirectQuery 返回的数据集的聚合或计算。 它仅影响返回的行。 高级容量可以设置最大行限制，如[本文](https://powerbi.microsoft.com/blog/five-new-power-bi-premium-capacity-settings-is-available-on-the-portal-preloaded-with-default-values-admin-can-review-and-override-the-defaults-with-their-preference-to-better-fence-their-capacity/)所述。 
+- 云源限制 100 万行，本地源限制每行的已定义负载约 4 MB（具体取决于专用压缩算法）或整个视觉对象的数据大小为 16MB。 使用高级容量时某些限制可能会提高。 此限制不影响用于创建使用 DirectQuery 返回的数据集的聚合或计算。 它仅影响返回的行。 高级容量可以设置最大行限制，如[本文](https://powerbi.microsoft.com/blog/five-new-power-bi-premium-capacity-settings-is-available-on-the-portal-preloaded-with-default-values-admin-can-review-and-override-the-defaults-with-their-preference-to-better-fence-their-capacity/)所述。 
 
     例如，可以通过在数据源上运行的查询聚合 1000 万行。 如果返回的 Power BI 数据小于 100 万行，查询将使用 DirectQuery 准确地将该聚合的结果返回到 Power BI。 如果从 DirectQuery 返回超过 100 万行，Power BI 将返回一个错误（除非在高级容量中，且行计数低于管理员设置的限制）。
 

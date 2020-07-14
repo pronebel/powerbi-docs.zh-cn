@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.custom: seodec18
 ms.date: 06/02/2020
-ms.openlocfilehash: 75b880876a08a78d822fc1203de40a7bb8311afe
-ms.sourcegitcommit: f05f7b0112a8ec2dce60839ea5f922eda3cc776c
+ms.openlocfilehash: bb693b1b46e193a87365537492c83aa2eb8a479a
+ms.sourcegitcommit: b2c60781da6f756102f91346b35a7651fb5dcda3
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "84337064"
+ms.lasthandoff: 07/08/2020
+ms.locfileid: "86092230"
 ---
 # <a name="tutorial-embed-power-bi-content-into-an-application-for-your-customers"></a>教程：为客户将 Power BI 内容嵌入应用中
 
@@ -428,9 +428,12 @@ var token = client.GetClient().EmbedToken.GenerateToken(request);
 
 ### <a name="development-testing"></a>开发测试
 
-使用 Pro 许可证的嵌入令牌仅用于开发测试，因此 Power BI 主帐户或服务主体可生成的嵌入令牌数量有限。 必须具备专用容量才能嵌入到生产环境。 为专用容量生成嵌入令牌时，可生成的数量不受限制。 转到[可用功能](https://docs.microsoft.com/rest/api/power-bi/availablefeatures/getavailablefeatures)查看使用量值，该值以百分比表示当前嵌入使用量。 使用量基于每个主帐户。
+对于开发测试，你可将嵌入试用令牌用于 Pro 许可证。 若要嵌入到生产环境，请使用专用容量。
 
-有关详细信息，请参阅[嵌入式分析容量规划白皮书](https://aka.ms/pbiewhitepaper)。
+Power BI 服务主体或主帐户可以生成的嵌入试用令牌的数量是有限的。 使用 [Available Features](https://docs.microsoft.com/rest/api/power-bi/availablefeatures/getavailablefeatures) API 来检查当前嵌入使用情况的百分比。 显示了每个服务主体或主帐户的使用量。
+
+如果测试时用完了嵌入令牌，则需要购买 Power BI Embedded 或高级[容量](embedded-capacity.md)。 为专用容量生成嵌入令牌时，可生成的数量不受限制。
+
 
 ### <a name="assign-a-workspace-to-a-dedicated-capacity"></a>为工作区分配专用容量
 

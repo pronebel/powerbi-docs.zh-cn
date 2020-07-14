@@ -5,16 +5,16 @@ author: davidiseminger
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
-ms.topic: how-to
+ms.topic: troubleshooting
 ms.date: 05/27/2020
 ms.author: davidi
 LocalizationGroup: Troubleshooting
-ms.openlocfilehash: e1162ecfb9eee7d1a0bfaf5a7ef25244ec8935c0
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 3c36a2725748e2c701c65f1737c39f4d56128962
+ms.sourcegitcommit: 181679a50c9d7f7faebcca3a3fc55461f594d9e7
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85226829"
+ms.lasthandoff: 07/07/2020
+ms.locfileid: "86034373"
 ---
 # <a name="troubleshooting-analyze-in-excel"></a>Analyze in Excel 故障排除
 
@@ -45,22 +45,22 @@ Excel 库的位级别必须与 Windows 版本的位级别匹配。 如果已经�
 
 要下载最新的 Excel 库，请访问 Power BI，并选择 Power BI 服务右上角的**向下箭头**，然后选择 **Analyze in Excel 更新**。
 
-![](media/desktop-troubleshooting-analyze-in-excel/tshoot-analyze-excel_1.png)
+![右上角用于选择“在 Excel 中分析”更新的向下箭头菜单选项的屏幕截图。](media/desktop-troubleshooting-analyze-in-excel/tshoot-analyze-excel_1.png)
 
 在出现的对话框中，选择**下载（预览版）** 。
 
-![](media/desktop-troubleshooting-analyze-in-excel/tshoot-analyze-excel_2.png)
+![用于选择“下载”或“预览”按钮的“在 Excel 中分析”更新对话框的屏幕截图。](media/desktop-troubleshooting-analyze-in-excel/tshoot-analyze-excel_2.png)
 
 ## <a name="determining-whether-you-need-to-update-your-excel-libraries"></a>确定你是否需要更新 Excel 库
 可从上一节中的链接下载 Excel OLE DB 提供程序库的最新版本。 在下载相应 OLD DB 提供程序库并开始安装之后，请根据你当前安装的版本执行检查。
 
 如果你的 Excel OLE DB 提供程序客户端库是最新版本，则会显示一个对话框，如下所示︰
 
-![](media/desktop-troubleshooting-analyze-in-excel/troubleshoot-analyze-excel_3.png)
+![询问在有较新版本的 Excel OLE DB 提供程序客户端库时进行更新的对话框的屏幕截图。](media/desktop-troubleshooting-analyze-in-excel/troubleshoot-analyze-excel_3.png)
 
 或者，如果你正安装的版本比计算机上已安装的版本更高，将显示以下对话框︰
 
-![](media/desktop-troubleshooting-analyze-in-excel/troubleshoot-analyze-excel_2.png)
+![用于在 Excel OLE DB 提供程序客户端库的安装过程中确认升级的对话框的屏幕截图。](media/desktop-troubleshooting-analyze-in-excel/troubleshoot-analyze-excel_2.png)
 
 如果显示一个对话框并提示你进行升级，则应继续进行安装，在计算机上安装 OLE DB 提供程序的最新版本。
 
