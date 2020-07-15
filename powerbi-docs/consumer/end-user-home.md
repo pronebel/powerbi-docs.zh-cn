@@ -2,19 +2,19 @@
 title: 从 Power BI 服务主页查找内容
 description: 从“主页”画布开始，找到并打开报表、仪表板和应用。
 author: mihart
-ms.reviewer: ''
+ms.reviewer: mihart
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
 ms.date: 03/11/2020
 ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: 83c834b05846c22577b7987d341c295a1e763b59
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 7738fef88a82b84c1391af4b3e784b305478ccb2
+ms.sourcegitcommit: e8ed3d120699911b0f2e508dc20bd6a9b5f00580
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "79113307"
+ms.lasthandoff: 07/11/2020
+ms.locfileid: "86263924"
 ---
 # <a name="find-your-dashboards-reports-and-apps"></a>查找仪表板、报表和应用
 

@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: how-to
-ms.date: 02/25/2020
+ms.date: 07/08/2020
 LocalizationGroup: Share your work
-ms.openlocfilehash: 5e7fe8a7c71927a1e89bd4e86209c580ae1f3b29
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 26c27c8cd33929c7bb83a8ef5b1faed0fb12e502
+ms.sourcegitcommit: c83146ad008ce13bf3289de9b76c507be2c330aa
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85225680"
+ms.lasthandoff: 07/10/2020
+ms.locfileid: "86216553"
 ---
 # <a name="publish-to-web-from-power-bi"></a>从 Power BI 发布到 Web
 
@@ -29,10 +29,6 @@ ms.locfileid: "85225680"
 ## <a name="create-embed-codes-with-publish-to-web"></a>通过“发布到 Web”创建嵌入代码
 
 可在个人工作区或组工作区中编辑的报表提供有“发布到 Web”功能。  但与你共享的报表，或依赖行级安全性来保护数据的报表不提供该功能。 请参阅以下[限制](#limitations)部分，了解有关不支持“发布到 Web”的情况的完整列表 。 使用“发布到 Web”前请查看本文之前所述的“警告”部分 。
-
-以下短视频演示了此功能的工作方式。 然后，按以下步骤自行尝试。
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/UF9QtqE7s4Y" frameborder="0" allowfullscreen></iframe>
 
 以下步骤介绍如何使用**发布到 Web**。
 

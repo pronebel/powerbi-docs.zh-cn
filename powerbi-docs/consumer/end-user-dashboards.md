@@ -2,19 +2,19 @@
 title: 什么是仪表板及如何打开仪表板？
 description: 仪表板是 Power BI 服务的一个主要功能。
 author: mihart
-ms.reviewer: ''
+ms.reviewer: mihart
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
 ms.date: 06/19/2020
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 64fa13f3e95f43813c657eb9be195fb03e57a06b
-ms.sourcegitcommit: caf60154a092f88617eb177bc34fb784f2365962
+ms.openlocfilehash: 5f8b2fd4c999853e09852e69406968cad2fb9490
+ms.sourcegitcommit: c83146ad008ce13bf3289de9b76c507be2c330aa
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/25/2020
-ms.locfileid: "85354906"
+ms.lasthandoff: 07/10/2020
+ms.locfileid: "86216169"
 ---
 # <a name="dashboards-for-power-bi-service-consumers"></a>面向 Power BI 服务使用者的仪表板
 

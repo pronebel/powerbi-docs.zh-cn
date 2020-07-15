@@ -2,7 +2,7 @@
 title: 选择启用预览功能
 description: 了解如何启用（和禁用）处于预览阶段的 Power BI 功能。
 author: mihart
-ms.reviewer: ''
+ms.reviewer: mihart
 featuredvideoid: ''
 ms.service: powerbi
 ms.subservice: powerbi-consumer
@@ -10,12 +10,12 @@ ms.topic: how-to
 ms.date: 03/11/2020
 ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: 88172ea1c27c1a547d57311f261450ee63fcd12e
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 7db5832ec97ff8be59e704cafddcb04dd4d8f3f8
+ms.sourcegitcommit: e8ed3d120699911b0f2e508dc20bd6a9b5f00580
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85236349"
+ms.lasthandoff: 07/11/2020
+ms.locfileid: "86263561"
 ---
 # <a name="opt-in-for-power-bi-service-preview-features"></a>选择使用 Power BI 服务预览功能
 
