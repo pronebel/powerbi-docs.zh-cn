@@ -2,19 +2,19 @@
 title: 更改报表页的显示大小和比例
 description: 在 Power BI 报表中更改页面的显示设置
 author: mihart
-ms.reviewer: ''
+ms.reviewer: mihart
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: how-to
 ms.date: 03/11/2020
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: 1274f281c25c89776fc601caf762ad1aea5fe7f3
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: f8d5fd8eeece23b6491318f54064c19fe11a8c00
+ms.sourcegitcommit: e8ed3d120699911b0f2e508dc20bd6a9b5f00580
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85238859"
+ms.lasthandoff: 07/11/2020
+ms.locfileid: "86264288"
 ---
 # <a name="change-the-display-of-a-report-page"></a>更改报表页的显示
 

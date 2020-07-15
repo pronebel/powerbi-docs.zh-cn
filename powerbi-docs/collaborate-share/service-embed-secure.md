@@ -9,12 +9,12 @@ ms.subservice: powerbi-service
 ms.topic: how-to
 ms.date: 04/27/2020
 LocalizationGroup: Share your work
-ms.openlocfilehash: a2e7445db843788293a20fbbebdffd2952dfeb6a
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: e1925c57869a58f111b77c6a50a1289224440ecb
+ms.sourcegitcommit: 01b5fb05f723eab2557e0e420bfde23197987a96
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85226197"
+ms.lasthandoff: 07/14/2020
+ms.locfileid: "86300990"
 ---
 # <a name="embed-a-report-in-a-secure-portal-or-website"></a>在安全门户或网站中嵌入报表
 
@@ -122,8 +122,6 @@ report.src = newUrl;
 ## <a name="considerations-and-limitations"></a>注意事项和限制
 
 * 安全嵌入方案支持分页报表，并且还支持带有 URL 参数的分页报表。 阅读有关[在分页报表的 URL 中传递报表参数](../paginated-reports/report-builder-url-pass-parameters.md)的详细信息。
-
-* 不支持外部来宾用户访问 Azure 企业到企业 (B2B)。
 
 * 安全嵌入适用于发布到 Power BI 服务的报表。
 
