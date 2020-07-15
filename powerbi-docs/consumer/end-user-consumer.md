@@ -2,18 +2,19 @@
 title: 什么是 Power BI“使用者”？
 description: 面向使用者（也称为最终用户或业务用户）的 Power BI 概述。
 author: mihart
+ms.reviewer: mihart
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: overview
 ms.date: 05/22/2020
 ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: 76c97f9fd98cc40893422645a51ae71b0973881f
-ms.sourcegitcommit: eff98b49e794c7c07670dcfb871f43cb06ed9d3a
+ms.openlocfilehash: 24f507a2457793590b6b123c0f4c9cb68dea4102
+ms.sourcegitcommit: c18130ea61e67ba111be870ddb971c6413a4b632
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/19/2020
-ms.locfileid: "85094797"
+ms.lasthandoff: 07/09/2020
+ms.locfileid: "86161735"
 ---
 # <a name="the-power-bi-service-for-consumers"></a>面向使用者的 Power BI 服务
 

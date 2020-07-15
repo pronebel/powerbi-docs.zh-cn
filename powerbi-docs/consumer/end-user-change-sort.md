@@ -2,19 +2,19 @@
 title: 更改报表中的图表排序方式
 description: 更改 Power BI 报表中的图表排序方式
 author: mihart
-ms.reviewer: ''
+ms.reviewer: mihart
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: how-to
 ms.date: 06/25/2020
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: 10db78c01ea074e2b3fab71715a3df92ae207f8e
-ms.sourcegitcommit: e8b12d97076c1387088841c3404eb7478be9155c
+ms.openlocfilehash: c70229a37a697fedba54cde1899073f20710f542
+ms.sourcegitcommit: c18130ea61e67ba111be870ddb971c6413a4b632
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/01/2020
-ms.locfileid: "85782475"
+ms.lasthandoff: 07/09/2020
+ms.locfileid: "86161758"
 ---
 # <a name="change-how-a-chart-is-sorted-in-a-power-bi-report"></a>更改 Power BI 报表中的图表排序方式
 
