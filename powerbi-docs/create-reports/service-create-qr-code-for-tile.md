@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 03/07/2018
 ms.author: maggies
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 5a363a951e9c8f6cc04f825c64dce811d0a954e8
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 7ce25bb448d698f8c1ce4b77e8823e96220a1792
+ms.sourcegitcommit: e8ed3d120699911b0f2e508dc20bd6a9b5f00580
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85219312"
+ms.lasthandoff: 07/11/2020
+ms.locfileid: "86264463"
 ---
 # <a name="create-a-qr-code-for-a-tile-in-power-bi-to-use-in-the-mobile-apps"></a>在 Power BI 中为磁贴创建 QR 码以供在移动应用中使用
 Power BI 中的 QR 代码可以将现实生活中的任何东西直接连接到相关的 BI 信息 &#151; 无需进行导航或搜索。
@@ -26,13 +26,13 @@ Power BI 中的 QR 代码可以将现实生活中的任何东西直接连接到�
 
 ## <a name="create-a-qr-code-for-a-tile"></a>为磁贴创建 QR 代码
 1. 打开 Power BI 服务中的 Power BI 仪表板。
-2. 选择磁贴右上角的“更多选项”(…)，然后选择“焦点模式”![](media/service-create-qr-code-for-tile/fullscreen-icon.jpg)   。
-3. 选择右上角的“更多选项”(…)，然后选择“生成 QR 代码”   。 
+2. 选择磁贴右上角的“更多选项(…)”，然后选择“焦点模式” ![全屏图标](media/service-create-qr-code-for-tile/fullscreen-icon.jpg)。
+3. 选择右上角的“更多选项”(…)，然后选择“生成 QR 码” 。 
    
-    ![](media/service-create-qr-code-for-tile/power-bi-create-qr-code-tile.png)
+    ![磁贴的屏幕截图，其中显示指针从省略号指向“生成 QR 码”。](media/service-create-qr-code-for-tile/power-bi-create-qr-code-tile.png)
 4. 将出现带有 QR 代码的对话框。 
    
-    ![](media/service-create-qr-code-for-tile/pbi_qrcode_opportunity_count.png)
+    ![对话框的屏幕截图，其中显示了 QR 码可供下载或保存。](media/service-create-qr-code-for-tile/pbi_qrcode_opportunity_count.png)
 5. 你可以在此扫描 QR 代码或下载并保存该代码，以便可以： 
    
    * 将其添加到电子邮件或其他文档，或 

@@ -6,16 +6,16 @@ ms.reviewer: lukaszp
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: how-to
-ms.date: 04/19/2020
+ms.date: 07/01/2020
 ms.author: mihart
 ms.custom: licensing support, css_fy20Q4
 LocalizationGroup: Share your work
-ms.openlocfilehash: ed50045aca966face5d758c9036508bdfef81d5e
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 22e044f11b62d3375eabd97545070caaa0bbcfd7
+ms.sourcegitcommit: c18130ea61e67ba111be870ddb971c6413a4b632
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85236560"
+ms.lasthandoff: 07/09/2020
+ms.locfileid: "86161967"
 ---
 # <a name="apps-in-power-bi"></a>Power BI 中的“应用”
 
@@ -28,10 +28,10 @@ ms.locfileid: "85236560"
 
 应用在“应用”内容列表中进行整理。 只需选择“应用”即可显示应用。 将鼠标悬停在应用上可查看上次更新日期和所有者。 
 
-![Power BI 中的“应用”](./media/end-user-apps/power-bi-apps.png)
+![Power BI 中的“应用”](./media/end-user-apps/power-bi-apps-red.png)
 
 
-使用应用功能需要 Power BI Pro 许可证或将应用存储在高级容量中。 若要了解有关许可证和高级容量的详细信息，请参阅[使用者的许可证](end-user-license.md)。
+使用应用功能需要 Power BI Pro 许可证或将应用存储在高级容量中并与你共享。 若要了解有关许可证和高级容量的详细信息，请参阅[使用者的许可证](end-user-license.md)。
 
 ## <a name="app-designers-and-app-consumers"></a>应用设计者和应用使用者 
 根据你的角色，如果你是设计者，则可创建应用供你自己使用或与同事共享。 或者，如果你是使用者，则可接收和下载其他人创建的应用。 本文适用于应用使用者。
@@ -43,7 +43,14 @@ ms.locfileid: "85236560"
 
 <!-- add conceptual art -->
 ## <a name="get-a-new-app"></a>获取新的应用
-获取新应用的最佳方法是通过 [Power BI 应用商城](https://app.powerbi.com/groups/me/getapps/apps)。
+可通过以下几种方式来获取新应用。 你可以搜索、查找和安装应用，应用创建者可以与你共享应用。 
+
+### <a name="find-and-install-apps-from-the-power-bi-apps-marketplace"></a>从 Power BI 应用市场中查找和安装应用
+查找应用的一种方法是从 Power BI 应用屏幕中选择“获取应用”。 
+
+![“应用”屏幕的屏幕截图，其中显示了“获取应用”图标](./media/end-user-apps/power-bi-get-apps-icon.png)
+
+浏览 Power BI 应用市场中的应用列表，直到找到要安装的应用。 从仅适用于公司人员的“组织应用”中进行选择，或者从由 Microsoft 和社区提供并供任何 Power BI 用户进行安装的“模板应用”中进行选择 。 
 
 ![Power BI 应用商城](./media/end-user-apps/power-bi-app-marketplace.png)
 
@@ -51,7 +58,7 @@ ms.locfileid: "85236560"
 
 * 应用设计者可以在 Power BI 帐户中自动安装应用，下次打开 Power BI 服务时，就可在“应用”内容列表中看到此新应用。 
 * 应用设计人员可通过电子邮件向你发送应用的直接链接。 选择此链接将在 Power BI 服务中打开该应用。
-* 在移动设备上的 Power BI 中，只能通过直接链接（而不是 AppSource）安装应用。 如果应用作者自动安装应用，将能够在你的应用列表中看到它。 
+* 在移动设备上的 Power BI 中，你只能通过直接链接（而不是应用市场）安装应用。 如果应用作者自动安装应用，将能够在你的应用列表中看到它。 
 
 ## <a name="next-steps"></a>后续步骤
 * [打开某一应用并与之交互](end-user-app-view.md)

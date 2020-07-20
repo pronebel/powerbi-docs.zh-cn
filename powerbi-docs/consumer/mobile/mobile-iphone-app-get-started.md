@@ -8,12 +8,12 @@ ms.subservice: powerbi-mobile
 ms.topic: how-to
 ms.date: 02/10/2020
 ms.author: painbar
-ms.openlocfilehash: 1f71c2c835c729f3a0afe824835deaee719568c2
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 989e77eeaa559ac74579c1d981f77f2bca374f01
+ms.sourcegitcommit: e8ed3d120699911b0f2e508dc20bd6a9b5f00580
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85219979"
+ms.lasthandoff: 07/11/2020
+ms.locfileid: "86264773"
 ---
 # <a name="get-started-with-the-power-bi-mobile-app-on-ios-devices"></a>iOS 设备上的 Power BI 移动应用入门
 iPhone 和 iPad 上的 iOS 版 Microsoft Power BI 应用提供了 Power BI、Power BI 报表服务器和 Reporting Services 的移动 BI 体验。 通过触控移动设备实现的实时访问，可以随时随地查看本地和云中的公司仪表板，并与之进行交互。 然后，可以浏览仪表板中的数据，并通过电子邮件或短信的方式将数据与同事共享。 在你的 [Apple Watch](mobile-apple-watch.md) 上保持最新的数据。  
@@ -66,7 +66,7 @@ iPhone 和 iPad 上的 iOS 版 Microsoft Power BI 应用提供了 Power BI、Pow
 点击标头中的放大镜，开始搜索 Power BI 内容。
 
 ## <a name="view-your-favorite-dashboards-and-reports"></a>查看你收藏的仪表板和报表
-点击导航栏上的“收藏夹”(![](./media/mobile-iphone-app-get-started/power-bi-mobile-apps-home-favorites-icon.png))，查看“收藏夹”页。 
+点击导航栏上的“收藏夹”（![收藏夹图标](./media/mobile-iphone-app-get-started/power-bi-mobile-apps-home-favorites-icon.png)），查看“收藏夹”页。 
 
 阅读有关 [Power BI 移动应用中的收藏夹](mobile-apps-favorites.md) 的更多信息。
 

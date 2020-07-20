@@ -10,34 +10,34 @@ ms.topic: how-to
 ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 7a3444aca5f74dd54ba292548ac5fa1d848f5172
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 618e2acb415d72870fd599142775720955e8ba88
+ms.sourcegitcommit: c83146ad008ce13bf3289de9b76c507be2c330aa
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85223980"
+ms.lasthandoff: 07/10/2020
+ms.locfileid: "86214703"
 ---
 # <a name="connect-to-webpages-from-power-bi-desktop"></a>通过 Power BI Desktop 连接到网页
 
 用户可以连接到网页，然后将其数据导入到 Power BI Desktop 并在视觉对象和数据模型中使用该数据。
 
-在 Power BI Desktop 中，从“开始”  功能区选择“获取数据”>“Web”  。
+在 Power BI Desktop 中，从“开始”功能区选择“获取数据”>“Web”。
 
-![](media/desktop-connect-to-web/connect-to-web_1.png)
+![Power BI Desktop 的屏幕截图，其中显示了 Web 选择。](media/desktop-connect-to-web/connect-to-web_1.png)
 
 此时将出现一个对话框，要求提供想要从中导入数据的网页的 URL。
 
-![](media/desktop-connect-to-web/connect-to-web_2.png)
+![Web 对话框的屏幕截图，其中显示了 URL 字段。](media/desktop-connect-to-web/connect-to-web_2.png)
 
-键入（或粘贴）该 URL 后，请选择“确定”  。 Power BI Desktop 将连接到该页面，然后在“导航器”  窗口显示页面的可用数据。 当你选择了其中一个可用的数据元素（如整页的表）后，“导航器”  窗口将在右侧显示该数据的预览。
+键入（或粘贴）该 URL 后，请选择“确定”。 Power BI Desktop 将连接到该页面，然后在“导航器”窗口显示页面的可用数据。 当你选择了其中一个可用的数据元素（如整页的表）后，“导航器”窗口将在右侧显示该数据的预览。
 
-![](media/desktop-connect-to-web/connect-to-web_3.png)
+![“导航器”对话框的屏幕截图，其中显示了所选表的数据的预览。](media/desktop-connect-to-web/connect-to-web_3.png)
 
-你可以选择“编辑”  按钮，启动“编辑查询器”  ，在其中你可以在将数据导入 Power BI Desktop 前在网页上调整和转换该数据。 或者也可以选择“加载”  按钮，然后导入左窗格中所有选定的数据元素。
+你可以选择“编辑”按钮，启动“编辑查询器”，在其中你可以在将数据导入 Power BI Desktop 前在网页上调整和转换该数据。 或者也可以选择“加载”按钮，然后导入左窗格中所有选定的数据元素。
 
-当我们选择“加载”时，  Power BI Desktop 将导入所选项目，并使其在 Power BI Desktop 中的报表视图右侧的“字段”  窗格中可用。
+当我们选择“加载”时，Power BI Desktop 将导入所选项目，并使其在 Power BI Desktop 中的报表视图右侧的“字段”窗格中可用。
 
-![](media/desktop-connect-to-web/connect-to-web_4.png)
+![“字段”窗格的屏幕截图，其中显示了所选表的列表。](media/desktop-connect-to-web/connect-to-web_4.png)
 
 连接到网页并将其数据导入 Power BI Desktop 的步骤就是这些。
 

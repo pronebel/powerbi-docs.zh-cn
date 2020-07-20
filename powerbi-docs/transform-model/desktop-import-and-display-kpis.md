@@ -9,28 +9,28 @@ ms.topic: how-to
 ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Model your data
-ms.openlocfilehash: 41289fbfb76dc2453ccb871f93cf1cb4e18de7f7
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: b12cc24c7ddddd0bc866a3bbeb23e0c7097711db
+ms.sourcegitcommit: c83146ad008ce13bf3289de9b76c507be2c330aa
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85237090"
+ms.lasthandoff: 07/10/2020
+ms.locfileid: "86215236"
 ---
 # <a name="import-and-display-kpis-in-power-bi"></a>在 Power BI 中导入和显示 KPI
-借助 Power BI Desktop  ，可以导入并显示表、矩阵和卡片中的 KPI。
+借助 Power BI Desktop，可以导入并显示表、矩阵和卡片中的 KPI。
 
 按照以下步骤导入并显示 KPI。
 
-1. 启动具有 Power Pivot 模型和 KPI 的 Excel 工作簿。 本练习会使用名为“KPI”的工作簿。 
+1. 启动具有 Power Pivot 模型和 KPI 的 Excel 工作簿。 本练习会使用名为“KPI”的工作簿。
 
-1. 使用“文件”->“导入”->“Excel 工作簿内容”  ，将 Excel 工作簿导入到 Power BI 中。 也可以 [了解如何导入工作簿](../connect-data/desktop-import-excel-workbooks.md)。 
+1. 使用“文件”->“导入”->“Excel 工作簿内容”，将 Excel 工作簿导入到 Power BI 中。 也可以 [了解如何导入工作簿](../connect-data/desktop-import-excel-workbooks.md)。 
 
-1. 导入到 Power BI 之后，KPI 将显示在“字段”  窗格中，并标记有![交通灯](media/desktop-import-and-display-kpis/traffic.png)图标。 若要在报表中使用 KPI，请确保展开其内容，显示“值”  、“目标”  和“状态”  字段。
+1. 导入到 Power BI 之后，KPI 将显示在“字段”窗格中，并标记有![交通灯](media/desktop-import-and-display-kpis/traffic.png)图标。 若要在报表中使用 KPI，请确保展开其内容，显示“值”、“目标”和“状态”字段。
 
-    ![](media/desktop-import-and-display-kpis/desktoppreviewfeatureon2.png)
-
-1. 导入的 KPI 最好在标准可视化效果类型中使用，如“表”  类型。 Power BI 还包括“KPI”  可视化效果类型，应仅用于创建新的 KPI。
+    ![Power BI Desktop 的屏幕截图，其中显示了在“字段”窗格中展开的增量 KPI。](media/desktop-import-and-display-kpis/desktoppreviewfeatureon2.png)
+ 
+1. 导入的 KPI 最好在标准可视化效果类型中使用，如“表”类型。 Power BI 还包括“KPI”可视化效果类型，应仅用于创建新的 KPI。
    
-    ![](media/desktop-import-and-display-kpis/desktoppreviewfeatureon3.png)
+    ![Power BI Desktop 的屏幕截图，其中显示了在“字段”窗格中选中的 Table1 字段。](media/desktop-import-and-display-kpis/desktoppreviewfeatureon3.png)
 
 以上是其中包含的全部内容。 KPI 可用于突出显示趋势、进度或其他重要指标。

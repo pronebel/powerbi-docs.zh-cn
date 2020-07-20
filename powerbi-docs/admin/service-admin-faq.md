@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 09/09/2019
 ms.author: kfollis
 LocalizationGroup: Administration
-ms.openlocfilehash: 25b5665aa531c347d43a197b53938aec569b9d2d
-ms.sourcegitcommit: 2cb249fc855e369eed1518924fbf026d5ee07eb1
+ms.openlocfilehash: aed09a9cd26452a03363e8606e45938715595558
+ms.sourcegitcommit: c18130ea61e67ba111be870ddb971c6413a4b632
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/24/2020
-ms.locfileid: "83812165"
+ms.lasthandoff: 07/09/2020
+ms.locfileid: "86161666"
 ---
 # <a name="administering-power-bi---frequently-asked-questions-faq"></a>管理 Power BI - 常见问题 (FAQ)
 
@@ -130,7 +130,7 @@ Get-MsolCompanyInformation | fl allow*
      connect-msolservice -credential $msolcred
     ```
 
-   ![通过 PowerShell 登录 Azure Active Directory 的屏幕截图](media/service-admin-licensing-organization/azure-ad-sign-in.png)
+   ![通过 PowerShell 登录 Azure Active Directory 的屏幕截图。](media/service-admin-licensing-organization/azure-ad-sign-in.png)
 
 1. 登录后，运行以下命令以查看租户的当前设置情况。
 

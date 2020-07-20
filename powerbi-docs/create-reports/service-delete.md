@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 09/11/2018
 ms.author: maggies
 LocalizationGroup: Common tasks
-ms.openlocfilehash: f74b90b944f40b5d5ff046f60bd67ca4c3c7eb83
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: ff31548801f372fa1e20949e5c109cc9214f55e1
+ms.sourcegitcommit: e8ed3d120699911b0f2e508dc20bd6a9b5f00580
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85238407"
+ms.lasthandoff: 07/11/2020
+ms.locfileid: "86264476"
 ---
 # <a name="delete-almost-anything-in-power-bi-service"></a>在 Power BI 服务中删除几乎所有内容
 本文介绍如何在 Power BI 服务中删除仪表板、报表、工作簿、数据集、应用、可视化效果和工作区。
@@ -125,7 +125,7 @@ ms.locfileid: "85238407"
 从你的应用列表页删除应用不会删除其他成员的应用。
 
 1. 在导航窗格中选择“应用”，以打开应用列表页。
-2. 将鼠标悬停在要删除的应用上，然后选择“删除”![](media/service-delete/power-bi-delete-report2.png) 图标。
+2. 将鼠标悬停在要删除的应用上，然后选择“删除” ![垃圾箱图标](media/service-delete/power-bi-delete-report2.png)  图标。
 
    ![选择应用](media/service-delete/power-bi-delete-app.png)
 

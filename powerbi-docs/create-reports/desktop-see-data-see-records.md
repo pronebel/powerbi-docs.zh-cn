@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 05/21/2020
 ms.author: davidi
 LocalizationGroup: Learn more
-ms.openlocfilehash: f70876b3b8c1815576ed019f88b67296f7aec052
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: f9fa3ee1c1e0f757eb3b464785c8cb3fe3ab6e78
+ms.sourcegitcommit: e8ed3d120699911b0f2e508dc20bd6a9b5f00580
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85238627"
+ms.lasthandoff: 07/11/2020
+ms.locfileid: "86264743"
 ---
 # <a name="use-visual-table-and-data-point-table-in-power-bi-desktop"></a>使用 Power BI Desktop 中的视觉对象表和数据点表
 在 Power BI Desktop 中，可以深入了解可视化效果的详细信息，并能查看选定视觉对象的基础数据或单个数据记录的文本表示形式。 这些功能有时亦称为“单击后了解详细信息”、“深入了解”或“深入了解详细信息”。
@@ -74,7 +74,7 @@ ms.locfileid: "85238627"
 
 当选择某个数据元素的“数据点表”，Power BI Desktop 画布会显示与所选元素相关联的所有数据。 
 
-![](media/desktop-see-data-see-records/visual-table-09.png)
+![画布的屏幕截图，其中显示了在选择“数据点表”时与所选元素关联的所有数据。](media/desktop-see-data-see-records/visual-table-09.png)
 
 若要返回报表，请选择画布左上角的“< 返回报表”。
 

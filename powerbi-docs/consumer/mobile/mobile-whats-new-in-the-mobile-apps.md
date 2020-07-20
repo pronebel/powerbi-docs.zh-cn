@@ -6,14 +6,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: conceptual
-ms.date: 06/24/2020
+ms.date: 07/08/2020
 ms.author: painbar
-ms.openlocfilehash: 9655783decee99bc90071cdfbd66a8b58d8272f4
-ms.sourcegitcommit: e8b12d97076c1387088841c3404eb7478be9155c
+ms.openlocfilehash: 2a8186f24e7a82604ab941e25c2a5aa471efe614
+ms.sourcegitcommit: d8acf2fb0318708a3e8e1e259cb3747b0312b312
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/01/2020
-ms.locfileid: "85782600"
+ms.lasthandoff: 07/15/2020
+ms.locfileid: "86385989"
 ---
 # <a name="whats-new-in-the-mobile-apps-for-power-bi"></a>Power BI 移动应用中的新功能
 有关相关的“新增功能”的信息，请参阅：
@@ -24,6 +24,13 @@ ms.locfileid: "85782600"
 
 >[!NOTE]
 >我们将于 2021 年 3 月 16 日终止对使用 Windows 10 移动版的手机提供 Power BI 移动应用支持。 [了解详细信息](https://go.microsoft.com/fwlink/?linkid=2121400)
+
+## <a name="july-2020"></a>2020 年 7 月
+### <a name="the-power-bi-mobile-app-for-windows-now-supports-organizational-branding"></a>适用于 Windows 的 Power BI 移动应用现在支持组织品牌
+现在，管理员为与组织的品牌主题匹配而对 Power BI 的外观进行的任何更改都将显示在 Power BI 移动应用中。 此类更改可能包括顶部导航栏、组织徽标和横幅图像的新配色方案。  
+
+### <a name="disable-single-sign-on-via-remote-configuration-ios-and-android"></a>通过远程配置禁用单一登录（iOS 和 Android）
+IT 管理员现在可以远程禁用 Power BI 移动应用的单一登录，从而增强多用户设备上的安全性和权限合规性。 [了解详细信息！](mobile-app-configuration.md#disable-single-sign-on-ios-and-android)
 
 ## <a name="june-2020"></a>2020 年 6 月
 ### <a name="show-your-bookmarks-in-slideshows-windows"></a>在幻灯片放映中显示书签 (Windows)
@@ -860,15 +867,15 @@ R 磁贴和 Web 小组件 - 在移动设备上的仪表板中查看新磁贴类�
 * 具有基于百分比的 y 轴的折线图现在根据实际数据计算可视化范围。 现在该图从图表的最低数据点开始，而不是从默认值开始。
 * 折线图、柱形图和条形图现在可以具有数据标签。 
   
-    ![](media/mobile-whats-new-in-the-mobile-apps/pbi_mobilelinechart.png)
+    ![折线图的屏幕截图，其中显示了每月 VTB 百分比和数据标签。 ](media/mobile-whats-new-in-the-mobile-apps/pbi_mobilelinechart.png)
 
 #### <a name="iphone"></a>iPhone
 * 时刻关注组的最新仪表板 -- 每当团队成员将仪表板添加到你的一个组时，就会在 iPhone 上收到通知。
   
-    ![](media/mobile-whats-new-in-the-mobile-apps/pbi_iph_grpdashalertcrop.png)
+    ![仪表板的屏幕截图，其中显示了 iPhone 上的通知。](media/mobile-whats-new-in-the-mobile-apps/pbi_iph_grpdashalertcrop.png)
 * 你现在可以水平查看仪表板，只需旋转你的手机。 阅读更多有关 [iPhone 应用中的横向模式](https://powerbi.microsoft.com/blog/enjoy-the-landscape-with-the-power-bi-iphone-app/)的内容。
   
-    ![](media/mobile-whats-new-in-the-mobile-apps/pbi_iph_landscape.png)
+    ![仪表板的屏幕截图，其中显示了 iPhone 中的横向模式。](media/mobile-whats-new-in-the-mobile-apps/pbi_iph_landscape.png)
 
 ### <a name="september-2015"></a>2015 年 9 月
 Power BI 移动应用中的改进 -- Android、iOS（iPhone 和 iPad）和 Windows。 阅读 [9 月中旬的 Power BI 移动博客文章](https://powerbi.microsoft.com/blog/power-bi-mobile-mid-september-updates-are-here/)。

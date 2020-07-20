@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 04/23/2019
 ms.author: kfollis
 LocalizationGroup: Troubleshooting
-ms.openlocfilehash: 6c6bbf8476087532fd3a049a0e4bde3191892325
-ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
+ms.openlocfilehash: d2d28d8ea3f7e2e7217124483f90ecc28d44314f
+ms.sourcegitcommit: c18130ea61e67ba111be870ddb971c6413a4b632
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/19/2020
-ms.locfileid: "83564048"
+ms.lasthandoff: 07/09/2020
+ms.locfileid: "86161688"
 ---
 # <a name="use-an-alternate-email-address"></a>使用备用电子邮件地址
 
@@ -37,7 +37,7 @@ ms.locfileid: "83564048"
 
     如果无法编辑详细信息，表明你的电子邮件地址是由管理员管理。 若要更新电子邮件地址，请联系管理员。
 
-    ![联系人详细信息](media/service-admin-alternate-email-address-for-power-bi/contact-details.png)
+    ![“联系人详细信息”对话框的屏幕截图，其中显示了如何指定备用电子邮件。](media/service-admin-alternate-email-address-for-power-bi/contact-details.png)
 
 1. 在“备用电子邮件地址”字段中，输入希望 Microsoft 365 用于 Power BI 更新的电子邮件地址。
 

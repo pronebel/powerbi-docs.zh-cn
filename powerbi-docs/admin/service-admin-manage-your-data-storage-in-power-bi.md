@@ -10,12 +10,12 @@ ms.topic: how-to
 ms.date: 02/25/2020
 ms.author: maggies
 LocalizationGroup: Administration
-ms.openlocfilehash: bd671e32167837a5b8b96388bb2687616e6cada5
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 50d3adef65791c3fecd1a2125f67318fb8ab0298
+ms.sourcegitcommit: c83146ad008ce13bf3289de9b76c507be2c330aa
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85228571"
+ms.lasthandoff: 07/10/2020
+ms.locfileid: "86214249"
 ---
 # <a name="manage-data-storage-in-power-bi-workspaces"></a>管理 Power BI 工作区中的数据存储
 
@@ -48,21 +48,19 @@ ms.locfileid: "85228571"
 
 共享仪表板的大小因其上的固定内容而有所不同。 例如，如果固定分属两个数据集的两个报表中的项，则其大小包括这两个数据集。
 
-<a name="manage"/>
-
 ## <a name="manage-items-you-own"></a>管理拥有的项
 
 确定你 Power BI 帐户中的数据存储使用情况，并管理帐户。
 
-1. 若要管理你自己的存储，请转到导航窗格中的“我的工作区”  。
+1. 若要管理你自己的存储，请转到导航窗格中的“我的工作区”。
    
-    ![我的工作区](media/service-admin-manage-your-data-storage-in-power-bi/pbi_myworkspace.png)
+    ![导航窗格的屏幕截图，其中突出显示了“我的工作区”。](media/service-admin-manage-your-data-storage-in-power-bi/pbi_myworkspace.png)
 
-2. 依次选择右上角的齿轮图标![齿轮图标](media/service-admin-manage-your-data-storage-in-power-bi/pbi_gearicon.png)\>“管理个人存储”  。
+2. 请选择“管理个人存储空间”右上角的齿轮图标![齿轮图标](media/service-admin-manage-your-data-storage-in-power-bi/pbi_gearicon.png)。
    
     顶部栏会显示你已使用的存储限制量。
    
-    ![管理存储空间上限](media/service-admin-manage-your-data-storage-in-power-bi/pbi_persnlstorage.png)
+    ![“管理存储空间上限”的屏幕截图，其中显示了已使用的存储量。](media/service-admin-manage-your-data-storage-in-power-bi/pbi_persnlstorage.png)
    
     数据集和报表会分为两个选项卡：
    
@@ -74,14 +72,14 @@ ms.locfileid: "85228571"
 请记住，你或其他人可能会具有基于某个数据集的报表和仪表板。 如果删除该数据集，则这些报表和仪表板将无法再正常工作。
 
 ## <a name="manage-your-workspace"></a>管理工作区
-1. 依次选择“工作区”旁边的箭头 \> 工作区的名称  。
+1. 依次选择“工作区”旁边的箭头和工作区的名称。
    
-    ![选择“工作区”](media/service-admin-manage-your-data-storage-in-power-bi/pbi_groupworkspaces.png)
-2. 依次选择右上角的齿轮图标![齿轮图标](media/service-admin-manage-your-data-storage-in-power-bi/pbi_gearicon.png)\>“管理组存储”  。
+    ![“工作区”选项的屏幕截图，其中显示了“销售组”工作区。](media/service-admin-manage-your-data-storage-in-power-bi/pbi_groupworkspaces.png)
+2. 请选择“管理组存储空间”右上角的齿轮图标![齿轮图标](media/service-admin-manage-your-data-storage-in-power-bi/pbi_gearicon.png)。
    
     顶部栏会显示已使用的组存储限制量。
    
-    ![管理工作区存储](media/service-admin-manage-your-data-storage-in-power-bi/pbi_groupstorage.png)
+    ![“管理存储空间”的屏幕截图，其中显示销售组已使用的存储空间上限。](media/service-admin-manage-your-data-storage-in-power-bi/pbi_groupstorage.png)
    
     数据集和报表会分为两个选项卡：
    
@@ -104,15 +102,15 @@ ms.locfileid: "85228571"
 
 如果选择齿轮图标 ![齿轮图标](media/service-admin-manage-your-data-storage-in-power-bi/pbi_gearicon.png)，你会看到一个红色条，指示你已超过数据容量限制。
 
-![已达到存储限制](media/service-admin-manage-your-data-storage-in-power-bi/manage-storage-limit.png)
+![存储容量的屏幕截图，其中显示已达到上限。](media/service-admin-manage-your-data-storage-in-power-bi/manage-storage-limit.png)
 
-此限制也会显示在“管理个人存储空间”中  。
+此限制也会显示在“管理个人存储空间”中。
 
- ![管理个人存储，超过存储空间上限](media/service-admin-manage-your-data-storage-in-power-bi/manage-storage-limit2.png)
+ ![个人存储容量的屏幕截图，其中显示 Jane 的存储容量上限已达到。](media/service-admin-manage-your-data-storage-in-power-bi/manage-storage-limit2.png)
 
- 尝试执行的操作达到某个限制时，你会看到一条超出限制的消息。 可以[管理](#manage)存储，以减少存储量，从而符合限制要求。
+ 尝试执行的操作达到某个限制时，你会看到一条超出限制的消息。 可以[管理存储空间](#manage-items-you-own)，以减少存储量，从而符合限制要求。
 
- ![超出存储空间上限](media/service-admin-manage-your-data-storage-in-power-bi/powerbi-pro-over-limit.png)
+ ![“超出存储空间上限”对话框的屏幕截图，其中显示已达到上限。](media/service-admin-manage-your-data-storage-in-power-bi/powerbi-pro-over-limit.png)
 
  ## <a name="next-steps"></a>后续步骤
 

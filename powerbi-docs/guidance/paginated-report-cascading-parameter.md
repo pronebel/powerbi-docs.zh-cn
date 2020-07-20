@@ -8,12 +8,12 @@ ms.subservice: report-builder
 ms.topic: conceptual
 ms.date: 01/14/2020
 ms.author: v-pemyer
-ms.openlocfilehash: 90f501b257313c48cbef13517747ff83cd9ea9d1
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 35a62923ba69520c1197e7bb80114a22ec1d9a20
+ms.sourcegitcommit: c83146ad008ce13bf3289de9b76c507be2c330aa
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "78920785"
+ms.lasthandoff: 07/10/2020
+ms.locfileid: "86214085"
 ---
 # <a name="use-cascading-parameters-in-paginated-reports"></a>在分页报表中使用级联参数
 
@@ -26,14 +26,14 @@ ms.locfileid: "78920785"
 
 有两种使用级联参数的设计方案。 它们可以有效地用于：
 
-- 筛选大量项 
-- 显示相关项 
+- 筛选大量项
+- 显示相关项
 
 ### <a name="example-database"></a>示例数据库
 
 本文中介绍的示例基于一个 Azure SQL 数据库。 该数据库记录销售运营信息，并包含用于存储经销商、产品和销售订单的各种表。
 
-名称为 Reseller  的表为每个经销商存储一条记录，共包含数千条记录。 Reseller  表包含以下列：
+名称为 Reseller 的表为每个经销商存储一条记录，共包含数千条记录。 Reseller 表包含以下列：
 
 - ResellerCode（整数）
 - ResellerName
@@ -42,7 +42,7 @@ ms.locfileid: "78920785"
 - 城市
 - 邮政编码
 
-还有一个名为 Sales  的表。 它存储销售订单记录，在 ResellerCode  列上与 Reseller  表之间具有外键关系。
+还有一个名为 Sales 的表。 它存储销售订单记录，在 ResellerCode 列上与 Reseller 表之间具有外键关系。
 
 ### <a name="example-requirement"></a>示例要求
 
@@ -60,12 +60,12 @@ ms.locfileid: "78920785"
 
 在本示例中，报表用户与五个报表参数交互。 他们必须选择“国家/地区”、“省/市/自治区”、“城市”和“邮政编码”。 最后一个参数会列出位于该地理位置的经销商。
 
-![显示以下五个报表参数的图像：国家/地区、省/市/自治区、城市、邮政编码和经销商。 前四个参数的值已设置，“经销商”列表被筛选为仅显示四个项。](media/paginated-report-cascading-parameter/filter-by-related-columns-example.png)
+![Power BI 分页报表参数的屏幕截图，其中显示了“按相关列筛选”。](media/paginated-report-cascading-parameter/filter-by-related-columns-example.png)
 
 下面介绍了如何开发级联参数：
 
 1. 创建五个报表参数，并按正确的顺序排列。
-2. 使用以下查询语句，创建用于检索不同国家/地区值的 CountryRegion  数据集：
+2. 使用以下查询语句，创建用于检索不同国家/地区值的 CountryRegion 数据集：
 
     ```sql
     SELECT DISTINCT
@@ -76,7 +76,7 @@ ms.locfileid: "78920785"
       [Country-Region]
     ```
 
-3. 使用以下查询语句创建用于检索所选国家/地区的不同省/市/自治区值的 StateProvince  数据集：
+3. 使用以下查询语句创建用于检索所选国家/地区的不同省/市/自治区值的 StateProvince 数据集：
 
     ```sql
     SELECT DISTINCT
@@ -89,7 +89,7 @@ ms.locfileid: "78920785"
       [State-Province]
     ```
 
-4. 使用以下查询语句创建用于检索所选国家/地区和省/市/自治区的不同城市值的 City  数据集：
+4. 使用以下查询语句创建用于检索所选国家/地区和省/市/自治区的不同城市值的 City 数据集：
 
     ```sql
     SELECT DISTINCT
@@ -103,8 +103,8 @@ ms.locfileid: "78920785"
       [City]
     ```
 
-5. 按同样的方法创建 PostalCode  数据集。
-6. 使用以下查询语句，创建用于检索所选地理位置值的所有经销商的 Reseller  数据集：
+5. 按同样的方法创建 PostalCode 数据集。
+6. 使用以下查询语句，创建用于检索所选地理位置值的所有经销商的 Reseller 数据集：
 
     ```sql
     SELECT
@@ -134,12 +134,12 @@ ms.locfileid: "78920785"
 
 在本示例中，报表用户与报表参数交互，以选择经销商的第一个字母。 然后，当名称以所选字母开头时，第二个参数会列出经销商。
 
-![显示以下两个报表参数的图像：“组”和“经销商”。 第一个参数值设置为字母 A，“经销商”列表筛选为以该字母开头的多个项。](media/paginated-report-cascading-parameter/filter-by-grouping-column-example.png)
+![Power BI 分页报表参数的屏幕截图，其中显示了“按分组列筛选”。](media/paginated-report-cascading-parameter/filter-by-grouping-column-example.png)
 
 下面介绍了如何开发级联参数：
 
-1. 创建 ReportGroup  和 Reseller  报表参数，并按正确的顺序排列。
-2. 使用以下查询语句，创建用于检索所有经销商使用的第一个字母的 ReportGroup  数据集：
+1. 创建 ReportGroup 和 Reseller 报表参数，并按正确的顺序排列。
+2. 使用以下查询语句，创建用于检索所有经销商使用的第一个字母的 ReportGroup 数据集：
 
     ```sql
     SELECT DISTINCT
@@ -150,7 +150,7 @@ ms.locfileid: "78920785"
       [ReportGroup]
     ```
 
-3. 使用以下查询语句，创建用于检索以所选字母开头的所有经销商的 Reseller  数据集：
+3. 使用以下查询语句，创建用于检索以所选字母开头的所有经销商的 Reseller 数据集：
 
     ```sql
     SELECT
@@ -164,16 +164,16 @@ ms.locfileid: "78920785"
       [ResellerName]
     ```
 
-4. 将 Reseller  数据集的查询参数映射到相应的报表参数。
+4. 将 Reseller 数据集的查询参数映射到相应的报表参数。
 
-将分组列添加到 Reseller  表中会更高效。 经过持久化和索引后，它将提供最佳结果。 有关详细信息，请参阅 [Specify Computed Columns in a Table](/sql/relational-databases/tables/specify-computed-columns-in-a-table)。
+将分组列添加到 Reseller 表中会更高效。 经过持久化和索引后，它将提供最佳结果。 有关详细信息，请参阅 [Specify Computed Columns in a Table](/sql/relational-databases/tables/specify-computed-columns-in-a-table)。
 
 ```sql
 ALTER TABLE [Reseller]
 ADD [ReportGroup] AS LEFT([ResellerName], 1) PERSISTED
 ```
 
-这种技术可以发挥更大的潜力。 请考虑使用下面的脚本，该脚本添加了一个新的分组列，以便按预定义的字母组合  来筛选经销商。 它还创建索引以有效地检索报表参数所需的数据。
+这种技术可以发挥更大的潜力。 请考虑使用下面的脚本，该脚本添加了一个新的分组列，以便按预定义的字母组合来筛选经销商。 它还创建索引以有效地检索报表参数所需的数据。
 
 ```sql
 ALTER TABLE [Reseller]
@@ -196,12 +196,12 @@ GO
 
 在本示例中，报表用户与报表参数交互，以输入搜索模式。 然后，当名称包含该模式时，第二个参数会列出经销商。
 
-![显示以下两个报表参数的图像：“搜索”和“经销商”。 第一个参数值设置为文本“red”，“经销商”列表筛选为包含该文本的多个项。](media/paginated-report-cascading-parameter/filter-by-search-pattern-example.png)
+![Power BI 分页报表参数的屏幕截图，其中显示了“按搜索模式筛选”。](media/paginated-report-cascading-parameter/filter-by-search-pattern-example.png)
 
 下面介绍了如何开发级联参数：
 
-1. 创建 Search  和 Reseller  报表参数，并按正确的顺序排列。
-2. 使用以下查询语句，创建用于检索包含搜索文本的所有经销商的 Reseller  数据集：
+1. 创建 Search 和 Reseller 报表参数，并按正确的顺序排列。
+2. 使用以下查询语句，创建用于检索包含搜索文本的所有经销商的 Reseller 数据集：
 
     ```sql
     SELECT
@@ -215,10 +215,10 @@ GO
       [ResellerName]
     ```
 
-3. 将 Reseller  数据集的查询参数映射到相应的报表参数。
+3. 将 Reseller 数据集的查询参数映射到相应的报表参数。
 
 > [!TIP]
-> 可以根据此设计进行改进，为报表用户提供更多的控制。 用户可以定义自己的模式匹配值。 例如，搜索值“red%”将筛选出名称以“red”字符开头  的经销商。
+> 可以根据此设计进行改进，为报表用户提供更多的控制。 用户可以定义自己的模式匹配值。 例如，搜索值“red%”将筛选出名称以“red”字符开头的经销商。
 >
 > 有关详细信息，请参阅 [LIKE (Transact-SQL)](/sql/t-sql/language-elements/like-transact-sql?view=sql-server-ver15#using-the--wildcard-character)。
 
@@ -242,12 +242,12 @@ WHERE
 
 在本示例中，报表用户与三个报表参数交互。 前两个参数设置了销售订单日期的日期范围。 然后，第三个参数列出在该时间段内已创建其订单的经销商。
 
-![显示以下三个报表参数的图像：“订单开始日期”、“订单结束日期”和“经销商”。 这两个日期参数设置为 2020 年 1 月当月，“经销商”列表筛选为表示在当月内已创建订单的经销商的多个项。](media/paginated-report-cascading-parameter/filter-relevant-items-example.png)
+![Power BI 分页报表参数的屏幕截图，其中显示了三个报表参数：“订单开始日期”、“订单结束日期”和“经销商”。](media/paginated-report-cascading-parameter/filter-relevant-items-example.png)
 
 下面介绍了如何开发级联参数：
 
-1. 创建 OrderDateStart、OrderDateEnd  和 Reseller   报表参数，并按正确的顺序排列。
-2. 使用以下查询语句，创建用于检索已在日期范围内创建订单的所有经销商的 Reseller  数据集：
+1. 创建 OrderDateStart、OrderDateEnd 和 Reseller  报表参数，并按正确的顺序排列。
+2. 使用以下查询语句，创建用于检索已在日期范围内创建订单的所有经销商的 Reseller 数据集：
 
     ```sql
     SELECT DISTINCT

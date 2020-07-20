@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 03/13/2018
 ms.author: maggies
 LocalizationGroup: Reports
-ms.openlocfilehash: 544a4e476d730a6bccc02f476903005ca19a5cca
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: b13ad1c50e62351c693adee1026a0d78aafd2daa
+ms.sourcegitcommit: e8ed3d120699911b0f2e508dc20bd6a9b5f00580
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85219335"
+ms.lasthandoff: 07/11/2020
+ms.locfileid: "86264678"
 ---
 # <a name="create-a-qr-code-for-a-report-in-power-bi-to-use-in-the-mobile-apps"></a>在 Power BI 中为报表创建 QR 码以供在移动应用中使用
 Power BI 中的 QR 代码可以将现实生活中的任何东西直接连接到相关的 BI 信息 &#151; 无需进行导航或搜索。
@@ -25,12 +25,12 @@ Power BI 中的 QR 代码可以将现实生活中的任何东西直接连接到�
 
 ## <a name="create-a-qr-code-for-a-report"></a>为报表创建 QR 代码
 1. 在 Power BI 服务中打开报表。
-2. 选择右上角的“更多选项”(…)，然后选择“生成 QR 码”   。 
+2. 选择右上角的“更多选项”(…)，然后选择“生成 QR 码” 。 
    
-    ![](media/service-create-qr-code-for-report/power-bi-create-qr-code-report.png)
+    ![报表的屏幕截图，其中显示指针从省略号指向“生成 QR 码”。](media/service-create-qr-code-for-report/power-bi-create-qr-code-report.png)
 3. 将出现带有 QR 代码的对话框。 
    
-    ![](media/service-create-qr-code-for-report/powerbi_report_qrcode.png)
+    ![对话框的屏幕截图，其中显示了 QR 码可供下载或保存。](media/service-create-qr-code-for-report/powerbi_report_qrcode.png)
 4. 你可以在此扫描 QR 代码或下载并保存该代码，以便可以： 
    
    * 将其添加到电子邮件或其他文档，或 
@@ -39,7 +39,7 @@ Power BI 中的 QR 代码可以将现实生活中的任何东西直接连接到�
 ## <a name="print-the-qr-code"></a>打印 QR 代码
 Power BI 可将 QR 代码生成为 JPG 文件，以备打印。 
 
-1. 选择“下载”  ，然后在已连接至打印机的计算机上打开此 JPG 文件。  
+1. 选择**下载**，然后在连接到打印机的计算机上打开该 JPG 文件。  
    
    JPG 文件与磁贴同名。 例如，“销售和市场营销示例.jpg”。
    
@@ -50,4 +50,4 @@ Power BI 可将 QR 代码生成为 JPG 文件，以备打印。
 * 使用移动应用[从真实世界连接到 Power BI 数据](../consumer/mobile/mobile-apps-data-in-real-world-context.md)
 * [使用移动设备扫描 Power BI QR 码](../consumer/mobile/mobile-apps-qr-code.md)
 * [创建磁贴的 QR 码](service-create-qr-code-for-tile.md)
-* 是否有任何问题？ [尝试咨询 Power BI 社区](https://community.powerbi.com/)
+* 是否有任何问题? [尝试咨询 Power BI 社区](https://community.powerbi.com/)

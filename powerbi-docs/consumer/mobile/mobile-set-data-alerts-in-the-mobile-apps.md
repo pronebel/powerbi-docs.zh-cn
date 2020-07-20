@@ -8,12 +8,12 @@ ms.subservice: powerbi-mobile
 ms.topic: how-to
 ms.date: 12/11/2019
 ms.author: painbar
-ms.openlocfilehash: 3d1c1919b5a940bc4ed6c5b0de9bd0af6444af00
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 6cddfd820da45de6141b698b8cb6e3c2bfc68069
+ms.sourcegitcommit: e8ed3d120699911b0f2e508dc20bd6a9b5f00580
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85220048"
+ms.lasthandoff: 07/11/2020
+ms.locfileid: "86264898"
 ---
 # <a name="set-data-alerts-in-the-power-bi-mobile-apps"></a>在 Power BI 移动应用中设置数据警报
 适用于：
@@ -37,14 +37,14 @@ ms.locfileid: "85220048"
 ### <a name="set-an-alert-on-an-iphone-or-ipad"></a>在 iPhone 或 iPad 上设置警报
 1. 点击仪表板中的数字或仪表盘磁贴以焦点模式打开该磁贴。  
    
-   ![](media/mobile-set-data-alerts-in-the-mobile-apps/power-bi-iphone-card-visual.png)
-2. 点击钟形图标 ![](media/mobile-set-data-alerts-in-the-mobile-apps/power-bi-iphone-alert-icon.png) 添加警报。  
+   ![仪表板的屏幕截图，其中显示了焦点模式下的仪表盘磁贴。](media/mobile-set-data-alerts-in-the-mobile-apps/power-bi-iphone-card-visual.png)
+2. 点击钟形图标 ![钟形图标](media/mobile-set-data-alerts-in-the-mobile-apps/power-bi-iphone-alert-icon.png) 添加警报。  
 3. 点击“添加警报规则”。
    
-   ![](media/mobile-set-data-alerts-in-the-mobile-apps/power-bi-iphone-add-alert-rule.png)
+   ![警报规则的屏幕截图，其中显示未设置任何警报。](media/mobile-set-data-alerts-in-the-mobile-apps/power-bi-iphone-add-alert-rule.png)
 4. 选择在大于或小于某个值时接收警报，然后设置值。
    
-   ![](media/mobile-set-data-alerts-in-the-mobile-apps/power-bi-iphone-set-alert-threshold.png)
+   ![警报设置的屏幕截图，其中显示了要设置的警报标题和值](media/mobile-set-data-alerts-in-the-mobile-apps/power-bi-iphone-set-alert-threshold.png)
 5. 决定是否要每小时或每天接收警报，以及是否要在收到警报的同时也接收电子邮件。
    
    > [!NOTE]
@@ -55,32 +55,32 @@ ms.locfileid: "85220048"
 7. 点击**保存**。
 8. 单个的磁贴可以有超过或低于阈值的值的警报。 在“管理警报”中，点击“添加警报规则”。
    
-   ![](media/mobile-set-data-alerts-in-the-mobile-apps/power-bi-iphone-add-another-alert-rule.png)
+   ![管理警报的屏幕截图，其中显示指针指向“添加警报规则”。](media/mobile-set-data-alerts-in-the-mobile-apps/power-bi-iphone-add-another-alert-rule.png)
 
 ### <a name="manage-alerts-on-your-iphone-or-ipad"></a>在 iPhone 或 iPad 上管理警报
 可以在移动设备上管理单个警报，或 [在 Power BI 服务中管理所有警报](../../create-reports/service-set-data-alerts.md)。
 
 1. 在仪表板中，点击具有警报的数字或仪表盘磁贴。  
    
-   ![](media/mobile-set-data-alerts-in-the-mobile-apps/power-bi-iphone-card-visual_has_alert.png)
+   ![仪表板的屏幕截图，其中显示了具有警报的数字磁贴。](media/mobile-set-data-alerts-in-the-mobile-apps/power-bi-iphone-card-visual_has_alert.png)
 
-2. 点击钟形图标 ![](media/mobile-set-data-alerts-in-the-mobile-apps/power-bi-iphone-has-alert-icon.png)。  
+2. 点击钟形图标 ![钟形图标](media/mobile-set-data-alerts-in-the-mobile-apps/power-bi-iphone-has-alert-icon.png)。  
 3. 点击该警报名称以对其进行编辑，点击滑块以关闭电子邮件警报，或点击垃圾回收删除该警报。
    
-    ![](media/mobile-set-data-alerts-in-the-mobile-apps/power-bi-iphone-edit-delete-alert.png)
+    ![警报的屏幕截图，其中指针指向警报名称、用于删除警报的垃圾箱，以及用于关闭警报的滑块。](media/mobile-set-data-alerts-in-the-mobile-apps/power-bi-iphone-edit-delete-alert.png)
 
 ## <a name="data-alerts-on-an-android-device"></a>Android 设备上的数据警报
 ### <a name="set-an-alert-on-an-android-device"></a>在 Android 设备上设置警报
 1. 在 Power BI 仪表板中，点击数字或仪表磁贴打开它。  
-2. 点击钟形图标 ![](media/mobile-set-data-alerts-in-the-mobile-apps/power-bi-android-alert-icon.png) 添加警报。  
+2. 点击钟形图标 ![钟形图标](media/mobile-set-data-alerts-in-the-mobile-apps/power-bi-android-alert-icon.png) 添加警报。  
    
-   ![](media/mobile-set-data-alerts-in-the-mobile-apps/power-bi-android-tap-alert.png)
+   ![仪表板的屏幕截图，其中显示了具有警报的数字磁贴。](media/mobile-set-data-alerts-in-the-mobile-apps/power-bi-android-tap-alert.png)
 3. 点击加号图标 (+)。
    
-   ![](media/mobile-set-data-alerts-in-the-mobile-apps/power-bi-android-plus-alert.png)
+   ![管理警报的屏幕截图，其中指针指向加号图标。](media/mobile-set-data-alerts-in-the-mobile-apps/power-bi-android-plus-alert.png)
 4. 选择在大于或小于某个值时接收警报，然后键入值。
    
-   ![](media/mobile-set-data-alerts-in-the-mobile-apps/power-bi-android-tablet-set-alert-condition.png)
+   ![警报设置的屏幕截图，其中指针指向“保存”和“完成”。](media/mobile-set-data-alerts-in-the-mobile-apps/power-bi-android-tablet-set-alert-condition.png)
 5. 点击“**完成**”。
 6. 决定是否要每小时或每天接收警报，以及是否要在收到警报的同时也接收电子邮件。
    
@@ -95,12 +95,12 @@ ms.locfileid: "85220048"
 你可以在 Power BI 移动应用中管理单个警报，或[在 Power BI 移动应用中管理所有警报](../../create-reports/service-set-data-alerts.md)。
 
 1. 在仪表板中，点击具有警报的卡片或仪表盘磁贴。  
-2. 点击实心铃图标 ![](media/mobile-set-data-alerts-in-the-mobile-apps/power-bi-android-filled-alert-bell.png)。  
+2. 点击实心铃图标 ![钟形图标](media/mobile-set-data-alerts-in-the-mobile-apps/power-bi-android-filled-alert-bell.png)。  
 3. 点击该警报以更改值或将其关闭。
    
-    ![](media/mobile-set-data-alerts-in-the-mobile-apps/power-bi-android-manage-alerts.png)
+    ![“管理警报”磁贴的屏幕截图，其中显示了用于添加警报的加号图标。](media/mobile-set-data-alerts-in-the-mobile-apps/power-bi-android-manage-alerts.png)
 4. 点击加号图标（+），向同一磁贴添加其他警报。
-5. 若要完全删除警报，请点击垃圾箱图标 ![](media/mobile-set-data-alerts-in-the-mobile-apps/power-bi-android-delete-alert-icon.png)。
+5. 若要完全删除警报，请点击垃圾箱图标 ![垃圾箱图标](media/mobile-set-data-alerts-in-the-mobile-apps/power-bi-android-delete-alert-icon.png)。
 
 ## <a name="data-alerts-on-a-windows-device"></a>Windows 设备上的数据警报
 
@@ -109,15 +109,15 @@ ms.locfileid: "85220048"
 
 ### <a name="set-data-alerts-on-a-windows-device"></a>在 Windows 设备上设置数据警报
 1. 点击仪表板中的数字或仪表盘磁贴以打开该磁贴。  
-2. 点击钟形图标 ![](media/mobile-set-data-alerts-in-the-mobile-apps/power-bi-windows-10-alert-bell-off.png) 以添加警报。  
+2. 点击钟形图标 ![钟形图标](media/mobile-set-data-alerts-in-the-mobile-apps/power-bi-windows-10-alert-bell-off.png) 添加警报。  
    
-   ![](media/mobile-set-data-alerts-in-the-mobile-apps/power-bi-windows-10-tap-alert.png)
+   ![仪表板的屏幕截图，其中显示了具有警报的数字磁贴。](media/mobile-set-data-alerts-in-the-mobile-apps/power-bi-windows-10-tap-alert.png)
 3. 点击加号图标 (+)。
    
-   ![](media/mobile-set-data-alerts-in-the-mobile-apps/power-bi-windows-10-no-alerts-yet.png)
+   ![管理警报的屏幕截图，其中显示未设置任何警报。](media/mobile-set-data-alerts-in-the-mobile-apps/power-bi-windows-10-no-alerts-yet.png)
 4. 选择在大于或小于某个值时接收警报，然后键入值。
    
-   ![](media/mobile-set-data-alerts-in-the-mobile-apps/power-bi-windows-10-set-alert.png)
+   ![警报设置的屏幕截图，其中显示了用于编辑警报的条目。](media/mobile-set-data-alerts-in-the-mobile-apps/power-bi-windows-10-set-alert.png)
 5. 决定是否要每小时或每天接收警报，以及是否要在收到警报的同时也接收电子邮件。
    
    > [!NOTE]
@@ -128,18 +128,18 @@ ms.locfileid: "85220048"
 7. 点击复选标记。
 8. 单个的磁贴可以有超过或低于阈值的值的警报。 在“管理警报”中，点击加号 (+)。
    
-   ![](media/mobile-set-data-alerts-in-the-mobile-apps/power-bi-windows-10-add-another-alert.png)
+   ![管理警报的屏幕截图，其中显示了用于添加警报的加号。](media/mobile-set-data-alerts-in-the-mobile-apps/power-bi-windows-10-add-another-alert.png)
 
 ### <a name="manage-alerts-on-a-windows-device"></a>在 Windows 设备上管理警报
 你可以在 Power BI 移动应用中管理单个警报，或[在 Power BI 移动应用中管理所有警报](../../create-reports/service-set-data-alerts.md)。
 
 1. 在仪表板中，点击具有警报的卡片或仪表盘磁贴。  
-2. 点击钟形图标 ![](media/mobile-set-data-alerts-in-the-mobile-apps/power-bi-windows-10-alert-bell-on.png)。  
+2. 点击钟形图标 ![钟形图标](media/mobile-set-data-alerts-in-the-mobile-apps/power-bi-windows-10-alert-bell-on.png)。  
    
-   ![](media/mobile-set-data-alerts-in-the-mobile-apps/power-bi-windows-10-has-alerts.png)
+   ![仪表板的屏幕截图，其中显示了具有警报的数字磁贴。](media/mobile-set-data-alerts-in-the-mobile-apps/power-bi-windows-10-has-alerts.png)
 3. 点击该警报以更改值或将其关闭。
    
-    ![](media/mobile-set-data-alerts-in-the-mobile-apps/power-bi-windows-10-add-another-alert.png)
+    ![管理警报的屏幕截图，其中显示了用于添加警报的加号。](media/mobile-set-data-alerts-in-the-mobile-apps/power-bi-windows-10-add-another-alert.png)
 4. 若要完全删除该警报，请单击右键或点击并按住 >“删除”。
 
 ## <a name="receiving-alerts"></a>接收警报
@@ -152,7 +152,7 @@ ms.locfileid: "85220048"
    只要数据超过了阈值，则每 1 小时或每 24 小时你将会收到一个警报。
 2. 如果你已设置警报向你发送电子邮件，则你将在收件箱中找到如下内容。
    
-   ![](media/mobile-set-data-alerts-in-the-mobile-apps/powerbi-alerts-email.png)
+   ![显示警报的电子邮件通知的屏幕截图。](media/mobile-set-data-alerts-in-the-mobile-apps/powerbi-alerts-email.png)
 3. Power BI 将消息添加到[通知中心](mobile-apps-notification-center.md)，并在标题栏上的钟形图标 ![钟形图标](media/mobile-set-data-alerts-in-the-mobile-apps/powerbi-alert-tile-notification-icon.png)（iOS 和 Android）或全局导航按钮 ![全局导航按钮](./media/mobile-set-data-alerts-in-the-mobile-apps/power-bi-iphone-alert-global-nav-button.png)（Windows 10 设备）上添加黄点。
 
 

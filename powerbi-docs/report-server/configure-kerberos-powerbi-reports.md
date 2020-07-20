@@ -8,12 +8,12 @@ ms.subservice: powerbi-report-server
 ms.topic: how-to
 ms.date: 11/01/2017
 ms.author: maggies
-ms.openlocfilehash: aee58d27eb75bbe14629235591065e236502588a
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: a9dd66d726a2417c936204898eb2cdfb749fcc94
+ms.sourcegitcommit: c83146ad008ce13bf3289de9b76c507be2c330aa
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85236115"
+ms.lasthandoff: 07/10/2020
+ms.locfileid: "86216512"
 ---
 # <a name="configure-kerberos-to-use-power-bi-reports"></a>配置 Kerberos 以使用 Power BI 报表
 <iframe width="640" height="360" src="https://www.youtube.com/embed/vCH8Fa3OpQ0?showinfo=0" frameborder="0" allowfullscreen></iframe>
@@ -31,14 +31,14 @@ Power BI 报表服务器提供 Power BI 报表托管功能。 报表服务器可
 
     Something went wrong.
 
-    We couldn’t run the report because we couldn’t connect to its data source. The report or data source might not be configured correctly. 
+    We couldn't run the report because we couldn't connect to its data source. The report or data source might not be configured correctly. 
 
 “技术详细信息”中显示以下消息。
 
-    We couldn’t connect to the Analysis Services server. The server forcibly closed the connection. To connect as the user viewing the report, your organization must have configured Kerberos constrained delegation.
+    We couldn't connect to the Analysis Services server. The server forcibly closed the connection. To connect as the user viewing the report, your organization must have configured Kerberos constrained delegation.
 
-![](media/configure-kerberos-powerbi-reports/powerbi-report-config-error.png)
-
+![Power BI 报表的屏幕截图，其中显示了与 Analysis Services 服务器连接问题相关的错误消息。](media/configure-kerberos-powerbi-reports/powerbi-report-config-error.png)
+ 
 ## <a name="configuring-kerberos-constrained-delegation"></a>配置 Kerberos 约束委派
 必须先配置多个项，然后 Kerberos 约束委派才能生效。 这包括服务帐户上的服务主体名称 (SPN) 和委派设置。
 
@@ -56,9 +56,9 @@ Power BI 报表服务器提供 Power BI 报表托管功能。 报表服务器可
 5. 报表服务器服务帐户上的委派设置。
 
 ## <a name="authentication-type-within-report-server-configuration"></a>报表服务器配置中的身份验证类型
-我们需要将报表服务器的身份验证类型配置为允许 Kerberos 约束委派。 此操作在 rsreportserver.config  文件中完成。 此文件的默认位置是 `C:\Program Files\Microsoft Power BI Report Server\PBIRS\ReportServer`。
+我们需要将报表服务器的身份验证类型配置为允许 Kerberos 约束委派。 此操作在 rsreportserver.config 文件中完成。 此文件的默认位置是 `C:\Program Files\Microsoft Power BI Report Server\PBIRS\ReportServer`。
 
-在 rsreportserver.config 文件中，需要微调“Authentication/AuthenticationTypes”  部分。
+在 rsreportserver.config 文件中，需要微调“Authentication/AuthenticationTypes”部分。
 
 我们需要确保 RSWindowsNegotiate 被列为身份验证类型列表中的第一个类型。 它应类似于下面这样。
 
@@ -186,30 +186,30 @@ SPN 的放置也类似于 Power BI 报表服务器 SPN 的放置。 不同之处
 
 我们将要通过协议传输来配置约束委派。 使用约束委派时，需要明确要委派哪些服务。 我们将把 Analysis Services 服务 SPN 和 SQL Browser SPN 添加到 Power BI 报表服务器可以委派的列表中。
 
-1. 右键单击报表服务器服务帐户，然后选择“属性”  。
+1. 右键单击报表服务器服务帐户，然后选择“属性”。
 2. 选择“**委派**”选项卡。
-3. 选中“仅信任此计算机来委派指定的服务”  。
-4. 选中“使用任意身份验证协议”  。
-5. 在“可以由此帐户提供委派凭据的服务:”  下，选择“添加”  。
-6. 在新对话框中，选择“用户或计算机”  。
-7. 输入 Analysis Services 服务的服务帐户，然后选择“确定”  。
+3. 选中“仅信任此计算机来委派指定的服务”。
+4. 选中“使用任意身份验证协议”。
+5. 在“可以由此帐户提供委派凭据的服务:”下，选择“添加”。
+6. 在新对话框中，选择“用户或计算机”。
+7. 输入 Analysis Services 服务的服务帐户，然后选择“确定”。
 8. 选择已创建的 SPN。 它以 `MSOLAPSvc.3` 开头。 如果 FQDN 和 NetBIOS SPN 都添加了，两个都会被选中。 你可能只会看到其中一个。
-9. 选择“确定”。   现在，列表中应该会显示 SPN。
-10. 也可以选中“已扩展”  ，在列表中同时显示 FQDN 和 NetBIOS SPN。
-11. 再次选择“添加”  。 现在，我们将添加 SQL Browser SPN。
-12. 在新对话框中，选择“用户或计算机”  。
-13. 输入 SQL Browser 服务所在计算机的名称，然后选择“确定”  。
+9. 选择“确定”。  现在，列表中应该会显示 SPN。
+10. 也可以选中“已扩展”，在列表中同时显示 FQDN 和 NetBIOS SPN。
+11. 再次选择“添加”。 现在，我们将添加 SQL Browser SPN。
+12. 在新对话框中，选择“用户或计算机”。
+13. 输入 SQL Browser 服务所在计算机的名称，然后选择“确定”。
 14. 选择已创建的 SPN。 它以 `MSOLAPDisco.3` 开头。 如果 FQDN 和 NetBIOS SPN 都添加了，两个都会被选中。 你可能只会看到其中一个。
-15. 选择“确定”  。 如果选中“已扩展”  ，对话框应如下所示。
+15. 选择“确定”。 如果选中“已扩展”，对话框应如下所示。
     
-    ![](media/configure-kerberos-powerbi-reports/powerbi-report-config-delegation.png)
-16. 选择“确定”  。
+    ![Power BI 报表的屏幕截图，其中显示了“属性”窗口的“委派”选项卡。](media/configure-kerberos-powerbi-reports/powerbi-report-config-delegation.png)
+16. 选择“确定”。
 17. 重启 Power BI 报表服务器。
 
 ## <a name="running-a-power-bi-report"></a>生成 Power BI 报表
 指定完上述所有配置后，应该就可以正确显示报表了。 
 
-![](media/configure-kerberos-powerbi-reports/powerbi-report.png)
+![Power BI 报表的屏幕截图，其中显示了示例仪表板视图。](media/configure-kerberos-powerbi-reports/powerbi-report.png)
 
 虽然此配置在大多数情况下都适用于 Kerberos，但也可以指定不同的配置，具体视环境而定。 如果报表仍未加载，请与你的域管理员联系以展开进一步调查，或与支持人员联系。
 

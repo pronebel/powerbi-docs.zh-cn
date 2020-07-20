@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 08/29/2019
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 9e19216f9e080d73cf0965ad430dcc4839bdc617
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: 11389b5986d0dd627b0077808a74db5ab2769a65
+ms.sourcegitcommit: c83146ad008ce13bf3289de9b76c507be2c330aa
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83348542"
+ms.lasthandoff: 07/10/2020
+ms.locfileid: "86216294"
 ---
 # <a name="connect-to-azure-search-with-power-bi"></a>使用 Power BI 连接到 Azure 搜索
 Azure 搜索流量分析允许你监视并了解 Azure 搜索服务的流量。 适用于 Power BI 的 Azure 搜索内容包提供了搜索数据的详细深入解析，包括过去 30 天内的搜索、索引、服务统计和延迟。 有关详细信息，请参阅 [Azure 博客文章](https://azure.microsoft.com/blog/analyzing-your-azure-search-traffic/)。
@@ -24,31 +24,31 @@ Azure 搜索流量分析允许你监视并了解 Azure 搜索服务的流量。 
 连接到适用于 Power BI 的 [Azure 搜索内容包](https://app.powerbi.com/getdata/services/azure-search)。
 
 ## <a name="how-to-connect"></a>如何连接
-1. 在导航窗格底部，选择“获取数据”  。
+1. 在导航窗格底部，选择“获取数据”。
    
-   ![](media/service-connect-to-azure-search/pbi_getdata.png) 
+   ![Power BI Desktop 中“获取数据”的屏幕截图，其中显示了导航窗格中的按钮。](media/service-connect-to-azure-search/pbi_getdata.png) 
 2. 在**服务**框中，选择**获取**。
    
-   ![](media/service-connect-to-azure-search/pbi_getservices.png) 
-3. 选择“Azure 搜索”\>“获取”   。
+   ![“服务”对话框的屏幕截图，其中显示了“获取”按钮。](media/service-connect-to-azure-search/pbi_getservices.png) 
+3. 选择“Azure 搜索”\>“获取” 。
    
-   ![](media/service-connect-to-azure-search/azuresearch.png)
+   ![“Azure 服务”对话框的屏幕截图，其中显示了“获取”链接。](media/service-connect-to-azure-search/azuresearch.png)
 4. 提供存储了 Azure 搜索分析的表存储帐户的名称。
    
-   ![](media/service-connect-to-azure-search/params.png)
-5. 选择“密钥”  作为验证机制，并提供你的存储帐户密钥。 单击“登录”  开始加载程序。
+   ![“连接 Azure 搜索”对话框的屏幕截图，其中显示了“Azure 存储帐户名称”字段。](media/service-connect-to-azure-search/params.png)
+5. 选择“密钥”作为验证机制，并提供你的存储帐户密钥。 单击“登录”开始加载程序。
    
-   ![](media/service-connect-to-azure-search/creds.png)
+   ![“连接 Azure 搜索”对话框的屏幕截图，其中“身份验证方法”字段中已输入“密钥”。](media/service-connect-to-azure-search/creds.png)
 6. 加载完成后，导航窗格中会出现新的仪表板、报表和模型。 选择仪表板查看已导入的数据。
    
-    ![](media/service-connect-to-azure-search/dashboard2.png)
+    ![导航窗格的屏幕截图，其中显示了仪表板、报表和模型。](media/service-connect-to-azure-search/dashboard2.png)
 
 **下一步？**
 
 * 尝试在仪表板顶部的[在“问答”框中提问](../consumer/end-user-q-and-a.md)
 * 在仪表板中[更改磁贴](../create-reports/service-dashboard-edit-tile.md)。
 * [选择磁贴](../consumer/end-user-tiles.md)以打开基础报表。
-* 虽然数据集将按计划每日刷新，但你可以更改刷新计划或根据需要使用“立即刷新”  来尝试刷新
+* 虽然数据集将按计划每日刷新，但你可以更改刷新计划或根据需要使用“立即刷新”来尝试刷新
 
 ## <a name="system-requirements"></a>系统要求
 Azure 搜索内容包需要对帐户启用 Azure 搜索流量分析。

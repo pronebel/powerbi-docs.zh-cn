@@ -10,12 +10,12 @@ ms.date: 04/08/2020
 ms.author: kfollis
 ms.custom: licensing support
 LocalizationGroup: Administration
-ms.openlocfilehash: 8b110dceb7427e3aeefe8e7ef48e579943a7e6f3
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: af58a79c5c81e8f04e5d0ba714703c202f9c8000
+ms.sourcegitcommit: c18130ea61e67ba111be870ddb971c6413a4b632
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85228446"
+ms.lasthandoff: 07/09/2020
+ms.locfileid: "86161344"
 ---
 # <a name="view-and-manage-power-bi-user-licenses"></a>查看和管理 Power BI 用户许可证
 
@@ -35,7 +35,7 @@ ms.locfileid: "85228446"
 
 活动 Power BI 订阅与拥有的任何其他订阅一起列出。 你可能会看到 Power BI（免费）的意外订阅，如下所示。
 
-  ![Power BI 免费用户激活订阅](media/service-admin-manage-licenses/power-bi-free-user-activated.png)
+  ![Power BI 订阅的屏幕截图，其中显示了免费订阅。](media/service-admin-manage-licenses/power-bi-free-user-activated.png)
 
 当用户利用自助注册时，系统将为你创建这种类型的订阅。 若要了解详细信息，请参阅[组织中的 Power BI](https://docs.microsoft.com/microsoft-365/admin/misc/power-bi-in-your-organization?view=o365-worldwide)。
 

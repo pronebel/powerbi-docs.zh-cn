@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 01/22/2020
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: d6301b4eea49ab4ae5714446e051290cb254c324
-ms.sourcegitcommit: caf60154a092f88617eb177bc34fb784f2365962
+ms.openlocfilehash: 92244304bcffc3544ca8616fd0b16226361d58c8
+ms.sourcegitcommit: d8acf2fb0318708a3e8e1e259cb3747b0312b312
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/25/2020
-ms.locfileid: "85354745"
+ms.lasthandoff: 07/15/2020
+ms.locfileid: "86385943"
 ---
 # <a name="connect-azure-data-lake-storage-gen2-for-dataflow-storage"></a>连接 Azure Data Lake Storage Gen2 以存储数据流
 
@@ -46,6 +46,7 @@ ms.locfileid: "85354745"
 2. 必须在与 Power BI 租户相同的 AAD 租户中创建存储帐户。
 3. 必须在 Power BI 租户所在的同一区域中创建存储帐户。 要确定 Power BI 租户的位置，请参阅 [Power BI 租户的所在位置](../admin/service-admin-where-is-my-tenant-located.md)。
 4. 存储帐户必须启用“层次结构命名空间”功能。
+5. 如果当前用户未创建存储帐户，请确保当前用户已拥有[存储 Blob 数据所有者](https://docs.microsoft.com/azure/role-based-access-control/built-in-roles#storage-blob-data-owner)和[所有者](https://docs.microsoft.com/azure/role-based-access-control/built-in-roles#owner)权限。 （由于所有者不包含数据级别权限，因此需要 Blob 数据所有者。）
 
 以下部分详细介绍了配置 Azure Data Lake Storage Gen2 帐户所需的步骤。
 

@@ -9,12 +9,12 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 02/16/2020
 ms.author: v-pemyer
-ms.openlocfilehash: 9245dd6c25917b2c8c861ea5b83710cd8b52bb22
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 3c76fed8f5533ad339904c4f8251a7404270a0ae
+ms.sourcegitcommit: c83146ad008ce13bf3289de9b76c507be2c330aa
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83279011"
+ms.lasthandoff: 07/10/2020
+ms.locfileid: "86216606"
 ---
 # <a name="monitor-report-performance-in-power-bi"></a>在 Power BI 中监视报表性能
 
@@ -33,9 +33,9 @@ ms.locfileid: "83279011"
 在 Power BI Desktop 中使用[查询诊断](/power-query/QueryDiagnostics)确定在预览或应用查询时 Power Query 执行的操作。 此外，使用_诊断步骤_功能记录每个查询步骤的详细评估信息。 结果在 Power Query 中提供，你可以应用转换进一步了解查询执行。
 
 > [!NOTE]
-> 查询诊断目前是一项预览功能，因此必须在“选项和设置”  中启用它。 启用后，其命令将出现在“Power Query 编辑器”窗口中的“工具”  功能区选项卡上。
+> 查询诊断目前是一项预览功能，因此必须在“选项和设置”中启用它。 启用后，其命令将出现在“Power Query 编辑器”窗口中的“工具”功能区选项卡上。
 
-![显示 Power Query 编辑器“工具”功能区选项卡的图像。功能区显示“诊断步骤”命令、“启动诊断”命令和“停止诊断”命令。](media/monitor-report-performance/power-query-diagnotics.png)
+![“Power Query 编辑器工具”功能区选项卡的屏幕截图，其中显示了“诊断步骤”命令、“启动诊断”命令和“停止诊断”命令。](media/monitor-report-performance/power-query-diagnotics.png)
 
 ## <a name="use-performance-analyzer"></a>使用性能分析器
 
@@ -64,20 +64,20 @@ ms.locfileid: "83279011"
     ```powershell
     netstat -b -n
     ```
-    应该会输出应用程序及其开放端口的列表。 查找 msmdsrv.exe  使用的端口，并记录下来以备后用。 这是你的 Power BI Desktop 实例。
+    应该会输出应用程序及其开放端口的列表。 查找 msmdsrv.exe 使用的端口，并记录下来以备后用。 这是你的 Power BI Desktop 实例。
 1. 若要将 SQL Server Profiler 连接到 Power BI Desktop 报表，请执行以下操作：
     1. 打开 SQL Server Profiler。
-    1. 在 SQL Server Profiler 的“文件”  菜单上，选择“新建跟踪”  。
-    1. 对于“服务器类型”，选择“Analysis Services”   。
-    1. 对于“服务器名称”  ，请输入 localhost:[之前记录的端口]  。
-    1. 单击“运行”  ，此时 SQL Server Profiler 跟踪处于活动状态，并且正在主动分析 Power BI Desktop 查询。
+    1. 在 SQL Server Profiler 的“文件”菜单上，选择“新建跟踪”。
+    1. 对于“服务器类型”，选择“Analysis Services”。
+    1. 对于“服务器名称”，请输入 localhost:[之前记录的端口]。
+    1. 单击“运行”，此时 SQL Server Profiler 跟踪处于活动状态，并且正在主动分析 Power BI Desktop 查询。
 1. 执行 Power BI Desktop 查询时，你将看到它们各自的持续时间和 CPU 时间。 根据数据源类型，可能会看到指示查询执行方式的其他事件。 使用此信息可以确定哪些查询是瓶颈。
 
 使用 SQL Server Profiler 的好处是可以保存 SQL Server（关系）数据库跟踪。 跟踪可能会成为[数据库引擎优化顾问](/sql/relational-databases/performance/start-and-use-the-database-engine-tuning-advisor)的输入。 这样便于你获得有关如何优化数据源的建议。
 
 ## <a name="monitor-premium-metrics"></a>监视 Premium 指标
 
-对于 Power BI Premium 容量，可以使用 Power BI Premium 指标应用来监视 Power BI Premium 订阅的运行状况和容量  。 有关详细信息，请参阅 [Power BI Premium 指标应用](../admin/service-premium-metrics-app.md)。
+对于 Power BI Premium 容量，可以使用 Power BI Premium 指标应用来监视 Power BI Premium 订阅的运行状况和容量。 有关详细信息，请参阅 [Power BI Premium 指标应用](../admin/service-premium-metrics-app.md)。
 
 ## <a name="next-steps"></a>后续步骤
 

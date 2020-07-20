@@ -8,12 +8,12 @@ ms.subservice: powerbi-mobile
 ms.topic: how-to
 ms.date: 03/11/2020
 ms.author: painbar
-ms.openlocfilehash: c40ba6827e788a51402b3aa22497b5ddde1bcdc2
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 9ebc5857248b2d8c764262e2f27559c1960e1884
+ms.sourcegitcommit: e8ed3d120699911b0f2e508dc20bd6a9b5f00580
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85240406"
+ms.lasthandoff: 07/11/2020
+ms.locfileid: "86263315"
 ---
 # <a name="get-started-with-the-power-bi-mobile-app-for-windows-10"></a>适用于 Windows 10 的 Power BI 移动应用入门
 通过适用于 Windows 10 的 Power BI 移动应用，可以在平板电脑或手机上使用 Power BI。 可通过触控式移动设备访问最新业务信息。 在任何地方查看公司仪表板并与之进行交互 - 就在 [Windows 开始屏幕](mobile-pin-dashboard-start-screen-windows-10-phone-app.md)上查看。
@@ -30,7 +30,7 @@ ms.locfileid: "85240406"
   设备必须运行 Windows 10。 该应用可在具有至少 3 GB RAM 和 8 GB 内部存储的设备上运行。
 
   >[!NOTE]
-  >我们将于 2021 年 3 月 16 日终止对使用 Windows 10 移动版的手机提供 Power BI 移动应用支持  。 [了解详细信息](https://go.microsoft.com/fwlink/?linkid=2121400)
+  >我们将于 2021 年 3 月 16 日终止对使用 Windows 10 移动版的手机提供 Power BI 移动应用支持。 [了解详细信息](https://go.microsoft.com/fwlink/?linkid=2121400)
    
 * 了解 [Power BI 移动应用中的新功能](mobile-whats-new-in-the-mobile-apps.md)。
 
@@ -44,9 +44,9 @@ ms.locfileid: "85240406"
 1. 在 Windows 10 设备的开始屏幕上，打开 Power BI 应用。
    
    ![Power BI 应用图标](./media/mobile-windows-10-phone-app-get-started/pbi_win10ph_appiconsm.png)
-2. 若要查看 Power BI 仪表板和报表，请点击“Power BI”  。 使用与 Web 上的 Power BI 帐户相同的凭据登录。 
+2. 若要查看 Power BI 仪表板和报表，请点击“Power BI”。 使用与 Web 上的 Power BI 帐户相同的凭据登录。 
    
-   若要查看 Reporting Services 移动报表和 KPI，请点击“SQL Server 2016 Reporting Services”  。 使用你的 SQL Server Reporting Services 凭据登录。
+   若要查看 Reporting Services 移动报表和 KPI，请点击“SQL Server 2016 Reporting Services”。 使用你的 SQL Server Reporting Services 凭据登录。
    
    ![连接对话框](./media/mobile-windows-10-phone-app-get-started/power-bi-windows-10-connect.png)
 3. 点击**开始浏览**以查看自己的仪表板。
@@ -57,8 +57,8 @@ ms.locfileid: "85240406"
 ### <a name="power-bi-samples"></a>Power BI 示例
 可以查看 Power BI 仪表板示例并与之交互。 但无法对其进行某些操作。 无法打开仪表板背后的报表、与他人共享示例，或将其加入收藏夹。
 
-1. 点击左上角的 ![全局导航按钮 ](././media/mobile-windows-10-phone-app-get-started/power-bi-windows-10-navigation-icon.png) 全局导航按钮。
-2. 依次点击“设置”  图标 ![设置图标](./media/mobile-windows-10-phone-app-get-started/power-bi-win10-settings-icon.png)，你的名字，然后点击“查看示例”  。
+1. 点击左上角的 ![全局导航按钮](././media/mobile-windows-10-phone-app-get-started/power-bi-windows-10-navigation-icon.png) 全局导航按钮。
+2. 依次点击“设置”图标 ![设置图标](./media/mobile-windows-10-phone-app-get-started/power-bi-win10-settings-icon.png)，你的名字，然后点击“查看示例”。
    
    ![查看示例](./media/mobile-windows-10-phone-app-get-started/power-bi-win10-view-samples.png)
 3. 选择一个角色，并浏览该角色的示例仪表板。  
@@ -66,13 +66,13 @@ ms.locfileid: "85240406"
    ![选择一个角色](./media/mobile-windows-10-phone-app-get-started/power-bi-win10-samples.png)
 
 ### <a name="reporting-services-mobile-report-samples"></a>Reporting Services 移动报表示例
-1. 点击左上角的 ![全局导航按钮 ](././media/mobile-windows-10-phone-app-get-started/power-bi-windows-10-navigation-icon.png) 全局导航按钮。
-2. 点击“设置”  图标 ![](./media/mobile-windows-10-phone-app-get-started/power-bi-win10-settings-icon.png)，右键单击或点击并按住“连接到服务器”  ，再点击“查看示例”  。
+1. 点击左上角的 ![全局导航按钮](././media/mobile-windows-10-phone-app-get-started/power-bi-windows-10-navigation-icon.png) 全局导航按钮。
+2. 点击“设置”图标 ![设置图标](./media/mobile-windows-10-phone-app-get-started/power-bi-win10-settings-icon.png)，右键单击或点击并按住“连接到服务器”，再点击“查看示例”。
    
-   ![](media/mobile-windows-10-phone-app-get-started/power-bi-win10-connect-ssrs-samples.png)
+   ![“设置”屏幕的屏幕截图，其中显示指针从设置图标指向“连接到服务器”。](media/mobile-windows-10-phone-app-get-started/power-bi-win10-connect-ssrs-samples.png)
 3. 打开零售报表或销售报表文件夹，浏览 KPI 和移动报表。
    
-   ![](media/mobile-windows-10-phone-app-get-started/power-bi-win10-ssrs-sample-kpis.png)
+   ![报表屏幕截图，其中显示了 KPI 和移动报表。](media/mobile-windows-10-phone-app-get-started/power-bi-win10-ssrs-sample-kpis.png)
 
 ## <a name="search-for-dashboards-reports-and-apps"></a>搜索仪表板、报表和应用
 通过在始终位于应用顶部的搜索框中键入内容来快速查找你的仪表板、报表和应用。

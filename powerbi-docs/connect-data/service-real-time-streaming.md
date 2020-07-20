@@ -5,21 +5,21 @@ author: davidiseminger
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 05/21/2020
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: 8e991a8696ac35ed0a7d4b448bb4dd83d9a19c42
-ms.sourcegitcommit: 5e5a7e15cdd55f71b0806016ff91256a398704c1
+ms.openlocfilehash: 0472baffa765f1a1e7d39e365e40a1f596472a16
+ms.sourcegitcommit: e8ed3d120699911b0f2e508dc20bd6a9b5f00580
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/22/2020
-ms.locfileid: "83793443"
+ms.lasthandoff: 07/11/2020
+ms.locfileid: "86264388"
 ---
 # <a name="real-time-streaming-in-power-bi"></a>Power BI 中的实时流式处理
 通过 Power BI 实时流式处理，可以流式处理数据并实时更新仪表板。 可以在 Power BI 中创建的任何视觉对象或仪表板也可以创建为显示和更新实时数据和视觉对象。 流式处理数据的设备和源可以是工厂传感器、社交媒体源、服务使用情况指标和其他可从其收集或传输时间敏感数据的任何设备。
 
-![显示实时环境传感器结果的屏幕截图。](media/service-real-time-streaming/real-time-streaming-10.png)
+![环境传感器仪表板的屏幕截图，其中显示了数据的实时结果。](media/service-real-time-streaming/real-time-streaming-10.png)
 
 本文介绍如何在 Power BI 中设置实时流式处理数据集。 但在我们开始之前，务必了解设计为在磁贴（和仪表板）中显示的实时数据集的类型以及这些数据集的不同之处。
 
@@ -61,7 +61,7 @@ ms.locfileid: "83793443"
 ### <a name="streaming-dataset-matrix"></a>流式处理数据集矩阵
 下表（或者你喜欢称之为矩阵）描述了用于实时流式处理的三种类型的数据集，并列出了每种数据集的能力和限制。
 
-![](media/service-real-time-streaming/real-time-streaming_11.png)
+![表屏幕截图，其中显示了流式处理数据集矩阵。](media/service-real-time-streaming/real-time-streaming_11.png)
 
 > [!NOTE]
 > 有关推送限制可推入数据量的信息，请参阅[此文章](../developer/automation/api-rest-api-limitations.md)。
@@ -92,11 +92,11 @@ ms.locfileid: "83793443"
 ### <a name="using-the-streaming-dataset-ui-to-push-data"></a>使用流式处理数据集 UI 推送数据
 在 Power BI 服务中，你可以通过选择 **API** 方法创建数据集，如下图所示。
 
-![](media/service-real-time-streaming/real-time-streaming_0b.png)
+![“新建流式处理数据集”选项的屏幕截图，其中显示了 API 选项。](media/service-real-time-streaming/real-time-streaming_0b.png)
 
 在创建新的流式处理数据集时，你可以选择启用**历史数据分析**（如下所示），这将产生重大影响。
 
-![](media/service-real-time-streaming/real-time-streaming_0c.png)
+![“新建流式处理数据集”的屏幕截图，其中已启用“历史数据分析”。](media/service-real-time-streaming/real-time-streaming_0c.png)
 
 禁用**历史数据分析**时（默认情况下禁用），你将创建一个**流式处理数据集**，如本文前面所述。 启用**历史数据分析**时，创建的数据集将成为**流式处理数据集**和**推送数据集**。 这相当于使用 Power BI REST API 创建其 *defaultMode* 设置为 *pushStreaming* 的数据集，如本文前面所述。
 
@@ -125,19 +125,19 @@ Azure 流分析使用 Power BI REST API 创建其到 Power BI 的输出数据流
 
 无论采用哪个选项，都需要在 Power BI 中设置**流式处理数据**。 若要执行此操作，请在仪表板（现有仪表板或新仪表板）中选择“添加磁贴”，然后选择“自定义流式处理数据”。
 
-![](media/service-real-time-streaming/real-time-streaming_1.png)
+![仪表板的屏幕截图，其中显示了“添加磁贴”部分中的“自定义流式处理数据”选项。](media/service-real-time-streaming/real-time-streaming_1.png)
 
 如果尚未设置流式处理数据，别担心 - 可以从选择“管理数据”开始使用。
 
-![](media/service-real-time-streaming/real-time-streaming_2.png)
+![仪表板的屏幕截图，其中显示了“添加自定义流式处理数据”磁贴中的管理数据链接。](media/service-real-time-streaming/real-time-streaming_2.png)
 
 如果已经创建了流式处理数据集，可以在此页（文本框中）输入流式处理数据集的终结点。 如果还没有流式处理数据集，请选择右上角的加号图标 ( **+** ) 查看创建流式处理数据集的可用选项。
 
-![](media/service-real-time-streaming/real-time-streaming_3.png)
+![仪表板的屏幕截图，其中显示了如何输入流式处理数据集的终结点，以及一个指向加号图标的指针。](media/service-real-time-streaming/real-time-streaming_3.png)
 
 单击 **+** 图标时，将看到两个选项：
 
-![](media/service-real-time-streaming/real-time-streaming_4a.png)
+![“新建流式处理数据集”选项的屏幕截图，其中显示了 API 和 PubNub 选项。](media/service-real-time-streaming/real-time-streaming_4a.png)
 
 下一节介绍了这些选项，并更为详细地介绍了如何创建流式处理**磁贴**或如何从流式处理数据源创建**数据集**，以便用于以后生成报表。
 
@@ -152,7 +152,7 @@ Azure 流分析使用 Power BI REST API 创建其到 Power BI 的输出数据流
 ### <a name="using-the-power-bi-rest-api"></a>使用 POWER BI REST API
 **Power BI REST API** - Power BI REST API 的最新改进旨在使开发人员更容易使用实时流式处理。 当你从“新建流式处理数据集”窗口选择“API”时，将看到 Power BI 要连接到和使用终结点的项：
 
-![](media/service-real-time-streaming/real-time-streaming_5.png)
+![“新建流式处理数据集对话框”的屏幕截图，其中显示了用于连接的 Power BI REST API。](media/service-real-time-streaming/real-time-streaming_5.png)
 
 如果希望 Power BI 存储通过此数据流发送的数据，请启用“历史数据分析”，然后你可以对收集的数据流进行报告和分析。 也可以[了解有关 API 的详细信息](https://docs.microsoft.com/rest/api/power-bi/)。
 
@@ -163,7 +163,7 @@ Azure 流分析使用 Power BI REST API 创建其到 Power BI 的输出数据流
 ### <a name="using-pubnub"></a>使用 PubNub
 通过 Power BI 进行 **PubNub** 流式处理集成，可以使用低延迟 **PubNub** 数据流（或创建新的数据流）并在 Power BI 中使用它们。 选择“PubNub”后，选择“下一步”，你将看到以下窗口：
 
-![](media/service-real-time-streaming/real-time-streaming_7.png)
+![“新建流式处理数据集对话框”的屏幕截图，其中显示了用于连接的 PubNub 条目。](media/service-real-time-streaming/real-time-streaming_7.png)
 
 > [!WARNING]
 > 可以使用 PubNub Access Manager (PAM) 身份验证密钥保护 PubNub 通道。 将与有权访问仪表板的所有用户共享此密钥。 可以[详细了解 PubNub 访问控制](https://www.pubnub.com/docs/web-javascript/pam-security)。
@@ -179,7 +179,7 @@ Azure 流分析使用 Power BI REST API 创建其到 Power BI 的输出数据流
 
 1. 在“Power BI 服务”中选择仪表板（或创建新仪表板），然后选择“添加磁贴” > “自定义流式处理数据”，然后选择“下一步”按钮。
    
-   ![](media/service-real-time-streaming/real-time-streaming_1.png)
+   ![仪表板的屏幕截图，其中显示了“添加”磁贴以及“自定义流式处理数据”选项。](media/service-real-time-streaming/real-time-streaming_1.png)
 2. 如果没有流式处理数据源，请选择“管理数据”链接（位于“下一步”按钮上方），然后从窗口右上角中的链接中选择“+ 添加流式处理数据”。 选择“PubNub”，然后选择“下一步”。
 3. 为数据集创建名称，然后将以下值粘贴到出现的窗口中，然后选择“下一步”：
    
@@ -190,13 +190,13 @@ Azure 流分析使用 Power BI REST API 创建其到 Power BI 的输出数据流
    
        pubnub-sensor-network
    
-   ![](media/service-real-time-streaming/real-time-streaming_8.png)
+   ![“新建流式处理数据集对话框”的屏幕截图，其中显示了如何在订阅密钥和通道名称字段中创建数据集名称和条目。](media/service-real-time-streaming/real-time-streaming_8.png)
 4. 在下面的窗口中，选择默认值（会自动填充），然后选择“创建”。
    
-   ![](media/service-real-time-streaming/real-time-streaming_9.png)
+   ![“新建流式处理数据集对话框”的屏幕截图，其中显示了默认的数据集名称和流式处理字段默认值。](media/service-real-time-streaming/real-time-streaming_9.png)
 5. 返回 Power BI 工作区，新建仪表板，然后添加磁贴（如有需要，请参阅上述步骤）。 这次在创建磁贴并选择“自定义流式处理数据”时，你将拥有可使用的流式处理数据集。 继续使用它。 将“数字”字段添加到折线图中，然后添加其他磁贴，可以获得如下所示的实时仪表板：
    
-   ![显示实时环境传感器结果的屏幕截图。](media/service-real-time-streaming/real-time-streaming-10.png)
+   ![“环境传感器”仪表板的屏幕截图，其中显示了实时结果。](media/service-real-time-streaming/real-time-streaming-10.png)
 
 请试尝试并使用示例数据集。 然后创建你自己的数据集，并向 Power BI 流式传输活动数据。
 

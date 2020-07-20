@@ -8,13 +8,13 @@ ms.topic: overview
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.custom: mvc
-ms.date: 03/04/2020
-ms.openlocfilehash: a6cb8575ef5265264cf0c15c4cfcfc4207726a07
-ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
+ms.date: 07/08/2020
+ms.openlocfilehash: 34f4265444d030902474c740dda91f8431d36625
+ms.sourcegitcommit: c83146ad008ce13bf3289de9b76c507be2c330aa
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/19/2020
-ms.locfileid: "83565571"
+ms.lasthandoff: 07/10/2020
+ms.locfileid: "86216531"
 ---
 # <a name="comparing-power-bi-report-server-and-the-power-bi-service"></a>比较 Power BI 报表服务器和 Power BI 服务
 
@@ -50,7 +50,8 @@ Power BI 报表服务器和 Power BI 服务有许多相似之处和一些关键�
 | 行级别安全性 (RLS) | 是 | 是 | 在 DirectQuery（数据源）和导入模式下均可用 <br><br>[Power BI 服务](../admin/service-admin-rls.md)中的行级别安全性 <br><br>[Power BI 报表服务器](row-level-security-report-server.md)中的行级别安全性 |
 | 全屏模式 | 否 | 是 | Power BI 服务中的[全屏模式](../consumer/end-user-focus.md) |
 | 高级 Microsoft 365 协作 | 否 | 是 | 使用 Microsoft 365 [在工作区中进行协作](../collaborate-share/service-collaborate-power-bi-workspace.md) |
-| R 视觉对象 | 否 | 是 | 在 Power BI Desktop 中[创建 R 视觉对象](../create-reports/desktop-r-visuals.md)并将其发布到 Power BI 服务。 无法将带有 R 视觉对象的 Power BI 报表保存到 Power BI 报表服务器。  |
+| R 脚本和视觉对象 | 否 | 是 | 在 Power BI Desktop 中[创建 R 视觉对象](../create-reports/desktop-r-visuals.md)并运行 R 脚本，然后将其发布到 Power BI 服务。 无法将带有 R 脚本或视觉对象的 Power BI 报表保存到 Power BI 报表服务器。  |
+| Python 脚本和视觉对象 | 否 | 是 | 在 Power BI Desktop 中[创建 Python 脚本](../connect-data/desktop-python-scripts.md)和视觉对象，并将其发布到 Power BI 服务。 无法将带有 Python 脚本或视觉对象的 Power BI 报表保存到 Power BI 报表服务器。 |
 | 预览功能 | 否 | 是 | [选择使用 Power BI 服务预览](../consumer/end-user-preview-features.md)功能 |
 | Power BI 视觉对象 | 是 | 是 | [Power BI 视觉对象](../developer/visuals/power-bi-custom-visuals.md) |
 | 复合模型 | 否 | 是 |

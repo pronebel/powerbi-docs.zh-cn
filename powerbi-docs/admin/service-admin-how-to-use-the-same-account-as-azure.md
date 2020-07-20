@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 09/09/2019
 ms.author: kfollis
 LocalizationGroup: Troubleshooting
-ms.openlocfilehash: 4f1f8947827500ec89d189e17f8ab2189caaff93
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: fe93fa3f41cf1c340b31ce3c6f817f842f3039ff
+ms.sourcegitcommit: c18130ea61e67ba111be870ddb971c6413a4b632
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83138995"
+ms.lasthandoff: 07/09/2020
+ms.locfileid: "86161643"
 ---
 # <a name="using-the-same-account-for-power-bi-and-azure"></a>将相同的帐户用于 Power BI 和 Azure
 
@@ -28,13 +28,13 @@ Power BI 会使用与工作或学校电子邮件地址关联的组织帐户使�
 
 通过执行以下步骤可以作为协同管理员在 Azure 中添加组织帐户：
 
-1. 登录 [Azure 门户](https://portal.azure.com/)。 如果你是多个 Azure 目录中的用户，请选择“订阅”  ，然后进行筛选以便仅查看你要编辑的目录和订阅。
+1. 登录 [Azure 门户](https://portal.azure.com/)。 如果你是多个 Azure 目录中的用户，请选择“订阅”，然后进行筛选以便仅查看你要编辑的目录和订阅。
 
-1. 在导航窗格中，选择“访问控制(IAM)”，然后选择“添加”\>“添加共同管理员”    。
+1. 在导航窗格中，选择“访问控制(IAM)”，然后选择“添加”\>“添加共同管理员”  。
 
-    ![在 Azure 门户中添加共同管理员](media/service-admin-how-to-use-the-same-account-as-azure/add-co-administrator.png)
+    ![访问控制的屏幕截图，其中突出显示了添加“共同管理员”。](media/service-admin-how-to-use-the-same-account-as-azure/add-co-administrator.png)
 
-1. 输入与组织帐户关联的电子邮件地址，然后选择“添加”  。
+1. 输入与组织帐户关联的电子邮件地址，然后选择“添加”。
 
 1. 下次登录 Azure 门户时，请使用组织电子邮件地址。
 

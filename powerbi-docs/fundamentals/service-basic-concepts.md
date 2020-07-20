@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 11/14/2019
 ms.author: maggies
 LocalizationGroup: Get started
-ms.openlocfilehash: bcd5713b2ee7f053448718bc5dd93c24b0d53de6
-ms.sourcegitcommit: 2cb249fc855e369eed1518924fbf026d5ee07eb1
+ms.openlocfilehash: ca6ce7bde592c1153b0a553a906391c3a2c7d5be
+ms.sourcegitcommit: c83146ad008ce13bf3289de9b76c507be2c330aa
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/24/2020
-ms.locfileid: "83813867"
+ms.lasthandoff: 07/10/2020
+ms.locfileid: "86216656"
 ---
 # <a name="basic-concepts-for-designers-in-the-power-bi-service"></a>Power BI 服务中设计器的基本概念
 
@@ -24,7 +24,7 @@ ms.locfileid: "83813867"
 
 根据本文内容，如果你还没有自己的报表，请尝试安装一个 [Power BI 示例](../create-reports/sample-datasets.md)。
 
-![浏览器中的 Power BI 服务主页屏幕](media/service-basic-concepts/power-bi-home-screen.png)
+![显示浏览器中 Power BI 服务主页屏幕的屏幕截图的示意图，其中列出了带编号的区域。](media/service-basic-concepts/power-bi-home-screen.png)
 
 在浏览器中打开 Power BI 服务时，首先进入主屏幕。 可能会看到以下元素：
 
@@ -57,7 +57,8 @@ Power BI 的 5 个主要构建基块是仪表板、报表、工作簿、数据�
 
 有两种类型的工作区：“我的工作区”和“工作区” 。
 
-- “我的工作区”是个人工作区，供任何 Power BI 客户在其中处理自己的内容。 只有你自己才有权访问你的工作区。 可以从“我的工作区”共享仪表板和报表。 如果想要在仪表板和报表上展开合作或创建应用，那么你会想要在工作区中工作。      
+- “我的工作区”是个人工作区，供任何 Power BI 客户在其中处理自己的内容。 只有你自己才有权访问你的工作区。 可以从“我的工作区”共享仪表板和报表。 如果想要在仪表板和报表上展开合作或创建应用，那么你会想要在工作区中工作。
+
 -  工作区用于与同事展开协作和共享内容。 可将同事添加到工作区，然后在仪表板、报表、工作簿和数据集方面进行协作。 有一个例外，就是所有工作区成员都需要 Power BI Pro 许可证。 详细了解[新建工作区](../collaborate-share/service-create-the-new-workspaces.md)。 
 
     也可在工作区中为组织创建、发布和管理应用。 可将工作区看作构成 Power BI 应用的内容的暂存区域和容器。 什么是应用？ 它是仪表板和报表的集合，生成它的目的是为组织中的 Power BI 使用者提供关键指标。 应用是交互式的，但使用者无法编辑它们。 应用使用者（有权访问应用的同事）不一定需要 Pro 许可证。  
@@ -80,7 +81,7 @@ Power BI 的 5 个主要构建基块是仪表板、报表、工作簿、数据�
 
 在下面的示例中，我已选择“销售和市场营销”工作区，并单击了“数据集”选项卡。
 
-![选中的数据集](media/service-basic-concepts/power-bi-datasets.png)
+![Power BI 的屏幕截图，其中显示了数据集处于选中状态的示例工作区。](media/service-basic-concepts/power-bi-datasets.png)
 
 **一个**数据集...
 
@@ -88,7 +89,7 @@ Power BI 的 5 个主要构建基块是仪表板、报表、工作簿、数据�
 * 可以用于许多不同的报表。
 * 可以在许多不同的仪表板上显示该数据集的可视化对象。
 
-  ![数据集图示](media/service-basic-concepts/drawing2.png)
+  ![显示数据集与报表和仪表板的关系的示意图。](media/service-basic-concepts/drawing2.png)
 
 要[连接或导入数据集](../connect-data/service-get-data.md)，请选择导航窗格底部的“获取数据”。 按照说明连接到或导入特定的源，并将该数据集添加到活动的工作区。 新的数据集项目带有黄色星号标记。 在 Power BI 中所做的工作不会更改基础数据集。
 
@@ -108,7 +109,7 @@ Power BI 的 5 个主要构建基块是仪表板、报表、工作簿、数据�
 ## <a name="reports"></a>报表
 Power BI 报表是一页或多页可视化对象（如折线图、地图和树状图）。 可视化效果也称为视觉对象。 报表中所有可视化对象来自单个数据集。 可在 Power BI 中从头开始创建报表，使用同事与你共享的仪表板导入报表，或者 Power BI 可以在从 Excel、Power BI Desktop、数据库和 SaaS 应用程序连接到数据集时创建报表。  例如，当你连接到包含 Power View 表的 Excel 工作簿时，Power BI 将基于这些表创建报表。 当连接到 SaaS 应用程序时，Power BI 将导入预先构建的报表。
 
-有两种模式可用来查看报表并与之交互：阅读视图和编辑视图 。 打开报表时，报表将在“阅读视图”中打开。 如果你具有编辑权限，会看到左上角的“编辑报表”，可以在“编辑视图”中查看报表。  如果报表位于工作区中，则具有管理员、成员或参与者角色的所有人都可以对其进行编辑  。 他们有权访问该报表的“编辑视图”的所有浏览、设计、生成和共享功能。 共享报表的用户可以使用“读取视图”了解报表并与之进行交互。   
+有两种模式可用来查看报表并与之交互：阅读视图和编辑视图 。 打开报表时，报表将在“阅读视图”中打开。 如果你具有编辑权限，会看到左上角的“编辑报表”，可以在“编辑视图”中查看报表。  如果报表位于工作区中，则具有管理员、成员或参与者角色的所有人都可以对其进行编辑  。 他们有权访问该报表的“编辑视图”的所有浏览、设计、生成和共享功能。 共享报表的用户可以使用“读取视图”了解报表并与之进行交互。
 
 打开某个工作区时，关联的报表会列在“报表”选项卡下面。每个列出的报表代表只基于其中一个基础数据集的一页或多页可视化对象。 若要打开报表，选择报表即可。
 
@@ -118,7 +119,7 @@ Power BI 报表是一页或多页可视化对象（如折线图、地图和树�
 
 在下面的示例中，我选择了“销售和市场营销”工作区，并单击了“报表”选项卡。
 
-![选中的报表](media/service-basic-concepts/power-bi-reports.png)
+![Power BI 的屏幕截图，其中显示了报表处于选中状态的示例工作区。](media/service-basic-concepts/power-bi-reports.png)
 
 **一个**报表...
 
@@ -126,7 +127,7 @@ Power BI 报表是一页或多页可视化对象（如折线图、地图和树�
 * 可与该工作区内的多个仪表板相关联。 该报表中固定的磁贴可以显示在多个仪表板上。
 * 可以使用来自一个数据集的数据进行创建。 Power BI Desktop 可以将多个数据集组合到一个报表的单个数据集中，并且该报表可以导入到 Power BI。
 
-  ![报表图示](media/service-basic-concepts/drawing3new.png)
+  ![显示报表与数据集和仪表板的关系的示意图。](media/service-basic-concepts/drawing3new.png)
 
 ### <a name="dig-deeper"></a>深入了解
 - [通过导入数据集在 Power BI 服务中创建报表](../create-reports/service-report-create-new.md)
@@ -154,7 +155,7 @@ Power BI 报表是一页或多页可视化对象（如折线图、地图和树�
 * 可以显示来自许多不同报表的可视化对象
 * 可以显示从其他工具（例如 Excel）固定的可视化对象
 
-  ![选中的仪表板](media/service-basic-concepts/drawing1.png)
+  ![显示仪表板与数据集和报表的关系的示意图。](media/service-basic-concepts/drawing1.png)
 
 ### <a name="dig-deeper"></a>深入了解
 * [创建空白仪表板并获取一些数据](../create-reports/service-dashboard-create.md)。
@@ -177,15 +178,15 @@ Power BI 报表是一页或多页可视化对象（如折线图、地图和树�
 ## <a name="a-dashboard-in-my-workspace"></a>我的工作区中的仪表板
 前面已介绍工作区和构建基块。 将它们整合在一起，并回顾构成 Power BI 服务中仪表板体验的各个部分。
 
-![浏览器中的 Power BI 服务](media/service-basic-concepts/completenewest.png)
+![浏览器中 Power BI 服务的屏幕截图，其中显示了按如下编号的各个功能。](media/service-basic-concepts/completenewest.png)
 
 ### <a name="1-navigation-pane"></a>1.**导航窗格**
 使用导航窗格可在工作区与 Power BI 构建基块（仪表板、报表、工作簿和数据集）之间定位和切换。  
 
-  ![导航窗格](media/service-basic-concepts/power-bi-navigation.png)
+  ![Power BI 服务的屏幕截图，其中显示了“导航”窗格。](media/service-basic-concepts/power-bi-navigation.png)
 
 * 选择“获取数据”，以[将数据集、报表和仪表板添加到 Power BI](../connect-data/service-get-data.md)。
-* 使用此图标展开和折叠导航窗格 ![导航窗格图标](media/service-basic-concepts/expand-icon.png)。
+* 使用此图标展开和折叠导航窗格 ![Power BI 服务的屏幕截图，其中显示了“导航”窗格图标。](media/service-basic-concepts/expand-icon.png)。
 * 选择“收藏夹”可以打开或管理收藏的内容。
 * 选择“最近”可以查看和打开最近访问的内容。
 * 选择“应用”可以查看、打开或删除某个应用。
@@ -203,7 +204,7 @@ Power BI 报表是一页或多页可视化对象（如折线图、地图和树�
 
 仪表板由[磁贴](../create-reports/service-dashboard-tiles.md)组成。  磁贴在报表编辑视图、问答和其他仪表板中创建，并且可从 Excel、SSRS 等应用中进行固定。 称为[小组件](../create-reports/service-dashboard-add-widget.md)的特殊类型的磁贴将直接添加到仪表板中。 显示在仪表板上的磁贴是由报表创建者/所有者专门放在仪表板上的。  向仪表板添加磁贴的操作称为固定。
 
-![Power BI 仪表板画布](media/service-basic-concepts/canvas.png)
+![Power BI 服务的屏幕截图，其中显示了仪表板画布。](media/service-basic-concepts/canvas.png)
 
 有关详细信息，请参阅[仪表板](#dashboards)（上述）。
 
@@ -212,36 +213,36 @@ Power BI 报表是一页或多页可视化对象（如折线图、地图和树�
 
 问题与解答会在连接到仪表板的数据集中查找答案。  已连接的数据集是至少有一个磁贴固定到仪表板的数据集。
 
-![问题解答问题框](media/service-basic-concepts/power-bi-qna.png)
+![Power B I 服务的屏幕截图，其中显示了问答框。](media/service-basic-concepts/power-bi-qna.png)
 
 开始键入问题后，问题与解答将带你进入问题与解答页面。 键入时，问题与解答将帮助你询问相应的问题并通过改换、自动填充、建议以及更多功能来查找最佳答案。 当你拥有想要的可视化对象（答案）时，将其固定到仪表板中。 有关详细信息，请参阅 [Power BI 中的问题与解答](../consumer/end-user-q-and-a.md)。
 
 ### <a name="4-icons-in-the-black-header-bar"></a>4.**黑色标题栏中的图标**
 右上角的图标是用于指定设置、获取通知、下载内容、获取帮助、启用或禁用“新外观”以及向 Power BI 团队提供反馈的资源。  
 
-![图标按钮](media/service-basic-concepts/power-bi-icons.png)
+![Power BI 服务的屏幕截图，其中显示了图标按钮。](media/service-basic-concepts/power-bi-icons.png)
 
 ### <a name="5-dashboard-title-navigation-path-or-breadcrumbs"></a>5.**仪表板标题**（导航路径，或称为痕迹导航）
 有时，我们难以判断哪个工作区和仪表板处于活动状态，为此，Power BI 将会创建导航路径。  在本示例中，可以看到工作区（“我的工作区”）和仪表板标题（“零售分析示例”）。  如果我们打开了某个报表，该报表的名称将追加到导航路径的末尾。  路径的每个部分是活动的超链接。  
 
 请注意仪表板标题后面的“C”图标。 此仪表板包含“机密”类型的[数据分类标记](../create-reports/service-data-classification.md)。 标记确定数据的敏感度和安全级别。 如果管理员已启用数据分类，则每个仪表板中都会设置一个默认标记。 仪表板所有者应根据其仪表板的适当安全性级别更改该标记。
 
-![数据分类图标](media/service-basic-concepts/power-bi-title.png)
+![Power BI 服务的屏幕截图，其中显示了“数据分类”图标。](media/service-basic-concepts/power-bi-title.png)
 
 ### <a name="6-microsoft-365-app-launcher"></a>6.Microsoft 365 应用启动器
 使用应用启动程序，只需单击一下鼠标，就能轻松访问所有 Microsoft 365 应用。 在应用启动程序中，可以快速启动电子邮件、文档、日历和其他应用。
 
-![Office 应用启动程序](media/service-basic-concepts/power-bi-waffle.png)
+![Power BI 服务的屏幕截图，其中显示了 Office 应用启动程序。](media/service-basic-concepts/power-bi-waffle.png)
 
 ### <a name="7-power-bi-home"></a>7.Power BI 主页
 选择“Power BI”可返回到 Power BI 主页。
 
-   ![服务中的“Power BI”报表](media/service-basic-concepts/version-new.png)
+   ![Power BI 服务的屏幕截图，其中显示了用于返回 Power BI 主页的图标。](media/service-basic-concepts/version-new.png)
 
 ### <a name="8-labeled-icons-in-the-gray-menu-bar"></a>8.**灰色菜单栏中的已标记图标**
 此屏幕区域包含用来与内容（在本例中为仪表板）交互的其他选项。  除了显示的带标签图标以外，选择“更多选项(…)”将显示用于复制、打印和刷新仪表板和其他内容的选项。
 
-   ![带标签的图标按钮](media/service-basic-concepts/power-bi-labeled-icons.png)
+   ![Power BI 服务的屏幕截图，其中显示了带标签的图标按钮。](media/service-basic-concepts/power-bi-labeled-icons.png)
 
 ## <a name="next-steps"></a>后续步骤
 - [什么是 Power BI？](power-bi-overview.md)  

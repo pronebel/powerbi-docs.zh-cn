@@ -9,31 +9,31 @@ ms.topic: how-to
 ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: b343136acb22d213c0e2ad2dfcf83fbda805e88a
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: d6de937f4be3c503c146c31a32c56b67ee97a8c4
+ms.sourcegitcommit: c83146ad008ce13bf3289de9b76c507be2c330aa
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85224118"
+ms.lasthandoff: 07/10/2020
+ms.locfileid: "86214812"
 ---
 # <a name="connect-to-a-snowflake-computing-warehouse-in-power-bi-desktop"></a>在 Power BI Desktop 中连接到 Snowflake 计算仓库
 在 Power BI Desktop 中，你可以连接到 **Snowflake** 计算仓库，并可如同使用 Power BI Desktop 中任何其他数据源一样使用基础数据。 
 
 ## <a name="connect-to-a-snowflake-computing-warehouse"></a>连接到 Snowflake 计算仓库
-要连接到 Snowflake 计算仓库，请从 Power BI Desktop 中的“开始”功能区选择“获取数据”    。 选择左侧类别中的“数据库”  ，然后便会看到“Snowflake”  。
+要连接到 Snowflake 计算仓库，请从 Power BI Desktop 中的“开始”功能区选择“获取数据”  。 选择左侧类别中的“数据库”，然后便会看到“Snowflake”。
 
-![](media/desktop-connect-snowflake/connect-snowflake-2b.png)
+![“获取数据”对话框的屏幕截图，其中显示了 Snowflake 数据库选择。](media/desktop-connect-snowflake/connect-snowflake-2b.png)
 
 在出现的 **Snowflake** 窗口中，将你的 Snowflake 计算仓库名称键入或粘贴到框中，然后选择“**确定**”。 请注意，可以选择将数据直接**导入**到 Power BI 中，或使用 **DirectQuery**。 可以了解有关[使用 DirectQuery](desktop-use-directquery.md) 的详细信息。 请注意，AAD SSO 仅支持 DirectQuery。
 
-![](media/desktop-connect-snowflake/connect-snowflake-3.png)
+![“Snowflake”对话框的屏幕截图，其中显示已选中“导入”单选按钮。](media/desktop-connect-snowflake/connect-snowflake-3.png)
 
 出现提示时，输入你的用户名和密码。
 
-![](media/desktop-connect-snowflake/connect-snowflake-4.png)
+![Snowflake 凭据提示的屏幕截图，其中显示了“用户名”和“密码”字段。](media/desktop-connect-snowflake/connect-snowflake-4.png)
 
 > [!NOTE]
-> 一旦输入用户名和密码以连接特定 Snowflake  服务器，Power BI Desktop 在后续连接尝试中就会使用这些凭据。 可以通过“文件”>“选项和设置”>“数据源设置”  来修改这些凭据。
+> 一旦输入用户名和密码以连接特定 Snowflake 服务器，Power BI Desktop 在后续连接尝试中就会使用这些凭据。 可以通过“文件”>“选项和设置”>“数据源设置”来修改这些凭据。
 > 
 > 
 
@@ -42,7 +42,7 @@ ms.locfileid: "85224118"
 ![Snowflake 连接器中的 Microsoft 帐户身份验证类型。](media/desktop-connect-snowflake/connect-snowflake-6.png)
 
 
-连接成功后，将会出现“导航器”  窗口，并显示服务器上可用的数据。你可以从这些数据中选择要在 **Power BI Desktop** 中导入和使用的一个或多个元素。
+连接成功后，将会出现“导航器”窗口，并显示服务器上可用的数据。你可以从这些数据中选择要在 **Power BI Desktop** 中导入和使用的一个或多个元素。
 
 ![ODBC 错误 28000，导致连接失败。](media/desktop-connect-snowflake/connect-snowflake-5.png)
 

@@ -8,12 +8,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 12/30/2019
 ms.author: v-pemyer
-ms.openlocfilehash: b195e0bc11068b819a2f3133ed9ae135e3c30ffb
-ms.sourcegitcommit: a453ba52aafa012896f665660df7df7bc117ade5
+ms.openlocfilehash: e1a24d8d15881bf8a1948d91758c7592f75ea7ac
+ms.sourcegitcommit: c83146ad008ce13bf3289de9b76c507be2c330aa
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/27/2020
-ms.locfileid: "85485935"
+ms.lasthandoff: 07/10/2020
+ms.locfileid: "86214203"
 ---
 # <a name="on-premises-data-gateway-sizing"></a>本地数据网关大小调整
 
@@ -33,7 +33,7 @@ ms.locfileid: "85485935"
 1. **数据检索和转换**：检索数据，并在必要时对其进行转换。 只要有可能，Power Query 混合引擎就会将转换步骤推送到数据源，这称为[查询折叠](power-query-folding.md)。 如果无法进行转换，则必须由网关完成转换。 在这种情况下，网关会占用更多 CPU 和内存资源。
 1. **传输**：将数据传输到 Power BI 服务（可靠且快速的 Internet 连接非常重要，尤其是对于大型数据卷而言）
 
-![关系图显示连接到本地源的本地数据网关：关系数据库、Excel 工作簿和 CSV 文件。 网关检索和转换数据。](media/gateway-onprem-sizing/gateway-onprem-workload-cached-data.png)
+![显示连接到本地源的本地数据网关的缓存数据示意图。](media/gateway-onprem-sizing/gateway-onprem-workload-cached-data.png)
 
 ### <a name="live-connection-and-directquery-workloads"></a>实时连接和 DirectQuery 工作负载
 
@@ -46,7 +46,7 @@ ms.locfileid: "85485935"
 
 可靠、快速且一致的连接对于确保报表用户具有响应体验非常重要。
 
-![图中显示了连接到本地数据源的本地数据网关：Analysis Services 表格数据库和关系。 网关主要在传递模式下工作。](media/gateway-onprem-sizing/gateway-onprem-workload-liveconnection-directquery.png)
+![显示连接到本地源的本地数据网关的实时连接和 DirectQuery 的示意图。](media/gateway-onprem-sizing/gateway-onprem-workload-liveconnection-directquery.png)
 
 ## <a name="sizing-considerations"></a>调整大小注意事项
 

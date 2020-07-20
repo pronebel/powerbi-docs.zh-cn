@@ -9,15 +9,15 @@ ms.topic: how-to
 ms.date: 05/26/2020
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: 5b649b3694eab5a573f814efd707155154d54b18
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: c34244669b538a5c3138536adbfd022eb00e646d
+ms.sourcegitcommit: e8ed3d120699911b0f2e508dc20bd6a9b5f00580
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85236685"
+ms.lasthandoff: 07/11/2020
+ms.locfileid: "86263024"
 ---
 # <a name="get-data-from-power-bi-desktop-files"></a>从 Power BI Desktop 文件获取数据
-![](media/service-desktop-files/pbid_file_icon.png)
+![Power BI Desktop 文件图标](media/service-desktop-files/pbid_file_icon.png)
 
 借助 **Power BI Desktop**，可以轻松处理商业智能任务和报表。 无论你是要连接众多类型的数据源、查询和转换数据、对数据进行建模，还是要生成功能强大的动态报表，**Power BI Desktop** 可方便你直观、快速地执行商业智能任务。 如果你不熟悉 **Power BI Desktop**，请参阅 [Power BI Desktop 入门](../fundamentals/desktop-getting-started.md)。
 
@@ -38,13 +38,13 @@ ms.locfileid: "85236685"
 
 1. 在 Power BI 的导航窗格中，单击**“获取数据”**。
    
-   ![](media/service-desktop-files/pbid_get_data_button.png)
+   ![“获取数据”的屏幕截图，其中显示了导航窗格中的按钮。](media/service-desktop-files/pbid_get_data_button.png)
 2. 在“文件”中，单击“获取”。
    
-   ![](media/service-desktop-files/pbid_files_get.png)
+   ![“文件”对话框的屏幕截图，其中显示了“获取”按钮。](media/service-desktop-files/pbid_files_get.png)
 3. 查找你的文件。 Power BI Desktop 文件具有 .PBIX 扩展名。
    
-   ![](media/service-desktop-files/pbid_find_your_file.png)
+   ![用于查找文件的四个磁贴的屏幕截图，其中显示了本地文件、OneDrive Business、OneDrive Personal 和 SharePoint 磁贴。](media/service-desktop-files/pbid_find_your_file.png)
 
 ## <a name="publish-a-file-from-power-bi-desktop-to-your-power-bi-site"></a>将文件从 Power BI Desktop 发布到 Power BI 站点
 使用 Power BI Desktop 中的“发布”类似于使用 Power BI 中的“获取数据”，都是最初从本地驱动器导入文件数据或在 OneDrive 上连接到它。 但有一些区别：如果从本地驱动器上传，则需要频繁刷新数据，以确保数据的联机副本和本地副本彼此都是最新的。 
@@ -53,12 +53,12 @@ ms.locfileid: "85236685"
 
 1. 在 Power BI Desktop 中，单击**文件** > **发布** > **发布到 Power BI**，或在功能区上单击**发布**。
    
-   ![](media/service-desktop-files/pbid_publish.png)
+   ![功能区上“发布”的屏幕截图，其中显示了如何从 Power BI Desktop 发布。](media/service-desktop-files/pbid_publish.png)
 2. 登录到 Power BI。 仅首次使用使需执行此操作。
    
    完成后，你将获得一个链接，使用该链接将在 Power BI 网站中打开报表。
    
-   ![](media/service-desktop-files/pbid_publishing.png)
+   ![登录确认对话框的屏幕截图，其中显示了你已成功登录以及可使用链接打开报表。](media/service-desktop-files/pbid_publishing.png)
 
 ## <a name="next-steps"></a>后续步骤
 **浏览你的数据** - 将文件中的数据和报表导入到 Power BI 后，就可以浏览文件了。 如果你的文件中已包含报表，则这些文件将显示在**报表**的导航器窗格中。 如果你的文件仅包含数据，你可以创建新报表：右键单击新数据集，然后单击**浏览**即可。

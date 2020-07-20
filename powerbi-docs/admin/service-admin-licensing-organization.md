@@ -10,12 +10,12 @@ ms.date: 06/24/2020
 ms.author: kfollis
 ms.custom: licensing support
 LocalizationGroup: Administration
-ms.openlocfilehash: e050fd4ec3e533c07ecfd0f0604092bec7fc00b5
-ms.sourcegitcommit: a453ba52aafa012896f665660df7df7bc117ade5
+ms.openlocfilehash: 276770b677d85e0e125e7dd87bb0a800248d71c2
+ms.sourcegitcommit: c18130ea61e67ba111be870ddb971c6413a4b632
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/27/2020
-ms.locfileid: "85484923"
+ms.lasthandoff: 07/09/2020
+ms.locfileid: "86161464"
 ---
 # <a name="licensing-the-power-bi-service-for-users-in-your-organization"></a>为组织中的用户授权 Power BI 服务
 
@@ -57,7 +57,7 @@ ms.locfileid: "85484923"
 1. 输入涵盖所有用户所需的许可证数。
 1. 选择“自动分配给你的所有用户，无需许可证”，然后签出。
 
-  ![Power BI 免费版自动分配的订阅](media/service-admin-licensing-organization/m365-auto-assign.png) 
+  ![Power BI 免费自动分配订阅的屏幕截图，其中显示了自助式注册。](media/service-admin-licensing-organization/m365-auto-assign.png)
 
 若要查看组织中哪些用户可能已经拥有许可证，请参阅[查看和管理用户许可证](service-admin-manage-licenses.md)，了解操作方法。
 

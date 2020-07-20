@@ -10,12 +10,12 @@ ms.topic: how-to
 ms.date: 04/01/2020
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 726c265198c7489ac1de055d0fc00b1988109d11
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 807ba59066508d063dba2e2f921eff19cf018bc5
+ms.sourcegitcommit: c83146ad008ce13bf3289de9b76c507be2c330aa
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85223323"
+ms.lasthandoff: 07/10/2020
+ms.locfileid: "86214596"
 ---
 # <a name="connect-to-project-online-data-through-power-bi-desktop"></a>通过 Power BI Desktop 连接到 Project Online 数据
 可以通过 Power BI Desktop 连接到 Project Online 中的数据。
@@ -37,7 +37,7 @@ ms.locfileid: "85223323"
 
 5. Power BI Desktop 将提示你使用工作或学校帐户进行身份验证。 请选择组织帐户，然后输入你的凭据。
    
-   ![](media/desktop-project-online-connect-to-data/image.png)
+   ![Power BI Desktop 的屏幕截图，其中显示了要连接的凭据提示。](media/desktop-project-online-connect-to-data/image.png)
 
 用于连接到 OData 源的帐户必须对 Project Web App 站点至少具有项目组合查看者访问权限。 
 

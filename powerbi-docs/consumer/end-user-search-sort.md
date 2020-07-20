@@ -7,15 +7,15 @@ ms.custom: ''
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: how-to
-ms.date: 06/25/2020
+ms.date: 07/09/2020
 ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: 62acc84c7459cadd758a036f1db04685b5e9c2b5
-ms.sourcegitcommit: e8b12d97076c1387088841c3404eb7478be9155c
+ms.openlocfilehash: 1ff7332bc71935cd6b679fa546dc2f1d37551436
+ms.sourcegitcommit: c83146ad008ce13bf3289de9b76c507be2c330aa
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/01/2020
-ms.locfileid: "85782551"
+ms.lasthandoff: 07/10/2020
+ms.locfileid: "86215743"
 ---
 # <a name="navigation-for-power-bi-consumers-global-search"></a>面向 Power BI 使用者的导航：全局搜索
 
@@ -29,7 +29,7 @@ ms.locfileid: "85782551"
 ## <a name="searching-for-content"></a>搜索内容
  几乎可以从 Power BI 服务的每个部分进行搜索。 只需查找搜索框或搜索图标 ![放大镜图标](./media/end-user-search-sort/power-bi-search-icon.png)。
 
- 在“搜索”字段中，键入仪表板、报表、工作簿、应用或所有者的全部或部分名称。 Power BI 会搜索所有内容。 
+ 在“搜索”字段中，键入以下项的完整或部分名称：仪表板、报表、工作簿、工作区、应用或所有者。 Power BI 会搜索所有内容。 
 
  ![搜索报表](./media/end-user-search-sort/power-bi-search-field.png) 
 

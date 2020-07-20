@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 04/23/2020
 ms.author: maggies
 LocalizationGroup: Get started
-ms.openlocfilehash: c3b0a330793abf4242d43c1546dd0362b75683f2
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: da1ec0ec3a10adbd9771e13a97bcb17dcdf73273
+ms.sourcegitcommit: c83146ad008ce13bf3289de9b76c507be2c330aa
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83361120"
+ms.lasthandoff: 07/10/2020
+ms.locfileid: "86216903"
 ---
 # <a name="supported-languages-and-countriesregions-for-power-bi"></a>Power BI 支持的语言和国家/地区
 
@@ -82,7 +82,7 @@ Power BI 可将菜单、按钮、消息和其他体验元素转换为你的语�
 我们将为其他语言添加更多功能，敬请期待。 
 
 ### <a name="choose-your-language-in-the-power-bi-service"></a>在 Power BI 服务中选择你的语言
-1. 在 Power BI 服务中，选择“设置”  图标 ![Settings icon](media/supported-languages-countries-regions/pbi_settings_icon.png) > “设置”  。
+1. 在 Power BI 服务中，选择“设置”图标 ![显示“设置”图标的 Power BI 服务的屏幕截图。](media/supported-languages-countries-regions/pbi_settings_icon.png) > “设置”。
 2. 在**常规**选项卡上选择**语言**。
 3. 选择你的语言，然后单击**应用**。
 
@@ -90,27 +90,27 @@ Power BI 可将菜单、按钮、消息和其他体验元素转换为你的语�
 Power BI 根据你的计算机上的语言首选项检测你的语言。 你访问和更改这些首选项的方式可能因操作系统和浏览器而异。 下面介绍了如何从 Internet Explorer 和 Google Chrome 访问这些首选项。
 
 #### <a name="internet-explorer-version-11"></a>Internet Explorer（版本 11）
-1. 单击浏览器窗口右上角的“工具”  按钮：
+1. 单击浏览器窗口右上角的“工具”按钮：
    
-   ![Internet Explorer 工具按钮](media/supported-languages-countries-regions/languages1.png)
+   ![Internet Explorer 的屏幕截图，其中显示了“工具”按钮。](media/supported-languages-countries-regions/languages1.png)
 2. 单击 **Internet 选项**。
 3. 在“Internet 选项”对话框中，在“常规”选项卡的“外观”下面，单击**语言**按钮。
 
 #### <a name="google-chrome-version-42"></a>Google Chrome（版本 42）
 1. 单击浏览器窗口右上角的“menu（菜单）”按钮：
    
-   ![Chrome 菜单按钮](media/supported-languages-countries-regions/languages2.png)
+   ![Google Chrome 的屏幕截图，其中显示了菜单按钮。](media/supported-languages-countries-regions/languages2.png)
 2. 单击**设置**。
 3. 单击**显示高级设置**。
 4. 在“Languages（语言）”下面单击**语言和输入的设置**按钮。
 5. 单击**添加**，选择一种语言，然后单击**确定**。
    
-   ![Chrome 语言列表](media/supported-languages-countries-regions/pbi_langs_enus.png)
+   ![Google Chrome 的屏幕截图，其中显示了语言列表。](media/supported-languages-countries-regions/pbi_langs_enus.png)
    
    新的语言位于列表末尾处。 
 6. 将新语言拖到列表顶部，单击**使用该语言显示 Google Chrome**。
    
-   ![用此语言显示 Google Chrome](media/supported-languages-countries-regions/pbi_langs_eses.png)
+   ![Google Chrome 的屏幕截图，其中显示了显示语言。](media/supported-languages-countries-regions/pbi_langs_eses.png)
    
    你可能需要关闭并重新打开浏览器才能看见更改。
 
@@ -126,21 +126,21 @@ Power BI 根据你的计算机上的语言首选项检测你的语言。 你访�
 
 ### <a name="choose-a-language-for-power-bi-desktop"></a>选择 Power BI Desktop 的语言 
 1. [通过 Windows 应用商店](https://aka.ms/pbidesktopstore)安装 Power BI Desktop，或作为[独立安装程序](https://aka.ms/pbiSingleInstaller)进行安装。
-2. 要更改语言，请在 Windows 菜单中选择“设置”  。
+2. 要更改语言，请在 Windows 菜单中选择“设置”。
 
-3. 在“Windows 设置”中，选择“时间和语言”   。
+3. 在“Windows 设置”中，选择“时间和语言” 。
    
-     ![Windows 设置对话框](media/supported-languages-countries-regions/power-bi-service-windows-settings.png)
-4. 选择“语言”，然后选择一种语言  。 如果需要，还可选择“在 Microsoft Store 中添加 Windows 显示语言”  。
+     ![Power BI Desktop 的屏幕截图，其中显示了“Windows 设置”对话框。](media/supported-languages-countries-regions/power-bi-service-windows-settings.png)
+4. 选择“语言”，然后选择一种语言。 如果需要，还可选择“在 Microsoft Store 中添加 Windows 显示语言”。
    
-     ![Windows 语言设置对话框](media/supported-languages-countries-regions/power-bi-service-language-settings.png)
+     ![Power BI Desktop 的屏幕截图，其中显示了“Windows 语言设置”对话框。](media/supported-languages-countries-regions/power-bi-service-language-settings.png)
    
      下次启动 Power BI Desktop 时，它将使用被设置为默认值的语言。 
 
 要覆盖默认设置并使用 Windows 语言以外的语言来使用 Power BI Desktop，请执行以下操作。
-1. 在 Power BI Desktop 中，依次转到“文件”   > “选项和设置”   > “选项”  。
-2. 在“全局设置”下面，选择“区域设置”   。
-3. 在“应用程序语言”框中，选择不同的区域设置  。 
+1. 在 Power BI Desktop 中，依次转到“文件” > “选项和设置” > “选项”。
+2. 在“全局设置”下面，选择“区域设置” 。
+3. 在“应用程序语言”框中，选择不同的区域设置。 
 
 Power BI Desktop 中的语言支持仅限于“应用程序语言”下拉列表中显示的语言。
 
@@ -148,33 +148,33 @@ Power BI Desktop 中的语言支持仅限于“应用程序语言”下拉列表
 
 Power BI Desktop 从 Windows 区域设置中获取其默认数字和日期格式。 如果需要，可以检查或更改这些设置。
 
-1. 在 Windows 菜单上，选择“设置”  。
+1. 在 Windows 菜单上，选择“设置”。
 
-2. 在“Windows 设置”中，选择“时间和语言”   。
+2. 在“Windows 设置”中，选择“时间和语言” 。
    
-     ![Windows 设置对话框](media/supported-languages-countries-regions/power-bi-service-windows-settings.png)
+     ![Power BI Desktop 的屏幕截图，其中显示了“Windows 设置”对话框。](media/supported-languages-countries-regions/power-bi-service-windows-settings.png)
 
-3. 选择“区域” > “其他日期、时间和区域设置”   。
+3. 选择“区域” > “其他日期、时间和区域设置” 。
 
     :::image type="content" source="media/supported-languages-countries-regions/power-bi-service-region-settings.png" alt-text="其他日期、时间和区域设置":::
 
-4. 在“时钟和区域”中，选择“更改日期、时间或数字格式”   。
+4. 在“时钟和区域”中，选择“更改日期、时间或数字格式” 。
 
     :::image type="content" source="media/supported-languages-countries-regions/power-bi-service-check-region-settings.png" alt-text="时钟和区域设置":::
 
-5. 请确保选中“匹配 Windows 显示语言”，或根据需要进行更改  。
+5. 请确保选中“匹配 Windows 显示语言”，或根据需要进行更改。
 
     :::image type="content" source="media/supported-languages-countries-regions/power-bi-service-match-windows.png" alt-text="匹配 Windows 显示语言":::
 
 ### <a name="choose-the-locale-for-importing-data-into-power-bi-desktop"></a>选择将数据导入 Power BI Desktop 时要使用的区域设置
 无论是直接下载 Power BI Desktop，还是通过 Windows 应用商店安装它，都可以为特定报表选择不同于 Power BI Desktop 版本所用区域设置的区域设置。 区域设置更改了从数据源导入数据时 Power BI 解释数据的方式。 例如，“3/4/2017”被解释为 4 月 3 日或 3 月 4日。
 
-1. 在 Power BI Desktop 中，依次转到“文件”   > “选项和设置”   > “选项”  。
+1. 在 Power BI Desktop 中，依次转到“文件” > “选项和设置” > “选项”。
 2. 在“**当前文件**下，选择“**区域设置**”。
-3. 在“导入的区域设置”  框中选择不同的区域设置。 
+3. 在“导入的区域设置”框中选择不同的区域设置。 
    
-   ![Power BI Desktop“选项”对话框](media/supported-languages-countries-regions/power-bi_supptdlangs-locale.png)
-4. 选择“确定”。 
+   ![Power BI Desktop 的屏幕截图，其中显示了“选项”对话框。](media/supported-languages-countries-regions/power-bi_supptdlangs-locale.png)
+4. 选择“确定”。
 
 ### <a name="choose-the-language-for-the-model-in-power-bi-desktop"></a>在 Power BI Desktop 中选择模型的语言
 
@@ -190,11 +190,11 @@ Power BI Desktop 从 Windows 区域设置中获取其默认数字和日期格式
 
 下面介绍如何设置模型语言。
 
-1. 在 Power BI Desktop 中，依次转到“文件”   > “选项和设置”   > “选项”  。
-2. 在“全局”下面，选择“区域设置”   。
-3. 在“模型语言”框中选择不同的语言  。 
+1. 在 Power BI Desktop 中，依次转到“文件” > “选项和设置” > “选项”。
+2. 在“全局”下面，选择“区域设置” 。
+3. 在“模型语言”框中选择不同的语言。 
 
-    ![在 Power BI Desktop 中设置模型语言](media/supported-languages-countries-regions/power-bi-supported-model-languages.png)
+    ![Power BI Desktop 的屏幕截图，其中显示了如何设置模型语言。](media/supported-languages-countries-regions/power-bi-supported-model-languages.png)
 
 > [!NOTE]
 > 一旦创建，Power BI 模型的语言将不能更改。

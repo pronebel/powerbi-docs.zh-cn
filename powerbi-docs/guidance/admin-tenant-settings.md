@@ -8,12 +8,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 01/29/2020
 ms.author: v-pemyer
-ms.openlocfilehash: b024ff52585a4b9b46b60e3230a059b3d07d7b24
-ms.sourcegitcommit: 9c72ec6b2d6d4574c86e976a65c076764473482d
+ms.openlocfilehash: 7dd6c812116d9ba196b157bd12d6362c19ac64ec
+ms.sourcegitcommit: c83146ad008ce13bf3289de9b76c507be2c330aa
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/02/2020
-ms.locfileid: "84273890"
+ms.lasthandoff: 07/10/2020
+ms.locfileid: "86216721"
 ---
 # <a name="tenant-admin-settings-guidance"></a>租户管理员设置指南
 
@@ -41,7 +41,7 @@ ms.locfileid: "84273890"
 > [!NOTE]
 > 提供“授权请求”URL 将阻止单个用户注册免费的 60 天 Power BI Pro 试用版。 会将这些用户导向内部站点，提供有关如何获得（免费或 Pro）许可证的信息。
 
-![显示“发布‘获取帮助’信息”设置。](media/admin-tenant-settings/publish-get-help-information.png)
+![Power BI Desktop 的屏幕截图，其中显示了“帮助和支持”设置。](media/admin-tenant-settings/publish-get-help-information.png)
 
 ## <a name="manage-risk"></a>管理风险
 用于管理风险的设置可帮助在 Power BI 租户中建立治理策略。 但请记住，治理设置并不是一种安全措施。 例如，禁用“导出数据”设置将从 Power BI 用户界面中删除该功能，并以此方式帮助 Power BI 用户在符合组织治理策略的情况下工作，但不会阻止已确定的用户使用其他选项导出数据。 从安全角度来看，对某一数据集具有读取访问权限的 Power BI 用户具有查询此数据集的权限，并且无论 Power BI 用户界面中的可用功能如何，都可以保留结果。
@@ -51,7 +51,7 @@ ms.locfileid: "84273890"
 
 建议启用“接收与服务中断或突发事件相关的电子邮件通知”设置。 它可以在“帮助和支持设置”组中找到。 分配一个或多个“启用了邮件的”安全组。
 
-![显示“接收与服务中断或突发事件相关的电子邮件通知”设置。](media/admin-tenant-settings/receive-email-notifications-for-service-outages-or-incidents.png)
+![Power BI Desktop 的屏幕截图，其中显示了“接收服务中断或突发事件相关电子邮件通知”设置。](media/admin-tenant-settings/receive-email-notifications-for-service-outages-or-incidents.png)
 
 ### <a name="information-protection"></a>信息保护
 
@@ -74,7 +74,7 @@ ms.locfileid: "84273890"
 
 请确保在文档中包含说明，以使用户（没有工作区创建权限的用户）知道如何请求新的工作区。
 
-![显示“创建工作区”设置。](media/admin-tenant-settings/create-workspaces.png)
+![Power BI Desktop 的屏幕截图，其中显示了“创建工作区”设置。](media/admin-tenant-settings/create-workspaces.png)
 
 ### <a name="share-content-with-external-users"></a>与外部用户共享内容
 
@@ -84,7 +84,7 @@ ms.locfileid: "84273890"
 
 建议分配一个或多个安全组。 可以授权或拒绝这些组与外部用户共享内容。
 
-![显示“与外部用户共享内容”设置。](media/admin-tenant-settings/share-content-with-external-users.png)
+![Power BI Desktop 的屏幕截图，其中显示了“与外部用户共享内容”设置。](media/admin-tenant-settings/share-content-with-external-users.png)
 
 ### <a name="publish-to-web"></a>发布到 Web
 
@@ -96,7 +96,7 @@ ms.locfileid: "84273890"
 
 此外，还可以选择嵌入代码的工作方式。 默认设置为“只允许现有代码”。 这意味着将要求用户与 Power BI 管理员联系以创建嵌入代码。
 
-![显示“发布到 Web”设置。](media/admin-tenant-settings/publish-to-web.png)
+![Power BI Desktop 的屏幕截图，其中显示了“发布到 Web”设置。](media/admin-tenant-settings/publish-to-web.png)
 
 还建议定期查看[发布到 Web 嵌入代码](https://app.powerbi.com/admin-portal/embedCodes)。 如果代码会导致发布私密或机密信息，请删除这些代码。
 
@@ -111,7 +111,7 @@ ms.locfileid: "84273890"
 > [!IMPORTANT]
 > 禁用此设置还会限制使用[在 Excel 中分析](../collaborate-share/service-analyze-in-excel.md)和 Power BI 服务[实时连接](../connect-data/desktop-report-lifecycle-datasets.md#using-a-power-bi-service-live-connection-for-report-lifecycle-management)功能。
 
-![显示“导出数据”设置。](media/admin-tenant-settings/export-data.png)
+![Power BI Desktop 的屏幕截图，其中显示了“导出数据”设置。](media/admin-tenant-settings/export-data.png)
 
 > [!NOTE]
 > 如果允许用户导出数据，可以通过强制执行[数据保护](../admin/service-security-data-protection-overview.md)来添加保护层。 配置后，将阻止未经授权用户导出带有敏感标签的内容。
@@ -124,7 +124,7 @@ ms.locfileid: "84273890"
 
 如果需要授权外部用户编辑和管理内容，建议分配一个或多个安全组。 可以授权或拒绝这些组发布报表。
 
-![显示“允许外部来宾用户编辑和管理组织中的内容”设置。](media/admin-tenant-settings/allow-external-guest-users.png)
+![Power BI Desktop 的屏幕截图，其中显示了“允许外部来宾用户编辑和管理组织中的内容”设置。](media/admin-tenant-settings/allow-external-guest-users.png)
 
 ### <a name="developer-settings"></a>开发人员设置
 
@@ -135,7 +135,7 @@ ms.locfileid: "84273890"
 
 如果不打算使用开发人员 API 来嵌入内容，建议禁用它们。 或者，至少配置可执行此操作的特定安全组。
 
-![显示开发人员设置。](media/admin-tenant-settings/developer-settings.png)
+![Power BI Desktop 的屏幕截图，其中显示了开发人员设置。](media/admin-tenant-settings/developer-settings.png)
 
 ## <a name="next-steps"></a>后续步骤
 
@@ -145,4 +145,3 @@ ms.locfileid: "84273890"
 - [在管理门户中管理 Power BI](../admin/service-admin-portal.md)
 - 是否有任何问题? [尝试咨询 Power BI 社区](https://community.powerbi.com/)
 - 建议？ [提出改进 Power BI 的想法](https://ideas.powerbi.com)
-

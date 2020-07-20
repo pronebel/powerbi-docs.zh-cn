@@ -8,18 +8,18 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 07/02/2020
 ms.author: v-pemyer
-ms.openlocfilehash: 18dc88404b84e786bfee0a15ac169a6e0c1496e4
-ms.sourcegitcommit: 561f6de3e4621d9d439dd54fab458ddca78ace2c
+ms.openlocfilehash: 8e1e590f871e1840209e72eb611bde7b21610c6e
+ms.sourcegitcommit: c18130ea61e67ba111be870ddb971c6413a4b632
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/03/2020
-ms.locfileid: "85939874"
+ms.lasthandoff: 07/09/2020
+ms.locfileid: "86162358"
 ---
 # <a name="microsofts-bi-transformation"></a>Microsoft 的 BI 转换
 
 本文面向 IT 专业人员和 IT 管理员。 你将了解我们的 BI 策略和愿景，这使我们能够不断地将数据作为资产加以利用。 你还将了解如何使用 Power BI 来成功推动业务决策制定的数据文化。
 
-首先了解一些背景：如今，数据的爆炸式增长以惊人的速度影响着消费者和企业。 要在这种数据密集型环境中取得成功，要求分析师和管理人员能够将大量数据提炼成简洁的见解。 Microsoft BI 工具的变革彻底改变了 Microsoft 自身探索数据以及获取扩大公司影响力所需的正确见解的方式。
+首先了解一些背景：如今，数据的爆炸式增长以惊人的速度影响着消费者和企业。 要在这种数据密集型环境中取得成功，要求分析师和管理人员能够将大量数据提炼成简洁的见解。 Microsoft BI 工具的变革改变了 Microsoft 自身探索数据以及获取扩大公司影响力所需的正确见解的方式。
 
 那么，你的组织如何彻底改变使用数据的方式呢？ 让我们分享 BI 转换之旅的故事，帮助你理解。
 

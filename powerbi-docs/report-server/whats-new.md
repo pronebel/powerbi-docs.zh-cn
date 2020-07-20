@@ -7,24 +7,19 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
-ms.date: 07/06/2020
-ms.openlocfilehash: b6f2775d9aa23899a1e27ed58b818024129043b7
-ms.sourcegitcommit: 181679a50c9d7f7faebcca3a3fc55461f594d9e7
+ms.date: 07/08/2020
+ms.openlocfilehash: af737472b85dcfa05935aefa9ddd7a6fcbb746f2
+ms.sourcegitcommit: c83146ad008ce13bf3289de9b76c507be2c330aa
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/07/2020
-ms.locfileid: "86034028"
+ms.lasthandoff: 07/10/2020
+ms.locfileid: "86214375"
 ---
 # <a name="whats-new-in-power-bi-report-server"></a>Power BI 报表服务器中的新增功能
 
-了解 Power BI 报表服务器中的新增功能以及针对 Power BI 报表服务器优化的 Power BI Desktop 中的新增功能。 本文涉及主要功能方面，并随每个新版本进行更新。
+了解 Power BI 报表服务器中的新增功能以及针对 Power BI 报表服务器优化的 Power BI Desktop 中的新增功能。 本文涉及主要功能方面，并随每个新版本进行更新。 有关 Power BI 报表服务器中的新增功能的详细信息，请参阅 [Power BI 报表服务器的更改日志](changelog.md)。
 
 下载 [Power BI 报表服务器和针对 Power BI 报表服务器优化的 Power BI Desktop](https://powerbi.microsoft.com/report-server/)。
-
-若要了解相关的 Power BI“新增功能”信息，请参阅：
-
-- [Power BI 服务中的最近更新](../fundamentals/service-whats-new.md)
-- [Power BI Desktop 中的新增功能](../fundamentals/desktop-latest-update.md)
 
 ## <a name="may-2020"></a>2020 年 5 月
 

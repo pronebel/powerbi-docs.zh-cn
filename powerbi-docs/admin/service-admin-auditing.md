@@ -10,12 +10,12 @@ ms.date: 05/11/2020
 ms.author: kfollis
 ms.custom: licensing support
 LocalizationGroup: Administration
-ms.openlocfilehash: ff61cdf25c83b1062fd7c4a471a49269d20c57a8
-ms.sourcegitcommit: e8b12d97076c1387088841c3404eb7478be9155c
+ms.openlocfilehash: 195d1284fedc9f9c51c6fed2ff03cc0883b16405
+ms.sourcegitcommit: c18130ea61e67ba111be870ddb971c6413a4b632
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/01/2020
-ms.locfileid: "85782419"
+ms.lasthandoff: 07/09/2020
+ms.locfileid: "86161712"
 ---
 # <a name="track-user-activities-in-power-bi"></a>跟踪 Power BI 中的用户活动
 
@@ -145,7 +145,7 @@ $activities[0]
 
 2. 选择“Power BI 活动”。
 
-   ![“审核日志搜索”屏幕截图，其中包含 Power BI 活动。](media/service-admin-auditing/audit-log-search-filter-by-powerbi.png)
+   ![“审核日志搜索”屏幕截图，其中突出显示了 Power BI 活动。](media/service-admin-auditing/audit-log-search-filter-by-powerbi.png)
 
 3. 选择选框外任意位置以将其关闭。
 
@@ -157,13 +157,13 @@ $activities[0]
 
 如果所选日期范围大于 90 天，将收到错误。 如果使用最大日期范围 90 天，请选择当前时间作为“开始日期”。 否则将收到错误，提醒开始日期早于结束日期。 如果是在过去 90 天内启用审核，日期范围的开始日期不得早于审核启用日期。
 
-![“审核日志搜索”屏幕截图，其中包含“开始日期”选项和“结束日期”选项。](media/service-admin-auditing/search-audit-log-by-date.png)
+![“审核日志搜索”屏幕截图，其中突出显示了“开始日期”选项和“结束日期”选项。](media/service-admin-auditing/search-audit-log-by-date.png)
 
 ### <a name="search-the-audit-logs-by-users"></a>按用户搜索审核日志
 
 可搜索特定用户所执行活动的审核日志条目。 请在“用户”字段中输入一个或多个用户名。 用户名外观类似电子邮件地址。 这是用户登录 Power BI 所使用的帐户。 将此框留空以返回组织中所有用户（和服务帐户）的条目。
 
-![按用户搜索](media/service-admin-auditing/search-audit-log-by-user.png)
+![“审核日志搜索”屏幕截图，其中突出显示了“用户”。](media/service-admin-auditing/search-audit-log-by-user.png)
 
 ### <a name="view-search-results"></a>查看搜索结果
 
@@ -198,7 +198,7 @@ $activities[0]
 
 1. 选择“保存已加载结果”或“下载所有结果”。
 
-    ![“导出结果”选项屏幕截图。](media/service-admin-auditing/export-auditing-results.png)
+    ![“导出结果”选项的屏幕截图，其中突出显示了“下载所有结果”。](media/service-admin-auditing/export-auditing-results.png)
 
 ### <a name="use-powershell-to-search-audit-logs"></a>使用 PowerShell 搜索审核日志
 

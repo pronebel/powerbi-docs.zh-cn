@@ -8,12 +8,12 @@ ms.subservice: powerbi-mobile
 ms.topic: how-to
 ms.date: 12/02/2019
 ms.author: painbar
-ms.openlocfilehash: 88b5c6c377588003a02f571c29ef8baef5540ae3
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 9265cc94aceb53b1b088f2393ca607c83f94b978
+ms.sourcegitcommit: e8ed3d120699911b0f2e508dc20bd6a9b5f00580
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85220207"
+ms.lasthandoff: 07/11/2020
+ms.locfileid: "86264797"
 ---
 # <a name="scan-a-barcode-with-your-device-from-the-power-bi-mobile-app"></a>使用设备上的 Power BI 移动应用扫描条形码
 扫描现实生活中的条形码，直接转到在 Power BI 移动应用中筛选后的 BI 信息。
@@ -27,14 +27,14 @@ ms.locfileid: "85220207"
 
 假设有一个同事已[标记 Power BI Desktop 报表中的条形码字段](../../transform-model/desktop-mobile-barcodes.md)并与你共享该报表。 
 
-![](media/mobile-apps-scan-barcode-iphone/power-bi-barcode-scanner.png)
+![产品条形码扫描的屏幕截图，其中显示扫描仪正对准彩色饮料条形码。](media/mobile-apps-scan-barcode-iphone/power-bi-barcode-scanner.png)
 
 使用设备上 Power BI 应用中的扫描器扫描产品条形码时，可看到具有该条形码的报表（或报表列表）。 可打开筛选显示此条形码的报表。
 
 ## <a name="scan-a-barcode-with-the-power-bi-scanner"></a>使用 Power BI 扫描器扫描条形码
-1. 在导航栏上，点击“更多选项”(...)，然后点击“扫描仪”   。
+1. 在导航栏上，点击“更多选项”(...)，然后点击“扫描仪” 。
 
-    ![](media/mobile-apps-scan-barcode-iphone/power-bi-scanner.png)
+    ![导航窗格中“更多选项”的屏幕截图，其中显示了“扫描仪”选项。](media/mobile-apps-scan-barcode-iphone/power-bi-scanner.png)
 
 2. 如果未启用照相机，你需要许可 Power BI 应用使用照相机。 这是一次性允许。 
 4. 将扫描器指向产品上的条形码。 可看到与该条形码关联的报表列表。
@@ -43,14 +43,14 @@ ms.locfileid: "85220207"
 ## <a name="filter-by-other-barcodes-while-in-a-report"></a>在报表中由其他条形码筛选
 在设备上查看通过条形码筛选的报表时，你可能希望通过不同条形码筛选同一个报表。
 
-* 如果条形码图标有筛选器 ![](media/mobile-apps-scan-barcode-iphone/power-bi-barcode-filtered-icon-black.png)，筛选器将处于活动状态并且报表已通过条形码筛选。 
-* 如果条码图标没有筛选器 ![](media/mobile-apps-scan-barcode-iphone/power-bi-barcode-unfiltered-icon.png)，筛选器将不会处于活动状态并且报表未通过条形码筛选。 
+* 如果条形码图标有筛选器 ![已筛选图标](media/mobile-apps-scan-barcode-iphone/power-bi-barcode-filtered-icon-black.png)，筛选器将处于活动状态并且报表已通过条形码筛选。 
+* 如果图标不包含筛选器 ![未筛选图标](media/mobile-apps-scan-barcode-iphone/power-bi-barcode-unfiltered-icon.png)，筛选器将不会处于活动状态并且报表未通过条形码筛选。 
 
 无论哪种方式，点击该图标均可打开带有浮动扫描器的小菜单。
 
 * 将扫描器对准新项目，以将报表的筛选器更改为不同的条形码值。 
-* 选择“清除条形码筛选器”  以返回到未筛选的报表。
-* 选择“按最近条形码筛选”  ，将报表筛选器更改为已在当前会话中扫描的一个条形码。
+* 选择“清除条形码筛选器”以返回到未筛选的报表。
+* 选择“按最近条形码筛选”，将报表筛选器更改为已在当前会话中扫描的一个条形码。
 
 ## <a name="issues-with-scanning-a-barcode"></a>扫描条形码时出现的问题
 以下是在扫描产品上的条形码时可能会看到的一些消息。

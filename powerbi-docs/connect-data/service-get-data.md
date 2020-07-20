@@ -9,28 +9,28 @@ ms.topic: conceptual
 ms.date: 08/29/2019
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: 021b5f0856ef4ff3730102efda88fd089a36dfcf
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: bd3ab4a1c6f702ad866211339a3d3a386c4981fa
+ms.sourcegitcommit: e8ed3d120699911b0f2e508dc20bd6a9b5f00580
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83320069"
+ms.lasthandoff: 07/11/2020
+ms.locfileid: "86264402"
 ---
 # <a name="data-sources-for-the-power-bi-service"></a>Power BI 服务数据源
 数据是 Power BI 的核心。 假设你正在浏览数据。 可通过创建图表和仪表板，或使用**问答**提问来执行此任务。 你看到的可视化效果和答案从数据集中获取其基础数据。 但是，数据集来自何处呢？ 它来自数据源。
 
 在本文中，我们将介绍可以从 Power BI 服务连接到的数据源类型。 请记住，你还可以从很多其他类型的数据源获取数据。 如果选择这些数据源，则可能需要首先使用 Power BI Desktop 或 Excel 的高级数据查询和建模功能。 我们稍后会详细介绍这些选项。 现在，让我们看看可直接从 Power BI 服务站点获取的不同类型的数据源。
 
-可通过选择页面左下角的“获取数据”，从 Power BI 中的任何数据源获取数据  。
+可通过选择页面左下角的“获取数据”，从 Power BI 中的任何数据源获取数据。
 
-![](media/service-get-data/pbi-getdata-navigation-link.png) 
+![“获取数据”的屏幕截图，显示在 Power BI 服务屏幕的左下方。](media/service-get-data/pbi-getdata-navigation-link.png) 
 
-选择“获取数据”后，可选择想要访问的数据 
+选择“获取数据”后，可选择想要访问的数据
 
-![](media/service-get-data/pbi-getdata-startscreen.png)
+![“获取数据”选项的屏幕截图，其中显示了用于选择要访问的数据的选项。](media/service-get-data/pbi-getdata-startscreen.png)
 
 ## <a name="discover-content"></a>发现内容
-![](media/service-get-data/pbi-getdata-discovercontent.png)
+![“发现内容”部分的屏幕截图，其中显示了合作伙伴徽标。](media/service-get-data/pbi-getdata-discovercontent.png)
 
 **发现内容**部分包含已为你准备好的全部所需数据和报表。 在 Power BI 中，有两种类型的内容包：组织和服务。 
 
@@ -43,20 +43,20 @@ ms.locfileid: "83320069"
 **新建内容**部分包含用于自行创建和导入内容的选项。 在 Power BI 中，有两种方法可以创建或导入自己的内容：文件和数据库。 
 
 ### <a name="files"></a>文件
-![](media/service-get-data/pbi_getdata_files.png)
+![Excel、Power BI Desktop 和 CSV 的图标](media/service-get-data/pbi_getdata_files.png)
 
-Excel（.xlsx 和 .xlsm）- 在 Excel 中，一个工作簿可能会包含不同的数据类型    。 例如，它可以包含已自行输入到工作表中的数据。 它还可以包含使用 Power Query 从外部数据源查询和加载的数据。 Power Query 可通过 Excel 2016 中的“获取和转换”或 Power Pivot 获取  。 可以从工作表中的表导入数据，也可以从数据模型中导入数据。 若要了解详细信息，请参阅[从 Power BI 文件获取数据](service-get-data-from-files.md)。
+Excel（.xlsx 和 .xlsm）- 在 Excel 中，一个工作簿可能会包含不同的数据类型 。 例如，它可以包含已自行输入到工作表中的数据。 它还可以包含使用 Power Query 从外部数据源查询和加载的数据。 Power Query 可通过 Excel 2016 中的“获取和转换”或 Power Pivot 获取。 可以从工作表中的表导入数据，也可以从数据模型中导入数据。 若要了解详细信息，请参阅[从 Power BI 文件获取数据](service-get-data-from-files.md)。
 
 **Power BI Desktop** ( *.pbix*) - 可以使用 Power BI Desktop 查询和加载外部数据源中的数据，并创建报表。 还可以使用度量值和关系扩展数据模型，或将 Power BI Desktop 文件导入 Power BI 站点。 Power BI Desktop 最适合更高级的用户。 通常情况下，这些用户非常了解其数据源。 他们还了解数据查询和转换，以及数据建模概念。 若要了解详细信息，请参阅[连接到 Power BI Desktop 中的数据](desktop-connect-to-data.md)。
 
 **逗号分隔值** ( *.csv*) - 文件为具有数据行的简单文本文件。 每行可能会包含一个或多个值，每个值被逗号分隔开。 例如，包含姓名和地址数据的 *.csv* 可能拥有许多行。 每行可能会包含名字、姓氏、街道地址、城市、州/省等的值。 不能将数据导入 *.csv* 文件，但许多应用程序（如 Excel）可将简单的表格数据另存为 *.csv* 文件。
 
-对于其他文件类型（如 XML 表 [ *.xml*] 或文本 [ *.txt*] 文件），可以首先使用“获取和转换”来查询、转换数据并将该数据加载到 Excel 或 Power BI Desktop 文件  。 然后，你可以将 Excel 或 Power BI Desktop 文件导入 Power BI。
+对于其他文件类型（如 XML 表 [ *.xml*] 或文本 [ *.txt*] 文件），可以首先使用“获取和转换”来查询、转换数据并将该数据加载到 Excel 或 Power BI Desktop 文件。 然后，你可以将 Excel 或 Power BI Desktop 文件导入 Power BI。
 
 存储文件的位置也会产生重大影响。 OneDrive for Business 提供了最大程度的灵活性以及与 Power BI 的集成。 可以在本地驱动器上保存文件。 但在需要刷新数据时会有一些额外的步骤。 有关详细信息，请参阅以下文章链接。
 
 ### <a name="databases"></a>数据库
-![](media/service-get-data/pbi_getdata_databases.png)
+![数据库的屏幕截图，其中显示了云中的数据库徽标。](media/service-get-data/pbi_getdata_databases.png)
 
 **云中的数据库** - 通过 Power BI 服务，可以实时连接到：
 
@@ -86,7 +86,7 @@ Excel（.xlsx 和 .xlsm）- 在 Excel 中，一个工作簿可能会包含不同
 ## <a name="some-more-details"></a>更多详细信息
 你会发现术语数据集和数据源在 Power BI 中得到广泛使用。 它们经常用作同义词。 尽管它们是相互关联的，但实际上是两种不同的事物。
 
-使用“获取数据”时，会在 Power BI 中自动创建**数据集**  。 借助“获取数据”，可以连接到内容包并从中导入数据，也可以连接到实时数据源  。 数据集包含有关数据源和数据源凭据的信息。 在许多情况下，它还包含从数据源复制的数据子集。 在报表和仪表板中创建可视化效果时，你看到的通常是数据集中的数据。
+使用“获取数据”时，会在 Power BI 中自动创建**数据集** 。 借助“获取数据”，可以连接到内容包并从中导入数据，也可以连接到实时数据源。 数据集包含有关数据源和数据源凭据的信息。 在许多情况下，它还包含从数据源复制的数据子集。 在报表和仪表板中创建可视化效果时，你看到的通常是数据集中的数据。
 
 **数据源**指数据集中数据的来源。 例如，数据可能来自：
 
@@ -114,6 +114,6 @@ Azure SQL 数据库、Azure SQL 数据仓库和 Azure HDInsight 上的 Spark 是
 
 * **列中的非重复值** - 在 Power BI 数据集中缓存数据时（有时称为“导入”模式），可以在列中存储的非重复值的数量限制为 1,999,999,997。
 
-* **行限制** - 使用  DirectQuery 时，Power BI 对发送到基础数据源的查询结果施加限制。 如果发送到数据源的查询返回超过一百万行，则会出现错误，查询将失败。 基础数据仍可包含超过一百万行。 由于大多数报表将数据聚合为较小的结果集，因此不太可能遇到此限制。
+* **行限制** - 使用 DirectQuery 时，Power BI 对发送到基础数据源的查询结果施加限制。 如果发送到数据源的查询返回超过一百万行，则会出现错误，查询将失败。 基础数据仍可包含超过一百万行。 由于大多数报表将数据聚合为较小的结果集，因此不太可能遇到此限制。
 
 * **列限制** - 数据集中允许的最大列数为 16,000 列，这包括数据集中的所有表。 此限制适用于 Power BI 服务以及 Power BI Desktop 中使用的数据集。 Power BI 以此方式跟踪数据集中的列数和表数，这意味着数据集中每个表的最大列数为 16,000 减 1。

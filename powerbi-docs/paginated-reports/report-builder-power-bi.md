@@ -1,7 +1,7 @@
 ---
 title: Power BI 报表生成器
 description: Power BI Report Builder 是一款用于创作分页报表的工具。
-ms.date: 06/29/2020
+ms.date: 07/08/2020
 ms.service: powerbi
 ms.subservice: report-builder
 featuredvideoid: 78TZeiEhveY
@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.assetid: 55bf4f9c-d037-412f-ae57-3fc39ce32fa5
 author: maggiesMSFT
 ms.author: maggies
-ms.openlocfilehash: a0c22be90b609e25a6403e33cb646b35e9467c07
-ms.sourcegitcommit: e8b12d97076c1387088841c3404eb7478be9155c
+ms.openlocfilehash: f74fb596fb2a080922d0e62a4492ef6c8ccd4e0d
+ms.sourcegitcommit: c83146ad008ce13bf3289de9b76c507be2c330aa
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/01/2020
-ms.locfileid: "85782758"
+ms.lasthandoff: 07/10/2020
+ms.locfileid: "86216731"
 ---
 # <a name="power-bi-report-builder"></a>Power BI 报表生成器
 
@@ -22,9 +22,7 @@ ms.locfileid: "85782758"
  
 准备开始创作？ 从 Microsoft 下载中心[安装 Power BI Report Builder](https://aka.ms/pbireportbuilder)。
 
-更喜欢通过视频学习？ 请观看 YouTube 上由 Power BI 首席项目经理 Chris Finlan 制作的 Power BI 分页报表视频系列。
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/78TZeiEhveY?list=PLx7LcKtN_gq-JVzM6L8xNNxX7kts-KflJ" frameborder="0" allowfullscreen></iframe>
+更喜欢通过视频学习？ 请参阅[视频课程：一天玩转 Power BI 分页报表](../learning-catalog/paginated-reports-online-course.md)。
 
 以下分页报表带有一个矩阵（其中包含行组和列组）、迷你图、指标和摘要饼图（角落单元格中），并附有一个地图，其中含两组由颜色和圆圈大小表示的地理数据。  
 
@@ -63,4 +61,4 @@ ms.locfileid: "85782758"
 ## <a name="next-steps"></a>后续步骤
 
 - [Power BI Premium 中的分页报表是什么？](paginated-reports-report-builder-power-bi.md)
-- 请观看 YouTube 上由 Power BI 首席项目经理 Chris Finlan 制作的 [Power BI 分页报表视频系列](https://www.youtube.com/watch?v=78TZeiEhveY&list=PLx7LcKtN_gq-JVzM6L8xNNxX7kts-KflJ)
+- [视频课程：一天玩转 Power BI 分页报表](../learning-catalog/paginated-reports-online-course.md)

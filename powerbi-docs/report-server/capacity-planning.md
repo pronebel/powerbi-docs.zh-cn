@@ -8,12 +8,12 @@ ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 04/02/2020
 ms.author: maggies
-ms.openlocfilehash: 25bf9d8a05805fad268152c64b5aefa36f602803
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: f82a3a9e1cf207a006319e6ac7e662baaf5d9d1f
+ms.sourcegitcommit: c83146ad008ce13bf3289de9b76c507be2c330aa
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "80647646"
+ms.lasthandoff: 07/10/2020
+ms.locfileid: "86216572"
 ---
 # <a name="capacity-planning-guidance-for-power-bi-report-server"></a>Power BI 报表服务器容量计划指南
 Power BI 报表服务器是自助式 BI 和企业报表解决方案，客户可以在本地（防火墙后）进行部署。 它将 Power BI Desktop 的交互式报表功能与 SQL Server Reporting Services 的本地服务器平台相结合。 随着企业中对分析和报表的大量日益频繁使用，对衡量企业用户群所需的硬件基础结构和软件许可证进行预算可能会成为一项挑战。 本文旨在通过共享针对报表服务器的各种工作负载的大量加载测试执行的结果，提供 Power BI 报表服务器的容量计划指南。 虽然组织的报表、查询和使用模式差异巨大，但是本文中显示的结果，以及所用的实际测试和测试执行方式的详细描述，均可用作部署 Power BI 报表服务器早期阶段计划过程中的任何用户的参考点。
@@ -44,7 +44,7 @@ Power BI 报表服务器部署由以下虚拟机组成：
 * Power BI 报表服务器
 * Power BI 报表服务器数据库。 报表服务器数据库托管在 Power BI 报表服务器以外的其他计算机上，以便它不需要与 SQL Server 数据库引擎竞争内存、CPU、网络和磁盘资源。
 
-![](media/capacity-planning/report-server-topology.png)
+![显示 Power BI 报表服务器、Active Directory 和关联数据库之间的关系的示意图。](media/capacity-planning/report-server-topology.png)
 
 请参阅附录 1.1 Power BI 报表服务器拓扑和附录 1.2 Power BI 报表服务器虚拟机配置，了解拓扑中所用的每台虚拟机的全面配置。
 
@@ -64,7 +64,7 @@ Power BI 报表服务器部署由以下虚拟机组成：
 ### <a name="workloads"></a>工作负载
 测试中使用了 2 个工作负载配置文件：Power BI 报表重负载和分页报表重负载。 下表介绍了针对报表服务器执行的请求的分布。
 
-| Activity | Power BI 报表重负载，出现频率 | 分页报表重负载，出现频率 |
+| 活动 | Power BI 报表重负载，出现频率 | 分页报表重负载，出现频率 |
 | --- | --- | --- |
 | **呈现 Power BI 报表** |60% |10% |
 | **呈现分页 (RDL) 报表** |30% |60% |
@@ -91,7 +91,7 @@ Power BI 报表服务器部署由以下虚拟机组成：
 | **Power BI 报表重负载** |1,000 个用户 |3,000 个用户 |
 | **分页报表重负载** |2,000 个用户 |3,200 个用户 |
 
-## <a name="summary"></a>总结
+## <a name="summary"></a>摘要
 对于每个负载测试运行，CPU 是 Power BI 报表服务器计算机上的峰值负载点中最过载的资源。 因此，应增加的第一个资源是内核数。 或者，可以考虑通过在拓扑中添加更多托管 Power BI 报表服务器的服务器来进行纵向扩展。
 
 本文中显示的结果源自执行一个特定的报表集，该报表集使用一个以特定方式重复的特定数据集。 它是实用参考点，但请注意，具体使用情况视报表、查询、使用模式以及 Power BI 报表服务器部署而定。

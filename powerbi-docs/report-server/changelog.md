@@ -7,19 +7,19 @@ ms.reviewer: maggies
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
-ms.date: 06/30/2020
-ms.openlocfilehash: 0339dd4a8fa7b429db01715060bfd146db115e46
-ms.sourcegitcommit: e8b12d97076c1387088841c3404eb7478be9155c
+ms.date: 07/08/2020
+ms.openlocfilehash: 8b777cba35f32dcf2d6561b73c350d047d473223
+ms.sourcegitcommit: c18130ea61e67ba111be870ddb971c6413a4b632
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/01/2020
-ms.locfileid: "85782728"
+ms.lasthandoff: 07/09/2020
+ms.locfileid: "86162266"
 ---
 # <a name="change-log-for-power-bi-report-server"></a>Power BI 报表服务器的更改日志
 
 此更改日志适用于 Power BI 报表服务器，并列出了新项和每次发布版本的 bug 修复。
 
-有关新功能的详细信息，请参阅[Power BI 报表服务器中的新增功能](whats-new.md)。 
+有关新增功能的详细信息，请参阅 [Power BI 报表服务器中的新增功能](whats-new.md)。 
 
 ## <a name="may-2020"></a>2020 年 5 月
 - **Power BI 报表服务器**

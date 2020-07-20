@@ -10,15 +10,15 @@ ms.topic: how-to
 ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: 40844f41483fa7c4ca66e831b0766d6f41fcd83a
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: b7b886b5e0c21c77e0a5a6aca83fa0ae0751f435
+ms.sourcegitcommit: e8ed3d120699911b0f2e508dc20bd6a9b5f00580
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85221313"
+ms.lasthandoff: 07/11/2020
+ms.locfileid: "86264107"
 ---
 # <a name="get-data-from-files-for-power-bi"></a>从 Power BI 文件获取数据
-![](media/service-get-data-from-files/file_icons.png)
+![Excel、Power BI Desktop 和 CSV 的图标](media/service-get-data-from-files/file_icons.png)
 
 在 Power BI 中，可以连接到或从三种类型的文件导入数据和报表。
 
@@ -41,7 +41,7 @@ ms.locfileid: "85221313"
 > 
 
 ## <a name="where-your-file-is-saved-makes-a-difference"></a>保存文件的位置具有重要意义
-**本地** - 如果你将文件保存到计算机上的本地驱动器中或者组织中的其他位置，则在 Power BI 中，你可以将文件导入到 Power BI。  你的文件实际上一直保存在本地驱动器中，因此整个文件并未真正导入到 Power BI。 实际上，在 Power BI 网站中创建新的数据集，数据（某些情况下为数据模型）将加载到数据集中。 如果你的文件有任何报表，则这些报表会显示在你的 Power BI 网站中的“报表”下。
+**本地** - 如果你将文件保存到计算机上的本地驱动器中或者组织中的其他位置，则在 Power BI 中，你可以将文件导入到 Power BI。 你的文件实际上一直保存在本地驱动器中，因此整个文件并未真正导入到 Power BI。 实际上，在 Power BI 网站中创建新的数据集，数据（某些情况下为数据模型）将加载到数据集中。 如果你的文件有任何报表，则这些报表会显示在你的 Power BI 网站中的“报表”下。
 
 **OneDrive - 企业** – 如果你有 OneDrive for Business，并且使用登录 Power BI 的同一帐户登录到其中，这是将 Excel Power BI Desktop 或 .CSV 文件中的工作与你在 Power BI 中的数据集、报表和仪表板保持同步的有史以来最有效的方法。由于 Power BI 和 OneDrive 都位于云中，Power BI 大约每小时会连接你在 OneDrive 上的文件一次。 如果发现任何更改，你的数据集、报表和仪表板会在 Power BI 中自动更新。
 

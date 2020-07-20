@@ -8,12 +8,12 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 03/02/2020
 ms.author: v-pemyer
-ms.openlocfilehash: 971c2351fe5032ba91fa6c0f964bd844ef479b05
-ms.sourcegitcommit: 66b1a0c74b8a7dcb33a2f8570fb67bce2401a895
+ms.openlocfilehash: 7c9b5c753b262900d61a1a71b4c9a8167c943121
+ms.sourcegitcommit: c83146ad008ce13bf3289de9b76c507be2c330aa
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/08/2020
-ms.locfileid: "84532410"
+ms.lasthandoff: 07/10/2020
+ms.locfileid: "86216692"
 ---
 # <a name="many-to-many-relationship-guidance"></a>多对多关系指导
 
@@ -35,20 +35,20 @@ ms.locfileid: "84532410"
 
 下面是这三个表的简单模型图。
 
-![一个模型图包含三个表。 下一段内容将介绍如何进行设计。](media/relationships-many-to-many/bank-account-customer-model-example.png)
+![显示包含三个表的模型的示意图。 下一段内容将介绍如何进行设计。](media/relationships-many-to-many/bank-account-customer-model-example.png)
 
 第一个表的名称为“Account”，其中包含以下两列：“AccountID”和“Account”。 第二个表的名称为“AccountCustomer”，其中包含以下两列：“AccountID”和“CustomerID” 。 第三个表名称为“Customer”，其中包含以下两列：“CustomerID”和“Customer” 。 任何这些表之间都不存在关系。
 
 可添加两个一对多关系来关联这些表。 下面是更新后的关联表的模型关系图。 其中添加了名为“Transaction”的事实类型表。 该表用于记录帐户交易。 桥接表和所有 ID 列都已隐藏。
 
-![模型关系图现在包含四个表。 添加了一对多关系来关联所有表。](media/relationships-many-to-many/bank-account-customer-model-related-tables-1.png)
+![显示该模型现在包含四个表的示意图。 添加了一对多关系来关联所有表。](media/relationships-many-to-many/bank-account-customer-model-related-tables-1.png)
 
 为了帮助说明关系筛选器的传播方式，已修改模型关系图以显示表行。
 
 > [!NOTE]
 > 本来是不可以在 Power BI Desktop 模型关系图中显示表行的。 本文显示出来为的是通过提供清晰的示例来支持讨论。
 
-![现在，该模型关系图已显示所有表行。 下一段内容介绍行的详细信息。](media/relationships-many-to-many/bank-account-customer-model-related-tables-2.png)
+![显示该模型现在显示所有表行的示意图。 下一段内容介绍行的详细信息。](media/relationships-many-to-many/bank-account-customer-model-related-tables-2.png)
 
 下面的项目符号列表描述了四个表的行详细信息：
 
@@ -71,7 +71,7 @@ ms.locfileid: "84532410"
 
 以下两个视觉对象对“Transaction”表中的“Amount”列进行了汇总 。 第一个视觉对象按帐户分组，因此“Amount”列的总和表示“帐户余额”。 第二个视觉对象按客户分组，因此“Amount”列的总和表示“客户余额”。
 
-![这两个报表视觉对象并排排列。 下一段内容介绍这两个视觉对象。](media/relationships-many-to-many/bank-account-customer-model-queried-1.png)
+![显示两个报表视觉对象并排对齐的示意图。 下一段内容介绍这两个视觉对象。](media/relationships-many-to-many/bank-account-customer-model-queried-1.png)
 
 第一个视觉对象的标题为“Account Balance”，其中包含以下两列：“Account”和“Amount” 。 显示结果如下：
 
@@ -91,9 +91,9 @@ ms.locfileid: "84532410"
 
 而是按照关系筛选器方向，从“Customer”表传递到“Transaction”表的 。 很明显，“Account”和“AccountCustomer”表之间的关系正在以错误的方向进行传播 。 此关系的筛选器方向必须设置为“双向”。
 
-![已更新模型关系图。 已对“Account”和“AccountCustomer”表之间的关系进行了一次更改。 现在，它在两个方向上进行筛选。](media/relationships-many-to-many/bank-account-customer-model-related-tables-3.png)
+![显示该模型已更新的示意图。 现在，它在两个方向上进行筛选。](media/relationships-many-to-many/bank-account-customer-model-related-tables-3.png)
 
-![与之前一样，这两个报表视觉对象并排排列。 第一个视觉对象没有变化。 第二个视觉对象显示了不同的结果，下面各段落对此进行了介绍。](media/relationships-many-to-many/bank-account-customer-model-queried-2.png)
+![显示两个相同的报表视觉对象并排对齐的示意图。 第一个视觉对象尚未更改，而第二个视觉对象已更改。](media/relationships-many-to-many/bank-account-customer-model-queried-2.png)
 
 如预期，“Account Balance”视觉对象没有变化。
 
@@ -131,13 +131,13 @@ ms.locfileid: "84532410"
 
 假设有一个包含两个事实类型表的示例：“Order”和“Fulfillment” 。 “Order”表每个订单行包含一行，而“Fulfillment”表每个订单行可以包含零行或多行。 “Order”表中的行表示销售订单。 “Fulfillment”表中的行表示已发货的订单项目。 多对多关系将两个“OrderID”列关联起来，其中筛选器仅从“Order”表中传播（在“Order”中筛选“Fulfillment”）   。
 
-![一个模型关系图包含两个表：“Order”和“Fulfillment”。 多对多关系将两个 OrderID 列关联起来，并从“Order”到“Fulfillment”进行筛选。](media/relationships-many-to-many/order-fulfillment-model-example.png)
+![显示包含下面两个表的模型的示意图：“Order”和“Fulfillment”。](media/relationships-many-to-many/order-fulfillment-model-example.png)
 
 关系基数设置为多对多以支持在两个表中存储重复的“OrderID”值。 在“Order”表中，可能存在重复的“OrderID”值，因为一个订单可以有多行。 在“Fulfillment”表中，可能存在重复的“OrderID”值，因为订单可能有多行，并且许多发货可履行订单行。
 
 现在，让我们看一下表行。 请注意，在“Fulfillment”表中，多个发货可履行订单行。 （缺少订单行意味着尚未履行该订单。）
 
-![现在，该模型关系图已显示所有表行。 下一段内容介绍行的详细信息。](media/relationships-many-to-many/order-fulfillment-model-related-tables.png)
+![显示该模型现在显示所有表行的示意图。 下一段内容介绍行的详细信息。](media/relationships-many-to-many/order-fulfillment-model-related-tables.png)
 
 下面的项目符号列表描述了两个表的行的详细信息：
 
@@ -155,7 +155,7 @@ ms.locfileid: "84532410"
 
 我们来看看查询模型后出现的情况。 下表视觉对象通过“Order”表“OrderID”列直观比较了订单和履行数量 。
 
-![表视觉对象有三列：OrderID、OrderQuantity 和 FulfillmentQuantity。 有三行，每个订单一行。 OrderID 2 和 3 未完全履行。](media/relationships-many-to-many/order-fulfillment-model-queried.png)
+![显示包含三列的表视觉对象的示意图：OrderID、OrderQuantity 和 FulfillmentQuantity。](media/relationships-many-to-many/order-fulfillment-model-queried.png)
 
 视觉对象显示了准确的结果。 不过，模型的有用性是有限的 - 只能按“Order”表“OrderID”列进行筛选或分组 。
 
@@ -167,7 +167,7 @@ ms.locfileid: "84532410"
 
 让我们考虑一个更好的解决方案。
 
-![模型关系图包含六个表：OrderLine、OrderDate、Order、Fulfillment、Product 和 FulfillmentDate。 所有表都是相关联的。 下一段内容将介绍如何进行设计。](media/relationships-many-to-many/order-fulfillment-model-improved.png)
+![显示包含六个表的模型的示意图：OrderLine、OrderDate、Order、Fulfillment、Product 和 FulfillmentDate。](media/relationships-many-to-many/order-fulfillment-model-improved.png)
 
 请注意以下设计更改：
 
@@ -192,11 +192,11 @@ ms.locfileid: "84532410"
 
 让我们看一个涉及四个表的示例：“Date”、“Sales”、”Product”和“Target”   。 “Date”和“Product”为维度类型表 ，一对多关系分别将其与“Sales”事实类型表关联。 到目前为止，这种星型架构设计还不错。 但“Target”表尚未与其他表相关联。
 
-![模型关系图包含四个表：“Date”、“Sales”、”Product”和“Target”。 “Target”表没有与其他任何表关联。 下一段内容将介绍如何进行设计。](media/relationships-many-to-many/sales-targets-model-example.png)
+![显示包含四个表的模型的示意图：“Date”、“Sales”、”Product”和“Target”。](media/relationships-many-to-many/sales-targets-model-example.png)
 
 “Target”表包含三列：“Category”、“TargetQuantity”和“TargetYear”  。 表行显示了年份和产品类别的粒度。 换句话说，每年都会为每个产品类别设定衡量销售业绩的目标。
 
-![“Target”表包含三列：“TargetYear”、“Category”和“TargetQuantity”。 六行记录了 2019 年和 2020 年的目标，每一行有三个类别。](media/relationships-many-to-many/sales-targets-model-target-rows.png)
+![显示“Target”表有三列的示意图：“TargetYear”、“Category”和“TargetQuantity”。](media/relationships-many-to-many/sales-targets-model-target-rows.png)
 
 由于“Target”表存储数据的级别高于维度类型表，因此不能创建一对多关系。 只有一种关系是这样的。 让我们了解一下“Target”表如何与维度类型表相关联。
 
@@ -211,7 +211,7 @@ ms.locfileid: "84532410"
 
 下面的矩阵视觉对象显示了报表用户从年份细化到月份后会发生的情况。 该视觉对象将汇总“TargetQuantity”列。 （矩阵行已启用[显示不含数据的项](../create-reports/desktop-show-items-no-data.md)选项。）
 
-![矩阵视觉对象显示 2020 年的目标数量为 270。 展开以显示 2020 的月份时，一月为 270，其他各月份级别的目标数量为空白。](media/relationships-many-to-many/sales-targets-model-matrix-blank-months-bad.png)
+![显示矩阵视觉对象显示 2020 年的目标数量为 270 的示意图。](media/relationships-many-to-many/sales-targets-model-matrix-blank-months-bad.png)
 
 若要避免此情况，建议使用度量值来控制事实数据的汇总。 可控制汇总的一种方法是在查询较低级别时间段时返回空白。 另一种方法（用一些复杂的 DAX 定义）是在较低级别的时间段内分配值。
 
@@ -228,7 +228,7 @@ IF(
 
 以下矩阵现在使用“**Target Quantity**”度量值。 它显示所有每月目标数量均为空白。
 
-![矩阵视觉对象显示 2020 年的目标数量为 270。 展开以显示 2020 的月份时，每个月份级别的目标数量都为空白。](media/relationships-many-to-many/sales-targets-model-matrix-blank-months-good.png)
+![显示矩阵视觉对象显示 2020 年的目标数量为 270 的示意图。](media/relationships-many-to-many/sales-targets-model-matrix-blank-months-good.png)
 
 ### <a name="relate-higher-grain-non-date"></a>关联更高粒度（非日期）
 
@@ -236,21 +236,21 @@ IF(
 
 “Product”和“Target”表中的“Category”列都包含重复的值  。 因此，对于一对多关系，没有“一”。 在这种情况下，需要创建多对多关系。 关系应以单一方向（从维度类型表到事实类型表）传播筛选器。
 
-![模型图片段显示了“Target”表和“Product”表。 多对多关系将两个表相关联。 筛选方向是从“Product”到“Target”。](media/relationships-many-to-many/sales-targets-model-relate-non-date.png)
+![显示“Target”和“Product”表模型的示意图。 多对多关系将两个表相关联。](media/relationships-many-to-many/sales-targets-model-relate-non-date.png)
 
 现在，让我们看一下表行。
 
-![一个模型关系图包含两个表：“Target”和“Product”。 多对多关系将两个“Category”列相关联。 下一段内容介绍行的详细信息。](media/relationships-many-to-many/sales-targets-model-relate-non-date-tables.png)
+![显示包含下面两个表的模型的示意图：“Target”和“Product”。 多对多关系将两个“Category”列相关联。](media/relationships-many-to-many/sales-targets-model-relate-non-date-tables.png)
 
 在“Target”表中，有四行：两个目标年份行（2019 和 2020）和两个类别行（“Clothing”和“Accessories”）。 在“Product产品”表中，有三种产品。 有两种属于“服饰”类别，另外一种属于“配件”类别。 其中有一种衣服的颜色为绿色，其余两种颜色为蓝色。
 
 按“Product”表中的“Category”列进行分组的视觉对象生成以下结果 。
 
-![表视觉对象有两列：“Category”和“TargetQuantity”。 配件为 60，服饰为 40，总数为 100。](media/relationships-many-to-many/sales-targets-model-visual-category-targets.png)
+![显示包含两个列的表视觉对象的示意图：“Category”和“TargetQuantity”。 配件为 60，服饰为 40，总数为 100。](media/relationships-many-to-many/sales-targets-model-visual-category-targets.png)
 
 此视觉对象生成的结果正确。 现在让我们想一想当用“Product”表中的“Color”列对目标数量进行分组时会发生什么 。
 
-![表视觉对象有两列：“Color”和“TargetQuantity”。 蓝色为 100，绿色为 40，总数为 100。](media/relationships-many-to-many/sales-targets-model-visual-color-targets-bad.png)
+![显示包含两个列的表视觉对象的示意图：“Color”和“TargetQuantity”。 蓝色为 100，绿色为 40，总数为 100。](media/relationships-many-to-many/sales-targets-model-visual-color-targets-bad.png)
 
 该视觉对象生成的数据错误。 发生了什么情况？
 
@@ -272,11 +272,11 @@ IF(
 
 以下表视觉对象现在使用“**Target Quantity**”度量值。 它显示所有颜色目标数量均为空白。
 
-![表视觉对象有两列：“Color”和“TargetQuantity”。 蓝色为空白，绿色为空白，总数为 100。](media/relationships-many-to-many/sales-targets-model-visual-color-targets-good.png)
+![显示包含两个列的表视觉对象的示意图：“Color”和“TargetQuantity”。 蓝色为空白，绿色为空白，总数为 100。](media/relationships-many-to-many/sales-targets-model-visual-color-targets-good.png)
 
 最终模型设计如以下所示。
 
-![模型关系图显示了“Date”和“Target”表以一对多关系关联。 “Product”和“Target”表以多对多关系关联，从“Product”到“Target”进行筛选。](media/relationships-many-to-many/sales-targets-model-example-final.png)
+![显示包含“Date”和“Target”表的模型以一对多关系关联的示意图。](media/relationships-many-to-many/sales-targets-model-example-final.png)
 
 ### <a name="relate-higher-grain-facts-guidance"></a>关于关联更高粒度事实的指导
 

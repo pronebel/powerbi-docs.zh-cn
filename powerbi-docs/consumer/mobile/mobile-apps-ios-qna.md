@@ -8,12 +8,12 @@ ms.subservice: powerbi-mobile
 ms.topic: how-to
 ms.date: 03/11/2020
 ms.author: painbar
-ms.openlocfilehash: de20bc743c582d42d81f2d4c2544e3acf5f1b99c
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 60f49775db1f461ff5105ada63920686e5ab5cbf
+ms.sourcegitcommit: e8ed3d120699911b0f2e508dc20bd6a9b5f00580
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85234507"
+ms.lasthandoff: 07/11/2020
+ms.locfileid: "86264923"
 ---
 # <a name="qa-virtual-analyst-in-ios-apps---power-bi"></a>iOS 应用中的问答虚拟分析师 - Power BI
 
@@ -46,43 +46,43 @@ ms.locfileid: "85234507"
 
 2. 点击页面底部（如果是 iPad，则位于页面顶部）操作菜单中的“问答虚拟分析师”图标![“问答虚拟分析师”图标](././media/mobile-apps-ios-qna/power-bi-ios-q-n-a-icon.png)。
      问答虚拟分析师推荐了一些可快速上手的见解。
-3. 键入“显示”，点击建议列表中的“销售”，然后点击“发送”![“发送”图标](./media/mobile-apps-ios-qna/power-bi-ios-qna-send-icon.png)    。
+3. 键入“显示”，点击建议列表中的“销售”，然后点击“发送”![“发送”图标](./media/mobile-apps-ios-qna/power-bi-ios-qna-send-icon.png)  。
 
     ![显示销售额](./media/mobile-apps-ios-qna/power-bi-ios-q-n-a-show-sales.png)
-4. 点击关键字中的“by”，然后依次点击建议列表中的“item”和“发送”![](./media/mobile-apps-ios-qna/power-bi-ios-qna-send-icon.png)    。
+4. 点击关键字中的“by”，然后依次点击建议列表中的“item”>“发送”![发送图标](./media/mobile-apps-ios-qna/power-bi-ios-qna-send-icon.png)  。
 
     ![按项分布的销售额](./media/mobile-apps-ios-qna/power-bi-ios-q-n-a-sale-by-item.png)
-5. 点击关键字中的“as”，然后依次点击柱形图图标 ![](./media/mobile-apps-ios-qna/power-bi-ios-q-n-a-column-chart-icon.png) 和“发送”![](./media/mobile-apps-ios-qna/power-bi-ios-qna-send-icon.png)   。
+5. 点击关键字中的“as”，然后依次点击柱形图图标 ![图表图标](./media/mobile-apps-ios-qna/power-bi-ios-q-n-a-column-chart-icon.png) 和“发送”![发送图标](./media/mobile-apps-ios-qna/power-bi-ios-qna-send-icon.png) 。
 6. 长按生成的图表，然后点击“**展开**”。
 
-    ![](media/mobile-apps-ios-qna/power-bi-ios-q-n-a-tap-expand-feedback.png)
+    ![柱形图的屏幕截图，其中显示指针指向“展开”。](media/mobile-apps-ios-qna/power-bi-ios-q-n-a-tap-expand-feedback.png)
 
     此图表以焦点模式在应用中打开。
 
-    ![](media/mobile-apps-ios-qna/power-bi-ios-q-n-a-expanded-chart.png)
+    ![柱形图的屏幕截图，其中显示了图表的焦点模式。](media/mobile-apps-ios-qna/power-bi-ios-q-n-a-expanded-chart.png)
 7. 点击左上角的箭头，可返回到问答虚拟分析师聊天窗口。
 8. 点击文本框右侧的 X 即可删除文本并重新开始。
-9. 尝试提出新问题：点击关键字中的“top”，然后点击“sale by avg $/unit ly” > “发送”![](./media/mobile-apps-ios-qna/power-bi-ios-qna-send-icon.png)    。
+9. 尝试提出新问题：点击关键字中的“top”，然后点击“sale by avg $/unit ly” > “发送”![发送图标](./media/mobile-apps-ios-qna/power-bi-ios-qna-send-icon.png)  。
 
-    ![](media/mobile-apps-ios-qna/power-bi-ios-q-n-a-top-sale-2.png)
-10. 选择关键字中的“by”，然后依次点击顶部建议列表中的“time”和“发送”![](./media/mobile-apps-ios-qna/power-bi-ios-qna-send-icon.png)    。
+    ![问题的屏幕截图，其中显示了按平均单价显示的总销售额。](media/mobile-apps-ios-qna/power-bi-ios-q-n-a-top-sale-2.png)
+10. 选择关键字中的“by”，然后依次点击顶部建议列表中的“time”>“发送”![发送图标](./media/mobile-apps-ios-qna/power-bi-ios-qna-send-icon.png)  。
 
-     ![](media/mobile-apps-ios-qna/power-bi-ios-q-n-a-top-sale-by-time.png)
-11. 键入“as”，从建议列表中选择折线图图标 ![](./media/mobile-apps-ios-qna/power-bi-ios-q-n-a-line-chart-icon.png)，然后点击“发送”![](./media/mobile-apps-ios-qna/power-bi-ios-qna-send-icon.png)   。
+     ![图表的屏幕截图，其中显示了按不同时间的平均单价显示的总销售额。](media/mobile-apps-ios-qna/power-bi-ios-q-n-a-top-sale-by-time.png)
+11. 键入“as”，从建议列表中选择折线图图标 ![图表图标](./media/mobile-apps-ios-qna/power-bi-ios-q-n-a-line-chart-icon.png)，然后点击“发送”![发送图标](./media/mobile-apps-ios-qna/power-bi-ios-qna-send-icon.png) 。
 
-    ![](media/mobile-apps-ios-qna/power-bi-ios-q-n-a-top-sale-as-line.png)
+    ![柱形图和折线图的屏幕截图，其中指针从柱形图指向折线图](media/mobile-apps-ios-qna/power-bi-ios-q-n-a-top-sale-as-line.png)
 
 ## <a name="try-saying-your-questions"></a>尝试说出你的问题
 在 Power BI 移动应用中就你的数据提问时，现在可以说出你的问题，而不用键入问题。
 
 1. 点击问答虚拟分析师图标 ![问答虚拟分析师图标](././media/mobile-apps-ios-qna/power-bi-ios-q-n-a-icon.png) 。
-2. 点击麦克风图标 ![](media/mobile-apps-ios-qna/power-bi-ios-qna-mic-icon.png)。
+2. 点击麦克风图标 ![麦克风图标](media/mobile-apps-ios-qna/power-bi-ios-qna-mic-icon.png)。
 
-    ![](media/mobile-apps-ios-qna/power-bi-ios-qna-mic-on.png)
+    ![问题的屏幕截图，其中显示麦克风处于活动状态。](media/mobile-apps-ios-qna/power-bi-ios-qna-mic-on.png)
 
-1. 当麦克风图标处于活动状态时，开始说出你的问题。 例如，请说“按时间显示平均单价”，然后点击“发送”![](./media/mobile-apps-ios-qna/power-bi-ios-qna-send-icon.png)  。
+1. 当麦克风图标处于活动状态时，开始说出你的问题。 例如，请说“按时间显示平均单价”，然后点击“发送”![发送图标](./media/mobile-apps-ios-qna/power-bi-ios-qna-send-icon.png)。
 
-    ![](media/mobile-apps-ios-qna/power-bi-ios-qna-speech-complete.png)
+    ![问题的屏幕截图，其中显示语音已结束。](media/mobile-apps-ios-qna/power-bi-ios-qna-speech-complete.png)
 
 ### <a name="questions-about-privacy-when-using-speech-to-text"></a>对使用语音转文本时的隐私有疑问？
 请参阅 Apple iOS 开发者指南中 [iOS 新增功能](https://go.microsoft.com/fwlink/?linkid=845624)的“语音识别”部分。
@@ -91,7 +91,7 @@ ms.locfileid: "85234507"
 * 需要帮助？ 只需说“你好”或“帮助”，即可获得有关如何提出新问题的帮助。
 * 想提供对结果的反馈吗？ 请长按图表或其他结果，然后点击笑脸或哭脸。
 
-    ![](media/mobile-apps-ios-qna/power-bi-ios-q-n-a-tap-feedback.png)
+    ![柱形图的屏幕截图，其中显示了指针指向笑脸的反馈。](media/mobile-apps-ios-qna/power-bi-ios-q-n-a-tap-feedback.png)
 
     反馈是匿名的，可有助于我们改进问题解答。
 

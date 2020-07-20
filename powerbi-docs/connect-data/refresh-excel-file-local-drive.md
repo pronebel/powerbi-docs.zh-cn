@@ -9,18 +9,18 @@ ms.topic: how-to
 ms.date: 11/28/2018
 ms.author: davidi
 LocalizationGroup: Data refresh
-ms.openlocfilehash: 806fb9fffccaffee62d8cafb00dc94b5ad7b0def
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: ef9c39f6c00738718d88dd485430b150ad95ec50
+ms.sourcegitcommit: c83146ad008ce13bf3289de9b76c507be2c330aa
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85220876"
+ms.lasthandoff: 07/10/2020
+ms.locfileid: "86216354"
 ---
 # <a name="refresh-a-dataset-created-from-an-excel-workbook-on-a-local-drive"></a>刷新使用本地驱动器上的 Excel 工作簿创建的数据集
 ## <a name="whats-supported"></a>支持的功能有哪些？
 在 Power BI 中，数据集是使用本地驱动器导入的 Excel 工作簿创建的，它支持“立即刷新”和“计划刷新”功能。在本地驱动器中，Power Query（在 Excel 2016 中获取和转换数据）可用于连接到以下任一数据源并将数据加载到 Excel 数据模型：  
 
-### <a name="power-bi-gateway---personal"></a>Power BI 网关 - 个人
+### <a name="power-bi-gateway---personal"></a>Power BI Gateway - Personal
 * Power Query 中显示的所有联机数据源。
 * Power Query 中显示的所有本地数据源，Hadoop 文件 (HDFS) 和 Microsoft Exchange 除外。
 * Power Pivot 中显示的所有联机数据源。\*
@@ -47,13 +47,13 @@ ms.locfileid: "85220876"
 > 
 
 在**导航器**中，单击**加载到...**  
-    ![](media/refresh-excel-file-local-drive/refresh_loadtodm_1.png)
+    ![导航器中“加载到”的屏幕截图，其中显示了“加载到”选择。](media/refresh-excel-file-local-drive/refresh_loadtodm_1.png)
 
 或者，单击导航器中的**编辑**，将打开查询编辑器。 你可以单击其中的**关闭并加载到...**  
-    ![](media/refresh-excel-file-local-drive/refresh_loadtodm_2.png)
+    ![导航器中“开始”选项卡的屏幕截图，其中显示了“关闭并加载到”选择。](media/refresh-excel-file-local-drive/refresh_loadtodm_2.png)
 
 然后在**加载到**中，确保选中**将此数据添加到数据模型**。  
-    ![](media/refresh-excel-file-local-drive/refresh_loadtodm_3.png)
+    ![“加载到”对话框的屏幕截图，其中显示已选中“将此数据添加到数据模型”框。](media/refresh-excel-file-local-drive/refresh_loadtodm_3.png)
 
 ### <a name="what-if-i-use-get-external-data-in-power-pivot"></a>如果使用“通过 Power Pivot 获取外部数据”该怎样？
 没问题。 无论何时使用 Power Pivot 连接到本地或联机数据源以及从这些数据源查询数据时，此数据将自动加载到数据模型。

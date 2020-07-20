@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 05/06/2020
 ms.author: davidi
 LocalizationGroup: Model your data
-ms.openlocfilehash: 3f23f18002ce12c3b6706469f36bde077e117941
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 8c22b040a1767d616ce1f4d0e4e7fa26e55bfe19
+ms.sourcegitcommit: c83146ad008ce13bf3289de9b76c507be2c330aa
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85237870"
+ms.lasthandoff: 07/10/2020
+ms.locfileid: "86214295"
 ---
 # <a name="create-calculated-tables-in-power-bi-desktop"></a>在 Power BI Desktop 中创建计算表
 大多数情况下，你都是通过将数据从外部数据源导入模型来创建表。 但借助“计算表”，你可以根据已加载到模型中的数据添加新表。 你可以创建定义表值的[数据分析表达式 (DAX)](/dax/index) 公式，而非从数据源中查询值，并将值加载到新表的列中。
@@ -31,11 +31,11 @@ ms.locfileid: "85237870"
 
 **西北部员工**
 
- ![](media/desktop-calculated-tables/calctables_nwempl.png)
+ ![显示西北员工表格数据的 Power BI Desktop 的屏幕截图。](media/desktop-calculated-tables/calctables_nwempl.png)
 
 **西南部员工**
 
- ![](media/desktop-calculated-tables/calctables_swempl.png)
+ ![显示西南员工表格数据的 Power BI Desktop 的屏幕截图。](media/desktop-calculated-tables/calctables_swempl.png)
 
 在 Power BI Desktop 的报表视图或数据视图中，在“建模”选项卡的“计算”组中，选择“新建表”  。 这在数据视图中操作起来比较简单，因为这样可以立即看到新的计算表。
 

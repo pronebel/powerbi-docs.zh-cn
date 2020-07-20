@@ -10,18 +10,18 @@ ms.topic: overview
 ms.date: 05/29/2020
 ms.author: kfollis
 LocalizationGroup: Administration
-ms.openlocfilehash: 7628106c29be75c4eb01bc9d7d52a3c9ededb9e8
-ms.sourcegitcommit: 49daa8964c6e30347e29e7bfc015762e2cf494b3
+ms.openlocfilehash: c3e56df49caac8b5250a4e382cab253a0a9c5210
+ms.sourcegitcommit: c18130ea61e67ba111be870ddb971c6413a4b632
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/02/2020
-ms.locfileid: "84272532"
+ms.lasthandoff: 07/09/2020
+ms.locfileid: "86161321"
 ---
 # <a name="what-is-power-bi-administration"></a>什么是 Power BI 管理
 
 Power BI 管理是指管理组织范围内的设置，这些设置控制 Power BI 的工作方式。 分配了管理员角色的用户负责配置、监视和预配组织资源。 本文概述了管理角色、任务和工具，以帮助你入门。
 
-![Power BI 管理门户](media/service-admin-administering-power-bi-in-your-organization/admin-portal.png)
+![Power BI 管理门户的屏幕截图，其中显示了组织范围设置。](media/service-admin-administering-power-bi-in-your-organization/admin-portal.png)
 
 ## <a name="administrator-roles-related-to-power-bi"></a>与 Power BI 相关的管理员角色
 
