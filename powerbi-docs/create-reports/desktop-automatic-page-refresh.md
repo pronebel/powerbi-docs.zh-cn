@@ -10,12 +10,12 @@ ms.topic: how-to
 ms.date: 06/10/2020
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 1febf93d35500d56f5b3b104487725f33d7b17ad
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 9a1e42b4901e8659bb5d999294f29a80a0389280
+ms.sourcegitcommit: 10c5b6cd5e7070f96de8a9f1d9b95f3d242ac7f2
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85234185"
+ms.lasthandoff: 07/21/2020
+ms.locfileid: "86557224"
 ---
 # <a name="automatic-page-refresh-in-power-bi-desktop"></a>Power BI Desktop 中的自动页面刷新 
 
@@ -147,6 +147,7 @@ Power BI 工作区驻留在容量范围内。 它们表示安全性、协作和�
 * 自动页面刷新不支持导入、LiveConnect 和推送存储模式。  
 * 支持具有至少一个 DirectQuery 数据源的复合模型。
 * Power BI Desktop 对刷新间隔没有限制。 间隔频率可以为每秒。 将报表发布到 Power BI 服务时，会应用某些限制，如本文[前面](#restrictions-on-refresh-intervals)所述。
+* SharePoint Online 嵌入不支持自动刷新页面。
 
 ### <a name="performance-diagnostics"></a>性能诊断
 

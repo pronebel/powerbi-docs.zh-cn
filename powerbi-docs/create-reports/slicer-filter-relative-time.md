@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: how-to
-ms.date: 04/22/2020
+ms.date: 07/06/2020
 ms.author: maggies
 LocalizationGroup: Create reports
-ms.openlocfilehash: 056d69a866b0b56e83557e77462e03e3e00a2c8d
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: f1a792c7ad25600f04ca9834b1e5019d4e27efb4
+ms.sourcegitcommit: 11deeccf596e9bb8f22615276a152614f7579f35
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85218508"
+ms.lasthandoff: 07/16/2020
+ms.locfileid: "86409504"
 ---
 # <a name="use-a-relative-time-slicer-and-filter-in-power-bi"></a>在 Power BI 中使用相对时间切片器和筛选器
 
@@ -22,18 +22,12 @@ ms.locfileid: "85218508"
 
 随着快速刷新方案的出现，筛选到较小时段的功能可能非常有用。 借助相对时间切片器或筛选器，可以向数据模型中的任意日期或时间列应用时间筛选器。 例如，可以使用相对时间切片器来只显示最后一分钟或一小时的视频视图。 
 
-:::image type="content" source="media/slicer-filter-relative-time/power-bi-relative-time.gif" alt-text="相对时间示例":::
+:::image type="content" source="media/slicer-filter-relative-time/power-bi-relative-time.gif" alt-text="相对时间示例的屏幕截图。":::
 
 你不必将此功能与[自动页刷新](../create-reports/desktop-automatic-page-refresh.md)功能结合使用。 不过，很多相对时间方案都能与自动页面刷新功能搭配使用。  
 
 > [!NOTE]
 > 在页面或报表级别应用相对时间筛选器或切片器时，将使用共享锚点时间，将该页面或报表中的所有视觉对象筛选为完全相同的时间范围  。 由于视觉对象的执行时间可能略有不同，因此，此共享的锚点时间可确保在页面或报表之间同步视觉对象。 有关详细信息，请参阅本文中的[锚点时间](#understanding-anchor-time)。
-
-## <a name="turn-on-relative-time-preview"></a>打开相对时间预览
-
-相对时间筛选器处于预览阶段，因此需要打开此功能开关。 转到“文件” > “选项和设置” > 选项”    。 在“全局设置” > “预览功能”中，确保选中“相对时间筛选器”    。
-
-:::image type="content" source="media/slicer-filter-relative-time/power-bi-relative-time-set-preview.png" alt-text="设置相对时间预览选项":::
 
 ## <a name="create-a-relative-time-slicer-or-filter"></a>创建相对时间切片器或筛选器
 
@@ -43,43 +37,43 @@ ms.locfileid: "85218508"
 
 1. 将“日期”或“时间”字段拖放到画布
 
-2. 选择“切片器”可视化效果类型  。
+2. 选择“切片器”可视化效果类型。
 
-    :::image type="content" source="media/slicer-filter-relative-time/power-bi-relative-time-create-slicer.png" alt-text="创建时间切片器":::
+    :::image type="content" source="media/slicer-filter-relative-time/power-bi-relative-time-create-slicer.png" alt-text="创建时间切片器的屏幕截图。":::
 
 ### <a name="create-a-filter"></a>创建筛选器
  
-- 对于“此视觉对象”、“此页面”或“所有页面”，请将“日期”或“时间”字段拖放到“筛选器”窗格中    。
+- 对于“此视觉对象”、“此页面”或“所有页面”，请将“日期”或“时间”字段拖放到“筛选器”窗格中  。
 
 ### <a name="set-relative-time"></a>设置相对时间 
 
-接下来，将筛选器类型更改为“相对时间”  。
+接下来，将筛选器类型更改为“相对时间”。
 
-:::image type="content" source="media/slicer-filter-relative-time/power-bi-relative-time-set.png" alt-text="更改为“相对时间”":::
+:::image type="content" source="media/slicer-filter-relative-time/power-bi-relative-time-set.png" alt-text="更改为相对时间的屏幕截图。":::
  
 在切片器中的显示方式如下所示：
 
-:::image type="content" source="media/slicer-filter-relative-time/power-bi-relative-time-slicer.png" alt-text="切片器中的相对时间":::
+:::image type="content" source="media/slicer-filter-relative-time/power-bi-relative-time-slicer.png" alt-text="切片器中的相对时间屏幕截图。":::
 
 筛选器卡片中的显示方式如下所示： 
 
-:::image type="content" source="media/slicer-filter-relative-time/power-bi-relative-time-filter.png" alt-text="筛选器中的相对时间":::
+:::image type="content" source="media/slicer-filter-relative-time/power-bi-relative-time-filter.png" alt-text="筛选器中的相对时间屏幕截图。":::
  
-使用此新的筛选器类型，可根据“上一次”、“下一次”或“此时间段”进行筛选    ： 
+使用此新的筛选器类型，可根据“上一次”、“下一次”或“此时间段”进行筛选： 
 
-:::image type="content" source="media/slicer-filter-relative-time/power-bi-relative-time-last-next.png" alt-text="选择“上一次”、“下一次”或“此时间段”":::
+:::image type="content" source="media/slicer-filter-relative-time/power-bi-relative-time-last-next.png" alt-text="选择“上一次”、“下一次”或“此时间段”屏幕截图。":::
  
-使用整数和时间单位指定时间范围：分钟或小时   。
+使用整数和时间单位指定时间范围：分钟或小时 。
  
-:::image type="content" source="media/slicer-filter-relative-time/power-bi-relative-time-minutes-hours.png" alt-text="选择分钟数或小时数":::
+:::image type="content" source="media/slicer-filter-relative-time/power-bi-relative-time-minutes-hours.png" alt-text="选择分钟或小时的屏幕截图。":::
 
 如果需要在画布上保存空间，还可以在“筛选器”窗格中创建相对时间筛选器作为筛选器卡片。
 
-:::image type="content" source="media/slicer-filter-relative-time/power-bi-relative-time-set-filter.png" alt-text="改为在筛选器中设置相对时间":::
+:::image type="content" source="media/slicer-filter-relative-time/power-bi-relative-time-set-filter.png" alt-text="改为在筛选器中设置相对时间的屏幕截图。":::
  
 ## <a name="understanding-anchor-time"></a>了解锚点时间
 
-当筛选器应用于页面或报表级别时，该页面或报表上的所有视觉对象都将同步到相同的时间范围。 这些查询都是相对于称为“锚点时间”的时间发出的  。 锚点时间在以下条件下自动刷新：
+当筛选器应用于页面或报表级别时，该页面或报表上的所有视觉对象都将同步到相同的时间范围。 这些查询都是相对于称为“锚点时间”的时间发出的。 锚点时间在以下条件下自动刷新：
 
 - 初始页面加载。
 - 手动刷新。
@@ -101,7 +95,7 @@ ms.locfileid: "85218508"
     - 不支持嵌入 API。
     - 不支持发布到 Web。
 
-- **查询缓存**：我们使用客户端缓存。 因此，假设指定“过去 1 分钟”，再指定“过去 5 分钟”，则会返回到“过去 1 分钟”。 此时，你看到的结果与首次运行时的结果相同，除非你刷新页面或页面自动刷新。
+- **查询缓存**：我们使用客户端缓存。 假设指定“过去 1 分钟”，再指定“过去 5 分钟”，则会返回到“过去 1 分钟”。 此时，你看到的结果与首次运行时的结果相同，除非你刷新页面或页面自动刷新。
 
 ## <a name="next-steps"></a>后续步骤
 

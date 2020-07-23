@@ -6,21 +6,21 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 06/10/2020
+ms.date: 07/15/2020
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: c5d8fc3eb74acb32364754385f4458f6b9441e87
-ms.sourcegitcommit: c006d7aabf90c7b29fb05641d1f94f1ee7132943
+ms.openlocfilehash: 7108ed95e28819bf90eacab86caf90dd13fa645c
+ms.sourcegitcommit: 11deeccf596e9bb8f22615276a152614f7579f35
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2020
-ms.locfileid: "84684653"
+ms.lasthandoff: 07/16/2020
+ms.locfileid: "86409320"
 ---
 # <a name="whats-new-in-power-bi-desktop"></a>Power BI Desktop 中的新增功能是什么？
 
-## <a name="june-2020-update-2825858301"></a>2020 年 6 月更新 (2.82.5858.301)
+## <a name="july-2020-update-2835894661"></a>2020 年 7 月更新 (2.83.5894.661)
 
-6 月推出的 Power BI Desktop 就像是一个全新的开始，其中包含各种新功能（正式发布的功能）以及许多深入了解你的数据并进行交互的机会。 
+我们的 7 月 Power BI Desktop 更新包含新特性和功能，需要烟花、阳光野餐和社区烧烤进行庆祝。 
 
 从[下载中心](https://www.microsoft.com/download/details.aspx?id=58494)获取最新版 Power BI Desktop。 如果运行的是 Windows 10，还可以从 [Microsoft Store](https://aka.ms/pbidesktopstore) 获取 Power BI Desktop。 无论以何种方式安装 Power BI Desktop，每月版本都是相同的，虽然版本编号可能不同。 有关下载和安装 Power BI Desktop 的详细信息，请参阅[获取 Power BI Desktop](desktop-get-the-desktop.md)。 
 
@@ -41,41 +41,38 @@ Power BI Desktop 更新列表中每个功能旁边的链接解释如下：
 
 
 ### <a name="reporting"></a>报表
-* 移动布局创作的增强功能 [[视频]](https://youtu.be/WUo8TnHNHYM?t=15) [[博客]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-2020-feature-summary/#_mobile) 
-* 自动页面刷新现已正式发布 [[视频]](https://youtu.be/WUo8TnHNHYM?t=266) [[文章]](../create-reports/desktop-automatic-page-refresh.md) [[博客]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-2020-feature-summary/#_APR) 
-* 分层切片器现已正式发布 [[视频]](https://youtu.be/WUo8TnHNHYM?t=819) [[文章]](../create-reports/desktop-drill-through-buttons.md) [[博客]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-2020-feature-summary/#_Hierarchical_slicer) 
-* 新式功能区现已正式发布 [[视频]](https://youtu.be/WUo8TnHNHYM?t=1057) [[文章]](../create-reports/desktop-ribbon.md) [[博客]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-2020-feature-summary/#_ribbon) 
-* Excel 数据类型库中的精选表现在支持 RLS [[视频]](https://youtu.be/WUo8TnHNHYM?t=1075) [[文章]](../collaborate-share/service-excel-featured-tables.md) [[博客]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-2020-feature-summary/#_RLS) 
-
+* 渐变布局 [[视频]](https://youtu.be/BCNYMJKyjEo?t=15)  [[博客]](https://powerbi.microsoft.com/blog/power-bi-desktop-july-2020-feature-summary/#_Gradient_legend) 
+* 能够进一步自定义切片器标头文本 [[视频]](https://youtu.be/BCNYMJKyjEo?t=159)   [[博客]](https://powerbi.microsoft.com/blog/power-bi-desktop-july-2020-feature-summary/#_Ability_to_further) 
+* 相对时间筛选器现已正式发布  [[视频]](https://youtu.be/BCNYMJKyjEo?t=195)  [[博客]](https://powerbi.microsoft.com/blog/power-bi-desktop-july-2020-feature-summary/#_Relative_time_filter) 
 
 
 ### <a name="analytics"></a>分析
-* AI 见解现已正式发布 [[视频]](https://youtu.be/WUo8TnHNHYM?t=1106) [[文章]](../transform-model/desktop-ai-insights.md) [[博客]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-2020-feature-summary/#_AI) 
+* 问答功能增强 [[视频]](https://youtu.be/BCNYMJKyjEo?t=214)  [[博客]](https://powerbi.microsoft.com/blog/power-bi-desktop-july-2020-feature-summary/#_Enhancements_to_QA) 
 
 
 ### <a name="visuals"></a>视觉对象
-* 折线图点格式设置选项 [[视频]](https://youtu.be/WUo8TnHNHYM?t=1262) [[博客]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-2020-feature-summary/#_Line_chart)
-* 多个供应商的多个新视觉对象 [[视频]](https://youtu.be/WUo8TnHNHYM?t=1342) [[博客]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-2020-feature-summary/#_Radar)
-
-### <a name="template-apps"></a>模板应用
-* Agile HR Analytics [[视频]](https://youtu.be/WUo8TnHNHYM?t=1482) [[博客]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-2020-feature-summary/#_Agile_HR_Analytics)
-* Uber 用户数据报表 [[视频]](https://youtu.be/WUo8TnHNHYM?t=1507) [[博客]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-2020-feature-summary/#_Uber_User_Data)
+* Azure Maps 视觉对象（预览） [[视频]](https://youtu.be/BCNYMJKyjEo?t=390)  [[博客]](https://powerbi.microsoft.com/blog/power-bi-desktop-july-2020-feature-summary/#_Azure_Maps_visual)
+* 通过 XViz 的多轴图表更新  [[视频]](https://youtu.be/BCNYMJKyjEo?t=783)  [[博客]](https://powerbi.microsoft.com/blog/power-bi-desktop-july-2020-feature-summary/#_Updates_to_Multi_Axis)
 
 
 ### <a name="modeling"></a>建模
-* 为 Live Connect 启用的模型视图（预览版）[[视频]](https://youtu.be/WUo8TnHNHYM?t=1527) [[博客]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-2020-feature-summary/#_Model_view_enabled)
-* 模型视图的更新 [[视频]](https://youtu.be/WUo8TnHNHYM?t=1624) [[博客]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-2020-feature-summary/#_Updates_to_Model)
+* 对 Excel 财务函数的支持 [[视频]](https://youtu.be/BCNYMJKyjEo?t=812)   [[博客]](https://powerbi.microsoft.com/blog/power-bi-desktop-july-2020-feature-summary/#_Support_for_Excel)
+* 启用实时连接的模型视图现已正式发布 [[视频]](https://youtu.be/BCNYMJKyjEo?t=956)  [[博客]](https://powerbi.microsoft.com/blog/power-bi-desktop-july-2020-feature-summary/#_Model_view_enabled)
 
 
-### <a name="data-connectivity"></a>数据连接
-* Palantir Foundry 连接器 [[视频]](https://youtu.be/WUo8TnHNHYM?t=1700) [[文章]](../connect-data/desktop-data-sources.md) [[博客]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-2020-feature-summary/#_Palantir) 
+### <a name="data-preparation"></a>数据准备
+* 用于禁用自动类型检测的全局选项 [[视频]](https://youtu.be/BCNYMJKyjEo?t=989)   [[博客]](https://powerbi.microsoft.com/blog/power-bi-desktop-july-2020-feature-summary/#_Global_option_to) 
+
+
+### <a name="template-apps"></a>模板应用
+* MAQ 软件的 YouTube 分析 [[视频]](https://youtu.be/BCNYMJKyjEo?t=1035)  [[博客]](https://powerbi.microsoft.com/blog/power-bi-desktop-july-2020-feature-summary/#_YouTube_Analytics_by)
 
 
 ### <a name="other-features"></a>其他功能
-* 新的 Power BI 训练 [[视频]](https://youtu.be/WUo8TnHNHYM?t=1722) [[博客]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-2020-feature-summary/#_pbi_training) 
+* 从 Power BI Desktop（预览版）中启动外部工具 [[视频]](https://youtu.be/BCNYMJKyjEo?t=1066)   [[文章]](../create-reports/desktop-external-tools.md)  [[博客]](https://powerbi.microsoft.com/blog/power-bi-desktop-july-2020-feature-summary/#_Launch_external_tools) 
 
 
-有关这些新功能的详细信息，请参阅 [Power BI Desktop 功能摘要博客文章](https://powerbi.microsoft.com/blog/power-bi-desktop-june-2020-feature-summary/)。
+有关这些新功能的详细信息，请参阅 [Power BI Desktop 功能摘要博客文章](https://powerbi.microsoft.com/blog/power-bi-desktop-july-2020-feature-summary/)。
 
 查看 [Power BI 服务中的新增功能](service-whats-new.md)，以及 [Power BI 移动应用中的新增功能](../consumer/mobile/mobile-whats-new-in-the-mobile-apps.md)。
 
@@ -86,7 +83,7 @@ Power BI Desktop 更新列表中每个功能旁边的链接解释如下：
 ### <a name="power-bi-desktop-monthly-update-video"></a>Power BI Desktop 每月更新视频
 以下视频介绍了上述每项更新。 你还可以从博客文章查看该视频：
 
-> [!VIDEO https://www.youtube.com/embed/WUo8TnHNHYM]
+> [!VIDEO https://www.youtube.com/embed/BCNYMJKyjEo]
 
 ## <a name="more-videos"></a>更多视频
 

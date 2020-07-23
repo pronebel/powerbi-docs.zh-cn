@@ -7,12 +7,12 @@ ms.topic: conceptual
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.date: 05/06/2020
-ms.openlocfilehash: e76d820e804a19db148e0db4c2702e002ee2c017
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 4dd5698f91177733e150577490775eefb7e2f2ef
+ms.sourcegitcommit: 10c5b6cd5e7070f96de8a9f1d9b95f3d242ac7f2
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83275906"
+ms.lasthandoff: 07/21/2020
+ms.locfileid: "86557175"
 ---
 # <a name="deployment-pipelines-best-practices-preview"></a>部署管道最佳做法（预览）
 
@@ -140,7 +140,7 @@ ms.locfileid: "83275906"
 
 测试时，可以使用与生产阶段相同的容量。 然而，这可能会使生产在负载测试期间不稳定。 为避免生产不稳定，使用资源中与生产容量类似的另一个容量，进行测试。 为了避免产生额外的费用，可以使用 [Azure A 容量](../developer/embedded/azure-pbie-create-capacity.md)来仅支付测试时间的费用。
 
-![部署管道最佳实践示意图](media/deployment-pipelines-best-practices/deployment-pipelines-best-practices-diagram.png)
+![显示具有模拟生产环境的测试环境的部署管道的关系图。](media/deployment-pipelines-best-practices/deployment-pipelines-best-practices-diagram.png)
 
 ### <a name="use-dataset-rules-with-a-real-life-data-source"></a>使用包含实际数据源的数据集规则
 

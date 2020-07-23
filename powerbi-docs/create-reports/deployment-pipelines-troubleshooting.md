@@ -7,12 +7,12 @@ ms.topic: troubleshooting
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.date: 05/06/2020
-ms.openlocfilehash: e41a13fac3e0ffea5171d2927cc0f3b9debbeef1
-ms.sourcegitcommit: a453ba52aafa012896f665660df7df7bc117ade5
+ms.openlocfilehash: b911af4c7137aac9352c16985aac3a79a7eec87e
+ms.sourcegitcommit: 10c5b6cd5e7070f96de8a9f1d9b95f3d242ac7f2
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/27/2020
-ms.locfileid: "85485866"
+ms.lasthandoff: 07/21/2020
+ms.locfileid: "86557155"
 ---
 # <a name="deployment-pipelines-troubleshooting-preview"></a>解决部署管道问题（预览版）
 
@@ -110,7 +110,7 @@ ms.locfileid: "85485866"
 
 数据集规则缺少值。 如果更改了数据集，则可能发生这种情况。
 
-![打破的规则](media/deployment-pipelines-troubleshooting/broken-rule.png)
+![由于链接断开而导致部署失败时显示的“无效规则”错误的屏幕截图。](media/deployment-pipelines-troubleshooting/broken-rule.png)
 
 当以前成功的部署由于链接断开而失败时，将显示一条警告。 可以单击“配置规则”以导航到“部署设置”窗格，在其中标记了失败的数据集。 单击数据集后，将标记打破的规则。
 

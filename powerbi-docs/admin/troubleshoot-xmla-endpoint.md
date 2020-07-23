@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: troubleshooting
-ms.date: 06/16/2020
+ms.date: 07/16/2020
 ms.custom: seodec18, css_fy20Q4
 LocalizationGroup: Premium
-ms.openlocfilehash: be55180f57fec683b8da426e6c73bb95d6365d2f
-ms.sourcegitcommit: a453ba52aafa012896f665660df7df7bc117ade5
+ms.openlocfilehash: 5d6e3af615a73f8e4a3db42406bf94e33f16a2a3
+ms.sourcegitcommit: cfcde5ff2421be35dc1efc9e71ce2013f55ec78f
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/27/2020
-ms.locfileid: "85485521"
+ms.lasthandoff: 07/18/2020
+ms.locfileid: "86459660"
 ---
 # <a name="troubleshoot-xmla-endpoint-connectivity"></a>排查 XMLA 终结点连接问题
 
@@ -89,7 +89,7 @@ Power BI Premium 中的 XMLA 终结点依赖于本机 Analysis Services 通信�
 
 建议为表格模型指定 1500（或更高）的兼容性级别。 此兼容性级别支持大多数功能和数据源类型。 更高的兼容性级别与早期级别向后兼容。
 
-### <a name="unsupported-data-providers"></a>不支持的数据提供程序
+### <a name="supported-data-providers"></a>支持的数据提供程序
 
 在 1500 兼容性级别，Power BI 支持以下数据源类型：
 

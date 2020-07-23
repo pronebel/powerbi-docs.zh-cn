@@ -6,13 +6,13 @@ ms.author: kesharab
 ms.topic: how-to
 ms.service: powerbi
 ms.subservice: powerbi-developer
-ms.date: 03/24/2020
-ms.openlocfilehash: 5763c3fc72632e6e734e0dc0a32854e719709d01
-ms.sourcegitcommit: 181679a50c9d7f7faebcca3a3fc55461f594d9e7
+ms.date: 07/13/2020
+ms.openlocfilehash: 04dae0a59391ba48c7a8b6858c98ed11490ca946
+ms.sourcegitcommit: 10c5b6cd5e7070f96de8a9f1d9b95f3d242ac7f2
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/07/2020
-ms.locfileid: "86034488"
+ms.lasthandoff: 07/21/2020
+ms.locfileid: "86557086"
 ---
 # <a name="export-power-bi-report-to-file-preview"></a>将 Power BI 报表导出到文件（预览）
 
@@ -117,9 +117,10 @@ ms.locfileid: "86034488"
 
 创建导出作业时，要遵循以下三个步骤：
 
-1. 发送导出请求。
-2. 轮询。
-3. 获取文件。
+1. [发送导出请求](#step-1---sending-an-export-request)。
+2. [轮询](#step-2---polling)。
+3. [获取文件](#step-3---getting-the-file)。
+4. [使用文件流](#step-4---using-the-file-stream)。
 
 此部分举例说明了各个步骤。
 
@@ -231,6 +232,10 @@ public class ExportedFile
     public string FileSuffix;
 }
 ```
+
+### <a name="step-4---using-the-file-stream"></a>步骤 4 - 使用文件流
+
+如果有文件流，可以按照最适合你需要的方式对其进行处理。 例如，你可以通过电子邮件发送它或使用它来下载导出的报表。
 
 ### <a name="end-to-end-example"></a>端到端示例
 

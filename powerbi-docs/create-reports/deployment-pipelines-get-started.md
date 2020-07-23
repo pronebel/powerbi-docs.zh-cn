@@ -7,12 +7,12 @@ ms.topic: how-to
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.date: 05/06/2020
-ms.openlocfilehash: 6e9ed3217a7ee589eaf1469ba179ef8c8bc474e9
-ms.sourcegitcommit: caf60154a092f88617eb177bc34fb784f2365962
+ms.openlocfilehash: 8ce11c0ac6a5098c49f4d8aba0b0a09f28be975b
+ms.sourcegitcommit: 10c5b6cd5e7070f96de8a9f1d9b95f3d242ac7f2
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/25/2020
-ms.locfileid: "85354722"
+ms.lasthandoff: 07/21/2020
+ms.locfileid: "86557247"
 ---
 # <a name="get-started-with-deployment-pipelines-preview"></a>开始使用部署管道（预览版）
 
@@ -31,7 +31,7 @@ ms.locfileid: "85354722"
 >[!NOTE]
 > 如果以前创建了管道，或与你共享了管道，你还可以看到“部署管道”按钮。
 
-![部署管道登录页](media/deployment-pipelines-get-started/creating-pipeline.png)
+![部署管道登录页的屏幕截图。](media/deployment-pipelines-get-started/creating-pipeline.png)
 
 ## <a name="step-1---create-a-deployment-pipeline"></a>步骤 1 - 创建部署管道
 
@@ -84,7 +84,7 @@ ms.locfileid: "85354722"
 
 选择要从中进行部署的阶段，然后单击“部署”按钮。 部署过程会在目标阶段创建一个重复的工作区。 此工作区包含当前阶段中的所有现有内容。
 
-[![部署](media/deployment-pipelines-get-started/deploy.png "查看所有内容")](media/deployment-pipelines-get-started/deploy.png#lightbox)
+[![说明用于部署管道中的开发和测试阶段的部署按钮的屏幕截图。](media/deployment-pipelines-get-started/deploy.png)](media/deployment-pipelines-get-started/deploy.png#lightbox)
 
 ### <a name="selective-deployment"></a>选择性部署
 
@@ -92,7 +92,7 @@ ms.locfileid: "85354722"
 
 由于仪表板、报表和数据集是相关的并且具有依赖关系，因此你可以使用选择相关按钮来检查这些项目所依赖的所有项。 例如，如果要将报表部署到下一阶段，则单击“选择相关”按钮将标记该报表所连接到的数据集，以便同时部署两者且报表不会中断。
 
-[![选择性部署](media/deployment-pipelines-get-started/selective-deploy.png "选择性部署")](media/deployment-pipelines-get-started/selective-deploy.png#lightbox)
+[![说明部署管道中的选择性部署选项（选择“显示更多”选项后可用）的屏幕截图。](media/deployment-pipelines-get-started/selective-deploy.png)](media/deployment-pipelines-get-started/selective-deploy.png#lightbox)
 
 >[!NOTE]
 > * 如果报表或仪表板所依赖的项目在要部署到的阶段中不存在，则无法将其部署到下一阶段。
@@ -104,7 +104,7 @@ ms.locfileid: "85354722"
 
 仅当上一阶段内容为空时，才可部署到上一阶段。 当部署到上一阶段时，无法选择特定项目。 将部署此阶段中的所有内容。
 
-[![反向部署](media/deployment-pipelines-get-started/deploy-back.png "反向部署")](media/deployment-pipelines-get-started/deploy-back.png#lightbox)
+[![显示“部署到上一阶段”按钮（可从测试或生产阶段菜单中找到）的屏幕截图。](media/deployment-pipelines-get-started/deploy-back.png)](media/deployment-pipelines-get-started/deploy-back.png#lightbox)
 
 ## <a name="step-4---create-dataset-rules"></a>步骤 4 - 创建数据集规则
 
@@ -121,15 +121,15 @@ ms.locfileid: "85354722"
 
 1. 在要为其创建数据集规则的管道阶段中，单击“部署设置”。
 
-    ![部署设置](media/deployment-pipelines-get-started/deployment-settings.png)
+    ![“部署设置”按钮（位于各个部署管道阶段的右上方）的屏幕截图。](media/deployment-pipelines-get-started/deployment-settings.png)
 
 2. 在“部署设置”窗格中，选择要为其创建规则的数据集。
 
-    [![数据集规则](media/deployment-pipelines-get-started/dataset-rules.png "选择一个数据集")](media/deployment-pipelines-get-started/dataset-rules.png#lightbox)
+    [![说明如何选择数据集以创建数据集规则的的屏幕截图。](media/deployment-pipelines-get-started/dataset-rules.png)](media/deployment-pipelines-get-started/dataset-rules.png#lightbox)
 
 3. 选择要创建的规则类型，展开列表，然后单击“添加规则”。
 
-     [![添加规则](media/deployment-pipelines-get-started/add-rule.png "添加规则")](media/deployment-pipelines-get-started/add-rule.png#lightbox)
+     [![说明如何选择数据源规则以及单击“添加规则”选项的屏幕截图。](media/deployment-pipelines-get-started/add-rule.png)](media/deployment-pipelines-get-started/add-rule.png#lightbox)
 
 ### <a name="dataset-rule-types"></a>数据集规则类型
 
@@ -152,6 +152,8 @@ ms.locfileid: "85354722"
 * 移除或删除项时，其规则也会被删除。 这些规则无法还原。
 
 * 如果更改在规则中定义的数据源或参数，或将其从源数据集中删除，则该规则将无效，且部署将失败。
+
+* 无法为类型是“任意”或“二进制”的参数定义参数规则。  有关详细信息，请参阅[数据集更新参数限制](https://docs.microsoft.com/rest/api/power-bi/datasets/updateparameters)。
 
 * 只能为以下数据源定义数据源规则：
     * Azure Analysis Services
@@ -180,7 +182,7 @@ ms.locfileid: "85354722"
 
 当两个连续阶段都有内容时，将基于内容项元数据对内容进行比较。 这种比较不包括比较各阶段之间的数据或刷新时间。
 
- [![部署流](media/deployment-pipelines-get-started/deployment-flow.png "比较阶段")](media/deployment-pipelines-get-started/deployment-flow.png#lightbox)
+ [![说明具有比较指示器的部署管道的屏幕截图。](media/deployment-pipelines-get-started/deployment-flow.png)](media/deployment-pipelines-get-started/deployment-flow.png#lightbox)
 
 为了快速直观地了解两个连续阶段之间的差异，它们之间会出现比较图标指示器。 比较指示器有两种状态：
 
@@ -201,13 +203,13 @@ ms.locfileid: "85354722"
     >[!NOTE]
     >部署不会影响“缺少来源”项。
 
- [![比较](media/deployment-pipelines-get-started/compare.png "比较视图")](media/deployment-pipelines-get-started/compare.png#lightbox)
+ [![说明“比较”选项（用于展开“比较”视图，并比较两个部署管道阶段的项）的屏幕截图。](media/deployment-pipelines-get-started/compare.png)](media/deployment-pipelines-get-started/compare.png#lightbox)
 
 ## <a name="overriding-content"></a>覆盖内容
 
 在源阶段更改内容后进行部署时，在目标阶段中更改的内容将会被覆盖。 单击“部署”后，你将收到一条警告，列出将被覆盖的项目数量。
 
-![替换内容警告](media/deployment-pipelines-get-started/replaced-content.png)
+![关于被替换内容的警告（在部署将导致更改要部署到的阶段中的项时显示）的屏幕截图。](media/deployment-pipelines-get-started/replaced-content.png)
 
 你可以详细了解[了解部署过程](deployment-pipelines-process.md)中的[复制到下一阶段的项](deployment-pipelines-process.md#deployed-items)和[未复制的项](deployment-pipelines-process.md#unsupported-items)。
 

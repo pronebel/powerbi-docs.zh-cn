@@ -6,22 +6,22 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: how-to
-ms.date: 05/21/2020
+ms.date: 07/16/2020
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: 0472baffa765f1a1e7d39e365e40a1f596472a16
-ms.sourcegitcommit: e8ed3d120699911b0f2e508dc20bd6a9b5f00580
+ms.openlocfilehash: cfe184b1f2bd34796dea8982117e3ba90561fa31
+ms.sourcegitcommit: cfcde5ff2421be35dc1efc9e71ce2013f55ec78f
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/11/2020
-ms.locfileid: "86264388"
+ms.lasthandoff: 07/18/2020
+ms.locfileid: "86459683"
 ---
 # <a name="real-time-streaming-in-power-bi"></a>Power BI 中的实时流式处理
-通过 Power BI 实时流式处理，可以流式处理数据并实时更新仪表板。 可以在 Power BI 中创建的任何视觉对象或仪表板也可以创建为显示和更新实时数据和视觉对象。 流式处理数据的设备和源可以是工厂传感器、社交媒体源、服务使用情况指标和其他可从其收集或传输时间敏感数据的任何设备。
+通过具有实时流式处理功能的 Power BI，可以流式处理数据并实时更新仪表板。 在 Power BI 中创建的任何视觉对象或仪表板都可以显示和更新实时数据和视觉对象。 流式处理数据的设备和源可以是工厂传感器、社交媒体源、服务使用情况指标或许多其他时间敏感型数据收集器或发送器。
 
 ![环境传感器仪表板的屏幕截图，其中显示了数据的实时结果。](media/service-real-time-streaming/real-time-streaming-10.png)
 
-本文介绍如何在 Power BI 中设置实时流式处理数据集。 但在我们开始之前，务必了解设计为在磁贴（和仪表板）中显示的实时数据集的类型以及这些数据集的不同之处。
+本文介绍如何在 Power BI 中设置实时流式处理数据集。 首先，务必了解设计为在磁贴（和仪表板）中显示的实时数据集的类型以及这些数据集的不同之处。
 
 ## <a name="types-of-real-time-datasets"></a>实时数据集的类型
 有三种类型的实时数据集设计用于在实时仪表板上显示：
@@ -47,12 +47,12 @@ ms.locfileid: "86264388"
 
 使用**流式处理数据集**时，没有基础数据库，因此不能使用从流中流入的数据生成报表视觉对象。 因此，你不能使用报表功能，例如筛选、Power BI 视觉对象和其他报表功能。
 
-可视化流式处理数据集的唯一方法是添加磁贴，并将流式处理数据集用作**自定义流式处理数据**的数据源。 基于**流式处理数据集**的自定义流式处理磁贴被优化用于快速显示实时数据。 将数据推送到 Power BI 服务和更新视觉对象的两个过程之间的延迟非常小，因为不需要将数据输入到数据库中或从数据库中读取数据。
+可视化流式处理数据集的唯一方法是添加磁贴，并将流式处理数据集用作自定义流式处理数据源。 基于**流式处理数据集**的自定义流式处理磁贴被优化用于快速显示实时数据。 将数据推送到 Power BI 服务和更新视觉对象的两个过程之间的延迟很小，因为不需要将数据输入到数据库中或从数据库中读取数据。
 
 在实践中，流式处理数据集及其伴随的流式处理视觉对象最适用于最小化数据推送和可视化之间的延迟的关键情况。 此外，最佳做法是以可以直观显示的格式推送数据，而无需任何其他聚合。 准备好的数据的示例包括温度和预计算的平均值。
 
 ### <a name="pubnub-streaming-dataset"></a>PubNub 流式处理数据集
-使用 **PubNub** 流式处理数据集，Power BI Web 客户端使用 PubNub SDK 读取现有的 PubNub 数据流，Power BI 服务不存储任何数据。 由于此调用是直接从 Web 客户端进行的，因此，如果仅允许加入允许列表的网络出站流量，则需要将流向 PubNub 的流量列为允许项。 请参阅支持文章中有关[为 PubNub 将出站流量加入允许列表](https://support.pubnub.com/support/solutions/articles/14000043522-can-i-whitelist-ips-for-pubnub-traffic-)的说明。
+使用 PubNub 流式处理数据集，Power BI Web 客户端使用 PubNub SDK 读取现有的 PubNub 数据流。 Power BI 服务不存储任何数据。 由于此调用是直接从 Web 客户端进行的，因此，如果仅允许加入允许列表的网络出站流量，则需要将流向 PubNub 的流量列为允许项。 请参阅支持文章中有关[为 PubNub 将出站流量加入允许列表](https://support.pubnub.com/support/solutions/articles/14000043522-can-i-whitelist-ips-for-pubnub-traffic-)的说明。
 
 与使用流式处理数据集一样，使用 PubNub 流式处理数据集时，Power BI 中没有基础数据库，因此你无法针对流入的数据生成报表视觉对象，也无法利用报表功能，如筛选、Power BI 视觉对象等 。 因此，**PubNub 流式处理数据集**也只能通过向仪表板添加磁贴并将 PubNub 数据流配置为源来进行可视化。
 
@@ -98,7 +98,7 @@ ms.locfileid: "86264388"
 
 ![“新建流式处理数据集”的屏幕截图，其中已启用“历史数据分析”。](media/service-real-time-streaming/real-time-streaming_0c.png)
 
-禁用**历史数据分析**时（默认情况下禁用），你将创建一个**流式处理数据集**，如本文前面所述。 启用**历史数据分析**时，创建的数据集将成为**流式处理数据集**和**推送数据集**。 这相当于使用 Power BI REST API 创建其 *defaultMode* 设置为 *pushStreaming* 的数据集，如本文前面所述。
+禁用“历史数据分析”时（默认情况下禁用），你将创建一个流式处理数据集，如本文前面所述。  启用**历史数据分析**时，创建的数据集将成为**流式处理数据集**和**推送数据集**。 这相当于使用 Power BI REST API 创建其 *defaultMode* 设置为 *pushStreaming* 的数据集，如本文前面所述。
 
 > [!NOTE]
 > 对于使用 Power BI 服务 UI 创建的流式处理数据集（如上一段所述），不需要 Azure AD 身份验证。 在此类数据集中，数据集所有者接收具有 rowkey 的 URL，该 rowkey 授权请求者无需使用 Azure AD OAuth 持有者令牌即可将数据推送到数据集中。 不过，现在采用 Azure AD (AAD) 方法仍可将数据推送到数据集中。
@@ -108,7 +108,7 @@ ms.locfileid: "86264388"
 ### <a name="using-azure-stream-analytics-to-push-data"></a>使用 Azure 流分析推送数据
 你可以在 **Azure 流分析** (ASA) 中将 Power BI 添加为输出，然后实时可视化 Power BI 服务中的这些数据流。 本节介绍有关此过程发生的技术详细信息。
 
-Azure 流分析使用 Power BI REST API 创建其到 Power BI 的输出数据流，且 defaultMode 设置为 pushStreaming （有关 defaultMode 的信息，请参阅本文前面的部分），这会导致产生可以利用**推送**和**流式处理**的数据集。 在数据集创建期间，Azure 流分析还会将“retentionPolicy”标志设为“basicFIFO”；这样设置后，支持其推送数据集的数据库可存储 200,000 行，并且在达到上限后，按照先进先出 (FIFO) 的方式删除行。
+Azure 流分析使用 Power BI REST API 创建其到 Power BI 的输出数据流，且 defaultMode 设置为 pushStreaming，这会导致产生可以利用推送和流式处理的数据集。   创建数据集后，Azure 流分析会将 retentionPolicy 标志设置为 basicFIFO。 使用该设置时，支持其推送数据集的数据库可存储 200,000 行，并以先进先出 (FIFO) 的方式删除行。
 
 > [!CAUTION]
 > 如果 Azure 流分析查询对 Power BI 产生非常快速的输出（例如，每秒一次或两次），则 Azure 流分析会开始将这些输出批处理到单个请求中。 这可能会导致请求大小超过流式处理磁贴限制。 在这种情况下，如前面各部分所述，流式处理磁贴将无法呈现。 在此类情况下，最佳做法是减慢数据输出到 Power BI 的速率；例如将其设置为超过 10 秒的最大值，而不是每秒的最大值。
@@ -180,7 +180,7 @@ Azure 流分析使用 Power BI REST API 创建其到 Power BI 的输出数据流
 1. 在“Power BI 服务”中选择仪表板（或创建新仪表板），然后选择“添加磁贴” > “自定义流式处理数据”，然后选择“下一步”按钮。
    
    ![仪表板的屏幕截图，其中显示了“添加”磁贴以及“自定义流式处理数据”选项。](media/service-real-time-streaming/real-time-streaming_1.png)
-2. 如果没有流式处理数据源，请选择“管理数据”链接（位于“下一步”按钮上方），然后从窗口右上角中的链接中选择“+ 添加流式处理数据”。 选择“PubNub”，然后选择“下一步”。
+2. 如果没有流式处理数据源，请选择“管理数据”链接（位于“下一步”按钮上方），然后从窗口右上角中的链接中选择“+ 添加流式处理数据”。   选择“PubNub”，然后选择“下一步”。
 3. 为数据集创建名称，然后将以下值粘贴到出现的窗口中，然后选择“下一步”：
    
    订阅密钥：
@@ -212,13 +212,14 @@ Azure 流分析使用 Power BI REST API 创建其到 Power BI 的输出数据流
 
 #### <a name="how-do-i-see-the-latest-value-on-a-push-dataset-how-about-streaming-dataset"></a>如何查看推送数据集的最新值？ 流式处理数据集呢？
 流式处理数据集设计用于显示最新数据。 你可以使用**卡片图**流式处理视觉对象，轻松查看最新的数值。 遗憾的是，该卡片图不支持日期时间或文本类型的数据。
-对于推送数据集，假设你在架构中有一个时间戳，则可以尝试使用最后一个 N 筛选器创建报表视觉对象。
+
+对于推送数据集，如果你在架构中有一个时间戳，则可以尝试使用最后一个 N 筛选器创建报表视觉对象。
 
 #### <a name="can-i-connect-to-push-or-streaming-datasets-in-power-bi-desktop"></a>我可以连接到 Power BI Desktop 中的推送或流式处理数据集吗？
-可以从 Power BI Desktop 中实时连接推送和混合数据集，但无法从 Power BI Desktop 中连接其他流式处理数据集。
+可以在 Power BI Desktop 中实时连接推送数据集和混合数据集。 无法在 Power BI Desktop 中连接其他流式处理数据集。
 
 #### <a name="given-the-previous-question-how-can-i-do-any-modeling-on-real-time-datasets"></a>鉴于上述问题，如何对实时数据集进行任何建模？
-由于数据不会永久存储，因此不能对流式处理数据集进行建模。 对于推送数据集，你可以使用更新数据集/表 REST API 添加度量值和关系。 
+由于数据不会永久存储，因此不能对流式处理数据集进行建模。 对于推送数据集，可以使用“创建数据集 REST API”创建具有关系和度量值的数据集，并/或使用“更新表 REST API”将度量值添加到现有表。 
 
 #### <a name="how-can-i-clear-all-the-values-on-a-push-dataset-how-about-streaming-dataset"></a>如何清除推送数据集上的所有值？ 流式处理数据集呢？
 在推送数据集上，你可以使用删除行 REST API 调用。 目前没有办法从流式处理数据集中清除数据，但数据将在一个小时后自行清除。
@@ -230,12 +231,12 @@ Azure 流分析使用 Power BI REST API 创建其到 Power BI 的输出数据流
 2. 尝试在 Azure 流分析中重新授权 Power BI 连接
 3. 你在 Azure 流分析输出中指定了哪个工作区？ 在 Power BI 服务中，你是否正在签入该（同一）工作区？
 4. Azure 流分析查询是否显式输出到 Power BI 输出？ （使用 INTO 关键字）
-5. 是否有数据流流经 Azure 流分析作业？ 只有在有数据传输时，才会创建数据集。
+5. 是否有数据流流经 Azure 流分析作业？ 只有在传输数据时才会创建数据集。
 6. 是否可以查看 Azure 流分析日志，以了解是否存在任何警告或错误？
 
 ## <a name="automatic-page-refresh"></a>自动页面刷新
 
-自动页面刷新针对报表页面执行，使用此功能，报表作者可以为页面中仅在使用页面时处于活动状态的视觉对象设置刷新间隔。 自动页面刷新仅适用于 DirectQuery 数据源。 最小刷新间隔取决于要在其中发布报表的工作区的类型，以及高级工作区的容量管理设置。
+自动页面刷新针对报表页面执行，通过此功能，可以为仅在使用页面时才处于活动状态的视觉对象设置刷新间隔。 自动页面刷新仅适用于 DirectQuery 数据源。 最小刷新间隔取决于发布报表的工作区的类型，以及高级工作区的容量管理设置。
 
 有关自动页面刷新的详细信息，请参阅[自动页面刷新](../create-reports/desktop-automatic-page-refresh.md)一文。
 

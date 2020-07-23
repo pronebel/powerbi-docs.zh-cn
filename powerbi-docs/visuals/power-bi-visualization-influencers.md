@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 01/10/2020
 ms.author: rien
 LocalizationGroup: Visualizations
-ms.openlocfilehash: d5010097eff980bff59bea049684e381ed948514
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 48f094def0576d6e90a71117cc37ac975304e07f
+ms.sourcegitcommit: 10c5b6cd5e7070f96de8a9f1d9b95f3d242ac7f2
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85237839"
+ms.lasthandoff: 07/21/2020
+ms.locfileid: "86557270"
 ---
 # <a name="create-key-influencers-visualizations"></a>创建关键影响因素可视化效果
 
@@ -275,6 +275,7 @@ ms.locfileid: "85237839"
 - 不支持与 Azure Analysis Services 和 SQL Server Analysis Services 的实时连接
 - 不支持发布到 Web
 - 需要 .NET Framework 4.6 或更高版本
+- 不支持 SharePoint Online 嵌入
 
 ![数值型问题](media/power-bi-visualization-influencers/power-bi-ki-numeric-question.png)
 
@@ -393,7 +394,7 @@ AI 可视化效果使用 [ML.NET](https://dotnet.microsoft.com/apps/machinelearn
 
 决策树完成运行后，将采用所有分支（例如安全评论和大型企业）并创建 Power BI 筛选器。 此筛选器组合打包为视觉对象中的细分市场。 
  
-**为什么将更多字段移动到“解释依据”字段时，某些因素会成为影响因素或不再是影响因素？** 
+**为什么将更多字段移动到“解释依据”字段时，某些因素会成为影响因素或不再是影响因素？**
 
 可视化效果同时评估所有解释因素。 一个因素单独来看时可能是一个影响因素，但与其他因素一起考虑时，它可能就不是了。 假设需要分析导致房价高的原因，卧室和房子大小是解释因素：
 

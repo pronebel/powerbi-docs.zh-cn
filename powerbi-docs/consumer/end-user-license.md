@@ -7,27 +7,27 @@ ms.service: powerbi
 ms.subservice: powerbi-consumer
 Ms.custom: css_fy20Q4
 ms.topic: how-to
-ms.date: 05/20/2020
+ms.date: 07/15/2020
 ms.author: mihart
 ms.custom: licensing support
 LocalizationGroup: consumers
-ms.openlocfilehash: 8a0815d6cde7f027841cda214f29322bd2b1db61
-ms.sourcegitcommit: 3e7e3cb2c2e398cffe8733d99e3ac832ee056dc9
+ms.openlocfilehash: 6e84158d01f1e257743052df4d621485497379fd
+ms.sourcegitcommit: 11deeccf596e9bb8f22615276a152614f7579f35
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/17/2020
-ms.locfileid: "84973490"
+ms.lasthandoff: 07/16/2020
+ms.locfileid: "86409481"
 ---
 # <a name="licenses-and-subscriptions-for-consumers"></a>使用者的许可证和订阅
 
 [!INCLUDE[consumer-appliesto-ynnn](../includes/consumer-appliesto-ynnn.md)]
 
-作为[使用者](end-user-consumer.md)，你可以使用 Power BI 服务来浏览报表和仪表板，以便基于数据做出业务决策。 如果你使用 Power BI 已有一段时间，或与设计者同事聊过天，你可能会发现，有些功能只有在拥有特定类型的许可证、订阅或权限时才能使用。 
+作为[使用者](end-user-consumer.md)，你可以使用 Power BI 服务来浏览报表和仪表板，以便基于数据做出业务决策。 如果你使用 Power BI 已有一段时间，或与设计者同事聊过天，你可能会发现，有些功能只有在拥有特定类型的许可证、订阅或权限时才能使用。
 
 在 Power BI 服务中能执行的操作取决于三个方面：
--    正在使用的许可证和订阅的类型
--    内容的存储位置
--    分配的角色和权限
+-    正在使用的许可证和订阅的类型，
+-    内容的存储位置以及
+-    分配的角色和权限。
 
 
 ![Pro 用户的图像](media/end-user-license/power-bi-questions-small.png)
@@ -36,9 +36,9 @@ ms.locfileid: "84973490"
 
 ## <a name="licenses"></a>许可证
 
-Power BI 服务的每个用户都使用免费许可证或 Pro 许可证 。 如果你是 Power BI 使用者，你可能使用的是由 Power BI 租户管理员管理的许可证。 
+Power BI 服务的每个用户都使用免费许可证或 Pro 许可证 。 如果你是 Power BI 使用者，你可能使用的是由 Power BI 租户管理员管理的许可证。
 
-你可以同时拥有多个许可证。  该服务会始终为你提供与你目前拥有的最佳许可证等同的体验。 
+你可以同时拥有多个许可证。  该服务会始终为你提供与你目前拥有的最宽松的许可证等同的体验。
 
 ## <a name="power-bi-premium-capacity"></a>Power BI 高级容量
 
@@ -46,10 +46,9 @@ Premium 是一种组织订阅，它提供了另一种存储内容的方式 - 将
 
 Premium 允许 Pro 用户广泛分发内容，且不要求查看内容的收件人提供 Pro 许可证。 内容设计者需要提供 Pro 许可证。 设计人员连接到数据源、模型数据，并创建打包为工作区应用的报表和仪表板。 如果向用户分配了[ Power BI Premium 容量的工作区中的角色](end-user-workspaces.md)，即使用户没有 Pro 许可证仍可访问该工作区。
 
-在这些工作区中，设计者分配角色（如“观看者”、“参与者”、“成员”和“管理员”），用于确定同事可与内容交互的程度   。 有关详细信息，请参阅[工作区权限和角色。](end-user-workspaces.md) 
+在这些工作区中，设计者分配查看者、参与者、成员和管理员等角色。    这些角色决定了同事可与内容交互的程度。 有关详细信息，请参阅[工作区权限和角色。](end-user-workspaces.md) 
 
 有关高级容量的详细信息，请参阅[什么是 Microsoft Power BI Premium？](../admin/service-premium-what-is.md)。
-
 
 ## <a name="find-out-which-licenses-you-have"></a>了解你拥有哪些许可证
 
@@ -88,55 +87,48 @@ Premium 允许 Pro 用户广泛分发内容，且不要求查看内容的收件�
 
 ![应用屏幕](media/end-user-license/power-bi-premium.png)
 
-    
-对于拥有免费许可证的用户，只要设计者将工作区置于 Premium 专用容量中，便可在工作区中查看共享内容、与同事协作、使用应用仪表板和报表，等等。 权限范围由 Power BI 管理员和内容设计者设定。 
-
-   
+如果你是拥有免费许可证的用户，只要设计者将工作区置于 Premium 专用容量中，便可在工作区中查看共享内容、与同事协作、使用应用仪表板和报表，等等。 权限范围由 Power BI 管理员和内容设计者设定。
 
 ## <a name="putting-it-all-together"></a>汇总
 
-组织购买高级订阅时，管理员通常会将 Pro 许可证分配给将使用高级容量以及创建和共享内容的员工。 Pro 用户可创建[工作区](end-user-workspaces.md)，并将内容（仪表板、报表、应用）添加到这些工作区。 为了允许免费用户在这些工作区中协作，管理员或 Pro 用户将这些工作区分配到专用容量中。    
-<br>
+组织购买高级订阅时，管理员通常会将 Pro 许可证分配给将使用高级容量以及创建和共享内容的员工。 Pro 用户可创建[工作区](end-user-workspaces.md)，并将内容（仪表板、报表、应用）添加到这些工作区。 为了允许免费用户在这些工作区中协作，管理员或 Pro 用户将这些工作区分配到专用容量中。  
 
 |许可证类型  |共享容量  |专用容量  |
 |---------|---------|---------|
-|**免费**     |  用作个人沙盒，你可以在其中为自己创建内容并与该内容进行交互。 这是试用 Power BI 服务的好方法。 你不能使用来自其他人的内容，也不能与他人共享你的内容 <sup>1</sup>     |   与分配给专用容量的内容进行交互，并与你共享。 免费和 Pro 用户可以进行协作，而无需免费用户拥有 Pro 帐户。      |
+|**免费**     |  用作个人沙盒，你可以在其中为自己创建内容并与该内容进行交互。 免费许可证是试用 Power BI 服务的好方法。 你不能使用来自其他人的内容，也不能与他人共享你的内容 <sup>1</sup>     |   与分配给专用容量的内容进行交互，并与你共享。 免费和 Pro 用户可以进行协作，而无需免费用户拥有 Pro 帐户。      |
 |**Pro**     |  通过创建和共享内容与其他 Pro 版用户协作。        |  通过创建和共享内容与免费版和 Pro 版用户协作。       |
 
 
-<sup>1</sup> 请参阅[注意事项和疑难解答](#considerations-and-troubleshooting)。 
+<sup>1</sup> 请参阅[注意事项和疑难解答](#considerations-and-troubleshooting)。
 
-在下图中，左侧表示在应用工作区中创建和共享内容的 Pro 用户。 
+在下图中，左侧表示在应用工作区中创建和共享内容的 Pro 用户。
 
-- 工作区 A 是在没有高级容量许可证的组织中创建的。 
+- 工作区 A 是在没有高级容量许可证的组织中创建的。
 
-- 工作区 B 是在具有 Premium 订阅的组织中创建的，且该工作区保存在专用容量中。 此工作区有菱形图标。  
+- 工作区 B 是在具有 Premium 订阅的组织中创建的。 此工作区保存在专用容量中。 此工作区有菱形图标。  
 
     ![三个工作区的图像](media/end-user-license/power-bi-dedicated.jpg)
 
 Power BI Pro 设计者可以在任何一个工作区中与其他 Pro 用户共享和协作。 但是，Power BI Pro 用户可以与免费版用户共享和协作的唯一方法是使用高级专用容量中的工作区 B。  在此工作区中，设计者向协作者分配以下角色。 角色决定了可以在此工作区中执行什么操作。 Power BI 使用者通常分配有查看者角色。 若要详细了解角色，请参阅 [Power BI 使用者的工作区](end-user-workspaces.md)。
 
-
-
-
 ## <a name="considerations-and-troubleshooting"></a>注意事项和疑难解答
-- 可能有多个 Power BI 许可证。 Power BI 服务将始终提供与你当前拥有的最佳许可证等同的体验。 例如，如果你有 Pro 和免费许可证，Power BI 服务将使用 Pro 许可证。
 
-- 如果要共享和创建内容（仪表板、报表、应用），则你可能不是 Power BI 使用者，而是设计者 。 确保拥有 Pro 用户许可证。 每当尝试使用 Pro 功能时，你都可以通过选择 Power BI 服务中显示的升级对话框，来注册免费 60 天的 Power BI Pro 个人试用版。
+- 可以有多个 Power BI 许可证。 Power BI 服务将始终提供与你当前拥有的最佳许可证等同的体验。 例如，如果你有 Pro 和免费许可证，Power BI 服务将使用 Pro 许可证。
+
+- 如果想要创建和共享内容（仪表板、报表、应用），或打开其他人与你共享的内容，则需要拥有 Pro 用户许可证。 可以注册可免费使用 60 天的 Power BI Pro 个人试用版。 每次尝试使用 Pro 功能时，选择 Power BI 服务中显示的“升级”对话框。
 
     ![具有 Pro 试用版链接的对话框](media/end-user-license/power-bi-trial.png)
 
-  60 天试用期到期后，你的许可证将恢复为 Power BI 免费许可证。 此后，无法再使用需要 Power BI Pro 许可证的功能。 如果你想继续使用 Pro 许可证，请联系管理员或 IT 技术支持购买 Power BI Pro 许可证。 如果你没有管理员或 IT 技术支持，请访问 [Power BI 定价页](https://powerbi.microsoft.com/pricing/)。     
+  60 天试用期到期后，你的许可证将恢复为 Power BI 免费许可证。 许可证恢复后，你无法再使用需要 Power BI Pro 许可证的功能。 如果你想继续使用 Pro 许可证，请联系管理员或 IT 技术支持购买 Power BI Pro 许可证。 如果你没有管理员或 IT 技术支持，请访问 [Power BI 定价页](https://powerbi.microsoft.com/pricing/)。
 
+- 对于通过选择“免费试用”类型按钮自行注册的免费许可证，永远不会过期。 因此，如果你升级到 Pro 试用版或你的组织提供了 Pro 许可证，在试用版结束或组织删除 Pro 许可证后，你仍可重新使用免费许可证 - 除非你取消了该许可证。
 
-- 对于通过选择“免费试用”类型按钮自行注册的免费许可证，永远不会过期。 因此，如果你升级到 Pro 试用版或你的组织提供了 Pro 许可证，在试用版结束或组织删除 Pro 许可证后，你仍可重新使用免费许可证 - 除非你取消了该许可证。 
-
-- <sup>1</sup> Power BI 服务的免费用户许可证非常适合使用“我的工作区”探索该服务或使用该服务进行个人数据分析和可视化的用户。 免费的独立用户不使用 Power BI 与同事协作。 拥有免费许可证的独立用户不能查看其他用户共享的内容，也不能与其他 Power BI 用户共享自己的内容。 
+- <sup>1</sup> Power BI 服务的免费用户许可证非常适合使用“我的工作区”探索该服务或使用该服务进行个人数据分析和可视化的用户。 免费的独立用户不使用 Power BI 与同事协作。 拥有免费许可证的独立用户不能查看其他用户共享的内容，也不能与其他 Power BI 用户共享自己的内容。
 
     ![独立用户的图像](media/end-user-license/power-bi-free-license.jpg)
 
-
 ## <a name="next-steps"></a>后续步骤
+
 - [我是 Power BI 使用者吗？](end-user-consumer.md)    
 - [了解工作区](end-user-workspaces.md)    
 - [查看按许可证类型列出的 Power BI 使用者](end-user-features.md)

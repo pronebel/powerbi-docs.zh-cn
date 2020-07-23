@@ -7,12 +7,12 @@ ms.topic: conceptual
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.date: 06/25/2020
-ms.openlocfilehash: eee8d67caab4a3d7b888396fa62debaf0aab2490
-ms.sourcegitcommit: 181679a50c9d7f7faebcca3a3fc55461f594d9e7
+ms.openlocfilehash: 002a50fd2e8e55d5ec06d7f15420ae8299861b37
+ms.sourcegitcommit: 10c5b6cd5e7070f96de8a9f1d9b95f3d242ac7f2
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/07/2020
-ms.locfileid: "86034281"
+ms.lasthandoff: 07/21/2020
+ms.locfileid: "86557201"
 ---
 # <a name="understand-the-deployment-process-preview"></a>了解部署过程（预览版）
 
@@ -152,11 +152,11 @@ ms.locfileid: "86034281"
 
 为每个部署管道阶段创建应用，以便可以从最终用户的角度测试每个应用更新。 部署管道可以轻松管理此过程。 使用工作区卡中的“发布”或“查看”按钮，在特定管道阶段中发布或查看应用。
 
-[![发布应用](media/deployment-pipelines-process/publish.png "发布应用")](media/deployment-pipelines-process/publish.png#lightbox)
+[![在生产阶段右下角突出显示“发布应用”按钮的屏幕截图。](media/deployment-pipelines-process/publish.png)](media/deployment-pipelines-process/publish.png#lightbox)
 
 在生产阶段中，左下角的“主操作”按钮会在 Power BI 中打开“更新应用”页，以便任何内容更新可供应用用户使用。
 
-[![更新应用](media/deployment-pipelines-process/update-app.png "更新应用")](media/deployment-pipelines-process/update-app.png#lightbox)
+[![在生产阶段右下角突出显示“更新应用”按钮的屏幕截图。](media/deployment-pipelines-process/update-app.png)](media/deployment-pipelines-process/update-app.png#lightbox)
 
 >[!IMPORTANT]
 >部署过程不包括更新应用内容或设置。 若要应用对内容或设置的更改，需要在所需的管道阶段手动更新应用。

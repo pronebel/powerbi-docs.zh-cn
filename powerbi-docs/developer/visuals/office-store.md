@@ -7,13 +7,13 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.topic: how-to
 ms.subservice: powerbi-custom-visuals
-ms.date: 03/08/2020
-ms.openlocfilehash: 037fbdf3c1e4c01bac91e6089f9fa1c7dd1635d1
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.date: 07/14/2020
+ms.openlocfilehash: 94cd4fd652fc1b06a73e1ea319a65e1aa5b46c7e
+ms.sourcegitcommit: 8b8d54d46470a311d8654abe92b5a223b696af28
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85238984"
+ms.lasthandoff: 07/17/2020
+ms.locfileid: "86437206"
 ---
 # <a name="publish-power-bi-visuals-to-partner-center"></a>将 Power BI 视觉对象发布到合作伙伴中心
 
@@ -23,7 +23,7 @@ ms.locfileid: "85238984"
 
 [AppSource](https://appsource.microsoft.com/marketplace/apps?product=power-bi-visuals) 是查找 Microsoft 产品和服务的 SaaS 应用与加载项的位置。
 
-![Office 应用商店](media/office-store/appsource-01.png)
+![AppSource 中的 Power BI 视觉对象的屏幕截图。](media/office-store/appsource-01.png)
 
 ## <a name="preparing-to-submit-your-power-bi-visual"></a>准备提交 Power BI 视觉对象
 
@@ -47,7 +47,7 @@ ms.locfileid: "85238984"
 
 需要从 Power BI 团队获取应用包 XML，才能提交 Power BI 视觉对象。 请向 Power BI 视觉对象提交团队 ([pbivizsubmit@microsoft.com](mailto:pbivizsubmit@microsoft.com)) 发送电子邮件，以获得应用包 XML。
 
-必须在 pbiviz.json 文件中填写以下字段，然后才能创建 pbiviz 包：  
+必须在 pbiviz.json 文件中填写以下字段，然后才能创建 pbiviz 包：
 * 说明
 * 支持 URL
 * author
@@ -61,11 +61,11 @@ ms.locfileid: "85238984"
 
 ## <a name="submitting-to-appsource"></a>提交到 AppSource
 
-必须从 Power BI 团队获取应用包，然后将其提交到合作伙伴中心，才能将 Power BI 视觉对象提交到 AppSource。 
+必须从 Power BI 团队获取应用包，然后将其提交到合作伙伴中心，才能将 Power BI 视觉对象提交到 AppSource。
 
 ### <a name="getting-the-app-package"></a>获取应用包
 
-在将视觉对象提交到 AppSource 之前，必须先将附带 pbiviz 文件和 pbix 文件的电子邮件发送到 Power BI 团队。   这样，Power BI 团队便可将这些文件上传到公共共享服务器。 否则，应用商店将无法检索这些文件。 
+在将视觉对象提交到 AppSource 之前，必须先将附带 pbiviz 文件和 pbix 文件的电子邮件发送到 Power BI 团队。 这样，Power BI 团队便可将这些文件上传到公共共享服务器。 否则，应用商店将无法检索这些文件。 
 
 Power BI 团队必须为新 Power BI 视觉对象提交、现有 Power BI 视觉对象更新和已拒绝提交的修复检查文件。
 
@@ -73,31 +73,36 @@ Power BI 团队必须为新 Power BI 视觉对象提交、现有 Power BI 视觉
 
 必须注册合作伙伴中心，才能将 Power BI 视觉对象提交到合作伙伴中心。 若尚未注册，请[在合作伙伴中心创建开发人员帐户](https://docs.microsoft.com/office/dev/store/open-a-developer-account)。
 
+>[!NOTE]
+>单个发布者可以使用以下方法之一来提交 Power BI 视觉对象：
+>* 如果有旧的卖方仪表板帐户，则可以继续使用此帐户的凭据登录到合作伙伴中心。
+>* 如果没有旧的卖方仪表板帐户，且未注册合作伙伴中心，则需要使用工作电子邮件[在合作伙伴中心打开开发人员帐户](https://docs.microsoft.com/office/dev/store/open-a-developer-account)。
+
 请按照以下步骤将 Power BI 视觉对象提交到合作伙伴中心。 有关提交过程的详细信息，请参阅[通过合作伙伴中心将 Office 解决方案提交到 AppSource](https://docs.microsoft.com/office/dev/store/use-partner-center-to-submit-to-appsource)。
 
-1. 登录到合作伙伴中心。 
+1. 登录到合作伙伴中心。
 
-2. 在左侧窗格中，选择“OFFICE 应用商店”。 
+2. 在左侧窗格中，选择“OFFICE 应用商店”。
 
-3. 选择“概述”。 
+3. 选择“概述”。
 
-4. 选择“新建”，从下拉菜单选择“Power BI 视觉对象”。  
+4. 选择“新建”，从下拉菜单选择“Power BI 视觉对象”。
 
-    ![Office 应用商店](media/office-store/power-bi-visual.png)
+    ![在合作伙伴中心的“Office 应用商店”选项卡中创建新的 Power B I 视觉对象的屏幕截图。](media/office-store/power-bi-visual.png)
 
-5. 在“新建 Power BI 视觉对象”窗口中，输入 Power BI 视觉对象的名称，然后选择“创建”。  
+5. 在“新建 Power BI 视觉对象”窗口中，输入 Power BI 视觉对象的名称，然后选择“创建”。
 
-6. 选择“包”，然后上传 Power BI 视觉对象 XML 应用包。 
+6. 选择“包”，然后上传 Power BI 视觉对象 XML 应用包。
 
-7. 选择“属性”，并提供必要的信息。 
+7. 选择“属性”，并提供必要的信息。
 
-8. 若产品要求进行其他购买，请选择“产品设置”，然后选中“关联服务购买”复选框。  
+8. 若产品要求进行其他购买，请选择“产品设置”，然后选中“关联服务购买”复选框。
 
-9. （可选）若要对视觉对象进行[认证](power-bi-custom-visuals-certified.md)，请选择“产品设置”，然后选中“Power BI 认证”复选框。  
+9. （可选）若要对视觉对象进行[认证](power-bi-custom-visuals-certified.md)，请选择“产品设置”，然后选中“Power BI 认证”复选框。
     >[!TIP]
     >Power BI 认证过程可能需要一段时间。 如果要创建新的 Power BI 视觉对象，建议在请求 Power BI 认证之前，通过合作伙伴中心发布 Power BI 视觉对象。 这样可以确保不会延迟视觉对象的发布。
 
-10. 选择“产品设置”，单击“审阅并发布”。  
+10. 选择“产品设置”，单击“审阅并发布”。
 
 
 ## <a name="tracking-submission-status-and-usage"></a>跟踪提交状态和使用情况

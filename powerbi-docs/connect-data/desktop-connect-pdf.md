@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: how-to
-ms.date: 05/08/2019
+ms.date: 07/16/2020
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: e68d860800f2265923189e470bc633589e612c11
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 785ad7b7d10a164f8257f8aacab177116c0b553b
+ms.sourcegitcommit: cfcde5ff2421be35dc1efc9e71ce2013f55ec78f
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85224162"
+ms.lasthandoff: 07/18/2020
+ms.locfileid: "86459614"
 ---
 # <a name="connect-to-pdf-files-in-power-bi-desktop"></a>在 Power BI Desktop 中连接到 PDF 文件
 在 Power BI Desktop 中，可以连接到 PDF 文件并使用文件中包含的数据，就像在 Power BI Desktop 中使用任何其他数据源一样  。
@@ -39,6 +39,10 @@ ms.locfileid: "85224162"
 从 2018 年 11 月发布的 Power BI Desktop  开始，可以将起始页  和结束页  指定为 PDF 连接的可选参数。 还可以使用以下格式在 M 公式语言中指定这些参数：
 
 `Pdf.Tables(File.Contents("c:\sample.pdf"), [StartPage=10, EndPage=11])`
+
+## <a name="limitations-and-considerations"></a>限制和注意事项
+
+在高级容量的数据集上使用 PDF 连接器时，PDF 连接器不会正确建立连接。 若要使 PDF 连接器能够在高级容量的数据集上工作，请将该数据集配置为使用网关，并确认到该数据集的连接通过网关。  
 
 
 ## <a name="next-steps"></a>后续步骤

@@ -6,16 +6,16 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-gateways
 ms.topic: how-to
-ms.date: 02/21/2020
+ms.date: 07/16/2020
 ms.author: arthii
 ms.custom: seodec18
 LocalizationGroup: Gateways
-ms.openlocfilehash: 5e1b127bae83338264ac450438956e03a5ec24cb
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 7fecec5ed41f0de9227cf30ed3ba4f39b23f21e9
+ms.sourcegitcommit: cfcde5ff2421be35dc1efc9e71ce2013f55ec78f
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85236640"
+ms.lasthandoff: 07/18/2020
+ms.locfileid: "86459545"
 ---
 # <a name="manage-data-sources"></a>管理数据源
 
@@ -102,17 +102,20 @@ Power BI 支持多个[本地数据源](power-bi-data-sources.md)，每个都具�
 
 还可以为用户和安全组提供对网关的管理访问权限。
 
+> [!NOTE]
+> 具有数据源访问权限的用户可以将数据集关联到数据源，并基于在创建数据源时选择的安全选项（存储的凭据或单一登录）进行连接。
+
 ### <a name="add-users-to-a-data-source"></a>将用户添加到数据源
 
-1. 在 Power BI 服务的右上角，选择齿轮图标![“设置”齿轮图标](media/service-gateway-data-sources/icon-gear.png) > “管理网关”  。
+1. 在 Power BI 服务的右上角，选择齿轮图标![“设置”齿轮图标](media/service-gateway-data-sources/icon-gear.png) > “管理网关”。
 
 2. 选择要添加用户的数据源。
 
-3. 选择“用户”  ，然后输入组织中想要授予对所选数据源的访问权限的用户。 例如，在下面的屏幕中，你会添加 Maggie 和 Adam。
+3. 选择“用户”，然后输入组织中想要授予对所选数据源的访问权限的用户。 例如，在下面的屏幕中，你会添加 Maggie 和 Adam。
 
     ![“用户”选项卡](media/service-gateway-data-sources/users-tab.png)
 
-4. 选择“添加”  ，此时框中将显示所添加成员的姓名。
+4. 选择“添加”，此时框中将显示所添加成员的姓名。
 
     ![添加用户](media/service-gateway-data-sources/add-user.png)
 
@@ -120,7 +123,7 @@ Power BI 支持多个[本地数据源](power-bi-data-sources.md)，每个都具�
 
 ### <a name="remove-users-from-a-data-source"></a>从数据源中删除用户
 
-在数据源的“用户”  选项卡上，可以删除使用此数据源的用户和安全组。
+在数据源的“用户”选项卡上，可以删除使用此数据源的用户和安全组。
 
 ![删除用户](media/service-gateway-data-sources/remove-user.png)
 

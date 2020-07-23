@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: how-to
-ms.date: 06/11/2020
+ms.date: 07/06/2020
 ms.author: maggies
 LocalizationGroup: Create reports
-ms.openlocfilehash: 2b9c4a8f4695f8d701eba535180194d29dd8bdec
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 5fbaeaafb14fc935e26b4a2d13acf9dc09ea188f
+ms.sourcegitcommit: 11deeccf596e9bb8f22615276a152614f7579f35
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85238188"
+ms.lasthandoff: 07/16/2020
+ms.locfileid: "86409530"
 ---
 # <a name="add-multiple-fields-to-a-hierarchy-slicer"></a>向层次结构切片器添加多个字段
 
@@ -22,22 +22,41 @@ ms.locfileid: "85238188"
 
 如果要在单个切片器中对多个相关字段进行筛选，可以通过构建所谓的“层次结构”切片器来实现。 可以在 Power BI Desktop 或 Power BI 服务中创建这些切片器。
 
-:::image type="content" source="media/power-bi-slicer-hierarchy-multiple-fields/power-bi-slicer-hierarchy.png" alt-text="Power BI 中的层次结构切片器":::
+:::image type="content" source="media/power-bi-slicer-hierarchy-multiple-fields/power-bi-slicer-hierarchy.png" alt-text="Power BI 中的层次结构切片器的屏幕截图。":::
 
 向切片器添加多个字段时，默认情况下，切片器会在可以展开的项旁边显示一个箭头或者 V 形符号，展开这些项可以显示下一级别中的项。
 
-:::image type="content" source="media/power-bi-slicer-hierarchy-multiple-fields/power-bi-slicer-hierarchy-arrow.png" alt-text="Power BI 中的层次结构切片器下拉列表":::
+:::image type="content" source="media/power-bi-slicer-hierarchy-multiple-fields/power-bi-slicer-hierarchy-arrow.png" alt-text="Power BI 中的层次结构切片器下拉列表的屏幕截图。":::
  
  
 为某个项选择一个或多个子级时，将看到顶级项的半选圆圈。
  
-:::image type="content" source="media/power-bi-slicer-hierarchy-multiple-fields/power-bi-slicer-hierarchy-semi-selected.png" alt-text="Power BI 中的单选层次结构切片器":::
+:::image type="content" source="media/power-bi-slicer-hierarchy-multiple-fields/power-bi-slicer-hierarchy-semi-selected.png" alt-text="Power BI 中的单选层次结构切片器的屏幕截图。":::
 
 ## <a name="format-the-slicer"></a>设置切片器格式
 
 切片器的行为没有更改。 还可以根据需要对切片器进行样式设定。 例如，可以将它设置为单选模式。 也可以在列表和下拉列表之间进行交换。 
 
-:::image type="content" source="media/power-bi-slicer-hierarchy-multiple-fields/power-bi-slicer-hierarchy-dropdown.png" alt-text="格式设置为下拉切片器的层次结构切片器":::
+:::image type="content" source="media/power-bi-slicer-hierarchy-multiple-fields/power-bi-slicer-hierarchy-dropdown.png" alt-text="格式设置为下拉切片器的层次结构切片器的屏幕截图。":::
+
+还可以进行以下格式更改。
+
+### <a name="change-the-title"></a>更改标题
+
+可以编辑任何切片器的标题，此功能对层次结构切片器特别有用。 默认情况下，层次结构切片器的名称是层次结构中的一组字段名称。
+
+在此示例中，切片器的标题列出了层次结构中的三个字段：类型、平台和名称。
+
+:::image type="content" source="media/power-bi-slicer-hierarchy-multiple-fields/power-bi-slicer-title.png" alt-text="具有类型、平台和名称字段的层次结构切片器的屏幕截图。":::
+
+若要更改名称，请选择切片器，然后选择“格式”窗格。 将在“切片器标头”下的“标题文本”框中看到切片器的当前名称。 
+
+:::image type="content" source="media/power-bi-slicer-hierarchy-multiple-fields/power-bi-slicer-edit-title.png" alt-text="“格式”窗格的屏幕截图，其中包含当前标题。":::
+
+选择相应文本并添加新名称。
+
+:::image type="content" source="media/power-bi-slicer-hierarchy-multiple-fields/power-bi-slicer-new-title.png" alt-text="层次结构切片器的新标题的屏幕截图。":::
+
 
 ### <a name="change-the-expandcollapse-icon"></a>更改展开/折叠图标
 
@@ -47,7 +66,7 @@ ms.locfileid: "85238188"
 1. 展开项并选择展开/折叠图标。
 1. 选择 V 形符号、加号/减号或插入符号。
  
-    :::image type="content" source="media/power-bi-slicer-hierarchy-multiple-fields/power-bi-slicer-hierarchy-caret.png" alt-text="选择层次结构切片器的展开/折叠图标":::
+    :::image type="content" source="media/power-bi-slicer-hierarchy-multiple-fields/power-bi-slicer-hierarchy-caret.png" alt-text="选择层次结构切片器的展开/折叠图标的屏幕截图。":::
  
 ### <a name="change-the-indentation"></a>更改缩进
 
@@ -56,7 +75,7 @@ ms.locfileid: "85238188"
 1. 选择切片器，然后选择“格式”。
 1. 展开项，然后拖动“渐变布局缩进”进行放大或缩小。 还可以在框中键入一个数字。
 
-    :::image type="content" source="media/power-bi-slicer-hierarchy-multiple-fields/power-bi-slicer-indentation.png" alt-text="设置层次结构切片器缩进":::
+    :::image type="content" source="media/power-bi-slicer-hierarchy-multiple-fields/power-bi-slicer-indentation.png" alt-text="设置层次结构切片器缩进的屏幕截图。":::
 
 ## <a name="next-steps"></a>后续步骤
 

@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: how-to
-ms.date: 01/08/2020
+ms.date: 07/15/2020
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: b4146cef6ae34c7c6e5eb9713242c3a2cb0257ee
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 9a3e393fa02d0bccc3e966c467b41883e72ae05e
+ms.sourcegitcommit: cfcde5ff2421be35dc1efc9e71ce2013f55ec78f
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85237778"
+ms.lasthandoff: 07/18/2020
+ms.locfileid: "86459637"
 ---
 # <a name="using-dataflows-with-on-premises-data-sources"></a>将数据流与本地数据源配合使用
 
@@ -69,6 +69,7 @@ ms.locfileid: "85237778"
 * 更改网关会影响整个数据流。
 * 如果需要多个网关，最佳做法是生成多个数据流（每个网关一个），并使用计算或实体引用功能来统一数据。
 * 仅在使用企业网关时支持数据流。 在下拉列表和设置屏幕中将无法选择个人网关。
+* 数据流不支持使用[通过 Kerberos 对 DirectQuery 和 Import 查询使用 SSO](../connect-data/service-gateway-sso-kerberos.md#run-a-power-bi-report)选项配置本地数据源。
 
 
 ## <a name="next-steps"></a>后续步骤
