@@ -156,8 +156,6 @@
           items:
             - name: 从文件导入数据
               href: service-get-data-from-files.md
-            - name: 从 Excel 变成出色的报表
-              href: service-from-excel-to-stunning-report.md
             - name: 从 Excel 工作簿文件中获取数据
               href: service-excel-workbook-files.md
             - name: 从 Power BI Desktop 文件获取数据
