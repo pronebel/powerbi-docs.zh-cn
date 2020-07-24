@@ -11,6 +11,10 @@
     - name: 教程
       expanded: true
       items:
+        - name: Power BI Desktop：从 Excel 到报表
+          href: desktop-excel-stunning-report.md
+        - name: Power BI 服务：从 Excel 到报表
+          href: service-from-excel-to-stunning-report.md
         - name: 在线课程：分页报表
           href: ../learning-catalog/paginated-reports-online-course.md
         - name: 创建分页报表并进行上传
