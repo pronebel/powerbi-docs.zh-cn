@@ -5,19 +5,19 @@ services: powerbi
 author: maggiesMSFT
 ms.service: powerbi
 ms.topic: include
-ms.date: 06/23/2020
+ms.date: 07/24/2020
 ms.author: maggies
 ms.custom: include file
-ms.openlocfilehash: 9ddf9df0feaed2a2a0177d11e9b36f34135801c6
-ms.sourcegitcommit: caf60154a092f88617eb177bc34fb784f2365962
+ms.openlocfilehash: 6a2fa7aca043c553c9174db81ff575853e526e06
+ms.sourcegitcommit: 65025ab7ae57e338bdbd94be795886e5affd45b4
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/25/2020
-ms.locfileid: "85365335"
+ms.lasthandoff: 07/28/2020
+ms.locfileid: "87260215"
 ---
 |功能   | 管理员  | 成员  | 参与者  | 查看器 |
 |---|---|---|---|---|
-| 更新和删除工作区。  |  |   |   |   | 
+| 更新和删除工作区。  | ![“是”复选标记](media/power-bi-workspace-roles-table/green-checkmark.png) |   |   |   | 
 | 添加/删除人员，包括其他管理员。  |  ![“是”复选标记](media/power-bi-workspace-roles-table/green-checkmark.png) |   |   |   |
 | 允许参与者为工作区更新应用  |  ![“是”复选标记](media/power-bi-workspace-roles-table/green-checkmark.png) |   |   |   |
 | 添加成员或具有较低权限的其他人。  |  ![“是”复选标记](media/power-bi-workspace-roles-table/green-checkmark.png) | ![“是”复选标记](media/power-bi-workspace-roles-table/green-checkmark.png)  |   |   |

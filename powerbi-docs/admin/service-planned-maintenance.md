@@ -11,12 +11,12 @@ ms.author: kfollis
 ms.custom: MC
 ROBOTS: NOINDEX
 LocalizationGroup: Admin
-ms.openlocfilehash: cc9364129159b5527d309f125d42e661d0b4c206
-ms.sourcegitcommit: a58d10ca62bc55e83b58cf8e8495ac01a4bd6532
+ms.openlocfilehash: 099cd750328bed0b23524d6119c4d7ce91548a23
+ms.sourcegitcommit: 65025ab7ae57e338bdbd94be795886e5affd45b4
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/20/2020
-ms.locfileid: "85120544"
+ms.lasthandoff: 07/28/2020
+ms.locfileid: "87252029"
 ---
 # <a name="power-bi-planned-maintenance"></a>Power BI 计划内维护
 
@@ -37,7 +37,7 @@ Power BI 服务的计划内维护是我们承诺向客户提供可靠产品的�
 * Power BI 移动应用用户将需要验证他们使用的版本是否是最新的，然后注销并重新登录应用。 查看你手机的 App Store 或查看我们的 [Power BI 移动版](https://powerbi.microsoft.com/mobile/)页。
 * 主动编辑或发布使用组织视觉对象的报表的客户，无论是在本地还是从 OneDrive 和 SharePoint 位置，都需要通过组织视觉对象存储重新导入视觉对象，或在重新发布之前下载更新的 PBIX。 有关组织视觉对象的详细信息，请参阅[组织视觉对象](service-admin-portal.md#organization-visuals)。
 * 如果使用“在 Excel 中分析”功能的 Excel 工作簿未刷新，则可能需要更新连接字符串或重新下载该数据集的 ODC 连接。 有关详细信息，请参阅[在 Excel 中分析](../collaborate-share/service-analyze-in-excel.md#connect-to-power-bi-data)。
-* 维护完成后，可能无法连接嵌入在内容中的 Power BI 链接。 例如，SharePoint 或 Teams 中的嵌入链接可能会导致用户错误。 若要解决此问题，必须重新生成 Power BI 中的嵌入链接，然后更新它们的使用位置。 有关嵌入链接的详细信息，请参阅[在 SharePoint Online 中嵌入报表 Web 部件](../collaborate-share/service-embed-report-spo.md)和[使用 Power BI 在 Microsoft Teams 中开展协作](../collaborate-share/service-embed-report-microsoft-teams.md)。
+* 维护完成后，可能无法连接嵌入在内容中的 Power BI 链接。 例如，SharePoint 或 Teams 中的嵌入链接可能会导致用户错误。 若要解决此问题，必须重新生成 Power BI 中的嵌入链接，然后更新它们的使用位置。 有关嵌入链接的详细信息，请参阅[在 SharePoint Online 中嵌入报表 Web 部件](../collaborate-share/service-embed-report-spo.md)和[使用 Power BI 在 Microsoft Teams 中开展协作](../collaborate-share/service-collaborate-microsoft-teams.md)。
 
 ## <a name="next-steps"></a>后续步骤
 
