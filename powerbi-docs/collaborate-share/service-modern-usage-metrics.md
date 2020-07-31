@@ -1,5 +1,5 @@
 ---
-title: 在新的工作区体验中监视使用情况指标
+title: 在新的工作区体验中监视使用指标（预览）
 description: 如何在新的工作区体验中查看、保存和使用 Power BI 仪表板和报表的使用情况指标。
 author: maggiesMSFT
 ms.author: maggies
@@ -8,14 +8,14 @@ featuredvideoid: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 01/22/2020
+ms.date: 07/22/2020
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 380fe94a123c26d7502ce68bc21372f791a3508f
-ms.sourcegitcommit: c18130ea61e67ba111be870ddb971c6413a4b632
+ms.openlocfilehash: 7c8c1744c8ecbbf170ae073d2e302fe55faea55b
+ms.sourcegitcommit: e9cd61eaa66eda01cc159251d7936a455c55bd84
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/09/2020
-ms.locfileid: "86162034"
+ms.lasthandoff: 07/23/2020
+ms.locfileid: "86953021"
 ---
 # <a name="monitor-usage-metrics-in-the-new-workspace-experience"></a>在新的工作区体验中监视使用情况指标
 
@@ -65,6 +65,9 @@ ms.locfileid: "86162034"
 ### <a name="usage-metrics-report-dataset"></a>使用情况指标报表数据集
 
 改进后的使用情况指标报表依赖于“使用情况指标报表”数据集，该数据集由 Power BI 在你首次启动改进的使用情况指标报表时自动创建。 然后 Power BI 每日刷新此数据集。 虽然不能更改刷新计划，但可以更新 Power BI 用来刷新使用情况指标数据的凭据。 如果从数据集所在的工作区中删除了首次启动使用情况指标报表的用户，则在凭据过期的情况下，可能需要恢复计划的刷新。
+
+> [!NOTE]
+> 尽管仍处于预览阶段，但使用指标数据集可能会有影响自定义报表的细微更改。  
 
 ### <a name="usage-metrics-report-pages"></a>使用情况指标报表页
 

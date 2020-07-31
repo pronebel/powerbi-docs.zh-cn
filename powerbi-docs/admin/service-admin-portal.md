@@ -10,12 +10,12 @@ ms.date: 05/12/2020
 ms.author: kfollis
 ms.custom: seodec18
 LocalizationGroup: Administration
-ms.openlocfilehash: f2fb659188a5c413ec7a203c6f1a55bb24826c15
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 90cd12bc7d8d7261e25edd32c5afa7cf144e8202
+ms.sourcegitcommit: 65025ab7ae57e338bdbd94be795886e5affd45b4
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85228739"
+ms.lasthandoff: 07/28/2020
+ms.locfileid: "87252470"
 ---
 # <a name="administering-power-bi-in-the-admin-portal"></a>在管理门户中管理 Power BI
 
@@ -185,6 +185,7 @@ ms.locfileid: "85228739"
 
 - 创建新的工作区体验。
 - 跨工作区使用数据集。
+- 阻止创建经典工作区。
 
 ### <a name="create-the-new-workspaces"></a>创建新工作区
 
@@ -213,6 +214,13 @@ ms.locfileid: "85228739"
 
 有关详细信息，请参阅[跨工作区使用数据集简介](../connect-data/service-datasets-across-workspaces.md)。
 
+### <a name="block-classic-workspace-creation"></a>阻止创建经典工作区
+
+管理员可以控制组织是否可以创建经典工作区。 启用此设置后，创建工作区的用户只能创建新工作区体验工作区。 
+
+![阻止创建经典工作区](media/service-admin-portal/power-bi-admin-block-classic-workspaces.png)
+
+启用后，新创建的 Office 365 组将不会显示在 Power BI 工作区列表中。 现有经典工作区会继续显示在列表中。 禁用设置后，用户所属的所有 Office 365 组都会显示在工作区列表中。 详细了解[新工作区体验工作区](../collaborate-share/service-new-workspaces.md)。
 
 ## <a name="export-and-sharing-settings"></a>导出和共享设置
 
@@ -252,8 +260,8 @@ ms.locfileid: "85228739"
 
 |功能 |为整个组织启用 |为整个组织禁用 |特定安全组   |
 |---------|---------|---------|---------|
-|报表“更多选项 (...)”菜单下的“发布到 Web” |为所有对象启用|向所有对象隐藏|仅向已授权的用户或组显示。|
-|“设置”下的“管理嵌入代码” |为所有对象启用|为所有对象启用|为所有对象启用<br><br>仅向已授权的用户或组显示“删除”选项。* <br>为所有对象启用“获取代码”。* |
+|报表“更多选项 (...)”菜单下的“发布到 Web”|为所有对象启用|向所有对象隐藏|仅向已授权的用户或组显示。|
+|“设置”下的“管理嵌入代码”|为所有对象启用|为所有对象启用|为所有对象启用<br><br>仅向已授权的用户或组显示“删除”选项。* <br>为所有对象启用“获取代码”。* |
 |管理门户中的“嵌入代码”|“状态”反映以下状态之一：<br>* 活动<br>* 不支持<br>* 已阻止|状态显示“已禁用”|“状态”反映以下状态之一：<br>* 活动<br>* 不支持<br>* 已阻止<br><br>如果未根据租户设置为某个用户授权，状态将显示为“侵权”。|
 |现有的已发布报表|全部已启用|全部已禁用|继续向所有对象呈现报表。|
 
@@ -370,6 +378,15 @@ Azure AD B2B 来宾用户可以编辑和管理组织中的内容。 [了解详�
 
 详细了解 [Excel 中的 Power BI 精选表](../collaborate-share/service-excel-featured-tables.md)。
 
+## <a name="share-to-teams-tenant-setting"></a>共享到 Teams 租户设置
+
+“共享到 Teams”设置位于 Power BI 管理门户的“租户设置”部分 。 该设置允许组织隐藏 Power BI 服务中的“共享到 Teams”按钮。 如果设置为“已禁用”，则用户在查看 Power BI 服务中的报表和仪表板时将看不到操作栏或上下文菜单中的“共享到 Teams”按钮。
+
+![Power BI 管理门户中的“共享到 Teams”租户设置的屏幕截图。](media/service-admin-portal/service-teams-share-to-teams-tenant-setting.png)
+
+详细了解[将 Power BI 内容共享到 Teams](../collaborate-share/service-share-report-teams.md)。
+
+
 ## <a name="power-bi-visuals-settings"></a>Power BI 视觉对象设置
 
 ### <a name="add-and-use-power-bi-visuals"></a>添加和使用 Power BI 视觉对象
@@ -382,7 +399,7 @@ Azure AD B2B 来宾用户可以编辑和管理组织中的内容。 [了解详�
 Power BI Desktop（2019 年 3 月版及更高版本）支持通过“组策略”禁止在组织部署的计算机上使用 Power BI 视觉对象。
 
 <table>
-<tr><th>属性</th><th>值</th>
+<tr><th>Attribute</th><th>值</th>
 </tr>
 <td>键</td>
     <td>Software\Policies\Microsoft\Power BI Desktop\</td>
@@ -591,7 +608,7 @@ Power BI Desktop（2019 年 3 月版及更高版本）支持通过“组策略�
 
 作为管理员，可以查看租户中存在的工作区。 可以对列表中的工作区进行排序和筛选并显示每个工作区的详细信息。 表列对应于由 [Power BI 管理员 Rest API](/rest/api/power-bi/admin) 为工作区返回的属性。 个人工作区的类型是“PersonalGroup”，经典工作区的类型是“Group”，提供新工作区体验的工作区的类型是“Workspace”。 有关详细信息，请参阅[在新工作区中组织工作](../collaborate-share/service-new-workspaces.md)。
 
-管理员还可以使用管理门户或 PowerShell CmdLet 来管理和恢复工作区。 
+管理员还可以使用管理门户或 PowerShell cmdlet 来管理和恢复工作区。 
 
 ![工作区列表](media/service-admin-portal/workspaces-list.png)
 

@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: overview
-ms.date: 12/16/2019
+ms.date: 07/23/2020
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: 2a67bd6c2a3d757475580d218547be689dbb99d2
-ms.sourcegitcommit: c83146ad008ce13bf3289de9b76c507be2c330aa
+ms.openlocfilehash: c8d4671d55e09ca6e60599bbc0ac9802258f63ba
+ms.sourcegitcommit: 65025ab7ae57e338bdbd94be795886e5affd45b4
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/10/2020
-ms.locfileid: "86216919"
+ms.lasthandoff: 07/28/2020
+ms.locfileid: "87252719"
 ---
 # <a name="what-is-power-bi-desktop"></a>什么是 Power BI Desktop？
 
@@ -31,6 +31,11 @@ Power BI Desktop 的最常见用途如下：
 * 使用 Power BI 服务与其他人共享报表
 
 最常负责此类任务的人员通常被视为“数据分析师”（有时称为“分析师”）或“商业智能专业人员”（通常称为“报表创建者”）  。 但是，不将自己视为分析师或报表创建者的许多人使用 Power BI Desktop 创建引人注目的报表，或拉取来自各个源的数据并生成可与其同事和组织共享的数据模型。
+
+
+> [!IMPORTANT]
+> 每月更新并发布 Power BI Desktop，在其中包含客户反馈和新增功能。 仅支持 Power BI Desktop 的最新版本；将要求联系 Power BI Desktop 支持的客户升级到最新版本。 可以从 [Windows 应用商店](https://aka.ms/pbidesktopstore)获取 Power BI Desktop 的最新版本，也可以在计算机上以单个可执行文件的形式[下载](https://www.microsoft.com/download/details.aspx?id=58494)并安装所有受支持的语言。
+
 
 Power BI Desktop 中提供三个视图，你可以在画布的左侧选择它们。 视图显示的顺序如下所示：
 * **报表**：在此视图中，创建报表和视觉对象，并花费大部分时间执行创建操作。
@@ -128,5 +133,5 @@ Power Query 编辑器将记录转换数据（例如重命名表、转换数据�
 要开始使用 Power BI Desktop，首先需要下载并安装应用程序。 获取 Power BI Desktop 的方法有两种：
 
 * [通过 Windows 应用商店获取 Power BI Desktop](https://aka.ms/pbidesktopstore)
-* [从 Web 下载 Power BI Desktop](https://docs.microsoft.com/power-bi/desktop-get-the-desktop#download-power-bi-desktop-directly)
+* [从 Web 下载 Power BI Desktop](https://www.microsoft.com/download/details.aspx?id=58494)
 

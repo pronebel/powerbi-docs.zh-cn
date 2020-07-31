@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 04/09/2019
 ms.custom: seodec18
 LocalizationGroup: Premium
-ms.openlocfilehash: 9b3e06172d29f218f9234cf1f3d7e1f623495001
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: dc5f952aa38e2ab36887ec3f2727e2e253389460
+ms.sourcegitcommit: e9cd61eaa66eda01cc159251d7936a455c55bd84
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83135198"
+ms.lasthandoff: 07/23/2020
+ms.locfileid: "86952653"
 ---
 # <a name="premium-capacity-scenarios"></a>高级容量方案
 
@@ -67,7 +67,7 @@ Power BI 管理员可通过采取以下步骤来尝试解决问题，以确保�
 
 ## <a name="identifying-slow-responding-datasets"></a>确定响应缓慢的数据集
 
-在此方案中，如果用户抱怨某些报表的打开时间过长并有时会挂起，则调查开始。
+在此方案中，如果用户抱怨某些报表的打开时间过长且有时会停止响应，则调查开始。
 
 在应用中，Power BI 管理员可使用“查询持续时间”视觉对象，通过按“平均持续时间”对数据集进行降序排序来确定性能最差的数据集   。 此视觉对象还显示数据集查询计数，因此，可查看数据集的查询频率。
 
@@ -141,7 +141,7 @@ CPU 饱和的影响还有更多细微差别。 虽然等待的查询数很重要
 
 在某些情况下，Power BI 管理员可要求数据集所有者通过创建仪表板（使用任何数据集刷新定期查询缓存的磁贴）来创建较少波动的查询工作负荷。 这可帮助防止仪表板加载时出现峰值。 对于给定业务需求，此解决方案并非始终可行，但是，它是避免 CPU 饱和而无需更改数据集的有效方法。
 
-## <a name="acknowledgements"></a>致谢
+## <a name="acknowledgments"></a>致谢
 
 本文由 Peter Myers、数据平台 MVP 和独立的 BI 专家通过 [Bitwise Solutions](https://www.bitwisesolutions.com.au/) 撰写。
 

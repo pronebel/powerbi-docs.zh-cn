@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 10/28/2019
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 0d388127ab42c4f60d1e08efea6b3fdbbbf7045b
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: ca04a5404f0868f85a9c7ed840109efe6d213760
+ms.sourcegitcommit: e9cd61eaa66eda01cc159251d7936a455c55bd84
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85238834"
+ms.lasthandoff: 07/23/2020
+ms.locfileid: "86952630"
 ---
 # <a name="consume-power-bi-reports-by-using-accessibility-features"></a>通过辅助功能使用 Power BI 报表
 Power BI 提供许多内置功能，用于帮助残疾人士更轻松地使用 Power BI 报表并与之进行交互。 这些工具可帮助用户获取到无需使用辅助技术的用户可获取的报表信息。
@@ -30,11 +30,11 @@ Power BI 提供许多内置功能，用于帮助残疾人士更轻松地使用 P
 
 ## <a name="keyboard-navigation"></a>键盘导航
 
-启动 Power BI Desktop 或 Power BI 服务时，只要按下 Tab，右上方的悬挂角落中会显示工具提示  。 标题为“配合使用屏幕阅读器与 Power BI 的相关提示”的链接会将你转到本文，为你介绍如何通过辅助功能工具来使用报表  。 单击“跳到主内容”链接后，会转到报表画布  。
+启动 Power BI Desktop 或 Power BI 服务时，只要按下 Tab，工具提示就会出现在右上角。 标题为“配合使用屏幕阅读器与 Power BI 的相关提示”的链接会将你转到本文，为你介绍如何通过辅助功能工具来使用报表  。 单击“跳到主内容”链接后，会转到报表画布  。
 
 ![类型选项卡，用于查看辅助功能提示](media/desktop-accessibility/accessibility-consuming-tools-02.png)
 
-按下“?”  会显示一个对话框，其中包含 Power BI 中最常用的键盘快捷方式。 若要查看 Power BI 中可用的键盘快捷方式完整列表，可以导航到对话框底部的链接，通过该链接可转到有关[键盘快捷方式](desktop-accessibility-keyboard-shortcuts.md)的 Power BI 文档。
+按下“?” 会显示一个对话框，其中包含 Power BI 中最常用的键盘快捷方式。 若要查看 Power BI 中可用的键盘快捷方式完整列表，可以导航到对话框底部的链接，通过该链接可转到有关[键盘快捷方式](desktop-accessibility-keyboard-shortcuts.md)的 Power BI 文档。
 
 ![键盘快捷方式对话框](media/desktop-accessibility/accessibility-consuming-tools-03.png)
 
@@ -76,7 +76,7 @@ Power BI 提供许多内置功能，用于帮助残疾人士更轻松地使用 P
 
 ### <a name="switching-pages"></a>正在切换页面
 
-当焦点位于报表页选项卡上时，使用 Tab 或箭头键将焦点从一个报表页移到下一个报表页。   无论当前是否被选中，屏幕阅读器都会读出报表页的标题。 若要加载当前焦点所在的报表页，使用 Enter 键或空格键   。
+当焦点位于报表页选项卡上时，使用 Tab 或箭头键将焦点从一个报表页移到下一个报表页。 无论当前是否被选中，屏幕阅读器都会读出报表页的标题。 若要加载当前焦点所在的报表页，使用 Enter 键或空格键   。
 
 ### <a name="accessing-the-visual-header"></a>访问视觉对象标头
 在视觉对象之间导航时，可以按 Alt+Shift+F10 将焦点移到视觉对象标头  。 视觉对象标头包含各种选项，包括排序、导出图表后数据以及焦点模式。 在视觉对象标头中显示的图标取决于报表作者决定显示的选项。
@@ -114,5 +114,3 @@ Power BI 辅助功能的文章集合如下所示：
 * [使用辅助功能工具创建 Power BI 报表](desktop-accessibility-creating-tools.md)
 * [适用于 Power BI 报表的辅助功能键盘快捷方式](desktop-accessibility-keyboard-shortcuts.md)
 * [报表辅助功能清单](desktop-accessibility-creating-reports.md#report-accessibility-checklist)
-
-

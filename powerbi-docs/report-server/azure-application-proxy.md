@@ -6,14 +6,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: how-to
-ms.date: 05/27/2020
+ms.date: 07/28/2020
 ms.author: maggies
-ms.openlocfilehash: f4237379ffefeeb7ba9d105f5fbd61ff84959807
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 1a9fbfc5d764a9dbda75bd60e0efb6da55efd202
+ms.sourcegitcommit: a254f6e2453656f6783690669be8e881934e15ac
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85239509"
+ms.lasthandoff: 07/28/2020
+ms.locfileid: "87364068"
 ---
 # <a name="configure-power-bi-report-server-with-azure-application-proxy"></a>为 Power BI 报表服务器配置 Azure 应用程序代理
 
@@ -110,7 +110,7 @@ setspn -s MSSQLSVC/FQDN\_of\_SQL\_Server<SQL service service account>
 3. 我们需要通过协议传输来配置约束委派。 使用约束委派时，我们需要明确要委派哪些服务。
 4. 右键单击报表服务器服务帐户，然后选择“属性”。
 5. 选择“**委派**”选项卡。
-6. 选中“仅信任此计算机来委派指定的服务”。
+6. 选择“仅信任此用户对指定服务的委派”。
 7. 选中“使用任意身份验证协议”。
 8. 在“可以由此帐户提供委派凭据的服务:”下，选择“添加”。
 9. 在新对话框中，选择“用户或计算机”。

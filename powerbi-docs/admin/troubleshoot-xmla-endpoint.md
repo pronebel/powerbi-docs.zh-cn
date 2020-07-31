@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: troubleshooting
-ms.date: 07/16/2020
+ms.date: 07/28/2020
 ms.custom: seodec18, css_fy20Q4
 LocalizationGroup: Premium
-ms.openlocfilehash: 5d6e3af615a73f8e4a3db42406bf94e33f16a2a3
-ms.sourcegitcommit: cfcde5ff2421be35dc1efc9e71ce2013f55ec78f
+ms.openlocfilehash: 8a815f69d4f74ec925c3ac0cc8a84c2a13d80346
+ms.sourcegitcommit: a254f6e2453656f6783690669be8e881934e15ac
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/18/2020
-ms.locfileid: "86459660"
+ms.lasthandoff: 07/28/2020
+ms.locfileid: "87363953"
 ---
 # <a name="troubleshoot-xmla-endpoint-connectivity"></a>排查 XMLA 终结点连接问题
 
@@ -135,6 +135,10 @@ Power BI Premium 中的 XMLA 终结点依赖于本机 Analysis Services 通信�
 在 Power BI 中触发计划刷新或按需刷新时，Power BI 通常会刷新整个数据集。 在许多情况下，选择性地执行刷新更有效。 你可以在 SQL Server Management Studio (SSMS) 中执行细化处理任务（如下所示），或使用第三方工具或脚本。
 
 :::image type="content" source="media/troubleshoot-xmla-endpoint/process-tables.png" alt-text="在 SSMS 中处理表":::
+
+### <a name="overrides-in-refresh-tmsl-command"></a>Refresh TMSL 命令中的替代
+
+[Refresh 命令 (TMSL) 中的替代](https://docs.microsoft.com/analysis-services/tmsl/refresh-command-tmsl)允许用户为刷新操作选择其他分区查询定义或数据源定义。 目前，Power BI Premium 不支持替代。 错误“Power BI Premium 中不允许使用外部绑定。 有关其他信息，请参阅产品文档中的‘XMLA 读/写支持’”。 返回。
 
 ## <a name="see-also"></a>另请参阅
 

@@ -6,16 +6,16 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-gateways
 ms.topic: how-to
-ms.date: 07/16/2020
+ms.date: 07/22/2020
 ms.author: arthii
 ms.custom: seodec18
 LocalizationGroup: Gateways
-ms.openlocfilehash: 7fecec5ed41f0de9227cf30ed3ba4f39b23f21e9
-ms.sourcegitcommit: cfcde5ff2421be35dc1efc9e71ce2013f55ec78f
+ms.openlocfilehash: 92c3a65b11435403b61a06324f534e6d82e4b7cb
+ms.sourcegitcommit: efe11c819be75887c4242afa64d32bb0698da569
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/18/2020
-ms.locfileid: "86459545"
+ms.lasthandoff: 07/24/2020
+ms.locfileid: "87123479"
 ---
 # <a name="manage-data-sources"></a>管理数据源
 
@@ -44,6 +44,9 @@ Power BI 支持多个[本地数据源](power-bi-data-sources.md)，每个都具�
     ![数据源设置](media/service-gateway-data-sources/data-source-settings.png)
 
 5. 对于 SQL Server，可以选择“Windows”或“基本”的身份验证方法（SQL 身份验证）    。 如果选择“基本”  ，则输入数据源的凭据。
+
+    > [!NOTE]
+    > 如果所选的身份验证方法是 OAuth，任何运行时间超过 OAuth 令牌过期策略的查询都可能失败。
 
 6. 在“高级设置”下，可以为数据源配置[单一登录 (SSO)](service-gateway-sso-overview.md)。 
 

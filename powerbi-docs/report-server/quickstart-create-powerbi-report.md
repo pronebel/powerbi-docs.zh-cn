@@ -6,14 +6,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: how-to
-ms.date: 02/03/2020
+ms.date: 07/24/2020
 ms.author: maggies
-ms.openlocfilehash: 8e907b87c26dd7f2e764705a1178efc5df432a3e
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 73772b96929ffd91dc5a38634ab9a1a2e57286b1
+ms.sourcegitcommit: 65025ab7ae57e338bdbd94be795886e5affd45b4
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85239012"
+ms.lasthandoff: 07/28/2020
+ms.locfileid: "87251317"
 ---
 # <a name="create-a-power-bi-report-for-power-bi-report-server"></a>为 Power BI 报表服务器创建 Power BI 报表
 可以在 Power BI 报表服务器 Web 门户中在本地存储和管理 Power BI 报表，就像在 Power BI 服务 (https://powerbi.com) ) 中的云中存储 Power BI 报表一样。 可以在 Power BI Desktop 中创建和编辑报表，并将其发布到 Web 门户中。 接下来，组织中的报表读取器可以在浏览器或移动设备上的 Power BI 移动应用中查看报表。
@@ -26,13 +26,13 @@ ms.locfileid: "85239012"
 
 如果已在 Power BI Desktop 中创建 Power BI 报表，便可以开始为 Power BI 报表服务器创建 Power BI 报表。 建议安装更适合 Power BI 报表服务器的 Power BI Desktop 版本，这样就能确定服务器和应用始终同步。可以在同一台计算机上安装两个版本的 Power BI Desktop。
 
-1. 在报表服务器 Web 门户中，选择“下载”箭头 >“Power BI Desktop”。  
+1. 在报表服务器 Web 门户中，选择“下载”箭头 >“Power BI Desktop”。
 
     ![从 Web 门户下载 Power BI Desktop](media/quickstart-create-powerbi-report/report-server-download-web-portal.png)
 
     或转到 [Power BI 报表服务器](https://powerbi.microsoft.com/report-server/)主页，然后选择“高级下载选项”  。
 
-2. 在“下载中心”页中，选择“下载”。 
+2. 在“下载中心”页中，选择“下载”。
 
 3. 根据所用的计算机选择：
 
@@ -40,13 +40,13 @@ ms.locfileid: "85239012"
 
     - **PBIDesktopRS_x64.msi**（64 位版本）。
 
-4. 下载安装程序后，运行 Power BI Desktop（2019 年 9 月版）安装向导。
+4. 下载安装程序后，运行 Power BI Desktop 安装向导。
 
-2. 安装结束时，请选中“立即启动 Power BI Desktop”。 
+2. 安装结束时，请选中“立即启动 Power BI Desktop”。
    
-    此时，它会自动启动，可以开始使用了。 根据标题栏中显示的“Power BI Desktop (2019 年 9 月版)”，便知道使用了正确的版本  。
+    此时，它会自动启动，可以开始使用了。 根据标题栏中显示的“Power BI Desktop（2020 年 5 月版）”，便知道使用了正确的版本。
 
-    ![Power BI Desktop 2019 年 9 月版](media/quickstart-create-powerbi-report/power-bi-report-server-desktop-sept-2019.png)
+    ![Power BI Desktop 2020 年 5 月版](media/quickstart-create-powerbi-report/power-bi-report-server-desktop-may-2020.png)
 
 3. 如果不熟悉 Power BI Desktop，请考虑观看欢迎屏幕上的视频。
    

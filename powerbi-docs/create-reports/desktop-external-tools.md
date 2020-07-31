@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 07/15/2020
+ms.date: 07/24/2020
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 4d752a49587e611c3f42de3f40c68437f36fe3a9
-ms.sourcegitcommit: 11deeccf596e9bb8f22615276a152614f7579f35
+ms.openlocfilehash: c1d483b6a29d2463af05cd224ac6b03dd149eb33
+ms.sourcegitcommit: 65025ab7ae57e338bdbd94be795886e5affd45b4
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/16/2020
-ms.locfileid: "86411820"
+ms.lasthandoff: 07/28/2020
+ms.locfileid: "87252880"
 ---
 # <a name="using-external-tools-in-power-bi-desktop-preview"></a>在 Power BI Desktop 中使用外部工具（预览版）
 
@@ -23,6 +23,13 @@ ms.locfileid: "86411820"
 Power BI Desktop 的“外部工具”功能区包含安装在计算机上并在 Power BI Desktop 中注册的外部工具按钮。 从 Power BI Desktop 启动的外部工具会自动连接到作为 Power BI Desktop 一部分运行的 Analysis Services 引擎，从而为用户提供无缝体验。
 
 ![Power BI Desktop 中的外部工具功能区](media/desktop-external-tools/desktop-external-tools-01.png)
+
+下方列出了这些功能强大的外部工具，以及指向其安装位置的链接。 每个外部工具均由其各自的工具创作者提供支持：
+
+* [表格编辑器](https://tabulareditor.com/)
+* [DAX Studio](https://daxstudio.org)
+* [ALM 工具包](http://alm-toolkit.com)
+
 
 以下各节介绍外部工具支持的操作、Power BI Desktop 中包含的特色工具列表，以及如何注册其他工具的说明。
 
@@ -43,7 +50,7 @@ Power BI Desktop 的“外部工具”功能区包含安装在计算机上并在
 
 ## <a name="featured-external-tools"></a>特色外部工具
 
-以下开源社区工具适用于 Power BI Desktop。 每个工具对应的安装程序在安装时将其注册到 Power BI Desktop：
+以下开源社区工具适用于 Power BI Desktop。 它们由各自的工具创作者提供支持。 每个工具对应的安装程序在安装时将其注册到 Power BI Desktop：
 
 * 表格编辑器
 * DAX Studio
@@ -122,6 +129,18 @@ ALM Toolkit 的主要工具作者是 [Christian Wade](https://www.linkedin.com/i
 * Program Files (x86)\Common Files\Microsoft Shared\Power BI Desktop\External Tools
 
 在启动时，Power BI Desktop 加载 .pbitool.json 扩展的指定位置中的文件。
+
+## <a name="disabling-external-tools-using-the-registry"></a>使用注册表禁用外部工具
+
+可以使用“组策略”或通过编辑注册表来禁用外部工具，这与禁用“自定义视觉对象”的过程类似 。
+
+    Registry key: ```Software\Policies\Microsoft\Power BI Desktop\```
+
+    Registry value: ```EnableExternalTools```
+
+十进制值 1 允许在 Power BI 中使用外部工具，这是默认值。
+
+十进制值 0 禁止在 Power BI 中使用外部工具。
 
 
 ## <a name="next-steps"></a>后续步骤

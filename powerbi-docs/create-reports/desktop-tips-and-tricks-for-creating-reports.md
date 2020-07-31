@@ -9,12 +9,12 @@ ms.subservice: powerbi-service
 ms.topic: how-to
 ms.date: 05/07/2020
 ms.author: davidi
-ms.openlocfilehash: ae9a3695c8db084d9c65871314edfef34cde1cb6
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: e2615915503b0eb6d9d1ee08bd2a1fa8599bcf8c
+ms.sourcegitcommit: e9cd61eaa66eda01cc159251d7936a455c55bd84
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85238488"
+ms.lasthandoff: 07/23/2020
+ms.locfileid: "86952998"
 ---
 # <a name="tips-and-tricks-for-creating-reports-in-power-bi-desktop"></a>在 Power BI Desktop 创建报表的相关提示和技巧
 若要充分利用你的数据，有时你还需要一点帮助。 我们整理了一些提示和技巧，以便你在 Microsoft Power BI Desktop *及*启用了 Power Pivot 加载项且安装和启用了 Power Query 的 Microsoft Excel 2016 或 Excel 2013 Pro-Plus 版本中创建报表时可加以使用。 
@@ -54,7 +54,7 @@ Power BI Desktop 中的查询编辑器与 Excel 2013 中的 Power Query 加载�
 ## <a name="building-maps-more-easily-with-hints-to-bing"></a>利用到必应的提示，更轻松地绘制地图
 Power BI 与必应相集成，提供默认地图坐标（一个称为地理编码的过程），从而可更轻松地创建地图。 必应使用一些算法和提示来尝试获得正确位置，但这只是最佳估计。 若要增加地理编码正确的可能性，可使用以下提示：
 
-在创建地图时，通常会希望绘制国家/地区、州和城市。 在 Power BI Desktop 中，如果在地理名称后面命名列，它将有助于必应猜测你所希望显示的内容。 例如，如果某个字段具有美国州名（如“加利福利亚”和“华盛顿”），则对于“华盛顿”这个词，必应可能会返回华盛顿特区（而不是华盛顿州）的位置。 将列命名为“州”将提升地理编码的功能。 对于名为“国家/地区”和“城市”的列也是如此。 
+在创建地图时，通常会希望绘制国家/地区、州/省和城市。 在 Power BI Desktop 中，如果在地理名称后面命名列，它将有助于必应猜测你所希望显示的内容。 例如，如果某个字段具有美国州名（如“加利福利亚”和“华盛顿”），则对于“华盛顿”这个词，必应可能会返回华盛顿特区（而不是华盛顿州）的位置。 将列命名为“州”将提升地理编码的功能。 对于名为“国家/地区”和“城市”的列也是如此。 
 
 在多个国家/地区这一上下文中考虑时，某些名称会引起歧义。 某些情况下，某个国家/地区会将“州”视为“省”、“县”或一些其他名称。 通过构建将多个字段追加在一起的列并将其用于绘制数据位置，可以增加地理编码的准确性。 例如，可传递“英格兰威尔特郡”而不是仅“威尔特”，以获取更准确的地理编码结果。 
 

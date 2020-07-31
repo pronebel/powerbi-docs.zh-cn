@@ -1,5 +1,5 @@
 ---
-title: 连接到 Oracle 数据库
+title: 使用 Power BI Desktop 连接到 Oracle 数据库
 description: 将 Oracle 连接到 Power BI Desktop 必需的步骤和下载内容
 author: davidiseminger
 ms.reviewer: ''
@@ -9,19 +9,19 @@ ms.topic: how-to
 ms.date: 05/05/2020
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 1e74ff0bf54b263df65af7e7497eb57f3e5c2adb
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 2c59cb593a236785346721cb5c3ac90c702c93ed
+ms.sourcegitcommit: 65025ab7ae57e338bdbd94be795886e5affd45b4
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85224325"
+ms.lasthandoff: 07/28/2020
+ms.locfileid: "87252052"
 ---
-# <a name="connect-to-an-oracle-database"></a>连接到 Oracle 数据库
-要使用 Power BI Desktop 连接到 Oracle 数据库，必须在运行 Power BI Desktop 的计算机上安装正确的 Oracle 客户端软件。 使用的 Oracle 客户端软件取决于已安装的 Power BI Desktop 版本：32 位或 64 位。
+# <a name="connect-to-an-oracle-database-with-power-bi-desktop"></a>使用 Power BI Desktop 连接到 Oracle 数据库
+要使用 Power BI Desktop 连接到 Oracle 数据库，必须在运行 Power BI Desktop 的计算机上安装正确的 Oracle 客户端软件。 使用的 Oracle 客户端软件取决于已安装的 Power BI Desktop 版本：32 位或 64 位。 它还取决于 Oracle 服务器的版本。
 
 支持的 Oracle 版本： 
-- Oracle 9 及更高版本
-- Oracle 客户端软件 8.1.7 及更高版本
+- Oracle Server 9 及更高版本
+- Oracle Data Access Client (ODAC) 软件 11.2 及更高版本
 
 > [!NOTE]
 > 如果要为 Power BI Desktop、本地数据网关或 Power BI 报表服务器配置 Oracle 数据库，请参阅 [Oracle 连接类型](https://docs.microsoft.com/sql/reporting-services/report-data/oracle-connection-type-ssrs?view=sql-server-ver15)一文中的信息。 
@@ -32,12 +32,14 @@ ms.locfileid: "85224325"
 
 ![Power BI Desktop 版本](media/desktop-connect-oracle-database/connect-oracle-database_1.png)
 
-## <a name="installing-the-oracle-client"></a>安装 Oracle 客户端
+## <a name="install-the-oracle-client"></a>安装 Oracle 客户端
 - 对于 32 位版本的 Power BI Desktop，请[下载并安装 32 位 Oracle 客户端](https://www.oracle.com/technetwork/topics/dotnet/utilsoft-086879.html)。
 
 - 对于 64 位版本的 Power BI Desktop，请[下载并安装 64 位 Oracle 客户端](https://www.oracle.com/database/technologies/odac-downloads.html)。
 
 > [!NOTE]
+> 选择与 Oracle Server 兼容的 Oracle Data Access Client (ODAC) 版本。 例如，ODAC 12.x 并非始终支持 Oracle Server 版本 9。
+> 选择 Oracle 客户端的 Windows 安装程序。
 > 在 Oracle 客户端的安装过程中，请在安装向导中选择相应的复选框，确保启用“在计算机范围级别配置 ODP.NET 和/或 Oracle Providers for ASP.NET”。 某些版本的 Oracle 客户端向导默认选中此复选框，其他版本则不选中。 请确保选中此复选框，以便 Power BI 可以连接到 Oracle 数据库。
 
 ## <a name="connect-to-an-oracle-database"></a>连接到 Oracle 数据库
@@ -53,9 +55,7 @@ ms.locfileid: "85224325"
 
    ![输入 Oracle 服务器名称](media/desktop-connect-oracle-database/connect-oracle-database_3.png)
 
-   > [!TIP]
-   > 如果在此步骤中连接时遇到困难，请尝试在“服务器”字段中使用以下格式：(DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST=host_name)(PORT=port_num))(CONNECT_DATA=(SERVICE_NAME=service_name)))
-   
+      
 3. 要通过使用本机数据库查询导入数据，请将查询放在“SQL 语句”框中，可通过展开“Oracle 数据库”对话框的“高级选项”部分找到该框  。
    
    ![展开“高级选项”](media/desktop-connect-oracle-database/connect-oracle-database_4.png)
@@ -64,6 +64,18 @@ ms.locfileid: "85224325"
 
 
 ## <a name="troubleshooting"></a>故障排除
+
+命名语法不正确或未正确配置时，可能会遇到来自 Oracle 的以下任一错误：
+
+* ORA-12154：TNS：无法解析指定的连接标识符。
+* ORA-12514：TNS：侦听器当前不知道连接描述符中请求的服务。
+* ORA-12541：TNS：无侦听器。
+* ORA-12170：TNS：连接超时。
+* ORA-12504：TNS：侦听器未在 CONNECT_DATA 中获得 SERVICE_NAME。
+
+如果 Oracle 客户端未安装或未正确配置，则可能出现这些错误。 如果已安装，请验证是否已对 tnsnames.ora 文件进行了正确配置、你使用的是不是正确的 net_service_name。 还需确保使用 Power BI Desktop 的计算机和运行网关的计算机具有相同的 net_service_name。 有关详细信息，请参阅[安装 Oracle 客户端](#install-the-oracle-client)。
+
+可能还会遇到 Oracle 服务器版本与 Oracle Data Access Client 版本之间的兼容性问题。 通常，最好使二者的版本匹配，因为某些组合不兼容。 例如，ODAC 12.x 不支持 Oracle Server 版本 9。
 
 如果已从 Microsoft Store 下载 Power BI Desktop，则 Oracle 驱动程序问题可能导致你无法连接到 Oracle 数据库。 如果遇到此问题，则返回的错误消息为：未设置对象引用。 要解决此问题，请执行以下步骤之一：
 

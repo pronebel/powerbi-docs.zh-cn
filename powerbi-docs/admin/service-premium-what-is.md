@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
-ms.date: 06/13/2020
+ms.date: 07/28/2020
 ms.custom: licensing support
 LocalizationGroup: Premium
-ms.openlocfilehash: 83383b93d9f61c30c22afa30a5d092aa62ce3a10
-ms.sourcegitcommit: 94fc44928bff09d874793964b5d7443db40934cd
+ms.openlocfilehash: de5ab7b75967e752615bf7415c81ba7bb18c1a80
+ms.sourcegitcommit: a254f6e2453656f6783690669be8e881934e15ac
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/12/2020
-ms.locfileid: "84754194"
+ms.lasthandoff: 07/28/2020
+ms.locfileid: "87364045"
 ---
 # <a name="what-is-power-bi-premium"></a>什么是 Power BI Premium？
 
@@ -85,7 +85,11 @@ Power BI Premium 订阅由 Microsoft 365 管理中心的管理员购买。 具�
 | P1/A4 | 8 | 4 | 25 | 4 | 30 | 6 |
 | P2/A5 | 16 | 8 | 50 | 8 | 60 | 12 |
 | P3/A6 | 32 | 16 | 100 | 16 | 120 | 24 |
+| P4/A7 <sup>[1](#limit)</sup>| 64 | 32 | 200 | 32 | 240 | 48 |
+| P5/A8 <sup>[1](#limit)</sup>| 128 | 64 | 400 | 64 | 480 | 96 |
 | | | | | | | |
+
+<a name="limit">1</a> - 仅限特殊请求。 适用于大于 100 GB 的超大模型。
 
 >[!NOTE]
 >使用单个较大的 SKU（例如一个 P2 SKU）可能比组合较小的 SKU（例如两个 P1 SKU）更可取。 例如，你可以使用更大的模型，还可以实现与 P2 的更好的并行。

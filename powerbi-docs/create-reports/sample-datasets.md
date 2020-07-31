@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 03/27/2020
 ms.author: maggies
 LocalizationGroup: Samples
-ms.openlocfilehash: 305da7339159500a8e6de410bb4bf7f0b06d10e0
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: a268247d13fdfe71e17e5c0a6fafeeb635b96984
+ms.sourcegitcommit: e9cd61eaa66eda01cc159251d7936a455c55bd84
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83349623"
+ms.lasthandoff: 07/23/2020
+ms.locfileid: "86953044"
 ---
 # <a name="get-samples-for-power-bi"></a>获取 Power BI 示例
 假设你初次接触 Power BI，想要试用但没有任何数据。  或者，你希望看到展示一些 Power BI 功能的报表。 我们已经为你准备好了。
@@ -25,7 +25,7 @@ Power BI 提供了各种用于不同用途的示例：
 - **[示例应用](#sample-app-from-appsource)** ：下载自 AppSource，也位于 Power BI 服务中。 应用包含仪表板、报表和数据集。 你可以修改它们，然后将它们分发给你的同事。
 - **[8 个原始内置示例](#eight-original-samples)** ：在 Power BI 服务中以内容包  形式存在，其中包含仪表板、报表和数据集。 可以直接在 Power BI 服务中安装它们。 内置示例也可以采用 Power BI 报表 (.pbix) 和 Excel 工作簿 (.xlsx) 格式。
 - **[Excel 工作簿版本内置示例](#download-sample-excel-files)** ：包含数据模型和 Power View 表。 可以在 Excel 中浏览或编辑数据模型，并使用 Excel 工作簿作为 Power BI 报表的数据源。 还可以将工作簿作为 Excel 文件上传，并在 Power BI 报表中显示 Excel 视觉对象和数据透视表。 
-- **[财务数据示例工作簿](sample-financial-download.md)** ：Excel 文件中可供下载的简单平面表。 它包含虚构产品的匿名数据（销售额按市场细分和国家/地区划分）。 它为 Power BI 报表提供了实用的基本数据源。
+- **[财务数据示例工作簿](sample-financial-download.md)** ：Excel 文件中可供下载的简单平面表。 它包含虚构产品的匿名数据，其中销售额按市场细分和国家/地区划分。 它为 Power BI 报表提供了实用的基本数据源。
 
 我们的联机文档在教程和示例中使用了这些相同的示例，这样你就可以跟着一起操作了。
 

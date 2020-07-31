@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 07/15/2019
 ms.author: arthii
 LocalizationGroup: Gateways
-ms.openlocfilehash: 5ebc9a36b4a4e54d6388625921c98c571859568f
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 0b617afdeb69f2367b83ad40b2146f5ce78cdc89
+ms.sourcegitcommit: a254f6e2453656f6783690669be8e881934e15ac
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85237590"
+ms.lasthandoff: 07/28/2020
+ms.locfileid: "87363999"
 ---
 # <a name="manage-your-data-source---oracle"></a>管理数据源 - Oracle
 
@@ -22,44 +22,22 @@ ms.locfileid: "85237590"
 
 [安装本地数据网关](/data-integration/gateway/service-gateway-install)之后，需要[添加可与该网关结合使用的数据源](service-gateway-data-sources.md#add-a-data-source)。 本文介绍如何使用用于计划刷新或 DirectQuery 的网关和 Oracle 数据源。
 
+## <a name="connect-to-an-oracle-database"></a>连接到 Oracle 数据库
+要使用本地数据网关连接到 Oracle 数据库，必须在运行此网关的计算机上安装正确的 Oracle 客户端软件。 你使用的 Oracle 客户端软件取决于 Oracle 服务器版本，但始终与 64 位网关匹配。
+
+支持的 Oracle 版本： 
+- Oracle Server 9 及更高版本
+- Oracle Data Access Client (ODAC) 软件 11.2 及更高版本
+
 ## <a name="install-the-oracle-client"></a>安装 Oracle 客户端
+- [下载并安装 64 位 Oracle 客户端](https://www.oracle.com/database/technologies/odac-downloads.html)。
 
-要将网关连接到 Oracle 服务器，必须安装和配置用于 .NET 的 Oracle 数据提供程序 (ODP.NET)。 ODP.NET 是 Oracle 数据访问组件 (ODAC) 的一部分。
-
-对于 32 位版本的 Power BI Desktop，请使用以下链接下载并安装 32 位 Oracle 客户端：
-
-* [32 位 Oracle Data Access Components (ODAC) 和 Oracle Developer Tools for Visual Studio (12.1.0.2.4)](https://www.oracle.com/technetwork/topics/dotnet/utilsoft-086879.html)
-
-有关 64 位版本的 Power BI Desktop 或本地数据网关，请使用以下链接下载并安装 64 位 Oracle 客户端：
-
-* [适用于 Windows x64 的 64 位 ODAC 12.2c Release 1 (12.2.0.1.0)](https://www.oracle.com/technetwork/database/windows/downloads/index-090165.html)
-
-安装客户端后，使用正确的信息对你的数据库配置 tnsnames.ora 文件。 Power BI Desktop 和网关会从 tnsnames.ora 文件中定义的 net_service_name 脱离。 如果未配置 net_service_name，则无法连接。 tnsnames.ora 的默认路径为 `[Oracle Home Directory]\Network\Admin\tnsnames.ora`。 有关如何配置 tnsnames.ora 文件的详细信息，请参阅 [Oracle：本地命名参数 (tnsnames.ora)](https://docs.oracle.com/cd/B28359_01/network.111/b28317/tnsnames.htm)。
-
-### <a name="example-tnsnamesora-file-entry"></a>示例 tnsnames.ora 文件条目
-
-tnsname.ora 中条目的基本格式如下：
-
-```
-net_service_name=
- (DESCRIPTION=
-   (ADDRESS=(protocol_address_information))
-   (CONNECT_DATA=
-     (SERVICE_NAME=service_name)))
-```
-
-以下是服务器和端口信息填充的一个示例：
-
-```
-CONTOSO =
-  (DESCRIPTION =
-    (ADDRESS = (PROTOCOL = TCP)(HOST = oracleserver.contoso.com)(PORT = 1521))
-    (CONNECT_DATA =
-      (SERVER = DEDICATED)
-      (SERVICE_NAME = CONTOSO)
-    )
-  )
-```
+> [!NOTE]
+> 选择与 Oracle Server 兼容的 Oracle Data Access Client (ODAC) 版本。 例如，ODAC 12.x 并非始终支持 Oracle Server 版本 9。
+> 选择 Oracle 客户端的 Windows 安装程序。
+> 在 Oracle 客户端的安装过程中，请在安装向导中选择相应的复选框，确保启用“在计算机范围级别配置 ODP.NET 和/或 Oracle Providers for ASP.NET”。 某些版本的 Oracle 客户端向导默认选中此复选框，其他版本则不选中。 请确保选中此复选框，以便 Power BI 可以连接到 Oracle 数据库。
+ 
+安装客户端并正确配置 ODAC 后，建议使用 PowerBI Desktop 或其他测试客户端来验证网关上的安装和配置是否正确。
 
 ## <a name="add-a-data-source"></a>添加数据源
 
@@ -111,7 +89,7 @@ CONTOSO =
 
 ## <a name="troubleshooting"></a>故障排除
 
-命名语法不正确或未正确配置时，可能会遇到来自 Oracle 的多种错误：
+命名语法不正确或未正确配置时，可能会遇到来自 Oracle 的以下任一错误：
 
 * ORA-12154：TNS：无法解析指定的连接标识符。
 * ORA-12514：TNS：侦听器当前不知道连接描述符中请求的服务。
@@ -121,8 +99,9 @@ CONTOSO =
 
 如果 Oracle 客户端未安装或未正确配置，则可能出现这些错误。 如果已安装，请验证是否已对 tnsnames.ora 文件进行了正确配置、你使用的是不是正确的 net_service_name。 还需确保使用 Power BI Desktop 的计算机和运行网关的计算机具有相同的 net_service_name。 有关详细信息，请参阅[安装 Oracle 客户端](#install-the-oracle-client)。
 
-> [!NOTE]
-> 你可能还会遇到 Oracle 服务器版本与 Oracle 客户端版本之间的兼容性问题。 通常，你希望这些版本是匹配的。
+可能还会遇到 Oracle 服务器版本与 Oracle Data Access Client 版本之间的兼容性问题。 通常，最好使二者的版本匹配，因为某些组合不兼容。 例如，ODAC 12.x 不支持 Oracle Server 版本 9。
+
+为了诊断数据源服务器和网关计算机之间的连接问题，建议在网关计算机上安装客户端（例如 PowerBI Desktop 或 Oracle ODBC Test）。 可以使用客户端检查与数据源服务器的连接。
 
 有关与网关相关的其他故障排除信息，请参阅[本地数据网关故障排除](/data-integration/gateway/service-gateway-tshoot)。
 

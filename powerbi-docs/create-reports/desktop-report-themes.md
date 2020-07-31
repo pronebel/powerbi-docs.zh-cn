@@ -7,15 +7,15 @@ ms.custom: contperfq4
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: how-to
-ms.date: 06/01/2020
+ms.date: 07/28/2020
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 48ff2852f2c7df3a1b005d730a3f91dc9e434f62
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: fdd08c32277dfaa9a619b024a7fb0ece0517f1cb
+ms.sourcegitcommit: a254f6e2453656f6783690669be8e881934e15ac
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85232241"
+ms.lasthandoff: 07/28/2020
+ms.locfileid: "87364091"
 ---
 # <a name="use-report-themes-in-power-bi-desktop"></a>在 Power BI Desktop 中使用报表主题
 
@@ -43,6 +43,9 @@ ms.locfileid: "85232241"
 * [导入自定义主题 JSON 文件](#import-custom-report-theme-files)。
 
 我们将依次介绍每个选项。
+
+> [!NOTE]
+> 仅可在使用 Power BI Desktop 时应用主题。 不能将主题应用于 Power BI 服务中的现有报表。 
 
 ### <a name="built-in-report-themes"></a>内置报表主题
 
@@ -189,7 +192,7 @@ ms.locfileid: "85232241"
 
 1. 选择一个视觉对象。
 
-2. 从“可视化效果”窗格的“格式”部分中，选择“数据颜色”。  
+2. 从“可视化效果”窗格的“格式”部分中，选择“数据颜色”。
 
 3. 选中一个项的下拉列表，查看该报表主题的“主题颜色”。
 
@@ -198,6 +201,15 @@ ms.locfileid: "85232241"
 例如，在应用“圣帕特里克节”报表主题中的大量绿色和棕色后，查看主题颜色。 看到所有这些绿色了吗？ 这是因为我们导入并应用的报表主题包含这些颜色。
 
 调色板中的颜色与当前主题相关。 例如，假设你为数据点选择首行的第三个颜色。 稍后，若更改为其他主题，该数据点的颜色会自动更新为新主题首行的第三个颜色，就像在 Microsoft Office 中更改主题时看到的情况一样。
+
+设置报表主题将更改整个报表的视觉对象中使用的默认颜色。 Power BI 维护着一个包含数百种颜色的列表，以确保视觉对象拥有可在报表中显示的大量独特颜色。 当 Power BI 将颜色分配给视觉对象的序列时，将在分配序列颜色时以先到先得的方式选择颜色。 导入主题时，将重置数据序列的颜色映射。 
+
+Power BI 跟踪动态序列的颜色，并在其他视觉对象中对值使用相同的颜色。 在动态序列中，视觉对象中呈现的序列数可能会根据度量、值或其他方面而变化。 例如，如果在报表中显示按地区划分的利润，则所拥有的销售区域数可能是五个，也可能是九个。 区域数是动态的，因此被视为动态序列。 
+
+相反，对于静态序列，序列数是已知的。 例如，利润和收入是静态序列 。 在静态序列中，Power BI 通过主题调色板中的索引分配颜色。 可以通过从“数据颜色”下的格式设置窗格中选择一种颜色来替代默认颜色分配。 可能需要更改切片器选择才能查看所有潜在的序列值，并设置其颜色。 如果使用“属性”窗格为单个视觉对象显式设置颜色，则导入的主题不会应用到这些显式定义的颜色中的任何一种。 
+
+若要将主题应用于显式选择的颜色，请在显式设置视觉对象颜色的“数据颜色”部分使用“还原为默认设置”，以撤消显式颜色应用并允许应用主题 。
+
 
 ### <a name="situations-when-report-theme-colors-wont-stick-to-your-reports"></a>无法在报表中保留报表主题颜色的情况
 
@@ -220,7 +232,7 @@ ms.locfileid: "85232241"
 - [色盲友好主题](https://community.powerbi.com/t5/Themes-Gallery/Color-Blind-Friendly/m-p/140597)。
 对于存在视觉障碍的人士而言，此报表主题更易于阅读。 [下载 ColorblindSafe-Longer.json](https://go.microsoft.com/fwlink/?linkid=843923)。
 
-  ![ColorblindSafe-Longer.json 主题](media/desktop-report-themes/report-themes_11.png)。
+  ![ColorblindSafe-Longer.json 主题](media/desktop-report-themes/report-themes_11.png).
 
 - 采用 Apothecary.json 的 Power View 主题。 [下载 Power View 主题 zip 文件](https://go.microsoft.com/fwlink/?linkid=843925)。
 
@@ -259,13 +271,13 @@ ms.locfileid: "85232241"
 
 1. 选择“文件” > “选项和设置” > “选项”。
 
-2. 在“预览功能”部分中选择“自定义当前主题”，然后选择“确定”。  
+2. 在“预览功能”部分中选择“自定义当前主题”，然后选择“确定”。
 
    系统将提示你重启 Power BI Desktop 以启用预览功能。 重启后，可开始导出当前应用的主题。
 
-3. 从“主页”功能区中，选择“切换主题” > “导出当前主题”。  
+3. 从“主页”功能区中，选择“切换主题” > “导出当前主题”。
 
-4. 在“另存为”对话框中，浏览到要用于保存该 JSON 文件的目录，然后选择“保存”。 
+4. 在“另存为”对话框中，浏览到要用于保存该 JSON 文件的目录，然后选择“保存”。
 
 ## <a name="report-theme-json-file-format"></a>报表主题 JSON 文件格式
 
@@ -316,7 +328,7 @@ ms.locfileid: "85232241"
 
 ### <a name="setting-structural-colors"></a>设置结构化颜色
 
-接下来，可以添加各种颜色类，如“background”和“firstLevelElements”。  这些颜色类设置报表中的元素（如轴网格线）的结构化颜色、突出显示颜色和视觉对象元素的背景色。
+接下来，可以添加各种颜色类，如“background”和“firstLevelElements”。 这些颜色类设置报表中的元素（如轴网格线）的结构化颜色、突出显示颜色和视觉对象元素的背景色。
 
 下表显示可以设置格式的六个颜色类。  颜色类名称对应于[“自定义主题”对话框](#create-and-customize-a-theme-in-power-bi-desktop)中“名称和颜色”部分的“高级”子部分中的名称。
 
@@ -356,7 +368,7 @@ ms.locfileid: "85232241"
 
 其他文本类（称为“次要类”）会自动从其关联的主要类派生其属性。 通常情况下，与主要类相比，次要类会选择较浅的文本颜色阴影，或以百分比表示较大或较小的文本大小。
 
-以标签类为例。 标签类的默认格式设置是：Segoe UI #252423（深灰色），12 磅。 此类用于设置表和矩阵中值的格式。 通常，表或矩阵中的总计具有类似的格式，但使用粗体标签类加粗，以突出它们。但无需在主题 JSON 中指定该类；Power BI 会自动执行此操作。 若以后决定在主题中指定使用 14 磅字体的标签，则无需同时更新粗体标签类，因为它继承此标签类的文本格式设置。 
+以标签类为例。 标签类的默认格式设置是：Segoe UI #252423（深灰色），12 磅。 此类用于设置表和矩阵中值的格式。 通常，表或矩阵中的总计具有类似的格式，但使用粗体标签类加粗，以突出它们。但无需在主题 JSON 中指定该类；Power BI 会自动执行此操作。 若以后决定在主题中指定使用 14 磅字体的标签，则无需同时更新粗体标签类，因为它继承此标签类的文本格式设置。
 
 下表显示了以下信息：
 
@@ -433,7 +445,7 @@ ms.locfileid: "85232241"
 
 在“visualName”和“cardName”部分中，使用特定视觉对象和卡片名称。 当前，“styleName”始终为星号 (*)，但在将来的版本中，你可以为视觉对象创建不同的样式，并为其命名（类似于表和矩阵样式功能）。 “propertyName”是格式设置选项的名称，“propertyValue”是该格式设置选项的值。
 
-对于“visualName”和“cardName”，若要将此设置应用于包含属性的所有视觉对象或卡片，请使用星号并使用引号括起来（“*”）。  如果视觉对象和卡片名称使用星号，则可以高效地在报表中全局应用设置，如所有视觉对象中所有文本的字号或特定字体系列。
+对于“visualName”和“cardName”，若要将此设置应用于包含属性的所有视觉对象或卡片，请使用星号并使用引号括起来（“*”）。 如果视觉对象和卡片名称使用星号，则可以高效地在报表中全局应用设置，如所有视觉对象中所有文本的字号或特定字体系列。
 
 以下是通过视觉样式设置几个属性的示例：
 

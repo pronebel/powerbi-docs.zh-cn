@@ -10,12 +10,12 @@ ms.topic: how-to
 ms.date: 05/26/2020
 ms.author: davidi
 LocalizationGroup: Reports
-ms.openlocfilehash: d4bfb6de39f0a8dee678e8224cca1cb03646abca
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 1e1e9afcbcae300e12580fb5f54bdb53e7822c03
+ms.sourcegitcommit: e9cd61eaa66eda01cc159251d7936a455c55bd84
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85226972"
+ms.lasthandoff: 07/23/2020
+ms.locfileid: "86952704"
 ---
 # <a name="analyze-in-excel"></a>在 Excel 中分析
 借助“在 Excel 中分析”，可以将 Power BI 数据集引入到 Excel 中，然后使用数据透视表、图表、切片器和其他 Excel 功能查看这些数据集并与其交互。 若要使用“在 Excel 中分析”必须先从 Power BI 下载并安装该功能，然后选择一个或多个要在 Excel 中使用的数据集。 
@@ -62,42 +62,47 @@ ms.locfileid: "85226972"
 
 ## <a name="connect-to-power-bi-data"></a>连接到 Power BI 数据
 
-在 Power BI 服务中，导航到要在 Excel 中分析的数据集或报表，然后选择“更多选项” 菜单 (...)，找到“在 Excel 中分析”菜单选项。 下图显示了如何选择报表。
-
-![正在安装更新](media/service-analyze-in-excel/analyze-excel-06.png)
-
-将 Power BI 服务中的数据集引入 Excel 有以下几个步骤：
+在 Power BI 服务中，导航到要在 Excel 中分析的数据集或报表，然后执行以下操作：
 
 1. 选择“更多选项”菜单。
-2. 从显示的菜单项中选择“在 Excel 中分析”。
 
-    然后，Power BI 服务会创建一个数据集文件，该文件专门为用于“在 Excel 中分析”设计（和构造），它的文件扩展名为 .ODC。 该文件生成后，会自动从浏览器中启动下载进程。
+1. 从显示的菜单项中选择“在 Excel 中分析”。
+
+    下图显示了如何选择报表。
+
+    ![正在安装更新](media/service-analyze-in-excel/analyze-excel-06.png)
     
-    ![正在下载 ODC 文件](media/service-analyze-in-excel/analyze-excel-07.png)
+    >[!NOTE]
+    >请记住，如果从“报表”菜单中选择“在 Excel 中分析”，则会将报表的基础数据集导入到 Excel 中。
+
+    然后，Power BI 服务会创建数据集的 Excel 文件，该文件设计（和结构化），适合在 Excel 中分析；随后，该服务将在浏览器中开始下载过程。
     
-    文件名与它派生自的数据集（或报表以及其他数据源）相匹配。 因此，如果报表名称为“Latest-Sales”，则下载的文件名称将为“Latest-Sales.ODC”。
+    ![下载 Excel 文件](media/service-analyze-in-excel/analyze-in-excel-download-xlsx.png)
 
-3. 启动 .ODC 文件
+    文件名与它派生自的数据集（或报表以及其他数据源）相匹配。 因此，如果报表叫做“季度报表”，则下载的文件将为“季度报表.xlsx”。
 
-该文件已与“在 Excel 中分析”相关联，因此当你选择或启动该 .ODC 文件时，Excel 将启动并自动开始加载该 .ODC 文件。 不过，你可能会看到关于外部数据源威胁的警告：
+3. 启动 Excel 文件。
 
-![安全警告](media/service-analyze-in-excel/analyze-excel-08.png)
-
-选择“启用”以便为“在 Excel 中分析”加载 .ODC 文件，随后 Excel 将加载该文件。  
+    >[!NOTE]
+    >首次打开文件时，你可能需要“启用编辑”，然后“启用内容”，具体取决于[受保护的视图](https://support.microsoft.com/en-gb/office/what-is-protected-view-d6f09ac7-e6b9-4495-8e43-2bbcdbcb6653?ui=en-us&rs=en-gb&ad=gb)和[受信任的文档](https://support.microsoft.com/en-us/office/trusted-documents-cf872bd8-47ec-4c02-baa5-1fdba1a11b53)设置 。
+    >
+    >![受保护视图启用编辑横幅的屏幕截图](media/service-analyze-in-excel/protected-view-enable-editing-banner.png)
+    >
+    >![受信任文档启用内容横幅的屏幕截图](media/service-analyze-in-excel/trusted-document-enable-content-banner.png)
 
 ## <a name="use-excel-to-analyze-the-data"></a>使用 Excel 分析数据
 
-从“安全通知”选择“启用”以允许加载 .ODC 文件后，Excel 会显示一个空白的数据透视表以及一个来自可供分析的 Power BI 数据集的“字段”列表。  
+启用编辑和内容后，Excel 会显示 Power BI 数据集中的空白“数据透视表”和“字段”列表，这些列表可供分析 。
 
-![Excel 已连接数据](media/service-analyze-in-excel/analyze-excel-09.png)
+![Excel 已连接数据](media/service-analyze-in-excel/analyze-in-excel-connected.png)
 
-.ODC 文件有一个 MSOLAP 连接字符串，该字符串连接到 Power BI 中的数据集。 当你分析或处理数据时，Excel 会在 Power BI 中查询该数据集，并将结果返回到 Excel。 如果该数据集使用 DirectQuery 连接到实时数据源，Power BI 会查询该数据源，并将结果返回到 Excel。
+Excel 文件有一个 MSOLAP 连接字符串，该字符串连接到 Power BI 中的数据集。 当你分析或处理数据时，Excel 会在 Power BI 中查询该数据集，并将结果返回到 Excel。 如果该数据集使用 DirectQuery 连接到实时数据源，Power BI 会查询该数据源，并将结果返回到 Excel。
 
 现在已经与 Power BI 中的数据建立连接，接下来可以创建数据透视表和图表，并分析该数据集，就像在 Excel 中处理本地数据集一样。
 
 “在 Excel 中分析”特别适用于连接到以下数据源的数据集和报表：
 
-* Analysis Services 表格或多维数据库 
+* Analysis Services 表格或多维数据库
 * 含数据模型的 Power BI Desktop 文件或 Excel 工作簿，这些数据模型包含使用数据分析表达式 (DAX) 创建的模型度量值。
 
 > [!IMPORTANT]
@@ -107,7 +112,7 @@ ms.locfileid: "85226972"
 
 
 ### <a name="sign-in-to-power-bi"></a>登录到 Power BI
-即便你已经在浏览器中登录 Power BI，在 Excel 中首次打开新的 .ODC 文件时，也会看到使用 Power BI 帐户登录 Power BI 的提示。 这会对 Excel 到 Power BI 的连接进行身份验证。
+即便你已经在浏览器中登录 Power BI，在 Excel 中首次打开新的 Excel 文件时，也会看到使用 Power BI 帐户登录 Power BI 的提示。 这会对 Excel 到 Power BI 的连接进行身份验证。
 
 ### <a name="users-with-multiple-power-bi-accounts"></a>拥有多个 Power BI 帐户的用户
 一些用户拥有多个 Power BI 帐户。 如果你是这种情况，则你可能会使用一个帐户登录到 Power BI，但你的其他帐户有权访问用于“在 Excel 中分析”的数据集。 在这种情况下，如果尝试访问用于“在 Excel 工作簿中分析”的数据集，你可能会遇到“禁止”错误或登录失败。
@@ -132,7 +137,7 @@ ms.locfileid: "85226972"
 ## <a name="other-ways-to-access-power-bi-datasets-from-excel"></a>从 Excel 访问 Power BI 数据集的其他方法
 具有特定 Office SKU 的用户还可以使用 Excel 中的“获取数据”功能从 Excel 中连接到 Power BI 数据集。 如果 SKU 不支持此功能，则不会显示“获取数据”菜单选项。
 
-从“数据”功能区菜单中，选择“获取数据 > 从 Power BI 数据集中”，如下图所示。 
+从“数据”功能区菜单中，选择“获取数据 > 从 Power BI 数据集中”，如下图所示。
 
 ![使用“获取数据”菜单](media/service-analyze-in-excel/analyze-excel-10.png)
 
@@ -140,7 +145,7 @@ ms.locfileid: "85226972"
 
 若要详细了解这种将数据导入 Excel 的方法，请参阅 Excel 文档中的[从 Power BI 数据集创建数据透视表](https://support.office.com/article/31444a04-9c38-4dd7-9a45-22848c666884)。
 
-此外，你还可以在 Excel 的“数据类型”库中访问“精选表”。  若要详细了解精选表及其访问方式，请参阅[访问 Excel 中的 Power BI 精选表（预览版）](service-excel-featured-tables.md)。
+此外，你还可以在 Excel 的“数据类型”库中访问“精选表”。 若要详细了解精选表及其访问方式，请参阅[访问 Excel 中的 Power BI 精选表（预览版）](service-excel-featured-tables.md)。
 
 ## <a name="requirements"></a>要求
 使用**在 Excel 中分析**时有以下几点要求：
@@ -156,7 +161,7 @@ ms.locfileid: "85226972"
 * “在 Excel 中分析”仅在运行 Microsoft Windows 的计算机上受到支持。
 
 
-如果用户需要卸载“在 Excel 中分析”功能，可以使用 Windows 计算机上的“添加或删除程序 ”系统设置执行此操作。 
+如果用户需要卸载“在 Excel 中分析”功能，可以使用 Windows 计算机上的“添加或删除程序 ”系统设置执行此操作。
 
 ## <a name="troubleshooting"></a>故障排除
 有时，在使用 Analyze in Excel 期间可会能收意外的结果，或功能未按预期工作。 [本页针对在 Excel 中使用分析功能时遇到的常见问题提供解决方案](desktop-troubleshooting-analyze-in-excel.md)。

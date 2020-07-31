@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 09/09/2019
 ms.author: kfollis
 LocalizationGroup: Administration
-ms.openlocfilehash: a797547562a8968591ca6551f85a56e0da98d680
-ms.sourcegitcommit: 5e5a7e15cdd55f71b0806016ff91256a398704c1
+ms.openlocfilehash: ee123bed8940b52a66f3b0f860671a87210c261f
+ms.sourcegitcommit: e9cd61eaa66eda01cc159251d7936a455c55bd84
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/22/2020
-ms.locfileid: "83793288"
+ms.lasthandoff: 07/23/2020
+ms.locfileid: "86952676"
 ---
 # <a name="where-is-my-power-bi-tenant-located"></a>我的 Power BI 租户位于何处？
 
@@ -34,7 +34,7 @@ ms.locfileid: "83793288"
 
 ## <a name="how-the-data-region-is-selected"></a>选择该数据区域的操作过程
 
-数据区域是以你在创建租户时所选的国家/地区为依据。 此选择应用于 Powe BI 和 Microsoft 365 注册，因为此类信息是共享的。 如果这是新租户，请在注册时从列表中选择相应的国家/地区。
+数据区域基于你在创建租户时所选的国家/地区。 此选择应用于 Powe BI 和 Microsoft 365 注册，因为此类信息是共享的。 如果这是新租户，请在注册时从列表中选择相应的国家/地区。
 
 ![国家/地区选择](media/service-admin-where-is-my-tenant-located/sign-up-country-selection.png)
 
@@ -44,4 +44,3 @@ Power BI 选取最靠近你的选择的数据区域，这决定了租户数据�
 > 创建租户后，便无法更改此选择。
 
 更多问题？ [尝试参与 Power BI 社区](https://community.powerbi.com/)
-

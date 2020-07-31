@@ -1,5 +1,5 @@
 ---
-title: 管理员适用的 PowerShell cmdlet、REST API 和 .NET SDK
+title: 管理员适用的 PowerShell cmdlet、REST API 和 .NET 客户端库
 description: 了解可以通过脚本和编程 API 管理 Power BI 的方式。
 author: kfollis
 ms.reviewer: ''
@@ -9,23 +9,23 @@ ms.topic: conceptual
 ms.date: 09/09/2019
 ms.author: kfollis
 LocalizationGroup: Administration
-ms.openlocfilehash: b4f4227a53a87cd831962bc5c944a569531b8232
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: e1c95c330687131a29753359f5223e096bddab1d
+ms.sourcegitcommit: e9cd61eaa66eda01cc159251d7936a455c55bd84
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83136294"
+ms.lasthandoff: 07/23/2020
+ms.locfileid: "86952607"
 ---
-# <a name="powershell-cmdlets-rest-apis-and-net-sdk-for-power-bi-administration"></a>使用 PowerShell cmdlet、REST API 和 .NET SDK 进行 Power BI 管理
-通过 Power BI，管理员可以使用 PowerShell cmdlet 编写常见任务的脚本。 还可以利用其中的 REST API 和 .NET SDK 开发管理解决方案。 本主题列出了一系列 cmdlet 和相应的 SDK 方法以及 REST API 终结点。 有关详细信息，请参阅：
+# <a name="powershell-cmdlets-rest-apis-and-net-client-library-for-power-bi-administration"></a>适用于 Power BI 管理的 PowerShell cmdlet、REST API 和 .NET 客户端库
+通过 Power BI，管理员可以使用 PowerShell cmdlet 编写常见任务的脚本。 它还公开了 REST API，并提供了用于开发管理解决方案的 .NET 客户端库。 本主题列出了一系列 cmdlet 和相应的 API 和 REST API 终结点。 有关详细信息，请参阅：
 
 - PowerShell [下载](https://www.powershellgallery.com/packages/MicrosoftPowerBIMgmt/)和[文档](https://docs.microsoft.com/powershell/power-bi/overview?view=powerbi-ps)
 - REST API [文档](https://docs.microsoft.com/rest/api/power-bi/admin)
-- .NET SDK [下载](https://www.nuget.org/packages/Microsoft.PowerBI.Api/)
+- .NET 客户端库[下载](https://www.nuget.org/packages/Microsoft.PowerBI.Api/)
 
 > 应使用 `-Scope Organization` 调用下面的 cmdlet，以对租户执行管理操作。
 
-| **Cmdlet 名称** | **别名** | **SDK 方法** | **REST API 终结点** | **说明** |
+| **Cmdlet 名称** | **别名** | **API** | **REST API 终结点** | **说明** |
 | --- | --- | --- | --- | --- |
 | `Get-PowerBIDatasource` | 不适用 | `Datasets_GetDataSourcesAsAdmin` | /v1.0/myorg/admin/datasets/{datasetkey}/datasources | 获取给定数据集的数据源。 |
 | `Get-PowerBIDataset` | 不适用 | `Datasets_GetDatasetsAsAdmin` | /v1.0/myorg/admin/datasets | 获取 Power BI 租户中的完整数据集列表。 |

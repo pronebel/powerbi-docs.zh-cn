@@ -10,12 +10,12 @@ ms.date: 05/17/2020
 ms.author: mihart
 ms.custom: licensing support
 LocalizationGroup: Administration
-ms.openlocfilehash: a3df69e52614fba3152f6539b2c4cbcf4f5c87d2
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 8f79037c4117baaba1a50b6fe4e728b57fad362f
+ms.sourcegitcommit: 65025ab7ae57e338bdbd94be795886e5affd45b4
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85227676"
+ms.lasthandoff: 07/28/2020
+ms.locfileid: "87252075"
 ---
 # <a name="signing-up-for-power-bi-with-a-new-microsoft-365-trial"></a>通过新 Microsoft 365 试用版注册 Power BI
 
@@ -25,7 +25,7 @@ ms.locfileid: "85227676"
 
 ## <a name="sign-up-for-a-microsoft-365-trial-of-office"></a>注册 Office Microsoft 365 试用版
 
-在 [Microsoft 365 网站](https://www.microsoft.com/microsoft-365/business/compare-more-office-365-for-business-plans)注册 Microsoft 365 试用版。 如果没有帐户，Microsoft 将逐步指导你创建一个帐户。 由于商业电子邮件帐户（例如 Hotmail 和 Gmail）不适用于 Microsoft 365，因此你需创建一个新帐户。  该电子邮件帐户应类似于 zalan@onmicrosoft.com。
+在 [Microsoft 365 网站](https://www.microsoft.com/microsoft-365/business/compare-more-office-365-for-business-plans)注册 Microsoft 365 试用版。 如果没有帐户，Microsoft 将逐步指导你创建一个帐户。 由于商业电子邮件帐户（例如 Hotmail 和 Gmail）不适用于 Microsoft 365，因此你需创建一个新帐户。  该电子邮件帐户应类似于 zalan\@onmicrosoft.com。
 
 ![选择“免费试用”](media/service-admin-signing-up-for-power-bi-with-a-new-office-365-trial/power-bi-try-free.png)
 
