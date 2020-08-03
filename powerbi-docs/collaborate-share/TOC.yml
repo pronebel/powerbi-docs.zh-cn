@@ -37,6 +37,8 @@
               href: service-data-lineage.md
             - name: 数据集影响分析
               href: service-dataset-impact-analysis.md
+            - name: 数据源影响分析
+              href: service-data-source-impact-analysis.md
             - name: 应用数据敏感度标签
               href: ../admin/service-security-apply-data-sensitivity-labels.md
             - name: 连接到组的 OneDrive 上的文件
@@ -45,6 +47,16 @@
               href: service-collaborate-power-bi-workspace.md
             - name: 在 Power BI 和 Microsoft 365 中管理组
               href: service-manage-app-workspace-in-power-bi-and-office-365.md
+        - name: Teams 中的 Power BI
+          items:
+            - name: 在 Teams 中协作
+              href: service-collaborate-microsoft-teams.md
+            - name: 在 Teams 中嵌入报表
+              href: service-embed-report-microsoft-teams.md
+            - name: 直接共享至 Teams
+              href: service-share-report-teams.md
+            - name: 在 Teams 中获取链接预览
+              href: service-teams-link-preview.md
         - name: 发布和共享工作
           items:
             - name: 共享仪表板和报表
@@ -61,8 +73,6 @@
               href: service-report-subscribe.md
             - name: 主页上的精选内容
               href: service-featured-content.md
-            - name: 在 Microsoft Teams 中嵌入报表
-              href: service-embed-report-microsoft-teams.md
             - name: 在 SharePoint Online 中嵌入报表
               href: service-embed-report-spo.md
             - name: 在安全门户或网站中嵌入报表
@@ -71,20 +81,22 @@
               href: service-publish-to-web.md
             - name: 共享连接到 OneDrive 上 Excel 工作簿的仪表板
               href: service-share-dashboard-that-links-to-excel-onedrive.md
-        - name: 扩展 Power BI
+        - name: Excel 中的 Power BI
           items:
             - name: 在 Excel 中分析
               href: service-analyze-in-excel.md
-            - name: Excel 中的 Power BI 精选表
+            - name: 在 Excel 中使用 Power BI 精选表
               href: service-excel-featured-tables.md
+            - name: 设置精选表
+              href: service-create-excel-featured-tables.md
             - name: “在 Excel 中分析”疑难解答
               href: desktop-troubleshooting-analyze-in-excel.md
             - name: 错误：在你的 Excel 工作簿中找不到任何数据
               href: ../connect-data/service-admin-troubleshoot-excel-workbook-data.md
-            - name: Power Automate 和 Power BI
-              href: service-flow-integration.md
-            - name: 使用第三方应用
-              href: service-power-bi-get-started-third-party-apps.md
+        - name: Power Automate 和 Power BI
+          href: service-flow-integration.md
+        - name: 使用第三方应用
+          href: service-power-bi-get-started-third-party-apps.md
         - name: 组织内容包
           items:
             - name: 组织内容包简介
