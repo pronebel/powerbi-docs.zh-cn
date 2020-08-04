@@ -134,7 +134,7 @@ USAFacts 数据是根据需要归属的 Creative Commons 许可证提供的。 �
 
     :::image type="content" source="media/sample-covid-19-us/power-bi-covid-19-from-web.png" alt-text="从 Web 选择数据":::
 
-3. 选择“确定”。  
+3. 选择“确定”。 
 
     > [!NOTE]
     > 约翰斯·霍普金斯大学发布的链接可能会更改。 有关最新信息，请查看[约翰斯·霍普金斯大学 GitHub 页](https://github.com/CSSEGISandData/COVID-19)。
