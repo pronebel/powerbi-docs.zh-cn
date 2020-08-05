@@ -2,19 +2,19 @@
 title: 面向 Power BI 使用者的问答
 description: Power BI 问答自然语言查询的文档概述主题。
 author: mihart
-ms.reviewer: mohammad ali
+ms.reviewer: mohammad.ali
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: how-to
 ms.date: 07/11/2020
 ms.author: mihart
 LocalizationGroup: Ask questions of your data
-ms.openlocfilehash: acd13719aa6ff90f0f7fe297bf6bbc1674a5da22
-ms.sourcegitcommit: c83146ad008ce13bf3289de9b76c507be2c330aa
+ms.openlocfilehash: 496b47e259d4044f00fa6b7e74e9a4eec27942c8
+ms.sourcegitcommit: 2131f7b075390c12659c76df94a8108226db084c
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/10/2020
-ms.locfileid: "86216016"
+ms.lasthandoff: 08/03/2020
+ms.locfileid: "87537196"
 ---
 # <a name="qa-for-power-bi-consumers"></a>面向 Power BI 使用者的问答
 

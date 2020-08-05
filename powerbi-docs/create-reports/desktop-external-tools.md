@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 07/24/2020
+ms.date: 07/29/2020
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: c1d483b6a29d2463af05cd224ac6b03dd149eb33
-ms.sourcegitcommit: 65025ab7ae57e338bdbd94be795886e5affd45b4
+ms.openlocfilehash: 69929ff48428ebf73044c296eabc419f8e442b3b
+ms.sourcegitcommit: 00c0b24d5e80009d18cec6da4fee8a9611bcba04
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/28/2020
-ms.locfileid: "87252880"
+ms.lasthandoff: 07/29/2020
+ms.locfileid: "87411948"
 ---
 # <a name="using-external-tools-in-power-bi-desktop-preview"></a>在 Power BI Desktop 中使用外部工具（预览版）
 
@@ -42,8 +42,6 @@ Power BI Desktop 的“外部工具”功能区包含安装在计算机上并在
 * [透视](https://docs.microsoft.com/analysis-services/tabular-models/perspectives-ssas-tabular)：用于定义数据集元数据的特定业务域重点视图
 
 使用外部工具管理元数据转换可能是可行的，但此预览版目前不支持。 如果当前用户的区域设置为转换的区域设置，则在使用 Power BI Desktop 的当前版本时，无法正确地在字段列表中编辑对象。 
-
-针对定义了计算组的模型生成报表时，存在一个已知问题。 如果计算组根据所选的计算/度量值定义动态格式设置，则此格式设置目前仅适用于表、矩阵和卡片视觉对象。
 
 可对所有[表格对象模型](https://docs.microsoft.com/analysis-services/tom/introduction-to-the-tabular-object-model-tom-in-analysis-services-amo)数据集元数据进行只读访问，但[表格对象模型](https://docs.microsoft.com/analysis-services/tom/introduction-to-the-tabular-object-model-tom-in-analysis-services-amo)文章中所述的列表未涵盖的对象尚不支持在 Power BI Desktop Analysis Services 实例中进行编辑。
 
@@ -134,9 +132,9 @@ ALM Toolkit 的主要工具作者是 [Christian Wade](https://www.linkedin.com/i
 
 可以使用“组策略”或通过编辑注册表来禁用外部工具，这与禁用“自定义视觉对象”的过程类似 。
 
-    Registry key: ```Software\Policies\Microsoft\Power BI Desktop\```
+    Registry key: *Software\Policies\Microsoft\Power BI Desktop\*
 
-    Registry value: ```EnableExternalTools```
+    Registry value: *EnableExternalTools*
 
 十进制值 1 允许在 Power BI 中使用外部工具，这是默认值。
 

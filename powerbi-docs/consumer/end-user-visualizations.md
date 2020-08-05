@@ -2,19 +2,19 @@
 title: 以使用者身份使用可视化效果（视觉对象）
 description: Power BI 概念和术语 - 可视化效果、视觉对象。 什么是 Power BI 可视化效果、视觉对象。
 author: mihart
-ms.reviewer: ''
+ms.reviewer: mihart
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: how-to
 ms.date: 01/29/2020
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 60b43a428d9a657a0464c2f308aeac8fe5f5102e
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: a65752f6b49590c4b83c6dee471fa881a639acbe
+ms.sourcegitcommit: 2131f7b075390c12659c76df94a8108226db084c
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85237338"
+ms.lasthandoff: 08/03/2020
+ms.locfileid: "87537656"
 ---
 # <a name="interact-with-visuals-in-reports-dashboards-and-apps"></a>与报表、仪表板和应用中的视觉对象交互
 

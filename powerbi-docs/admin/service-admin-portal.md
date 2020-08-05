@@ -10,12 +10,12 @@ ms.date: 05/12/2020
 ms.author: kfollis
 ms.custom: seodec18
 LocalizationGroup: Administration
-ms.openlocfilehash: 90cd12bc7d8d7261e25edd32c5afa7cf144e8202
-ms.sourcegitcommit: 65025ab7ae57e338bdbd94be795886e5affd45b4
+ms.openlocfilehash: ec521c256209c258604e13483a9f3159b24626ae
+ms.sourcegitcommit: 2131f7b075390c12659c76df94a8108226db084c
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/28/2020
-ms.locfileid: "87252470"
+ms.lasthandoff: 08/03/2020
+ms.locfileid: "87537495"
 ---
 # <a name="administering-power-bi-in-the-admin-portal"></a>在管理门户中管理 Power BI
 
@@ -43,8 +43,8 @@ ms.locfileid: "87252470"
 * [租户设置](#tenant-settings)
 * [容量设置](#capacity-settings)
 * [嵌入代码](#embed-codes)
-* [组织视觉对象](#organizational-visuals)
-* [数据流存储（预览版）](#dataflowStorage)
+* [组织视觉对象](organizational-visuals.md#organizational-visuals)
+* [数据流存储（预览版）](#dataflow-storage-preview)
 * [工作区](#workspaces)
 * [自定义品牌](#custom-branding)
 
@@ -386,55 +386,6 @@ Azure AD B2B 来宾用户可以编辑和管理组织中的内容。 [了解详�
 
 详细了解[将 Power BI 内容共享到 Teams](../collaborate-share/service-share-report-teams.md)。
 
-
-## <a name="power-bi-visuals-settings"></a>Power BI 视觉对象设置
-
-### <a name="add-and-use-power-bi-visuals"></a>添加和使用 Power BI 视觉对象
-
-组织中的用户可以共享 Power BI 视觉对象并与之交互。 [了解详细信息](../developer/visuals/power-bi-custom-visuals.md)
-
-> [!NOTE]
-> 此设置可以应用于整个组织，也可以限制为特定组。
-
-Power BI Desktop（2019 年 3 月版及更高版本）支持通过“组策略”禁止在组织部署的计算机上使用 Power BI 视觉对象。
-
-<table>
-<tr><th>Attribute</th><th>值</th>
-</tr>
-<td>键</td>
-    <td>Software\Policies\Microsoft\Power BI Desktop\</td>
-<tr>
-<td>值名称</td>
-<td>EnableCustomVisuals</td>
-</tr>
-</table>
-
-十进制值 1 允许在 Power BI 中使用 Power BI 视觉对象（这是默认值）。
-
-十进制值 0 禁止在 Power BI 中使用 Power BI 视觉对象。
-
-### <a name="allow-only-certified-visuals"></a>仅允许已认证的视觉对象
-
-组织中已获得添加和使用 Power BI 视觉对象权限的用户（由“添加和使用 Power BI 视觉对象”设置表示）只能使用[认证的 Power BI 视觉对象](https://go.microsoft.com/fwlink/?linkid=2002010)（未经认证的视觉对象将受阻，并在使用时显示错误消息）。 
-
-
-Power BI Desktop（2019 年 3 月版及更高版本）支持通过“组策略”禁止在组织部署的计算机上使用未经认证的 Power BI 视觉对象。
-
-<table>
-<tr><th>属性</th><th>值</th>
-</tr>
-<td>键</td>
-    <td>Software\Policies\Microsoft\Power BI Desktop\</td>
-<tr>
-<td>值名称</td>
-<td>EnableUncertifiedVisuals</td>
-</tr>
-</table>
-
-十进制值 1 允许在 Power BI 中使用未经认证的 Power BI 视觉对象（这是默认值）。
-
-十进制值 0 禁止在 Power BI 中使用未经认证的 Power BI 视觉对象（该选项只允许使用[认证的 Power BI 视觉对象](https://go.microsoft.com/fwlink/?linkid=2002010)）。
-
 ## <a name="r-visuals-settings"></a>R 视觉对象设置
 
 ### <a name="interact-with-and-share-r-visuals"></a>与 R 视觉对象进行交互并共享
@@ -540,67 +491,7 @@ Power BI Desktop（2019 年 3 月版及更高版本）支持通过“组策略�
 
 ![在 Power BI 管理门户中嵌入代码](media/service-admin-portal/embed-codes.png)
 
- ## <a name=""></a><a name="organizational-visuals">组织视觉对象</a> 
-
-使用“组织视觉对象”选项卡，可以部署和管理组织内的 Power BI 视觉对象。 使用组织视觉对象，可以在组织中轻松部署专有的视觉对象，以便报表作者能够从 Power BI Desktop 中发现这些视觉对象，并将它们导入自己的报表中。 [了解详细信息](../developer/visuals/power-bi-custom-visuals-organization.md)
-
-> [!WARNING]
-> 自定义视觉对象可能包含存在安全或隐私风险的代码；请务必先信任自定义视觉对象的作者和来源，再将它们部署到组织存储库。
-
-下图展示了目前在组织存储库中部署的所有 Power BI 视觉对象。
-
-![组织管理员视觉对象](media/service-admin-portal/power-bi-custom-visuals-organizational-admin-01.png)
-
-### <a name="add-a-new-custom-visual"></a>添加新的自定义视觉对象
-
-若要向列表添加新的自定义视觉对象，请按以下步骤操作。 
-
-1. 在右窗格中，选择“添加自定义视觉对象”。
-
-    ![Power BI 视觉对象窗体](media/service-admin-portal/power-bi-custom-visuals-organizational-admin-02.png)
-
-1. 填写“添加自定义视觉对象”表单：
-
-    * **选择 .pbiviz 文件**（必填）：选择要上传的自定义视觉对象文件。 仅支持经版本控制的 API Power BI 视觉对象（阅读此处内容了解其含义）。
-
-    在上传自定义视觉对象之前，应查看有关视觉对象的安全和隐私，确保它符合组织的标准。
-
-    * **命名自定义视觉对象**（必填）：为视觉对象命名简短标题，以便 Power BI Desktop 用户能够轻松理解它的用途
-
-    * **图标**：显示在 Power BI Desktop UI 中的图标文件。
-
-    * **说明**：视觉对象的简短说明，用于向用户提供更多上下文和说明
-
-1. 选择“添加”，以发起上传请求。 如果成功，可以在列表中看到新项目。 如果失败，会收到相应的错误消息
-
-### <a name="delete-a-custom-visual-from-the-list"></a>从列表中删除自定义视觉对象
-
-若要永久删除视觉对象，请选择存储库中视觉对象的回收站图标。
-
-> [!IMPORTANT]
-> 删除操作无法撤消。 一旦删除，此视觉对象会立即停止在现有报表中呈现。 即使重新上传同一个视觉对象，它也不会替换之前删除的视觉对象。 不过，用户可以重新导入新视觉对象，并替换报表中的现有实例。
-
-### <a name="disable-a-custom-visual-in-the-list"></a>在列表中禁用自定义视觉对象
-
-若要禁用组织存储区中的视觉对象，请选择齿轮图标。 在“访问”部分中，禁用自定义视觉对象。
-
-禁用视觉对象后，视觉对象将不会在现有报表中呈现，并显示下面的错误消息。
-
-此自定义视觉对象不再可用。有关详细信息，请联系租户管理员。
-
-但是，设为书签的视觉对象仍正常工作。
-
-进行任何更新或管理员更改后，Power BI Desktop 用户应重新启动应用程序或刷新 Power BI 服务中的浏览器以查看更新。
-
-### <a name="update-a-visual"></a>更新视觉对象
-
-若要更新组织存储中的视觉对象，请选择齿轮图标。 浏览并上传新版视觉对象。
-
-确保视觉对象 ID 保持不变。 新文件将替换整个组织中所有报表的旧文件。 但是，如果新版本的视觉对象可能会破坏以前版本的视觉对象的任何使用情况或数据结构，则它们不会取代以前的版本。 相反，应创建新版本视觉对象的新列表。 例如，向新列出的视觉对象的标题添加新版本号（版本 X.X）。 通过这种方式，很明显可以看到，它还是相同的版本，只不过更新了版本号，因此现有报表不会破坏它们的功能。 同样，确保视觉对象 ID 保持不变。 然后，下一次用户从 Power BI Desktop 进入组织存储库时，他们就可以导入新版本，系统会提示他们替换报表中存在的当前版本。
-
-有关详细信息，请访问[关于组织的 Power BI 视觉对象的常见问题解答](../developer/visuals/power-bi-custom-visuals-faq.md#organizational-power-bi-visuals)
-
-## <a name=""></a><a name="dataflowStorage">数据流存储（预览版）</a>
+## <a name="dataflow-storage-preview"></a>数据流存储(预览版)
 
 默认情况下，Power BI 中使用的数据存储在由 Power BI 提供的内部存储中。 通过数据流与 Azure Data Lake Storage Gen2 (ADLS Gen2) 的集成，可将数据流存储在组织的 Azure Data Lake Storage Gen2 帐户中。 有关详细信息，请参阅[数据流和 Azure Data Lake 集成（预览）](../transform-model/service-dataflows-azure-data-lake-integration.md)。
 

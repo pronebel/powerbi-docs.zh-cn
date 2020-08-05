@@ -10,12 +10,12 @@ ms.topic: how-to
 ms.date: 03/11/2020
 ms.author: mihart
 LocalizationGroup: Common tasks
-ms.openlocfilehash: b35d04c591e9ea4102b20e4b04c3f25284246d17
-ms.sourcegitcommit: e8ed3d120699911b0f2e508dc20bd6a9b5f00580
+ms.openlocfilehash: 7f7aaf150a4b182ec1939820f92f4988ad373b3b
+ms.sourcegitcommit: 2131f7b075390c12659c76df94a8108226db084c
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/11/2020
-ms.locfileid: "86263291"
+ms.lasthandoff: 08/03/2020
+ms.locfileid: "87537173"
 ---
 # <a name="recent-content-in-the-power-bi-service"></a>Power BI 服务中**最近访问的**内容
 
