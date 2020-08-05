@@ -3,17 +3,17 @@ title: 在 Power BI 服务中订阅分页报表
 description: 在本文中，将学习在 Power BI 服务中订阅分页报表时应记住的事项。
 author: maggiesMSFT
 ms.author: maggies
-ms.reviewer: ''
+ms.reviewer: maggies
 ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: how-to
 ms.date: 12/03/2019
-ms.openlocfilehash: 22c36ff3ff14f67d84d2e3aa227dfe1a4c14b266
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 0e4a62cf6216af49ef61651dc310c93de41664b7
+ms.sourcegitcommit: 2131f7b075390c12659c76df94a8108226db084c
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85240297"
+ms.lasthandoff: 08/03/2020
+ms.locfileid: "87538116"
 ---
 # <a name="subscribe-yourself-and-others-to-paginated-reports-in-the-power-bi-service"></a>在 Power BI 服务中为自己和他人订阅分页报表 
 
