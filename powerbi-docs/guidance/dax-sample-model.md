@@ -8,12 +8,12 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 06/25/2020
 ms.author: v-pemyer
-ms.openlocfilehash: 470bfcd4d9131c98412c504e4aba7daf6a995890
-ms.sourcegitcommit: e8b12d97076c1387088841c3404eb7478be9155c
+ms.openlocfilehash: 6e2fe331fa274305447266321893204dddcc3148
+ms.sourcegitcommit: 2131f7b075390c12659c76df94a8108226db084c
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/01/2020
-ms.locfileid: "85785183"
+ms.lasthandoff: 08/03/2020
+ms.locfileid: "87537449"
 ---
 # <a name="dax-sample-model"></a>DAX 示例模型
 
@@ -50,5 +50,6 @@ Adventure Works 公司代表一家自行车制造商，将自行车及其配件�
 有关本文的详细信息，请参阅以下资源：
 
 - [数据分析表达式 (DAX) 引用](/dax/)
+- 学习路径：[在 Power BI Desktop 中使用 DAX](https://docs.microsoft.com/learn/paths/dax-power-bi/)
 - 是否有任何问题? [尝试咨询 Power BI 社区](https://community.powerbi.com/)
-- 建议？ [提出改进 Power BI 的想法](https://ideas.powerbi.com/)
+- 建议？ [提出改进 Power BI 的想法](https://ideas.powerbi.com)

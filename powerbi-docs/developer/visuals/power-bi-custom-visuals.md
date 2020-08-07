@@ -1,6 +1,6 @@
 ---
 title: Power BI 中的视觉对象
-description: Power BI 中的自定义可视化效果
+description: 本文介绍如何自定义 Power BI 视觉对象
 author: KesemSharabi
 ms.author: kesharab
 manager: rkarlin
@@ -8,20 +8,20 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: overview
-ms.date: 01/03/2019
+ms.date: 07/14/2020
 LocalizationGroup: Visualizations
-ms.openlocfilehash: e9dc53eb3f49a1ef62e4e3539ac7eb6d92b317af
-ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
+ms.openlocfilehash: e56b03eeccc3140709fb458d4e42a9065a4da5d4
+ms.sourcegitcommit: 2131f7b075390c12659c76df94a8108226db084c
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/19/2020
-ms.locfileid: "83561630"
+ms.lasthandoff: 08/03/2020
+ms.locfileid: "87538001"
 ---
 # <a name="visuals-in-power-bi"></a>Power BI 中的视觉对象
 
 Power BI 附带了许多现成的 Power BI 视觉对象。 这些视觉对象可在 [Power BI Desktop ](https://powerbi.microsoft.com/desktop/)和 [Power BI 服务](https://app.powerbi.com)的可视化效果窗格中使用，可用于创建和编辑 Power BI 内容。
 
-![可视化效果](media/power-bi-custom-visuals/power-bi-visualizations.png)
+![Power BI Desktop 和 Power BI 服务中显示的“Power BI 可视化”窗格的屏幕截图。](media/power-bi-custom-visuals/power-bi-visualizations.png)
 
 可以通过 Microsoft [AppSource](https://nam06.safelinks.protection.outlook.com/?url=https%3A%2F%2Fappsource.microsoft.com%2Fen-us%2Fmarketplace%2Fapps%3Fpage%3D1%26product%3Dpower-bi-visuals&data=02%7C01%7CKesem.Sharabi%40microsoft.com%7C6d9286afacb3468d4cde08d740b76694%7C72f988bf86f141af91ab2d7cd011db47%7C1%7C0%7C637049028749147718&sdata=igWm0e1vXdgGcbyvngQBrHQVAkahPnxPC1ZhUPntGI8%3D&reserved=0) 或 Power BI 获取更多 Power BI 视觉对象。 这些视觉对象由 Microsoft 和 Microsoft 合作伙伴创建，并由 AppSource 验证团队进行测试和验证。
 
@@ -38,6 +38,11 @@ Power BI 附带了许多现成的 Power BI 视觉对象。 这些视觉对象可
 ## <a name="appsource-power-bi-visuals"></a>AppSource Power BI 视觉对象
 
 Microsoft 和社区成员已将 Power BI 视觉对象公布到[ AppSource](https://appsource.microsoft.com/marketplace/apps?product=power-bi-visuals)。 你可以下载这些视觉对象，然后将其添加到 Power BI 报表。 这些 Power BI 视觉对象都已经过测试并通过 Microsoft 的功能和质量审核。
+
+>[!NOTE]
+>* 使用通过我们的 SDK 创建的 Power BI 视觉对象，你可以从位于 Power BI 租户的地理区域、符合性边界或国家云实例之外的第三方或其他服务中导入数据或向其发送数据。
+>* Power BI 认证的视觉对象是 AppSource 中的视觉对象，通过进一步测试可检查视觉对象是否访问外部服务或资源。
+>* 导入来自 AppSource 的 Power BI 视觉对象后，视觉对象可能会自动更新，而不显示任何其他通知。
 
 ### <a name="what-is-appsource"></a>什么是 AppSource？
 
@@ -74,10 +79,17 @@ Power BI 视觉对象是包含代码的包，这些代码用于呈现提供给�
 
 ## <a name="next-steps"></a>后续步骤
 
-* 如果你是开发人员，请从[开发 Power BI 视觉对象](custom-visual-develop-tutorial.md)教程开始。
+>[!div class="nextstepaction"]
+>[开发 Power BI 视觉对象](custom-visual-develop-tutorial.md)
 
-* 了解如何[构建 Power BI 视觉对象项目](visual-project-structure.md)。
+>[!div class="nextstepaction"]
+>[Power BI 视觉对象项目结构](visual-project-structure.md)
 
-* 浏览 [Power BI 视觉对象的准则](guidelines-powerbi-visuals.md)。
+>[!div class="nextstepaction"]
+>[Power BI 视觉对象指南](guidelines-powerbi-visuals.md)
 
-更多问题？ 请访问[关于 Power BI 视觉对象的常见问题解答](power-bi-custom-visuals-faq.md)页面或 [Power BI 社区](https://community.powerbi.com/)。
+>[!div class="nextstepaction"]
+>[常见问题](power-bi-custom-visuals-faq.md)
+
+>[!div class="nextstepaction"]
+>[Power BI 社区](https://community.powerbi.com/)

@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: how-to
-ms.date: 05/19/2020
+ms.date: 07/28/2020
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 9d20f9aa5311d8ee96246ab8b3ed832330742973
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: dcdd663ec9899f7623789915754087c4643c9806
+ms.sourcegitcommit: 00c0b24d5e80009d18cec6da4fee8a9611bcba04
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85223915"
+ms.lasthandoff: 07/29/2020
+ms.locfileid: "87411971"
 ---
 # <a name="data-sources-in-power-bi-desktop"></a>Power BI Desktop 中的数据源
 
@@ -73,7 +73,7 @@ ms.locfileid: "85223915"
 * Access 数据库
 * SQL Server Analysis Services 数据库
 * Oracle 数据库
-* IBM DB2 数据库
+* IBM Db2 数据库
 * IBM Informix 数据库 (Beta)
 * IBM Netezza
 * MySQL 数据库
@@ -116,7 +116,7 @@ ms.locfileid: "85223915"
 * Power BI 数据集
 * Power BI 数据流
 * Common Data Service
-* Power Platform 数据流
+* Power 平台数据流 (Beta)
 
 下图显示 Power 平台的“获取数据”窗口 。
 
@@ -133,6 +133,7 @@ ms.locfileid: "85223915"
 * Azure Blob 存储
 * Azure 表存储
 * Azure Cosmos DB
+* Azure 数据资源管理器 (Kusto)
 * Azure Data Lake Storage Gen2
 * Azure Data Lake Storage Gen1
 * Azure HDInsight (HDFS)
@@ -171,21 +172,19 @@ ms.locfileid: "85223915"
 * Marketo (Beta)
 * Mixpanel (Beta)
 * Planview Enterprise One - PRM (Beta)
-* Planview Projectplace (Beta)
 * QuickBooks Online (Beta)
 * Smartsheet
 * SparkPost (Beta)
 * SweetIQ (Beta)
 * Planview Enterprise One - CTM (Beta)
 * Twilio (Beta)
-* tyGraph (Beta)
-* Webtrends (Beta)
 * Zendesk (Beta)
 * Asana (Beta)
 * Dynamics 365 Customer Insights (Beta)
 * Emigo Data Source
 * Entersoft Business Suite (Beta)
-* FactSet Analytics (Beta)
+* FactSet Analytics
+* Palantir Foundry
 * Industrial App Store
 * Intune 数据仓库 (Beta)
 * Microsoft Graph Security (Beta)
@@ -218,7 +217,10 @@ ms.locfileid: "85223915"
 * Python 脚本
 * ODBC
 * OLE DB
+* Acterys：Model Automation & Planning (Beta)
+* Automation Anywhere (Beta)
 * 解算器
+* Cherwell (Beta)
 * Cognite Data Fusion (Beta)
 * FHIR
 * Information Grid (Beta)
@@ -233,6 +235,7 @@ ms.locfileid: "85223915"
 * Tenforce (Smart)List
 * TIBCO(R) 数据虚拟化 (Beta)
 * Vena (Beta)
+* Vessel Insight (Beta)
 * 工作人员维度 (Beta)
 * Zucchetti HR Infinity (Beta)
 * 空白查询

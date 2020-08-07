@@ -9,17 +9,17 @@ ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
 LocalizationGroup: Share your work
-ms.date: 07/22/2020
-ms.openlocfilehash: 17a0879dac416a98d214ed11861947cb2c311487
-ms.sourcegitcommit: 65025ab7ae57e338bdbd94be795886e5affd45b4
+ms.date: 07/31/2020
+ms.openlocfilehash: 01e5b470e0beb189d64da18785a17e771bcaf59b
+ms.sourcegitcommit: d9d67ee47954379c2df8db8d0dc8302de4c9f1e5
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/28/2020
-ms.locfileid: "87253831"
+ms.lasthandoff: 07/31/2020
+ms.locfileid: "87478029"
 ---
 # <a name="collaborate-in-microsoft-teams-with-power-bi"></a>使用 Power BI 在 Microsoft Teams 中开展协作
 
-有几个选项可用于在 Microsoft Teams 频道和聊天中共享和协作处理交互式 Power BI 内容。 
+随着分布式和远程劳动力成为常态，越来越多的组织依赖于 Microsoft Teams 来使员工保持同步。Power BI 提供多个选项，可用于在 Microsoft Teams 频道和聊天中共享和协作处理交互式 Power BI 内容。 
 
 - 通过 Microsoft Teams 的“Power BI”选项卡，可以[在 Microsoft Teams 频道和聊天中嵌入交互式报表](service-embed-report-microsoft-teams.md)。 “Power BI”选项卡可帮助你的同事查找团队的数据并在团队频道中进行讨论。 
 - 将报表、仪表板和应用的链接粘贴到 Microsoft Teams 消息框中时，请创建[链接预览](service-teams-link-preview.md)。 链接预览会显示有关该链接的信息。 
@@ -34,17 +34,6 @@ ms.locfileid: "87253831"
 - 用户具有 Power BI Pro 许可证，或报告包含在具有 Power BI 许可证的 [Power BI Premium 容量（EM 或 P SKU）](../admin/service-premium-what-is.md)中。
 - 用户已登录到 Power BI 服务以激活其 Power BI 许可证。
 - 用户满足使用 Microsoft Teams 中“Power BI”选项卡的要求。
-
-若要使用 Microsoft Teams 中的“Power BI”选项卡，请确保以下元素：
-
-- Microsoft Teams 具有“Power BI”选项卡。
-- 若要使用“Power BI”选项卡在 Microsoft Teams 中添加报表，需要在报表所在的工作区中至少具有“查看者”角色。 有关不同角色的信息，请参阅[新工作区中的角色](service-new-workspaces.md#roles-in-the-new-workspaces)。
-- 若要在 Microsoft Teams 的“Power BI”选项卡中查看报表，用户必须具有查看报表的权限。
-- 用户必须是有权访问频道和聊天的 Microsoft Teams 用户。
-
-若要在 Power BI 中使用“共享到 Teams”功能，请确保此设置：
-
-- Power BI 管理员未在 Power BI 管理门户中禁用“共享到 Teams”租户设置。 该设置允许组织隐藏“共享到 Teams”按钮。 有关详细信息，请参阅 [Power BI 管理门户](../admin/service-admin-portal.md#share-to-teams-tenant-setting)一文。
 
 ## <a name="grant-access-to-reports"></a>授予报表访问权限
 

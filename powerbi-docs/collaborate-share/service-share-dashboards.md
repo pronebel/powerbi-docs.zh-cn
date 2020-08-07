@@ -10,12 +10,12 @@ ms.topic: how-to
 ms.date: 06/26/2020
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: d09ebee0cc22c7037db437e1c7a46a3d19ff36fd
-ms.sourcegitcommit: a453ba52aafa012896f665660df7df7bc117ade5
+ms.openlocfilehash: 68d6a399a5ecccf07aaa71f74b18fd4ddd6082f5
+ms.sourcegitcommit: a7227f6d3236e6e0a7bc1f83ff6099b5cd58bff3
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/27/2020
-ms.locfileid: "85485568"
+ms.lasthandoff: 08/05/2020
+ms.locfileid: "87768489"
 ---
 # <a name="share-power-bi-dashboards-and-reports-with-coworkers-and-others"></a>与同事和其他人共享 Power BI 仪表板和报表
 共享是向授予用户对 Power BI 服务中的仪表板和报表的访问的最简单方法。 可以与组织内外的用户共享。
@@ -34,7 +34,7 @@ Power BI 服务还提供了其他开展协作和分发仪表板及报表的方�
 
 ## <a name="share-a-dashboard-or-report"></a>共享仪表板或报表
 
-1. 在仪表板或报表列，或在打开的仪表板或报表中，选择“共享”![共享图标](media/service-share-dashboards/power-bi-share-icon.png)。
+1. 在仪表板或报表列表中，或在打开的仪表板或报表中，选择“共享”:::image type="icon" source="../media/power-bi-share-icon.png" border="false":::。
 
 2. 在顶部框中，输入个人、通讯组或安全组的完整电子邮件地址。 不能与动态通讯组列表共享。 
    
@@ -67,7 +67,7 @@ Power BI 服务还提供了其他开展协作和分发仪表板及报表的方�
 ## <a name="see-who-has-access-to-a-dashboard-or-report"></a>查看哪些人有权访问仪表板或报表
 有时，需要查看与之共享的人员，并了解他们的共享对象。
 
-1. 在仪表板或报表列中，或在仪表板或报表中，选择“共享”![共享图标](media/service-share-dashboards/power-bi-share-icon.png)。 
+1. 在仪表板或报表列表中，或在仪表板或报表中，选择“共享”:::image type="icon" source="../media/power-bi-share-icon.png" border="false":::。 
 2. 在“共享仪表板”或“共享报表”对话框中，选择“访问权限”  。
    
     ![“共享仪表板”对话框，“访问权限”选项卡](media/service-share-dashboards/power-bi-share-dialog-access.png)
@@ -110,7 +110,7 @@ Power BI 管理员允许外部来宾用户编辑和管理组织中的内容。 �
 * 请在发送之前，取消选中邀请底部的“允许收件人共享仪表板(或报表)”复选框。
 
 ### <a name="if-youve-already-shared-the-dashboard-or-report"></a>如果已共享仪表板或报表
-1. 在仪表板或报表列中，或在仪表板或报表中，选择“共享”![共享图标](media/service-share-dashboards/power-bi-share-icon.png)。 
+1. 在仪表板或报表列表中，或在仪表板或报表中，选择“共享”:::image type="icon" source="../media/power-bi-share-icon.png" border="false":::。 
 2. 在“共享仪表板”或“共享报表”对话框中，选择“访问权限”  。
    
     ![“共享仪表板”对话框，“访问权限”选项卡](media/service-share-dashboards/power-bi-share-dialog-access.png)

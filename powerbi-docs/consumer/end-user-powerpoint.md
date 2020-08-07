@@ -10,12 +10,12 @@ ms.topic: how-to
 ms.date: 07/01/2020
 ms.author: mihart
 LocalizationGroup: Share your work
-ms.openlocfilehash: d49d92261b141a66021bb0809c214e712bd687c8
-ms.sourcegitcommit: e8ed3d120699911b0f2e508dc20bd6a9b5f00580
+ms.openlocfilehash: 3707399d21d15b16236e0e33da6c264fb6e364b4
+ms.sourcegitcommit: a7227f6d3236e6e0a7bc1f83ff6099b5cd58bff3
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/11/2020
-ms.locfileid: "86263718"
+ms.lasthandoff: 08/05/2020
+ms.locfileid: "87768962"
 ---
 # <a name="export-reports-to-powerpoint"></a>将报表导出到 PowerPoint
 
@@ -104,7 +104,7 @@ Power BI 服务完成导出过程后，通知横幅会发生变化以通知你�
 * 无法导出某些报表。 其中包括：
     - Power BI 租户域之外的用户拥有的报表（例如组织外部人员拥有并与你共享的报表）。
     - 如果与组织外部人员（即不属于 Power BI 租户的用户）共享仪表板，该用户无法将共享仪表板的关联报表导出到 PowerPoint。 例如，如果你是 aaron@contoso.com，虽然可以与 david@cohowinery.com 共享内容， 但 david@cohowinery.com 无法将关联报表导出到 PowerPoint。
-    - 包含 30 个以上报表页面的报表。 将仅导出前 30 页。
+    - 包含 50 个以上报表页的报表。 将仅导出前 50 页。
     - 将报表导出到较旧版本的 PowerPoint。
     - 处理时间超过一小时的报表。 
     - 加载时间超过 6 分钟的报表页。 

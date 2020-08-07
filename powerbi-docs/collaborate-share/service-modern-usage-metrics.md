@@ -10,14 +10,14 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 07/22/2020
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 7c8c1744c8ecbbf170ae073d2e302fe55faea55b
-ms.sourcegitcommit: e9cd61eaa66eda01cc159251d7936a455c55bd84
+ms.openlocfilehash: 9aad77f162a49697466899afce44284c7f063746
+ms.sourcegitcommit: d9d67ee47954379c2df8db8d0dc8302de4c9f1e5
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/23/2020
-ms.locfileid: "86953021"
+ms.lasthandoff: 07/31/2020
+ms.locfileid: "87478144"
 ---
-# <a name="monitor-usage-metrics-in-the-new-workspace-experience"></a>在新的工作区体验中监视使用情况指标
+# <a name="monitor-usage-metrics-in-the-new-workspace-experience-preview"></a>在新的工作区体验中监视使用指标（预览）
 
 了解内容的使用方式有助于说明影响，并划分工作的优先级。 使用指标可能会显示组织的大部分部门每天会使用其中一个报表，还可能会显示根本没人查看你创建的某个仪表板。 这种类型的反馈在指导工作方面极其重要。
 
@@ -81,7 +81,7 @@ ms.locfileid: "86953021"
 
 | **第** | **指标** | **说明** |
 | --- | --- | --- |
-| 报告使用情况 | 报表查看 | 每次有人打开报表时，都会记录一次报表查看。 请注意，查看的定义不同于以前的使用情况指标报表。 更改报表页不再被视为一次查看。 |
+| 报告使用情况 | 报表查看 | 每次有人打开报表时，都会记录一次报表查看。 请注意，查看的定义不同于以前的使用情况指标报表。 更改报表页不再被视为一次查看。 使用指标中不再考虑共享和固定等活动。|
 | 报告使用情况 | 唯一查看者 | 查看者是指在一段时间内至少打开一次报表的用户（以 AAD 用户帐户为依据）。 |
 | 报告使用情况 | 查看趋势 | 查看趋势反映了一段时间内的查看计数变化。 它将所选时间段的前半部分与后半部分进行比较。 |
 | 报告使用情况 | “日期”切片器 | 可以更改“报表使用情况”页上的时间段，例如计算每周或每两周的趋势。 在“报表使用情况”页的左下角，可以确定所选报表可用的使用情况数据的最早和最晚日期。 |

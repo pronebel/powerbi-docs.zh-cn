@@ -6,12 +6,12 @@ ms.prod: powerbi
 ms.topic: article
 ms.date: 03/25/2020
 ms.author: margoc
-ms.openlocfilehash: edc2e40c219a8bbe1d57a5cfda774e7f9f87856d
-ms.sourcegitcommit: 66b1a0c74b8a7dcb33a2f8570fb67bce2401a895
+ms.openlocfilehash: 8825cf687d3d6dd754e520f5e452b2483e3f179b
+ms.sourcegitcommit: 00c0b24d5e80009d18cec6da4fee8a9611bcba04
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/08/2020
-ms.locfileid: "84532617"
+ms.lasthandoff: 07/29/2020
+ms.locfileid: "87411856"
 ---
 # <a name="developer-learning-catalog"></a>开发人员学习目录
 
@@ -27,13 +27,17 @@ ms.locfileid: "84532617"
 ## <a name="embedded"></a>Embedded<a name="embedded"></a>
 | 内容 | 说明 | 格式  | 长度      |
 |--------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------|-------------|
-|[在线课程：Power BI 开发人员的一天](developer-online-course.md)|这是一门基于视频的课程，使应用开发人员能够掌握嵌入 Power BI 内容所需的技术知识。 建议按录制顺序观看视频，从视频 1 开始，到视频 20 结束。|YouTube 播放列表和自学工具包|3 小时 20 分钟|
 | [为多租户部署管理 Power BI 嵌入式分析的最佳做法](https://info.microsoft.com/ww-landing-PBI-webinar-Best-Practices-for-Managing-Power-BI-Embedded-video.html) | Power BI Embedded 是一项功能强大的服务，可让你在自己的应用程序中对 Power BI 进行贴牌。 观看此网络研讨会，了解如何管理 Power BI Embedded 部署。   | 网络研讨会       |                |
 | [在 20 分钟内了解 Power BI Embedded](https://info.microsoft.com/ww-ondemand-power-bi-embedded-in-20-min.html)  | 本次网络研讨会将介绍 Power BI Embedded。 到此次网络研讨会结束时，用户可以了解到 Power BI Embedded 的具体内容、开始使用该产品的后续步骤，以及从何处获取帮助/资源。 | 网络研讨会       |                |
 | [使用 Power BI 嵌入功能进行开发（主讲人：Ted Pattison）– 2018 年 4 月更新](https://www.youtube.com/watch?v=swnGlrRy588)  | 在这个面向开发者的网络研讨会中，Ted Pattison 将讨论 Power BI 嵌入平台的最新增强功能，以及 ISV 和企业开发者如何利用这些功能。 | YouTube 视频 | 59 分钟 49 秒  |
 | [Power BI 嵌入版本 2 - 完整案例](https://community.powerbi.com/t5/Webinars-and-Video-Gallery/Power-BI-Embedding-Version-2-The-Full-Story/td-p/229527)    | 本网络研讨会于 2017 年 8 月 10 日举行，由来自 Critical Path Training 的 Power BI MVP Ted Pattison 主讲。 研讨会介绍了如何通过 Power BI Premium 提供的全新 Power BI 嵌入功能进行开发。  | 网络研讨会       | 1 小时 7 分钟 23 秒 |
 | [教程：将 Power BI 内容嵌入应用程序供客户使用](https://docs.microsoft.com/power-bi/developer/embed-sample-for-customers#step-1-setup-your-embedded-analytics-development-environment) | 借助 Azure 中的 Power BI Embedded 或 Office 中嵌入的 Power BI，可以使用“应用拥有数据”将报表、仪表板或磁贴嵌入到应用程序中。  | 文档 |                |
 | [在 20 分钟内了解 Power BI Embedded](https://info.microsoft.com/ww-ondemand-power-bi-embedded-in-20-min.html)  | 本次网络研讨会将介绍 Power BI Embedded。 到此次网络研讨会结束时，用户可以了解到 Power BI Embedded 的具体内容、开始使用该产品的后续步骤，以及从何处获取帮助/资源。 | 网络研讨会       |                |
+## <a name="dax"></a>DAX<a name="dax"></a>
+| 内容 | 说明 | 格式  | 长度      |
+|--------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------|-------------|
+| [适用于 Power BI 的实用 DAX（主讲人：Phil Seamark）](https://www.youtube.com/watch?v=1fGfqzS37qs)                                                                                    | Phil Seamark 将在 Power BI 中演示实用 DAX 的最佳做法，这与他新书的内容相对应                                                                                                                                                                                                                 | YouTube 视频 | 59 分钟 41 秒 |
+| [创造性的 DAX 解决方案（主讲人：Phil Seamark）](https://community.powerbi.com/t5/Webinars-and-Video-Gallery/10-2-18-Webinar-Creative-DAX-solutions-by-Philip-Seamark/td-p/516250) | 你是否知道，DAX 语言远比仅对列运行 SUM，或对表中的行进行计数更加强大？ DAX 是速度最快的数据库之一。  加入 Charles Sterling 和 Philip Seamark，因为他们将探索一些不寻常且具有创造性的方案，而你可能没有想到这些方案是可行的。 | 网络研讨会       | 58 分钟 12 秒 |
 ## <a name="development"></a>开发<a name="development"></a>
 | 内容 | 说明 | 格式  | 长度      |
 |--------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------|-------------|

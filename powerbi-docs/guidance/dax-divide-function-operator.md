@@ -8,12 +8,12 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 09/09/2019
 ms.author: v-pemyer
-ms.openlocfilehash: b792c7d9f6200544188e9f9fe711cd1394e8b921
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 2c3733f98c278895102165e9d2db52f0e9318903
+ms.sourcegitcommit: 2131f7b075390c12659c76df94a8108226db084c
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83279563"
+ms.lasthandoff: 08/03/2020
+ms.locfileid: "87537518"
 ---
 # <a name="dax-divide-function-vs-divide-operator-"></a>DAX：DIVIDE 函数与除法运算符 (/)
 
@@ -65,5 +65,6 @@ DIVIDE([Profit], [Sales])
 有关本文的详细信息，请参阅以下资源：
 
 - [数据分析表达式 (DAX) 引用](/dax/)
+- 学习路径：[在 Power BI Desktop 中使用 DAX](https://docs.microsoft.com/learn/paths/dax-power-bi/)
 - 是否有任何问题? [尝试咨询 Power BI 社区](https://community.powerbi.com/)
-
+- 建议？ [提出改进 Power BI 的想法](https://ideas.powerbi.com)

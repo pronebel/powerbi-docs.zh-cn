@@ -10,12 +10,12 @@ ms.topic: how-to
 ms.date: 03/11/2020
 ms.author: mihart
 LocalizationGroup: Share your work
-ms.openlocfilehash: ff79017bd77dd63ce1aa50b9c5361bf82a060820
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: ec45d971855aefe35161f2b10fecd483f0345a46
+ms.sourcegitcommit: a7227f6d3236e6e0a7bc1f83ff6099b5cd58bff3
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85236404"
+ms.lasthandoff: 08/05/2020
+ms.locfileid: "87768794"
 ---
 # <a name="export-reports-from-power-bi-to-pdf"></a>从 Power BI 将报表导出为 PDF
 
@@ -55,7 +55,7 @@ ms.locfileid: "85236404"
 * 目前不支持 R 视觉对象和 Python 视觉对象。 在 PDF 中，这些视觉对象为空白，并会显示一条错误消息。 
 * 支持经认证的 Power BI 视觉对象。 有关经认证的 Power BI 视觉对象的详细信息（包括如何完成 Power BI 视觉对象认证），请参阅[获取 Power BI 视觉对象认证](../developer/visuals/power-bi-custom-visuals-certified.md)。 不支持尚未认证的 Power BI 视觉对象。 在 PDF 中，它们会显示一条错误消息。
 * ESRI 视觉对象不受支持
-* 目前不能导出包含 30 个以上报表页的报表。
+* 目前不能导出包含 50 个以上报表页的报表。
 * 将报表导出为 PDF 的过程可能需要几分钟才能完成，请耐心等待。 影响所需时间的因素包括报表的结构和 Power BI 服务的当前负载。
 * 如果 Power BI 服务中没有“导出为 PDF”菜单项，则可能是因为租户管理员已禁用该功能  。 有关详细信息，请联系租户管理员。
 * 背景图像会根据图表的边界区域进行裁剪。 我们建议在导出为 PDF 之前删除背景图像。

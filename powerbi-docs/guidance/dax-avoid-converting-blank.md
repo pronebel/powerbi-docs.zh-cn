@@ -8,12 +8,12 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 11/24/2019
 ms.author: v-pemyer
-ms.openlocfilehash: 6b130016bf4514b817edbf8c91cfb24d2063e6f1
-ms.sourcegitcommit: c83146ad008ce13bf3289de9b76c507be2c330aa
+ms.openlocfilehash: ac5eb41aa248eeebf2cbfb6d53e327e2a3e83fdd
+ms.sourcegitcommit: 2131f7b075390c12659c76df94a8108226db084c
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/10/2020
-ms.locfileid: "86215447"
+ms.lasthandoff: 08/03/2020
+ms.locfileid: "87537610"
 ---
 # <a name="dax-avoid-converting-blanks-to-values"></a>DAX：不要将空白转换为值
 
@@ -79,4 +79,6 @@ DIVIDE([Profit], [Sales])
 有关本文的详细信息，请参阅以下资源：
 
 - [数据分析表达式 (DAX) 引用](/dax/)
+- 学习路径：[在 Power BI Desktop 中使用 DAX](https://docs.microsoft.com/learn/paths/dax-power-bi/)
 - 是否有任何问题? [尝试咨询 Power BI 社区](https://community.powerbi.com/)
+- 建议？ [提出改进 Power BI 的想法](https://ideas.powerbi.com)

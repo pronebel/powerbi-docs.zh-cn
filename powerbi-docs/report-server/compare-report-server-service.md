@@ -8,13 +8,13 @@ ms.topic: overview
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.custom: mvc
-ms.date: 07/27/2020
-ms.openlocfilehash: c91642a08642a52b333ccba14078068eaa9ba616
-ms.sourcegitcommit: 65025ab7ae57e338bdbd94be795886e5affd45b4
+ms.date: 07/28/2020
+ms.openlocfilehash: 44cfbeb85f30e2d84dc2c693ab4837606eb899eb
+ms.sourcegitcommit: 00c0b24d5e80009d18cec6da4fee8a9611bcba04
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/28/2020
-ms.locfileid: "87252857"
+ms.lasthandoff: 07/29/2020
+ms.locfileid: "87412040"
 ---
 # <a name="comparing-power-bi-report-server-and-the-power-bi-service"></a>比较 Power BI 报表服务器和 Power BI 服务
 
@@ -48,13 +48,14 @@ Power BI 报表服务器和 Power BI 服务有许多相似之处和一些关键�
 | 分页报表的电子邮件订阅 | 是 | 是 | [在 Power BI 服务中为自己和他人订阅分页报表](../consumer/paginated-reports-subscriptions.md)<br><br>[Reporting Services 中的电子邮件传递](https://docs.microsoft.com/sql/reporting-services/working-with-subscriptions-web-portal)  |
 | 数据警报 | 否 | 是 | Power BI 服务中的[数据警报](../create-reports/service-set-data-alerts.md)
 | 行级别安全性 (RLS) | 是 | 是 | 在 DirectQuery（数据源）和导入模式下均可用 <br><br>[Power BI 服务](../admin/service-admin-rls.md)中的行级别安全性 <br><br>[Power BI 报表服务器](row-level-security-report-server.md)中的行级别安全性 |
+| 多对多关系 | 否 | 是 | 在 Power BI Desktop 中[应用多对多关系](../transform-model/desktop-many-to-many-relationships.md) |
 | 跨报表钻取 | 否 | 是 | [使用跨报表钻取](../create-reports/desktop-cross-report-drill-through.md) |
 | 全屏模式 | 否 | 是 | Power BI 服务中的[全屏模式](../consumer/end-user-focus.md) |
-| 高级 Microsoft 365 协作 | 否 | 是 | 使用 Microsoft 365 [在工作区中进行协作](../collaborate-share/service-collaborate-power-bi-workspace.md) |
+| 高级 Microsoft 365 协作 | 否 | “是” | 使用 Microsoft 365 [在工作区中进行协作](../collaborate-share/service-collaborate-power-bi-workspace.md) |
 | R 脚本和视觉对象 | 否 | “是” | 在 Power BI Desktop 中[创建 R 视觉对象](../create-reports/desktop-r-visuals.md)并运行 R 脚本，然后将其发布到 Power BI 服务。 无法将带有 R 脚本或视觉对象的 Power BI 报表保存到 Power BI 报表服务器。  |
-| Python 脚本和视觉对象 | 否 | 是 | 在 Power BI Desktop 中[创建 Python 脚本](../connect-data/desktop-python-scripts.md)和视觉对象，并将其发布到 Power BI 服务。 无法将带有 Python 脚本或视觉对象的 Power BI 报表保存到 Power BI 报表服务器。 |
+| Python 脚本和视觉对象 | 否 | “是” | 在 Power BI Desktop 中[创建 Python 脚本](../connect-data/desktop-python-scripts.md)和视觉对象，并将其发布到 Power BI 服务。 无法将带有 Python 脚本或视觉对象的 Power BI 报表保存到 Power BI 报表服务器。 |
 | 预览功能 | 否 | 是 | [选择使用 Power BI 服务预览](../consumer/end-user-preview-features.md)功能 |
-| Power BI 视觉对象 | 是 | 是 | [Power BI 视觉对象](../developer/visuals/power-bi-custom-visuals.md) |
+| Power BI 视觉对象 | 是 | “是” | [Power BI 视觉对象](../developer/visuals/power-bi-custom-visuals.md) |
 | 复合模型 | 否 | “是” |
 | Power BI Desktop | 更适合报表服务器的版本，可使用报表服务器下载 | 更适合 Power BI 服务的版本，可从 Windows 应用商店下载 | [适用于报表服务器的 Power BI Desktop](https://powerbi.microsoft.com/report-server/) <br><br> [适用于 Power BI 服务的 Power BI Desktop](https://aka.ms/pbidesktopstore) |
 

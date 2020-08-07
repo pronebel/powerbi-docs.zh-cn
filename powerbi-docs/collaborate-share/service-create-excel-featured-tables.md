@@ -6,24 +6,26 @@ ms.reviewer: lukaszp
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: how-to
-ms.date: 07/24/2020
+ms.date: 07/30/2020
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: e39d2fe11a58691b259784c292fec6e5ee6cb322
-ms.sourcegitcommit: 65025ab7ae57e338bdbd94be795886e5affd45b4
+ms.openlocfilehash: c74c618eb4c748d94260573c1ddd4266d3cf5c0e
+ms.sourcegitcommit: d9d67ee47954379c2df8db8d0dc8302de4c9f1e5
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/28/2020
-ms.locfileid: "87253832"
+ms.lasthandoff: 07/31/2020
+ms.locfileid: "87478075"
 ---
 # <a name="set-featured-tables-in-power-bi-desktop-preview"></a>在 Power BI Desktop 中设置精选表（预览版）
 
 在 Excel 中的数据类型库中，用户可以从 Power BI 数据集的精选表中查找数据。 在本文中，你将了解如何在数据集中将表设置为“精选”。 这些标记使用户能够更轻松地将企业数据添加到他们的 Excel 工作表中。 下面是设置和共享精选表的基本步骤。
 
-1. [在 Power BI 中升级或认证数据集](../connect-data/service-datasets-promote.md)。 
 1. 在 Power BI Desktop 中标识数据集中的精选表（本文）
 1. 将带有精选表的数据集保存到某个新工作区中。 报表创建者可以创建带有那些精选表的报表。 
 1. 组织的其余部分可以连接到那些精选表（在 Excel 中称为数据类型），以获取相关且可刷新的数据。 文章[在 Excel 中访问 Power BI 精选表（预览版）](service-excel-featured-tables.md)介绍如何在 Excel 中使用这些精选表。
+
+> [!NOTE]
+> 可以[在 Power BI 中推广或认证数据集](../connect-data/service-datasets-promote.md)。 这称为认可。 Excel 会对数据类型库中已认可的数据集中的表区分优先级。 Excel 首先列出已认证的数据集中的精选表，然后列出已推广的数据集中的表。 之后，Excel 会列出未经认可的数据集中的精选表。 
 
 ## <a name="turn-on-the-featured-table-preview"></a>启用精选表预览
 
@@ -31,6 +33,8 @@ ms.locfileid: "87253832"
 2. 选中“精选表”复选框。
 
     :::image type="content" source="media/service-excel-featured-tables/power-bi-preview-featured-tables.png" alt-text="预览精选表选项":::
+
+3. 重启 Power BI Desktop。
 
 ## <a name="select-a-table"></a>选择表
 

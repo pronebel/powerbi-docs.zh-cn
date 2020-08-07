@@ -6,14 +6,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 07/15/2020
+ms.date: 08/03/2020
 ms.author: kfollis
-ms.openlocfilehash: 34c46f97128d1229f46eeed254bdecee58a32aaf
-ms.sourcegitcommit: 11deeccf596e9bb8f22615276a152614f7579f35
+ms.openlocfilehash: d7b36d7ecbbf9d046c02f275ca83d7f8c8a196d5
+ms.sourcegitcommit: a7227f6d3236e6e0a7bc1f83ff6099b5cd58bff3
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/16/2020
-ms.locfileid: "86409458"
+ms.lasthandoff: 08/05/2020
+ms.locfileid: "87768392"
 ---
 # <a name="power-bi-webinars"></a>Power BI 网络研讨会
 [//]: # "Tatevik Tatero (tatevik.teroyan@simple-concepts.com) 是与 Chauncy Freels 合作的供应商，可帮助维护此网络研讨会列表"
@@ -27,6 +27,10 @@ ms.locfileid: "86409458"
 ## <a name="featured-webinars"></a>特别推荐的网络研讨会
 
 开始加入这些受欢迎的按需网络研讨会
+
+**利用管理 BI 内容的最佳做法，提高用户满意度**  
+作者：Nimrod Shalit  
+[立即观看](https://info.microsoft.com/ww-landing-Boost-User-Satisfaction-with-Best-Practices-for-Managing-BI-Content.html?lcid=en-us)
 
 从见解到操作：**使用 Power BI 推动数据区域性**  
 作者：Arun Ulagaratchagan 和 Amir Netz  

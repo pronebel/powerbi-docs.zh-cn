@@ -9,19 +9,28 @@ ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
 LocalizationGroup: Share your work
-ms.date: 07/22/2020
-ms.openlocfilehash: 68459deb29c59af3b9e2b185d54cf4e523d555d8
-ms.sourcegitcommit: 65025ab7ae57e338bdbd94be795886e5affd45b4
+ms.date: 07/31/2020
+ms.openlocfilehash: 53126fe044f65740b9dac072422f749312b960da
+ms.sourcegitcommit: d9d67ee47954379c2df8db8d0dc8302de4c9f1e5
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/28/2020
-ms.locfileid: "87252558"
+ms.lasthandoff: 07/31/2020
+ms.locfileid: "87478006"
 ---
 # <a name="embed-power-bi-content-in-microsoft-teams"></a>在 Microsoft Teams 中嵌入 Power BI 内容
 
 可以轻松地将交互式 Power BI 报表嵌入 Microsoft Teams 频道和聊天中。 
 
-请参阅[使用 Power BI 在 Microsoft Teams 中开展协作](service-embed-report-microsoft-teams.md)，其中介绍了 Power BI 和 Teams 协同工作的背景，包括需要满足的要求。
+## <a name="requirements"></a>要求
+
+若要使用 Microsoft Teams 中的“Power BI”选项卡，请确保以下元素：
+
+- Microsoft Teams 具有“Power BI”选项卡。
+- 若要使用“Power BI”选项卡在 Microsoft Teams 中添加报表，需要在报表所在的工作区中至少具有“查看者”角色。 有关不同角色的信息，请参阅[新工作区中的角色](service-new-workspaces.md#roles-in-the-new-workspaces)。
+- 若要在 Microsoft Teams 的“Power BI”选项卡中查看报表，用户必须具有查看报表的权限。
+- 用户必须是有权访问频道和聊天的 Microsoft Teams 用户。
+
+请参阅[使用 Power BI 在 Microsoft Teams 中开展协作](service-embed-report-microsoft-teams.md)，其中介绍了 Power BI 和 Teams 协同工作的背景以及其他要求。
 
 ## <a name="embed-a-report-in-teams"></a>在 Teams 中嵌入报表
 

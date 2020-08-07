@@ -8,12 +8,12 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 11/23/2019
 ms.author: v-pemyer
-ms.openlocfilehash: f352cbbd7c42aa54ae876e73c0ed821eccda59c8
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: ade84d1523d79e4e233604905627e8e862278fa1
+ms.sourcegitcommit: 2131f7b075390c12659c76df94a8108226db084c
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "74700699"
+ms.lasthandoff: 08/03/2020
+ms.locfileid: "87537403"
 ---
 # <a name="dax-use-variables-to-improve-your-formulas"></a>DAX：使用变量改进公式
 
@@ -113,5 +113,8 @@ RETURN
 
 有关本文的详细信息，请参阅以下资源：
 
+- [数据分析表达式 (DAX) 引用](/dax/)
 - [VAR](/dax/var-dax) DAX 文章
+- 学习路径：[在 Power BI Desktop 中使用 DAX](https://docs.microsoft.com/learn/paths/dax-power-bi/)
 - 是否有任何问题? [尝试咨询 Power BI 社区](https://community.powerbi.com/)
+- 建议？ [提出改进 Power BI 的想法](https://ideas.powerbi.com)

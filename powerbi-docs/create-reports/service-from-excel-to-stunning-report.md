@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: tutorial
-ms.date: 07/23/2020
+ms.date: 07/30/2020
 ms.author: maggies
 LocalizationGroup: Data from files
-ms.openlocfilehash: f901dcad1743383b85db3935ede8fddf8a4ed492
-ms.sourcegitcommit: 65025ab7ae57e338bdbd94be795886e5affd45b4
+ms.openlocfilehash: ccf8b5fa8f1c4d18a25767ff11f035304b339de0
+ms.sourcegitcommit: d9d67ee47954379c2df8db8d0dc8302de4c9f1e5
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/28/2020
-ms.locfileid: "87251776"
+ms.lasthandoff: 07/31/2020
+ms.locfileid: "87478121"
 ---
 # <a name="tutorial-from-excel-workbook-to-a-report-in-the-power-bi-service-to-microsoft-teams"></a>教程：从 Excel 工作簿到 Power BI 服务中的报表再到 Microsoft Teams
 你的经理想要在下班前查看有关最新销售和利润数据的报表。 但最新数据位于各种第三方系统上以及你的笔记本电脑上的文件内。 以前，创建视觉对象和格式化报表都需要花费数小时，这让你深感焦虑。
@@ -204,8 +204,6 @@ Power BI 服务连接到多个数据源，包括位于计算机上的 Excel 文�
 
 ## <a name="next-steps"></a>后续步骤
 
-* [Power BI 服务入门](../fundamentals/service-get-started.md)
-* [Power BI Desktop 入门](../fundamentals/desktop-getting-started.md)
-* [Power BI 服务中设计器的基本概念](../fundamentals/service-basic-concepts.md)
+* 现在，你已经在 Power BI 服务中创建了基本报表，不妨学习如何在 Power BI Desktop 中创建报表？ 尝试学习教程[从 Excel 工作簿变为 Power BI Desktop 中的出色报表](desktop-excel-stunning-report.md)。
 
 更多问题？ [尝试参与 Power BI 社区](https://community.powerbi.com/)。
