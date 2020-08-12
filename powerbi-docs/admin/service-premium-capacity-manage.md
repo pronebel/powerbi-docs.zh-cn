@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 04/10/2019
 ms.custom: seodec18
 LocalizationGroup: Premium
-ms.openlocfilehash: fdb3db1db1fe82743658f6a6073386701e7fe961
-ms.sourcegitcommit: a7b142685738a2f26ae0a5fa08f894f9ff03557b
+ms.openlocfilehash: 985c028ac2624bb95939d41239b34d2473b15232
+ms.sourcegitcommit: 0d0ab427bb71b37c9e5170c515a8f274e1f20c17
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/28/2020
-ms.locfileid: "84120994"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "87878478"
 ---
 # <a name="managing-premium-capacities"></a>管理高级容量
 
@@ -107,7 +107,7 @@ Power BI 管理门户中的监视功能旨在提供关键容量指标的快速�
 
 ### <a name="power-bi-premium-capacity-metrics-app"></a>Power BI Premium 容量指标应用
 
-[Power BI Premium 容量指标应用](https://appsource.microsoft.com/product/power-bi/pbi_pcmm.pbi-premiumcapacitymonitoring?tab=Overview)是一种可供容量管理员使用的 Power BI 应用，它的安装方式与任何其他 Power BI 应用类似。 它包含一个仪表板和一个报表。
+[Power BI Premium 容量指标应用](https://appsource.microsoft.com/en-us/product/power-bi/pbi_pcmm.capacity-metrics-dxt?tab=Overview)是一种可供容量管理员使用的 Power BI 应用，它的安装方式与任何其他 Power BI 应用类似。 它包含一个仪表板和一个报表。
 
 ![Power BI Premium 容量指标应用](media/service-premium-capacity-manage/capacity-metrics-app.png)
 

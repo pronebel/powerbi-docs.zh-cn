@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: tutorial
 ms.date: 04/02/2020
-ms.openlocfilehash: cbc8f6366e23aa7fbfb447bbfe56909c09f3e3fd
-ms.sourcegitcommit: caf60154a092f88617eb177bc34fb784f2365962
+ms.openlocfilehash: 2cc37d1296d7f170bf8c6280465e7a3f1aa52e33
+ms.sourcegitcommit: 0d0ab427bb71b37c9e5170c515a8f274e1f20c17
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/25/2020
-ms.locfileid: "85354469"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "87878687"
 ---
 # <a name="tutorial-build-a-funnel-plot-from-r-script-to-r-visual"></a>教程：根据 R 脚本对 R 视觉对象创建漏斗图
 本文介绍如何使用 R 脚本对 R 视觉对象逐步创建漏斗图。
@@ -75,7 +75,7 @@ ms.locfileid: "85354469"
 1. 使用 `pbiviz package` 命令重新打包视觉对象，并尝试将其导入 Power BI。
 
 > [!NOTE]
-> 请参阅 [PBIX](https://github.com/microsoft/PowerBI-visuals/raw/master/RVisualTutorial/TutorialFunnelPlot/chapter3-RCustomVisual/funnelPlot_RCustomVisual.pbix) 和[源代码](https://github.com/Microsoft/PowerBI-visuals/tree/master/RVisualTutorial/TutorialFunnelPlot/chapter3_RCustomVisual/funnelRvisual_v01/)进行下载。
+> 请参阅 [PBIX](https://github.com/microsoft/PowerBI-visuals/blob/master/RVisualTutorial/TutorialFunnelPlot/chapter3_RCustomVisual/funnelPlot_RCustomVisual.pbix) 和[源代码](https://github.com/Microsoft/PowerBI-visuals/tree/master/RVisualTutorial/TutorialFunnelPlot/chapter3_RCustomVisual/funnelRvisual_v01/)进行下载。
 
 ## <a name="make-r-based-visual-improvements"></a>进行基于 R 的视觉对象改进
 
@@ -274,7 +274,7 @@ ms.locfileid: "85354469"
 
 * 每个 R 视觉对象都会将 `unique` 运算符应用到其输入表。 要避免删除相同的行，请考虑添加具有唯一 ID 的额外输入字段，并在 R 代码中将其忽略。   
 
-* 如果已有 Power BI 帐户，请使用 Power BI 服务[即时](/PowerBI-visuals/docs/step-by-step-lab/creating-a-custom-visual/#testing-the-custom-visual)开发视觉对象，而不是使用 `pbiviz package` 命令重新打包它们。
+* 如果已有 Power BI 帐户，请使用 Power BI 服务[即时](/power-bi/developer/visuals/custom-visual-develop-tutorial/)开发视觉对象，而不是使用 `pbiviz package` 命令重新打包它们。
 
 ### <a name="html-widgets-gallery"></a>HTML 小组件库
 浏览 [HTML 小组件库](http://gallery.htmlwidgets.org/)中的视觉对象，以便在下一个视觉对象中使用。 为方便起见，我们创建了一个[视觉对象项目存储库](https://github.com/Microsoft/PowerBI-visuals/tree/master/RVisualTutorial/TutorialFunnelPlot/chapter4_RHTMLCustomVisual/multipleRHTML)，其中有 20 多个交互式 HTML 视觉对象可供选择！

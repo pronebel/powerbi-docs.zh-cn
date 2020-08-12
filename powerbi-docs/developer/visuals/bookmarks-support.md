@@ -6,14 +6,14 @@ ms.author: kesharab
 ms.reviewer: sranins
 ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 06/18/2019
-ms.openlocfilehash: aed8317c36cdd118b03bff2db93788f493ac9ad2
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 96e42eb8a4d958eb4ee090cedf12d2ebfe79f941
+ms.sourcegitcommit: 0d0ab427bb71b37c9e5170c515a8f274e1f20c17
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "79380516"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "87878588"
 ---
 # <a name="add-bookmark-support-for-power-bi-visuals"></a>添加对 Power BI 视觉对象的书签支持
 
@@ -49,9 +49,9 @@ ms.locfileid: "79380516"
 
 如果视觉对象使用[选择](https://github.com/Microsoft/PowerBI-visuals/blob/master/Tutorial/Selection.md)与其他视觉对象交互，则可通过以下两种方式之一添加书签：
 
-* 如果视觉对象尚未使用 [InteractivityService](https://github.com/Microsoft/powerbi-visuals-utils-interactivityutils/blob/master/docs/api/interactivityService.md)，则你可以使用 `FilterManager.restoreSelectionIds` 方法。
+* 如果视觉对象尚未使用 [InteractivityService](https://github.com/microsoft/powerbi-visuals-utils-interactivityutils/blob/master/src/interactivityService.ts)，则你可以使用 `FilterManager.restoreSelectionIds` 方法。
 
-* 如果视觉对象已使用 [InteractivityService](https://github.com/Microsoft/powerbi-visuals-utils-interactivityutils/blob/master/docs/api/interactivityService.md) 来管理选择，则应使用 `InteractivityService` 实例中的 `applySelectionFromFilter` 方法。
+* 如果视觉对象已使用 [InteractivityService](https://github.com/microsoft/powerbi-visuals-utils-interactivityutils/blob/master/src/interactivityService.ts) 来管理选择，则应使用 `InteractivityService` 实例中的 `applySelectionFromFilter` 方法。
 
 #### <a name="use-iselectionmanagerregisteronselectcallback"></a>使用 ISelectionManager.registerOnSelectCallback
 

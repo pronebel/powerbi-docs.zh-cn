@@ -10,12 +10,12 @@ ms.topic: tutorial
 ms.date: 01/17/2020
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 972241228ca9fc669289d3c0efa0a357094f6f67
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 4426960cefc23111740d0e930f7a9704e18f8bb6
+ms.sourcegitcommit: 0d0ab427bb71b37c9e5170c515a8f274e1f20c17
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83286351"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "87878308"
 ---
 # <a name="implement-row-level-security-in-an-analysis-services-tabular-model"></a>在 Analysis Services 表格模型中实现行级别安全性
 
@@ -64,7 +64,7 @@ ms.locfileid: "83286351"
 
 ## <a name="task-2-create-the-tabular-model-with-facts-and-dimension-tables"></a>任务 2：创建含事实数据表和维度表的表格模型
 
-准备好关系数据仓库后，需要定义表格模型。 可以使用 [SQL Server Data Tools](/sql/ssdt/sql-server-data-tools) (SSDT) 创建模型。 有关详细信息，请参阅[创建新的表格模型项目](/sql/analysis-services/lesson-1-create-a-new-tabular-model-project)。
+准备好关系数据仓库后，需要定义表格模型。 可以使用 [SQL Server Data Tools](/sql/ssdt/sql-server-data-tools) (SSDT) 创建模型。 有关详细信息，请参阅[创建新的表格模型项目](/analysis-services/tutorial-tabular-1400/as-lesson-1-create-a-new-tabular-model-project)。
 
 1. 如下所示，将所有必需表导入模型。
 
@@ -101,7 +101,7 @@ ms.locfileid: "83286351"
 
     此公式指定所有列都解析为 `false`；这意味着无法查询 `DimUserSecurity` 表列。
 
-现在，需要处理并部署模型。 有关详细信息，请参阅[部署](/sql/analysis-services/lesson-13-deploy)。
+现在，需要处理并部署模型。 有关详细信息，请参阅[部署](/analysis-services/tutorial-tabular-1200/lesson-13-deploy)。
 
 ## <a name="task-3-add-data-sources-within-your-on-premises-data-gateway"></a>任务 3：在本地数据网关中添加数据源
 
@@ -164,9 +164,9 @@ Grace 发布报表后，接下来需在 Power BI 服务中基于该报表创建�
 此任务假定你熟悉 [SQL Server Profiler](/sql/tools/sql-server-profiler/sql-server-profiler)，因为你需要通过 SQL Server Profiler 捕获本地 SSAS 表格实例上发生的事件。
 
 只要用户 (Rita) 访问 Power BI 服务中的仪表板，会话就会初始化。 你会发现，**salesterritoryusers** 角色立即生效，有效用户名为 **<EffectiveUserName>rita@contoso.com</EffectiveUserName>**
-
+```
        <PropertyList><Catalog>DefinedSalesTabular</Catalog><Timeout>600</Timeout><Content>SchemaData</Content><Format>Tabular</Format><AxisFormat>TupleFormat</AxisFormat><BeginRange>-1</BeginRange><EndRange>-1</EndRange><ShowHiddenCubes>false</ShowHiddenCubes><VisualMode>0</VisualMode><DbpropMsmdFlattened2>true</DbpropMsmdFlattened2><SspropInitAppName>PowerBI</SspropInitAppName><SecuredCellValue>0</SecuredCellValue><ImpactAnalysis>false</ImpactAnalysis><SQLQueryMode>Calculated</SQLQueryMode><ClientProcessID>6408</ClientProcessID><Cube>Model</Cube><ReturnCellProperties>true</ReturnCellProperties><CommitTimeout>0</CommitTimeout><ForceCommitTimeout>0</ForceCommitTimeout><ExecutionMode>Execute</ExecutionMode><RealTimeOlap>false</RealTimeOlap><MdxMissingMemberMode>Default</MdxMissingMemberMode><DisablePrefetchFacts>false</DisablePrefetchFacts><UpdateIsolationLevel>2</UpdateIsolationLevel><DbpropMsmdOptimizeResponse>0</DbpropMsmdOptimizeResponse><ResponseEncoding>Default</ResponseEncoding><DirectQueryMode>Default</DirectQueryMode><DbpropMsmdActivityID>4ea2a372-dd2f-4edd-a8ca-1b909b4165b5</DbpropMsmdActivityID><DbpropMsmdRequestID>2313cf77-b881-015d-e6da-eda9846d42db</DbpropMsmdRequestID><LocaleIdentifier>1033</LocaleIdentifier><EffectiveUserName>rita@contoso.com</EffectiveUserName></PropertyList>
-
+```
 基于有效用户名请求，Analysis Services 在查询本地 Active Directory 后将请求转换为真实的 `contoso\rita` 凭据。 Analysis Services 获取凭据后，Analysis Services 会返回用户有权查看和访问的数据。
 
 如果仪表板发生更多活动，则通过 SQL Profiler 可以看到根据 DAX 查询设定，Analysis Services 表格模型会相应返回一个特定的查询。 例如，如果 Rita 从仪表板转到基础报表，则会进行以下查询。

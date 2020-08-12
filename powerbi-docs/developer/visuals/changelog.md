@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: reference
 ms.date: 03/13/2019
-ms.openlocfilehash: 3cf415cbd14da28d523a042fdf4099fe464a4a8b
-ms.sourcegitcommit: a07fa723bb459494c60cf6d749b4554af723482a
+ms.openlocfilehash: 95d2cec8cf731c403e204beeb6c013c2cfe0ce1d
+ms.sourcegitcommit: 0d0ab427bb71b37c9e5170c515a8f274e1f20c17
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/12/2020
-ms.locfileid: "84739175"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "87878561"
 ---
 # <a name="power-bi-visuals-api-changelog"></a>Power BI 视觉对象 API 更改日志
 此页面包含 API 版本的快速摘要。 此处列出的版本被视为稳定版本，不会更改。
@@ -91,7 +91,7 @@ ms.locfileid: "84739175"
 
 ## <a name="api-v162"></a>API v1.6.2
 * 支持**编辑模式 [](./advanced-edit-mode.md)** ，以使视觉对象进入可视编辑模式
-* 支持基于 html 的 **[交互式 (html) R Power BI 视觉对象](https://microsoft.github.io/PowerBI-visuals/tutorials/building-r-powered-custom-visual/creating-r-visuals.md)**
+* 支持基于 html 的 **[交互式 (html) R Power BI 视觉对象](https://github.com/Microsoft/PowerBI-visuals/blob/master/RVisualTutorial/CreateRHTML.md)**
 
 ## <a name="api-v150"></a>API v1.5.0
 * 支持**允许交互 [](./visuals-interactions.md)** ，以实现视觉对象交互
@@ -105,7 +105,7 @@ ms.locfileid: "84739175"
 ## <a name="api-v120"></a>API v1.2.0
 * 添加 colorPalette，以管理视觉对象上使用的颜色。
 * 支持多选 - selectionManager 可以接受 `SelectionId` 的数组。
-* 支持使用 R 脚本的 **[R 视觉对象](https://microsoft.github.io/PowerBI-visuals/tutorials/building-r-powered-custom-visual/creating-r-visuals.md)**
+* 支持使用 R 脚本的 **[R 视觉对象](https://github.com/Microsoft/PowerBI-visuals/blob/master/RVisualTutorial/CreateRHTML.md)**
 
 ## <a name="api-v110"></a>API v1.1.0
 * 支持 iFrame 中的调试视觉对象

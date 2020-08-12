@@ -10,12 +10,12 @@ ms.date: 07/08/2020
 ms.author: mihart
 ms.custom: licensing support
 LocalizationGroup: Share your work
-ms.openlocfilehash: 7362eb683dae6318dc0e64de68afb8a8b57d62c6
-ms.sourcegitcommit: c18130ea61e67ba111be870ddb971c6413a4b632
+ms.openlocfilehash: bfda795e02ef53188c5125bc2f0674e859ebd450
+ms.sourcegitcommit: 0d0ab427bb71b37c9e5170c515a8f274e1f20c17
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/09/2020
-ms.locfileid: "86162086"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "87878816"
 ---
 # <a name="install-and-use-apps-with-dashboards-and-reports-in-power-bi"></a>在 Power BI 中安装和使用包含仪表板和报表的应用
 
@@ -76,7 +76,7 @@ ms.locfileid: "86162086"
 
 **在计算机上** 
 
-选择电子邮件中的链接后，Power BI 服务 ([https://powerbi.com](https://app/powerbi.com)) 将在浏览器中打开应用。 
+选择电子邮件中的链接后，Power BI 服务 ([https://app.powerbi.com](https://app.powerbi.com)) 将在浏览器中打开应用。 
 
 **在 iOS 或 Android 移动设备上** 
 

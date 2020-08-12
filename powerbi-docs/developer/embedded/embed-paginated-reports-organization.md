@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: tutorial
 ms.date: 06/25/2020
-ms.openlocfilehash: 2c27ccdc2e8703e532a105d0b833bcd5164d245e
-ms.sourcegitcommit: e8b12d97076c1387088841c3404eb7478be9155c
+ms.openlocfilehash: 1c348cbf74e6bc2999383bc5a5c031576a293ac2
+ms.sourcegitcommit: 0d0ab427bb71b37c9e5170c515a8f274e1f20c17
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/01/2020
-ms.locfileid: "85782833"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "87878753"
 ---
 # <a name="tutorial-embed-power-bi-paginated-reports-into-an-application-for-your-organization"></a>教程：在应用程序中为组织嵌入 Power BI 分页报表
 
@@ -185,7 +185,7 @@ Get-PowerBIworkspace -name "User Owns Embed Test" | Get-PowerBIReport -Name "Sal
 
 如果通过组织租户嵌入，使用 URL： https://login.microsoftonline.com/common/oauth2/authorize。
 
-如果通过来宾嵌入，使用 URL https://login.microsoftonline.com/report-owner-tenant-id （用报表所有者的租户 ID 替换 report-owner-tenant-id） 。
+如果通过来宾嵌入，使用 URL `https://login.microsoftonline.com/report-owner-tenant-id` （用报表所有者的租户 ID 替换 report-owner-tenant-id） 。
 
 ### <a name="run-the-application"></a>运行应用程序
 
