@@ -5,15 +5,15 @@ author: paulinbar
 ms.service: powerbi
 ms.subservice: powerbi-eim
 ms.topic: how-to
-ms.date: 07/06/2020
+ms.date: 08/10/2020
 ms.author: painbar
 LocalizationGroup: Data from files
-ms.openlocfilehash: f92d10fdff880049460d24c714201d9a433745d8
-ms.sourcegitcommit: 181679a50c9d7f7faebcca3a3fc55461f594d9e7
+ms.openlocfilehash: be2f98341abd581cd2df717d19b3a9110548a2ec
+ms.sourcegitcommit: 9e39232cbc28d8b39dfec5496db7ece9837b5e53
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/07/2020
-ms.locfileid: "86035014"
+ms.lasthandoff: 08/10/2020
+ms.locfileid: "88049198"
 ---
 # <a name="how-to-apply-sensitivity-labels-in-power-bi"></a>如何在 Power BI 中应用敏感度标签
 
@@ -21,8 +21,8 @@ ms.locfileid: "86035014"
 
 要能够在 Power BI 中应用敏感度标签，你需要满足以下条件：
 * 必须具有 Power BI Pro 许可证，并对要应用标签的内容拥有编辑权限。
-* 必须在具有应用敏感度标签权限的安全组内，如标题为[在 Power BI 中启用敏感度标签](./service-security-enable-data-sensitivity-labels.md#enable-sensitivity-labels)的文章中所述。
-* 必须满足所有[先决条件](./service-security-sensitivity-label-overview.md#requirements-for-using-sensitivity-labels-in-power-bi)和[许可要求](./service-security-data-protection-overview.md#licensing)。
+* 必须在具有应用敏感度标签权限的安全组内，如标题为[在 Power BI 中启用敏感度标签](./service-security-enable-data-sensitivity-labels.md)的文章中所述。
+* 必须满足所有[授权和其他要求](./service-security-enable-data-sensitivity-labels.md#licensing-and-requirements)。
 
 有关 Power BI 中敏感度标签的详细信息，请参阅 [Power BI 中的敏感度标签](service-security-sensitivity-label-overview.md)。
 

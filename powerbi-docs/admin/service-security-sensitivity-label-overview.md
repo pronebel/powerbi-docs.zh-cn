@@ -6,15 +6,15 @@ manager: rkarlin
 ms.service: powerbi
 ms.subservice: powerbi-eim
 ms.topic: how-to
-ms.date: 07/05/2020
+ms.date: 08/10/2020
 ms.author: painbar
 LocalizationGroup: Data from files
-ms.openlocfilehash: ea161af0156aa0bee2fe92ab2f87fb82630f5589
-ms.sourcegitcommit: 65025ab7ae57e338bdbd94be795886e5affd45b4
+ms.openlocfilehash: 4d719d7df5b982341b6377c41e448267197e769b
+ms.sourcegitcommit: 9e39232cbc28d8b39dfec5496db7ece9837b5e53
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/28/2020
-ms.locfileid: "87252121"
+ms.lasthandoff: 08/10/2020
+ms.locfileid: "88049222"
 ---
 # <a name="sensitivity-labels-in-power-bi"></a>Power BI 中的敏感度标签
 
@@ -69,21 +69,33 @@ Microsoft 信息保护敏感度标签为用户提供了一种简单的方法，�
 
 从 Power BI 导出文件的用户有权根据敏感度标签设置访问和编辑该文件；他们不会获得该文件的所有者权限。
 
-在将数据导出到 .csv 或 .pbix 文件、“在 Excel 中分析”或任何其他导出路径时，不会应用敏感度标签和保护。
+在将数据导出到 .csv、.pbix 文件或任何其他导出路径时，不会应用敏感度标签和保护。
 
 对导出的文件应用敏感度标签和保护不会向文件添加内容标记。 但是，如果标签配置为应用内容标记，则在 Office 桌面应用中打开文件时，Azure 信息保护统一标签客户端会自动应用这些标记。 在为桌面、移动或 Web 应用使用内置标签时，不会自动应用内容标记。 有关更多详细信息，请参阅 [Office 应用何时应用内容标记和加密](https://docs.microsoft.com/microsoft-365/compliance/sensitivity-labels-office-apps?view=o365-worldwide#when-office-apps-apply-content-marking-and-encryption)。
 
 如果在将数据导出到文件时无法应用标签，导出将失败。 要检查导出失败的原因是否为无法应用标签，请在标题栏的中心单击报表或仪表板名称，然后在打开的信息下拉菜单中查看是否显示“无法加载敏感度标签”。 如果安全管理员取消发布或删除了应用的标签，或出现了临时系统问题，则可能会发生这种情况。
 
+## <a name="sensitivity-label-inheritance-in-analyze-in-excel"></a>“在 Excel 中分析”的敏感度标签继承
+
+当你通过实时连接到 Power BI 数据集在 Excel 中创建数据透视表（可以从 Power BI 通过[在 Excel 中分析](../collaborate-share/service-analyze-in-excel.md)或从 [Excel](https://support.microsoft.com/office/create-a-pivottable-from-power-bi-datasets-31444a04-9c38-4dd7-9a45-22848c666884?ui=en-US&rs=en-US&ad=US) 执行此操作）时，将继承数据集的敏感度标签，并将其应用于 Excel 文件以及任何关联的保护。 如果数据集上的标签稍后更改为更具限制性的标签，则会在数据刷新时自动更新应用于链接的 Excel 文件的标签。
+
+![Excel 的屏幕截图，显示通过实时连接从数据集继承的敏感度标签。](media/service-security-sensitivity-label-overview/live-connection-inheritance.png)
+ 
+Excel 中手动设置的敏感性标签不会由数据集的敏感度标签自动覆盖。 相反，横幅会通知你数据集具有敏感度标签，并建议你应用该标签。
+
+>[!NOTE]
+>如果数据集的敏感度标签比 Excel 文件的敏感度标签限制少，则不会发生标签继承或更新。 Excel 文件永远不会继承限制性较低的敏感度标签。
+
+
 ## <a name="sensitivity-label-persistence-in-embedded-reports-and-dashboards"></a>嵌入式报表和仪表板中的敏感度标签保留性
 
-可在商业应用程序（如 Microsoft Teams 和 SharePoint）或组织的网站中嵌入 Power BI 报表、仪表板和视觉对象。 如果嵌入的视觉对象、报表或仪表板应用了敏感度标签，则该敏感度标签会显示在嵌入视图中，并且在将数据导出到 Excel 时，该标签和其保护将保持不变。
+可在商业应用程序（如 Microsoft Teams 和 SharePoint）或组织的网站中嵌入 Power BI 报表、仪表板和视觉对象。 如果嵌入的视觉对象、报表或仪表板应用了敏感度标签，则该敏感度标签会显示在嵌入视图中，并且在将数据导出到 Excel 时，该标签及其保护将保持不变。
 
 ![SharePoint Online 中嵌入的报表的屏幕截图](media/service-security-sensitivity-label-overview/embedded-report-sensitivity-label.png)
 
 支持以下嵌入方案：
 * [为组织嵌入内容](../developer/embedded/embed-sample-for-your-organization.md)
-* Microsoft 365 应用（例如 [Teams](../collaborate-share/service-collaborate-microsoft-teams.md) 和 [SharePoint](../collaborate-share/service-embed-report-spo.md)）
+* Microsoft 365 应用（例如 [Teams](../collaborate-share/service-embed-report-microsoft-teams.md) 和 [SharePoint](../collaborate-share/service-embed-report-spo.md)）
 * [安全 URL 嵌入](../collaborate-share/service-embed-secure.md)（从 Power BI 服务嵌入） 
 
 ## <a name="sensitivity-labels-in-the-power-bi-mobile-apps"></a>Power BI 移动应用中的敏感度标签
@@ -95,18 +107,9 @@ Microsoft 信息保护敏感度标签为用户提供了一种简单的方法，�
 ## <a name="supported-clouds"></a>受支持的云
 敏感度标签仅在全局（公有）云的租户中受支持，而在云（如国家/地区云）的租户中不受支持。
 
-## <a name="requirements-for-using-sensitivity-labels-in-power-bi"></a>在 Power BI 中使用敏感度标签的要求
+## <a name="licensing-and-requirements"></a>授权和要求
 
-在 Power BI 中启用和使用敏感度标签前，必须先完成以下先决条件：
-* 确保在 [Microsoft 365 安全中心](https://security.microsoft.com/)或 [Microsoft 365 合规中心](https://compliance.microsoft.com/)中定义了敏感度标签。
-* 在 Power BI 中[启用敏感度标签](service-security-enable-data-sensitivity-labels.md)。
-* 确保用户具有[适当的许可证](#licensing)。
-
-## <a name="licensing"></a>许可
-
-* 要在 Power BI 中应用和查看 Microsoft 信息保护敏感度标签，需要 Azure 信息保护高级版 P1 或高级版 P2 许可证。 Microsoft Azure 信息保护可以单独进行购买，也可以通过一个 Microsoft 许可套件进行购买。 有关详细信息，请参阅 [Azure 信息保护定价](https://azure.microsoft.com/pricing/details/information-protection/)。
-* 要在 Office 应用中查看和应用标签，需满足[许可要求](https://docs.microsoft.com/microsoft-365/compliance/get-started-with-sensitivity-labels#subscription-and-licensing-requirements-for-sensitivity-labels)。
-* 要向 Power BI 内容应用标签，除上述任一 Azure 信息保护许可证之外，用户还必须具有 Power BI Pro 许可证。
+请参阅[授权和要求](service-security-enable-data-sensitivity-labels.md#licensing-and-requirements)。
 
 ## <a name="sensitivity-label-creation-and-management"></a>创建和管理敏感度标签
 

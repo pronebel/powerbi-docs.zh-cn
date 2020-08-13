@@ -7,15 +7,15 @@ ms.service: powerbi
 ms.subservice: powerbi-service
 ms.custom: connect-to-services
 ms.topic: tutorial
-ms.date: 03/29/2019
+ms.date: 08/03/2020
 ms.author: davidi
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 2d65b63238009c5a743d83a13d596f36aad4b2a3
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 9f25c9ffc294a1733a3dba5818dc00bd23124837
+ms.sourcegitcommit: 0d0ab427bb71b37c9e5170c515a8f274e1f20c17
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83281682"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "87878875"
 ---
 # <a name="tutorial-build-a-machine-learning-model-in-power-bi"></a>教程：在 Power BI 中生成机器学习模型
 
@@ -155,9 +155,29 @@ Power Query 自动推断列的类型。 可以通过单击列标题顶部的属�
 
 ![查看结果](media/service-tutorial-build-machine-learning-model/tutorial-machine-learning-model-21.png)
 
+你还可以在数据流中直接从 Power Query 编辑器调用工作区中的任何 AutoML 模型。 若要访问 AutoML 模型，请从 AutoML 模型中选择想要使用见解进行扩充的实体的“编辑”按钮，如下图中所示。
+
+![编辑实体](media/service-tutorial-build-machine-learning-model/tutorial-machine-learning-model-22.png)
+
+选择“编辑”按钮将在数据流中为实体打开 Power Query 编辑器。 在功能区中选择“AI 见解”按钮。
+
+![AI 见解](media/service-tutorial-build-machine-learning-model/tutorial-machine-learning-model-23.png)
+
+ 从导航窗格菜单中选择“Power BI 机器学习模型”文件夹。 有权访问的所有 AutoML 模型都在此处作为 Power Query 函数列出。 此外，会将 AutoML 模型的输入参数自动映射为相应的 Power Query 函数的参数。 请注意，仅当参数的名称和数据类型相同时，才会执行参数的自动映射。
+ 
+若要调用 AutoML 模型，可以从下拉列表中将任一选定的实体的列指定为输入。 此外，还可以通过将列图标切换到输入对话框左侧来指定要用作输入内容的常量值。
+
+![PQO 函数浏览器](media/service-tutorial-build-machine-learning-model/tutorial-machine-learning-model-24.png)
+
+选择“应用”以查看作为实体表中新列的 AutoML 模型的输出预览。 还会将模型调用视作查询的一个应用步骤。
+
+![查看结果](media/service-tutorial-build-machine-learning-model/tutorial-machine-learning-model-25.png)
+
+保存数据流后，当刷新数据流时，将为实体表中的任何新行或更新的行自动调用模型。
+
 ## <a name="using-the-scored-output-from-the-model-in-a-power-bi-report"></a>在 Power BI 报表中使用模型的评分输出
 
-可以使用数据流，从 Power BI Desktop 连接器连接到数据流，以使用机器学习模型的评分输出。 在 Power BI 报表中，现在可以使用“在线访问者扩充的购买意向预测”实体合并模型的预测  。
+可以使用数据流，从 Power BI Desktop 连接器连接到数据流，以使用机器学习模型的评分输出。 在 Power BI 报表中，现在可以使用“在线访问者扩充的购买意向预测”实体合并模型的预测****。
 
 ## <a name="next-steps"></a>后续步骤
 

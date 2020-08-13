@@ -10,12 +10,12 @@ ms.date: 05/11/2020
 ms.author: kfollis
 ms.custom: licensing support
 LocalizationGroup: Administration
-ms.openlocfilehash: 195d1284fedc9f9c51c6fed2ff03cc0883b16405
-ms.sourcegitcommit: c18130ea61e67ba111be870ddb971c6413a4b632
+ms.openlocfilehash: e8e81c297841e32d1f4d966de23b5d752b654c20
+ms.sourcegitcommit: d7145123133255d004b85ef8b20ca4977f0b843e
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/09/2020
-ms.locfileid: "86161712"
+ms.lasthandoff: 08/11/2020
+ms.locfileid: "88091609"
 ---
 # <a name="track-user-activities-in-power-bi"></a>跟踪 Power BI 中的用户活动
 
@@ -318,6 +318,9 @@ Remove-PSSession $Session
 | 已请求 Power BI 数据流刷新               | RequestDataflowRefresh                      | 当前未使用                       |
 | 已请求 Power BI 数据集刷新                | RefreshDataset                              |                                          |
 | 已检索 Power BI 工作区                     | GetWorkspaces                               |                                          |
+| 已应用敏感度标签                         | SensitivityLabelApplied                     |                                          |
+| 已更改敏感度标签                         | SensitivityLabelChanged                     |                                          |
+| 已删除敏感度标签                         | SensitivityLabelRemoved                     |                                          |
 | 设置工作区的数据流存储位置     | SetDataflowStorageLocationForWorkspace      |                                          |
 | 在 Power BI 数据流上设置计划刷新        | SetScheduledRefreshOnDataflow               |                                          |
 | 在 Power BI 数据集上设置计划刷新         | SetScheduledRefresh                         |                                          |

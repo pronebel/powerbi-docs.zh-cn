@@ -6,14 +6,14 @@ ms.reviewer: asaxton
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 01/29/2020
+ms.date: 08/10/2020
 ms.author: v-pemyer
-ms.openlocfilehash: 7dd6c812116d9ba196b157bd12d6362c19ac64ec
-ms.sourcegitcommit: c83146ad008ce13bf3289de9b76c507be2c330aa
+ms.openlocfilehash: eeb879fc70effa166d08c9a342f77ad614779751
+ms.sourcegitcommit: 9e39232cbc28d8b39dfec5496db7ece9837b5e53
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/10/2020
-ms.locfileid: "86216721"
+ms.lasthandoff: 08/10/2020
+ms.locfileid: "88049290"
 ---
 # <a name="tenant-admin-settings-guidance"></a>租户管理员设置指南
 
@@ -39,9 +39,13 @@ ms.locfileid: "86216721"
 这些 URL 将成为 Power BI 帮助菜单中的链接。
 
 > [!NOTE]
-> 提供“授权请求”URL 将阻止单个用户注册免费的 60 天 Power BI Pro 试用版。 会将这些用户导向内部站点，提供有关如何获得（免费或 Pro）许可证的信息。
+> 提供授权请求 URL 会阻止单个用户购买 Power BI Pro 许可证。 不过会将这些用户导向内部站点，提供有关如何获得许可证的信息。 “允许用户试用 Power BI Pro”设置在默认情况下处于启用状态，并区分购买和试用体验。 若要详细了解这些设置如何协同工作，请参阅[允许用户试用 Power BI Pro](../admin/service-admin-portal.md#allow-users-to-try-power-bi-pro)。
+>
+>
 
 ![Power BI Desktop 的屏幕截图，其中显示了“帮助和支持”设置。](media/admin-tenant-settings/publish-get-help-information.png)
+
+有关详细信息，请参阅[帮助和支持设置](../admin/service-admin-portal.md#help-and-support-settings)。
 
 ## <a name="manage-risk"></a>管理风险
 用于管理风险的设置可帮助在 Power BI 租户中建立治理策略。 但请记住，治理设置并不是一种安全措施。 例如，禁用“导出数据”设置将从 Power BI 用户界面中删除该功能，并以此方式帮助 Power BI 用户在符合组织治理策略的情况下工作，但不会阻止已确定的用户使用其他选项导出数据。 从安全角度来看，对某一数据集具有读取访问权限的 Power BI 用户具有查询此数据集的权限，并且无论 Power BI 用户界面中的可用功能如何，都可以保留结果。

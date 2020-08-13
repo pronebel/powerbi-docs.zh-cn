@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: how-to
-ms.date: 10/18/2019
+ms.date: 08/03/2020
 ms.author: davidi
 LocalizationGroup: conceptual
-ms.openlocfilehash: 3b4d7eb41e04a173f763dd09caf5fa94bfc444d4
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: caccfdede32e91aa6265db0d38e26e96f8a7852c
+ms.sourcegitcommit: 0d0ab427bb71b37c9e5170c515a8f274e1f20c17
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85232632"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "87878632"
 ---
 # <a name="automated-machine-learning-in-power-bi"></a>Power BI 中的自动机器学习
 
@@ -142,13 +142,17 @@ AutoML 会生成一个 Power BI 报表，该报表在验证过程中汇总模型
 
 ![查询编辑器](media/service-machine-learning-automated/automated-machine-learning-power-bi-11.png)
 
+你还可以在 PQO 函数浏览器中使用 AI 见解将任何 Power BI AutoML 模型应用于同一工作区中的任何数据流中的实体。 这样一来，就可以在同一工作区中使用其他人创建的模型，而无需成为具有该模型的数据流的所有者。 Power Query 发现工作区中的所有 Power BI ML 模型，并将其公开为动态 Power Query 函数。 你可以通过从 Powre Query 编辑器的功能区中访问这些函数来调用它们，或通过直接调用 M 函数来调用这些函数。此功能目前仅支持 Power BI 数据流以及 Power BI 服务中的联机 Power Query。 请注意，这与使用 AutoML 向导在数据流中应用 ML 模型的情况非常不同。 未说明使用此方法创建的实体，并且除非你是数据流的所有者，否则无法访问模型训练报表或重新训练模型。 如果编辑了源模型（添加或删除输入字段），或者删除了模型或源数据流，则会中断此依赖数据流。
+
+![使用 PQO 函数浏览器应用模型](media/service-machine-learning-automated/automated-machine-learning-power-bi-20.png)
+
 应用模型后，AutoML 始终会在刷新数据流时保持最新的预测。
 
-若要在 Power BI 报表中使用 ML 模型的见解和预测，可以使用数据流  连接器从 Power BI Desktop 连接到输出实体。
+若要在 Power BI 报表中使用 ML 模型的见解和预测，可以使用数据流**** 连接器从 Power BI Desktop 连接到输出实体。
 
-## <a name="binary-prediction-models"></a>二进制预测模型
+## <a name="binary-prediction-models"></a>二元预测模型
 
-二进制预测模型（更正式地称为“二元分类模型”  ）用于将数据集分类为两个组。 它们用于预测可能具有二进制结果的事件。 例如，销售机会是否转换、帐户是否将发生变化、是否需要按时支付发票、事务是否为欺诈性等等。
+二进制预测模型（更正式地称为“二元分类模型”****）用于将数据集分类为两个组。 它们用于预测可能具有二进制结果的事件。 例如，销售机会是否转换、帐户是否将发生变化、是否需要按时支付发票、事务是否为欺诈性等等。
 
 二进制预测模型的输出是一个概率分数，用于标识目标结果得到实现的可能性。
 
@@ -158,7 +162,7 @@ AutoML 会生成一个 Power BI 报表，该报表在验证过程中汇总模型
 
 - 每类结果需要至少 20 行的历史数据
 
-二进制预测模型的创建过程遵循与其他 AutoML 模型相同的步骤，如上文“配置 ML 模型输入”  一节所述。 唯一的区别是在“选择模型”步骤中，你可以在其中选择你最感兴趣的目标结果值。 还可为结果提供易记的标签，以便用于自动生成的用于汇总模型验证结果的报表。
+二进制预测模型的创建过程遵循与其他 AutoML 模型相同的步骤，如上文“配置 ML 模型输入”**** 一节所述。 唯一的区别是在“选择模型”步骤中，你可以在其中选择你最感兴趣的目标结果值。 还可为结果提供易记的标签，以便用于自动生成的用于汇总模型验证结果的报表。
 
 ![二进制预测向导](media/service-machine-learning-automated/automated-machine-learning-power-bi-12.png)
 
@@ -166,7 +170,7 @@ AutoML 会生成一个 Power BI 报表，该报表在验证过程中汇总模型
 
 二进制预测模型将生成输出，该输出是记录将达到目标结果的概率。 该报表包含概率阈值的切片器，它会影响如何解释高于和低于概率阈值的分数。
 
-该报表以“真正”、“假正”、“真负”和“假负”的形式描述模型的性能  。 对于结果数据中的两个类，“真正”和“真负”是正确预测的结果。 “假正”是被预测具有目标结果但实际上没有的记录。 相反，“假负”是具有目标结果但预测为没有的记录。
+该报表以“真正”、“假正”、“真负”和“假负”的形式描述模型的性能__。 对于结果数据中的两个类，“真正”和“真负”是正确预测的结果。 “假正”是被预测具有目标结果但实际上没有的记录。 相反，“假负”是具有目标结果但预测为没有的记录。
 
 度量值（如精度和撤回）描述了预测结果的概率阈值效果。 可以使用概率阈值切片器选择一个阈值，该阈值实现精度与撤回之间的均衡折衷。
 
@@ -176,7 +180,7 @@ AutoML 会生成一个 Power BI 报表，该报表在验证过程中汇总模型
 
 ![成本收益](media/service-machine-learning-automated/automated-machine-learning-power-bi-14.png)
 
-模型报表的“准确性报表”  页包含模型的“累积收益”  图和 ROC 曲线。 这些是模型性能的统计度量值。 报表包含所显示的图表的说明。
+模型报表的“准确性报表”**** 页包含模型的“累积收益”__ 图和 ROC 曲线。 这些是模型性能的统计度量值。 报表包含所显示的图表的说明。
 
 ![准确性报表屏幕](media/service-machine-learning-automated/automated-machine-learning-power-bi-15.png)
 
@@ -186,13 +190,13 @@ AutoML 会生成一个 Power BI 报表，该报表在验证过程中汇总模型
 
 ![预测输入](media/service-machine-learning-automated/automated-machine-learning-power-bi-16.png)
 
-当应用二进制预测模型时，它向扩充的输出实体添加四个输出列：Outcome、PredictionScore、PredictionExplanation 和 ExplanationIndex     。 实体中的列名具有在应用模型时指定的前缀。
+当应用二进制预测模型时，它向扩充的输出实体添加四个输出列：Outcome、PredictionScore、PredictionExplanation 和 ExplanationIndex   。 实体中的列名具有在应用模型时指定的前缀。
 
-PredictionScore 是一个百分比概率，用于标识目标结果得到实现的可能性  。
+PredictionScore 是一个百分比概率，用于标识目标结果得到实现的可能性****。
 
-Outcome 列包含预测的结果标签  。 概率超过阈值的记录会被预测为可能获得目标结果，并标记为 True。 低于阈值的记录被预测为不可能获得结果并标记为 False。
+Outcome 列包含预测的结果标签****。 概率超过阈值的记录会被预测为可能获得目标结果，并标记为 True。 低于阈值的记录被预测为不可能获得结果并标记为 False。
 
-“PredictionExplanation”  列包含一个说明，其中含有输入功能对 PredictionScore  的特定影响。
+“PredictionExplanation”**** 列包含一个说明，其中含有输入功能对 PredictionScore **** 的特定影响。
 
 ## <a name="classification-models"></a>分类模型
 
@@ -208,7 +212,7 @@ Outcome 列包含预测的结果标签  。 概率超过阈值的记录会被预
 
 - 每类结果需要至少 20 行的历史数据
 
-分类模型的创建过程遵循与其他 AutoML 模型相同的步骤，如上文“配置 ML 模型输入”  一节所述。
+分类模型的创建过程遵循与其他 AutoML 模型相同的步骤，如上文“配置 ML 模型输入”**** 一节所述。
 
 ### <a name="classification-model-report"></a>分类模型报表
 
@@ -222,21 +226,21 @@ Outcome 列包含预测的结果标签  。 概率超过阈值的记录会被预
 
 报表中的模型说明还包括每个类的最高预测值。
 
-分类模型报表还包括与其他模型类型页面相似的“训练详细信息”页，如本文上面的“AutoML 模型报表”  一节所述。
+分类模型报表还包括与其他模型类型页面相似的“训练详细信息”页，如本文上面的“AutoML 模型报表”**** 一节所述。
 
 ### <a name="applying-a-classification-model"></a>应用分类模型
 
 若要应用分类 ML 模型，必须使用输入数据和输出列名称前缀指定实体。
 
-应用分类模型时，它向扩充的输出实体添加五个输出列：ClassificationScore、ClassificationResult、ClassificationExplanation、ClassProbabilities 和 ExplanationIndex      。 实体中的列名具有在应用模型时指定的前缀。
+应用分类模型时，它向扩充的输出实体添加五个输出列：ClassificationScore、ClassificationResult、ClassificationExplanation、ClassProbabilities 和 ExplanationIndex    。 实体中的列名具有在应用模型时指定的前缀。
 
-ClassProbabilities 列包含每个可能类的记录的概率分数列表  。
+ClassProbabilities 列包含每个可能类的记录的概率分数列表****。
 
-ClassificationScore 是一个百分比概率，用于标识记录将获得给定类的条件的可能性  。
+ClassificationScore 是一个百分比概率，用于标识记录将获得给定类的条件的可能性****。
 
-ClassificationResult 列包含记录最可能的预测类  。
+ClassificationResult 列包含记录最可能的预测类****。
 
-ClassificationExplanation 列包含一个说明，其中含有输入功能对 ClassificationScore 的特定影响   。
+ClassificationExplanation 列包含一个说明，其中含有输入功能对 ClassificationScore 的特定影响********。
 
 ## <a name="regression-models"></a>回归模型
 
@@ -252,7 +256,7 @@ ClassificationExplanation 列包含一个说明，其中含有输入功能对 Cl
 
 - 回归模型需要至少 100 行的历史数据
 
-回归模型的创建过程遵循与其他 AutoML 模型相同的步骤，如上文“配置 ML 模型输入”  一节所述。
+回归模型的创建过程遵循与其他 AutoML 模型相同的步骤，如上文“配置 ML 模型输入”**** 一节所述。
 
 ### <a name="regression-model-report"></a>回归模型报表
 
@@ -264,7 +268,7 @@ ClassificationExplanation 列包含一个说明，其中含有输入功能对 Cl
 
 ![残差图](media/service-machine-learning-automated/automated-machine-learning-power-bi-18.png)
 
-回归模型报表还包括“训练详细信息”页，如上面的“AutoML 模型报表”  中所述。
+回归模型报表还包括“训练详细信息”页，如上面的“AutoML 模型报表”**** 中所述。
 
 ### <a name="applying-a-regression-model"></a>应用回归模型
 
@@ -272,9 +276,9 @@ ClassificationExplanation 列包含一个说明，其中含有输入功能对 Cl
 
 ![应用回归](media/service-machine-learning-automated/automated-machine-learning-power-bi-19.png)
 
-应用回归模型时，它向扩充的输出实体添加三个输出列：RegressionResult、RegressionExplanation 和 ExplanationIndex    。 实体中的列名具有在应用模型时指定的前缀。
+应用回归模型时，它向扩充的输出实体添加三个输出列：RegressionResult、RegressionExplanation 和 ExplanationIndex  。 实体中的列名具有在应用模型时指定的前缀。
 
-RegressionResult 列包含基于输入字段的记录的预测值  。 RegressionExplanation 列包含一个说明，其中含有输入功能对 RegressionResult 的特定影响   。
+RegressionResult 列包含基于输入字段的记录的预测值****。 RegressionExplanation 列包含一个说明，其中含有输入功能对 RegressionResult 的特定影响********。
 
 ## <a name="next-steps"></a>后续步骤
 

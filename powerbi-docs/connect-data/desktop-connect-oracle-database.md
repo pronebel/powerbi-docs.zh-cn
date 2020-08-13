@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: how-to
-ms.date: 05/05/2020
+ms.date: 08/11/2020
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 2c59cb593a236785346721cb5c3ac90c702c93ed
-ms.sourcegitcommit: 65025ab7ae57e338bdbd94be795886e5affd45b4
+ms.openlocfilehash: f778b4f0c6572084598eb07df0e89b7a30aed7b1
+ms.sourcegitcommit: d7145123133255d004b85ef8b20ca4977f0b843e
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/28/2020
-ms.locfileid: "87252052"
+ms.lasthandoff: 08/11/2020
+ms.locfileid: "88091586"
 ---
 # <a name="connect-to-an-oracle-database-with-power-bi-desktop"></a>使用 Power BI Desktop 连接到 Oracle 数据库
 要使用 Power BI Desktop 连接到 Oracle 数据库，必须在运行 Power BI Desktop 的计算机上安装正确的 Oracle 客户端软件。 使用的 Oracle 客户端软件取决于已安装的 Power BI Desktop 版本：32 位或 64 位。 它还取决于 Oracle 服务器的版本。
@@ -50,16 +50,20 @@ ms.locfileid: "87252052"
 2. 从显示的“获取数据”窗口中，选择“更多”（如有必要），再选择“数据库” > “Oracle 数据库”，然后选择“连接”    。
    
    ![Oracle 数据库连接](media/desktop-connect-oracle-database/connect-oracle-database_2.png)
-2. 在出现的“Oracle 数据库”对话框中，提供服务器的名称，并选择“确定”  。 如果需要 SID，请使用以下格式进行指定：ServerName/SID，其中 SID 是数据库的唯一名称 。 如果 ServerName/SID 格式无效，则使用 ServerName/ServiceName，其中 ServiceName 是用于连接的别名  。
+3. 在出现的“Oracle 数据库”对话框中，提供服务器的名称，并选择“确定”  。 如果需要 SID，请使用以下格式进行指定：ServerName/SID，其中 SID 是数据库的唯一名称 。 如果 ServerName/SID 格式无效，则使用 ServerName/ServiceName，其中 ServiceName 是用于连接的别名  。
 
 
    ![输入 Oracle 服务器名称](media/desktop-connect-oracle-database/connect-oracle-database_3.png)
 
+   > [!NOTE]
+   > 如果你使用的是本地数据库或自治数据库连接，则可能需要将服务器名称放在引号中，以避免连接错误。 
       
-3. 要通过使用本机数据库查询导入数据，请将查询放在“SQL 语句”框中，可通过展开“Oracle 数据库”对话框的“高级选项”部分找到该框  。
+4. 要通过使用本机数据库查询导入数据，请将查询放在“SQL 语句”框中，可通过展开“Oracle 数据库”对话框的“高级选项”部分找到该框  。
    
    ![展开“高级选项”](media/desktop-connect-oracle-database/connect-oracle-database_4.png)
-4. 在“Oracle 数据库”对话框中输入 Oracle 数据库信息（包括任何可选信息，如 SID 或本机数据库查询）后，请选择“确定”以进行连接 。
+
+
+5. 在“Oracle 数据库”对话框中输入 Oracle 数据库信息（包括任何可选信息，如 SID 或本机数据库查询）后，请选择“确定”以进行连接 。
 5. 如果 Oracle 数据库需要数据库用户凭据，请在出现提示时，输入这些凭据。
 
 

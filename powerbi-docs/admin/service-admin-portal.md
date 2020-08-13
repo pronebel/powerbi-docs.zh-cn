@@ -1,39 +1,39 @@
 ---
 title: Power BI 管理门户
-description: 通过管理门户允许对组织中的 Power BI 进行租户管理。 它包括诸如使用情况指标、对 Microsoft 365 管理中心的访问以及设置这类项目。
+description: 通过管理门户，你可以为 Power BI 配置组织范围内的设置。 你可以查看使用指标，配置租户设置，处理容量，查看工作区、组织视觉对象和特别推荐的内容。
 author: kfollis
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: how-to
-ms.date: 05/12/2020
+ms.date: 08/10/2020
 ms.author: kfollis
 ms.custom: seodec18
 LocalizationGroup: Administration
-ms.openlocfilehash: ec521c256209c258604e13483a9f3159b24626ae
-ms.sourcegitcommit: 2131f7b075390c12659c76df94a8108226db084c
+ms.openlocfilehash: 19b4d64039333a18405ac57d98773e9e23857a18
+ms.sourcegitcommit: 9e39232cbc28d8b39dfec5496db7ece9837b5e53
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/03/2020
-ms.locfileid: "87537495"
+ms.lasthandoff: 08/10/2020
+ms.locfileid: "88049754"
 ---
 # <a name="administering-power-bi-in-the-admin-portal"></a>在管理门户中管理 Power BI
 
-借助管理门户，用户可以管理组织中的 Power BI 租户。 门户包括诸如使用情况指标、对 Microsoft 365 管理中心的访问以及设置这类项目。
+借助管理门户，用户可以管理组织中的 Power BI 设置。 门户包括诸如使用指标、对 Microsoft 365 管理中心的访问以及租户设置这类项目。
 
-所有全局管理员或分配有 Power BI 服务管理员角色的所有用户都可以访问完整的管理门户。 如果你不是这些角色之一，则只能在门户中看到“容量设置”。 若要详细了解 Power BI 服务管理员角色，请参阅[了解 Power BI 管理员角色](service-admin-role.md)。
+拥有 Power BI 服务管理员角色的全局管理员和用户可以访问完整的管理门户。 如果你不是这些角色之一，则只能在门户中看到“容量设置”。 若要详细了解 Power BI 服务管理员角色，请参阅[了解 Power BI 管理员角色](service-admin-role.md)。
 
 ## <a name="how-to-get-to-the-admin-portal"></a>如何访问管理门户
 
-帐户必须标记为 Microsoft 365 或 Azure Active Directory (Azure AD) 中的全局管理员，或者已分配 Power BI 服务管理员角色，才能获取对 Power BI 管理门户的访问权限。 若要详细了解 Power BI 服务管理员角色，请参阅[了解 Power BI 管理员角色](service-admin-role.md)。 若要访问 Power BI 管理门户，请执行以下操作。
+必须是全局管理员或 Power BI 服务管理员才能访问 Power BI 管理门户。 若要详细了解 Power BI 服务管理员角色，请参阅[了解 Power BI 管理员角色](service-admin-role.md)。 若要访问 Power BI 管理门户，请执行以下步骤：
 
-1. 在 Power BI 服务右上角选择设置齿轮。
+1. 使用管理员帐户凭据登录到 [Power BI](https://app.powerbi.com)。
 
-1. 选择“管理门户”。
+1. 在页眉中，选择“设置” > “管理门户”。
 
     ![管理门户的设置](media/service-admin-portal/powerbi-admin-settings.png)
 
-门户中有九个选项卡。 本文的其余部分提供了有关每个选项卡的信息。
+管理门户中有多个部分。 本文的其余部分提供了有关每个部分的信息。
 
 ![管理门户导航](media/service-admin-portal/powerbi-admin-landing-page.png)
 
@@ -44,18 +44,20 @@ ms.locfileid: "87537495"
 * [容量设置](#capacity-settings)
 * [嵌入代码](#embed-codes)
 * [组织视觉对象](organizational-visuals.md#organizational-visuals)
-* [数据流存储（预览版）](#dataflow-storage-preview)
+* [Azure 连接（预览）](#azure-connections-preview)
 * [工作区](#workspaces)
 * [自定义品牌](#custom-branding)
+* [保护指标](#protection-metrics)
+* [特别推荐的内容](#featured-content)
 
 ## <a name="usage-metrics"></a>使用情况指标
 
-通过“使用情况指标”，你可以监视组织的使用情况。 通过它还可以查看对于组织，哪些用户和组在 Power BI 中最活跃。 
+通过“使用指标”，你可以监视组织的 Power BI 使用情况。 它还显示了组织中的哪些用户和组在 Power BI 中最活跃。
 
 > [!NOTE]
 > 首次访问仪表板时，或在长时间未查看仪表板后再次进行访问之后，你可能会在我们加载仪表板时看到加载屏幕。
 
-仪表板加载之后，你会看到两个部分的磁贴。 第一个部分包含单个用户的使用情况数据，第二个部分包含有关组织中的组的类似信息。
+仪表板加载之后，你会看到两个部分的磁贴。 第一个部分包含单个用户的使用情况数据，第二个部分包含组的类似信息。
 
 下面是每个磁贴中显示的内容的细分：
 
@@ -63,11 +65,13 @@ ms.locfileid: "87537495"
   
     ![仪表板、报表和数据集的非重复计数](media/service-admin-portal/powerbi-admin-usage-metrics-number-tiles.png)
 
-* 按可以进行访问的用户数划分的使用量最大的仪表板。 例如，如果你将 1 个仪表板与 3 个用户共享，并且还将它添加到 2 个不同用户连接到的内容包，计数为 6 (1 + 3 + 2)。
+
+* 按可以进行访问的用户数划分的使用量最大的仪表板。 例如：你有一个与三个用户共享的仪表板。 你还将仪表板添加到了两个不同用户连接到的内容包。 仪表板的计数为 6 (1 + 3 + 2)。
   
     ![使用最多的仪表板](media/service-admin-portal/powerbi-admin-usage-metrics-top-dashboards.png)
 
-* 用户连接到的最受欢迎内容。 这是用户可以通过“获取数据”过程访问的任何内容，如 SaaS 内容包、组织内容包、文件或数据库。
+* 用户连接到的最受欢迎内容。 此内容是用户可以通过“获取数据”过程访问的任何内容，如 SaaS 内容包、组织内容包、文件或数据库。
+
   
     ![使用最多的包](media/service-admin-portal/powerbi-admin-usage-metrics-top-connections.png)
 
@@ -79,9 +83,9 @@ ms.locfileid: "87537495"
   
     ![主要用户 - 报表](media/service-admin-portal/powerbi-admin-usage-metrics-top-users-reports.png)
 
-第二个部分显示相同类型的信息，不过是基于组。 这样，就可以查看组织中最活跃的组以及它们所使用的内容种类。
+第二个部分显示相同类型的信息，不过是基于组。 使用此部分，可以查看组织中最活跃的组以及它们所使用的内容种类。
 
-借助此信息，你可以真正地深入了解用户在组织中如何使用 Power BI，并能够识别在组织中非常活跃的用户和组。
+借助此信息，你可以深入了解人们如何在组织中使用 Power BI。
 
 ## <a name="control-usage-metrics"></a>控制使用指标
 
@@ -93,7 +97,7 @@ ms.locfileid: "87537495"
 
 ### <a name="usage-metrics-for-content-creators"></a>内容创建者的使用指标
 
-1. 在“管理门户”中，选择“租户设置” > “内容创建者的使用指标”。
+1. 在管理门户中，选择“租户设置” > “审核和使用情况设置” > “内容创建者的使用指标”。
 
     ![管理门户租户设置使用指标](media/service-admin-portal/power-bi-admin-usage-metrics.png)
 
@@ -101,10 +105,9 @@ ms.locfileid: "87537495"
 
     ![已启用使用情况指标](../collaborate-share/media/service-usage-metrics/power-bi-tenant-settings-updated.png)
 
+### <a name="per-user-data-in-usage-metrics-for-content-creators"></a>内容创建者的使用指标中的每个用户数据
 
-### <a name="per-user-data-in-usage-metrics"></a>使用指标中的每个用户数据
-
-默认情况下，每个用户的数据都启用了使用指标并在指标报表中包含内容使用者帐户信息。 如果不希望某些或所有用户包含此信息，请为特定安全组或整个组织禁用此功能。 帐户信息随后会在报表中显示为“未命名”。
+默认情况下，每个用户的数据都启用了使用指标并在指标报表中包含帐户信息。 如果不希望某些或所有用户包含帐户信息，请为特定安全组或整个组织禁用此功能。 帐户信息随后会在报表中显示为“未命名”。
 
 ![每个用户使用数据](media/service-admin-portal/power-bi-admin-per-user-usage-data.png)
 
@@ -112,26 +115,26 @@ ms.locfileid: "87537495"
 
 当禁用整个组织的使用指标时，管理员还可以选择以下一个或两个选项：
 
-- **删除所有现有的使用指标内容**，可删除通过使用指标报表和数据集构建的所有现有报表和仪表板磁贴。 此选项可以删除组织中可能已在使用的所有用户对使用指标数据的所有访问内容。 
+- **删除所有现有的使用指标内容**，可删除通过使用指标报表和数据集构建的所有现有报表和仪表板磁贴。 此选项可以删除组织中可能已在使用的所有用户对使用指标数据的所有访问内容。
 - **删除当前使用指标内容中的所有现有每个用户数据** 此选项可以删除组织中可能已在使用的所有用户对使用指标数据的所有访问内容。 
 
 请谨慎操作，因为删除现有的使用指标内容和每个用户指标内容是不可逆转的操作。
 
 ## <a name="users"></a>用户
 
-可以在 Microsoft 365 管理中心中管理 Power BI 用户、组和管理员。 “用户”选项卡为租户提供指向管理中心的链接。
+可以在 Microsoft 365 管理中心中管理 Power BI 用户、组和管理员。 “用户”选项卡提供指向管理中心的链接。
 
 ![转到 Microsoft 365 管理中心](media/service-admin-portal/powerbi-admin-manage-users.png)
 
 ## <a name="audit-logs"></a>审核日志
 
-可以在 Office 365 安全与合规中心中管理 Power BI 审核日志。 “审核日志”选项卡为租户提供指向安全与合规中心的链接。 [了解详细信息](service-admin-auditing.md)
+可以在 Office 365 安全与合规中心中管理 Power BI 审核日志。 “审核日志”选项卡提供指向安全与合规中心的链接。 若要了解详细信息，请参阅[跟踪 Power BI 中的用户活动](service-admin-auditing.md)。
 
 若要使用审核日志，请确保[**创建内部活动审核和合规性的审核日志**](#create-audit-logs-for-internal-activity-auditing-and-compliance)设置已启用。
 
 ## <a name="tenant-settings"></a>租户设置
 
-“租户设置”选项卡可以对组织可用的功能进行细粒度控制。 如果你担心敏感数据、我们的某些功能可能不适合你的组织，或者你只需要为特定组提供特定的功能。
+“租户设置”可以对组织可用的功能进行细粒度控制。 如果你担心敏感数据、我们的某些功能可能不适合你的组织，或者你只需要为特定组提供特定的功能。
 
 > [!NOTE]
 > 控制 Power BI 用户界面中功能可用性的租户设置可帮助建立治理策略，但它们并不是一种安全措施。 例如，“导出数据”设置不会限制 Power BI 用户对数据集的权限。 对数据集具有读取访问权限的 Power BI 用户具有查询此数据集的权限，并且可以在不使用 Power BI 用户界面“导出数据”功能的情况下保留结果。
@@ -141,9 +144,9 @@ ms.locfileid: "87537495"
 ![租户设置](media/service-admin-portal/powerbi-admin-tenant-settings.png)
 
 > [!NOTE]
-> 可能需要 10 分钟才会使设置更改对租户中的每个人生效。
+> 可能需要 15 分钟才会使设置更改对组织中的每个人生效。
 
-设置可以有三种状态：
+设置可以有三种状态之一：
 
 * **已为整个组织禁用**：组织中无人可以使用此功能。
 
@@ -153,13 +156,13 @@ ms.locfileid: "87537495"
 
     ![启用所有设置](media/service-admin-portal/powerbi-admin-tenant-settings-enabled.png)
 
-* **针对组织的子集启用**：组织中特定子集的用户或组可以使用此功能。
+* **针对组织的子集启用**：可以将设置应用于组织中允许使用此功能的特定安全组，而不是为整个组织启用此功能。
 
-    可以为除特定用户组之外的整个组织启用此功能。
+    还可以为除特定安全组之外的整个组织启用某功能。
 
     ![启用子集设置](media/service-admin-portal/powerbi-admin-tenant-settings-enabled-except.png)
 
-    还可以仅为特定用户组启用功能，也可以为某个用户组禁用功能。 使用此方法确保即使某些用户属于允许的组，但仍没有访问该功能的权限。
+    还可以组合仅为特定用户组启用该功能但同时为某个用户组禁用该功能的设置。 使用此方法确保即使某些用户属于允许的组，但仍没有访问该功能的权限。 应用对用户最具限制性的设置。
 
     ![启用除外设置](media/service-admin-portal/powerbi-admin-tenant-settings-enabled-except2.png)
 
@@ -169,23 +172,47 @@ ms.locfileid: "87537495"
 
 ### <a name="publish-get-help-information"></a>发布“获取帮助”信息
 
-组织中的用户可以通过 Power BI 帮助菜单获取内部帮助和支持资源。 具体而言，这些参数更改“Learn”、“社区”和“获取帮助”菜单项的行为。
+管理员可以指定内部 URL 以覆盖 Power BI 帮助菜单上的链接的目标并进行授权升级。 如果设置了自定义 URL，则组织中的用户将转到内部帮助和支持资源，而不是默认目标。 可以自定义以下资源目标：
 
-此外，通过指定授权请求的 URL，可以自定义“升级帐户”按钮的目标 URL。 没有 Power BI Pro 许可证的用户将在“更新到 Power BI Pro”对话框和“管理个人存储”页中看到此按钮 。 此外，Power BI 不再提供此对话框或存储页中的“免费试用 Pro”按钮。 这可确保 Power BI 通过许可证管理解决方案可靠地引导用户完成在组织中定义的流程。
+* 学习。 默认情况下，此帮助菜单链接指向[所有 Power BI 学习路径和模块的列表](https://docs.microsoft.com/learn/browse/?products=power-bi)。 若要改为将此链接定向到内部训练资源，请为训练文档设置自定义 URL。
 
-![启用除外设置](media/service-admin-portal/powerbi-admin-tenant-settings-gethelp.png)
+* 社区。 若要将用户转到帮助菜单中的内部论坛（而不是 [Power BI 社区](https://community.powerbi.com/)），请设置讨论论坛的自定义 URL。
+
+* 授权升级。 具有 Power BI（免费）许可证的用户可能有机会在使用服务时将其帐户升级为 Power BI Pro。 如果为授权请求指定内部 URL，则需要将用户重定向到内部请求和购买流并阻止自助购买。 如果要阻止用户购买许可证，但允许用户启动 Power BI Pro 试用版，请参阅[允许用户试用 Power BI Pro](#allow-users-to-try-power-bi-pro)，以区分购买和试用体验。
+
+* 获取帮助。 若要将用户转到帮助菜单中的技术支持（而不是 [Power BI 支持](https://powerbi.microsoft.com/support/)），请设置技术支持的自定义 URL。
+
+![发布“获取帮助”信息](media/service-admin-portal/powerbi-admin-tenant-settings-gethelp.png)
 
 ### <a name="receive-email-notifications-for-service-outages-or-incidents"></a>接收与服务故障或突发事件相关的电子邮件通知
 
 如果此租户受到服务中断或突发事件的影响，已启用邮件的安全组将收到电子邮件通知。 了解有关[服务中断通知](service-interruption-notifications.md)的详细信息。
 
+### <a name="allow-users-to-try-power-bi-pro"></a>允许用户试用 Power BI Pro
+
+“允许用户试用 Power BI Pro”设置在默认情况下处于启用状态，并提高了对用户如何获取 Power BI Pro 许可证的控制。 在已阻止自助购买的情况下，此设置允许用户启动 Power BI Pro 试用版。 最终用户体验取决于许可证设置的组合方式。 下表显示了从 Power BI（免费）到 Power BI Pro 的升级体验如何受到不同设置组合的影响：
+
+| 自助购买设置 | 允许用户试用 Power BI Pro 设置 | 结束用户体验 |
+| ------ | ------ | ----- |
+| 已启用 | 已禁用 | 用户可以购买 Pro 许可证，但无法启动试用版 |
+| 已启用 | 已启用 | 用户可以启动 Pro 的免费试用版，也可以升级到付费许可证 |
+| 已禁用 | 已禁用 | 用户看到一条消息，需要联系 IT 管理员以请求许可证 |
+| 已禁用 | 已启用 | 用户可以启动 Pro 试用版，但必须联系 IT 管理员以获取付费许可证 |
+
+> [!NOTE]
+> 可以在[帮助和支持设置](#help-and-support-settings)中添加授权请求的内部 URL。 如果设置了 URL，则它会覆盖默认购买体验。 可以在上表中所述的情况下购买许可证的用户将被重定向到内部 URL。
+
+![允许用户试用 Power BI Pro 设置 UI](media/service-admin-portal/allow-pro-trial.png)
+
+若要了解详细信息，请参阅[启用或禁用自助注册和购买](service-admin-disable-self-service.md)。
+
 ## <a name="workspace-settings"></a>工作区设置
 
-在“租户设置”中，管理门户有两部分用于控制工作区：
+在“租户设置”中，管理门户有三部分用于控制工作区：
 
-- 创建新的工作区体验。
-- 跨工作区使用数据集。
-- 阻止创建经典工作区。
+- [创建新的工作区体验](#create-the-new-workspaces)。
+- [跨工作区使用数据集](#use-datasets-across-workspaces)。
+- [阻止创建经典工作区](#block-classic-workspace-creation)。
 
 ### <a name="create-the-new-workspaces"></a>创建新工作区
 
@@ -337,7 +364,7 @@ Azure AD B2B 来宾用户可以编辑和管理组织中的内容。 [了解详�
 
 ### <a name="publish-content-packs-and-apps-to-the-entire-organization"></a>向整个组织发布内容包和应用
 
-管理员使用此设置，以确定哪些用户可以向整个组织发布内容包和应用，而不仅仅是特定组。 详细了解[如何发布应用](../collaborate-share/service-create-distribute-apps.md)。
+管理员使用此设置，以确定哪些用户可以向整个组织发布内容包和应用，而不是特定组。 详细了解[如何发布应用](../collaborate-share/service-create-distribute-apps.md)。
 
 下图展示了创建内容包时可用的“我的整个组织”选项。
 
@@ -433,7 +460,7 @@ Azure AD B2B 来宾用户可以编辑和管理组织中的内容。 [了解详�
 
 ### <a name="allow-service-principals-to-use-power-bi-apis"></a>允许服务主体使用 Power BI API
 
-在 Azure Active Directory (Azure AD) 中注册的 Web 应用将使用已分配的服务主体来访问 Power BI API，而无需用户登录。 若要允许应用使用服务主体身份验证，必须包含在允许的安全组中添加它的服务主体。 [了解详细信息](../developer/embedded/embed-service-principal.md)
+在 Azure Active Directory (Azure AD) 中注册的 Web 应用将使用已分配的服务主体来访问 Power BI API，而无需用户登录。 若要允许应用使用服务主体身份验证，其服务主体必须包含在允许的安全组中。 [了解详细信息](../developer/embedded/embed-service-principal.md)
 
 > [!NOTE]
 > 服务主体继承其安全组中的所有 Power BI 租户设置的权限。 若要限制权限，请为服务主体创建专用的安全组并将其添加到相关已启用 Power BI 设置的“除特定安全组以外”列表。
@@ -491,26 +518,48 @@ Azure AD B2B 来宾用户可以编辑和管理组织中的内容。 [了解详�
 
 ![在 Power BI 管理门户中嵌入代码](media/service-admin-portal/embed-codes.png)
 
-## <a name="dataflow-storage-preview"></a>数据流存储(预览版)
+## <a name="organizational-visuals"></a>组织视觉对象
+
+[管理 Power BI 视觉对象管理员设置](organizational-visuals.md)中介绍了所有 Power BI 视觉对象管理员设置，包括 Power BI 视觉对象租户设置。
+
+## <a name="azure-connections-preview"></a>Azure 连接（预览）
+
+### <a name="tenant-level-storage-preview"></a>租户级存储（预览）
 
 默认情况下，Power BI 中使用的数据存储在由 Power BI 提供的内部存储中。 通过数据流与 Azure Data Lake Storage Gen2 (ADLS Gen2) 的集成，可将数据流存储在组织的 Azure Data Lake Storage Gen2 帐户中。 有关详细信息，请参阅[数据流和 Azure Data Lake 集成（预览）](../transform-model/service-dataflows-azure-data-lake-integration.md)。
 
+### <a name="workspace-level-storage-permissions-preview"></a>工作区级存储权限（预览）
+
+默认情况下，工作区管理员无法连接自己的存储帐户。 借助此预览功能，可以启用允许工作区管理员连接其自己的存储帐户的设置。
+
 ## <a name="workspaces"></a>工作区
 
-作为管理员，可以查看租户中存在的工作区。 可以对列表中的工作区进行排序和筛选并显示每个工作区的详细信息。 表列对应于由 [Power BI 管理员 Rest API](/rest/api/power-bi/admin) 为工作区返回的属性。 个人工作区的类型是“PersonalGroup”，经典工作区的类型是“Group”，提供新工作区体验的工作区的类型是“Workspace”。 有关详细信息，请参阅[在新工作区中组织工作](../collaborate-share/service-new-workspaces.md)。
+作为管理员，可以在“工作区”选项卡上查看租户中存在的工作区。在此选项卡上，可以执行以下操作：
 
-管理员还可以使用管理门户或 PowerShell cmdlet 来管理和恢复工作区。 
+- 刷新工作区列表及其详细信息。
+- 将有关工作区的数据导出到 .csv 文件。 
+- 查看有关工作区的详细信息，包括 ID、用户和角色、仪表板、报表和数据集。
+- 编辑具有访问权限的人员的列表。 这意味着你可以删除工作区。 你可以管理员身份将自己添加到工作区，然后打开工作区并将其删除。
+- 编辑“名称”和“说明”字段。
 
 ![工作区列表](media/service-admin-portal/workspaces-list.png)
+
+管理员还可以控制用户创建新工作区体验工作区和经典工作区的能力。 有关详细信息，请参阅本文中的[工作区设置](#workspace-settings)。 
+
+“工作区”选项卡上的表列对应于由 [Power BI 管理员 Rest API](/rest/api/power-bi/admin) 为工作区返回的属性。 个人工作区的类型是“PersonalGroup”，经典工作区的类型是“Group”，提供新工作区体验的工作区的类型是“Workspace”。 有关详细信息，请参阅[在新工作区中组织工作](../collaborate-share/service-new-workspaces.md)。
 
 在“工作区”选项卡上，可看到每个工作区的*状态*。 下表提供有关这些状态的含义的更多详细信息。
 
 |州省/自治区/直辖市  |说明  |
 |---------|---------|
-| 活动 | 普通工作区。 它不指示任何有关使用情况或所含内容的信息，仅指示工作区本身“正常”。 |
-| 孤立 | 无管理员用户的工作区。 |
-| 已删除 | 已删除的工作区。 如果需要，我们保留了足够的元数据用于还原工作区，最多可保留 90 天。 |
-| 正在删除 | 正在删除但尚未消失的工作区。 用户可以删除自己的工作区，将工作区放入“正在删除”并最终放入“已删除”。 |
+| **活动** | 普通工作区。 它不指示任何有关使用情况或所含内容的信息，仅指示工作区本身“正常”。 |
+| **孤立** | 无管理员用户的工作区。 |
+| **已删除** | 已删除的工作区。 如果需要，我们保留了足够的元数据用于还原工作区，最多可保留 90 天。 |
+| **正在删除** | 正在删除但尚未消失的工作区。 用户可以删除自己的工作区，将工作区放入“正在删除”并最终放入“已删除”。 |
+
+管理员还可以使用管理门户或 PowerShell cmdlet 来管理和恢复工作区。 
+
+![工作区列表](media/service-admin-portal/workspaces-list.png)
 
 ## <a name="custom-branding"></a>自定义品牌
 
@@ -522,12 +571,14 @@ Azure AD B2B 来宾用户可以编辑和管理组织中的内容。 [了解详�
 
 * **上传封面图像**：为获得最佳结果，请上传另存为 .jpg 或 .png 的封面图像，大小不超过 1 MB，且至少为 1920 x 160 像素。
 
-* **选择主题颜色**：可以根据十六进制 #、RGB、值或提供的托盘来选择主题。
+* **选择主题颜色**：可以根据十六进制数 #、RGB、值或提供的调色板来选择主题。
 
 
 有关详细信息，请参阅[为组织自定义品牌](https://aka.ms/orgBranding)。
 
-![工作区列表](media/service-admin-portal/workspaces-list.png)
+## <a name="protection-metrics"></a>保护指标
+
+为 Power BI 启用信息保护后，数据保护指标将显示在管理门户中。 报表显示敏感度标签如何帮助保护你的内容。
 
 ## <a name="manage-featured-content"></a>管理特别推荐的内容
 

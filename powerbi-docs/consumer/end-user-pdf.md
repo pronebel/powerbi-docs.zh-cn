@@ -7,15 +7,15 @@ ms.reviewer: cmfinlan
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: how-to
-ms.date: 03/11/2020
+ms.date: 08/05/2020
 ms.author: mihart
 LocalizationGroup: Share your work
-ms.openlocfilehash: ec45d971855aefe35161f2b10fecd483f0345a46
-ms.sourcegitcommit: a7227f6d3236e6e0a7bc1f83ff6099b5cd58bff3
+ms.openlocfilehash: 4f02a98ca13bd5808bde987889c3f4404c9100f0
+ms.sourcegitcommit: 65822b51810a5239fea9d3d0af1fc286436c6cad
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2020
-ms.locfileid: "87768794"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "87837488"
 ---
 # <a name="export-reports-from-power-bi-to-pdf"></a>从 Power BI 将报表导出为 PDF
 
@@ -52,6 +52,7 @@ ms.locfileid: "87768794"
 ## <a name="limitations-and-considerations"></a>限制和注意事项
 在使用“导出为 PDF”功能时，有几个注意事项和限制需要牢记  。
 
+* PDF 将包含 Power BI 画布上可见的数据和可视化效果。 如果视觉对象包含滚动条，则 PDF 会在其未滚动默认状态下包含视觉对象。  
 * 目前不支持 R 视觉对象和 Python 视觉对象。 在 PDF 中，这些视觉对象为空白，并会显示一条错误消息。 
 * 支持经认证的 Power BI 视觉对象。 有关经认证的 Power BI 视觉对象的详细信息（包括如何完成 Power BI 视觉对象认证），请参阅[获取 Power BI 视觉对象认证](../developer/visuals/power-bi-custom-visuals-certified.md)。 不支持尚未认证的 Power BI 视觉对象。 在 PDF 中，它们会显示一条错误消息。
 * ESRI 视觉对象不受支持

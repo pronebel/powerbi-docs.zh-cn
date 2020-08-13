@@ -6,14 +6,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 06/10/2020
+ms.date: 08/05/2020
 ms.author: davidi
-ms.openlocfilehash: 0bc6b844457f625d0287f2ec85f582a6ea874624
-ms.sourcegitcommit: 6d3a37eb636e1b71c7dcb9d1c3a9e495b78dec97
+ms.openlocfilehash: 6afc5dd36127390dd359d76fc8970d5ef6f7b590
+ms.sourcegitcommit: 65822b51810a5239fea9d3d0af1fc286436c6cad
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2020
-ms.locfileid: "84681850"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "87837557"
 ---
 # <a name="power-bi-data-sources"></a>Power BI 数据源
 
@@ -94,7 +94,7 @@ ms.locfileid: "84681850"
 | ODBC | 是 | 是 | 否 | 是 | 是 |
 | OleDb | 是 | 是 | 否 | 是 | 是 |
 | Oracle | 是 | 是 | 是 | 是 | 是 |
-| Paxata | 是 | 是 | 否 | 是 | 否 |
+| Paxata <sup>8</sup> | 是 | 是 | 否 | 是 | 否 |
 | PDF | 是 | 是 | 否 | 是 | 否 <sup>4</sup> |
 | Planview Enterprise One - CTM | 是 | 是 | 否 | 否 | 否 |
 | Planview Enterprise One - PRM | 是 | 是 | 否 | 否 | 否 |
@@ -155,6 +155,8 @@ ms.locfileid: "84681850"
 
 <sup>7</sup> Power BI 服务不支持需要身份验证的 OData 源。
 
+<sup>8</sup> 针对 Power BI 报表服务器优化的 Power BI Desktop 版本中支持 Paxata。 在发布到 Power BI 报表服务器的 Power BI 报表中不受支持。 有关受支持的数据源的列表，请参阅 [Power BI 报表服务器中的 Power BI 报表数据源](../report-server/data-sources.md)。
+
 ## <a name="single-sign-on-sso-for-directquery-sources"></a>DirectQuery 源的单一登录 (SSO)
 
 启用“SSO”选项后，如果用户访问基于数据源生成的报表，则 Power BI 会在查询中将这些用户的已经过身份验证的 Azure AD 凭据发送到基础数据源。 这样，Power BI 便可以遵守在数据源级别配置的安全设置。
@@ -180,3 +182,4 @@ SSO 选项针对使用此数据源的所有数据集生效。 它不影响用于
 [在 Power BI 中使用 DirectQuery](desktop-directquery-about.md)  
 [Power BI 中的 SQL Server Analysis Services 实时数据](sql-server-analysis-services-tabular-data.md)  
 [本地数据网关是什么？](service-gateway-onprem.md)  
+[Power BI 报表服务器中 Power BI 报表数据源](../report-server/data-sources.md)

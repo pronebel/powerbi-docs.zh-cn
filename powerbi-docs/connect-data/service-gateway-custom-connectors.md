@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-gateways
 ms.topic: how-to
-ms.date: 07/15/2019
+ms.date: 08/07/2020
 LocalizationGroup: Gateways
-ms.openlocfilehash: dea1198519f59a81c49e2f7a95a903c37bd4fb11
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: c171369cad8a311f91bd4b8542577cbd0c8e4657
+ms.sourcegitcommit: 154946ece829360cc0ff3be13276cd7a129f3388
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85236617"
+ms.lasthandoff: 08/07/2020
+ms.locfileid: "87988693"
 ---
 # <a name="use-custom-data-connectors-with-the-on-premises-data-gateway"></a>通过本地数据网关使用自定义数据连接器
 
@@ -47,6 +47,7 @@ ms.locfileid: "85236617"
 * 请确保所创建的文件夹可供后台网关服务访问。 通常情况下，无法访问用户的 Windows 文件夹或系统文件夹下的文件夹。 如果该文件夹不可访问，本地数据网关应用将显示一条消息。 此说明不适用于本地数据网关（个人模式）。
 * 若要配合使用自定义连接器和本地数据网关，需要在自定义连接器的代码中实现“TestConnection”部分。 在 Power BI Desktop 上使用自定义连接器时，不需要此部分。 因此，可以使用适用于 Power BI Desktop 的连接器，但不能使用网关。 有关如何实现 TestConnection 部分的详细信息，请参阅[本文档](https://github.com/Microsoft/DataConnectors/blob/master/docs/m-extensions.md#implementing-testconnection-for-gateway-support)。
 * 目前仅网关管理员（而非其他数据源用户）支持通过网关的 OAuth 自定义连接器。
+* 如果自定义连接器位于网络驱动器上，请在本地数据网关应用上包括完全限定的路径。
 
 ## <a name="next-steps"></a>后续步骤
 
@@ -55,7 +56,7 @@ ms.locfileid: "85236617"
 * [管理数据源 - SQL Server](service-gateway-enterprise-manage-sql.md)  
 * [管理数据源 - Oracle](service-gateway-onprem-manage-oracle.md)  
 * [管理数据源 - 导入/计划刷新](service-gateway-enterprise-manage-scheduled-refresh.md)
-* [为本地数据网关配置代理设置](/data-integration/gateway/service-gateway-proxy)
+* [配置本地数据网关的代理设置](/data-integration/gateway/service-gateway-proxy)
 * [使用 Kerberos 进行从 Power BI 到本地数据源的单一登录 (SSO)](service-gateway-sso-kerberos.md)  
 
 更多问题？ 请尝试在 [Power BI 社区](https://community.powerbi.com/)中提问

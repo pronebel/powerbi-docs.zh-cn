@@ -12,14 +12,14 @@ ms.subservice: powerbi-consumer
 ms.topic: quickstart
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 06/17/2020
+ms.date: 08/10/2020
 ms.author: mihart
-ms.openlocfilehash: 7d9d0a3f9aaea77a969f11561a22ab68fbec0264
-ms.sourcegitcommit: 2131f7b075390c12659c76df94a8108226db084c
+ms.openlocfilehash: 0d0d6e935f8405aa063ed90cf5a2f403faeba893
+ms.sourcegitcommit: 9e39232cbc28d8b39dfec5496db7ece9837b5e53
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/03/2020
-ms.locfileid: "87537242"
+ms.lasthandoff: 08/10/2020
+ms.locfileid: "88049727"
 ---
 # <a name="quickstart-learn-about-the-power-bi-capabilities-for-consumers"></a>快速入门：了解面向使用者的 Power BI 功能
 
@@ -102,7 +102,7 @@ Power BI 服务为你提供服务的两种方式是使用订阅和警报。
 ![磁贴、卡片、KPI](media/end-user-alerts/card-gauge-kpi.png)
 
 Power BI 会在值增加或减少超过设置的限制时，向你发送电子邮件。  
-![警报电子邮件](media/end-user-alerts/power-bi-alert-email.png)
+![警报电子邮件](media/end-user-alerts/power-bi-email.png)
 
 详细了解 [Power BI 警报](end-user-alerts.md)
 
