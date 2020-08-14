@@ -114,6 +114,8 @@
               href: service-admin-premium-multi-geo.md
             - name: 引入你自己的加密密钥
               href: service-encryption-byok.md
+            - name: 使用客户管理的密钥
+              href: service-encryption-customer-managed-keys.md
             - name: 重新开始高级容量
               href: service-admin-premium-restart.md
             - name: 使用 XMLA 终结点的数据集连接
