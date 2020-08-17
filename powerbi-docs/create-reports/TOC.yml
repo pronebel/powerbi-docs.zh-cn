@@ -119,7 +119,7 @@
       items:
         - name: Power BI 报表
           items:
-            - name: 启用自动页面刷新（预览版）
+            - name: 启用自动页面刷新
               href: desktop-automatic-page-refresh.md
             - name: 用性能分析器检查报表元素
               href: desktop-performance-analyzer.md
