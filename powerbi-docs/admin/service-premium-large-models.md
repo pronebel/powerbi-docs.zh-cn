@@ -9,12 +9,12 @@ ms.subservice: powerbi-admin
 ms.topic: how-to
 ms.date: 03/03/2020
 LocalizationGroup: Premium
-ms.openlocfilehash: 0169eba3e27b4014f9dbf20f88a10575caf903fe
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 7ea6601514d77f9f7e2e416b358194e871f6445b
+ms.sourcegitcommit: 64139587061136a43c5aea3b6db4d1a94e4e7795
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85227258"
+ms.lasthandoff: 08/14/2020
+ms.locfileid: "88204309"
 ---
 # <a name="large-models-in-power-bi-premium-preview"></a>Power BI Premium 中的大型模型（预览）
 
@@ -114,7 +114,6 @@ SELECT * FROM SYSTEMRESTRICTSCHEMA
 
 使用大型模型时，记住以下限制：
 
-- **创建自己的密钥 BYOK 加密**：启用了“高级文件”的数据集不通过 [BYOK](service-encryption-byok.md) 进行加密。
 - **Multi-Geo 支持**：如果同时启用了 [multi-geo](service-admin-premium-multi-geo.md)，启用了“高级文件”的数据集将出现容量故障。
 
 - **下载到 Power BI Desktop**：如果数据集存储在高级文件中，[下载为 .pbix](../create-reports/service-export-to-pbix.md) 文件将失败。
@@ -131,19 +130,19 @@ Power BI 中的大型模型只在支持 [Azure 高级文件存储](https://docs.
 |Azure 区域  |Azure 区域缩写  |
 |---------|---------|
 |澳大利亚东部     | australiaeast        |
-|澳大利亚东南部     | australiasoutheast        |
+|Australia Southeast     | australiasoutheast        |
 |美国中部     | centralus        |
 |东亚     | eastasia        |
 |美国东部     | eastus        |
 |美国东部 2     | eastus2        |
-|日本东部     | japaneast        |
+|Japan East     | japaneast        |
 |日本西部     | japanwest        |
 |韩国中部     | koreacentral        |
 |韩国南部     | koreasouth        |
 |美国中北部     | northcentralus        |
 |北欧     | northeurope        |
 |美国中南部     | southcentralus        |
-|东南亚     | southeastasia        |
+|Southeast Asia     | southeastasia        |
 |英国南部     | uksouth        |
 |英国西部     | ukwest        |
 |西欧     | westeurope        |

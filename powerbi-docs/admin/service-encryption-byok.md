@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: how-to
-ms.date: 02/20/2020
+ms.date: 08/13/2020
 LocalizationGroup: Premium
-ms.openlocfilehash: 944d115b0592954d92460ca26ae5b59311abc42e
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: a6513bdf7451db7068fe2540d32546df4d42ae8e
+ms.sourcegitcommit: 64139587061136a43c5aea3b6db4d1a94e4e7795
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85227477"
+ms.lasthandoff: 08/14/2020
+ms.locfileid: "88204581"
 ---
 # <a name="bring-your-own-encryption-keys-for-power-bi"></a>自带加密密钥使用 Power BI
 
@@ -32,7 +32,7 @@ BYOK 让满足有关指定与云服务提供商（在本例中为 Microsoft）�
 - Excel 工作簿（除非是首次将数据导入 Power BI Desktop）
 - [推送数据集](/rest/api/power-bi/pushdatasets)
 - [流数据集](../connect-data/service-real-time-streaming.md#set-up-your-real-time-streaming-dataset-in-power-bi)
-- [大型模型](service-premium-large-models.md)
+
 
 BYOK 仅适用于数据集。 用户可以上传到服务的推送数据集、Excel 文件和 CSV 文件不使用自己的密钥进行加密。 若要确定哪些项目存储在工作区中，请使用以下 PowerShell 命令：
 
@@ -41,7 +41,7 @@ BYOK 仅适用于数据集。 用户可以上传到服务的推送数据集、Ex
 > [!NOTE]
 > 此 cmdlet 需要 Power BI 管理模块 v1.0.840。 可以通过运行 Get-InstalledModule -Name MicrosoftPowerBIMgmt 来查看你拥有的版本。 通过运行 Install-Module -Name MicrosoftPowerBIMgmt 安装最新版本。 可在 [Power BI PowerShell cmdlet 模块](https://docs.microsoft.com/powershell/power-bi/overview)中获取有关 Power BI cmdlet 及其参数的详细信息。
 
-## <a name="configure-azure-key-vault"></a>配置 Azure 密钥保管库
+## <a name="configure-azure-key-vault"></a>配置 Azure Key Vault
 
 在此部分中，你将学习如何配置 Azure Key Vault - 一种用于安全存储和访问加密密钥等机密的工具。 可以使用现有密钥保管库来存储加密密钥，也可以创建专门与 Power BI 配合使用的新密钥保管库。
 
@@ -54,47 +54,47 @@ BYOK 仅适用于数据集。 用户可以上传到服务的推送数据集、Ex
     > [!IMPORTANT]
     > Power BI BYOK 仅支持 4096 位长度的 RSA 密钥。
 
-1. 建议：检查并确保密钥保管库已启用“软删除”选项  。
+1. 建议：检查并确保密钥保管库已启用“软删除”选项。
 
 ### <a name="add-the-service-principal"></a>添加服务主体
 
-1. 在 Azure 门户的密钥保管库中，在“访问策略”下，选择“新建”   。
+1. 在 Azure 门户的密钥保管库中，在“访问策略”下，选择“新建” 。
 
-1. 在“选择主体”下，搜索并选择“Microsoft.Azure.AnalysisServices”  。
+1. 在“选择主体”下，搜索并选择“Microsoft.Azure.AnalysisServices”。
 
     > [!NOTE]
     > 如果找不到“Microsoft.Azure.AnalysisServices”，则可能是与 Azure Key Vault 关联的 Azure 订阅没有与之关联的 Power BI 资源。 请尝试改为搜索以下字符串：00000009-0000-0000-c000-000000000000。
 
-1. 在“密钥权限”下，选择“解包密钥”和“包装密钥”    。
+1. 在“密钥权限”下，选择“解包密钥”和“包装密钥”  。
 
     ![PBIX 文件组件](media/service-encryption-byok/service-principal.png)
 
-1. 依次选择“确定”和“保存”   。
+1. 选择“确定”****，然后选择“保存”****。
 
 > [!NOTE]
 > 若要在将来撤消 Power BI 对你的数据的访问权限，请从 Azure 密钥保管库中删除对此服务主体的访问权限。
 
 ### <a name="create-an-rsa-key"></a>创建 RSA 密钥
 
-1. 在密钥保管库中的“密钥”下，选择“生成/导入”   。
+1. 在密钥保管库中的“密钥”下，选择“生成/导入” 。
 
-1. 选择 RSA 的“密钥类型”和 4096 的“RSA 密钥大小”   。
+1. 选择 RSA 的“密钥类型”和 4096 的“RSA 密钥大小”********。
 
     ![PBIX 文件组件](media/service-encryption-byok/create-rsa-key.png)
 
-1. 选择“创建”  。
+1. 选择“创建”。
 
-1. 在“密钥”下，选择所创建的密钥  。
+1. 在“密钥”下，选择所创建的密钥。
 
-1. 选择密钥“当前版本”的 GUID  。
+1. 选择密钥“当前版本”的 GUID****。
 
-1. 检查并确保已选中“包装密钥”和“解包密钥”   。 复制“密钥标识符”，以在 Power BI 中启用 BYOK 时使用  。
+1. 检查并确保已选中“包装密钥”和“解包密钥”********。 复制“密钥标识符”，以在 Power BI 中启用 BYOK 时使用****。
 
     ![PBIX 文件组件](media/service-encryption-byok/key-properties.png)
 
 ### <a name="soft-delete-option"></a>“软删除”选项
 
-我们建议在密钥保管库中启用[软删除](/azure/key-vault/key-vault-ovw-soft-delete)，以防止在意外删除密钥或密钥保险库时丢失数据。 必须使用 [PowerShell 在密钥保管库中启用“软删除”属性](/azure/key-vault/key-vault-soft-delete-powershell)，因为 Azure 门户尚未提供此选项。
+我们建议在密钥保管库中启用“软删除”，以防止在意外删除密钥或密钥保险库时丢失数据[](/azure/key-vault/key-vault-ovw-soft-delete)。 必须使用 [PowerShell 在密钥保管库中启用“软删除”属性](/azure/key-vault/key-vault-soft-delete-powershell)，因为 Azure 门户尚未提供此选项。
 
 正确配置 Azure 密钥保管库后，即可在租户上启用 BYOK。
 

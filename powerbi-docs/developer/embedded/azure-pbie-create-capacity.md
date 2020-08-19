@@ -9,12 +9,12 @@ ms.devlang: csharp, javascript
 ms.topic: how-to
 ms.reviewer: zakharb
 ms.date: 08/02/2020
-ms.openlocfilehash: 5a84c67a2efd57376afc289f965da9dc5dafd3c6
-ms.sourcegitcommit: a7227f6d3236e6e0a7bc1f83ff6099b5cd58bff3
+ms.openlocfilehash: 2f330b42e674f11f27d695fb65bc8d5de928eaae
+ms.sourcegitcommit: 64139587061136a43c5aea3b6db4d1a94e4e7795
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2020
-ms.locfileid: "87768567"
+ms.lasthandoff: 08/14/2020
+ms.locfileid: "88204828"
 ---
 # <a name="create-power-bi-embedded-capacity-in-the-azure-portal"></a>在 Azure 门户中创建 Power BI Embedded 容量
 
@@ -56,7 +56,7 @@ ms.locfileid: "87768567"
 
     * “位置”- 为租户托管 Power BI 的位置。 你的默认位置位于主区域内，但可以使用 [Multi-Geo 选项](embedded-multi-geo.md)更改该位置。
 
-    * “大小”- 所需的 [SKU](../../admin/service-admin-premium-purchase.md#purchase-a-skus-for-testing-and-other-scenarios)。 有关详细信息，请参阅 [SKU 内存和计算能力](/embedded/embedded-capacity.md#sku-memory-and-computing-power)。
+    * “大小”- 所需的 [SKU](../../admin/service-admin-premium-purchase.md#purchase-a-skus-for-testing-and-other-scenarios)。 有关详细信息，请参阅 [SKU 内存和计算能力](/power-bi/developer/embedded/embedded-capacity)。
 
     * “Power BI 容量管理员”- 容量的管理员。
         >[!NOTE]
@@ -229,9 +229,10 @@ az powerbi embedded-capacity delete --name
 
     * “名称”- 容量名称。
 
-    * “位置”- 为租户托管 Power BI 的位置。 你的默认位置位于主区域内，但可以使用 [Multi-Geo 选项](/embedded/embedded-multi-geo.md)更改该位置。
+    * “位置”- 为租户托管 Power BI 的位置。 你的默认位置位于主区域内，但可以使用 [Multi-Geo 选项](https://docs.microsoft.com/power-bi/developer/embedded/embedded-multi-geo
+)更改该位置。
 
-    * “SKU”- 所需的 [SKU](../../admin/service-admin-premium-purchase.md#purchase-a-skus-for-testing-and-other-scenarios)。 有关详细信息，请参阅 [SKU 内存和计算能力](/embedded/embedded-capacity.md#sku-memory-and-computing-power)。
+    * “SKU”- 所需的 [SKU](../../admin/service-admin-premium-purchase.md#purchase-a-skus-for-testing-and-other-scenarios)。 有关详细信息，请参阅 [SKU 内存和计算能力](/power-bi/developer/embedded/embedded-capacity)。
 
     * “管理员”- 容量的管理员。
         >[!NOTE]
