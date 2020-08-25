@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 07/22/2020
+ms.date: 08/12/2020
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: 01155e3ed4921a11f87acaeaf67f20772a4d01dd
-ms.sourcegitcommit: 65025ab7ae57e338bdbd94be795886e5affd45b4
+ms.openlocfilehash: d8b98afff55c830a1ce3fadd39c11b4cf98036a8
+ms.sourcegitcommit: 7d505cb7cc9360211d67f1056cb488f7f15ffab4
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/28/2020
-ms.locfileid: "87252742"
+ms.lasthandoff: 08/19/2020
+ms.locfileid: "88578188"
 ---
 # <a name="previous-monthly-updates-to-power-bi-desktop"></a>此前的 Power BI Desktop 月度更新
 
@@ -37,6 +37,85 @@ ms.locfileid: "87252742"
 也可以通过单击更新列表下的视频图像上的“**播放**”按钮，从头观看本文中的**最新更新**视频。
 
 以下各节描述了 **Power BI Desktop** 之前月份的更新。
+
+
+## <a name="july-2020-update-2835894661"></a>2020 年 7 月更新 (2.83.5894.661)
+
+我们的 7 月 Power BI Desktop 更新包含新特性和功能，需要烟花、阳光野餐和社区烧烤进行庆祝。 
+
+从[下载中心](https://www.microsoft.com/download/details.aspx?id=58494)获取最新版 Power BI Desktop。 如果运行的是 Windows 10，还可以从 [Microsoft Store](https://aka.ms/pbidesktopstore) 获取 Power BI Desktop。 无论以何种方式安装 Power BI Desktop，每月版本都是相同的，虽然版本编号可能不同。 有关下载和安装 Power BI Desktop 的详细信息，请参阅[获取 Power BI Desktop](desktop-get-the-desktop.md)。 
+
+> [!IMPORTANT]
+> 每月更新并发布 Power BI Desktop，在其中包含客户反馈和新增功能。 仅支持 Power BI Desktop 的最新版本；将要求联系 Power BI Desktop 支持的客户升级到最新版本。 可以从 [Windows 应用商店](https://aka.ms/pbidesktopstore)获取 Power BI Desktop 的最新版本，也可以在计算机上以单个可执行文件的形式[下载](https://www.microsoft.com/download/details.aspx?id=58494)并安装所有受支持的语言。
+
+Power BI Desktop 更新列表中每个功能旁边的链接解释如下：
+
+* \[博客\]：大多数功能在每月更新的博客文章的章节中均有说明。
+* \[视频\]：有些功能还提供了一段讨论此功能的视频片段（可以在新的浏览器标签页中播放）。
+* \[文章\]：有些功能通过文章来提供更多详细信息。
+* 其余功能是明白易懂的，不需要文章或视频。
+
+你还可以观看整个 [Power BI Desktop 每月更新视频](#power-bi-desktop-monthly-update-video)。
+
+以下是本月推出的 Power BI Desktop 新增功能的更新：
+
+
+### <a name="reporting"></a>报表
+* 渐变布局 [[视频]](https://youtu.be/BCNYMJKyjEo?t=15)  [[博客]](https://powerbi.microsoft.com/blog/power-bi-desktop-july-2020-feature-summary/#_Gradient_legend) 
+* 能够进一步自定义切片器标头文本 [[视频]](https://youtu.be/BCNYMJKyjEo?t=159)   [[博客]](https://powerbi.microsoft.com/blog/power-bi-desktop-july-2020-feature-summary/#_Ability_to_further) 
+* 相对时间筛选器现已正式发布  [[视频]](https://youtu.be/BCNYMJKyjEo?t=195)  [[博客]](https://powerbi.microsoft.com/blog/power-bi-desktop-july-2020-feature-summary/#_Relative_time_filter) 
+
+
+### <a name="analytics"></a>分析
+* 问答功能增强 [[视频]](https://youtu.be/BCNYMJKyjEo?t=214)  [[博客]](https://powerbi.microsoft.com/blog/power-bi-desktop-july-2020-feature-summary/#_Enhancements_to_QA) 
+
+
+### <a name="visuals"></a>视觉对象
+* Azure Maps 视觉对象（预览） [[视频]](https://youtu.be/BCNYMJKyjEo?t=390)  [[博客]](https://powerbi.microsoft.com/blog/power-bi-desktop-july-2020-feature-summary/#_Azure_Maps_visual)
+* 通过 XViz 的多轴图表更新  [[视频]](https://youtu.be/BCNYMJKyjEo?t=783)  [[博客]](https://powerbi.microsoft.com/blog/power-bi-desktop-july-2020-feature-summary/#_Updates_to_Multi_Axis)
+
+
+### <a name="modeling"></a>建模
+* 对 Excel 财务函数的支持 [[视频]](https://youtu.be/BCNYMJKyjEo?t=812)   [[博客]](https://powerbi.microsoft.com/blog/power-bi-desktop-july-2020-feature-summary/#_Support_for_Excel)
+* 启用实时连接的模型视图现已正式发布 [[视频]](https://youtu.be/BCNYMJKyjEo?t=956)  [[博客]](https://powerbi.microsoft.com/blog/power-bi-desktop-july-2020-feature-summary/#_Model_view_enabled)
+
+
+### <a name="data-preparation"></a>数据准备
+* 用于禁用自动类型检测的全局选项 [[视频]](https://youtu.be/BCNYMJKyjEo?t=989)   [[博客]](https://powerbi.microsoft.com/blog/power-bi-desktop-july-2020-feature-summary/#_Global_option_to) 
+
+
+### <a name="template-apps"></a>模板应用
+* MAQ 软件的 YouTube 分析 [[视频]](https://youtu.be/BCNYMJKyjEo?t=1035)  [[博客]](https://powerbi.microsoft.com/blog/power-bi-desktop-july-2020-feature-summary/#_YouTube_Analytics_by)
+
+
+### <a name="other-features"></a>其他功能
+* 从 Power BI Desktop（预览版）中启动外部工具 [[视频]](https://youtu.be/BCNYMJKyjEo?t=1066)   [[文章]](../create-reports/desktop-external-tools.md)  [[博客]](https://powerbi.microsoft.com/blog/power-bi-desktop-july-2020-feature-summary/#_Launch_external_tools) 
+
+
+有关这些新功能的详细信息，请参阅 [Power BI Desktop 功能摘要博客文章](https://powerbi.microsoft.com/blog/power-bi-desktop-july-2020-feature-summary/)。
+
+查看 [Power BI 服务中的新增功能](service-whats-new.md)，以及 [Power BI 移动应用中的新增功能](../consumer/mobile/mobile-whats-new-in-the-mobile-apps.md)。
+
+> [!NOTE]
+> 查看 [Power BI Desktop 可用的数据源](../connect-data/desktop-data-sources.md)。 我们的列表将不断增加，请经常返回查看。
+
+
+### <a name="power-bi-desktop-monthly-update-video"></a>Power BI Desktop 每月更新视频
+以下视频介绍了上述每项更新。 你还可以从博客文章查看该视频：
+
+> [!VIDEO https://www.youtube.com/embed/BCNYMJKyjEo]
+
+还可以下载旧版 Power BI Desktop（若组织需要）。 始终建议使用最新版 Power BI Desktop，而不是旧版本。 所有旧版本都存在以下限制：
+
+* 旧版 Power BI Desktop 无法提供服务，应始终使用最新版本获取最新功能和更新。
+* 可能无法使用旧版 Power BI Desktop 打开在较新版本的 Power BI Desktop 中创建或保存的文件。 
+* 如果在加载较新版本的 Power BI Desktop 中保存的报表时收到警告，然后将该报表保存在旧版本中，则会丢失与新功能相关的所有信息。
+* 我们只存档 Power BI Desktop 的英文版本。
+
+请选择以下链接以下载早期版本： 
+
+* [2020 年 7 月版 Power BI Desktop - 32 位](https://download.microsoft.com/download/8/8/0/880BCA75-79DD-466A-927D-1ABF1F5454B0/PBIDesktopSetup-2020-07.exe)
+* [2020 年 7 月版 Power BI Desktop - 64 位](https://download.microsoft.com/download/8/8/0/880BCA75-79DD-466A-927D-1ABF1F5454B0/PBIDesktopSetup-2020-07_x64.exe)
 
 
 ## <a name="june-2020-update-2825858301"></a>2020 年 6 月更新 (2.82.5858.301)
@@ -121,9 +200,6 @@ Power BI Desktop 更新列表中每个功能旁边的链接解释如下：
 
 * [2020 年 6 月版 Power BI Desktop - 32 位](https://download.microsoft.com/download/8/8/0/880BCA75-79DD-466A-927D-1ABF1F5454B0/PBIDesktopSetup-2020-06.exe)
 * [2020 年 6 月版 Power BI Desktop - 64 位](https://download.microsoft.com/download/8/8/0/880BCA75-79DD-466A-927D-1ABF1F5454B0/PBIDesktopSetup-2020-06_x64.exe)
-
-
-
 
 
 
@@ -309,9 +385,6 @@ Power BI Desktop 更新列表中每个功能旁边的链接解释如下：
 
 
 
-
-
-
 ## <a name="march-2020-update-2795768562"></a>2020 年 3 月更新 (2.79.5768.562)
 
 我们非常幸运可以与你分享我们在三月推出的 Power BI Desktop。 
@@ -404,11 +477,6 @@ Power BI Desktop 更新列表中每个功能旁边的链接解释如下：
 
 
 
-
-
-
-
-
 ## <a name="february-2020-update-2785740642"></a>2020 年 2 月更新 (2.78.5740.642)
 
 我们喜欢 2 月更新，我们觉得其中的新功能比一盒心形巧克力更棒。 
@@ -480,8 +548,8 @@ Power BI Desktop 更新列表中每个功能旁边的链接解释如下：
 
 请选择以下链接以下载早期版本： 
 
-* [2020 年 2 月版 Power BI Desktop（32 位）](https://download.microsoft.com/download/8/8/0/880BCA75-79DD-466A-927D-1ABF1F5454B0/PBIDesktopSetup-2020-02.exe)
-* [2020 年 2 月版 Power BI Desktop（64 位）](https://download.microsoft.com/download/8/8/0/880BCA75-79DD-466A-927D-1ABF1F5454B0/PBIDesktopSetup-2020-02_x64.exe)
+* [2020 年 2 月版 Power BI Desktop（32 位）](https://download.microsoft.com/download/3/C/0/3C0A5D40-85C6-4959-BB51-3A2087B18BCA/PBIDesktopRS.msi)
+* [2020 年 2 月版 Power BI Desktop（64 位）](https://download.microsoft.com/download/8/8/0/880BCA75-79DD-466A-927D-1ABF1F5454B0/PBIDesktopSetup_x64.exe)
 
 
 ## <a name="december-2019-update-2765678661"></a>2019 年 12 月更新 (2.76.5678.661)

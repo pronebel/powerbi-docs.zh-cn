@@ -1,32 +1,32 @@
 ---
 title: 使用分析功能解释报表视觉对象中的波动
-description: 在 Power BI Desktop 中轻松获得有关增加或减少情况的见解
+description: 在 Power BI 服务中轻松获得有关增加或减少情况的见解
 author: mihart
 ms.reviewer: mihart
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 06/23/2019
+ms.date: 08/12/2020
 ms.author: mihart
 LocalizationGroup: Create reports
-ms.openlocfilehash: 36f370adc68c6b6f8fc15261bfa107411043c65d
-ms.sourcegitcommit: c18130ea61e67ba111be870ddb971c6413a4b632
+ms.openlocfilehash: fe44b183b77cb1e58c89cfd229f3f76d3b06ce39
+ms.sourcegitcommit: 3268a9b630cf599c50592d83c70a87eeecf7838f
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/09/2020
-ms.locfileid: "86162289"
+ms.lasthandoff: 08/13/2020
+ms.locfileid: "88168438"
 ---
-# <a name="use-the-analyze-feature-to-explain-fluctuations-in-report-visuals-preview"></a>使用分析功能解释报表视觉对象中的波动（预览）
+# <a name="use-the-analyze-feature-to-explain-fluctuations-in-report-visuals"></a>使用分析功能解释报表视觉对象中的波动
 
-[!INCLUDE[consumer-appliesto-ynnn](../includes/consumer-appliesto-ynnn.md)]
+[!INCLUDE[consumer-appliesto-yynn](../includes/consumer-appliesto-yynn.md)]
 
-在报表视觉对象中，你通常会看到值大幅上升又急剧下降的情况，并且想知道导致这种波动的原因。 借助 Power BI 服务中的“分析”功能，只需单击几下即可了解原因。
+在报表视觉对象中，你通常会看到值大幅上升又急剧下降的情况，并且想知道导致这种波动的原因。 借助 Power BI 服务中的“分析”功能，只需单击几下即可了解原因 。
 
 例如，请看下面的视觉对象，其中按“月份”*和 *“制造商”** 显示了总单位数。 VanArsdel 在竞争者中遥遥领先，但在 2014 年 6 月有一次陡降。 在这种情况下，你可以对数据进行研究，以帮助解释发生变化的原因。 
 
 ![显示增长和下降的视觉对象](media/end-user-analyze-visuals/power-bi-line-chart.png)
 
-可以让 Power BI 服务解释视觉对象中出现的增长、下降或分布异常情况，并获得有关数据的快速、自动化且深入的分析。 只需右键单击数据点，然后选择“分析”>“解释此减少情况”（或者如果前一栏较低，则选择“解释此增长情况”），或“分析”>“查找此分配不同之处”，就可以在易用窗口中收到见解。
+可以让 Power BI 服务解释视觉对象中出现的增长、下降或分布异常情况，并获得有关数据的快速、自动化且深入的分析。 右键单击数据点，然后选择“分析”>“解释此减少情况”（或者如果前一栏较低，则选择“解释此增长情况”），或“分析”>“查找此分配不同之处”，就可以在易用窗口中收到见解 。
 
 ![视觉对象中显示的见解](media/end-user-analyze-visuals/power-bi-decrease.png)
 
@@ -37,7 +37,7 @@ ms.locfileid: "86162289"
 
 ### <a name="which-factors-and-categories-are-chosen"></a>选择哪些因素和类别
 
-在检查完各个列之后，Power BI 选择并显示最大相对贡献变化的列。 对于每个列，说明中都会标注具有最显著的贡献变化的值。 此外，还会标注实际增长和下降幅度最大的值。
+在检查完各个列之后，Power BI 选择并显示那些显示最大相对贡献变化的因素。 对于每个列，说明中都会标注具有最显著的贡献变化的值。 此外，还会标注实际增长和下降幅度最大的值。
 
 若要查看 Power BI 生成的所有见解，请使用滚动条。 显示顺序是将最重要的贡献者排在最前面。 
 
@@ -71,15 +71,19 @@ ms.locfileid: "86162289"
 
 ### <a name="the-scatter-plot"></a>散点图
 
+![显示选中散点图图标的小型屏幕截图](media/end-user-analyze-visuals/power-bi-scatter-icon.png)
+
 对于列（本例中为“州”）的每个值，散点图视觉对象显示第一个时间段的度量值（在 x 轴上）与第二个时间段的度量值（在 y 轴上）。 如果值增加，则数据点都在绿色区域中，如果值减小，则在红色区域中。 
 
 虚线表示最佳匹配，此线上方的数据点增长的幅度超过总体趋势，而此线下方的数据点增长的幅度小于总体趋势。  
 
 ![包含虚线的散点图](media/end-user-analyze-visuals/power-bi-scatter.png)
 
-请注意，在任一时间段中值为空白的数据项都不会显示在散点图上。
+在任一时间段中值为空白的数据项都不会显示在散点图上。
 
 ### <a name="the-100-stacked-column-chart"></a>百分比堆积柱形图
+
+![显示选中柱形图图标的小型屏幕截图](media/end-user-analyze-visuals/power-bi-column-icon.png)
 
 100% 堆积柱形图视觉对象显示所选数据点和上一个数据点占总数值 (100%) 的大小。 可以并排比较每个数据点的贡献值。 在本例中，工具提示显示所选“德克萨斯州”值的实际贡献值。 由于州列表很长，因此使用工具提示有助于查看详细信息。 通过使用工具提示，我们可以看到，德克萨斯州对总单位数百分比的贡献的差别不大（分别是 31% 和32%），但总单位数的实际值从 89 减少到 71。 请注意，Y 轴是一个百分比，而不是总数，每个列区段是一个百分比，而不是一个值。 
 
@@ -87,11 +91,15 @@ ms.locfileid: "86162289"
 
 ### <a name="the-ribbon-chart"></a>带状图
 
-功能区图表视觉对象显示之前和之后的度量值。 当贡献者的排序发生变化时（例如，如果 LA 从排名第二的贡献者降至排名第十一），它对显示贡献变化特别有用。  尽管 TX 在顶部由较宽的区段表示，表示它在之前和之后是最重要的贡献者，但下降表示在选定的时期和之后，贡献值都下降了。
+![显示选中带状图图标的小型屏幕截图](media/end-user-analyze-visuals/power-bi-ribbon-icon.png)
+
+功能区图表视觉对象显示之前和之后的度量值。 当贡献者的排序发生变化时（例如，如果 LA 从排名第二的贡献者降至排名第十一），它对显示贡献变化特别有用 。  尽管 TX 在顶部由较宽的区段表示，表示它在之前和之后是最重要的贡献者，但下降表示在选定的时期和之后，贡献值都下降了。
 
 ![带状图](media/end-user-analyze-visuals/power-bi-ribbon-tooltip.png)
 
 ### <a name="the-waterfall-chart"></a>瀑布图
+
+![显示选中瀑布图图标的小型屏幕截图](media/end-user-analyze-visuals/power-bi-waterfall-icon.png)
 
 第四个视觉对象是瀑布图，可显示各时间段之间的实际增幅或降幅。 此视觉对象清楚地显示了 2014 年 6 月下降的一个主要贡献者（在本例中为“州”）。 而“州”对总单位数影响的细节表明，路易斯安那州、德克萨斯州和科罗拉多州的下降起了最重要的作用。      
 
@@ -120,6 +128,6 @@ ms.locfileid: "86162289"
 
 ## <a name="next-steps"></a>后续步骤
 [瀑布图](../visuals/power-bi-visualization-waterfall-charts.md)    
-[散点图](../visuals/power-bi-visualization-scatter.md)
-[柱形图](../visuals/power-bi-report-visualizations.md)
-[功能区图表](../visuals/desktop-ribbon-charts.md)
+[散点图](../visuals/power-bi-visualization-scatter.md)    
+[柱形图](../visuals/power-bi-report-visualizations.md)    
+[带状图](../visuals/desktop-ribbon-charts.md)

@@ -6,14 +6,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: how-to
-ms.date: 08/11/2020
+ms.date: 08/12/2020
 ms.author: painbar
-ms.openlocfilehash: 85ba8b893dfa6da7934aff6b7890530e0acb2961
-ms.sourcegitcommit: d7145123133255d004b85ef8b20ca4977f0b843e
+ms.openlocfilehash: c4453f1475ac2ab227294b0b3bd8ba5dba10de67
+ms.sourcegitcommit: 64139587061136a43c5aea3b6db4d1a94e4e7795
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/11/2020
-ms.locfileid: "88091678"
+ms.lasthandoff: 08/14/2020
+ms.locfileid: "88204502"
 ---
 # <a name="view-reports-and-dashboards-in-presentation-mode-on-surface-hub-and-windows-10-devices"></a>在 Windows 10 Surface Hub 设备上使用演示模式查看报表和仪表板
 可以使用演示模式在 Windows 10 设备和 Surface Hub 上全屏显示报表和仪表板。 对于在会议中或在办公室内专用投影仪上显示 Power BI，甚至仅将小屏幕上的空间最大化，演示模式都很有用。
@@ -64,9 +64,24 @@ ms.locfileid: "88091678"
 
  控制器显示当前显示的视图的名称（页面或书签和页面）。 在上面的图像中，我们看到在名为“销售”的报表中，我们正在浏览“销售业绩”页的“亚太”书签。 
 
+默认情况下，幻灯片仅会以每 30 秒一个页面的速度遍历各页面。 [幻灯片放映设置](#slideshow-settings)中的默认行为。
+
+
+### <a name="auto-play-a-slideshow-on-startup"></a>启动时自动播放幻灯片
+
+可以将 Power BI 移动应用设置为在任何时候启动时都自动开始播放幻灯片。 在创造无需手动干预即可在公共显示屏中运行报表的体验时，此选项非常有用。 有关设置自动播放报表的详细信息，请参阅[幻灯片放映设置](#slideshow-settings)。
+
 ### <a name="slideshow-settings"></a>幻灯片放映设置
 
-默认情况下，幻灯片会以每 30 秒一个页面的速度遍历各页面。 可转到“设置”>“选项”来更改这些默认设置，如下所示。
+默认情况下，幻灯片仅会以每 30 秒一个页面的速度遍历各页面。 可转到“设置”>“选项”来更改此默认行为，如下所示。 还可以启用自动播放并选择要播放的报表。
+
+1. 选择“设置”图标。
+
+1. 打开“选项”选项卡。
+
+1. 如有需要，可更改幻灯片将循环播放的内容（页面、书签或两者兼有）的默认设置，以及幻灯片的转换频率。
+
+1. 如果希望在应用启动时自动开始播放报表，请打开切换并选择“选择报表”。 你将能够搜索有权访问的报表。
 
 ![幻灯片放映设置的屏幕截图](././media/mobile-windows-10-app-presentation-mode//power-bi-windows-10-slideshow-settings.png)
 

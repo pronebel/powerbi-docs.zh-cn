@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.topic: tutorial
 ms.subservice: powerbi-custom-visuals
 ms.date: 03/15/2019
-ms.openlocfilehash: d82f09fa4c545129bbd1032041dcfab6f4f67901
-ms.sourcegitcommit: a07fa723bb459494c60cf6d749b4554af723482a
+ms.openlocfilehash: ebb0107b158e505a8095b4c8f6b6b32731e7e98d
+ms.sourcegitcommit: 642b0c04d3ff3aa4d5422ca5054a5a158fb01b22
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/12/2020
-ms.locfileid: "84739336"
+ms.lasthandoff: 08/18/2020
+ms.locfileid: "88512922"
 ---
 # <a name="tutorial-developing-a-power-bi-visual"></a>教程：开发 Power BI 视觉对象
 
@@ -130,7 +130,7 @@ ms.locfileid: "84739336"
 4. 关闭已打开的任何浏览器。
 
 > [!NOTE]
-> 如果未能识别证书，可能需要重启计算机。
+> 如果未能识别证书，可能需要重启计算机。 某些浏览器（如 Firefox）要求你信任自签名证书。 若要执行此操作，请导航到 webpack 服务器页 (https://localhost:8080/webpack-dev-server) ，并接受风险。
 
 ## <a name="creating-a-custom-visual"></a>创建自定义视觉对象
 
@@ -191,7 +191,7 @@ ms.locfileid: "84739336"
 
     ![支持的命令](media/custom-visual-develop-tutorial/PowerShell-supported-commands.png)
 
-3. 若要创建自定义视觉对象项目，请输入以下命令。 “CircleCard”  是项目的名称。
+3. 若要创建自定义视觉对象项目，请输入以下命令。 “CircleCard”**** 是项目的名称。
 
     ```PowerShell
     pbiviz new CircleCard
@@ -221,11 +221,11 @@ ms.locfileid: "84739336"
 
 在本部分中，我们将通过上传 Power BI Desktop 报表，然后编辑报表以显示自定义视觉对象来测试 CircleCard 自定义视觉对象。
 
-1. 登录到 [PowerBI.com](https://powerbi.microsoft.com/) > 转到“齿轮”图标  > 然后选择“设置”  。
+1. 登录到 [PowerBI.com](https://powerbi.microsoft.com/) > 转到“齿轮”图标****> 然后选择“设置”****。
 
       ![Power BI 设置](media/custom-visual-develop-tutorial/power-bi-settings.png)
 
-2. 选择“开发人员”  ，然后选中“启用开发人员视觉对象以用于测试”  复选框。
+2. 选择“开发人员”****，然后选中“启用开发人员视觉对象以用于测试”**** 复选框。
 
     ![开发人员页面设置](media/custom-visual-develop-tutorial/developer-page-settings.png)
 
@@ -237,17 +237,17 @@ ms.locfileid: "84739336"
 
     ![获取数据](media/custom-visual-develop-tutorial/get-data.png) ![本地文件](media/custom-visual-develop-tutorial/local-file.png)
 
-    现在，若要查看报表，请选择左侧导航窗格“报表”部分中的“US_Sales_Analysis”   。
+    现在，若要查看报表，请选择左侧导航窗格“报表”部分中的“US_Sales_Analysis”********。
 
     ![自定义 Visual Desktop 示例](media/custom-visual-develop-tutorial/custom-visual-sample.png)
 
 4. 现在需要在 Power BI 服务中编辑报表。
 
-    转到“编辑报表”  。
+    转到“编辑报表”****。
 
     ![编辑报表](media/custom-visual-develop-tutorial/edit-report.png)
 
-5. 从“可视化效果”  窗格中选择“开发人员视觉对象”  。
+5. 从“可视化效果”**** 窗格中选择“开发人员视觉对象”****。
 
     ![开发人员视觉对象](media/custom-visual-develop-tutorial/developer-visual.png)
 
@@ -273,14 +273,14 @@ ms.locfileid: "84739336"
 
 ## <a name="adding-visual-elements"></a>添加可视元素
 
-现在需要安装 D3 JavaScript 库  。 D3 是用于在 Web 浏览器中生成动态、交互式数据可视化效果的 JavaScript 库。 它利用了广泛实施的 SVG HTML5 和 CSS 标准。
+现在需要安装 D3 JavaScript 库****。 D3 是用于在 Web 浏览器中生成动态、交互式数据可视化效果的 JavaScript 库。 它利用了广泛实施的 SVG HTML5 和 CSS 标准。
 
 现在可以开发自定义视觉对象来显示带文本的圆形。
 
 > [!Note]
 > 可从[此处](https://github.com/Microsoft/powerbi-visuals-circlecard)复制本教程中的多个文本条目。
 
-1. 若要在 PowerShell 中安装 D3 库  ，输入以下命令。
+1. 若要在 PowerShell 中安装 D3 库****，输入以下命令。
 
     ```powershell
     npm i d3@^5.0.0 --save
@@ -295,7 +295,7 @@ ms.locfileid: "84739336"
     PS C:\circlecard>
     ```
 
-2. 若要安装 D3 库  的类型定义，输入以下命令。
+2. 若要安装 D3 库**** 的类型定义，输入以下命令。
 
     ```powershell
     npm i @types/d3@^5.0.0 --save
@@ -312,7 +312,7 @@ ms.locfileid: "84739336"
 
     此命令将基于 JavaScript 文件安装 TypeScript 定义，使你能够在 TypeScript（这是 JavaScript 的一个超集）中开发自定义视觉对象。 Visual Studio Code 是用于开发 TypeScript 应用程序的理想 IDE。
 
-3. 若要在 PowerShell 中安装 core-js  ，请输入以下命令。
+3. 若要在 PowerShell 中安装 core-js****，请输入以下命令。
 
     ```powershell
     npm i core-js@3.2.1 --save
@@ -339,7 +339,7 @@ ms.locfileid: "84739336"
 
     此命令将安装适用于 JavaScript 的模型标准库。 它包括截至 2019 年的 ECMAScript 的填充代码。 阅读有关 [`core-js`](https://www.npmjs.com/package/core-js) 的更多信息
 
-4. 若要在 PowerShell 中安装 powerbi-visual-api  ，请输入以下命令。
+4. 若要在 PowerShell 中安装 powerbi-visual-api****，请输入以下命令。
 
     ```powershell
     npm i powerbi-visuals-api --save-dev
@@ -359,17 +359,17 @@ ms.locfileid: "84739336"
 
 5. 启动 [Visual Studio Code](https://code.visualstudio.com/)。
 
-    可以使用以下命令从 PowerShell 启动“Visual Studio Code”  。
+    可以使用以下命令从 PowerShell 启动“Visual Studio Code”****。
 
     ```powershell
     code .
     ```
 
-6. 在“资源管理器”窗格  中，展开“node_modules”  文件夹，以验证已安装 d3 库  。
+6. 在“资源管理器”窗格**** 中，展开“node_modules”**** 文件夹，以验证已安装 d3 库****。
 
     ![Visual Studio Code 中的 D3 库](media/custom-visual-develop-tutorial/d3-library.png)
 
-7. 通过在“资源管理器”窗格  中展开“node_modules”> @types >“d3”，确保已添加文件“index.d.ts”  。
+7. 通过在“资源管理器”窗格**** 中展开“node_modules”> @types >“d3”，确保已添加文件“index.d.ts”****。
 
     ![Index.d.ts 文件](media/custom-visual-develop-tutorial/index-d-ts.png)
 
@@ -377,10 +377,10 @@ ms.locfileid: "84739336"
 
 现在，我们可以探索如何开发自定义视觉对象来显示圆形和示例文本。
 
-1. 在“资源管理器”窗格  中，展开“src”  文件夹，然后选择“visual.ts”  。
+1. 在“资源管理器”窗格**** 中，展开“src”**** 文件夹，然后选择“visual.ts”****。
 
     > [!Note]
-    > 请注意“visual.ts”  文件顶部的注释。 在 MIT 许可证条款下，授予权限以使用 Power BI 自定义视觉对象包是免费的。 作为协议的一部分，必须将注释保留在文件顶部。
+    > 请注意“visual.ts”**** 文件顶部的注释。 在 MIT 许可证条款下，授予权限以使用 Power BI 自定义视觉对象包是免费的。 作为协议的一部分，必须将注释保留在文件顶部。
 
 2. 从 Visual 类中删除以下默认自定义视觉对象逻辑。
     * 四个类级别私有变量声明。
@@ -417,7 +417,7 @@ ms.locfileid: "84739336"
     }
     ```
 
-3. 在 Visual  类声明下，插入以下类级别属性。
+3. 在 Visual** 类声明下，插入以下类级别属性。
 
     ```typescript
     export class Visual implements IVisual {
@@ -434,7 +434,7 @@ ms.locfileid: "84739336"
 
     ![Visual.ts 文件类级别属性](media/custom-visual-develop-tutorial/visual-ts-file-class-level-properties.png)
 
-4. 将以下代码添加到构造函数  。
+4. 将以下代码添加到构造函数**。
 
     ```typescript
     this.svg = d3.select(options.element)
@@ -452,13 +452,13 @@ ms.locfileid: "84739336"
 
     此代码在视觉对象中添加一个 SVG 组，然后添加三个形状：圆形和两个文本元素。
 
-    若要设置文档中的代码格式，请右击选择 Visual Studio Code 文档  的任意位置，然后选择“设置文档格式”  。
+    若要设置文档中的代码格式，请右击选择 Visual Studio Code 文档**** 的任意位置，然后选择“设置文档格式”****。
 
       ![设置文档格式](media/custom-visual-develop-tutorial/format-document.png)
 
     为了提高可读性，建议每次粘贴代码段时设置文档格式。
 
-5. 将以下代码添加到 update  方法。
+5. 将以下代码添加到 update** 方法。
 
     ```typescript
     let width: number = options.viewport.width;
@@ -492,15 +492,15 @@ ms.locfileid: "84739336"
         .style("font-size", fontSizeLabel + "px");
     ```
 
-    此代码设置视觉对象的宽度和高度，然后初始化可视元素的属性和样式。 
+    此代码设置视觉对象的宽度和高度，然后初始化可视元素的属性和样式。**
 
-6. 保存“visual.ts”  文件。
+6. 保存“visual.ts”文件。
 
-7. 选择“capabilities.json”  文件。
+7. 选择“capabilities.json”**** 文件。
 
     在第 14 行，删除整个对象元素（14-60 行）。
 
-8. 保存“capabilities.json”  文件。
+8. 保存“capabilities.json”**** 文件。
 
 9. 在 PowerShell 中，启动定义视觉对象。
 
@@ -511,13 +511,13 @@ ms.locfileid: "84739336"
 ### <a name="toggle-auto-reload"></a>切换自动重新加载
 
 1. 导航回 Power BI 报表。
-2. 在开发人员视觉对象上浮动的工具栏中，选择“切换自动重新加载”  。
+2. 在开发人员视觉对象上浮动的工具栏中，选择“切换自动重新加载”****。
 
     ![切换自动重新加载](media/custom-visual-develop-tutorial/toggle-auto-reload.png)
 
     此选项可确保每次保存项目更改时，都会自动重新加载视觉对象。
 
-3. 从“字段”窗格  ，将“Quantity”  字段拖动到开发人员视觉对象中。
+3. 从“字段”窗格****，将“Quantity”**** 字段拖动到开发人员视觉对象中。
 
 4. 确认视觉对象如下所示。
 
@@ -539,11 +539,11 @@ ms.locfileid: "84739336"
 
 ### <a name="configuring-the-capabilities"></a>配置功能
 
-修改“capabilities.json”  文件以定义数据角色和数据视图映射。
+修改“capabilities.json”**** 文件以定义数据角色和数据视图映射。
 
-1. 在 Visual Studio code 中，从“capabilities.json”  文件的“dataRoles”  数组内删除所有内容（3-12 行）。
+1. 在 Visual Studio code 中，从“capabilities.json”**** 文件的“dataRoles”**** 数组内删除所有内容（3-12 行）。
 
-2. 在“dataRoles”  数组中插入以下代码。
+2. 在“dataRoles”**** 数组中插入以下代码。
 
     ```json
     {
@@ -553,11 +553,11 @@ ms.locfileid: "84739336"
     }
     ```
 
-    “dataRoles”  数组现定义类型“measure”  的单个数据角色，即名为“measure”  ，显示为“Measure”  。 此数据角色允许传递“measure”字段，或汇总字段。
+    “dataRoles”**** 数组现定义类型“measure”**** 的单个数据角色，即名为“measure”****，显示为“Measure”****。 此数据角色允许传递“measure”字段，或汇总字段。
 
-3. 从“dataViewMappings”  数组中删除所有内容（10-31 行）。
+3. 从“dataViewMappings”**** 数组中删除所有内容（10-31 行）。
 
-4. 在“dataViewMappings”  数组中插入以下内容。
+4. 在“dataViewMappings”**** 数组中插入以下内容。
 
     ```json
     {
@@ -570,11 +570,11 @@ ms.locfileid: "84739336"
     }
     ```
 
-    “dataViewMappings”  数组现定义一个可以传递给名为“measure”  的数据角色的字段。
+    “dataViewMappings”**** 数组现定义一个可以传递给名为“measure”**** 的数据角色的字段。
 
-5. 保存“capabilities.json”  文件。
+5. 保存“capabilities.json”**** 文件。
 
-6. 在 Power BI 中，请注意，视觉对象现在可以通过“Measure”  进行配置。
+6. 在 Power BI 中，请注意，视觉对象现在可以通过“Measure”**** 进行配置。
 
     ![Quantity Measure](media/custom-visual-develop-tutorial/quantity_measure.png)
 
@@ -583,25 +583,25 @@ ms.locfileid: "84739336"
 
 ### <a name="exploring-the-dataview"></a>探索数据视图
 
-1. 在视觉对象上方浮动的工具栏中，选择“显示数据视图”  。
+1. 在视觉对象上方浮动的工具栏中，选择“显示数据视图”****。
 
     ![显示数据视图](media/custom-visual-develop-tutorial/show-dataview-toolbar.png)
 
-2. 向下扩展到“单个”  ，然后注意值。
+2. 向下扩展到“单个”****，然后注意值。
 
     ![向下展开到值](media/custom-visual-develop-tutorial/value-display-in-visual.png)
 
-3. 向下扩展到“元数据”  ，然后扩展到“column”  数组，请特别注意“format”  和“displayName”  的值。
+3. 向下扩展到“元数据”****，然后扩展到“column”**** 数组，请特别注意“format”**** 和“displayName”**** 的值。
 
     ![Displayname 值](media/custom-visual-develop-tutorial/displayname-and-format-metadata.png)
 
-4. 若要切换回视觉对象，在视觉对象上方浮动的工具栏中，选择“显示数据视图”  。
+4. 若要切换回视觉对象，在视觉对象上方浮动的工具栏中，选择“显示数据视图”****。
 
     ![切换回](media/custom-visual-develop-tutorial/show-dataview-toolbar-revert.png)
 
 ### <a name="consume-data-in-the-visual-code"></a>在 Visual Code 中使用数据
 
-1. 在 Visual Studio Code  中，在 visual.ts  文件中，
+1. 在 Visual Studio Code**** 中，在 visual.ts**** 文件中，
 
     从 `powerbi` 模块导入 `DataView` 接口，
 
@@ -617,9 +617,9 @@ ms.locfileid: "84739336"
 
     ![Update 数组中的 Dataview](media/custom-visual-develop-tutorial/dataview-in-update-array.png)
 
-    此语句将 dataView  分配给一个变量以方便访问，并声明变量来引用 dataView  对象。
+    此语句将 dataView** 分配给一个变量以方便访问，并声明变量来引用 dataView** 对象。
 
-2. 在 update  方法中，将 .text(“Value”)  替换为以下内容。
+2. 在 update**** 方法中，将 .text(“Value”)**** 替换为以下内容。
 
     ```typescript
     .text(<string>dataView.single.value)
@@ -627,7 +627,7 @@ ms.locfileid: "84739336"
 
     ![替换 textValue](media/custom-visual-develop-tutorial/text-value-replace.png)
 
-3. 在 update  方法中，将 .text(“Label”)  替换为以下内容。
+3. 在 update 方法中，将 .text(“Label”) 替换为以下内容。
 
     ```typescript
     .text(dataView.metadata.columns[0].displayName)
@@ -635,9 +635,9 @@ ms.locfileid: "84739336"
 
     ![替换 textLabel](media/custom-visual-develop-tutorial/text-label-replace.png)
 
-4. 保存“visual.ts”  文件。
+4. 保存“visual.ts”文件。
 
-5. 在“Power BI”  中查看视觉对象，此时将显示值和显示名称。
+5. 在“Power BI”**** 中查看视觉对象，此时将显示值和显示名称。
 
 现在已配置数据角色并将视觉对象绑定到数据视图。
 

@@ -6,14 +6,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: how-to
-ms.date: 08/11/2020
+ms.date: 08/12/2020
 ms.author: painbar
-ms.openlocfilehash: 5ca205bf2e82269140926ac69ccdead43b0cddd8
-ms.sourcegitcommit: d7145123133255d004b85ef8b20ca4977f0b843e
+ms.openlocfilehash: f53fb518df3c82f4570c81b7caa14c20eea8022c
+ms.sourcegitcommit: 64139587061136a43c5aea3b6db4d1a94e4e7795
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/11/2020
-ms.locfileid: "88091632"
+ms.lasthandoff: 08/14/2020
+ms.locfileid: "88204953"
 ---
 # <a name="explore-reports-in-the-power-bi-mobile-apps"></a>在 Power BI 移动应用中浏览报表
 适用于：
@@ -53,6 +53,9 @@ Power BI 移动应用中的报表有两个图标：
   
   并非所有磁贴都能以报表形式打开。 例如，点击在问答框中提问时创建的磁贴不会打开报表。
   
+## <a name="zoom-in-on-your-data"></a>放大数据   
+使用收缩手势放大报表，以更详细地检查报表。 松开以使报表再次缩小。 Android 和 iOS 版手机和平板电脑支持收缩和缩放功能。
+
 ## <a name="interact-with-reports"></a>与报表交互
 在应用中打开报表后，就可开始使用该报表了。 你可对报表及其数据执行许多操作。 报表页脚中显示有可对报表执行的操作。 通过点击并长按报表中显示的数据，还可以对数据进行切片和切块。
 
@@ -65,7 +68,7 @@ Power BI 移动应用中的报表有两个图标：
 
 ### <a name="single-select-versus-multi-select-mode-for-data-point-selection"></a>用于数据点选择的单选模式与多选模式
 
-在报表中，点击一个数据点以将其选中。 可以选择是要使用单选模式还是多选模式。 在单选模式下，点击数据点以将其选中时，所选内容会替换以前所做的任何选择。 在多选模式下，点击数据点以将其选中时，所选内容被添加  到你当前拥有的任何选择内容中，并且所有选择内容的合并结果将在所有报表的视觉对象中突出显示。
+在报表中，点击一个数据点以将其选中。 可以选择是要使用单选模式还是多选模式。 在单选模式下，点击数据点以将其选中时，所选内容会替换以前所做的任何选择。 在多选模式下，点击数据点以将其选中时，所选内容被添加到你当前拥有的任何选择内容中，并且所有选择内容的合并结果将在所有报表的视觉对象中突出显示。
 
 若要取消选择所选的数据点，只需再次点击它即可。
 
@@ -76,7 +79,7 @@ Power BI 移动应用中的报表有两个图标：
 点击一个切片器值即可选中该值，且此报表的其余部分会根据该值进行切片。
 点击链接、按钮或书签时，报表作者所定义的操作会随即发生。
 
-你可能已经注意到，点击视觉对象时会出现一个边框。 在边框的右上角，可以看到“更多选项”(…)  。如果点击此省略号，你将看到一个菜单，其中显示了可对此视觉对象执行的操作：
+你可能已经注意到，点击视觉对象时会出现一个边框。 在边框的右上角，可以看到“更多选项”(…)。如果点击此省略号，你将看到一个菜单，其中显示了可对此视觉对象执行的操作：
 
 ![视觉对象和菜单](./media/mobile-reports-in-the-mobile-apps/report-visual-menu.png)
 
@@ -97,7 +100,7 @@ Power BI 移动应用中的报表有两个图标：
 ![钻取操作](./media/mobile-reports-in-the-mobile-apps/report-drill-actions.png)
 
 
-当你点击视觉对象的特定部分并点击“钻取”选项时，Power BI 会转到报表中的另一页，筛选出点击的值  。 报表作者可定义一个或多个钻取操作，每个操作分别转到不同页面。 在这种情况下，可选择所需的钻取操作。 使用返回按钮可返回到上一页。
+当你点击视觉对象的特定部分并点击“钻取”选项时，Power BI 会转到报表中的另一页，筛选出点击的值**。 报表作者可定义一个或多个钻取操作，每个操作分别转到不同页面。 在这种情况下，可选择所需的钻取操作。 使用返回按钮可返回到上一页。
 
 
 有关详细信息，请参阅[在 Power BI Desktop 中添加钻取](../../create-reports/desktop-drillthrough.md)。
@@ -108,7 +111,7 @@ Power BI 移动应用中的报表有两个图标：
    
    
 ### <a name="using-the-actions-in-the-report-footer"></a>在报表页脚使用操作
-从报表页脚中，你可以对当前报表页或整个报表执行多个操作。 可通过页脚快速访问最常用的操作。 点击“更多选项”(…) 按钮可访问其他操作  ：
+从报表页脚中，你可以对当前报表页或整个报表执行多个操作。 可通过页脚快速访问最常用的操作。 点击“更多选项”(…) 按钮可访问其他操作****：
 
 ![报表页脚](./media/mobile-reports-in-the-mobile-apps/report-footer.png)
 
@@ -121,7 +124,7 @@ Power BI 移动应用中的报表有两个图标：
 * 查看所有报表操作。
 
 #### <a name="all-report-actions"></a>所有报表操作
-点击报表页脚中的“更多选项”(…) 可查看能对报表执行的所有操作  ：
+点击报表页脚中的“更多选项”(…) 可查看能对报表执行的所有操作****：
 
 
 ![所有报表操作](./media/mobile-reports-in-the-mobile-apps/power-bi-mobile-report-all-actions.png)
@@ -129,21 +132,21 @@ Power BI 移动应用中的报表有两个图标：
 某些操作可能会被禁用，因为这些操作依赖于特定的报表功能。
 例如：
 
-仅当在报表中设置了[书签](mobile-reports-in-the-mobile-apps.md#bookmarks)时，才会显示“书签”  。 可在 Power BI 服务中定义的个人书签和报表创建者定义的书签都将显示出来。 如果已将其中一个书签定义为默认书签，则报表将在加载时打开该视图。
+仅当在报表中设置了[书签](mobile-reports-in-the-mobile-apps.md#bookmarks)时，才会显示“书签”****。 可在 Power BI 服务中定义的个人书签和报表创建者定义的书签都将显示出来。 如果已将其中一个书签定义为默认书签，则报表将在加载时打开该视图。
 
-如果组织中存在禁止通过 Power BI 移动应用共享的 [Intune 保护策略](https://docs.microsoft.com/intune/app-protection-policies)，则可能会禁用“批注并共享”  。
+如果组织中存在禁止通过 Power BI 移动应用共享的 [Intune 保护策略](https://docs.microsoft.com/intune/app-protection-policies)，则可能会禁用“批注并共享”****。
 
-只有在你有权与他人共享报表时才会启用“邀请”  。 只有当你是报表所有者或所有者授予你重新共享权限时，你才有此权限。
+只有在你有权与他人共享报表时才会启用“邀请”****。 只有当你是报表所有者或所有者授予你重新共享权限时，你才有此权限。
 
-如果报表作者按地理数据对报表进行了分类，则“按当前位置筛选”处于启用状态  。 有关详细信息，请阅读[标识报表中的地理数据](https://docs.microsoft.com/power-bi/desktop-mobile-geofiltering)。
+如果报表作者按地理数据对报表进行了分类，则“按当前位置筛选”处于启用状态****。 有关详细信息，请阅读[标识报表中的地理数据](https://docs.microsoft.com/power-bi/desktop-mobile-geofiltering)。
 
-只有当报表中的数据集被标记为条形码时，才会启用“扫描以按条形码筛选报表”   。 有关详细信息，请阅读[在 Power BI Desktop 中标记条形码](https://docs.microsoft.com/power-bi/desktop-mobile-barcodes)。
+只有当报表中的数据集被标记为条形码时，才会启用“扫描以按条形码筛选报表”********。 有关详细信息，请阅读[在 Power BI Desktop 中标记条形码](https://docs.microsoft.com/power-bi/desktop-mobile-barcodes)。
 
 ### <a name="bookmarks"></a>书签
 
-Power BI 移动应用支持报表创建者已定义的报表书签和可在 Power BI 服务中定义的个人书签。 可以在[报表操作工具栏](mobile-reports-in-the-mobile-apps.md#all-report-actions)上的“更多选项”(…) 下找到书签菜单  。
+Power BI 移动应用支持报表创建者已定义的报表书签和可在 Power BI 服务中定义的个人书签。 可以在[报表操作工具栏](mobile-reports-in-the-mobile-apps.md#all-report-actions)上的“更多选项”(…) 下找到书签菜单****。
 
-默认书签由特殊图标进行指示。 对于个人书签，可以通过点击要更改的书签旁的“更多选项(...)”  ，然后选择“设为默认值”  或“清除默认值”  ，来设置、取消设置或更改默认设置。
+默认书签由特殊图标进行指示。 对于个人书签，可以通过点击要更改的书签旁的“更多选项(...)”****，然后选择“设为默认值”**** 或“清除默认值”****，来设置、取消设置或更改默认设置。
 
 ![书签菜单](./media/mobile-reports-in-the-mobile-apps/power-bi-mobile-report-bookmark-menu.png)
 

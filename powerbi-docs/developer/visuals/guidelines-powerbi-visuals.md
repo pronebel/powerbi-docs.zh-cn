@@ -7,13 +7,13 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.topic: conceptual
 ms.subservice: powerbi-custom-visuals
-ms.date: 07/16/2019
-ms.openlocfilehash: 1602743230f1a369fe3da48fa37a313b9d9bbea4
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.date: 08/12/2020
+ms.openlocfilehash: c9d6b10c05ac3e19c5ebdcb5a0f3a1ab9b989a10
+ms.sourcegitcommit: 64139587061136a43c5aea3b6db4d1a94e4e7795
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "79435872"
+ms.lasthandoff: 08/14/2020
+ms.locfileid: "88204919"
 ---
 # <a name="guidelines-for-power-bi-visuals"></a>Power BI 视觉对象指南
 在将 Power BI 视觉对象[发布](office-store.md)到 Microsoft AppSource 供其他人了解和使用之前，请遵循相关指南，为用户创造好的体验。
@@ -59,6 +59,9 @@ IAP Power BI 视觉对象是一种免费的视觉对象，可提供免费功能 
 所有 Power BI 视觉对象都应启用上下文菜单，以带来统一的体验。
 请查看[本文](https://github.com/Microsoft/PowerBI-visuals/blob/gh-pages/tutorials/building-bar-chart/adding-context-menu-to-the-bar.md)了解如何添加上下文菜单。
 
+>[!div class="mx-imgBorder"]
+>![Power BI 视觉对象上下文菜单的屏幕截图。](media/guidelines-powerbi-visuals/context-menu.png)
+
 ## <a name="commercial-logo"></a>商业徽标
 本部分介绍了在 Power BI 视觉对象中添加商业徽标的规范。 商业徽标并非强制需要。 如果已添加徽标，则其必须遵循这些准则。
 
@@ -67,22 +70,22 @@ IAP Power BI 视觉对象是一种免费的视觉对象，可提供免费功能 
 > * 本文仅以 Microsoft 商业徽标为例。 将自己的商业徽标与 Power BI 视觉对象配合使用。
 
 > [!IMPORTANT]
-> 仅允许在编辑模式下使用商业徽标  。 无法在查看模式下显示商业徽标  。
+> 仅允许在编辑模式下使用商业徽标**。 无法在查看模式下显示商业徽标**。
 
 ### <a name="commercial-logo-type"></a>商业徽标类型
 
 有三种类型的商业徽标：
 * **徽标** - 徽标包括两个锁定在一起的元素，图标和名称。
 
-    ![Microsoft 徽标](media/guidelines-powerbi-visuals/microsoft-logo.png)
+    ![Microsoft 徽标的屏幕截图。](media/guidelines-powerbi-visuals/microsoft-logo.png)
 
 * **符号** - 没有任何文本的图形。
 
-    ![Microsoft 符号](media/guidelines-powerbi-visuals/microsoft-symbol.png)
+    ![Microsoft 符号的屏幕截图。](media/guidelines-powerbi-visuals/microsoft-symbol.png)
 
 * **标识** - 不带图标的徽标，只包括文本。
 
-    ![Microsoft 符号](media/guidelines-powerbi-visuals/microsoft-logotype.png)
+    ![不带图标的 Microsoft 徽标的屏幕截图。](media/guidelines-powerbi-visuals/microsoft-logotype.png)
 
 ### <a name="commercial-logo-color"></a>商业徽标颜色
 
@@ -90,15 +93,15 @@ IAP Power BI 视觉对象是一种免费的视觉对象，可提供免费功能 
 
 * **徽标**
 
-    ![Microsoft 符号](media/guidelines-powerbi-visuals/grey-microsoft-logo.png)
+    ![灰色 Microsoft 徽标的屏幕截图。](media/guidelines-powerbi-visuals/grey-microsoft-logo.png)
 
 * **符号** - 没有任何文本的图形。
 
-    ![Microsoft 符号](media/guidelines-powerbi-visuals/grey-microsoft-symbol.png)
+    ![灰色 Microsoft 符号的屏幕截图。](media/guidelines-powerbi-visuals/grey-microsoft-symbol.png)
 
 * **标识** - 不带图标的徽标，只包括文本。
 
-    ![Microsoft 符号](media/guidelines-powerbi-visuals/grey-microsoft-logotype.png)
+    ![不带图标的灰色 Microsoft 徽标的屏幕截图。](media/guidelines-powerbi-visuals/grey-microsoft-logotype.png)
 
 > [!TIP]
 > * 如果 Power BI 视觉对象包含图形，请考虑为徽标添加白色背景（10 px 边距）。
@@ -110,13 +113,13 @@ Power BI 视觉对象需要两个商业徽标，一个用于大型磁贴，一�
 
 下表描述了 Power BI 视觉对象的大小注意事项。
 
-|  |小型 Power BI 视觉对象  |大型 Power BI 视觉对象  |
+|设置  |小型 Power BI 视觉对象  |大型 Power BI 视觉对象  |
 |---------|---------|---------|
-|徽标宽度     |最多 240 px         |大于 240 px         |
-|徽标高度      |最多 160 px         |大于 160 px         |
-|边界框大小      |40 x 15 px         |101 x 30 px         |
-|商业徽标示例      |![Microsoft 符号](media/guidelines-powerbi-visuals/grey-microsoft-symbol.png)         |![Microsoft 徽标](media/guidelines-powerbi-visuals/grey-microsoft-logo.png)         |
-|边界框示例     |![小型徽标示例](media/guidelines-powerbi-visuals/small-logo-box.png)         |![大型徽标示例](media/guidelines-powerbi-visuals/big-logo-box.png)         |
+|徽标宽度**    |最多 240 px         |大于 240 px         |
+|徽标高度**     |最多 160 px         |大于 160 px         |
+|边界框大小**     |40 x 15 px         |101 x 30 px         |
+|商业徽标示例**     |![缩小版的 Microsoft 商业徽标的屏幕截图。](media/guidelines-powerbi-visuals/grey-microsoft-symbol.png)         |![Microsoft 商业徽标的屏幕截图。](media/guidelines-powerbi-visuals/grey-microsoft-logo.png)         |
+|边界框示例**    |![小徽标尺寸的屏幕截图。](media/guidelines-powerbi-visuals/small-logo-box.png)         |![大徽标尺寸的屏幕截图。](media/guidelines-powerbi-visuals/big-logo-box.png)         |
 |    |         |         |
 
 ### <a name="commercial-logo-behavior"></a>商业徽标行为
@@ -140,11 +143,11 @@ Power BI 视觉对象需要两个商业徽标，一个用于大型磁贴，一�
 
 * 避免使用彩色或黑色商业徽标。 商业徽标必须为灰色（十六进制颜色 #C8C8C8）。
 
-    ![未经授权的彩色徽标](media/guidelines-powerbi-visuals/no-color-logo.png) ![未经授权的黑色徽标](media/guidelines-powerbi-visuals/black-logo.png)
+    ![未经授权的彩色 Microsoft 徽标的屏幕截图。](media/guidelines-powerbi-visuals/no-color-logo.png) ![未经授权的黑色 Microsoft 徽标的屏幕截图](media/guidelines-powerbi-visuals/black-logo.png)
 
 * 带有效果的商业徽标，如渐变或强阴影。
 
-    ![未经授权的徽标样式](media/guidelines-powerbi-visuals/no-style-logo.png)
+    ![未经授权的 Microsoft 徽标样式示例的屏幕截图。](media/guidelines-powerbi-visuals/no-style-logo.png)
 
 ## <a name="best-practices"></a>最佳做法
 
@@ -164,4 +167,7 @@ Power BI 视觉对象需要两个商业徽标，一个用于大型磁贴，一�
 
 ## <a name="next-steps"></a>后续步骤
 
-了解如何将 Power BI 视觉对象发布到 [Microsoft AppSource](office-store.md) 让其他人了解并使用。
+了解如何将 Power BI 视觉对象发布到 Microsoft AppSource 让其他人了解并使用。
+
+>[!div class="nextstepaction"]
+>[发布 Power BI 视觉对象](office-store.md)

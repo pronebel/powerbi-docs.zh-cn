@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 06/11/2020
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: b1204b28ae5239bf4080472129b0862862446e5d
-ms.sourcegitcommit: 0d0ab427bb71b37c9e5170c515a8f274e1f20c17
+ms.openlocfilehash: 389de5d34b00afbe70a1489dfc61e760530590a9
+ms.sourcegitcommit: 642b0c04d3ff3aa4d5422ca5054a5a158fb01b22
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "87878452"
+ms.lasthandoff: 08/18/2020
+ms.locfileid: "88512876"
 ---
 # <a name="using-enhanced-dataset-metadata-preview"></a>使用增强的数据集元数据（预览）
 

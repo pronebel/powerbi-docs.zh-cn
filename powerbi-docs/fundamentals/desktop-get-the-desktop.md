@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: how-to
-ms.date: 07/23/2020
+ms.date: 08/12/2020
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: ab1dd7be867d886f4944e9771be5c9ff188d2037
-ms.sourcegitcommit: 65025ab7ae57e338bdbd94be795886e5affd45b4
+ms.openlocfilehash: c5c4c7b08f69bd91fc8a4e6ab13a05878936225d
+ms.sourcegitcommit: b60063c49ac39f8b28c448908ecbb44b54326335
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/28/2020
-ms.locfileid: "87252627"
+ms.lasthandoff: 08/12/2020
+ms.locfileid: "88160202"
 ---
 # <a name="get-power-bi-desktop"></a>获取 Power BI Desktop
 使用 Power BI Desktop，用户可以构建高级查询、模型以及使数据可视化的报表。 通过 Power BI Desktop，可以生成数据模型、创建报表，并通过发布到 Power BI 服务共享工作。 Power BI Desktop 可免费下载。
@@ -97,6 +97,9 @@ ms.locfileid: "87252627"
 
 ## <a name="minimum-requirements"></a>最低要求
 下表提供了运行 Power BI Desktop 的最低要求：
+
+> [!IMPORTANT]
+> 2021 年 1 月 31 日之后，Windows 7 将不再支持 Power BI Desktop。 在此日期之后，Windows 8 或较新版本的 Windows 将支持 Power BI Desktop（仅针对最新版本的 Power BI Desktop）。 
 
 * Windows 7/Windows Server 2008 R2 或更高版本
 * .NET 4.5

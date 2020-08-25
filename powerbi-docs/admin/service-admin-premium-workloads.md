@@ -9,12 +9,12 @@ ms.subservice: powerbi-admin
 ms.topic: how-to
 ms.date: 05/11/2020
 LocalizationGroup: Premium
-ms.openlocfilehash: 1213d02926db3b1d356e7fefffb44bcc41b8ab96
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 829de249b71076ccd1ed2a60348170e93b68e507
+ms.sourcegitcommit: 64139587061136a43c5aea3b6db4d1a94e4e7795
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85227688"
+ms.lasthandoff: 08/14/2020
+ms.locfileid: "88204424"
 ---
 # <a name="configure-workloads-in-a-premium-capacity"></a>在高级容量中配置工作负载
 
@@ -59,8 +59,10 @@ ms.locfileid: "85227688"
 | 最大结果行设置计数 | DAX 查询中返回的最大行数。 默认值为 -1（无限制），允许范围为 100000 - 2147483647。 |
 | 查询内存限制(%) | 工作负载中可用于执行 MDX 或 DAX 查询的可用内存的最大百分比。 默认值为 0，这将导致应用特定于 SKU 的自动查询内存限制。 |
 | 查询超时值(秒) | 查询超时前允许的最长时间。默认值为 3600 秒（1 小时）。 值为 0 时表示查询不会超时。 |
-| **自动页面刷新（预览版）** | 启用/禁用切换，允许高级工作区的报表具有自动页面刷新功能。 |
+| **自动页面刷新** | 启用/禁用切换，允许高级工作区的报表基于固定间隔具有自动页面刷新功能。 |
 | **最小刷新间隔** | 启用自动页面刷新情况下，页面刷新间隔允许的最小间隔。 默认值为 5 分钟，允许的最小值为 1 秒。 |
+| **更改检测度量值** | 启用/禁用切换，允许高级工作区的报表基于更改检测具有自动页面刷新功能。 |
+| **最小执行间隔** | 如果更改检测度量值已启用，则允许轮询数据更改的最小执行间隔。 默认值为 5 秒，允许的最小值为 1 秒。 |
 |  |  |  |
 
 #### <a name="max-intermediate-row-set-count"></a>最大中间行设置计数

@@ -6,59 +6,58 @@ ms.reviewer: mihart
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: how-to
-ms.date: 06/09/2020
+ms.date: 08/12/2020
 ms.author: mihart
 LocalizationGroup: Share your work
-ms.openlocfilehash: 5f2e97a5b1ba8fc62581244cf26cd069ce5c2586
-ms.sourcegitcommit: c18130ea61e67ba111be870ddb971c6413a4b632
+ms.openlocfilehash: f8020e68db6b0baaabdde626d1b17674fe995ca2
+ms.sourcegitcommit: 64139587061136a43c5aea3b6db4d1a94e4e7795
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/09/2020
-ms.locfileid: "86162243"
+ms.lasthandoff: 08/14/2020
+ms.locfileid: "88205119"
 ---
 # <a name="install-and-use-the-sample-sales-and-marketing-app-in-the-power-bi-service"></a>在 Power BI 服务中安装并使用示例销售和营销应用
 
 [!INCLUDE[consumer-appliesto-yyny](../includes/consumer-appliesto-yyny.md)]
 
-了解了[如何获取 Power BI 内容的基本信息](end-user-app-view.md)后，接下来从 Microsoft AppSource (appsource.com) 获取营销和销售应用。 
+了解了[如何获取 Power BI 内容的基本信息](end-user-app-view.md)后，接下来使用 Microsoft AppSource 获取营销和销售应用。 
 
 
-## <a name="get-the-app-from-the-power-bi-apps-marketplace"></a>从 Power BI 应用商城获取应用
+## <a name="get-the-app-from-microsoft-appsource"></a>从 Microsoft AppSource 获取应用
 
-1. 如果尚未登录，请[登录 Power BI 服务](./end-user-sign-in.md)。 
+1. 打开 [https://appsource.microsoft.com](https://appsource.microsoft.com)。
 
-1. 登录 Power BI 后，请选择“应用”>“获取应用”。 
+   ![打开 AppSource 站点  ](./media/end-user-app-marketing/power-bi-appsource.png)
 
-    ![获取应用  ](./media/end-user-app-marketing/power-bi-get-apps.png)
+1. 在搜索框中，输入“营销”，并在“按产品优化”>“Power BI 应用”旁放置一个选中标记 。 
 
-1. 此时将打开 Power BI 应用商城。 查找销售和营销应用。 如果看不到该应用，请尝试在搜索框中键入“销售”。
+    ![获取应用  ](./media/end-user-app-marketing/power-bi-search-appsource.png)
 
-    ![Power BI 应用商城  ](./media/end-user-app-marketing/power-bi-apps-marketplace.png)
 
-1. 单击应用磁贴。 将打开 AppSource 中的应用产品/服务。 单击“立即获取”。
+1. 选择“Microsoft 示例 - 销售和营销”的应用磁贴。 （可选）通读概述和评论，并查看图像。  然后，选择“立即获取”。
 
-   ![AppSource 中的应用产品/服务](./media/end-user-app-marketing/power-bi-apps-app-offering.png)
+   ![AppSource 中的应用产品/服务](./media/end-user-app-marketing/power-bi-app-offering.png)
 
 1. 确认要安装此应用。
 
-   ![安装此应用？](./media/end-user-app-marketing/power-bi-app-install.png)
+   ![安装此应用？](./media/end-user-app-marketing/power-bi-installs.png)
 
 5. 安装应用后，Power BI 服务将显示一条指示成功的消息。 选择“转到应用”，打开应用。 根据设计器创建应用的方式，将显示应用仪表板或应用报表。
 
     ![已成功安装应用 ](./media/end-user-app-marketing/power-bi-app-ready.png)
 
-    还可通过选择“应用”，然后选择“销售和营销”，直接从应用内容列表打开应用 。
+    还可通过选择“应用”，然后选择“销售和营销”应用磁贴，直接从应用内容列表打开应用 。
 
-    ![Power BI 中的“应用”](./media/end-user-app-marketing/power-bi-apps-sales-marketing.png)
+    ![Power BI 中的“应用”](./media/end-user-app-marketing/power-bi-sales-marketing.png)
 
 
-6. 选择是浏览还是自定义和共享新的应用。 由于我们选择了 Microsoft 示例应用，因此先从浏览开始。 
+6. 选择是连接自己的数据、使用示例数据进行探索，还是自定义和共享新应用。 由于我们选择了 Microsoft 示例应用，因此先从浏览开始。 
 
-    ![使用示例数据浏览应用](./media/end-user-app-marketing/power-bi-explore.png)
+    ![使用示例数据浏览应用](./media/end-user-app-marketing/power-bi-explore-app.png)
 
 7.  此时会打开新应用，其中包含一个仪表板。 应用设计器可以改为将应用设置为打开报表。  
 
-    ![使用示例数据浏览应用](./media/end-user-app-marketing/power-bi-new-app.png)
+    ![使用示例数据浏览应用](./media/end-user-app-marketing/power-bi-app-new.png)
 
 
 
@@ -70,6 +69,6 @@ ms.locfileid: "86162243"
 
 
 ## <a name="next-steps"></a>后续步骤
-* [返回到应用概述](end-user-apps.md)
-* [查看 Power BI 报表](end-user-report-open.md)
+* [返回到应用概述](end-user-apps.md)    
+* [查看 Power BI 报表](end-user-report-open.md)    
 * [与你共享内容的其他方法](end-user-shared-with-me.md)

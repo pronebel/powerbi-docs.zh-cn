@@ -7,12 +7,12 @@ ms.topic: how-to
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.date: 07/13/2020
-ms.openlocfilehash: fd30b9df6fce484bffab430888260145bb374ce9
-ms.sourcegitcommit: d7145123133255d004b85ef8b20ca4977f0b843e
+ms.openlocfilehash: 8e3ca6d9615a348fec928f13a561fbb97e719d6a
+ms.sourcegitcommit: b60063c49ac39f8b28c448908ecbb44b54326335
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/11/2020
-ms.locfileid: "88091563"
+ms.lasthandoff: 08/12/2020
+ms.locfileid: "88160363"
 ---
 # <a name="export-power-bi-report-to-file-preview"></a>将 Power BI 报表导出到文件（预览）
 
@@ -103,8 +103,7 @@ ms.locfileid: "88091563"
 * 对于公共预览版，每小时导出的 Power BI 报表页数限制为每个容量 50 张。
 * 导出的报表的文件大小不得超过 250MB。
 * 导出为 .png 时，不支持敏感度标签。
-* 无法使用[服务主体](embed-service-principal.md)将具有敏感度标签的报表导出到 .pdf 或 .pptx。
-* 导出的报表中可包含 30 个报表页。 如果报表包含更多报表页，此 API 会返回错误，导出作业也会遭取消。
+* 导出的报表中可包含 50 个报表页。 如果报表包含更多报表页，此 API 会返回错误，导出作业也会遭取消。
 * 不支持导出使用[个人书签](../../consumer/end-user-bookmarks.md#personal-bookmarks)和[永久性筛选器](https://powerbi.microsoft.com/blog/announcing-persistent-filters-in-the-service/)的报表。
 * 不支持导出包含下列 Power BI 视觉对象的报表。 如果你导出包含这些视觉对象的报表，包含这些视觉对象的报表部分将不会呈现，并会显示错误符号。
     * 未经认证的 Power BI 视觉对象

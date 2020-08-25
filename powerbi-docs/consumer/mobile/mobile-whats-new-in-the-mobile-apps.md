@@ -6,14 +6,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: conceptual
-ms.date: 08/11/2020
+ms.date: 08/12/2020
 ms.author: painbar
-ms.openlocfilehash: f580891be69e0c5478474496be6a6414867e662d
-ms.sourcegitcommit: d7145123133255d004b85ef8b20ca4977f0b843e
+ms.openlocfilehash: 84ceb5cd856986f2ff068395bac8bcac10baad96
+ms.sourcegitcommit: 64139587061136a43c5aea3b6db4d1a94e4e7795
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/11/2020
-ms.locfileid: "88091655"
+ms.lasthandoff: 08/14/2020
+ms.locfileid: "88204881"
 ---
 # <a name="whats-new-in-the-mobile-apps-for-power-bi"></a>Power BI 移动应用中的新功能
 有关相关的“新增功能”的信息，请参阅：
@@ -24,6 +24,23 @@ ms.locfileid: "88091655"
 
 >[!NOTE]
 >我们将于 2021 年 3 月 16 日终止对使用 Windows 10 移动版的手机提供 Power BI 移动应用支持。 [了解详细信息](https://go.microsoft.com/fwlink/?linkid=2121400)
+
+## <a name="august-2020"></a>2020 年 8 月
+### <a name="weve-improved-how-you-navigate-to-your-content-ios-and-android"></a>我们改进了导航浏览内容的方式（iOS 和 Android）
+现在，你可以使用新导航树快速轻松地访问内容，该导航树可从报表、仪表板和应用的标头下拉列表获取。 你可以一目了然地看到内容的位置层次结构，并可以轻松地向上导航内容层次结构、转到同级内容，甚至快速返回主页。 如果要查看的项是应用的一部分，则该树将显示应用的全部内容：各个部分、链接以及所有报表和仪表板。 如果要查看的项是报表，你还需要找到所有可见报表页的列表。 从某一页转到另一页变得前所未有的简单！ 试一试吧！ 
+
+![Power BI 移动应用导航树的屏幕截图。](media/mobile-whats-new-in-the-mobile-apps/power-bi-mobile-nav-tree1.png)
+
+### <a name="share-from-power-bi-using-your-favorite-apps-ios-and-android"></a>使用你最喜爱的应用（iOS 和 Android）从 Power BI 共享
+现在，你可以与联系人共享指向 Power BI 内容的链接。 通过使用设备中的任何协作应用（如 Microsoft Teams、邮件应用等），使用标头中的新共享操作以发送链接。该链接捕获当前视图，因此你甚至可以共享筛选的报表视图。
+
+![Power BI 移动应用“共享”图标的屏幕截图。](media/mobile-whats-new-in-the-mobile-apps/power-bi-mobile-share.png)
+
+### <a name="pinch-and-zoom-is-now-available-in-all-report-views---on-both-phones-and-tablets-ios-and-android"></a>收缩和缩放功能现在可在所有报表视图中使用 - 手机和平板电脑（iOS 和 Android）上均可使用   
+我们已在所有报表视图中启用了收缩和缩放功能，使你能够更轻松地在手机或平板电脑上缩放报表内容。
+
+### <a name="auto-play-a-slideshow-on-startup-windows"></a>启动时自动播放幻灯片 (Windows)
+你可以选择一个报表，使其在启动 Power BI Windows 应用时在幻灯片中自动播放。 在创造无需手动干预即可在公共显示屏中运行报表的体验时，这非常有用。 [了解详细信息！](mobile-windows-10-app-presentation-mode.md#auto-play-a-slideshow-on-startup)
 
 ## <a name="july-2020"></a>2020 年 7 月
 ### <a name="the-power-bi-mobile-app-for-windows-now-supports-organizational-branding"></a>适用于 Windows 的 Power BI 移动应用现在支持组织品牌
@@ -173,7 +190,7 @@ Power BI 移动应用现已支持在 Power BI 中创建的书签。 打开应用
 
 ### <a name="secured-access-with-azure-active-directory-ad-application-proxy-ios-and-android"></a>Azure Active Directory (AD) 应用程序代理的安全访问（iOS 和 Android）
 
-我们与 Azure Active Directory 团队合作，共同将 Power BI 移动应用与 Azure Active Directory (AAD) 应用程序代理集成。 通过此配置，无需设置复杂的本地配置即可连接到在 Power BI 移动版应用的企业边界内托管的报表服务器。 详细了解[Power BI 移动版与 Azure AD 应用程序代理的集成](https://powerbi.microsoft.com/blog/access-on-prem-report-server-from-your-power-bi-mobile-app-with-azure-active-directory-application-proxy/)。 了解[如何配置 Azure AD 应用程序代理和 Power BI](https://docs.microsoft.com/azure/active-directory/manage-apps/application-proxy-integrate-with-power-bi)。
+我们与 Azure Active Directory 团队合作，共同将 Power BI 移动应用与 Azure Active Directory (Azure AD) 应用程序代理集成。 通过此配置，无需设置复杂的本地配置即可连接到在 Power BI 移动版应用的企业边界内托管的报表服务器。 详细了解[Power BI 移动版与 Azure AD 应用程序代理的集成](https://powerbi.microsoft.com/blog/access-on-prem-report-server-from-your-power-bi-mobile-app-with-azure-active-directory-application-proxy/)。 了解[如何配置 Azure AD 应用程序代理和 Power BI](https://docs.microsoft.com/azure/active-directory/manage-apps/application-proxy-integrate-with-power-bi)。
 
 ## <a name="july-2019"></a>2019 年 7 月
 
@@ -211,7 +228,7 @@ Power BI 移动应用现已支持在 Power BI 中创建的书签。 打开应用
 
 ### <a name="enhanced-conditional-access-protection-ios-android"></a>增强的条件访问保护（iOS、Android）
 
-我们已与 AAD [新的基于应用保护的条件访问功能](https://docs.microsoft.com/azure/active-directory/conditional-access/app-protection-based-conditional-access)集成，通过在应用应用策略之前限制对 Power BI 的访问来提高安全性。
+我们已与 Azure AD [新的基于应用保护的条件访问功能](https://docs.microsoft.com/azure/active-directory/conditional-access/app-protection-based-conditional-access)集成，通过在应用应用策略之前限制对 Power BI 的访问来提高安全性。
 
 ### <a name="device-protection-ios"></a>设备保护 (iOS)
 
@@ -530,7 +547,7 @@ Power BI 报表服务器预览 - 在本地创建和发布 Power BI 报表。 然
 我们改进了时间切片器的触摸交互。
 
 #### <a name="ios-devices"></a>iOS 设备
-使用问答功能询问数据相关问题，然后向我们提供反馈 - 尝试使用问答功能就你的数据提问，然后通过笑脸或皱眉表情符号给予评价，让我们了解你对我们服务的感受如何。
+使用问答功能询问数据相关问题，然后向我们提供反馈 - 尝试使用问答功能就你的数据提问，然后通过笑脸或哭脸给予评价，让我们了解你对我们服务的感受如何。
 
 使用 3D Touch 执行常见操作 - 在 iPhone 6s 或更高版本的主屏幕上按住 Power BI 应用图标可以查看通知、执行搜索和访问最近使用的仪表板。
 
