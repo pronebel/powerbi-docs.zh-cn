@@ -7,15 +7,15 @@ ms.custom: seodec18
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 05/08/2019
+ms.date: 08/20/2020
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: f42ee7a0b3b1aaf562e3ab087ad9c07501707afc
-ms.sourcegitcommit: 0d0ab427bb71b37c9e5170c515a8f274e1f20c17
+ms.openlocfilehash: f7130b1565c85d8e18188c89c22dda3eda193018
+ms.sourcegitcommit: 0f807d3c74e5202b6e6a95fad49f2787928b9613
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "87878386"
+ms.lasthandoff: 08/21/2020
+ms.locfileid: "88702619"
 ---
 # <a name="frequently-asked-questions-for-power-bi-for-germany-cloud-customers"></a>适用于德国云客户的 Power BI 常见问题解答
 **Power BI 服务**具有可用于欧盟/欧洲自由贸易协议 (EU/EFTA) 客户的版本，通常称为 Microsoft Cloud Deutschland (MCD)。 本文中讨论的 **Power BI 服务**版本是为欧盟/EFTA 客户专门设计的，独立且不同于 **Power BI 服务**的商业版本或为政府客户提供的 Power BI 服务。
@@ -53,6 +53,8 @@ ms.locfileid: "87878386"
    * 向网络发布
    * ESRI 提供的 ArcGIS 地图
    * Power BI Embedded（单独计量的 ISV 许可，将在以后通过 [Microsoft Azure Germany](https://azure.microsoft.com/overview/clouds/germany/) 提供）
+   * 活动日志记录
+
 7. **在哪里可以找到德国云的 Power BI 服务具体配置信息，以便在我的应用程序中使用和集成？**
    
    我们更新了 [SaaS 嵌入开发人员示例](https://github.com/Microsoft/PowerBI-Developer-Samples)，以及德国云和其他 Power BI 云的具体配置信息。 请查看示例中的 Cloud Configs 文件夹，获取云具体配置终点。 下表列出了德国云的 Power BI 服务（以及用于交叉引用的公有云）的各种配置终点。

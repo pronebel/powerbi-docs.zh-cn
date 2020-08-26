@@ -6,14 +6,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 08/05/2020
+ms.date: 08/21/2020
 ms.author: davidi
-ms.openlocfilehash: 6afc5dd36127390dd359d76fc8970d5ef6f7b590
-ms.sourcegitcommit: 65822b51810a5239fea9d3d0af1fc286436c6cad
+ms.openlocfilehash: ae4d51d9a40044ae939f5cb2b0b15442697df5fd
+ms.sourcegitcommit: ae6559f40e1735d53654cbe9425add6e18171295
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "87837557"
+ms.lasthandoff: 08/24/2020
+ms.locfileid: "88764942"
 ---
 # <a name="power-bi-data-sources"></a>Power BI 数据源
 
@@ -35,7 +35,7 @@ ms.locfileid: "87837557"
 | Azure Blob 存储 | 是 | 是 | 否 | 是 | 否 |
 | Azure Cosmos DB | 是 | 是 | 否 | 否 | 否 |
 | Azure 成本管理 | 是 | 是 | 否 | 否 | 否 |
-| Azure 数据资源管理器 (kusto) | 是 | 是 | 是 | 否 | 否 |
+| Azure 数据资源管理器 (kusto) | 是 | 是 | 是 | 是 | 否 |
 | Azure Data Lake Storage Gen1 | 是 | 是 | 否 | 否 | 否 |
 | Azure Data Lake Storage Gen2 | 是 | 是 | 否 | 是 | 否 |
 | Azure DevOps | 是 | 是 | 否 | 否 | 否 |
