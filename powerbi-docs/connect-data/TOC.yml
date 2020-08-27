@@ -28,8 +28,6 @@
           href: desktop-tutorial-row-level-security-onprem-ssas-tabular.md
         - name: 连接到 GitHub 示例
           href: service-tutorial-connect-to-github.md
-        - name: 在 Excel 中使用分析
-          href: ../collaborate-share/service-tutorial-analyze-in-excel.md
         - name: 使用认知服务
           href: service-tutorial-use-cognitive-services.md
         - name: 机器学习集成
