@@ -1,25 +1,26 @@
 ---
-title: Power BI 使用者词汇表
-description: Power BI 引入了许多新术语和常见术语的新用法。 请使用我们的词汇表熟悉 Power BI 术语。
+title: Power BI 商务用户词汇表
+description: Power BI 引入了许多新术语和常见术语的新用法。 请使用我们的词汇表熟悉 Power BI 服务术语。
 services: power-bi
 author: mihart
 ms.reviewer: mihart
 ms.service: powerbi
 ms.subservice: powerbi-consumer
-ms.topic: conceptual
-ms.date: 07/08/2020
+ms.topic: reference
+ms.date: 08/24/2020
+ms.custom: contperfq1
 ms.author: mihart
-ms.openlocfilehash: f5ed2252836ecda364ca53904c2cccbae9f9b7e6
-ms.sourcegitcommit: c83146ad008ce13bf3289de9b76c507be2c330aa
+ms.openlocfilehash: cd562d8fe689c2ae82ee1cacfc9e02393a5992f9
+ms.sourcegitcommit: 84e75a2cd92f4ba4e0c08ba296b981b79d6d0e82
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/10/2020
-ms.locfileid: "86215612"
+ms.lasthandoff: 08/25/2020
+ms.locfileid: "88803034"
 ---
-# <a name="glossary-for-power-bi-service"></a>Power BI 服务词汇表    
+# <a name="glossary-for-business-users-of-the-power-bi-service"></a>Power BI 服务的商务用户词汇表    
 Power BI 服务可能会引入不熟悉或容易混淆的术语。 词汇表是查找术语的好地方，可能需要将其加入书签。 了解构成 Power BI 服务的构建块的另一个极佳资源是[基本概念](end-user-basic-concepts.md)。 “基本概念”提供 Power BI 组件及其如何连接的简要概述。
 
-本词汇表是社区共同努力的结果。  此处看不到词语？ 请告诉我们进行添加（你可以使用本文底部的文档反馈按钮）。
+本词汇表是社区共同努力的结果。  此处看不到词语？ 请向我们申请添加（你可以使用本文底部的文档反馈按钮）。
 
 ## <a name="a"></a>A
 

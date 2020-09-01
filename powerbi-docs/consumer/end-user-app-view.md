@@ -10,12 +10,12 @@ ms.date: 08/17/2020
 ms.author: mihart
 ms.custom: licensing support
 LocalizationGroup: Share your work
-ms.openlocfilehash: d7ad3722b609d76383a7a404ef94655ec9ef8711
-ms.sourcegitcommit: 7d505cb7cc9360211d67f1056cb488f7f15ffab4
+ms.openlocfilehash: e737d8747f7d6d9b69eda2035df06abdddd9569f
+ms.sourcegitcommit: 84e75a2cd92f4ba4e0c08ba296b981b79d6d0e82
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "88578029"
+ms.lasthandoff: 08/25/2020
+ms.locfileid: "88803080"
 ---
 # <a name="install-and-use-apps-with-dashboards-and-reports-in-power-bi"></a>在 Power BI 中安装和使用包含仪表板和报表的应用
 
@@ -27,7 +27,7 @@ ms.locfileid: "88578029"
 
 ## <a name="ways-to-get-a-new-app"></a>获取新应用的方式
 可通过以下几种方式来获取新应用：
-* 可以从 Power BI 中的 Power BI 应用商城获取应用。
+* 可以从 Power BI 服务中的 Power BI 应用商店获取应用。
 * 可以使用从应用设计者那里收到的应用的直接链接。 
 * 组织中的应用设计者可以在你的 Power BI 帐户中自动安装应用。
 
@@ -37,6 +37,8 @@ ms.locfileid: "88578029"
 并非所有 Power BI 用户都可以查看应用并与之交互。 
 - 如果你有免费许可证，则可以打开存储在高级容量中并已与你共享的应用。  
 - 如果你有 Pro 许可证，则可以打开已与你共享的应用。
+
+因此，如果无法打开应用，请与管理员或支持人员联系。 有关许可的详细信息，请参阅 [Power BI 许可](end-user-license.md)。
 
 ## <a name="get-the-app-from-the-power-bi-apps-marketplace"></a>从 Power BI 应用商城获取应用
 

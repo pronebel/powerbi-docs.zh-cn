@@ -6,14 +6,14 @@ ms.reviewer: asaxton
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 07/02/2020
+ms.date: 08/19/2020
 ms.author: v-pemyer
-ms.openlocfilehash: 8e1e590f871e1840209e72eb611bde7b21610c6e
-ms.sourcegitcommit: c18130ea61e67ba111be870ddb971c6413a4b632
+ms.openlocfilehash: 1b4f86a0e3316cc774b0f1562112f0d6e5b19a4f
+ms.sourcegitcommit: f73ea4b9116ad186817ec5cc5d5f487d49cc0cb0
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/09/2020
-ms.locfileid: "86162358"
+ms.lasthandoff: 08/20/2020
+ms.locfileid: "88638695"
 ---
 # <a name="microsofts-bi-transformation"></a>Microsoft 的 BI 转换
 
@@ -53,9 +53,9 @@ ms.locfileid: "86162358"
 
 Starlight 是我们内部数据统一和分析平台的名称，该平台支持财务、销售、营销和工程。 它的任务是提供可靠、共享且可缩放的数据平台。 该平台完全由财务团队构建，并且现在使用最新的 Microsoft 产品持续运营。
 
-KPI Lake 不是 Azure Data Lake。 但它是使用 Microsoft SQL Server Analysis Services 在 Azure IaaS 中托管的 Starlight 支持的表格模型。 表格模型提供来自 100 多个内部源的数据，并定义大量的层次结构和 KPI。 其任务是支持跨财务、营销和销售团队的业务绩效报告和分析。 这样做是为了通过来自相关来源的统一模型，获得及时、准确和性能良好的见解。
+KPI Lake 不是 Azure Data Lake。 但它是使用 Microsoft SQL Server Analysis Services 在 Azure IaaS 中托管的 Starlight 支持的表格 BI 语义模型。 BI 语义模型提供来自 100 多个内部源的数据，并定义大量的层次结构和 KPI。 其任务是支持跨财务、营销和销售团队的业务绩效报告和分析。 这样做是为了通过来自相关来源的统一 BI 语义模型，获得及时、准确和性能良好的见解。
 
-首次部署是个激动人心的时刻，因为表格模型带来了直接且可度量的好处。 第一版集中式 C+E 财务和营销 BI 平台。 然后，在过去六年中，它已经过扩展以合并其他业务见解解决方案。 现在，它持续发展，为我们的全球和商业业务评审以及标准报告和 SSBI 提供支持。 自发布以来，其采用率飙升了 5 倍，远远超出了我们最初的预期。
+首次部署是个激动人心的时刻，因为表格 BI 语义模型带来了直接且可度量的好处。 第一版集中式 C+E 财务和营销 BI 平台。 然后，在过去六年中，它已经过扩展以合并其他业务见解解决方案。 现在，它持续发展，为我们的全球和商业业务评审以及标准报告和 SSBI 提供支持。 自发布以来，其采用率飙升了 5 倍，远远超出了我们最初的预期。
 
 下面总结了它的主要优势：
 
@@ -71,8 +71,8 @@ KPI Lake 是一个很好的成功案例。 我们经常将其展示给客户，�
 Starlight 平台管理从获取到处理，再到发布的数据流：
 
 1. 可靠敏捷的数据集成按计划进行，从而合并来自 100 多个不同原始源的数据。 源数据系统包括关系数据库、Azure Data Lake Storage 和 Azure Synapse 数据库。 主题区域包括财务、营销、销售和工程。
-2. 暂存后，将使用主数据和业务逻辑对数据进行整合和扩充。 然后，将其加载到数据仓库表中。 然后刷新表格模型。
-3. 公司内的分析师使用 Excel 和 Power BI 从表格模型中提供见解和分析。 而且，它使业务所有者能够支持自己的业务指标定义。 必要时，可使用具有负载均衡的 Azure IaaS 来实现缩放。
+2. 暂存后，将使用主数据和业务逻辑对数据进行整合和扩充。 然后，将其加载到数据仓库表中。 然后刷新表格 BI 语义模型。
+3. 公司内的分析师使用 Excel 和 Power BI 从表格 BI 语义模型中提供见解和分析。 而且，它使业务所有者能够支持自己的业务指标定义。 必要时，可使用具有负载均衡的 Azure IaaS 来实现缩放。
 
 ## <a name="deliver-success"></a>实现成功
 
@@ -86,10 +86,16 @@ Starlight 平台管理从获取到处理，再到发布的数据流：
 
 ## <a name="next-steps"></a>后续步骤
 
-在[本系列的下一篇文章](center-of-excellence-establish.md)中，了解 COE 如何帮助我们在 Microsoft 创建标准化的分析和数据平台，以从我们的数据中发掘见解。
-
 有关本文的详细信息，请参阅以下资源：
 
 - [建立卓越中心](center-of-excellence-establish.md)
 - 是否有任何问题? [尝试咨询 Power BI 社区](https://community.powerbi.com/)
 - 建议？ [提出改进 Power BI 的想法](https://ideas.powerbi.com/)
+
+在[本系列的下一篇文章](center-of-excellence-establish.md)中，了解 COE 如何帮助我们在 Microsoft 创建标准化的分析和数据平台，以从我们的数据中发掘见解。
+
+### <a name="professional-services"></a>专业服务
+
+经过认证的 Power BI 合作伙伴可帮助你的组织在设置 COE 时取得成功。 他们可为你提供经济高效的培训或对你的数据进行审核。 若要加入 Power BI 合作伙伴，请访问 [Power BI 合作伙伴门户](https://powerbi.microsoft.com/partners/)。
+
+你还可以与经验丰富的咨询合作伙伴合作。 他们可帮助你[评估](https://appsource.microsoft.com/marketplace/consulting-services?product=power-bi&serviceType=assessment&country=ALL&region=ALL)、[计算](https://appsource.microsoft.com/marketplace/consulting-services?product=power-bi&serviceType=proof-of-concept&country=ALL&region=ALL)或[实现](https://appsource.microsoft.com/marketplace/consulting-services?product=power-bi&serviceType=implementation&country=ALL&region=ALL&page=1) Power BI。

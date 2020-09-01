@@ -6,24 +6,31 @@ ms.reviewer: asaxton
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 07/02/2020
+ms.date: 08/19/2020
 ms.author: v-pemyer
-ms.openlocfilehash: 81dda3c2bc3558ba68a16ee3f3070e748f76f15b
-ms.sourcegitcommit: 561f6de3e4621d9d439dd54fab458ddca78ace2c
+ms.openlocfilehash: fe55c789f5af644a802bc5c5f648315744a074be
+ms.sourcegitcommit: f73ea4b9116ad186817ec5cc5d5f487d49cc0cb0
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/03/2020
-ms.locfileid: "85939915"
+ms.lasthandoff: 08/20/2020
+ms.locfileid: "88638630"
 ---
 # <a name="bi-solution-architecture-in-the-center-of-excellence"></a>卓越中心的 BI 解决方案体系结构
 
 本文面向 IT 专业人员和 IT 管理员。 你将了解 COE 中的 BI 解决方案体系结构以及所采用的不同技术。 技术包括 Azure、Power BI 和 Excel。 可以同时利用它们来提供可缩放的数据驱动型云 BI 平台。
 
-设计强大的 BI 平台类似于搭建一座桥梁；一座将已转换的丰富源数据连接到数据使用者的桥梁。 设计如此复杂的结构需要工程思维，但它可能是你所能设计的最有创造性且最有价值的 IT 体系结构之一。
+设计强大的 BI 平台类似于搭建一座桥梁；一座将已转换的丰富源数据连接到数据使用者的桥梁。 设计如此复杂的结构需要工程思维，但它可能是你所能设计的最有创造性且最有价值的 IT 体系结构之一。 在大型组织中，BI 解决方案体系结构可以包含：
+
+- 数据源
+- 数据引入
+- 大数据/数据准备
+- 数据仓库
+- BI 语义模型
+- 报表
+
+:::image type="content" source="media/center-of-excellence-business-intelligence-solution-architecture/azure-business-intelligence-platform.png" alt-text="显示了一个 BI 平台体系结构图的图表，从数据源到数据引入、大数据、存储、数据仓库、BI 语义建模、报告和机器学习。":::
 
 平台必须支持特定需求。 具体来说，它必须进行缩放并可以满足业务服务和数据使用者的期望。 同时，它必须在本质上是安全的。 而且，它还必须具有足够的弹性以适应变化，因为新的数据和主题领域必须适时处于联机状态。
-
-:::image type="content" source="media/center-of-excellence-business-intelligence-solution-architecture/azure-business-intelligence-platform.png" alt-text="一个图像显示了一个 BI 平台体系结构图，从数据源到数据引入、大数据、存储、数据仓库、报告和机器学习。":::
 
 ## <a name="frameworks"></a>框架
 
@@ -40,7 +47,7 @@ ms.locfileid: "85939915"
 BI 平台可以提供三种不同类型的模型：
 
 - 企业模型
-- BI 模型
+- BI 语义模型
 - 机器学习 (ML) 模型
 
 ### <a name="enterprise-models"></a>企业模型
@@ -51,17 +58,15 @@ BI 平台可以提供三种不同类型的模型：
 
 在云 BI 平台中，企业模型可以部署到 [Azure Synapse 中的 Synapse SQL 池](/azure/synapse-analytics/sql-data-warehouse/sql-data-warehouse-overview-what-is#synapse-sql-pool-in-azure-synapse)。 然后，Synapse SQL 池就成为组织可以依靠的唯一事实版本，以获取快速和强大的见解。
 
-### <a name="bi-models"></a>BI 模型
+### <a name="bi-semantic-models"></a>BI 语义模型
 
-BI 模型表示企业模型之上的语义层。 它们由 BI 开发人员和业务用户构建和维护。 BI 开发人员创建核心 BI 模型，用于从企业模型中获取数据。 业务用户可以创建更小规模的独立模型，也可以使用部门或外部资源扩展核心 BI 模型。 BI 模型通常专注于单个主题领域，并且经常被广泛共享。
+BI 语义模型表示企业模型之上的语义层。 它们由 BI 开发人员和业务用户构建和维护。 BI 开发人员创建核心 BI 语义模型，用于从企业模型中获取数据。 业务用户可以创建更小规模的独立模型，也可以使用部门或外部资源扩展核心 BI 语义模型。 BI 语义模型通常专注于单个主题领域，并且经常被广泛共享。
 
-业务功能不是由数据单独实现的，而是由描述概念、关系、规则和标准的 BI 模型来实现的。 通过这种方式，它们表示直观且易于理解的结构，这些结构定义数据关系并将业务规则封装为计算。 它们还可以强制执行细化的数据权限，确保适当的人能够访问适当的数据。 重要的是，它们加快了查询性能，提供了响应速度极快的交互式分析，甚至超过了 TB 级数据。 与企业模型一样，BI 模型采用命名约定来确保一致性。
+业务功能不是由数据单独实现的，而是由描述概念、关系、规则和标准的 BI 语义模型来实现的。 通过这种方式，它们表示直观且易于理解的结构，这些结构定义数据关系并将业务规则封装为计算。 它们还可以强制执行细化的数据权限，确保适当的人能够访问适当的数据。 重要的是，它们加快了查询性能，提供了响应速度极快的交互式分析，甚至超过了 TB 级数据。 与企业模型一样，BI 语义模型采用命名约定来确保一致性。
 
-在云 BI 平台中，BI 开发人员可以将 BI 模型部署到 [Azure Analysis Services](/azure/analysis-services/) 或 [Power BI Premium 容量](../admin/service-premium-what-is.md#dedicated-capacities)。 我们建议在 Power BI 用作报告和分析层时部署到 Power BI。 这些产品支持不同的存储模式，允许数据模型表缓存其数据或使用 [DirectQuery](directquery-model-guidance.md)，这是一种将查询传递到基础数据源的技术。 如果模型表表示大数据量或需要交付近实时结果，那么 DirectQuery 是一种理想的存储模式。 两种存储模式可以组合在一起：[复合模型](composite-model-guidance.md)组合在单个模型中使用不同存储模式的表。
+在云 BI 平台中，BI 开发人员可以将 BI 语义模型部署到 [Azure Analysis Services](/azure/analysis-services/) 或 [Power BI Premium 容量](../admin/service-premium-what-is.md#dedicated-capacities)。 我们建议在 Power BI 用作报告和分析层时部署到 Power BI。 这些产品支持不同的存储模式，允许数据模型表缓存其数据或使用 [DirectQuery](directquery-model-guidance.md)，这是一种将查询传递到基础数据源的技术。 如果模型表表示大数据量或需要交付近实时结果，那么 DirectQuery 是一种理想的存储模式。 两种存储模式可以组合在一起：[复合模型](composite-model-guidance.md)组合在单个模型中使用不同存储模式的表。
 
-对于频繁执行查询的模型，[Azure 负载均衡器](/azure/load-balancer/load-balancer-overview)可用于在模型副本之间均匀分布查询负载。 它还支持扩展应用程序并创建高度可用的 BI 模型。
-
-<!-- For more information on BI models, see [BI modeling and processing in the COE](https://TODO/).-->
+对于频繁执行查询的模型，[Azure 负载均衡器](/azure/load-balancer/load-balancer-overview)可用于在模型副本之间均匀分布查询负载。 它还支持扩展应用程序并创建高度可用的 BI 语义模型。
 
 ### <a name="machine-learning-models"></a>机器学习模型
 
@@ -134,7 +139,7 @@ ADLS Gen2 提供了两个方面的优点：它是 BLOB 存储和一个高性能�
 
 在报告层，业务服务使用源自数据仓库的企业数据。 它们还直接访问数据湖中的数据，以便执行临时分析或数据科学任务。
 
-细化权限在所有层（数据湖、企业模型和 BI 模型）强制执行。 这些权限确保数据使用者只能看到他们有权访问的数据。
+细化权限在所有层（数据湖、企业模型和 BI 语义模型）强制执行。 这些权限确保数据使用者只能看到他们有权访问的数据。
 
 在 Microsoft，我们使用 Power BI 报表和仪表板以及 [Power BI 分页报表](../paginated-reports/paginated-reports-report-builder-power-bi.md)。 一些报表和临时分析是在 Excel 中完成的，特别是财务报表。
 
@@ -142,11 +147,11 @@ ADLS Gen2 提供了两个方面的优点：它是 BLOB 存储和一个高性能�
 
 通常，数据使用模式因角色而异：
 
-- 数据分析师直接连接到核心 BI 模型。 当核心 BI 模型包含所需的所有数据和逻辑时，他们使用实时连接来创建 Power BI 报表和仪表板。 当他们需要用部门数据扩展模型时，将创建 Power BI [复合模型](composite-model-guidance.md)。 如果需要电子表格样式的报表，他们使用 Excel 根据核心 BI 模型或部门 BI 模型生成报表。
-- BI 开发人员和操作报表作者直接连接到企业模型。 他们使用 Power BI Desktop 创建实时连接分析报表。 他们还可以编写操作类型的 BI 报表作为 Power BI 分页报表，使用 T-SQL 编写原生 SQL 查询来访问来自 Azure Synapse Analytics 企业模型的数据，或者使用 DAX 或 MDX 编写 Power BI 模型。
+- 数据分析师直接连接到核心 BI 语义模型。 当核心 BI 语义模型包含所需的所有数据和逻辑时，他们使用实时连接来创建 Power BI 报表和仪表板。 当他们需要用部门数据扩展模型时，将创建 Power BI [复合模型](composite-model-guidance.md)。 如果需要电子表格样式的报表，他们使用 Excel 根据核心 BI 语义模型或部门 BI 语义模型生成报表。
+- BI 开发人员和操作报表作者直接连接到企业模型。 他们使用 Power BI Desktop 创建实时连接分析报表。 他们还可以编写操作类型的 BI 报表作为 Power BI 分页报表，使用 T-SQL 编写原生 SQL 查询来访问来自 Azure Synapse Analytics 企业模型的数据，或者使用 DAX 或 MDX 编写 Power BI 语义模型。
 - 数据科学家直接连接到数据湖中的数据。 他们使用 Azure Databricks 和 Python 笔记本来开发 ML 模型，这些模型通常是实验性的，需要专业技能才能用于生产。
 
-:::image type="content" source="media/center-of-excellence-business-intelligence-solution-architecture/azure-data-warehouse-consumption.png" alt-text="图像显示了用于 Power BI 和 Azure 机器学习的 Azure Synapse Analytics 的使用情况。":::
+:::image type="content" source="media/center-of-excellence-business-intelligence-solution-architecture/azure-data-warehouse-consumption.png" alt-text="图像显示了用于 Power BI、Excel 和 Azure 机器学习的 Azure Synapse Analytics 的使用情况。":::
 
 ## <a name="next-steps"></a>后续步骤
 
@@ -155,3 +160,9 @@ ADLS Gen2 提供了两个方面的优点：它是 BLOB 存储和一个高性能�
 - [通过 Azure Synapse Analytics 实现 Azure 中的企业 BI](/azure/architecture/reference-architectures/data/enterprise-bi-synapse)
 - 是否有任何问题? [尝试咨询 Power BI 社区](https://community.powerbi.com/)
 - 建议？ [提出改进 Power BI 的想法](https://ideas.powerbi.com/)
+
+### <a name="professional-services"></a>专业服务
+
+经过认证的 Power BI 合作伙伴可帮助你的组织在设置 COE 时取得成功。 他们可为你提供经济高效的培训或对你的数据进行审核。 若要加入 Power BI 合作伙伴，请访问 [Power BI 合作伙伴门户](https://powerbi.microsoft.com/partners/)。
+
+你还可以与经验丰富的咨询合作伙伴合作。 他们可帮助你[评估](https://appsource.microsoft.com/marketplace/consulting-services?product=power-bi&serviceType=assessment&country=ALL&region=ALL)、[计算](https://appsource.microsoft.com/marketplace/consulting-services?product=power-bi&serviceType=proof-of-concept&country=ALL&region=ALL)或[实现](https://appsource.microsoft.com/marketplace/consulting-services?product=power-bi&serviceType=implementation&country=ALL&region=ALL&page=1) Power BI。

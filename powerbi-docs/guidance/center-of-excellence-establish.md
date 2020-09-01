@@ -6,14 +6,14 @@ ms.reviewer: asaxton
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 07/02/2020
+ms.date: 08/19/2020
 ms.author: v-pemyer
-ms.openlocfilehash: 9aab2afd9e3b4b86844c045ceb0346d57baa3e18
-ms.sourcegitcommit: 561f6de3e4621d9d439dd54fab458ddca78ace2c
+ms.openlocfilehash: 477b6a1e29fc05da3004a2dcf8466ef969df4531
+ms.sourcegitcommit: f73ea4b9116ad186817ec5cc5d5f487d49cc0cb0
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/03/2020
-ms.locfileid: "85939897"
+ms.lasthandoff: 08/20/2020
+ms.locfileid: "88638603"
 ---
 # <a name="establish-a-center-of-excellence"></a>建立卓越中心
 
@@ -45,10 +45,10 @@ ms.locfileid: "85939897"
 
 建立和操作 BI 平台需要共享功能。 它们支持为平台提供资金的所有利益干系人组。 他们包括以下团队：
 
-- **核心平台工程：** 我们以工程思维设计了 BI 平台。 它实际上是一组框架，支持数据引入、处理以扩充数据，并在数据模型中提供这些数据以供分析师使用。 工程师负责核心 BI 平台功能的技术设计和实现。 例如，他们设计和实现数据管道。
+- **核心平台工程：** 我们以工程思维设计了 BI 平台。 它实际上是一组框架，支持数据引入、处理以扩充数据，并在 BI 语义模型中提供这些数据以供分析师使用。 工程师负责核心 BI 平台功能的技术设计和实现。 例如，他们设计和实现数据管道。
 - **基础结构和托管：** IT 工程师负责预配和管理所有 Azure 服务。
 - **支持和操作：** 此团队使平台保持运行。 支持处理用户需要，如数据权限。 运营使平台保持运行、确保满足服务级别协议 (SLA) 并传达延迟或故障。
-- **发布管理：** 技术项目经理 (PM) 发布更改。 更改范围包括从平台框架更新到对数据模型发出的更改请求。 它们是确保更改不会造成任何破坏的最后一道防线。
+- **发布管理：** 技术项目经理 (PM) 发布更改。 更改范围包括从平台框架更新到对 BI 语义模型发出的更改请求。 它们是确保更改不会造成任何破坏的最后一道防线。
 
 ### <a name="dedicated-deliveries"></a>专用交付
 
@@ -60,13 +60,22 @@ ms.locfileid: "85939897"
 
 - **项目经理：** PM 是专用资源。 他们充当 BI 团队和利益干系人之间的主要联系人。 他们的工作是将利益干系人的业务需求转换为技术规范。 他们还管理利益干系人可交付结果的优先级。
 - **数据库领导：** 他们是专用资源，负责将新的数据集加入到集中的数据仓库中。 加入数据集可能涉及到设置一致的维度、添加业务逻辑和自定义属性以及标准名称和格式。
-- **分析领导：** 他们是负责设计和开发数据模型的专用资源。 他们努力使用标准命名和格式来应用一致的体系结构。 性能优化是其角色的重要组成部分。
+- **分析领导：** 他们是负责设计和开发 BI 语义模型的专用资源。 他们努力使用标准命名和格式来应用一致的体系结构。 性能优化是其角色的重要组成部分。
 - **运营和基础结构：** 他们是负责管理作业和数据管道的共享资源。 他们还负责管理 Azure 订阅、Power BI 容量、虚拟机和数据网关。
-- **支持人员：** 他们是一种共享资源，负责编写文档、组织培训、传达数据模型更改以及回答用户问题。
+- **支持人员：** 他们是一种共享资源，负责编写文档、组织培训、传达 BI 语义模型更改以及回答用户问题。
 
 ## <a name="governance-and-compliance"></a>管理和符合性
 
 对于每个利益干系人组，PM 领导进行跨计划治理和监督。 其首要目标是确保对 IT 的投资能产生业务价值并降低风险。 指导委员会定期召开会议，以审查进度并批准主要计划。
+
+## <a name="grow-your-own-community"></a>发展你自己的社区
+
+通过以下方式在组织内建立和发展社区：
+
+- 定期举行“办公时间”活动，留出时间与 BI 团队交流，让人们提出问题、提出建议、分享想法，甚至提出不满之处。
+- 创建一个团队渠道来提供支持，鼓励任何人提出问题和回应问题。
+- 运营和推广非正式用户群组，并鼓励员工参加。
+- 举行有关特定产品和 BI 平台本身的更正式的培训活动。 考虑提供 [Power BI 仪表板一日之旅](https://powerbi.microsoft.com/diad/)课程，并作为免费课程工具包提供，这是首次向员工介绍 Power BI 的绝佳方式。
 
 ## <a name="next-steps"></a>后续步骤
 
@@ -75,3 +84,11 @@ ms.locfileid: "85939897"
 - [COE 中的 BI 解决方案体系结构](center-of-excellence-business-intelligence-solution-architecture.md)
 - 是否有任何问题? [尝试咨询 Power BI 社区](https://community.powerbi.com/)
 - 建议？ [提出改进 Power BI 的想法](https://ideas.powerbi.com/)
+
+在[本系列的下一篇文章](center-of-excellence-business-intelligence-solution-architecture.md)中，了解 COE 中的 BI 解决方案体系结构以及所采用的不同技术。
+
+### <a name="professional-services"></a>专业服务
+
+经过认证的 Power BI 合作伙伴可帮助你的组织在设置 COE 时取得成功。 他们可为你提供经济高效的培训或对你的数据进行审核。 若要加入 Power BI 合作伙伴，请访问 [Power BI 合作伙伴门户](https://powerbi.microsoft.com/partners/)。
+
+你还可以与经验丰富的咨询合作伙伴合作。 它们可帮助你[评估](https://appsource.microsoft.com/marketplace/consulting-services?product=power-bi&serviceType=assessment&country=ALL&region=ALL)、[计算](https://appsource.microsoft.com/marketplace/consulting-services?product=power-bi&serviceType=proof-of-concept&country=ALL&region=ALL)或[实现](https://appsource.microsoft.com/marketplace/consulting-services?product=power-bi&serviceType=implementation&country=ALL&region=ALL&page=1) Power BI。

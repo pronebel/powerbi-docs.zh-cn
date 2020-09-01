@@ -10,12 +10,12 @@ ms.date: 06/02/2020
 ms.author: kfollis
 ms.custom: licensing support
 LocalizationGroup: Get started
-ms.openlocfilehash: 3d50b8678abd54d2a4543b5a2d187f32b491b063
-ms.sourcegitcommit: aece2382b618dc5b730705b4c76e76a657986588
+ms.openlocfilehash: 75b05449de47f39fc95fd7cf42f9325b7a5d0ee9
+ms.sourcegitcommit: f73ea4b9116ad186817ec5cc5d5f487d49cc0cb0
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/04/2020
-ms.locfileid: "84427115"
+ms.lasthandoff: 08/20/2020
+ms.locfileid: "88638764"
 ---
 # <a name="power-bi-for-us-government-customers"></a>适用于美国政府客户的 Power BI
 
@@ -86,7 +86,7 @@ Azure 分布在多个云中。 默认情况下，你可以启用防火墙规则�
 |  |通过 Office 365 安全和合规管理中心进行审核|可用|可用|可用|
 |  |外部用户共享|可用|可用|可用|
 |  |报表和仪表板的使用指标|可用|可用|可用|
-|  |GCC 和商业云之间的 Azure B2B|可用|可用|可用|
+|  |GCC 和商业云之间的 Azure B2B 协作<sup>1</sup>|可用|不可用|不可用|
 |报表创建|创建和查看仪表板和报表|可用|可用|可用|
 |  |计划的数据刷新|可用|可用|可用|
 |  |可刷新的团队仪表板|可用|可用|可用|
@@ -108,6 +108,8 @@ Azure 分布在多个云中。 默认情况下，你可以启用防火墙规则�
 |  |自动化机器学习|不可用|不可用|不可用|
 |  |Azure 认知服务|不可用|不可用|不可用|
 |  |Azure 机器学习|不可用|不可用|不可用|
+
+<sup>1</sup> 尽管可以在 GCC 中进行 B2B 协作，但必须在该环境中向外部用户发出许可证。 商业云许可证在 GCC 中无效。 有关美国政府 B2B 协作已知限制的详细信息，请参阅[比较 Azure 政府和全球 Azure](https://docs.microsoft.com/azure/azure-government/compare-azure-government-global-azure#azure-active-directory-premium-p1-and-p2)。
 
 ## <a name="next-steps"></a>后续步骤
 

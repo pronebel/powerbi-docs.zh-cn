@@ -10,12 +10,12 @@ ms.topic: how-to
 ms.date: 08/05/2020
 ms.author: mihart
 LocalizationGroup: Share your work
-ms.openlocfilehash: 4f02a98ca13bd5808bde987889c3f4404c9100f0
-ms.sourcegitcommit: 65822b51810a5239fea9d3d0af1fc286436c6cad
+ms.openlocfilehash: e1df6634492bbaa690e7efe601455fbae8b6094b
+ms.sourcegitcommit: 0f807d3c74e5202b6e6a95fad49f2787928b9613
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "87837488"
+ms.lasthandoff: 08/21/2020
+ms.locfileid: "88702665"
 ---
 # <a name="export-reports-from-power-bi-to-pdf"></a>从 Power BI 将报表导出为 PDF
 
@@ -68,6 +68,7 @@ ms.locfileid: "87837488"
 * 自定义页面大小异常的报表在导出方案中可能会出现问题。 为获得最佳结果，请考虑切换为报表的标准页面大小。
 * 导出到 PDF 时，使用带有自定义字体的主题的报表会将自定义字体替换为默认字体。
 * 尽管我们希望提供一致的体验，但我们无法保证从 Power BI 服务导出的 PDF 文件始终与从本地 Power BI Desktop 文件导出的 PDF 文件匹配。
+* 当导出为 PDF 时，我们不能保证 PBIX 报表的像素完美保真度。
 
 ## <a name="next-steps"></a>后续步骤
 [打印报表](end-user-print.md)
