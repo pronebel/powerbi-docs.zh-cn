@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 08/12/2020
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: e24897b64a700f84cb7caf2458c72bbfa9b5c70b
-ms.sourcegitcommit: b60063c49ac39f8b28c448908ecbb44b54326335
+ms.openlocfilehash: 42c21a99422e7a3c67cdb65b62d6c323f8c8aa0d
+ms.sourcegitcommit: 70a892df1a0c196db58bf9165b3aa31b26bbe149
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/12/2020
-ms.locfileid: "88160179"
+ms.lasthandoff: 08/29/2020
+ms.locfileid: "89092236"
 ---
 # <a name="whats-new-in-power-bi-desktop"></a>Power BI Desktop 中的新增功能是什么？
 
@@ -91,7 +91,7 @@ Power BI Desktop 更新列表中每个功能旁边的链接解释如下：
 想通过视频和其他有趣的内容了解 Power BI？ 请查看以下视频源和内容集合：
 
 -   [Power BI 频道](https://www.youtube.com/user/mspowerbi)：YouTube 上 Power BI 视频的集合。
--   [Power BI 的引导学习](https://powerbi.microsoft.com/guided-learning/)：按顺序学习 Power BI（以循序渐进的方式进行）。
+-   [Power BI 的引导学习](https://docs.microsoft.com/learn/powerplatform/power-bi?WT.mc_id=powerbi_landingpage-docs-link)：按顺序学习 Power BI（以循序渐进的方式进行）。
 
 ## <a name="updates-for-previous-months"></a>前几个月的更新
 

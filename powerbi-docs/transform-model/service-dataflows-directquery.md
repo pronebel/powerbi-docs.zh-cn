@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 05/21/2020
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: 669f05c03bd7a42d5b44f6ca2fa1b4d58680f71b
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 3e7bb33eae8be4a0eaa7eb4d92ca165c74b14ed5
+ms.sourcegitcommit: 13c4bec679313f2951f1833033316cb8176da8a1
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85237751"
+ms.lasthandoff: 08/26/2020
+ms.locfileid: "88937369"
 ---
 # <a name="use-directquery-with-dataflows-in-power-bi-preview"></a>在 Power BI（预览版）中将 DirectQuery 用于数据流
 
@@ -48,8 +48,6 @@ ms.locfileid: "85237751"
 ## <a name="considerations-and-limitations"></a>注意事项和限制
 
 下面列出的是 DirectQuery 和数据流存在的几个已知限制。
-
-* 用于数据流的 DirectQuery 不适用于已启用增强的元数据预览功能的情况。 我们计划在即将推出的 Power BI Desktop 月度发行版中消除这种冲突。
 
 * 在此功能的预览期间，部分客户在将 DirectQuery 用于数据流时可能会遇到超时或性能问题。 我们会在此预览期间积极地解决此类问题。
 

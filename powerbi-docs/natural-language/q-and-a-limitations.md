@@ -7,12 +7,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 04/21/2020
 ms.author: maggies
-ms.openlocfilehash: b71fd2986fb79adf88493416ac8234f2656aefa9
-ms.sourcegitcommit: a199dda2ab50184ce25f7c9a01e7ada382a88d2c
+ms.openlocfilehash: eebb40d81e9b59b545b30ce55dbf4a362b826455
+ms.sourcegitcommit: 13c4bec679313f2951f1833033316cb8176da8a1
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/06/2020
-ms.locfileid: "82866762"
+ms.lasthandoff: 08/26/2020
+ms.locfileid: "88937576"
 ---
 # <a name="limitations-of-power-bi-qa"></a>Power BI 问答的限制
 
@@ -75,7 +75,6 @@ Power BI 问答当前不支持以下配置：
 
 ### <a name="statements-not-supported"></a>不支持语句
 
-- 当前不支持在条件中使用度量值。 请将度量值转换为计算列以使其有效。
 - 不支持使用多个条件。 解决方法是创建 DAX 计算列来判定多条件语句的真假，并改用此字段。
 - 如果在问答提示输入数据子集时未指定筛选条件，则无法保存定义，即使整个语句没有红色下划线也是如此。
 

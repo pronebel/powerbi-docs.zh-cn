@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: how-to
-ms.date: 05/26/2020
+ms.date: 09/01/2020
 ms.author: davidi
 LocalizationGroup: conceptual
-ms.openlocfilehash: d144d3893a98c040545b754698b52d3892c49d99
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: b24663acf2a3a3fd76953413c298580041afc4ab
+ms.sourcegitcommit: 89ce1777a85b9fc476f077cbe22978c6cf923603
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85237720"
+ms.lasthandoff: 09/02/2020
+ms.locfileid: "89286834"
 ---
 # <a name="azure-machine-learning-integration-in-power-bi"></a>Power BI 中的 Azure 机器学习集成
 
@@ -70,14 +70,11 @@ ms.locfileid: "85237720"
 
 数据科学家主要使用 Python 来为机器学习开发甚至部署其机器学习模型。  与机器学习工作室（经典）（有助于自动执行创建模型的架构文件的任务）不同，在机器学习中，数据科学家必须使用 Python 显式生成架构文件。
 
-此架构文件必须包含在为机器学习模型部署的 Web 服务中。 若要自动生成 Web 服务的架构，必须在已部署模型的条目脚本中提供输入/输出的示例。 请参阅 [Azure 机器学习服务文档的部署模型中关于（可选）自动生成 Swagger 架构](https://docs.microsoft.com/azure/machine-learning/how-to-deploy-and-where#optional-define-model-web-service-schema)的子节。 该链接包括示例条目脚本以及架构生成的语句。 
+此架构文件必须包含在为机器学习模型部署的 Web 服务中。 若要自动生成 Web 服务的架构，必须在已部署模型的条目脚本中提供输入/输出的示例。 请参阅 [Azure 机器学习服务文档的部署模型中关于（可选）自动生成 Swagger 架构](https://docs.microsoft.com/azure/machine-learning/how-to-deploy-advanced-entry-script#power-bi-compatible-endpoint)的子节。 该链接包括示例条目脚本以及架构生成的语句。 
 
 具体来说，条目脚本中的 \@input_schema 和 \@output_schema 函数引用了 input_sample 和 output_sample 变量中的输入和输出示例格式，并在部署期间使用这些示例为 Web 服务生成 OpenAPI (Swagger) 规范 。
 
 通过更新条目脚本生成架构的这些说明还必须应用于在自动化机器学习试验中使用 Azure 机器学习 SDK 创建的模型。
-
-> [!NOTE]
-> 使用 Azure 机器学习可视化界面创建的模型当前不支持架构生成，但后续版本将提供支持。 
 
 ## <a name="invoking-the-azure-ml-model-in-power-bi"></a>调用 Power BI 中的 Azure ML 模型
 

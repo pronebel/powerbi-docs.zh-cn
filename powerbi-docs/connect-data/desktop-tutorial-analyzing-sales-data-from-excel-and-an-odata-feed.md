@@ -9,12 +9,12 @@ ms.topic: tutorial
 ms.date: 01/17/2020
 ms.author: davidi
 LocalizationGroup: Learn more
-ms.openlocfilehash: 2ef73377728703926ac6bc51f847a54451e1321e
-ms.sourcegitcommit: 0d0ab427bb71b37c9e5170c515a8f274e1f20c17
+ms.openlocfilehash: c0fb194c3585af9ce3011f5cb2a4e6b57b5092ed
+ms.sourcegitcommit: 70a892df1a0c196db58bf9165b3aa31b26bbe149
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "87878717"
+ms.lasthandoff: 08/29/2020
+ms.locfileid: "89092397"
 ---
 # <a name="tutorial-analyze-sales-data-from-excel-and-an-odata-feed"></a>教程：分析来自 Excel 和 OData 源的销售数据
 
@@ -272,7 +272,7 @@ Power BI Desktop 不需要合并查询来建立报表。 但是，可以使用�
 
 ## <a name="next-steps"></a>后续步骤
 
-* [阅读其他 Power BI Desktop 教程](/power-bi/guided-learning/)
+* [针对 Power BI 的 Microsoft Learn](https://docs.microsoft.com/learn/powerplatform/power-bi?WT.mc_id=powerbi_landingpage-docs-link)
 * [观看 Power BI Desktop 视频](/power-bi/fundamentals/desktop-videos)
 * [访问 Power BI 论坛](https://go.microsoft.com/fwlink/?LinkID=519326)
 * [阅读 Power BI 博客](https://go.microsoft.com/fwlink/?LinkID=519327)
