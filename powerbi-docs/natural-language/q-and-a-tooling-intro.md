@@ -7,12 +7,12 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 04/17/2020
 ms.author: maggies
-ms.openlocfilehash: 47ab35113bbf6564cbc824b48891cd9f58370c8a
-ms.sourcegitcommit: 7d505cb7cc9360211d67f1056cb488f7f15ffab4
+ms.openlocfilehash: aaa31851f338832a8c4f4fffb38f12414c859610
+ms.sourcegitcommit: 13c4bec679313f2951f1833033316cb8176da8a1
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "88578121"
+ms.lasthandoff: 08/26/2020
+ms.locfileid: "88937461"
 ---
 # <a name="intro-to-qa-tooling-to-train-power-bi-qa-preview"></a>培训 Power BI 问答的问答工具简介（预览版）
 
@@ -80,6 +80,11 @@ ms.locfileid: "88578121"
 
 ### <a name="suggest-questions"></a>建议问题
 
+> [!NOTE]
+> 建议的问题将显示在问答视觉对象的所有实例中。 无法为每个问答视觉对象创建一组单独的建议。
+> 
+> 
+
 如果没有执行任何设置，问答视觉对象将开始建议几个问题。 这些问题是根据你的数据模型自动生成的。 在“建议问题”中，你可以使用自己的问题覆盖自动生成的问题。
 
 若要开始，请在文本框中键入要添加的问题。 可在“预览”部分查看结果在问答视觉对象中的显示效果。 
@@ -91,11 +96,6 @@ ms.locfileid: "88578121"
 :::image type="content" source="media/q-and-a-tooling-intro/power-bi-qna-save-suggest-questions.png" alt-text="保存建议的问题":::
  
 请确保选择“保存”，以在问答视觉对象中显示建议的问题列表。 
-
-> [!NOTE]
-> 建议的问题将显示在问答视觉对象的所有实例中。 无法为每个问答视觉对象创建一组单独的建议。
-> 
-> 
 
 ## <a name="other-qa-settings"></a>其他问答设置
 

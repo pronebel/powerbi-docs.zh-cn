@@ -10,12 +10,12 @@ ms.topic: how-to
 ms.date: 08/05/2020
 ms.author: mihart
 LocalizationGroup: Share your work
-ms.openlocfilehash: e1df6634492bbaa690e7efe601455fbae8b6094b
-ms.sourcegitcommit: 0f807d3c74e5202b6e6a95fad49f2787928b9613
+ms.openlocfilehash: 72e7550666960948ff3a3155a328613c95fcf43f
+ms.sourcegitcommit: 1aaa742c239a3119cdaad698be5a7553b68801fa
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/21/2020
-ms.locfileid: "88702665"
+ms.lasthandoff: 08/27/2020
+ms.locfileid: "89040192"
 ---
 # <a name="export-reports-from-power-bi-to-pdf"></a>从 Power BI 将报表导出为 PDF
 
@@ -35,6 +35,8 @@ ms.locfileid: "88702665"
     此时会显示弹出窗口，可在其中选择“当前值”或“默认值”   。 “当前值”以当前状态导出报表，其中包括对切片器和筛选器值所做的有效更改  。 大多数用户选择此选项。 或者，选择“默认值”以原始状态导出报表（在*设计者*共享此报表时），且不反映对该原始状态所做的任何更改。
     
     此外，还有一个复选框，用于选择是否导出报表的隐藏选项卡。 如果只想导出浏览器中对你可见的报表选项卡，请选中此复选框。 如果希望将所有隐藏选项卡作为导出的一部分，则不选中此选复选框。 如果该复选框显示为灰色，则报表中没有隐藏选项卡。 完成选择后，选择“导出”以继续  。
+    
+    还可以通过选中“仅导出当前页面”选项，来选择仅导出在报表中查看的当前页面。  默认情况下，此选项处于未选中状态，所有页面都将从报表中导出。
     
     右上角将显示一个进度栏。 导出可能需要几分钟。 在导出报表的同时，可以在 Power BI 中继续进行操作。
 

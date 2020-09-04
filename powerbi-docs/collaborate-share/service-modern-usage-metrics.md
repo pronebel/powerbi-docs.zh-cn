@@ -10,12 +10,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 07/22/2020
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 9aad77f162a49697466899afce44284c7f063746
-ms.sourcegitcommit: d9d67ee47954379c2df8db8d0dc8302de4c9f1e5
+ms.openlocfilehash: ee51ea2bbca794730d35d1f21bc999adda3dcc98
+ms.sourcegitcommit: 13c4bec679313f2951f1833033316cb8176da8a1
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/31/2020
-ms.locfileid: "87478144"
+ms.lasthandoff: 08/26/2020
+ms.locfileid: "88937530"
 ---
 # <a name="monitor-usage-metrics-in-the-new-workspace-experience-preview"></a>在新的工作区体验中监视使用指标（预览）
 
@@ -184,6 +184,10 @@ ms.locfileid: "87478144"
 1. 新建的报表会保存到当前工作区的“报表”选项卡中，还会添加到“最新动态”内容列表中。
 
     ![“报表”选项卡上的新报表](media/service-modern-usage-metrics/power-bi-modern-usage-metrics-new-report.png)
+    
+> [!NOTE]
+> 保存使用情况指标报表的副本时，它将被视为常规 Power BI 报表。 在工作区中拥有查看权限的所有用户（包括查看者角色中的用户）都可以访问该报表。
+
 
 ### <a name="create-a-new-usage-report-in-power-bi-desktop"></a>在 Power BI Desktop 中创建新的使用情况报表
 
@@ -242,7 +246,14 @@ ms.locfileid: "87478144"
 
 ## <a name="usage-metrics-in-national-clouds"></a>国家云中的使用情况指标
 
-Power BI 在单独的国家云中可用。 这些云提供与全球版本 Power BI 相同级别的安全性、隐私、合规性和透明度，并结合了有关服务交付、数据驻留、访问和控制的本地法规的唯一模式。 由于本地法规的这种唯一模式，使用指标不适用于国家/地区云。 有关详细信息，请参阅[国家云](https://powerbi.microsoft.com/clouds/)。
+Power BI 在单独的国家云中可用。 这些云提供与全球版本 Power BI 相同级别的安全性、隐私、合规性和透明度，并结合了有关服务交付、数据驻留、访问和控制的本地法规的唯一模式。 新式使用情况指标目前可在以下国家/地区云中使用： 
+
+- 美国政府社区云
+- 美国政府社区云高
+- 美国国防部
+- 中国
+
+有关详细信息，请参阅[国家云](https://powerbi.microsoft.com/clouds/)。
 
 ## <a name="considerations-and-limitations"></a>注意事项和限制
 

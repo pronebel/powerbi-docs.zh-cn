@@ -5,17 +5,17 @@ author: mihart
 ms.reviewer: mihart
 ms.service: powerbi
 ms.subservice: powerbi-consumer
-ms.topic: how-to
-ms.date: 04/17/2020
+ms.topic: reference
+ms.date: 09/01/2020
 ms.author: mihart
 ms.custom: licensing support
 LocalizationGroup: consumers
-ms.openlocfilehash: b6beb2115f664de12382933c8200b07b510bd083
-ms.sourcegitcommit: c83146ad008ce13bf3289de9b76c507be2c330aa
+ms.openlocfilehash: 75ee1ad31bc2f99964a8f79ea29efb499c2cc81e
+ms.sourcegitcommit: 89ce1777a85b9fc476f077cbe22978c6cf923603
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/10/2020
-ms.locfileid: "86215888"
+ms.lasthandoff: 09/02/2020
+ms.locfileid: "89286765"
 ---
 # <a name="power-bi-feature-list-for-consumers-and-others-with-free-licenses"></a>面向使用者和拥有免费许可证的其他用户的 Power BI 功能列表 
 
@@ -49,7 +49,7 @@ ms.locfileid: "86215888"
 
 - 免费许可证 - 通常分配给组织内的使用者（见下面第一幅图）   。 也可分配给任何以个人身份注册 Power BI 服务并想试用[独立模式下的 Power BI 服务](../fundamentals/service-self-service-signup-for-power-bi.md)的人使用（见下面第二幅图）。 
 
-    ![屏幕显示免费版用户](media/end-user-features/power-bi-free-organization.png)
+    ![显示高级用户的屏幕](media/end-user-features/power-bi-free-organization.png)
 
     对于免费版用户，成为拥有高级容量的组织的成员将获得更大的能力。 只要 Pro 同事使用高级容量工作区来共享内容，免费用户就可以查看这些内容并与这些 Pro 同事协作。  通过这种方式，免费用户就成为了 Power BI 使用者，并能够接收和共享内容，从而做出业务决策   。 
  
@@ -87,7 +87,7 @@ ms.locfileid: "86215888"
 |收藏夹 | ![橙 x](media/end-user-features/orange-x.png) | ![绿点](media/end-user-license/power-bi-green-dot.png)  |
  |编辑、更新、重新共享、重新发布 |![橙 x](media/end-user-features/orange-x.png)  |![橙 x](media/end-user-features/orange-x.png)   |
  |创建新应用 |![橙 x](media/end-user-features/orange-x.png)  |![橙 x](media/end-user-features/orange-x.png)   |
- |Appsource：下载并打开 | ![橙 x](media/end-user-features/orange-x.png)  |![橙 x](media/end-user-features/orange-x.png) | 
+ |AppSource：下载并打开 | ![橙 x](media/end-user-features/orange-x.png)  |![橙 x](media/end-user-features/orange-x.png) | 
 |组织存储：下载并打开|![橙 x](media/end-user-features/orange-x.png)  |![绿点](media/end-user-license/power-bi-green-dot.png)  |
  |**应用工作区**
 | 创建、编辑或删除工作区或内容  | ![橙 x](media/end-user-features/orange-x.png)  |![橙 x](media/end-user-features/orange-x.png) |
@@ -129,7 +129,7 @@ ms.locfileid: "86215888"
 | 查看他人创建的书签，并添加自己的书签  | ![橙 x](media/end-user-features/orange-x.png)|![绿点](media/end-user-license/power-bi-green-dot.png)  |
 | 查看和回复他人的评论：添加新评论  | ![橙 x](media/end-user-features/orange-x.png)|![绿点](media/end-user-license/power-bi-green-dot.png)  |
 |更改显示尺寸   | ![绿 myw](media/end-user-features/green-mwo.png) | ![绿点](media/end-user-license/power-bi-green-dot.png)  | 
-| 保存副本 |![橙 x](media/end-user-features/orange-x.png) |![绿点](media/end-user-license/power-bi-green-dot.png)*  
+| 保存副本 |![橙 x](media/end-user-features/orange-x.png) |![橙 x](media/end-user-features/orange-x.png)  
 |将视觉对象复制为图像* |
 | 交叉突出显示和交叉筛选报表视觉效果   |![绿 myw](media/end-user-features/green-mwo.png) |![绿点](media/end-user-license/power-bi-green-dot.png)  |
 |  钻取   |![绿 myw](media/end-user-features/green-mwo.png)  |![绿点](media/end-user-license/power-bi-green-dot.png)  |

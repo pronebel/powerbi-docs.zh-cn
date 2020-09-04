@@ -8,12 +8,12 @@ ms.subservice: powerbi-mobile
 ms.topic: how-to
 ms.date: 08/12/2020
 ms.author: painbar
-ms.openlocfilehash: c4453f1475ac2ab227294b0b3bd8ba5dba10de67
-ms.sourcegitcommit: 64139587061136a43c5aea3b6db4d1a94e4e7795
+ms.openlocfilehash: c01169a514b1231f93df21a23dc8992e92353070
+ms.sourcegitcommit: 13c4bec679313f2951f1833033316cb8176da8a1
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/14/2020
-ms.locfileid: "88204502"
+ms.lasthandoff: 08/26/2020
+ms.locfileid: "88937599"
 ---
 # <a name="view-reports-and-dashboards-in-presentation-mode-on-surface-hub-and-windows-10-devices"></a>在 Windows 10 Surface Hub 设备上使用演示模式查看报表和仪表板
 可以使用演示模式在 Windows 10 设备和 Surface Hub 上全屏显示报表和仪表板。 对于在会议中或在办公室内专用投影仪上显示 Power BI，甚至仅将小屏幕上的空间最大化，演示模式都很有用。
@@ -64,7 +64,7 @@ ms.locfileid: "88204502"
 
  控制器显示当前显示的视图的名称（页面或书签和页面）。 在上面的图像中，我们看到在名为“销售”的报表中，我们正在浏览“销售业绩”页的“亚太”书签。 
 
-默认情况下，幻灯片仅会以每 30 秒一个页面的速度遍历各页面。 [幻灯片放映设置](#slideshow-settings)中的默认行为。
+默认情况下，幻灯片仅会以每 30 秒一个页面的速度遍历各页面。 可以更改[幻灯片放映设置](#slideshow-settings)中的默认行为。
 
 
 ### <a name="auto-play-a-slideshow-on-startup"></a>启动时自动播放幻灯片

@@ -6,15 +6,15 @@ ms.reviewer: mihart
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: how-to
-ms.date: 02/18/2020
+ms.date: 08/27/2020
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: fbbda6edde0028a6d7ca21081f582ace7cb0cc94
-ms.sourcegitcommit: c83146ad008ce13bf3289de9b76c507be2c330aa
+ms.openlocfilehash: e9b950d85d50727ed1e9ca5ec2f94498a37d1665
+ms.sourcegitcommit: 89ce1777a85b9fc476f077cbe22978c6cf923603
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/10/2020
-ms.locfileid: "86216214"
+ms.lasthandoff: 09/02/2020
+ms.locfileid: "89286789"
 ---
 # <a name="view-a-dashboard"></a>查看仪表板
 
@@ -22,9 +22,9 @@ ms.locfileid: "86216214"
 
 [!INCLUDE [power-bi-service-new-look-include](../includes/power-bi-service-new-look-include.md)]
 
-Power BI 使用者需要花费大量时间查看仪表板  。 仪表板旨在突出显示基础报表和数据集中的特定信息。 Power BI 使用者利用这些信息进行跟踪、监视、解答问题、测试等，并制定数据驱动型业务决策。
+Power BI 业务用户需要花费大量时间查看仪表板。 仪表板旨在突出显示基础报表和数据集中的特定信息。 Power BI 业务用户依靠这些信息进行跟踪、监视、解答问题、测试等，从而制定数据驱动型业务决策。
 
-![仪表板](media/end-user-dashboard-open/power-bi-new-dash-new.png)
+![仪表板](media/end-user-dashboard-open/power-bi-new-dashboard.png)
 
 
 共享仪表板和查看共享仪表板都需要 Power BI Pro 或高级许可证。 [我有哪种许可证？](end-user-license.md) 
@@ -35,14 +35,14 @@ Power BI 使用者需要花费大量时间查看仪表板  。 仪表板旨在�
 
 |              |         |
 |------------|--------------------------------|
-|![仪表板图标](media/end-user-dashboard-open/power-bi-dashboard-icon.png)      |可以从 Power BI 服务中的多个位置打开仪表板。 <br> 只需查找此仪表板图标。 确定 <br>是仪表板后，打开它就很简单了 - 只需选中它，仪表板便会填充 Power BI 画布。 |
+|![仪表板图标](media/end-user-dashboard-open/power-bi-dashboard-icon.png)      |可以从 Power BI 服务中的多个位置打开仪表板。 <br> 只需查找此仪表板图标。 确定 <br>仪表板后，通过选择仪表板来打开它，仪表板将填充 Power BI 画布。 |
 |                    |          |
 
 
 
 可在导航窗格的所有容器中找到仪表板。 
 
-![仪表板图标](media/end-user-dashboard-open/power-bi-open-dashboards.gif)
+![显示可在其中找到仪表板的所有位置的视频](media/end-user-dashboard-open/power-bi-open-dashboards.gif)
 
 - **主页** 
 - **收藏夹** - 如果已[将某个仪表板设置为收藏内容](end-user-favorite.md)
@@ -54,5 +54,7 @@ Power BI 使用者需要花费大量时间查看仪表板  。 仪表板旨在�
 
 
 ## <a name="next-steps"></a>后续步骤
+* 返回[仪表板概述](end-user-dashboards.md)
+
 * 通过参观我们的[示例仪表板](../create-reports/sample-tutorial-connect-to-the-samples.md)之一，轻松了解仪表板的使用。    
 * 了解[仪表板磁贴](end-user-tiles.md)，以及当你选择一个磁贴时将发生的情况。

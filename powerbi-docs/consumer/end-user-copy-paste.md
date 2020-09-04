@@ -6,15 +6,15 @@ ms.reviewer: maggie.tsang
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: how-to
-ms.date: 06/25/2020
+ms.date: 08/25/2020
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: dc5cba8953a527e87768815759a14dd8f2cf7ee1
-ms.sourcegitcommit: 2131f7b075390c12659c76df94a8108226db084c
+ms.openlocfilehash: 6e1850e281c58bd89597af2bbd9ade0a769071ae
+ms.sourcegitcommit: 1aaa742c239a3119cdaad698be5a7553b68801fa
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/03/2020
-ms.locfileid: "87537840"
+ms.lasthandoff: 08/27/2020
+ms.locfileid: "89040238"
 ---
 # <a name="copy-a-visual-as-an-image-to-your-clipboard"></a>将视觉对象作为图像复制到剪贴板
 
@@ -35,15 +35,15 @@ ms.locfileid: "87537840"
 
 2. 从视觉对象右上角，选择“更多操作(...)”，然后选择“将视觉对象复制为图像” 。 
 
-    ![显示“将视觉对象复制为图像”图标](media/end-user-copy-paste/power-bi-copy-dashboard.png)
+    ![下拉菜单中显示的“将视觉对象复制为图像”选项](media/end-user-copy-paste/power-bi-copy-dashboard.png)
 
 3. “你的视觉对象可以复制了”对话框出现时，请选择“复制到剪贴板” 。
 
     ![带有“复制到剪贴板”选项的对话框](media//end-user-copy-paste/power-bi-copied.png)
 
-4. 复制视觉对象后，请按 Ctrl + V 或单击右键 > 单击“粘贴”，将其粘贴到另一个应用程序中。 在下面的屏幕截图中，我们将视觉对象粘贴到 Microsoft Word 中。 
+4. 复制视觉对象后，请按 Ctrl + V 或单击右键  >  单击“粘贴”，将其粘贴到另一个应用程序中。 在下面的屏幕截图中，我们将视觉对象粘贴到 Microsoft Word 中。 
 
-    ![视觉对象已粘贴到 Outlook 中](media//end-user-copy-paste/power-bi-paste-word.png)
+    ![已将视觉对象粘贴到 Microsoft Word](media//end-user-copy-paste/power-bi-paste-word.png)
 
 ### <a name="copy-from-a-report-visual"></a>从报表视觉对象中复制 
 
@@ -58,7 +58,7 @@ ms.locfileid: "87537840"
     ![带有“复制到剪贴板”选项的对话框](media//end-user-copy-paste/power-bi-copied.png)
 
 
-4. 复制视觉对象后，请按 Ctrl + V 或单击右键 > 单击“粘贴”，将其粘贴到另一个应用程序中。 在下面的屏幕截图中，我们已将视觉对象粘贴到电子邮件中。
+4. 复制视觉对象后，请按 Ctrl + V 或单击右键  >  单击“粘贴”，将其粘贴到另一个应用程序中。 在下面的屏幕截图中，我们已将视觉对象粘贴到电子邮件中。
 
     ![视觉对象已粘贴到 Outlook 中](media//end-user-copy-paste/power-bi-copy-email.png)
 
@@ -82,7 +82,7 @@ ms.locfileid: "87537840"
 - ESRI 和其他映射视觉对象 
 - Python 视觉对象 
 - R 视觉对象 
-- PowerApps    
+- PowerApps 视觉对象   
 
 答：IT 部门或 Power BI 管理员可以关闭复制视觉对象的功能。
 
@@ -94,6 +94,8 @@ ms.locfileid: "87537840"
 
 ## <a name="next-steps"></a>后续步骤
 有关 [Power BI 报表中的可视化效果](end-user-visual-type.md)的详细信息
+
+如果你对报表拥有编辑权限，则可以[在同一报表中复制和粘贴视觉对象](../visuals/power-bi-visualization-copy-paste.md)。 
 
 更多问题？ [尝试参与 Power BI 社区](https://community.powerbi.com/)
 

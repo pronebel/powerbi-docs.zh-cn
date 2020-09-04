@@ -6,24 +6,30 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: how-to
-ms.date: 01/21/2020
+ms.date: 09/01/2020
 ms.author: maggies
-ms.openlocfilehash: bb769937e99cd3e936d7f5f3967e8f17b939242c
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 69aa11216624416f005dcb2e47d1b818204ae7ec
+ms.sourcegitcommit: 89ce1777a85b9fc476f077cbe22978c6cf923603
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85236058"
+ms.lasthandoff: 09/02/2020
+ms.locfileid: "89286719"
 ---
 # <a name="change-data-source-connection-strings-in-power-bi-reports-with-powershell---power-bi-report-server"></a>使用 PowerShell 更改 Power BI 报表中的数据源连接字符串 - Power BI 报表服务器
 
 
-可以使用 PowerShell 中的 API，在 Power BI 报表服务器中更改 Power BI 报表中的数据源连接字符串。 
+可以使用 PowerShell 来更改 Power BI 报表服务器中托管的 Power BI 报表的数据源连接字符串，以便与所需的 API 交互。 
 
 > [!NOTE]
 > 此功能目前仅适用于 DirectQuery。 即将提供对导入和数据刷新的支持。
 
 1. 安装 Power BI 报表服务器 PowerShell commandlet。 在 [https://github.com/Microsoft/ReportingServicesTools](https://github.com/Microsoft/ReportingServicesTools) 中查找 commandlet 和安装说明。 
+
+    使用以下命令直接从 [PowerShell 库](https://www.powershellgallery.com/packages/ReportingServicesTools/)安装 `ReportingServicesTools` 模块。
+
+    ```powershell
+    Install-Module ReportingServicesTools
+    ```
 
 2. 通过 PowerShell commandlet 提取 Power BI 文件的现有数据源信息：
 

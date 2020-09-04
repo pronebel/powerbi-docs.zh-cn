@@ -7,12 +7,12 @@ ms.topic: conceptual
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.date: 06/25/2020
-ms.openlocfilehash: 002a50fd2e8e55d5ec06d7f15420ae8299861b37
-ms.sourcegitcommit: 10c5b6cd5e7070f96de8a9f1d9b95f3d242ac7f2
+ms.openlocfilehash: 69ad9fc76250e09c2cea5a8d5dc0d3b2c13f72bf
+ms.sourcegitcommit: 6d7d5e6b19e11d557dfa1b79b745728b4ee02b4e
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/21/2020
-ms.locfileid: "86557201"
+ms.lasthandoff: 09/01/2020
+ms.locfileid: "89220874"
 ---
 # <a name="understand-the-deployment-process-preview"></a>了解部署过程（预览版）
 
@@ -154,7 +154,7 @@ ms.locfileid: "86557201"
 
 [![在生产阶段右下角突出显示“发布应用”按钮的屏幕截图。](media/deployment-pipelines-process/publish.png)](media/deployment-pipelines-process/publish.png#lightbox)
 
-在生产阶段中，左下角的“主操作”按钮会在 Power BI 中打开“更新应用”页，以便任何内容更新可供应用用户使用。
+在生产阶段中，右下角的“主操作”按钮会在 Power BI 中打开“更新应用”页，以便任何内容更新都可供应用用户使用。
 
 [![在生产阶段右下角突出显示“更新应用”按钮的屏幕截图。](media/deployment-pipelines-process/update-app.png)](media/deployment-pipelines-process/update-app.png#lightbox)
 

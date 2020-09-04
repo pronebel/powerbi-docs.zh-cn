@@ -10,12 +10,12 @@ ms.topic: how-to
 ms.date: 05/26/2020
 ms.author: davidi
 LocalizationGroup: Reports
-ms.openlocfilehash: 1e1e9afcbcae300e12580fb5f54bdb53e7822c03
-ms.sourcegitcommit: e9cd61eaa66eda01cc159251d7936a455c55bd84
+ms.openlocfilehash: 1605e6108b990c95a995eadd9a6b3d03260001f5
+ms.sourcegitcommit: 13c4bec679313f2951f1833033316cb8176da8a1
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/23/2020
-ms.locfileid: "86952704"
+ms.lasthandoff: 08/26/2020
+ms.locfileid: "88937484"
 ---
 # <a name="analyze-in-excel"></a>在 Excel 中分析
 借助“在 Excel 中分析”，可以将 Power BI 数据集引入到 Excel 中，然后使用数据透视表、图表、切片器和其他 Excel 功能查看这些数据集并与其交互。 若要使用“在 Excel 中分析”必须先从 Power BI 下载并安装该功能，然后选择一个或多个要在 Excel 中使用的数据集。 
@@ -44,7 +44,7 @@ ms.locfileid: "86952704"
 
 也可以从 Power BI 服务中导航到要分析的数据集，然后为数据集、报表或其他 Power BI 项选择“更多选项”。 从显示的菜单中，选择“在 Excel 中分析”选项，如下图所示。
 
-![在 Excel 中分析](media/service-analyze-in-excel/analyze-excel-01.png)
+![数据集中的“在 Excel 中分析”](media/service-analyze-in-excel/analyze-excel-01.png)
 
 无论采用哪种方式，Power BI 都将检测是否已安装“在 Excel 中分析”，如果未安装，则会提示你下载它。 
 
@@ -56,7 +56,7 @@ ms.locfileid: "86952704"
 
 下载完成后，运行安装程序 (.msi)，安装“在 Excel 中分析”。 安装进程的名称不同于“在 Excel 中分析”；该名称将为“Microsoft Analysis Services OLE DB Provider”（如下图所示）或类似的内容。
 
-![正在安装更新](media/service-analyze-in-excel/analyze-excel-05.png)
+![安装 Analysis Services OLE DB 提供程序的更新](media/service-analyze-in-excel/analyze-excel-05.png)
 
 安装完成后，就可以从 Power BI 服务中选择报表（或数据集等其他 Power BI 数据元素），然后在 Excel 中进行分析。
 
@@ -80,6 +80,9 @@ ms.locfileid: "86952704"
     ![下载 Excel 文件](media/service-analyze-in-excel/analyze-in-excel-download-xlsx.png)
 
     文件名与它派生自的数据集（或报表以及其他数据源）相匹配。 因此，如果报表叫做“季度报表”，则下载的文件将为“季度报表.xlsx”。
+
+    >[!Note]
+    >“在 Excel 中分析”现在会下载 Excel 文件，而不是 ODC 文件。 这样就可以对从 Power BI 导出的数据进行数据保护。 下载的 Excel 文件继承了为“在 Excel 中分析”选择的数据集的敏感度标签。
 
 3. 启动 Excel 文件。
 

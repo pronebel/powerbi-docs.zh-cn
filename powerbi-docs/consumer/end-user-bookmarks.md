@@ -6,15 +6,15 @@ ms.reviewer: mihart
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: how-to
-ms.date: 02/18/2020
+ms.date: 08/26/2020
 ms.author: mihart
 LocalizationGroup: Create reports
-ms.openlocfilehash: f8bd09bd55694bbd7c6a991d502dde45dad5f2e4
-ms.sourcegitcommit: c18130ea61e67ba111be870ddb971c6413a4b632
+ms.openlocfilehash: f865815c76df179c87c1487e1243c37108375167
+ms.sourcegitcommit: 13c4bec679313f2951f1833033316cb8176da8a1
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/09/2020
-ms.locfileid: "86162057"
+ms.lasthandoff: 08/26/2020
+ms.locfileid: "88937652"
 ---
 # <a name="what-are-bookmarks"></a>什么是书签？
 
@@ -29,18 +29,24 @@ ms.locfileid: "86162057"
 
 你也可以创建一系列书签，按所需的顺序对其进行排列，随后在演示文稿中逐个展示所有书签，以突出显示一系列讲述故事的见解。  
 
-![在功能区中选择“书签”，即可显示“书签”窗格。](media/end-user-bookmarks/power-bi-select-bookmark.png)
+![在功能区中选择“书签”，即可显示“书签”窗格。](media/end-user-bookmarks/power-bi-bookmark-icon.png)
 
 ## <a name="open-bookmarks"></a>打开书签
-若要打开“书签”窗格，请从菜单栏中选择“书签” > “显示多个书签” 。 要返回到报表的原始发布视图，请选择“重置为默认值”。
+若要打开“书签”窗格，请从菜单栏中选择“书签” > “显示多个书签” 。 
+
+![打开了“书签”窗格的报表画布的屏幕截图。](media/end-user-bookmarks/power-bi-show-bookmarks.png)
+
+若要返回到报表的原始发布视图，请选择“重置”图标。
+
+![选中了“恢复”图标的屏幕截图](media/end-user-bookmarks/power-bi-revert.png)
 
 ### <a name="report-bookmarks"></a>报表书签
-如果报表设计器包含报表书签，可在“报表书签”标题下找到它们。 此报表页具有两个书签 B1 和 B2。 
+如果报表设计器包含报表书签，可在“报表书签”标题下找到它们。 此报表页包含四个书签：B1、B2、VanArsdel YTD 和 All YTD。 当前已选中“All YTD”。
 
 > [!NOTE]
 > 需要 Power BI Pro 或 Premium 才能查看共享的报表。 
 
-![显示报表书签。](media/end-user-bookmarks/power-bi-report.png)
+![显示报表书签。](media/end-user-bookmarks/power-bi-bookmark-list.png)
 
 选择要更改为该报表视图的书签。 
 
@@ -48,7 +54,7 @@ ms.locfileid: "86162057"
 
 ### <a name="personal-bookmarks"></a>个人书签
 
-创建书签时，以下元素将与书签一起保存：
+如果可以查看报表，则还可以添加个人书签。  创建书签时，以下元素将与书签一起保存：
 
 * 当前页
 * 筛选器
@@ -59,15 +65,21 @@ ms.locfileid: "86162057"
 * 可见性（对象可见性，使用“选择”窗格）
 * 任何可见对象的“焦点”或“聚焦”模式
 
-配置报表页，确保它在书签中的显示效果符合自己的要求。 按照所需方式排列报表页和视觉对象后，选择“书签”窗格中的“添加”，添加一个书签。 在此示例中，我们为区域和日期添加了一些筛选器。 
+配置报表页，确保它在书签中的显示效果符合自己的要求。 在此示例中：
 
-![添加个人书签。](media/end-user-bookmarks/power-bi-bookmark-personal.png)
+1. 已在“筛选器”窗格中更改了现有日期筛选器，
+1. 已在“筛选器”窗格中更改了现有区域筛选器，以及
+1.  已在圆环图视觉对象上选择了数据点来交叉筛选和交叉突出显示报表画布。 
+
+按照所需方式排列报表页和视觉对象后，选择“书签”窗格中的“添加”，添加一个书签。 
+
+![添加个人书签。](media/end-user-bookmarks/power-bi-personal.png)
 
 **Power BI** 会创建个人书签，并为其提供通用名称或输入的名称。 通过选择书签名称旁边的省略号，然后从出现的菜单中选择相应操作，即可*重命名*、*删除*或*更新*书签。
 
-添加书签后，只需单击“书签”窗格中的书签，即可显示它。 
+添加书签后，通过选择“书签”窗格中的书签来显示它。 
 
-![添加个人书签。](media/end-user-bookmarks/power-bi-bookmark-west.png)
+![通过选择来显示特定书签。](media/end-user-bookmarks/power-bi-selected.png)
 
 
 <!--
@@ -91,7 +103,7 @@ The order of your bookmarks can become important when you use the **View** featu
 - 书签标题栏中的箭头可用于移到下一个或上一个书签。
 - 可以退出“查看”模式，具体方法为选择“书签”窗格中的“退出”，或选择书签标题栏中的“X”。
 
-![书签幻灯片放映](media/end-user-bookmarks/power-bi-slideshow.png)
+![书签幻灯片放映](media/end-user-bookmarks/power-bi-view-bookmarks.png)
 
 在“查看”模式下，可以关闭“书签”窗格（单击此窗格上的“X”），为演示文稿提供更多空间。 同时，在“查看”模式下，所有视觉对象都可以进行交互和交叉突出显示，就像在其他情况下与它们交互时一样。 
 

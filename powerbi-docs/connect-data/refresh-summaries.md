@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: how-to
-ms.date: 05/18/2020
+ms.date: 08/27/2020
 ms.author: davidi
 LocalizationGroup: Data refresh
-ms.openlocfilehash: 7a1fabd1c61219d7f195253a4384accfd2521d24
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 44aeb5030008d17a9998e8357f23d47524f11512
+ms.sourcegitcommit: 1aaa742c239a3119cdaad698be5a7553b68801fa
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85235993"
+ms.lasthandoff: 08/27/2020
+ms.locfileid: "89040215"
 ---
 # <a name="refresh-summaries-for-power-bi"></a>Power BI 的刷新摘要
 
@@ -60,6 +60,8 @@ Power BI 管理门户中的 Power BI“刷新摘要”页提供对刷新计划�
 ![“计划”视图](media/refresh-summaries/refresh-summaries-02.jpg)
 
 “刷新已预订时间(分钟)”列是对每个关联数据集的最多 60 条记录求平均值计算的结果。 每个 30 分钟时间段的数值是对计划在该时间段开始的所有计划刷新以及设置为在前一个时间段开始的任何计划刷新计算的分钟总和，但其平均持续时间会溢出到所选时间段。
+
+“刷新空闲时间(分钟)”列是计算在每个时间段内可供刷新的分钟数减去已计划在该时间段内刷新的分钟数的结果。 例如，如果你的 P2 订阅提供 12 个并发运行的刷新，则你会有 12 个 30 分钟的时间段，因此 12 次刷新 x 每次 30 分钟 = 在该时间段内可供刷新 360 分钟。 如果在该时间段内预定了一次需要 20 分钟的刷新，则该时间段内的“刷新空闲时间(分钟)”为 340 分钟（总可用分钟数 360 减去已预定的分钟数 20 = 仍可用分钟数 340）。 
 
 可以选择一个时间段，然后选择关联的“详细信息”按钮，以查看哪些计划的刷新事件会影响预定的刷新时间、其所有者以及完成时间。
 

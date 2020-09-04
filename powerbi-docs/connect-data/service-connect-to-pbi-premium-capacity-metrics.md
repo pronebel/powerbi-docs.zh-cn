@@ -8,12 +8,12 @@ ms.topic: how-to
 ms.date: 05/18/2020
 ms.author: painbar
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 612c54a201c947309394c442ba8b8ec1ed567879
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: eb8d7d59e52414620aa888230af59ef98da9e5af
+ms.sourcegitcommit: 13c4bec679313f2951f1833033316cb8176da8a1
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85229954"
+ms.lasthandoff: 08/26/2020
+ms.locfileid: "88937622"
 ---
 # <a name="connect-to-power-bi-premium-capacity-metrics"></a>连接到 Power BI Premium Capacity Metrics
 监视容量对于正确决定如何充分利用高级容量资源至关重要。 Power BI Premium Capacity Metrics 应用提供有关容量表现的深度信息。
@@ -63,6 +63,7 @@ ms.locfileid: "85229954"
 1. 在出现的对话框中，设置 UTC 时差，即协调世界时与你所在位置的时间之间的小时差。 然后，单击“**下一步**”。
   
    ![Power BI Premium Capacity Metrics 应用的“设置 UTC”对话框](media/service-connect-to-pbi-premium-capacity-metrics/service-pbi-premium-capacity-metrics-app-setutc-dialog.png)
+   注意：**** 半小时的格式应是十进制（例如，5.5、2.5等）。
 
 1. 在出现的下一个对话框中，无需执行任何操作。 只需选择“登录”。
 

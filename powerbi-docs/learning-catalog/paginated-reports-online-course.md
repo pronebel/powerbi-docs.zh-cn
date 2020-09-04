@@ -9,12 +9,12 @@ ms.subservice: report-builder
 ms.topic: tutorial
 ms.date: 03/18/2020
 ms.author: v-pemyer
-ms.openlocfilehash: d4d5386a7e56618a761e541ba7942778a09a7008
-ms.sourcegitcommit: aece2382b618dc5b730705b4c76e76a657986588
+ms.openlocfilehash: 533dba01bb975d774741643771415aaafa8f155c
+ms.sourcegitcommit: 70a892df1a0c196db58bf9165b3aa31b26bbe149
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/04/2020
-ms.locfileid: "84427494"
+ms.lasthandoff: 08/29/2020
+ms.locfileid: "89092282"
 ---
 # <a name="power-bi-paginated-reports-in-a-day-course"></a>《一天玩转 Power BI 分页报表》课程
 
@@ -83,28 +83,29 @@ ms.locfileid: "84427494"
 
 可以下载并设置一个自学工具包，其中包括演示内容和八个动手实验：
 
-1. 使用[此链接](https://aka.ms/priad-student)将自学工具包 (.zip) 以本地方式下载到你的电脑。
-1. 打开文件属性，并选中“取消阻止”（Windows 可能会将该文件标记为潜在不受信任的文件）。
-1. 将文件内容提取到文件系统中的文件夹中。 建议创建一个易于查找的文件夹，可将其命名为“训练”。 实验文档将此位置称为“&lt;CourseFolder&gt;”。
+1. 使用[此链接](https://aka.ms/priad-student)将自学工具包 (.zip) 以本地方式下载到你的电脑（Windows 7 或更高版本）。
+1. 打开 zip 文件的文件属性，并选中“取消阻止”（Windows 可能会将该文件标记为潜在不受信任的文件）。
+1. 创建根课程文件夹。 建议将其命名为诸如“C:\Training”等名称。 记住此位置，因为你将需要在实验室期间访问课程文件。 所有实验室文档都将此位置称为“&lt;CourseFolder&gt;”。
+1. 将 PowerBIPRIAD-Student.zip 文件内容提取到根课程文件夹。
+1. 在 &lt;CourseFolder&gt;\PowerBIPRIAD 文件夹中，打开 ReadMe.txt 文件并完成安装说明。
 
-提取后，将生成“PowerBIPRIAD”文件夹，在其中可找到以下文件夹：
-
-- Lab01A（和所有其他实验文件夹）。 实验文件夹包含实验文档和实验资源，其中可能包括资源和解决方案文件。
-- **MySolution**：此文件夹存储解决方案文件。 实验说明将说明何时使用它。
-- **演示**：此文件夹包含课程演示文稿文件，可作为 PDF 文档使用。
-
-### <a name="get-started-with-the-kit"></a>工具包入门
-
-建议先观看在线课程。 打开 &lt;CourseFolder&gt;\PowerBIPRIAD\Presentation\PowerBIPRIAD_Presentation.pdf 文件，可以重新参考演示文稿理论。 该演示文稿包括八张实验幻灯片，这些幻灯片表明何时该将理论付诸实践。 它还包含许多资源链接，可帮助你查找相关内容。
-
-当准备开始第一个实验时，请打开 &lt;CourseFolder&gt;\PowerBIPRIAD\Lab01A\PowerBIPRIAD_Lab01A.pdf 文件。 本文档将介绍如何登录 Power BI 服务，上传数据集，然后安装 [Power BI 报表生成器](https://aka.ms/pbireportbuilder)。
+> [!TIP]
+> Readme.txt 文件、实验室文档和演示文稿文件 (PDF) 提供英文版本，还提供以下八种语言版本：
+> - 德语 (de-DE)
+> - 西班牙语 (es-ES)
+> - 法语 (fr-FR)
+> - 意大利语 (it-IT)
+> - 日语 (ja-JP)
+> - 韩语 (ko-KR)
+> - 巴西葡萄牙语 (pt-BR)
+> - 简体中文字符 (zh-CN)
 
 > [!NOTE]
 > 需要拥有自己的 Power BI 帐户。 如果还没有帐户，请参阅[以个人身份注册 Power BI](../fundamentals/service-self-service-signup-for-power-bi.md)。
 >
 > 必须登录 Power BI 才能将 Power BI Desktop 文件发布到工作区。 发布内容将生成用作报表数据源的数据集。 将数据集用作报表数据源不需要 Power BI Pro 许可证或 Power BI Premium 订阅。
 >
-> 有些实验任务涉及将分页报表发布到工作区。 只有将分页报表保存到[专用容量](../admin/service-premium-what-is.md#dedicated-capacities)上的工作区（启用了分页报表工作负载）时，才能打开该报表。 如果无法访问合适的工作区，系统将提供一个链接，用于观看演示报表发布的视频。
+> 有些实验任务涉及将分页报表发布到工作区。 只有将分页报表保存到[专用容量](../admin/service-premium-what-is.md#dedicated-capacities)上的工作区（启用了分页报表工作负载）时，才能打开该报表。 如果无法访问合适的工作区，实验室将为你提供一个链接，用于观看演示报表发布的视频。
 
 ## <a name="instructor-kit"></a>Instructor 工具包
 

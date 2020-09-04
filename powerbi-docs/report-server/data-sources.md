@@ -8,15 +8,15 @@ ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 08/04/2020
 ms.author: maggies
-ms.openlocfilehash: 9dface817b9ec5421ba9ea93abb8037e3e70029d
-ms.sourcegitcommit: 4130e5e6947b809df628370cc80c00194243468d
+ms.openlocfilehash: 08294e1320e603131beb0ca332b0f85ee51ea8bb
+ms.sourcegitcommit: 13c4bec679313f2951f1833033316cb8176da8a1
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/25/2020
-ms.locfileid: "88857798"
+ms.lasthandoff: 08/26/2020
+ms.locfileid: "88937553"
 ---
 # <a name="power-bi-report-data-sources-in-power-bi-report-server"></a>Power BI 报表服务器中 Power BI 报表数据源
-Power BI 报表可以连接到多个数据源。 根据数据使用方式，可以提供不同的数据源。 可以导入数据，或者可以直接使用 DirectQuery 或与 SQL Server Analysis Services 的实时连接查询数据。 针对 Power BI 报表服务器优化，但并未针对发布到 Power BI 报表服务器的 Power BI 报表优化的 Power BI Desktop 支持某些数据源。 有关两个位置中支持的数据源，请参阅以下列表。
+Power BI 报表可以连接到多个数据源。 根据数据使用方式，可以提供不同的数据源。 可以导入数据，或者可以直接使用 DirectQuery 或与 SQL Server Analysis Services 的实时连接查询数据。 针对 Power BI 报表服务器优化的 Power BI Desktop 支持某些数据源，但在发布到 Power BI 报表服务器时不支持这些数据源。
 
 这些数据源特定于 Power BI 报表服务器中使用的 Power BI 报表。 有关分页报表 (.rdl) 支持的数据源的信息，请参阅 [Reporting Services 支持的数据源](https://docs.microsoft.com/sql/reporting-services/report-data/data-sources-supported-by-reporting-services-ssrs)。
 
@@ -43,7 +43,7 @@ Power BI 报表可以连接到多个数据源。 根据数据使用方式，可�
 | Azure 表存储 |是 |是 |否 |
 | Dynamics 365 (联机) |是 |否 |否 |
 | Facebook |是 |否 |否 |
-| 文件夹 |是 |是 |否 |
+| Folder |是 |是 |否 |
 | Google Analytics |是 |否 |否 |
 | Hadoop 文件 (HDFS) |是 |否 |否 |
 | IBM DB2 数据库 |是 |是 |否 |

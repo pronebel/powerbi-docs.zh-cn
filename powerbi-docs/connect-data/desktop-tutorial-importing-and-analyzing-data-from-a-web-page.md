@@ -10,12 +10,12 @@ ms.topic: tutorial
 ms.date: 01/13/2020
 ms.author: davidi
 LocalizationGroup: Learn more
-ms.openlocfilehash: 4321ed284a6db7b4ed021c51d9fa1abe6752b75a
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: 3778b1fcd4841902588df89ce785e65bec2bd3dc
+ms.sourcegitcommit: 70a892df1a0c196db58bf9165b3aa31b26bbe149
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83348611"
+ms.lasthandoff: 08/29/2020
+ms.locfileid: "89092351"
 ---
 # <a name="tutorial-analyze-webpage-data-by-using-power-bi-desktop"></a>教程：使用 Power BI Desktop 分析网页数据
 
@@ -169,7 +169,7 @@ ms.locfileid: "83348611"
 
 1. 选择可视化效果后，选择“格式”  图标，然后选择“数据颜色”  以展开数据颜色选项。
 
-   ![设置数据颜色的格式](media/desktop-tutorial-importing-and-analyzing-data-from-a-web-page/get-data-web15.png)
+   ![格式图标和数据颜色选择](media/desktop-tutorial-importing-and-analyzing-data-from-a-web-page/get-data-web15.png)
 
 1. 将“全部显示”  设为“开启”  ，选择“西德”旁的下拉菜单  ，然后选择黄色。
 
@@ -179,7 +179,7 @@ ms.locfileid: "83348611"
 
 1. 将“字体颜色”  更改为红色，将“文本大小”  更改为 12，将“字体系列”  更改为“Segoe (Bold)”   。
 
-   ![设置数据颜色的格式](media/desktop-tutorial-importing-and-analyzing-data-from-a-web-page/get-data-web17.png)
+   ![字体颜色、大小和系列](media/desktop-tutorial-importing-and-analyzing-data-from-a-web-page/get-data-web17.png)
 
 现在你的地图可视化效果类似如下所示：
 
@@ -201,7 +201,7 @@ Power BI Desktop 提供无缝的端到端体验（从各种数据源获取数据
 
 ## <a name="see-also"></a>另请参阅
 
-* [阅读其他 Power BI Desktop 教程](/power-bi/guided-learning/)
+* [针对 Power BI 的 Microsoft Learn](https://docs.microsoft.com/learn/powerplatform/power-bi?WT.mc_id=powerbi_landingpage-docs-link)
 * [观看 Power BI Desktop 视频](../fundamentals/desktop-videos.md)
 * [访问 Power BI 论坛](https://go.microsoft.com/fwlink/?LinkID=519326)
 * [阅读 Power BI 博客](https://go.microsoft.com/fwlink/?LinkID=519327)

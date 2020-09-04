@@ -10,12 +10,12 @@ ms.topic: how-to
 ms.date: 07/01/2020
 ms.author: mihart
 LocalizationGroup: Share your work
-ms.openlocfilehash: 2cffd2b9913773e7f29d1afa960209ddeddd3583
-ms.sourcegitcommit: b60063c49ac39f8b28c448908ecbb44b54326335
+ms.openlocfilehash: 1153b20e77958bbecce9284add3ae7eab21cd47d
+ms.sourcegitcommit: 1aaa742c239a3119cdaad698be5a7553b68801fa
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/12/2020
-ms.locfileid: "88160409"
+ms.lasthandoff: 08/27/2020
+ms.locfileid: "89040272"
 ---
 # <a name="export-reports-to-powerpoint"></a>将报表导出到 PowerPoint
 
@@ -49,6 +49,8 @@ ms.locfileid: "88160409"
 ![选择要导出的内容](media/end-user-powerpoint/power-bi-current-values.png)
  
 此外，还有一个复选框，用于选择是否导出报表的隐藏选项卡。 如果只想导出浏览器中对你可见的报表选项卡，请选中此复选框。 如果希望将所有隐藏选项卡作为导出的一部分，则不选中此选复选框。 如果该复选框显示为灰色，则报表中没有隐藏选项卡。 工具提示选项卡是隐藏选项卡的一个示例。[自定义工具提示](../create-reports/desktop-tooltips.md)由报表设计者创建，且不向客户显示为 Power BI 服务的报表选项卡 。 
+
+还可以通过选中“仅导出当前页面”选项来选择仅导出在报表中查看的当前页面。  默认情况下，此选项处于未选中状态，所有页面都将从报表中导出。
 
 完成选择后，选择“导出”以继续。 将看到 Power BI 服务浏览器窗口右上角的通知横幅，显示报表正在导出到 PowerPoint。 
 
