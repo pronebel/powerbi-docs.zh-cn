@@ -8,12 +8,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 08/20/2020
 ms.author: v-pemyer
-ms.openlocfilehash: 58eb9af4975c0afeb12a71a880711ddd73e64d50
-ms.sourcegitcommit: 84e75a2cd92f4ba4e0c08ba296b981b79d6d0e82
+ms.openlocfilehash: 59f340e6325cf846d1b0453a94a1015b50a987c4
+ms.sourcegitcommit: ffc46032d0771227395cc38be9ec9ff1500eac70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/25/2020
-ms.locfileid: "88803152"
+ms.lasthandoff: 09/02/2020
+ms.locfileid: "89401993"
 ---
 # <a name="deploy-to-power-bi"></a>部署到 Power BI
 
@@ -87,7 +87,7 @@ UAT 涉及的业务用户通常是主题专家。 经过验证后，他们将批
 
 - **变更管理：** 如果需要，请获得部署批准，并使用标准变更管理实践将部署信息传达给用户群体。 可能会有一个经批准的变更管理时段，在此期间允许生产环境部署。 它通常用于 IT 管理的内容，而很少用于自助服务内容。
 - **回滚计划：** 对于迁移，预期是第一次迁移新解决方案。 如果内容已经存在，明智的做法是规划将内容还原为以前的版本（如果需要）。 保有以前版本的 Power BI Desktop 文件（使用 SharePoint 或 OneDrive 版本控制）可以很好地实现这一目的。
-- **字符串和参数：** 如果测试环境和生产环境的数据源不同，请调整数据集连接字符串。 可以有效使用[参数化](/connect-data/service-parameters.md)来帮助实现此目的。
+- **字符串和参数：** 如果测试环境和生产环境的数据源不同，请调整数据集连接字符串。 可以有效使用[参数化](../connect-data/service-parameters.md)来帮助实现此目的。
 - **数据刷新：** 为任何导入的数据集[安排数据集刷新](../connect-data/refresh-scheduled-refresh.md)。
 - **工作区内容：** 将数据集和报表发布到生产工作区，并创建仪表板。 如果你的内容已发布到高级容量中的工作区，可通过[部署管道](../create-reports/deployment-pipelines-overview.md)简化部署到开发、测试和生产工作区的过程。
 - **应用：** 如果应用是内容分发策略的一部分，请使用生产工作区中的内容发布一个[应用](../consumer/end-user-apps.md)。

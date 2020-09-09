@@ -8,12 +8,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 08/20/2020
 ms.author: v-pemyer
-ms.openlocfilehash: 29b821dc44f7eacb07f0df31100df2ff837c2189
-ms.sourcegitcommit: 84e75a2cd92f4ba4e0c08ba296b981b79d6d0e82
+ms.openlocfilehash: 60a22946ccde642987e748904d0dc7fe636ec700
+ms.sourcegitcommit: ffc46032d0771227395cc38be9ec9ff1500eac70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/25/2020
-ms.locfileid: "88803119"
+ms.lasthandoff: 09/02/2020
+ms.locfileid: "89401970"
 ---
 # <a name="gather-requirements-to-migrate-to-power-bi"></a>收集迁移到 Power BI 的要求
 
@@ -67,7 +67,7 @@ ms.locfileid: "88803119"
 - **数据结构和清理需求：** 确定每个必备数据源的数据结构，以及[数据清理](../transform-model/desktop-query-overview.md)活动的必要性。
 - **数据集成：** 评估当有多个数据源时如何处理数据集成，以及如何定义每个模型表之间的[关系](../transform-model/desktop-create-and-manage-relationships.md)。 确定用于简化模型和[减小其大小](import-modeling-data-reduction.md)的特定数据元素。
 - **可接受的数据延迟：** 确定每个数据源的数据延迟需求。 它将影响有关使用哪些[数据存储模式](../transform-model/desktop-storage-mode.md)的决策。 还应了解导入模型表的数据刷新频率。
-- **数据量和可伸缩性：** 预估数据量，这会影响有关[大型模型支持](/admin/service-premium-large-models.md)和设计 DirectQuery 或[复合模型](../transform-model/desktop-composite-models.md)的决策。 了解与历史数据需求相关的注意事项也很有必要。 对于较大的数据集，还需要确定[增量数据刷新](../admin/service-premium-incremental-refresh.md)规则。
+- **数据量和可伸缩性：** 预估数据量，这会影响有关[大型模型支持](../admin/service-premium-large-models.md)和设计 DirectQuery 或[复合模型](../transform-model/desktop-composite-models.md)的决策。 了解与历史数据需求相关的注意事项也很有必要。 对于较大的数据集，还需要确定[增量数据刷新](../admin/service-premium-incremental-refresh.md)规则。
 - **度量值、KPI 和业务规则：** 评估对度量值、KPI 和业务规则的需求。 它们将对有关逻辑应用时机的决策产生影响：是在数据集还是数据集成过程中应用。
 - **主数据和数据目录：** 考虑是否存在需要注意的主数据问题。 确定与企业数据目录的集成对于提高可发现性、访问定义或生成组织接受的一致术语是否合适。
 - **安全性和数据隐私：** 确定是否有需要考虑的有关数据集的任何特定的安全性或数据隐私的注意事项，包括[行级别安全性](../admin/service-admin-rls.md)要求。

@@ -9,12 +9,12 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 12/11/2018
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 6683efbf9fa9dea9215914c097f249362fbffff2
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: b969fa3dd04f25c8921db563a89b11125216c752
+ms.sourcegitcommit: ffc46032d0771227395cc38be9ec9ff1500eac70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83278804"
+ms.lasthandoff: 09/02/2020
+ms.locfileid: "89401947"
 ---
 # <a name="organizational-visuals-in-power-bi"></a>Power BI 中的组织视觉对象
 
@@ -32,7 +32,7 @@ Power BI 管理员从“管理”门户部署和管理组织视觉对象。 视�
 
 ## <a name="administer-organizational-power-bi-visuals"></a>管理组织 Power BI 视觉对象
 
-若要详细了解如何执行、部署和管理组织中的组织 Power BI 视觉对象，请参阅以下文章：[详细了解如何部署和管理组织 Power BI 视觉对象](https://go.microsoft.com/fwlink/?linkid=866790)。
+若要详细了解如何执行、部署和管理组织中的组织 Power BI 视觉对象，请参阅以下文章：[详细了解如何部署和管理组织 Power BI 视觉对象](../../admin/organizational-visuals.md)。
 
 > [!WARNING]
 > 通过文件安装的 Power BI 视觉对象可能包含存在安全或隐私风险的代码。 在将 Power BI 视觉对象文件部署到组织存储库之前，请确保你信任它的作者和源。
