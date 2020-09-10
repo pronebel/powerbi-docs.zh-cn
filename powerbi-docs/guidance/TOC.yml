@@ -118,6 +118,8 @@
               href: report-performance-troubleshoot.md
             - name: 部署管道最佳做法
               href: ../create-reports/deployment-pipelines-best-practices.md
+            - name: 访问 Power BI 活动日志
+              href: admin-activity-log.md
     - name: 迁移到 Power BI
       items:
         - name: 迁移概述
