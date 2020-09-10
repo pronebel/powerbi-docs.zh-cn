@@ -12,12 +12,12 @@ metadata:
   author: maggiesMSFT
   ms.author: maggies
   ms.date: 01/14/2020
-  ms.openlocfilehash: 33affa71190eb7441822dd57d9e50feb9f7fead1
-  ms.sourcegitcommit: 84e75a2cd92f4ba4e0c08ba296b981b79d6d0e82
+  ms.openlocfilehash: f31cda77af94a087815906666e3b4791309368b1
+  ms.sourcegitcommit: 2cf8159535c114045e236c076a711638cfd7d2c8
   ms.translationtype: HT
   ms.contentlocale: zh-CN
-  ms.lasthandoff: 08/25/2020
-  ms.locfileid: "88803011"
+  ms.lasthandoff: 09/07/2020
+  ms.locfileid: "89511909"
 landingContent:
 - title: Power BI 指南
   linkLists:
@@ -139,6 +139,8 @@ landingContent:
       url: report-performance-troubleshoot.md
     - text: 部署管道最佳做法
       url: ../create-reports/deployment-pipelines-best-practices.md
+    - text: 访问 Power BI 活动日志
+      url: admin-activity-log.md
 - title: 迁移到 Power BI
   linkLists:
   - linkListType: concept
