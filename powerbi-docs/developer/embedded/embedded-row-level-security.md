@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 06/10/2019
-ms.openlocfilehash: b412af6899b9299fc4fde8ea217569747a445e45
-ms.sourcegitcommit: 52f365af6ea5359e39d4d4547f1d61e5e0d08c5f
+ms.openlocfilehash: e2e2f924f190b7c5904cfe29d1d3cae341974f38
+ms.sourcegitcommit: ffc46032d0771227395cc38be9ec9ff1500eac70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/16/2020
-ms.locfileid: "84795130"
+ms.lasthandoff: 09/02/2020
+ms.locfileid: "89402039"
 ---
 # <a name="row-level-security-with-power-bi-embedded"></a>Power BI Embedded 的行级安全性
 
@@ -66,11 +66,11 @@ RLS 在 Power BI Desktop 中进行编写。 当打开数据集和报表时，我
 3. 在“地区”表中，输入以下 DAX 表达式：[District Manager] = USERNAME()。
 
     ![RLS 规则的 DAX 语句](media/embedded-row-level-security/powerbi-embedded-new-role-dax.png)
-4. 为了确保这些规则能够生效，请在“建模”选项卡上选择“以角色身份查看”，再选中已创建的“经理”角色和“其他用户”。 输入 AndrewMa 作为用户。
+4. 为了确保这些规则能够生效，请在“建模”选项卡上选择“以角色身份查看”，再选中已创建的“经理”角色和“其他用户”。 输入 Andrew Ma**** 作为用户。
 
     ![“以角色身份查看”对话框](media/embedded-row-level-security/powerbi-embedded-new-role-view.png)
 
-    此时，报表显示数据，就像你是以 AndrewMa 身份登录时一样。
+    此时，报表显示数据，就像你是以 Andrew Ma 身份登录时一样。
 
 应用该筛选器（我们此处进行的操作）筛选出“地区”、“商店”和“销售”表中的所有记录。 不过，鉴于“销售额”和“时间”之间关系的筛选方向，“销售额”和“项”以及“项”和“时间”表不会进行通篇筛选。 要了解有关双向交叉筛选的详细信息，请下载 [SQL Server Analysis Services 2016 和 Power BI Desktop 中的双向交叉筛选](https://download.microsoft.com/download/2/7/8/2782DF95-3E0D-40CD-BFC8-749A2882E109/Bidirectional%20cross-filtering%20in%20Analysis%20Services%202016%20and%20Power%20BI.docx)白皮书。
 

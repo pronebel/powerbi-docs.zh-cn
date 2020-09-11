@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: how-to
-ms.date: 05/20/2020
+ms.date: 09/04/2020
 LocalizationGroup: Premium
-ms.openlocfilehash: c62ee84c919e5910d1c1c9e111f19c7b74889b04
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 1b0f63d200a94cb7e6524602203864281efe51c0
+ms.sourcegitcommit: 1f56cdfc05801ffaf41e3b68dc1eb02142acdab3
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85227203"
+ms.lasthandoff: 09/04/2020
+ms.locfileid: "89490344"
 ---
 # <a name="automate-premium-workspace-and-dataset-tasks-with-service-principals"></a>使用服务主体自动完成 Premium 工作区和数据集任务
 
@@ -63,11 +63,11 @@ Power BI Premium 使用与 Power BI Embedded 相同的服务主体功能。 有�
 
 1. 在 Power BI 服务的工作区中选择“更多” > “工作区访问” 。
 
-    ![工作区设置](media/service-premium-service-principal/workspace-access.png)
+    ![工作区访问设置](media/service-premium-service-principal/workspace-access.png)
 
 2. 按应用程序的名称进行搜索，以“管理员”或“成员”身份将服务主体添加到工作区 。
 
-    ![工作区管理员](media/service-premium-service-principal/add-service-principal-in-the-UI.png)
+    ![访问对话框](media/service-premium-service-principal/add-service-principal-in-the-UI.png)
 
 ## <a name="connection-strings-for-the-xmla-endpoint"></a>XMLA 终结点的连接字符串
 
@@ -96,7 +96,7 @@ Invoke-ProcessTable -Server "powerbi://api.powerbi.com/v1.0/myorg/myworkspace" -
 
 ### <a name="amo-and-adomd"></a>AMO 和 ADOMD
 
-通过客户端应用程序和 Web 应用进行连接时，由 NuGet 提供的 [AMO 和 ADOMD 客户端库](https://docs.microsoft.com/azure/analysis-services/analysis-services-data-providers) 15.0.2 及更高版本的可安装包支持在连接字符串中使用服务主体，可以使用 `app:AppID` 语法以及密码或 `cert:thumbprint`。
+通过客户端应用程序和 Web 应用进行连接时，由 NuGet 提供的 [AMO 和 ADOMD 客户端库](https://docs.microsoft.com/azure/analysis-services/analysis-services-data-providers) 15.1.42.26（2020 年 6 月）及更高版本的可安装包支持在连接字符串中使用服务主体，可以使用 `app:AppID` 语法以及密码或 `cert:thumbprint`。
 
 以下示例使用 `appID` 和 `password` 执行模型数据库刷新操作：
 

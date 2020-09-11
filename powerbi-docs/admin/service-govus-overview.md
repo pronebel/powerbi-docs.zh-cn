@@ -6,16 +6,16 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 06/02/2020
+ms.date: 09/02/2020
 ms.author: kfollis
 ms.custom: licensing support
 LocalizationGroup: Get started
-ms.openlocfilehash: 75b05449de47f39fc95fd7cf42f9325b7a5d0ee9
-ms.sourcegitcommit: f73ea4b9116ad186817ec5cc5d5f487d49cc0cb0
+ms.openlocfilehash: 2b5481e3d0b84f81a9cdee827df27c90e32a7e84
+ms.sourcegitcommit: ae9e698b082598f37242080a3ad3dd0b3be08478
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "88638764"
+ms.lasthandoff: 09/04/2020
+ms.locfileid: "89474783"
 ---
 # <a name="power-bi-for-us-government-customers"></a>适用于美国政府客户的 Power BI
 
@@ -33,6 +33,14 @@ ms.locfileid: "88638764"
 > 如果已将 Power BI 部署到商业环境中并想要迁移到美国政府云，则需要将新的 Power BI Pro 订阅添加到 Microsoft 365 政府版计划中。 接下来，将商业数据复制到适用于美国政府的 Power BI 服务，从用户帐户中删除商业许可证分配，然后将 Power BI Pro 政府版许可证分配给用户帐户。
 >
 >
+### <a name="buy-a-power-bi-pro-subscription-for-government-customers"></a>购买适用于政府客户的 Power BI Pro 订阅
+
+部署 Microsoft 365 后，可以添加 Power BI Pro 订阅。 按照[注册美国政府组织](service-govus-signup.md)中的分步指南来购买 Power BI Pro 政府版服务。 为需要使用 Power BI 的所有用户购买足够的许可证，然后将这些许可证分配给单个用户帐户。
+
+> [!IMPORTANT]
+> Power BI 美国政府版不可用作免费许可证。 若要访问政府社区云，必须为每个用户分配 Pro 许可证。 如果为用户帐户分配了免费许可证，则用户只能访问商业云，并会遇到身份验证和访问权限问题。 如果你已购买 Power BI Premium，则你无需分配 Pro 许可证即可启用用户访问权限。  只要将报表发布到 Premium 容量，组织中的用户都可以访问与他们共享的报表。 若要查看许可证类型之间的差异，请参阅[按许可证类型划分 Power BI 服务功能](../fundamentals/service-features-license-type.md)。
+>
+
 ## <a name="government-cloud-instances"></a>政府云实例
 
 Microsoft 365 为政府机构提供不同的环境，以满足不同的符合性要求。 有关每个环境的详细信息，请参阅：
@@ -53,14 +61,6 @@ Microsoft 365 为政府机构提供不同的环境，以满足不同的符合性
 
 你的帐户可能已在多个云中设置。 如果通过这种方式设置了帐户，则当登录 Power BI Desktop 时，可以选择要连接的云。
 
-## <a name="buy-a-power-bi-pro-subscription-for-government-customers"></a>购买适用于政府客户的 Power BI Pro 订阅
-
-部署 Microsoft 365 后，可以添加 Power BI Pro 订阅。 按照[注册美国政府组织](service-govus-signup.md)中的分步指南来购买 Power BI Pro 政府版服务。 为需要使用 Power BI 的所有用户购买足够的许可证，然后将这些许可证分配给单个用户帐户。
-
-> [!IMPORTANT]
-> Power BI 美国政府版不可用作免费许可证。 若要访问政府社区云，必须为每个用户分配 Pro 许可证。 如果为用户帐户分配了免费许可证，则用户只能访问商业云，并会遇到身份验证和访问权限问题。 如果你已购买 Power BI Premium，则你无需分配 Pro 许可证即可启用用户访问权限。  只要将报表发布到 Premium 容量，组织中的用户都可以访问与他们共享的报表。 若要查看许可证类型之间的差异，请参阅[按许可证类型划分 Power BI 服务功能](../fundamentals/service-features-license-type.md)。
->
-
 ## <a name="connect-government-and-global-azure-cloud-services"></a>连接政府版本和全局 Azure 云服务
 
 Azure 分布在多个云中。 默认情况下，你可以启用防火墙规则以打开与特定于云的实例的连接，但跨云网络不同。  若要在公有云中的服务和政府社区云中的服务之间进行通信，必须配置特定的防火墙规则。 例如，如果要从 Power BI 的政府云部署中访问 SQL 数据库的公有云实例，则需要 SQL 数据库中的防火墙规则。 为 SQL 数据库配置特定的防火墙规则，以便为以下数据中心建立与 Azure 政府云的连接：
@@ -76,40 +76,31 @@ Azure 分布在多个云中。 默认情况下，你可以启用防火墙规则�
 
 ## <a name="power-bi-feature-availability"></a>Power BI 功能可用性
 
-为了满足政府云客户的要求，政府版计划与商业版计划之间存在一些差异。 若要了解每个政府环境中有哪些功能可用，请参阅下表：
+为了满足政府云客户的要求，政府版计划与商业版计划之间存在一些差异。 我们的目标是在公开上市后的 30 天内，在政府云中提供所有功能。 在某些情况下，我们因为底层依赖项而无法提供功能。
 
-|功能 |   |GCC |GCC High |DoD|
-|------|------|------|------|------|
-|管理|免费许可证|不可用|不可用|不可用|
-|  |设置数据存储限制|可用|可用|可用|
-|  |使用 Active Directory 组进行共享和访问控制|可用|可用|可用|
-|  |通过 Office 365 安全和合规管理中心进行审核|可用|可用|可用|
-|  |外部用户共享|可用|可用|可用|
-|  |报表和仪表板的使用指标|可用|可用|可用|
-|  |GCC 和商业云之间的 Azure B2B 协作<sup>1</sup>|可用|不可用|不可用|
-|报表创建|创建和查看仪表板和报表|可用|可用|可用|
-|  |计划的数据刷新|可用|可用|可用|
-|  |可刷新的团队仪表板|可用|可用|可用|
-|  |分页报表|可用|可用|可用|
-|  |模板应用|不可用|不可用|不可用|
-|连接到数据|从 Excel 导入数据和报表|可用|可用|可用|
-|  |从 CSV 文件导入数据|可用|可用|可用|
-|  |从 Power BI Desktop 文件导入数据|可用|可用|可用|
-|  |与 CDS 的连接|可用|不可用|不可用|
-|  |Azure Data Lake Storage Gen2 连接器|可用|不可用|不可用|
-|数据管理|数据管理网关|可用|可用|可用|
-|  |Azure SQL 数据库中的数据加密|可用|可用|可用|
-|  |Power BI Blob 存储中的数据加密|可用|可用|可用|
-|跨产品集成|使用 Power BI Web 部件在 SharePoint Online 中嵌入|可用|不可用|不可用|
-|  |使用嵌入的 Web 部件在 SharePoint Online 中嵌入|可用|可用|可用|
-|  |数据流和 AI 函数|不可用|不可用|不可用|
-|  |用于数据驱动警报的 Power Automate 连接|不可用|不可用|不可用|
-|  |Teams 中 Power BI 选项卡|可用|不可用|不可用|
-|  |自动化机器学习|不可用|不可用|不可用|
-|  |Azure 认知服务|不可用|不可用|不可用|
-|  |Azure 机器学习|不可用|不可用|不可用|
+下表列出了在特定政府环境中不可用的功能，以及在计划发布后的预计可用性：
 
-<sup>1</sup> 尽管可以在 GCC 中进行 B2B 协作，但必须在该环境中向外部用户发出许可证。 商业云许可证在 GCC 中无效。 有关美国政府 B2B 协作已知限制的详细信息，请参阅[比较 Azure 政府和全球 Azure](https://docs.microsoft.com/azure/azure-government/compare-azure-government-global-azure#azure-active-directory-premium-p1-and-p2)。
+|功能 |GCC |GCC High |DoD|
+|------|------|------|------|
+|[政府云和商业云之间的 Azure B2B 协作](service-admin-azure-ad-b2b.md)<sup>1</sup>|![可用](../media/yes.png)|![不可用](../media/no.png)|![不可用](../media/no.png)|
+|[使用 Power BI Web 部件在 SharePoint Online 中嵌入](https://docs.microsoft.com/esharepoint/dev/spfx/web-parts/overview-client-side-web-parts)|![可用](../media/yes.png)|![可用](../media/yes.png)|![不可用](../media/no.png)|
+|[用于数据驱动警报的 Power Automate 连接](../connect-data/power-bi-data-sources.md)|![可用](../media/yes.png)|![可用](../media/yes.png)|![不可用](../media/no.png)|
+|[Teams 中 Power BI 选项卡](../collaborate-share/service-collaborate-microsoft-teams.md)<sup>2</sup>|![可用](../media/yes.png)|![不可用](../media/no.png)|![不可用](../media/no.png)|
+|[容量指标](../admin/service-admin-premium-monitor-portal.md)|2020 年第 3 季度 |2020 年第 3 季度|2020 年第 3 季度|
+|[大型模型](service-premium-large-models.md) | 2020 年第 4 季度 |2020 年第 4 季度| ![不可用](../media/no.png) |
+|[数据流 - SQL 计算引擎优化](../transform-model/service-dataflows-enhanced-compute-engine.md) | 2020 年第 4 季度 |2020 年第 4 季度| ![不可用](../media/no.png) |
+|[数据流 - 直接查询](../transform-model/service-dataflows-directquery.md) | 2020 年第 4 季度 |2020 年第 4 季度|![不可用](../media/no.png)|
+|[服务中断通知](service-premium-large-models.md)|2020 年第 4 季度 |2020 年第 4 季度|2020 年第 4 季度|
+|[数据保护（MIP 标签）](service-security-sensitivity-label-overview.md)|2020 年第 4 季度|2020 年第 4 季度 |2020 年第 4 季度|
+|[模板应用](../connect-data/service-template-apps-overview.md)<sup>3</sup>|2020 年第 4 季度 |2020 年第 4 季度| 2020 年第 4 季度|
+|[自定义视觉对象](../developer/visuals/power-bi-custom-visuals.md)<sup>3</sup>|2020 年第 4 季度 |2020 年第 4 季度| 2020 年第 4 季度|
+|[QR 码生成](../create-reports/service-create-qr-code-for-tile.md)|![不可用](../media/no.png)|![不可用](../media/no.png)|![不可用](../media/no.png)|
+
+<sup>1</sup> 尽管可以在 GCC 中进行 B2B 协作，但必须在该环境中向外部用户发出许可证。 商业云许可证在 GCC 中无效。 有关美国政府 B2B 协作已知限制的详细信息，请参阅[比较 Azure 政府和全球 Azure](https://docs.microsoft.com/azure/azure-government/compare-azure-government-global-azure#azure-active-directory-premium-p1-and-p2)
+
+<sup>2</sup> 适用于 GCC 的 Teams 中的 Power BI 体验受到限制，仅适用于经典工作区，不包括[在 Microsoft Teams 中嵌入 Power BI 内容](../collaborate-share/service-embed-report-microsoft-teams.md)中所述的增强功能。
+
+<sup>3</sup> 对于政府云，针对版本的模板应用和自定义视觉对象的功能将受到限制。 发布版本时将发布有关特定限制的详细信息。
 
 ## <a name="next-steps"></a>后续步骤
 

@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 06/22/2020
 ms.author: davidi
 LocalizationGroup: Premium
-ms.openlocfilehash: a9045c5c088926b24bb9f71e2adf558da6ffa597
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 02716f895d84a7aa49ab7f1d48d60372b3546409
+ms.sourcegitcommit: b943ce58c2c079cb18fc5cf23cc609ead1dc9906
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85227445"
+ms.lasthandoff: 09/03/2020
+ms.locfileid: "89443320"
 ---
 # <a name="incremental-refresh-in-power-bi"></a>Power BI 中的增量刷新
 
@@ -26,12 +26,11 @@ ms.locfileid: "85227445"
 > * **降低资源消耗** - 要刷新的数据量减少，这降低了内存和其他资源的整体消耗。
 
 > [!NOTE]
-> 增量刷新现在可用于 Power BI Pro、Premium 以及共享的订阅和数据集。 
+> 增量刷新现在可用于 Power BI Pro、Premium 以及共享的订阅和数据集。
 
 ## <a name="configure-incremental-refresh"></a>配置增量刷新
 
 增量刷新策略在 Power BI Desktop 中进行定义，并在发布到 Power BI 服务时应用。
-
 
 ### <a name="filter-large-datasets-in-power-bi-desktop"></a>在 Power BI Desktop 中筛选大型数据集
 
@@ -99,18 +98,17 @@ Power BI Desktop 模型可能不适合处理具有可能数十亿行的大型数
 
 #### <a name="refresh-ranges"></a>刷新范围
 
-以下示例定义了一个刷新策略，用于存储五个完整日历年的数据以及当年至今的数据，并以增量方式刷新 10 天的数据。 第一次刷新操作会加载历史数据。 后续刷新为增量刷新并执行以下操作（如果计划为每天运行）：
+以下示例定义了一个刷新策略，用于存储五个完整日历年的数据以及当年至今的数据，并以增量方式刷新 10 个整天的数据。 第一次刷新操作会加载历史数据。 后续刷新为增量刷新并执行以下操作（如果计划为每天运行）：
 
 - 添加新的一天的数据。
 
-- 刷新截至当前日期的 10 天的数据。
+- 刷新截至当前日期的 10 个整天的数据。
 
 - 删除比当前日期早 5 年的日历年的数据。 例如，如果当前日期为 2019 年 1 月 1 日，则删除 2013 年的数据。
 
 Power BI 服务中的第一次刷新可能需要更长时间才能导入全部五个完整日历年。 随后的刷新用时可能很少。
 
 ![刷新范围](media/service-premium-incremental-refresh/refresh-ranges.png)
-
 
 #### <a name="current-date"></a>当前日期
 

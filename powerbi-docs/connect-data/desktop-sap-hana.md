@@ -1,6 +1,6 @@
 ---
-title: 在 Power BI Desktop 中使用 SAP HANA
-description: 在 Power BI Desktop 中使用 SAP HANA
+title: 在 Power BI 中使用 SAP HANA
+description: 在 Power BI 中使用 SAP HANA
 author: davidiseminger
 ms.reviewer: ''
 ms.custom: seodec18
@@ -10,14 +10,14 @@ ms.topic: how-to
 ms.date: 01/15/2020
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 3d78ded05d199676708c0000cab043226a47b166
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 69019abf60f2633bcb764b11c0ac3310911fab62
+ms.sourcegitcommit: ffc46032d0771227395cc38be9ec9ff1500eac70
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85222805"
+ms.lasthandoff: 09/02/2020
+ms.locfileid: "89401924"
 ---
-# <a name="connect-to-sap-hana-databases-in-power-bi-desktop"></a>连接到 Power BI Desktop 中的 SAP HANA 数据库
+# <a name="connect-to-sap-hana-databases-in-power-bi"></a>在 Power BI 中连接到 SAP HANA 数据库
 
 使用 Power BI Desktop，你现在可以访问 *SAP HANA* 数据库。 若要使用 SAP HANA，必须在本地客户端计算机上安装 SAP HANA ODBC 驱动程序，Power BI Desktop 的 SAP HANA 数据连接才能正常运行。 可以从 [SAP 开发工具](https://tools.hana.ondemand.com/#hanatools)下载 SAP HANA 客户端工具，其中包含所需的 ODBC 驱动程序。 也可以从 [SAP 软件下载中心](https://support.sap.com/en/my-support/software-downloads.html)获取。 在“软件”门户中，搜索 Windows 计算机的 SAP HANA 客户端  。 由于 SAP 软件下载中心的结构经常发生变化，因此没有有关站点导航的更多具体指导。
 
@@ -61,6 +61,7 @@ SAP HANA 的使用也具有一些限制，如下所示：
 * 不支持 SMALLDECIMAL。
 * 不支持 VARBINARY。
 * 有效日期在 1899/12/30 和 9999/12/31 之间。
+* Excel 工作簿当前不支持通过 SSO 进行 SAP HANA 刷新。 若要刷新 Power BI 中的数据，可以将 Power BI 报表与 SAP HANA SSO 结合使用。
 
 ## <a name="next-steps"></a>后续步骤
 

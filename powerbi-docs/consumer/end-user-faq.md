@@ -6,16 +6,16 @@ ms.reviewer: mihart
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 05/20/2020
+ms.date: 09/02/2020
 ms.author: mihart
 ms.custom: licensing support
 LocalizationGroup: Get started
-ms.openlocfilehash: 12d31c19e3f32068778eb6f3eb7b3b5b18e93847
-ms.sourcegitcommit: c83146ad008ce13bf3289de9b76c507be2c330aa
+ms.openlocfilehash: c8db048f9ae74871840df96e63c60510ce800318
+ms.sourcegitcommit: b943ce58c2c079cb18fc5cf23cc609ead1dc9906
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/10/2020
-ms.locfileid: "86215985"
+ms.lasthandoff: 09/03/2020
+ms.locfileid: "89443297"
 ---
 # <a name="frequently-asked-questions-about-power-bi"></a>有关 Power BI 的常见问题
 
@@ -28,16 +28,16 @@ ms.locfileid: "86215985"
 
 Power BI 服务是基于云的业务分析服务，任何人都可以更快的速度、更高的效率和更好的理解力来直观呈现和分析数据。 它通过生动展示数据的易用仪表板、交互式报表和引人注目的可视化效果，让用户看到更广泛的基于云的数据和本地数据。 详细了解 [Power BI](../fundamentals/power-bi-overview.md)。
 
-## <a name="what-is-a-power-bi-consumers"></a>什么是 Power BI 使用者？
+## <a name="what-is-a-power-bi-business-user"></a>什么是 Power BI 业务用户？
 
-使用 Power BI 交互的方式取决于你的工作角色。 最终用户或使用者可从同事那里接收内容（仪表板、报表和应用）。 可使用网页版或移动版 Power BI 服务（称为 Power BI 服务）查看此内容并与之交互，以做出业务决策。  详细了解[面向使用者的 Power BI](index.yml)。
+使用 Power BI 交互的方式取决于你的工作角色。 最终用户或业务用户可从同事那里接收内容（仪表板、报表和应用）。 可使用网页版或移动版 Power BI 服务（称为 Power BI 服务）查看此内容并与之交互，以做出业务决策。  详细了解[面向业务用户的 Power BI](index.yml)。
 
 
 ## <a name="whats-the-difference-between-power-bi-pro-and-power-bi-premium"></a>Power BI Pro 与 Power BI Premium 有何区别？
 
-Power BI Pro 许可证是支持访问 Power BI 服务中所有内容和功能的单独用户许可证。 它甚至还支持共享内容，并与其他 Pro 用户协作。 只有 Pro 用户可将内容发布到工作区、共享仪表板并订阅仪表板和报表。 
+Power BI Pro 许可证是支持访问 Power BI 服务中所有内容和功能的单独用户许可证。 它甚至还支持共享内容，并与其他 Pro 用户协作。 只有 Pro 用户可将内容发布到其他工作区、共享仪表板并订阅仪表板和报表。 
 
-Power BI Premium 提供专用容量，以确保性能更一致。 它还支持 Power BI 中的较大数据量。 对于个人用户，Premium 支持 Pro 用户广泛分发内容，且接收人无需使用每用户 Pro 许可证，即可查看内容。 也就是说，使用者可以与同事协作，查看与他们共享的仪表板、报表和应用，并与之交互。 
+Power BI Premium 提供专用容量，以确保性能更一致。 它还支持 Power BI 中的较大数据量。 对于个人用户，Premium 支持 Pro 用户广泛分发内容，且接收人无需使用每用户 Pro 许可证，即可查看内容。 也就是说，业务用户可以与同事协作，查看与他们共享的仪表板、报表和应用，并与之交互。 
 
 若要了解详细信息，请参阅[我有哪种类型的许可证？](end-user-license.md)。
 
@@ -47,9 +47,9 @@ Power BI Premium 提供专用容量，以确保性能更一致。 它还支持 P
 
 ## <a name="what-is-power-bi-desktop"></a>什么是 Power BI Desktop？
 
-Power BI Desktop 是一款免费应用程序，可直接安装到你自己的计算机上。 Power BI Desktop 与 Power BI 服务紧密配合工作。  数据科学家、报表设计人员、管理员和开发人员使用 Power BI Desktop 生成报表，并将报表提供给像你这样的 Power BI 服务使用者。 阅读有关[什么是 Power BI Desktop](../fundamentals/desktop-what-is-desktop.md) 的详细信息。
+Power BI Desktop 是一款免费应用程序，可直接安装到你自己的计算机上。 Power BI Desktop 与 Power BI 服务紧密配合工作。  数据科学家、报表设计人员、管理员和开发人员使用 Power BI Desktop 生成报表，并将报表提供给像你这样的 Power BI 服务业务用户。 阅读有关[什么是 Power BI Desktop](../fundamentals/desktop-what-is-desktop.md) 的详细信息。
 
-## <a name="what-do-i-need-to-use-the-power-bi-service-as-a-consumer"></a>需要什么才能以使用者身份使用 Power BI 服务？
+## <a name="as-a-business-user-what-do-i-need-to-use-the-power-bi-service"></a>作为业务用户，需要满足哪些条件才能使用 Power BI 服务？
 
 如果你的公司已购买 Power BI 许可证或高级容量帐户，你所需的只是 Web 浏览器和凭据。 你将使用工作电子邮件地址和密码（由 Power BI 管理员设置）登录。  
 
@@ -84,7 +84,7 @@ Power BI 不支持由使用者电子邮件服务或电信提供商提供的电�
 * [Power BI 博客](https://powerbi.microsoft.com/blog/)
 * [网络研讨会](../fundamentals/webinars.md)
 * 我们 [YouTube 频道](https://www.youtube.com/user/mspowerbi)上的入门视频
-* [以使用者身份开始使用 Power BI](index.yml) 文章
+* [以业务用户身份开始使用 Power BI](index.yml) 文章
 * [加入我们的社区](https://community.powerbi.com/)并提出问题
 * 有关更多建议，请参阅[如何获取帮助的 10 条提示](../fundamentals/service-tips-for-finding-help.md)
 
@@ -112,7 +112,7 @@ Power BI 不支持由使用者电子邮件服务或电信提供商提供的电�
 
 ## <a name="next-steps"></a>后续步骤
 
-* [什么是 Power BI 使用者？](end-user-consumer.md)
-* [使用者如何使用 Power BI？](end-user-reading-view.md)
+* [什么是 Power BI 业务用户？](end-user-consumer.md)
+* [业务用户如何与 Power BI 交互？](end-user-reading-view.md)
 * 更多问题？ [尝试咨询 Power BI 社区](https://community.powerbi.com/)
 * 仍有问题？ 请访问 [Power BI 支持页](https://powerbi.microsoft.com/support/)

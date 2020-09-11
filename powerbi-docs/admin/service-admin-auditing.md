@@ -10,12 +10,12 @@ ms.date: 08/20/2020
 ms.author: kfollis
 ms.custom: licensing support
 LocalizationGroup: Administration
-ms.openlocfilehash: 7b5a96f4b592789c04ebaca5418e470d546ff788
-ms.sourcegitcommit: 84e75a2cd92f4ba4e0c08ba296b981b79d6d0e82
+ms.openlocfilehash: 27d74a4333add1feebc3522ce34d0a2bacaa69f7
+ms.sourcegitcommit: 2cf8159535c114045e236c076a711638cfd7d2c8
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/25/2020
-ms.locfileid: "88802965"
+ms.lasthandoff: 09/07/2020
+ms.locfileid: "89512047"
 ---
 # <a name="track-user-activities-in-power-bi"></a>跟踪 Power BI 中的用户活动
 
@@ -108,6 +108,9 @@ $activities.Count
 $activities[0]
 
 ```
+
+> [!NOTE]
+> PowerShell 示例可帮助你了解如何筛选和检索 Power BI 活动日志事件。 有关详细信息，请参阅[访问 Power BI 活动日志](../guidance/admin-activity-log.md)。
 
 ## <a name="use-the-audit-log"></a>使用审核日志
 
@@ -369,8 +372,8 @@ Remove-PSSession $Session
 
 ## <a name="next-steps"></a>后续步骤
 
-[什么是 Power BI 管理？](service-admin-administering-power-bi-in-your-organization.md)  
-
-[Power BI 管理门户](service-admin-portal.md)  
-
-更多问题？ [尝试咨询 Power BI 社区](https://community.powerbi.com/)
+- [什么是 Power BI 管理？](service-admin-administering-power-bi-in-your-organization.md)
+- [Power BI 管理门户](service-admin-portal.md)
+- [访问 Power BI 活动日志](../guidance/admin-activity-log.md)
+- 是否有任何问题? [尝试咨询 Power BI 社区](https://community.powerbi.com/)
+- 建议？ [提出改进 Power BI 的想法](https://ideas.powerbi.com/)
