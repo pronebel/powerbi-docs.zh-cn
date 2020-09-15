@@ -62,6 +62,8 @@
               href: service-admin-syndication-partner.md
         - name: 使用管理门户
           href: service-admin-portal.md
+        - name: 对 Power BI 使用专用链接
+          href: service-security-private-links.md
         - name: 管理 Power BI 视觉对象管理员设置
           href: organizational-visuals.md
         - name: 查找已登录的用户
