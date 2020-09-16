@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 03/11/2020
 ms.author: mihart
 LocalizationGroup: Common tasks
-ms.openlocfilehash: f0f2d57b1a60307cef2d848854355715dd74a412
-ms.sourcegitcommit: 2131f7b075390c12659c76df94a8108226db084c
+ms.openlocfilehash: b1f9dd6540707993696bddb4494fc73aa782d363
+ms.sourcegitcommit: 92b033ee7a6e36808371b247b7b41536cee6c2f6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/03/2020
-ms.locfileid: "87537978"
+ms.lasthandoff: 09/10/2020
+ms.locfileid: "90008896"
 ---
 # <a name="paginated-reports-in-the-power-bi-service"></a>Power BI 服务中的分页报表
 
@@ -97,5 +97,5 @@ ms.locfileid: "87537978"
 
 ## <a name="next-steps"></a>后续步骤
 - [Power BI 报表](end-user-reports.md)
+- [Power BI 中的分页报表：常见问题解答](../paginated-reports/paginated-reports-faq.md)
 - 更多问题？ 尝试参与 [Power BI 社区](https://community.powerbi.com/)。
-

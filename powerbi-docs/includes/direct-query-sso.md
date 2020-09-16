@@ -7,12 +7,12 @@ ms.service: powerbi
 ms.topic: include
 ms.date: 04/28/2020
 ms.author: davidi
-ms.openlocfilehash: d56988986cfd994bb21c9bc25d024903719472cf
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: ed87101fe7f5fadd24594d53bbd0ffb6f029faa4
+ms.sourcegitcommit: 92b033ee7a6e36808371b247b7b41536cee6c2f6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "82255851"
+ms.lasthandoff: 09/10/2020
+ms.locfileid: "90012924"
 ---
 ## <a name="single-sign-on"></a>单一登录
 
@@ -26,3 +26,5 @@ ms.locfileid: "82255851"
 
 SSO 选项针对使用此数据源的所有数据集生效。 它不影响用于导入方案的身份验证方法。
 
+> [!Note]
+> 不支持 Azure 多重身份验证 (MFA)。 想要在 DirectQuery 中使用 SSO 的用户必须免除 MFA。
