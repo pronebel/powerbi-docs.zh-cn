@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: how-to
-ms.date: 05/05/2020
+ms.date: 09/09/2020
 ms.author: maggies
 LocalizationGroup: Create reports
-ms.openlocfilehash: ef6fef8535e0fb6013e363a23f4736368a66720c
-ms.sourcegitcommit: d91c060913fcb526f9a01dc48e218485daf55b4e
+ms.openlocfilehash: 26e638e106f7bd11544d1d80dae543f06783bda7
+ms.sourcegitcommit: 92b033ee7a6e36808371b247b7b41536cee6c2f6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "89562435"
+ms.lasthandoff: 09/10/2020
+ms.locfileid: "90008787"
 ---
 # <a name="creating-a-relative-date-slicer-and-filter-in-power-bi"></a>在 Power BI 中创建相对日期切片器和筛选器
 
@@ -45,9 +45,7 @@ ms.locfileid: "89562435"
 ![标出第一个设置的“相对”配置选项的屏幕截图。](media/desktop-slicer-filter-date-range/relative-date-range-slicer-filter-04.png)
 
 * 最后一项
-
 * 下一步
-
 * 本
 
 通过相对日期切片器中的第二个(中间)设置，可输入一个数字来定义相对日期范围  。
@@ -59,26 +57,19 @@ ms.locfileid: "89562435"
 ![标出第三个设置的“相对”配置选项的屏幕截图。](media/desktop-slicer-filter-date-range/relative-date-range-slicer-filter-05.png)
 
 * 日
-
 * 周
-
 * 周（日历）
-
 * 月
-
 * 月（日历）
-
 * 年
-
 * 年(日历)
 
 如果在此该列表中选择“月”，并在中间设置中输入 2，则结果如下所示   ：
 
-* 如果今天是 7 月 20 日
+* 如果今天是 7 月 20 日：
 
-* 由切片器约束的视觉对象中包含的数据将显示前两个月的数据
-
-* 即 5 月 21 日到 7 月 20 日（今天的日期）
+    - 由切片器约束的视觉对象中包含的数据将显示前两个月的数据，
+    - 即 5 月 21 日到 7 月 20 日（今天的日期）。
 
 相比之下，如果选择“月(日历)”  ，约束的视觉对象会显示 5 月 1 日到 6 月 30 日（过去两个整日历月）的数据。
 
@@ -100,10 +91,9 @@ ms.locfileid: "89562435"
 
 目前，使用相对日期范围切片器和筛选器  时，需要遵循以下限制和注意事项。
 
+* 切片器中字段的数据类型必须是日期，而不是默认的文本。 否则，切片器中不会显示相对选项。
 * Power BI 中的数据模型不包含时区信息  。 模型可以存储时间，但并不指明所在时区。
-
 * 切片器和筛选器始终基于 UTC 的时间。 如果在报表中设置筛选器并将其发送给位于其他时区的同事，你们将看到相同的数据。 除非你处于 UTC 时区，否则你和你的同事都必须考虑将会遇到的时间偏移量。
-
 * 可使用查询编辑器将在本地时区捕获的数据转换为 UTC  。
 
 ## <a name="next-steps"></a>后续步骤

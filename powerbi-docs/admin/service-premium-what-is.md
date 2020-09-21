@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 07/28/2020
 ms.custom: licensing support
 LocalizationGroup: Premium
-ms.openlocfilehash: de5ab7b75967e752615bf7415c81ba7bb18c1a80
-ms.sourcegitcommit: a254f6e2453656f6783690669be8e881934e15ac
+ms.openlocfilehash: 492ff2c21d285cba37f1bbf631869c84eafe4dc3
+ms.sourcegitcommit: 92b033ee7a6e36808371b247b7b41536cee6c2f6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/28/2020
-ms.locfileid: "87364045"
+ms.lasthandoff: 09/10/2020
+ms.locfileid: "90008551"
 ---
 # <a name="what-is-power-bi-premium"></a>什么是 Power BI Premium？
 
@@ -205,7 +205,7 @@ Power BI Embedded A4 SKU 等同于 P1 SKU、A5 = P2 和 A6 = P3。
 
 ## <a name="incremental-refresh"></a>增量刷新
 
-增量刷新是在 Power BI Premium 中拥有和维护大型数据集不可或缺的部分。 增量刷新拥有许多优势，例如，刷新速度更快，因为只需刷新已更改的数据。 刷新更可靠，因为不需要维护与不稳定的数据源的长期连接。 资源消耗降低，因为要刷新的数据量减少，这降低了内存和其他资源的整体消耗。 增量刷新策略在 **Power BI Desktop** 中进行定义，并在发布到 Premium 容量中的工作区时应用。 
+增量刷新是在 Power BI Premium 和 Power BI Pro 中拥有和维护大型数据集不可或缺的部分。 增量刷新拥有许多优势，例如，刷新速度更快，因为只需刷新已更改的数据。 刷新更可靠，因为不需要维护与不稳定的数据源的长期连接。 资源消耗降低，因为要刷新的数据量减少，这降低了内存和其他资源的整体消耗。 增量刷新策略在 **Power BI Desktop** 中进行定义，并在发布到 Premium 容量中的工作区时应用。 
 
 ![刷新详细信息](media/service-premium-incremental-refresh/refresh-details.png)
 

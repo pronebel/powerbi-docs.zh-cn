@@ -5,14 +5,14 @@ author: maggiesMSFT
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 04/21/2020
+ms.date: 09/09/2020
 ms.author: maggies
-ms.openlocfilehash: eebb40d81e9b59b545b30ce55dbf4a362b826455
-ms.sourcegitcommit: 13c4bec679313f2951f1833033316cb8176da8a1
+ms.openlocfilehash: 7b02e1b1fb49eb1c43b12d204250eabec8eafe91
+ms.sourcegitcommit: 002c140d0eae3137a137e9a855486af6c55ad957
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/26/2020
-ms.locfileid: "88937576"
+ms.lasthandoff: 09/10/2020
+ms.locfileid: "89642345"
 ---
 # <a name="limitations-of-power-bi-qa"></a>Power BI 问答的限制
 
@@ -31,12 +31,17 @@ Power BI 问答支持 Power BI 服务中的以下数据源配置：
 
 在这些配置中，还支持行级别安全性。
 
+对问答的 DirectQuery 支持（预览版）
+
+问答现在支持 SQL DirectQuery 源，包括 SQL Server 2019、Azure SQL 数据库和 Azure Synapse Analytics。 可使用问答，以自然语言提出针对这些数据源的问题。 在 DirectQuery 模式下，问答行为会发生一处细微更改：键入问题后，选择“提交”按钮。 此更改可防止在键入时系统使用不必要的查询重载 DirectQuery 源。
+
+问答不支持其他 DirectQuery 源。 如果数据集中存在其他 DirectQuery 源，我们不会完全阻止问答，但某些问题可能会无法获得正确回答或返回错误。
+
 ### <a name="data-sources-not-supported"></a>不支持数据源
 
 Power BI 问答当前不支持以下配置：
 
 - 任何类型的数据源的对象级别安全性
-- 针对任何源的 DirectQuery。 解决方法是将 Live Connect 用于使用 DirectQuery 的 Azure Analysis Services。
 - 复合模型
 - Reporting Services 
 

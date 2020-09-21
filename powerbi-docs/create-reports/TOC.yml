@@ -347,6 +347,8 @@
               href: ../paginated-reports/paginated-reports-create-embedded-dataset.md
             - name: 使用 Power BI 共享数据集创建报表
               href: ../paginated-reports/report-builder-shared-datasets.md
+            - name: 下载分页报表的 .rdl
+              href: ../paginated-reports/paginated-reports-download-rdl.md
             - name: 创建参数
               href: ../paginated-reports/paginated-reports-parameters.md
             - name: 设置报表视图

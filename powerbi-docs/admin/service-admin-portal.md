@@ -10,12 +10,12 @@ ms.date: 09/03/2020
 ms.author: kfollis
 ms.custom: seodec18
 LocalizationGroup: Administration
-ms.openlocfilehash: e819902328f49ab06a65869066ab2b2dabce6610
-ms.sourcegitcommit: 1f56cdfc05801ffaf41e3b68dc1eb02142acdab3
+ms.openlocfilehash: f6527b326c2c779dda5a6d4b1c1276c84d3ec320
+ms.sourcegitcommit: 002c140d0eae3137a137e9a855486af6c55ad957
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/04/2020
-ms.locfileid: "89490395"
+ms.lasthandoff: 09/10/2020
+ms.locfileid: "89642798"
 ---
 # <a name="administering-power-bi-in-the-admin-portal"></a>在管理门户中管理 Power BI
 
@@ -253,21 +253,9 @@ ms.locfileid: "89490395"
 
 ### <a name="allow-azure-active-directory-guest-users-to-access-power-bi"></a>允许 Azure Active Directory 来宾用户访问 Power BI
 
-启用此设置可允许 Azure Active Directory 企业到企业 (Azure AD B2B) 来宾用户访问 Power BI。 如果禁用此设置，则来宾用户尝试访问 Power BI 时会收到错误。 当你为整个组织禁用此设置时，还将阻止用户邀请来宾加入你的组织，并阻止用户向单个来宾用户分配权限。 使用“特定安全组”选项控制哪些来宾用户可以访问 Power BI。
+启用此设置可允许 Azure Active Directory 企业到企业 (Azure AD B2B) 来宾用户访问 Power BI。 如果禁用此设置，则来宾用户尝试访问 Power BI 时会收到错误。 当你为整个组织禁用此设置时，还将阻止用户邀请来宾加入你的组织。 使用“特定安全组”选项控制哪些来宾用户可以访问 Power BI。
 
 ![允许 Azure Active Directory 来宾用户访问 Power BI](media/service-admin-portal/powerbi-admin-allow-aad-b2b-guests.png)
-
-### <a name="allow-giving-permissions-to-existing-azure-active-directory-guest-users"></a>允许向现有的 Azure Active Directory 来宾用户授予权限
-
-启用后，组织中的用户可以通过 Power BI 中的权限或共享体验向各个来宾用户授予权限。 为用户禁用此功能后，该用户不能向来宾用户分配权限，也不能邀请来宾用户加入 Power BI。
-
-![允许向现有的 Azure Active Directory 来宾用户授予权限](media/service-admin-portal/powerbi-admin-allow-grant-access-to-aad-b2b-guests.png)
-
-
-> [!IMPORTANT]
->  在任何情况下，此设置都不会阻止向来宾用户分配权限。 此设置仅阻止向单个来宾用户授予访问权限。 仍可通过用户组（如安全组、Office 365 组或通讯组列表）向来宾用户授予访问权限。 
-
-如果不允许用户向来宾用户授予权限，而他们尝试执行此操作时，则会在 UI 中看到一条错误消息。 此外，更改对某个项的权限时，不允许向来宾授予权限的用户必须先从访问列表中删除任何来宾用户，然后才能授予或更改对于该项的权限。 
 
 ### <a name="invite-external-users-to-your-organization"></a>邀请外部用户加入你的组织 
 
@@ -279,8 +267,6 @@ ms.locfileid: "89490395"
 > 此设置以前称为“与外部用户共享内容”。 修改后的名称将更准确地反映该设置的作用。
 
 若要邀请外部用户加入你的组织，用户还需要拥有 Azure Active Directory 来宾邀请者角色。 此设置仅控制通过 Power BI 进行邀请的能力。 
-
-为用户禁用“允许向现有 Azure Active Directory 来宾用户授予权限”设置时，该用户也无法通过 Power BI 邀请外部用户加入你的组织。
 
 ### <a name="publish-to-web"></a>发布到 Web
 

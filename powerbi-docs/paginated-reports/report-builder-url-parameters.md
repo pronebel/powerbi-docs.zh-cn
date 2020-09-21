@@ -8,13 +8,13 @@ author: maggiesMSFT
 ms.author: maggies
 ms.reviewer: cfinlan
 ms.custom: ''
-ms.date: 05/01/2020
-ms.openlocfilehash: 36c14ec0da3c7818a6c938e0fd47f4a6476470f6
-ms.sourcegitcommit: d91c060913fcb526f9a01dc48e218485daf55b4e
+ms.date: 09/09/2020
+ms.openlocfilehash: f81cf6625f02f71b1ccf8bcd2c442ded3329083d
+ms.sourcegitcommit: 002c140d0eae3137a137e9a855486af6c55ad957
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "89562412"
+ms.lasthandoff: 09/10/2020
+ms.locfileid: "89642397"
 ---
 # <a name="url-parameters-in-paginated-reports-in-power-bi"></a>Power BI 的分页报表中的 URL 参数
 
@@ -91,9 +91,9 @@ Power BI 租户的 Web 服务 URL。 例如：
     - “interactive”（默认值）：以交互模式加载报表。
     - “pageView”：在页面视图模式下加载报表。
 
-参数面板状态：指定在报表加载或完全隐藏时参数面板是关闭还是打开。
+参数面板：指定在报表加载或完全隐藏时参数面板是关闭还是打开。
 
--   rdl:parameterPanelState
+-   rdl:parameterPanel
 
     - “折叠”：加载报表时参数面板处于关闭状态。 参数按钮已启用，用户可以单击该按钮进行展开；
     - “隐藏”：加载报表时参数面板处于关闭状态，参数按钮处于禁用状态；

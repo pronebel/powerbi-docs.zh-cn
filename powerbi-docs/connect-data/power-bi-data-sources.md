@@ -6,22 +6,18 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 08/21/2020
+ms.date: 09/11/2020
 ms.author: davidi
-ms.openlocfilehash: ae4d51d9a40044ae939f5cb2b0b15442697df5fd
-ms.sourcegitcommit: ae6559f40e1735d53654cbe9425add6e18171295
+ms.openlocfilehash: 926569e783dad7a97b91e2e5c1752401d21d6612
+ms.sourcegitcommit: 376ea86f69545444f975378cbf63e54c2f75faa3
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/24/2020
-ms.locfileid: "88764942"
+ms.lasthandoff: 09/15/2020
+ms.locfileid: "90084044"
 ---
 # <a name="power-bi-data-sources"></a>Power BI 数据源
 
 下表展示了 Power BI 支持的数据集的数据源，其中包括有关 DirectQuery 和本地数据网关的信息。 有关数据流的信息，请参阅[连接到 Power BI 数据流的数据源](../transform-model/service-dataflows-data-sources.md)。
-
-> [!NOTE]
-> Power BI Desktop 中的大多数数据连接都需要 Internet Explorer 10（或更高版本）进行身份验证。 
-
 
 | 数据源 | 从桌面连接 | 从服务连接并刷新 | DirectQuery/实时连接 | 网关（支持） | 网关（必需） |
 |---|---|---|---|---|---|---|---|
@@ -63,7 +59,7 @@ ms.locfileid: "88764942"
 | Excel | 是 <sup>3</sup> | 是 <sup>3</sup> | 否 | 是 <sup>3</sup> | 否 <sup>4</sup> |
 | Facebook | 是 | 是 | 否 | 否 | 否 |
 | 文件 | 是 | 是 | 否 | 是 | 是 |
-| 文件夹 | 是 | 是 | 否 | 是 | 是 |
+| Folder | 是 | 是 | 否 | 是 | 是 |
 | GitHub | 是 | 是 | 否 | 否 | 否 |
 | Google Analytics | 是 | 是 | 否 | 否 | 否 |
 | Google BigQuery | 是 | 是 | 是 | 否 | 否 |
@@ -156,6 +152,11 @@ ms.locfileid: "88764942"
 <sup>7</sup> Power BI 服务不支持需要身份验证的 OData 源。
 
 <sup>8</sup> 针对 Power BI 报表服务器优化的 Power BI Desktop 版本中支持 Paxata。 在发布到 Power BI 报表服务器的 Power BI 报表中不受支持。 有关受支持的数据源的列表，请参阅 [Power BI 报表服务器中的 Power BI 报表数据源](../report-server/data-sources.md)。
+
+## <a name="considerations-and-limitations"></a>注意事项和限制
+
+- Power BI Desktop 中的许多数据连接器都需要 Internet Explorer 10（或更高版本）进行身份验证。 
+- 针对 Power BI 报表服务器优化的 Power BI Desktop 支持某些数据源，但在发布到 Power BI 报表服务器时不支持这些数据源。 有关受支持的数据源的列表，请参阅 [Power BI 报表服务器中的 Power BI 报表数据源](../report-server/data-sources.md)。
 
 ## <a name="single-sign-on-sso-for-directquery-sources"></a>DirectQuery 源的单一登录 (SSO)
 

@@ -6,15 +6,15 @@ ms.reviewer: mihart
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: how-to
-ms.date: 02/19/2020
+ms.date: 09/03/2020
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 022ce2c28ef41636c4530f93e7c2765784c24ff0
-ms.sourcegitcommit: c83146ad008ce13bf3289de9b76c507be2c330aa
+ms.openlocfilehash: 3cbd8acd2f32ea5fa0ccbb0fa3f91e45629cc079
+ms.sourcegitcommit: 002c140d0eae3137a137e9a855486af6c55ad957
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/10/2020
-ms.locfileid: "86215872"
+ms.lasthandoff: 09/10/2020
+ms.locfileid: "89642459"
 ---
 # <a name="featured-dashboards-in-the-power-bi-service"></a>Power BI 服务中的特色仪表板
 
@@ -23,9 +23,9 @@ ms.locfileid: "86215872"
 许多人都有一个访问次数最多的仪表板。 它可能是我们用于经营业务的仪表板， 也可能是聚合了来自许多不同仪表板和报表的磁贴的仪表板。
 
 ## <a name="create-a-featured-dashboard"></a>创建特色仪表板
-在选择一个仪表板作为*特色*仪表板后，每次打开 Power BI 服务时，将同时显示并打开该仪表板。 
+在选择一个仪表板作为特色仪表板后，每次打开 Power BI 服务时，将同时显示并打开该仪表板。 
 
-![设置为精选图标](./media/end-user-featured/power-bi-dropdown.png)
+![设置为精选图标](./media/end-user-featured/power-bi-dropbox.png)
 
 也可以选择几个仪表板，并将它们设置为收藏项。 请参阅[仪表板收藏](end-user-favorite.md)。
 
@@ -37,19 +37,19 @@ ms.locfileid: "86215872"
 1. 打开想要设置为特色仪表板的仪表板。 
 2. 在顶部菜单栏中，依次选择“更多选项”(…) 和“设置为精选”   。 
    
-    ![设置为精选图标](./media/end-user-featured/power-bi-dropdown.png)
+    ![此屏幕截图显示了包含“设置为精选”选项的 dropbox。](./media/end-user-featured/power-bi-set-as-featured.png)
 3. 确认选择。
    
     ![设置特色仪表板](./media/end-user-featured/power-bi-featured-confirm.png)
 
 ## <a name="change-the-featured-dashboard"></a>更改特色仪表板
-如果稍后改变主意，则可以将新的仪表板设置为特色仪表板。
+如果稍后改变主意，则可以将新的仪表板设置为特色仪表板。 取消将某个仪表板设置为特色仪表板并不会将它从 Power BI 中删除。 
 
 1. 按照前面的步骤 1 和 2 执行操作。
    
-2. 选择“设置为特色仪表板”  。 取消将某个仪表板设置为特色仪表板并不会将它从 Power BI 中删除。 
+2. 选择“设置为特色仪表板”****。 
    
-    ![成功消息](./media/end-user-featured/power-bi-unfeature-new.png)
+    ![成功消息](./media/end-user-featured/power-bi-unfeatured.png)
 
 ## <a name="remove-the-featured-dashboard"></a>重命名特色仪表板
 如果决定不将任何仪表板指定为特色仪表板，下文介绍如何取消将某个仪表板设置为特色仪表板。

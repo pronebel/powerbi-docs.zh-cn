@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 07/15/2019
 ms.author: arthii
 LocalizationGroup: Gateways
-ms.openlocfilehash: 2921ea9ff0e5e1fa6bc12c0ecd5dd047b703a937
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: c97a303a5b3241f49e82aac41d9ed7984c3a5af1
+ms.sourcegitcommit: 002c140d0eae3137a137e9a855486af6c55ad957
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85237641"
+ms.lasthandoff: 09/10/2020
+ms.locfileid: "89642309"
 ---
 # <a name="manage-your-data-source---analysis-services"></a>管理数据源 - Analysis Services
 
@@ -36,7 +36,7 @@ ms.locfileid: "85237641"
 填写数据源的信息（包括服务器和数据库）   。 网关会使用为“用户名”  和“密码”  输入的信息连接到 Analysis Services 实例。
 
 > [!NOTE]
-> 输入的 Windows 帐户必须具有连接到该实例的服务器管理员权限。 如果此帐户的密码设置为过期，且数据源未更新此密码，则用户将遇到连接错误。 若要详细了解如何存储凭据，请参阅[在云中存储加密凭据](service-gateway-data-sources.md#store-encrypted-credentials-in-the-cloud)。
+> 输入的 Windows 帐户必须是要连接到的 Analysis Services 实例上的服务器管理员角色的成员。 如果此帐户的密码设置为过期，且数据源未更新此密码，则用户将遇到连接错误。 若要详细了解如何存储凭据，请参阅[在云中存储加密凭据](service-gateway-data-sources.md#store-encrypted-credentials-in-the-cloud)。
 
 ![填写数据源设置](media/service-gateway-enterprise-manage-ssas/datasourcesettings3-ssas.png)
 

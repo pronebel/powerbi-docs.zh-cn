@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: conceptual
 ms.date: 07/27/2020
-ms.openlocfilehash: fda04d3241db68f1ca8da66d999bfca6cef9e8cf
-ms.sourcegitcommit: 13c4bec679313f2951f1833033316cb8176da8a1
+ms.openlocfilehash: cdce9ead296a25aad95ab504d6da38f06f681b72
+ms.sourcegitcommit: 92b033ee7a6e36808371b247b7b41536cee6c2f6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/26/2020
-ms.locfileid: "88937438"
+ms.lasthandoff: 09/10/2020
+ms.locfileid: "90008620"
 ---
 # <a name="supported-data-sources-for-power-bi-paginated-reports"></a>Power BI 分页报表支持的数据源
 
@@ -29,7 +29,7 @@ ms.locfileid: "88937438"
 | Azure SQL 托管实例 | 基本 | 通过公共或专用终结点（专用终结点需要通过企业网关进行路由）  |
 | Azure Analysis Services | SSO、OAuth2 | AAS 防火墙要么必须禁用，要么必须配置为允许 BlackForest 区域中的所有 IP 范围。 这仅适用于 BlackForest 区域。  不支持外部租户中的 SSO。 |
 | Power BI 数据集 | SSO | 高级和非高级 Power BI 数据集。 需要读取权限 |
-| 高级 Power BI 数据集 (XMLA) | SSO | 不支持将 Power BI 数据集作为嵌入式分页报表的数据源。  |
+| 高级 Power BI 数据集 (XMLA) | SSO | 在“应用拥有数据”方案中，不支持将 Power BI 数据集作为嵌入式分页报表的数据源。  若要确保 Power BI 报表生成器具有正确的连接，请确保在设置数据源时选中“不使用凭据”选项。   |
 | 输入数据 | 不适用 | 数据嵌入在报表中。 |
 
 将报表上传到 Power BI 服务之后，可使用除 Azure SQL 数据库之外的所有数据源。 如果适用的话，数据源默认使用单一登录 (SSO)。 对于 Azure Analysis Services，可将身份验证类型更改为 OAuth2。 但是，一旦将给定数据源的身份验证类型更改为 OAuth2，就无法还原回使用 SSO 了。  另外，此更改适用于跨给定租户的所有工作区使用相应数据源的全部报表。  分页报表中的行级别安全性不起作用，除非用户选择 SSO 作为身份验证类型。

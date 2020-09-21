@@ -8,12 +8,12 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 10/24/2019
 ms.author: v-pemyer
-ms.openlocfilehash: 264d3f4a0c611ca01de627b7656584ceb60e7b18
-ms.sourcegitcommit: c83146ad008ce13bf3289de9b76c507be2c330aa
+ms.openlocfilehash: 89d911680d46e159e446dbcf6bd06e2caf4b6b65
+ms.sourcegitcommit: 002c140d0eae3137a137e9a855486af6c55ad957
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/10/2020
-ms.locfileid: "86214534"
+ms.lasthandoff: 09/10/2020
+ms.locfileid: "89642616"
 ---
 # <a name="directquery-model-guidance-in-power-bi-desktop"></a>Power BI Desktop 中的 DirectQuery 模型指导
 
@@ -127,7 +127,7 @@ ms.locfileid: "86214534"
 
 ## <a name="educate-users"></a>让用户了解更多内容
 
-让用户了解如何高效使用基于 DirectQuery 数据集的报表，这一点非常重要。 报表创建者应了解[优化报表设计](#optimize-report-designs section)中描述的内容。
+让用户了解如何高效使用基于 DirectQuery 数据集的报表，这一点非常重要。 报表创建者应了解[优化报表设计](#optimize-report-designs)部分中描述的内容。
 
 建议你让报表使用者了解基于 DirectQuery 数据集的报表。 这有助于他们理解一般的数据体系结构，包括本文中所述的任何相关限制。 让他们知道，刷新响应和交互式筛选有时可能会很慢。 当报表用户了解性能退化发生的原因时，他们不太可能对报表和数据失去信任。
 

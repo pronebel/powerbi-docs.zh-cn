@@ -9,12 +9,12 @@ ms.subservice: powerbi-service
 ms.topic: how-to
 ms.date: 07/08/2020
 LocalizationGroup: Share your work
-ms.openlocfilehash: 26c27c8cd33929c7bb83a8ef5b1faed0fb12e502
-ms.sourcegitcommit: c83146ad008ce13bf3289de9b76c507be2c330aa
+ms.openlocfilehash: f652d09d5d954123a47b45b30ab1076763018225
+ms.sourcegitcommit: 002c140d0eae3137a137e9a855486af6c55ad957
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/10/2020
-ms.locfileid: "86216553"
+ms.lasthandoff: 09/10/2020
+ms.locfileid: "89642647"
 ---
 # <a name="publish-to-web-from-power-bi"></a>从 Power BI 发布到 Web
 
@@ -180,7 +180,7 @@ Power BI 管理门户具有控制可以发布到 Web 的人员的设置。 与�
 - [共享和经认证的数据集](../connect-data/service-datasets-share.md)。
 - 直接或通过组织内容包共享的报表。
 - 你不是编辑成员的工作区中的报表。
-- “发布到 Web”报表中当前不支持“R”视觉对象。
+- “发布到 Web”报表中当前不支持“R”和 Python 视觉对象。
 - 从已发布到 Web 的报表中的视觉对象中导出数据。
 - ArcGIS Maps for Power BI 视觉对象。
 - 包含报表级别 DAX 度量值的报表。

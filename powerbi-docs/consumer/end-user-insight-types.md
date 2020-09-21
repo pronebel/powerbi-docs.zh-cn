@@ -6,15 +6,15 @@ ms.reviewer: mihart
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 03/11/2020
+ms.date: 09/09/2020
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 44b66c2c8245b7f9629ad36879e6f13a5e720687
-ms.sourcegitcommit: 2131f7b075390c12659c76df94a8108226db084c
+ms.openlocfilehash: 7b5a935418aacb8de15ea6e7e942f2de440ecec1
+ms.sourcegitcommit: 92b033ee7a6e36808371b247b7b41536cee6c2f6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/03/2020
-ms.locfileid: "87537748"
+ms.lasthandoff: 09/10/2020
+ms.locfileid: "90008657"
 ---
 # <a name="types-of-insights-supported-by-power-bi"></a>Power BI 支持的见解类型
 
@@ -27,7 +27,7 @@ ms.locfileid: "87537748"
 ![一组见解](media/end-user-insight-types/power-bi-insight.png)
 
 ## <a name="how-does-insights-work"></a>见解的工作原理
-Power BI 快速搜索数据集的不同子集。 在搜索时，Power BI 会应用一组复杂的算法来发现可能有意义的见解。 Power BI 使用者  可以对仪表板磁贴运行见解。
+Power BI 快速搜索数据集的不同子集。 在搜索时，Power BI 会应用一组复杂的算法来发现可能有意义的见解。 Power BI 业务用户可以对仪表板磁贴运行见解。
 
 ## <a name="some-terminology"></a>一些术语
 Power BI 使用统计算法来发现见解。 本文的下一节会将列出并介绍这些算法。 在讨论算法之前，这里有一些可能不熟悉的术语的定义。 
@@ -44,49 +44,49 @@ Power BI 使用统计算法来发现见解。 本文的下一节会将列出并�
 ### <a name="category-outliers-topbottom"></a>类别离群值（上/下）
 突出显示一个或两个类别的值比其他类别大得多的情况。  
 
-![类别离群值示例](./media/end-user-insight-types/pbi-auto-insight-types-category-outliers.png)
+![类别离群值示例](./media/end-user-insight-types/pbi-auto-insight-type-category-outliers.png)
 
 ### <a name="change-points-in-a-time-series"></a>更改时序中的点
 突出显示数据时序中的趋势明显变化的情况。
 
-![更改时序示例中的点](./media/end-user-insight-types/pbi-auto-insight-types-changepoint.png)
+![更改时序示例中的点](./media/end-user-insight-types/pbi-auto-insight-type-changepoint.png)
 
 ### <a name="correlation"></a>关联
 当针对数据集中的类别或值进行绘制时，检测多个度量值显示相似模式或趋势的情况。
 
-![关联示例](./media/end-user-insight-types/pbi-auto-insight-types-correlation.png)
+![关联示例](./media/end-user-insight-types/pbi-auto-insight-type-correlation.png)
 
 ### <a name="low-variance"></a>低方差
 检测维度的数据点不偏离平均值的情况，因此，“方差”较低。 假设你有度量值“销售额”和维度“区域”。 跨区域查看时，你会发现数据点和（数据点的）平均值之间几乎没有差异。 当所有区域的销售额方差低于阈值时，就会触发见解。 换句话说，所有地区的销售额都非常近似。
 
-![低方差示例](./media/end-user-insight-types/power-bi-low-variance.png)
+![低方差示例](./media/end-user-insight-types/power-bi-insights-low-variance.png)
 
 ### <a name="majority-major-factors"></a>多数（主要因素）
 查找当总值由另一个维度分解时，其多数可能归因于单一因素的情况。  
 
-![主要因素示例](./media/end-user-insight-types/pbi-auto-insight-types-majority.png)
+![主要因素示例](./media/end-user-insight-types/pbi-auto-insight-type-majority.png)
 
 ### <a name="overall-trends-in-time-series"></a>时序中的整体趋势
 检测时序数据中的向上或向下趋势。
 
-![时序示例中的整体趋势](./media/end-user-insight-types/pbi-auto-insight-types-trend.png)
+![时序示例中的整体趋势](./media/end-user-insight-types/pbi-auto-insight-type-trend.png)
 
 ### <a name="seasonality-in-time-series"></a>时序中的季节性
 查找时序数据中的周期模式，例如每周、每月或每年的季节性。
 
-![季节性示例](./media/end-user-insight-types/pbi-auto-insight-types-seasonality-new.png)
+![季节性示例](./media/end-user-insight-types/pbi-auto-insight-type-seasonality-new.png)
 
 ### <a name="steady-share"></a>稳定份额
 突出显示子值的份额相对于跨连续变量的整体父值有父子关联的情况。 稳定份额见解适用于包含一个度量值、一个维度和另一个日期/时间维度的上下文。 如果特定维度值（例如，“东北地区”）在相应日期/时间维度内占总销售额的百分比稳定，就会触发此见解。
 
 稳定份额见解类似于低方差见解，因为它们都与某个值在整个时间内没有太多差异有关。 但是，稳定份额见解度量的是整个时间内总体百分比  没有太多差异，而低方差见解度量的是整个维度内绝对度量值没有太多差异。
 
-![稳定份额示例](./media/end-user-insight-types/pbi-auto-insight-types-steadyshare.png)
+![稳定份额示例](./media/end-user-insight-types/pbi-auto-insight-type-steadyshare.png)
 
 ### <a name="time-series-outliers"></a>时序离群值
 针对跨时序的数据，检测特定日期或时间值明显不同于其他日期/时间值的情况。
 
-![时序离群值示例](./media/end-user-insight-types/pbi-auto-insight-types-time-series-outliers.png)
+![时序离群值示例](./media/end-user-insight-types/pbi-auto-insight-type-time-series-outliers-purple.png)
 
 ## <a name="next-steps"></a>后续步骤
 [Power BI 见解](end-user-insights.md)

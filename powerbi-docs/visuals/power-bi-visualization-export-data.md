@@ -11,12 +11,12 @@ ms.topic: how-to
 ms.date: 05/20/2020
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: f4d1bb58093ed3c78330370d5a44a3f98ee4aae7
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 1593cecf448b193ce2186be041da771bb8d6a09c
+ms.sourcegitcommit: 92b033ee7a6e36808371b247b7b41536cee6c2f6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85238972"
+ms.lasthandoff: 09/10/2020
+ms.locfileid: "90008919"
 ---
 # <a name="export-the-data-that-was-used-to-create-a-visualization"></a>探索用于创建可视化效果的数据
 
@@ -268,7 +268,9 @@ Power BI 报表设计器控制向使用者提供的数据导出选项的类型�
   
   1. 转到存储此文件的本地文件夹，并选择“.csv”。
 
-- 导出到 .csv 时，某些字符会通过前导“'”进行转义。
+- 在导出到 .csv 时，系统会使用前导 ' 来转义某些字符，以防止在 Excel 中打开时执行脚本。 在以下情况下会发生这种情况：
+  - 列定义为数据模型中的文本”类型，并且
+  - 文本的第一个字符是以下字符之一：=、@、+、-
 
 - Power BI 管理员可以禁用数据导出功能。
 
