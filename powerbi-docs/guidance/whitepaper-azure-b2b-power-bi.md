@@ -9,29 +9,29 @@ ms.topic: conceptual
 ms.date: 03/07/2019
 ms.author: davidi
 LocalizationGroup: Conceptual
-ms.openlocfilehash: 2783f434e2bb1d6d45ed1a9442c60da7b09e7ae4
-ms.sourcegitcommit: e8b12d97076c1387088841c3404eb7478be9155c
+ms.openlocfilehash: 9125c87f96641852a16410d3f8287c714816fb4b
+ms.sourcegitcommit: cff93e604e2c5f24e0f03d6dbdcd10c2332aa487
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/01/2020
-ms.locfileid: "85782791"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90965371"
 ---
 # <a name="distribute-power-bi-content-to-external-guest-users-using-azure-active-directory-b2b"></a>使用 Azure Active Directory B2B 将 Power BI 内容分发给外部来宾用户
 
-**摘要：** 这是一项技术白皮书，其中概述了如何使用 Azure Active Directory 企业到企业（Azure AD B2B）的集成，将内容分发给组织外部的用户。
+**摘要：** 这是一项技术白皮书，其中概述了如何使用 Azure Active Directory 企业到企业 (Azure AD B2B) 集成将内容分发给组织外部的用户。
 
 **编写器：** Lukasz Pawlowski，Kasper de Jonge
 
 **技术审阅者：** Adam Wilson、Sheng Liu、Qian Liang、Sergei Gundorov、Jacob Grimm、Adam Saxton、Maya Shenhav、Nimrod Shalit、Elisabeth Olson
 
 > [!NOTE]
-> 可以通过在浏览器中选择 "**打印**"，然后选择 "**另存为 PDF**" 来保存或打印此白皮书。
+> 可以通过在浏览器中选择 " **打印** "，然后选择 " **另存为 PDF**" 来保存或打印此白皮书。
 
 ## <a name="introduction"></a>简介
 
 Power BI 为组织提供了360度的业务视图，并使这些组织中的每个人都可以使用数据做出明智的决策。 其中的许多组织都具有与外部合作伙伴、客户和承包商的强大信任关系。 这些组织需要提供对这些外部合作伙伴中的用户 Power BI 的仪表板和报表的安全访问。
 
-Power BI 与[Azure Active Directory 企业到企业（AZURE AD B2B）](https://docs.microsoft.com/azure/active-directory/b2b/what-is-b2b)集成，以允许将 Power BI 内容安全地分发给组织外的来宾用户-同时仍保持控制和控制对内部数据的访问。
+Power BI 与 [Azure Active Directory 企业到企业 (AZURE AD B2B) ](/azure/active-directory/b2b/what-is-b2b) ，以允许将 Power BI 内容安全分发给组织外的来宾用户-同时仍保持控制和控制对内部数据的访问。
 
 本白皮书介绍 Power BI 与 Azure Active Directory B2B 集成所需的所有详细信息。 我们涵盖了最常见的用例、设置、许可和行级别安全性。
 
@@ -64,7 +64,7 @@ Contoso 与为 Contoso 汽车构建 radiators 的供应商合作。 通常，他
 
 Contoso 与转包商合作来执行 radiators 的可靠性分析。 转包商团队有10名用户需要访问 Contoso Power BI 环境中的数据。 Contoso Azure AD 管理员参与邀请所有用户，并在转包商发生变化时处理任何添加/更改。 Azure AD 管理员为转包商的所有员工创建安全组。 Contoso 的员工可以使用安全组来轻松管理对报表的访问权限，并确保所有必需的转包人员均可访问所有必需的报表、仪表板和 Power BI 应用。 Azure AD 管理员还可以通过选择将邀请权限委托给 Contoso 或转包商的受信任员工，来避免邀请过程中涉及邀请，以确保及时进行人员管理。
 
-某些组织需要更好地控制何时添加外部用户、邀请外部组织中的许多用户或许多外部组织。 在这些情况下，计划共享可用于管理共享规模、强制实施组织策略，甚至还可以委派受信任人员邀请和管理外部用户的权限。 Azure AD B2B 支持计划的邀请[由 IT 管理员直接从 Azure 门户](https://docs.microsoft.com/azure/active-directory/b2b/add-users-administrator)发送，或通过[使用邀请管理器 API](https://docs.microsoft.com/azure/active-directory/b2b/customize-invitation-api) （其中一组用户可在一个操作中受邀请）通过 PowerShell 进行发送。 使用计划的邀请方法，组织可以控制谁可以邀请用户和实施审批流程。 像动态组这样的高级 Azure AD 功能可以轻松地自动维护安全组成员身份。
+某些组织需要更好地控制何时添加外部用户、邀请外部组织中的许多用户或许多外部组织。 在这些情况下，计划共享可用于管理共享规模、强制实施组织策略，甚至还可以委派受信任人员邀请和管理外部用户的权限。 Azure AD B2B 支持计划的邀请 [由 IT 管理员直接从 Azure 门户](/azure/active-directory/b2b/add-users-administrator)发送，或通过 [使用邀请管理器 API](/azure/active-directory/b2b/customize-invitation-api) （其中一组用户可在一个操作中受邀请）通过 PowerShell 进行发送。 使用计划的邀请方法，组织可以控制谁可以邀请用户和实施审批流程。 像动态组这样的高级 Azure AD 功能可以轻松地自动维护安全组成员身份。
 
 
 ![控制哪些来宾可以查看内容](media/whitepaper-azure-b2b-power-bi/whitepaper-azure-b2b-power-bi_02.png)
@@ -80,7 +80,7 @@ Contoso 与转包商合作来执行 radiators 的可靠性分析。 转包商团
 
 Contoso 有一组报表和仪表板需要与一个或多个供应商共享。 为了确保所有必需的外部用户都可以访问此内容，将其打包为 Power BI 应用。 外部用户可以直接添加到应用访问列表中，也可以通过安全组添加。 Contoso 的某人然后将应用 URL 发送给所有外部用户，例如，在电子邮件中。 当外部用户打开该链接时，他们将看到一个易于导航的内容。
 
-使用 Power BI 应用，Contoso 可以轻松地为其供应商构建 BI 门户。 单个访问列表控制对所需的所有内容的访问，从而减少检查和设置项目级别权限所需的时间。 Azure AD B2B 使用供应商的本机标识维护安全访问权限，因此用户无需额外的登录凭据。 如果将计划的邀请与安全组结合使用，则会简化对应用进行的访问管理。 安全组中的成员身份手动或通过使用[动态组](https://docs.microsoft.com/azure/active-directory/b2b/use-dynamic-groups)，使来自供应商的所有外部用户自动添加到相应的安全组。
+使用 Power BI 应用，Contoso 可以轻松地为其供应商构建 BI 门户。 单个访问列表控制对所需的所有内容的访问，从而减少检查和设置项目级别权限所需的时间。 Azure AD B2B 使用供应商的本机标识维护安全访问权限，因此用户无需额外的登录凭据。 如果将计划的邀请与安全组结合使用，则会简化对应用进行的访问管理。 安全组中的成员身份手动或通过使用 [动态组](/azure/active-directory/b2b/use-dynamic-groups)，使来自供应商的所有外部用户自动添加到相应的安全组。
 
 
 ![用 AAD 控制内容](media/whitepaper-azure-b2b-power-bi/whitepaper-azure-b2b-power-bi_03.png)
@@ -94,7 +94,7 @@ Contoso 有一组报表和仪表板需要与一个或多个供应商共享。 �
 
 ### <a name="commenting-and-subscribing-to-content-across-organizations"></a>在组织中注释和订阅内容
 
-由于 Contoso 继续与分包商或供应商合作，外部工程师需要与 Contoso 的分析师密切合作。 Power BI 提供了几种协作功能，可帮助用户传达他们可使用的内容。 "仪表板" 注释（并且不久报告注释）允许用户讨论他们看到的数据点，并与报表作者联系以提出问题。
+由于 Contoso 继续与分包商或供应商合作，外部工程师需要与 Contoso 的分析师密切合作。 Power BI 提供了几种协作功能，可帮助用户传达他们可使用的内容。 "仪表板" 注释 (和不久的报表注释) 使用户能够讨论他们看到的数据点，并与报表作者一起提出问题。
 
 目前，外部来宾用户可以通过留言并阅读回复来参与注释。 但是，与内部用户不同，来宾用户不能为 @mentioned ，也不会收到收到评论的通知。 在撰写本文时，来宾用户不能使用 Power BI 中的订阅功能。 在即将发布的版本中，将会提升这些限制，并且来宾用户在收到电子邮件时将收到一封电子邮件 @mentions ，或者将订阅发送到其电子邮件，其中包含指向 Power BI 内容的链接。
 
@@ -103,13 +103,13 @@ Contoso 有一组报表和仪表板需要与一个或多个供应商共享。 �
 在即将发布的版本中，当 Contoso 的用户与其外部来宾共享报表或仪表板时，Power BI 将发送一封电子邮件通知来宾。 当来宾用户在其移动设备上打开指向报表或仪表板的链接时，如果安装了这些内容，内容将在其设备上的本机 Power BI 移动应用中打开。 然后，来宾用户可以在外部租户中与他们共享的内容之间导航，然后在其主租户中导航回来的内容。
 
 > [!NOTE]
-> 来宾用户无法打开 Power BI 移动应用并立即导航到外部租户，它们必须以指向外部租户中的项的链接开头。 本文档后面的 "将[链接链接到父组织的 Power BI 中的内容](#distributing-links-to-content-in-the-parent-organizations-power-bi)" 一节中介绍了常见的解决方法。
+> 来宾用户无法打开 Power BI 移动应用并立即导航到外部租户，它们必须以指向外部租户中的项的链接开头。 本文档后面的 "将 [链接链接到父组织的 Power BI 中的内容](#distributing-links-to-content-in-the-parent-organizations-power-bi) " 一节中介绍了常见的解决方法。
 
 ### <a name="cross-organization-editing-and-management-of-power-bi-content"></a>跨组织编辑和管理 Power BI 内容
 
 Contoso 及其供应商和分包商在一起合作。 通常，转包商需要将其他指标或数据可视化效果添加到 Contoso 与他们共享的报表中。 数据应驻留在 Contoso 的 Power BI 租户中，但外部用户应该能够对其进行编辑、创建新内容，甚至可以将其分发给适当的个人。
 
-Power BI 提供了一个选项，使**外部来宾用户可以编辑和管理**组织中的内容。 默认情况下，外部用户具有只读的面向消费的体验。 但是，这种新设置允许 Power BI 管理员选择哪些外部用户可以在其自己的组织中编辑和管理内容。 允许外部用户在工作区中编辑报表、仪表板、发布或更新应用，并连接到他们有权使用的数据。
+Power BI 提供了一个选项，使 **外部来宾用户可以编辑和管理** 组织中的内容。 默认情况下，外部用户具有只读的面向消费的体验。 但是，这种新设置允许 Power BI 管理员选择哪些外部用户可以在其自己的组织中编辑和管理内容。 允许外部用户在工作区中编辑报表、仪表板、发布或更新应用，并连接到他们有权使用的数据。
 
 此方案将在本文档后面的 "使外部用户在 Power BI 中编辑和管理内容" 一节中详细描述。
 
@@ -157,18 +157,18 @@ Contoso 与 radiator 供应商的关系是组织之间直接协作的一个示�
 
 第二种方法依赖于跨组织编辑和管理 Power BI 内容功能。 父组织允许子公司的用户访问其 Power BI，并控制他们可通过权限访问的内容。 这将提供对 Power BI Home 的访问权限，其中，来自于子公司的用户在父组织的租户中看到与他们共享的内容的完整列表。 然后，将向子公司的用户提供父组织的 Power BI 环境的 URL。
 
-最终方法使用在每个子公司 Power BI 租户中创建的 Power BI 应用。 Power BI 应用包含一个仪表板，其中包含使用[external link 选项配置的磁贴](https://docs.microsoft.com/power-bi/service-dashboard-edit-tile#hyperlink)。 用户按下磁贴时，它们将被转到父组织的 Power BI 中的相应报表、仪表板或应用。 此方法的优点是，可以为子公司中的所有用户自动安装应用程序，并在用户登录到自己的 Power BI 环境时对其可用。 此方法的一个优点是它与可在本地打开链接的 Power BI 移动应用程序很好地配合工作。 你还可以将其与第二种方法结合使用，以便在 Power BI 环境之间更轻松地进行切换。
+最终方法使用在每个子公司 Power BI 租户中创建的 Power BI 应用。 Power BI 应用包含一个仪表板，其中包含使用 [external link 选项配置的磁贴](../create-reports/service-dashboard-edit-tile.md#hyperlink)。 用户按下磁贴时，它们将被转到父组织的 Power BI 中的相应报表、仪表板或应用。 此方法的优点是，可以为子公司中的所有用户自动安装应用程序，并在用户登录到自己的 Power BI 环境时对其可用。 此方法的一个优点是它与可在本地打开链接的 Power BI 移动应用程序很好地配合工作。 你还可以将其与第二种方法结合使用，以便在 Power BI 环境之间更轻松地进行切换。
 
 #### <a name="allowing-subsidiary-users-to-access-data-sources-hosted-by-the-parent-organization"></a>允许子公司用户访问父组织托管的数据源
 
 通常，分支机构中的分析人员需要使用父组织提供的数据来创建自己的分析。 在这种情况下，通常使用云数据源来解决该问题。
 
-第一种方法是利用[Azure Analysis Services](https://docs.microsoft.com/azure/analysis-services/analysis-services-overview)来构建一个企业级数据仓库，该数据仓库满足整个家长及其子公司的分析人员需求，如下图所示。 Contoso 可以托管数据并使用行级别安全性等功能，以确保每个子公司的用户只能访问其数据。 每个组织的分析师可以通过 Power BI Desktop 访问数据仓库，并将所得到的分析发布到各自 Power BI 租户。
+第一种方法是利用 [Azure Analysis Services](/azure/analysis-services/analysis-services-overview) 来构建一个企业级数据仓库，该数据仓库满足整个家长及其子公司的分析人员需求，如下图所示。 Contoso 可以托管数据并使用行级别安全性等功能，以确保每个子公司的用户只能访问其数据。 每个组织的分析师可以通过 Power BI Desktop 访问数据仓库，并将所得到的分析发布到各自 Power BI 租户。
 
 ![如何与 Power BI 租户进行共享](media/whitepaper-azure-b2b-power-bi/whitepaper-azure-b2b-power-bi_07.png)
 
 
-第二种方法利用[AZURE SQL 数据库](https://azure.microsoft.com/services/sql-database/)来构建关系数据仓库，以提供对数据的访问。 这与 Azure Analysis Services 方法的工作方式相同，但某些功能（例如行级别安全性）可能更难跨子公司进行部署和维护。
+第二种方法利用 [AZURE SQL 数据库](https://azure.microsoft.com/services/sql-database/) 来构建关系数据仓库，以提供对数据的访问。 这与 Azure Analysis Services 方法的工作方式相同，但某些功能（例如行级别安全性）可能更难跨子公司进行部署和维护。
 
 此外，还可以使用更复杂的方法，但这是最常见的方法。
 
@@ -188,7 +188,7 @@ Contoso 可能进入与竞争对手的合作关系，以在共享的程序集线
 
 若要建立共享 Power BI 租户，需要创建一个 Azure Active Directory 并且需要为该 Active Directory 中的用户购买至少一个 Power BI Pro 用户帐户。 此用户邀请所需的用户到共享组织。 重要的是，在此方案中，Contoso 的用户在共享组织的 Power BI 内操作时，会被视为外部用户。
 
-过程如下：
+流程如下：
 
 1. 共享组织建立为新 Azure Active Directory，并在新组织中创建至少一个用户帐户。 应为该用户分配 Power BI Pro 许可证。
 2. 然后，此用户建立 Power BI 租户，并邀请 Contoso 和合作伙伴组织所需的用户。 用户还建立任何共享数据资产，如 Azure Analysis Services。 Contoso 和合作伙伴的用户可以作为来宾用户访问共享组织的 Power BI。 如果允许编辑和管理中的内容 Power BI 外部用户可以使用 Power BI home、使用工作区、上传或编辑内容和共享报表。 通常，所有共享资产都是从共享组织存储和访问的。
@@ -214,7 +214,7 @@ Power BI 与 Azure AD B2B 的集成为 Contoso 提供一种无缝且无障碍的
 
 1. 在 Power BI 中创建 BI 门户
 
-    Contoso 的第一个任务是在 Power BI 中创建其 BI 门户。 Contoso 的 BI 门户将包含一系列专门构建的仪表板和报表，这些仪表板和报表将提供给许多内部用户和来宾用户。 在 Power BI 中执行此操作的建议方法是生成 Power BI 应用。 详细了解[Power BI 中的应用](https://powerbi.microsoft.com/blog/distribute-to-large-audiences-with-power-bi-apps/)。
+    Contoso 的第一个任务是在 Power BI 中创建其 BI 门户。 Contoso 的 BI 门户将包含一系列专门构建的仪表板和报表，这些仪表板和报表将提供给许多内部用户和来宾用户。 在 Power BI 中执行此操作的建议方法是生成 Power BI 应用。 详细了解 [Power BI 中的应用](https://powerbi.microsoft.com/blog/distribute-to-large-audiences-with-power-bi-apps/)。
 
 - Contoso 的 BI 团队在 Power BI 中创建一个工作区
 
@@ -244,7 +244,7 @@ Power BI 与 Azure AD B2B 的集成为 Contoso 提供一种无缝且无障碍的
 
     在此方法中，Contoso 提前邀请来宾用户的 Azure AD，然后将 Power BI 内容分发给他们。 Contoso 可以从 Azure 门户或使用 PowerShell 邀请来宾用户。 下面是从 Azure 门户邀请来宾用户的步骤：
 
-    - Contoso 的 Azure AD 管理员导航到**Azure 门户 > Azure Active Directory > 用户和组 > 所有用户 > 新的来宾用户**
+    - Contoso 的 Azure AD 管理员导航到 **Azure 门户 > Azure Active Directory > 用户和组 > 所有用户 > 新的来宾用户**
 
     ![来宾用户](media/whitepaper-azure-b2b-power-bi/whitepaper-azure-b2b-power-bi_15.png)
 
@@ -257,7 +257,7 @@ Power BI 与 Azure AD B2B 的集成为 Contoso 提供一种无缝且无障碍的
     > [!NOTE]
     > 若要从 Azure 门户邀请来宾用户，你需要拥有租户 Azure Active Directory 的管理员。
 
-    如果 Contoso 想邀请多个来宾用户，可以使用 PowerShell 来完成。 Contoso 的 Azure AD 管理员在 CSV 文件中存储所有来宾用户的电子邮件地址。 下面是[AZURE ACTIVE DIRECTORY B2B 协作代码和 PowerShell 示例](https://docs.microsoft.com/azure/active-directory/b2b/code-samples)和说明。
+    如果 Contoso 想邀请多个来宾用户，可以使用 PowerShell 来完成。 Contoso 的 Azure AD 管理员在 CSV 文件中存储所有来宾用户的电子邮件地址。 下面是 [AZURE ACTIVE DIRECTORY B2B 协作代码和 PowerShell 示例](/azure/active-directory/b2b/code-samples) 和说明。
 
     邀请后，来宾用户将收到一封包含邀请链接的电子邮件。
 
@@ -267,7 +267,7 @@ Power BI 与 Azure AD B2B 的集成为 Contoso 提供一种无缝且无障碍的
     来宾用户单击该链接后，即可访问 Contoso Azure AD 租户中的内容。
 
     > [!NOTE]
-    > 可以使用[此处](https://docs.microsoft.com/azure/active-directory/active-directory-b2b-invitation-email)所述的 Azure AD 品牌功能更改邀请电子邮件的布局。
+    > 可以使用 [此处](/azure/active-directory/active-directory-b2b-invitation-email)所述的 Azure AD 品牌功能更改邀请电子邮件的布局。
 
 
     **即席邀请**
@@ -331,12 +331,12 @@ Power BI 与 Azure AD B2B 的集成适用于所有业务电子邮件地址。 �
 
 必须认识到 Azure AD 帐户将在外部方的 Azure AD 中使用或创建，这将使 Lucy 可以使用其自己的用户名和密码，并且每当 Lucy 在组织也使用 Azure AD 时，他们的凭据将在其他租户中自动停止工作。
 
-## <a name="licensing"></a>授权
+## <a name="licensing"></a>许可
 
 Contoso 可以选择以下三种方法之一，让来宾用户从其供应商和合作伙伴组织那里获得 Power BI 内容的访问权限。
 
 > [!NOTE]
-> _Azure AD B2B's 免费层足以与 AZURE AD B2B 一起使用 Power BI。某些高级 Azure AD B2B 功能（如动态组）需要额外的许可。有关其他信息，请参阅 Azure AD B2B 文档：_[_https://docs.microsoft.com/azure/active-directory/b2b/licensing-guidance_](https://docs.microsoft.com/azure/active-directory/b2b/licensing-guidance)
+> _Azure AD B2B's 免费层足以与 AZURE AD B2B 一起使用 Power BI。某些高级 Azure AD B2B 功能（如动态组）需要额外的许可。有关其他信息，请参阅 Azure AD B2B 文档：_[_https://docs.microsoft.com/azure/active-directory/b2b/licensing-guidance_](/azure/active-directory/b2b/licensing-guidance)
 
 ### <a name="approach-1-contoso-uses-power-bi-premium"></a>方法1： Contoso 使用 Power BI Premium
 
@@ -354,17 +354,17 @@ Contoso 还可以利用对其应用的其他 Power BI 高级功能，如提高�
 通过这种方法，Contoso 将 pro 许可证分配给合作伙伴组织中的来宾用户-可以从 Contoso Microsoft 365 管理中心完成此操作。 这允许合作伙伴组织中的来宾用户访问 Contoso 的 Power BI 应用，而无需购买许可证。 这可能适合与组织尚未采用 Power BI 的外部用户共享。
 
 > [!NOTE]
-> 仅当来宾用户访问 Contoso 租户中的内容时，Contoso 的 pro 许可证才适用。 Pro 许可证允许访问不在 Power BI Premium 容量的内容。 但是，默认情况下，具有 Pro 许可证的外部用户将被限制为仅消耗体验。 这可以使用本文档后面的 "在_Power BI 中启用外部用户来编辑和管理内容_" 部分中所述的方法进行更改。
+> 仅当来宾用户访问 Contoso 租户中的内容时，Contoso 的 pro 许可证才适用。 Pro 许可证允许访问不在 Power BI Premium 容量的内容。 但是，默认情况下，具有 Pro 许可证的外部用户将被限制为仅消耗体验。 这可以使用本文档后面的 "在 _Power BI 中启用外部用户来编辑和管理内容_ " 部分中所述的方法进行更改。
 
 ![许可证信息](media/whitepaper-azure-b2b-power-bi/whitepaper-azure-b2b-power-bi_25.png)
 
 
 ### <a name="approach-3-guest-users-bring-their-own-power-bi-pro-license"></a>方法3：来宾用户自带 Power BI Pro 许可证
 
-使用此方法时，供应商1将 Power BI Pro 许可证分配给 Lucy。 然后，他们可以使用此许可证访问 Contoso 的 Power BI 应用。 由于在访问外部 Power BI 环境时，Lucy 可以使用其自己的组织中的 Pro 许可证，因此此方法有时称为_自带许可证_（BYOL）。 如果两个组织都在使用 Power BI，则这将为整体分析解决方案提供有利的许可，并将向外部用户分配许可证的开销降到最低。
+使用此方法时，供应商1将 Power BI Pro 许可证分配给 Lucy。 然后，他们可以使用此许可证访问 Contoso 的 Power BI 应用。 由于在访问外部 Power BI 环境时，Lucy 可以使用其自己的组织中的 Pro 许可证，因此这种方法有时也称为 " _自带许可证_ (BYOL) "。 如果两个组织都在使用 Power BI，则这将为整体分析解决方案提供有利的许可，并将向外部用户分配许可证的开销降到最低。
 
 > [!NOTE]
-> 向 Lucy 提供的由供应商1提供的 pro 许可证适用于任何 Power BI 租户，其中 Lucy 是来宾用户。 Pro 许可证允许访问不在 Power BI Premium 容量的内容。 但是，默认情况下，具有 Pro 许可证的外部用户将被限制为仅消耗体验。 这可以通过使用本文档后面的 "在_Power BI 中启用外部用户来编辑和管理内容_" 部分中所述的方法更改。
+> 向 Lucy 提供的由供应商1提供的 pro 许可证适用于任何 Power BI 租户，其中 Lucy 是来宾用户。 Pro 许可证允许访问不在 Power BI Premium 容量的内容。 但是，默认情况下，具有 Pro 许可证的外部用户将被限制为仅消耗体验。 这可以通过使用本文档后面的 "在 _Power BI 中启用外部用户来编辑和管理内容_ " 部分中所述的方法更改。
 
 ![Pro 许可证要求](media/whitepaper-azure-b2b-power-bi/whitepaper-azure-b2b-power-bi_26.png)
 
@@ -374,7 +374,7 @@ Contoso 还可以利用对其应用的其他 Power BI 高级功能，如提高�
 
 ### <a name="user-based-security"></a>基于用户的安全性
 
-行级别安全性 Power BI 最强大的功能之一。 此功能允许 Contoso 创建单个报表和数据集，但仍对每个用户应用不同的安全规则。 有关详细说明，请参阅[行级安全性（RLS）](https://powerbi.microsoft.com/documentation/powerbi-admin-rls/)。
+行级别安全性 Power BI 最强大的功能之一。 此功能允许 Contoso 创建单个报表和数据集，但仍对每个用户应用不同的安全规则。 有关详细说明，请参阅 [行级别安全性 (RLS) ](https://powerbi.microsoft.com/documentation/powerbi-admin-rls/)。
 
 Power BI 与 Azure AD B2B 的集成，Contoso 可以在将客户邀请到 Contoso 租户后立即将行级别安全性规则分配给来宾用户。 如前所述，Contoso 可以通过计划或即席邀请添加来宾用户。 如果 Contoso 希望强制执行行级别安全性，则强烈建议使用计划的邀请提前添加来宾用户，并将其分配到安全角色，然后再共享内容。 如果 Contoso 改为使用即席邀请，则可能会有一小段时间，来宾用户将无法查看任何数据。
 
@@ -391,7 +391,7 @@ Power BI 与 Azure AD B2B 的集成，Contoso 可以在将客户邀请到 Contos
 
 ![管理角色](media/whitepaper-azure-b2b-power-bi/whitepaper-azure-b2b-power-bi_28.png)
 
-当在报表中定义角色时，必须为用户分配特定角色才能访问任何数据。 角色分配发生在 Power BI 服务内（**数据集 > 安全性**）
+当在报表中定义角色时，必须为用户分配特定角色才能访问任何数据。 角色分配发生在 Power BI 服务 ( **数据集的内部 > 安全** ) 
 
 ![设置安全性](media/whitepaper-azure-b2b-power-bi/whitepaper-azure-b2b-power-bi_29.png)
 
@@ -413,9 +413,9 @@ Azure AD 解决此情况后，Contoso 可以看到该名称显示在 "准备添�
 
 ### <a name="dynamic-row-level-security"></a>动态行级别安全性
 
-另一个有趣的主题是了解动态行级别安全性（RLS）如何与 Azure AD B2B 一起工作。
+另一个有趣的主题是了解动态行级别安全性 (RLS) 如何与 Azure AD B2B 一起工作。
 
-简而言之，动态行级别安全性的工作方式是根据连接到 Power BI 的用户的用户名筛选模型中的数据。 您可以在模型中定义用户，而不是为用户组添加多个角色。 本文不会详细介绍此模式。 Kasper de Jong 提供[Power BI Desktop 动态安全](https://www.kasperonbi.com/power-bi-desktop-dynamic-security-cheat-sheet/)备忘单和[此白皮书](https://download.microsoft.com/download/D/2/0/D20E1C5F-72EA-4505-9F26-FEF9550EFD44/Securing%20the%20Tabular%20BI%20Semantic%20Model.docx)中的所有行级别安全性的风格的详细信息。
+简而言之，动态行级别安全性的工作方式是根据连接到 Power BI 的用户的用户名筛选模型中的数据。 您可以在模型中定义用户，而不是为用户组添加多个角色。 本文不会详细介绍此模式。 Kasper de Jong 提供 [Power BI Desktop 动态安全](https://www.kasperonbi.com/power-bi-desktop-dynamic-security-cheat-sheet/)备忘单和 [此白皮书](https://download.microsoft.com/download/D/2/0/D20E1C5F-72EA-4505-9F26-FEF9550EFD44/Securing%20the%20Tabular%20BI%20Semantic%20Model.docx) 中的所有行级别安全性的风格的详细信息。
 
 我们来看一个小示例-Contoso 提供了一个关于按组销售的简单报表：
 
@@ -429,7 +429,7 @@ Azure AD 解决此情况后，Contoso 可以看到该名称显示在 "准备添�
 
 ![显示适当的数据](media/whitepaper-azure-b2b-power-bi/whitepaper-azure-b2b-power-bi_36.png)
 
-若要基于登录用户自动筛选数据，Contoso 需要创建一个在连接的用户中传递的角色。 在这种情况下，Contoso 会创建两个角色–第一个是 "securityrole"，它使用登录到 Power BI 的用户的当前用户名对用户表进行筛选（这甚至适用于 Azure AD B2B 来宾用户）。
+若要基于登录用户自动筛选数据，Contoso 需要创建一个在连接的用户中传递的角色。 在这种情况下，Contoso 会创建两个角色–第一个是 "securityrole"，它使用登录到 Power BI 的用户的当前用户名来筛选用户表 (此操作即使 Azure AD B2B 来宾用户) 也是如此。
 
 ![管理角色](media/whitepaper-azure-b2b-power-bi/whitepaper-azure-b2b-power-bi_37.png)
 
@@ -441,7 +441,7 @@ Contoso 还会为可查看所有内容的内部用户创建另一个 "AllRole" �
 
 ![仅在组 A 中](media/whitepaper-azure-b2b-power-bi/whitepaper-azure-b2b-power-bi_38.png)
 
-在右侧的矩阵中，可以看到 USERNAME （）和 USERPRINCIPALNAME （）函数的结果都返回来宾用户电子邮件地址。
+在右侧的矩阵中，可以看到用户名 ( # A1 和 USERPRINCIPALNAME ( # A3 函数都返回来宾用户电子邮件地址。
 
 现在，内部用户可查看所有数据：
 
@@ -454,29 +454,29 @@ Contoso 还会为可查看所有内容的内部用户创建另一个 "AllRole" �
 
 ## <a name="connecting-to-on-premises-data-sources"></a>连接到本地数据源
 
-Power BI 为 Contoso 提供[SQL Server Analysis Services](https://powerbi.microsoft.com/documentation/powerbi-gateway-enterprise-manage-ssas/)或[SQL Server](https://powerbi.microsoft.com/documentation/powerbi-gateway-kerberos-for-sso-pbi-to-on-premises-data/)的本地数据源（如[本地数据网关）](https://powerbi.microsoft.com/documentation/powerbi-gateway-onprem/)的功能。 甚至可以使用与 Power BI 一起使用的相同凭据登录到这些数据源。
+Power BI 为 Contoso 提供 [SQL Server Analysis Services](https://powerbi.microsoft.com/documentation/powerbi-gateway-enterprise-manage-ssas/) 或 [SQL Server](https://powerbi.microsoft.com/documentation/powerbi-gateway-kerberos-for-sso-pbi-to-on-premises-data/) 的本地数据源（如 [本地数据网关）](https://powerbi.microsoft.com/documentation/powerbi-gateway-onprem/)的功能。 甚至可以使用与 Power BI 一起使用的相同凭据登录到这些数据源。
 
 > [!NOTE]
 > 在安装网关以连接到 Power BI 租户时，必须使用在租户中创建的用户。 外部用户无法安装网关并将其连接到你的租户. _
 
-对于外部用户，这可能更复杂，因为外部用户通常对本地 AD 是未知的。 Power BI 提供了一种解决方法，允许 Contoso 管理员将外部用户名映射到内部用户名，如[管理数据源-Analysis Services](https://powerbi.microsoft.com/documentation/powerbi-gateway-enterprise-manage-ssas/)中所述。 例如， [lucy@supplier1.com](mailto:lucy@supplier1.com) 可以映射到[lucy \_ supplier1 \_ com # EXT@contoso.com ](mailto:lucy_supplier1_com)。
+对于外部用户，这可能更复杂，因为外部用户通常对本地 AD 是未知的。 Power BI 提供了一种解决方法，允许 Contoso 管理员将外部用户名映射到内部用户名，如 [管理数据源-Analysis Services](https://powerbi.microsoft.com/documentation/powerbi-gateway-enterprise-manage-ssas/)中所述。 例如， [lucy@supplier1.com](mailto:lucy@supplier1.com) 可以映射到[lucy \_ supplier1 \_ com # EXT@contoso.com ](mailto:lucy_supplier1_com)。
 
 ![映射用户名称](media/whitepaper-azure-b2b-power-bi/whitepaper-azure-b2b-power-bi_40.png)
 
-如果 Contoso 仅有少量用户或 Contoso 可以将所有外部用户映射到单个内部帐户，则此方法很合适。 对于更复杂的方案，其中每个用户都需要自己的凭据，还有一种更高级的方法，它使用[自定义 AD 特性](https://technet.microsoft.com/library/cc961737.aspx)来完成映射，如[管理数据源-Analysis Services](https://powerbi.microsoft.com/documentation/powerbi-gateway-enterprise-manage-ssas/)中所述。 这将允许 Contoso 管理员为 Azure AD 中的每个用户（也是外部 B2B 用户）定义一个映射。  这些属性可以通过使用脚本或代码的 AD 对象模型进行设置，因此 Contoso 可以完全自动完成邀请或计划节奏上的映射。
+如果 Contoso 仅有少量用户或 Contoso 可以将所有外部用户映射到单个内部帐户，则此方法很合适。 对于更复杂的方案，其中每个用户都需要自己的凭据，还有一种更高级的方法，它使用 [自定义 AD 特性](/previous-versions/windows/it-pro/windows-2000-server/cc961737(v=technet.10)) 来完成映射，如 [管理数据源-Analysis Services](https://powerbi.microsoft.com/documentation/powerbi-gateway-enterprise-manage-ssas/)中所述。 这将允许 Contoso 管理员为你的 Azure AD 中的每个用户定义映射 (也可以定义外部 B2B 用户) 。  这些属性可以通过使用脚本或代码的 AD 对象模型进行设置，因此 Contoso 可以完全自动完成邀请或计划节奏上的映射。
 
 ## <a name="enabling-external-users-to-edit-and-manage-content-within-power-bi"></a>使外部用户能够编辑和管理 Power BI 中的内容
 
 Contoso 可允许外部用户在组织内提供内容，如前文所组织编辑和管理 Power BI 内容 "部分中所述。
 
 > [!NOTE]
-> 若要编辑和管理组织的 Power BI 中的内容，用户必须在工作区之外的工作区中具有 Power BI Pro 许可证。 用户可以获取本文档的 "_许可_" 部分中介绍的 Pro 许可证。
+> 若要编辑和管理组织的 Power BI 中的内容，用户必须在工作区之外的工作区中具有 Power BI Pro 许可证。 用户可以获取本文档的 " _许可_ " 部分中介绍的 Pro 许可证。
 
-Power BI 管理门户在租户设置中的 "组织" 设置中提供 "**允许外部来宾用户编辑和管理内容**"。 默认情况下，此设置设置为 "已禁用"，表示外部用户默认情况下会获得受限制的只读体验。 此设置适用于在 Azure AD 中将 UserType 设置为 Guest 的用户。 下表描述了用户体验的行为，具体取决于用户的 UserType 和配置设置的方式。
+Power BI 管理门户在租户设置中的 "组织" 设置中提供 " **允许外部来宾用户编辑和管理内容** "。 默认情况下，此设置设置为 "已禁用"，表示外部用户默认情况下会获得受限制的只读体验。 此设置适用于在 Azure AD 中将 UserType 设置为 Guest 的用户。 下表描述了用户体验的行为，具体取决于用户的 UserType 和配置设置的方式。
 
 | **Azure AD 中的用户类型** | **允许外部来宾用户编辑和管理内容设置** | **行为** |
 | --- | --- | --- |
-| 来宾 | 为用户禁用（默认值） | 按项仅消耗视图。 通过发送给来宾用户的 URL 查看报表、仪表板和应用时，允许对报表、仪表板和应用进行只读访问。 Power BI 移动版应用为来宾用户提供只读视图。 |
+| 来宾 | 为用户禁用 (默认值)  | 按项仅消耗视图。 通过发送给来宾用户的 URL 查看报表、仪表板和应用时，允许对报表、仪表板和应用进行只读访问。 Power BI 移动版应用为来宾用户提供只读视图。 |
 | 来宾 | 已为用户启用 | 外部用户可以访问完整的 Power BI 体验，不过某些功能不可用于这些功能。 外部用户必须使用包含租户信息的 Power BI 服务 URL 登录到 Power BI。 用户获取家庭体验、"我的工作区"，并根据权限来浏览、查看和创建内容。 </br></br> Power BI 移动版应用为来宾用户提供只读视图。 |
 
 > [!NOTE]
@@ -490,8 +490,8 @@ Power BI 管理门户在租户设置中的 "组织" 设置中提供 "**允许外
 
 若要帮助这些用户登录到 Power BI，请为他们提供租户 URL。 要查找租户 URL，请执行以下步骤。
 
-1. 在 Power BI 服务的顶部菜单中，选择 "帮助" （ **？** ），然后**就 Power BI**。
-2. 查找 "**租户 URL**" 旁边的值。 这是你可以与来宾用户共享的租户 URL。
+1. 在 Power BI 服务的顶部菜单中，选择 "帮助 ( **？** )  **Power BI**。
+2. 查找 "  **租户 URL**" 旁边的值。 这是你可以与来宾用户共享的租户 URL。
 
     ![租户 URL](media/whitepaper-azure-b2b-power-bi/whitepaper-azure-b2b-power-bi_42.png)
 
@@ -511,8 +511,8 @@ Power BI 管理门户在租户设置中的 "组织" 设置中提供 "**允许外
 - 来宾用户不能安装发布到整个组织的应用
 - 来宾用户不能使用、创建、更新或安装组织内容包
 - 来宾用户不能使用“在 Excel 中分析”
-- 来宾用户不能进行 @mentioned 注释（此功能将在即将发布的版本中添加）
-- 来宾用户不能使用订阅（此功能将在即将发布的版本中添加）
+- 来宾用户不能进行 @mentioned 注释 ( 此功能将在即将发布的版本中添加 ) 
+- 来宾用户不能使用订阅 ( 将在即将发布的版本中添加此功能 ) 
 - 使用此功能的来宾用户应具有工作或学校帐户。 由于登录限制，使用个人帐户的来宾用户会遇到更多的限制。
 
 
@@ -525,7 +525,7 @@ Power BI 管理门户在租户设置中的 "组织" 设置中提供 "**允许外
 
 有关设置的详细信息，请参阅：
 
-[https://docs.microsoft.com/azure/active-directory/b2b/delegate-invitations](https://docs.microsoft.com/azure/active-directory/b2b/delegate-invitations)
+[https://docs.microsoft.com/azure/active-directory/b2b/delegate-invitations](/azure/active-directory/b2b/delegate-invitations)
 
 > [!NOTE]
 > 默认情况下，"来宾用户权限受限" 选项设置为 "是"，因此，Power BI 中的 "来宾用户" 具有有限体验，特别是在用户选取器 Ui 对于这些用户而言不起作用的地方。 与 Azure AD 管理员一起将其设置为 "否" 很重要，如下所示，以确保获得良好的体验。 * *
@@ -542,13 +542,13 @@ Power BI 管理员可以通过访问 Power BI 管理门户来仅控制 Power BI 
 - 管理员、“来宾邀请者”角色和成员可以邀请
 - 所有用户（包括来宾）都可以邀请
 
-有关这些策略的详细信息，请参阅[AZURE ACTIVE DIRECTORY B2B 协作的委托邀请](https://docs.microsoft.com/azure/active-directory/active-directory-b2b-delegate-invitations)。
+有关这些策略的详细信息，请参阅 [AZURE ACTIVE DIRECTORY B2B 协作的委托邀请](/azure/active-directory/active-directory-b2b-delegate-invitations)。
 
-外部用户的所有 Power BI 操作也[在我们的审核门户中](https://powerbi.microsoft.com/documentation/powerbi-admin-auditing/)进行了审核。
+外部用户的所有 Power BI 操作也 [在我们的审核门户中](https://powerbi.microsoft.com/documentation/powerbi-admin-auditing/)进行了审核。
 
 ### <a name="conditional-access-policies-for-guest-users"></a>来宾用户的条件性访问策略
 
-Contoso 可以为访问 Contoso 租户内容的来宾用户强制实施条件性访问策略。 可在[B2B 协作用户的条件访问](https://docs.microsoft.com/azure/active-directory/active-directory-b2b-mfa-instructions)中找到详细说明。
+Contoso 可以为访问 Contoso 租户内容的来宾用户强制实施条件性访问策略。 可在 [B2B 协作用户的条件访问](/azure/active-directory/active-directory-b2b-mfa-instructions)中找到详细说明。
 
 ## <a name="common-alternative-approaches"></a>常见备选方法
 
@@ -576,7 +576,7 @@ Contoso 可以为访问 Contoso 租户内容的来宾用户强制实施条件性
 
 ### <a name="alternative-option-2-create-a-custom-power-bi-embedded-application-using-custom-authentication"></a>替代选项2：使用自定义身份验证创建自定义 Power BI Embedded 应用程序
 
-Contoso 的另一种选择是通过自定义身份验证（["应用拥有数据"](https://docs.microsoft.com/power-bi/developer/embedded/embed-sample-for-customers)）构建自己的自定义嵌入 Power BI 应用程序。 尽管许多组织没有时间或资源来创建自定义应用程序以将 Power BI 内容分发给其外部合作伙伴，但对于某些组织来说，这是最佳方法，值得认真考虑。
+Contoso 的另一种选择是通过自定义身份验证 (["应用拥有数据"](../developer/embedded/embed-sample-for-customers.md)) 构建其自己的自定义嵌入 Power BI 应用程序。 尽管许多组织没有时间或资源来创建自定义应用程序以将 Power BI 内容分发给其外部合作伙伴，但对于某些组织来说，这是最佳方法，值得认真考虑。
 
 通常，组织具有可集中访问合作伙伴的所有组织资源的现有合作伙伴门户，提供与内部组织资源的隔离，并为合作伙伴提供简化的体验，以支持多个合作伙伴及其各自的用户。
 
@@ -606,17 +606,17 @@ Contoso 的另一种选择是通过自定义身份验证（["应用拥有数据"
 
 
 
-## <a name="faq"></a>常见问题解答
+## <a name="faq"></a>常见问题
 
 **Contoso 是否可以发送自动兑换的邀请，使用户只需 "准备就绪"？或者，用户是否始终需要单击到兑换 URL？**
 
 最终用户必须始终单击许可体验才能访问内容。
 
-如果你将邀请多个来宾用户，则我们建议你通过[将用户添加到资源组织中的来宾邀请者角色](https://docs.microsoft.com/azure/active-directory/active-directory-b2b-add-guest-to-role)，从核心 Azure AD 管理员委托此项。 该用户可以使用登录 UI、PowerShell 脚本或 API 邀请合作伙伴组织中的其他用户。 这会减少 Azure AD 管理员向合作伙伴组织的用户邀请或重新发送邀请的管理负担。
+如果你将邀请多个来宾用户，则我们建议你通过 [将用户添加到资源组织中的来宾邀请者角色](/azure/active-directory/active-directory-b2b-add-guest-to-role)，从核心 Azure AD 管理员委托此项。 该用户可以使用登录 UI、PowerShell 脚本或 API 邀请合作伙伴组织中的其他用户。 这会减少 Azure AD 管理员向合作伙伴组织的用户邀请或重新发送邀请的管理负担。
 
 **如果来宾用户的合作伙伴没有多重身份验证，Contoso 用户是否可以强制使用多因素身份验证？**
 
-是。 有关详细信息，请参阅[B2B 协作用户的条件性访问](https://docs.microsoft.com/azure/active-directory/active-directory-b2b-mfa-instructions)。
+是的。 有关详细信息，请参阅 [B2B 协作用户的条件性访问](/azure/active-directory/active-directory-b2b-mfa-instructions)。
 
 **受邀合作伙伴使用联合添加自己的本地身份验证时，B2B 协作如何工作？**
 
