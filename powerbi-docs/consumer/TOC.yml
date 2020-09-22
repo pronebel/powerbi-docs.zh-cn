@@ -137,7 +137,7 @@
             - name: 安装和使用应用
               href: end-user-app-view.md
             - name: 连接到服务
-              href: end-user-connect-to-services.md
+              href: ../connect-data/service-connect-to-services.md
             - name: 从应用市场获取示例应用
               href: end-user-app-marketing.md
         - name: 询问数据相关问题
@@ -153,6 +153,6 @@
         - name: 常见问题解答
           href: end-user-faq.md
         - name: 支持的浏览器
-          href: end-user-browsers.md
+          href: ../fundamentals/power-bi-browsers.md
         - name: 快速见解类型
           href: end-user-insight-types.md
