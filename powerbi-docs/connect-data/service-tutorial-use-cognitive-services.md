@@ -10,16 +10,16 @@ ms.topic: tutorial
 ms.date: 02/20/2020
 ms.author: davidi
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 4c19965def178d4260527032820c4109c4fe235f
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 6511afb499b12d379957ac37ebfe19890c111282
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83281567"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90861029"
 ---
 # <a name="tutorial-use-cognitive-services-in-power-bi"></a>教程：在 Power BI 中使用认知服务
 
-借助 Power BI，可使用 Azure 认知服务中的一组函数，来丰富数据流自助服务数据准备中的数据。 目前支持的服务包括[情绪分析](https://docs.microsoft.com/azure/cognitive-services/text-analytics/how-tos/text-analytics-how-to-sentiment-analysis)、[关键短语提取](https://docs.microsoft.com/azure/cognitive-services/text-analytics/how-tos/text-analytics-how-to-keyword-extraction)、[语言检测](https://docs.microsoft.com/azure/cognitive-services/text-analytics/how-tos/text-analytics-how-to-language-detection)和[图像标记](https://docs.microsoft.com/azure/cognitive-services/computer-vision/concept-tagging-images)。 转换在 Power BI 服务上执行，无需 Azure 认知服务订阅。 此功能需要 Power BI Premium。
+借助 Power BI，可使用 Azure 认知服务中的一组函数，来丰富数据流自助服务数据准备中的数据。 目前支持的服务包括[情绪分析](/azure/cognitive-services/text-analytics/how-tos/text-analytics-how-to-sentiment-analysis)、[关键短语提取](/azure/cognitive-services/text-analytics/how-tos/text-analytics-how-to-keyword-extraction)、[语言检测](/azure/cognitive-services/text-analytics/how-tos/text-analytics-how-to-language-detection)和[图像标记](/azure/cognitive-services/computer-vision/concept-tagging-images)。 转换在 Power BI 服务上执行，无需 Azure 认知服务订阅。 此功能需要 Power BI Premium。
 
 [数据流自助服务数据准备](https://powerbi.microsoft.com/blog/introducing-power-bi-data-prep-wtih-dataflows/)中支持认知服务转换。 使用分步示例进行文本分析并使用下面的图像标记开始操作。
 
@@ -174,7 +174,7 @@ in
 
 在本教程中，你对 Power BI 数据流应用了情绪评分和图像标记函数。 若要了解有关 Power BI 中认知服务的详细信息，请阅读以下文章。
 
-* [Azure 中的认知服务](https://docs.microsoft.com/azure/cognitive-services/)
+* [Azure 中的认知服务](/azure/cognitive-services/)
 * [数据流自助服务数据准备入门](../transform-model/service-dataflows-overview.md)
 * 了解有关 [Power BI Premium](https://powerbi.microsoft.com/power-bi-premium/) 的详细信息
 

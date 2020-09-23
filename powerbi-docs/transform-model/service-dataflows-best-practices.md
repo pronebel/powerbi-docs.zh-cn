@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 09/19/2019
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: f80c683e3e9134bff8d3c24d4f64d43da405aa36
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: d4b23039d8516375e98233254c92b2f7bbeb648d
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83307442"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90861604"
 ---
 # <a name="dataflows-best-practice"></a>数据流最佳实践
 
@@ -74,9 +74,9 @@ ms.locfileid: "83307442"
 * [将数据流与本地数据源配合使用](service-dataflows-on-premises-gateways.md)
 
 有关 CDM 开发和教程资源的信息，请参阅以下内容：
-* [通用数据模型 - 概述](https://docs.microsoft.com/powerapps/common-data-model/overview)
-* [CDM 文件夹](https://go.microsoft.com/fwlink/?linkid=2045304)
-* [CDM 模型文件定义](https://go.microsoft.com/fwlink/?linkid=2045521)
+* [通用数据模型 - 概述](/powerapps/common-data-model/overview)
+* [CDM 文件夹](/common-data-model/data-lake)
+* [CDM 模型文件定义](/common-data-model/model-json)
 
 
 有关 Power Query 和计划刷新的详细信息，可以阅读以下文章：

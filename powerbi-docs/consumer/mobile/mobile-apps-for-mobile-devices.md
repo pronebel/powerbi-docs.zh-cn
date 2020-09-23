@@ -9,12 +9,12 @@ ms.date: 03/11/2020
 ms.author: painbar
 ms.custom: ''
 ms.reviewer: ''
-ms.openlocfilehash: a0d65cb61d671f5779fa8281ad8be3153211a4a6
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: 5f581a9b08afc8d9d8c3a36ed765c5d211d7876b
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83347254"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90856406"
 ---
 # <a name="what-are-the-power-bi-mobile-apps"></a>什么是 Power BI 移动应用？
 Power BI 提供一组适用于 iOS、Android 和 Windows 10 移动设备的移动应用。 在移动应用中，可连接到云和本地数据并与之进行交互。 
@@ -38,7 +38,7 @@ Power BI 提供一组适用于 iOS、Android 和 Windows 10 移动设备的移�
 | [![Windows 设备](./media/mobile-apps-for-mobile-devices/win-10-logo-50-px.png)](../../fundamentals/desktop-getting-started.md) |适用于 Windows 10 的 Power BI 移动应用可在任何 Windows 10 设备上运行，包括 Windows 10 手机。 除了其他移动应用的多个功能，适用于 Windows 10 的 Power BI 移动应用还提供特殊功能。 例如，可以[将 Power BI 仪表板从 Power BI 移动应用固定到 Windows 10“开始”屏幕](mobile-pin-dashboard-start-screen-windows-10-phone-app.md)。 还可以[在 Surface Hub 上以演示模式运行 Power BI](mobile-windows-10-app-presentation-mode.md)，或者在适用于 Windows 10 的 Power BI 移动应用中运行。 <br/>[适用于 Windows 10 设备的 Power BI 移动应用](mobile-windows-10-phone-app-get-started.md)入门。 |||
 
 >[!NOTE]
->我们将于 2021 年 3 月 16 日终止对使用 Windows 10 移动版的手机提供 Power BI 移动应用支持  。 [了解详细信息](https://go.microsoft.com/fwlink/?linkid=2121400)
+>我们将于 2021 年 3 月 16 日终止对使用 Windows 10 移动版的手机提供 Power BI 移动应用支持  。 [了解详细信息](/legal/powerbi/powerbi-mobile/power-bi-mobile-app-end-of-support-for-windows-phones)
 
 ## <a name="enterprise-support-for-the-power-bi-mobile-apps"></a>Power BI 移动应用的企业支持
 组织可以使用 Microsoft Intune 管理设备和应用程序，包括适用于 Android 和 iOS 的 Power BI 移动应用。

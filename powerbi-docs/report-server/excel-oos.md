@@ -8,16 +8,16 @@ ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: how-to
 ms.date: 05/14/2020
-ms.openlocfilehash: 03197d7d6b976615f13d9f482c1ba4d4c1ae2abd
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 90061cec87bae4b65d347617dacc2863052a07ce
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85239450"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90861144"
 ---
 # <a name="configure-your-report-server-to-host-excel-workbooks-using-office-online-server-oos"></a>使用 Office Online Server (OOS) 将报表服务器配置为托管 Excel 工作簿
 
-除了在 Web 门户中查看 Power BI 报表之外，Power BI 报表服务器也可以使用 [Office Online Server](https://docs.microsoft.com/officeonlineserver/office-online-server-overview) (OOS) 来托管 Excel 工作簿。 报表服务器将成为用于发布和查看自助服务 Microsoft BI 内容的单个位置。
+除了在 Web 门户中查看 Power BI 报表之外，Power BI 报表服务器也可以使用 [Office Online Server](/officeonlineserver/office-online-server-overview) (OOS) 来托管 Excel 工作簿。 报表服务器将成为用于发布和查看自助服务 Microsoft BI 内容的单个位置。
 
 ![从报表服务器 Web 门户查看的 Excel 报表。](media/excel-oos/excel-in-pbirs.png)
 
@@ -187,6 +187,6 @@ Set-OfficeWebAppsFarm -ExcelAllowExternalData:$true
 [管理员概述](admin-handbook-overview.md)  
 [安装 Power BI 报表服务器](install-report-server.md)  
 [下载报表生成器](https://www.microsoft.com/download/details.aspx?id=53613)  
-[下载 SQL Server Data Tools (SSDT)](https://go.microsoft.com/fwlink/?LinkID=616714)
+[下载 SQL Server Data Tools (SSDT)](/sql/ssdt/download-sql-server-data-tools-ssdt)
 
 更多问题？ [尝试咨询 Power BI 社区](https://community.powerbi.com/)

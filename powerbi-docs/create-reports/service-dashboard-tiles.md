@@ -10,12 +10,12 @@ ms.topic: how-to
 ms.date: 04/17/2020
 ms.author: maggies
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 9a6db74384a9fa47d13eb36b0e64cb926600a191
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 84b3fafa3ae5e12a96b4e1117ee74baf94dba597
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85219663"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90861420"
 ---
 # <a name="intro-to-dashboard-tiles-for-power-bi-designers"></a>Power BI 设计器的仪表板磁贴简介
 
@@ -42,7 +42,7 @@ ms.locfileid: "85219663"
 * [其他仪表板](service-pin-tile-to-another-dashboard.md)
 * [OneDrive for Business 上的 Excel 工作簿](service-dashboard-pin-tile-from-excel.md)
 * [Quick Insights (快速见解)](service-insights.md)
-* [Power BI 报表服务器或 SQL Server Reporting Services 中的本地分页报表](https://docs.microsoft.com/sql/reporting-services/pin-reporting-services-items-to-power-bi-dashboards)
+* [Power BI 报表服务器或 SQL Server Reporting Services 中的本地分页报表](/sql/reporting-services/pin-reporting-services-items-to-power-bi-dashboards)
 
 使用[添加磁贴](service-dashboard-add-widget.md)控件直接在仪表板上创建图像、文本框、视频、流数据和 Web 内容的独立磁贴。
 

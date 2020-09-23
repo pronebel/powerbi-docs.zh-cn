@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 01/10/2020
 ms.author: rien
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 48f094def0576d6e90a71117cc37ac975304e07f
-ms.sourcegitcommit: 10c5b6cd5e7070f96de8a9f1d9b95f3d242ac7f2
+ms.openlocfilehash: 58d595ff5e7d3947117aa9663e761a6f98f10c7f
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/21/2020
-ms.locfileid: "86557270"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90861305"
 ---
 # <a name="create-key-influencers-visualizations"></a>创建关键影响因素可视化效果
 
@@ -241,7 +241,7 @@ ms.locfileid: "86557270"
 
 ## <a name="analyze-a-metric-that-is-a-measure-or-a-summarized-column"></a>分析度量值或汇总列型指标
 
-如果是度量值或汇总列，则分析默认为[上述](https://docs.microsoft.com/power-bi/visuals/power-bi-visualization-influencers#analyze-a-metric-that-is-numeric)的“连续分析类型”。 这无法更改。 分析度量值/汇总列和分析未汇总数字列之间的最大区别在于分析运行的级别。
+如果是度量值或汇总列，则分析默认为[上述](#analyze-a-metric-that-is-numeric)的“连续分析类型”。 这无法更改。 分析度量值/汇总列和分析未汇总数字列之间的最大区别在于分析运行的级别。
 
 如果是未汇总列，分析总是在表级运行。 在上述房价示例中，我们分析了“房价”指标，以了解房价上涨/下跌的影响因素。 该分析在表级别自动运行。 表中每个房屋都有唯一的 ID，因此分析在房屋级别运行。
 
@@ -255,7 +255,7 @@ ms.locfileid: "86557270"
 
 这种分析完全是总结性的，因此回归模型很难在数据中发现可学习的模式。 应在更详细的级别运行分析，以获得更好的结果。 如果想要在房屋级别分析房价，则需要将“ID”字段显式添加到分析。 但我们不想将房屋 ID 视为影响因素。 了解房价随房屋 ID 的增加而上涨没有意义。 这时，“扩展方式”字段格选项就很方便。 使用“扩展方式”，可添加要用于设置分析级别的字段，而无需寻找新的影响因素。
 
-将“ID”添加到“扩展方式”之后，查看可视化效果 。 定义了想要评估度量值的级别之后，解释[未汇总数字列](https://docs.microsoft.com/power-bi/visuals/power-bi-visualization-influencers#analyze-a-metric-that-is-numeric)的影响因素是完全相同的。
+将“ID”添加到“扩展方式”之后，查看可视化效果 。 定义了想要评估度量值的级别之后，解释[未汇总数字列](#analyze-a-metric-that-is-numeric)的影响因素是完全相同的。
 
 ![度量值表](media/power-bi-visualization-influencers/power-bi-ki-measures-analysis.png)
 

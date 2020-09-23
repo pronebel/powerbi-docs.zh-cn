@@ -9,16 +9,16 @@ ms.topic: how-to
 ms.date: 10/18/2019
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 18d94702cad6f770aaf078f1d692c96d48ce50ac
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: b898b205ef9d85f8c0a4951f147339f8d315db1e
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85229036"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90855394"
 ---
 # <a name="add-a-custom-column-in-power-bi-desktop"></a>在 Power BI Desktop 中添加自定义列
 
-在 Power BI Desktop 中，可以使用查询编辑器轻松地向模型添加新的自定义数据列。 利用查询编辑器，可以创建和重命名自定义列，从而创建 [PowerQuery M 公式查询](https://docs.microsoft.com/powerquery-m/quick-tour-of-the-power-query-m-formula-language)，用于定义自定义列。 PowerQuery M 公式查询包含[全面的函数引用内容集](https://docs.microsoft.com/powerquery-m/power-query-m-function-reference)。 
+在 Power BI Desktop 中，可以使用查询编辑器轻松地向模型添加新的自定义数据列。 利用查询编辑器，可以创建和重命名自定义列，从而创建 [PowerQuery M 公式查询](/powerquery-m/quick-tour-of-the-power-query-m-formula-language)，用于定义自定义列。 PowerQuery M 公式查询包含[全面的函数引用内容集](/powerquery-m/power-query-m-function-reference)。 
 
 在查询编辑器中创建自定义列时，Power BI Desktop 会将其作为“应用的步骤”添加到查询的“查询设置”中   。 可随时对其进行更改、移动或修改。
 
@@ -49,7 +49,7 @@ ms.locfileid: "85229036"
 
 - 自定义列的初始名称，位于“新列名”框中  。 可重命名此列。
 
-- [PowerQuery M 公式查询](https://docs.microsoft.com/powerquery-m/power-query-m-function-reference)，位于“自定义列公式”框中  。 可通过生成用于定义新自定义列的公式来创建这些查询。 
+- [PowerQuery M 公式查询](/powerquery-m/power-query-m-function-reference)，位于“自定义列公式”框中  。 可通过生成用于定义新自定义列的公式来创建这些查询。 
 
    ![“添加自定义列”页](media/desktop-add-custom-column/add-custom-column_03.png)
 
@@ -95,4 +95,3 @@ ms.locfileid: "85229036"
 - 还可以通过其他方法创建自定义列，例如根据你向查询编辑器提供的示例创建列。 有关详细信息，请参阅[在 Power BI Desktop 中通过示例添加列](desktop-add-column-from-example.md)。
 
 - 有关 Power Query M 引用信息，请参阅 [Power Query M 函数引用](/powerquery-m/power-query-m-function-reference)。
-

@@ -8,12 +8,12 @@ ms.subservice: powerbi-report-server
 ms.topic: how-to
 ms.date: 10/24/2018
 ms.author: maggies
-ms.openlocfilehash: b877ec917953bb6ec456a0042035e498c591e1ed
-ms.sourcegitcommit: c83146ad008ce13bf3289de9b76c507be2c330aa
+ms.openlocfilehash: 86d3bf34a8b222e72d76a5471fe6bfca93390afc
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/10/2020
-ms.locfileid: "86214004"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90861121"
 ---
 # <a name="how-to-find-your-report-server-product-key"></a>如何查找报表服务器产品密钥
 了解如何查找 Power BI 报表服务器产品密钥，以便在生产环境中安装服务器。
@@ -47,7 +47,6 @@ ms.locfileid: "86214004"
 [安装 Power BI 报表服务器](install-report-server.md)  
 [安装更适合 Power BI 报表服务器的 Power BI Desktop](install-powerbi-desktop.md)  
 [下载报表生成器](https://www.microsoft.com/download/details.aspx?id=53613)  
-[下载 SQL Server Data Tools (SSDT)](https://go.microsoft.com/fwlink/?LinkID=616714)
+[下载 SQL Server Data Tools (SSDT)](/sql/ssdt/download-sql-server-data-tools-ssdt)
 
 更多问题？ [尝试咨询 Power BI 社区](https://community.powerbi.com/)
-

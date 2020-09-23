@@ -8,12 +8,12 @@ ms.subservice: powerbi-mobile
 ms.topic: quickstart
 ms.date: 11/25/2019
 ms.author: painbar
-ms.openlocfilehash: e3b0fba18250853eec7eef85b5cfc9161290bacb
-ms.sourcegitcommit: c006d7aabf90c7b29fb05641d1f94f1ee7132943
+ms.openlocfilehash: 003543579e26262194668f94bdf78b8b002cb114
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2020
-ms.locfileid: "84685277"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90856136"
 ---
 # <a name="quickstart-explore-dashboards-and-reports-in-the-power-bi-mobile-apps"></a>快速入门：浏览 Power BI 移动应用中的仪表板和报表
 在此快速入门中，可快速了解 Power BI 移动应用，并浏览示例仪表板和报表。 本文展示了 iOS 版 Power BI 应用，但可以在其他设备上轻松地沿用相关操作。
@@ -25,7 +25,7 @@ ms.locfileid: "84685277"
 | iPhone | iPad | Android | Windows 10 |
 
 >[!NOTE]
->我们将于 2021 年 3 月 16 日终止对使用 Windows 10 移动版的手机提供 Power BI 移动应用支持。 [了解详细信息](https://go.microsoft.com/fwlink/?linkid=2121400)
+>我们将于 2021 年 3 月 16 日终止对使用 Windows 10 移动版的手机提供 Power BI 移动应用支持。 [了解详细信息](/legal/powerbi/powerbi-mobile/power-bi-mobile-app-end-of-support-for-windows-phones)
 
 仪表板是公司的生命周期和流程的门户。 它是用于监视业务的当前状态的一个概览性的单一区域。 报表是数据的交互式视图，其中的视觉对象表示该数据中不同的发现和见解。 
 
@@ -112,4 +112,3 @@ ms.locfileid: "84685277"
 
 > [!div class="nextstepaction"]
 > [快速入门：了解 Power BI 服务](../end-user-experience.md)
-

@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 07/29/2020
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 69929ff48428ebf73044c296eabc419f8e442b3b
-ms.sourcegitcommit: 00c0b24d5e80009d18cec6da4fee8a9611bcba04
+ms.openlocfilehash: 7a7988ba9bb9efd4b2dec20fd2dc88478af439a2
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/29/2020
-ms.locfileid: "87411948"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90855279"
 ---
 # <a name="using-external-tools-in-power-bi-desktop-preview"></a>在 Power BI Desktop 中使用外部工具（预览版）
 
@@ -37,13 +37,13 @@ Power BI Desktop 的“外部工具”功能区包含安装在计算机上并在
 
 外部工具可以连接到 Power BI Desktop 数据集（Analysis Services 模型），以编辑以下对象。 不支持编辑 Power BI Desktop 模板 (PBIT) 文件。
 
-* [度量值](https://docs.microsoft.com/analysis-services/tabular-models/measures-ssas-tabular)：用于计算
-* [计算组](https://docs.microsoft.com/analysis-services/tabular-models/calculation-groups)：用于计算复杂模型的可重用性
-* [透视](https://docs.microsoft.com/analysis-services/tabular-models/perspectives-ssas-tabular)：用于定义数据集元数据的特定业务域重点视图
+* [度量值](/analysis-services/tabular-models/measures-ssas-tabular)：用于计算
+* [计算组](/analysis-services/tabular-models/calculation-groups)：用于计算复杂模型的可重用性
+* [透视](/analysis-services/tabular-models/perspectives-ssas-tabular)：用于定义数据集元数据的特定业务域重点视图
 
 使用外部工具管理元数据转换可能是可行的，但此预览版目前不支持。 如果当前用户的区域设置为转换的区域设置，则在使用 Power BI Desktop 的当前版本时，无法正确地在字段列表中编辑对象。 
 
-可对所有[表格对象模型](https://docs.microsoft.com/analysis-services/tom/introduction-to-the-tabular-object-model-tom-in-analysis-services-amo)数据集元数据进行只读访问，但[表格对象模型](https://docs.microsoft.com/analysis-services/tom/introduction-to-the-tabular-object-model-tom-in-analysis-services-amo)文章中所述的列表未涵盖的对象尚不支持在 Power BI Desktop Analysis Services 实例中进行编辑。
+可对所有[表格对象模型](/analysis-services/tom/introduction-to-the-tabular-object-model-tom-in-analysis-services-amo)数据集元数据进行只读访问，但[表格对象模型](/analysis-services/tom/introduction-to-the-tabular-object-model-tom-in-analysis-services-amo)文章中所述的列表未涵盖的对象尚不支持在 Power BI Desktop Analysis Services 实例中进行编辑。
 
 
 ## <a name="featured-external-tools"></a>特色外部工具
@@ -147,5 +147,3 @@ ALM Toolkit 的主要工具作者是 [Christian Wade](https://www.linkedin.com/i
 
 * [在 Power BI 报表中使用跨报表钻取](desktop-cross-report-drill-through.md)
 * [在 Power BI Desktop 中使用切片器](../visuals/power-bi-visualization-slicers.md)
-
-

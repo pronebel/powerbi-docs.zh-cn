@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 06/22/2020
 ms.author: davidi
 LocalizationGroup: Premium
-ms.openlocfilehash: 02716f895d84a7aa49ab7f1d48d60372b3546409
-ms.sourcegitcommit: b943ce58c2c079cb18fc5cf23cc609ead1dc9906
+ms.openlocfilehash: 51aa05d49f0691c7ebb916ff84e3a8cbb0416096
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/03/2020
-ms.locfileid: "89443320"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90855003"
 ---
 # <a name="incremental-refresh-in-power-bi"></a>Power BI 中的增量刷新
 
@@ -112,7 +112,7 @@ Power BI 服务中的第一次刷新可能需要更长时间才能导入全部�
 
 #### <a name="current-date"></a>当前日期
 
-当前日期基于刷新时的系统日期。 如果为 Power BI 服务中的数据集启用了计划的刷新，则在确定当前日期时将考虑指定的时区。 通过 Power BI 服务手动调用和计划的刷新都将遵循时区（如果可用）。 例如，指定在太平洋时间（美国和加拿大）晚上 8 点刷新并指定时区，将根据太平洋时间确定当前日期，而不是 GMT（若根据后者确定，则当前时间将晚一天）。 不通过 Power BI 服务调用的刷新操作（如 [TMSL 刷新命令](https://docs.microsoft.com/analysis-services/tmsl/refresh-command-tmsl?view=power-bi-premium-current)）将不考虑计划的刷新时区
+当前日期基于刷新时的系统日期。 如果为 Power BI 服务中的数据集启用了计划的刷新，则在确定当前日期时将考虑指定的时区。 通过 Power BI 服务手动调用和计划的刷新都将遵循时区（如果可用）。 例如，指定在太平洋时间（美国和加拿大）晚上 8 点刷新并指定时区，将根据太平洋时间确定当前日期，而不是 GMT（若根据后者确定，则当前时间将晚一天）。 不通过 Power BI 服务调用的刷新操作（如 [TMSL 刷新命令](/analysis-services/tmsl/refresh-command-tmsl?view=power-bi-premium-current)）将不考虑计划的刷新时区
 
 ![时区](media/service-premium-incremental-refresh/time-zone2.png)
 
@@ -153,7 +153,7 @@ Power BI 服务中的第一次刷新可能需要更长时间才能导入全部�
 
 ## <a name="query-timeouts"></a>查询超时
 
-若要了解超时值如何对 Power BI 服务中的刷新操作进行限制，请参阅[刷新方案故障排除](../connect-data/refresh-troubleshooting-refresh-scenarios.md)一文。 查询还受到数据源的默认超时值的限制。 大多数关系源允许重写 M 表达式中的超时值。 例如，以下表达式通过 [SQL Server 数据访问函数](https://docs.microsoft.com/powerquery-m/sql-database)将其设置为 2 小时。 策略范围定义的每个周期提交一个查询，以观察命令超时设置。
+若要了解超时值如何对 Power BI 服务中的刷新操作进行限制，请参阅[刷新方案故障排除](../connect-data/refresh-troubleshooting-refresh-scenarios.md)一文。 查询还受到数据源的默认超时值的限制。 大多数关系源允许重写 M 表达式中的超时值。 例如，以下表达式通过 [SQL Server 数据访问函数](/powerquery-m/sql-database)将其设置为 2 小时。 策略范围定义的每个周期提交一个查询，以观察命令超时设置。
 
 ```powerquery-m
 let
@@ -176,7 +176,7 @@ in
 
 #### <a name="override-incremental-refresh-behavior"></a>重写增量刷新行为
 
-借助 SSMS，还可以更全面地控制如何使用[表格模型脚本语言 (TMSL)](https://docs.microsoft.com/analysis-services/tmsl/tabular-model-scripting-language-tmsl-reference?view=power-bi-premium-current) 和[表格对象模型 (TOM)](https://docs.microsoft.com/analysis-services/tom/introduction-to-the-tabular-object-model-tom-in-analysis-services-amo?view=power-bi-premium-current) 调用增量刷新。 例如，在 SSMS 的“对象资源管理器”中，右键单击表，然后选择“处理表”菜单选项。 然后，单击“脚本”按钮，以生成 TMSL 刷新命令。
+借助 SSMS，还可以更全面地控制如何使用[表格模型脚本语言 (TMSL)](/analysis-services/tmsl/tabular-model-scripting-language-tmsl-reference?view=power-bi-premium-current) 和[表格对象模型 (TOM)](/analysis-services/tom/introduction-to-the-tabular-object-model-tom-in-analysis-services-amo?view=power-bi-premium-current) 调用增量刷新。 例如，在 SSMS 的“对象资源管理器”中，右键单击表，然后选择“处理表”菜单选项。 然后，单击“脚本”按钮，以生成 TMSL 刷新命令。
 
 ![“处理表”对话框中的“脚本”按钮](media/service-premium-incremental-refresh/ssms-process-table.png)
 
@@ -204,7 +204,7 @@ in
 }
 ```
 
-若要详细了解如何使用 TMSL 重写默认增量刷新行为，请参阅[刷新命令](https://docs.microsoft.com/analysis-services/tmsl/refresh-command-tmsl?view=power-bi-premium-current)。
+若要详细了解如何使用 TMSL 重写默认增量刷新行为，请参阅[刷新命令](/analysis-services/tmsl/refresh-command-tmsl?view=power-bi-premium-current)。
 
 ### <a name="custom-queries-for-detect-data-changes"></a>用于检测数据更改的自定义查询
 
@@ -247,4 +247,4 @@ pollingExpression 应为轻量级 M 表达式或其他 M 查询的名称。 它�
 ## <a name="see-also"></a>另请参阅
 
 [使用 XMLA 终结点的数据集连接](service-premium-connect-tools.md)   
-[刷新方案故障排除](../connect-data/refresh-troubleshooting-refresh-scenarios.md)   
+[刷新方案故障排除](../connect-data/refresh-troubleshooting-refresh-scenarios.md)

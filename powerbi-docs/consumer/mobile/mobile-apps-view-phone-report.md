@@ -8,12 +8,12 @@ ms.subservice: powerbi-mobile
 ms.topic: how-to
 ms.date: 05/05/2020
 ms.author: painbar
-ms.openlocfilehash: eb46c35c4040ead37b132cf2c34a22663ee72b6d
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 9030d7ebacad92780a7dcafe33ae5bdded842b01
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85220278"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90856125"
 ---
 # <a name="view-power-bi-reports-optimized-for-your-phone"></a>查看针对你的手机进行优化的 Power BI 报表
 
@@ -115,7 +115,7 @@ Power BI 报表的所有其他功能对更适合在手机上查看的报表仍�
 
 ## <a name="drill-through-from-a-value"></a>从值中钻取
 钻取将一个报表页中的值与其他报表页连接起来。 从数据点钻取到其他报表页时，数据点值用于筛选钻取页，或它将位于所选数据的上下文中。
-报表作者可以在创建报表时[定义钻取](https://docs.microsoft.com/power-bi/desktop-drillthrough)。
+报表作者可以在创建报表时[定义钻取](../../create-reports/desktop-drillthrough.md)。
 
 1. 长按（点击并按住）视觉对象中的数据。
 2. 将显示工具提示，如果定义了钻取，则工具提示页脚将显示钻取箭头。

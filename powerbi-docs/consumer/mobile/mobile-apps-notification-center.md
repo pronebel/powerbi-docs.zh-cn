@@ -8,12 +8,12 @@ ms.subservice: powerbi-mobile
 ms.topic: how-to
 ms.date: 03/11/2020
 ms.author: painbar
-ms.openlocfilehash: 2c12a2eb919dcef3b9decde9a15f799d78dc18e6
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 492b41192f3ab423ff8dacf73aac9ff49b9d15d9
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85220462"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90856222"
 ---
 # <a name="get-notifications-in-the-power-bi-mobile-apps"></a>获取 Power BI 移动应用中的通知
 适用于：
@@ -23,7 +23,7 @@ ms.locfileid: "85220462"
 | iPhone |iPad |Android 手机 |Android 平板电脑 |Windows 10 设备 |
 
 >[!NOTE]
->我们将于 2021 年 3 月 16 日终止对使用 Windows 10 移动版的手机提供 Power BI 移动应用支持。 [了解详细信息](https://go.microsoft.com/fwlink/?linkid=2121400)
+>我们将于 2021 年 3 月 16 日终止对使用 Windows 10 移动版的手机提供 Power BI 移动应用支持。 [了解详细信息](/legal/powerbi/powerbi-mobile/power-bi-mobile-app-end-of-support-for-windows-phones)
 
 “通知”会将你的 Power BI 体验相关信息通过 Power BI 服务或移动设备立即发送给你。 打开“通知”时，你会看到一组顺序消息源，关于[你已设置的警报](mobile-set-data-alerts-in-the-mobile-apps.md)、已与你共享的新仪表板、组工作区的更改、Power BI 事件和会议相关信息等。
 

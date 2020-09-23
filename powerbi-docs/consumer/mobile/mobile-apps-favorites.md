@@ -8,12 +8,12 @@ ms.subservice: powerbi-mobile
 ms.topic: how-to
 ms.date: 12/02/2019
 ms.author: painbar
-ms.openlocfilehash: ee2ce1161f5afbdc39520a0102d3289f00792207
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 553beb5f30625ce416ea778ba6b5fde63526065c
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85240210"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90856452"
 ---
 # <a name="make-and-view-favorites-in-the-power-bi-mobile-apps"></a>在 Power BI 移动应用中收藏和查看
 适用于：
@@ -23,7 +23,7 @@ ms.locfileid: "85240210"
 | iPhone |iPad |Android 手机 |Android 平板电脑 |Windows 10 设备 |
 
 >[!NOTE]
->我们将于 2021 年 3 月 16 日终止对使用 Windows 10 移动版的手机提供 Power BI 移动应用支持。 [了解详细信息](https://go.microsoft.com/fwlink/?linkid=2121400)
+>我们将于 2021 年 3 月 16 日终止对使用 Windows 10 移动版的手机提供 Power BI 移动应用支持。 [了解详细信息](/legal/powerbi/powerbi-mobile/power-bi-mobile-app-end-of-support-for-windows-phones)
 
 了解如何在移动应用中收藏和查看 Power BI 仪表板、报表和应用，以及收藏的本地 Power BI 报表服务器和 Reporting Services KPI 和报表。
 
@@ -76,4 +76,3 @@ ms.locfileid: "85240210"
 ## <a name="next-steps"></a>后续步骤
 * [Power BI 服务中最喜爱的仪表板](../end-user-favorite.md) 
 * 是否有任何问题? [尝试咨询 Power BI 社区](https://community.powerbi.com/)
-

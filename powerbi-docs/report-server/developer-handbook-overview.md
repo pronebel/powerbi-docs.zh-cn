@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 11/01/2017
-ms.openlocfilehash: 773533fee8fc4fada0cc33d9a6d2188118135797
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 1f7a04ca8920ef56e0e7de4efad47afa894e76d7
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "73859780"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90861167"
 ---
 # <a name="developer-handbook-overview-power-bi-report-server"></a>开发者手册概述：Power BI 报表服务器
 
@@ -29,15 +29,15 @@ ms.locfileid: "73859780"
 
 ### <a name="report-viewer-control"></a>报告查看器控件
 
-对于分页报表，可以利用报表查看器控件。 使用它，可以将此控件嵌入 .NET Windows 或 Web 应用中。 有关详细信息，请参阅[报表查看器控件入门](https://docs.microsoft.com/sql/reporting-services/application-integration/integrating-reporting-services-using-reportviewer-controls-get-started)。
+对于分页报表，可以利用报表查看器控件。 使用它，可以将此控件嵌入 .NET Windows 或 Web 应用中。 有关详细信息，请参阅[报表查看器控件入门](/sql/reporting-services/application-integration/integrating-reporting-services-using-reportviewer-controls-get-started)。
 
 ## <a name="apis"></a>API
 
 可以通过多个 API 选项与 Power BI 报表服务器进行交互。 此方法包括以下内容。
 
 * [REST API](rest-api.md)
-* [URL 访问](https://docs.microsoft.com/sql/reporting-services/url-access-ssrs)
-* [WMI 提供程序](https://docs.microsoft.com/sql/reporting-services/wmi-provider-library-reference/reporting-services-wmi-provider-library-reference-ssrs)
+* [URL 访问](/sql/reporting-services/url-access-ssrs)
+* [WMI 提供程序](/sql/reporting-services/wmi-provider-library-reference/reporting-services-wmi-provider-library-reference-ssrs)
 
 还可以使用开放源代码 [PowerShell 实用工具](https://github.com/Microsoft/ReportingServicesTools)来管理报表服务器。
 
@@ -55,14 +55,14 @@ ms.locfileid: "73859780"
 * 分页报表的呈现扩展插件
 * 安全扩展插件
 
-若要了解详细信息，请参阅[扩展插件库](https://docs.microsoft.com/sql/reporting-services/extensions/reporting-services-extension-library)。
+若要了解详细信息，请参阅[扩展插件库](/sql/reporting-services/extensions/reporting-services-extension-library)。
 
 ## <a name="next-steps"></a>后续步骤
 
-[报表查看器控件入门](https://docs.microsoft.com/sql/reporting-services/application-integration/integrating-reporting-services-using-reportviewer-controls-get-started)  
-[使用 Web 服务和 .NET Framework 生成应用](https://docs.microsoft.com/sql/reporting-services/report-server-web-service/net-framework/building-applications-using-the-web-service-and-the-net-framework)  
-[URL 访问](https://docs.microsoft.com/sql/reporting-services/url-access-ssrs)  
-[扩展插件库](https://docs.microsoft.com/sql/reporting-services/extensions/reporting-services-extension-library)  
-[WMI 提供程序](https://docs.microsoft.com/sql/reporting-services/wmi-provider-library-reference/reporting-services-wmi-provider-library-reference-ssrs)
+[报表查看器控件入门](/sql/reporting-services/application-integration/integrating-reporting-services-using-reportviewer-controls-get-started)  
+[使用 Web 服务和 .NET Framework 生成应用](/sql/reporting-services/report-server-web-service/net-framework/building-applications-using-the-web-service-and-the-net-framework)  
+[URL 访问](/sql/reporting-services/url-access-ssrs)  
+[扩展插件库](/sql/reporting-services/extensions/reporting-services-extension-library)  
+[WMI 提供程序](/sql/reporting-services/wmi-provider-library-reference/reporting-services-wmi-provider-library-reference-ssrs)
 
 更多问题？ [尝试咨询 Power BI 社区](https://community.powerbi.com/)

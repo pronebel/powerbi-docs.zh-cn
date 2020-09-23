@@ -5,16 +5,16 @@ author: arthiriyer
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
-ms.topic: how-to
+ms.topic: troubleshooting
 ms.date: 5/06/2019
 ms.author: arthii
 LocalizationGroup: Troubleshooting
-ms.openlocfilehash: 108a50017a55a2ac87bb8db2adf4f92bd5dca58f
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 9c5e241cee86b9f7ea21607128f5c32099dd0415
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85231064"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90861489"
 ---
 # <a name="troubleshooting-power-bi-gateway-personal-mode"></a>Power BI 网关（个人模式）故障排除
 
@@ -31,7 +31,7 @@ ms.locfileid: "85231064"
 ## <a name="installation"></a>安装
 **网关（个人模式）在 64 位版本上运行：** 如果你的计算机是 32 位版本，则无法安装网关（个人模式）。 你的操作系统必须是 64 位版本。 请安装 64 位版本的 Windows，或者在 64 位计算机上安装网关（个人模式）。
 
-**即使你是计算机的本地管理员，网关（个人模式）也无法作为服务安装：** 如果用户位于计算机的本地管理员组中，安装可能会失败，但组策略不允许该用户名作为服务登录。 请确保组策略允许用户作为服务登录。 我们正在努力修复此问题。 有关详细信息，请参阅 [Add the Log on as a service right to an account](https://technet.microsoft.com/library/cc739424.aspx)（将登录作为服务权限添加到帐户）。
+**即使你是计算机的本地管理员，网关（个人模式）也无法作为服务安装：** 如果用户位于计算机的本地管理员组中，安装可能会失败，但组策略不允许该用户名作为服务登录。 请确保组策略允许用户作为服务登录。 我们正在努力修复此问题。 有关详细信息，请参阅 [Add the Log on as a service right to an account](/previous-versions/windows/it-pro/windows-server-2003/cc739424(v=ws.10))（将登录作为服务权限添加到帐户）。
 
 **操作超时：** 如果要安装网关（个人模式）的计算机（物理计算机或 VM）采用单核处理器，则此问题很常见。 请关闭所有应用程序和任何不必要的进程，然后再次尝试安装。
 

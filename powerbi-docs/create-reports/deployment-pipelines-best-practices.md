@@ -6,15 +6,15 @@ ms.author: kesharab
 ms.topic: conceptual
 ms.service: powerbi
 ms.subservice: powerbi-service
-ms.date: 05/06/2020
-ms.openlocfilehash: a1a30dc09e61e29053a5a1d95cde3d5a339c5a3d
-ms.sourcegitcommit: 6d7d5e6b19e11d557dfa1b79b745728b4ee02b4e
+ms.date: 09/15/2020
+ms.openlocfilehash: ea2fa0625ece88d8da2848dbe6a108d98a55a0d0
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/01/2020
-ms.locfileid: "89220851"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90855550"
 ---
-# <a name="deployment-pipelines-best-practices-preview"></a>部署管道最佳做法（预览）
+# <a name="deployment-pipelines-best-practices"></a>部署管道最佳做法
 
 本文为在整个生命周期内管理其内容的 BI 创建者提供了指导。 它侧重于将部署管道用作 BI 内容生命周期管理工具。
 
@@ -79,7 +79,7 @@ ms.locfileid: "89220851"
 
 ### <a name="use-parameters-in-your-model"></a>在模型中使用参数
 
-由于不能在 Power BI 服务中编辑数据集数据源，建议使用[参数](https://docs.microsoft.com/power-query/power-query-query-parameters)来存储连接详细信息，如实例名和数据库名，而不是使用静态连接字符串。 这样，你便可以在后续阶段通过 Power BI 服务 Web 门户管理连接，或者[使用 API](https://docs.microsoft.com/rest/api/power-bi/datasets/updateparametersingroup)。
+由于不能在 Power BI 服务中编辑数据集数据源，建议使用[参数](/power-query/power-query-query-parameters)来存储连接详细信息，如实例名和数据库名，而不是使用静态连接字符串。 这样，你便可以在后续阶段通过 Power BI 服务 Web 门户管理连接，或者[使用 API](/rest/api/power-bi/datasets/updateparametersingroup)。
 
 在部署管道中，可以配置参数规则，以便为开发、测试和生产阶段设置特定值。
 

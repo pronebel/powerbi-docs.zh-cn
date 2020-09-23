@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: how-to
 ms.date: 06/01/2020
-ms.openlocfilehash: 1e45e3292499d0eb827b6b03c63ab839a520da97
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: f9d54df0369b28eafc08a0e4f84599aac66c299e
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85220255"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90856084"
 ---
 # <a name="using-oauth-to-connect-to-power-bi-report-server-and-ssrs"></a>使用 OAuth 连接到 Power BI 报表服务器和 SSRS
 
@@ -72,7 +72,7 @@ SPN 是使用 Kerberos 身份验证的服务的唯一标识符。 需要确保�
 
 ## <a name="active-directory-federation-services-adfs-configuration"></a>Active Directory 联合身份验证服务 (ADFS) 配置
 
-需要在环境中的 Windows 2016 服务器上配置 ADFS。 可通过服务器管理器并在“管理”下选择“添加角色和功能”完成配置。 有关详细信息，请参阅 [Active Directory 联合身份验证服务](https://technet.microsoft.com/windows-server-docs/identity/active-directory-federation-services)。
+需要在环境中的 Windows 2016 服务器上配置 ADFS。 可通过服务器管理器并在“管理”下选择“添加角色和功能”完成配置。 有关详细信息，请参阅 [Active Directory 联合身份验证服务](/windows-server/identity/active-directory-federation-services)。
 
 ### <a name="create-an-application-group"></a>创建应用程序组
 
@@ -136,7 +136,7 @@ SPN 是使用 Kerberos 身份验证的服务的唯一标识符。 需要确保�
 
 ## <a name="web-application-proxy-wap-configuration"></a>Web 应用程序代理 (WAP) 配置
 
-需要在环境中的服务器上启用 Web 应用程序代理（角色）Windows 角色。 必须在 Windows 2016 服务器上执行此过程。 有关详细信息，请参阅 [Windows Server 2016 中的 Web 应用程序代理](https://technet.microsoft.com/windows-server-docs/identity/web-application-proxy/web-application-proxy-windows-server)及[发布使用 AD FS 预身份验证的应用程序](https://technet.microsoft.com/windows-server-docs/identity/web-application-proxy/publishing-applications-using-ad-fs-preauthentication#a-namebkmk14apublish-an-application-that-uses-oauth2-such-as-a-windows-store-app)。
+需要在环境中的服务器上启用 Web 应用程序代理（角色）Windows 角色。 必须在 Windows 2016 服务器上执行此过程。 有关详细信息，请参阅 [Windows Server 2016 中的 Web 应用程序代理](/windows-server/remote/remote-access/web-application-proxy/web-application-proxy-windows-server)及[发布使用 AD FS 预身份验证的应用程序](/windows-server/remote/remote-access/web-application-proxy/Publishing-Applications-using-AD-FS-Preauthentication#a-namebkmk14apublish-an-application-that-uses-oauth2-such-as-a-windows-store-app)。
 
 ### <a name="constrained-delegation-configuration"></a>约束委派配置
 
@@ -228,7 +228,7 @@ Set-WebApplicationProxyApplication -id 30198C7F-DDE4-0D82-E654-D369A47B1EE5 -Bac
 
 ## <a name="multi-factor-authentication"></a>多重身份验证
 
-可以启用多重身份验证为环境启用其他安全功能。 若要了解详细信息，请参阅[配置 AD FS 2016 和 Azure MFA](https://technet.microsoft.com/windows-server-docs/identity/ad-fs/operations/configure-ad-fs-2016-and-azure-mfa)。
+可以启用多重身份验证为环境启用其他安全功能。 若要了解详细信息，请参阅[配置 AD FS 2016 和 Azure MFA](/windows-server/identity/ad-fs/operations/configure-ad-fs-and-azure-mfa)。
 
 ## <a name="troubleshooting"></a>故障排除
 
@@ -245,8 +245,8 @@ Set-WebApplicationProxyApplication -id 30198C7F-DDE4-0D82-E654-D369A47B1EE5 -Bac
 [为报表服务器注册服务主体名称 (SPN)](/sql/reporting-services/report-server/register-a-service-principal-name-spn-for-a-report-server)  
 [修改 Reporting Services 配置文件](/sql/reporting-services/report-server/modify-a-reporting-services-configuration-file-rsreportserver-config)  
 [在报表服务器上配置 Windows 身份验证](/sql/reporting-services/security/configure-windows-authentication-on-the-report-server)  
-[Active Directory 联合身份验证服务](https://technet.microsoft.com/windows-server-docs/identity/active-directory-federation-services)  
-[Windows Server 2016 中的 Web 应用程序代理](https://technet.microsoft.com/windows-server-docs/identity/web-application-proxy/web-application-proxy-windows-server)  
-[发布使用 AD FS 预身份验证的应用程序](https://technet.microsoft.com/windows-server-docs/identity/web-application-proxy/publishing-applications-using-ad-fs-preauthentication#a-namebkmk14apublish-an-application-that-uses-oauth2-such-as-a-windows-store-app)  
-[配置 AD FS 2016 和 Azure MFA](https://technet.microsoft.com/windows-server-docs/identity/ad-fs/operations/configure-ad-fs-2016-and-azure-mfa)  
+[Active Directory 联合身份验证服务](/windows-server/identity/active-directory-federation-services)  
+[Windows Server 2016 中的 Web 应用程序代理](/windows-server/remote/remote-access/web-application-proxy/web-application-proxy-windows-server)  
+[发布使用 AD FS 预身份验证的应用程序](/windows-server/remote/remote-access/web-application-proxy/Publishing-Applications-using-AD-FS-Preauthentication#a-namebkmk14apublish-an-application-that-uses-oauth2-such-as-a-windows-store-app)  
+[配置 AD FS 2016 和 Azure MFA](/windows-server/identity/ad-fs/operations/configure-ad-fs-and-azure-mfa)  
 更多问题？ [尝试参与 Power BI 社区](https://community.powerbi.com/)

@@ -10,12 +10,12 @@ ms.date: 09/02/2020
 ms.author: kfollis
 ms.custom: licensing support
 LocalizationGroup: Get started
-ms.openlocfilehash: 2b5481e3d0b84f81a9cdee827df27c90e32a7e84
-ms.sourcegitcommit: ae9e698b082598f37242080a3ad3dd0b3be08478
+ms.openlocfilehash: 948e0260f13aa243a45ba5bdf6fe59c9699d47a0
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/04/2020
-ms.locfileid: "89474783"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90855095"
 ---
 # <a name="power-bi-for-us-government-customers"></a>适用于美国政府客户的 Power BI
 
@@ -27,7 +27,7 @@ ms.locfileid: "89474783"
 
 ### <a name="enroll-in-a-microsoft-365-government-plan"></a>注册 Microsoft 365 政府版计划
 
-如果你是新客户，则必须先验证组织的资格，然后才能注册 Microsoft 365 政府版计划。  请先完成 [Microsoft 365 政府版资格验证表单](https://www.microsoft.com/microsoft-365/government/eligibility-validation)。 若要确保为组织选择正确的计划，请参阅 [Microsoft 365 美国政府服务说明](https://docs.microsoft.com/office365/servicedescriptions/office-365-platform-service-description/office-365-us-government/office-365-us-government)。
+如果你是新客户，则必须先验证组织的资格，然后才能注册 Microsoft 365 政府版计划。  请先完成 [Microsoft 365 政府版资格验证表单](https://www.microsoft.com/microsoft-365/government/eligibility-validation)。 若要确保为组织选择正确的计划，请参阅 [Microsoft 365 美国政府服务说明](/office365/servicedescriptions/office-365-platform-service-description/office-365-us-government/office-365-us-government)。
 
 > [!NOTE]
 > 如果已将 Power BI 部署到商业环境中并想要迁移到美国政府云，则需要将新的 Power BI Pro 订阅添加到 Microsoft 365 政府版计划中。 接下来，将商业数据复制到适用于美国政府的 Power BI 服务，从用户帐户中删除商业许可证分配，然后将 Power BI Pro 政府版许可证分配给用户帐户。
@@ -45,11 +45,11 @@ ms.locfileid: "89474783"
 
 Microsoft 365 为政府机构提供不同的环境，以满足不同的符合性要求。 有关每个环境的详细信息，请参阅：
 
-* [Microsoft 365 政府社区云 (GCC)](https://docs.microsoft.com/office365/servicedescriptions/office-365-platform-service-description/office-365-us-government/gcc) 专为联邦、州/省/直辖市/自治区和地方政府设计。
+* [Microsoft 365 政府社区云 (GCC)](/office365/servicedescriptions/office-365-platform-service-description/office-365-us-government/gcc) 专为联邦、州/省/直辖市/自治区和地方政府设计。
 
-* [Microsoft 365 政府社区云“高”级别 (GCC High)](https://docs.microsoft.com/office365/servicedescriptions/office-365-platform-service-description/office-365-us-government/gcc-high-and-dod) 专为联邦机构、国防行业、航空工业以及持有受控非密信息的其他组织设计。 此环境适用于具有国际武器贸易条例 (ITAR) 数据或国防联邦采购补充规定 (DFARS) 要求的国家安全组织和公司。
+* [Microsoft 365 政府社区云“高”级别 (GCC High)](/office365/servicedescriptions/office-365-platform-service-description/office-365-us-government/gcc-high-and-dod) 专为联邦机构、国防行业、航空工业以及持有受控非密信息的其他组织设计。 此环境适用于具有国际武器贸易条例 (ITAR) 数据或国防联邦采购补充规定 (DFARS) 要求的国家安全组织和公司。
 
-* [Microsoft 365 DoD 环境](https://docs.microsoft.com/office365/servicedescriptions/office-365-platform-service-description/office-365-us-government/gcc-high-and-dod)专为美国国防部设计。
+* [Microsoft 365 DoD 环境](/office365/servicedescriptions/office-365-platform-service-description/office-365-us-government/gcc-high-and-dod)专为美国国防部设计。
 
 ## <a name="connect-to-power-bi-for-us-government"></a>连接到适用于美国政府的 Power BI
 
@@ -72,7 +72,7 @@ Azure 分布在多个云中。 默认情况下，你可以启用防火墙规则�
 
 在公有云中，这些 IP 范围可用。 若要获取美国政府云 IP 范围，请下载 [Azure IP 范围和服务标记 - 美国政府云](https://www.microsoft.com/download/details.aspx?id=57063)文件。
 
-若要为 SQL 数据库设置防火墙，请[创建和管理 IP 防火墙规则](https://docs.microsoft.com/azure/sql-database/sql-database-firewall-configure#create-and-manage-ip-firewall-rules)。
+若要为 SQL 数据库设置防火墙，请[创建和管理 IP 防火墙规则](/azure/sql-database/sql-database-firewall-configure#create-and-manage-ip-firewall-rules)。
 
 ## <a name="power-bi-feature-availability"></a>Power BI 功能可用性
 
@@ -83,7 +83,7 @@ Azure 分布在多个云中。 默认情况下，你可以启用防火墙规则�
 |功能 |GCC |GCC High |DoD|
 |------|------|------|------|
 |[政府云和商业云之间的 Azure B2B 协作](service-admin-azure-ad-b2b.md)<sup>1</sup>|![可用](../media/yes.png)|![不可用](../media/no.png)|![不可用](../media/no.png)|
-|[使用 Power BI Web 部件在 SharePoint Online 中嵌入](https://docs.microsoft.com/esharepoint/dev/spfx/web-parts/overview-client-side-web-parts)|![可用](../media/yes.png)|![可用](../media/yes.png)|![不可用](../media/no.png)|
+|[使用 Power BI Web 部件在 SharePoint Online 中嵌入](/esharepoint/dev/spfx/web-parts/overview-client-side-web-parts)|![可用](../media/yes.png)|![可用](../media/yes.png)|![不可用](../media/no.png)|
 |[用于数据驱动警报的 Power Automate 连接](../connect-data/power-bi-data-sources.md)|![可用](../media/yes.png)|![可用](../media/yes.png)|![不可用](../media/no.png)|
 |[Teams 中 Power BI 选项卡](../collaborate-share/service-collaborate-microsoft-teams.md)<sup>2</sup>|![可用](../media/yes.png)|![不可用](../media/no.png)|![不可用](../media/no.png)|
 |[容量指标](../admin/service-admin-premium-monitor-portal.md)|2020 年第 3 季度 |2020 年第 3 季度|2020 年第 3 季度|
@@ -96,7 +96,7 @@ Azure 分布在多个云中。 默认情况下，你可以启用防火墙规则�
 |[自定义视觉对象](../developer/visuals/power-bi-custom-visuals.md)<sup>3</sup>|2020 年第 4 季度 |2020 年第 4 季度| 2020 年第 4 季度|
 |[QR 码生成](../create-reports/service-create-qr-code-for-tile.md)|![不可用](../media/no.png)|![不可用](../media/no.png)|![不可用](../media/no.png)|
 
-<sup>1</sup> 尽管可以在 GCC 中进行 B2B 协作，但必须在该环境中向外部用户发出许可证。 商业云许可证在 GCC 中无效。 有关美国政府 B2B 协作已知限制的详细信息，请参阅[比较 Azure 政府和全球 Azure](https://docs.microsoft.com/azure/azure-government/compare-azure-government-global-azure#azure-active-directory-premium-p1-and-p2)
+<sup>1</sup> 尽管可以在 GCC 中进行 B2B 协作，但必须在该环境中向外部用户发出许可证。 商业云许可证在 GCC 中无效。 有关美国政府 B2B 协作已知限制的详细信息，请参阅[比较 Azure 政府和全球 Azure](/azure/azure-government/compare-azure-government-global-azure#azure-active-directory-premium-p1-and-p2)
 
 <sup>2</sup> 适用于 GCC 的 Teams 中的 Power BI 体验受到限制，仅适用于经典工作区，不包括[在 Microsoft Teams 中嵌入 Power BI 内容](../collaborate-share/service-embed-report-microsoft-teams.md)中所述的增强功能。
 
@@ -105,6 +105,6 @@ Azure 分布在多个云中。 默认情况下，你可以启用防火墙规则�
 ## <a name="next-steps"></a>后续步骤
 
 * [注册适用于美国政府的 Power BI](service-govus-signup.md)
-* [Microsoft Power Apps US Government](https://docs.microsoft.com/power-platform/admin/powerapps-us-government)
-* [Power Automate US Government](https://docs.microsoft.com/power-automate/us-govt)
+* [Microsoft Power Apps US Government](/power-platform/admin/powerapps-us-government)
+* [Power Automate US Government](/power-automate/us-govt)
 * [Power BI 美国政府版演示](https://channel9.msdn.com/Blogs/Azure/Cognitive-Services-HDInsight-and-Power-BI-on-Azure-Government)

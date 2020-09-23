@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 01/08/2020
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: 37687ab23d44821a51779d4e03663bd79189865f
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 608389e10e225517d6e50c14058732cf5fedb16f
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85239973"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90861052"
 ---
 # <a name="link-entities-between-dataflows-in-power-bi"></a>在 Power BI 中链接数据流之间的实体
 
@@ -99,4 +99,4 @@ ms.locfileid: "85239973"
 * [配置计划刷新](../connect-data/refresh-scheduled-refresh.md)
 
 有关通用数据模型的详细信息，可以阅读其概述文章：
-* [通用数据模型 - 概述](https://docs.microsoft.com/powerapps/common-data-model/overview)
+* [通用数据模型 - 概述](/powerapps/common-data-model/overview)

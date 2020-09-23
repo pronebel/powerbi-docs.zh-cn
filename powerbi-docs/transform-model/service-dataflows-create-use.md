@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 01/15/2020
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: fd0f9db041fb4862831630249e847c63572263b0
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 2ac06bb288077a15a7227e2eb439762bc182e1a8
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85240262"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90861650"
 ---
 # <a name="creating-and-using-dataflows-in-power-bi"></a>在 Power BI 中创建和使用数据流
 
@@ -77,7 +77,7 @@ ms.locfileid: "85240262"
 
 借助数据流实体包含的新工具，可以将业务数据轻松映射到 Common Data Model（Microsoft 的标准化架构）、使用 Microsoft 和第三方数据丰富此模型，并可轻松访问机器学习。 可利用这些新功能提供关于业务数据的智能可操作见解。 完成“编辑查询”步骤中的任意转换后，可将数据源表中的列映射到 Common Data Model 定义的标准实体字段。 标准实体具有通用数据模型定义的已知架构。
 
-有关此方法和通用数据模型的详细信息，请参阅[什么是通用数据模型](https://docs.microsoft.com/powerapps/common-data-model/overview)一文。
+有关此方法和通用数据模型的详细信息，请参阅[什么是通用数据模型](/powerapps/common-data-model/overview)一文。
 
 若要将通用数据模型用于数据流，则在“编辑查询”对话框中单击“映射到标准”转换。   可以在出现的“映射实体”屏幕中选择要映射到的标准实体。 
 
@@ -175,7 +175,7 @@ Power BI 数据流使用 Power BI 数据刷新过程使数据保持最新状态�
 * [数据流和 Azure Data Lake 集成（预览）](service-dataflows-azure-data-lake-integration.md)
 
 有关通用数据模型的详细信息，可以阅读其概述文章：
-* [通用数据模型 - 概述](https://docs.microsoft.com/powerapps/common-data-model/overview)
+* [通用数据模型 - 概述](/powerapps/common-data-model/overview)
 * [了解 GitHub 上有关通用数据模型架构和实体的详细信息](https://github.com/Microsoft/CDM)
 
 Power BI Desktop 相关文章：

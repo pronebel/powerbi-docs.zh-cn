@@ -9,12 +9,12 @@ ms.subservice: powerbi-admin
 ms.topic: how-to
 ms.date: 05/11/2020
 LocalizationGroup: Premium
-ms.openlocfilehash: 999e146d459fbff541e3655d97ddb841972ec62c
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: dddc90ee30ff58269c723d247a6c0a9fe3718683
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85227726"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90855072"
 ---
 # <a name="power-bi-premium-metrics-app"></a>Power BI Premium 指标应用
 
@@ -342,10 +342,9 @@ ms.locfileid: "85227726"
 ## <a name="next-steps"></a>后续步骤
 
 * [什么是 Power BI Premium？](service-premium-what-is.md)
-* [Power BI Premium 发行说明](../service-premium-release-notes.md)
 * [Microsoft Power BI Premium 白皮书](https://aka.ms/pbipremiumwhitepaper)
 * [规划 Power BI Enterprise 部署白皮书](https://aka.ms/pbienterprisedeploy)
-* [激活延长的 Power BI Pro 试用期](../service-extended-pro-trial.md)
+* [激活延长的 Power BI Pro 试用期](../fundamentals/service-self-service-signup-for-power-bi.md)
 * [Power BI Embedded 常见问题解答](../developer/embedded/embedded-faq.md)
 
 更多问题？ [尝试咨询 Power BI 社区](https://community.powerbi.com/)

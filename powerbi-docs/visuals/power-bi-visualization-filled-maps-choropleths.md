@@ -10,12 +10,12 @@ ms.topic: how-to
 ms.date: 12/05/2019
 ms.author: rien
 LocalizationGroup: Visualizations
-ms.openlocfilehash: d53721b6a759410b873cc04deb919dd37ebc5b07
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 45069a4a575659d44e41f1010d9941f21caa1ad1
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85240265"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90861627"
 ---
 # <a name="create-and-use-filled-maps-choropleth-maps-in-power-bi"></a>创建和使用 Power BI 中的着色地图（等值线图）
 
@@ -129,12 +129,10 @@ Power BI 让你可以充分控制着色地图的外观。 使用这些数据颜�
 
 如果无法访问纬度和经度数据，但确实可以对数据集进行编辑，则[按照这些说明来更新数据集](https://support.office.com/article/Maps-in-Power-View-8A9B2AF3-A055-4131-A327-85CC835271F7)。
 
-有关地图可视化效果的更多帮助，请参阅 [Tips and tricks for map visualizations（地图可视化效果的提示和技巧）](../power-bi-map-tips-and-tricks.md)。
+有关地图可视化效果的更多帮助，请参阅 [Tips and tricks for map visualizations（地图可视化效果的提示和技巧）](./power-bi-map-tips-and-tricks.md)。
 
 ## <a name="next-steps"></a>后续步骤
 
 [形状映射](desktop-shape-map.md)
 
 [Power BI 中的可视化效果类型](power-bi-visualization-types-for-reports-and-q-and-a.md)
-
-

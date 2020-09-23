@@ -7,12 +7,12 @@ ms.subservice: powerbi-mobile
 ms.topic: how-to
 ms.date: 03/11/2020
 ms.author: painbar
-ms.openlocfilehash: 4cf94628b1d423d5b382e718d850fc403d516083
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 1d7dfe799f81799555c9b2aed412c3f2995e19e6
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85234313"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90856107"
 ---
 # <a name="filter-a-report-by-geographic-location-in-the-power-bi-mobile-apps"></a>在 Power BI 移动应用中按地理位置筛选报表
 适用于：
@@ -27,7 +27,7 @@ ms.locfileid: "85234313"
 > 如果报表中的地理名称为英语（例如，“New York City”或“Germany”），则只可按位置进行筛选。 Windows 10 平板电脑和 PC 不支持地理位置筛选，但 Windows 10 手机支持。
 
 >[!NOTE]
->我们将于 2021 年 3 月 16 日终止对使用 Windows 10 移动版的手机提供 Power BI 移动应用支持  。 [了解详细信息](https://go.microsoft.com/fwlink/?linkid=2121400)
+>我们将于 2021 年 3 月 16 日终止对使用 Windows 10 移动版的手机提供 Power BI 移动应用支持  。 [了解详细信息](/legal/powerbi/powerbi-mobile/power-bi-mobile-app-end-of-support-for-windows-phones)
 
 ## <a name="filter-your-report-by-your-geographic-location"></a>按地理位置筛选报表
 1. 在移动设备上，在 Power BI 移动应用中打开报表。

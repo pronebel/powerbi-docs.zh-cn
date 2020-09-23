@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 05/07/2020
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 193463978e3c4d80980a15e154dbeef05aa1a2a0
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 66e94ed2af0b9dc9cf3600594fc6679bd7261b12
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85238914"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90861075"
 ---
 # <a name="connect-to-data-created-by-power-platform-dataflows-in-power-bi-desktop"></a>在 Power BI Desktop 中连接到 Power 平台数据流创建的数据
 在 Power BI Desktop 中，可以连接到 Power 平台数据流创建的数据，就像在 Power BI Desktop 中连接任何其他数据源一样 。
@@ -47,7 +47,7 @@ Power BI Desktop 在安装它的计算机上本地运行。 数据流的引入�
 
     ![尝试使用数据流时出错](media/service-dataflows-configure-workspace-storage-settings/dataflow-storage-settings_08.jpg)
 
-要解决此问题，必须授予 Ben 对 CDM 文件夹及其文件的读取权限。 可以在[本文](https://go.microsoft.com/fwlink/?linkid=2029121)中了解有关如何授予 CDM 文件夹访问权限的详细信息。
+要解决此问题，必须授予 Ben 对 CDM 文件夹及其文件的读取权限。 可以在[本文](./service-dataflows-azure-data-lake-integration.md)中了解有关如何授予 CDM 文件夹访问权限的详细信息。
 
 
 
@@ -72,4 +72,4 @@ Power BI Desktop 在安装它的计算机上本地运行。 数据流的引入�
 
 * [Power BI Desktop 中的数据源](../connect-data/desktop-data-sources.md)
 * [使用 Power BI Desktop 调整和合并数据](../connect-data/desktop-shape-and-combine-data.md)
-* [直接将数据输入到 Power BI Desktop 中](../connect-data/desktop-enter-data-directly-into-desktop.md)   
+* [直接将数据输入到 Power BI Desktop 中](../connect-data/desktop-enter-data-directly-into-desktop.md)

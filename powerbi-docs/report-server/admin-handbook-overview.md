@@ -8,12 +8,12 @@ ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 05/22/2019
 ms.author: maggies
-ms.openlocfilehash: 8f292b8474c478c178b85f2c015781ead1fa503c
-ms.sourcegitcommit: c83146ad008ce13bf3289de9b76c507be2c330aa
+ms.openlocfilehash: 172bc4cb677ffb4df5719e3c77f12ad10160c247
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/10/2020
-ms.locfileid: "86213805"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90861259"
 ---
 # <a name="admin-overview-power-bi-report-server"></a>管理员概述：Power BI 报表服务器
 本文是 Power BI 报表服务器管理概述，该服务器是用于存储和管理 Power BI、移动报表和分页报表的本地位置。 本文介绍规划、部署和管理 Power BI 报表服务器的概念，以及指向详细信息的链接。
@@ -38,17 +38,16 @@ ms.locfileid: "86213805"
 ## <a name="configuring-your-report-server"></a>配置报表服务器
 报表服务器的配置选项有很多。 要使用 SSL 吗？ 要配置电子邮件服务器吗？ 是否想要与 Power BI 服务集成以固定可视化效果？
 
-可以在报表服务器配置管理器中指定大部分配置。 有关更多详细信息，请查看[配置管理器](https://docs.microsoft.com/sql/reporting-services/install-windows/reporting-services-configuration-manager-native-mode)文档。
+可以在报表服务器配置管理器中指定大部分配置。 有关更多详细信息，请查看[配置管理器](/sql/reporting-services/install-windows/reporting-services-configuration-manager-native-mode)文档。
 
 ## <a name="security"></a>安全性
-安全和保护措施对每个组织都非常重要。 可以查看[安全](https://docs.microsoft.com/sql/reporting-services/security/reporting-services-security-and-protection)文档，了解身份验证、授权、角色和权限。
+安全和保护措施对每个组织都非常重要。 可以查看[安全](/sql/reporting-services/security/reporting-services-security-and-protection)文档，了解身份验证、授权、角色和权限。
 
 ## <a name="next-steps"></a>后续步骤
 [安装 Power BI 报表服务器](install-report-server.md)  
 [查找报表服务器产品密钥](find-product-key.md)  
 [安装更适合 Power BI 报表服务器的 Power BI Desktop](install-powerbi-desktop.md)  
 [下载报表生成器](https://www.microsoft.com/download/details.aspx?id=53613)  
-[下载 SQL Server Data Tools (SSDT)](https://go.microsoft.com/fwlink/?LinkID=616714)
+[下载 SQL Server Data Tools (SSDT)](/sql/ssdt/download-sql-server-data-tools-ssdt)
 
 更多问题？ [尝试咨询 Power BI 社区](https://community.powerbi.com/)
-

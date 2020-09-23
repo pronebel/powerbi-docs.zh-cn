@@ -8,12 +8,12 @@ ms.subservice: powerbi-mobile
 ms.topic: how-to
 ms.date: 08/12/2020
 ms.author: painbar
-ms.openlocfilehash: f53fb518df3c82f4570c81b7caa14c20eea8022c
-ms.sourcegitcommit: 64139587061136a43c5aea3b6db4d1a94e4e7795
+ms.openlocfilehash: bdea7bbadc9e974e6b71122775408f50cfe33de3
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/14/2020
-ms.locfileid: "88204953"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90855946"
 ---
 # <a name="explore-reports-in-the-power-bi-mobile-apps"></a>在 Power BI 移动应用中浏览报表
 适用于：
@@ -23,7 +23,7 @@ ms.locfileid: "88204953"
 | iPhone |iPad |Android 手机 |Android 平板电脑 |Windows 10 设备 |
 
 >[!NOTE]
->我们将于 2021 年 3 月 16 日终止对使用 Windows 10 移动版的手机提供 Power BI 移动应用支持  。 [了解详细信息](https://go.microsoft.com/fwlink/?linkid=2121400)
+>我们将于 2021 年 3 月 16 日终止对使用 Windows 10 移动版的手机提供 Power BI 移动应用支持  。 [了解详细信息](/legal/powerbi/powerbi-mobile/power-bi-mobile-app-end-of-support-for-windows-phones)
 
 Power BI 报表是一个交互式数据视图，它使用视觉对象来表示不同的数据发现和见解。 在 Power BI 移动应用中查看报表是三步流程中的第三步：
 
@@ -134,13 +134,13 @@ Power BI 移动应用中的报表有两个图标：
 
 仅当在报表中设置了[书签](mobile-reports-in-the-mobile-apps.md#bookmarks)时，才会显示“书签”****。 可在 Power BI 服务中定义的个人书签和报表创建者定义的书签都将显示出来。 如果已将其中一个书签定义为默认书签，则报表将在加载时打开该视图。
 
-如果组织中存在禁止通过 Power BI 移动应用共享的 [Intune 保护策略](https://docs.microsoft.com/intune/app-protection-policies)，则可能会禁用“批注并共享”****。
+如果组织中存在禁止通过 Power BI 移动应用共享的 [Intune 保护策略](/intune/app-protection-policies)，则可能会禁用“批注并共享”****。
 
 只有在你有权与他人共享报表时才会启用“邀请”****。 只有当你是报表所有者或所有者授予你重新共享权限时，你才有此权限。
 
-如果报表作者按地理数据对报表进行了分类，则“按当前位置筛选”处于启用状态****。 有关详细信息，请阅读[标识报表中的地理数据](https://docs.microsoft.com/power-bi/desktop-mobile-geofiltering)。
+如果报表作者按地理数据对报表进行了分类，则“按当前位置筛选”处于启用状态****。 有关详细信息，请阅读[标识报表中的地理数据](../../transform-model/desktop-mobile-geofiltering.md)。
 
-只有当报表中的数据集被标记为条形码时，才会启用“扫描以按条形码筛选报表”********。 有关详细信息，请阅读[在 Power BI Desktop 中标记条形码](https://docs.microsoft.com/power-bi/desktop-mobile-barcodes)。
+只有当报表中的数据集被标记为条形码时，才会启用“扫描以按条形码筛选报表”********。 有关详细信息，请阅读[在 Power BI Desktop 中标记条形码](../../transform-model/desktop-mobile-barcodes.md)。
 
 ### <a name="bookmarks"></a>书签
 
@@ -154,7 +154,7 @@ Power BI 移动应用支持报表创建者已定义的报表书签和可在 Powe
 
 ![书签视图](./media/mobile-reports-in-the-mobile-apps/power-bi-mobile-report-bookmark-title.png)
 
-[了解有关 Power BI 服务中书签的详细信息](https://docs.microsoft.com/power-bi/consumer/end-user-bookmarks)。
+[了解有关 Power BI 服务中书签的详细信息](../end-user-bookmarks.md)。
 
 ## <a name="configure-your-experience-with-reports"></a>配置报表体验
 Power BI 移动应用提供许多设置，使你可以控制报表体验。 当前可以配置
