@@ -8,12 +8,12 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 11/23/2019
 ms.author: v-pemyer
-ms.openlocfilehash: 21a4075861bfa37407ef8ffc73e2beabe50ff095
-ms.sourcegitcommit: 2131f7b075390c12659c76df94a8108226db084c
+ms.openlocfilehash: 1a49531c9c7e525371c3c92b7bf116bfa7e99fd3
+ms.sourcegitcommit: cff93e604e2c5f24e0f03d6dbdcd10c2332aa487
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/03/2020
-ms.locfileid: "87537541"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90965541"
 ---
 # <a name="dax-use-countrows-instead-of-count"></a>DAX：使用 COUNTROWS 而不是 COUNT
 
@@ -52,6 +52,6 @@ COUNTROWS(Sales)
 有关本文的详细信息，请参阅以下资源：
 
 - [数据分析表达式 (DAX) 引用](/dax/)
-- 学习路径：[在 Power BI Desktop 中使用 DAX](https://docs.microsoft.com/learn/paths/dax-power-bi/)
+- 学习路径：[在 Power BI Desktop 中使用 DAX](/learn/paths/dax-power-bi/)
 - 是否有任何问题? [尝试咨询 Power BI 社区](https://community.powerbi.com/)
 - 建议？ [提出改进 Power BI 的想法](https://ideas.powerbi.com)

@@ -8,12 +8,12 @@ ms.subservice: powerbi-report-server
 ms.topic: how-to
 ms.date: 01/07/2020
 ms.author: maggies
-ms.openlocfilehash: d8e36a9eba34b2c27c9ce6f86edfafa568bccf90
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: cf205603a4807b814e56904151e0ce8db66cfab1
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85236315"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90853531"
 ---
 # <a name="create-a-paginated-report-for-power-bi-report-server"></a>为 Power BI 报表服务器创建分页报表
 本文介绍如何通过执行简单几步为 Power BI 报表服务器创建分页报表。
@@ -60,7 +60,7 @@ ms.locfileid: "85236315"
    
     ![图表向导：选择数据集](media/quickstart-create-paginated-report/reportserver-paginated-choose-dataset.png)
    
-     需要创建数据集？ 请参阅[创建共享或嵌入式数据集](https://docs.microsoft.com/sql/reporting-services/report-data/create-a-shared-dataset-or-embedded-dataset-report-builder-and-ssrs)。
+     需要创建数据集？ 请参阅[创建共享或嵌入式数据集](/sql/reporting-services/report-data/create-a-shared-dataset-or-embedded-dataset-report-builder-and-ssrs)。
 2. 选择图表类型，在此示例中，选择“条形图”。
    
     ![图表向导：图表类型](media/quickstart-create-paginated-report/reportserver-paginated-choose-chart-type.png)
@@ -81,7 +81,7 @@ ms.locfileid: "85236315"
 
 可以修改刚刚创建的图表：更改布局、值、图例（实际上可以更改一切内容）。
 
-可以添加其他各种可视化效果：仪表、表、矩阵、地图等。 可以添加多个页的页眉和页脚。 请参阅[报表生成器教程](https://docs.microsoft.com/sql/reporting-services/report-builder-tutorials)，尝试自行操作。
+可以添加其他各种可视化效果：仪表、表、矩阵、地图等。 可以添加多个页的页眉和页脚。 请参阅[报表生成器教程](/sql/reporting-services/report-builder-tutorials)，尝试自行操作。
 
 ![报表生成器设计视图](media/quickstart-create-paginated-report/reportserver-paginated-finished-design-report.png)
 
@@ -96,8 +96,7 @@ ms.locfileid: "85236315"
 ## <a name="next-steps"></a>后续步骤
 若要了解如何在 SQL Server Data Tools 的报表生成器和报表设计器中设计报表，可以参阅许多有价值的资源。 不妨先从报表生成器教程入手。
 
-* [报表生成器教程](https://docs.microsoft.com/sql/reporting-services/report-builder-tutorials)
+* [报表生成器教程](/sql/reporting-services/report-builder-tutorials)
 * [什么是 Power BI 报表服务器？](get-started.md)  
 
 更多问题？ [尝试咨询 Power BI 社区](https://community.powerbi.com/)
-

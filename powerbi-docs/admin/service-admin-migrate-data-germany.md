@@ -9,16 +9,16 @@ ms.topic: conceptual
 ms.date: 12/09/2019
 ms.author: kfollis
 LocalizationGroup: Administration
-ms.openlocfilehash: aa05ffa7ba07ea1daf162f8ebb2baa3d18f64b29
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 7dadfd405eb13acd9b1db757e6123278fbfcfeef
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "75256347"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90857200"
 ---
 # <a name="migrate-your-subscription-to-the-new-go-local-german-regions"></a>将订阅迁移到新的“Go Local”德国区域
 
-如果你是现有 Microsoft 云德国的客户，那么你很快就可以将 Power BI 用户移动到新的“Go Local”德国区域。 开始迁移过程的第一步是[选择加入 Microsoft 辅助迁移](https://aka.ms/office365germanymoveoptin)，选择新的德国数据中心区域。
+如果你是现有 Microsoft 云德国的客户，那么你很快就可以将 Power BI 用户移动到新的“Go Local”德国区域。 开始迁移过程的第一步是[选择加入 Microsoft 辅助迁移](/microsoft-365/enterprise/ms-cloud-germany-migration-opt-in)，选择新的德国数据中心区域。
 
 如果你的组织选择加入，则应该可以在 2020 年的某个时间开始迁移。 你的核心客户数据和订阅将迁移到新的“Go Local”德国区域。
 

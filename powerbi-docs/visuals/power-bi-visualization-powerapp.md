@@ -10,12 +10,12 @@ ms.topic: how-to
 ms.date: 06/01/2020
 ms.author: rien
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 079689fe9c068f433eb39d5363e253fecfc39968
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 78d9d59455a86c5499bc8b01deeacb331bbe7a8b
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85233210"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90858913"
 ---
 # <a name="tutorial-embed-a-power-apps-visual-in-a-power-bi-report"></a>教程：在 Power BI 报表中嵌入 Power Apps 视觉对象
 
@@ -32,8 +32,8 @@ ms.locfileid: "85233210"
 ## <a name="prerequisites"></a>先决条件
 
 * [Google Chrome](https://www.google.com/chrome/browser/) 或 [Microsoft Edge](https://www.microsoft.com/windows/microsoft-edge) 浏览器
-* 安装了[机会分析示例](https://docs.microsoft.com/power-bi/sample-opportunity-analysis#get-the-content-pack-for-this-sample)的 [Power BI 订阅](https://docs.microsoft.com/power-bi/service-self-service-signup-for-power-bi)
-* 了解如何[在 Power Apps 中创建应用](https://docs.microsoft.com/powerapps/maker/canvas-apps/data-platform-create-app-scratch)以及如何[编辑 Power BI 报表](https://docs.microsoft.com/power-bi/service-the-report-editor-take-a-tour)
+* 安装了[机会分析示例](../create-reports/sample-opportunity-analysis.md#get-the-content-pack-for-this-sample)的 [Power BI 订阅](../fundamentals/service-self-service-signup-for-power-bi.md)
+* 了解如何[在 Power Apps 中创建应用](/powerapps/maker/canvas-apps/data-platform-create-app-scratch)以及如何[编辑 Power BI 报表](../create-reports/service-the-report-editor-take-a-tour.md)
 
 
 
@@ -105,8 +105,8 @@ ms.locfileid: "85233210"
 如果不想再使用机会分析示例，可删除仪表板、报表和数据集。
 
 ## <a name="limitations-and-considerations"></a>限制和注意事项
-有关疑难解答信息，请参阅[适用于 Power BI 的 Power Apps 视觉对象](https://docs.microsoft.com/powerapps/maker/canvas-apps/powerapps-custom-visual#limitations-of-the-power-apps-visual)
+有关疑难解答信息，请参阅[适用于 Power BI 的 Power Apps 视觉对象](/powerapps/maker/canvas-apps/powerapps-custom-visual#limitations-of-the-power-apps-visual)
 
 ## <a name="next-steps"></a>后续步骤
 [问答视觉对象](power-bi-visualization-types-for-reports-and-q-and-a.md)    
-[教程：在 Power BI 报表中嵌入 Power Apps 视觉对象](https://docs.microsoft.com/powerapps/maker/canvas-apps/powerapps-custom-visual)    
+[教程：在 Power BI 报表中嵌入 Power Apps 视觉对象](/powerapps/maker/canvas-apps/powerapps-custom-visual)

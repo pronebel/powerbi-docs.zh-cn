@@ -10,12 +10,12 @@ ms.topic: how-to
 ms.date: 11/22/2019
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 129b4a22e17b5eab03018efae113ff47133e9dda
-ms.sourcegitcommit: c83146ad008ce13bf3289de9b76c507be2c330aa
+ms.openlocfilehash: 8ba43290e0e076963a61a7211ad99e99636ebb2e
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/10/2020
-ms.locfileid: "86214166"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90853370"
 ---
 # <a name="use-quick-measures-for-common-calculations"></a>使用快速度量执行常见计算
 可使用快速度量快速、轻松地执行常见的高效计算。 快速度量在后台运行一组数据分析表达式 (DAX) 命令，然后显示结果以供用户在报表中使用。 无需编写 DAX，系统会根据对话框中提供的输入自动完成此操作。 计算分为许多类别，可通过多种方式来根据自己的需求修改所有计算。 也许最重要的是，可以查看快速度量执行的 DAX，从而开始学习或拓展你自己的 DAX 知识。
@@ -131,8 +131,7 @@ ms.locfileid: "86214166"
 > 快速度量的 DAX 语句只将逗号用作参数分隔符。 如果 Power BI Desktop 版本使用的是将逗号用作十进制分隔符的语言，快速度量将无法正常运行。
 
 ### <a name="time-intelligence-and-quick-measures"></a>时间智能和快速度量
-可以将自己的自定义日期表与时间智能快速度量配合使用。 如果使用的是外部表格模型，请确保在生成模型时，此表中的主日期列被标记为“日期”表，如[指定“标记为日期表”以便与时间智能配合使用](https://docs.microsoft.com/sql/analysis-services/tabular-models/specify-mark-as-date-table-for-use-with-time-intelligence-ssas-tabular)所述。 如果要导入自己的日期表，请确保将其标记为“日期”表，如[在 Power BI Desktop 中设置和使用日期表](desktop-date-tables.md)所述。
+可以将自己的自定义日期表与时间智能快速度量配合使用。 如果使用的是外部表格模型，请确保在生成模型时，此表中的主日期列被标记为“日期”表，如[指定“标记为日期表”以便与时间智能配合使用](/sql/analysis-services/tabular-models/specify-mark-as-date-table-for-use-with-time-intelligence-ssas-tabular)所述。 如果要导入自己的日期表，请确保将其标记为“日期”表，如[在 Power BI Desktop 中设置和使用日期表](desktop-date-tables.md)所述。
 
 ### <a name="additional-information-and-examples"></a>其他信息和示例
 对尚未提供的快速度量有建议吗？ 很好！ 请参阅 [Power BI 建议](https://go.microsoft.com/fwlink/?linkid=842906)页，并提交你的建议以及想要在 Power BI Desktop 中使用的快速度量的 DAX 公式。 在未来版本中，我们会考虑将其添加到“快速度量”列表。
-

@@ -10,12 +10,12 @@ ms.date: 05/13/2020
 ms.author: kfollis
 ms.custom: licensing support
 LocalizationGroup: Administration
-ms.openlocfilehash: 8f5fd85887a7866513c06c984c5207527400a67c
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 99d1f9543625ab564db305b50b196b1e6fcdebef
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85228220"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90857234"
 ---
 # <a name="get-a-power-bi-service-subscription-for-your-organization"></a>为组织获取 Power BI 服务订阅
 
@@ -55,7 +55,7 @@ ms.locfileid: "85228220"
 
 8. 若要验证你的购买情况，请前往“账单” > “产品和服务”并查找“Power BI Pro”。
 
-要详细了解组织如何控制和获取 Power BI 服务，请参阅[组织中的 Power BI](https://docs.microsoft.com/microsoft-365/admin/misc/power-bi-in-your-organization?view=o365-worldwide)。
+要详细了解组织如何控制和获取 Power BI 服务，请参阅[组织中的 Power BI](/microsoft-365/admin/misc/power-bi-in-your-organization?view=o365-worldwide)。
 
 ## <a name="more-ways-to-get-power-bi-for-your-organization"></a>为组织获取 Power BI 的更多方法
 
@@ -98,4 +98,4 @@ ms.locfileid: "85228220"
 
 - [查看和管理用户许可证](service-admin-manage-licenses.md)
 - [启用或禁用自助注册和购买](service-admin-disable-self-service.md)
-- [商业版订阅和计费文档](https://docs.microsoft.com/microsoft-365/commerce/?view=o365-worldwide)
+- [商业版订阅和计费文档](/microsoft-365/commerce/?view=o365-worldwide)

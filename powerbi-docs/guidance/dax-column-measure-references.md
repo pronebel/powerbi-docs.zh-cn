@@ -8,12 +8,12 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 12/18/2019
 ms.author: v-pemyer
-ms.openlocfilehash: a98ee3ff33d21dd599ddfb11166a6870ad30e6e5
-ms.sourcegitcommit: 2131f7b075390c12659c76df94a8108226db084c
+ms.openlocfilehash: d3a7c39d659dacb8a44728518e239cd481ba951d
+ms.sourcegitcommit: cff93e604e2c5f24e0f03d6dbdcd10c2332aa487
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/03/2020
-ms.locfileid: "87537564"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90965233"
 ---
 # <a name="dax-column-and-measure-references"></a>DAX：列和度量值引用
 
@@ -67,6 +67,6 @@ Profit = Orders[Sales] - Orders[Cost]
 有关本文的详细信息，请参阅以下资源：
 
 - [数据分析表达式 (DAX) 引用](/dax/)
-- 学习路径：[在 Power BI Desktop 中使用 DAX](https://docs.microsoft.com/learn/paths/dax-power-bi/)
+- 学习路径：[在 Power BI Desktop 中使用 DAX](/learn/paths/dax-power-bi/)
 - 是否有任何问题? [尝试咨询 Power BI 社区](https://community.powerbi.com/)
 - 建议？ [提出改进 Power BI 的想法](https://ideas.powerbi.com)

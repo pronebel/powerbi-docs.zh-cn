@@ -10,12 +10,12 @@ ms.topic: how-to
 ms.date: 10/14/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 5e76cdfc2fd8ad4a90290ecaa559d502d5f847e6
-ms.sourcegitcommit: 181679a50c9d7f7faebcca3a3fc55461f594d9e7
+ms.openlocfilehash: a8d2284a24bb04b175a00a69339ba9e6ac260c10
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/07/2020
-ms.locfileid: "86034419"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90858616"
 ---
 # <a name="connect-to-azure-consumption-insights-data-in-power-bi-desktop"></a>在 Power BI Desktop 中连接到 Azure 使用见解数据
 
@@ -178,7 +178,7 @@ ms.locfileid: "86034419"
 Azure 还提供了 [Azure 使用情况和见解 (ACI) API](https://azure.microsoft.com/blog/announcing-general-availability-of-consumption-and-charge-apis-for-enterprise-azure-customers/)。 用户可以使用 ACI API 创建自己的自定义解决方案来收集、报告和直观显示 Azure 使用情况信息。
 
 ### <a name="mapping-names-and-usage-details-between-the-portal-the-connector-and-the-api"></a>映射门户、连接器和 API 之间的名称和使用情况详细信息
-Azure 门户列和详细名称与 API 和连接器中的相关信息类似，但并不总是完全一致。 为了阐明这一点，下表提供了一个映射。 还指示了列是否已过时。 若要了解详细信息和术语定义，请查看 [Azure 帐单数据字典](https://docs.microsoft.com/azure/billing/billing-enterprise-api-usage-detail)。
+Azure 门户列和详细名称与 API 和连接器中的相关信息类似，但并不总是完全一致。 为了阐明这一点，下表提供了一个映射。 还指示了列是否已过时。 若要了解详细信息和术语定义，请查看 [Azure 帐单数据字典](/azure/billing/billing-enterprise-api-usage-detail)。
 
 | ACI 连接器/ContentPack ColumnName | ACI API 列名称 | EA 列名称 | 已过时/用于向后兼容 |
 | --- | --- | --- | --- |
@@ -238,4 +238,4 @@ Azure 门户列和详细名称与 API 和连接器中的相关信息类似，但
 * [Power BI Desktop 中的数据源](desktop-data-sources.md)
 * [使用 Power BI Desktop 调整和合并数据](desktop-shape-and-combine-data.md)
 * [通过 Power BI Desktop 连接到 Excel 工作簿](desktop-connect-excel.md)   
-* [直接将数据输入到 Power BI Desktop 中](desktop-enter-data-directly-into-desktop.md)   
+* [直接将数据输入到 Power BI Desktop 中](desktop-enter-data-directly-into-desktop.md)

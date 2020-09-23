@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 01/11/2020
 ms.author: davidi
 LocalizationGroup: Transform and shape data
-ms.openlocfilehash: 0d09fd8c931a92828d11b5813e57e0691c848dc0
-ms.sourcegitcommit: c83146ad008ce13bf3289de9b76c507be2c330aa
+ms.openlocfilehash: abd12abf852a220399847bee7903ea83cff1386b
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/10/2020
-ms.locfileid: "86214131"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90853600"
 ---
 # <a name="query-overview-in-power-bi-desktop"></a>Power BI Desktop 中的查询概述
 借助 Power BI Desktop，可以连接到世界上的数据，创建具有吸引力的基础报表，与依赖你的工作、扩展自身商业智能工作的其他人共享你的工作。
@@ -81,7 +81,7 @@ Power Query 编辑器中的功能区由四个选项卡组成：“主页”、�
 
 ![Power BI Desktop 的屏幕截图，其中显示了“主页”按钮。](media/desktop-query-overview/queryoverview_transformribbon.png)
 
-有关转换数据的详细信息（包括示例），请参阅[教程：在 Power BI Desktop 中调整和合并数据](https://docs.microsoft.com/power-bi/desktop-shape-and-combine-data)。
+有关转换数据的详细信息（包括示例），请参阅[教程：在 Power BI Desktop 中调整和合并数据](../connect-data/desktop-shape-and-combine-data.md)。
 
 **添加列**选项卡提供了与添加列、设置列数据格式和添加自定义列相关联的其他任务。 下图显示**添加列**选项卡。  
 
@@ -145,4 +145,4 @@ Power BI Desktop 可用于执行多种操作。 有关其功能的详细信息�
 * [Power BI Desktop 中的数据源](../connect-data/desktop-data-sources.md)
 * [连接到 Power BI Desktop 中的数据](../connect-data/desktop-connect-to-data.md)
 * [教程：使用 Power BI Desktop 调整和合并数据](../connect-data/desktop-shape-and-combine-data.md)
-* [在 Power BI Desktop 中执行常见查询任务](desktop-common-query-tasks.md)   
+* [在 Power BI Desktop 中执行常见查询任务](desktop-common-query-tasks.md)

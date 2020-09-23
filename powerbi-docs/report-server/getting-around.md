@@ -8,12 +8,12 @@ ms.subservice: powerbi-report-server
 ms.topic: how-to
 ms.date: 05/24/2018
 ms.author: maggies
-ms.openlocfilehash: 35cbfd905db3d6d8464add0fe0e67060c41c9d0a
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: a42ffc2610021ec1f9b77fb5e950253ff8196e61
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85239406"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90858775"
 ---
 # <a name="manage-content-in-the-web-portal"></a>管理 Web 门户中的内容 
 Power BI 报表服务器 Web 门户是用于查看、存储和管理 Power BI 报表、移动报表和分页报表以及 KPI 的本地位置。
@@ -63,10 +63,9 @@ Power BI 报表服务器允许对 Web 门户中存储的项目进行精细化控
     ![选择属性](media/getting-around/report-server-web-portal-manage-properties.png)
 3. 选择“应用”。 
 
-详细了解如何[在 Web 门户中处理订阅](https://docs.microsoft.com/sql/reporting-services/working-with-subscriptions-web-portal)。
+详细了解如何[在 Web 门户中处理订阅](/sql/reporting-services/working-with-subscriptions-web-portal)。
 
 ## <a name="next-steps"></a>后续步骤
 [什么是 Power BI 报表服务器？](get-started.md)
 
 更多问题？ [尝试咨询 Power BI 社区](https://community.powerbi.com/)
-

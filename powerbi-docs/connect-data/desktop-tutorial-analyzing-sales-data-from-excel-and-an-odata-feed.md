@@ -9,12 +9,12 @@ ms.topic: tutorial
 ms.date: 01/17/2020
 ms.author: davidi
 LocalizationGroup: Learn more
-ms.openlocfilehash: c0fb194c3585af9ce3011f5cb2a4e6b57b5092ed
-ms.sourcegitcommit: 70a892df1a0c196db58bf9165b3aa31b26bbe149
+ms.openlocfilehash: 0401fecc91aef03c0b9e0767bfb241cd701ff50b
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/29/2020
-ms.locfileid: "89092397"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90853738"
 ---
 # <a name="tutorial-analyze-sales-data-from-excel-and-an-odata-feed"></a>教程：分析来自 Excel 和 OData 源的销售数据
 
@@ -172,7 +172,7 @@ Power Query 编辑器连接数据时，出于显示目的，它会猜测每个�
 ![产品查询应用的步骤](media/desktop-tutorial-analyzing-sales-data-from-excel-and-an-odata-feed/products-query-applied-steps.png) &nbsp;&nbsp; ![订单查询应用的步骤](media/desktop-tutorial-analyzing-sales-data-from-excel-and-an-odata-feed/orders-query-applied-steps.png)
 
 >[!TIP]
->基本的“应用的步骤”是以 Power Query 语言  编写的公式，也称为 [M 语言](https://docs.microsoft.com/powerquery-m/power-query-m-reference)。 若要查看和编辑该公式，请选择功能区“主页”  选项卡“查询”  组中的“高级编辑器”  。
+>基本的“应用的步骤”是以 Power Query 语言  编写的公式，也称为 [M 语言](/powerquery-m/power-query-m-reference)。 若要查看和编辑该公式，请选择功能区“主页”  选项卡“查询”  组中的“高级编辑器”  。
 
 ## <a name="import-the-transformed-queries"></a>导入转换的查询
 
@@ -272,7 +272,7 @@ Power BI Desktop 不需要合并查询来建立报表。 但是，可以使用�
 
 ## <a name="next-steps"></a>后续步骤
 
-* [针对 Power BI 的 Microsoft Learn](https://docs.microsoft.com/learn/powerplatform/power-bi?WT.mc_id=powerbi_landingpage-docs-link)
-* [观看 Power BI Desktop 视频](/power-bi/fundamentals/desktop-videos)
+* [针对 Power BI 的 Microsoft Learn](/learn/powerplatform/power-bi?WT.mc_id=powerbi_landingpage-docs-link)
+* [观看 Power BI Desktop 视频](../fundamentals/desktop-videos.md)
 * [访问 Power BI 论坛](https://go.microsoft.com/fwlink/?LinkID=519326)
 * [阅读 Power BI 博客](https://go.microsoft.com/fwlink/?LinkID=519327)

@@ -7,15 +7,15 @@ featuredvideoid: bZMSv5KAlcE
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: how-to
-ms.date: 03/11/2020
+ms.date: 09/17/2020
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 6c500c7bf0548d115bc658cab868b8f415bbda90
-ms.sourcegitcommit: 2131f7b075390c12659c76df94a8108226db084c
+ms.openlocfilehash: dda0b61f1b74624f13003f57ffb29d99165f126c
+ms.sourcegitcommit: cb606d3ae95300683caf1853e229d8981302a8e2
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/03/2020
-ms.locfileid: "87537955"
+ms.lasthandoff: 09/18/2020
+ms.locfileid: "90763846"
 ---
 # <a name="view-power-bi-notifications"></a>查看 Power BI 通知
 
@@ -35,13 +35,13 @@ ms.locfileid: "87537955"
 ## <a name="view-your-notifications"></a>查看通知
 1. 登录到 Power BI 时，在脱机时发送给你的任何新通知会添加到你的源中。 如果有新通知，Power BI 会显示带有新通知数量的黄色气泡。
    
-   ![新通知图标](./media/end-user-notification-center/power-bi-new-notification.png)
+   ![新通知图标](./media/end-user-notification-center/power-bi-new-notifications.png)
 2. 在 Power BI 菜单栏中，选择“通知”图标  。
    
-   ![已选中通知图标的顶部菜单栏](./media/end-user-notification-center/power-bi-notifications-icon.png)
+   ![已选中通知图标的顶部菜单栏](./media/end-user-notification-center/power-bi-notification-icon.png)
 3. 最新的通知显示在顶部，未读的通知将突出显示。 通知将保留 90 天，除非你在此之前将其删除，或通知数量超过 100 条的最大限制。
    
-   ![通知中心](./media/end-user-notification-center/power-bi-notification-center.png)
+   ![通知中心](./media/end-user-notification-center/power-bi-notifications-center.png)
 4. 若要消除通知，请选择“X”图标。
 
 ## <a name="next-steps"></a>后续步骤

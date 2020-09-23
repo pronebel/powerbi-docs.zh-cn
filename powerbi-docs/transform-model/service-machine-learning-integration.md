@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 09/01/2020
 ms.author: davidi
 LocalizationGroup: conceptual
-ms.openlocfilehash: b24663acf2a3a3fd76953413c298580041afc4ab
-ms.sourcegitcommit: 89ce1777a85b9fc476f077cbe22978c6cf923603
+ms.openlocfilehash: 3af8779f87c511e0d3e12a062278c20de1852b0b
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/02/2020
-ms.locfileid: "89286834"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90853378"
 ---
 # <a name="azure-machine-learning-integration-in-power-bi"></a>Power BI 中的 Azure 机器学习集成
 
@@ -28,8 +28,8 @@ ms.locfileid: "89286834"
 
 若要了解有关 Azure 机器学习的详细信息，请参阅：
 
-- 概述：[什么是 Azure 机器学习？](https://docs.microsoft.com/azure/machine-learning/service/overview-what-is-azure-ml)
-- Azure 机器学习的快速入门和教程：[Azure 机器学习文档](https://docs.microsoft.com/azure/machine-learning/)
+- 概述：[什么是 Azure 机器学习？](/azure/machine-learning/service/overview-what-is-azure-ml)
+- Azure 机器学习的快速入门和教程：[Azure 机器学习文档](/azure/machine-learning/)
 
 > [!NOTE]
 > 使用 Azure 机器学习集成需要 Power BI Premium 订阅。
@@ -41,7 +41,7 @@ ms.locfileid: "89286834"
 - 对于机器学习工作室（经典）模型，具有对机器学习工作室（经典）Web 服务的读取权限
 - 对于机器学习模型，具有对机器学习工作区的读取权限
 
-本文中的步骤介绍了如何向 Power BI 用户授予对托管在 Azure ML 服务上的模型的访问权限，以便他们可以将此模型作为 Power Query 函数进行访问。  有关更为详细的信息，请参阅[使用 RBAC 和 Azure 门户管理访问](https://docs.microsoft.com/azure/role-based-access-control/role-assignments-portal)。
+本文中的步骤介绍了如何向 Power BI 用户授予对托管在 Azure ML 服务上的模型的访问权限，以便他们可以将此模型作为 Power Query 函数进行访问。  有关更为详细的信息，请参阅[使用 RBAC 和 Azure 门户管理访问](/azure/role-based-access-control/role-assignments-portal)。
 
 1. 登录 [Azure 门户](https://portal.azure.com)。
 
@@ -70,7 +70,7 @@ ms.locfileid: "89286834"
 
 数据科学家主要使用 Python 来为机器学习开发甚至部署其机器学习模型。  与机器学习工作室（经典）（有助于自动执行创建模型的架构文件的任务）不同，在机器学习中，数据科学家必须使用 Python 显式生成架构文件。
 
-此架构文件必须包含在为机器学习模型部署的 Web 服务中。 若要自动生成 Web 服务的架构，必须在已部署模型的条目脚本中提供输入/输出的示例。 请参阅 [Azure 机器学习服务文档的部署模型中关于（可选）自动生成 Swagger 架构](https://docs.microsoft.com/azure/machine-learning/how-to-deploy-advanced-entry-script#power-bi-compatible-endpoint)的子节。 该链接包括示例条目脚本以及架构生成的语句。 
+此架构文件必须包含在为机器学习模型部署的 Web 服务中。 若要自动生成 Web 服务的架构，必须在已部署模型的条目脚本中提供输入/输出的示例。 请参阅 [Azure 机器学习服务文档的部署模型中关于（可选）自动生成 Swagger 架构](/azure/machine-learning/how-to-deploy-advanced-entry-script#power-bi-compatible-endpoint)的子节。 该链接包括示例条目脚本以及架构生成的语句。 
 
 具体来说，条目脚本中的 \@input_schema 和 \@output_schema 函数引用了 input_sample 和 output_sample 变量中的输入和输出示例格式，并在部署期间使用这些示例为 Web 服务生成 OpenAPI (Swagger) 规范 。
 

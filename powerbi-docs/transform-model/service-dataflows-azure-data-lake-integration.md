@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 04/02/2019
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: 9271bc6d3ee102ed7d1b52dec2100a5cba88e568
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: d5ee81b9aa594e6a101d85e4f90c14c7e653edf6
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85239809"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90853288"
 ---
 # <a name="dataflows-and-azure-data-lake-integration-preview"></a>数据流和 Azure Data Lake 集成（预览）
 
@@ -45,7 +45,7 @@ ms.locfileid: "85239809"
 
 ## <a name="power-bi-organizes-cdm-folders-in-the-data-lake"></a>Power BI 在 Data Lake 中组织 CDM 文件夹
 
-通过使用 Power BI 数据流并将其与 ADLS Gen2 集成，Power BI 可以在 Data Lake 中生成数据。 作为数据生成者，Power BI 必须为包含 model.json 文件及其关联的数据文件的每个数据流创建 CDM 文件夹。 Power BI 通过使用文件系统  将其数据存储在独立于其他数据生成者的位置。 可以在[说明 Azure Data Lake Storage Gen2 文件系统和分层命名空间的文章](https://docs.microsoft.com/azure/storage/data-lake-storage/namespace)中阅读有关它们的详细信息。
+通过使用 Power BI 数据流并将其与 ADLS Gen2 集成，Power BI 可以在 Data Lake 中生成数据。 作为数据生成者，Power BI 必须为包含 model.json 文件及其关联的数据文件的每个数据流创建 CDM 文件夹。 Power BI 通过使用文件系统  将其数据存储在独立于其他数据生成者的位置。 可以在[说明 Azure Data Lake Storage Gen2 文件系统和分层命名空间的文章](/azure/storage/data-lake-storage/namespace)中阅读有关它们的详细信息。
 
 Power BI 使用子文件夹来消除歧义，并在 Power BI 服务  中呈现时提供改进的数据组织。 文件夹命名和结构表示工作区（文件夹）和数据流（CDM 文件夹）。 下图显示了 Power BI 共享 Data Lake 的方式以及可能结构化的其他数据生成者。 每种服务（在此示例中为 Dynamics 365、用于财务和运营的 Dynamics 和 Power BI）都将创建和维护其自己的文件系统。 将根据在每种服务中的体验来创建子文件夹，以更好地组织文件系统中的 CDM 文件夹。 
 
@@ -61,12 +61,12 @@ Power BI 使用由 Azure Data Lake Storage Gen2. 提供的 Active Directory OAut
 
 通过 Active Directory OAuth 持有者令牌和 POSIX ACL 将 CDM 文件夹与数据使用者（例如，需要读取数据的用户或服务）共享的过程进行了简化。 执行此操作可为管理员提供监视访问了 CDM 文件夹的用户的功能。 所需的唯一操作是向所选的 Active Directory 对象（例如用户组或服务）授予对 CDM 文件夹的访问权限。 我们建议将对 CDM 文件夹的所有访问（除数据生成者以外的任何身份）授予只读权限。 执行此操作可保护生成者生成的数据的完整性。
 
-若要将 CDM 文件夹添加到 Power BI，添加 CDM 文件夹的用户应具有对 CDM 文件夹本身和其中的任何文件或文件夹的只读  Access ACL 权限。 此外，还具有对 CDM 文件夹本身和其中的任何文件夹中执行  Access ACL 的权限。 建议查看[文件和目录上的访问控制列表](https://docs.microsoft.com/azure/storage/blobs/data-lake-storage-access-control#access-control-lists-on-files-and-directories)和[使用 Azure Data Lake Storage Gen2 的最佳做法](https://docs.microsoft.com/azure/storage/blobs/data-lake-storage-best-practices)以了解详细信息。
+若要将 CDM 文件夹添加到 Power BI，添加 CDM 文件夹的用户应具有对 CDM 文件夹本身和其中的任何文件或文件夹的只读  Access ACL 权限。 此外，还具有对 CDM 文件夹本身和其中的任何文件夹中执行  Access ACL 的权限。 建议查看[文件和目录上的访问控制列表](/azure/storage/blobs/data-lake-storage-access-control#access-control-lists-on-files-and-directories)和[使用 Azure Data Lake Storage Gen2 的最佳做法](/azure/storage/blobs/data-lake-storage-best-practices)以了解详细信息。
 
 
 ### <a name="alternative-forms-of-authorization"></a>授权的替代形式
 
-Power BI 外部的人员或服务也可以利用授权的替代形式。这些替代形式允许密钥持有者访问帐户中的所有  资源，完全访问 Data Lake 中的所有资源且不会被限制为仅能访问文件系统或 CDM 文件夹。 这些替代形式可能是授予访问权限的简单方法，但是它们限制了在 Data Lake 中共享特定资源的功能，且不向用户提供审核访问了存储的用户的功能。 [Azure Data Lake Storage Gen2 中的访问控制文章](https://docs.microsoft.com/azure/storage/blobs/data-lake-storage-access-control
+Power BI 外部的人员或服务也可以利用授权的替代形式。这些替代形式允许密钥持有者访问帐户中的所有  资源，完全访问 Data Lake 中的所有资源且不会被限制为仅能访问文件系统或 CDM 文件夹。 这些替代形式可能是授予访问权限的简单方法，但是它们限制了在 Data Lake 中共享特定资源的功能，且不向用户提供审核访问了存储的用户的功能。 [Azure Data Lake Storage Gen2 中的访问控制文章](/azure/storage/blobs/data-lake-storage-access-control
 )中提供了可用的授权方案的完整详细信息。
 
 
@@ -88,12 +88,12 @@ Power BI 外部的人员或服务也可以利用授权的替代形式。这些�
 * [Power BI 数据流的开发人员资源](service-dataflows-developer-resources.md)
 
 有关 Azure 存储的详细信息，可以阅读以下这些文章：
-* [Azure 存储安全指南](https://docs.microsoft.com/azure/storage/common/storage-security-guide)
+* [Azure 存储安全指南](/azure/storage/common/storage-security-guide)
 * [开始使用 Azure 数据服务中的 github 示例](https://aka.ms/cdmadstutorial)
 
 有关通用数据模型的详细信息，可以阅读其概述文章：
-* [通用数据模型 - 概述](https://docs.microsoft.com/powerapps/common-data-model/overview)
-* [CDM 文件夹](https://go.microsoft.com/fwlink/?linkid=2045304)
-* [CDM 模型文件定义](https://go.microsoft.com/fwlink/?linkid=2045521)
+* [通用数据模型 - 概述](/powerapps/common-data-model/overview)
+* [CDM 文件夹](/common-data-model/data-lake)
+* [CDM 模型文件定义](/common-data-model/model-json)
 
 也可以随时尝试[通过 Power BI 社区提问](https://community.powerbi.com/)。

@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 01/28/2020
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 6f9661b6cda8782e83e64e30f55ae4b0d8bf6fa2
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: bb55342974bcd64e7d5871b7b84977105b7467fa
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85224857"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90858683"
 ---
 # <a name="connect-to-analysis-services-tabular-data-in-power-bi-desktop"></a>在 Power BI Desktop 中连接到 Analysis Services 表格数据
 借助 Power BI Desktop，可通过两种方法连接到 SQL Server Analysis Services 表格模型并从中获取数据：通过使用实时连接浏览，或选择项并将其导入到 Power BI Desktop。
@@ -81,7 +81,7 @@ ms.locfileid: "85224857"
 **答：** 是。 根据表格模型所使用的功能，Power BI Desktop 中的体验可能会发生改变。 示例包括：
 * 你可能会看到模型中的度量值组合在“字段”窗格列表的顶部，而不是列旁边的表中  。 别担心，你仍可以正常使用它们，只是这样做可以更轻松地找到它们。
 
-* 如果表格模型定义了计算组，则只能将它们与模型度量值结合使用，而不能与通过向视觉对象添加数值字段而创建的隐式度量值结合使用。 该模型还可能手动设置了“DiscourageImplicitMeasures”标记，这具有相同的效果  。 若要了解详细信息，请参阅 [Analysis Services 中的计算组](https://docs.microsoft.com/analysis-services/tabular-models/calculation-groups#benefits)。
+* 如果表格模型定义了计算组，则只能将它们与模型度量值结合使用，而不能与通过向视觉对象添加数值字段而创建的隐式度量值结合使用。 该模型还可能手动设置了“DiscourageImplicitMeasures”标记，这具有相同的效果  。 若要了解详细信息，请参阅 [Analysis Services 中的计算组](/analysis-services/tabular-models/calculation-groups#benefits)。
 
 ## <a name="to-change-the-server-name-after-initial-connection"></a>初始连接后更改服务器名称
 使用实时浏览连接创建 Power BI Desktop 文件后，可能会出现你想要将连接切换到其他服务器的情况。 例如，如果当你在连接到开发服务器时创建了 Power BI Desktop 文件，在发布到 Power BI 服务前，你想要将连接切换至生产服务器。
@@ -97,4 +97,3 @@ ms.locfileid: "85224857"
 以下列表介绍了连接到 SQL Server Analysis Services (SSAS) 或 Azure Analysis Services 时出现的所有已知问题： 
 
 * **错误:无法加载模型架构**：当连接到 Analysis Services 的用户无权访问数据库/模型时，通常会出现此错误。
-

@@ -8,12 +8,12 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 10/24/2019
 ms.author: v-pemyer
-ms.openlocfilehash: 89d911680d46e159e446dbcf6bd06e2caf4b6b65
-ms.sourcegitcommit: 002c140d0eae3137a137e9a855486af6c55ad957
+ms.openlocfilehash: d32d931a2778cc1041da327eee323c8b44914f0f
+ms.sourcegitcommit: cff93e604e2c5f24e0f03d6dbdcd10c2332aa487
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/10/2020
-ms.locfileid: "89642616"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90965295"
 ---
 # <a name="directquery-model-guidance-in-power-bi-desktop"></a>Power BI Desktop 中的 DirectQuery 模型指导
 
@@ -41,11 +41,11 @@ ms.locfileid: "89642616"
 > 我们了解到，并非所有建模者都具有优化关系数据库的权限或技能。 虽然这是为 DirectQuery 模型准备数据的首选层，但也可以在不修改源数据库的情况下在模型设计中实现一些优化。 但是，最佳优化结果通常是通过将优化应用于源数据库来实现的。
 
 - **确保数据完整性已完成：** 尤其重要的是，维度类型表包含映射到事实类型表的唯一值（维度键）的列。 事实类型维度列包含有效的维度键值，这也是非常重要的。 这样就可以配置更有效的模型关系，该模型关系对关系的双方都具有匹配的值。 源数据缺少完整性时，建议添加“未知”维度记录以有效地修复数据。 例如，可向“产品”表添加行，用于表示未知产品，然后为其分配超出范围的密钥，如 -1。 如果销售表中的行包含缺少的产品密钥值，请将其替换为 -1。 这将确保每个销售产品密钥值在“产品”表中都有相应的行 。
-- **添加索引：** 针对表或视图定义适当的索引，以便为预期的报表视觉对象筛选和分组支持高效数据检索。 对于 SQL Server、Azure SQL 数据库或 Azure SQL 数据仓库，请参阅 [SQL Server 索引体系结构和设计指南](/sql/relational-databases/sql-server-index-design-guide?view=sql-server-2017)，了解索引设计指南的帮助信息。 对于 SQL Server 或 Azure SQL 数据库可变源，请参阅[开始使用列存储进行实时运营分析](/sql/relational-databases/indexes/get-started-with-columnstore-for-real-time-operational-analytics?view=sql-server-2017)。
+- **添加索引：** 针对表或视图定义适当的索引，以便为预期的报表视觉对象筛选和分组支持高效数据检索。 对于 SQL Server、Azure SQL 数据库或 Azure SQL 数据仓库，请参阅 [SQL Server 索引体系结构和设计指南](/sql/relational-databases/sql-server-index-design-guide)，了解索引设计指南的帮助信息。 对于 SQL Server 或 Azure SQL 数据库可变源，请参阅[开始使用列存储进行实时运营分析](/sql/relational-databases/indexes/get-started-with-columnstore-for-real-time-operational-analytics)。
 - **设计分布式表：** 对于利用大规模并行处理 (MPP) 体系结构的 Azure SQL 数据仓库源，请考虑将大型事实类型表配置为哈希分布的维度类型表，从而在所有计算节点之间进行复制。 有关详细信息，请参阅[在 Azure SQL 数据仓库中设计分布式表的指南](/azure/sql-data-warehouse/sql-data-warehouse-tables-distribute#what-is-a-distributed-table)。
-- **确保所需的数据转换已具体化：** 对于 SQL Server 关系数据库源（和其他关系数据库源），可将计算列添加到表中。 这些列基于表达式，如数量与单价相乘 。 计算列可以持久保存（具体化），也可以像常规列一样编入索引。 有关详细信息，请参阅[计算列索引](/sql/relational-databases/indexes/indexes-on-computed-columns?view=sql-server-2017)。
+- **确保所需的数据转换已具体化：** 对于 SQL Server 关系数据库源（和其他关系数据库源），可将计算列添加到表中。 这些列基于表达式，如数量与单价相乘 。 计算列可以持久保存（具体化），也可以像常规列一样编入索引。 有关详细信息，请参阅[计算列索引](/sql/relational-databases/indexes/indexes-on-computed-columns)。
 
-    还应考虑使用能够以更高的粒度预先聚合事实数据表数据的索引视图。 例如，如果销售表以订单行级别存储数据，则可以创建用于汇总此数据的视图。 该视图可基于 SELECT 语句，该语句将销售表数据按日期（月级别）、客户、产品和汇总度量值（如销售额、数量等）进行分组。然后，可将该视图编入索引。 有关 SQL Server 或 Azure SQL 数据库源，请参阅[创建索引视图](/sql/relational-databases/views/create-indexed-views?view=sql-server-2017)。
+    还应考虑使用能够以更高的粒度预先聚合事实数据表数据的索引视图。 例如，如果销售表以订单行级别存储数据，则可以创建用于汇总此数据的视图。 该视图可基于 SELECT 语句，该语句将销售表数据按日期（月级别）、客户、产品和汇总度量值（如销售额、数量等）进行分组。然后，可将该视图编入索引。 有关 SQL Server 或 Azure SQL 数据库源，请参阅[创建索引视图](/sql/relational-databases/views/create-indexed-views)。
 - **具体化日期表：** 常见的建模要求涉及到添加日期表，用于支持基于时间的筛选。 若要支持组织中基于时间的已知筛选器，请在源数据库中创建表，并确保其中加载的日期范围包含事实数据表日期。 还要确保包含有用时间段（如年、季度、月、周等）的列。
 
 ## <a name="optimize-model-design"></a>优化模型设计
@@ -87,7 +87,7 @@ ms.locfileid: "89642616"
 
     增加“每个数据源的最大连接数”值确保更多查询（最多为指定的最大数）可以发送到基础数据源，这在单个页面上有许多视觉对象或多个用户同时访问报表时很有用。 达到最大连接数后，超出的查询就会排队，直到连接可用。 增加此限制确实会导致基础数据源上的负载增加，因此该设置不保证提高总体性能。
     
-    将模型发布到 Power BI 时，发送到基础数据源的并发查询的最大数目也取决于环境。 不同环境（如 Power BI、Power BI Premium 或 Power BI 报表服务器）中的每一个都可以施加不同的吞吐量约束。 有关 Power BI Premium 容量资源限制的详细信息，请参阅[部署和管理 Power BI Premium 容量](https://docs.microsoft.com/power-bi/whitepaper-powerbi-premium-deployment)。
+    将模型发布到 Power BI 时，发送到基础数据源的并发查询的最大数目也取决于环境。 不同环境（如 Power BI、Power BI Premium 或 Power BI 报表服务器）中的每一个都可以施加不同的吞吐量约束。 有关 Power BI Premium 容量资源限制的详细信息，请参阅[部署和管理 Power BI Premium 容量](./whitepaper-powerbi-premium-deployment.md)。
 
 ## <a name="optimize-report-designs"></a>优化报表设计
 

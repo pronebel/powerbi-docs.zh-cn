@@ -10,12 +10,12 @@ ms.topic: how-to
 ms.date: 06/15/2020
 ms.author: painbar
 LocalizationGroup: Create reports
-ms.openlocfilehash: b9161813c291a3feb8c01e4201972337f8e96fcb
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 23873d53aa0d472247f2e8d850dc3b1e9b3bf065
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85221758"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90853784"
 ---
 # <a name="optimize-power-bi-reports-for-the-mobile-app"></a>优化移动应用的 Power BI 报表
 移动用户可以横向查看任何 Power BI 报表页。 但是，报表作者可以创建针对移动设备优化并纵向显示的其他视图。 Power BI Desktop 和 Power BI 服务中都提供了此设计选项，通过该选项，作者可以选择和重新排列对漫游的移动用户来说有意义的视觉对象。
@@ -120,5 +120,5 @@ Power BI 提供了许多功能，可帮助你创建报表的移动优化版本�
 ## <a name="next-steps"></a>后续步骤
 * [在 Power BI 中创建仪表板电话视图](service-create-dashboard-mobile-phone-view.md)。
 * [查看针对你的电话进行优化的 Power BI 报表](../consumer/mobile/mobile-apps-view-phone-report.md)。
-* [有关创建报表和仪表板的 Power BI 文档](https://docs.microsoft.com/power-bi/create-reports/)。
+* [有关创建报表和仪表板的 Power BI 文档](./index.yml)。
 * 更多问题？ [尝试咨询 Power BI 社区](https://community.powerbi.com/)。
