@@ -9,12 +9,12 @@ ms.subservice: powerbi-admin
 ms.topic: how-to
 ms.date: 03/03/2020
 LocalizationGroup: Premium
-ms.openlocfilehash: 7ea6601514d77f9f7e2e416b358194e871f6445b
-ms.sourcegitcommit: 64139587061136a43c5aea3b6db4d1a94e4e7795
+ms.openlocfilehash: 4f0a34f990613ab57a95d1f299392d77c7c1f625
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/14/2020
-ms.locfileid: "88204309"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90854658"
 ---
 # <a name="large-models-in-power-bi-premium-preview"></a>Power BI Premium 中的大型模型（预览）
 
@@ -94,7 +94,7 @@ Power BI 使用动态内存管理从内存中逐出不活动的数据集。 Powe
 
 ## <a name="checking-dataset-size"></a>检查数据集大小
 
-加载历史记录数据后，可以通过 [XMLA 终结点](service-premium-connect-tools.md)使用 [SSMS](https://docs.microsoft.com/sql/ssms/download-sql-server-management-studio-ssms) 在模型属性窗口中检查估计的数据集大小。
+加载历史记录数据后，可以通过 [XMLA 终结点](service-premium-connect-tools.md)使用 [SSMS](/sql/ssms/download-sql-server-management-studio-ssms) 在模型属性窗口中检查估计的数据集大小。
 
 ![估计的数据集大小](media/service-premium-large-models/estimated-dataset-size.png)
 
@@ -122,7 +122,7 @@ SELECT * FROM SYSTEMRESTRICTSCHEMA
 
 ## <a name="availability-in-regions"></a>区域可用性
 
-Power BI 中的大型模型只在支持 [Azure 高级文件存储](https://docs.microsoft.com/azure/storage/files/storage-files-planning#storage-tiers)的特定 Azure 区域中可用。
+Power BI 中的大型模型只在支持 [Azure 高级文件存储](/azure/storage/files/storage-files-planning#storage-tiers)的特定 Azure 区域中可用。
 
 以下列表提供了可以使用 Power BI 中的大型模型的区域。 未在以下列表中列出的区域不支持使用大型模型：
 
@@ -155,7 +155,7 @@ Power BI 中的大型模型只在支持 [Azure 高级文件存储](https://docs.
 
 以下链接提供了与使用大型模型相关的有用信息：
 
-* [Azure 高级文件存储](https://docs.microsoft.com/azure/storage/files/storage-files-planning#storage-tiers)
+* [Azure 高级文件存储](/azure/storage/files/storage-files-planning#storage-tiers)
 * [配置 Power BI Premium 的 Multi-Geo 支持](service-admin-premium-multi-geo.md)
 * [对 Power BI 创建自己的加密密钥](service-encryption-byok.md)
 * [容量工作原理](service-premium-what-is.md#how-capacities-function)

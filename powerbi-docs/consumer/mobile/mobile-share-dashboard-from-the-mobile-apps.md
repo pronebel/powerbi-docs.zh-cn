@@ -8,12 +8,12 @@ ms.subservice: powerbi-mobile
 ms.topic: how-to
 ms.date: 03/11/2020
 ms.author: painbar
-ms.openlocfilehash: d3ffa51cfc991f7cd51c0c465d67d238998958cb
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 374b9eb1becb5c343600521efc2d493f7d83e677
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85219749"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90854038"
 ---
 # <a name="share-a-dashboard-or-report-from-the-power-bi-mobile-apps"></a>在 Power BI 移动应用中共享仪表板或报表
 适用于：
@@ -23,7 +23,7 @@ ms.locfileid: "85219749"
 | iPhone |iPad |Android 手机 |Android 平板电脑 |Windows 10 设备 |
 
 >[!NOTE]
->我们将于 2021 年 3 月 16 日终止对使用 Windows 10 移动版的手机提供 Power BI 移动应用支持。 [了解详细信息](https://go.microsoft.com/fwlink/?linkid=2121400)
+>我们将于 2021 年 3 月 16 日终止对使用 Windows 10 移动版的手机提供 Power BI 移动应用支持。 [了解详细信息](/legal/powerbi/powerbi-mobile/power-bi-mobile-app-end-of-support-for-windows-phones)
 
 使用 [Power BI Pro 许可证](../../fundamentals/service-features-license-type.md)，可以从 Power BI 移动应用共享链接，邀请他人查看仪表板和报表。 可以与组织内外的任何人共享，无论他/她是否拥有公司邮件帐户。 共享对象也必须具有 Power BI Pro 许可证，否则内容必须位于[高级容量](../../admin/service-premium-what-is.md)中。
 

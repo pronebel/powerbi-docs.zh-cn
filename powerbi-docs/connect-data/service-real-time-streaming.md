@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 07/16/2020
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: cfe184b1f2bd34796dea8982117e3ba90561fa31
-ms.sourcegitcommit: cfcde5ff2421be35dc1efc9e71ce2013f55ec78f
+ms.openlocfilehash: fb5807dd0a5bfa5d3223a8c436da475c51d8d8a0
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/18/2020
-ms.locfileid: "86459683"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90860615"
 ---
 # <a name="real-time-streaming-in-power-bi"></a>Power BI 中的实时流式处理
 通过具有实时流式处理功能的 Power BI，可以流式处理数据并实时更新仪表板。 在 Power BI 中创建的任何视觉对象或仪表板都可以显示和更新实时数据和视觉对象。 流式处理数据的设备和源可以是工厂传感器、社交媒体源、服务使用情况指标或许多其他时间敏感型数据收集器或发送器。
@@ -85,7 +85,7 @@ ms.locfileid: "86459683"
 > [!NOTE]
 > 使用 defaultMode 标志设置为 pushStreaming 的数据集时，如果请求超过流式处理数据集的 15Kb 大小限制，但是小于推送数据集的 16MB 大小限制，则该请求将成功，并且数据将在推送数据集中更新。 但是，任何流式处理磁贴都会暂时失败。
 
-创建数据集后，使用 REST API 以通过 PostRows[ API](https://docs.microsoft.com/rest/api/power-bi/pushdatasets/datasets_postrows) 推送数据。
+创建数据集后，使用 REST API 以通过 PostRows[ API](/rest/api/power-bi/pushdatasets/datasets_postrows) 推送数据。
 
 所有 REST API 请求都使用 **Azure AD OAuth** 加以保护。
 
@@ -154,7 +154,7 @@ Azure 流分析使用 Power BI REST API 创建其到 Power BI 的输出数据流
 
 ![“新建流式处理数据集对话框”的屏幕截图，其中显示了用于连接的 Power BI REST API。](media/service-real-time-streaming/real-time-streaming_5.png)
 
-如果希望 Power BI 存储通过此数据流发送的数据，请启用“历史数据分析”，然后你可以对收集的数据流进行报告和分析。 也可以[了解有关 API 的详细信息](https://docs.microsoft.com/rest/api/power-bi/)。
+如果希望 Power BI 存储通过此数据流发送的数据，请启用“历史数据分析”，然后你可以对收集的数据流进行报告和分析。 也可以[了解有关 API 的详细信息](/rest/api/power-bi/)。
 
 成功创建数据流后，将为你提供 REST API URL 终结点，应用程序可以通过使用 POST 请求调用该终结点，将数据推送到你创建的 Power BI 流式处理数据集中。
 
@@ -244,5 +244,5 @@ Azure 流分析使用 Power BI REST API 创建其到 Power BI 的输出数据流
 ## <a name="next-steps"></a>后续步骤
 以下是在 Power BI 中使用实时流式处理时可能有用的几个链接：
 
-* [具有实时数据的 Power BI REST API 概述](https://docs.microsoft.com/rest/api/power-bi/)
+* [具有实时数据的 Power BI REST API 概述](/rest/api/power-bi/)
 * [Azure 流分析](https://azure.microsoft.com/services/stream-analytics/)

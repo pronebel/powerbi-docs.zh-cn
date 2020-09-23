@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 07/28/2020
 ms.custom: licensing support
 LocalizationGroup: Premium
-ms.openlocfilehash: 492ff2c21d285cba37f1bbf631869c84eafe4dc3
-ms.sourcegitcommit: 92b033ee7a6e36808371b247b7b41536cee6c2f6
+ms.openlocfilehash: 7f90840284c5b17a118b414db606902789657b7a
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/10/2020
-ms.locfileid: "90008551"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90854681"
 ---
 # <a name="what-is-power-bi-premium"></a>什么是 Power BI Premium？
 
@@ -98,7 +98,7 @@ Power BI Premium 订阅由 Microsoft 365 管理中心的管理员购买。 具�
 
 容量工作负载是为用户提供的服务。 默认情况下，Premium 和 Azure 容量仅支持与运行 Power BI 查询关联的数据集工作负载。 无法禁用数据集工作负载。 可以为 [AI（认知服务）](https://powerbi.microsoft.com/blog/easy-access-to-ai-in-power-bi-preview/)、[数据流](../transform-model/service-dataflows-overview.md#dataflow-capabilities-on-power-bi-premium)和[分页报表](../paginated-reports/paginated-reports-save-to-power-bi-service.md)启用其他工作负载。 这些工作负载仅在 Premium 订阅中受到支持。 
 
-每个额外的工作负载都允许配置工作负载可使用的最大内存（以占可用内存总量的百分比的形式）。 最大内存的默认值由 SKU 确定。 通过在使用这些额外工作负载时仅启用这些额外工作负载，可以最大化容量的可用资源。 仅在已确定默认设置不满足容量资源要求时，才能更改内存设置。 通过使用[管理门户](service-admin-portal.md)中的“容量设置”，或通过使用[容量 REST API](https://docs.microsoft.com/rest/api/power-bi/capacities)，容量管理员可以为容量启用和配置工作负载。  
+每个额外的工作负载都允许配置工作负载可使用的最大内存（以占可用内存总量的百分比的形式）。 最大内存的默认值由 SKU 确定。 通过在使用这些额外工作负载时仅启用这些额外工作负载，可以最大化容量的可用资源。 仅在已确定默认设置不满足容量资源要求时，才能更改内存设置。 通过使用[管理门户](service-admin-portal.md)中的“容量设置”，或通过使用[容量 REST API](/rest/api/power-bi/capacities)，容量管理员可以为容量启用和配置工作负载。  
 
 ![启用工作负载](media/service-admin-premium-workloads/admin-portal-workloads.png)
 
@@ -173,7 +173,7 @@ Power BI 服务始终充分利用容量资源，同时不超过对容量施加�
 
 ### <a name="capacities-rest-apis"></a>容量 REST API
 
-Power BI REST API 包含[容量 API](https://docs.microsoft.com/rest/api/power-bi/capacities) 的集合。 通过这些 API，管理员能够以编程方式管理 Premium 容量的许多方面，包括启用和禁用工作负载、将工作区分配给容量等等。
+Power BI REST API 包含[容量 API](/rest/api/power-bi/capacities) 的集合。 通过这些 API，管理员能够以编程方式管理 Premium 容量的许多方面，包括启用和禁用工作负载、将工作区分配给容量等等。
 
 ## <a name="large-datasets"></a>大型数据集
 
@@ -252,5 +252,3 @@ Premium 允许 Pro 用户广泛分发内容，且不要求查看内容的收件�
 > [管理 Premium 容量](service-premium-capacity-manage.md)
 
 更多问题？ [尝试咨询 Power BI 社区](https://community.powerbi.com/)
-
-

@@ -9,12 +9,12 @@ ms.subservice: powerbi-gateways
 ms.topic: how-to
 ms.date: 10/10/2019
 LocalizationGroup: Gateways
-ms.openlocfilehash: 772a9c0d171c2391a137f2e8a97f262f59df5cfe
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 38aee727245cd7a33aefe1ee64a8a5be8b062cd7
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85231363"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90859764"
 ---
 # <a name="use-security-assertion-markup-language-saml-for-sso-from-power-bi-to-on-premises-data-sources"></a>使用安全断言标记语言 (SAML) 启用从 Power BI 到本地数据源的 SSO
 
@@ -26,7 +26,7 @@ ms.locfileid: "85231363"
 
 我们使用 [Kerberos](service-gateway-sso-kerberos.md) 支持其他数据源（包括 SAP HANA）。
 
-对于 SAP HANA，建议在建立 SAML SSO 连接之前启用加密。 若要启用加密，请将 HANA 服务器配置为接受加密连接，并将网关配置为使用加密与 HANA 服务器进行通信。 因为默认情况下 HANA ODBC 驱动程序不加密 SAML 断言，已签名的 SAML 断言将从网关“明文”发送到 HANA 服务器，并且容易被第三方拦截和重用  。 有关使用 OpenSSL 库为 HANA 启用加密的说明，请参阅[为 SAP HANA 启用加密](/power-bi/desktop-sap-hana-encryption)。
+对于 SAP HANA，建议在建立 SAML SSO 连接之前启用加密。 若要启用加密，请将 HANA 服务器配置为接受加密连接，并将网关配置为使用加密与 HANA 服务器进行通信。 因为默认情况下 HANA ODBC 驱动程序不加密 SAML 断言，已签名的 SAML 断言将从网关“明文”发送到 HANA 服务器，并且容易被第三方拦截和重用  。 有关使用 OpenSSL 库为 HANA 启用加密的说明，请参阅[为 SAP HANA 启用加密](./desktop-sap-hana-encryption.md)。
 
 ## <a name="configuring-the-gateway-and-data-source"></a>配置网关和数据源
 

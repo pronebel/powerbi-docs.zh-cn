@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 05/06/2020
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 2ae57fb5a3d2ff38a29e0c1e3c24af23582af43a
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 1273030bc1fd8664e854eb2b59939cf271b017fa
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85222256"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90860017"
 ---
 # <a name="use-conditional-formatting-in-tables"></a>使用表格中的条件格式设置 
 
@@ -181,9 +181,9 @@ ms.locfileid: "85222256"
 
 - 条件格式仅适用于表或矩形视觉对象的值，不适用于任何小计、总计或“共计”行。 
 - 不包含分组的任何表都显示为不支持条件格式设置的单个行。
-- 如果数据包含 NaN 值，则无法应用具有自动最大/最小值的渐变格式，或具有百分比规则的基于规则的格式设置。 NaN 表示“不是数字”，最常见的原因是被零除错误。 可以使用 [DIVIDE() DAX 函数](https://docs.microsoft.com/dax/divide-function-dax)来避免这些错误。
+- 如果数据包含 NaN 值，则无法应用具有自动最大/最小值的渐变格式，或具有百分比规则的基于规则的格式设置。 NaN 表示“不是数字”，最常见的原因是被零除错误。 可以使用 [DIVIDE() DAX 函数](/dax/divide-function-dax)来避免这些错误。
 - 条件格式需要对值应用聚合或度量值。 因此“按值着色”示例中显示了“最先”或“最后”。 如果要针对 Analysis Services 多维数据集生成报表，则将无法使用属性进行条件格式设置，除非多维数据集所有者生成了提供值的度量值。
 
 ## <a name="next-steps"></a>后续步骤
 
-有关颜色格式设置的详细信息，请参阅 [ Power BI 中的颜色格式设置提示和技巧](../visuals/service-tips-and-tricks-for-color-formatting.md)  
+有关颜色格式设置的详细信息，请参阅 [ Power BI 中的颜色格式设置提示和技巧](../visuals/service-tips-and-tricks-for-color-formatting.md)

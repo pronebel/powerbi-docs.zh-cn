@@ -8,12 +8,12 @@ ms.subservice: powerbi-template-apps
 ms.topic: how-to
 ms.date: 05/04/2020
 ms.author: painbar
-ms.openlocfilehash: 5705b0eaa861b01c7f04f4da9f85985af5f3934e
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: d32e1223a335fc6bf2fdf52598f1e1bdf3d7a685
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85235640"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90860523"
 ---
 # <a name="update-delete-and-extract-template-app"></a>更新、删除和提取模板应用
 
@@ -46,7 +46,7 @@ ms.locfileid: "85235640"
 
    链接现已生效。 **请注意，预生产阶段的“提升应用”按钮已灰显**。这是为了防止在云合作伙伴门户验证并批准新应用版本之前，意外覆盖指向当前应用版本的实时生产链接。
 
-1. 按照 [Power BI 应用产品/服务更新](https://docs.microsoft.com/azure/marketplace/cloud-partner-portal/power-bi/cpp-update-existing-offer)中的步骤操作，将链接再次提交到云合作伙伴门户 (CPP)。 在云合作伙伴门户中，你必须再次“发布”你的产品/服务并使其获得验证和批准  。
+1. 按照 [Power BI 应用产品/服务更新](/azure/marketplace/cloud-partner-portal/power-bi/cpp-update-existing-offer)中的步骤操作，将链接再次提交到云合作伙伴门户 (CPP)。 在云合作伙伴门户中，你必须再次“发布”你的产品/服务并使其获得验证和批准  。
 
    在你的产品/服务获得批准后，“升级应用”按钮将再次变为活动状态。 
 1. 将你的应用提升到生产阶段。
@@ -84,4 +84,4 @@ ms.locfileid: "85235640"
 
 通过[在组织中安装、自定义和分发模板应用](service-template-apps-install-distribute.md)，了解客户与模板应用的互动方式。
 
-有关分发应用的详细信息，请参阅 [Power BI 应用程序产品/服务](https://docs.microsoft.com/azure/marketplace/cloud-partner-portal/power-bi/cpp-power-bi-offer)。
+有关分发应用的详细信息，请参阅 [Power BI 应用程序产品/服务](/azure/marketplace/cloud-partner-portal/power-bi/cpp-power-bi-offer)。

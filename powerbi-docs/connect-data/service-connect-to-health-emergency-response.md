@@ -8,27 +8,27 @@ ms.topic: how-to
 ms.date: 05/13/2020
 ms.author: painbar
 LocalizationGroup: Connect to services
-ms.openlocfilehash: e10f2144e987f8fdc7ea9dbfd18d4581889ae8bf
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 4455a8da0af7ff928b81baf83245e66cdee578ea
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85230125"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90854221"
 ---
 # <a name="connect-to-the-hospital-emergency-response-decision-support-dashboard"></a>连接到医院紧急响应决策支持仪表板
 医院应急响应决策支持仪表板模板应用是[用于医疗保健应急响应的 Microsoft Power Platform 解决方案](https://powerapps.microsoft.com/blog/emergency-response-solution-a-microsoft-power-platform-solution-for-healthcare-emergency-response/)的报告组件。 仪表板显示整个健康状况系统中紧急管理器的聚合数据，可帮助他们及时做出正确的决策。
 
 ![医院紧急响应决策支持仪表板应用报表](media/service-connect-to-health-emergency-response/service-health-emergency-response-app-report.png)
 
-本文介绍如何安装应用以及如何连接到数据源。 若要了解如何使用通过此应用看到的报表，请参阅[医院紧急响应决策支持仪表板文档](https://docs.microsoft.com/powerapps/sample-apps/emergency-response/deploy-configure#view-the-power-bi-dashboard)。
+本文介绍如何安装应用以及如何连接到数据源。 若要了解如何使用通过此应用看到的报表，请参阅[医院紧急响应决策支持仪表板文档](/powerapps/sample-apps/emergency-response/deploy-configure#view-the-power-bi-dashboard)。
 
 安装模板应用并连接到数据源后，可以根据需要对报表进行自定义。 然后可以将其作为应用分发给组织中的同事。
 
 ## <a name="prerequisites"></a>先决条件
 
-安装此模板应用之前，需要先安装和设置[医院紧急响应 Power Platform 解决方案](https://docs.microsoft.com/powerapps/sample-apps/emergency-response/deploy-configure)。 安装此解决方案将创建使用数据填充应用时所需的数据源引用。
+安装此模板应用之前，需要先安装和设置[医院紧急响应 Power Platform 解决方案](/powerapps/sample-apps/emergency-response/deploy-configure)。 安装此解决方案将创建使用数据填充应用时所需的数据源引用。
 
-安装医院紧急响应 Power Platform 解决方案时，请记下 [Common Data Service 环境实例的 URL](https://docs.microsoft.com/powerapps/sample-apps/emergency-response/deploy-configure#publish-the-power-bi-dashboard)。 将模板应用连接到数据时需要使用它。
+安装医院紧急响应 Power Platform 解决方案时，请记下 [Common Data Service 环境实例的 URL](/powerapps/sample-apps/emergency-response/deploy-configure#publish-the-power-bi-dashboard)。 将模板应用连接到数据时需要使用它。
 
 ## <a name="install-the-app"></a>安装应用
 
@@ -66,7 +66,7 @@ ms.locfileid: "85230125"
 
 1. 在对话框中：
    1. 在组织名称字段中，输入组织的名称，例如“Contoso 健康状况系统”。 此字段可选。 此名称显示在仪表板的左上角。
-   1. 在 CDS_base_solution 字段中，键入 [Common Data Service 环境实例的 URL](https://docs.microsoft.com/powerapps/sample-apps/emergency-response/deploy-configure#publish-the-power-bi-dashboard)。 例如： https://[myenv].crm.dynamics.com。 完成后单击“下一步”  。
+   1. 在 CDS_base_solution 字段中，键入 [Common Data Service 环境实例的 URL](/powerapps/sample-apps/emergency-response/deploy-configure#publish-the-power-bi-dashboard)。 例如： https://[myenv].crm.dynamics.com。 完成后单击“下一步”  。
 
    ![医院紧急响应决策支持仪表板应用报表 URL 对话框](media/service-connect-to-health-emergency-response/service-health-emergency-response-app-url-dialog.png)
 
@@ -99,8 +99,8 @@ ms.locfileid: "85230125"
 有关详细信息，请参阅[自定义和共享应用](../connect-data/service-template-apps-install-distribute.md#customize-and-share-the-app)。 在发布或分发应用之前，请务必查看[报告免责声明](../create-reports/sample-covid-19-us.md#disclaimers)。
 
 ## <a name="next-steps"></a>后续步骤
-* [了解医院紧急响应报表](https://docs.microsoft.com/powerapps/sample-apps/emergency-response/deploy-configure#view-the-power-bi-dashboard)
-* [在 Power Apps 中设置并了解危机通信示例模板](https://docs.microsoft.com/powerapps/maker/canvas-apps/sample-crisis-communication-app)
+* [了解医院紧急响应报表](/powerapps/sample-apps/emergency-response/deploy-configure#view-the-power-bi-dashboard)
+* [在 Power Apps 中设置并了解危机通信示例模板](/powerapps/maker/canvas-apps/sample-crisis-communication-app)
 * 是否有任何问题? [尝试咨询 Power BI 社区](https://community.powerbi.com/)
 * [什么是 Power BI 模板应用？](../connect-data/service-template-apps-overview.md)
 * [在组织中安装和分发模板应用](../connect-data/service-template-apps-install-distribute.md)

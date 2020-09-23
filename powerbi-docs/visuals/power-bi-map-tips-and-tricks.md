@@ -10,12 +10,12 @@ ms.topic: how-to
 ms.date: 05/05/2020
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 87509a4a2415a8f7a2a7a27d34dc2a6f3a39b92f
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 0c28d95c5275f5778b1ae646b8e5fb65489eb072
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85232408"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90860109"
 ---
 # <a name="tips-and-tricks-for-power-bi-map-visualizations"></a>用于 Power BI 地图可视化效果的提示和技巧
 
@@ -50,7 +50,7 @@ Power BI 服务和 Power BI Desktop 会向必应发送创建地图可视化效�
 
 **1.在 Power BI Desktop 中对地理字段进行分类**
 
-在 Power BI Desktop 中，可以通过设置数据字段上的“数据类别”  来确保字段进行了正确地理编码。 在“数据视图”中，选择所需的列。 从功能区中选择“建模”选项卡，然后将“数据类别”设置为“地址”、“市”、“洲”、“国家/地区”、“县”、“邮政编码”、“州”或“省/自治区/直辖市”           。 这些数据分类有助于必应对日期进行正确编码。 若要了解详细信息，请参阅 [Power BI Desktop 中的数据分类](../transform-model/desktop-data-categorization.md)。 若要实时连接到 SQL Server Analysis Services，需要使用 [SQL Server Data Tools (SSDT)](https://docs.microsoft.com/sql/ssdt/download-sql-server-data-tools-ssdt)，在 Power BI 外部设置数据分类。
+在 Power BI Desktop 中，可以通过设置数据字段上的“数据类别”  来确保字段进行了正确地理编码。 在“数据视图”中，选择所需的列。 从功能区中选择“建模”选项卡，然后将“数据类别”设置为“地址”、“市”、“洲”、“国家/地区”、“县”、“邮政编码”、“州”或“省/自治区/直辖市”           。 这些数据分类有助于必应对日期进行正确编码。 若要了解详细信息，请参阅 [Power BI Desktop 中的数据分类](../transform-model/desktop-data-categorization.md)。 若要实时连接到 SQL Server Analysis Services，需要使用 [SQL Server Data Tools (SSDT)](/sql/ssdt/download-sql-server-data-tools-ssdt)，在 Power BI 外部设置数据分类。
 
 **2.使用多个位置列。**     
  有时，即使对地图设置数据分类也不足以使必应正确地猜测你的目标。 某些地理标记不明确，因为多个国家/区域都有相应的地理位置。 例如，英格兰、宾夕法尼亚州和纽约州都有南安普敦。

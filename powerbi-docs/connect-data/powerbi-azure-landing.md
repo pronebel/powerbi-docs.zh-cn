@@ -9,12 +9,12 @@ ms.author: willthom
 author: MI77
 layout: LandingPage
 LocalizationGroup: Get started
-ms.openlocfilehash: dca45ed9719dfa8d6f17001407835282049382ab
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: 4278b59576466942991fef710f8864b5c0a1391c
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83347461"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90860753"
 ---
 # <a name="power-bi-for-microsoft-azure-users"></a>面向 Microsoft Azure 用户的 Power BI 
 
@@ -74,9 +74,9 @@ ms.locfileid: "83347461"
                                     <div class="cardText"> 
                                           <h3>分析其他 Azure 服务中的数据</h3> 
                                           <p></p>
-                                                <a href="https://docs.microsoft.com/azure/stream-analytics/stream-analytics-power-bi-dashboard">连接到 Azure 流分析</a><br/> 
-                                                <a href="https://docs.microsoft.com/azure/cosmos-db/powerbi-visualize">可视化 Cosmos DB 中的数据</a><br/> 
-                                                <a href="https://docs.microsoft.com/azure/data-explorer/visualize-power-bi">可视化 Azure 数据资源管理器中的数据</a>
+                                                <a href="/azure/stream-analytics/stream-analytics-power-bi-dashboard">连接到 Azure 流分析</a><br/> 
+                                                <a href="/azure/cosmos-db/powerbi-visualize">可视化 Cosmos DB 中的数据</a><br/> 
+                                                <a href="/azure/data-explorer/visualize-power-bi">可视化 Azure 数据资源管理器中的数据</a>
                                     </div> 
                               </div> 
                         </div> 

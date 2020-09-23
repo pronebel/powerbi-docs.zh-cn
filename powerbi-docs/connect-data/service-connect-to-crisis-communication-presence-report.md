@@ -8,12 +8,12 @@ ms.topic: how-to
 ms.date: 04/06/2020
 ms.author: painbar
 LocalizationGroup: Connect to services
-ms.openlocfilehash: cd3a0a8974636d6962fe23a7ffe272e47e487754
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 97501fe6e5a3e12e1b6773ce1b3fd67b503bf0f1
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85230419"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90860293"
 ---
 # <a name="connect-to-the-crisis-communication-presence-report"></a>连接到危机通信状态报表
 
@@ -23,15 +23,15 @@ ms.locfileid: "85230419"
 
 仪表板显示整个健康状况系统中紧急管理器的聚合数据，可帮助他们及时做出正确的决策。
 
-本文介绍如何安装应用以及如何连接到数据源。 有关危机通信应用的详细信息，请参阅[设置和了解 Power Apps 中的危机通信示例模板](https://docs.microsoft.com/powerapps/maker/canvas-apps/sample-crisis-communication-app)
+本文介绍如何安装应用以及如何连接到数据源。 有关危机通信应用的详细信息，请参阅[设置和了解 Power Apps 中的危机通信示例模板](/powerapps/maker/canvas-apps/sample-crisis-communication-app)
 
 安装模板应用并连接到数据源后，可以根据需要对报表进行自定义。 然后可以将其作为应用分发给组织中的同事。
 
 ## <a name="prerequisites"></a>先决条件
 
-安装此模板应用之前，需要先安装并设置[危机通信示例](https://docs.microsoft.com/powerapps/maker/canvas-apps/sample-crisis-communication-app)。 安装此解决方案将创建使用数据填充应用时所需的数据源引用。
+安装此模板应用之前，需要先安装并设置[危机通信示例](/powerapps/maker/canvas-apps/sample-crisis-communication-app)。 安装此解决方案将创建使用数据填充应用时所需的数据源引用。
 
-安装危机通信示例时，请记下[“CI_Employee Status”的 SharePoint 列表文件夹路径和列表 ID](https://docs.microsoft.com/powerapps/maker/canvas-apps/sample-crisis-communication-app#monitor-office-absences-with-power-bi)。
+安装危机通信示例时，请记下[“CI_Employee Status”的 SharePoint 列表文件夹路径和列表 ID](/powerapps/maker/canvas-apps/sample-crisis-communication-app#monitor-office-absences-with-power-bi)。
 
 ## <a name="install-the-app"></a>安装应用
 
@@ -68,7 +68,7 @@ ms.locfileid: "85230419"
    ![危机通信状态报告应用“连接数据”链接](media/service-connect-to-crisis-communication-presence-report/service-crisis-communication-presence-report-app-connect-data.png)
 
 1. 在对话框中：
-   1. 在 SharePoint_Folder 字段中，输入[“CI_Employee Status”SharePoint 列表路径](https://docs.microsoft.com/powerapps/maker/canvas-apps/sample-crisis-communication-app#monitor-office-absences-with-power-bi)。
+   1. 在 SharePoint_Folder 字段中，输入[“CI_Employee Status”SharePoint 列表路径](/powerapps/maker/canvas-apps/sample-crisis-communication-app#monitor-office-absences-with-power-bi)。
    1. 在 List_ID 字段，输入从列表设置中获取的列表 ID。 完成后单击“下一步”  。
 
    ![危机通信状态报表应用 URL 对话框](media/service-connect-to-crisis-communication-presence-report/service-crisis-communication-presence-report-app-url-dialog.png)
@@ -102,7 +102,7 @@ ms.locfileid: "85230419"
 有关详细信息，请参阅[自定义和共享应用](../connect-data/service-template-apps-install-distribute.md#customize-and-share-the-app)。 在发布或分发应用之前，请务必查看[报告免责声明](../create-reports/sample-covid-19-us.md#disclaimers)。
 
 ## <a name="next-steps"></a>后续步骤
-* [在 Power Apps 中设置并了解危机通信示例模板](https://docs.microsoft.com/powerapps/maker/canvas-apps/sample-crisis-communication-app)
+* [在 Power Apps 中设置并了解危机通信示例模板](/powerapps/maker/canvas-apps/sample-crisis-communication-app)
 * 是否有任何问题? [尝试咨询 Power BI 社区](https://community.powerbi.com/)
 * [什么是 Power BI 模板应用？](../connect-data/service-template-apps-overview.md)
 * [在组织中安装和分发模板应用](../connect-data/service-template-apps-install-distribute.md)

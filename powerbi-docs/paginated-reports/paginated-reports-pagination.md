@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: conceptual
 ms.date: 12/03/2019
-ms.openlocfilehash: 03b361c56bd545036a8d706ae01e2bfa2ec30222
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: bce23ecdc99f6428ecefc28580e3ae0ec05fac6a
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "78921231"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90859695"
 ---
 # <a name="pagination-in-power-bi-paginated-reports"></a>Power BI 分页报表中的分页
 
@@ -34,7 +34,7 @@ ms.locfileid: "78921231"
   
  默认情况下，页大小为 8.5 x 11 英寸，但是可以“报表属性”  窗格或“页面设置”  对话框中更改此大小，也可以通过在“属性”  窗格中更改 PageHeight 和 PageWidth 属性来进行更改。 页大小不会增大或收缩以容纳表体的内容。 如果希望报表出现在单个页上，则表体中的所有内容都必须可容纳在该物理页中。 如果无法容纳并且使用的是强制分页符格式，则报表需要更多页面。 如果表体增大到超出物理页右边缘，则会水平插入分页符。 如果表体增大到超出物理页下边缘，则会垂直插入分页符。  
   
- 如果要替代报表中定义的物理页大小，可以使用用于导出报表的特定呈现器“设备信息”设置来指定物理页大小。 有关完整列表，请参阅 SQL Server Reporting Services 文档中的[呈现扩展插件的设备信息设置](https://docs.microsoft.com/sql/reporting-services/device-information-settings-for-rendering-extensions-reporting-services?view=sql-server-2017)。  
+ 如果要替代报表中定义的物理页大小，可以使用用于导出报表的特定呈现器“设备信息”设置来指定物理页大小。 有关完整列表，请参阅 SQL Server Reporting Services 文档中的[呈现扩展插件的设备信息设置](/sql/reporting-services/device-information-settings-for-rendering-extensions-reporting-services)。  
   
 ### <a name="margins"></a>边距
 
@@ -77,13 +77,13 @@ ms.locfileid: "78921231"
   
  可以使用常量和简单或复杂表达式来设置 Disabled 和 ResetPageNumber 属性的值。 但是，不能将表达式与 BreakLocation 属性一起使用。 有关编写和使用表达式的详细信息，请参阅 [Power BI 报表生成器中的表达式](report-builder-expressions.md)。  
   
- 在报表中，可以使用 Globals  集合来编写引用当前页名称或页码的表达式。 有关详细信息，请参阅报表生成器和 Reporting Services 文档中的[内置 Globals 和 Users 引用](https://docs.microsoft.com/sql/reporting-services/report-design/built-in-collections-built-in-globals-and-users-references-report-builder?view=sql-server-2017)。
+ 在报表中，可以使用 Globals  集合来编写引用当前页名称或页码的表达式。 有关详细信息，请参阅报表生成器和 Reporting Services 文档中的[内置 Globals 和 Users 引用](/sql/reporting-services/report-design/built-in-collections-built-in-globals-and-users-references-report-builder)。
   
 ### <a name="naming-excel-worksheet-tabs"></a>命名 Excel 工作表选项卡
 
  将报表导出到 Excel 工作簿时，这些属性很有用。 使用 InitialPage 属性可指定导出报表时工作表选项卡名称的默认名称，使用分页符和 PageName 属性可为每个工作表提供不同的名称。 每个由分页符定义的新报表页会导出到由 PageName 属性值命名的不同工作表。 如果 PageName 为空，但是报表具有初始页名称，则 Excel 工作簿中的所有工作表都会使用相同名称，即初始页名称。  
   
- 有关将报表导出到 Excel 时这些属性的工作方式的详细信息，请参阅报表生成器和 Reporting Services 文档中的[导出到 Microsoft Excel](https://docs.microsoft.com/sql/reporting-services/report-builder/exporting-to-microsoft-excel-report-builder-and-ssrs)。  
+ 有关将报表导出到 Excel 时这些属性的工作方式的详细信息，请参阅报表生成器和 Reporting Services 文档中的[导出到 Microsoft Excel](/sql/reporting-services/report-builder/exporting-to-microsoft-excel-report-builder-and-ssrs)。  
   
 ## <a name="next-steps"></a>后续步骤
 

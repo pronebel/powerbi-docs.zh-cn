@@ -8,12 +8,12 @@ ms.subservice: powerbi-mobile
 ms.topic: how-to
 ms.date: 12/11/2019
 ms.author: painbar
-ms.openlocfilehash: 6cddfd820da45de6141b698b8cb6e3c2bfc68069
-ms.sourcegitcommit: e8ed3d120699911b0f2e508dc20bd6a9b5f00580
+ms.openlocfilehash: a0fdc83db8d24f4733d3eb8402a4ea9ccce15869
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/11/2020
-ms.locfileid: "86264898"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90860592"
 ---
 # <a name="set-data-alerts-in-the-power-bi-mobile-apps"></a>在 Power BI 移动应用中设置数据警报
 适用于：
@@ -105,7 +105,7 @@ ms.locfileid: "86264898"
 ## <a name="data-alerts-on-a-windows-device"></a>Windows 设备上的数据警报
 
 >[!NOTE]
->我们将于 2021 年 3 月 16 日终止对使用 Windows 10 移动版的手机提供 Power BI 移动应用支持。 [了解详细信息](https://go.microsoft.com/fwlink/?linkid=2121400)
+>我们将于 2021 年 3 月 16 日终止对使用 Windows 10 移动版的手机提供 Power BI 移动应用支持。 [了解详细信息](/legal/powerbi/powerbi-mobile/power-bi-mobile-app-end-of-support-for-windows-phones)
 
 ### <a name="set-data-alerts-on-a-windows-device"></a>在 Windows 设备上设置数据警报
 1. 点击仪表板中的数字或仪表盘磁贴以打开该磁贴。  

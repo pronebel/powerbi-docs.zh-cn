@@ -9,12 +9,12 @@ ms.topic: overview
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.custom: mvc
-ms.openlocfilehash: a1d62ad9cd8475e217a0ae051919792970dbb34d
-ms.sourcegitcommit: b66c913a50a5100082e1c8ff7cd1c4f76f514fe7
+ms.openlocfilehash: 4b2b29effb1d9b4b2d8e743990dd3dd0d27470f8
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/30/2020
-ms.locfileid: "84219575"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90859833"
 ---
 # <a name="what-is-power-bi-report-server"></a>什么是 Power BI 报表服务器？
 
@@ -38,9 +38,9 @@ Power BI 报表服务器的入口点是可以在任意新式浏览器中查看�
 
 ![Power BI 报表服务器 Web 门户](media/get-started/web-portal.png)
 
-根据你的权限，可以在 Web 门户中管理内容。 可以安排报表处理、按需访问报表，并订阅已发布报表。 还可以向 Web 门户应用自己的自定义[品牌](https://docs.microsoft.com/sql/reporting-services/branding-the-web-portal)。 
+根据你的权限，可以在 Web 门户中管理内容。 可以安排报表处理、按需访问报表，并订阅已发布报表。 还可以向 Web 门户应用自己的自定义[品牌](/sql/reporting-services/branding-the-web-portal)。 
 
-有关 [Power BI 报表服务器 Web 门户](https://docs.microsoft.com/sql/reporting-services/web-portal-ssrs-native-mode)的详细信息。
+有关 [Power BI 报表服务器 Web 门户](/sql/reporting-services/web-portal-ssrs-native-mode)的详细信息。
 
 ## <a name="power-bi-reports"></a>Power BI 报表
 使用更适合报表服务器的 Power BI Desktop 版本创建 Power BI 报表 (.pbix)。 然后将其发布到自己环境的 Web 门户中并在其中查看这些报表。
@@ -56,17 +56,17 @@ Power BI 报表是数据模型的多角度视图，使用可视化效果表示�
 
 ![Power BI 报表服务器中的分页报表](media/get-started/paginated-reports.png)
 
-可以使用 [SQL Server Data Tools (SSDT)](https://docs.microsoft.com/sql/reporting-services/tools/reporting-services-in-sql-server-data-tools-ssdt) 中的[报表生成器](https://docs.microsoft.com/sql/reporting-services/report-builder/report-builder-in-sql-server-2016)或报表设计器来创建分页报表。
+可以使用 [SQL Server Data Tools (SSDT)](/sql/reporting-services/tools/reporting-services-in-sql-server-data-tools-ssdt) 中的[报表生成器](/sql/reporting-services/report-builder/report-builder-in-sql-server-2016)或报表设计器来创建分页报表。
 
 ## <a name="reporting-services-mobile-reports"></a>Reporting Services 移动报表
 移动报表连接到本地数据，并且具有可适应不同的设备以及不同的屏幕方向的响应式布局。 使用 SQL Server 移动报表发布服务器创建这些报表。
 
-有关 [Reporting Services 移动报表](https://docs.microsoft.com/sql/reporting-services/mobile-reports/create-mobile-reports-with-sql-server-mobile-report-publisher)的详细信息。 
+有关 [Reporting Services 移动报表](/sql/reporting-services/mobile-reports/create-mobile-reports-with-sql-server-mobile-report-publisher)的详细信息。 
 
 ## <a name="report-server-programming-features"></a>报表服务器编程功能
 利用 Power BI 报表服务器编程功能，可以使用 API 在自定义应用中集成或扩展数据和报表处理，从而扩展和自定义报表。
 
-详细阅读[报表服务器开发者文档](https://docs.microsoft.com/sql/reporting-services/reporting-services-developer-documentation)。
+详细阅读[报表服务器开发者文档](/sql/reporting-services/reporting-services-developer-documentation)。
 
 ## <a name="next-steps"></a>后续步骤
 [安装 Power BI 报表服务器](install-report-server.md)  

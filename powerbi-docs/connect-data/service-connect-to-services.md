@@ -8,18 +8,18 @@ ms.topic: how-to
 ms.date: 08/29/2019
 ms.author: maggies
 LocalizationGroup: Connect to services
-ms.openlocfilehash: fa4c8102eeb41fb754604eb646c11f44891413c9
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 037a4c28f7b70cdd6bc546014a0b9218e89a7e3d
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85236259"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90860707"
 ---
 # <a name="connect-to-the-services-you-use-with-power-bi"></a>使用 Power BI 连接到要使用的服务
 使用 Power BI，可连接到多个用于运行业务的服务，例如 Salesforce、Microsoft Dynamics 和 Google Analytics。 Power BI 首先使用凭据连接到服务。 然后创建包含一个仪表板和一组 Power BI 报表的 Power BI 工作区，这些报表可自动显示数据并提供业务视觉对象见解  。
 
 >[!IMPORTANT]
->正在将服务内容包替换为[模板应用](https://docs.microsoft.com/power-bi/service-template-apps-overview)。 自 2019 年 9 月 25 日起，大量内容包已遭弃用。 你已安装但已被弃用的任何内容包将保留在你的帐户中，但不会对其提供任何文档或支持，也无法再安装它们。
+>正在将服务内容包替换为[模板应用](./service-template-apps-overview.md)。 自 2019 年 9 月 25 日起，大量内容包已遭弃用。 你已安装但已被弃用的任何内容包将保留在你的帐户中，但不会对其提供任何文档或支持，也无法再安装它们。
 
 登录到 Power BI，查看可以[连接的所有服务](https://app.powerbi.com/getdata/services)。 
 

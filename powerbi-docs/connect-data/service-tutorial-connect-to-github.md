@@ -10,12 +10,12 @@ ms.topic: tutorial
 ms.date: 08/07/2019
 ms.author: maggies
 LocalizationGroup: Connect to services
-ms.openlocfilehash: a3c87a700df1c35596b6520cc64d9b580ccb74eb
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: cf79a5ecf4d98595a033733824a41002a7cd38e0
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83332305"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90860546"
 ---
 # <a name="tutorial-connect-to-a-github-repo-with-power-bi"></a>教程：使用 Power BI 连接到 GitHub 存储库
 在本教程中，使用 Power BI 连接到 GitHub 服务中的真实数据，Power BI 即会自动创建仪表板和报表。 连接到 Power BI 内容公共存储库（也称为“存储库”），同时查看以下问题的答案  ：有多少人参与编辑 Power BI 公共内容？ 谁贡献最多？ 一周中哪天的贡献最大？ 以及其他问题。 
@@ -39,7 +39,7 @@ ms.locfileid: "83332305"
 
 要完成本教程，需要一个 GitHub 帐户（如果还没有）。 
 
-- 注册 [GitHub 帐户](https://docs.microsoft.com/contribute/get-started-setup-github)。
+- 注册 [GitHub 帐户](/contribute/get-started-setup-github)。
 
 
 ## <a name="how-to-connect"></a>如何连接
@@ -139,5 +139,3 @@ ms.locfileid: "83332305"
  
 > [!div class="nextstepaction"]
 > [连接到所使用的联机服务](service-connect-to-services.md)
-
-

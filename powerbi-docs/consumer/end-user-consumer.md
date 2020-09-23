@@ -9,12 +9,12 @@ ms.topic: overview
 ms.date: 05/22/2020
 ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: 24f507a2457793590b6b123c0f4c9cb68dea4102
-ms.sourcegitcommit: c18130ea61e67ba111be870ddb971c6413a4b632
+ms.openlocfilehash: a888d9010a418aa51534b94350cc3f6d82385772
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/09/2020
-ms.locfileid: "86161735"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90860960"
 ---
 # <a name="the-power-bi-service-for-consumers"></a>面向使用者的 Power BI 服务
 
@@ -62,6 +62,5 @@ ms.locfileid: "86161735"
 ## <a name="next-steps"></a>后续步骤
 
 [导览面向使用者的 Power BI 服务](end-user-reading-view.md)    
-[面向使用者的 Power BI 服务培训](https://docs.microsoft.com/learn/paths/consume-data-with-power-bi/)    
-[面向 Power BI 使用者  的术语和概念](end-user-basic-concepts.md)    
-
+[面向使用者的 Power BI 服务培训](/learn/paths/consume-data-with-power-bi/)    
+[面向 Power BI 使用者  的术语和概念](end-user-basic-concepts.md)

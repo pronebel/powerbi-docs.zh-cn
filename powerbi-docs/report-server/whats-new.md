@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 07/08/2020
-ms.openlocfilehash: af737472b85dcfa05935aefa9ddd7a6fcbb746f2
-ms.sourcegitcommit: c83146ad008ce13bf3289de9b76c507be2c330aa
+ms.openlocfilehash: 9c92383dee3cb435c57238be545ccd9e59923b8e
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/10/2020
-ms.locfileid: "86214375"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90859971"
 ---
 # <a name="whats-new-in-power-bi-report-server"></a>Power BI 报表服务器中的新增功能
 
@@ -206,7 +206,7 @@ ms.locfileid: "86214375"
 
 #### <a name="azure-active-directory-application-proxy-support"></a>Azure Active Directory 应用程序代理支持
 
-使用 Azure Active Directory 应用程序代理，你不再需要管理自己的 Web 应用程序代理即可允许通过 Web 或移动应用进行安全访问。 有关更多信息，请参阅[通过 Azure Active Directory 的应用程序代理对本地应用程序进行远程访问](https://docs.microsoft.com/azure/active-directory/manage-apps/application-proxy)。
+使用 Azure Active Directory 应用程序代理，你不再需要管理自己的 Web 应用程序代理即可允许通过 Web 或移动应用进行安全访问。 有关更多信息，请参阅[通过 Azure Active Directory 的应用程序代理对本地应用程序进行远程访问](/azure/active-directory/manage-apps/application-proxy)。
 
 #### <a name="custom-headers"></a>自定义标头
 
@@ -572,7 +572,7 @@ Power BI 报表现在提供使用 Kerberos 的 SAP HANA SSO 直接查询支持�
 
 #### <a name="export-to-accessible-pdf"></a>导出为可访问的 PDF
 
-现在将分页 (RDL) 报表导出为 PDF 时，可以获取一个可访问/标记的 PDF 文件。 虽然该文件比较大，但更方便屏幕阅读器和其他辅助技术阅读和导航。 通过将 AccessiblePDF 设备信息设置设为“True”，启用可访问的 PDF 。 请参阅 [PDF 设备信息设置](https://docs.microsoft.com/sql/reporting-services/pdf-device-information-settings)和[更改设备信息设置](https://docs.microsoft.com/sql/reporting-services/customize-rendering-extension-parameters-in-rsreportserver-config#changing-device-information-settings)。
+现在将分页 (RDL) 报表导出为 PDF 时，可以获取一个可访问/标记的 PDF 文件。 虽然该文件比较大，但更方便屏幕阅读器和其他辅助技术阅读和导航。 通过将 AccessiblePDF 设备信息设置设为“True”，启用可访问的 PDF 。 请参阅 [PDF 设备信息设置](/sql/reporting-services/pdf-device-information-settings)和[更改设备信息设置](/sql/reporting-services/customize-rendering-extension-parameters-in-rsreportserver-config#changing-device-information-settings)。
 
 ### <a name="other-improvements"></a>其他改进
 
@@ -639,7 +639,7 @@ Power BI 报表服务器中的 Power BI 报表可以连接到各种数据源。 
 
 ### <a name="sql-server-analysis-services-ssas-and-the-power-bi-report-server-memory-footprint"></a>SQL Server Analysis Services (SSAS) 和 Power BI 报表服务器的内存占用情况
 
-Power BI 报表服务器现在可在内部托管 SQL Server Analysis Services (SSAS)。 这并非特定于计划的刷新。 托管 SSAS 可以极大地扩展报表服务器的内存占用情况。 AS.ini 配置文件在服务器节点上可用，因此，如果用户熟悉 SSAS，可能想要更新设置，其中包括最大内存限制和磁盘缓存等。有关详细信息，请参阅 [Analysis Services 中的服务器属性](https://docs.microsoft.com/sql/analysis-services/server-properties/server-properties-in-analysis-services)。
+Power BI 报表服务器现在可在内部托管 SQL Server Analysis Services (SSAS)。 这并非特定于计划的刷新。 托管 SSAS 可以极大地扩展报表服务器的内存占用情况。 AS.ini 配置文件在服务器节点上可用，因此，如果用户熟悉 SSAS，可能想要更新设置，其中包括最大内存限制和磁盘缓存等。有关详细信息，请参阅 [Analysis Services 中的服务器属性](/sql/analysis-services/server-properties/server-properties-in-analysis-services)。
 
 ### <a name="viewing-and-interacting-with-excel-workbooks"></a>查看 Excel 工作簿并与之交互
 

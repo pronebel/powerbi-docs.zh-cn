@@ -10,12 +10,12 @@ ms.topic: reference
 ms.date: 08/24/2020
 ms.custom: contperfq1
 ms.author: mihart
-ms.openlocfilehash: cd562d8fe689c2ae82ee1cacfc9e02393a5992f9
-ms.sourcegitcommit: 84e75a2cd92f4ba4e0c08ba296b981b79d6d0e82
+ms.openlocfilehash: 012fad9cd566018a6fd0d96fb172fadd816e3420
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/25/2020
-ms.locfileid: "88803034"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90860845"
 ---
 # <a name="glossary-for-business-users-of-the-power-bi-service"></a>Power BI 服务的商务用户词汇表    
 Power BI 服务可能会引入不熟悉或容易混淆的术语。 词汇表是查找术语的好地方，可能需要将其加入书签。 了解构成 Power BI 服务的构建块的另一个极佳资源是[基本概念](end-user-basic-concepts.md)。 “基本概念”提供 Power BI 组件及其如何连接的简要概述。
@@ -97,7 +97,7 @@ Power BI 服务的内容通常是仪表板、报表和应用。 此外，它还�
 应用的内容索引。
 
 **content pack (内容包)**     
- 预打包的数据集、报表和仪表板的集合。 应用将替换它们，请了解[新工作区体验](https://docs.microsoft.com/power-bi/service-create-the-new-workspaces)。 
+ 预打包的数据集、报表和仪表板的集合。 应用将替换它们，请了解[新工作区体验](../collaborate-share/service-create-the-new-workspaces.md)。 
 
 **content view (内容视图)**
 

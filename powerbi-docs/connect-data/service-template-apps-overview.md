@@ -8,12 +8,12 @@ ms.subservice: powerbi-template-apps
 ms.topic: how-to
 ms.date: 05/04/2020
 ms.author: painbar
-ms.openlocfilehash: 6033ba7442e7993edbbc68aa36922a2efddd1f83
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: bf51270a39f2f07518aaa6d83902519e08f7ab45
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85235641"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90860569"
 ---
 # <a name="what-are-power-bi-template-apps"></a>什么是 Power BI 模板应用？
 
@@ -49,7 +49,7 @@ Power BI 模板应用允许 Power BI Pro 或 Power BI Premium 用户通过可连
 
 若要创建模板应用，需要权限以进行创建。 有关详细信息，请参阅 Power BI 管理门户的模板应用设置。 
 
-若要将模板应用发布到 Power BI 服务和 AppSource，必须满足[成为合作伙伴中心发布者](https://docs.microsoft.com/azure/marketplace/become-publisher)的要求。
+若要将模板应用发布到 Power BI 服务和 AppSource，必须满足[成为合作伙伴中心发布者](/azure/marketplace/become-publisher)的要求。
  
 ## <a name="high-level-steps"></a>高级步骤
 
@@ -67,7 +67,7 @@ Power BI 模板应用允许 Power BI Pro 或 Power BI Premium 用户通过可连
 
 6. 将测试应用提升到预生产，以在 AppSource 中提交应用进行验证，并在自己的租户之外进行测试。 
 
-7. 将内容提交到[合作伙伴中心](https://docs.microsoft.com/azure/marketplace/partner-center-portal/create-power-bi-app-offer)以便发布。 
+7. 将内容提交到[合作伙伴中心](/azure/marketplace/partner-center-portal/create-power-bi-app-offer)以便发布。 
 
 8. 让产品/服务在 AppSource 中“上线”，并将应用移至 Power BI 中的生产。
 
@@ -77,9 +77,9 @@ Power BI 模板应用允许 Power BI Pro 或 Power BI Premium 用户通过可连
 
 若要创建模板应用，需要权限以进行创建。 有关详细信息，请参阅 Power BI [管理门户的模板应用设置](../admin/service-admin-portal.md#template-apps-settings)。
 
-若要将模板应用发布到 Power BI 服务和 AppSource，必须满足[成为合作伙伴中心发布者](https://docs.microsoft.com/azure/marketplace/become-publisher)的要求。
+若要将模板应用发布到 Power BI 服务和 AppSource，必须满足[成为合作伙伴中心发布者](/azure/marketplace/become-publisher)的要求。
  > [!NOTE] 
- > 模板应用提交内容在[伙伴中心](https://docs.microsoft.com/azure/marketplace/partner-center-portal/create-power-bi-app-offer)中进行管理。 使用同一 Microsoft 开发人员中心注册帐户进行登录。 你的 AppSource 产品/服务应只有一个 Microsoft 帐户。 帐户不得特定于单个服务或产品。
+ > 模板应用提交内容在[伙伴中心](/azure/marketplace/partner-center-portal/create-power-bi-app-offer)中进行管理。 使用同一 Microsoft 开发人员中心注册帐户进行登录。 你的 AppSource 产品/服务应只有一个 Microsoft 帐户。 帐户不得特定于单个服务或产品。
 
 ## <a name="tips"></a>提示 
 

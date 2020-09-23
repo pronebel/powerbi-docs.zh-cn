@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 08/12/2020
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: c5c4c7b08f69bd91fc8a4e6ab13a05878936225d
-ms.sourcegitcommit: b60063c49ac39f8b28c448908ecbb44b54326335
+ms.openlocfilehash: e95b51d5d50900b8e09de8f5bf62bf31d5578ad1
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/12/2020
-ms.locfileid: "88160202"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90860201"
 ---
 # <a name="get-power-bi-desktop"></a>获取 Power BI Desktop
 使用 Power BI Desktop，用户可以构建高级查询、模型以及使数据可视化的报表。 通过 Power BI Desktop，可以生成数据模型、创建报表，并通过发布到 Power BI 服务共享工作。 Power BI Desktop 可免费下载。
@@ -38,7 +38,7 @@ ms.locfileid: "88160202"
 
    - 打开浏览器，直接转到 Microsoft Store 的 [Power BI Desktop 页面](https://aka.ms/pbidesktopstore)。
 
-    - 在 [Power BI 服务](https://docs.microsoft.com/power-bi/service-get-started)中，选择右上角的“下载”图标，然后选择“Power BI Desktop” 。
+    - 在 [Power BI 服务](./service-get-started.md)中，选择右上角的“下载”图标，然后选择“Power BI Desktop” 。
 
       ![Microsoft Store 的屏幕截图，其中显示了 Power BI Desktop 下载选项。](media/desktop-get-the-desktop/getpbid_downloads.png)
 
@@ -203,4 +203,4 @@ ms.locfileid: "88160202"
 * [Power BI Desktop 中的数据源](../connect-data/desktop-data-sources.md)
 * [连接到 Power BI Desktop 中的数据](../connect-data/desktop-connect-to-data.md)
 * [在 Power BI Desktop 中调整和合并数据](../connect-data/desktop-shape-and-combine-data.md)
-* [Power BI Desktop 中的常见查询任务](../transform-model/desktop-common-query-tasks.md)   
+* [Power BI Desktop 中的常见查询任务](../transform-model/desktop-common-query-tasks.md)

@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 01/22/2020
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: 92244304bcffc3544ca8616fd0b16226361d58c8
-ms.sourcegitcommit: d8acf2fb0318708a3e8e1e259cb3747b0312b312
+ms.openlocfilehash: ee24e4aaa54fdbc60c631dc319caf6b1465aed28
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/15/2020
-ms.locfileid: "86385943"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90859810"
 ---
 # <a name="connect-azure-data-lake-storage-gen2-for-dataflow-storage"></a>连接 Azure Data Lake Storage Gen2 以存储数据流
 
@@ -46,13 +46,13 @@ ms.locfileid: "86385943"
 2. 必须在与 Power BI 租户相同的 AAD 租户中创建存储帐户。
 3. 必须在 Power BI 租户所在的同一区域中创建存储帐户。 要确定 Power BI 租户的位置，请参阅 [Power BI 租户的所在位置](../admin/service-admin-where-is-my-tenant-located.md)。
 4. 存储帐户必须启用“层次结构命名空间”功能。
-5. 如果当前用户未创建存储帐户，请确保当前用户已拥有[存储 Blob 数据所有者](https://docs.microsoft.com/azure/role-based-access-control/built-in-roles#storage-blob-data-owner)和[所有者](https://docs.microsoft.com/azure/role-based-access-control/built-in-roles#owner)权限。 （由于所有者不包含数据级别权限，因此需要 Blob 数据所有者。）
+5. 如果当前用户未创建存储帐户，请确保当前用户已拥有[存储 Blob 数据所有者](/azure/role-based-access-control/built-in-roles#storage-blob-data-owner)和[所有者](/azure/role-based-access-control/built-in-roles#owner)权限。 （由于所有者不包含数据级别权限，因此需要 Blob 数据所有者。）
 
 以下部分详细介绍了配置 Azure Data Lake Storage Gen2 帐户所需的步骤。
 
 ### <a name="create-the-storage-account"></a>创建存储帐户
 
-按照[创建 Azure Data Lake Storage Gen2 存储帐户](https://docs.microsoft.com/azure/storage/blobs/data-lake-storage-quickstart-create-account)一文中的步骤进行操作。
+按照[创建 Azure Data Lake Storage Gen2 存储帐户](/azure/storage/blobs/data-lake-storage-quickstart-create-account)一文中的步骤进行操作。
 
 1. 确保选择与 Power BI 租户相同的位置，并将存储设置为“StorageV2 (常规用途 v2)”
 2. 确保启用分层命名空间功能
@@ -62,7 +62,7 @@ ms.locfileid: "86385943"
 
 接下来，需要在创建的存储帐户中授予 Power BI 服务读者和数据访问角色。 这些角色都是内置角色，因此步骤很简单。 
 
-按照[分配内置 RBAC 角色](https://docs.microsoft.com/azure/storage/common/storage-auth-aad-rbac#assign-a-built-in-rbac-role)中的步骤操作。
+按照[分配内置 RBAC 角色](/azure/storage/common/storage-auth-aad-rbac#assign-a-built-in-rbac-role)中的步骤操作。
 
 在“添加角色分配”窗口中，选择“读取者和数据访问”角色 。 然后使用搜索来查找“Power BI 服务”应用程序。
 对“存储 Blob 数据所有者”重复相同步骤，再将该角色同时分配给“Power BI 服务”和“Power BI Premium”应用程序  。
@@ -155,11 +155,11 @@ Power BI Desktop 客户无法访问存储在 Azure Data Lake Storage 帐户中�
 * [Power BI 数据流的开发人员资源](service-dataflows-developer-resources.md)
 
 有关 Azure 存储的详细信息，可以阅读以下这些文章：
-* [Azure 存储安全指南](https://docs.microsoft.com/azure/storage/common/storage-security-guide)
+* [Azure 存储安全指南](/azure/storage/common/storage-security-guide)
 
 有关通用数据模型的详细信息，可以阅读其概述文章：
-* [通用数据模型 - 概述](https://docs.microsoft.com/powerapps/common-data-model/overview)
-* [CDM 文件夹](https://go.microsoft.com/fwlink/?linkid=2045304)
-* [CDM 模型文件定义](https://go.microsoft.com/fwlink/?linkid=2045521)
+* [通用数据模型 - 概述](/powerapps/common-data-model/overview)
+* [CDM 文件夹](/common-data-model/data-lake)
+* [CDM 模型文件定义](/common-data-model/model-json)
 
 也可以随时尝试[通过 Power BI 社区提问](https://community.powerbi.com/)。

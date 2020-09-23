@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: tutorial
 ms.date: 11/06/2018
-ms.openlocfilehash: 5243f80fea732e01fee600d738ae6e6cde56e261
-ms.sourcegitcommit: aece2382b618dc5b730705b4c76e76a657986588
+ms.openlocfilehash: 778ce3c810cb0d59559940f489dfeda34f366fda
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/04/2020
-ms.locfileid: "84427728"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90853968"
 ---
 # <a name="tutorial-create-a-paginated-report-and-upload-it-to-the-power-bi-service"></a>教程：创建分页报表并将其上传到 Power BI 服务
 
@@ -38,7 +38,7 @@ ms.locfileid: "84427728"
 
 - 安装 [Microsoft 下载中心的 Power BI 报表生成器](https://aka.ms/pbireportbuilder)。 
 
-- 按照快速入门，[在 Azure 门户中创建 Azure SQL 数据库示例](https://docs.microsoft.com/azure/sql-database/sql-database-get-started-portal)。 复制并保存“概述”  选项卡上“服务器名称”  框中的值。记住你在 Azure 中创建的用户名和密码。
+- 按照快速入门，[在 Azure 门户中创建 Azure SQL 数据库示例](/azure/sql-database/sql-database-get-started-portal)。 复制并保存“概述”  选项卡上“服务器名称”  框中的值。记住你在 Azure 中创建的用户名和密码。
 
 以下是将分页报表上传到 Power BI 服务的先决条件：
 

@@ -8,12 +8,12 @@ ms.subservice: powerbi-mobile
 ms.topic: how-to
 ms.date: 12/05/2019
 ms.author: painbar
-ms.openlocfilehash: 2327349928b481e51217b360587470f7f44b78d1
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 2f6d02d6128a2896a19d87f30f46f26f101385f6
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85233265"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90860983"
 ---
 # <a name="view-on-premises-report-server-reports-and-kpis-in-the-power-bi-mobile-apps"></a>在 Power BI 移动应用中查看本地报表服务器报表和 KPI
 
@@ -32,8 +32,8 @@ ms.locfileid: "85233265"
 移动应用是用于查看 Power BI 内容（而不是创建内容）的地方。 
 
 * 你和组织中的其他报表创建者可以[使用 Power BI Desktop 创建 Power BI 报表，然后将报表发布到 Power BI 报表服务器 Web 门户中](../../report-server/quickstart-create-powerbi-report.md)。 
-* 可以[在 Web 门户中直接创建 KPI](https://docs.microsoft.com/sql/reporting-services/working-with-kpis-in-reporting-services)，将它们整理到文件夹中，然后标记为收藏项，方便你快速找到。 
-* 可以使用 SQL Server 2016 企业版移动报表发布服务器[生成 Reporting Services 移动报表](https://docs.microsoft.com/sql/reporting-services/mobile-reports/create-mobile-reports-with-sql-server-mobile-report-publisher)，然后将其发布到 [Reporting Services Web 门户](https://docs.microsoft.com/sql/reporting-services/web-portal-ssrs-native-mode)。  
+* 可以[在 Web 门户中直接创建 KPI](/sql/reporting-services/working-with-kpis-in-reporting-services)，将它们整理到文件夹中，然后标记为收藏项，方便你快速找到。 
+* 可以使用 SQL Server 2016 企业版移动报表发布服务器[生成 Reporting Services 移动报表](/sql/reporting-services/mobile-reports/create-mobile-reports-with-sql-server-mobile-report-publisher)，然后将其发布到 [Reporting Services Web 门户](/sql/reporting-services/web-portal-ssrs-native-mode)。  
 
 然后，在 Power BI 移动应用中，最多连接五个报表服务器，以查看整理到文件夹中或标记为收藏项的 Power BI 报表和 KPI。 
 

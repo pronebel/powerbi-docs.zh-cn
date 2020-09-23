@@ -9,12 +9,12 @@ ms.topic: overview
 ms.date: 07/23/2020
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: c8d4671d55e09ca6e60599bbc0ac9802258f63ba
-ms.sourcegitcommit: 65025ab7ae57e338bdbd94be795886e5affd45b4
+ms.openlocfilehash: 09e51c46a11c41008f77d3a7597807b35b57d297
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/28/2020
-ms.locfileid: "87252719"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90860776"
 ---
 # <a name="what-is-power-bi-desktop"></a>什么是 Power BI Desktop？
 
@@ -66,7 +66,7 @@ Power BI Desktop 中提供三个视图，你可以在画布的左侧选择它们
 
 ## <a name="transform-and-clean-data-create-a-model"></a>转换和清除数据、创建模型
 
-在 Power BI Desktop 中，可以使用内置 [Power Query 编辑器](https://docs.microsoft.com/power-bi/desktop-query-overview)清除并转换数据。 使用 Power Query 编辑器可以对数据进行更改，如更改数据类型、删除列或合并来自多个源的数据。 这有点像雕刻：你从大块粘土（即数据）着手，然后根据需要进行刮削或添加其他部分，直到粘土形状（数据形态）符合你的要求。 
+在 Power BI Desktop 中，可以使用内置 [Power Query 编辑器](../transform-model/desktop-query-overview.md)清除并转换数据。 使用 Power Query 编辑器可以对数据进行更改，如更改数据类型、删除列或合并来自多个源的数据。 这有点像雕刻：你从大块粘土（即数据）着手，然后根据需要进行刮削或添加其他部分，直到粘土形状（数据形态）符合你的要求。 
 
 启动 Power Query 编辑器：
 
@@ -134,4 +134,3 @@ Power Query 编辑器将记录转换数据（例如重命名表、转换数据�
 
 * [通过 Windows 应用商店获取 Power BI Desktop](https://aka.ms/pbidesktopstore)
 * [从 Web 下载 Power BI Desktop](https://www.microsoft.com/download/details.aspx?id=58494)
-

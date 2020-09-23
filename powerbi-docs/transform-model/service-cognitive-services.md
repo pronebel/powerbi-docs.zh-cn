@@ -9,18 +9,18 @@ ms.topic: how-to
 ms.date: 06/10/2019
 ms.author: davidi
 LocalizationGroup: conceptual
-ms.openlocfilehash: 7d4b2e40e543bdd30c9bfa954f2623598b915545
-ms.sourcegitcommit: 0d0ab427bb71b37c9e5170c515a8f274e1f20c17
+ms.openlocfilehash: 1c598b29a28ad775f6a707596c4a4188c86e7375
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "87878784"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90860063"
 ---
 # <a name="cognitive-services-in-power-bi"></a>Power BI 中的认知服务 
 
 借助 Power BI 中的认知服务，可以在数据流自助服务数据准备中应用 [Azure 认知服务](https://azure.microsoft.com/services/cognitive-services/)中的不同算法来丰富数据。
 
-目前支持的服务包括[情绪分析](https://docs.microsoft.com/azure/cognitive-services/text-analytics/how-tos/text-analytics-how-to-sentiment-analysis)、[关键短语提取](https://docs.microsoft.com/azure/cognitive-services/text-analytics/how-tos/text-analytics-how-to-keyword-extraction)、[语言检测](https://docs.microsoft.com/azure/cognitive-services/text-analytics/how-tos/text-analytics-how-to-language-detection)和[图像标记](https://docs.microsoft.com/azure/cognitive-services/computer-vision/concept-tagging-images)。 转换在 Power BI 服务上执行，无需 Azure 认知服务订阅。 此功能需要 Power BI Premium。
+目前支持的服务包括[情绪分析](/azure/cognitive-services/text-analytics/how-tos/text-analytics-how-to-sentiment-analysis)、[关键短语提取](/azure/cognitive-services/text-analytics/how-tos/text-analytics-how-to-keyword-extraction)、[语言检测](/azure/cognitive-services/text-analytics/how-tos/text-analytics-how-to-language-detection)和[图像标记](/azure/cognitive-services/computer-vision/concept-tagging-images)。 转换在 Power BI 服务上执行，无需 Azure 认知服务订阅。 此功能需要 Power BI Premium。
 
 ## <a name="enabling-ai-features"></a>**启用 AI 功能**
 
@@ -64,7 +64,7 @@ Cultureinfo 是一个可选输入，用于指定文本的语言  。 此字段�
 
 语言检测函数评估文本输入，并为每个字段返回语言名称和 ISO 标识符。 此函数对于收集未知语言的任意文本的数据列很有用。 该函数应以文本格式的数据作为输入。
 
-文本分析可识别多达 120 种语言。 有关详细信息，请参阅[支持的语言](https://docs.microsoft.com/azure/cognitive-services/text-analytics/text-analytics-supported-languages)。
+文本分析可识别多达 120 种语言。 有关详细信息，请参阅[支持的语言](/azure/cognitive-services/text-analytics/text-analytics-supported-languages)。
 
 ### <a name="extract-key-phrases"></a>**提取关键短语**
 
@@ -80,7 +80,7 @@ Cultureinfo 是一个可选输入，用于指定文本的语言  。 此字段�
 
 对整个输入字段执行情绪分析，而不是提取文本中特定实体的情绪。 事实上，当文档包含一个或两个句子而不是大块文本时，评分准确性会呈现提升趋势。 在客观性评估阶段，模型确定某个输入字段整体上是客观的还是包含情绪。 总体客观的输入字段不会进入到情绪检测短语阶段，结果是 0.50 分，无需进一步处理。 对于在管道中继续处理的输入字段，下一阶段将生成一个高于或低于 0.50 的分数，具体取决于在输入字段中检测到的情绪程度。
 
-目前，情绪分析支持英语、德语、西班牙语和法语这几种语言。 其他语言均为预览版。 有关详细信息，请参阅[支持的语言](https://docs.microsoft.com/azure/cognitive-services/text-analytics/text-analytics-supported-languages)。
+目前，情绪分析支持英语、德语、西班牙语和法语这几种语言。 其他语言均为预览版。 有关详细信息，请参阅[支持的语言](/azure/cognitive-services/text-analytics/text-analytics-supported-languages)。
 
 ### <a name="tag-images"></a>**标记图像**
 
@@ -88,7 +88,7 @@ Cultureinfo 是一个可选输入，用于指定文本的语言  。 此字段�
 
 上传图像或指定图像 URL 后，计算机视觉算法会根据图像中标识的物体、生物和动作输出标记。 标记不局限于主要主题（例如前景中的人物），它还可以包括背景（室内或室外）、家具、工具、植物、动物、配饰，小配件等元素。
 
-此函数需要图像 URL 或 Base 64 字段作为输入。 目前，图像标记支持英语、西班牙语、日语、葡萄牙语和简体中文。 有关详细信息，请参阅[支持的语言](https://docs.microsoft.com/rest/api/cognitiveservices/computervision/tagimage/tagimage#uri-parameters)。
+此函数需要图像 URL 或 Base 64 字段作为输入。 目前，图像标记支持英语、西班牙语、日语、葡萄牙语和简体中文。 有关详细信息，请参阅[支持的语言](/rest/api/cognitiveservices/computervision/tagimage/tagimage#uri-parameters)。
 
 ## <a name="next-steps"></a>后续步骤
 

@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 04/02/2019
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: b749ad07dd2feb9f8a3bdf776108571add9102bb
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 1cf289e4f556fb3f92806dad1343797824f0888e
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85240017"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90859994"
 ---
 # <a name="using-incremental-refresh-with-power-bi-dataflows"></a>将增量刷新与 Power BI 数据流配合使用
 
@@ -163,4 +163,4 @@ ms.locfileid: "85240017"
 * [配置计划刷新](../connect-data/refresh-scheduled-refresh.md)
 
 有关通用数据模型的详细信息，可以阅读其概述文章：
-* [通用数据模型 - 概述](https://docs.microsoft.com/powerapps/common-data-model/overview)
+* [通用数据模型 - 概述](/powerapps/common-data-model/overview)

@@ -8,29 +8,29 @@ ms.topic: how-to
 ms.date: 04/24/2020
 ms.author: painbar
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 3cf846ef7fa7b47b0eaa90c850885af65a4bab80
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: a6cb38d17a84ab41acda96f0564b12188c719254
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85229662"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90860730"
 ---
 # <a name="connect-to-the-regional-emergency-response-dashboard"></a>连接到区域紧急响应仪表板
-区域紧急响应仪表板是 [Microsoft Power Platform 区域紧急响应解决方案](https://docs.microsoft.com/powerapps/sample-apps/regional-emergency-response/overview)的报告组件。 区域组织管理员可以在其 Power BI 租户中查看仪表板，使他们可以快速查看可帮助他们做出高效决策的重要数据和指标。
+区域紧急响应仪表板是 [Microsoft Power Platform 区域紧急响应解决方案](/powerapps/sample-apps/regional-emergency-response/overview)的报告组件。 区域组织管理员可以在其 Power BI 租户中查看仪表板，使他们可以快速查看可帮助他们做出高效决策的重要数据和指标。
 
 ![区域紧急响应仪表板应用报表](media/service-connect-to-regional-emergency-response/service-regional-emergency-response-app-report.png)
 
 本文介绍如何使用区域紧急响应仪表板模板应用安装区域紧急响应应用，以及如何连接到数据源。
 
-有关仪表板中显示的内容的详细信息，请参阅[获取见解](https://docs.microsoft.com/powerapps/sample-apps/regional-emergency-response/portals-admin-reporting#get-insights)。
+有关仪表板中显示的内容的详细信息，请参阅[获取见解](/powerapps/sample-apps/regional-emergency-response/portals-admin-reporting#get-insights)。
 
 安装模板应用并连接到数据源后，可以根据需要对报表进行自定义。 然后可以将其作为应用分发给组织中的同事。
 
 ## <a name="prerequisites"></a>先决条件
 
-安装此模板应用之前，需要先安装和设置[区域紧急响应解决方案](https://docs.microsoft.com/powerapps/sample-apps/regional-emergency-response/deploy)。 安装此解决方案将创建使用数据填充应用时所需的数据源引用。
+安装此模板应用之前，需要先安装和设置[区域紧急响应解决方案](/powerapps/sample-apps/regional-emergency-response/deploy)。 安装此解决方案将创建使用数据填充应用时所需的数据源引用。
 
-安装区域紧急响应解决方案时，请记下 [Common Data Service 环境实例的 URL](https://docs.microsoft.com/powerapps/sample-apps/regional-emergency-response/deploy#step-5-configure-and-publish-power-bi-dashboard)。 将模板应用连接到数据时需要使用它。
+安装区域紧急响应解决方案时，请记下 [Common Data Service 环境实例的 URL](/powerapps/sample-apps/regional-emergency-response/deploy#step-5-configure-and-publish-power-bi-dashboard)。 将模板应用连接到数据时需要使用它。
 
 ## <a name="install-the-app"></a>安装应用
 
@@ -62,7 +62,7 @@ ms.locfileid: "85229662"
 
    ![区域紧急响应仪表板应用连接数据链接](media/service-connect-to-regional-emergency-response/service-regional-emergency-response-app-connect-data.png)
 
-1. 在出现的对话框中，键入 [Common Data Service 环境实例的 URL](https://docs.microsoft.com/powerapps/sample-apps/emergency-response/deploy-configure#publish-the-power-bi-dashboard)。 例如： https://[myenv].crm.dynamics.com。 完成后单击“下一步”  。
+1. 在出现的对话框中，键入 [Common Data Service 环境实例的 URL](/powerapps/sample-apps/emergency-response/deploy-configure#publish-the-power-bi-dashboard)。 例如： https://[myenv].crm.dynamics.com。 完成后单击“下一步”  。
 
    ![区域紧急响应仪表板应用 URL 对话框](media/service-connect-to-regional-emergency-response/service-regional-emergency-response-app-url-dialog.png)
 
@@ -92,11 +92,11 @@ ms.locfileid: "85229662"
 
 ## <a name="customize-and-share"></a>自定义和共享
 
-有关详细信息，请参阅[自定义和共享应用](../connect-data/service-template-apps-install-distribute.md#customize-and-share-the-app)。 在发布或分发应用之前，请务必查看[报告免责声明](https://docs.microsoft.com/powerapps/sample-apps/regional-emergency-response/overview#disclaimer)。
+有关详细信息，请参阅[自定义和共享应用](../connect-data/service-template-apps-install-distribute.md#customize-and-share-the-app)。 在发布或分发应用之前，请务必查看[报告免责声明](/powerapps/sample-apps/regional-emergency-response/overview#disclaimer)。
 
 ## <a name="next-steps"></a>后续步骤
-* [了解区域紧急响应仪表板](https://docs.microsoft.com/powerapps/sample-apps/regional-emergency-response/portals-admin-reporting#get-insights)
-* [在 Power Apps 中设置并了解危机通信示例模板](https://docs.microsoft.com/powerapps/maker/canvas-apps/sample-crisis-communication-app)
+* [了解区域紧急响应仪表板](/powerapps/sample-apps/regional-emergency-response/portals-admin-reporting#get-insights)
+* [在 Power Apps 中设置并了解危机通信示例模板](/powerapps/maker/canvas-apps/sample-crisis-communication-app)
 * 是否有任何问题? [尝试咨询 Power BI 社区](https://community.powerbi.com/)
 * [什么是 Power BI 模板应用？](../connect-data/service-template-apps-overview.md)
 * [在组织中安装和分发模板应用](../connect-data/service-template-apps-install-distribute.md)

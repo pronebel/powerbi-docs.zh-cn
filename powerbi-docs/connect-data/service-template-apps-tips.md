@@ -8,12 +8,12 @@ ms.subservice: powerbi-template-apps
 ms.topic: how-to
 ms.date: 05/04/2020
 ms.author: painbar
-ms.openlocfilehash: f5c8f763b1f02d055d39c62ef2e2902b6efca439
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: ff1fb59a59f72483bab5ec55c9b2cf9805f83b81
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85235541"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90860270"
 ---
 # <a name="tips-for-authoring-template-apps-in-power-bi"></a>在 Power BI 中创作模板应用的提示
 
@@ -124,15 +124,15 @@ Power BI Desktop 中的[参数](https://powerbi.microsoft.com/blog/deep-dive-int
 模板应用可以发布到 AppSource。将应用提交到 AppSource 前，请遵循以下指南：
 
 * 确保你创建的模板应用包含有吸引力的示例数据，有助于安装人员了解应用的用途（空的报表和仪表板不会获准）。
-模板应用支持仅包含示例数据的应用，请务必选中静态应用复选框。 [了解详细信息](https://docs.microsoft.com/power-bi/service-template-apps-create#create-the-test-template-app)
+模板应用支持仅包含示例数据的应用，请务必选中静态应用复选框。 [了解详细信息](./service-template-apps-create.md#define-the-properties-of-the-template-app)
 * 制定可供验证团队遵循的说明，其中包括连接到数据所需的凭据和参数。
-* 应用必须在 Power BI 中和 CPP 产品/服务上添加“应用”图标。 [了解详细信息](https://docs.microsoft.com/power-bi/service-template-apps-create#create-the-test-template-app)
-* 已配置登陆页面。 [了解详细信息](https://docs.microsoft.com/power-bi/service-template-apps-create#create-the-test-template-app)
-* 务必遵循 [合作伙伴中心 -> Power BI 应用产品/服务](https://docs.microsoft.com/azure/marketplace/partner-center-portal/create-power-bi-app-offer)文档中的指南。
+* 应用必须在 Power BI 中和 CPP 产品/服务上添加“应用”图标。 [了解详细信息](./service-template-apps-create.md#define-the-properties-of-the-template-app)
+* 已配置登陆页面。 [了解详细信息](./service-template-apps-create.md#define-the-properties-of-the-template-app)
+* 务必遵循 [合作伙伴中心 -> Power BI 应用产品/服务](/azure/marketplace/partner-center-portal/create-power-bi-app-offer)文档中的指南。
 * 如果仪表板是应用的一部分，请确保仪表板不为空。
 * 提交前，先使用应用链接安装应用，以确保你能连接数据集，且应用体验符合预期。
 * 将 pbix 上传到模板工作区前，请先务必卸载任何不必要的连接。
-* 遵循 Power BI [报表和视觉对象设计最佳做法](https://docs.microsoft.com/power-bi/visuals/power-bi-visualization-best-practices)，以实现对用户的最大影响，并获得分发批准。
+* 遵循 Power BI [报表和视觉对象设计最佳做法](../visuals/power-bi-report-visualizations.md)，以实现对用户的最大影响，并获得分发批准。
 <!--- * In general, only application with valuable functionality can be approved for general use on AppSource. Application with sample data content only must have either a guidance or statistical value.) -->
 
 ## <a name="create-a-download-link-for-the-app"></a>为应用创建下载链接

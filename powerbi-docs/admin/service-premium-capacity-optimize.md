@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 04/09/2019
 ms.custom: seodec18
 LocalizationGroup: Premium
-ms.openlocfilehash: 4d03419105244b7fddafea3b26b69e4f4f5f874c
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: ae52e9eb2d018e68f7b84bc412797c25825a8871
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83134076"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90854842"
 ---
 # <a name="optimizing-premium-capacities"></a>优化高级容量
 
@@ -186,7 +186,7 @@ ms.locfileid: "83134076"
 
 - Power Query 查询设计可消除或最大程度减少复杂的转换，尤其是合并不同数据源的转换（数据仓库在其提取-转换-加载阶段实现这一点）。 此外，请确保设置适当的数据源隐私级别，这可避免要求 Power BI 加载完整结果来生成跨查询的组合结果。
 - 模型结构决定要加载的数据并直接影响模型大小。 可进行设计，让模型结构通过删除列、删除行（尤其是历史数据）或通过加载汇总数据（代价是加载详细数据），来避免加载不必要的数据。 通过删除不能非常有效地存储或压缩的高基数列（尤其是文本列），可显著减小大小。
-- 可通过配置单向关系提升模型查询性能，除非有令人信服的理由允许双向筛选。 还可考虑使用 [CROSSFILTER](https://docs.microsoft.com/dax/crossfilter-function) 函数，而不使用双向筛选。
+- 可通过配置单向关系提升模型查询性能，除非有令人信服的理由允许双向筛选。 还可考虑使用 [CROSSFILTER](/dax/crossfilter-function) 函数，而不使用双向筛选。
 - 聚合表可以通过加载预先汇总的数据来实现快速查询响应，但这会增加模型的大小并导致刷新时间更长。 通常，应保留聚合表，将其用于非常大型的模型或复合模型设计。
 - 计算的表和列会增加模型大小，并导致刷新时间更长。 通常，在数据源中具体化或计算数据时，可减小存储大小并缩短刷新时间。 如果这不可行，使用 Power Query 自定义列可提供更好的存储压缩。
 - 可能有机会针对度量值和 RLS 规则来调整 DAX 表达式，可能是重写逻辑来避免开销较高的公式

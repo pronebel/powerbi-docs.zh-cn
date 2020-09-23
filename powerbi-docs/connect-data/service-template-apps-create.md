@@ -8,12 +8,12 @@ ms.subservice: powerbi-template-apps
 ms.topic: how-to
 ms.date: 09/15/2020
 ms.author: painbar
-ms.openlocfilehash: df9c1af29482a40b7e1dd7edbca0020b43e4f00f
-ms.sourcegitcommit: a0d56eeed12253e782e0a3eff8610f72a3ad5cb9
+ms.openlocfilehash: e3b6ada10138e6964240c5eb5c53399507170b79
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/15/2020
-ms.locfileid: "90571204"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90860661"
 ---
 # <a name="create-a-template-app-in-power-bi"></a>在 Power BI 中创建模板应用
 
@@ -191,7 +191,7 @@ Power BI 租户管理员管理和控制组织中谁可以创建模板应用，�
 
     如果没有看到该选项，请与你的 Power BI 管理员联系，以向你授予管理门户中[模板应用开发权限](../admin/service-admin-portal.md#template-apps-settings)。
 11. 选择“提升”以确认选择****。
-12. 复制此新 URL 以在租户外共享以供测试。 通过提交此链接，你还可以开启通过创建[新的合作伙伴中心产品/服务](https://docs.microsoft.com/azure/marketplace/partner-center-portal/create-power-bi-app-offer)在 AppSource 上分发应用的流程。 仅向合作伙伴中心提交预生产链接。 只有在应用获得批准且你收到应用已在 AppSource 中发布的通知后，才能在 Power BI 中将此包提升到生产。
+12. 复制此新 URL 以在租户外共享以供测试。 通过提交此链接，你还可以开启通过创建[新的合作伙伴中心产品/服务](/azure/marketplace/partner-center-portal/create-power-bi-app-offer)在 AppSource 上分发应用的流程。 仅向合作伙伴中心提交预生产链接。 只有在应用获得批准且你收到应用已在 AppSource 中发布的通知后，才能在 Power BI 中将此包提升到生产。
 13. 当应用准备好通过 AppSource 进行生产或共享时，请返回“发布管理”窗格，然后选择“预生产”旁边的“提升应用”************。
 14. 选择“提升”以确认选择****。
 
@@ -199,10 +199,10 @@ Power BI 租户管理员管理和控制组织中谁可以创建模板应用，�
 
     ![生产中的应用](media/service-template-apps-create/power-bi-template-app-production.png)
 
-为了让应用广泛适用于全球数千名 Power BI 用户，我们建议将该应用提交到 AppSource。 有关详细信息，请参阅 [Power BI 应用程序产品/服务](https://docs.microsoft.com/azure/marketplace/partner-center-portal/create-power-bi-app-offer)。
+为了让应用广泛适用于全球数千名 Power BI 用户，我们建议将该应用提交到 AppSource。 有关详细信息，请参阅 [Power BI 应用程序产品/服务](/azure/marketplace/partner-center-portal/create-power-bi-app-offer)。
 
 ## <a name="next-steps"></a>后续步骤
 
 通过[在组织中安装、自定义和分发模板应用](service-template-apps-install-distribute.md)，了解客户与模板应用的互动方式。
 
-有关分发应用的详细信息，请参阅 [Power BI 应用程序产品/服务](https://docs.microsoft.com/azure/marketplace/partner-center-portal/create-power-bi-app-offer)。
+有关分发应用的详细信息，请参阅 [Power BI 应用程序产品/服务](/azure/marketplace/partner-center-portal/create-power-bi-app-offer)。

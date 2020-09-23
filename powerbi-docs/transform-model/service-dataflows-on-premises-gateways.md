@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 07/15/2020
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: 9a3e393fa02d0bccc3e966c467b41883e72ae05e
-ms.sourcegitcommit: cfcde5ff2421be35dc1efc9e71ce2013f55ec78f
+ms.openlocfilehash: 019a881b384fafa51a8b1886b450f18f72bf640e
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/18/2020
-ms.locfileid: "86459637"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90859948"
 ---
 # <a name="using-dataflows-with-on-premises-data-sources"></a>将数据流与本地数据源配合使用
 
@@ -86,4 +86,4 @@ ms.locfileid: "86459637"
 * [配置计划刷新](../connect-data/refresh-scheduled-refresh.md)
 
 有关通用数据模型的详细信息，可以阅读其概述文章：
-* [通用数据模型 - 概述](https://docs.microsoft.com/powerapps/common-data-model/overview)
+* [通用数据模型 - 概述](/powerapps/common-data-model/overview)

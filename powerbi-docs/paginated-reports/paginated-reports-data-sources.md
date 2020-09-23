@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: conceptual
 ms.date: 07/27/2020
-ms.openlocfilehash: cdce9ead296a25aad95ab504d6da38f06f681b72
-ms.sourcegitcommit: 92b033ee7a6e36808371b247b7b41536cee6c2f6
+ms.openlocfilehash: f433a90580034495b4f7b1f6201c4481ffc627c5
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/10/2020
-ms.locfileid: "90008620"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90859856"
 ---
 # <a name="supported-data-sources-for-power-bi-paginated-reports"></a>Power BI 分页报表支持的数据源
 
@@ -67,11 +67,10 @@ ms.locfileid: "90008620"
 - SSO（单一登录）
 - OAuth2（存储的 AAD 令牌）
 
-为让 SSO 和 OAuth2 正常工作，数据源所连接的 Azure SQL 数据库服务器需[启用 AAD 身份验证支持](https://docs.microsoft.com/azure/sql-database/sql-database-aad-authentication-configure)。 对于 OAuth2 身份验证方法，AAD 会生成令牌并存储，以供将来访问数据源。 若使用 [SSO 身份验证方法](https://docs.microsoft.com/power-bi/service-azure-sql-database-with-direct-connect#single-sign-on)，则选择其正下方的 SSO 选项，即“最终用户通过 DirectQuery 访问此数据源时使用自己的 OAuth2 凭据”。
+为让 SSO 和 OAuth2 正常工作，数据源所连接的 Azure SQL 数据库服务器需[启用 AAD 身份验证支持](/azure/sql-database/sql-database-aad-authentication-configure)。 对于 OAuth2 身份验证方法，AAD 会生成令牌并存储，以供将来访问数据源。 若使用 [SSO 身份验证方法](../connect-data/service-azure-sql-database-with-direct-connect.md#single-sign-on)，则选择其正下方的 SSO 选项，即“最终用户通过 DirectQuery 访问此数据源时使用自己的 OAuth2 凭据”。
   
 ## <a name="next-steps"></a>后续步骤
 
 [在 Power BI 服务中查看分页报表](../consumer/paginated-reports-view-power-bi-service.md)
 
 更多问题？ [尝试参与 Power BI 社区](https://community.powerbi.com/)
-

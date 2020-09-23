@@ -6,15 +6,15 @@ ms.author: arthii
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-gateways
-ms.topic: how-to
+ms.topic: troubleshooting
 ms.date: 07/15/2019
 LocalizationGroup: Gateways
-ms.openlocfilehash: 0fd6e2d9a05c07ae5ed74a4f3f35af5267a68a87
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 4d106a2bd2c11d049307a2b6f752d9486cd5aa20
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85236198"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90860684"
 ---
 # <a name="troubleshoot-gateways---power-bi"></a>对网关进行排除故障 - Power BI
 
@@ -60,7 +60,7 @@ ms.locfileid: "85236198"
 
 在“显示详细信息”中，可以看到错误代码 DM_GWPipeline_Gateway_DataSourceAccessError 。
 
-如果基础错误消息类似于以下内容，这意味着你正在对数据源使用的帐户不是该 Analysis Services 实例的服务器管理员。 有关详细信息，请参阅[授予对 Analysis Services 实例的服务器管理员权限](https://docs.microsoft.com/sql/analysis-services/instances/grant-server-admin-rights-to-an-analysis-services-instance)。
+如果基础错误消息类似于以下内容，这意味着你正在对数据源使用的帐户不是该 Analysis Services 实例的服务器管理员。 有关详细信息，请参阅[授予对 Analysis Services 实例的服务器管理员权限](/sql/analysis-services/instances/grant-server-admin-rights-to-an-analysis-services-instance)。
 
     The 'CONTOSO\account' value of the 'EffectiveUserName' XML for Analysis property is not valid.
 

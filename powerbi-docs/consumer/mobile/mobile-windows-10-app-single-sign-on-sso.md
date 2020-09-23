@@ -8,12 +8,12 @@ ms.subservice: powerbi-mobile
 ms.topic: how-to
 ms.date: 03/11/2020
 ms.author: painbar
-ms.openlocfilehash: f62237e0aa0ac31d63fee4b980db2991206ddf4d
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 4202d2c7e4c87f8085a04af9922cf7cc6c55fbfd
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85240321"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90860178"
 ---
 # <a name="single-sign-on-in-the-power-bi-mobile-windows-app"></a>Power BI 移动 Windows 应用中的单一登录
 
@@ -24,7 +24,7 @@ ms.locfileid: "85240321"
 仅为 Windows Azure Active Directory 管理的 Windows 设备启用 SSO。
 
 >[!NOTE]
->我们将于 2021 年 3 月 16 日终止对使用 Windows 10 移动版的手机提供 Power BI 移动应用支持  。 [了解详细信息](https://go.microsoft.com/fwlink/?linkid=2121400)
+>我们将于 2021 年 3 月 16 日终止对使用 Windows 10 移动版的手机提供 Power BI 移动应用支持  。 [了解详细信息](/legal/powerbi/powerbi-mobile/power-bi-mobile-app-end-of-support-for-windows-phones)
 
 ## <a name="sign-in-with-sso"></a>使用 SSO 登录
 
@@ -38,4 +38,3 @@ ms.locfileid: "85240321"
 
 - [适用于 Windows 10 的 Power BI 移动应用入门](mobile-windows-10-phone-app-get-started.md)
 - 是否有任何问题？ [尝试咨询 Power BI 社区](https://community.powerbi.com/)
-

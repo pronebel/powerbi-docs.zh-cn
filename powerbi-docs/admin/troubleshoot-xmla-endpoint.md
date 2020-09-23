@@ -10,12 +10,12 @@ ms.topic: troubleshooting
 ms.date: 07/28/2020
 ms.custom: seodec18, css_fy20Q4
 LocalizationGroup: Premium
-ms.openlocfilehash: 8a815f69d4f74ec925c3ac0cc8a84c2a13d80346
-ms.sourcegitcommit: a254f6e2453656f6783690669be8e881934e15ac
+ms.openlocfilehash: bd2b8c4af1fc36fabc863aa1c67ed5af40265de2
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/28/2020
-ms.locfileid: "87363953"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90854072"
 ---
 # <a name="troubleshoot-xmla-endpoint-connectivity"></a>排查 XMLA 终结点连接问题
 
@@ -138,11 +138,11 @@ Power BI Premium 中的 XMLA 终结点依赖于本机 Analysis Services 通信�
 
 ### <a name="overrides-in-refresh-tmsl-command"></a>Refresh TMSL 命令中的替代
 
-[Refresh 命令 (TMSL) 中的替代](https://docs.microsoft.com/analysis-services/tmsl/refresh-command-tmsl)允许用户为刷新操作选择其他分区查询定义或数据源定义。 目前，Power BI Premium 不支持替代。 错误“Power BI Premium 中不允许使用外部绑定。 有关其他信息，请参阅产品文档中的‘XMLA 读/写支持’”。 返回。
+[Refresh 命令 (TMSL) 中的替代](/analysis-services/tmsl/refresh-command-tmsl)允许用户为刷新操作选择其他分区查询定义或数据源定义。 目前，Power BI Premium 不支持替代。 错误“Power BI Premium 中不允许使用外部绑定。 有关其他信息，请参阅产品文档中的‘XMLA 读/写支持’”。 返回。
 
 ## <a name="see-also"></a>另请参阅
 
 [使用 XMLA 终结点的数据集连接](service-premium-connect-tools.md)   
 [使用服务主体自动完成 Premium 工作区和数据集任务](service-premium-service-principal.md)   
 [“在 Excel 中分析”故障排除](../collaborate-share/desktop-troubleshooting-analyze-in-excel.md)   
-[表格模型解决方案部署](https://docs.microsoft.com/analysis-services/deployment/tabular-model-solution-deployment?view=power-bi-premium-current)
+[表格模型解决方案部署](/analysis-services/deployment/tabular-model-solution-deployment?view=power-bi-premium-current)

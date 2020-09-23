@@ -9,12 +9,12 @@ ms.subservice: powerbi-admin
 ms.topic: how-to
 ms.date: 09/04/2020
 LocalizationGroup: Premium
-ms.openlocfilehash: 1b0f63d200a94cb7e6524602203864281efe51c0
-ms.sourcegitcommit: 1f56cdfc05801ffaf41e3b68dc1eb02142acdab3
+ms.openlocfilehash: e4f2db2c5b0220215c9c71cc62349c2255cf046d
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/04/2020
-ms.locfileid: "89490344"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90854612"
 ---
 # <a name="automate-premium-workspace-and-dataset-tasks-with-service-principals"></a>使用服务主体自动完成 Premium 工作区和数据集任务
 
@@ -40,14 +40,14 @@ Power BI Premium 使用与 Power BI Embedded 相同的服务主体功能。 有�
 
 通过 Azure 门户或 PowerShell 将服务主体创建为应用注册。 在创建服务主体时，请确保分别复制并保存应用名称、应用程序（客户端）ID、目录（租户）ID 和客户端机密。 若要查看创建服务主体的步骤，请参阅：
 
-[创建服务主体 - Azure 门户](https://docs.microsoft.com/azure/active-directory/develop/howto-create-service-principal-portal)   
-[创建服务主体 - PowerShell](https://docs.microsoft.com/azure/active-directory/develop/howto-authenticate-service-principal-powershell)
+[创建服务主体 - Azure 门户](/azure/active-directory/develop/howto-create-service-principal-portal)   
+[创建服务主体 - PowerShell](/azure/active-directory/develop/howto-authenticate-service-principal-powershell)
 
 ## <a name="create-an-azure-ad-security-group"></a>创建 Azure AD 安全组
 
 默认情况下，服务主体有权访问为其启用的任何租户设置。 这包括访问特定安全组或整个组织，具体视管理设置而定。
 
-若要限制服务主体访问特定租户设置，可以允许访问特定安全组。 也可以为服务主体创建专用安全组，并将它排除在相应租户设置之外。 若要查看创建安全组和添加服务主体的步骤，请参阅[创建基本组并使用 Azure Active Directory 添加成员](https://docs.microsoft.com/azure/active-directory/fundamentals/active-directory-groups-create-azure-portal)。
+若要限制服务主体访问特定租户设置，可以允许访问特定安全组。 也可以为服务主体创建专用安全组，并将它排除在相应租户设置之外。 若要查看创建安全组和添加服务主体的步骤，请参阅[创建基本组并使用 Azure Active Directory 添加成员](/azure/active-directory/fundamentals/active-directory-groups-create-azure-portal)。
 
 ## <a name="enable-service-principals"></a>启用服务主体
 
@@ -59,7 +59,7 @@ Power BI Premium 使用与 Power BI Embedded 相同的服务主体功能。 有�
 
 ## <a name="workspace-access"></a>工作区访问权限
 
-为了让服务主体具有执行 Premium 工作区和数据集操作所需的权限，必须将服务主体添加为工作区成员或管理员。此处描述了如何在 Power BI 服务中使用工作区访问，但也可使用 [添加组用户 REST API](https://docs.microsoft.com/rest/api/power-bi/groups/addgroupuser)。
+为了让服务主体具有执行 Premium 工作区和数据集操作所需的权限，必须将服务主体添加为工作区成员或管理员。此处描述了如何在 Power BI 服务中使用工作区访问，但也可使用 [添加组用户 REST API](/rest/api/power-bi/groups/addgroupuser)。
 
 1. 在 Power BI 服务的工作区中选择“更多” > “工作区访问” 。
 
@@ -96,7 +96,7 @@ Invoke-ProcessTable -Server "powerbi://api.powerbi.com/v1.0/myorg/myworkspace" -
 
 ### <a name="amo-and-adomd"></a>AMO 和 ADOMD
 
-通过客户端应用程序和 Web 应用进行连接时，由 NuGet 提供的 [AMO 和 ADOMD 客户端库](https://docs.microsoft.com/azure/analysis-services/analysis-services-data-providers) 15.1.42.26（2020 年 6 月）及更高版本的可安装包支持在连接字符串中使用服务主体，可以使用 `app:AppID` 语法以及密码或 `cert:thumbprint`。
+通过客户端应用程序和 Web 应用进行连接时，由 NuGet 提供的 [AMO 和 ADOMD 客户端库](/azure/analysis-services/analysis-services-data-providers) 15.1.42.26（2020 年 6 月）及更高版本的可安装包支持在连接字符串中使用服务主体，可以使用 `app:AppID` 语法以及密码或 `cert:thumbprint`。
 
 以下示例使用 `appID` 和 `password` 执行模型数据库刷新操作：
 
@@ -115,6 +115,6 @@ db.Model.SaveChanges();
 ## <a name="next-steps"></a>后续步骤
 
 [使用 XMLA 终结点的数据集连接](service-premium-connect-tools.md)  
-[Azure 自动化](https://docs.microsoft.com/azure/automation)  
-[Azure 逻辑应用](https://docs.microsoft.com/azure/logic-apps/)  
-[Power BI REST API](https://docs.microsoft.com/rest/api/power-bi/)
+[Azure 自动化](/azure/automation)  
+[Azure 逻辑应用](/azure/logic-apps/)  
+[Power BI REST API](/rest/api/power-bi/)

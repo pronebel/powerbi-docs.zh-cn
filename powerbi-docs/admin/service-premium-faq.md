@@ -9,12 +9,12 @@ ms.subservice: powerbi-admin
 ms.topic: conceptual
 ms.date: 09/16/2019
 LocalizationGroup: Premium
-ms.openlocfilehash: 4188a5570dfe15658e13d3358f3e192ac842cbfb
-ms.sourcegitcommit: 13c4bec679313f2951f1833033316cb8176da8a1
+ms.openlocfilehash: 10049517ff1d9313838f72270c34091e2a0d3f73
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/26/2020
-ms.locfileid: "88937323"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90854704"
 ---
 # <a name="power-bi-premium-faq"></a>Power BI Premium 常见问题解答
 
@@ -84,10 +84,9 @@ Power BI 报表服务器是一个本地服务器，可用于完全在组织防�
 后续步骤
 
 * [什么是 Power BI Premium？](service-premium-what-is.md)
-* [Power BI Premium 发行说明](../service-premium-release-notes.md)
 * [Microsoft Power BI Premium 白皮书](https://aka.ms/pbipremiumwhitepaper)
 * [规划 Power BI Enterprise 部署白皮书](https://aka.ms/pbienterprisedeploy)
-* [激活延长的 Power BI Pro 试用期](../service-extended-pro-trial.md)
+* [激活延长的 Power BI Pro 试用期](../fundamentals/service-self-service-signup-for-power-bi.md)
 * [Power BI Embedded 常见问题解答](../developer/embedded/embedded-faq.md)
 
 更多问题？ [尝试咨询 Power BI 社区](https://community.powerbi.com/)

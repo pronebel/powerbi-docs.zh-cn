@@ -8,12 +8,12 @@ ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 08/12/2020
 ms.author: painbar
-ms.openlocfilehash: 84ceb5cd856986f2ff068395bac8bcac10baad96
-ms.sourcegitcommit: 64139587061136a43c5aea3b6db4d1a94e4e7795
+ms.openlocfilehash: c8daa87bca6fb5ed47899f804c0710f58b559ff1
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/14/2020
-ms.locfileid: "88204881"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90860224"
 ---
 # <a name="whats-new-in-the-mobile-apps-for-power-bi"></a>Power BI 移动应用中的新功能
 有关相关的“新增功能”的信息，请参阅：
@@ -23,7 +23,7 @@ ms.locfileid: "88204881"
 * [Power BI 服务中的最近更新](../../fundamentals/service-whats-new.md)
 
 >[!NOTE]
->我们将于 2021 年 3 月 16 日终止对使用 Windows 10 移动版的手机提供 Power BI 移动应用支持。 [了解详细信息](https://go.microsoft.com/fwlink/?linkid=2121400)
+>我们将于 2021 年 3 月 16 日终止对使用 Windows 10 移动版的手机提供 Power BI 移动应用支持。 [了解详细信息](/legal/powerbi/powerbi-mobile/power-bi-mobile-app-end-of-support-for-windows-phones)
 
 ## <a name="august-2020"></a>2020 年 8 月
 ### <a name="weve-improved-how-you-navigate-to-your-content-ios-and-android"></a>我们改进了导航浏览内容的方式（iOS 和 Android）
@@ -153,19 +153,19 @@ Power BI 移动应用现已支持在 Power BI 中创建的书签。 打开应用
 
 ### <a name="android-support-for-remote-configuration-of-report-server-access-settings"></a>现支持 Android 对报表服务器访问设置进行远程配置
 
-我们现支持 Android 对 Power BI 移动应用的报表服务器访问设置进行远程配置。 IT 管理员现可使用其组织的 MDM 工具在 iOS 和 Android 设备上远程配置这些设置。 有关详细信息，请参阅[远程配置 Power BI 移动应用对报表服务器的访问权限](https://docs.microsoft.com/power-bi/report-server/configure-powerbi-mobile-apps-remote)。
+我们现支持 Android 对 Power BI 移动应用的报表服务器访问设置进行远程配置。 IT 管理员现可使用其组织的 MDM 工具在 iOS 和 Android 设备上远程配置这些设置。 有关详细信息，请参阅[远程配置 Power BI 移动应用对报表服务器的访问权限](../../report-server/configure-powerbi-mobile-apps-remote.md)。
 
 ### <a name="cross-report-drillthrough"></a>跨报表钻取
 
 本月，我们添加了对跨报表钻取的支持。 现在，可通过点击数据点来钻取访问其他报表和报表页。 钻取到目标页面时，将根据钻取设置筛选该页面中的内容。
 
 > [!NOTE]
-> 仅当在报表创建期间启用了跨报表钻取时，跨报表钻取才可用。 [详细了解跨报表钻取](https://docs.microsoft.com/power-bi/desktop-cross-report-drill-through)。
+> 仅当在报表创建期间启用了跨报表钻取时，跨报表钻取才可用。 [详细了解跨报表钻取](../../create-reports/desktop-cross-report-drill-through.md)。
 
 
 ### <a name="data-sensitivity-labels"></a>数据敏感度标签
 
-你现在可以看到内容所有者对报表、仪表板、数据集和数据流设置的敏感度标签，这些标签用于对数据的敏感度进行分类。 敏感度标签决定与其他用户共享内容的方式。 [详细了解 Power BI 中的数据敏感度标签](https://docs.microsoft.com/power-bi/admin/service-security-data-protection-overview)。
+你现在可以看到内容所有者对报表、仪表板、数据集和数据流设置的敏感度标签，这些标签用于对数据的敏感度进行分类。 敏感度标签决定与其他用户共享内容的方式。 [详细了解 Power BI 中的数据敏感度标签](../../admin/service-security-data-protection-overview.md)。
 
 ### <a name="support-for-custom-app-navigation-windows"></a>自定义应用导航支持 (Windows)
 
@@ -190,7 +190,7 @@ Power BI 移动应用现已支持在 Power BI 中创建的书签。 打开应用
 
 ### <a name="secured-access-with-azure-active-directory-ad-application-proxy-ios-and-android"></a>Azure Active Directory (AD) 应用程序代理的安全访问（iOS 和 Android）
 
-我们与 Azure Active Directory 团队合作，共同将 Power BI 移动应用与 Azure Active Directory (Azure AD) 应用程序代理集成。 通过此配置，无需设置复杂的本地配置即可连接到在 Power BI 移动版应用的企业边界内托管的报表服务器。 详细了解[Power BI 移动版与 Azure AD 应用程序代理的集成](https://powerbi.microsoft.com/blog/access-on-prem-report-server-from-your-power-bi-mobile-app-with-azure-active-directory-application-proxy/)。 了解[如何配置 Azure AD 应用程序代理和 Power BI](https://docs.microsoft.com/azure/active-directory/manage-apps/application-proxy-integrate-with-power-bi)。
+我们与 Azure Active Directory 团队合作，共同将 Power BI 移动应用与 Azure Active Directory (Azure AD) 应用程序代理集成。 通过此配置，无需设置复杂的本地配置即可连接到在 Power BI 移动版应用的企业边界内托管的报表服务器。 详细了解[Power BI 移动版与 Azure AD 应用程序代理的集成](https://powerbi.microsoft.com/blog/access-on-prem-report-server-from-your-power-bi-mobile-app-with-azure-active-directory-application-proxy/)。 了解[如何配置 Azure AD 应用程序代理和 Power BI](/azure/active-directory/manage-apps/application-proxy-integrate-with-power-bi)。
 
 ## <a name="july-2019"></a>2019 年 7 月
 
@@ -228,11 +228,11 @@ Power BI 移动应用现已支持在 Power BI 中创建的书签。 打开应用
 
 ### <a name="enhanced-conditional-access-protection-ios-android"></a>增强的条件访问保护（iOS、Android）
 
-我们已与 Azure AD [新的基于应用保护的条件访问功能](https://docs.microsoft.com/azure/active-directory/conditional-access/app-protection-based-conditional-access)集成，通过在应用应用策略之前限制对 Power BI 的访问来提高安全性。
+我们已与 Azure AD [新的基于应用保护的条件访问功能](/azure/active-directory/conditional-access/app-protection-based-conditional-access)集成，通过在应用应用策略之前限制对 Power BI 的访问来提高安全性。
 
 ### <a name="device-protection-ios"></a>设备保护 (iOS)
 
-用户可以使用设备内置保护来保护 Power BI，即，要求使用 Face ID、Touch ID 或密码来访问 Power BI。 这可以由用户使用应用设置来控制，也可以由管理员使用 Intune 和任何其他 MDM 工具来控制。 [了解详细信息](https://docs.microsoft.com/power-bi/consumer/mobile/mobile-ios-native-secure-access)。
+用户可以使用设备内置保护来保护 Power BI，即，要求使用 Face ID、Touch ID 或密码来访问 Power BI。 这可以由用户使用应用设置来控制，也可以由管理员使用 Intune 和任何其他 MDM 工具来控制。 [了解详细信息](./mobile-native-secure-access.md)。
 
 ### <a name="one-page-report-slideshow-windows"></a>单页报表幻灯片放映 (Windows)
 
@@ -274,7 +274,7 @@ Power BI 移动应用现已支持在 Power BI 中创建的书签。 打开应用
 ![单击交互](./media/mobile-whats-new-in-the-mobile-apps/single-tap-2.gif)
 
 > [!NOTE]
-> 现有用户需要在应用设置中启用此行为。 有关详细信息，请参阅[如何配置单击报表交互](https://docs.microsoft.com/power-bi/consumer/mobile/mobile-app-single-tap)一文。
+> 现有用户需要在应用设置中启用此行为。 有关详细信息，请参阅[如何配置单击报表交互](./mobile-app-interaction-settings.md)一文。
 
 ## <a name="january---february-2019"></a>2019 年 1 月 - 2 月
  
@@ -304,11 +304,11 @@ Power BI 移动应用现已支持在 Power BI 中创建的书签。 打开应用
 
 ### <a name="portrait-report-layout-in-tablets-ios-and-android"></a>平板电脑（iOS 和 Android）中的纵向报表布局
 
-我们现在使用手机报表布局（若有）在平板电脑上以纵向模式显示报表。 阅读有关[如何在 Power BI 服务或 Power BI Desktop 中创建手机布局](https://docs.microsoft.com/power-bi/desktop-create-phone-report/)的详细信息。
+我们现在使用手机报表布局（若有）在平板电脑上以纵向模式显示报表。 阅读有关[如何在 Power BI 服务或 Power BI Desktop 中创建手机布局](/power-bi/desktop-create-phone-report/)的详细信息。
 
 ### <a name="supporting-report-query-string"></a>支持报表查询字符串 
 
-打开包含查询字符串的报表链接现在将在移动应用中打开，并根据查询字符串中定义的条件进行预筛选。 了解有关[如何使用查询字符串创建报表 URL](https://docs.microsoft.com/power-bi/service-url-filters/) 的详细信息。  
+打开包含查询字符串的报表链接现在将在移动应用中打开，并根据查询字符串中定义的条件进行预筛选。 了解有关[如何使用查询字符串创建报表 URL](/power-bi/service-url-filters/) 的详细信息。  
 
 ### <a name="shared-credentials-now-in-android"></a>共享凭据（现在为 Android）
 

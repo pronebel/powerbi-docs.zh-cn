@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 04/01/2019
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: 9a0b9eb90e3c39cf1f07842f5ea1da88b7cd06ad
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 2bb23da89489966cd3d96bb2c4daaa6302a96326
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83322392"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90859718"
 ---
 # <a name="self-service-data-prep-in-power-bi"></a>Power BI 中的自助服务数据准备
 
@@ -24,7 +24,7 @@ ms.locfileid: "83322392"
 
 Power BI 引入数据流  ，以帮助组织统一来自不同来源的数据并为建模做好数据准备。 分析人员可以使用熟悉的自助服务工具轻松创建数据流。 数据流用于通过定义数据源连接、ETL 逻辑、刷新计划等来引入、转换、集成和丰富大数据。 此外，作为数据流一部分的新模型驱动计算引擎使数据准备过程更易于管理且更具决定性，并且对于数据分析人员和报表创建者等来说都不那么麻烦。 与电子表格处理所有受影响公式的重新计算类似，数据流代表用户管理实体或数据元素的更改，自动更新，并缓解曾经甚至对基本数据刷新也很繁琐且耗时的逻辑检查。 通过数据流，分析人员和报告创建者只需单击几下即可处理曾经需要数据科学家监督（且需要几个小时或几天才能完成）的任务。 
 
-数据作为实体存储在 Azure Data Lake Storage Gen2 中的[通用数据模型  ](https://docs.microsoft.com/powerapps/common-data-model/overview)中。 使用 Power BI 服务在工作区中创建和管理数据流。  
+数据作为实体存储在 Azure Data Lake Storage Gen2 中的[通用数据模型  ](/powerapps/common-data-model/overview)中。 使用 Power BI 服务在工作区中创建和管理数据流。  
  
 数据流  设计为使用通用数据模型  ，该模式是 Microsoft 发布的标准化数据架构集合，它采用模块化结构，可进行扩展，旨在简化生成、使用和分析数据的过程。 使用此模型，用户可以不费吹灰之力将数据源导入到 Power BI 仪表板。
 
@@ -117,4 +117,4 @@ Power BI 还可以使用通用数据模型格式的系统化数据连接到文�
 * [配置计划刷新](../connect-data/refresh-scheduled-refresh.md)
 
 有关通用数据模型的详细信息，可以阅读其概述文章：
-* [通用数据模型 - 概述](https://docs.microsoft.com/powerapps/common-data-model/overview)
+* [通用数据模型 - 概述](/powerapps/common-data-model/overview)
