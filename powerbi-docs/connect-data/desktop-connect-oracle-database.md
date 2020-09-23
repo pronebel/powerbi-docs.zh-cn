@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 08/11/2020
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: f778b4f0c6572084598eb07df0e89b7a30aed7b1
-ms.sourcegitcommit: d7145123133255d004b85ef8b20ca4977f0b843e
+ms.openlocfilehash: b77543a7601cf4f8522c333137802e71ce41a41c
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/11/2020
-ms.locfileid: "88091586"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90858361"
 ---
 # <a name="connect-to-an-oracle-database-with-power-bi-desktop"></a>使用 Power BI Desktop 连接到 Oracle 数据库
 要使用 Power BI Desktop 连接到 Oracle 数据库，必须在运行 Power BI Desktop 的计算机上安装正确的 Oracle 客户端软件。 使用的 Oracle 客户端软件取决于已安装的 Power BI Desktop 版本：32 位或 64 位。 它还取决于 Oracle 服务器的版本。
@@ -24,7 +24,7 @@ ms.locfileid: "88091586"
 - Oracle Data Access Client (ODAC) 软件 11.2 及更高版本
 
 > [!NOTE]
-> 如果要为 Power BI Desktop、本地数据网关或 Power BI 报表服务器配置 Oracle 数据库，请参阅 [Oracle 连接类型](https://docs.microsoft.com/sql/reporting-services/report-data/oracle-connection-type-ssrs?view=sql-server-ver15)一文中的信息。 
+> 如果要为 Power BI Desktop、本地数据网关或 Power BI 报表服务器配置 Oracle 数据库，请参阅 [Oracle 连接类型](/sql/reporting-services/report-data/oracle-connection-type-ssrs?view=sql-server-ver15)一文中的信息。 
 
 
 ## <a name="determining-which-version-of-power-bi-desktop-is-installed"></a>确定安装了哪个版本的 Power BI Desktop
@@ -89,4 +89,4 @@ ms.locfileid: "88091586"
 
 如果在连接到 Oracle Database 时 Power BI Gateway 中出现“未设置对象引用”错误消息，请按照[管理数据源 - Oracle](service-gateway-onprem-manage-oracle.md) 中的说明进行操作。
 
-如果使用 Power BI 报表服务器，请参阅 [Oracle 连接类型](https://docs.microsoft.com/sql/reporting-services/report-data/oracle-connection-type-ssrs?view=sql-server-ver15)一文中的指导。
+如果使用 Power BI 报表服务器，请参阅 [Oracle 连接类型](/sql/reporting-services/report-data/oracle-connection-type-ssrs?view=sql-server-ver15)一文中的指导。

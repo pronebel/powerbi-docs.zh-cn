@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: conceptual
 ms.date: 07/01/2020
-ms.openlocfilehash: 4b112c3522a35f86f74481a79f3fff919a0e9e33
-ms.sourcegitcommit: 2131f7b075390c12659c76df94a8108226db084c
+ms.openlocfilehash: ef981c63aaa1cdececbe03f187d25ee09073f61f
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/03/2020
-ms.locfileid: "87544688"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90857740"
 ---
 # <a name="manage-power-bi-visuals-admin-settings"></a>管理 Power BI 视觉对象管理员设置
 
@@ -64,7 +64,7 @@ UI 租户设置仅会影响 Power BI 服务。 如果希望这些设置在 Power
 
 ![来自文件或 AppSource 的视觉对象](media/organizational-visuals/tenant-settings.png)
 
-对租户设置的 UI 更改仅适用于 Power BI 服务。 若要使组织中的用户能够上传 .pbiviz 文件，并可以将来自 AppSource 的视觉对象添加到 Power BI Desktop 中的可视化窗格，请使用 [Azure AD 组策略](https://docs.microsoft.com/azure/active-directory-domain-services/manage-group-policy)。
+对租户设置的 UI 更改仅适用于 Power BI 服务。 若要使组织中的用户能够上传 .pbiviz 文件，并可以将来自 AppSource 的视觉对象添加到 Power BI Desktop 中的可视化窗格，请使用 [Azure AD 组策略](/azure/active-directory-domain-services/manage-group-policy)。
 
 |密钥  |值名称  |值  |
 |---------|---------|---------|
@@ -83,7 +83,7 @@ UI 租户设置仅会影响 Power BI 服务。 如果希望这些设置在 Power
 
 ![已认证的视觉对象](media/organizational-visuals/certified-visuals.png)
 
-对租户设置的 UI 更改仅适用于 Power BI 服务。 若要在 Power BI Desktop 中管理已认证的视觉对象租户设置，请使用 [Azure AD 组策略](https://docs.microsoft.com/azure/active-directory-domain-services/manage-group-policy)。
+对租户设置的 UI 更改仅适用于 Power BI 服务。 若要在 Power BI Desktop 中管理已认证的视觉对象租户设置，请使用 [Azure AD 组策略](/azure/active-directory-domain-services/manage-group-policy)。
 
 |密钥  |值名称  |值  |
 |---------|---------|---------|

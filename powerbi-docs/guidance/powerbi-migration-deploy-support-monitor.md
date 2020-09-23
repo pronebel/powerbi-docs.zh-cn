@@ -8,12 +8,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 08/20/2020
 ms.author: v-pemyer
-ms.openlocfilehash: 59f340e6325cf846d1b0453a94a1015b50a987c4
-ms.sourcegitcommit: ffc46032d0771227395cc38be9ec9ff1500eac70
+ms.openlocfilehash: 23d207bb4f070c3c3a35f1e74dd281f012528c82
+ms.sourcegitcommit: cff93e604e2c5f24e0f03d6dbdcd10c2332aa487
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/02/2020
-ms.locfileid: "89401993"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90965002"
 ---
 # <a name="deploy-to-power-bi"></a>部署到 Power BI
 
@@ -100,7 +100,7 @@ UAT 涉及的业务用户通常是主题专家。 经过验证后，他们将批
 - **报表和仪表板设置：** 更新并验证每个报表和仪表板的设置。 最重要的设置包括：
   - 说明
   - 联系人或组
-  - [敏感度标签](../collaborate-share/service-security-apply-data-sensitivity-labels.md)
+  - [敏感度标签](../admin/service-security-apply-data-sensitivity-labels.md)
   - [特别推荐的内容](https://powerbi.microsoft.com/blog/promote-your-reports-dashboards-and-apps-on-power-bi-home/)
 - **订阅：** 如果需要，请设置报表订阅。
 
@@ -136,7 +136,7 @@ UAT 涉及的业务用户通常是主题专家。 经过验证后，他们将批
 
 ## <a name="monitor-the-solution"></a>监视解决方案
 
-可借助 [Power BI 活动日志](../admin/service-admin-auditing.md)中的事件（或部署到 Power BI 报表服务器的内容的[执行日志](/sql/reporting-services/report-server/report-server-executionlog-and-the-executionlog3-view?view=sql-server-ver15)）了解对新解决方案的使用模式。 分析活动日志有助于确定实际使用是否与预期不同。 它还可以验证解决方案是否得到充分支持。
+可借助 [Power BI 活动日志](../admin/service-admin-auditing.md)中的事件（或部署到 Power BI 报表服务器的内容的[执行日志](/sql/reporting-services/report-server/report-server-executionlog-and-the-executionlog3-view)）了解对新解决方案的使用模式。 分析活动日志有助于确定实际使用是否与预期不同。 它还可以验证解决方案是否得到充分支持。
 
 以下是一些可以通过查看活动日志来解决的问题：
 

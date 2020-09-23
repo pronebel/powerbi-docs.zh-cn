@@ -9,12 +9,12 @@ ms.topic: tutorial
 ms.date: 11/08/2019
 ms.author: davidi
 LocalizationGroup: Learn more
-ms.openlocfilehash: 91b0bba3b8e3fc221a05e6ccb2de1ec9b888d1ef
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: 61eb4fc54966545858a7ebc85044696064027acd
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83349301"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90858384"
 ---
 # <a name="tutorial-create-your-own-measures-in-power-bi-desktop"></a>教程：在 Power BI Desktop 中创建你自己的度量值
 通过使用度量值，可以在 Power BI Desktop 中创建某些功能强大的数据分析解决方案。 度量值可在你与报表进行交互时帮助对数据执行计算。 本教程将引导你了解度量值并在 Power BI Desktop 中创建自己的基本度量值。
@@ -245,4 +245,4 @@ DAX 公式使用许多与 Excel 公式相同的函数、运算符和语法。 �
   
 - 如果想要深入了解 DAX 公式和创建更高级的度量值，请参阅 [Power BI Desktop 中的 DAX 基础知识](desktop-quickstart-learn-dax-basics.md)。 本文重点在于介绍 DAX 中的基本概念，如语法、函数和对上下文的透彻理解。
   
-- 请务必将[数据分析表达式 (DAX) 参考](https://docs.microsoft.com/dax/index)添加到收藏夹。 你可以在此参考中找到有关 DAX 语法、运算符和 200 多个 DAX 函数的详细信息。
+- 请务必将[数据分析表达式 (DAX) 参考](/dax/index)添加到收藏夹。 你可以在此参考中找到有关 DAX 语法、运算符和 200 多个 DAX 函数的详细信息。

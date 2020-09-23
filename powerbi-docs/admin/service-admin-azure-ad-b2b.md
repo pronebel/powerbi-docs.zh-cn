@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 07/02/2020
 ms.author: kfollis
 LocalizationGroup: Administration
-ms.openlocfilehash: ca0a33f42c1b2fd466df9af59bb649ae73d7d594
-ms.sourcegitcommit: c18130ea61e67ba111be870ddb971c6413a4b632
+ms.openlocfilehash: 4a38ca35e6955bc92f52492e657a9e00bad05ea3
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/09/2020
-ms.locfileid: "86161367"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90857602"
 ---
 # <a name="distribute-power-bi-content-to-external-guest-users-with-azure-ad-b2b"></a>使用 Azure AD B2B 将 Power BI 内容分发给外部来宾用户
 
@@ -151,7 +151,7 @@ Power BI 允许通过 Azure Active Directory 企业到企业 (Azure AD B2B) 与�
 
 * 有一些 Azure Active Directory 设置可以限制外部来宾用户在整个组织范围内可以执行的操作。 这些设置也适用于你的 Power BI 环境。 以下文档探讨的设置为：
   * [管理外部协作设置](/azure/active-directory/b2b/delegate-invitations#configure-b2b-external-collaboration-settings)
-  * [允许或阻止向特定组织中的 B2B 用户发送邀请](https://docs.microsoft.com/azure/active-directory/b2b/allow-deny-list)
+  * [允许或阻止向特定组织中的 B2B 用户发送邀请](/azure/active-directory/b2b/allow-deny-list)
   * [使用条件访问允许或阻止访问](/azure/active-directory/conditional-access/concept-conditional-access-cloud-apps)
 
 * 你可以将政府云中的内容（如 GCC）共享到外部商业云用户。 但是，来宾用户不能使用自己的许可证。 必须将内容存储在分配给 Premium 的容量中，才能启用访问。 或者，你可以将 Power BI Pro 许可证分配给来宾帐户。
@@ -162,6 +162,6 @@ Power BI 允许通过 Azure Active Directory 企业到企业 (Azure AD B2B) 与�
 
 ## <a name="next-steps"></a>后续步骤
 
-有关详细信息（包括行级别安全性的工作方式），请查看白皮书：[使用 Azure AD B2B 将 Power BI 内容分发给外部来宾用户](https://aka.ms/powerbi-b2b-whitepaper)。
+有关详细信息（包括行级别安全性的工作方式），请查看白皮书：[使用 Azure AD B2B 将 Power BI 内容分发给外部来宾用户](../guidance/whitepaper-azure-b2b-power-bi.md)。
 
 若要了解 Azure AD B2B，请参阅[什么是 Azure AD B2B 协作？](/azure/active-directory/active-directory-b2b-what-is-azure-ad-b2b/)。

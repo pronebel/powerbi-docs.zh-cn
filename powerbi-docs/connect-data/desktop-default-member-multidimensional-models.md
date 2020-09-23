@@ -9,18 +9,18 @@ ms.topic: conceptual
 ms.date: 01/10/2019
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: 75c1d76d5fbdfc0d844e69ef0f76ced7cd2e302d
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 75753886930a4b9c2e109f36b5cc01ccbaec49e6
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83292929"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90858315"
 ---
 # <a name="work-with-multidimensional-models-in-power-bi"></a>在 Power BI 中使用多维模型
 
 在 Power BI 中，可以连接到多维模型，并创建报表来将模型内的各种数据可视化。 处理多维模型时，Power BI 基于定义为默认成员的列来应用数据处理规则。  
 
-处理多维模型时，Power BI 基于使用包含 DefaultMember 的列的位置来处理模型中的数据。  使用 CSDL（概念架构定义语言）为多维模型中的特定列设置 DefaultMember 特性。  有关默认成员的详细信息，请参阅其[特性属性文章](https://docs.microsoft.com/sql/analysis-services/multidimensional-models/attribute-properties-define-a-default-member?view=sql-server-2017)。 执行 DAX 查询时，将自动应用模型中指定的默认成员。
+处理多维模型时，Power BI 基于使用包含 DefaultMember 的列的位置来处理模型中的数据。  使用 CSDL（概念架构定义语言）为多维模型中的特定列设置 DefaultMember 特性。  有关默认成员的详细信息，请参阅其[特性属性文章](/sql/analysis-services/multidimensional-models/attribute-properties-define-a-default-member?view=sql-server-2017)。 执行 DAX 查询时，将自动应用模型中指定的默认成员。
 
 本文介绍了 Power BI 在各种情况下基于默认成员的位置处理多维模型时执行的行为。  
 

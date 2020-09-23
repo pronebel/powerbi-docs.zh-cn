@@ -10,12 +10,12 @@ ms.date: 08/20/2020
 ms.author: kfollis
 ms.custom: licensing support
 LocalizationGroup: Administration
-ms.openlocfilehash: 27d74a4333add1feebc3522ce34d0a2bacaa69f7
-ms.sourcegitcommit: 2cf8159535c114045e236c076a711638cfd7d2c8
+ms.openlocfilehash: 0c1c113f100c3ae1db0902c90833c44788fa7ec6
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/07/2020
-ms.locfileid: "89512047"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90857694"
 ---
 # <a name="track-user-activities-in-power-bi"></a>跟踪 Power BI 中的用户活动
 
@@ -77,7 +77,7 @@ completeListOfActivityEvents.AddRange(response.ActivityEventEntities);
 > 最多 24 小时就会显示所有事件，但完整数据通常更快可用。
 >
 >
-若要详细了解如何使用 Power BI REST API（包括有关如何获取审核活动事件的示例），请参阅 Power BI REST API 参考文档中的[管理员 - 获取活动事件](https://docs.microsoft.com/rest/api/power-bi/admin/getactivityevents)。
+若要详细了解如何使用 Power BI REST API（包括有关如何获取审核活动事件的示例），请参阅 Power BI REST API 参考文档中的[管理员 - 获取活动事件](/rest/api/power-bi/admin/getactivityevents)。
 
 ### <a name="get-powerbiactivityevent-cmdlet"></a>Get-PowerBIActivityEvent cmdlet
 
@@ -122,7 +122,7 @@ $activities[0]
 
 必须满足以下要求才能访问审核日志：
 
-- 必须成为全局管理员或在 Exchange Online 中分配有“审核日志”或“仅查看审核日志”角色才能访问审核日志。 默认情况下，会在 Exchange 管理中心的“权限”页上为“符合性管理”和“组织管理”角色组分配这些角色。 有关可查看审核日志的角色的详细信息，请参阅[搜索审核日志的要求](https://docs.microsoft.com/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance?view=o365-worldwide#requirements-to-search-the-audit-log)。
+- 必须成为全局管理员或在 Exchange Online 中分配有“审核日志”或“仅查看审核日志”角色才能访问审核日志。 默认情况下，会在 Exchange 管理中心的“权限”页上为“符合性管理”和“组织管理”角色组分配这些角色。 有关可查看审核日志的角色的详细信息，请参阅[搜索审核日志的要求](/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance?view=o365-worldwide#requirements-to-search-the-audit-log)。
 
     若要为非管理员帐户提供访问审核日志的权限，请将该用户添加为其中一个角色组的成员。 如果要以另一种方式执行此操作，可以在 Exchange 管理中心中创建自定义角色组、将“审核日志”或“仅查看审核日志”角色分配给此组，然后将非管理员帐户添加到新角色组。 有关详细信息，请参阅[在 Exchange Online 中管理角色组](/Exchange/permissions-exo/role-groups)。
 

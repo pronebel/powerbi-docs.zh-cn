@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 01/29/2020
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: e43edb3241140024241ab78af1236d9551a35f1a
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: ad3684bbf285ff85fa3dec6b0cdc807dc05eca05
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85239758"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90857901"
 ---
 # <a name="configure-workspace-dataflow-settings-preview"></a>配置工作区数据流设置（预览）
 
@@ -128,13 +128,13 @@ Power BI Pro、Premium 和 Embedded 工作区：
 
 有关 Azure 存储的详细信息，可以阅读以下这些文章：
 
-* [Azure 存储安全指南](https://docs.microsoft.com/azure/storage/common/storage-security-guide)
+* [Azure 存储安全指南](/azure/storage/common/storage-security-guide)
 * [开始使用 Azure 数据服务中的 github 示例](https://aka.ms/cdmadstutorial)
 
 有关通用数据模型的详细信息，可以阅读其概述文章：
 
-* [通用数据模型 - 概述](https://docs.microsoft.com/powerapps/common-data-model/overview)
-* [CDM 文件夹](https://go.microsoft.com/fwlink/?linkid=2045304)
-* [CDM 模型文件定义](https://go.microsoft.com/fwlink/?linkid=2045521)
+* [通用数据模型 - 概述](/powerapps/common-data-model/overview)
+* [CDM 文件夹](/common-data-model/data-lake)
+* [CDM 模型文件定义](/common-data-model/model-json)
 
 也可以随时尝试[通过 Power BI 社区提问](https://community.powerbi.com/)。

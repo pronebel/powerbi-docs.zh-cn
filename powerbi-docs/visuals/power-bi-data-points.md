@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 01/10/2020
 ms.author: rien
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 97bccec3ec0e92ebfcc6b9251cf5c17f176fbed1
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 5efe83cfa43c6fcb156501774bbaeae79381ab85
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85240144"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90857717"
 ---
 # <a name="apply-data-point-limits-and-strategies-by-visual-type"></a>应用数据点限制和策略（按视觉对象类型）
 
@@ -41,7 +41,7 @@ ms.locfileid: "85240144"
 ## <a name="statistics"></a>统计信息
 某些模型可以提供有关某些列的值数量的统计信息。 显示此类信息时，如果视觉对象不显式覆盖策略的值计数，我们将利用该信息来跨多个层次结构提供更好的平衡。
 
-有关详细信息，请参阅 [Analysis Services 中的新增功能](https://docs.microsoft.com/sql/analysis-services/what-s-new-in-analysis-services?view=sql-server-2017)
+有关详细信息，请参阅 [Analysis Services 中的新增功能](/sql/analysis-services/what-s-new-in-analysis-services)
 
 ## <a name="dynamic-limits"></a>动态限制
 除了上述策略之外，具有分组列的两个层次结构（轴和图例或类别和系列）的视觉对象还会使用一个名为“动态限制”  的其他策略。  动态限制旨在更好地平衡数据点。 
@@ -50,7 +50,7 @@ ms.locfileid: "85240144"
 
 服务器拥有以下功能时，会自动应用动态限制：
 
-* 在具有本地 SSAS 版本 2016 或更高版本的 Power BI Desktop 中，[利用服务器的 SuperDax 功能](https://blogs.msdn.microsoft.com/analysisservices/2015/09/02/whats-new-in-microsoft-sql-server-analysis-services-tabular-models-in-sql-server-2016-ctp-2-3/)
+* 在具有本地 SSAS 版本 2016 或更高版本的 Power BI Desktop 中，[利用服务器的 SuperDax 功能](/archive/blogs/analysisservices/whats-new-in-microsoft-sql-server-analysis-services-tabular-models-in-sql-server-2016-ctp-2-3)
 
 * 在 Desktop 和 Power BI 服务中，使用导入的模型时，进行直接查询、实时连接到服务或实时连接到 AS PaaS。 
 
@@ -132,7 +132,7 @@ ms.locfileid: "85240144"
 - 值：通过一次使用 200 行的窗口进行虚拟化
 
 ### <a name="scatter-chart-high-density"></a>散点图（高密度）
-请参阅[高密度散点图](https://docs.microsoft.com/power-bi/visuals/desktop-high-density-scatter-charts)
+请参阅[高密度散点图](./desktop-high-density-scatter-charts.md)
 
 ### <a name="pie"></a>饼图
 - 最大点数：3,500

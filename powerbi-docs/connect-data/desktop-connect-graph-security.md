@@ -10,22 +10,22 @@ ms.topic: conceptual
 ms.date: 01/29/2019
 ms.author: preetikr
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 9f434d27a11d171509645594a6f7f67e62c16faa
-ms.sourcegitcommit: 11deeccf596e9bb8f22615276a152614f7579f35
+ms.openlocfilehash: 5d7fbe9e302c7b1460bc285af140a50304c468da
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/16/2020
-ms.locfileid: "86409297"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90858522"
 ---
 # <a name="connect-to-the-microsoft-graph-security-api-in-power-bi-desktop"></a>连接到 Power BI Desktop 中的 Microsoft Graph Security API
 
-使用 Power BI Desktop 的 Microsoft Graph Security 连接器连接到 [Microsoft Graph Security API](https://aka.ms/graphsecuritydocs)。 然后可生成仪表板和报表，从而可深入了解与安全相关的[警报](https://docs.microsoft.com/graph/api/resources/alert?view=graph-rest-1.0)和[安全功能分数](https://docs.microsoft.com/graph/api/resources/securescores?view=graph-rest-beta)。
+使用 Power BI Desktop 的 Microsoft Graph Security 连接器连接到 [Microsoft Graph Security API](/graph/security-concept-overview)。 然后可生成仪表板和报表，从而可深入了解与安全相关的[警报](/graph/api/resources/alert?view=graph-rest-1.0)和[安全功能分数](/graph/api/resources/securescores?view=graph-rest-beta)。
 
-Microsoft Graph Security API 连接了来自 Microsoft 及其生态系统合作伙伴的[多个安全解决方案](https://aka.ms/graphsecurityalerts)，以更轻松地关联警报。 通过这种组合，可以访问丰富的上下文信息并简化自动化。 通过该组合，组织能够在降低成本和复杂性的同时，快速获得见解并跨多个安全产品执行操作。
+Microsoft Graph Security API 连接了来自 Microsoft 及其生态系统合作伙伴的[多个安全解决方案](/graph/api/resources/security-api-overview#alerts)，以更轻松地关联警报。 通过这种组合，可以访问丰富的上下文信息并简化自动化。 通过该组合，组织能够在降低成本和复杂性的同时，快速获得见解并跨多个安全产品执行操作。
 
 ## <a name="prerequisites-to-use-the-microsoft-graph-security-connector"></a>使用 Microsoft Graph Security 连接器的先决条件
 
-若要使用 Microsoft Graph Security 连接器，必须显式获得 Azure Active Directory (Azure AD) 租户管理员的同意  。 请参阅 [Microsoft Graph Security 身份验证要求](https://aka.ms/graphsecurityauth)。
+若要使用 Microsoft Graph Security 连接器，必须显式获得 Azure Active Directory (Azure AD) 租户管理员的同意  。 请参阅 [Microsoft Graph Security 身份验证要求](/graph/security-authorization)。
 获得同意需要连接器的应用程序 ID 和名称，这里引用了该 ID 和名称，可在 [Azure 门户](https://portal.azure.com)中获得：
 
 | 属性 | 值 |
@@ -37,11 +37,11 @@ Microsoft Graph Security API 连接了来自 Microsoft 及其生态系统合作�
 
 若要授予连接器同意，Azure AD 租户管理员可以使用以下任一方法：
 
-* [为 Azure AD 应用程序授予同意](https://docs.microsoft.com/azure/active-directory/develop/v2-permissions-and-consent)
+* [为 Azure AD 应用程序授予同意](/azure/active-directory/develop/v2-permissions-and-consent)
 
-* 通过[应用程序许可体验](https://docs.microsoft.com/azure/active-directory/develop/application-consent-experience)响应逻辑应用在首次运行期间提交的请求
+* 通过[应用程序许可体验](/azure/active-directory/develop/application-consent-experience)响应逻辑应用在首次运行期间提交的请求
    
-如果用户不是安全管理员角色的成员，则登录 Microsoft Graph Security 连接器的用户帐户必须是被分配的 Azure AD 安全读取者角色。 请参阅[向用户分配 Azure AD 角色](https://docs.microsoft.com/graph/security-authorization#assign-azure-ad-roles-to-users)。
+如果用户不是安全管理员角色的成员，则登录 Microsoft Graph Security 连接器的用户帐户必须是被分配的 Azure AD 安全读取者角色。 请参阅[向用户分配 Azure AD 角色](/graph/security-authorization#assign-azure-ad-roles-to-users)。
 
 ## <a name="using-the-microsoft-graph-security-connector"></a>使用 Microsoft Graph Security 连接器
 
@@ -69,13 +69,13 @@ Microsoft Graph Security API 连接了来自 Microsoft 及其生态系统合作�
 
     ![“你当前已登录”对话框](media/desktop-connect-graph-security/SignedIn.PNG)
     
-8. 连接后，“导航器”窗口将显示步骤 4 中所选版本的 [Microsoft Graph 安全性 API](https://aka.ms/graphsecuritydocs) 中提供的警报、安全分数和其他实体。 选择要在 Power BI Desktop 中导入和使用的一个或多个实体。 然后，选择“加载”以获取在步骤 9 之后显示的结果视图。
+8. 连接后，“导航器”窗口将显示步骤 4 中所选版本的 [Microsoft Graph 安全性 API](/graph/security-concept-overview) 中提供的警报、安全分数和其他实体。 选择要在 Power BI Desktop 中导入和使用的一个或多个实体。 然后，选择“加载”以获取在步骤 9 之后显示的结果视图。
 
     ![导航器对话框](media/desktop-connect-graph-security/NavTable.PNG)
     
-9. 如果想使用 Microsoft Graph 安全性 API 进行高级查询，选择“指定自定义 Microsoft Graph 安全性 URL 以筛选结果”。 使用该功能，借助访问 API 所需的权限对 Microsoft Graph 安全性 API 发出 [OData.Feed](https://docs.microsoft.com/power-bi/desktop-connect-odata) 查询。
+9. 如果想使用 Microsoft Graph 安全性 API 进行高级查询，选择“指定自定义 Microsoft Graph 安全性 URL 以筛选结果”。 使用该功能，借助访问 API 所需的权限对 Microsoft Graph 安全性 API 发出 [OData.Feed](./desktop-connect-odata.md) 查询。
 
-   以下示例使用 `https://graph.microsoft.com/v1.0/security/alerts?$filter=Severity eq 'High'` serviceUri。 要了解如何生成查询以筛选、排序或检索最新结果，请参阅 [OData 系统查询选项](https://docs.microsoft.com/graph/query-parameters)。
+   以下示例使用 `https://graph.microsoft.com/v1.0/security/alerts?$filter=Severity eq 'High'` serviceUri。 要了解如何生成查询以筛选、排序或检索最新结果，请参阅 [OData 系统查询选项](/graph/query-parameters)。
 
    ![OdataFeed 示例](media/desktop-connect-graph-security/ODataFeed.PNG)
     

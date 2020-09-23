@@ -8,12 +8,12 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 12/30/2019
 ms.author: v-pemyer
-ms.openlocfilehash: 5120b1ec0ce1acbe746dabe2b11b5653a34a4603
-ms.sourcegitcommit: 2131f7b075390c12659c76df94a8108226db084c
+ms.openlocfilehash: abff4eafc741ea776180752147019cae3c744e2c
+ms.sourcegitcommit: cff93e604e2c5f24e0f03d6dbdcd10c2332aa487
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/03/2020
-ms.locfileid: "87537587"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90964995"
 ---
 # <a name="dax-avoid-using-filter-as-a-filter-argument"></a>DAX：避免使用 FILTER 作为筛选器参数
 
@@ -103,6 +103,6 @@ CALCULATE(
 
 - [数据分析表达式 (DAX) 引用](/dax/)
 - [筛选器函数 (DAX)](/dax/filter-function-dax)
-- 学习路径：[在 Power BI Desktop 中使用 DAX](https://docs.microsoft.com/learn/paths/dax-power-bi/)
+- 学习路径：[在 Power BI Desktop 中使用 DAX](/learn/paths/dax-power-bi/)
 - 是否有任何问题? [尝试咨询 Power BI 社区](https://community.powerbi.com/)
 - 建议？ [提出改进 Power BI 的想法](https://ideas.powerbi.com)

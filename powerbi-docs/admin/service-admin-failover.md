@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 06/18/2020
 ms.author: kfollis
 LocalizationGroup: Administration
-ms.openlocfilehash: 56ace35adf6a005c4370bf692d8851dc015688c0
-ms.sourcegitcommit: e8b12d97076c1387088841c3404eb7478be9155c
+ms.openlocfilehash: a9fca9f27baf51c4e4bafbf93244f0d745ba714b
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/01/2020
-ms.locfileid: "85782335"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90857418"
 ---
 # <a name="power-bi-high-availability-failover-and-disaster-recovery-faq"></a>Power BI 高可用性、故障转移和灾难恢复常见问题解答
 
@@ -55,7 +55,7 @@ Power BI 维护 Azure 数据中心（也称为区域）中每个组件的多个�
 
 一旦确定需要进行故障转移，大约需要 15 分钟才能再次操作 Power BI。 确定故障转移所需的时间因故障的情况而异。 
 
-执行故障转移后，Power BI 使用 Azure 存储异地复制执行故障转移。 此类复制的返回点通常为 15 分钟，但 [Azure 存储不通过 SLA 保证此时间范围](https://docs.microsoft.com/azure/storage/common/storage-redundancy)，因此 Power BI 也无法保证时间范围。 
+执行故障转移后，Power BI 使用 Azure 存储异地复制执行故障转移。 此类复制的返回点通常为 15 分钟，但 [Azure 存储不通过 SLA 保证此时间范围](/azure/storage/common/storage-redundancy)，因此 Power BI 也无法保证时间范围。 
 
 ## <a name="what-happens-to-workspaces-and-reports-if-my-premium-capacity-becomes-unavailable"></a>如果高级容量不可用，工作区和报表会发生什么情况？ 
 

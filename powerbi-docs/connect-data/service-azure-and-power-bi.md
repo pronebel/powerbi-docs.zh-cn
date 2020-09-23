@@ -9,12 +9,12 @@ ms.subservice: powerbi-service
 ms.topic: how-to
 ms.date: 05/08/2019
 LocalizationGroup: Data from databases
-ms.openlocfilehash: 2fcb9b7a7571513eac8fb97b12e60f67a5ac9cb3
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: c7dceceaaf063ffe4b379595cfc010e4eda2ae53
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85230899"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90858141"
 ---
 # <a name="azure-and-power-bi"></a>Azure 和 Power BI
 
@@ -66,4 +66,4 @@ Power BI 拥有多种 Azure 连接可用，而且使用这些服务创建的商�
 
 ## <a name="what-could-you-do-with-azure-and-power-bi"></a>Azure 和 Power BI 可以用来做什么？
 
-**Azure** 和 **Power BI** 可以在各种场景下组合，其可能性和机遇与你的业务一样独一无二。 有关“Azure 服务”的详细信息  ，请查看此[概览页](https://docs.microsoft.com/azure/machine-learning/team-data-science-process/plan-your-environment)，其中会介绍**使用 Azure 的数据分析场景**，并可以了解如何将数据源转换为推动业务的信息。
+**Azure** 和 **Power BI** 可以在各种场景下组合，其可能性和机遇与你的业务一样独一无二。 有关“Azure 服务”的详细信息  ，请查看此[概览页](/azure/machine-learning/team-data-science-process/plan-your-environment)，其中会介绍**使用 Azure 的数据分析场景**，并可以了解如何将数据源转换为推动业务的信息。
