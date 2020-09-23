@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: how-to
 ms.date: 01/16/2020
-ms.openlocfilehash: a6c668ad08b3b56eeb92919f37b021a77100ceee
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 049f6f563c9ac6e7494b0680b69e0df8909304d4
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85239028"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90861880"
 ---
 # <a name="install-power-bi-report-server"></a>安装 Power BI 报表服务器
 
@@ -93,9 +93,9 @@ ms.locfileid: "85239028"
 
 ## <a name="configure-your-report-server"></a>配置报表服务器
 
-在安装程序中选择“配置报表服务器”  后，便会看到 Reporting Services 配置管理器。 有关详细信息，请参阅 [Reporting Services 配置管理器](https://docs.microsoft.com/sql/reporting-services/install-windows/reporting-services-configuration-manager-native-mode)。
+在安装程序中选择“配置报表服务器”  后，便会看到 Reporting Services 配置管理器。 有关详细信息，请参阅 [Reporting Services 配置管理器](/sql/reporting-services/install-windows/reporting-services-configuration-manager-native-mode)。
 
-若要完成 Reporting Services 的初始配置，请[创建报表服务器数据库](https://docs.microsoft.com/sql/reporting-services/install-windows/ssrs-report-server-create-a-report-server-database)。 若要完成此步骤，必须要有 SQL Server 数据库服务器。
+若要完成 Reporting Services 的初始配置，请[创建报表服务器数据库](/sql/reporting-services/install-windows/ssrs-report-server-create-a-report-server-database)。 若要完成此步骤，必须要有 SQL Server 数据库服务器。
 
 ### <a name="creating-a-database-on-a-different-server"></a>在其他服务器上创建数据库
 
@@ -109,7 +109,7 @@ ms.locfileid: "85239028"
 
 ![配置报表服务器服务帐户](media/install-report-server/pbireportserver-configure-account.png)
 
-有关详细信息，请参阅[配置报表服务器服务帐户](https://docs.microsoft.com/sql/reporting-services/install-windows/configure-the-report-server-service-account-ssrs-configuration-manager)。
+有关详细信息，请参阅[配置报表服务器服务帐户](/sql/reporting-services/install-windows/configure-the-report-server-service-account-ssrs-configuration-manager)。
 
 ## <a name="windows-service"></a>Windows 服务
 
@@ -143,23 +143,23 @@ URL 预留由前缀、主机名、端口和虚拟目录组成：
 
 ## <a name="additional-configuration"></a>其他配置
 
-* 若要配置与 Power BI 服务的集成，以便将报表项固定到 Power BI 仪表板中，请参阅[与 Power BI 服务集成](https://docs.microsoft.com/sql/reporting-services/install-windows/power-bi-report-server-integration-configuration-manager)。
-* 若要配置电子邮件来处理订阅，请参阅[电子邮件设置](https://docs.microsoft.com/sql/reporting-services/install-windows/e-mail-settings-reporting-services-native-mode-configuration-manager)和[报表服务器中的电子邮件传送](https://docs.microsoft.com/sql/reporting-services/subscriptions/e-mail-delivery-in-reporting-services)。
-* 若要将 Web 门户配置为允许用户在报表计算机上进行访问，以便查看和管理报表，请参阅[配置防火墙以保护报表服务器访问](https://docs.microsoft.com/sql/reporting-services/report-server/configure-a-firewall-for-report-server-access)和[配置报表服务器以供远程管理](https://docs.microsoft.com/sql/reporting-services/report-server/configure-a-report-server-for-remote-administration)。
-* 有关在 SQL Server Management Studio 中设置报表服务器系统属性的详细信息，请参阅[服务器属性高级页](https://docs.microsoft.com/sql/reporting-services/tools/server-properties-advanced-page-reporting-services)。 除非另外指定，否则选项将应用于 Power BI 报表服务器和 SQL Server Reporting Services。
+* 若要配置与 Power BI 服务的集成，以便将报表项固定到 Power BI 仪表板中，请参阅[与 Power BI 服务集成](/sql/reporting-services/install-windows/power-bi-report-server-integration-configuration-manager)。
+* 若要配置电子邮件来处理订阅，请参阅[电子邮件设置](/sql/reporting-services/install-windows/e-mail-settings-reporting-services-native-mode-configuration-manager)和[报表服务器中的电子邮件传送](/sql/reporting-services/subscriptions/e-mail-delivery-in-reporting-services)。
+* 若要将 Web 门户配置为允许用户在报表计算机上进行访问，以便查看和管理报表，请参阅[配置防火墙以保护报表服务器访问](/sql/reporting-services/report-server/configure-a-firewall-for-report-server-access)和[配置报表服务器以供远程管理](/sql/reporting-services/report-server/configure-a-report-server-for-remote-administration)。
+* 有关在 SQL Server Management Studio 中设置报表服务器系统属性的详细信息，请参阅[服务器属性高级页](/sql/reporting-services/tools/server-properties-advanced-page-reporting-services)。 除非另外指定，否则选项将应用于 Power BI 报表服务器和 SQL Server Reporting Services。
 
 ## <a name="next-steps"></a>后续步骤
 
 [管理员概述](admin-handbook-overview.md)  
 [如何查找报表服务器产品密钥](find-product-key.md)  
 [安装更适合 Power BI 报表服务器的 Power BI Desktop](install-powerbi-desktop.md)  
-[验证 Reporting Services 安装](https://docs.microsoft.com/sql/reporting-services/install-windows/verify-a-reporting-services-installation)  
-[配置报表服务器服务帐户](https://docs.microsoft.com/sql/reporting-services/install-windows/configure-the-report-server-service-account-ssrs-configuration-manager)  
-[配置报表服务器 URL](https://docs.microsoft.com/sql/reporting-services/install-windows/configure-report-server-urls-ssrs-configuration-manager)  
-[配置报表服务器数据库连接](https://docs.microsoft.com/sql/reporting-services/install-windows/configure-a-report-server-database-connection-ssrs-configuration-manager)  
-[初始化报表服务器](https://docs.microsoft.com/sql/reporting-services/install-windows/ssrs-encryption-keys-initialize-a-report-server)  
-[在报表服务器上配置 SSL 连接](https://docs.microsoft.com/sql/reporting-services/security/configure-ssl-connections-on-a-native-mode-report-server)  
-[配置 Windows 服务帐户和权限](https://docs.microsoft.com/sql/database-engine/configure-windows/configure-windows-service-accounts-and-permissions)  
+[验证 Reporting Services 安装](/sql/reporting-services/install-windows/verify-a-reporting-services-installation)  
+[配置报表服务器服务帐户](/sql/reporting-services/install-windows/configure-the-report-server-service-account-ssrs-configuration-manager)  
+[配置报表服务器 URL](/sql/reporting-services/install-windows/configure-report-server-urls-ssrs-configuration-manager)  
+[配置报表服务器数据库连接](/sql/reporting-services/install-windows/configure-a-report-server-database-connection-ssrs-configuration-manager)  
+[初始化报表服务器](/sql/reporting-services/install-windows/ssrs-encryption-keys-initialize-a-report-server)  
+[在报表服务器上配置 SSL 连接](/sql/reporting-services/security/configure-ssl-connections-on-a-native-mode-report-server)  
+[配置 Windows 服务帐户和权限](/sql/database-engine/configure-windows/configure-windows-service-accounts-and-permissions)  
 [Power BI 报表服务器的浏览器支持](browser-support.md)
 
 更多问题？ [尝试咨询 Power BI 社区](https://community.powerbi.com/)

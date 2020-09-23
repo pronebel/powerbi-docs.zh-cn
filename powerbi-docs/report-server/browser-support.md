@@ -8,12 +8,12 @@ ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 10/24/2018
 ms.author: maggies
-ms.openlocfilehash: 724bd7a9a11c42520c520019f1c4a67415aa5487
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 264eb0c9079e1f54d53aeb41a1ef73016c2bf1b4
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "73874304"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90859265"
 ---
 # <a name="browser-support-for-power-bi-report-server"></a>Power BI 报表服务器的浏览器支持
 了解支持使用哪些版本的浏览器来管理和查看 Power BI 报表服务器和报表查看器控件。
@@ -91,12 +91,12 @@ Your browser does not support scripts or has been configured to not allow script
  如果选择在没有脚本支持的情况下查看报表，报表以 HTML 格式呈现，不含报表工具栏和文档结构图等报表查看器功能。
 
 > [!NOTE]
-> 报表工具栏属于 HTML 查看器组件。 默认情况下，此工具栏显示在浏览器窗口中呈现的每个报表的顶部。 报表查看器的功能包括在报表中搜索信息、滚动到特定页、调整页面大小以便查看报表。 有关报表工具栏或 HTML 查看器的详细信息，请参阅 [HTML 查看器和报表工具栏](https://docs.microsoft.com/sql/reporting-services/html-viewer-and-the-report-toolbar)。
+> 报表工具栏属于 HTML 查看器组件。 默认情况下，此工具栏显示在浏览器窗口中呈现的每个报表的顶部。 报表查看器的功能包括在报表中搜索信息、滚动到特定页、调整页面大小以便查看报表。 有关报表工具栏或 HTML 查看器的详细信息，请参阅 [HTML 查看器和报表工具栏](/sql/reporting-services/html-viewer-and-the-report-toolbar)。
 > 
 > 
 
 ## <a name="browser-support-for-report-viewer-web-server-controls-in-visual-studio"></a>Visual Studio 中的报表查看器 Web 服务器控件的浏览器支持
-报表查看器 Web 服务器控件用于在 ASP.NET Web 应用中嵌入报表功能。 若要详细了解如何获取报表查看器控件，请参阅[使用报表查看器控件集成 Reporting Services - 入门](https://docs.microsoft.com/sql/reporting-services/application-integration/integrating-reporting-services-using-reportviewer-controls-get-started)。
+报表查看器 Web 服务器控件用于在 ASP.NET Web 应用中嵌入报表功能。 若要详细了解如何获取报表查看器控件，请参阅[使用报表查看器控件集成 Reporting Services - 入门](/sql/reporting-services/application-integration/integrating-reporting-services-using-reportviewer-controls-get-started)。
 
 请使用已启用脚本支持的浏览器。 如果浏览器无法运行脚本，则无法查看报表。
 
@@ -114,7 +114,6 @@ Windows 7、8.1、10；Windows Server 2008 R2、2012、2012 R2
 [管理员概述](admin-handbook-overview.md)  
 [安装 Power BI 报表服务器](install-report-server.md)  
 [下载报表生成器](https://www.microsoft.com/download/details.aspx?id=53613)  
-[下载 SQL Server Data Tools (SSDT)](https://go.microsoft.com/fwlink/?LinkID=616714)
+[下载 SQL Server Data Tools (SSDT)](/sql/ssdt/download-sql-server-data-tools-ssdt)
 
 更多问题？ [尝试咨询 Power BI 社区](https://community.powerbi.com/)
-

@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 04/3/2019
 ms.author: gepopell
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 05db20b2f83f10409339fad949874fc1076a6b98
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 06b117a271671092a94aa8e7994269344b444178
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83285960"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90859603"
 ---
 # <a name="trusted-third-party-connectors"></a>受信任的第三方连接器
 
@@ -24,7 +24,7 @@ ms.locfileid: "83285960"
 
 特定连接器的开发人员可以使用证书对其进行签名，并提供不削弱安全设置而进行安全加载所需的信息。
 
-如果想要详细了解安全设置，可在[此处](https://docs.microsoft.com/power-bi/desktop-connector-extensibility)了解详细信息。
+如果想要详细了解安全设置，可在[此处](./desktop-connector-extensibility.md)了解详细信息。
 
 ## <a name="using-the-registry-to-trust-third-party-connectors"></a>使用注册表信任第三方连接器
 
@@ -46,4 +46,4 @@ ms.locfileid: "83285960"
 
 ## <a name="how-to-sign-connectors"></a>如何对连接器进行签名
 
-如果有需要你或开发人员签名的连接器，可以在[这些](https://docs.microsoft.com/power-query/handlingconnectorsigning) Power Query 文档中了解相关信息。
+如果有需要你或开发人员签名的连接器，可以在[这些](/power-query/handlingconnectorsigning) Power Query 文档中了解相关信息。

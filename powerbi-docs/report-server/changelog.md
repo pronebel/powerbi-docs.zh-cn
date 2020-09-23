@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 07/08/2020
-ms.openlocfilehash: 1263de975319b7b0e2ef5123d985fa50a126d680
-ms.sourcegitcommit: cfcde5ff2421be35dc1efc9e71ce2013f55ec78f
+ms.openlocfilehash: 3be821bfaad91ede2a7348e35c06850c81ddf1b4
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/18/2020
-ms.locfileid: "86459591"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90859235"
 ---
 # <a name="change-log-for-power-bi-report-server"></a>Power BI 报表服务器的更改日志
 
@@ -32,7 +32,7 @@ ms.locfileid: "86459591"
             - 修复了在将模糊匹配用于合并查询时刷新失败的问题。
     - *版本：1.8.7450.37410（内部版本 15.0.1103.227），发布日期：* 2020 年 5 月 27 日
          - 功能
-            -  添加了对可自定义目录连接池大小的支持（有关详细信息，请参阅 [MaxCatalogConnectionPoolSizePerProcess 设置](https://docs.microsoft.com/sql/reporting-services/report-server/rsreportserver-config-configuration-file?view=sql-server-ver15#bkmk_service)）。
+            -  添加了对可自定义目录连接池大小的支持（有关详细信息，请参阅 [MaxCatalogConnectionPoolSizePerProcess 设置](/sql/reporting-services/report-server/rsreportserver-config-configuration-file#bkmk_service)）。
             -  改进了在执行刷新操作期间查看报表时的行为。
         - 安全更新
         - Bug 修复
@@ -65,7 +65,7 @@ ms.locfileid: "86459591"
            -  修复了以下问题：对于某些数据源，Power BI 报表无法上传
            -  修复了门户中的 Power BI 报表服务器桌面链接下载位置
            -  修复了用于 Excel 呈现的 DynamicImageDPI
-           -  修复了以下问题：在某些多用户方案中，Oracle 连接使用不正确的线程区域性（有关详细信息，请参阅 [UseInstalledUICulture 文档](https://docs.microsoft.com/power-bi/report-server/connect-data-sources)）
+           -  修复了以下问题：在某些多用户方案中，Oracle 连接使用不正确的线程区域性（有关详细信息，请参阅 [UseInstalledUICulture 文档](./connect-data-sources.md)）
            -  修复了以下问题：CustomHeaders 默认值导致报表嵌入失败
            -  修复了以下问题：在某些情况下，生成的 SQL 参数名称不正确
     - *版本：1.6.7327.3007（内部版本 15.0.1102.759），发布日期：2020 年 1 月 23 日*
@@ -351,7 +351,7 @@ ms.locfileid: "86459591"
 
     - *内部版本 14.0.600.305，发布日期：2017 年 9 月 19 日*  
         - Bug 修复
-            - 更新到最新的[必应地图 Web 控件](https://msdn.microsoft.com/library/mt712542.aspx)
+            - 更新到最新的[必应地图 Web 控件](/bingmaps/v8-web-control/)
 
     - *内部版本 14.0.600.301，发布日期：2017 年 7 月 11 日*
         - Bug 修复
@@ -373,6 +373,6 @@ ms.locfileid: "86459591"
 [管理员概述](admin-handbook-overview.md)  
 [安装 Power BI 报表服务器](install-report-server.md)  
 [下载报表生成器](https://www.microsoft.com/download/details.aspx?id=53613)  
-[下载 SQL Server Data Tools (SSDT)](https://go.microsoft.com/fwlink/?LinkID=616714)
+[下载 SQL Server Data Tools (SSDT)](/sql/ssdt/download-sql-server-data-tools-ssdt)
 
 更多问题？ [尝试咨询 Power BI 社区](https://community.powerbi.com/)

@@ -9,12 +9,12 @@ ms.subservice: powerbi-admin
 ms.topic: conceptual
 ms.date: 09/09/2019
 LocalizationGroup: Administration
-ms.openlocfilehash: 6e006bc858ad9d82073ced7929c87920da6559ab
-ms.sourcegitcommit: 181679a50c9d7f7faebcca3a3fc55461f594d9e7
+ms.openlocfilehash: ee7954cff7863ff58370bbe1e58f26c64644c8e8
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/07/2020
-ms.locfileid: "86034151"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90857050"
 ---
 # <a name="power-bi-security"></a>Power BI 安全
 
@@ -61,10 +61,10 @@ Power BI 的平台安全还包括多租户环境安全、网络安全和添加�
 
 ## <a name="enforcing-tls-version-usage"></a>强制使用特定 TLS 版本
 
-网络和 IT 管理员可以强制要求为其网络上的任何安全通信使用当前的 TLS（传输层安全性）。 Windows 通过 Microsoft Schannel 提供程序为 TLS 版本提供支持，如 [TLS Schannel SSP 文章中所述](https://docs.microsoft.com/windows/desktop/SecAuthN/protocols-in-tls-ssl--schannel-ssp-)。
+网络和 IT 管理员可以强制要求为其网络上的任何安全通信使用当前的 TLS（传输层安全性）。 Windows 通过 Microsoft Schannel 提供程序为 TLS 版本提供支持，如 [TLS Schannel SSP 文章中所述](/windows/desktop/SecAuthN/protocols-in-tls-ssl--schannel-ssp-)。
 
-可通过以管理方式设置注册表项来执行此强制操作。 [管理 AD FS 中的 SSL 协议](https://docs.microsoft.com/windows-server/identity/ad-fs/operations/manage-ssl-protocols-in-ad-fs)一文中对此强制操作进行了介绍。 
+可通过以管理方式设置注册表项来执行此强制操作。 [管理 AD FS 中的 SSL 协议](/windows-server/identity/ad-fs/operations/manage-ssl-protocols-in-ad-fs)一文中对此强制操作进行了介绍。 
 
 **Power BI Desktop** 遵循这些文章中所述的注册表项设置，并且仅使用这些注册表设置所允许的 TLS 版本（如有）来创建连接。
 
-有关设置这些注册表项的详细信息，请参阅 [TLS 注册表设置](https://docs.microsoft.com/windows-server/security/tls/tls-registry-settings)一文。
+有关设置这些注册表项的详细信息，请参阅 [TLS 注册表设置](/windows-server/security/tls/tls-registry-settings)一文。

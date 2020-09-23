@@ -8,12 +8,12 @@ ms.subservice: powerbi-report-server
 ms.topic: how-to
 ms.date: 06/10/2020
 ms.author: davidi
-ms.openlocfilehash: 3814c0532d94af3265bd608fc7837df982f9b6c4
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 7bc3b77a8badafe1c9660af347a74214176690ac
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85236090"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90859028"
 ---
 # <a name="how-to-configure-power-bi-report-scheduled-refresh"></a>如何配置 Power BI 报表计划的刷新
 若要刷新 Power BI 报表服务器的 Power BI 报表中的数据，必须创建计划的刷新计划。 在报表服务器上的 Power BI 报表的“管理”区域中创建此计划。
@@ -21,7 +21,7 @@ ms.locfileid: "85236090"
 ![Power BI 报表成功的计划刷新](media/configure-scheduled-refresh/scheduled-refresh-success.png)
 
 ## <a name="configure-data-source-credentials"></a>配置数据源凭据
-你必须具有必要的权限才能创建计划的刷新。 权限在报表服务器的角色定义中定义。 有关详细信息，请参阅 SQL Server Reporting Services 文档中的[角色定义 - 预定义角色](https://docs.microsoft.com/sql/reporting-services/security/role-definitions-predefined-roles)。
+你必须具有必要的权限才能创建计划的刷新。 权限在报表服务器的角色定义中定义。 有关详细信息，请参阅 SQL Server Reporting Services 文档中的[角色定义 - 预定义角色](/sql/reporting-services/security/role-definitions-predefined-roles)。
 
 在创建计划数据刷新计划之前，需要为在 Power BI 报表中使用的“每个数据源”设置凭据。
 
@@ -86,9 +86,8 @@ ms.locfileid: "85236090"
 若要查看当前的状态，必须刷新网页。 该状态不会自动更改。
 
 ## <a name="next-steps"></a>后续步骤
-若要了解有关创建和修改计划的详细信息，请参阅[创建、修改和删除计划](https://docs.microsoft.com/sql/reporting-services/subscriptions/create-modify-and-delete-schedules)。
+若要了解有关创建和修改计划的详细信息，请参阅[创建、修改和删除计划](/sql/reporting-services/subscriptions/create-modify-and-delete-schedules)。
 
 有关如何对计划的刷新进行故障排除的信息，请参阅[对 Power BI 报表服务器中计划的刷新进行故障排除](scheduled-refresh-troubleshoot.md)。
 
 更多问题？ [尝试咨询 Power BI 社区](https://community.powerbi.com/)
-

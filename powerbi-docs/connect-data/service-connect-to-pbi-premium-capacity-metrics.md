@@ -8,19 +8,19 @@ ms.topic: how-to
 ms.date: 05/18/2020
 ms.author: painbar
 LocalizationGroup: Connect to services
-ms.openlocfilehash: eb8d7d59e52414620aa888230af59ef98da9e5af
-ms.sourcegitcommit: 13c4bec679313f2951f1833033316cb8176da8a1
+ms.openlocfilehash: 2db7cce57408fa988c9a32057d6f1f880bc55126
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/26/2020
-ms.locfileid: "88937622"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90861949"
 ---
 # <a name="connect-to-power-bi-premium-capacity-metrics"></a>连接到 Power BI Premium Capacity Metrics
 监视容量对于正确决定如何充分利用高级容量资源至关重要。 Power BI Premium Capacity Metrics 应用提供有关容量表现的深度信息。
 
 ![Power BI Premium Capacity Metrics 应用报表](media/service-connect-to-pbi-premium-capacity-metrics/service-pbi-premium-capacity-metrics-app-report.png)
 
-本文介绍如何安装应用以及如何连接到数据源。 有关报表内容及其使用方式，请参阅[使用应用监视 Premium 容量](../service-admin-premium-monitor-capacity.md)和 [Premium Capacity Metrics 应用博客文章](https://powerbi.microsoft.com/blog/premium-capacity-metrics-app-new-health-center-with-kpis-to-explore-relevant-metrics-and-steps-to-mitigate-issues/)。
+本文介绍如何安装应用以及如何连接到数据源。 有关报表内容及其使用方式，请参阅[使用应用监视 Premium 容量](../admin/service-admin-premium-monitor-capacity.md)和 [Premium Capacity Metrics 应用博客文章](https://powerbi.microsoft.com/blog/premium-capacity-metrics-app-new-health-center-with-kpis-to-explore-relevant-metrics-and-steps-to-mitigate-issues/)。
 
 安装该应用并连接到数据源后，可以根据需要对报表进行自定义。 然后可以将其分发给组织中的同事。
 

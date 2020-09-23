@@ -9,12 +9,12 @@ ms.subservice: powerbi-admin
 ms.topic: how-to
 ms.date: 05/11/2020
 LocalizationGroup: Premium
-ms.openlocfilehash: 829de249b71076ccd1ed2a60348170e93b68e507
-ms.sourcegitcommit: 64139587061136a43c5aea3b6db4d1a94e4e7795
+ms.openlocfilehash: 8e8f1c143f65b1974364a8a1c9c55e132a4131c4
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/14/2020
-ms.locfileid: "88204424"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90857027"
 ---
 # <a name="configure-workloads-in-a-premium-capacity"></a>在高级容量中配置工作负载
 
@@ -198,7 +198,7 @@ ms.locfileid: "88204424"
 
 ### <a name="rest-api"></a>REST API
 
-可以使用[容量](https://docs.microsoft.com/rest/api/power-bi/capacities) REST API 启用工作负载并将其分配给容量。
+可以使用[容量](/rest/api/power-bi/capacities) REST API 启用工作负载并将其分配给容量。
 
 ## <a name="monitoring-workloads"></a>监视工作负载
 

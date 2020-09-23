@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 04/02/2019
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: 05dcae0a2277ee84e6c8bfbdb51532252c50c896
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 23c15b49bfd6b069181b5d860637e00315376059
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85238904"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90861696"
 ---
 # <a name="add-a-cdm-folder-to-power-bi-as-a-dataflow-preview"></a>将 CDM 文件夹添加到 Power BI 作为数据流（预览）
 
@@ -26,7 +26,7 @@ ms.locfileid: "85238904"
 
 * 管理员必须先在 Power BI 中关联 ADLS Gen2 存储帐户，然后才能使用它。 请参阅[连接用于数据流存储的 Azure Data Lake Storage Gen2](service-dataflows-connect-azure-data-lake-storage-gen2.md)，了解如何将 ADLS Gen2 帐户关联到 Power BI。
 * 从 CDM 文件夹创建数据流  仅适用于[新的工作区体验](../collaborate-share/service-create-the-new-workspaces.md)。 
-* 将 CDM 文件夹添加到 Power BI 要求用户添加文件夹以便拥有 [CDM 文件夹及其文件的授权](https://go.microsoft.com/fwlink/?linkid=2029121)。
+* 将 CDM 文件夹添加到 Power BI 要求用户添加文件夹以便拥有 [CDM 文件夹及其文件的授权](./service-dataflows-azure-data-lake-integration.md)。
 * 必须授予对 CDM 文件夹中的所有文件和文件夹的读取和执行权限，才能将它们添加到 Power BI。
 
 以下部分介绍了如何从 CDM 文件夹创建数据流。
@@ -86,7 +86,7 @@ Power BI Desktop  客户无法访问存储在 Azure Data Lake Storage Gen2 帐�
 
   ![尝试使用数据流时出错](media/service-dataflows-configure-workspace-storage-settings/dataflow-storage-settings_08.jpg)
 
-要解决此问题，必须授予 Ben 对 CDM 文件夹及其文件的读取权限。 可以在[本文](https://go.microsoft.com/fwlink/?linkid=2029121)中了解有关如何授予 CDM 文件夹访问权限的详细信息。
+要解决此问题，必须授予 Ben 对 CDM 文件夹及其文件的读取权限。 可以在[本文](./service-dataflows-azure-data-lake-integration.md)中了解有关如何授予 CDM 文件夹访问权限的详细信息。
 
 
 ## <a name="next-steps"></a>后续步骤
@@ -107,13 +107,13 @@ Power BI Desktop  客户无法访问存储在 Azure Data Lake Storage Gen2 帐�
 * [Power BI 数据流的开发人员资源](service-dataflows-developer-resources.md)
 
 有关 Azure 存储的详细信息，可以阅读以下这些文章：
-* [Azure 存储安全指南](https://docs.microsoft.com/azure/storage/common/storage-security-guide)
+* [Azure 存储安全指南](/azure/storage/common/storage-security-guide)
 * [配置计划刷新](../connect-data/refresh-scheduled-refresh.md)
 * [开始使用 Azure 数据服务中的 github 示例](https://aka.ms/cdmadstutorial)
 
 有关通用数据模型的详细信息，可以阅读其概述文章：
-* [通用数据模型 - 概述](https://docs.microsoft.com/powerapps/common-data-model/overview)
-* [CDM 文件夹](https://go.microsoft.com/fwlink/?linkid=2045304)
-* [CDM 模型文件定义](https://go.microsoft.com/fwlink/?linkid=2045521)
+* [通用数据模型 - 概述](/powerapps/common-data-model/overview)
+* [CDM 文件夹](/common-data-model/data-lake)
+* [CDM 模型文件定义](/common-data-model/model-json)
 
 也可以随时尝试[通过 Power BI 社区提问](https://community.powerbi.com/)。

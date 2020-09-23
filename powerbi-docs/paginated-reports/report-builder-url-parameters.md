@@ -9,12 +9,12 @@ ms.author: maggies
 ms.reviewer: cfinlan
 ms.custom: ''
 ms.date: 09/09/2020
-ms.openlocfilehash: f81cf6625f02f71b1ccf8bcd2c442ded3329083d
-ms.sourcegitcommit: 002c140d0eae3137a137e9a855486af6c55ad957
+ms.openlocfilehash: fc54d60be34cd9d40cf1ea715aa84f2f1ef6f9de
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/10/2020
-ms.locfileid: "89642397"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90859396"
 ---
 # <a name="url-parameters-in-paginated-reports-in-power-bi"></a>Power BI 的分页报表中的 URL 参数
 
@@ -170,7 +170,7 @@ XML：
 - rdl:Encoding=string
 - rdl:Schema=true/false
 
-**在同一浏览器窗口中打开超链接** 你可以将“rdl:targetSameWindow=true”追加到报表中的超链接 URL，使 Power BI 在同一浏览器窗口中打开此超链接。 有关将超链接添加到报表的信息，请参阅 SQL Server Reporting Services 文档中的[向 URL 添加超链接](https://docs.microsoft.com/sql/reporting-services/report-design/add-a-hyperlink-to-a-url-report-builder-and-ssrs)。
+**在同一浏览器窗口中打开超链接** 你可以将“rdl:targetSameWindow=true”追加到报表中的超链接 URL，使 Power BI 在同一浏览器窗口中打开此超链接。 有关将超链接添加到报表的信息，请参阅 SQL Server Reporting Services 文档中的[向 URL 添加超链接](/sql/reporting-services/report-design/add-a-hyperlink-to-a-url-report-builder-and-ssrs)。
 
 ## <a name="next-steps"></a>后续步骤
 

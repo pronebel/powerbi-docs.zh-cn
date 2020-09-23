@@ -10,12 +10,12 @@ ms.date: 04/08/2020
 ms.author: kfollis
 ms.custom: licensing support
 LocalizationGroup: Administration
-ms.openlocfilehash: 899055ea26d1f36592c426ba402aa363b65bfa15
-ms.sourcegitcommit: 0d0ab427bb71b37c9e5170c515a8f274e1f20c17
+ms.openlocfilehash: 8c5daa2e63b874f1811c3819c60785bdbe93918c
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "87878344"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90856913"
 ---
 # <a name="purchase-and-assign-power-bi-pro-user-licenses"></a>购买和分配 Power BI Pro 用户许可证
 
@@ -29,7 +29,7 @@ Power BI Pro 是一种单独的用户许可证，使用户能够读取他人已�
 本文介绍了如何在 Microsoft 365 管理中心购买 Power BI Pro 用户许可证。 购买许可证后，可以将其分配给 Microsoft 365 管理中心或 Azure 门户中的用户。
 
 > [!NOTE]
-> 从 2020 年 1 月 14 日开始，商业云客户可以使用面向 Power Platform 产品（Power BI、Power Apps 和 Power Automate）的自助服务购买、订阅和许可证管理功能。 有关详细信息，请参阅[自助购买常见问题解答](https://docs.microsoft.com/microsoft-365/commerce/subscriptions/self-service-purchase-faq)。 若要启用或禁用自助购买功能，请参阅[启用或禁用自助注册和购买](/power-bi/admin/service-admin-disable-self-service)。
+> 从 2020 年 1 月 14 日开始，商业云客户可以使用面向 Power Platform 产品（Power BI、Power Apps 和 Power Automate）的自助服务购买、订阅和许可证管理功能。 有关详细信息，请参阅[自助购买常见问题解答](/microsoft-365/commerce/subscriptions/self-service-purchase-faq)。 若要启用或禁用自助购买功能，请参阅[启用或禁用自助注册和购买](./service-admin-disable-self-service.md)。
 
 ### <a name="prerequisites"></a>先决条件
 
@@ -40,7 +40,7 @@ Power BI Pro 是一种单独的用户许可证，使用户能够读取他人已�
 ### <a name="purchase-licenses-in-microsoft-365"></a>在 Microsoft 365 中购买许可证
 
 > [!NOTE]
-> 如果通常通过批量许可协议（例如企业协议）购买许可证，并且想要接收发票而不是使用信用卡或银行帐户进行购买，则需要以不同方式提交订单。 请与 Microsoft 经销商合作，或通过批量许可服务中心来添加或删除许可证。 有关详细信息，请参阅[管理订阅许可证](https://docs.microsoft.com/microsoft-365/commerce/licenses/buy-licenses?view=o365-worldwide)。
+> 如果通常通过批量许可协议（例如企业协议）购买许可证，并且想要接收发票而不是使用信用卡或银行帐户进行购买，则需要以不同方式提交订单。 请与 Microsoft 经销商合作，或通过批量许可服务中心来添加或删除许可证。 有关详细信息，请参阅[管理订阅许可证](/microsoft-365/commerce/licenses/buy-licenses?view=o365-worldwide)。
 
 按照以下步骤在 Microsoft 365 管理中心购买 Power BI Pro 许可证：
 

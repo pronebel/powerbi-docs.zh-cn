@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: how-to
 ms.date: 03/02/2020
-ms.openlocfilehash: 001a66fc20455c207bd6ad2928041ae0861732eb
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 37ab82de16e45f86f2d2aba5113ba4efe6fc383c
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85239603"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90859672"
 ---
 # <a name="create-an-embedded-data-source-for-paginated-reports-in-the-power-bi-service"></a>在 Power BI 服务中为分页报表创建嵌入数据源
 
@@ -59,7 +59,7 @@ ms.locfileid: "85239603"
   
 4.  选择“凭据”  。  
   
-     指定要用于此数据源的凭据。 数据源的所有者将选择支持的凭据类型。 有关详细信息，请参阅[指定报表数据源的凭据和连接信息](https://docs.microsoft.com/sql/reporting-services/report-data/specify-credential-and-connection-information-for-report-data-sources)。
+     指定要用于此数据源的凭据。 数据源的所有者将选择支持的凭据类型。 有关详细信息，请参阅[指定报表数据源的凭据和连接信息](/sql/reporting-services/report-data/specify-credential-and-connection-information-for-report-data-sources)。
   
 5.  选择“确定”。   
   
@@ -93,4 +93,3 @@ ms.locfileid: "85239603"
 
 - [在 Power BI 服务中为分页报表创建嵌入数据集](paginated-reports-create-embedded-dataset.md)
 - [Power BI Premium 中的分页报表是什么？](paginated-reports-report-builder-power-bi.md)
-

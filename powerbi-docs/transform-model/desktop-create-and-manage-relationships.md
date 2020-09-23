@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 05/28/2020
 ms.author: davidi
 LocalizationGroup: Model your data
-ms.openlocfilehash: f241315eecdbb600a798630167913aa1be0079a3
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 5b2e9cc5cb07eebf3befebd1be1686fdbb0f653b
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85239046"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90861811"
 ---
 # <a name="create-and-manage-relationships-in-power-bi-desktop"></a>在 Power BI Desktop 中创建和管理关系
 导入多个表时，你很可能要使用所有这些表中的数据来执行一些分析。 为准确计算结果并在报表中显示正确信息，这些表之间的关系是必需的。 Power BI Desktop 可轻松创建这些关系。 事实上，在大多数情况下，你无需执行任何操作，自动检测功能会为你执行相关操作。 但有时，你可能需要自行创建关系，或者需要对关系进行更改。 无论哪种方法，都有必要了解 Power BI Desktop 中的关系及其创建和编辑方式。
@@ -45,7 +45,7 @@ ms.locfileid: "85239046"
 * 使用“删除重复项”创建具有唯一值的列。 此方法的缺点是删除重复行时信息可能会丢失；而通常重复键（行）是有用的。
 * 将包含不同密钥值列表的中间表添加到模型，该模型会链接到关系中的两个原始列。
 
-有关详细信息，请参阅此 [博客文章](https://blogs.technet.microsoft.com/cansql/2016/12/19/relationships-in-power-bi-fixing-one-of-the-columns-must-have-unique-values-error-message/)。
+有关详细信息，请参阅此 [博客文章](/archive/blogs/cansql/relationships-in-power-bi-fixing-one-of-the-columns-must-have-unique-values-error-message)。
 
 
 ## <a name="edit-a-relationship"></a>编辑关系
@@ -65,7 +65,7 @@ ms.locfileid: "85239046"
 
 **一对多(1:*)** ：在一对多关系中，一个表中的列仅具有特定值的一个实例，而另一个相关表可具有一个值的多个实例。
 
-**多对多(\*:\*)** ：借助复合模型，可以在表之间建立多对多关系，从而消除了表中对唯一值的要求。 它还删除了旧解决办法，如为建立关系而仅引入新表。 有关详细信息，请参阅[具有多对多基数的关系](https://docs.microsoft.com/power-bi/desktop-many-to-many-relationships)。 
+**多对多(\*:\*)** ：借助复合模型，可以在表之间建立多对多关系，从而消除了表中对唯一值的要求。 它还删除了旧解决办法，如为建立关系而仅引入新表。 有关详细信息，请参阅[具有多对多基数的关系](./desktop-many-to-many-relationships.md)。 
 
 有关何时更改基数的详细信息，请参阅[了解其他选项](#understanding-additional-options)。
 
@@ -358,4 +358,3 @@ Power BI Desktop 自动创建关系时，有时会在两个表之间遇到多个
 有时，模型具有多个表格，且各表格之间存在复杂关系。 Power BI Desktop 中的“关系”视图可显示模型中的所有关系及其方向和基数，是一种易于理解且可自定义的关系图。 
 
 若要了解详细信息，请参阅[使用 Power BI Desktop 中的关系视图](desktop-relationship-view.md)。
-

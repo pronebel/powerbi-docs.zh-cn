@@ -8,12 +8,12 @@ ms.topic: conceptual
 ms.assetid: 87ddb651-a1d0-4a42-8ea9-04dea3f6afa4
 author: maggiesMSFT
 ms.author: maggies
-ms.openlocfilehash: 48e81c91a4555b4c8ea847ddffb1413058bbb152
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 3a24724e67a931860296983fe3a116137d3b5361
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "78921139"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90859512"
 ---
 # <a name="expression-examples-in-power-bi-report-builder"></a>Power BI 报表生成器中的表达式示例
 Power BI Report Builder 分页报表中经常使用表达式来控制内容和报表外观。 表达式是用 Microsoft Visual Basic 编写的，可以使用内置函数、自定义代码、报表和组变量以及用户定义的变量。 表达式以等号 (=) 开头。   
@@ -38,7 +38,7 @@ Power BI Report Builder 分页报表中经常使用表达式来控制内容和�
  报表中的许多表达式都包含函数。 可使用这些函数设置数据格式化、应用逻辑和访问报表元数据。 可以编写使用 Microsoft Visual Basic 运行时库以及 `xref:System.Convert` 和 `xref:System.Math` 命名空间中的函数的表达式。 你可以在自定义代码中添加对函数的引用。 还可以使用 Microsoft .NET Framework 中的类，包括 `xref:System.Text.RegularExpressions`。  
   
 ##  <a name="visual-basic-functions"></a><a name="VisualBasicFunctions"></a> Visual Basic 函数  
- 可以使用 Visual Basic 函数来操作文本框中显示的数据或用于参数、属性或报表其他区域的数据。 本部分提供的示例展示其中一些功能。 有关详细信息，请参阅 MSDN 上的 [Visual Basic 运行时库成员](https://go.microsoft.com/fwlink/?LinkId=198941)。  
+ 可以使用 Visual Basic 函数来操作文本框中显示的数据或用于参数、属性或报表其他区域的数据。 本部分提供的示例展示其中一些功能。 有关详细信息，请参阅 MSDN 上的 [Visual Basic 运行时库成员](/dotnet/visual-basic/language-reference/runtime-library-members)。  
   
  .NET Framework 提供许多自定义格式选项，例如，特定日期格式。 有关详细信息，请参阅[格式设置类型](/dotnet/standard/base-types/formatting-types)。  
   
@@ -517,4 +517,3 @@ Power BI Report Builder 分页报表中经常使用表达式来控制内容和�
 ## <a name="next-steps"></a>后续步骤
 
 - [Power BI Premium 中的分页报表是什么？](paginated-reports-report-builder-power-bi.md)
-  

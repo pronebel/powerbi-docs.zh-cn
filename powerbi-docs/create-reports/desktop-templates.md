@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 08/16/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 2b1570176138a38e9856691af7d81f201b055db1
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 955e32e99c4f208bbf3582c32b9e5efee95a8f3a
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85238532"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90861926"
 ---
 # <a name="create-report-templates-for-power-bi-desktop"></a>为 Power BI Desktop 创建报表模板
 
@@ -70,7 +70,7 @@ Power BI 报表模板就这样在指定的文件位置创建，其扩展名为 .
 
 ## <a name="next-steps"></a>后续步骤
 你可能还希望了解**查询参数**：
-* [在 Power BI Desktop 中使用查询参数？](https://docs.microsoft.com/power-query/power-query-query-parameters)
+* [在 Power BI Desktop 中使用查询参数？](/power-query/power-query-query-parameters)
 
 此外，还可使用 Power BI Desktop 执行多种操作。 有关其功能的详细信息，请参阅下列资源：
 
@@ -78,4 +78,4 @@ Power BI 报表模板就这样在指定的文件位置创建，其扩展名为 .
 * [Power BI Desktop 的查询概述](../transform-model/desktop-query-overview.md)
 * [Power BI Desktop 中的数据类型](../connect-data/desktop-data-types.md)
 * [使用 Power BI Desktop 调整和合并数据](../connect-data/desktop-shape-and-combine-data.md)
-* [Power BI Desktop 中的常见查询任务](../transform-model/desktop-common-query-tasks.md)    
+* [Power BI Desktop 中的常见查询任务](../transform-model/desktop-common-query-tasks.md)

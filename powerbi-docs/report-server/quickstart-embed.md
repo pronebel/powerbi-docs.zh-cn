@@ -8,12 +8,12 @@ ms.topic: conceptual
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.custom: mvc
-ms.openlocfilehash: 4f6382b78a02750c76987de4fa911eb8c7d33b50
-ms.sourcegitcommit: 00c0b24d5e80009d18cec6da4fee8a9611bcba04
+ms.openlocfilehash: 9e639c4a22cc4e01c04374289026a7006f33143b
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/29/2020
-ms.locfileid: "87411994"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90861857"
 ---
 # <a name="embed-a-power-bi-report-server-report-using-an-iframe-in-sharepoint-server"></a>在 SharePoint Server 中使用 iFrame 嵌入“Power BI 报表服务器”报表
 
@@ -24,7 +24,7 @@ ms.locfileid: "87411994"
 ## <a name="prerequisites"></a>先决条件
 * 安装和配置 [Power BI 报表服务器](https://powerbi.microsoft.com/report-server/)。
 * 安装[已针对 Power BI 报表服务器进行优化的 Power BI Desktop](install-powerbi-desktop.md)。
-* 已安装和配置 [SharePoint 2013、2016 或 2019 环境](https://docs.microsoft.com/sharepoint/install/install)。
+* 已安装和配置 [SharePoint 2013、2016 或 2019 环境](/sharepoint/install/install)。
 * 仅当文档模式设置为 IE11 (Microsoft Edge) 模式或使用 SharePoint Online 时，才支持 Internet Explorer 11。 可以将其他受支持的浏览器用于本地 SharePoint 和 SharePoint Online。
 
 ## <a name="create-the-power-bi-report-url"></a>创建 Power BI 报表 URL
@@ -101,4 +101,4 @@ ms.locfileid: "87411994"
 - [为 Power BI 报表服务器创建 Power BI 报表](quickstart-create-powerbi-report.md)。  
 - [为 Power BI 报表服务器创建分页报表](quickstart-create-paginated-report.md)。  
 
-更多问题？ [尝试参与 Power BI 社区](https://community.powerbi.com/)。 
+更多问题？ [尝试参与 Power BI 社区](https://community.powerbi.com/)。

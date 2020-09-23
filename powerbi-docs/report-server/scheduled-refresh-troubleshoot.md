@@ -8,12 +8,12 @@ ms.subservice: powerbi-report-server
 ms.topic: troubleshooting
 ms.date: 11/01/2017
 ms.author: maggies
-ms.openlocfilehash: dd7d6a140dd9828a188f22144e31ea89e342c370
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 3ad1488869980c56bfe8dd4973fe60806781510a
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "74698684"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90861788"
 ---
 # <a name="troubleshoot-scheduled-refresh-in-power-bi-report-server"></a>对 Power BI 报表服务器中的计划刷新进行故障排除
 本文将讨论可用于解决 Power BI 报表服务器中计划刷新问题的资源。
@@ -35,9 +35,9 @@ ms.locfileid: "74698684"
 
 如果持续遇到内存压力，则可能需要查看报表服务器的横向扩展部署，以便分散资源负载。 另外，还可以使用 rsreportserver.config 内的 `IsDataModelRefreshService` 设置定义给定的报表服务器用于数据刷新。使用此设置，可以定义一个或多个服务器作为前端服务器来处理按需报表，并将另一组服务器定义为专用于计划的刷新。
 
-有关如何监视 Analysis Services 实例的信息，请参阅[监视 Analysis Services 实例](https://docs.microsoft.com/sql/analysis-services/instances/monitor-an-analysis-services-instance)。
+有关如何监视 Analysis Services 实例的信息，请参阅[监视 Analysis Services 实例](/sql/analysis-services/instances/monitor-an-analysis-services-instance)。
 
-有关 Analysis Services 中内存设置的信息，请参阅[内存属性](https://docs.microsoft.com/sql/analysis-services/server-properties/memory-properties)。
+有关 Analysis Services 中内存设置的信息，请参阅[内存属性](/sql/analysis-services/server-properties/memory-properties)。
 
 ### <a name="kerberos-configuration"></a>Kerberos 配置
 使用 Windows 凭据连接到数据源可能需要配置 Kerberos 约束委派才能建立成功的连接。 有关如何配置 Kerberos 约束委派的详细信息，请参阅[配置 Kerberos 以使用 Power BI 报表](configure-kerberos-powerbi-reports.md)。
@@ -180,7 +180,7 @@ Power BI 报表服务器和 Analysis Services 的默认位置如下所示。
 ### <a name="profiling-the-local-analysis-services-process"></a>分析本地 Analysis Services 进程
 SQL 事件探查器跟踪可以在本地 Analysis Services 进程上运行，以进行诊断。 要连接到本地 Analysis Services 实例，请执行以下操作。
 
-SQL Server Profiler 跟踪包含在 [SQL Server Management Studio (SSMS) 下载](https://docs.microsoft.com/sql/ssms/download-sql-server-management-studio-ssms)中。
+SQL Server Profiler 跟踪包含在 [SQL Server Management Studio (SSMS) 下载](/sql/ssms/download-sql-server-management-studio-ssms)中。
 
 1. 以管理员身份启动 SQL Server Profiler  。
 2. 选择“新建跟踪”  按钮。
@@ -188,7 +188,6 @@ SQL Server Profiler 跟踪包含在 [SQL Server Management Studio (SSMS) 下载]
 4. 在“跟踪属性”  对话框中，选择要捕获的事件，然后选择“运行”  。
 
 ## <a name="lock-pages-in-memory-windows-privilege"></a>锁定内存页 Windows 特权
-如果发现无法呈现 Power BI 报表，则可将“锁定内存页”  特权分配给正在运行 Power BI 报表服务器的服务帐户可能会有所帮助。 有关如何配置“锁定内存页”  的详细信息，请参阅[分配给 Analysis Services 服务帐户的 Windows 特权](https://docs.microsoft.com/sql/analysis-services/instances/configure-service-accounts-analysis-services#bkmk_winpriv)。
+如果发现无法呈现 Power BI 报表，则可将“锁定内存页”  特权分配给正在运行 Power BI 报表服务器的服务帐户可能会有所帮助。 有关如何配置“锁定内存页”  的详细信息，请参阅[分配给 Analysis Services 服务帐户的 Windows 特权](/sql/analysis-services/instances/configure-service-accounts-analysis-services#bkmk_winpriv)。
 
 更多问题？ [尝试咨询 Power BI 社区](https://community.powerbi.com/)
-

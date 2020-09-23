@@ -8,12 +8,12 @@ ms.subservice: powerbi-mobile
 ms.topic: how-to
 ms.date: 03/11/2020
 ms.author: painbar
-ms.openlocfilehash: 2590e5fad227027f7cc2fddf2f93a18b92f39ae3
-ms.sourcegitcommit: 46a340937d9f01c6daba86a4ab178743858722ec
+ms.openlocfilehash: b414457c15155053ff6d316d1147536ec9ca5a8e
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/26/2020
-ms.locfileid: "85393765"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90856636"
 ---
 # <a name="create-a-link-to-a-specific-location-in-the-power-bi-mobile-apps"></a>创建指向 Power BI 移动应用中特定位置的链接
 可以使用链接直接访问 Power BI 中的特定项：报表、仪表板和磁贴。
@@ -100,7 +100,7 @@ https://app.powerbi.com/groups/**groupid comes here**/reports/**reportid comes h
 
 Power BI 中的链接在移动应用中与在 Power BI 服务中以同样的方式工作。
 
-如果要添加指向其他 Power BI 项的报表链接，则只需从浏览器地址栏复制该项 URL。 详细阅读[如何向报表中的文本框添加超链接](https://docs.microsoft.com/power-bi/service-add-hyperlink-to-text-box)。
+如果要添加指向其他 Power BI 项的报表链接，则只需从浏览器地址栏复制该项 URL。 详细阅读[如何向报表中的文本框添加超链接](../../create-reports/service-add-hyperlink-to-text-box.md)。
 
 ## <a name="use-report-url-with-filter"></a>将报表 URL 与筛选器一起使用
 与 Power BI 服务一样，Power BI 移动版应用也支持包含筛选器查询参数的报表 URL。 你可以在 Power BI 移动版应用中打开报表，并将其筛选为特定状态。 例如，此 URL 将打开销售报表并按区域进行筛选
@@ -109,7 +109,7 @@ Power BI 中的链接在移动应用中与在 Power BI 服务中以同样的方�
 https://app.powerbi.com/groups/me/reports/**report guid comes here**/ReportSection3?ctid=**organization id comes here**&filter=Store/Territory eq 'NC'
 ```
 
-阅读更多有关[如何生成查询参数以筛选报表](https://docs.microsoft.com/power-bi/service-url-filters)的信息。
+阅读更多有关[如何生成查询参数以筛选报表](../../collaborate-share/service-url-filters.md)的信息。
 
 ## <a name="next-steps"></a>后续步骤
 你的反馈有助于我们决定在未来实现什么，所以不要忘记为你希望在 Power BI 移动应用中实现的其他功能投票。 
@@ -118,4 +118,3 @@ https://app.powerbi.com/groups/me/reports/**report guid comes here**/ReportSecti
 * 关注 Twitter 上的 @MSPowerBI
 * 加入 [Power BI 社区](https://community.powerbi.com/)的对话
 * [什么是 Power BI？](../../fundamentals/power-bi-overview.md)
-

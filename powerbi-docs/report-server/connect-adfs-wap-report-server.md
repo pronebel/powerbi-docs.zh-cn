@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: how-to
 ms.date: 01/14/2020
-ms.openlocfilehash: 2bc2e026acf0f895796158408afa6449c93ce254
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: e9e2c44bdcbeabc28a95bd62bf6ba6763ae61442
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85236179"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90859051"
 ---
 # <a name="use-web-application-proxy-and-active-directory-federated-services---power-bi-report-server"></a>使用 Web 应用程序代理和 Active Directory 联合身份验证服务 - Power BI 报表服务器
 
@@ -40,7 +40,7 @@ ms.locfileid: "85236179"
 
 SPN 是使用 Kerberos 身份验证的服务的唯一标识符。 确保报表服务器存在正确的 HTTP SPN。
 
-有关如何为报表服务器配置正确的服务主体名称 (SPN) 的信息，请参阅[为报表服务器注册服务主体名称 (SPN)](https://docs.microsoft.com/sql/reporting-services/report-server/register-a-service-principal-name-spn-for-a-report-server)。
+有关如何为报表服务器配置正确的服务主体名称 (SPN) 的信息，请参阅[为报表服务器注册服务主体名称 (SPN)](/sql/reporting-services/report-server/register-a-service-principal-name-spn-for-a-report-server)。
 
 ### <a name="enabling-negotiate-authentication"></a>启用协商身份验证
 
@@ -56,11 +56,11 @@ SPN 是使用 Kerberos 身份验证的服务的唯一标识符。 确保报表�
 </AuthenticationTypes>
 ```
 
-有关详细信息，请参阅[修改 Reporting Services 配置文件](https://docs.microsoft.com/sql/reporting-services/report-server/modify-a-reporting-services-configuration-file-rsreportserver-config)和[在报表服务器上配置 Windows 身份验证](https://docs.microsoft.com/sql/reporting-services/security/configure-windows-authentication-on-the-report-server)。
+有关详细信息，请参阅[修改 Reporting Services 配置文件](/sql/reporting-services/report-server/modify-a-reporting-services-configuration-file-rsreportserver-config)和[在报表服务器上配置 Windows 身份验证](/sql/reporting-services/security/configure-windows-authentication-on-the-report-server)。
 
 ## <a name="2-configure-active-directory-federation-services-ad-fs"></a>2.配置 Active Directory 联合身份验证服务 (AD FS)
 
-需要在环境中的 Windows 2016 服务器上配置 AD FS。 可通过服务器管理器并在“管理”下选择“添加角色和功能”完成配置。 有关详细信息，请参阅 [Active Directory 联合身份验证服务](https://docs.microsoft.com/windows-server/identity/active-directory-federation-services)。
+需要在环境中的 Windows 2016 服务器上配置 AD FS。 可通过服务器管理器并在“管理”下选择“添加角色和功能”完成配置。 有关详细信息，请参阅 [Active Directory 联合身份验证服务](/windows-server/identity/active-directory-federation-services)。
 
 在 AD FS 服务器上，使用 AD FS 管理应用程序，完成以下步骤。
 
@@ -93,7 +93,7 @@ SPN 是使用 Kerberos 身份验证的服务的唯一标识符。 确保报表�
 
 ## <a name="3-configure-web-application-proxy-wap"></a>3.配置 Web 应用程序代理 (WAP)
 
-需要在环境中的服务器上启用 Web 应用程序代理（角色）Windows 角色。 必须在 Windows 2016 服务器上执行此过程。 有关详细信息，请参阅 [Windows Server 2016 中的 Web 应用程序代理](https://docs.microsoft.com/windows-server/remote/remote-access/web-application-proxy/web-application-proxy-windows-server)及[发布使用 AD FS 预身份验证的应用程序](https://docs.microsoft.com/windows-server/remote/remote-access/web-application-proxy/Publishing-Applications-using-AD-FS-Preauthentication)。
+需要在环境中的服务器上启用 Web 应用程序代理（角色）Windows 角色。 必须在 Windows 2016 服务器上执行此过程。 有关详细信息，请参阅 [Windows Server 2016 中的 Web 应用程序代理](/windows-server/remote/remote-access/web-application-proxy/web-application-proxy-windows-server)及[发布使用 AD FS 预身份验证的应用程序](/windows-server/remote/remote-access/web-application-proxy/Publishing-Applications-using-AD-FS-Preauthentication)。
 
 ### <a name="configure-constrained-delegation"></a>配置约束委派
 
@@ -174,4 +174,3 @@ SPN 是使用 Kerberos 身份验证的服务的唯一标识符。 确保报表�
 *[什么是 Power BI 报表服务器？](get-started.md)  
 
 更多问题？ [尝试咨询 Power BI 社区](https://community.powerbi.com/)
-

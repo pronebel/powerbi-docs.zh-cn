@@ -8,12 +8,12 @@ ms.subservice: powerbi-mobile
 ms.topic: how-to
 ms.date: 06/06/2020
 ms.author: painbar
-ms.openlocfilehash: 725890e3650ff05e0b90e7678bb83e0bc5d01050
-ms.sourcegitcommit: e8ed3d120699911b0f2e508dc20bd6a9b5f00580
+ms.openlocfilehash: 941bd2adc63a06089ddf4fb79752557b8c688f71
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/11/2020
-ms.locfileid: "86263008"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90856797"
 ---
 # <a name="get-started-with-the-power-bi-mobile-app-on-android-devices"></a>Android 设备上的 Power BI 移动应用入门
 Android 版 Microsoft Power BI 移动应用提供了 Power BI、Power BI 报表服务器和 Reporting Services 的移动 BI 体验。 通过触控移动设备实现的实时访问，可以随时随地查看本地和云中的公司仪表板，并与之进行交互。 然后，可以浏览仪表板中的数据，并通过电子邮件或短信的方式将数据与同事共享。 
@@ -112,7 +112,7 @@ Power BI 可以在多个运行 Android 5.0 操作系统或更高版本的不同 
 
 ### <a name="reports-and-kpis-on-the-power-bi-report-server-and-reporting-services-web-portals"></a>Power BI 报表服务器/Reporting Services Web 门户中的报表和 KPI
 * 在 Android 设备版 Power BI 移动应用中[查看 Web 门户中的报表和 KPI](mobile-app-ssrs-kpis-mobile-on-premises-reports.md)。
-* [在 Web 门户中创建 KPI](https://docs.microsoft.com/sql/reporting-services/working-with-kpis-in-reporting-services)。
+* [在 Web 门户中创建 KPI](/sql/reporting-services/working-with-kpis-in-reporting-services)。
 * [在 Power BI Desktop 中创建报表，然后将报表发布到 Power BI 报表服务器 Web 门户中](../../report-server/quickstart-create-powerbi-report.md)
 
 ### <a name="see-also"></a>另请参阅
