@@ -269,6 +269,8 @@
               href: ../visuals/power-bi-visualization-combo-chart.md
             - name: 分解树视觉对象
               href: ../visuals/power-bi-visualization-decomposition-tree.md
+            - name: 智能叙述
+              href: ../visuals/power-bi-visualization-smart-narrative.md
             - name: 圆环图
               href: ../visuals/power-bi-visualization-doughnut-charts.md
             - name: 着色地图（等值线图）

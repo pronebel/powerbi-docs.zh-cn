@@ -28,7 +28,9 @@
           href: mobile-apps-data-in-real-world-context.md
         - name: 在移动应用中脱机查看数据
           href: mobile-apps-offline-data.md
-        - name: Power BI for Mixed Reality 应用（预览版）
+        - name: Power BI for HoloLens 2
+          href: mobile-hololens2-app.md
+        - name: Power BI for HoloLens（第 1 代）
           href: mobile-mixed-reality-app.md
     - name: 操作方法
       items:
