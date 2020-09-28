@@ -7,15 +7,15 @@ ms.custom: contperfq4
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: how-to
-ms.date: 05/26/2020
+ms.date: 09/22/2020
 ms.author: davidi
 LocalizationGroup: Reports
-ms.openlocfilehash: 1605e6108b990c95a995eadd9a6b3d03260001f5
-ms.sourcegitcommit: 13c4bec679313f2951f1833033316cb8176da8a1
+ms.openlocfilehash: 845fb523e9045e7a1062d11eebbb5e34bcc29ce3
+ms.sourcegitcommit: ff981839e805f523748b7e71474acccf7bdcb04f
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/26/2020
-ms.locfileid: "88937484"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "91020058"
 ---
 # <a name="analyze-in-excel"></a>在 Excel 中分析
 借助“在 Excel 中分析”，可以将 Power BI 数据集引入到 Excel 中，然后使用数据透视表、图表、切片器和其他 Excel 功能查看这些数据集并与其交互。 若要使用“在 Excel 中分析”必须先从 Power BI 下载并安装该功能，然后选择一个或多个要在 Excel 中使用的数据集。 
@@ -92,6 +92,15 @@ ms.locfileid: "88937484"
     >![受保护视图启用编辑横幅的屏幕截图](media/service-analyze-in-excel/protected-view-enable-editing-banner.png)
     >
     >![受信任文档启用内容横幅的屏幕截图](media/service-analyze-in-excel/trusted-document-enable-content-banner.png)
+
+通过 Excel 使用数据透视表分析 Power BI 时，Power BI 会将敏感度标签继承扩展到 Excel。 在 Excel 中创建数据透视表时，在 Power BI 数据集上应用的敏感度标签会自动应用于 Excel 文件。 
+
+如果数据集上的标签稍后更改为更具限制性的标签，则会在 Excel 中进行数据刷新时自动更新应用于 Excel 文件的标签。 如果数据集上的标签更改为限制较少的标签，则不会发生标签继承或更新。
+
+Excel 中手动设置的敏感度标签不会由数据集的标签自动覆盖。 如果 Excel 文件具有手动设置的敏感度标签，则将显示策略提示，其中包含升级该标签的建议。 
+
+有关详细信息，请参阅[如何在 Power BI 中应用敏感度标签](../admin/service-security-apply-data-sensitivity-labels.md)。
+
 
 ## <a name="use-excel-to-analyze-the-data"></a>使用 Excel 分析数据
 
@@ -177,4 +186,4 @@ Excel 文件有一个 MSOLAP 连接字符串，该字符串连接到 Power BI �
 * [在 Power BI Desktop 中使用切片器](../visuals/power-bi-visualization-slicers.md)
 * [TAnalyze in Excel 故障排除](desktop-troubleshooting-analyze-in-excel.md)
 * [访问 Excel 中的 Power BI 精选表（预览版）](service-excel-featured-tables.md)。
-
+* [如何在 Power BI 中应用敏感度标签](../admin/service-security-apply-data-sensitivity-labels.md)

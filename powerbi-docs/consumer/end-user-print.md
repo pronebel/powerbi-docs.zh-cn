@@ -7,15 +7,15 @@ featuredvideoid: ''
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: how-to
-ms.date: 03/12/2020
+ms.date: 09/19/2020
 ms.author: mihart
 LocalizationGroup: Common tasks
-ms.openlocfilehash: 4c44e7d0ff21f49887a069e0a83686aafecc2f24
-ms.sourcegitcommit: 2131f7b075390c12659c76df94a8108226db084c
+ms.openlocfilehash: 600b8d1447d50a1647097d94df9077299f00cccf
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/03/2020
-ms.locfileid: "87537265"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90860347"
 ---
 # <a name="printing-from-the-power-bi-service"></a>使用 Power BI 服务打印
 
@@ -49,9 +49,9 @@ ms.locfileid: "87537265"
 
 ## <a name="print-a-dashboard"></a>打印仪表板
 1. 打开你想要打印的仪表板。
-2. 在左上角，选择“导出”并选择“打印此页”  。
+2. 在左上角，选择“文件”并选择“打印此页”。
    
-    ![仪表板打印选项](./media/end-user-print/power-bi-dashboard-print.png)
+    ![仪表板打印选项](./media/end-user-print/power-bi-dashboard-print-options.png)
 
 3. 将打开浏览器的“打印”窗口。 选择设置。 例如，如果仪表板的宽度大于长度，则可能需要将布局更改为“横向”  。 选择“打印”  。
    
@@ -62,45 +62,50 @@ ms.locfileid: "87537265"
 
 3. 通过将鼠标悬停在其上方以显示“更多选项”(…)，并选择“以焦点模式打开”或焦点图标![焦点图标](./media/end-user-print/power-bi-focus-icon.png)，从而[以焦点模式打开该磁贴](end-user-focus.md)   。
    
-    ![省略号菜单](./media/end-user-print/power-bi-menu-options.png)
+    ![省略号菜单](./media/end-user-print/power-bi-focus-tile.png)
 
 4. 将鼠标悬停在该磁贴以显示“选项”菜单。
    
-    ![全屏选项菜单](./media/end-user-print/menu-options-new.png)
+    ![全屏选项菜单](./media/end-user-print/power-bi-menu-option.png)
 
-4. 选择“打印”图标 ![打印图标](./media/end-user-print/print-icon.png)。     
+    ![全屏模式](./media/end-user-print/power-bi-focus.png)
 
-5. 将打开浏览器的“打印”窗口。 选择设置。 例如，如果磁贴不在页面上，则可能需要将缩放更改为 75%。 选择“打印”  。
+4. 选择“打印”图标 ![打印图标](./media/end-user-print/print-icon.png).     
+
+5. 将打开浏览器的“打印”窗口。 选择设置。 例如，如果磁贴不在页面上，则可能需要将缩放更改为 75%。 选择“打印”****。
 
     ![打印窗口](./media/end-user-print/power-bi-scale.png) 
 
 > [!TIP]
 > 如果已执行了所有这些步骤，但磁贴仍未以所需的方式显示，请尝试以下操作。
 > 1. 打开“打印”窗口，更改你认为将获得最佳打印输出的打印设置。 例如，更改布局、边距和缩放。 
-> 2. 但请选择“取消”，而不是打印  。 
+> 2. 但请选择“取消”，而不是打印****。 
 > 3. 再次完成步骤 1-5。 磁贴将调整为新的“打印”窗口设置，并准备打印。
 
 ## <a name="print-a-report-page"></a>打印报表页
 报表可以一次打印一个页面。
 
-1. 打开报表，并选择“导出” > “打印”，打印当前报表页   。
+1. 打开报表，并选择“文件” > “打印此页”，打印当前报表页。
    
-    ![Power BI 文件菜单](./media/end-user-print/power-bi-report-print.png)
+    ![Power BI 文件菜单](./media/end-user-print/power-bi-print-report.png)
 2. 将打开浏览器的“打印”窗口。
 
-3. 按照上述“打印仪表板”中的打印步骤进行操作  。
+3. 按照上面“打印仪表板”中的打印步骤进行操作****。
    
 
 
 ## <a name="print-a-report-visual"></a>打印报表视觉对象
 1. 通过将鼠标悬停在磁贴上方并选择右上角的“焦点”图标 ![焦点图标](./media/end-user-print/power-bi-focus-icon.png)，[在焦点模式下打开视觉对象](end-user-focus.md)。
 
-2. 在左上角，选择“导出” > “打印”，打印视觉对象   。
 
-    ![Power BI 文件菜单](./media/end-user-print/power-bi-report-print.png)
+    ![在焦点模式下打开视觉对象](./media/end-user-print/power-bi-visual-focus.png)
+
+2. 在左上角，选择“文件” > “打印此页”，打印视觉对象。
+
+    ![Power BI“文件”菜单的屏幕截图](./media/end-user-print/power-bi-visual-print.png)
 
 
-3. 按照上面“打印仪表板”中的打印步骤进行操作  。
+3. 按照上面“打印仪表板”中的打印步骤进行操作****。
 
 ## <a name="considerations-and-troubleshooting"></a>注意事项和疑难解答
 
@@ -108,7 +113,7 @@ ms.locfileid: "87537265"
 * 答：这是正确的。 一次只能打印一页报表页。
 * 问：无法打印为 PDF。    
 * 答：只有已在你的浏览器中配置 PDF 驱动程序时，才会看到此选项。    
-* 问：选择“打印”  时所显示的内容与此处显示的内容不匹配。    
+* 问：选择“打印”**** 时所显示的内容与此处显示的内容不匹配。    
 * 答：打印屏幕因浏览器和软件的版本而有所不同。
 * 问：打印输出缩放不正确。  仪表板不适合页面。 其他缩放比例和方向的问题。    
 * 答：我们无法保证打印的副本与 Power BI 服务中所显示的效果完全相同。 类似缩放、边距、视觉对象详细信息、方向和大小等不受 Power BI 控制。 尝试调整浏览器的打印设置。 上面建议的部分方法是页面方向（纵向或横向）、边距大小和缩放。 如果这些方法没有帮助，请参阅特定浏览器的文档。      

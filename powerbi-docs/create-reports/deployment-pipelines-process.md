@@ -6,15 +6,16 @@ ms.author: kesharab
 ms.topic: conceptual
 ms.service: powerbi
 ms.subservice: powerbi-service
-ms.date: 06/25/2020
-ms.openlocfilehash: 69ad9fc76250e09c2cea5a8d5dc0d3b2c13f72bf
-ms.sourcegitcommit: 6d7d5e6b19e11d557dfa1b79b745728b4ee02b4e
+ms.custom: contperfq1
+ms.date: 09/22/2020
+ms.openlocfilehash: a364d3dd2d2175e4509d05f4c34eec31a1a371b6
+ms.sourcegitcommit: 37ec0e9e356b6d773d7d56133fb8ed6c06b65fd3
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/01/2020
-ms.locfileid: "89220874"
+ms.lasthandoff: 09/23/2020
+ms.locfileid: "91024026"
 ---
-# <a name="understand-the-deployment-process-preview"></a>了解部署过程（预览版）
+# <a name="understand-the-deployment-process"></a>了解部署过程
 
 通过部署过程，可以将管道中一个阶段的内容克隆到另一个阶段，这通常是从开发到测试，以及从测试到生产。
 
@@ -90,7 +91,7 @@ ms.locfileid: "89220874"
 
 * 基于不支持的数据集的报表
 
-* 工作区不能使用模板应用
+* [模板应用工作区](../connect-data/service-template-apps-create.md#create-the-template-workspace)
 
 * 分页报表
 
@@ -137,14 +138,60 @@ ms.locfileid: "89220874"
 在部署期间，也不会复制以下数据集属性：
 
 * 角色分配
-    
+
 * 刷新计划
-    
+
 * 数据源凭据
-    
+
 * 查询缓存设置（可从容量继承）
-    
+
 * 认可设置
+
+## <a name="incremental-refresh"></a>增量刷新
+
+部署管道支持[增量刷新](../admin/service-premium-incremental-refresh.md)，通过此功能可以更快、更可靠地刷新大型数据集，且具有较低的消耗。
+
+使用部署管道，你可以通过增量刷新来更新数据集，同时保留数据和分区。 部署数据集时，也会复制策略。
+
+### <a name="activating-incremental-refresh-in-a-pipeline"></a>在管道中激活增量刷新
+
+若要启用增量刷新，[在 Power BI Desktop中打开它](../admin/service-premium-incremental-refresh.md#configure-incremental-refresh)，然后发布数据集。 发布后，增量刷新策略在管道中是类似的，并且只能在 Power BI Desktop 中进行创作。
+
+使用增量刷新配置管道后，建议使用以下流：
+
+1. 在 Power BI Desktop 中对 PBIX 文件进行更改。 若要避免长时间的等待，可以使用数据的示例进行更改。
+
+2. 将 PBIX 文件上传到开发阶段。
+
+3. 将内容部署到测试阶段。 部署后，所做的更改将应用于所使用的整个数据集。
+
+4. 查看在测试阶段所做的更改，并在验证这些更改后，部署到生产阶段。
+
+### <a name="usage-examples"></a>用法示例
+
+下面的几个示例演示了如何将增量刷新与部署管道集成。
+
+* [创建新管道](deployment-pipelines-get-started.md#step-1---create-a-deployment-pipeline)并将其连接到具有启用了增量刷新的数据集的工作区。
+
+* 在已位于开发工作区的数据集中启用增量刷新。  
+
+* 从具有使用增量刷新的数据集的生产工作区创建管道。 这是通过将工作区分配到新管道的生产阶段，并使用[反向部署](deployment-pipelines-get-started.md#backwards-deployment)部署到测试阶段，然后再部署到开发阶段来完成的。
+
+* 将使用增量刷新的数据集发布到作为现有管道一部分的工作区。
+
+### <a name="limitations-and-considerations"></a>限制和注意事项
+
+对于增量刷新，部署管道仅支持使用[增强的数据集元数据](../connect-data/desktop-enhanced-dataset-metadata.md)的数据集。 从 Power BI Desktop 的 2020 年 9 月版开始，使用 Power BI Desktop 创建或修改的所有数据集都会自动实现增强的数据集元数据。
+
+将数据集重新发布到启用了增量刷新的活动管道时，以下更改可能由于数据丢失而导致部署失败：
+
+* 重新发布不使用增量刷新的数据集，以替换启用了增量刷新的数据集。
+
+* 重命名启用了增量刷新的表。
+
+* 在启用了增量刷新的表中重命名非计算列。
+
+允许进行其他更改，如添加列、删除列和重命名计算列。 但是，如果更改影响显示，则需要在更改可见之前进行刷新。
 
 ## <a name="deploying-power-bi-apps"></a>部署 Power BI 应用
 
@@ -170,9 +217,9 @@ ms.locfileid: "89220874"
 具有管道访问权限的用户具有以下权限：
 
 * 查看管道
-    
+
 * 与其他人共享管道
-    
+
 * 编辑和删除管道
 
 >[!NOTE]
@@ -202,9 +249,9 @@ ms.locfileid: "89220874"
 具有管道访问权限的工作区成员还可以执行以下操作：
 
 * 查看工作区内容
-    
+
 * 比较阶段
-    
+
 * 部署报表和仪表板
 
 * 删除工作区
@@ -222,7 +269,7 @@ ms.locfileid: "89220874"
 作为工作区成员或管理员的数据集所有者还可以执行以下操作：
 
 * 更新数据集
-    
+
 * 配置规则
 
 >[!NOTE]
@@ -243,8 +290,6 @@ ms.locfileid: "89220874"
 * 有关不支持的项的列表，请参阅[不支持的项](#unsupported-items)。
 
 ### <a name="dataset-limitations"></a>数据集限制
-
-* 无法部署使用[增量刷新](../admin/service-premium-incremental-refresh.md)配置的数据集。
 
 * 无法部署使用实时数据连接的数据集。
 

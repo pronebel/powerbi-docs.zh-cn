@@ -9,13 +9,13 @@ ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
 LocalizationGroup: Share your work
-ms.date: 07/31/2020
-ms.openlocfilehash: 53126fe044f65740b9dac072422f749312b960da
-ms.sourcegitcommit: d9d67ee47954379c2df8db8d0dc8302de4c9f1e5
+ms.date: 09/21/2020
+ms.openlocfilehash: 0abaf886806ea783bb478f47d020daeea7829da5
+ms.sourcegitcommit: cff93e604e2c5f24e0f03d6dbdcd10c2332aa487
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/31/2020
-ms.locfileid: "87478006"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90965118"
 ---
 # <a name="embed-power-bi-content-in-microsoft-teams"></a>在 Microsoft Teams 中嵌入 Power BI 内容
 
@@ -30,9 +30,9 @@ ms.locfileid: "87478006"
 - 若要在 Microsoft Teams 的“Power BI”选项卡中查看报表，用户必须具有查看报表的权限。
 - 用户必须是有权访问频道和聊天的 Microsoft Teams 用户。
 
-请参阅[使用 Power BI 在 Microsoft Teams 中开展协作](service-embed-report-microsoft-teams.md)，其中介绍了 Power BI 和 Teams 协同工作的背景以及其他要求。
+请参阅[使用 Power BI 在 Microsoft Teams 中开展协作](service-embed-report-microsoft-teams.md)，其中介绍了 Power BI 和 Microsoft Teams 协同工作的背景以及其他要求。
 
-## <a name="embed-a-report-in-teams"></a>在 Teams 中嵌入报表
+## <a name="embed-a-report-in-microsoft-teams"></a>在 Microsoft Teams 中嵌入报表
 
 按照以下步骤将报表嵌入 Microsoft Teams 频道或聊天。
 
@@ -62,7 +62,7 @@ ms.locfileid: "87478006"
 
 ## <a name="start-a-conversation"></a>开始对话
 
-将“Power BI 报表”选项卡添加到 Microsoft Teams 时，Teams 可自动为报表创建选项卡对话。
+将“Power BI 报表”选项卡添加到 Microsoft Teams 时，Microsoft Teams 可自动为报表创建选项卡对话。
 
 - 选择右上角的“显示选项卡对话”图标。
 
@@ -74,6 +74,7 @@ ms.locfileid: "87478006"
 
 ## <a name="known-issues-and-limitations"></a>已知问题和限制
 
+- 在 Microsoft Teams 中，当你从 Power BI 报表中的视觉对象导出数据时，该数据会自动保存到下载文件夹中。 它是名为“data (n).xlsx”的 Excel 文件，其中 n 是将数据导出到同一个文件夹的次数。
 - 你不能在 Microsoft Teams 的“Power BI”选项卡中嵌入 Power BI 仪表板。
 - Microsoft Teams 的“Power BI”选项卡不支持 [URL 筛选器](service-url-filters.md)。
 - 在国家/地区云中，新的“Power BI”选项卡不可用。 可能有较旧的版本可用，该版本不支持 Power BI 应用中的新工作区体验或报表。

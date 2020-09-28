@@ -7,15 +7,15 @@ ms.reviewer: cmfinlan
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: how-to
-ms.date: 08/05/2020
+ms.date: 09/17/2020
 ms.author: mihart
 LocalizationGroup: Share your work
-ms.openlocfilehash: 72e7550666960948ff3a3155a328613c95fcf43f
-ms.sourcegitcommit: 1aaa742c239a3119cdaad698be5a7553b68801fa
+ms.openlocfilehash: add9e4e5c5a68354eb3e2d1b9c9b86a3b8c4e614
+ms.sourcegitcommit: cb606d3ae95300683caf1853e229d8981302a8e2
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/27/2020
-ms.locfileid: "89040192"
+ms.lasthandoff: 09/18/2020
+ms.locfileid: "90763796"
 ---
 # <a name="export-reports-from-power-bi-to-pdf"></a>从 Power BI 将报表导出为 PDF
 
@@ -30,9 +30,9 @@ ms.locfileid: "89040192"
 
 1. 从菜单栏中选择“导出”   > “PDF”  。
 
-    ![从菜单栏中选择“导出”](media/end-user-pdf/power-bi-export.png)
+    ![从菜单栏中选择“导出”](media/end-user-pdf/power-bi-export-pdfs.png)
 
-    此时会显示弹出窗口，可在其中选择“当前值”或“默认值”   。 “当前值”以当前状态导出报表，其中包括对切片器和筛选器值所做的有效更改  。 大多数用户选择此选项。 或者，选择“默认值”以原始状态导出报表（在*设计者*共享此报表时），且不反映对该原始状态所做的任何更改。
+    此时会显示弹出窗口，可在其中选择“当前值”或“默认值”   。 “当前值”以当前状态导出报表，其中包括对切片器和筛选器值所做的有效更改  。 大多数用户选择此选项。 或者，选择“默认值”以原始状态导出报表（在设计者共享此报表时），且不反映对该原始状态所做的任何更改。
     
     此外，还有一个复选框，用于选择是否导出报表的隐藏选项卡。 如果只想导出浏览器中对你可见的报表选项卡，请选中此复选框。 如果希望将所有隐藏选项卡作为导出的一部分，则不选中此选复选框。 如果该复选框显示为灰色，则报表中没有隐藏选项卡。 完成选择后，选择“导出”以继续  。
     
@@ -57,13 +57,13 @@ ms.locfileid: "89040192"
 * PDF 将包含 Power BI 画布上可见的数据和可视化效果。 如果视觉对象包含滚动条，则 PDF 会在其未滚动默认状态下包含视觉对象。  
 * 目前不支持 R 视觉对象和 Python 视觉对象。 在 PDF 中，这些视觉对象为空白，并会显示一条错误消息。 
 * 支持经认证的 Power BI 视觉对象。 有关经认证的 Power BI 视觉对象的详细信息（包括如何完成 Power BI 视觉对象认证），请参阅[获取 Power BI 视觉对象认证](../developer/visuals/power-bi-custom-visuals-certified.md)。 不支持尚未认证的 Power BI 视觉对象。 在 PDF 中，它们会显示一条错误消息。
-* ESRI 视觉对象不受支持
+* ESRI 视觉对象不受支持。
 * 目前不能导出包含 50 个以上报表页的报表。
 * 将报表导出为 PDF 的过程可能需要几分钟才能完成，请耐心等待。 影响所需时间的因素包括报表的结构和 Power BI 服务的当前负载。
 * 如果 Power BI 服务中没有“导出为 PDF”菜单项，则可能是因为租户管理员已禁用该功能  。 有关详细信息，请联系租户管理员。
 * 背景图像会根据图表的边界区域进行裁剪。 我们建议在导出为 PDF 之前删除背景图像。
 * Power BI 租户域之外的用户拥有的报表（例如组织外部人员拥有并与你共享的报表）无法发布为 PDF。
-* 如果与组织外部人员（即不属于 Power BI 租户的用户）共享仪表板，该用户将无法将共享仪表板的关联报表导出为 PDF。 例如，如果你是 aaron@contoso.com，虽然可以与 cassie@cohowinery.com 共享内容， 但 cassie@cohowinery.com 无法将关联报表导出为 PDF。
+* 如果与组织外部人员（即不属于 Power BI 租户的用户）共享仪表板，该用户将无法将共享仪表板的关联报表导出为 PDF。 例如，如果你是 aaron@contoso.com，虽然可以与 cassie@northwinds.com 共享内容， 但 cassie@northwinds.com 无法将关联报表导出为 PDF。
 * 将包含背景图像的报表导出为 PDF 时，如果使用“页面背景”的“正常”或“填充”选项，可能会在导出内容中看到扭曲的图像    。 为了获得最佳效果，请使用“调整”选项以避免导出文档出现问题  。
 * Power BI 服务将你的 Power BI 语言设置用作 PDF 导出的语言。 若要查看或设置语言首选项，请选择齿轮图标 ![齿轮图标](media/end-user-powerpoint/power-bi-settings-icon.png) > “设置” > “常规” > “语言”。
 * 如果为导出选择“当前值”，当前不遵循 URL 筛选器  。

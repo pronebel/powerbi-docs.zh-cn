@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 09/09/2020
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 7b5a935418aacb8de15ea6e7e942f2de440ecec1
-ms.sourcegitcommit: 92b033ee7a6e36808371b247b7b41536cee6c2f6
+ms.openlocfilehash: 8e8411ea29436a5ee19802d2a970b760062fe59e
+ms.sourcegitcommit: cb606d3ae95300683caf1853e229d8981302a8e2
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/10/2020
-ms.locfileid: "90008657"
+ms.lasthandoff: 09/18/2020
+ms.locfileid: "90763979"
 ---
 # <a name="types-of-insights-supported-by-power-bi"></a>Power BI 支持的见解类型
 
@@ -77,7 +77,7 @@ Power BI 使用统计算法来发现见解。 本文的下一节会将列出并�
 ![季节性示例](./media/end-user-insight-types/pbi-auto-insight-type-seasonality-new.png)
 
 ### <a name="steady-share"></a>稳定份额
-突出显示子值的份额相对于跨连续变量的整体父值有父子关联的情况。 稳定份额见解适用于包含一个度量值、一个维度和另一个日期/时间维度的上下文。 如果特定维度值（例如，“东北地区”）在相应日期/时间维度内占总销售额的百分比稳定，就会触发此见解。
+突出显示子值的份额相对于跨连续变量的整体父值有父子关联的情况。 稳定份额见解适用于包含一个度量值、一个维度和另一个日期/时间维度的上下文。 如果特定维度值（例如，“东部地区”）在相应日期/时间维度内占总销售额的百分比稳定，就会触发此见解。
 
 稳定份额见解类似于低方差见解，因为它们都与某个值在整个时间内没有太多差异有关。 但是，稳定份额见解度量的是整个时间内总体百分比  没有太多差异，而低方差见解度量的是整个维度内绝对度量值没有太多差异。
 

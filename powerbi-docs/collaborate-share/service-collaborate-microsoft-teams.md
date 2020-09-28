@@ -1,6 +1,6 @@
 ---
 title: 使用 Power BI 在 Microsoft Teams 中开展协作
-description: 可以在 Microsoft Teams 频道和聊天中轻松共享和协作处理交互式 Power BI 内容。
+description: 随着分布式劳动力成为常态，越来越多的组织依赖于 Microsoft Teams 来远程工作并使员工保持同步。
 author: maggiesMSFT
 ms.author: maggies
 ms.reviewer: ''
@@ -9,23 +9,24 @@ ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
 LocalizationGroup: Share your work
-ms.date: 07/31/2020
-ms.openlocfilehash: 01e5b470e0beb189d64da18785a17e771bcaf59b
-ms.sourcegitcommit: d9d67ee47954379c2df8db8d0dc8302de4c9f1e5
+ms.date: 09/15/2020
+ms.openlocfilehash: d0510a3c8caf2e07034b9410d4338431670833e5
+ms.sourcegitcommit: b3d32b8a4ce26fba7fdb5f1c5954d2b2e426503c
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/31/2020
-ms.locfileid: "87478029"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "91005482"
 ---
 # <a name="collaborate-in-microsoft-teams-with-power-bi"></a>使用 Power BI 在 Microsoft Teams 中开展协作
 
-随着分布式和远程劳动力成为常态，越来越多的组织依赖于 Microsoft Teams 来使员工保持同步。Power BI 提供多个选项，可用于在 Microsoft Teams 频道和聊天中共享和协作处理交互式 Power BI 内容。 
+随着分布式劳动力成为常态，越来越多的组织依赖于 Microsoft Teams 来远程工作并使员工保持同步。本文概述了可用于在 Microsoft Teams 频道和聊天中共享和协作处理交互式 Power BI 内容的选项。 
 
 - 通过 Microsoft Teams 的“Power BI”选项卡，可以[在 Microsoft Teams 频道和聊天中嵌入交互式报表](service-embed-report-microsoft-teams.md)。 “Power BI”选项卡可帮助你的同事查找团队的数据并在团队频道中进行讨论。 
 - 将报表、仪表板和应用的链接粘贴到 Microsoft Teams 消息框中时，请创建[链接预览](service-teams-link-preview.md)。 链接预览会显示有关该链接的信息。 
-- 在 Power BI 服务中查看报表和仪表板时，请使用[共享到 Teams](service-share-report-teams.md)，以在 Teams 中快速开始对话。
+- 在 Power BI 服务中查看报表和仪表板时，请使用[共享到 Microsoft Teams](service-share-report-teams.md)，以在 Microsoft Teams 中快速开始对话。
+- 使用 [Microsoft Teams 中的 Power BI 应用](service-microsoft-teams-app.md)将整个基本 Power BI 服务体验引入 Microsoft Teams。
  
-:::image type="content" source="media/service-collaborate-microsoft-teams/power-bi-embed-teams-report.png" alt-text="嵌入到 Teams 频道的 Power BI 报表的屏幕截图。":::
+:::image type="content" source="media/service-collaborate-microsoft-teams/power-bi-embed-teams-report.png" alt-text="嵌入到 Microsoft Teams 频道的 Power BI 报表的屏幕截图。":::
 
 ## <a name="requirements"></a>要求
 
@@ -56,10 +57,19 @@ ms.locfileid: "87478029"
 - 链接预览服务不支持单一登录。
 - 链接预览在会议聊天或私人频道中不起作用。
 
+## <a name="microsoft-power-platform-in-microsoft-teams"></a>Microsoft Teams 中的 Microsoft Power Platform
+
+其他 Microsoft Power Platform 应用还与 Microsoft Teams 集成。
+
+- [Power Platform 管理员体验](/power-platform/admin/about-teams-environment)
+- [Power Automate](/power-automate/teams/overview)
+- [Power Apps](/powerapps/teams/overview)
+- [Power Virtual Agent](/power-virtual-agents/)
+
 ## <a name="next-steps"></a>后续步骤
 
 - [在 Microsoft Teams 中嵌入 Power BI 内容](service-embed-report-microsoft-teams.md)
 - [在 Microsoft Teams 中获取 Power BI 链接预览](service-teams-link-preview.md)
-- [通过 Power BI 服务直接共享到 Teams](service-share-report-teams.md)
+- [通过 Power BI 服务直接共享到 Microsoft Teams](service-share-report-teams.md)
 
 更多问题？ [尝试咨询 Power BI 社区](https://community.powerbi.com/)。

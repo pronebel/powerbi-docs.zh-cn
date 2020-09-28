@@ -6,15 +6,15 @@ ms.reviewer: mihart
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: how-to
-ms.date: 03/11/2020
+ms.date: 09/11/2020
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: ea519b4f120bb643e88d29fba79a5ca464030797
-ms.sourcegitcommit: 2131f7b075390c12659c76df94a8108226db084c
+ms.openlocfilehash: 9124322dbf7656b05c4cd174207e074cd4f807fe
+ms.sourcegitcommit: cb606d3ae95300683caf1853e229d8981302a8e2
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/03/2020
-ms.locfileid: "87537357"
+ms.lasthandoff: 09/18/2020
+ms.locfileid: "90763956"
 ---
 # <a name="how-visuals-cross-filter-each-other-in-a-power-bi-report"></a>视觉对象如何在 Power BI 报表中彼此交叉筛选
 
@@ -52,7 +52,7 @@ Power BI 的强大功能之一是报表页上所有视觉对象的互连方式�
     
 - 当在报表页上交叉筛选和交叉突出显示其他视觉对象时，将保留视觉对象级筛选器。 因此，如果 VisualA 包含由报表设计者或你应用的视觉对象级筛选器，并且你使用 visualA 与 visualB 交互，则 visualA 中的视觉对象级筛选器将应用于 visualB。
 
-    ![选中圆环图的“审查”段之后的报表页](media/end-user-interactions/power-bi-visual-filters.png)
+    ![已设置显示筛选器的报表页](media/end-user-interactions/power-bi-visual-filters.png)
 
 ## <a name="next-steps"></a>后续步骤
 [如何使用报表筛选器](../consumer/end-user-report-filter.md)

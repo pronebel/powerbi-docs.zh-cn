@@ -7,15 +7,15 @@ ms.reviewer: mihart
 ms.custom: ''
 ms.subservice: powerbi-consumer
 ms.topic: how-to
-ms.date: 02/18/2020
+ms.date: 09/15/2020
 ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: 73affb07b137ee60fe00f7d344759ec2de1bcb85
-ms.sourcegitcommit: c83146ad008ce13bf3289de9b76c507be2c330aa
+ms.openlocfilehash: c3ae3974b411ccd7f1be175910878cdeb0bc5c40
+ms.sourcegitcommit: cb606d3ae95300683caf1853e229d8981302a8e2
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/10/2020
-ms.locfileid: "86215905"
+ms.lasthandoff: 09/18/2020
+ms.locfileid: "90763128"
 ---
 # <a name="your-content-is-up-to-date"></a>内容为最新内容
 
@@ -23,7 +23,7 @@ ms.locfileid: "86215905"
 
 [!INCLUDE [power-bi-service-new-look-include](../includes/power-bi-service-new-look-include.md)]
 
-作为使用者，你可以与设计人员创建并与你共享的内容进行交互   。 你可能想知道该内容是否为最新内容，或者只是想了解该内容上次刷新的时间。 了解到自己使用的是最新内容可让人充满信心。  
+作为业务用户，你可以与设计人员创建并与你共享的内容进行交互。 你可能想知道该内容是否为最新内容，或者只是想了解该内容上次刷新的时间。 了解到自己使用的是最新内容可让人充满信心。  
  
 ![Power BI 仪表板](media/end-user-fresh/power-bi-dashboards.png)
 
@@ -38,7 +38,7 @@ ms.locfileid: "86215905"
 
 可从仪表板和报表的标题栏中获取所有者的名称。 选择报表或仪表板名称以显示包括所有者在内的更多详细信息  。
 
-![Power BI 仪表板所有者](media/end-user-fresh/power-bi-owner.png)
+![Power BI 仪表板所有者](media/end-user-fresh/power-bi-designer.png)
 
 
 ### <a name="apps"></a>应用
@@ -47,19 +47,19 @@ ms.locfileid: "86215905"
 
 1. 从导航窗格中，选择“应用”  。
 
-    ![导航窗格](media/end-user-fresh/power-bi-nav-app.png)
+    ![导航窗格](media/end-user-fresh/power-bi-nav-apps.png)
 
 
 
 2. 将鼠标悬停在应用上可显示设计器的标题、新鲜度日期和名称。 
 
-    ![2 个应用，其中一个已选中](media/end-user-fresh/power-bi-app.png)
+    ![2 个应用，其中一个已选中](media/end-user-fresh/power-bi-apps.png)
 
 
 ### <a name="shared-with-me"></a>与我共享
 “与我共享”屏幕显示内容所有者的姓名，以及该内容最近一次与你共享的日期  。
 
-![“与我共享”屏幕显示更改日期和所有者](media/end-user-fresh/power-bi-share.png) 
+![“与我共享”屏幕显示更改日期和所有者](media/end-user-fresh/power-bi-shared.png) 
 
 
 ## <a name="how-to-look-up-the-last-refresh-date"></a>如何查找上次刷新日期
@@ -70,20 +70,20 @@ ms.locfileid: "86215905"
 
 1. 在仪表板磁贴上，选择“更多选项”(…)，然后选择“以焦点模式打开”   。
 
-    ![选择省略号后显示的菜单](media/end-user-fresh/power-bi-focus-mode.png)
+    ![选择省略号后显示的菜单](media/end-user-fresh/power-bi-fresh-focus.png)
 
 2. 右上角显示上次刷新日期。 如果未显示，请展开浏览器使其更宽。 
 
-    ![显示上次刷新的较宽浏览器](media/end-user-fresh/power-bi-last-refresh2.png)
+    ![显示上次刷新的较宽浏览器](media/end-user-fresh/power-bi-last-refresh.png)
 
 ### <a name="dashboards-and-reports"></a>仪表板和报表
-查找上次刷新日期的另一种方法是使用“相关视图”  。  可从 Power BI 上方菜单栏中选择“更多选项”(…) 以获取“相关视图”   。
+查找上次刷新日期的另一种方法是使用“查看相关内容”。  可从 Power BI 上方菜单栏中选择“更多操作”(…) 以获取“查看相关内容”。
 
-![从菜单中选择“相关视图”](media/end-user-fresh/power-bi-view-related-dropdown.png)
+![从菜单中选择“查看相关内容”](media/end-user-fresh/power-bi-see-related.png)
 
 “相关内容”窗格会显示仪表板或报表基础数据集的上次刷新信息  。
 
-![Power BI 仪表板](media/end-user-fresh/power-bi-refresh.png)
+![“相关内容”窗格的屏幕截图](media/end-user-fresh/power-bi-see-related-screen.png)
 
 ## <a name="what-happens-if-an-app-is-deleted-by-the-designer"></a>如果设计人员删除应用会发生什么
 

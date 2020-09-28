@@ -10,12 +10,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 LocalizationGroup: Share your work
 ms.date: 07/22/2020
-ms.openlocfilehash: 06bd8271904b9c44de6c71e287f0560c54f6d031
-ms.sourcegitcommit: 65025ab7ae57e338bdbd94be795886e5affd45b4
+ms.openlocfilehash: fb79358bb9149498a39cca32db618cb6971121de
+ms.sourcegitcommit: cff93e604e2c5f24e0f03d6dbdcd10c2332aa487
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/28/2020
-ms.locfileid: "87253792"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90964786"
 ---
 # <a name="get-a-power-bi-link-preview-in-microsoft-teams"></a>在 Microsoft Teams 中获取 Power BI 链接预览
 
@@ -27,7 +27,7 @@ ms.locfileid: "87253792"
 
 链接预览服务需要用户登录。 若要注销，请选择消息框底部的“Power BI”图标。 然后选择“注销”。
 
-请参阅[使用 Power BI 在 Microsoft Teams 中开展协作](service-collaborate-microsoft-teams.md)，其中介绍了 Power BI 和 Teams 协同工作的背景，包括需要满足的要求。
+请参阅[使用 Power BI 在 Microsoft Teams 中开展协作](service-collaborate-microsoft-teams.md)，其中介绍了 Power BI 和 Microsoft Teams 协同工作的背景，包括需要满足的要求。
 
 ## <a name="get-a-link-preview"></a>获取链接预览
 

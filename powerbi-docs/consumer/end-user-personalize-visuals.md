@@ -1,28 +1,28 @@
 ---
-title: 在报表中个性化设置视觉对象
+title: 在报表中个性化设置视觉对象（预览）
 description: 创建自己的报表视图，而无需对其进行编辑。
 author: mihart
 ms.reviewer: mihart
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: how-to
-ms.date: 05/21/2020
+ms.date: 09/17/2020
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: a731feb822fcda8fd6478094f8393faa34b6b2bf
-ms.sourcegitcommit: 2131f7b075390c12659c76df94a8108226db084c
+ms.openlocfilehash: 8fc61a1aee263b40afb8ae95f365477b4104ca71
+ms.sourcegitcommit: cb606d3ae95300683caf1853e229d8981302a8e2
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/03/2020
-ms.locfileid: "87537334"
+ms.lasthandoff: 09/18/2020
+ms.locfileid: "90763259"
 ---
 # <a name="personalize-visuals-in-a-report"></a>在报表中个性化设置视觉对象
 
-[!INCLUDE[consumer-appliesto-ynnn](../includes/consumer-appliesto-ynnn.md)]
+[!INCLUDE[consumer-appliesto-ynny](../includes/consumer-appliesto-ynny.md)]
 
 很难让一个视觉对象满足每个人的要求。 但是，当同事与你共享报表时，你可能需要更改视觉对象，而无需要求你的同事为你进行更改。 
 
-你可能想要交换轴上的内容，更改视觉对象类型，或在工具提示中添加一些内容。 借助“个性化设置此视觉对象”功能自行进行更改，当你具有你想要的视觉对象时，将其另存为书签以便回头使用此视觉对象。 你甚至不需要报表的编辑权限。
+你可能想要交换轴上的内容，更改视觉对象类型，或在工具提示中添加一些内容。 借助“个性化设置此视觉对象”功能自行进行更改，当你具有你想要的视觉对象时，将其另存为[书签](end-user-bookmarks.md)以便回头使用此视觉对象。 你甚至不需要报表的编辑权限。
 
 :::image type="content" source="media/end-user-personalize-visuals/power-bi-personalize.png" alt-text="个性化设置视觉对象":::
  
@@ -44,10 +44,12 @@ ms.locfileid: "87537334"
 - 重置对视觉对象所做的所有更改
 - 清除最近的更改
 
+> [!IMPORTANT]
+> 个性化设置视觉对象的功能是预览功能，该功能必须由报表设计者启用。 如果看不到“个性化设置此视觉对象”![个性化设置此视觉对象图标](media/end-user-personalize-visuals/power-bi-personalize-visual-icon.png)图标，则报表设计者不会为当前报表启用此功能。 
 
 ## <a name="personalize-visuals-in-the-power-bi-service"></a>在 Power BI 服务中个性化设置视觉对象
 
-通过个性化设置视觉对象，你无需离开报表阅读视图，就能够以多种方式浏览数据。 下面的示例演示了可以根据需要修改可视化效果的不同方式。 
+通过个性化设置视觉对象，你无需离开[报表阅读视图](end-user-reading-view.md)，就能够以多种方式浏览数据。 下面的示例演示了可以根据需要修改可视化效果的不同方式。 
 
 1. 在 Power BI 服务中，以“阅读视图”打开报表。
 

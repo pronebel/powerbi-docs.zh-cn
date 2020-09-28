@@ -7,15 +7,15 @@ ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: how-to
 ms.author: davidi
-ms.date: 09/14/2020
+ms.date: 09/17/2020
 ms.custom: ''
 LocalizationGroup: Administration
-ms.openlocfilehash: 612fa923f45b427cb9c4fea4ecc1b18ad8580004
-ms.sourcegitcommit: 376ea86f69545444f975378cbf63e54c2f75faa3
+ms.openlocfilehash: 3b8eb9c5e4211097cd6f11d233165ccaf197ddbe
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/15/2020
-ms.locfileid: "90084021"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90854359"
 ---
 # <a name="private-links-for-accessing-power-bi"></a>用于访问 Power BI 的专用链接
 
@@ -158,7 +158,7 @@ ms.locfileid: "90084021"
     |大小 | 保留默认值“标准 DS1 v2” |
     |管理员帐户 ||
     |用户名 |输入所选用户名 |
-    |密码 | 输入所选密码。 密码必须至少 12 个字符，且符合[定义的复杂性要求](https://docs.microsoft.com/azure/virtual-machines/windows/faq?toc=/azure/virtual-network/toc.json#what-are-the-password-requirements-when-creating-a-vm) |
+    |密码 | 输入所选密码。 密码必须至少 12 个字符，且符合[定义的复杂性要求](/azure/virtual-machines/windows/faq#what-are-the-password-requirements-when-creating-a-vm) |
     |确认密码 | 重新输入密码 |
     |入站端口规则 ||
     |公共入站端口 | 保留默认值“无” |
@@ -284,6 +284,7 @@ ms.locfileid: "90084021"
 * 使用专用链接环境时，不能使用外部图像或主题，使用外部图像或主题可能会影响自定义视觉对象
 * 使用专用链接环境时，“导出到 PDF”、从报表导出到 Excel 以及其他导出服务不可用
 * SQL Server Reporting Services 报表（通常称为 RDL 文件 [*.rdl 格式文件]）不会在专用链接环境中呈现
+* 如果 Internet 访问被禁用，并且如果数据集或数据流连接到作为数据源的 Power BI 数据集或数据流，则连接将失败
 
 
 ## <a name="next-steps"></a>后续步骤

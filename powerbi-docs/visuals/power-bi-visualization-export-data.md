@@ -8,15 +8,15 @@ featuredvideoid: jtlLGRKBvXY
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: how-to
-ms.date: 05/20/2020
+ms.date: 09/09/2020
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 1593cecf448b193ce2186be041da771bb8d6a09c
-ms.sourcegitcommit: 92b033ee7a6e36808371b247b7b41536cee6c2f6
+ms.openlocfilehash: 7ab0a093dfd41034aa79d2934ad23cf373fd0474
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/10/2020
-ms.locfileid: "90008919"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90861581"
 ---
 # <a name="export-the-data-that-was-used-to-create-a-visualization"></a>探索用于创建可视化效果的数据
 
@@ -228,7 +228,7 @@ Power BI 报表设计器控制向使用者提供的数据导出选项的类型�
 ## <a name="limitations-and-considerations"></a>限制和注意事项
 这些限制和注意事项适用于 Power BI Desktop 和 Power BI 服务，包括 Power BI Pro 和 Power BI Premium。
 
-- 必须[有权生成基础数据集](https://docs.microsoft.com/power-bi/service-datasets-build-permissions)，才能导出视觉对象中的数据。
+- 必须[有权生成基础数据集](../connect-data/service-datasets-build-permissions.md)，才能导出视觉对象中的数据。
 
 -  Power BI Desktop 和 Power BI 服务最多可以将 30,000 行从导入模式报表导出至 .csv 文件  。
 
@@ -269,7 +269,7 @@ Power BI 报表设计器控制向使用者提供的数据导出选项的类型�
   1. 转到存储此文件的本地文件夹，并选择“.csv”。
 
 - 在导出到 .csv 时，系统会使用前导 ' 来转义某些字符，以防止在 Excel 中打开时执行脚本。 在以下情况下会发生这种情况：
-  - 列定义为数据模型中的文本”类型，并且
+  - 列定义为数据模型中的“文本”类型，并且
   - 文本的第一个字符是以下字符之一：=、@、+、-
 
 - Power BI 管理员可以禁用数据导出功能。

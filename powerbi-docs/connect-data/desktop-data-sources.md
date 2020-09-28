@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: how-to
-ms.date: 08/12/2020
+ms.date: 09/22/2020
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 1e64ca5c94b180cf98cf8d8992681861281ca2ae
-ms.sourcegitcommit: b60063c49ac39f8b28c448908ecbb44b54326335
+ms.openlocfilehash: 56825599a6b566a93f18e6fea16d995dc8bdda8f
+ms.sourcegitcommit: ff981839e805f523748b7e71474acccf7bdcb04f
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/12/2020
-ms.locfileid: "88160386"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "91020035"
 ---
 # <a name="data-sources-in-power-bi-desktop"></a>Power BI Desktop 中的数据源
 
@@ -95,12 +95,13 @@ ms.locfileid: "88160386"
 * Denodo
 * Dremio
 * Exasol
-* Indexima (Beta)
+* Indexima
 * InterSystems IRIS (Beta)
 * Jethro (Beta)
 * Kyligence
 * Linkar PICK 样式/多值数据库 (Beta)
 * MarkLogic
+* MariaDB (Beta)
 
 > [!NOTE]
 > 某些数据库连接器需要通过选择“文件”>“选项和设置”>“选项”，然后再选择“预览功能”才能启用 。 如果你没有看到上面提到的某些连接器，但想使用它们，请检查“预览功能”设置。 另请注意，标记为 *Beta* 或*预览*的任何数据源所提供的支持和功能有限，不应在生产环境中使用。
@@ -126,8 +127,8 @@ ms.locfileid: "88160386"
 
 **Azure** 类别提供下列数据连接：
 
-* Azure SQL 数据库
-* Azure SQL 数据仓库
+* Azure SQL Database
+* Azure Synapse Analytics (SQL DW)
 * Azure Analysis Services 数据库
 * Azure Database for PostgreSQL
 * Azure Blob 存储
@@ -139,9 +140,9 @@ ms.locfileid: "88160386"
 * Azure HDInsight (HDFS)
 * Azure HDInsight Spark
 * HDInsight 交互式查询
-* Azure 数据资源管理器 (Kusto)
 * Azure 成本管理
 * Azure 时序见解 (Beta)
+* Azure Databricks
 
 
 下图显示 **Azure** 的**获取数据**窗口。
@@ -194,8 +195,10 @@ ms.locfileid: "88160386"
 * TeamDesk (Beta)
 * Webtrends Analytics (Beta)
 * Witivio (Beta)
-* Workplace Analytics (Beta)
 * Zoho Creator (Beta)
+* Workplace Analytics (Beta)
+* 六边形 PPM 智能 API
+
 
 下图显示 **Online Services** 的**获取数据**窗口。
 
@@ -217,29 +220,27 @@ ms.locfileid: "88160386"
 * Python 脚本
 * ODBC
 * OLE DB
+* Acterys：Model Automation & Planning (Beta)
+* Automation Anywhere (Beta)
 * 解算器
+* Cherwell (Beta)
+* Cognite Data Fusion (Beta)
 * FHIR
 * Information Grid (Beta)
 * Jamf Pro (Beta)
+* 适用于 Power BI 的 MicroStrategy
 * Paxata
 * QubolePresto (Beta)
 * Roamler (Beta)
 * Shortcuts Business Insights (Beta)
 * Siteimprove
+* SurveyMonkey (Beta)
 * Tenforce (Smart)List
 * TIBCO(R) 数据虚拟化 (Beta)
-* Vessel Insight (Beta)
-* 工作人员维度 (Beta)
-* Zucchetti HR Infinity (Beta)
-* Cognite Data Fusion (Beta)
-* 适用于 Power BI 的 MicroStrategy
-* SurveyMonkey (Beta)
 * Vena (Beta)
-* Acterys：Model Automation & Planning (Beta)
-* Automation Anywhere (Beta)
-* Cherwell (Beta)
+* Zucchetti HR Infinity (Beta)
+* Vessel Insight (Beta)
 * 空白查询
-
 
 
 
@@ -288,7 +289,7 @@ PBIDS 文件是具有特定结构的 Power BI Desktop 文件，并且具有 .PBI
 
 PBIDS 文件不包括身份验证信息以及表和架构信息。  
 
-以下代码片段显示了 PBIDS 文件的几个常见示例，但是它们并不完整，也不全面。 对于其他数据源，可以参阅[协议和地址信息的数据源引用 (DSR) 格式](https://docs.microsoft.com/azure/data-catalog/data-catalog-dsr#data-source-reference-specification)。
+以下代码片段显示了 PBIDS 文件的几个常见示例，但是它们并不完整，也不全面。 对于其他数据源，可以参阅[协议和地址信息的数据源引用 (DSR) 格式](/azure/data-catalog/data-catalog-dsr#data-source-reference-specification)。
 
 这些示例只是为了方便起见，并不全面，也不包含 DSR 格式的所有受支持的连接器。 管理员或组织可以使用这些示例作为指南来创建自己的数据源，从而创建和支持自己的数据源文件。
 

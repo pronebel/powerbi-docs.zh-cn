@@ -1,5 +1,5 @@
 ---
-title: 通过 Power BI 服务直接共享到 Teams
+title: 通过 Power BI 服务直接共享到 Microsoft Teams
 description: 可以通过 Power BI 服务直接与 Microsoft Teams 共享 Power BI 仪表板和报表。
 author: maggiesMSFT
 ms.author: maggies
@@ -10,14 +10,14 @@ ms.subservice: powerbi-service
 ms.topic: how-to
 LocalizationGroup: Share your work
 ms.date: 07/31/2020
-ms.openlocfilehash: 0152f835f130eaea12addee1cc8daa15975d7aa1
-ms.sourcegitcommit: d9d67ee47954379c2df8db8d0dc8302de4c9f1e5
+ms.openlocfilehash: 6f4f083f7ec36fff13624b6b0d28ffd810e0d62b
+ms.sourcegitcommit: cff93e604e2c5f24e0f03d6dbdcd10c2332aa487
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/31/2020
-ms.locfileid: "87478052"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90964815"
 ---
-# <a name="share-directly-to-teams-from-the-power-bi-service"></a>通过 Power BI 服务直接共享到 Teams
+# <a name="share-directly-to-microsoft-teams-from-the-power-bi-service"></a>通过 Power BI 服务直接共享到 Microsoft Teams
 
 可以通过 Power BI 服务直接与 Microsoft Teams 共享 Power BI 仪表板、报表和视觉对象。 在 Power BI 服务中查看报表和仪表板时，使用“共享到 Teams”功能可快速开始对话。
 
@@ -27,9 +27,9 @@ ms.locfileid: "87478052"
 
 - Power BI 管理员未在 Power BI 管理门户中禁用“共享到 Teams”租户设置。 该设置允许组织隐藏“共享到 Teams”按钮。 有关详细信息，请参阅 [Power BI 管理门户](../admin/service-admin-portal.md#share-to-teams-tenant-setting)一文。
 
-请参阅[使用 Power BI 在 Microsoft Teams 中开展协作](service-collaborate-microsoft-teams.md)，其中介绍了 Power BI 和 Teams 协同工作的背景以及其他要求。
+请参阅[使用 Power BI 在 Microsoft Teams 中开展协作](service-collaborate-microsoft-teams.md)，其中介绍了 Power BI 和 Microsoft Teams 协同工作的背景以及其他要求。
 
-## <a name="share-power-bi-content-to-teams"></a>向 Teams 共享 Power BI 内容
+## <a name="share-power-bi-content-to-microsoft-teams"></a>将 Power BI 内容共享到 Microsoft Teams
 
 按照以下步骤将 Power BI 服务中的报表、仪表板和视觉对象的链接共享到 Microsoft Teams 频道和聊天。
 

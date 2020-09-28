@@ -6,15 +6,15 @@ ms.reviewer: lukaszp
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: how-to
-ms.date: 07/30/2020
+ms.date: 09/17/2020
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: c74c618eb4c748d94260573c1ddd4266d3cf5c0e
-ms.sourcegitcommit: d9d67ee47954379c2df8db8d0dc8302de4c9f1e5
+ms.openlocfilehash: efddfbdb70b2c20ad650eda6a16a5d7defb758e8
+ms.sourcegitcommit: fa0a1561aba2a392fb56e7030e1a0537806a9260
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/31/2020
-ms.locfileid: "87478075"
+ms.lasthandoff: 09/19/2020
+ms.locfileid: "90811842"
 ---
 # <a name="set-featured-tables-in-power-bi-desktop-preview"></a>在 Power BI Desktop 中设置精选表（预览版）
 
@@ -66,19 +66,13 @@ ms.locfileid: "87478075"
 
 下面是初始预览的一些限制。
 
-- 具有以下功能的 Power BI 数据集中的精选表不在 Excel 中显示： 
+- 具有以下功能的 Power BI 数据集中的精选表不在 Excel 中显示：
 
-    - 行级别安全性数据集。
-    - 启用了 Microsoft 信息保护的数据集。
     - DirectQuery 数据集。
     - 具有实时连接的数据集。
 
-- Excel 仅显示精选表的列和计算列中的数据。 初始预览中不提供以下内容：
-
-    - 针对精选表定义的度量值。
-    - 针对相关表定义的度量值以及从关系计算的隐式度量值。
-
-- Excel 只显示新 Power BI 工作区中存储的精选表。 存储在经典工作区或“我的工作区”中的精选表不会在 Excel 中显示为数据类型。 你可以在 Power BI 中[将经典工作区升级到新工作区](service-upgrade-workspaces.md)。
+- Excel 仅显示精选表的列和计算列中的数据。 初始预览中未提供针对相关表定义的度量值以及从关系计算的隐式度量值。
+- Excel 只显示新 Power BI 工作区中存储的精选表。 存储在经典工作区中的精选表不会在 Excel 中显示为数据类型。 你可以在 Power BI 中[将经典工作区升级到新工作区](service-upgrade-workspaces.md)。
 - 有关其他 Excel 注意事项，请参阅“在 Excel 中访问 Power BI 精选表”一文中的[注意事项和限制](service-excel-featured-tables.md#considerations-and-limitations)。
 
 ## <a name="next-steps"></a>后续步骤

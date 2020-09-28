@@ -1,5 +1,5 @@
 ---
-title: Power BI 使用者的许可证类型
+title: Power BI 业务用户的许可证类型
 description: 了解不同类型的许可证以及如何确定你拥有的许可证类型。
 author: mihart
 ms.reviewer: lukasz
@@ -7,22 +7,22 @@ ms.service: powerbi
 ms.subservice: powerbi-consumer
 Ms.custom: css_fy20Q4
 ms.topic: how-to
-ms.date: 07/15/2020
+ms.date: 09/17/2020
 ms.author: mihart
 ms.custom: licensing support
 LocalizationGroup: consumers
-ms.openlocfilehash: 6e84158d01f1e257743052df4d621485497379fd
-ms.sourcegitcommit: 11deeccf596e9bb8f22615276a152614f7579f35
+ms.openlocfilehash: c46da515a4f0f58c0e9fe92f01a3a0eaeb68a1de
+ms.sourcegitcommit: cb606d3ae95300683caf1853e229d8981302a8e2
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/16/2020
-ms.locfileid: "86409481"
+ms.lasthandoff: 09/18/2020
+ms.locfileid: "90763933"
 ---
-# <a name="licenses-and-subscriptions-for-consumers"></a>使用者的许可证和订阅
+# <a name="licenses-and-subscriptions-for-business-users"></a>业务用户的许可证和订阅
 
 [!INCLUDE[consumer-appliesto-ynnn](../includes/consumer-appliesto-ynnn.md)]
 
-作为[使用者](end-user-consumer.md)，你可以使用 Power BI 服务来浏览报表和仪表板，以便基于数据做出业务决策。 如果你使用 Power BI 已有一段时间，或与设计者同事聊过天，你可能会发现，有些功能只有在拥有特定类型的许可证、订阅或权限时才能使用。
+作为[业务用户](end-user-consumer.md)，你可以使用 Power BI 服务来浏览报表和仪表板，以便基于数据做出业务决策。 如果你使用 Power BI 已有一段时间，或与设计者同事聊过天，你可能会发现，有些功能只有在拥有特定类型的许可证、订阅或权限时才能使用。
 
 在 Power BI 服务中能执行的操作取决于三个方面：
 -    正在使用的许可证和订阅的类型，
@@ -36,13 +36,13 @@ ms.locfileid: "86409481"
 
 ## <a name="licenses"></a>许可证
 
-Power BI 服务的每个用户都使用免费许可证或 Pro 许可证 。 如果你是 Power BI 使用者，你可能使用的是由 Power BI 租户管理员管理的许可证。
+Power BI 服务的每个用户都使用免费许可证或 Pro 许可证。 如果你是 Power BI 业务用户，你可能使用的是由 Power BI 租户管理员管理的免费许可证。
 
 你可以同时拥有多个许可证。  该服务会始终为你提供与你目前拥有的最宽松的许可证等同的体验。
 
 ## <a name="power-bi-premium-capacity"></a>Power BI 高级容量
 
-Premium 是一种组织订阅，它提供了另一种存储内容的方式 - 将内存存储在专用容量中。 借助 Premium，组织内外具有权限的任何人都可以查看 Power BI 内容，而无需购买个人 Power BI Pro 许可证。 
+Premium 是一种组织订阅，它提供了另一种存储内容的方式 - 将内存存储在专用容量中。 借助 Premium，组织内外具有权限的任何人都可以查看存储在此高级容量中的内容，而无需购买个人 Power BI Pro 许可证。 
 
 Premium 允许 Pro 用户广泛分发内容，且不要求查看内容的收件人提供 Pro 许可证。 内容设计者需要提供 Pro 许可证。 设计人员连接到数据源、模型数据，并创建打包为工作区应用的报表和仪表板。 如果向用户分配了[ Power BI Premium 容量的工作区中的角色](end-user-workspaces.md)，即使用户没有 Pro 许可证仍可访问该工作区。
 
@@ -57,7 +57,7 @@ Premium 允许 Pro 用户广泛分发内容，且不要求查看内容的收件�
 
 第一位用户 Pradtanna 具有 Office 365 E5，其中包含 Power BI Pro 许可证。
 
-![Office 门户“订阅”选项卡](media/end-user-license/power-bi-license-office.png)
+![显示 Office 365 E5 订阅的“Office 门户订阅”选项卡](media/end-user-license/power-bi-license-office.png)
 
 第二个用户 Zalan 具有 Power BI 免费许可证。 
 
@@ -91,9 +91,9 @@ Premium 允许 Pro 用户广泛分发内容，且不要求查看内容的收件�
 
 ## <a name="putting-it-all-together"></a>汇总
 
-组织购买高级订阅时，管理员通常会将 Pro 许可证分配给将使用高级容量以及创建和共享内容的员工。 Pro 用户可创建[工作区](end-user-workspaces.md)，并将内容（仪表板、报表、应用）添加到这些工作区。 为了允许免费用户在这些工作区中协作，管理员或 Pro 用户将这些工作区分配到专用容量中。  
+组织购买高级订阅时，管理员通常会将 Pro 许可证分配给将使用高级容量创建和共享内容的员工。 Pro 用户可创建[工作区](end-user-workspaces.md)，并将内容（仪表板、报表、应用）添加到这些工作区。 为了允许免费用户在这些工作区中协作，管理员或 Pro 用户将这些工作区分配到专用容量中。  
 
-|许可证类型  |共享容量  |专用容量  |
+|许可证类型  |共享容量 |专用高级容量  |
 |---------|---------|---------|
 |**免费**     |  用作个人沙盒，你可以在其中为自己创建内容并与该内容进行交互。 免费许可证是试用 Power BI 服务的好方法。 你不能使用来自其他人的内容，也不能与他人共享你的内容 <sup>1</sup>     |   与分配给专用容量的内容进行交互，并与你共享。 免费和 Pro 用户可以进行协作，而无需免费用户拥有 Pro 帐户。      |
 |**Pro**     |  通过创建和共享内容与其他 Pro 版用户协作。        |  通过创建和共享内容与免费版和 Pro 版用户协作。       |
@@ -109,7 +109,7 @@ Premium 允许 Pro 用户广泛分发内容，且不要求查看内容的收件�
 
     ![三个工作区的图像](media/end-user-license/power-bi-dedicated.jpg)
 
-Power BI Pro 设计者可以在任何一个工作区中与其他 Pro 用户共享和协作。 但是，Power BI Pro 用户可以与免费版用户共享和协作的唯一方法是使用高级专用容量中的工作区 B。  在此工作区中，设计者向协作者分配以下角色。 角色决定了可以在此工作区中执行什么操作。 Power BI 使用者通常分配有查看者角色。 若要详细了解角色，请参阅 [Power BI 使用者的工作区](end-user-workspaces.md)。
+Power BI Pro 设计者可以在任何一个工作区中与其他 Pro 用户共享和协作。 但是，Power BI Pro 用户可以与免费版用户共享和协作的唯一方法是使用高级专用容量中的工作区 B。  在此工作区中，设计者向协作者分配以下角色。 角色决定了可以在此工作区中执行什么操作。 Power BI 业务用户通常分配有查看者角色。 若要详细了解角色，请参阅 [Power BI 业务用户的工作区](end-user-workspaces.md)。
 
 ## <a name="considerations-and-troubleshooting"></a>注意事项和疑难解答
 
@@ -129,6 +129,6 @@ Power BI Pro 设计者可以在任何一个工作区中与其他 Pro 用户共�
 
 ## <a name="next-steps"></a>后续步骤
 
-- [我是 Power BI 使用者吗？](end-user-consumer.md)    
+- [我是 Power BI 业务用户吗？](end-user-consumer.md)    
 - [了解工作区](end-user-workspaces.md)    
-- [查看按许可证类型列出的 Power BI 使用者](end-user-features.md)
+- [查看按许可证类型列出的 Power BI 业务用户功能](end-user-features.md)

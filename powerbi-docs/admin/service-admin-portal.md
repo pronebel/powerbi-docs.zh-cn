@@ -10,12 +10,12 @@ ms.date: 09/03/2020
 ms.author: kfollis
 ms.custom: seodec18
 LocalizationGroup: Administration
-ms.openlocfilehash: f6527b326c2c779dda5a6d4b1c1276c84d3ec320
-ms.sourcegitcommit: 002c140d0eae3137a137e9a855486af6c55ad957
+ms.openlocfilehash: f52993c3876db5c8f0453fb2e6a25ce0b78af017
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/10/2020
-ms.locfileid: "89642798"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90857947"
 ---
 # <a name="administering-power-bi-in-the-admin-portal"></a>在管理门户中管理 Power BI
 
@@ -116,7 +116,7 @@ ms.locfileid: "89642798"
 当禁用整个组织的使用指标时，管理员还可以选择以下一个或两个选项：
 
 - **删除所有现有的使用指标内容**，可删除通过使用指标报表和数据集构建的所有现有报表和仪表板磁贴。 此选项可以删除组织中可能已在使用的所有用户对使用指标数据的所有访问内容。
-- **删除当前使用指标内容中的所有现有每个用户数据** 此选项可以删除组织中可能已在使用的所有用户对使用指标数据的所有访问内容。 
+- 删除当前使用指标内容中的所有现有每个用户数据可以删除组织中所有用户（可能已在使用数据）对每个用户数据的全部访问权限。
 
 请谨慎操作，因为删除现有的使用指标内容和每个用户指标内容是不可逆转的操作。
 
@@ -156,7 +156,7 @@ ms.locfileid: "89642798"
 
     ![启用所有设置](media/service-admin-portal/powerbi-admin-tenant-settings-enabled.png)
 
-* **针对组织的子集启用**：可以将设置应用于组织中允许使用此功能的特定安全组，而不是为整个组织启用此功能。
+* **针对组织的子集启用**：允许组织中的特定安全组使用此功能。
 
     还可以为除特定安全组之外的整个组织启用某功能。
 
@@ -172,9 +172,11 @@ ms.locfileid: "89642798"
 
 ### <a name="publish-get-help-information"></a>发布“获取帮助”信息
 
+![发布“获取帮助”信息](media/service-admin-portal/powerbi-admin-tenant-settings-gethelp.png)
+
 管理员可以指定内部 URL 以覆盖 Power BI 帮助菜单上的链接的目标并进行授权升级。 如果设置了自定义 URL，则组织中的用户将转到内部帮助和支持资源，而不是默认目标。 可以自定义以下资源目标：
 
-* 学习。 默认情况下，此帮助菜单链接指向[所有 Power BI 学习路径和模块的列表](https://docs.microsoft.com/learn/browse/?products=power-bi)。 若要改为将此链接定向到内部训练资源，请为训练文档设置自定义 URL。
+* 学习。 默认情况下，此帮助菜单链接指向[所有 Power BI 学习路径和模块的列表](/learn/browse/?products=power-bi)。 若要改为将此链接定向到内部训练资源，请为训练文档设置自定义 URL。
 
 * 社区。 若要将用户转到帮助菜单中的内部论坛（而不是 [Power BI 社区](https://community.powerbi.com/)），请设置讨论论坛的自定义 URL。
 
@@ -182,17 +184,17 @@ ms.locfileid: "89642798"
 
 * 获取帮助。 若要将用户转到帮助菜单中的技术支持（而不是 [Power BI 支持](https://powerbi.microsoft.com/support/)），请设置技术支持的自定义 URL。
 
-![发布“获取帮助”信息](media/service-admin-portal/powerbi-admin-tenant-settings-gethelp.png)
-
 ### <a name="receive-email-notifications-for-service-outages-or-incidents"></a>接收与服务故障或突发事件相关的电子邮件通知
 
 如果此租户受到服务中断或突发事件的影响，已启用邮件的安全组将收到电子邮件通知。 了解有关[服务中断通知](service-interruption-notifications.md)的详细信息。
 
 ### <a name="allow-users-to-try-power-bi-pro"></a>允许用户试用 Power BI Pro
 
-“允许用户试用 Power BI Pro”设置在默认情况下处于启用状态，并提高了对用户如何获取 Power BI Pro 许可证的控制。 在已阻止自助购买的情况下，此设置允许用户启动 Power BI Pro 试用版。 最终用户体验取决于许可证设置的组合方式。 下表显示了从 Power BI（免费）到 Power BI Pro 的升级体验如何受到不同设置组合的影响：
+![允许用户试用 Power BI Pro 设置 UI](media/service-admin-portal/allow-pro-trial.png)
 
-| 自助购买设置 | 允许用户试用 Power BI Pro 设置 | 结束用户体验 |
+默认情况下启用“允许用户试用 Power BI Pro”设置。 此设置提高了对用户如何获取 Power BI Pro 许可证的控制。 在已阻止自助购买的情况下，此设置允许用户启动 Power BI Pro 试用版。 最终用户体验取决于许可证设置的组合方式。 下表显示了从 Power BI（免费）到 Power BI Pro 的升级体验如何受到不同设置组合的影响：
+
+| 自助购买设置 | 允许用户试用 Power BI Pro 设置 | 最终用户体验 |
 | ------ | ------ | ----- |
 | 已启用 | 已禁用 | 用户可以购买 Pro 许可证，但无法启动试用版 |
 | 已启用 | 已启用 | 用户可以启动 Pro 的免费试用版，也可以升级到付费许可证 |
@@ -200,9 +202,7 @@ ms.locfileid: "89642798"
 | 已禁用 | 已启用 | 用户可以启动 Pro 试用版，但必须联系 IT 管理员以获取付费许可证 |
 
 > [!NOTE]
-> 可以在[帮助和支持设置](#help-and-support-settings)中添加授权请求的内部 URL。 如果设置了 URL，则它会覆盖默认购买体验。 可以在上表中所述的情况下购买许可证的用户将被重定向到内部 URL。
-
-![允许用户试用 Power BI Pro 设置 UI](media/service-admin-portal/allow-pro-trial.png)
+> 可以在[帮助和支持设置](#help-and-support-settings)中添加授权请求的内部 URL。 如果设置了 URL，则它会覆盖默认自助购买体验。 它不会对 Power BI Pro 许可证试用版的注册进行重定向。 可以在上表中所述的情况下购买许可证的用户将被重定向到内部 URL。
 
 若要了解详细信息，请参阅[启用或禁用自助注册和购买](service-admin-disable-self-service.md)。
 
@@ -253,13 +253,13 @@ ms.locfileid: "89642798"
 
 ### <a name="allow-azure-active-directory-guest-users-to-access-power-bi"></a>允许 Azure Active Directory 来宾用户访问 Power BI
 
-启用此设置可允许 Azure Active Directory 企业到企业 (Azure AD B2B) 来宾用户访问 Power BI。 如果禁用此设置，则来宾用户尝试访问 Power BI 时会收到错误。 当你为整个组织禁用此设置时，还将阻止用户邀请来宾加入你的组织。 使用“特定安全组”选项控制哪些来宾用户可以访问 Power BI。
+启用此设置可允许 Azure Active Directory 企业到企业 (Azure AD B2B) 来宾用户访问 Power BI。 如果禁用此设置，则来宾用户尝试访问 Power BI 时会收到错误。 为整个组织禁用此设置的操作还将阻止用户邀请来宾加入你的组织。 使用“特定安全组”选项控制哪些来宾用户可以访问 Power BI。
 
 ![允许 Azure Active Directory 来宾用户访问 Power BI](media/service-admin-portal/powerbi-admin-allow-aad-b2b-guests.png)
 
 ### <a name="invite-external-users-to-your-organization"></a>邀请外部用户加入你的组织 
 
-通过“邀请外部用户加入你的组织”设置，组织可以选择能否通过 Power BI 共享和权限体验来邀请新的外部用户加入组织。 禁用后，如果外部用户尚不是组织中的来宾用户，则无法通过 Power BI 将其添加到组织中。 
+通过“邀请外部用户加入你的组织”设置，组织可以选择能否通过 Power BI 共享和权限体验来邀请新的外部用户加入组织。 如果已禁用此设置，则尚不是组织中的来宾用户的外部用户无法通过 Power BI 将其添加到组织中。
 
 ![邀请外部用户加入你的组织](media/service-admin-portal/powerbi-admin-allow-invite-aad-b2b-guests.png)
 
@@ -298,7 +298,7 @@ ms.locfileid: "89642798"
 
 ### <a name="export-data"></a>导出数据
 
-组织中的用户可以从磁贴或可视化效果导出数据。 这会控制 Excel 中的“分析”、“导出到 .csv”、数据集下载 (.pbix) 和 Power BI 服务 Live Connect 功能。 详细了解如何[从磁贴或视觉对象导出数据](../visuals/power-bi-visualization-export-data.md)。
+组织中的用户可以从磁贴或可视化效果导出数据。 此设置会控制“在 Excel 中分析”、“导出到 .csv”、数据集下载 (.pbix) 和 Power BI 服务 Live Connect 功能。 详细了解如何[从磁贴或视觉对象导出数据](../visuals/power-bi-visualization-export-data.md)。
 
 >[!NOTE]
 > 在引入“导出至 Excel”设置之前，此设置还控制了将数据导出到 Excel 文件的操作。 有关详细信息，请参阅 [“导出至 Excel”下的注释](#export-to-excel)。
@@ -488,19 +488,19 @@ Azure AD B2B 来宾用户可以编辑和管理组织中的内容。 [了解详�
 
 组织中的用户可以创建模板应用工作区。 控制哪些用户可以通过 [AppSource](https://appsource.microsoft.com) 或其他分发方法，将模板应用发布或分发给组织外部客户端。
 
-![Power BI 管理门户的创建模板应用设置](media/service-admin-portal/power-bi-admin-portal-template-app-settings.png)
+![发布为整个组织启用的模板应用设置](media/service-admin-portal/power-bi-admin-portal-template-app-settings.png)
 
 ### <a name="install-template-apps-listed-on-appsource"></a>安装 AppSource 上列出的模板应用
 
 组织中的用户只能从 [AppSource](https://appsource.microsoft.com) 下载并安装模板应用。 控制哪些特定用户或安全组可以安装 AppSource 中的模板应用。
 
-![Power BI 管理门户中的“安装模板应用”设置](media/service-admin-portal/power-bi-admin-portal-template-app-settings-installer-appsource.png)
+![安装模板应用设置](media/service-admin-portal/power-bi-admin-portal-template-app-settings-installer-appsource.png)
 
 ### <a name="install-template-apps-not-listed-on-appsource"></a>安装 AppSource 上未列出的模板应用
 
 控制组织中哪些用户可以下载并安装 [AppSource](https://appsource.microsoft.com) 上未列出的模板应用。
 
-![Power BI 管理门户中的“安装模板应用”设置](media/service-admin-portal/power-bi-admin-portal-template-app-settings-installer-nonappsource.png)
+![安装 AppSource 设置上未列出的模板应用](media/service-admin-portal/power-bi-admin-portal-template-app-settings-installer-nonappsource.png)
 
 ## <a name="capacity-settings"></a>容量设置
 

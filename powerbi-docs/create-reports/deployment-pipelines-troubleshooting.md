@@ -6,15 +6,15 @@ ms.author: kesharab
 ms.topic: troubleshooting
 ms.service: powerbi
 ms.subservice: powerbi-service
-ms.date: 05/06/2020
-ms.openlocfilehash: b911af4c7137aac9352c16985aac3a79a7eec87e
-ms.sourcegitcommit: 10c5b6cd5e7070f96de8a9f1d9b95f3d242ac7f2
+ms.date: 09/15/2020
+ms.openlocfilehash: f7b37392581ad532093b0a543fe75cdb969d2c86
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/21/2020
-ms.locfileid: "86557155"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90855349"
 ---
-# <a name="deployment-pipelines-troubleshooting-preview"></a>解决部署管道问题（预览版）
+# <a name="deployment-pipelines-troubleshooting"></a>解决部署管道问题
 
 使用本文解决部署管道问题。
 
@@ -39,6 +39,13 @@ ms.locfileid: "86557155"
 * 只能将工作区分配到单个管道
 
 * 你是新工作区的管理员
+
+### <a name="why-cant-i-see-the-pipeline-stage-tag-in-my-workspace"></a>为什么看不到我的工作区中的管道阶段标记
+
+部署管道显示分配给管道的工作区中的管道阶段标记。 开发和测试阶段的标记始终可见。 但是，如果你有权[访问管道](deployment-pipelines-process.md#user-with-pipeline-access)，或者如果你是[工作区管理员](deployment-pipelines-process.md#workspace-admin)，则只会看到生产标记。
+
+> [!div class="mx-imgBorder"]
+> ![生产管道工作区中的生产标记的屏幕截图。](media/deployment-pipelines-troubleshooting/production-tag.png)
 
 ## <a name="licensing"></a>许可
 
@@ -112,7 +119,7 @@ ms.locfileid: "86557155"
 
 ![由于链接断开而导致部署失败时显示的“无效规则”错误的屏幕截图。](media/deployment-pipelines-troubleshooting/broken-rule.png)
 
-当以前成功的部署由于链接断开而失败时，将显示一条警告。 可以单击“配置规则”以导航到“部署设置”窗格，在其中标记了失败的数据集。 单击数据集后，将标记打破的规则。
+当以前成功的部署由于链接断开而失败时，将显示一条警告。 可以选择“配置规则”以导航到“部署设置”窗格，在其中标记了失败的数据集。 选择数据集后，将标记打破的规则。
 
 若要成功部署，请修复或删除打破的规则，然后重新部署。
 
@@ -120,9 +127,9 @@ ms.locfileid: "86557155"
 
 无法在 Power BI 服务中更改数据源连接。
 
-如果要在测试或生产阶段中更改数据源，可以使用[数据集规则](deployment-pipelines-get-started.md#step-4---create-dataset-rules)或 [API](https://docs.microsoft.com/rest/api/power-bi/datasets/updateparametersingroup)。 数据集规则仅在下一个部署后才会生效。
+如果要在测试或生产阶段中更改数据源，可以使用[数据集规则](deployment-pipelines-get-started.md#step-4---create-dataset-rules)或 [API](/rest/api/power-bi/datasets/updateparametersingroup)。 数据集规则仅在下一个部署后才会生效。
 
-### <a name="i-fixed-a-bug-in-production-but-now-i-cant-click-the-deploy-to-previous-stage-button-why-is-it-greyed-out"></a>我修复了生产中的 bug，但现在无法单击“部署至前一阶段”按钮。 为何灰显？
+### <a name="i-fixed-a-bug-in-production-but-now-i-cant-select-the-deploy-to-previous-stage-button-why-is-it-greyed-out"></a>我修复了生产中的 bug，但现在无法选择“部署至前一阶段”按钮。 为何灰显？
 
 只能反向部署到空阶段。 如果测试阶段中包含内容，则将无法从生产反向部署。
 

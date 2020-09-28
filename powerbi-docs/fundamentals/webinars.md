@@ -6,14 +6,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 08/03/2020
+ms.date: 09/22/2020
 ms.author: kfollis
-ms.openlocfilehash: d7b36d7ecbbf9d046c02f275ca83d7f8c8a196d5
-ms.sourcegitcommit: a7227f6d3236e6e0a7bc1f83ff6099b5cd58bff3
+ms.openlocfilehash: 76f0963da1a7cecec6f97fc7e0ab534f7d4bcb8a
+ms.sourcegitcommit: ff981839e805f523748b7e71474acccf7bdcb04f
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2020
-ms.locfileid: "87768392"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "91020012"
 ---
 # <a name="power-bi-webinars"></a>Power BI 网络研讨会
 [//]: # "Tatevik Tatero (tatevik.teroyan@simple-concepts.com) 是与 Chauncy Freels 合作的供应商，可帮助维护此网络研讨会列表"
@@ -22,11 +22,23 @@ ms.locfileid: "87768392"
 
 ## <a name="upcoming-webinars"></a>即将举行的网络研讨会
 
+**使用 Power BI 快速启动和运行**  
+作者：Miguel Martinez，Microsoft  
+[注册以观看 2020 年 11 月 5 日上午 10:00–11:00（太平洋夏令时）的视频](https://info.microsoft.com/ww-landing-get-up-and-running-quickly-with-power-bi.html?lcid=en-us)
+
 [Power BI 社区即将举行的网络研讨会](https://powerbi.microsoft.com/blog/tag/community-webinars/?Is=Website)
 
 ## <a name="featured-webinars"></a>特别推荐的网络研讨会
 
 开始加入这些受欢迎的按需网络研讨会
+
+**使用 Microsoft Power BI 实时监视数据**  
+作者：Miguel Martinez 和 Peter Myers  
+[立即观看](https://info.microsoft.com/ww-landing-Monitor-Your-Data-in-Real-time-with-Microsoft-Power-BI.html?lcid=en-us)
+
+**使用 Power BI 和 Snowflake 生成可缩放的 BI 解决方案**  
+作者：Chris Webb、Craig Collier 和 Chris Holliday  
+[立即观看](https://info.microsoft.com/ww-landing-build-scalable-BI-solutions-using-power-BI-and-snowflake.html?lcid=en-us)
 
 **利用管理 BI 内容的最佳做法，提高用户满意度**  
 作者：Nimrod Shalit  

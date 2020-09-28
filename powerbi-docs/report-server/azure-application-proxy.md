@@ -8,16 +8,16 @@ ms.subservice: powerbi-report-server
 ms.topic: how-to
 ms.date: 07/28/2020
 ms.author: maggies
-ms.openlocfilehash: 1a9fbfc5d764a9dbda75bd60e0efb6da55efd202
-ms.sourcegitcommit: a254f6e2453656f6783690669be8e881934e15ac
+ms.openlocfilehash: 53f8a0a2d634ebcbd0023f560f8ee35e629d4d09
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/28/2020
-ms.locfileid: "87364068"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90861282"
 ---
 # <a name="configure-power-bi-report-server-with-azure-application-proxy"></a>为 Power BI 报表服务器配置 Azure 应用程序代理
 
-本文介绍了如何使用 Azure Active Directory 应用程序代理连接到 Power BI 报表服务器和 SQL Server Reporting Services (SSRS) 2016 及更高版本。 通过这种集成，未接入企业网络的用户可以从自己的客户端浏览器访问 Power BI 报表服务器和 Reporting Services 报表，同时受到 Azure Active Directory (AD) 保护。 详细了解如何通过 [Azure Active Directory 应用程序代理](https://docs.microsoft.com/azure/active-directory/manage-apps/application-proxy)远程访问本地应用程序。
+本文介绍了如何使用 Azure Active Directory 应用程序代理连接到 Power BI 报表服务器和 SQL Server Reporting Services (SSRS) 2016 及更高版本。 通过这种集成，未接入企业网络的用户可以从自己的客户端浏览器访问 Power BI 报表服务器和 Reporting Services 报表，同时受到 Azure Active Directory (AD) 保护。 详细了解如何通过 [Azure Active Directory 应用程序代理](/azure/active-directory/manage-apps/application-proxy)远程访问本地应用程序。
 
 ## <a name="environment-details"></a>环境详细信息
 
@@ -125,7 +125,7 @@ setspn -s MSSQLSVC/FQDN\_of\_SQL\_Server<SQL service service account>
 
 ## <a name="configure-azure-application-proxy-connector"></a>配置 Azure 应用程序代理连接器
 
-请参阅关于[与应用程序代理连接器相关的配置](https://docs.microsoft.com/azure/active-directory/manage-apps/application-proxy-add-on-premises-application#add-an-on-premises-app-to-azure-ad)文章
+请参阅关于[与应用程序代理连接器相关的配置](/azure/active-directory/manage-apps/application-proxy-add-on-premises-application#add-an-on-premises-app-to-azure-ad)文章
 
 我们在 Power BI 报表服务器上安装了应用程序代理连接器，但你可以在单独的服务器上配置它，并确保正确设置了委派。
 
@@ -150,14 +150,14 @@ setspn -s MSSQLSVC/FQDN\_of\_SQL\_Server<SQL service service account>
 
 现在可以配置 Azure AD 应用程序代理了。
 
-使用以下设置通过应用程序代理发布 Power BI 报表服务器。 有关如何通过应用程序代理发布应用程序的分步说明，请参阅[使用 Azure AD 应用程序代理发布应用程序](https://docs.microsoft.com/azure/active-directory/manage-apps/application-proxy-add-on-premises-application#add-an-on-premises-app-to-azure-ad)。
+使用以下设置通过应用程序代理发布 Power BI 报表服务器。 有关如何通过应用程序代理发布应用程序的分步说明，请参阅[使用 Azure AD 应用程序代理发布应用程序](/azure/active-directory/manage-apps/application-proxy-add-on-premises-application#add-an-on-premises-app-to-azure-ad)。
 
 - **内部 URL**：输入连接器可以在企业网络中访问的报表服务器的 URL。 请确保此 URL 是可以从连接器安装所在的服务器进行访问的。 最佳做法是使用一级域名（如 `https://servername/`），以免通过应用程序代理发布的子路径出现问题。 例如，使用 `https://servername/`，而不是 `https://servername/reports/` 或 `https://servername/reportserver/`。 我们为环境配置了 `https://pbirsazureapp.eastus.cloudapp.azure.com/`。
 
     > [!NOTE]
-    > 建议使用与报表服务器的安全 HTTPS 连接。 若要详细了解操作说明，请参阅[在本机模式报表服务器上配置 SSL 连接](https://docs.microsoft.com/sql/reporting-services/security/configure-ssl-connections-on-a-native-mode-report-server?view=sql-server-2017)。
+    > 建议使用与报表服务器的安全 HTTPS 连接。 若要详细了解操作说明，请参阅[在本机模式报表服务器上配置 SSL 连接](/sql/reporting-services/security/configure-ssl-connections-on-a-native-mode-report-server)。
 
-- **外部 URL**：输入 Power BI 移动应用将连接到的公共 URL。 例如，如果使用的是自定义域，外部 URL 可能为 `https://reports.contoso.com`。 若要使用自定义域，请上传域证书，然后将 DNS 记录指向应用程序的默认 msappproxy.net 域。 有关详细步骤，请参阅[在 Azure AD 应用程序代理中使用自定义域](https://docs.microsoft.com/azure/active-directory/manage-apps/application-proxy-configure-custom-domain)。
+- **外部 URL**：输入 Power BI 移动应用将连接到的公共 URL。 例如，如果使用的是自定义域，外部 URL 可能为 `https://reports.contoso.com`。 若要使用自定义域，请上传域证书，然后将 DNS 记录指向应用程序的默认 msappproxy.net 域。 有关详细步骤，请参阅[在 Azure AD 应用程序代理中使用自定义域](/azure/active-directory/manage-apps/application-proxy-configure-custom-domain)。
 
 我们为环境配置了外部 URL `https://pbirsazureapp-umacontoso2410.msappproxy.net/`。
 
@@ -184,7 +184,7 @@ setspn -s MSSQLSVC/FQDN\_of\_SQL\_Server<SQL service service account>
     - 尝试生成报表，或与数据源建立测试连接，这样就能创建 Kerberos 票证了。
     - 成功生成报表/建立测试连接后，打开命令提示符，并运行命令 `klist`。 在“结果”部分中，应该会看到包含 `http/` SPN 的票证。 如果它与你已为 Power BI 报表服务器配置的 SPN 相同，请在这一部分中使用此 SPN。
 
-1. 针对你要代表你的用户使用的连接器选择“委派的登录标识”。 有关详细信息，请参阅[使用不同的本地标识和云标识](https://docs.microsoft.com/azure/active-directory/manage-apps/application-proxy-configure-single-sign-on-with-kcd#working-with-different-on-premises-and-cloud-identities)。
+1. 针对你要代表你的用户使用的连接器选择“委派的登录标识”。 有关详细信息，请参阅[使用不同的本地标识和云标识](/azure/active-directory/manage-apps/application-proxy-configure-single-sign-on-with-kcd#working-with-different-on-premises-and-cloud-identities)。
 
     建议使用用户主体名称。 我们的示例配置为使用“用户主体名称”选项：
 
@@ -216,7 +216,7 @@ setspn -s MSSQLSVC/FQDN\_of\_SQL\_Server<SQL service service account>
 1. 首先，必须配置我们计划在登录时使用的自定义域，然后确保它是经过验证的
 2. 在此示例中，我们购买了 umacontoso.com 域，并为 DNS 区域配置了条目。 也可以尝试使用 `onmicrosoft.com` 域，并将它与本地 AD 同步。
 
-    有关参考，请参阅[教程：将现有自定义 DNS 名称映射到 Azure 应用服务](https://docs.microsoft.com/Azure/app-service/app-service-web-tutorial-custom-domain)一文。
+    有关参考，请参阅[教程：将现有自定义 DNS 名称映射到 Azure 应用服务](/Azure/app-service/app-service-web-tutorial-custom-domain)一文。
 
 1. 成功验证自定义域的 DNS 条目后，应该能够在门户中看到域对应的“已验证”状态。
 
@@ -295,8 +295,6 @@ setspn -s MSSQLSVC/FQDN\_of\_SQL\_Server<SQL service service account>
 
 ## <a name="next-steps"></a>后续步骤
 
-[使用 Azure AD 应用程序代理启用对 Power BI 移动版的远程访问](https://docs.microsoft.com/azure/active-directory/manage-apps/application-proxy-integrate-with-power-bi)
+[使用 Azure AD 应用程序代理启用对 Power BI 移动版的远程访问](/azure/active-directory/manage-apps/application-proxy-integrate-with-power-bi)
 
 更多问题？ [尝试咨询 Power BI 社区](https://community.powerbi.com/)
-
-                

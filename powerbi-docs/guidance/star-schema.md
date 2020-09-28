@@ -8,12 +8,12 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 09/09/2019
 ms.author: v-pemyer
-ms.openlocfilehash: 4172fc2ff4a1da409a1f5586e8b3579e4745fe99
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 193247aaf610d1712b7986394e08d3c21055d2fa
+ms.sourcegitcommit: cff93e604e2c5f24e0f03d6dbdcd10c2332aa487
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83273445"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90965465"
 ---
 # <a name="understand-star-schema-and-the-importance-for-power-bi"></a>了解星型架构及其对 Power BI 的重要性
 
@@ -65,7 +65,7 @@ ms.locfileid: "83273445"
 
 在星型架构设计中，度量值是存储要汇总的值的事实数据表列  。
 
-在 Power BI 模型中，度量值具有不同但类似的定义  。 它是一个采用[数据分析表达式 (DAX)](https://docs.microsoft.com/dax/data-analysis-expressions-dax-reference) 编写的公式，用于实现汇总。 度量值表达式通常利用 DAX 聚合函数（如 SUM、MIN、MAX、AVERAGE 等）在查询时生成标量值结果（值永远不会存储在模型中）。 度量值表达式涵盖广泛，从简单的列聚合到更复杂的公式（覆盖筛选器上下文和/或关系传播的公式）应有尽有。 有关详细信息，请阅读 [Power BI Desktop 中的 DAX 基本概念](https://docs.microsoft.com/power-bi/desktop-quickstart-learn-dax-basics)一文。
+在 Power BI 模型中，度量值具有不同但类似的定义  。 它是一个采用[数据分析表达式 (DAX)](/dax/data-analysis-expressions-dax-reference) 编写的公式，用于实现汇总。 度量值表达式通常利用 DAX 聚合函数（如 SUM、MIN、MAX、AVERAGE 等）在查询时生成标量值结果（值永远不会存储在模型中）。 度量值表达式涵盖广泛，从简单的列聚合到更复杂的公式（覆盖筛选器上下文和/或关系传播的公式）应有尽有。 有关详细信息，请阅读 [Power BI Desktop 中的 DAX 基本概念](../transform-model/desktop-quickstart-learn-dax-basics.md)一文。
 
 请务必了解 Power BI 支持实现汇总的第二种方法。 任何列（通常为数字列）都可以通过报表视觉对象或问答进行汇总。 这些列称为“隐式度量值”  。 他们为模型开发者提供了便利，因为在很多情况下都无需创建度量值。 例如，Adventure Works 经销商销售的“销售额”列可以通过多种方式进行汇总（包括 SUM、COUNT、AVERAGE、MEDIAN、MIN、MAX 等），无需为每种可能存在的聚合类型创建度量值  。
 
@@ -73,7 +73,7 @@ ms.locfileid: "83273445"
 
 不过，即使对于简单的列级汇总，也需要创建度量值，在这一点上有三个具有说服力的原因：
 
-- 如果你知道报表作者将使用[多维表达式 (MDX)](https://docs.microsoft.com/sql/analysis-services/multidimensional-models/mdx/mdx-query-the-basic-query?view=sql-server-2017) 查询模型，则该模型必须包含“显式度量值”  。 使用 DAX 定义显式度量值。 当使用 MDX 查询 Power-BI 数据集时，由于 MDX 无法实现列值的汇总，因此这种设计方法具有很高的相关性。 值得注意的是，执行[在 Excel 中分析](https://docs.microsoft.com/power-bi/service-analyze-in-excel)时使用的是 MDX，因为数据透视表发出 MDX 查询。
+- 如果你知道报表作者将使用[多维表达式 (MDX)](/sql/analysis-services/multidimensional-models/mdx/mdx-query-the-basic-query) 查询模型，则该模型必须包含“显式度量值”  。 使用 DAX 定义显式度量值。 当使用 MDX 查询 Power-BI 数据集时，由于 MDX 无法实现列值的汇总，因此这种设计方法具有很高的相关性。 值得注意的是，执行[在 Excel 中分析](../collaborate-share/service-analyze-in-excel.md)时使用的是 MDX，因为数据透视表发出 MDX 查询。
 - 如果你知道报表作者将使用 MDX 查询设计器创建 Power BI 分页报表，则该模型必定包含显式度量值。 只有 MDX 查询设计器支持[服务器聚合](/sql/reporting-services/report-design/report-builder-functions-aggregate-function)。 因此，如果报表作者需要通过 Power BI（而不是通过分页报表引擎）计算度量值，就必须使用 MDX 查询设计器。
 - 当需要确保报表作者只能以特定方式对列进行汇总的情况。 例如经销商销售的“单位价格”列（表示每个单位的费率）可以汇总，但只能使用特定的聚合函数进行汇总  。 在汇总时，绝不采用求和的方式，但可以使用其他聚合函数（如 MIN、MAX、AVERAGE 等）。在本例中，建模者可以隐藏“单位价格”列，并为所有适用的聚合函数创建度量值  。
 
@@ -83,7 +83,7 @@ ms.locfileid: "83273445"
 
 代理键是添加到表中以支持星型架构建模的一种唯一标识符  。 根据定义，它不会在源数据中进行定义或存储。 一般而言，代理键将添加到关系数据仓库维度表中，以便为每个维度表行提供唯一标识符。
 
-Power BI 模型关系基于一个表中的单个唯一列，这会将筛选器传播到不同表中的单个列。 如果模型中的维度类型表不包含单个唯一列，则必须添加一个唯一标识符，使其成为关系中“一”的一方。 在 Power BI Desktop 中，可以通过创建 [Power Query 索引列](https://docs.microsoft.com/powerquery-m/table-addindexcolumn)轻松地满足这一要求。
+Power BI 模型关系基于一个表中的单个唯一列，这会将筛选器传播到不同表中的单个列。 如果模型中的维度类型表不包含单个唯一列，则必须添加一个唯一标识符，使其成为关系中“一”的一方。 在 Power BI Desktop 中，可以通过创建 [Power Query 索引列](/powerquery-m/table-addindexcolumn)轻松地满足这一要求。
 
 ![Power Query 工具栏中的“创建索引列”](media/star-schema/toolbar-index.png)
 
@@ -150,12 +150,12 @@ Power BI 模型应支持查询成员的历史数据（不受更改影响），�
 
 ![单个角色扮演维度和关系的示例](media/star-schema/relationships.png)
 
-使用非活动关系的唯一方法是定义使用 [USERELATIONSHIP 函数](https://docs.microsoft.com/dax/userelationship-function-dax)的 DAX 表达式。 在我们的示例中，模型开发者必须创建度量值以按发货日期和交货日期分析经销商销售情况。 这种工作可能比较繁琐，尤其是在经销商表定义了许多度量值的情况。 因为度量值过多，还会导致“字段”窗格混乱  。 还有其他一些限制：
+使用非活动关系的唯一方法是定义使用 [USERELATIONSHIP 函数](/dax/userelationship-function-dax)的 DAX 表达式。 在我们的示例中，模型开发者必须创建度量值以按发货日期和交货日期分析经销商销售情况。 这种工作可能比较繁琐，尤其是在经销商表定义了许多度量值的情况。 因为度量值过多，还会导致“字段”窗格混乱  。 还有其他一些限制：
 
 - 当报表作者依赖于汇总列而不是定义度量值时，他们若不编写报表级别的度量值，就无法为非活动关系实现汇总。 在 Power BI Desktop 中创作报表时，只能定义报表级别的度量值。
 - 如果在日期与经销商销售之间只有一个活动的关系路径，则无法同时按不同类型的日期对经销商销售数据进行筛选。 例如，不能生成按已发货销售额绘制订单日期销售额的视觉对象。
 
-为克服这些限制，有一种常见的 Power BI 建模方法，就是为每个角色扮演实例创建维度类型表。 通常使用 DAX 将其他纬度表创建为[计算表](https://docs.microsoft.com/dax/calculatetable-function-dax)。 使用计算表时，该模型可以包含日期表、发货日期表和交货日期表，每个表与其对应的经销商销售表列之间都存在单一且活动的关系    。
+为克服这些限制，有一种常见的 Power BI 建模方法，就是为每个角色扮演实例创建维度类型表。 通常使用 DAX 将其他纬度表创建为[计算表](/dax/calculatetable-function-dax)。 使用计算表时，该模型可以包含日期表、发货日期表和交货日期表，每个表与其对应的经销商销售表列之间都存在单一且活动的关系    。
 
 ![角色扮演维度和关系的示例](media/star-schema/relationships2.png)
 
@@ -174,7 +174,7 @@ Power BI 模型应支持查询成员的历史数据（不受更改影响），�
 
 杂项维度的设计目标是将多个“小”维度合并为一个维度，以减少模型的存储大小，还可以通过呈现更少的模型表来缓解“字段”窗格的混乱情况  。
 
-杂项维度表通常是所有维度属性成员的笛卡尔积，具有代理键列。 代理键提供对表中每一行的唯一引用。 可以在数据仓库中构建维度，也可以通过使用 Power Query 创建执行[完整外部查询联接](https://docs.microsoft.com/powerquery-m/table-join)的查询，然后添加代理键（索引列）。
+杂项维度表通常是所有维度属性成员的笛卡尔积，具有代理键列。 代理键提供对表中每一行的唯一引用。 可以在数据仓库中构建维度，也可以通过使用 Power Query 创建执行[完整外部查询联接](/powerquery-m/table-join)的查询，然后添加代理键（索引列）。
 
 ![杂项维度示例](media/star-schema/junk-dimension.png)
 
@@ -216,5 +216,3 @@ Power BI 模型应支持查询成员的历史数据（不受更改影响），�
 - [活动与非活动关系指南](relationships-active-inactive.md)
 - 是否有任何问题? [尝试咨询 Power BI 社区](https://community.powerbi.com/)
 - 建议？ [提出改进 Power BI 的想法](https://ideas.powerbi.com/)
-
-

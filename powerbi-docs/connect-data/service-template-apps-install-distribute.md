@@ -6,14 +6,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-template-apps
 ms.topic: how-to
-ms.date: 05/19/2020
+ms.date: 09/17/2020
 ms.author: painbar
-ms.openlocfilehash: e66d1b8b57af9ee04239e7222db742b64cc25883
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: e152743c243e1af02650d919168dee0969e3a89e
+ms.sourcegitcommit: cb606d3ae95300683caf1853e229d8981302a8e2
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85235694"
+ms.lasthandoff: 09/18/2020
+ms.locfileid: "90763750"
 ---
 # <a name="install-and-distribute-template-apps-in-your-organization"></a>在组织中安装和分发模板应用
 
@@ -75,13 +75,9 @@ ms.locfileid: "85235694"
 
    ![GitHub 应用的“连接数据”链接](media/service-template-apps-install-distribute/power-bi-template-app-connect-data.png)
 
+    这将打开“参数”对话框，你可以在其中将数据源从示例数据更改为你自己的数据源（请参阅[已知限制](service-template-apps-overview.md#known-limitations)），然后打开“身份验证方法”对话框。 你可能必须重新定义这些对话框中的值。 有关详细信息，请参阅所安装的特定模板应用的文档。
 
-    
-    这将打开一个对话框或一系列对话框，你可以在其中将数据源从示例数据更改为自己的数据源。 这通常意味着重新定义数据集参数和数据源凭据。 请参阅[已知限制](service-template-apps-overview.md#known-limitations)。
-    
-    在下面的示例中，连接到数据涉及两个对话框。
-
-   ![连接到数据对话框](media/service-template-apps-install-distribute/power-bi-template-app-connect-to-data-dialogs.png)
+   ![连接到数据对话框的屏幕截图。](media/service-template-apps-install-distribute/power-bi-template-app-connect-to-data-dialogs.png)
 
     填写完连接对话框后，连接过程开始。 横幅提示你正在刷新数据，与此同时你正在查看示例数据。
 
@@ -110,11 +106,11 @@ ms.locfileid: "85235694"
 
 如果最初是从 AppSource 下载的应用程序，当新版本的模板应用可用时，可以通过两种方式获得通知：
 * Power BI 服务中会出现一个更新横幅，通知你有新应用版本可用。
-  ![模板应用更新通知](media/service-template-apps-install-distribute/power-bi-new-app-version-notification-banner.png)
+  ![模板应用更新通知横幅](media/service-template-apps-install-distribute/power-bi-new-app-version-notification-banner.png)
 * 你会在 Power BI 的通知窗格中收到通知。
 
 
-  ![模板应用更新通知](media/service-template-apps-install-distribute/power-bi-new-app-version-notification-pane.png)
+  ![模板应用更新通知窗格](media/service-template-apps-install-distribute/power-bi-new-app-version-notification-pane.png)
 
 >[!NOTE]
 >如果最初是通过直接链接而不是通过 AppSource 获得的应用，则知道新版本何时可用的唯一方法是联系模板应用创建者。

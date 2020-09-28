@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: how-to
-ms.date: 07/08/2020
+ms.date: 09/18/2020
 LocalizationGroup: Share your work
-ms.openlocfilehash: f652d09d5d954123a47b45b30ab1076763018225
-ms.sourcegitcommit: 002c140d0eae3137a137e9a855486af6c55ad957
+ms.openlocfilehash: 7009b4b195c89659c032b578ada130e12389b496
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/10/2020
-ms.locfileid: "89642647"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90858844"
 ---
 # <a name="publish-to-web-from-power-bi"></a>从 Power BI 发布到 Web
 
@@ -183,6 +183,7 @@ Power BI 管理门户具有控制可以发布到 Web 的人员的设置。 与�
 - “发布到 Web”报表中当前不支持“R”和 Python 视觉对象。
 - 从已发布到 Web 的报表中的视觉对象中导出数据。
 - ArcGIS Maps for Power BI 视觉对象。
+- 有关 Power BI 视觉对象的问答。
 - 包含报表级别 DAX 度量值的报表。
 - 单一登录数据查询模型。
 - 保护机密或专有信息。

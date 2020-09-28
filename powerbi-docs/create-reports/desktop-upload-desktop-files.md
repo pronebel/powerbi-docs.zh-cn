@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: how-to
-ms.date: 06/01/2020
+ms.date: 09/22/2020
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 91b19fd5e357f4ab020b72b259ab5053c36af8f7
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 4405ab8d3e0db949ec825f3eea436183512f862d
+ms.sourcegitcommit: ff981839e805f523748b7e71474acccf7bdcb04f
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85238428"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "91019878"
 ---
 # <a name="publish-datasets-and-reports-from-power-bi-desktop"></a>从 Power BI Desktop 发布数据集和报表
 将 Power BI Desktop 文件发布到 Power BI 服务后，将模型中的数据发布到 Power BI 工作区。 这同样适用于在“报表”视图中创建的所有报表。 你将看到一个同名的新数据集以及工作区导航器中的若干报表。
@@ -30,8 +30,8 @@ ms.locfileid: "85238428"
    ![“发布”按钮](media/desktop-upload-desktop-files/pbid_publish_publishbutton.png)
 
 
-2. 登录到 Power BI。
-3. 选择目标位置。
+2. 如果尚未登录，请登录 Power BI。
+3. 选择目标位置。 从 2020 年 9 月版开始，可以搜索可用工作区列表，查找要发布到的工作区。 通过搜索框可以筛选工作区。 选择工作区，然后单击“选择”按钮进行发布。
 
    ![选择发布目标位置](media/desktop-upload-desktop-files/pbid_publish_select_destination.png)
 
@@ -58,3 +58,13 @@ ms.locfileid: "85238428"
 > [!NOTE]
 > Power BI 报表中的某些数据连接可能包含指向数据的链接，而不是包含导入到 Power BI 服务的数据集中的数据。 例如，在发生更新或交互时，DirectQuery 连接将链接到数据，而不是导入数据本身。 如果报表中链接的数据源位于本地，则你可能需要网关才能从 Power BI 访问它们。 有关详细信息，请参阅[什么是本地数据网关？](../connect-data/service-gateway-onprem.md)。
 > 
+
+## <a name="next-steps"></a>后续步骤
+
+可以使用 Power BI Desktop 执行各种操作。 有关其功能的详细信息，请参阅下列资源：
+
+* [什么是 Power BI Desktop？](../fundamentals/desktop-what-is-desktop.md)
+* [Power BI Desktop 的查询概述](../transform-model/desktop-query-overview.md)
+* [Power BI Desktop 中的数据类型](../connect-data/desktop-data-types.md)
+* [教程：在 Power BI Desktop 中调整和合并数据](../connect-data/desktop-shape-and-combine-data.md)
+* [Power BI Desktop 中的常见查询任务](../transform-model/desktop-common-query-tasks.md)

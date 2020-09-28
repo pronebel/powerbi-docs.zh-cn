@@ -6,15 +6,16 @@ ms.author: kesharab
 ms.topic: how-to
 ms.service: powerbi
 ms.subservice: powerbi-service
-ms.date: 05/06/2020
-ms.openlocfilehash: 8ce11c0ac6a5098c49f4d8aba0b0a09f28be975b
-ms.sourcegitcommit: 10c5b6cd5e7070f96de8a9f1d9b95f3d242ac7f2
+ms.custom: contperfq1
+ms.date: 09/15/2020
+ms.openlocfilehash: 8f486d1f872aec8eaec096bf01d5d36a314c5cef
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/21/2020
-ms.locfileid: "86557247"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90855741"
 ---
-# <a name="get-started-with-deployment-pipelines-preview"></a>开始使用部署管道（预览版）
+# <a name="get-started-with-deployment-pipelines"></a>开始使用部署管道
 
 本文将指导你完成使用部署管道所需的基本设置。
 
@@ -35,13 +36,31 @@ ms.locfileid: "86557247"
 
 ## <a name="step-1---create-a-deployment-pipeline"></a>步骤 1 - 创建部署管道
 
-要创建部署管道，请执行以下操作：
-
-1. 在 Power BI 服务中，从导航窗格中选择“部署管道”，然后单击“创建管道”。
-
-2. 在“创建部署管道”对话框中，输入管道的名称和描述，然后单击“创建”。
+可以从“部署管道”选项卡或从工作区创建管道。
 
 创建管道后，可以将其与其他用户共享，或将其删除。 与其他人共享管道时，你与其共享管道的用户将获得[对管道的访问权限](deployment-pipelines-process.md#user-with-pipeline-access)。 管道访问使用户能够查看、共享、编辑和删除管道。
+
+### <a name="create-a-pipeline-from-the-deployment-pipelines-tab"></a>从“部署管道”选项卡创建管道
+
+若要从“部署管道”选项卡创建管道，请执行以下操作：
+
+1. 在 Power BI 服务中，从导航窗格中选择“部署管道”，然后选择“创建管道”。
+
+2. 在“创建部署管道”对话框中，输入管道的名称和描述，然后选择“创建”。
+
+### <a name="create-a-pipeline-from-a-workspace"></a>从工作区创建管道
+
+可以从现有工作区创建管道，前提为你是[新工作区体验](../collaborate-share/service-create-the-new-workspaces.md)的管理员。
+
+1. 从工作区中，选择“创建管道”。
+
+    > [!div class="mx-imgBorder"]
+    > ![工作区中的“创建管道”按钮的屏幕截图。](media/deployment-pipelines-get-started/workspace-deploy.png)
+
+2. 在“创建部署管道”对话框中，输入管道的名称和描述，然后选择“创建”。
+
+>[!NOTE]
+>如果工作区未分配给组织的高级容量，你会收到[将其分配给容量](../admin/service-admin-premium-manage.md#assign-a-workspace-to-a-capacity)的通知。  
 
 ## <a name="step-2---assign-a-workspace-to-a-deployment-pipeline"></a>步骤 2 - 将工作区分配到部署管道
 
@@ -51,9 +70,12 @@ ms.locfileid: "86557247"
 
 按照以下步骤在部署管道中分配工作区：
 
-1. 在新创建的部署管道中，单击“分配工作区”。
+1. 在新创建的部署管道中，选择“分配工作区”。
 
 2. 在“选择工作区”下拉菜单中，选择要分配给管道的工作区。
+
+    >[!NOTE]
+    >如果是从工作区创建管道，则可以跳过此阶段，因为已选中工作区。
 
 3. 选择要分配工作区的阶段。
 
@@ -82,13 +104,13 @@ ms.locfileid: "86557247"
 
 ### <a name="deploying-all-content"></a>部署所有内容
 
-选择要从中进行部署的阶段，然后单击“部署”按钮。 部署过程会在目标阶段创建一个重复的工作区。 此工作区包含当前阶段中的所有现有内容。
+选择要从中进行部署的阶段，然后选择“部署”按钮。 部署过程会在目标阶段创建一个重复的工作区。 此工作区包含当前阶段中的所有现有内容。
 
 [![说明用于部署管道中的开发和测试阶段的部署按钮的屏幕截图。](media/deployment-pipelines-get-started/deploy.png)](media/deployment-pipelines-get-started/deploy.png#lightbox)
 
 ### <a name="selective-deployment"></a>选择性部署
 
-若要仅部署特定项目，请单击“显示更多”链接，然后选择要部署的项目。 单击“部署”按钮时，只会将选择的项目部署到下一阶段。
+若要仅部署特定项目，请选择“显示更多”链接，然后选择要部署的项目。 单击“部署”按钮时，只会将选择的项目部署到下一阶段。
 
 由于仪表板、报表和数据集是相关的并且具有依赖关系，因此你可以使用选择相关按钮来检查这些项目所依赖的所有项。 例如，如果要将报表部署到下一阶段，则单击“选择相关”按钮将标记该报表所连接到的数据集，以便同时部署两者且报表不会中断。
 
@@ -119,7 +141,7 @@ ms.locfileid: "86557247"
 
 ### <a name="create-a-dataset-rule"></a>创建数据集规则
 
-1. 在要为其创建数据集规则的管道阶段中，单击“部署设置”。
+1. 在要为其创建数据集规则的管道阶段中，选择“部署设置”。
 
     ![“部署设置”按钮（位于各个部署管道阶段的右上方）的屏幕截图。](media/deployment-pipelines-get-started/deployment-settings.png)
 
@@ -127,7 +149,7 @@ ms.locfileid: "86557247"
 
     [![说明如何选择数据集以创建数据集规则的的屏幕截图。](media/deployment-pipelines-get-started/dataset-rules.png)](media/deployment-pipelines-get-started/dataset-rules.png#lightbox)
 
-3. 选择要创建的规则类型，展开列表，然后单击“添加规则”。
+3. 选择要创建的规则类型，展开列表，然后选择“添加规则”。
 
      [![说明如何选择数据源规则以及单击“添加规则”选项的屏幕截图。](media/deployment-pipelines-get-started/add-rule.png)](media/deployment-pipelines-get-started/add-rule.png#lightbox)
 
@@ -139,7 +161,7 @@ ms.locfileid: "86557247"
 
     1. 从列表中选择。
 
-    2. 单击“其他”，并手动添加新数据源。 只能更改为同一类型的数据源。
+    2. 选择“其他”，并手动添加新数据源。 只能更改为同一类型的数据源。
 
 * 参数规则 从参数列表中选择参数；显示当前值。 将值编辑为你希望在每次部署后生效的值。
 
@@ -153,7 +175,7 @@ ms.locfileid: "86557247"
 
 * 如果更改在规则中定义的数据源或参数，或将其从源数据集中删除，则该规则将无效，且部署将失败。
 
-* 无法为类型是“任意”或“二进制”的参数定义参数规则。  有关详细信息，请参阅[数据集更新参数限制](https://docs.microsoft.com/rest/api/power-bi/datasets/updateparameters)。
+* 无法为类型是“任意”或“二进制”的参数定义参数规则。  有关详细信息，请参阅[数据集更新参数限制](/rest/api/power-bi/datasets/updateparameters)。
 
 * 只能为以下数据源定义数据源规则：
     * Azure Analysis Services
@@ -172,7 +194,7 @@ ms.locfileid: "86557247"
 
 在管道阶段中包含内容后，可以将其部署到下一阶段。 将内容部署到另一个阶段通常是在管道中执行了某些操作之后完成的。 例如，在开发阶段对内容进行开发更改，或在测试阶段测试内容。 从阶段到阶段移动内容的典型工作流是从开发到测试，然后再从测试到生产。 有关此过程的详细信息，请参阅[将内容部署到现有工作区](deployment-pipelines-process.md#deploy-content-to-an-existing-workspace)部分。
 
-要将内容部署到部署管道中的下一阶段，请单击阶段底部的“部署”按钮。
+若要将内容部署到部署管道中的下一阶段，请选择阶段底部的“部署”按钮。
 
 查看“测试”和“生产”阶段卡时，可以看到上次部署时间。 这指示上次将内容部署到阶段的时间。
 

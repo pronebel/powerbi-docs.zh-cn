@@ -6,15 +6,15 @@ ms.reviewer: christopher.finlan
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: how-to
-ms.date: 03/11/2020
+ms.date: 09/09/2020
 ms.author: mihart
 LocalizationGroup: Common tasks
-ms.openlocfilehash: b1f9dd6540707993696bddb4494fc73aa782d363
-ms.sourcegitcommit: 92b033ee7a6e36808371b247b7b41536cee6c2f6
+ms.openlocfilehash: 95b4b423b1dffb51d00760a97d21f2bf52df39d8
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/10/2020
-ms.locfileid: "90008896"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90860316"
 ---
 # <a name="paginated-reports-in-the-power-bi-service"></a>Power BI 服务中的分页报表
 
@@ -36,7 +36,7 @@ ms.locfileid: "90008896"
 
 ![单参数的简单报表](./media/end-user-paginated-report/power-bi-report-simple.png)
 
-与分页报表相比，Power BI 报表更具交互性。 Power BI 报表可用于特别报告，并支持更多类型的视觉对象，包括 Power BI 视觉对象。
+与分页报表相比，Power BI 报表更具交互性。 Power BI 报表可用于特别报告，并支持更多类型的视觉对象，包括自定义视觉对象。
 
 ## <a name="identify-a-paginated-report"></a>标识分页报表
 
@@ -78,7 +78,7 @@ ms.locfileid: "90008896"
 ### <a name="export-the-paginated-report"></a>导出分页报表
 可以使用多种不同的选项来导出分页报表，包括 PDF、Word、XML、PowerPoint、Excel 等。 导出时，将保留尽可能多的格式设置。 例如，导出到 Excel、Word、PowerPoint、MHTML 和 PDF 的分页报表将保持“像素完美”格式设置。 
 
-![新的销售订单](./media/end-user-paginated-report/power-bi-exporting.png)
+![显示已导出的分页报表的屏幕截图。](./media/end-user-paginated-report/power-bi-exporting.png)
 
 ![四种不同的导出类型](./media/end-user-paginated-report/power-bi-four.png)
 
