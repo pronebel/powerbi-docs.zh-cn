@@ -12,12 +12,12 @@ metadata:
   author: maggiesMSFT
   ms.author: maggies
   ms.date: 01/14/2020
-  ms.openlocfilehash: f31cda77af94a087815906666e3b4791309368b1
-  ms.sourcegitcommit: 2cf8159535c114045e236c076a711638cfd7d2c8
+  ms.openlocfilehash: 3c3b5889cb7691529dcbf9c20313a6460e85b6b3
+  ms.sourcegitcommit: d153cfc0ce559480c53ec48153a7e131b7a31542
   ms.translationtype: HT
   ms.contentlocale: zh-CN
-  ms.lasthandoff: 09/07/2020
-  ms.locfileid: "89511909"
+  ms.lasthandoff: 09/29/2020
+  ms.locfileid: "91525561"
 landingContent:
 - title: Power BI 指南
   linkLists:
@@ -129,7 +129,7 @@ landingContent:
   linkLists:
   - linkListType: concept
     links:
-    - text: 租户管理员设置
+    - text: 租户设置
       url: admin-tenant-settings.md
     - text: 本地数据网关大小调整
       url: gateway-onprem-sizing.md
