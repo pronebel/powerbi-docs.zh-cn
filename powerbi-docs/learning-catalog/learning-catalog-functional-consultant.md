@@ -6,12 +6,12 @@ ms.prod: powerbi
 ms.topic: article
 ms.date: 03/25/2020
 ms.author: margoc
-ms.openlocfilehash: 11150686d1ff922877081a672290069f85b1afc5
-ms.sourcegitcommit: 00c0b24d5e80009d18cec6da4fee8a9611bcba04
+ms.openlocfilehash: 3ebfa0e13293f65d5399aafb7071d4eaad63cc6f
+ms.sourcegitcommit: d153cfc0ce559480c53ec48153a7e131b7a31542
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/29/2020
-ms.locfileid: "87411902"
+ms.lasthandoff: 09/29/2020
+ms.locfileid: "91527783"
 ---
 # <a name="functional-application-consultant-learning-catalog"></a>职能应用程序顾问学习目录
 
@@ -34,8 +34,8 @@ ms.locfileid: "87411902"
 | [Power BI：Analytics 一步到位](https://info.microsoft.com/CA-PowerBI-WBNR-FY19-11Nov-08-PowerBIAnalyticsDoneRight-MCW0008690_02OnDemandRegistration-ForminBody.html)  | 唤起所有 Analytics 和 Excel 愿景：了解如何制作实用精美的报表、分享易于理解且有吸引力的见解，以及如何安全地消除复杂数据孤岛，使其可供访问。 我们将分享新产品创新，以及我们对新式企业 BI 和自助式 BI 的愿景，让你的组织能够打造数据驱动文化。   | 网络研讨会       |                   |
 | [AI 改变 BI 的三种方式](https://info.microsoft.com/ww-landing-Three-Ways-AI-Is-Changing-BI-OnDemand.html)  | 对于分析师而言，重要的是通过调查和可视化数据来帮助他们的利益干系人快速高效地找到见解。 业务需求已经从管理人员询问发生的事情和发生的时间，发展为询问事情发生的原因和将来会发生什么。 报名参加此网络研讨会，了解将 AI 与商业智能 (BI) 结合起来的三个数据见解机会。   | 网络研讨会       |                   |
 | [充分利用 Power BI 的功能 - 提示和技巧（主讲人：Philip Seamark）](https://community.powerbi.com/t5/Webinars-and-Video-Gallery/6-22-2017-Unleash-the-Power-of-Power-BI-tips-and-tricks-by/td-p/161490) | 倾听 Philip Seamark 的讲解，他将详细介绍南半球最大规模的 Power BI 部署、该部署的使用方法以及它如何满足 BI 需求。 此网络研讨会将介绍多种提示和技巧，以帮助你强化 Power BI 报表。   | 网络研讨会       | 53 分钟 47 秒       |
-| [什么是 Power BI？](https://docs.microsoft.com/power-bi/fundamentals/power-bi-overview)  | Power BI 概述   | 网站       | 3 分钟阅读时长 |
-| [在 Power BI Desktop 中使用 DAX](https://docs.microsoft.com/learn/paths/dax-power-bi/) | 此学习路径介绍数据分析表达式 (DAX)，并提供通过计算增强数据模型所需的基础技能。  | 免费自定进度在线学习路径 | 4 小时 30 分钟 |
+| [什么是 Power BI？](../fundamentals/power-bi-overview.md)  | Power BI 概述   | 网站       | 3 分钟阅读时长 |
+| [在 Power BI Desktop 中使用 DAX](/learn/paths/dax-power-bi/) | 此学习路径介绍数据分析表达式 (DAX)，并提供通过计算增强数据模型所需的基础技能。  | 免费自定进度在线学习路径 | 4 小时 30 分钟 |
 ## <a name="best-practices"></a>最佳做法<a name="best-practices"></a>
 | 内容   | 说明  | 格式   | 长度   |
 |---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------|-------------------|

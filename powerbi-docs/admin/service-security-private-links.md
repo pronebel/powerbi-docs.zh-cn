@@ -7,15 +7,15 @@ ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: how-to
 ms.author: davidi
-ms.date: 09/17/2020
+ms.date: 09/24/2020
 ms.custom: ''
 LocalizationGroup: Administration
-ms.openlocfilehash: 3b8eb9c5e4211097cd6f11d233165ccaf197ddbe
-ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
+ms.openlocfilehash: dee055f53302ef6e7884463b8e0feb113aa9bd5a
+ms.sourcegitcommit: 3655521f7d6e70d25cbe72006aada69ba08e7dec
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90854359"
+ms.lasthandoff: 09/25/2020
+ms.locfileid: "91224201"
 ---
 # <a name="private-links-for-accessing-power-bi"></a>用于访问 Power BI 的专用链接
 
@@ -226,10 +226,7 @@ ms.locfileid: "90854359"
     |子网 |选择“mySubnet” |
     |**专用 DNS 集成** ||
     |与专用 DNS 区域集成|   选择“是” |
-    |专用 DNS 区域   |选择 <br><br>
-    (New)privatelink.analysis.windows.net <br>
-    (New)privatelink.pbidedicated.windows.net <br>
-    (New)privatelink.tip1.powerquery.microsoft.com |
+    |专用 DNS 区域   |选择 <br> (New)privatelink.analysis.windows.net <br> (New)privatelink.pbidedicated.windows.net <br> (New)privatelink.tip1.powerquery.microsoft.com |
     
     下图显示了“创建专用终结点 - 配置”窗口。
     

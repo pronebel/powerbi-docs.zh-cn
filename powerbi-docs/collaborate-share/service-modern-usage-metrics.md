@@ -10,12 +10,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 08/31/2020
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 467061dfe7ee3cdf62c08dd60c4325eee96d431c
-ms.sourcegitcommit: cb606d3ae95300683caf1853e229d8981302a8e2
+ms.openlocfilehash: 0555f6c46ef864ed89d3d364420a14a2ff18ab84
+ms.sourcegitcommit: 701dd80661a63c76d37d1e4f159f90e3fc8c3160
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/18/2020
-ms.locfileid: "90763634"
+ms.lasthandoff: 09/24/2020
+ms.locfileid: "91136088"
 ---
 # <a name="monitor-usage-metrics-in-the-new-workspace-experience-preview"></a>在新的工作区体验中监视使用指标（预览）
 
@@ -363,7 +363,7 @@ Power BI 在单独的国家云中可用。 这些云提供与全球版本 Power 
 
     ![使用情况指标数据集 URL](media/service-modern-usage-metrics/power-bi-usage-metrics-url.png)
 
-1. 在浏览器中转到 [https://docs.microsoft.com/rest/api/power-bi/datasets/deletedatasetingroup](https://docs.microsoft.com/rest/api/power-bi/datasets/deletedatasetingroup)，然后选择“试用”按钮。
+1. 在浏览器中转到 [https://docs.microsoft.com/rest/api/power-bi/datasets/deletedatasetingroup](/rest/api/power-bi/datasets/deletedatasetingroup)，然后选择“试用”按钮。
 
     ![删除数据集“试用”](media/service-modern-usage-metrics/power-bi-delete-dataset-try-it.png)
 

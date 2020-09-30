@@ -8,12 +8,12 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 04/11/2020
 ms.author: v-pemyer
-ms.openlocfilehash: 971c699170103d5521763679c93d3641c094cc58
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: f2b9ee2093889fc9a60d621ad09b3b52d2e90474
+ms.sourcegitcommit: d153cfc0ce559480c53ec48153a7e131b7a31542
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83277424"
+ms.lasthandoff: 09/29/2020
+ms.locfileid: "91525929"
 ---
 # <a name="separate-reports-from-models-in-power-bi-desktop"></a>与 Power BI Desktop 中的模型分离报表
 
@@ -37,7 +37,7 @@ ms.locfileid: "83277424"
 - 数据建模者和报表作者是不同的人。
 - 据了解，模型将成为多个报表的源，无论是现在还是将来。
 
-:::image type="content" source="media/report-separate-from-model/separate-report-files.png" alt-text="有三个 PBIX 文件。第一个文件只包含一个模型。其他两个仅包含报表，它们实时连接到 Power BI 服务中托管的模型。报表由不同的人开发。" border="true":::
+:::image type="content" source="media/report-separate-from-model/separate-report-files.png" alt-text="单个文件包含由同一个人开发的模型和报表。" border="true":::
 
 数据建模人员仍可以使用 Power BI Desktop 报表创作体验来测试和验证其模型设计。 但是，在将文件发布到 Power BI 服务后，他们应从工作区中删除报表。 另外，他们必须记得在每次重新发布并覆盖数据集时删除报表。
 
@@ -56,7 +56,7 @@ ms.locfileid: "83277424"
 
 如果必须对模型进行中断性变更，我们建议：
 
-- 在 Power BI 服务中[查看数据集的相关内容](../consumer/end-user-related.md#view-related-content-for-a-dataset)。
+- 在 Power BI 服务中[查看数据集的相关内容](../consumer/end-user-related.md)。
 - 浏览 Power BI 服务中的[数据世系](../collaborate-share/service-data-lineage.md)视图。
 
 利用这两种方案都可以快速识别任何相关的报表和仪表板。 数据世系视图可能是更好的选择，因为它很容易看到每个相关项目的联系人。 事实上，它是一个超链接，用于打开发送给联系人的电子邮件。
