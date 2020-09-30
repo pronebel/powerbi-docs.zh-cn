@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 03/07/2019
 ms.author: davidi
 LocalizationGroup: Conceptual
-ms.openlocfilehash: 9125c87f96641852a16410d3f8287c714816fb4b
-ms.sourcegitcommit: cff93e604e2c5f24e0f03d6dbdcd10c2332aa487
+ms.openlocfilehash: df6b3bd29089f37b11064216568523f442169794
+ms.sourcegitcommit: d153cfc0ce559480c53ec48153a7e131b7a31542
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90965371"
+ms.lasthandoff: 09/29/2020
+ms.locfileid: "91528381"
 ---
 # <a name="distribute-power-bi-content-to-external-guest-users-using-azure-active-directory-b2b"></a>使用 Azure Active Directory B2B 将 Power BI 内容分发给外部来宾用户
 
@@ -535,7 +535,7 @@ Power BI 管理门户在租户设置中的 "组织" 设置中提供 " **允许�
 
 ### <a name="control-guest-invites"></a>控制来宾邀请
 
-Power BI 管理员可以通过访问 Power BI 管理门户来仅控制 Power BI 的外部共享。 但租户管理员还可以通过各种 Azure AD 策略来控制外部共享。  这些策略允许租户管理员
+Power BI 管理员可以通过访问 Power BI 管理门户来仅控制 Power BI 的外部共享。 但管理员还可以通过各种 Azure AD 策略来控制外部共享。  这些策略允许管理员：
 
 - 关闭最终用户的邀请
 - 只有管理员和具有“来宾邀请者”角色的用户可以邀请
@@ -606,7 +606,7 @@ Contoso 的另一种选择是通过自定义身份验证 (["应用拥有数据"]
 
 
 
-## <a name="faq"></a>常见问题
+## <a name="faq"></a>常见问题解答
 
 **Contoso 是否可以发送自动兑换的邀请，使用户只需 "准备就绪"？或者，用户是否始终需要单击到兑换 URL？**
 
