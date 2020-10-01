@@ -100,8 +100,6 @@
               href: end-user-copy-paste.md
             - name: 在可视化效果中向下钻取
               href: end-user-drill.md
-            - name: 与 ArcGIS 地图交互
-              href: ../visuals/power-bi-visualizations-arcgis.md
         - name: 常见任务
           items:
             - name: 将数据导出到 Excel
