@@ -35,6 +35,22 @@
           href: desktop-bidirectional-filtering.md
         - name: 在 Power BI 中使用多维模型
           href: ../connect-data/desktop-default-member-multidimensional-models.md
+    - name: 数据流
+      items:
+        - name: 数据流简介
+          href: dataflows/dataflows-introduction-self-service.md
+        - name: 创建数据流
+          href: dataflows/dataflows-create.md
+        - name: 配置和使用数据流
+          href: dataflows/dataflows-configure-consume.md
+        - name: 数据流和 Azure Data Lake Gen2
+          href: dataflows/dataflows-azure-data-lake-storage-integration.md
+        - name: 数据流的高级功能
+          href: dataflows/dataflows-premium-features.md
+        - name: 通过数据流使用机器学习和认知服务
+          href: dataflows/dataflows-machine-learning-integration.md
+        - name: 数据流限制和注意事项
+          href: dataflows/dataflows-features-limitations.md
     - name: 操作指南
       items:
         - name: 执行常见查询任务
