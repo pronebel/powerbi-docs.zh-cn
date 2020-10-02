@@ -9,12 +9,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 05/14/2020
 LocalizationGroup: Conceptual
-ms.openlocfilehash: 19548729f4ae85334fea14584e78ad4ee05a5c24
-ms.sourcegitcommit: cff93e604e2c5f24e0f03d6dbdcd10c2332aa487
+ms.openlocfilehash: 432f8a7a39e6902c679c83d447039519f90d0dac
+ms.sourcegitcommit: be424c5b9659c96fc40bfbfbf04332b739063f9c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90965320"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "91635691"
 ---
 # <a name="power-bi-security-whitepaper"></a>Power BI 安全性白皮书
 
@@ -171,12 +171,11 @@ DirectQuery 是一种查询，针对这种查询，Power BI 用户的查询已�
 
 下表说明基于正在使用的查询类型的 Power BI 数据。 **X** 指示使用关联的查询类型时有 Power BI 数据。
 
-
-|  |导入  |DirectQuery  |实时连接  |
-|---------|---------|---------|---------|
-|架构     |     X    |    X     |         |
-|行数据     |    X     |         |         |
-|视觉对象数据缓存     |    X     |     X    |    X     |
+|                         | 导入   | DirectQuery | 实时连接  |
+|-------------------------|----------|-------------|---------------|
+|**架构**               | X        | X           |               |
+|**行数据**             | X        |             |               |
+|**视觉对象数据缓存** | X        | X           | X             |
 
 DirectQuery 和其他查询之间的区别决定了 Power BI 服务如何处理静态数据，以及查询本身是否加密。 以下部分介绍静态数据和移动中的数据，并说明用于处理数据的加密、位置和过程。
 
@@ -449,17 +448,17 @@ Power BI 移动版可用的所有三个平台都支持 Microsoft Intune，这是
 
 **对于 Power BI 视觉对象，Microsoft 是否在将项目发布到库之前对自定义视觉对象执行任何安全或隐私评估？**
 
-* 不是。 客户有责任评审并确定是否应依赖自定义视觉对象代码。 所有自定义视觉对象代码都在沙盒环境中运行，因此自定义视觉对象中的任何错误代码都不会对 Power BI 服务的其余部分产生负面影响。
+* 否。 客户有责任评审并确定是否应依赖自定义视觉对象代码。 所有自定义视觉对象代码都在沙盒环境中运行，因此自定义视觉对象中的任何错误代码都不会对 Power BI 服务的其余部分产生负面影响。
 
 **是否有在客户网络外发送信息的其他 Power BI 视觉对象？**
 
-* 是的。 必应地图和 ESRI 视觉对象为使用这些服务的视觉对象在 Power BI 服务外部传输数据。
+* 是。 必应地图和 ESRI 视觉对象为使用这些服务的视觉对象在 Power BI 服务外部传输数据。
 
 **对于模板应用，Microsoft 是否在将项目发布到库之前对模板应用执行任何安全或隐私评估？**
-* 不是。 应用发布者负责查看内容，同时客户需要查看并确定是否信任模板应用发行者。 
+* 否。 应用发布者负责查看内容，同时客户需要查看并确定是否信任模板应用发行者。 
 
 **是否存在可以在客户网络之外发送信息的模板应用？**
-* 是的。 客户负责查看发布者的隐私策略，并确定是否在租户上安装模板应用。 此外，发布者还负责通知应用程序的行为和功能。
+* 是。 客户负责查看发布者的隐私策略，并确定是否在租户上安装模板应用。 此外，发布者还负责通知应用程序的行为和功能。
 
 **数据主权？能否在位于特定地理区域的数据中心内预配租户，以确保数据不会留下国家/地区界限？**
 
@@ -471,7 +470,7 @@ Power BI 移动版可用的所有三个平台都支持 Microsoft Intune，这是
 
 * 为具有 Power BI Premium 订阅的客户建立的连接实施 [Azure 企业对企业 (B2B)](/azure/active-directory/active-directory-b2b-what-is-azure-ad-b2b)授权过程，使用 Azure Active Directory (AD) 启用访问控制和授权。 Power BI 处理从 Power BI 订阅者到 Power BI 资源的连接，就像处理任何其他 Azure AD 用户一样。
 
-## <a name="conclusion"></a>结论
+## <a name="conclusion"></a>结束语
 
 Power BI 服务体系结构基于两个群集 - Web 前端 (WFE) 群集和后端群集。 WFE 群集负责执行初始连接并对 Power BI 服务进行身份验证，经过身份验证后后，后端会处理所有后续的用户交互。 Power BI 使用 Azure Active Directory (AAD) 来存储和管理用户身份，并分别使用 Azure Blob 和 Azure SQL Database 管理数据和元数据存储。
 
