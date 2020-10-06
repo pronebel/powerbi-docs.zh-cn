@@ -91,9 +91,9 @@
         - name: API
           items:
             - name: Azure 资源管理器 REST API
-              href: 'https://docs.microsoft.com/rest/api/power-bi-embedded/'
+              href: /rest/api/power-bi-embedded/
             - name: Power BI REST API
-              href: 'https://docs.microsoft.com/rest/api/power-bi/'
+              href: /rest/api/power-bi/
         - name: Power BI 库
           href: 'https://go.microsoft.com/fwlink/?linkid=848274'
         - name: 在应用中嵌入自定义布局
