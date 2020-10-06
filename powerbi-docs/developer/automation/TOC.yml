@@ -5,7 +5,7 @@
     - name: 概述
       expanded: true
       items:
-        - name: 借助 Power BI API 可以做什么？
+        - name: Power BI API 有哪些用途？
           href: overview-of-power-bi-rest-api.md
     - name: 教程
       expanded: true
@@ -39,16 +39,16 @@
     - name: 参考
       items:
         - name: REST API
-          href: 'https://docs.microsoft.com/rest/api/power-bi'
+          href: /rest/api/power-bi
         - name: Power BI REST API 引用
           href: rest-api-reference.md
         - name: 完整代码清单
           href: walkthrough-push-data-complete-code.md
     - name: 资源
       items:
-        - name: 开发人员中心
+        - name: 开发中心
           href: 'https://powerbi.microsoft.com/en-us/developers/'
-        - name: 'Power BI C# Git 存储库'
+        - name: Power BI C# Git 存储库
           href: 'https://go.microsoft.com/fwlink/?linkid=848273'
         - name: .NET SDK 下载
           href: 'https://go.microsoft.com/fwlink/?linkid=848274'
