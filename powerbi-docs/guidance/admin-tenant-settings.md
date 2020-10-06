@@ -1,5 +1,5 @@
 ---
-title: 租户管理员设置指南
+title: 租户设置指南
 description: Power BI 租户设置指南。
 author: peter-myers
 ms.reviewer: asaxton
@@ -8,14 +8,14 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 08/10/2020
 ms.author: v-pemyer
-ms.openlocfilehash: eeb879fc70effa166d08c9a342f77ad614779751
-ms.sourcegitcommit: 9e39232cbc28d8b39dfec5496db7ece9837b5e53
+ms.openlocfilehash: fdde090d4fe6e154482e1223b16215fdeca9f56f
+ms.sourcegitcommit: d153cfc0ce559480c53ec48153a7e131b7a31542
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/10/2020
-ms.locfileid: "88049290"
+ms.lasthandoff: 09/29/2020
+ms.locfileid: "91528335"
 ---
-# <a name="tenant-admin-settings-guidance"></a>租户管理员设置指南
+# <a name="tenant-settings-guidance"></a>租户设置指南
 
 本文的目标读者是 Power BI 管理员，他们负责在组织中设置和配置 Power BI 环境。
 

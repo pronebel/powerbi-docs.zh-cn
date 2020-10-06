@@ -10,22 +10,22 @@ ms.topic: conceptual
 ms.date: 01/29/2019
 ms.author: preetikr
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 5d7fbe9e302c7b1460bc285af140a50304c468da
-ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
+ms.openlocfilehash: 7f08d75ecc9386dc2329c6564448023dfbfb3b9b
+ms.sourcegitcommit: 02b5d031d92ea5d7ffa70d5098ed15e4ef764f2a
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90858522"
+ms.lasthandoff: 09/26/2020
+ms.locfileid: "91374950"
 ---
 # <a name="connect-to-the-microsoft-graph-security-api-in-power-bi-desktop"></a>连接到 Power BI Desktop 中的 Microsoft Graph Security API
 
-使用 Power BI Desktop 的 Microsoft Graph Security 连接器连接到 [Microsoft Graph Security API](/graph/security-concept-overview)。 然后可生成仪表板和报表，从而可深入了解与安全相关的[警报](/graph/api/resources/alert?view=graph-rest-1.0)和[安全功能分数](/graph/api/resources/securescores?view=graph-rest-beta)。
+使用 Power BI Desktop 的 Microsoft Graph Security 连接器连接到 [Microsoft Graph Security API](/graph/security-concept-overview)。 然后可生成仪表板和报表，从而可深入了解与安全相关的[警报](/graph/api/resources/alert)和[安全功能分数](/graph/api/resources/securescores)。
 
-Microsoft Graph Security API 连接了来自 Microsoft 及其生态系统合作伙伴的[多个安全解决方案](/graph/api/resources/security-api-overview#alerts)，以更轻松地关联警报。 通过这种组合，可以访问丰富的上下文信息并简化自动化。 通过该组合，组织能够在降低成本和复杂性的同时，快速获得见解并跨多个安全产品执行操作。
+Microsoft Graph Security API 连接了来自 Microsoft 及其合作伙伴的[多个安全解决方案](/graph/api/resources/security-api-overview#alerts)，可以更轻松地关联警报。 通过这种组合，可以访问丰富的上下文信息并简化自动化。 通过该组合，组织能够在降低成本和复杂性的同时，快速获得见解并跨多个安全产品执行操作。
 
 ## <a name="prerequisites-to-use-the-microsoft-graph-security-connector"></a>使用 Microsoft Graph Security 连接器的先决条件
 
-若要使用 Microsoft Graph Security 连接器，必须显式获得 Azure Active Directory (Azure AD) 租户管理员的同意  。 请参阅 [Microsoft Graph Security 身份验证要求](/graph/security-authorization)。
+若要使用 Microsoft Graph Security 连接器，必须明确获得 Azure Active Directory (Azure AD) 全局管理员的同意。 请参阅 [Microsoft Graph Security 身份验证要求](/graph/security-authorization)。
 获得同意需要连接器的应用程序 ID 和名称，这里引用了该 ID 和名称，可在 [Azure 门户](https://portal.azure.com)中获得：
 
 | 属性 | 值 |
@@ -35,7 +35,7 @@ Microsoft Graph Security API 连接了来自 Microsoft 及其生态系统合作�
 | **重定向 URI** | `https://oauth.powerbi.com/views/oauthredirect.html` |
 |||
 
-若要授予连接器同意，Azure AD 租户管理员可以使用以下任一方法：
+若要授予连接器许可，Azure AD 全局管理员可以使用以下任一方法：
 
 * [为 Azure AD 应用程序授予同意](/azure/active-directory/develop/v2-permissions-and-consent)
 
@@ -61,7 +61,7 @@ Microsoft Graph Security API 连接了来自 Microsoft 及其生态系统合作�
 
     ![登录](media/desktop-connect-graph-security/SignIn.PNG) 
     
-6. 如果是租户管理员，且还未获得 Microsoft Graph Security Power BI 连接器（应用程序）同意，则将出现以下对话框。 选择“代表组织授予同意”。
+6. 如果你是管理员，且还未获得 Microsoft Graph Security Power BI 连接器（应用程序）许可，则会出现以下对话框。 选择“代表组织授予同意”。
 
     ![“管理员同意”对话框](media/desktop-connect-graph-security/AdminConsent.PNG)
     

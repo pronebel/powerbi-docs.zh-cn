@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: conceptual
 ms.date: 07/01/2020
-ms.openlocfilehash: ef981c63aaa1cdececbe03f187d25ee09073f61f
-ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
+ms.openlocfilehash: 30ab225230784d19bd2aa4eb2f5ea775684b2afb
+ms.sourcegitcommit: d153cfc0ce559480c53ec48153a7e131b7a31542
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90857740"
+ms.lasthandoff: 09/29/2020
+ms.locfileid: "91524779"
 ---
 # <a name="manage-power-bi-visuals-admin-settings"></a>管理 Power BI 视觉对象管理员设置
 
@@ -148,11 +148,11 @@ AppSource Power BI 视觉对象将自动更新。 组织中的用户将始终拥
 
 1. 在要添加的视觉对象的行中，单击“设置”。
 
-    ![organizational-pane](media/organizational-visuals/organizational-pane.png)organizational-pane
+    ![屏幕截图显示了管理门户，其中选择了组织视觉对象，并突出显示了一个“设置”图标。](media/organizational-visuals/organizational-pane.png)organizational-pane
 
 2. 启用“可视化效果窗格”设置，然后单击“更新”。
 
-    ![update-organizational-pane](media/organizational-visuals/update-organizational-pane.png)
+    ![屏幕截图显示了“视觉对象设置”对话框，你可以在其中让视觉对象对整个组织都显示。](media/organizational-visuals/update-organizational-pane.png)
 
 ### <a name="delete-a-visual-uploaded-from-a-file"></a>删除从文件上传的视觉对象
 

@@ -1,6 +1,6 @@
 ---
 title: 跨工作区使用数据集简介
-description: 了解如何与整个组织的用户共享数据集。 然后，他们可以在其工作区中基于你的数据集生成报表。
+description: 了解数据集分片和工作区发现。 整个组织中的用户都可以在其工作区中基于你的数据集生成报表。
 author: maggiesMSFT
 ms.reviewer: kayu
 ms.service: powerbi
@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 04/30/2020
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 5f79411d7eedc97e99aabc8b44dbf12a22696bba
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: e943324106148bdbff1edba36650d494fdd9db8c
+ms.sourcegitcommit: 02b5d031d92ea5d7ffa70d5098ed15e4ef764f2a
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85236860"
+ms.lasthandoff: 09/26/2020
+ms.locfileid: "91374260"
 ---
 # <a name="intro-to-datasets-across-workspaces"></a>跨工作区使用数据集简介
 
@@ -22,7 +22,7 @@ ms.locfileid: "85236860"
 
 ![选择共享数据集](media/service-datasets-across-workspaces/power-bi-select-shared-dataset.png)
 
-在 Power BI 中，数据集创建者可以使用[生成权限](service-datasets-build-permissions.md)来控制有权访问其数据的人选。 数据集创建者也可以轻松地验证或推广数据集，以便其他人能够发现 。 这样一来，报表作者就知道哪些数据集是高质量的官方数据集，并且可以在 Power BI 中创作的任何位置使用这些数据集。 租户管理员具有新的租户设置，可以[跨工作区治理数据集的使用](service-datasets-admin-across-workspaces.md)。
+在 Power BI 中，数据集创建者可以使用[生成权限](service-datasets-build-permissions.md)来控制有权访问其数据的人选。 数据集创建者也可以轻松地验证或推广数据集，以便其他人能够发现 。 这样一来，报表作者就知道哪些数据集是高质量的官方数据集，并且可以在 Power BI 中创作的任何位置使用这些数据集。 管理员具有新的租户设置，可以[跨工作区治理数据集的使用](service-datasets-admin-across-workspaces.md)。
 
 ## <a name="dataset-sharing-and-the-new-workspace-experience"></a>数据集共享和新的体验工作区
 

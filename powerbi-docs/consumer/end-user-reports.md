@@ -1,20 +1,20 @@
 ---
 title: Power BI 服务中的报表
-description: 面向使用者的 Power BI 服务中的报表
+description: 面向业务用户的 Power BI 服务中的报表
 author: mihart
 ms.reviewer: mihart
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: how-to
-ms.date: 03/11/2020
+ms.date: 09/28/2020
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: bc0ef9854afdb95a00502ea6755dc36db6c8fbf4
-ms.sourcegitcommit: 2131f7b075390c12659c76df94a8108226db084c
+ms.openlocfilehash: 871f807d18017343b4b23eee4d59833c196cf2f0
+ms.sourcegitcommit: d153cfc0ce559480c53ec48153a7e131b7a31542
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/03/2020
-ms.locfileid: "87536207"
+ms.lasthandoff: 09/29/2020
+ms.locfileid: "91528059"
 ---
 # <a name="reports-in-power-bi"></a>Power BI 中的报表
 
@@ -22,7 +22,7 @@ ms.locfileid: "87536207"
 
 [!INCLUDE [power-bi-service-new-look-include](../includes/power-bi-service-new-look-include.md)]
 
-Power BI 报表是对数据集的多角度审视，它使用视觉对象来表示数据集呈现的各种结果和见解。  报表可包含单个视觉对象，也可包含充满视觉对象的多个页面。 根据你的职位，你可能是报表设计人员  ， 也可能是报表使用人员  。 本文适用于使用者  。
+Power BI 报表是对数据集的多角度审视，它使用视觉对象来表示数据集呈现的各种结果和见解。  报表可包含单个视觉对象，也可包含充满视觉对象的多个页面。 根据你的职位，你可能是报表设计人员  ， 你还可能是使用报表的业务用户。 本文适用于业务用户。
 
 ![报表页的屏幕截图。](./media/end-user-reports/power-bi-report.png)
 
@@ -32,7 +32,7 @@ C. “筛选器”窗格显示了一个应用于所有报表页的筛选器  。
 D. Power BI 横幅显示了报表的名称和上次更新日期。 选择箭头以打开一个菜单，该菜单还显示了报表所有者的名称。    
 E. 操作栏包含可对此报表执行的操作。  例如，可以添加注释、查看书签或导出报表中的数据。  选择“更多选项”(…) 以显示其他报表功能的列表  。    
 
-如果你不熟悉 Power BI，可阅读[面向 Power BI 服务使用者的基本概念](end-user-basic-concepts.md)来详细了解基础知识。 可在移动设备上查看、共享和批注报表。 有关详细信息，请参阅[在 Power BI 移动应用中浏览报表](mobile/mobile-reports-in-the-mobile-apps.md)。
+如果你不熟悉 Power BI，可阅读[面向 Power BI 服务业务用户的基本概念](end-user-basic-concepts.md)来详细了解基础知识。 可在移动设备上查看、共享和批注报表。 有关详细信息，请参阅[在 Power BI 移动应用中浏览报表](mobile/mobile-reports-in-the-mobile-apps.md)。
 
 ## <a name="advantages-of-reports"></a>报表的优点
 
@@ -68,14 +68,14 @@ Power BI 是在一个数据集的基础之上生成报表。 报表设计者在�
 <!--| Available in Power BI Desktop |No |Yes, can create and view reports in Desktop |
 | Pinning |Can pin existing visuals (tiles) only from current dashboard to your other dashboards |Can pin visuals (as tiles) to any of your dashboards. Can pin entire report pages to any of your dashboards. | -->
 
-## <a name="report-designers-and-report-consumers"></a>报表设计者和报表使用者
+## <a name="report-designers-and-report-users"></a>报表设计者和报表用户
 
 根据你的角色，你可能是设计者，负责创建报表供自己使用或与同事共享  。 你想了解如何创建和共享报表。
 
-你也可能是使用者，从其他人那里接收报表  。 你想要了解如何理解报表并与之交互。 如果你是报表使用者，则以下链接适合你  ：
+你也可能是从其他人那里接收报表的业务用户。 你想要了解如何理解报表并与之交互。 如果你是报表业务用户，则以下链接适合你：
 
 * 首先查看 [Power BI 服务教程](end-user-basic-concepts.md)，了解在何处查找报表和报表工具。
-* 了解如何[打开报表](end-user-report-open.md)以及[使用者可用的所有交互](end-user-reading-view.md)。
+* 了解[打开报表](end-user-report-open.md)的方式以及所有[适用于业务用户的交互](end-user-reading-view.md)。
 * 通过查看我们的任一[示例](../create-reports/sample-tutorial-connect-to-the-samples.md)轻松了解报表的使用。  
 * 要查看报表正在使用哪个数据集及哪个仪表板显示来自报表的视觉对象（固定）  ，请参阅[在 Power BI 服务中查看相关内容](end-user-related.md)。
 

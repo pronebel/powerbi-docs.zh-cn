@@ -8,12 +8,12 @@ ms.subservice: powerbi-template-apps
 ms.topic: how-to
 ms.date: 09/15/2020
 ms.author: painbar
-ms.openlocfilehash: e3b6ada10138e6964240c5eb5c53399507170b79
-ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
+ms.openlocfilehash: 2f663c8e47e9a66ec3f4ee3eb70646239be6126a
+ms.sourcegitcommit: 02b5d031d92ea5d7ffa70d5098ed15e4ef764f2a
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90860661"
+ms.lasthandoff: 09/26/2020
+ms.locfileid: "91374996"
 ---
 # <a name="create-a-template-app-in-power-bi"></a>在 Power BI 中创建模板应用
 
@@ -21,7 +21,7 @@ Power BI 模板应用使 Power BI 合作伙伴能够在极少编码或没有编�
 
 如果可以创建 Power BI 报表和仪表板，那么你可成为模板应用构建者，可以生成分析内容并将其打包到“应用”中 。 可以通过任何可用平台（例如 AppSource）或者通过在自己的 Web 服务中使用应用，将应用部署其他 Power BI 租户。 作为构建者，可以创建受保护的分析包以进行分发。
 
-Power BI 租户管理员管理和控制组织中谁可以创建模板应用，以及谁可以安装它们。 获得授权的这些用户可以安装模板应用，然后对其进行修改并将其分发给组织中的 Power BI 使用者。
+Power BI 管理员管理和控制组织中谁可以创建模板应用，以及谁可以安装它们。 获得授权的这些用户可以安装模板应用，然后对其进行修改并将其分发给组织中的 Power BI 使用者。
 
 ## <a name="prerequisites"></a>先决条件
 
@@ -163,7 +163,7 @@ Power BI 租户管理员管理和控制组织中谁可以创建模板应用，�
 
     ![发布管理图标](media/service-template-apps-create/power-bi-release-management-icon.png)
 
-2. 如果在上面的“创建测试模板应用”部分中创建了测试应用（结果是，“测试”旁边的黄色圆点已经填充），请选择“获取链接”  。
+2. 如果在上面的“定义模板应用的属性”部分创建了测试应用（结果就是“测试”旁边的黄色圆点已经填充），请选择“获取链接”  。
 
     如果尚未创建应用，请选择“创建应用”。 这将使你返回到模板应用创建过程。
 

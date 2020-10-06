@@ -8,12 +8,12 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 03/02/2020
 ms.author: v-pemyer
-ms.openlocfilehash: 43905b05bfe796c416bb8d91901497f6ca1e573e
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 7e10cfa5c99eb1750829150fd0a25347a4da1880
+ms.sourcegitcommit: 701dd80661a63c76d37d1e4f159f90e3fc8c3160
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83278252"
+ms.lasthandoff: 09/24/2020
+ms.locfileid: "91136249"
 ---
 # <a name="one-to-one-relationship-guidance"></a>一对一关系指南
 
@@ -131,13 +131,13 @@ Sales Order  表通过以下三列为报表作者提供丰富体验：Sales Orde
 
 ![“字段”窗格在“Marketing”显示文件夹内显示“Category”字段。](media/relationships-one-to-one/product-to-product-category-fields-pane-consolidated-display-folder.png)
 
-如果你仍决定在模型中定义一对一岛内关系，请尽可能确保关联表中有匹配行。 由于一对一岛内关系被计算为[强关系](../transform-model/desktop-relationships-understand.md#strong-relationships)，因此数据完整性问题可能会在报表视觉对象中作为 BLANK 出现。 （例如，本文中显示的第一个表视觉对象中就有 BLANK 分组。）
+如果你仍决定在模型中定义一对一岛内关系，请尽可能确保关联表中有匹配行。 由于一对一岛内关系被评估为[常规关系](../transform-model/desktop-relationships-understand.md#regular-relationships)，因此数据完整性问题可能会在报表视觉对象中作为 BLANK 出现。 （例如，本文中显示的第一个表视觉对象中就有 BLANK 分组。）
 
 ### <a name="inter-island-one-to-one-relationship"></a>岛间一对一关系
 
-如果表之间有岛间  一对一关系，除非预先合并数据源中的数据，否则没有替换模型设计。 Power BI 会将一对一模型关系计算为[弱关系](../transform-model/desktop-relationships-understand.md#weak-relationships)。 因此，请注意确保关联表中有匹配行，因为不匹配的行会从查询结果中删除。
+如果表之间有岛间  一对一关系，除非预先合并数据源中的数据，否则没有替换模型设计。 Power BI 会将一对一模型关系评估为[有限关系](../transform-model/desktop-relationships-understand.md#limited-relationships)。 因此，请注意确保关联表中有匹配行，因为不匹配的行会从查询结果中删除。
 
-现在来看看添加有这两个表（之间有弱关系）中字段的表视觉对象是什么样的。
+现在来看看添加有这两个表（之间存在有限关系）中的字段的表视觉对象是什么样的。
 
 ![表视觉对象包含以下四列：“SKU”、“产品”、“颜色”和“类别”。 表只有两行。](media/relationships-one-to-one/product-to-product-category-table-visual-weak-relationship.png)
 

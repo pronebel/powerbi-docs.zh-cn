@@ -10,12 +10,12 @@ ms.date: 05/17/2020
 ms.author: mihart
 ms.custom: licensing support
 LocalizationGroup: Administration
-ms.openlocfilehash: e8a5d3b4bf8200e6e990c1bced2920383398b6cf
-ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
+ms.openlocfilehash: 29dad4db6843f0895ea9de791992b3f70ce57e66
+ms.sourcegitcommit: d153cfc0ce559480c53ec48153a7e131b7a31542
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90857073"
+ms.lasthandoff: 09/29/2020
+ms.locfileid: "91524733"
 ---
 # <a name="signing-up-for-power-bi-with-a-new-microsoft-365-trial"></a>通过新 Microsoft 365 试用版注册 Power BI
 
@@ -35,7 +35,7 @@ ms.locfileid: "90857073"
 
     如果需要新的电子邮件地址，Microsoft 将引导你完成这些步骤。 第一步是创建新帐户。 选择“设置帐户”。
 
-    ![选择注册新帐户](media/service-admin-signing-up-for-power-bi-with-a-new-office-365-trial/power-bi-email.png)
+    ![选择注册新帐户。](media/service-admin-signing-up-for-power-bi-with-a-new-office-365-trial/power-bi-email.png)
 
 2. 输入有关新帐户的详细信息。
 
@@ -43,7 +43,7 @@ ms.locfileid: "90857073"
 
 3. 创建新的电子邮件地址和密码。 创建类似于 you@yourcompany.onmicrosoft.com 的新登录名。 这是将用于新工作或学校帐户和 Power BI 的登录名。
 
-    ![选择注册新帐户](media/service-admin-signing-up-for-power-bi-with-a-new-office-365-trial/power-bi-create-account.png)
+    ![屏幕截图显示了“创建业务标识”选项。](media/service-admin-signing-up-for-power-bi-with-a-new-office-365-trial/power-bi-create-account.png)
 
 4. 大功告成。  现在，你有了可用于注册 Power BI 的电子邮件地址。 前往[以个人身份注册 Power BI 服务](../fundamentals/service-self-service-signup-for-power-bi.md)
 

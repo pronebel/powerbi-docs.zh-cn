@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 07/25/2019
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 25a0ddaaf72e185d795d819e8c2cb990d2823ed2
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 99a8cf5081274f922d210a140d333814b80fd01f
+ms.sourcegitcommit: d153cfc0ce559480c53ec48153a7e131b7a31542
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85229792"
+ms.lasthandoff: 09/29/2020
+ms.locfileid: "91527737"
 ---
 # <a name="connect-to-project-web-app-with-power-bi"></a>使用 Power BI 连接到 Project Web 应用
 Microsoft Project Web 应用是一个灵活的在线解决方案，用于项目组合管理 (PPM) 和日常工作。 Project Web 应用使组织能够开始运转、排定项目资产组合投资优先级以及交付预期业务价值。 Power BI 的 Project Web 应用模板应用可使你从 Project Web 应用发掘见解，以帮助管理项目、项目组合和资源。
@@ -29,7 +29,7 @@ Microsoft Project Web 应用是一个灵活的在线解决方案，用于项目�
 
 2. 在**服务**框中，选择**获取**。
    
-   ![AppSource](media/service-connect-to-project-online/AppSource.png)
+   ![屏幕截图显示了 AppSource 窗口，其中包含五个可用应用。](media/service-connect-to-project-online/AppSource.png)
 3. 在 AppSource 中，选择“应用”选项卡，然后搜索/选择“Microsoft Project Web 应用”   。
    
 4. 你会收到一条消息，询问“是否安装此 Power BI 应用？”。选择“安装”   。 

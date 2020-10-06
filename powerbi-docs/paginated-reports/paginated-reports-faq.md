@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: conceptual
 ms.date: 07/08/2020
-ms.openlocfilehash: acde398c1d8954b815c86cce77a6be0cfcf1553f
-ms.sourcegitcommit: c83146ad008ce13bf3289de9b76c507be2c330aa
+ms.openlocfilehash: 893becbcfc7d58b04bbff2819baed4bbc829fe9d
+ms.sourcegitcommit: d153cfc0ce559480c53ec48153a7e131b7a31542
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/10/2020
-ms.locfileid: "86216673"
+ms.lasthandoff: 09/29/2020
+ms.locfileid: "91526665"
 ---
 # <a name="paginated-reports-in-power-bi-faq"></a>Power BI 中的分页报表：常见问题解答 
 
@@ -76,7 +76,7 @@ ReportType 字段使用“PaginatedReport”值来标识分页，这与 Power BI
 - **P2/A5**：默认为 20%，最低为 5%
 - **P3/A6**：默认为 20%，最低为 2.5%
 
-Power BI 租户管理员可在管理门户修改默认最大内存百分比。 请参阅“Power BI Premium”下“容量设置”选项卡上的“分页报表”工作负载  。
+Power BI 管理员可在管理门户中修改默认最大内存百分比。 请参阅“Power BI Premium”下“容量设置”选项卡上的“分页报表”工作负载  。
 
 :::image type="content" source="media/paginated-reports-faq/paginated-reports-capacity-settings.png" alt-text="分页报表的“容量设置”选项卡":::
 

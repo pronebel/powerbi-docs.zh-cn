@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 08/12/2020
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: e95b51d5d50900b8e09de8f5bf62bf31d5578ad1
-ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
+ms.openlocfilehash: ec4bd8788d3c0421118a8e96287b36497683c4b2
+ms.sourcegitcommit: 701dd80661a63c76d37d1e4f159f90e3fc8c3160
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90860201"
+ms.lasthandoff: 09/24/2020
+ms.locfileid: "91136134"
 ---
 # <a name="get-power-bi-desktop"></a>获取 Power BI Desktop
 使用 Power BI Desktop，用户可以构建高级查询、模型以及使数据可视化的报表。 通过 Power BI Desktop，可以生成数据模型、创建报表，并通过发布到 Power BI 服务共享工作。 Power BI Desktop 可免费下载。
@@ -105,9 +105,12 @@ ms.locfileid: "90860201"
 * .NET 4.5
 * Internet Explorer 10 或更高版本
 * 内存 (RAM)：可用内存至少为 1 GB，建议为 1.5 GB 或以上。
-* 显示器：建议分辨率至少为 1440x900 或 1600x900 (16:9)。 不建议使用 1024x768 或 1280x800 等较低分辨率，因为某些控件（如关闭启动屏幕）需要更高的分辨率才能显示。
+* 显示器：分辨率至少需要为 1440x900 或 1600x900 (16:9)。 不支持使用 1024x768 或 1280x800 等较低分辨率，因为某些控件（如关闭启动屏幕）需要更高的分辨率才能显示。
 * Windows 显示设置：如果将显示设置设为将文本、应用和其他项的大小更改为 100% 以上，可能看不到某些需要与之交互的对话框，从而无法继续使用 Power BI Desktop。 如果遇到此问题，请在 Windows 中依次转到“设置” > “系统” > “显示”，检查显示设置，再使用滑块将显示设置恢复为 100%  。
-* CPU：建议使用 1 千兆赫 (GHz) 或更快的 32 位或 x64 位 x86 处理器。
+* CPU：建议使用 1 千兆赫 (GHz) 64 位 (x64) 处理器。
+
+> [!NOTE]
+> 建议使用 Windows 的客户端版本，例如，使用 Windows 10 而不使用 Windows Server。 例如，Power BI Desktop 不支持使用 Internet Explorer 增强的安全配置，因为它会阻止 Power BI Desktop 登录到 Power BI 服务。
 
 ## <a name="considerations-and-limitations"></a>注意事项和限制
 

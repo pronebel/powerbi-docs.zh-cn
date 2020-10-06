@@ -7,12 +7,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 09/09/2020
 ms.author: maggies
-ms.openlocfilehash: 7b02e1b1fb49eb1c43b12d204250eabec8eafe91
-ms.sourcegitcommit: 002c140d0eae3137a137e9a855486af6c55ad957
+ms.openlocfilehash: c989dad575f10a6ed4f6b25ed80368315087c1c2
+ms.sourcegitcommit: d153cfc0ce559480c53ec48153a7e131b7a31542
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/10/2020
-ms.locfileid: "89642345"
+ms.lasthandoff: 09/29/2020
+ms.locfileid: "91528289"
 ---
 # <a name="limitations-of-power-bi-qa"></a>Power BI 问答的限制
 
@@ -53,7 +53,7 @@ Power BI 问答当前不支持以下配置：
 
 回顾问题功能最多将已询问的有关数据模型的问题存储 28 天。 使用新的回顾问题功能时，你可能会注意到未记录某些问题。 这并非设计使然，因为自然语言引擎会执行一系列的数据清理步骤，以确保不会记录或显示用户的每个按键。
 
-租户管理员可以使用租户管理员设置来管理存储问题的能力。 权限基于安全组。 
+Power BI 管理员可以使用租户设置来管理存储问题的功能。 权限基于安全组。 
 
 用户还可以通过选择“设置” > “常规”并取消选择“允许问答记录我的言语”来避免记录问题    。 
 

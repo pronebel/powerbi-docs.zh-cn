@@ -7,12 +7,12 @@ ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: how-to
 ms.date: 06/30/2018
-ms.openlocfilehash: 6b8d02984fdd6af467b0df5acb6c1455a6e93172
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 9f105b1f85d670857e0ffd4a10f17ad65c24eeb2
+ms.sourcegitcommit: d153cfc0ce559480c53ec48153a7e131b7a31542
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85221037"
+ms.lasthandoff: 09/29/2020
+ms.locfileid: "91524480"
 ---
 # <a name="how-to-migrate-power-bi-workspace-collection-content-to-power-bi-embedded"></a>如何将 Power BI 工作区集合内容迁移到 Power BI Embedded
 
@@ -58,7 +58,7 @@ Microsoft 最近[发布了 Power BI Embedded](https://powerbi.microsoft.com/blog
 > [!NOTE]
 > 这些帐户需要具有 Power BI Pro 许可证才能使用工作区。
 
-1. 租户管理员用户。
+1. Power BI 管理员。
 
     建议此用户成为为实现嵌入而创建的所有工作区的成员。
 

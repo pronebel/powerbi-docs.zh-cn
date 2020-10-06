@@ -6,15 +6,15 @@ ms.reviewer: Mohammad.ali
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: how-to
-ms.date: 03/11/2020
+ms.date: 09/23/2020
 ms.author: mihart
 LocalizationGroup: Ask questions of your data
-ms.openlocfilehash: 8784de7e13932d8cd9c33d706a0c49d6f6cc024c
-ms.sourcegitcommit: 2131f7b075390c12659c76df94a8108226db084c
+ms.openlocfilehash: 9a8486a24ab7daa23e35f762c6830e400392963f
+ms.sourcegitcommit: 02b5d031d92ea5d7ffa70d5098ed15e4ef764f2a
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/03/2020
-ms.locfileid: "87537219"
+ms.lasthandoff: 09/26/2020
+ms.locfileid: "91375272"
 ---
 # <a name="tips-for-asking-questions-in-power-bi-qa"></a>在 Power BI 问答中提问的提示
 
@@ -67,7 +67,7 @@ ms.locfileid: "87537219"
 |  |  |
 |**前 N 个**     |     （排序、排名）：前...名、后...名、最高、最低、第一、最后、下个、最早、最新、最旧、最新的、最近的、下一个            |
 |        |         |
-|**视觉对象类型**     |  来源于 Power BI 的所有视觉对象。  如果是“可视化效果”面板中的选项，那么你可以将其包含在你的问题中。  此规则的例外情况是，你已手动添加到“可视化效果”窗格的 [Power BI 视觉对象](../developer/visuals/power-bi-custom-visuals.md)。  |
+|**视觉对象类型**     |  来源于 Power BI 的所有视觉对象。  如果是“可视化效果”面板中的选项，那么你可以将其包含在你的问题中。  此规则的例外是你已手动添加到“可视化效果”窗格的 [Power BI 自定义视觉对象](../developer/visuals/power-bi-custom-visuals.md)。  |
 |  |  示例：按照月份和销售总额以条形图显示地区               |
 |        |         |
 |**疑问词（关系、限定）**  | 时间、哪里、哪个、谁、多少、多少次、多久一次、金额、数字、数量、多久、什么                |

@@ -1,19 +1,19 @@
 ---
 title: 服务中断通知
-description: 了解如何在出现 Power BI 服务中断或降级时接收电子邮件通知。
+description: 了解如何在出现 Power BI 服务中断时接收电子邮件通知。
 author: kfollis
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 09/09/2020
+ms.date: 09/25/2020
 ms.author: kfollis
-ms.openlocfilehash: 89619a20f2fcf8510825b0234b90be5b2ff92e11
-ms.sourcegitcommit: 002c140d0eae3137a137e9a855486af6c55ad957
+ms.openlocfilehash: aa69be7cabae3abeeaf1888272389a791909cae7
+ms.sourcegitcommit: 02b5d031d92ea5d7ffa70d5098ed15e4ef764f2a
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/10/2020
-ms.locfileid: "89642271"
+ms.lasthandoff: 09/26/2020
+ms.locfileid: "91374858"
 ---
 # <a name="service-interruption-notifications"></a>服务中断通知
 
@@ -27,7 +27,7 @@ ms.locfileid: "89642271"
 - 模型刷新可靠性
 - 查询刷新可靠性
 
-在打开报表、刷新数据集或执行查询等操作中出现_较长延迟_的情况，则会发送通知。 事件解决后，你将收到跟进电子邮件。
+在打开报表、刷新数据集或执行查询等操作中出现较长延迟的情况时，系统会发送通知。 事件解决后，你将收到跟进电子邮件。
 
 > [!NOTE]
 > 此功能目前仅适用于 Power BI Premium 中的专用容量。 不适用于共享容量或嵌入容量。
@@ -36,16 +36,15 @@ ms.locfileid: "89642271"
 
 如果 Power BI Premium 容量长期存在资源使用量较高的情况，进而可能影响可靠性时，系统会接收到通知电子邮件。 此类影响的示例包括操作中长时间的延迟，例如在打开报表、刷新数据集和执行查询的时候。 
 
-通知电子邮件提供有关资源使用量高的原因的信息，包括：
+通知电子邮件提供有关资源使用量高的原因的信息，包括以下详细信息：
 
 * 相关数据集的数据集 ID
 * 操作类型
 * 与高资源使用量相关的 CPU 时间。 下面是维基百科中 [CPU 时间的定义](https://wikipedia.org/wiki/CPU_time)。
 
-当 Power BI 检测到 Power BI Premium 容量存在重载时，也会发送电子邮件通知。 电子邮件会说明重载的可能原因、过去 10 分钟内产生负载的操作以及每个操作生成的负载量。 
+当 Power BI 检测到 Power BI Premium 容量存在重载时，也会发送电子邮件通知。 电子邮件会说明重载的可能原因、过去 10 分钟内产生负载的操作以及每个操作生成的负载量。
 
-
-如果有多个 Premium 容量，则电子邮件会包含重载期间所有这些容量的信息，以便你可以考虑将包含资源密集型项目的工作区移动到负载最少的容量。
+如果你有多个 Premium 容量，则电子邮件会包括重载期间的有关这些容量的信息。 你可以根据此信息考虑是否将消耗大量资源的项所在的工作区移动到负载最少的容量。
 
 仅当触发重载阈值时，才会发送重载电子邮件通知。 当 Premium 容量上的负载恢复为非重载水平后，就不会再收到相关电子邮件。
 
@@ -56,7 +55,7 @@ ms.locfileid: "89642271"
 
 ## <a name="enable-notifications"></a>启用通知
 
-Power BI 租户管理员在管理门户中启用通知：
+Power BI 管理员在管理门户中启用通知：
 
 1. 标识或创建已启用电子邮件的安全组，该安全组将接收通知。
 
@@ -68,6 +67,10 @@ Power BI 租户管理员在管理门户中启用通知：
 
 > [!NOTE]
 > Power BI 将通过帐户 no-reply-powerbi@microsoft.com 发送通知。 确保已将此帐户添加到“安全发件人”列表，这样通知就不会出现在“垃圾邮件”文件夹中。
+
+## <a name="service-health-in-microsoft-365"></a>Microsoft 365 中的服务运行状况
+
+本文介绍了如何通过 Power BI 接收服务通知。 你还可以通过 Microsoft 365 监视 Power BI 服务运行状况。 选择从 Microsoft 365 接收有关服务运行状况的电子邮件通知。 在[如何检查 Microsoft 365 服务运行状况](https://docs.microsoft.com/microsoft-365/enterprise/view-service-health)中了解详细信息。
 
 ## <a name="next-steps"></a>后续步骤
 

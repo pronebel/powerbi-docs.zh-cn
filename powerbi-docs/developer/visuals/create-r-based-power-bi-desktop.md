@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: how-to
 ms.date: 05/11/2020
-ms.openlocfilehash: a3cb8d6ae8d8b872d00b3b4ce1aad13105f3b1e4
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 248e641488edb2523a2fa7102bd7a9a4829ee29b
+ms.sourcegitcommit: d153cfc0ce559480c53ec48153a7e131b7a31542
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85232830"
+ms.lasthandoff: 09/29/2020
+ms.locfileid: "91527760"
 ---
 # <a name="tutorial-create-an-r-powered-power-bi-visual"></a>教程：创建 R 驱动的 Power BI 视觉对象
 
@@ -78,7 +78,7 @@ ms.locfileid: "85232830"
 
 1. 在 Power BI Desktop 中，选择“R 脚本视觉对象”：
 
-   ![“可视化效果”窗格中的 R 视觉对象](./media/create-r-based-power-bi-desktop/r-script-icon.png)
+   ![屏幕截图显示了 Power BI Desktop 中的 R 脚本视觉对象控件。](./media/create-r-based-power-bi-desktop/r-script-icon.png)
 
 1. 将此 R 代码粘贴到 R 脚本编辑器中：
 
@@ -94,7 +94,7 @@ ms.locfileid: "85232830"
 
 1. 选择“运行脚本”图标以查看结果。
 
-    ![“可视化效果”窗格中的 R 视觉对象](./media/create-r-based-power-bi-desktop/run-r-script.png)
+    ![屏幕截图显示了运行脚本的结果，这是一个折线图。](./media/create-r-based-power-bi-desktop/run-r-script.png)
 
 1. R 脚本准备就绪后，将其复制到在前面的某个步骤中在视觉对象项目中创建的 `script.r` 文件。
 
@@ -176,7 +176,7 @@ ms.locfileid: "85232830"
 
 使用 `corrplot` 包的结果如下例所示：
 
-![“可视化效果”窗格中的 R 视觉对象](./media/create-r-based-power-bi-desktop/r-corrplot-result.png)
+![屏幕截图显示了可视化效果窗格，其中包含由 corrplot 创建的四个椭圆。](./media/create-r-based-power-bi-desktop/r-corrplot-result.png)
 
 ## <a name="adding-a-static-property-to-the-property-pane"></a>将静态属性添加到“属性”窗格
 

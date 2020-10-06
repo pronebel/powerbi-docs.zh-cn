@@ -10,12 +10,12 @@ ms.topic: how-to
 ms.date: 09/17/2020
 ms.author: mihart
 LocalizationGroup: Share your work
-ms.openlocfilehash: 841b8bb72b7b2a13c833fd313027b38b57511af3
-ms.sourcegitcommit: cb606d3ae95300683caf1853e229d8981302a8e2
+ms.openlocfilehash: 61c084dca6d80a5e609f642ed6fc6894bef9e63c
+ms.sourcegitcommit: d153cfc0ce559480c53ec48153a7e131b7a31542
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/18/2020
-ms.locfileid: "90764278"
+ms.lasthandoff: 09/29/2020
+ms.locfileid: "91527432"
 ---
 # <a name="export-reports-to-powerpoint"></a>将报表导出到 PowerPoint
 
@@ -110,7 +110,7 @@ Power BI 服务完成导出过程后，通知横幅会发生变化以通知你�
     - 处理时间超过一小时的报表。 
     - 加载时间超过 6 分钟的报表页。 
 
-* 如果 Power BI 服务中没有“导出到 PowerPoint”菜单项，则可能是因为租户管理员或报表所有者已禁用该功能。 有关详细信息，请联系租户管理员或所有者。
+* 如果 Power BI 服务中没有“导出到 PowerPoint”菜单项，则可能是因为 Power BI 管理员或报表所有者已禁用该功能。 有关详细信息，请联系管理员或所有者。
 * Power BI 服务将你的 Power BI 语言设置用作 Power BI 导出的语言。 若要在浏览器中查看或设置语言首选项，请选择齿轮图标 ![齿轮图标](media/end-user-powerpoint/power-bi-settings-icon.png) > “设置” > “常规” > “语言”。
 
 

@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 06/26/2020
 ms.author: gepopell
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 3ff8a504a9043c28d9064ad186005200165c232e
-ms.sourcegitcommit: a453ba52aafa012896f665660df7df7bc117ade5
+ms.openlocfilehash: 950868252bb1002a31cb0868308d2337e03d03e9
+ms.sourcegitcommit: 02b5d031d92ea5d7ffa70d5098ed15e4ef764f2a
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/27/2020
-ms.locfileid: "85485732"
+ms.lasthandoff: 09/26/2020
+ms.locfileid: "91375203"
 ---
 # <a name="connect-to-snowflake-in-power-bi-service"></a>在 Power BI 服务中连接到 Snowflake
 
@@ -38,7 +38,7 @@ ms.locfileid: "85485732"
 1. 从页面页眉菜单中选择“设置”，然后选择“管理门户”。
 1. 选择“租户设置”，然后滚动查找“集成设置”。
 
-   ![Snowflake SSO 的租户管理员设置](media/service-connect-snowflake/snowflake-sso-tenant.png)
+   ![Snowflake SSO 的租户设置](media/service-connect-snowflake/snowflake-sso-tenant.png)
 
 4. 展开“Snowflake SSO”，将设置切换到“启用”，然后选择”应用”。
 

@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 07/20/2020
 ms.author: painbar
 LocalizationGroup: ''
-ms.openlocfilehash: 2c9834310179d8936cda8b769e3b7e3f80d328e6
-ms.sourcegitcommit: 65025ab7ae57e338bdbd94be795886e5affd45b4
+ms.openlocfilehash: 71c214e265c84eb7436d384a98f793eefe2f6a23
+ms.sourcegitcommit: d153cfc0ce559480c53ec48153a7e131b7a31542
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/28/2020
-ms.locfileid: "87253826"
+ms.lasthandoff: 09/29/2020
+ms.locfileid: "91526206"
 ---
 # <a name="data-source-impact-analysis"></a>数据源影响分析
 
@@ -42,6 +42,17 @@ ms.locfileid: "87253826"
  
 * **影响摘要**：显示可能受影响的工作区、数据流和数据集的数量。 此计数包括你无权访问的工作区。
 * **使用情况细目**：显示每个工作区受影响的数据流和数据集的名称。 若要进一步研究对特定工作区的影响，请单击工作区名称以打开工作区。 进入受影响的工作区后，使用[数据集影响分析](service-dataset-impact-analysis.md)查看有关已连接报表和仪表板的详细使用情况。
+
+## <a name="notify-contacts"></a>通知联系人
+
+如果你对数据源进行了更改，或考虑进行更改，那么你可能需要联系相关用户，告诉他们此事。 当你通知联系人时，需将一封电子邮件发送到所有受影响工作区的[联系人列表](service-create-the-new-workspaces.md#create-a-contact-list)（如果是经典工作区，则将电子邮件发送给工作区管理员）。 你的名字会显示在电子邮件中，这样联系人就可以找到你，并在新的电子邮件会话中进行回复。 
+
+1. 在影响分析侧窗格中，单击“通知联系人”。 “通知联系人”对话框随即显示。
+
+   ![数据源“通知联系人”对话框的屏幕截图。](media/service-data-source-impact-analysis/notify-contacts-dialog.png)
+
+1. 在文本框中，提供一些关于更改的详细信息。
+1. 准备好消息后，单击“发送”。
 
 ## <a name="privacy"></a>隐私
 

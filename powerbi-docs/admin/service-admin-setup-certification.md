@@ -8,18 +8,18 @@ ms.topic: how-to
 ms.date: 05/15/2020
 ms.author: painbar
 LocalizationGroup: Share your work
-ms.openlocfilehash: 41247a6dbee2ba6c4c5181a4646df735e43f8b18
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 11079e2ab1578cfe5db352e7e3286d491bdfca2c
+ms.sourcegitcommit: 02b5d031d92ea5d7ffa70d5098ed15e4ef764f2a
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85227538"
+ms.lasthandoff: 09/26/2020
+ms.locfileid: "91374904"
 ---
 # <a name="set-up-dataset-and-dataflow-certification-preview"></a>设置数据集和数据流认证（预览版）
 
 组织可以对作为关键信息权威源的数据集和数据流进行认证。
 
-Power BI 租户管理员负责为组织设置认证过程。 这意味着：
+Power BI 管理员负责为组织设置认证过程。 这意味着：
 * 对租户启用认证。
 * 定义有权认证数据集和数据流的组和用户的列表。
 * 对于数据集，提供组织的数据集认证策略的 URL（如果有）。

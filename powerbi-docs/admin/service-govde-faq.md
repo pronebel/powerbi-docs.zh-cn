@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 08/20/2020
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: 5fcffd39e9a341478657b63770201ad722b8c291
-ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
+ms.openlocfilehash: 97164fe1db72cac28096b1fde5130cfccec29be2
+ms.sourcegitcommit: 02b5d031d92ea5d7ffa70d5098ed15e4ef764f2a
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90855118"
+ms.lasthandoff: 09/26/2020
+ms.locfileid: "91374790"
 ---
 # <a name="frequently-asked-questions-for-power-bi-for-germany-cloud-customers"></a>适用于德国云客户的 Power BI 常见问题解答
 **Power BI 服务**具有可用于欧盟/欧洲自由贸易协议 (EU/EFTA) 客户的版本，通常称为 Microsoft Cloud Deutschland (MCD)。 本文中讨论的 **Power BI 服务**版本是为欧盟/EFTA 客户专门设计的，独立且不同于 **Power BI 服务**的商业版本或为政府客户提供的 Power BI 服务。
@@ -34,7 +34,7 @@ ms.locfileid: "90855118"
    你可以在 [Power BI Germany 云主页](https://powerbi.microsoft.com/power-bi-germany/)上找到大量信息，其中包括定价信息。 在该页面上，还可以找到一个用于注册 Power BI Pro 服务 30 天试用版（包含 25 个用户许可证）的链接。 在注册试用版的过程中，可以根据需要选择购买或添加其他许可证。 此外，我们还提供企业协议 (EA)、政府和非营利性定价。 请联系 Microsoft 客户代表，了解详细信息。
 3. **我有一个德国云租户，它是 Azure Germany 和/或 Office 365 Germany 订阅的一部分。我可以使用现有租户注册 Power BI Germany 吗？**
    
-   是的。 作为注册过程的一部分，你可以选择使用现有德国云租户管理员帐户登录，并将 Power BI Pro 服务许可证添加到德国云中的现有租户。 请注意，德国云租户和用户帐户与德国云的 Power BI 服务不同。
+   是的。 在注册过程中，你可以选择使用现有德国云管理员帐户登录，将 Power BI Pro 服务许可证添加到德国云中的现有租户。 请注意，德国云租户和用户帐户与德国云的 Power BI 服务不同。
 4. **德国云的 Power BI 服务是否提供免费服务？**
    
    不行。 我们不会在德国云的 Power BI 服务中提供免费的许可证版本。 但是，如果你的业务需求符合 Power BI 免费产品/服务要求，我们建议你[在我们的公有云中注册Power BI 免费产品/服务](https://powerbi.microsoft.com/get-started/)。

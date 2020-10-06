@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 12/19/2019
 ms.author: davidi
 LocalizationGroup: Transform and shape data
-ms.openlocfilehash: 5bcc2123c5e22cb5b0ff91122a30ce3d7beb51fe
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 17006405a495798618bf7562e6b94864b795a224
+ms.sourcegitcommit: d153cfc0ce559480c53ec48153a7e131b7a31542
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83325566"
+ms.lasthandoff: 09/29/2020
+ms.locfileid: "91528036"
 ---
 # <a name="apply-many-many-relationships-in-power-bi-desktop"></a>在 Power BI Desktop 中应用多对多关系
 
@@ -93,7 +93,7 @@ Power BI Desktop 中的“具有多对多基数的关系”由三个相关功能
 
 显示“State”  （来自“CityData”  表）以及总“Population”  和总“Sales”  的视觉对象如下所示：
 
-![State、Population 和 Sales 表 - Power BI Desktop](media/desktop-many-to-many-relationships/many-to-many-relationships_09.png)
+![屏幕截图显示了一个表，表中包含州、人口和销售数据。](media/desktop-many-to-many-relationships/many-to-many-relationships_09.png)
 
 > [!NOTE]
 > 因为此解决办法使用了“CityData”表中的州，所以只会列出这个表中的州（因此不包括“TX”）  。 此外，与多对一关系不同，虽然总计行包含所有“Sales”（包括 TX 的销售额），但详细信息中并没有一个空白行来对应不匹配行信息   。 同样，也没有空白行来对应 State 值为 Null 的 Sales。   。

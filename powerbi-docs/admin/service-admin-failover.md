@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 06/18/2020
 ms.author: kfollis
 LocalizationGroup: Administration
-ms.openlocfilehash: a9fca9f27baf51c4e4bafbf93244f0d745ba714b
-ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
+ms.openlocfilehash: c83565582a47c75e4f55e516afe3be0d9fbe7847
+ms.sourcegitcommit: 02b5d031d92ea5d7ffa70d5098ed15e4ef764f2a
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90857418"
+ms.lasthandoff: 09/26/2020
+ms.locfileid: "91374214"
 ---
 # <a name="power-bi-high-availability-failover-and-disaster-recovery-faq"></a>Power BI 高可用性、故障转移和灾难恢复常见问题解答
 
@@ -74,4 +74,8 @@ Power BI 维护 Azure 数据中心（也称为区域）中每个组件的多个�
 
 ## <a name="will-gateways-function-when-in-failover-mode"></a>在处于故障转移模式期间，网关是否会工作正常？
 
-否。 需要本地数据源（基于直接查询和 Live Connect 的任何报表和仪表板）提供的数据不会在故障转移过程中起作用。 网关配置不会更改，不过：当 Power BI 实例恢复为其原始状态时，网关会恢复为其正常功能。
+否。 需要本地数据源（基于直接查询和 Live Connect 的任何报表和仪表板）提供的数据不会在故障转移过程中起作用。 但是，网关配置不会更改。 当 Power BI 实例恢复为其原始状态时，网关会恢复为其正常功能。
+
+如果主要区域中发生极端灾难，该灾难在非常长的持续时间内阻止其恢复联机状态，则故障转移的主要区域将允许读取和写入操作，客户可以根据新区域重新部署和配置网关。
+
+客户可以选择在另一台计算机上安装新网关，或者接管其现有网关。 接管现有网关应该更为简单，因为与旧网关关联的所有数据源都将转移到新网关。
