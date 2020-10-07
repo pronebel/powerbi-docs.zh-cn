@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 01/10/2020
 ms.author: davidi
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 74dbd1207a39f44f761c5068af41db1f40acabe3
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: f6bcd67d41f2c04cedd7c66eb5989f2a6919b030
+ms.sourcegitcommit: 51b965954377884bef7af16ef3031bf10323845f
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85222689"
+ms.lasthandoff: 09/30/2020
+ms.locfileid: "91598652"
 ---
 # <a name="create-a-report-on-a-sharepoint-list"></a>在 SharePoint 列表中创建报表
 
@@ -30,7 +30,7 @@ ms.locfileid: "85222689"
 2. 打开 Power BI Desktop，并在功能区的“主页”选项卡中，选择“获取数据” > “更多” 。
 3. 选择“联机服务”，然后选择“SharePoint Online 列表” 。  
 
-    <img src="media/desktop-sharepoint-online-list/desktop-sharepoint-online-list-getdata.png" alt="get data" width="350"/>
+    <img src="media/desktop-sharepoint-online-list/desktop-sharepoint-online-list-getdata.png" alt="Screenshot shows the Get Data dialog box with Online Services selected." width="350"/>
 
 4. 选择“连接”。
 4. 查找包含列表的 SharePoint Online 站点的地址（也称为 URL）。  在 SharePoint Online 的页面中，通常可以通过选择导航窗格中“主页”或顶部的站点图标来获取站点地址，然后从 Web 浏览器的地址栏复制地址。
@@ -52,7 +52,7 @@ ms.locfileid: "85222689"
 
 9. 在导航器左侧，选择要连接到的 SharePoint 列表旁边的复选框。
 
-    <img src="media/desktop-sharepoint-online-list/desktop-sharepoint-online-list-select-list.png" alt="get data" width="450"/>
+    <img src="media/desktop-sharepoint-online-list/desktop-sharepoint-online-list-select-list.png" alt="Screenshot shows the Navigator page with BudgetRequests selected." width="450"/>
 
 10. 选择“加载”。  Power BI 将列表数据加载到新报表中。
 

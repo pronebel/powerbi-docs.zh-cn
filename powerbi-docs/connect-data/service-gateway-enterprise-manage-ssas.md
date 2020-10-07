@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 07/15/2019
 ms.author: arthii
 LocalizationGroup: Gateways
-ms.openlocfilehash: c97a303a5b3241f49e82aac41d9ed7984c3a5af1
-ms.sourcegitcommit: 002c140d0eae3137a137e9a855486af6c55ad957
+ms.openlocfilehash: 521c1cbc60c6d616c06bde6b6826bb270d3ddba0
+ms.sourcegitcommit: 02b5d031d92ea5d7ffa70d5098ed15e4ef764f2a
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/10/2020
-ms.locfileid: "89642309"
+ms.lasthandoff: 09/26/2020
+ms.locfileid: "91375295"
 ---
 # <a name="manage-your-data-source---analysis-services"></a>管理数据源 - Analysis Services
 
@@ -219,7 +219,9 @@ Microsoft 云服务使用 [Azure AD](/azure/active-directory/fundamentals/active
 
 你可能不知道你的 UPN 是什么，而且你有可能不是域管理员。 你可以从工作站使用以下命令找出你的帐户的 UPN。
 
-    whoami /upn
+```dos
+whoami /upn
+```
 
 结果类似于电子邮件地址，但是它是位于域帐户上的 UPN。 如果使用 Analysis Services 数据源进行实时连接，并且此 UPN 与你用于登录 Power BI 的电子邮件地址不匹配，则可能要了解一下如何[映射用户名](#map-user-names-for-analysis-services-data-sources)。
 
@@ -235,7 +237,7 @@ Microsoft 云服务使用 [Azure AD](/azure/active-directory/fundamentals/active
 
 - 你可以使用 [Azure AD Connect](/azure/active-directory/hybrid/how-to-connect-sync-whatis) 工具将本地帐户同步到 Azure AD 租户。
 
-   Azure AD Connect 工具提供了选项以用于目录同步和设置身份验证。 这些选项包括密码哈希同步、传递身份验证和联合身份验证。 如果你不是租户管理员或本地域管理员，请联系 IT 管理员以帮助进行配置。
+   Azure AD Connect 工具提供了选项以用于目录同步和设置身份验证。 这些选项包括密码哈希同步、传递身份验证和联合身份验证。 如果你不是管理员或本地域管理员，请联系 IT 管理员以帮助你进行配置。
 
    使用 Azure AD Connect 可确保 UPN 在 Azure AD 与本地 Active Directory 实例之间匹配。
 

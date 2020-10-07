@@ -9,12 +9,12 @@ ms.subservice: powerbi-developer
 ms.topic: tutorial
 ms.date: 06/01/2020
 ms.author: v-pemyer
-ms.openlocfilehash: 82f9ffaeb98610dd9ae5986031638c5086749937
-ms.sourcegitcommit: 7fba2caf3bd7ed93a7ecb6a6b9ba2da26de27395
+ms.openlocfilehash: bb5e2d0accd2db339666e23c449164103bb26ac8
+ms.sourcegitcommit: d153cfc0ce559480c53ec48153a7e131b7a31542
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/06/2020
-ms.locfileid: "84467024"
+ms.lasthandoff: 09/29/2020
+ms.locfileid: "91527875"
 ---
 # <a name="power-bi-developer-in-a-day-course"></a>“Power BI 开发人员的一天”课程
 
@@ -85,7 +85,7 @@ ms.locfileid: "84467024"
 
 - 最新版本的 [Power BI Desktop](../fundamentals/desktop-get-the-desktop.md)。
 - Visual Studio 2015 或更高版本。 建议使用 [Visual Studio 2019](https://visualstudio.microsoft.com/downloads/)。 可以使用社区版本，该版本免费且适用于学习场景。 必须安装有“ASP.NET 和 Web 开发”工作负载。
-- [Power BI 支持的](../power-bi-browsers.md) Web 浏览器。 建议使用 Microsoft Edge。
+- [Power BI 支持的](../fundamentals/power-bi-browsers.md) Web 浏览器。 建议使用 Microsoft Edge。
 
 执行以下步骤进行设置：
 
@@ -106,7 +106,7 @@ ms.locfileid: "84467024"
 当准备开始第一个实验时，请打开 &lt;CourseFolder&gt;\PowerBIDevIAD\Lab01A\PowerBIDevIAD_Lab01A.pdf 文件。 本文档将介绍如何登录 Power BI 服务并准备 Power BI 报表。
 
 > [!NOTE]
-> 需要拥有自己的 Power BI 帐户。 如果还没有帐户，请参阅[以个人身份注册 Power BI](../service-self-service-signup-for-power-bi.md)。
+> 需要拥有自己的 Power BI 帐户。 如果还没有帐户，请参阅[以个人身份注册 Power BI](../fundamentals/service-self-service-signup-for-power-bi.md)。
 >
 > 你的帐户必须具有 Power BI Pro 许可证，或者你仍可以接受 Power BI Pro 试用版许可证，即只能接受一次的产品/服务。 此外，你的帐户不得耗尽 Power BI Pro 许可证提供的免费嵌入令牌的保留量。
 >

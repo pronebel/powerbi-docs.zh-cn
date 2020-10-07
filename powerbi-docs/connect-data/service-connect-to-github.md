@@ -8,12 +8,12 @@ ms.topic: how-to
 ms.date: 05/19/2020
 ms.author: painbar
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 706e4221c131f1743ff00bb9a7b6c0812394cbb8
-ms.sourcegitcommit: e8b12d97076c1387088841c3404eb7478be9155c
+ms.openlocfilehash: 2e482c6efd60352721e1788a7929128af1b8cf89
+ms.sourcegitcommit: be424c5b9659c96fc40bfbfbf04332b739063f9c
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/01/2020
-ms.locfileid: "85782428"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "91633621"
 ---
 # <a name="connect-to-github-with-power-bi"></a>使用 Power BI 连接到 GitHub
 本文介绍如何使用 Power BI 模板应用从 GitHub 帐户拉取数据。 模板应用生成一个带有仪表板、一组报表和数据集的工作区，以便你可以浏览 GitHub 数据。 适用于 Power BI 的 GitHub 应用使你通过参与、问题、拉取请求和活动用户的相关数据，深入了解 GitHub 存储机制（也称为存储库）。
@@ -125,7 +125,9 @@ ms.locfileid: "85782428"
 
 第一部分“Azure”是所有者，第二部分“azure-sdk-for-pho”是存储库本身。  将在存储库的 URL 中看到这两个相同的项目：
 
-    <https://github.com/Azure/azure-sdk-for-php> .
+```console
+<https://github.com/Azure/azure-sdk-for-php> .
+```
 
 ## <a name="troubleshooting"></a>故障排除
 如有必要，可以验证你的 GitHub 凭据。  

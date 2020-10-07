@@ -8,12 +8,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 08/20/2020
 ms.author: v-pemyer
-ms.openlocfilehash: 9a5ed3d2a4798332de2394e1ad5be6fdbdb6eeae
-ms.sourcegitcommit: 84e75a2cd92f4ba4e0c08ba296b981b79d6d0e82
+ms.openlocfilehash: fba37d9f73ea0f61d8a43dc46cd13a5835d4d2a9
+ms.sourcegitcommit: d153cfc0ce559480c53ec48153a7e131b7a31542
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/25/2020
-ms.locfileid: "88803118"
+ms.lasthandoff: 09/29/2020
+ms.locfileid: "91525791"
 ---
 # <a name="prepare-to-migrate-to-power-bi"></a>准备迁移到 Power BI
 
@@ -73,7 +73,7 @@ ms.locfileid: "88803118"
 
 Power BI 实现初期需要解决的一些关键事项包括：
 
-- [Power BI 租户管理设置](admin-tenant-settings.md)决策，应记录下来。
+- [Power BI 租户设置](admin-tenant-settings.md)决策，应记录下来。
 - [工作区管理](../collaborate-share/service-new-workspaces.md)决策，应记录下来。
 - 与数据和[内容分发方法](../collaborate-share/service-how-to-collaborate-distribute-dashboards-reports.md)相关的考虑因素和首选项，例如应用、工作区、共享、订阅和内容嵌入。
 - 与[数据集模式](../connect-data/service-dataset-modes-understand.md)相关的首选项，例如使用“导入”模式、DirectQuery 模式或通过[复合模型](composite-model-guidance.md)来组合使用这两种模式。
@@ -96,7 +96,7 @@ Power BI 实现初期需要解决的一些关键事项包括：
 - Power BI 租户设置以及与 Azure Active Directory 的集成。
 - 定义 [Power BI 管理员](../admin/service-admin-role.md)。
 - 获取并分配初始[用户许可证](../admin/service-admin-licensing-organization.md)。
-- 配置并查看 [Power BI 租户管理设置](admin-tenant-settings.md)。
+- 配置并查看 [Power BI 租户设置](admin-tenant-settings.md)。
 - 设置[工作区角色](../collaborate-share/service-new-workspaces.md#roles-in-the-new-workspaces)，并分配对 Azure Active Directory 安全组和用户的访问权限。
 - 配置初始的[数据网关](../connect-data/service-gateway-deployment-guidance.md)集群，并计划定期更新。
 - 获得初始[高级容量许可证](../admin/service-admin-premium-purchase.md)（如果适用）。

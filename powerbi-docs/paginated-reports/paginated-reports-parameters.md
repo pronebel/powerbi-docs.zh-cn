@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: how-to
 ms.date: 09/28/2020
-ms.openlocfilehash: 3a755b2b4eeba407178d7afa0a0250b6897e6dac
-ms.sourcegitcommit: d153cfc0ce559480c53ec48153a7e131b7a31542
+ms.openlocfilehash: aa4df6db3058ef3d6f8c399e1bf20f0edf17ebc8
+ms.sourcegitcommit: 51b965954377884bef7af16ef3031bf10323845f
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/29/2020
-ms.locfileid: "91526343"
+ms.lasthandoff: 09/30/2020
+ms.locfileid: "91600495"
 ---
 # <a name="create-parameters-for-paginated-reports-in-the-power-bi-service"></a>为 Power BI 服务中的分页报表创建参数
 
@@ -62,11 +62,6 @@ ms.locfileid: "91526343"
   
 9. 选择“确定”。 
 
-## <a name="considerations-and-troubleshooting"></a>注意事项和疑难解答
-
-- 如果使用 Power BI 数据集或 Analysis Services 模型作为数据源，则不能在单个请求中传递超过 1,000 个参数值。 DAX 将参数限制为 1,000 个值。 
-
- 
 ## <a name="next-steps"></a>后续步骤
 
 请参阅[查看分页报表的参数](../consumer/paginated-reports-view-parameters.md)，了解在 Power BI 服务中显示的参数。

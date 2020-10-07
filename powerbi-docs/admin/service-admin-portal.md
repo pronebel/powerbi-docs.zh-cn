@@ -10,12 +10,12 @@ ms.date: 09/25/2020
 ms.author: kfollis
 ms.custom: seodec18
 LocalizationGroup: Administration
-ms.openlocfilehash: ae904f203c3f5b9437fd01b9306cc160e6feff1b
-ms.sourcegitcommit: 02b5d031d92ea5d7ffa70d5098ed15e4ef764f2a
+ms.openlocfilehash: 62c463972d4811bac0c5400da96a88264273a873
+ms.sourcegitcommit: 51b965954377884bef7af16ef3031bf10323845f
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/26/2020
-ms.locfileid: "91375249"
+ms.lasthandoff: 09/30/2020
+ms.locfileid: "91600264"
 ---
 # <a name="administering-power-bi-in-the-admin-portal"></a>在管理门户中管理 Power BI
 
@@ -393,7 +393,7 @@ Azure AD B2B 来宾用户可以编辑和管理组织中的内容。 [了解详�
 
 ### <a name="use-arcgis-maps-for-power-bi"></a>使用 ArcGIS Maps for Power BI
 
-组织中的用户可以使用 Esri 提供的 ArcGIS Maps for Power BI 可视化效果。 [了解详细信息](../visuals/power-bi-visualization-arcgis.md)
+组织中的用户可以使用 Esri 提供的 ArcGIS Maps for Power BI 可视化效果。 [了解详细信息](../visuals/power-bi-visualizations-arcgis.md)
 
 ### <a name="use-global-search-for-power-bi-preview"></a>使用 Power BI（预览版）的全局搜索
 

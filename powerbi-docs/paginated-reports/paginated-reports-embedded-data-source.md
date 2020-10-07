@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: how-to
 ms.date: 03/02/2020
-ms.openlocfilehash: 37ab82de16e45f86f2d2aba5113ba4efe6fc383c
-ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
+ms.openlocfilehash: e44b81120ef5eb1d2a384aae4f2d149525c3b7b4
+ms.sourcegitcommit: be424c5b9659c96fc40bfbfbf04332b739063f9c
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90859672"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "91632494"
 ---
 # <a name="create-an-embedded-data-source-for-paginated-reports-in-the-power-bi-service"></a>在 Power BI 服务中为分页报表创建嵌入数据源
 
@@ -41,30 +41,30 @@ ms.locfileid: "90859672"
 
 1. 在“报表数据”窗格中的工具栏上，选择“新建”   > “数据源”  。 随即将打开“数据源属性”  对话框。
 
-    ![新建数据源](media/paginated-reports-embedded-data-source/power-bi-paginated-new-data-source.png)
+   ![新建数据源](media/paginated-reports-embedded-data-source/power-bi-paginated-new-data-source.png)
   
-2.  在“名称”  文本框中，键入数据源的名称或接受默认名称。  
+1. 在“名称”  文本框中，键入数据源的名称或接受默认名称。  
   
-3.  选择“使用我的报表中嵌入的连接”  。  
+1. 选择“使用我的报表中嵌入的连接”  。  
   
-1.  从“选择连接类型”  列表中，选择数据源类型。 
+1. 从“选择连接类型”  列表中，选择数据源类型。 
 
-1.  使用下列方法之一指定连接字符串：  
+1. 使用下列方法之一指定连接字符串：  
   
-    -   在“连接字符串”  文本框中直接键入连接字符串。 
+   - 在“连接字符串”  文本框中直接键入连接字符串。 
   
-     -   选择“构建”  以打开在步骤 2 中选择的数据源的“连接属性”  对话框。  
+   - 选择“构建”  以打开在步骤 2 中选择的数据源的“连接属性”  对话框。  
   
-        根据数据源类型，填写“连接属性”  对话框中的字段。 连接属性包括数据源类型、数据源名称和要使用的凭据。 在此对话框中指定值后，选择“测试连接”  以验证数据源是否可用，以及指定的凭据是否正确。  
+     根据数据源类型，填写“连接属性”  对话框中的字段。 连接属性包括数据源类型、数据源名称和要使用的凭据。 在此对话框中指定值后，选择“测试连接”  以验证数据源是否可用，以及指定的凭据是否正确。  
   
-4.  选择“凭据”  。  
+1. 选择“凭据”  。  
   
-     指定要用于此数据源的凭据。 数据源的所有者将选择支持的凭据类型。 有关详细信息，请参阅[指定报表数据源的凭据和连接信息](/sql/reporting-services/report-data/specify-credential-and-connection-information-for-report-data-sources)。
+   指定要用于此数据源的凭据。 数据源的所有者将选择支持的凭据类型。 有关详细信息，请参阅[指定报表数据源的凭据和连接信息](/sql/reporting-services/report-data/specify-credential-and-connection-information-for-report-data-sources)。
   
-5.  选择“确定”。   
+1. 选择“确定”。   
   
-     “报表数据”窗格中将显示数据源。  
-     
+   “报表数据”窗格中将显示数据源。
+
 ## <a name="limitations-and-considerations"></a>限制和注意事项
 
 连接到 Power BI 数据集的分页报表需遵循 Power BI 中针对共享数据集的规则（略作更改）。  为保证用户通过 Power BI 数据集正确查看分页报表，同时确保已为查看者启用和强制实施行级别安全性 (RLS)，请确保遵守以下规则：
