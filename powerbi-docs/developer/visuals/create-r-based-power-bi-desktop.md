@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: how-to
 ms.date: 05/11/2020
-ms.openlocfilehash: 248e641488edb2523a2fa7102bd7a9a4829ee29b
-ms.sourcegitcommit: d153cfc0ce559480c53ec48153a7e131b7a31542
+ms.openlocfilehash: 2046dc389b859ce71c4d26cc31cc686f812e461e
+ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/29/2020
-ms.locfileid: "91527760"
+ms.lasthandoff: 10/06/2020
+ms.locfileid: "91749311"
 ---
 # <a name="tutorial-create-an-r-powered-power-bi-visual"></a>教程：创建 R 驱动的 Power BI 视觉对象
 
@@ -31,9 +31,9 @@ ms.locfileid: "91527760"
 ## <a name="prerequisites"></a>先决条件
 
 * Power BI Pro 帐户。 开始之前，[请注册免费试用版](https://powerbi.microsoft.com/pricing/)。
-* R 引擎。 可以从很多位置（包括 [Revolution Open 下载页](https://mran.revolutionanalytics.com/download/)和 [CRAN 存储库](https://cran.r-project.org/bin/windows/base/)）免费下载 R。 有关详细信息，请参阅[使用 R 创建 Power BI 视觉对象](../../desktop-r-visuals.md)。
+* R 引擎。 可以从很多位置（包括 [Revolution Open 下载页](https://mran.revolutionanalytics.com/download/)和 [CRAN 存储库](https://cran.r-project.org/bin/windows/base/)）免费下载 R。 有关详细信息，请参阅[使用 R 创建 Power BI 视觉对象](../../create-reports/desktop-r-visuals.md)。
 * [Power BI Desktop](../../fundamentals/desktop-get-the-desktop.md)。
-* 对于 Windows 用户，需要 [Windows PowerShell](https://docs.microsoft.com/powershell/scripting/install/installing-windows-powershell?view=powershell-6) 版本 4 或更高版本，而对于 OSX 用户，则需要[终端](https://macpaw.com/how-to/use-terminal-on-mac)。
+* 对于 Windows 用户，需要 [Windows PowerShell](/powershell/scripting/install/installing-windows-powershell?view=powershell-6) 版本 4 或更高版本，而对于 OSX 用户，则需要[终端](https://macpaw.com/how-to/use-terminal-on-mac)。
 
 ## <a name="getting-started"></a>入门
 
@@ -283,6 +283,6 @@ ms.locfileid: "91527760"
 
 ## <a name="next-steps"></a>后续步骤
 
-若要详细了解 R 驱动的视觉对象，请参阅[使用 Power BI 中 R 驱动的 Power BI 视觉对象](../../desktop-r-powered-custom-visuals.md)。
+若要详细了解 R 驱动的视觉对象，请参阅[使用 Power BI 中 R 驱动的 Power BI 视觉对象](../../create-reports/desktop-r-powered-custom-visuals.md)。
 
-有关 Power BI Desktop 中 R 驱动的视觉对象的详细信息，请参阅[使用 R 创建 Power BI 视觉对象](../../desktop-r-visuals.md)。
+有关 Power BI Desktop 中 R 驱动的视觉对象的详细信息，请参阅[使用 R 创建 Power BI 视觉对象](../../create-reports/desktop-r-visuals.md)。

@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 09/23/2020
+ms.date: 10/05/2020
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: acfe54479ae02b950dcc8521807add7c06071207
-ms.sourcegitcommit: 3655521f7d6e70d25cbe72006aada69ba08e7dec
+ms.openlocfilehash: 7460967e12ee13f5aff03c8058c318741c26aa86
+ms.sourcegitcommit: 6ba33e5a500928163e02e007f5ccd52dd2227610
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/25/2020
-ms.locfileid: "91224178"
+ms.lasthandoff: 10/07/2020
+ms.locfileid: "91780103"
 ---
 # <a name="whats-new-in-power-bi-desktop"></a>Power BI Desktop 中的新增功能是什么？
 
@@ -46,45 +46,38 @@ Power BI Desktop 更新列表中每个功能旁边的链接解释如下：
 
 以下是本月推出的 Power BI Desktop 新增功能的更新：
 
-https://www.youtube.com/watch?v=gPGy18Yo0Go https://youtu.be/TPsV7N4bZZg?t=15
-
-
-https://www.youtube.com/watch?v=gPGy18Yo0Go
-
-https://www.youtube.com/watch?v=TPsV7N4bZZg?t=448
-
 ### <a name="analytics"></a>分析
-* 智能叙述（预览版）[[视频]](https://www.youtube.com/watch?v=gPGy18Yo0Go?t=51)  [[博客]](https://powerbi.microsoft.com/blog/power-bi-september-2020-feature-summary/#_Smart_narratives_(preview)) 
-* 问答现在支持算术运算 [[视频]](https://www.youtube.com/watch?v=gPGy18Yo0Go?t=333)   [[博客]](https://powerbi.microsoft.com/blog/power-bi-september-2020-feature-summary/#QA_arithmetic) 
+* 智能叙述（预览版）[[视频]](https://youtu.be/gPGy18Yo0Go?t=51)  [[博客]](https://powerbi.microsoft.com/blog/power-bi-september-2020-feature-summary/#_Smart_narratives_(preview)) 
+* 问答现在支持算术运算 [[视频]](https://youtu.be/gPGy18Yo0Go?t=333)   [[博客]](https://powerbi.microsoft.com/blog/power-bi-september-2020-feature-summary/#QA_arithmetic) 
 
 
 ### <a name="reporting"></a>报表
-* 为其他图表选择数据点矩形 [[视频]](https://www.youtube.com/watch?v=gPGy18Yo0Go?t=370)  [[博客]](https://powerbi.microsoft.com/blog/power-bi-september-2020-feature-summary/#Data_point_rectangle_select) 
-* 添加了常规视觉对象选项来维持分层顺序 [[视频]](https://www.youtube.com/watch?v=gPGy18Yo0Go?t=405)  [[博客]](https://powerbi.microsoft.com/blog/power-bi-september-2020-feature-summary/#Maintain_layer_order) 
-* 在发布期间搜索工作区 [[视频]](https://www.youtube.com/watch?v=gPGy18Yo0Go?t=615)  [[博客]](https://powerbi.microsoft.com/blog/power-bi-september-2020-feature-summary/#Search_workspace) 
-* 堆栈视觉对象的总标签数 [[视频]](https://www.youtube.com/watch?v=gPGy18Yo0Go?t=630)  [[博客]](https://powerbi.microsoft.com/blog/power-bi-september-2020-feature-summary/#Total_labels_stacked) 
-* 移动创作增强功能 [[视频]](https://www.youtube.com/watch?v=gPGy18Yo0Go?t=786)  [[博客]](https://powerbi.microsoft.com/blog/power-bi-september-2020-feature-summary/#Mobile_authoring_enhancements) 
+* 为其他图表选择数据点矩形 [[视频]](https://youtu.be/gPGy18Yo0Go?t=370)  [[博客]](https://powerbi.microsoft.com/blog/power-bi-september-2020-feature-summary/#Data_point_rectangle_select) 
+* 添加了常规视觉对象选项来维持分层顺序 [[视频]](https://youtu.be/gPGy18Yo0Go?t=405)  [[博客]](https://powerbi.microsoft.com/blog/power-bi-september-2020-feature-summary/#Maintain_layer_order) 
+* 在发布期间搜索工作区 [[视频]](https://youtu.be/gPGy18Yo0Go?t=615)  [[博客]](https://powerbi.microsoft.com/blog/power-bi-september-2020-feature-summary/#Search_workspace) 
+* 堆栈视觉对象的总标签数 [[视频]](https://youtu.be/gPGy18Yo0Go?t=630)  [[博客]](https://powerbi.microsoft.com/blog/power-bi-september-2020-feature-summary/#Total_labels_stacked) 
+* 移动创作增强功能 [[视频]](https://youtu.be/gPGy18Yo0Go?t=786)  [[博客]](https://powerbi.microsoft.com/blog/power-bi-september-2020-feature-summary/#Mobile_authoring_enhancements) 
 
 
 ### <a name="modeling"></a>建模
-* 增强的数据集元数据现已正式发布 [[视频]](https://www.youtube.com/watch?v=gPGy18Yo0Go?t=1200)  [[博客]](https://powerbi.microsoft.com/blog/power-bi-september-2020-feature-summary/#Enhanced_Dataset_Metadata)
-* 对涉及货币数据类型列的聚合表达式的性能改进 [[视频]](https://www.youtube.com/watch?v=gPGy18Yo0Go?t=1220)  [[博客]](https://powerbi.microsoft.com/blog/power-bi-september-2020-feature-summary/#Performance_improvements_to_agg)
+* 增强的数据集元数据现已正式发布 [[视频]](https://youtu.be/gPGy18Yo0Go?t=1200)  [[博客]](https://powerbi.microsoft.com/blog/power-bi-september-2020-feature-summary/#Enhanced_Dataset_Metadata)
+* 对涉及货币数据类型列的聚合表达式的性能改进 [[视频]](https://youtu.be/gPGy18Yo0Go?t=1220)  [[博客]](https://powerbi.microsoft.com/blog/power-bi-september-2020-feature-summary/#Performance_improvements_to_agg)
 
 
 ### <a name="data-connectivity"></a>数据连接
-* Azure Databricks [[视频]](https://www.youtube.com/watch?v=gPGy18Yo0Go?t=1342)  [[博客]](https://powerbi.microsoft.com/blog/power-bi-september-2020-feature-summary/#Azure_Databricks)
-* MariaDB [[视频]](https://www.youtube.com/watch?v=gPGy18Yo0Go?t=1365)  [[博客]](https://powerbi.microsoft.com/blog/power-bi-september-2020-feature-summary/#MariaDB)
-* 六边形 PPM 智能 API [[视频]](https://www.youtube.com/watch?v=gPGy18Yo0Go?t=1386)  [[博客]](https://powerbi.microsoft.com/blog/power-bi-september-2020-feature-summary/#Hexagon_PPM_Smart)
-* 其他数据连接更新 [[视频]](https://www.youtube.com/watch?v=gPGy18Yo0Go?t=1411)  [[博客]](https://powerbi.microsoft.com/blog/power-bi-september-2020-feature-summary/#Other_data_connectivity)
+* Azure Databricks [[视频]](https://youtu.be/gPGy18Yo0Go?t=1342)  [[博客]](https://powerbi.microsoft.com/blog/power-bi-september-2020-feature-summary/#Azure_Databricks)
+* MariaDB [[视频]](https://youtu.be/gPGy18Yo0Go?t=1365)  [[博客]](https://powerbi.microsoft.com/blog/power-bi-september-2020-feature-summary/#MariaDB)
+* 六边形 PPM 智能 API [[视频]](https://youtu.be/gPGy18Yo0Go?t=1386)  [[博客]](https://powerbi.microsoft.com/blog/power-bi-september-2020-feature-summary/#Hexagon_PPM_Smart)
+* 其他数据连接更新 [[视频]](https://youtu.be/gPGy18Yo0Go?t=1411)  [[博客]](https://powerbi.microsoft.com/blog/power-bi-september-2020-feature-summary/#Other_data_connectivity)
 
 
 ### <a name="visuals"></a>视觉对象
-* 来自各种提供程序的新视觉对象 [[视频]](https://www.youtube.com/watch?v=gPGy18Yo0Go?t=1228)  [[博客]](https://powerbi.microsoft.com/blog/power-bi-september-2020-feature-summary/#Visualizations)
+* 来自各种提供程序的新视觉对象 [[视频]](https://youtu.be/gPGy18Yo0Go?t=1228)  [[博客]](https://powerbi.microsoft.com/blog/power-bi-september-2020-feature-summary/#Visualizations)
 
 
 ### <a name="template-apps"></a>模板应用
-* 多通道属性仪表板 [[视频]](https://www.youtube.com/watch?v=gPGy18Yo0Go?t=1290)   [[博客]](https://powerbi.microsoft.com/blog/power-bi-september-2020-feature-summary/#Multichannel_Attribution_Dashboard) 
-* 工作区分析仪表板 [[视频]](https://www.youtube.com/watch?v=gPGy18Yo0Go?t=1290)   [[博客]](https://powerbi.microsoft.com/blog/power-bi-september-2020-feature-summary/#Workspace_Analytics_Dashboard) 
+* 多通道属性仪表板 [[视频]](https://youtu.be/gPGy18Yo0Go?t=1290)   [[博客]](https://powerbi.microsoft.com/blog/power-bi-september-2020-feature-summary/#Multichannel_Attribution_Dashboard) 
+* 工作区分析仪表板 [[视频]](https://youtu.be/gPGy18Yo0Go?t=1290)   [[博客]](https://powerbi.microsoft.com/blog/power-bi-september-2020-feature-summary/#Workspace_Analytics_Dashboard) 
 
 
 有关这些新功能的详细信息，请参阅 [Power BI Desktop 功能摘要博客文章](https://powerbi.microsoft.com/blog/power-bi-september-2020-feature-summary/)。

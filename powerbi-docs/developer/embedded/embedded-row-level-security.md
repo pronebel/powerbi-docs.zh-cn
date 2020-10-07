@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 06/10/2019
-ms.openlocfilehash: e2e2f924f190b7c5904cfe29d1d3cae341974f38
-ms.sourcegitcommit: ffc46032d0771227395cc38be9ec9ff1500eac70
+ms.openlocfilehash: ea7eaf8f7fc36ee1b9dc987ee571dc29dc5b222f
+ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/02/2020
-ms.locfileid: "89402039"
+ms.lasthandoff: 10/06/2020
+ms.locfileid: "91748899"
 ---
 # <a name="row-level-security-with-power-bi-embedded"></a>Power BI Embedded 的行级安全性
 
@@ -78,7 +78,7 @@ RLS 在 Power BI Desktop 中进行编写。 当打开数据集和报表时，我
 
 至此，已配置 Power BI Desktop 角色。必须在应用程序中执行一些其他操作，才能利用角色。
 
-用户由应用程序进行身份验证和授权，而嵌入令牌用于授予用户对特定 Power BI Embedded 报表的访问权限。 Power BI Embedded 不具备有关用户身份的任何特定信息。 为了让 RLS 能够正常运行，必须将某附加上下文作为标识形式的嵌入令牌的一部分进行传递。 可使用[嵌入令牌](https://docs.microsoft.com/rest/api/power-bi/embedtoken) API 来传递标识。
+用户由应用程序进行身份验证和授权，而嵌入令牌用于授予用户对特定 Power BI Embedded 报表的访问权限。 Power BI Embedded 不具备有关用户身份的任何特定信息。 为了让 RLS 能够正常运行，必须将某附加上下文作为标识形式的嵌入令牌的一部分进行传递。 可使用[嵌入令牌](/rest/api/power-bi/embedtoken) API 来传递标识。
 
 API 接受具有相关数据集指示的标识列表。 为了让 RLS 能够正常运行，必须将以下各部分内容作为标识的一部分进行传递。
 
@@ -134,7 +134,7 @@ var tokenResponse = await client.Reports.GenerateTokenInGroupAsync("groupId", "r
 为用户名属性提供的有效标识必须是具有 Analysis Services 服务器操作权限的 Windows 用户。
 
 >[!NOTE]
-> 使用带有 [Azure Analysis Services](https://docs.microsoft.com/azure/analysis-services/analysis-services-overview) 数据源的服务主体时，服务主体本身必须具有 Azure Analysis Services 实例权限。 使用包含服务主体的安全组来实现此目的，这不起作用。
+> 使用带有 [Azure Analysis Services](/azure/analysis-services/analysis-services-overview) 数据源的服务主体时，服务主体本身必须具有 Azure Analysis Services 实例权限。 使用包含服务主体的安全组来实现此目的，这不起作用。
 
 ### <a name="on-premises-data-gateway-configuration"></a>本地数据网关配置
 
@@ -195,7 +195,7 @@ public EffectiveIdentity(string username, IList<string> datasets, IList<string> 
 
 下面逐步介绍了如何开始为 Power BI Embedded 应用程序设置 CustomData() 功能。
 
-1. 创建 Azure Analysis Services 数据库。 然后，通过 [SQL Server Management Studio](https://docs.microsoft.com/sql/ssms/download-sql-server-management-studio-ssms?view=sql-server-2017) 登录 Azure Analysis Services 服务器。
+1. 创建 Azure Analysis Services 数据库。 然后，通过 [SQL Server Management Studio](/sql/ssms/download-sql-server-management-studio-ssms?view=sql-server-2017) 登录 Azure Analysis Services 服务器。
 
     ![创建 Azure Analysis Services 数据库](media/embedded-row-level-security/azure-analysis-services-database-create.png)
 
@@ -245,7 +245,7 @@ public EffectiveIdentity(string username, IList<string> datasets, IList<string> 
 
 * [在 Power BI 报表中配置角色](../../create-reports/desktop-rls.md)。
 * 在数据源一级配置角色（仅限 Analysis Services 实时连接）。
-* 使用 `EffectiveIdentity` 以编程方式生成[嵌入令牌](https://docs.microsoft.com/rest/api/power-bi/embedtoken/datasets_generatetokeningroup)。 使用嵌入令牌时，实际筛选器为特定会话传递嵌入令牌。
+* 使用 `EffectiveIdentity` 以编程方式生成[嵌入令牌](/rest/api/power-bi/embedtoken/datasets_generatetokeningroup)。 使用嵌入令牌时，实际筛选器为特定会话传递嵌入令牌。
 
 使用 [JavaScript 筛选器](https://github.com/Microsoft/PowerBI-JavaScript/wiki/Filters#page-level-and-visual-level-filters)，可允许用户使用已减少、已限定范围或已筛选的数据视图。 不过，用户仍有权访问模型架构表、列和度量值，并能访问其中任意数据。 限制数据访问只能通过 RLS 应用，不能通过客户端筛选 API 应用。
 
@@ -261,7 +261,7 @@ public EffectiveIdentity(string username, IList<string> datasets, IList<string> 
 
 此类有效标识问题直接应用于 Azure SQL Server 上的 RLS 规则。 Power BI Embedded 在从 Azure SQL Server 查询数据时使用提供的访问令牌。 可通过 USER_NAME() SQL 函数访问用户的UPN（已为其提供访问令牌）。
 
-基于令牌的标识只适用于专用容量上的 DirectQuery 模型 - 连接到 Azure SQL 数据库，该数据库被配置为允许进行 AAD 身份验证（[详细了解 Azure SQL 数据库的 AAD 身份验证](https://docs.microsoft.com/azure/sql-database/sql-database-manage-logins)）。 数据集的数据源必须配置为使用最终用户的 OAuth2 凭据，以使用基于令牌的标识。
+基于令牌的标识只适用于专用容量上的 DirectQuery 模型 - 连接到 Azure SQL 数据库，该数据库被配置为允许进行 AAD 身份验证（[详细了解 Azure SQL 数据库的 AAD 身份验证](/azure/sql-database/sql-database-manage-logins)）。 数据集的数据源必须配置为使用最终用户的 OAuth2 凭据，以使用基于令牌的标识。
 
    ![配置 Azure SQL 服务器](media/embedded-row-level-security/token-based-configure-azure-sql-db.png)
 
@@ -322,11 +322,11 @@ public IdentityBlob(string value);
 
 如果与 Power BI Embedded 集成，则使用 SQL Server Analysis Services (SSAS) 本地实时连接数据源配置行级别安全性 (RLS) 的客户能够享受使用新的[服务主体](embed-service-principal.md)功能管理用户及其对 SSAS 中数据的访问权限。
 
-通过 [Power BI REST API](https://docs.microsoft.com/rest/api/power-bi/) 可以使用[服务主体对象](https://docs.microsoft.com/azure/active-directory/develop/app-objects-and-service-principals#service-principal-object)为嵌入令牌指定 SSAS 本地实时连接的有效标识。
+通过 [Power BI REST API](/rest/api/power-bi/) 可以使用[服务主体对象](/azure/active-directory/develop/app-objects-and-service-principals#service-principal-object)为嵌入令牌指定 SSAS 本地实时连接的有效标识。
 
 到目前为止，为能够指定 SSAS 本地实时连接的有效标识，生成嵌入令牌的主用户必须是网关管理员。现在，不需要用户是网关管理员，网关管理员可为该数据源授予用户专用权限，这使用户能够在生成嵌入令牌时覆盖有效标识。 此项新功能支持使用实时 SSAS 连接的服务主体进行嵌入。
 
-若要支持此方案，网关管理员使用[添加数据源用户 REST API](https://docs.microsoft.com/rest/api/power-bi/gateways/adddatasourceuser) 对服务主体授予 Power BI Embedded 的 ReadOverrideEffectiveIdentity 权限。
+若要支持此方案，网关管理员使用[添加数据源用户 REST API](/rest/api/power-bi/gateways/adddatasourceuser) 对服务主体授予 Power BI Embedded 的 ReadOverrideEffectiveIdentity 权限。
 
 无法通过管理门户设置此权限。 只能使用 API 设置此权限。 在管理门户中，可以看到具有此类权限的用户和 SPN 指示。
 

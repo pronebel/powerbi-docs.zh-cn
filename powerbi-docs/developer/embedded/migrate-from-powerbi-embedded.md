@@ -7,12 +7,12 @@ ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: how-to
 ms.date: 06/30/2018
-ms.openlocfilehash: 9f105b1f85d670857e0ffd4a10f17ad65c24eeb2
-ms.sourcegitcommit: d153cfc0ce559480c53ec48153a7e131b7a31542
+ms.openlocfilehash: f3f76bd7c422d07cb2b390c2aebd92a2d7fe4ef3
+ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/29/2020
-ms.locfileid: "91524480"
+ms.lasthandoff: 10/06/2020
+ms.locfileid: "91749037"
 ---
 # <a name="how-to-migrate-power-bi-workspace-collection-content-to-power-bi-embedded"></a>如何将 Power BI 工作区集合内容迁移到 Power BI Embedded
 
@@ -48,7 +48,7 @@ Microsoft 最近[发布了 Power BI Embedded](https://powerbi.microsoft.com/blog
    * 为应用程序使用单独的租户？
    * 为每个客户使用单独的租户？
 
-     如果决定为应用程序或每个客户创建一个新租户，请参阅[创建 Azure Active Directory 租户](create-an-azure-active-directory-tenant.md)或[如何获取 Azure Active Directory 租户](https://docs.microsoft.com/azure/active-directory/develop/active-directory-howto-tenant)。
+     如果决定为应用程序或每个客户创建一个新租户，请参阅[创建 Azure Active Directory 租户](create-an-azure-active-directory-tenant.md)或[如何获取 Azure Active Directory 租户](/azure/active-directory/develop/active-directory-howto-tenant)。
 2. 在此新租户中创建一个用户，作为应用程序“主”帐户。 该帐户需要注册 Power BI，并获得 Power BI Pro 许可证。
 
 ## <a name="accounts-within-azure-ad"></a>Azure AD 中的帐户
@@ -168,7 +168,7 @@ Microsoft 最近[发布了 Power BI Embedded](https://powerbi.microsoft.com/blog
 ## <a name="rebuild-your-application"></a>重新生成应用程序
 
 1. 需要修改应用程序以使用 Power BI REST API 和 powerbi.com 中的报表位置。
-2. 使用应用程序的 *主* 帐户重新生成 AuthN/AuthZ 身份验证。 可以使用[嵌入令牌](https://docs.microsoft.com/rest/api/power-bi/embedtoken)来允许此用户代表其他用户执行操作。
+2. 使用应用程序的 *主* 帐户重新生成 AuthN/AuthZ 身份验证。 可以使用[嵌入令牌](/rest/api/power-bi/embedtoken)来允许此用户代表其他用户执行操作。
 3. 将报表从 powerbi.com 嵌入到应用程序。
 
 ## <a name="map-your-users-to-a-power-bi-user"></a>将用户映射到 Power BI 用户
@@ -180,7 +180,7 @@ Microsoft 最近[发布了 Power BI Embedded](https://powerbi.microsoft.com/blog
 准备好迁移到生产环境时，需要执行以下操作。
 
 * 如果要使用单独的租户进行开发，则需要确保工作区以及仪表板和报表在生产环境中可用。 还需要确保在 Azure AD 中为生产租户创建了应用程序，并按照步骤 1 中所述分配了适当的应用权限。
-* 购买符合需求的容量。 若要更好地了解所需容量的数量和类型，请参阅[Power BI Embedded 容量规划白皮书](https://aka.ms/pbiewhitepaper)。 可以在 Azure 中[购买容量](https://portal.azure.com/#create/Microsoft.PowerBIDedicated)。
+* 购买符合需求的容量。 若要更好地了解所需容量的数量和类型，请参阅[Power BI Embedded 容量规划白皮书](./embedded-capacity-planning.md)。 可以在 Azure 中[购买容量](https://portal.azure.com/#create/Microsoft.PowerBIDedicated)。
 * 编辑工作区，并在“高级”下将其分配给 Premium 容量。
 
     ![高级容量](media/migrate-from-powerbi-embedded/powerbi-embedded-premium-capacity02.png)
@@ -204,7 +204,7 @@ Microsoft 最近[发布了 Power BI Embedded](https://powerbi.microsoft.com/blog
 [JavaScript API Git 存储库](https://github.com/Microsoft/PowerBI-JavaScript)  
 [Power BI C# Git 存储库](https://github.com/Microsoft/PowerBI-CSharp)  
 [JavaScript 嵌入示例](https://microsoft.github.io/PowerBI-JavaScript/demo/)  
-[工作区集合分析容量规划白皮书](https://aka.ms/pbiewhitepaper)  
+[工作区集合分析容量规划白皮书](./embedded-capacity-planning.md)  
 [Power BI Premium 白皮书](https://aka.ms/pbipremiumwhitepaper)  
 
 更多问题？ [尝试咨询 Power BI 社区](https://community.powerbi.com/)

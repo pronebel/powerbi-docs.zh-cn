@@ -9,23 +9,23 @@ ms.service: powerbi
 ms.topic: how-to
 ms.subservice: powerbi-custom-visuals
 ms.date: 06/18/2019
-ms.openlocfilehash: e9d1479b596f563edc37f0c7a72b29c3343fed1e
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 5f8b2a54ac7882c02f1ece63ce1362c97ad027af
+ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85239906"
+ms.lasthandoff: 10/06/2020
+ms.locfileid: "91749014"
 ---
 # <a name="the-analytics-pane-in-power-bi-visuals"></a>Power BI 视觉对象中的“分析”窗格
 
-2018 年 11 月，[原生视觉对象引入了](https://docs.microsoft.com/power-bi/desktop-analytics-pane)“分析”窗格。
+2018 年 11 月，[原生视觉对象引入了](../../transform-model/desktop-analytics-pane.md)“分析”窗格。
 本文介绍具有 API v2.5.0 的 Power BI 视觉对象如何在“分析”窗格中显示和管理其属性  。
 
 ![“分析”窗格](media/analytics-pane/visualization-pane-analytics-tab.png)
 
 ## <a name="manage-the-analytics-pane"></a>管理“分析”窗格
 
-就像在[格式](https://docs.microsoft.com/power-bi/developer/visuals/custom-visual-develop-tutorial-format-options)窗格中管理属性一样，你通过在视觉对象的 capabilities.json 文件中定义一个对象来管理“分析”窗格。
+就像在[格式](./custom-visual-develop-tutorial-format-options.md)窗格中管理属性一样，你通过在视觉对象的 capabilities.json 文件中定义一个对象来管理“分析”窗格。
 
 对于“分析”窗格，不同之处如下所示  ：
 

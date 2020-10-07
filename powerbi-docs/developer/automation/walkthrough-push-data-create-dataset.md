@@ -8,23 +8,23 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: tutorial
 ms.date: 02/05/2019
-ms.openlocfilehash: 8860a06355f201c463e97d81021a8e5476ac98c8
-ms.sourcegitcommit: caf60154a092f88617eb177bc34fb784f2365962
+ms.openlocfilehash: d782ee1d7a3fd137624054ee9e2bca0247ddb5ea
+ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/25/2020
-ms.locfileid: "85354975"
+ms.lasthandoff: 10/06/2020
+ms.locfileid: "91748876"
 ---
 # <a name="step-3-create-a-dataset-in-power-bi"></a>步骤 3：在 Power BI 中创建数据集
 本文是[将数据推送到数据集](walkthrough-push-data.md)的分步演练的一部分。
 
-在将数据推送到数据集的**步骤 2**（[获取身份验证访问令牌](walkthrough-push-data-get-token.md)）中，你获得一个对 **Azure AD** 进行身份验证的令牌。 在此步骤中，使用该令牌调用 [PostDataset](https://docs.microsoft.com/rest/api/power-bi/pushdatasets) 操作。
+在将数据推送到数据集的**步骤 2**（[获取身份验证访问令牌](walkthrough-push-data-get-token.md)）中，你获得一个对 **Azure AD** 进行身份验证的令牌。 在此步骤中，使用该令牌调用 [PostDataset](/rest/api/power-bi/pushdatasets) 操作。
 
 若要调用 REST 资源，需用定位该资源的 URL，并向 Power BI 服务资源发送描述数据集的 JavaScript 对象表示法 (JSON) 字符串。 REST 资源可标识你想使用的 Power BI 服务的部分。 要将数据推送到数据集，目标资源为**数据集**。 标识数据集的 URL 是 `https://api.PowerBI.com/v1.0/myorg/datasets`。 如果你正在推送组内的数据，该 URL 为 `https://api.PowerBI.com/v1.0/myorg/groups/{group_id}/datasets`。
 
 若要对 Power BI REST 操作进行身份验证，请将[获取身份验证访问令牌](walkthrough-push-data-get-token.md)中获得的令牌添加到请求头中：
 
-当调用 [PostDataset](https://docs.microsoft.com/rest/api/power-bi/pushdatasets) 操作时，创建新的数据集。 
+当调用 [PostDataset](/rest/api/power-bi/pushdatasets) 操作时，创建新的数据集。 
 
 ![创建数据集](media/walkthrough-push-data-create-dataset/powerbi-developer-create-dataset.png)
 
@@ -229,11 +229,10 @@ namespace walkthrough_push_data
 ## <a name="next-steps"></a>后续步骤
 * [获取数据集以将行添加到 Power BI 表](walkthrough-push-data-get-datasets.md)  
 * [获取身份验证访问令牌](walkthrough-push-data-get-token.md)  
-* [PostDataset](https://docs.microsoft.com/rest/api/power-bi/pushdatasets/datasets_postdataset)  
-[PostDatasetInGroup](https://docs.microsoft.com/rest/api/power-bi/pushdatasets/datasets_postdatasetingroup)  
+* [PostDataset](/rest/api/power-bi/pushdatasets/datasets_postdataset)  
+[PostDatasetInGroup](/rest/api/power-bi/pushdatasets/datasets_postdatasetingroup)  
 * [将数据推送到 Power BI 仪表板](walkthrough-push-data.md)  
 * [Power BI REST API 概述](overview-of-power-bi-rest-api.md)  
-* [Power BI REST API 引用](https://docs.microsoft.com/rest/api/power-bi/)  
+* [Power BI REST API 引用](/rest/api/power-bi/)  
 
 更多问题？ [尝试参与 Power BI 社区](https://community.powerbi.com/)
-

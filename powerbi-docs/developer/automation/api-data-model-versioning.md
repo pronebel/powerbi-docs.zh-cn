@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 06/08/2018
-ms.openlocfilehash: 76947b1e311bbd1a21e09ce39461a70bed61d926
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: d8ab94bd33aa2f0674f6dc45a93da0d2f42b1647
+ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "79079591"
+ms.lasthandoff: 10/06/2020
+ms.locfileid: "91749290"
 ---
 # <a name="data-model-versioning"></a>数据模型版本控制
 
@@ -39,4 +39,4 @@ OData 服务公开的数据模型（例如 Power BI 数据模型）将定义 ODa
 有关 OData 数据模型标准的详细信息，请参阅 [OData 版本 4.0 第 1 部分：协议及勘误表 02](https://docs.oasis-open.org/odata/odata/v4.0/odata-v4.0-part1-protocol.html)(#odata-版本-4.0-第-1-部分：协议及勘误表-02)。  
   
 ## <a name="see-also"></a>另请参阅
-[Power BI REST API 概述](https://docs.microsoft.com/rest/api/power-bi/)
+[Power BI REST API 概述](/rest/api/power-bi/)

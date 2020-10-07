@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: how-to
 ms.date: 05/28/2019
-ms.openlocfilehash: f592b7927d713e343f1d3ad11453cbbacc17fffd
-ms.sourcegitcommit: caf60154a092f88617eb177bc34fb784f2365962
+ms.openlocfilehash: 03ba0a3090a4224cdc97a2f5bdcf80dc4b59dc64
+ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/25/2020
-ms.locfileid: "85354929"
+ms.lasthandoff: 10/06/2020
+ms.locfileid: "91748761"
 ---
 # <a name="create-an-azure-active-directory-tenant-to-use-with-power-bi"></a>创建要用于 Power BI 的 Azure Active Directory 租户
 
@@ -27,7 +27,7 @@ ms.locfileid: "85354929"
 
 ## <a name="create-an-azure-active-directory-tenant"></a>创建 Azure Active Directory 租户
 
-要将 Power BI 集成到自定义应用程序中，需要在 Azure AD 中定义应用程序，该应用程序需要 Azure AD 目录。 此目录便是租户。 如果组织尚未拥有租户，原因是未使用 Power BI 或 Microsoft 365，则[需要设置开发环境](https://docs.microsoft.com/azure/active-directory/develop/active-directory-howto-tenant)。 如果不希望应用程序与组织的租户混淆，还需要创建一个租户，从而使两者保持独立。 或者，你可能只是出于测试目的创建租户。
+要将 Power BI 集成到自定义应用程序中，需要在 Azure AD 中定义应用程序，该应用程序需要 Azure AD 目录。 此目录便是租户。 如果组织尚未拥有租户，原因是未使用 Power BI 或 Microsoft 365，则[需要设置开发环境](/azure/active-directory/develop/active-directory-howto-tenant)。 如果不希望应用程序与组织的租户混淆，还需要创建一个租户，从而使两者保持独立。 或者，你可能只是出于测试目的创建租户。
 
 创建新的 Azure AD 租户：
 
@@ -93,8 +93,8 @@ ms.locfileid: "85354929"
 
 现在已有 Azure AD 租户，可以使用此租户测试 Power BI 中的项。 还可以在应用程序中嵌入 Power BI 仪表板和报表。 有关详细信息，请参阅[如何嵌入 Power BI 仪表板、报表和磁贴](embed-sample-for-customers.md)。
 
-[什么是 Azure Active directory？](https://docs.microsoft.com/azure/active-directory/active-directory-whatis) 
+[什么是 Azure Active directory？](/azure/active-directory/active-directory-whatis) 
  
-[快速入门：设置开发环境](https://docs.microsoft.com/azure/active-directory/develop/active-directory-howto-tenant)  
+[快速入门：设置开发环境](/azure/active-directory/develop/active-directory-howto-tenant)  
 
 更多问题？ [尝试咨询 Power BI 社区](https://community.powerbi.com/)

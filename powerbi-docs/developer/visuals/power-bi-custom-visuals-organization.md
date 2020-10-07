@@ -9,12 +9,12 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 12/11/2018
 LocalizationGroup: Visualizations
-ms.openlocfilehash: b969fa3dd04f25c8921db563a89b11125216c752
-ms.sourcegitcommit: ffc46032d0771227395cc38be9ec9ff1500eac70
+ms.openlocfilehash: b1ae402f8e8712920cc93248828603d1087c8c4a
+ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/02/2020
-ms.locfileid: "89401947"
+ms.lasthandoff: 10/06/2020
+ms.locfileid: "91749221"
 ---
 # <a name="organizational-visuals-in-power-bi"></a>Power BI 中的组织视觉对象
 
@@ -49,7 +49,7 @@ Power BI 管理员从“管理”门户部署和管理组织视觉对象。 视�
 
 最终用户：
 
-* 组织 Power BI 视觉对象是从组织存储库中导入的专用视觉对象。 与任何专用视觉对象一样，不能将它们[导出到 PowerPoint](https://docs.microsoft.com/power-bi/consumer/end-user-powerpoint)，也不能在用户[订阅报表页面](https://docs.microsoft.com/power-bi/consumer/end-user-subscribe)时接收的电子邮件中显示它们。 只有从市场中直接导入的[已认证 Power BI 视觉对象](power-bi-custom-visuals-certified.md)才支持这些功能。
+* 组织 Power BI 视觉对象是从组织存储库中导入的专用视觉对象。 与任何专用视觉对象一样，不能将它们[导出到 PowerPoint](../../consumer/end-user-powerpoint.md)，也不能在用户[订阅报表页面](../../consumer/end-user-subscribe.md)时接收的电子邮件中显示它们。 只有从市场中直接导入的[已认证 Power BI 视觉对象](power-bi-custom-visuals-certified.md)才支持这些功能。
 
 * 如果来自 AppSource 市场的 Visio 视觉对象、PowerApps 视觉对象、Map box 视觉对象和 GlobeMap 视觉对象通过组织存储库部署，它们将不会呈现。
 

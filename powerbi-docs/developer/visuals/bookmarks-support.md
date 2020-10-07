@@ -8,18 +8,18 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: how-to
 ms.date: 06/18/2019
-ms.openlocfilehash: 96e42eb8a4d958eb4ee090cedf12d2ebfe79f941
-ms.sourcegitcommit: 0d0ab427bb71b37c9e5170c515a8f274e1f20c17
+ms.openlocfilehash: aeea5ea3a9d1d2bd375c44b6c6b7eac57eb65aff
+ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "87878588"
+ms.lasthandoff: 10/06/2020
+ms.locfileid: "91748991"
 ---
 # <a name="add-bookmark-support-for-power-bi-visuals"></a>添加对 Power BI 视觉对象的书签支持
 
 使用 Power BI 报表书签可捕获报表页的配置视图、选择状态、视觉对象的筛选状态。 但它需要来自 Power BI 视觉对象的其他操作来支持书签并对更改做出正确反应。
 
-有关书签的详细信息，请参阅[使用书签在 Power BI 中共享见解和创建故事](https://docs.microsoft.com/power-bi/desktop-bookmarks)。
+有关书签的详细信息，请参阅[使用书签在 Power BI 中共享见解和创建故事](../../create-reports/desktop-bookmarks.md)。
 
 ## <a name="report-bookmarks-support-in-your-visual"></a>视觉对象中的报表书签支持
 

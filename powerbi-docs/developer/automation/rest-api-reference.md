@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: reference
 ms.date: 05/25/2018
-ms.openlocfilehash: e7f7a94eb94054510046e5e873281cf68eb3bf3d
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 9624195458c965a652b889089ce7ef8521281c95
+ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "79079361"
+ms.lasthandoff: 10/06/2020
+ms.locfileid: "91748922"
 ---
 # <a name="power-bi-rest-api-reference"></a>Power BI REST API 引用
 
@@ -30,6 +30,6 @@ Power BI REST API 具有以下操作：
 * 行操作：添加行和删除行。
 * 组操作：获取组。
 
-若要了解有关 Power BI REST API 的详细信息，请参阅 [Power BI REST API](https://docs.microsoft.com/rest/api/power-bi/)。
+若要了解有关 Power BI REST API 的详细信息，请参阅 [Power BI REST API](/rest/api/power-bi/)。
 
 更多问题？ [尝试咨询 Power BI 社区](https://community.powerbi.com/)

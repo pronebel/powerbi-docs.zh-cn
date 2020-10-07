@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: overview
 ms.date: 03/25/2019
-ms.openlocfilehash: 1a74d856ad46dc6843546919aa4234dc86d2be5c
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 43480006b775aa7b8444f099b783f0d7f45a98c8
+ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "79488423"
+ms.lasthandoff: 10/06/2020
+ms.locfileid: "91748968"
 ---
 # <a name="what-can-developers-do-with-the-power-bi-api"></a>开发人员可以使用 Power BI API 做什么？
 
@@ -26,7 +26,7 @@ ms.locfileid: "79488423"
 | **了解详细信息的方法** | **参考信息** |
 |----------------------------------------------------------------------------------|------------------------------------------------------------------------------------|
 | 为 Power BI 用户和非 Power BI 用户嵌入仪表板、报表和磁贴。 | [如何嵌入 Power BI 仪表板、报表和磁贴](../embedded/embed-sample-for-customers.md) |
-| 在 Power BI 对象上执行管理任务。 | [Power BI REST API 引用](https://docs.microsoft.com/rest/api/power-bi/) |
+| 在 Power BI 对象上执行管理任务。 | [Power BI REST API 引用](/rest/api/power-bi/) |
 | 扩展现有业务工作流以将关键数据推送到 Power BI 仪表板。 | [将数据推送到仪表板](walkthrough-push-data.md) |
 | 进行 Power BI 身份验证。 | [进行 Power BI 身份验证](../embedded/get-azuread-access-token.md) |
 
@@ -35,10 +35,10 @@ ms.locfileid: "79488423"
 
 ## <a name="api-developer-tools"></a>API 开发人员工具
 
-| 工具 | 说明 |  |  |
-|-------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------|---|---|
-| [样本工具](https://microsoft.github.io/PowerBI-JavaScript/demo) | 体验有关使用 Power BI JavaScript API 的完整示例。 此工具也是演练不同类型的 Power BI Embedded 示例的快速方法。 |  |  |
-| [Power BI JavaScript Wiki](https://github.com/Microsoft/powerbi-javascript/wiki) | 获取有关 Power BI JavaScript API 的详细信息。 |  |  |
+| 工具 | 说明 |
+|---------|-------------|
+| [样本工具](https://microsoft.github.io/PowerBI-JavaScript/demo) | 体验有关使用 Power BI JavaScript API 的完整示例。 此工具也是演练不同类型的 Power BI Embedded 示例的快速方法。 |
+| [Power BI JavaScript Wiki](https://github.com/Microsoft/powerbi-javascript/wiki) | 获取有关 Power BI JavaScript API 的详细信息。 |
 | [Postman](https://www.getpostman.com/) | 运行请求，进行测试、调试和监视，还可运行自动测试等等。 |
 
 ## <a name="push-data-into-power-bi"></a>将数据推送到 Power BI
@@ -58,6 +58,6 @@ ms.locfileid: "79488423"
 * [将数据推送到数据集](walkthrough-push-data.md)
 * [开发 Power BI 视觉对象](../visuals/custom-visual-develop-tutorial.md)
 * [Power BI REST API 引用](rest-api-reference.md)
-* [Power BI REST API](https://docs.microsoft.com/rest/api/power-bi/)
+* [Power BI REST API](/rest/api/power-bi/)
 
 更多问题？ [尝试咨询 Power BI 社区](https://community.powerbi.com/)

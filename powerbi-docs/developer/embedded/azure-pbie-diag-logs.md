@@ -7,16 +7,16 @@ ms.reviewer: ''
 ms.service: power-bi-embedded
 ms.topic: conceptual
 ms.date: 08/13/2018
-ms.openlocfilehash: 362c765fb5e739563b8d21eaed53304eddce8acc
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: cc64338ed40fcdc6433fdcf231004b4946335c72
+ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "79495794"
+ms.lasthandoff: 10/06/2020
+ms.locfileid: "91748784"
 ---
 # <a name="diagnostic-logging-for-power-bi-embedded-in-azure"></a>Azure 中 Power BI Embedded 的诊断日志记录
 
-使用 [Azure 资源诊断日志](https://docs.microsoft.com/azure/monitoring-and-diagnostics/monitoring-overview-of-diagnostic-logs)，可以记录来自你的容量中的许多事件、将其置入分析工具并深入了解你的资源的行为。
+使用 [Azure 资源诊断日志](/azure/monitoring-and-diagnostics/monitoring-overview-of-diagnostic-logs)，可以记录来自你的容量中的许多事件、将其置入分析工具并深入了解你的资源的行为。
 
 使用诊断可以解答几个应用场景，例如：
 
@@ -36,12 +36,12 @@ ms.locfileid: "79495794"
 
     * “名称”  - 输入要创建的诊断设置的名称。
 
-    * “存档到存储帐户”  - 若要使用此选项，需要连接到现有存储帐户。 请参阅[创建存储帐户](https://docs.microsoft.com/azure/storage/common/storage-create-storage-account)，并按照说明来创建存储帐户。 然后，在门户中返回该页以选择你的存储帐户。 新创建的存储帐户可能需要几分钟的时间才会显示在下拉菜单中。 日志文件存储为 JSON 格式。
-    * 流式传输到事件中心  - 若要使用此选项，需要连接到现有事件中心命名空间和事件中心。 若要了解详细信息，请参阅[使用 Azure 门户创建事件中心命名空间和事件中心](https://docs.microsoft.com/azure/event-hubs/event-hubs-create)。
-    * 发送到 Log Analytics  - 若要使用此选项，请使用现有工作区，或按照门户中[创建新工作区](https://docs.microsoft.com/azure/log-analytics/log-analytics-quick-collect-azurevm#create-a-workspace)的步骤来来创建一个新的 Log Analytics 工作区。 这将利用 [Azure Log Analytics](https://docs.microsoft.com/azure/log-analytics/log-analytics-overview)，它可提供内置分析、仪表板和通知功能。 可以使用 Log Analytics 从其他资源连接更多数据，并跨所有应用程序的资源获取数据的单个和完整视图。 它还可以连接到 [Power BI（只需单击一次）](https://docs.microsoft.com/azure/log-analytics/log-analytics-powerbi)。
-    有关在 Log Analytics 中查看你的日志的详细信息，请参阅[在 Log Analytics 中查看日志](https://docs.microsoft.com/azure/log-analytics/log-analytics-activity)。
+    * “存档到存储帐户”  - 若要使用此选项，需要连接到现有存储帐户。 请参阅[创建存储帐户](/azure/storage/common/storage-create-storage-account)，并按照说明来创建存储帐户。 然后，在门户中返回该页以选择你的存储帐户。 新创建的存储帐户可能需要几分钟的时间才会显示在下拉菜单中。 日志文件存储为 JSON 格式。
+    * 流式传输到事件中心  - 若要使用此选项，需要连接到现有事件中心命名空间和事件中心。 若要了解详细信息，请参阅[使用 Azure 门户创建事件中心命名空间和事件中心](/azure/event-hubs/event-hubs-create)。
+    * 发送到 Log Analytics  - 若要使用此选项，请使用现有工作区，或按照门户中[创建新工作区](/azure/log-analytics/log-analytics-quick-collect-azurevm#create-a-workspace)的步骤来来创建一个新的 Log Analytics 工作区。 这将利用 [Azure Log Analytics](/azure/log-analytics/log-analytics-overview)，它可提供内置分析、仪表板和通知功能。 可以使用 Log Analytics 从其他资源连接更多数据，并跨所有应用程序的资源获取数据的单个和完整视图。 它还可以连接到 [Power BI（只需单击一次）](/azure/log-analytics/log-analytics-powerbi)。
+    有关在 Log Analytics 中查看你的日志的详细信息，请参阅[在 Log Analytics 中查看日志](/azure/log-analytics/log-analytics-activity)。
     * 引擎  - 选择此选项以记录以下[列出的引擎事件](#whats-logged)集。
-    * AllMetrics  - 选择此选项以存储[指标](https://docs.microsoft.com/azure/analysis-services/analysis-services-monitor#server-metrics)中的详细数据。 如果要存档到存储帐户，可以为诊断日志选择保持期。 日志将在保持期到期后被自动删除。
+    * AllMetrics  - 选择此选项以存储[指标](/azure/analysis-services/analysis-services-monitor#server-metrics)中的详细数据。 如果要存档到存储帐户，可以为诊断日志选择保持期。 日志将在保持期到期后被自动删除。
 
 3. 选择“保存”  。
 
@@ -87,11 +87,11 @@ ms.locfileid: "79495794"
 
 ### <a name="rest-api"></a>REST API
 
-了解如何[使用 Azure Monitor REST API 更改诊断设置](https://docs.microsoft.com/rest/api/monitor/)。 
+了解如何[使用 Azure Monitor REST API 更改诊断设置](/rest/api/monitor/)。 
 
 ### <a name="resource-manager-template"></a>资源管理器模板
 
-了解如何[使用资源管理器模板在创建资源时启用诊断设置](https://docs.microsoft.com/azure/monitoring-and-diagnostics/monitoring-enable-diagnostic-logs-using-template)。
+了解如何[使用资源管理器模板在创建资源时启用诊断设置](/azure/monitoring-and-diagnostics/monitoring-enable-diagnostic-logs-using-template)。
 
 ## <a name="whats-logged"></a>记录哪些内容？
 
@@ -174,11 +174,11 @@ ms.locfileid: "79495794"
 
 选择 EventClass\_ 或事件名称之一，Log Analytics 将继续构造查询。 请确保保存查询，以便稍后重复使用。
 
-请确保参阅 [Log Analytics](https://docs.microsoft.com/azure/log-analytics/)，它提供了对收集的数据使用增强的查询、仪表板和警报功能的网站。
+请确保参阅 [Log Analytics](/azure/log-analytics/)，它提供了对收集的数据使用增强的查询、仪表板和警报功能的网站。
 
 ### <a name="queries"></a>查询
 
-有数千个供你使用的查询。 可通过以下几个查询开始操作。 若要了解有关使用新的日志搜索查询语言的详细信息，请参阅[了解 Log Analytics 中的日志搜索](https://docs.microsoft.com/azure/log-analytics/log-analytics-log-search)。
+有数千个供你使用的查询。 可通过以下几个查询开始操作。 若要了解有关使用新的日志搜索查询语言的详细信息，请参阅[了解 Log Analytics 中的日志搜索](/azure/log-analytics/log-analytics-log-search)。
 
 * 返回该结果的查询需要不到五分钟的时间（300,000 毫秒）来完成。
 
@@ -206,7 +206,7 @@ ms.locfileid: "79495794"
 可以了解有关 Azure 资源诊断日志记录的详细信息。
 
 > [!div class="nextstepaction"]
-> [Azure 资源诊断日志记录](https://docs.microsoft.com/azure/monitoring-and-diagnostics/monitoring-overview-of-diagnostic-logs)
+> [Azure 资源诊断日志记录](/azure/monitoring-and-diagnostics/monitoring-overview-of-diagnostic-logs)
 
 > [!div class="nextstepaction"]
-> [Set-AzureRmDiagnosticSetting](https://docs.microsoft.com/powershell/module/azurerm.insights/Set-AzureRmDiagnosticSetting)
+> [Set-AzureRmDiagnosticSetting](/powershell/module/azurerm.insights/Set-AzureRmDiagnosticSetting)
