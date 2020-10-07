@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: tutorial
 ms.date: 03/30/2020
-ms.openlocfilehash: 2b1b28608799616f4bc75837f82521ae345cf186
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: 0160bf604b23102bcb6e21232a64a776f3bb8290
+ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83148863"
+ms.lasthandoff: 10/06/2020
+ms.locfileid: "91746254"
 ---
 # <a name="tutorial-create-a-react-based-visual"></a>教程：创建基于 React 的视觉对象
 
@@ -36,7 +36,7 @@ ms.locfileid: "83148863"
 
 * Power BI Pro 帐户。 开始之前，[请注册免费试用版](https://powerbi.microsoft.com/pricing/)。
 * [Visual Studio Code](https://www.visualstudio.com/)。
-* 对于 Windows 用户，需要 [Windows PowerShell](https://docs.microsoft.com/powershell/scripting/install/installing-windows-powershell?view=powershell-6) 版本 4 或更高版本，而对于 OSX 用户，则需要[终端](https://macpaw.com/how-to/use-terminal-on-mac)。
+* 对于 Windows 用户，需要 [Windows PowerShell](/powershell/scripting/install/installing-windows-powershell?view=powershell-6) 版本 4 或更高版本，而对于 OSX 用户，则需要[终端](https://macpaw.com/how-to/use-terminal-on-mac)。
 * [设置开发人员环境](custom-visual-develop-tutorial.md#setting-up-the-developer-environment)中所述的环境。
 
 ## <a name="getting-started"></a>入门

@@ -8,20 +8,20 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: tutorial
 ms.date: 02/05/2019
-ms.openlocfilehash: 5b4e6a2506555be6984a03e2a8f0fb8f4050f803
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: a150666eafd8dc11b573150455775d2ecf6f7f1b
+ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "79079292"
+ms.lasthandoff: 10/06/2020
+ms.locfileid: "91748301"
 ---
 # <a name="step-4-get-a-dataset-to-add-rows-into-a-power-bi-table"></a>步骤 4：获取数据集以将行添加到 Power BI 表
 
 本文是[将数据推送到数据集](walkthrough-push-data.md)的分步演练的一部分。
 
-在将数据推送到数据集的**步骤 3**（[在 Power BI 中创建数据集](walkthrough-push-data-create-dataset.md)）中，你调用了[创建数据集](https://docs.microsoft.com/rest/api/power-bi/datasets)操作以在 Power BI 中创建数据集。 在此步骤中，你将使用[获取数据集](https://docs.microsoft.com/rest/api/power-bi/datasets/getdatasets)操作和 Newtonsoft.Json 来获取数据集 ID。在步骤 4 中使用数据集 ID 向数据集添加行。 
+在将数据推送到数据集的**步骤 3**（[在 Power BI 中创建数据集](walkthrough-push-data-create-dataset.md)）中，你调用了[创建数据集](/rest/api/power-bi/datasets)操作以在 Power BI 中创建数据集。 在此步骤中，你将使用[获取数据集](/rest/api/power-bi/datasets/getdatasets)操作和 Newtonsoft.Json 来获取数据集 ID。在步骤 4 中使用数据集 ID 向数据集添加行。 
 
-要将数据推送到 Power BI 数据集，需要引用数据集中的表。 要引用数据集中的表，首先需要获取**数据集 ID**。 使用[获取数据集](https://docs.microsoft.com/rest/api/power-bi/datasets/getdatasets)操作获取数据集 ID  。 “获取数据集”  操作将返回一个 JSON 字符串，它包含 Power BI 中所有数据集的列表。 对 JSON 字符串进行反序列化的推荐的方法是使用 [Newtonsoft.Json](https://www.newtonsoft.com/json)。
+要将数据推送到 Power BI 数据集，需要引用数据集中的表。 要引用数据集中的表，首先需要获取**数据集 ID**。 使用[获取数据集](/rest/api/power-bi/datasets/getdatasets)操作获取数据集 ID  。 “获取数据集”  操作将返回一个 JSON 字符串，它包含 Power BI 中所有数据集的列表。 对 JSON 字符串进行反序列化的推荐的方法是使用 [Newtonsoft.Json](https://www.newtonsoft.com/json)。
 
 下面介绍如何获取数据集。
 
@@ -58,7 +58,7 @@ ms.locfileid: "79079292"
     string datasetId = GetDataset();
   }
   ```
-* 添加 GetDataset() 方法：
+* 添加 GetDatset() 方法 ︰
   
   ```csharp
     #region Get a dataset to add rows into a Power BI table
@@ -268,9 +268,9 @@ namespace walkthrough_push_data
 
 * [向 Power BI 表中添加行](walkthrough-push-data-add-rows.md)  
 * [Newtonsoft.Json](https://www.newtonsoft.com/json)  
-* [获取数据集](https://docs.microsoft.com/rest/api/power-bi/datasets/getdatasets)  
+* [获取数据集](/rest/api/power-bi/datasets/getdatasets)  
 * [将数据推送到 Power BI](walkthrough-push-data.md)  
 * [Power BI REST API 概述](overview-of-power-bi-rest-api.md)  
-* [Power BI REST API 引用](https://docs.microsoft.com/rest/api/power-bi/)  
+* [Power BI REST API 引用](/rest/api/power-bi/)  
 
 更多问题？ [尝试参与 Power BI 社区](https://community.powerbi.com/)

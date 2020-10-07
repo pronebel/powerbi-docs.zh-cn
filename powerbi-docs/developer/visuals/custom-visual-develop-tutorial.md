@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.topic: tutorial
 ms.subservice: powerbi-custom-visuals
 ms.date: 03/15/2019
-ms.openlocfilehash: ebb0107b158e505a8095b4c8f6b6b32731e7e98d
-ms.sourcegitcommit: 642b0c04d3ff3aa4d5422ca5054a5a158fb01b22
+ms.openlocfilehash: 3ff04b476cba281ef484fc6a1bfd73be94af563e
+ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/18/2020
-ms.locfileid: "88512922"
+ms.lasthandoff: 10/06/2020
+ms.locfileid: "91746645"
 ---
 # <a name="tutorial-developing-a-power-bi-visual"></a>教程：开发 Power BI 视觉对象
 
@@ -38,7 +38,7 @@ ms.locfileid: "88512922"
 
 * 如果未注册 Power BI Pro  ，请在开始之前[注册以获得免费试用](https://powerbi.microsoft.com/pricing/)。
 * 需要安装 [Visual Studio Code](https://www.visualstudio.com/)。
-* 对于 Windows 用户，需要 [Windows PowerShell](https://docs.microsoft.com/powershell/scripting/install/installing-windows-powershell?view=powershell-6) 版本 4 或更高版本，而对于 OSX 用户，则需要[终端](https://macpaw.com/how-to/use-terminal-on-mac)。
+* 对于 Windows 用户，需要 [Windows PowerShell](/powershell/scripting/install/installing-windows-powershell?view=powershell-6) 版本 4 或更高版本，而对于 OSX 用户，则需要[终端](https://macpaw.com/how-to/use-terminal-on-mac)。
 
 ## <a name="setting-up-the-developer-environment"></a>设置开发人员环境
 

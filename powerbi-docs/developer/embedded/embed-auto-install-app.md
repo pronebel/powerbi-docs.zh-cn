@@ -8,12 +8,12 @@ ms.topic: how-to
 ms.service: powerbi
 ms.custom: ''
 ms.date: 04/16/2019
-ms.openlocfilehash: 646a09545a06dfa65bd73a666fa2419d82e4da33
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: eb9476b3f21d1149492982a8dcae3d8ce89e9629
+ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85236918"
+ms.lasthandoff: 10/06/2020
+ms.locfileid: "91748646"
 ---
 # <a name="auto-install-power-bi-apps-when-embedding-for-your-organization"></a>在为组织嵌入内容时自动安装 Power BI 应用
 
@@ -29,7 +29,7 @@ ms.locfileid: "85236918"
 
 ![注册应用创建内容](media/embed-auto-install-app/register-app-create-content.png)
 
-接下来，需要在嵌入 URL 中提供应用 ID。 要提供应用 ID，应用创建者必须先安装应用，然后使用一个受支持的 [Power BI Rest API](https://docs.microsoft.com/rest/api/power-bi/) 调用 - [获取报表](https://docs.microsoft.com/rest/api/power-bi/reports/getreports)或[获取仪表板](https://docs.microsoft.com/rest/api/power-bi/dashboards/getdashboards)。 然后，应用创建者需要从 REST API 响应中获取嵌入 Url。 如果内容来自应用，则应用 ID 显示在 URL 中。  拥有嵌入 URL 后，可以用它定期嵌入内容。
+接下来，需要在嵌入 URL 中提供应用 ID。 要提供应用 ID，应用创建者必须先安装应用，然后使用一个受支持的 [Power BI Rest API](/rest/api/power-bi/) 调用 - [获取报表](/rest/api/power-bi/reports/getreports)或[获取仪表板](/rest/api/power-bi/dashboards/getdashboards)。 然后，应用创建者需要从 REST API 响应中获取嵌入 Url。 如果内容来自应用，则应用 ID 显示在 URL 中。  拥有嵌入 URL 后，可以用它定期嵌入内容。
 
 ## <a name="secure-embed"></a>安全嵌入内容
 

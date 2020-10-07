@@ -8,19 +8,19 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: how-to
 ms.date: 03/12/2019
-ms.openlocfilehash: 38e6ac3be143381304f1fdfc8e1427b91f398a9a
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 99df7a301a1025d50c82c5cc7f5966325a6a6a6f
+ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "82196620"
+ms.lasthandoff: 10/06/2020
+ms.locfileid: "91747519"
 ---
 # <a name="how-to-create-mobile-friendly-power-bi-visuals"></a>如何创建适合移动的 Power BI 视觉对象
 移动使用在 Power BI 中具有重要角色。 它的一个优点在于可随时随地与数据保持连接。
 
 作为创建 Power BI 视觉对象的开发人员，必须解决每个移动设备的独有约束，以尽可能多地吸引用户，并提供最佳移动体验。
 
-使用[适用于 Windows、iOS 和 Android 的 Power BI 应用](/power-bi/consumer/mobile/mobile-apps-for-mobile-devices)可使业务用户只需轻触指尖，便可在移动中获得其数据的全面视图。
+使用[适用于 Windows、iOS 和 Android 的 Power BI 应用](../../consumer/mobile/mobile-apps-for-mobile-devices.md)可使业务用户只需轻触指尖，便可在移动中获得其数据的全面视图。
 
 ## <a name="requirements"></a>要求
 
@@ -63,7 +63,7 @@ ms.locfileid: "82196620"
   相同设置也可以应用于桌面浏览器中的视觉对象，如果需要，可以进行替代以使视觉对象适应更小的屏幕。
 
   > [!NOTE]
-  > 若要在“焦点”  模式下优化视觉对象，需要考虑纵向和横向屏幕大小方向，请参阅[在焦点模式下显示内容](/power-bi/consumer/end-user-focus)。
+  > 若要在“焦点”  模式下优化视觉对象，需要考虑纵向和横向屏幕大小方向，请参阅[在焦点模式下显示内容](../../consumer/end-user-focus.md)。
 
 - 交互
 
@@ -74,9 +74,9 @@ ms.locfileid: "82196620"
   如果视觉对象无法在移动设备上呈现，则它应显示描述性错误。
 
 ## <a name="supported-browsers-and-devices"></a>支持的浏览器和设备
-Power BI 视觉对象必须在支持 Power BI 应用的所有设备上呈现，有关详细信息，请参阅 [Power BI 支持的浏览器 ](/power-bi/power-bi-browsers)和 [Power BI 移动应用](/power-bi/consumer/mobile/mobile-apps-for-mobile-devices)。
+Power BI 视觉对象必须在支持 Power BI 应用的所有设备上呈现，有关详细信息，请参阅 [Power BI 支持的浏览器 ](../../fundamentals/power-bi-browsers.md)和 [Power BI 移动应用](../../consumer/mobile/mobile-apps-for-mobile-devices.md)。
 
 针对最新型号的 Windows、iOS 和 Android 设备进行测试时，开发人员需要考虑其中大多数质量方面。
 
 ## <a name="next-steps"></a>后续步骤
-若要入门，请参阅[教程：开发 Power BI 视觉对象](/power-bi/developer/visuals/custom-visual-develop-tutorial)。
+若要入门，请参阅[教程：开发 Power BI 视觉对象](./custom-visual-develop-tutorial.md)。

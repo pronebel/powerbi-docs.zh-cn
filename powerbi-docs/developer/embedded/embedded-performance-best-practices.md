@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 12/12/2018
-ms.openlocfilehash: ba0a85958fad500bd27f4697a7f46961ca430f49
-ms.sourcegitcommit: 0b1e96de184caf2371adedcc3ee43bcb88048187
+ms.openlocfilehash: 2d33ed5a707a3b4bc3e0a77a38128e7e00154798
+ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/24/2020
-ms.locfileid: "85299563"
+ms.lasthandoff: 10/06/2020
+ms.locfileid: "91746668"
 ---
 # <a name="power-bi-embedded-performance-best-practices"></a>Power BI Embedded 性能最佳做法
 
@@ -53,7 +53,7 @@ ms.locfileid: "85299563"
 在将多个报表嵌入到同一 iframe 时，不要为每个报表生成新的 iframe。 而是使用包含不同配置的 `powerbi.embed(element, config)` 嵌入新报表。
 
 > [!NOTE]
-> 在为客户嵌入时切换报表（也称为“应用拥有数据”场景），需要使用一个对所有报表和数据集具有权限的嵌入令牌。 有关更多信息，请参阅[生成令牌 API](https://docs.microsoft.com/rest/api/power-bi/embedtoken/generatetoken)。
+> 在为客户嵌入时切换报表（也称为“应用拥有数据”场景），需要使用一个对所有报表和数据集具有权限的嵌入令牌。 有关更多信息，请参阅[生成令牌 API](/rest/api/power-bi/embedtoken/generatetoken)。
 
 ## <a name="query-caching"></a>查询缓存
 

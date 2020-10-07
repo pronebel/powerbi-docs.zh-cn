@@ -9,12 +9,12 @@ ms.subservice: powerbi-developer
 ms.topic: tutorial
 ms.custom: seodec18
 ms.date: 02/04/2020
-ms.openlocfilehash: 38db00f51a333b754267d52aaf3e3eabccc3e6b6
-ms.sourcegitcommit: 49daa8964c6e30347e29e7bfc015762e2cf494b3
+ms.openlocfilehash: 7a93260aab9d8195478949ea8044378ea5cfae83
+ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/02/2020
-ms.locfileid: "84273014"
+ms.lasthandoff: 10/06/2020
+ms.locfileid: "91746392"
 ---
 # <a name="tutorial-embed-power-bi-content-into-an-application-for-your-organization"></a>教程：为组织将 Power BI 内容嵌入应用程序
 
@@ -50,7 +50,7 @@ ms.locfileid: "84273014"
 
 ### <a name="register-an-application-in-azure-active-directory"></a>在 Azure Active Directory 中注册应用程序
 
-向 Azure Active Directory [注册应用程序](register-app.md)，以允许应用程序访问 [Power BI REST API](https://docs.microsoft.com/rest/api/power-bi/)。 通过注册应用，可以建立应用标识，并指定对 Power BI REST 资源的权限。
+向 Azure Active Directory [注册应用程序](register-app.md)，以允许应用程序访问 [Power BI REST API](/rest/api/power-bi/)。 通过注册应用，可以建立应用标识，并指定对 Power BI REST 资源的权限。
 
 你必须继续注册服务器端 Web 应用程序。 注册服务器端 Web 应用程序以创建应用程序密码。
 
@@ -190,9 +190,9 @@ Get-PowerBIworkspace -name "User Owns Embed Test" | Get-PowerBIReport
 
 ## <a name="embed-your-content-within-your-application"></a>在应用程序中嵌入内容
 
-即使可以使用 [Power BI REST API](https://docs.microsoft.com/rest/api/power-bi/) 完成嵌入内容的步骤，也可使用 .NET SDK 编写本文中所述的示例代码。
+即使可以使用 [Power BI REST API](/rest/api/power-bi/) 完成嵌入内容的步骤，也可使用 .NET SDK 编写本文中所述的示例代码。
 
-若要将报表集成到 Web 应用，可使用 Power BI REST API 或 Power BI C# SDK。 也可以使用 Azure Active Directory 授权访问令牌来获取报表。 然后，使用相同的访问令牌加载报表。 Power BI Rest API 提供对特定 Power BI 资源的编程访问权限。 有关详细信息，请参阅 [Power BI REST API](https://docs.microsoft.com/rest/api/power-bi/) 和 [Power BI JavaScript API](https://github.com/Microsoft/PowerBI-JavaScript)。
+若要将报表集成到 Web 应用，可使用 Power BI REST API 或 Power BI C# SDK。 也可以使用 Azure Active Directory 授权访问令牌来获取报表。 然后，使用相同的访问令牌加载报表。 Power BI Rest API 提供对特定 Power BI 资源的编程访问权限。 有关详细信息，请参阅 [Power BI REST API](/rest/api/power-bi/) 和 [Power BI JavaScript API](https://github.com/Microsoft/PowerBI-JavaScript)。
 
 ### <a name="get-an-access-token-from-azure-ad"></a>从 Azure AD 获取访问令牌
 
@@ -200,11 +200,11 @@ Get-PowerBIworkspace -name "User Owns Embed Test" | Get-PowerBIReport
 
 ### <a name="get-a-report"></a>获取报表
 
-若要获取 Power BI 或分页报表，请使用[获取报表](https://docs.microsoft.com/rest/api/power-bi/reports/getreports)操作，获取 Power BI 和分页报表列表。 在报表列表中，可以获取报表 ID。
+若要获取 Power BI 或分页报表，请使用[获取报表](/rest/api/power-bi/reports/getreports)操作，获取 Power BI 和分页报表列表。 在报表列表中，可以获取报表 ID。
 
 ### <a name="get-reports-by-using-an-access-token"></a>使用访问令牌获取报表
 
-[获取报表](https://docs.microsoft.com/rest/api/power-bi/reports/getreports)操作将返回报表的列表。 可以获取报表列表中的一个报表。
+[获取报表](/rest/api/power-bi/reports/getreports)操作将返回报表的列表。 可以获取报表列表中的一个报表。
 
 若要执行 REST API 调用，必须添加格式为“持有者 {访问令牌}”的授权标头。
 

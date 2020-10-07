@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: tutorial
 ms.date: 05/22/2019
-ms.openlocfilehash: 932e458c90b248e01a88d45a849838cff27f6dcb
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 792afe42cf302ae552b7f8f1c14d5f232ade320f
+ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "79488191"
+ms.lasthandoff: 10/06/2020
+ms.locfileid: "91746691"
 ---
 # <a name="push-data-into-a-power-bi-dataset"></a>将数据推送到 Power BI 数据集
 
@@ -33,14 +33,14 @@ ms.locfileid: "79488191"
 
 ## <a name="power-bi-api-operations-to-push-data"></a>推送数据的 Power BI API 操作
 
-借助 Power BI REST API，你可以将数据源推送到 Power BI。 应用向数据集添加行时，仪表板磁贴自动更新新数据。 若要推送数据，请使用 [PostDataset](https://docs.microsoft.com/rest/api/power-bi/pushdatasets/datasets_postdataset) 和 [PostRows](https://docs.microsoft.com/rest/api/power-bi/pushdatasets/datasets_postrows) 操作。 若要查找数据集，请使用[获取数据集](https://docs.microsoft.com/rest/api/power-bi/datasets/getdatasets)操作。 进行以上任意操作时，可以传递组 ID 以将其用于组。 若要获取组 ID 列表，请使用[获取组](https://docs.microsoft.com/rest/api/power-bi/groups/getgroups)操作。
+借助 Power BI REST API，你可以将数据源推送到 Power BI。 应用向数据集添加行时，仪表板磁贴自动更新新数据。 若要推送数据，请使用 [PostDataset](/rest/api/power-bi/pushdatasets/datasets_postdataset) 和 [PostRows](/rest/api/power-bi/pushdatasets/datasets_postrows) 操作。 若要查找数据集，请使用[获取数据集](/rest/api/power-bi/datasets/getdatasets)操作。 进行以上任意操作时，可以传递组 ID 以将其用于组。 若要获取组 ID 列表，请使用[获取组](/rest/api/power-bi/groups/getgroups)操作。
 
 将数据推送到数据集的操作如下：
 
-* [PostDataset](https://docs.microsoft.com/rest/api/power-bi/pushdatasets/datasets_postdataset)
-* [获取数据集](https://docs.microsoft.com/rest/api/power-bi/datasets/getdatasets)
-* [Post Rows](https://docs.microsoft.com/rest/api/power-bi/pushdatasets/datasets_postrows)
-* [获取组](https://docs.microsoft.com/rest/api/power-bi/groups/getgroups)
+* [PostDataset](/rest/api/power-bi/pushdatasets/datasets_postdataset)
+* [获取数据集](/rest/api/power-bi/datasets/getdatasets)
+* [Post Rows](/rest/api/power-bi/pushdatasets/datasets_postrows)
+* [获取组](/rest/api/power-bi/groups/getgroups)
 
 通过将 JavaScript 对象表示法 (JSON) 字符串传递给 Power BI 服务，在 Power BI 中创建数据集。 若要了解有关 JSON 的详细信息，请参阅 [JSON 简介](https://json.org/)。
 
@@ -48,54 +48,58 @@ ms.locfileid: "79488191"
 
 **Power BI 数据集 JSON 对象**
 
-    {"name": "dataset_name", "tables":
-        [{"name": "", "columns":
-            [{ "name": "column_name1", "dataType": "data_type"},
-             { "name": "column_name2", "dataType": "data_type"},
-             { ... }
-            ]
-          }
+```json
+{"name": "dataset_name", "tables":
+    [{"name": "", "columns":
+        [{ "name": "column_name1", "dataType": "data_type"},
+         { "name": "column_name2", "dataType": "data_type"},
+         { ... }
         ]
-    }
+      }
+    ]
+}
+```
 
 对于我们的“销售与市场营销”数据集示例，将传递如下所示的 JSON 字符串。 在此示例中，“SalesMarketing”是该数据集名称，“Product”是表名称。   定义表后，再定义表架构。 对于 SalesMarketing  数据集，表架构包含以下列：ProductID、制造商、类别、段、产品和 IsCompete。
 
 **数据集对象 JSON 示例**
 
-    {
-        "name": "SalesMarketing",
-        "tables": [
+```json
+{
+    "name": "SalesMarketing",
+    "tables": [
+        {
+            "name": "Product",
+            "columns": [
+            {
+                "name": "ProductID",
+                "dataType": "int"
+            },
+            {
+                "name": "Manufacturer",
+                "dataType": "string"
+            },
+            {
+                "name": "Category",
+                "dataType": "string"
+            },
+            {
+                "name": "Segment",
+                "dataType": "string"
+            },
             {
                 "name": "Product",
-                "columns": [
-                {
-                    "name": "ProductID",
-                    "dataType": "int"
-                },
-                {
-                    "name": "Manufacturer",
-                    "dataType": "string"
-                },
-                {
-                    "name": "Category",
-                    "dataType": "string"
-                },
-                {
-                    "name": "Segment",
-                    "dataType": "string"
-                },
-                {
-                    "name": "Product",
-                    "dataType": "string"
-                },
-                {
-                    "name": "IsCompete",
-                    "dataType": "bool"
-                }
-                ]
+                "dataType": "string"
+            },
+            {
+                "name": "IsCompete",
+                "dataType": "bool"
             }
-        ]
-    }
+            ]
+        }
+    ]
+}
+```
 
 对于 Power BI 表架构，可以使用以下数据类型。
 

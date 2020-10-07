@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.topic: how-to
 ms.subservice: powerbi-custom-visuals
 ms.date: 07/14/2020
-ms.openlocfilehash: 94cd4fd652fc1b06a73e1ea319a65e1aa5b46c7e
-ms.sourcegitcommit: 8b8d54d46470a311d8654abe92b5a223b696af28
+ms.openlocfilehash: 891f4d57e1c2754f4c98916b2824ef2283d8298a
+ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/17/2020
-ms.locfileid: "86437206"
+ms.lasthandoff: 10/06/2020
+ms.locfileid: "91747956"
 ---
 # <a name="publish-power-bi-visuals-to-partner-center"></a>将 Power BI 视觉对象发布到合作伙伴中心
 
@@ -35,7 +35,7 @@ ms.locfileid: "86437206"
 | --- | --- | --- |
 | Pbiviz 包 |是 |将 Power BI 视觉对象打包到 Pbiviz 包，其中包含所有必要的元数据。<br>视觉对象名称<br>显示名称<br>GUID<br>版本<br>说明<br>作者姓名和电子邮件 |
 | 示例 .pbix 报表文件 |是 |要展示你的视觉对象，应帮助用户了解该视觉对象。 向用户突出显示该视觉对象可以带来的价值，并提供使用示例和格式设置选项。 还可以添加“提示”  页，并在页面末尾附上一些提示和技巧以及操作注意事项。<br>示例 .pbix 报表文件必须脱机运行且无任何外部连接。 |
-| 图标 |是 |应包含将在店面中显示的自定义视觉对象徽标。 格式可以为 .png、.jpg、.jpeg 或 .gif。 它必须正好为 300 像素（宽度）x 300 像素（高度）。<BR>**重要提示！** 在提交图标之前，请仔细查看 [AppSource 应用商店图像指南](https://docs.microsoft.com/office/dev/store/craft-effective-appsource-store-images)。 |
+| 图标 |是 |应包含将在店面中显示的自定义视觉对象徽标。 格式可以为 .png、.jpg、.jpeg 或 .gif。 它必须正好为 300 像素（宽度）x 300 像素（高度）。<BR>**重要提示！** 在提交图标之前，请仔细查看 [AppSource 应用商店图像指南](/office/dev/store/craft-effective-appsource-store-images)。 |
 | 屏幕截图 |是 |至少提供一个屏幕截图。 格式可以为 .png、.jpg、.jpeg 或 .gif。 尺寸必须正好为 1366 px（宽）x 768 px（高）。 文件大小不能超过 1024 kb。<br>为了实现更好的利用率，添加文本气泡以阐明每个屏幕截图中所示的主要功能的价值主张。 |
 | 支持下载链接 |是 |为客户提供支持 URL。 此链接作为合作伙伴中心一览的一部分输入；当用户在 AppSource 上访问你的视觉对象一览时，可以看到此链接。 URL 的格式应包含 https:// 或 http://。 |
 | 隐私文档链接 |是 |提供指向视觉对象隐私策略的链接。 此链接作为合作伙伴中心一览的一部分输入；当用户在 AppSource 上访问你的视觉对象一览时，可以看到此链接。 链接的格式应包含 https:// 或 http://。 |
@@ -71,14 +71,14 @@ Power BI 团队必须为新 Power BI 视觉对象提交、现有 Power BI 视觉
 
 ### <a name="submitting-to-partner-center"></a>提交到合作伙伴中心
 
-必须注册合作伙伴中心，才能将 Power BI 视觉对象提交到合作伙伴中心。 若尚未注册，请[在合作伙伴中心创建开发人员帐户](https://docs.microsoft.com/office/dev/store/open-a-developer-account)。
+必须注册合作伙伴中心，才能将 Power BI 视觉对象提交到合作伙伴中心。 若尚未注册，请[在合作伙伴中心创建开发人员帐户](/office/dev/store/open-a-developer-account)。
 
 >[!NOTE]
 >单个发布者可以使用以下方法之一来提交 Power BI 视觉对象：
 >* 如果有旧的卖方仪表板帐户，则可以继续使用此帐户的凭据登录到合作伙伴中心。
->* 如果没有旧的卖方仪表板帐户，且未注册合作伙伴中心，则需要使用工作电子邮件[在合作伙伴中心打开开发人员帐户](https://docs.microsoft.com/office/dev/store/open-a-developer-account)。
+>* 如果没有旧的卖方仪表板帐户，且未注册合作伙伴中心，则需要使用工作电子邮件[在合作伙伴中心打开开发人员帐户](/office/dev/store/open-a-developer-account)。
 
-请按照以下步骤将 Power BI 视觉对象提交到合作伙伴中心。 有关提交过程的详细信息，请参阅[通过合作伙伴中心将 Office 解决方案提交到 AppSource](https://docs.microsoft.com/office/dev/store/use-partner-center-to-submit-to-appsource)。
+请按照以下步骤将 Power BI 视觉对象提交到合作伙伴中心。 有关提交过程的详细信息，请参阅[通过合作伙伴中心将 Office 解决方案提交到 AppSource](/office/dev/store/use-partner-center-to-submit-to-appsource)。
 
 1. 登录到合作伙伴中心。
 
@@ -107,7 +107,7 @@ Power BI 团队必须为新 Power BI 视觉对象提交、现有 Power BI 视觉
 
 ## <a name="tracking-submission-status-and-usage"></a>跟踪提交状态和使用情况
 
-可以查看[验证策略](https://docs.microsoft.com/legal/marketplace/certification-policies#1180-power-bi-visuals)。
+可以查看[验证策略](/legal/marketplace/certification-policies#1180-power-bi-visuals)。
 
 * 提交后，可以在[“应用仪表板”](https://sellerdashboard.microsoft.com/Application/Summary/)中查看提交状态。
 

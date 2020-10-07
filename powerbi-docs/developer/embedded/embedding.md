@@ -16,12 +16,12 @@ helpviewer_keywords:
 - Power BI APIs
 ms.custom: seodec18
 ms.date: 05/15/2019
-ms.openlocfilehash: ade60bf8b786f70002f0af0672acf951348fee49
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 7c90093fefb98c6b385328e8dd207760e3207cbf
+ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "80487842"
+ms.lasthandoff: 10/06/2020
+ms.locfileid: "91746208"
 ---
 # <a name="embedded-analytics-with-power-bi"></a>Power BI 嵌入式分析
 
@@ -43,7 +43,7 @@ Azure (PaaS) 中的 Power BI 服务 (SaaS) 和 Power BI 嵌入式服务具有用
  
 - 为用户和客户嵌入内容，且无需 Power BI 许可证。 
 
-这两种方案都可使用 [Power BI REST API](https://docs.microsoft.com/rest/api/power-bi/)。
+这两种方案都可使用 [Power BI REST API](/rest/api/power-bi/)。
 
 对于没有 Power BI 许可证的客户和用户，可以使用同一 API 为组织或客户提供服务，将仪表板和报表嵌入自定义应用程序中。 客户会看到应用程序管理的数据。 此外，组织中的 Power BI 用户可以直接在 Power BI 中或者在嵌入式应用程序的上下文中使用附加的选项来查看他们的数据  。 可以充分利用 JavaScript 和 REST API 的功能以满足你的嵌入需要。
 
@@ -53,7 +53,7 @@ Azure (PaaS) 中的 Power BI 服务 (SaaS) 和 Power BI 嵌入式服务具有用
 
 通过**为组织嵌入内容**，可以扩展 Power BI 服务。 这种类型的嵌入要求应用程序的用户登录 Power BI 服务来查看内容。 组织中的用户登录后，只能访问他们拥有的，或者他们在 Power BI 服务中共享的仪表板和报表。
 
-组织嵌入内容的示例包括 [SharePoint Online](https://powerbi.microsoft.com/blog/integrate-power-bi-reports-in-sharepoint-online/)、[Microsoft Teams 集成（必须拥有管理员权限）](https://powerbi.microsoft.com/blog/power-bi-teams-up-with-microsoft-teams/)以及 [Microsoft Dynamics](https://docs.microsoft.com/dynamics365/customer-engagement/basics/add-edit-power-bi-visualizations-dashboard) 等内部应用程序。
+组织嵌入内容的示例包括 [SharePoint Online](https://powerbi.microsoft.com/blog/integrate-power-bi-reports-in-sharepoint-online/)、[Microsoft Teams 集成（必须拥有管理员权限）](https://powerbi.microsoft.com/blog/power-bi-teams-up-with-microsoft-teams/)以及 [Microsoft Dynamics](/dynamics365/customer-engagement/basics/add-edit-power-bi-visualizations-dashboard) 等内部应用程序。
 
 若要为组织嵌入内容，请参阅[教程：为组织将 Power BI 内容嵌入应用程序](embed-sample-for-your-organization.md)。
 

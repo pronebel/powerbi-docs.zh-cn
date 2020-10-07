@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: reference
 ms.date: 03/13/2019
-ms.openlocfilehash: 95d2cec8cf731c403e204beeb6c013c2cfe0ce1d
-ms.sourcegitcommit: 0d0ab427bb71b37c9e5170c515a8f274e1f20c17
+ms.openlocfilehash: 7624e51bf8c1ee49f2b7e7a0682e12b24bcdfa98
+ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "87878561"
+ms.lasthandoff: 10/06/2020
+ms.locfileid: "91748462"
 ---
 # <a name="power-bi-visuals-api-changelog"></a>Power BI 视觉对象 API 更改日志
 此页面包含 API 版本的快速摘要。 此处列出的版本被视为稳定版本，不会更改。
@@ -62,7 +62,7 @@ ms.locfileid: "87878561"
 * `proto` 属性不再将隐藏的元数据/数据存储在 dataView 中。 通过 `proto` 访问属性的视觉对象可能会被此更新中断。
 
 ## <a name="api-v1130"></a>API v1.13.0
-* 支持**同步切片器 [](./enable-sync-slicers.md)** ，请注意，由于 PBI 当前代码状态，此方法仅适用于单字段切片器，[了解更多信息](/power-bi/desktop-slicers)。
+* 支持**同步切片器 [](./enable-sync-slicers.md)** ，请注意，由于 PBI 当前代码状态，此方法仅适用于单字段切片器，[了解更多信息](../../visuals/power-bi-visualization-slicers.md)。
 * 辅助功能：[高对比度支持](./high-contrast-support.md) 
 * 辅助功能：允许键盘焦点标志
 

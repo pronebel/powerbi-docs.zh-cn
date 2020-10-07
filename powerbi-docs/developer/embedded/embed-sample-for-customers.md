@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.custom: seodec18
 ms.date: 06/02/2020
-ms.openlocfilehash: bb693b1b46e193a87365537492c83aa2eb8a479a
-ms.sourcegitcommit: b2c60781da6f756102f91346b35a7651fb5dcda3
+ms.openlocfilehash: 6ba5cd95f3e8b788ca7ee8939dff6616c5610573
+ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/08/2020
-ms.locfileid: "86092230"
+ms.lasthandoff: 10/06/2020
+ms.locfileid: "91746622"
 ---
 # <a name="tutorial-embed-power-bi-content-into-an-application-for-your-customers"></a>教程：为客户将 Power BI 内容嵌入应用中
 
@@ -46,7 +46,7 @@ ms.locfileid: "86092230"
 
 ### <a name="register-an-application-in-azure-active-directory-azure-ad"></a>在 Azure Active Directory (Azure AD) 中注册应用程序
 
-向 Azure Active Directory [注册应用程序](register-app.md)，以允许应用程序访问 [Power BI REST API](https://docs.microsoft.com/rest/api/power-bi/)。 通过注册应用，可以建立应用标识，并指定[对 Power BI REST 资源的权限](https://docs.microsoft.com/azure/active-directory/develop/v2-permissions-and-consent)。 根据你想要使用主帐户还是[服务主体](embed-service-principal.md)，确定如何开始注册应用程序。
+向 Azure Active Directory [注册应用程序](register-app.md)，以允许应用程序访问 [Power BI REST API](/rest/api/power-bi/)。 通过注册应用，可以建立应用标识，并指定[对 Power BI REST 资源的权限](/azure/active-directory/develop/v2-permissions-and-consent)。 根据你想要使用主帐户还是[服务主体](embed-service-principal.md)，确定如何开始注册应用程序。
 
 根据所采用的方法，影响 Azure 中注册的应用程序类型。
 
@@ -62,7 +62,7 @@ ms.locfileid: "86092230"
 
 ### <a name="create-and-publish-your-reports"></a>创建并发布报表
 
-可使用 Power BI Desktop 创建报表和数据集，然后将这些报表发布到工作区。 可通过两种方式完成此任务：作为最终用户，可以使用主帐户（Power BI Pro 许可证）将报表发布到传统工作区。 如果使用服务主体，则可以使用 [Power BI REST API](https://docs.microsoft.com/rest/api/power-bi/imports/postimportingroup) 将报表发布到新工作区。
+可使用 Power BI Desktop 创建报表和数据集，然后将这些报表发布到工作区。 可通过两种方式完成此任务：作为最终用户，可以使用主帐户（Power BI Pro 许可证）将报表发布到传统工作区。 如果使用服务主体，则可以使用 [Power BI REST API](/rest/api/power-bi/imports/postimportingroup) 将报表发布到新工作区。
 
 以下步骤介绍如何将 PBIX 报表发布到 Power BI 工作区。
 
@@ -224,11 +224,11 @@ Get-PowerBIworkspace -name "App Owns Embed Test" | Get-PowerBIReport
 
 ## <a name="embed-content-within-your-application"></a>在应用程序中嵌入内容
 
-即使已使用 [Power BI REST API](https://docs.microsoft.com/rest/api/power-bi/) 完成嵌入内容的步骤，也可使用 .NET SDK 编写本文中所述的示例代码。
+即使已使用 [Power BI REST API](/rest/api/power-bi/) 完成嵌入内容的步骤，也可使用 .NET SDK 编写本文中所述的示例代码。
 
-客户在应用程序中嵌入内容时，需要从 Azure AD 获取主帐户或[服务主体](embed-service-principal.md)的访问令牌 。 必须为 Power BI 应用程序获取 [Azure AD 访问令牌](get-azuread-access-token.md#access-token-for-non-power-bi-users-app-owns-data)，然后才能对 [Power BI REST API](https://docs.microsoft.com/rest/api/power-bi/) 进行调用。
+客户在应用程序中嵌入内容时，需要从 Azure AD 获取主帐户或[服务主体](embed-service-principal.md)的访问令牌 。 必须为 Power BI 应用程序获取 [Azure AD 访问令牌](get-azuread-access-token.md#access-token-for-non-power-bi-users-app-owns-data)，然后才能对 [Power BI REST API](/rest/api/power-bi/) 进行调用。
 
-若要使用访问令牌创建 Power BI 客户端，不妨创建便于与 [Power BI REST API](https://docs.microsoft.com/rest/api/power-bi/) 进行交互的 Power BI 客户端对象。 使用 Microsoft.Rest.TokenCredentials 对象包装 AccessToken，以创建 Power BI 客户端对象。
+若要使用访问令牌创建 Power BI 客户端，不妨创建便于与 [Power BI REST API](/rest/api/power-bi/) 进行交互的 Power BI 客户端对象。 使用 Microsoft.Rest.TokenCredentials 对象包装 AccessToken，以创建 Power BI 客户端对象。
 
 ```csharp
 using Microsoft.IdentityModel.Clients.ActiveDirectory;
@@ -269,11 +269,11 @@ Report report = reports.Value.FirstOrDefault();
 用于生成特定项的嵌入令牌的 API
 
 使用这些 API 创建的嵌入令牌特定于要嵌入的项。 无论何时使用这些 API 嵌入 Power BI 项（例如报表、仪表板或磁贴），都需要为其创建新的嵌入令牌。
-* [仪表板 GenerateTokenInGroup](https://docs.microsoft.com/rest/api/power-bi/embedtoken/dashboards_generatetokeningroup)
-* [数据集 GenerateTokenInGroup](https://docs.microsoft.com/rest/api/power-bi/embedtoken/datasets_generatetokeningroup)
-* [报表 GenerateTokenForCreateInGroup](https://docs.microsoft.com/rest/api/power-bi/embedtoken/reports_generatetokenforcreateingroup)
-* [报表 GenerateTokenInGroup](https://docs.microsoft.com/rest/api/power-bi/embedtoken/reports_generatetokeningroup)
-* [磁贴 GenerateTokenInGroup](https://docs.microsoft.com/rest/api/power-bi/embedtoken/tiles_generatetokeningroup)
+* [仪表板 GenerateTokenInGroup](/rest/api/power-bi/embedtoken/dashboards_generatetokeningroup)
+* [数据集 GenerateTokenInGroup](/rest/api/power-bi/embedtoken/datasets_generatetokeningroup)
+* [报表 GenerateTokenForCreateInGroup](/rest/api/power-bi/embedtoken/reports_generatetokenforcreateingroup)
+* [报表 GenerateTokenInGroup](/rest/api/power-bi/embedtoken/reports_generatetokeningroup)
+* [磁贴 GenerateTokenInGroup](/rest/api/power-bi/embedtoken/tiles_generatetokeningroup)
 
 [示例应用程序](https://github.com/Microsoft/PowerBI-Developer-Samples)中的以下文件提供了为报表、仪表板或磁贴创建嵌入令牌的示例。
 * Services\EmbedService.cs
@@ -300,7 +300,7 @@ var embedConfig = new EmbedConfig()
 
 用于生成多个项的嵌入令牌的 API<a id="multiEmbedToken"></a>
 
-[生成令牌](https://docs.microsoft.com/rest/api/power-bi/embedtoken/generatetoken)嵌入 API 会生成一个令牌，该令牌可用于嵌入多个项。
+[生成令牌](/rest/api/power-bi/embedtoken/generatetoken)嵌入 API 会生成一个令牌，该令牌可用于嵌入多个项。
 
 还可用于在嵌入报表时动态选择数据集。 有关此 API 用法的详细信息，请参阅[动态绑定](embed-dynamic-binding.md)。
 
@@ -414,7 +414,7 @@ var token = client.GetClient().EmbedToken.GenerateToken(request);
 > [!NOTE]
 > 使用 A SKU 时，无法使用免费的 Power BI 许可证访问 Power BI 内容。
 
-下表介绍了每个 SKU 的资源和限制。 若要确定最能满足你需求的容量，请参阅[应该为我的方案购买哪一个 SKU](https://docs.microsoft.com/power-bi/developer/embedded-faq#which-solution-should-i-choose) 表。
+下表介绍了每个 SKU 的资源和限制。 若要确定最能满足你需求的容量，请参阅[应该为我的方案购买哪一个 SKU](./embedded-faq.md#which-solution-should-i-choose) 表。
 
 | 容量节点 | 总虚拟核心 | 后端 V 核心 | RAM (GB) | 前端 V 核心 | DirectQuery/Live Connection（每秒） | 模型刷新并行度 |
 | --- | --- | --- | --- | --- | --- | --- |
@@ -430,7 +430,7 @@ var token = client.GetClient().EmbedToken.GenerateToken(request);
 
 对于开发测试，你可将嵌入试用令牌用于 Pro 许可证。 若要嵌入到生产环境，请使用专用容量。
 
-Power BI 服务主体或主帐户可以生成的嵌入试用令牌的数量是有限的。 使用 [Available Features](https://docs.microsoft.com/rest/api/power-bi/availablefeatures/getavailablefeatures) API 来检查当前嵌入使用情况的百分比。 显示了每个服务主体或主帐户的使用量。
+Power BI 服务主体或主帐户可以生成的嵌入试用令牌的数量是有限的。 使用 [Available Features](/rest/api/power-bi/availablefeatures/getavailablefeatures) API 来检查当前嵌入使用情况的百分比。 显示了每个服务主体或主帐户的使用量。
 
 如果测试时用完了嵌入令牌，则需要购买 Power BI Embedded 或高级[容量](embedded-capacity.md)。 为专用容量生成嵌入令牌时，可生成的数量不受限制。
 
@@ -441,7 +441,7 @@ Power BI 服务主体或主帐户可以生成的嵌入试用令牌的数量是�
 
 所有包含与嵌入内容（包括数据集、报表和仪表板）相关的 Power BI 资源的工作区都必须分配给专用容量。 例如，如果嵌入的报表以及与其绑定的数据集位于不同工作区中，则必须将这两个工作区分配给专用容量。
 
-若要使用[服务主体](embed-service-principal.md)将专用容量分配给工作区，请使用 [Power BI REST API](https://docs.microsoft.com/rest/api/power-bi/capacities/groups_assigntocapacity)。 使用 Power BI REST API 时，请务必使用[服务主体对象 ID](embed-service-principal.md)。
+若要使用[服务主体](embed-service-principal.md)将专用容量分配给工作区，请使用 [Power BI REST API](/rest/api/power-bi/capacities/groups_assigntocapacity)。 使用 Power BI REST API 时，请务必使用[服务主体对象 ID](embed-service-principal.md)。
 
 请按照以下步骤，使用主帐户将专用容量分配给工作区。
 

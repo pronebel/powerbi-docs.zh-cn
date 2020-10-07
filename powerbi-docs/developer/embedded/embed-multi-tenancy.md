@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 01/11/2019
-ms.openlocfilehash: cd30727e6329ca91413f2023f7dc3bd715bcbca6
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: b2638c3fdb483f45b6f4b3f9363f42ee36e57f0b
+ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83275998"
+ms.lasthandoff: 10/06/2020
+ms.locfileid: "91747749"
 ---
 # <a name="manage-multi-tenancy-with-power-bi-embedded-analytics"></a>使用 Power BI 嵌入式分析来管理多租户
 
@@ -28,7 +28,7 @@ ms.locfileid: "83275998"
 
 ## <a name="concepts-and-terminology"></a>概念和术语
 
-**[AAD](https://docs.microsoft.com/azure/active-directory/fundamentals/active-directory-whatis)** - Azure Active Directory。
+**[AAD](/azure/active-directory/fundamentals/active-directory-whatis)** - Azure Active Directory。
 
 **AAD 应用程序** - AAD 中的应用程序标识。 身份验证需要 AAD 应用程序。
 
@@ -131,17 +131,17 @@ Power BI Embedded 支持多地理位置部署（预览功能）。 [多地理位
 
 如果 SaaS 应用程序存储为每个租户保留一个单独的数据库，自然选择在 Power BI 中使用单租户数据集，每个数据集的连接字符串指向匹配的数据库。
 
-如果 SaaS 应用程序存储为所有租户使用多租户数据库，很容易通过工作区将租户分隔开来。 可以使用仅检索相关租户数据的参数化数据库查询来配置 Power BI 数据集的数据库连接。 可以使用 [Power BI Desktop](../../transform-model/desktop-query-overview.md) 或使用 [API](https://docs.microsoft.com/rest/api/power-bi/datasets/updatedatasourcesingroup) 与查询上的[参数](https://docs.microsoft.com/rest/api/power-bi/datasets/updateparametersingroup)更新连接。
+如果 SaaS 应用程序存储为所有租户使用多租户数据库，很容易通过工作区将租户分隔开来。 可以使用仅检索相关租户数据的参数化数据库查询来配置 Power BI 数据集的数据库连接。 可以使用 [Power BI Desktop](../../transform-model/desktop-query-overview.md) 或使用 [API](/rest/api/power-bi/datasets/updatedatasourcesingroup) 与查询上的[参数](/rest/api/power-bi/datasets/updateparametersingroup)更新连接。
 
 ### <a name="data-isolation"></a>数据隔离
 
-此租赁模型中的数据都在工作区级别隔离。 工作区和租户之间的简单映射可防止一个租户中的用户看到另一个租户的内容。 使用单个主  用户要求你有权访问所有不同工作区。 显示最终用户的数据的配置是在[生成嵌入令牌](https://docs.microsoft.com/rest/api/power-bi/embedtoken)（这是一个仅后端进程，最终用户无法看到或更改）期间定义的。
+此租赁模型中的数据都在工作区级别隔离。 工作区和租户之间的简单映射可防止一个租户中的用户看到另一个租户的内容。 使用单个主  用户要求你有权访问所有不同工作区。 显示最终用户的数据的配置是在[生成嵌入令牌](/rest/api/power-bi/embedtoken)（这是一个仅后端进程，最终用户无法看到或更改）期间定义的。
 
 若要添加其他隔离，应用程序开发人员可以为每个工作区定义一个主  用户或应用程序，而不是有权访问多个工作区的单个主  用户或应用程序。 这样一来，可以确保任何人为错误或凭据泄漏不会导致多个客户的数据被公开。
 
 ### <a name="scalability"></a>可伸缩性
 
-此模型的一个优点是，将数据划分到每个租户的多个数据集中可以克服[单个数据集的大小限制](https://docs.microsoft.com/power-bi/service-premium-large-datasets)（当前容量为 10 GB）。 容量过载时，可以收回未使用的数据集，为活动数据集释放内存。 此任务不适用于单个大型数据集。 如果需要，还可以使用多个数据集将租户划分为多个 Power BI 容量。
+此模型的一个优点是，将数据划分到每个租户的多个数据集中可以克服[单个数据集的大小限制](../../admin/service-premium-what-is.md)（当前容量为 10 GB）。 容量过载时，可以收回未使用的数据集，为活动数据集释放内存。 此任务不适用于单个大型数据集。 如果需要，还可以使用多个数据集将租户划分为多个 Power BI 容量。
 
 尽管有这些优势，还必须考虑 SaaS 应用程序在未来可能达到的规模。 例如，用户可能会在可管理项目的数量上遇到限制。 请参阅本文后续部分中的部署[限制](#summary-comparison-of-the-different-approaches)，获取详细信息。 SKU 使用的容量限制了数据集需要满足的内存大小、可以同时运行的刷新数以及数据刷新的最大频率。 建议在管理数百或数千个数据集时进行测试。 此外建议考虑平均使用量和峰值使用量，以及与其他租户管理方式不同的具有大型数据集或不同使用模式的任何特定租户。
 
@@ -155,7 +155,7 @@ Power BI Embedded 支持多地理位置部署（预览功能）。 [多地理位
    * 针对特定租户的未计划自定义
    * 数据集刷新频率
 
-例如，为新租户中创建工作区是一项常见任务，需要实现自动化。 使用 [Power BI REST API](https://docs.microsoft.com/rest/api/power-bi/)，可以[在创建工作区时实现完全自动化](https://powerbi.microsoft.com/blog/duplicate-workspaces-using-the-power-bi-rest-apis-a-step-by-step-tutorial/)。
+例如，为新租户中创建工作区是一项常见任务，需要实现自动化。 使用 [Power BI REST API](/rest/api/power-bi/)，可以[在创建工作区时实现完全自动化](https://powerbi.microsoft.com/blog/duplicate-workspaces-using-the-power-bi-rest-apis-a-step-by-step-tutorial/)。
 
 ### <a name="multi-geo-needs"></a>多地理位置需要
 
@@ -222,15 +222,15 @@ Power BI 还没有修改或创建 RLS 角色和规则的 API。 只能在 Power 
 > [!Important]
 > 以下分析基于产品的当前状态。 随着每月新功能的发布，我们将继续提供新功能和特性来解决现有限制和缺点。 请务必查看我们的每月博客文章了解新增功能，然后回到本文查看新功能如何影响租赁模型建议。
 
-| 评估条件 | 基于工作区   | 基于行级别安全性  |  |  |
-|--------------------------------------|----------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------|---|---|
-| 数据体系结构  | 每个租户对应一个单独数据库时最简单  | 所有租户的所有数据都在单个数据仓库中时最简单   |  |  |
-| 数据隔离  | 良好。 每个租户都有一个专用数据集。  | 适中。 所有数据都在同一个共享数据集但通过访问控制托管。  |  |  |
-| 可伸缩性  | 中等。 将数据分解为多个数据集可实现优化。  | 最低。 受数据集限制。  |  |  |
-| 多地理位置需要  | 非常适合大多数租户仅在一个区域的情况。  | 不建议。 需要将整个数据集存储在多个区域中。  |  |  |
-| 自动化和操作复杂性  | 为单个租户提供良好的自动化功能。   大规模管理多个项目时非常复杂。  | 可轻松管理 Power BI 项目，但大规模管理 RLS 时非常复杂。  |  |  |
-| 开销  | 中低。 可以优化利用率以降低每个租户的成本。  需要频繁刷新时可能会增加。  | 如果使用导入模式会产生中高成本。  如果使用直接查询模式会产生中低成本。  |  |  |
-| 内容自定义和创作  | 合适的选择。 可能会达到大规模限制。  | 只在嵌入式 iFrame 中生成内容  |  |  |
+| 评估条件 | 基于工作区   | 基于行级别安全性  |
+|---------------------|-------------------|---------------------------|
+| 数据体系结构  | 每个租户对应一个单独数据库时最简单  | 所有租户的所有数据都在单个数据仓库中时最简单   |
+| 数据隔离  | 良好。 每个租户都有一个专用数据集。  | 适中。 所有数据都在同一个共享数据集但通过访问控制托管。  |
+| 可伸缩性  | 中等。 将数据分解为多个数据集可实现优化。  | 最低。 受数据集限制。  |
+| 多地理位置需要  | 非常适合大多数租户仅在一个区域的情况。  | 不建议。 需要将整个数据集存储在多个区域中。  |
+| 自动化和操作复杂性  | 为单个租户提供良好的自动化功能。   大规模管理多个项目时非常复杂。  | 可轻松管理 Power BI 项目，但大规模管理 RLS 时非常复杂。  |
+| 开销  | 中低。 可以优化利用率以降低每个租户的成本。  需要频繁刷新时可能会增加。  | 如果使用导入模式会产生中高成本。  如果使用直接查询模式会产生中低成本。  |
+| 内容自定义和创作  | 合适的选择。 可能会达到大规模限制。  | 只在嵌入式 iFrame 中生成内容  |
 
 ## <a name="deployment-considerations-and-limitations"></a>部署注意事项和限制
 

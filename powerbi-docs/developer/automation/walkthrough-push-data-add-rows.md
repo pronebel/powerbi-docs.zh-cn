@@ -8,20 +8,20 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: tutorial
 ms.date: 02/05/2019
-ms.openlocfilehash: ba37d9fc79405518a59ff188fdb5890e6af8043c
-ms.sourcegitcommit: caf60154a092f88617eb177bc34fb784f2365962
+ms.openlocfilehash: b43e9c93499f60039a924051c30b0ed631c85e8e
+ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/25/2020
-ms.locfileid: "85355021"
+ms.lasthandoff: 10/06/2020
+ms.locfileid: "91748370"
 ---
 # <a name="step-5-add-rows-to-a-power-bi-table"></a>步骤 5：向 Power BI 表中添加行
 
 本文是[将数据推送到数据集](walkthrough-push-data.md)的分步演练的一部分。
 
-在“将数据推送到数据集”的**步骤 4**（[获取数据集以向 Power BI 表中添加行](walkthrough-push-data-get-datasets.md)）中，你使用了[获取数据集](https://docs.microsoft.com/rest/api/power-bi/datasets/getdatasets)操作和 Newtonsoft.Json 来获取数据集 ID。在此步骤中，将该数据集 ID 用于 [PostRows](https://docs.microsoft.com/rest/api/power-bi/pushdatasets/datasets_postrows) 操作，将行添加到 **Power BI** 数据集。 
+在“将数据推送到数据集”的**步骤 4**（[获取数据集以向 Power BI 表中添加行](walkthrough-push-data-get-datasets.md)）中，你使用了[获取数据集](/rest/api/power-bi/datasets/getdatasets)操作和 Newtonsoft.Json 来获取数据集 ID。在此步骤中，将该数据集 ID 用于 [PostRows](/rest/api/power-bi/pushdatasets/datasets_postrows) 操作，将行添加到 **Power BI** 数据集。 
 
-调用 [PostRows ](https://docs.microsoft.com/rest/api/power-bi/pushdatasets/datasets_postrows)操作时，会将行添加到数据集。
+调用 [PostRows ](/rest/api/power-bi/pushdatasets/datasets_postrows)操作时，会将行添加到数据集。
 
 ![添加行](media/walkthrough-push-data-add-rows/powerbi-developer-add-rows.png)
 
@@ -105,9 +105,7 @@ ms.locfileid: "85355021"
     #endregion
 ```
 
-下面是[完整代码清单](#code)。
-
-<a name="code"/>
+下面是完整代码清单。
 
 ## <a name="complete-code-listing"></a>完整代码清单
 
@@ -315,5 +313,5 @@ ms.locfileid: "85355021"
 ## <a name="next-steps"></a>后续步骤
 [将数据推送到 Power BI 仪表板](walkthrough-push-data.md)  
 [Power BI REST API 概述](overview-of-power-bi-rest-api.md)  
-[Power BI REST API 引用](https://docs.microsoft.com/rest/api/power-bi/)  
+[Power BI REST API 引用](/rest/api/power-bi/)  
 更多问题？ [尝试参与 Power BI 社区](https://community.powerbi.com/)

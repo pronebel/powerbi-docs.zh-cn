@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 03/03/2020
-ms.openlocfilehash: 23018dce94efad6c63a22b6ee3a2c0919475adb5
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: 9158dfccecd42d13a133a49097b2f85cb3713f00
+ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83145129"
+ms.lasthandoff: 10/06/2020
+ms.locfileid: "91746737"
 ---
 # <a name="capacity-planning-in-power-bi-embedded-analytics"></a>Power BI 嵌入式分析中的容量计划
 
@@ -42,7 +42,7 @@ ms.locfileid: "83145129"
 下面举例说明了此计划工具的一些用途。
 
 * 容量管理员可以更好地了解容量在给定期限内可以处理多少用户。
-* 报表作者可以了解用户负载效果，就像使用 Power BI Desktop [性能分析器](https://docs.microsoft.com/power-bi/desktop-performance-analyzer)进行度量一样。
+* 报表作者可以了解用户负载效果，就像使用 Power BI Desktop [性能分析器](../../create-reports/desktop-performance-analyzer.md)进行度量一样。
 * 可以在浏览器中实时呈现。
 * 使用 SQL Server Profiler，可以[连接到正在度量的容量的 XMLA 终结点](https://powerbi.microsoft.com/blog/power-bi-open-platform-connectivity-with-xmla-endpoints-public-preview/)，以查看正在执行的查询。
 * 可以在 Premium Capacity Metrics 应用的“数据集”页中查看负载测试效果。 容量管理员可以使用此工具生成负载，并查看相应负载如何呈现。

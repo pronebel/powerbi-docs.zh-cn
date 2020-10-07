@@ -8,19 +8,19 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 06/08/2018
-ms.openlocfilehash: 7dad7071fbf887c36443cacdb9be83d83e0b89be
-ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
+ms.openlocfilehash: e0092003cbf019bcf720eeb7aa32e8a9e800f143
+ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/19/2020
-ms.locfileid: "83561492"
+ms.lasthandoff: 10/06/2020
+ms.locfileid: "91747289"
 ---
 # <a name="dataset-properties"></a>数据集属性
 
 当前版本 1 的数据集 API 仅允许使用一个名称和一个表集合创建的数据集。 每个表可以具有一个名称和一个列集合。 每个列具有一个名称和数据类型。 我们主要通过对度量值和表格间的关系的支持来极大地扩展这些属性。 此版本受支持的属性的完整列表如下：
 
 > [!IMPORTANT]
-> 可从[数据集操作组](https://docs.microsoft.com/rest/api/power-bi/datasets)页进行访问。
+> 可从[数据集操作组](/rest/api/power-bi/datasets)页进行访问。
 
 ## <a name="dataset"></a>数据集
 
