@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.subservice: powerbi-custom-visuals
 ms.date: 07/27/2018
 LocalizationGroup: Create reports
-ms.openlocfilehash: 7abbfce4254359c95efe1ef91511672b0aa98be6
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: e4e65c26c9d1b5598ecf6b523649dc70722b7d79
+ms.sourcegitcommit: be424c5b9659c96fc40bfbfbf04332b739063f9c
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85229367"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "91634978"
 ---
 # <a name="use-r-powered-power-bi-visuals-in-power-bi"></a>在 Power BI 中使用 R 驱动的 Power BI 视觉对象
 
@@ -125,20 +125,25 @@ Power BI 团队正在努力降低你遇到这些问题的可能性，下一版 P
 
 3. 使用任意 R 控制台手动安装 R 包。 此方法的具体步骤如下所示：
 
-   a.  下载 R 驱动的视觉对象安装脚本，然后将该文件保存到本地驱动器。
+   a. 下载 R 驱动的视觉对象安装脚本，然后将该文件保存到本地驱动器。
 
-   b.  在 R 控制台中运行以下命令：
+   b. 在 R 控制台中运行以下命令：
 
-       source("C:/Users/david/Downloads/ScriptInstallPackagesForForecastWithWorkarounds.R")
+      ```console
+      source("C:/Users/david/Downloads/ScriptInstallPackagesForForecastWithWorkarounds.R")
+      ```
 
    典型的默认安装位置如下所示：
 
+   ```console
        c:\Program Files\R\R-3.3.x\bin\x64\Rterm.exe (for CRAN-R)
        c:\Program Files\R\R-3.3.x\bin\x64\Rgui.exe (for CRAN-R)
        c:\Program Files\R\R-3.3.x\bin\R.exe (for CRAN-R)
        c:\Program Files\Microsoft\MRO-3.3.x\bin\R.exe (for MRO)
        c:\Program Files\Microsoft\MRO-3.3.x\bin\x64\Rgui.exe (for MRO)
        c:\Program Files\RStudio\bin\rstudio.exe (for RStudio)
+   ```
+
 4. 如果上述步骤不起作用，请尝试按以下步骤操作：
 
    a. 使用 **R Studio**，按上述 3.b. 中所述的步骤操作 （在 R 控制台中运行脚本代码）。

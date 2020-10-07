@@ -8,12 +8,12 @@ ms.subservice: powerbi-report-server
 ms.topic: how-to
 ms.date: 11/01/2017
 ms.author: maggies
-ms.openlocfilehash: b60c56e7b8dfde9c46a784c5f57ca07ca9ca3fa0
-ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
+ms.openlocfilehash: d4890cf864334951982a8b6d7acc8fc8338016d6
+ms.sourcegitcommit: be424c5b9659c96fc40bfbfbf04332b739063f9c
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90859166"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "91634955"
 ---
 # <a name="configure-kerberos-to-use-power-bi-reports"></a>配置 Kerberos 以使用 Power BI 报表
 <iframe width="640" height="360" src="https://www.youtube.com/embed/vCH8Fa3OpQ0?showinfo=0" frameborder="0" allowfullscreen></iframe>
@@ -29,13 +29,17 @@ Power BI 报表服务器提供 Power BI 报表托管功能。 报表服务器可
 ## <a name="error-running-report"></a>生成报表时出错
 如果未正确配置报表服务器，可能会看到以下错误消息。
 
-    Something went wrong.
+```output
+Something went wrong.
 
-    We couldn't run the report because we couldn't connect to its data source. The report or data source might not be configured correctly. 
+We couldn't run the report because we couldn't connect to its data source. The report or data source might not be configured correctly. 
+```
 
 “技术详细信息”中显示以下消息。
 
-    We couldn't connect to the Analysis Services server. The server forcibly closed the connection. To connect as the user viewing the report, your organization must have configured Kerberos constrained delegation.
+```output
+We couldn't connect to the Analysis Services server. The server forcibly closed the connection. To connect as the user viewing the report, your organization must have configured Kerberos constrained delegation.
+```
 
 ![Power BI 报表的屏幕截图，其中显示了与 Analysis Services 服务器连接问题相关的错误消息。](media/configure-kerberos-powerbi-reports/powerbi-report-config-error.png)
  
@@ -91,7 +95,9 @@ Power BI 报表服务器提供 Power BI 报表托管功能。 报表服务器可
 
 建议创建两个 SPN。 一个采用 NetBIOS 名称，另一个采用完全限定的域名 (FQDN)。 SPN 格式如下所示。
 
-    <Service>/<Host>:<port>
+```console
+<Service>/<Host>:<port>
+```
 
 Power BI 报表服务器将使用 HTTP 服务。 对于 HTTP SPN，不会列出端口。 此时，我们关注的服务是 HTTP。 SPN 的主机将是你在 URL 中使用的名称。 这通常是计算机名称。 如果支持负载均衡器，这可能是虚拟名称。
 
@@ -119,13 +125,17 @@ Power BI 报表服务器将使用 HTTP 服务。 对于 HTTP SPN，不会列出�
 
 如果使用 contosoreports 的虚拟 URL，那么将 SPN（包括 FQDN 和 NetBIOS SPN）置于计算机帐户上的命令如下所示。
 
-      Setspn -a HTTP/contosoreports.contoso.com ContosoRS
-      Setspn -a HTTP/contosoreports ContosoRS
+```console
+Setspn -a HTTP/contosoreports.contoso.com ContosoRS
+Setspn -a HTTP/contosoreports ContosoRS
+```
 
 如果对 SPN 主机使用计算机名称，那么将 SPN（包括 FQDN 和 NetBIOS SPN）置于域用户帐户上的命令如下所示。
 
-      Setspn -a HTTP/ContosoRS.contoso.com RSService
-      Setspn -a HTTP/ContosoRS RSService
+```console
+Setspn -a HTTP/ContosoRS.contoso.com RSService
+Setspn -a HTTP/ContosoRS RSService
+```
 
 ## <a name="spns-for-the-analysis-services-service"></a>Analysis Services 服务的 SPN
 配置 Analysis Services 服务的 SPN 类似于配置 Power BI 报表服务器的 SPN。 如果有命名实例，那么 SPN 的格式就会略有不同。
@@ -146,13 +156,17 @@ SPN 的放置也类似于 Power BI 报表服务器 SPN 的放置。 具体操作
 
 将 SPN（包括 FQDN 和 NetBIOS SPN）置于计算机帐户上的命令如下所示。
 
-    Setspn -a MSOLAPSvc.3/ContosoAS.contoso.com ContosoAS
-    Setspn -a MSOLAPSvc.3/ContosoAS ContosoAS
+```console
+Setspn -a MSOLAPSvc.3/ContosoAS.contoso.com ContosoAS
+Setspn -a MSOLAPSvc.3/ContosoAS ContosoAS
+```
 
 将 SPN（包括 FQDN 和 NetBIOS SPN）置于域用户帐户上的命令如下所示。
 
-    Setspn -a MSOLAPSvc.3/ContosoAS.contoso.com OLAPService
-    Setspn -a MSOLAPSvc.3/ContosoAS OLAPService
+```console
+Setspn -a MSOLAPSvc.3/ContosoAS.contoso.com OLAPService
+Setspn -a MSOLAPSvc.3/ContosoAS OLAPService
+```
 
 ## <a name="spns-for-the-sql-browser-service"></a>SQL Browser 服务的 SPN
 如果有 Analysis Services 命名实例，还需要确保有浏览器服务的 SPN。 这是 Analysis Services 的专属要求。
@@ -164,8 +178,10 @@ SPN 的放置也类似于 Power BI 报表服务器 SPN 的放置。 具体操作
 
 Analysis Services SPN 示例如下所示。
 
-    MSOLAPDisco.3/ContosoAS.contoso.com
-    MSOLAPDisco.3/ContosoAS
+```console
+MSOLAPDisco.3/ContosoAS.contoso.com
+MSOLAPDisco.3/ContosoAS
+```
 
 SPN 的放置也类似于 Power BI 报表服务器 SPN 的放置。 不同之处在于，SQL Browser 始终在本地系统帐户下运行。 也就是说，SPN 始终都会在计算机帐户上运行。 
 
@@ -174,8 +190,10 @@ SPN 的放置也类似于 Power BI 报表服务器 SPN 的放置。 不同之处
 
 将 SPN（包括 FQDN 和 NetBIOS SPN）置于计算机帐户上的命令如下所示。
 
-    Setspn -a MSOLAPDisco.3/ContosoAS.contoso.com ContosoAS
-    Setspn -a MSOLAPDisco.3/ContosoAS ContosoAS
+```console
+Setspn -a MSOLAPDisco.3/ContosoAS.contoso.com ContosoAS
+Setspn -a MSOLAPDisco.3/ContosoAS ContosoAS
+```
 
 有关详细信息，请参阅[必须有 SQL Server Browser 服务的 SPN](https://support.microsoft.com/kb/950599)。
 

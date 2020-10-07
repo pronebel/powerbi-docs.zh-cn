@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 09/22/2020
+ms.date: 09/30/2020
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: d718b83e5c6ee5966bb882bcbf37feb58657f7cb
-ms.sourcegitcommit: d153cfc0ce559480c53ec48153a7e131b7a31542
+ms.openlocfilehash: 2464d95fd9d2cc7a5e3bb42479c1ba96bf5285a8
+ms.sourcegitcommit: 51b965954377884bef7af16ef3031bf10323845f
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/29/2020
-ms.locfileid: "91525391"
+ms.lasthandoff: 09/30/2020
+ms.locfileid: "91600538"
 ---
 # <a name="previous-monthly-updates-to-power-bi-desktop"></a>此前的 Power BI Desktop 月度更新
 
@@ -1392,7 +1392,7 @@ Power BI Desktop 更新列表中每个功能旁边的链接解释如下：
 ### <a name="reporting"></a>报表
 
 * 用于对齐页面上对象的智能参考线 [[视频]](https://youtu.be/AHNlkjRFdYI?t=11) [[文章]](../create-reports/power-bi-reports-filters-and-highlighting.md) [[博客]](https://powerbi.microsoft.com/blog/power-bi-desktop-december-2018-feature-summary/#smartGuides) 
-* ArcGIS Maps for Power BI 更新 [[视频]](https://youtu.be/AHNlkjRFdYI?t=84) [[文章]](../visuals/power-bi-visualization-arcgis.md) [[博客]](https://powerbi.microsoft.com/blog/power-bi-desktop-december-2018-feature-summary/#arcGIS) 
+* ArcGIS Maps for Power BI 更新 [[视频]](https://youtu.be/AHNlkjRFdYI?t=84) [[文章]](../visuals/power-bi-visualizations-arcgis.md) [[博客]](https://powerbi.microsoft.com/blog/power-bi-desktop-december-2018-feature-summary/#arcGIS) 
 * 字段列表辅助功能支持 [[视频]](https://youtu.be/AHNlkjRFdYI?t=464) [[文章]](../create-reports/desktop-report-view.md#copy-and-paste-between-reports) [[博客]](https://powerbi.microsoft.com/blog/power-bi-desktop-december-2018-feature-summary/#fieldList)
 * 设置页面上对象的 Tab 键顺序 [[视频]](https://youtu.be/AHNlkjRFdYI?t=643) [[文章]](../create-reports/power-bi-reports-filters-and-highlighting.md) [[博客]](https://powerbi.microsoft.com/blog/power-bi-desktop-december-2018-feature-summary/#tabOrder)
 * 按钮视觉对象的工具提示 [[视频]](https://youtu.be/AHNlkjRFdYI?t=884) [[文章]](../create-reports/desktop-accessibility-overview.md) [[博客]](https://powerbi.microsoft.com/blog/power-bi-desktop-december-2018-feature-summary/#tooltips)

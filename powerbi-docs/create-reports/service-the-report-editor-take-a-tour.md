@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 08/14/2019
 ms.author: maggies
 LocalizationGroup: Reports
-ms.openlocfilehash: 6b0b2ae2ca98b7dd3b9940319fc68a7effba4782
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: 56a181da60e2a20c08a8c03dd826276d350ec81f
+ms.sourcegitcommit: be424c5b9659c96fc40bfbfbf04332b739063f9c
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83349761"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "91635185"
 ---
 # <a name="tour-the-report-editor-in-power-bi"></a>Power BI 中的报表编辑器导览
 
@@ -122,9 +122,14 @@ Power BI 报表编辑器由几个主要部分组成：
 ## <a name="5-the-fields-pane"></a>5.“字段”窗格
 “字段”窗格显示数据中存在的表、文件夹和字段，可供创建可视化效果。
 
-|  |  |
-| --- | --- |
-| ![“字段”窗格](media/service-the-report-editor-take-a-tour/power-bi-fields-list.png) |<ul><li>将字段拖到页上，以启动一个新的可视化效果。  还可以将字段拖动到现有可视化效果，以将字段添加到该可视化效果。<br><br></li> <li>添加某一字段旁的选中标记时，Power BI 会将该字段添加到活动（或新的）可视化效果中。 它还决定将该字段放入哪个存储桶。  例如，该字段应用于图例、轴还是值？ Power BI 进行最佳推测，如有必要，可以将其从一个存储桶移动到另一个。 <br><br></li><li>无论哪种方式，每个所选的字段都会被添加到报表编辑器中的可视化效果窗格。</li></ul> |
+:::row:::
+    :::column:::
+        ![“字段”窗格](media/service-the-report-editor-take-a-tour/power-bi-fields-list.png)
+    :::column-end:::
+    :::column:::
+        <ul><li>将字段拖到页上，以启动一个新的可视化效果。  还可以将字段拖动到现有可视化效果，以将字段添加到该可视化效果。<br><br></li> <li>添加某一字段旁的选中标记时，Power BI 会将该字段添加到活动（或新的）可视化效果中。 它还决定将该字段放入哪个存储桶。  例如，该字段应用于图例、轴还是值？ Power BI 进行最佳推测，如有必要，可以将其从一个存储桶移动到另一个。 <br><br></li><li>无论哪种方式，每个所选的字段都会被添加到报表编辑器中的可视化效果窗格。</li></ul>
+    :::column-end:::
+:::row-end:::
 
 在 Power BI Desktop 中，还可以选择显示/隐藏字段、添加计算等。
 

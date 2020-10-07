@@ -7,12 +7,12 @@ ms.topic: how-to
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.date: 07/13/2020
-ms.openlocfilehash: 8e3ca6d9615a348fec928f13a561fbb97e719d6a
-ms.sourcegitcommit: b60063c49ac39f8b28c448908ecbb44b54326335
+ms.openlocfilehash: f024959c0d7e8bd0b51893a277161c67b5f4dfc6
+ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/12/2020
-ms.locfileid: "88160363"
+ms.lasthandoff: 10/06/2020
+ms.locfileid: "91746116"
 ---
 # <a name="export-power-bi-report-to-file-preview"></a>将 Power BI 报表导出到文件（预览）
 
@@ -22,7 +22,7 @@ ms.locfileid: "88160363"
 * **.png**
     * 导出为 .png 时，包含多个报表页的报表会压缩为 zip 文件
     * .zip 中的每个文件都代表一个报表页
-    * 报表页名称与 [Get Pages](https://docs.microsoft.com/rest/api/power-bi/reports/getpages) 或 [Get Pages in Group](https://docs.microsoft.com/rest/api/power-bi/reports/getpagesingroup) API 返回的值相同
+    * 报表页名称与 [Get Pages](/rest/api/power-bi/reports/getpages) 或 [Get Pages in Group](/rest/api/power-bi/reports/getpagesingroup) API 返回的值相同
 
 ## <a name="usage-examples"></a>用法示例
 
@@ -38,17 +38,17 @@ ms.locfileid: "88160363"
 * **将报表导出为 PowerPoint 演示文稿或 PDF 文档** - 默认处于启用状态。
 * **将报表导出为图像文件** - 只有导出为 .png 才需要启用，默认处于禁用状态。
 
-此 API 是异步的。 调用后，[exportToFile](https://docs.microsoft.com/rest/api/power-bi/reports/exporttofile) API 会触发导出作业。 在导出作业触发后，使用[轮询](https://docs.microsoft.com/rest/api/power-bi/reports/getexporttofilestatus)来跟踪此作业，直到它完成。
+此 API 是异步的。 调用后，[exportToFile](/rest/api/power-bi/reports/exporttofile) API 会触发导出作业。 在导出作业触发后，使用[轮询](/rest/api/power-bi/reports/getexporttofilestatus)来跟踪此作业，直到它完成。
 
 在轮询期间，此 API 返回表示已完成工作量的数字。 每个导出作业中的工作量都是根据报表页数计算的。 所有报表页的权重都相同。 例如，如果要导出的报表包含 10 个报表页，且轮询返回 70，则表示此 API 已处理导出作业中 10 个报表页中的 7 个。
 
-在导出完成后，轮询 API 调用返回用于获取文件的 [Power BI URL](https://docs.microsoft.com/rest/api/power-bi/reports/getfileofexporttofile)。 此 URL 在 24 小时内有效。
+在导出完成后，轮询 API 调用返回用于获取文件的 [Power BI URL](/rest/api/power-bi/reports/getfileofexporttofile)。 此 URL 在 24 小时内有效。
 
 ## <a name="supported-features"></a>支持的功能
 
 ### <a name="selecting-which-pages-to-print"></a>选择要打印哪些报表页
 
-根据 [Get Pages](https://docs.microsoft.com/rest/api/power-bi/reports/getpages) 或 [Get Pages in Group](https://docs.microsoft.com/rest/api/power-bi/reports/getpagesingroup) 返回值，指定要打印的报表页。 还可以指定要导出的报表页的顺序。
+根据 [Get Pages](/rest/api/power-bi/reports/getpages) 或 [Get Pages in Group](/rest/api/power-bi/reports/getpagesingroup) 返回值，指定要打印的报表页。 还可以指定要导出的报表页的顺序。
 
 ### <a name="bookmarks"></a>书签
 

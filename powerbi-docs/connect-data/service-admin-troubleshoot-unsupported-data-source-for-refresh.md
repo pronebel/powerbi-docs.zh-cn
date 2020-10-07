@@ -10,17 +10,19 @@ ms.date: 05/08/2020
 ms.author: davidi
 ms.custom: seodec18
 LocalizationGroup: Troubleshooting
-ms.openlocfilehash: acce77e3c3e41ec5b711a6a1c79628b2a47cd47f
-ms.sourcegitcommit: a453ba52aafa012896f665660df7df7bc117ade5
+ms.openlocfilehash: 49af2febbecb5061c4acb9ee20c3b707e3b81dff
+ms.sourcegitcommit: be424c5b9659c96fc40bfbfbf04332b739063f9c
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/27/2020
-ms.locfileid: "85485843"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "91634886"
 ---
 # <a name="troubleshooting-unsupported-data-source-for-refresh"></a>刷新不支持的数据源故障排除
 尝试为计划的刷新配置数据集时，你可能会遇到错误。
 
-        You cannot schedule refresh for this dataset because it gets data from sources that currently don’t support refresh.
+```output
+You cannot schedule refresh for this dataset because it gets data from sources that currently don’t support refresh.
+```
 
 刷新不支持在 Power BI Desktop 中使用的数据源时，会发生这种情况。 你需要查找所使用的数据源并将它与[在 Power BI 中刷新数据](refresh-data.md)处的不支持数据源列表进行比较。 
 

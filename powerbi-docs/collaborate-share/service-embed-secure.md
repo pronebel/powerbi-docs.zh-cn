@@ -9,12 +9,12 @@ ms.subservice: powerbi-service
 ms.topic: how-to
 ms.date: 04/27/2020
 LocalizationGroup: Share your work
-ms.openlocfilehash: e1925c57869a58f111b77c6a50a1289224440ecb
-ms.sourcegitcommit: 01b5fb05f723eab2557e0e420bfde23197987a96
+ms.openlocfilehash: 52593cbcbdc0a67709735a06eca493fefb18e1a0
+ms.sourcegitcommit: be424c5b9659c96fc40bfbfbf04332b739063f9c
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/14/2020
-ms.locfileid: "86300990"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "91633690"
 ---
 # <a name="embed-a-report-in-a-secure-portal-or-website"></a>在安全门户或网站中嵌入报表
 
@@ -60,10 +60,10 @@ ms.locfileid: "86300990"
 
 你可以使用嵌入 URL 的输入设置来自定义用户体验。 在提供的 iFrame 中，可以更新 URL 的 src 设置。
 
-| 属性  | 说明  |  |  |  |
-|--------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---|---|---|
-| pageName  | 你可以使用 pageName 查询字符串参数来设置要打开的报表页面。 在 Power BI 服务中查看报表时，你可以在报表 URL 的末尾找到此值，如下所示。 |  |  |  |
-| URL 筛选器  | 你可以在从 Power BI UI 接收到的嵌入 URL 中使用 [URL 筛选器](service-url-filters.md)来筛选嵌入的内容。 借助这种方式，可以通过基本 HTML 和 JavaScript 体验生成低代码集成。  |  |  |  |
+| 属性  | 说明  |
+|-----------|--------------|
+| pageName  | 你可以使用 pageName 查询字符串参数来设置要打开的报表页面。 在 Power BI 服务中查看报表时，你可以在报表 URL 的末尾找到此值，如下所示。 |
+| URL 筛选器  | 你可以在从 Power BI UI 接收到的嵌入 URL 中使用 [URL 筛选器](service-url-filters.md)来筛选嵌入的内容。 借助这种方式，可以通过基本 HTML 和 JavaScript 体验生成低代码集成。  |
 
 ## <a name="set-which-page-opens-for-an-embedded-report"></a>为嵌入的报表设置要打开的页面 
 

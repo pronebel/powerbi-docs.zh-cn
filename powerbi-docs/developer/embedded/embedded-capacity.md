@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 05/17/2020
-ms.openlocfilehash: 1e2426b12bf6205e5ed2fc6cfb0540c67740df7d
-ms.sourcegitcommit: 2cb249fc855e369eed1518924fbf026d5ee07eb1
+ms.openlocfilehash: 762cc2d3d170f5418616da46806f8a445490ee8d
+ms.sourcegitcommit: be424c5b9659c96fc40bfbfbf04332b739063f9c
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/24/2020
-ms.locfileid: "83813614"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "91635208"
 ---
 # <a name="capacity-and-skus-in-power-bi-embedded-analytics"></a>Power BI 嵌入式分析中的容量和 SKU
 
@@ -68,10 +68,9 @@ Power BI premium 提供两个 SKU，P 和 EM 。
 
 在此表中，自定义应用是指使用嵌入式分析创建的 Web 应用。 当你以开发人员身份嵌入到自定义 Web 应用时（使用 JavaScript、.NET SDK 或 REST API），可以控制和自定义 UX。 如果使用其他嵌入选项（例如 Power BI 服务和 Power BI 移动版），将无法使用此功能。
 
-
-|         |         |         |
-|---------|---------|---------|
-|**方案**</br><p></p>|**Azure**</br>(A SKU)|Office</br>（P 和 EM SKU）|
+| 方案 | Azure   | Office          |
+|----------|---------|-----------------|
+|          | (A SKU) | （P 和 EM SKU） |
 |[为客户嵌入内容](embed-sample-for-customers.md)</br>（应用拥有数据）     |✔        |✔        |
 |[为组织嵌入内容](embed-sample-for-your-organization.md)</br>（用户拥有数据）     |✖        |✔         |
 |Microsoft 365 应用</br>（原 Office 365 应用）<ul><li>[在 Teams 中嵌入](../../collaborate-share/service-embed-report-microsoft-teams.md)</li><li>[在 SharePoint 中嵌入](../../collaborate-share/service-embed-report-spo.md)</li></ul>     |✖        |✔        |

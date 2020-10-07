@@ -9,12 +9,12 @@ ms.subservice: powerbi-service
 ms.topic: how-to
 ms.date: 05/07/2020
 ms.author: davidi
-ms.openlocfilehash: e2615915503b0eb6d9d1ee08bd2a1fa8599bcf8c
-ms.sourcegitcommit: e9cd61eaa66eda01cc159251d7936a455c55bd84
+ms.openlocfilehash: 336dbad3ac77fb333b52cd3f4c4c0b104573314a
+ms.sourcegitcommit: be424c5b9659c96fc40bfbfbf04332b739063f9c
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/23/2020
-ms.locfileid: "86952998"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "91633529"
 ---
 # <a name="tips-and-tricks-for-creating-reports-in-power-bi-desktop"></a>在 Power BI Desktop 创建报表的相关提示和技巧
 若要充分利用你的数据，有时你还需要一点帮助。 我们整理了一些提示和技巧，以便你在 Microsoft Power BI Desktop *及*启用了 Power Pivot 加载项且安装和启用了 Power Query 的 Microsoft Excel 2016 或 Excel 2013 Pro-Plus 版本中创建报表时可加以使用。 
@@ -44,7 +44,9 @@ Power BI Desktop 中的查询编辑器与 Excel 2013 中的 Power Query 加载�
 ## <a name="reference-lines-in-your-report"></a>报表中的参考线
 可使用 Power BI Desktop 中的计算列来定义参考线。 确定你要在其上创建参考线的表格和列。 在功能区中选择“新建列”，然后在公式栏中键入以下公式：
 
-    Target Value = 100
+```console
+Target Value = 100
+```
 
 无论在何处使用，此计算列都将返回值 100。 新列将在字段列表中显示。 将“目标值”计算列添加到折线图，以显示任意时序如何与此特定参考线相关联。 
 
@@ -66,7 +68,9 @@ Power BI 与必应相集成，提供默认地图坐标（一个称为地理编�
 ## <a name="better-geocoding-with-more-specific-locations"></a>借助更具体的位置，改善地理编码
 有时（甚至于）设置可用于绘制地图的数据类别还不够。 可使用 Power BI Desktop 中的查询编辑器生成街道地址等更具体的位置。 使用“添加列”功能来构建自定义列。 再构建所需位置，如下所示： 
 
-    = [Field1] & " " & [Field2]
+```console
+= [Field1] & " " & [Field2]
+```
 
 然后，在地图可视化效果中使用生成的此字段。 此方法非常有助于从“送货地址”字段中生成常用于数据集的街道地址。 要注意的一点是，串联仅适用于文本字段。 如有必要，请先向街道编号转换为文本数据类型，然后再将其用于生成地址。
 
@@ -77,11 +81,13 @@ Power BI 与必应相集成，提供默认地图坐标（一个称为地理编�
 
 定义存储桶以构建直方图 - 确定哪个查询具有要在其上构建直方图的字段。 对查询使用“引用”选项来创建新查询，并将其命名为“FieldName”。 现在，使用规则定义存储桶。 使用“添加列”功能区上的“添加自定义列”选项，然后生成自定义规则。 一个简单的存储桶规则可能如下所示：
 
-    if([FieldName] \< 2) then "\<2 min" else
-    if([FieldName] \< 5) then "\<5 min" else
-    if([FieldName] \< 10) then "\<10 min" else
-    if([FieldName] \< 30) then "\<30 min" else
-    "longer")
+```console
+if([FieldName] \< 2) then "\<2 min" else
+if([FieldName] \< 5) then "\<5 min" else
+if([FieldName] \< 10) then "\<10 min" else
+if([FieldName] \< 30) then "\<30 min" else
+"longer")
+```
 
 确保数据类型是所得聚合列的编号。 接下来，可使用“最简单的直方图”中所述的技巧来使用组生成直方图。 此选项可处理更多数据点，但仍不支持“笔刷绘制”功能。
 
