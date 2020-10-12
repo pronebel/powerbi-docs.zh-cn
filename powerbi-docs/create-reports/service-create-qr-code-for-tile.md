@@ -1,6 +1,6 @@
 ---
 title: 为磁贴创建 QR 码以供在 Power BI 移动应用中使用
-description: Power BI 中的 QR 代码可以将现实生活中的任何东西直接连接到 Power BI 移动应用中的相关 BI 信息，而无需进行任何搜索。
+description: Power BI 磁贴中的 QR 码可以将现实生活中的任何事物直接连接到 Power BI 移动应用中的相关 BI 信息，而无需进行任何搜索。
 author: maggiesMSFT
 ms.reviewer: ''
 ms.service: powerbi
@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 03/07/2018
 ms.author: maggies
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 7ce25bb448d698f8c1ce4b77e8823e96220a1792
-ms.sourcegitcommit: e8ed3d120699911b0f2e508dc20bd6a9b5f00580
+ms.openlocfilehash: 95e966a7056926c70802a4502be497c2d2b268e5
+ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/11/2020
-ms.locfileid: "86264463"
+ms.lasthandoff: 10/06/2020
+ms.locfileid: "91746760"
 ---
 # <a name="create-a-qr-code-for-a-tile-in-power-bi-to-use-in-the-mobile-apps"></a>在 Power BI 中为磁贴创建 QR 码以供在移动应用中使用
 Power BI 中的 QR 代码可以将现实生活中的任何东西直接连接到相关的 BI 信息 &#151; 无需进行导航或搜索。

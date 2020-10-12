@@ -7,21 +7,24 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-gateways
 ms.topic: how-to
-ms.date: 10/10/2019
+ms.date: 09/25/2020
 LocalizationGroup: Gateways
-ms.openlocfilehash: d6f43b3ef48946b9206343107767d2a4cb8cdc28
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 9dc24d853ee363c75eca811d068288bc375b1f88
+ms.sourcegitcommit: 02b5d031d92ea5d7ffa70d5098ed15e4ef764f2a
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85237681"
+ms.lasthandoff: 09/26/2020
+ms.locfileid: "91374237"
 ---
 # <a name="use-kerberos-for-single-sign-on-sso-to-sap-bw-using-gx64krb5"></a>使用 gx64krb5 将 Kerberos 用于单一登录 (SSO) 到 SAP BW
 
 本文介绍如何将 SAP BW 数据源配置为使用 gx64krb5 从 Power BI 服务启用 SSO。
 
+> [!IMPORTANT]
+> SAP 不再支持 gx64krb5，因此，Microsoft 也停止了对它的支持。 到 2020 年底之前，现有连接和新连接将继续正常运行，但从 2021 年 1 月起将无法正常运行。 请改用 CommonCryptoLib。 
+
 > [!NOTE]
-> 除了[配置 Kerberos SSO](service-gateway-sso-kerberos.md) 中的步骤之外，还可以完成本文中的步骤，以便为 Power BI 服务中基于 SAP BW 应用程序服务器的报表启用基于 SSO 的刷新。 但是，Microsoft 建议使用 CommonCryptoLib，而不是 gx64krb5 作为 SNC 库。 SAP 不再支持 gx64krb5，与 CommonCryptoLib 相比，对其进行配置使之适用于网关所需的步骤要复杂得多。 有关如何使用 CommonCryptoLib 配置 SSO 的详细信息，请参阅[使用 CommonCryptoLib 为 SSO 配置 SAP BW](service-gateway-sso-kerberos-sap-bw-commoncryptolib.md)。 应将 CommonCryptoLib 或 gx64krb5 用作 SNC 库。 不要同时完成两个库的配置步骤。
+> 除了[配置 Kerberos SSO](service-gateway-sso-kerberos.md) 中的步骤之外，还可以完成本文中的步骤，以便为 Power BI 服务中基于 SAP BW 应用程序服务器的报表启用基于 SSO 的刷新。 但是，Microsoft 建议使用 CommonCryptoLib，而不是 gx64krb5 作为 SNC 库。 SAP 不再支持 gx64krb5，与 CommonCryptoLib 相比，对其进行配置使之适用于网关所需的步骤要复杂得多。 有关如何使用 CommonCryptoLib 配置 SSO 的详细信息，请参阅[使用 CommonCryptoLib 为 SSO 配置 SAP BW](service-gateway-sso-kerberos-sap-bw-commoncryptolib.md)。 使用 CommonCryptoLib 或 gx64krb5 作为 SNC 库，但两者不能同时使用。 不要同时完成两个库的配置步骤。
 
 本指南非常全面；如果已完成一些所述步骤，可以跳过这些步骤。 例如，你可能已使用 gx64krb5 配置了适用于 SSO 的 SAP BW 服务器。
 

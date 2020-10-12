@@ -7,15 +7,15 @@ ms.custom: contperfq4
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: overview
-ms.date: 05/29/2020
+ms.date: 09/25/2020
 ms.author: kfollis
 LocalizationGroup: Administration
-ms.openlocfilehash: 791b5efce0489e837cb75ed1ae6632dcc240fc1c
-ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
+ms.openlocfilehash: bd003bd8662a60a67b2bc13f228d165859b38e5c
+ms.sourcegitcommit: 02b5d031d92ea5d7ffa70d5098ed15e4ef764f2a
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90857579"
+ms.lasthandoff: 09/26/2020
+ms.locfileid: "91374651"
 ---
 # <a name="what-is-power-bi-administration"></a>什么是 Power BI 管理
 
@@ -25,7 +25,7 @@ Power BI 管理是指管理组织范围内的设置，这些设置控制 Power B
 
 ## <a name="administrator-roles-related-to-power-bi"></a>与 Power BI 相关的管理员角色
 
-有几个角色协同工作，为你的组织管理 Power BI。 大多数管理员角色都在 Microsoft 365 管理中心内或使用 PowerShell 进行分配。 创建容量时，会分配 Power BI Premium 容量和 Power BI Embedded 容量管理员角色。 要详细了解每个管理员角色，请参阅[关于管理员角色](/microsoft-365/admin/add-users/about-admin-roles?view=o365-worldwide)。 要了解如何分配管理员角色，请参阅[分配管理员角色](/microsoft-365/admin/add-users/assign-admin-roles?view=o365-worldwide)。
+有几个角色协同工作，为你的组织管理 Power BI。 大多数管理员角色都在 Microsoft 365 管理中心内或使用 PowerShell 进行分配。 创建容量时，会分配 Power BI Premium 容量和 Power BI Embedded 容量管理员角色。 要详细了解每个管理员角色，请参阅[关于管理员角色](/microsoft-365/admin/add-users/about-admin-roles)。 要了解如何分配管理员角色，请参阅[分配管理员角色](/microsoft-365/admin/add-users/assign-admin-roles)。
 
 | **管理员类型** | **管理范围** | **Power BI 任务** |
 | --- | --- | --- |
@@ -68,7 +68,7 @@ Power BI 管理员主要在 Power BI 管理门户中工作。 不过，你应该
 | | 数据分类和跟踪 |
 | | 数据丢失防护策略 |
 | | 信息治理 |
-| [Azure 门户中的 Azure Active Directory (AAD)](https://aad.portal.azure.com) | 配置对 Power BI 资源的条件访问 |
+| [Azure 门户中的 Azure Active Directory](https://aad.portal.azure.com) | 配置对 Power BI 资源的条件访问 |
 | | 设置 Power BI Embedded 容量 |
 | [PowerShell cmdlets](/powershell/power-bi/overview) | 通过脚本管理工作区和 Power BI 的其他方面 |
 | [管理 API 和 SDK](service-admin-reference.md) | 构建自定义管理工具。 例如，Power BI Desktop 可以使用这些 API 基于与管理相关的数据来构建报表。 |
@@ -78,7 +78,7 @@ Power BI 管理员主要在 Power BI 管理门户中工作。 不过，你应该
 现在你已了解 Power BI 管理所涉及的基础知识，请请参阅以下文章了解更多内容：
 
 - [使用 Power BI 管理门户](service-admin-portal.md)
-- [租户管理员设置指南](../guidance/admin-tenant-settings.md)
+- [租户设置指南](../guidance/admin-tenant-settings.md)
 - [使用 PowerShell cmdlet](/powershell/power-bi/overview)
 - [Power BI 管理常见问题](service-admin-faq.md)
 - [为组织中的用户授权 Power BI 服务](service-admin-licensing-organization.md)

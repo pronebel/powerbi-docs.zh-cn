@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 05/21/2020
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 6df5c0310fca47dfd590671766c47349ebb47f7f
-ms.sourcegitcommit: 5e5a7e15cdd55f71b0806016ff91256a398704c1
+ms.openlocfilehash: 3cc9277b567a58b60dc86c41b7ae56ad5c678d6b
+ms.sourcegitcommit: 51b965954377884bef7af16ef3031bf10323845f
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/22/2020
-ms.locfileid: "83793978"
+ms.lasthandoff: 09/30/2020
+ms.locfileid: "91600584"
 ---
 # <a name="use-the-updated-ribbon-in-power-bi-desktop"></a>在 Power BI Desktop 中使用更新后的功能区
 
@@ -30,7 +30,7 @@ Power BI Desktop 修改了其功能区，以便更好地使其外观和体验与
 
 更新功能区旨在使客户在 Power BI Desktop 以及其他 Microsoft 产品中的体验更加轻松、熟悉。 
 
-![Power BI Desktop 中的新功能区](media/desktop-ribbon/desktop-ribbon-03.png)
+![屏幕截图显示了 Power BI Desktop 功能区的特写。](media/desktop-ribbon/desktop-ribbon-03.png)
 
 其优点可以分为以下几类：
 

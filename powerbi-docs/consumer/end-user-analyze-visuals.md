@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 08/12/2020
 ms.author: mihart
 LocalizationGroup: Create reports
-ms.openlocfilehash: fe44b183b77cb1e58c89cfd229f3f76d3b06ce39
-ms.sourcegitcommit: 3268a9b630cf599c50592d83c70a87eeecf7838f
+ms.openlocfilehash: f5b930ade7e0ae4e58977ba33dc725c6f1e34695
+ms.sourcegitcommit: be424c5b9659c96fc40bfbfbf04332b739063f9c
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/13/2020
-ms.locfileid: "88168438"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "91635875"
 ---
 # <a name="use-the-analyze-feature-to-explain-fluctuations-in-report-visuals"></a>使用分析功能解释报表视觉对象中的波动
 
@@ -50,7 +50,7 @@ ms.locfileid: "88168438"
 
 通过选择瀑布视觉对象底部的小图标，可以选择使见解显示为散点图、堆叠柱形图或功能区图。
 
-![三个见解视觉对象](media/end-user-analyze-visuals/power-bi-options.png)
+![屏幕截图显示视觉对象底部的图标。](media/end-user-analyze-visuals/power-bi-options.png)
 
 使用页面顶部的“竖起拇指”和“拇指向下”图标，可以提供关于视觉对象和功能的反馈。  
 
@@ -59,7 +59,7 @@ ms.locfileid: "88168438"
 
 如果报表处于“阅读”或“编辑”视图中，则可以将见解用于分析数据和创建可轻松添加到报表中的视觉对象。 如果已在“编辑”视图中打开报表，则会在拇指图标旁边看到一个加号图标。 选择加号图标，将见解作为新的视觉对象添加到报表中。 
 
-![三个见解视觉对象](media/end-user-analyze-visuals/power-bi-add-visual.png)
+![屏幕截图显示用于添加见解的加号图标。](media/end-user-analyze-visuals/power-bi-add-visual.png)
 
 ## <a name="details-of-the-results-returned"></a>返回结果的详细信息
 

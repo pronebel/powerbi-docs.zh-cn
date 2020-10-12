@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: how-to
-ms.date: 05/07/2020
+ms.date: 10/01/2020
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 66e94ed2af0b9dc9cf3600594fc6679bd7261b12
-ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
+ms.openlocfilehash: 24635df4a07f0f73a701fcb9d30b5db3ef678666
+ms.sourcegitcommit: 7e99e8af9caf9340958c4607a94728d43e8c3811
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90861075"
+ms.lasthandoff: 10/02/2020
+ms.locfileid: "91668450"
 ---
 # <a name="connect-to-data-created-by-power-platform-dataflows-in-power-bi-desktop"></a>在 Power BI Desktop 中连接到 Power 平台数据流创建的数据
 在 Power BI Desktop 中，可以连接到 Power 平台数据流创建的数据，就像在 Power BI Desktop 中连接任何其他数据源一样 。
@@ -37,7 +37,7 @@ Power BI Desktop 在安装它的计算机上本地运行。 数据流的引入�
 
 通过这种方式，可以在数据流中在线处理大型数据，而不是在 Power BI Desktop 正在运行的实例中本地执行。 这种方法可以让 Power BI Desktop 引入更少量的数据，并使用户始终拥有快速且响应及时的数据流体验。
 
-## <a name="considerations-and-limitations"></a>注意事项和限制
+## <a name="additional-considerations"></a>其他注意事项
 
 大多数数据流驻留在 Power BI 服务租户中。 但是，Power BI Desktop 用户无法访问存储在 Azure Data Lake Storage Gen2 帐户中的数据流，除非他们是数据流的所有者，或者他们已被显式授权访问数据流的 CDM 文件夹。 请考虑以下情况：
 
@@ -45,28 +45,21 @@ Power BI Desktop 在安装它的计算机上本地运行。 数据流的引入�
 2.  Ben 也是 Anna 所创建工作区的成员，他希望利用 Power BI Desktop 和数据流连接器从 Anna 创建的数据流获取数据。
 3.  Ben 收到一个错误，因为他没有被添加为 Data Lake 中数据流的 CDM 文件夹的授权用户。
 
-    ![尝试使用数据流时出错](media/service-dataflows-configure-workspace-storage-settings/dataflow-storage-settings_08.jpg)
-
-要解决此问题，必须授予 Ben 对 CDM 文件夹及其文件的读取权限。 可以在[本文](./service-dataflows-azure-data-lake-integration.md)中了解有关如何授予 CDM 文件夹访问权限的详细信息。
+要解决此问题，必须授予 Ben 对 CDM 文件夹及其文件的读取权限。 可以在[配置和使用数据流](dataflows/dataflows-configure-consume.md)中了解有关如何授予 CDM 文件夹访问权限的详细信息。
 
 
 
 
 ## <a name="next-steps"></a>后续步骤
-可通过 Power 平台数据流执行各种有趣的操作。 有关详细信息，请参阅下列资源：
+可对数据流执行各种有趣的操作。 有关详细信息，请参阅下列资源：
 
-* [数据流自助服务数据准备](service-dataflows-overview.md)
-* [在 Power BI 中创建和使用数据流](service-dataflows-create-use.md)
-* [在 Power BI Premium 上使用计算实体（预览）](service-dataflows-computed-entities-premium.md)
-* [将数据流与本地数据源配合使用（预览）](service-dataflows-on-premises-gateways.md)
-* [Power 平台数据流的开发人员资源（预览）](service-dataflows-developer-resources.md)
+* [数据流和自助数据准备简介](dataflows/dataflows-introduction-self-service.md)
+* [创建数据流](dataflows/dataflows-create.md)
+* [配置和使用数据流](dataflows/dataflows-configure-consume.md)
+* [将数据流存储配置为使用 Azure Data Lake Gen 2](dataflows/dataflows-azure-data-lake-storage-integration.md)
+* [数据流的高级功能](dataflows/dataflows-premium-features.md)
+* [使用数据流的 AI](dataflows/dataflows-machine-learning-integration.md)
 
-有关与 Azure Data Lake Storage Gen2 集成的详细信息，请参阅以下文章：
-
-* [数据流和 Azure Data Lake 集成（预览）](service-dataflows-azure-data-lake-integration.md)
-* [配置工作区数据流设置（预览）](service-dataflows-configure-workspace-storage-settings.md)
-* [将 CDM 文件夹添加到 Power BI 作为数据流（预览）](service-dataflows-add-cdm-folder.md)
-* [连接 Azure Data Lake Storage Gen2 以存储数据流（预览）](service-dataflows-connect-azure-data-lake-storage-gen2.md)
 
 还有一些关于 Power BI Desktop 的文章，你可能会发现它们很有用：
 

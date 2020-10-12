@@ -9,12 +9,12 @@ ms.subservice: powerbi-service
 ms.topic: how-to
 ms.date: 07/17/2019
 ms.author: maggies
-ms.openlocfilehash: 18fae9e7bca385ee10fed90649430a8062054b2e
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: f1892af9d943df1f4abf39aa55ae99c5e6ee1b34
+ms.sourcegitcommit: be424c5b9659c96fc40bfbfbf04332b739063f9c
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85219565"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "91633414"
 ---
 # <a name="create-a-power-bi-dashboard-from-a-report"></a>从报表创建 Power BI 仪表板
 你已经阅读了 [Power BI 中的仪表板简介](service-dashboards.md)，并且现在想要创建你自己的仪表板。 创建仪表板有多种不同的方法。 例如，可以从报表、从头开始、从数据集或通过复制现有仪表板来创建仪表板。  
@@ -27,7 +27,7 @@ ms.locfileid: "85219565"
 - 如何固定磁贴 
 - 如何在仪表板与报表之间导航 
  
-![仪表板](media/service-dashboard-create/power-bi-completed-dashboard-small.png)
+![屏幕截图显示具有多个可视化效果的 Power BI 仪表板。](media/service-dashboard-create/power-bi-completed-dashboard-small.png)
 
 > [!NOTE] 
 > 仪表板是 Power BI 服务的一项功能，而不是 Power BI Desktop 的功能。 虽然不会在 Power BI 移动应用上创建仪表板，但可以[查看和共享](../consumer/mobile/mobile-apps-view-dashboard.md)仪表板。
@@ -59,7 +59,7 @@ ms.locfileid: "85219565"
     ![OneDrive for Business 窗口](media/service-dashboard-create/power-bi-import.png)
 8. 出现成功消息时，选择“x”  取消它。
 
-   ![成功消息](media/service-dashboard-create/power-bi-view-datasetnew.png)
+   ![屏幕截图显示一条标示了 X 的成功消息。](media/service-dashboard-create/power-bi-view-datasetnew.png)
 
 > [!TIP]
 > 知道吗？ 可以通过选择顶部带有三条线的图标![导航窗格显示或隐藏图标](media/service-dashboard-create/power-bi-new-look-hide-nav-pane.png)来缩小导航窗格。 这为报表本身提供更多空间。
@@ -77,17 +77,17 @@ ms.locfileid: "85219565"
     ![将鼠标悬停在一个磁贴上](media/service-dashboard-create/power-bi-hover.png)
 4. 由于我们正在创建新仪表板，请选择“新建仪表板”  选项，并为其指定名称。
 
-    ![“固定到仪表板”对话框](media/service-dashboard-create/power-bi-pin-tile.png)
+    ![屏幕截图显示“固定到仪表板”窗口。](media/service-dashboard-create/power-bi-pin-tile.png)
 5. 当你选择“固定”  时，Power BI 将在当前工作区中创建新仪表板。 在“已固定到仪表板”  消息出现之后，选择“转到仪表板”  。 如果系统提示你保存报表，请选择“保存”  。
 
-    ![成功消息](media/service-dashboard-create/power-bi-pin-success.png)
+    ![屏幕截图显示一条标示了“转到仪表板”选项的成功消息。](media/service-dashboard-create/power-bi-pin-success.png)
 
     Power BI 会打开新仪表板。 它包含一个磁贴：刚固定的可视化效果。
 
    ![包含一个磁贴的仪表板](media/service-dashboard-create/power-bi-pinned.png)
 7. 选择该磁贴以返回到报表。 将更多磁贴固定到新仪表板。 显示“固定到仪表板”  窗口时，请选择“现有仪表板”  。  
 
-   ![“固定到仪表板”对话框](media/service-dashboard-create/power-bi-existing-dashboard.png)
+   ![屏幕截图显示“固定到仪表板”窗口，其中标示了“现有仪表板”选项。](media/service-dashboard-create/power-bi-existing-dashboard.png)
 
 ## <a name="pin-an-entire-report-page-to-the-dashboard"></a>将整个报表页固定到仪表板
 可[将整个报表页固定为*动态磁贴*](service-dashboard-pin-live-tile-from-report.md)（而不是一次固定一个视觉对象）。 我们开始操作吧。
@@ -102,11 +102,11 @@ ms.locfileid: "85219565"
 
 3. 显示“固定到仪表板”  窗口时，请选择“现有仪表板”  。
 
-   ![“固定到仪表板”对话框](media/service-dashboard-create/power-bi-pin-live2.png)
+   ![屏幕截图显示“固定到仪表板”窗口，其中选中了“现有仪表板”选项并显示了“固定活动页”按钮。](media/service-dashboard-create/power-bi-pin-live2.png)
 
 4. “成功”消息出现之后，选择“转到仪表板”  。 可以在此处看到从报表固定的磁贴。 在以下示例中，我们已从报表的第一页固定了两个磁贴，并从报表的第二页固定了一个动态磁贴。
 
-   ![仪表板](media/service-dashboard-create/power-bi-dashboard.png)
+   ![屏幕截图显示了一个 Power BI 仪表板，其中包含本文的可视化效果。](media/service-dashboard-create/power-bi-dashboard.png)
 
 ## <a name="next-steps"></a>后续步骤
 恭喜你创建了第一个仪表板！ 现在你拥有了一个仪表板，通过它你可以执行更多操作。 遵循以下建议的文章之一，或开始自行浏览: 

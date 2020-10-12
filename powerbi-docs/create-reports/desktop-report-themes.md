@@ -10,12 +10,12 @@ ms.topic: how-to
 ms.date: 07/28/2020
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: fdd08c32277dfaa9a619b024a7fb0ece0517f1cb
-ms.sourcegitcommit: a254f6e2453656f6783690669be8e881934e15ac
+ms.openlocfilehash: ed8d93ef905cca6e934ac2100093475136595c9a
+ms.sourcegitcommit: be424c5b9659c96fc40bfbfbf04332b739063f9c
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/28/2020
-ms.locfileid: "87364091"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "91634725"
 ---
 # <a name="use-report-themes-in-power-bi-desktop"></a>在 Power BI Desktop 中使用报表主题
 
@@ -53,11 +53,11 @@ ms.locfileid: "87364091"
 
 1. 在“视图”功能区中，选择“主题”下拉箭头按钮，然后选择“切换主题”  。
 
-   ![选择报表主题](media/desktop-report-themes/report-themes-02.png)
+   ![屏幕截图显示选定的“视图”功能区，它提供了多个主题。](media/desktop-report-themes/report-themes-02.png)
 
 2. 从显示的下拉菜单中包含的主题中进行选择。
 
-   ![选择报表主题](media/desktop-report-themes/report-themes-03.png)
+   ![屏幕截图显示已展开供你选择的 Power BI 主题。](media/desktop-report-themes/report-themes-03.png)
 
    报表主题现已应用到报表。
 
@@ -600,7 +600,9 @@ Power BI 跟踪动态序列的颜色，并在其他视觉对象中对值使用�
 
 颜色采用以下格式，即采用自定义十六进制代码替换“FFFFFF”，如以下示例所示：
 
-    { "solid": { "color": "#FFFFFF" } }
+```json
+{ "solid": { "color": "#FFFFFF" } }
+```
 
 枚举最常用于下拉列表格式设置选项，意味着它可以设置为在窗格中显示的任何选项，例如“RightCenter”（对于图例位置），或“数据值，占总计的百分比”（对于饼图数据标签）。 枚举选项显示在属性列表下。
 

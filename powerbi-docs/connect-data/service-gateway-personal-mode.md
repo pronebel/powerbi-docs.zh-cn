@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 07/15/2019
 ms.author: arthii
 LocalizationGroup: Gateways
-ms.openlocfilehash: e2c65adfaee96eee61e1494f730b752d12020ab4
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 96c7a12e556fde805178bceabfe86f9eff8b9d5c
+ms.sourcegitcommit: be424c5b9659c96fc40bfbfbf04332b739063f9c
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85236152"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "91632563"
 ---
 # <a name="use-personal-gateways-in-power-bi"></a>在 Power BI 中使用个人网关
 
@@ -31,13 +31,13 @@ ms.locfileid: "85236152"
 
 |   |本地数据网关 | 本地数据网关(个人模型) |
 | ---- | ---- | ---- |
-|支持的云服务 |Power BI、PowerApps、Azure 逻辑应用、Power Automate、Azure Analysis Services、数据流 |Power BI |
-|运行 |以由有权访问网关的用户配置的身份 |以你的身份进行 Windows 身份验证，以由你配置的用户身份进行其他类型的身份验证 |
-|只能以计算机管理员身份进行安装 |是 |否 |
-|集中式网关和数据源管理 |是 |否 |
-|导入数据和计划刷新 |是 |是 |
-|DirectQuery 支持 |是 |否 |
-|Analysis Services 的 LiveConnect 支持 |是 |否 |
+|**支持的云服务** |Power BI、PowerApps、Azure 逻辑应用、Power Automate、Azure Analysis Services、数据流 |Power BI |
+|**运行次数** |以由有权访问网关的用户配置的身份 |以你的身份进行 Windows 身份验证，以由你配置的用户身份进行其他类型的身份验证 |
+|**只能以计算机管理员身份进行安装** |是 |否 |
+|**集中式网关和数据源管理** |是 |否 |
+|**导入数据和计划刷新** |是 |是 |
+|**DirectQuery 支持** |是 |否 |
+|**Analysis Services 的 LiveConnect 支持** |是 |否 |
 
 ## <a name="install-the-on-premises-data-gateway-personal-mode"></a>安装本地数据网关（个人模式）
 

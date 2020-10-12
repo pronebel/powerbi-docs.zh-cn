@@ -1,6 +1,6 @@
 ---
 title: 排除 Power BI 分页报表中的子报表故障
-description: 本文将介绍 Power BI 服务中分页报表支持的数据源，以及如何连接到 Azure SQL 数据库数据源。
+description: 了解使用子报表（分页报表内的报表项）时的常见问题解决方案。
 author: maggiesMSFT
 ms.author: maggies
 ms.reviewer: ''
@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: troubleshooting
 ms.date: 04/29/2020
-ms.openlocfilehash: 49a4143fe3dbf55b31b4d30473fe6af3c047dda4
-ms.sourcegitcommit: a453ba52aafa012896f665660df7df7bc117ade5
+ms.openlocfilehash: 6a0e90036b759c409a9f5b3e994571c2a0eb510c
+ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/27/2020
-ms.locfileid: "85485912"
+ms.lasthandoff: 10/06/2020
+ms.locfileid: "91747496"
 ---
 # <a name="troubleshoot-subreports-in-power-bi-paginated-reports"></a>排除 Power BI 分页报表中的子报表故障
 

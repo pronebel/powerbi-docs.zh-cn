@@ -9,12 +9,12 @@ ms.subservice: powerbi-admin
 ms.topic: how-to
 ms.date: 08/13/2020
 LocalizationGroup: Premium
-ms.openlocfilehash: 737a8df2f8f7e5d4da50259112ad1afd6ec2ecff
-ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
+ms.openlocfilehash: 404e613f3e30bda3115ec0a9a3b71907b115bbcc
+ms.sourcegitcommit: 02b5d031d92ea5d7ffa70d5098ed15e4ef764f2a
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90856820"
+ms.lasthandoff: 09/26/2020
+ms.locfileid: "91374881"
 ---
 # <a name="bring-your-own-encryption-keys-for-power-bi"></a>自带加密密钥使用 Power BI
 
@@ -67,7 +67,7 @@ BYOK 仅适用于数据集。 用户可以上传到服务的推送数据集、Ex
 
 1. 在“密钥权限”下，选择“解包密钥”和“包装密钥”  。
 
-    ![PBIX 文件组件](media/service-encryption-byok/service-principal.png)
+    ![选择服务主体和加密操作](media/service-encryption-byok/service-principal.png)
 
 1. 选择“确定”****，然后选择“保存”****。
 
@@ -80,7 +80,7 @@ BYOK 仅适用于数据集。 用户可以上传到服务的推送数据集、Ex
 
 1. 选择 RSA 的“密钥类型”和 4096 的“RSA 密钥大小”********。
 
-    ![PBIX 文件组件](media/service-encryption-byok/create-rsa-key.png)
+    ![突出显示了密钥类型和大小的“创建密钥”](media/service-encryption-byok/create-rsa-key.png)
 
 1. 选择“创建”。
 
@@ -90,7 +90,7 @@ BYOK 仅适用于数据集。 用户可以上传到服务的推送数据集、Ex
 
 1. 检查并确保已选中“包装密钥”和“解包密钥”********。 复制“密钥标识符”，以在 Power BI 中启用 BYOK 时使用****。
 
-    ![PBIX 文件组件](media/service-encryption-byok/key-properties.png)
+    ![突出显示了“密钥标识符”和“允许的操作”的“属性”](media/service-encryption-byok/key-properties.png)
 
 ### <a name="soft-delete-option"></a>“软删除”选项
 
@@ -114,7 +114,7 @@ BYOK 仅适用于数据集。 用户可以上传到服务的推送数据集、Ex
 
 ### <a name="enable-byok"></a>启用 BYOK
 
-若要启用 BYOK，你必须是使用 `Connect-PowerBIServiceAccount` cmdlet 登录的 Power BI 服务的租户管理员。 然后，使用 [`Add-PowerBIEncryptionKey`](/powershell/module/microsoftpowerbimgmt.admin/Add-PowerBIEncryptionKey) 启用 BYOK，如下例所示：
+若要启用 BYOK，你必须是 Power BI 管理员，并使用 `Connect-PowerBIServiceAccount` cmdlet 登录。 然后，使用 [`Add-PowerBIEncryptionKey`](/powershell/module/microsoftpowerbimgmt.admin/Add-PowerBIEncryptionKey) 启用 BYOK，如下例所示：
 
 ```powershell
 Add-PowerBIEncryptionKey -Name'Contoso Sales' -KeyVaultKeyUri'https://contoso-vault2.vault.azure.net/keys/ContosoKeyVault/b2ab4ba1c7b341eea5ecaaa2wb54c4d2'

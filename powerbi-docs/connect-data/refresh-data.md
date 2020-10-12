@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 06/16/2020
 ms.author: davidi
 LocalizationGroup: Data refresh
-ms.openlocfilehash: ddb5e4d1476025965e6227e9ae443441f2060fcd
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: c5be2a9fa87b55d0a1b98e284ec4b6b7e1dd9c0c
+ms.sourcegitcommit: be424c5b9659c96fc40bfbfbf04332b739063f9c
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85219726"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "91633368"
 ---
 # <a name="data-refresh-in-power-bi"></a>Power BI 中的数据刷新
 
@@ -284,7 +284,8 @@ in
  
 若要确定是否可以刷新动态数据源，请在 Power Query 编辑器中打开“数据源设置”对话框，然后选择“当前文件中的数据源”  。 在出现的窗口中，查找以下警告消息，如下图所示：
  
-    Some data sources may not be listed because of hand-authored queries.
+> [!NOTE]
+> 某些数据源可能未列出，因为它们包含手动编写的查询。
 
 ![动态数据源指示器](media/refresh-data/dynamic-data-source.png)
 

@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 01/13/2020
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: f56acb7859b04f77ca403725740cb7ce472ccb7d
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: c056a48c78ae2e46ccd6419ad1b9d1e1a6693847
+ms.sourcegitcommit: 51b965954377884bef7af16ef3031bf10323845f
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85223048"
+ms.lasthandoff: 09/30/2020
+ms.locfileid: "91598802"
 ---
 # <a name="connect-to-datasets-in-the-power-bi-service-from-power-bi-desktop"></a>通过 Power BI Desktop 连接 Power BI 服务中的数据集
 
@@ -32,7 +32,7 @@ Power BI 的普及带来了一个问题，就是报表、仪表板及其基础�
 
 假设 Anna 是团队中的业务分析师。 Anna 非常擅长创建良好的数据模型，通常称为数据集。 Anna 可以创建数据集和报表，然后将报表共享到 Power BI 服务中。
 
-![发布到 Power BI 服务](media/desktop-report-lifecycle-datasets/report-lifecycle_02a.png)
+![屏幕截图显示 Power BI 服务的“发布”按钮。](media/desktop-report-lifecycle-datasets/report-lifecycle_02a.png)
 
 每个人都很喜欢 Anna 的报表和数据集。 问题也随之而来。 Anna 团队中的每个人都会尝试根据她的数据集创建自己的版本  ，然后将他们自己的报表与团队共享。 在 Power BI 服务中，你团队的工作区中突然之间就出现了大量以不同数据集为依据的报表。 哪一个是最新的？ 这些数据集是完全相同，还只是大致相同？ 区别在哪里？ 借助 Power BI 服务实时连接功能，一切都会有所改善。 在下一部分中，我们将了解其他人如何在其自己的工作区中将 Anna 发布的数据集用于其自己的报表，以及如何让所有人使用同一个已发布且经过审核的可靠数据集来生成自己的独一无二的报表。
 

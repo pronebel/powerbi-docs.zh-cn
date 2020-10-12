@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 07/29/2020
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 7a7988ba9bb9efd4b2dec20fd2dc88478af439a2
-ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
+ms.openlocfilehash: 47b5df4c07f21282b14bae8bdfd63e5c271d53a6
+ms.sourcegitcommit: be424c5b9659c96fc40bfbfbf04332b739063f9c
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90855279"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "91635139"
 ---
 # <a name="using-external-tools-in-power-bi-desktop-preview"></a>在 Power BI Desktop 中使用外部工具（预览版）
 
@@ -132,9 +132,9 @@ ALM Toolkit 的主要工具作者是 [Christian Wade](https://www.linkedin.com/i
 
 可以使用“组策略”或通过编辑注册表来禁用外部工具，这与禁用“自定义视觉对象”的过程类似 。
 
-    Registry key: *Software\Policies\Microsoft\Power BI Desktop\*
+* 注册表项：Software\Policies\Microsoft\Power BI Desktop\\
 
-    Registry value: *EnableExternalTools*
+* 注册表值：EnableExternalTools
 
 十进制值 1 允许在 Power BI 中使用外部工具，这是默认值。
 

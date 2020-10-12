@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 07/01/2020
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: 51871e9653a1f3d0d48f25de33d4a72603695cf4
-ms.sourcegitcommit: c18130ea61e67ba111be870ddb971c6413a4b632
+ms.openlocfilehash: 1b0b677e67fa15906492fbaa41fcfd456d77bf01
+ms.sourcegitcommit: be424c5b9659c96fc40bfbfbf04332b739063f9c
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/09/2020
-ms.locfileid: "86161781"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "91633874"
 ---
 # <a name="buttons-in-the-power-bi-service"></a>Power BI 服务中的按钮
 在收到的来自同事的报表中，你可能会注意到一些按钮并想知道如何使用它们。 有些按钮包含字词，有些按钮包含箭头，有些按钮包含图形，有些按钮甚至包含下拉菜单。 本文介绍如何识别按钮，以及如何确定按钮的作用。
@@ -31,11 +31,11 @@ ms.locfileid: "86161781"
 1. 在条形图中选择“Word”。
 1. 选择“钻取”，然后选择“市场篮分析” 。
 
-    ![后退按钮的屏幕截图](media/end-user-buttons/power-bi-drillthrough.png)
+    ![钻取按钮的屏幕截图。](media/end-user-buttons/power-bi-drillthrough.png)
 
     选择“市场篮分析”后，Power BI 将打开“市场篮分析”报表页，并使用在源页上所做的选择来筛选目标页上显示的内容。
 
-    ![后退按钮的屏幕截图](media/end-user-buttons/power-bi-go-back.png)
+    ![后退按钮的屏幕截图。](media/end-user-buttons/power-bi-go-back.png)
 
     你现在位于已针对 Word 进行筛选的“市场篮分析”报表页。 若要返回到前一页，请选择后退按钮。 
 
@@ -60,15 +60,15 @@ Power BI 服务中有两种钻取方法。 钻取会将你转到其他报表页�
 
 下面是钻取按钮，它将转到”商店详细信息”页。 将鼠标悬停在按钮上会显示一个工具提示，以告知我们需要选择一个商店和一个产品。 在选择完成之前，按钮会保持非活动状态。
 
-![带有悬停工具提示的钻取按钮的屏幕截图](media/end-user-buttons/power-bi-drill-two-selections.png)
+![带有悬停工具提示的钻取按钮的屏幕截图。](media/end-user-buttons/power-bi-drill-two-selections.png)
 
 选择一个产品 (Word) 和一个商店 (Leo) 后，该按钮将更改颜色，以便告知我们它现在处于活动状态 。
 
-![带有悬停工具提示的钻取按钮的屏幕截图](media/end-user-buttons/power-bi-select-both.png)
+![“钻取到商店详细信息”按钮的屏幕截图。](media/end-user-buttons/power-bi-select-both.png)
 
 选择钻取按钮将会转到“商店”报表页。 针对所选的“Word”和“Leo”筛选“商店”页 。
 
-![带有悬停工具提示的钻取按钮的屏幕截图](media/end-user-buttons/power-bi-store.png)
+![商店报表页的屏幕截图。](media/end-user-buttons/power-bi-store.png)
 
 钻取按钮还可有下拉菜单，为你提供目标选择。 在源报表页上进行选择后，选择用于钻取的目标报表页。 在下面的示例中，我们将更改所选内容以钻取到“市场详细信息”报表页。 
 
@@ -78,13 +78,13 @@ Power BI 服务中有两种钻取方法。 钻取会将你转到其他报表页�
 
 页面导航按钮会将你转到同一报表中的其他页面。 报表设计者通常会创建导航按钮来讲述故事或提供报表见解导览。 在下面的示例中，报表设计者在每个报表页上添加了一个按钮，该按钮会将你转到报表的第一页，即顶层摘要页。 此页面导航按钮非常有用，因为此报表中有多个页面。
 
-![名为“团队记分卡”的页面导航按钮的屏幕截图](media/end-user-buttons/power-bi-nav-button.png)
+![名为“团队记分卡”的页面导航按钮的屏幕截图。](media/end-user-buttons/power-bi-nav-button.png)
 
 
 ## <a name="qa-buttons"></a>问答按钮 
 选择问答按钮将打开 Power BI 问答资源管理器窗口。 问答窗口显示在报表页顶部，可选择 X 来关闭该窗口。[了解问答](end-user-q-and-a.md)
 
-![名为“团队记分卡”的页面导航按钮的屏幕截图](media/end-user-buttons/power-bi-qna.png)
+![Power BI 问答资源管理器窗口的屏幕截图，其中包含文本“询问数据相关问题”。](media/end-user-buttons/power-bi-qna.png)
 
 ## <a name="web-url"></a>Web URL
 Web URL 按钮会打开一个新的浏览器窗口。 报表设计者可添加此类型按钮作为链接到公司网站的引用源，甚至作为指向其他报表或仪表板的链接。 在下面的示例中，通过 Web URL 按钮，可以下载报表的源文件。 

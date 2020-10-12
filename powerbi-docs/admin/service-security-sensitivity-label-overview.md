@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 08/16/2020
 ms.author: painbar
 LocalizationGroup: Data from files
-ms.openlocfilehash: 00089c6ba2b2af5a6334fac07fd3991f5201cb44
-ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
+ms.openlocfilehash: 04be21e368c74029e1e720a02b92d00448282138
+ms.sourcegitcommit: 02b5d031d92ea5d7ffa70d5098ed15e4ef764f2a
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90854198"
+ms.lasthandoff: 09/26/2020
+ms.locfileid: "91374365"
 ---
 # <a name="sensitivity-labels-in-power-bi"></a>Power BI 中的敏感度标签
 
@@ -38,7 +38,7 @@ Microsoft 信息保护敏感度标签为用户提供了一种简单的方法，�
 
 敏感度标签不会影响对 Power BI 中内容的访问权限 - 对 Power BI 中内容的访问权限由 Power BI 权限单独管理。 如果标签可见，则不会应用任何相关的加密设置（在 [Microsoft 365 安全中心](https://security.microsoft.com/)或 [Microsoft 365 合规中心](https://compliance.microsoft.com/)内配置）。 它们仅适用于通过导出到 Excel、PowerPoint 或 PDF 文件或其他支持的导出路径之一离开 Power BI 的数据。
 
-不在不支持的导出路径中应用敏感度标签和文件加密。 Power BI 租户管理员可以阻止从不支持的导出路径导出：
+不在不支持的导出路径中应用敏感度标签和文件加密。 Power BI 管理员可以阻止从不支持的导出路径进行导出：
 
 >[!NOTE]
 > 有权访问报表的用户具有访问整个基础数据集的权限，除非[行级别安全性 (RLS)](./service-admin-rls.md) 限制其访问权限。 报表作者可使用敏感度标签对报表进行分类和标注。 如果敏感度标签具有保护设置，则当报表数据导出到 Excel、PowerPoint 或 PDF 文件时，Power BI 将应用这些保护设置。 只有经过授权的用户才能打开受保护的文件。
@@ -83,7 +83,7 @@ Microsoft 信息保护敏感度标签为用户提供了一种简单的方法，�
 
 在将数据导出到 .csv、.pbix 文件或任何其他导出路径时，不会应用敏感度标签和保护。
 
-对导出的文件应用敏感度标签和保护不会向文件添加内容标记。 但是，如果标签配置为应用内容标记，则在 Office 桌面应用中打开文件时，Azure 信息保护统一标签客户端会自动应用这些标记。 在为桌面、移动或 Web 应用使用内置标签时，不会自动应用内容标记。 有关更多详细信息，请参阅 [Office 应用何时应用内容标记和加密](/microsoft-365/compliance/sensitivity-labels-office-apps?view=o365-worldwide#when-office-apps-apply-content-marking-and-encryption)。
+对导出的文件应用敏感度标签和保护不会向文件添加内容标记。 但是，如果标签配置为应用内容标记，则在 Office 桌面应用中打开文件时，Azure 信息保护统一标签客户端会自动应用这些标记。 在为桌面、移动或 Web 应用使用内置标签时，不会自动应用内容标记。 有关更多详细信息，请参阅 [Office 应用何时应用内容标记和加密](/microsoft-365/compliance/sensitivity-labels-office-apps#when-office-apps-apply-content-marking-and-encryption)。
 
 如果在将数据导出到文件时无法应用标签，导出将失败。 要检查导出失败的原因是否为无法应用标签，请在标题栏的中心单击报表或仪表板名称，然后在打开的信息下拉菜单中查看是否显示“无法加载敏感度标签”。 如果安全管理员取消发布或删除了应用的标签，或出现了临时系统问题，则可能会发生这种情况。
 
@@ -139,8 +139,8 @@ Excel 中手动设置的敏感性标签不会由数据集的敏感度标签自�
 * 敏感度标签只能应用于仪表板、报表、数据集和数据流。 它们当前不可用于[分页报表](../paginated-reports/report-builder-power-bi.md)和工作簿。
 * Power BI 资产上的敏感度标签在工作区列表、世系、收藏夹、最近使用和应用视图中可见。这些标签目前在“与我共享”视图中不可见。 但请注意，应用于 Power BI 资产的标签（即使不可见）将始终保留在导出到 Excel、PowerPoint 和 PDF 文件中的数据上。
 * 模板应用不支持数据敏感度标签。 模板应用创建者设置的敏感度标签在提取和安装应用时被删除，应用使用者添加到已安装模板应用项目的敏感度标签在更新应用时丢失（重置为无）。
-* Power BI 不支持[请勿转发](/microsoft-365/compliance/encryption-sensitivity-labels?view=o365-worldwide#let-users-assign-permissions)、[用户定义](/microsoft-365/compliance/encryption-sensitivity-labels?view=o365-worldwide#let-users-assign-permissions)和 [HYOK](/azure/information-protection/configure-adrms-restrictions) 这三种保护类型的敏感度标签。 “请勿转发”和“用户定义”保护类型引用 [Microsoft 365 安全中心](https://security.microsoft.com/)或 [Microsoft 365 合规中心](https://compliance.microsoft.com/)内定义的标签。
-* 建议不允许用户在 Power BI 中应用父标签（标签只有在具有子标签时才会被视为父标签）。 如果对内容应用了父标签，则无法将数据从该内容导出到文件（Excel、PowerPoint 和 PDF）。 请参阅[子标签（分组标签）](/microsoft-365/compliance/sensitivity-labels?view=o365-worldwide#sublabels-grouping-labels)。
+* Power BI 不支持[请勿转发](/microsoft-365/compliance/encryption-sensitivity-labels#let-users-assign-permissions)、[用户定义](/microsoft-365/compliance/encryption-sensitivity-labels#let-users-assign-permissions)和 [HYOK](/azure/information-protection/configure-adrms-restrictions) 这三种保护类型的敏感度标签。 “请勿转发”和“用户定义”保护类型引用 [Microsoft 365 安全中心](https://security.microsoft.com/)或 [Microsoft 365 合规中心](https://compliance.microsoft.com/)内定义的标签。
+* 建议不允许用户在 Power BI 中应用父标签（标签只有在具有子标签时才会被视为父标签）。 如果对内容应用了父标签，则无法将数据从该内容导出到文件（Excel、PowerPoint 和 PDF）。 请参阅[子标签（分组标签）](/microsoft-365/compliance/sensitivity-labels#sublabels-grouping-labels)。
 
 ## <a name="next-steps"></a>后续步骤
 

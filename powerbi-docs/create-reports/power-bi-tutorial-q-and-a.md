@@ -8,12 +8,12 @@ ms.topic: how-to
 ms.date: 05/13/2019
 ms.author: maggies
 LocalizationGroup: Ask questions of your data
-ms.openlocfilehash: 4269ccb5f86a364d2bf4abf89e3184096a368ff3
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: c1dc3da67cf6160360833e8702fdc492fa97b803
+ms.sourcegitcommit: be424c5b9659c96fc40bfbfbf04332b739063f9c
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85234716"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "91633483"
 ---
 # <a name="use-power-bi-qa-to-explore-your-data-and-create-visuals"></a>使用 Power BI 问答浏览数据和创建视觉对象
 
@@ -33,7 +33,7 @@ ms.locfileid: "85234716"
 
 Power BI 问答的提问框位于仪表板的左上角，这就是用户使用自然语言键入问题的地方。 未看到问答框？ 请参阅**面向使用者的问答**一文中的[注意事项和疑难解答](../consumer/end-user-q-and-a.md#considerations-and-troubleshooting)。  “问答”可以组织你键入的词语并指出可以在哪里（哪个数据集）找到答案。 “问答”还有助于你使用自动完成、重述以及其他文本和视觉对象组织你的问题。
 
-![问答提问框](media/power-bi-tutorial-q-and-a/powerbi-qna.png)
+![屏幕截图显示了一个 Power BI 仪表板，其中包含选项“询问数据相关问题”。](media/power-bi-tutorial-q-and-a/powerbi-qna.png)
 
 问题的答案以交互式可视化效果显示并会在你修改问题时进行更新。
 
@@ -87,7 +87,7 @@ Power BI 问答的提问框位于仪表板的左上角，这就是用户使用�
 
 2. 此时，Power BI 问答的提问框显示在报表画布上。 在下面的示例中，提问框显示在另一个可视化效果上方。 虽然这没什么关系，但最好在提问前，先向报表添加空白页。
 
-    ![问答提问框](media/power-bi-tutorial-q-and-a/power-bi-ask-question.png)
+    ![屏幕截图显示了一个画布，其中提问框显示在可视化效果上方。](media/power-bi-tutorial-q-and-a/power-bi-ask-question.png)
 
 3. 将光标放在问题框上。 在用户键入问题的同时，Power BI 问答会显示建议，以帮助用户形成自己的问题。
 

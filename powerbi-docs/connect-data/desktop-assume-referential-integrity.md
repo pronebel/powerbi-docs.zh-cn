@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 05/07/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: c0a7ef3ef7ce62ca1939791c3dcf198428f1353c
-ms.sourcegitcommit: 181679a50c9d7f7faebcca3a3fc55461f594d9e7
+ms.openlocfilehash: 698abf814b9b93635ba425b2c9d1d30a292714ab
+ms.sourcegitcommit: 51b965954377884bef7af16ef3031bf10323845f
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/07/2020
-ms.locfileid: "86034350"
+ms.lasthandoff: 09/30/2020
+ms.locfileid: "91599896"
 ---
 # <a name="apply-the-assume-referential-integrity-setting-in-power-bi-desktop"></a>在 Power BI Desktop 中应用假设引用完整性设置
 当连接到使用 **DirectQuery** 的数据源时，你可以使用“假设引用完整性”，以对数据源运行更高效的查询。 此功能对基础数据有要求，并且仅在使用 **DirectQuery** 时可用。
@@ -39,7 +39,7 @@ ms.locfileid: "86034350"
    ![Orders 表和 Products 表的屏幕截图。](media/desktop-assume-referential-integrity/assume-referential-integrity_2.png)
 2. 在下一个图像中，请注意 Orders[DepotID] 和 Depots[DepotID] 之间不存在引用完整性，因为某些 Orders 的 DepotID 为 Null   。 在这种情况下， *不* 应设置“假设引用完整性”。
    
-   ![Orders 表和 Products 表的屏幕截图。](media/desktop-assume-referential-integrity/assume-referential-integrity_3.png)
+   ![Orders 表和 Depots 表的屏幕截图。](media/desktop-assume-referential-integrity/assume-referential-integrity_3.png)
 3. 最后，在下面的表中，Orders[CustomerID] 和 Customers[CustID] 之间不存在引用完整性；CustomerID 中包含 Customers 表中不存在的值（此例中为 CustX）   。 在这种情况下， *不* 应设置“假设引用完整性”。
    
    ![Orders 表和 Customers 表的屏幕截图。](media/desktop-assume-referential-integrity/assume-referential-integrity_4.png)

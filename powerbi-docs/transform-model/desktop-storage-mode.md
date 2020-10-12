@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 01/29/2020
 ms.author: davidi
 LocalizationGroup: Transform and shape data
-ms.openlocfilehash: b3e661e8581f07ea9e19f295c30f29e5331754e7
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: e1b93b244a040fba1213fbb3b15bca3114e7075a
+ms.sourcegitcommit: d153cfc0ce559480c53ec48153a7e131b7a31542
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83331362"
+ms.lasthandoff: 09/29/2020
+ms.locfileid: "91528151"
 ---
 # <a name="manage-storage-mode-in-power-bi-desktop"></a>在 Power BI Desktop 中管理存储模式
 
@@ -78,7 +78,7 @@ Power BI Desktop 中的存储模式设置是以下三个相关功能之一：
 
 ![“存储模式”警告窗口](media/desktop-storage-mode/storage-mode-05.png)
 
-可将维度表（客户、地域和日期）设置为“双”，以减少数据集中的弱关系数，并提高性能     。 弱关系通常涉及至少一个 DirectQuery 表，其中联接逻辑无法推送到源系统。 由于“双重”表可以充当“DirectQuery”或“导入”表，因此可以避免这种情况。
+可将维度表（客户、地域和日期）设置为“双”，以减少数据集中的有限关系数，并提高性能   。 有限关系通常涉及至少一个 DirectQuery 表，其中联接逻辑无法推送到源系统。 由于“双重”表可以充当“DirectQuery”或“导入”表，因此可以避免这种情况。
 
 传播逻辑旨在帮助包含多个表的模型。 假设你有一个带 50 个表的模型，只有某些事实（事务）表需要进行缓存。 Power BI Desktop中的逻辑会计算出必须设置为“双”  的维度表的最小集，因此你不必再动手计算。
 
@@ -118,15 +118,15 @@ Power BI Desktop 中的存储模式设置是以下三个相关功能之一：
 
 继续以前面的示例为例，以下查询只引用“双”  模式“Date”  表中的列。 因此，查询应该能命中缓存：
 
-![存储模式诊断脚本](media/desktop-storage-mode/storage-mode-06.png)
+![屏幕截图显示引用“Date”表的查询文本。](media/desktop-storage-mode/storage-mode-06.png)
 
 以下查询仅引用“Sales”  表中的列，该表处于“DirectQuery”  模式。 因此，它不应命中缓存  ：
 
-![存储模式诊断脚本](media/desktop-storage-mode/storage-mode-07.png)
+![屏幕截图显示引用“Sales”表的查询文本。](media/desktop-storage-mode/storage-mode-07.png)
 
 下面的查询非常有趣，因为它结合了这两个列。 此查询未命中缓存。 最初可能希望它从缓存中检索 CalendarYear  值，并从源中检索 SalesAmount  值，然后合并结果；但这种方法的效率要低于将 SUM/GROUP BY 运算提交到源系统中。 如果该操作向下推送到源，返回的行数可能会少得多： 
 
-![存储模式诊断脚本](media/desktop-storage-mode/storage-mode-08.png)
+![屏幕截图显示同时引用“Date”表和“Sales”表的查询文本。](media/desktop-storage-mode/storage-mode-08.png)
 
 > [!NOTE]
 > 合并缓存表和非缓存表时，此行为不同于 Power BI Desktop 中的[多对多关系](desktop-many-to-many-relationships.md)。

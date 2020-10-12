@@ -10,12 +10,12 @@ ms.subservice: powerbi-service
 ms.topic: how-to
 ms.date: 07/16/2020
 LocalizationGroup: Reports
-ms.openlocfilehash: 59e99bc44b9b438c76b72addf49beee2b69b8623
-ms.sourcegitcommit: 8b8d54d46470a311d8654abe92b5a223b696af28
+ms.openlocfilehash: 5d5647216caee4eae648d0be0ebf3f453cd17d71
+ms.sourcegitcommit: be424c5b9659c96fc40bfbfbf04332b739063f9c
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/17/2020
-ms.locfileid: "86437231"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "91632991"
 ---
 # <a name="filter-a-report-using-query-string-parameters-in-the-url"></a>通过在 URL 中添加查询字符串参数来筛选报表
 
@@ -64,7 +64,7 @@ ms.locfileid: "86437231"
 ?filter=Store/Territory eq 'NC'
 ```
 
-![带有筛选器的 URL 的屏幕截图。](media/service-url-filters/power-bi-filter-urls7.png)
+![带有“北卡罗来纳州”筛选器的 URL 的屏幕截图。](media/service-url-filters/power-bi-filter-urls7.png)
 
 我们的报表现针对北卡罗来纳州进行了筛选；报表中的所有可视化效果都只显示北卡罗来纳州的数据。
 
@@ -155,10 +155,10 @@ V3 和 V4 之间还存在其他差异。 OData V3 不支持日期，只支持日
 |**[Column]**     |  [ is 0x005B ] 是 0x005D       |  _x005B_Column_x005D_       |
 |**Column+Plus**     | + 是 0x2B        |  Column_x002B_Plus       |
 
-Table_x0020_Name/Column_x002B_Plus eq 3![表视觉对象呈现特殊字符的屏幕截图。](media/service-url-filters/power-bi-special-characters1.png)
+Table_x0020_Name/Column_x002B_Plus eq 3![表视觉对象呈现 Unicode 特殊字符的屏幕截图。](media/service-url-filters/power-bi-special-characters1.png)
 
 
-Table_x0020_Special/x005B_Column_x0020_Brackets_x005D eq '[C]' ![表视觉对象呈现特殊字符的屏幕截图。](media/service-url-filters/power-bi-special-characters2.png)
+Table_x0020_Special/x005B_Column_x0020_Brackets_x005D eq '[C]' ![表视觉对象呈现用于为 Power BI 编码的特殊字符的屏幕截图。](media/service-url-filters/power-bi-special-characters2.png)
 
 ### <a name="special-characters-in-values"></a>值中的特殊字符
 
@@ -172,11 +172,11 @@ URL 筛选器已支持字段值中的所有特殊字符，但单引号 (') 除�
 
 - `?filter=Table/Name eq 'Lee''s Summit'` 变为：
 
-    :::image type="content" source="media/service-url-filters/power-bi-url-filter-lees.png" alt-text="Lee's Summit":::
+    :::image type="content" source="media/service-url-filters/power-bi-url-filter-lees.png" alt-text="Name is O'Brien":::
 
 - `in` 运算符也支持这种转义：`?filter=Table/Name in ('Lee''s Summit', 'O''Brien')` 变为：
 
-    :::image type="content" source="media/service-url-filters/power-bi-url-filter-in.png" alt-text="Lee's Summit or O'Brien":::
+    :::image type="content" source="media/service-url-filters/power-bi-url-filter-in.png" alt-text="Name is O'Brien":::
 
 ## <a name="use-dax-to-filter-on-multiple-values"></a>使用 DAX 来对多个值进行筛选
 

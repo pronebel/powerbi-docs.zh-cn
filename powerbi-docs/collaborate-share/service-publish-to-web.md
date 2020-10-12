@@ -9,12 +9,12 @@ ms.subservice: powerbi-service
 ms.topic: how-to
 ms.date: 09/18/2020
 LocalizationGroup: Share your work
-ms.openlocfilehash: 7009b4b195c89659c032b578ada130e12389b496
-ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
+ms.openlocfilehash: cea4af4a8c265e5195a8239bd592c8734e332255
+ms.sourcegitcommit: 02b5d031d92ea5d7ffa70d5098ed15e4ef764f2a
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90858844"
+ms.lasthandoff: 09/26/2020
+ms.locfileid: "91375157"
 ---
 # <a name="publish-to-web-from-power-bi"></a>从 Power BI 发布到 Web
 
@@ -161,14 +161,14 @@ ms.locfileid: "90858844"
 
 Power BI 管理门户具有控制可以发布到 Web 的人员的设置。 与组织的 [Power BI 管理员](../admin/service-admin-role.md)合作，在管理门户中更改[“发布到 Web”租户设置](../admin/service-admin-portal.md#publish-to-web)。
 
-对于已注册 Power BI 的小型组织或个人，可能还没有 Power BI 管理员。 遵循[租户管理员接管流程](https://docs.microsoft.com/azure/active-directory/users-groups-roles/domains-admin-takeover)。 有了 Power BI 管理员后，他们就可以为你创建嵌入代码。
+对于已注册 Power BI 的小型组织或个人，可能还没有 Power BI 管理员。 遵循[管理员接管流程](/azure/active-directory/users-groups-roles/domains-admin-takeover)。 有了 Power BI 管理员后，他们就可以为你创建嵌入代码。
 
 已建立的组织通常已有 Power BI 管理员。 担任以下任何角色的人员都可以充当 Power BI 管理员：
 
 - 全局管理员
 - 在 Azure Active Directory 中具有 Power BI 服务管理员角色的用户
 
-需要在组织中[找到这些人中的一个](https://docs.microsoft.com/office365/admin/admin-overview/admin-overview#who-has-admin-permissions-in-my-business)，请他们在管理门户中更新[“发布到 Web”租户设置](../admin/service-admin-portal.md#publish-to-web)。
+需要在组织中[找到这些人中的一个](/office365/admin/admin-overview/admin-overview#who-has-admin-permissions-in-my-business)，请他们在管理门户中更新[“发布到 Web”租户设置](../admin/service-admin-portal.md#publish-to-web)。
 
 ## <a name="limitations"></a>限制
 
@@ -196,5 +196,3 @@ Power BI 管理门户具有控制可以发布到 Web 的人员的设置。 与�
 - [在安全门户或网站中嵌入报表](service-embed-secure.md)
 
 更多问题？ [尝试参与 Power BI 社区](https://community.powerbi.com/)
-
-

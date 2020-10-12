@@ -10,12 +10,12 @@ ms.topic: how-to
 ms.date: 10/14/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: a8d2284a24bb04b175a00a69339ba9e6ac260c10
-ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
+ms.openlocfilehash: 7d036af591ae9c5fc44370085480c9266e328745
+ms.sourcegitcommit: be424c5b9659c96fc40bfbfbf04332b739063f9c
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90858616"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "91632586"
 ---
 # <a name="connect-to-azure-consumption-insights-data-in-power-bi-desktop"></a>在 Power BI Desktop 中连接到 Azure 使用见解数据
 
@@ -110,9 +110,7 @@ ms.locfileid: "90858616"
 1. 单击左侧的“查询”窗格 
 2. 从显示的菜单中选择“新建查询”>“空查询”
 
-在编辑栏中键入以下内容：
-
-    = MicrosoftAzureConsumptionInsights.Contents
+在公式栏中键入以下内容：= MicrosoftAzureConsumptionInsights.Contents。
 
 下图展示的是出现的示例集合。
 
@@ -141,12 +139,14 @@ ms.locfileid: "90858616"
 ### <a name="step-2-create-a-query-in-advanced-editor"></a>步骤 2：使用高级编辑器创建查询
 在“查询编辑器”中，从“开始”功能区的“查询”部分选择“高级编辑器”   。 在出现的“高级编辑器”窗口中，输入此查询：
 
-    let    
-        enrollmentNumber = "100",
-        optionalParameters = [ numberOfMonth = 6, dataType="DetailCharges" ],
-        data = MicrosoftAzureConsumptionInsights.Contents(enrollmentNumber, optionalParameters)   
-    in     
-        data
+```console
+let    
+    enrollmentNumber = "100",
+    optionalParameters = [ numberOfMonth = 6, dataType="DetailCharges" ],
+    data = MicrosoftAzureConsumptionInsights.Contents(enrollmentNumber, optionalParameters)   
+in     
+    data
+```
 
 ![高级编辑器中“创建查询”的对话框的屏幕截图。](media/desktop-connect-azure-consumption-insights/azure-consumption-insights_10.png)
 

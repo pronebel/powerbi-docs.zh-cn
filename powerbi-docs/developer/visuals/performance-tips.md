@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: how-to
 ms.date: 04/20/2020
-ms.openlocfilehash: 7ebc02b2c459517957425e78438e12e89dc2e1bb
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: c22c634ef59a1aae2994dcacaae62dc8ebed7474
+ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "82196551"
+ms.lasthandoff: 10/06/2020
+ms.locfileid: "91746066"
 ---
 # <a name="how-to-build-a-high-performance-power-bi-visual"></a>如何生成高性能 Power BI 视觉对象
 本文将介绍有关开发人员在呈现视觉对象时如何实现高性能的技术。 
@@ -23,13 +23,13 @@ ms.locfileid: "82196551"
 > [!NOTE]
 > 随着我们不断改进和增强平台，新版本的 API 会不断发布。 若要充分利用 Power BI 视觉对象的平台和功能集，建议使用最新版本来保持最新状态。
 >
-> 由于最新版本 2.1  ，Power BI 视觉对象加载时间平均缩短了 20%。
+> 由于最新版本 2.1，Power BI 视觉对象加载时间平均缩短了 20%。
 
 ## <a name="power-bi-visual-performance-tips"></a>Power BI 视觉对象性能提示
 下面是有关如何实现最佳视觉对象性能的一些建议。 
 
 ### <a name="use-user-timing-api"></a>使用用户计时 API
-使用用户计时 API  度量应用的 JavaScript 性能可帮助确定需要优化的脚本部分。
+使用用户计时 API 度量应用的 JavaScript 性能可帮助确定需要优化的脚本部分。
 
 有关详细信息，请参阅[用户计时 API](https://msdn.microsoft.com/library/hh772738(v=vs.85).aspx)。
 
@@ -102,15 +102,15 @@ ms.locfileid: "82196551"
 有关详细信息，请参阅 [youmightnotneedjquery.com](http://youmightnotneedjquery.com/)，以获取 JQuery `show`、`hide`、`addClass` 等函数的替代示例。  
 
 ### <a name="use-canvas-or-webgl"></a>使用画布或 WebGL 
-若要重复使用动画，请考虑使用画布  或 WebGL  而不是 SVG。 与 SVG 不同，使用这些选项时，性能取决于大小而不是内容。 
+若要重复使用动画，请考虑使用画布或 WebGL 而不是 SVG。 与 SVG 不同，使用这些选项时，性能取决于大小而不是内容。 
 
-若要详细了解差别，请参阅 [SVG 与画布：如何选择](https://msdn.microsoft.com/library/gg193983(v=vs.85).aspx)。 
+若要详细了解差别，请参阅 [SVG 与画布：如何选择](/previous-versions/windows/internet-explorer/ie-developer/samples/gg193983(v=vs.85))。 
 
 ### <a name="use-requestanimationframe-instead-of-settimeout"></a>使用 requestAnimationFrame 而不是 setTimeout 
-如果使用 [requestAnimationFrame](https://www.w3.org/TR/animation-timing/) 更新屏幕动画，则会在浏览器调用另一个重新绘制  之前调用动画函数。
+如果使用 [requestAnimationFrame](https://www.w3.org/TR/animation-timing/) 更新屏幕动画，则会在浏览器调用另一个重新绘制之前调用动画函数。
 
 有关详细信息，请参阅有关使用 `requestAnimationFrame` 平滑动画的此[示例](https://testdrive-archive.azurewebsites.net/Graphics/RequestAnimationFrame/Default.html)。
 
 ## <a name="next-steps"></a>后续步骤
 
-在 [Power BI 优化指南](/power-bi/guidance/power-bi-optimization)中详细了解优化技术。
+在 [Power BI 优化指南](../../guidance/power-bi-optimization.md)中详细了解优化技术。

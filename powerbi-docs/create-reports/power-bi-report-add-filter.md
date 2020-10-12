@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 10/20/2019
 ms.author: maggies
 LocalizationGroup: Reports
-ms.openlocfilehash: bf7fad8195f28303ae0ab73fb957db87861755e6
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: bf81ec873b822fbb1604378aa508b3ffeb408511
+ms.sourcegitcommit: be424c5b9659c96fc40bfbfbf04332b739063f9c
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85237378"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "91635829"
 ---
 # <a name="add-a-filter-to-a-report-in-power-bi"></a>在 Power BI 中向报表添加筛选器
 
@@ -77,7 +77,7 @@ Power BI 提供了许多不同种类的筛选器，从手动筛选器和自动�
    
     视觉对象会随新的筛选器而变化。 如果你将此筛选器与报表一起保存，报表读者会看到首先要筛选的视觉对象，并能在阅读视图中通过选择或清除值与筛选器进行交互。
      
-    ![筛选后的视觉对象](media/power-bi-report-add-filter/power-bi-search-visual-filter-results.png)
+    ![屏幕截图显示了反映筛选值的条形图。](media/power-bi-report-add-filter/power-bi-search-visual-filter-results.png)
     
     当对视觉对象中使用的聚合字段（例如 sum、average 或 count）使用筛选器时，将对每个数据点中的聚合值进行筛选  。 因此，要求筛选上述视觉对象（其中本年度销售额 > 500000）意味着只会在结果中看到“13 - Charleston Fashion Direct”数据点   。 对[模型度量值](../transform-model/desktop-measures.md)使用的筛选器会始终应用于数据点的聚合值。
 
@@ -95,7 +95,7 @@ Power BI 提供了许多不同种类的筛选器，从手动筛选器和自动�
 
     此外，现在已将可视化效果本身筛选为，仅显示这些经理本年度在指定商店的销售额。
      
-    ![筛选后的视觉对象](media/power-bi-report-add-filter/power-bi-search-visual-filter-results-2.png)
+    ![屏幕截图显示一个条形图，该条形图反映了基于新字段的筛选值。](media/power-bi-report-add-filter/power-bi-search-visual-filter-results-2.png)
 
     如果你将此筛选器与报表一起保存，报表读者便能在阅读视图中通过选择或清除值与“区域经理”  筛选器进行交互。
     

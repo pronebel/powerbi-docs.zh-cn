@@ -6,15 +6,15 @@ ms.reviewer: lukaszp
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: how-to
-ms.date: 05/07/2020
+ms.date: 09/30/2020
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 432c526479465da5d22e17172582c7f1d2cceb0c
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 8e2b6c8d916cc3c180ab9adb9b6ea6af8eaefea4
+ms.sourcegitcommit: be424c5b9659c96fc40bfbfbf04332b739063f9c
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85225268"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "91633046"
 ---
 # <a name="upgrade-classic-workspaces-to-the-new-workspaces-in-power-bi"></a>在 Power BI 中将经典工作区升级到新工作区
 
@@ -27,7 +27,7 @@ ms.locfileid: "85225268"
 
 但是，可能会需要你了解和规划工作区更改。 例如，内容包在新工作区体验中不受支持。 请参阅本文后面的[升级注意事项和限制](#upgrade-considerations-and-limitations)部分。
 
-## <a name="things-to-do-after-upgrading"></a>升级后要执行的操作
+## <a name="things-to-plan-before-upgrading"></a>升级前要规划的事项
 
 升级后应执行的几项操作。 最好先规划再升级：
 - 查看访问列表并了解[升级后的权限](#permissions-after-upgrade)。
@@ -52,7 +52,7 @@ ms.locfileid: "85225268"
 
 2. 在升级过程中，会看到“正在升级”消息。 升级工作区通常需要不到一分钟的时间。
 
-1. 升级完成后，将看到“成功”对话框。 建议阅读[在 Power BI 的新工作区中组织工作](service-new-workspaces.md)，以便熟悉新工作区与经典工作区的不同之处。
+1. 升级完成后，将看到“成功”对话框。 你将看到具有相同名称和内容的新工作区体验。 建议阅读[在 Power BI 的新工作区中组织工作](service-new-workspaces.md)，以便熟悉新工作区与经典工作区的不同之处。
 
 ### <a name="impact-on-other-workspace-users"></a>对其他工作区用户的影响
 
@@ -62,6 +62,7 @@ ms.locfileid: "85225268"
 
 ## <a name="upgrade-considerations-and-limitations"></a>升级注意事项和限制
 
+- 升级后，经典工作区的内容将显示在新工作区中。 同时还列出在“与我共享的内容”中。
 - 工作区的 URL 和 ID、其包含的内容以及从工作区发布的应用程序不会更改。 安装在工作区中的内容包的内容会得到单独处理。 有关详细信息，请参阅本文中的[升级期间的内容包](#content-packs-during-upgrade)。
 - 新工作区中不支持内容包。 阅读有关[已发布内容包](#published-content-packs)或[已安装内容包](#installed-content-packs)的内容，以了解升级期间如何进行处理。 建议在升级之前删除安装或发布在工作区的内容包。
 - 经典工作区的 Microsoft 365 组不受 Power BI 中工作区升级的影响。 任何团队、SharePoint 站点、邮箱或由 Microsoft 365 管理的其他资源都不会发生变化。 升级 Power BI 工作区后，它们将保持不变。 Microsoft 365 组继续像以前一样存在。
@@ -111,7 +112,7 @@ ms.locfileid: "85225268"
 
 1. 在工作区内容列表顶部的菜单栏中选择“设置”，以便访问工作区设置。
 
-    ![工作区设置](media/service-upgrade-workspaces/power-bi-new-workspace-settings.png)
+    ![屏幕截图显示在菜单栏中选择“设置”。](media/service-upgrade-workspaces/power-bi-new-workspace-settings.png)
 
 2. 在“高级”下，将工作区“联系人列表”配置为从中升级工作区的 Microsoft 365 组。 你可以将更多的用户或组添加到联系人列表，或将其切换到工作区管理员。
 
@@ -119,11 +120,11 @@ ms.locfileid: "85225268"
 
 ### <a name="the-workspace-onedrive"></a>工作区 OneDrive 
 
-升级后，工作区 OneDrive 将连接到 Microsoft 365 组 SharePoint 文档库。 此文档库在“获取数据”>“文件”中显示为“OneDrive”选项。 请注意，并非所有工作区用户都有权使用该文档库，如果他们不在 Microsoft 365 组中的话。
+升级后，工作区 OneDrive 将连接到 Microsoft 365 组 SharePoint 文档库。 此文档库在“获取数据”>“文件”中显示为“OneDrive”选项。 如果工作区用户不在 Microsoft 365 组中，则不是所有工作区用户都有权使用该文档库。
 
 ## <a name="content-packs-during-upgrade"></a>升级过程中的内容包
 
-新工作区不支持内容包。 而是使用应用和共享数据集在工作区中分发内容。 建议在升级之前从工作区中删除已发布或已安装的内容包。 但是，如果在升级时存在已发布或已安装的内容包，升级过程将尝试保留此内容，如下所述。  升级后无法还原内容包或内容与内容包的关联。
+新工作区不支持内容包。 而是使用应用和共享数据集在工作区中分发内容。 建议在升级之前从工作区中删除已发布或已安装的内容包。 但是，如果在升级时存在已发布或已安装的内容包，升级过程将尝试保留此内容，如本文后面部分所述。  升级后无法还原内容包或内容与内容包的关联。
 
 ### <a name="published-content-packs"></a>已发布内容包
 
@@ -148,7 +149,7 @@ ms.locfileid: "85225268"
 
 1. 在工作区内容列表中，选择“更多选项”( **...** ) >“工作区设置”。
 
-    ![工作区设置](media/service-upgrade-workspaces/power-bi-workspace-settings-more-options.png)
+    ![屏幕截图显示选择“更多选项”(…) >“工作区设置”。](media/service-upgrade-workspaces/power-bi-workspace-settings-more-options.png)
 
 1. 展开“高级”，然后选择“切换回经典”。 如果此选项不可用，请参阅本文中的[切换回经典工作区的注意事项](#considerations-for-switching-back-to-classic)。
 
@@ -202,10 +203,10 @@ ms.locfileid: "85225268"
    
 ## <a name="known-issues"></a>已知问题
 
-你可能会遇到一些已知问题：
-- 升级后，用户可能会看到“模型加载失败”警告对话框。 此消息为错误显示，可以忽略。 
-- 升级后，某些工作区名称与升级之前的名称不同。 出现这种情况时，工作区名称恢复为工作区之前的名称，或者工作区名称变为空白。 若要解决此问题，请将工作区重命名为所需名称。
-- 升级已安装内容包的工作区后，可能会在工作区中看到升级前不可见的其他仪表板。 如果最近尚未更新内容包，则会发生这种情况。 你可以安全地删除这些仪表板了。
+升级后可能会遇到一些已知问题：
+- 可能会显示“模型加载失败”警告对话框。 此消息为错误显示，可以忽略。 
+- 某些工作区名称与升级之前的名称不同。 在这种情况下，工作区名称要么恢复为工作区以前的名称，要么变为空白。 若要解决此问题，请将工作区重命名为所需名称。
+- 在已安装内容包的工作区中，可能会显示升级前不可见的其他仪表板。 这种情况可能表示最近未更新内容包。 你可以安全地删除这些仪表板了。
 
 ## <a name="next-steps"></a>后续步骤
 

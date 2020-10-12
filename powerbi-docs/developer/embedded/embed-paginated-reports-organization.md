@@ -1,6 +1,6 @@
 ---
 title: 在应用程序中为组织嵌入 Power BI 分页报表
-description: 了解如何使用 Power BI API 将 Power BI 分页报表集成或嵌入应用程序中。
+description: 本教程介绍如何使用 Power BI API 将 Power BI 分页报表集成或嵌入到应用程序中。
 author: KesemSharabi
 ms.author: kesharab
 manager: rkarlin
@@ -9,19 +9,19 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: tutorial
 ms.date: 06/25/2020
-ms.openlocfilehash: 1c348cbf74e6bc2999383bc5a5c031576a293ac2
-ms.sourcegitcommit: 0d0ab427bb71b37c9e5170c515a8f274e1f20c17
+ms.openlocfilehash: 0d52dd7df774dd834d0356e6de57b9c80beab801
+ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "87878753"
+ms.lasthandoff: 10/06/2020
+ms.locfileid: "91747611"
 ---
 # <a name="tutorial-embed-power-bi-paginated-reports-into-an-application-for-your-organization"></a>教程：在应用程序中为组织嵌入 Power BI 分页报表
 
 在 Power BI 中，可以使用“用户拥有数据”方案将分页报表嵌入到组织的应用程序中。
 
 分页报表是设计用于高质量打印的报表。 通常，这些报表包含大量数据，以适合打印页面的方式呈现。
-要了解 Power BI 如何支持分页报表，请参阅 [Power BI Premium 中的分页报表是什么？](https://docs.microsoft.com/power-bi/paginated-reports-report-builder-power-bi)
+要了解 Power BI 如何支持分页报表，请参阅 [Power BI Premium 中的分页报表是什么？](../../paginated-reports/paginated-reports-report-builder-power-bi.md)
 
 借助“用户拥有数据”，应用程序可以扩展 Power BI 服务以使用嵌入式分析。 本教程演示了如何将分页报表集成到应用程序。
 

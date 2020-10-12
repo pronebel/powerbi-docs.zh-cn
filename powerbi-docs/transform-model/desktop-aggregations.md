@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 02/14/2020
 ms.author: davidi
 LocalizationGroup: Transform and shape data
-ms.openlocfilehash: 4ee0db7cae34f9592824e4f315255ff4fcff077b
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 3ffa26c0999857df1b249d2866eb5f327e600a82
+ms.sourcegitcommit: 51b965954377884bef7af16ef3031bf10323845f
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83339780"
+ms.lasthandoff: 09/30/2020
+ms.locfileid: "91600329"
 ---
 # <a name="use-aggregations-in-power-bi-desktop"></a>在 Power BI Desktop 中使用聚合
 
@@ -53,7 +53,7 @@ ms.locfileid: "83339780"
 - 总和
 - 计算表行数
 
-![管理聚合对话框](media/desktop-aggregations/aggregations_07.jpg)
+![屏幕截图显示“管理聚合”对话框。](media/desktop-aggregations/aggregations_07.jpg)
 
 在此基于关系的聚合示例中，GroupBy 条目是可选的。 除 DISTINCTCOUNT 外，它们不影响聚合行为，并且主要用于提高可读性。 如果不使用 GroupBy 条目，聚合仍可根据关系命中。 这与本文后面介绍的[大数据示例](#aggregation-based-on-groupby-columns)不同，在该示例中，需要 GroupBy 条目。
 
@@ -144,11 +144,11 @@ ms.locfileid: "83339780"
 
 有关“Dual”存储模式的详细信息，请参阅[在 Power BI Desktop 中管理存储模式](desktop-storage-mode.md)。
 
-### <a name="strong-vs-weak-relationships"></a>强和弱关系
+### <a name="regular-vs-limited-relationships"></a>常规关系与有限关系
 
-基于关系的聚合命中需要强关系。
+基于关系的聚合命中需要常规关系。
 
-强关系包括以下存储模式组合，其中两个表均来自单个源：
+常规关系包括以下存储模式组合，其中两个表均来自单个源：
 
 | *多*方上的表 | “一”  端上的表 |
 | ------------- |----------------------| 
@@ -156,7 +156,7 @@ ms.locfileid: "83339780"
 | 导入        | 导入或双       | 
 | 直接查询   | DirectQuery 或双  | 
 
-*跨源*关系被视为强关系的唯一情况为两个表均设置为“Import”。 多对多关系始终被视为弱。
+跨源关系被视为常规关系的唯一情况为两个表均设置为“Import”。 多对多关系始终被视为有限关系。
 
 有关不依赖于关系的*跨源*聚合命中，请参阅[基于 GroupBy 列的聚合](#aggregation-based-on-groupby-columns)。 
 
@@ -244,11 +244,11 @@ DAX 时间智能函数支持聚合。 下面的查询会命中聚合，因为 DA
 
 下面的查询不会命中聚合，因为聚合表中不包含“CalendarDay”  。
 
-![不会命中聚合的查询示例](media/desktop-aggregations/aggregations-code_10.jpg)
+![屏幕截图显示包含 CalendarDay 的查询文本。](media/desktop-aggregations/aggregations-code_10.jpg)
 
 下面的时间智能查询不会命中聚合，因为 DATESYTD 函数会生成一个“CalendarDay”值表，而聚合表不涵盖“CalendarDay”   。
 
-![不会命中聚合的查询示例](media/desktop-aggregations/aggregations-code_11.jpg)
+![屏幕截图显示包含 DATESYTD 函数的查询文本。](media/desktop-aggregations/aggregations-code_11.jpg)
 
 ## <a name="aggregation-precedence"></a>聚合优先级
 
@@ -271,7 +271,7 @@ DAX 时间智能函数支持聚合。 下面的查询会命中聚合，因为 DA
 
 “详细信息表”列中指定的表为“Driver Activity”，而不是“Driver Activity Agg”，因为不允许使用链式聚合    。
 
-![管理聚合对话框](media/desktop-aggregations/aggregations_14.jpg)
+![屏幕截图显示标示了“优先级”的“管理聚合”对话框。](media/desktop-aggregations/aggregations_14.jpg)
 
 下表显示“Driver Activity Agg2”表的聚合  。
 

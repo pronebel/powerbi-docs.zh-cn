@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-gateways
 ms.topic: troubleshooting
-ms.date: 07/15/2019
+ms.date: 09/25/2020
 LocalizationGroup: Gateways
-ms.openlocfilehash: 4d106a2bd2c11d049307a2b6f752d9486cd5aa20
-ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
+ms.openlocfilehash: 045d7df36deefae5c323e88d0ddf3053ea56682e
+ms.sourcegitcommit: be424c5b9659c96fc40bfbfbf04332b739063f9c
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90860684"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "91634633"
 ---
 # <a name="troubleshoot-gateways---power-bi"></a>对网关进行排除故障 - Power BI
 
@@ -32,9 +32,11 @@ ms.locfileid: "90860684"
 
 ### <a name="error-unable-to-connect-details-invalid-connection-credentials"></a>错误：无法连接。 详细信息:“连接凭据无效”
 
-在“显示详细信息”中，显示从数据源收到的错误消息。 对于 SQL Server，可看到如下所示的内容：
+在“显示详细信息”中，显示从数据源收到的错误消息。 对于 SQL Server，可看到如下所示的消息：
 
-    Login failed for user 'username'.
+```output
+Login failed for user 'username'.
+```
 
 验证你具有正确的用户名和密码。 另外，验证这些凭据是否可以成功地连接到数据源。 请确保所使用的帐户与身份验证方法匹配。
 
@@ -44,7 +46,9 @@ ms.locfileid: "90860684"
 
 在“显示详细信息”中，显示从数据源收到的错误消息。 对于 SQL Server，可看到如下所示的内容：
 
-    Cannot open database "AdventureWorks" requested by the login. The login failed. Login failed for user 'username'.
+```output
+Cannot open database "AdventureWorks" requested by the login. The login failed. Login failed for user 'username'.
+```
 
 ### <a name="error-unable-to-connect-details-unknown-error-in-data-gateway"></a>错误：无法连接。 详细信息:“数据网关中发生未知错误”
 
@@ -62,11 +66,15 @@ ms.locfileid: "90860684"
 
 如果基础错误消息类似于以下内容，这意味着你正在对数据源使用的帐户不是该 Analysis Services 实例的服务器管理员。 有关详细信息，请参阅[授予对 Analysis Services 实例的服务器管理员权限](/sql/analysis-services/instances/grant-server-admin-rights-to-an-analysis-services-instance)。
 
-    The 'CONTOSO\account' value of the 'EffectiveUserName' XML for Analysis property is not valid.
+```output
+The 'CONTOSO\account' value of the 'EffectiveUserName' XML for Analysis property is not valid.
+```
 
 如果基础错误消息类似以下消息，则可能意味着 Analysis Services 的服务帐户可能缺少 [token-groups-global-and-universal](/windows/win32/adschema/a-tokengroupsglobalanduniversal) (TGGAU) 目录属性。
 
-    The username or password is incorrect.
+```output
+The username or password is incorrect.
+```
 
 具有 Windows 2000 以前版本兼容访问权限的域启用了 TGGAU 属性。 最新创建的域不会默认启用此属性。 有关详细信息，请参阅[某些应用程序和 API 需要访问帐户对象的授权信息](https://support.microsoft.com/kb/331951)。
 
@@ -75,13 +83,17 @@ ms.locfileid: "90860684"
 1. 连接 SQL Server Management Studio 中的 Analysis Services 计算机。 在高级连接属性中，输入问题用户的 EffectiveUserName，并检查此添加是否会产生错误。
 2. 可以使用 dsacls Active Directory 工具来验证是否列出了属性。 此工具可在域控制器上找到。 你需要知道帐户的可分辨域名是什么，并将该名称传递给该工具。
 
-        dsacls "CN=John Doe,CN=UserAccounts,DC=contoso,DC=com"
+   ```console
+   dsacls "CN=John Doe,CN=UserAccounts,DC=contoso,DC=com"
+   ```
 
     你应该在结果中看到与以下类似的内容：
 
-            Allow BUILTIN\Windows Authorization Access Group
-                                          SPECIAL ACCESS for tokenGroupsGlobalAndUniversal
-                                          READ PROPERTY
+   ```console
+   Allow BUILTIN\Windows Authorization Access Group
+                                   SPECIAL ACCESS for tokenGroupsGlobalAndUniversal
+                                   READ PROPERTY
+   ```
 
 若要更正此问题，必须启用用于 Analysis Services Windows 服务的帐户上的 TGGAU。
 
@@ -139,7 +151,9 @@ ms.locfileid: "90860684"
 1. 在[网关日志](/data-integration/gateway/service-gateway-tshoot#collect-logs-from-the-on-premises-data-gateway-app)中查找有效的用户名。
 2. 传递值之后，验证其是否正确。 如果它是你的用户，可以从命令提示符下使用以下命令查看 UPN。 UPN 外观类似电子邮件地址。
 
-        whoami /upn
+   ```console
+   whoami /upn
+   ```
 
 或者，你可以查看 Power BI 从 Azure Active Directory 获取的内容。
 
@@ -147,10 +161,13 @@ ms.locfileid: "90860684"
 2. 在右上角选择“登录”。
 3. 运行以下查询。 你将看到相当大的 JSON 响应。
 
-        https://graph.windows.net/me?api-version=1.5
+   ```http
+   https://graph.windows.net/me?api-version=1.5
+   ```
+
 4. 查找 **userPrincipalName**。
 
-如果你的 Azure Active Directory UPN 与本地 Active Directory UPN 不匹配，则可以使用[映射用户名](service-gateway-enterprise-manage-ssas.md#map-user-names-for-analysis-services-data-sources)功能将其替换为有效的值。 或者，可以通过租户管理员或本地 Active Directory 管理员更改 UPN。
+如果你的 Azure Active Directory UPN 与本地 Active Directory UPN 不匹配，则可以使用[映射用户名](service-gateway-enterprise-manage-ssas.md#map-user-names-for-analysis-services-data-sources)功能将其替换为有效的值。 或者，可以通过 Power BI 管理员或本地 Active Directory 管理员更改 UPN。
 
 ## <a name="kerberos"></a>Kerberos
 
@@ -192,11 +209,11 @@ ImpersonationLevel 与 SPN 设置或本地策略设置相关。
 
 * SAP HANA 要求模拟的用户在 Active Directory 中使用 sAMAccountName 属性（用户别名）。 如果此属性不正确，将看到 1033 错误。
 
-    ![sAMAccount](media/service-gateway-onprem-tshoot/sAMAccount.png)
+    ![属性编辑器](media/service-gateway-onprem-tshoot/sAMAccount.png)
 
 * 可在日志中看到 sAMAccountName（别名）而不是 UPN，它是后跟域的别名 (alias@doimain.com)。
 
-    ![sAMAccount](media/service-gateway-onprem-tshoot/sAMAccount-02.png)
+    ![日志中的帐户信息](media/service-gateway-onprem-tshoot/sAMAccount-02.png)
 
 ```xml
       <setting name="ADUserNameReplacementProperty" serializeAs="String">

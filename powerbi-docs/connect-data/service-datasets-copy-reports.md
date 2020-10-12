@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 04/30/2020
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: b6f5b1250604f435a49fe6310193eeb80da16763
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 86c663e7b9ba035af6592dc10972d868344df7f7
+ms.sourcegitcommit: be424c5b9659c96fc40bfbfbf04332b739063f9c
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85236806"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "91633199"
 ---
 # <a name="copy-reports-from-other-workspaces"></a>从其他工作区复制报表
 
@@ -82,7 +82,7 @@ ms.locfileid: "85236806"
 
 1. 在“报表”列表视图中，选择“查看相关项”。
 
-    ![相关视图图标](media/service-datasets-copy-reports/power-bi-dataset-view-related.png)
+    ![屏幕截图显示“操作”下的“查看相关项”图标。](media/service-datasets-copy-reports/power-bi-dataset-view-related.png)
 
 1. “相关内容”对话框显示所有相关项。 在此列表中，数据集与任何其他数据集类似。 你无法判断它位于不同的工作区。 这是一个已知问题。
  
@@ -98,7 +98,7 @@ ms.locfileid: "85236806"
 
 2. 在数据集列表中，可以看到共享数据集没有“删除”图标。 刷新页面，或转到其他页，然后返回。 数据集将消失。 如果没有，请查看“相关视图”。 它可能与工作区中的另一个表相关。
 
-    ![相关视图图标](media/service-datasets-across-workspaces/power-bi-dataset-view-related-icon.png)
+    ![屏幕截图显示了一个数据集，其中包含用于检查相关表的“查看相关项”选项。](media/service-datasets-across-workspaces/power-bi-dataset-view-related-icon.png)
 
     > [!NOTE]
     > 删除此工作区中的共享数据集不会删除数据集。 它只是删除对它的引用。

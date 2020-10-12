@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: tutorial
 ms.date: 04/02/2020
-ms.openlocfilehash: 2cc37d1296d7f170bf8c6280465e7a3f1aa52e33
-ms.sourcegitcommit: 0d0ab427bb71b37c9e5170c515a8f274e1f20c17
+ms.openlocfilehash: e0bdb5174c1392e1a2f81a101a62798f82e2b191
+ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "87878687"
+ms.lasthandoff: 10/06/2020
+ms.locfileid: "91747703"
 ---
 # <a name="tutorial-build-a-funnel-plot-from-r-script-to-r-visual"></a>教程：根据 R 脚本对 R 视觉对象创建漏斗图
 本文介绍如何使用 R 脚本对 R 视觉对象逐步创建漏斗图。
@@ -66,11 +66,11 @@ ms.locfileid: "87878687"
 
 1. 编辑 capabilities.json，并将字符串 `Values` 替换为 `dataset`。 这会将模板中的“角色”名称替换为类似于 R 代码中的名称。
 
-   ![之前与之后](./samples/funnel-plot/chapter-3/funnel-r-visual-v01/capabilities-changes.PNG)
+   ![屏幕截图显示了 json 文件更改的差异比较。](./samples/funnel-plot/chapter-3/funnel-r-visual-v01/capabilities-changes.PNG)
 
 1. （可选）编辑 dependencies.json，并为 R 脚本所需的每个 R 包添加部分 。 这会告诉 Power BI 在首次加载视觉对象时自动导入这些包。
 
-   ![之前与之后](./samples/funnel-plot/chapter-3/funnel-r-visual-v01/dependencies-changes.PNG)
+   ![屏幕截图显示已向 cranPackages 项添加内容的差异比较。](./samples/funnel-plot/chapter-3/funnel-r-visual-v01/dependencies-changes.PNG)
 
 1. 使用 `pbiviz package` 命令重新打包视觉对象，并尝试将其导入 Power BI。
 
@@ -119,7 +119,7 @@ ms.locfileid: "87878687"
 
 1. 为用户添加功能，以控制视觉对象元素的颜色和大小，包括 UI 中的内部参数。
 
-   ![CV02to03](./media/funnel-plot/diagram-two.PNG)
+   ![屏幕截图显示了工具窗格的两个版本，右侧的版本中添加了选项。](./media/funnel-plot/diagram-two.PNG)
 
 1. 编辑 capabilities.json 并更新 `objects` 部分。 在这里，我们定义每个参数的名称、工具提示和类型，并决定将参数划分为组（在本例中为三个组）。
 
@@ -274,7 +274,7 @@ ms.locfileid: "87878687"
 
 * 每个 R 视觉对象都会将 `unique` 运算符应用到其输入表。 要避免删除相同的行，请考虑添加具有唯一 ID 的额外输入字段，并在 R 代码中将其忽略。   
 
-* 如果已有 Power BI 帐户，请使用 Power BI 服务[即时](/power-bi/developer/visuals/custom-visual-develop-tutorial/)开发视觉对象，而不是使用 `pbiviz package` 命令重新打包它们。
+* 如果已有 Power BI 帐户，请使用 Power BI 服务[即时](./custom-visual-develop-tutorial.md)开发视觉对象，而不是使用 `pbiviz package` 命令重新打包它们。
 
 ### <a name="html-widgets-gallery"></a>HTML 小组件库
 浏览 [HTML 小组件库](http://gallery.htmlwidgets.org/)中的视觉对象，以便在下一个视觉对象中使用。 为方便起见，我们创建了一个[视觉对象项目存储库](https://github.com/Microsoft/PowerBI-visuals/tree/master/RVisualTutorial/TutorialFunnelPlot/chapter4_RHTMLCustomVisual/multipleRHTML)，其中有 20 多个交互式 HTML 视觉对象可供选择！
@@ -291,15 +291,15 @@ ms.locfileid: "87878687"
 1. 更改 pbiviz.json 中的元数据，最重要的是 `guid` 字段。
 1. 重新打包并继续根据需要自定义视觉对象。 
 
-![CV02to03](./media/funnel-plot/diagram-four.PNG)
+![屏幕截图显示了本文前面讨论的六个小组件。](./media/funnel-plot/diagram-four.PNG)
 
-![CV02to03](./media/funnel-plot/diagram-five.PNG)
+![屏幕截图显示了本文前面讨论的另外六个小组件。](./media/funnel-plot/diagram-five.PNG)
 
 > [!NOTE]
 > 服务并不支持此项目中的所有小部件。
 
 ## <a name="next-steps"></a>后续步骤
 
-要了解详细信息，请参阅有关 [Power BI 视觉对象](./custom-visual-develop-tutorial.md)和 [R 视觉对象](/power-bi/visuals/service-r-visuals)的其他教程。
+要了解详细信息，请参阅有关 [Power BI 视觉对象](./custom-visual-develop-tutorial.md)和 [R 视觉对象](../../visuals/service-r-visuals.md)的其他教程。
 
 了解如何[开发视觉对象并将其提交](https://powerbi.microsoft.com/documentation/powerbi-developer-office-store/)到 [Office 应用商店（库）](https://store.office.com/appshome.aspx?ui=en-US&rs=en-US&ad=US&clickedfilter=OfficeProductFilter%3aPowerBI&productgroup=PowerBI)；有关进一步示例，请参阅 [R 脚本展示](https://community.powerbi.com/t5/R-Script-Showcase/bd-p/RVisuals)

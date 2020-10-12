@@ -10,12 +10,12 @@ ms.topic: how-to
 ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 975a7304e61042e408d732aa1c85bfed184f75f5
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 3db27630da230ee1805386b039916181e993d412
+ms.sourcegitcommit: be424c5b9659c96fc40bfbfbf04332b739063f9c
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85239142"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "91632517"
 ---
 # <a name="apply-insights-in-power-bi-desktop-to-discover-where-distributions-vary-preview"></a>在 Power BI Desktop 中应用见解以发现分配发生变化的位置（预览）
 
@@ -110,37 +110,39 @@ ms.locfileid: "85239142"
 
 不一定会在可用时间内检查模型中的所有列，因此不保证显示影响最大的列和值。 但是，可使用各种启发法来确保首先检查最有可能的列。 例如，假设在检查完所有列之后，确定以下列/值对分布的影响最大（影响力从大到小）：
 
-    Subcategory = Touring Bikes
-    Channel = Direct
-    Subcategory = Mountain Bikes
-    Subcategory = Road Bikes
-    Subcategory = Kids Bikes
-    Channel = Store
+```console
+Subcategory = Touring Bikes
+Channel = Direct
+Subcategory = Mountain Bikes
+Subcategory = Road Bikes
+Subcategory = Kids Bikes
+Channel = Store
+```
 
 将按列顺序输出这些列/值，如下所示：
 
-    Subcategory: Touring Bikes, Mountain Bikes, Road Bikes (only three listed, with the text including “...amongst others” to indicate that more than three have a significant impact) 
+* 子类别：Touring Bikes、Mountain Bikes、Road Bikes（仅列出三个，包含“...amongst others”的文本表示三个以上的列/值具有重大影响力） 
 
-    Channel = Direct (only Direct listed, if it’s level of impact was much greater than Store)
+* Channel = Direct（仅列出 Direct，如果其影响程度远远大于 Store）
 
 ## <a name="considerations-and-limitations"></a>注意事项和限制
-以下列表列出了见解  目前不受支持的所有情形：
+以下列表列出了见解**** 目前不受支持的所有情形：
 
 * 前 n 个筛选器
 * 度量值筛选器
 * 非数值度量值
 * 使用“值显示为”
-* 筛选后的度量值：筛选后的度量值是指应用了特定筛选器的视觉对象级计算（例如，法国总销售额），用于见解功能创建的某些视觉对象 
+* 筛选后的度量值：筛选后的度量值是指应用了特定筛选器的视觉对象级计算（例如，法国总销售额），用于见解功能创建的某些视觉对象
 
 此外，目前不支持见解的以下模型类型和数据源：
 
-* 直接查询
+* 直接连接
 * 实时连接
 * 本地 Reporting Services
 * 嵌入
 
 ## <a name="next-steps"></a>后续步骤
-有关 Power BI Desktop  以及如何入门的详细信息，请查看以下文章。
+有关 Power BI Desktop**** 以及如何入门的详细信息，请查看以下文章。
 
 * [什么是 Power BI Desktop？](../fundamentals/desktop-what-is-desktop.md)
 * [Power BI Desktop 的查询概述](../transform-model/desktop-query-overview.md)

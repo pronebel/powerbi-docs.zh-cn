@@ -9,12 +9,12 @@ ms.topic: tutorial
 ms.date: 05/06/2020
 ms.author: davidi
 LocalizationGroup: Learn more
-ms.openlocfilehash: 02ffd0881344c8f2bef45301c25e363981d64646
-ms.sourcegitcommit: cff93e604e2c5f24e0f03d6dbdcd10c2332aa487
+ms.openlocfilehash: e8c6ed4476a1bd5236d838610da624f5dde4fb4c
+ms.sourcegitcommit: 51b965954377884bef7af16ef3031bf10323845f
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90965347"
+ms.lasthandoff: 09/30/2020
+ms.locfileid: "91600481"
 ---
 # <a name="tutorial-analyze-facebook-data-by-using-power-bi-desktop"></a>教程：使用 Power BI Desktop 分析 Facebook 数据
 
@@ -128,7 +128,7 @@ ms.locfileid: "90965347"
    
    数据加载完成后，它会在“报表”视图中显示为“字段”窗格中的新查询   。
    
-   ![新建查询](media/desktop-tutorial-facebook-analytics/fb-newquery.png)
+   ![屏幕截图显示名为 Query1 的查询的可用字段。](media/desktop-tutorial-facebook-analytics/fb-newquery.png)
    
 ## <a name="use-the-data-in-report-visualizations"></a>在报表可视化效果中使用数据 
 
@@ -138,7 +138,7 @@ ms.locfileid: "90965347"
 
 1. 在Power BI Desktop“报表”视图中，从“字段”窗格中选择“消息”，或将其拖至报表画布    。 显示所有帖子消息的表格将显示在画布上。 
    
-   ![新建查询](media/desktop-tutorial-facebook-analytics/table-viz.png)
+   ![屏幕截图显示包含消息列表的“报表”视图。](media/desktop-tutorial-facebook-analytics/table-viz.png)
    
 2. 在选中该表格后，从“字段”窗格选择“评论数”，或将其拖动到表中   。 
    

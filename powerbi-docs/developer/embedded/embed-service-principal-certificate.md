@@ -9,23 +9,23 @@ ms.subservice: powerbi-developer
 ms.topic: how-to
 ms.custom: ''
 ms.date: 06/01/2020
-ms.openlocfilehash: 7caa39ca6fbf196aaa2be4492ab132ad05983f94
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 521c705587c10c76dedb731aeae34221244f3a83
+ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85231837"
+ms.lasthandoff: 10/06/2020
+ms.locfileid: "91749175"
 ---
 # <a name="embed-power-bi-content-with-service-principal-and-a-certificate"></a>使用服务主体和证书嵌入 Power BI 内容
 
 [!INCLUDE[service principal overview](../../includes/service-principal-overview.md)]
 
 >[!NOTE]
->建议使用证书而不是机密密钥来保护后端服务。 [详细了解如何使用机密密钥或证书从 Azure AD 获取访问令牌](https://docs.microsoft.com/azure/architecture/multitenant-identity/client-assertion)。
+>建议使用证书而不是机密密钥来保护后端服务。 [详细了解如何使用机密密钥或证书从 Azure AD 获取访问令牌](/azure/architecture/multitenant-identity/client-assertion)。
 
 ## <a name="certificate-based-authentication"></a>基于证书的身份验证
 
-凭借基于证书的身份验证，你可以通过 Azure Active Directory (Azure AD) 使用 Windows、Android 或 iOS 设备上或 [Azure 密钥保管库](https://docs.microsoft.com/azure/key-vault/basic-concepts)中保存的客户端证书进行身份验证。
+凭借基于证书的身份验证，你可以通过 Azure Active Directory (Azure AD) 使用 Windows、Android 或 iOS 设备上或 [Azure 密钥保管库](/azure/key-vault/basic-concepts)中保存的客户端证书进行身份验证。
 
 借助这种身份验证方法，可使用 CA 从一个中心位置管理证书，以便进行轮换或吊销。
 
@@ -49,7 +49,7 @@ ms.locfileid: "85231837"
 
 可以从受信任的证书颁发机构获取证书，也可以自行生成证书。
 
-本部分介绍如何使用 [Azure 密钥保管库](https://docs.microsoft.com/azure/key-vault/create-certificate)创建证书，以及下载包含公钥的 .cer 文件。
+本部分介绍如何使用 [Azure 密钥保管库](/azure/key-vault/create-certificate)创建证书，以及下载包含公钥的 .cer 文件。
 
 1. 登录 [Microsoft Azure](https://ms.portal.azure.com/#allservices)。
 
@@ -63,11 +63,11 @@ ms.locfileid: "85231837"
 
 4. 单击“**证书**”。
 
-    ![certificates](media/embed-service-principal-certificate/certificates.png)
+    ![屏幕截图显示标示了“证书”的“密钥保管库”页。](media/embed-service-principal-certificate/certificates.png)
 
 5. 单击“生成/导入”。
 
-    ![generate](media/embed-service-principal-certificate/generate.png)
+    ![屏幕截图显示标示了“生成/导入”的“证书”窗格。](media/embed-service-principal-certificate/generate.png)
 
 6. 按如下所示配置“创建证书”字段：
 
@@ -107,7 +107,7 @@ ms.locfileid: "85231837"
 
 1. 在 Azure AD 应用程序中，单击“证书和机密”选项卡。
 
-     ![应用程序 ID](media/embed-service-principal/certificates-and-secrets.png)
+     ![屏幕截图显示 Azure 门户中应用的“证书和密码”窗格。](media/embed-service-principal/certificates-and-secrets.png)
 
 2. 单击“上传证书”，上传你在本教程的[第一步](#step-1---create-a-certificate)中创建并下载的 .cer 文件。 .cer 文件包含公钥。
 
@@ -175,7 +175,7 @@ public async Task<AuthenticationResult> DoAuthentication(){
 
 ## <a name="configure-visual-studio-to-use-msi"></a>将 Visual Studio 配置为使用 MSI
 
-创建嵌入式解决方案时，将 Visual Studio 配置为使用托管服务标识 (MSI) 可能会很有用。 [MSI](https://docs.microsoft.com/azure/active-directory/managed-identities-azure-resources/overview) 是用于管理 Azure AD 标识的一项功能。 配置后，它将允许 Visual Studio 针对你的 Azure 密钥保管库进行身份验证。
+创建嵌入式解决方案时，将 Visual Studio 配置为使用托管服务标识 (MSI) 可能会很有用。 [MSI](/azure/active-directory/managed-identities-azure-resources/overview) 是用于管理 Azure AD 标识的一项功能。 配置后，它将允许 Visual Studio 针对你的 Azure 密钥保管库进行身份验证。
 
 1. 在 Visual Studio 中打开项目。
 
@@ -200,7 +200,7 @@ public async Task<AuthenticationResult> DoAuthentication(){
 >[适用于客户的 Power BI Embedded](embed-sample-for-customers.md)
 
 >[!div class="nextstepaction"]
->[Azure Active Directory 中的应用程序和服务主体对象](https://docs.microsoft.com/azure/active-directory/develop/app-objects-and-service-principals)
+>[Azure Active Directory 中的应用程序和服务主体对象](/azure/active-directory/develop/app-objects-and-service-principals)
 
 >[!div class="nextstepaction"]
 >[配合使用本地数据网关与服务主体的行级别安全性](embedded-row-level-security.md#on-premises-data-gateway-with-service-principal)

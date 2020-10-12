@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 01/21/2020
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 0e21c4397708b289d7eccfbdbaa839cbf16c1f0b
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 716439417a0e9cc57188c544f984f4936a424a47
+ms.sourcegitcommit: be424c5b9659c96fc40bfbfbf04332b739063f9c
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85224064"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "91632427"
 ---
 # <a name="get-webpage-data-by-providing-examples"></a>通过提供示例获取网页数据
 
@@ -36,7 +36,9 @@ ms.locfileid: "85224064"
 
 如果想要按照说明操作，可以使用本文中所用的 [Microsoft Store URL](https://www.microsoft.com/store/top-paid/games/xbox?category=classics)：
 
-    https://www.microsoft.com/store/top-paid/games/xbox?category=classics
+```http
+https://www.microsoft.com/store/top-paid/games/xbox?category=classics
+```
 
 ![Web 对话框](media/desktop-connect-to-web-by-example/web-by-example_04.png)
 
@@ -48,14 +50,14 @@ ms.locfileid: "85224064"
 
 在此示例中，我们将提取页面上每个游戏的“名称”  和“价格”  。 我们可以通过从每个列的页面指定几个示例来执行该操作。 输入示例时，Power Query 使用智能数据提取算法提取符合示例条目模式的数据  。
 
-![通过示例提取数据](media/desktop-connect-to-web-by-example/web-by-example_06.png)
+![屏幕截图显示来自 Internet 的数据。](media/desktop-connect-to-web-by-example/web-by-example_06.png)
 
 > [!NOTE]
 > 建议的值仅含长度小于或等于 128 个字符的值。
 
 如果你对从网页中提取的数据满意，请选择“确定”以进入 Power Query 编辑器  。 你可以应用更多转换或调整数据的形状，例如将此数据与源的其他数据合并。
 
-![通过示例提取数据](media/desktop-connect-to-web-by-example/web-by-example_07.png)
+![屏幕截图显示 Power Query 编辑器中从 Internet 提取的数据。](media/desktop-connect-to-web-by-example/web-by-example_07.png)
 
 在这里，可以在创建 Power BI Desktop 报表时创建视觉对象或者使用网页数据。
 

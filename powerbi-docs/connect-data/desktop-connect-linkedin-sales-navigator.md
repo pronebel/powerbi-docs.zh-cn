@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 11/11/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: b87e176338552f0a90c4789d35f531fd7b12d44a
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: dd8e453a0cec6c404cad077a85f68044fa57ba1f
+ms.sourcegitcommit: 51b965954377884bef7af16ef3031bf10323845f
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85224752"
+ms.lasthandoff: 09/30/2020
+ms.locfileid: "91600242"
 ---
 # <a name="connect-to-linkedin-sales-navigator-in-power-bi-desktop"></a>在 Power BI Desktop 中连接到 LinkedIn Sales Navigator
 
@@ -86,7 +86,7 @@ ms.locfileid: "85224752"
 
 “使用情况”选项卡显示你的全部 LinkedIn Sales Navigator 数据。 
 
-![LinkedIn Sales Navigator“使用情况”选项卡](media/desktop-connect-linkedin-sales-navigator/linkedin-sales-navigator-12.png)
+![LinkedIn Sales Navigator 的“使用情况”选项卡显示你的全部 LinkedIn Sales Navigator 数据。](media/desktop-connect-linkedin-sales-navigator/linkedin-sales-navigator-12.png)
 
 借助“搜索”选项卡，你可以深入钻取搜索结果： 
 

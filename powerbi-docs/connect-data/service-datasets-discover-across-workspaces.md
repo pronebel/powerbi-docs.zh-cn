@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 04/30/2020
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 0104d88ab926d649b7b2629e0e3427188c771948
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: e9bffc860baa424caef05bad3ac423932868c410
+ms.sourcegitcommit: 02b5d031d92ea5d7ffa70d5098ed15e4ef764f2a
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85236783"
+ms.lasthandoff: 09/26/2020
+ms.locfileid: "91374329"
 ---
 # <a name="create-reports-based-on-datasets-from-different-workspaces"></a>基于来自不同工作区的数据集创建报表
 
@@ -50,7 +50,7 @@ ms.locfileid: "85236783"
 
 ## <a name="find-an-endorsed-dataset"></a>查找已认可数据集
 
-有两种不同类型的已认可数据集。 数据集所有者可以推广他们向你推荐的数据集。 此外，Power BI 租户管理员可以指定组织中的专家，他们可以验证数据集供所有人使用。 查找数据集时可看到已推广和已验证数据集显示的徽章，这些徽章显示在工作区的数据集列表中。 在数据集发现体验期间，验证数据集的人员的名称显示在工具提示中；将鼠标悬停在“认证”标签上将看到它。
+有两种不同类型的已认可数据集。 数据集所有者可以推广他们向你推荐的数据集。 此外，Power BI 管理员可以指定组织中的专家，他们可以验证数据集供所有人使用。 查找数据集时可看到已推广和已验证数据集显示的徽章，这些徽章显示在工作区的数据集列表中。 在数据集发现体验期间，验证数据集的人员的名称显示在工具提示中；将鼠标悬停在“认证”标签上将看到它。
 
 - 在 Power BI 服务中：“获取数据” > “已发布数据集” 。
 - 在 Power BI Desktop 中：“获取数据” > “Power BI 数据集” 。

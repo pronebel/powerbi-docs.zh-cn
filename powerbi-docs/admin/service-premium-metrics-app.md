@@ -5,16 +5,16 @@ author: davidiseminger
 ms.author: davidi
 ms.reviewer: ''
 ms.service: powerbi
-ms.subservice: powerbi-admin
+ms.subservice: powerbi-premium
 ms.topic: how-to
 ms.date: 05/11/2020
 LocalizationGroup: Premium
-ms.openlocfilehash: dddc90ee30ff58269c723d247a6c0a9fe3718683
-ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
+ms.openlocfilehash: ddaafaf175e2cb083e8e8eb494c156f0e9de8e0f
+ms.sourcegitcommit: be424c5b9659c96fc40bfbfbf04332b739063f9c
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90855072"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "91633129"
 ---
 # <a name="power-bi-premium-metrics-app"></a>Power BI Premium 指标应用
 
@@ -61,7 +61,7 @@ ms.locfileid: "90855072"
 
 介绍了两种方案，可以通过在页面上选择“方案 1”  或“方案 2”  将其显示在报表页上。 
 
-![活动内存详细信息页](media/service-premium-metrics-app/premium-metrics-app-03.png)
+![屏幕截图显示活动内存详细信息页。](media/service-premium-metrics-app/premium-metrics-app-03.png)
 
 与每个方案关联的故障排除指南提供了有关指标含义的详细说明，以便你可以更好地了解容量的状态，以及可以采取哪些措施来缓解任何问题。 
 
@@ -116,7 +116,7 @@ ms.locfileid: "90855072"
 
 若要确定是否为容量提供足够的内存来完成其工作负载，可以参考页面顶部的“A：  占用内存百分比”视觉对象，该视觉对象表示当前正在处理因而无法收回的的数据集占用的内存。 黑色虚线突出显示趋势。 在遇到内存压力的容量中，相同的视觉对象将清晰地显示呈上升趋势的内存趋势线（黑色虚线），这意味着它可能会阻止在该时间点将其他数据集加载到内存中。 趋势线（黑色虚线）基于七天数据显示增长趋势。 
 
-![活动内存详细信息页](media/service-premium-metrics-app/premium-metrics-app-07.png)
+![屏幕截图显示方案 2 的活动内存详细信息页。](media/service-premium-metrics-app/premium-metrics-app-07.png)
 
 #### <a name="diagnosing-scenario-two"></a>诊断方案 2
 
@@ -267,7 +267,7 @@ ms.locfileid: "90855072"
 
 若要诊断方案 1，请首先确定限制是否是由于内存不足引起的。 步骤如下：
 
-1.    通过单击“表 A”，从表中选择你感兴趣的数据集  ： 
+1. 通过单击“表 A”，从表中选择你感兴趣的数据集  ： 
 
     ![表 A](media/service-premium-metrics-app/premium-metrics-app-22.png)
 
@@ -310,7 +310,7 @@ ms.locfileid: "90855072"
 
 若要诊断方案 2，请首先确定限制是否是由于刷新的最大并发数。 步骤如下：
 
-1.    通过单击“表 A”，从表中选择你感兴趣的数据集  ： 
+1. 通过单击“表 A”，从表中选择你感兴趣的数据集  ： 
 
     ![表 A](media/service-premium-metrics-app/premium-metrics-app-22.png)
 

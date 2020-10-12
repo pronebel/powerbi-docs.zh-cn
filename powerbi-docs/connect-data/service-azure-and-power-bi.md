@@ -1,6 +1,6 @@
 ---
 title: Azure 和 Power BI
-description: Azure 和 Power BI
+description: 了解如何使用 Azure 和 Power BI 将数据处理工作转换为可以提供实时业务见解的分析和报表。
 author: davidiseminger
 ms.author: davidi
 ms.reviewer: ''
@@ -9,12 +9,12 @@ ms.subservice: powerbi-service
 ms.topic: how-to
 ms.date: 05/08/2019
 LocalizationGroup: Data from databases
-ms.openlocfilehash: c7dceceaaf063ffe4b379595cfc010e4eda2ae53
-ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
+ms.openlocfilehash: dd119abd50450d6090d952d0727f672dc7072abf
+ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90858141"
+ms.lasthandoff: 10/06/2020
+ms.locfileid: "91749428"
 ---
 # <a name="azure-and-power-bi"></a>Azure 和 Power BI
 

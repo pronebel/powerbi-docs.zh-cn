@@ -8,12 +8,12 @@ ms.subservice: powerbi-template-apps
 ms.topic: how-to
 ms.date: 05/04/2020
 ms.author: painbar
-ms.openlocfilehash: d32e1223a335fc6bf2fdf52598f1e1bdf3d7a685
-ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
+ms.openlocfilehash: c5bed13799824a0222b2961595108536f66133ee
+ms.sourcegitcommit: be424c5b9659c96fc40bfbfbf04332b739063f9c
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90860523"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "91634932"
 ---
 # <a name="update-delete-and-extract-template-app"></a>更新、删除和提取模板应用
 
@@ -23,11 +23,11 @@ ms.locfileid: "90860523"
 如果在 Power BI Desktop 中进行了更改，请从步骤 (1) 开始。 如果未在 Power BI Desktop 中进行更改，请从步骤 (4) 开始。
 
 1. 上传更新的数据集并覆盖现有数据集。 **确保使用完全相同的数据集名称**。 使用其他名称将为正在更新应用的用户创建新的数据集。
-![覆盖数据集](media/service-template-apps-update-extract-delete/power-bi-template-app-upload-dataset.png)
+![屏幕截图显示选中了“数据集”的 Power BI 更新模板应用。](media/service-template-apps-update-extract-delete/power-bi-template-app-upload-dataset.png)
 1. 从计算机导入 pbix 文件。
-![覆盖数据集](media/service-template-apps-update-extract-delete/power-bi-template-app-upload-dataset2.png)
+![屏幕截图显示在“文件”下标示了“获取”的“获取数据”页。](media/service-template-apps-update-extract-delete/power-bi-template-app-upload-dataset2.png)
 1. 确认覆盖。
-![覆盖数据集](media/service-template-apps-update-extract-delete/power-bi-template-app-upload-dataset3.png)
+![屏幕截图显示一条指出“存在具有相同名称的数据集”的确认消息，以及用于替换该数据集的选项。](media/service-template-apps-update-extract-delete/power-bi-template-app-upload-dataset3.png)
 
 1. 在“发布管理”窗格中，选择“创建应用”   。
 1. 返回应用创建过程。
@@ -64,7 +64,8 @@ ms.locfileid: "90860523"
 
 1. 在“发布管理”窗格中，依次按下“更多(...)”  和“提取”  。
 
-    ![提取模板应用版本](media/service-template-apps-update-extract-delete/power-bi-template-app-extract.png) ![提取模板应用版本](media/service-template-apps-update-extract-delete/power-bi-template-app-extract-dialog.png)
+    ![屏幕截图显示从菜单中选择“提取”的“发布管理”窗格。](media/service-template-apps-update-extract-delete/power-bi-template-app-extract.png)
+    ![屏幕截图显示用于提取此应用的确认消息。](media/service-template-apps-update-extract-delete/power-bi-template-app-extract-dialog.png)
 2. 在对话框中，输入已提取工作区的名称。 此时，系统会添加新工作区。
 
 新工作区的版本控制会重置，你可以继续从新提取的工作区开发和分发模板应用。
@@ -73,12 +74,12 @@ ms.locfileid: "90860523"
 模板工作区是活动分散式模板应用的源。 为了保护模板应用用户，如果不先删除工作区中的所有已创建应用版本，就无法删除工作区。
 删除应用版本也会删除不再有效的应用 URL。
 
-1. 在“发布管理”窗格中，依次选择省略号 (...)  和“删除”  。
- ![删除模板应用版本](media/service-template-apps-update-extract-delete/power-bi-template-app-delete.png)
- ![删除模板应用版本](media/service-template-apps-update-extract-delete/power-bi-template-app-delete-dialog.png)
+1. 在“发布管理”窗格中，依次选择省略号 (...)**** 和“删除”****。
+ ![屏幕截图显示从菜单中选择“删除”的“发布管理”窗格。](media/service-template-apps-update-extract-delete/power-bi-template-app-delete.png)
+ ![屏幕截图显示用于删除此应用的确认消息。](media/service-template-apps-update-extract-delete/power-bi-template-app-delete-dialog.png)
 
 >[!NOTE]
->请确保不要删除客户或 AppSource  正在使用的应用版本，否则它们将不再有效。
+>请确保不要删除客户或 AppSource**** 正在使用的应用版本，否则它们将不再有效。
 
 ## <a name="next-steps"></a>后续步骤
 

@@ -1,6 +1,6 @@
 ---
 title: Power BI 分页报表中的子报表
-description: 本文将介绍 Power BI 服务中分页报表支持的数据源，以及如何连接到 Azure SQL 数据库数据源。
+description: 本文介绍 Power BI 服务中的分页报表支持的数据源。
 author: maggiesMSFT
 ms.author: maggies
 ms.reviewer: ''
@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: how-to
 ms.date: 04/29/2020
-ms.openlocfilehash: fbe60bab0d1c8d95cec1a3fda1d4b23fe919ea31
-ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
+ms.openlocfilehash: 9da6268e90e3f70797c2cfff19bb1d5c4b633e9a
+ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90861374"
+ms.lasthandoff: 10/06/2020
+ms.locfileid: "91746576"
 ---
 # <a name="subreports-in-power-bi-paginated-reports"></a>Power BI 分页报表中的子报表
 
@@ -33,7 +33,7 @@ Power BI Report Builder 可以与计算机上的分页报表（称为本地报�
 
 登录后，你将在 Power BI Report Builder 中看到“Power BI 服务”选项，此选项代表“文件”菜单上的“打开”和“另存为”选项     。 选择“Power BI 服务”选项保存报表时，将在 Power BI Report Builder 和 Power BI 服务之间创建实时连接  。 
 
-:::image type="content" source="media/subreports/report-builder-subreport-open-service.png" alt-text="从 Power BI 服务打开":::
+:::image type="content" source="media/subreports/report-builder-subreport-open-service.png" alt-text="登录 Power BI":::
 
 ## <a name="save-a-local-report-to-the-power-bi-service"></a>将本地报表保存到 Power BI 服务
 
@@ -48,7 +48,7 @@ Power BI Report Builder 可以与计算机上的分页报表（称为本地报�
 
 3. 在“另存为”对话框中，选择可用于存储分页报表的 Power BI Premium 工作区  。  Premium 工作区在其名称旁边有一个菱形图标 ![Premium 菱形图标](media/subreports/report-builder-premium-diamond.png)。
 
-    :::image type="content" source="media/subreports/report-builder-subreport-save-as-service.png" alt-text="Power BI 服务的“另存为”":::
+    :::image type="content" source="media/subreports/report-builder-subreport-save-as-service.png" alt-text="登录 Power BI":::
 
 4. 选择“保存”。 
 
@@ -58,7 +58,7 @@ Power BI Report Builder 可以与计算机上的分页报表（称为本地报�
 
 1. 在“插入”功能区中，选择“子报表”按钮，或右键单击报表画布，然后选择“插入” > “子报表”     。
 
-    :::image type="content" source="media/subreports/report-builder-insert-subreport.png" alt-text="在报表中插入子报表":::
+    :::image type="content" source="media/subreports/report-builder-insert-subreport.png" alt-text="登录 Power BI":::
 
     随即将打开“子报表属性”对话框  。  
 

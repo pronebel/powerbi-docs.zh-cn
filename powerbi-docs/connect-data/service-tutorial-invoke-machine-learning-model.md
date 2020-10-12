@@ -10,12 +10,12 @@ ms.topic: tutorial
 ms.date: 03/12/2019
 ms.author: davidi
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 35c20a11c4b446bd3a2636deaeb4c5ee9c2d797b
-ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
+ms.openlocfilehash: a5cfbfe52ec8b4e0d9eec07844a3eaa7f9447ded
+ms.sourcegitcommit: 51b965954377884bef7af16ef3031bf10323845f
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90861006"
+ms.lasthandoff: 09/30/2020
+ms.locfileid: "91600403"
 ---
 # <a name="tutorial-invoke-a-machine-learning-studio-classic-model-in-power-bi-preview"></a>教程：在 Power BI 中调用机器学习工作室（经典）模型（预览版）
 
@@ -45,7 +45,7 @@ ms.locfileid: "90861006"
 
 登录到 [Azure 门户](https://portal.azure.com)并导航到“订阅”  页，可以使用导航窗格菜单中的“所有服务”  列表找到该页。
 
-![Azure 门户](media/service-tutorial-invoke-machine-learning-model/tutorial-invoke-machine-learning-model_01.png)
+![屏幕截图显示选中了“订阅”的 Azure 门户。](media/service-tutorial-invoke-machine-learning-model/tutorial-invoke-machine-learning-model_01.png)
 
 选择用于发布模型的 Azure 订阅，然后选择“访问控制(IAM)”  。 接下来，选择“添加角色分配”  ，然后选择“读取者”  角色并选择 Power BI 用户。 完成时选择“保存”  。 下图显示这些选项。
 
@@ -95,7 +95,7 @@ ms.locfileid: "90861006"
 
 Power Query 编辑器显示 CSV 文件中的数据的预览。 从命令功能区中选择“转换表”  ，然后选择“将第一行用作标题”  。  此操作将“提升的标题”  查询步骤添加到右侧的“应用步骤”  窗格中。 还可以使用右侧窗格将查询重命名为更友好的名称，例如“汽车定价”  。
 
-![Azure 门户](media/service-tutorial-invoke-machine-learning-model/tutorial-invoke-machine-learning-model_09.png)
+![显示数据预览的 Power Query 编辑器的屏幕截图。](media/service-tutorial-invoke-machine-learning-model/tutorial-invoke-machine-learning-model_09.png)
 
 我们的源数据集已将未知值设置为“?”。  若要清除该值，为简单起见，我们可以将“?”替换为“0”以避免后续出现错误。  若要执行此操作，通过单击列标题中的列名称来选择列“normalized-losses”  、“bore”  、“stroke”  、“compression-ratio”  、“horsepower”  、“peak-rpm”  和“price”  ，然后单击“转换列”并选择“替换值”。  将“?”替换为“0”。
 
