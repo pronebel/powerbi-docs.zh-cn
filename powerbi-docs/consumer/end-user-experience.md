@@ -11,12 +11,12 @@ ms.topic: quickstart
 ms.date: 01/31/2020
 ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: 49ed6bd0ae8021936c327aede83d0e6a8539179a
-ms.sourcegitcommit: c83146ad008ce13bf3289de9b76c507be2c330aa
+ms.openlocfilehash: b9b299207a95091244d1f9ff7ab5f7a0d5460fc8
+ms.sourcegitcommit: be424c5b9659c96fc40bfbfbf04332b739063f9c
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/10/2020
-ms.locfileid: "86216129"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "91634105"
 ---
 # <a name="quickstart---getting-around-in-power-bi-service"></a>快速入门 - 使用 Power BI 服
 
@@ -47,12 +47,12 @@ ms.locfileid: "86216129"
 
 1. 安装应用后，从导航窗格中选择“应用”  。 
 
-   ![第一次打开 Power BI 服务](./media/end-user-experience/power-bi-home-steps.png)
+   ![屏幕截图展示了包含欢迎消息的 Power BI“主页”屏幕。](./media/end-user-experience/power-bi-home-steps.png)
 
 
 2. 在“应用”屏幕上，选择“销售和市场营销示例”应用   。
 
-    ![第一次打开 Power BI 服务](./media/end-user-experience/power-bi-sample-app.png)
+    ![屏幕截图展示了 Power BI“应用”屏幕，其中包含名为 Sales and Marketing sample 的应用。](./media/end-user-experience/power-bi-sample-app.png)
 
 2. 选择“浏览应用”  。
 

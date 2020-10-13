@@ -10,12 +10,12 @@ ms.date: 06/24/2020
 ms.author: mihart
 ms.custom: contperfq4
 LocalizationGroup: Consumer
-ms.openlocfilehash: 86453ff7a192a9c79f1c9eda97529b661c7512d3
-ms.sourcegitcommit: 2131f7b075390c12659c76df94a8108226db084c
+ms.openlocfilehash: 05aab15b3807429c20b0ff72a7bfce21b3e25b12
+ms.sourcegitcommit: d153cfc0ce559480c53ec48153a7e131b7a31542
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/03/2020
-ms.locfileid: "87537702"
+ms.lasthandoff: 09/29/2020
+ms.locfileid: "91526872"
 ---
 # <a name="visual-types-in-power-bi"></a>Power BI 中的视觉对象类型
 
@@ -142,7 +142,7 @@ ArcGIS 地图和 Power BI 的结合将超越地图点表示法的地图绘制技
 形状地图使用颜色比较地图上的区域。 形状地图无法在地图上显示数据点的精确地理位置。 相反，其主要目的是通过不同方式对地图上的区域着色来显示这些区域的相对比较。
 
 ### <a name="matrix"></a>Matrix
-![矩形图](media/end-user-visual-type/matrix.png)
+![屏幕截图展示了“Revenue”和“YTD Revenue”的年度和季度数据矩阵。](media/end-user-visual-type/matrix.png)
 
 矩阵视觉对象是一种支持渐变布局的表视觉对象类型（请参阅下面的“表”）。 通常，报表设计器在报表和仪表板中包括矩阵，以便使用户可以选择矩阵中的一个或多个元素（行、列、单元格）以在报表页上交叉突出其他视觉对象。  
 

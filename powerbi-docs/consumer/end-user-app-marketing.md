@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 08/12/2020
 ms.author: mihart
 LocalizationGroup: Share your work
-ms.openlocfilehash: f8020e68db6b0baaabdde626d1b17674fe995ca2
-ms.sourcegitcommit: 64139587061136a43c5aea3b6db4d1a94e4e7795
+ms.openlocfilehash: c3019abae20aec5e71d6b4cbae94c77426a151bd
+ms.sourcegitcommit: be424c5b9659c96fc40bfbfbf04332b739063f9c
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/14/2020
-ms.locfileid: "88205119"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "91635806"
 ---
 # <a name="install-and-use-the-sample-sales-and-marketing-app-in-the-power-bi-service"></a>在 Power BI 服务中安装并使用示例销售和营销应用
 
@@ -53,11 +53,11 @@ ms.locfileid: "88205119"
 
 6. 选择是连接自己的数据、使用示例数据进行探索，还是自定义和共享新应用。 由于我们选择了 Microsoft 示例应用，因此先从浏览开始。 
 
-    ![使用示例数据浏览应用](./media/end-user-app-marketing/power-bi-explore-app.png)
+    ![屏幕截图展示了“开始使用新应用”，其中突出显示了“使用示例数据进行探索”选项。](./media/end-user-app-marketing/power-bi-explore-app.png)
 
 7.  此时会打开新应用，其中包含一个仪表板。 应用设计器可以改为将应用设置为打开报表。  
 
-    ![使用示例数据浏览应用](./media/end-user-app-marketing/power-bi-app-new.png)
+    ![屏幕截图展示了应用的仪表板。](./media/end-user-app-marketing/power-bi-app-new.png)
 
 
 

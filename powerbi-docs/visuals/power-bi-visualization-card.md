@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 05/05/2020
 ms.author: rien
 LocalizationGroup: Visualizations
-ms.openlocfilehash: a3e213107f84f81aef78a52cdb282b70379c7465
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 8ee29bcfb85c627ed6e9bb4c33c48b941ded7dd7
+ms.sourcegitcommit: d153cfc0ce559480c53ec48153a7e131b7a31542
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85237511"
+ms.lasthandoff: 09/29/2020
+ms.locfileid: "91526805"
 ---
 # <a name="create-card-visualizations"></a>创建卡片可视化对象
 
@@ -102,7 +102,8 @@ ms.locfileid: "85237511"
 5. 继续浏览格式设置选项，直到卡完全满足你的需要。 
 
 ## <a name="considerations-and-troubleshooting"></a>注意事项和疑难解答
-如果根本看不到问题框，请与系统管理员或租户管理员联系。    
+
+如果根本看不到问题框，请联系你的 Power BI 管理员。
 
 ## <a name="next-steps"></a>后续步骤
 [Power BI 中的组合图表](power-bi-visualization-combo-chart.md)

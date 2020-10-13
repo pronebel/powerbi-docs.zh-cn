@@ -8,12 +8,12 @@ ms.subservice: powerbi-mobile
 ms.topic: tutorial
 ms.date: 11/26/2019
 ms.author: painbar
-ms.openlocfilehash: f946c3b10f9d4922c227dd92a748af91266c040e
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 3b84cf4969df05d4e9570b12a80436bca3e280be
+ms.sourcegitcommit: 7e99e8af9caf9340958c4607a94728d43e8c3811
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "75221734"
+ms.lasthandoff: 10/02/2020
+ms.locfileid: "91668312"
 ---
 # <a name="tutorial-ask-questions-about-your-data-with-the-qa-virtual-analyst-in-the-power-bi-ios-apps"></a>教程：在 Power BI iOS 应用中向常见问题虚拟分析师询问关于数据的问题
 
@@ -92,13 +92,13 @@ ms.locfileid: "75221734"
 
 3. 单击“仪表板”选项卡，然后在“机会分析示例”行中单击垃圾箱。
 
-    ![选择删除图标](./media/tutorial-mobile-apps-ios-qna/power-bi-tutorial-mobile-apps-ios-qna-delete-opportunity-analysis-sample.png)
+    ![屏幕截图展示了 Power B I 工作区，其中选择了仪表板，并突出显示了删除图标。](./media/tutorial-mobile-apps-ios-qna/power-bi-tutorial-mobile-apps-ios-qna-delete-opportunity-analysis-sample.png)
 
     现在，选择“报表”选项卡，然后执行相同操作。
 
 4. 现在，选择“数据集”选项卡，单击“更多选项”(...)，然后选择“删除”   。
 
-    ![选择删除图标](./media/tutorial-mobile-apps-ios-qna/power-bi-tutorial-mobile-apps-ios-qna-delete-opportunity-analysis-sample-datasets.png)
+    ![屏幕截图展示了 Power BI 工作区，其中选择了数据集，并选择了“更多选项”菜单中的“删除”。](./media/tutorial-mobile-apps-ios-qna/power-bi-tutorial-mobile-apps-ios-qna-delete-opportunity-analysis-sample-datasets.png)
 
 ## <a name="next-steps"></a>后续步骤
 

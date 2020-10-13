@@ -1,6 +1,6 @@
 ---
 title: 分页报表中的 URL 参数 - Power BI 报表生成器
-description: 本主题介绍了 Power BI Report Builder 报表参数的常见用法、可以设置的属性等内容。
+description: 了解如何通过将参数添加到 URL（可包括在电子邮件或网页中），在 Power BI 中向分页报表发送命令。
 ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: conceptual
@@ -9,12 +9,12 @@ ms.author: maggies
 ms.reviewer: cfinlan
 ms.custom: ''
 ms.date: 09/09/2020
-ms.openlocfilehash: fc54d60be34cd9d40cf1ea715aa84f2f1ef6f9de
-ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
+ms.openlocfilehash: 7b12f6f6db864fb7b6af4df0d1019dc2eeed2617
+ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90859396"
+ms.lasthandoff: 10/06/2020
+ms.locfileid: "91747473"
 ---
 # <a name="url-parameters-in-paginated-reports-in-power-bi"></a>Power BI 的分页报表中的 URL 参数
 

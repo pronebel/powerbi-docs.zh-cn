@@ -8,12 +8,12 @@ ms.subservice: powerbi-mobile
 ms.topic: how-to
 ms.date: 03/11/2020
 ms.author: painbar
-ms.openlocfilehash: 60f49775db1f461ff5105ada63920686e5ab5cbf
-ms.sourcegitcommit: e8ed3d120699911b0f2e508dc20bd6a9b5f00580
+ms.openlocfilehash: 323ea88f3a8843dd663985abac5552be1de71584
+ms.sourcegitcommit: be424c5b9659c96fc40bfbfbf04332b739063f9c
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/11/2020
-ms.locfileid: "86264923"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "91634403"
 ---
 # <a name="qa-virtual-analyst-in-ios-apps---power-bi"></a>iOS 应用中的问答虚拟分析师 - Power BI
 
@@ -52,7 +52,7 @@ ms.locfileid: "86264923"
 4. 点击关键字中的“by”，然后依次点击建议列表中的“item”>“发送”![发送图标](./media/mobile-apps-ios-qna/power-bi-ios-qna-send-icon.png)  。
 
     ![按项分布的销售额](./media/mobile-apps-ios-qna/power-bi-ios-q-n-a-sale-by-item.png)
-5. 点击关键字中的“as”，然后依次点击柱形图图标 ![图表图标](./media/mobile-apps-ios-qna/power-bi-ios-q-n-a-column-chart-icon.png) 和“发送”![发送图标](./media/mobile-apps-ios-qna/power-bi-ios-qna-send-icon.png) 。
+5. 点击关键字中的“as”，然后依次点击柱形图图标 :::image type="icon" source="./media/mobile-apps-ios-qna/power-bi-ios-q-n-a-column-chart-icon.png" border="false"::: 和“发送”![“发送”图标](./media/mobile-apps-ios-qna/power-bi-ios-qna-send-icon.png)。
 6. 长按生成的图表，然后点击“**展开**”。
 
     ![柱形图的屏幕截图，其中显示指针指向“展开”。](media/mobile-apps-ios-qna/power-bi-ios-q-n-a-tap-expand-feedback.png)
@@ -68,7 +68,7 @@ ms.locfileid: "86264923"
 10. 选择关键字中的“by”，然后依次点击顶部建议列表中的“time”>“发送”![发送图标](./media/mobile-apps-ios-qna/power-bi-ios-qna-send-icon.png)  。
 
      ![图表的屏幕截图，其中显示了按不同时间的平均单价显示的总销售额。](media/mobile-apps-ios-qna/power-bi-ios-q-n-a-top-sale-by-time.png)
-11. 键入“as”，从建议列表中选择折线图图标 ![图表图标](./media/mobile-apps-ios-qna/power-bi-ios-q-n-a-line-chart-icon.png)，然后点击“发送”![发送图标](./media/mobile-apps-ios-qna/power-bi-ios-qna-send-icon.png) 。
+11. 键入“as”，从建议列表中选择折线图图标 :::image type="icon" source="./media/mobile-apps-ios-qna/power-bi-ios-q-n-a-line-chart-icon.png" border="false":::，然后点击“发送”![“发送”图标](./media/mobile-apps-ios-qna/power-bi-ios-qna-send-icon.png)。
 
     ![柱形图和折线图的屏幕截图，其中指针从柱形图指向折线图](media/mobile-apps-ios-qna/power-bi-ios-q-n-a-top-sale-as-line.png)
 

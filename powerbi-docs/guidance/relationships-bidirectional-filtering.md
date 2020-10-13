@@ -8,12 +8,12 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 03/02/2020
 ms.author: v-pemyer
-ms.openlocfilehash: c362a8012635becb68200a9d513157c05310edaf
-ms.sourcegitcommit: c83146ad008ce13bf3289de9b76c507be2c330aa
+ms.openlocfilehash: e9c25089c5141f16cc3f993039dc69bece9231f1
+ms.sourcegitcommit: 7e99e8af9caf9340958c4607a94728d43e8c3811
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/10/2020
-ms.locfileid: "86215146"
+ms.lasthandoff: 10/02/2020
+ms.locfileid: "91668611"
 ---
 # <a name="bi-directional-relationship-guidance"></a>双向关系指南
 
@@ -77,7 +77,7 @@ ms.locfileid: "86215146"
 
 “产品”切片器现在列出一个项，即“T 恤”。 此项表示唯一销售给澳大利亚客户的产品。
 
-![显示包含三个视觉对象的报表页的示意图。 下一段落介绍了详细信息。](media/relationships-bidirectional-filtering/sales-report-bi-directional-filter.png)
+![图展示了包含三个视觉对象的报表页，其中突出显示了“产品”。下一段落介绍了详细信息。](media/relationships-bidirectional-filtering/sales-report-bi-directional-filter.png)
 
 首先，建议仔细考虑这种设计是否适用于报表用户。 一些报表用户觉得这种体验令人困惑。 他们不理解为什么在自己与其他切片器交互时，切片器项会动态显示或消失。
 

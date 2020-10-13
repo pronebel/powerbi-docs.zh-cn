@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 05/05/2019
 ms.author: rien
 LocalizationGroup: Visualizations
-ms.openlocfilehash: e7f36ada69f1ee98c7392d05eb169947c600774e
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 0e5687f9bb3f27af7bdfee28cd9753fbda4fa44f
+ms.sourcegitcommit: be424c5b9659c96fc40bfbfbf04332b739063f9c
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85221634"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "91635760"
 ---
 # <a name="create-ribbon-charts-in-power-bi"></a>在 Power BI 中创建功能区图表
 
@@ -24,7 +24,7 @@ ms.locfileid: "85221634"
 
 可创建功能区图表来直观显示数据，并快速发现哪个数据类别具有最高排名（最大值）。 功能区图表能够高效地显示排名变化，并且会在每个时间段内始终将最高排名（值）显示在最顶部。 
 
-![带状图](media/desktop-ribbon-charts/ribbon-charts-01.png)
+![屏幕截图展示了功能区图表，其中包含按年份和季度显示的“Audio”、“Cell phones”和其他类别的数据。](media/desktop-ribbon-charts/ribbon-charts-01.png)
 
 > [!NOTE]
 > 与 Power BI 同事共享报表时，你和这位同事都应具有独立的 Power BI Pro 许可证，并且应将报表保存在 Premium 容量中。 请参阅[共享报表](../collaborate-share/service-share-reports.md)。
@@ -57,12 +57,12 @@ ms.locfileid: "85221634"
 
 3. 功能区图表显示每个月份的排名。 请注意排名如何随时间推移而变化。 例如，从 2 月到 3 月，主页类别从第二个移动到第五个。
 
-    ![带状图](media/desktop-ribbon-charts/power-bi-ribbon.png)
+    ![屏幕截图展示了你创建的功能区图表，并突出显示了其中的一些数据。](media/desktop-ribbon-charts/power-bi-ribbon.png)
 
 ## <a name="format-a-ribbon-chart"></a>设置功能区图表格式
 在创建功能区图表时，可以在“可视化效果”窗格的“格式”部分使用格式设置选项。 功能区图表的格式设置选项类似于堆叠柱状图中的相应选项，只不过它还具有特定于功能区的其他格式设置选项。
 
-![可视化效果窗格中的功能区模板](media/desktop-ribbon-charts/power-bi-format-ribbon.png)
+![屏幕截图展示了选择了格式图标并展开了“功能区”区域。](media/desktop-ribbon-charts/power-bi-format-ribbon.png)
 
 功能区图表的这些格式设置选项可让你进行调整。
 
@@ -77,7 +77,7 @@ ms.locfileid: "85221634"
 
 设置数据标签的格式设置选项。 在此示例中，我们将文本颜色设置为白色，并将显示单位设置为千。
 
-![可视化效果窗格中的功能区模板](media/desktop-ribbon-charts/power-bi-data-labels.png)
+![屏幕截图展示了你的最终格式化功能区图表。](media/desktop-ribbon-charts/power-bi-data-labels.png)
 
 ## <a name="next-steps"></a>后续步骤
 

@@ -1,17 +1,17 @@
 ---
 title: 职能应用程序顾问学习目录
-description: 查找针对 Power Apps 的所有培训选项
+description: 查找面向商务领域的实现专家的所有 Power Apps 培训选项（从最基础到最高级）。
 author: margoc
 ms.prod: powerbi
 ms.topic: article
 ms.date: 03/25/2020
 ms.author: margoc
-ms.openlocfilehash: 3ebfa0e13293f65d5399aafb7071d4eaad63cc6f
-ms.sourcegitcommit: d153cfc0ce559480c53ec48153a7e131b7a31542
+ms.openlocfilehash: d31cdab393535609e8e12de97b2b784f55a3d9a2
+ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/29/2020
-ms.locfileid: "91527783"
+ms.lasthandoff: 10/06/2020
+ms.locfileid: "91749198"
 ---
 # <a name="functional-application-consultant-learning-catalog"></a>职能应用程序顾问学习目录
 

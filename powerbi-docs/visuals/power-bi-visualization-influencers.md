@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 01/10/2020
 ms.author: rien
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 58d595ff5e7d3947117aa9663e761a6f98f10c7f
-ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
+ms.openlocfilehash: a8a38790b606fa5f700f2b9389ebad5338919d28
+ms.sourcegitcommit: be424c5b9659c96fc40bfbfbf04332b739063f9c
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90861305"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "91635277"
 ---
 # <a name="create-key-influencers-visualizations"></a>创建关键影响因素可视化效果
 
@@ -231,13 +231,13 @@ ms.locfileid: "90861305"
 -   右侧窗格中的散点图绘制了表中每个不同值的平均房价
 -   气泡中的值显示了平均房价上涨的幅度（在本例中是 $1.35K），而平均年份增加幅度是其标准差（在本例中是 30 年）
 
-![数值目标度量值影响因素](media/power-bi-visualization-influencers/power-bi-ki-numeric-measures.png)
+![屏幕截图展示了对房价的关键影响因素，影响因素在左侧，散点图在右侧。](media/power-bi-visualization-influencers/power-bi-ki-numeric-measures.png)
 
 ## <a name="interpret-the-results-top-segments"></a>解释结果：首要区段
 
 数值目标的首要区段显示平均房价高于整体数据集的组。 例如，下面我们可以看到“区段 1”包含符合后述特征的房屋：“GarageCars”（车库可容纳的汽车数量）大于 2，“RoofStyle”（屋顶风格）为“时尚”  。 具有这些特征的房屋的平均价格为 355,000 美元，而总体数据的平均值为 18 万美元。
 
-![数值目标度量值影响因素](media/power-bi-visualization-influencers/power-bi-ki-numeric-segments.png)
+![屏幕截图展示了房价的首要区段。](media/power-bi-visualization-influencers/power-bi-ki-numeric-segments.png)
 
 ## <a name="analyze-a-metric-that-is-a-measure-or-a-summarized-column"></a>分析度量值或汇总列型指标
 
@@ -245,19 +245,19 @@ ms.locfileid: "90861305"
 
 如果是未汇总列，分析总是在表级运行。 在上述房价示例中，我们分析了“房价”指标，以了解房价上涨/下跌的影响因素。 该分析在表级别自动运行。 表中每个房屋都有唯一的 ID，因此分析在房屋级别运行。
 
-![度量值表](media/power-bi-visualization-influencers/power-bi-ki-measures-table.png)
+![屏幕截图展示了房价示例的表级别分析。](media/power-bi-visualization-influencers/power-bi-ki-measures-table.png)
 
 对于度量值和汇总列，无法立即确定在哪个级别进行分析。 如果将“房价”汇总为“平均”，则需要考虑要在哪个级别上计算此平均房价 。 是社区级别的平均房价？ 还是地区级别的？
 
 在所用“扩展方式”字段的级别自动分析度量值和汇总列。 假设“扩展方式”中有三个我们感兴趣的字段：“厨房质量”、“楼宅类型”和“空调”  。 将计算这三个字段的每个独特组合的“平均房价”。 切换为表视图查看将评估的数据是什么样通常会有所帮助。
 
-![度量值表](media/power-bi-visualization-influencers/power-bi-ki-measures-table2.png)
+![屏幕截图展示了三列和平均房价。](media/power-bi-visualization-influencers/power-bi-ki-measures-table2.png)
 
 这种分析完全是总结性的，因此回归模型很难在数据中发现可学习的模式。 应在更详细的级别运行分析，以获得更好的结果。 如果想要在房屋级别分析房价，则需要将“ID”字段显式添加到分析。 但我们不想将房屋 ID 视为影响因素。 了解房价随房屋 ID 的增加而上涨没有意义。 这时，“扩展方式”字段格选项就很方便。 使用“扩展方式”，可添加要用于设置分析级别的字段，而无需寻找新的影响因素。
 
 将“ID”添加到“扩展方式”之后，查看可视化效果 。 定义了想要评估度量值的级别之后，解释[未汇总数字列](#analyze-a-metric-that-is-numeric)的影响因素是完全相同的。
 
-![度量值表](media/power-bi-visualization-influencers/power-bi-ki-measures-analysis.png)
+![屏幕截图展示了依赖此部分中讨论的三列的房价可视化效果。](media/power-bi-visualization-influencers/power-bi-ki-measures-analysis.png)
 
 如果想要详细了解如何使用关键影响因素可视化效果分析度量值，请观看以下教程。
 

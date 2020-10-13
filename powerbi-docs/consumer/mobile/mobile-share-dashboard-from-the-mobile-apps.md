@@ -8,12 +8,12 @@ ms.subservice: powerbi-mobile
 ms.topic: how-to
 ms.date: 03/11/2020
 ms.author: painbar
-ms.openlocfilehash: 374b9eb1becb5c343600521efc2d493f7d83e677
-ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
+ms.openlocfilehash: 5656e4b708cb52519b6dee25a8142b3c49af6532
+ms.sourcegitcommit: 7e99e8af9caf9340958c4607a94728d43e8c3811
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90854038"
+ms.lasthandoff: 10/02/2020
+ms.locfileid: "91668427"
 ---
 # <a name="share-a-dashboard-or-report-from-the-power-bi-mobile-apps"></a>在 Power BI 移动应用中共享仪表板或报表
 适用于：
@@ -61,7 +61,7 @@ ms.locfileid: "90854038"
  
 2. 键入电子邮件地址以及仪表板邀请随附的消息。 否则 Power BI 会发送默认消息。 若要允许再次共享，请选中**允许收件人共享此仪表板**选项。 允许再次共享后，你的同事可以通过浏览器或移动应用向组织中的其他人转发此电子邮件邀请。
    
-3. 点击右上角的“发送”图标 ![发送图标](./media/mobile-share-dashboard-from-the-mobile-apps/power-bi-android-send-icon.png) 发送邮件。
+3. 点击右上角的“发送”图标 :::image type="icon" source="./media/mobile-share-dashboard-from-the-mobile-apps/power-bi-android-send-icon.png" border="false"::: 来发送邮件。
    
     收件人会收到电子邮件邀请，其中包含指向仪表板或报表的直接链接。 该邀请将在一个月后过期。 收件人在 Power BI 服务或 Power BI 移动应用中打开邀请时，该邀请会添加到其 Power BI 帐户的“与我共享”部分。 访问“与我共享”部分：
    * 在 Power BI 移动应用上，点击导航栏上的“更多选项”(...)，然后选择 ![与我共享](./././media/mobile-share-dashboard-from-the-mobile-apps/power-bi-shared-with-me-icon.png)“与我共享” 。
@@ -90,7 +90,7 @@ ms.locfileid: "90854038"
 
 2. 键入电子邮件地址以及邀请随附的消息。 否则 Power BI 会发送默认消息。 若要允许再次共享，请选中**允许收件人共享此仪表板**选项。 允许重新共享后，你的同事可以通过浏览器或移动应用与组织中的其他人共享。
    
-3. 点击“发送”图标 ![发送图标](./media/mobile-share-dashboard-from-the-mobile-apps/pbi_win10ph_sendicon.png)。
+3. 点击“发送”图标 :::image type="icon" source="./media/mobile-share-dashboard-from-the-mobile-apps/pbi_win10ph_sendicon.png" border="false":::。
    
     收件人会收到电子邮件邀请，其中包含指向仪表板或报表的直接链接。 该邀请将在一个月后过期。 收件人在 Power BI 服务或 Power BI 移动应用中打开邀请时，该邀请会添加到其 Power BI 帐户的“与我共享”部分。 访问“与我共享”部分：
    

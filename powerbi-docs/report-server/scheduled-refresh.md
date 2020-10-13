@@ -1,6 +1,6 @@
 ---
 title: Power BI 报表服务器中 Power BI 报表计划的刷新
-description: Power BI 报表可以连接不同的数据源。 根据数据使用方式，可以提供不同的数据源。
+description: 通过 Power BI 报表的计划内刷新，可以不断更新包含嵌入模型的报表的数据。
 author: maggiesMSFT
 ms.reviewer: kayu
 ms.service: powerbi
@@ -8,12 +8,12 @@ ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 01/09/2020
 ms.author: maggies
-ms.openlocfilehash: 89adff51d70be24e4f42c379a729fd1123ca10a5
-ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
+ms.openlocfilehash: 710df5f4159f49884d9eee1044b2c077c7edcb88
+ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90861765"
+ms.lasthandoff: 10/06/2020
+ms.locfileid: "91749083"
 ---
 # <a name="power-bi-report-scheduled-refresh-in-power-bi-report-server"></a>Power BI 报表服务器中 Power BI 报表计划的刷新
 通过对 Power BI 报表设置计划的刷新，可使报表数据保持最新状态。
@@ -24,19 +24,19 @@ ms.locfileid: "90861765"
 
 在报表的管理部分配置计划的刷新。 有关如何配置计划的刷新的更多信息，请参阅[如何配置 Power BI 报表计划的刷新](configure-scheduled-refresh.md)。
 
-## <a name="how-this-works"></a>工作原理
+## <a name="how-this-works"></a>运行原理
 为 Power BI 报表中使用计划的刷新时涉及多个组件。
 
 * SQL Server 代理作为计时器用于生成计划的事件。
-* 将计划的作业添加到报表服务器数据库中的事件和通知队列。 在横向扩展部署中，队列将跨部署中的所有报表服务器进行共享。
-* 由于计划的事件而发生的所有报表处理均以后台进程执行。
+* 将计划的作业添加到报表服务器数据库中的事件和通知队列。 对于扩展部署，将在部署中的所有报表服务器之间共享该队列。
+* 所有作为计划事件的结果发生的报表处理都将作为后台进程执行。
 * 在 Analysis Services 实例中加载数据模型。
 * 对于某些数据源，Power Query 混合引擎用于连接数据源并转换数据。 可直接从用于托管 Power BI 报表服务器的数据模型的 Analysis Services 服务连接其他数据源。
 * 新的数据被加载到 Analysis Services 中的数据模型。
 * 在扩展配置中，可以跨节点复制数据模型。
 * Analysis Services 处理数据并执行任何所需的计算。
 
-Power BI 报表服务器为所有计划的操作维护事件队列。 它会每隔一定时间轮询队列以检查新的事件。 默认情况下，以 10 秒的时间间隔扫描队列。 你可以通过修改 RSReportServer.config 文件中的“PollingInterval”  、“IsNotificationService”  和“IsEventService”  配置设置来更改时间间隔。 “IsDataModelRefreshService”  还可用于设置报表服务器是否处理计划的事件。
+Power BI 报表服务器为所有计划的操作维护事件队列。 它定期轮询队列，检查是否有新事件。 默认情况下，每隔 10 秒扫描一次队列。 通过修改 RSReportServer.config 文件中的 **PollingInterval**、 **IsNotificationService**和 **IsEventService** 配置设置可以更改此间隔。 “IsDataModelRefreshService”**** 还可用于设置报表服务器是否处理计划的事件。
 
 ### <a name="analysis-services"></a>Analysis Services
 呈现 Power BI 报表和执行计划的刷新需要在 Analysis Services 中加载 Power BI 报表的数据模型。 Analysis Services 进程将与 Power BI 报表服务器一起运行。
@@ -47,11 +47,11 @@ Power BI 报表服务器为所有计划的操作维护事件队列。 它会每�
 
 * 报表包含一个或多个使用实时连接 Analysis Services 数据源。
 * 报表包含一个或多个使用 DirectQuery 的数据源。
-* 报表不包含任何数据源。 例如，通过“输入数据”  手动输入数据，或报表仅包含静态内容，如图像、文本等。
+* 报表不包含任何数据源。 例如，通过“输入数据”** 手动输入数据，或报表仅包含静态内容，如图像、文本等。
 
-除了上述列表，在“导入”模式下，还有一些含数据源的特定场景，你不能为其创建刷新计划  。
+除了上述列表，在“导入”模式下，还有一些含数据源的特定场景，你不能为其创建刷新计划**。
 
-* 如果使用的是“文件”  或“文件夹”  数据源且文件路径是本地路径（例如 C:\Users\user\Documents），则无法创建刷新计划。 路径必须是报表服务器可以连接到网络共享之类的路径。 例如“\\myshare\Documents”。
+* 如果使用的是“文件”** 或“文件夹”** 数据源且文件路径是本地路径（例如 C:\Users\user\Documents），则无法创建刷新计划。 路径必须是报表服务器可以连接到网络共享之类的路径。 例如“\\myshare\Documents”。
 * 如果只能使用 OAuth（例如 Facebook、Google Analytics、Salesforce 等）连接数据源，则无法创建缓存刷新计划。 目前，RS 针对任何数据源均不支持 OAuth 身份验证，无论是针对分页报表、移动报表，还是 Power BI 报表。
 
 ### <a name="memory-limits"></a>内存限制

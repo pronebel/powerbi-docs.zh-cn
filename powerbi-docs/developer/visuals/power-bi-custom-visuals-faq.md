@@ -8,13 +8,13 @@ ms.service: powerbi
 ms.topic: conceptual
 ms.subservice: powerbi-custom-visuals
 ms.custom: ''
-ms.date: 12/17/2018
-ms.openlocfilehash: 8003d7ed6d6b455860ed5ed3bc4ada06c0a35c5f
-ms.sourcegitcommit: 2131f7b075390c12659c76df94a8108226db084c
+ms.date: 09/30/2020
+ms.openlocfilehash: 10790ef963a11fd78c41a28b54e7d177bd96a157
+ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/03/2020
-ms.locfileid: "87537794"
+ms.lasthandoff: 10/06/2020
+ms.locfileid: "91747910"
 ---
 # <a name="power-bi-visuals-faq"></a>Power BI 视觉对象常见问题解答
 
@@ -32,9 +32,9 @@ ms.locfileid: "87537794"
 
 用户可以在内置 Power BI Desktop 和 Power BI 服务组织存储中的“我的组织”  选项卡下找到组织 Power BI 视觉对象。 
 
-### <a name="if-an-admin-uploads-a-power-bi-visual-from-the-public-marketplace-to-the-organization-store-is-it-automatically-updated-once-a-vendor-updates-the-visual-in-the-public-marketplace"></a>如果管理员将 Power BI 视觉对象从公共市场上传到组织存储，当供应商在公共市场更新视觉对象后，它是否会被自动更新？
+### <a name="if-an-admin-uploads-a-power-bi-visual-from-the-public-marketplace-to-the-organization-store-using-add-visual--from-appsource-is-it-automatically-updated-once-a-vendor-updates-the-visual-in-the-public-marketplace"></a>如果管理员使用“添加视觉对象”>“来自 AppSource”将 Power BI 视觉对象从公共市场上传到组织存储，它是否会在供应商更新公共市场中的视觉对象后自动更新？
 
-不，不会有来自公共市场的任何自动更新。 更新组织 Power BI 视觉对象的版本是管理员的职责。
+会，视觉对象会从公共市场自动更新。 如果视觉对象已获得认证，则会保留认证，包括导出到 PDF 或 PowerPoint 等其他功能。
 
 ### <a name="is-there-a-way-to-disable-the-organization-store"></a>是否有方法禁用组织存储？
 
@@ -135,7 +135,7 @@ IAP 视觉对象提供可选的应用内购买选项，可用于购买高级功�
 
 ### <a name="what-is-changing-in-the-submission-process"></a>提交过程有什么不同？
 
-将 IAP Power BI 视觉对象提交到市场的过程与提交免费 Power BI 视觉对象的过程相同。 可以使用[合作伙伴中心](https://docs.microsoft.com/partner-center/)提交 Power BI 的视觉对象以供认证。
+将 IAP Power BI 视觉对象提交到市场的过程与提交免费 Power BI 视觉对象的过程相同。 可以使用[合作伙伴中心](/partner-center/)提交 Power BI 的视觉对象以供认证。
 
 
 注册 Power BI 视觉对象后，导航到“产品设置”  选项卡，并选中“我的产品要求购买服务”复选框  。

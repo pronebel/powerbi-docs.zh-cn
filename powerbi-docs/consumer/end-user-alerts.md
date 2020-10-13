@@ -10,12 +10,12 @@ ms.topic: how-to
 ms.date: 08/05/2020
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 3e34a736148a5d962c1f2d56782d38f31c15b9b6
-ms.sourcegitcommit: 9e39232cbc28d8b39dfec5496db7ece9837b5e53
+ms.openlocfilehash: 22d9baaf50ce32c4a9d3644cff455b474bdd1549
+ms.sourcegitcommit: d153cfc0ce559480c53ec48153a7e131b7a31542
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/10/2020
-ms.locfileid: "88049337"
+ms.lasthandoff: 09/29/2020
+ms.locfileid: "91525287"
 ---
 # <a name="tutorial-set-alerts-on-power-bi-dashboards"></a>教程：在 Power BI 仪表板中设置警报
 
@@ -86,7 +86,7 @@ ms.locfileid: "88049337"
    
 1. 在“管理警报”窗格中，选择“+添加警报规则”。  请确保滑块已设置为“开启”，并为警报提供一个标题。 标题有助于轻松识别警报。
    
-   ![管理警报窗口](media/end-user-alerts/power-bi-alert-manage.png)
+   ![“添加预警规则”窗口](media/end-user-alerts/power-bi-alert-manage.png)
 4. 向下滚动，输入警报的详细信息。  在此示例中，我们将创建一个警报，以便在市场份额增加到 40 或更高时，每天通知我们一次。 警报会显示在我们的[通知中心](end-user-notification-center.md)中。 并且，我们还将收到 Power BI 发送的电子邮件。
    
    ![管理警报窗口，请设置阈值](media/end-user-alerts/power-bi-manage-alert-detail.png)
@@ -142,7 +142,7 @@ ms.locfileid: "88049337"
 
 ## <a name="tips-and-troubleshooting"></a>提示和故障排除 
 
-* 如果无法为仪表、KPI 或卡片设置警报，请与租户管理员或 IT 技术支持联系以获取帮助。 有时，警报已关闭或者对仪表板或对特定类型的仪表板磁贴不可用。
+* 如果无法为仪表、KPI 或卡设置警报，请联系你的 Power BI 管理员或 IT 技术支持来获取帮助。 有时，警报已关闭或者对仪表板或对特定类型的仪表板磁贴不可用。
 * 警报仅适用于刷新的数据。 它们不适用于静态数据。 Microsoft 提供的大多数示例都是静态的。 
 * 需要 Power BI Pro 或 Premium 许可证，才能接收和查看共享内容。 有关详细信息，请参阅[我有哪种许可证？](end-user-license.md)。
 * 可以在从报表固定到仪表板的流数据集创建的视觉对象上设置警报。 不能对使用“添加磁贴” > “自定义流式处理数据”在仪表板上直接创建的流式处理磁贴上设置警报 。

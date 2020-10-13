@@ -10,12 +10,12 @@ ms.date: 05/20/2020
 ms.author: mihart
 ms.custom: licensing support
 LocalizationGroup: Consumers
-ms.openlocfilehash: ebc402bf317eb99294137260fcd0cd1e9178d9eb
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 5e1da5cc99cbc12b9cbcc41544569f8f0ede9590
+ms.sourcegitcommit: be424c5b9659c96fc40bfbfbf04332b739063f9c
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85237302"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "91634012"
 ---
 # <a name="collaborate-in-workspaces"></a>在工作区中协作
 
@@ -25,7 +25,7 @@ ms.locfileid: "85237302"
 
  可以从 Power BI“主页”，或是通过从左侧导航窗格中选择“工作区”或“我的工作区”来查看工作区。
 
- ![显示两种类型的工作区的导航窗格](media/end-user-workspaces/power-bi-home.png)
+ ![屏幕截图展示了显示两种类型的工作区的导航窗格。](media/end-user-workspaces/power-bi-home.png)
 
 ## <a name="types-of-workspaces"></a>工作区类型
 “我的工作区”存储了你拥有和创建的所有内容。 可以将其作为你的个人沙盒或自己内容的工作区域。 对于很多 Power BI 使用者来说，“我的工作区”保持为空，因为你的作业并不涉及到创建新内容。 根据定义，使用者会使用其他人创建的数据并使用该数据作出业务决策。 如果你发现自己要创建内容，不妨改为阅读[面向设计人员的 Power BI 文档](../create-reports/index.yml)。
@@ -34,7 +34,7 @@ ms.locfileid: "85237302"
 
 下面的 Fig sales 工作区包含三个报表和一个仪表板。 
 
-![显示两种类型的工作区的导航窗格](media/end-user-workspaces/power-bi-app-workspace.png)
+![屏幕截图展示了工作区是如何出现在“工作区”菜单项下并包含报表和仪表板的。](media/end-user-workspaces/power-bi-app-workspace.png)
 
 ## <a name="roles-in-the-workspaces"></a>工作区中的角色
 

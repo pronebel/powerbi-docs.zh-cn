@@ -8,12 +8,12 @@ ms.subservice: powerbi-mobile
 ms.topic: how-to
 ms.date: 03/08/2020
 ms.author: painbar
-ms.openlocfilehash: f7e88a09f2b48bcfe53256f0da976378a5d87e2c
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 67f34bfe04599ffa7d9f9f2c2c3d13545b4306ac
+ms.sourcegitcommit: be424c5b9659c96fc40bfbfbf04332b739063f9c
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85221360"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "91635254"
 ---
 # <a name="configure-report-interaction-settings"></a>配置报表交互设置
 
@@ -21,15 +21,14 @@ ms.locfileid: "85221360"
 
 Power BI 移动应用具有许多可配置的“交互”设置，使你可以控制与数据交互的方式，并定义 Power BI 移动应用中某些元素的行为方式。 下表列出了当前可用的交互设置，以及包含这些设置的设备。
 
-|| Android 手机 | iPhone | Android 平板电脑  | iPad |
-|-|:-:|:-:|:-:|:-:|
+| 设置 | Android 手机 | iPhone | Android 平板电脑  | iPad |
+|---------|:-:|:-:|:-:|:-:|
 | [报表视觉对象上的单击与双击交互](#single-tap) |✔|✔|||
 | [报表视觉对象上的数据点多选与单选](#multi-select) |✔|✔|✔|✔|
 | [停靠报表页脚与动态报表页脚](#docked-report-footer) |✔|✔|||
 | [按钮启动的报表刷新与下拉以刷新](#report-refresh) |✔||||
-|
 
-若要转到交互设置，请点击个人资料图片以打开[侧面板](./mobile-apps-home-page.md#header)，选择“设置”  ，并找到“交互”  部分。
+若要转到交互设置，请点击个人资料图片以打开[侧面板](./mobile-apps-home-page.md#header)，选择“设置”****，并找到“交互”**** 部分。
 
 ![交互设置](./media/mobile-app-interaction-settings/powerbi-mobile-app-interactions-section.png)
 
@@ -42,7 +41,7 @@ Power BI 移动应用具有许多可配置的“交互”设置，使你可以�
 
 如果愿意，可以关闭双击交互。 随后会使用双击交互。 使用双击交互时，首先点击一个视觉对象以选择它，然后再次点击视觉对象以执行所需操作。
 
-### <a name="multi-select"></a>多选
+### <a name="multi-select"></a>多重选择
 
 使用多选选项，可以报表页上选择多个数据点。 如果多选模式已启用，你点击的每个数据点都会添加到其他选定数据点，并且合并结果会自动跨报表页上的所有视觉对象突出显示。 如果多选模式已禁用，当你点击选择数据点时，新选择会替换当前选择。
 
@@ -57,7 +56,7 @@ Power BI 移动应用具有许多可配置的“交互”设置，使你可以�
 
 停靠报表页脚设置确定报表页脚是保持停靠（即固定并始终可见）在报表底部，还是基于报表中的操作（如滚动）隐藏和重新显示。
 
-在 Android 手机上，停靠报表页脚设置在默认情况下为“开启”  ，这意味着报表页脚会停靠并且始终显示在报表底部。 如果更喜欢根据报表中的操作而显示和消失的动态报表页脚，请将设置切换为“关闭”  。
+在 Android 手机上，停靠报表页脚设置在默认情况下为“开启”****，这意味着报表页脚会停靠并且始终显示在报表底部。 如果更喜欢根据报表中的操作而显示和消失的动态报表页脚，请将设置切换为“关闭”****。
 
 ### <a name="report-refresh"></a>报表刷新
 

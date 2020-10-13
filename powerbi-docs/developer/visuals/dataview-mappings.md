@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: conceptual
 ms.date: 06/18/2019
-ms.openlocfilehash: 571d4a2992a5017114cf94c3f49296769062d8ee
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 86572383e2e88f5a1efcf5126828e3365933cbc2
+ms.sourcegitcommit: be424c5b9659c96fc40bfbfbf04332b739063f9c
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "79380775"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "91635944"
 ---
 # <a name="understand-data-view-mapping-in-power-bi-visuals"></a>了解 Power BI 视觉对象中的数据视图映射
 
@@ -337,14 +337,13 @@ export class Visual implements IVisual {
 
 类别数据视图可进行可视化，如下所示：
 
-| 分类 |  |  | | | |
-|-----|-----|------|------|------|------|
-| | 年份 | 2013 | 2014 | 2015 | 2016 |
-| 国家/地区 | | |
-| 美国 | | x | x | 650 | 350 |
-| 加拿大 | | x | 630 | 490 | x |
-| 墨西哥 | | 645 | x | x | x |
-| 英国 | | x | x | 831 | x |
+| 国家/地区 | 2013 | 2014 | 2015 | 2016 |
+|---------|------|------|------|------|
+| USA | x | x | 650 | 350 |
+| 加拿大 | x | 630 | 490 | x |
+| 墨西哥 | 645 | x | x | x |
+| 英国 | x | x | 831 | x |
+
 
 Power BI 将其作为分类数据视图生成。 这是一组类别。
 
@@ -545,15 +544,15 @@ export class Visual implements IVisual {
 
 数据示例：
 
-| 国家/地区| 年份 | 销售 |
+| 国家/地区| Year | Sales |
 |-----|-----|------|
-| 美国 | 2016 | 100 |
-| 美国 | 2015 | 50 |
+| USA | 2016 | 100 |
+| USA | 2015 | 50 |
 | 加拿大 | 2015 | 200 |
-| 加拿大 | 2015 | 50 |
+| Canada | 2015 | 50 |
 | 墨西哥 | 2013 | 300 |
 | 英国 | 2014 | 150 |
-| 美国 | 2015 | 75 |
+| USA | 2015 | 75 |
 
 数据绑定：
 
@@ -742,11 +741,11 @@ td {
 }
 ```
 
-Power BI 创建分层数据结构。 树层次结构的根包括来自 `Category` 数据角色的“父级”列数据，以及来自数据角色表的“子级”列的子项   。
+Power BI 创建分层数据结构。 树层次结构的根包括来自 `Category` 数据角色的“父级”列数据，以及来自数据角色表的“子级”列的子项********。
 
 数据集：
 
-| 父级 | 子级 | 孙级 | 列 | 值 |
+| 父项 | 子女 | 孙级 | 列 | 值 |
 |-----|-----|------|-------|-------|
 | Parent1 | Child1 | Grand child1 | Col1 | 5 |
 | Parent1 | Child1 | Grand child1 | Col2 | 6 |
@@ -848,7 +847,7 @@ Power BI 的核心矩阵视觉对象将数据呈现为表。
 
 若要控制在数据视图中接收的数据量，可以应用数据缩减算法。
 
-默认情况下，所有 Power BI 视觉对象都应用了顶级数据缩减算法，并将“count”设置为 1000 个数据点  。 这相当于在 capabilities.json 中设置了以下属性  ：
+默认情况下，所有 Power BI 视觉对象都应用了顶级数据缩减算法，并将“count”设置为 1000 个数据点**。 这相当于在 capabilities.json 中设置了以下属性**：
 
 ```json
 "dataReductionAlgorithm": {
@@ -858,17 +857,17 @@ Power BI 的核心矩阵视觉对象将数据呈现为表。
 }
 ```
 
-可以将“count”值修改为不超过 30000 的任何整数值  。 基于 R 的 Power BI 视觉对象最多可支持 150000 行。
+可以将“count”值修改为不超过 30000 的任何整数值。 基于 R 的 Power BI 视觉对象最多可支持 150000 行。
 
 ## <a name="data-reduction-algorithm-types"></a>数据缩减算法类型
 
 有四种类型的数据缩减算法设置：
 
-* `top`：如果要将数据限制为从数据集顶部获取的值。 将从数据集中获取顶部第一个“count”值  。
+* `top`：如果要将数据限制为从数据集顶部获取的值。 将从数据集中获取顶部第一个“count”值**。
 * `bottom`：如果要将数据限制为从数据集底部获取的值。 将从数据集中获取最后一个“count”值。
-* `sample`：通过一个简单采样算法来缩减数据集，该方法将项数限制为“count”的数量  。 它意味着包含第一项和最后一项，以及一组“count”数量的项具有相等的间隔  。
-例如，如果你有一个数据集 [0, 1, 2, ...100] 且“count”  值为 9，你将收到值 [0, 10, 20 ...100]。
-* `window`：一次加载一个“窗口”的数据点，其中包含“count”元素   。 当前 `top` 和 `window` 等效。 我们正在努力做到完全支持窗口设置。
+* `sample`：通过一个简单采样算法来缩减数据集，该方法将项数限制为“count”的数量。 它意味着包含第一项和最后一项，以及一组“count”数量的项具有相等的间隔**。
+例如，如果你有一个数据集 [0, 1, 2, ...100] 且“count”值为 9，你将收到值 [0, 10, 20 ...100]。
+* `window`：一次加载一个“窗口”的数据点，其中包含“count”元素 。 当前 `top` 和 `window` 等效。 我们正在努力做到完全支持窗口设置。
 
 ## <a name="data-reduction-algorithm-usage"></a>数据缩减算法使用情况
 

@@ -8,12 +8,12 @@ ms.subservice: powerbi-mobile
 ms.topic: how-to
 ms.date: 03/11/2020
 ms.author: painbar
-ms.openlocfilehash: 93679c3abcebfee31e1fc5dc20b463a6ef3df549
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: d67ab7a28a0975ccac436f57e98c527fae392baf
+ms.sourcegitcommit: be424c5b9659c96fc40bfbfbf04332b739063f9c
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85239205"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "91633254"
 ---
 # <a name="explore-your-data-in-the-power-bi-mobile-app-on-your-apple-watch"></a>在 Apple Watch 上的 Power BI 移动应用中浏览数据
 Power BI Apple Watch 应用可以让你在手表上从 Power BI 仪表板查看 KPI 和卡磁贴。 KPI 和卡磁贴最适合在小屏幕上提供心跳测量。 可以从 iPhone 或 Watch 自身刷新仪表板。
@@ -24,16 +24,16 @@ Power BI Apple Watch 应用可以让你在手表上从 Power BI 仪表板查看 
 ## <a name="use-the-power-bi-app-on-the-apple-watch"></a>在 Apple Watch 上使用 Power BI 应用
 从手表的 springboard 或直接从手表表盘单击 Power BI 小组件（如果已配置），以获取 Power BI Apple Watch 应用。
 
-![Apple Watch](./media/mobile-apple-watch/pbi_aplwatch_complicatn240arrow.png)
+![照片展示了带有 Power BI 应用的 Apple Watch。](./media/mobile-apple-watch/pbi_aplwatch_complicatn240arrow.png)
 
 Power BI Apple Watch 应用由两部分组成。
 
 * “索引屏幕”  允许快速浏览已同步的仪表板的所有 KPI 和卡磁贴。
   
-  ![Apple Watch](./media/mobile-apple-watch/pbi_aplwatch_indexscreen240.png)
+  ![照片展示了包含索引屏幕的 Apple Watch。](./media/mobile-apple-watch/pbi_aplwatch_indexscreen240.png)
 * **处于焦点的磁贴**：单击索引屏幕上的磁贴以深入查看某个特定磁贴。
   
-  ![Apple Watch](./media/mobile-apple-watch/pbi_aplwatch_kpi.png)
+  ![照片展示了显示磁贴的 Apple Watch。](./media/mobile-apple-watch/pbi_aplwatch_kpi.png)
 
 ## <a name="refresh-a-dashboard-from-your-apple-watch"></a>从 Apple Watch 刷新仪表板
 可以直接从 Watch 刷新同步的仪表板。
@@ -75,7 +75,7 @@ Power BI Apple Watch 小组件更新的时间接近数据更新的时间，请�
 
 * 在 iPhone 上，转到 Appe Watch 控制应用，选择 Power BI，导航到小组件名称字段，并键入一个新的名称。
   
-  ![Apple Watch](./media/mobile-apple-watch/pbi_aplwatch_oniphone.png)
+  ![照片展示了 iPhone，其中打开了“我的 Watch”应用，且 Power BI 图标可见。](./media/mobile-apple-watch/pbi_aplwatch_oniphone.png)
 
 > [!NOTE]
 > 如果未更改名称，则 Power BI 小组件将把名称缩短至可适应手表表盘的小空间的字符数。 

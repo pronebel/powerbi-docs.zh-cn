@@ -7,12 +7,12 @@ ms.subservice: powerbi-service
 ms.topic: how-to
 ms.date: 10/23/2019
 ms.author: mohaali
-ms.openlocfilehash: a94f4bda1f7ebc4a612da65623f539e820c8c333
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 249e3cd56359a54c358341f463d049435f407515
+ms.sourcegitcommit: be424c5b9659c96fc40bfbfbf04332b739063f9c
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85240427"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "91635783"
 ---
 # <a name="best-practices-to-optimize-qa-in-power-bi"></a>优化 Power BI“问答”功能的最佳做法
 使用常用短语和自然语言来查询数据是一个非常有用的功能。 在用数据回答问题时，该项功能更为强大，而这就是 Power BI“问答”功能的作用。
@@ -116,11 +116,11 @@ ms.locfileid: "85240427"
 
 **需要调整**
 
-![为“问答”使用多个表](media/q-and-a-best-practices/desktop-qna-09.png)
+![屏幕截图展示了包含联系信息的 Suppliers 表。](media/q-and-a-best-practices/desktop-qna-09.png)
 
 **可用于“问答”**
 
-![为“问答”使用多个表](media/q-and-a-best-practices/desktop-qna-10.png)
+![屏幕截图展示了两个表，一个是 Suppliers，另一个是 Contacts。](media/q-and-a-best-practices/desktop-qna-10.png)
 
 ### <a name="pivot-to-eliminate-property-bags"></a>消除属性包的透视
 
@@ -134,7 +134,7 @@ ms.locfileid: "85240427"
 
 **可用于“问答”**
 
-![为“问答”使用多个表](media/q-and-a-best-practices/desktop-qna-12.png)
+![屏幕截图展示了四个列，分别使用 Age、MartialStatus、City 和 Gender 属性作为列，其中包含不同客户的值。](media/q-and-a-best-practices/desktop-qna-12.png)
 
 ### <a name="union-to-eliminate-partitioning"></a>消除分区的联合
 
@@ -148,7 +148,7 @@ ms.locfileid: "85240427"
 
 **可用于“问答”**
 
-![为“问答”使用多个表](media/q-and-a-best-practices/desktop-qna-14.png)
+![屏幕截图展示了两个表，一个表中有关于旅游的图书和作者信息，另一个表中有与旅游相关的城市信息。](media/q-and-a-best-practices/desktop-qna-14.png)
 
 ### <a name="split-formatted-columns"></a>拆分格式化列
 
@@ -160,7 +160,7 @@ ms.locfileid: "85240427"
 
 **可用于“问答”**
 
-![为“问答”使用多个表](media/q-and-a-best-practices/desktop-qna-16.png)
+![屏幕截图展示了一个表，其中包含客户、完整的地址行以及将地址细分为街道、城市和国家/地区的三行。](media/q-and-a-best-practices/desktop-qna-16.png)
 
 同样的，如果你有某人的任何完整姓名列，则添加名字和姓氏列，以防可能有人会使用姓名的一部分进行提问   。 
 
@@ -175,7 +175,7 @@ ms.locfileid: "85240427"
 
 **可用于“问答”**
 
-![为“问答”使用多个表](media/q-and-a-best-practices/desktop-qna-18.png)
+![屏幕截图展示了两个表，一个表中有名称和流派信息，另一个表中有作曲者信息。](media/q-and-a-best-practices/desktop-qna-18.png)
 
 ### <a name="denormalize-to-eliminate-inactive-relationships"></a>规范化以消除非活动关系
 

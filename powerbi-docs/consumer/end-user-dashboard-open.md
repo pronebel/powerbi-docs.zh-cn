@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 08/27/2020
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: e9b950d85d50727ed1e9ca5ec2f94498a37d1665
-ms.sourcegitcommit: 89ce1777a85b9fc476f077cbe22978c6cf923603
+ms.openlocfilehash: f447856ac387bdabdbd29e1d1ebf47caef22677a
+ms.sourcegitcommit: be424c5b9659c96fc40bfbfbf04332b739063f9c
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/02/2020
-ms.locfileid: "89286789"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "91633921"
 ---
 # <a name="view-a-dashboard"></a>查看仪表板
 
@@ -31,14 +31,11 @@ Power BI 业务用户需要花费大量时间查看仪表板。 仪表板旨在�
 
 ## <a name="open-a-dashboard"></a>打开仪表板
 
+可以从 Power BI 服务中的多个位置打开仪表板。
 
+![仪表板图标](media/end-user-dashboard-open/power-bi-dashboard-icon.png)
 
-|              |         |
-|------------|--------------------------------|
-|![仪表板图标](media/end-user-dashboard-open/power-bi-dashboard-icon.png)      |可以从 Power BI 服务中的多个位置打开仪表板。 <br> 只需查找此仪表板图标。 确定 <br>仪表板后，通过选择仪表板来打开它，仪表板将填充 Power BI 画布。 |
-|                    |          |
-
-
+只需查找此仪表板图标。 在确定仪表板后，通过选择仪表板来打开它，仪表板将填满 Power BI 画布。
 
 可在导航窗格的所有容器中找到仪表板。 
 

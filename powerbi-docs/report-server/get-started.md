@@ -9,18 +9,18 @@ ms.topic: overview
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.custom: mvc
-ms.openlocfilehash: 4b2b29effb1d9b4b2d8e743990dd3dd0d27470f8
-ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
+ms.openlocfilehash: 3f44353fc562793037d80a2aa7f0a1d42d207bc6
+ms.sourcegitcommit: be424c5b9659c96fc40bfbfbf04332b739063f9c
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90859833"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "91634035"
 ---
 # <a name="what-is-power-bi-report-server"></a>什么是 Power BI 报表服务器？
 
 Power BI 报表服务器是一个本地报表服务器，其中包含一个可显示和管理报表和 KPI 的 Web 门户。 随之一起提供的还有创建 Power BI 报表、分页报表、移动报表和 KPI 的工具。 用户可以采用不同的方式访问这些报表：在 Web 浏览器、移动设备或在收件箱中以电子邮件的形式查看报表。
 
-![Power BI 报表服务器 Web 门户](media/get-started/power-bi-report-server-overview.png)
+![屏幕截图展示了 Power BI 报表服务器 Web 门户。](media/get-started/power-bi-report-server-overview.png)
 
 ## <a name="comparing-power-bi-report-server"></a>比较 Power BI 报表服务器 
 Power BI 报表服务器类似于 SQL Server Reporting Services 和 Power BI 联机服务，但采用不同的方式。 与 Power BI 服务一样，Power BI 报表服务器也可托管 Power BI 报表 (.pbix)、Excel 文件和分页报表 (.rdl)。 和 Reporting Services 一样，Power BI 报表服务器是本地服务器。 Power BI 报表服务器功能是 Reporting Services 的超集：Reporting Services 可执行的所有操作均可由 Power BI 报表服务器执行，后者还支持 Power BI 报表。 有关详细信息，请参阅[比较 Power BI 报表服务器和 Power BI 服务](compare-report-server-service.md)。
@@ -36,7 +36,7 @@ Power BI 报表服务器类似于 SQL Server Reporting Services 和 Power BI 联
 ## <a name="web-portal"></a>Web 门户
 Power BI 报表服务器的入口点是可以在任意新式浏览器中查看的安全 Web 门户。 在此处访问所有报表和 KPI。 Web 门户上的内容在传统的文件夹层次结构中进行分类。 在文件夹中，内容按类型分组：Power BI 报表、移动报表、分页报表、KPI 和 Excel 工作簿。 共享数据集和共享数据源位于其自己的文件夹中，可用作报表的构建基块。 标记收藏夹以在单个文件夹中查看这些内容。 此外，还可以直接在 Web 门户中创建 KPI。 
 
-![Power BI 报表服务器 Web 门户](media/get-started/web-portal.png)
+![照片展示了显示 Power BI 报表服务器 Web 门户的笔记本电脑。](media/get-started/web-portal.png)
 
 根据你的权限，可以在 Web 门户中管理内容。 可以安排报表处理、按需访问报表，并订阅已发布报表。 还可以向 Web 门户应用自己的自定义[品牌](/sql/reporting-services/branding-the-web-portal)。 
 

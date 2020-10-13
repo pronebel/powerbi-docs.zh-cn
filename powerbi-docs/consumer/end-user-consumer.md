@@ -9,12 +9,12 @@ ms.topic: overview
 ms.date: 05/22/2020
 ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: a888d9010a418aa51534b94350cc3f6d82385772
-ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
+ms.openlocfilehash: 74f6d14ed96e7e33929aafe315965c04b2f78863
+ms.sourcegitcommit: be424c5b9659c96fc40bfbfbf04332b739063f9c
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90860960"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "91633966"
 ---
 # <a name="the-power-bi-service-for-consumers"></a>面向使用者的 Power BI 服务
 
@@ -24,17 +24,17 @@ ms.locfileid: "90860960"
  
 他们向你发来了各种类型的报表、电子表格、包含图表的电子邮件，甚至是打印的讲义。 数据堆积如山时，就难以快速找到所需的信息，并且你担心可能不会使用最新的信息。  
  
-![Power BI 仪表板](media/end-user-consumer/power-bi-consumer-pipes.png)
+![图展示了使用者所接收数据的格式标签“报表”、“图表”、“电子邮件”和“电子表格”。](media/end-user-consumer/power-bi-consumer-pipes.png)
 
 ## <a name="the-power-bi-service-for-consumers"></a>面向使用者的 Power BI 服务 
 
 使用 Power BI，工作更轻松，也更有效。 所有这些数据都会转化为图表和图形，以便更直观地显示你的数据。 数据见解并不是较长的列表或多个表，而是多彩且醒目的视觉对象，可通过这些视觉对象了解数据中的见解。 
 
-![Power BI 仪表板](media/end-user-consumer/power-bi-consumer-examples.png)
+![屏幕截图展示了包含不同种类的图表的 Power BI 报表。](media/end-user-consumer/power-bi-consumer-examples.png)
  
 只需在浏览器或移动设备上打开 Power BI 服务。 你和你的同事处理相同的受信任仪表板和报表，它们自动更新和刷新，因此你们处理的内容始终都是最新的。   
 
-![Power BI 仪表板](media/end-user-consumer/power-bi-funnel.png)
+![图展示了多种格式的数据合并到 Power BI 中，并显示在计算机屏幕和手持设备上。](media/end-user-consumer/power-bi-funnel.png)
 
 由于这不是静态内容，因此你可以进行深入挖掘、寻求趋势、见解和其他商业智能。 切分内容并对内容进行切片，甚至使用自己的话语向其提问。 或者，不采取任何操作，让数据发现你感兴趣的见解、在数据更改时向你发送警报并按所设置的计划向你发送电子邮件。 任何时间、任何设备、云中或本地的所有数据。 而 Power BI 可以执行的操作远不止这些。 
 
@@ -56,7 +56,7 @@ ms.locfileid: "90860960"
  
 这并不意味着无法保存更改 — 可以保存。 但这些更改只会影响你的内容视图。 还原为原始默认视图如同单击按钮一样简单。  
 
-![Power BI 仪表板](media/end-user-consumer/power-bi-reset.png)
+![屏幕截图展示了“重置为默认值”按钮。](media/end-user-consumer/power-bi-reset.png)
 
 
 ## <a name="next-steps"></a>后续步骤

@@ -8,12 +8,12 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 03/02/2020
 ms.author: v-pemyer
-ms.openlocfilehash: 7c9b5c753b262900d61a1a71b4c9a8167c943121
-ms.sourcegitcommit: c83146ad008ce13bf3289de9b76c507be2c330aa
+ms.openlocfilehash: 3c94c25f5f1ba717f68a0c2a5ec661be10f70135
+ms.sourcegitcommit: 7e99e8af9caf9340958c4607a94728d43e8c3811
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/10/2020
-ms.locfileid: "86216692"
+ms.lasthandoff: 10/02/2020
+ms.locfileid: "91668519"
 ---
 # <a name="many-to-many-relationship-guidance"></a>多对多关系指导
 
@@ -48,7 +48,7 @@ ms.locfileid: "86216692"
 > [!NOTE]
 > 本来是不可以在 Power BI Desktop 模型关系图中显示表行的。 本文显示出来为的是通过提供清晰的示例来支持讨论。
 
-![显示该模型现在显示所有表行的示意图。 下一段内容介绍行的详细信息。](media/relationships-many-to-many/bank-account-customer-model-related-tables-2.png)
+![显示该模型现在显示所有表行的示意图。 下面的段落描述了四个表的行详细信息。](media/relationships-many-to-many/bank-account-customer-model-related-tables-2.png)
 
 下面的项目符号列表描述了四个表的行详细信息：
 
@@ -137,7 +137,7 @@ ms.locfileid: "86216692"
 
 现在，让我们看一下表行。 请注意，在“Fulfillment”表中，多个发货可履行订单行。 （缺少订单行意味着尚未履行该订单。）
 
-![显示该模型现在显示所有表行的示意图。 下一段内容介绍行的详细信息。](media/relationships-many-to-many/order-fulfillment-model-related-tables.png)
+![显示该模型现在显示所有表行的示意图。 下面的段落描述了两个表的行详细信息。](media/relationships-many-to-many/order-fulfillment-model-related-tables.png)
 
 下面的项目符号列表描述了两个表的行的详细信息：
 
@@ -161,7 +161,7 @@ ms.locfileid: "86216692"
 
 ### <a name="relate-many-to-many-facts-guidance"></a>关于关联多对多事实的指导
 
-通常，我们不建议直接使用多对多基数来关联两个事实类型表。 主要原因是，该模型无法在报表视觉对象筛选或分组的方式上提供灵活性。 在此示例中，视觉对象只能按“Order”表“OrderID”列进行筛选或分组 。 另外一个原因与数据的质量有关。 如果数据存在完整性问题，在查询期间可能会由于“弱关系”的性质而省略某些行。 有关详细信息，请参阅 [Power BI Desktop 中的模型关系（关系计算）](../transform-model/desktop-relationships-understand.md#relationship-evaluation)。
+通常，我们不建议直接使用多对多基数来关联两个事实类型表。 主要原因是，该模型无法在报表视觉对象筛选或分组的方式上提供灵活性。 在此示例中，视觉对象只能按“Order”表“OrderID”列进行筛选或分组 。 另外一个原因与数据的质量有关。 如果数据存在完整性问题，则可能是在查询期间由于“有限关系”性质而省略了一些行。 有关详细信息，请参阅 [Power BI Desktop 中的模型关系（关系计算）](../transform-model/desktop-relationships-understand.md#relationship-evaluation)。
 
 我们建议采用[星型架构](star-schema.md)设计原则，而不是直接关联事实类型表。 可以通过添加维度类型表来实现。 然后，维度类型表通过使用一对多关系与事实类型表关联。 此设计方法非常可靠，因为它提供了灵活的报表选项。 通过这种设计方法，可使用任何维度类型列进行筛选或分组，并汇总任何相关联的事实类型表。
 
@@ -184,7 +184,7 @@ ms.locfileid: "86216692"
 - 报表视觉对象可以对维度类型表中的任何可见列进行“筛选或分组”
 - 报表视觉对象可以汇总维度类型表中的任何可见列
 - 应用于“OrderLine”、“OrderDate”或“Product”表的筛选器将传播到两个事实类型表  
-- 所有关系都是一对多关系，每个关系都是“强关系”。 不会屏蔽数据完整性问题。 有关详细信息，请参阅 [Power BI Desktop 中的模型关系（关系计算）](../transform-model/desktop-relationships-understand.md#relationship-evaluation)。
+- 所有关系都是一对多，每个关系都是常规关系。 不会屏蔽数据完整性问题。 有关详细信息，请参阅 [Power BI Desktop 中的模型关系（关系计算）](../transform-model/desktop-relationships-understand.md#relationship-evaluation)。
 
 ## <a name="relate-higher-grain-facts"></a>关联更高粒度的事实
 
@@ -228,7 +228,7 @@ IF(
 
 以下矩阵现在使用“**Target Quantity**”度量值。 它显示所有每月目标数量均为空白。
 
-![显示矩阵视觉对象显示 2020 年的目标数量为 270 的示意图。](media/relationships-many-to-many/sales-targets-model-matrix-blank-months-good.png)
+![展示了矩阵视觉对象的图，其中 2020 年的目标数量为 270，且每月都为空白值。](media/relationships-many-to-many/sales-targets-model-matrix-blank-months-good.png)
 
 ### <a name="relate-higher-grain-non-date"></a>关联更高粒度（非日期）
 

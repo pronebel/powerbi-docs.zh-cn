@@ -10,12 +10,12 @@ ms.topic: how-to
 ms.date: 05/06/2020
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 332c1c1b6c3e4888f0177bab284e6b4902987be2
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 0da34397c1b707eeece6fdf127c2c4e96f5ab6a5
+ms.sourcegitcommit: be424c5b9659c96fc40bfbfbf04332b739063f9c
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85219772"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "91635668"
 ---
 # <a name="customize-x-axis-and-y-axis-properties"></a>自定义 X 轴和 Y 轴属性
 
@@ -75,7 +75,7 @@ X 轴标签在图表中列的下方显示。 现在，它们是浅灰色的小�
 
 3. 将“X 轴”滑块移至“开” 。
 
-    ![“开”滑块的屏幕截图。](media/power-bi-visualization-customize-x-axis-and-y-axis/power-bi-slider-on.png)
+    ![展示了 X 轴的“开”滑块的屏幕截图。](media/power-bi-visualization-customize-x-axis-and-y-axis/power-bi-slider-on.png)
 
     可能需要将 X 轴设置为“关”的部分原因包括：可视化效果在没有标签的情况下直观明了；或报表页面中内容过多，需要腾出空间用于显示更多数据。
 
@@ -139,7 +139,7 @@ X 轴标签在图表中列的下方显示。 现在，它们是浅灰色的小�
 
 1. 将“Y 轴”滑块移至“开”。  
 
-    ![“开”滑块的屏幕截图。](media/power-bi-visualization-customize-x-axis-and-y-axis/power-bi-y-axis-on.png)
+    ![展示了 Y 轴的“开”滑块的屏幕截图。](media/power-bi-visualization-customize-x-axis-and-y-axis/power-bi-y-axis-on.png)
 
     可能需要禁用 Y 轴的一个原因是，为了节省空间以显示更多数据。
 

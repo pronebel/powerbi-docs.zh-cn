@@ -8,18 +8,18 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: how-to
 ms.date: 04/02/2019
-ms.openlocfilehash: 92bccc80c36fdf6de0972dd67b33a4f1f9c85c0c
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: eac2f6d1bcb79ccf25f69eb79b73ae884898ec58
+ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85240156"
+ms.lasthandoff: 10/06/2020
+ms.locfileid: "91748669"
 ---
 # <a name="register-an-azure-ad-application-to-use-with-power-bi"></a>注册 Azure AD 应用程序以使用 Power BI
 
 了解如何在 Azure Active Directory (Azure AD) 中注册应用程序，用于嵌入 Power BI 内容。
 
-在 Azure AD 中注册应用程序后，该应用程序将能够访问 [Power BI REST API](https://docs.microsoft.com/rest/api/power-bi/)。 注册应用后，可以建立应用标识，并指定对 Power BI REST 资源的权限。
+在 Azure AD 中注册应用程序后，该应用程序将能够访问 [Power BI REST API](/rest/api/power-bi/)。 注册应用后，可以建立应用标识，并指定对 Power BI REST 资源的权限。
 
 > [!IMPORTANT]
 > 注册 Power BI 应用之前，需要一个 [Azure Active Directory 租户和一个组织用户](create-an-azure-active-directory-tenant.md)。 如果尚未以租户中的用户身份注册 Power BI，则无法成功完成应用注册。
@@ -54,7 +54,7 @@ ms.locfileid: "85240156"
 
 5. 如果对应用程序类型选择“服务器端 Web 应用程序”，然后继续输入“主页 URL”和“重定向 URL”的值  。 “重定向 URL”适用于任何有效 URL，并且应适合创建的应用程序。 如果已选择“本机”，则转至步骤 6。
 
-6. 选择应用程序需要的 Power BI API。 有关 Power BI 访问权限的详细信息，请参阅 [Microsoft 标识平台终结点中的权限和许可](https://docs.microsoft.com/azure/active-directory/develop/v2-permissions-and-consent)。 然后选择“注册”。
+6. 选择应用程序需要的 Power BI API。 有关 Power BI 访问权限的详细信息，请参阅 [Microsoft 标识平台终结点中的权限和许可](/azure/active-directory/develop/v2-permissions-and-consent)。 然后选择“注册”。
 
     ![选择要注册的 API](media/register-app/register-app-new-app-registration-apis-register.png)
 
@@ -86,7 +86,7 @@ ms.locfileid: "85240156"
 
 5. 按照提示进行操作，并创建新的应用程序。
 
-   有关如何在 Azure Active Directory 中注册应用程序的详细信息，请参阅[向 Azure Active Directory 注册应用](https://docs.microsoft.com/azure/active-directory/develop/quickstart-v2-register-an-app)
+   有关如何在 Azure Active Directory 中注册应用程序的详细信息，请参阅[向 Azure Active Directory 注册应用](/azure/active-directory/develop/quickstart-v2-register-an-app)
 
 ## <a name="how-to-get-the-application-id"></a>如何获取应用程序 ID
 
@@ -94,7 +94,7 @@ ms.locfileid: "85240156"
 
 ## <a name="how-to-get-the-service-principal-object-id"></a>如何获取服务主体对象 ID
 
-使用 [Power BI API](https://docs.microsoft.com/rest/api/power-bi/) 时，请务必使用[服务主体对象 ID](embed-service-principal.md) 定义操作以引用服务主体 - 例如，以管理员身份将服务主体应用于工作区。
+使用 [Power BI API](/rest/api/power-bi/) 时，请务必使用[服务主体对象 ID](embed-service-principal.md) 定义操作以引用服务主体 - 例如，以管理员身份将服务主体应用于工作区。
 
 ## <a name="apply-permissions-to-your-application-within-azure-ad"></a>在 Azure AD 中向应用授予权限
 
@@ -120,7 +120,7 @@ ms.locfileid: "85240156"
 
 ### <a name="applying-permissions-programmatically"></a>以编程方式应用权限
 
-1. 需要获取租户中的现有服务主体（用户）。 有关如何执行该操作的信息，请参阅 [servicePrincipal](https://docs.microsoft.com/graph/api/resources/serviceprincipal?view=graph-rest-beta)。
+1. 需要获取租户中的现有服务主体（用户）。 有关如何执行该操作的信息，请参阅 [servicePrincipal](/graph/api/resources/serviceprincipal?view=graph-rest-beta)。
 
     可以调用 Get servicePrincipal API 而无需使用 {ID}，这将使你获取租户中的所有服务主体。
 
@@ -141,11 +141,11 @@ ms.locfileid: "85240156"
 
 4. 向 Power BI API 授予应用权限
 
-   如果使用的是现有租户，并且不希望向所有租户用户授予权限，可以将 contentType 值替换为 Principal，向特定用户授予权限 。
+   如果你使用的是现有租户，并且对代表所有租户用户授予权限不感兴趣，可以将 consentType 的值替换为 Principal，从而向特定用户授予权限。
 
    consentType 值可提供 AllPrincipals 或 Principal  。
 
-   * AllPrincipals 仅可由租户管理员使用，用于代表租户中的所有用户授予权限。
+   * AllPrincipals 只能被 Power BI 管理员用来代表租户中的所有用户授予权限。
    * Principal 用于代表特定用户授予权限。 在此情况下，应将附加属性添加到请求正文 - principalId={User_ObjectId}。
 
      主帐户若要避免收到获取 Azure AD 同意的提示，需要“获取权限”，而这在进行非交互式登录情况下是不可能的。
@@ -164,18 +164,18 @@ ms.locfileid: "85240156"
      }
      ```
 
-    resourceId c78a3685-1ce7-52cd-95f7-dc5aea8ec98e 不是通用的，而是与租户相关。 此值是 Azure Active Directory (AAD) 租户中“Power BI 服务”应用程序的 objectId。
+    resourceId c78a3685-1ce7-52cd-95f7-dc5aea8ec98e 不是通用的，而是依赖租户的。 此值是 Azure Active Directory 中“Power BI 服务”应用程序的 objectId。
 
     用户可在 Azure 门户中快速获取此值：
     1. https://portal.azure.com/#blade/Microsoft_AAD_IAM/StartboardApplicationsMenuBlade/AllApps
 
     2. 在搜索框中搜索“Power BI 服务”
 
-5. 向 Azure Active Directory (AAD) 授予应用权限
+5. 向 Azure Active Directory 授予应用权限
 
    consentType 值可提供 AllPrincipals 或 Principal  。
 
-   * AllPrincipals 只能由租户管理员用于向租户中的所有用户授予权限。
+   * AllPrincipals 只能被 Power BI 管理员用来为租户中的所有用户授予权限。
    * Principal 用于向特定用户授予权限。 在此情况下，应将附加属性添加到请求正文 - principalId={User_ObjectId}。
 
    主帐户若要避免收到获取 Azure AD 同意的提示，需要“获取权限”，而这在进行非交互式登录情况下是不可能的。

@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.custom: seodec18
 ms.date: 01/04/2019
-ms.openlocfilehash: 78487f52df9f62e85e80f02d9653c9ac2f5b52c7
-ms.sourcegitcommit: f05f7b0112a8ec2dce60839ea5f922eda3cc776c
+ms.openlocfilehash: 771c41b896a6b886e8c72fa3d88ca8842e8ebffe
+ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "84337110"
+ms.lasthandoff: 10/06/2020
+ms.locfileid: "91748830"
 ---
 # <a name="tutorial-embed-power-bi-paginated-reports-into-an-application-for-your-customers"></a>教程：在应用程序中为客户嵌入 Power BI 分页报表。
 
@@ -57,7 +57,7 @@ ms.locfileid: "84337110"
 * **Power BI Premium**：对于嵌入分页报表，需要 *P* SKU 容量。 嵌入 Power BI 内容时，此解决方案称为 *Power BI 嵌入*。 有关此订阅的详细信息，请参阅[什么是 Power BI Premium？](../../admin/service-premium-what-is.md)
 * **Azure Power BI Embedded**：可从 [Microsoft Azure 门户](https://portal.azure.com)购买专用容量。 此订阅使用 *A* SKU。 对于嵌入分页报表，至少需要 *A4* 订阅。 有关如何创建 Power BI Embedded 容量的详细信息，请参阅[在 Azure 门户中创建 Power BI Embedded 容量](azure-pbie-create-capacity.md)。
 
-下表介绍每个 SKU 的资源和限制。 若要确定最能满足你需求的容量，请参阅[应该为我的方案购买哪一个 SKU](https://docs.microsoft.com/power-bi/developer/embedded-faq#which-solution-should-i-choose) 表。
+下表介绍每个 SKU 的资源和限制。 若要确定最能满足你需求的容量，请参阅[应该为我的方案购买哪一个 SKU](./embedded-faq.md#which-solution-should-i-choose) 表。
 
 | 容量节点 | 总虚拟核心 | 后端 V 核心 | RAM (GB) | 前端 V 核心 | 
 | --- | --- | --- | --- | --- |
@@ -70,13 +70,13 @@ ms.locfileid: "84337110"
 
 创建专用容量后，可将该专用容量分配给应用工作区。
 
-若要使用[服务主体](embed-service-principal.md)将专用容量分配给工作区，请使用 [Power BI REST API](https://docs.microsoft.com/rest/api/power-bi/capacities/groups_assigntocapacity)。 使用 Power BI REST API 时，请务必使用[服务主体对象 ID](embed-service-principal.md)。
+若要使用[服务主体](embed-service-principal.md)将专用容量分配给工作区，请使用 [Power BI REST API](/rest/api/power-bi/capacities/groups_assigntocapacity)。 使用 Power BI REST API 时，请务必使用[服务主体对象 ID](embed-service-principal.md)。
 
 ### <a name="create-and-upload-your-paginated-reports"></a>创建并上传分页报表
 
 可使用 [Power BI 报表生成器](../../paginated-reports/paginated-reports-report-builder-power-bi.md#create-reports-in-power-bi-report-builder)创建分页报表，然后[将报表上传到服务](../../paginated-reports/paginated-reports-quickstart-aw.md#upload-the-report-to-the-service)。
 
-可使用 [Power BI REST API](https://docs.microsoft.com/rest/api/power-bi/imports/postimportingroup) 将分页报表导入新工作区。
+可使用 [Power BI REST API](/rest/api/power-bi/imports/postimportingroup) 将分页报表导入新工作区。
 
 ## <a name="embed-content-using-the-sample-application"></a>使用示例应用程序嵌入内容
 
@@ -119,7 +119,7 @@ ms.locfileid: "84337110"
 
 3. 选择需要 applicationId 的应用程序。
 
-    ![选择应用](media/embed-paginated-reports-for-customers/display-name.png)
+    ![屏幕截图展示了应用程序的显示名称，其中选中的应用程序需要应用程序 ID。](media/embed-paginated-reports-for-customers/display-name.png)
 
 4. 存在列为 GUID 的“应用程序 ID”。 使用此“应用 ID”作为应用的“applicationId”。
 
@@ -171,7 +171,7 @@ Get-PowerBIworkspace -name "Paginated Report Embed" | Get-PowerBIReport
 
 3. 选择需要使用“ApplicationSecret”的应用。
 
-    ![选择应用](media/embed-paginated-reports-for-customers/display-name-2.png)
+    ![屏幕截图展示了应用程序的显示名称，其中选中的应用程序需要应用程序机密。](media/embed-paginated-reports-for-customers/display-name-2.png)
 
 4. 在“管理”下选择“证书和密码” 。
 
@@ -201,11 +201,11 @@ Get-PowerBIworkspace -name "Paginated Report Embed" | Get-PowerBIReport
 
 ## <a name="embed-power-bi-paginated-reports-within-your-application"></a>在应用程序中嵌入 Power BI 分页报表
 
-即使已使用 [Power BI REST API](https://docs.microsoft.com/rest/api/power-bi/) 完成嵌入 Power BI 分页报表的步骤，也可使用 **.NET SDK** 编写本文中所述的示例代码。
+即使已使用 [Power BI REST API](/rest/api/power-bi/) 完成嵌入 Power BI 分页报表的步骤，也可使用 **.NET SDK** 编写本文中所述的示例代码。
 
-在应用程序中为客户嵌入 Power BI 分页报表时，需要具有 Azure AD [服务主体](embed-service-principal.md)，并获取 Power BI 应用程序的 [Azure AD 访问令牌](get-azuread-access-token.md#access-token-for-non-power-bi-users-app-owns-data)，然后才能调用 [Power BI REST API](https://docs.microsoft.com/rest/api/power-bi/)。
+在应用程序中为客户嵌入 Power BI 分页报表时，需要具有 Azure AD [服务主体](embed-service-principal.md)，并获取 Power BI 应用程序的 [Azure AD 访问令牌](get-azuread-access-token.md#access-token-for-non-power-bi-users-app-owns-data)，然后才能调用 [Power BI REST API](/rest/api/power-bi/)。
 
-若要使用**访问令牌**创建 Power BI 客户端，可创建便于与 [Power BI REST API](https://docs.microsoft.com/rest/api/power-bi/) 进行交互的 Power BI 客户端对象。 使用 Microsoft.Rest.TokenCredentials 对象包装 AccessToken，以创建 Power BI 客户端对象。
+若要使用**访问令牌**创建 Power BI 客户端，可创建便于与 [Power BI REST API](/rest/api/power-bi/) 进行交互的 Power BI 客户端对象。 使用 Microsoft.Rest.TokenCredentials 对象包装 AccessToken，以创建 Power BI 客户端对象。
 
 ```csharp
 using Microsoft.IdentityModel.Clients.ActiveDirectory;
@@ -242,7 +242,7 @@ Report report = reports.Value.FirstOrDefault();
 
 ### <a name="create-the-embed-token"></a>创建嵌入令牌
 
-生成嵌入令牌，此令牌可通过 JavaScript API 进行使用。 若要创建嵌入令牌用于嵌入 Power BI 分页报表，请使用 [Reports GenerateTokenInGroup](https://docs.microsoft.com/rest/api/power-bi/embedtoken/reports_generatetokeningroup) API。
+生成嵌入令牌，此令牌可通过 JavaScript API 进行使用。 若要创建嵌入令牌用于嵌入 Power BI 分页报表，请使用 [Reports GenerateTokenInGroup](/rest/api/power-bi/embedtoken/reports_generatetokeningroup) API。
 
 [示例应用程序](https://github.com/Microsoft/PowerBI-Developer-Samples)的  *Services\EmbedService.cs* 文件中提供创建嵌入令牌的示例。
 

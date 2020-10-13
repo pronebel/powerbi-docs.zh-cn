@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 06/18/2020
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: b273b5ea265815f26e58010356790186163c4aa8
-ms.sourcegitcommit: caf60154a092f88617eb177bc34fb784f2365962
+ms.openlocfilehash: e896b3aeabc6a22c98563d0836984cd2d8a644de
+ms.sourcegitcommit: be424c5b9659c96fc40bfbfbf04332b739063f9c
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/25/2020
-ms.locfileid: "85354607"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "91633828"
 ---
 # <a name="tips-and-tricks-for-color-formatting-in-power-bi"></a>Power BI 中颜色格式设置的提示和技巧
 
@@ -130,15 +130,15 @@ Power BI 提供了自定义仪表板和报表的多种方法。 本文详细介�
 ## <a name="add-color-to-table-rows"></a>向表行添加颜色
 表和矩阵提供了许多有关颜色格式的选项。 
 
-![默认表](media/service-tips-and-tricks-for-color-formatting/power-bi-table.png)
+![屏幕截图展示了包含交替的白色行和灰色行的表。](media/service-tips-and-tricks-for-color-formatting/power-bi-table.png)
 
 将颜色应用于表或矩阵的最快捷的方法之一是打开“格式”选项卡，然后选择“样式”。  在下图中，我们选择了“带加粗标题的有格式行”。
 
-![默认表](media/service-tips-and-tricks-for-color-formatting/power-bi-table-style.png)
+![屏幕截图展示了“带加粗标题的有格式行”样式选项，此选项让标题行显示为黑色，并让其他行显示为浅绿色和深绿色。](media/service-tips-and-tricks-for-color-formatting/power-bi-table-style.png)
 
 尝试其他颜色格式设置选项。 在此图中，我们更改了“列标题”下的背景色，并更改了“值”（行）的“背景色”和“替代背景色”。
 
-![默认表](media/service-tips-and-tricks-for-color-formatting/power-bi-table-rows.png)
+![屏幕截图展示了“背景色”和“替代背景色”的值选择器。](media/service-tips-and-tricks-for-color-formatting/power-bi-table-rows.png)
 
 ## <a name="how-to-undo-in-power-bi"></a>如何在 Power BI 中撤消操作
 与许多其他 Microsoft 服务和软件相类似，Power BI 提供了撤消上一项命令的简单方法。 例如，假设你更改了某个数据点或一系列数据点的颜色，但当其出现在可视化效果中时你不喜欢该颜色。 你不记得之前它是什么颜色，但是你知道你想用回之前的颜色！
@@ -149,7 +149,7 @@ Power BI 提供了自定义仪表板和报表的多种方法。 本文详细介�
 
 ![“格式”卡底部显示“恢复为默认值”](media/service-tips-and-tricks-for-color-formatting/power-bi-revert.png)
 
-## <a name="feedback"></a>反馈
+## <a name="give-us-your-feedback"></a>向我们提供反馈
 你是否拥有想要共享的技巧？ 请将其发送给我们，我们会考虑将其列在此处。
 
 ## <a name="next-steps"></a>后续步骤

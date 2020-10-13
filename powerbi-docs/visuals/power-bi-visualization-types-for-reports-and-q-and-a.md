@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 01/14/2020
 ms.author: rien
 LocalizationGroup: Visualizations
-ms.openlocfilehash: e2245861e37a67e023efde1e6fc7c68a551f2944
-ms.sourcegitcommit: 2cb249fc855e369eed1518924fbf026d5ee07eb1
+ms.openlocfilehash: e2ad8867117977cb7f53fbd295a2f560d65b0d76
+ms.sourcegitcommit: 51b965954377884bef7af16ef3031bf10323845f
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/24/2020
-ms.locfileid: "83814005"
+ms.lasthandoff: 09/30/2020
+ms.locfileid: "91600513"
 ---
 # <a name="visualization-types-in-power-bi"></a>Power BI 中的可视化效果类型
 ## <a name="power-bi-visualizations"></a>Power BI 可视化效果
@@ -113,7 +113,7 @@ ms.locfileid: "83814005"
 ### <a name="maps-arcgis-maps"></a>地图：ArcGIS 地图
 ![ArcGIS 地图](media/power-bi-visualization-types-for-reports-and-q-and-a/power-bi-esri-map-theme2.png)
 
-有关详细信息，请参阅 [Power BI 中的 ArcGIS 地图](power-bi-visualization-arcgis.md)。
+有关详细信息，请参阅 [Power BI 中的 ArcGIS 地图](power-bi-visualizations-arcgis.md)。
 
 ### <a name="maps-filled-maps-choropleth"></a>地图：着色地图（等值线图）
 ![着色地图](media/power-bi-visualization-types-for-reports-and-q-and-a/pbi_nancy_viz_filledmap.png)
@@ -133,7 +133,7 @@ ms.locfileid: "83814005"
 
 
 ### <a name="matrix"></a>Matrix
-![矩形图](media/power-bi-visualization-types-for-reports-and-q-and-a/matrix.png)
+![矩阵视觉对象的屏幕截图](media/power-bi-visualization-types-for-reports-and-q-and-a/matrix.png)
 
 >[!TIP]
 >表支持两个维度，但使用矩阵，可以更轻松地跨多个维度有目的地显示数据，因为它支持梯级布局。 矩阵自动聚合数据，并启用向下钻取。 
@@ -232,7 +232,7 @@ ms.locfileid: "83814005"
 
 “***以树状图表示的每个州的销售额***”
 
-如果你的仪表板没有问答字段，则你的租户管理员可能已将其禁用。 
+如果仪表板没有 Q&A 字段，它可能已经被你的 Power BI 管理员禁用了。 
 
 ![显示指定了可视化效果类型的问答问题框](media/power-bi-visualization-types-for-reports-and-q-and-a/qatreemap.png)
 

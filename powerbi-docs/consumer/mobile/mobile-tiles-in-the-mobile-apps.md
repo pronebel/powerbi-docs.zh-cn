@@ -8,12 +8,12 @@ ms.subservice: powerbi-mobile
 ms.topic: how-to
 ms.date: 03/11/2020
 ms.author: painbar
-ms.openlocfilehash: 68bfe1a97d9db0b12f3942961c4e50e5c535fd84
-ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
+ms.openlocfilehash: 23f1ab7fb7ae5e143084042699db708c0827114f
+ms.sourcegitcommit: 7e99e8af9caf9340958c4607a94728d43e8c3811
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90856176"
+ms.lasthandoff: 10/02/2020
+ms.locfileid: "91668542"
 ---
 # <a name="explore-tiles-in-the-power-bi-mobile-apps"></a>在 Power BI 移动应用中浏览磁贴
 适用于：
@@ -57,7 +57,7 @@ ms.locfileid: "90856176"
     ![对话框的屏幕截图，其中显示了允许 Power BI 使用内部浏览器打开链接。](media/mobile-tiles-in-the-mobile-apps/pbi_andr_openlinkmessage.png)
    
     在 Power BI 应用中打开链接后，可以复制该链接，然后改为在浏览器窗口中打开它。
-7. [打开磁贴所基于的报表](mobile-reports-in-the-mobile-apps.md) ![打开报表图标](././media/mobile-tiles-in-the-mobile-apps/power-bi-ipad-open-report-icon.png)。
+7. [打开磁贴基于的报表](mobile-reports-in-the-mobile-apps.md) ![iOS 中的“打开报表”图标](././media/mobile-tiles-in-the-mobile-apps/power-bi-ipad-open-report-icon.png)。
 8. 若要使磁贴离开焦点模式，点击磁贴名称，然后点击“仪表板名称”或“**我的工作区**”。
    
     ![仪表板的屏幕截图，其中指针指向“我的工作区和机会分析示例”。](media/mobile-tiles-in-the-mobile-apps/power-bi-ipad-tile-breadcrumb.png)
@@ -72,7 +72,7 @@ ms.locfileid: "90856176"
    
    * 点击图表以移动折线图、条形图、柱形图或气泡图中的条，以查看可视化效果中特定点的值。  
    * 点击铅笔图标 ![铅笔图标](./media/mobile-tiles-in-the-mobile-apps/power-bi-iphone-annotate-icon.png)，[为磁贴添加批注](mobile-annotate-and-share-a-tile-from-the-mobile-apps.md#annotate-and-share-the-tile-report-or-visual)，然后点击共享快照图标 ![共享快照图标](./media/mobile-tiles-in-the-mobile-apps/pbi_andr_sharesnapicon.png)，[与其他人共享](mobile-annotate-and-share-a-tile-from-the-mobile-apps.md#annotate-and-share-the-tile-report-or-visual)。
-   * 点击“打开报表”图标 ![打开报表图标](./media/mobile-tiles-in-the-mobile-apps/power-bi-android-tablet-open-report-icon.png)，在移动应用中[查看报表](mobile-reports-in-the-mobile-apps.md)。
+   * 点击“打开报表”图标 ![Android 中的“打开报表”图标](./media/mobile-tiles-in-the-mobile-apps/power-bi-android-tablet-open-report-icon.png)， 以便在移动应用中[查看报表](mobile-reports-in-the-mobile-apps.md)。
 3. 有时，仪表板创建者会为磁贴添加链接。 如果有链接，点击垂直省略号 (…) 时可看到“打开链接”![链接图标](media/mobile-tiles-in-the-mobile-apps/power-bi-iphone-link-icon.png) ：
    
     ![仪表板的屏幕截图，其中垂直省略号指向“打开链接”。](media/mobile-tiles-in-the-mobile-apps/power-bi-android-tile-link.png)

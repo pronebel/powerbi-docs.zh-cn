@@ -8,12 +8,12 @@ ms.subservice: powerbi-report-server
 ms.topic: how-to
 ms.date: 07/28/2020
 ms.author: maggies
-ms.openlocfilehash: 53f8a0a2d634ebcbd0023f560f8ee35e629d4d09
-ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
+ms.openlocfilehash: 60287bfde79c918250037ccc03781e7cb47d6320
+ms.sourcegitcommit: be424c5b9659c96fc40bfbfbf04332b739063f9c
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90861282"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "91634219"
 ---
 # <a name="configure-power-bi-report-server-with-azure-application-proxy"></a>为 Power BI 报表服务器配置 Azure 应用程序代理
 
@@ -201,7 +201,7 @@ setspn -s MSSQLSVC/FQDN\_of\_SQL\_Server<SQL service service account>
     - 新建重定向 URL，并将它配置为“类型” = “Web”、“重定向 URI” = `https://pbirsazureapp-umacontoso2410.msappproxy.net/`
     - 在“高级设置”部分中，将“注销 URL”配置为“`https://pbirsazureapp-umacontoso2410.msappproxy.net/?Appproxy=logout`”。
 
-    ![身份验证设置](media/azure-application-proxy/azure-report-server-authentication-1.png)
+    ![屏幕截图展示了包含“重定向 URI”和“高级设置”的“PBIRS 身份验证”窗格。](media/azure-application-proxy/azure-report-server-authentication-1.png)
 
 1. 在 Power BI 报表服务器应用程序的“应用注册”的“身份验证”部分中，继续配置“隐式授权”、“默认客户端类型”和“支持的帐户类型”，如下所示：
 
@@ -209,7 +209,7 @@ setspn -s MSSQLSVC/FQDN\_of\_SQL\_Server<SQL service service account>
     - 将“默认客户端类型”设置为“否”。
     - 将“支持的帐户类型”设置为“仅此组织目录(仅 UmaContoso - 单一租户)中的帐户”。
 
-    ![身份验证设置](media/azure-application-proxy/azure-report-server-authentication-2.png)
+    ![屏幕截图展示了具有所述设置的“PBIRS 身份验证”窗格。](media/azure-application-proxy/azure-report-server-authentication-2.png)
 
 1. 在单一登录设置完成且 URL `https://pbirsazureapp-umacontoso2410.msappproxy.net` 可以运行后，我们需要确保登录帐户与在 Power BI 报表服务器中提供权限的帐户同步。
 

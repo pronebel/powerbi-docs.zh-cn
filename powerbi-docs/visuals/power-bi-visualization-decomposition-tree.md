@@ -10,12 +10,12 @@ ms.topic: how-to
 ms.date: 01/10/2020
 ms.author: rien
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 9d74733e6baad4f84d52e8bc8749fe0295eedb2e
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: b7aebef72952c75ed6ec406c6f3f9e888f047086
+ms.sourcegitcommit: be424c5b9659c96fc40bfbfbf04332b739063f9c
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85239827"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "91632816"
 ---
 # <a name="create-and-view-decomposition-tree-visuals-in-power-bi"></a>在 Power BI 中创建并查看分解树视觉对象
 
@@ -53,7 +53,7 @@ https://github.com/microsoft/powerbi-desktop-samples/blob/master/Sample%20Report
 
 下一步将引入要向下钻取到的一个或多个维度。 将这些字段添加到“解释依据”Bucket。 请注意，根节点旁边会出现一个加号。 选择“+”可选择要钻取到的字段（可以按所需的任意顺序向下钻取到字段）。
 
-![分解树菜单](media/power-bi-visualization-decomposition-tree/tree-menu.png)
+![屏幕截图展示了在选择加号图标后会看到“解释依据”列表中的选项。](media/power-bi-visualization-decomposition-tree/tree-menu.png)
 
 选择“预测偏差”会导致树展开并按列中的值细分度量值。 可以选择另一个要向下钻取到的节点来重复此过程。
 
@@ -61,7 +61,7 @@ https://github.com/microsoft/powerbi-desktop-samples/blob/master/Sample%20Report
 
 从最后一个级别选择节点将交叉筛选数据。 选择先前级别的节点会更改路径。
 
-![分解树菜单](media/power-bi-visualization-decomposition-tree/tree-interaction.gif)
+![动画展示了在选择先前级别的节点后改为显示其子节点。](media/power-bi-visualization-decomposition-tree/tree-interaction.gif)
 
 与其他视觉对象交互会交叉筛选分解树。 级别中节点的顺序会因此而更改。
 在下面的示例中，我们已通过 Ubisoft 对树进行交叉筛选。 路径进行更新，Xbox 销售从第一个位置移到第二个位置，位于 PlayStation 下面。 
@@ -70,7 +70,7 @@ https://github.com/microsoft/powerbi-desktop-samples/blob/master/Sample%20Report
 
 尽管路径消失，但现有级别（在本例中为“游戏流派”）仍固定在树中。 因此选择任天堂节点会自动将树展开到“游戏流派”。
 
-![分解树菜单](media/power-bi-visualization-decomposition-tree/tree-interaction-2.gif)
+![动画展示了选择交叉筛选会影响所显示的节点。](media/power-bi-visualization-decomposition-tree/tree-interaction-2.gif)
 
 
 ## <a name="ai-splits"></a>AI 拆分
@@ -132,11 +132,11 @@ https://github.com/microsoft/powerbi-desktop-samples/blob/master/Sample%20Report
 
 当你通过其他视觉对象交叉筛选分解树时，也会重新计算 AI 级别。 在下面的示例中，我们可以看到，第 0477 号工厂的脱销百分比最高。
 
-![分解树交叉筛选](media/power-bi-visualization-decomposition-tree/tree-ai-crossfilter1.png)
+![屏幕截图展示了在选择所有月份后进行的根本原因分析。](media/power-bi-visualization-decomposition-tree/tree-ai-crossfilter1.png)
 
 但如果在条形图中选择“四月”，则最高级变为“产品类型为高级外科” 。 在这种情况下，不只是节点重新排序，而是会选中完全不同的列。 
 
-![分解树交叉筛选](media/power-bi-visualization-decomposition-tree/tree-ai-crossfilter2.png)
+![屏幕截图展示了在只选择 4 月后进行的根本原因分析。](media/power-bi-visualization-decomposition-tree/tree-ai-crossfilter2.png)
 
 如果希望 AI 级别的行为与非 AI 级别相同，请选择灯泡以将行为恢复为默认值。 
 

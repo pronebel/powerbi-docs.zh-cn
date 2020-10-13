@@ -10,12 +10,12 @@ ms.topic: how-to
 ms.date: 02/10/2020
 ms.author: rien
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 11ccbdd3a5586aa10c051e6bfed820ed7f0ae48b
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 45f5ff81e8ab11c2082af7f570f02bd3671719c6
+ms.sourcegitcommit: be424c5b9659c96fc40bfbfbf04332b739063f9c
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85237544"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "91634656"
 ---
 # <a name="tables-in-power-bi-reports-and-dashboards"></a>Power BI 报表和仪表板中的表
 
@@ -157,7 +157,7 @@ ms.locfileid: "85237544"
 
 1. 依次选择“复制”   > “复制值”  。
 
-    ![复制选项](media/power-bi-visualization-tables/power-bi-copy-value.png)
+    ![屏幕截图展示了依次选择的“复制”和“复制值”选项。](media/power-bi-visualization-tables/power-bi-copy-value.png)
 
     借助剪贴板上的无格式单元格值，可以将它粘贴到其他应用程序。
 
@@ -169,7 +169,7 @@ ms.locfileid: "85237544"
 
 1. 依次选择“复制”   > “复制选择”  。
 
-    ![复制选项](media/power-bi-visualization-tables/power-bi-copy-selection.png)
+    ![屏幕截图展示了依次选择的“复制”和“复制所选内容”选项。](media/power-bi-visualization-tables/power-bi-copy-selection.png)
 
 ## <a name="adjust-the-column-width-of-a-table"></a>调整表的列宽度的大小
 

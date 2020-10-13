@@ -8,12 +8,12 @@ ms.topic: how-to
 ms.date: 04/21/2020
 ms.author: maggies
 LocalizationGroup: Ask questions of your datadefintion
-ms.openlocfilehash: 8f0d4c970de1724f47a016cbe063f1cc3df20178
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: b2eff10484a7e05a9e51dfc09d44598de034ee88
+ms.sourcegitcommit: be424c5b9659c96fc40bfbfbf04332b739063f9c
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85239938"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "91635231"
 ---
 # <a name="teach-qa-to-understand-questions-and-terms-in-power-bi-qa"></a>在 Power BI 问答中教导 Q&A 以使其理解问题和术语
 
@@ -61,7 +61,7 @@ ms.locfileid: "85239938"
 
 在框中填写数据中的术语。
 
-![教导 Q&A 同义词提示](media/q-and-a-tooling-teach-q-and-a/qna-tooling-synonym-prompt.png)
+![屏幕截图展示了 Q&A 框的一部分，其中包含“收入”一词，以及文本框旁边的“收入是指”提示。](media/q-and-a-tooling-teach-q-and-a/qna-tooling-synonym-prompt.png)
 
 如果提供数据模型中的字段以外的内容，可能会得到不理想的结果。
 
@@ -73,7 +73,7 @@ ms.locfileid: "85239938"
 
 在框中填写条件。
 
-![教导 Q&A 同义词提示](media/q-and-a-tooling-teach-q-and-a/qna-tooling-adjectives.png)
+![屏幕截图展示了 Q&A 框的一部分，其中包含“优秀发布者”一词，以及文本框两侧的“发布者拥有”提示和“才算优秀”一词。](media/q-and-a-tooling-teach-q-and-a/qna-tooling-adjectives.png)
 
 可定义的条件的示例有：
 

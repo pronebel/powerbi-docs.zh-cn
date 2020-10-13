@@ -8,12 +8,12 @@ ms.subservice: powerbi-mobile
 ms.topic: how-to
 ms.date: 12/05/2019
 ms.author: painbar
-ms.openlocfilehash: 2f6d02d6128a2896a19d87f30f46f26f101385f6
-ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
+ms.openlocfilehash: e9f3b41e9c8435008f732d215ae022d6a023574d
+ms.sourcegitcommit: 7e99e8af9caf9340958c4607a94728d43e8c3811
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90860983"
+ms.lasthandoff: 10/02/2020
+ms.locfileid: "91668565"
 ---
 # <a name="view-on-premises-report-server-reports-and-kpis-in-the-power-bi-mobile-apps"></a>在 Power BI 移动应用中查看本地报表服务器报表和 KPI
 
@@ -94,7 +94,7 @@ ms.locfileid: "90860983"
 
 3. 键入密码进行身份验证，然后点击“登录”  。 
 
-    ![已填写报表服务器详细信息](./media/mobile-app-ssrs-kpis-mobile-on-premises-reports/power-bi-config-server-address.png)
+    ![屏幕截图展示了密码输入以及“登录”按钮。](./media/mobile-app-ssrs-kpis-mobile-on-premises-reports/power-bi-config-server-address.png)
 
 现在，你可以查看存储在报表服务器上的 KPI 和 Power BI 报表并与之交互。
 

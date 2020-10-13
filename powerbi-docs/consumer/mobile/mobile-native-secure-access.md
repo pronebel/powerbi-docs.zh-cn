@@ -7,12 +7,12 @@ ms.subservice: powerbi-mobile
 ms.topic: how-to
 ms.date: 04/07/2020
 ms.author: painbar
-ms.openlocfilehash: 634252979129353ac628c574acb23bb184782ffa
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: a32ac9b1631a23502d9752ed9f96355fa36b90da
+ms.sourcegitcommit: 7e99e8af9caf9340958c4607a94728d43e8c3811
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85220002"
+ms.lasthandoff: 10/02/2020
+ms.locfileid: "91668588"
 ---
 # <a name="protect-power-bi-app-with-face-id-touch-id-passcode-or-biometric-data"></a>使用 Face ID、Touch ID、密码或生物特征数据来保护 Power BI 应用 
 
@@ -48,7 +48,7 @@ ms.locfileid: "85220002"
 
 下图显示了指纹身份验证屏幕。
 
-![Power BI iOS Face ID](./media/mobile-native-secure-access/mobile-android-native-secured-fingerprint-id.png)
+![屏幕截图展示了 Android 手机上的“需要额外的标识”消息。](./media/mobile-native-secure-access/mobile-android-native-secured-fingerprint-id.png)
 
 >[!NOTE]
 >若要使用移动应用的“需要生物识别认证”设置，需要先在 Android 设备上设置生物识别方法。 如果设备不支持生物识别方法，将无法使用此移动应用设置来保护对 Power BI 数据的访问。

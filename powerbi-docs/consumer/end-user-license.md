@@ -11,12 +11,12 @@ ms.date: 09/17/2020
 ms.author: mihart
 ms.custom: licensing support
 LocalizationGroup: consumers
-ms.openlocfilehash: c46da515a4f0f58c0e9fe92f01a3a0eaeb68a1de
-ms.sourcegitcommit: cb606d3ae95300683caf1853e229d8981302a8e2
+ms.openlocfilehash: bfa2faaa95c58541e44dd858f8d544d06d86ba25
+ms.sourcegitcommit: d153cfc0ce559480c53ec48153a7e131b7a31542
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/18/2020
-ms.locfileid: "90763933"
+ms.lasthandoff: 09/29/2020
+ms.locfileid: "91527923"
 ---
 # <a name="licenses-and-subscriptions-for-business-users"></a>业务用户的许可证和订阅
 
@@ -36,7 +36,7 @@ ms.locfileid: "90763933"
 
 ## <a name="licenses"></a>许可证
 
-Power BI 服务的每个用户都使用免费许可证或 Pro 许可证。 如果你是 Power BI 业务用户，你可能使用的是由 Power BI 租户管理员管理的免费许可证。
+Power BI 服务的每个用户都使用免费许可证或 Pro 许可证。 如果你是 Power BI 商务用户，你可能使用的是由 Power BI 管理员管理的免费许可证。
 
 你可以同时拥有多个许可证。  该服务会始终为你提供与你目前拥有的最宽松的许可证等同的体验。
 

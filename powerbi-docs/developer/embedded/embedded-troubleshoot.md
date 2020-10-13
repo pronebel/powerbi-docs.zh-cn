@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: troubleshooting
 ms.date: 02/05/2019
-ms.openlocfilehash: 245a23f0477b542ecd402a5028cffebe2d1142ad
-ms.sourcegitcommit: a453ba52aafa012896f665660df7df7bc117ade5
+ms.openlocfilehash: 3016cce1e4dd8fb1be5b5ab95ebcc73bdcb56ac1
+ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/27/2020
-ms.locfileid: "85485682"
+ms.lasthandoff: 10/06/2020
+ms.locfileid: "91749060"
 ---
 # <a name="troubleshoot-your-embedded-application"></a>嵌入式应用程序疑难解答
 
@@ -75,27 +75,27 @@ Azure 门户或 Power BI 应用注册页面中的错误消息提到权限不足�
 
 可能需要进一步调查 Fiddler 捕获。 发生 403 错误可能有几个原因。
 
-* 用户已超过可在共享容量上生成的嵌入令牌的数量。 购买 Azure 容量以生成嵌入令牌，并将工作区分配给该容量。 请参阅[在 Azure 门户创建 Power BI Embedded 容量](https://docs.microsoft.com/azure/power-bi-embedded/create-capacity)。
+* 用户已超过可在共享容量上生成的嵌入令牌的数量。 购买 Azure 容量以生成嵌入令牌，并将工作区分配给该容量。 请参阅[在 Azure 门户创建 Power BI Embedded 容量](/azure/power-bi-embedded/create-capacity)。
 * Azure AD 身份验证标记已过期。
 * 经过身份验证的用户不是组（工作区）的成员。
 * 经过身份验证的用户不是组（工作区）的管理员。
-* 经过身份验证的用户没有权限。 可以使用 [refreshUserPermissions API](https://docs.microsoft.com/rest/api/power-bi/users/refreshuserpermissions) 更新权限
+* 经过身份验证的用户没有权限。 可以使用 [refreshUserPermissions API](/rest/api/power-bi/users/refreshuserpermissions) 更新权限
 * 可能不会正确列出身份验证标头。 请确保没有拼写错误。
 
 应用程序的后端在调用 GenerateToken 前可能需要刷新身份验证标记。
 
-    ```
-    GET https://wabi-us-north-central-redirect.analysis.windows.net/metadata/cluster HTTP/1.1
-    Host: wabi-us-north-central-redirect.analysis.windows.net
-    ...
-    Authorization: Bearer eyJ0eXAiOi...
-    ...
+```console
+GET https://wabi-us-north-central-redirect.analysis.windows.net/metadata/cluster HTTP/1.1
+Host: wabi-us-north-central-redirect.analysis.windows.net
+...
+Authorization: Bearer eyJ0eXAiOi...
+...
 
-    HTTP/1.1 403 Forbidden
-    ...
+HTTP/1.1 403 Forbidden
+...
 
-    {"error":{"code":"TokenExpired","message":"Access token has expired, resubmit with a new access token"}}
-    ```
+{"error":{"code":"TokenExpired","message":"Access token has expired, resubmit with a new access token"}}
+```
 
 ## <a name="authentication"></a>身份验证
 
@@ -113,13 +113,13 @@ Azure 门户或 Power BI 应用注册页面中的错误消息提到权限不足�
 
 如果使用 Power BI Embedded 并使用 Azure AD 直接身份验证，则会收到以下形式的消息日志记录：***error:unauthorized_client,error_description:AADSTS70002:验证凭据时出错。AADSTS50053:使用不正确的用户 ID 或密码***尝试登录的次数过多，这是因为自 2018 年 6 月 14 日起已默认不再使用直接身份验证。
 
-可以使用组织或[服务主体](https://docs.microsoft.com/azure/active-directory/develop/active-directory-application-objects#service-principal-object)范围内的 [Azure AD 策略](https://docs.microsoft.com/azure/active-directory/manage-apps/configure-authentication-for-federated-users-portal#enable-direct-authentication-for-legacy-applications)重新启用此功能。
+可以使用组织或[服务主体](/azure/active-directory/develop/active-directory-application-objects#service-principal-object)范围内的 [Azure AD 策略](/azure/active-directory/manage-apps/configure-authentication-for-federated-users-portal#enable-direct-authentication-for-legacy-applications)重新启用此功能。
 
 建议仅逐个应用地启用此策略。
 
 要创建此策略，需要具有在其中创建和分配此策略的目录的全局管理员  身份。 以下为创建策略并将其分配到此应用程序的 SP 的示例脚本：
 
-1. 安装 [Azure AD 预览版 PowerShell 模块](https://docs.microsoft.com/powershell/azure/active-directory/install-adv2?view=azureadps-2.0)。
+1. 安装 [Azure AD 预览版 PowerShell 模块](/powershell/azure/active-directory/install-adv2?view=azureadps-2.0)。
 
 2. 逐行运行以下 PowerShell 命令（确保变量 $sp 的结果只有一个应用程序）。
 
@@ -153,7 +153,7 @@ Add-AzureADServicePrincipalPolicy -Id $sp.ObjectId -RefObjectId $policy.Id
 
 若要验证是哪一个，请尝试以下步骤。
 
-* 执行[获取数据集](https://docs.microsoft.com/rest/api/power-bi/datasets)。 属性 IsEffectiveIdentityRequired 是否为 true？
+* 执行[获取数据集](/rest/api/power-bi/datasets)。 属性 IsEffectiveIdentityRequired 是否为 true？
 * Username 是任何 EffectiveIdentity 必需的。
 * 如果 IsEffectiveIdentityRolesRequired 为 true，则 Role 是必需的。
 * DatasetId 是任何 EffectiveIdentity 必需的。
@@ -270,37 +270,43 @@ Add-AzureADServicePrincipalPolicy -Id $sp.ObjectId -RefObjectId $policy.Id
 
 选择“授予权限”（“授予权限”步骤）时，将收到以下错误  ：
 
-    AADSTS70001: Application with identifier <client ID> wasn't found in the directory <directory ID>
+```output
+AADSTS70001: Application with identifier <client ID> wasn't found in the directory <directory ID>
+```
 
 解决方案是关闭弹出窗口，等待几秒钟再重试。 可能需要多次重复此操作。 造成此问题的原因是，从完成应用程序注册过程到该应用程序对外部 API 可用之间存在时间间隔。
 
 运行示例应用时，将显示以下错误消息：
 
-    Password is empty. Please fill password of Power BI username in web.config.
+```output
+Password is empty. Please fill password of Power BI username in web.config.
+```
 
 由于未注入示例应用程序的唯一值是用户密码，因此会发生此错误。 在解决方案中打开 Web.config 文件，并用用户密码填充 pbiPassword 字段。
 
 如果收到错误 - AADSTS50079:用户需要使用多重身份验证。
 
-    Need to use an AAD account that doesn't have MFA enabled.
+需要使用没有启用 MFA 的 AAD 帐户。
 
-#### <a name="using-the-embed-for-your-organization-sample-application"></a>为组织示例应用程序使用嵌入
+#### <a name="using-the-embed-for-your-organization-sample-application"></a>将 Embed 用于组织示例应用程序
 
-若要采用“为组织嵌入”  体验，请保存并解压缩 PowerBI-Developer-Samples.zip  文件。 然后打开 PowerBI-Developer-Samples-master\App Owns Data\integrate-report-web-app 文件夹并运行 pbi-saas-embed-report.sln 文件   。
+若要采用“为组织嵌入”**** 体验，请保存并解压缩 PowerBI-Developer-Samples.zip** 文件。 然后打开 PowerBI-Developer-Samples-master\App Owns Data\integrate-report-web-app 文件夹并运行 pbi-saas-embed-report.sln 文件****。
 
-运行“为组织嵌入”示例应用时，将收到以下错误  ：
+运行“为组织嵌入”示例应用时，将收到以下错误****：
 
-    AADSTS50011: The reply URL specified in the request doesn't match the reply URLs configured for the application: <client ID>
+```output
+AADSTS50011: The reply URL specified in the request doesn't match the reply URLs configured for the application: <client ID>
+```
 
 此错误是因为为 web-server 应用程序指定的重定向 URL 不同于示例的 URL。 如果想要注册示例应用程序，请使用 `https://localhost:13526/` 作为重定向 URL。
 
-如果想要编辑已注册的应用程序，请了解如何[更新已注册 Azure AD 的应用程序](https://docs.microsoft.com/azure/active-directory/develop/quickstart-v1-update-azure-ad-app)，使应用程序可以向 Web API 提供访问权限。
+如果想要编辑已注册的应用程序，请了解如何[更新已注册 Azure AD 的应用程序](/azure/active-directory/develop/quickstart-v1-update-azure-ad-app)，使应用程序可以向 Web API 提供访问权限。
 
-如果想要编辑 Power BI 用户配置文件或数据，请了解如何编辑 [Power BI 数据](https://docs.microsoft.com/power-bi/service-basic-concepts)。
+如果想要编辑 Power BI 用户配置文件或数据，请了解如何编辑 [Power BI 数据](../../fundamentals/service-basic-concepts.md)。
 
-如果收到错误 - AADSTS50079:用户需要使用多重身份验证。
+如果收到错误 - AADSTS50079：用户需要使用多重身份验证。
 
-    Need to use an AAD account that doesn't have MFA enabled.
+需要使用没有启用 MFA 的 AAD 帐户。
 
 有关详细信息，请参阅 [Power BI Embedded 常见问题](embedded-faq.md)。
 

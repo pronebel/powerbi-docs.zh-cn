@@ -1,6 +1,6 @@
 ---
-title: 了解 Power BI 视觉对象中的数据视图映射
-description: 本文介绍了 Power BI 如何在将数据传递给视觉对象之前对其进行转换。
+title: 在 Power BI 中为 Power BI 视觉对象添加区域设置
+description: 了解视觉对象如何检索 Power BI 区域设置，以将其内容本地化为相关语言。
 author: KesemSharabi
 ms.author: kesharab
 manager: rkarlin
@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: reference
 ms.date: 06/18/2019
-ms.openlocfilehash: fece594fa6236f01c707f0b84ddca977fb32dede
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: 7492b70b9a82fe6c5579c4251000e9af7509e8fb
+ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83349278"
+ms.lasthandoff: 10/06/2020
+ms.locfileid: "91746046"
 ---
 # <a name="add-the-locale-in-power-bi-for-power-bi-visuals"></a>在 Power BI 中为 Power BI 视觉对象添加区域设置
 

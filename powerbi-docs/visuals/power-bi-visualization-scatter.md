@@ -10,12 +10,12 @@ ms.topic: how-to
 ms.date: 11/21/2019
 ms.author: rien
 LocalizationGroup: Visualizations
-ms.openlocfilehash: b4a5733e0c4b8617dc93edb1e7fe35a0a76a3338
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 963bd77568db4390bca73a4ec4e9ce97ee616a58
+ms.sourcegitcommit: be424c5b9659c96fc40bfbfbf04332b739063f9c
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85238157"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "91632885"
 ---
 # <a name="scatter-charts-bubble-charts-and-dot-plot-charts-in-power-bi"></a>Power BI 中的散点图、气泡图和点图
 
@@ -143,7 +143,7 @@ ms.locfileid: "85238157"
 
         a. 将“总销售差额百分比”字段更改为“去年毛利率百分比”  
 
-        ![添加了中线的气泡图屏幕截图。](media/power-bi-visualization-scatter/power-bi-format-symmetry.png)
+        ![展示了“详细信息”的屏幕截图，其中选择了“Gross margin last year %”。](media/power-bi-visualization-scatter/power-bi-format-symmetry.png)
 
         b. 在“分析”窗格中，添加“对称底纹”  。 从底纹中我们可以看出，袜类（粉色底纹区域的绿色气泡）是唯一倾向于毛利率而不是其每平方英尺销售额的类别。 
 
@@ -151,7 +151,7 @@ ms.locfileid: "85238157"
 
     - 继续探索“分析”窗格，以发现数据中有趣的见解。 
 
-        ![添加了对称底纹的气泡图屏幕截图。](media/power-bi-visualization-scatter/power-bi-analytics-example.png)
+        ![“分析”窗格的屏幕截图。](media/power-bi-visualization-scatter/power-bi-analytics-example.png)
 
 ## <a name="create-a-dot-plot-chart"></a>创建点阵图
 

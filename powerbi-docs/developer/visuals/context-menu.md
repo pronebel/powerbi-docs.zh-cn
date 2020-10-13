@@ -1,20 +1,20 @@
 ---
-title: Power BI 视觉对象的功能和属性
-description: 本文介绍 Power BI 视觉对象的功能和属性。
+title: 将上下文菜单添加到 Power BI 视觉对象
+description: 了解如何将关联菜单添加到 Power BI 视觉对象中。
 author: KesemSharabi
 ms.author: kesharab
 ms.reviewer: rkarlin
 manager: rkarlin
 ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 06/18/2019
-ms.openlocfilehash: 7d24ea77fd73ca6a83176d1b8560c88fa98a8d6b
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 9e63a1196ddc7557fcf8b2fceb424415a63d4df9
+ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "79380746"
+ms.lasthandoff: 10/06/2020
+ms.locfileid: "91748071"
 ---
 # <a name="add-context-menu-to-power-bi-visual"></a>将上下文菜单添加到 Power BI 视觉对象
 

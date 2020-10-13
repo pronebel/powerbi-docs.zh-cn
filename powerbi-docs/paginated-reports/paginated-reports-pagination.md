@@ -1,6 +1,6 @@
 ---
 title: Power BI 分页报表中的分页
-description: 本文将介绍 Power BI 服务中分页报表支持的数据源，以及如何连接到 Azure SQL 数据库数据源。
+description: 了解 Power BI 服务中的分页报表，以及用于控制分页的规则，以设计更适合你计划使用的呈现器的报表。
 author: maggiesMSFT
 ms.author: maggies
 ms.reviewer: ''
@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: conceptual
 ms.date: 12/03/2019
-ms.openlocfilehash: bce23ecdc99f6428ecefc28580e3ae0ec05fac6a
-ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
+ms.openlocfilehash: 87dc2541dd8fd91f22c1e89ce146be10eca14db9
+ms.sourcegitcommit: 6ba33e5a500928163e02e007f5ccd52dd2227610
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90859695"
+ms.lasthandoff: 10/07/2020
+ms.locfileid: "91780117"
 ---
 # <a name="pagination-in-power-bi-paginated-reports"></a>Power BI 分页报表中的分页
 

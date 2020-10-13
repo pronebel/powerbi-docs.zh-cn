@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: how-to
 ms.date: 06/18/2019
-ms.openlocfilehash: b02d8d61a4580e70a72aa4da66c4409f04b7f6bb
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 054d7a4f96c83b97fbd5e96e7a3cf66d58a74823
+ms.sourcegitcommit: be424c5b9659c96fc40bfbfbf04332b739063f9c
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85240084"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "91635921"
 ---
 # <a name="add-drill-down-support"></a>添加向下钻取支持
 
@@ -26,7 +26,9 @@ Power BI 视觉对象可使用 Power BI 向下钻取。
 
 若要在视觉对象中支持向下钻取，请向 `capabilities.json` 添加一个名为“向下钻取”的新字段，该字段具有一个属性：
 
-    *roles - the name of the dataRole you want to enable drill-down on.
+```json
+*roles - the name of the dataRole you want to enable drill-down on.
+```
 
 > [!NOTE]
 > 向下钻取 dataRole 必须为 `Grouping` 类型。
@@ -222,11 +224,11 @@ button {
 
 并在 Power BI Desktop 中创建层次结构：
 
-![创建新层次结构](media/drill-down-support/create-new-hierarchy.png)
+![屏幕截图展示了 Power BI Desktop，其中在关联菜单中选择了“新建层次结构”。](media/drill-down-support/create-new-hierarchy.png)
 
 将所有类别列（H1、H2、H3）包括到新层次结构中：
 
-![创建新层次结构](media/drill-down-support/new-hierarchy.png)
+![屏幕截图展示了可以添加到新层次结构中的类别列。](media/drill-down-support/new-hierarchy.png)
 
 完成这些步骤后，将获取以下视觉对象：
 
@@ -305,11 +307,11 @@ export class Visual implements IVisual {
 
 将数据应用于视觉对象：
 
-![带有数据的视觉对象](media/drill-down-support/dev-visual-drilldown-data.png)
+![屏幕截图展示了层次结构，其中突出显示了“H2”。](media/drill-down-support/dev-visual-drilldown-data.png)
 
 在最后的步骤，你将获取带有选择和上下文菜单的视觉对象：
 
-![带有向下钻取支持的视觉对象](media/drill-down-support/dev-visual-drilldown-demo.gif)
+![动画展示了从视觉对象的关联菜单中选择“向下钻取”和“向上钻取”。](media/drill-down-support/dev-visual-drilldown-demo.gif)
 
 ## <a name="add-drill-down-support-for-matrix-data-view-mapping"></a>添加矩阵数据视图映射的向下钻取支持
 
@@ -389,7 +391,7 @@ export class Visual implements IVisual {
 
 将数据应用于视觉对象：
 
-![带有数据的视觉对象](media/drill-down-support/dev-matrix-visual-drilldown-data.png)
+![屏幕截图展示了 MatrixHierarchy，其中选择了列和行层次结构及其成员。](media/drill-down-support/dev-matrix-visual-drilldown-data.png)
 
 导入所需接口以处理矩阵数据视图映射：
 
@@ -614,7 +616,7 @@ public update(options: VisualUpdateOptions) {
 
 在最后的步骤，你将获取带有上下文菜单的视觉对象：
 
-![带有向下钻取支持的视觉对象](media\drill-down-support\dev-visual-drilldown-demo.gif)
+![动画展示了视觉对象的关联菜单，其中包含“向下钻取”或“向上钻取”选项。](media\drill-down-support\dev-visual-drilldown-demo.gif)
 
 ## <a name="next-steps"></a>后续步骤
 

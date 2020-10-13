@@ -8,12 +8,12 @@ ms.subservice: powerbi-report-server
 ms.topic: how-to
 ms.date: 11/07/2019
 ms.author: painbar
-ms.openlocfilehash: 996e3835337ce8aa1002abce7682d707daec032e
-ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
+ms.openlocfilehash: d5f55c005f34bc1e3aa9ab5351b816616f4f7664
+ms.sourcegitcommit: 7e99e8af9caf9340958c4607a94728d43e8c3811
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90859120"
+ms.lasthandoff: 10/02/2020
+ms.locfileid: "91668335"
 ---
 # <a name="configure-power-bi-mobile-app-access-to-report-server-remotely"></a>远程配置 Power BI 移动应用对报表服务器的访问权限
 
@@ -63,7 +63,7 @@ ms.locfileid: "90859120"
 
 3. 他们将键入密码进行身份验证，然后点击“登录”  。 
 
-    ![已填写报表服务器详细信息](media/configure-powerbi-mobile-apps-remote/power-bi-config-server-address.png)
+    ![屏幕截图展示了密码输入以及“登录”按钮。](media/configure-powerbi-mobile-apps-remote/power-bi-config-server-address.png)
 
 现在，他们就可查看存储在报表服务器上的 KPI 和 Power BI 报表并与之交互。
 

@@ -8,12 +8,12 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 03/02/2020
 ms.author: v-pemyer
-ms.openlocfilehash: 7e10cfa5c99eb1750829150fd0a25347a4da1880
-ms.sourcegitcommit: 701dd80661a63c76d37d1e4f159f90e3fc8c3160
+ms.openlocfilehash: cbcf7fc1890ae1455f1f6ec7c8604e275f60b2d5
+ms.sourcegitcommit: 7e99e8af9caf9340958c4607a94728d43e8c3811
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/24/2020
-ms.locfileid: "91136249"
+ms.lasthandoff: 10/02/2020
+ms.locfileid: "91668404"
 ---
 # <a name="one-to-one-relationship-guidance"></a>一对一关系指南
 
@@ -82,7 +82,7 @@ Sales Order  表通过以下三列为报表作者提供丰富体验：Sales Orde
 
 在“字段”  窗格中，报表作者会找到以下两个表中与产品相关的字段：Product  和 Product Category  。
 
-![“字段”窗格显示两个展开的表，其中列作为字段列出。](media/relationships-one-to-one/product-to-product-category-fields-pane.png)
+![“字段”窗格显示两个展开的表，列作为字段列出，且突出显示了“Product”和“Product Category”。](media/relationships-one-to-one/product-to-product-category-fields-pane.png)
 
 现在来看看添加有两个表中字段的表视觉对象是什么样的。 在此示例中，“SKU”  列源自 Product  表。
 
@@ -112,7 +112,7 @@ Sales Order  表通过以下三列为报表作者提供丰富体验：Sales Orde
 
     在此示例中，报表作者现在“字段”  窗格中找到一个 Product  表。 它包含所有与产品相关的字段。
 
-    ![“字段”窗格显示两个展开的表，其中列作为字段列出。](media/relationships-one-to-one/product-to-product-category-fields-pane-consolidated.png)
+    ![“字段”窗格显示两个展开的表，列作为字段列出，且突出显示了“Product”。](media/relationships-one-to-one/product-to-product-category-fields-pane-consolidated.png)
 3. **替换缺少的值**：如果第二个查询包含不匹配的行，那么从它引入的列中显示 NULL。 视情况考虑使用标记值替换 NULL。 当报表作者按列值筛选或分组时，替换缺少的值尤为重要，因为报表视觉对象中可能会显示 BLANK。
 
     请注意，在下面的表视觉对象中，产品 SKU CL-02 的类别现在显示为“[未定义]”  。 在查询中，null 类别已替换为此标记文本值。
@@ -123,7 +123,7 @@ Sales Order  表通过以下三列为报表作者提供丰富体验：Sales Orde
 
     在此示例中，报表作者现在可以使用一个层次结构，其中包含以下两个级别：Category  和 Product  。
 
-    ![“字段”窗格显示两个展开的表，其中列作为字段列出。](media/relationships-one-to-one/product-to-product-category-fields-pane-consolidated-with-hierarchy.png)
+    ![“字段”窗格显示两个展开的表，列作为字段列出，且突出显示了“Products”。](media/relationships-one-to-one/product-to-product-category-fields-pane-consolidated-with-hierarchy.png)
 
 如果你更倾向于单独的表有助于整理字段，仍建议合并到单个表中。 仍可以整理字段，但要改用显示文件夹  。
 

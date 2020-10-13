@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 03/11/2020
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 7d1ecb8f15cc6d10bc2e04d43796874efb161a83
-ms.sourcegitcommit: 2131f7b075390c12659c76df94a8108226db084c
+ms.openlocfilehash: 6d35d19a1d47adc6a918f01a71c2009d71692fbd
+ms.sourcegitcommit: be424c5b9659c96fc40bfbfbf04332b739063f9c
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/03/2020
-ms.locfileid: "87537909"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "91633886"
 ---
 # <a name="dashboard-tiles-in-power-bi"></a>Power BI 中的仪表板磁贴
 
@@ -41,15 +41,15 @@ ms.locfileid: "87537909"
 
     - 使用问答创建的磁贴
    
-        ![省略号图标](./media/end-user-tiles/power-bi-options-1.png)
+        ![屏幕截图展示了包含六个选项的菜单。](./media/end-user-tiles/power-bi-options-1.png)
 
     - 从工作簿创建的磁贴
    
-        ![省略号图标](./media/end-user-tiles/power-bi-options-2.png)
+        ![屏幕截图展示了包含三个选项的菜单。](./media/end-user-tiles/power-bi-options-2.png)
 
     - 从报表创建的磁贴
    
-        ![省略号图标](./media/end-user-tiles/power-bi-options-3.png)
+        ![屏幕截图展示了包含五个选项的菜单。](./media/end-user-tiles/power-bi-options-3.png)
    
     此处你可以：
    

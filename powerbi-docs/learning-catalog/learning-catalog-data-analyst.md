@@ -1,17 +1,17 @@
 ---
 title: 数据分析师学习目录
-description: 查找针对 Power BI 的所有培训选项
+description: 查找面向数据分析师的所有 Power BI 培训选项（从最基础到最高级）。
 author: margoc
 ms.prod: powerbi
 ms.topic: article
 ms.date: 03/25/2020
 ms.author: margoc
-ms.openlocfilehash: f9b7f7f56065f3a27ee2fde3aeecb95a8f19ebdb
-ms.sourcegitcommit: d153cfc0ce559480c53ec48153a7e131b7a31542
+ms.openlocfilehash: 711cb902eed3eee22eb117f9c2fe1f772291671b
+ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/29/2020
-ms.locfileid: "91527829"
+ms.lasthandoff: 10/06/2020
+ms.locfileid: "91746553"
 ---
 # <a name="data-analyst-learning-catalog"></a>数据分析师学习目录
 

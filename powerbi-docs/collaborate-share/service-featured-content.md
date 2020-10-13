@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 03/16/2020
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 3154becb2f496c0bbb0f84d1c1e7316868251c36
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 3340225ccd4c6457e25013b6c347769d848b104c
+ms.sourcegitcommit: 02b5d031d92ea5d7ffa70d5098ed15e4ef764f2a
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85226043"
+ms.lasthandoff: 09/26/2020
+ms.locfileid: "91374927"
 ---
 # <a name="feature-content-on-colleagues-power-bi-home-page"></a>在同事的 Power BI 主页上特别推荐内容
 
@@ -24,7 +24,7 @@ ms.locfileid: "85226043"
 
 ## <a name="who-can-feature-content"></a>谁可以特别推荐内容
 
-由 Power BI 租户管理员决定是否可以在租户上特别推荐内容。 管理员还可选择可以特别推荐内容的人员。 有关详细信息，请参阅[管理门户](../admin/service-admin-portal.md#featured-content)一文。
+是否启用在租户上特别推荐内容这项功能，取决于 Power BI 管理员的选择。 管理员还可选择可以特别推荐内容的人员。 有关详细信息，请参阅[管理门户](../admin/service-admin-portal.md#featured-content)一文。
 
 如果你是组织中具有该职责的选定组的成员，则需要拥有 Power BI Pro 许可证。 要特别推荐仪表板和报表，需要在工作区中具有“管理员”、“成员”或“参与者”角色。 要对应用本身进行特别推荐，需要在工作区中具有“管理员”或“成员”角色。 有关详细信息，请参阅[新工作区中的角色](service-new-workspaces.md#roles-in-the-new-workspaces)。
 
@@ -38,13 +38,13 @@ ms.locfileid: "85226043"
 
 1. 在工作区的“仪表板”或“报表”列表中，选择“设置”图标  。
 
-    :::image type="content" source="media/service-featured-content/power-bi-settings-icon.png" alt-text="报表设置图标":::
+    :::image type="content" source="media/service-featured-content/power-bi-settings-icon.png" alt-text="Power BI 主页上的特别推荐的内容":::
 
 2. 在“设置”窗格中，选中或更改名称。 根据需要添加“描述”和上传“快照” 。 它们非常有用，因为它们可帮助用户找到你的内容。
 
 3. 选择“特别推荐”。
 
-    :::image type="content" source="media/service-featured-content/power-bi-featured-content-settings.png" alt-text="特别推荐的内容设置":::
+    :::image type="content" source="media/service-featured-content/power-bi-featured-content-settings.png" alt-text="Power BI 主页上的特别推荐的内容":::
 
 4. 选择“保存”。
 

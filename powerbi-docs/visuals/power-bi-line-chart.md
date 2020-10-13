@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 05/05/2020
 ms.author: rien
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 9f7cd6c277a02ce4e44db40930184cce955e5948
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 59cede1cae716661be8d3796330bde7da44170eb
+ms.sourcegitcommit: be424c5b9659c96fc40bfbfbf04332b739063f9c
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83274181"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "91634587"
 ---
 # <a name="line-charts-in-power-bi"></a>Power BI 中的折线图
 
@@ -67,11 +67,11 @@ ms.locfileid: "83274181"
 ### <a name="use-two-y-axes"></a>使用两个 Y 轴
 若要在同一折线图上研究总销售额和总单位数，该怎么办？ 销售额数字远高于单位数数字，导致折线图无法使用。 事实上，总单位数对应的红色折线似乎为零。
 
-   ![高度相异值](media/power-bi-line-charts/power-bi-diverging.png)
+   ![屏幕截图展示了如何使用单个 y 轴将总单位数显示为基本上是平面的，并与销售数字进行无用的比较。](media/power-bi-line-charts/power-bi-diverging.png)
 
 若要在一个图表上显示高度相异值，请使用组合图。 有关组合图的所有信息，可以阅读 [Power BI 中的组合图](power-bi-visualization-combo-chart.md)。 在下面的示例中，可以通过添加第二个 Y 轴，在一个组合图上同时显示销售额和总单位数。 
 
-   ![高度相异值](media/power-bi-line-charts/power-bi-dual-axes.png)
+   ![屏幕截图展示了销售额值的条形图，左侧为 y 轴，右侧为总单位数与 y 轴的直线。](media/power-bi-line-charts/power-bi-dual-axes.png)
 
 ## <a name="highlighting-and-cross-filtering"></a>突出显示和交叉筛选
 有关使用筛选器窗格的信息，请参阅[向报表添加筛选器](../create-reports/power-bi-report-add-filter.md)。

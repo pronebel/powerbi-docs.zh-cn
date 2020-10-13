@@ -9,12 +9,12 @@ ms.subservice: powerbi-developer
 ms.topic: how-to
 ms.custom: ''
 ms.date: 05/12/2020
-ms.openlocfilehash: e7b1e33322e0c1174b05a4e7b3617b5d3f7a18e8
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: e9faa50cd7e2c4a1a51dfb4a72dda950cf3a396a
+ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85231223"
+ms.lasthandoff: 10/06/2020
+ms.locfileid: "91746783"
 ---
 # <a name="embed-power-bi-content-with-service-principal-and-an-application-secret"></a>使用服务主体和应用程序机密嵌入 Power BI 内容
 
@@ -24,21 +24,21 @@ ms.locfileid: "85231223"
 
 >[!NOTE]
 >建议使用证书而不是机密密钥来保护后端服务。
->* [详细了解如何使用机密密钥或证书从 Azure AD 获取访问令牌](https://docs.microsoft.com/azure/architecture/multitenant-identity/client-assertion)。
+>* [详细了解如何使用机密密钥或证书从 Azure AD 获取访问令牌](/azure/architecture/multitenant-identity/client-assertion)。
 >* [使用服务主体和证书嵌入 Power BI 内容](embed-service-principal-certificate.md)。
 
 ## <a name="method"></a>方法
 
 若要将服务主体和应用程序 ID 与嵌入式分析结合使用，请按照以下步骤操作：
 
-1. 创建 [Azure AD 应用程序](https://docs.microsoft.com/azure/active-directory/manage-apps/what-is-application-management)。
+1. 创建 [Azure AD 应用程序](/azure/active-directory/manage-apps/what-is-application-management)。
 
     1. 创建 Azure AD 应用程序密码。
     
     2. 获取应用程序的应用程序 ID 和应用程序密码。
 
     >[!NOTE]
-    >“第 1 步”中介绍了这些步骤。 若要详细了解如何创建 Azure AD 应用程序，请参阅[创建 Azure AD 应用程序](https://docs.microsoft.com/azure/active-directory/develop/howto-create-service-principal-portal)一文。
+    >“第 1 步”中介绍了这些步骤。 若要详细了解如何创建 Azure AD 应用程序，请参阅[创建 Azure AD 应用程序](/azure/active-directory/develop/howto-create-service-principal-portal)一文。
 
 2. 创建 Azure AD 安全组。
 
@@ -55,7 +55,7 @@ ms.locfileid: "85231223"
 
 使用下面的一种方法来创建 Azure AD 应用程序：
 * 在 [Microsoft Azure 门户](https://portal.azure.com/#allservices)中创建应用程序
-* 使用 [PowerShell](https://docs.microsoft.com/powershell/azure/create-azure-service-principal-azureps?view=azps-3.6.1) 创建应用程序。
+* 使用 [PowerShell](/powershell/azure/create-azure-service-principal-azureps?view=azps-3.6.1) 创建应用程序。
 
 ### <a name="creating-an-azure-ad-app-in-the-microsoft-azure-portal"></a>在 Microsoft Azure 门户中创建 Azure AD 应用程序
 
@@ -63,7 +63,7 @@ ms.locfileid: "85231223"
 
 7. 单击“证书和密码”选项卡。
 
-     ![应用程序 ID](media/embed-service-principal/certificates-and-secrets.png)
+     ![屏幕截图展示了 Azure 门户中应用的“证书和机密”窗格。](media/embed-service-principal/certificates-and-secrets.png)
 
 
 8. 单击“新建客户端密码”
@@ -81,7 +81,7 @@ ms.locfileid: "85231223"
 
 ### <a name="creating-an-azure-ad-app-using-powershell"></a>使用 PowerShell 创建 Azure AD 应用程序
 
-此部分中包含使用 [PowerShell](https://docs.microsoft.com/powershell/azure/create-azure-service-principal-azureps?view=azps-1.1.0) 新建 Azure AD 应用程序的示例脚本。
+此部分中包含使用 [PowerShell](/powershell/azure/create-azure-service-principal-azureps?view=azps-1.1.0) 新建 Azure AD 应用程序的示例脚本。
 
 ```powershell
 # The app ID - $app.appid
@@ -111,7 +111,7 @@ $key = New-AzureADServicePrincipalPasswordCredential -ObjectId $sp.ObjectId
 
 ### <a name="create-a-security-group-manually"></a>手动创建安全组
 
-若要手动创建 Azure 安全组，请按照[使用 Azure Active Directory 创建基本组并添加成员](https://docs.microsoft.com/azure/active-directory/fundamentals/active-directory-groups-create-azure-portal)一文中的说明操作。 
+若要手动创建 Azure 安全组，请按照[使用 Azure Active Directory 创建基本组并添加成员](/azure/active-directory/fundamentals/active-directory-groups-create-azure-portal)一文中的说明操作。 
 
 ### <a name="create-a-security-group-using-powershell"></a>使用 PowerShell 创建安全组
 
@@ -121,7 +121,7 @@ $key = New-AzureADServicePrincipalPasswordCredential -ObjectId $sp.ObjectId
 >若要为整个组织启用服务主体访问权限，请跳过这一步。
 
 ```powershell
-# Required to sign in as a tenant admin
+# Required to sign in as admin
 Connect-AzureAD
 
 # Create an Azure AD security group
@@ -149,7 +149,7 @@ Add-AzureADGroupMember -ObjectId $($group.ObjectId) -RefObjectId $($sp.ObjectId)
 若要让 Azure AD 应用程序能够访问 Power BI 服务中的项目（如报表、仪表板和数据集），请以成员或管理员身份将服务主体实体添加到工作区。
 
 >[!NOTE]
->此部分提供了 UI 说明。 也可以使用[“组 - 添加组用户”API](https://docs.microsoft.com/rest/api/power-bi/groups/addgroupuser) 将服务主体添加到工作区。
+>此部分提供了 UI 说明。 也可以使用[“组 - 添加组用户”API](/rest/api/power-bi/groups/addgroupuser) 将服务主体添加到工作区。
 
 1. 滚动到要能够访问的工作区，然后选择“更多”菜单中的“工作区访问”。
 
@@ -179,7 +179,7 @@ Add-AzureADGroupMember -ObjectId $($group.ObjectId) -RefObjectId $($sp.ObjectId)
 >[适用于客户的 Power BI Embedded](embed-sample-for-customers.md)
 
 >[!div class="nextstepaction"]
->[Azure Active Directory 中的应用程序和服务主体对象](https://docs.microsoft.com/azure/active-directory/develop/app-objects-and-service-principals)
+>[Azure Active Directory 中的应用程序和服务主体对象](/azure/active-directory/develop/app-objects-and-service-principals)
 
 >[!div class="nextstepaction"]
 >[配合使用本地数据网关与服务主体的行级别安全性](embedded-row-level-security.md#on-premises-data-gateway-with-service-principal)

@@ -10,12 +10,12 @@ ms.topic: how-to
 ms.date: 12/5/2019
 ms.author: rien
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 2e0aa8c5845c7f87f15e9b152bcaa20094e83ade
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 148fe66039cb273d4ee20521762d5720252c7492
+ms.sourcegitcommit: be424c5b9659c96fc40bfbfbf04332b739063f9c
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85237787"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "91635714"
 ---
 # <a name="waterfall-charts-in-power-bi"></a>Power BI 中的瀑布图
 
@@ -96,7 +96,7 @@ ms.locfileid: "85237787"
 
 1.  选择“商店” > “区域”，这会将“区域”添加到“细分”存储桶中     。
 
-    ![显示明细存储桶中的存储](media/power-bi-visualization-waterfall-charts/power-bi-waterfall-breakdown.png)
+    ![屏幕截图展示了如何向“明细”区域添加“Territory”。](media/power-bi-visualization-waterfall-charts/power-bi-waterfall-breakdown.png)
 
     Power BI 使用“细分”中的值将其他数据添加到可视化效果中  。 Power BI 按月将前五个影响因素添加到每个会计月的增减变化中。 例如，这意味着二月份有六个数据点，而不是只有一个。  
 

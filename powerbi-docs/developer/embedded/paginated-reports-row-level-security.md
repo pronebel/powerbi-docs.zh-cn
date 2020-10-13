@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 11/04/2019
-ms.openlocfilehash: a929374e3d974606d27defed4a7faa99e5450c87
-ms.sourcegitcommit: aece2382b618dc5b730705b4c76e76a657986588
+ms.openlocfilehash: 4066911e90090fe770ca0d33f7e0d9a18d9dde71
+ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/04/2020
-ms.locfileid: "84427852"
+ms.lasthandoff: 10/06/2020
+ms.locfileid: "91746300"
 ---
 # <a name="implementing-row-level-security-in-embedded-paginated-reports"></a>在嵌入的分页报表中实现行级别安全性
 
@@ -28,7 +28,7 @@ ms.locfileid: "84427852"
 
 将行级别安全性应用于 Power BI 分页报表时，需要将[参数](../../paginated-reports/report-builder-parameters.md)分配到 UserID 特性。 此参数将限制嵌入报表前从数据集中提取的数据。
 
-将参数分配到 UserID 后，使用 [Reports GenerateTokenInGroup](https://docs.microsoft.com/rest/api/power-bi/embedtoken/reports_generatetokeningroup) API 获取嵌入令牌。
+将参数分配到 UserID 后，使用 [Reports GenerateTokenInGroup](/rest/api/power-bi/embedtoken/reports_generatetokeningroup) API 获取嵌入令牌。
 
 ## <a name="use-userid-as-a-filter-at-report-or-query-level"></a>在报表或查询级别使用 UderID 作为筛选器
 
@@ -42,7 +42,7 @@ ms.locfileid: "84427852"
 
 2. 从“表达式”下拉菜单中，选择要用于筛选数据的参数。
 
-     ![Power BI 报表生成器表达式](media/paginated-reports-row-level-security/expression.png)
+     ![屏幕截图展示了从“表达式”菜单中选择了值“Color”。](media/paginated-reports-row-level-security/expression.png)
 
 3. 单击“值”函数按钮。 
 
@@ -50,7 +50,7 @@ ms.locfileid: "84427852"
 
 4. 在“表达式”窗口的“类别”列表中，选择“内置字段”  。
 
-    ![Power BI 报表生成器表达式](media/paginated-reports-row-level-security/built-in-fields.png)
+    ![屏幕截图展示了“表达式”窗口，其中“内置字段”被选作“类别”，“ExecutionTime”被选作“项”。](media/paginated-reports-row-level-security/built-in-fields.png)
 
 5. 从“项”列表中，选择 UserID，然后单击“确定”  。
 
@@ -78,7 +78,7 @@ ms.locfileid: "84427852"
 
 ## <a name="passing-the-configured-parameter-using-the-embed-token"></a>使用嵌入令牌传递配置的参数
 
-为客户嵌入分页报表时，使用 [Reports GenerateTokenInGroup](https://docs.microsoft.com/rest/api/power-bi/embedtoken/reports_generatetokeningroup) API 获取嵌入令牌。 此令牌还可用于筛选从分页报表中提取的某些数据。
+为客户嵌入分页报表时，使用 [Reports GenerateTokenInGroup](/rest/api/power-bi/embedtoken/reports_generatetokeningroup) API 获取嵌入令牌。 此令牌还可用于筛选从分页报表中提取的某些数据。
 
 若要只公开某些数据，请用要显示的信息指定 `username` 字段。 例如，在使用 color 参数的分页报表中，如果在 `username` 字段中输入 green，则嵌入令牌会限制嵌入的数据，仅显示颜色列中具有 green 值的数据 。
 

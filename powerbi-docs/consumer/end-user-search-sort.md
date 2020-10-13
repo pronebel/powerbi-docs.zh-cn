@@ -7,17 +7,17 @@ ms.custom: ''
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: how-to
-ms.date: 07/09/2020
+ms.date: 10/01/2020
 ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: 799cbe00274e14709e6987df1f9c4abe664f9b55
-ms.sourcegitcommit: 2131f7b075390c12659c76df94a8108226db084c
+ms.openlocfilehash: 1fbfa8a85ada8512aff54526407799a00fbfa891
+ms.sourcegitcommit: 6ba33e5a500928163e02e007f5ccd52dd2227610
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/03/2020
-ms.locfileid: "87536253"
+ms.lasthandoff: 10/07/2020
+ms.locfileid: "91780358"
 ---
-# <a name="navigation-for-power-bi-consumers-global-search"></a>面向 Power BI 使用者的导航：全局搜索
+# <a name="navigation-for-power-bi-business-users-global-search"></a>面向 Power BI 商务用户的导航：全局搜索
 
 [!INCLUDE[consumer-appliesto-yyny](../includes/consumer-appliesto-yyny.md)]
 
@@ -31,7 +31,7 @@ ms.locfileid: "87536253"
 
  在“搜索”字段中，键入以下项的完整或部分名称：仪表板、报表、工作簿、工作区、应用或所有者。 Power BI 会搜索所有内容。 
 
- ![搜索报表](./media/end-user-search-sort/power-bi-search-field.png) 
+ ![屏幕截图展示了输入了“Procurement”一词的搜索字段。](./media/end-user-search-sort/power-bi-search-field.png) 
 
  在 Power BI 的某些区域（如工作区）中，你会发现两个不同的搜索字段。 菜单栏中的搜索字段会搜索所有内容，而工作区画布上的搜索字段仅搜索该工作区。
 
@@ -39,24 +39,27 @@ ms.locfileid: "87536253"
 
 ## <a name="sorting-content-lists"></a>排序内容列表
 
-如果只有部分内容，则可能不需要进行排序。  但是，如果你有许多仪表板和报表，排序将能帮助你找到所需内容。 例如，“与我共享的内容”内容列表包含 257 个项。 
+如果只有部分内容，则可能不需要进行排序。  但是，如果你有许多仪表板和报表，排序将能帮助你找到所需内容。 例如，此“与我共享的内容”内容列表包含 70 个项。 
 
-![“与我共享的内容”内容列表](./media/end-user-search-sort/power-bi-all-shared.png)
+![“与我共享的内容”内容列表](./media/end-user-search-sort/power-bi-a-to-z.png)
 
-现在，此内容列表按名称（从 A 到 Z）进行排序。若要更改排序条件，请选择“名称 (A-Z)”右侧的箭头。
+现在，此内容列表是按名称的字母顺序从 Z 到 A 排序的。若要更改排序条件，请选择“名称(A-Z)”右侧的箭头。
 
-![排序下拉菜单](./media/end-user-search-sort/power-bi-sort-date.png)
+![排序下拉菜单](./media/end-user-search-sort/power-bi-sort-z-to-a.png)
 
 
-还可以在工作区中进行排序。 在此示例中，内容按“刷新时间”日期排序。 要设置工作区的排序条件，选择列标题，选择一次以选择该标题，然后再次选择以更改排序方向。 
+还可以在工作区中进行排序。 在此示例中，内容按“刷新时间”日期排序。 若要为工作区设置排序条件，请选择列标题，然后再次选择来更改排序方向。 
 
-![搜索报表](./media/end-user-search-sort/power-bi-workspace-sort.png)
+
+![搜索报表](./media/end-user-search-sort/power-bi-refreshed.png)
 
 不是所有列都可以进行排序。 将鼠标悬停在列标题上可发现哪些列可以进行排序。
 
+## <a name="filtering-content-lists"></a>筛选内容列表
+另一种快速定位内容的方法是，使用内容列表中的“筛选器”。 通过选择右上角的“筛选器”来显示筛选器。 筛选器是否可用取决于你在 Power BI 服务中的位置。  下面的示例来自“最近使用”内容列表。  它可便于按内容类型筛选列表。  在“与我共享的内容”内容列表中，可用的“筛选器”包括“所有者”和“内容类型”。
 
-## <a name="considerations-and-troubleshooting"></a>注意事项和疑难解答
-* 对于数据集，所有者无法使用排序依据。
+![内容列表中筛选器的屏幕截图。](./media/end-user-search-sort/power-bi-sort-filters.png)
+
 
 ## <a name="next-steps"></a>后续步骤
 [对报表中的视觉对象排序](end-user-change-sort.md)

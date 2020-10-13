@@ -9,12 +9,12 @@ ms.devlang: csharp, javascript
 ms.topic: how-to
 ms.reviewer: zakharb
 ms.date: 08/02/2020
-ms.openlocfilehash: 2f330b42e674f11f27d695fb65bc8d5de928eaae
-ms.sourcegitcommit: 64139587061136a43c5aea3b6db4d1a94e4e7795
+ms.openlocfilehash: 99943f30aa0c31223eae2058aff8b4d34d49bf1d
+ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/14/2020
-ms.locfileid: "88204828"
+ms.lasthandoff: 10/06/2020
+ms.locfileid: "91748853"
 ---
 # <a name="create-power-bi-embedded-capacity-in-the-azure-portal"></a>在 Azure 门户中创建 Power BI Embedded 容量
 
@@ -26,11 +26,11 @@ ms.locfileid: "88204828"
 
 * **Azure 订阅：** 访问 [Azure 免费试用版](https://azure.microsoft.com/free/)，创建一个帐户。
 
-* **Azure Active Directory：** 订阅必须与 Azure Active Directory (Azure AD) 租户关联。 此外，***需要使用该租户中的帐户登录 Azure***。 不支持 Microsoft 帐户。 若要了解详细信息，请参阅[身份验证和用户权限](https://docs.microsoft.com/azure/analysis-services/analysis-services-manage-users)。
+* **Azure Active Directory：** 订阅必须与 Azure Active Directory (Azure AD) 租户关联。 此外，***需要使用该租户中的帐户登录 Azure***。 不支持 Microsoft 帐户。 若要了解详细信息，请参阅[身份验证和用户权限](/azure/analysis-services/analysis-services-manage-users)。
 
 * **Power BI 租户：** Azure AD 租户中必须至少有一个帐户已注册 Power BI。
 
-* **资源组：** 使用已有资源组，或[创建新资源组](https://docs.microsoft.com/azure/azure-resource-manager/resource-group-overview)。
+* **资源组：** 使用已有资源组，或[创建新资源组](/azure/azure-resource-manager/resource-group-overview)。
 
 ## <a name="create-a-capacity"></a>创建容量
 
@@ -46,17 +46,17 @@ ms.locfileid: "88204828"
 
 4. 填写所需的信息，然后单击“审阅 + 创建”。
 
-    ![在 Azure 门户中创建新容量所需填写的字段的屏幕截图](media/azure-pbie-create-capacity/azure-create-capacity.png)
+    ![屏幕截图展示了 Azure 门户中用于新建容量的“Power BI Embedded”页的“基本信息”选项卡。](media/azure-pbie-create-capacity/azure-create-capacity.png)
 
     * “订阅”- 要为其创建容量的订阅。
 
-    * “资源组”- 包含此新容量的资源组。 从现有资源组中进行选取，或者另外创建一个。 有关详细信息，请参阅 [Azure Resource Manager 概述](https://docs.microsoft.com/azure/azure-resource-manager/resource-group-overview)。
+    * “资源组”- 包含此新容量的资源组。 从现有资源组中进行选取，或者另外创建一个。 有关详细信息，请参阅 [Azure Resource Manager 概述](/azure/azure-resource-manager/resource-group-overview)。
 
     * “资源名称”- 容量的资源名称。
 
     * “位置”- 为租户托管 Power BI 的位置。 你的默认位置位于主区域内，但可以使用 [Multi-Geo 选项](embedded-multi-geo.md)更改该位置。
 
-    * “大小”- 所需的 [SKU](../../admin/service-admin-premium-purchase.md#purchase-a-skus-for-testing-and-other-scenarios)。 有关详细信息，请参阅 [SKU 内存和计算能力](/power-bi/developer/embedded/embedded-capacity)。
+    * “大小”- 所需的 [SKU](../../admin/service-admin-premium-purchase.md#purchase-a-skus-for-testing-and-other-scenarios)。 有关详细信息，请参阅 [SKU 内存和计算能力](./embedded-capacity.md)。
 
     * “Power BI 容量管理员”- 容量的管理员。
         >[!NOTE]
@@ -114,7 +114,7 @@ Power BI Embedded 容量命令需要使用 2.3.1 或更高版本的 Azure CLI。
 
 ### <a name="create-a-capacity-with-azure-cli"></a>使用 Azure CLI 创建容量
 
-使用 [az Power BI embedded-capacity create](https://docs.microsoft.com/cli/azure/ext/powerbidedicated/powerbi/embedded-capacity?view=azure-cli-latest#ext-powerbidedicated-az-powerbi-embedded-capacity-create) 命令创建容量。
+使用 [az Power BI embedded-capacity create](/cli/azure/ext/powerbidedicated/powerbi/embedded-capacity?view=azure-cli-latest#ext-powerbidedicated-az-powerbi-embedded-capacity-create) 命令创建容量。
 
 ```azurecli
 az powerbi embedded-capacity create --location westeurope
@@ -126,7 +126,7 @@ az powerbi embedded-capacity create --location westeurope
 
 ### <a name="delete-a-capacity-with-azure-cli"></a>使用 Azure CLI 删除容量
 
-若要使用 Azure CLI 删除容量，请使用 [az powerbi embedded-capacity delete](https://docs.microsoft.com/cli/azure/ext/powerbidedicated/powerbi/embedded-capacity?view=azure-cli-latest#ext-powerbidedicated-az-powerbi-embedded-capacity-delete) 命令。
+若要使用 Azure CLI 删除容量，请使用 [az powerbi embedded-capacity delete](/cli/azure/ext/powerbidedicated/powerbi/embedded-capacity?view=azure-cli-latest#ext-powerbidedicated-az-powerbi-embedded-capacity-delete) 命令。
 
 ```azurecli
 az powerbi embedded-capacity delete --name
@@ -135,13 +135,13 @@ az powerbi embedded-capacity delete --name
 
 ### <a name="manage-your-capacity-with-azure-cli"></a>使用 Azure CLI 管理容量
 
-可以在 [az powerbi](https://docs.microsoft.com/cli/azure/ext/powerbidedicated/powerbi?view=azure-cli-latest) 中查看所有 Power BI Embedded Azure CLI 命令。
+可以在 [az powerbi](/cli/azure/ext/powerbidedicated/powerbi?view=azure-cli-latest) 中查看所有 Power BI Embedded Azure CLI 命令。
 
 # <a name="arm-template"></a>[ARM 模板](#tab/ARM-template)
 
 ### <a name="use-resource-manager-template"></a>使用 Resource Manager 模板
 
-[资源管理器模板](https://docs.microsoft.com/azure/azure-resource-manager/templates/overview)是定义项目基础结构和配置的 JavaScript 对象表示法 (JSON) 文件。 该模板使用声明性语法，使你可以声明要部署的内容，而不需要编写一系列编程命令来进行创建。 若要详细了解如何开发资源管理器模板，请参阅[资源管理器文档](https://docs.microsoft.com/azure/azure-resource-manager/)和[模板参考](https://docs.microsoft.com/azure/templates/)。
+[资源管理器模板](/azure/azure-resource-manager/templates/overview)是定义项目基础结构和配置的 JavaScript 对象表示法 (JSON) 文件。 该模板使用声明性语法，使你可以声明要部署的内容，而不需要编写一系列编程命令来进行创建。 若要详细了解如何开发资源管理器模板，请参阅[资源管理器文档](/azure/azure-resource-manager/)和[模板参考](/azure/templates/)。
 
 如果没有 Azure 订阅，请在开始之前创建一个[免费](https://azure.microsoft.com/free/)帐户。
 
@@ -209,7 +209,7 @@ az powerbi embedded-capacity delete --name
 }
 ```
 
-模板中定义了一个 Azure 资源，[Microsoft.PowerBIDedicated/capacities Az](https://docs.microsoft.com/azure/templates/microsoft.powerbidedicated/allversions) - 创建 Power BI Embedded 容量。
+模板中定义了一个 Azure 资源，[Microsoft.PowerBIDedicated/capacities Az](/azure/templates/microsoft.powerbidedicated/allversions) - 创建 Power BI Embedded 容量。
 
 ### <a name="deploy-the-template"></a>部署模板
 
@@ -219,20 +219,20 @@ az powerbi embedded-capacity delete --name
 
 2. 填写所需的信息，然后单击“审阅 + 创建”。
 
-    ![在 Azure 门户中创建新容量所需填写的字段的屏幕截图](media/azure-pbie-create-capacity/arm-template.png)
+    ![屏幕截图展示了 Azure 门户中用于新建容量的“创建 Power BI Embedded 容量”页的“基本信息”选项卡。](media/azure-pbie-create-capacity/arm-template.png)
 
     * “订阅”- 要为其创建容量的订阅。
 
-    * “资源组”- 包含此新容量的资源组。 从现有资源组中进行选取，或者另外创建一个。 有关详细信息，请参阅 [Azure Resource Manager 概述](https://docs.microsoft.com/azure/azure-resource-manager/resource-group-overview)。
+    * “资源组”- 包含此新容量的资源组。 从现有资源组中进行选取，或者另外创建一个。 有关详细信息，请参阅 [Azure Resource Manager 概述](/azure/azure-resource-manager/resource-group-overview)。
 
     * “区域”- 容量所属的区域。
 
     * “名称”- 容量名称。
 
-    * “位置”- 为租户托管 Power BI 的位置。 你的默认位置位于主区域内，但可以使用 [Multi-Geo 选项](https://docs.microsoft.com/power-bi/developer/embedded/embedded-multi-geo
+    * “位置”- 为租户托管 Power BI 的位置。 你的默认位置位于主区域内，但可以使用 [Multi-Geo 选项](./embedded-multi-geo.md
 )更改该位置。
 
-    * “SKU”- 所需的 [SKU](../../admin/service-admin-premium-purchase.md#purchase-a-skus-for-testing-and-other-scenarios)。 有关详细信息，请参阅 [SKU 内存和计算能力](/power-bi/developer/embedded/embedded-capacity)。
+    * “SKU”- 所需的 [SKU](../../admin/service-admin-premium-purchase.md#purchase-a-skus-for-testing-and-other-scenarios)。 有关详细信息，请参阅 [SKU 内存和计算能力](./embedded-capacity.md)。
 
     * “管理员”- 容量的管理员。
         >[!NOTE]

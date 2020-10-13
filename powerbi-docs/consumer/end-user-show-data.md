@@ -1,20 +1,20 @@
 ---
-title: 显示用于创建视觉对象的数据
-description: 本文档阐述 Power BI 消费者如何“看到”用于创建视觉对象的数据。
+title: 显示用于创建报表视觉对象的数据
+description: 本文档解释了 Power BI 商务用户如何“查看”用于创建报表视觉对象的数据。
 author: mihart
 ms.reviewer: mihart
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: how-to
-ms.date: 04/28/2020
+ms.date: 10/6/2020
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: a48f6aa12a1fd3f3a3dcea39524ed3d51251b062
-ms.sourcegitcommit: 2131f7b075390c12659c76df94a8108226db084c
+ms.openlocfilehash: 737fe43a7a94ef5738676792e1e903564d29e4bb
+ms.sourcegitcommit: 6ba33e5a500928163e02e007f5ccd52dd2227610
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/03/2020
-ms.locfileid: "87536230"
+ms.lasthandoff: 10/07/2020
+ms.locfileid: "91780231"
 ---
 # <a name="show-data-with-power-bi-reports"></a>使用 Power BI 报表显示数据
 
@@ -37,7 +37,11 @@ Power BI 视觉对象是使用基础数据集中的数据构造而成的。 如�
 
 4. 若要更改显示方向，可从可视化效果的右上角选择垂直布局 ![布局图标](media/end-user-show-data/power-bi-vertical-icon-new.png) 。
    
-   ![水平显示视觉对象和数据](./media/end-user-show-data/power-bi-horizontal.png)
+   ![水平显示视觉对象和数据](./media/end-user-show-data/power-bi-show-horizontal.png)
+
+若要返回到报表，请选择左上角的“返回到报表”。 
+
+   ![展示了“返回到报表”链接的屏幕截图。](./media/end-user-show-data/power-bi-back.png)
 
 ## <a name="next-steps"></a>后续步骤
 [Power BI 报表中的视觉对象](../visuals/power-bi-report-visualizations.md)    

@@ -1,6 +1,6 @@
 ---
 title: Power BI 中的切片器
-description: Power BI 切片器是另一种筛选方法，用于限制在报表的其他可视化效果中显示的部分数据集。
+description: Power BI 切片器是筛选数据集的另一种方法，可以缩小在你设计的报表的其他可视化效果中显示的数据集部分范围。
 author: maggiesMSFT
 ms.reviewer: ''
 ms.service: powerbi
@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 07/07/2020
 ms.author: maggies
 LocalizationGroup: Visualizations
-ms.openlocfilehash: de466c4e299a3467f66b7b769303e1eadd7ee5b0
-ms.sourcegitcommit: 11deeccf596e9bb8f22615276a152614f7579f35
+ms.openlocfilehash: 1f68ed28a57f5dd52d447d48ea231e468dd5d02a
+ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/16/2020
-ms.locfileid: "86409619"
+ms.lasthandoff: 10/06/2020
+ms.locfileid: "91747726"
 ---
 # <a name="slicers-in-power-bi"></a>Power BI 中的切片器
 

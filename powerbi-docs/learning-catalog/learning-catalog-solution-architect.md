@@ -1,17 +1,17 @@
 ---
 title: 解决方案架构师学习目录
-description: 查找针对 Power Apps 的所有培训选项
+description: 查找面向解决方案设计者的所有 Power Apps 培训选项（从最基础到最高级）。
 author: margoc
 ms.prod: powerbi
 ms.topic: article
 ms.date: 03/25/2020
 ms.author: margoc
-ms.openlocfilehash: 4a14dd303307413b354d2cf2441347f275497bfa
-ms.sourcegitcommit: 66b1a0c74b8a7dcb33a2f8570fb67bce2401a895
+ms.openlocfilehash: c75e3d45199173ce949bb876e9755c44c8bd06a5
+ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/08/2020
-ms.locfileid: "84532088"
+ms.lasthandoff: 10/06/2020
+ms.locfileid: "91749336"
 ---
 # <a name="solution-architects-learning-catalog"></a>解决方案架构师学习目录
 
