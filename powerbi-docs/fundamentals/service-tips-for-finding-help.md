@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 06/28/2018
 ms.author: maggies
 LocalizationGroup: Get started
-ms.openlocfilehash: 2500ba94a6ad387e9944fb29f865b391ea4c0711
-ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
+ms.openlocfilehash: f5cb17187770c8c0b37c48a495c6844c462e83ec
+ms.sourcegitcommit: d153cfc0ce559480c53ec48153a7e131b7a31542
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90860937"
+ms.lasthandoff: 09/29/2020
+ms.locfileid: "91525612"
 ---
 # <a name="10-tips-for-getting-help-with-your-power-bi-questions"></a>有关获取 Power BI 问题解答的 10 个提示
 使用 Power BI 时，是否会因遇到的 Power BI 问题得不到及时解答（即“实时”帮助）感到灰心失望或很费劲？ 
@@ -49,7 +49,7 @@ Power BI 团队在其 [Power BI 博客文章](https://powerbi.microsoft.com/blog
 
 还可以在网上找到其他培训选项，例如：
 
-* **edX.org** 提供免费课程[使用 Power BI 分析和直观呈现数据](https://www.edx.org/course/analyzing-visualizing-data-power-bi-microsoft-dat207x-4)。
+* **edX.org** 提供免费课程[使用 Power BI 分析和直观呈现数据](https://www.edx.org/course/data-analysis-in-power-bi)。
 * **Lynda.com** 提供 [Power BI Pro 基础培训](https://www.lynda.com/Power-BI-tutorials/Power-BI-Pro-Essential-Training/485820-2.html)等课程。
 * 查找“**从仪表板开始一天**”面对面培训会议。
 

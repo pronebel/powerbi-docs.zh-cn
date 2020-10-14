@@ -7,13 +7,13 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: how-to
-ms.date: 01/14/2020
-ms.openlocfilehash: e9e2c44bdcbeabc28a95bd62bf6ba6763ae61442
-ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
+ms.date: 10/12/2020
+ms.openlocfilehash: 17e153528e45a52de7addf3563c58c2586600660
+ms.sourcegitcommit: 383d87841d2509131fac7cc02c5c37c6a868144f
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90859051"
+ms.lasthandoff: 10/14/2020
+ms.locfileid: "92025994"
 ---
 # <a name="use-web-application-proxy-and-active-directory-federated-services---power-bi-report-server"></a>使用 Web 应用程序代理和 Active Directory 联合身份验证服务 - Power BI 报表服务器
 
@@ -157,7 +157,7 @@ SPN 是使用 Kerberos 身份验证的服务的唯一标识符。 确保报表�
 8. 运行以下 PowerShell 命令来验证 WAP 配置。
 
     ```
-    Get-WebApplicationProxyApplication "PBIRSBrowser" | FL
+    Get-WebApplicationProxyApplication -Name "PBIRSWAP" | FL
     ```
 
     ![PowerShell 命令](media/connect-adfs-wap-report-server/report-server-powershell-get-webapplication.png)
