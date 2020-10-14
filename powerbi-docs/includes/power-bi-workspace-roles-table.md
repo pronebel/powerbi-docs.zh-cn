@@ -8,12 +8,12 @@ ms.topic: include
 ms.date: 09/04/2020
 ms.author: maggies
 ms.custom: include file
-ms.openlocfilehash: b4b73b71a944fbb34d53be05cacc39c18e4226de
-ms.sourcegitcommit: 2cf8159535c114045e236c076a711638cfd7d2c8
+ms.openlocfilehash: 0bf9f1a6eb918e55ab3811b9c6fde2628bdd91ad
+ms.sourcegitcommit: 02484b2d7a352e96213353702d60c21e8c07c6c0
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/07/2020
-ms.locfileid: "89512806"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "91983709"
 ---
 |功能   | 管理员  | 成员  | 参与者  | 查看器 |
 |---|---|---|---|---|
@@ -42,6 +42,6 @@ ms.locfileid: "89512806"
 
 <sup>3</sup> 若要复制报表，并基于此工作区中的数据集在另一个工作区中创建报表，则需要[数据集的生成权限](../connect-data/service-datasets-build-permissions.md)。 对于此工作区中的数据集，拥有管理员、成员和参与者角色的相关人员通过其工作区角色自动获得生成权限。
 
-<sup>4</sup> 请记住，你还需要对网关具有相应权限。 这些权限在其他位置进行管理，而不受工作区角色和权限的影响。 有关详细信息，请参阅 [管理本地网关](https://docs.microsoft.com/data-integration/gateway/service-gateway-manage)。
+<sup>4</sup> 请记住，你还需要对网关具有相应权限。 这些权限在其他位置进行管理，而不受工作区角色和权限的影响。 有关详细信息，请参阅 [管理本地网关](/data-integration/gateway/service-gateway-manage)。
 
 <sup>5</sup> 即使没有 Power BI Pro 许可证，如果项位于高级容量的工作区中，你也可以查看 Power BI 服务中的项并与之交互。

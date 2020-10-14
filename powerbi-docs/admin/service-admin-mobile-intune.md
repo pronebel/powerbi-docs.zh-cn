@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 09/25/2020
 ms.author: kfollis
 LocalizationGroup: Administration
-ms.openlocfilehash: 214ef5072808decc4c153a28cf231e070c20508d
-ms.sourcegitcommit: d153cfc0ce559480c53ec48153a7e131b7a31542
+ms.openlocfilehash: a7a3e0382b80d46ddb41b3f5677763a1a08bf26d
+ms.sourcegitcommit: 02484b2d7a352e96213353702d60c21e8c07c6c0
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/29/2020
-ms.locfileid: "91524710"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "91981541"
 ---
 # <a name="configure-mobile-apps-with-microsoft-intune"></a>使用 Microsoft Intune 配置移动应用
 
@@ -58,8 +58,8 @@ Intune 管理员必须将 Power BI 应用添加到 Intune，同时将应用分�
 公司支持人员可对托管应用进行配置，以帮助保护在该应用中可访问的公司数据。 当你在设备上的托管应用中访问公司数据时，你可能会注意到应用的工作方式与你的预期稍有不同。 例如，你可能无法复制和粘贴受保护的公司数据，或者你可能无法将该数据保存到特定位置。
 
 若要了解最终用户可以如何在其设备上使用 Power BI 应用，请查看以下文章中提供的步骤：
-- [在 iOS 设备上使用托管应用](https://docs.microsoft.com/intune-user-help/use-managed-apps-on-your-device-ios#how-do-i-get-managed-apps)
-- [在 Android 设备上使用托管应用](https://docs.microsoft.com/intune-user-help/use-managed-apps-on-your-device-android)
+- [在 iOS 设备上使用托管应用](/intune-user-help/use-managed-apps-on-your-device-ios#how-do-i-get-managed-apps)
+- [在 Android 设备上使用托管应用](/intune-user-help/use-managed-apps-on-your-device-android)
 
 ## <a name="next-steps"></a>后续步骤
 
@@ -67,4 +67,4 @@ Intune 管理员必须将 Power BI 应用添加到 Intune，同时将应用分�
 
 [适用于移动设备的 Power BI 应用](../consumer/mobile/mobile-apps-for-mobile-devices.md)  
 
-更多问题？ [尝试咨询 Power BI 社区](https://community.powerbi.com/)  
+更多问题？ [尝试咨询 Power BI 社区](https://community.powerbi.com/)

@@ -7,12 +7,12 @@ ms.service: powerbi
 ms.topic: include
 ms.date: 07/15/2019
 ms.author: arthii
-ms.openlocfilehash: 66af436832c8a0948b62b6fc73ffd87222d0444b
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 97769dd122aa96d74fca75f206db13e76300836b
+ms.sourcegitcommit: 02484b2d7a352e96213353702d60c21e8c07c6c0
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "74697374"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "91989634"
 ---
 > [!NOTE]
-> 我们最近修订了本地数据网关文档。我们将它们拆分为[特定于 Power BI 的内容](/power-bi/service-gateway-onprem)和[适用于网关支持的所有服务的常规内容](/data-integration/gateway/service-gateway-onprem)。 你当前正在阅读 Power BI 内容。 若要针对本文或整个网关文档体验提供反馈，请滚动到本文底部。
+> 我们最近修订了本地数据网关文档。我们将它们拆分为[特定于 Power BI 的内容](../connect-data/service-gateway-onprem.md)和[适用于网关支持的所有服务的常规内容](/data-integration/gateway/service-gateway-onprem)。 你当前正在阅读 Power BI 内容。 若要针对本文或整个网关文档体验提供反馈，请滚动到本文底部。
