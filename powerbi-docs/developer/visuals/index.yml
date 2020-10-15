@@ -12,14 +12,14 @@ metadata:
   author: KesemSharabi
   ms.author: kesharab
   ms.date: 31/03/2020
-  ms.openlocfilehash: d68b08f941ebe04c41e29f1260332e6f2b0d332c
-  ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+  ms.openlocfilehash: 92eb2ebc5eaff00c5c83cd32b0fa90b631906237
+  ms.sourcegitcommit: 50b21718a167c2b131313b4135c8034c6f027597
   ms.translationtype: HT
   ms.contentlocale: zh-CN
-  ms.lasthandoff: 05/05/2020
-  ms.locfileid: "80516229"
+  ms.lasthandoff: 10/14/2020
+  ms.locfileid: "92049306"
 landingContent:
-- title: 开始使用
+- title: 入门
   linkLists:
   - linkListType: get-started
     links:
@@ -27,14 +27,14 @@ landingContent:
       url: power-bi-custom-visuals.md
     - text: Power BI 视觉对象项目结构
       url: visual-project-structure.md
-    - text: 常见问题解答
+    - text: 常见问题
       url: power-bi-custom-visuals-faq.md
 - title: 开发 Power BI 视觉对象
   linkLists:
   - linkListType: tutorial
     links:
     - text: 教程：开发 Power BI 视觉对象
-      url: custom-visual-develop-tutorial.md
+      url: develop-circle-card.md
     - text: 教程：向 Power BI 视觉对象添加格式设置选项
       url: custom-visual-develop-tutorial-format-options.md
   - linkListType: concept
