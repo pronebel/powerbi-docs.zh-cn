@@ -6,140 +6,138 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 09/11/2020
+ms.date: 10/07/2020
 ms.author: davidi
-ms.openlocfilehash: 926569e783dad7a97b91e2e5c1752401d21d6612
-ms.sourcegitcommit: 376ea86f69545444f975378cbf63e54c2f75faa3
+ms.openlocfilehash: 918b9a98d66a1c739421433d35f593dc74d19773
+ms.sourcegitcommit: 02484b2d7a352e96213353702d60c21e8c07c6c0
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/15/2020
-ms.locfileid: "90084044"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "91981472"
 ---
 # <a name="power-bi-data-sources"></a>Power BI 数据源
 
 下表展示了 Power BI 支持的数据集的数据源，其中包括有关 DirectQuery 和本地数据网关的信息。 有关数据流的信息，请参阅[连接到 Power BI 数据流的数据源](../transform-model/service-dataflows-data-sources.md)。
 
-| 数据源 | 从桌面连接 | 从服务连接并刷新 | DirectQuery/实时连接 | 网关（支持） | 网关（必需） |
+| 数据源 | 从桌面连接 | 从服务连接并刷新 | DirectQuery/实时连接 | 网关（支持） | 网关（必需） | Power BI 数据流 |
 |---|---|---|---|---|---|---|---|
-| Access 数据库 | 是 | 是 | 否 | 是 <sup>1</sup> | 是 |
-| ActiveDirectory | 是 | 是 | 否 | 是 | 是 |
-| Adobe Analytics | 是 | 是 | 否 | 否 | 否 |
-| Amazon Redshift | 是 | 是 | 是 | 是 | 否 |
-| appFigures | 是 | 是 | 否 | 否 | 否 |
-| AtScale 多维数据集 | 是 | 是 | 是 | 是 | 否 |
-| Azure Analysis Services | 是 | 是 | 是 | 否 | 否 |
-| Azure Blob 存储 | 是 | 是 | 否 | 是 | 否 |
-| Azure Cosmos DB | 是 | 是 | 否 | 否 | 否 |
-| Azure 成本管理 | 是 | 是 | 否 | 否 | 否 |
-| Azure 数据资源管理器 (kusto) | 是 | 是 | 是 | 是 | 否 |
-| Azure Data Lake Storage Gen1 | 是 | 是 | 否 | 否 | 否 |
-| Azure Data Lake Storage Gen2 | 是 | 是 | 否 | 是 | 否 |
-| Azure DevOps | 是 | 是 | 否 | 否 | 否 |
-| Azure DevOps Server | 是 | 是 | 否 | 是 | 是 |
-| Azure HDInsight (HDFS) | 是 | 是 | 否 | 否 | 否 |
-| Azure HDInsight Spark | 是 | 是 | 是 | 否 | 否 |
-| Azure SQL 数据库 | 是 | 是 | 是 | 是 <sup>2</sup> | 否 |
-| Azure SQL 数据仓库 | 是 | 是 | 是 | 是 <sup>2</sup> | 否 |
-| Azure 表存储 | 是 | 是 | 否 | 是 | 否 |
-| BI 连接器 | 是 | 是 | 是 | 是 | 是 |
-| BI360 - Budgeting & Financial Reporting | 是 | 是 | 否 | 否 | 否 |
-| Common Data Service | 是 | 是 | 否 | 否 | 否 |
-| Data.World - Get Dataset | 是 | 是 | 否 | 否 | 否 |
-| Denodo | 是 | 是 | 是 | 是 | 是 |
-| Dremio | 是 | 是 | 是 | 是 | 是 |
-| Dynamics 365 (联机) | 是 | 是 | 否 | 否 | 否 |
-| Dynamics 365 Business Central | 是 | 是 | 否 | 否 | 否 |
-| Dynamics 365 Business Central (本地) | 是 | 是 | 否 | 否 | 否 |
-| Dynamics 365 Customer Insights | 是 | 是 | 否 | 否 | 否 |
-| Dynamics NAV | 是 | 是 | 否 | 否 | 否 |
-| Emigo Data Source | 是 | 是 | 否 | 否 | 否 |
-| Entersoft Business Suite | 是 | 是 | 否 | 否 | 否 |
-| Essbase | 是 | 是 | 是 | 是 | 是 |
-| Exasol | 是 | 是 | 是 | 是 | 是 |
-| Excel | 是 <sup>3</sup> | 是 <sup>3</sup> | 否 | 是 <sup>3</sup> | 否 <sup>4</sup> |
-| Facebook | 是 | 是 | 否 | 否 | 否 |
-| 文件 | 是 | 是 | 否 | 是 | 是 |
-| Folder | 是 | 是 | 否 | 是 | 是 |
-| GitHub | 是 | 是 | 否 | 否 | 否 |
-| Google Analytics | 是 | 是 | 否 | 否 | 否 |
-| Google BigQuery | 是 | 是 | 是 | 否 | 否 |
-| Hadoop 文件 (HDFS) | 是 | 否 | 否 | 否 | 否 |
-| HDInsight 交互式查询 | 是 | 是 | 是 | 否 | 否 |
-| IBM DB2 | 是 | 是 | 是 | 是 | 否 |
-| IBM Informix 数据库 | 是 | 是 | 否 | 是 | 否 |
-| IBM Netezza | 是 | 是 | 是 | 是 | 是 |
-| Impala | 是 | 是 | 是 | 是 | 是 |
-| Indexima | 是 | 是 | 是 | 是 | 是 |
-| Industrial App Store | 是 | 是 | 否 | 否 | 否 |
-| Information Grid | 是 | 是 | 否 | 否 | 否 |
-| Intersystems IRIS | 是 | 是 | 是 | 是 | 是 |
-| Intune Data Warehouse | 是 | 是 | 否 | 否 | 否 |
-| Jethro ODBC | 是 | 是 | 是 | 是 | 是 |
-| JSON | 是 | 是 | 否 | 是** | 否 <sup>4</sup> |
-| Kyligence Enterprise | 是 | 是 | 是 | 是 | 是 |
-| MailChimp | 是 | 是 | 否 | 否 | 否 |
-| Marketo | 是 | 是 | 否 | 否 | 否 |
-| MarkLogic ODBC | 是 | 是 | 是 | 是 | 是 |
-| Microsoft Azure 使用见解 | 是 | 是 | 否 | 否 | 否 |
-| Microsoft Exchange | 是 | 是 | 否 | 是 | 否 |
-| Microsoft Exchange Online | 是 | 是 | 否 | 否 | 否 |
-| Microsoft Graph Security | 是 | 是 | 否 | 是 | 否 |
-| Mixpanel | 是 | 是 | 否 | 否 | 否 |
-| MySQL | 是 | 是 | 否 | 是 | 是 |
-| OData | 是 | 是 <sup>7</sup> | 否 | 是 | 否 |
-| ODBC | 是 | 是 | 否 | 是 | 是 |
-| OleDb | 是 | 是 | 否 | 是 | 是 |
-| Oracle | 是 | 是 | 是 | 是 | 是 |
-| Paxata <sup>8</sup> | 是 | 是 | 否 | 是 | 否 |
-| PDF | 是 | 是 | 否 | 是 | 否 <sup>4</sup> |
-| Planview Enterprise One - CTM | 是 | 是 | 否 | 否 | 否 |
-| Planview Enterprise One - PRM | 是 | 是 | 否 | 否 | 否 |
-| Planview Projectplace | 是 | 是 | 否 | 否 | 否 |
-| PostgreSQL | 是 | 是 | 是 | 是 | 否 |
-| Power BI 数据流 | 是 | 是 | 否 | 否 | 否 |
-| Power BI 数据集 | 是 | 是 | 是 | 否 | 否 |
-| Power platform 数据流 | 是 | 是 | 否 | 否 | 否 |
-| Python 脚本 | 是 | 是 <sup>5</sup> | 否 | 是 <sup>5</sup> | 是 |
-| QubolePresto | 是 | 是 | 是 | 是 | 是 |
-| Quick Base | 是 | 是 | 否 | 是 | 是 |
-| QuickBooks Online | 是 | 是 | 否 | 否 | 否 |
-| R 脚本 | 是 | 是 <sup>5</sup> | 否 | 是 <sup>5</sup> | 否 |
-| Roamler | 是 | 是 | 否 | 是 | 否 |
-| Salesforce 对象 | 是 | 是 | 否 | 否 | 否 |
-| Salesforce 报表 | 是 | 是 | 否 | 否 | 否 |
-| SAP Business Warehouse 消息服务器 | 是 | 是 | 是 | 是 | 是 |
-| SAP Business Warehouse 服务器 | 是 | 是 | 是 | 是 | 是 |
-| SAP HANA | 是 | 是 | 是 | 是 | 是 |
-| SharePoint 文件夹 | 是 | 是 | 否 | 是 | 否 <sup>4</sup> |
-| SharePoint 列表 | 是 | 是 | 否 | 是 | 否 <sup>4</sup> |
-| SharePoint Online 列表 | 是 | 是 | 否 | 是 <sup>2</sup> | 否 |
-| Smartsheet | 是 | 是 | 否 | 否 | 否 |
-| Snowflake | 是 | 是 | 是 | 是 | 否 |
-| Spark | 是 | 是 | 是 | 是 | 否 |
-| SparkPost | 是 | 是 | 否 | 否 | 否 |
-| SQL Server | 是 | 是 | 是 | 是 | 是 |
-| SQL Server Analysis Services | 是 | 是 | 是 | 是 | 是 |
-| Stripe | 是 | 是 | 否 | 否 | 否 |
-| SurveyMonkey | 是 | 是 | 否 | 是 | 否 |
-| SweetIQ | 是 | 是 | 否 | 否 | 否 |
-| Sybase | 是 | 是 | 否 | 是 | 是 |
-| TeamDesk | 是 | 是 | 否 | 是 | 否 |
-| Tenforce | 是 | 是 | 否 | 否 | 否 |
-| Teradata | 是 | 是 | 是 | 是 | 是 |
-| 文本/CSV | 是 | 是 | 否 | 是 | 否 <sup>4</sup> |
-| Twilio | 是 | 是 | 否 | 否 | 否 |
-| tyGraph | 是 | 是 | 否 | 否 | 否 |
-| Vertica | 是 | 是 | 是 | 是 | 是 |
-| Web | 是 | 是 | 否 | 是 | 是<sup>6</sup> |
-| Webtrends | 是 | 是 | 否 | 否 | 否 |
-| 工作人员维度 | 是 | 是 | 否 | 是 | 否 |
-| XML | 是 | 是 | 否 | 是 | 否 <sup>4</sup> |
-| Zendesk | 是 | 是 | 否 | 否 | 否 |
+| Access 数据库 | 是 | 是 | 否 | 是 <sup>1</sup> | 是 | 是 |
+| ActiveDirectory | 是 | 是 | 否 | 是 | 是 | 是 |
+| Adobe Analytics | 是 | 是 | 否 | 否 | 否 | 否 |
+| Amazon Redshift | 是 | 是 | 是 | 是 | 否 | 是 |
+| appFigures | 是 | 是 | 否 | 否 | 否 | 否 |
+| AtScale 多维数据集 | 是 | 是 | 是 | 是 | 否 | 否 |
+| Azure Analysis Services | 是 | 是 | 是 | 否 | 否 | 否 |
+| Azure Blob 存储 | 是 | 是 | 否 | 是 | 否 | 是 |
+| Azure Cosmos DB | 是 | 是 | 否 | 否 | 否 | 否 |
+| Azure 成本管理 | 是 | 是 | 否 | 否 | 否 | 否 |
+| Azure 数据资源管理器 (kusto) | 是 | 是 | 是 | 是 | 否 | 是 |
+| Azure Data Lake Storage Gen1 | 是 | 是 | 否 | 否 | 否 | 否 |
+| Azure Data Lake Storage Gen2 | 是 | 是 | 否 | 是 | 否 | 是 |
+| Azure DevOps | 是 | 是 | 否 | 否 | 否 | 否 |
+| Azure DevOps Server | 是 | 是 | 否 | 是 | 是 | 否 |
+| Azure HDInsight (HDFS) | 是 | 是 | 否 | 否 | 否 | 否 |
+| Azure HDInsight Spark | 是 | 是 | 是 | 否 | 否 | 是 |
+| Azure SQL 数据库 | 是 | 是 | 是 | 是 | 否 | 是 |
+| Azure SQL 数据仓库 | 是 | 是 | 是 | 是 | 否 | 是 |
+| Azure 表存储 | 是 | 是 | 否 | 是 | 否 | 是 |
+| BI 连接器 | 是 | 是 | 是 | 是 | 是 | 否 |
+| BI360 - Budgeting & Financial Reporting | 是 | 是 | 否 | 否 | 否 | 否 |
+| Common Data Service | 是 | 是 | 否 | 否 | 否 | 是 |
+| Data.World - Get Dataset | 是 | 是 | 否 | 否 | 否 | 否 |
+| Denodo | 是 | 是 | 是 | 是 | 是 | 否 |
+| Dremio | 是 | 是 | 是 | 是 | 是 | 否 |
+| Dynamics 365 (联机) | 是 | 是 | 否 | 否 | 否 | 否 |
+| Dynamics 365 Business Central | 是 | 是 | 否 | 否 | 否 | 否 |
+| Dynamics 365 Business Central (本地) | 是 | 是 | 否 | 否 | 否 | 否 |
+| Dynamics 365 Customer Insights | 是 | 是 | 否 | 否 | 否 | 否 |
+| Dynamics NAV | 是 | 是 | 否 | 否 | 否 | 否 |
+| Emigo Data Source | 是 | 是 | 否 | 否 | 否 | 否 |
+| Entersoft Business Suite | 是 | 是 | 否 | 否 | 否 | 否 |
+| Essbase | 是 | 是 | 是 | 是 | 是 | 否 |
+| Exasol | 是 | 是 | 是 | 是 | 是 | 否 |
+| Excel | 是 <sup>3</sup> | 是 <sup>3</sup> | 否 | 是 <sup>3</sup> | 否 <sup>4</sup> | 是 |
+| Facebook | 是 | 是 | 否 | 否 | 否 | 否 |
+| 文件 | 是 | 是 | 否 | 是 | 是 | 是 |
+| Folder | 是 | 是 | 否 | 是 | 是 | 是 |
+| GitHub | 是 | 是 | 否 | 否 | 否 | 否 |
+| Google Analytics | 是 | 是 | 否 | 否 | 否 | 否 |
+| Google BigQuery | 是 | 是 | 是 | 否 | 否 | 是 |
+| Hadoop 文件 (HDFS) | 是 | 否 | 否 | 否 | 否 | 否 |
+| HDInsight 交互式查询 | 是 | 是 | 是 | 否 | 否 | 否 |
+| IBM DB2 | 是 | 是 | 是 | 是 | 否 | 是 |
+| IBM Informix 数据库 | 是 | 是 | 否 | 是 | 否 | 否 |
+| IBM Netezza | 是 | 是 | 是 | 是 | 是 | 否 |
+| Impala | 是 | 是 | 是 | 是 | 是 | 是 |
+| Indexima | 是 | 是 | 是 | 是 | 是 | 否 |
+| Industrial App Store | 是 | 是 | 否 | 否 | 否 | 否 |
+| Information Grid | 是 | 是 | 否 | 否 | 否 | 否 |
+| Intersystems IRIS | 是 | 是 | 是 | 是 | 是 | 否 |
+| Intune Data Warehouse | 是 | 是 | 否 | 否 | 否 | 否 |
+| Jethro ODBC | 是 | 是 | 是 | 是 | 是 | 否 |
+| JSON | 是 | 是 | 否 | 是** | 否 <sup>4</sup> | 是 |
+| Kyligence Enterprise | 是 | 是 | 是 | 是 | 是 | 否 |
+| MailChimp | 是 | 是 | 否 | 否 | 否 | 否 |
+| Marketo | 是 | 是 | 否 | 否 | 否 | 否 |
+| MarkLogic ODBC | 是 | 是 | 是 | 是 | 是 | 否 |
+| Microsoft Azure 使用见解 | 是 | 是 | 否 | 否 | 否 | 否 |
+| Microsoft Exchange | 是 | 是 | 否 | 是 | 否 | 否 |
+| Microsoft Exchange Online | 是 | 是 | 否 | 否 | 否 | 是 |
+| Microsoft Graph Security | 是 | 是 | 否 | 是 | 否 | 否 |
+| Mixpanel | 是 | 是 | 否 | 否 | 否 | 否 |
+| MySQL | 是 | 是 | 否 | 是 | 是 | 是 |
+| OData | 是 | 是 <sup>7</sup> | 否 | 是 | 否 | 是 |
+| ODBC | 是 | 是 | 否 | 是 | 是 | 是 |
+| OleDb | 是 | 是 | 否 | 是 | 是 | 否 |
+| Oracle | 是 | 是 | 是 | 是 | 是 | 是 |
+| Paxata <sup>8</sup> | 是 | 是 | 否 | 是 | 否 | 否 |
+| PDF | 是 | 是 | 否 | 是 | 否 <sup>4</sup> | 是 |
+| Planview Enterprise One - CTM | 是 | 是 | 否 | 否 | 否 | 否 |
+| Planview Enterprise One - PRM | 是 | 是 | 否 | 否 | 否 | 否 |
+| Planview Projectplace | 是 | 是 | 否 | 否 | 否 | 否 |
+| PostgreSQL | 是 | 是 | 是 | 是 | 否 | 是 |
+| Power BI 数据流 | 是 | 是 | 否 | 否 | 否 | 是 |
+| Power BI 数据集 | 是 | 是 | 是 | 否 | 否 | 否 |
+| Power platform 数据流 | 是 | 是 | 否 | 否 | 否 | 是 |
+| Python 脚本 | 是 | 是 <sup>5</sup> | 否 | 是 <sup>5</sup> | 是 | 否 |
+| QubolePresto | 是 | 是 | 是 | 是 | 是 | 否 |
+| Quick Base | 是 | 是 | 否 | 是 | 是 | 否 |
+| QuickBooks Online | 是 | 是 | 否 | 否 | 否 | 否 |
+| R 脚本 | 是 | 是 <sup>5</sup> | 否 | 是 <sup>5</sup> | 否 | 否 |
+| Roamler | 是 | 是 | 否 | 是 | 否 | 否 |
+| Salesforce 对象 | 是 | 是 | 否 | 否 | 否 | 是 |
+| Salesforce 报表 | 是 | 是 | 否 | 否 | 否 | 是 |
+| SAP Business Warehouse 消息服务器 | 是 | 是 | 是 | 是 | 是 | 是 |
+| SAP Business Warehouse 服务器 | 是 | 是 | 是 | 是 | 是 | 是 |
+| SAP HANA | 是 | 是 | 是 | 是 | 是 | 是 |
+| SharePoint 文件夹 | 是 | 是 | 否 | 是 | 否 <sup>4</sup> | 是 |
+| SharePoint 列表 | 是 | 是 | 否 | 是 | 否 <sup>4</sup> | 是 |
+| SharePoint Online 列表 | 是 | 是 | 否 | 是 | 否 | 是 |
+| Smartsheet | 是 | 是 | 否 | 否 | 否 | 是 |
+| Snowflake | 是 | 是 | 是 | 是 | 否 | 是 |
+| Spark | 是 | 是 | 是 | 是 | 否 | 是 |
+| SparkPost | 是 | 是 | 否 | 否 | 否 | 否 |
+| SQL Server | 是 | 是 | 是 | 是 | 是 | 是 |
+| SQL Server Analysis Services | 是 | 是 | 是 | 是 | 是 | 否 |
+| Stripe | 是 | 是 | 否 | 否 | 否 | 否 |
+| SurveyMonkey | 是 | 是 | 否 | 是 | 否 | 否 |
+| SweetIQ | 是 | 是 | 否 | 否 | 否 | 否 |
+| Sybase | 是 | 是 | 否 | 是 | 是 | 是 |
+| TeamDesk | 是 | 是 | 否 | 是 | 否 | 否 |
+| Tenforce | 是 | 是 | 否 | 否 | 否 | 否 |
+| Teradata | 是 | 是 | 是 | 是 | 是 | 是 |
+| 文本/CSV | 是 | 是 | 否 | 是 | 否 <sup>4</sup> | 是 |
+| Twilio | 是 | 是 | 否 | 否 | 否 | 否 |
+| tyGraph | 是 | 是 | 否 | 否 | 否 | 否 |
+| Vertica | 是 | 是 | 是 | 是 | 是 | 是 |
+| Web | 是 | 是 | 否 | 是 | 是<sup>6</sup> | 是 |
+| Webtrends | 是 | 是 | 否 | 否 | 否 | 否 |
+| 工作人员维度 | 是 | 是 | 否 | 是 | 否 | 否 |
+| XML | 是 | 是 | 否 | 是 | 否 <sup>4</sup> | 是 |
+| Zendesk | 是 | 是 | 否 | 否 | 否 | 否 |
 | | | | | | | | |
 
 <sup>1</sup> 通过 [ACE OLEDB 提供程序](https://www.microsoft.com/download/details.aspx?id=54920)提供支持，与网关安装在同一台计算机上。
-
-<sup>2</sup>可以与本地版本相同的 M 函数配合使用，导致身份验证选项受限（网关不支持 OAuth）。
 
 <sup>3</sup> Excel 1997-2003 文件 (.xls) 需要 [ACE OLEDB 提供程序](https://www.microsoft.com/download/details.aspx?id=54920)。
 
