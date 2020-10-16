@@ -10,8 +10,8 @@
     - name: 教程
       expanded: true
       items:
-        - name: 开发 Power BI 视觉对象
-          href: custom-visual-develop-tutorial.md
+        - name: 教程：开发 Power BI 圆形卡片视觉对象
+          href: develop-circle-card.md
         - name: 创建基于响应的视觉对象
           href: create-react-visual.md
         - name: 生成条形图
@@ -54,6 +54,8 @@
           href: power-bi-custom-visuals-certified.md
         - name: 将 Power BI 视觉对象发布到 AppSource
           href: office-store.md
+        - name: 设置环境来开发 Power BI 视觉对象
+          href: environment-setup.md
         - name: 创建 R 驱动的视觉对象
           href: create-r-based-power-bi-desktop.md
         - name: 测试 Power BI 视觉对象
