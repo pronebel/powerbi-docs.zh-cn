@@ -26,11 +26,13 @@
             - name: 选择对工作区使用新外观
               href: service-workspaces-new-look.md
             - name: 升级经典工作区
-              href: ../collaborate-share/service-upgrade-workspaces.md
+              href: service-upgrade-workspaces.md
             - name: 创建经典工作区
               href: service-create-workspaces.md
             - name: 从工作区发布应用
               href: service-create-distribute-apps.md
+            - name: 将工作区的文件存储在 OneDrive 中
+              href: service-connect-to-files-in-app-workspace-onedrive-for-business.md
             - name: 管理工作区中的数据存储
               href: ../admin/service-admin-manage-your-data-storage-in-power-bi.md
             - name: 数据世系
@@ -41,8 +43,6 @@
               href: service-data-source-impact-analysis.md
             - name: 应用数据敏感度标签
               href: ../admin/service-security-apply-data-sensitivity-labels.md
-            - name: 连接到组的 OneDrive 上的文件
-              href: ../connect-data/service-connect-to-files-in-app-workspace-onedrive-for-business.md
             - name: 在经典工作区中协作
               href: service-collaborate-power-bi-workspace.md
             - name: 在 Power BI 和 Microsoft 365 中管理组
