@@ -8,12 +8,12 @@ ms.subservice: report-builder
 ms.topic: conceptual
 ms.date: 01/14/2020
 ms.author: v-pemyer
-ms.openlocfilehash: 35a62923ba69520c1197e7bb80114a22ec1d9a20
-ms.sourcegitcommit: c83146ad008ce13bf3289de9b76c507be2c330aa
+ms.openlocfilehash: f239622d8b6012913298212790f7f9aa8c3115a5
+ms.sourcegitcommit: 1428acb6334649fc2d3d8ae4c42cfbc17e8f7476
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/10/2020
-ms.locfileid: "86214085"
+ms.lasthandoff: 10/19/2020
+ms.locfileid: "92197647"
 ---
 # <a name="use-cascading-parameters-in-paginated-reports"></a>在分页报表中使用级联参数
 
@@ -128,7 +128,7 @@ ms.locfileid: "86214085"
 >
 > 通常，存储过程是一种更好的设计方法。 这是因为它们的查询计划会进行缓存以实现更快的执行，这样你就可以在需要时开发更复杂的逻辑。 但是，它们目前不支持用于网关关系数据源（即 SQL Server、Oracle 和 Teradata）。
 >
-> 最后，应始终确保存在适合的索引，以实现高效的数据检索。 否则，报表参数的填充速度可能会很慢，并且数据库可能会出现过载情况。 有关 SQL Server 索引的详细信息，请参阅 [SQL Server 索引体系结构和设计指南](/sql/relational-databases/sql-server-index-design-guide?view=sql-server-2017)。
+> 最后，应始终确保存在适合的索引，以实现高效的数据检索。 否则，报表参数的填充速度可能会很慢，并且数据库可能会出现过载情况。 有关 SQL Server 索引的详细信息，请参阅 [SQL Server 索引体系结构和设计指南](/sql/relational-databases/sql-server-index-design-guide)。
 
 ### <a name="filter-by-a-grouping-column"></a>按分组列筛选
 
@@ -220,7 +220,7 @@ GO
 > [!TIP]
 > 可以根据此设计进行改进，为报表用户提供更多的控制。 用户可以定义自己的模式匹配值。 例如，搜索值“red%”将筛选出名称以“red”字符开头的经销商。
 >
-> 有关详细信息，请参阅 [LIKE (Transact-SQL)](/sql/t-sql/language-elements/like-transact-sql?view=sql-server-ver15#using-the--wildcard-character)。
+> 有关详细信息，请参阅 [LIKE (Transact-SQL)](/sql/t-sql/language-elements/like-transact-sql#using-the--wildcard-character)。
 
 下面介绍了如何让报表用户定义自己的模式。
 

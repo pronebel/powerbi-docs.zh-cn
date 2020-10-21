@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: reference
 ms.date: 02/14/2020
-ms.openlocfilehash: 67470ec405806f44fdb483e857d222ad4ff05a45
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 69650982bd3e71c235ffb09b00a99959bc02c231
+ms.sourcegitcommit: 1428acb6334649fc2d3d8ae4c42cfbc17e8f7476
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "79379159"
+ms.lasthandoff: 10/19/2020
+ms.locfileid: "92197624"
 ---
 # <a name="tooltip-utils"></a>工具提示 Utils
 本文介绍了如何安装、导入和使用工具提示 Utils。 此 Utils 适用于 Power BI 视觉对象中的任何工具提示自定义。
@@ -29,7 +29,7 @@ ms.locfileid: "79379159"
 要安装包，应在目录中运行以下命令和当前的视觉对象：
 
 ```bash
-npm install powerbi-visuals-utils-colorutils --save
+npm install powerbi-visuals-utils-tooltiputils --save
 ```
 上面的命令安装此包，并将它作为依赖项添加到 ```package.json```
 

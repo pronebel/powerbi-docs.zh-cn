@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 09/09/2019
 ms.author: kfollis
 LocalizationGroup: Administration
-ms.openlocfilehash: bfbdbeb08f67a979a5f14c8b45ef7ca269c2d03d
-ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
+ms.openlocfilehash: 3aa42394bb12078fb2abcf6574d04b8109a9c40c
+ms.sourcegitcommit: 02484b2d7a352e96213353702d60c21e8c07c6c0
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90857350"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "91981587"
 ---
 # <a name="administering-power-bi---frequently-asked-questions-faq"></a>管理 Power BI - 常见问题 (FAQ)
 
@@ -55,7 +55,7 @@ ms.locfileid: "90857350"
 
 ### <a name="using-powershell"></a>使用 PowerShell
 
-必须使用 Windows PowerShell 脚本，才能执行此部分中的一些过程。 如果不熟悉 PowerShell，建议先参阅 [PowerShell 入门指南](https://go.microsoft.com/fwlink/p/?LinkID=286814)。 若要运行脚本，请先安装最新的 64 位版 [Azure Active Directory Graph PowerShell](/powershell/azure/active-directory/overview)。
+必须使用 Windows PowerShell 脚本，才能执行此部分中的一些过程。 如果不熟悉 PowerShell，建议先参阅 [PowerShell 入门指南](/powershell/scripting/overview)。 若要运行脚本，请先安装最新的 64 位版 [Azure Active Directory Graph PowerShell](/powershell/azure/active-directory/overview)。
 
 ### <a name="how-do-users-sign-up-for-power-bi"></a>用户如何注册 Power BI？
 

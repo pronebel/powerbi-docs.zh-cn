@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.topic: conceptual
 ms.subservice: powerbi-custom-visuals
 ms.date: 01/12/2020
-ms.openlocfilehash: ce0f22c17ed718d3e2ad4e4fa9d9514edd315583
-ms.sourcegitcommit: 21b06e49056c2f69a363d3a19337374baa84c83f
+ms.openlocfilehash: 74fec4e7fae2fc8630592c435adb42b34c93ef43
+ms.sourcegitcommit: 50b21718a167c2b131313b4135c8034c6f027597
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/15/2020
-ms.locfileid: "83407438"
+ms.lasthandoff: 10/14/2020
+ms.locfileid: "92049352"
 ---
 # <a name="power-bi-visual-project-structure"></a>Power BI 视觉对象项目结构
 
@@ -174,4 +174,4 @@ Power BI 视觉对象工具使用此文件作为 Power BI 可视化效果窗格�
 
 * 若要理解视觉对象、用户和 Power BI 之间的交互，请参阅 [Power BI 视觉对象概念](./power-bi-visuals-concept.md)。
 
-* 使用[分步指南](./custom-visual-develop-tutorial.md)从头开始开发自己的 Power BI 视觉对象。
+* 使用[分步指南](./develop-circle-card.md)从头开始开发自己的 Power BI 视觉对象。

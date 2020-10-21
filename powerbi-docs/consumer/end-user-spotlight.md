@@ -6,15 +6,15 @@ ms.reviewer: mihart
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: how-to
-ms.date: 03/04/2020
+ms.date: 10/06/2020
 ms.author: mihart
 LocalizationGroup: Consumer
-ms.openlocfilehash: d684ab319a61c932f851e76322af758a4188c5e0
-ms.sourcegitcommit: 2131f7b075390c12659c76df94a8108226db084c
+ms.openlocfilehash: 51f98bd5bc22609aba01a775678c5dccf6cf0d0c
+ms.sourcegitcommit: d2f633b4bfa271051ba1d2ef0e6e8da7dcf42818
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/03/2020
-ms.locfileid: "87536000"
+ms.lasthandoff: 10/08/2020
+ms.locfileid: "91830237"
 ---
 # <a name="add-spotlights-to-power-bi-reports"></a>向 Power BI 报表添加聚焦
 
@@ -32,7 +32,7 @@ ms.locfileid: "87536000"
 
 3. 选择“聚焦”  选项。 选定视觉对象会突出显示，这会导致报表页上的其他所有视觉对象淡化为近乎透明。 
 
-    ![“聚焦”模式](media/end-user-spotlight/power-bi-spotlighted.png)
+    ![“聚焦”模式](media/end-user-spotlight/power-bi-spotlighted-treemap.png)
 
 
 

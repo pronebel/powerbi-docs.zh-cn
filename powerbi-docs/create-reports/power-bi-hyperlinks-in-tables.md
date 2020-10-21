@@ -7,15 +7,15 @@ ms.custom: seodec18
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: how-to
-ms.date: 09/29/2020
+ms.date: 10/15/2020
 ms.author: maggies
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 87bb15829936c452999872f95f49f35c2b60af77
-ms.sourcegitcommit: d153cfc0ce559480c53ec48153a7e131b7a31542
+ms.openlocfilehash: 824dc74d2461f9bbf6350694a48b00a327f3f13d
+ms.sourcegitcommit: 59d07be9c3e4a2067f6d42c3002a194371bc4341
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/29/2020
-ms.locfileid: "91525648"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "92116583"
 ---
 # <a name="add-hyperlinks-urls-to-a-table-or-matrix"></a>向表或矩形图添加超链接 (URL)
 本主题介绍如何向表添加超链接 (URL)。 使用 Power BI Desktop 向数据集添加超链接 (URL)。 可以在 Power BI Desktop 或 Power BI 服务中将这些超链接添加到报表表格和矩形图。 然后，可以显示 URL 或链接图标，或将另一列的格式设置为链接文本。
@@ -135,7 +135,7 @@ ms.locfileid: "91525648"
 URL 必须以下列前缀之一开头：
 - http
 - https
-- -mailto
+- mailto
 - ftp
 - news
 - telnet
