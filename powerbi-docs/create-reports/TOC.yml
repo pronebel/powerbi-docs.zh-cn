@@ -121,6 +121,8 @@
       items:
         - name: Power BI 报表
           items:
+            - name: 在服务中创建报表
+              href: service-report-create-new.md
             - name: 启用自动页面刷新
               href: desktop-automatic-page-refresh.md
             - name: 用性能分析器检查报表元素
@@ -205,8 +207,12 @@
               href: desktop-grouping-visuals.md
             - name: 创建报表模板
               href: desktop-templates.md
-            - name: 从数据集中创建报表
-              href: service-report-create-new.md
+            - name: 更改报表设置
+              href: power-bi-report-settings.md
+            - name: 其他主页上的功能报表
+              href: ../collaborate-share/service-featured-content.md
+            - name: 允许使用者自定义视觉对象（预览）
+              href: power-bi-personalize-visuals.md
             - name: 保存报表
               href: service-report-save.md
             - name: 在“编辑视图”中与报表进行交互
