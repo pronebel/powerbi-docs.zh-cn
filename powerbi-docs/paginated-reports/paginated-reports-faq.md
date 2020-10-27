@@ -7,13 +7,13 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: conceptual
-ms.date: 07/08/2020
-ms.openlocfilehash: 893becbcfc7d58b04bbff2819baed4bbc829fe9d
-ms.sourcegitcommit: d153cfc0ce559480c53ec48153a7e131b7a31542
+ms.date: 10/19/2020
+ms.openlocfilehash: 2a0490106d5954a57abea1dd5de61f26f2fe2377
+ms.sourcegitcommit: eab5a02520c421a57019595c03e9ecfdb41d52ad
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/29/2020
-ms.locfileid: "91526665"
+ms.lasthandoff: 10/20/2020
+ms.locfileid: "92257000"
 ---
 # <a name="paginated-reports-in-power-bi-faq"></a>Power BI 中的分页报表：常见问题解答 
 
@@ -72,9 +72,9 @@ ReportType 字段使用“PaginatedReport”值来标识分页，这与 Power BI
 
 每个高级 SKU 支持的分页报表的默认内存为：
 
-- **P1/A4**：默认为 20%，最低为 10%
-- **P2/A5**：默认为 20%，最低为 5%
-- **P3/A6**：默认为 20%，最低为 2.5%
+- **P1/A4** ：默认为 20%，最低为 10%
+- **P2/A5** ：默认为 20%，最低为 5%
+- **P3/A6** ：默认为 20%，最低为 2.5%
 
 Power BI 管理员可在管理门户中修改默认最大内存百分比。 请参阅“Power BI Premium”下“容量设置”选项卡上的“分页报表”工作负载  。
 
@@ -178,6 +178,12 @@ SaaS 嵌入（包括安全嵌入支持）现已可用。 有关 PaaS 嵌入，�
 在分页报表中使用 DateTime 字段时，有一些事项需要注意。
 
 - 当前存在一些与 DateTime 参数相关的全球化限制。 无论以何种方式在 Power BI 报表生成器中设计 DataTime，Power BI 服务中的所有 DateTime 参数都以美国格式 (MM/DD/YYYY) 提取。
+
+查看 Power BI 服务中的分页报表时，会话可能会超时，同时会向用户显示以下通知：
+
+:::image type="content" source="media/paginated-reports-faq/expired-session-notification.png" alt-text="分页报表的“容量设置”选项卡":::
+
+- 会话将在处于非活动状态 60 分钟后超时，或在设备处于锁定状态或处于非活动状态时，或在浏览器的“活动”选项卡中未显示报表时，会更早超时。
 
 ## <a name="next-steps"></a>后续步骤
 

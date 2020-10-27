@@ -8,12 +8,12 @@ ms.topic: how-to
 ms.date: 03/23/2020
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: d12e64b98e2282e4446565ebd17a6222ba6276d2
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 09ac807b6823c8d9e8c0b44ad941365eb3ffb766
+ms.sourcegitcommit: d153cfc0ce559480c53ec48153a7e131b7a31542
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85226655"
+ms.lasthandoff: 09/29/2020
+ms.locfileid: "91526435"
 ---
 # <a name="publish-an-app-in-power-bi"></a>在 Power BI 中发布应用
 
@@ -135,7 +135,7 @@ ms.locfileid: "85226655"
 为应用导航添加链接和选择“内容”区域选项时，需注意以下方面：
 * 确保可以嵌入链接。 某些服务在 Power BI 等第三方站点会阻止嵌入其内容。
 * 不支持在其他工作区中嵌入报表或仪表板等 Power BI 服务内容。 
-* 通过本地嵌入 URL 内容从本地部署嵌入 Power BI 报表服务器内容。 使用[创建 Power BI 报表服务器 URL](https://docs.microsoft.com/power-bi/report-server/quickstart-embed#create-the-power-bi-report-url) 中的步骤获取 URL。 注意，常规身份验证规则适用，因此查看内容需要与本地服务器建立 VPN 连接。 
+* 通过本地嵌入 URL 内容从本地部署嵌入 Power BI 报表服务器内容。 使用[创建 Power BI 报表服务器 URL](../report-server/quickstart-embed.md#create-the-power-bi-report-url) 中的步骤获取 URL。 注意，常规身份验证规则适用，因此查看内容需要与本地服务器建立 VPN 连接。 
 * 嵌入内容的顶部显示安全警告，表示该内容不在 Power BI 中。
 
 ## <a name="automatically-install-apps-for-end-users"></a>自动为最终用户安装应用
@@ -144,12 +144,12 @@ ms.locfileid: "85226655"
 ### <a name="how-to-push-an-app-automatically-to-end-users"></a>如何将应用自动推送给最终用户
 管理员分配权限后，可通过一个新选项来自动安装应用。 选中该框并选择“发布应用”（或“更新应用”）时，该应用将推送到“访问”选项卡上应用“权限”部分中定义的所有用户或组   。
 
-![启用推送应用功能](media/service-create-distribute-apps//power-bi-apps-access.png)
+![屏幕截图显示已自动选择“安装应用”的 Power BI“发布应用”选项。](media/service-create-distribute-apps//power-bi-apps-access.png)
 
 ### <a name="how-users-get-the-apps-that-you-push-to-them"></a>用户如何获取你推送给他们的应用
 推送应用后，应用将自动显示在用户的“应用”列表中。 按此方式，你可以精选组织中特定用户或工作角色需要随时使用的应用。
 
-![启用推送应用功能](media/service-create-distribute-apps/power-bi-apps-left-nav.png)
+![屏幕截图显示包含已发布应用的 Power BI 应用。](media/service-create-distribute-apps/power-bi-apps-left-nav.png)
 
 ### <a name="considerations-for-automatically-installing-apps"></a>自动安装应用的注意事项
 下面是将应用推送给最终用户时需要注意的事项：
@@ -215,5 +215,5 @@ ms.locfileid: "85226655"
 * [创建工作区](service-create-workspaces.md)
 * [在 Power BI 中安装并使用应用](../consumer/end-user-apps.md)
 * [适用于外部服务的 Power BI 应用](../connect-data/service-connect-to-services.md)
-* [Power BI 管理门户](https://docs.microsoft.com/power-bi/service-admin-portal)
+* [Power BI 管理门户](../admin/service-admin-portal.md)
 * 是否有任何问题? [尝试咨询 Power BI 社区](https://community.powerbi.com/)

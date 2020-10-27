@@ -10,12 +10,12 @@ ms.topic: how-to
 ms.date: 05/15/2020
 ms.author: maggies
 LocalizationGroup: Common tasks
-ms.openlocfilehash: d7e1365ce1328e529d056a80b46230b97febc446
-ms.sourcegitcommit: a453ba52aafa012896f665660df7df7bc117ade5
+ms.openlocfilehash: 1fd5f4748ffd7a59095bfe34090d9494ff0a9134
+ms.sourcegitcommit: d153cfc0ce559480c53ec48153a7e131b7a31542
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/27/2020
-ms.locfileid: "85485659"
+ms.lasthandoff: 09/29/2020
+ms.locfileid: "91526757"
 ---
 # <a name="subscribe-yourself-and-others-to-reports-and-dashboards-in-the-power-bi-service"></a>在 Power BI 服务中为自己和他人订阅报表和仪表板
 
@@ -48,13 +48,13 @@ ms.locfileid: "85485659"
 ![选择“订阅”图标](media/service-report-subscribe/power-bi-subscribe-orientation.png)。
 
 1. 打开仪表板或报表。
-2. 在顶部菜单栏中，选择“订阅”或信封图标 ![订阅图标](media/service-report-subscribe/power-bi-icon-envelope.png)。
+2. 在顶部菜单栏中，选择“订阅”或信封图标 :::image type="icon" source="media/service-report-subscribe/power-bi-icon-envelope.png" border="false":::。
    
     ![订阅图标](media/service-report-subscribe/power-bi-subscribe-icon.png)
 
 1. 使用黄色滑块可启用和禁用订阅。 将滑块设置为“关”不会删除订阅。 若要删除订阅，请选择垃圾桶图标。
 
-2. 电子邮件已存在于“订阅”收件箱中。 你还可以向订阅添加同一域中的其他电子邮件地址。 如果报表或仪表板托管在[高级容量](https://docs.microsoft.com/power-bi/service-premium-what-is)中，则可为其他个人电子邮件地址和组别名订阅，无论他们是否在你的域中。 如果报表或仪表板未托管在高级容量中，则可为其他个人订阅，但他们必须具有 Power BI Pro 许可证。 有关详细信息，请参阅下面的[注意事项和疑难解答](#considerations-and-troubleshooting)。
+2. 电子邮件已存在于“订阅”收件箱中。 你还可以向订阅添加同一域中的其他电子邮件地址。 如果报表或仪表板托管在[高级容量](../admin/service-premium-what-is.md)中，则可为其他个人电子邮件地址和组别名订阅，无论他们是否在你的域中。 如果报表或仪表板未托管在高级容量中，则可为其他个人订阅，但他们必须具有 Power BI Pro 许可证。 有关详细信息，请参阅下面的[注意事项和疑难解答](#considerations-and-troubleshooting)。
 
 3. 填写电子邮件“主题”和“邮件”详细信息 。
 
@@ -131,7 +131,7 @@ Power BI 管理员可以使用 Power BI 审核日志来查看有关订阅的详�
 - 对于报表电子邮件说明，如果数据集使用 RLS，你可以为自己创建订阅。 对于应用了行级别安全性 (RLS) 的报表，你无法为其他用户订阅该报表（分页报表除外）。 你可以使用安全上下文为其他人订阅分页报表。 阅读有关[订阅分页报表](../consumer/paginated-reports-subscriptions.md)的详细信息。
 - 报表页订阅与报表页面的名称是相关联的。 如果你订阅一个报表页，随后将其重命名，则必须重新创建订阅。
 - 组织可能在 Azure Active Directory 中配置的某些设置会限制 Power BI 中电子邮件订阅的使用。 这些限制包括但不限于针对资源访问设置多重身份验证或 IP 范围限制。
-- 电子邮件订阅不支持大多数[自定义视觉对象](../developer/power-bi-custom-visuals.md)。 已经过[认证](../developer/power-bi-custom-visuals-certified.md)的自定义视觉对象除外。
+- 电子邮件订阅不支持大多数[自定义视觉对象](../developer/visuals/power-bi-custom-visuals.md)。 已经过[认证](../developer/visuals/power-bi-custom-visuals-certified.md)的自定义视觉对象除外。
 - 目前电子邮件订阅不支持 R 驱动的自定义视觉对象。
 - 电子邮件订阅与报表的默认筛选器和切片器状态一起发送。 在订阅后对默认设置所做的任何更改都不会显示在电子邮件中。 分页报表支持此功能，并允许你为每个订阅设置特定的参数值。
 - 假设你有一个报表具有与 Analysis Services 的实时连接，并且已将订阅设置为在数据刷新后运行。 它将在 Power BI 服务轮询 Analysis Services 实例时第一次检测本地模型中的更改时运行。  Power BI 每小时检查一次 Analysis Services 数据模型中的更改，以确定何时发送订阅。

@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: how-to
 ms.date: 02/14/2020
-ms.openlocfilehash: 2978401c7ec949c8c8df7c813395b3d84db18b72
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: f3a3551db1d7d995db0194ff7fa9b7141415c9eb
+ms.sourcegitcommit: d153cfc0ce559480c53ec48153a7e131b7a31542
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85232670"
+ms.lasthandoff: 09/29/2020
+ms.locfileid: "91525538"
 ---
 # <a name="how-to-debug-power-bi-visuals"></a>如何调试 Power BI 视觉对象
 
@@ -78,7 +78,7 @@ public update(options: VisualUpdateOptions) {
 3. 单击“在捕获到异常时中断”  图标（带有暂停符号的六边形）。
 4. 选中“在捕获到任意异常时中断”  。
 
-![数据角色字段](media/visuals-how-to-debug/how-to-debug-edge.png)
+![展示“调试器”选项卡的屏幕截图，其中的“在捕获到任意异常时中断”处于选中状态。](media/visuals-how-to-debug/how-to-debug-edge.png)
 
 ## <a name="chrome"></a>Chrome
 
@@ -87,7 +87,7 @@ public update(options: VisualUpdateOptions) {
 3. 单击“在捕获到异常时中断”  图标（带有暂停符号的停止标志）。
 4. 选中“在捕获到异常时暂停”  复选框。
 
-![数据角色字段](media/visuals-how-to-debug/how-to-debug-chrome.png)
+![展示“源”选项卡的屏幕截图，其中的“在捕获到异常时暂停”处于选中状态。](media/visuals-how-to-debug/how-to-debug-chrome.png)
 
 ## <a name="next-steps"></a>后续步骤
 * [排除 Power BI 视觉对象故障](power-bi-custom-visuals-troubleshoot.md)

@@ -43,6 +43,8 @@
           href: dataflows/dataflows-create.md
         - name: 配置和使用数据流
           href: dataflows/dataflows-configure-consume.md
+        - name: 配置 Power BI Premium 数据流工作负载
+          href: dataflows/dataflows-premium-workload-configuration.md
         - name: 数据流和 Azure Data Lake Gen2
           href: dataflows/dataflows-azure-data-lake-storage-integration.md
         - name: 数据流的高级功能

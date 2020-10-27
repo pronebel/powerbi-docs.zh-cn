@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: how-to
 ms.date: 03/12/2019
-ms.openlocfilehash: 99df7a301a1025d50c82c5cc7f5966325a6a6a6f
-ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
+ms.openlocfilehash: dca16fd29dc89fc2e67ce1e8f5c6abfc0adcb9a6
+ms.sourcegitcommit: 50b21718a167c2b131313b4135c8034c6f027597
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/06/2020
-ms.locfileid: "91747519"
+ms.lasthandoff: 10/14/2020
+ms.locfileid: "92049283"
 ---
 # <a name="how-to-create-mobile-friendly-power-bi-visuals"></a>如何创建适合移动的 Power BI 视觉对象
 移动使用在 Power BI 中具有重要角色。 它的一个优点在于可随时随地与数据保持连接。
@@ -79,4 +79,4 @@ Power BI 视觉对象必须在支持 Power BI 应用的所有设备上呈现，�
 针对最新型号的 Windows、iOS 和 Android 设备进行测试时，开发人员需要考虑其中大多数质量方面。
 
 ## <a name="next-steps"></a>后续步骤
-若要入门，请参阅[教程：开发 Power BI 视觉对象](./custom-visual-develop-tutorial.md)。
+若要开始，请参阅[开发 Power BI 圆形卡片视觉对象](./develop-circle-card.md)。

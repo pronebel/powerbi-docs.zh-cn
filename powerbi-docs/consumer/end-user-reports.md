@@ -6,23 +6,25 @@ ms.reviewer: mihart
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: how-to
-ms.date: 09/28/2020
+ms.date: 10/09/2020
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: 871f807d18017343b4b23eee4d59833c196cf2f0
-ms.sourcegitcommit: d153cfc0ce559480c53ec48153a7e131b7a31542
+ms.openlocfilehash: 4ee852e18056fc6db0288066f5b2074eba784487
+ms.sourcegitcommit: 02484b2d7a352e96213353702d60c21e8c07c6c0
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/29/2020
-ms.locfileid: "91528059"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "91983429"
 ---
 # <a name="reports-in-power-bi"></a>Power BI 中的报表
 
-[!INCLUDE[consumer-appliesto-yyny](../includes/consumer-appliesto-yyny.md)]
+[!INCLUDE[consumer-appliesto-yynn](../includes/consumer-appliesto-yyn.md)]
 
 [!INCLUDE [power-bi-service-new-look-include](../includes/power-bi-service-new-look-include.md)]
 
 Power BI 报表是对数据集的多角度审视，它使用视觉对象来表示数据集呈现的各种结果和见解。  报表可包含单个视觉对象，也可包含充满视觉对象的多个页面。 根据你的职位，你可能是报表设计人员  ， 你还可能是使用报表的业务用户。 本文适用于业务用户。
+
+## <a name="the-parts-of-a-report"></a>报表的各部分
 
 ![报表页的屏幕截图。](./media/end-user-reports/power-bi-report.png)
 
@@ -36,14 +38,14 @@ E. 操作栏包含可对此报表执行的操作。  例如，可以添加注释
 
 ## <a name="advantages-of-reports"></a>报表的优点
 
-Power BI 是在一个数据集的基础之上生成报表。 报表设计者在报表中创建表示信息块的视觉对象  。 视觉对象不是静态的。  它们随着基础数据的变化而更新。 你可在深入探究数据来发现见解和寻求答案时，与视觉对象和筛选器进行交互。 与仪表板一样，报表的交互性和可自定义性非常高。
+Power BI 是在一个数据集的基础之上生成报表。 报表设计者在报表中创建表示信息块的视觉对象。 视觉对象不是静态的。  它们随着基础数据的变化而更新。 你可在深入探究数据来发现见解和寻求答案时，与视觉对象和筛选器进行交互。 与仪表板一样，但更多的是，报表的交互性和可自定义性非常高。 你可以对报表执行的操作的范围将取决于报表设计者分配的角色和权限。
 
 ### <a name="safely-interact-with-content"></a>安全地与内容交互
 
 在你探索内容并与之交互时（例如筛选、切片、订阅和导出时），不能中断报表。 基础数据集或原始共享内容不受你的工作影响。 这适用于仪表板、报表和应用。
 
 > [!NOTE]
-> 请注意，不能损坏数据。 Power BI 是可进行探索和试验的理想工具，不用担心会损坏内容。
+> 请注意，不能损坏数据。 Power BI 服务是可进行探索和试验的理想工具，不用担心会损坏内容。
 
 ### <a name="save-your-changes-or-revert-to-the-default-settings"></a>保存更改或还原为默认设置
 
@@ -59,7 +61,7 @@ Power BI 是在一个数据集的基础之上生成报表。 报表设计者在�
 | --- | --- | --- |
 | 页面 |一个页面 |一个或多个页面 |
 | 数据源 |每个仪表板的一个或多个报表和一个或多个数据集 |每个报表的单个数据集 |
-| 筛选 |无法筛选或切片 |许多不同的方式来筛选、突出显示和切片 |
+| Filtering |无法筛选或切片 |许多不同的方式来筛选、突出显示和切片 |
 | 设置警报 |当仪表板满足某些条件时，可创建警报以向你发送电子邮件 |否 |
 | 功能 |可将一个仪表板设置为精选仪表板 |无法创建精选报表 |
 | 可以看到基础数据集表和字段 |不行。 可导出数据，但看不到仪表板本身的数据集表和字段 |是的。 可查看有权查看的数据集表、字段和值 |

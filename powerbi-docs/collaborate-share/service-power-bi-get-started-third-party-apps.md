@@ -10,12 +10,12 @@ ms.reviewer: ''
 ms.cunstom: ''
 ms.date: 09/16/2019
 LocalizationGroup: Get started
-ms.openlocfilehash: d845cde571679355fd50560a154358885f981db0
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 9e83d8689564471365666f9b4adfe2c3b9d1c05e
+ms.sourcegitcommit: d153cfc0ce559480c53ec48153a7e131b7a31542
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85225498"
+ms.lasthandoff: 09/29/2020
+ms.locfileid: "91526734"
 ---
 # <a name="get-started-with-third-party-apps"></a>开始使用第三方应用
 
@@ -56,6 +56,6 @@ ms.locfileid: "85225498"
 
 2. 在“我的应用”  页上，查找第三方应用。
 
-3. 将鼠标悬停在该应用磁贴上，单击 **(...)** 按钮，然后单击**删除**。
+3. 将鼠标悬停在该应用磁贴上，单击 **(...)** 按钮，然后单击 **删除** 。
 
-   ![删除](media/service-power-bi-get-started-third-party-apps/remove.png)
+   ![屏幕截图显示撤销第三方权限的“删除”选项。](media/service-power-bi-get-started-third-party-apps/remove.png)

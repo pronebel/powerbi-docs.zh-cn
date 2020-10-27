@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 01/13/2020
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: db5c8b77851ccd35c5f8ccddf5e6587eb1383518
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 1b3250124fa813f3da96e63455d483cf05f01cb6
+ms.sourcegitcommit: 51b965954377884bef7af16ef3031bf10323845f
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85223033"
+ms.lasthandoff: 09/30/2020
+ms.locfileid: "91598849"
 ---
 # <a name="use-the-sap-business-warehouse-connector-in-power-bi-desktop"></a>在 Power BI Desktop 中使用 SAP Business Warehouse 连接器
 
@@ -77,9 +77,9 @@ SAP 连接器的 Implementation 2.0 需要使用 SAP .NET 连接器 3.0。 只�
 
 “导航器”  对话框还提供显示选项：
 
-* **仅显示选定项**。 默认情况下，“导航器”  显示所有项。  此选项可用于验证最终选定的一组项。 查看选定项的另一种方法是选择预览区域中的列名称。
-* **启用数据预览**。 此值为默认值。 显示数据预览。 禁用数据预览会减少服务器调用的数量，因其将不再请求数据进行预览。
-* **技术名称**。 对于多维数据集中的对象，SAP BW 支持技术名称的概念  。 技术名称允许多维数据集所有者公开多维数据集对象的友好名称  ，而不是仅公开多维数据集中的那些对象的物理名称  。
+* **仅显示选定项** 。 默认情况下，“导航器”  显示所有项。  此选项可用于验证最终选定的一组项。 查看选定项的另一种方法是选择预览区域中的列名称。
+* **启用数据预览** 。 此值为默认值。 显示数据预览。 禁用数据预览会减少服务器调用的数量，因其将不再请求数据进行预览。
+* **技术名称** 。 对于多维数据集中的对象，SAP BW 支持技术名称的概念  。 技术名称允许多维数据集所有者公开多维数据集对象的友好名称  ，而不是仅公开多维数据集中的那些对象的物理名称  。
 
 ![导航器窗口](media/desktop-sap-bw-connector/sap_bw_6.png)
 
@@ -147,19 +147,19 @@ Implementation 2.0 支持以下选项：
 
     确定查询是否已包含选项记录，如以下示例所示：
 
-    ![查询代码片段](media/desktop-sap-bw-connector/sap_bw_9.png)
+    ![屏幕截图显示包含选项记录的纯文本查询。](media/desktop-sap-bw-connector/sap_bw_9.png)
 
     如果包含，请添加 `Implementation` 2.0 选项，如果存在，则删除 `ScaleMeasures` 选项，如下所示：
 
-    ![查询代码片段](media/desktop-sap-bw-connector/sap_bw_10.png)
+    ![屏幕截图显示已添加值实现 = 2.0 的纯文本查询。](media/desktop-sap-bw-connector/sap_bw_10.png)
 
     如果查询不包含选项记录，请添加。 对于以下选项：
 
-    ![查询代码片段](media/desktop-sap-bw-connector/sap_bw_11.png)
+    ![屏幕截图显示添加了选项记录的纯文本查询。](media/desktop-sap-bw-connector/sap_bw_11.png)
 
     只需将其更改为：
 
-    ![查询代码片段](media/desktop-sap-bw-connector/sap_bw_12.png)
+    ![屏幕截图显示已添加值实现 = 2.0 的新选项的纯文本查询。](media/desktop-sap-bw-connector/sap_bw_12.png)
 
 我们已尽最大努力使 SAP BW 连接器的 Implementation 2.0 与版本 1 兼容。 但是，由于使用的 SAP BW MDX 执行模式不同，因此可能不一致。 若要解决任何不一致问题，请尝试在不同执行模式之间切换。
 

@@ -8,18 +8,18 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: reference
 ms.date: 05/08/2020
-ms.openlocfilehash: 8eeca13acb1568a671618dca75d20cb7667b538b
-ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
+ms.openlocfilehash: f6f458d2fe82668074d7cfb046cb5a72afa35c38
+ms.sourcegitcommit: 50b21718a167c2b131313b4135c8034c6f027597
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/06/2020
-ms.locfileid: "91747542"
+ms.lasthandoff: 10/14/2020
+ms.locfileid: "92048777"
 ---
 # <a name="create-an-ssl-certificate"></a>创建 SSL 证书
 
 本文介绍如何为 Power BI 视觉对象生成和安装安全套接字层 (SSL) 证书。
 
-对于 Windows、macOS X 和 Linux 过程，必须安装 Power BI 视觉对象工具 pbiviz 包。 有关详细信息，请参阅[设置开发人员环境](./custom-visual-develop-tutorial.md#setting-up-the-developer-environment)。 
+对于 Windows、macOS X 和 Linux 过程，必须安装 Power BI 视觉对象工具 pbiviz 包。 有关详细信息，请参阅[设置用于开发 Power BI 视觉对象的环境](./environment-setup.md)。 
 
 ## <a name="create-a-certificate-on-windows"></a>在 Windows 上创建证书
 
@@ -31,7 +31,7 @@ pbiviz --install-cert
 
 对于 Windows 7，`pbiviz` 工具要求可从命令行获取 OpenSSL 实用工具。 若要安装 OpenSSL，请转到 [OpenSSL](https://www.openssl.org) 或 [OpenSSL 二进制文件](https://wiki.openssl.org/index.php/Binaries)。
 
-有关安装证书的详细信息和说明，请参阅[为 Windows 创建和安装证书](./custom-visual-develop-tutorial.md#windows)。
+有关安装证书的详细信息和说明，请参阅[为 Windows 创建和安装证书](./environment-setup.md#create-and-install-a-certificate)。
 
 ## <a name="create-a-certificate-on-macos-x"></a>在 macOS X 上创建证书
 
@@ -58,7 +58,7 @@ pbiviz --install-cert
 pbiviz --install-cert
 ```
 
-有关详细信息和说明，请参阅[为 OS X 创建和安装证书](./custom-visual-develop-tutorial.md#osx)。
+有关详细信息和说明，请参阅[创建和安装证书](./environment-setup.md#create-and-install-a-certificate)中的 OSX 选项卡。
 
 ## <a name="create-a-certificate-on-linux"></a>在 Linux 上创建证书
 
@@ -199,6 +199,6 @@ openssl req -x509 -newkey rsa:4096 -keyout PowerBIVisualTest_private.key -out Po
     ```
 
 ## <a name="next-steps"></a>后续步骤
-- [开发 Power BI 视觉对象](custom-visual-develop-tutorial.md)
+- [开发 Power BI 圆形卡片视觉对象](develop-circle-card.md)
 - [Power BI 视觉对象示例](samples.md)
 - [将 Power BI 视觉对象发布到 AppSource](office-store.md)

@@ -7,16 +7,16 @@ ms.service: powerbi
 ms.subservice: powerbi-consumer
 Ms.custom: css_fy20Q4
 ms.topic: how-to
-ms.date: 09/17/2020
+ms.date: 10/07/2020
 ms.author: mihart
 ms.custom: licensing support
 LocalizationGroup: consumers
-ms.openlocfilehash: bfa2faaa95c58541e44dd858f8d544d06d86ba25
-ms.sourcegitcommit: d153cfc0ce559480c53ec48153a7e131b7a31542
+ms.openlocfilehash: 2b0bde7aa193af831a95fc53d461f874a3c1d1d1
+ms.sourcegitcommit: d2f633b4bfa271051ba1d2ef0e6e8da7dcf42818
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/29/2020
-ms.locfileid: "91527923"
+ms.lasthandoff: 10/08/2020
+ms.locfileid: "91830382"
 ---
 # <a name="licenses-and-subscriptions-for-business-users"></a>业务用户的许可证和订阅
 
@@ -51,8 +51,16 @@ Premium 允许 Pro 用户广泛分发内容，且不要求查看内容的收件�
 有关高级容量的详细信息，请参阅[什么是 Microsoft Power BI Premium？](../admin/service-premium-what-is.md)。
 
 ## <a name="find-out-which-licenses-you-have"></a>了解你拥有哪些许可证
+选择你的个人资料图片以显示帐户信息。 Zalan 使用的是免费许可证。 
 
-访问 [Microsoft“我的帐户”](https://portal.office.com/account)页，查看分配给你的许可证。  选择“订阅”选项卡。
+![单击个人资料图片后显示下拉菜单的屏幕截图](media/end-user-license/power-bi-profiles.png)
+
+
+若要查看帐户的其他详细信息，请选择“查看帐户”。 此时将在新的浏览器选项卡中打开 [Microsoft“我的帐户”页面](https://portal.office.com/account)。查看分配给你的许可证。  选择“订阅”选项卡。
+
+![Microsoft 365 帐户页面的屏幕截图。](media/end-user-license/power-bi-subscriptions.png)
+
+
 
 
 第一位用户 Pradtanna 具有 Office 365 E5，其中包含 Power BI Pro 许可证。
@@ -95,7 +103,7 @@ Premium 允许 Pro 用户广泛分发内容，且不要求查看内容的收件�
 
 |许可证类型  |共享容量 |专用高级容量  |
 |---------|---------|---------|
-|**免费**     |  用作个人沙盒，你可以在其中为自己创建内容并与该内容进行交互。 免费许可证是试用 Power BI 服务的好方法。 你不能使用来自其他人的内容，也不能与他人共享你的内容 <sup>1</sup>     |   与分配给专用容量的内容进行交互，并与你共享。 免费和 Pro 用户可以进行协作，而无需免费用户拥有 Pro 帐户。      |
+|**免费**     |  用作个人沙盒，你可以在其中为自己创建内容并与该内容进行交互。 免费许可证是试用 Power BI 服务的好方法。 你不能使用来自其他人的内容，也不能与他人共享你的内容 <sup>1</sup>     |   与分配至专用高级容量的内容进行交互，并与你共享。 免费和 Pro 用户可以进行协作，而无需免费用户拥有 Pro 帐户。      |
 |**Pro**     |  通过创建和共享内容与其他 Pro 版用户协作。        |  通过创建和共享内容与免费版和 Pro 版用户协作。       |
 
 
@@ -125,7 +133,7 @@ Power BI Pro 设计者可以在任何一个工作区中与其他 Pro 用户共�
 
 - <sup>1</sup> Power BI 服务的免费用户许可证非常适合使用“我的工作区”探索该服务或使用该服务进行个人数据分析和可视化的用户。 免费的独立用户不使用 Power BI 与同事协作。 拥有免费许可证的独立用户不能查看其他用户共享的内容，也不能与其他 Power BI 用户共享自己的内容。
 
-    ![独立用户的图像](media/end-user-license/power-bi-free-license.jpg)
+
 
 ## <a name="next-steps"></a>后续步骤
 

@@ -10,12 +10,12 @@ ms.topic: how-to
 ms.date: 02/10/2020
 ms.author: rien
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 45f5ff81e8ab11c2082af7f570f02bd3671719c6
-ms.sourcegitcommit: be424c5b9659c96fc40bfbfbf04332b739063f9c
+ms.openlocfilehash: 8730860a63d8d78dad7cfaafa11fb411ec8422fe
+ms.sourcegitcommit: 220427415e2fdc9337244b1ee23e734854179d43
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "91634656"
+ms.lasthandoff: 10/09/2020
+ms.locfileid: "91862974"
 ---
 # <a name="tables-in-power-bi-reports-and-dashboards"></a>Power BI 报表和仪表板中的表
 
@@ -46,9 +46,9 @@ ms.locfileid: "91634656"
 
 1. 在菜单栏的左上方，选择“文件” > “打开”  
    
-2. 查找**零售分析示例 PBIX 文件**的副本
+2. 查找 **零售分析示例 PBIX 文件** 的副本
 
-1. 在报表视图中打开**零售分析示例 PBIX 文件**![报表视图屏幕截图图标](media/power-bi-visualization-kpi/power-bi-report-view.png)。
+1. 在报表视图中打开 **零售分析示例 PBIX 文件**![报表视图屏幕截图图标](media/power-bi-visualization-kpi/power-bi-report-view.png)。
 
 1. 选择 ![黄色选项卡的屏幕截图。](media/power-bi-visualization-kpi/power-bi-yellow-tab.png) ，以添加新报表页。
 
@@ -183,6 +183,8 @@ ms.locfileid: "91634656"
 * 应用列格式时，每列只能选择一个对齐选项：“自动”  、“左对齐”  、“居中”  和“右对齐”  。 通常情况下，一个列包含的内容全部为文本或全部为数字，而不是二者的混合。 如果列中同时包含数字和文本，选择“自动”  选项会将文本左对齐，并将数字右对齐。 此行为支持从左往右阅读的语言。
 
 * 如果表的单元格或标题中的文本数据包含换行符，则除非你在元素的相关格式设置窗格卡中启用“自动换行”选项，否则这些字符将被忽略。 
+
+* Power BI 基于前二十列和前五十行计算最大单元格大小。 这些点之外的单元格可能未适当调整大小。
 
 
 ## <a name="next-steps"></a>后续步骤

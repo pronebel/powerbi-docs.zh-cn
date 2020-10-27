@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: reference
 ms.date: 03/17/2019
-ms.openlocfilehash: b6b56e57bdc7815b7db1afc3cde79831523c1129
-ms.sourcegitcommit: be424c5b9659c96fc40bfbfbf04332b739063f9c
+ms.openlocfilehash: 076ad6549cb68660313dcd8da5ccf8eb1f8f26c7
+ms.sourcegitcommit: 50b21718a167c2b131313b4135c8034c6f027597
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "91634242"
+ms.lasthandoff: 10/14/2020
+ms.locfileid: "92049145"
 ---
 # <a name="samples-of-power-bi-visuals"></a>Power BI 视觉对象示例
 
@@ -73,4 +73,4 @@ WebGL 允许 Web 内容使用基于 OpenGL ES 2.0 的 API 在 HTML 画布中进�
 
 ## <a name="next-steps"></a>后续步骤
 
-要尝试创建 Power BI 视觉对象，请参阅[教程：开发 Power BI 视觉对象](custom-visual-develop-tutorial.md)。
+若要尝试创建 Power BI 视觉对象，请参阅[开发 Power BI 圆形卡片视觉对象](develop-circle-card.md)。

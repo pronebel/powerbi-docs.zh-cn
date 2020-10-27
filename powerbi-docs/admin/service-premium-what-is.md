@@ -5,17 +5,17 @@ author: davidiseminger
 ms.author: davidi
 ms.reviewer: ''
 ms.service: powerbi
-ms.subservice: powerbi-admin
+ms.subservice: powerbi-premium
 ms.topic: conceptual
 ms.date: 07/28/2020
 ms.custom: licensing support
 LocalizationGroup: Premium
-ms.openlocfilehash: 7f90840284c5b17a118b414db606902789657b7a
-ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
+ms.openlocfilehash: 7c81f3b624de0692d597cfb6c79f2159a6133593
+ms.sourcegitcommit: 51b965954377884bef7af16ef3031bf10323845f
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90854681"
+ms.lasthandoff: 09/30/2020
+ms.locfileid: "91598993"
 ---
 # <a name="what-is-power-bi-premium"></a>什么是 Power BI Premium？
 
@@ -30,7 +30,7 @@ ms.locfileid: "90854681"
 > * 与任何人共享数据而无需购买每用户许可证
 
 
-![管理门户](media/service-premium-what-is/premium-admin-portal.png) 
+![屏幕截图显示 Power BI 管理门户。](media/service-premium-what-is/premium-admin-portal.png) 
 
 本文介绍了 Power BI Premium 中的主要功能。 必要时，提供包含更多详细信息的其他文章的链接。 有关 Power BI Pro 和 Power BI Premium 的详细信息，请参阅 [Power BI 定价](https://powerbi.microsoft.com/pricing/)的“Power BI 功能比较”部分。
 
@@ -50,11 +50,11 @@ Azure Power BI Embedded 在很大程度上超出了本文的范围，但在“�
 
 ### <a name="purchasing"></a>购买
 
-Power BI Premium 订阅由 Microsoft 365 管理中心的管理员购买。 具体而言，仅全局管理员或计费管理员才能购买 SKU。 购买时，租户会收到相应数量的 V 核心用于分配给容量，这称为 *V 核心池*。 例如，购买 P3 SKU 会为租户提供 32 个 V 核心。 若要了解详细信息，请参阅[如何购买 Power BI Premium](service-admin-premium-purchase.md)。
+Power BI Premium 订阅由 Microsoft 365 管理中心的管理员购买。 具体而言，仅全局管理员或计费管理员才能购买 SKU。 购买时，租户会收到相应数量的 V 核心用于分配给容量，这称为 *V 核心池* 。 例如，购买 P3 SKU 会为租户提供 32 个 V 核心。 若要了解详细信息，请参阅[如何购买 Power BI Premium](service-admin-premium-purchase.md)。
 
 ## <a name="dedicated-capacities"></a>专用容量
 
-借助 Power BI Premium，可获得*专用容量*。 共享容量的工作负载在与其他客户共享的计算资源上运行，与之相反，专用容量仅供组织使用。 它与专用计算资源分离，专用计算资源为托管内容提供可靠且一致的性能。 请注意，以下资源存储在共享容量而非专用容量中：
+借助 Power BI Premium，可获得 *专用容量* 。 共享容量的工作负载在与其他客户共享的计算资源上运行，与之相反，专用容量仅供组织使用。 它与专用计算资源分离，专用计算资源为托管内容提供可靠且一致的性能。 请注意，以下资源存储在共享容量而非专用容量中：
 
 * Excel 工作簿（除非是首次将数据导入 Power BI Desktop）
 * [推送数据集](/rest/api/power-bi/pushdatasets)
@@ -65,15 +65,15 @@ Power BI Premium 订阅由 Microsoft 365 管理中心的管理员购买。 具�
 
 ### <a name="capacity-nodes"></a>容量节点
 
-如[订阅和许可](#subscriptions-and-licensing)部分所述，有两个 Power BI Premium SKU 系列：**EM** 和 **P**。所有 Power BI Premium SKU 均可作为容量*节点*提供，每个节点代表由处理器、内存和存储组成的一定数量的资源。 除资源外，每个 SKU 还对每秒处理的 DirectQuery 和 Live Connection 连接的数量，以及并行模型刷新次数进行了操作限制。
+如 [订阅和许可](#subscriptions-and-licensing)部分所述，有两个 Power BI Premium SKU 系列： **EM** 和 **P** 。所有 Power BI Premium SKU 均可作为容量 *节点* 提供，每个节点代表由处理器、内存和存储组成的一定数量的资源。 除资源外，每个 SKU 还对每秒处理的 DirectQuery 和 Live Connection 连接的数量，以及并行模型刷新次数进行了操作限制。
 
 处理由一定数量的 V 核心实现，并在后端和前端之间平均分配。
 
-**后端 V 核心**负责核心 Power BI 功能，包括查询处理、缓存管理、运行 R 服务、模型刷新以及在服务器端呈现报表和图像。 后端 V 核心分配到固定数量的内存，这些内存主要用于托管模型，也称为“活动数据集”。
+**后端 V 核心** 负责核心 Power BI 功能，包括查询处理、缓存管理、运行 R 服务、模型刷新以及在服务器端呈现报表和图像。 后端 V 核心分配到固定数量的内存，这些内存主要用于托管模型，也称为“活动数据集”。
 
-**前端 V 核心**负责 Web 服务、仪表板和报表文档管理、访问权限管理、时间安排、API、上传和下载，以及通常与用户体验相关的所有内容。
+**前端 V 核心** 负责 Web 服务、仪表板和报表文档管理、访问权限管理、时间安排、API、上传和下载，以及通常与用户体验相关的所有内容。
 
-存储设置为**每个容量节点 100 TB**。
+存储设置为 **每个容量节点 100 TB** 。
 
 每个 Premium SKU（和等效大小的 A SKU）的资源和限制如下表所述：
 
@@ -108,7 +108,7 @@ Power BI Premium 订阅由 Microsoft 365 管理中心的管理员购买。 具�
 
 Power BI 服务始终充分利用容量资源，同时不超过对容量施加的限制。
 
-容量操作分类为*交互式操作*和*后台操作*。 交互式操作包括呈现请求和响应用户交互（筛选、问答查询等）。 通常情况下，导入模型查询为内存资源密集型，而查询 DirectQuery 和 Live Connection 模型则为 CPU 密集型。 后台操作包括数据流和导入模型刷新，以及仪表板查询缓存。
+容量操作分类为 *交互式操作* 和 *后台操作* 。 交互式操作包括呈现请求和响应用户交互（筛选、问答查询等）。 通常情况下，导入模型查询为内存资源密集型，而查询 DirectQuery 和 Live Connection 模型则为 CPU 密集型。 后台操作包括数据流和导入模型刷新，以及仪表板查询缓存。
 
 重点是了解交互式操作应始终优先于后台操作，以确保可能的最佳用户体验。 如果资源不足，则会在释放资源时将后台操作添加到队列中进行处理。 后台操作（如数据集刷新）可以由 Power BI 服务在进程中停止并添加到队列中。
 
@@ -116,7 +116,7 @@ Power BI 服务始终充分利用容量资源，同时不超过对容量施加�
 
 因此，导入模型会根据用途加载到内存中或从内存中移除。 在导入模型被查询（交互式操作）但尚未位于内存中时，或当要刷新导入模型（后台操作）时，系统会加载导入模型。
 
-从内存中移除模型称为*逐出*。 这是 Power BI 可以根据模型的大小快速执行的操作。 如果容量没有遇到任何内存压力，则模型只需加载到内存中并保持原位。 但是，当可用的内存不足以加载模型时，Power BI 服务首先需要释放内存。 它通过寻找在过去三分钟 \[[1](#endnote-1)\] 未使用过的模型来检测已变为非活动状态的模型，然后逐出它们，从而释放内存。 如果没有要逐出的非活动模型，则 Power BI 服务会尝试逐出为后台操作加载的模型。 在尝试失败 30 秒后\[[1](#endnote-1)\]，最终可尝试使交互操作失败。 在这种情况下，报表用户会收到失败通知以及尽快重试的建议。 在某些情况下，由于服务操作，模型可能会从内存中卸载。
+从内存中移除模型称为 *逐出* 。 这是 Power BI 可以根据模型的大小快速执行的操作。 如果容量没有遇到任何内存压力，则模型只需加载到内存中并保持原位。 但是，当可用的内存不足以加载模型时，Power BI 服务首先需要释放内存。 它通过寻找在过去三分钟 \[[1](#endnote-1)\] 未使用过的模型来检测已变为非活动状态的模型，然后逐出它们，从而释放内存。 如果没有要逐出的非活动模型，则 Power BI 服务会尝试逐出为后台操作加载的模型。 在尝试失败 30 秒后\[[1](#endnote-1)\]，最终可尝试使交互操作失败。 在这种情况下，报表用户会收到失败通知以及尽快重试的建议。 在某些情况下，由于服务操作，模型可能会从内存中卸载。
 
 需要强调的是，数据集逐出是正常行为和预期行为。 它致力于通过加载和卸载组合大小可能超过可用内存的模型来最大化内存使用率。 这是设计使然，并且对报表用户透明。 高逐出率并不一定意味着容量分配到的资源不足。 然而，如果因高逐出率而导致查询或刷新响应性受到影响，则它们可能会成为问题。
 
@@ -129,7 +129,7 @@ Power BI 服务始终充分利用容量资源，同时不超过对容量施加�
 
 ### <a name="regional-support"></a>区域支持
 
-创建新容量时，全局管理员和 Power BI 服务管理员可以指定一个区域供分配给容量的工作区驻留。 这称为**多地理位置**。 借助多地理位置，组织可以通过将内容部署到特定区域中的数据中心来满足数据驻留要求，即使它与 Microsoft 365 订阅所在的区域不同。 若要了解详细信息，请参阅 [Power BI Premium 的多地理位置支持](service-admin-premium-multi-geo.md)。
+创建新容量时，全局管理员和 Power BI 服务管理员可以指定一个区域供分配给容量的工作区驻留。 这称为 **多地理位置** 。 借助多地理位置，组织可以通过将内容部署到特定区域中的数据中心来满足数据驻留要求，即使它与 Microsoft 365 订阅所在的区域不同。 若要了解详细信息，请参阅 [Power BI Premium 的多地理位置支持](service-admin-premium-multi-geo.md)。
 
 ### <a name="capacity-management"></a>容量管理
 
@@ -139,11 +139,11 @@ Power BI 服务始终充分利用容量资源，同时不超过对容量施加�
 
 创建容量后，大多数管理任务都在[管理门户](service-admin-portal.md)中完成。
 
-![管理门户](media/service-premium-what-is/premium-admin-portal.png)
+![屏幕截图显示选中了“我的工作区”的 Power BI 管理门户。](media/service-premium-what-is/premium-admin-portal.png)
 
 容量管理员可以将工作区分配给容量、管理用户权限以及分配其他管理员。 容量管理员还可以配置工作负载、调整内存分配，并在必要时重启容量，以及在容量过载的情况下重置操作。
 
-![管理门户](media/service-premium-what-is/premium-admin-portal-mgmt.png)
+![屏幕截图显示 Power BI 管理门户中的容量管理。](media/service-premium-what-is/premium-admin-portal-mgmt.png)
 
 容量管理员还可以确保容量平稳运行。 他们可直接在管理门户中或通过使用 Premium 容量指标应用监视容量运行状况。
 
@@ -155,9 +155,9 @@ Power BI 服务始终充分利用容量资源，同时不超过对容量施加�
 
 门户中的监视功能提供快速视图，其中包含指示已放置的负载以及过去七天内容量平均使用的资源量的高级指标。 
 
-![管理门户](media/service-premium-what-is/premium-admin-portal-health.png)
+![屏幕截图显示 Power BI 管理门户中的容量运行状况。](media/service-premium-what-is/premium-admin-portal-health.png)
 
-**Power BI Premium 容量指标**应用提供有关容量表现的深度信息。 该应用提供高级仪表板和更加详细的报表。
+**Power BI Premium 容量指标** 应用提供有关容量表现的深度信息。 该应用提供高级仪表板和更加详细的报表。
 
 ![指标应用仪表板](media/service-admin-premium-monitor-capacity/app-dashboard.png)
 
@@ -177,7 +177,7 @@ Power BI REST API 包含[容量 API](/rest/api/power-bi/capacities) 的集合。
 
 ## <a name="large-datasets"></a>大型数据集
 
-Power BI Premium 支持上传 Power BI Desktop (.pbix) 模型文件，最大大小为 **10 GB**，具体取决于 SKU。 加载模型后，可将其发布到分配给 Premium 容量的工作区。 随后可将数据集刷新至最大 **12 GB** 的大小。
+Power BI Premium 支持上传 Power BI Desktop (.pbix) 模型文件，最大大小为 **10 GB** ，具体取决于 SKU。 加载模型后，可将其发布到分配给 Premium 容量的工作区。 随后可将数据集刷新至最大 **12 GB** 的大小。
 
 ### <a name="size-considerations"></a>大小注意事项
 
@@ -195,7 +195,7 @@ Power BI Embedded A4 SKU 等同于 P1 SKU、A5 = P2 和 A6 = P3。
 
 如果在数据集上启用[大型模型](service-premium-large-models.md)，则 .pbix 文件大小限制仍适用于文件上传或发布。 但是，在结合了增量刷新和大型模型的情况下，数据集的增长可能会远远超出这些限制。 对于大型模型，数据集大小仅受 Power BI Premium 容量大小的限制。
 
-.pbix 文件表示处于*高度压缩状态*的数据。 数据在加载到内存中时可能会扩展，并且在数据刷新期间可能会在内存中扩展数倍。
+.pbix 文件表示处于 *高度压缩状态* 的数据。 数据在加载到内存中时可能会扩展，并且在数据刷新期间可能会在内存中扩展数倍。
 
 大型数据集的计划刷新可能需要很长时间，并且会占用大量资源。 请务必不要安排太多的重叠刷新。 建议配置[增量刷新](service-premium-incremental-refresh.md)，因为它更快速、更可靠且使用的资源更少。
 

@@ -8,12 +8,12 @@ ms.subservice: powerbi-mobile
 ms.topic: how-to
 ms.date: 03/11/2020
 ms.author: painbar
-ms.openlocfilehash: 4202d2c7e4c87f8085a04af9922cf7cc6c55fbfd
-ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
+ms.openlocfilehash: 41ddc6e0c9a4f4f2c9b5687194e043bb1ef80bec
+ms.sourcegitcommit: 6b436f6ed872cbc040ed6e2d3ac089c08fc78daf
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90860178"
+ms.lasthandoff: 10/09/2020
+ms.locfileid: "91928254"
 ---
 # <a name="single-sign-on-in-the-power-bi-mobile-windows-app"></a>Power BI 移动 Windows 应用中的单一登录
 
@@ -21,7 +21,7 @@ ms.locfileid: "90860178"
 
 由于 Power BI Windows 应用已集成到 Azure Active Directory 中，因此使用主组织帐户既可以登录到已加入域的设备，也可以登录到 Power BI 服务。 如果要在 Windows Phone 上查看 Power BI，请确保在设备设置中将用于 Power BI 的帐户配置为工作或学校帐户。  
 
-仅为 Windows Azure Active Directory 管理的 Windows 设备启用 SSO。
+仅为 Azure Active Directory 管理的 Windows 设备启用 SSO。
 
 >[!NOTE]
 >我们将于 2021 年 3 月 16 日终止对使用 Windows 10 移动版的手机提供 Power BI 移动应用支持  。 [了解详细信息](/legal/powerbi/powerbi-mobile/power-bi-mobile-app-end-of-support-for-windows-phones)

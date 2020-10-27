@@ -8,12 +8,12 @@ ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 08/12/2020
 ms.author: painbar
-ms.openlocfilehash: c8daa87bca6fb5ed47899f804c0710f58b559ff1
-ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
+ms.openlocfilehash: d2e229dda05c1761fdaa5c7336c0eca5db538e46
+ms.sourcegitcommit: 383d87841d2509131fac7cc02c5c37c6a868144f
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90860224"
+ms.lasthandoff: 10/14/2020
+ms.locfileid: "92026039"
 ---
 # <a name="whats-new-in-the-mobile-apps-for-power-bi"></a>Power BI 移动应用中的新功能
 有关相关的“新增功能”的信息，请参阅：
@@ -24,6 +24,20 @@ ms.locfileid: "90860224"
 
 >[!NOTE]
 >我们将于 2021 年 3 月 16 日终止对使用 Windows 10 移动版的手机提供 Power BI 移动应用支持。 [了解详细信息](/legal/powerbi/powerbi-mobile/power-bi-mobile-app-end-of-support-for-windows-phones)
+
+## <a name="october-2020"></a>2020 年 10 月
+### <a name="automatic-page-refresh-is-now-supported-windows"></a>现在支持自动页面刷新 (Windows)
+
+现在，使用[自动页面刷新](../../create-reports/desktop-automatic-page-refresh.md)配置的报表页也将在适用于 Windows 设备的Power BI 应用中自动刷新。 这并不意味着只是在常规报表视图中实现此功能。 通过自动页面刷新，你的[演示文稿和幻灯片](mobile-windows-10-app-presentation-mode.md#slideshows)也会实时更新，确保你始终显示最新的业务数据和见解。
+
+### <a name="support-for-notch-displays-ios"></a>支持异形屏显示 (iOS)
+我们添加了对 iPhone 和 iPad 异形屏显示的支持，从而为报表和仪表板提供了更多屏幕空间。 
+
+## <a name="september-2020"></a>2020 年 9 月
+### <a name="power-bi-app-preview-for-hololens-2-is-out-in-the-stores"></a>适用于 HoloLens 2 的 Power BI 应用（预览版）现已在商店发售！
+
+适用于 HoloLens 2 的 Power BI 应用将为你带来完全沉浸式体验。 利用 HoloLens 2 的手势系统，你可以从 Toolbelt 获取你喜爱的报表和仪表板、调整大小并将其放置在你需要的位置，甚至浏览报表页面。 报表和仪表板在你使用应用时更新，因此，如果数据发生更改，你将立即看到这些更改。 通过我们的[文档](mobile-hololens2-app.md)和[博客](https://powerbi.microsoft.com/blog/power-bi-app-for-mixed-reality-now-available-for-hololens-2/)了解详细信息！
+
 
 ## <a name="august-2020"></a>2020 年 8 月
 ### <a name="weve-improved-how-you-navigate-to-your-content-ios-and-android"></a>我们改进了导航浏览内容的方式（iOS 和 Android）
@@ -510,11 +524,11 @@ Power BI for Mixed Reality 应用现已在 Microsoft Store 上架。 可以沉�
 **iOS 上全新的问答体验（预览版）** ：现在可以使用自然语言获取限定范围的见解，而不单单是收到问题答案。 即使不确定要查找什么，问答依然能够主动呈现与数据相关的见解。 与 Microsoft Research 团队协作开发的全新手机问答体验在我们的产品内展现了功能强大的技术。 请试学教程[在 iOS 移动应用中咨询有关数据的问题](mobile-apps-ios-qna.md)。
 
 ### <a name="responsive-visuals"></a>响应式视觉对象
-**手机报表和仪表板的响应式视觉对象**：可以将仪表板或报表中的视觉对象设置为响应式，即动态缩放，尽可能显示最多的数据和见解，无论屏幕大小如何。 请阅读[有关响应式视觉对象的博客](https://powerbi.microsoft.com/blog/power-bi-desktop-july-feature-summary-2/#responsiveVisuals)。
+**手机报表和仪表板的响应式视觉对象** ：可以将仪表板或报表中的视觉对象设置为响应式，即动态缩放，尽可能显示最多的数据和见解，无论屏幕大小如何。 请阅读[有关响应式视觉对象的博客](https://powerbi.microsoft.com/blog/power-bi-desktop-july-feature-summary-2/#responsiveVisuals)。
 
 ### <a name="june-2107"></a>2017 年 6 月
 #### <a name="all-devices"></a>所有设备
-**收藏应用**：已可以收藏仪表板。 最近，[Power BI 中添加了应用](../../collaborate-share/service-create-distribute-apps.md)，现在也可以收藏应用了。 
+**收藏应用** ：已可以收藏仪表板。 最近，[Power BI 中添加了应用](../../collaborate-share/service-create-distribute-apps.md)，现在也可以收藏应用了。 
 
 ### <a name="may-2017"></a>2017 年 5 月
 #### <a name="all-devices"></a>所有设备
@@ -759,7 +773,7 @@ Power BI 移动应用中的通知中心将显示与你共享的新数据或仪�
 * QR 码现也可用于报表。 使用 Power BI 应用扫描图码，可直接转到相关报表，而无需任何导航或搜索。
 * **为 SQL Server 2016 Reporting Services 改进了数据管理功能** - 减少了设备的加载时间和数据流量消耗。
 * **SQL Server 2016 主题移动报表** - 请查看设备上的移动报表主题。
-* **地区筛选**：通过当前位置筛选报告。
+* **地区筛选** ：通过当前位置筛选报告。
 
 ### <a name="april-2016"></a>2016 年 4 月
 有关更多详细信息，请参阅 [April Power BI Mobile Apps blog（Power BI 移动应用博客 - 4 月）](https://powerbi.microsoft.com/blog/power-bi-mobile-apps-update-april-2016/)。
@@ -789,7 +803,7 @@ iOS 9.0 和更高版本 - 为了适应 Power BI 中的可能的最佳体验和�
 
 报表库 - 在报表库中直接打开报表。
 
-**脱机时刷新数据** - 新增的后台刷新功能在联机时自动更新缓存数据，因此[即使在脱机状态下](mobile-apps-offline-data.md)也可以访问最新数据。 
+**脱机时刷新数据** - 新增的后台刷新功能在联机时自动更新缓存数据，因此 [即使在脱机状态下](mobile-apps-offline-data.md)也可以访问最新数据。 
 
 必应和 R 磁贴 - 在焦点模式下打开必应和 R 磁贴。
 
@@ -798,7 +812,7 @@ SQL Server 2016 移动报表和 KPI - [查看 SQL Server 2016 移动报表和 KP
 
 查看报表 - 从仪表板上的磁贴中打开报表。
 
-**脱机时刷新数据** - 新增的后台刷新功能在联机时自动更新缓存数据，因此[即使在脱机状态下](mobile-apps-offline-data.md)也可以访问最新数据。 
+**脱机时刷新数据** - 新增的后台刷新功能在联机时自动更新缓存数据，因此 [即使在脱机状态下](mobile-apps-offline-data.md)也可以访问最新数据。 
 
 #### <a name="power-bi-app-for-windows-10-devices"></a>适用于 Windows 10 设备的 Power BI 应用
 **快速访问** - 通过新增的“最近查看”列表和全局搜索功能，快速访问仪表板、报表和组，以便找到所需数据。

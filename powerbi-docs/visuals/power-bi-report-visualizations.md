@@ -10,12 +10,12 @@ ms.subservice: powerbi-desktop
 ms.topic: how-to
 ms.date: 05/05/2020
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 2ae4223a6e156be3907bcad980df9446dbb64127
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: c94990f3126191cf568c2cc20fb5db0c954a6424
+ms.sourcegitcommit: 50b21718a167c2b131313b4135c8034c6f027597
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85234648"
+ms.lasthandoff: 10/14/2020
+ms.locfileid: "92049444"
 ---
 # <a name="visualizations-in-power-bi-reports"></a>Power BI 报表中的可视化效果
 
@@ -29,7 +29,7 @@ Power BI 的“可视化效果”窗格中还有其他许多视觉对象类型�
 
 ![具有各种可视化效果类型图标的窗格](media/power-bi-report-visualizations/power-bi-icons.png)
 
-可以通过 [Microsoft AppSource 社区网站](https://appsource.microsoft.com)获取更多 Power BI 视觉对象。 在 AppSource 中，你可以浏览和[下载](https://appsource.microsoft.com/marketplace/apps?page=1&product=power-bi-visuals) Microsoft 和社区提供的 [Power BI 视觉对象](../developer/visuals/custom-visual-develop-tutorial.md)。
+可以通过 [Microsoft AppSource 社区网站](https://appsource.microsoft.com)获取更多 Power BI 视觉对象。 在 AppSource 中，可以浏览和[下载](https://appsource.microsoft.com/marketplace/apps?page=1&product=power-bi-visuals) Microsoft 和社区提供的 Power BI 视觉对象。
 
 如果初次接触 Power BI 或需复习，请利用以下链接了解 Power BI 可视化效果的基础知识。  也可使用（本文左侧的）目录查找更多有用信息。
 
@@ -39,7 +39,7 @@ Power BI 的“可视化效果”窗格中还有其他许多视觉对象类型�
 
 ## <a name="upload-a-visualization-from-a-file-or-from-appsource"></a>从文件或从 AppSource 上传可视化效果
 
-添加自己创建或在 [Microsoft AppSource 社区网站](https://appsource.microsoft.com/marketplace/apps?product=power-bi-visuals)中找到的可视化效果。 有创造性的点子？ 深入了解我们的源代码，使用我们的[开发工具](../developer/visuals/custom-visual-develop-tutorial.md)创建新的可视化效果类型，并[将它与社区共享](../developer/visuals/office-store.md)。 若要详细了解如何开发 Power BI 视觉对象，请访问[开发 Power BI 视觉对象](../developer/visuals/custom-visual-develop-tutorial.md)。
+添加自己创建或在 [Microsoft AppSource 社区网站](https://appsource.microsoft.com/marketplace/apps?product=power-bi-visuals)中找到的可视化效果。 有创造性的点子？ 深入了解我们的源代码，使用我们的[开发工具](../developer/visuals/environment-setup.md)创建新的可视化效果类型，并[将它与社区共享](../developer/visuals/office-store.md)。 若要详细了解如何开发 Power BI 视觉对象，请访问[开发 Power BI 视觉对象](../developer/visuals/develop-circle-card.md)。
 
 ## <a name="personalize-your-visualization-pane"></a>个性化可视化效果窗格
 

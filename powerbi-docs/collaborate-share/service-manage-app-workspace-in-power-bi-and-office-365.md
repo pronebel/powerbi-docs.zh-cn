@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 03/02/2020
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 63acae99f0abd4fc91f4ae51b33786a3e01093ea
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: c05cb79d0996ad1819f0145193760ab16a031ffb
+ms.sourcegitcommit: d153cfc0ce559480c53ec48153a7e131b7a31542
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85226023"
+ms.lasthandoff: 09/29/2020
+ms.locfileid: "91526711"
 ---
 # <a name="manage-your-workspace-in-power-bi-and-microsoft-365"></a>管理 Power BI 和 Microsoft 365 中的工作区
 
@@ -42,7 +42,7 @@ ms.locfileid: "85226023"
 
 1. 在 Power BI 服务中，选择“工作区”旁边的箭头，然后选择工作区名称旁边的“更多选择”(…)，接下来选择“编辑此工作区”  。
 
-   ![在 Power BI 中编辑工作区](media/service-manage-app-workspace-in-power-bi-and-office-365/power-bi-app-ellipsis.png)
+   ![屏幕截图展示 Power BI 主页，其中选择了工作区，并选择了“更多选项”菜单中的“编辑此工作区”。](media/service-manage-app-workspace-in-power-bi-and-office-365/power-bi-app-ellipsis.png)
 
    > [!NOTE]
    > 如果你是工作区管理员，则只能看到“编辑此工作区”。
@@ -51,7 +51,7 @@ ms.locfileid: "85226023"
 
    ![编辑工作区对话框](media/service-manage-app-workspace-in-power-bi-and-office-365/power-bi-app-edit-workspace.png)
 
-1. 选择**保存**或**取消**。
+1. 选择 **保存** 或 **取消** 。
 
 ## <a name="edit-power-bi-workspace-properties-in-microsoft-365"></a>在 Microsoft 365 中编辑 Power BI 工作区属性
 
@@ -61,7 +61,7 @@ ms.locfileid: "85226023"
 
 1. 在 Power BI 服务中，选择“工作区”旁边的箭头，然后选择工作区名称旁边的“更多选项”(…)，接下来选择“成员”  。
 
-   ![在 Power BI 中编辑工作区](media/service-manage-app-workspace-in-power-bi-and-office-365/power-bi-app-ellipsis-members.png)
+   ![屏幕截图展示 Power BI 主页，其中选择了工作区，并选择了“更多选项”菜单中的“成员”。](media/service-manage-app-workspace-in-power-bi-and-office-365/power-bi-app-ellipsis-members.png)
 
    这将打开工作区的 Outlook for Microsoft 365 组视图。 可能需要登录到你的公司帐户。
 
@@ -80,7 +80,7 @@ ms.locfileid: "85226023"
 
    ![编辑组对话框](media/service-manage-app-workspace-in-power-bi-and-office-365/pbi_editgrpo365dialog.png)
 
-1. 选择**保存**或**放弃**。
+1. 选择 **保存** 或 **放弃** 。
 
 ## <a name="next-steps"></a>后续步骤
 

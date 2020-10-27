@@ -9,12 +9,12 @@ ms.subservice: powerbi-developer
 ms.topic: tutorial
 ms.custom: seodec18
 ms.date: 02/04/2020
-ms.openlocfilehash: 7a93260aab9d8195478949ea8044378ea5cfae83
-ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
+ms.openlocfilehash: 9a38533e76fec134d667ae4026258a2a3c07f410
+ms.sourcegitcommit: 02484b2d7a352e96213353702d60c21e8c07c6c0
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/06/2020
-ms.locfileid: "91746392"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "91983105"
 ---
 # <a name="tutorial-embed-power-bi-content-into-an-application-for-your-organization"></a>教程：为组织将 Power BI 内容嵌入应用程序
 
@@ -375,13 +375,13 @@ function updateEmbedReport() {
 }
 ```
 
-## <a name="using-a-power-bi-premium-dedicated-capacity"></a>使用 Power BI Premium 专用容量
+## <a name="using-a-power-bi-premium-capacity"></a>使用 Power BI Premium 容量
 
-至此，你已完成应用程序的开发，接下来请回到工作区了解专用容量。
+至此，你已完成应用程序的开发，接下来请回到工作区了解容量。
 
-### <a name="create-a-dedicated-capacity"></a>创建专用容量
+### <a name="create-a-capacity"></a>创建容量
 
-通过创建专用容量，则可获得在工作区中拥有内容专用资源这一优势。 对于分页报表，必须为工作区准备至少 P1 容量。 你可使用 [Power BI Premium](../../admin/service-premium-what-is.md) 创建专用容量。
+通过创建容量，可以获得在工作区中拥有内容资源这一优势。 对于分页报表，必须为工作区准备至少 P1 容量。 可以使用 [Power BI Premium](../../admin/service-premium-what-is.md) 创建容量。
 
 下表列出了 [Microsoft 365](../../admin/service-admin-premium-purchase.md) 中可用的 Power BI Premium SKU：
 
@@ -400,17 +400,17 @@ function updateEmbedReport() {
 > - 尝试通过 Microsoft Office 应用实现嵌入时，可以使用 EM SKU 和免费 Power BI 许可证来访问内容。 但是，如果使用 Powerbi.com 或 Power BI 移动版时，将无法使用免费 Power BI 许可证访问内容。
 > - 在尝试使用 Powerbi.com 或 Power BI 移动版嵌入到 Microsoft Office 应用时，可以使用免费 Power BI 许可证访问内容。
 
-### <a name="assign-a-workspace-to-a-dedicated-capacity"></a>为工作区分配专用容量
+### <a name="assign-a-workspace-to-a-capacity"></a>将工作区分配到容量
 
-创建专用容量后，可将该专用容量分配给工作区。 若要完成此过程，请按照下列步骤执行：
+创建容量后，可将工作区分配给该容量。 若要完成此过程，请按照下列步骤执行：
 
 1. 在“Power BI 服务”中，展开工作区并选择用于嵌入内容的工作区的相应省略号。 然后选择“编辑工作区”。
 
     ![编辑工作区](media/embed-sample-for-your-organization/embed-sample-for-your-organization-036.png)
 
-2. 展开“高级”，并启用“专用容量”。 选择你创建的专用容量。 然后，选择“保存”。
+2. 展开“高级”，并启用“容量”。 选择你创建的容量。 然后，选择“保存”。
 
-    ![分配专用容量](media/embed-sample-for-your-organization/embed-sample-for-your-organization-024.png)
+    ![分配容量](media/embed-sample-for-your-organization/embed-sample-for-your-organization-024.png)
 
 3. 选择“保存”后，应该会在工作区名称旁边看到一个钻石图形。
 

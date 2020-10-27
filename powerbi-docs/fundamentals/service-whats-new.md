@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 04/14/2020
 ms.author: nikhilga
 LocalizationGroup: Get started
-ms.openlocfilehash: a36c377a7faf82e6aeb544859b72ac973305a3b3
-ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
+ms.openlocfilehash: 0f4b84067389e93de0e5c5c2b5008b08cd78151f
+ms.sourcegitcommit: d153cfc0ce559480c53ec48153a7e131b7a31542
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90860155"
+ms.lasthandoff: 09/29/2020
+ms.locfileid: "91525193"
 ---
 # <a name="whats-new-in-the-power-bi-service"></a>Power BI 服务中的新功能
 请阅读此页，了解 Power BI 服务中的已知问题和最近发布的功能。 有关相关的“新增功能”的信息，请参阅：
@@ -80,7 +80,7 @@ ms.locfileid: "90860155"
 * 将刷新通知发送给其他人。
 * 用于优化 Power BI Premium 容量的[测试工具](https://powerbi.microsoft.com/blog/power-bi-premium-know-what-your-premium-capacity-can-handle/)。
 * 公共预览版[服务可用性通知](https://powerbi.microsoft.com/blog/power-bi-introduces-service-availability-notifications/)。
-* 公共预览版 Power BI 报表[全新外观](https://powerbi.microsoft.com/blog/introducing-the-new-look-for-power-bi-service/)。
+* 公共预览版 Power BI 报表[全新外观](https://powerbi.microsoft.com/blog/introducing-the-new-look-of-workspaces-in-the-power-bi-service/)。
 * 南非的新 Power BI 区域。
 
 ### <a name="june-2019"></a>2019 年 6 月
@@ -312,7 +312,7 @@ ms.locfileid: "90860155"
 
 ***行级别安全性 (RLS)***
 
-* Azure Active Directory (AAD) 组支持：用户现在可以向角色分配 AAD 组（安全组和通讯组列表）。 使向大型用户组分配角色变得更加容易。
+* Azure Active Directory (Azure AD) 组支持：用户现在可以向角色分配 Azure AD 组（安全组）。 使向大型用户组分配角色变得更加容易。
 * [通过由已有 RLS 数据支持的报表来测试你的 RLS 角色](../admin/service-admin-rls.md#validate-the-roles-within-power-bi-desktop)：我们为 RLS 预览增加了这项功能，使你可以作为特定角色测试数据集。 从而确保在任何用户操作你的仪表板之前，角色按照你的预期工作。
 * 定义 RLS 并将其应用到基于直接查询的云模型：你现在可以为直接查询数据源创建并应用 RLS 规则。
 
@@ -405,7 +405,7 @@ ms.locfileid: "90860155"
 ***仪表板***
 
 * 全屏模式：支持在全屏模式下的打印
-* 全屏模式：展开磁贴以填充整个画布，并通过选择**适应宽度**删除多余的空白区域
+* 全屏模式：展开磁贴以填充整个画布，并通过选择 **适应宽度** 删除多余的空白区域
 * 使用磁贴流使磁贴自动对齐画布的左上角。
 
 ***Quick Insights (快速见解)***
@@ -646,7 +646,7 @@ Power BI 团队在整个假期都在忙。 有关所有详细信息，[请访问
 * 通过本周的服务更新，创建新报表时可以从多个页面大小中进行选择，也可以定义自己的页面大小。 这可以控制报表中每页的大小和纵横比。
 * 我们为图像和气泡图添加了额外的可视化格式支持。 调整图像大小时你可以锁定图像的纵横比，以避免图像扭曲，可以将散点图和气泡图配置为填充或不填充。
 * 现在，Power BI 将向备选电子邮件地址发送共享邀请。 当与你共享仪表板时，我们将同时向你的原始电子邮件地址和备用电子邮件地址（如果已配置）发送共享邀请链接。
-* Power BI 可供所有客户使用，包括 Dedicated on Multitenant (DonMT) Microsoft 365 体系结构中的客户。 你将在多租户模式下将 Power BI 作为共享服务使用。 在大多数情况下，你可以按照简单的[自助服务注册流程](https://powerbi.microsoft.com/)注册 Power BI – 只需输入你的工作电子邮件地址，输入名称和密码就可以开始注册。 如果你是租户管理员，你可以使用[此处](/microsoft-365/admin/add-users/add-users?redirectSourcePath=%252fen-us%252farticle%252fAssign-or-unassign-licenses-for-Office-365-for-business-997596b5-4173-4627-b915-36abac6786dc)的说明将许可证分配给用户。
+* Power BI 可供所有客户使用，包括 Dedicated on Multitenant (DonMT) Microsoft 365 体系结构中的客户。 你将在多租户模式下将 Power BI 作为共享服务使用。 在大多数情况下，你可以按照简单的[自助服务注册流程](https://powerbi.microsoft.com/)注册 Power BI – 只需输入你的工作电子邮件地址，输入名称和密码就可以开始注册。 如果你是许可证管理员，你可以使用[此处](/microsoft-365/admin/add-users/add-users?redirectSourcePath=%252fen-us%252farticle%252fAssign-or-unassign-licenses-for-Office-365-for-business-997596b5-4173-4627-b915-36abac6786dc)的说明将许可证分配给用户。
 * 你可以使用 Azure Audit Logs 查看你的 Azure 订阅中的控制平面操作日志。 Power BI Azure 审核日志内容包可以帮助你轻松分析和可视化这些日志中包含的信息资源。 此内容包允许你使用现成的仪表板和报表连接到你的数据，并开始挖掘洞察力。 阅读我们的[博客](https://powerbi.microsoft.com/blog/monitor-azure-audit-logs-with-power-bi/)和[在线文档](../connect-data/service-connect-to-services.md)以获取更多信息。
 
 [在我们的博客中了解详细信息](https://powerbi.microsoft.com/blog/power-bi-weekly-service-update-0929/)。
@@ -747,7 +747,7 @@ Power BI 团队在整个假期都在忙。 有关所有详细信息，[请访问
 
 **2015 年 5 月 13 日**
 
-* 你可以直接连接到存储在 **Azure SQL 数据库**中的数据。 我们动态生成并向源发送查询，使你能够直接通过数据库创建交互式报表。 你可以阅读[博客文章](https://powerbi.microsoft.com/blog/using-power-bi-to-visualize-and-explore-azure-sql-databases/)和[文档](../connect-data/service-azure-sql-database-with-direct-connect.md)来获取更多信息。
+* 你可以直接连接到存储在 **Azure SQL 数据库** 中的数据。 我们动态生成并向源发送查询，使你能够直接通过数据库创建交互式报表。 你可以阅读[博客文章](https://powerbi.microsoft.com/blog/using-power-bi-to-visualize-and-explore-azure-sql-databases/)和[文档](../connect-data/service-azure-sql-database-with-direct-connect.md)来获取更多信息。
 
 **2015年 5 月 7 日**
 
@@ -755,7 +755,7 @@ Power BI 团队在整个假期都在忙。 有关所有详细信息，[请访问
 
 **2015 年 4 月 28 日**
 
-* Power BI 现在有 **44 种语言**版本。 请阅读我们的[博客文章](https://powerbi.microsoft.com/blog/power-bi-preview-now-available-in-your-language/)以查看完整的支持的语言列表。
+* Power BI 现在有 **44 种语言** 版本。 请阅读我们的[博客文章](https://powerbi.microsoft.com/blog/power-bi-preview-now-available-in-your-language/)以查看完整的支持的语言列表。
 
 **2015 年 4 月 23 日**
 
@@ -764,15 +764,15 @@ Power BI 团队在整个假期都在忙。 有关所有详细信息，[请访问
 **2015 年 4 月 15 日**
 
 * 你现在可以使用我们的新内容包可视化和浏览 **Google Analytics** 数据！ 凭借 Google Analytics 内容包你将获得仪表板、报表和数据集，使你能够深入了解过去 6 个月你的网站的使用情况。 详情请参阅此篇[博客文章](https://powerbi.microsoft.com/blog/visualize-and-explore-your-google-analytics-data-with-power-bi/)。
-* 除包含问答和报表中的 KPI 和图像的卡片之外，你现在可以**固定所有卡片**。
-* 通过在查询的末尾使用短语“as card”，你可以**在问答中使用卡片**
+* 除包含问答和报表中的 KPI 和图像的卡片之外，你现在可以 **固定所有卡片** 。
+* 通过在查询的末尾使用短语“as card”，你可以 **在问答中使用卡片**
 
 **2015 年 3 月 31 日**
 
 * GitHub 仪表板新增了关注社区构建的视觉对象，不仅优化了计算，还改进了布局
 * SendGrid 仪表板新增了视觉对象和布局，有助于你获取更有意义的见解
 * 现在可以在查询的末尾使用短语“as treemap”，从而在问答中使用树状图
-* 你现在可以固定问答和报表中的**树状图** 
+* 你现在可以固定问答和报表中的 **树状图** 
 * 修复了大量 bug！
 
 **2015 年 2 月 25 日**

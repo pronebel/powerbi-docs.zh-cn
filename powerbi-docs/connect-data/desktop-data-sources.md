@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: how-to
-ms.date: 09/22/2020
+ms.date: 10/12/2020
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 56825599a6b566a93f18e6fea16d995dc8bdda8f
-ms.sourcegitcommit: ff981839e805f523748b7e71474acccf7bdcb04f
+ms.openlocfilehash: 8565f6ef18192110688d01127129dcc19919cb0f
+ms.sourcegitcommit: eab5a02520c421a57019595c03e9ecfdb41d52ad
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "91020035"
+ms.lasthandoff: 10/20/2020
+ms.locfileid: "92256442"
 ---
 # <a name="data-sources-in-power-bi-desktop"></a>Power BI Desktop 中的数据源
 
@@ -29,7 +29,7 @@ ms.locfileid: "91020035"
 ![“获取数据”按钮、Power BI Desktop](media/desktop-data-sources/data-sources-02.png)
 
 > [!NOTE]
-> Power BI 团队正在不断扩展适用于 Power BI Desktop 和 Power BI 服务的数据源。 因此，你通常会看到工作过程中的数据源版本标记为 **Beta** 或**预览**。 标记为 Beta 或预览的任何数据源所提供的支持和功能有限，不应在生产环境中使用。 此外，任何标记为 Power BI Desktop Beta 或预览版的数据源在数据源正式发布 (GA) 之前可能都无法在 Power BI 服务或其他 Microsoft 服务中使用 。
+> Power BI 团队正在不断扩展适用于 Power BI Desktop 和 Power BI 服务的数据源。 因此，你通常会看到工作过程中的数据源版本标记为 **Beta** 或 **预览** 。 标记为 Beta 或预览的任何数据源所提供的支持和功能有限，不应在生产环境中使用。 此外，任何标记为 Power BI Desktop Beta 或预览版的数据源在数据源正式发布 (GA) 之前可能都无法在 Power BI 服务或其他 Microsoft 服务中使用 。
 
 > [!NOTE]
 > Power BI Desktop 中的许多数据连接器都需要 Internet Explorer 10（或更高版本）进行身份验证。 
@@ -47,11 +47,11 @@ ms.locfileid: "91020035"
 * Online Services
 * 其他
 
-**全部**类别包括来自所有类别的所有数据连接类型。
+**全部** 类别包括来自所有类别的所有数据连接类型。
 
 ### <a name="file-data-sources"></a>文件数据源
 
-**文件**类别提供下列数据连接：
+**文件** 类别提供下列数据连接：
 
 * Excel
 * 文本/CSV
@@ -61,13 +61,13 @@ ms.locfileid: "91020035"
 * PDF
 * SharePoint 文件夹
 
-下图显示**文件**的**获取数据**窗口。
+下图显示 **文件** 的 **获取数据** 窗口。
 
 ![文件数据源、“获取数据”对话框、Power BI Desktop](media/desktop-data-sources/data-sources-03.png)
 
 ### <a name="database-data-sources"></a>数据库数据源
 
-**数据库**类别提供下列数据连接：
+**数据库** 类别提供下列数据连接：
 
 * SQL Server 数据库
 * Access 数据库
@@ -104,9 +104,9 @@ ms.locfileid: "91020035"
 * MariaDB (Beta)
 
 > [!NOTE]
-> 某些数据库连接器需要通过选择“文件”>“选项和设置”>“选项”，然后再选择“预览功能”才能启用 。 如果你没有看到上面提到的某些连接器，但想使用它们，请检查“预览功能”设置。 另请注意，标记为 *Beta* 或*预览*的任何数据源所提供的支持和功能有限，不应在生产环境中使用。
+> 某些数据库连接器需要通过选择“文件”>“选项和设置”>“选项”，然后再选择“预览功能”才能启用 。 如果你没有看到上面提到的某些连接器，但想使用它们，请检查“预览功能”设置。 另请注意，标记为 *Beta* 或 *预览* 的任何数据源所提供的支持和功能有限，不应在生产环境中使用。
 
-下图显示**数据库**的**获取数据**窗口。
+下图显示 **数据库** 的 **获取数据** 窗口。
 
 ![数据库数据源、“获取数据”对话框、Power BI Desktop](media/desktop-data-sources/data-sources-04.png)
 
@@ -145,7 +145,7 @@ ms.locfileid: "91020035"
 * Azure Databricks
 
 
-下图显示 **Azure** 的**获取数据**窗口。
+下图显示 **Azure** 的 **获取数据** 窗口。
 
 ![Azure 数据源、“获取数据”对话框、Power BI Desktop](media/desktop-data-sources/data-sources-06.png)
 
@@ -185,28 +185,30 @@ ms.locfileid: "91020035"
 * Emigo Data Source
 * Entersoft Business Suite (Beta)
 * FactSet Analytics
-* Palantir Foundry
-* Industrial App Store
+* 六边形 PPM 智能 API
 * Intune 数据仓库 (Beta)
 * Microsoft Graph Security (Beta)
-* 适用于 Power BI 的 Projectplace (Beta)
 * 产品见解 (Beta)
 * Quick Base
 * TeamDesk (Beta)
 * Webtrends Analytics (Beta)
 * Witivio (Beta)
-* Zoho Creator (Beta)
 * Workplace Analytics (Beta)
-* 六边形 PPM 智能 API
+* Zoho Creator (Beta)
+* Palantir Foundry
+* Industrial App Store
+* 适用于 Power BI 的 Projectplace
+* eWay-CRM (Beta)
+* Spigit (Beta)
 
 
-下图显示 **Online Services** 的**获取数据**窗口。
+下图显示 **Online Services** 的 **获取数据** 窗口。
 
 ![联机服务数据源、“获取数据”对话框、Power BI Desktop](media/desktop-data-sources/data-sources-07.png)
 
 ### <a name="other-data-sources"></a>其他数据源
 
-**其他**类别提供下列数据连接：
+**其他** 类别提供下列数据连接：
 
 * Web
 * SharePoint 列表
@@ -238,22 +240,30 @@ ms.locfileid: "91020035"
 * Tenforce (Smart)List
 * TIBCO(R) 数据虚拟化 (Beta)
 * Vena (Beta)
-* Zucchetti HR Infinity (Beta)
 * Vessel Insight (Beta)
+* Zucchetti HR Infinity (Beta)
 * 空白查询
 
 
 
-下图显示**其他**的**获取数据**窗口。
+下图显示 **其他** 的 **获取数据** 窗口。
 
-![其他数据源、“获取数据”对话框、Power BI Desktop](media/desktop-data-sources/data-sources-08.png)
+![Power BI Desktop 中的其他数据源](media/desktop-data-sources/data-sources-08.png)
 
 > [!NOTE]
 > 此时，无法连接到使用 Azure Active Directory 保护的自定义数据源。
 
+### <a name="template-apps"></a>模板应用
+
+选择“获取数据”窗口底部附近的“模板应用”链接后，可以查找组织的模板应用。 
+
+![Power BI Desktop 中其他数据源的“获取数据”对话框](media/desktop-data-sources/data-sources-12.png)
+
+可用模板应用可能因你的组织而异。
+
 ## <a name="connecting-to-a-data-source"></a>连接到数据源
 
-若要连接到数据源，请从**获取数据**窗口选择数据源，然后选择**连接**。 在下图中，已从**其他**数据连接类别中选择了 **Web**。
+若要连接到数据源，请从 **获取数据** 窗口选择数据源，然后选择 **连接** 。 在下图中，已从 **其他** 数据连接类别中选择了 **Web** 。
 
 ![连接到 Web、“获取数据”对话框、Power BI Desktop](media/desktop-data-sources/data-sources-08.png)
 
@@ -273,25 +283,43 @@ ms.locfileid: "91020035"
 
 PBIDS 文件是具有特定结构的 Power BI Desktop 文件，并且具有 .PBIDS 扩展名，用于标识它是 Power BI 数据源文件。
 
-可以创建 PBIDS 文件，用于简化组织中报表创建者的“获取数据”体验。 为了使新的报表作者更容易使用 PBIDS 文件，我们建议管理员为常用连接创建这些文件。
+可以创建 PBIDS 文件，用于简化组织中初次创建报表用户的“获取数据”体验。 如果从现有报表创建 PBIDS 文件，则初次创建报表的作者可以更容易地从同一数据生成新报表。
 
-当作者打开 PBIDS 文件时，Power BI Desktop 将打开并提示用户提供凭据，以进行身份验证并连接到文件中指定的数据源。 此时将显示“导航”对话框，用户必须从该数据源中选择要加载到模型中的表。 如果未在 PBIDS 文件中指定数据库，用户可能还需要选择数据库。
+当作者打开 PBIDS 文件时，Power BI Desktop 将打开并提示用户提供凭据，以进行身份验证并连接到文件中指定的数据源。 此时将显示“导航”对话框，用户必须从该数据源中选择要加载到模型中的表。 如果未在 PBIDS 文件中指定数据库和连接模式，用户可能还需要选择数据库和连接模式。
 
 之后，用户便可以开始生成可视化效果，或选择“最近使用的源”，将一组新的表加载到模型中。
 
 目前，PBIDS 文件仅支持一个文件中的单个数据源。 指定多个数据源会导致错误。
 
-若要创建 PBIDS 文件，管理员必须为单一连接指定所需的输入。 他们还可以将连接模式指定为“DirectQuery”或“导入”。 如果文件中缺少“模式”或者为 null，系统会提示在 Power BI Desktop 中打开文件的用户选择“DirectQuery”或“导入”。
+
+### <a name="how-to-create-a-pbids-connection-file"></a>如何创建 PBIDS 连接文件
+
+如果现有的 Power BI Desktop (.PBIX) 文件已连接到你感兴趣的数据，则只需从 Power BI Desktop 中导出这些连接文件。 这是建议的方法，因为可以从 Desktop 自动生成 PBIDS 文件。 此外，也可以在文本编辑器中编辑或手动创建该文件。 
+
+若要创建 PBIDS 文件，请选择“文件”>“选项和设置”>“数据源设置”：
+
+![“数据源设置”菜单选项](media/desktop-data-sources/data-sources-09.png)
+
+在出现的对话框中，选择要导出为 PBIDS 的数据源，然后选择“导出 PBIDS”。
+
+![“数据源设置”对话框](media/desktop-data-sources/data-sources-10.png)
+
+选择“导出 PBIDS”按钮后，Power BI Desktop 将生成 PBIDS 文件，可以对其重命名和在目录中保存该文件，并与他人共享。 还可以在文本编辑器中打开该文件，然后进一步修改该文件，包括在文件本身指定连接模式，如下图所示。 
+
+![使用文本编辑器修改 PBIDS 文件](media/desktop-data-sources/data-sources-11.png)
+
+如果希望在文本编辑器中手动创建 PBIDS 文件，则必须为单个连接指定所需的输入，并使用 PBIDS 扩展名保存该文件。 此外，还可以将连接模式指定为“DirectQuery”或“导入”。 如果文件中缺少“模式”或者为 null，系统会提示在 Power BI Desktop 中打开文件的用户选择“DirectQuery”或“导入”。
+
 
 ### <a name="pbids-file-examples"></a>PBIDS 文件示例
 
-本节提供了一些来自常用数据源的示例。 PBIDS 文件类型仅支持在 Power BI Desktop 中同时支持的数据连接，但有两个例外：“实时连接”和“空白查询”。
+本节提供了一些来自常用数据源的示例。 PBIDS 文件类型仅支持在 Power BI Desktop 中同时支持的数据连接，但有以下例外：“Wiki URL”、“实时连接”和“空白查询”。
 
 PBIDS 文件不包括身份验证信息以及表和架构信息。  
 
 以下代码片段显示了 PBIDS 文件的几个常见示例，但是它们并不完整，也不全面。 对于其他数据源，可以参阅[协议和地址信息的数据源引用 (DSR) 格式](/azure/data-catalog/data-catalog-dsr#data-source-reference-specification)。
 
-这些示例只是为了方便起见，并不全面，也不包含 DSR 格式的所有受支持的连接器。 管理员或组织可以使用这些示例作为指南来创建自己的数据源，从而创建和支持自己的数据源文件。
+如果你正在编辑或手动创建连接文件，则这些示例只是为了方便起见，并不全面，也不包含 DSR 格式的所有受支持的连接器。
 
 #### <a name="azure-as"></a>Azure AS
 

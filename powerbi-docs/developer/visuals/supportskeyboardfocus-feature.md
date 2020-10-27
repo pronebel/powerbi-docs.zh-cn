@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: conceptual
 ms.date: 04/30/2020
-ms.openlocfilehash: c8cf0f4e896b8a44764d1c363c597182f55d30b3
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 1e5a4cf8c80d8123d39fd2ab76898abc0c439ad9
+ms.sourcegitcommit: 50b21718a167c2b131313b4135c8034c6f027597
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83276504"
+ms.lasthandoff: 10/14/2020
+ms.locfileid: "92049375"
 ---
 # <a name="use-the-supportskeyboardfocus-feature"></a>使用 supportsKeyboardFocus 功能
 
@@ -52,4 +52,4 @@ ms.locfileid: "83276504"
 
 若要了解有关辅助功能的详细信息，请参阅[为辅助功能设计 Power BI 报表](../../create-reports/desktop-accessibility-creating-reports.md)。
 
-若要试用 Power BI 开发，请参阅[开发 Power BI 视觉对象](custom-visual-develop-tutorial.md)。
+若要试用 Power BI 开发，请参阅[开发 Power BI 圆形卡片视觉对象](develop-circle-card.md)。

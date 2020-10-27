@@ -1,21 +1,21 @@
 ---
-title: Power BI 中适用于使用者的视觉对象类型
+title: Power BI 中适用于企业用户的视觉对象类型
 description: Power BI 服务中的视觉对象类型
 author: mihart
 ms.reviewer: mihart
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: how-to
-ms.date: 06/24/2020
+ms.date: 10/07/2020
 ms.author: mihart
 ms.custom: contperfq4
 LocalizationGroup: Consumer
-ms.openlocfilehash: 05aab15b3807429c20b0ff72a7bfce21b3e25b12
-ms.sourcegitcommit: d153cfc0ce559480c53ec48153a7e131b7a31542
+ms.openlocfilehash: 6d2ded8060ebe663989fd4f91fc22e4163f60c93
+ms.sourcegitcommit: d2f633b4bfa271051ba1d2ef0e6e8da7dcf42818
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/29/2020
-ms.locfileid: "91526872"
+ms.lasthandoff: 10/08/2020
+ms.locfileid: "91830645"
 ---
 # <a name="visual-types-in-power-bi"></a>Power BI 中的视觉对象类型
 
@@ -25,18 +25,20 @@ ms.locfileid: "91526872"
 
 此页面上所述的视觉对象是使用 Power BI 打包的视觉对象。 这些是最常遇到的视觉对象类型。 此页面简要概述了这些预打包的视觉对象。 有关这些视觉对象的详细信息，请参阅[有关视觉对象类型的 Power BI 报表设计器文档](../visuals/power-bi-visualization-types-for-reports-and-q-and-a.md)。
 
-不自动包含在 Power BI 中的视觉对象称为“自定义视觉对象”。 自定义视觉对象可以从外部网站（例如 Microsoft AppSource）或从内部源（例如你的组织存储）导入到 Power BI 中。 导入自定义视觉对象需要对该报表拥有编辑权限。 若要了解这些外接程序视觉对象，请访问 [Power BI 中的视觉对象](../developer/visuals/power-bi-custom-visuals.md)。
+不自动包含在 Power BI 中的视觉对象称为“自定义视觉对象”。 自定义视觉对象可以从外部网站（例如 Microsoft AppSource）或从内部源（例如你的组织存储）导入到 Power BI 中。 导入自定义视觉对象需要对该报表拥有编辑权限。 若要了解这些加载项视觉对象，请访问 [Power BI 中的自定义视觉对象](../developer/visuals/power-bi-custom-visuals.md)。
 
 
 
 ## <a name="list-of-visuals-available-in-power-bi"></a>Power BI 支持的视觉对象列表
 所有这些视觉对象都可以在 Power BI 仪表板和报表中找到，并[在问答中指定](end-user-q-and-a.md)。 若要了解如何与视觉对象进行交互，请参阅[与报表、仪表板和应用中的视觉对象交互](end-user-visualizations.md)
 
+## <a name="a"></a>A
 ### <a name="area-charts-basic-layered-and-stacked"></a>分区图：基本（分层）和堆积
 ![分区图](media/end-user-visual-type/basic-area-map-small.png)
 
 基本分区图是在折线图的基础上增加了坐标轴和填充的线之间的区域。 分区图强调变化随时间推移的度量值，可以用于吸引人们关注某个趋势间的总值。 例如，可以在分区图中绘制表示随时间推移的利润的数据以强调总利润。
 
+## <a name="b"></a>B
 ### <a name="bar-and-column-charts"></a>条形图和柱形图
 ![柱形图](media/end-user-visual-type/pbi-nancy-viz-bar.png)
 
@@ -44,6 +46,7 @@ ms.locfileid: "91526872"
 
 条形图是查看跨不同类别的特定值的标准格式。
 
+## <a name="c"></a>C
 ### <a name="cards-single-number"></a>卡片：单个数字
 ![单个数字卡片](media/end-user-visual-type/pbi-nancy-viz-card.png)
 
@@ -67,7 +70,7 @@ ms.locfileid: "91526872"
 - 检查一个度量值是否满足另一个度量值定义的目标
 - 节省画布空间
 
-
+## <a name="d"></a>D    
 ### <a name="decomposition-tree"></a>分解树
 ![分解树](media/end-user-visual-type/power-bi-decomposition.png)
 
@@ -78,6 +81,7 @@ ms.locfileid: "91526872"
 
 圆环图类似于饼图。  它们显示部分与整体的关系。 唯一的区别是中心为空，因而有空间可用于标签或图标。
 
+## <a name="f"></a>F
 ### <a name="funnel-charts"></a>漏斗图
 ![漏斗图](media/end-user-visual-type/pbi-nancy-viz-funnel.png)
 
@@ -86,7 +90,7 @@ ms.locfileid: "91526872"
 例如，销售漏斗图可跟踪各个阶段的客户：潜在客户 > 合格的潜在客户 > 预期客户 > 已签订合同的客户 > 已成交客户。 你可以一眼看出漏斗形状传达了你跟踪的流程的健康状况。
 漏斗图的每个阶段代表总数的百分比。 因此，在大多数情况下，漏斗图的形状类似于一个漏斗 -- 第一阶段为最大值，每个后一阶段的值都小于其前一阶段的值。 梨形漏斗图也很有用 -- 它可以识别流程中的问题。 但是通常第一阶段，“进入”阶段为最大值。
 
-
+## <a name="g"></a>G
 ### <a name="gauge-charts"></a>仪表盘
 ![仪表盘](media/end-user-visual-type/gauge-m.png)
 
@@ -100,6 +104,7 @@ ms.locfileid: "91526872"
 - 显示单个指标的健康状况
 - 显示可以快速扫描和理解的信息
 
+## <a name="k"></a>K
  ### <a name="key-influencers-chart"></a>关键影响因素图表
 ![关键影响因素](media/end-user-visual-type/power-bi-influencer.png)
 
@@ -116,11 +121,13 @@ ms.locfileid: "91526872"
 - 要衡量进度（我是超前了还是落后了？）
 - 要衡量与目标的距离（我提前或落后了多少？）
 
+## <a name="l"></a>L
 ### <a name="line-charts"></a>折线图
 ![折线图](media/end-user-visual-type/pbi-nancy-viz-line.png)
 
 强调一系列值的整体形状，通常以时间的推移来显示。
 
+## <a name="m"></a>M
 ### <a name="maps-basic-maps"></a>地图：基本地图
 ![基本地图](media/end-user-visual-type/pbi-nancy-viz-map.png)
 
@@ -146,6 +153,7 @@ ArcGIS 地图和 Power BI 的结合将超越地图点表示法的地图绘制技
 
 矩阵视觉对象是一种支持渐变布局的表视觉对象类型（请参阅下面的“表”）。 通常，报表设计器在报表和仪表板中包括矩阵，以便使用户可以选择矩阵中的一个或多个元素（行、列、单元格）以在报表页上交叉突出其他视觉对象。  
 
+## <a name="p"></a>P
 ### <a name="pie-charts"></a>饼图
 ![饼图](media/end-user-visual-type/pbi-nancy-viz-pie.png)
 
@@ -154,8 +162,9 @@ ArcGIS 地图和 Power BI 的结合将超越地图点表示法的地图绘制技
 ### <a name="power-apps-visual"></a>Power Apps 视觉对象
 ![Power Apps 视觉对象](media/end-user-visual-type/power-bi-powerapps-visual.png)
 
-报表设计器可以创建一个 Power App，并将其嵌入到 Power BI 报表中。 使用者可以在 Power BI 报表中与该视觉对象进行交互。 
+报表设计器可以创建一个 Power App，并将其嵌入到 Power BI 报表中。 企业用户可以在 Power BI 报表中与该视觉对象进行交互。 
 
+## <a name="q"></a>Q
 ### <a name="qa-visual"></a>问答视觉对象
 ![问答视觉对象](media/end-user-visual-type/power-bi-q-and-a.png)
 
@@ -164,13 +173,14 @@ ArcGIS 地图和 Power BI 的结合将超越地图点表示法的地图绘制技
 
 有关详细信息，请参阅 [Power BI 中的问答视觉对象](../visuals/power-bi-visualization-types-for-reports-and-q-and-a.md)。
 
+## <a name="r"></a>R
 ### <a name="ribbon-chart"></a>带状图
 ![带状图](media/end-user-visual-type/power-bi-ribbon.png)
 
 功能区图表显示具有最高排名（最大值）的数据类别。 功能区图表能够高效地显示排名变化，并且会在每个时间段内始终将最高排名（值）显示在最顶部。
 
+## <a name="s"></a>S
 ### <a name="scatter-bubble-and-dot-plot-charts"></a>散点图、气泡图和点图
-
 
 散点图始终具有两个数值轴以显示水平轴上的一组数值数据和垂直轴上的另一组数值数据。 图表在 x 和 y 数值的交叉处显示点，将这些值单独合并到各个数据点。 根据数据，这些数据点可能均衡或不均衡地分布在水平轴上。
 
@@ -202,12 +212,18 @@ ArcGIS 地图和 Power BI 的结合将超越地图点表示法的地图绘制技
 - 按数据表中不需要的和隐藏的列进行筛选
 - 通过将切片器放置在重要的视觉对象旁边来创建更多报表
 
+
+### <a name="smart-narrative"></a>智能叙述
+![智能叙述](media/end-user-visual-type/power-bi-smart-narrative.png)
+
+智能叙述向报表添加文本，以指出趋势、关键要点，并添加解释和上下文。 文本可帮助用户了解数据，并快速识别重要发现。
+
 ### <a name="standalone-images"></a>独立图像
 ![独立图像](media/end-user-visual-type/pbi-nancy-viz-image.png)
 
 独立图像是已添加到报表或仪表板的图形。 
 
-
+## <a name="t"></a>T
 ### <a name="tables"></a>表
 ![表图](media/end-user-visual-type/table-type.png)
 
@@ -231,6 +247,7 @@ ArcGIS 地图和 Power BI 的结合将超越地图点表示法的地图绘制技
 - 要使用大小和颜色编码显示属性
 - 要发现模式、离群值、最重要因素和异常
 
+## <a name="w"></a>W
 ### <a name="waterfall-charts"></a>瀑布图
 ![瀑布图](media/end-user-visual-type/waterfall-small.png)
 
@@ -249,7 +266,7 @@ ArcGIS 地图和 Power BI 的结合将超越地图点表示法的地图绘制技
 使用 Power BI 问答键入自然语言查询时，可以在查询中指定视觉对象类型。  例如：
 
 
-“***以树状图表示的每个省/市/自治区的销售额***”
+“ ***以树状图表示的每个省/市/自治区的销售额*** ”
 
 ![问答会话](media/end-user-visual-type/qa-treemap.png)
 

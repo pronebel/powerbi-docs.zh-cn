@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 01/13/2020
+ms.date: 10/12/2020
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: a840a549e5dee79406ddfb2a07877895ce7b6c0f
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 859fb6156af38fc5333e9c94281255369d9ee413
+ms.sourcegitcommit: eab5a02520c421a57019595c03e9ecfdb41d52ad
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83335548"
+ms.lasthandoff: 10/20/2020
+ms.locfileid: "92256953"
 ---
 # <a name="work-with-report-view-in-power-bi-desktop"></a>使用 Power BI Desktop 中的报表视图
 
@@ -26,9 +26,9 @@ Power BI Desktop 提供报表视图  ，可在其中创建任何数量具有可�
 
 ## <a name="lets-take-a-look"></a>我们来看一下吧！
 
-首次在 Power BI Desktop 中加载数据时，将显示具有空白画布的报表视图。
+首次在 Power BI Desktop 中加载数据时，将显示具有空白画布的报表视图，其中包含可帮助你将数据添加到报表的链接。
 
-![Power BI Desktop](media/desktop-report-view/pbi_reportviewinpbidesigner_reportview.png)
+![Power BI Desktop](media/desktop-report-view/report-view-blank-canvas.png)
 
 通过选择左侧导航窗格中的图标，可在报表视图、数据视图和关系视图之间切换    ：
 

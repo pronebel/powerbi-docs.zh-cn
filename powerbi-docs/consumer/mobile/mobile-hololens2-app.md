@@ -1,5 +1,5 @@
 ---
-title: Power BI for HoloLens 2
+title: Power BI for HoloLens 2（预览版）
 description: 查看 Power BI for HoloLens 2 应用中的仪表板和报表。
 author: paulinbar
 ms.reviewer: ''
@@ -8,14 +8,14 @@ ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 09/22/2020
 ms.author: painbar
-ms.openlocfilehash: c7b57795d535ffbc3ad11dcebb7fa6b5d8fedadc
-ms.sourcegitcommit: ff981839e805f523748b7e71474acccf7bdcb04f
+ms.openlocfilehash: 22f70e393987552276cc19b90c8b360b1a1a1d80
+ms.sourcegitcommit: 50b21718a167c2b131313b4135c8034c6f027597
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "91019989"
+ms.lasthandoff: 10/14/2020
+ms.locfileid: "92049192"
 ---
-# <a name="power-bi-for-hololens-2"></a>Power BI for HoloLens 2
+# <a name="power-bi-for-hololens-2-preview"></a>Power BI for HoloLens 2（预览版）
 Power BI for HoloLens 2 应用将 Power BI 报表和仪表板与物理环境混合，以创建三维、沉浸式的免动手体验，你可以在该环境中移动，并在需要时随时随地获取相关数据。
 
 ![显示浮动 Power BI 报表的 HoloLens 2 中的图像。](media/mobile-hololens2-app/power-bi-hololens2-floating-reports.png)
@@ -24,7 +24,7 @@ Power BI for HoloLens 2 应用将 Power BI 报表和仪表板与物理环境混�
 
 Power BI for HoloLens 2 应用可通过 [Microsoft Store](https://go.microsoft.com/fwlink/?linkid=526478) 获得。
 
-[详细了解](https://docs.microsoft.com/hololens/holographic-store-apps)如何在 HoloLens 2 设备上安装应用。
+[详细了解](/hololens/holographic-store-apps)如何在 HoloLens 2 设备上安装应用。
 
 ## <a name="open-the-power-bi-app-on-your-hololens-2"></a>在 HoloLens 2 上打开 Power BI 应用
 
@@ -32,21 +32,21 @@ Power BI for HoloLens 2 应用可通过 [Microsoft Store](https://go.microsoft.c
 
 ## <a name="using-the-power-bi-app-for-hololens-2"></a>使用 Power BI for HoloLens 2 应用
 
-使用 HoloLens 2 手势和眼动跟踪来调整 Power BI 内容的大小、放置该内容并与之交互。 [详细了解](https://docs.microsoft.com/hololens/hololens2-basic-usage)如何与 HoloLens 2 环境中的对象进行交互。
+使用 HoloLens 2 手势和眼动跟踪来调整 Power BI 内容的大小、放置该内容并与之交互。 [详细了解](/hololens/hololens2-basic-usage)如何与 HoloLens 2 环境中的对象进行交互。
 
 ### <a name="access-reports-and-dashboards"></a>访问报表和仪表板
 
-若要访问报表或仪表板，请将其从虚拟 toolbelt 中抓取出来，并放置在所需的位置。 [详细了解](https://docs.microsoft.com/hololens/hololens2-basic-usage#moving-holograms)如何抓取和定位应用窗口。
+若要访问报表或仪表板，请将其从虚拟 toolbelt 中抓取出来，并放置在所需的位置。 [详细了解](/hololens/hololens2-basic-usage#moving-holograms)如何抓取和定位应用窗口。
 
 若要使报表或仪表板位于虚拟 toolbelt 中，必须将其标记为收藏夹。 如果 toolbelt 中没有任何报表或仪表板，或者如果要添加其他报表和仪表板，则只需在 [Power BI 服务](../end-user-favorite.md)或 [Power BI 移动应用](mobile-apps-favorites.md)中将这些项标记为收藏夹。 之后，它们将在 HoloLens 2 的 Power BI 虚拟 toolbelt 中提供。
 
 ### <a name="resize-reports-and-dashboards"></a>调整报表和仪表板的大小
 
-若要调整报表或仪表板的大小，请通过显示在应用窗口角上的大小调整图柄进行抓取，并根据需要调整大小。 [详细了解](https://docs.microsoft.com/hololens/hololens2-basic-usage#resizing-holograms)如何调整应用窗口的大小。
+若要调整报表或仪表板的大小，请通过显示在应用窗口角上的大小调整图柄进行抓取，并根据需要调整大小。 [详细了解](/hololens/hololens2-basic-usage#resizing-holograms)如何调整应用窗口的大小。
 
 ### <a name="position-reports-and-dashboards-in-space"></a>将报表和仪表板置于空间内
 
-若要将报表或仪表板置于空间中，请通过在标题栏上捏合食指和大拇指进行抓取，然后在不放手的情况下将手移动到所需的位置。 到达所需的位置时释放手指。 [详细了解](https://docs.microsoft.com/hololens/hololens2-basic-usage#moving-holograms)如何移动应用窗口。
+若要将报表或仪表板置于空间中，请通过在标题栏上捏合食指和大拇指进行抓取，然后在不放手的情况下将手移动到所需的位置。 到达所需的位置时释放手指。 [详细了解](/hololens/hololens2-basic-usage#moving-holograms)如何移动应用窗口。
 
 将报表或仪表板置于所需的位置后，HoloLens 2 设备会记住其在环境中的位置。 下次访问同一位置时，你会找到完全相同位置中放置的项。
 
@@ -60,7 +60,7 @@ Power BI for HoloLens 2 应用可通过 [Microsoft Store](https://go.microsoft.c
 
 如果已为报表创建 QR 码并将其附加到某项（如其数据包含在该报表中的一台设备），则只需查看该项的 QR 码即可打开该报表。
 
-[详细了解](https://docs.microsoft.com/power-bi/create-reports/service-create-qr-code-for-report)如何创建报表的 QR 码。
+[详细了解](../../create-reports/service-create-qr-code-for-report.md)如何创建报表的 QR 码。
 
 ### <a name="data-refresh"></a>数据刷新
 
@@ -68,4 +68,4 @@ Power BI for HoloLens 2 应用可通过 [Microsoft Store](https://go.microsoft.c
 
 ## <a name="next-steps"></a>后续步骤
 
-* [HoloLens 2 入门](https://docs.microsoft.com/hololens/hololens2-basic-usage)
+* [HoloLens 2 入门](/hololens/hololens2-basic-usage)

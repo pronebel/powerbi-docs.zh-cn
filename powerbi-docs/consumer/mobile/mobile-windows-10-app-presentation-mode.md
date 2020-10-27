@@ -8,12 +8,12 @@ ms.subservice: powerbi-mobile
 ms.topic: how-to
 ms.date: 08/12/2020
 ms.author: painbar
-ms.openlocfilehash: 2a0c326902063759d10f49f3c5d745c22f477ec2
-ms.sourcegitcommit: be424c5b9659c96fc40bfbfbf04332b739063f9c
+ms.openlocfilehash: a47af4b96e80508a6ea21de2d8d3e0b40f907d8d
+ms.sourcegitcommit: 383d87841d2509131fac7cc02c5c37c6a868144f
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "91634794"
+ms.lasthandoff: 10/14/2020
+ms.locfileid: "92025924"
 ---
 # <a name="view-reports-and-dashboards-in-presentation-mode-on-surface-hub-and-windows-10-devices"></a>在 Windows 10 Surface Hub 设备上使用演示模式查看报表和仪表板
 可以使用演示模式在 Windows 10 设备和 Surface Hub 上全屏显示报表和仪表板。 对于在会议中或在办公室内专用投影仪上显示 Power BI，甚至仅将小屏幕上的空间最大化，演示模式都很有用。
@@ -56,7 +56,7 @@ ms.locfileid: "91634794"
 
 ## <a name="slideshows"></a>幻灯片
 
-可以播放幻灯片来自动遍历演示文稿。 可以将幻灯片设置为在页面、书签或页面和书签之间循环切换。
+可以播放幻灯片来自动遍历演示文稿。 可以将幻灯片设置为在页面、书签或页面和书签之间循环切换。 在幻灯片播放过程中，具有[自动页面刷新](../../create-reports/desktop-automatic-page-refresh.md)的报表页将继续按配置自动刷新，以确保始终显示最新的数据。
 
 在操作工具栏上选择“播放”按钮时，幻灯片将开始放映。 此时将显示一个控制器，可以通过该控制器暂停幻灯片或更改正在播放的内容：页面、书签或页面和书签。
 

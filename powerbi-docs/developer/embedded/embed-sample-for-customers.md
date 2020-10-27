@@ -9,16 +9,16 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.custom: seodec18
 ms.date: 06/02/2020
-ms.openlocfilehash: 6ba5cd95f3e8b788ca7ee8939dff6616c5610573
-ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
+ms.openlocfilehash: 9af0edbe63841f6fb0e0de2e628784c89a5e44f1
+ms.sourcegitcommit: 02484b2d7a352e96213353702d60c21e8c07c6c0
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/06/2020
-ms.locfileid: "91746622"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "91983358"
 ---
 # <a name="tutorial-embed-power-bi-content-into-an-application-for-your-customers"></a>教程：为客户将 Power BI 内容嵌入应用中
 
-借助 Azure 中的 Power BI Embedded 或 Office 中嵌入的 Power BI，可以使用“应用拥有数据”将报表、仪表板或磁贴嵌入到应用程序中 。 **应用拥有数据**是指将使用 Power BI 的应用程序作为其嵌入式分析平台。 ISV 或开发者可以创建 Power BI 内容以便在完全集成并交互的应用程序中显示报表、仪表板或磁贴，用户无需 Power BI 许可证 。 本教程演示如何使用 Power BI .NET SDK 以及 Power BI JavaScript API 将报表集成到应用程序中。
+借助 Azure 中的 Power BI Embedded 或 Office 中嵌入的 Power BI，可以使用“应用拥有数据”将报表、仪表板或磁贴嵌入到应用程序中 。 **应用拥有数据** 是指将使用 Power BI 的应用程序作为其嵌入式分析平台。 ISV 或开发者可以创建 Power BI 内容以便在完全集成并交互的应用程序中显示报表、仪表板或磁贴，用户无需 Power BI 许可证 。 本教程演示如何使用 Power BI .NET SDK 以及 Power BI JavaScript API 将报表集成到应用程序中。
 
 ![Power BI 嵌入报表](media/embed-sample-for-customers/embed-sample-for-customers-035.png)
 
@@ -401,16 +401,16 @@ var token = client.GetClient().EmbedToken.GenerateToken(request);
 
 ## <a name="move-to-production"></a>移动到生产环境
 
-至此，你已完成应用程序的开发，接下来请回到工作区了解专用容量。 
+至此，你已完成应用程序的开发，接下来请回到工作区了解容量。
 
 > [!Important]
-> 移动到生产环境需要专用容量。 必须向所有工作区（包含报表或仪表板的工作区以及包含数据集的工作区）分配容量。
+> 移动到生产环境需要容量。 必须向所有工作区（包含报表或仪表板的工作区以及包含数据集的工作区）分配容量。
 
-### <a name="create-a-dedicated-capacity"></a>创建专用容量
+### <a name="create-a-capacity"></a>创建容量
 
-通过创建专用容量，可以利用好客户的专用资源。 有两种类型的容量供你选择：
+通过创建容量，可以利用好客户的资源。 有两种类型的容量供你选择：
 * **Power BI Premium** 是租户级别的 Office 356 订阅，可在两个 SKU 系列（EM 和P）中使用 。嵌入 Power BI 内容时，此解决方案称为“Power BI 嵌入”。 有关此订阅的详细信息，请参阅[什么是 Power BI Premium？](../../admin/service-premium-what-is.md)
-* **Azure Power BI Embedded**：可从 [Microsoft Azure 门户](https://portal.azure.com)购买专用容量。 此订阅使用 A SKU。 有关如何创建 Power BI Embedded 容量的详细信息，请参阅[在 Azure 门户中创建 Power BI Embedded 容量](azure-pbie-create-capacity.md)。
+* **Azure Power BI Embedded** - 可以从 [Microsoft Azure 门户](https://portal.azure.com)购买容量。 此订阅使用 A SKU。 有关如何创建 Power BI Embedded 容量的详细信息，请参阅[在 Azure 门户中创建 Power BI Embedded 容量](azure-pbie-create-capacity.md)。
 > [!NOTE]
 > 使用 A SKU 时，无法使用免费的 Power BI 许可证访问 Power BI 内容。
 
@@ -428,30 +428,30 @@ var token = client.GetClient().EmbedToken.GenerateToken(request);
 
 ### <a name="development-testing"></a>开发测试
 
-对于开发测试，你可将嵌入试用令牌用于 Pro 许可证。 若要嵌入到生产环境，请使用专用容量。
+对于开发测试，你可将嵌入试用令牌用于 Pro 许可证。 若要嵌入到生产环境，请使用容量。
 
 Power BI 服务主体或主帐户可以生成的嵌入试用令牌的数量是有限的。 使用 [Available Features](/rest/api/power-bi/availablefeatures/getavailablefeatures) API 来检查当前嵌入使用情况的百分比。 显示了每个服务主体或主帐户的使用量。
 
-如果测试时用完了嵌入令牌，则需要购买 Power BI Embedded 或高级[容量](embedded-capacity.md)。 为专用容量生成嵌入令牌时，可生成的数量不受限制。
+如果测试时用完了嵌入令牌，则需要购买 Power BI Embedded 或高级[容量](embedded-capacity.md)。 为容量生成嵌入令牌时，可生成的数量不受限制。
 
 
-### <a name="assign-a-workspace-to-a-dedicated-capacity"></a>为工作区分配专用容量
+### <a name="assign-a-workspace-to-a-capacity"></a>将工作区分配到容量
 
-创建专用容量后，可将该专用容量分配给工作区。
+创建容量后，可将工作区分配给该容量。
 
-所有包含与嵌入内容（包括数据集、报表和仪表板）相关的 Power BI 资源的工作区都必须分配给专用容量。 例如，如果嵌入的报表以及与其绑定的数据集位于不同工作区中，则必须将这两个工作区分配给专用容量。
+所有包含与嵌入内容（包括数据集、报表和仪表板）相关的 Power BI 资源的工作区都必须分配给容量。 例如，如果嵌入的报表以及与其绑定的数据集位于不同工作区中，则必须将这两个工作区分配给容量。
 
-若要使用[服务主体](embed-service-principal.md)将专用容量分配给工作区，请使用 [Power BI REST API](/rest/api/power-bi/capacities/groups_assigntocapacity)。 使用 Power BI REST API 时，请务必使用[服务主体对象 ID](embed-service-principal.md)。
+若要使用[服务主体](embed-service-principal.md)将容量分配给工作区，请使用 [Power BI REST API](/rest/api/power-bi/capacities/groups_assigntocapacity)。 使用 Power BI REST API 时，请务必使用[服务主体对象 ID](embed-service-principal.md)。
 
-请按照以下步骤，使用主帐户将专用容量分配给工作区。
+请按照以下步骤，使用主帐户将容量分配给工作区。
 
 1. 在“Power BI 服务”中，展开工作区并针对要嵌入内容的工作区选择相应省略号。 然后选择“编辑工作区”。
 
     ![编辑工作区](media/embed-sample-for-customers/embed-sample-for-customers-036.png)
 
-2. 展开“高级”，启用“专用容量”，然后选择所创建的专用容量 。 然后，选择“保存”。
+2. 展开“高级”，启用“容量”，然后选择所创建的容量 。 然后，选择“保存”。
 
-    ![分配专用容量](media/embed-sample-for-customers/embed-sample-for-customers-024.png)
+    ![分配容量](media/embed-sample-for-customers/embed-sample-for-customers-024.png)
 
 3. 选择“保存”后，应该会在工作区名称旁边看到一个钻石图形 。
 

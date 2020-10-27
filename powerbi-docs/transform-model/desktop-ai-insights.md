@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 06/10/2020
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 7439eff964340d3eba20b5d67d2aec992394505f
-ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
+ms.openlocfilehash: 48e8788ca81365e1f46dbe6d3c4804c10f3f308a
+ms.sourcegitcommit: d153cfc0ce559480c53ec48153a7e131b7a31542
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90860086"
+ms.lasthandoff: 09/29/2020
+ms.locfileid: "91525492"
 ---
 # <a name="use-ai-insights-in-power-bi-desktop"></a>在 Power BI Desktop 中使用 AI 见解
 
@@ -199,13 +199,13 @@ Power Query 和 Power Query Online 中使用的文本分析和视觉函数是相
 
 你可以从 Power Query 编辑器中直接调用已授予访问权限的任何 Azure ML 模型。 若要访问 Azure ML 模型，请选择 Power Query 编辑器的“主页”或“添加列”功能区中的“Azure 机器学习”按钮  。
 
-![Azure 机器学习](media/desktop-ai-insights/ai-insights-06.png)
+![展示 Power Query 编辑器中“Azure 机器学习”按钮的屏幕截图。](media/desktop-ai-insights/ai-insights-06.png)
 
 有权访问的所有 Azure ML 模型都在此处作为 Power Query 函数列出。 此外，会将 Azure ML 模型的输入参数自动映射为相应的 Power Query 函数的参数。
 
 若要调用 Azure ML 模型，可以从下拉列表中将任一选定的实体的列指定为输入。 此外，还可以通过将列图标切换到输入对话框左侧来指定要用作输入内容的常量值。
 
-![Azure 机器学习](media/desktop-ai-insights/ai-insights-07.png)
+![展示可以选择的 Azure 机器学习模型的屏幕截图。](media/desktop-ai-insights/ai-insights-07.png)
 
 选择“确定”以查看作为实体表中新列的 Azure ML 模型的输出预览。 还会将模型调用视作查询的一个应用步骤。
 

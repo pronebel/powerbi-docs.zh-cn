@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 06/10/2019
-ms.openlocfilehash: ea7eaf8f7fc36ee1b9dc987ee571dc29dc5b222f
-ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
+ms.openlocfilehash: 09489c3dbb33e1c5fb289cc1cc132eae0083a95f
+ms.sourcegitcommit: 02484b2d7a352e96213353702d60c21e8c07c6c0
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/06/2020
-ms.locfileid: "91748899"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "91981726"
 ---
 # <a name="row-level-security-with-power-bi-embedded"></a>Power BI Embedded 的行级安全性
 
@@ -66,7 +66,7 @@ RLS 在 Power BI Desktop 中进行编写。 当打开数据集和报表时，我
 3. 在“地区”表中，输入以下 DAX 表达式：[District Manager] = USERNAME()。
 
     ![RLS 规则的 DAX 语句](media/embedded-row-level-security/powerbi-embedded-new-role-dax.png)
-4. 为了确保这些规则能够生效，请在“建模”选项卡上选择“以角色身份查看”，再选中已创建的“经理”角色和“其他用户”。 输入 Andrew Ma**** 作为用户。
+4. 为了确保这些规则能够生效，请在“建模”选项卡上选择“以角色身份查看”，再选中已创建的“经理”角色和“其他用户”。 输入 Andrew Ma  作为用户。
 
     ![“以角色身份查看”对话框](media/embedded-row-level-security/powerbi-embedded-new-role-view.png)
 
@@ -88,7 +88,7 @@ API 接受具有相关数据集指示的标识列表。 为了让 RLS 能够正�
 
 可以通过使用 PowerBIClient.Reports 上的 GenerateTokenInGroup 创建嵌入令牌。
 
-例如，可以更改 [PowerBI-Developer-Samples](https://github.com/Microsoft/PowerBI-Developer-Samples) > .NET Framework > 为客户嵌入内容 > PowerBIEmbedded_AppOwnsData 示例**。
+例如，可以更改  。
 
 **更改之前**
 
@@ -195,7 +195,7 @@ public EffectiveIdentity(string username, IList<string> datasets, IList<string> 
 
 下面逐步介绍了如何开始为 Power BI Embedded 应用程序设置 CustomData() 功能。
 
-1. 创建 Azure Analysis Services 数据库。 然后，通过 [SQL Server Management Studio](/sql/ssms/download-sql-server-management-studio-ssms?view=sql-server-2017) 登录 Azure Analysis Services 服务器。
+1. 创建 Azure Analysis Services 数据库。 然后，通过 [SQL Server Management Studio](/sql/ssms/download-sql-server-management-studio-ssms) 登录 Azure Analysis Services 服务器。
 
     ![创建 Azure Analysis Services 数据库](media/embedded-row-level-security/azure-analysis-services-database-create.png)
 
@@ -217,7 +217,7 @@ public EffectiveIdentity(string username, IList<string> datasets, IList<string> 
 
     ![创建角色 - 设置“行筛选器”](media/embedded-row-level-security/azure-analysis-services-database-create-role-row-filters.png)
 
-6. 生成 PBI 报表，并将它发布到包含专用容量的工作区中。
+6. 生成 PBI 报表，并将它发布到包含容量的工作区中。
 
     ![PBI 报表示例](media/embedded-row-level-security/rls-sample-pbi-report.png)
 
@@ -261,7 +261,7 @@ public EffectiveIdentity(string username, IList<string> datasets, IList<string> 
 
 此类有效标识问题直接应用于 Azure SQL Server 上的 RLS 规则。 Power BI Embedded 在从 Azure SQL Server 查询数据时使用提供的访问令牌。 可通过 USER_NAME() SQL 函数访问用户的UPN（已为其提供访问令牌）。
 
-基于令牌的标识只适用于专用容量上的 DirectQuery 模型 - 连接到 Azure SQL 数据库，该数据库被配置为允许进行 AAD 身份验证（[详细了解 Azure SQL 数据库的 AAD 身份验证](/azure/sql-database/sql-database-manage-logins)）。 数据集的数据源必须配置为使用最终用户的 OAuth2 凭据，以使用基于令牌的标识。
+基于令牌的标识只适用于容量上的 DirectQuery 模型 - 连接到 Azure SQL 数据库，该数据库被配置为允许进行 AAD 身份验证（[详细了解 Azure SQL 数据库的 AAD 身份验证](/azure/sql-database/sql-database-manage-logins)）。 数据集的数据源必须配置为使用最终用户的 OAuth2 凭据，以使用基于令牌的标识。
 
    ![配置 Azure SQL 服务器](media/embedded-row-level-security/token-based-configure-azure-sql-db.png)
 
@@ -342,7 +342,7 @@ public IdentityBlob(string value);
 
 ### <a name="token-based-identity-limitations"></a>基于令牌的标识限制
 
-* 只有拥有专用容量，才能使用 RLS。
+* 只有拥有容量，才能使用 RLS。
 * RLS 不适用于本地 SQL Server。
 
 更多问题？ [尝试咨询 Power BI 社区](https://community.powerbi.com/)

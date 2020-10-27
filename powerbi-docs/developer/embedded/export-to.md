@@ -6,13 +6,13 @@ ms.author: kesharab
 ms.topic: how-to
 ms.service: powerbi
 ms.subservice: powerbi-developer
-ms.date: 07/13/2020
-ms.openlocfilehash: f024959c0d7e8bd0b51893a277161c67b5f4dfc6
-ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
+ms.date: 10/01/2020
+ms.openlocfilehash: f997547bb61bf203f7806dbe68d45beb29c6538b
+ms.sourcegitcommit: 59d07be9c3e4a2067f6d42c3002a194371bc4341
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/06/2020
-ms.locfileid: "91746116"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "92116445"
 ---
 # <a name="export-power-bi-report-to-file-preview"></a>将 Power BI 报表导出到文件（预览）
 
@@ -52,11 +52,18 @@ ms.locfileid: "91746116"
 
 ### <a name="bookmarks"></a>书签
 
- 使用 `exportToFile` API，可以编程方式导出在应用筛选器后处于特定状态的报表。 这是通过使用[书签](../../consumer/end-user-bookmarks.md)功能完成的。 要使用书签导出报表，请使用[书签 JavaScript API](https://github.com/Microsoft/PowerBI-JavaScript/wiki/Bookmarks)。
+[书签](../../consumer/end-user-bookmarks.md)可用于在特定的配置中保存报表，包括已应用的筛选器和报表视觉对象的状态。 可以通过两种方式使用 [exportToFile](https://docs.microsoft.com/rest/api/power-bi/reports/exporttofile) API 以编程方式导出报表的书签：
 
- 例如，可以使用书签的 `capturedBookmark.state` 方法来捕获特定用户对报表所做的更改，然后导出当前状态下的报表。
+* 导出现有书签
 
-不支持导出使用[个人书签](../../consumer/end-user-bookmarks.md#personal-bookmarks)和[永久性筛选器](https://powerbi.microsoft.com/blog/announcing-persistent-filters-in-the-service/)的报表。
+    若要导出现有[报表书签](../../consumer/end-user-bookmarks.md#report-bookmarks)，请使用 `name` 属性，它是一个唯一（区分大小写）标识符，你可以使用[书签 JavaScript API](https://github.com/Microsoft/PowerBI-JavaScript/wiki/Bookmarks) 获取该标识符。
+
+* 导出报表的状态
+
+    若要导出报表的当前状态，请使用 `state` 属性。 例如，可以使用书签的 `bookmarksManager.capture` 方法来捕获特定用户对报表所做的更改，然后使用 `capturedBookmark.state` 导出当前状态下的报表。
+
+>[!NOTE]
+>不支持导出使用[个人书签](../../consumer/end-user-bookmarks.md#personal-bookmarks)和[永久性筛选器](https://powerbi.microsoft.com/blog/announcing-persistent-filters-in-the-service/)的报表。
 
 ### <a name="authentication"></a>身份验证
 

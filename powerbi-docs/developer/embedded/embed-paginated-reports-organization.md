@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: tutorial
 ms.date: 06/25/2020
-ms.openlocfilehash: 0d52dd7df774dd834d0356e6de57b9c80beab801
-ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
+ms.openlocfilehash: 41c7ba43d16b6d77ecf6324d3cd175dbbabc51a1
+ms.sourcegitcommit: 02484b2d7a352e96213353702d60c21e8c07c6c0
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/06/2020
-ms.locfileid: "91747611"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "91983382"
 ---
 # <a name="tutorial-embed-power-bi-paginated-reports-into-an-application-for-your-organization"></a>教程：在应用程序中为组织嵌入 Power BI 分页报表
 
@@ -58,11 +58,11 @@ ms.locfileid: "91747611"
 >* 获取应用程序密码
 >* 将 Report.ReadAll 权限（范围）应用到应用。
 
-### <a name="create-a-dedicated-capacity"></a>创建专用容量
+### <a name="create-a-capacity"></a>创建容量
 
-通过创建专用容量，则可获得在应用工作区中拥有内容专用资源这一优势。 对于分页报表，必须为应用工作区准备至少 P1 容量。 你可使用 [Power BI Premium](../../admin/service-premium-what-is.md) 创建专用容量。
+通过创建容量，可以获得在应用工作区中拥有内容资源这一优势。 对于分页报表，必须为应用工作区准备至少 P1 容量。 可以使用 [Power BI Premium](../../admin/service-premium-what-is.md) 创建容量。
 
-下表列出了可用于为 [Microsoft Office 365](../../admin/service-admin-premium-purchase.md) 中的分页报表创建专用容量的 Power BI Premium SKU：
+下表列出了可用于为 [Microsoft Office 365](../../admin/service-admin-premium-purchase.md) 中的分页报表创建容量的 Power BI Premium SKU：
 
 | 容量节点 | vCore 总数<br/>（后端 + 前端） | 后端 vCore | 前端 vCore | DirectQuery/实时连接限制 |
 | --- | --- | --- | --- | --- | --- |
@@ -75,7 +75,7 @@ ms.locfileid: "91747611"
 
 ### <a name="enable-paginated-reports-workload"></a>启用分页报表工作负荷
 
-需要在专用容量上启用分页报表工作负荷。
+需要在容量上启用分页报表工作负载。
 
 1. 登录到[“Power BI”>“管理门户”>“容量设置”](https://app.powerbi.com/admin-portal/capacities)。
 
@@ -91,17 +91,17 @@ ms.locfileid: "91747611"
 
     ![分页报表工作负荷](media/embed-paginated-reports-organization/paginated-reports-workload.png)
 
-### <a name="assign-an-app-workspace-to-a-dedicated-capacity"></a>为应用工作区分配专用容量
+### <a name="assign-an-app-workspace-to-a-capacity"></a>将应用工作区分配到容量
 
-创建专用容量后，可将该专用容量分配给应用工作区。 若要完成此过程，请按照下列步骤执行：
+创建容量后，可将应用工作区分配给该容量。 若要完成此过程，请按照下列步骤执行：
 
 1. 在“Power BI 服务”中，展开工作区并选择用于嵌入内容的工作区的“更多”。 然后选择“工作区设置”。
 
     ![编辑工作区](media/embed-paginated-reports-organization/workspace-settings.png)
 
-2. 选择“高级”，并启用“专用容量”。 选择你创建的专用容量。 然后，选择“保存”。
+2. 选择“高级”，并启用“容量”。 选择你创建的容量。 然后，选择“保存”。
 
-    ![分配专用容量](media/embed-paginated-reports-organization/dedicated-capacity.png)
+    ![分配容量](media/embed-paginated-reports-organization/capacity.png)
 
 3. 选择“保存”后，应用工作区名称旁边应显示一个钻石形状。
 

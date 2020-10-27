@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: how-to
 ms.date: 03/27/2020
-ms.openlocfilehash: 3f3574545d82ac11c762b7011afdc49cbe855224
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: 3a68f3dedbef9e97b6c29d3a0923d43872a5f01a
+ms.sourcegitcommit: 50b21718a167c2b131313b4135c8034c6f027597
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83141148"
+ms.lasthandoff: 10/14/2020
+ms.locfileid: "92048800"
 ---
 # <a name="add-colors-to-your-power-bi-visuals"></a>为 Power BI 视觉对象添加颜色
 
@@ -23,7 +23,7 @@ ms.locfileid: "83141148"
 本文中的示例代码修改了 [SampleBarChart 视觉对象](https://github.com/microsoft/PowerBI-visuals-sampleBarChart)。
 有关源代码，请参阅 [barChart.ts](https://github.com/microsoft/PowerBI-visuals-sampleBarChart/blob/master/src/barChart.ts)。
 
-要开始创建视觉对象，请参阅[开发 Power BI 视觉对象](custom-visual-develop-tutorial.md)。
+若要开始创建视觉对象，请参阅[开发 Power BI 圆形卡片视觉对象](develop-circle-card.md)。
 
 ## <a name="add-color-to-data-points"></a>为数据点添加颜色
 
