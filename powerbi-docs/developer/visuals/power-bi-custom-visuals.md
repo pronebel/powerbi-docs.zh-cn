@@ -10,12 +10,12 @@ ms.subservice: powerbi-desktop
 ms.topic: overview
 ms.date: 07/14/2020
 LocalizationGroup: Visualizations
-ms.openlocfilehash: e56b03eeccc3140709fb458d4e42a9065a4da5d4
-ms.sourcegitcommit: 2131f7b075390c12659c76df94a8108226db084c
+ms.openlocfilehash: 62a88a8267ae38b1dbfc0bbb0ee1d9020e7f9408
+ms.sourcegitcommit: 50b21718a167c2b131313b4135c8034c6f027597
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/03/2020
-ms.locfileid: "87538001"
+ms.lasthandoff: 10/14/2020
+ms.locfileid: "92049237"
 ---
 # <a name="visuals-in-power-bi"></a>Power BI 中的视觉对象
 
@@ -72,7 +72,7 @@ Power BI 视觉对象是包含代码的包，这些代码用于呈现提供给�
 
 若要导入 Power BI 视觉对象，请在“可视化效果”窗格中单击“导入自定义视觉对象”，然后选择“从文件导入” 。
 
-如果你是 web 开发人员，并有兴趣创建自己的视觉对象，然后将其添加到 AppSource，可以了解如何[开发 Power BI 视觉对象](custom-visual-develop-tutorial.md)以及[将 Power BI 视觉对象发布到 AppSource](office-store.md)。
+如果你是 Web 开发人员，并有兴趣创建自己的视觉对象，然后将其添加到 AppSource，可以了解如何[开发 Power BI 圆形卡片视觉对象](develop-circle-card.md)以及[将 Power BI 视觉对象发布到 AppSource](office-store.md)。
 
 > [!WARNING]
 > Power BI 视觉对象可能包含存在安全或隐私风险的代码。 请确保创建者和 Power BI 视觉对象源可信，然后将其导入报表。
@@ -80,7 +80,7 @@ Power BI 视觉对象是包含代码的包，这些代码用于呈现提供给�
 ## <a name="next-steps"></a>后续步骤
 
 >[!div class="nextstepaction"]
->[开发 Power BI 视觉对象](custom-visual-develop-tutorial.md)
+>[开发 Power BI 圆形卡片视觉对象](develop-circle-card.md)
 
 >[!div class="nextstepaction"]
 >[Power BI 视觉对象项目结构](visual-project-structure.md)

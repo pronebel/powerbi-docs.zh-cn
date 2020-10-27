@@ -6,27 +6,27 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: how-to
-ms.date: 08/12/2020
+ms.date: 09/25/2020
 ms.author: maggies
 LocalizationGroup: Reports
-ms.openlocfilehash: 8dd6e64943ea05f2219efa471cd3fcfa4152650b
-ms.sourcegitcommit: b60063c49ac39f8b28c448908ecbb44b54326335
+ms.openlocfilehash: 4eae96dbdddae82a7f74f27c835874a19b04a69f
+ms.sourcegitcommit: eab5a02520c421a57019595c03e9ecfdb41d52ad
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/12/2020
-ms.locfileid: "88160441"
+ms.lasthandoff: 10/20/2020
+ms.locfileid: "92256783"
 ---
 # <a name="let-users-personalize-visuals-in-a-report"></a>允许用户在报表中个性化设置视觉对象
 
 [!INCLUDE [applies-to](../includes/applies-to.md)] [!INCLUDE [yes-desktop](../includes/yes-desktop.md)] [!INCLUDE [yes-service](../includes/yes-service.md)]
 
-当你与广泛用户共享报表时，某些用户可能想要查看特定视觉对象的略有不同的视图。 他们可能想要交换轴上的内容，更改视觉对象类型，或在工具提示中添加一些内容。 很难让一个视觉对象满足每个人的要求。 利用这项新功能，你可以让使用者浏览和个性化设置视觉对象，所有这一切都可在报表阅读视图中实现。 他们可以按所需方式调整视觉对象，并将其另存为书签以供稍后访问。 他们无需具有报表的编辑权限，也无需返回到报表作者进行更改。
+当你与广泛用户共享报表时，某些用户可能想要查看特定视觉对象的略有不同的视图。 他们可能想要交换轴上的内容，更改视觉对象类型，或在工具提示中添加一些内容。 很难让一个视觉对象满足每个人的要求。 利用这项新功能，你可以让业务用户浏览和个性化设置视觉对象，所有这一切都可在报表阅读视图中实现。 他们可以按所需方式调整视觉对象，并将其另存为书签以供稍后访问。 他们无需具有报表的编辑权限，也无需返回到报表作者进行更改。
 
 :::image type="content" source="media/power-bi-personalize-visuals/power-bi-personalize-visual.png" alt-text="个性化设置视觉对象":::
  
-## <a name="what-report-consumers-can-change"></a>报表使用者可以更改的内容
+## <a name="what-report-users-can-change"></a>报表用户可以更改的内容
 
-利用此功能，使用者可以通过临时浏览 Power BI 报表上的视觉对象进行深入了解。 若要了解使用者如何使用此功能，请参阅[个性化报表中的视觉对象](../consumer/end-user-personalize-visuals.md)。 此功能非常适合希望为其报表读者启用基本浏览方案的报表创建者。 下面是报表读者可以进行的修改：
+利用此功能，业务用户可以通过临时浏览 Power BI 报表上的视觉对象进行深入了解。 若要了解用户如何使用此功能，请参阅[个性化报表中的视觉对象](../consumer/end-user-personalize-visuals.md)。 此功能非常适合希望为其报表读者启用基本浏览方案的报表创建者。 下面是报表读者可以进行的修改：
 
 - 更改可视化效果类型
 - 交换度量值或维度
@@ -34,7 +34,7 @@ ms.locfileid: "88160441"
 - 比较两个或多个度量值
 - 更改聚合等
 
-此功能不仅允许新的探索功能。 它还包括使用者捕获和共享其更改的方式：
+此功能不仅允许新的探索功能。 它还包括用户捕获和共享其更改的方式：
 
 - 捕获他们的更改
 - 共享他们的更改
@@ -94,63 +94,56 @@ ms.locfileid: "88160441"
 
 ![选择“应用于所有页面”将透视应用于整个报表](media/power-bi-personalize-visuals/power-bi-personalize-perspective-09.png)
 
-
-## <a name="turn-on-the-preview-feature"></a>启用预览功能
-
-由于此功能处于预览阶段，因此需要首先打开此功能开关。 转到“文件” > “选项和设置” > 选项”  。 在“全局设置”>“预览功能”中，确保选中“个性化设置视觉对象”  。
-
-:::image type="content" source="media/power-bi-personalize-visuals/power-bi-preview-personalize-visual.png" alt-text="启用“个性化设置视觉对象”":::
-
-可能需要重启 Power BI Desktop 才能在当前文件的“设置”中看到该选项。
-
 ## <a name="enable-personalization-in-a-report"></a>启用“在报表中进行个性化设置”
-
-打开预览开关后，需要为希望使用者能够为其个性化设置视觉对象的报表专门启用此开关。
 
 可以在 Power BI Desktop 或 Power BI 服务中启用此功能。
 
 ### <a name="in-power-bi-desktop"></a>在 Power BI Desktop 中
 
-若要在 Power BI Desktop 中启用此功能，请转到“文件” > “选项和设置” > “选项” > “当前文件” > “报表设置”    。 确保已启用“个性化设置视觉对象(预览)”。
+若要在 Power BI Desktop 中启用此功能，请转到“文件” > “选项和设置” > “选项” > “当前文件” > “报表设置”    。 确保已启用“个性化设置视觉对象”。
 
-:::image type="content" source="media/power-bi-personalize-visuals/power-bi-report-settings-personalize-visual.png" alt-text="启用“在报表中进行个性化设置”":::
+:::image type="content" source="media/power-bi-personalize-visuals/personalize-report-setting-desktop.png" alt-text="个性化设置视觉对象":::
 
 ### <a name="in-the-power-bi-service"></a>在 Power BI 服务中
 
 要在 Power BI 服务中启用该功能，请转到报表“设置”。
 
-:::image type="content" source="media/power-bi-personalize-visuals/power-bi-report-service-settings-personalize-visual.png" alt-text="Power BI 服务中的报表设置":::
+:::image type="content" source="media/power-bi-personalize-visuals/power-bi-report-service-settings-personalize-visual.png" alt-text="个性化设置视觉对象":::
 
-启用“个性化设置视觉对象(预览)” > 选择“保存” 。
+启用“个性化设置视觉对象” > “保存” 。
 
-:::image type="content" source="media/power-bi-personalize-visuals/power-bi-report-service-personalize-visual.png" alt-text="在服务中启用“个性化设置视觉对象”":::
+:::image type="content" source="media/power-bi-personalize-visuals/personalize-report-setting-service.png" alt-text="个性化设置视觉对象":::
 
-## <a name="select-visuals-that-can-be-personalized"></a>选择可以进行个性化设置的视觉对象
+## <a name="turn-the-feature-on-or-off-at-a-page-or-visual-level"></a>在页面或视觉对象级别启用或禁用此功能
 
-为给定的报表启用此设置时，默认情况下，该报表中的所有视觉对象都可以进行个性化设置。 如果你不希望个性化设置所有视觉对象，可以按视觉对象启用或禁用此设置。
+为给定的报表启用个性化设置视觉对象时，默认情况下，该报表中的所有视觉对象都可以进行个性化设置。 如果你不希望个性化设置所有视觉对象，可以按页面或视觉对象启用或禁用此设置。
 
-选择视觉对象 > 在“可视化效果”窗格中选择“格式”> 展开“视觉对象标头”  。
+### <a name="per-page"></a>按页面
 
-:::image type="content" source="media/power-bi-personalize-visuals/power-bi-format-visual-header-personalize.png" alt-text="选择视觉对象标头":::
+选择“页面”选项卡 > 在“可视化效果”窗格中，选择“格式”。
+
+:::image type="content" source="media/power-bi-personalize-visuals/personalize-page-level-setting.png" alt-text="个性化设置视觉对象":::
  
 滑动“个性化设置视觉对象” >  “开启”或“关闭”  。
 
-:::image type="content" source="media/power-bi-personalize-visuals/power-bi-format-visual-personalize-on-off.png" alt-text="开启或关闭“个性化设置视觉对象”":::
+### <a name="per-visual"></a>按视觉对象
+
+选择视觉对象 > 在“可视化效果”窗格中选择“格式”> 展开“视觉对象标头”  。
+
+:::image type="content" source="media/power-bi-personalize-visuals/power-bi-format-visual-header-personalize.png" alt-text="个性化设置视觉对象":::
+ 
+滑动“个性化设置视觉对象” >  “开启”或“关闭”  。
+
+:::image type="content" source="media/power-bi-personalize-visuals/power-bi-format-visual-personalize-on-off.png" alt-text="个性化设置视觉对象":::
 
 
-## <a name="limitations-and-known-issues"></a>限制和已知问题
+## <a name="limitations"></a>限制
 
 目前，该功能有几个需要注意的限制。
 
-- 此功能不支持嵌入方案，包括发布到 Web。
+- 不支持将此功能发布到 Web。
 - 用户浏览不会自动保留。 需要将视图另存为个人书签，以便捕获所做的更改。
 - 适用于 iOS 和 Android 平板电脑的 Power BI 移动应用和 Power BI Windows 应用均支持此功能；适用于手机的 Power BI 移动应用则不支持。 但所有 Power BI 移动应用都将接受在 Power BI 服务的个人书签中保存的任何视觉对象更改。
-
-还存在一些待解决的已知问题：
-
-- 不支持添加层次结构；需要添加单个子项。
-- 不能将日期层次结构更改为日期，反之亦然。 
-- 对于个人书签，你可能会收到根据你选择的序列略有不同的结果。 由于我们不会捕获报表的完整状态，而只捕获所做的修改，因此可能存在差异。 解决方法是选择“重置为默认值”，然后选择要查看的书签。 
 
 ## <a name="next-steps"></a>后续步骤
 

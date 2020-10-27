@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: overview
 ms.date: 03/25/2019
-ms.openlocfilehash: 43480006b775aa7b8444f099b783f0d7f45a98c8
-ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
+ms.openlocfilehash: fd9d9991b55ec6611504c96a30cb6383b8ac1296
+ms.sourcegitcommit: 50b21718a167c2b131313b4135c8034c6f027597
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/06/2020
-ms.locfileid: "91748968"
+ms.lasthandoff: 10/14/2020
+ms.locfileid: "92049260"
 ---
 # <a name="what-can-developers-do-with-the-power-bi-api"></a>开发人员可以使用 Power BI API 做什么？
 
@@ -56,7 +56,7 @@ ms.locfileid: "91748968"
 ## <a name="next-steps"></a>后续步骤
 
 * [将数据推送到数据集](walkthrough-push-data.md)
-* [开发 Power BI 视觉对象](../visuals/custom-visual-develop-tutorial.md)
+* [开发 Power BI 圆形卡片视觉对象](../visuals/develop-circle-card.md)
 * [Power BI REST API 引用](rest-api-reference.md)
 * [Power BI REST API](/rest/api/power-bi/)
 

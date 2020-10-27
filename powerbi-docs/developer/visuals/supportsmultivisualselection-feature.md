@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: conceptual
 ms.date: 04/30/2020
-ms.openlocfilehash: 6ad986308fb82f8191829d29654bb96b55d0fbd0
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 091bdeb4eeb4c979ccf0e79476eb081895fae2e1
+ms.sourcegitcommit: 50b21718a167c2b131313b4135c8034c6f027597
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83272686"
+ms.lasthandoff: 10/14/2020
+ms.locfileid: "92049398"
 ---
 # <a name="use-the-supportsmultivisualselection-feature"></a>使用 supportsMultiVisualSelection 功能
 
@@ -45,4 +45,4 @@ ms.locfileid: "83272686"
 
 若要了解 Power BI 概念，请参阅 [Power BI 中的视觉对象](power-bi-visuals-concept.md)。
 
-若要试用 Power BI 开发，请参阅[开发 Power BI 视觉对象](custom-visual-develop-tutorial.md)。
+若要试用 Power BI 开发，请参阅[开发 Power BI 圆形卡片](develop-circle-card.md)。

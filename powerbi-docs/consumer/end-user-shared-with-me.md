@@ -6,15 +6,15 @@ ms.reviewer: mihart
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: how-to
-ms.date: 10/5/2020
+ms.date: 10/09/2020
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 0b6ccdf2e5caad141ef0c33ae70b9c2f2b604462
-ms.sourcegitcommit: 6ba33e5a500928163e02e007f5ccd52dd2227610
+ms.openlocfilehash: 0e13a7bd273121429cd186c99ef8110b38e839fb
+ms.sourcegitcommit: 02484b2d7a352e96213353702d60c21e8c07c6c0
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/07/2020
-ms.locfileid: "91780165"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "91983335"
 ---
 # <a name="display-the-dashboards-and-reports-that-have-been-shared-with-me"></a>显示已与我共享的仪表板和报表
 
@@ -22,7 +22,7 @@ ms.locfileid: "91780165"
 
 [!INCLUDE [power-bi-service-new-look-include](../includes/power-bi-service-new-look-include.md)]
 
-同事与你共享的仪表板或报表出现在“与我共享的内容”容器中。 同事与你共享的应用出现在“应用”容器中。   
+同事与你共享的仪表板或报表出现在“与我共享的内容”容器中。 当同事与你共享应用时，该应用将显示在“应用”容器中，该应用的报表和仪表板将显示在你的“与我共享”容器中。   
 
 ![“共享”图标](./media/end-user-shared-with-me/power-bi-shared-with-me.png)
 
@@ -41,6 +41,6 @@ ms.locfileid: "91780165"
 
 
 ## <a name="search-and-sort-shared-dashboards-and-reports"></a>搜索和排序共享的仪表板和报表
-如果“与我共享的内容”内容列表很长，你可以通过多个选项来查找所需的内容。 可以使用搜索字段 (1)，可以按其中一列进行排序 (2)，也可以使用“筛选器”窗格。 若要打开“筛选器”窗格，请选择右上角的“筛选器”。    
+如果“与我共享的内容”内容列表很长，你可以通过多个选项来查找所需的内容。 使用搜索字段 (1)，可以按其中一列进行排序 (2)，或使用“筛选器”窗格。 若要打开“筛选器”窗格，请选择右上角的“筛选器”。    
 
 ![仪表板所有者和搜索](./media/end-user-shared-with-me/power-bi-filter.png)

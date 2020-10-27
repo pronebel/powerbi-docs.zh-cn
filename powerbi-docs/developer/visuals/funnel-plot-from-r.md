@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: tutorial
 ms.date: 04/02/2020
-ms.openlocfilehash: e0bdb5174c1392e1a2f81a101a62798f82e2b191
-ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
+ms.openlocfilehash: 5df13baf295745f86c89ce75d2890ca2c13894ee
+ms.sourcegitcommit: 50b21718a167c2b131313b4135c8034c6f027597
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/06/2020
-ms.locfileid: "91747703"
+ms.lasthandoff: 10/14/2020
+ms.locfileid: "92049329"
 ---
 # <a name="tutorial-build-a-funnel-plot-from-r-script-to-r-visual"></a>教程：根据 R 脚本对 R 视觉对象创建漏斗图
 本文介绍如何使用 R 脚本对 R 视觉对象逐步创建漏斗图。
@@ -49,7 +49,7 @@ ms.locfileid: "91747703"
 
 ## <a name="create-an-r-powered-visual-and-package-in-r-code"></a>在 R 代码中创建 R 驱动的视觉对象和包
 
-1. 开始之前，请务必[安装 PBIVIZ 工具](./custom-visual-develop-tutorial.md#installing-packages)。
+1. 开始之前，请务必[安装 PBIVIZ 工具](./environment-setup.md#install-pbiviz)。
 
 1. 运行以下命令来创建新的 R 驱动视觉对象：
 
@@ -274,7 +274,7 @@ ms.locfileid: "91747703"
 
 * 每个 R 视觉对象都会将 `unique` 运算符应用到其输入表。 要避免删除相同的行，请考虑添加具有唯一 ID 的额外输入字段，并在 R 代码中将其忽略。   
 
-* 如果已有 Power BI 帐户，请使用 Power BI 服务[即时](./custom-visual-develop-tutorial.md)开发视觉对象，而不是使用 `pbiviz package` 命令重新打包它们。
+* 如果已有 Power BI 帐户，请使用 Power BI 服务[即时](./develop-circle-card.md)开发视觉对象，而不是使用 `pbiviz package` 命令重新打包它们。
 
 ### <a name="html-widgets-gallery"></a>HTML 小组件库
 浏览 [HTML 小组件库](http://gallery.htmlwidgets.org/)中的视觉对象，以便在下一个视觉对象中使用。 为方便起见，我们创建了一个[视觉对象项目存储库](https://github.com/Microsoft/PowerBI-visuals/tree/master/RVisualTutorial/TutorialFunnelPlot/chapter4_RHTMLCustomVisual/multipleRHTML)，其中有 20 多个交互式 HTML 视觉对象可供选择！
@@ -300,6 +300,6 @@ ms.locfileid: "91747703"
 
 ## <a name="next-steps"></a>后续步骤
 
-要了解详细信息，请参阅有关 [Power BI 视觉对象](./custom-visual-develop-tutorial.md)和 [R 视觉对象](../../visuals/service-r-visuals.md)的其他教程。
+要了解详细信息，请参阅其他 Power BI 教程，[开发 Power BI 圆形卡片视觉对象](./develop-circle-card.md)和 [R 视觉对象](../../visuals/service-r-visuals.md)。
 
 了解如何[开发视觉对象并将其提交](https://powerbi.microsoft.com/documentation/powerbi-developer-office-store/)到 [Office 应用商店（库）](https://store.office.com/appshome.aspx?ui=en-US&rs=en-US&ad=US&clickedfilter=OfficeProductFilter%3aPowerBI&productgroup=PowerBI)；有关进一步示例，请参阅 [R 脚本展示](https://community.powerbi.com/t5/R-Script-Showcase/bd-p/RVisuals)

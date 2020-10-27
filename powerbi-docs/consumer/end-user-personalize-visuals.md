@@ -1,20 +1,20 @@
 ---
-title: 在报表中个性化设置视觉对象（预览）
+title: 在报表中个性化设置视觉对象
 description: 创建自己的报表视图，而无需对其进行编辑。
 author: mihart
 ms.reviewer: mihart
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: how-to
-ms.date: 09/17/2020
+ms.date: 10/13/2020
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: dfc682e867b65ba9da2b2eee87f52d7fd5d0961c
-ms.sourcegitcommit: d153cfc0ce559480c53ec48153a7e131b7a31542
+ms.openlocfilehash: 718363da3bd1f66de199db8d854d8d23d6de3eb5
+ms.sourcegitcommit: eab5a02520c421a57019595c03e9ecfdb41d52ad
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/29/2020
-ms.locfileid: "91528107"
+ms.lasthandoff: 10/20/2020
+ms.locfileid: "92256724"
 ---
 # <a name="personalize-visuals-in-a-report"></a>在报表中个性化设置视觉对象
 
@@ -45,7 +45,7 @@ ms.locfileid: "91528107"
 - 清除最近的更改
 
 > [!IMPORTANT]
-> 个性化设置视觉对象的功能是预览功能，该功能必须由报表设计者启用。 如果看不到“个性化设置此视觉对象”![个性化设置此视觉对象图标](media/end-user-personalize-visuals/power-bi-personalize-visual-icon.png)图标，则报表设计者不会为当前报表启用此功能。 
+> 个性化设置视觉对象的功能必须由报表设计者启用。 如果看不到“个性化设置此视觉对象”![个性化设置此视觉对象图标](media/end-user-personalize-visuals/power-bi-personalize-visual-icon.png)图标，则报表设计者不会为当前报表启用此功能。 请与报表所有者或 Power BI 管理员联系以启用该功能。 若要显示报表所有者的联系人信息，请从 Power BI 菜单栏中选择报表的名称。
 
 ## <a name="personalize-visuals-in-the-power-bi-service"></a>在 Power BI 服务中个性化设置视觉对象
 
@@ -54,8 +54,6 @@ ms.locfileid: "91528107"
 1. 在 Power BI 服务中，以“阅读视图”打开报表。
 
 2. 在视觉对象的菜单栏中，选择“个性化设置此视觉对象”![个性化设置此视觉对象图标](media/end-user-personalize-visuals/power-bi-personalize-visual-icon.png)图标。 
-
-3. 若要清除任何“个性化设置”字段，请选择“更多选项(...)”，然后选择“删除字段”  。
 
 ### <a name="change-the-visualization-type"></a>更改可视化效果类型
 
@@ -72,6 +70,16 @@ ms.locfileid: "91528107"
 通过添加图例，可以根据类别对视觉对象进行颜色编码。 在此示例中，我们将基于公司名称进行颜色编码。 
 
 :::image type="content" source="media/end-user-personalize-visuals/power-bi-personalize-change-legend.png" alt-text="个性化设置视觉对象":::
+
+### <a name="change-the-placement-of-fields"></a>更改字段的位置
+
+使用拖放，可以更改字段在同一视觉对象属性中的位置，甚至可以更改在不同的视觉对象属性中的位置。 例如，可以将图例中的字段快速移动到视觉对象的轴上。
+
+:::image type="content" source="media/end-user-personalize-visuals/personalize-drag-and-drop.png" alt-text="个性化设置视觉对象":::
+
+还可以快速对表或矩阵的列重新排序。
+
+:::image type="content" source="media/end-user-personalize-visuals/personalize-reorder-columns.png" alt-text="个性化设置视觉对象":::
 
 ### <a name="compare-two-or-more-different-measures"></a>比较两个或多个不同的度量值
 使用“+”图标为视觉对象添加多个度量值，以此比较不同度量值的值。 若要删除某个度量值，请选择“更多选项(...)”并选择“删除字段” 。
@@ -113,7 +121,7 @@ ms.locfileid: "91528107"
 
 :::image type="content" source="media/end-user-personalize-visuals/power-bi-personalize-revert-changes.png" alt-text="个性化设置视觉对象":::
 
-## <a name="limitations-and-known-issues"></a>限制和已知问题
+## <a name="limitations"></a>限制
 
 目前，该功能有几个需要注意的限制。
 
@@ -121,12 +129,6 @@ ms.locfileid: "91528107"
 - 用户浏览不会自动保留。 需要将视图另存为个人书签，以便捕获所做的更改。
 - 适用于 iOS 和 Android 平板电脑的 Power BI 移动应用和 Power BI Windows 应用均支持此功能；适用于手机的 Power BI 移动应用则不支持。 但所有 Power BI 移动应用都将接受在 Power BI 服务的个人书签中保存的任何视觉对象更改。
 
-还存在一些待解决的已知问题：
-
-- 不支持添加层次结构；需要添加每个子项。
-- 对于个人书签，你可能会收到根据你选择的序列略有不同的结果。 由于我们不会捕获报表的完整状态，而只捕获所做的修改，因此可能存在差异。 解决方法是选择“重置为默认值”，然后选择要查看的书签。 
-
 ## <a name="next-steps"></a>后续步骤
 [将报表视觉对象复制为静态图像](../visuals/power-bi-visualization-copy-paste.md)    
 更多问题？ [尝试参与 Power BI 社区](https://community.powerbi.com/)
-
