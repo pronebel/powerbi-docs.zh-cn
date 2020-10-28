@@ -99,8 +99,6 @@
           items:
             - name: 创建和使用数据流
               href: service-dataflows-create-use.md
-            - name: 提升或认证数据流
-              href: service-dataflows-promote-certify.md
             - name: 在 Power BI（预览版）中将 DirectQuery 用于数据流
               href: service-dataflows-directquery.md
             - name: 将增强的计算引擎用于数据流

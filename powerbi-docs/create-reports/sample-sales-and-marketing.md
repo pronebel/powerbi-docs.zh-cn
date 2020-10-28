@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 07/19/2019
 ms.author: maggies
 LocalizationGroup: Samples
-ms.openlocfilehash: 6bd70657cecd12ebab7ac54f125e4c358b2cc4aa
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: 95f9ebd689f06fcacde9819789e1240f2dd6c3d3
+ms.sourcegitcommit: 383d87841d2509131fac7cc02c5c37c6a868144f
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83349048"
+ms.lasthandoff: 10/14/2020
+ms.locfileid: "92025970"
 ---
 # <a name="sales-and-marketing-sample-for-power-bi-take-a-tour"></a>Power BI 销售与市场营销示例：参观
 
@@ -24,17 +24,17 @@ VanArsdel 有许多竞争对手，但仍是业内的市场领导者。 CMO 想�
 
 ![销售和市场营销仪表板示例](media/sample-sales-and-marketing/sales1.png)
 
-此示例是一系列示例的一部分，展示了如何将 Power BI 与面向业务的数据、报表和仪表板结合使用。 它是使用 [obviEnce](http://www.obvience.com/) 依据真实数据（已经过匿名处理）进行创建的。 数据可采用以下几种格式：内容包、.pbix Power BI Desktop 文件或 Excel 工作簿。 请参阅[用于 Power BI 的示例](sample-datasets.md)。 
+此示例是一系列示例的一部分，展示了如何将 Power BI 与面向业务的数据、报表和仪表板结合使用。 它是使用 [obviEnce](http://www.obvience.com/) 依据真实数据（已经过匿名处理）进行创建的。 数据可采用以下几种格式：产品内示例、.pbix Power BI Desktop 文件或 Excel 工作簿。 请参阅[用于 Power BI 的示例](sample-datasets.md)。 
 
-本教程探讨了 Power BI 服务中的“销售和市场营销示例”内容包。 由于报表体验在 Power BI Desktop 和服务中非常相似，因此也可以使用 Power BI Desktop 中的示例 .pbix 文件跟着本教程一起操作。 
+本教程探讨了 Power BI 服务中的“销售和市场营销示例”。 由于报表体验在 Power BI Desktop 和服务中非常相似，因此也可以使用 Power BI Desktop 中的示例 .pbix 文件跟着本教程一起操作。 
 
 不需要 Power BI 许可证即可在 Power BI Desktop 中查看示例。 如果没有 Power BI Pro 许可证，可以将该示例保存到 Power BI 服务中的“我的工作区”。 
 
 ## <a name="get-the-sample"></a>获取示例
 
-必须先将示例下载为[内容包](#get-the-content-pack-for-this-sample)、[.pbix 文件](#get-the-pbix-file-for-this-sample)或 [Excel 工作簿](#get-the-excel-workbook-for-this-sample)，然后才能使用它。
+必须先将示例下载为[仪表板、报表和数据集](#get-the-sample-from-the-power-bi-service)、[pbix 文件](#get-the-pbix-file-for-this-sample)或 [Excel 工作簿](#get-the-excel-workbook-for-this-sample)，然后才能使用它。
 
-### <a name="get-the-content-pack-for-this-sample"></a>获取内容包形式的此示例
+### <a name="get-the-sample-from-the-power-bi-service"></a>获取 Power BI 服务的示例
 
 1. 打开并登录 Power BI 服务 (app.powerbi.com)，然后打开要在其中保存此示例的工作区。
 
@@ -49,7 +49,7 @@ VanArsdel 有许多竞争对手，但仍是业内的市场领导者。 CMO 想�
   
    ![连接到示例](media/sample-sales-and-marketing/sales9.png)
    
-5. 此时，Power BI 导入内容包，然后向当前工作区添加新的仪表板、报表和数据集。
+5. 此时，Power BI 导入示例，然后向当前工作区添加新的仪表板、报表和数据集。
    
    ![销售和市场营销示例条目](media/sample-sales-and-marketing/sales11.png)
   

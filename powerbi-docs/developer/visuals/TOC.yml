@@ -134,8 +134,6 @@
               href: utils-test.md
             - name: 工具提示 Utils
               href: utils-tooltip.md
-            - name: 数据视图 utils
-              href: utils-dataview.md
     - name: 资源
       items:
         - name: 开发中心
