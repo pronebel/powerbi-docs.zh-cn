@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 04/30/2020
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: e943324106148bdbff1edba36650d494fdd9db8c
-ms.sourcegitcommit: 02b5d031d92ea5d7ffa70d5098ed15e4ef764f2a
+ms.openlocfilehash: 23d520815c47c9ff9f1ec045ec67921141e8eb7a
+ms.sourcegitcommit: 4e347efd132b48aaef6c21236c3a21e5fce285cc
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/26/2020
-ms.locfileid: "91374260"
+ms.lasthandoff: 10/27/2020
+ms.locfileid: "92681161"
 ---
 # <a name="intro-to-datasets-across-workspaces"></a>跨工作区使用数据集简介
 
@@ -47,7 +47,7 @@ ms.locfileid: "91374260"
 
 ## <a name="promotion-and-certification"></a>推广和验证
 
-如果你创建数据集，则在创建其他人可从中受益的数据集时，可通过[推广数据集](service-datasets-promote.md)使他人能够更轻松地发现该数据集。 你还可以请求组织中的专家[验证你的数据集](service-datasets-certify.md)。
+如果你创建数据集，则在创建其他人可从中受益的数据集时，可通过[推广数据集](../collaborate-share/service-endorse-content.md#promote-content)使他人能够更轻松地发现该数据集。 你还可以请求组织中的专家[验证你的数据集](../collaborate-share/service-endorse-content.md#request-content-certification)。
 
 ## <a name="licensing"></a>许可
 
@@ -69,7 +69,8 @@ ms.locfileid: "91374260"
 
 ## <a name="next-steps"></a>后续步骤
 
-- [推广数据集](service-datasets-promote.md)
-- [验证数据集](service-datasets-certify.md)
+- [推广数据集](../collaborate-share/service-endorse-content.md#promote-content)
+- [验证数据集](../collaborate-share/service-endorse-content.md#certify-content)
+- [请求数据集验证](../collaborate-share/service-endorse-content.md#request-content-certification)
 - [跨工作区治理数据集的使用](service-datasets-admin-across-workspaces.md)
 - 是否有任何问题? [尝试咨询 Power BI 社区](https://community.powerbi.com/)

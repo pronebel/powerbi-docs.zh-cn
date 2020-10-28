@@ -8,12 +8,12 @@ ms.subservice: powerbi-template-apps
 ms.topic: how-to
 ms.date: 05/04/2020
 ms.author: painbar
-ms.openlocfilehash: c647f376502e2575b9eef46e9e2a72d5d76e8053
-ms.sourcegitcommit: be424c5b9659c96fc40bfbfbf04332b739063f9c
+ms.openlocfilehash: 432f05ed7efe8438d21a285b732ead08d93b8732
+ms.sourcegitcommit: 3ddfd9ffe2ba334a6f9d60f17ac7243059cf945b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "91635162"
+ms.lasthandoff: 10/22/2020
+ms.locfileid: "92349382"
 ---
 # <a name="what-are-power-bi-template-apps"></a>什么是 Power BI 模板应用？
 
@@ -109,7 +109,7 @@ Power BI 模板应用允许 Power BI Pro 或 Power BI Premium 用户通过可连
 |目录：仪表板 | 禁止使用实时磁贴（也就是说，不支持推送或流式处理数据集） |
 |目录：数据流 | 不支持：数据流 |
 |文件内容 | 仅支持 PBIX 文件。 <br>不支持：.rdl 文件（分页报表）、Excel 工作簿   |
-| 数据源 | 可支持云“计划数据”刷新的数据源。 <br>不支持： <li> 直接连接</li><li>实时连接（无 Azure AS）</li> <li>本地数据源（不支持个人和企业网关）</li> <li>实时数据源（不支持推送数据集）</li> <li>复合模型</li></ul> |
+| 数据源 | 可支持云“计划数据”刷新的数据源。 <br>不支持： <li>实时连接（无 Azure AS）</li> <li>本地数据源（不支持个人和企业网关）</li> <li>实时数据源（不支持推送数据集）</li> <li>复合模型</li></ul> |
 | 数据集：跨工作区 | 不支持跨工作区的数据集  |
 | 查询参数 | 不支持：用于数据集的“Any”或“Binary”类型块刷新操作的参数 |
 | Power BI 视觉对象 | 仅支持公开可用的 Power BI 视觉对象。 不支持[组织的 Power BI 视觉对象](../developer/visuals/power-bi-custom-visuals-organization.md) |

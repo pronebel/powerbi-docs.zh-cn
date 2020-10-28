@@ -8,12 +8,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 08/20/2020
 ms.author: v-pemyer
-ms.openlocfilehash: fba37d9f73ea0f61d8a43dc46cd13a5835d4d2a9
-ms.sourcegitcommit: d153cfc0ce559480c53ec48153a7e131b7a31542
+ms.openlocfilehash: 01d1e48537b2d373be3897259f8ac6e97886f268
+ms.sourcegitcommit: 4e347efd132b48aaef6c21236c3a21e5fce285cc
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/29/2020
-ms.locfileid: "91525791"
+ms.lasthandoff: 10/27/2020
+ms.locfileid: "92680969"
 ---
 # <a name="prepare-to-migrate-to-power-bi"></a>准备迁移到 Power BI
 
@@ -79,7 +79,7 @@ Power BI 实现初期需要解决的一些关键事项包括：
 - 与[数据集模式](../connect-data/service-dataset-modes-understand.md)相关的首选项，例如使用“导入”模式、DirectQuery 模式或通过[复合模型](composite-model-guidance.md)来组合使用这两种模式。
 - [确保数据和访问安全](../admin/service-admin-power-bi-security.md)
 - 使用[共享数据集](../connect-data/service-datasets-share.md)来实现可重用性。
-- 应用[数据认证](../connect-data/service-datasets-certify.md)来推荐权威和可信数据的使用。
+- 应用[数据认证](../collaborate-share/service-endorsement-overview.md)来推荐权威和可信数据的使用。
 - 使用不同的[报表类型](../create-reports/index.yml)，包括 Power BI 报表、Excel 报表或面向不同用例或业务单元的分页报表。
 - 用于管理集中式 BI 项目和业务管理 BI 项目的变更管理方法。
 - 面向使用者、数据建模人员、报表作者和管理员的培训计划。

@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: tutorial
-ms.custom: seodec18
+ms.custom: seodec18, devx-track-js
 ms.date: 02/05/2019
-ms.openlocfilehash: c5a902a8de8449290d52974063b25f51ff92dd9d
-ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
+ms.openlocfilehash: faacbe602a8c80dc036583cca599b24b072df315
+ms.sourcegitcommit: 702ababd71c38846303bf49990b51afc73f9ebb8
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/06/2020
-ms.locfileid: "91747565"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "92795649"
 ---
 # <a name="tutorial-embed-a-power-bi-content-into-your-application-for-national-clouds"></a>教程：将 Power BI 内容嵌入国家云的应用程序
 
@@ -43,7 +43,7 @@ Power BI 还支持[国家云](/azure/active-directory/develop/authentication-nat
 > [!NOTE]
 > 要改为为组织嵌入仪表板？ 请参阅[为组织将仪表板集成到应用中](embed-sample-for-your-organization.md)。
 
-若要将仪表板集成到 Web 应用，请使用 **Power BI** API 和 Azure Active Directory (AD) 授权**访问令牌**来获取仪表板。 然后，使用嵌入令牌加载仪表板。 **Power BI** API 向特定 **Power BI** 资源提供编程访问权限。 有关详细信息，请参阅 [Power BI REST API](/rest/api/power-bi/)、[Power BI .NET SDK 和 [Power BI JavaScript API](https://github.com/Microsoft/PowerBI-JavaScript)。
+若要将仪表板集成到 Web 应用，请使用 **Power BI** API 和 Azure Active Directory (AD) 授权 **访问令牌** 来获取仪表板。 然后，使用嵌入令牌加载仪表板。 **Power BI** API 向特定 **Power BI** 资源提供编程访问权限。 有关详细信息，请参阅 [Power BI REST API](/rest/api/power-bi/)、[Power BI .NET SDK 和 [Power BI JavaScript API](https://github.com/Microsoft/PowerBI-JavaScript)。
 
 ## <a name="download-the-sample"></a>下载示例
 
@@ -147,7 +147,7 @@ Power BI 还支持[国家云](/azure/active-directory/develop/authentication-nat
 
 ## <a name="step-2---get-an-access-token-from-azure-ad"></a>第 2 步 - 从 Azure AD 获取访问令牌
 
-在应用程序中，需要先从 Azure AD 获取**访问令牌**，然后才能调用 Power BI REST API。 有关详细信息，请参阅[对用户进行身份验证并获取 Power BI 应用的 Azure AD 访问令牌](get-azuread-access-token.md)。 由于存在不同的国家云附属关系，因此可以通过不同的 URL 来获取应用程序的访问令牌。
+在应用程序中，需要先从 Azure AD 获取 **访问令牌** ，然后才能调用 Power BI REST API。 有关详细信息，请参阅[对用户进行身份验证并获取 Power BI 应用的 Azure AD 访问令牌](get-azuread-access-token.md)。 由于存在不同的国家云附属关系，因此可以通过不同的 URL 来获取应用程序的访问令牌。
 
 * 政府社区云 (GCC) - ```https://login.microsoftonline.com```
 

@@ -42,7 +42,7 @@
           href: power-bi-data-sources.md
         - name: Power BI 数据源必备条件
           href: desktop-data-source-prerequisites.md
-        - name: 在 Power BI Desktop 中使用增强的数据集元数据（预览）
+        - name: 在 Power BI Desktop 中使用增强的数据集元数据
           href: desktop-enhanced-dataset-metadata.md
         - name: 在 Power BI 中使用多维模型
           href: desktop-default-member-multidimensional-models.md
@@ -184,12 +184,6 @@
               href: service-datasets-copy-reports.md
             - name: 控制数据集的使用
               href: service-datasets-admin-across-workspaces.md
-        - name: 认可数据集
-          items:
-            - name: 提升数据集
-              href: service-datasets-promote.md
-            - name: 验证数据集
-              href: service-datasets-certify.md
         - name: 从数据库获取数据
           items:
             - name: Azure 和 Power BI

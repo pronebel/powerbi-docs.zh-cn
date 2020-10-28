@@ -6,15 +6,15 @@ ms.reviewer: kayu
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: how-to
-ms.date: 04/30/2020
+ms.date: 10/21/2020
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: d602c97384f42bdd35f12052f67b15a0ca7bae38
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 343351fd762a074de010bc307c0138773e265226
+ms.sourcegitcommit: fddba666c6ea90d525a1c3188bbd3c4a03410cdc
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85236903"
+ms.lasthandoff: 10/23/2020
+ms.locfileid: "92462409"
 ---
 # <a name="build-permission-for-shared-datasets"></a>共享数据集的生成权限
 
@@ -32,7 +32,7 @@ ms.locfileid: "85236903"
 
 可以通过多种不同的方式为数据集提供生成权限：
 
-- 至少具有“参与者”角色的工作区的成员自动拥有该工作区中的数据集的“生成”权限以及复制报表的权限。
+- 至少具有“参与者”角色的工作区的成员自动拥有该工作区中的数据集的“生成”权限以及复制报表的权限。 详细了解[新工作区中的角色](../collaborate-share/service-new-workspaces.md#roles-in-the-new-workspaces)。
  
 - 数据集所在的工作区中的成员可以在“权限中心”将权限分配给特定用户或安全组。 如果你是工作区的成员，请选择数据集旁边的“更多选项”(...) >“管理权限” 。
 

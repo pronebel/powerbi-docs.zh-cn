@@ -8,12 +8,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 08/20/2020
 ms.author: v-pemyer
-ms.openlocfilehash: 23d207bb4f070c3c3a35f1e74dd281f012528c82
-ms.sourcegitcommit: cff93e604e2c5f24e0f03d6dbdcd10c2332aa487
+ms.openlocfilehash: f9268409977b3aa78e1ebda6f1f6b2e732451455
+ms.sourcegitcommit: 4e347efd132b48aaef6c21236c3a21e5fce285cc
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90965002"
+ms.lasthandoff: 10/27/2020
+ms.locfileid: "92681019"
 ---
 # <a name="deploy-to-power-bi"></a>部署到 Power BI
 
@@ -44,8 +44,8 @@ ms.locfileid: "90965002"
 - **字符串和参数：** 如果开发环境和测试环境的数据源不同，请调整数据集连接字符串。 可利用[参数化](../connect-data/service-parameters.md)有效管理连接字符串。
 - **工作区内容：** 将数据集和报表发布到测试工作区，并创建仪表板。
 - **应用。** 使用测试工作区中的内容发布一个[应用](../consumer/end-user-apps.md)，前提是它将构成 UAT 过程的一部分。 通常，应用权限仅限于参与 UAT 的少数人。
-- **数据刷新：** 为 UAT 进行期间的任何导入数据集[安排数据集刷新](../connect-data/refresh-scheduled-refresh.md)。
-- **安全性：** 更新或验证[工作区角色](../collaborate-share/service-new-workspaces.md#roles-in-the-new-workspaces)。 测试工作区访问的过程包括参与 UAT 的少数人。
+- **数据刷新：** 为 UAT 进行期间的任何导入数据集 [安排数据集刷新](../connect-data/refresh-scheduled-refresh.md)。
+- **安全性：** 更新或验证 [工作区角色](../collaborate-share/service-new-workspaces.md#roles-in-the-new-workspaces)。 测试工作区访问的过程包括参与 UAT 的少数人。
 
 > [!NOTE]
 > 有关部署到开发环境、测试环境和生产环境的选项的详细信息，请参阅[规划 Power BI 企业部署白皮书](https://aka.ms/PBIEnterpriseDeploymentWP)的第 9 节。
@@ -73,13 +73,13 @@ UAT 涉及的业务用户通常是主题专家。 经过验证后，他们将批
 
 在部署过程中，你可能需要与 Power BI 管理员合作，以满足支持整个解决方案所需达到的其他要求，例如：
 
-- **网关维护：** 可能需要在数据网关中进行[新数据源](../connect-data/service-gateway-data-sources.md)注册。
+- **网关维护：** 可能需要在数据网关中进行 [新数据源](../connect-data/service-gateway-data-sources.md)注册。
 - **网关驱动程序和连接器：** 新的专有数据源可能要求在网关群集中的每个服务器上安装新的驱动程序或自定义连接器。
-- **创建新的高级容量：** 可能可以使用现有的[高级容量](../admin/service-premium-capacity-manage.md)。 也可能需要提供新的高级容量。 如果有意将部门工作负载分开，就可能会出现这种情况。
+- **创建新的高级容量：** 可能可以使用现有的 [高级容量](../admin/service-premium-capacity-manage.md)。 也可能需要提供新的高级容量。 如果有意将部门工作负载分开，就可能会出现这种情况。
 - **设置 Power BI 数据流：** 可在 [Power BI 数据流](../transform-model/service-dataflows-overview.md)中使用 Power Query Online 设置数据准备活动。 这有助于避免复制许多不同 Power BI Desktop 文件中的数据准备工作。
-- **注册新的组织视觉对象：** 可以在管理门户中为不是来自 AppSource 的自定义视觉对象完成[组织视觉对象](../developer/visuals/power-bi-custom-visuals-organization.md)注册。
-- **设置特色内容：** 有一个租户设置可用于控制谁可以在 Power BI 服务主页中使用[功能内容](https://powerbi.microsoft.com/blog/promote-your-reports-dashboards-and-apps-on-power-bi-home/)。
-- **设置敏感度标签：** 所有[敏感度标签](../admin/service-security-data-protection-overview.md) 都可以与 Microsoft 信息保护集成。
+- **注册新的组织视觉对象：** 可以在管理门户中为不是来自 AppSource 的自定义视觉对象完成 [组织视觉对象](../developer/visuals/power-bi-custom-visuals-organization.md)注册。
+- **设置特色内容：** 有一个租户设置可用于控制谁可以在 Power BI 服务主页中使用 [功能内容](https://powerbi.microsoft.com/blog/promote-your-reports-dashboards-and-apps-on-power-bi-home/)。
+- **设置敏感度标签：** 所有 [敏感度标签](../admin/service-security-data-protection-overview.md) 都可以与 Microsoft 信息保护集成。
 
 ### <a name="deploy-to-production-workspace"></a>部署到生产工作区
 
@@ -88,12 +88,12 @@ UAT 涉及的业务用户通常是主题专家。 经过验证后，他们将批
 - **变更管理：** 如果需要，请获得部署批准，并使用标准变更管理实践将部署信息传达给用户群体。 可能会有一个经批准的变更管理时段，在此期间允许生产环境部署。 它通常用于 IT 管理的内容，而很少用于自助服务内容。
 - **回滚计划：** 对于迁移，预期是第一次迁移新解决方案。 如果内容已经存在，明智的做法是规划将内容还原为以前的版本（如果需要）。 保有以前版本的 Power BI Desktop 文件（使用 SharePoint 或 OneDrive 版本控制）可以很好地实现这一目的。
 - **字符串和参数：** 如果测试环境和生产环境的数据源不同，请调整数据集连接字符串。 可以有效使用[参数化](../connect-data/service-parameters.md)来帮助实现此目的。
-- **数据刷新：** 为任何导入的数据集[安排数据集刷新](../connect-data/refresh-scheduled-refresh.md)。
+- **数据刷新：** 为任何导入的数据集 [安排数据集刷新](../connect-data/refresh-scheduled-refresh.md)。
 - **工作区内容：** 将数据集和报表发布到生产工作区，并创建仪表板。 如果你的内容已发布到高级容量中的工作区，可通过[部署管道](../create-reports/deployment-pipelines-overview.md)简化部署到开发、测试和生产工作区的过程。
-- **应用：** 如果应用是内容分发策略的一部分，请使用生产工作区中的内容发布一个[应用](../consumer/end-user-apps.md)。
-- **安全性：** 基于你的内容分发和协作策略更新并验证[工作区角色](../collaborate-share/service-new-workspaces.md#roles-in-the-new-workspaces)。
+- **应用：** 如果应用是内容分发策略的一部分，请使用生产工作区中的内容发布一个 [应用](../consumer/end-user-apps.md)。
+- **安全性：** 基于你的内容分发和协作策略更新并验证 [工作区角色](../collaborate-share/service-new-workspaces.md#roles-in-the-new-workspaces)。
 - **数据集设置：** 更新并验证每个数据集的设置，包括：
-  - [认可](../connect-data/service-datasets-certify.md)（如认证或升级）
+  - [认可](../collaborate-share/service-endorse-content.md)（如认证或升级）
   - 网关连接或数据源凭据
   - 计划的刷新
   - [精选问答](../create-reports/service-q-and-a-create-featured-questions.md)

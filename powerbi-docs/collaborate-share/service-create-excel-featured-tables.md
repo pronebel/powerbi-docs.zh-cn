@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 09/17/2020
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: efddfbdb70b2c20ad650eda6a16a5d7defb758e8
-ms.sourcegitcommit: fa0a1561aba2a392fb56e7030e1a0537806a9260
+ms.openlocfilehash: 20a81ed4675f6392f28a20f7b741d0c0ad1076eb
+ms.sourcegitcommit: 4e347efd132b48aaef6c21236c3a21e5fce285cc
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/19/2020
-ms.locfileid: "90811842"
+ms.lasthandoff: 10/27/2020
+ms.locfileid: "92680770"
 ---
 # <a name="set-featured-tables-in-power-bi-desktop-preview"></a>在 Power BI Desktop 中设置精选表（预览版）
 
@@ -25,7 +25,7 @@ ms.locfileid: "90811842"
 1. 组织的其余部分可以连接到那些精选表（在 Excel 中称为数据类型），以获取相关且可刷新的数据。 文章[在 Excel 中访问 Power BI 精选表（预览版）](service-excel-featured-tables.md)介绍如何在 Excel 中使用这些精选表。
 
 > [!NOTE]
-> 可以[在 Power BI 中推广或认证数据集](../connect-data/service-datasets-promote.md)。 这称为认可。 Excel 会对数据类型库中已认可的数据集中的表区分优先级。 Excel 首先列出已认证的数据集中的精选表，然后列出已推广的数据集中的表。 之后，Excel 会列出未经认可的数据集中的精选表。 
+> 可以[在 Power BI 中推广或认证数据集](../collaborate-share/service-endorse-content.md)。 这称为认可。 Excel 会对数据类型库中已认可的数据集中的表区分优先级。 Excel 首先列出已认证的数据集中的精选表，然后列出已推广的数据集中的表。 之后，Excel 会列出未经认可的数据集中的精选表。 
 
 ## <a name="turn-on-the-featured-table-preview"></a>启用精选表预览
 
@@ -40,11 +40,11 @@ ms.locfileid: "90811842"
 
 1. 在 Power BI Desktop 中，转到“模型”视图。
 
-    :::image type="content" source="media/service-excel-featured-tables/power-bi-model-view.png" alt-text="模型视图":::
+    :::image type="content" source="media/service-excel-featured-tables/power-bi-model-view.png" alt-text="预览精选表选项":::
  
 2. 选择一个表，将“是精选表”设置为“是”。
 
-    :::image type="content" source="media/service-excel-featured-tables/power-bi-featured-table-yes.png" alt-text="将“是精选表”设置为“是”":::
+    :::image type="content" source="media/service-excel-featured-tables/power-bi-featured-table-yes.png" alt-text="预览精选表选项":::
 
 4. 在“设置此精选表”中，提供必填字段：
 
@@ -54,7 +54,7 @@ ms.locfileid: "90811842"
     - “行标签”字段值用于 Excel 中，因此用户可以轻松地识别该行。 它在“数据选择器”窗格中和“信息”卡中显示为链接单元格的单元格值。 
     - “键列”字段值提供唯一的行 ID。 通过此值，Excel 可以将单元格链接到表中的特定行。
 
-    :::image type="content" source="media/service-excel-featured-tables/power-bi-set-up-featured-table.png" alt-text="设置精选表":::
+    :::image type="content" source="media/service-excel-featured-tables/power-bi-set-up-featured-table.png" alt-text="预览精选表选项":::
 
 1. 将数据集发布或导入到 Power BI 服务后，精选表会显示在 Excel 数据类型库中。 你和其他报表创建者还可以创建基于此数据集生成的报表。
 
