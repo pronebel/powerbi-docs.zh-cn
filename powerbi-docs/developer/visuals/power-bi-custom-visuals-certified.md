@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.topic: how-to
 ms.subservice: powerbi-custom-visuals
 ms.date: 03/08/2020
-ms.openlocfilehash: 84c33cfc1d9163ff631c11d285b5441dd301578e
-ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
+ms.openlocfilehash: 8dd6a33ab19e692d9dc04138d53b04e8e49da2bf
+ms.sourcegitcommit: 50b21718a167c2b131313b4135c8034c6f027597
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/06/2020
-ms.locfileid: "91748117"
+ms.lasthandoff: 10/14/2020
+ms.locfileid: "92049168"
 ---
 # <a name="get-a-power-bi-visual-certified"></a>获取 Power BI 视觉对象认证
 
@@ -59,7 +59,7 @@ Power BI 视觉对象必须由合作伙伴中心批准。 建议 Power BI 视觉
 * **.gitignore** - 将 `node_modules`、`.tmp` 和 `dist` 添加到此文件。 代码不得包含 node_modules  、.tmp  或 dist  文件夹。
 * **capabilities.json** - 如果你提交的是Power BI 视觉对象的较新版本，并对该文件中的属性进行了更改，请验证它们不会中断现有用户的报表。
 * **pbiviz.json** 
-* **package.json**： 视觉对象必须已安装以下包：
+* **package.json** ： 视觉对象必须已安装以下包：
    * ["tslint"](https://www.npmjs.com/package/tslint) - 版本 5.18.0 或更高版本
    * ["typescript"](https://www.npmjs.com/package/typescript) - 版本 3.0.0 或更高版本
    * ["tslint-microsoftcontrib"](https://www.npmjs.com/package/tslint-microsoft-contrib) - 版本 6.2.0 或更高版本
@@ -170,11 +170,9 @@ Power BI 视觉对象必须由合作伙伴中心批准。 建议 Power BI 视觉
 
 ## <a name="next-steps"></a>后续步骤
 
-* 如果 Web 开发人员有兴趣创建自己的 Power BI 视觉对象并将其添加到  [Microsoft AppSource](https://appsource.microsoft.com)，可从 [开发 Power BI 视觉对象](custom-visual-develop-tutorial.md)教程开始入手。
+* 如果 Web 开发人员有兴趣创建自己的 Power BI 视觉对象并将其添加到  [Microsoft AppSource](https://appsource.microsoft.com)，可从 [开发 Power BI 圆形卡片视觉对象](develop-circle-card.md)教程开始入手。
 
 * 有关视觉对象的详细信息，请参阅[关于认证视觉对象的常见问题解答](power-bi-custom-visuals-faq.md#certified-power-bi-visuals)。
-
-* [开发 Power BI 视觉对象](custom-visual-develop-tutorial.md)
 
 * [YouTube 上的 Microsoft Power BI 视觉对象播放列表](https://www.youtube.com/playlist?list=PL1N57mwBHtN1vIjfvuBIzZllrmKo-Vz6x)
 

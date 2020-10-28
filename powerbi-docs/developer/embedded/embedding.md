@@ -16,12 +16,12 @@ helpviewer_keywords:
 - Power BI APIs
 ms.custom: seodec18
 ms.date: 05/15/2019
-ms.openlocfilehash: 7c90093fefb98c6b385328e8dd207760e3207cbf
-ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
+ms.openlocfilehash: 32fb26faa42f0ce6128a4a4cc0e491f78f270d36
+ms.sourcegitcommit: 02484b2d7a352e96213353702d60c21e8c07c6c0
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/06/2020
-ms.locfileid: "91746208"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "91982185"
 ---
 # <a name="embedded-analytics-with-power-bi"></a>Power BI 嵌入式分析
 
@@ -51,7 +51,7 @@ Azure (PaaS) 中的 Power BI 服务 (SaaS) 和 Power BI 嵌入式服务具有用
 
 ## <a name="embedding-for-your-organization"></a>为组织嵌入内容
 
-通过**为组织嵌入内容**，可以扩展 Power BI 服务。 这种类型的嵌入要求应用程序的用户登录 Power BI 服务来查看内容。 组织中的用户登录后，只能访问他们拥有的，或者他们在 Power BI 服务中共享的仪表板和报表。
+通过 **为组织嵌入内容** ，可以扩展 Power BI 服务。 这种类型的嵌入要求应用程序的用户登录 Power BI 服务来查看内容。 组织中的用户登录后，只能访问他们拥有的，或者他们在 Power BI 服务中共享的仪表板和报表。
 
 组织嵌入内容的示例包括 [SharePoint Online](https://powerbi.microsoft.com/blog/integrate-power-bi-reports-in-sharepoint-online/)、[Microsoft Teams 集成（必须拥有管理员权限）](https://powerbi.microsoft.com/blog/power-bi-teams-up-with-microsoft-teams/)以及 [Microsoft Dynamics](/dynamics365/customer-engagement/basics/add-edit-power-bi-visualizations-dashboard) 等内部应用程序。
 
@@ -82,9 +82,9 @@ Power BI Pro 帐户充当应用程序的主帐户（将其视为代理帐户）�
 使用 Power BI Embedded，开发人员可以更专注于构建其应用程序的核心功能，而不是花时间开发视觉对象和分析。 开发人员可以快速满足客户的报表和仪表板需求，并可以通过具有完整存档的 API 和 SDK 轻松嵌入。 通过在应用中启用易于导航的数据浏览，ISV 让客户能够使用任意设备在上下文中快速作出数据驱动型决策。
 
 > [!IMPORTANT]
-> 尽管嵌入内容需要 Power BI 服务，但客户无需具有 Power BI 帐户即可查看应用程序的嵌入内容。 
+> 尽管嵌入内容需要 Power BI 服务，但客户无需具有 Power BI 帐户即可查看应用程序的嵌入内容。
 
-准备迁移到生产环境时，必须为工作区分配专用容量。 Microsoft Azure 中的 Power BI Embedded 提供用于应用程序的[专用容量](azure-pbie-create-capacity.md)。
+准备迁移到生产环境时，必须为工作区分配容量。 在 Microsoft Azure 中[创建 Power BI Embedded 容量](azure-pbie-create-capacity.md)，供应用程序使用。
 
 有关嵌入内容的详细信息，请参阅[如何嵌入 Power BI 内容](embed-sample-for-customers.md)。
 

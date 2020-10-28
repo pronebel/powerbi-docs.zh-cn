@@ -8,13 +8,13 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: how-to
 ms.custom: ''
-ms.date: 06/01/2020
-ms.openlocfilehash: 521c705587c10c76dedb731aeae34221244f3a83
-ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
+ms.date: 10/15/2020
+ms.openlocfilehash: 3d25fe925b98dbdd74d61fd70320bd4275db35e3
+ms.sourcegitcommit: 1428acb6334649fc2d3d8ae4c42cfbc17e8f7476
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/06/2020
-ms.locfileid: "91749175"
+ms.lasthandoff: 10/19/2020
+ms.locfileid: "92197762"
 ---
 # <a name="embed-power-bi-content-with-service-principal-and-a-certificate"></a>使用服务主体和证书嵌入 Power BI 内容
 
@@ -35,17 +35,48 @@ ms.locfileid: "91749175"
 
 要将服务主体和证书与嵌入的分析结合使用，请按照以下步骤操作：
 
-1. 创建证书。
+1. 创建 Azure AD 应用程序。
 
-2. 创建 Azure AD 应用程序。
+2. 创建 Azure AD 安全组。
 
-3. 设置证书身份验证。
+3. 启用 Power BI 服务管理设置。
 
-4. 从 Azure 密钥保管库获取证书。
+4. 将服务主体添加到工作区中。
 
-5. 使用服务主体和证书进行身份验证。
+5. 创建证书。
 
-## <a name="step-1---create-a-certificate"></a>第 1 步 - 创建证书
+6. 设置证书身份验证。
+
+7. 从 Azure 密钥保管库获取证书。
+
+8. 使用服务主体和证书进行身份验证。
+
+## <a name="step-1---create-an-azure-ad-application"></a>第 1 步 - 创建 Azure AD 应用程序
+
+[!INCLUDE[service principal create app](../../includes/service-principal-create-app.md)]
+
+### <a name="creating-an-azure-ad-app-using-powershell"></a>使用 PowerShell 创建 Azure AD 应用程序
+
+此部分中包含使用 [PowerShell](/powershell/azure/create-azure-service-principal-azureps) 新建 Azure AD 应用程序的示例脚本。
+
+```powershell
+# The app ID - $app.appid
+# The service principal object ID - $sp.objectId
+# The app key - $key.value
+
+# Sign in as a user that's allowed to create an app
+Connect-AzureAD
+
+# Create a new Azure AD web application
+$app = New-AzureADApplication -DisplayName "testApp1" -Homepage "https://localhost:44322" -ReplyUrls "https://localhost:44322"
+
+# Creates a service principal
+$sp = New-AzureADServicePrincipal -AppId $app.AppId
+```
+
+[!INCLUDE[service create steps two, three and four](../../includes/service-principal-create-steps.md)]
+
+## <a name="step-5---create-a-certificate"></a>第 5 步 - 创建证书
 
 可以从受信任的证书颁发机构获取证书，也可以自行生成证书。
 
@@ -55,19 +86,19 @@ ms.locfileid: "91749175"
 
 2. 搜索“密钥保管库”，然后单击“密钥保管库”链接 。
 
-    ![密钥保管库](media/embed-service-principal-certificate/key-vault.png)
+    ![展示 Azure 门户中密钥保管库链接的屏幕截图。](media/embed-service-principal-certificate/key-vault.png)
 
 3. 单击要向其添加证书的密钥保管库。
 
-    ![选择密钥保管库](media/embed-service-principal-certificate/select-key-vault.png)
+    ![展示 Azure 门户中经过模糊处理的密钥保管库列表的屏幕截图。](media/embed-service-principal-certificate/select-key-vault.png)
 
-4. 单击“**证书**”。
+4. 单击“ **证书** ”。
 
-    ![屏幕截图显示标示了“证书”的“密钥保管库”页。](media/embed-service-principal-certificate/certificates.png)
+    ![展示标示了“证书”的“密钥保管库”页的屏幕截图。](media/embed-service-principal-certificate/certificates.png)
 
 5. 单击“生成/导入”。
 
-    ![屏幕截图显示标示了“生成/导入”的“证书”窗格。](media/embed-service-principal-certificate/generate.png)
+    ![展示标示了“生成/导入”的“证书”窗格的屏幕截图。](media/embed-service-principal-certificate/generate.png)
 
 6. 按如下所示配置“创建证书”字段：
 
@@ -97,21 +128,17 @@ ms.locfileid: "91749175"
 
 9. 单击“以 CER 格式下载”。 下载的文件包含公钥。
 
-    ![以 cer 格式下载](media/embed-service-principal-certificate/download-cer.png)
+    ![展示“下载为 cer 格式”按钮的屏幕截图。](media/embed-service-principal-certificate/download-cer.png)
 
-## <a name="step-2---create-an-azure-ad-application"></a>第 2 步 - 创建 Azure AD 应用程序
-
-[!INCLUDE[service principal create app](../../includes/service-principal-create-app.md)]
-
-## <a name="step-3---set-up-certificate-authentication"></a>第 3 步 - 设置证书身份验证
+## <a name="step-6---set-up-certificate-authentication"></a>第 6 步 - 设置证书身份验证
 
 1. 在 Azure AD 应用程序中，单击“证书和机密”选项卡。
 
-     ![屏幕截图显示 Azure 门户中应用的“证书和密码”窗格。](media/embed-service-principal/certificates-and-secrets.png)
+     ![展示 Azure 门户中应用的“证书和密码”窗格的屏幕截图。](media/embed-service-principal/certificates-and-secrets.png)
 
-2. 单击“上传证书”，上传你在本教程的[第一步](#step-1---create-a-certificate)中创建并下载的 .cer 文件。 .cer 文件包含公钥。
+2. 单击“上传证书”，上传你在本教程的[第一步](#step-5---create-a-certificate)中创建并下载的 .cer 文件。 .cer 文件包含公钥。
 
-## <a name="step-4---get-the-certificate-from-azure-key-vault"></a>第 4 步 - 从 Azure 密钥保管库获取证书
+## <a name="step-7---get-the-certificate-from-azure-key-vault"></a>第 7 步 - 从 Azure 密钥保管库获取证书
 
 使用托管服务标识 (MSI) 从 Azure 密钥保管库获取证书。 此过程涉及获取同时包含公钥和私钥的 .pfx 证书。
 
@@ -138,7 +165,7 @@ private X509Certificate2 ReadCertificateFromVault(string certName)
 }
 ```
 
-## <a name="step-5---authenticate-using-service-principal-and-a-certificate"></a>第 5 步 - 使用服务主体和证书进行身份验证
+## <a name="step-8---authenticate-using-service-principal-and-a-certificate"></a>第 8 步 - 使用服务主体和证书进行身份验证
 
 通过连接到 Azure 密钥保管库，你可以使用服务主体和 Azure 密钥保管库中存储的证书对应用进行身份验证。
 
@@ -181,11 +208,11 @@ public async Task<AuthenticationResult> DoAuthentication(){
 
 2. 单击“工具” > “选项” 。
 
-     ![Visual Studio 选项](media/embed-service-principal-certificate/visual-studio-options.png)
+     ![展示 Visual Studio 中“工具”选项中的“选项”按钮的屏幕截图。](media/embed-service-principal-certificate/visual-studio-options.png)
 
 3. 搜索“帐户选择”并单击“帐户选择” 。
 
-    ![帐户选择](media/embed-service-principal-certificate/account-selection.png)
+    ![展示 Visual Studio 中“选项”窗口中的“帐户选择”选项的屏幕截图。](media/embed-service-principal-certificate/account-selection.png)
 
 4. 添加有权访问你 Azure 密钥保管库的帐户。
 

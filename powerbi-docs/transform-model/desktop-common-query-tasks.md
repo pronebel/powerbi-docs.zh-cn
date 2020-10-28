@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 01/09/2020
 ms.author: davidi
 LocalizationGroup: Transform and shape data
-ms.openlocfilehash: 38c14aa33504e7a3bb21cf68c6466a829d0653a7
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 931c500cd2c2dbbf750eb3699ac5290a2977c21b
+ms.sourcegitcommit: d153cfc0ce559480c53ec48153a7e131b7a31542
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85238862"
+ms.lasthandoff: 09/29/2020
+ms.locfileid: "91526251"
 ---
 # <a name="perform-common-query-tasks-in-power-bi-desktop"></a>在 Power BI Desktop 中执行常见查询任务
 
@@ -87,18 +87,18 @@ ms.locfileid: "85238862"
 
 让我们了解每个州有多少个机构。 （机构可以包含学区、地区性服务区等其他教育机构。）选择“机构 ID - NCES 指定\[地区\]最新可用年份”  列，然后选择“转换”  选项卡中的“分组依据”  按钮或功能区的“开始”  选项卡。 （这两个选项卡中都有“分组依据”  。）
 
-![“分组依据”对话框、Power Query 编辑器、Power BI Desktop](media/desktop-common-query-tasks/commonquerytasks_groupby.png)
+![屏幕截图显示如何对表中的行进行分组。](media/desktop-common-query-tasks/commonquerytasks_groupby.png)
 
-此时会显示“分组依据”  对话框。 当 Power Query 编辑器对行进行分组时，它会创建一个新列，将“分组依据”  结果置于其中。 可按照以下方式调整**分组依据**操作：
+此时会显示“分组依据”  对话框。 当 Power Query 编辑器对行进行分组时，它会创建一个新列，将“分组依据”  结果置于其中。 可按照以下方式调整 **分组依据** 操作：
 
 1. 未标记的下拉列表指定要分组的列。 Power Query 编辑器将此值默认设置为所选列，但你可以将其更改为表中的任何列。
-2. **新列名**：Power Query 编辑器会基于它对要进行分组的列所应用的操作为新列建议一个名称。 但你也可以将新列命名为所需的任何名称。
-3. **Operation**：可以选择 Power Query 编辑器应用的操作，如“求和”  、“中值”  或“统计非重复行数”  。 默认值为“统计行数”  。
+2. **新列名** ：Power Query 编辑器会基于它对要进行分组的列所应用的操作为新列建议一个名称。 但你也可以将新列命名为所需的任何名称。
+3. **Operation** ：可以选择 Power Query 编辑器应用的操作，如“求和”  、“中值”  或“统计非重复行数”  。 默认值为“统计行数”  。
 4. “添加分组”  和“添加聚合”  ：仅当选择了“高级”  选项时，这些按钮才可用。 在单个操作中，可以对多个列执行分组操作（“分组依据”  操作），并使用这些按钮创建多个聚合。 根据此对话框内的所选内容，Power Query 编辑器将创建一个新列，该列可对多个列进行操作。
 
 选择“添加分组”  或“添加聚合”  ，向“分组依据”  操作添加更多分组或聚合操作。 若要删除分组或聚合，请选择该行右侧的省略号图标 (...  )，然后选择“删除”  。 继续操作，并使用默认值尝试“分组依据  操作，以查看发生的情况。
 
-![“分组依据”对话框、Power Query 编辑器、Power BI Desktop](media/desktop-common-query-tasks/commonquerytasks_groupbynumbered.png)
+![屏幕截图显示“分组依据”对话框，其中标注“添加分组”和“添加聚合”。](media/desktop-common-query-tasks/commonquerytasks_groupbynumbered.png)
 
 在选择“确定”  时，查询将执行“分组依据”  操作并返回结果。 嘿，看看这个 – 俄亥俄州、伊利诺伊州、德克萨斯州和加利福尼亚州，每个州现在都有 1,000 多个机构！
 
@@ -148,7 +148,7 @@ Power Query 编辑器将每个查询的所有已应用步骤保存为可查看�
 
 ![“高级编辑器”命令、Power Query 编辑器、Power BI Desktop](media/desktop-common-query-tasks/queryformulas_advancededitorbutton.png)
 
-下面来看看**高级编辑器**，它显示了与 **USA\_StudentEnrollment** 查询关联的查询步骤。 这些步骤是使用 Power Query 公式语言（通常称为 *M*）进行创建的。有关详细信息，请参阅[了解 Power Query 公式](https://support.office.com/article/learn-about-power-query-formulas-6bc50988-022b-4799-a709-f8aafdee2b2f)。 若要查看语言规范本身，请参阅 [Power Query M 语言规范](/powerquery-m/power-query-m-language-specification)。
+下面来看看 **高级编辑器** ，它显示了与 **USA\_StudentEnrollment** 查询关联的查询步骤。 这些步骤是使用 Power Query 公式语言（通常称为 *M* ）进行创建的。有关详细信息，请参阅 [了解 Power Query 公式](https://support.office.com/article/learn-about-power-query-formulas-6bc50988-022b-4799-a709-f8aafdee2b2f)。 若要查看语言规范本身，请参阅 [Power Query M 语言规范](/powerquery-m/power-query-m-language-specification)。
 
 ![“高级编辑器”对话框、Power Query 编辑器、Power BI Desktop](media/desktop-common-query-tasks/queryformulas_advancededitor.png)
 

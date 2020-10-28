@@ -6,15 +6,15 @@ ms.reviewer: mihart
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: how-to
-ms.date: 07/01/2020
+ms.date: 10/10/2020
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: 1b0b677e67fa15906492fbaa41fcfd456d77bf01
-ms.sourcegitcommit: be424c5b9659c96fc40bfbfbf04332b739063f9c
+ms.openlocfilehash: f0ddbbbce93a14c3468eacca130163758ca85c45
+ms.sourcegitcommit: 02484b2d7a352e96213353702d60c21e8c07c6c0
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "91633874"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "91982140"
 ---
 # <a name="buttons-in-the-power-bi-service"></a>Power BI 服务中的按钮
 在收到的来自同事的报表中，你可能会注意到一些按钮并想知道如何使用它们。 有些按钮包含字词，有些按钮包含箭头，有些按钮包含图形，有些按钮甚至包含下拉菜单。 本文介绍如何识别按钮，以及如何确定按钮的作用。
@@ -23,24 +23,23 @@ ms.locfileid: "91633874"
 按钮在报表页上有多种显示形式，如形状、图像或图标。 但如果在选择（单击）它时操作发生，则可能是按钮。
 
 ## <a name="types-of-buttons"></a>按钮类型
-报表创建者将按钮添加到报表，以帮助你导航和浏览。 按钮有以下类型：后退、书签、钻取、页面导航、问答和 Web URL     。 
+报表创建者将按钮添加到报表，以帮助你导航和浏览。 其中的一些按钮类型包括：后退、书签、箭头、问答、帮助和空白。 
 
 ### <a name="back-buttons"></a>后退按钮 
 后退按钮可能有一个箭头图标，当你选择它时，Power BI 会返回到上一页。  后退按钮通常与钻取结合使用。 下面是与钻取结合使用的后退按钮的示例。
 
-1. 在条形图中选择“Word”。
-1. 选择“钻取”，然后选择“市场篮分析” 。
+1. 用户已在条形图中选择“Word”，并钻取到“市场篮分析”。
 
     ![钻取按钮的屏幕截图。](media/end-user-buttons/power-bi-drillthrough.png)
 
-    选择“市场篮分析”后，Power BI 将打开“市场篮分析”报表页，并使用在源页上所做的选择来筛选目标页上显示的内容。
+2. 选择“市场篮分析”后，Power BI 将打开“市场篮分析”报表页，并使用在源页上所做的选择来筛选目标页上显示的内容。
 
-    ![后退按钮的屏幕截图。](media/end-user-buttons/power-bi-go-back.png)
+    ![后退按钮的屏幕截图。](media/end-user-buttons/power-bi-back.png)
 
-    你现在位于已针对 Word 进行筛选的“市场篮分析”报表页。 若要返回到前一页，请选择后退按钮。 
+    你现在位于已针对“Word”进行筛选的“市场篮分析”报表页。 若要返回到前一页，请选择标记为“返回”的后退按钮。 
 
 ## <a name="bookmark-buttons"></a>书签按钮
-报表设计者通常将书签添加到报表。 可从右上角选择“视图” > “书签”来查看报表书签的列表 。 当报表设计者添加书签按钮时，这只是一种导航到与该书签关联的特定报表页的替代方法。 页面将包含由书签捕获的已应用的筛选器和设置。 [详细了解 Power BI 中的书签](end-user-bookmarks.md)。 
+报表设计者通常将书签添加到报表。 可从右上角选择“书签”来查看报表书签的列表。 当报表设计者添加书签按钮时，这只是一种导航到与该书签关联的特定报表页的替代方法。 页面将包含由书签捕获的已应用的筛选器和设置。 [详细了解 Power BI 中的书签](end-user-bookmarks.md)。 
 
 在此示例中，该按钮包含书签图标和书签名称 Urban。 
 
@@ -76,7 +75,7 @@ Power BI 服务中有两种钻取方法。 钻取会将你转到其他报表页�
 
 ## <a name="page-navigation"></a>页面导航
 
-页面导航按钮会将你转到同一报表中的其他页面。 报表设计者通常会创建导航按钮来讲述故事或提供报表见解导览。 在下面的示例中，报表设计者在每个报表页上添加了一个按钮，该按钮会将你转到报表的第一页，即顶层摘要页。 此页面导航按钮非常有用，因为此报表中有多个页面。
+页面导航按钮会将你转到同一报表中的其他页面。 报表设计者通常会创建导航按钮来讲述故事或提供报表见解导览。 在下面的示例中，报表设计者在每个报表页上添加了一个按钮，该按钮会将你返回到报表的第一页，即顶层摘要页。 此页面导航按钮非常有用，因为此报表中有多个页面。
 
 ![名为“团队记分卡”的页面导航按钮的屏幕截图。](media/end-user-buttons/power-bi-nav-button.png)
 
@@ -87,7 +86,7 @@ Power BI 服务中有两种钻取方法。 钻取会将你转到其他报表页�
 ![Power BI 问答资源管理器窗口的屏幕截图，其中包含文本“询问数据相关问题”。](media/end-user-buttons/power-bi-qna.png)
 
 ## <a name="web-url"></a>Web URL
-Web URL 按钮会打开一个新的浏览器窗口。 报表设计者可添加此类型按钮作为链接到公司网站的引用源，甚至作为指向其他报表或仪表板的链接。 在下面的示例中，通过 Web URL 按钮，可以下载报表的源文件。 
+Web URL 按钮会打开一个新的浏览器窗口。 报表设计者可添加此类型按钮作为链接到公司网站或帮助页面的引用源，甚至作为指向其他报表或仪表板的链接。 在下面的示例中，通过 Web URL 按钮，可以下载报表的源文件。 
 
 由于该页在单独的窗口中打开，请关闭窗口或选择 Power BI 选项卡以返回到 Power BI 报表。
 
