@@ -7,13 +7,13 @@ ms.reviewer: sranins
 ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: conceptual
-ms.date: 07/01/2020
-ms.openlocfilehash: 30ab225230784d19bd2aa4eb2f5ea775684b2afb
-ms.sourcegitcommit: d153cfc0ce559480c53ec48153a7e131b7a31542
+ms.date: 08/11/2020
+ms.openlocfilehash: 4725db331269bc9a2f41abf4c432e0bdf427bae6
+ms.sourcegitcommit: 02484b2d7a352e96213353702d60c21e8c07c6c0
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/29/2020
-ms.locfileid: "91524779"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "91981679"
 ---
 # <a name="manage-power-bi-visuals-admin-settings"></a>管理 Power BI 视觉对象管理员设置
 
@@ -60,7 +60,7 @@ UI 租户设置仅会影响 Power BI 服务。 如果希望这些设置在 Power
 
      * 选择“特定安全组”选项，以管理正在上传的 .pbiviz 文件，并使用安全组添加来自 AppSource 的视觉对象。 将要管理的安全组添加到“输入安全组”文本栏中。 默认情况下，将排除指定的安全组。 如果要包括这些安全组，并排除组织中的所有其他人员，请选择“特定安全组除外”选项。
 
-4. 单击“**应用**”。
+4. 单击“ **应用** ”。
 
 ![来自文件或 AppSource 的视觉对象](media/organizational-visuals/tenant-settings.png)
 
@@ -79,7 +79,7 @@ UI 租户设置仅会影响 Power BI 服务。 如果希望这些设置在 Power
 
 2. 单击“已启用”。
 
-3. 单击“**应用**”。
+3. 单击“ **应用** ”。
 
 ![已认证的视觉对象](media/organizational-visuals/certified-visuals.png)
 
@@ -130,7 +130,7 @@ Power BI 管理员可以管理组织的[组织商店](../developer/visuals/power
 
 3. 选择“添加”，以发起上传请求。 上传完成后，视觉对象将显示在组织视觉对象列表中。
 
-### <a name="add-a-visual-from-appsource-preview"></a>从 AppSource 添加视觉对象（预览）
+### <a name="add-a-visual-from-appsource"></a>从 AppSource 添加视觉对象
 
 使用此方法从 AppSource 添加新的 Power BI 视觉对象。
 

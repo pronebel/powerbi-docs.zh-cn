@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 48255955f6611f4687ca6dd48cbb5ec9876daed7
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: edf49ba9fa85ab2c46040fdac74691bea8b5b960
+ms.sourcegitcommit: 6b436f6ed872cbc040ed6e2d3ac089c08fc78daf
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85224767"
+ms.lasthandoff: 10/09/2020
+ms.locfileid: "91928300"
 ---
 # <a name="connect-to-a-google-bigquery-database-in-power-bi-desktop"></a>在 Power BI Desktop 中连接到 Google BigQuery 数据库
 在 Power BI Desktop 中，你可以连接到 Google BigQuery  数据库，并以 Power BI Desktop 中使用其他所有数据源相同的方式使用基础数据。
@@ -41,11 +41,26 @@ ms.locfileid: "85224767"
 
 * Power BI Desktop 和 Power BI 服务中提供了 Google BigQuery 连接器。 在 Power BI 服务中，可以使用从 Power BI 到 Google BigQuery 的云到云连接访问连接器。
 
-可以将 Power BI 与 Google BigQuery 计费项目  结合使用。 默认情况下，Power BI 使用从列表中为用户返回的第一个项目。 若要自定义与 Power BI 结合使用时计费项目的行为，可执行以下步骤：
+* 可以将 Power BI 与 Google BigQuery 计费项目  结合使用。 默认情况下，Power BI 使用从列表中为用户返回的第一个项目。 
 
- * 在“源”步骤的基础 M 中指定以下选项，这可以通过使用 Power BI Desktop 中的 Power Query 编辑器  进行自定义：
+  若要在将计费项目与 Power BI 一起使用时对其行为进行自定义，请在“源”步骤的基础 M 中指定以下选项，这可以通过使用 Power BI Desktop 中的 Power Query 编辑器进行自定义：
 
-    ```Source = GoogleBigQuery.Database([BillingProject="Include-Billing-Project-Id-Here"])```
+  ```
+  Source = GoogleBigQuery.Database([BillingProject="Include-Billing-Project-Id-Here"])
+  ```
+
+  从 2020 年 9 月版开始，我们启用了对 [Google BigQuery 存储 API](https://cloud.google.com/bigquery/docs/reference/storage) 的支持。 如果某些客户使用粒度权限，则可能会遇到此功能的问题。 如果是这种情况，你可能会看到以下错误消息：
+
+  `ERROR [HY000] [Microsoft][BigQuery] (131) Unable to authenticate with Google BigQuery Storage API. Check your account permissions`
+
+  可以通过调整存储 API 的用户权限来解决此问题。 分配以下存储 API 权限：
+
+  - `bigquery.readsessions.create` - 通过 BigQuery 存储 API 创建新的读取会话。
+  - `bigquery.readsessions.getData` - 通过 BigQuery 存储 API 从读取会话读取数据。
+  - `bigquery.readsessions.update` - 通过 BigQuery 存储 API 更新读取会话。
+
+  这些权限通常在 BigQuery.User 角色中提供。 有关详细信息，请参阅 [Google BigQuery 预定义角色和权限](https://cloud.google.com/bigquery/docs/access-control)。
+
 
 ## <a name="next-steps"></a>后续步骤
 你可以使用 Power BI Desktop 连接到各种数据。 有关数据源的详细信息，请参阅下列资源：

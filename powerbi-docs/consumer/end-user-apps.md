@@ -6,16 +6,16 @@ ms.reviewer: lukaszp
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: how-to
-ms.date: 08/13/2020
+ms.date: 10/09/2020
 ms.author: mihart
 ms.custom: licensing support, css_fy20Q4
 LocalizationGroup: Share your work
-ms.openlocfilehash: cbf4c242ef1bc3fe304e162a49d2d971677f463d
-ms.sourcegitcommit: 642b0c04d3ff3aa4d5422ca5054a5a158fb01b22
+ms.openlocfilehash: 15345c8ca7249c3a6bf4018a322a8ce3d78b9de3
+ms.sourcegitcommit: 02484b2d7a352e96213353702d60c21e8c07c6c0
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/18/2020
-ms.locfileid: "88512899"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "91982063"
 ---
 # <a name="apps-in-power-bi"></a>Power BI 中的“应用”
 
@@ -35,7 +35,7 @@ ms.locfileid: "88512899"
 ## <a name="advantages-of-apps"></a>应用的优点
 应用为设计者提供了一种一次共享不同类型的内容的简单方法。 应用设计者创建仪表板和报表并将其绑定到一个应用。 然后，设计者将该应用发布到业务用户可访问的位置并与之共享 。 由于相关的仪表板和报表绑定在一起，因此你可以更轻松地在 Power BI 服务 ([https://powerbi.com](https://powerbi.com)) 和移动设备上查找和安装。 安装应用后，无需记住许多不同仪表板或报表的名称，因为它们已全部汇总到应用、浏览器或移动设备中。
 
-借助应用，只要应用作者发布更新，就会自动看到变化。 作者还可以控制数据的计划刷新频率，这样就不必担心要不断更新了。 
+借助应用，只要应用作者发布更新，就会收到通知或自动看到变化。 作者还可以控制数据的计划刷新频率，这样就不必担心要不断更新了。 
 
 <!-- add conceptual art -->
 ## <a name="get-a-new-app"></a>获取新的应用
@@ -44,7 +44,7 @@ ms.locfileid: "88512899"
 ### <a name="find-and-install-apps-from-the-power-bi-apps-marketplace"></a>从 Power BI 应用市场中查找和安装应用
 查找应用的一种方法是从 Power BI“应用”屏幕中选择“获取应用” 。 
 
-![“应用”屏幕的屏幕截图，其中显示了“获取应用”图标](./media/end-user-apps/power-bi-get-apps-icon.png)
+![“应用”屏幕的屏幕截图，其中显示了“获取应用”图标](./media/end-user-apps/power-bi-get-apps-button.png)
 
 浏览 Power BI 应用市场中的应用列表，直到找到要安装的应用。 从仅适用于公司人员的“组织应用”中进行选择，或者从由 Microsoft 和社区提供并供任何 Power BI 用户进行安装的“模板应用”中进行选择 。 
 
@@ -59,7 +59,7 @@ ms.locfileid: "88512899"
 
 应用在“应用”内容列表中进行整理。 只需选择“应用”即可显示应用。 将鼠标悬停在应用上可查看上次更新日期和所有者。 
 
-![Power BI 中的“应用”](./media/end-user-apps/power-bi-apps-red.png)
+![Power BI 中的“应用”](./media/end-user-apps/power-bi-apps.png)
 
 
 ## <a name="next-steps"></a>后续步骤

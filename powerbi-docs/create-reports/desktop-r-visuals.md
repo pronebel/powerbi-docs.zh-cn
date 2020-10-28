@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 11/04/2019
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 65291c81ab1952599079ff93ed4ed19694657132
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 96d33351ba1f0d96cac71548854c94810cfdc692
+ms.sourcegitcommit: 6b436f6ed872cbc040ed6e2d3ac089c08fc78daf
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85239068"
+ms.lasthandoff: 10/09/2020
+ms.locfileid: "91928277"
 ---
 # <a name="create-power-bi-visuals-using-r"></a>使用 R 创建 Power BI 视觉对象
 借助 Power BI Desktop，可以使用 R 将数据可视化  。 [R](https://mran.revolutionanalytics.com/documents/what-is-r) 是用于统计计算和图形的一种语言和环境。
@@ -129,6 +129,8 @@ Power BI Desktop 中的 R 视觉对象有以下限制：
 
 * 数据大小：R 视觉对象用于绘制的数据仅限 150,000 行。 如果选择了 150,000 行以上，则只会使用前 150,000 行，且在图像上显示一条消息。
 
+* 输出大小：R 视觉对象的输出大小限制为 2 MB。
+
 * 分辨率：所有 R 视觉对象均以 72 DPI 显示。
 
 * 绘图设备：仅支持绘制到默认设备上。 
@@ -145,7 +147,7 @@ Power BI Desktop 中的 R 视觉对象有以下限制：
 
 * 列重命名：R 视觉对象不支持重命名输入列。 在脚本执行期间，将按列的原始名称对其进行引用。
 
-* RRO 安装：在此版本中，32 位版本的 Power BI Desktop 不会自动标识 RRO 安装；必须在“选项和设置” > “选项” > “R 脚本”中手动提供 R 安装目录的路径    。
+* RRO 安装：在此版本中，32 位版本的 Power BI Desktop 不会自动标识 RRO 安装；必须在“选项和设置” > “选项” > “R 脚本”中手动提供 R 安装目录的路径  。
 
 ## <a name="next-steps"></a>后续步骤
 有关 Power BI 中的 R 的详细信息，请参阅以下文章：
