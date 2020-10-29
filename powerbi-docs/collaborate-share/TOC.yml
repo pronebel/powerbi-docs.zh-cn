@@ -16,6 +16,8 @@
           href: service-usage-metrics.md
         - name: 在新工作区中监视使用情况
           href: service-modern-usage-metrics.md
+        - name: 内容认可
+          href: service-endorsement-overview.md
     - name: 操作指南
       expanded: true
       items:
@@ -73,6 +75,8 @@
               href: service-url-filters.md
             - name: 自己和他人订阅
               href: service-report-subscribe.md
+            - name: 认可你的内容
+              href: service-endorse-content.md
             - name: 主页上的精选内容
               href: service-featured-content.md
             - name: 在 SharePoint Online 中嵌入报表

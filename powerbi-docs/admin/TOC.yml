@@ -94,7 +94,7 @@
               href: service-security-data-protection-metrics-report.md
         - name: 行级别安全性
           href: service-admin-rls.md
-        - name: 设置数据集和数据流认证
+        - name: 启用内容认证
           href: service-admin-setup-certification.md
         - name: 使用 Intune 配置移动应用
           href: service-admin-mobile-intune.md
