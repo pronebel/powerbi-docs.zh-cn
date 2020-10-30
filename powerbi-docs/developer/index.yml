@@ -13,12 +13,12 @@ metadata:
   author: KesemSharabi
   ms.author: kesharab
   ms.date: 31/03/2020
-  ms.openlocfilehash: 33b047952ce5ca7748bc54595e27c4025bd34e6b
-  ms.sourcegitcommit: 50b21718a167c2b131313b4135c8034c6f027597
+  ms.openlocfilehash: 3ed27c97169c1b4a579dadb001555445fe8fc43f
+  ms.sourcegitcommit: 4ac9447d1607dfca2e60948589f36a3d64d31cb4
   ms.translationtype: HT
   ms.contentlocale: zh-CN
-  ms.lasthandoff: 10/14/2020
-  ms.locfileid: "92048823"
+  ms.lasthandoff: 10/29/2020
+  ms.locfileid: "92916765"
 highlightedContent:
   items:
   - title: Power BI 嵌入式分析
@@ -85,7 +85,7 @@ additionalContent:
       summary: Power BI REST API 提供用于嵌入、管理和用户资源的服务终结点。
       url: /rest/api/power-bi/
     - title: Azure 资源管理器 REST API
-      summary: 一个 API，它提供一组 RESTful Web 服务，可用于创建、检索、更新和删除 Power BI 专用容量。
+      summary: 一个 API，它提供一组 RESTful Web 服务，可用于创建、检索、更新和删除 Power BI 容量。
       url: /rest/api/power-bi-embedded/
     - title: Power Platform 文档
       summary: 了解 Power BI、Power Apps、Power Automate 和 Power Virtual Agents 如何协同工作以便互相增强。
