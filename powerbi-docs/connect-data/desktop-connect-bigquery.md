@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: edf49ba9fa85ab2c46040fdac74691bea8b5b960
-ms.sourcegitcommit: 6b436f6ed872cbc040ed6e2d3ac089c08fc78daf
+ms.openlocfilehash: 68698d51b074102a8d8e556101fcfaf6a39c2c62
+ms.sourcegitcommit: 3ddfd9ffe2ba334a6f9d60f17ac7243059cf945b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/09/2020
-ms.locfileid: "91928300"
+ms.lasthandoff: 10/22/2020
+ms.locfileid: "92349405"
 ---
 # <a name="connect-to-a-google-bigquery-database-in-power-bi-desktop"></a>在 Power BI Desktop 中连接到 Google BigQuery 数据库
 在 Power BI Desktop 中，你可以连接到 Google BigQuery  数据库，并以 Power BI Desktop 中使用其他所有数据源相同的方式使用基础数据。
@@ -49,7 +49,7 @@ ms.locfileid: "91928300"
   Source = GoogleBigQuery.Database([BillingProject="Include-Billing-Project-Id-Here"])
   ```
 
-  从 2020 年 9 月版开始，我们启用了对 [Google BigQuery 存储 API](https://cloud.google.com/bigquery/docs/reference/storage) 的支持。 如果某些客户使用粒度权限，则可能会遇到此功能的问题。 如果是这种情况，你可能会看到以下错误消息：
+  从 2020 年 9 月版开始，我们启用了对 [Google BigQuery 存储 API](https://cloud.google.com/bigquery/docs/reference/storage) 的支持。 默认情况下启用此功能，并由名为“UseStorageApi”的可选布尔参数控制。 如果某些客户使用粒度权限，则可能会遇到此功能的问题。 如果是这种情况，你可能会看到以下错误消息：
 
   `ERROR [HY000] [Microsoft][BigQuery] (131) Unable to authenticate with Google BigQuery Storage API. Check your account permissions`
 
@@ -60,7 +60,15 @@ ms.locfileid: "91928300"
   - `bigquery.readsessions.update` - 通过 BigQuery 存储 API 更新读取会话。
 
   这些权限通常在 BigQuery.User 角色中提供。 有关详细信息，请参阅 [Google BigQuery 预定义角色和权限](https://cloud.google.com/bigquery/docs/access-control)。
-
+  
+  如果上述步骤不能解决问题，或者如果想要禁用对存储 API 的支持，请将查询更改为以下内容：
+  ```
+  Source = GoogleBigQuery.Database([UseStorageApi=false])
+  ```
+  或者，如果你已经在使用计费项目，请将查询更改为以下内容：
+  ```
+  Source = GoogleBigQuery.Database([BillingProject="Include-Billing-Project-Id-Here", UseStorageApi=false])
+  ```
 
 ## <a name="next-steps"></a>后续步骤
 你可以使用 Power BI Desktop 连接到各种数据。 有关数据源的详细信息，请参阅下列资源：

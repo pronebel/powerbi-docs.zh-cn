@@ -8,12 +8,12 @@ ms.topic: how-to
 ms.date: 04/05/2020
 ms.author: painbar
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 5487d9f0eb5d8b172cc3e29ea24e88704267cd85
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 01dab6cad6142b455a0d61a0011e43cea6da23e1
+ms.sourcegitcommit: 3ddfd9ffe2ba334a6f9d60f17ac7243059cf945b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85230255"
+ms.lasthandoff: 10/22/2020
+ms.locfileid: "92349478"
 ---
 # <a name="connect-to-the-covid-19-us-tracking-report"></a>连接到 COVID-19 美国跟踪报表
 本文介绍如何安装 COVID-19 跟踪报告的模板应用，以及如何连接到数据源。
@@ -26,11 +26,11 @@ ms.locfileid: "85230255"
 
 ## <a name="install-the-app"></a>安装应用
 
-1. 单击以下链接可转到该应用：[COVID-19 美国跟踪报表模板应用](https://appsource.microsoft.com/en-us/product/power-bi/pbi-contentpacks.covid19ms)
+1. 单击以下链接可转到该应用：[COVID-19 美国跟踪报表模板应用](https://app.powerbi.com/groups/me/getapps/services/pbi-contentpacks.covid19ms)
 
-1. 在应用的 Appsource 页面上，单击“[立即获取](https://appsource.microsoft.com/en-us/product/power-bi/pbi-contentpacks.covid19ms)”  。
+1. 在应用的 Appsource 页面上，单击“[立即获取](https://app.powerbi.com/groups/me/getapps/services/pbi-contentpacks.covid19ms)”  。
 
-    [![Appsource 中的 Covid-19 美国跟踪报表](media/service-connect-to-covid-19-tracking/service-covid-19-us-tracking-report-appsource-icon.png)](https://appsource.microsoft.com/en-us/product/power-bi/pbi-contentpacks.covid19ms)
+    [![Appsource 中的 Covid-19 美国跟踪报表](media/service-connect-to-covid-19-tracking/service-covid-19-us-tracking-report-appsource-icon.png)](https://app.powerbi.com/groups/me/getapps/services/pbi-contentpacks.covid19ms)
 
 1. 出现提示时，单击“安装”  。 应用安装后，应用页面上会显示。
 
@@ -44,11 +44,21 @@ ms.locfileid: "85230255"
 
    ![模板应用初始屏幕](media/service-connect-to-covid-19-tracking/service-covid-19-us-tracking-report-splash-screen.png)
 
-1. 将逐个显示两个登录对话框。 在这两个对话框上，将隐私级别设置为公开。
+1. 随即出现“参数”对话框。 没有必需的参数。 单击“下一步”  。
 
-   ![COVID-19 美国跟踪报表登录对话框](media/service-connect-to-covid-19-tracking/service-covid-19-us-tracking-report-signin-dialog.png)
+   ![Covid-19 美国跟踪报表“参数”对话框的屏幕截图。](media/service-connect-to-covid-19-tracking/service-covid-19-us-tracking-report-parameters-dialog.png)
 
-   报表将连接到数据源，并用最新的数据进行填充。 在此期间，活动监视器将转动。
+1. 随即显示“身份验证方法”对话框。 已预填充建议值。 除非对不同的值有明确的了解，否则请不要更改这些值。
+
+    单击“下一步”  。
+
+   ![Covid-19 美国跟踪报表“身份验证”对话框的屏幕截图。](media/service-connect-to-covid-19-tracking/service-covid-19-us-tracking-report-authentication-dialog.png)
+
+1. 单击“登录”  。
+
+   ![Covid-19 美国跟踪报表“登录”对话框的屏幕截图。](media/service-connect-to-covid-19-tracking/service-covid-19-us-tracking-report-signin-dialog.png)
+ 
+   报表将连接到数据源，并用最新的数据进行填充。 在此期间，你将看到示例数据，且正在进行刷新。
 
    ![刷新中的 Covid-19 美国跟踪报表](media/service-connect-to-covid-19-tracking/service-covid-19-us-tracking-report-refresh-monitor.png)
 
@@ -62,6 +72,6 @@ ms.locfileid: "85230255"
 
 ## <a name="next-steps"></a>后续步骤
 * [适用于美国各州和地方政府的 COVID-19 跟踪示例](../create-reports/sample-covid-19-us.md)
-* 是否有任何问题? [尝试咨询 Power BI 社区](https://community.powerbi.com/)
+* 是否有任何问题？ [尝试咨询 Power BI 社区](https://community.powerbi.com/)
 * [什么是 Power BI 模板应用？](../connect-data/service-template-apps-overview.md)
 * [在组织中安装和分发模板应用](../connect-data/service-template-apps-install-distribute.md)

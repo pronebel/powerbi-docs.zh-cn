@@ -5,15 +5,15 @@ services: powerbi
 author: maggiesMSFT
 ms.service: powerbi
 ms.topic: include
-ms.date: 09/04/2020
+ms.date: 10/21/2020
 ms.author: maggies
 ms.custom: include file
-ms.openlocfilehash: 0bf9f1a6eb918e55ab3811b9c6fde2628bdd91ad
-ms.sourcegitcommit: 02484b2d7a352e96213353702d60c21e8c07c6c0
+ms.openlocfilehash: 87c35df25a17090f1788abbeb979afab3ad9d6a9
+ms.sourcegitcommit: fddba666c6ea90d525a1c3188bbd3c4a03410cdc
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "91983709"
+ms.lasthandoff: 10/23/2020
+ms.locfileid: "92462203"
 ---
 |功能   | 管理员  | 成员  | 参与者  | 查看器 |
 |---|---|---|---|---|
@@ -31,6 +31,7 @@ ms.locfileid: "91983709"
 | 将报表发布到工作区，删除内容。  |  ![“是”复选标记](media/power-bi-workspace-roles-table/green-checkmark.png) | ![“是”复选标记](media/power-bi-workspace-roles-table/green-checkmark.png)  | ![“是”复选标记](media/power-bi-workspace-roles-table/green-checkmark.png)  |   |
 | 基于此工作区中的数据集在其他工作区中创建报表。<sup>2</sup> |  ![“是”复选标记](media/power-bi-workspace-roles-table/green-checkmark.png) | ![“是”复选标记](media/power-bi-workspace-roles-table/green-checkmark.png)  | ![“是”复选标记](media/power-bi-workspace-roles-table/green-checkmark.png)  |   |
 | 复制报表。<sup>3</sup> | ![“是”复选标记](media/power-bi-workspace-roles-table/green-checkmark.png) | ![“是”复选标记](media/power-bi-workspace-roles-table/green-checkmark.png) | ![“是”复选标记](media/power-bi-workspace-roles-table/green-checkmark.png) |  |
+| 管理数据集权限。<sup>3</sup> | ![“是”复选标记](media/power-bi-workspace-roles-table/green-checkmark.png) | ![“是”复选标记](media/power-bi-workspace-roles-table/green-checkmark.png) | ![“是”复选标记](media/power-bi-workspace-roles-table/green-checkmark.png) |  |
 | 通过本地网关计划数据刷新。<sup>4</sup> | ![“是”复选标记](media/power-bi-workspace-roles-table/green-checkmark.png) | ![“是”复选标记](media/power-bi-workspace-roles-table/green-checkmark.png) | ![“是”复选标记](media/power-bi-workspace-roles-table/green-checkmark.png) |  |
 | 修改网关连接设置。<sup>4</sup> | ![“是”复选标记](media/power-bi-workspace-roles-table/green-checkmark.png) | ![“是”复选标记](media/power-bi-workspace-roles-table/green-checkmark.png) | ![“是”复选标记](media/power-bi-workspace-roles-table/green-checkmark.png) |  |
 | 查看项并与之交互。<sup>5</sup> |  ![“是”复选标记](media/power-bi-workspace-roles-table/green-checkmark.png) | ![“是”复选标记](media/power-bi-workspace-roles-table/green-checkmark.png)  | ![“是”复选标记](media/power-bi-workspace-roles-table/green-checkmark.png)  | ![“是”复选标记](media/power-bi-workspace-roles-table/green-checkmark.png)  |

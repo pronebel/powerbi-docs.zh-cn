@@ -6,19 +6,21 @@ ms.reviewer: nikhilga
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: how-to
-ms.date: 03/16/2020
+ms.date: 10/14/2020
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 3340225ccd4c6457e25013b6c347769d848b104c
-ms.sourcegitcommit: 02b5d031d92ea5d7ffa70d5098ed15e4ef764f2a
+ms.openlocfilehash: eef0ba24347bd46cc86325cac494937e3f95086a
+ms.sourcegitcommit: fddba666c6ea90d525a1c3188bbd3c4a03410cdc
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/26/2020
-ms.locfileid: "91374927"
+ms.lasthandoff: 10/23/2020
+ms.locfileid: "92462434"
 ---
 # <a name="feature-content-on-colleagues-power-bi-home-page"></a>在同事的 Power BI 主页上特别推荐内容
 
-你可以特别仪表板、报表和应用，使其显示在同事的 Power BI 主页的“特别推荐”部分中。 对于刚开始使用 Power BI 的员工，特别推荐的内容尤其有用。 你可以决定他们首先看到的内容。 你可以添加描述和小缩略图，帮助他们找到所需内容。 内容必须位于新的工作区中。
+[!INCLUDE [applies-to](../includes/applies-to.md)] [!INCLUDE [yes-service](../includes/yes-service.md)] [!INCLUDE [no-desktop](../includes/no-desktop.md)]
+
+你可以特别仪表板、报表和应用，使其显示在同事的 Power BI 主页的“特别推荐”部分中。 对于刚开始使用 Power BI 的员工，特别推荐的内容尤其有用。 你决定他们首先看到的内容。 添加描述和小缩略图，帮助他们找到所需内容。 内容必须位于新的工作区中。
 
 :::image type="content" source="media/service-featured-content/power-bi-featured-home.png" alt-text="Power BI 主页上的特别推荐的内容":::
 
@@ -30,7 +32,7 @@ ms.locfileid: "91374927"
 
 ## <a name="who-sees-featured-content"></a>谁可以看到特别推荐的内容
 
-如果在工作区中特别推荐仪表板或报表，则在该工作区中至少具有“查看者”角色的人员可看到特别推荐的内容。 如果在应用中特别推荐仪表板或报表，或者对应用本身进行特别推荐，则你为其分发应用的用户可看到特别推荐的内容。
+你可以从工作区中特别推荐仪表板或报表。 执行此操作时，在该工作区中至少具有查看者角色的人员将会看到该特别推荐内容。 你还可以特别推荐某个应用中的仪表板或报表，或推荐该应用本身。 在这种情况下，你分发了应用的用户将看到该特别推荐内容。
 
 ## <a name="feature-a-dashboard-or-report"></a>特别推荐仪表板或报表
 

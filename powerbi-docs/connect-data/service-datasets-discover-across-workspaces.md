@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 04/30/2020
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: e9bffc860baa424caef05bad3ac423932868c410
-ms.sourcegitcommit: 02b5d031d92ea5d7ffa70d5098ed15e4ef764f2a
+ms.openlocfilehash: 59fc2d4be1336d9476c86e4204eeb23564ebe64e
+ms.sourcegitcommit: 4e347efd132b48aaef6c21236c3a21e5fce285cc
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/26/2020
-ms.locfileid: "91374329"
+ms.lasthandoff: 10/27/2020
+ms.locfileid: "92681103"
 ---
 # <a name="create-reports-based-on-datasets-from-different-workspaces"></a>基于来自不同工作区的数据集创建报表
 
@@ -57,7 +57,7 @@ ms.locfileid: "91374329"
 
     在“选择数据集”对话框中，默认情况下，已认可的数据集位于列表顶部。 
 
-    ![已推广的数据集](media/service-datasets-certify-promote/power-bi-dataset-promoted.png)
+    ![已推广的数据集](media/service-datasets-discover-across-workspaces/power-bi-dataset-promoted.png)
 
 ## <a name="next-steps"></a>后续步骤
 

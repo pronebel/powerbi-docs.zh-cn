@@ -6,15 +6,15 @@ ms.reviewer: mihart
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 04/15/2020
+ms.date: 10/22/2020
 ms.author: maggies
 LocalizationGroup: Get started
-ms.openlocfilehash: 01edbc2a3ec3fe9423b5eab575b1b0450185d6bd
-ms.sourcegitcommit: 2131f7b075390c12659c76df94a8108226db084c
+ms.openlocfilehash: f398b0b3331d5677419c824646108f8d04815338
+ms.sourcegitcommit: fddba666c6ea90d525a1c3188bbd3c4a03410cdc
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/03/2020
-ms.locfileid: "87538024"
+ms.lasthandoff: 10/23/2020
+ms.locfileid: "92462256"
 ---
 # <a name="the-new-look-of-the-power-bi-service"></a>Power BI 服务的新外观
 
@@ -24,70 +24,48 @@ Power BI 服务 (app.powerbi.com) 的新外观使报表查看和交互更加容�
 
 下面概述了新外观中相较原外观的变化。 有关详细信息，请参阅编号部分：
 
-![新外观更改概述](media/service-new-look/power-bi-new-look-changes.png)
+![新外观更改概述的屏幕截图。](media/service-new-look/power-bi-new-look-changes-callouts.png)
 
-正在寻找特定的操作？ 请参阅[全新外观：操作位于何处？](service-new-look-where-actions.md)。
+正在寻找特定的操作？ 请参阅[全新外观：操作位于何处？](service-new-look-where-actions.md)
 
-## <a name="quick-tour-of-the-changes"></a>有关更改的快速教程
+## <a name="1-vertical-list-of-pages"></a>1.页的垂直列表 
+在“阅读”视图中，报表页名称位于垂直窗格的列表中。 这种存放方式类似于 Word 和 PowerPoint 中的导航，能突出显示报表，使得其不容易被忽略。 可以增加或减小报表区域其余部分的空间：重设垂直窗格的大小，或选择双箭头将其完全关闭。
 
-此动画生动演示了对报表外观的更改。
+![位于侧面的“报表”页名称的屏幕截图。](media/service-new-look/power-bi-new-look-report-pages.png)
 
-![新外观 - 快速教程](media/service-new-look/power-bi-new-look-quick-tour.gif)
+如果你具有报表的编辑权限，则可以对其进行设置，使页名称位于底部，就像它们在报表“编辑”视图中一样。 有关详细信息，请参阅“更改 Power BI 报表的设置”文章中的[设置“页面”窗格](../create-reports/power-bi-report-settings.md#set-the-pages-pane)。
 
-## <a name="1-opt-in-to-the-new-look"></a>1.选择启用新外观
+## <a name="2-simplified-action-bar"></a>2.简化的操作栏 
 
-任何 Power BI 服务用户都可以选择启用新外观。 只需将开关从“禁用新外观”滑动到“启用新外观”即可   。
+更新后的操作栏位于报表顶部，显示了报表使用者最常用、最重要的命令。 导出、共享、在 Teams 中聊天以及订阅变得更容易。 
 
-![选择启用新外观](media/service-new-look/power-bi-new-look-off.png)
+![新操作栏的屏幕截图。](media/service-new-look/power-bi-new-look-action-bar.png)
 
-如果需要返回旧外观，只需将开关滑动回到“关”![启用新外观](media/service-new-look/power-bi-new-look-toggle-on.png)  。 如果看不到此开关，请选择右上角的省略号菜单。
+## <a name="3-where-are-the-report-commands"></a>3.报表命令位于何处？
 
-![选择退出新外观](media/service-new-look/power-bi-new-look-on.png)
+我们没有从旧外观中删除任何功能。 选择“更多选项(…)”以使用其他更高级的命令。 请参阅[全新外观：操作位于何处？](service-new-look-where-actions.md)以了解详细信息。
 
-## <a name="2-view-report-details"></a>2.查看报表详细信息 
+## <a name="4-new-filter-experience"></a>4.新筛选器体验
+
+默认情况下，可以看到报表的新“筛选器”窗格具有新的外观。 当鼠标悬停在视觉对象的“筛选器”图标上时，你可看到影响该视觉对象的所有筛选器和切片器。
+
+![影响该视觉对象的所有筛选器和切片器的屏幕截图。](media/service-new-look/power-bi-new-look-filters.png)
+
+## <a name="view-report-details"></a>查看报表详细信息 
 
 在顶部横幅中，可快速查看“上次刷新日期”和“联系信息”等详细信息。  打开菜单可以查看报表的其他详细信息。 甚至可以向报表所有者发送电子邮件。
 
-![查看报表详细信息](media/service-new-look/power-bi-new-look-metadata.png)
+![“查看报表详细信息”的屏幕截图。](media/service-new-look/power-bi-new-look-metadata.png)
 
-## <a name="3-vertical-list-of-pages"></a>3.页的垂直列表 
-报表页名称现在存放在垂直窗格的列表中。 这种存放方式类似于 Word 和 PowerPoint 中的导航，能突出显示报表，使得其不容易被忽略。 可以通过调整垂直窗格的大小，增加或减小报表区域其余部分的空间。
+## <a name="no-changes-to-report-edit-mode"></a>未更改报表编辑模式 
 
-![报表页](media/service-new-look/power-bi-new-look-report-pages.png)
-
-## <a name="4-simplified-action-bar"></a>4.简化的操作栏 
-
-更新后的操作栏位于报表顶部，显示了报表使用者最常用、最重要的命令。 在此可以更轻松地进行导出、订阅、与他人协作等操作以及通过筛选器和书签对报表进行更深入地了解。
-
-![新建操作栏](media/service-new-look/power-bi-new-look-action-bar.png)
-
-## <a name="5-where-are-the-report-commands"></a>5.报表命令位于何处？
-
-我们没有从旧外观中删除任何功能。 可以通过展开操作栏中的省略号（... 菜单），找到其他命令（如编辑、保存副本等）。 此外，还可以从内容列表访问使用情况指标。
-
-![新外观中的报表操作栏](media/service-new-look/power-bi-report-action-bar-new-look.gif)
-
-### <a name="where-are-file-menu-actions"></a>“文件”菜单操作位于何处？
-
-想查找“文件”菜单中的操作  ？ 过去位于“文件”菜单上的操作现在也位于“更多选项” (...) 菜单上   。 
-
-![新外观中的“文件”菜单](media/service-new-look/power-bi-file-menu-new-look.gif)
-
-## <a name="6-new-filter-experience"></a>6.新筛选器体验
-
-默认情况下，新外观中使用最新升级的筛选器应用窗格和筛选器新建窗格。 即使报表设计器尚未升级到新的筛选器体验，也会显示新筛选器窗格。
-
-![筛选器重述](media/service-new-look/power-bi-new-look-filters.png)
+我们保留了与桌面版中类似的创作体验。 新外观更改仅适用于阅读视图。
 
 ## <a name="dashboard-new-look-experience"></a>仪表板的“新外观”体验 
 
-为了保证一致的交互体验，与报表和应用一样，仪表板也升级为了简化的操作栏，但保留了功能上的差异。 下面是仪表板中的操作的演练。
+仪表板还具有简化的操作栏。 为了实现一致的体验，这与报表和应用类似，但保留了功能上的差异。 下面是仪表板中的操作的演练。
  
-![新外观中的仪表板操作栏](media/service-new-look/power-bi-dashboard-action-bar-new-look.gif)
-
-## <a name="no-changes-to-edit-mode"></a>编辑模式无更改 
-
-我们保留了与桌面版中类似的创作体验。 新外观更改仅适用于阅读视图。
+![新外观中的仪表板操作栏的屏幕截图。](media/service-new-look/power-bi-dashboard-action-bar-new-look.png)
 
 ## <a name="next-steps"></a>后续步骤
 

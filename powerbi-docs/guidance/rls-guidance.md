@@ -8,12 +8,12 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 06/18/2020
 ms.author: v-pemyer
-ms.openlocfilehash: 60bb1ef7421d4ebcedd49d2e973cf245edec0381
-ms.sourcegitcommit: cff93e604e2c5f24e0f03d6dbdcd10c2332aa487
+ms.openlocfilehash: 644e4499a335f18febadf33c371bd15e01499701
+ms.sourcegitcommit: 3ddfd9ffe2ba334a6f9d60f17ac7243059cf945b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90965027"
+ms.lasthandoff: 10/22/2020
+ms.locfileid: "92349612"
 ---
 # <a name="row-level-security-rls-guidance-in-power-bi-desktop"></a>Power BI Desktop 中的行级别安全性 (RLS) 指南
 
@@ -47,7 +47,7 @@ FALSE()
 TRUE()
 ```
 
-注意：如果报表用户映射到这两个角色，他们将看到所有“薪金”表行。
+注意：如果报表用户映射到这两个角色，他们将看到所有“工资”表行。
 
 ## <a name="optimize-rls"></a>优化 RLS
 

@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 04/30/2020
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 0caaf46956656c141992482ae39773d19e8fc550
-ms.sourcegitcommit: 02b5d031d92ea5d7ffa70d5098ed15e4ef764f2a
+ms.openlocfilehash: 6cc602b96207b1662f0738c0936ca816bbfd0a03
+ms.sourcegitcommit: 4e347efd132b48aaef6c21236c3a21e5fce285cc
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/26/2020
-ms.locfileid: "91374141"
+ms.lasthandoff: 10/27/2020
+ms.locfileid: "92681036"
 ---
 # <a name="control-the-use-of-datasets-across-workspaces"></a>跨工作区控制数据集的使用
 
@@ -32,9 +32,9 @@ ms.locfileid: "91374141"
 
 ## <a name="provide-a-link-for-the-certification-process"></a>提供验证过程的链接
 
-作为 Power BI 管理员，你可以在“认可”设置页面上提供“了解详细信息”链接的 URL 。  此链接可以转到关于验证过程的文档。 如果你未提供“了解详细信息”链接的目标，则默认指向[数据集验证](service-datasets-certify.md)一文。
+作为 Power BI 管理员，你可以在“认可”设置页面上提供“了解详细信息”链接的 URL 。  有关详细信息，请参阅[启用内容认证](../admin/service-admin-setup-certification.md)。 此链接可以转到关于验证过程的文档。 如果你未提供“了解详细信息”链接的目标，则默认指向[认可你的内容](../collaborate-share/service-endorse-content.md)一文。
 
-![数据集验证“了解详细信息”](media/service-datasets-certify-promote/power-bi-dataset-learn-more-certification.png)
+![数据集验证“了解详细信息”](media/service-datasets-admin-across-workspaces/service-admin-certification-setup-dialog.png)
 
 ## <a name="next-steps"></a>后续步骤
 

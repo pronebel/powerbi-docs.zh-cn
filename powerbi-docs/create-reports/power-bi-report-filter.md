@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: how-to
-ms.date: 05/15/2020
+ms.date: 10/23/2020
 ms.author: maggies
 LocalizationGroup: Reports
-ms.openlocfilehash: 926334f5708914b30277ac0c855937dfb6b79bfb
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 358d0575c2de3297614bfed0656d953945b2ed13
+ms.sourcegitcommit: 54e571a10b0fdde5cd6036017eac9ef228de5116
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85233931"
+ms.lasthandoff: 10/24/2020
+ms.locfileid: "92502147"
 ---
 # <a name="design-filters-in-power-bi-reports"></a>设计 Power BI 报表中的筛选器
 
@@ -38,38 +38,16 @@ ms.locfileid: "85233931"
 
 ![视觉对象的筛选器列表](media/power-bi-report-filter/power-bi-filter-visual.png)
 
-## <a name="turn-on-new-filters-in-existing-reports"></a>在现有报表中打开新筛选器 
-
-新报表默认启用新筛选器体验。 可在 Power BI Desktop 或 Power BI 服务中为现有报表启用新体验。
-
-### <a name="turn-on-new-filters-for-an-existing-report-in-power-bi-desktop"></a>在 Power BI Desktop 中为现有报表启用新筛选器
-
-1. 在 Power BI Desktop 的现有报表中，选择“文件” > “选项和设置” > “选项”
-2. 在导航窗格的“当前文件”下方，选择“报表设置” 。
-3. 在“筛选体验”下，选择“启用更新后的‘筛选器’窗格，并在此报表的视觉对象标头中显示筛选器”。
-
-### <a name="turn-on-new-filters-for-an-existing-report-in-the-service"></a>在该服务中为现有报表启用新筛选器
-
-如果已在 Power BI 服务中启用新外观 ![新外观已启用](media/power-bi-report-filter/power-bi-new-look-on.png)，则会自动启用新筛选体验。 详细了解 [Power BI 服务的新外观](../consumer/service-new-look.md)。
-
-如果尚未启用新外观，按照如下步骤操作也可启用新筛选体验。
-
-1. 在 Power BI 服务中，打开工作区的内容列表。
-2. 找到要启用的报表，选择“更多选项(…)”，然后选择相应报表的“设置” 。
-
-    ![报表设置](media/power-bi-report-filter/power-bi-filter-options.png)
-
-3. 在“筛选体验”下，选择“启用更新后的‘筛选器’窗格，并在此报表的视觉对象标头中显示筛选器”。
-
-    ![启用已更新的筛选器窗格](media/power-bi-report-filter/power-bi-service-filter-enable.png)
+详细了解[报表读取者如何在报表中使用筛选器](../consumer/end-user-report-filter.md)。
 
 ## <a name="view-filters-for-a-visual-in-reading-mode"></a>在阅读模式下查看视觉对象的筛选器
 
-在阅读模式下，将鼠标悬停在视觉对象的筛选器图标上方，可看到一个弹出式筛选器列表，其中含有影响该视觉对象的所有筛选器、切片器等。 弹出式筛选器列表的格式设置与“筛选器”窗格的格式设置相同。 
+在阅读模式下，将鼠标悬停在视觉对象的筛选器图标上方，可看到一个弹出式筛选器列表，其中含有影响该视觉对象的所有筛选器、切片器等。 弹出式筛选器列表的格式设置与“筛选器”窗格的格式设置相同。
 
 ![影响视觉对象的筛选器](media/power-bi-report-filter/power-bi-filter-per-visual.png)
 
-以下是此视图显示的筛选器类型： 
+以下是此视图显示的筛选器类型：
+
 - 基本筛选器
 - 切片器
 - 交叉突出显示 
@@ -80,6 +58,8 @@ ms.locfileid: "85233931"
 - 同步切片器
 - 包括/排除筛选器
 - 通过 URL 传递的筛选器
+
+详细了解如何[在阅读模式下与筛选器进行交互](../consumer/end-user-report-filter.md)。
 
 ## <a name="build-the-filters-pane"></a>生成“筛选器”窗格
 
@@ -248,21 +228,29 @@ Power BI Desktop 以预览版的形式提供了一个新功能区。 在“视�
 
 ![设置搜索框的格式](media/power-bi-report-filter/power-bi-filter-format-search.png)
 
-尽管默认情况下此筛选器窗格搜索功能处于启用状态，但也可以选择启用或禁用该功能，方法是在“选项”对话框的“报表”设置中选择“启用对筛选器窗格搜索”。
+尽管默认情况下此筛选器窗格搜索功能处于启用状态，但也可以选择启用或禁用该功能，方法是在“选项”对话框的“报表”设置中选择“启用对筛选器窗格搜索”  。
 
 ![启用或禁用搜索](media/power-bi-report-filter/power-bi-enable-search-filter.png)
 
 ## <a name="restrict-changes-to-filter-type"></a>限制更改筛选器类型
 
-在报表设置的“筛选体验”部分下，可控制用户能否更改筛选器类型。
+在“报表”设置的“筛选体验”部分下，可控制用户能否更改筛选器类型 。
 
 ![限制更改筛选器类型](media/power-bi-report-filter/power-bi-enable-change-filter-type.png)
 
-## <a name="apply-filters-button-preview"></a>应用筛选器按钮（预览）
+## <a name="allow-saving-filters"></a>允许保存筛选器
+
+默认情况下，报表读取者可以保存报表的筛选器。 你可以选择不允许他们保存筛选器。
+
+- 同时，在“选项”对话框的“报表”设置中，在“永久性筛选器”下，选择“不允许最终用户保存此报表的筛选器”   。
+
+    :::image type="content" source="media/power-bi-report-filter/power-bi-persistent-filters.png" alt-text="“不允许最终用户保存此报表的筛选器”的屏幕截图。":::
+
+## <a name="apply-filters-apply-button-preview"></a>应用筛选器的“应用”按钮（预览版）
 
 你可以在筛选器窗格中添加一个“应用”按钮，以便你和最终用户可以立刻应用所有筛选器修改。 如果要延迟应用筛选器更改，那么添加此按钮将会有用。 在准备好将所有筛选器更改应用到报表或视觉对象后，只需等待一次。
 
-:::image type="content" source="media/power-bi-report-filter/apply-filter-button.png" alt-text="应用筛选器按钮":::
+:::image type="content" source="media/power-bi-report-filter/apply-filter-button.png" alt-text="“不允许最终用户保存此报表的筛选器”的屏幕截图。":::
 
 ### <a name="turn-on-apply"></a>开启“应用”
 
@@ -272,7 +260,7 @@ Power BI Desktop 以预览版的形式提供了一个新功能区。 在“视�
 
 1. 选择“在筛选器窗格中添加一个‘应用’按钮，以便立刻应用更改”。
 
-    :::image type="content" source="media/power-bi-report-filter/turn-on-apply-filter-button.png" alt-text="开启“应用”筛选器按钮":::
+    :::image type="content" source="media/power-bi-report-filter/turn-on-apply-filter-button.png" alt-text="“不允许最终用户保存此报表的筛选器”的屏幕截图。":::
 
 ### <a name="format-the-apply-button"></a>设置“应用”按钮的格式
 
@@ -282,7 +270,7 @@ Power BI Desktop 以预览版的形式提供了一个新功能区。 在“视�
 - “标头文本大小”用于控制文本大小。
 - “字体系列”用于控制字体。
 
-    :::image type="content" source="media/power-bi-report-filter/format-apply-filter.gif" alt-text="设置“应用筛选器”按钮文本的格式":::
+    :::image type="content" source="media/power-bi-report-filter/format-apply-filter.gif" alt-text="“不允许最终用户保存此报表的筛选器”的屏幕截图。":::
 
 ## <a name="considerations-and-limitations"></a>注意事项和限制
 

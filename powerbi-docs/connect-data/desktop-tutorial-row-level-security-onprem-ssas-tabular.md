@@ -1,6 +1,6 @@
 ---
 title: 通过 Analysis Services 表格模型实现动态行级别安全性
-description: 通过 Analysis Services 表格模型实现动态行级别安全性
+description: 通过本地 Analysis Services 表格模型实现动态行级别安全性
 author: davidiseminger
 ms.reviewer: davidi
 editor: davidi
@@ -10,21 +10,21 @@ ms.topic: tutorial
 ms.date: 01/17/2020
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 4426960cefc23111740d0e930f7a9704e18f8bb6
-ms.sourcegitcommit: 0d0ab427bb71b37c9e5170c515a8f274e1f20c17
+ms.openlocfilehash: 047c4e7d71cbbae95f4b1f8067548d807421385d
+ms.sourcegitcommit: 3ddfd9ffe2ba334a6f9d60f17ac7243059cf945b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "87878308"
+ms.lasthandoff: 10/22/2020
+ms.locfileid: "92349589"
 ---
-# <a name="implement-row-level-security-in-an-analysis-services-tabular-model"></a>在 Analysis Services 表格模型中实现行级别安全性
+# <a name="implement-row-level-security-in-an-on-premises-analysis-services-tabular-model"></a>在本地 Analysis Services 表格模型中实现行级别安全性
 
-本教程将通过使用示例数据集完成以下步骤来演示如何在 Analysis Services 表格模型  中实现[行级别安全性  ](../admin/service-admin-rls.md)以及如何在 Power BI 报表中使用它。
+本教程将通过使用示例数据集完成以下步骤来演示如何在本地 Analysis Services 表格模型中实现[行级别安全性](../admin/service-admin-rls.md)以及如何在 Power BI 报表中使用它。
 
 * 在 [AdventureworksDW2012 数据库](https://github.com/Microsoft/sql-server-samples/releases/tag/adventureworks)中创建新的安全表
 * 生成含有所需事实数据表和维度表的表格模型
 * 定义用户角色和权限
-* 将模型部署到 *Analysis Services 表格*实例
+* 将模型部署到 *Analysis Services 表格* 实例
 * 生成 Power BI Desktop 报表，为访问报表的用户显示量身定制的数据
 * 将报表部署到 *Power BI* 服务。
 * 基于报表创建新的仪表板
@@ -80,7 +80,7 @@ ms.locfileid: "87878308"
 
     ![将函数添加到“行筛选器”](media/desktop-tutorial-row-level-security-onprem-ssas-tabular/rolemanager_complete.png)
 
-1. `LOOKUPVALUE` 函数返回某个列的值，该列中的 Windows 用户名与 `USERNAME` 函数返回的用户名匹配。 然后，可以将查询限定为 `LOOKUPVALUE` 返回的值与同一表或相关表中的值相匹配的情况。 在 **DAX 筛选器**列中，键入以下公式︰
+1. `LOOKUPVALUE` 函数返回某个列的值，该列中的 Windows 用户名与 `USERNAME` 函数返回的用户名匹配。 然后，可以将查询限定为 `LOOKUPVALUE` 返回的值与同一表或相关表中的值相匹配的情况。 在 **DAX 筛选器** 列中，键入以下公式︰
 
     ```dax
         =DimSalesTerritory[SalesTerritoryKey]=LOOKUPVALUE(DimUserSecurity[SalesTerritoryID], DimUserSecurity[UserName], USERNAME(), DimUserSecurity[SalesTerritoryID], DimSalesTerritory[SalesTerritoryKey])
@@ -163,7 +163,7 @@ Grace 发布报表后，接下来需在 Power BI 服务中基于该报表创建�
 
 此任务假定你熟悉 [SQL Server Profiler](/sql/tools/sql-server-profiler/sql-server-profiler)，因为你需要通过 SQL Server Profiler 捕获本地 SSAS 表格实例上发生的事件。
 
-只要用户 (Rita) 访问 Power BI 服务中的仪表板，会话就会初始化。 你会发现，**salesterritoryusers** 角色立即生效，有效用户名为 **<EffectiveUserName>rita@contoso.com</EffectiveUserName>**
+只要用户 (Rita) 访问 Power BI 服务中的仪表板，会话就会初始化。 你会发现， **salesterritoryusers** 角色立即生效，有效用户名为 **<EffectiveUserName>rita@contoso.com</EffectiveUserName>**
 ```
        <PropertyList><Catalog>DefinedSalesTabular</Catalog><Timeout>600</Timeout><Content>SchemaData</Content><Format>Tabular</Format><AxisFormat>TupleFormat</AxisFormat><BeginRange>-1</BeginRange><EndRange>-1</EndRange><ShowHiddenCubes>false</ShowHiddenCubes><VisualMode>0</VisualMode><DbpropMsmdFlattened2>true</DbpropMsmdFlattened2><SspropInitAppName>PowerBI</SspropInitAppName><SecuredCellValue>0</SecuredCellValue><ImpactAnalysis>false</ImpactAnalysis><SQLQueryMode>Calculated</SQLQueryMode><ClientProcessID>6408</ClientProcessID><Cube>Model</Cube><ReturnCellProperties>true</ReturnCellProperties><CommitTimeout>0</CommitTimeout><ForceCommitTimeout>0</ForceCommitTimeout><ExecutionMode>Execute</ExecutionMode><RealTimeOlap>false</RealTimeOlap><MdxMissingMemberMode>Default</MdxMissingMemberMode><DisablePrefetchFacts>false</DisablePrefetchFacts><UpdateIsolationLevel>2</UpdateIsolationLevel><DbpropMsmdOptimizeResponse>0</DbpropMsmdOptimizeResponse><ResponseEncoding>Default</ResponseEncoding><DirectQueryMode>Default</DirectQueryMode><DbpropMsmdActivityID>4ea2a372-dd2f-4edd-a8ca-1b909b4165b5</DbpropMsmdActivityID><DbpropMsmdRequestID>2313cf77-b881-015d-e6da-eda9846d42db</DbpropMsmdRequestID><LocaleIdentifier>1033</LocaleIdentifier><EffectiveUserName>rita@contoso.com</EffectiveUserName></PropertyList>
 ```

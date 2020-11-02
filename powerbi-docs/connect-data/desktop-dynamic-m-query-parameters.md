@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: how-to
-ms.date: 10/13/2020
+ms.date: 10/22/2020
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: b2fd8375e105769ed0c9a81e7d894cc0f31f08b0
-ms.sourcegitcommit: eab5a02520c421a57019595c03e9ecfdb41d52ad
+ms.openlocfilehash: 104692fff7f94168a505dc6e1f2c513d647554ce
+ms.sourcegitcommit: 3ddfd9ffe2ba334a6f9d60f17ac7243059cf945b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/20/2020
-ms.locfileid: "92258131"
+ms.lasthandoff: 10/22/2020
+ms.locfileid: "92349635"
 ---
 # <a name="dynamic-m-query-parameters-in-power-bi-desktop-preview"></a>Power BI Desktop 中的动态 M 查询参数（预览）
 
@@ -28,7 +28,12 @@ ms.locfileid: "92258131"
 
 ![启用预览功能](media/desktop-dynamic-m-query-parameters/dynamic-m-query-parameters-01.png)
 
-作为此功能的先决条件，必须在一个或多个“直接查询”表中创建并引用一个有效的 [M 查询参数](/power-query/power-query-query-parameters)。 让我们通过一个示例来逐步了解如何将单个值动态传递给参数：
+作为此功能的先决条件，必须在一个或多个“直接查询”表中创建并引用一个有效的 [M 查询参数](/power-query/power-query-query-parameters)。 
+
+> [!NOTE]
+> 请务必查看本文的[注意事项和限制](#considerations-and-limitations)部分，因为并非所有 DirectQuery 源都受此功能支持。
+
+让我们通过一个示例来逐步了解如何将单个值动态传递给参数：
 
 1. 在 Power BI Desktop 中，在“数据”选项卡中启动“Power Query”，然后在功能区中的“管理参数”按钮下选择“新参数”。
 
@@ -147,7 +152,13 @@ Products
 使用动态 M 查询参数时，需要考虑以下注意事项和限制：
 
 * 单个参数不能绑定到多个字段，反之亦然。
-* 此功能仅支持基于 M 的数据源，不支持本机 SQL 查询。
+* 仅基于 M 的数据源支持此功能。 不支持以下 DirectQuery 源：
+    * 基于 T-SQL 的数据源：SQL Server、Azure SQL 数据库、Synapse SQL 池（也称为 Azure SQL 数据仓库）和 Synapse SQL OnDemand 池
+    * Live Connect 数据源：Azure Analysis Services、SQL Server Analysis Services 和 Power BI 数据集
+    * 其他不受支持的数据源：Oracle、Teradata 和关系 SAP Hana
+    * 通过 XMLA/TOM 终结点可编程性得到部分支持：SAP BW 和 SAP Hana 
+
+
 * 以下是不受支持的现成参数类型：
   * 任意
   * Duration

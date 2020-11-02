@@ -6,16 +6,16 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: how-to
-ms.date: 09/25/2020
+ms.date: 10/22/2020
 ms.author: kfollis
 ms.custom: seodec18
 LocalizationGroup: Administration
-ms.openlocfilehash: 62c463972d4811bac0c5400da96a88264273a873
-ms.sourcegitcommit: 51b965954377884bef7af16ef3031bf10323845f
+ms.openlocfilehash: 464fdce94b41c3dc413088da6395520fea32c601
+ms.sourcegitcommit: fddba666c6ea90d525a1c3188bbd3c4a03410cdc
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/30/2020
-ms.locfileid: "91600264"
+ms.lasthandoff: 10/23/2020
+ms.locfileid: "92462617"
 ---
 # <a name="administering-power-bi-in-the-admin-portal"></a>在管理门户中管理 Power BI
 
@@ -115,7 +115,7 @@ ms.locfileid: "91600264"
 
 当禁用整个组织的使用指标时，管理员还可以选择以下一个或两个选项：
 
-- **删除所有现有的使用指标内容**，可删除通过使用指标报表和数据集构建的所有现有报表和仪表板磁贴。 此选项可以删除组织中可能已在使用的所有用户对使用指标数据的所有访问内容。
+- **删除所有现有的使用指标内容** ，可删除通过使用指标报表和数据集构建的所有现有报表和仪表板磁贴。 此选项可以删除组织中可能已在使用的所有用户对使用指标数据的所有访问内容。
 - 删除当前使用指标内容中的所有现有每个用户数据可以删除组织中所有用户（可能已在使用数据）对每个用户数据的全部访问权限。
 
 请谨慎操作，因为删除现有的使用指标内容和每个用户指标内容是不可逆转的操作。
@@ -130,7 +130,7 @@ ms.locfileid: "91600264"
 
 可以在 Office 365 安全与合规中心中管理 Power BI 审核日志。 “审核日志”选项卡提供指向安全与合规中心的链接。 若要了解详细信息，请参阅[跟踪 Power BI 中的用户活动](service-admin-auditing.md)。
 
-若要使用审核日志，请确保[**创建内部活动审核和合规性的审核日志**](#create-audit-logs-for-internal-activity-auditing-and-compliance)设置已启用。
+若要使用审核日志，请确保 [**创建内部活动审核和合规性的审核日志**](#create-audit-logs-for-internal-activity-auditing-and-compliance)设置已启用。
 
 ## <a name="tenant-settings"></a>租户设置
 
@@ -139,24 +139,22 @@ ms.locfileid: "91600264"
 > [!NOTE]
 > 控制 Power BI 用户界面中功能可用性的租户设置可帮助建立治理策略，但它们并不是一种安全措施。 例如，“导出数据”设置不会限制 Power BI 用户对数据集的权限。 对数据集具有读取访问权限的 Power BI 用户具有查询此数据集的权限，并且可以在不使用 Power BI 用户界面“导出数据”功能的情况下保留结果。
 
-下图显示了“租户设置”选项卡上的几个设置。
-
-![租户设置](media/service-admin-portal/powerbi-admin-tenant-settings-2.png)
+以下部分详细介绍了“租户设置”选项卡上的设置。
 
 > [!NOTE]
 > 可能需要 15 分钟才会使设置更改对组织中的每个人生效。
 
-设置可以有三种状态之一：
+其中的许多设置可以有以下三种状态之一：
 
-* **已为整个组织禁用**：组织中无人可以使用此功能。
+* **已为整个组织禁用** ：组织中无人可以使用此功能。
 
     ![禁用所有设置](media/service-admin-portal/powerbi-admin-tenant-settings-disabled.png)
 
-* **已为整个组织启用**：组织中每个人均可以使用此功能。
+* **已为整个组织启用** ：组织中每个人均可以使用此功能。
 
     ![启用所有设置](media/service-admin-portal/powerbi-admin-tenant-settings-enabled.png)
 
-* **针对组织的子集启用**：允许组织中的特定安全组使用此功能。
+* **针对组织的子集启用** ：允许组织中的特定安全组使用此功能。
 
     还可以为除特定安全组之外的整个组织启用某功能。
 
@@ -167,6 +165,12 @@ ms.locfileid: "91600264"
     ![启用除外设置](media/service-admin-portal/powerbi-admin-tenant-settings-enabled-except2.png)
 
 接下来的几节概述了不同类型的租户设置。
+
+## <a name="tenant-wide-new-look-settings"></a>租户范围的新外观设置
+
+禁用“新外观”选项后，该组织中的用户可以打开和关闭 Power BI 的新外观。 启用“新外观”选项后，该组织中的所有用户将始终能看到 Power BI 新外观的新式控件。 他们无法再关闭新外观。 默认情况下，“新外观”选项处于启用状态。
+
+:::image type="content" source="media/service-admin-portal/admin-portal-new-look-disable.png" alt-text="管理门户中“禁用新外观”选项的屏幕截图。":::
 
 ## <a name="help-and-support-settings"></a>帮助和支持设置
 
@@ -218,7 +222,7 @@ ms.locfileid: "91600264"
 
 工作区是用户可在仪表板、报表和其他内容上开展协作的地方。 管理员使用“创建工作区(新工作区体验)”设置，指明组织中的哪些用户可以创建工作区。 管理员可以允许组织中的每个人都可以创建新工作区体验的工作区，也可以不允许任何人进行创建。 管理员还可以限制特定安全组的成员进行创建。 详细了解[工作区](../collaborate-share/service-new-workspaces.md)。
 
-:::image type="content" source="media/service-admin-portal/power-bi-admin-workspace-settings.png" alt-text="创建新的工作区体验":::
+:::image type="content" source="media/service-admin-portal/power-bi-admin-workspace-settings.png" alt-text="管理门户中“禁用新外观”选项的屏幕截图。":::
 
 对于基于 Microsoft 365 组的经典工作区，管理工作继续在管理门户和 Azure Active Directory 中进行。
 
@@ -237,7 +241,7 @@ ms.locfileid: "91600264"
 
 管理员可以控制组织中的哪些用户可以跨工作区使用数据集。 如果启用此设置，则用户仍然需要具有特定数据集的必需生成权限。
 
-:::image type="content" source="media/service-admin-portal/power-bi-admin-datasets-workspaces.png" alt-text="创建新的工作区体验":::
+:::image type="content" source="media/service-admin-portal/power-bi-admin-datasets-workspaces.png" alt-text="管理门户中“禁用新外观”选项的屏幕截图。":::
 
 有关详细信息，请参阅[跨工作区使用数据集简介](../connect-data/service-datasets-across-workspaces.md)。
 
@@ -403,7 +407,7 @@ Azure AD B2B 来宾用户可以编辑和管理组织中的内容。 [了解详�
 
 在“租户设置”下，“允许连接到精选表”设置允许 Power BI 管理员控制组织中的哪些用户可以使用 Excel 数据类型库中的精选表。 
 
-:::image type="content" source="media/service-admin-portal/admin-allow-connections-featured-tables.png" alt-text="创建新的工作区体验":::
+:::image type="content" source="media/service-admin-portal/admin-allow-connections-featured-tables.png" alt-text="管理门户中“禁用新外观”选项的屏幕截图。":::
 
 如果将“导出数据”设置设为“禁用”，则还会禁用与精选表的连接。
 
@@ -552,7 +556,7 @@ Azure AD B2B 来宾用户可以编辑和管理组织中的内容。 [了解详�
 
 “工作区”选项卡上的表列对应于由 [Power BI 管理员 Rest API](/rest/api/power-bi/admin) 为工作区返回的属性。 个人工作区的类型是“PersonalGroup”，经典工作区的类型是“Group”，提供新工作区体验的工作区的类型是“Workspace”。 有关详细信息，请参阅[在新工作区中组织工作](../collaborate-share/service-new-workspaces.md)。
 
-在“工作区”选项卡上，可看到每个工作区的*状态*。 下表提供有关这些状态的含义的更多详细信息。
+在“工作区”选项卡上，可看到每个工作区的 *状态* 。 下表提供有关这些状态的含义的更多详细信息。
 
 |州省/自治区/直辖市  |说明  |
 |---------|---------|
@@ -571,11 +575,11 @@ Azure AD B2B 来宾用户可以编辑和管理组织中的内容。 [了解详�
 
 ![自定义品牌选项](media/service-admin-portal/power-bi-custom-branding.png)
 
-* **上传徽标**：为获得最佳结果，请上传另存为 .png 的徽标，大小不超过 10 KB，且至少为 200 x 30 像素。
+* **上传徽标** ：为获得最佳结果，请上传另存为 .png 的徽标，大小不超过 10 KB，且至少为 200 x 30 像素。
 
-* **上传封面图像**：为获得最佳结果，请上传另存为 .jpg 或 .png 的封面图像，大小不超过 1 MB，且至少为 1920 x 160 像素。
+* **上传封面图像** ：为获得最佳结果，请上传另存为 .jpg 或 .png 的封面图像，大小不超过 1 MB，且至少为 1920 x 160 像素。
 
-* **选择主题颜色**：可以根据十六进制数 #、RGB、值或提供的调色板来选择主题。
+* **选择主题颜色** ：可以根据十六进制数 #、RGB、值或提供的调色板来选择主题。
 
 
 有关详细信息，请参阅[为组织自定义品牌](https://aka.ms/orgBranding)。

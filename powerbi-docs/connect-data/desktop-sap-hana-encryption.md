@@ -7,19 +7,22 @@ ms.custom: seodec18
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: how-to
-ms.date: 07/26/2019
+ms.date: 10/22/2020
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 83e1725b7ce7d38a00d0564702977c3a8eef7c1d
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 9aaa89db53e22fcefe55a53ec7a5414a8835255b
+ms.sourcegitcommit: 54e571a10b0fdde5cd6036017eac9ef228de5116
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85222873"
+ms.lasthandoff: 10/24/2020
+ms.locfileid: "92501894"
 ---
 # <a name="enable-encryption-for-sap-hana"></a>启用 SAP HANA 加密
 
-我们建议对从 Power BI Desktop 或 Power BI 服务到 SAP HANA 的连接进行加密。 可以使用 OpenSSL 和 SAP 的专有 CommonCryptoLib 库（以前称为 sapcrypto）启用 HANA 加密。 SAP 推荐使用 CommonCryptoLib，但任一个库均可提供基本加密功能。
+我们建议对从 Power BI Desktop 或 Power BI 服务到 SAP HANA 的连接进行加密。 可以使用 SAP 的专有 CommonCryptoLib 库（以前称为 sapcrypto）启用 HANA 加密。 SAP 建议使用 CommonCryptoLib。
+
+> [!IMPORTANT]
+> SAP 不再支持 OpenSSL，因此，Microsoft 也停止了对它的支持。 到 2020 年底之前，现有连接和新连接将继续正常运行，但从 2021 年 1 月 1 日起将无法正常运行。 请改用 CommonCryptoLib。
 
 本文概述如何使用 OpenSSL 启用加密，并参考了 SAP 文档的某些特定方面。 我们会定期更新内容和链接，但如需获取全面说明和支持，请务必参阅 SAP 官方文档。 如要使用 CommonCryptoLib 而非 OpenSSL 来设置加密，请参阅[如何使用 SAP HANA 2.0 配置 TLS/SSL](https://blogs.sap.com/2018/11/13/how-to-configure-tlsssl-in-sap-hana-2.0/)。有关从 OpenSSL 迁移到 CommonCryptoLib 的步骤说明，请参阅 [SAP 备注 2093286](https://launchpad.support.sap.com/#/notes/2093286)（需要 s 用户）。
 

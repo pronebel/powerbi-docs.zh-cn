@@ -10,12 +10,12 @@ ms.date: 08/20/2020
 ms.author: kfollis
 ms.custom: licensing support
 LocalizationGroup: Administration
-ms.openlocfilehash: 0c1c113f100c3ae1db0902c90833c44788fa7ec6
-ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
+ms.openlocfilehash: 330f844e9c97a3a59ff854ac14612c328b7cb9b6
+ms.sourcegitcommit: 4e347efd132b48aaef6c21236c3a21e5fce285cc
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90857694"
+ms.lasthandoff: 10/27/2020
+ms.locfileid: "92681006"
 ---
 # <a name="track-user-activities-in-power-bi"></a>跟踪 Power BI 中的用户活动
 
@@ -310,6 +310,7 @@ Remove-PSSession $Session
 | 无法删除数据流权限             | FailedToRemoveDataflowPermissions           | 当前未使用                       |
 | 已生成 Power BI 数据流 SAS 令牌             | GenerateDataflowSasToken                    |                                          |
 | 已生成 Power BI 嵌入令牌                    | GenerateEmbedToken                          |                                          |
+| 生成屏幕截图                       | GenerateScreenshot |                     |
 | 已将文件导入到 Power BI                         | 导入                                      |                                          |
 | 已安装 Power BI 应用                            | InstallApp                                  |                                          |
 | 已将工作区迁移到容量                  | MigrateWorkspaceIntoCapacity                |                                          |

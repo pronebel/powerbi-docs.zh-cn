@@ -1,6 +1,6 @@
 ---
 title: 在 Surface Hub 和 Windows 10 上使用演示模式查看报表 - Power BI
-description: 阅读有关在 Surface Hub 中显示 Power BI 报表以及在 Windows 10 设备上以全屏模式显示 Power BI 仪表板、报表和磁贴的内容。
+description: 阅读有关在 Surface Hub 中显示 Power BI 报表，以及在 Windows 10 设备上以演示模式显示 Power BI 仪表板、报表和磁贴的内容。
 author: paulinbar
 ms.reviewer: ''
 ms.service: powerbi
@@ -8,17 +8,17 @@ ms.subservice: powerbi-mobile
 ms.topic: how-to
 ms.date: 08/12/2020
 ms.author: painbar
-ms.openlocfilehash: a47af4b96e80508a6ea21de2d8d3e0b40f907d8d
-ms.sourcegitcommit: 383d87841d2509131fac7cc02c5c37c6a868144f
+ms.openlocfilehash: a982374bbf713d4e0c970da601fdca3249120cbe
+ms.sourcegitcommit: 5fdb45736ca0c8070124279fed4dab1ced8b7b27
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/14/2020
-ms.locfileid: "92025924"
+ms.lasthandoff: 10/27/2020
+ms.locfileid: "92683301"
 ---
 # <a name="view-reports-and-dashboards-in-presentation-mode-on-surface-hub-and-windows-10-devices"></a>在 Windows 10 Surface Hub 设备上使用演示模式查看报表和仪表板
 可以使用演示模式在 Windows 10 设备和 Surface Hub 上全屏显示报表和仪表板。 对于在会议中或在办公室内专用投影仪上显示 Power BI，甚至仅将小屏幕上的空间最大化，演示模式都很有用。
 
-![全屏模式下的报表](./media/mobile-windows-10-app-presentation-mode/power-bi-presentation-mode-2.png)
+![演示模式下的报表的屏幕截图。](./media/mobile-windows-10-app-presentation-mode/power-bi-presentation-mode-2.png)
 
 在演示模式下：
 * 所有“镶边”（如导航栏和菜单栏）都将消失，让你可以更轻松地专注于报表数据。
@@ -29,7 +29,7 @@ ms.locfileid: "92025924"
 >我们将于 2021 年 3 月 16 日终止对使用 Windows 10 移动版的手机提供 Power BI 移动应用支持。 [了解详细信息](/legal/powerbi/powerbi-mobile/power-bi-mobile-app-end-of-support-for-windows-phones)
 
 ## <a name="use-presentation-mode"></a>使用演示模式
-在 Power BI 移动应用中，点击“全屏”图标，转到全屏模式。
+在 Power BI 移动应用中，点击“切换到演示模式”图标。
 ![全屏图标](././media/mobile-windows-10-app-presentation-mode/power-bi-full-screen-icon.png) 应用镶边将消失，操作工具栏显示在屏幕底部或左右两侧（取决于屏幕大小）。
 
 [![报表在全屏模式下带有侧边工具栏](./media/mobile-windows-10-app-presentation-mode/power-bi-presentation-mode-toolbar.png)](./media/mobile-windows-10-app-presentation-mode/power-bi-presentation-mode-toolbar-expanded.png#lightbox)

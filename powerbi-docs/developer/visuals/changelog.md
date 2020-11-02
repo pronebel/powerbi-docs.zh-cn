@@ -8,15 +8,19 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: reference
 ms.date: 03/13/2019
-ms.openlocfilehash: 7624e51bf8c1ee49f2b7e7a0682e12b24bcdfa98
-ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
+ms.openlocfilehash: c43542bc6c2bb0699403062f68024f9718bbbb60
+ms.sourcegitcommit: 54e571a10b0fdde5cd6036017eac9ef228de5116
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/06/2020
-ms.locfileid: "91748462"
+ms.lasthandoff: 10/24/2020
+ms.locfileid: "92501940"
 ---
 # <a name="power-bi-visuals-api-changelog"></a>Power BI 视觉对象 API 更改日志
 此页面包含 API 版本的快速摘要。 此处列出的版本被视为稳定版本，不会更改。
+
+
+## <a name="api-v340"></a>API v3.4.0
+  * `fetchMoreData`：新的 `aggregateSegments` 参数（默认为 True），用于支持无聚合 fetchMoreData
 
 ## <a name="api-v320"></a>API v3.2.0
   * 支持 [supportsMultiVisualSelection](./supportsmultivisualselection-feature.md)
@@ -62,7 +66,7 @@ ms.locfileid: "91748462"
 * `proto` 属性不再将隐藏的元数据/数据存储在 dataView 中。 通过 `proto` 访问属性的视觉对象可能会被此更新中断。
 
 ## <a name="api-v1130"></a>API v1.13.0
-* 支持**同步切片器 [](./enable-sync-slicers.md)** ，请注意，由于 PBI 当前代码状态，此方法仅适用于单字段切片器，[了解更多信息](../../visuals/power-bi-visualization-slicers.md)。
+* 支持 **同步切片器 [](./enable-sync-slicers.md)** ，请注意，由于 PBI 当前代码状态，此方法仅适用于单字段切片器， [了解更多信息](../../visuals/power-bi-visualization-slicers.md)。
 * 辅助功能：[高对比度支持](./high-contrast-support.md) 
 * 辅助功能：允许键盘焦点标志
 
@@ -73,7 +77,7 @@ ms.locfileid: "91748462"
 
 ## <a name="api-v1110"></a>API v1.11.0
 * **FilterManager API [](./filter-api.md)**
-* 支持**书签 [](./bookmarks-support.md)** 
+* 支持 **书签 [](./bookmarks-support.md)** 
 
 ## <a name="api-v1100"></a>API v1.10.0
 * 添加 `ILocalizationManager`
@@ -90,17 +94,17 @@ ms.locfileid: "91748462"
 * 支持 **RESJSON [](./localization.md#resource-file)**
 
 ## <a name="api-v162"></a>API v1.6.2
-* 支持**编辑模式 [](./advanced-edit-mode.md)** ，以使视觉对象进入可视编辑模式
+* 支持 **编辑模式 [](./advanced-edit-mode.md)** ，以使视觉对象进入可视编辑模式
 * 支持基于 html 的 **[交互式 (html) R Power BI 视觉对象](https://github.com/Microsoft/PowerBI-visuals/blob/master/RVisualTutorial/CreateRHTML.md)**
 
 ## <a name="api-v150"></a>API v1.5.0
-* 支持**允许交互 [](./visuals-interactions.md)** ，以实现视觉对象交互
+* 支持 **允许交互 [](./visuals-interactions.md)** ，以实现视觉对象交互
 
 ## <a name="api-v140"></a>API v1.4.0
 * 支持 **[本地化](./localization.md)**
 
 ## <a name="api-v130"></a>API v1.3.0
-* 支持**工具提示 [](./add-tooltips.md)**
+* 支持 **工具提示 [](./add-tooltips.md)**
 
 ## <a name="api-v120"></a>API v1.2.0
 * 添加 colorPalette，以管理视觉对象上使用的颜色。

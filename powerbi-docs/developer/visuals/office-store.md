@@ -8,16 +8,16 @@ ms.service: powerbi
 ms.topic: how-to
 ms.subservice: powerbi-custom-visuals
 ms.date: 07/14/2020
-ms.openlocfilehash: 891f4d57e1c2754f4c98916b2824ef2283d8298a
-ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
+ms.openlocfilehash: 1809b1f539c82de4bf98689dbb259594a603b90c
+ms.sourcegitcommit: 3ddfd9ffe2ba334a6f9d60f17ac7243059cf945b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/06/2020
-ms.locfileid: "91747956"
+ms.lasthandoff: 10/22/2020
+ms.locfileid: "92349681"
 ---
 # <a name="publish-power-bi-visuals-to-partner-center"></a>将 Power BI 视觉对象发布到合作伙伴中心
 
-在创建 Power BI 视觉对象后，你可能想要将其发布到 AppSource 供其他人发现和使用。 有关创建 Power BI 视觉对象的详细信息，请参阅[开发 Power BI 视觉对象](custom-visual-develop-tutorial.md)。
+在创建 Power BI 视觉对象后，你可能想要将其发布到 AppSource 供其他人发现和使用。 有关创建 Power BI 视觉对象的详细信息，请参阅[开发 Power BI 圆形卡片视觉对象](develop-circle-card.md)。
 
 ## <a name="what-is-appsource"></a>什么是 AppSource？
 
@@ -62,6 +62,9 @@ ms.locfileid: "91747956"
 ## <a name="submitting-to-appsource"></a>提交到 AppSource
 
 必须从 Power BI 团队获取应用包，然后将其提交到合作伙伴中心，才能将 Power BI 视觉对象提交到 AppSource。
+
+>[!IMPORTANT]
+>如果要重新提交视觉对象，则不能更改其 GUID。
 
 ### <a name="getting-the-app-package"></a>获取应用包
 
@@ -119,7 +122,7 @@ Power BI 团队必须为新 Power BI 视觉对象提交、现有 Power BI 视觉
 
 ## <a name="next-steps"></a>后续步骤
 
-* [开发 Power BI 自定义视觉对象](custom-visual-develop-tutorial.md)
+* [开发 Power BI 圆形卡片视觉对象](develop-circle-card.md)
 
 * [Power BI 中的可视化效果](../../visuals/power-bi-report-visualizations.md)  
 

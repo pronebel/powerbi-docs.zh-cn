@@ -8,12 +8,12 @@ ms.subservice: powerbi-mobile
 ms.topic: how-to
 ms.date: 03/11/2020
 ms.author: painbar
-ms.openlocfilehash: 23f1ab7fb7ae5e143084042699db708c0827114f
-ms.sourcegitcommit: 7e99e8af9caf9340958c4607a94728d43e8c3811
+ms.openlocfilehash: 1afde236dd4fc9698efe4391cb2d9e095ade37a4
+ms.sourcegitcommit: 5fdb45736ca0c8070124279fed4dab1ced8b7b27
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/02/2020
-ms.locfileid: "91668542"
+ms.lasthandoff: 10/27/2020
+ms.locfileid: "92683347"
 ---
 # <a name="explore-tiles-in-the-power-bi-mobile-apps"></a>在 Power BI 移动应用中浏览磁贴
 适用于：
@@ -22,7 +22,7 @@ ms.locfileid: "91668542"
 |:--- |:--- |:--- |:--- |:--- |
 | iPhone |iPad |Android 手机 |Android 平板电脑 |Windows 10 设备 |
 
-磁贴是数据的实时快照，固定到仪表板中。 它们的值会随数据的变化而变化。 **可以[将磁贴添加到 Power BI 服务中的仪表板](../end-user-tiles.md)。** 
+磁贴是数据的实时快照，固定到仪表板中。 它们的值会随数据的变化而变化。 **可以 [将磁贴添加到 Power BI 服务中的仪表板](../end-user-tiles.md)。** 
 
 然后，在 Power BI 移动应用中，以焦点模式打开磁贴并与之交互。 你可以打开包含所有类型的视觉对象的磁贴，包括基于必应和 R 的磁贴。
 
@@ -58,7 +58,7 @@ ms.locfileid: "91668542"
    
     在 Power BI 应用中打开链接后，可以复制该链接，然后改为在浏览器窗口中打开它。
 7. [打开磁贴基于的报表](mobile-reports-in-the-mobile-apps.md) ![iOS 中的“打开报表”图标](././media/mobile-tiles-in-the-mobile-apps/power-bi-ipad-open-report-icon.png)。
-8. 若要使磁贴离开焦点模式，点击磁贴名称，然后点击“仪表板名称”或“**我的工作区**”。
+8. 若要使磁贴离开焦点模式，点击磁贴名称，然后点击“仪表板名称”或“ **我的工作区** ”。
    
     ![仪表板的屏幕截图，其中指针指向“我的工作区和机会分析示例”。](media/mobile-tiles-in-the-mobile-apps/power-bi-ipad-tile-breadcrumb.png)
 
@@ -109,12 +109,12 @@ ms.locfileid: "91668542"
    
    ![条形图的屏幕截图，其中显示了 Decor 条的值。](media/mobile-tiles-in-the-mobile-apps/pbi_win10ph_bartile0316.png)
    
-   在此条形图中，**Decor** 条的值显示在图表的顶部。
+   在此条形图中， **Decor** 条的值显示在图表的顶部。
    
-   点击“全屏”图标 ![全屏图标](media/mobile-tiles-in-the-mobile-apps/power-bi-full-screen-icon.png)，以全屏幕模式打开磁贴而不显示导航和菜单栏。
+   点击“切换到演示模式”图标![“切换到演示模式”图标的图像。](media/mobile-tiles-in-the-mobile-apps/power-bi-full-screen-icon.png)， 在演示模式下打开磁贴，而不显示导航栏和菜单栏。
    
    > [!NOTE]
-   > 还可以在 Windows 10 版 Power BI 移动应用中的[全屏模式下查看仪表板和报表](mobile-windows-10-app-presentation-mode.md)。
+   > 还可以在适用于 Windows 10 的 Power BI 移动应用中的[演示模式下查看仪表板和报表](mobile-windows-10-app-presentation-mode.md)。
    > 
    > 
    
@@ -129,4 +129,4 @@ ms.locfileid: "91668542"
 
 ## <a name="next-steps"></a>后续步骤
 * [什么是 Power BI？](../../fundamentals/power-bi-overview.md)
-* 是否有任何问题? [尝试咨询 Power BI 社区](https://community.powerbi.com/)
+* 是否有任何问题？ [尝试咨询 Power BI 社区](https://community.powerbi.com/)

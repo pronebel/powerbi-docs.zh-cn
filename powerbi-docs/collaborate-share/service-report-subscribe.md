@@ -7,15 +7,15 @@ featuredvideoid: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: how-to
-ms.date: 05/15/2020
+ms.date: 10/22/2020
 ms.author: maggies
 LocalizationGroup: Common tasks
-ms.openlocfilehash: 1fd5f4748ffd7a59095bfe34090d9494ff0a9134
-ms.sourcegitcommit: d153cfc0ce559480c53ec48153a7e131b7a31542
+ms.openlocfilehash: 8768801f2d704644c888a14caf9b930dcd27f8fa
+ms.sourcegitcommit: 54e571a10b0fdde5cd6036017eac9ef228de5116
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/29/2020
-ms.locfileid: "91526757"
+ms.lasthandoff: 10/24/2020
+ms.locfileid: "92501963"
 ---
 # <a name="subscribe-yourself-and-others-to-reports-and-dashboards-in-the-power-bi-service"></a>在 Power BI 服务中为自己和他人订阅报表和仪表板
 
@@ -112,11 +112,16 @@ Power BI 管理员可以使用 Power BI 审核日志来查看有关订阅的详�
 - 与其他 BI 产品一样，设置订阅的时间是开始处理订阅的时间。  完成报表处理后，订阅将排队并发送给电子邮件收件人。  我们努力尽快处理和交付所有订阅。 但是，有时在需求高峰时，由于 Power BI 可以一次性发送的订阅数量较少，你可能会看到更长的延迟。 对于大多数客户，处理和发送报表的延迟时间不超过 15 分钟。 对于特定时间和使用量大的租户，可能最多需要 30 分钟。  我们从不希望从计划订阅时间起的任何交付延迟超过 60 分钟。  如果遇到这么长时间的延迟，请首先确保地址 `no-reply-powerbi@microsoft.com` 在“安全发件人”列表中，并且没有被电子邮件提供商阻止。  如果电子邮件未被阻止，请联系 Power BI 支持人员以寻求帮助。
 - 目前，为其他用户订阅时，不支持使用实时连接数据集的报表和仪表板的电子邮件订阅（分页报表除外）。 你可以使用安全上下文为其他人订阅分页报表。 阅读有关[订阅分页报表](../consumer/paginated-reports-subscriptions.md)的详细信息。
 - 如果超过两个月一直没有人访问仪表板和报表，那么 Power BI 会自动暂停刷新与它们关联的数据集。 不过，如果添加对仪表板或报表的订阅，即使无人访问，也不会暂停刷新。
-- 如果未收到订阅电子邮件，请确保用户主体名称 (UPN) 可以接收电子邮件。
+- 如果你没有收到订阅电子邮件：
+
+    - 请确保你的用户主体名称 (UPN) 可以接收电子邮件。
+    - 尽管你拥有 Power BI Pro 许可证，但你可能没有 Microsoft Exchange 许可证。 如果不是，则你的 Azure Active Directory 帐户可能没有指定电子邮件或备用电子邮件地址。 在这种情况下，尽管订阅似乎已发送出去，但你永远不会收到。  如果你的 Power BI 管理员分配了电子邮件地址，则 Power BI 会在你下次登录时同步更新，并将该电子邮件地址用于订阅。
+
 - 如果你的仪表板或报表位于高级容量中，则可使用组电子邮件别名进行订阅，而不用一次使用一个电子邮件地址为同事订阅。 根据当前的 Active Directory 确定别名。
 - 如果内容不位于高级容量中，则只有 Power BI Pro 用户可以接收电子邮件订阅。 
 - 订阅当前不支持书签。
 - 编辑现有订阅时，提供对报表/仪表板的访问权限的选项始终显示为已启用。  如果清除此选项并保存订阅，则会保存该状态。 但是，在再次编辑报表时，将默认选中该状态。
+- 如果你有备用电子邮件地址，但没有主电子邮件地址，则 Power BI 将使用该备用地址发送订阅。
 
 ### <a name="dashboards"></a>仪表板
 
