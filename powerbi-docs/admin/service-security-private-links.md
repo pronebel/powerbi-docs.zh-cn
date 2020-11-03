@@ -7,17 +7,45 @@ ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: how-to
 ms.author: davidi
-ms.date: 09/24/2020
+ms.date: 10/21/2020
 ms.custom: ''
 LocalizationGroup: Administration
-ms.openlocfilehash: dee055f53302ef6e7884463b8e0feb113aa9bd5a
-ms.sourcegitcommit: 3655521f7d6e70d25cbe72006aada69ba08e7dec
+ms.openlocfilehash: 0166e7a452c01f7b9dbec294d8087fcd035cb586
+ms.sourcegitcommit: 3ddfd9ffe2ba334a6f9d60f17ac7243059cf945b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/25/2020
-ms.locfileid: "91224201"
+ms.lasthandoff: 10/22/2020
+ms.locfileid: "92349428"
 ---
 # <a name="private-links-for-accessing-power-bi"></a>用于访问 Power BI 的专用链接
+
+Azure 网络提供了两种安全功能，即 Azure 专用链接和专用终结点，这些功能使 Power BI 能够提供安全的访问。 通过 Azure 专用链接和专用终结点，数据流量通过 Microsoft 主干网络基础结构私密地进行发送，因此数据不会遍历 Internet。 
+
+专用链接可确保 Power BI 用户在转到 Power BI 服务中的资源时使用 Microsoft 专用网络主干。
+
+可以了解有关 [Azure 专用链接](https://azure.microsoft.com/services/private-link/)的更多信息。
+
+## <a name="understanding-private-links"></a>了解专用链接
+
+专用链接可确保进入组织的 Power BI 项目（如报表或工作区）的流量始终遵循组织配置的专用链接网络路径。 进入 Power BI 项目的用户流量必须来自已建立的专用链接，并且你可以将 Power BI 配置为拒绝所有不是来自配置的网络路径的请求。 
+
+专用链接不能保证从 Power BI 到外部数据源（无论是在云中还是在本地）的流量受到保护。 而你必须配置防火墙规则和虚拟网络，以便进一步保护数据源。 
+
+### <a name="power-bi-and-private-links-integration"></a>Power BI 和专用链接集成
+
+适用于 Power BI 的 Azure 专用终结点是一个网络接口，该接口将你私密并安全地连接到由 Azure 专用链接提供支持的 Power BI 服务。   
+
+专用终结点集成使平台即服务 (PaaS) 服务能够从客户的虚拟网络和本地网络进行私密部署和访问，而该服务仍在客户网络的外部运行。 专用终结点是一种单一定向技术，允许客户端启动到给定服务的连接，但不允许服务启动到客户网络的连接。 此专用终结点集成模式提供了管理隔离，因为服务可以独立于客户网络策略配置进行操作。 对于多租户服务，此专用终结点模型提供链接标识符，防止访问同一服务中托管的其他客户资源。 使用专用终结点时，只能从使用该集成服务访问有限的一组其他 PaaS 服务资源。  
+
+Power BI 服务实现专用终结点，而不是服务终结点。  
+
+对 Power BI 使用专用链接提供以下优势：
+
+1. 专用链接可确保流量将通过 Azure 主干流向 Azure 基于云的资源的专用终结点。 
+
+2. 若将网络流量从非基于 Azure 的基础架构隔离（例如本地访问），这要求客户配置 ExpressRoute 或虚拟专用网络 (VPN)。  
+
+## <a name="using-secure-private-links-to-access-power-bi"></a>使用安全的专用链接访问 Power BI
 
 在 Power BI 中，可以配置和使用允许你的组织私密访问 Power BI 的终结点。 若要配置专用链接，你必须是 Power BI 管理员，并且在 Azure 中具有创建和配置资源（例如虚拟机 (VM) 和虚拟网络 (V-Net)）的权限。 
 
@@ -85,7 +113,7 @@ ms.locfileid: "91224201"
 
 下一步是创建虚拟网络和子网。 将下表中的示例参数替换为自己的参数，以创建虚拟网络和子网。
 
-| 参数 |   Value| 
+| 参数 |   值| 
 |---------|---------|
 | ```<resource-group-name>```   | myResourceGroup |
 | ```<virtual-network-name>```  | myVirtualNetwork |
@@ -97,7 +125,7 @@ ms.locfileid: "91224201"
 1. 在屏幕的左上方选择“创建资源”>“网络”>“虚拟网络”，或者在搜索框中搜索“虚拟网络”。  
 2. 在“创建虚拟网络”的“基本信息”选项卡中输入或选择以下信息：
 
-    |设置 | Value |
+    |设置 | 值 |
     |-------------------|---------|
     |**项目详细信息**|
     |订阅 | 选择 Azure 订阅 |
@@ -145,7 +173,7 @@ ms.locfileid: "91224201"
 
 2. 在“创建虚拟机 - 基本信息”中，输入或选择以下信息：
 
-    |设置 | Value |
+    |设置 | 值 |
     |-------------------|---------|
     |**项目详细信息**||
     |订阅 | 选择 Azure 订阅 |
@@ -166,10 +194,10 @@ ms.locfileid: "91224201"
     |已有 Windows 许可证？ |  保留默认值“否” |
 
 3. 然后选择“下一步:磁盘”
-4. 在“创建虚拟机 - 磁盘”中保留默认值，然后选择“下一步:**** **网络”** 。
+4. 在“创建虚拟机 - 磁盘”中保留默认值，然后选择“下一步: **网络”** 。
 5. 在“创建虚拟机 - 网络”中，选择以下信息：
 
-    |设置 | Value |
+    |设置 | 值 |
     |-------------------|---------|
     |虚拟网络|   保留默认值“MyVirtualNetwork”|
     |地址空间| 保留默认值“10.1.0.0/24”|
@@ -190,13 +218,13 @@ ms.locfileid: "91224201"
 2. 在“专用链接中心 - 概述”中的“与服务建立专用连接”选项的旁边，选择“创建专用终结点”  。
 3. 在“创建专用终结点(预览版) - 基本信息”中，输入或选择以下信息：
 
-    |设置 | Value |
+    |设置 | 值 |
     |-------------------|---------|
     |**项目详细信息** ||
     |订阅|  选择 Azure 订阅|
     |资源组|    选择“myResourceGroup”。 已在上一部分创建此内容|
     |**实例详细信息** ||
-    |名称|  输入“myPrivateEndpoint”**。 如果此名称已被使用，请创建唯一的名称|
+    |名称|  输入“myPrivateEndpoint”。 如果此名称已被使用，请创建唯一的名称|
     |区域|    选择“美国中部”|
     
     下图显示了“创建专用终结点 - 基本信息”窗口。
@@ -205,7 +233,7 @@ ms.locfileid: "91224201"
 
 4. 完成此信息后，选择“下一步:资源”，在“创建专用终结点 - 资源”页上，输入或选择以下信息：
 
-    |设置 | Value |
+    |设置 | 值 |
     |-------------------|---------|
     |连接方法| 选择“连接到我的目录中的 Azure 资源”|
     |订阅|  选择订阅|
@@ -219,7 +247,7 @@ ms.locfileid: "91224201"
 
 5. 正确输入此信息后，选择“下一步:配置”，在“创建专用终结点(预览版) - 配置”中，输入或选择以下信息：
 
-    |设置 | Value |
+    |设置 | 值 |
     |-------------------|---------|
     |**网络** ||
     |虚拟网络|   选择“myVirtualNetwork” |
@@ -238,7 +266,7 @@ ms.locfileid: "91224201"
 
 创建名为 myVM 的虚拟机后，使用以下步骤通过 Internet 连接到该虚拟机：
 
-1. 在门户的搜索栏中，输入 *myVm*。
+1. 在门户的搜索栏中，输入 *myVm* 。
 2. 选择“连接”按钮。 选择“连接”按钮后，“连接到虚拟机”随即打开 。
 3. 选择“下载 RDP 文件”。 Azure 会创建远程桌面协议 ( .rdp) 文件，并将其下载到计算机。
 4. 打开下载的 .rdp 文件。
