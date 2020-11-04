@@ -9,16 +9,18 @@ ms.topic: conceptual
 ms.assetid: 55bf4f9c-d037-412f-ae57-3fc39ce32fa5
 author: maggiesMSFT
 ms.author: maggies
-ms.openlocfilehash: f74fb596fb2a080922d0e62a4492ef6c8ccd4e0d
-ms.sourcegitcommit: c83146ad008ce13bf3289de9b76c507be2c330aa
+ms.openlocfilehash: 6a0a72015a66abc9425dc467703a5044ea0c8116
+ms.sourcegitcommit: ccf53e87ff7cba1fcd9d2cca761a561e62933f90
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/10/2020
-ms.locfileid: "86216731"
+ms.lasthandoff: 11/04/2020
+ms.locfileid: "93297857"
 ---
 # <a name="power-bi-report-builder"></a>Power BI 报表生成器
 
- Power BI Report Builder 是用于创作可发布到 Power BI 服务的分页报表的工具。  设计分页报表时，将创建一个报表定义，用于指定要检索的数据、获取数据的位置以及显示数据的方式。 运行报表时，报表处理器将获取用户指定的报表定义、检索数据，并将其与报表布局组合以生成报表。 可在报表生成器中预览报表。 然后将报表发布到 Power BI 服务。
+[!INCLUDE [applies-to](../includes/applies-to.md)] [!INCLUDE [yes-service](../includes/yes-service.md)] [!INCLUDE [yes-paginated](../includes/yes-paginated.md)] [!INCLUDE [yes-premium](../includes/yes-premium.md)] [!INCLUDE [no-desktop](../includes/no-desktop.md)] 
+
+Power BI Report Builder 是用于创作可发布到 Power BI 服务的分页报表的工具。  设计分页报表时，将创建一个报表定义，用于指定要检索的数据、获取数据的位置以及显示数据的方式。 运行报表时，报表处理器将获取用户指定的报表定义、检索数据，并将其与报表布局组合以生成报表。 可在报表生成器中预览报表。 然后将报表发布到 Power BI 服务。
  
 准备开始创作？ 从 Microsoft 下载中心[安装 Power BI Report Builder](https://aka.ms/pbireportbuilder)。
 
@@ -30,9 +32,9 @@ ms.locfileid: "86216731"
 
 ##  <a name="jump-start-report-creation"></a><a name="JumpStartReptCreation"></a> 快速开始报表创建  
  
--   **首先使用表、矩阵或图表向导**。 创建数据源连接，拖放字段以创建数据集查询，选择布局和样式，以及自定义报表。  
+-   **首先使用表、矩阵或图表向导** 。 创建数据源连接，拖放字段以创建数据集查询，选择布局和样式，以及自定义报表。  
   
--   **开始使用“地图”向导**创建根据地理或几何背景显示聚合数据的报表。 地图数据可能是来自 Transact-SQL 查询或美国环境系统研究所公司(ESRI) 形状文件的空间数据。 除此之外，还可以添加 Microsoft 必应地图图块背景。  
+-   **开始使用“地图”向导** 创建根据地理或几何背景显示聚合数据的报表。 地图数据可能是来自 Transact-SQL 查询或美国环境系统研究所公司(ESRI) 形状文件的空间数据。 除此之外，还可以添加 Microsoft 必应地图图块背景。  
 
 ##  <a name="design-your-report"></a><a name="DesignRept"></a> 设计报表  
   
@@ -42,19 +44,19 @@ ms.locfileid: "86216731"
   
 -   **修改现有报表。** 通过使用报表生成器，可以自定义和更新 SQL Server Data Tools (SSDT) 报表设计器中创建的报表。  
   
--   **修改数据**。 可以对数据进行筛选、分组和排序，也可以添加公式或表达式。  
+-   **修改数据** 。 可以对数据进行筛选、分组和排序，也可以添加公式或表达式。  
 
--   **添加图表、仪表、迷你图和指标**。 以视觉格式汇总数据，直观呈现大量汇总信息。  
+-   **添加图表、仪表、迷你图和指标** 。 以视觉格式汇总数据，直观呈现大量汇总信息。  
   
--   **添加交互功能**如文档结构图、显示/隐藏按钮以及子报表和钻取报表的钻取链接。 使用参数和筛选器筛选自定义视图的数据。  
+-   **添加交互功能** 如文档结构图、显示/隐藏按钮以及子报表和钻取报表的钻取链接。 使用参数和筛选器筛选自定义视图的数据。  
   
--   **嵌入或引用图像**和其他资源，包括外部内容。  
+-   **嵌入或引用图像** 和其他资源，包括外部内容。  
   
 ##  <a name="manage-your-report"></a><a name="ManageRpt"></a> 管理报表  
   
--   **将报表定义保存**到计算机或报表服务器，可在其中对报表进行管理以及与他人共享报表。  
+-   **将报表定义保存** 到计算机或报表服务器，可在其中对报表进行管理以及与他人共享报表。  
   
--   打开该报表时，或打开报表后，**选择显示格式**。 可以选择面向 Web、面向页的格式以及桌面应用程序格式。 格式包括 MHTML、PDF、XML、CSV、Word 和 Excel。  
+-   打开该报表时，或打开报表后， **选择显示格式** 。 可以选择面向 Web、面向页的格式以及桌面应用程序格式。 格式包括 MHTML、PDF、XML、CSV、Word 和 Excel。  
   
 -   **设置订阅。** 将报表发布到 Power BI 服务后，可以将报表配置为在特定时间运行并作为电子邮件订阅发送。  
 

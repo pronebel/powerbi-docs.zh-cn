@@ -8,14 +8,16 @@ ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: conceptual
 ms.date: 10/19/2020
-ms.openlocfilehash: 2a0490106d5954a57abea1dd5de61f26f2fe2377
-ms.sourcegitcommit: eab5a02520c421a57019595c03e9ecfdb41d52ad
+ms.openlocfilehash: 7cba43ff6339ce890ca2f4f1744282648eaf877b
+ms.sourcegitcommit: ccf53e87ff7cba1fcd9d2cca761a561e62933f90
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/20/2020
-ms.locfileid: "92257000"
+ms.lasthandoff: 11/04/2020
+ms.locfileid: "93297891"
 ---
 # <a name="paginated-reports-in-power-bi-faq"></a>Power BI 中的分页报表：常见问题解答 
+
+[!INCLUDE [applies-to](../includes/applies-to.md)] [!INCLUDE [yes-service](../includes/yes-service.md)] [!INCLUDE [yes-paginated](../includes/yes-paginated.md)] [!INCLUDE [yes-premium](../includes/yes-premium.md)] [!INCLUDE [no-desktop](../includes/no-desktop.md)] 
 
 本文将解答有关分页报表的常见问题。 这些报表是高度格式化且像素效果完美的输出，已针对打印或 PDF 生成进行了优化。 它们被称为“分页”，因为它们已进行了格式化，以适应多个页面。 分页报表基于 SQL Server Reporting Services 中的 RDL 报表技术。 
 
@@ -181,7 +183,7 @@ SaaS 嵌入（包括安全嵌入支持）现已可用。 有关 PaaS 嵌入，�
 
 查看 Power BI 服务中的分页报表时，会话可能会超时，同时会向用户显示以下通知：
 
-:::image type="content" source="media/paginated-reports-faq/expired-session-notification.png" alt-text="分页报表的“容量设置”选项卡":::
+:::image type="content" source="media/paginated-reports-faq/expired-session-notification.png" alt-text="分页报表会话过期通知":::
 
 - 会话将在处于非活动状态 60 分钟后超时，或在设备处于锁定状态或处于非活动状态时，或在浏览器的“活动”选项卡中未显示报表时，会更早超时。
 

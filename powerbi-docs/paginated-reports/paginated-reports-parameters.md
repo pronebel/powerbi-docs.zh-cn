@@ -8,14 +8,16 @@ ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: how-to
 ms.date: 09/28/2020
-ms.openlocfilehash: aa4df6db3058ef3d6f8c399e1bf20f0edf17ebc8
-ms.sourcegitcommit: 51b965954377884bef7af16ef3031bf10323845f
+ms.openlocfilehash: 217c1b571c01068d64283df0b25b5e56bbc8b956
+ms.sourcegitcommit: ccf53e87ff7cba1fcd9d2cca761a561e62933f90
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/30/2020
-ms.locfileid: "91600495"
+ms.lasthandoff: 11/04/2020
+ms.locfileid: "93297276"
 ---
 # <a name="create-parameters-for-paginated-reports-in-the-power-bi-service"></a>为 Power BI 服务中的分页报表创建参数
+
+[!INCLUDE [applies-to](../includes/applies-to.md)] [!INCLUDE [yes-service](../includes/yes-service.md)] [!INCLUDE [yes-paginated](../includes/yes-paginated.md)] [!INCLUDE [yes-premium](../includes/yes-premium.md)] [!INCLUDE [no-desktop](../includes/no-desktop.md)] 
 
 本文介绍了如何为 Power BI 服务中的分页报表创建参数。  报表参数提供了一种选择报表数据和更改报表显示内容的方法。 你可以提供一个默认值和一个可用值列表。 报表读取者可以更改选择项。 他们还可以在“参数”文本框中键入值来搜索值。 请参阅[查看分页报表的参数](../consumer/paginated-reports-view-parameters.md)，了解业务用户如何与 Power BI 服务中的参数进行交互。  
 
@@ -29,20 +31,20 @@ ms.locfileid: "91600495"
   
 3.  “参数”窗格。 可以在参数窗格中自定义参数布局。 
   
-4.  参数 @FromDate 和 @ToDate 具有 DateTime**** 数据类型。 查看报表时，可以在文本框中键入一个日期，也可以在日历控件中选择一个日期。 
+4.  参数 @FromDate 和 @ToDate 具有 DateTime 数据类型。 查看报表时，可以在文本框中键入一个日期，也可以在日历控件中选择一个日期。 
 
-5.  “数据集属性”**** 对话框中的任一参数。  
+5.  “数据集属性”对话框中的任一参数。  
 
   
 ## <a name="create-or-edit-a-report-parameter"></a>创建或编辑报表参数  
   
 1.  在 Power BI 报表生成器中打开分页报表。
 
-1. 在“报表数据”**** 窗格中，右键单击“参数”**** 节点 >“添加参数”****。 此时将打开 **“报表参数属性”** 对话框。  
+1. 在“报表数据”窗格中，右键单击“参数”节点 >“添加参数”。 此时将打开 **“报表参数属性”** 对话框。  
   
-2.  在“名称”**** 中，键入参数的名称或接受默认名称。  
+2.  在“名称”中，键入参数的名称或接受默认名称。  
   
-3.  在“提示”**** 中，键入用户在运行报表时，参数文本框旁显示的文本。  
+3.  在“提示”中，键入用户在运行报表时，参数文本框旁显示的文本。  
   
 4.  在 **“数据类型”** 中，选择参数值的数据类型。  
   

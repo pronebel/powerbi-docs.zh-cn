@@ -8,14 +8,16 @@ ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: how-to
 ms.date: 04/29/2020
-ms.openlocfilehash: 9da6268e90e3f70797c2cfff19bb1d5c4b633e9a
-ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
+ms.openlocfilehash: d2cd4e9f5d6cb8872e266fabacb9f8a5a3e318cb
+ms.sourcegitcommit: ccf53e87ff7cba1fcd9d2cca761a561e62933f90
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/06/2020
-ms.locfileid: "91746576"
+ms.lasthandoff: 11/04/2020
+ms.locfileid: "93298007"
 ---
 # <a name="subreports-in-power-bi-paginated-reports"></a>Power BI 分页报表中的子报表
+
+[!INCLUDE [applies-to](../includes/applies-to.md)] [!INCLUDE [yes-service](../includes/yes-service.md)] [!INCLUDE [yes-paginated](../includes/yes-paginated.md)] [!INCLUDE [yes-premium](../includes/yes-premium.md)] [!INCLUDE [no-desktop](../includes/no-desktop.md)] 
 
 子报表是在主分页报表的表体中显示其他分页报表的分页报表项  。 从概念上说，报表中的子报表类似于网页中的框架。 子报表用于在报表中嵌入另一个报表。 你可以使用任何报表作为子报表。 可以将显示为子报表的报表存储在与父报表相同的 Premium 工作区中。 您可以设计父报表，以便向子报表传递参数。 可以在数据区域中重复子报表，并使用参数在子报表的每个实例中筛选数据。  
   
@@ -33,7 +35,7 @@ Power BI Report Builder 可以与计算机上的分页报表（称为本地报�
 
 登录后，你将在 Power BI Report Builder 中看到“Power BI 服务”选项，此选项代表“文件”菜单上的“打开”和“另存为”选项     。 选择“Power BI 服务”选项保存报表时，将在 Power BI Report Builder 和 Power BI 服务之间创建实时连接  。 
 
-:::image type="content" source="media/subreports/report-builder-subreport-open-service.png" alt-text="登录 Power BI":::
+:::image type="content" source="media/subreports/report-builder-subreport-open-service.png" alt-text="从 Power BI 服务打开":::
 
 ## <a name="save-a-local-report-to-the-power-bi-service"></a>将本地报表保存到 Power BI 服务
 
@@ -48,7 +50,7 @@ Power BI Report Builder 可以与计算机上的分页报表（称为本地报�
 
 3. 在“另存为”对话框中，选择可用于存储分页报表的 Power BI Premium 工作区  。  Premium 工作区在其名称旁边有一个菱形图标 ![Premium 菱形图标](media/subreports/report-builder-premium-diamond.png)。
 
-    :::image type="content" source="media/subreports/report-builder-subreport-save-as-service.png" alt-text="登录 Power BI":::
+    :::image type="content" source="media/subreports/report-builder-subreport-save-as-service.png" alt-text="Power BI 服务的“另存为”":::
 
 4. 选择“保存”。 
 
@@ -58,7 +60,7 @@ Power BI Report Builder 可以与计算机上的分页报表（称为本地报�
 
 1. 在“插入”功能区中，选择“子报表”按钮，或右键单击报表画布，然后选择“插入” > “子报表”     。
 
-    :::image type="content" source="media/subreports/report-builder-insert-subreport.png" alt-text="登录 Power BI":::
+    :::image type="content" source="media/subreports/report-builder-insert-subreport.png" alt-text="在报表中插入子报表":::
 
     随即将打开“子报表属性”对话框  。  
 

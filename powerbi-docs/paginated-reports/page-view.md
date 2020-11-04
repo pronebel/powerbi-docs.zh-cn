@@ -8,14 +8,16 @@ ms.service: powerbi
 ms.subservice: ''
 ms.topic: how-to
 ms.date: 05/14/2020
-ms.openlocfilehash: 5ed7f3a05be1e600fc67e5162b496309ce315f94
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 41d59f12ad95430e13eb4d856bc1b7d321f7006f
+ms.sourcegitcommit: ccf53e87ff7cba1fcd9d2cca761a561e62933f90
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85230949"
+ms.lasthandoff: 11/04/2020
+ms.locfileid: "93297339"
 ---
 # <a name="set-report-views-for-paginated-reports-in-the-power-bi-service"></a>为 Power BI 服务中的分页报表设置报表视图
+
+[!INCLUDE [applies-to](../includes/applies-to.md)] [!INCLUDE [yes-service](../includes/yes-service.md)] [!INCLUDE [yes-paginated](../includes/yes-paginated.md)] [!INCLUDE [yes-premium](../includes/yes-premium.md)] [!INCLUDE [no-desktop](../includes/no-desktop.md)] 
 
 在 Power BI 服务中呈现分页报表时，默认视图是基于 HTML 的交互式视图。 另一个报表视图是新的“页面视图”选项，用于 PDF 等固定页面格式。
 

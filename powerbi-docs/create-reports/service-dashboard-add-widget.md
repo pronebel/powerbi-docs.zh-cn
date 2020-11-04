@@ -7,15 +7,15 @@ featuredvideoid: e2PD8m1Q0vU
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: how-to
-ms.date: 07/25/2019
+ms.date: 10/28/2020
 ms.author: maggies
 LocalizationGroup: Dashboards
-ms.openlocfilehash: f98fb7a9d5a01c70eb8cef2a8d5befdbe919d796
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 72306a6269df91a75b750628e3534bf5891fe6b0
+ms.sourcegitcommit: 4ac9447d1607dfca2e60948589f36a3d64d31cb4
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85219464"
+ms.lasthandoff: 10/29/2020
+ms.locfileid: "92916903"
 ---
 # <a name="add-images-videos-and-more-to-your-dashboard"></a>向仪表板添加图像、视频等
 
@@ -239,6 +239,7 @@ ms.locfileid: "85219464"
 ## <a name="considerations-and-troubleshooting"></a>注意事项和疑难解答
 * 要更轻松地在仪表板上移动磁贴，请添加标题和可选的副标题。
 * 如果想要嵌入网站中的内容，但网站未提供可供复制和粘贴的嵌入代码，请参阅 embed.ly 获取有关生成嵌入代码的帮助。
+* 请确保访问该图像文件无需安全凭据。 例如，OneDrive 和 SharePoint 需要身份验证，因此存储在该处的图像将无法按此种方式添加到仪表板。  
 
 ## <a name="next-steps"></a>后续步骤
 [Power BI 设计器的仪表板磁贴简介](service-dashboard-tiles.md)

@@ -9,14 +9,16 @@ ms.subservice: report-builder
 ms.topic: conceptual
 ms.custom: seodec18
 ms.date: 08/04/2020
-ms.openlocfilehash: fe6ca733a5498c0e576ec30e6992ffbf26d54319
-ms.sourcegitcommit: 65822b51810a5239fea9d3d0af1fc286436c6cad
+ms.openlocfilehash: 97b93f23c8070af1b514032cea122b257097d664
+ms.sourcegitcommit: ccf53e87ff7cba1fcd9d2cca761a561e62933f90
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "87837580"
+ms.lasthandoff: 11/04/2020
+ms.locfileid: "93297932"
 ---
 # <a name="report-data-in-power-bi-report-builder"></a>Power BI 报表生成器中的报表数据
+
+[!INCLUDE [applies-to](../includes/applies-to.md)] [!INCLUDE [yes-service](../includes/yes-service.md)] [!INCLUDE [yes-paginated](../includes/yes-paginated.md)] [!INCLUDE [yes-premium](../includes/yes-premium.md)] [!INCLUDE [no-desktop](../includes/no-desktop.md)] 
 
 报表数据可以来自组织中的多个数据源。 设计 Power BI 报表生成器报表的第一步是创建表示基础报表数据的数据源和数据集。 每个数据源都包含数据连接信息。 每个数据集都包含一个查询命令，用于定义要用作数据源数据的字段集。 要可视化每个数据集中的数据，请添加表、矩阵、图表或地图等数据区域。 处理报表时，将对数据源运行查询，并且每个数据区域都可以根据需要进行扩展，以便显示数据集的查询结果。  
 
@@ -32,7 +34,7 @@ ms.locfileid: "87837580"
     > [!NOTE]
     > 数据源连接字符串不能基于表达式。
   
-- **嵌入数据源。** 也称为 *特定于报表的数据源*。 在报表中定义并只由该报表使用的数据源。  
+- **嵌入数据源。** 也称为 *特定于报表的数据源* 。 在报表中定义并只由该报表使用的数据源。  
   
 - **凭据。** 凭据是身份验证信息，你必须提供这些信息才能访问外部数据。  
   

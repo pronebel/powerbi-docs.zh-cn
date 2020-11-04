@@ -8,14 +8,16 @@ ms.subservice: report-builder
 ms.topic: how-to
 ms.date: 07/10/2020
 ms.author: maggies
-ms.openlocfilehash: f362303a79acb3468d6523eb24383ca0f3d49609
-ms.sourcegitcommit: e8ed3d120699911b0f2e508dc20bd6a9b5f00580
+ms.openlocfilehash: 05da5fa050fc92ebae320af9e07fe6505b5790f4
+ms.sourcegitcommit: ccf53e87ff7cba1fcd9d2cca761a561e62933f90
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/11/2020
-ms.locfileid: "86264616"
+ms.lasthandoff: 11/04/2020
+ms.locfileid: "93297957"
 ---
 # <a name="enter-data-directly-in-a-paginated-report-in-report-builder---power-bi"></a>直接在报表生成器 - Power BI 的分页报表中输入数据
+
+[!INCLUDE [applies-to](../includes/applies-to.md)] [!INCLUDE [yes-service](../includes/yes-service.md)] [!INCLUDE [yes-paginated](../includes/yes-paginated.md)] [!INCLUDE [yes-premium](../includes/yes-premium.md)] [!INCLUDE [no-desktop](../includes/no-desktop.md)] 
 
 本文介绍了新版 Microsoft Power BI Report Builder 中的一项功能，你可以使用该功能将数据作为嵌入式数据集直接输入 RDL 报表。  此功能类似于 Power BI Desktop。 可以直接在报表的数据集中键入数据，也可从其他程序（如 Microsoft Excel）中粘贴数据。 通过输入数据创建数据集后，可像使用任何其他已创建的嵌入数据集一样使用它。 此外，可以添加多个表，并使用一个表作为另一个表的筛选器。 此功能对可能要用于报表的小型静态数据集（如报表参数）特别有用。
  

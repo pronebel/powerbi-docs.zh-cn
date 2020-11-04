@@ -9,14 +9,16 @@ ms.author: maggies
 ms.reviewer: cfinlan
 ms.custom: ''
 ms.date: 09/09/2020
-ms.openlocfilehash: 7b12f6f6db864fb7b6af4df0d1019dc2eeed2617
-ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
+ms.openlocfilehash: 0816ba6f3ff606a73c835ac71af66655fd49acfd
+ms.sourcegitcommit: ccf53e87ff7cba1fcd9d2cca761a561e62933f90
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/06/2020
-ms.locfileid: "91747473"
+ms.lasthandoff: 11/04/2020
+ms.locfileid: "93298064"
 ---
 # <a name="url-parameters-in-paginated-reports-in-power-bi"></a>Power BI 的分页报表中的 URL 参数
+
+[!INCLUDE [applies-to](../includes/applies-to.md)] [!INCLUDE [yes-service](../includes/yes-service.md)] [!INCLUDE [yes-paginated](../includes/yes-paginated.md)] [!INCLUDE [yes-premium](../includes/yes-premium.md)] [!INCLUDE [no-desktop](../includes/no-desktop.md)] 
 
 可以通过将参数添加到 URL，将命令发送到 Power BI 中的分页报表。 例如，你可能已使用一组特定的报表参数值查看了报表。 你可使用预定义的 URL 访问参数在 URL 中封装这些信息。 可通过嵌入参数来呈现格式或设计报表工具栏的外观，进一步自定义 Power BI 处理报表的方式。 然后，可以将此 URL 直接粘贴到电子邮件或网页中，让他人在浏览器中采用相同的方式体验你的报表。 
 

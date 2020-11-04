@@ -7,14 +7,16 @@ ms.subservice: report-builder
 ms.topic: how-to
 author: maggiesMSFT
 ms.author: maggies
-ms.openlocfilehash: d3955b8dde22863e7b0224d335b162846e0741d2
-ms.sourcegitcommit: c83146ad008ce13bf3289de9b76c507be2c330aa
+ms.openlocfilehash: 44f1c1280e176d99ab909402a77804074e7d8cbd
+ms.sourcegitcommit: ccf53e87ff7cba1fcd9d2cca761a561e62933f90
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/10/2020
-ms.locfileid: "86216871"
+ms.lasthandoff: 11/04/2020
+ms.locfileid: "93298111"
 ---
 # <a name="create-a-paginated-report-based-on-a-power-bi-shared-dataset"></a>基于 Power BI 共享数据集创建分页报表
+
+[!INCLUDE [applies-to](../includes/applies-to.md)] [!INCLUDE [yes-service](../includes/yes-service.md)] [!INCLUDE [yes-paginated](../includes/yes-paginated.md)] [!INCLUDE [yes-premium](../includes/yes-premium.md)] [!INCLUDE [yes-desktop](../includes/yes-desktop.md)] 
 
 可以将在 Power BI Desktop 中创建的数据集用作 Power BI 报表生成器分页报表的数据源。 假设有这样一个场景：你已经在 Power BI Desktop 中创建了一个 Power BI 报表。 你花了很多时间来设计数据模型，然后创建了一个包含各种出色视觉对象的精美 Power BI 报表。 此报表中有一个包含多个行的矩阵，需要滚动页面才能查看全部内容。 报表阅览者希望打印该报表，以便显示矩阵中的所有行。 Power BI 分页报表可以实现此目的：打印分为多页的一张表或一个矩阵，并包含页眉页脚以及设计的完美页面布局。 它可进一步完善 Power BI Desktop 报表。 要想报表基于完全相同的数据且没有任何差异，需要使用同一数据集。
 
@@ -150,7 +152,7 @@ ms.locfileid: "86216871"
 
 1. 选择需要的布局选项，然后选择“下一步”。
 
-1. 选择**完成**。
+1. 选择 **完成** 。
     在“设计视图”中查看表。
 
     ![报表设计视图](media/report-builder-shared-datasets/power-bi-report-builder-design-view.png)

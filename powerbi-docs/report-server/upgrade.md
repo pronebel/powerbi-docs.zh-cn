@@ -8,19 +8,19 @@ ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: how-to
 ms.custom: ''
-ms.date: 09/05/2017
-ms.openlocfilehash: cb2a5ede49acb218450174bbf77388be5c504617
-ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
+ms.date: 09/22/2020
+ms.openlocfilehash: 890b3c8124cc1711e08415cdcfda1f51b548fa63
+ms.sourcegitcommit: 02484b2d7a352e96213353702d60c21e8c07c6c0
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90861719"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "91983059"
 ---
 # <a name="upgrade-power-bi-report-server"></a>升级 Power BI 报表服务器
 
 了解如何升级 Power BI 报表服务器。
 
- **下载** ![下载](media/upgrade/download.png "下载")
+ 下载![“下载”图标](media/upgrade/download.png "“下载”图标")
 
 若要下载 Power BI 报表服务器和针对 Power BI 报表服务器进行了优化的 Power BI Desktop，请转到[使用 Power BI 报表服务器进行本地报告](https://powerbi.microsoft.com/report-server/)。
 
@@ -34,17 +34,17 @@ ms.locfileid: "90861719"
 
 ### <a name="backing-up-the-report-server-databases"></a>备份报表服务器数据库
 
-由于报表服务器是无状态服务器，因此所有应用程序数据都存储在 SQL Server 数据库引擎实例上运行的 reportserver 和 reportservertempdb 数据库中。******** 可以使用支持的 SQL Server 数据库备份方法之一备份 **reportserver** 和 **reportservertempdb** 数据库。 特定于报表服务器数据库的建议包括以下几项：
+由于报表服务器是无状态服务器，因此所有应用程序数据都存储在 SQL Server 数据库引擎实例上运行的 reportserver 和 reportservertempdb 数据库中。 可以使用支持的 SQL Server 数据库备份方法之一备份 **reportserver** 和 **reportservertempdb** 数据库。 这些建议特定于报表服务器数据库：
 
-* 使用完整恢复模式备份 reportserver**** 数据库。
-* 使用简单恢复模式备份 reportservertempdb**** 数据库。
-* 可以对每个数据库使用不同的备份计划。 备份 reportservertempdb**** 只是为了在发生硬件故障时避免重新创建该数据库。 在发生硬件故障时，不必恢复 **reportservertempdb**中的数据，但需要使用表结构。 如果 **reportservertempdb**丢失，重新获得它的唯一方法是重新创建报表服务器数据库。 如果重新创建 **reportservertempdb**，应使其名称与主报表服务器数据库的名称相同，这一点非常重要。
+* 使用完整恢复模式备份 reportserver 数据库。
+* 使用简单恢复模式备份 reportservertempdb 数据库。
+* 可以对每个数据库使用不同的备份计划。 备份 reportservertempdb 只是为了在发生硬件故障时避免重新创建该数据库。 如果发生硬件故障，无需恢复 reportservertempdb 中的数据，但需要表结构。 如果 **reportservertempdb** 丢失，重新获得它的唯一方法是重新创建报表服务器数据库。 如果重新创建 reportservertempdb，请务必使其名称与主报表服务器数据库名称相同。
 
 有关 SQL Server 关系数据库的备份和恢复的详细信息，请参阅 [SQL Server 数据库的备份和恢复](/sql/relational-databases/backup-restore/back-up-and-restore-of-sql-server-databases)。
 
 ### <a name="backing-up-the-configuration-files"></a>备份配置文件
 
-Power BI 报表服务器使用配置文件来存储应用程序设置。 首次配置服务器时和部署任何自定义扩展插件之后，都应备份文件。 要备份的文件包括：
+Power BI 报表服务器使用配置文件来存储应用程序设置。 首次配置服务器以及部署任何自定义扩展后，应备份这些文件。 要备份的文件包括：
 
 * config.json
 * RSHostingService.exe.config
@@ -60,21 +60,29 @@ Power BI 报表服务器使用配置文件来存储应用程序设置。 首次�
 
 1. 查找 PowerBIReportServer.exe，然后启动安装程序。
 
-2. 选择“升级 Power BI 报表服务器”****。
+2. 选择“升级 Power BI 报表服务器”。
 
     ![升级 Power BI 报表服务器](media/upgrade/reportserver-upgrade1.png "升级 Power BI 报表服务器")
 
-3. 阅读并同意许可条款和条件，然后选择“升级”****。
+3. 阅读并同意许可条款和条件，然后选择“升级”。
 
     ![许可协议](media/upgrade/reportserver-upgrade-eula.png "许可协议")
 
-4. 成功升级后，可选择“配置报表服务器”**** 以启动 Reporting Services 配置管理器，或选择“关闭”**** 以退出安装程序。
+4. 成功升级后，可选择“配置报表服务器”以启动 Reporting Services 配置管理器，或选择“关闭”以退出安装程序。
 
     ![升级配置](media/upgrade/reportserver-upgrade-configure.png)
 
+## <a name="enable-microsoft-update-security-fixes-for-power-bi-report-server"></a>为 Power BI 报表服务器启用 Microsoft Update 安全修补程序
+
+Power BI 报表服务器通过 Microsoft Update 接收安全修补程序。 若要获取它们，请手动选择启用 Microsoft 更新。
+
+1.  在要选择加入的计算机上的“更新和安全设置”中打开 Windows 更新。
+2.  选择“高级选项”。
+3.  选中 **更新 Windows 时提供其他 Microsoft 产品的更新** 复选框。
+
 ## <a name="upgrade-power-bi-desktop"></a>升级 Power BI Desktop
 
-升级报表服务器后，需要确保所有 Power BI 报表作者升级到与此服务器匹配的针对 Power BI 报表服务器进行了优化的 Power BI Desktop 版本。
+升级报表服务器后，请确保所有 Power BI 报表作者升级到与此服务器匹配的针对 Power BI 报表服务器进行了优化的 Power BI Desktop 版本。
 
 ## <a name="next-steps"></a>后续步骤
 
