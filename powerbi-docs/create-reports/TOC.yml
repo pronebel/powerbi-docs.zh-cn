@@ -85,6 +85,8 @@
           items:
             - name: Power BI 中的报表生成器
               href: ../paginated-reports/report-builder-power-bi.md
+            - name: Power BI 分页报表示例
+              href: ../paginated-reports/paginated-reports-samples.md
             - name: 处理报表设计视图
               href: ../paginated-reports/paginated-reports-report-design-view.md
             - name: 规划报表
