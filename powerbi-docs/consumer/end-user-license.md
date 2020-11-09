@@ -11,12 +11,12 @@ ms.date: 10/07/2020
 ms.author: mihart
 ms.custom: licensing support
 LocalizationGroup: consumers
-ms.openlocfilehash: 2b0bde7aa193af831a95fc53d461f874a3c1d1d1
-ms.sourcegitcommit: d2f633b4bfa271051ba1d2ef0e6e8da7dcf42818
+ms.openlocfilehash: c2a81e771e611380ef89ef15e097005d1a86e2da
+ms.sourcegitcommit: 4ac9447d1607dfca2e60948589f36a3d64d31cb4
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/08/2020
-ms.locfileid: "91830382"
+ms.lasthandoff: 10/29/2020
+ms.locfileid: "92916972"
 ---
 # <a name="licenses-and-subscriptions-for-business-users"></a>业务用户的许可证和订阅
 
@@ -42,7 +42,7 @@ Power BI 服务的每个用户都使用免费许可证或 Pro 许可证。 如�
 
 ## <a name="power-bi-premium-capacity"></a>Power BI 高级容量
 
-Premium 是一种组织订阅，它提供了另一种存储内容的方式 - 将内存存储在专用容量中。 借助 Premium，组织内外具有权限的任何人都可以查看存储在此高级容量中的内容，而无需购买个人 Power BI Pro 许可证。 
+Premium 是一种组织订阅，它提供了另一种存储内容的方式 - 将内存存储在容量中。 借助 Premium，组织内外具有权限的任何人都可以查看存储在此高级容量中的内容，而无需购买个人 Power BI Pro 许可证。 
 
 Premium 允许 Pro 用户广泛分发内容，且不要求查看内容的收件人提供 Pro 许可证。 内容设计者需要提供 Pro 许可证。 设计人员连接到数据源、模型数据，并创建打包为工作区应用的报表和仪表板。 如果向用户分配了[ Power BI Premium 容量的工作区中的角色](end-user-workspaces.md)，即使用户没有 Pro 许可证仍可访问该工作区。
 
@@ -95,11 +95,11 @@ Premium 允许 Pro 用户广泛分发内容，且不要求查看内容的收件�
 
 ![应用屏幕](media/end-user-license/power-bi-premium.png)
 
-如果你是拥有免费许可证的用户，只要设计者将工作区置于 Premium 专用容量中，便可在工作区中查看共享内容、与同事协作、使用应用仪表板和报表，等等。 权限范围由 Power BI 管理员和内容设计者设定。
+如果你是拥有免费许可证的用户，则只要设计者将工作区置于 Premium 容量中，你就可在该工作区中查看共享内容、与同事协作、使用应用仪表板和报表等等。 权限范围由 Power BI 管理员和内容设计者设定。
 
 ## <a name="putting-it-all-together"></a>汇总
 
-组织购买高级订阅时，管理员通常会将 Pro 许可证分配给将使用高级容量创建和共享内容的员工。 Pro 用户可创建[工作区](end-user-workspaces.md)，并将内容（仪表板、报表、应用）添加到这些工作区。 为了允许免费用户在这些工作区中协作，管理员或 Pro 用户将这些工作区分配到专用容量中。  
+组织购买高级订阅时，管理员通常会将 Pro 许可证分配给将使用高级容量创建和共享内容的员工。 Pro 用户可创建[工作区](end-user-workspaces.md)，并将内容（仪表板、报表、应用）添加到这些工作区。 为了使免费版用户能够在这些工作区中进行协作，管理员或 Pro 用户将这些工作区分配到容量中。  
 
 |许可证类型  |共享容量 |专用高级容量  |
 |---------|---------|---------|
@@ -113,11 +113,11 @@ Premium 允许 Pro 用户广泛分发内容，且不要求查看内容的收件�
 
 - 工作区 A 是在没有高级容量许可证的组织中创建的。
 
-- 工作区 B 是在具有 Premium 订阅的组织中创建的。 此工作区保存在专用容量中。 此工作区有菱形图标。  
+- 工作区 B 是在具有 Premium 订阅的组织中创建的。 此工作区保存在容量中。 此工作区有菱形图标。  
 
     ![三个工作区的图像](media/end-user-license/power-bi-dedicated.jpg)
 
-Power BI Pro 设计者可以在任何一个工作区中与其他 Pro 用户共享和协作。 但是，Power BI Pro 用户可以与免费版用户共享和协作的唯一方法是使用高级专用容量中的工作区 B。  在此工作区中，设计者向协作者分配以下角色。 角色决定了可以在此工作区中执行什么操作。 Power BI 业务用户通常分配有查看者角色。 若要详细了解角色，请参阅 [Power BI 业务用户的工作区](end-user-workspaces.md)。
+Power BI Pro 设计者可以在任何一个工作区中与其他 Pro 用户共享和协作。 但是，Power BI Pro 用户只能使用 Premium 容量中的工作区 B 与免费版用户进行共享和协作。  在此工作区中，设计者向协作者分配以下角色。 角色决定了可以在此工作区中执行什么操作。 Power BI 业务用户通常分配有查看者角色。 若要详细了解角色，请参阅 [Power BI 业务用户的工作区](end-user-workspaces.md)。
 
 ## <a name="considerations-and-troubleshooting"></a>注意事项和疑难解答
 
