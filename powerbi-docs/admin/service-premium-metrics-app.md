@@ -9,12 +9,12 @@ ms.subservice: powerbi-premium
 ms.topic: how-to
 ms.date: 05/11/2020
 LocalizationGroup: Premium
-ms.openlocfilehash: ddaafaf175e2cb083e8e8eb494c156f0e9de8e0f
-ms.sourcegitcommit: be424c5b9659c96fc40bfbfbf04332b739063f9c
+ms.openlocfilehash: b74c381bfddc638c1371d571492eedfc7cf82a65
+ms.sourcegitcommit: 4ac9447d1607dfca2e60948589f36a3d64d31cb4
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "91633129"
+ms.lasthandoff: 10/29/2020
+ms.locfileid: "92916397"
 ---
 # <a name="power-bi-premium-metrics-app"></a>Power BI Premium 指标应用
 
@@ -99,7 +99,7 @@ ms.locfileid: "91633129"
 
     ![图表 b 每小时占用的内存](media/service-premium-metrics-app/premium-metrics-app-05.png)     
 
-    **c.** 若要查看内存中加载的数据集的列表，请参考“数据集在内存中的原因”  表。 按“数据集大小(MB)”排序以突出显示占用最多内存的数据集  。 容量操作分类为*交互式操作*和*后台操作*。 交互式操作包括呈现请求和响应用户交互（筛选、问答查询等）。 通过查询总数和刷新总数可了解是否已在数据集上完成了交互式（查询）繁重或后台（刷新）操作。 重点是了解交互式操作应始终优先于后台操作，以确保可能的最佳用户体验。 如果资源不足，则会在释放资源时将后台操作添加到队列中进行处理。 后台操作（如数据集刷新和 AI 函数）可以由 Power BI 服务在进程中停止并添加到队列中。
+    **c.** 若要查看内存中加载的数据集的列表，请参考“数据集在内存中的原因”  表。 按“数据集大小(MB)”排序以突出显示占用最多内存的数据集  。 容量操作分类为 *交互式操作* 和 *后台操作* 。 交互式操作包括呈现请求和响应用户交互（筛选、问答查询等）。 通过查询总数和刷新总数可了解是否已在数据集上完成了交互式（查询）繁重或后台（刷新）操作。 重点是了解交互式操作应始终优先于后台操作，以确保可能的最佳用户体验。 如果资源不足，则会在释放资源时将后台操作添加到队列中进行处理。 后台操作（如数据集刷新和 AI 函数）可以由 Power BI 服务在进程中停止并添加到队列中。
     
     ![表 c 数据集列表](media/service-premium-metrics-app/premium-metrics-app-06.png)  
 
@@ -302,7 +302,7 @@ ms.locfileid: "91633129"
 
 在方案 2 中，没有足够的可用 CPU 来执行刷新。 
 
-对于专用容量，Power BI 限制可同时发生的刷新次数。 此数字等于后端内核数 x 1.5。 例如，具有四个后端内核的 P1 专用容量可同时运行 6 次刷新。 达到最大并发刷新次数后，其他刷新将等待直至执行刷新完成。
+对于容量，Power BI 会限制可同时运行的刷新的次数。 此数字等于后端内核数 x 1.5。 例如，具有四个后端内核的 P1 容量可同时运行 6 次刷新。 达到最大并发刷新次数后，其他刷新将等待直至执行刷新完成。
 
 ![刷新的方案 2](media/service-premium-metrics-app/premium-metrics-app-26.png)
 

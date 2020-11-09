@@ -9,16 +9,16 @@ ms.subservice: powerbi-admin
 ms.topic: how-to
 ms.date: 08/13/2020
 LocalizationGroup: Premium
-ms.openlocfilehash: 404e613f3e30bda3115ec0a9a3b71907b115bbcc
-ms.sourcegitcommit: 02b5d031d92ea5d7ffa70d5098ed15e4ef764f2a
+ms.openlocfilehash: 449721a13a126344f3ef8334e63f64579a98ec20
+ms.sourcegitcommit: 4ac9447d1607dfca2e60948589f36a3d64d31cb4
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/26/2020
-ms.locfileid: "91374881"
+ms.lasthandoff: 10/29/2020
+ms.locfileid: "92916144"
 ---
 # <a name="bring-your-own-encryption-keys-for-power-bi"></a>自带加密密钥使用 Power BI
 
-Power BI 会对_静态_数据和_正在处理_的数据进行加密。 默认情况下，Power BI 使用 Microsoft 托管密钥来加密数据。 在 Power BI Premium 中，还可以对导入数据集的静态数据使用自己的密钥（有关详细信息，请参阅[数据源和存储注意事项](#data-source-and-storage-considerations)）。 这种方法通常被称为_创建自己的密钥_ (BYOK)。
+Power BI 会对 _静态_ 数据和 _正在处理_ 的数据进行加密。 默认情况下，Power BI 使用 Microsoft 托管密钥来加密数据。 在 Power BI Premium 中，还可以对导入数据集的静态数据使用自己的密钥（有关详细信息，请参阅[数据源和存储注意事项](#data-source-and-storage-considerations)）。 这种方法通常被称为 _创建自己的密钥_ (BYOK)。
 
 ## <a name="why-use-byok"></a>为何使用 BYOK？
 
@@ -69,7 +69,7 @@ BYOK 仅适用于数据集。 用户可以上传到服务的推送数据集、Ex
 
     ![选择服务主体和加密操作](media/service-encryption-byok/service-principal.png)
 
-1. 选择“确定”****，然后选择“保存”****。
+1. 选择“确定”，然后选择“保存”。
 
 > [!NOTE]
 > 若要在将来撤消 Power BI 对你的数据的访问权限，请从 Azure 密钥保管库中删除对此服务主体的访问权限。
@@ -78,7 +78,7 @@ BYOK 仅适用于数据集。 用户可以上传到服务的推送数据集、Ex
 
 1. 在密钥保管库中的“密钥”下，选择“生成/导入” 。
 
-1. 选择 RSA 的“密钥类型”和 4096 的“RSA 密钥大小”********。
+1. 选择 RSA 的“密钥类型”和 4096 的“RSA 密钥大小”。
 
     ![突出显示了密钥类型和大小的“创建密钥”](media/service-encryption-byok/create-rsa-key.png)
 
@@ -86,9 +86,9 @@ BYOK 仅适用于数据集。 用户可以上传到服务的推送数据集、Ex
 
 1. 在“密钥”下，选择所创建的密钥。
 
-1. 选择密钥“当前版本”的 GUID****。
+1. 选择密钥“当前版本”的 GUID。
 
-1. 检查并确保已选中“包装密钥”和“解包密钥”********。 复制“密钥标识符”，以在 Power BI 中启用 BYOK 时使用****。
+1. 检查并确保已选中“包装密钥”和“解包密钥”。 复制“密钥标识符”，以在 Power BI 中启用 BYOK 时使用。
 
     ![突出显示了“密钥标识符”和“允许的操作”的“属性”](media/service-encryption-byok/key-properties.png)
 
@@ -108,9 +108,9 @@ BYOK 仅适用于数据集。 用户可以上传到服务的推送数据集、Ex
 
 - 目前，无法在启用 BYOK 后再将其禁用。 根据为 `Add-PowerBIEncryptionKey` 指定参数的方式，可以控制将 BYOK 用于一个或多个容量的方式。 但是，无法撤消向租户引入密钥的操作。 有关详细信息，请参阅[启用 BYOK](#enable-byok)。
 
-- 不能_直接_将使用 BYOK 的工作区从 Power BI Premium 中的专用容量移至共享容量。 必须先将工作区移至未启用 BYOK 的专用容量。
+- 不能直接将使用 BYOK 的工作区从 Power BI Premium 中的容量移至共享容量。 必须先将工作区移至未启用 BYOK 的容量。
 
-- 如果将使用 BYOK 的工作区从 Power BI Premium 中的专用容量移动到共享，则报表和数据集将变为不可访问，因为它们是使用密码进行访问的。 为了避免该情况，必须先将工作区移至未启用 BYOK 的专用容量。
+- 如果将使用 BYOK 的工作区从 Power BI Premium 中的容量移动到共享，则报表和数据集将变为不可访问，因为它们是使用密码进行访问的。 为了避免该情况，必须先将工作区移至未启用 BYOK 的容量。
 
 ### <a name="enable-byok"></a>启用 BYOK
 
@@ -183,7 +183,7 @@ Power BI 提供其他 cmdlet 来帮助在租户中管理 BYOK：
 
     请注意，加密在容量级别启用，但指定工作区的加密状态在数据集级别获取。
 
-- 使用 [`Switch-PowerBIEncryptionKey`](/powershell/module/microsoftpowerbimgmt.admin/switch-powerbiencryptionkey) 切换（或_旋转_）要用于加密的密钥的版本。 cmdlet 只更新密钥 `-Name` 的 `-KeyVaultKeyUri`：
+- 使用 [`Switch-PowerBIEncryptionKey`](/powershell/module/microsoftpowerbimgmt.admin/switch-powerbiencryptionkey) 切换（或 _旋转_ ）要用于加密的密钥的版本。 cmdlet 只更新密钥 `-Name` 的 `-KeyVaultKeyUri`：
 
     ```powershell
     Switch-PowerBIEncryptionKey -Name'Contoso Sales' -KeyVaultKeyUri'https://contoso-vault2.vault.azure.net/keys/ContosoKeyVault/b2ab4ba1c7b341eea5ecaaa2wb54c4d2'

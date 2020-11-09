@@ -6,22 +6,24 @@ ms.reviewer: kayu
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: how-to
-ms.date: 04/30/2020
+ms.date: 10/30/2020
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 86c663e7b9ba035af6592dc10972d868344df7f7
-ms.sourcegitcommit: be424c5b9659c96fc40bfbfbf04332b739063f9c
+ms.openlocfilehash: 4b9573d0a24efdbb4c0b5a4130f973a0dfac0f10
+ms.sourcegitcommit: 8861dac6724202a5b3be456a6aff8f3584e0cccf
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "91633199"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "93132312"
 ---
 # <a name="copy-reports-from-other-workspaces"></a>从其他工作区复制报表
 
 在工作区或应用中找到自己喜欢的报表时，你可以复制它，然后将其保存到不同工作区。 然后，你可以修改该报表的副本，添加或删除视觉对象和其他元素。 无需担心如何创建数据模型。 它已为你创建。 修改现有报表比从头开始创建要容易得多。 但是，当你从工作区创建应用时，有时无法从应用中发布报表副本。 有关详细信息，请参阅[“跨工作区使用数据集”一文中的其他注意事项和限制](service-datasets-across-workspaces.md#considerations-and-limitations)。
 
-> [!NOTE]
-> 若要创建副本，即使原始报表位于高级容量的工作区中，你也需要一个 Pro 许可证。
+## <a name="prerequisites"></a>先决条件
+
+- 若要复制报表，即使原始报表位于高级容量的工作区中，你也需要一个 Pro 许可证。
+- 若要复制报表，或基于一个工作区中的数据集在另一个工作区中创建报表，则需要数据集的生成权限。 对于原始工作区中的数据集，拥有管理员、成员和参与者角色的相关人员通过其工作区角色自动获得生成权限。 有关详细信息，请参阅[新工作区中的角色](../collaborate-share/service-new-workspaces.md#roles-in-the-new-workspaces)。
 
 ## <a name="save-a-copy-of-a-report-in-a-workspace"></a>在工作区中保存报表的副本
 

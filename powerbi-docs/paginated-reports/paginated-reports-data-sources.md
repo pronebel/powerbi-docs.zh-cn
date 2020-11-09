@@ -8,14 +8,16 @@ ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: conceptual
 ms.date: 07/27/2020
-ms.openlocfilehash: f433a90580034495b4f7b1f6201c4481ffc627c5
-ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
+ms.openlocfilehash: d6f436477a8226dec870d039c8fe10491456a325
+ms.sourcegitcommit: ccf53e87ff7cba1fcd9d2cca761a561e62933f90
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90859856"
+ms.lasthandoff: 11/04/2020
+ms.locfileid: "93298185"
 ---
 # <a name="supported-data-sources-for-power-bi-paginated-reports"></a>Power BI 分页报表支持的数据源
+
+[!INCLUDE [applies-to](../includes/applies-to.md)] [!INCLUDE [yes-service](../includes/yes-service.md)] [!INCLUDE [yes-paginated](../includes/yes-paginated.md)] [!INCLUDE [yes-premium](../includes/yes-premium.md)] [!INCLUDE [no-desktop](../includes/no-desktop.md)] 
 
 本文将详细介绍 Power BI 服务中分页报表支持的数据源，以及如何连接到 Azure SQL 数据库数据源。 部分 PBI 数据源受本机支持。 可通过数据网关与其他人连接。
 
@@ -25,7 +27,7 @@ ms.locfileid: "90859856"
 
 | 数据源 | 身份验证 | 备注 |
 | --- | --- | --- |
-| Azure SQL 数据库 <br>Azure SQL 数据仓库 | 基本、单一登录 (SSO)、OAuth2 | 你可以使用包含 Azure SQL DB 的企业网关。 但在这些情况下，不能使用 SSO 或 oAuth2 进行身份验证。   |
+| Azure SQL Database <br>Azure SQL 数据仓库 | 基本、单一登录 (SSO)、OAuth2 | 你可以使用包含 Azure SQL DB 的企业网关。 但在这些情况下，不能使用 SSO 或 oAuth2 进行身份验证。   |
 | Azure SQL 托管实例 | 基本 | 通过公共或专用终结点（专用终结点需要通过企业网关进行路由）  |
 | Azure Analysis Services | SSO、OAuth2 | AAS 防火墙要么必须禁用，要么必须配置为允许 BlackForest 区域中的所有 IP 范围。 这仅适用于 BlackForest 区域。  不支持外部租户中的 SSO。 |
 | Power BI 数据集 | SSO | 高级和非高级 Power BI 数据集。 需要读取权限 |
@@ -65,9 +67,9 @@ ms.locfileid: "90859856"
 
 - 基本（用户名和密码）
 - SSO（单一登录）
-- OAuth2（存储的 AAD 令牌）
+- OAuth2（存储的 Azure Active Directory 令牌）
 
-为让 SSO 和 OAuth2 正常工作，数据源所连接的 Azure SQL 数据库服务器需[启用 AAD 身份验证支持](/azure/sql-database/sql-database-aad-authentication-configure)。 对于 OAuth2 身份验证方法，AAD 会生成令牌并存储，以供将来访问数据源。 若使用 [SSO 身份验证方法](../connect-data/service-azure-sql-database-with-direct-connect.md#single-sign-on)，则选择其正下方的 SSO 选项，即“最终用户通过 DirectQuery 访问此数据源时使用自己的 OAuth2 凭据”。
+为让 SSO 和 OAuth2 正常工作，数据源所连接的 Azure SQL 数据库服务器需[启用 Azure Active Directory 身份验证支持](/azure/sql-database/sql-database-aad-authentication-configure)。 对于 OAuth2 身份验证方法，Azure Active Directory 会生成令牌并存储，以供将来访问数据源。 若使用 [SSO 身份验证方法](../connect-data/service-azure-sql-database-with-direct-connect.md#single-sign-on)，则选择其正下方的 SSO 选项，即“最终用户通过 DirectQuery 访问此数据源时使用自己的 OAuth2 凭据”。
   
 ## <a name="next-steps"></a>后续步骤
 

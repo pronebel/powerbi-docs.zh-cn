@@ -10,12 +10,12 @@ ms.date: 06/24/2020
 ms.author: kfollis
 ms.custom: licensing support
 LocalizationGroup: Administration
-ms.openlocfilehash: 825b336a96b998c04b019195ad3f3beea96d0a19
-ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
+ms.openlocfilehash: 86a28c1d89537a59bf96d82fb3df87a4a0ccf391
+ms.sourcegitcommit: 4ac9447d1607dfca2e60948589f36a3d64d31cb4
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90857280"
+ms.lasthandoff: 10/29/2020
+ms.locfileid: "92916075"
 ---
 # <a name="licensing-the-power-bi-service-for-users-in-your-organization"></a>为组织中的用户授权 Power BI 服务
 
@@ -84,7 +84,7 @@ Power BI 用户个人许可证有两种类型：免费版和 Pro 版。 用户�
 
 使用标准的自助 Power BI Pro 订阅，管理员可分配用户个人许可证。 Power BI Pro 许可证每月按用户收费。 此许可证类型支持协作、发布、共享和临时分析。 内容将保存到由 Microsoft 完全托管的共享存储容量中。
 
-Power BI Premium 订阅向组织分配专用容量。 Premium 适用于企业 BI、大数据分析以及云和本地报表，提供高级管理和部署控制。 专用计算和存储资源由组织中的容量管理员管理。 每月需要为此专用环境支付费用。 除了其他高级优势外，存储在高级容量中的内容可以由没有 Power BI Pro 许可证的用户访问并分发给用户。 必须至少有一个用户分到 Power BI Pro 许可证才能使用 Premium，并且内容创建者和开发人员仍然需要 Power BI Pro 许可证。
+Power BI Premium 订阅会向组织分配容量。 Premium 适用于企业 BI、大数据分析以及云和本地报表，提供高级管理和部署控制。 专用计算和存储资源由组织中的容量管理员管理。 每月需要为此专用环境支付费用。 除了其他高级优势外，存储在高级容量中的内容可以由没有 Power BI Pro 许可证的用户访问并分发给用户。 必须至少有一个用户分到 Power BI Pro 许可证才能使用 Premium，并且内容创建者和开发人员仍然需要 Power BI Pro 许可证。
 
 这两种类型的订阅不互相排斥。 可以同时拥有 Power BI Premium 和 Power BI Pro。 在此配置中，存储在高级容量中的内容可以与所有用户共享，并且共享容量也可以。 有关容量限制的信息，请参阅[管理 Power BI 工作区中的数据存储](service-admin-manage-your-data-storage-in-power-bi.md)。
 

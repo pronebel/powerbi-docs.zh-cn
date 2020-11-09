@@ -6,14 +6,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
-ms.date: 08/04/2020
+ms.date: 10/29/2020
 ms.author: maggies
-ms.openlocfilehash: cedabd613e177aa9a3645e80db38b74d799b8799
-ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
+ms.openlocfilehash: 52d38fd0705a6f9335f0ddd965acb0d9f56d38ee
+ms.sourcegitcommit: a5fa368abad54feb44a267fe26c383a731c7ec0d
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90861190"
+ms.lasthandoff: 10/30/2020
+ms.locfileid: "93045071"
 ---
 # <a name="power-bi-report-data-sources-in-power-bi-report-server"></a>Power BI 报表服务器中 Power BI 报表数据源
 Power BI 报表可以连接到多个数据源。 根据数据使用方式，可以提供不同的数据源。 可以导入数据，或者可以直接使用 DirectQuery 或与 SQL Server Analysis Services 的实时连接查询数据。 针对 Power BI 报表服务器优化的 Power BI Desktop 支持某些数据源，但在发布到 Power BI 报表服务器时不支持这些数据源。
@@ -43,7 +43,7 @@ Power BI 报表可以连接到多个数据源。 根据数据使用方式，可�
 | Azure 表存储 |是 |是 |否 |
 | Dynamics 365 (联机) |是 |否 |否 |
 | Facebook |是 |否 |否 |
-| 文件夹 |是 |是 |否 |
+| Folder |是 |是 |否 |
 | Google Analytics |是 |否 |否 |
 | Hadoop 文件 (HDFS) |是 |否 |否 |
 | IBM DB2 数据库 |是 |是 |否 |
@@ -189,6 +189,8 @@ Power BI 报表服务器不支持将基于 OAuth 的身份验证用于模型刷�
 | Zendesk (Beta) |否 |否 |否 |否 |
 
 **模型刷新不支持配合使用 LDAP 身份验证与 Teradata（通过使用命令提示命令“setx PBI_EnableTeradataLdap true”在 Power BI Desktop 中启用）。
+
+使用 Web 数据时 Power BI 报表服务器有一项限制：只能刷新 Web 中的数据文件。 基于页面或示例的数据无法刷新。 此限制是因为不能刷新用 Web.BrowserContents 和 Web.Page 创建的 M 表达式。 Power BI 报表服务器只能刷新 Web.Contents 数据源。
 
 ## <a name="list-of-supported-authentication-methods-for-directquery"></a>用于 DirectQuery 的受支持的身份验证方法列表
 

@@ -10,12 +10,12 @@ ms.topic: tutorial
 ms.date: 08/03/2020
 ms.author: davidi
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 9f25c9ffc294a1733a3dba5818dc00bd23124837
-ms.sourcegitcommit: 0d0ab427bb71b37c9e5170c515a8f274e1f20c17
+ms.openlocfilehash: ad4715bbecc94934d0f2ac53551b27d82cb4282c
+ms.sourcegitcommit: 4ac9447d1607dfca2e60948589f36a3d64d31cb4
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "87878875"
+ms.lasthandoff: 10/29/2020
+ms.locfileid: "92916949"
 ---
 # <a name="tutorial-build-a-machine-learning-model-in-power-bi"></a>教程：在 Power BI 中生成机器学习模型
 
@@ -44,9 +44,9 @@ ms.locfileid: "87878875"
 
 ### <a name="create-the-entities"></a>创建实体
 
-若要在数据流中创建实体，登录到 Power BI 服务并导航到启用 AI 的专用容量上的工作区。
+若要在数据流中创建实体，请登录到 Power BI 服务并导航到已启用 AI 的容量中的工作区。
 
-如果还没有工作区，可以通过从 Power BI 服务选择导航窗格菜单的“工作区”来创建一个，然后选择在面板底部显示的“创建工作区”   。 这将在右侧打开一个面板，用于输入工作区详细信息。 输入一个工作区名称，然后选择“高级”  。 使用单选按钮确认工作区使用“专用容量”，并确保将它分配给已启用 AI 预览版的专用容量实例。 然后，选择“保存”  。
+如果还没有工作区，可以通过从 Power BI 服务选择导航窗格菜单的“工作区”来创建一个，然后选择在面板底部显示的“创建工作区”   。 这将在右侧打开一个面板，用于输入工作区详细信息。 输入一个工作区名称，然后选择“高级”  。 使用单选按钮确认工作区使用“专用容量”，并确保将它分配给已启用 AI 预览版的容量实例。 然后，选择“保存”  。
 
 ![创建工作区](media/service-tutorial-build-machine-learning-model/tutorial-machine-learning-model-01.png)
 
@@ -177,7 +177,7 @@ Power Query 自动推断列的类型。 可以通过单击列标题顶部的属�
 
 ## <a name="using-the-scored-output-from-the-model-in-a-power-bi-report"></a>在 Power BI 报表中使用模型的评分输出
 
-可以使用数据流，从 Power BI Desktop 连接器连接到数据流，以使用机器学习模型的评分输出。 在 Power BI 报表中，现在可以使用“在线访问者扩充的购买意向预测”实体合并模型的预测****。
+可以使用数据流，从 Power BI Desktop 连接器连接到数据流，以使用机器学习模型的评分输出。 在 Power BI 报表中，现在可以使用“在线访问者扩充的购买意向预测”实体合并模型的预测。
 
 ## <a name="next-steps"></a>后续步骤
 

@@ -10,12 +10,12 @@ ms.date: 09/02/2020
 ms.author: mihart
 ms.custom: licensing support
 LocalizationGroup: Get started
-ms.openlocfilehash: dca1b3bb107c8a2e02b48db9d22a4fe6c2875a4c
-ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
+ms.openlocfilehash: c604bec5213b14f91e514c9a1552acb99ac5d0aa
+ms.sourcegitcommit: 4ac9447d1607dfca2e60948589f36a3d64d31cb4
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90860914"
+ms.lasthandoff: 10/29/2020
+ms.locfileid: "92916788"
 ---
 # <a name="frequently-asked-questions-about-power-bi"></a>有关 Power BI 的常见问题
 
@@ -37,7 +37,7 @@ Power BI 服务是基于云的业务分析服务，任何人都可以更快的�
 
 Power BI Pro 许可证是支持访问 Power BI 服务中所有内容和功能的单独用户许可证。 它甚至还支持共享内容，并与其他 Pro 用户协作。 只有 Pro 用户可将内容发布到其他工作区、共享仪表板并订阅仪表板和报表。 
 
-Power BI Premium 提供专用容量，以确保性能更一致。 它还支持 Power BI 中的较大数据量。 对于个人用户，Premium 支持 Pro 用户广泛分发内容，且接收人无需使用每用户 Pro 许可证，即可查看内容。 也就是说，业务用户可以与同事协作，查看与他们共享的仪表板、报表和应用，并与之交互。 
+Power BI Premium 提供容量以确保性能更加一致。 它还支持 Power BI 中的较大数据量。 对于个人用户，Premium 支持 Pro 用户广泛分发内容，且接收人无需使用每用户 Pro 许可证，即可查看内容。 也就是说，业务用户可以与同事协作，查看与他们共享的仪表板、报表和应用，并与之交互。 
 
 若要了解详细信息，请参阅[我有哪种类型的许可证？](end-user-license.md)。
 
@@ -108,7 +108,7 @@ Power BI 不支持由使用者电子邮件服务或电信提供商提供的电�
 
 与许多其他 Microsoft 服务和软件相类似，Power BI 提供了撤消上一项命令的简单方法。
 
-* 若要**撤消**上一操作或最近几项操作，请按 CTRL+Z。
+* 若要 **撤消** 上一操作或最近几项操作，请按 CTRL+Z。
 
 ## <a name="next-steps"></a>后续步骤
 

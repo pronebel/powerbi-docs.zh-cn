@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 01/11/2019
-ms.openlocfilehash: b2638c3fdb483f45b6f4b3f9363f42ee36e57f0b
-ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
+ms.openlocfilehash: ed8f44e7dd1a7e713a9b2bd75dc33f259cb52f2a
+ms.sourcegitcommit: 4ac9447d1607dfca2e60948589f36a3d64d31cb4
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/06/2020
-ms.locfileid: "91747749"
+ms.lasthandoff: 10/29/2020
+ms.locfileid: "92916328"
 ---
 # <a name="manage-multi-tenancy-with-power-bi-embedded-analytics"></a>使用 Power BI 嵌入式分析来管理多租户
 
@@ -246,7 +246,7 @@ Power BI 容量注意事项和限制：
 
 * 每个容量只能根据[购买的 SKU](../../admin/service-premium-what-is.md) 使用其已分配的内存和 V 核心。
 * 有关每个 SKU 建议的数据集大小，请参考[高级大型数据集](../../admin/service-premium-what-is.md#large-datasets)。
-* 专用容量的最大数据集大小为 10 GB。
+* 容量的最大数据集大小为 10 GB。
 * 一天中导入模式  数据集的计划刷新数是 48。
 * 导入模式  数据集的计划刷新的间隔时间是 30 分钟。
 * 有关可以在一个容量上同时运行的刷新数目，请参考[资源管理和优化](../../admin/service-premium-what-is.md#capacity-nodes)。

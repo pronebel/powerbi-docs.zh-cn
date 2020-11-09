@@ -7,12 +7,12 @@ ms.topic: troubleshooting
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.date: 09/15/2020
-ms.openlocfilehash: 0a90c03c516b64e5a0a81c6a2bbdf0049d48b76f
-ms.sourcegitcommit: be0971576a3f1af7a064371c9cf27dd462dfca82
+ms.openlocfilehash: 929a79d7e940f729b90d0cdf6d3ebd905a621f6a
+ms.sourcegitcommit: 4ac9447d1607dfca2e60948589f36a3d64d31cb4
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/15/2020
-ms.locfileid: "92080245"
+ms.lasthandoff: 10/29/2020
+ms.locfileid: "92916811"
 ---
 # <a name="deployment-pipelines-troubleshooting"></a>解决部署管道问题
 
@@ -55,7 +55,7 @@ ms.locfileid: "92080245"
 
 ### <a name="what-type-of-capacity-can-i-assign-to-a-workspace-in-a-pipeline"></a>我可以将哪种类型的容量分配到管道中的工作区？
 
-部署管道中的所有工作区都必须位于专用容量内，管道才能正常工作。 但是，可以对管道中的不同工作区使用不同的容量。 也可以对同一管道中的不同工作区使用不同的容量类型。
+部署管道中的所有工作区都必须位于容量内，管道才能正常运行。 但是，可以对管道中的不同工作区使用不同的容量。 也可以对同一管道中的不同工作区使用不同的容量类型。
 
 出于开发和测试目的，可以与每个用户的 Pro Power BI 帐户一起使用 A 或 EM 容量。
 

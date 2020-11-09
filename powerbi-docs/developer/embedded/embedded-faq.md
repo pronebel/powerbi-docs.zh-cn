@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 02/11/2020
-ms.openlocfilehash: 86ac6bebf6373f14ac343721a8594ee9f45b0e89
-ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
+ms.openlocfilehash: 85622b457d1c2eda0af51e0c7190d2691c259a82
+ms.sourcegitcommit: 4ac9447d1607dfca2e60948589f36a3d64d31cb4
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/06/2020
-ms.locfileid: "91746185"
+ms.lasthandoff: 10/29/2020
+ms.locfileid: "92916489"
 ---
 # <a name="frequently-asked-questions-about-power-bi-embedded"></a>有关 Power BI Embedded 的常见问题
 
@@ -117,7 +117,7 @@ Power BI 要求使用组织帐户注册。 不支持使用 Microsoft 帐户注�
 * [Rest API](/rest/api/power-bi-embedded/) 
 * [Powershell cmdlet](/powershell/module/azurerm.powerbiembedded/)
 
-### <a name="what-is-the-pbi-embedded-dedicated-capacity-role-in-a-pbi-embedded-solution"></a>PBI Embedded 解决方案中的 PBI Embedded 专用容量角色是什么？
+### <a name="what-is-the-pbi-embedded-capacity-role-in-a-pbi-embedded-solution"></a>PBI Embedded 解决方案中的 PBI Embedded 容量角色是什么？
 
 为了[将解决方案提升到生产](embed-sample-for-customers.md#move-to-production)，你需要将应用程序使用的 Power BI 内容（工作区）分配给 Power BI Embedded (A SKU) 容量。
 
@@ -176,7 +176,7 @@ var authenticationResult = await context.AcquireTokenAsync(resourceId, clientAss
 
 ### <a name="what-content-pack-data-types-can-you-embed"></a>可以嵌入哪些内容包数据类型？
 
-*无法*嵌入通过内容包数据集生成的**仪表板**和**磁贴**。 但是，*可以*嵌入通过内容包数据集生成的**报表**。
+*无法* 嵌入通过内容包数据集生成的 **仪表板** 和 **磁贴** 。 但是， *可以* 嵌入通过内容包数据集生成的 **报表** 。
 
 ### <a name="what-is-the-difference-between-using-row-level-security-rls-vs-javascript-filters"></a>使用行级别安全性 (RLS) 与JavaScript 筛选器有何区别？
 
@@ -270,7 +270,7 @@ Power BI Embedded 也适用于[国家云](embed-sample-for-customers-national-cl
 
 ### <a name="what-is-power-bi-workspace-collection"></a>什么是 Power BI 工作区集合？
 
-**Power BI 工作区集合**（**Power BI Embedded** 版本 1）是基于 **Power BI 工作区集合** Azure 资源的解决方案。 此解决方案允许使用“Power BI 工作区集合”解决方案下的 Power BI 内容  、专用的 API 和用于向 Power BI 验证应用程序的工作区集合密钥，为客户创建 Power BI Embedded  应用程序。
+**Power BI 工作区集合** （ **Power BI Embedded** 版本 1）是基于 **Power BI 工作区集合** Azure 资源的解决方案。 此解决方案允许使用“Power BI 工作区集合”解决方案下的 Power BI 内容  、专用的 API 和用于向 Power BI 验证应用程序的工作区集合密钥，为客户创建 Power BI Embedded  应用程序。
 
 ### <a name="can-i-migrate-from-power-bi-workspace-collection-to-power-bi-embedded"></a>如何从 Power BI 工作区集合迁移到 Power BI Embedded？
 
@@ -278,7 +278,7 @@ Power BI Embedded 也适用于[国家云](embed-sample-for-customers-national-cl
 
 2. 从使用 Power BI 内容的 Power BI Embedded  应用程序 POC 入手。
 
-3. 为生产做好准备后，购买 Power BI Embedded  专用容量，并将你的 Power BI 内容（工作区）分配给该容量。
+3. 准备好投入生产环境后，请购买 Power BI Embedded 容量，并将你的 Power BI 内容（工作区）分配给该容量。
 
     > [!Note]
     > 当使用 Power BI Embedded 解决方案并行生成时，可以继续使用 Power BI 工作区集合   。 准备就绪后，可以让客户迁移到新的 Power BI Embedded 解决方案，停用 Power BI 工作区集合解决方案   。
@@ -287,9 +287,9 @@ Power BI Embedded 也适用于[国家云](embed-sample-for-customers-national-cl
 
 ### <a name="is-power-bi-workspace-collection-on-a-deprecation-path"></a>Power BI 工作区集合是否将要被弃用？
 
-是的，但已在使用 **Power BI 工作区集合**解决方案的客户可以继续使用它，直到它被弃用。 客户还可以创建新的工作区集合，以及任何仍使用 Power BI 工作区集合解决方案的 Power BI Embedded 应用程序   。
+是的，但已在使用 **Power BI 工作区集合** 解决方案的客户可以继续使用它，直到它被弃用。 客户还可以创建新的工作区集合，以及任何仍使用 Power BI 工作区集合解决方案的 Power BI Embedded 应用程序   。
 
-但是，这也意味着不会向任何 **Power BI 工作区集合**解决方案添加新功能。 我们鼓励客户计划迁移到新的 **Power BI Embedded** 解决方案。
+但是，这也意味着不会向任何 **Power BI 工作区集合** 解决方案添加新功能。 我们鼓励客户计划迁移到新的 **Power BI Embedded** 解决方案。
 
 ### <a name="when-is-power-bi-workspace-collection-support-discontinued"></a>何时停止 Power BI 工作区集合支持？
 
@@ -301,10 +301,10 @@ Power BI Embedded 也适用于[国家云](embed-sample-for-customers-national-cl
 
 ### <a name="why-should-i-migrate-from-pbi-workspace-collection-to-power-bi-embedded"></a>为什么应当从 PBI 工作区集合迁移到 Power BI Embedded？
 
-**Power BI Embedded** 解决方案中有一些 **Power BI 工作区集合**无法实现的新特性和新功能。
+**Power BI Embedded** 解决方案中有一些 **Power BI 工作区集合** 无法实现的新特性和新功能。
 
 一些功能为：
-* 所有 PBI 数据源都受到支持。 仅两个 **Power BI 工作区集合**数据源受到支持。 
+* 所有 PBI 数据源都受到支持。 仅两个 **Power BI 工作区集合** 数据源受到支持。 
 * Power BI Embedded  解决方案仅支持诸如常见问题、刷新、书签、嵌入仪表板和磁贴以及自定义菜单等新功能。
 * 容量计费模型。
 

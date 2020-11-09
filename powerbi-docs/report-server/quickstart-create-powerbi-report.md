@@ -8,12 +8,12 @@ ms.subservice: powerbi-report-server
 ms.topic: how-to
 ms.date: 07/24/2020
 ms.author: maggies
-ms.openlocfilehash: 73772b96929ffd91dc5a38634ab9a1a2e57286b1
-ms.sourcegitcommit: 65025ab7ae57e338bdbd94be795886e5affd45b4
+ms.openlocfilehash: b41ca7c8a85a544afea84e7f19a06f91dc85f376
+ms.sourcegitcommit: a5fa368abad54feb44a267fe26c383a731c7ec0d
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/28/2020
-ms.locfileid: "87251317"
+ms.lasthandoff: 10/30/2020
+ms.locfileid: "93045033"
 ---
 # <a name="create-a-power-bi-report-for-power-bi-report-server"></a>为 Power BI 报表服务器创建 Power BI 报表
 可以在 Power BI 报表服务器 Web 门户中在本地存储和管理 Power BI 报表，就像在 Power BI 服务 (https://powerbi.com) ) 中的云中存储 Power BI 报表一样。 可以在 Power BI Desktop 中创建和编辑报表，并将其发布到 Web 门户中。 接下来，组织中的报表读取器可以在浏览器或移动设备上的 Power BI 移动应用中查看报表。
@@ -36,17 +36,17 @@ ms.locfileid: "87251317"
 
 3. 根据所用的计算机选择：
 
-    - **PBIDesktopRS.msi**（32 位版本）或
+    - **PBIDesktopRS.msi** （32 位版本）或
 
-    - **PBIDesktopRS_x64.msi**（64 位版本）。
+    - **PBIDesktopRS_x64.msi** （64 位版本）。
 
 4. 下载安装程序后，运行 Power BI Desktop 安装向导。
 
 2. 安装结束时，请选中“立即启动 Power BI Desktop”。
    
-    此时，它会自动启动，可以开始使用了。 根据标题栏中显示的“Power BI Desktop（2020 年 5 月版）”，便知道使用了正确的版本。
+    此时，它会自动启动，可以开始使用了。 根据标题栏中显示的“Power BI Desktop (2020 年 10 月版)”，便知道使用了正确的版本。
 
-    ![Power BI Desktop 2020 年 5 月版](media/quickstart-create-powerbi-report/power-bi-report-server-desktop-may-2020.png)
+    ![Power BI Desktop（2020 年 10 月版）](media/quickstart-create-powerbi-report/power-bi-report-server-desktop-may-2020.png)
 
 3. 如果不熟悉 Power BI Desktop，请考虑观看欢迎屏幕上的视频。
    

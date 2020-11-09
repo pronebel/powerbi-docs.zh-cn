@@ -8,12 +8,12 @@ ms.topic: include
 ms.date: 10/21/2020
 ms.author: maggies
 ms.custom: include file
-ms.openlocfilehash: 87c35df25a17090f1788abbeb979afab3ad9d6a9
-ms.sourcegitcommit: fddba666c6ea90d525a1c3188bbd3c4a03410cdc
+ms.openlocfilehash: 3828a11f4b4447f6484e121fec84fb44d702c86a
+ms.sourcegitcommit: 8861dac6724202a5b3be456a6aff8f3584e0cccf
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/23/2020
-ms.locfileid: "92462203"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "93136187"
 ---
 |功能   | 管理员  | 成员  | 参与者  | 查看器 |
 |---|---|---|---|---|
@@ -21,7 +21,7 @@ ms.locfileid: "92462203"
 | 添加/删除人员，包括其他管理员。  |  ![“是”复选标记](media/power-bi-workspace-roles-table/green-checkmark.png) |   |   |   |
 | 允许参与者为工作区更新应用  |  ![“是”复选标记](media/power-bi-workspace-roles-table/green-checkmark.png) |   |   |   |
 | 添加成员或具有较低权限的其他人。  |  ![“是”复选标记](media/power-bi-workspace-roles-table/green-checkmark.png) | ![“是”复选标记](media/power-bi-workspace-roles-table/green-checkmark.png)  |   |   |
-| 发布和更改应用的权限 |  ![“是”复选标记](media/power-bi-workspace-roles-table/green-checkmark.png) | ![“是”复选标记](media/power-bi-workspace-roles-table/green-checkmark.png)  |   |   |
+| 发布、取消发布和更改应用的权限 |  ![“是”复选标记](media/power-bi-workspace-roles-table/green-checkmark.png) | ![“是”复选标记](media/power-bi-workspace-roles-table/green-checkmark.png)  |   |   |
 | 更新应用。 |  ![“是”复选标记](media/power-bi-workspace-roles-table/green-checkmark.png) | ![“是”复选标记](media/power-bi-workspace-roles-table/green-checkmark.png)  |  如允许 <sup>1</sup>  |   |
 | 共享一个项或共享应用。<sup>2</sup> |  ![“是”复选标记](media/power-bi-workspace-roles-table/green-checkmark.png) | ![“是”复选标记](media/power-bi-workspace-roles-table/green-checkmark.png)  |   |   |
 | 允许其他人重新共享项目。<sup>2</sup> |  ![“是”复选标记](media/power-bi-workspace-roles-table/green-checkmark.png) | ![“是”复选标记](media/power-bi-workspace-roles-table/green-checkmark.png)  |   |   |

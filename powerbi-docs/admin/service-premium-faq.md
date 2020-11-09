@@ -9,12 +9,12 @@ ms.subservice: powerbi-premium
 ms.topic: conceptual
 ms.date: 09/16/2019
 LocalizationGroup: Premium
-ms.openlocfilehash: d97c1a4be226d81ca20ef2f31a1f535174cb6c5b
-ms.sourcegitcommit: 51b965954377884bef7af16ef3031bf10323845f
+ms.openlocfilehash: 82237286fa4d6ac3713ca6674a541b7d59c20a49
+ms.sourcegitcommit: 4ac9447d1607dfca2e60948589f36a3d64d31cb4
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/30/2020
-ms.locfileid: "91599129"
+ms.lasthandoff: 10/29/2020
+ms.locfileid: "92915891"
 ---
 # <a name="power-bi-premium-faq"></a>Power BI Premium 常见问题解答
 
@@ -32,7 +32,7 @@ Power BI Premium 是一项基于容量的产品/服务，它具有以下特色�
 * 拥有一个 API 外围、一组一致的功能以及对最新嵌入式分析功能的访问权限。
 
 Power BI Premium 的作用是什么？它是如何工作的？  
-Power BI Premium 包含 Power BI 服务专门向各组织分配的容量。 该容量受完全由 Microsoft 管理的专用硬件支持。 组织可以选择在整个企业范围内不受限制地应用专用容量，也可以基于用户数量、工作负荷需求或其他因素将专用容量分配给指定工作区，然后根据需求变化增加或减少容量。
+Power BI Premium 包含 Power BI 服务专门向各组织分配的容量。 该容量受完全由 Microsoft 管理的专用硬件支持。 组织可以选择在整个企业范围内不受限制地应用其容量，也可以基于用户数量、工作负载需求或其他因素将专用容量分配给指定工作区，然后根据需求变化增加或减少容量。
 
 **Power BI Pro 与 Power BI Premium 有何不同？**  
 Power BI Premium 是基于容量的许可证，而 Power BI Pro 的是基于用户的许可证。 而 Power BI Pro 可供用户发布报表、共享仪表板、在工作区内与同事协作以及进行其他相关活动，例如：

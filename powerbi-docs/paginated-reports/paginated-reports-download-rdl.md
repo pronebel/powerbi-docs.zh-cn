@@ -1,23 +1,25 @@
 ---
 title: 从数据集下载分页报表的 .rdl
-description: 本文介绍如何从 Power BI 服务中的共享数据集中下载 Power BI 分页报表的 .rdl。
+description: 本文介绍如何通过“从 Power BI 服务中的共享数据集中下载”的方式来创建 Power BI 分页报表的 .rdl。
 author: maggiesMSFT
 ms.author: maggies
 ms.reviewer: swgupt
 ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: how-to
-ms.date: 09/16/2020
-ms.openlocfilehash: a0b684403274a0ec69b184d8fb40486d6d2e3e27
-ms.sourcegitcommit: cb606d3ae95300683caf1853e229d8981302a8e2
+ms.date: 10/15/2020
+ms.openlocfilehash: c5c8f61a7253da46529a83276366044560d4f030
+ms.sourcegitcommit: ccf53e87ff7cba1fcd9d2cca761a561e62933f90
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/18/2020
-ms.locfileid: "90764955"
+ms.lasthandoff: 11/04/2020
+ms.locfileid: "93297624"
 ---
 # <a name="download-the-rdl-for-a-power-bi-paginated-report-from-a-dataset"></a>从数据集下载 Power BI 分页报表的 .rdl
 
-本文介绍如何从 Power BI 服务中的数据集下载 Power BI 分页报表的 .rdl。 分页报表的文件格式为 .rdl。 可以直接从 Power BI 服务的数据集创建 .rdl 文件。
+[!INCLUDE [applies-to](../includes/applies-to.md)] [!INCLUDE [yes-service](../includes/yes-service.md)] [!INCLUDE [yes-paginated](../includes/yes-paginated.md)] [!INCLUDE [yes-premium](../includes/yes-premium.md)] [!INCLUDE [no-desktop](../includes/no-desktop.md)] 
+
+本文介绍如何通过“从 Power BI 服务中的共享数据集中下载”的方式来创建 Power BI 分页报表的 .rdl。 分页报表的文件格式为 .rdl。 可以直接从 Power BI 服务的数据集创建 .rdl 文件。
 
 1. 转到任何工作区的列表视图，包括“我的工作区”。 
 1. 为数据集选择“更多选项(...)”，然后选择“下载 .rdl”。

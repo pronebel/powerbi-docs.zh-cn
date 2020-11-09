@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-premium
 ms.topic: how-to
-ms.date: 05/26/2019
+ms.date: 10/29/2020
 LocalizationGroup: Premium
-ms.openlocfilehash: 5d8841c35b2086f9a7e452cdcb4aa9a0fc4c16bd
-ms.sourcegitcommit: 51b965954377884bef7af16ef3031bf10323845f
+ms.openlocfilehash: 899dc5092ac86e08d552758e74dfabd8b373f5c0
+ms.sourcegitcommit: a5fa368abad54feb44a267fe26c383a731c7ec0d
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/30/2020
-ms.locfileid: "91599657"
+ms.lasthandoff: 10/30/2020
+ms.locfileid: "93044715"
 ---
 # <a name="configure-multi-geo-support-for-power-bi-premium"></a>配置 Power BI Premium 的 Multi-Geo 支持
 
@@ -90,14 +90,16 @@ Power BI Embedded 现在也提供 Multi-Geo 功能。 阅读[Power BI Embedded �
 - 删除工作区所在的当前容量。  这会使工作区移回到主区域中的共享容量。
 - 将各个单独工作区移回到主租户中的高级容量。
 
+不应将大型存储格式的数据集从创建它们的区域移走。 基于大型存储格式数据集的报表将无法加载数据集，并会返回“无法加载模型”错误。 应将大型存储格式的数据集移回其原始区域，以恢复正常使用。
+
 ## <a name="limitations-and-considerations"></a>限制和注意事项
 
 - 在启动数据传输之前，确认在区域之间发起的任何移动都遵循所有企业和政府的合规性要求。
 - 存储在远程区域中的缓存查询将停留在该区域内。 然而，传输中的其他数据可能在多个地区之间来回切换。
 - 当在 Multi-Geo 环境中将数据从一个区域移动到另一个区域时，源数据可能保留在从中移出数据的区域内达 30 天。 在此期间，最终用户无权访问该数据。 该数据会在 30 天内从该区域中删除并销毁。
 - 导入的数据模型的查询文本和查询结果流量传输不会经过主区域。 报表元数据仍来自远程区域，某些 DNS 路由状态可能会从区域传出流量。 
-
 - 目前，Multi-GEO 暂不支持[“数据流”](../transform-model/service-dataflows-overview.md)功能。
+- 如果从创建这些数据集的区域移动大存储格式的数据集，则会导致报表无法加载数据集。 将大型存储格式的数据集移回其原始区域，以恢复正常使用。 
 
 ## <a name="next-steps"></a>后续步骤
 

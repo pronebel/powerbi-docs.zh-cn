@@ -6,17 +6,17 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 06/19/2020
+ms.date: 10/30/2020
 ms.author: kfollis
 ms.custom: MC
 ROBOTS: NOINDEX
 LocalizationGroup: Admin
-ms.openlocfilehash: 19933ccbf18003e293e823c2b1f201e953c7bde0
-ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
+ms.openlocfilehash: 68cd001995603fec3a64e4b2c79ee2216bfe9ac0
+ms.sourcegitcommit: 8861dac6724202a5b3be456a6aff8f3584e0cccf
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90854773"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "93132289"
 ---
 # <a name="power-bi-planned-maintenance"></a>Power BI 计划内维护
 
@@ -38,8 +38,14 @@ Power BI 服务的计划内维护是我们承诺向客户提供可靠产品的�
 * 主动编辑或发布使用组织视觉对象的报表的客户，无论是在本地还是从 OneDrive 和 SharePoint 位置，都需要通过组织视觉对象存储重新导入视觉对象，或在重新发布之前下载更新的 PBIX。 有关组织视觉对象的详细信息，请参阅[组织视觉对象](organizational-visuals.md)。
 * 如果使用“在 Excel 中分析”功能的 Excel 工作簿未刷新，则可能需要更新连接字符串或重新下载该数据集的 ODC 连接。 有关详细信息，请参阅[在 Excel 中分析](../collaborate-share/service-analyze-in-excel.md#connect-to-power-bi-data)。
 * 维护完成后，可能无法连接嵌入在内容中的 Power BI 链接。 例如，SharePoint 或 Teams 中的嵌入链接可能会导致用户错误。 若要解决此问题，必须重新生成 Power BI 中的嵌入链接，然后更新它们的使用位置。 有关嵌入链接的详细信息，请参阅[在 SharePoint Online 中嵌入报表 Web 部件](../collaborate-share/service-embed-report-spo.md)和[使用 Power BI 在 Microsoft Teams 中开展协作](../collaborate-share/service-collaborate-microsoft-teams.md)。
+* 某些在维护前收集的使用情况数据在维护完成后将不可用。 这些使用情况数据包括：
+
+  * [Power BI 活动日志](service-admin-auditing.md#use-the-activity-log)。 在维护之前，用户应下载活动日志。 你还可以使用 [Office 365 审核日志数据](service-admin-auditing.md#access-your-audit-logs)来获取等效的活动详细信息。
+  * 在[世系视图](../collaborate-share/service-data-lineage.md#explore-lineage-view)中查看计数
+  * [数据保护指标报表](service-security-data-protection-metrics-report.md)
+  * [使用指标（预览版）](../collaborate-share/service-modern-usage-metrics.md)
 
 ## <a name="next-steps"></a>后续步骤
 
 * [启用服务中断通知](service-interruption-notifications.md)
-* [跟踪消息中心即将发生的更改](/microsoft-365/admin/manage/message-center?view=o365-worldwide)
+* [跟踪消息中心即将发生的更改](/microsoft-365/admin/manage/message-center)

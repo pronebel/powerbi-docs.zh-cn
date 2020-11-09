@@ -8,17 +8,26 @@ featuredvideoid: jXTiYJKw1Rs
 ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: overview
-ms.date: 05/19/2020
-ms.openlocfilehash: 16fcc18492b371accaaf3c447d7a88978051f8c3
-ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
+ms.date: 10/16/2020
+ms.openlocfilehash: 2c136f4d81a9cb1c1904c3a06b58271391c76c23
+ms.sourcegitcommit: ccf53e87ff7cba1fcd9d2cca761a561e62933f90
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90859649"
+ms.lasthandoff: 11/04/2020
+ms.locfileid: "93297757"
 ---
 # <a name="what-are-paginated-reports-in-power-bi-premium"></a>Power BI Premium 中的分页报表是什么？
 
-分页报表是设计用于打印或共享的报表。 它们被称为“分页”，因为它们已进行了格式化，以适应页面。 即使某个表跨多个页，分页报表也能显示表中的所有数据。 它们有时被称为“像素完美”，因为用户可以准确地控制其报表页面布局。 Power BI 报表生成器是用于创作分页报表的独立工具。 分页报表基于 SQL Server Reporting Services 中的 RDL 报表技术以及标准报表格式。 
+[!INCLUDE [applies-to](../includes/applies-to.md)] [!INCLUDE [yes-service](../includes/yes-service.md)] [!INCLUDE [yes-paginated](../includes/yes-paginated.md)] [!INCLUDE [yes-premium](../includes/yes-premium.md)] [!INCLUDE [no-desktop](../includes/no-desktop.md)] 
+
+分页报表是设计用于打印或共享的报表。 它们被称为“分页”，因为它们已进行了格式化，以适应页面。 即使某个表跨多个页，分页报表也能显示表中的所有数据。 它们有时被称为“像素完美”，因为用户可以准确地控制其报表页面布局。 Power BI Report Builder 是用于创作 Power BI 服务的分页报表的独立工具。 
+
+如果已准备好开始，可使用下面的一些快速链接：
+
+- [从 Microsoft 下载中心安装 Power BI 报表生成器](https://aka.ms/pbireportbuilder)
+- [教程：创建分页报表](paginated-reports-quickstart-aw.md)
+- [Power BI 分页报表示例](paginated-reports-samples.md)
+- 正在查找适用于 Power BI 报表服务器或 SQL Server Reporting Services 的 Report Builder 的信息吗？ 请参阅[安装 Report Builder - Power BI 报表服务器](../report-server/install-report-builder.md)。
 
 分页报表通常有很多页。 例如，此报表有 563 页。 每页都采用精准布局，每个发票占一页，具有重复页眉和页脚。
 
@@ -98,5 +107,6 @@ ms.locfileid: "90859649"
 - [从 Microsoft 下载中心安装 Power BI 报表生成器](https://aka.ms/pbireportbuilder)
 - [教程：创建分页报表](paginated-reports-quickstart-aw.md)
 - [在线课程：一天玩转 Power BI 分页报表](../learning-catalog/paginated-reports-online-course.md)
+- [Power BI 分页报表示例](paginated-reports-samples.md)
 - [直接在分页报表中输入数据](paginated-reports-enter-data.md)
 - [教程：在应用程序中为客户 ](../developer/embedded/embed-paginated-reports-customers.md) 嵌入 Power BI 分页报表

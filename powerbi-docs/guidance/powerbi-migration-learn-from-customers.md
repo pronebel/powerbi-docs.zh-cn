@@ -8,12 +8,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 08/20/2020
 ms.author: v-pemyer
-ms.openlocfilehash: a725d2763d7d044220785c2f9727ee30f14bfd5d
-ms.sourcegitcommit: 84e75a2cd92f4ba4e0c08ba296b981b79d6d0e82
+ms.openlocfilehash: d436f01e074c27dc8a0d37f9e62d0ac422c4ab81
+ms.sourcegitcommit: 4ac9447d1607dfca2e60948589f36a3d64d31cb4
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/25/2020
-ms.locfileid: "88803151"
+ms.lasthandoff: 10/29/2020
+ms.locfileid: "92916673"
 ---
 # <a name="learn-from-customer-power-bi-migrations"></a>学习客户 Power BI 迁移的经验
 
@@ -147,7 +147,7 @@ ms.locfileid: "88803151"
 
 - **层 1：团队内部：** 人们在日常工作中互相学习和指导。
 - **层 2：Power BI 社区：** 人们向内部团队社区提出问题，相互学习和交流重要信息。
-- **层 3：中央 BI 团队和 COE：** 用户提交电子邮件请求以获取帮助。 每周举行两次_办公时间_会话，共同讨论问题并分享想法。
+- **层 3：中央 BI 团队和 COE：** 用户提交电子邮件请求以获取帮助。 每周举行两次 _办公时间_ 会话，共同讨论问题并分享想法。
 
 > [!IMPORTANT]
 > 尽管前两层不那么正式，但它们与第三层支持同等重要。 经验丰富的用户往往主要依赖于他们认识的人，而新用户（或者是业务部门或共享服务的单个数据分析人员）可能会更多地依赖于正式支持。
@@ -158,7 +158,7 @@ ms.locfileid: "88803151"
 
 现在在其内部目录中有六门内部 Power BI 课程。 [仪表板一日之旅](https://powerbi.microsoft.com/diad/)课程一直是深受初学者欢迎的热门课程。 为了帮助用户加深技能，他们提供了三门 Power BI 课程和两门 DAX 课程。
 
-最重要的数据治理决策之一与高级容量的管理有关。 该公司选择让其专用容量与业务部门和共享服务中的关键分析领域保持一致。 因此，如果存在效率低下的情况，则只有该区域内会受到影响，并且分散的容量管理员能够根据需要管理容量。
+最重要的数据治理决策之一与高级容量的管理有关。 该公司选择让其容量与业务部门和共享服务中的关键分析领域保持一致。 因此，如果存在效率低下的情况，则只有该区域内会受到影响，并且分散的容量管理员能够根据需要管理容量。
 
 > [!IMPORTANT]
 > 注意如何使用高级容量，以及如何为它们分配工作区。

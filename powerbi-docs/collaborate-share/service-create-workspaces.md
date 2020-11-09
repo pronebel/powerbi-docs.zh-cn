@@ -1,24 +1,24 @@
 ---
 title: 在 Power BI 中创建经典工作区
-description: 了解如何创建工作区、仪表板集合、报表和分页报表，以便为组织提供关键指标。
+description: 了解如何创建经典工作区、仪表板集合、报表和分页报表，以便为组织提供关键指标。
 author: maggiesMSFT
 ms.reviewer: lukaszp
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: how-to
-ms.date: 05/07/2020
+ms.date: 10/29/2020
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 44d4c24edbb6ebece8b07ed9fb99261f7f1f0408
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 5a5aced331ff8f66fdd0cb58fd7625a68acf9331
+ms.sourcegitcommit: 8861dac6724202a5b3be456a6aff8f3584e0cccf
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85226515"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "93132381"
 ---
 # <a name="create-classic-workspaces-in-power-bi"></a>在 Power BI 中创建经典工作区
 
-在 Power BI 中，你可以创建工作区，与同事协作，以创建和优化仪表板、报表和分页报表的集合。 然后可将这些集合捆绑到应用，并可将该应用分发到整个组织或特定人员或组。 
+在 Power BI 中，你可以创建工作区，与同事协作，以创建和优化仪表板、报表和分页报表的集合。 Power BI 具有原始/经典工作区和新工作区。 本文介绍如何创建经典工作区。
 
 **你知道吗？** Power BI 提供了新的默认工作区体验。 有关新工作区的详细信息，请参阅[在新工作区中组织工作](service-new-workspaces.md)。 已准备好迁移经典工作区？ 有关详细信息，请参阅[在 Power BI 中将经典工作区升级到新工作区](service-upgrade-workspaces.md)。
 

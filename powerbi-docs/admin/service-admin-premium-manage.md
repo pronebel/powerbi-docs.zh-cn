@@ -9,12 +9,12 @@ ms.subservice: powerbi-premium
 ms.topic: how-to
 ms.date: 05/11/2020
 LocalizationGroup: Premium
-ms.openlocfilehash: f100051f81ec5a58dcc5df48761975ed28a7c6b2
-ms.sourcegitcommit: 51b965954377884bef7af16ef3031bf10323845f
+ms.openlocfilehash: 8edc24e62524834e74fb8334875cc27a259207d1
+ms.sourcegitcommit: 4ac9447d1607dfca2e60948589f36a3d64d31cb4
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/30/2020
-ms.locfileid: "91600003"
+ms.lasthandoff: 10/29/2020
+ms.locfileid: "92916374"
 ---
 # <a name="configure-and-manage-capacities-in-power-bi-premium"></a>配置和管理 Power BI Premium 容量
 
@@ -24,7 +24,7 @@ ms.locfileid: "91600003"
 
 ![Power BI 容量设置屏幕](media/service-admin-premium-manage/premium-capacity-management.png)
 
-容量是 Power BI Premium 和 Power BI Embedded 产品/服务的核心所在。 它是保留以供组织专门使用的资源集。 拥有专用容量后，可向整个组织内的用户发布仪表板、报表和数据集，而无需为他们购买每用户许可证。 还可使容量中的内容具有稳定可靠的性能。 有关详细信息，请参阅[什么是 Power BI Premium？](service-premium-what-is.md)。
+容量是 Power BI Premium 和 Power BI Embedded 产品/服务的核心所在。 它是保留以供组织专门使用的资源集。 拥有容量后，可向整个组织内的用户发布仪表板、报表和数据集，而无需为他们购买每用户许可证。 还可使容量中的内容具有稳定可靠的性能。 有关详细信息，请参阅[什么是 Power BI Premium？](service-premium-what-is.md)。
 
 ## <a name="manage-capacity"></a>管理容量
 
@@ -135,7 +135,7 @@ Power BI 管理员和全局管理员可以更改 Power BI Premium 容量。 如�
    | 整个组织的工作区 | 将整个组织的工作区分配到高级容量，会把组织中的所有“工作区”和“我的工作区”分配到这个高级容量。 此外，当前和未来的所有用户都将有权向此容量重新分配个别工作区。 |
    | | |
 
-1. 选择**应用**。
+1. 选择 **应用** 。
 
 ### <a name="assign-from-workspace-settings"></a>从工作区设置分配
 

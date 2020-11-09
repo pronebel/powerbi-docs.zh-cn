@@ -10,12 +10,12 @@ ms.topic: tutorial
 ms.date: 03/12/2019
 ms.author: davidi
 LocalizationGroup: Connect to services
-ms.openlocfilehash: a5cfbfe52ec8b4e0d9eec07844a3eaa7f9447ded
-ms.sourcegitcommit: 51b965954377884bef7af16ef3031bf10323845f
+ms.openlocfilehash: 7e2019d3b554bc4e033c7aee36c41216ba910a9f
+ms.sourcegitcommit: 4ac9447d1607dfca2e60948589f36a3d64d31cb4
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/30/2020
-ms.locfileid: "91600403"
+ms.lasthandoff: 10/29/2020
+ms.locfileid: "92916834"
 ---
 # <a name="tutorial-invoke-a-machine-learning-studio-classic-model-in-power-bi-preview"></a>教程：在 Power BI 中调用机器学习工作室（经典）模型（预览版）
 
@@ -65,7 +65,7 @@ ms.locfileid: "91600403"
 
 ### <a name="create-a-dataflow"></a>创建数据流
 
-若要在数据流中创建实体，登录到 Power BI 服务并导航到启用 AI 预览的专用容量上的工作区。
+若要在数据流中创建实体，登录到 Power BI 服务并导航到已启用 AI 预览的容量中的工作区。
 
 如果还没有工作区，可以通过选择左侧菜单的“工作区”  来创建一个，然后选择底部面板中的“创建工作区”  。  这将打开一个面板，用于输入工作区详细信息。 输入一个工作区名称，然后选择“保存”  。
 
@@ -103,8 +103,8 @@ Power Query 编辑器显示 CSV 文件中的数据的预览。 从命令功能�
 
 文本/CSV 源中的表的所有列都视作为文本列。  接下来，我们需要将数字列改为其正确的数据类型。  可以在 Power Query 中通过单击列标题中的数据类型符号来执行此操作。  将列更改为以下类型：
 
-- **整数**：symboling、normalized-losses、curb-weight、engine-size、horsepower、peak-rpm、city-mpg、highway-mpg、price
-- **十进制数**：wheel-base、length、width、height、bore、stroke、compression-ratio
+- **整数** ：symboling、normalized-losses、curb-weight、engine-size、horsepower、peak-rpm、city-mpg、highway-mpg、price
+- **十进制数** ：wheel-base、length、width、height、bore、stroke、compression-ratio
 
 ![更改列](media/service-tutorial-invoke-machine-learning-model/tutorial-invoke-machine-learning-model_11.png)
 

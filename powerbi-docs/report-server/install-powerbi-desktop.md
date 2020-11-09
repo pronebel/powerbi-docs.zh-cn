@@ -7,13 +7,13 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: how-to
-ms.date: 07/24/2020
-ms.openlocfilehash: d361430387d9c24b8b4ef0b673c50cf4cec5a24b
-ms.sourcegitcommit: 65025ab7ae57e338bdbd94be795886e5affd45b4
+ms.date: 10/16/2020
+ms.openlocfilehash: 62add0b1268b06bb227bdc1b8ec2e4ae59358c57
+ms.sourcegitcommit: a5fa368abad54feb44a267fe26c383a731c7ec0d
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/28/2020
-ms.locfileid: "87252582"
+ms.lasthandoff: 10/30/2020
+ms.locfileid: "93044763"
 ---
 # <a name="install-power-bi-desktop-optimized-for-power-bi-report-server"></a>安装更适合 Power BI 报表服务器的 Power BI Desktop
 
@@ -35,8 +35,8 @@ ms.locfileid: "87252582"
 
 3. 根据所用的计算机选择： 
 
-    - **PBIDesktopRS.msi**（32 位版本）或
-    - **PBIDesktopRS_x64.msi**（64 位版本）。
+    - **PBIDesktopRS.msi** （32 位版本）或
+    - **PBIDesktopRS_x64.msi** （64 位版本）。
 
 1. 下载安装程序后，运行 Power BI Desktop 安装向导。
 
@@ -45,9 +45,9 @@ ms.locfileid: "87252582"
     此时，它会自动启动，可以开始使用了。
 
 ## <a name="verify-youre-using-the-correct-version"></a>验证当前使用的版本是否正确。
-简单操作即可验证你是否在使用正确的 Power BI Desktop：查看 Power BI Desktop 中的启动屏幕或标题栏。 根据标题栏中显示的“Power BI Desktop（2020 年 5 月版）”，便知道使用了正确的版本。 此外，Power BI 徽标的颜色也会颠倒，在黑色上面显示黄色而不是在黄色上面显示黑色。
+简单操作即可验证你是否在使用正确的 Power BI Desktop：查看 Power BI Desktop 中的启动屏幕或标题栏。 根据标题栏中显示的“Power BI Desktop (2020 年 10 月版)”，便知道使用了正确的版本。 此外，Power BI 徽标的颜色也会颠倒，在黑色上面显示黄色而不是在黄色上面显示黑色。
 
-![Power BI Desktop 2020 年 5 月版](media/install-powerbi-desktop/power-bi-report-server-desktop-may-2020.png)
+![Power BI Desktop（2020 年 10 月版）](media/install-powerbi-desktop/power-bi-report-server-desktop-may-2020.png)
 
 适用于 Power BI 服务的 Power BI Desktop 版本不会在标题栏中显示发行月份和年份。
 

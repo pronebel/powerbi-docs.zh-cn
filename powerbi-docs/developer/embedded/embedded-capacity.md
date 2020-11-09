@@ -8,16 +8,16 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 05/17/2020
-ms.openlocfilehash: 762cc2d3d170f5418616da46806f8a445490ee8d
-ms.sourcegitcommit: be424c5b9659c96fc40bfbfbf04332b739063f9c
+ms.openlocfilehash: 4102ed7307c9b7be40fb682befc4056094cbe6ad
+ms.sourcegitcommit: 4ac9447d1607dfca2e60948589f36a3d64d31cb4
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "91635208"
+ms.lasthandoff: 10/29/2020
+ms.locfileid: "92916926"
 ---
 # <a name="capacity-and-skus-in-power-bi-embedded-analytics"></a>Power BI 嵌入式分析中的容量和 SKU
 
-当移动到生产环境时，Power BI 嵌入式分析需要专用的容量（A、EM 或 P SKU）来发布嵌入式 Power BI 内容  。
+当移动到生产环境时，Power BI 嵌入式分析需要容量（A、EM 或 P SKU）来发布嵌入式 Power BI 内容  。
 
 容量是为独占式使用而保留的一组专用资源。 通过容量，你可向用户发布仪表板、报表和数据集，而无需购买按用户分配的许可证。 它还为内容提供稳定可靠的性能。
 

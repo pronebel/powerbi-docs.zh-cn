@@ -10,12 +10,12 @@ ms.topic: reference
 ms.date: 08/24/2020
 ms.custom: contperfq1
 ms.author: mihart
-ms.openlocfilehash: 012fad9cd566018a6fd0d96fb172fadd816e3420
-ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
+ms.openlocfilehash: 47526e06da24f720f273c45616a012483f077ed5
+ms.sourcegitcommit: 4ac9447d1607dfca2e60948589f36a3d64d31cb4
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90860845"
+ms.lasthandoff: 10/29/2020
+ms.locfileid: "92916581"
 ---
 # <a name="glossary-for-business-users-of-the-power-bi-service"></a>Power BI 服务的商务用户词汇表    
 Power BI 服务可能会引入不熟悉或容易混淆的术语。 词汇表是查找术语的好地方，可能需要将其加入书签。 了解构成 Power BI 服务的构建块的另一个极佳资源是[基本概念](end-user-basic-concepts.md)。 “基本概念”提供 Power BI 组件及其如何连接的简要概述。
@@ -52,7 +52,7 @@ Power BI 管理员管理其组织内 Power BI 的用户、功能和设置的地�
 ArcGIS 是由 ESRI 公司创建的映射和分析平台。 Power BI 视觉对象库中包括的视觉对象称为 ArcGIS for Power BI。
 
 **assign (分配)**     
-[Power BI Premium] 用于将工作区移入或移出专用容量的谓词。 请不要使用“提升”将工作区移到专用容量，因为它具有优先于共享容量的“专用”的含义。 
+[Power BI Premium] 用于将工作区移入或移出容量的谓词。 请不要使用“提升”将工作区移到容量中，因为它具有优先于共享容量的“专用”的含义。 
 
 **Auto Insights (自动见解)**     
 现在称为“快速见解”。
@@ -71,6 +71,9 @@ Power BI Desktop 或服务中的报表的“书签”窗格中捕捉的数据视
 
 **calculation (计算)**     
 对某物的大小或数目进行数理判断。
+
+**容量**    
+[Power BI Premium] 在 Microsoft 云数据中心中的专用硬件上运行的数据模型，可帮助确保大规模的一致性能。 BI 解决方案提供给整个组织，不论有没有 Power BI 许可证。
 
 **card (卡片)** （视觉对象类型）    
 Power BI [视觉对象类型](end-user-visual-type.md)。
@@ -136,18 +139,14 @@ Power BI 服务的内容通常是仪表板、报表和应用。 此外，它还�
 **dataset (数据集)** 与 **data source (数据源)**     
 数据集是用于创建可视化效果和报表的数据的集合。
 
-**dedicated capacity (专用容量)**     
-[Power BI Premium] 在 Microsoft 云数据中心中的专用硬件上运行的数据模型，可帮助确保大规模的一致性能。 BI 解决方案提供给整个组织，不论有没有 Power BI 许可证。
-
 **Desktop** 或 **Power BI Desktop**    
 免费的 Power BI 工具，主要被报表设计人员、管理员和开发人员使用。 
-
 
 **diamond (菱形)**     
 Power BI Premium。 图标形状，表示该工作区是 Premium 容量工作区。
 
 **Dimension (维度)**     
-维度是分类（文本）数据。 维度描述人员、物体、项目、产品、位置和时间。 在数据集中，维度是一种将*度量值*分组为有用类别的方法。 对于我们的滑板公司，一些维度可能包括按型号、颜色、国家/地区或市场营销活动查看销售额（一种度量值）。   
+维度是分类（文本）数据。 维度描述人员、物体、项目、产品、位置和时间。 在数据集中，维度是一种将 *度量值* 分组为有用类别的方法。 对于我们的滑板公司，一些维度可能包括按型号、颜色、国家/地区或市场营销活动查看销售额（一种度量值）。   
 
 **drill up, drill down, drillthrough (向上钻取、向下钻取、钻取)**     
 在 Power BI 中，使用向下钻取和向上钻取指的是浏览报表或视觉对象的下一个详细信息级别的功能。 使用钻取指的是以下功能：选中视觉对象某个部分并转到报表其他页面、筛选到与在原始页面选中的视觉对象相应部分相关的数据。
@@ -316,7 +315,7 @@ Power BI 服务中用于设计手机报表的用户界面。
 **pin, unpin (固定、取消固定)**     
 报表设计人员通常将报表中的视觉对象放置到仪表板上的操作。
 
-**Power BI**、**Power BI service (Power BI 服务)** **Power BI Desktop** **Power BI mobile (Power BI 移动版)**     
+**Power BI** 、 **Power BI service (Power BI 服务)** **Power BI Desktop** **Power BI mobile (Power BI 移动版)**     
 一些 Power BI 产品/服务。 *Power BI* 是一个泛称。 通常在首次提及完整产品名称之后用于代替完整产品名称，例如 Power BI 服务和 Power BI 移动版。
 
 **Power BI Desktop**    
@@ -341,7 +340,7 @@ Power BI Pro 许可证的附加产品，可让组织通过购买专用硬件按�
 联机 SaaS（软件即服务）服务。 有关详细信息，请参阅[什么是 Power BI？](../fundamentals/power-bi-overview.md)。
 
 **Premium workspace (Premium 工作区)**     
-在专用容量中运行的工作区，使用菱形图标向客户表示。  
+在容量中运行的工作区，使用菱形图标向客户表示。  
 
 Pro 许可证或 Pro 帐户：请参阅“帐户”。
 
@@ -432,7 +431,7 @@ Power BI 用户管理自己的常规设置（例如是否预览新功能、设�
 **streaming data (流式处理数据)**     
 请参阅“实时流式处理”。
 
-**subscriptions (订阅)** 、**Subscribe (订阅)**      
+**subscriptions (订阅)** 、 **Subscribe (订阅)**      
 你可以订阅报表页、应用和仪表板，并接收包含快照的电子邮件。 需要 Power BI Pro 许可证。
 
 **summarization (汇总)**     

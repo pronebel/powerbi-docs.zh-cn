@@ -8,12 +8,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 09/25/2020
 ms.author: kfollis
-ms.openlocfilehash: 20fb1f117432d5c36bfe0c536bc0803871134c95
-ms.sourcegitcommit: 02484b2d7a352e96213353702d60c21e8c07c6c0
+ms.openlocfilehash: 8b9c10c8b3faa87cfc19c3c1d8f87a36de0307dd
+ms.sourcegitcommit: 4ac9447d1607dfca2e60948589f36a3d64d31cb4
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "91981518"
+ms.lasthandoff: 10/29/2020
+ms.locfileid: "92916121"
 ---
 # <a name="service-interruption-notifications"></a>服务中断通知
 
@@ -30,7 +30,7 @@ ms.locfileid: "91981518"
 在打开报表、刷新数据集或执行查询等操作中出现较长延迟的情况时，系统会发送通知。 事件解决后，你将收到跟进电子邮件。
 
 > [!NOTE]
-> 此功能目前仅适用于 Power BI Premium 中的专用容量。 不适用于共享容量或嵌入容量。
+> 此功能目前仅适用于 Power BI Premium 中的容量。 不适用于共享容量或嵌入容量。
 
 ## <a name="capacity-and-reliability-notifications"></a>容量和可靠性通知
 

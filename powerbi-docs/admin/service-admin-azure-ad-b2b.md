@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 07/02/2020
 ms.author: kfollis
 LocalizationGroup: Administration
-ms.openlocfilehash: 4a38ca35e6955bc92f52492e657a9e00bad05ea3
-ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
+ms.openlocfilehash: c78be4dbd32d243dfaa392a1ac5ebd4d46c23d94
+ms.sourcegitcommit: 4ac9447d1607dfca2e60948589f36a3d64d31cb4
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90857602"
+ms.lasthandoff: 10/29/2020
+ms.locfileid: "92916167"
 ---
 # <a name="distribute-power-bi-content-to-external-guest-users-with-azure-ad-b2b"></a>使用 Azure AD B2B 将 Power BI 内容分发给外部来宾用户
 
@@ -92,7 +92,7 @@ Power BI 允许通过 Azure Active Directory 企业到企业 (Azure AD B2B) 与�
 
 ### <a name="use-power-bi-premium"></a>使用 Power BI Premium
 
-如果你将工作区分配到 [Power BI Premium 容量](service-premium-what-is.md)，来宾用户无需获取 Power BI Pro 许可证，即可使用应用。 使用 Power BI Premium 时，应用还可以利用其他功能（如加快刷新速率、专用容量和大模型）。
+如果你将工作区分配到 [Power BI Premium 容量](service-premium-what-is.md)，来宾用户无需获取 Power BI Pro 许可证，即可使用应用。 使用 Power BI Premium 时，应用还可以利用其他功能（如加快刷新速率和大模型）。
 
 ![使用 Power BI Premium 的来宾用户体验的示意图。](media/service-admin-azure-ad-b2b/license-approach-1.png)
 

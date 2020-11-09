@@ -10,12 +10,12 @@ ms.topic: how-to
 ms.date: 10/14/2020
 ms.custom: seodec18
 LocalizationGroup: Premium
-ms.openlocfilehash: 5e30a59e637b39099cdd0ad2eb99223cff20fbe6
-ms.sourcegitcommit: 59d07be9c3e4a2067f6d42c3002a194371bc4341
+ms.openlocfilehash: f13c6990ae1cc0842cd490f88dfdb8fb382d7900
+ms.sourcegitcommit: 4ac9447d1607dfca2e60948589f36a3d64d31cb4
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "92116537"
+ms.lasthandoff: 10/29/2020
+ms.locfileid: "92916052"
 ---
 # <a name="dataset-connectivity-with-the-xmla-endpoint-preview"></a>使用 XMLA 终结点的数据集连接（预览）
 
@@ -92,7 +92,7 @@ Premium 容量默认启用设置为“只读”的“XMLA 终结点”属性。 
 
 ## <a name="connecting-to-a-premium-workspace"></a>连接到 Premium 工作区
 
-分配给专用容量的工作区具有 URL 格式的连接字符串，如下所示：`powerbi://api.powerbi.com/v1.0/[tenant name]/[workspace name]`。
+分配给容量的工作区具有 URL 格式的连接字符串，如下所示：`powerbi://api.powerbi.com/v1.0/[tenant name]/[workspace name]`。
 
 连接到工作区的应用程序使用此 URL，就像是在使用 Analysis Services 服务器名称一样。 例如，`powerbi://api.powerbi.com/v1.0/contoso.com/Sales Workspace`。
 
@@ -159,7 +159,7 @@ Power BI Premium 暂不支持需要 Analysis Services 服务器管理员（而�
 
 通过 XMLA 终结点处理数据集角色时，需要遵循以下限制：
 
-- **在公共预览版期间，无法使用 XMLA 终结点来指定数据集的角色成员身份**。 相反，请在 Power BI 服务中的“行级别安全性”页上指定数据集的角色成员。
+- **在公共预览版期间，无法使用 XMLA 终结点来指定数据集的角色成员身份** 。 相反，请在 Power BI 服务中的“行级别安全性”页上指定数据集的角色成员。
 - 对于 Power BI 数据集，唯一可设置的角色权限是读取权限。 无论数据集角色是否存在，都必须设置数据集的生成权限，才能通过 XMLA 终结点读取访问数据集。 若要控制 RLS 以外的权限，请使用 Power BI 安全模型。
 - Power BI 暂不支持对象级别安全性 (OLS) 规则。
 

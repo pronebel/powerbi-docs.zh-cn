@@ -6,16 +6,16 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 09/23/2020
+ms.date: 10/30/2020
 ms.author: kfollis
 ms.custom: licensing support
 LocalizationGroup: Get started
-ms.openlocfilehash: 45d89fe7a224d56e710765e533a7c075c24b8a66
-ms.sourcegitcommit: 02484b2d7a352e96213353702d60c21e8c07c6c0
+ms.openlocfilehash: fe4f9c54b45035cc22f2e582a75ba98d648c549d
+ms.sourcegitcommit: 8861dac6724202a5b3be456a6aff8f3584e0cccf
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "91981495"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "93132358"
 ---
 # <a name="power-bi-for-us-government-customers"></a>适用于美国政府客户的 Power BI
 
@@ -126,11 +126,11 @@ Azure 分布在多个云中。 默认情况下，你可以启用防火墙规则�
 |[大型模型](service-premium-large-models.md) | 2020 年第 4 季度 |2020 年第 4 季度| ![不可用](../media/no.png) |
 |[数据流 - SQL 计算引擎优化](../transform-model/service-dataflows-enhanced-compute-engine.md) | 2020 年第 4 季度 |2020 年第 4 季度| ![不可用](../media/no.png) |
 |[数据流 - 直接查询](../transform-model/service-dataflows-directquery.md) | 2020 年第 4 季度 |2020 年第 4 季度|![不可用](../media/no.png)|
-|[服务中断通知](service-premium-large-models.md)|2020 年第 4 季度 |2020 年第 4 季度|2020 年第 4 季度|
 |[数据保护（MIP 标签）](service-security-sensitivity-label-overview.md)|2020 年第 4 季度|2020 年第 4 季度 |2020 年第 4 季度|
 |[模板应用](../connect-data/service-template-apps-overview.md)<sup>3</sup>|2020 年第 4 季度 |2020 年第 4 季度| 2020 年第 4 季度|
 |[自定义视觉对象](../developer/visuals/power-bi-custom-visuals.md)<sup>3</sup>|2020 年第 4 季度 |2020 年第 4 季度| 2020 年第 4 季度|
 |[调用质量数据连接器](/microsoftteams/cqd-power-bi-connector)|![不可用](../media/no.png)|![不可用](../media/no.png)|![不可用](../media/no.png)|
+|[自带存储 (Azure Data Lake Gen 2)](../transform-model/dataflows/dataflows-azure-data-lake-storage-integration.md)|![不可用](../media/no.png)|![不可用](../media/no.png)|![不可用](../media/no.png)|
 |[QR 码生成](../create-reports/service-create-qr-code-for-tile.md)|![不可用](../media/no.png)|![不可用](../media/no.png)|![不可用](../media/no.png)|
 
 <sup>1</sup> 尽管可以在 GCC 中进行 B2B 协作，但必须在该环境中向外部用户发出许可证。 商业云许可证在 GCC 中无效。 有关美国政府 B2B 协作已知限制的详细信息，请参阅[比较 Azure 政府和全球 Azure](/azure/azure-government/compare-azure-government-global-azure#azure-active-directory-premium-p1-and-p2)

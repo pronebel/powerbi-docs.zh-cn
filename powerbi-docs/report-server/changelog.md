@@ -7,13 +7,13 @@ ms.reviewer: maggies
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
-ms.date: 07/08/2020
-ms.openlocfilehash: 3be821bfaad91ede2a7348e35c06850c81ddf1b4
-ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
+ms.date: 10/29/2020
+ms.openlocfilehash: 3173108abe6082c199cbf6ff1229ca57fde31064
+ms.sourcegitcommit: a5fa368abad54feb44a267fe26c383a731c7ec0d
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90859235"
+ms.lasthandoff: 10/30/2020
+ms.locfileid: "93044775"
 ---
 # <a name="change-log-for-power-bi-report-server"></a>Power BI 报表服务器的更改日志
 
@@ -21,6 +21,26 @@ ms.locfileid: "90859235"
 
 有关新增功能的详细信息，请参阅 [Power BI 报表服务器中的新增功能](whats-new.md)。 
 
+## <a name="october-2020"></a>2020 年 10 月
+- **Power BI 报表服务器**
+    - *版本：1.9.7604.41261（内部版本 15.0.1104.239），发布日期：2020 年 10 月 27 日*
+         - 功能
+            - 启用了对 Power BI 报表服务器中增强型数据集元数据的支持。
+            - 启用了对 DirectQuery 的 Power BI 报表的连接更新和刷新功能（请参阅[更改数据源连接字符串](./connect-data-source-apis.md)了解更多详细信息）。
+        - 安全更新
+        - Bug 修复
+            - 修复了阻止用户更改 Power BI 报表刷新计划的问题。
+            - 修复了在凭据过期时用户管理报表收到混乱错误消息的问题。
+            - 修复了导出名称中包含句点的报表时出现的问题。
+            - 修复了矩表中的屏幕阅读器问题。
+            - 修复了在某些情况下日志文件为空白的问题。
+            - 修复了“连接到 Power BI”对话框无法关闭的问题
+            - 将 MHTML 呈现器更新为了使用较新的 HTML DOCTYPE
+
+- Power BI Desktop（已针对 Power BI 报表服务器进行优化）
+   - *版本：2.86.961.0（2020 年 10 月），发布日期：2020 年 10 月 27日* （新内部版本和新版本）
+        - 包含与 Power BI 报表服务器连接所需的更改（2020 年 10 月）        
+   
 ## <a name="may-2020"></a>2020 年 5 月
 - **Power BI 报表服务器**
     - *版本：1.8.7485.35104（内部版本 15.0.1103.234），发布日期：2020 年 6 月 30 日*
@@ -86,7 +106,7 @@ ms.locfileid: "90859235"
           - 修复了在导出到带表达式的 Word 以显示分页报表时写入页脚的问题。 
      
 - Power BI Desktop（已针对 Power BI 报表服务器进行优化）
-    - *版本：2.76.5678.1521（2020 年 1 月），发布日期：2020 年 1 月 23 日*（新内部版本和新版本）
+    - *版本：2.76.5678.1521（2020 年 1 月），发布日期：2020 年 1 月 23 日* （新内部版本和新版本）
         - 包含与 Power BI 报表服务器连接所需的更改（2020 年 1 月）        
 
 
@@ -135,7 +155,7 @@ ms.locfileid: "90859235"
             - 修复了下拉切片器的性能问题。
             - 修复了来自遥测的条带 PII 的问题。
             
-    - *版本：2.73.5586.821（2019 年 9 月），发布日期：2019 年 9 月 26 日*（新内部版本和新版本）
+    - *版本：2.73.5586.821（2019 年 9 月），发布日期：2019 年 9 月 26 日* （新内部版本和新版本）
         - 包含与 Power BI 报表服务器连接所需的更改（2019 年 9 月）
 
     
@@ -214,9 +234,9 @@ ms.locfileid: "90859235"
         - 卸载 Power BI 报表服务器后快捷方式和固定图标仍保留
         - 修复了将 Power BI 报表服务器固定到开始菜单的问题 - 在黑色图标上显示黑色文本
 
-    - *版本：2.65.5313.1421（2019 年 1 月），发布日期：2019 年 1 月 22 日*（新内部版本和新版本）
+    - *版本：2.65.5313.1421（2019 年 1 月），发布日期：2019 年 1 月 22 日* （新内部版本和新版本）
         - 包含与 Power BI 报表服务器连接所需的更改（2019 年 1 月） 
-    - *版本：2.65.5313.5141（2019 年 1 月），发布日期：2019 年 1 月 31 日*（新内部版本和新版本）
+    - *版本：2.65.5313.5141（2019 年 1 月），发布日期：2019 年 1 月 31 日* （新内部版本和新版本）
         - Bug 修复
             - 针对错误遥测日志记录的修复
 
@@ -225,7 +245,7 @@ ms.locfileid: "90859235"
 - **Power BI 报表服务器**
     - *版本 1.3.6816.37243（内部版本 15.0.2.557），发布日期：2018 年 8 月 30 日*
         - Bug 修复
-            - 修复了以下问题：服务器已从早期版本的 PBI Report Server 升级，但未更新绑定重定向，此时客户看到以下信息：      
+            - 修复了以下问题：服务器已从早期版本的 PBI 报表服务器升级，但未更新绑定重定向，同时客户看到以下消息：      
             *`
             Failed to load expression host assembly. Details: Could not load file or assembly 'Microsoft.ReportingServices.ProcessingObjectModel, Version=2018.7.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91' or one of its dependencies. The located assembly's manifest definition does not match the assembly reference. (Exception from HRESULT: 0x80131040) (rsErrorLoadingExprHostAssembly)
              `*
@@ -241,7 +261,7 @@ ms.locfileid: "90859235"
 - Power BI Desktop（已针对 Power BI 报表服务器进行优化）
     - *版本：2.61.5192.641（2018 年 8 月），发布日期：2018 年 8 月 15 日*
         - 包含与 Power BI 报表服务器连接所需的更改（2018 年 8 月）         
-    - *版本：2.61.5192.7701（2018 年 8 月），发布日期：2019 年 8 月 8 日*（新内部版本和新版本）
+    - *版本：2.61.5192.7701（2018 年 8 月），发布日期：2019 年 8 月 8 日* （新内部版本和新版本）
         - Bug 修复
             - 针对错误遥测日志记录的修复
             

@@ -8,12 +8,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 10/07/2020
 ms.author: davidi
-ms.openlocfilehash: 918b9a98d66a1c739421433d35f593dc74d19773
-ms.sourcegitcommit: 02484b2d7a352e96213353702d60c21e8c07c6c0
+ms.openlocfilehash: ae6047950256a783172ef871c2bd58dc15ff033a
+ms.sourcegitcommit: ccf53e87ff7cba1fcd9d2cca761a561e62933f90
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "91981472"
+ms.lasthandoff: 11/04/2020
+ms.locfileid: "93297601"
 ---
 # <a name="power-bi-data-sources"></a>Power BI 数据源
 
@@ -64,6 +64,7 @@ ms.locfileid: "91981472"
 | Google Analytics | 是 | 是 | 否 | 否 | 否 | 否 |
 | Google BigQuery | 是 | 是 | 是 | 否 | 否 | 是 |
 | Hadoop 文件 (HDFS) | 是 | 否 | 否 | 否 | 否 | 否 |
+| Hive LLAP | 是 | 是 | 是 | 是 | 否 | 否 |
 | HDInsight 交互式查询 | 是 | 是 | 是 | 否 | 否 | 否 |
 | IBM DB2 | 是 | 是 | 是 | 是 | 否 | 是 |
 | IBM Informix 数据库 | 是 | 是 | 否 | 是 | 否 | 否 |
