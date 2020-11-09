@@ -284,7 +284,7 @@
               href: service-gateway-personal-mode.md
             - name: 管理网关数据源
               items:
-                - name: 管理数据源
+                - name: 添加或删除网关数据源
                   href: service-gateway-data-sources.md
                 - name: 管理企业数据源 - Analysis Services
                   href: service-gateway-enterprise-manage-ssas.md
