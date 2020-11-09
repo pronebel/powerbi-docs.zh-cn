@@ -1,25 +1,147 @@
 ---
 title: Power BI 报表服务器中的新增功能
-description: 了解 Power BI 报表服务器中的新增功能。 本文涉及主要功能方面，并会在新功能发布时随之进行更新。
+description: 了解最新版 Power BI 报表服务器中的新增功能。 本文将介绍主要功能，并会在新功能发布时随之进行更新。
 author: maggiesMSFT
 ms.author: maggies
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
-ms.date: 07/08/2020
-ms.openlocfilehash: 9c92383dee3cb435c57238be545ccd9e59923b8e
-ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
+ms.date: 10/30/2020
+ms.openlocfilehash: 14b629eed17eca2d1e016913dcfffb5858d4ddc3
+ms.sourcegitcommit: 8861dac6724202a5b3be456a6aff8f3584e0cccf
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90859971"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "93132404"
 ---
 # <a name="whats-new-in-power-bi-report-server"></a>Power BI 报表服务器中的新增功能
 
-了解 Power BI 报表服务器中的新增功能以及针对 Power BI 报表服务器优化的 Power BI Desktop 中的新增功能。 本文涉及主要功能方面，并随每个新版本进行更新。 有关 Power BI 报表服务器中的新增功能的详细信息，请参阅 [Power BI 报表服务器的更改日志](changelog.md)。
+了解最新版 Power BI 报表服务器中的新增功能以及针对 Power BI 报表服务器优化的 Power BI Desktop。 本文涉及主要功能方面，并随每个新版本进行更新。 有关 Power BI 报表服务器中的新增功能的详细信息，请参阅 [Power BI 报表服务器的更改日志](changelog.md)。
 
 下载 [Power BI 报表服务器和针对 Power BI 报表服务器优化的 Power BI Desktop](https://powerbi.microsoft.com/report-server/)。
+
+## <a name="october-2020"></a>2020 年 10 月
+
+下面是新功能和更新功能的完整列表。 有关详细信息，请参阅 [Power BI 报表服务器 2020 年 10 月博客文章](https://powerbi.microsoft.com/blog/power-bi-report-server-october-2020-feature-summary/)。 
+
+### <a name="power-bi-desktop-optimized-for-power-bi-report-server"></a>针对 Power BI 报表服务器优化的 Power BI Desktop
+
+下面是新功能的一些亮点。
+
+**新式功能区**  
+
+针对 Power BI 报表服务器优化的 Power BI Desktop 中已引入新式功能区。 我们将继续增加内容并向功能区添加更多功能。 要详细了解具体变化及其优势，请参阅[在 Power BI Desktop 中使用更新后的功能区](../create-reports/desktop-ribbon.md)。
+
+:::image type="content" source="media/whats-new/report-server-new-ribbon.png" alt-text="针对 Power BI 报表服务器优化的 Power BI Desktop 中的新功能区的屏幕截图。":::
+
+**层次结构切片器**
+
+你可以通过构建所谓的“层次结构切片器”在单个切片器中对多个相关字段进行筛选。 层次结构切片器现已正式发布，可从新增的功能中获益：
+
+- 用于展开/折叠图标的新选项。
+- 图标现可随字体大小缩放。
+- 可自定义子项目的缩进。
+- 可进一步自定义切片器标题文本。
+
+:::image type="content" source="media/whats-new/report-server-slicer-hierarchy.png" alt-text="针对 Power BI 报表服务器优化的 Power BI Desktop 中的层次结构切片器。":::
+
+有关详细信息，请参阅文档中的 [Power BI 中的切片器](../visuals/power-bi-visualization-slicers.md)。
+
+**移动创作增强功能** 
+
+在此版本中，我们引入了经过改进的移动布局创作体验和其他移动布局功能。 随着越来越多的组织采用 Power BI 移动应用，我们已收到要求提供更多用于实现移动创作体验的功能和改进的反馈。 此版本中的增强功能将有助于你更轻松地创建具有吸引力的且针对移动设备优化的交互式报表。
+
+下面是生成移动优化报表的新体验和功能：  
+
+- 新的手机模拟器  
+- 更新的“可视化效果”窗格  
+- 支持重叠视觉对象  
+- 移动布局视图中可以使用书签  
+- 关闭网格线和对齐网格  
+
+:::image type="content" source="media/whats-new/report-server-mobile-layout.png" alt-text="针对 Power BI 报表服务器优化的 Power BI Desktop 中改进的移动布局。":::
+
+有关详细信息，请参阅[移动创作增强功能](https://powerbi.microsoft.com/blog/power-bi-desktop-june-2020-feature-summary/#_mobile)这篇博客文章。
+
+**数据准备：从 Excel 文件中自动检测表**
+
+Excel 连接器的这项新功能会自动识别每个 Excel 电子表格的各个部分，以提取到表中。 它显示在导航器中“建议的表”组下。 以前，数据在 Excel 中必须格式化为表或命名范围。 否则，必须从工作表对象中执行特定的转换（例如跳过行并删除列）以抓取相关的行/列，如以下示例中的 Sheet1 所示 若要使用此功能，需要在“设置”对话框中启用该功能。
+
+:::image type="content" source="media/whats-new/report-server-excel-table.png" alt-text="识别针对 Power BI 报表服务器优化的 Power BI Desktop 中的 Excel 表。":::
+
+**建模：增强型数据集元数据**
+
+过去，只有 Power Query 中生成的可加载查询会映射到数据模型。 现在，所有查询都可以映射到数据模型中的对象。 打开该 .PBIX 文件时，系统将根据数据模型重新生成查询。
+
+此次后端更新已解锁未来功能的改进，并将继续改进。 
+
+例如：
+
+- 在 Power BI Desktop 中添加了外部工具（目前处于预览状态）之后，通过这些外部工具添加的表现在会在你重新打开报表时显示为查询。
+- 如果你已尝试导出 PBIT 文件并解压缩该文件，那么现在会在 JSON 中看到该模型，并且不再收到已损坏文件的相关错误。 
+
+如果有一个无法自动更新的旧 PBIX（由于未应用更改），你需要先成功升级模型，然后才能对建模执行其他任何更改。 
+
+**对 Windows 7 的支持将终止**
+
+历经 10 年，对 Windows 7 的支持将于 2020 年 1 月 14 日终止。 基于此，我们将在 2021 年 1 月 31 日停止对 Windows 7 Power BI Desktop 的支持。 此后，仅在 Windows 8 和更高版本上才支持 Power BI Desktop。 根据新式生命周期策略，将支持针对报表服务器优化的 Power BI Desktop 2021 年 1 月版。 换句话说，在下次发布（目前计划为 2021 年 5 月）之前，完全支持此版本。 2021 年 5 月之后，它将仅接收 2022 年 1 月之前的安全更新。 所有支持都将在 2022 年 1 月之后停止。 有关详细信息，请参阅 [Power BI 报表服务器的支持时间线](support-timeline.md)。 
+
+**完整的更新列表**
+
+下面是针对 Power BI 报表服务器优化的 Power BI Desktop 10 月版更新的完整列表。 
+
+**报告**
+
+- 新式功能区
+- 画布水印
+- 堆栈视觉对象的总标签数
+- 添加了常规视觉对象选项来维持分层顺序
+- 渐变图例
+- 相对时间筛选器
+- 能够进一步自定义切片器标题文本
+- 分层切片器的改进
+
+    - 用于展开/折叠图标的新选项
+    - 图标现可随字体大小缩放
+    - 能够自定义子项目的缩进
+
+- 移动创作增强功能
+
+    - 新的手机模拟器
+    - 更新的“可视化效果”窗格
+    - 支持重叠视觉对象
+    - 移动布局视图中可以使用书签
+    - 关闭网格线和对齐网格  
+
+**可视化效果**
+
+- 折线图点格式设置选项 
+
+**建模**
+
+- 增强型数据集元数据
+- IF 和 SWITCH 函数的性能改进
+- 对 Excel 财务函数的支持
+- 为 Live Connect 启用了模型视图
+- 模型视图的更新 
+
+**数据准备**
+
+- 从 Excel 文件中自动检测表  
+- 从 JSON 文件中自动检测表  
+- 用于禁用自动类型检测的全局选项 
+
+**其他**  
+
+- 将数据源导出到 Power BI Desktop 中的 PBIDS
+- 桌面初始屏幕关闭 
+
+### <a name="power-bi-report-server"></a>Power BI 报表服务器
+
+使用 PowerShell 更改 Power BI 报表中的数据源连接字符串
+
+在 Power BI 报表服务器 10 月版中，我们启用了对 DirectQuery 的 Power BI 报表的连接更新和刷新功能。 这也是关于在之前版本中设置此功能的方式的一项重大更改。 如需了解详情，请参阅[使用 PowerShell 更改 Power BI 报表中的数据源连接字符串 - Power BI 报表服务器](connect-data-source-apis.md)。 
 
 ## <a name="may-2020"></a>2020 年 5 月
 
@@ -351,7 +473,7 @@ Power BI 报表为交互式报表。 报表中的标题为动态标题具有意�
 
 #### <a name="improved-security-features"></a>改进的安全功能
 
-**RestrictedResourceMimeTypeForUpload**，管理员可用于指定以逗号分隔的禁止 mime 类型的列表，例如 text/html。
+**RestrictedResourceMimeTypeForUpload** ，管理员可用于指定以逗号分隔的禁止 mime 类型的列表，例如 text/html。
 
 ## <a name="january-2019"></a>2019 年 1 月
 
@@ -365,7 +487,7 @@ Power BI 报表中支持以下功能：
 
 [**智能对齐参考线**](https://powerbi.microsoft.com/blog/power-bi-desktop-december-2018-feature-summary/#smartGuides)在报表页面上移动对象时，可看到智能对齐参考线，如 PowerPoint 中所示的那样，有助于对齐页面上的所有内容。 只要在页面上拖动或调整某些内容，就会看到智能参考线。 将对象移动到另一个对象附近时，该参考线会快速移动到与另一个对象对齐的位置。
 
-**辅助功能**要列出的辅助功能太多：例如，[字段列表窗格辅助功能支持](https://powerbi.microsoft.com/blog/power-bi-desktop-december-2018-feature-summary/#fieldList)。 字段列表窗格完全可供访问。 可以浏览窗格，仅需使用键盘和屏幕阅读器即可实现，还可以使用上下文菜单将字段添加到报告页面。
+**辅助功能** 要列出的辅助功能太多：例如， [字段列表窗格辅助功能支持](https://powerbi.microsoft.com/blog/power-bi-desktop-december-2018-feature-summary/#fieldList)。 字段列表窗格完全可供访问。 可以浏览窗格，仅需使用键盘和屏幕阅读器即可实现，还可以使用上下文菜单将字段添加到报告页面。
 
 #### <a name="power-bi-visuals"></a>Power BI 视觉对象
 
@@ -593,7 +715,7 @@ Power BI 报表服务器中的 Power BI 报表可以连接到各种数据源。 
 
 ### <a name="editing-power-bi-reports-from-the-server"></a>从服务器编辑 Power BI 报表
 
-可以从服务器打开和编辑 Power BI 报表 (.pbix) 文件，而且可以找回上传的原始文件。 **如果数据已由服务器刷新，则在首次打开该文件时将不会刷新数据**。 需要在本地手动刷新才能查看更改。
+可以从服务器打开和编辑 Power BI 报表 (.pbix) 文件，而且可以找回上传的原始文件。 **如果数据已由服务器刷新，则在首次打开该文件时将不会刷新数据** 。 需要在本地手动刷新才能查看更改。
 
 ### <a name="large-file-uploaddownload"></a>大型文件上传/下载
 
