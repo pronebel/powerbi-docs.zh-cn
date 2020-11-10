@@ -8,7 +8,7 @@
         - name: 查询编辑器概述
           href: desktop-query-overview.md
         - name: 数据流自助数据准备
-          href: service-dataflows-overview.md
+          href: ./dataflows/dataflows-introduction-self-service.md
     - name: 教程
       expanded: true
       items:
@@ -98,39 +98,39 @@
         - name: 自助服务数据准备
           items:
             - name: 创建和使用数据流
-              href: service-dataflows-create-use.md
+              href: ./dataflows/dataflows-create.md
             - name: 在 Power BI（预览版）中将 DirectQuery 用于数据流
-              href: service-dataflows-directquery.md
+              href: ./dataflows/dataflows-configure-consume.md
             - name: 将增强的计算引擎用于数据流
-              href: service-dataflows-enhanced-compute-engine.md
+              href: ./dataflows/dataflows-premium-features.md
             - name: Power BI Premium 计算实体
-              href: service-dataflows-computed-entities-premium.md
+              href: ./dataflows/dataflows-premium-features.md
             - name: 使用数据流连接到数据源
-              href: service-dataflows-data-sources.md
+              href: ./dataflows/dataflows-configure-consume.md
             - name: 将数据流与本地数据源配合使用
-              href: service-dataflows-on-premises-gateways.md
+              href: ./dataflows/dataflows-configure-consume.md
             - name: 链接数据流之间的实体
-              href: service-dataflows-linked-entities.md
+              href: ./dataflows/dataflows-premium-features.md
             - name: 将增量刷新与数据流配合使用
-              href: service-dataflows-incremental-refresh.md
+              href: ./dataflows/dataflows-premium-features.md
             - name: 数据流的开发人员资源
-              href: service-dataflows-developer-resources.md
+              href: ./dataflows/dataflows-configure-consume.md
             - name: 连接到 Power BI Desktop 中的数据流
               href: desktop-connect-dataflows.md
             - name: 数据流和 Azure Data Lake 集成（预览）
-              href: service-dataflows-azure-data-lake-integration.md
+              href: ./dataflows/dataflows-azure-data-lake-storage-integration.md
             - name: 连接 Azure Data Lake Storage Gen2 以存储数据流
-              href: service-dataflows-connect-azure-data-lake-storage-gen2.md
+              href: ./dataflows/dataflows-azure-data-lake-storage-integration.md
             - name: 配置工作区数据流设置（预览）
-              href: service-dataflows-configure-workspace-storage-settings.md
+              href: ./dataflows/dataflows-configure-consume.md
             - name: 将 CDM 文件夹添加到 Power BI 作为数据流（预览）
-              href: service-dataflows-add-cdm-folder.md
+              href: ./dataflows/dataflows-machine-learning-integration.md
             - name: 在 Power BI 中集成机器学习
-              href: service-machine-learning-integration.md
+              href: ./dataflows/dataflows-machine-learning-integration.md
             - name: 在 Power BI 中使用认知服务
-              href: service-cognitive-services.md
+              href: ./dataflows/dataflows-machine-learning-integration.md
             - name: Power BI 中的自动机器学习
-              href: service-machine-learning-automated.md
+              href: ./dataflows/dataflows-machine-learning-integration.md
     - name: 参考
       items:
         - name: 公式编辑器快捷方式

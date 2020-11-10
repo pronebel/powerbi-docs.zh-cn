@@ -21,7 +21,7 @@
             - name: 禁用 Power Query 后台刷新
               href: power-query-background-refresh.md
             - name: 数据流的最佳做法
-              href: ../transform-model/service-dataflows-best-practices.md
+              href: ../transform-model/dataflows/dataflows-introduction-self-service.md
         - name: 数据建模
           items:
             - name: 什么是星型架构？
