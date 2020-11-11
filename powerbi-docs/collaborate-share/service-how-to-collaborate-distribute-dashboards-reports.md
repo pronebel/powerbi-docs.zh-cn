@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 06/18/2020
 ms.custom: contperfq4
 LocalizationGroup: Share your work
-ms.openlocfilehash: 4af8f9edd3d51214aaa766219e4903eb4b26b813
-ms.sourcegitcommit: 65025ab7ae57e338bdbd94be795886e5affd45b4
+ms.openlocfilehash: 93ccb8c02e71165dfd23bcd82b21ae2758e03d43
+ms.sourcegitcommit: 37bd34053557089c4fbf0e05f78e959609966561
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/28/2020
-ms.locfileid: "87252535"
+ms.lasthandoff: 11/10/2020
+ms.locfileid: "94396187"
 ---
 # <a name="ways-to-collaborate-and-share-in-power-bi"></a>在 Power BI 中协作和共享的方式
 
@@ -37,7 +37,7 @@ Power BI 服务中的应用
 - 将工作区中的仪表板和报表打包为应用，并将其分发到更大的组或整个组织。
 - 在安全门户或公共网站中嵌入报表。
 - 打印报表。
-- 创建*模板应用*，以便通过 Microsoft AppSource 将其分发给外部 Power BI 用户。
+- 创建 *模板应用* ，以便通过 Microsoft AppSource 将其分发给外部 Power BI 用户。
  
 **共享数据**
 
@@ -121,7 +121,7 @@ Power BI 服务中的应用
 利用 Power BI 服务中的“在 SharePoint Online 中嵌入”和“嵌入”选项，可以为内部用户安全地嵌入报表。 无论选择哪个选项，Power BI 都会强制执行所有权限和数据安全措施，然后才允许用户查看内容。 查看报告的人员需要具有相应许可证。  
 
 - “在 SharePoint Online 中嵌入”适用于 SharePoint Online 的 Power BI Web 部件。 它提供单一登录体验，并可控制报表的嵌入方式。 详细了解如何[嵌入 SharePoint Online](service-embed-report-spo.md)。
-- **嵌入**适用于支持使用 URL 或 iFrame 嵌入内容的任何门户或网站。 详细了解[嵌入](service-embed-secure.md)选项。
+- **嵌入** 适用于支持使用 URL 或 iFrame 嵌入内容的任何门户或网站。 详细了解[嵌入](service-embed-secure.md)选项。
 
 ### <a name="publish-to-public-web-sites"></a>发布到公共网站
 
@@ -146,11 +146,11 @@ Power BI 服务中的应用
 
 ## <a name="create-and-deploy-template-apps"></a>创建和部署模板应用
 
-*模板应用*设计为公开分发，并通常在 Microsoft AppSource 中进行。 你会生成应用，并且在只需很少编码或无需编码的情况下，就可以将其部署到任何 Power BI 客户。 你的客户连接到其自己的数据并实例化其自己的帐户。 详细了解 [Power BI 模板应用](../connect-data/service-template-apps-overview.md)。
+*模板应用* 设计为公开分发，并通常在 Microsoft AppSource 中进行。 你会生成应用，并且在只需很少编码或无需编码的情况下，就可以将其部署到任何 Power BI 客户。 你的客户连接到其自己的数据并实例化其自己的帐户。 详细了解 [Power BI 模板应用](../connect-data/service-template-apps-overview.md)。
 
 ## <a name="share-a-dataset"></a>共享数据集
 
-让我们面对现实，有些人更擅长在其报表中创建设计精良的高质量数据模型。 也许你就是那个人。 你的整个组织都能够因使用这一设计精良的数据模型而受益。 *共享数据集*可填补这一空缺。 使用每个人都应使用的数据模型创建报表时，可以将该报表保存到 Power BI 服务，并授予合适的人员使用它的权限。 他们随后可以基于你的数据集生成其报表。 这样一来，每个人都基于相同的数据创建其报表，并可看到“同一个版本的事实”。
+让我们面对现实，有些人更擅长在其报表中创建设计精良的高质量数据模型。 也许你就是那个人。 你的整个组织都能够因使用这一设计精良的数据模型而受益。 *共享数据集* 可填补这一空缺。 使用每个人都应使用的数据模型创建报表时，可以将该报表保存到 Power BI 服务，并授予合适的人员使用它的权限。 他们随后可以基于你的数据集生成其报表。 这样一来，每个人都基于相同的数据创建其报表，并可看到“同一个版本的事实”。
 
 ![查找共享数据集](media/service-how-to-collaborate-distribute-dashboards-reports/power-bi-shared-datasets.png)
 
@@ -158,7 +158,7 @@ Power BI 服务中的应用
 
 ## <a name="create-dataflows"></a>创建数据流
 
-数据流是一种自助方式，可用于统一来自不同来源的数据并为建模做好数据准备。 分析师创建数据流来引入、转换、集成和丰富大数据。 他们在 Power BI 服务的工作区中创建和管理数据流。 详细了解[数据流自助数据准备](../transform-model/service-dataflows-overview.md)。
+数据流是一种自助方式，可用于统一来自不同来源的数据并为建模做好数据准备。 分析师创建数据流来引入、转换、集成和丰富大数据。 他们在 Power BI 服务的工作区中创建和管理数据流。 详细了解[数据流自助数据准备](../transform-model/dataflows/dataflows-introduction-self-service.md)。
 
 ## <a name="considerations-and-limitations"></a>注意事项和限制
 

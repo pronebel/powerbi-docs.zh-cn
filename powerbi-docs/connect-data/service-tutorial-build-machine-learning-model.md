@@ -10,12 +10,12 @@ ms.topic: tutorial
 ms.date: 08/03/2020
 ms.author: davidi
 LocalizationGroup: Connect to services
-ms.openlocfilehash: ad4715bbecc94934d0f2ac53551b27d82cb4282c
-ms.sourcegitcommit: 4ac9447d1607dfca2e60948589f36a3d64d31cb4
+ms.openlocfilehash: 49f1b46e89fd05d05928de631b0ea42832801a05
+ms.sourcegitcommit: 37bd34053557089c4fbf0e05f78e959609966561
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/29/2020
-ms.locfileid: "92916949"
+ms.lasthandoff: 11/10/2020
+ms.locfileid: "94397222"
 ---
 # <a name="tutorial-build-a-machine-learning-model-in-power-bi"></a>教程：在 Power BI 中生成机器学习模型
 
@@ -189,4 +189,4 @@ Power Query 自动推断列的类型。 可以通过单击列标题顶部的属�
 * 将模型应用于数据流实体
 * 在 Power BI 报表中使用模型的评分输出
 
-有关 Power BI 中的机器学习自动化的详细信息，请参阅 [Power BI 中的自动机器学习](../transform-model/service-machine-learning-automated.md)。
+有关 Power BI 中的机器学习自动化的详细信息，请参阅 [Power BI 中的自动机器学习](../transform-model/dataflows/dataflows-machine-learning-integration.md)。

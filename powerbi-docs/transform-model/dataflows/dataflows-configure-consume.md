@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 10/01/2020
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: cb68cdd0f7ca82c937b1a045055909582c0938d6
-ms.sourcegitcommit: be424c5b9659c96fc40bfbfbf04332b739063f9c
+ms.openlocfilehash: 47b1647732c1977e6e8a3992b617e2a35c803c50
+ms.sourcegitcommit: 37bd34053557089c4fbf0e05f78e959609966561
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "91637531"
+ms.lasthandoff: 11/10/2020
+ms.locfileid: "94396371"
 ---
 # <a name="configure-and-consume-a-dataflow"></a>配置和使用数据流
 
@@ -53,13 +53,13 @@ ms.locfileid: "91637531"
 
 * 由源刷新完成操作触发时，仅刷新被引用的实体。 若要计划所有实体，还应对链接实体设置计划刷新。 请勿对链接数据流设置刷新计划，以避免重复刷新。
 
-**取消刷新**：数据流支持取消刷新功能，这一点与数据集不同。 如果刷新运行了很长时间，则可以选择数据流选项（数据流旁边的省略号），然后选择“取消刷新”。
+**取消刷新** ：数据流支持取消刷新功能，这一点与数据集不同。 如果刷新运行了很长时间，则可以选择数据流选项（数据流旁边的省略号），然后选择“取消刷新”。
 
 **增量刷新（仅限 Premium）** ：还可以将数据流设置为增量刷新。 为此，请选择要设置增量刷新的数据流，然后选择增量刷新图标。
 
 ![数据流增量刷新](media/dataflows-configure-consume/dataflow-created-entity.png)
 
-设置增量刷新会向数据流添加用于指定日期范围的参数。 有关如何设置增量刷新的详细信息，请参阅 [Power Query 中的增量刷新](https://docs.microsoft.com/power-query/dataflows/incremental-refresh)一文。
+设置增量刷新会向数据流添加用于指定日期范围的参数。 有关如何设置增量刷新的详细信息，请参阅 [Power Query 中的增量刷新](/power-query/dataflows/incremental-refresh)一文。
 
 在某些情况下，不应设置增量刷新：
 
@@ -77,7 +77,7 @@ ms.locfileid: "91637531"
 
 * 使用可读取 CDM 格式的外部工具创建连接
 
-**通过 Power BI Desktop 使用**：若要使用数据流，请运行 Power BI Desktop，然后在“获取数据”对话框中选择“Power BI 数据流连接器”。
+**通过 Power BI Desktop 使用** ：若要使用数据流，请运行 Power BI Desktop，然后在“获取数据”对话框中选择“Power BI 数据流连接器”。
 
 > [!NOTE]
 > Power BI 数据流连接器使用的凭据集与当前登录用户使用的凭据集不同。 这是设计使然，意在支持多租户用户。

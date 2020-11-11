@@ -8,18 +8,18 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: how-to
 ms.date: 06/04/2019
-ms.openlocfilehash: 8b20ee4fbac3c4b22bd420e49df0bc1fbfd6e300
-ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
+ms.openlocfilehash: 0743a7ac0d12cba8bbde54464a275a78f7c88eff
+ms.sourcegitcommit: 37bd34053557089c4fbf0e05f78e959609966561
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/06/2020
-ms.locfileid: "91746599"
+ms.lasthandoff: 11/10/2020
+ms.locfileid: "94396693"
 ---
 # <a name="get-an-azure-ad-access-token-for-your-power-bi-application"></a>获取 Power BI 应用程序的 Azure AD 访问令牌
 
 本文介绍如何在 Power BI 应用程序中对用户进行身份验证，以及如何检索要与 [Power BI REST API](/rest/api/power-bi/) 配合使用的访问令牌。
 
-需要先获取 Azure Active Directory (Azure AD) **身份验证访问令牌**，然后应用才能调用该 REST API。 应用使用令牌获取对 Power BI 仪表板、磁贴和报表的访问权限。 若要了解详细信息，请参阅[使用 OAuth 2.0 代码授予流授予对 Azure Active Directory Web 应用程序的访问权限](/azure/active-directory/develop/v1-protocols-oauth-code)。
+需要先获取 Azure Active Directory (Azure AD) **身份验证访问令牌** ，然后应用才能调用该 REST API。 应用使用令牌获取对 Power BI 仪表板、磁贴和报表的访问权限。 若要了解详细信息，请参阅[使用 OAuth 2.0 代码授予流授予对 Azure Active Directory Web 应用程序的访问权限](/azure/active-directory/develop/v1-protocols-oauth-code)。
 
 访问令牌的检索方式不同，具体视内容的嵌入方式而定。 本文介绍两种不同的方法。
 
@@ -29,7 +29,7 @@ ms.locfileid: "91746599"
 
 ### <a name="get-an-azure-ad-authorization-code"></a>获取 Azure AD 授权代码
 
-获取**访问令牌**的第一步是从 **Azure AD** 获取授权代码。 构造具有以下属性的查询字符串，并重定向到 Azure AD  。
+获取 **访问令牌** 的第一步是从 **Azure AD** 获取授权代码。 构造具有以下属性的查询字符串，并重定向到 Azure AD  。
 
 #### <a name="authorization-code-query-string"></a>授权代码查询字符串
 
@@ -53,9 +53,9 @@ var @params = new NameValueCollection
 };
 ```
 
-构造查询字符串后，重定向到 **Azure AD** 以获取**授权代码**。  下面是构造**授权代码**查询字符串的并重定向到 **Azure AD** 的完整 C# 方法。 随后使用**授权代码**获取**访问令牌**。
+构造查询字符串后，重定向到 **Azure AD** 以获取 **授权代码** 。  下面是构造 **授权代码** 查询字符串的并重定向到 **Azure AD** 的完整 C# 方法。 随后使用 **授权代码** 获取 **访问令牌** 。
 
-在 redirect.aspx.cs 中，调用 [AuthenticationContext.AcquireTokenByAuthorizationCode](/dotnet/api/microsoft.identitymodel.clients.activedirectory.authenticationcontext.acquiretokenbyauthorizationcodeasync?view=azure-dotnet#Microsoft_IdentityModel_Clients_ActiveDirectory_AuthenticationContext_AcquireTokenByAuthorizationCodeAsync_System_String_System_Uri_Microsoft_IdentityModel_Clients_ActiveDirectory_ClientCredential_System_String_) 生成令牌。
+在 redirect.aspx.cs 中，调用 [AuthenticationContext.AcquireTokenByAuthorizationCode](/dotnet/api/microsoft.identitymodel.clients.activedirectory.authenticationcontext.acquiretokenbyauthorizationcodeasync#Microsoft_IdentityModel_Clients_ActiveDirectory_AuthenticationContext_AcquireTokenByAuthorizationCodeAsync_System_String_System_Uri_Microsoft_IdentityModel_Clients_ActiveDirectory_ClientCredential_System_String_) 生成令牌。
 
 #### <a name="get-authorization-code"></a>获取授权代码
 
@@ -97,7 +97,7 @@ protected void signInButton_Click(object sender, EventArgs e)
 
 ### <a name="get-an-access-token-from-authorization-code"></a>通过授权代码获取访问令牌
 
-在 **Azure AD** 使用**授权代码**重定向回 Web 应用后，可使用授权代码来获取访问令牌。 下面的 C# 示例可用于重定向页面和 default.aspx 的 `Page_Load` 事件。
+在 **Azure AD** 使用 **授权代码** 重定向回 Web 应用后，可使用授权代码来获取访问令牌。 下面的 C# 示例可用于重定向页面和 default.aspx 的 `Page_Load` 事件。
 
 可从 [Active Directory 身份验证库](https://www.nuget.org/packages/Microsoft.IdentityModel.Clients.ActiveDirectory/) NuGet 包检索 **Microsoft.IdentityModel.Clients.ActiveDirectory** 命名空间。
 
@@ -177,7 +177,7 @@ protected void Page_Load(object sender, EventArgs e)
 #### <a name="embedservicecs"></a>EmbedService.cs
 
 ```csharp
-var AuthorityURL  = "https://login.microsoftonline.com/common/"
+var AuthorityURL  = "https://login.microsoftonline.com/<TenantId>/"
 var ResourceURL  = "https://analysis.windows.net/powerbi/api"
 var authenticationContext = new AuthenticationContext(AuthorityUrl);
        AuthenticationResult authenticationResult = null;

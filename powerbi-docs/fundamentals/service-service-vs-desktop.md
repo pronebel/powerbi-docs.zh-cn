@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 08/07/2020
 ms.author: maggies
 LocalizationGroup: Reports
-ms.openlocfilehash: 4118e5c009a8d7372d5cb58d1e1b9d033a70494e
-ms.sourcegitcommit: 154946ece829360cc0ff3be13276cd7a129f3388
+ms.openlocfilehash: 0b4a1275a3b50fbadd37d953b77316d6021c800c
+ms.sourcegitcommit: 37bd34053557089c4fbf0e05f78e959609966561
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/07/2020
-ms.locfileid: "87988722"
+ms.lasthandoff: 11/10/2020
+ms.locfileid: "94397084"
 ---
 # <a name="comparing-power-bi-desktop-and-the-power-bi-service"></a>比较 Power BI Desktop 和 Power BI 服务
 
@@ -55,7 +55,7 @@ Power BI Desktop 中和服务中的报表编辑器类似。 它们由三个部�
 
 ### <a name="self-service-data-prep-with-dataflows"></a>数据流自助数据准备
 
-数据流有助于组织统一来自不同来源的数据并为建模做好数据准备。 分析人员可以使用熟悉的自助服务工具轻松创建数据流。 分析师通过定义数据源连接、ETL 逻辑、刷新计划等来引入、转换、集成和丰富大数据。 详细了解[数据流自助数据准备](../transform-model/service-dataflows-overview.md)。
+数据流有助于组织统一来自不同来源的数据并为建模做好数据准备。 分析人员可以使用熟悉的自助服务工具轻松创建数据流。 分析师通过定义数据源连接、ETL 逻辑、刷新计划等来引入、转换、集成和丰富大数据。 详细了解[数据流自助数据准备](../transform-model/dataflows/dataflows-introduction-self-service.md)。
 
 ## <a name="next-steps"></a>后续步骤
 

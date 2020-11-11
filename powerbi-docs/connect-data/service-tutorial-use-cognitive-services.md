@@ -10,12 +10,12 @@ ms.topic: tutorial
 ms.date: 02/20/2020
 ms.author: davidi
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 934ffa649885b270dd7f321f45168723f53bc379
-ms.sourcegitcommit: 51b965954377884bef7af16ef3031bf10323845f
+ms.openlocfilehash: 406a2aebbf5d043ce74ca189c18b384f6c70e716
+ms.sourcegitcommit: 37bd34053557089c4fbf0e05f78e959609966561
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/30/2020
-ms.locfileid: "91600358"
+ms.lasthandoff: 11/10/2020
+ms.locfileid: "94397176"
 ---
 # <a name="tutorial-use-cognitive-services-in-power-bi"></a>教程：在 Power BI 中使用认知服务
 
@@ -175,11 +175,11 @@ in
 在本教程中，你对 Power BI 数据流应用了情绪评分和图像标记函数。 若要了解有关 Power BI 中认知服务的详细信息，请阅读以下文章。
 
 * [Azure 中的认知服务](/azure/cognitive-services/)
-* [数据流自助服务数据准备入门](../transform-model/service-dataflows-overview.md)
+* [数据流自助服务数据准备入门](../transform-model/dataflows/dataflows-introduction-self-service.md)
 * 了解有关 [Power BI Premium](https://powerbi.microsoft.com/power-bi-premium/) 的详细信息
 
 你可能还会对以下文章感兴趣。
 
 * [教程：在 Power BI 中调用机器学习工作室（经典）模型（预览版）](service-tutorial-invoke-machine-learning-model.md)
-* [Power BI 中的 Azure 机器学习集成（预览版）](../transform-model/service-machine-learning-integration.md)
-* [Power BI 中的认知服务（预览版）](../transform-model/service-cognitive-services.md)
+* [Power BI 中的 Azure 机器学习集成（预览版）](../transform-model/dataflows/dataflows-machine-learning-integration.md)
+* [Power BI 中的认知服务（预览版）](../transform-model/dataflows/dataflows-machine-learning-integration.md)

@@ -7,12 +7,12 @@ ms.topic: how-to
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.date: 10/01/2020
-ms.openlocfilehash: f997547bb61bf203f7806dbe68d45beb29c6538b
-ms.sourcegitcommit: 59d07be9c3e4a2067f6d42c3002a194371bc4341
+ms.openlocfilehash: b1d0a94e3dd0ae68231720bc69d2537568efd19f
+ms.sourcegitcommit: 37bd34053557089c4fbf0e05f78e959609966561
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "92116445"
+ms.lasthandoff: 11/10/2020
+ms.locfileid: "94396785"
 ---
 # <a name="export-power-bi-report-to-file-preview"></a>将 Power BI 报表导出到文件（预览）
 
@@ -52,7 +52,7 @@ ms.locfileid: "92116445"
 
 ### <a name="bookmarks"></a>书签
 
-[书签](../../consumer/end-user-bookmarks.md)可用于在特定的配置中保存报表，包括已应用的筛选器和报表视觉对象的状态。 可以通过两种方式使用 [exportToFile](https://docs.microsoft.com/rest/api/power-bi/reports/exporttofile) API 以编程方式导出报表的书签：
+[书签](../../consumer/end-user-bookmarks.md)可用于在特定的配置中保存报表，包括已应用的筛选器和报表视觉对象的状态。 可以通过两种方式使用 [exportToFile](/rest/api/power-bi/reports/exporttofile) API 以编程方式导出报表的书签：
 
 * 导出现有书签
 

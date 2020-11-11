@@ -10,12 +10,12 @@ ms.topic: tutorial
 ms.date: 03/12/2019
 ms.author: davidi
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 7e2019d3b554bc4e033c7aee36c41216ba910a9f
-ms.sourcegitcommit: 4ac9447d1607dfca2e60948589f36a3d64d31cb4
+ms.openlocfilehash: 4124799f15bbccd7c82428d1290ae2ae6420311f
+ms.sourcegitcommit: 37bd34053557089c4fbf0e05f78e959609966561
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/29/2020
-ms.locfileid: "92916834"
+ms.lasthandoff: 11/10/2020
+ms.locfileid: "94397107"
 ---
 # <a name="tutorial-invoke-a-machine-learning-studio-classic-model-in-power-bi-preview"></a>教程：在 Power BI 中调用机器学习工作室（经典）模型（预览版）
 
@@ -180,4 +180,4 @@ Power Query 编辑器显示 CSV 文件中的数据的预览。 从命令功能�
 - 创建数据流
 - 将 Azure ML 模型中的见解应用到数据流
 
-有关 Power BI 中的 Azure 机器学习集成的详细信息，请参阅 [Power BI 中的 Azure 机器学习集成（预览版）](../transform-model/service-machine-learning-integration.md)。
+有关 Power BI 中的 Azure 机器学习集成的详细信息，请参阅 [Power BI 中的 Azure 机器学习集成（预览版）](../transform-model/dataflows/dataflows-machine-learning-integration.md)。

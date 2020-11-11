@@ -7,14 +7,14 @@ ms.reviewer: kayu
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: how-to
-ms.date: 10/14/2020
+ms.date: 10/20/2020
 LocalizationGroup: Premium
-ms.openlocfilehash: 5e07cafc5c507d090d56a0d973e2c02aa873c3e2
-ms.sourcegitcommit: 59d07be9c3e4a2067f6d42c3002a194371bc4341
+ms.openlocfilehash: 406b526f9e2dd146ee99629ed913c60b95989cb0
+ms.sourcegitcommit: 132b3f6ba6d2b1948ddc15969d64cf629f7fb280
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "92116491"
+ms.lasthandoff: 11/11/2020
+ms.locfileid: "94483710"
 ---
 # <a name="automate-premium-workspace-and-dataset-tasks-with-service-principals"></a>使用服务主体自动完成 Premium 工作区和数据集任务
 
@@ -32,9 +32,6 @@ Power BI Premium 使用与 Power BI Embedded 相同的服务主体功能。 有�
 只有[新工作区](../collaborate-share/service-new-workspaces.md)支持使用服务主体的 XMLA 终结点连接。 不支持经典工作区。 服务主体只具有为其分配的工作区执行任务所需的权限。 权限是通过工作区访问分配的，与常规 UPN 帐户非常类似。
 
 若要执行写入操作，容量的数据集工作负载必须[为读写启用 XMLA 终结点](service-premium-connect-tools.md#enable-xmla-read-write)。 通过 Power BI Desktop 发布的数据集应启用[增强的元数据格式](../connect-data/desktop-enhanced-dataset-metadata.md)功能。
-
-> [!NOTE]
-> Power BI Premium 中的 XMLA 终结点功能是一项预览功能。 切勿在生产环境中使用预览功能。 某些功能、支持和文档是受到限制的。  若要了解详细信息，请参阅 [Microsoft Online Services 条款 (OST)](https://www.microsoft.com/licensing/product-licensing/products?rtc=1)。
 
 ## <a name="create-a-service-principal"></a>创建服务主体
 

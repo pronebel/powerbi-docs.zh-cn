@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 10/12/2020
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: bab09647b324e9be8b1de6f27865511b4f2b1a02
-ms.sourcegitcommit: eab5a02520c421a57019595c03e9ecfdb41d52ad
+ms.openlocfilehash: 01d7a433650eb8c74ace37b548ba8d7bf2c570ea
+ms.sourcegitcommit: 37bd34053557089c4fbf0e05f78e959609966561
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/20/2020
-ms.locfileid: "92256310"
+ms.lasthandoff: 11/10/2020
+ms.locfileid: "94396164"
 ---
 # <a name="previous-monthly-updates-to-power-bi-desktop"></a>此前的 Power BI Desktop 月度更新
 
@@ -418,7 +418,7 @@ Power BI Desktop 更新列表中每个功能旁边的链接解释如下：
 
 
 ### <a name="data-preparation"></a>数据准备
-* 数据流上的 DirectQuery  [[视频]](https://youtu.be/JtuHIslowxk?t=1883)   [[文章]](../transform-model/service-dataflows-directquery.md)  [[博客]](https://powerbi.microsoft.com/blog/power-bi-desktop-may-2020-feature-summary/#_DQ_Dataflows) 
+* 数据流上的 DirectQuery  [[视频]](https://youtu.be/JtuHIslowxk?t=1883)   [[文章]](../transform-model/dataflows/dataflows-configure-consume.md)  [[博客]](https://powerbi.microsoft.com/blog/power-bi-desktop-may-2020-feature-summary/#_DQ_Dataflows) 
 * Web by example 现在默认自动推荐表  [[视频]](https://youtu.be/JtuHIslowxk?t=1916)  [[博客]](https://powerbi.microsoft.com/blog/power-bi-desktop-may-2020-feature-summary/#_Web_by_example) 
 * 对查询诊断的增强：隐私级别分区  [[视频]](https://youtu.be/JtuHIslowxk?t=1931)  [[博客]](https://powerbi.microsoft.com/blog/power-bi-desktop-may-2020-feature-summary/#_Query_Diag) 
 
@@ -548,8 +548,8 @@ Power BI Desktop 更新列表中每个功能旁边的链接解释如下：
 
 请选择以下链接以下载早期版本： 
 
-* [2020 年 4 月版 Power BI Desktop - 32 位](https://download.microsoft.com/download/8/8/0/880BCA75-79DD-466A-927D-1ABF1F5454B0/PBIDesktopSetup-2020-04.exe)
-* [2020 年 4 月版 Power BI Desktop - 64 位](https://download.microsoft.com/download/8/8/0/880BCA75-79DD-466A-927D-1ABF1F5454B0/PBIDesktopSetup-2020-04_x64.exe)
+* [2020 年 4 月版 Power BI Desktop - 32 位](https://download.microsoft.com/download/8/8/0/880BCA75-79DD-466A-927D-1ABF1F5454B0/PBIDesktopSetup.exe)
+* [2020 年 4 月版 Power BI Desktop - 64 位](https://download.microsoft.com/download/8/8/0/880BCA75-79DD-466A-927D-1ABF1F5454B0/PBIDesktopSetup_x64.exe)
 
 
 

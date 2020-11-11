@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 10/01/2020
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: ffd11a57267ef69aab7b999a29949c33163e52e8
-ms.sourcegitcommit: be424c5b9659c96fc40bfbfbf04332b739063f9c
+ms.openlocfilehash: e052816cb3d633ba5c01d0331e00572a9b51a579
+ms.sourcegitcommit: 37bd34053557089c4fbf0e05f78e959609966561
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "91637692"
+ms.lasthandoff: 11/10/2020
+ms.locfileid: "94397291"
 ---
 # <a name="premium-features-of-dataflows"></a>数据流的高级功能
 
@@ -124,7 +124,7 @@ DirectQuery 和数据流存在一些已知限制：
 
 ## <a name="computed-entities"></a>计算实体
 
-在 Power BI Premium 订阅中使用“数据流”**** 时，可以执行“存储中计算”****。 这让你能够对现有数据流执行计算，并返回让你能够专注于报表创建和分析的结果。
+在 Power BI Premium 订阅中使用“数据流”时，可以执行“存储中计算”。 这让你能够对现有数据流执行计算，并返回让你能够专注于报表创建和分析的结果。
 
 ![计算实体](media/dataflows-premium-features/computed-entity.png)
 
@@ -146,7 +146,7 @@ DirectQuery 和数据流存在一些已知限制：
 
 ![增量刷新](media/dataflows-premium-features/incremental-refresh.png)
 
-设置增量刷新会向数据流添加用于指定日期范围的参数。 有关如何设置增量刷新的详细信息，请参阅[增量刷新](https://docs.microsoft.com/power-query/dataflows/incremental-refresh)一文。
+设置增量刷新会向数据流添加用于指定日期范围的参数。 有关如何设置增量刷新的详细信息，请参阅[增量刷新](/power-query/dataflows/incremental-refresh)一文。
 
 ### <a name="considerations-for-when-not-to-set-incremental-refresh"></a>何时不设置增量刷新的注意事项
 

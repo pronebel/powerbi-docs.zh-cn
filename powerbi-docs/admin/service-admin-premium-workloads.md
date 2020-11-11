@@ -9,16 +9,16 @@ ms.subservice: powerbi-premium
 ms.topic: how-to
 ms.date: 05/11/2020
 LocalizationGroup: Premium
-ms.openlocfilehash: c4cf0c4fbdde52181dbc5307a9d97d17344c7c26
-ms.sourcegitcommit: be424c5b9659c96fc40bfbfbf04332b739063f9c
+ms.openlocfilehash: 3454a10269937d6e03151a64bba6695cc37fcd66
+ms.sourcegitcommit: 37bd34053557089c4fbf0e05f78e959609966561
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "91632839"
+ms.lasthandoff: 11/10/2020
+ms.locfileid: "94396325"
 ---
 # <a name="configure-workloads-in-a-premium-capacity"></a>在高级容量中配置工作负载
 
-本文介绍如何为 Power BI 高级容量启用和配置工作负载。 默认情况下，容量仅支持与正在运行的 Power BI 查询关联的工作负载。 还可以为 [AI（认知服务）](../transform-model/service-cognitive-services.md)、[数据流](../transform-model/service-dataflows-overview.md#dataflow-capabilities-on-power-bi-premium)和[分页报表](../paginated-reports/paginated-reports-save-to-power-bi-service.md)启用和配置其他工作负载。
+本文介绍如何为 Power BI 高级容量启用和配置工作负载。 默认情况下，容量仅支持与正在运行的 Power BI 查询关联的工作负载。 还可以为 [AI（认知服务）](../transform-model/dataflows/dataflows-machine-learning-integration.md)、[数据流](../transform-model/dataflows/dataflows-introduction-self-service.md)和[分页报表](../paginated-reports/paginated-reports-save-to-power-bi-service.md)启用和配置其他工作负载。
 
 ## <a name="default-memory-settings"></a>默认内存设置
 
@@ -41,7 +41,7 @@ ms.locfileid: "91632839"
 |---------------------------------|----------------------------------------|
 | **最大内存(%)** | AI 进程可在容量中使用的最大可用内存百分比。 |
 | **允许 Power BI Desktop 使用** | 此设置保留以供将来使用，且不会在所有租户中显示。 |
-| **允许构建机器学习模型** | 指定业务分析师是否可直接在 Power BI 中训练、验证和调用机器学习模型。 有关详细信息，请参阅 [Power BI 中的自动机器学习（预览）](../transform-model/service-machine-learning-automated.md)。 |
+| **允许构建机器学习模型** | 指定业务分析师是否可直接在 Power BI 中训练、验证和调用机器学习模型。 有关详细信息，请参阅 [Power BI 中的自动机器学习（预览）](../transform-model/dataflows/dataflows-machine-learning-integration.md)。 |
 | **为 AI 请求启用并行** | 指定 AI 请求是否可并行运行。 |
 |  |  |
 
@@ -191,7 +191,7 @@ ms.locfileid: "91632839"
 
 1. 启用一个或多个工作负载，并设置“最大内存”和其他设置的值。
 
-1. 选择**应用**。
+1. 选择 **应用** 。
 
 ### <a name="rest-api"></a>REST API
 
@@ -209,7 +209,7 @@ ms.locfileid: "91632839"
 ## <a name="next-steps"></a>后续步骤
 
 [优化 Power BI Premium 容量](service-premium-capacity-optimize.md)
- [Power BI 中的数据流自助服务数据准备](../transform-model/service-dataflows-overview.md)
+ [Power BI 中的数据流自助服务数据准备](../transform-model/dataflows/dataflows-introduction-self-service.md)
  [Power BI Premium 中的分页报表是什么？](../paginated-reports/paginated-reports-report-builder-power-bi.md)
  [Power BI Desktop 中的自动页面刷新（预览）](../create-reports/desktop-automatic-page-refresh.md)
 

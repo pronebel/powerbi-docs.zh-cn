@@ -8,12 +8,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 08/20/2020
 ms.author: v-pemyer
-ms.openlocfilehash: f96fa15981de8d86007c6e1fa768f95a77921280
-ms.sourcegitcommit: 4e347efd132b48aaef6c21236c3a21e5fce285cc
+ms.openlocfilehash: 21d619c42648f90746af9961475bb531dc24d5ab
+ms.sourcegitcommit: 37bd34053557089c4fbf0e05f78e959609966561
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/27/2020
-ms.locfileid: "92680950"
+ms.lasthandoff: 11/10/2020
+ms.locfileid: "94396634"
 ---
 # <a name="gather-requirements-to-migrate-to-power-bi"></a>收集迁移到 Power BI 的要求
 
@@ -74,7 +74,7 @@ ms.locfileid: "92680950"
 - **未决问题和积压工作 (backlog) 项：** 当前将任何已知的问题、已知的数据质量缺陷、将来的维护或延迟请求添加到积压工作 (backlog)。
 
 > [!IMPORTANT]
-> 可以通过[共享数据集](../connect-data/service-datasets-share.md)来实现数据可重用性，可选择对其进行[认证](../collaborate-share/service-endorse-content.md)，以指示可信度并提高可发现性。 可以通过[数据流](../transform-model/service-dataflows-overview.md)来实现数据准备可重用性，以减少多个数据集中的重复逻辑。 数据流还可以显著减少源系统上的负载，因为检索数据的频率降低了，多个数据集便可以从数据流导入数据。
+> 可以通过[共享数据集](../connect-data/service-datasets-share.md)来实现数据可重用性，可选择对其进行[认证](../collaborate-share/service-endorse-content.md)，以指示可信度并提高可发现性。 可以通过[数据流](../transform-model/dataflows/dataflows-introduction-self-service.md)来实现数据准备可重用性，以减少多个数据集中的重复逻辑。 数据流还可以显著减少源系统上的负载，因为检索数据的频率降低了，多个数据集便可以从数据流导入数据。
 
 ## <a name="identify-improvement-opportunities"></a>确定改进可能性
 

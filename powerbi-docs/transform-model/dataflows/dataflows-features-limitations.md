@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 10/01/2020
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: b8811d9b869d4aa3592c9ed3531d067701b544a8
-ms.sourcegitcommit: be424c5b9659c96fc40bfbfbf04332b739063f9c
+ms.openlocfilehash: 89de77e65d8eb675d9e80c3b2497f39af7c32d33
+ms.sourcegitcommit: 37bd34053557089c4fbf0e05f78e959609966561
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "91637680"
+ms.lasthandoff: 11/10/2020
+ms.locfileid: "94396578"
 ---
 # <a name="dataflows-limitations-and-considerations"></a>数据流限制和注意事项
 
@@ -24,7 +24,7 @@ ms.locfileid: "91637680"
 
 创作数据流时，用户应注意以下事项：
 
-* 数据流中的创作是在 Power Query Online (PQO) 环境中完成的；请参阅 [Power Query 限制](https://docs.microsoft.com/power-query/power-query-online-limits)中所述的限制。
+* 数据流中的创作是在 Power Query Online (PQO) 环境中完成的；请参阅 [Power Query 限制](/power-query/power-query-online-limits)中所述的限制。
 由于数据流创作是在 Power Query Online (PQO) 环境中完成的，因此对数据流工作负荷配置执行的更新只会影响刷新，而不会影响创作体验
 
 * 数据流只能由其所有者修改
@@ -37,7 +37,7 @@ ms.locfileid: "91637680"
 
 ## <a name="api-considerations"></a>API 注意事项
 
-有关受支持数据流 REST API 的详细信息，请参阅 [REST API 参考](https://docs.microsoft.com/rest/api/power-bi/dataflows)。 下面是要注意的一些事项：
+有关受支持数据流 REST API 的详细信息，请参阅 [REST API 参考](/rest/api/power-bi/dataflows)。 下面是要注意的一些事项：
 
 * 导出和导入数据流会为该数据流提供新的 ID
 
@@ -111,4 +111,3 @@ Premium 中存在的数据流具有以下限制和注意事项。
 * [将数据流存储配置为使用 Azure Data Lake Gen 2](dataflows-azure-data-lake-storage-integration.md)
 * [数据流的高级功能](dataflows-premium-features.md)
 * [使用数据流的 AI](dataflows-machine-learning-integration.md)
-

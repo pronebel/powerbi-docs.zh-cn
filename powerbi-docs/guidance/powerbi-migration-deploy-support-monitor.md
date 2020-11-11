@@ -8,12 +8,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 08/20/2020
 ms.author: v-pemyer
-ms.openlocfilehash: f9268409977b3aa78e1ebda6f1f6b2e732451455
-ms.sourcegitcommit: 4e347efd132b48aaef6c21236c3a21e5fce285cc
+ms.openlocfilehash: 3e0bb00042b869061b7cb7cebf624e324db7e916
+ms.sourcegitcommit: 37bd34053557089c4fbf0e05f78e959609966561
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/27/2020
-ms.locfileid: "92681019"
+ms.lasthandoff: 11/10/2020
+ms.locfileid: "94396118"
 ---
 # <a name="deploy-to-power-bi"></a>部署到 Power BI
 
@@ -76,7 +76,7 @@ UAT 涉及的业务用户通常是主题专家。 经过验证后，他们将批
 - **网关维护：** 可能需要在数据网关中进行 [新数据源](../connect-data/service-gateway-data-sources.md)注册。
 - **网关驱动程序和连接器：** 新的专有数据源可能要求在网关群集中的每个服务器上安装新的驱动程序或自定义连接器。
 - **创建新的高级容量：** 可能可以使用现有的 [高级容量](../admin/service-premium-capacity-manage.md)。 也可能需要提供新的高级容量。 如果有意将部门工作负载分开，就可能会出现这种情况。
-- **设置 Power BI 数据流：** 可在 [Power BI 数据流](../transform-model/service-dataflows-overview.md)中使用 Power Query Online 设置数据准备活动。 这有助于避免复制许多不同 Power BI Desktop 文件中的数据准备工作。
+- **设置 Power BI 数据流：** 可在 [Power BI 数据流](../transform-model/dataflows/dataflows-introduction-self-service.md)中使用 Power Query Online 设置数据准备活动。 这有助于避免复制许多不同 Power BI Desktop 文件中的数据准备工作。
 - **注册新的组织视觉对象：** 可以在管理门户中为不是来自 AppSource 的自定义视觉对象完成 [组织视觉对象](../developer/visuals/power-bi-custom-visuals-organization.md)注册。
 - **设置特色内容：** 有一个租户设置可用于控制谁可以在 Power BI 服务主页中使用 [功能内容](https://powerbi.microsoft.com/blog/promote-your-reports-dashboards-and-apps-on-power-bi-home/)。
 - **设置敏感度标签：** 所有 [敏感度标签](../admin/service-security-data-protection-overview.md) 都可以与 Microsoft 信息保护集成。

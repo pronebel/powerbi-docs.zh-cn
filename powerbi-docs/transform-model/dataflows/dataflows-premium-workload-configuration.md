@@ -10,12 +10,12 @@ ms.date: 10/22/2020
 ms.author: davidi
 ms.custom: references_regions
 LocalizationGroup: Data from files
-ms.openlocfilehash: 4a919c499746711719d679fc5cb9a689731093cc
-ms.sourcegitcommit: 54e571a10b0fdde5cd6036017eac9ef228de5116
+ms.openlocfilehash: f2efd4410af62425f599b1addd0f792f495120e0
+ms.sourcegitcommit: 37bd34053557089c4fbf0e05f78e959609966561
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/24/2020
-ms.locfileid: "92502205"
+ms.lasthandoff: 11/10/2020
+ms.locfileid: "94397245"
 ---
 # <a name="configure-power-bi-premium-dataflow-workloads"></a>配置 Power BI Premium 数据流工作负载
 
@@ -106,7 +106,7 @@ Power BI Premium 工作负载使用前端和后端核心的组合以提供跨各
 
 刷新时间缓慢通常是一个并行问题。 应按顺序查看以下选项：
 
-1. 刷新时间缓慢的关键概念是数据准备的性质。 在本文前面介绍的餐馆类比中，假设已准备好食物，等待使用。 在这种情况下，由于准备时间极短，因此可以更快地烹饪食物。 同样，只要你可以通过利用数据源实际进行准备并执行预先查询逻辑来优化缓慢的刷新时间，你就应该这样做。 具体而言，当使用关系数据库（如 SQL）作为源时，请查看是否可以在源上运行初始查询，并将该源查询用于数据源的初始提取数据流。 如果在源系统中无法使用本机查询，请执行数据流[引擎可折叠到数据源](https://docs.microsoft.com/power-query/power-query-folding)的操作。
+1. 刷新时间缓慢的关键概念是数据准备的性质。 在本文前面介绍的餐馆类比中，假设已准备好食物，等待使用。 在这种情况下，由于准备时间极短，因此可以更快地烹饪食物。 同样，只要你可以通过利用数据源实际进行准备并执行预先查询逻辑来优化缓慢的刷新时间，你就应该这样做。 具体而言，当使用关系数据库（如 SQL）作为源时，请查看是否可以在源上运行初始查询，并将该源查询用于数据源的初始提取数据流。 如果在源系统中无法使用本机查询，请执行数据流[引擎可折叠到数据源](/power-query/power-query-folding)的操作。
 
 2. 评估在相同容量下分散刷新时间。 刷新操作是需要大量计算的过程。 对照我们的餐馆类比，分散刷新时间类似于限制餐馆的客人数量。 正如餐馆会安排客人和规划容量一样，你还需要考虑在使用量未达到顶峰时的刷新操作。 这可能会对缓解容量紧张有很大帮助。
 
@@ -136,7 +136,7 @@ Power BI Premium 工作负载使用前端和后端核心的组合以提供跨各
 
 1. 对于引入，重点是尽可能快地将数据导入存储，仅当筛选器减小了总体数据集大小时才使用筛选器。 最佳做法是将转换逻辑与此步骤分离，并使引擎能够专注于组成部分的初始收集。 接下来，使用链接实体或计算实体将转换和业务逻辑分离到同一工作区中的单独数据流；这样做可以使引擎激活并加快计算速度。 在我们的类比中，这就像是在厨房里准备食物：食物准备通常是一个与收集原料不同的单独步骤，是把食物放入烤箱的先决条件。 同样，逻辑需要单独准备，然后才能利用计算引擎。
 
-2. 确保执行折叠的操作，例如合并、联接、转换及[其他](https://docs.microsoft.com/power-query/power-query-folding#transformations-that-can-achieve-folding)操作。
+2. 确保执行折叠的操作，例如合并、联接、转换及[其他](/power-query/power-query-folding#transformations-that-can-achieve-folding)操作。
 
 3. [在已发布的指导原则和限制内](dataflows-features-limitations.md#dataflows-in-premium)生成数据流。
 

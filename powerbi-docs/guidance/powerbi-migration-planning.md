@@ -8,16 +8,16 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 08/20/2020
 ms.author: v-pemyer
-ms.openlocfilehash: 590e28c727cab88b008d7a05e7df22244e8dabf0
-ms.sourcegitcommit: 84e75a2cd92f4ba4e0c08ba296b981b79d6d0e82
+ms.openlocfilehash: fd57d893a0c381c345364306e04d4897597b36f1
+ms.sourcegitcommit: 37bd34053557089c4fbf0e05f78e959609966561
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/25/2020
-ms.locfileid: "88803117"
+ms.lasthandoff: 11/10/2020
+ms.locfileid: "94396969"
 ---
-# <a name="plandeploymenttomigratetopowerbi"></a>规划与迁移到 Power BI 相关的部署
+# <a name="plan-deployment-to-migrate-to-power-bi"></a>规划与迁移到 Power BI 相关的部署
 
-本文介绍**阶段 2**，其中涉及规划单个 Power BI 解决方案的迁移。
+本文介绍 **阶段 2** ，其中涉及规划单个 Power BI 解决方案的迁移。
 
 :::image type="content" source="media/powerbi-migration-planning/migrate-to-powerbi-stage-2.png" alt-text="显示了 Power BI 迁移各阶段的图像。本文重点介绍阶段 2。":::
 
@@ -31,7 +31,7 @@ ms.locfileid: "88803117"
 此决策制定过程是一个非线性的迭代过程。 [迁移前的步骤](powerbi-migration-pre-migration-steps.md)中已进行了一些规划。 从概念证明中了解信息（在[阶段 3](powerbi-migration-proof-of-concept.md) 中进行了描述）可能会与部署的规划同时进行。 即使在创建解决方案时（在[阶段 4](powerbi-migration-create-validate-content.md) 中进行了描述），也可能出现影响部署决策的其他信息。
 
 > [!IMPORTANT]
-> 阶段 1-5 表示与一个特定解决方案相关的活动。 组织/租户级别有一些决策和活动会影响解决方案级别的进程。 [Power BI 迁移概述](powerbi-migration-overview.md)一文中介绍了其中一些更高级别的计划活动。 适当时，应遵从组织级别的决策以提高效率和一致性。
+> 阶段 1-5 表示与一个特定解决方案相关的活动。 组织/租户级别有一些决策和活动会影响解决方案级别的进程。 [Power BI 迁移概述](powerbi-migration-overview.md)一文中介绍了其中一些较高级别的计划活动。 适当时，应遵从组织级别的决策以提高效率和一致性。
 
 > [!TIP]
 > 本文中讨论的主题也适用于标准 Power BI 实现项目。
@@ -40,7 +40,7 @@ ms.locfileid: "88803117"
 
 首先要做出的决策之一是选择 Power BI 产品。 就是在 [Power BI 服务](../fundamentals/power-bi-service-overview.md)和 [Power BI 报表服务器](../report-server/get-started.md)中做选择。 内容发布后，便可以使用许多其他选项，例如嵌入、移动交付和电子邮件订阅。
 
-有关体系结构注意事项的详细信息，请参阅[规划 Power BI 企业部署白皮书](https://aka.ms/PBIEnterpriseDeploymentWP)的**第 3 部分**。
+有关体系结构注意事项的详细信息，请参阅 [规划 Power BI 企业部署白皮书](https://aka.ms/PBIEnterpriseDeploymentWP)的 **第 3 部分** 。
 
 > [!CAUTION]
 > 如果你想依赖于使用存储在文件系统中的 Power BI Desktop 文件，请注意，这并不是最佳方法。 Power BI 服务（或 Power BI 报表服务器）在安全性、内容分发和协作方面具有明显的优势。 Power BI 服务还提供审核和监视活动的功能。
@@ -75,7 +75,7 @@ ms.locfileid: "88803117"
 - 如果使用者想自定义报表，是否可以[保存副本](../connect-data/service-datasets-copy-reports.md)并对其进行个性化以满足他们的需要？
 
 > [!CAUTION]
-> 尽管_保存副本_功能是一项不错的功能，但当报表包含某些图形或页眉/页脚消息时，应谨慎使用。 由于徽标、图标和文本消息通常与品牌要求或法规遵从性有关，应务必谨慎控制其交付和分发的方式。 如果使用了_保存副本_功能，但新作者未更改原始图形或页眉/页脚消息，则可能导致无法确认实际生成报表的人员。 这还可能降低品牌标识的意义。
+> 尽管 _保存副本_ 功能是一项不错的功能，但当报表包含某些图形或页眉/页脚消息时，应谨慎使用。 由于徽标、图标和文本消息通常与品牌要求或法规遵从性有关，应务必谨慎控制其交付和分发的方式。 如果使用了 _保存副本_ 功能，但新作者未更改原始图形或页眉/页脚消息，则可能导致无法确认实际生成报表的人员。 这还可能降低品牌标识的意义。
 
 ## <a name="evaluate-needs-for-premium-capacity"></a>评估对高级容量的需求
 
@@ -96,7 +96,7 @@ ms.locfileid: "88803117"
 - 是否需要使用新数据或度量值来扩充现有共享数据集来满足更多需求？
 - 哪种[数据存储模式](../transform-model/desktop-storage-mode.md)最合适？ 选项包括导入、DirectQuery、复合或实时连接。
 - 是否应使用[聚合](../transform-model/desktop-aggregations.md)来提高查询性能？
-- 创建[数据流](../transform-model/service-dataflows-overview.md)会有用吗，它可以充当众多数据集的源吗？
+- 创建[数据流](../transform-model/dataflows/dataflows-introduction-self-service.md)会有用吗，它可以充当众多数据集的源吗？
 - 是否需要注册新的[网关数据源](../connect-data/service-gateway-data-sources.md)？
 
 ## <a name="decide-where-original-content-will-be-stored"></a>确定原始内容的存储位置

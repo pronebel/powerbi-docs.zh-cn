@@ -8,12 +8,12 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 06/24/2020
 ms.author: v-pemyer
-ms.openlocfilehash: ad85ad56db907ca19af7dc14681eb34f8c2b9abc
-ms.sourcegitcommit: 46a340937d9f01c6daba86a4ab178743858722ec
+ms.openlocfilehash: 350d4889643556d4e1c6389580415ccba46b55d4
+ms.sourcegitcommit: 37bd34053557089c4fbf0e05f78e959609966561
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/26/2020
-ms.locfileid: "85398068"
+ms.lasthandoff: 11/10/2020
+ms.locfileid: "94396624"
 ---
 # <a name="create-date-tables-in-power-bi-desktop"></a>在 Power BI Desktop 中创建日期表
 
@@ -60,7 +60,7 @@ ms.locfileid: "85398068"
 - [在 Power Query 中生成日期维度表](https://blog.crossjoin.co.uk/2013/11/19/generating-a-date-dimension-table-in-power-query/)，作者：Chris Webb
 
 > [!TIP]
-> 如果组织中没有数据仓库或其他一致的定义，请考虑使用 Power Query 发布[数据流](../transform-model/service-dataflows-overview.md)。 然后，让所有数据建模者连接到数据流，以便将日期表添加到其模型中。 数据流将成为组织中的单一时间事实来源。
+> 如果组织中没有数据仓库或其他一致的定义，请考虑使用 Power Query 发布[数据流](../transform-model/dataflows/dataflows-introduction-self-service.md)。 然后，让所有数据建模者连接到数据流，以便将日期表添加到其模型中。 数据流将成为组织中的单一时间事实来源。
 
 如果需要生成一个日期表，请考虑使用 DAX 来实现。 你可能会发现这样更简便。 另外，这种方法可能更便捷，因为 DAX 包括一些内置智能，可简化创建和管理日期表的操作。
 
@@ -82,7 +82,7 @@ ms.locfileid: "85398068"
 - [Power BI Desktop 中的自动日期/时间](../transform-model/desktop-auto-date-time.md)
 - [Power BI Desktop 中的自动日期/时间指南](auto-date-time.md)
 - [在 Power BI Desktop 中设置和使用日期表](../transform-model/desktop-date-tables.md)
-- [Power BI 中的自助服务数据准备](../transform-model/service-dataflows-overview.md)
+- [Power BI 中的自助服务数据准备](../transform-model/dataflows/dataflows-introduction-self-service.md)
 - [CALENDAR 函数 (DAX)](/dax/calendar-function-dax)
 - [CALENDARAUTO 函数 (DAX)](/dax/calendarauto-function-dax)
 - 是否有任何问题? [尝试咨询 Power BI 社区](https://community.powerbi.com/)

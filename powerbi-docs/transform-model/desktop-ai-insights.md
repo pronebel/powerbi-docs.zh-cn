@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 06/10/2020
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 48e8788ca81365e1f46dbe6d3c4804c10f3f308a
-ms.sourcegitcommit: d153cfc0ce559480c53ec48153a7e131b7a31542
+ms.openlocfilehash: 8de033c673d9d08833fdc5a935b92490db369104
+ms.sourcegitcommit: 37bd34053557089c4fbf0e05f78e959609966561
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/29/2020
-ms.locfileid: "91525492"
+ms.lasthandoff: 11/10/2020
+ms.locfileid: "94396739"
 ---
 # <a name="use-ai-insights-in-power-bi-desktop"></a>在 Power BI Desktop 中使用 AI 见解
 
@@ -158,7 +158,7 @@ Power Query 和 Power Query Online 中使用的文本分析和视觉函数是相
 
 此功能在 Power BI Desktop、Power BI 数据流以及 Power BI 服务中的联机 Power Query 中受支持。
 
-若要了解有关数据流的详细信息，请参阅 [Power BI 中的自助服务数据准备](service-dataflows-overview.md)。
+若要了解有关数据流的详细信息，请参阅 [Power BI 中的自助服务数据准备](./dataflows/dataflows-introduction-self-service.md)。
 
 若要了解有关 Azure 机器学习的详细信息，请参阅以下文章：
 
@@ -225,7 +225,7 @@ Power Query 和 Power Query Online 中使用的文本分析和视觉函数是相
 
 - [教程：在 Power BI 中调用机器学习工作室（经典）模型](../connect-data/service-tutorial-invoke-machine-learning-model.md)
 - [教程：在 Power BI 中使用认知服务](../connect-data/service-tutorial-use-cognitive-services.md)
-- [Power BI 中的认知服务](service-cognitive-services.md)
-- [Power BI 中的 Azure 机器学习集成](service-machine-learning-integration.md)
+- [Power BI 中的认知服务](./dataflows/dataflows-machine-learning-integration.md)
+- [Power BI 中的 Azure 机器学习集成](./dataflows/dataflows-machine-learning-integration.md)
 - [通过应用监视高级容量](../admin/service-admin-premium-monitor-capacity.md)
 - [高级容量指标应用中的 AI 指标](https://powerbi.microsoft.com/blog/ai-metrics-now-available-in-power-bi-premium-capacity-metrics-app/)

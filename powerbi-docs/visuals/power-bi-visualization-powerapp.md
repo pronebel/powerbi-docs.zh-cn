@@ -8,20 +8,20 @@ ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: how-to
 ms.date: 06/01/2020
-ms.author: rien
+ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 78d9d59455a86c5499bc8b01deeacb331bbe7a8b
-ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
+ms.openlocfilehash: c46410caff373eb8474a4b687e834b822f2da8ac
+ms.sourcegitcommit: 37bd34053557089c4fbf0e05f78e959609966561
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90858913"
+ms.lasthandoff: 11/10/2020
+ms.locfileid: "94397521"
 ---
 # <a name="tutorial-embed-a-power-apps-visual-in-a-power-bi-report"></a>教程：在 Power BI 报表中嵌入 Power Apps 视觉对象
 
 本教程使用 Power Apps 视觉对象，创建可嵌入到示例 Power BI 报表中的新应用。 此应用可与报表中的其他视觉对象进行交互。
 
-如果没有 Power Apps 订阅，请在开始之前先[创建一个免费帐户](https://web.powerapps.com/signup?redirect=marketing&email=)。
+如果没有 Power Apps 订阅，请在开始之前先[创建一个免费帐户](https://make.powerapps.com/signup?redirect=marketing&email=)。
 
 在本教程中，了解如何：
 > [!div class="checklist"]

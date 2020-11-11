@@ -8,16 +8,16 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 10/07/2020
 ms.author: davidi
-ms.openlocfilehash: ae6047950256a783172ef871c2bd58dc15ff033a
-ms.sourcegitcommit: ccf53e87ff7cba1fcd9d2cca761a561e62933f90
+ms.openlocfilehash: 3cce51ad577c700a0f9595a2b92694e5e1b61cc5
+ms.sourcegitcommit: 37bd34053557089c4fbf0e05f78e959609966561
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/04/2020
-ms.locfileid: "93297601"
+ms.lasthandoff: 11/10/2020
+ms.locfileid: "94397383"
 ---
 # <a name="power-bi-data-sources"></a>Power BI 数据源
 
-下表展示了 Power BI 支持的数据集的数据源，其中包括有关 DirectQuery 和本地数据网关的信息。 有关数据流的信息，请参阅[连接到 Power BI 数据流的数据源](../transform-model/service-dataflows-data-sources.md)。
+下表展示了 Power BI 支持的数据集的数据源，其中包括有关 DirectQuery 和本地数据网关的信息。 有关数据流的信息，请参阅[连接到 Power BI 数据流的数据源](../transform-model/dataflows/dataflows-configure-consume.md)。
 
 | 数据源 | 从桌面连接 | 从服务连接并刷新 | DirectQuery/实时连接 | 网关（支持） | 网关（必需） | Power BI 数据流 |
 |---|---|---|---|---|---|---|---|
@@ -172,9 +172,6 @@ SSO 选项针对使用此数据源的所有数据集生效。 它不影响用于
 - Spark
 - SQL Server
 - Teradata
-
-> [!Note]
-> 不支持 Azure 多重身份验证 (MFA)。 想要在 DirectQuery 中使用 SSO 的用户必须免除 MFA。
 
 ## <a name="next-steps"></a>后续步骤
 

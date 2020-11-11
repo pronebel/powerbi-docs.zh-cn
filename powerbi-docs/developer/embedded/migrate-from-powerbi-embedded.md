@@ -7,12 +7,12 @@ ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: how-to
 ms.date: 06/30/2018
-ms.openlocfilehash: f3f76bd7c422d07cb2b390c2aebd92a2d7fe4ef3
-ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
+ms.openlocfilehash: 7d4a548ab24e8493cef340026642021a2f923ee1
+ms.sourcegitcommit: 37bd34053557089c4fbf0e05f78e959609966561
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/06/2020
-ms.locfileid: "91749037"
+ms.lasthandoff: 11/10/2020
+ms.locfileid: "94397406"
 ---
 # <a name="how-to-migrate-power-bi-workspace-collection-content-to-power-bi-embedded"></a>如何将 Power BI 工作区集合内容迁移到 Power BI Embedded
 
@@ -32,9 +32,9 @@ Microsoft 最近[发布了 Power BI Embedded](https://powerbi.microsoft.com/blog
 开始迁移到新的 Power BI Embedded 之前，可以快速完成一个演练，它可以帮助你使用[嵌入安装工具](https://aka.ms/embedsetup)来设置新的 Power BI Embedded 环境。
 
 选择最适合你的解决方案：
-* **为客户嵌入** - 适用于对[应用拥有数据](https://aka.ms/embedsetup/AppOwnsData)解决方案感兴趣的用户。 通过[为客户嵌入内容](embedding.md#embedding-for-your-customers)，可为没有 Power BI 帐户的用户嵌入仪表板和报表。 
+* **为客户嵌入** - 适用于对 *应用拥有数据* 解决方案感兴趣的用户。 通过[为客户嵌入内容](embedding.md#embedding-for-your-customers)，可为没有 Power BI 帐户的用户嵌入仪表板和报表。 
 
-* **为组织嵌入** - 适用于对[用户拥有数据](https://aka.ms/embedsetup/UserOwnsData)解决方案感兴趣的用户。 通过[为组织嵌入内容](embedding.md#embedding-for-your-organization)，可以扩展 Power BI 服务。
+* **为组织嵌入** - 适用于对 *用户拥有数据* 解决方案感兴趣的用户。 通过[为组织嵌入内容](embedding.md#embedding-for-your-organization)，可以扩展 Power BI 服务。
 
 ## <a name="prepare-for-the-migration"></a>迁移准备
 
@@ -173,7 +173,7 @@ Microsoft 最近[发布了 Power BI Embedded](https://powerbi.microsoft.com/blog
 
 ## <a name="map-your-users-to-a-power-bi-user"></a>将用户映射到 Power BI 用户
 
-在应用程序中，将在应用程序中管理的用户映射到应用程序的*主* Power BI 凭据。 此 Power BI *主* 帐户的凭据将存储在应用程序中，并且可用于创建嵌入令牌。
+在应用程序中，将在应用程序中管理的用户映射到应用程序的 *主* Power BI 凭据。 此 Power BI *主* 帐户的凭据将存储在应用程序中，并且可用于创建嵌入令牌。
 
 ## <a name="what-to-do-when-you-are-ready-for-production"></a>做好生产准备时应执行的操作
 

@@ -10,12 +10,12 @@ ms.date: 10/22/2020
 ms.author: kfollis
 ms.custom: seodec18
 LocalizationGroup: Administration
-ms.openlocfilehash: 464fdce94b41c3dc413088da6395520fea32c601
-ms.sourcegitcommit: fddba666c6ea90d525a1c3188bbd3c4a03410cdc
+ms.openlocfilehash: eb7a2dfeb78e60c78b1b3f17306aec91a8a55330
+ms.sourcegitcommit: 37bd34053557089c4fbf0e05f78e959609966561
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/23/2020
-ms.locfileid: "92462617"
+ms.lasthandoff: 11/10/2020
+ms.locfileid: "94397015"
 ---
 # <a name="administering-power-bi-in-the-admin-portal"></a>在管理门户中管理 Power BI
 
@@ -222,7 +222,7 @@ ms.locfileid: "92462617"
 
 工作区是用户可在仪表板、报表和其他内容上开展协作的地方。 管理员使用“创建工作区(新工作区体验)”设置，指明组织中的哪些用户可以创建工作区。 管理员可以允许组织中的每个人都可以创建新工作区体验的工作区，也可以不允许任何人进行创建。 管理员还可以限制特定安全组的成员进行创建。 详细了解[工作区](../collaborate-share/service-new-workspaces.md)。
 
-:::image type="content" source="media/service-admin-portal/power-bi-admin-workspace-settings.png" alt-text="管理门户中“禁用新外观”选项的屏幕截图。":::
+:::image type="content" source="media/service-admin-portal/power-bi-admin-workspace-settings.png" alt-text="创建新的工作区体验":::
 
 对于基于 Microsoft 365 组的经典工作区，管理工作继续在管理门户和 Azure Active Directory 中进行。
 
@@ -241,7 +241,7 @@ ms.locfileid: "92462617"
 
 管理员可以控制组织中的哪些用户可以跨工作区使用数据集。 如果启用此设置，则用户仍然需要具有特定数据集的必需生成权限。
 
-:::image type="content" source="media/service-admin-portal/power-bi-admin-datasets-workspaces.png" alt-text="管理门户中“禁用新外观”选项的屏幕截图。":::
+:::image type="content" source="media/service-admin-portal/power-bi-admin-datasets-workspaces.png" alt-text="跨工作区使用数据集":::
 
 有关详细信息，请参阅[跨工作区使用数据集简介](../connect-data/service-datasets-across-workspaces.md)。
 
@@ -407,7 +407,7 @@ Azure AD B2B 来宾用户可以编辑和管理组织中的内容。 [了解详�
 
 在“租户设置”下，“允许连接到精选表”设置允许 Power BI 管理员控制组织中的哪些用户可以使用 Excel 数据类型库中的精选表。 
 
-:::image type="content" source="media/service-admin-portal/admin-allow-connections-featured-tables.png" alt-text="管理门户中“禁用新外观”选项的屏幕截图。":::
+:::image type="content" source="media/service-admin-portal/admin-allow-connections-featured-tables.png" alt-text="与精选表的所有连接":::
 
 如果将“导出数据”设置设为“禁用”，则还会禁用与精选表的连接。
 
@@ -477,7 +477,7 @@ Azure AD B2B 来宾用户可以编辑和管理组织中的内容。 [了解详�
 
 ### <a name="create-and-use-dataflows"></a>创建和使用数据流
 
-组织中的用户可以创建和使用数据流。 若要概览数据流，请参阅 [Power BI 中的自助式数据准备](../transform-model/service-dataflows-overview.md)。 若要启用高级容量中的数据流，请参阅[配置工作负载](service-admin-premium-workloads.md)。
+组织中的用户可以创建和使用数据流。 若要概览数据流，请参阅 [Power BI 中的自助式数据准备](../transform-model/dataflows/dataflows-introduction-self-service.md)。 若要启用高级容量中的数据流，请参阅[配置工作负载](service-admin-premium-workloads.md)。
 
 > [!NOTE]
 > 此设置应用于整个组织，并且不能限制为特定组。
@@ -534,7 +534,7 @@ Azure AD B2B 来宾用户可以编辑和管理组织中的内容。 [了解详�
 
 ### <a name="tenant-level-storage-preview"></a>租户级存储（预览）
 
-默认情况下，Power BI 中使用的数据存储在由 Power BI 提供的内部存储中。 通过数据流与 Azure Data Lake Storage Gen2 (ADLS Gen2) 的集成，可将数据流存储在组织的 Azure Data Lake Storage Gen2 帐户中。 有关详细信息，请参阅[数据流和 Azure Data Lake 集成（预览）](../transform-model/service-dataflows-azure-data-lake-integration.md)。
+默认情况下，Power BI 中使用的数据存储在由 Power BI 提供的内部存储中。 通过数据流与 Azure Data Lake Storage Gen2 (ADLS Gen2) 的集成，可将数据流存储在组织的 Azure Data Lake Storage Gen2 帐户中。 有关详细信息，请参阅[数据流和 Azure Data Lake 集成（预览）](../transform-model/dataflows/dataflows-azure-data-lake-storage-integration.md)。
 
 ### <a name="workspace-level-storage-permissions-preview"></a>工作区级存储权限（预览）
 
