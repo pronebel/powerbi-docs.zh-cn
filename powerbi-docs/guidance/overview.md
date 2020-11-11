@@ -8,12 +8,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 09/27/2019
 ms.author: asaxton
-ms.openlocfilehash: 441400a5d32ea776288f976aa1d2155a971f3c72
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: a501e1b379958836e339628e904b36125c9b9ce3
+ms.sourcegitcommit: 37bd34053557089c4fbf0e05f78e959609966561
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83278988"
+ms.lasthandoff: 11/10/2020
+ms.locfileid: "94395612"
 ---
 # <a name="guidance-for-power-bi"></a>Power BI 指南
 
@@ -36,6 +36,6 @@ ms.locfileid: "83278988"
 
 | 指南 | 说明 |
 | --- | --- |
-| [数据流最佳做法](../transform-model/service-dataflows-best-practices.md) | 介绍了在 Power BI 中设计数据流的最佳做法。 |
+| [数据流最佳做法](../transform-model/dataflows/dataflows-introduction-self-service.md) | 介绍了在 Power BI 中设计数据流的最佳做法。 |
 
 更多问题？ [尝试咨询 Power BI 社区](https://community.powerbi.com/)

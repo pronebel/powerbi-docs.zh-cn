@@ -8,12 +8,12 @@ ms.topic: how-to
 ms.service: powerbi
 ms.custom: ''
 ms.date: 04/16/2019
-ms.openlocfilehash: eb9476b3f21d1149492982a8dcae3d8ce89e9629
-ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
+ms.openlocfilehash: f84527a189be0f78f73470cbc475f45206dd8cf1
+ms.sourcegitcommit: 5ccab484cf3532ae3a16acd5fc954b7947bd543a
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/06/2020
-ms.locfileid: "91748646"
+ms.lasthandoff: 11/06/2020
+ms.locfileid: "93412386"
 ---
 # <a name="auto-install-power-bi-apps-when-embedding-for-your-organization"></a>在为组织嵌入内容时自动安装 Power BI 应用
 
@@ -25,7 +25,7 @@ ms.locfileid: "91748646"
 
 ## <a name="embed-for-power-bi-users-user-owns-data"></a>为 Power BI 用户（用户拥有数据）嵌入内容
 
-要允许自动为用户安装应用，在[注册应用程序](register-app.md#register-with-the-power-bi-application-registration-tool)时需为应用提供“内容创建”权限或如果已注册应用，则为其添加该权限。
+要允许自动为用户安装应用，在[注册应用程序](register-app.md#register-an-azure-ad-app)时需为应用提供“内容创建”权限或如果已注册应用，则为其添加该权限。
 
 ![注册应用创建内容](media/embed-auto-install-app/register-app-create-content.png)
 

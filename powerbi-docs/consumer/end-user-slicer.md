@@ -1,20 +1,20 @@
 ---
 title: 使用 Power BI 服务中的切片器
 description: Power BI 切片器是另一种筛选方法，用于限制在报表的其他可视化效果中显示的部分数据集。
-author: v-thepet
-ms.reviewer: mihart
+author: mihart
+ms.reviewer: v-thepet
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: how-to
 ms.date: 10/06/2020
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: bbcac4eb3adf8fe47ff6576e15d8d1334a8c13f0
-ms.sourcegitcommit: d2f633b4bfa271051ba1d2ef0e6e8da7dcf42818
+ms.openlocfilehash: 291da6ec949dd6cfb83f26be573e592e1141e99a
+ms.sourcegitcommit: 5ccab484cf3532ae3a16acd5fc954b7947bd543a
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/08/2020
-ms.locfileid: "91830413"
+ms.lasthandoff: 11/06/2020
+ms.locfileid: "93412133"
 ---
 # <a name="slicers-in-the-power-bi-service"></a>Power BI 服务中的切片器
 

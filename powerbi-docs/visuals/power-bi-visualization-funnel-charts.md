@@ -1,8 +1,8 @@
 ---
 title: 漏斗图
 description: Power BI 中的漏斗图
-author: mihart
-ms.reviewer: ''
+author: msftrien
+ms.reviewer: mihart
 featuredvideoid: maTzOJSRB3g
 ms.service: powerbi
 ms.subservice: powerbi-desktop
@@ -10,12 +10,12 @@ ms.topic: how-to
 ms.date: 05/05/2020
 ms.author: rien
 LocalizationGroup: Visualizations
-ms.openlocfilehash: b0680df9a75d42f637632916bfd648943ba7517b
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 2719127825dc94f1f1bd83fe4d36dc47dfc355f7
+ms.sourcegitcommit: 5ccab484cf3532ae3a16acd5fc954b7947bd543a
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85235844"
+ms.lasthandoff: 11/06/2020
+ms.locfileid: "93412892"
 ---
 # <a name="create-and-use-funnel-charts"></a>创建和使用漏斗图
 
@@ -61,9 +61,9 @@ ms.locfileid: "85235844"
 
 1. 在菜单栏的左上方，选择“文件” > “打开”  
    
-2. 查找**机会分析示例 PBIX 文件**的副本
+2. 查找 **机会分析示例 PBIX 文件** 的副本
 
-1. 在报表视图中打开**机会分析示例 PBIX 文件**![报表视图屏幕截图图标](media/power-bi-visualization-kpi/power-bi-report-view.png)。
+1. 在报表视图中打开 **机会分析示例 PBIX 文件**![报表视图屏幕截图图标](media/power-bi-visualization-kpi/power-bi-report-view.png)。
 
 1. 选择 ![黄色选项卡的屏幕截图。](media/power-bi-visualization-kpi/power-bi-yellow-tab.png) ，以添加新报表页。
 

@@ -1,20 +1,20 @@
 ---
 title: 显示用于创建 Power BI 可视化效果的数据
 description: 本文介绍了如何显示用于创建 Power BI 视觉对象的数据，以及如何将此类数据导出到 .csv 文件中。
-author: mihart
-ms.reviewer: ''
+author: msftrien
+ms.reviewer: mihart
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: how-to
 ms.date: 12/4/2019
-ms.author: mihart
+ms.author: rien
 LocalizationGroup: Visualizations
-ms.openlocfilehash: b74c0948ba8d22f1917f9750f86e899c8a99a904
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: c3e996da62b71c008f4f7a5929cc8b91d38cc26e
+ms.sourcegitcommit: 5ccab484cf3532ae3a16acd5fc954b7947bd543a
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85239367"
+ms.lasthandoff: 11/06/2020
+ms.locfileid: "93412777"
 ---
 # <a name="display-a-visualizations-underlying-data"></a>显示可视化效果的基础数据
 
@@ -44,7 +44,7 @@ Power BI 可视化效果是使用数据集中的数据创建的。 如果你对�
 4. 若要更改显示方向，可从可视化效果的右上角选择垂直布局 ![用于更改为垂直布局的图标的小屏幕截图](media/service-reports-show-data/power-bi-vertical-icon-new.png) 。
    
    ![水平显示视觉对象和数据](media/service-reports-show-data/power-bi-show-data-side.png)
-5. 若要将数据导出到 .csv 文件中，请依次选择省略号和“**导出数据**”。
+5. 若要将数据导出到 .csv 文件中，请依次选择省略号和“ **导出数据** ”。
    
     ![选择“导出数据”](media/service-reports-show-data/power-bi-export-data-new.png)
    

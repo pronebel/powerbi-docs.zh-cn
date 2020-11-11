@@ -1,20 +1,20 @@
 ---
 title: 基本分区图
 description: 基本分区图。
-author: mihart
-ms.reviewer: ''
+author: msftrien
+ms.reviewer: mihart
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 06/16/2020
 ms.author: rien
 LocalizationGroup: Visualizations
-ms.openlocfilehash: dd0cfbcb2b4e4d18a7aa69fb65063f9d81e0a14a
-ms.sourcegitcommit: caf60154a092f88617eb177bc34fb784f2365962
+ms.openlocfilehash: 4cc08398821d019d55475e0d4ed66a7633c49ca1
+ms.sourcegitcommit: 5ccab484cf3532ae3a16acd5fc954b7947bd543a
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/25/2020
-ms.locfileid: "85354791"
+ms.lasthandoff: 11/06/2020
+ms.locfileid: "93411420"
 ---
 # <a name="create-and-use-basic-area-charts"></a>创建和使用基本面积图
 
@@ -42,9 +42,9 @@ ms.locfileid: "85354791"
 
 1. 在菜单栏的左上方，选择“文件” > “打开” 
    
-2. 查找**零售分析示例 PBIX 文件**的副本
+2. 查找 **零售分析示例 PBIX 文件** 的副本
 
-1. 在报表视图中打开**零售分析示例 PBIX 文件**![报表视图屏幕截图图标](media/power-bi-visualization-kpi/power-bi-report-view.png)。
+1. 在报表视图中打开 **零售分析示例 PBIX 文件**![报表视图屏幕截图图标](media/power-bi-visualization-kpi/power-bi-report-view.png)。
 
 1. 选择 ![黄色选项卡的屏幕截图。](media/power-bi-visualization-kpi/power-bi-yellow-tab.png) ，以添加新报表页。
 

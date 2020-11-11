@@ -1,7 +1,7 @@
 ---
 title: Power BI 报表和仪表板中的表可视化效果
 description: 在 Power BI 报表和仪表板中使用表可视化效果的教程，包括如何调整列宽大小。
-author: mihart
+author: msftrien
 ms.reviewer: willt
 featuredvideoid: ''
 ms.service: powerbi
@@ -10,12 +10,12 @@ ms.topic: how-to
 ms.date: 02/10/2020
 ms.author: rien
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 8730860a63d8d78dad7cfaafa11fb411ec8422fe
-ms.sourcegitcommit: 220427415e2fdc9337244b1ee23e734854179d43
+ms.openlocfilehash: 127e8b7033e60c70a4d541cfc4725e7340a514e6
+ms.sourcegitcommit: 5ccab484cf3532ae3a16acd5fc954b7947bd543a
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/09/2020
-ms.locfileid: "91862974"
+ms.lasthandoff: 11/06/2020
+ms.locfileid: "93412851"
 ---
 # <a name="tables-in-power-bi-reports-and-dashboards"></a>Power BI 报表和仪表板中的表
 

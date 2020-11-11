@@ -1,8 +1,8 @@
 ---
 title: Power BI 中的散点图、气泡图和点图
 description: Power BI 中的散点图、点图和气泡图
-author: mihart
-ms.reviewer: amac
+author: msftrien
+ms.reviewer: mihart
 featuredvideoid: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
@@ -10,12 +10,12 @@ ms.topic: how-to
 ms.date: 11/21/2019
 ms.author: rien
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 963bd77568db4390bca73a4ec4e9ce97ee616a58
-ms.sourcegitcommit: be424c5b9659c96fc40bfbfbf04332b739063f9c
+ms.openlocfilehash: b3b2dc8892b2b9b875621c6925c6f3c652da44c6
+ms.sourcegitcommit: 5ccab484cf3532ae3a16acd5fc954b7947bd543a
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "91632885"
+ms.lasthandoff: 11/06/2020
+ms.locfileid: "93412685"
 ---
 # <a name="scatter-charts-bubble-charts-and-dot-plot-charts-in-power-bi"></a>Power BI 中的散点图、气泡图和点图
 
@@ -76,9 +76,9 @@ ms.locfileid: "91632885"
 
 1. 在菜单栏的左上方，选择“文件” > “打开”  
    
-2. 查找**零售分析示例 PBIX 文件**的副本
+2. 查找 **零售分析示例 PBIX 文件** 的副本
 
-1. 在报表视图中打开**零售分析示例 PBIX 文件**![报表视图屏幕截图图标](media/power-bi-visualization-kpi/power-bi-report-view.png)。
+1. 在报表视图中打开 **零售分析示例 PBIX 文件**![报表视图屏幕截图图标](media/power-bi-visualization-kpi/power-bi-report-view.png)。
 
 1. 选择 ![黄色选项卡的屏幕截图。](media/power-bi-visualization-kpi/power-bi-yellow-tab.png) ，以添加新报表页。
 

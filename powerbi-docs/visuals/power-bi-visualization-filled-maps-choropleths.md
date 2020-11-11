@@ -1,8 +1,8 @@
 ---
 title: Power BI 中的着色地图（等值线图）
 description: 有关在 Power BI 中创建着色地图（等值线图）的文档
-author: mihart
-ms.reviewer: ''
+author: msftrien
+ms.reviewer: mihart
 featuredvideoid: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
@@ -10,12 +10,12 @@ ms.topic: how-to
 ms.date: 12/05/2019
 ms.author: rien
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 45069a4a575659d44e41f1010d9941f21caa1ad1
-ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
+ms.openlocfilehash: ce0adb6d5115ece1b228690c496d022f8dfc9e56
+ms.sourcegitcommit: 5ccab484cf3532ae3a16acd5fc954b7947bd543a
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90861627"
+ms.lasthandoff: 11/06/2020
+ms.locfileid: "93412984"
 ---
 # <a name="create-and-use-filled-maps-choropleth-maps-in-power-bi"></a>创建和使用 Power BI 中的着色地图（等值线图）
 

@@ -2,19 +2,19 @@
 title: 在 Power BI 中使用相对日期切片器或筛选器
 description: 了解如何使用切片器或筛选器在 Power BI 中约束相对日期范围。
 author: maggiesMSFT
-ms.reviewer: ''
+ms.reviewer: rien
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: how-to
 ms.date: 09/09/2020
 ms.author: maggies
 LocalizationGroup: Create reports
-ms.openlocfilehash: 26e638e106f7bd11544d1d80dae543f06783bda7
-ms.sourcegitcommit: 92b033ee7a6e36808371b247b7b41536cee6c2f6
+ms.openlocfilehash: 5599c26524ba296b7cd201467c48f124b9843b4d
+ms.sourcegitcommit: 5ccab484cf3532ae3a16acd5fc954b7947bd543a
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/10/2020
-ms.locfileid: "90008787"
+ms.lasthandoff: 11/06/2020
+ms.locfileid: "93412823"
 ---
 # <a name="creating-a-relative-date-slicer-and-filter-in-power-bi"></a>在 Power BI 中创建相对日期切片器和筛选器
 

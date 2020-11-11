@@ -1,8 +1,8 @@
 ---
 title: 关键绩效指标 (KPI) 视觉对象
 description: 在 Power BI 中创建关键绩效指标 (KPI) 视觉对象
-author: mihart
-ms.reviewer: ''
+author: msftrien
+ms.reviewer: mihart
 featuredvideoid: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
@@ -10,12 +10,12 @@ ms.topic: how-to
 ms.date: 01/30/2020
 ms.author: rien
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 87e63358e2590bff1ebab6ce7816b558e72ac3e0
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: f272a760c016fa0d5fcfc9849eaa2a01fc77b9f9
+ms.sourcegitcommit: 5ccab484cf3532ae3a16acd5fc954b7947bd543a
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85237661"
+ms.lasthandoff: 11/06/2020
+ms.locfileid: "93412846"
 ---
 # <a name="create-key-performance-indicator-kpi-visualizations"></a>创建关键绩效指标 (KPI) 视觉对象
 
@@ -46,7 +46,7 @@ KPI 数据集需要包含 KPI 目标值。 如果数据集不包含目标值，�
 
 1. 在菜单栏的左上方，选择“文件” > “打开”  
 
-1. 查找**零售分析示例 PBIX 文件**的副本
+1. 查找 **零售分析示例 PBIX 文件** 的副本
 
 1. 在报表视图中打开“零售分析示例 PBIX 文件”  。 ![报表视图图标的屏幕截图。](media/power-bi-visualization-kpi/power-bi-report-view.png)
 

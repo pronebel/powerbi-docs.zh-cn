@@ -1,8 +1,8 @@
 ---
 title: Power BI 中的组合图
 description: 组合图教程，介绍了何时使用组合图，以及如何在 Power BI 服务和 Power BI Desktop 中生成组合图。
-author: mihart
-ms.reviewer: ''
+author: msftrien
+ms.reviewer: mihart
 featuredvideoid: lnv66cTZ5ho
 ms.service: powerbi
 ms.subservice: powerbi-desktop
@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 06/18/2020
 ms.author: rien
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 90c721f6c2f555bd632d6c8fff56d05994b1444b
-ms.sourcegitcommit: caf60154a092f88617eb177bc34fb784f2365962
+ms.openlocfilehash: 89fdd0852db9560a6e2b0d43e03b9f89c61dd33e
+ms.sourcegitcommit: 5ccab484cf3532ae3a16acd5fc954b7947bd543a
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/25/2020
-ms.locfileid: "85354768"
+ms.lasthandoff: 11/06/2020
+ms.locfileid: "93411558"
 ---
 # <a name="create-and-use-combo-charts-in-power-bi"></a>创建和使用 Power BI 中的组合图
 
@@ -44,9 +44,9 @@ ms.locfileid: "85354768"
 
 1. 在菜单栏的左上方，选择“文件” > “打开” 
    
-2. 查找**零售分析示例 PBIX 文件**的副本
+2. 查找 **零售分析示例 PBIX 文件** 的副本
 
-1. 在报表视图中打开**零售分析示例 PBIX 文件**![报表视图屏幕截图图标](media/power-bi-visualization-kpi/power-bi-report-view.png)。
+1. 在报表视图中打开 **零售分析示例 PBIX 文件**![报表视图屏幕截图图标](media/power-bi-visualization-kpi/power-bi-report-view.png)。
 
 1. 选择 ![黄色选项卡的屏幕截图。](media/power-bi-visualization-kpi/power-bi-yellow-tab.png) ，以添加新报表页。
 
@@ -91,27 +91,27 @@ ms.locfileid: "85354768"
 一月的 GM% 是 35%，在四月达到峰值 45%，在七月下降，在八月再次达到峰值。 去年和本年度的销售额是否会呈现类似模式？
 
    ![组合图示例销售额](media/power-bi-visualization-combo-chart/combo1-new.png)
-2. 将**本年度销售额 > 值**和**去年销售额**添加到折线图。 “去年毛利率”的比例尺比“销售额”的比例尺小得多，因此比较起来非常困难。      
+2. 将 **本年度销售额 > 值** 和 **去年销售额** 添加到折线图。 “去年毛利率”的比例尺比“销售额”的比例尺小得多，因此比较起来非常困难。      
 
    ![组合图平线示例](media/power-bi-visualization-combo-chart/flatline-new.png)
 3. 若要使视觉对象更易于查看和解释，请将折线图转换为折线和堆积柱形图。
 
    ![转换为组合图示例](media/power-bi-visualization-combo-chart/converttocombo-new.png)
 
-4. 将**去年毛利率**从**列值**拖动到**行值**中。 Power BI 会创建两个坐标轴，这样就可以对数据集使用不同的比例尺；左侧度量值销售额是美元，右侧度量值是百分比。 我们找到了问题的答案；是的，我们确实找到了类似的模式。
+4. 将 **去年毛利率** 从 **列值** 拖动到 **行值** 中。 Power BI 会创建两个坐标轴，这样就可以对数据集使用不同的比例尺；左侧度量值销售额是美元，右侧度量值是百分比。 我们找到了问题的答案；是的，我们确实找到了类似的模式。
 
    ![群集组合图示例](media/power-bi-visualization-combo-chart/power-bi-clustered-combo.png)    
 
 ## <a name="add-titles-to-the-axes"></a>向轴添加标题
 1. 选择滚动油漆刷图标 ![滚动油漆刷图标](media/power-bi-visualization-combo-chart/power-bi-paintroller.png) ，以打开“格式设置”窗格。
-1. 选择向下箭头以展开 **Y 轴**选项。
+1. 选择向下箭头以展开 **Y 轴** 选项。
 1. 对于“Y 轴(列)”，将“位置”设置为“左”，将“标题”设置为“打开”，将“样式”设置为“仅显示标题”，并将“显示单位”设置为“百万”        。
 
    ![组合图打开 y 示例](media/power-bi-visualization-combo-chart/power-bi-open-y.png)
 4. 在“Y 轴(列)”下，向下滚动，直至看到“显示次级内容” 。 由于 Y 轴的选项太多，可能必须同时使用两个滚动条。 “显示次级内容”部分显示用于设置组合图的折线图部分格式的选项。
 
    ![组合图次级内容示例](media/power-bi-visualization-combo-chart/power-bi-secondary.png)
-5. 对于 **Y 轴（行）** ，将“**位置**”保留为“**右**”，将“**标题**”设置为“**打开**”，并将“**样式**”设置为“**仅显示标题**”。
+5. 对于 **Y 轴（行）** ，将“ **位置** ”保留为“ **右** ”，将“ **标题** ”设置为“ **打开** ”，并将“ **样式** ”设置为“ **仅显示标题** ”。
 
    组合图现在显示双轴，它们都具有标题。
 

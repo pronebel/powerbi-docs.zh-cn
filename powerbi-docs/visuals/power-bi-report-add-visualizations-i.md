@@ -1,21 +1,21 @@
 ---
 title: 向 Power BI 报表添加可视化效果 - 第 1 部分
 description: 向 Power BI 报表添加可视化效果 - 第 1 部分
-author: mihart
-ms.reviewer: rien
+author: msftrien
+ms.reviewer: mihart
 featuredvideoid: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: how-to
 ms.date: 05/06/2020
-ms.author: mihart
+ms.author: rien
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 439807717a91a22520969a85a3991b76f8115833
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 3a2002c9f17428c84704d68f621cf18443252557
+ms.sourcegitcommit: 5ccab484cf3532ae3a16acd5fc954b7947bd543a
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85232391"
+ms.lasthandoff: 11/06/2020
+ms.locfileid: "93411880"
 ---
 # <a name="add-visuals-to-a-power-bi-report-part-1"></a>向 Power BI 报表添加视觉对象（第 1 部分）
 

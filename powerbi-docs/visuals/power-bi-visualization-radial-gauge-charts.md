@@ -1,8 +1,8 @@
 ---
 title: Power BI 中的径向仪表图
 description: Power BI 中的径向仪表图
-author: mihart
-ms.reviewer: ''
+author: msftrien
+ms.reviewer: mihart
 featuredvideoid: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 06/17/2020
 ms.author: rien
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 24f69255ae12400c23cd9ca506e5b103e14e7ffb
-ms.sourcegitcommit: caf60154a092f88617eb177bc34fb784f2365962
+ms.openlocfilehash: d7fcef8294d1e4ba4b3336d4a2456e0ccac787fb
+ms.sourcegitcommit: 5ccab484cf3532ae3a16acd5fc954b7947bd543a
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/25/2020
-ms.locfileid: "85354883"
+ms.lasthandoff: 11/06/2020
+ms.locfileid: "93412317"
 ---
 # <a name="radial-gauge-charts-in-power-bi"></a>Power BI 中的径向仪表图
 
@@ -50,9 +50,9 @@ ms.locfileid: "85354883"
 
 1. 在菜单栏的左上方，选择“获取数据” > “Excel” 
    
-2. 查找**财务示例 Excel 文件**的副本
+2. 查找 **财务示例 Excel 文件** 的副本
 
-1. 在报表视图中打开**财务示例 Excel 文件**![报表视图屏幕截图图标](media/power-bi-visualization-kpi/power-bi-report-view.png)。
+1. 在报表视图中打开 **财务示例 Excel 文件**![报表视图屏幕截图图标](media/power-bi-visualization-kpi/power-bi-report-view.png)。
 
 1. 选择“financials”和“Sheet1” 
 
@@ -72,7 +72,7 @@ ms.locfileid: "85354883"
 
    ![财务表已展开并选择了“总销售额”](media/power-bi-visualization-radial-gauge-charts/grosssalesvalue-new.png)
 
-1. 将聚合函数更改为**平均值**。
+1. 将聚合函数更改为 **平均值** 。
 
    ![突出显示“总销售额”和“平均”聚合的“字段”窗格屏幕截图。](media/power-bi-visualization-radial-gauge-charts/changetoaverage-new.png)
 
@@ -89,9 +89,9 @@ ms.locfileid: "85354883"
 
 1. 将“字段”窗格中的“COGS”拖放到“目标值”井。
 
-1. 将聚合函数更改为**平均值**。
+1. 将聚合函数更改为 **平均值** 。
 
-   Power BI 添加了一个针用于表示我们的目标值 **$145.48K**。
+   Power BI 添加了一个针用于表示我们的目标值 **$145.48K** 。
 
    ![添加了“平均 COGS”的仪表图的屏幕截图。](media/power-bi-visualization-radial-gauge-charts/gaugeinprogress-new.png)
 
@@ -106,7 +106,7 @@ ms.locfileid: "85354883"
 
 1. 将“字段”窗格中的“总销售额”拖放到“最大值”井。
 
-1. 将聚合函数更改为**最大值**。
+1. 将聚合函数更改为 **最大值** 。
 
    ![突出显示“总销售额”和“最大值”聚合的“字段”窗格屏幕截图。](media/power-bi-visualization-radial-gauge-charts/setmaximum-new.png)
 
@@ -120,7 +120,7 @@ ms.locfileid: "85354883"
 
 ## <a name="use-manual-format-options-to-set-minimum-maximum-and-target-values"></a>使用手动格式选项设置最小值、最大值和目标值
 
-1. 将**最大总销售额**从**最大值**框中删除。
+1. 将 **最大总销售额** 从 **最大值** 框中删除。
 
 1. 选择“滚动油漆刷”图标，以打开“格式”窗格。
 
@@ -134,7 +134,7 @@ ms.locfileid: "85354883"
 
     ![已取消选中“COGS”选项的屏幕截图。](media/power-bi-visualization-radial-gauge-charts/pbi-remove-target.png)
 
-1. 当**仪表盘轴**下方显示**目标值**字段时，请输入一个值。
+1. 当 **仪表盘轴** 下方显示 **目标值** 字段时，请输入一个值。
 
      ![突出显示“目标值”的“仪表轴”选项屏幕截图。](media/power-bi-visualization-radial-gauge-charts/power-bi-gauge-target.png)
 

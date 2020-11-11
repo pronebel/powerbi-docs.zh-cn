@@ -1,20 +1,20 @@
 ---
 title: 第 2 部分，向 Power BI 报表添加可视化效果
 description: 第 2 部分，向 Power BI 报表添加可视化效果
-author: mihart
-ms.reviewer: ''
+author: msftrien
+ms.reviewer: mihart
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: how-to
 ms.date: 05/06/2020
-ms.author: mihart
+ms.author: rien
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 0bcfcf9ef84ae8b2d59d1c004e2e00c6cf6b3eef
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 79c613b33ccadacc7ce24d9eb744e66014218b52
+ms.sourcegitcommit: 5ccab484cf3532ae3a16acd5fc954b7947bd543a
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85232191"
+ms.lasthandoff: 11/06/2020
+ms.locfileid: "93411696"
 ---
 # <a name="add-visuals-to-a-power-bi-report-part-2"></a>向 Power BI 报表添加视觉对象（第 2 部分）
 
@@ -34,9 +34,9 @@ ms.locfileid: "85232191"
 
 1. 在 Power BI Desktop 菜单栏的左上部分，选择“文件” > “打开” 
    
-2. 查找**零售分析示例 PBIX 文件**的副本
+2. 查找 **零售分析示例 PBIX 文件** 的副本
 
-1. 在报表视图中打开**零售分析示例 PBIX 文件**![报表视图屏幕截图图标](media/power-bi-visualization-kpi/power-bi-report-view.png)。
+1. 在报表视图中打开 **零售分析示例 PBIX 文件**![报表视图屏幕截图图标](media/power-bi-visualization-kpi/power-bi-report-view.png)。
 
 1. 选择 ![黄色选项卡的屏幕截图。](media/power-bi-visualization-kpi/power-bi-yellow-tab.png) ，以添加新报表页。
 
@@ -47,7 +47,7 @@ ms.locfileid: "85232191"
 
 ### <a name="add-an-area-chart-that-looks-at-this-years-sales-compared-to-last-year"></a>添加显示今年与去年相比的销售额的分区图
 
-1. 从“销售额”表中，选择“本年度销售额” > **值**和“去年销售额”。 Power BI 将创建柱形图。  此图表十分有趣，你可能想要深入了解。 每月销售额看上去如何？  
+1. 从“销售额”表中，选择“本年度销售额” > **值** 和“去年销售额”。 Power BI 将创建柱形图。  此图表十分有趣，你可能想要深入了解。 每月销售额看上去如何？  
    
    ![显示柱形图的屏幕截图](media/power-bi-report-add-visualizations-ii/power-bi-start.png)
 

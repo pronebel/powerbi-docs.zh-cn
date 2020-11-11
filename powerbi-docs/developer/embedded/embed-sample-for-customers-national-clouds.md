@@ -9,12 +9,12 @@ ms.subservice: powerbi-service
 ms.topic: tutorial
 ms.custom: seodec18, devx-track-js
 ms.date: 02/05/2019
-ms.openlocfilehash: faacbe602a8c80dc036583cca599b24b072df315
-ms.sourcegitcommit: 702ababd71c38846303bf49990b51afc73f9ebb8
+ms.openlocfilehash: c831118a14c1dc453acb81b866013dcb085d9f6d
+ms.sourcegitcommit: 1b3a626c5ca612a7f23058f8e5cc0147a94db51c
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "92795649"
+ms.lasthandoff: 11/07/2020
+ms.locfileid: "94348188"
 ---
 # <a name="tutorial-embed-a-power-bi-content-into-your-application-for-national-clouds"></a>教程：将 Power BI 内容嵌入国家云的应用程序
 
@@ -143,7 +143,7 @@ Power BI 还支持[国家云](/azure/active-directory/develop/authentication-nat
 
 * Power BI for China 云 - ```https://app.powerbi.cn/apps```
 
-如果已下载[“为客户嵌入内容”示例](https://github.com/microsoft/PowerBI-Developer-Samples/tree/master/.NET%20Framework/Embed%20for%20your%20customers/PowerBIEmbedded_AppOwnsData)，请使用获取的 applicationId，以便此示例能够进行 Azure AD 身份验证。 若要配置此示例，请在 web.config 文件中更改 applicationId。
+如果已下载[“为客户嵌入内容”示例](https://github.com/microsoft/PowerBI-Developer-Samples/tree/master/.NET%20Core/Embed%20for%20your%20customers/AppOwnsData)，请使用获取的 applicationId，以便此示例能够进行 Azure AD 身份验证。 若要配置此示例，请在 web.config 文件中更改 applicationId。
 
 ## <a name="step-2---get-an-access-token-from-azure-ad"></a>第 2 步 - 从 Azure AD 获取访问令牌
 
@@ -187,7 +187,7 @@ using (var client = new PowerBIClient(new Uri(ApiUrl), tokenCredentials))
 
 使用 Power BI 客户端对象检索对要嵌入的项的引用。 可以嵌入仪表板、磁贴或报表。 下面的示例展示了如何从给定工作区检索首个仪表板、磁贴或报表。
 
-有关示例，请参阅[“应用拥有数据”示例](https://github.com/microsoft/PowerBI-Developer-Samples/tree/master/.NET%20Framework/Embed%20for%20your%20customers/PowerBIEmbedded_AppOwnsData)的 Controllers\HomeController.cs。
+有关示例，请参阅[“应用拥有数据”示例](https://github.com/microsoft/PowerBI-Developer-Samples/tree/master/.NET%20Core/Embed%20for%20your%20customers/AppOwnsData)的 Controllers\HomeController.cs。
 
 #### <a name="reports"></a>报表
 
@@ -243,7 +243,7 @@ Tile tile = tiles.Value.FirstOrDefault();
 > [!IMPORTANT]
 > 由于嵌入令牌仅用于开发测试，因此 Power BI 主帐户生成的嵌入令牌数量有限。 对于嵌入生产方案，[必须购买容量](./embedded-faq.md#technical)。 购买容量后便不会限制嵌入令牌生成。
 
-有关示例，请参阅[“为组织嵌入内容”示例](https://github.com/microsoft/PowerBI-Developer-Samples/tree/master/.NET%20Framework/Embed%20for%20your%20customers/PowerBIEmbedded_AppOwnsData)的 Controllers\HomeController.cs。
+有关示例，请参阅[“为组织嵌入内容”示例](https://github.com/microsoft/PowerBI-Developer-Samples/tree/master/.NET%20Core/Embed%20for%20your%20customers/AppOwnsData)的 Controllers\HomeController.cs。
 
 为 EmbedConfig 和 TileEmbedConfig 创建了类。 Models\EmbedConfig.cs 和 Models\TileEmbedConfig.cs 中提供了相关示例。
 
@@ -309,7 +309,7 @@ var embedConfig = new TileEmbedConfig()
 
 可以使用 JavaScript 将仪表板载入网页上的 div 元素。 此示例对仪表板、磁贴或报表使用 EmbedConfig/TileEmbedConfig 模型和视图。 有关使用 JavaScript API 的完整示例，可以参阅 [Microsoft Power BI 嵌入示例](https://microsoft.github.io/PowerBI-JavaScript/demo)。
 
-[“为组织嵌入内容”示例](https://github.com/microsoft/PowerBI-Developer-Samples/tree/master/.NET%20Framework/Embed%20for%20your%20customers/PowerBIEmbedded_AppOwnsData)中提供了应用程序示例。
+[“为组织嵌入内容”示例](https://github.com/microsoft/PowerBI-Developer-Samples/tree/master/.NET%20Core/Embed%20for%20your%20customers/AppOwnsData)中提供了应用程序示例。
 
 ### <a name="viewshomeembeddashboardcshtml"></a>Views\Home\EmbedDashboard.cshtml
 
@@ -436,7 +436,7 @@ var embedConfig = new TileEmbedConfig()
 
 ## <a name="next-steps"></a>后续步骤
 
-* 可以参考 GitHub 上的示例应用。 上面的示例均以此示例为依据。 有关详细信息，请参阅[“为组织嵌入内容”示例](https://github.com/microsoft/PowerBI-Developer-Samples/tree/master/.NET%20Framework/Embed%20for%20your%20customers/PowerBIEmbedded_AppOwnsData)。
+* 可以参考 GitHub 上的示例应用。 上面的示例均以此示例为依据。 有关详细信息，请参阅[“为组织嵌入内容”示例](https://github.com/microsoft/PowerBI-Developer-Samples/tree/master/.NET%20Core/Embed%20for%20your%20customers/AppOwnsData)。
 
 * 有关 JavaScript API 的详细信息，请参阅 [Power BI JavaScript API](https://github.com/Microsoft/PowerBI-JavaScript)。
 
