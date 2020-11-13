@@ -277,6 +277,8 @@
               href: ../visuals/power-bi-visualization-decomposition-tree.md
             - name: 智能叙述
               href: ../visuals/power-bi-visualization-smart-narrative.md
+            - name: 异常检测
+              href: ../visuals/power-bi-visualization-anomaly-detection.md
             - name: 圆环图
               href: ../visuals/power-bi-visualization-doughnut-charts.md
             - name: 着色地图（等值线图）
