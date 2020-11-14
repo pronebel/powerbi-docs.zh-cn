@@ -44,6 +44,8 @@
               href: service-premium-capacity-scenarios.md
             - name: Power BI Premium 常见问题解答
               href: service-premium-faq.md
+            - name: Power BI Premium Per User 常见问题解答
+              href: service-premium-per-user-faq.md
     - name: 操作方法
       items:
         - name: 授权和注册
@@ -106,6 +108,8 @@
               href: service-admin-premium-manage.md
             - name: 配置工作负载
               href: service-admin-premium-workloads.md
+            - name: 购买 Power BI Premium 用于测试
+              href: service-admin-premium-testing.md
             - name: 使用应用监视容量
               href: service-admin-premium-monitor-capacity.md
             - name: 监视 Premium 工作负载指标
