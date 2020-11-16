@@ -133,5 +133,7 @@
               href: ./dataflows/dataflows-machine-learning-integration.md
     - name: 参考
       items:
+        - name: 使用 Power BI Desktop 中的“字段”列表（预览）
+          href: desktop-field-list.md
         - name: 公式编辑器快捷方式
           href: desktop-formula-editor.md
