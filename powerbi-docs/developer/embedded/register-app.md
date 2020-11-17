@@ -8,128 +8,179 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: how-to
 ms.date: 04/02/2019
-ms.openlocfilehash: eac2f6d1bcb79ccf25f69eb79b73ae884898ec58
-ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
+ms.openlocfilehash: 52e835f4ff0d3dc4cad13c2e3ecc77d254f3be9d
+ms.sourcegitcommit: 5ccab484cf3532ae3a16acd5fc954b7947bd543a
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/06/2020
-ms.locfileid: "91748669"
+ms.lasthandoff: 11/06/2020
+ms.locfileid: "93412164"
 ---
 # <a name="register-an-azure-ad-application-to-use-with-power-bi"></a>注册 Azure AD 应用程序以使用 Power BI
 
-了解如何在 Azure Active Directory (Azure AD) 中注册应用程序，用于嵌入 Power BI 内容。
+若要使用 Power BI 嵌入式分析，需要在 Azure 中注册 Azure Active Directory (Azure AD) 应用程序。 Azure AD 应用程序为 Power BI REST 资源建立权限，并允许访问 [Power BI REST API](/rest/api/power-bi/)。
 
-在 Azure AD 中注册应用程序后，该应用程序将能够访问 [Power BI REST API](/rest/api/power-bi/)。 注册应用后，可以建立应用标识，并指定对 Power BI REST 资源的权限。
+## <a name="determine-your-embedding-solution"></a>确定嵌入解决方案
+
+注册应用之前，请确定以下哪种解决方案最适合你：
+
+* 为客户嵌入内容
+* 为组织嵌入内容
+
+### <a name="embed-for-your-customers"></a>为客户嵌入内容
+
+如果计划创建专为客户设计的应用程序，请使用[为客户嵌入内容](embed-sample-for-customers.md)解决方案（也称为“应用拥有数据”）。 用户无需登录到 Power BI 或拥有 Power BI 许可证即可使用该应用程序。 该应用程序将使用以下方法之一对 Power BI 进行身份验证：
+
+* “主用户”帐户（用于登录 Power BI 的 Power BI Pro 许可证）
+
+*  [服务主体](embed-service-principal.md)
+
+“为客户嵌入内容”解决方案通常由独立软件供应商 (ISVs) 和为第三方创建应用程序的开发人员使用。
+
+### <a name="embed-for-your-organization"></a>为组织嵌入内容
+
+如果计划创建要求用户使用其凭据对 Power BI 进行身份验证的应用程序，请使用[为组织嵌入内容](embed-sample-for-your-organization.md)解决方案（也称为“用户拥有数据”）。
+
+“为组织嵌入内容”解决方案通常由企业和大型组织使用，适用于内部用户。
+
+## <a name="register-an-azure-ad-app"></a>注册 Azure AD 应用
+
+注册 Azure AD 应用的最简单方法是使用 [Power BI 嵌入安装工具](https://app.powerbi.com/embedsetup)。 该工具使用简单的图形界面为两种嵌入解决方案提供了快速注册过程。
+
+如果要创建“为组织嵌入内容”应用程序，并希望对 Azure AD 应用进行更多的控制，可以在 Azure 门户中手动注册它。
 
 > [!IMPORTANT]
-> 注册 Power BI 应用之前，需要一个 [Azure Active Directory 租户和一个组织用户](create-an-azure-active-directory-tenant.md)。 如果尚未以租户中的用户身份注册 Power BI，则无法成功完成应用注册。
+> 注册 Power BI 应用之前，需要一个 [Azure Active Directory 租户和一个组织用户](create-an-azure-active-directory-tenant.md)。
 
-注册应用程序有两种方法。 第一种方法是使用 [Power BI 应用注册工具](https://dev.powerbi.com/apps/)，第二种方法是直接在 Azure 门户中注册。 使用 Power BI 应用注册工具时，只需填充几个字段即可，因此使用起来较为方便。 若要更改应用，请使用 Azure 门户。
+# <a name="embed-for-your-customers"></a>[为客户嵌入内容](#tab/customers)
 
-## <a name="register-with-the-power-bi-application-registration-tool"></a>使用 Power BI 应用程序注册工具注册
+以下步骤介绍如何针对 Power BI [为客户嵌入内容](embed-sample-for-customers.md)解决方案注册 Azure AD 应用程序。
 
-在 Azure Active Directory 中注册你的应用程序，以便为应用程序建立标识，并指定对 Power BI REST 资源的权限。 注册控制台应用或网站等应用程序时，用户会收到一个标识符，应用程序使用该标识符向被请求权限的用户标识自己的身份。
+[!INCLUDE[registration tool step 1](../../includes/register-tool-step-1.md)]
 
-下面介绍如何使用 Power BI 应用注册工具注册应用程序：
+2. 在“选择嵌入解决方案”部分中，选择“为客户嵌入内容”。
 
-1. 转到 [dev.powerbi.com/apps](https://dev.powerbi.com/apps)。
+[!INCLUDE[registration tool step 3](../../includes/register-tool-step-3.md)]
 
-2. 选择“使用现有帐户登录”，然后选择“下一步” 。
+4. 在“步骤 2 - 注册应用程序”中，填写以下字段：
 
-3. 提供“应用程序名称”。
+    * **应用程序名称** - 为应用程序指定名称。
 
-4. 提供“应用程序类型”。
+    * **API 访问** - 选择应用程序所需的 Power BI API（也称为作用域）。 可以使用“全选”来选择所有 API。 有关 Power BI 访问权限的详细信息，请参阅 [Microsoft 标识平台终结点中的权限和许可](/azure/active-directory/develop/v2-permissions-and-consent)。
 
-    以下说明了对于应用程序类型选择“本机”而不是“服务器端 Web 应用程序”的原因差别 。
+5. 选择“注册”。
 
-    本机：
-    * 计划创建的应用程序[设计用于客户](embed-sample-for-customers.md)，这些客户使用主用户帐户（用于登录 Power BI 的 Power BI Pro 许可证）进行身份验证。
+    Azure AD 应用“应用程序 ID”显示在“摘要”框中。 复制该值以供将来使用。
 
-    服务器端 Web 应用程序：
-    * 计划创建的应用程序[设计用于组织](embed-sample-for-your-organization.md)。
-    * 计划创建的应用程序[设计用于客户](embed-sample-for-customers.md)，这些客户使用服务主体进行身份验证。
-    * 计划创建 Web 应用或 Web API。
+[!INCLUDE[registration tool steps 6-7](../../includes/register-tool-steps-6-7.md)]
 
-    ![应用类型](media/register-app/register-app-new-design-app-type.png)
+8. 在“步骤 5 - 授予权限”中，选择“授予权限”，并在弹出窗口中选择“接受” 。 这使你的 Azure AD 应用可以通过已登录的用户访问你选择的 API （也称为作用域）。 此用户也称为“主用户”。
 
-5. 如果对应用程序类型选择“服务器端 Web 应用程序”，然后继续输入“主页 URL”和“重定向 URL”的值  。 “重定向 URL”适用于任何有效 URL，并且应适合创建的应用程序。 如果已选择“本机”，则转至步骤 6。
+9. （可选）如果使用该工具创建了 Power BI 工作区并将内容上传到了该工作区，则可以选择“下载示例应用程序”。 请确保复制了“摘要”框中的所有信息。
 
-6. 选择应用程序需要的 Power BI API。 有关 Power BI 访问权限的详细信息，请参阅 [Microsoft 标识平台终结点中的权限和许可](/azure/active-directory/develop/v2-permissions-and-consent)。 然后选择“注册”。
+[!INCLUDE[registration tool note](../../includes/register-tool-note.md)]
 
-    ![选择要注册的 API](media/register-app/register-app-new-app-registration-apis-register.png)
+# <a name="embed-for-your-organization"></a>[为组织嵌入内容](#tab/organization)
 
-    > [!Important]
-    > 如果使服务主体可用于 Power BI，则 Azure Active Directory 权限将不再有效。 通过 Power BI 管理门户管理权限。
+以下步骤介绍如何针对 Power BI [为组织嵌入内容](embed-sample-for-your-organization.md)解决方案注册 Azure AD 应用程序。
 
-7. 如果对应用程序类型选择“本机”，则系统会提供“应用程序 ID” 。 如果对应用程序类型选择“服务器端 Web 应用”，则系统会提供“应用程序 ID”和“应用程序密码”  。
+[!INCLUDE[registration tool step 1](../../includes/register-tool-step-1.md)]
 
-    > [!Note]
-    > 如有需要，稍后可以从 Azure 门户中检索应用程序 ID。 如果忘记了应用程序密码，则需要在 Azure 门户中新建一个密码。
+2. 在“选择嵌入解决方案”部分中，选择“为组织嵌入内容”。
 
-| 本地 | 服务器端 Web 应用程序 |
-|--------|-----------------------------|
-| ![本机成功](media/register-app/register-app-new-design-success-native.png) | ![服务器端 Web 应用成功](media/register-app/register-app-new-design-success-server-side-web-app.png) |
+[!INCLUDE[registration tool step 3](../../includes/register-tool-step-3.md)]
 
-现在，可以将注册的应用程序作为自定义应用程序使用，以与 Power BI 服务和 Power BI Embedded 应用程序交互。
+4. 在“步骤 2 - 注册应用程序”中，填写以下字段：
 
-## <a name="register-with-the-azure-portal"></a>使用 Azure 门户注册
+    * **应用程序名称** - 为应用程序指定名称。
 
-注册应用程序还有另一种选择，即直接在 Azure 门户中注册。 请按照下列步骤注册你的应用程序。
+    * **主页 URL** - 输入主页的 URL。
 
-1. 接受 [Microsoft Power BI API 条款](https://powerbi.microsoft.com/api-terms)。
+    * **重定向 URL** - 登录后，应用程序用户将被重定向到该地址，同时应用程序将从 Azure 接收身份验证代码。 选择以下选项之一：
 
-2. 登录到 [Azure 门户](https://portal.azure.com)。
+        * **使用默认 URL** - 此选项会自动创建和下载嵌入式分析应用程序示例。 默认 URL 为 http://localhost:13526/ 。
 
-3. 在页面右上角选择你的帐户，从而选择你的 Azure AD 租户。
+        * **使用自定义 URL** - 如果已有嵌入式分析应用程序，并知道要用作重定向 URL 的内容，请选择此选项。
 
-4. 在左侧导航窗格中，转到“所有服务”，选择“应用注册”，然后选择“新注册”  。
+    * **API 访问** - 选择应用程序所需的 Power BI API（也称为作用域）。 可以使用“全选”来选择所有 API。 有关 Power BI 访问权限的详细信息，请参阅 [Microsoft 标识平台终结点中的权限和许可](/azure/active-directory/develop/v2-permissions-and-consent)。
 
-5. 按照提示进行操作，并创建新的应用程序。
+5. 选择“注册”。
 
-   有关如何在 Azure Active Directory 中注册应用程序的详细信息，请参阅[向 Azure Active Directory 注册应用](/azure/active-directory/develop/quickstart-v2-register-an-app)
+    Azure AD 应用“应用程序 ID”和“应用程序机密”值显示在“摘要”框中 。 复制这些值以供将来使用。
 
-## <a name="how-to-get-the-application-id"></a>如何获取应用程序 ID
+[!INCLUDE[registration tool steps 6-7](../../includes/register-tool-steps-6-7.md)]
 
-注册应用程序时，你将收到一个[应用程序 ID](embed-sample-for-customers.md#application-id)。  应用程序 ID 请求应用程序用户的权限以标识其自身。
+8. （可选）如果使用该工具创建了 Power BI 工作区并将内容上传到了该工作区，则可以选择“下载示例应用程序”。 请确保复制了“摘要”框中的所有信息。
 
-## <a name="how-to-get-the-service-principal-object-id"></a>如何获取服务主体对象 ID
+[!INCLUDE[registration tool note](../../includes/register-tool-note.md)]
 
-使用 [Power BI API](/rest/api/power-bi/) 时，请务必使用[服务主体对象 ID](embed-service-principal.md) 定义操作以引用服务主体 - 例如，以管理员身份将服务主体应用于工作区。
+# <a name="manual-registration"></a>[手动注册](#tab/manual)
 
-## <a name="apply-permissions-to-your-application-within-azure-ad"></a>在 Azure AD 中向应用授予权限
+仅在创建“为组织嵌入内容”解决方案时才使用 Azure AD 手动应用注册。 有关如何在 Azure Active Directory 中注册应用程序的详细信息，请参阅[向 Azure Active Directory 注册应用](/azure/active-directory/develop/quickstart-v2-register-an-app)。
 
-除了应用注册页中提供的权限之外，还需要对应用程序启用其他权限。 可以通过 Azure AD 门户或以编程方式完成此任务。
+1. 登录到 [Azure 门户](https://portal.azure.com)。
 
-需要使用用于嵌入内容的主帐户登录，或使用全局管理员帐户登录。
+2. 在页面右上角选择你的帐户，从而选择你的 Azure AD 租户。
 
-### <a name="using-the-azure-ad-portal"></a>使用 Azure AD 门户
+3. 选择“应用注册” 。 如果无法看到此选项，请进行搜索。
+ 
+4. 在“应用注册”中，选择“新注册”。
 
-1. 在 Azure 门户中，转到[应用注册](https://portal.azure.com/#blade/Microsoft_AAD_RegisteredApps/ApplicationsListBlade/quickStartType//sourceType/)，然后选择要用于嵌入内容的应用。
+5. 填写以下字段：
 
-2. 选择“管理” 下的“API 权限”。
+    * **名称** - 为应用程序指定名称。
 
-3. 在“API 权限” 中，选择“添加权限”，然后选择“Power BI 服务”。
+    * **支持的帐户类型** - 选择可使用该应用程序的用户。
 
-    ![应用权限 03](media/register-app/powerbi-embedded-azuread-app-permissions03.png)
+6. （可选）在“重定向 URI”中，添加一个重定向 URL。
 
-4. 在“委派权限”下选择所需的特定权限。 逐一选中这些选项以保存所做的选择。 完成时选择“保存”。
+7. 选择“注册”。 注册应用后，你将转到应用的“概述”页，可以在其中获取应用程序 ID。
 
-5. 选择“授予同意”。
+---
 
-    需要为“主帐户”调用“授予同意”操作，以免 Azure AD 提示提供内容。 如果执行此操作的帐户是全局管理员，会向组织内此应用的所有用户授予权限。 如果执行此操作的帐户是主帐户，而不是全局管理员，将仅向此应用程序的主帐户授予权限 。
+## <a name="change-your-azure-ad-apps-permissions"></a>更改 Azure AD 应用的权限
 
-### <a name="applying-permissions-programmatically"></a>以编程方式应用权限
+注册应用程序后，可以更改其权限。 权限更改可以通过编程方式或在 Azure 门户中进行。
 
-1. 需要获取租户中的现有服务主体（用户）。 有关如何执行该操作的信息，请参阅 [servicePrincipal](/graph/api/resources/serviceprincipal?view=graph-rest-beta)。
+# <a name="azure"></a>[Azure](#tab/Azure)
 
-    可以调用 Get servicePrincipal API 而无需使用 {ID}，这将使你获取租户中的所有服务主体。
+在 Azure 门户中，可以查看应用并对其权限进行更改。
 
-2. 使用作为“appId”属性的应用的应用程序 ID 检查服务主体。
+1. 登录到 [Azure 门户](https://portal.azure.com)。
 
-3. 如果应用缺少服务计划，请新建一个。
+2. 在页面右上角选择你的帐户，从而选择你的 Azure AD 租户。
+
+3. 选择“应用注册” 。 如果无法看到此选项，请进行搜索。
+
+4. 从“拥有的应用程序”选项卡中，选择你的应用。 该应用程序将在“概述”选项卡中打开，你可以在其中查看应用程序ID 。
+
+5. 选择“API 权限”选项卡。
+
+6. 若要添加权限，请执行以下步骤：
+
+    1. 选择“添加权限”，然后选择“Power BI 服务” 。
+
+    2. 选择“委派权限”，然后添加或删除所需的特定权限。
+
+    3. 完成后，选择“添加权限”以保存更改。
+
+7. 若要删除权限，请执行以下步骤：
+
+    1. 选择权限右侧的省略号 (...)。
+    
+    2. 选择“删除权限”。
+    
+    3. 在“删除权限”弹出窗口中，选择“是的，删除“。
+
+# <a name="http"></a>[HTTP](#tab/HTTP)
+
+若要以编程方式更改 Azure AD 应用权限，你需要获取租户中的现有服务主体（用户）。 有关如何执行该操作的信息，请参阅 [servicePrincipal](/graph/api/resources/serviceprincipal)。
+
+1. 要在获取租户中的所有服务主体，请调用不带 `{ID}` 的 `Get servicePrincipal` API。
+
+2. 使用作为 `appId` 属性的应用的应用程序 ID 检查服务主体。
 
     ```json
-    Post https://graph.microsoft.com/beta/servicePrincipals
+    Post https://graph.microsoft.com/v1.0/servicePrincipals HTTP/1.1
     Authorization: Bearer ey..qw
     Content-Type: application/json
     {
@@ -139,19 +190,17 @@ ms.locfileid: "91748669"
     }
     ```
 
-4. 向 Power BI API 授予应用权限
+    >[!NOTE]
+    >`displayName` 是可选项。
 
-   如果你使用的是现有租户，并且对代表所有租户用户授予权限不感兴趣，可以将 consentType 的值替换为 Principal，从而向特定用户授予权限。
+3. 通过将以下值之一分配给 `consentType`，为应用授予 Power BI 权限：
 
-   consentType 值可提供 AllPrincipals 或 Principal  。
+    * `AllPrincipals` - 只能被 Power BI 管理员用来代表租户中的所有用户授予权限。
 
-   * AllPrincipals 只能被 Power BI 管理员用来代表租户中的所有用户授予权限。
-   * Principal 用于代表特定用户授予权限。 在此情况下，应将附加属性添加到请求正文 - principalId={User_ObjectId}。
-
-     主帐户若要避免收到获取 Azure AD 同意的提示，需要“获取权限”，而这在进行非交互式登录情况下是不可能的。
+    * `Principal` - 用于代表特定用户授予权限。 如果使用的是此选项，请将 `principalId={User_ObjectId}` 属性添加到请求正文。
 
      ```json
-     Post https://graph.microsoft.com/beta/OAuth2PermissionGrants
+     Post https://graph.microsoft.com/v1.0/OAuth2PermissionGrants HTTP/1.1
      Authorization: Bearer ey..qw
      Content-Type: application/json
      {
@@ -164,38 +213,67 @@ ms.locfileid: "91748669"
      }
      ```
 
-    resourceId c78a3685-1ce7-52cd-95f7-dc5aea8ec98e 不是通用的，而是依赖租户的。 此值是 Azure Active Directory 中“Power BI 服务”应用程序的 objectId。
+    >[!NOTE]
+    >* 如果使用的是“主用户”，则为了避免 Azure AD 提示同意，你需要向主帐户授予权限。
+    >* `resourceId` c78a3685-1ce7-52cd-95f7-dc5aea8ec98e 依赖于租户，但不是通用的。 此值是 Azure AD 中 Power BI 服务应用程序的 objectId 。 若要从 Azure 门户获取此值，请导航到[企业应用程序 > 所有应用程序](https://portal.azure.com/#blade/Microsoft_AAD_IAM/StartboardApplicationsMenuBlade/AllApps)，并搜索“Power BI 服务”。
 
-    用户可在 Azure 门户中快速获取此值：
-    1. https://portal.azure.com/#blade/Microsoft_AAD_IAM/StartboardApplicationsMenuBlade/AllApps
+4. 通过将值分配给 `consentType`，向 Azure AD 授予应用权限。
 
-    2. 在搜索框中搜索“Power BI 服务”
+    ```json
+    Post https://graph.microsoft.com/v1.0/OAuth2PermissionGrants HTTP/1.1
+    Authorization: Bearer ey..qw
+    Content-Type: application/json
+    {
+    "clientId":"{Service_Plan_ID}",
+    "consentType":"AllPrincipals",
+    "resourceId":"61e57743-d5cf-41ba-bd1a-2b381390a3f1",
+    "scope":"User.Read Directory.AccessAsUser.All",
+    "expiryTime":"2018-03-29T14:35:32.4943409+03:00",
+    "startTime":"2017-03-29T14:35:32.4933413+03:00"
+    }
+    ```
 
-5. 向 Azure Active Directory 授予应用权限
+# <a name="c"></a>[C#](#tab/CSharp)
 
-   consentType 值可提供 AllPrincipals 或 Principal  。
+还可以使用 C# 更改 Azure AD 应用权限。 如果你正在考虑使某些流程自动化，则此方法很有用。
 
-   * AllPrincipals 只能被 Power BI 管理员用来为租户中的所有用户授予权限。
-   * Principal 用于向特定用户授予权限。 在此情况下，应将附加属性添加到请求正文 - principalId={User_ObjectId}。
+有关 HTTP 请求的详细信息，请参阅 [HTTP 选项卡](register-app.md?tabs=customers%2CHTTP#change-your-azure-ad-apps-permissions)。
 
-   主帐户若要避免收到获取 Azure AD 同意的提示，需要“获取权限”，而这在进行非交互式登录情况下是不可能的。
+```csharp
+var graphClient = GetGraphClient();
 
-   ```json
-   Post https://graph.microsoft.com/beta/OAuth2PermissionGrants
-   Authorization: Bearer ey..qw
-   Content-Type: application/json
-   { 
-   "clientId":"{Service_Plan_ID}",
-   "consentType":"AllPrincipals",
-   "resourceId":"61e57743-d5cf-41ba-bd1a-2b381390a3f1",
-   "scope":"User.Read Directory.AccessAsUser.All",
-   "expiryTime":"2018-03-29T14:35:32.4943409+03:00",
-   "startTime":"2017-03-29T14:35:32.4933413+03:00"
-   }
-   ```
+currentState.createdApp = await graphClient.Applications
+    .Request()
+    .AddAsync(application);
+
+System.Threading.Thread.Sleep(2000);
+
+var passwordCredential = new PasswordCredential
+{
+    DisplayName = "Client Secret Created in C#"
+};
+
+currentState.createdSecret = await graphClient.Applications[currentState.createdApp.Id]
+    .AddPassword(passwordCredential)
+    .Request()
+    .PostAsync();
+
+var servicePrincipal = new ServicePrincipal
+{
+    AppId = currentState.createdApp.AppId
+};
+
+currentState.createdServicePrincipal = await graphClient.ServicePrincipals
+    .Request()
+    .AddAsync(servicePrincipal);
+
+```
+
+---
 
 ## <a name="next-steps"></a>后续步骤
 
-至此，已在 Azure AD 中注册了应用程序，需要在应用程序中对用户进行身份验证。 若要了解详细信息，请参阅[对用户进行身份验证，并获取 Power BI 应用的 Azure AD 访问令牌](get-azuread-access-token.md)。
+>[!div class="nextstepaction"]
+>[获取 Power BI 应用程序的 Azure AD 访问令牌](get-azuread-access-token.md)
 
 更多问题？ [尝试咨询 Power BI 社区](https://community.powerbi.com/)

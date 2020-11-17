@@ -1,26 +1,26 @@
 ---
-title: 报表中颜色格式设置的提示和技巧
-description: Power BI 报表中颜色格式设置的提示和技巧
-author: mihart
-ms.reviewer: ''
+title: 报表中格式设置的提示和技巧
+description: Power BI 报表中格式设置的提示和技巧
+author: msftrien
+ms.reviewer: mihart
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 06/18/2020
-ms.author: mihart
+ms.date: 10/29/2020
+ms.author: rien
 LocalizationGroup: Visualizations
-ms.openlocfilehash: e896b3aeabc6a22c98563d0836984cd2d8a644de
-ms.sourcegitcommit: be424c5b9659c96fc40bfbfbf04332b739063f9c
+ms.openlocfilehash: bce798e07a3bdac0ba52f56e9ddf7eac72087924
+ms.sourcegitcommit: 132b3f6ba6d2b1948ddc15969d64cf629f7fb280
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "91633828"
+ms.lasthandoff: 11/11/2020
+ms.locfileid: "94483941"
 ---
-# <a name="tips-and-tricks-for-color-formatting-in-power-bi"></a>Power BI 中颜色格式设置的提示和技巧
+# <a name="tips-and-tricks-for-formatting-in-reports"></a>报表中格式设置的提示和技巧
 
 [!INCLUDE[consumer-appliesto-nyyn](../includes/consumer-appliesto-nyyn.md)]    
 
-Power BI 提供了自定义仪表板和报表的多种方法。 本文详细介绍了一些技巧，可以让你的 Power BI 可视化效果更引人注目、生动有趣，并可根据你的需求进行自定义。
+Power BI 提供了自定义报表的多种方法。 本文详细介绍了一些技巧，可以让你的 Power BI 可视化效果更引人注目、生动有趣，并可根据你的需求进行自定义。
 
 本文提供以下技巧。 还有更好的技巧？ 太棒了！ 请将其发送给我们，我们会考虑将其添加到此列表中。
 
@@ -36,7 +36,7 @@ Power BI 提供了自定义仪表板和报表的多种方法。 本文详细介�
 
 若要进行任何更改，必须具有报表的编辑权限。 在 Power BI Desktop 中，在“报表”视图中打开报表。 在 Power BI 服务中，这意味着打开报表并从菜单栏中选择“编辑”，如下图所示。
 
-![何处可以找到“编辑”菜单](media/service-tips-and-tricks-for-color-formatting/power-bi-edit-report.png)
+![何处可以找到“编辑”菜单](media/service-tips-and-tricks-for-color-formatting/power-bi-editing-view.png)
 
 当“筛选器”和“可视化效果”窗格出现在报表画布的右侧时，即可开始进行自定义操作 。 如果未显示这些窗格，可选择右上角的箭头将其打开。
 
@@ -102,7 +102,7 @@ Power BI 提供了自定义仪表板和报表的多种方法。 本文详细介�
 可以看出，尽管销售的“Productivity”和“Extreme”的单位数更多（其柱形更高），但“Moderation”的“%Market Share SPLY YTD”更大（其柱形的色彩饱和度更高）   。
 
 ### <a name="customize-the-colors-used-in-the-color-scale"></a>在色阶中自定义使用的颜色
-你还可以更改数值对应这些颜色的方式。 在下图中，已分别将**最小值**和**最大值**设置为橙色和绿色。
+你还可以更改数值对应这些颜色的方式。 在下图中，已分别将 **最小值** 和 **最大值** 设置为橙色和绿色。
 
 在第一张图片中，请注意图表中的条形图是如何反映渐变栏中的渐变的；最高的值为绿色，最低的值为橙色，中间的条形图都以介于绿色和橙色之间的色谱着色。
 
@@ -112,7 +112,7 @@ Power BI 提供了自定义仪表板和报表的多种方法。 本文详细介�
 
 ![按数字设置的条件格式](media/service-tips-and-tricks-for-color-formatting/power-bi-conditional-formatting-numbers.png)
 
-设置这两个值后，渐变将不再应用于图表上低于**最小值**或高于**最大值**的值；任何高于**最大值**的条形图都会以绿色显示，并且任何低于**最小值**的条形如都会以红色显示。
+设置这两个值后，渐变将不再应用于图表上低于 **最小值** 或高于 **最大值** 的值；任何高于 **最大值** 的条形图都会以绿色显示，并且任何低于 **最小值** 的条形如都会以红色显示。
 
 ![按数字设置的条件格式结果](media/service-tips-and-tricks-for-color-formatting/power-bi-conditional3.png)
 
@@ -123,7 +123,7 @@ Power BI 提供了自定义仪表板和报表的多种方法。 本文详细介�
 
 ![选择了色阶的默认颜色对话框](media/service-tips-and-tricks-for-color-formatting/power-bi-diverging-colors.png)
 
-当**发散**处于开启状态时，你可以单独设置**最小值**、**最大值**和**中间点**的颜色。 在下图中，为 **% Market Share SPLY YTD** 将“中间点”设置为 0.2，因此值高于 0.2 的条形图将显示为渐变的绿色，值低于 0.2 的条形图则显示为红色。
+当 **发散** 处于开启状态时，你可以单独设置 **最小值**、**最大值** 和 **中间点** 的颜色。 在下图中，为 **% Market Share SPLY YTD** 将“中间点”设置为 0.2，因此值高于 0.2 的条形图将显示为渐变的绿色，值低于 0.2 的条形图则显示为红色。
 
 ![带有红条和绿条的柱形图](media/service-tips-and-tricks-for-color-formatting/power-bi-diverging.png)
 

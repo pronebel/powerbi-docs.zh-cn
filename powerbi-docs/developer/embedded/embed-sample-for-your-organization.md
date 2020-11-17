@@ -9,12 +9,12 @@ ms.subservice: powerbi-developer
 ms.topic: tutorial
 ms.custom: seodec18
 ms.date: 02/04/2020
-ms.openlocfilehash: 9a38533e76fec134d667ae4026258a2a3c07f410
-ms.sourcegitcommit: 02484b2d7a352e96213353702d60c21e8c07c6c0
+ms.openlocfilehash: e4d1c625d86234c97305c705b2feeead8efacb61
+ms.sourcegitcommit: 37bd34053557089c4fbf0e05f78e959609966561
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "91983105"
+ms.lasthandoff: 11/10/2020
+ms.locfileid: "94397268"
 ---
 # <a name="tutorial-embed-power-bi-content-into-an-application-for-your-organization"></a>教程：为组织将 Power BI 内容嵌入应用程序
 
@@ -44,7 +44,7 @@ ms.locfileid: "91983105"
 
 开始将报表、仪表板或磁贴嵌入应用前，需要先确保环境允许通过 Power BI 进行嵌入。
 
-你可通过完成[嵌入安装工具](https://aka.ms/embedsetup/UserOwnsData)，快速开始并下载可帮助你逐步创建环境和嵌入报表的示例应用程序。 在嵌入分页报表的情况下，需要至少将 P1 容量分配给创建的工作区。
+你可通过完成[嵌入安装工具](https://app.powerbi.com/embedsetup)，快速开始并下载可帮助你逐步创建环境和嵌入报表的示例应用程序。 在嵌入分页报表的情况下，需要至少将 P1 容量分配给创建的工作区。
 
 如果选择手动设置环境，则可以继续进行下面的操作。
 
@@ -52,9 +52,9 @@ ms.locfileid: "91983105"
 
 向 Azure Active Directory [注册应用程序](register-app.md)，以允许应用程序访问 [Power BI REST API](/rest/api/power-bi/)。 通过注册应用，可以建立应用标识，并指定对 Power BI REST 资源的权限。
 
-你必须继续注册服务器端 Web 应用程序。 注册服务器端 Web 应用程序以创建应用程序密码。
-
-在 Azure 中创建应用程序后，在 Azure 中打开应用程序，导航到“身份验证”，然后在“重定向 URI”中添加“/重定向”到“重定向 URI” 。
+>[!NOTE]
+>在你自己的应用程序中，需要导航到“身份验证”，然后在“重定向 URI”字段中插入重定向地址 。
+若要了解有关重定向的详细信息，请参阅[重定向 URI （回复 URL）限制](https://docs.microsoft.com/azure/active-directory/develop/reply-url)。
 
 ## <a name="set-up-your-power-bi-environment"></a>设置 Power BI 环境
 

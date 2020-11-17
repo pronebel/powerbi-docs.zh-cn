@@ -1,21 +1,21 @@
 ---
 title: 有关地图（包括必应地图集成）的提示和技巧
 description: '用于 Power BI 地图可视化效果、视觉对象、位置、经度和纬度，以及它们如何使用必应地图的提示和技巧。 '
-author: mihart
-ms.reviewer: rien
+author: msftrien
+ms.reviewer: mihart
 featuredvideoid: ajTPGNpthcg
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: how-to
 ms.date: 05/05/2020
-ms.author: mihart
+ms.author: rien
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 0c28d95c5275f5778b1ae646b8e5fb65489eb072
-ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
+ms.openlocfilehash: ec2e097dd829760c331ff8f045af00176b0c302b
+ms.sourcegitcommit: 5ccab484cf3532ae3a16acd5fc954b7947bd543a
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90860109"
+ms.lasthandoff: 11/06/2020
+ms.locfileid: "93411857"
 ---
 # <a name="tips-and-tricks-for-power-bi-map-visualizations"></a>用于 Power BI 地图可视化效果的提示和技巧
 
@@ -59,7 +59,7 @@ Power BI 使用必应的[非结构化 URL 模板服务](/bingmaps/rest-services/
 
  例如，如果只有一个“城市”列，必应可能会在进行地理位置编码时遇到困难。 请添加其他地理位置列，以便可以明确确定位置。  有时，只需向数据集再添加一个位置列（在此示例中，即为“州/省/自治区/直辖市”）即可。 另外，也不要忘了进行正确分类，请参阅上面的第 1 条提示。
 
-请确保每个字段只有一个位置类别。 例如，你的“城市”位置字段应为“南安普敦”  ，而非“南安普敦、纽约”  。  而“地址”位置字段应为“1 Microsoft Way”  而非“1 Microsoft Way, Redmond, WA”  。
+请确保每个字段只有一个位置类别。 例如，你的“城市”位置字段应为“南安普敦”，而非“南安普敦、纽约”。  而“地址”位置字段应为“1 Microsoft Way”  而非“1 Microsoft Way, Redmond, WA”  。
 
 **3.使用特定的纬度和经度**
 

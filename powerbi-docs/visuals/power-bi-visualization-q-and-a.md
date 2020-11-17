@@ -1,19 +1,19 @@
 ---
 title: 使用 Power BI Q&A 视觉对象
 description: 如何设置 Power BI Q&A 视觉对象
-author: rien
+author: msftrien
 ms.reviewer: mihart
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: how-to
 ms.date: 11/19/2019
 ms.author: mohaali
-ms.openlocfilehash: 22ce23b408f87c8c792f75a543fd0c29a9d13281
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 96773bc256ba8563147c7dc7c19e2558125b48fc
+ms.sourcegitcommit: 5ccab484cf3532ae3a16acd5fc954b7947bd543a
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85232293"
+ms.lasthandoff: 11/06/2020
+ms.locfileid: "93412340"
 ---
 # <a name="introduction-to-power-bi-qa-visualizations"></a>Power BI Q&A 可视化效果简介
 
@@ -155,5 +155,5 @@ Q&A 视觉对象与 Office 和 Bing 集成在一起，以尝试将无法识别�
 
 可以通过多种方式集成自然语言。 有关详细信息，请参阅以下文章：
 
-* [Q&A 工具](../natural-language/q-and-a-tooling-intro.md)
+_ [Q&A 工具](../natural-language/q-and-a-tooling-intro.md)
 * [Q&A 最佳做法](../natural-language/q-and-a-best-practices.md)

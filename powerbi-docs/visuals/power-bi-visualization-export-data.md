@@ -1,7 +1,7 @@
 ---
 title: 从 Power BI 可视化效果导出数据
 description: 从报表可视化效果和仪表板可视化效果导出数据并在 Excel 中查看此数据。
-author: mihart
+author: msftrien
 manager: kvivek
 ms.reviewer: tessa
 featuredvideoid: jtlLGRKBvXY
@@ -9,14 +9,14 @@ ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: how-to
 ms.date: 09/09/2020
-ms.author: mihart
+ms.author: rien
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 7ab0a093dfd41034aa79d2934ad23cf373fd0474
-ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
+ms.openlocfilehash: bbeabcd3cbdc04378ea90908703744489371b11f
+ms.sourcegitcommit: 5ccab484cf3532ae3a16acd5fc954b7947bd543a
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90861581"
+ms.lasthandoff: 11/06/2020
+ms.locfileid: "93412961"
 ---
 # <a name="export-the-data-that-was-used-to-create-a-visualization"></a>探索用于创建可视化效果的数据
 
@@ -81,8 +81,8 @@ ms.locfileid: "90861581"
 
 现在准备尝试使用两个选项导出数据。
 
-### <a name="export-summarized-data"></a>导出汇总数据
-如果希望导出在相应视觉对象中看到的数据，请选择“汇总数据”选项。  这种类型的导出仅显示用于创建视觉对象的数据（列和度量值）。  如果视觉对象具有聚合，则将导出聚合数据。 例如，如果有一个条形图显示四个条形，就会导出四行 Excel 数据。 汇总数据在 Power BI 服务中以 .xlsx 和 .csv 的形式提供，在 Power BI Desktop 中以 .csv 的形式提供 。
+### <a name="export-_summarized__-data"></a>导出汇总数据
+若要导出在相应视觉对象中看到的数据，请选择“汇总数据”选项。  这种类型的导出仅显示用于创建视觉对象的数据（列和度量值）。  如果视觉对象具有聚合，则将导出聚合数据。 例如，如果有一个条形图显示四个条形，就会导出四行 Excel 数据。 汇总数据在 Power BI 服务中以 .xlsx 和 .csv 的形式提供，在 Power BI Desktop 中以 .csv 的形式提供 。
 
 1. 选择可视化效果右上角的省略号。 选择“导出数据”。
 
@@ -117,9 +117,9 @@ ms.locfileid: "90861581"
 
     - 由于我们已将筛选器应用于可视化效果，导出数据将作为筛选后的数据导出。 请注意，第一行显示为“应用的筛选器：城市不是乔治亚洲亚特兰大”。 
 
-### <a name="export-underlying-data"></a>导出基础数据
+### <a name="export-_underlying__-data"></a>导出基础数据
 
-若要查看视觉对象中的数据和数据集中的其他数据，请选中此选项（有关详细信息，请参阅下图）。 如果可视化效果具有聚合，则选择基础数据会删除聚合。 在此示例中，Excel 导出文件的每一行显示数据集中每一个“城市”行，以及每个条目的折扣百分比。 Power BI 可以展开数据，但不会聚合数据。  
+若要查看视觉对象中的数据和数据集中的其他数据，请选中此选项（有关详细信息，请参阅下图）。 如果可视化效果具有聚合，则选择“基础数据”会删除聚合。 在此示例中，Excel 导出文件的每一行显示数据集中每一个“城市”行，以及每个条目的折扣百分比。 Power BI 可以展开数据，但不会聚合数据。  
 
 在你选择“导出”后，Power BI 会将数据导出至 .xlsx 文件，浏览器会提示你保存此文件。 保存后，在 Excel 中打开该文件。
 

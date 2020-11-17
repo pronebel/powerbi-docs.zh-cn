@@ -10,12 +10,12 @@ ms.subservice: powerbi-service
 ms.topic: how-to
 LocalizationGroup: Share your work
 ms.date: 07/31/2020
-ms.openlocfilehash: 6f4f083f7ec36fff13624b6b0d28ffd810e0d62b
-ms.sourcegitcommit: cff93e604e2c5f24e0f03d6dbdcd10c2332aa487
+ms.openlocfilehash: ae3f6b5f3026adf127b53dd07118fe05e4c06a00
+ms.sourcegitcommit: 1b3a626c5ca612a7f23058f8e5cc0147a94db51c
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90964815"
+ms.lasthandoff: 11/07/2020
+ms.locfileid: "94348073"
 ---
 # <a name="share-directly-to-microsoft-teams-from-the-power-bi-service"></a>通过 Power BI 服务直接共享到 Microsoft Teams
 
@@ -43,7 +43,7 @@ ms.locfileid: "90964815"
     
       ![视觉对象上下文菜单中的“共享到 Teams”按钮的屏幕截图。](media/service-share-report-teams/service-teams-share-to-teams-visual-context-menu.png)
 
-1. 在“共享到 Microsoft Teams”对话框中，选择要将链接发送到的频道或用户。 如果需要，可以输入一条消息。 系统可能会要求你先登录到 Microsoft Teams。
+1. 在“共享到 Microsoft Teams”对话框中，选择要将链接发送到的团队或频道。 如果需要，可以输入一条消息。 系统可能会要求你先登录到 Microsoft Teams。
 
     ![包含信息和消息的“共享到 Microsoft Teams”对话框的屏幕截图。](media/service-share-report-teams/service-teams-share-to-teams-dialog.png)
 

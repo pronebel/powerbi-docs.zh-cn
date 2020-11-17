@@ -8,20 +8,41 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: how-to
 ms.date: 04/15/2020
-ms.openlocfilehash: 65e00fa5311ea12c9fe0011c6aa7c3e779f33dc5
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: 515813aeb98010f838cfff75febbb1ef206bc2cf
+ms.sourcegitcommit: 37bd34053557089c4fbf0e05f78e959609966561
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83131118"
+ms.lasthandoff: 11/10/2020
+ms.locfileid: "94397475"
 ---
 # <a name="submission-testing-of-a-power-bi-visual"></a>Power BI 视觉对象的提交测试
 
-在将视觉对象发布到 [AppSource](https://appsource.microsoft.com/marketplace/apps?product=power-bi-visuals) 之前，它必须通过这些测试用例。 提交视觉对象之前，请先对其进行测试。 如果视觉对象未通过所需的测试用例，则会被拒绝。
+在将视觉对象发布到 [AppSource](https://appsource.microsoft.com/marketplace/apps?product=power-bi-visuals) 之前，它必须通过本文中所列出的测试。 提交视觉对象之前，请先对其进行测试。 如果视觉对象未通过所需的测试用例，则会被拒绝。
 
 有关发布过程的详细信息，请参阅[将 Power BI 视觉对象发布到合作伙伴中心](./office-store.md)。
 
+## <a name="testing-a-new-version-of-a-published-visual"></a>测试已发布的视觉对象的新版本
+
+如果要测试或调试已发布的视觉对象的新版本，可以在 Power BI Desktop 中启用开发人员模式，用本地文件版本替代 AppSource 版本。
+
+若要启用开发人员模式，请执行以下步骤：
+
+1. 打开 Power BI Desktop。
+
+2.  选择“文件” > “选项和设置” 。
+
+3.  选择“选项”。
+
+4. 在“选项”窗口的“当前文件”列表中，选择“报表设置”。
+
+5. 在开发人员模式中，选择“为此会话打开开发人员模式”选项。
+
+>[!NOTE]
+>在 Power BI Desktop 中，开发人员模式仅对一个会话有效。 如果打开新的 Power BI Desktop 实例进行测试，则需要再次启用开发人员模式。
+
 ## <a name="general-test-cases"></a>一般测试用例
+
+验证视觉对象是否通过了常规测试用例。
 
 | 测试用例 | 预期结果
 | --------- | ----------------

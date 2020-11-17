@@ -1,20 +1,20 @@
 ---
 title: 报表可视化效果格式设置入门
 description: 开始使用报表可视化效果格式设置选项
-author: mihart
-ms.reviewer: ''
+author: msftrien
+ms.reviewer: mihart
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 06/17/2020
-ms.author: mihart
+ms.date: 11/09/2020
+ms.author: rien
 LocalizationGroup: Visualizations
-ms.openlocfilehash: e4f5007d60f7634b671f1178a7279fe5cc35be89
-ms.sourcegitcommit: caf60154a092f88617eb177bc34fb784f2365962
+ms.openlocfilehash: 3e61521ec7ac518aaa374cec328639a849b21bd5
+ms.sourcegitcommit: 132b3f6ba6d2b1948ddc15969d64cf629f7fb280
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/25/2020
-ms.locfileid: "85354584"
+ms.lasthandoff: 11/11/2020
+ms.locfileid: "94483805"
 ---
 # <a name="getting-started-with-the-formatting-pane"></a>“格式设置”窗格入门
 
@@ -41,6 +41,7 @@ ms.locfileid: "85354584"
 * Y 轴
 * 数据颜色
 * 数据标签
+* 标签总数
 * 形状
 * 绘图区
 * 标题
@@ -58,7 +59,7 @@ ms.locfileid: "85354584"
 >  
 > 你将不会看到每个可视化效果类型的所有这些元素。 你选择的可视化效果将会对可用的自定义项有影响；例如，如果你选择了饼图，则不会看到 X 轴，因为饼图没有 X 轴。
 
-另请注意，如果没有选择任何可视化效果，**筛选器**将会在图标的位置出现，这让你可以将筛选器应用于页面上的所有可视化效果。
+另请注意，如果没有选择任何可视化效果，**筛选器** 将会在图标的位置出现，这让你可以将筛选器应用于页面上的所有可视化效果。
 
 了解如何使用“格式设置”选项的最佳方式是试用它们。可以随时撤消更改或还原为默认值。 我们提供了大量的可用选项，并会持续添加新选项。 一篇文章无法介绍所有格式设置选项。 但作为入门指引，让我们一起看看其中几个选项吧。 
 
@@ -66,6 +67,7 @@ ms.locfileid: "85354584"
 2. 应用样式    
 3. 更改轴属性    
 4. 添加数据标签    
+1. 添加标签总数
 
 
 
@@ -94,7 +96,7 @@ ms.locfileid: "85354584"
 
 2. 不喜欢任何颜色更改？ 从“数据颜色”选区的底部选择“还原为默认值”，即可将所有颜色还原为默认设置。  
 
-3. 想要调色板中没有的颜色？ 只需选择**自定义颜色**，然后从色谱进行选择即可。  
+3. 想要调色板中没有的颜色？ 只需选择 **自定义颜色**，然后从色谱进行选择即可。  
 
    ![数据颜色选区，其中打开了调色板](media/service-getting-started-with-color-formatting-and-axis-properties/power-bi-color-extras.png)
 
@@ -135,13 +137,13 @@ ms.locfileid: "85354584"
 
     ![相同的柱形图，但 Y 轴进行了多种格式设置](media/service-getting-started-with-color-formatting-and-axis-properties/power-bi-axis-changes.png)
 
-通过切换“X 轴”或“Y 轴”旁边的单选按钮，可以完全删除轴标签。  还可以通过选择**标题**旁的单选按钮来选择是否打开或关闭轴标题。  
+通过切换“X 轴”或“Y 轴”旁边的单选按钮，可以完全删除轴标签。  还可以通过选择 **标题** 旁的单选按钮来选择是否打开或关闭轴标题。  
 
 
 
 ## <a name="adding-data-labels"></a>添加数据标签    
 
-在你开始自行探索之前，我们再看最后一个格式设置示例。  向分区图添加数据标签。 
+向分区图添加数据标签。 
 
 这是进行格式设置之前的图片。 
 
@@ -155,6 +157,27 @@ ms.locfileid: "85354584"
 我们选择了可视化效果以使其处于活动状态，并打开了“格式设置”选项卡。我们选择了“数据标签”并将其打开。 然后，将字号增加到 12，将字体系列改为 Arial Black，将“显示背景”设置为“开”，并将背景色改为白色、透明度 5%。
 
 以上只是可以进行的格式设置任务中的少数几个。 在“编辑”模式下打开报表，并任意探索“格式设置”窗格，可创建外观精美、信息丰富的可视化效果。
+
+## <a name="adding-total-labels"></a>添加标签总数    
+
+在你开始自行探索之前，我们再看最后一个格式设置示例。  让我们将标签总数添加到堆积柱形图。 标签总数可用于堆积图、组合图和分区图。
+
+启用标签总数时，Power BI 将显示数据的聚合或总数。 我们来看一个示例。 
+
+在这里，有一个堆积柱形图，其中的数据标签显示每个完整堆栈的每个部分的值。  这是默认视图。 
+
+![带有数据标签的柱形图](media/service-getting-started-with-color-formatting-and-axis-properties/power-bi-column-charts.png)
+
+
+通过在“编辑”视图中打开视觉对象，可以更改数据标签和标签总数的显示。 选择视觉对象，使其处于活动状态，然后打开格式窗格。 向下滚动到“数据标签”和“标签总数” 。 “数据标签”为打开状态，“标签总数”为关闭状态 。 
+
+![未设置格式的柱形图](media/service-getting-started-with-color-formatting-and-axis-properties/power-bi-total-label.png)
+
+关闭“数据标签”，打开“标签总数” 。 现在 Power BI 显示每个列的聚合。    
+![设置了格式的柱形图](media/service-getting-started-with-color-formatting-and-axis-properties/power-bi-totals.png)
+
+以上只是可以进行的格式设置任务中的少数几个。 在“编辑”模式下打开报表，并任意探索“格式设置”窗格，可创建外观精美、信息丰富的可视化效果。
+
 
 ## <a name="next-steps"></a>后续步骤
 有关详细信息，请参阅以下文章： 

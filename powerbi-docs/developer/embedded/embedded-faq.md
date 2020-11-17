@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 02/11/2020
-ms.openlocfilehash: 85622b457d1c2eda0af51e0c7190d2691c259a82
-ms.sourcegitcommit: 4ac9447d1607dfca2e60948589f36a3d64d31cb4
+ms.openlocfilehash: 1166f51c21e765e5710d33ad45a47057ea773bd8
+ms.sourcegitcommit: 37bd34053557089c4fbf0e05f78e959609966561
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/29/2020
-ms.locfileid: "92916489"
+ms.lasthandoff: 11/10/2020
+ms.locfileid: "94397429"
 ---
 # <a name="frequently-asked-questions-about-power-bi-embedded"></a>有关 Power BI Embedded 的常见问题
 
@@ -176,7 +176,7 @@ var authenticationResult = await context.AcquireTokenAsync(resourceId, clientAss
 
 ### <a name="what-content-pack-data-types-can-you-embed"></a>可以嵌入哪些内容包数据类型？
 
-*无法* 嵌入通过内容包数据集生成的 **仪表板** 和 **磁贴** 。 但是， *可以* 嵌入通过内容包数据集生成的 **报表** 。
+*无法* 嵌入通过内容包数据集生成的 **仪表板** 和 **磁贴**。 但是，*可以* 嵌入通过内容包数据集生成的 **报表**。
 
 ### <a name="what-is-the-difference-between-using-row-level-security-rls-vs-javascript-filters"></a>使用行级别安全性 (RLS) 与JavaScript 筛选器有何区别？
 
@@ -270,7 +270,7 @@ Power BI Embedded 也适用于[国家云](embed-sample-for-customers-national-cl
 
 ### <a name="what-is-power-bi-workspace-collection"></a>什么是 Power BI 工作区集合？
 
-**Power BI 工作区集合** （ **Power BI Embedded** 版本 1）是基于 **Power BI 工作区集合** Azure 资源的解决方案。 此解决方案允许使用“Power BI 工作区集合”解决方案下的 Power BI 内容  、专用的 API 和用于向 Power BI 验证应用程序的工作区集合密钥，为客户创建 Power BI Embedded  应用程序。
+**Power BI 工作区集合**（**Power BI Embedded** 版本 1）是基于 **Power BI 工作区集合** Azure 资源的解决方案。 此解决方案允许使用“Power BI 工作区集合”解决方案下的 Power BI 内容  、专用的 API 和用于向 Power BI 验证应用程序的工作区集合密钥，为客户创建 Power BI Embedded  应用程序。
 
 ### <a name="can-i-migrate-from-power-bi-workspace-collection-to-power-bi-embedded"></a>如何从 Power BI 工作区集合迁移到 Power BI Embedded？
 
@@ -312,12 +312,12 @@ Power BI Embedded 也适用于[国家云](embed-sample-for-customers-national-cl
 
 ### <a name="what-is-the-embedding-setup-tool"></a>什么是嵌入安装程序工具？
 
-通过[工具](https://aka.ms/embedsetup)，可快速开始并下载示例应用程序，以便开始使用 Power BI 进行嵌入。
+通过[工具](https://app.powerbi.com/embedsetup)，可快速开始并下载示例应用程序，以便开始使用 Power BI 进行嵌入。
 
 ### <a name="which-solution-should-i-choose"></a>应选择哪种解决方案？
 
-* 通过[为客户嵌入内容](embedding.md#embedding-for-your-customers)，可为没有 Power BI 帐户的用户嵌入仪表板和报表。 运行[为客户嵌入](https://aka.ms/embedsetup/AppOwnsData)解决方案。
-* 通过[为组织嵌入内容](embedding.md#embedding-for-your-organization)，可以扩展 Power BI 服务。 运行[为组织嵌入](https://aka.ms/embedsetup/UserOwnsData)解决方案。
+* 通过[为客户嵌入内容](embedding.md#embedding-for-your-customers)，可为没有 Power BI 帐户的用户嵌入仪表板和报表。 请在[嵌入安装程序工具](https://app.powerbi.com/embedsetup)中，运行“为客户嵌入内容”解决方案。
+* 通过[为组织嵌入内容](embedding.md#embedding-for-your-organization)，可以扩展 Power BI 服务。 请在[嵌入安装程序工具](https://app.powerbi.com/embedsetup)中，运行“为组织嵌入内容”解决方案。
 
 ### <a name="ive-downloaded-the-sample-app-which-solution-do-i-choose"></a>我已下载示例应用，应选择哪种解决方案？
 

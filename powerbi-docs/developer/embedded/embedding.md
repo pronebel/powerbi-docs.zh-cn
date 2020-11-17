@@ -16,12 +16,12 @@ helpviewer_keywords:
 - Power BI APIs
 ms.custom: seodec18
 ms.date: 05/15/2019
-ms.openlocfilehash: 32fb26faa42f0ce6128a4a4cc0e491f78f270d36
-ms.sourcegitcommit: 02484b2d7a352e96213353702d60c21e8c07c6c0
+ms.openlocfilehash: 4dba33e2ae800198d4840139d43893a7dca77e4f
+ms.sourcegitcommit: 37bd34053557089c4fbf0e05f78e959609966561
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "91982185"
+ms.lasthandoff: 11/10/2020
+ms.locfileid: "94396808"
 ---
 # <a name="embedded-analytics-with-power-bi"></a>Power BI 嵌入式分析
 
@@ -31,8 +31,8 @@ Azure (PaaS) 中的 Power BI 服务 (SaaS) 和 Power BI 嵌入式服务具有用
 
 选择最适合你的解决方案：
 
-* 通过[为组织嵌入内容](embedding.md#embedding-for-your-organization)，可以扩展 Power BI 服务。 为达成此目标，请实现[为组织嵌入内容](https://aka.ms/embedsetup/UserOwnsData)解决方案。
-* 通过[为客户嵌入内容](embedding.md#embedding-for-your-customers)，可为没有 Power BI 帐户的用户嵌入仪表板和报表。 为达成此目标，请实现[为客户嵌入内容](https://aka.ms/embedsetup/AppOwnsData)解决方案。
+* 通过[为组织嵌入内容](embedding.md#embedding-for-your-organization)，可以扩展 Power BI 服务。 为达成此目标，请在[嵌入安装程序工具](https://app.powerbi.com/embedsetup)中，实现“为组织嵌入内容”解决方案。
+* 通过[为客户嵌入内容](embedding.md#embedding-for-your-customers)，可为没有 Power BI 帐户的用户嵌入仪表板和报表。 为达成此目标，请在[嵌入安装程序工具](https://app.powerbi.com/embedsetup)中，实现“为客户嵌入内容”解决方案。
 
 ![PBIE 示例](media/embedding/what-can-you-do-02.png)
 
@@ -51,7 +51,7 @@ Azure (PaaS) 中的 Power BI 服务 (SaaS) 和 Power BI 嵌入式服务具有用
 
 ## <a name="embedding-for-your-organization"></a>为组织嵌入内容
 
-通过 **为组织嵌入内容** ，可以扩展 Power BI 服务。 这种类型的嵌入要求应用程序的用户登录 Power BI 服务来查看内容。 组织中的用户登录后，只能访问他们拥有的，或者他们在 Power BI 服务中共享的仪表板和报表。
+通过 **为组织嵌入内容**，可以扩展 Power BI 服务。 这种类型的嵌入要求应用程序的用户登录 Power BI 服务来查看内容。 组织中的用户登录后，只能访问他们拥有的，或者他们在 Power BI 服务中共享的仪表板和报表。
 
 组织嵌入内容的示例包括 [SharePoint Online](https://powerbi.microsoft.com/blog/integrate-power-bi-reports-in-sharepoint-online/)、[Microsoft Teams 集成（必须拥有管理员权限）](https://powerbi.microsoft.com/blog/power-bi-teams-up-with-microsoft-teams/)以及 [Microsoft Dynamics](/dynamics365/customer-engagement/basics/add-edit-power-bi-visualizations-dashboard) 等内部应用程序。
 
@@ -59,7 +59,7 @@ Azure (PaaS) 中的 Power BI 服务 (SaaS) 和 Power BI 嵌入式服务具有用
 
 为 Power BI 用户嵌入内容时，通过 [JavaScript API](https://github.com/Microsoft/PowerBI-JavaScript) 可使用编辑和保存等自助服务功能。
 
-可浏览[嵌入安装程序工具](https://aka.ms/embedsetup/UserOwnsData)以开始并下载示例应用程序，它会逐步引导你为组织集成报表。
+可浏览[嵌入安装程序工具](https://app.powerbi.com/embedsetup)以开始并下载示例应用程序，它会逐步引导你为组织集成报表。
 
 ## <a name="embedding-for-your-customers"></a>为客户嵌入内容
 

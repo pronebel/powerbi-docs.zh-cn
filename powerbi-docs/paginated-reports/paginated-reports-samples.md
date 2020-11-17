@@ -7,13 +7,13 @@ ms.reviewer: swgupt
 ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: conceptual
-ms.date: 11/01/2020
-ms.openlocfilehash: cf0e6a6e7cd40a5b8bb97560caf94b71c1b48e7a
-ms.sourcegitcommit: ccf53e87ff7cba1fcd9d2cca761a561e62933f90
+ms.date: 11/10/2020
+ms.openlocfilehash: cfa4b46e521079802ec87b63d6323e01213625c3
+ms.sourcegitcommit: 132b3f6ba6d2b1948ddc15969d64cf629f7fb280
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/04/2020
-ms.locfileid: "93323994"
+ms.lasthandoff: 11/11/2020
+ms.locfileid: "94483814"
 ---
 # <a name="sample-power-bi-paginated-reports"></a>Power BI 分页报表示例
 
@@ -27,8 +27,25 @@ ms.locfileid: "93323994"
 - 你可以按原样联机共享这些报表，无需编辑。 若要共享这些报表，需要 Power BI Pro 许可证。 注册 [Power BI Pro 许可证免费试用版](../fundamentals/service-self-service-signup-for-power-bi.md#sign-up-for-an-individual-trial-of-power-bi-pro)。
 - 还需要有权访问[高级容量](../admin/service-premium-what-is.md)中的 Power BI 工作区。
 - 若要编辑这些报表，需要从 Microsoft 下载中心[安装 Power BI Report Builder](https://aka.ms/pbireportbuilder)。
-- 好了，接下来你就可以从 GitHub [下载这些分页报表示例](https://github.com/microsoft/Reporting-Services/tree/master/PaginatedReportSamples)了！ 不需要 GitHub 帐户。 
+- 好了，接下来你就可以从 GitHub 下载这些分页报表示例了！ 不需要 GitHub 帐户。 
 
+## <a name="download-the-reports"></a>下载报表
+
+要成功下载报表，需要将存储库下载为 zip 文件，然后将其解压缩。 分页报表是 .rdl 文件。
+
+1. 打开 [Reporting Services GitHub 存储库](https://github.com/microsoft/Reporting-Services)。
+1. 选择绿色的“代码”按钮上的箭头 >“下载 ZIP” 。
+
+    :::image type="content" source="media/paginated-reports-samples/paginated-report-download-zip.png" alt-text="包含示例 Power BI 分页报表的 GitHub 存储库的屏幕截图。":::
+    
+1. 打开文件，选择“全部提取”，然后选择文件的位置。 默认情况下，该文件夹名称为“Reporting Services-master”。
+1. 打开”Reporting-Services-master”文件夹，然后打开”PaginatedReportSamples”文件夹 。
+
+    >[!NOTE]
+    >可以删除“Reporting-Services-master”文件夹中的所有其他文件夹。 它们包含你不需要的其他示例。
+
+1. 选择其中一个 .rdl 文件，在 Power BI 报表生成器中将其打开。
+1. 现在，可以[将分页报表发布到 Power BI 服务](paginated-reports-save-to-power-bi-service.md)。
 
 ## <a name="invoice"></a>发票
 

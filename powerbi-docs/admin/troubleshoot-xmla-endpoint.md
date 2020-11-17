@@ -1,5 +1,5 @@
 ---
-title: 排查 Power BI Premium（预览版）中 XMLA 终结点的连接问题
+title: 排查 Power BI 中 XMLA 终结点连接问题
 description: 介绍如何通过 Power BI Premium 中的 XMLA 终结点来排查连接问题。
 author: minewiskan
 ms.author: owend
@@ -7,15 +7,15 @@ ms.reviewer: kayu
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: troubleshooting
-ms.date: 10/14/2020
+ms.date: 10/20/2020
 ms.custom: seodec18, css_fy20Q4
 LocalizationGroup: Premium
-ms.openlocfilehash: c8f0683e0789ec29577322424a4187a42ff5679f
-ms.sourcegitcommit: 59d07be9c3e4a2067f6d42c3002a194371bc4341
+ms.openlocfilehash: 5426c91f2ab0c4de1f9f2bc335ac21ea3a90c0e2
+ms.sourcegitcommit: 132b3f6ba6d2b1948ddc15969d64cf629f7fb280
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "92116560"
+ms.lasthandoff: 11/11/2020
+ms.locfileid: "94483664"
 ---
 # <a name="troubleshoot-xmla-endpoint-connectivity"></a>排查 XMLA 终结点连接问题
 
@@ -79,7 +79,7 @@ Power BI Premium 中的 XMLA 终结点依赖于本机 Analysis Services 通信�
 
 若要避免处理失败，请将“部署选项” > “处理选项”设置为“不处理”，如下图所示。 Visual Studio 就会只部署元数据。 然后，你可以配置数据源凭据，并在 Power BI 用户界面中为数据集单击“立即刷新”。 有关排查处理问题的信息，请参阅本文后面的[刷新数据集](#refreshing-a-dataset)部分。
 
-:::image type="content" source="media/troubleshoot-xmla-endpoint/do-not-process.png" alt-text="模型部署错误":::
+:::image type="content" source="media/troubleshoot-xmla-endpoint/do-not-process.png" alt-text="“不处理”选项":::
 
 ### <a name="new-project-from-an-existing-dataset"></a>从现有数据集新建项目
 
@@ -128,13 +128,13 @@ Power BI Premium 中的 XMLA 终结点依赖于本机 Analysis Services 通信�
 
 可为提供程序数据源定义的模拟设置与 Power BI 无关。 Power BI 使用基于数据集设置的不同机制来管理数据源凭据。 为此，如果要创建提供程序数据源，请确保选择“服务帐户”。
 
-:::image type="content" source="media/troubleshoot-xmla-endpoint/impersonate-services-account.png" alt-text="模型部署错误":::
+:::image type="content" source="media/troubleshoot-xmla-endpoint/impersonate-services-account.png" alt-text="模拟服务帐户":::
 
 ### <a name="fine-grained-processing"></a>细化处理
 
 在 Power BI 中触发计划刷新或按需刷新时，Power BI 通常会刷新整个数据集。 在许多情况下，选择性地执行刷新更有效。 你可以在 SQL Server Management Studio (SSMS) 中执行细化处理任务（如下所示），或使用第三方工具或脚本。
 
-:::image type="content" source="media/troubleshoot-xmla-endpoint/process-tables.png" alt-text="模型部署错误":::
+:::image type="content" source="media/troubleshoot-xmla-endpoint/process-tables.png" alt-text="在 SSMS 中处理表":::
 
 ### <a name="overrides-in-refresh-tmsl-command"></a>Refresh TMSL 命令中的替代
 
@@ -142,7 +142,7 @@ Power BI Premium 中的 XMLA 终结点依赖于本机 Analysis Services 通信�
 
 ## <a name="see-also"></a>另请参阅
 
-[使用 XMLA 终结点的数据集连接](service-premium-connect-tools.md)   
-[使用服务主体自动完成 Premium 工作区和数据集任务](service-premium-service-principal.md)   
-[“在 Excel 中分析”故障排除](../collaborate-share/desktop-troubleshooting-analyze-in-excel.md)   
-[表格模型解决方案部署](/analysis-services/deployment/tabular-model-solution-deployment?view=power-bi-premium-current)
+[使用 XMLA 终结点的数据集连接](service-premium-connect-tools.md)  
+[使用服务主体自动完成 Premium 工作区和数据集任务](service-premium-service-principal.md)  
+[TAnalyze in Excel 故障排除](../collaborate-share/desktop-troubleshooting-analyze-in-excel.md)  
+[表格模型解决方案部署](/analysis-services/deployment/tabular-model-solution-deployment?view=power-bi-premium-current&preserve-view=true)

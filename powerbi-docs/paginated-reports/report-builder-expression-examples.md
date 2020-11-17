@@ -1,19 +1,19 @@
 ---
 title: Power BI 报表生成器中的表达式示例
 description: Power BI Report Builder 分页报表中经常使用表达式来控制内容和报表外观。
-ms.date: 10/21/2019
+ms.date: 11/08/2020
 ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: conceptual
 ms.assetid: 87ddb651-a1d0-4a42-8ea9-04dea3f6afa4
 author: maggiesMSFT
 ms.author: maggies
-ms.openlocfilehash: 042221e3836aae72568df7eadaacfeeeac90d215
-ms.sourcegitcommit: ccf53e87ff7cba1fcd9d2cca761a561e62933f90
+ms.openlocfilehash: 762949dcce178628d387cd8f88c60080f74c5bae
+ms.sourcegitcommit: 37bd34053557089c4fbf0e05f78e959609966561
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/04/2020
-ms.locfileid: "93297787"
+ms.lasthandoff: 11/10/2020
+ms.locfileid: "94397337"
 ---
 # <a name="expression-examples-in-power-bi-report-builder"></a>Power BI 报表生成器中的表达式示例
 
@@ -247,7 +247,7 @@ Power BI Report Builder 分页报表中经常使用表达式来控制内容和�
   
 ###  <a name="decision-functions"></a><a name="DecisionFunctions"></a> 决策函数  
   
--   **Iif** 函数可根据表达式的计算结果（True 或 False）返回两个值中的一个。 下面的表达式使用 **Iif** 函数在 **的值超过 100 时返回布尔值** True `LineTotal` 。 否则，它将返回 **False** ：  
+-   **Iif** 函数可根据表达式的计算结果（True 或 False）返回两个值中的一个。 下面的表达式使用 **Iif** 函数在 **的值超过 100 时返回布尔值** True `LineTotal` 。 否则，它将返回 **False**：  
   
     ```  
     =IIF(Fields!LineTotal.Value > 100, True, False)  
@@ -454,6 +454,9 @@ Power BI Report Builder 分页报表中经常使用表达式来控制内容和�
     =IIF(Parameters!IncludeURLs.Value,"https://adventure-works.com/productcatalog",Nothing)  
     ```  
   
+> [!NOTE]
+>  Power BI 分页报表不支持在“转到 URL”表达式中使用 JavaScript。  
+  
 ##  <a name="report-data"></a><a name="ReportData"></a> 报表数据  
  您可使用表达式来处理报表中所使用的数据。 可以引用参数和其他报表信息。 甚至可以更改用于检索报表数据的查询。  
   
@@ -466,7 +469,7 @@ Power BI Report Builder 分页报表中经常使用表达式来控制内容和�
     =User!UserID  
     ```  
   
--   若要在查询参数、筛选表达式、文本框或其他报表区域中引用参数，请使用 **Parameters** 全局集合。 此示例假定参数的名称为 *Department* ：  
+-   若要在查询参数、筛选表达式、文本框或其他报表区域中引用参数，请使用 **Parameters** 全局集合。 此示例假定参数的名称为 *Department*：  
   
     ```  
     =Parameters!Department.Value  

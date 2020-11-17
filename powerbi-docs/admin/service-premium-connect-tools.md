@@ -1,5 +1,5 @@
 ---
-title: 在 Power BI Premium 中使用 XMLA 终结点连接和管理数据集（预览版）
+title: 在 Power BI 中使用 XMLA 终结点连接和管理数据集
 description: 介绍如何通过客户端应用程序和工具连接到 Power BI Premium 中的数据集。
 author: minewiskan
 ms.author: owend
@@ -7,26 +7,23 @@ ms.reviewer: kayu
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: how-to
-ms.date: 10/14/2020
+ms.date: 11/05/2020
 ms.custom: seodec18
 LocalizationGroup: Premium
-ms.openlocfilehash: f13c6990ae1cc0842cd490f88dfdb8fb382d7900
-ms.sourcegitcommit: 4ac9447d1607dfca2e60948589f36a3d64d31cb4
+ms.openlocfilehash: 4645434e5d556695868d028a5694b6cd0b8bd68c
+ms.sourcegitcommit: 132b3f6ba6d2b1948ddc15969d64cf629f7fb280
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/29/2020
-ms.locfileid: "92916052"
+ms.lasthandoff: 11/11/2020
+ms.locfileid: "94483756"
 ---
-# <a name="dataset-connectivity-with-the-xmla-endpoint-preview"></a>使用 XMLA 终结点的数据集连接（预览）
+# <a name="dataset-connectivity-with-the-xmla-endpoint"></a>使用 XMLA 终结点的数据集连接
 
 兼容性级别为 1500 及更高级别的 Power BI Premium 工作区和数据集支持，使用 XMLA 终结点从 Microsoft 和第三方客户端应用程序和工具进行开放平台连接。
 
-> [!NOTE]
-> 此功能处于预览阶段。 不得在生产环境中使用预览版功能。 某些功能、支持和文档是受到限制的。  若要了解详细信息，请参阅 [Microsoft Online Services 条款 (OST)](https://www.microsoft.com/licensing/product-licensing/products?rtc=1)。
-
 ## <a name="whats-an-xmla-endpoint"></a>什么是 XMLA 终结点？
 
-Power BI Premium 使用 [XML for Analysis](/analysis-services/xmla/xml-for-analysis-xmla-reference?view=power-bi-premium-current) (XMLA) 协议，以规范客户端应用程序与管理 Power BI 工作区和数据集的引擎之间的通信。 这些通信通过通常所说的 XMLA 终结点进行。 XMLA 是 Microsoft Analysis Services 引擎所使用的同一通信协议，该协议在底层运行 Power BI 的语义建模、治理、生命周期和数据管理。
+Power BI Premium 使用 [XML for Analysis](/analysis-services/xmla/xml-for-analysis-xmla-reference?view=power-bi-premium-current&preserve-view=true) (XMLA) 协议，以规范客户端应用程序与管理 Power BI 工作区和数据集的引擎之间的通信。 这些通信通过通常所说的 XMLA 终结点进行。 XMLA 是 Microsoft Analysis Services 引擎所使用的同一通信协议，该协议在底层运行 Power BI 的语义建模、治理、生命周期和数据管理。
 
 容量的数据集工作负荷默认启用使用终结点实现的只读连接。 利用只读终结点，数据可视化应用程序和工具可以查询数据集模型数据、元数据、事件和架构。 可以启用使用终结点实现的读写操作，从而提供额外的数据集管理、治理、高级语义建模、调试和监视功能。 启用读写终结点后，Power BI Premium 数据集与 Azure Analysis Services 和 SQL Server Analysis Services 企业级表格建模工具和流程的相似之处就更多了。
 
@@ -37,15 +34,15 @@ Power BI Premium 使用 [XML for Analysis](/analysis-services/xmla/xml-for-analy
 
 下面是一些最常与 Azure Analysis Services 和 SQL Server Analysis Services 配合使用的工具，现在也受到 Power BI Premium 数据集的支持：
 
-**包含 Analysis Services 项目的 Visual Studio** - 亦称为“SQL Server Data Tools (SSDT)”，是用于 Analysis Services 表格模型的企业级模型创作工具。 所有 Visual Studio 2017 及更高版本（包括免费的 Community 版本）都支持 Analysis Services 项目扩展。 必须有版本 2.9.6 或更高版本扩展，才能将表格模型部署到 Premium 工作区。 部署到 Premium 工作区的模型的兼容性级别必须为 1500 或更高级别。 必须为数据集工作负荷启用 XMLA 读写终结点。 若要了解详细信息，请参阅 [Analysis Services 工具](/analysis-services/tools-and-applications-used-in-analysis-services?view=power-bi-premium-current)。
+**包含 Analysis Services 项目的 Visual Studio** - 亦称为“SQL Server Data Tools (SSDT)”，是用于 Analysis Services 表格模型的企业级模型创作工具。 所有 Visual Studio 2017 及更高版本（包括免费的 Community 版本）都支持 Analysis Services 项目扩展。 必须有版本 2.9.6 或更高版本扩展，才能将表格模型部署到 Premium 工作区。 部署到 Premium 工作区的模型的兼容性级别必须为 1500 或更高级别。 必须为数据集工作负荷启用 XMLA 读写终结点。 若要了解详细信息，请参阅 [Analysis Services 工具](/analysis-services/tools-and-applications-used-in-analysis-services?view=power-bi-premium-current&preserve-view=true)。
 
 **SQL Server Management Studio (SSMS)**  - 支持 DAX、MDX 和 XMLA 查询。 使用[表格模型脚本语言](/analysis-services/tmsl/tabular-model-scripting-language-tmsl-reference) (TMSL) 对数据集元数据执行精细刷新操作，并为之编写脚本。 必须启用只读终结点，才能执行查询操作。 必须启用读写终结点，才能为元数据编写脚本。 SSMS 必须为版本 18.4 或更高版本。 请单击 [此处](/sql/ssms/download-sql-server-management-studio-ssms)下载。
 
-**SQL Server Profiler** - 随 SSMS 一起安装，此工具可以对数据集事件进行跟踪和调试。 尽管 Profiler 已正式被 SQL Server 弃用，但仍继续保留在 SSMS 中，并继续受到 Analysis Services 和 Power BI Premium 支持。 必须启用 XMLA 只读终结点。 若要了解详细信息，请参阅 [适用于 Analysis Services 的 SQL Server Profiler](/analysis-services/instances/use-sql-server-profiler-to-monitor-analysis-services?view=power-bi-premium-current)。
+**SQL Server Profiler** - 随 SSMS 一起安装，此工具可以对数据集事件进行跟踪和调试。 尽管 Profiler 已正式被 SQL Server 弃用，但仍继续保留在 SSMS 中，并继续受到 Analysis Services 和 Power BI Premium 支持。 必须启用 XMLA 只读终结点。 若要了解详细信息，请参阅 [适用于 Analysis Services 的 SQL Server Profiler](/analysis-services/instances/use-sql-server-profiler-to-monitor-analysis-services?view=power-bi-premium-current&preserve-view=true)。
 
-**Analysis Services 部署向导** - 随 SSMS 一起安装，此工具可以将 Visual Studio 创作的表格模型项目部署到 Analysis Services 和 Power BI Premium 工作区。 它可以交互运行，也可以通过命令行自动运行。 必须启用 XMLA 读写终结点。 若要了解详细信息，请参阅 [Analysis Services 部署向导](/analysis-services/deployment/deploy-model-solutions-using-the-deployment-wizard?view=power-bi-premium-current)。
+**Analysis Services 部署向导** - 随 SSMS 一起安装，此工具可以将 Visual Studio 创作的表格模型项目部署到 Analysis Services 和 Power BI Premium 工作区。 它可以交互运行，也可以通过命令行自动运行。 必须启用 XMLA 读写终结点。 若要了解详细信息，请参阅 [Analysis Services 部署向导](/analysis-services/deployment/deploy-model-solutions-using-the-deployment-wizard?view=power-bi-premium-current&preserve-view=true)。
 
-**PowerShell cmdlet** - Analysis Services cmdlet 可用于自动执行数据集管理任务（如刷新操作）。 必须启用 XMLA 读写终结点。 [SqlServer PowerShell 模块](https://www.powershellgallery.com/packages/SqlServer/)必须为版本 21.1.18221 或更高版本。 Power BI Premium 不支持 Az.AnalysisServices 模块中的 Azure Analysis Services cmdlet。 若要了解详细信息，请参阅 [Analysis Services PowerShell 参考](/analysis-services/powershell/analysis-services-powershell-reference?view=power-bi-premium-current)。
+**PowerShell cmdlet** - Analysis Services cmdlet 可用于自动执行数据集管理任务（如刷新操作）。 必须启用 XMLA 读写终结点。 [SqlServer PowerShell 模块](https://www.powershellgallery.com/packages/SqlServer/)必须为版本 21.1.18221 或更高版本。 Power BI Premium 不支持 Az.AnalysisServices 模块中的 Azure Analysis Services cmdlet。 若要了解详细信息，请参阅 [Analysis Services PowerShell 参考](/analysis-services/powershell/analysis-services-powershell-reference?view=power-bi-premium-current&preserve-view=true)。
 
 **Power BI Report Builder** - 用于创作分页报表的工具。 创建报表定义，用于指定要检索的数据、数据获取位置和数据显示方式。 可以先在 Report Builder 中预览报表，再将报表发布到 Power BI 服务。 必须启用 XMLA 只读终结点。 若要了解详细信息，请参阅  [Power BI Report Builder](../paginated-reports/report-builder-power-bi.md)。
 
@@ -63,19 +60,7 @@ Power BI Premium 使用 [XML for Analysis](/analysis-services/xmla/xml-for-analy
 
 客户端应用程序不直接与 XMLA 终结点通信。 而是使用客户端库作为抽象层。 这些也是应用程序用于连接到 Azure Analysis Services 和 SQL Server Analysis Services 的相同客户端库。 Excel、SQL Server Management Studio (SSMS) 和 Visual Studio 的 Analysis Services 项目扩展等 Microsoft 应用程序安装了所有这三个客户端库，并将它们与常规应用程序和扩展更新一起更新。 开发人员还可以使用客户端库来生成自定义应用程序。 在某些情况下，特别是对于第三方应用程序，如果客户端库没有与应用程序一起安装，可能需要安装更高版本的客户端库。 客户端库会每月更新。 若要了解详细信息，请参阅 [用于连接到 Analysis Services 的客户端库](/azure/analysis-services/analysis-services-data-providers)。
 
-## <a name="supported-write-operations"></a>支持的写入操作
-
-数据集元数据是通过基于表格对象模型 (TOM) 的客户端库公开的，以便开发人员能够生成自定义应用程序。 这样一来，Visual Studio 和开放源代码社区工具（如表格编辑器）可以提供其他数据建模和部署功能，这些功能受 Analysis Services 引擎支持，但尚不受 Power BI Desktop 支持。 其他数据建模功能包括：
-
-- [计算组](/analysis-services/tabular-models/calculation-groups?view=power-bi-premium-current)：用于计算可重用性和简化复杂模型的使用。
-
-- [元数据翻译](/analysis-services/tabular-models/translations-in-tabular-models-analysis-services?view=power-bi-premium-current)：用于支持多语言报表和数据集。
-
-- [透视](/analysis-services/tabular-models/perspectives-ssas-tabular?view=power-bi-premium-current)：用于定义数据集元数据的特定业务域重点视图。
-
-Power BI Premium 数据集尚不支持对象级别安全性 (OLS)。
-
-## <a name="optimize-datasets-for-write-operations"></a>为了支持写入操作而优化数据集
+## <a name="optimize-datasets-for-write-operations-by-enabling-large-models"></a>通过启用大型模型优化用于写入操作的数据集
 
 若要将 XMLA 终结点用于执行包含写入操作的数据集管理，建议为数据集启用大型模型。 这减少了写入操作的开销，从而大大提高了写入操作的速度。 对于（压缩后）大小超过 1GB 的数据集，差异可能非常显著。 若要了解详细信息，请参阅 [Power BI Premium 中的大型模型](service-premium-large-models.md)。
 
@@ -92,20 +77,23 @@ Premium 容量默认启用设置为“只读”的“XMLA 终结点”属性。 
 
 ## <a name="connecting-to-a-premium-workspace"></a>连接到 Premium 工作区
 
-分配给容量的工作区具有 URL 格式的连接字符串，如下所示：`powerbi://api.powerbi.com/v1.0/[tenant name]/[workspace name]`。
+分配给容量的工作区具有 URL 格式的连接字符串，如下所示，  
+`powerbi://api.powerbi.com/v1.0/[tenant name]/[workspace name]`.
 
-连接到工作区的应用程序使用此 URL，就像是在使用 Analysis Services 服务器名称一样。 例如，`powerbi://api.powerbi.com/v1.0/contoso.com/Sales Workspace`。
+连接到工作区的应用程序使用此 URL，就像是在使用 Analysis Services 服务器名称一样。 例如，  
+`powerbi://api.powerbi.com/v1.0/contoso.com/Sales Workspace`.
 
-同一租户（而不是 B2B）中使用 UPN 的用户可以将租户名称替换为 `myorg`。 例如： `powerbi://api.powerbi.com/v1.0/myorg/Sales Workspace`。
+同一租户（而不是 B2B）中使用 UPN 的用户可以将租户名称替换为 `myorg`。 例如，  
+`powerbi://api.powerbi.com/v1.0/myorg/Sales Workspace`。
 
-B2B 用户必须在租户名称中指定其组织 UPN。 例如： `powerbi://api.powerbi.com/v1.0/fabrikam.com/Sales Workspace`。
+B2B 用户必须在租户名称中指定其组织 UPN。 例如，  
+`powerbi://api.powerbi.com/v1.0/fabrikam.com/Sales Workspace`.
 
 ### <a name="to-get-the-workspace-connection-url"></a>获取工作区连接 URL 的具体步骤
 
 在工作区中，依次转到“设置” > “Premium” > “工作区连接”，然后单击“复制”。
 
 ![工作区连接字符串](media/service-premium-connect-tools/xmla-endpoint-workspace-connection.png)
-
 
 ## <a name="connection-requirements"></a>连接要求
 
@@ -149,19 +137,23 @@ XMLA 终结点无法访问以下数据集。 在 SSMS 或其他工具中，这�
 
 工作区参与者及以上人员对数据集拥有写权限，因此相当于 Analysis Services 数据库管理员。 他们可以从 Visual Studio 部署新的数据集，并在 SSMS 中执行 TMSL 脚本。
 
-Power BI Premium 暂不支持需要 Analysis Services 服务器管理员（而不是数据库管理员）权限的操作，如使用 [EffectiveUserName](/analysis-services/instances/connection-string-properties-analysis-services?view=power-bi-premium-current#bkmk_auth) 连接字符串属性进行服务器级别跟踪和用户模拟。
+Power BI Premium 暂不支持需要 Analysis Services 服务器管理员（而不是数据库管理员）权限的操作，如使用 [EffectiveUserName](/analysis-services/instances/connection-string-properties-analysis-services?view=power-bi-premium-current&preserve-view=true#bkmk_auth) 连接字符串属性进行服务器级别跟踪和用户模拟。
 
 其他对数据集拥有[生成权限](../connect-data/service-datasets-build-permissions.md)的用户相当于 Analysis Services 数据库读取者。 他们可以连接到并浏览数据集，从而使用并可视化数据。 由于遵守的是行级别安全性 (RLS) 规则，因此他们无法查看内部数据集元数据。
 
 ### <a name="model-roles"></a>模型角色
 
-通过 XMLA 终结点访问的数据集元数据可以创建、修改或删除数据集的模型角色，包括设置行级别安全性 (RLS) 筛选器。 Power BI 中的模型角色只用于实现 RLS。 若要控制 RLS 以外的权限，请使用 Power BI 安全模型。
+使用 XMLA 终结点，可以为数据集定义角色，可以为 Azure Active Directory (AAD) 用户定义角色成员身份，还可以定义行级别安全性 (RLS) 筛选器。 Power BI 中的模型角色只用于实现 RLS。 若要控制 RLS 以外的权限，请使用 Power BI 安全模型。
+
+对于在 Visual Studio 中创作的表格模型项目，可通过使用模型设计器中的角色管理器来定义角色。 对于 Power BI 中的数据集，可以通过使用 SSMS 创建角色对象并定义角色属性来定义角色。 但在大多数情况下，可以通过使用 TMSL 创建或修改[角色对象](/analysis-services/tmsl/roles-object-tmsl?view=power-bi-premium-current&preserve-view=true)来编写角色对象定义的脚本。 TMSL 脚本可在 SSMS 中执行，也可使用 [Invoke-ASCmd](/powershell/module/sqlserver/invoke-ascmd?view=sqlserver-ps&preserve-view=true) PowerShell cmdlet 来执行。
 
 通过 XMLA 终结点处理数据集角色时，需要遵循以下限制：
 
-- **在公共预览版期间，无法使用 XMLA 终结点来指定数据集的角色成员身份** 。 相反，请在 Power BI 服务中的“行级别安全性”页上指定数据集的角色成员。
-- 对于 Power BI 数据集，唯一可设置的角色权限是读取权限。 无论数据集角色是否存在，都必须设置数据集的生成权限，才能通过 XMLA 终结点读取访问数据集。 若要控制 RLS 以外的权限，请使用 Power BI 安全模型。
+- 对于 Power BI 数据集，唯一可设置的角色权限是读取权限。 其他权限是使用 Power BI 安全模型授予的。
+- 无论数据集角色是否存在，都必须设置数据集的生成权限，才能通过 XMLA 终结点读取访问数据集。
 - Power BI 暂不支持对象级别安全性 (OLS) 规则。
+
+若要了解详细信息，请参阅[表格模型中的角色](/analysis-services/tabular-models/roles-ssas-tabular)。
 
 ### <a name="setting-data-source-credentials"></a>设置数据源凭据
 
@@ -169,14 +161,20 @@ Power BI Premium 暂不支持需要 Analysis Services 服务器管理员（而�
 
 ### <a name="service-principals"></a>服务主体
 
-Azure 服务主体可用于执行无人参与的资源和服务级别操作。 若要了解详细信息，请参阅[使用服务主体自动完成 Premium 工作区和数据集任务](service-premium-service-principal.md)。
+服务主体是在租户中创建的 Azure Active Directory 应用注册，用于执行无人参与的资源和服务级别操作。 服务主体是独特类型的用户标识，具有应用名称、应用程序 ID、租户 ID 和表示密码的客户端机密或证书。 Power BI Premium 使用与 Power BI Embedded 相同的服务主体功能。
+
+在 Power BI Premium 中，也可以搭配使用服务主体与 XMLA 终结点来自动执行数据集管理任务，例如预配工作区、部署模型以及使用以下工具刷新数据集：
+
+- PowerShell
+- Azure 自动化
+- Azure 逻辑应用
+- 自定义客户端应用程序
+
+若要了解详细信息，请参阅[使用服务主体自动完成 Premium 工作区和数据集任务](service-premium-service-principal.md)。
 
 ## <a name="deploy-model-projects-from-visual-studio-ssdt"></a>部署 Visual Studio 中的模型项目 (SSDT)
 
 将 Visual Studio 中的表格模型项目部署到 Power BI Premium 工作区，与部署到 Azure Analysis Services 或 SQL Server Analysis Services 服务器大致相同。 唯一的不同之处在于，为项目指定的“部署服务器”属性，以及如何指定数据源凭据才能让处理操作将数据从数据源导入到工作区中的新数据集内。
-
-> [!IMPORTANT]
-> 在公共预览版期间，使用 XMLA 终结点的工具无法指定角色成员身份。 如果无法部署模型项目，请确保没有在任何角色中指定用户。 在模型成功部署后，在 Power BI 服务中指定数据集角色的用户。 若要了解详细信息，请参阅本文前面介绍的[模型角色](#model-roles)。
 
 必须先在项目“部署服务器”属性中设置工作区连接 URL，然后才能部署 Visual Studio 中创作的表格模型项目。 在 Visual Studio 的“解决方案资源管理器”中，右键单击项目，然后单击“属性”。 在“服务器”属性中，粘贴工作区连接 URL。
 
@@ -210,7 +208,7 @@ Azure 服务主体可用于执行无人参与的资源和服务级别操作。 �
 
 ![SSMS](media/service-premium-connect-tools/xmla-endpoint-ssms.png)
 
-若要详细了解如何使用 SSMS 为元数据编写脚本，请参阅[创建 Analysis Services 脚本](/analysis-services/instances/create-analysis-services-scripts-in-management-studio?view=power-bi-premium-current)和[表格模型脚本语言 (TMSL)](/analysis-services/tmsl/tabular-model-scripting-language-tmsl-reference?view=power-bi-premium-current)。
+若要详细了解如何使用 SSMS 为元数据编写脚本，请参阅[创建 Analysis Services 脚本](/analysis-services/instances/create-analysis-services-scripts-in-management-studio?view=power-bi-premium-current&preserve-view=true)和[表格模型脚本语言 (TMSL)](/analysis-services/tmsl/tabular-model-scripting-language-tmsl-reference?view=power-bi-premium-current&preserve-view=true)。
 
 ## <a name="dataset-refresh"></a>数据集刷新
 
@@ -248,9 +246,6 @@ Power BI Desktop 可通过实时连接功能连接 Power BI Premium 数据集 �
 ![实时连接 Analysis Services 数据集](media/service-premium-connect-tools/as-live-connect.png)
 
 如果组织的现有报表实时连接到要迁移到 Power BI Premium 数据集的 Analysis Services 数据模型，则只需在“转换数据” > “数据源设置”中更改服务器名称 URL 。
-
-> [!NOTE]
-> 在 XMLA 读写公共预览版期间，使用 Power BI Desktop 连接 Power BI Premium 数据集时，目前不支持使用“获取数据” > “Analysis Services”，再选择“实时连接”选项，将报表发布到 Power BI 服务  。
 
 ## <a name="audit-logs"></a>审核日志
 

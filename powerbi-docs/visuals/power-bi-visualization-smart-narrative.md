@@ -2,19 +2,20 @@
 title: 智能叙述教程
 description: 教程：在 Power BI 中创建智能叙述摘要可视化效果
 author: aphilip94
-ms.reviewer: aphilip94
+ms.reviewer: mihart
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: how-to
-ms.date: 09/14/2020
+ms.date: 11/06/2020
 ms.author: anphil
+ms.custom: video
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 4417d66b4afc3c3848667364bdca47150afdf04a
-ms.sourcegitcommit: 220427415e2fdc9337244b1ee23e734854179d43
+ms.openlocfilehash: 92ebd3015296dc0b6a61f3b7dd2a8b0d163a4383
+ms.sourcegitcommit: 37bd34053557089c4fbf0e05f78e959609966561
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/09/2020
-ms.locfileid: "91862950"
+ms.lasthandoff: 11/10/2020
+ms.locfileid: "94397199"
 ---
 # <a name="create-smart-narrative-summaries-preview"></a>创建智能叙述摘要（预览版）
 
@@ -33,9 +34,12 @@ ms.locfileid: "91862950"
 >
 >![显示 Power BI 选项的屏幕截图。 已选中“智能叙述视觉对象”选项。](media/power-bi-visualization-smart-narratives/2.png)
 
-若要按照本教程进行操作，请下载联机销售方案的[示例文件](https://github.com/microsoft/powerbi-desktop-samples/blob/master/Monthly%20Desktop%20Blog%20Samples/2020/2020SU09%20Blog%20Demo%20-%20September.pbix)。
+
 
 ## <a name="get-started"></a>入门 
+观看 Justyna 演示如何使用智能叙述，然后使用视频下方的教程亲自尝试。  若要按照本教程进行操作，请下载联机销售方案的[示例文件](https://github.com/microsoft/powerbi-desktop-samples/blob/master/Monthly%20Desktop%20Blog%20Samples/2020/2020SU09%20Blog%20Demo%20-%20September.pbix)。
+
+> [!VIDEO https://youtu.be/01UrT-z37sw]
 
 选择“可视化效果”窗格中的“智能叙述”图标以自动生成摘要。
 
@@ -95,9 +99,10 @@ ms.locfileid: "91862950"
 - 使用动态值和条件格式（例如，数据绑定标题）
 - Azure Analysis Services，本地 AS
 - KPI、卡片、多行卡片、映射、表、矩阵、R 视觉对象或 Python 视觉对象、自定义视觉对象 
-- 对具有按其他列进行分组的列以及基于“数据组”字段的列的视觉对象进行汇总 
+- 对具有按其他列进行分组的列以及基于“数据组”字段的列的视觉对象进行汇总 
 - 从视觉对象交叉筛选
 - 重命名动态值或编辑自动生成的动态值
 - 对包含动态计算（如 QnA 算法和总计百分比）的视觉对象进行汇总 
+- [计算组](/analysis-services/tabular-models/calculation-groups)
    
 

@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.topic: how-to
 ms.subservice: powerbi-custom-visuals
 ms.date: 09/02/2020
-ms.openlocfilehash: ca9c18cbd51737a5e4b05f3504c6ac2760006281
-ms.sourcegitcommit: 50b21718a167c2b131313b4135c8034c6f027597
+ms.openlocfilehash: 447f73601362c9ee205fe64119d0c251e7b4eb9a
+ms.sourcegitcommit: 5ccab484cf3532ae3a16acd5fc954b7947bd543a
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/14/2020
-ms.locfileid: "92050612"
+ms.lasthandoff: 11/06/2020
+ms.locfileid: "93412271"
 ---
 # <a name="set-up-your-environment-for-developing-a-power-bi-visual"></a>设置用于开发 Power BI 视觉对象的环境
 
@@ -62,7 +62,7 @@ pbiviz 包是一个压缩的 Power BI 视觉对象项目，其中包含所有所
 此过程描述了启动证书导入向导的 PowerShell 命令运行过程。 按照以下步骤在向导中配置证书。
 
 >[!IMPORTANT]
->在此过程中，不要关闭 PowerSell 窗口。
+>在此过程中，不要关闭 PowerShell 窗口。
 
 1. 打开 Windows PowerShell 并输入以下命令。
 

@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.custom: seodec18
 ms.date: 06/02/2020
-ms.openlocfilehash: 9af0edbe63841f6fb0e0de2e628784c89a5e44f1
-ms.sourcegitcommit: 02484b2d7a352e96213353702d60c21e8c07c6c0
+ms.openlocfilehash: 21f497a7c88134232a86afb9d16142719a6b711e
+ms.sourcegitcommit: 132b3f6ba6d2b1948ddc15969d64cf629f7fb280
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "91983358"
+ms.lasthandoff: 11/11/2020
+ms.locfileid: "94483779"
 ---
 # <a name="tutorial-embed-power-bi-content-into-an-application-for-your-customers"></a>教程：为客户将 Power BI 内容嵌入应用中
 
@@ -40,7 +40,7 @@ ms.locfileid: "91983358"
 
 开始将报表、仪表板或磁贴嵌入应用前，需要先确保环境允许通过 Power BI 进行嵌入。
 
-你可通过完成[嵌入安装工具](https://aka.ms/embedsetup/AppOwnsData)，快速开始并下载可帮助你逐步创建环境和嵌入报表的示例应用程序。
+你可通过完成[嵌入安装工具](https://app.powerbi.com/embedsetup)，快速开始并下载可帮助你逐步创建环境和嵌入报表的示例应用程序。
 
 但是，如果选择手动设置环境，则可以继续进行下面的操作。
 
@@ -228,7 +228,7 @@ Get-PowerBIworkspace -name "App Owns Embed Test" | Get-PowerBIReport
 
 客户在应用程序中嵌入内容时，需要从 Azure AD 获取主帐户或[服务主体](embed-service-principal.md)的访问令牌 。 必须为 Power BI 应用程序获取 [Azure AD 访问令牌](get-azuread-access-token.md#access-token-for-non-power-bi-users-app-owns-data)，然后才能对 [Power BI REST API](/rest/api/power-bi/) 进行调用。
 
-若要使用访问令牌创建 Power BI 客户端，不妨创建便于与 [Power BI REST API](/rest/api/power-bi/) 进行交互的 Power BI 客户端对象。 使用 Microsoft.Rest.TokenCredentials 对象包装 AccessToken，以创建 Power BI 客户端对象。
+若要使用访问令牌创建 Power BI 客户端，不妨创建便于与 [Power BI REST API](/rest/api/power-bi/) 进行交互的 Power BI 客户端对象。 使用 Microsoft.Rest.TokenCredentials 对象包装“AccessToken”，以创建 Power BI 客户端对象。
 
 ```csharp
 using Microsoft.IdentityModel.Clients.ActiveDirectory;
@@ -250,7 +250,7 @@ using (var client = new PowerBIClient(new Uri(ApiUrl), tokenCredentials))
 
 下面的代码示例展示了如何从给定工作区检索首个报表。
 
-[示例应用程序](https://github.com/Microsoft/PowerBI-Developer-Samples)的 Services\EmbedService.cs 文件中提供了获取内容项的示例，内容项包括报表、仪表板和希望嵌入的磁贴。
+[示例应用程序](https://github.com/Microsoft/PowerBI-Developer-Samples)的 Services\EmbedService.cs file 文件中提供了获取内容项的示例，内容项包括报表、仪表板和希望嵌入的磁贴。
 
 ```csharp
 using Microsoft.PowerBI.Api.V2;

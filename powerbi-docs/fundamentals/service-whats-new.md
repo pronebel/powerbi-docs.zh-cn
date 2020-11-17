@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 04/14/2020
 ms.author: nikhilga
 LocalizationGroup: Get started
-ms.openlocfilehash: 0f4b84067389e93de0e5c5c2b5008b08cd78151f
-ms.sourcegitcommit: d153cfc0ce559480c53ec48153a7e131b7a31542
+ms.openlocfilehash: 3052119ed4abd4e752ab14a5eb9a2087148f4997
+ms.sourcegitcommit: 37bd34053557089c4fbf0e05f78e959609966561
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/29/2020
-ms.locfileid: "91525193"
+ms.lasthandoff: 11/10/2020
+ms.locfileid: "94397061"
 ---
 # <a name="whats-new-in-the-power-bi-service"></a>Power BI 服务中的新功能
 请阅读此页，了解 Power BI 服务中的已知问题和最近发布的功能。 有关相关的“新增功能”的信息，请参阅：
@@ -97,7 +97,7 @@ ms.locfileid: "91525193"
 * 为服务中的 Power BI 报表[注释](https://powerbi.microsoft.com/blog/announcing-report-commenting-for-power-bi-service-and-mobile/)。
 
 ### <a name="april-2019"></a>2019 年 4 月
-* Power BI [数据流](../transform-model/service-dataflows-overview.md)正式发布。
+* Power BI [数据流](../transform-model/dataflows/dataflows-introduction-self-service.md)正式发布。
 * 新工作区体验正式发布。
 * 在法国和韩国推出了新的 Power BI 区域。
 * 更新了仪表板问答体验。
@@ -120,12 +120,12 @@ ms.locfileid: "91525193"
 * 在管理门户中批量操作。
 * 经过筛选的 PPT 和 PDF 导出操作。
 * 管理门户中的[帮助和支持设置](https://powerbi.microsoft.com/blog/tailoring-help-and-support-for-power-bi-users/)。
-* [数据流](../transform-model/service-dataflows-overview.md)的数据沿袭体验。
+* [数据流](../transform-model/dataflows/dataflows-introduction-self-service.md)的数据沿袭体验。
 * 管理门户中的“经认证的 Power BI 视觉对象”设置。
 
 ### <a name="january-2019"></a>2019 年 1 月
 * 在内部门户或网站中[嵌入的安全 Power BI 报表](../collaborate-share/service-embed-report-spo.md)。
-* 具有新连接器的[数据流](../transform-model/service-dataflows-overview.md)编辑器的更新，和对本机 SQL 查询以及 Power Query 联机转换的支持。
+* 具有新连接器的[数据流](../transform-model/dataflows/dataflows-introduction-self-service.md)编辑器的更新，和对本机 SQL 查询以及 Power Query 联机转换的支持。
 * Power BI 服务中的[个人书签](https://powerbi.microsoft.com/blog/announcing-personal-bookmarks-in-the-power-bi-service/)。
 * 基于时间的、具有电子邮件订阅的日程安排。
 
@@ -133,11 +133,11 @@ ms.locfileid: "91525193"
 ### <a name="december-2018"></a>2018 年 12 月
 * Power BI 主页中 AI 支持的[推荐应用](https://powerbi.microsoft.com/blog/announcing-ai-powered-app-recommendations-getting-the-right-insights-to-the-right-people/)。
 * 管理门户中的[工作区管理](https://powerbi.microsoft.com/blog/workspace-management-in-the-admin-portal/)。
-* [数据流](../transform-model/service-dataflows-overview.md)中 Power BI 数据流与 Azure Data Lake Storage Gen2 集成的预览版。
+* [数据流](../transform-model/dataflows/dataflows-introduction-self-service.md)中 Power BI 数据流与 Azure Data Lake Storage Gen2 集成的预览版。
 * Power BI 解决方案模板已转为开源。
 
 ### <a name="november-2018"></a>2018 年 11 月
-* Power BI 数据准备适用于[数据流](../transform-model/service-dataflows-overview.md)的公开预览版。
+* Power BI 数据准备适用于[数据流](../transform-model/dataflows/dataflows-introduction-self-service.md)的公开预览版。
 * Power BI Premium 中的[分页报表](../paginated-reports/paginated-reports-report-builder-power-bi.md)的公开预览版。
 * [容量监视应用](https://powerbi.microsoft.com/blog/new-monitoring-capabilities-for-power-bi-premium-capacities/)的内存中的数据大小和数据集数量。
 
@@ -283,46 +283,46 @@ ms.locfileid: "91525193"
 * [将文本列显示为工具提示](https://powerbi.microsoft.com/blog/tech-tip-thursday-displaying-text-columns-in-tool-tips/)。
 
 ### <a name="july-2016"></a>2016 年 7 月
-***RLS 正式脱离预览版***
+***RLS 正式脱离预览版** _
 
-* 行级别安全性 (RLS) 可基于正在访问数据的用户来限制数据访问。 最近我们通过在 Power BI Desktop 中公开角色和规则简化了配置 RLS 的过程。 现在，我们很高兴地宣布 RLS 已对所有 Power BI Pro 用户发布。
+_ 行级别安全性 (RLS) 可基于正在访问数据的用户来限制数据访问。 最近我们通过在 Power BI Desktop 中公开角色和规则简化了配置 RLS 的过程。 现在，我们很高兴地宣布 RLS 已对所有 Power BI Pro 用户发布。
 
-***数据分类***
+***数据分类** _
 
-* 现在可以使用公司 IT 部门定义的分类来标记仪表板，提高查看仪表板的人员应使用何种安全级别方面的意识。
+_ 现在可以使用公司 IT 部门定义的分类来标记仪表板，提高查看仪表板的人员应使用何种安全级别方面的意识。
 
-***在 Excel 中分析本地数据***
+***在 Excel 中分析本地数据** _
 
-* 在 Excel 中分析的功能已扩展为支持本地数据集。 我们建立了到本地数据集的安全和直达的连接，你可以在 Excel 中进行分析。 我们还为管理员引入了关闭本地源的“在 Excel 中分析”功能的设置。  
+_ 在 Excel 中分析的功能已扩展为支持本地数据集。 我们建立了到本地数据集的安全和直达的连接，你可以在 Excel 中进行分析。 我们还为管理员引入了关闭本地源的“在 Excel 中分析”功能的设置。  
 
 有关所有详细信息，[请访问 Power BI 团队博客](https://powerbi.microsoft.com/blog/power-bi-july-update-for-service-and-mobile/)
 
 ### <a name="june-2016"></a>2016 年 6 月
-***Quick Insights (快速见解)***
+***快速见解** _
 
-* 带有复杂筛选器的“快速见解”：我们非常高兴地宣布，局限于单个磁贴的“快速见解”现在能使用复杂筛选器了。
+_ 带有复杂筛选器的“快速见解”：我们非常高兴地宣布，局限于单个磁贴的“快速见解”现在能使用复杂筛选器了。
 
 有关所有详细信息，[请访问 Power BI 团队博客](https://powerbi.microsoft.com/blog/smarter-auto-generated-insights-with-complex-filters/)
 
 ### <a name="may-2016"></a>2016 年 5 月
-***获取数据***
+***获取数据** _
 
-* 文件大小限制增加到 1 GB：我们将 Excel 工作簿和 Power BI Desktop 文件大小限制增加到了 1 GB。
+_ 文件大小限制增加到 1 GB：我们将 Excel 工作簿和 Power BI Desktop 文件大小限制增加到了 1 GB。
 * 通过企业网关和其他网关更新查找 SSAS 服务器设置：现在当你安装企业网关时，贵公司用户将可以通过“获取数据”页面访问 Power BI 服务中的这些服务器。 我们还增加了对刷新数据集（包括使用网关的 SAP Business Warehouse 服务器中的数据）以及通过网关使用 Analysis Services 时创建 UPN 映射规则的支持。
 
-***行级别安全性 (RLS)***
+***行级别安全性 (RLS)** _
 
-* Azure Active Directory (Azure AD) 组支持：用户现在可以向角色分配 Azure AD 组（安全组）。 使向大型用户组分配角色变得更加容易。
+_ Azure Active Directory (Azure AD) 组支持：用户现在可以向角色分配 Azure AD 组（安全组）。 使向大型用户组分配角色变得更加容易。
 * [通过由已有 RLS 数据支持的报表来测试你的 RLS 角色](../admin/service-admin-rls.md#validate-the-roles-within-power-bi-desktop)：我们为 RLS 预览增加了这项功能，使你可以作为特定角色测试数据集。 从而确保在任何用户操作你的仪表板之前，角色按照你的预期工作。
 * 定义 RLS 并将其应用到基于直接查询的云模型：你现在可以为直接查询数据源创建并应用 RLS 规则。
 
-***仪表板***
+***仪表板** _
 
-* 将仪表板加入收藏夹：为了帮助你快速转到最常访问的仪表板，我们新增了一种功能，可方便你将这些仪表板加入收藏夹，并能从所有工作区轻松访问它们。
+_ 将仪表板加入收藏夹：为了帮助你快速转到最常访问的仪表板，我们新增了一种功能，可方便你将这些仪表板加入收藏夹，并能从所有工作区轻松访问它们。
 
-***在 Excel 中分析***
+***在 Excel 中分析** _
 
-* 改进了下载体验：通过新的对话框，可以轻松下载“使用 Excel 分析”功能的更新。
+_ 改进了下载体验：通过新的对话框，可以轻松下载“使用 Excel 分析”功能的更新。
 * 对 RLS 的支持：设置 RLS 后，当用户使用 Excel 分析数据时，应用到数据的这些规则现在会流动。
 * 改进了本地 Analysis Services 数据库的错误消息传送：在此之前，如果你为不受支持的数据源选择了“使用 Excel 分析”功能，则必须等待下载了 ODC 文件并尝试连接到 Power BI 完成之后，才会收到不支持的错误消息。 现在只要你为我们不支持的数据源选择了“使用 Excel 分析”功能，你就会看到一条消息，提示你我们尚不支持该数据源。
 
@@ -351,49 +351,49 @@ ms.locfileid: "91525193"
 
 **2016 年 4 月 14 日**
 
-***企业***
+**_企业_* _
 
-* [针对 RLS 的内容包支持](../admin/service-admin-rls.md)（预览）：如果 RLS 是为作为内容包的一部分分发的仪表板和报表定义的，那么将考虑对这些内容包使用安全规则。
+_ [针对 RLS 的内容包支持](../admin/service-admin-rls.md)（预览）：如果 RLS 是为作为内容包的一部分分发的仪表板和报表定义的，那么将考虑对这些内容包使用安全规则。
 
-***仪表板***
+***仪表板** _
 
-* [Vimeo 视频磁贴](../create-reports/service-dashboard-add-widget.md)：在仪表板上添加包含嵌入的 Vimeo 播放器的磁贴。
+_ [Vimeo 视频磁贴](../create-reports/service-dashboard-add-widget.md)：在仪表板上添加包含嵌入的 Vimeo 播放器的磁贴。
 
-***在 Excel 中分析***
+***在 Excel 中分析** _
 
-* [在 Excel 中分析](../collaborate-share/service-analyze-in-excel.md)功能可供所有用户使用：访问 Excel 中 Power BI 数据模型的功能已扩展到所有用户（无论其分配的许可证为何）。
+_ [在 Excel 中分析](../collaborate-share/service-analyze-in-excel.md)功能可供所有用户使用：访问 Excel 中 Power BI 数据模型的功能已扩展到所有用户（无论其分配的许可证为何）。
 * 改进了多用户帐户体验：如果你有多个 Power BI 用户帐户，则登录现在变得更轻松。
 
 有关所有详细信息，[请访问 Power BI 团队博客](https://powerbi.microsoft.com/blog/power-bi-service-april-update-expressroute-for-power-bi/)
 
 **2016 年 3 月 31 日** Microsoft 数据洞察峰会上发布了大量更新。
 
-***仪表板***
+**_仪表板_* _
 
-* 特色仪表板：更加轻松地访问你最关注的仪表板。
+_ 特色仪表板：更加轻松地访问你最关注的仪表板。
 * 筛选仪表板列表：显示全部、显示你创建的内容、显示与你共享的内容。
 
-***企业功能***
+***企业功能** _
 
-* 管理使用情况报表：将使用情况报表添加到 Power BI 管理中心。
+_ 管理使用情况报表：将使用情况报表添加到 Power BI 管理中心。
 * 行级安全：这是一项预览功能，允许你设置 Power BI 数据集的权限。
 * 禁止导出数据：你的租户中的用户将不再能够将磁贴和视觉对象数据导出到 .csv 文件。
 
-***问答***
+***Q&A** _
 
-* 自动完成“is”：如果你键入列名，并且后跟“is”，则问答将提供一些建议值。
+_ 自动完成“is”：如果你键入列名，并且后跟“is”，则问答将提供一些建议值。
 
-***移动窗体***
+***移动** _
 
-* Apple Watch 上的 KPI：无需打开 Power BI 应用即可监视 KPI 和卡片磁贴。
+_ Apple Watch 上的 KPI：无需打开 Power BI 应用即可监视 KPI 和卡片磁贴。
 
-***Excel***
+***Excel** _
 
-* 在 Excel 中分析：将 Power BI 数据模型连接到 Excel，在 Excel 而不是 Power BI 中进行分析。
+_ 在 Excel 中分析：将 Power BI 数据模型连接到 Excel，然后在 Excel 中进行分析，而不是 Power BI 中。
 
-***其他***
+***其他** _
 
-* 澳大利亚区 Power BI：在澳大利亚的任何个人或组织现在都可以访问 powerbi.microsoft.com 并注册 Power BI。
+_ 澳大利亚区 Power BI：在澳大利亚的任何个人或组织现在都可以访问 powerbi.microsoft.com 并注册 Power BI。
 * 语言设置：替代自动语言检测并设置 Power BI 的语言。
 
 有关所有详细信息，[请访问 Power BI 团队博客](https://powerbi.microsoft.com/blog/power-bi-service-march-update-part-two/)
@@ -402,19 +402,19 @@ ms.locfileid: "91525193"
 
 这个月我们对仪表板、Quick Insights 和问答功能进行了一些更新。
 
-***仪表板***
+**_仪表板_* _
 
-* 全屏模式：支持在全屏模式下的打印
+_ 全屏模式：支持在全屏模式下的打印
 * 全屏模式：展开磁贴以填充整个画布，并通过选择 **适应宽度** 删除多余的空白区域
 * 使用磁贴流使磁贴自动对齐画布的左上角。
 
-***Quick Insights (快速见解)***
+***快速见解** _
 
-* 现在通过“趋势和相关性”见解的趋势线可更容易地查看数据中的模式。
+_ 现在通过“趋势和相关性”见解的趋势线可更容易地查看数据中的模式。
 
-***问答***
+***Q&A** _
 
-* 现在可以在问答中指定仪表盘和面积图
+_ 现在可以在问答中指定仪表盘和面积图
 * 改进的问答自动完成功能 - 只要键入一些字符，Q&A 就会自动完成并为你建议视觉对象。
 
 有关所有详细信息，[请访问 Power BI 团队博客](https://powerbi.microsoft.com/blog/power-bi-service-march-update/)
@@ -423,31 +423,31 @@ ms.locfileid: "91525193"
 
 今天我们发布了一份很长的最需要的功能的清单。 [阅读博客文章](https://powerbi.microsoft.com/blog/power-bi-february-service-update/)。
 
-***共享***
+**_共享_* _
 
-* 与组织外部的用户共享
+_ 与组织外部的用户共享
 * 请求仪表板的访问权限
 
-***管理门户***
+***管理门户** _
 
-* 简易的用户管理，包括指向 Microsoft 365 管理中心的链接
+_ 简易的用户管理，包括指向 Microsoft 365 管理中心的链接
 * 禁止发布到 Web 的功能
 * 防止用户将内容包发布到整个组织
 * 禁止向外部用户共享内容的功能
 
-***快速见解***
+***快速见解** _
 
-* 发布 Power BI Desktop 文件时使用 Quick Insights
+_ 发布 Power BI Desktop 文件时使用快速见解
 
-***仪表板***
+***仪表板** _
 
-* 将 Web 内容添加到仪表板（通过小组件）
+_ 将 Web 内容添加到仪表板（通过小组件）
 * 将视频内容添加到仪表板（通过小组件）
 * 仪表板的缩放
 
-***连接***
+***连接** _
 
-* 通过 URL 连接到你的团队的 SharePoint 站点上的文件
+_ 通过 URL 连接到你的团队的 SharePoint 站点上的文件
 
 有关所有详细信息，[请访问 Power BI 团队博客](https://powerbi.microsoft.com/blog/power-bi-february-service-update/)
 
@@ -466,37 +466,37 @@ ms.locfileid: "91525193"
 
 Power BI 团队在整个假期都在忙。 有关所有详细信息，[请访问 Power BI 团队博客](https://powerbi.microsoft.com/blog/power-bi-service-update-0106/)
 
-***仪表板***
+**_仪表板_* _
 
-* 导出磁贴数据
+_ 导出磁贴数据
 * 将图像或文本框小组件添加到仪表板
 * 打印仪表板
 * 刷新磁贴上的时间
 * 仪表板磁贴上的工具提示
 
-***协作***
+***协作** _
 
-* 共享的仪表板通知
+_ 共享的仪表板通知
 * 与共享的或组织的仪表板所有者联系
 
-***报表***
+***报表** _
 
-* 打印当前报表页
+_ 打印当前报表页
 * 导出报表可视化数据
 
-***连接***
+***连接** _
 
-* 连接到 SharePoint 团队站点上的文件
+_ 连接到 SharePoint 团队站点上的文件
 
-***Excel 报表***
+***Excel 报表** _
 
-* 在 Excel 桌面中打开 Excel 报表
+_ 在 Excel 桌面中打开 Excel 报表
 * 固定 Excel 图表
 * Excel 磁贴的格式改进
 
-***其他***
+***其他** _
 
-* 巴西区 Power BI
+_ 巴西区 Power BI
 * 希伯来语和阿拉伯语支持
 
 有关所有详细信息，[请访问 Power BI 团队博客](https://powerbi.microsoft.com/blog/power-bi-service-update-0106/)
@@ -764,7 +764,7 @@ Power BI 团队在整个假期都在忙。 有关所有详细信息，[请访问
 **2015 年 4 月 15 日**
 
 * 你现在可以使用我们的新内容包可视化和浏览 **Google Analytics** 数据！ 凭借 Google Analytics 内容包你将获得仪表板、报表和数据集，使你能够深入了解过去 6 个月你的网站的使用情况。 详情请参阅此篇[博客文章](https://powerbi.microsoft.com/blog/visualize-and-explore-your-google-analytics-data-with-power-bi/)。
-* 除包含问答和报表中的 KPI 和图像的卡片之外，你现在可以 **固定所有卡片** 。
+* 除包含问答和报表中的 KPI 和图像的卡片之外，你现在可以 **固定所有卡片**。
 * 通过在查询的末尾使用短语“as card”，你可以 **在问答中使用卡片**
 
 **2015 年 3 月 31 日**
