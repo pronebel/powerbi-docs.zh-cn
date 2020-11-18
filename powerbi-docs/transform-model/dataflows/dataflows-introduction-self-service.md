@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 10/01/2020
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: 23ead6afd508cc0e61ae29d65926372561a6375a
-ms.sourcegitcommit: 37bd34053557089c4fbf0e05f78e959609966561
+ms.openlocfilehash: d8315652883f644d5440c25e3203fdf004bac51c
+ms.sourcegitcommit: bd133cb1fcbf4f6f89066165ce065b8df2b47664
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/10/2020
-ms.locfileid: "94396279"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "94669100"
 ---
 # <a name="introduction-to-dataflows-and-self-service-data-prep"></a>数据流和自助数据准备简介
 
@@ -49,6 +49,7 @@ ms.locfileid: "94396279"
 * [数据流的高级功能](dataflows-premium-features.md)
 * [使用数据流的 AI](dataflows-machine-learning-integration.md)
 * [数据流限制和注意事项](dataflows-features-limitations.md)
+* [数据流最佳做法](dataflows-best-practices.md)
 
 
 有关通用数据模型的详细信息，可以阅读其概述文章：

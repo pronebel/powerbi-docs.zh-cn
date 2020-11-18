@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 10/01/2020
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: 47b1647732c1977e6e8a3992b617e2a35c803c50
-ms.sourcegitcommit: 37bd34053557089c4fbf0e05f78e959609966561
+ms.openlocfilehash: 82d5981d885f97d48dec180e692a4a44c0bbe781
+ms.sourcegitcommit: bd133cb1fcbf4f6f89066165ce065b8df2b47664
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/10/2020
-ms.locfileid: "94396371"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "94668249"
 ---
 # <a name="configure-and-consume-a-dataflow"></a>配置和使用数据流
 
@@ -53,7 +53,7 @@ ms.locfileid: "94396371"
 
 * 由源刷新完成操作触发时，仅刷新被引用的实体。 若要计划所有实体，还应对链接实体设置计划刷新。 请勿对链接数据流设置刷新计划，以避免重复刷新。
 
-**取消刷新** ：数据流支持取消刷新功能，这一点与数据集不同。 如果刷新运行了很长时间，则可以选择数据流选项（数据流旁边的省略号），然后选择“取消刷新”。
+**取消刷新**：数据流支持取消刷新功能，这一点与数据集不同。 如果刷新运行了很长时间，则可以选择数据流选项（数据流旁边的省略号），然后选择“取消刷新”。
 
 **增量刷新（仅限 Premium）** ：还可以将数据流设置为增量刷新。 为此，请选择要设置增量刷新的数据流，然后选择增量刷新图标。
 
@@ -77,7 +77,7 @@ ms.locfileid: "94396371"
 
 * 使用可读取 CDM 格式的外部工具创建连接
 
-**通过 Power BI Desktop 使用** ：若要使用数据流，请运行 Power BI Desktop，然后在“获取数据”对话框中选择“Power BI 数据流连接器”。
+**通过 Power BI Desktop 使用**：若要使用数据流，请运行 Power BI Desktop，然后在“获取数据”对话框中选择“Power BI 数据流连接器”。
 
 > [!NOTE]
 > Power BI 数据流连接器使用的凭据集与当前登录用户使用的凭据集不同。 这是设计使然，意在支持多租户用户。
@@ -106,3 +106,4 @@ ms.locfileid: "94396371"
 * [数据流的高级功能](dataflows-premium-features.md)
 * [使用数据流的 AI](dataflows-machine-learning-integration.md)
 * [数据流限制和注意事项](dataflows-features-limitations.md)
+* [数据流最佳做法](dataflows-best-practices.md)

@@ -7,14 +7,14 @@ featuredvideoid: DN1t5p9aui0
 ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: tutorial
-ms.date: 03/18/2020
+ms.date: 11/11/2020
 ms.author: v-pemyer
-ms.openlocfilehash: 94ffbb508fea27e8b80f137539b6120e4c094030
-ms.sourcegitcommit: 4ac9447d1607dfca2e60948589f36a3d64d31cb4
+ms.openlocfilehash: 44ca1f021001161a978875377a1315dc14e5245d
+ms.sourcegitcommit: cc20b476a45bccb870c9de1d0b384e2c39e25d24
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/29/2020
-ms.locfileid: "92916719"
+ms.lasthandoff: 11/11/2020
+ms.locfileid: "94512967"
 ---
 # <a name="power-bi-paginated-reports-in-a-day-course"></a>《一天玩转 Power BI 分页报表》课程
 
@@ -105,7 +105,7 @@ ms.locfileid: "92916719"
 >
 > 必须登录 Power BI 才能将 Power BI Desktop 文件发布到工作区。 发布内容将生成用作报表数据源的数据集。 将数据集用作报表数据源不需要 Power BI Pro 许可证或 Power BI Premium 订阅。
 >
-> 有些实验任务涉及将分页报表发布到工作区。 只有将分页报表保存到[容量](../admin/service-premium-what-is.md#dedicated-capacities)上的工作区（启用了分页报表工作负载）时，才能打开该报表。 如果无法访问合适的工作区，实验室将为你提供一个链接，用于观看演示报表发布的视频。
+> 有些实验任务涉及将分页报表发布到工作区。 只有将分页报表保存到[容量](../admin/service-premium-what-is.md#reserved-capacities)上的工作区（启用了分页报表工作负载）时，才能打开该报表。 如果无法访问合适的工作区，实验室将为你提供一个链接，用于观看演示报表发布的视频。
 
 ## <a name="instructor-kit"></a>Instructor 工具包
 

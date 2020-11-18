@@ -9,17 +9,17 @@ ms.topic: how-to
 ms.date: 10/01/2020
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: 10b395cc14bf0aac97ead4b86c010109cfbc3703
-ms.sourcegitcommit: be424c5b9659c96fc40bfbfbf04332b739063f9c
+ms.openlocfilehash: 5a75965bb236a1515274343e58668809f91cef7b
+ms.sourcegitcommit: bd133cb1fcbf4f6f89066165ce065b8df2b47664
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "91637559"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "94669192"
 ---
 # <a name="creating-a-dataflow"></a>创建数据流
-数据流是在 Power BI 服务的工作区中创建和管理的实体（实体类似于表）集合****。 实体/表是一组用于存储数据的字段，非常类似于数据库中的表。 可以直接在创建数据流的工作区中添加和编辑数据流中的实体/表，以及管理数据刷新计划。
+数据流是在 Power BI 服务的工作区中创建和管理的实体（实体类似于表）集合。 实体/表是一组用于存储数据的字段，非常类似于数据库中的表。 可以直接在创建数据流的工作区中添加和编辑数据流中的实体/表，以及管理数据刷新计划。
 
-若要创建数据流，请在浏览器中启动 Power BI 服务，然后从左侧导航窗格选择一个工作区（数据流在 Power BI 服务的“我的工作区”中不可用），如以下屏幕所示******。 也可以新建一个工作区，用于创建新的工作流。
+若要创建数据流，请在浏览器中启动 Power BI 服务，然后从左侧导航窗格选择一个工作区（数据流在 Power BI 服务的“我的工作区”中不可用），如以下屏幕所示。 也可以新建一个工作区，用于创建新的工作流。
 ![启动数据流](media/dataflows-create/create-options.png)
 
 可以通过多种方式新建数据流或在其基础上进行生成：
@@ -64,12 +64,12 @@ ms.locfileid: "91637559"
 ### <a name="how-to-create-computed-entities"></a>如何创建计算实体
 
 一旦具有含有实体列表的数据流后，就可以在这些实体上执行计算。
-在 Power BI 服务中的数据流创作工具中，选择“编辑实体”****，然后右键单击想要用作计算实体基础的实体和想要执行计算的实体。 在上下文菜单中，选择“引用”****。
-若要使实体符合计算实体的条件，必须选中“启用加载”****，如下图中所示。 右键单击实体以显示此上下文菜单。
+在 Power BI 服务中的数据流创作工具中，选择“编辑实体”，然后右键单击想要用作计算实体基础的实体和想要执行计算的实体。 在上下文菜单中，选择“引用”。
+若要使实体符合计算实体的条件，必须选中“启用加载”，如下图中所示。 右键单击实体以显示此上下文菜单。
 
 ![创建计算实体步骤 1](media/dataflows-create/computed-entity-step-1.png)
 
-选择“启用加载”****，将创建一个新的实体，其源是引用的实体。 图标更改并显示“计算”**** 图标，如下图中所示。
+选择“启用加载”，将创建一个新的实体，其源是引用的实体。 图标更改并显示“计算”图标，如下图中所示。
 
 ![创建计算实体步骤 2](media/dataflows-create/computed-entity-step-2.png)
 
@@ -77,18 +77,18 @@ ms.locfileid: "91637559"
 
 **示例用例**：可以使用计算实体执行哪些类型的转换？ 在执行存储中计算时，将支持所有通常使用 Power BI 或 M 编辑器中的转换用户界面指定的任何转换。
 
-请考虑以下示例：你具有含有来自 Dynamics 365 订阅的所有客户的原始数据的帐户** 实体。 你还具有来自服务中心的 ServiceCalls** 原始数据，其中包含每年每天从不同的帐户执行的支持调用的数据。
+请考虑以下示例：你具有含有来自 Dynamics 365 订阅的所有客户的原始数据的帐户实体。 你还具有来自服务中心的 ServiceCalls 原始数据，其中包含每年每天从不同的帐户执行的支持调用的数据。
 
-假设你想要使用 ServiceCalls** 中的数据扩充帐户** 实体。
+假设你想要使用 ServiceCalls 中的数据扩充帐户实体。
 首先，需要聚合来自 ServiceCalls 的数据，以计算去年为每个帐户进行的支持呼叫次数。
 
 ![创建计算实体步骤 3](media/dataflows-create/computed-entity-step-3.png)
 
-接下来，你想要将帐户** 实体与 ServiceCallsAggregated** 实体合并，以计算浓集缩的“帐户”** 表。
+接下来，你想要将帐户实体与 ServiceCallsAggregated 实体合并，以计算浓集缩的“帐户”表。
 
 ![创建计算实体步骤 4](media/dataflows-create/computed-entity-step-4.png)
 
-然后可以看到结果，在下图中显示为 EnrichedAccount**。
+然后可以看到结果，在下图中显示为 EnrichedAccount。
 
 ![创建计算实体 5](media/dataflows-create/computed-entity-step-5.png)
 
@@ -133,3 +133,4 @@ ms.locfileid: "91637559"
 * [数据流的高级功能](dataflows-premium-features.md)
 * [使用数据流的 AI](dataflows-machine-learning-integration.md)
 * [数据流限制和注意事项](dataflows-features-limitations.md)
+* [数据流最佳做法](dataflows-best-practices.md)

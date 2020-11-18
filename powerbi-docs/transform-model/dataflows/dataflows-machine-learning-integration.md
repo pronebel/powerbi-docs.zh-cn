@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 10/01/2020
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: 5834230a59f6473624e955827dad36cdd75c04e5
-ms.sourcegitcommit: 37bd34053557089c4fbf0e05f78e959609966561
+ms.openlocfilehash: 703e87847f2f6dfb24040cc6532052b17d39086c
+ms.sourcegitcommit: bd133cb1fcbf4f6f89066165ce065b8df2b47664
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/10/2020
-ms.locfileid: "94397498"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "94668525"
 ---
 # <a name="ai-with-dataflows"></a>使用数据流的 AI
 
@@ -466,3 +466,4 @@ RegressionResult 列包含基于输入字段的记录的预测值。 RegressionE
 * [将数据流存储配置为使用 Azure Data Lake Gen 2](dataflows-azure-data-lake-storage-integration.md)
 * [数据流的高级功能](dataflows-premium-features.md)
 * [数据流限制和注意事项](dataflows-features-limitations.md)
+* [数据流最佳做法](dataflows-best-practices.md)

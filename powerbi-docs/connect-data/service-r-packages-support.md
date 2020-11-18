@@ -10,12 +10,12 @@ ms.topic: how-to
 ms.date: 05/06/2020
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: dfb9a263b0e8fa1555cab9f0d2a0915c367fbd4c
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 2cd345baff9b03573773599f6026f0be48fdcab2
+ms.sourcegitcommit: 5240990f998851c4854eb565de681099264c5a61
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85235728"
+ms.lasthandoff: 11/18/2020
+ms.locfileid: "94718859"
 ---
 # <a name="create-visuals-by-using-r-packages-in-the-power-bi-service"></a>在 Power BI 服务中使用 R 包创建视觉对象
 可以使用功能强大的 [R 编程语言](https://www.r-project.org/)在 Power BI 服务中创建视觉对象。 许多 R 程序包在 Power BI 服务中受到支持（并且更多包始终受支持），某些包不受支持。
@@ -39,7 +39,7 @@ R 程序包存在大量要求和限制：
 * 纳入新的 R 程序包的审核流程具有一系列的依赖项；需要在服务中安装的某些依赖项不受支持。
 
 ## <a name="r-packages-that-are-supported-in-power-bi"></a>在 Power BI 中受支持的 R 程序包
-下表显示 Power BI 服务中**受支持**的程序包。
+下表显示 Power BI 服务中 **受支持** 的程序包。
 
 
 |        程序包        |   版本   |                                   链接                                   |
@@ -192,7 +192,6 @@ R 程序包存在大量要求和限制：
 |curl|3.2|https://cran.r-project.org/web/packages/curl/index.html|
 |CVST|0.2-1|https://cran.r-project.org/web/packages/CVST/index.html|
 |cvTools|0.3.2|https://cran.r-project.org/web/packages/cvTools/index.html|
-|d3heatmap|0.6.1.2|https://cran.r-project.org/web/packages/d3heatmap/index.html|
 |d3Network|0.5.2.1|https://cran.r-project.org/web/packages/d3Network/index.html|
 |d3r|0.8.0|https://cran.r-project.org/web/packages/d3r/index.html|
 |data.table|1.10.4-3|https://cran.r-project.org/web/packages/data.table/index.html|
@@ -976,7 +975,7 @@ R 程序包存在大量要求和限制：
 
 
 ## <a name="r-scripts-that-are-not-supported-in-power-bi"></a>在 Power BI 中不受支持的 R 脚本
-下表显示 Power BI 服务中**不受支持**的程序包。
+下表显示 Power BI 服务中 **不受支持** 的程序包。
 
 | 程序包 | 请求日期 | 原因 |
 | --- | --- | --- |
