@@ -6,14 +6,14 @@ ms.reviewer: asaxton
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 08/19/2020
+ms.date: 11/11/2020
 ms.author: v-pemyer
-ms.openlocfilehash: fe55c789f5af644a802bc5c5f648315744a074be
-ms.sourcegitcommit: f73ea4b9116ad186817ec5cc5d5f487d49cc0cb0
+ms.openlocfilehash: d84f6a4fcf7ff531b76b6e731f165aa6e0df764f
+ms.sourcegitcommit: cc20b476a45bccb870c9de1d0b384e2c39e25d24
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "88638630"
+ms.lasthandoff: 11/11/2020
+ms.locfileid: "94512116"
 ---
 # <a name="bi-solution-architecture-in-the-center-of-excellence"></a>卓越中心的 BI 解决方案体系结构
 
@@ -64,7 +64,7 @@ BI 语义模型表示企业模型之上的语义层。 它们由 BI 开发人员
 
 业务功能不是由数据单独实现的，而是由描述概念、关系、规则和标准的 BI 语义模型来实现的。 通过这种方式，它们表示直观且易于理解的结构，这些结构定义数据关系并将业务规则封装为计算。 它们还可以强制执行细化的数据权限，确保适当的人能够访问适当的数据。 重要的是，它们加快了查询性能，提供了响应速度极快的交互式分析，甚至超过了 TB 级数据。 与企业模型一样，BI 语义模型采用命名约定来确保一致性。
 
-在云 BI 平台中，BI 开发人员可以将 BI 语义模型部署到 [Azure Analysis Services](/azure/analysis-services/) 或 [Power BI Premium 容量](../admin/service-premium-what-is.md#dedicated-capacities)。 我们建议在 Power BI 用作报告和分析层时部署到 Power BI。 这些产品支持不同的存储模式，允许数据模型表缓存其数据或使用 [DirectQuery](directquery-model-guidance.md)，这是一种将查询传递到基础数据源的技术。 如果模型表表示大数据量或需要交付近实时结果，那么 DirectQuery 是一种理想的存储模式。 两种存储模式可以组合在一起：[复合模型](composite-model-guidance.md)组合在单个模型中使用不同存储模式的表。
+在云 BI 平台中，BI 开发人员可以将 BI 语义模型部署到 [Azure Analysis Services](/azure/analysis-services/) 或 [Power BI Premium 容量](../admin/service-premium-what-is.md#reserved-capacities)。 我们建议在 Power BI 用作报告和分析层时部署到 Power BI。 这些产品支持不同的存储模式，允许数据模型表缓存其数据或使用 [DirectQuery](directquery-model-guidance.md)，这是一种将查询传递到基础数据源的技术。 如果模型表表示大数据量或需要交付近实时结果，那么 DirectQuery 是一种理想的存储模式。 两种存储模式可以组合在一起：[复合模型](composite-model-guidance.md)组合在单个模型中使用不同存储模式的表。
 
 对于频繁执行查询的模型，[Azure 负载均衡器](/azure/load-balancer/load-balancer-overview)可用于在模型副本之间均匀分布查询负载。 它还支持扩展应用程序并创建高度可用的 BI 语义模型。
 

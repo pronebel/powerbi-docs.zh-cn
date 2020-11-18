@@ -9,12 +9,12 @@ ms.subservice: powerbi-service
 ms.topic: tutorial
 ms.custom: seodec18, devx-track-js
 ms.date: 02/05/2019
-ms.openlocfilehash: c831118a14c1dc453acb81b866013dcb085d9f6d
-ms.sourcegitcommit: 1b3a626c5ca612a7f23058f8e5cc0147a94db51c
+ms.openlocfilehash: 0ef66f847485e066d6596c65b277f2d74699614d
+ms.sourcegitcommit: 029aacd09061a8aa45b57f05d0dc95c93dd16a74
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/07/2020
-ms.locfileid: "94348188"
+ms.lasthandoff: 11/12/2020
+ms.locfileid: "94559772"
 ---
 # <a name="tutorial-embed-a-power-bi-content-into-your-application-for-national-clouds"></a>教程：将 Power BI 内容嵌入国家云的应用程序
 
@@ -78,7 +78,7 @@ Power BI 还支持[国家云](/azure/active-directory/develop/authentication-nat
 3. 如下所示，在 web.config 文件中添加 DoDCON 参数。
 
 ```xml
-<add key="authorityUrl" value="https://login.microsoftonlineS.us/common/" />
+<add key="authorityUrl" value="https://login.microsoftonline.us/common/" />
 <add key="resourceUrl" value="https://high.analysis.usgovcloudapi.net/powerbi/api" />
 <add key="apiUrl" value="https://api.high.powerbigov.us/" />
 <add key="embedUrlBase" value="https://app.high.powerbigov.us" />
@@ -147,7 +147,7 @@ Power BI 还支持[国家云](/azure/active-directory/develop/authentication-nat
 
 ## <a name="step-2---get-an-access-token-from-azure-ad"></a>第 2 步 - 从 Azure AD 获取访问令牌
 
-在应用程序中，需要先从 Azure AD 获取 **访问令牌** ，然后才能调用 Power BI REST API。 有关详细信息，请参阅[对用户进行身份验证并获取 Power BI 应用的 Azure AD 访问令牌](get-azuread-access-token.md)。 由于存在不同的国家云附属关系，因此可以通过不同的 URL 来获取应用程序的访问令牌。
+在应用程序中，需要先从 Azure AD 获取 **访问令牌**，然后才能调用 Power BI REST API。 有关详细信息，请参阅[对用户进行身份验证并获取 Power BI 应用的 Azure AD 访问令牌](get-azuread-access-token.md)。 由于存在不同的国家云附属关系，因此可以通过不同的 URL 来获取应用程序的访问令牌。
 
 * 政府社区云 (GCC) - ```https://login.microsoftonline.com```
 

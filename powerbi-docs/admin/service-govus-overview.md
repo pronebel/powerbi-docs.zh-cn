@@ -6,16 +6,16 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 10/30/2020
+ms.date: 11/17/2020
 ms.author: kfollis
 ms.custom: licensing support
 LocalizationGroup: Get started
-ms.openlocfilehash: c90d15c20b54a25ccea5865302753e0189359be2
-ms.sourcegitcommit: 37bd34053557089c4fbf0e05f78e959609966561
+ms.openlocfilehash: 8fa83bfc0dc19e4c60094b0ee3c26eb8f7bab12d
+ms.sourcegitcommit: 5240990f998851c4854eb565de681099264c5a61
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/10/2020
-ms.locfileid: "94396095"
+ms.lasthandoff: 11/18/2020
+ms.locfileid: "94718882"
 ---
 # <a name="power-bi-for-us-government-customers"></a>适用于美国政府客户的 Power BI
 
@@ -74,25 +74,25 @@ Power BI 的身份验证、标识和管理依赖于与 Microsoft 365 服务的�
 
 |  用途 | 目标 |
 | ---- | ----- |
-| 后端 API | **GCC** ：api.powerbigov.us |
-| | **GCC-High** ：api.high.powerbigov.us |
-| | **DoD** ：api.mil.powerbi.gov.us |
-| 后端 API | **GCC** ：*analysis.usgovcloudapi.net |
-| | **GCC High** ：*.high.analysis.usgovcloudapi.net |
-| | **DoD** ：*.mil.analysis.usgovcloudapi.net |
-| 后端 API | **全部** ：*.pbidedicated.usgovcloudapi.net |
-| 内容分发网络 (CDN) | **GCC** ：gov.content.powerapps.us |
-| | **GCC High** ：high.content.powerapps.us |
-| | **DoD** ：mil.content.powerapps.us |
-| Microsoft 365 集成 | **GCC** ： [全球终结点](/microsoft-365/enterprise/urls-and-ip-address-ranges) |
-| | **GCC High** ： [美国政府 GCC High 终结点](/microsoft-365/enterprise/microsoft-365-u-s-government-gcc-high-endpoints) |
-| | **DoD** ： [美国政府 DOD 终结点](/microsoft-365/enterprise/microsoft-365-u-s-government-dod-endpoints) |
-| 门户 |**GCC** ：*.powerbigov.us |
-| | **GCC-High** ：*.high.powerbigov.us |
-| | **DoD** ：*.mil.powerbigov.us |
-| 服务遥测 | **全部** ：dc.services.visualstudio.us |
-| 信息性消息（可选） | **全部** ：dynmsg.modpim.com |
-| NPS 调查（可选） | **全部** ：nps.onyx.azure.net |
+| 后端 API | **GCC**：api.powerbigov.us |
+| | **GCC-High**：api.high.powerbigov.us |
+| | **DoD**：api.mil.powerbi.gov.us |
+| 后端 API | **GCC**：*analysis.usgovcloudapi.net |
+| | **GCC High**：*.high.analysis.usgovcloudapi.net |
+| | **DoD**：*.mil.analysis.usgovcloudapi.net |
+| 后端 API | **全部**：*.pbidedicated.usgovcloudapi.net |
+| 内容分发网络 (CDN) | **GCC**：gov.content.powerapps.us |
+| | **GCC High**：high.content.powerapps.us |
+| | **DoD**：mil.content.powerapps.us |
+| Microsoft 365 集成 | **GCC**：[全球终结点](/microsoft-365/enterprise/urls-and-ip-address-ranges) |
+| | **GCC High**：[美国政府 GCC High 终结点](/microsoft-365/enterprise/microsoft-365-u-s-government-gcc-high-endpoints) |
+| | **DoD**：[美国政府 DOD 终结点](/microsoft-365/enterprise/microsoft-365-u-s-government-dod-endpoints) |
+| 门户 |**GCC**：*.powerbigov.us |
+| | **GCC-High**：*.high.powerbigov.us |
+| | **DoD**：*.mil.powerbigov.us |
+| 服务遥测 | **全部**：dc.services.visualstudio.us |
+| 信息性消息（可选） | **全部**：dynmsg.modpim.com |
+| NPS 调查（可选） | **全部**：nps.onyx.azure.net |
 
 ## <a name="connect-government-and-global-azure-cloud-services"></a>连接政府版本和全局 Azure 云服务
 
@@ -129,6 +129,7 @@ Azure 分布在多个云中。 默认情况下，你可以启用防火墙规则�
 |[数据保护（MIP 标签）](service-security-sensitivity-label-overview.md)|2020 年第 4 季度|2020 年第 4 季度 |2020 年第 4 季度|
 |[模板应用](../connect-data/service-template-apps-overview.md)<sup>3</sup>|2020 年第 4 季度 |2020 年第 4 季度| 2020 年第 4 季度|
 |[自定义视觉对象](../developer/visuals/power-bi-custom-visuals.md)<sup>3</sup>|2020 年第 4 季度 |2020 年第 4 季度| 2020 年第 4 季度|
+|[Azure 流分析](/azure/stream-analytics/stream-analytics-power-bi-dashboard)| 2020 年第 4 季度|2020 年第 4 季度|2020 年第 4 季度|
 |[调用质量数据连接器](/microsoftteams/cqd-power-bi-connector)|![不可用](../media/no.png)|![不可用](../media/no.png)|![不可用](../media/no.png)|
 |[自带存储 (Azure Data Lake Gen 2)](../transform-model/dataflows/dataflows-azure-data-lake-storage-integration.md)|![不可用](../media/no.png)|![不可用](../media/no.png)|![不可用](../media/no.png)|
 |[QR 码生成](../create-reports/service-create-qr-code-for-tile.md)|![不可用](../media/no.png)|![不可用](../media/no.png)|![不可用](../media/no.png)|

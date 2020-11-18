@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 06/15/2020
 ms.author: painbar
 LocalizationGroup: ''
-ms.openlocfilehash: 697aa38a08acb561cca9b0ccba5656281157237e
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: d08ddeddc0a0feee82b02549db819a901f944c2d
+ms.sourcegitcommit: 1b79577006a2f6583a0a249f1920ae1e2b6b0ace
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85226440"
+ms.lasthandoff: 11/12/2020
+ms.locfileid: "94529019"
 ---
 # <a name="data-lineage"></a>数据世系
 在现代商业智能 (BI) 项目中，了解数据从数据源到其目标的流可能是一项挑战。 如果已生成跨多个数据源、项目和依赖项的高级分析项目，则该挑战甚至更艰巨。 “如果更改此数据会发生什么情况？” 或“为什么此报表不是最新的？”之类的问题 可能很难回答。 他们可能需要专家团队或进行深入调查才能找到答案。 我们设计了数据世系视图来帮助你回答这些问题。
@@ -23,7 +23,9 @@ ms.locfileid: "85226440"
  
 Power BI 具有多种项目类型，如仪表板、报表、数据集和数据流。 许多数据集和数据流连接到外部数据源（如 SQL Server）和其他工作区中的外部数据集。 如果数据集位于你的工作区外部，则它可能位于 IT 中的某人或其他分析师所拥有的工作区中。 最终，外部数据源和数据集导致更加难以知道数据的来源。 我们针对复杂和较简单的项目引入了世系视图。
 
-在世系视图中，可以看到工作区中所有项目与其所有外部依赖项之间的世系关系。 它显示所有工作区项目之间的连接，包括与数据流（上游和下游）的连接。
+在世系视图中，可以看到工作区中所有项目与其所有外部依赖项之间的世系关系。 它显示所有工作区项目之间的连接，包括与数据流（上游和下游）的连接。    
+
+> [!VIDEO https://youtu.be/rUj06dqB98g]
 
 ## <a name="explore-lineage-view"></a>浏览世系视图
 
