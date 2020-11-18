@@ -99,6 +99,8 @@
           items:
             - name: 创建和使用数据流
               href: ./dataflows/dataflows-create.md
+            - name: 数据流最佳做法
+              href: ./dataflows/dataflows-best-practices.md
             - name: 在 Power BI（预览版）中将 DirectQuery 用于数据流
               href: ./dataflows/dataflows-configure-consume.md
             - name: 将增强的计算引擎用于数据流
