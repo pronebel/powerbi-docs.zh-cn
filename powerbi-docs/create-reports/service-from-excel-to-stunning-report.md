@@ -116,7 +116,7 @@ Power BI 服务连接到多个数据源，包括位于计算机上的 Excel 文�
 
    ![报表编辑器中的地图视觉对象的屏幕截图。](media/service-from-excel-to-stunning-report/power-bi-map-visual.png)
 
-    看来欧洲国家的业绩胜过北美国家。
+    看来欧洲国家/地区的业绩胜过北美国家/地区。
 
 ### <a name="create-a-visual-showing-sales"></a>创建显示销售额的视觉对象
 
@@ -170,7 +170,7 @@ Power BI 服务连接到多个数据源，包括位于计算机上的 Excel 文�
 
 现在可以与经理共享你的仪表板了。 你可以与任何具有 Power BI 帐户的同事共享仪表板和基础报表。 他们可以与你的报表进行交互，但不能保存所做的更改。 如果你允许，他们可以与其他人再次共享，或基于基础数据集生成新报表。
 
-1. 若要共享你的报表，可在仪表板顶部，选择**共享**。
+1. 若要共享你的报表，可在仪表板顶部，选择 **共享**。
 
    ![“共享”图标的屏幕截图。](media/service-from-excel-to-stunning-report/power-bi-share-dashboard.png)
 
@@ -184,7 +184,7 @@ Power BI 服务连接到多个数据源，包括位于计算机上的 Excel 文�
 
    ![共享仪表板窗格的屏幕截图](media/service-from-excel-to-stunning-report/power-bi-share-dashboard-pane.png)
 
-1. 选择**共享**。
+1. 选择 **共享**。
 
 ## <a name="share-to-microsoft-teams"></a>与 Microsoft Teams 共享
 
