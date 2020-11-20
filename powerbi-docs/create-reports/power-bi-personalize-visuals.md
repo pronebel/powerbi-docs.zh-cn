@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: how-to
-ms.date: 09/25/2020
+ms.date: 11/13/2020
 ms.author: maggies
 LocalizationGroup: Reports
-ms.openlocfilehash: 4eae96dbdddae82a7f74f27c835874a19b04a69f
-ms.sourcegitcommit: eab5a02520c421a57019595c03e9ecfdb41d52ad
+ms.openlocfilehash: 624da63259dcb09d0ebbb35079ef0d8e1340b04c
+ms.sourcegitcommit: bd133cb1fcbf4f6f89066165ce065b8df2b47664
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/20/2020
-ms.locfileid: "92256783"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "94668502"
 ---
 # <a name="let-users-personalize-visuals-in-a-report"></a>允许用户在报表中个性化设置视觉对象
 
@@ -96,23 +96,23 @@ ms.locfileid: "92256783"
 
 ## <a name="enable-personalization-in-a-report"></a>启用“在报表中进行个性化设置”
 
-可以在 Power BI Desktop 或 Power BI 服务中启用此功能。
+可以在 Power BI Desktop 或 Power BI 服务中启用此功能。 还可以在嵌入的报表中启用它。
 
 ### <a name="in-power-bi-desktop"></a>在 Power BI Desktop 中
 
 若要在 Power BI Desktop 中启用此功能，请转到“文件” > “选项和设置” > “选项” > “当前文件” > “报表设置”    。 确保已启用“个性化设置视觉对象”。
 
-:::image type="content" source="media/power-bi-personalize-visuals/personalize-report-setting-desktop.png" alt-text="个性化设置视觉对象":::
+:::image type="content" source="media/power-bi-personalize-visuals/personalize-report-setting-desktop.png" alt-text="启用“在报表中进行个性化设置”":::
 
 ### <a name="in-the-power-bi-service"></a>在 Power BI 服务中
 
 要在 Power BI 服务中启用该功能，请转到报表“设置”。
 
-:::image type="content" source="media/power-bi-personalize-visuals/power-bi-report-service-settings-personalize-visual.png" alt-text="个性化设置视觉对象":::
+:::image type="content" source="media/power-bi-personalize-visuals/power-bi-report-service-settings-personalize-visual.png" alt-text="Power BI 服务中的报表设置":::
 
 启用“个性化设置视觉对象” > “保存” 。
 
-:::image type="content" source="media/power-bi-personalize-visuals/personalize-report-setting-service.png" alt-text="个性化设置视觉对象":::
+:::image type="content" source="media/power-bi-personalize-visuals/personalize-report-setting-service.png" alt-text="在服务中启用“个性化设置视觉对象”":::
 
 ## <a name="turn-the-feature-on-or-off-at-a-page-or-visual-level"></a>在页面或视觉对象级别启用或禁用此功能
 
@@ -122,7 +122,7 @@ ms.locfileid: "92256783"
 
 选择“页面”选项卡 > 在“可视化效果”窗格中，选择“格式”。
 
-:::image type="content" source="media/power-bi-personalize-visuals/personalize-page-level-setting.png" alt-text="个性化设置视觉对象":::
+:::image type="content" source="media/power-bi-personalize-visuals/personalize-page-level-setting.png" alt-text="为页面选择“个性化设置视觉对象”。":::
  
 滑动“个性化设置视觉对象” >  “开启”或“关闭”  。
 
@@ -130,11 +130,11 @@ ms.locfileid: "92256783"
 
 选择视觉对象 > 在“可视化效果”窗格中选择“格式”> 展开“视觉对象标头”  。
 
-:::image type="content" source="media/power-bi-personalize-visuals/power-bi-format-visual-header-personalize.png" alt-text="个性化设置视觉对象":::
+:::image type="content" source="media/power-bi-personalize-visuals/power-bi-format-visual-header-personalize.png" alt-text="选择视觉对象标头":::
  
 滑动“个性化设置视觉对象” >  “开启”或“关闭”  。
 
-:::image type="content" source="media/power-bi-personalize-visuals/power-bi-format-visual-personalize-on-off.png" alt-text="个性化设置视觉对象":::
+:::image type="content" source="media/power-bi-personalize-visuals/power-bi-format-visual-personalize-on-off.png" alt-text="开启或关闭“个性化设置视觉对象”":::
 
 
 ## <a name="limitations"></a>限制
