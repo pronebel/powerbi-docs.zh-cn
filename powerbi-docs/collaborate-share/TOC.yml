@@ -99,8 +99,16 @@
               href: desktop-troubleshooting-analyze-in-excel.md
             - name: 错误：在你的 Excel 工作簿中找不到任何数据
               href: ../connect-data/service-admin-troubleshoot-excel-workbook-data.md
-        - name: Power Automate 和 Power BI
-          href: service-flow-integration.md
+        - name: Power BI 和 Power Automate
+          items:
+            - name: 将数据警报与 Power Automate 集成
+              href: service-flow-integration.md
+            - name: 使用 Power Automate 导出分页报表
+              href: service-automate-paginated-integration.md
+            - name: 将分页报表保存到 OneDrive 或 SharePoint Online
+              href: service-automate-paginated-onedrive-sharepoint.md
+            - name: 从 Excel Online 或 SharePoint 列表导出分页报表
+              href: service-automate-paginated-excel-sharepoint-list.md
         - name: 使用第三方应用
           href: service-power-bi-get-started-third-party-apps.md
         - name: 组织内容包
