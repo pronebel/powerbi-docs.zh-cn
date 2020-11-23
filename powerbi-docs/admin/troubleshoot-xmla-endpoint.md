@@ -7,15 +7,15 @@ ms.reviewer: kayu
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: troubleshooting
-ms.date: 10/20/2020
+ms.date: 11/16/2020
 ms.custom: seodec18, css_fy20Q4
 LocalizationGroup: Premium
-ms.openlocfilehash: 5426c91f2ab0c4de1f9f2bc335ac21ea3a90c0e2
-ms.sourcegitcommit: 132b3f6ba6d2b1948ddc15969d64cf629f7fb280
+ms.openlocfilehash: 5100a2a693bbabacd5659c6e805031339d188555
+ms.sourcegitcommit: bd133cb1fcbf4f6f89066165ce065b8df2b47664
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/11/2020
-ms.locfileid: "94483664"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "94668111"
 ---
 # <a name="troubleshoot-xmla-endpoint-connectivity"></a>排查 XMLA 终结点连接问题
 
@@ -139,6 +139,36 @@ Power BI Premium 中的 XMLA 终结点依赖于本机 Analysis Services 通信�
 ### <a name="overrides-in-refresh-tmsl-command"></a>Refresh TMSL 命令中的替代
 
 [Refresh 命令 (TMSL) 中的替代](/analysis-services/tmsl/refresh-command-tmsl)允许用户为刷新操作选择其他分区查询定义或数据源定义。 目前，Power BI Premium 不支持替代。 错误“Power BI Premium 中不允许使用外部绑定。 有关其他信息，请参阅产品文档中的‘XMLA 读/写支持’”。 返回。
+
+## <a name="errors-in-ssms---premium-gen-2"></a>SSMS 中的错误 - Premium Gen 2
+
+### <a name="query-execution"></a>查询执行
+
+当连接到 [Premium Gen2](service-premium-what-is.md#power-bi-premium-generation-2-preview) 容量中的工作区时，SQL Server Management Studio 可能会显示以下错误：
+
+```
+Executing the query ...
+Error -1052311437:
+```
+
+发生这种情况是因为安装了 SSMS v18.7.1 的客户端库不支持会话跟踪。 此问题将在即将发布的 SSMS 中得到解决。
+
+### <a name="refresh-operations"></a>刷新操作
+
+当使用 SSMS v18.7.1 或更低版本对 Premium Gen2 容量中的数据集执行长时间运行（大于 1分钟）的刷新操作时，即使刷新操作成功，SSMS 也会显示类似以下的错误：
+
+```
+Executing the query ...
+Error -1052311437:
+The remote server returned an error: (400) Bad Request.
+
+Technical Details:
+RootActivityId: 3716c0f7-3d01-4595-8061-e6b2bd9f3428
+Date (UTC): 11/13/2020 7:57:16 PM
+Run complete
+```
+
+这是由于客户端库中的已知问题（即未正确跟踪刷新请求的状态）而导致的。 此问题将在即将发布的 SSMS 中得到解决。
 
 ## <a name="see-also"></a>另请参阅
 

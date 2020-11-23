@@ -7,15 +7,15 @@ featuredvideoid: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: how-to
-ms.date: 10/22/2020
+ms.date: 11/17/2020
 ms.author: maggies
 LocalizationGroup: Common tasks
-ms.openlocfilehash: 8768801f2d704644c888a14caf9b930dcd27f8fa
-ms.sourcegitcommit: 54e571a10b0fdde5cd6036017eac9ef228de5116
+ms.openlocfilehash: 183885336f6f76304ba051599efa48d81111264a
+ms.sourcegitcommit: 5240990f998851c4854eb565de681099264c5a61
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/24/2020
-ms.locfileid: "92501963"
+ms.lasthandoff: 11/18/2020
+ms.locfileid: "94718951"
 ---
 # <a name="subscribe-yourself-and-others-to-reports-and-dashboards-in-the-power-bi-service"></a>在 Power BI 服务中为自己和他人订阅报表和仪表板
 
@@ -122,6 +122,7 @@ Power BI 管理员可以使用 Power BI 审核日志来查看有关订阅的详�
 - 订阅当前不支持书签。
 - 编辑现有订阅时，提供对报表/仪表板的访问权限的选项始终显示为已启用。  如果清除此选项并保存订阅，则会保存该状态。 但是，在再次编辑报表时，将默认选中该状态。
 - 如果你有备用电子邮件地址，但没有主电子邮件地址，则 Power BI 将使用该备用地址发送订阅。
+- 如果为外部用户订阅报表或仪表板，则在订阅窗格中选择“保存并关闭”后，他们将立即收到共享通知。 此通知仅发送给外部用户，而不发送给内部用户，因为前者需要邀请链接才能查看报表或仪表板。 
 
 ### <a name="dashboards"></a>仪表板
 

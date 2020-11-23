@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 05/27/2020
+ms.date: 11/17/2020
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 05df39b58334b33046fde0f95b9f1ca596c1eec1
-ms.sourcegitcommit: a7b142685738a2f26ae0a5fa08f894f9ff03557b
+ms.openlocfilehash: 0f6f4cdb221773218c945e7f800d569c73a9a130
+ms.sourcegitcommit: 5240990f998851c4854eb565de681099264c5a61
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/28/2020
-ms.locfileid: "84120560"
+ms.lasthandoff: 11/18/2020
+ms.locfileid: "94718974"
 ---
 # <a name="about-using-directquery-in-power-bi"></a>关于在 Power BI 中使用 DirectQuery
 
@@ -155,7 +155,7 @@ SQL Server Analysis Services 报表发布到 Power BI 服务时，其行为在�
 * **计算列中的限制：** 计算列仅限于行内，因为它们只能引用同一表中其他列的值，不能使用任何聚合函数。 此外，允许使用的 DAX 标量函数（如 `LEFT()`）仅限于那些可推送到基础源的函数。 函数因源的确切功能而异。 创建计算列的 DAX 时，不支持的功能不会在自动完成中列出，如果使用则会导致错误。
 * **不支持父-子 DAX 函数：** 在 DirectQuery 模式下，不能使用 `DAX PATH()` 系列函数，这类函数通常处理父子结构，如帐户图表或员工层次结构图表。
 * **不支持计算表：** DirectQuery 模式不支持使用 DAX 表达式定义计算表。
-* **关系筛选：** 有关双向筛选的信息，请参阅[双向交叉筛选](https://download.microsoft.com/download/2/7/8/2782DF95-3E0D-40CD-BFC8-749A2882E109/Bidirectional%20cross-filtering%20in%20Analysis%20Services%202016%20and%20Power%20BI.docx)。 本白皮书在 SQL Server Analysis Services 的上下文中提供了一些示例。 基本要点同样适用于 Power BI。
+* **关系筛选：** 有关双向筛选的信息，请参阅 [双向交叉筛选](https://download.microsoft.com/download/2/7/8/2782DF95-3E0D-40CD-BFC8-749A2882E109/Bidirectional%20cross-filtering%20in%20Analysis%20Services%202016%20and%20Power%20BI.docx)。 本白皮书在 SQL Server Analysis Services 的上下文中提供了一些示例。 基本要点同样适用于 Power BI。
 * **无聚类分析：** 使用 DirectQuery 时，不能使用聚类分析功能自动查找组。
 
 ### <a name="reporting-limitations"></a>报表限制
@@ -165,6 +165,7 @@ SQL Server Analysis Services 报表发布到 Power BI 服务时，其行为在�
 * **不支持快速见解：** Power BI 快速见解功能可快速搜索数据集的不同子集，同时应用一组复杂的算法来发现潜在相关的见解。 此功能对查询的性能要求非常高，因此在使用 DirectQuery 的数据集上不可用。
 * **不支持问答：** 使用 Power BI 中的“问答”可利用直观、自然的语言功能浏览数据并接收图表和图形形式的答案。 但是，当前使用 DirectQuery 的数据集不支持此功能。
 * **使用“在 Excel 中浏览”可能会导致性能不佳：** 可以在数据集上使用“在 Excel 中浏览”功能浏览数据。 此方法允许在 Excel 中创建数据透视表和数据透视图。 尽管使用 DirectQuery 的数据集支持此功能，但性能通常比在 Power BI 中创建视觉对象的性能更慢，因此如果使用 Excel 对你的方案非常重要，则决定使用 DirectQuery 时请考虑这一事实。
+* **文本列的最大长度：** 对于使用 DirectQuery 的数据集，文本列中数据的最大长度为 32,764 个字符。 报告较长的文本会导致错误。
 
 ### <a name="security"></a>安全性
 

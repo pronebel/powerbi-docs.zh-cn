@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: how-to
-ms.date: 10/01/2020
+ms.date: 11/13/2020
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: e052816cb3d633ba5c01d0331e00572a9b51a579
-ms.sourcegitcommit: 37bd34053557089c4fbf0e05f78e959609966561
+ms.openlocfilehash: eb5b4b37e59a771d65917df5706a7ebbca488d21
+ms.sourcegitcommit: bd133cb1fcbf4f6f89066165ce065b8df2b47664
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/10/2020
-ms.locfileid: "94397291"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "94669077"
 ---
 # <a name="premium-features-of-dataflows"></a>数据流的高级功能
 
@@ -37,7 +37,7 @@ Power BI 中增强的计算引擎使 Power BI Premium 订阅者能够使用其�
 * 大大减少了对计算实体执行长时间运行的 ETL 步骤所需的刷新时间，例如执行“联接”、“去重”、“筛选”和“分组”操作   
 * 对实体执行 DirectQuery 查询
 
-接下来介绍如何启用增强的计算引擎以及常见问题解答。
+默认情况下，增强的计算引擎处于“打开”状态。 如果增强型计算引擎未处于启用状态，可参阅下一部分，了解如何启用增强型计算引擎并获取常见问题的解答。
 
 ### <a name="using-the-enhanced-compute-engine"></a>使用增强的计算引擎
 
@@ -158,6 +158,8 @@ DirectQuery 和数据流存在一些已知限制：
 ## <a name="next-steps"></a>后续步骤
 以下文章提供有关数据流和 Power BI 的详细信息：
 
+* [数据流最佳做法](dataflows-best-practices.md)
+* [配置 Power BI Premium 数据流工作负载](dataflows-premium-workload-configuration.md)
 * [数据流和自助数据准备简介](dataflows-introduction-self-service.md)
 * [创建数据流](dataflows-create.md)
 * [配置和使用数据流](dataflows-configure-consume.md)

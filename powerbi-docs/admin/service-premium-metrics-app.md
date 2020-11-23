@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-premium
 ms.topic: how-to
-ms.date: 05/11/2020
+ms.date: 11/11/2020
 LocalizationGroup: Premium
-ms.openlocfilehash: b74c381bfddc638c1371d571492eedfc7cf82a65
-ms.sourcegitcommit: 4ac9447d1607dfca2e60948589f36a3d64d31cb4
+ms.openlocfilehash: 50c10343487765f4f42c895ba605618b852415fd
+ms.sourcegitcommit: cc20b476a45bccb870c9de1d0b384e2c39e25d24
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/29/2020
-ms.locfileid: "92916397"
+ms.lasthandoff: 11/11/2020
+ms.locfileid: "94512231"
 ---
 # <a name="power-bi-premium-metrics-app"></a>Power BI Premium 指标应用
 
@@ -31,6 +31,8 @@ ms.locfileid: "92916397"
 > [!IMPORTANT]
 > 如果 Power BI Premium 容量遇到资源使用量过高的情况，从而导致性能或可靠性问题，可通过接收通知电子邮件来识别和解决问题。 这可以充当一种用于排查重载容量的简化方法。 有关详细信息，请参阅[容量和可靠性通知](service-interruption-notifications.md#capacity-and-reliability-notifications)。
 
+> [!NOTE]
+> Power BI Premium 最近发布了 Premium 的新版本，名为 Premium Gen2，目前处于预览状态。 Premium Gen2 将简化高级容量的管理，并减少管理开销。 特别是，它极大地减少了管理员为确保性能和用户体验而必须监视的指标（仅 CPU）。 有关详细信息，请参阅 [Power BI Premium 第二代（预览版）](service-premium-what-is.md#power-bi-premium-generation-2-preview)。
 
 
 ## <a name="premium-capacity-health-center"></a>Premium 容量运行状况中心
@@ -99,7 +101,7 @@ ms.locfileid: "92916397"
 
     ![图表 b 每小时占用的内存](media/service-premium-metrics-app/premium-metrics-app-05.png)     
 
-    **c.** 若要查看内存中加载的数据集的列表，请参考“数据集在内存中的原因”  表。 按“数据集大小(MB)”排序以突出显示占用最多内存的数据集  。 容量操作分类为 *交互式操作* 和 *后台操作* 。 交互式操作包括呈现请求和响应用户交互（筛选、问答查询等）。 通过查询总数和刷新总数可了解是否已在数据集上完成了交互式（查询）繁重或后台（刷新）操作。 重点是了解交互式操作应始终优先于后台操作，以确保可能的最佳用户体验。 如果资源不足，则会在释放资源时将后台操作添加到队列中进行处理。 后台操作（如数据集刷新和 AI 函数）可以由 Power BI 服务在进程中停止并添加到队列中。
+    **c.** 若要查看内存中加载的数据集的列表，请参考“数据集在内存中的原因”  表。 按“数据集大小(MB)”排序以突出显示占用最多内存的数据集  。 容量操作分类为 *交互式操作* 和 *后台操作*。 交互式操作包括呈现请求和响应用户交互（筛选、问答查询等）。 通过查询总数和刷新总数可了解是否已在数据集上完成了交互式（查询）繁重或后台（刷新）操作。 重点是了解交互式操作应始终优先于后台操作，以确保可能的最佳用户体验。 如果资源不足，则会在释放资源时将后台操作添加到队列中进行处理。 后台操作（如数据集刷新和 AI 函数）可以由 Power BI 服务在进程中停止并添加到队列中。
     
     ![表 c 数据集列表](media/service-premium-metrics-app/premium-metrics-app-06.png)  
 
@@ -348,3 +350,13 @@ ms.locfileid: "92916397"
 * [Power BI Embedded 常见问题解答](../developer/embedded/embedded-faq.md)
 
 更多问题？ [尝试咨询 Power BI 社区](https://community.powerbi.com/)
+
+Power BI 推出了 Power BI Premium Gen2 作为预览产品/服务，通过以下方面的改进改善了 Power BI Premium 的体验：
+* 性能
+* 用户个人许可
+* 更大规模
+* 改进的指标
+* 自动缩放
+* 降低管理开销
+
+有关 Power BI Premium Gen2 的详细信息，请参阅 [Power BI Premium 第二代（预览版）](service-premium-what-is.md#power-bi-premium-generation-2-preview)。

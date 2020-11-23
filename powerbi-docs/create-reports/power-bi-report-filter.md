@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: how-to
-ms.date: 10/23/2020
+ms.date: 11/11/2020
 ms.author: maggies
 LocalizationGroup: Reports
-ms.openlocfilehash: 358d0575c2de3297614bfed0656d953945b2ed13
-ms.sourcegitcommit: 54e571a10b0fdde5cd6036017eac9ef228de5116
+ms.openlocfilehash: 653ab67828c055d2846a698bf12f14eec304a2bf
+ms.sourcegitcommit: 029aacd09061a8aa45b57f05d0dc95c93dd16a74
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/24/2020
-ms.locfileid: "92502147"
+ms.lasthandoff: 11/12/2020
+ms.locfileid: "94560096"
 ---
 # <a name="design-filters-in-power-bi-reports"></a>设计 Power BI 报表中的筛选器
 
@@ -246,13 +246,13 @@ Power BI Desktop 以预览版的形式提供了一个新功能区。 在“视�
 
     :::image type="content" source="media/power-bi-report-filter/power-bi-persistent-filters.png" alt-text="“不允许最终用户保存此报表的筛选器”的屏幕截图。":::
 
-## <a name="apply-filters-apply-button-preview"></a>应用筛选器的“应用”按钮（预览版）
+## <a name="apply-filters-button"></a>应用筛选器按钮
 
 你可以在筛选器窗格中添加一个“应用”按钮，以便你和最终用户可以立刻应用所有筛选器修改。 如果要延迟应用筛选器更改，那么添加此按钮将会有用。 在准备好将所有筛选器更改应用到报表或视觉对象后，只需等待一次。
 
-:::image type="content" source="media/power-bi-report-filter/apply-filter-button.png" alt-text="“不允许最终用户保存此报表的筛选器”的屏幕截图。":::
+:::image type="content" source="media/power-bi-report-filter/apply-filter-button.png" alt-text="应用筛选器按钮":::
 
-### <a name="turn-on-apply"></a>开启“应用”
+### <a name="turn-on-the-apply-button"></a>启用“应用”按钮
 
 你可以在报表级别设置此功能。 但是，此功能默认处于关闭状态。
 
@@ -260,17 +260,18 @@ Power BI Desktop 以预览版的形式提供了一个新功能区。 在“视�
 
 1. 选择“在筛选器窗格中添加一个‘应用’按钮，以便立刻应用更改”。
 
-    :::image type="content" source="media/power-bi-report-filter/turn-on-apply-filter-button.png" alt-text="“不允许最终用户保存此报表的筛选器”的屏幕截图。":::
+    :::image type="content" source="media/power-bi-report-filter/apply-all-filters.png" alt-text="开启“应用”筛选器按钮":::
 
 ### <a name="format-the-apply-button"></a>设置“应用”按钮的格式
 
 目前，你可以控制该按钮“应用”文本的部分格式。 在“格式”窗格的“筛选器窗格”部分中，设置以下选项：
 
+- “复选框和应用颜色”用于控制填充颜色。 
 - “字体和图标颜色”用于控制文本颜色。
 - “标头文本大小”用于控制文本大小。
 - “字体系列”用于控制字体。
 
-    :::image type="content" source="media/power-bi-report-filter/format-apply-filter.gif" alt-text="“不允许最终用户保存此报表的筛选器”的屏幕截图。":::
+    :::image type="content" source="media/power-bi-report-filter/format-apply-filter.gif" alt-text="设置“应用筛选器”按钮文本的格式":::
 
 ## <a name="considerations-and-limitations"></a>注意事项和限制
 

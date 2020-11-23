@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-premium
 ms.topic: how-to
-ms.date: 06/22/2020
+ms.date: 11/11/2020
 ms.author: davidi
 LocalizationGroup: Premium
-ms.openlocfilehash: 0e55aa6fbfc1fadb529c6c321d7d97d3f48d569d
-ms.sourcegitcommit: 51b965954377884bef7af16ef3031bf10323845f
+ms.openlocfilehash: 6ca4257f73837b68d76734ea503e8f83e0d5ba49
+ms.sourcegitcommit: cc20b476a45bccb870c9de1d0b384e2c39e25d24
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/30/2020
-ms.locfileid: "91599048"
+ms.lasthandoff: 11/11/2020
+ms.locfileid: "94512944"
 ---
 # <a name="incremental-refresh-in-power-bi"></a>Power BI 中的增量刷新
 
@@ -27,6 +27,10 @@ ms.locfileid: "91599048"
 
 > [!NOTE]
 > 增量刷新现在可用于 Power BI Pro、Premium 以及共享的订阅和数据集。
+
+> [!NOTE]
+> Power BI Premium 最近发布了 Premium 的新版本，名为 Premium Gen2，目前为预览版。 Premium Gen2 将简化高级容量的管理，并减少管理开销。 Premium Gen2 通过启用自动缩放来避免刷新冲突，从而显著改进了计划刷新。 有关详细信息，请参阅 [Power BI Premium 第二代（预览版）](service-premium-what-is.md#power-bi-premium-generation-2-preview)。
+
 
 ## <a name="configure-incremental-refresh"></a>配置增量刷新
 
@@ -248,3 +252,14 @@ pollingExpression 应为轻量级 M 表达式或其他 M 查询的名称。 它�
 
 [使用 XMLA 终结点的数据集连接](service-premium-connect-tools.md)   
 [刷新方案故障排除](../connect-data/refresh-troubleshooting-refresh-scenarios.md)
+
+
+Power BI 推出了 Power BI Premium Gen2 作为预览产品/服务，通过以下方面的改进改善了 Power BI Premium 的体验：
+* 性能
+* 用户个人许可
+* 更大规模
+* 改进的指标
+* 自动缩放
+* 降低管理开销
+
+有关 Power BI Premium Gen2 的详细信息，请参阅 [Power BI Premium 第二代（预览版）](service-premium-what-is.md#power-bi-premium-generation-2-preview)。

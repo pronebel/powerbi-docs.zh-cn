@@ -7,18 +7,21 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-premium
 ms.topic: how-to
-ms.date: 05/11/2020
+ms.date: 11/11/2020
 LocalizationGroup: Premium
-ms.openlocfilehash: 3454a10269937d6e03151a64bba6695cc37fcd66
-ms.sourcegitcommit: 37bd34053557089c4fbf0e05f78e959609966561
+ms.openlocfilehash: 36bbf9fcc8bcd74c46f15ebcf9bd04e86cc4a2c9
+ms.sourcegitcommit: cc20b476a45bccb870c9de1d0b384e2c39e25d24
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/10/2020
-ms.locfileid: "94396325"
+ms.lasthandoff: 11/11/2020
+ms.locfileid: "94512323"
 ---
 # <a name="configure-workloads-in-a-premium-capacity"></a>在高级容量中配置工作负载
 
 本文介绍如何为 Power BI 高级容量启用和配置工作负载。 默认情况下，容量仅支持与正在运行的 Power BI 查询关联的工作负载。 还可以为 [AI（认知服务）](../transform-model/dataflows/dataflows-machine-learning-integration.md)、[数据流](../transform-model/dataflows/dataflows-introduction-self-service.md)和[分页报表](../paginated-reports/paginated-reports-save-to-power-bi-service.md)启用和配置其他工作负载。
+
+> [!NOTE]
+> Power BI Premium 最近发布了 Premium 的新版本，名为 Premium Gen2，目前处于预览状态。 Premium Gen2 将简化高级容量的管理，并减少管理开销。 有关详细信息，请参阅 [Power BI Premium 第二代（预览版）](service-premium-what-is.md#power-bi-premium-generation-2-preview)。
 
 ## <a name="default-memory-settings"></a>默认内存设置
 
@@ -31,7 +34,13 @@ ms.locfileid: "94396325"
 | **数据流**         | 默认为 40%，最低为 40%  | 默认为 24%，最低为 24%  | 默认为 20%，最低为 12%  | 默认为 20%，最低为 5%  | 默认为 20%，最低为 3%  | 默认为 20%，最低为 2%   |
 | **分页报表** | 不支持               | 不支持               | 不支持               | 默认为 20%，最低为 10% | 默认为 20%，最低为 5%  | 默认为 20%，最低为 2.5% |
 
+> [!NOTE]
+> Premium Gen2（当前处于预览状态）不需要更改内存设置。 Premium Gen2 中的内存由基础系统自动管理。 
+
+
 ## <a name="workload-settings"></a>工作负载设置
+
+以下各节将详细介绍上表中所述的工作负载设置。 
 
 ### <a name="ai-preview"></a>AI（预览版）
 
@@ -191,7 +200,7 @@ ms.locfileid: "94396325"
 
 1. 启用一个或多个工作负载，并设置“最大内存”和其他设置的值。
 
-1. 选择 **应用** 。
+1. 选择 **应用**。
 
 ### <a name="rest-api"></a>REST API
 
@@ -214,3 +223,13 @@ ms.locfileid: "94396325"
  [Power BI Desktop 中的自动页面刷新（预览）](../create-reports/desktop-automatic-page-refresh.md)
 
 更多问题？ [在 Power BI 社区提问](https://community.powerbi.com/)
+
+Power BI 推出了 Power BI Premium Gen2 作为预览产品/服务，通过以下方面的改进改善了 Power BI Premium 的体验：
+* 性能
+* 用户个人许可
+* 更大规模
+* 改进的指标
+* 自动缩放
+* 降低管理开销
+
+有关 Power BI Premium Gen2 的详细信息，请参阅 [Power BI Premium 第二代（预览版）](service-premium-what-is.md#power-bi-premium-generation-2-preview)。

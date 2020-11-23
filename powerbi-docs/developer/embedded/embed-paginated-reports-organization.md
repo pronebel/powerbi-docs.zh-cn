@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: tutorial
 ms.date: 06/25/2020
-ms.openlocfilehash: 41c7ba43d16b6d77ecf6324d3cd175dbbabc51a1
-ms.sourcegitcommit: 02484b2d7a352e96213353702d60c21e8c07c6c0
+ms.openlocfilehash: 447fad076d9d171a2bdcb8e9f5aafe9c63555d79
+ms.sourcegitcommit: bd133cb1fcbf4f6f89066165ce065b8df2b47664
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "91983382"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "94668663"
 ---
 # <a name="tutorial-embed-power-bi-paginated-reports-into-an-application-for-your-organization"></a>教程：在应用程序中为组织嵌入 Power BI 分页报表
 
@@ -44,6 +44,9 @@ ms.locfileid: "91983382"
 * 至少为 P1 容量。 请参阅[用于分页报表的高级容量的大小是多少？](../../paginated-reports/paginated-reports-faq.md#what-size-premium-capacity-do-i-need-for-paginated-reports)
 
 如果未注册 Power BI Pro，请在开始之前[注册以获得免费试用](https://powerbi.microsoft.com/pricing/)。
+
+>[!NOTE]
+>支持 [Premium Per User (PPU)](../../admin/service-premium-per-user-faq.md)。 但是，如果使用的是 PPU，则只有组织中的 PPU 用户才能访问你的解决方案。
 
 ## <a name="set-up-your-power-bi-environment"></a>设置 Power BI 环境
 

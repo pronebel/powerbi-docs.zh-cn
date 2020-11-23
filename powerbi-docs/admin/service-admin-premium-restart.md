@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-premium
 ms.topic: how-to
-ms.date: 03/12/2020
+ms.date: 11/11/2020
 LocalizationGroup: Premium
-ms.openlocfilehash: 0f237efece8403730ea7790d45bca6f5169e53fd
-ms.sourcegitcommit: 51b965954377884bef7af16ef3031bf10323845f
+ms.openlocfilehash: ac0935dd6f2239ab96b9e7689a4f8e5bc013efa1
+ms.sourcegitcommit: cc20b476a45bccb870c9de1d0b384e2c39e25d24
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/30/2020
-ms.locfileid: "91599527"
+ms.lasthandoff: 11/11/2020
+ms.locfileid: "94512507"
 ---
 # <a name="restart-a-power-bi-premium-capacity"></a>重启 Power BI 高级容量
 
@@ -28,6 +28,9 @@ Power BI 共享容量通过对文件大小、刷新计划和服务的其他方�
 
 Power BI 不断改进其保护高级容量用户免受此类问题的影响。 我们还允许管理员使用工具来分析容量何时负担过重以及原因。 有关详细信息，请参阅[简短培训课程](https://www.youtube.com/watch?v=UgsjMbhi_Bk&feature=youtu.be)和[长期培训课程](https://powerbi.tips/2018/07/)。 与此同时，你需要能够在发生重大问题时缓解这些问题。 缓解这些问题的最快方法是重启容量。
 
+> [!NOTE]
+> Power BI Premium 最近发布了 Premium 的新版本，名为 Premium Gen2，目前处于预览状态。 Preview Gen2 容量不需要重启，因此该功能在 Premium Gen2 中不可用。
+
 ## <a name="is-the-restart-process-safe-will-i-lose-any-data"></a>重启过程是否安全？ 是否会丢失任何数据？
 
 重启后，所有保存在容量上的数据、定义、报表和仪表板都保持完整。 如果你重启容量，正在进行的计划刷新和临时刷新在大多数情况下都会被刷新引擎暂时停止，然后又因 Power BI 中内置的刷新重试逻辑而重启。 当容量可用时，服务会尝试重试任何受影响的刷新。 在重启过程中，用户界面中的刷新状态可能不会更改。 
@@ -38,15 +41,15 @@ Power BI 不断改进其保护高级容量用户免受此类问题的影响。 �
 
 请按照以下步骤重启容量。
 
-1. 在 Power BI 管理门户中，在“容量设置”选项卡上，导航到你的容量  。 
+1. 在 Power BI 管理门户中，在“容量设置”选项卡上，导航到你的容量。 
 
-1. 将“CapacityRestart”  功能标志  添加到容量 URL：`https://app.powerbi.com/admin-portal/capacities/<YourCapacityId>?capacityRestartButton=true`。
+1. 将“CapacityRestart”功能标志添加到容量 URL：`https://app.powerbi.com/admin-portal/capacities/<YourCapacityId>?capacityRestartButton=true`。
 
-1. 在“高级设置” > “容量重启”下，请选择“重启容量”。
+1. 在“高级设置” > “容量重启”下，请选择“重启容量”  。
 
     ![重启容量](media/service-admin-premium-restart/restart-capacity.png)
 
-1. 在“容量重启”对话框中，请选择“是，重启容量”   。
+1. 在“容量重启”对话框中，请选择“是，重启容量”。
 
     ![确认重启](media/service-admin-premium-restart/confirm-restart.png)
 

@@ -7,13 +7,13 @@ ms.topic: conceptual
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.custom: contperfq1
-ms.date: 09/22/2020
-ms.openlocfilehash: a364d3dd2d2175e4509d05f4c34eec31a1a371b6
-ms.sourcegitcommit: 37ec0e9e356b6d773d7d56133fb8ed6c06b65fd3
+ms.date: 10/21/2020
+ms.openlocfilehash: 6c1e4212cb991ff7eb3d0f8a5e336010499bcd1c
+ms.sourcegitcommit: bd133cb1fcbf4f6f89066165ce065b8df2b47664
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/23/2020
-ms.locfileid: "91024026"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "94668594"
 ---
 # <a name="understand-the-deployment-process"></a>了解部署过程
 
@@ -38,6 +38,8 @@ ms.locfileid: "91024026"
 如果具有容量权限，则工作区的内容将复制到要部署到的阶段，并在高级容量上创建该阶段的新工作区。
 
 如果没有容量权限，则会创建工作区，但不会复制内容。 你可以要求容量管理员将工作区添加到容量，或者要求提供容量的分配权限。 稍后，在将工作区分配到容量时，可以将内容部署到此工作区。
+
+如果使用的是 [Premium Per User (PPU)](../admin/service-premium-per-user-faq.md)，则会在与 PPU 关联的容量中自动创建工作区。 在这种情况下，不需要容量权限。 但 PPU 用户创建的工作区仅 PPU 用户才能访问。 另外，此类工作区中创建的内容仅 PPU 用户能使用。
 
 ### <a name="workspace-and-content-ownership"></a>工作区和内容所有权
 
@@ -67,7 +69,7 @@ ms.locfileid: "91024026"
 
 只要部署的内容驻留在[高级容量](../admin/service-premium-what-is.md)上，满足以下条件的用户就可以将其部署到具有现有工作区的阶段：
 
-* 属于源和目标部署阶段中的工作区的成员的任何 [Pro 用户](../admin/service-admin-purchasing-power-bi-pro.md)。
+* 拥有 [Pro 许可证](../admin/service-admin-purchasing-power-bi-pro.md)的用户或 [PPU 用户](../admin/service-premium-per-user-faq.md)，该用户同时是源和目标部署阶段中工作区的成员。
 
 * 要部署的目标工作区中所有数据集的所有者。
 
@@ -87,7 +89,7 @@ ms.locfileid: "91024026"
 
 部署管道不支持以下项：
 
-* 不是源自 .pbix 的数据集
+* 不是源自 PBIX 的数据集
 
 * 基于不支持的数据集的报表
 

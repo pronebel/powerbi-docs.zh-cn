@@ -7,19 +7,19 @@ ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: how-to
 ms.author: davidi
-ms.date: 10/21/2020
+ms.date: 11/12/2020
 ms.custom: ''
 LocalizationGroup: Administration
-ms.openlocfilehash: 0166e7a452c01f7b9dbec294d8087fcd035cb586
-ms.sourcegitcommit: 3ddfd9ffe2ba334a6f9d60f17ac7243059cf945b
+ms.openlocfilehash: 7faa8a360a30091c599e8b633fa8f03dc008a3ed
+ms.sourcegitcommit: bd133cb1fcbf4f6f89066165ce065b8df2b47664
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/22/2020
-ms.locfileid: "92349428"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "94668180"
 ---
 # <a name="private-links-for-accessing-power-bi"></a>用于访问 Power BI 的专用链接
 
-Azure 网络提供了两种安全功能，即 Azure 专用链接和专用终结点，这些功能使 Power BI 能够提供安全的访问。 通过 Azure 专用链接和专用终结点，数据流量通过 Microsoft 主干网络基础结构私密地进行发送，因此数据不会遍历 Internet。 
+Azure 网络提供了 Azure 专用链接功能，使 Power BI 可以通过 Azure 网络专用终结点提供安全访问。 通过 Azure 专用链接和专用终结点，数据流量通过 Microsoft 主干网络基础结构私密地进行发送，因此数据不会遍历 Internet。 
 
 专用链接可确保 Power BI 用户在转到 Power BI 服务中的资源时使用 Microsoft 专用网络主干。
 
@@ -266,7 +266,7 @@ Power BI 服务实现专用终结点，而不是服务终结点。
 
 创建名为 myVM 的虚拟机后，使用以下步骤通过 Internet 连接到该虚拟机：
 
-1. 在门户的搜索栏中，输入 *myVm* 。
+1. 在门户的搜索栏中，输入 *myVm*。
 2. 选择“连接”按钮。 选择“连接”按钮后，“连接到虚拟机”随即打开 。
 3. 选择“下载 RDP 文件”。 Azure 会创建远程桌面协议 ( .rdp) 文件，并将其下载到计算机。
 4. 打开下载的 .rdp 文件。
@@ -310,6 +310,8 @@ Power BI 服务实现专用终结点，而不是服务终结点。
 * 使用专用链接环境时，“导出到 PDF”、从报表导出到 Excel 以及其他导出服务不可用
 * SQL Server Reporting Services 报表（通常称为 RDL 文件 [*.rdl 格式文件]）不会在专用链接环境中呈现
 * 如果 Internet 访问被禁用，并且如果数据集或数据流连接到作为数据源的 Power BI 数据集或数据流，则连接将失败
+* 启用专用链接后，使用情况指标将失效
+* 在 Power BI 中启用“阻止公共 Internet 访问”时，不支持“发布到 Web”（灰显）
 
 
 ## <a name="next-steps"></a>后续步骤

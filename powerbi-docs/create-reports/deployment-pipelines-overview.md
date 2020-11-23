@@ -7,19 +7,19 @@ ms.topic: conceptual
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.custom: contperfq1
-ms.date: 09/15/2020
-ms.openlocfilehash: 58d1adef9a9b2a8a4f818f94da2cb34e6529db83
-ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
+ms.date: 10/21/2020
+ms.openlocfilehash: b0b8d61224a91cd069caf48a2d321979ac2d291d
+ms.sourcegitcommit: cc20b476a45bccb870c9de1d0b384e2c39e25d24
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90855486"
+ms.lasthandoff: 11/11/2020
+ms.locfileid: "94513289"
 ---
 # <a name="introduction-to-deployment-pipelines"></a>部署管道简介
 
 在当今世界，分析是在几乎每个组织中做出决策的重要部分。 随着 Power BI 作为分析工具的不断使用，它需要使用更多的数据，从而看上去具有吸引力并且具备用户友好性。 尽管如此，Power BI 都需要始终可用且可靠。 为了满足这些要求，BI 创建者必须有效地协作。
 
-借助部署管道工具，BI 创建者能够管理组织内容的生命周期。 对于具有 Premium 容量的企业的创建者，此工具非常高效并且可以重复使用。 借助该工具，创建者可以在用户使用 Power BI 内容之前开发和测试此内容。 内容类型包括报表、仪表板和数据集。
+借助部署管道工具，BI 创建者能够管理组织内容的生命周期。 对于具有高级容量的企业的创建者，此工具非常高效并且可以重复使用。 借助部署管道，创建者可以在用户使用 Power BI 内容之前开发和测试此内容。 内容类型包括报表、仪表板和数据集。
 
 该工具设计为具有三个阶段的管道：
 
@@ -29,7 +29,7 @@ ms.locfileid: "90855486"
 
 * <a name="test"></a>测试
 
-    在对内容进行所有更改之后，即可进入测试阶段。 上传修改后的内容，以便系统可以将其移动到此测试阶段。 以下三个示例说明了在测试环境中可以执行的操作：
+    在对内容进行所需的所有更改之后，即可进入测试阶段。 上传修改后的内容，以便系统可以将其移动到此测试阶段。 以下三个示例说明了在测试环境中可以执行的操作：
 
     * 与测试人员和审阅者共享内容
 

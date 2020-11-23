@@ -6,13 +6,13 @@ ms.author: kesharab
 ms.topic: troubleshooting
 ms.service: powerbi
 ms.subservice: powerbi-service
-ms.date: 09/15/2020
-ms.openlocfilehash: 929a79d7e940f729b90d0cdf6d3ebd905a621f6a
-ms.sourcegitcommit: 4ac9447d1607dfca2e60948589f36a3d64d31cb4
+ms.date: 11/11/2020
+ms.openlocfilehash: 141364664b6608b252fc2be8620226ae8d9ce39b
+ms.sourcegitcommit: bd133cb1fcbf4f6f89066165ce065b8df2b47664
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/29/2020
-ms.locfileid: "92916811"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "94668617"
 ---
 # <a name="deployment-pipelines-troubleshooting"></a>解决部署管道问题
 
@@ -20,7 +20,7 @@ ms.locfileid: "92916811"
 
 ## <a name="general"></a>常规
 
-### <a name="whats-deployment-pipelines-in-power-bi"></a>什么是 Power BI 中的部署管道
+### <a name="whats-deployment-pipelines-in-power-bi"></a>什么是 Power BI 中的部署管道？
 
 若要了解什么是 Power BI 中的部署管道，请参阅[部署管道概述](deployment-pipelines-overview.md)。
 
@@ -32,15 +32,15 @@ ms.locfileid: "92916811"
 
 如果未满足以下条件，则将无法看到部署管道按钮。
 
-* 你是 Power BI [Pro 用户](../admin/service-admin-purchasing-power-bi-pro.md)
+* 你具有以下某个高级许可证：
 
-* 你属于具有高级容量的组织
+    * 你是 Power BI [Pro 用户](../admin/service-admin-purchasing-power-bi-pro.md)，并且属于具有高级容量的组织。
 
-* 只能将工作区分配到单个管道
+    * [Premium Per User (PPU)](../admin/service-premium-per-user-faq.md)。
 
-* 你是新工作区的管理员
+* 你是[新工作区体验](../collaborate-share/service-create-the-new-workspaces.md)的管理员。
 
-### <a name="why-cant-i-see-the-pipeline-stage-tag-in-my-workspace"></a>为什么看不到我的工作区中的管道阶段标记
+### <a name="why-cant-i-see-the-pipeline-stage-tag-in-my-workspace"></a>为什么看不到我的工作区中的管道阶段标记？
 
 部署管道显示分配给管道的工作区中的管道阶段标记。 开发和测试阶段的标记始终可见。 但是，如果你有权[访问管道](deployment-pipelines-process.md#user-with-pipeline-access)，或者如果你是[工作区管理员](deployment-pipelines-process.md#workspace-admin)，则只会看到生产标记。
 
@@ -51,15 +51,24 @@ ms.locfileid: "92916811"
 
 ### <a name="what-licenses-are-needed-to-work-with-deployment-pipelines"></a>使用部署管道需要哪些许可证？
 
-若要使用部署管道，你必须是具有[高级容量](../admin/service-premium-what-is.md)的 [Pro 用户](../admin/service-admin-purchasing-power-bi-pro.md)。 有关详细信息，请参阅[访问部署管道](deployment-pipelines-get-started.md#accessing-deployment-pipelines)。
+若要使用部署管道，需要拥有以下许可证之一：
+
+* [Pro 用户](../admin/service-admin-purchasing-power-bi-pro.md)许可证，且工作区驻留在[高级容量](../admin/service-premium-what-is.md)中。
+
+* [Premium Per User (PPU)](../admin/service-premium-per-user-faq.md)。
+
+有关详细信息，请参阅[访问部署管道](deployment-pipelines-get-started.md#accessing-deployment-pipelines)。
 
 ### <a name="what-type-of-capacity-can-i-assign-to-a-workspace-in-a-pipeline"></a>我可以将哪种类型的容量分配到管道中的工作区？
 
 部署管道中的所有工作区都必须位于容量内，管道才能正常运行。 但是，可以对管道中的不同工作区使用不同的容量。 也可以对同一管道中的不同工作区使用不同的容量类型。
 
-出于开发和测试目的，可以与每个用户的 Pro Power BI 帐户一起使用 A 或 EM 容量。
+出于开发和测试目的，可以与每个用户的 Pro Power BI 帐户一起使用 A 或 EM 容量。 还可以在开发和测试阶段为每个用户使用 PPU。
 
-对于生产工作区，需要 P 容量。 如果你是通过嵌入式应用程序分发内容的 ISV，则还可以将 A 或 EM 容量用于生产。
+对于生产工作区，需要 P 容量。 如果你是通过嵌入式应用程序分发内容的 ISV，则还可以将 A 或 EM 容量用于生产。 PPU 也可以用于生产工作区。
+
+>[!NOTE]
+>使用 PPU 创建工作区时，只有 PPU 用户才能访问该工作区并使用其内容。
 
 ## <a name="technical"></a>技术
 
@@ -87,7 +96,7 @@ ms.locfileid: "92916811"
 
 |Error  |操作  |
 |---------|---------|
-|你没有[高级容量权限](deployment-pipelines-process.md#creating-a-premium-capacity-workspace)。     |若要获取高级容量权限，请要求容量管理员将工作区添加到容量，或者要求提供容量的分配权限。 工作区位于容量中之后，进行重新部署。        |
+|你没有[高级容量权限](deployment-pipelines-process.md#creating-a-premium-capacity-workspace)。     |如果在具有高级容量的组织中工作，请要求容量管理员将工作区添加到容量，或者要求提供容量的分配权限。 工作区位于容量中之后，进行重新部署。</br></br>如果不在具有高级容量的组织中工作，请考虑购买 [Premium Per User (PPU)](../admin/service-premium-per-user-faq.md)。        |
 |你没有工作区权限。     |若要进行部署，你必须是工作区成员。 要求工作区管理员向你授予适当的权限。         |
 |Power BI 管理员禁用了工作区的创建。     |请与 Power BI 管理员联系以获取支持。         |
 |你的工作区不是[新工作区体验](../collaborate-share/service-create-the-new-workspaces.md)。     |在新工作区体验中创建内容。 如果经典工作区中包含内容，则可以将其[升级](../collaborate-share/service-upgrade-workspaces.md)到新工作区体验。         |
@@ -152,9 +161,9 @@ ms.locfileid: "92916811"
 
 内容可以部署到空阶段或包含内容的阶段。 内容必须位于[高级容量](../admin/service-premium-what-is.md)中。
 
-* 部署到空阶段 - 属于源工作区中的成员或管理员的任何 [Pro 用户](../admin/service-admin-purchasing-power-bi-pro.md)。
+* 部署到空阶段 - 属于源工作区中的成员或管理员的任何 [Pro](../admin/service-admin-purchasing-power-bi-pro.md)或 [PPU](../admin/service-premium-per-user-faq.md) 用户。
 
-* 部署到包含内容的阶段 - 属于源和目标部署阶段中的工作区的成员或管理员的任何 [Pro 用户](../admin/service-admin-purchasing-power-bi-pro.md)。
+* 部署到包含内容的阶段 - 属于源和目标部署阶段中的两个工作区的成员或管理员的任何 [Pro](../admin/service-admin-purchasing-power-bi-pro.md)或 [PPU](../admin/service-premium-per-user-faq.md) 用户。
 
 * 覆盖数据集 - 部署覆盖目标阶段中包含的每个数据集，即使未更改数据集也是如此。 用户必须是部署中指定的所有目标阶段数据集的所有者。
 

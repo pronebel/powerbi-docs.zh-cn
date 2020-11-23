@@ -10,12 +10,12 @@ ms.date: 09/16/2020
 ms.author: mihart
 ms.custom: licensing support
 LocalizationGroup: consumers
-ms.openlocfilehash: ddd63a4f18c9994e0a89f4028bcdec96eda21600
-ms.sourcegitcommit: 4ac9447d1607dfca2e60948589f36a3d64d31cb4
+ms.openlocfilehash: 8bfdcd9ba87dd6a4fa12a3750b517a09844d3d6e
+ms.sourcegitcommit: bd133cb1fcbf4f6f89066165ce065b8df2b47664
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/29/2020
-ms.locfileid: "92916696"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "94668479"
 ---
 # <a name="power-bi-feature-list-for-consumers-and-others-with-free-licenses"></a>面向使用者和拥有免费许可证的其他用户的 Power BI 功能列表 
 
@@ -51,7 +51,7 @@ ms.locfileid: "92916696"
 
     ![显示高级用户的屏幕](media/end-user-features/power-bi-free-organization.png)
 
-    对于免费版用户，成为拥有高级容量的组织的成员将获得更大的能力。 只要 Pro 同事使用高级容量工作区来共享内容，免费用户就可以查看这些内容并与这些 Pro 同事协作。  这样，免费用户就可以使用其他人创建的内容。 **业务用户与他们的同事（包括 Pro 用户）一起，在相同仪表板和报表及应用上接收信息、共享和协作，以做出业务决策。** 
+    对于免费版用户，成为拥有高级容量的组织的成员将获得更大的能力。 只要 Pro 同事使用高级容量工作区来共享内容，免费用户就可以查看这些内容并与这些 Pro 同事协作。  这样，免费用户就可以使用其他人创建的内容。 免费用户与他们的同事（包括 Pro 用户）一起，在相同仪表板和报表及应用上接收信息、共享和协作，以做出业务决策。 
  
     ![屏幕显示免费版用户](media/end-user-features/power-bi-free-user.png)
 

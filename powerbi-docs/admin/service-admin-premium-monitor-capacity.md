@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-premium
 ms.topic: how-to
-ms.date: 05/18/2020
+ms.date: 11/11/2020
 LocalizationGroup: Premium
-ms.openlocfilehash: e13e3ec52ab9eecf3f98b5610df9d83243d7c092
-ms.sourcegitcommit: 51b965954377884bef7af16ef3031bf10323845f
+ms.openlocfilehash: 46e2684b468e480da5db5287ffc40466d71c8f22
+ms.sourcegitcommit: cc20b476a45bccb870c9de1d0b384e2c39e25d24
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/30/2020
-ms.locfileid: "91599803"
+ms.lasthandoff: 11/11/2020
+ms.locfileid: "94512208"
 ---
 # <a name="monitor-premium-capacities-with-the-app"></a>使用应用监视高级容量
 
@@ -24,6 +24,9 @@ ms.locfileid: "91599803"
 
 > [!IMPORTANT]
 > 如果 Power BI Premium 容量遇到资源使用量过高的情况，从而导致性能或可靠性问题，可通过接收通知电子邮件来识别和解决问题。 这可以充当一种用于排查重载容量的简化方法。 有关详细信息，请参阅[容量和可靠性通知](service-interruption-notifications.md#capacity-and-reliability-notifications)。
+
+> [!NOTE]
+> Power BI Premium 最近发布了 Premium 的新版本，名为 Premium Gen2，目前为预览版。 Premium Gen2 将简化高级容量的管理，并减少管理开销。 有关详细信息，请参阅 [Power BI Premium 第二代（预览版）](service-premium-what-is.md#power-bi-premium-generation-2-preview)。
 
 ## <a name="install-the-app"></a>安装应用
 
@@ -304,3 +307,15 @@ ms.locfileid: "91599803"
 
 > [!div class="nextstepaction"]
 > [优化 Power BI Premium 容量](service-premium-capacity-optimize.md)
+
+更多问题？ [在 Power BI 社区提问](https://community.powerbi.com/)
+
+Power BI 推出了 Power BI Premium Gen2 作为预览产品/服务，通过以下方面的改进改善了 Power BI Premium 的体验：
+* 性能
+* 用户个人许可
+* 更大规模
+* 改进的指标
+* 自动缩放
+* 降低管理开销
+
+有关 Power BI Premium Gen2 的详细信息，请参阅 [Power BI Premium 第二代（预览版）](service-premium-what-is.md#power-bi-premium-generation-2-preview)。

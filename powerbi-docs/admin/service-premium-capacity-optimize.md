@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-premium
 ms.topic: conceptual
-ms.date: 04/09/2019
-ms.custom: seodec18
+ms.date: 11/11/2020
+ms.custom: ''
 LocalizationGroup: Premium
-ms.openlocfilehash: 21aa643c82887ec9beaca659d9e2e97a0f1cdcc9
-ms.sourcegitcommit: 51b965954377884bef7af16ef3031bf10323845f
+ms.openlocfilehash: ec9ef81a4a8f4da0ffdf651d08b307e13212635a
+ms.sourcegitcommit: cc20b476a45bccb870c9de1d0b384e2c39e25d24
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/30/2020
-ms.locfileid: "91599297"
+ms.lasthandoff: 11/11/2020
+ms.locfileid: "94512829"
 ---
 # <a name="optimizing-premium-capacities"></a>优化高级容量
 
@@ -27,6 +27,11 @@ ms.locfileid: "91599297"
 - 添加新的高级容量
 
 最后，以测试方法和高级容量大小调整结束本文。
+
+> [!NOTE]
+> Power BI Premium 最近发布了 Premium 的新版本，名为 Premium Gen2，目前处于预览状态。 Premium Gen2 将简化高级容量的管理，并减少管理开销。 有关详细信息，请参阅 [Power BI Premium 第二代（预览版）](service-premium-what-is.md#power-bi-premium-generation-2-preview)。
+
+按照本文中的建议和最佳做法操作可确保每个数据集和其他 Power BI 项目的 CPU 利用率得到优化。
 
 ## <a name="best-practices"></a>最佳做法
 
@@ -54,7 +59,7 @@ ms.locfileid: "91599297"
 
 ### <a name="what-content-is-using-up-my-capacity"></a>哪些内容占用了我的容量？
 
-可使用 Power BI Premium 容量指标应用按容量进行筛选，并查看工作区内容的性能指标  。 对于存储在高级容量中的所有内容，可以按小时查看其在过去 7 天内的性能指标和资源使用情况。 在排查有关高级容量性能的一般性问题时，监视通常是要采取的第一步操作。
+可使用 Power BI Premium 容量指标应用按容量进行筛选，并查看工作区内容的性能指标。 对于存储在高级容量中的所有内容，可以按小时查看其在过去 7 天内的性能指标和资源使用情况。 在排查有关高级容量性能的一般性问题时，监视通常是要采取的第一步操作。
 
 要监视的关键指标包括：
 
@@ -67,7 +72,7 @@ ms.locfileid: "91599297"
 
 在 Power BI Premium 容量指标应用中，活动内存显示向某报表提供的内存总量，由于在过去三分钟内一直在使用该报表，因此无法将其逐出。 刷新等待时间的高峰值可能与大型和/或活动的数据集相关。
 
-“按平均持续时间排名前五”图表突出显示占用容量资源的前 5 个数据集、分页报表和数据流  。 排名前五的列表中的内容将列入调查候选项且可能进行优化。
+“按平均持续时间排名前五”图表突出显示占用容量资源的前 5 个数据集、分页报表和数据流。 排名前五的列表中的内容将列入调查候选项且可能进行优化。
 
 ### <a name="why-are-reports-slow"></a>报表速度为何会变慢？
 
@@ -97,7 +102,7 @@ ms.locfileid: "91599297"
 | --- | --- | --- |
 | 查询等待时间长。<br><br> CPU 饱和。<br><br> 超出 DQ/LC 连接限制。 | 监视 CPU 使用率 \[[4](#endnote-4)\]、查询等待时间和 DQ/LC 利用率 \[[5](#endnote-5)\] 指标 + 查询持续时间。 如果起伏不定，则表示是并发问题。 | 扩大容量或将内容分配到其他容量。<br><br> 重新设计报表，减少每页的视觉对象。 |
 
-**注意：**    
+**说明：**    
 <a name="endnote-1"></a>\[1\] 平均内存使用率 (GB) 和最高内存占用率 (GB)。   
 <a name="endnote-2"></a>\[2\] 数据集逐出。   
 <a name="endnote-3"></a>\[3\] 数据集查询、数据集平均查询持续时间（毫秒）、数据集等待计数和数据集平均等待时间（毫秒）。   
@@ -112,7 +117,7 @@ ms.locfileid: "91599297"
 
 如果该问题只是偶尔发生，则可能不被视为优先问题。 报表用户被告知服务繁忙且他们应稍后重试。 如果此情况的发生频率过高，可通过扩大高级容量或将内容分配到其他容量来解决问题。
 
-容量管理员（和 Power BI 服务管理员）可监视“查询失败”指标，以确定此问题的发生时间  。 他们还可重启容量，在系统过载时重置所有操作。
+容量管理员（和 Power BI 服务管理员）可监视“查询失败”指标，以确定此问题的发生时间。 他们还可重启容量，在系统过载时重置所有操作。
 
 ### <a name="why-are-refreshes-not-starting-on-schedule"></a>为何未按计划开始刷新？
 
@@ -129,7 +134,7 @@ ms.locfileid: "91599297"
 
 如果某计划内刷新无法在下一个计划内刷新即将开始之前启动，则该计划内刷新失败。 通过 UI 手动触发的按需刷新在失败前最多尝试运行三次。
 
-容量管理员（和 Power BI 服务管理员）可监视“平均刷新等待时间（分钟）”指标，以确定计划时间与操作开始时间之间的平均延迟  。
+容量管理员（和 Power BI 服务管理员）可监视“平均刷新等待时间（分钟）”指标，以确定计划时间与操作开始时间之间的平均延迟。
 
 虽然通常并非将管理视为优先，但确保有足够的内存才能影响按时数据刷新。 这可能涉及到将数据集隔离到具有已知足够资源的容量。 管理员也可以与数据集所有者协调，帮助错开或减少计划数据刷新时间，从而最大限度地减少冲突。 请注意，管理员无法查看刷新队列或检索数据集计划。
 
@@ -144,7 +149,7 @@ ms.locfileid: "91599297"
 - 非容量原因，包括数据源系统响应能力、网络延迟、无效权限或网关吞吐量。
 - 数据量 - 配置增量刷新的合理原因，如下所述。
 
-容量管理员（和 Power BI 服务管理员）可以监视“平均刷新持续时间（分钟）”指标，以确定随时间进行比较的基准，也可以监视“平均刷新等待时间（分钟）”指标，以确定计划时间与操作开始时间之间的平均延迟   。
+容量管理员（和 Power BI 服务管理员）可以监视“平均刷新持续时间（分钟）”指标，以确定随时间进行比较的基准，也可以监视“平均刷新等待时间（分钟）”指标，以确定计划时间与操作开始时间之间的平均延迟。
 
 增量刷新可以显著减少数据刷新持续时间，尤其是对大型模型表来说。 增量刷新有 4 个优点：
 
@@ -162,7 +167,7 @@ ms.locfileid: "91599297"
 - 内存不足，即使高级容量中只有一个模型也是如此，即模型非常大。
 - 非容量原因，包括数据源系统断开连接、无效权限或网关错误。
 
-容量管理员（和 Power BI 服务管理员）可以监视“因内存不足导致的刷新失败”指标  。
+容量管理员（和 Power BI 服务管理员）可以监视“因内存不足导致的刷新失败”指标。
 
 ## <a name="optimizing-models"></a>优化模型
 
@@ -226,7 +231,7 @@ ms.locfileid: "91599297"
 
 另外，可能需要注意的是，Azure Analysis Services 数据库和 SQL Server Analysis Services 表格数据库要求将其模型完全加载到内存中并将其一直保留在内存中以支持查询。 与 Power BI 服务相同的是，如果模型必须在刷新过程中保持联机状态，则需要有足够的内存用于刷新。 而与 Power BI 服务不同的是，模型不会根据使用情况自动进出内存。 因此，Power BI Premium 提供一种更有效的方法，通过降低内存使用率来最大化模型查询。
 
-## <a name="capacity-planning"></a>容量规划
+## <a name="capacity-planning"></a>容量计划
 
 高级容量的大小决定其可用内存和处理器资源以及对容量的限制。 高级容量的数量也是一个考虑因素，因为创建多个高级容量可帮助隔离彼此的工作负载。 请注意，每个容量节点的存储空间为 100 TB，这对任何工作负载来说可能都已远远足够。
 
@@ -244,7 +249,7 @@ ms.locfileid: "91599297"
 
 随着时间的推移，容量管理员可通过在工作区之间移动内容（或在容量之间移动工作区），以及通过增加或减少容量，在不同容量中平衡工作区。 通常，需要增加容量来托管较大的模型，需要横向扩展容量来实现更高的并发性。
 
-回想一下，购买许可证可为租户提供 vCore。 可购买 P3 订阅来创建一个或多个高级容量（最多 4 个），即创建 1 个 P3、2 个 P2 或 4 个 P1  。 此外，在将 P2 容量扩大到 P3 容量之前，可考虑拆分 vCore 来创建两个 P1 容量。
+回想一下，购买许可证可为租户提供 vCore。 可购买 P3 订阅来创建一个或多个高级容量（最多 4 个），即创建 1 个 P3、2 个 P2 或 4 个 P1。 此外，在将 P2 容量扩大到 P3 容量之前，可考虑拆分 vCore 来创建两个 P1 容量。
 
 ## <a name="testing-approaches"></a>测试方法
 
@@ -258,7 +263,7 @@ ms.locfileid: "91599297"
 
 要生成更复杂的测试，请考虑开发用于模拟实际工作负载的负载测试应用程序。 有关详细信息，请参阅网络研讨会 [Load Testing Power BI Applications with Visual Studio Load Test](https://powerbi.microsoft.com/blog/week-4-11-webinars-load-testing-power-bi-applications-with-visual-studio-load-test-and-getting-started-with-cds-for-apps-based-model-driven-apps/)（使用 Visual Studio 负载测试对 Power BI 应用程序进行负载测试）。
 
-## <a name="acknowledgements"></a>致谢
+## <a name="acknowledgments"></a>致谢
 
 本文由 Peter Myers、数据平台 MVP 和独立的 BI 专家通过 [Bitwise Solutions](https://www.bitwisesolutions.com.au/) 撰写。
 
@@ -268,3 +273,13 @@ ms.locfileid: "91599297"
 > [高级容量方案](service-premium-capacity-scenarios.md)   
   
 更多问题？ [尝试咨询 Power BI 社区](https://community.powerbi.com/)
+
+Power BI 推出了 Power BI Premium Gen2 作为预览产品/服务，通过以下方面的改进改善了 Power BI Premium 的体验：
+* 性能
+* 用户个人许可
+* 更大规模
+* 改进的指标
+* 自动缩放
+* 降低管理开销
+
+有关 Power BI Premium Gen2 的详细信息，请参阅 [Power BI Premium 第二代（预览版）](service-premium-what-is.md#power-bi-premium-generation-2-preview)。

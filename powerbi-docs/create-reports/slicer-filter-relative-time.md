@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 07/06/2020
 ms.author: maggies
 LocalizationGroup: Create reports
-ms.openlocfilehash: f1a792c7ad25600f04ca9834b1e5019d4e27efb4
-ms.sourcegitcommit: 11deeccf596e9bb8f22615276a152614f7579f35
+ms.openlocfilehash: a8268af76472c91474f2f67bc256fcc0ddcc9768
+ms.sourcegitcommit: bd133cb1fcbf4f6f89066165ce065b8df2b47664
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/16/2020
-ms.locfileid: "86409504"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "94669215"
 ---
 # <a name="use-a-relative-time-slicer-and-filter-in-power-bi"></a>在 Power BI 中使用相对时间切片器和筛选器
 
@@ -89,11 +89,8 @@ ms.locfileid: "86409504"
 
 目前，使用相对日期切片器和筛选器时，需要遵循以下限制和注意事项。
 
-- **时区注意事项**Power BI 中的数据模型不包含时区信息。 模型可以存储时间，但并不指明所在时区。 切片器和筛选器始终基于 UTC 的时间。 如果在报表中设置筛选器并将其发送给位于其他时区的同事，你们将看到相同的数据。 除非你或你的同事处于 UTC 时区，否则你们都必须考虑将会遇到的时间偏移量。 可使用查询编辑器将在本地时区捕获的数据转换为 UTC。
-- Power BI Desktop、Power BI 服务、Power BI Embedded 和 Power BI 移动应用支持这种新的筛选器类型。 但存在以下几个已知的支持限制：
-
-    - 不支持嵌入 API。
-    - 不支持发布到 Web。
+- **时区注意事项** Power BI 中的数据模型不包含时区信息。 模型可以存储时间，但并不指明所在时区。 切片器和筛选器始终基于 UTC 的时间。 如果在报表中设置筛选器并将其发送给位于其他时区的同事，你们将看到相同的数据。 除非你或你的同事处于 UTC 时区，否则你们都必须考虑将会遇到的时间偏移量。 可使用查询编辑器将在本地时区捕获的数据转换为 UTC。
+- Power BI Desktop、Power BI 服务、Power BI Embedded 和 Power BI 移动应用支持这种新的筛选器类型。 但是，不支持发布到 Web。
 
 - **查询缓存**：我们使用客户端缓存。 假设指定“过去 1 分钟”，再指定“过去 5 分钟”，则会返回到“过去 1 分钟”。 此时，你看到的结果与首次运行时的结果相同，除非你刷新页面或页面自动刷新。
 

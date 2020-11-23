@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-gateways
 ms.topic: how-to
-ms.date: 07/15/2019
+ms.date: 11/17/2020
 ms.author: arthii
 LocalizationGroup: Gateways
-ms.openlocfilehash: b3f3dd39953ad382ab934bf87021123b949733fd
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: bb61f752891205a0e8997592d522efb2022a562b
+ms.sourcegitcommit: 5240990f998851c4854eb565de681099264c5a61
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85237062"
+ms.lasthandoff: 11/18/2020
+ms.locfileid: "94719020"
 ---
 # <a name="manage-your-data-source---importscheduled-refresh"></a>管理数据源 - 导入/计划刷新
 
@@ -62,12 +62,11 @@ ms.locfileid: "85237062"
 
 ![显示用户](media/service-gateway-enterprise-manage-scheduled-refresh/powerbi-gateway-enterprise-schedule-refresh.png)
 
+> [!IMPORTANT]
+> 发布后，数据集所有者必须再次将数据集重新关联到网关和相应的数据源。 重新发布后不会保留以前的关联。 
+
 > [!WARNING]
 > 如果数据集包含多个数据源，则必须在网关内添加每个数据源。 如果未将一个或多个数据源添加到网关，则不会看到可用于计划刷新的网关。
-
-## <a name="limitations"></a>限制
-
-OAuth 在本地数据网关中是不受支持的身份验证方案。 不能添加需要 OAuth 的数据源。 如果数据集具有需要 OAuth 的数据源，则不能将网关用于计划刷新。
 
 ## <a name="next-steps"></a>后续步骤
 

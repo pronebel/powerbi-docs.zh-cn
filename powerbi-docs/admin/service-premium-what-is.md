@@ -7,32 +7,81 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-premium
 ms.topic: conceptual
-ms.date: 07/28/2020
+ms.date: 11/12/2020
 ms.custom: licensing support
 LocalizationGroup: Premium
-ms.openlocfilehash: cb8ac0ad558f15219829e9f32111cacf9f27eb25
-ms.sourcegitcommit: 132b3f6ba6d2b1948ddc15969d64cf629f7fb280
+ms.openlocfilehash: d5879d6a8469b23f6e31e48345ac3ccb5f378cbb
+ms.sourcegitcommit: bd133cb1fcbf4f6f89066165ce065b8df2b47664
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/11/2020
-ms.locfileid: "94483733"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "94668203"
 ---
 # <a name="what-is-power-bi-premium"></a>什么是 Power BI Premium？
 
-你可以使用 Power BI Premium 为组织获得增强的专用资源，这样组织中的用户就能使用性能更高且响应速度更快的 Power BI 服务。 例如，借助 Power BI Premium 订阅，你和组织用户可以：
+可以使用 Power BI Premium 来访问仅 Premium 中提供的功能，并为组织中的 Power BI 内容提供更大的规模和更佳的性能。 借助 Power BI Premium，组织中的更多用户能够充分利用 Power BI，同时获得更好的性能和响应能力。 例如，借助 Power BI Premium，你和组织用户可获得以下好处：
 
 > [!div class="checklist"]
-> * 规模更大，性能更强
+> * Power BI 报表的规模更大，性能更强
 > * 灵活地按容量许可
-> * 统一自助服务和企业 BI
-> * 使用 Power BI 报表服务器扩展本地 BI
-> * 支持按区域数据驻留（多地理位置）
-> * 与任何人共享数据而无需购买每用户许可证
+> * 一流的数据可视化和见解提取功能，例如 AI 驱动的分析，可组合和可重用的数据流以及分页报表
+> * 通过各种仅限 Premium 的功能将自助服务和企业 BI 统一起来，这些功能可支持繁重的工作负载并在企业规模上实现
+> * 内置许可证的作用是通过 Power BI 报表服务器扩展本地 BI
+> * 支持按区域（多地区）提供的数据驻留和用于静态数据的客户管理的加密密钥 (BYOK)
+> * 无需购买每用户许可证即可与任何人（甚至在组织外部）共享 Power BI 内容
 
 
 ![屏幕截图显示 Power BI 管理门户。](media/service-premium-what-is/premium-admin-portal.png) 
 
 本文介绍了 Power BI Premium 中的主要功能。 必要时，提供包含更多详细信息的其他文章的链接。 有关 Power BI Pro 和 Power BI Premium 的详细信息，请参阅 [Power BI 定价](https://powerbi.microsoft.com/pricing/)的“Power BI 功能比较”部分。
+
+## <a name="power-bi-premium-generation-2-preview"></a>Power BI Premium Generation 2（预览版）
+
+Power BI Premium 最近发布了 Power BI Premium 的新版本，即 Power BI Premium Generation 2，为方便起见，我们将其称为 Premium Gen2 。 Premium Gen2 目前以预览版提供，可供 Premium 订阅者在预览期间使用。 可以选择使用原始版本的 Premium，也可以切换为使用 Premium Gen2。 只能将其中一个用于高级容量。 
+
+Premium Gen2 提供以下更新或改进的体验：
+
+* 除按容量提供外，还可以提供 Premium Per User 许可。
+
+* 可随时增强任何容量大小上的性能：在 Premium Gen2 上，“分析操作”的运行速度可提升最高 16 倍。 当容量上的负载接近容量限制时，操作始终以最快的速度执行，不会降低速度。
+
+* **更大规模**：
+    * 对刷新并发次数没有限制，不再要求跟踪在容量上刷新的数据集计划
+    * 较少的内存限制
+    * 报表交互和计划刷新之间完全隔离
+
+* 使用清晰且标准化的容量使用率数据改进了指标，该数据仅取决于容量执行的分析操作的复杂度，而不取决于容量的大小、执行这些操作时系统的负载级别等。 通过改进的指标，利用内置的报表可以清楚地了解利用率分析结果、预算计划、退款和升级需求。 在整个预览期间，将提供改进的指标，并对其进行优化。 
+
+* 自动缩放允许当容量上的负载超过其限制时在 24 小时内的某个时间自动添加 1 个 V 核心，从而防止因工作负荷太重而导致速度降低。 当检测到空闲时间时，将自动删除 V 核心。 额外的 V 核心按即用即付方式向 Azure 订阅收费。 自动缩放将在预览期间提供。 
+
+* 显着降低了管理开销，同时提供有关容量使用率级别和负载增加的主动和可配置管理员通知。
+
+
+### <a name="using-premium-gen2"></a>使用 Premium Gen2
+
+需要启用 Premium Gen2 才能利用其更新。 若要启用 Premium Gen2，请执行以下步骤：
+
+1. 在管理门户中，导航到“容量设置”。
+2. 选择“Power BI Premium”。
+3. 随即出现某个标题为“Premium Generation 2(预览版)”的部分，该部分中有一个用于启用 Premium Generation 2（预览版）的滑块。 
+4. 将滑块移至“已启用”。
+
+下图显示了如何启用 Premium Gen2。 
+
+![启用 Premium Generation 2](media/service-premium-what-is/enable-premium-gen2.gif#lightbox) 
+
+### <a name="known-limitations-in-premium-gen2"></a>Premium Gen2 中的已知限制
+
+以下已知限制目前适用于 Premium Gen2：
+
+1.  无法在指标应用中跟踪 Premium Gen2 容量使用率。
+
+2.  “管理”门户的 Premium Gen2 容量设置页面中尚不显示适用于特定工作负载的 Premium Gen2 容量设置。 若要更改设置，请将容量转换为 Premium 的原始版本，更改设置，然后再次将容量设置为使用 Premium Gen2。 内存分配设置不适用于 Premium Gen2 容量。
+
+3.  具有 ADLS Gen2 数据源的数据流当前在 Premium Gen2 容量上不起作用。  
+
+4.  如果在 Premium Gen2 上使用 XMLA，请确保使用的是[数据建模和管理工具](service-premium-connect-tools.md#data-modeling-and-management-tools)的最新版本。 
+
 
 ## <a name="subscriptions-and-licensing"></a>订阅和许可
 
@@ -42,19 +91,22 @@ Power BI Premium 是租户级别的 Microsoft 365 订阅，可在两个 SKU（�
 
 - 用于组织嵌入的 EM SKU (EM1-EM3)，要求按年承诺并按月计费。 EM1 和 EM2 SKU 仅通过批量许可计划提供， 无法直接购买。
 
-另一种方法是在 Azure 中购买 Power BI Embedded 订阅。 有一个 A (A1-A6) SKU 系列，它不需要承诺并按小时计费，以在应用程序、门户和网站中使用带有白色标记的 Power BI，或者作为测试 P 或 EM 容量的一种方法。 所有 SKU 都提供 V 核心用于创建容量，但 EM SKU 仅限于较小规模的嵌入。 V 核心少于四个的 EM1、EM2、A1 和 A2 SKU 不在专用基础设施上运行。
+### <a name="updates-for-premium-gen2-preview"></a>Premium Gen2（预览版）的更新
+当前，Premium Gen2 仅作为 P 和 EM SKU 的完全受支持的预览功能提供 。 A SKU 容量尚未提供 Premium Gen2 预览版更新带来的所有其他权益。
 
-虽然本文的重点是 P SKU，但其中大部分内容也与 A SKU 相关。 与 Premium 订阅 SKU 相反，Azure SKU 不需要时间承诺，并按小时计费。 它们提供全方位的灵活性，可实现纵向扩展、横向扩展、暂停、恢复和删除。 
-
-Azure Power BI Embedded 在很大程度上超出了本文的范围，但在“优化 Premium 容量”一文的[测试方法](service-premium-capacity-optimize.md#testing-approaches)部分将其作为测试和测量工作负载的实用且经济的选项进行了介绍。 若要了解有关 Azure SKU 的详细信息，请参阅 [Azure Power BI Embedded 文档](https://azure.microsoft.com/services/power-bi-embedded/)。
 
 ### <a name="purchasing"></a>购买
 
-Power BI Premium 订阅由 Microsoft 365 管理中心的管理员购买。 具体而言，仅全局管理员或计费管理员才能购买 SKU。 购买时，租户会收到相应数量的 V 核心用于分配给容量，这称为 *V 核心池* 。 例如，购买 P3 SKU 会为租户提供 32 个 V 核心。 若要了解详细信息，请参阅[如何购买 Power BI Premium](service-admin-premium-purchase.md)。
+Power BI Premium 订阅由 Microsoft 365 管理中心的管理员购买。 具体而言，仅全局管理员或计费管理员才能购买 SKU。 购买时，租户会收到相应数量的 V 核心用于分配给容量，这称为 *V 核心池*。 例如，购买 P3 SKU 会为租户提供 32 个 V 核心。 若要了解详细信息，请参阅[如何购买 Power BI Premium](service-admin-premium-purchase.md)。
 
-## <a name="dedicated-capacities"></a>专用容量
+#### <a name="power-bi-premium-per-user-preview"></a>Power BI Premium Per User（预览版）
 
-借助 Power BI Premium，可获得 *专用容量* 。 共享容量的工作负载在与其他客户共享的计算资源上运行，与之相反，专用容量仅供组织使用。 它与专用计算资源分离，专用计算资源为托管内容提供可靠且一致的性能。 请注意，以下资源存储在共享容量而非专用容量中：
+借助 Power BI Premium Per User，组织能够在用户级别上提供高级功能许可。 Premium Per User (PPU) 包括所有 Power BI Pro 许可证功能，还增加了分页报表、AI 和其他仅面向高级订阅者的功能。 Premium Per User 目前以预览版提供。 有关 Premium Per User 的详细信息，包括功能比较和有关预览版的其他信息，请参阅 [Power BI Premium Per User 常见问题解答（预览版）](service-premium-per-user-faq.md)。 
+
+
+## <a name="reserved-capacities"></a>预留容量
+
+使用 Power BI Premium，可以获得预留容量。 共享容量的工作负载分析处理在与其他客户共享的计算资源上运行，与之相反，预留容量仅供组织使用。 预留容量与预留计算资源分离，为托管内容提供可靠且一致的性能。 请注意，以下类型的 Power BI 处理内容存储在共享容量中，而不是预留容量中：
 
 * Excel 工作簿（除非是首次将数据导入 Power BI Desktop）
 * [推送数据集](/rest/api/power-bi/pushdatasets)
@@ -63,9 +115,15 @@ Power BI Premium 订阅由 Microsoft 365 管理中心的管理员购买。 具�
 
 工作区驻留在容量范围内。 每个 Power BI 用户都有一个称为“我的工作区”的个人工作区。 可创建其他工作区来启用协作，这些工作区称为“工作区”。 默认情况下，工作区（包括个人工作区）在共享容量中创建。 如果拥有高级容量，可将“我的工作区”和“工作区”都分配给高级容量。
 
+容量管理员会自动将其“我的工作区”分配给高级容量。
+
+### <a name="updates-for-premium-gen2-preview"></a>Premium Gen2（预览版）的更新
+Premium Gen 2 节点不再使用预留基础结构。 该服务通过从计算能力很强的计算节点的共享池中分配足够的资源来确保可为每个运行的工作负载提供足够的计算能力。
+
+
 ### <a name="capacity-nodes"></a>容量节点
 
-如 [订阅和许可](#subscriptions-and-licensing)部分所述，有两个 Power BI Premium SKU 系列： **EM** 和 **P** 。所有 Power BI Premium SKU 均可作为容量 *节点* 提供，每个节点代表由处理器、内存和存储组成的一定数量的资源。 除资源外，每个 SKU 还对每秒处理的 DirectQuery 和 Live Connection 连接的数量，以及并行模型刷新次数进行了操作限制。
+如 [订阅和许可](#subscriptions-and-licensing)部分所述，有两个 Power BI Premium SKU 系列：**EM** 和 **P**。所有 Power BI Premium SKU 均可作为容量 *节点* 提供，每个节点代表由处理器、内存和存储组成的一定数量的资源。 除资源外，每个 SKU 还对每秒处理的 DirectQuery 和 Live Connection 连接的数量，以及并行模型刷新次数进行了操作限制。
 
 处理由一定数量的 V 核心实现，并在后端和前端之间平均分配。
 
@@ -73,7 +131,7 @@ Power BI Premium 订阅由 Microsoft 365 管理中心的管理员购买。 具�
 
 **前端 V 核心** 负责 Web 服务、仪表板和报表文档管理、访问权限管理、时间安排、API、上传和下载，以及通常与用户体验相关的所有内容。
 
-存储设置为 **每个容量节点 100 TB** 。
+存储设置为 **每个容量节点 100 TB**。
 
 每个 Premium SKU（和等效大小的 A SKU）的资源和限制如下表所述：
 
@@ -82,17 +140,22 @@ Power BI Premium 订阅由 Microsoft 365 管理中心的管理员购买。 具�
 | EM1/A1 | 1 | 0.5 | 3 | 0.5 | 3.75 | 1 |
 | EM2/A2 | 2 | 1 | 5 | 1 | 7.5 | 2 |
 | EM3/A3 | 4 | 2 | 10 | 2 | 15 | 3 |
-| P1/A4 | 8 | 4 | 25 | 4 | 30 | 6 |
-| P2/A5 | 16 | 8 | 50 | 8 | 60 | 12 |
-| P3/A6 | 32 | 16 | 100 | 16 | 120 | 24 |
-| P4/A7 <sup>[1](#limit)</sup>| 64 | 32 | 200 | 32 | 240 | 48 |
-| P5/A8 <sup>[1](#limit)</sup>| 128 | 64 | 400 | 64 | 480 | 96 |
+| P1 | 8 | 4 | 25 | 4 | 30 | 6 |
+| P2 | 16 | 8 | 50 | 8 | 60 | 12 |
+| P3 | 32 | 16 | 100 | 16 | 120 | 24 |
+| P4 <sup>[1](#limit)</sup>| 64 | 32 | 200 | 32 | 240 | 48 |
+| P5 <sup>[1](#limit)</sup>| 128 | 64 | 400 | 64 | 480 | 96 |
 | | | | | | | |
 
 <a name="limit">1</a> - 仅限特殊请求。 适用于大于 100 GB 的超大模型。
 
 >[!NOTE]
 >使用单个较大的 SKU（例如一个 P2 SKU）可能比组合较小的 SKU（例如两个 P1 SKU）更可取。 例如，你可以使用更大的模型，还可以实现与 P2 的更好的并行。
+
+#### <a name="updates-for-premium-gen2-preview"></a>Premium Gen2（预览版）的更新
+
+使用 Premium Gen2，每种大小的节点的可用内存量将设置为单个项目的内存占用限额，而不是内存的累积消耗量。 例如，在原始 Premium 中，处理的数据集的总内存占用被限制为 25 Gb，而在 Premium Gen2 中，则是单个数据集的大小限制为 25 GB。
+
 
 ### <a name="capacity-workloads"></a>容量工作负载
 
@@ -108,7 +171,7 @@ Power BI Premium 订阅由 Microsoft 365 管理中心的管理员购买。 具�
 
 Power BI 服务始终充分利用容量资源，同时不超过对容量施加的限制。
 
-容量操作分类为 *交互式操作* 和 *后台操作* 。 交互式操作包括呈现请求和响应用户交互（筛选、问答查询等）。 通常情况下，导入模型查询为内存资源密集型，而查询 DirectQuery 和 Live Connection 模型则为 CPU 密集型。 后台操作包括数据流和导入模型刷新，以及仪表板查询缓存。
+容量操作分类为 *交互式操作* 和 *后台操作*。 交互式操作包括呈现请求和响应用户交互（筛选、问答查询等）。 通常情况下，导入模型查询为内存资源密集型，而查询 DirectQuery 和 Live Connection 模型则为 CPU 密集型。 后台操作包括数据流和导入模型刷新，以及仪表板查询缓存。
 
 重点是了解交互式操作应始终优先于后台操作，以确保可能的最佳用户体验。 如果资源不足，则会在释放资源时将后台操作添加到队列中进行处理。 后台操作（如数据集刷新）可以由 Power BI 服务在进程中停止并添加到队列中。
 
@@ -116,7 +179,7 @@ Power BI 服务始终充分利用容量资源，同时不超过对容量施加�
 
 因此，导入模型会根据用途加载到内存中或从内存中移除。 在导入模型被查询（交互式操作）但尚未位于内存中时，或当要刷新导入模型（后台操作）时，系统会加载导入模型。
 
-从内存中移除模型称为 *逐出* 。 这是 Power BI 可以根据模型的大小快速执行的操作。 如果容量没有遇到任何内存压力，则模型只需加载到内存中并保持原位。 但是，当可用的内存不足以加载模型时，Power BI 服务首先需要释放内存。 它通过寻找在过去三分钟 \[[1](#endnote-1)\] 未使用过的模型来检测已变为非活动状态的模型，然后逐出它们，从而释放内存。 如果没有要逐出的非活动模型，则 Power BI 服务会尝试逐出为后台操作加载的模型。 在尝试失败 30 秒后\[[1](#endnote-1)\]，最终可尝试使交互操作失败。 在这种情况下，报表用户会收到失败通知以及尽快重试的建议。 在某些情况下，由于服务操作，模型可能会从内存中卸载。
+从内存中移除模型称为 *逐出*。 这是 Power BI 可以根据模型的大小快速执行的操作。 如果容量没有遇到任何内存压力，则模型只需加载到内存中并保持原位。 但是，当可用的内存不足以加载模型时，Power BI 服务首先需要释放内存。 它通过寻找在过去三分钟 \[[1](#endnote-1)\] 未使用过的模型来检测已变为非活动状态的模型，然后逐出它们，从而释放内存。 如果没有要逐出的非活动模型，则 Power BI 服务会尝试逐出为后台操作加载的模型。 在尝试失败 30 秒后\[[1](#endnote-1)\]，最终可尝试使交互操作失败。 在这种情况下，报表用户会收到失败通知以及尽快重试的建议。 在某些情况下，由于服务操作，模型可能会从内存中卸载。
 
 需要强调的是，数据集逐出是正常行为和预期行为。 它致力于通过加载和卸载组合大小可能超过可用内存的模型来最大化内存使用率。 这是设计使然，并且对报表用户透明。 高逐出率并不一定意味着容量分配到的资源不足。 然而，如果因高逐出率而导致查询或刷新响应性受到影响，则它们可能会成为问题。
 
@@ -124,12 +187,16 @@ Power BI 服务始终充分利用容量资源，同时不超过对容量施加�
 
 和查询一样，刷新需要将模型加载到内存中。 如果内存不足，Power BI 服务将尝试逐出非活动模型；如果无法这样做（因为所有模型都处于活动状态），刷新作业将排队。 刷新通常为 CPU 密集型，其出现这种情况的概率甚至比查询出现这种情况的概率更大。 因此，并发刷新数量存在容量限制，其向上舍入设置为后端 V 核心数量的 1.5 倍。 如果并发刷新过多，则计划的刷新将排队。 发生这些情况时，刷新需要更长的时间才能完成。 按需刷新（例如由用户请求或 API 调用触发的刷新）将重试三次\[[1](#endnote-1)\]。 如果仍然没有足够的资源，则刷新将失败。
 
+#### <a name="updates-for-premium-gen2-preview"></a>Premium Gen2（预览版）的更新
+Premium Gen2 不要求累积的内存限制，因此刷新始终具有足够的可用内存。 此外，每个 v 核心运行 1.5 倍刷新没有限制。 可以在任何给定时间安排和运行所需次数的刷新，Power BI 服务将尽力在计划的时间运行这些刷新。
+
+
 部分注释：   
 <a name="endnote-1"></a>\[1\]可能会有所变化。
 
 ### <a name="regional-support"></a>区域支持
 
-创建新容量时，全局管理员和 Power BI 服务管理员可以指定一个区域供分配给容量的工作区驻留。 这称为 **多地理位置** 。 借助多地理位置，组织可以通过将内容部署到特定区域中的数据中心来满足数据驻留要求，即使它与 Microsoft 365 订阅所在的区域不同。 若要了解详细信息，请参阅 [Power BI Premium 的多地理位置支持](service-admin-premium-multi-geo.md)。
+创建新容量时，全局管理员和 Power BI 服务管理员可以指定一个区域供分配给容量的工作区驻留。 这称为 **多地理位置**。 借助多地理位置，组织可以通过将内容部署到特定区域中的数据中心来满足数据驻留要求，即使它与 Microsoft 365 订阅所在的区域不同。 若要了解详细信息，请参阅 [Power BI Premium 的多地理位置支持](service-admin-premium-multi-geo.md)。
 
 ### <a name="capacity-management"></a>容量管理
 
@@ -157,6 +224,10 @@ Power BI 服务始终充分利用容量资源，同时不超过对容量施加�
 
 ![屏幕截图显示 Power BI 管理门户中的容量运行状况。](media/service-premium-what-is/premium-admin-portal-health.png)
 
+> [!NOTE]
+> **Premium Gen2（预览版）的更新** - Premium Gen2 只需要监视一个方面：容量在任何时候提供加载量时所需的 CPU 时间。 如果超出了购买的 SKU 大小所对应的 CPU 时间，容量会根据配置设置自动缩放以满足需求或限制交互式操作。
+
+
 **Power BI Premium 容量指标** 应用提供有关容量表现的深度信息。 该应用提供高级仪表板和更加详细的报表。
 
 ![指标应用仪表板](media/service-admin-premium-monitor-capacity/app-dashboard.png)
@@ -166,6 +237,10 @@ Power BI 服务始终充分利用容量资源，同时不超过对容量施加�
 ![查询等待时间计数的周期性峰值指示潜在的 CPU 饱和度问题](media/service-premium-capacity-scenarios/peak-query-wait-times.png)
 
 若要了解有关监视容量的详细信息，请参阅 [Power BI 管理门户中的监视](service-admin-premium-monitor-portal.md)和[使用 Power BI Premium 容量指标应用进行监视](service-admin-premium-monitor-capacity.md)。
+
+#### <a name="updates-for-premium-gen2-preview"></a>Premium Gen2（预览版）的更新
+Premium Gen2 容量不使用 Metrics 应用，而是使用 Capacity Utilization 应用，后者将在预览期间提供。 可以从“管理门户”中的容量管理页面为每个容量启动 Capacity Utilization 应用。
+
 
 ### <a name="optimizing-capacities"></a>优化容量
 
@@ -177,7 +252,7 @@ Power BI REST API 包含[容量 API](/rest/api/power-bi/capacities) 的集合。
 
 ## <a name="large-datasets"></a>大型数据集
 
-Power BI Premium 支持上传 Power BI Desktop (.pbix) 模型文件，最大大小为 **10 GB** ，具体取决于 SKU。 加载模型后，可将其发布到分配给 Premium 容量的工作区。 随后可将数据集刷新至最大 **12 GB** 的大小。
+Power BI Premium 支持上传 Power BI Desktop (.pbix) 模型文件，最大大小为 **10 GB**，具体取决于 SKU。 加载模型后，可将其发布到分配给 Premium 容量的工作区。 随后可将数据集刷新至最大 **12 GB** 的大小。
 
 ### <a name="size-considerations"></a>大小注意事项
 
@@ -187,9 +262,9 @@ Power BI Premium 支持上传 Power BI Desktop (.pbix) 模型文件，最大大�
 
    |SKU  |.Pbix 大小   |
    |---------|---------|
-   |P1/A4    | < 3 GB        |
-   |P2/A5    | < 6 GB        |
-   |P3/A6、P4、P5    | 最多 10 GB   |
+   |P1    | < 3 GB        |
+   |P2    | < 6 GB        |
+   |P3、P4、P5    | 最多 10 GB   |
 
 Power BI Embedded A4 SKU 等同于 P1 SKU、A5 = P2 和 A6 = P3。
 
@@ -216,6 +291,21 @@ Power BI Embedded A4 SKU 等同于 P1 SKU、A5 = P2 和 A6 = P3。
 P1-P3 和 A4_A6 SKU 支持的分页报表基于 SQL Server Reporting Services 中的报表定义语言 (RDL) 技术。 虽然基于 RDL 技术，但它与 Power BI 报表服务器不同，后者是可下载的报表平台并可在本地安装，其也包含在 Power BI Premium 中。 分页报表的格式设置为适应可以打印或共享的页面。 即使表格跨多个页，数据也能在表格中显示。 通过使用免费的 [**Power BI 报表生成器**](https://aka.ms/pbireportbuilder) Windows 桌面应用程序，用户可以创建分页报表并将其发布到服务中。
 
 在 Power BI Premium 中，分页报表是必须使用管理门户为容量启用的工作负载。 容量管理员可以启用内存，然后以容量内存资源总量百分比的形式指定内存量。 与其他类型的工作负载不同，Premium 在容量范所含的空间中运行分页报表。 无论工作负载是否处于活动状态，系统都将使用为此空间指定的最大内存。 默认值为 20%。 
+
+> [!NOTE]
+> 在“Premium Gen2(预览版)”中，不提供对分页报表的内存管理。 使用 Premium Gen2，EM1-EM3 SKU 支持分页报表。
+
+### <a name="paginated-reports-and-premium-gen2"></a>分页报表和 Premium Gen2
+
+使用 Premium Gen2 时，Power BI 中的分页报表将受益于 Premium Gen2 中的体系结构和工程改进。 以下各部分介绍用于分页报表的 Premium Gen2 的好处。
+
+**更广泛的 SKU 可用性** - 在 Premium Gen2 上运行的分页报表可以在所有可用的嵌入和高级 SKU 上运行报表。 计费在 24 小时内按 CPU 小时计算。 这大大扩展了支持分页报表的 SKU。
+
+**动态缩放** - 使用 Premium Gen2，可以在需求上升时灵活应对与活动高峰或资源需求相关的挑战。 
+
+**改进的缓存** - 在 Premium Gen2 之前，许多操作需要分页报表才能在为工作负载容量分配的内存上下文中执行。 现在，使用 Premium Gen2，减少了许多操作所需的内存，从而增强了客户执行长时间运行的操作且不影响其他用户会话的能力。 
+
+**增强的安全性和代码隔离** - 使用 Premium Gen2，代码隔离可以在每个用户级别而不是每个容量级别上进行，与原始 Premium 产品/服务的情况一样。 
 
 若要了解详细信息，请参阅 [Power BI Premium 中的分页报表](../paginated-reports/paginated-reports-report-builder-power-bi.md)。 若要了解有关启用分页报表工作负载的详细信息，请参阅[配置工作负载](service-admin-premium-workloads.md)。
 
@@ -249,6 +339,7 @@ Premium 允许 Pro 用户广泛分发内容，且不要求查看内容的收件�
 ## <a name="next-steps"></a>后续步骤
 
 > [!div class="nextstepaction"]
-> [管理 Premium 容量](service-premium-capacity-manage.md)
+> [管理高级容量](service-premium-capacity-manage.md)
+> [Azure Power BI 嵌入式文档](https://azure.microsoft.com/services/power-bi-embedded/)
 
 更多问题？ [尝试咨询 Power BI 社区](https://community.powerbi.com/)

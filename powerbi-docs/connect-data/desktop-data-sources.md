@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: how-to
-ms.date: 10/12/2020
+ms.date: 11/11/2020
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 8565f6ef18192110688d01127129dcc19919cb0f
-ms.sourcegitcommit: eab5a02520c421a57019595c03e9ecfdb41d52ad
+ms.openlocfilehash: 143d4a51a403563b337c753055fa56e9c25edc26
+ms.sourcegitcommit: 029aacd09061a8aa45b57f05d0dc95c93dd16a74
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/20/2020
-ms.locfileid: "92256442"
+ms.lasthandoff: 11/12/2020
+ms.locfileid: "94560025"
 ---
 # <a name="data-sources-in-power-bi-desktop"></a>Power BI Desktop 中的数据源
 
@@ -29,7 +29,7 @@ ms.locfileid: "92256442"
 ![“获取数据”按钮、Power BI Desktop](media/desktop-data-sources/data-sources-02.png)
 
 > [!NOTE]
-> Power BI 团队正在不断扩展适用于 Power BI Desktop 和 Power BI 服务的数据源。 因此，你通常会看到工作过程中的数据源版本标记为 **Beta** 或 **预览** 。 标记为 Beta 或预览的任何数据源所提供的支持和功能有限，不应在生产环境中使用。 此外，任何标记为 Power BI Desktop Beta 或预览版的数据源在数据源正式发布 (GA) 之前可能都无法在 Power BI 服务或其他 Microsoft 服务中使用 。
+> Power BI 团队正在不断扩展适用于 Power BI Desktop 和 Power BI 服务的数据源。 因此，你通常会看到工作过程中的数据源版本标记为 **Beta** 或 **预览**。 标记为 Beta 或预览的任何数据源所提供的支持和功能有限，不应在生产环境中使用。 此外，任何标记为 Power BI Desktop Beta 或预览版的数据源在数据源正式发布 (GA) 之前可能都无法在 Power BI 服务或其他 Microsoft 服务中使用 。
 
 > [!NOTE]
 > Power BI Desktop 中的许多数据连接器都需要 Internet Explorer 10（或更高版本）进行身份验证。 
@@ -90,7 +90,6 @@ ms.locfileid: "92256442"
 * Snowflake
 * Essbase
 * AtScale 多维数据集
-* BI 连接器 
 * Data Virtuality LDW (Beta)
 * Denodo
 * Dremio
@@ -100,8 +99,10 @@ ms.locfileid: "92256442"
 * Jethro (Beta)
 * Kyligence
 * Linkar PICK 样式/多值数据库 (Beta)
-* MarkLogic
 * MariaDB (Beta)
+* MarkLogic
+* BI 连接器
+* Actian (Beta)
 
 > [!NOTE]
 > 某些数据库连接器需要通过选择“文件”>“选项和设置”>“选项”，然后再选择“预览功能”才能启用 。 如果你没有看到上面提到的某些连接器，但想使用它们，请检查“预览功能”设置。 另请注意，标记为 *Beta* 或 *预览* 的任何数据源所提供的支持和功能有限，不应在生产环境中使用。
@@ -141,8 +142,8 @@ ms.locfileid: "92256442"
 * Azure HDInsight Spark
 * HDInsight 交互式查询
 * Azure 成本管理
-* Azure 时序见解 (Beta)
 * Azure Databricks
+* Azure 时序见解 (Beta)
 
 
 下图显示 **Azure** 的 **获取数据** 窗口。
@@ -185,21 +186,21 @@ ms.locfileid: "92256442"
 * Emigo Data Source
 * Entersoft Business Suite (Beta)
 * FactSet Analytics
-* 六边形 PPM 智能 API
+* Palantir Foundry
+* Industrial App Store
 * Intune 数据仓库 (Beta)
 * Microsoft Graph Security (Beta)
+* 适用于 Power BI 的 Projectplace
 * 产品见解 (Beta)
 * Quick Base
+* Spigit (Beta)
 * TeamDesk (Beta)
 * Webtrends Analytics (Beta)
 * Witivio (Beta)
 * Workplace Analytics (Beta)
 * Zoho Creator (Beta)
-* Palantir Foundry
-* Industrial App Store
-* 适用于 Power BI 的 Projectplace
 * eWay-CRM (Beta)
-* Spigit (Beta)
+* 六边形 PPM 智能 API
 
 
 下图显示 **Online Services** 的 **获取数据** 窗口。
@@ -217,7 +218,7 @@ ms.locfileid: "92256442"
 * Microsoft Exchange
 * Hadoop 文件 (HDFS)
 * Spark
-* Hive LLAP (Beta)
+* Hive LLAP
 * R 脚本
 * Python 脚本
 * ODBC
@@ -242,6 +243,8 @@ ms.locfileid: "92256442"
 * Vena (Beta)
 * Vessel Insight (Beta)
 * Zucchetti HR Infinity (Beta)
+* Anaplan Connector v1.0 (Beta)
+* Starburst Enterprise Presto (Beta)
 * 空白查询
 
 
@@ -263,7 +266,7 @@ ms.locfileid: "92256442"
 
 ## <a name="connecting-to-a-data-source"></a>连接到数据源
 
-若要连接到数据源，请从 **获取数据** 窗口选择数据源，然后选择 **连接** 。 在下图中，已从 **其他** 数据连接类别中选择了 **Web** 。
+若要连接到数据源，请从 **获取数据** 窗口选择数据源，然后选择 **连接**。 在下图中，已从 **其他** 数据连接类别中选择了 **Web**。
 
 ![连接到 Web、“获取数据”对话框、Power BI Desktop](media/desktop-data-sources/data-sources-08.png)
 

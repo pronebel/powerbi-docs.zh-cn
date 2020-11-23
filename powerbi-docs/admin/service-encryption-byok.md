@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: how-to
-ms.date: 08/13/2020
+ms.date: 11/11/2020
 LocalizationGroup: Premium
-ms.openlocfilehash: 449721a13a126344f3ef8334e63f64579a98ec20
-ms.sourcegitcommit: 4ac9447d1607dfca2e60948589f36a3d64d31cb4
+ms.openlocfilehash: 9331fe3e207162db0215b62aa89b04f2e4be3d95
+ms.sourcegitcommit: cc20b476a45bccb870c9de1d0b384e2c39e25d24
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/29/2020
-ms.locfileid: "92916144"
+ms.lasthandoff: 11/11/2020
+ms.locfileid: "94512691"
 ---
 # <a name="bring-your-own-encryption-keys-for-power-bi"></a>自带加密密钥使用 Power BI
 
@@ -23,6 +23,9 @@ Power BI 会对 _静态_ 数据和 _正在处理_ 的数据进行加密。 默�
 ## <a name="why-use-byok"></a>为何使用 BYOK？
 
 BYOK 让满足有关指定与云服务提供商（在本例中为 Microsoft）的密钥安排的合规性要求变得更轻松。 借助 BYOK，可以在应用程序级别为 Power BI 静态数据提供加密密钥并进行控制。 因此，如果决定退出服务，则可以行使控制权并撤消组织密钥。 撤销密钥后，30 分钟内数据对服务将不可读取。
+
+> [!IMPORTANT]
+> Power BI Premium 最近发布了 Premium 的新版本，名为 Premium Gen2，目前为预览版。 预览版的 Preview Gen2 容量不支持 BYOK。
 
 ## <a name="data-source-and-storage-considerations"></a>数据源和存储注意事项
 
@@ -183,7 +186,7 @@ Power BI 提供其他 cmdlet 来帮助在租户中管理 BYOK：
 
     请注意，加密在容量级别启用，但指定工作区的加密状态在数据集级别获取。
 
-- 使用 [`Switch-PowerBIEncryptionKey`](/powershell/module/microsoftpowerbimgmt.admin/switch-powerbiencryptionkey) 切换（或 _旋转_ ）要用于加密的密钥的版本。 cmdlet 只更新密钥 `-Name` 的 `-KeyVaultKeyUri`：
+- 使用 [`Switch-PowerBIEncryptionKey`](/powershell/module/microsoftpowerbimgmt.admin/switch-powerbiencryptionkey) 切换（或 _旋转_）要用于加密的密钥的版本。 cmdlet 只更新密钥 `-Name` 的 `-KeyVaultKeyUri`：
 
     ```powershell
     Switch-PowerBIEncryptionKey -Name'Contoso Sales' -KeyVaultKeyUri'https://contoso-vault2.vault.azure.net/keys/ContosoKeyVault/b2ab4ba1c7b341eea5ecaaa2wb54c4d2'
@@ -202,3 +205,14 @@ Power BI 提供其他 cmdlet 来帮助在租户中管理 BYOK：
 * [在 SharePoint Online 中嵌入报表 Web 部件](../collaborate-share/service-embed-report-spo.md)
 
 * [从 Power BI 发布到 Web](../collaborate-share/service-publish-to-web.md)
+
+
+Power BI 推出了 Power BI Premium Gen2 作为预览产品/服务，通过以下方面的改进改善了 Power BI Premium 的体验：
+* 性能
+* 用户个人许可
+* 更大规模
+* 改进的指标
+* 自动缩放
+* 降低管理开销
+
+有关 Power BI Premium Gen2 的详细信息，请参阅 [Power BI Premium 第二代（预览版）](service-premium-what-is.md#power-bi-premium-generation-2-preview)。

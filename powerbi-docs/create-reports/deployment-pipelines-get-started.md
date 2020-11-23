@@ -7,13 +7,13 @@ ms.topic: how-to
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.custom: contperfq1
-ms.date: 09/15/2020
-ms.openlocfilehash: 8f486d1f872aec8eaec096bf01d5d36a314c5cef
-ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
+ms.date: 11/11/2020
+ms.openlocfilehash: ca588c50052ed4950b2f283ee8294098dd36a8ef
+ms.sourcegitcommit: bd133cb1fcbf4f6f89066165ce065b8df2b47664
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90855741"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "94669123"
 ---
 # <a name="get-started-with-deployment-pipelines"></a>开始使用部署管道
 
@@ -23,11 +23,13 @@ ms.locfileid: "90855741"
 
 如果满足以下条件，将可以访问部署管道功能：
 
-* 你是 Power BI [Pro 用户](../admin/service-admin-purchasing-power-bi-pro.md)
+* 你具有以下某个高级许可证：
 
-* 你属于具有高级容量的组织
+    * 你是 Power BI [Pro 用户](../admin/service-admin-purchasing-power-bi-pro.md)，并且属于具有高级容量的组织。
 
-* 你是[新工作区体验](../collaborate-share/service-create-the-new-workspaces.md)的管理员
+    * [Premium Per User (PPU)](../admin/service-premium-per-user-faq.md)。
+
+* 你是[新工作区体验](../collaborate-share/service-create-the-new-workspaces.md)的管理员。
 
 >[!NOTE]
 > 如果以前创建了管道，或与你共享了管道，你还可以看到“部署管道”按钮。
@@ -60,7 +62,7 @@ ms.locfileid: "90855741"
 2. 在“创建部署管道”对话框中，输入管道的名称和描述，然后选择“创建”。
 
 >[!NOTE]
->如果工作区未分配给组织的高级容量，你会收到[将其分配给容量](../admin/service-admin-premium-manage.md#assign-a-workspace-to-a-capacity)的通知。  
+>如果工作区未分配给组织的高级容量或 PPU 容量，你会收到[将其分配给容量](../admin/service-admin-premium-manage.md#assign-a-workspace-to-a-capacity)的通知。  
 
 ## <a name="step-2---assign-a-workspace-to-a-deployment-pipeline"></a>步骤 2 - 将工作区分配到部署管道
 
@@ -124,7 +126,7 @@ ms.locfileid: "90855741"
 
 你可以选择部署到上一阶段，例如，在将现有工作区分配给生产阶段，然后将其反向部署的场景中，首先部署到测试阶段，然后再部署到开发阶段。
 
-仅当上一阶段内容为空时，才可部署到上一阶段。 当部署到上一阶段时，无法选择特定项目。 将部署此阶段中的所有内容。
+仅当上一阶段为空时，才可部署到上一阶段。 当部署到上一阶段时，无法选择特定项目。 将部署此阶段中的所有内容。
 
 [![显示“部署到上一阶段”按钮（可从测试或生产阶段菜单中找到）的屏幕截图。](media/deployment-pipelines-get-started/deploy-back.png)](media/deployment-pipelines-get-started/deploy-back.png#lightbox)
 

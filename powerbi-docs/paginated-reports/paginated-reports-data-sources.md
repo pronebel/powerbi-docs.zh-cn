@@ -7,13 +7,13 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: conceptual
-ms.date: 07/27/2020
-ms.openlocfilehash: d6f436477a8226dec870d039c8fe10491456a325
-ms.sourcegitcommit: ccf53e87ff7cba1fcd9d2cca761a561e62933f90
+ms.date: 11/12/2020
+ms.openlocfilehash: 263992e760afe01eb44f41b80c2297cbd4b34163
+ms.sourcegitcommit: 7ee9398b30ab4ba40459cbb97e129e7dc853c93c
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/04/2020
-ms.locfileid: "93298185"
+ms.lasthandoff: 11/13/2020
+ms.locfileid: "94575298"
 ---
 # <a name="supported-data-sources-for-power-bi-paginated-reports"></a>Power BI 分页报表支持的数据源
 
@@ -27,7 +27,7 @@ ms.locfileid: "93298185"
 
 | 数据源 | 身份验证 | 备注 |
 | --- | --- | --- |
-| Azure SQL Database <br>Azure SQL 数据仓库 | 基本、单一登录 (SSO)、OAuth2 | 你可以使用包含 Azure SQL DB 的企业网关。 但在这些情况下，不能使用 SSO 或 oAuth2 进行身份验证。   |
+| Azure SQL Database <br>Azure SQL 数据仓库 | 基本、单一登录 (SSO)、OAuth2 | 你可以使用包含 Azure SQL 数据库的企业网关。 但在这些情况下，不能使用 SSO 或 oAuth2 进行身份验证。   |
 | Azure SQL 托管实例 | 基本 | 通过公共或专用终结点（专用终结点需要通过企业网关进行路由）  |
 | Azure Analysis Services | SSO、OAuth2 | AAS 防火墙要么必须禁用，要么必须配置为允许 BlackForest 区域中的所有 IP 范围。 这仅适用于 BlackForest 区域。  不支持外部租户中的 SSO。 |
 | Power BI 数据集 | SSO | 高级和非高级 Power BI 数据集。 需要读取权限 |
@@ -40,14 +40,14 @@ ms.locfileid: "93298185"
 
 ## <a name="other-data-sources"></a>其他数据源
 
-除上述本机支持的数据源以外，还可通过 [Power BI 数据网关](../connect-data/service-gateway-onprem.md)访问以下数据源：
+除上述本机支持的数据源以外，还可通过 [Power BI 企业网关](../connect-data/service-gateway-onprem.md)访问以下数据源：
 
 - SQL Server
 - SQL Server Analysis Services
 - Oracle
 - Teradata
 
-对于分页报表，目前无法通过 Power BI 数据网关访问 Azure SQL 数据库和 Azure Analysis Services。
+对于分页报表，目前无法通过 Power BI 企业网关访问 Azure Analysis Services。
 
 ## <a name="azure-sql-database-authentication"></a>Azure SQL 数据库身份验证
 

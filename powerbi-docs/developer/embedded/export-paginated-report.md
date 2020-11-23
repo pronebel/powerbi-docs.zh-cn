@@ -7,12 +7,12 @@ ms.topic: how-to
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.date: 04/05/2020
-ms.openlocfilehash: d0d9472ef767a67b3b75be4c9eb5d6922d9cdf81
-ms.sourcegitcommit: a5fa368abad54feb44a267fe26c383a731c7ec0d
+ms.openlocfilehash: 908aa715c31396485bcebfaa7227f3241cb02fb8
+ms.sourcegitcommit: bd133cb1fcbf4f6f89066165ce065b8df2b47664
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/30/2020
-ms.locfileid: "93045139"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "94668548"
 ---
 # <a name="export-paginated-report-to-file-preview"></a>将分页报表导出为文件（预览）
 
@@ -122,6 +122,8 @@ ms.locfileid: "93045139"
       }
 }
 ```
+## <a name="ppu-concurrent-requests"></a>PPU 并发请求
+使用 [Premium Per User (PPU)](../../admin/service-premium-per-user-faq.md) 时，`exportToFile` API 允许在五分钟的时段内发出一个请求。 如果在五分钟的时段内发出多个（大于一个）请求，将导致“请求过多”(429) 错误。
 
 ## <a name="code-examples"></a>代码示例
 

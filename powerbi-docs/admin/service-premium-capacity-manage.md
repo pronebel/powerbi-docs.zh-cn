@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-premium
 ms.topic: conceptual
-ms.date: 04/10/2019
-ms.custom: seodec18
+ms.date: 11/11/2020
+ms.custom: ''
 LocalizationGroup: Premium
-ms.openlocfilehash: def44a5cc7847d64daab466346f85f0b369d3634
-ms.sourcegitcommit: 51b965954377884bef7af16ef3031bf10323845f
+ms.openlocfilehash: cfde7ab3fb40885b298afeb8751525e417b487ea
+ms.sourcegitcommit: cc20b476a45bccb870c9de1d0b384e2c39e25d24
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/30/2020
-ms.locfileid: "91599406"
+ms.lasthandoff: 11/11/2020
+ms.locfileid: "94512852"
 ---
 # <a name="managing-premium-capacities"></a>管理高级容量
 
@@ -24,6 +24,9 @@ ms.locfileid: "91599406"
 ## <a name="creating-and-managing-capacities"></a>创建和管理容量
 
 Power BI 管理门户的“容量设置”页面显示已购买的 vCore 数和可用的 Premium 容量。 在此页面中，全局管理员或 Power BI 服务管理员可以从可用的 V 核心创建 Premium 容量，或修改现有的 Premium 容量。
+
+> [!NOTE]
+> Power BI Premium 最近发布了 Premium 的新版本，名为 Premium Gen2，目前处于预览状态。 Premium Gen2 将简化高级容量的管理，并减少管理开销。 有关详细信息，请参阅 [Power BI Premium 第二代（预览版）](service-premium-what-is.md#power-bi-premium-generation-2-preview)。
 
 创建 Premium 容量时，需要管理员定义以下内容：
 
@@ -148,7 +151,7 @@ Power BI 管理门户中的监视功能旨在提供关键容量指标的快速�
 
 [优化 Premium 功能](service-premium-capacity-optimize.md)一文中详细介绍了如何使用所述的这些指标。
 
-## <a name="acknowledgements"></a>致谢
+## <a name="acknowledgments"></a>致谢
 
 本文由 Peter Myers、数据平台 MVP 和独立的 BI 专家通过 [Bitwise Solutions](https://www.bitwisesolutions.com.au/) 撰写。
 
@@ -161,3 +164,12 @@ Power BI 管理门户中的监视功能旨在提供关键容量指标的快速�
 
 更多问题？ [尝试咨询 Power BI 社区](https://community.powerbi.com/)
 
+Power BI 推出了 Power BI Premium Gen2 作为预览产品/服务，通过以下方面的改进改善了 Power BI Premium 的体验：
+* 性能
+* 用户个人许可
+* 更大规模
+* 改进的指标
+* 自动缩放
+* 降低管理开销
+
+有关 Power BI Premium Gen2 的详细信息，请参阅 [Power BI Premium 第二代（预览版）](service-premium-what-is.md#power-bi-premium-generation-2-preview)。

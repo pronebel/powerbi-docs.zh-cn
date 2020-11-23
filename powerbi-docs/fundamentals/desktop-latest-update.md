@@ -6,21 +6,21 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 10/13/2020
+ms.date: 11/11/2020
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: 8670659ff44a0f0e14688a8a898704823f272891
-ms.sourcegitcommit: eab5a02520c421a57019595c03e9ecfdb41d52ad
+ms.openlocfilehash: 34882258e9a3f05f08dd1340941b216f8679fc39
+ms.sourcegitcommit: 029aacd09061a8aa45b57f05d0dc95c93dd16a74
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/20/2020
-ms.locfileid: "92255986"
+ms.lasthandoff: 11/12/2020
+ms.locfileid: "94560048"
 ---
 # <a name="whats-new-in-power-bi-desktop"></a>Power BI Desktop 中的新增功能是什么？
 
-## <a name="october-2020-update-2863210"></a>2020 年 10 月更新 (2.86.321.0)
+## <a name="november-2020-update-2872610"></a>2020 年 11 月更新 (2.87.261.0)
 
-10 月 Power BI Desktop 更新是充满惊喜的存储桶，你可以在接下来的几周内进行排序并尽情享受。 
+我们的 11 月 Power BI Desktop 更新包括整个系列的新功能和改进功能；堪称功能的盛宴。 
 
 Power BI Desktop 的每月博客和视频更新现在还包括 Power BI 移动版和 Power BI 服务的新更新。 本文介绍 Power BI Desktop 的更新。 若要了解移动版和 Power BI 服务的更新，请查看其各自的新增功能文章：
 
@@ -47,48 +47,29 @@ Power BI Desktop 更新列表中每个功能旁边的链接解释如下：
 以下是本月推出的 Power BI Desktop 新增功能的更新：
 
 
-
 ### <a name="reporting"></a>报表
-* 画布水印 [[视频]](https://youtu.be/LveNuQqV5xk?t=17)  [[博客]](https://powerbi.microsoft.com/blog/power-bi-october-2020-feature-summary/#_Toc52195557) 
-* 个性化设置视觉对象现已正式发布 [[视频]](https://youtu.be/LveNuQqV5xk?t=115)   [[博客]](https://powerbi.microsoft.com/blog/power-bi-october-2020-feature-summary/#_Toc52195558) [[文章]](../create-reports/power-bi-personalize-visuals.md)
-* 树状图的数据点矩形选择（预览版）[[视频]](https://youtu.be/LveNuQqV5xk?t=292)   [[博客]](https://powerbi.microsoft.com/blog/power-bi-october-2020-feature-summary/#_Toc52195559)  [[文章]](../create-reports/desktop-multi-select.md#select-multiple-elements-using-rectangle-select-preview)
+* 新字段列表（预览版）[[视频]](https://youtu.be/DT_tOas5YIo?t=15) [[博客]](https://powerbi.microsoft.com/blog/power-bi-november-2020-feature-summary/#_Toc55467053) 
+* 新模型视图（预览版）[[视频]](https://youtu.be/DT_tOas5YIo?t=61) [[博客]](https://powerbi.microsoft.com/blog/power-bi-november-2020-feature-summary/#_Toc55467054) [[文章]](../create-reports/power-bi-personalize-visuals.md)
+* “应用所有筛选器”现已正式发布 [[视频]](https://youtu.be/DT_tOas5YIo?t=98) [[博客]](https://powerbi.microsoft.com/blog/power-bi-november-2020-feature-summary/#_Toc55467055) [[文章]](../create-reports/desktop-multi-select.md#select-multiple-elements-using-rectangle-select-preview)
+* 视觉对象缩放滑块 [[视频]](https://youtu.be/DT_tOas5YIo?t=160) [[博客]](https://powerbi.microsoft.com/blog/power-bi-november-2020-feature-summary/#_Toc55467056) [[文章]](../create-reports/desktop-multi-select.md#select-multiple-elements-using-rectangle-select-preview)
+* 数据点矩形选择现已扩展到地图视觉对象 [[视频]](https://youtu.be/DT_tOas5YIo?t=185) [[博客]](https://powerbi.microsoft.com/blog/power-bi-november-2020-feature-summary/#_Toc55467057) [[文章]](../create-reports/desktop-multi-select.md#select-multiple-elements-using-rectangle-select-preview)
+* Web 连接的证书吊销检查 [[视频]](https://youtu.be/DT_tOas5YIo?t=292) [[博客]](https://powerbi.microsoft.com/blog/power-bi-november-2020-feature-summary/#_Toc55467058) [[文章]](../create-reports/desktop-multi-select.md#select-multiple-elements-using-rectangle-select-preview)
+* 分页报表更新 [[视频]](https://youtu.be/DT_tOas5YIo?t=292) [[博客]](https://powerbi.microsoft.com/blog/power-bi-november-2020-feature-summary/#_Toc55467059) [[文章]](../create-reports/desktop-multi-select.md#select-multiple-elements-using-rectangle-select-preview)
 
 ### <a name="analytics"></a>分析
-* 从问答视觉对象中导出数据 [[视频]](https://youtu.be/LveNuQqV5xk?t=308)  [[博客]](https://powerbi.microsoft.com/blog/power-bi-october-2020-feature-summary/#_Toc52270582) 
-
-
-### <a name="modeling"></a>建模
-* IF 和 SWITCH 函数的性能改进  [[博客]](https://powerbi.microsoft.com/blog/power-bi-october-2020-feature-summary/#_Toc52270584)
-
-
-### <a name="data-preparation"></a>数据准备工作
-* 动态 M 查询参数（预览版）[[视频]](https://youtu.be/LveNuQqV5xk?t=329)  [[博客]](https://powerbi.microsoft.com/blog/power-bi-october-2020-feature-summary/#_Toc51665421)  [[文章]](../connect-data/desktop-dynamic-m-query-parameters.md)
-* Excel 文件中的自动表检测 [[视频]](https://youtu.be/LveNuQqV5xk?t=615)  [[博客]](https://powerbi.microsoft.com/blog/power-bi-october-2020-feature-summary/#_Toc52195566)
-* JSON 文件中的自动表检测 [[视频]](https://youtu.be/LveNuQqV5xk?t=650)  [[博客]](https://powerbi.microsoft.com/blog/power-bi-october-2020-feature-summary/#_Toc51665423)
+* 异常情况检测（预览版）[[视频]](https://youtu.be/DT_tOas5YIo?t=199) [[博客]](https://powerbi.microsoft.com/blog/power-bi-november-2020-feature-summary/#_Toc55467061) 
+* 问答现支持部分匹配数据值 [[视频]](https://youtu.be/DT_tOas5YIo?t=438) [[博客]](https://powerbi.microsoft.com/blog/power-bi-november-2020-feature-summary/#_Toc55467062) [[文章]](../create-reports/desktop-multi-select.md#select-multiple-elements-using-rectangle-select-preview)
 
 ### <a name="data-connectivity"></a>数据连接
-* 对 Power Platform 数据流连接器的更广泛地理支持 [[视频]](https://youtu.be/LveNuQqV5xk?t=675)  [[博客]](https://powerbi.microsoft.com/blog/power-bi-october-2020-feature-summary/#_Toc52270590)
-* MariaDB 现在支持 DirectQuery [[视频]](https://youtu.be/LveNuQqV5xk?t=694)  [[博客]](https://powerbi.microsoft.com/blog/power-bi-october-2020-feature-summary/#_Toc52195570)
-* 更新了 SharePoint Online 列表连接器 [[视频]](https://youtu.be/LveNuQqV5xk?t=707)  [[博客]](https://powerbi.microsoft.com/blog/power-bi-october-2020-feature-summary/#_Toc52270592)
-* 新数据连接器 - Spigit 和 eWay-CRM [[视频]](https://youtu.be/LveNuQqV5xk?t=736)  [[博客]](https://powerbi.microsoft.com/blog/power-bi-october-2020-feature-summary/#_Toc52195572)
+* Hive LLAP 连接器现已正式发布 [[视频]](https://youtu.be/DT_tOas5YIo?t=461) [[博客]](https://powerbi.microsoft.com/blog/power-bi-november-2020-feature-summary/#_Toc55467064)
+* 新数据连接器 - Actian、Anaplan、Starburst Presto [[视频]](https://youtu.be/DT_tOas5YIo?t=487) [[博客]](https://powerbi.microsoft.com/blog/power-bi-november-2020-feature-summary/#_Toc55467065)
 
 
 ### <a name="visuals"></a>视觉对象
-* 扩展的管理员功能现已正式发布 [[视频]](https://youtu.be/LveNuQqV5xk?t=997)  [[博客]](https://powerbi.microsoft.com/blog/power-bi-october-2020-feature-summary/#_Toc52270604)
-* 来自各种提供程序的新视觉对象 [[视频]](https://youtu.be/LveNuQqV5xk?t=1039)  [[博客]](https://powerbi.microsoft.com/blog/power-bi-october-2020-feature-summary/#_Toc52195582)
+* 来自各种提供程序的新视觉对象 [[视频]](https://youtu.be/DT_tOas5YIo?t=688)  [[博客]](https://powerbi.microsoft.com/blog/power-bi-november-2020-feature-summary/#_Toc55467072)
 
 
-### <a name="template-apps"></a>模板应用
-* 简化了模板应用的安装 [[视频]](https://youtu.be/LveNuQqV5xk?t=1127)   [[博客]](https://powerbi.microsoft.com/blog/power-bi-october-2020-feature-summary/#_Toc52270613) 
-* 从 Power BI Desktop 中查找模板应用 [[视频]](https://youtu.be/LveNuQqV5xk?t=1164)   [[博客]](https://powerbi.microsoft.com/blog/power-bi-october-2020-feature-summary/#_Toc52195591) 
-
-### <a name="other"></a>其他
-* 将数据源导出到 Power BI Desktop 中的 PBIDS [[视频]](https://youtu.be/LveNuQqV5xk?t=1255)   [[博客]](https://powerbi.microsoft.com/blog/power-bi-october-2020-feature-summary/#_Toc52195594)  [[文章]](../connect-data/desktop-data-sources.md#how-to-create-a-pbids-connection-file)
-* Power BI 的图标更新 [[视频]](https://youtu.be/LveNuQqV5xk?t=1295)   [[博客]](https://powerbi.microsoft.com/blog/power-bi-october-2020-feature-summary/#_Toc52270618) 
-* Power BI Desktop 初始屏幕关闭 [[视频]](https://youtu.be/LveNuQqV5xk?t=1313)   [[博客]](https://powerbi.microsoft.com/blog/power-bi-october-2020-feature-summary/#_Toc52195596)
-
-
-有关这些新功能的详细信息，请参阅 [Power BI Desktop 功能摘要博客文章](https://powerbi.microsoft.com/blog/power-bi-october-2020-feature-summary/)。
+有关这些新功能的详细信息，请参阅 [Power BI Desktop 功能摘要博客文章](https://powerbi.microsoft.com/blog/power-bi-november-2020-feature-summary/)。
 
 
 > [!NOTE]
@@ -98,7 +79,7 @@ Power BI Desktop 更新列表中每个功能旁边的链接解释如下：
 ### <a name="power-bi-desktop-monthly-update-video"></a>Power BI Desktop 每月更新视频
 以下视频介绍了上述每项更新。 你还可以从博客文章查看该视频：
 
-> [!VIDEO https://www.youtube.com/embed/LveNuQqV5xk]
+> [!VIDEO https://www.youtube.com/embed/DT_tOas5YIo]
 
 ## <a name="more-videos"></a>更多视频
 

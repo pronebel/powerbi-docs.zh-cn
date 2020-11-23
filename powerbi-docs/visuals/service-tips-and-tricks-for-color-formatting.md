@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 10/29/2020
 ms.author: rien
 LocalizationGroup: Visualizations
-ms.openlocfilehash: bce798e07a3bdac0ba52f56e9ddf7eac72087924
-ms.sourcegitcommit: 132b3f6ba6d2b1948ddc15969d64cf629f7fb280
+ms.openlocfilehash: 6f64db7be452cf5873a862f378f558bc4f177c56
+ms.sourcegitcommit: cc20b476a45bccb870c9de1d0b384e2c39e25d24
 ms.translationtype: HT
 ms.contentlocale: zh-CN
 ms.lasthandoff: 11/11/2020
-ms.locfileid: "94483941"
+ms.locfileid: "94513021"
 ---
 # <a name="tips-and-tricks-for-formatting-in-reports"></a>报表中格式设置的提示和技巧
 
@@ -40,12 +40,12 @@ Power BI 提供了自定义报表的多种方法。 本文详细介绍了一些�
 
 当“筛选器”和“可视化效果”窗格出现在报表画布的右侧时，即可开始进行自定义操作 。 如果未显示这些窗格，可选择右上角的箭头将其打开。
 
-![编辑视图中的报表画布](media/service-tips-and-tricks-for-color-formatting/power-bi-edit.png)
+![编辑视图中的报表画布](media/service-tips-and-tricks-for-color-formatting/power-bi-edit-filter.png)
 
 ## <a name="apply-a-theme"></a>应用主题
 使用报表主题，你可以将设计更改应用于整个报表，如使用公司颜色、更改图标集或应用新的默认视觉对象格式。 在你应用某个报表主题后，报表中的所有视觉对象都会使用选定主题中的颜色和格式。 若要了解详细信息，请参阅[使用报表主题](../create-reports/desktop-report-themes.md)
 
-![菜单栏中的切换主题图标](media/service-tips-and-tricks-for-color-formatting/power-bi-theme.png)
+![菜单栏中的切换主题图标](media/service-tips-and-tricks-for-color-formatting/power-bi-themes.png)
 
 此处我们已将“创新”主题应用到“销售和市场营销”报表中。
 
@@ -56,13 +56,13 @@ Power BI 提供了自定义报表的多种方法。 本文详细介绍了一些�
 
 以下可视化效果对按产品细分销售的单位进行排名。 
 
-![将数据颜色更改为灰色](media/service-tips-and-tricks-for-color-formatting/power-bi-data.png)
+![将数据颜色更改为灰色](media/service-tips-and-tricks-for-color-formatting/power-bi-format.png)
 
 现在，假设你想通过使用颜色来调出“便利性”细分，以展示这个全新细分的效果。 步骤如下：
 
 展开“数据颜色”卡，然后启用“全部显示”滑块。 此操作将显示可视化效果中每个数据元素的颜色。 现在可以修改任意数据点。
 
-![“显示全部”设置为“启用”的“格式”窗格](media/service-tips-and-tricks-for-color-formatting/power-bi-show.png)
+![“显示全部”设置为“启用”的“格式”窗格](media/service-tips-and-tricks-for-color-formatting/power-bi-show-all.png)
 
 将“便利性”设置为橙色。 
 
@@ -84,9 +84,9 @@ Power BI 提供了自定义报表的多种方法。 本文详细介绍了一些�
 以下部分演示了根据数值设置颜色的不同方式。
 
 ### <a name="base-the-color-of-data-points-on-a-value"></a>根据数值设置数据点的颜色
-若要基于某个值更改颜色，请选择可视化效果以使其处于活动状态。 选择油漆滚筒图标，然后打开“数据颜色”卡片，以打开“格式”窗格。 鼠标悬停在卡片上，选择竖直的三个点，再选择“条件格式”选项。  
+若要基于某个值更改颜色，请选择可视化效果以使其处于活动状态。 选择油漆滚筒图标，然后选择“数据颜色”卡片，以打开“格式设置”窗格。 在“默认颜色”下选择 fx 图标。  
 
-![单击三个竖直点，选择“条件格式设置”选项](media/service-tips-and-tricks-for-color-formatting/power-bi-conditional-formatting.gif)
+![单击三个竖直点，选择“条件格式设置”选项](media/service-tips-and-tricks-for-color-formatting/power-bi-conditional.png)
 
 在“默认颜色”窗格中，使用下拉列表标识要用于条件格式的字段。 在此示例中，我们选择了“销售事实” > “总单位数”字段，并为“最低值”选择了浅蓝色，为“最高值”选择了深蓝色   。 
 

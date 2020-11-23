@@ -10,12 +10,12 @@ ms.date: 10/22/2020
 ms.author: kfollis
 ms.custom: seodec18
 LocalizationGroup: Administration
-ms.openlocfilehash: eb7a2dfeb78e60c78b1b3f17306aec91a8a55330
-ms.sourcegitcommit: 37bd34053557089c4fbf0e05f78e959609966561
+ms.openlocfilehash: 38df6680f2f4d0031ec26a1935e01c849c285909
+ms.sourcegitcommit: 5240990f998851c4854eb565de681099264c5a61
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/10/2020
-ms.locfileid: "94397015"
+ms.lasthandoff: 11/18/2020
+ms.locfileid: "94719066"
 ---
 # <a name="administering-power-bi-in-the-admin-portal"></a>在管理门户中管理 Power BI
 
@@ -115,7 +115,7 @@ ms.locfileid: "94397015"
 
 当禁用整个组织的使用指标时，管理员还可以选择以下一个或两个选项：
 
-- **删除所有现有的使用指标内容** ，可删除通过使用指标报表和数据集构建的所有现有报表和仪表板磁贴。 此选项可以删除组织中可能已在使用的所有用户对使用指标数据的所有访问内容。
+- **删除所有现有的使用指标内容**，可删除通过使用指标报表和数据集构建的所有现有报表和仪表板磁贴。 此选项可以删除组织中可能已在使用的所有用户对使用指标数据的所有访问内容。
 - 删除当前使用指标内容中的所有现有每个用户数据可以删除组织中所有用户（可能已在使用数据）对每个用户数据的全部访问权限。
 
 请谨慎操作，因为删除现有的使用指标内容和每个用户指标内容是不可逆转的操作。
@@ -146,15 +146,15 @@ ms.locfileid: "94397015"
 
 其中的许多设置可以有以下三种状态之一：
 
-* **已为整个组织禁用** ：组织中无人可以使用此功能。
+* **已为整个组织禁用**：组织中无人可以使用此功能。
 
     ![禁用所有设置](media/service-admin-portal/powerbi-admin-tenant-settings-disabled.png)
 
-* **已为整个组织启用** ：组织中每个人均可以使用此功能。
+* **已为整个组织启用**：组织中每个人均可以使用此功能。
 
     ![启用所有设置](media/service-admin-portal/powerbi-admin-tenant-settings-enabled.png)
 
-* **针对组织的子集启用** ：允许组织中的特定安全组使用此功能。
+* **针对组织的子集启用**：允许组织中的特定安全组使用此功能。
 
     还可以为除特定安全组之外的整个组织启用某功能。
 
@@ -460,6 +460,13 @@ Azure AD B2B 来宾用户可以编辑和管理组织中的内容。 [了解详�
 > [!NOTE]
 > 此设置应用于整个组织，并且不能限制为特定组。
 
+### <a name="web-content-on-dashboard-tiles"></a>仪表板磁贴上的 Web 内容
+
+组织中的用户可以在 Power BI 仪表板上添加和查看 Web 内容磁贴。 [了解详细信息](../create-reports/service-dashboard-add-widget.md)
+
+> [!NOTE]
+> 这可能会因存在恶意 Web 内容而使你的组织面临安全风险。
+
 ## <a name="developer-settings"></a>开发人员设置
 
 ### <a name="embed-content-in-apps"></a>在应用中嵌入内容
@@ -556,7 +563,7 @@ Azure AD B2B 来宾用户可以编辑和管理组织中的内容。 [了解详�
 
 “工作区”选项卡上的表列对应于由 [Power BI 管理员 Rest API](/rest/api/power-bi/admin) 为工作区返回的属性。 个人工作区的类型是“PersonalGroup”，经典工作区的类型是“Group”，提供新工作区体验的工作区的类型是“Workspace”。 有关详细信息，请参阅[在新工作区中组织工作](../collaborate-share/service-new-workspaces.md)。
 
-在“工作区”选项卡上，可看到每个工作区的 *状态* 。 下表提供有关这些状态的含义的更多详细信息。
+在“工作区”选项卡上，可看到每个工作区的 *状态*。 下表提供有关这些状态的含义的更多详细信息。
 
 |州省/自治区/直辖市  |说明  |
 |---------|---------|
@@ -575,11 +582,11 @@ Azure AD B2B 来宾用户可以编辑和管理组织中的内容。 [了解详�
 
 ![自定义品牌选项](media/service-admin-portal/power-bi-custom-branding.png)
 
-* **上传徽标** ：为获得最佳结果，请上传另存为 .png 的徽标，大小不超过 10 KB，且至少为 200 x 30 像素。
+* **上传徽标**：为获得最佳结果，请上传另存为 .png 的徽标，大小不超过 10 KB，且至少为 200 x 30 像素。
 
-* **上传封面图像** ：为获得最佳结果，请上传另存为 .jpg 或 .png 的封面图像，大小不超过 1 MB，且至少为 1920 x 160 像素。
+* **上传封面图像**：为获得最佳结果，请上传另存为 .jpg 或 .png 的封面图像，大小不超过 1 MB，且至少为 1920 x 160 像素。
 
-* **选择主题颜色** ：可以根据十六进制数 #、RGB、值或提供的调色板来选择主题。
+* **选择主题颜色**：可以根据十六进制数 #、RGB、值或提供的调色板来选择主题。
 
 
 有关详细信息，请参阅[为组织自定义品牌](https://aka.ms/orgBranding)。

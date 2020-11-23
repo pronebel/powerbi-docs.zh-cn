@@ -7,12 +7,12 @@ ms.topic: how-to
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.date: 10/01/2020
-ms.openlocfilehash: b1d0a94e3dd0ae68231720bc69d2537568efd19f
-ms.sourcegitcommit: 37bd34053557089c4fbf0e05f78e959609966561
+ms.openlocfilehash: 8ff1fe1657e22b1e0812bddf6a0842b3c32b8822
+ms.sourcegitcommit: bd133cb1fcbf4f6f89066165ce065b8df2b47664
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/10/2020
-ms.locfileid: "94396785"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "94668571"
 ---
 # <a name="export-power-bi-report-to-file-preview"></a>将 Power BI 报表导出到文件（预览）
 
@@ -93,6 +93,9 @@ ms.locfileid: "94396785"
 `exportToFile` 支持并发导出作业请求。 下表列出了可同时运行的作业数，具体视报表所驻留在的 SKU 而定。 并发请求引用报表页。 例如，在 A6 SKU 上，一个导出请求中的 20 个报表页会同时得到处理。 这与发送 20 个导出请求（每个报表页一个请求）所花费的时间大致相同。
 
 超出并发请求数的作业不会终止。 例如，如果在 A1 SKU 中导出三个报表页，第一个作业将运行，后两个作业将等待后面两个执行周期。
+
+>[!NOTE]
+>[Premium Per User (PPU)](../../admin/service-premium-per-user-faq.md) 不支持使用 `exporToFile` API 将 Power BI 报表导出到文件。 
 
 |Azure SKU  |Office SKU  |并发报表页数上限  |
 |-----------|------------|-----------|

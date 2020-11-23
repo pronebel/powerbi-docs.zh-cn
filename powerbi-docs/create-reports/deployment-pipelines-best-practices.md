@@ -6,13 +6,13 @@ ms.author: kesharab
 ms.topic: conceptual
 ms.service: powerbi
 ms.subservice: powerbi-service
-ms.date: 09/15/2020
-ms.openlocfilehash: 01cb4c5de2863250f083320e7005c0d589a2da0b
-ms.sourcegitcommit: 59d07be9c3e4a2067f6d42c3002a194371bc4341
+ms.date: 10/21/2020
+ms.openlocfilehash: 9d78a4cd8beb84402a4b3b586df6998810d1c8f7
+ms.sourcegitcommit: cc20b476a45bccb870c9de1d0b384e2c39e25d24
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "92116468"
+ms.lasthandoff: 11/11/2020
+ms.locfileid: "94512990"
 ---
 # <a name="deployment-pipelines-best-practices"></a>部署管道最佳做法
 
@@ -93,26 +93,26 @@ ms.locfileid: "92116468"
 
 ### <a name="use-power-bi-desktop-to-edit-your-reports-and-datasets"></a>使用 Power BI Desktop 编辑报表和数据集
 
-考虑将 Power BI Desktop 作为本地开发环境。 Power BI Desktop 允许用户试用、浏览和查看报表和数据集的更新。 完成上述操作后，可以将新版本上传到开发阶段。 由于以下原因，建议在 Desktop 中编辑 .pbix 文件（而不是在 Power BI 服务中编辑）：
+考虑将 Power BI Desktop 作为本地开发环境。 Power BI Desktop 允许用户试用、浏览和查看报表和数据集的更新。 完成上述操作后，可以将新版本上传到开发阶段。 由于以下原因，建议在 Desktop 中编辑 PBIX 文件（而不是在 Power BI 服务中编辑）：
 
-* 如果所有的修改都在同一个工具上进行，则可以更轻松地与其他创建者一起对同一个 .pbix 文件开展合作。
+* 如果所有的修改都在同一个工具上进行，则可以更轻松地与其他创建者一起对同一个 PBIX 文件开展合作。
 
- * 进行在线更改，下载 .pbix 文件，然后再次上传，创建报表和数据集副本。
+ * 进行在线更改，下载 PBIX 文件，然后再次上传，创建报表和数据集副本。
 
-* 可以使用版本控制来使 .pbix 文件保持最新状态。
+* 可以使用版本控制来使 PBIX 文件保持最新状态。
 
-### <a name="version-control-for-pbix-files"></a>.pbix 文件的版本控制
+### <a name="version-control-for-pbix-files"></a>PBIX 文件的版本控制
 
 如果要管理报表和数据集的版本历史记录，请使用 [Power BI 与 OneDrive 的自动同步](../collaborate-share/service-connect-to-files-in-app-workspace-onedrive-for-business.md)。 这将使文件更新为最新版本。 它还可以让你在需要时检索旧版本。
 
 >[!NOTE]
->仅对部署管道开发阶段中的 .pbix 文件使用与 OneDrive（或任何其他存储库）的自动同步。 不要将 .pbix 文件同步到部署管道测试和生产阶段。 这将会造成跨管道部署内容的问题。
+>仅对部署管道开发阶段中的 PBIX 文件使用与 OneDrive（或任何其他存储库）的自动同步。 不要将 PBIX 文件同步到部署管道测试和生产阶段。 这将会造成跨管道部署内容的问题。
 
 ### <a name="separate-modeling-development-from-report-and-dashboard-development"></a>将建模开发与报表和仪表板开发分离开来
 
 对于企业级部署，建议将数据集开发与报表和仪表盘的开发分离开来。 若要仅对报表或数据集进行更改，请使用部署管道选择性部署选项。  
 
-这种方法应该从 Power BI Desktop 开始，方法是为数据集和报表创建一个单独的 .pbix 文件。 例如，可以创建一个数据集 .pbix 文件，并将其上传到开发阶段。 稍后，报表作者可以只为报表创建一个新的 .pbix，并使用实时连接[将其连接到已发布的数据集](../connect-data/service-datasets-discover-across-workspaces.md)。 该技术允许不同的创建者分别进行建模和可视化，并独立将其部署到生产环境中。
+这种方法应该从 Power BI Desktop 开始，方法是为数据集和报表创建一个单独的 PBIX 文件。 例如，可以创建一个数据集 PBIX 文件，并将其上传到开发阶段。 稍后，报表作者可以只为报表创建一个新的 PBIX，并使用实时连接[将其连接到已发布的数据集](../connect-data/service-datasets-discover-across-workspaces.md)。 该技术允许不同的创建者分别进行建模和可视化，并独立将其部署到生产环境中。
 
 通过[共享数据集](../connect-data/service-datasets-share.md)，还可以跨工作区使用此方法。
 
@@ -195,7 +195,7 @@ ms.locfileid: "92116468"
 
 ### <a name="quick-fixes-to-content"></a>快速修复内容
 
-如果生产环境中出现需要快速修复的 Bug，请不要将新的 .pbix 版本直接上传到生产阶段，也不要在 Power BI 服务中进行在线修改。 在测试和开发阶段已经有内容的情况下，反向部署到这两个阶段是不可能的。 此外，不先测试就部署修复程序并不是一种好的做法。 因此，处理这个问题的正确方法是在开发阶段实现修补程序，并将其推送到部署管道的其他阶段。 这样，可以在将修补程序部署到生产环境之前，检查修复程序是否有效。 跨管道部署，只需几分钟时间。
+如果生产环境中出现需要快速修复的 Bug，请不要将新的 PBIX 版本直接上传到生产阶段，也不要在 Power BI 服务中进行在线修改。 在测试和开发阶段已经有内容的情况下，反向部署到这两个阶段是不可能的。 此外，不先测试就部署修复程序并不是一种好的做法。 因此，处理这个问题的正确方法是在开发阶段实现修补程序，并将其推送到部署管道的其他阶段。 这样，可以在将修补程序部署到生产环境之前，检查修复程序是否有效。 跨管道部署只需几分钟时间。
 
 ## <a name="next-steps"></a>后续步骤
 

@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 10/12/2020
+ms.date: 11/11/2020
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: 01d7a433650eb8c74ace37b548ba8d7bf2c570ea
-ms.sourcegitcommit: 37bd34053557089c4fbf0e05f78e959609966561
+ms.openlocfilehash: 216fd30142f76758cbcb9ed2b329f3bbefb7156f
+ms.sourcegitcommit: 029aacd09061a8aa45b57f05d0dc95c93dd16a74
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/10/2020
-ms.locfileid: "94396164"
+ms.lasthandoff: 11/12/2020
+ms.locfileid: "94560071"
 ---
 # <a name="previous-monthly-updates-to-power-bi-desktop"></a>此前的 Power BI Desktop 月度更新
 
@@ -34,9 +34,104 @@ ms.locfileid: "94396164"
 * 大多数功能在每月更新的[博客]文章中均有说明。
 * 最后，一些明白易懂的功能未提供相关文章或视频。
 
-也可以通过单击更新列表下的视频图像上的“ **播放** ”按钮，从头观看本文中的 **最新更新** 视频。
+也可以通过单击更新列表下的视频图像上的“**播放**”按钮，从头观看本文中的 **最新更新** 视频。
 
 以下各节描述了 **Power BI Desktop** 之前月份的更新。
+
+
+## <a name="october-2020-update-2863210"></a>2020 年 10 月更新 (2.86.321.0)
+
+10 月 Power BI Desktop 更新是充满惊喜的存储桶，你可以在接下来的几周内进行排序并尽情享受。 
+
+Power BI Desktop 的每月博客和视频更新现在还包括 Power BI 移动版和 Power BI 服务的新更新。 本文介绍 Power BI Desktop 的更新。 若要了解移动版和 Power BI 服务的更新，请查看其各自的新增功能文章：
+
+* [Power BI 服务中的最近更新](service-whats-new.md)
+* [Power BI 移动应用中的新增功能](../consumer/mobile/mobile-whats-new-in-the-mobile-apps.md)
+
+从[下载中心](https://www.microsoft.com/download/details.aspx?id=58494)获取最新版 Power BI Desktop。 如果运行的是 Windows 10，还可以从 [Microsoft Store](https://aka.ms/pbidesktopstore) 获取 Power BI Desktop。 无论以何种方式安装 Power BI Desktop，每月版本都是相同的，虽然版本编号可能不同。 有关下载和安装 Power BI Desktop 的详细信息，请参阅[获取 Power BI Desktop](desktop-get-the-desktop.md)。 
+
+> [!IMPORTANT]
+> 每月更新并发布 Power BI Desktop，在其中包含客户反馈和新增功能。 仅支持 Power BI Desktop 的最新版本；将要求联系 Power BI Desktop 支持的客户升级到最新版本。 可以从 [Windows 应用商店](https://aka.ms/pbidesktopstore)获取 Power BI Desktop 的最新版本，也可以在计算机上以单个可执行文件的形式[下载](https://www.microsoft.com/download/details.aspx?id=58494)并安装所有受支持的语言。
+
+Power BI Desktop 更新列表中每个功能旁边的链接解释如下：
+
+* \[博客\]：大多数功能在每月更新的博客文章的章节中均有说明。
+* \[视频\]：有些功能还提供了一段讨论此功能的视频片段（可以在新的浏览器标签页中播放）。
+* \[文章\]：有些功能通过文章来提供更多详细信息。
+* 其余功能是明白易懂的，不需要文章或视频。
+
+你还可以观看整个 [Power BI 每月更新视频](#power-bi-desktop-monthly-update-video)。
+
+> [!IMPORTANT]
+> 2021 年 1 月 31 日之后，Windows 7 将不再支持 Power BI Desktop。 在此日期之后，Windows 8 或较新版本的 Windows 将支持 Power BI Desktop（仅针对最新版本的 Power BI Desktop）。 
+
+以下是本月推出的 Power BI Desktop 新增功能的更新：
+
+
+
+### <a name="reporting"></a>报表
+* 画布水印 [[视频]](https://youtu.be/LveNuQqV5xk?t=17)  [[博客]](https://powerbi.microsoft.com/blog/power-bi-october-2020-feature-summary/#_Toc52195557) 
+* 个性化设置视觉对象现已正式发布 [[视频]](https://youtu.be/LveNuQqV5xk?t=115)   [[博客]](https://powerbi.microsoft.com/blog/power-bi-october-2020-feature-summary/#_Toc52195558) [[文章]](../create-reports/power-bi-personalize-visuals.md)
+* 树状图的数据点矩形选择（预览版）[[视频]](https://youtu.be/LveNuQqV5xk?t=292)   [[博客]](https://powerbi.microsoft.com/blog/power-bi-october-2020-feature-summary/#_Toc52195559)  [[文章]](../create-reports/desktop-multi-select.md#select-multiple-elements-using-rectangle-select-preview)
+
+### <a name="analytics"></a>分析
+* 从问答视觉对象中导出数据 [[视频]](https://youtu.be/LveNuQqV5xk?t=308)  [[博客]](https://powerbi.microsoft.com/blog/power-bi-october-2020-feature-summary/#_Toc52270582) 
+
+
+### <a name="modeling"></a>建模
+* IF 和 SWITCH 函数的性能改进  [[博客]](https://powerbi.microsoft.com/blog/power-bi-october-2020-feature-summary/#_Toc52270584)
+
+
+### <a name="data-preparation"></a>数据准备工作
+* 动态 M 查询参数（预览版）[[视频]](https://youtu.be/LveNuQqV5xk?t=329)  [[博客]](https://powerbi.microsoft.com/blog/power-bi-october-2020-feature-summary/#_Toc51665421)  [[文章]](../connect-data/desktop-dynamic-m-query-parameters.md)
+* Excel 文件中的自动表检测 [[视频]](https://youtu.be/LveNuQqV5xk?t=615)  [[博客]](https://powerbi.microsoft.com/blog/power-bi-october-2020-feature-summary/#_Toc52195566)
+* JSON 文件中的自动表检测 [[视频]](https://youtu.be/LveNuQqV5xk?t=650)  [[博客]](https://powerbi.microsoft.com/blog/power-bi-october-2020-feature-summary/#_Toc51665423)
+
+### <a name="data-connectivity"></a>数据连接
+* 对 Power Platform 数据流连接器的更广泛地理支持 [[视频]](https://youtu.be/LveNuQqV5xk?t=675)  [[博客]](https://powerbi.microsoft.com/blog/power-bi-october-2020-feature-summary/#_Toc52270590)
+* MariaDB 现在支持 DirectQuery [[视频]](https://youtu.be/LveNuQqV5xk?t=694)  [[博客]](https://powerbi.microsoft.com/blog/power-bi-october-2020-feature-summary/#_Toc52195570)
+* 更新了 SharePoint Online 列表连接器 [[视频]](https://youtu.be/LveNuQqV5xk?t=707)  [[博客]](https://powerbi.microsoft.com/blog/power-bi-october-2020-feature-summary/#_Toc52270592)
+* 新数据连接器 - Spigit 和 eWay-CRM [[视频]](https://youtu.be/LveNuQqV5xk?t=736)  [[博客]](https://powerbi.microsoft.com/blog/power-bi-october-2020-feature-summary/#_Toc52195572)
+
+
+### <a name="visuals"></a>视觉对象
+* 扩展的管理员功能现已正式发布 [[视频]](https://youtu.be/LveNuQqV5xk?t=997)  [[博客]](https://powerbi.microsoft.com/blog/power-bi-october-2020-feature-summary/#_Toc52270604)
+* 来自各种提供程序的新视觉对象 [[视频]](https://youtu.be/LveNuQqV5xk?t=1039)  [[博客]](https://powerbi.microsoft.com/blog/power-bi-october-2020-feature-summary/#_Toc52195582)
+
+
+### <a name="template-apps"></a>模板应用
+* 简化了模板应用的安装 [[视频]](https://youtu.be/LveNuQqV5xk?t=1127)   [[博客]](https://powerbi.microsoft.com/blog/power-bi-october-2020-feature-summary/#_Toc52270613) 
+* 从 Power BI Desktop 中查找模板应用 [[视频]](https://youtu.be/LveNuQqV5xk?t=1164)   [[博客]](https://powerbi.microsoft.com/blog/power-bi-october-2020-feature-summary/#_Toc52195591) 
+
+### <a name="other"></a>其他
+* 将数据源导出到 Power BI Desktop 中的 PBIDS [[视频]](https://youtu.be/LveNuQqV5xk?t=1255)   [[博客]](https://powerbi.microsoft.com/blog/power-bi-october-2020-feature-summary/#_Toc52195594)  [[文章]](../connect-data/desktop-data-sources.md#how-to-create-a-pbids-connection-file)
+* Power BI 的图标更新 [[视频]](https://youtu.be/LveNuQqV5xk?t=1295)   [[博客]](https://powerbi.microsoft.com/blog/power-bi-october-2020-feature-summary/#_Toc52270618) 
+* Power BI Desktop 初始屏幕关闭 [[视频]](https://youtu.be/LveNuQqV5xk?t=1313)   [[博客]](https://powerbi.microsoft.com/blog/power-bi-october-2020-feature-summary/#_Toc52195596)
+
+
+有关这些新功能的详细信息，请参阅 [Power BI Desktop 功能摘要博客文章](https://powerbi.microsoft.com/blog/power-bi-october-2020-feature-summary/)。
+
+
+> [!NOTE]
+> 查看 [Power BI Desktop 可用的数据源](../connect-data/desktop-data-sources.md)。 我们的列表将不断增加，请经常返回查看。
+
+
+### <a name="power-bi-desktop-monthly-update-video"></a>Power BI Desktop 每月更新视频
+以下视频介绍了上述每项更新。 你还可以从博客文章查看该视频：
+
+> [!VIDEO https://www.youtube.com/embed/LveNuQqV5xk]
+
+还可以下载旧版 Power BI Desktop（若组织需要）。 始终建议使用最新版 Power BI Desktop，而不是旧版本。 所有旧版本都存在以下限制：
+
+* 旧版 Power BI Desktop 无法提供服务，应始终使用最新版本获取最新功能和更新。
+* 可能无法使用旧版 Power BI Desktop 打开在较新版本的 Power BI Desktop 中创建或保存的文件。 
+* 如果在加载较新版本的 Power BI Desktop 中保存的报表时收到警告，然后将该报表保存在旧版本中，则会丢失与新功能相关的所有信息。
+* 我们只存档 Power BI Desktop 的英文版本。
+
+请选择以下链接以下载早期版本： 
+
+* [2020 年 10 月版 Power BI Desktop（32 位）](https://download.microsoft.com/download/8/8/0/880BCA75-79DD-466A-927D-1ABF1F5454B0/PBIDesktopSetup-2020-10.exe)
+* [2020 年 10 月版 Power BI Desktop（64 位）](https://download.microsoft.com/download/8/8/0/880BCA75-79DD-466A-927D-1ABF1F5454B0/PBIDesktopSetup-2020-10_x64.exe)
 
 
 ## <a name="september-2020-update-2852840"></a>2020 年 9 月更新 (2.85.284.0)
@@ -445,8 +540,6 @@ Power BI Desktop 更新列表中每个功能旁边的链接解释如下：
 
 > [!VIDEO https://www.youtube.com/embed/JtuHIslowxk]
 
-
-
 还可以下载旧版 Power BI Desktop（若组织需要）。 始终建议使用最新版 Power BI Desktop，而不是旧版本。 所有旧版本都存在以下限制：
 
 * 旧版 Power BI Desktop 无法提供服务，应始终使用最新版本获取最新功能和更新。
@@ -537,20 +630,6 @@ Power BI Desktop 更新列表中每个功能旁边的链接解释如下：
 以下视频介绍了上述每项更新。 你还可以从博客文章查看该视频：
 
 > [!VIDEO https://www.youtube.com/embed/q2Hfn_Rhb3E]
-
-
-还可以下载旧版 Power BI Desktop（若组织需要）。 始终建议使用最新版 Power BI Desktop，而不是旧版本。 所有旧版本都存在以下限制：
-
-* 旧版 Power BI Desktop 无法提供服务，应始终使用最新版本获取最新功能和更新。
-* 可能无法使用旧版 Power BI Desktop 打开在较新版本的 Power BI Desktop 中创建或保存的文件。 
-* 如果在加载较新版本的 Power BI Desktop 中保存的报表时收到警告，然后将该报表保存在旧版本中，则会丢失与新功能相关的所有信息。
-* 我们只存档 Power BI Desktop 的英文版本。
-
-请选择以下链接以下载早期版本： 
-
-* [2020 年 4 月版 Power BI Desktop - 32 位](https://download.microsoft.com/download/8/8/0/880BCA75-79DD-466A-927D-1ABF1F5454B0/PBIDesktopSetup.exe)
-* [2020 年 4 月版 Power BI Desktop - 64 位](https://download.microsoft.com/download/8/8/0/880BCA75-79DD-466A-927D-1ABF1F5454B0/PBIDesktopSetup_x64.exe)
-
 
 
 
@@ -861,7 +940,7 @@ Power BI Desktop 更新列表中每个功能旁边的链接解释如下：
 * 大多数功能在每月更新的[博客]文章中均有说明。
 * 最后，一些明白易懂的功能则不需要文章或视频。
 
-也可以通过单击更新列表下的视频图像上的“ **播放** ”按钮，从头观看本文中的 **最新更新** 视频。
+也可以通过单击更新列表下的视频图像上的“**播放**”按钮，从头观看本文中的 **最新更新** 视频。
 
 下面介绍了本月新推出的 Power BI Desktop 更新：
 
@@ -939,7 +1018,7 @@ Power BI Desktop 更新列表中每个功能旁边的链接解释如下：
 * 大多数功能在每月更新的[博客]文章中均有说明。
 * 最后，一些明白易懂的功能则不需要文章或视频。
 
-也可以通过单击更新列表下的视频图像上的“ **播放** ”按钮，从头观看本文中的 **最新更新** 视频。
+也可以通过单击更新列表下的视频图像上的“**播放**”按钮，从头观看本文中的 **最新更新** 视频。
 
 下面介绍了本月新推出的 Power BI Desktop 更新：
 
@@ -1000,7 +1079,7 @@ Power BI Desktop 更新列表中每个功能旁边的链接解释如下：
 * 大多数功能在每月更新的[博客]文章中均有说明。
 * 最后，一些明白易懂的功能则不需要文章或视频。
 
-也可以通过单击更新列表下的视频图像上的“ **播放** ”按钮，从头观看本文中的 **最新更新** 视频。
+也可以通过单击更新列表下的视频图像上的“**播放**”按钮，从头观看本文中的 **最新更新** 视频。
 
 以下是本月推出的 Power BI Desktop 新增功能的更新：
 
@@ -1063,7 +1142,7 @@ Power BI Desktop 更新列表中每个功能旁边的链接解释如下：
 * 大多数功能在每月更新的[博客]文章中均有说明。
 * 最后，一些明白易懂的功能则不需要文章或视频。
 
-也可以通过单击更新列表下的视频图像上的“ **播放** ”按钮，从头观看本文中的 **最新更新** 视频。
+也可以通过单击更新列表下的视频图像上的“**播放**”按钮，从头观看本文中的 **最新更新** 视频。
 
 以下是本月推出的 Power BI Desktop 新增功能的更新：
 
@@ -1128,7 +1207,7 @@ Power BI Desktop 更新列表中每个功能旁边的链接解释如下：
 * 大多数功能在每月更新的[博客]文章中均有说明。
 * 最后，一些明白易懂的功能则不需要文章或视频。
 
-也可以通过单击更新列表下的视频图像上的“ **播放** ”按钮，从头观看本文中的 **最新更新** 视频。
+也可以通过单击更新列表下的视频图像上的“**播放**”按钮，从头观看本文中的 **最新更新** 视频。
 
 以下是本月推出的 Power BI Desktop 新增功能的更新：
 
@@ -1199,7 +1278,7 @@ Power BI Desktop 更新列表中每个功能旁边的链接解释如下：
 * 大多数功能在每月更新的[博客]文章中均有说明。
 * 最后，一些明白易懂的功能则不需要文章或视频。
 
-也可以通过单击更新列表下的视频图像上的“ **播放** ”按钮，从头观看本文中的 **最新更新** 视频。
+也可以通过单击更新列表下的视频图像上的“**播放**”按钮，从头观看本文中的 **最新更新** 视频。
 
 以下是本月推出的 Power BI Desktop 新增功能的更新：
 
@@ -1264,7 +1343,7 @@ Power BI Desktop 更新列表中每个功能旁边的链接解释如下：
 * 大多数功能在每月更新的[博客]文章中均有说明。
 * 最后，一些明白易懂的功能则不需要文章或视频。
 
-也可以通过单击更新列表下的视频图像上的“ **播放** ”按钮，从头观看本文中的 **最新更新** 视频。
+也可以通过单击更新列表下的视频图像上的“**播放**”按钮，从头观看本文中的 **最新更新** 视频。
 
 以下是本月推出的 Power BI Desktop 新增功能的更新：
 
@@ -1336,7 +1415,7 @@ Power BI Desktop 更新列表中每个功能旁边的链接解释如下：
 * 大多数功能在每月更新的[博客]文章中均有说明。
 * 最后，一些明白易懂的功能则不需要文章或视频。
 
-也可以通过单击更新列表下的视频图像上的“ **播放** ”按钮，从头观看本文中的 **最新更新** 视频。
+也可以通过单击更新列表下的视频图像上的“**播放**”按钮，从头观看本文中的 **最新更新** 视频。
 
 下面介绍了 3 月更新的 Power BI Desktop 新增的功能：
 
@@ -1405,7 +1484,7 @@ Power BI Desktop 更新列表中每个功能旁边的链接解释如下：
 * 大多数功能在每月更新的[博客]文章中均有说明。
 * 最后，一些明白易懂的功能则不需要文章或视频。
 
-也可以通过单击更新列表下的视频图像上的“ **播放** ”按钮，从头观看本文中的 **最新更新** 视频。
+也可以通过单击更新列表下的视频图像上的“**播放**”按钮，从头观看本文中的 **最新更新** 视频。
 
 下面介绍了本月新推出的 Power BI Desktop 更新：
 
@@ -1472,7 +1551,7 @@ Power BI Desktop 更新列表中每个功能旁边的链接解释如下：
 * 大多数功能在每月更新的[博客]文章中均有说明。
 * 最后，一些明白易懂的功能未提供相关文章或视频。
 
-也可以通过单击更新列表下的视频图像上的“ **播放** ”按钮，从头观看本文中的 **最新更新** 视频。
+也可以通过单击更新列表下的视频图像上的“**播放**”按钮，从头观看本文中的 **最新更新** 视频。
 
 下面介绍了本月新推出的 Power BI Desktop 更新：
 
@@ -2117,7 +2196,7 @@ Power BI Desktop 更新列表中每个功能旁边的链接解释如下：
 -   大多数功能在每月更新的[博客]文章中均有说明。
 -   最后，一些明白易懂的功能则不需要文章或视频。
 
-也可以通过单击更新列表下的视频图像上的“ **播放** ”按钮，从头观看本文中的 **最新更新** 视频。
+也可以通过单击更新列表下的视频图像上的“**播放**”按钮，从头观看本文中的 **最新更新** 视频。
 
 下面介绍了 12 月更新的 Power BI Desktop 新增的功能：
 
@@ -2172,7 +2251,7 @@ Power BI Desktop 更新列表中每个功能旁边的链接解释如下：
 -   大多数功能在每月更新的[博客]文章中均有说明。
 -   最后，一些明白易懂的功能则不需要文章或视频。
 
-也可以通过单击更新列表下的视频图像上的“ **播放** ”按钮，从头观看本文中的 **最新更新** 视频。
+也可以通过单击更新列表下的视频图像上的“**播放**”按钮，从头观看本文中的 **最新更新** 视频。
 
 以下是 11 月针对 Power BI Desktop 推出的更新：
 
@@ -2231,7 +2310,7 @@ Power BI Desktop 更新列表中每个功能旁边的链接解释如下：
 -   大多数功能在每月更新的[博客]文章中均有说明。
 -   最后，一些明白易懂的功能则不需要文章或视频。
 
-也可以通过单击更新列表下的视频图像上的“ **播放** ”按钮，从头观看本文中的 **最新更新** 视频。
+也可以通过单击更新列表下的视频图像上的“**播放**”按钮，从头观看本文中的 **最新更新** 视频。
 
 下面介绍了本月新推出的 Power BI Desktop 更新：
 
@@ -2694,7 +2773,7 @@ Power BI Desktop 更新列表中每个功能旁边的链接解释如下：
 ### <a name="analytics"></a>分析
 
 -   群集（预览版）[[视频]](https://youtu.be/kERJ_WOLuLk?t=8m52s) [[博客]](https://powerbi.microsoft.com/blog/power-bi-desktop-november-feature-summary/#clustering)
--   预测（现在位于 **Power BI 服务** 中） [[博客]](https://powerbi.microsoft.com/blog/power-bi-desktop-november-feature-summary/#forecasting)
+-   预测（现在位于 **Power BI 服务** 中）[[博客]](https://powerbi.microsoft.com/blog/power-bi-desktop-november-feature-summary/#forecasting)
 -   组（现在位于功能区中）[[视频]](https://youtu.be/kERJ_WOLuLk?t=13m29s) [[博客]](https://powerbi.microsoft.com/blog/power-bi-desktop-november-feature-summary/#groups)
 
 
@@ -2848,7 +2927,7 @@ Power BI Desktop 更新列表中每个功能旁边的链接解释如下：
 -   大多数功能在每月更新的[博客]文章中均有说明。
 -   最后，一些明白易懂的功能则不需要文章或视频。
 
-也可以通过单击更新列表下的视频图像上的“ **播放** ”按钮，从头观看本文中的 **最新更新** 视频。
+也可以通过单击更新列表下的视频图像上的“**播放**”按钮，从头观看本文中的 **最新更新** 视频。
 
 以下是本月推出的 Power BI Desktop 新增功能的更新：
 
@@ -3170,7 +3249,7 @@ Power BI Desktop 更新列表中每个功能旁边的链接解释如下：
 -   功能区布局改进：报表工具的上下文功能区选项卡
 -   新的 KPI 视觉对象
 -   在保存报表时可见的同一页面中打开报表
--   “字段”窗格（ **报表** & **数据** 视图）中表格上下文菜单中的 **编辑查询** 选项
+-   “字段”窗格（**报表** & **数据** 视图）中表格上下文菜单中的 **编辑查询** 选项
 -   从功能区 **复制页面**
 
 
@@ -3226,7 +3305,7 @@ Power BI Desktop 更新列表中每个功能旁边的链接解释如下：
 ### <a name="data-connectivity"></a>数据连接：
 
 -   DirectQuery：现在可在 DirectQuery 模式下创建度量值
--   你现在可以从“字段”列表刷新单个表的数据（在 **报表** 视图和 **数据** 视图中），而不是只能从功能区 **刷新全部** （现在两种方式皆可）
+-   你现在可以从“字段”列表刷新单个表的数据（在 **报表** 视图和 **数据** 视图中），而不是只能从功能区 **刷新全部**（现在两种方式皆可）
 -   SQL Server Analysis Services 多维模型浏览模式正式版 (GA)（不再是预览功能）
 -   层次结构支持的增强功能
 -   SAP HANA 连接器正式版 (GA)（不再是预览功能）
@@ -3290,7 +3369,7 @@ Power BI Desktop 更新列表中每个功能旁边的链接解释如下：
 -   [SSAS 多维支持 - 层次结构支持](../connect-data/desktop-ssas-multidimensional.md)
 -   Stripe 连接器
 -   Smartsheet 连接器
--   **输入数据** ：粘贴或输入数据以创建表格
+-   **输入数据**：粘贴或输入数据以创建表格
 -   DirectQuery 功能改进：支持 T-SQL 和 SAP HANA 的所有数据类型，从而改进性能。
 -   ODBC 连接器：支持选择用户/系统 DSN
 -   CSV 连接器：在源对话框中指定列分隔符的功能
@@ -3521,13 +3600,13 @@ Power BI Desktop 更新列表中每个功能旁边的链接解释如下：
 
 已向此更新添加了以下功能：
 
--   **新数据连接器** ：appFigures、Quickbooks Online、Zendesk、GitHub、Twilio 和 SweetIQ。
+-   **新数据连接器**：appFigures、Quickbooks Online、Zendesk、GitHub、Twilio 和 SweetIQ。
 
--   **新转换** ：从文本列提取第一个/最后一个/一定范围的字符；用于在“合并查询”对话框中指定“联接类型”的选项；能够自定义“通过分隔符拆分列”对话框中的“引用样式”。
+-   **新转换**：从文本列提取第一个/最后一个/一定范围的字符；用于在“合并查询”对话框中指定“联接类型”的选项；能够自定义“通过分隔符拆分列”对话框中的“引用样式”。
 
--   **报表创作改进** ：新的可视化效果（面积图、瀑布图、圆环图和矩形图）；新的可视化效果格式设置和自定义选项（标签、标题、背景、图例和颜色等）；在报表中插入文本框和图片；支持报表和报表表格中的超链接；“撤消/重新执行”操作。
+-   **报表创作改进**：新的可视化效果（面积图、瀑布图、圆环图和矩形图）；新的可视化效果格式设置和自定义选项（标签、标题、背景、图例和颜色等）；在报表中插入文本框和图片；支持报表和报表表格中的超链接；“撤消/重新执行”操作。
 
--   在 Analysis Services 表格模型中进行 **直接报表浏览** 。
+-   在 Analysis Services 表格模型中进行 **直接报表浏览**。
 
 -   **数据建模：** 新数据视图和关系视图。
 
@@ -3632,7 +3711,7 @@ Power BI Desktop 更新列表中每个功能旁边的链接解释如下：
 
 -   改进了 **添加关系** 对话框
 
--   **报表页重新排序** （拖放）
+-   **报表页重新排序**（拖放）
 
 -   在不涉及筛选/转换的情况下填充数据库表这一操作的性能提升了约 40-50% 
 
