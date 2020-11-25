@@ -44,10 +44,10 @@
           href: embedded-faq.md
     - name: 操作方法
       items:
-        - name: 结合使用服务主体和证书来进行嵌入
-          href: embed-service-principal-certificate.md
-        - name: 结合使用服务主体和应用密码来进行嵌入
+        - name: 使用服务主体进行嵌入
           href: embed-service-principal.md
+        - name: 结合使用服务主体和证书进行嵌入
+          href: embed-service-principal-certificate.md
         - name: 从应用中嵌入
           href: embed-from-apps.md
         - name: 将报表导出到文件

@@ -20,6 +20,8 @@
           href: walkthrough-push-data-get-datasets.md
         - name: 向表中添加行
           href: walkthrough-push-data-add-rows.md
+        - name: 自动执行模板应用配置
+          href: ../template-apps/template-apps-auto-install-tutorial.md
     - name: 概念
       items:
         - name: 实时数据的自动保留策略
@@ -32,10 +34,14 @@
               href: api-dataset-properties.md
             - name: 数据模型版本控制
               href: api-data-model-versioning.md
+        - name: 自动模板应用配置
+          href: ../template-apps/template-apps-auto-install.md
     - name: 如何
       items:
         - name: 配置凭据
           href: configure-credentials.md
+        - name: 自动执行模板应用配置
+          href: ../template-apps/template-apps-auto-install.md
     - name: 参考
       items:
         - name: REST API
