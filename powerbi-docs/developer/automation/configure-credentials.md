@@ -8,19 +8,19 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: how-to
 ms.date: 06/23/2020
-ms.openlocfilehash: d2cd9786a635aed79f334706f53c21fe87e723a4
-ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
+ms.openlocfilehash: df5e82af012f4d85fd81399d6e31fde3b7539ce6
+ms.sourcegitcommit: 9d033abd9c01a01bba132972497dda428d7d5c12
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/06/2020
-ms.locfileid: "91748945"
+ms.lasthandoff: 11/24/2020
+ms.locfileid: "95513817"
 ---
 # <a name="configure-credentials-programmatically-for-power-bi"></a>以编程方式为 Power BI 配置凭据
 
 按照本文中的步骤以编程方式为 Power BI 配置凭据。
 
 >[!NOTE]
->* 调用用户必须是数据集所有者或网关管理员。还可以使用[服务主体](../embedded/embed-service-principal-certificate.md)。 例如，服务主体可以是数据集所有者。
+>* 调用用户必须是数据集所有者或网关管理员。还可以使用[服务主体](../embedded/embed-service-principal.md)。 例如，服务主体可以是数据集所有者。
 >* 云数据源及其相应的凭据在用户级别进行管理。
 
 ## <a name="update-credentials-flow-for-data-sources"></a>更新数据源的凭据流

@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 09/23/2020
 ms.author: mihart
 LocalizationGroup: Ask questions of your data
-ms.openlocfilehash: 9a8486a24ab7daa23e35f762c6830e400392963f
-ms.sourcegitcommit: 02b5d031d92ea5d7ffa70d5098ed15e4ef764f2a
+ms.openlocfilehash: a4ef051f4e4a24901599036c80a52bf200348df1
+ms.sourcegitcommit: b2693047fce6a4e0c3ea07013404e99fc9cc1901
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/26/2020
-ms.locfileid: "91375272"
+ms.lasthandoff: 11/19/2020
+ms.locfileid: "94893674"
 ---
 # <a name="tips-for-asking-questions-in-power-bi-qa"></a>在 Power BI 问答中提问的提示
 
@@ -30,7 +30,7 @@ ms.locfileid: "91375272"
 >  
 
 
-|类别  |关键字  |Column3  |
+|类别  |关键字  |
 |---------|---------|---------|
 |**聚合**     | 总计、求和、金额、数字、数量、计数、平均值、最多、最少、最大、最小、最高、最大值、最大（值）、最低、最小值、最小（值）          |
 |     |         |         

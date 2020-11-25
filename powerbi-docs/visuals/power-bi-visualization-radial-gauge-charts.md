@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 06/17/2020
 ms.author: rien
 LocalizationGroup: Visualizations
-ms.openlocfilehash: d7fcef8294d1e4ba4b3336d4a2456e0ccac787fb
-ms.sourcegitcommit: 5ccab484cf3532ae3a16acd5fc954b7947bd543a
+ms.openlocfilehash: de9e2004d7802b5f3eb7684678984a84a077ce89
+ms.sourcegitcommit: b2693047fce6a4e0c3ea07013404e99fc9cc1901
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/06/2020
-ms.locfileid: "93412317"
+ms.lasthandoff: 11/19/2020
+ms.locfileid: "94893720"
 ---
 # <a name="radial-gauge-charts-in-power-bi"></a>Power BI 中的径向仪表图
 
@@ -46,7 +46,7 @@ ms.locfileid: "93412317"
 
 ## <a name="prerequisites"></a>先决条件
 
-本教程使用[财务示例 Excel 文件](https://download.microsoft.com/download/9/6/D/96DDC2FF-2568-491D-AAFA-AFDD6F763AE3/Retail%20Analysis%20Sample%20PBIX.pbix)。
+本教程使用[财务示例 Excel 文件](https://go.microsoft.com/fwlink/?LinkID=521962)。
 
 1. 在菜单栏的左上方，选择“获取数据” > “Excel” 
    
@@ -72,7 +72,7 @@ ms.locfileid: "93412317"
 
    ![财务表已展开并选择了“总销售额”](media/power-bi-visualization-radial-gauge-charts/grosssalesvalue-new.png)
 
-1. 将聚合函数更改为 **平均值** 。
+1. 将聚合函数更改为 **平均值**。
 
    ![突出显示“总销售额”和“平均”聚合的“字段”窗格屏幕截图。](media/power-bi-visualization-radial-gauge-charts/changetoaverage-new.png)
 
@@ -89,9 +89,9 @@ ms.locfileid: "93412317"
 
 1. 将“字段”窗格中的“COGS”拖放到“目标值”井。
 
-1. 将聚合函数更改为 **平均值** 。
+1. 将聚合函数更改为 **平均值**。
 
-   Power BI 添加了一个针用于表示我们的目标值 **$145.48K** 。
+   Power BI 添加了一个针用于表示我们的目标值 **$145.48K**。
 
    ![添加了“平均 COGS”的仪表图的屏幕截图。](media/power-bi-visualization-radial-gauge-charts/gaugeinprogress-new.png)
 
@@ -106,7 +106,7 @@ ms.locfileid: "93412317"
 
 1. 将“字段”窗格中的“总销售额”拖放到“最大值”井。
 
-1. 将聚合函数更改为 **最大值** 。
+1. 将聚合函数更改为 **最大值**。
 
    ![突出显示“总销售额”和“最大值”聚合的“字段”窗格屏幕截图。](media/power-bi-visualization-radial-gauge-charts/setmaximum-new.png)
 

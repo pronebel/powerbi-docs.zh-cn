@@ -10,12 +10,12 @@ ms.subservice: powerbi-service
 ms.topic: how-to
 LocalizationGroup: Share your work
 ms.date: 07/31/2020
-ms.openlocfilehash: ae3f6b5f3026adf127b53dd07118fe05e4c06a00
-ms.sourcegitcommit: 1b3a626c5ca612a7f23058f8e5cc0147a94db51c
+ms.openlocfilehash: db9084e7f7e78ecf17abe38ade732ab7ad2df754
+ms.sourcegitcommit: 5bbe7725918a72919ba069c5f8a59e95453ec14c
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/07/2020
-ms.locfileid: "94348073"
+ms.lasthandoff: 11/20/2020
+ms.locfileid: "94946762"
 ---
 # <a name="share-directly-to-microsoft-teams-from-the-power-bi-service"></a>通过 Power BI 服务直接共享到 Microsoft Teams
 
@@ -25,7 +25,7 @@ ms.locfileid: "94348073"
 
 若要在 Power BI 中使用“共享到 Teams”功能，请确保此设置：
 
-- Power BI 管理员未在 Power BI 管理门户中禁用“共享到 Teams”租户设置。 该设置允许组织隐藏“共享到 Teams”按钮。 有关详细信息，请参阅 [Power BI 管理门户](../admin/service-admin-portal.md#share-to-teams-tenant-setting)一文。
+- Power BI 管理员未在 Power BI 管理门户中禁用“共享到 Teams”租户设置。 该设置允许组织隐藏“共享到 Teams”按钮。 有关详细信息，请参阅 [Power BI 管理门户](../admin/service-admin-portal.md#share-to-teams)一文。
 
 请参阅[使用 Power BI 在 Microsoft Teams 中开展协作](service-collaborate-microsoft-teams.md)，其中介绍了 Power BI 和 Microsoft Teams 协同工作的背景以及其他要求。
 
