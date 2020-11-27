@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 08/04/2020
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 099e3aa11662232c5362895e93f0433620ce2ba9
-ms.sourcegitcommit: a7227f6d3236e6e0a7bc1f83ff6099b5cd58bff3
+ms.openlocfilehash: 42d7cae62084cf2cfbf6f10e49489d35e4557c85
+ms.sourcegitcommit: 5bbe7725918a72919ba069c5f8a59e95453ec14c
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2020
-ms.locfileid: "87768832"
+ms.lasthandoff: 11/20/2020
+ms.locfileid: "94947038"
 ---
 # <a name="access-power-bi-featured-tables-in-excel-preview"></a>访问 Excel 中的 Power BI 精选表（预览版）
 
@@ -132,7 +132,7 @@ Excel 将为整行缓存返回的数据。 你与之共享 Excel 文件的任何
 
 ## <a name="administrative-control"></a>管理控制
 
-Power BI 管理员可以控制组织中哪些人可以使用 Excel 数据类型库中的精选表。 有关详细信息，请参阅管理门户中的[精选表设置](../admin/service-admin-portal.md#featured-tables-settings)。 
+Power BI 管理员可以控制组织中哪些人可以使用 Excel 数据类型库中的精选表。 有关详细信息，请参阅管理门户文章中的[允许连接到精选表](../admin/service-admin-portal.md#allow-connections-to-featured-tables)。 
  
 ### <a name="auditing"></a>审核
 
