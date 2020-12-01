@@ -2,19 +2,19 @@
 title: 使用 Azure Active Directory B2B 将 Power BI 内容分发给外部来宾用户
 description: 介绍如何使用 Azure Active Directory B2B 将 Power BI 分发给外部来宾用户的白皮书
 author: davidiseminger
+ms.author: davidi
 ms.reviewer: ''
 ms.service: powerbi
-ms.subservice: powerbi-service
+ms.subservice: powerbi
 ms.topic: conceptual
 ms.date: 03/07/2019
-ms.author: davidi
 LocalizationGroup: Conceptual
-ms.openlocfilehash: cc4387c3c1c0f83347823bbc6b95beb437b235e9
-ms.sourcegitcommit: 4ac9447d1607dfca2e60948589f36a3d64d31cb4
+ms.openlocfilehash: 9bf2d1ab3b782d0fbb201e203aa9bb2f2df4079d
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/29/2020
-ms.locfileid: "92916880"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96416823"
 ---
 # <a name="distribute-power-bi-content-to-external-guest-users-using-azure-active-directory-b2b"></a>使用 Azure Active Directory B2B 将 Power BI 内容分发给外部来宾用户
 
@@ -25,9 +25,9 @@ ms.locfileid: "92916880"
 **技术审阅者：** Adam Wilson、Sheng Liu、Qian Liang、Sergei Gundorov、Jacob Grimm、Adam Saxton、Maya Shenhav、Nimrod Shalit、Elisabeth Olson
 
 > [!NOTE]
-> 可以通过在浏览器中选择 " **打印** "，然后选择 " **另存为 PDF** " 来保存或打印此白皮书。
+> 可以通过在浏览器中选择 " **打印** "，然后选择 " **另存为 PDF**" 来保存或打印此白皮书。
 
-## <a name="introduction"></a>简介
+## <a name="introduction"></a>介绍
 
 Power BI 为组织提供了360度的业务视图，并使这些组织中的每个人都可以使用数据做出明智的决策。 其中的许多组织都具有与外部合作伙伴、客户和承包商的强大信任关系。 这些组织需要提供对这些外部合作伙伴中的用户 Power BI 的仪表板和报表的安全访问。
 
@@ -490,8 +490,8 @@ Power BI 管理门户在租户设置中的 "组织" 设置中提供 " **允许�
 
 若要帮助这些用户登录到 Power BI，请为他们提供租户 URL。 要查找租户 URL，请执行以下步骤。
 
-1. 在 Power BI 服务的顶部菜单中，选择 "帮助 ( **？** )  **Power BI** 。
-2. 查找 "  **租户 URL** " 旁边的值。 这是你可以与来宾用户共享的租户 URL。
+1. 在 Power BI 服务的顶部菜单中，选择 "帮助 ( **？** )  **Power BI**。
+2. 查找 "  **租户 URL**" 旁边的值。 这是你可以与来宾用户共享的租户 URL。
 
     ![租户 URL](media/whitepaper-azure-b2b-power-bi/whitepaper-azure-b2b-power-bi_42.png)
 
@@ -606,7 +606,7 @@ Contoso 的另一种选择是通过自定义身份验证 (["应用拥有数据"]
 
 
 
-## <a name="faq"></a>常见问题解答
+## <a name="faq"></a>FAQ
 
 **Contoso 是否可以发送自动兑换的邀请，使用户只需 "准备就绪"？或者，用户是否始终需要单击到兑换 URL？**
 
