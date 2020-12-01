@@ -8,12 +8,12 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 10/15/2019
 ms.author: v-pemyer
-ms.openlocfilehash: 472f2ecce2e28fcb7d50356ec1322f67f2395411
-ms.sourcegitcommit: 701dd80661a63c76d37d1e4f159f90e3fc8c3160
+ms.openlocfilehash: d162f4c4bb481eadc01fc1fac09c8b25e084fdbf
+ms.sourcegitcommit: 5bbe7725918a72919ba069c5f8a59e95453ec14c
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/24/2020
-ms.locfileid: "91135996"
+ms.lasthandoff: 11/20/2020
+ms.locfileid: "94946925"
 ---
 # <a name="model-relationships-in-power-bi-desktop"></a>Power BI Desktop 中的模型关系
 
@@ -32,15 +32,15 @@ ms.locfileid: "91135996"
 
 让我们通过一个动画示例，看看关系如何传播筛选器。
 
-![关系筛选器传播的动画示例](media/desktop-relationships-understand/animation-filter-propagation.gif)
+:::image type="content" source="media/desktop-relationships-understand/animation-filter-propagation.gif" alt-text="关系筛选器传播的动画示例。":::
 
-在此示例中，模型由四个表组成： **Category** 、 **Product** 、 **Year** 和 **Sales** 。 **Category** 表关联到 **Product** 表，而 **Product** 表关联到 **Sales** 表。 **Year** 表也关联到 **Sales** 表。 所有关系均为一对多（本文后面将对此进行详细介绍）。
+在此示例中，模型由四个表组成：**Category**、**Product**、**Year** 和 **Sales**。 **Category** 表关联到 **Product** 表，而 **Product** 表关联到 **Sales** 表。 **Year** 表也关联到 **Sales** 表。 所有关系均为一对多（本文后面将对此进行详细介绍）。
 
-查询可能是由 Power BI 卡视觉对象生成，请求获取单个类别 Cat-A  和单个年份 CY2018  的销售订单的总销售量。 正因为此，可以看到 Category  和 Year  表上应用的筛选器。 **Category** 表上的筛选器传播到 **Product** 表，分离出分配给类别 **Cat-A** 的两个产品。 然后， **Product** 表筛选器传播到 **Sales** 表，针对这些产品分离出两个销售行。 这两个销售行表示分配给类别 **Cat-A** 的产品的销量。 其总量为 14 个单位。 与此同时，传播 **Year** 表筛选器以进一步筛选 **Sales** 表，最终得到一个销售行，该行对应于分配给类别 **Cat-A** 并于 **CY2018** 年订购的产品。 该查询返回的数量值为 11 个单位。 请注意，向某个表应用多个筛选器时（例如本示例中的 **Sales** 表），始终进行 AND 运算，即，要求所有条件都必须成立。
+查询可能是由 Power BI 卡视觉对象生成，请求获取单个类别 Cat-A  和单个年份 CY2018  的销售订单的总销售量。 正因为此，可以看到 Category  和 Year  表上应用的筛选器。 **Category** 表上的筛选器传播到 **Product** 表，分离出分配给类别 **Cat-A** 的两个产品。 然后，**Product** 表筛选器传播到 **Sales** 表，针对这些产品分离出两个销售行。 这两个销售行表示分配给类别 **Cat-A** 的产品的销量。 其总量为 14 个单位。 与此同时，传播 **Year** 表筛选器以进一步筛选 **Sales** 表，最终得到一个销售行，该行对应于分配给类别 **Cat-A** 并于 **CY2018** 年订购的产品。 该查询返回的数量值为 11 个单位。 请注意，向某个表应用多个筛选器时（例如本示例中的 **Sales** 表），始终进行 AND 运算，即，要求所有条件都必须成立。
 
 ### <a name="disconnected-tables"></a>断开连接的表
 
-一个模型表与另一个模型表不关联的情况不太常见。 可以将有效模型设计中的此类表称为 _断开连接的表_ 。 断开连接的表不用于将筛选器传播到其他模型表， 而用于接受“用户输入”（可能包含切片器视觉对象），从而使模型计算能够以有意义的方式使用输入值。 例如，假设有一个断开连接的表，表中加载了一系列货币汇率值。 只要应用筛选器以按单个费率值进行筛选，度量值表达式就可以使用此值来转换销售值。
+一个模型表与另一个模型表不关联的情况不太常见。 可以将有效模型设计中的此类表称为 _断开连接的表_。 断开连接的表不用于将筛选器传播到其他模型表， 而用于接受“用户输入”（可能包含切片器视觉对象），从而使模型计算能够以有意义的方式使用输入值。 例如，假设有一个断开连接的表，表中加载了一系列货币汇率值。 只要应用筛选器以按单个费率值进行筛选，度量值表达式就可以使用此值来转换销售值。
 
 Power BI Desktop what-if 参数是一个用于创建断开连接的表的功能。 有关详细信息，请参阅[在 Power BI Desktop 中创建并使用 What if 参数来可视化变量](desktop-what-if.md)一文。
 
@@ -69,7 +69,7 @@ Power BI Desktop what-if 参数是一个用于创建断开连接的表的功能�
 
 “一对多”和“多对一”基数选项基本相同，并且它们也是最常见的基数类型   。
 
-配置一对多或多对一关系时，将选择与列关联顺序匹配的关系。 设想一下，如何使用每个表中的 **ProductID** 列来配置从 **Product** 表到 **Sales** 表的关系。 基数类型将为 _一对多_ ，因为 **Product** 表中的 **ProductID** 列包含唯一值。 如果将表反向关联，即 **Sales** 到 **Product** ，则基数为 _多对一_ 。
+配置一对多或多对一关系时，将选择与列关联顺序匹配的关系。 设想一下，如何使用每个表中的 **ProductID** 列来配置从 **Product** 表到 **Sales** 表的关系。 基数类型将为 _一对多_，因为 **Product** 表中的 **ProductID** 列包含唯一值。 如果将表反向关联，即 **Sales** 到 **Product**，则基数为 _多对一_。
 
 **一对一** 关系意味着两个列都包含唯一值。 这种基数类型并不常见，并且由于冗余数据的存储，它可能代表了不太理想的模型设计。 若要详细了解如何使用此基数类型，请参阅[一对一关系指南](../guidance/relationships-one-to-one.md)。
 
@@ -91,7 +91,7 @@ Power BI Desktop what-if 参数是一个用于创建断开连接的表的功能�
 | 一对一 | 两者 |
 | 多对多 | 单（Table1 到 Table2）<br>单（Table2 到 Table1）<br>两者 |
 
-_单_ 交叉筛选方向表示“单向”， _双_ 表示“双向”。 在两个方向进行筛选的关系通常称为 _双向_ 。
+_单_ 交叉筛选方向表示“单向”，_双_ 表示“双向”。 在两个方向进行筛选的关系通常称为 _双向_。
 
 在一对多关系中，交叉筛选方向始终从“一”侧开始，也可以选择从“多”侧开始（双向）。 在一对一关系中，交叉筛选方向始终同时从两个表开始。 最后，在多对多关系中，交叉筛选方向可以从其中一个表开始，也可以同时从两个表开始。 请注意，当基数类型包括“一”侧时，此类筛选器将始终从该侧传播。
 
@@ -108,7 +108,7 @@ _单_ 交叉筛选方向表示“单向”， _双_ 表示“双向”。 在两
 
 ### <a name="make-this-relationship-active"></a>激活此关系
 
-两个模型表之间只能有一条活动的筛选器传播路径。 你可以引入其他关系路径，但必须将这些关系都配置为 _非活动状态_ 。 只能在模型计算评估期间激活非活动关系。 这可以通过 [USERELATIONSHIP](/dax/userelationship-function-dax) DAX 函数来实现。
+两个模型表之间只能有一条活动的筛选器传播路径。 你可以引入其他关系路径，但必须将这些关系都配置为 _非活动状态_。 只能在模型计算评估期间激活非活动关系。 这可以通过 [USERELATIONSHIP](/dax/userelationship-function-dax) DAX 函数来实现。
 
 有关详细信息，请参阅[活动与非活动关系指南](../guidance/relationships-active-inactive.md)。
 
@@ -146,11 +146,11 @@ _假设引用完整性_ 属性仅适用于基于同一数据源的两个 DirectQ
 
 Import 或 DirectQuery 模型从 Vertipaq 缓存或源数据库中获取其所有数据。 在这两个实例中，Power BI 都能确定某个关系的“一”侧是否存在。
 
-但是，Composite 模型可能由使用不同存储模式（导入、DirectQuery 或双重）或多个 DirectQuery 源的表组成。 每个源（包括 Import 数据的 Vertipaq 缓存）都被视为一个 _数据岛_ 。 然后，可以将模型关系分为 _岛内_ 或 _跨岛_ 两种。 岛内关系是指在一个数据岛中关联两个表，而跨岛关系是指关联不同数据岛中的表。 请注意，Import 或 DirectQuery 模型中的关系始终是岛内关系。
+但是，Composite 模型可能由使用不同存储模式（导入、DirectQuery 或双重）或多个 DirectQuery 源的表组成。 每个源（包括 Import 数据的 Vertipaq 缓存）都被视为一个 _数据岛_。 然后，可以将模型关系分为 _岛内_ 或 _跨岛_ 两种。 岛内关系是指在一个数据岛中关联两个表，而跨岛关系是指关联不同数据岛中的表。 请注意，Import 或 DirectQuery 模型中的关系始终是岛内关系。
 
 让我们看一个 Composite 模型的示例。
 
-![由两个岛组成的 Composite 模型示例](media/desktop-relationships-understand/data-island-example.png)
+:::image type="content" source="media/desktop-relationships-understand/data-island-example.png" alt-text="由两个岛组成的 Composite 模型示例。":::
 
 在此示例中，Composite 模型由两个岛组成：Vertipaq 数据岛和 DirectQuery 源数据岛。 Vertipaq 数据岛包含三个表，而 DirectQuery 源数据岛包含两个表。 该示例中存在一个跨岛关系，即，将 Vertipaq 数据岛中的表关联到 DirectQuery 源数据岛中的表。
 
@@ -158,9 +158,9 @@ Import 或 DirectQuery 模型从 Vertipaq 缓存或源数据库中获取其所�
 
 当查询引擎可以确定关系的“一”侧时，模型关系为“常规”。 它已确认“一”侧列包含唯一值。 所有一对多的岛内关系都是常规关系。
 
-下面的示例中有两个常规关系，均标记为“S”。关系包括 Vertipaq 岛中包含的一对多关系和 DirectQuery 源中包含的一对多关系。
+下面的示例中有两个常规关系，均标记为“R”。关系包括 Vertipaq 岛中包含的一对多关系和 DirectQuery 源中包含的一对多关系。
 
-![由两个带有常规关系标记的岛组成的 Composite 模型示例](media/desktop-relationships-understand/data-island-example-strong.png)
+:::image type="content" source="media/desktop-relationships-understand/data-island-example-regular.png" alt-text="由两个带有常规关系标记的岛组成的 Composite 模型示例。":::
 
 对于 Import 模型，其所有数据都存储在 Vertipaq 缓存中，在数据刷新时会为每​​个常规关系创建一个数据结构。 数据结构由所有列到列值的索引映射组成，其用途是在查询时加快表的联接速度。
 
@@ -173,13 +173,13 @@ Import 或 DirectQuery 模型从 Vertipaq 缓存或源数据库中获取其所�
 
 表扩展也适用于一对一的岛内关系，但要使用完全外部联接语义。 它确保必要时在任一侧添加空白虚拟行。
 
-空白虚拟行实际上是 _未知成员_ 。 未知成员表示引用完整性冲突，其中“多”侧值没有对应的“一”侧值。 理想情况下，不应存在这些空白行，可以通过清理或修复源数据来消除它们。
+空白虚拟行实际上是 _未知成员_。 未知成员表示引用完整性冲突，其中“多”侧值没有对应的“一”侧值。 理想情况下，不应存在这些空白行，可以通过清理或修复源数据来消除它们。
 
 让我们通过一个动画示例来了解表扩展的工作原理。
 
-![表扩展的动画示例](media/desktop-relationships-understand/animation-expanded-table.gif)
+:::image type="content" source="media/desktop-relationships-understand/animation-expanded-table.gif" alt-text="表扩展的动画示例。":::
 
-在此示例中，模型由三个表组成： **Category** 、 **Product** 和 **Sales** 。 **Category** 表通过一对多的关系关联到 **Product** 表，而 **Product** 表通过一对多的关系关联到 **Sales** 表。 **Category** 表包含两行， **Product** 表包含三行， **Sales** 表包含五行。 所有关系的两侧都有匹配的值，这意味着不存在引用完整性冲突。 系统会显示一个查询时扩展表。 该表由这三个表中的列组成。 实际上，它是三个表中所含数据的非规范化透视图。 将向 **Sales** 表添加一个新行，其中包含一个生产标识符值 (9)，该值在 **Product** 表中没有匹配值。 这是一个引用完整性冲突。 在扩展表中，新行针对 **Category** 和 **Product** 表列具有 (Blank) 值。
+在此示例中，模型由三个表组成：**Category**、**Product** 和 **Sales**。 **Category** 表通过一对多的关系关联到 **Product** 表，而 **Product** 表通过一对多的关系关联到 **Sales** 表。 **Category** 表包含两行，**Product** 表包含三行，**Sales** 表包含五行。 所有关系的两侧都有匹配的值，这意味着不存在引用完整性冲突。 系统会显示一个查询时扩展表。 该表由这三个表中的列组成。 实际上，它是三个表中所含数据的非规范化透视图。 将向 **Sales** 表添加一个新行，其中包含一个生产标识符值 (9)，该值在 **Product** 表中没有匹配值。 这是一个引用完整性冲突。 在扩展表中，新行针对 **Category** 和 **Product** 表列具有 (Blank) 值。
 
 ### <a name="limited-relationships"></a>有限关系
 
@@ -188,9 +188,9 @@ Import 或 DirectQuery 模型从 Vertipaq 缓存或源数据库中获取其所�
 - 该关系使用多对多基数类型（即使其中一列或两列都包含唯一值）
 - 该关系跨岛（这种情况仅适用于 Composite 模型）
 
-下面的示例中有两个有限关系，均标记为“W”。这两个关系包括一对多跨岛关系和 Vertipaq 岛中包含的多对多关系。
+下面的示例中有两个有限关系，均标记为“L”。这两个关系包括一对多跨岛关系和 Vertipaq 岛中包含的多对多关系。
 
-![由两个带有有限关系标记的岛组成的 Composite 模型示例](media/desktop-relationships-understand/data-island-example-weak.png)
+:::image type="content" source="media/desktop-relationships-understand/data-island-example-limited.png" alt-text="由两个带有有限关系标记的岛组成的 Composite 模型示例。":::
 
 对于 Import 模型，永远不会为有限关系创建数据结构。 这意味着必须在查询时解析表联接。
 

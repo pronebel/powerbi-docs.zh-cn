@@ -10,12 +10,12 @@ ms.date: 08/20/2020
 ms.author: kfollis
 ms.custom: licensing support
 LocalizationGroup: Administration
-ms.openlocfilehash: 330f844e9c97a3a59ff854ac14612c328b7cb9b6
-ms.sourcegitcommit: 4e347efd132b48aaef6c21236c3a21e5fce285cc
+ms.openlocfilehash: 178b79ba4ae76288794f7bb67afba11c0595de7f
+ms.sourcegitcommit: 9d033abd9c01a01bba132972497dda428d7d5c12
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/27/2020
-ms.locfileid: "92681006"
+ms.lasthandoff: 11/24/2020
+ms.locfileid: "95513840"
 ---
 # <a name="track-user-activities-in-power-bi"></a>跟踪 Power BI 中的用户活动
 
@@ -276,6 +276,9 @@ Remove-PSSession $Session
 | 已创建 Power BI 网关                          | CreateGateway                               |                                          |
 | 已创建 Power BI 组                            | CreateGroup                                 |                                          |
 | 已创建 Power BI 报表                           | CreateReport <sup>1</sup>                                |                                          |
+| 创建 Power BI 模板应用工作区 | CreateTemplateApp   |
+| 创建 Power BI 模板应用安装票证 | CreateTemplateAppInstallTicket |
+| 创建 Power BI 模板应用包 | CreateTemplateAppPackage |
 | 自定义视觉对象请求的 Azure AD 访问令牌                           | GenerateCustomVisualAADAccessToken                                |                                          |
 | 自定义视觉对象请求的 Office Web 应用访问令牌                           | GenerateCustomVisualWACAccessToken                                |                                          |
 | 已迁移到外部存储帐户的数据流     | DataflowMigratedToExternalStorageAccount    | 当前未使用                       |
@@ -294,6 +297,8 @@ Remove-PSSession $Session
 | 已删除 Power BI 网关                          | DeleteGateway                               |                                          |
 | 已删除 Power BI 组                            | DeleteGroup                                 |                                          |
 | 已删除 Power BI 报表                           | DeleteReport                                |                                          |
+| 已删除 Power BI 模板应用工作区 | DeleteTemplateApp |
+| 已删除 Power BI 模板应用包 | DeleteTemplateAppPackage |
 | 已部署到管道阶段                           | DeployAlmPipeline                                |                                          |
 | 已发现 Power BI 数据集数据源          | GetDatasources                              |                                          |
 | 已下载 Power BI 报表                        | DownloadReport                              |                                          |
@@ -306,6 +311,7 @@ Remove-PSSession $Session
 | 已导出 Power BI 数据流                        | ExportDataflow                              |                                          |
 | 已导出 Power BI 报表可视化数据              | ExportReport                                |                                          |
 | 已导出 Power BI 磁贴数据                       | ExportTile                                  |                                          |
+| 已将 Power BI 模板应用包提取到工作区 | ExtractTemplateAppPackage |
 | 无法添加数据流权限                | FailedToAddDataflowPermissions              | 当前未使用                       |
 | 无法删除数据流权限             | FailedToRemoveDataflowPermissions           | 当前未使用                       |
 | 已生成 Power BI 数据流 SAS 令牌             | GenerateDataflowSasToken                    |                                          |
@@ -313,10 +319,12 @@ Remove-PSSession $Session
 | 生成屏幕截图                       | GenerateScreenshot |                     |
 | 已将文件导入到 Power BI                         | 导入                                      |                                          |
 | 已安装 Power BI 应用                            | InstallApp                                  |                                          |
+| 已安装 Power BI 模板应用 | InstallTemplateApp |
 | 已将工作区迁移到容量                  | MigrateWorkspaceIntoCapacity                |                                          |
 | 已发布 Power BI 注释                           | PostComment                                 |                                          |
 | 已打印 Power BI 仪表板                        | PrintDashboard                              |                                          |
 | 已打印 Power BI 报表页                      | PrintReport                                 |                                          |
+| 已提升 Power BI 模板应用包 | PromoteTemplateAppPackage |
 | 已将 Power BI 报表发布到 Web                  | PublishToWebReport <sup>2</sup>                         |                                          |
 | 已发布或更新精选表 | UpdateFeaturedTables <sup>3</sup>   | |
 | 已从 Key Vault 接收 Power BI 数据流机密  | ReceiveDataflowSecretFromKeyVault           |                                          |
@@ -348,6 +356,7 @@ Remove-PSSession $Session
 | 已更新容量显示名称                     | UpdateCapacityDisplayName                   |                                          |
 | 已更新数据流存储分配权限   | UpdatedDataflowStorageAssignmentPermissions |                                          |
 | 已更新部署管道访问   | UpdateAlmPipelineAccess |                                          |
+| 已更新安装的 Power BI 模板应用参数 | UpdateInstalledTemplateAppParameters |
 | 已更新部署管道配置   | SetConfigurationAlmPipeline |                                          |
 | 已更新组织的 Power BI 设置          | UpdatedAdminFeatureSwitch                   |                                          |
 | 已更新 Power BI 应用                              | UpdateApp                                   |                                          |
@@ -358,6 +367,8 @@ Remove-PSSession $Session
 | 已更新 Power BI 文件夹                           | UpdateFolder                                |                                          |
 | 已更新 Power BI 文件夹访问权限                    | UpdateFolderAccess                          |                                          |
 | 已更新 Power BI 网关数据源凭据  | UpdateDatasourceCredentials                 |                                          |
+| 已更新 Power BI 模板应用设置 | UpdateTemplateAppSettings |
+| 已更新 Power BI 模板应用测试访问权限 | UpdateTemplateAppTestPackagePermissions |
 | 已查看 Power BI 仪表板                         | ViewDashboard                               |                                          |
 | 已查看 Power BI 数据流                          | ViewDataflow                                |                                          |
 | 已查看 Power BI 报表                            | ViewReport                                  |                                          |

@@ -10,12 +10,12 @@ ms.date: 10/22/2020
 ms.author: kfollis
 ms.custom: seodec18
 LocalizationGroup: Administration
-ms.openlocfilehash: 38df6680f2f4d0031ec26a1935e01c849c285909
-ms.sourcegitcommit: 5240990f998851c4854eb565de681099264c5a61
+ms.openlocfilehash: 0abdaab48516b91624a0945d32c4f81ed024a468
+ms.sourcegitcommit: 5bbe7725918a72919ba069c5f8a59e95453ec14c
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/18/2020
-ms.locfileid: "94719066"
+ms.lasthandoff: 11/20/2020
+ms.locfileid: "94947096"
 ---
 # <a name="administering-power-bi-in-the-admin-portal"></a>在管理门户中管理 Power BI
 
@@ -272,6 +272,16 @@ ms.locfileid: "94719066"
 
 若要邀请外部用户加入你的组织，用户还需要拥有 Azure Active Directory 来宾邀请者角色。 此设置仅控制通过 Power BI 进行邀请的能力。 
 
+### <a name="allow-external-guest-users-to-edit-and-manage-content-in-the-organization"></a>允许外部来宾用户编辑和管理组织中的内容
+
+Azure AD B2B 来宾用户可以编辑和管理组织中的内容。 [了解详细信息](service-admin-azure-ad-b2b.md)
+
+下图显示用于允许外部来宾用户编辑和管理组织中内容的选项。
+
+![允许外部来宾用户编辑和管理组织中的内容](media/service-admin-portal/powerbi-admin-tenant-settings-b2b-guest-edit-manage.png)
+
+在管理门户中，还可以控制哪些用户有权邀请外部用户加入组织。 有关详细信息，请参阅本文的[与外部用户共享内容](#export-and-sharing-settings)部分。
+
 ### <a name="publish-to-web"></a>发布到 Web
 
 作为 Power BI 管理员，你可以使用“发布到 Web”设置的选项让用户创建嵌入代码以将报表发布到 Web。 此功能使报表及其数据可供 Web 上的任何用户使用。 详细了解如何[发布到 Web](../collaborate-share/service-publish-to-web.md)。
@@ -300,60 +310,73 @@ ms.locfileid: "94719066"
 |管理门户中的“嵌入代码”|“状态”反映以下状态之一：<br>* 活动<br>* 不支持<br>* 已阻止|状态显示“已禁用”|“状态”反映以下状态之一：<br>* 活动<br>* 不支持<br>* 已阻止<br><br>如果未根据租户设置为某个用户授权，状态将显示为“侵权”。|
 |现有的已发布报表|全部已启用|全部已禁用|继续向所有对象呈现报表。|
 
-### <a name="export-data"></a>导出数据
+### <a name="copy-and-paste-visuals"></a>复制并粘贴视觉对象
 
-组织中的用户可以从磁贴或可视化效果导出数据。 此设置会控制“在 Excel 中分析”、“导出到 .csv”、数据集下载 (.pbix) 和 Power BI 服务 Live Connect 功能。 详细了解如何[从磁贴或视觉对象导出数据](../visuals/power-bi-visualization-export-data.md)。
+组织中的用户可以从磁贴或报表视觉对象中复制视觉对象，并将它们作为静态图像粘贴到外部应用中。
 
->[!NOTE]
-> 在引入“导出至 Excel”设置之前，此设置还控制了将数据导出到 Excel 文件的操作。 有关详细信息，请参阅 [“导出至 Excel”下的注释](#export-to-excel)。
-
-![导出数据设置](media/service-admin-portal/powerbi-admin-portal-export-data-setting.png)
-
-下图显示了从磁贴导出数据的选项。
-
-![从磁贴导出数据](media/service-admin-portal/powerbi-admin-export-data.png)
-
-> [!NOTE]
-> 禁用“导出数据”还会阻止用户使用[“在 Excel 中分析”](../collaborate-share/service-analyze-in-excel.md)功能，同时也会阻止用户使用 Power BI 服务实时连接。
+![复制粘贴视觉对象启用开关的屏幕截图。](media/service-admin-portal/powerbi-admin-portal-copy-paste-visuals-setting.png)
 
 ### <a name="export-to-excel"></a>导出到 Excel
 
 组织中的用户可将数据从可视化效果导出到 Excel 文件。
 
-![“导出至 Excel”设置](media/service-admin-portal/powerbi-admin-portal-export-to-excel-setting.png)
+![“导出到 Excel”设置的屏幕截图](media/service-admin-portal/powerbi-admin-portal-export-to-excel-setting.png)
 
->[!IMPORTANT]
-> 在引入“导出至 Excel”设置之前，导出到 Excel 文件的操作由“导出数据”设置进行控制。 因此，在引入“导出至 Excel”设置之前就已存在的租户上，Power BI 管理员首次查看“导出至 Excel”设置时会看到该设置具有未应用的更改。 他们必须应用这些更改才能使新设置生效。 否则，导出到 Excel 文件的操作将继续由“导出数据”设置进行控制。
+### <a name="export-to-csv"></a>导出到 .csv
+
+组织中的用户可以从磁贴、可视化效果或分页报表将数据导出到 .csv 文件。
+
+![“导出到 .csv”设置的屏幕截图](media/service-admin-portal/powerbi-admin-portal-export-to-csv-setting.png)
+
+### <a name="download-reports"></a>下载报告
+
+组织中的用户可以下载 .pbix 文件和分页报表。
+
+![“下载报表”设置的屏幕截图。](media/service-admin-portal/powerbi-admin-portal-download-reports-setting.png)
+
+### <a name="allow-live-connections"></a>允许实时连接
+
+组织中的用户可以使用 Power BI 服务 Live Connect。 其中包括“在 Excel 中分析”。
+
+![“允许实时连接”设置的屏幕截图。](media/service-admin-portal/powerbi-admin-portal-allow-live-connections-setting.png)
 
 ### <a name="export-reports-as-powerpoint-presentations-or-pdf-documents"></a>将报表导出为 PowerPoint 演示文稿或 PDF 文档
 
-组织中的用户可以将 Power BI 报表导出为 PowerPoint 文件或 PDF 文档。 [了解详细信息](../consumer/end-user-powerpoint.md)
+组织中的用户可以将报表导出为 PowerPoint 文件或 PDF 文档。
 
-下图显示了在启用“将报表导出为 PowerPoint 演示文稿或 PDF 文档”设置时报表的“文件”菜单 。
+![将报表导出为 PowerPoint 或 PDF 文档的屏幕截图。](media/service-admin-portal/powerbi-admin-portal-export-pptx-pdf-setting.png)
 
-![将报表导出为 PowerPoint 演示文稿](media/service-admin-portal/powerbi-admin-powerpoint.png)
+### <a name="export-reports-as-mhtml-documents"></a>将报表导出为 MHTML 文档
+
+组织中的用户可以将分页报表导出为 MHTML 文档。
+
+![“导出为 MHTML”设置的屏幕截图。](media/service-admin-portal/powerbi-admin-portal-export-mhtml-setting.png)
+
+### <a name="export-reports-as-word-documents"></a>将报表导出为 Word 文档
+
+组织中的用户可以将分页报表导出为 Word 文档。
+
+![“导出为 Word”设置的屏幕截图。](media/service-admin-portal/powerbi-admin-portal-export-word-setting.png)
+
+### <a name="export-reports-as-xml-documents"></a>将报表导出为 XML 文档
+
+组织中的用户可以将分页报表导出为 XML 文档。
+
+![“导出为 XML”设置的屏幕截图。](media/service-admin-portal/powerbi-admin-portal-export-xml-setting.png)
+
+### <a name="export-reports-as-image-files-preview"></a>将报表导出为图像文件（预览）
+
+组织中的用户可以使用“将报表导出为文件”API 将报表导出为图像文件。
+
+![“导出为图像”设置的屏幕截图。](media/service-admin-portal/powerbi-admin-portal-export-as-image-setting.png)
 
 ### <a name="print-dashboards-and-reports"></a>打印仪表板和报表
 
-组织中的用户可以打印仪表板和报表。 [了解详细信息](../consumer/end-user-print.md)
 
-下图展示了“打印仪表板”选项。
+![“打印仪表板和报表”设置的屏幕截图。](media/service-admin-portal/powerbi-admin-portal-print-dashboards-reports-setting.png)
 
-![打印仪表板](media/service-admin-portal/powerbi-admin-print-dashboard.png)
-
-下图展示了在“打印仪表板和报表”设置已启用时报表的“文件”菜单。
-
-![打印报表](media/service-admin-portal/powerbi-admin-print-report.png)
-
-### <a name="allow-external-guest-users-to-edit-and-manage-content-in-the-organization"></a>允许外部来宾用户编辑和管理组织中的内容
-
-Azure AD B2B 来宾用户可以编辑和管理组织中的内容。 [了解详细信息](service-admin-azure-ad-b2b.md)
-
-下图显示用于允许外部来宾用户编辑和管理组织中内容的选项。
-
-![允许外部来宾用户编辑和管理组织中的内容](media/service-admin-portal/powerbi-admin-tenant-settings-b2b-guest-edit-manage.png)
-
-在管理门户中，还可以控制哪些用户有权邀请外部用户加入组织。 有关详细信息，请参阅本文的[与外部用户共享内容](#export-and-sharing-settings)部分。
+### <a name="certification"></a>认证
+允许此组织中的用户认证数据集、数据流、报表和应用。 有关详细信息，请参阅[启用内容认证](service-admin-setup-certification.md)。
 
 ### <a name="email-subscriptions"></a>电子邮件订阅
 组织中的用户可以创建电子邮件订阅。 详细了解[订阅](../collaborate-share/service-publish-to-web.md)。
@@ -367,6 +390,25 @@ Azure AD B2B 来宾用户可以编辑和管理组织中的内容。 [了解详�
 我们建议先从少量的推广开始。 允许整个组织在“主页”上特别推荐内容可能会使你难以跟踪所有推广的内容。 
 
 启用特别推荐的内容后，还可以在管理门户中对其进行管理。 请参阅本文中的[管理特别推荐的内容](#manage-featured-content)，了解如何在域中控制特别推荐的内容。
+
+### <a name="allow-connections-to-featured-tables"></a>允许与精选表连接
+
+Power BI 管理员通过此设置，可以控制组织中哪些人可以使用 Excel 数据类型库中的精选表。 
+
+![“允许与精选表连接”设置的屏幕截图。](media/service-admin-portal/powerbi-admin-portal-allow-connections-featured-tables-setting.png)
+
+>[!NOTE]
+>如果将“[允许实时连接](#allow-live-connections)”设置设为“禁用”，则还会禁用与精选表的连接。
+
+详细了解 [Excel 中的 Power BI 精选表](../collaborate-share/service-excel-featured-tables.md)。
+
+### <a name="share-to-teams"></a>共享到 Teams
+
+此设置允许组织隐藏 Power BI 服务中的“共享到 Teams”按钮。 如果设置为“已禁用”，则用户在查看 Power BI 服务中的报表和仪表板时将看不到操作栏或上下文菜单中的“共享到 Teams”按钮。
+
+![Power BI 管理门户中的“共享到 Teams”租户设置的屏幕截图。](media/service-admin-portal/service-teams-share-to-teams-tenant-setting.png)
+
+详细了解[将 Power BI 内容共享到 Teams](../collaborate-share/service-share-report-teams.md)。
 
 ## <a name="content-pack-and-app-settings"></a>内容包和应用设置
 
@@ -388,12 +430,9 @@ Azure AD B2B 来宾用户可以编辑和管理组织中的内容。 [了解详�
 
 ## <a name="integration-settings"></a>集成设置
 
-### <a name="use-analyze-in-excel-with-on-premises-datasets"></a>结合使用“在 Excel 中分析”功能和本地数据集
+### <a name="allow-xmla-endpoints-and-analyze-in-excel-with-on-premises-datasets"></a>允许通过本地数据集使用 XMLA 终结点和“在 Excel 中分析”
 
-组织中的用户可以使用 Excel 查看本地 Power BI 数据集，并与其进行交互。 [了解详细信息](../collaborate-share/service-analyze-in-excel.md)
-
-> [!NOTE]
-> 禁用“导出数据”还会阻止用户使用“在 Excel 中分析”功能。
+组织中的用户可以使用 Excel 查看本地 Power BI 数据集，并与其进行交互。 还允许连接到 XMLA 终结点。 [了解详细信息](../collaborate-share/service-analyze-in-excel.md)
 
 ### <a name="use-arcgis-maps-for-power-bi"></a>使用 ArcGIS Maps for Power BI
 
@@ -402,24 +441,6 @@ Azure AD B2B 来宾用户可以编辑和管理组织中的内容。 [了解详�
 ### <a name="use-global-search-for-power-bi-preview"></a>使用 Power BI（预览版）的全局搜索
 
 组织中的用户可以使用依赖于 Azure 搜索的的外部搜索功能。
-
-## <a name="featured-tables-settings"></a>精选表设置
-
-在“租户设置”下，“允许连接到精选表”设置允许 Power BI 管理员控制组织中的哪些用户可以使用 Excel 数据类型库中的精选表。 
-
-:::image type="content" source="media/service-admin-portal/admin-allow-connections-featured-tables.png" alt-text="与精选表的所有连接":::
-
-如果将“导出数据”设置设为“禁用”，则还会禁用与精选表的连接。
-
-详细了解 [Excel 中的 Power BI 精选表](../collaborate-share/service-excel-featured-tables.md)。
-
-## <a name="share-to-teams-tenant-setting"></a>共享到 Teams 租户设置
-
-“共享到 Teams”设置位于 Power BI 管理门户的“租户设置”部分 。 该设置允许组织隐藏 Power BI 服务中的“共享到 Teams”按钮。 如果设置为“已禁用”，则用户在查看 Power BI 服务中的报表和仪表板时将看不到操作栏或上下文菜单中的“共享到 Teams”按钮。
-
-![Power BI 管理门户中的“共享到 Teams”租户设置的屏幕截图。](media/service-admin-portal/service-teams-share-to-teams-tenant-setting.png)
-
-详细了解[将 Power BI 内容共享到 Teams](../collaborate-share/service-share-report-teams.md)。
 
 ## <a name="r-visuals-settings"></a>R 视觉对象设置
 

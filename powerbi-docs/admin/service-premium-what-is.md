@@ -7,19 +7,19 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-premium
 ms.topic: conceptual
-ms.date: 11/12/2020
+ms.date: 11/20/2020
 ms.custom: licensing support
 LocalizationGroup: Premium
-ms.openlocfilehash: d5879d6a8469b23f6e31e48345ac3ccb5f378cbb
-ms.sourcegitcommit: bd133cb1fcbf4f6f89066165ce065b8df2b47664
+ms.openlocfilehash: fe1714fd0249bba429c705b70e9eb157bffae44b
+ms.sourcegitcommit: 8afdd3601209636c9ab92d75f967d4ee0a2cab26
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "94668203"
+ms.lasthandoff: 11/21/2020
+ms.locfileid: "95012035"
 ---
 # <a name="what-is-power-bi-premium"></a>什么是 Power BI Premium？
 
-可以使用 Power BI Premium 来访问仅 Premium 中提供的功能，并为组织中的 Power BI 内容提供更大的规模和更佳的性能。 借助 Power BI Premium，组织中的更多用户能够充分利用 Power BI，同时获得更好的性能和响应能力。 例如，借助 Power BI Premium，你和组织用户可获得以下好处：
+可以使用 Power BI Premium 来访问仅 Premium 中提供的功能，并为组织中的 Power BI 内容提供更大的规模和更佳的性能。 借助 Power BI Premium，组织中的更多用户能够充分利用 Power BI，同时获得更好的性能和响应能力。 例如，借助 Power BI Premium，你和组织用户可获得以下功能：
 
 > [!div class="checklist"]
 > * Power BI 报表的规模更大，性能更强
@@ -50,16 +50,16 @@ Premium Gen2 提供以下更新或改进的体验：
     * 较少的内存限制
     * 报表交互和计划刷新之间完全隔离
 
-* 使用清晰且标准化的容量使用率数据改进了指标，该数据仅取决于容量执行的分析操作的复杂度，而不取决于容量的大小、执行这些操作时系统的负载级别等。 通过改进的指标，利用内置的报表可以清楚地了解利用率分析结果、预算计划、退款和升级需求。 在整个预览期间，将提供改进的指标，并对其进行优化。 
+* 使用清晰且标准化的容量使用率数据改进了指标，该数据仅取决于容量执行的分析操作的复杂度，而不取决于容量的大小、执行分析时系统的负载级别或其他因素。 通过改进的指标，利用内置的报表可以清楚地了解利用率分析结果、预算计划、退款和升级需求。 在整个预览期间，将提供改进的指标，并对其进行优化。
 
-* 自动缩放允许当容量上的负载超过其限制时在 24 小时内的某个时间自动添加 1 个 V 核心，从而防止因工作负荷太重而导致速度降低。 当检测到空闲时间时，将自动删除 V 核心。 额外的 V 核心按即用即付方式向 Azure 订阅收费。 自动缩放将在预览期间提供。 
+* 自动缩放允许当容量上的负载超过其限制时在 24 小时内的某个时间自动添加 1 个 V 核心，防止因过载而导致速度降低。 当检测到空闲时间时，将自动删除 V 核心。 额外的 V 核心按即用即付方式向 Azure 订阅收费。 自动缩放将在预览期间提供。 
 
-* 显着降低了管理开销，同时提供有关容量使用率级别和负载增加的主动和可配置管理员通知。
+* 降低了管理开销，同时提供有关容量使用率级别和负载增加的主动和可配置管理员通知。
 
 
 ### <a name="using-premium-gen2"></a>使用 Premium Gen2
 
-需要启用 Premium Gen2 才能利用其更新。 若要启用 Premium Gen2，请执行以下步骤：
+启用 Premium Gen2 以利用其更新。 若要启用 Premium Gen2，请执行以下步骤：
 
 1. 在管理门户中，导航到“容量设置”。
 2. 选择“Power BI Premium”。
@@ -76,12 +76,17 @@ Premium Gen2 提供以下更新或改进的体验：
 
 1.  无法在指标应用中跟踪 Premium Gen2 容量使用率。
 
-2.  “管理”门户的 Premium Gen2 容量设置页面中尚不显示适用于特定工作负载的 Premium Gen2 容量设置。 若要更改设置，请将容量转换为 Premium 的原始版本，更改设置，然后再次将容量设置为使用 Premium Gen2。 内存分配设置不适用于 Premium Gen2 容量。
+2.  管理门户的 Premium Gen2 容量设置页面中尚不显示适用于特定工作负载的 Premium Gen2 容量设置。 若要更改设置，请将容量转换为 Premium 的原始版本，更改设置，然后再次将容量设置为使用 Premium Gen2。 内存分配设置不适用于 Premium Gen2 容量。
 
-3.  具有 ADLS Gen2 数据源的数据流当前在 Premium Gen2 容量上不起作用。  
+3.  如果在 Premium Gen2 上使用 XMLA，请确保使用的是[数据建模和管理工具](service-premium-connect-tools.md#data-modeling-and-management-tools)的最新版本。 
 
-4.  如果在 Premium Gen2 上使用 XMLA，请确保使用的是[数据建模和管理工具](service-premium-connect-tools.md#data-modeling-and-management-tools)的最新版本。 
+4.  只有最新的客户端库支持 Premium Gen2 中的 Analysis services 功能。 支持此要求的相关工具的预计发布日期如下：
 
+    |工具|所需最低版本|预计发布日期|
+    |---|---|---|
+    |SQL Server Management Studio (SSMS)|18.8|2020 年 12 月 8 日|
+    |SQL Server Data Tools (SSDT)|2.9.15|2020 年 12 月 30 日正式发布|
+    | AS PowerShell| 大于 21.1.18229|2020 年 11 月 26 日|
 
 ## <a name="subscriptions-and-licensing"></a>订阅和许可
 
@@ -101,7 +106,7 @@ Power BI Premium 订阅由 Microsoft 365 管理中心的管理员购买。 具�
 
 #### <a name="power-bi-premium-per-user-preview"></a>Power BI Premium Per User（预览版）
 
-借助 Power BI Premium Per User，组织能够在用户级别上提供高级功能许可。 Premium Per User (PPU) 包括所有 Power BI Pro 许可证功能，还增加了分页报表、AI 和其他仅面向高级订阅者的功能。 Premium Per User 目前以预览版提供。 有关 Premium Per User 的详细信息，包括功能比较和有关预览版的其他信息，请参阅 [Power BI Premium Per User 常见问题解答（预览版）](service-premium-per-user-faq.md)。 
+借助 Power BI Premium Per User，组织能够在用户级别上提供高级功能许可。 Premium Per User (PPU) 包括所有 Power BI Pro 许可证功能，增加了分页报表、AI 和其他仅面向高级订阅者的功能。 Premium Per User 目前以预览版提供。 有关 Premium Per User 的详细信息，包括功能比较和有关预览版的其他信息，请参阅 [Power BI Premium Per User 常见问题解答（预览版）](service-premium-per-user-faq.md)。 
 
 
 ## <a name="reserved-capacities"></a>预留容量

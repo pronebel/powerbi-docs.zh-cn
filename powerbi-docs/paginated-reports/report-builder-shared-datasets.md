@@ -1,18 +1,18 @@
 ---
 title: 使用 Power BI 共享数据集创建分页报表 - Power BI 报表生成器
 description: 在 Power BI 报表生成器中基于 Power BI 共享数据集创建分页报表。
-ms.date: 07/08/2020
+ms.date: 11/18/2020
 ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: how-to
 author: maggiesMSFT
 ms.author: maggies
-ms.openlocfilehash: 44f1c1280e176d99ab909402a77804074e7d8cbd
-ms.sourcegitcommit: ccf53e87ff7cba1fcd9d2cca761a561e62933f90
+ms.openlocfilehash: 9b8e7ac37b42e74835cde120ad1465df586a8fe3
+ms.sourcegitcommit: b2693047fce6a4e0c3ea07013404e99fc9cc1901
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/04/2020
-ms.locfileid: "93298111"
+ms.lasthandoff: 11/19/2020
+ms.locfileid: "94893697"
 ---
 # <a name="create-a-paginated-report-based-on-a-power-bi-shared-dataset"></a>基于 Power BI 共享数据集创建分页报表
 
@@ -152,7 +152,7 @@ ms.locfileid: "93298111"
 
 1. 选择需要的布局选项，然后选择“下一步”。
 
-1. 选择 **完成** 。
+1. 选择 **完成**。
     在“设计视图”中查看表。
 
     ![报表设计视图](media/report-builder-shared-datasets/power-bi-report-builder-design-view.png)
@@ -222,6 +222,7 @@ ms.locfileid: "93298111"
 ## <a name="limitations-and-considerations"></a>限制和注意事项 
 
 - 对于采用 Analysis Services 实时连接的数据集，可以使用基础 Analysis Services 连接而不是共享数据集直接进行连接。
+- 如果希望使用 Power BI 数据集（在 Power BI Report Builder 中使用 DirectQuery），则该数据集必须包括一个度量值，即使你不打算在报表中显示该度量值。 如果没有度量值，该数据集将返回错误的数据结果。
 - 虽然可用数据集列表中显示了具有提升或认证认可的数据集，但其并未被标记为可用数据集。 
 - 无法在“应用拥有数据”方案中嵌入基于 Power BI 共享数据集的分页报表。
 

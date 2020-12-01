@@ -3,29 +3,22 @@ title: 使用服务主体和证书嵌入 Power BI 内容
 description: 了解如何使用 Azure Active Directory 应用程序服务主体和证书对嵌入的分析进行身份验证。
 author: KesemSharabi
 ms.author: kesharab
-ms.reviewer: nishalit
+ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: how-to
 ms.custom: ''
-ms.date: 10/15/2020
-ms.openlocfilehash: 3d25fe925b98dbdd74d61fd70320bd4275db35e3
-ms.sourcegitcommit: 1428acb6334649fc2d3d8ae4c42cfbc17e8f7476
+ms.date: 11/23/2020
+ms.openlocfilehash: 990e3787927cb483b37d7bc456a46201876fcbed
+ms.sourcegitcommit: 9d033abd9c01a01bba132972497dda428d7d5c12
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/19/2020
-ms.locfileid: "92197762"
+ms.lasthandoff: 11/24/2020
+ms.locfileid: "95514415"
 ---
 # <a name="embed-power-bi-content-with-service-principal-and-a-certificate"></a>使用服务主体和证书嵌入 Power BI 内容
 
-[!INCLUDE[service principal overview](../../includes/service-principal-overview.md)]
-
->[!NOTE]
->建议使用证书而不是机密密钥来保护后端服务。 [详细了解如何使用机密密钥或证书从 Azure AD 获取访问令牌](/azure/architecture/multitenant-identity/client-assertion)。
-
-## <a name="certificate-based-authentication"></a>基于证书的身份验证
-
-凭借基于证书的身份验证，你可以通过 Azure Active Directory (Azure AD) 使用 Windows、Android 或 iOS 设备上或 [Azure 密钥保管库](/azure/key-vault/basic-concepts)中保存的客户端证书进行身份验证。
+凭借基于证书的身份验证，你可以通过 Azure Active Directory (Azure AD) 使用 Windows、Android 或 iOS 设备上或 [Azure 密钥保管库](https://docs.microsoft.com/azure/key-vault/basic-concepts)中保存的客户端证书进行身份验证。
 
 借助这种身份验证方法，可使用 CA 从一个中心位置管理证书，以便进行轮换或吊销。
 
@@ -33,50 +26,24 @@ ms.locfileid: "92197762"
 
 ## <a name="method"></a>方法
 
-要将服务主体和证书与嵌入的分析结合使用，请按照以下步骤操作：
+1. [使用服务主体嵌入内容](embed-service-principal.md)。
 
-1. 创建 Azure AD 应用程序。
+2. [创建证书](embed-service-principal-certificate.md#step-2---create-a-certificate)。
 
-2. 创建 Azure AD 安全组。
+3. [设置证书身份验证](embed-service-principal-certificate.md#step-3---set-up-certificate-authentication)。
 
-3. 启用 Power BI 服务管理设置。
+4. [从 Azure Key Vault 获取证书](embed-service-principal-certificate.md#step-4---get-the-certificate-from-azure-key-vault)。
 
-4. 将服务主体添加到工作区中。
+5. [使用服务主体和证书进行身份验证](embed-service-principal-certificate.md#step-5---authenticate-using-service-principal-and-a-certificate)。
 
-5. 创建证书。
+## <a name="step-1---embed-your-content-with-service-principal"></a>第 1 步 - 使用服务主体嵌入内容
 
-6. 设置证书身份验证。
+若要使用服务主体嵌入内容，请按照[使用服务主体和应用程序机密嵌入 Power BI 内容](embed-service-principal.md)中的说明进行操作。
 
-7. 从 Azure 密钥保管库获取证书。
+>[!NOTE]
+>如果你已有使用服务主体嵌入的内容，请跳过此步骤并前往[第 2 步](embed-service-principal-certificate.md#step-2---create-a-certificate)。
 
-8. 使用服务主体和证书进行身份验证。
-
-## <a name="step-1---create-an-azure-ad-application"></a>第 1 步 - 创建 Azure AD 应用程序
-
-[!INCLUDE[service principal create app](../../includes/service-principal-create-app.md)]
-
-### <a name="creating-an-azure-ad-app-using-powershell"></a>使用 PowerShell 创建 Azure AD 应用程序
-
-此部分中包含使用 [PowerShell](/powershell/azure/create-azure-service-principal-azureps) 新建 Azure AD 应用程序的示例脚本。
-
-```powershell
-# The app ID - $app.appid
-# The service principal object ID - $sp.objectId
-# The app key - $key.value
-
-# Sign in as a user that's allowed to create an app
-Connect-AzureAD
-
-# Create a new Azure AD web application
-$app = New-AzureADApplication -DisplayName "testApp1" -Homepage "https://localhost:44322" -ReplyUrls "https://localhost:44322"
-
-# Creates a service principal
-$sp = New-AzureADServicePrincipal -AppId $app.AppId
-```
-
-[!INCLUDE[service create steps two, three and four](../../includes/service-principal-create-steps.md)]
-
-## <a name="step-5---create-a-certificate"></a>第 5 步 - 创建证书
+## <a name="step-2---create-a-certificate"></a>第 2 步 - 创建证书
 
 可以从受信任的证书颁发机构获取证书，也可以自行生成证书。
 
@@ -92,7 +59,7 @@ $sp = New-AzureADServicePrincipal -AppId $app.AppId
 
     ![展示 Azure 门户中经过模糊处理的密钥保管库列表的屏幕截图。](media/embed-service-principal-certificate/select-key-vault.png)
 
-4. 单击“ **证书** ”。
+4. 单击“**证书**”。
 
     ![展示标示了“证书”的“密钥保管库”页的屏幕截图。](media/embed-service-principal-certificate/certificates.png)
 
@@ -130,15 +97,15 @@ $sp = New-AzureADServicePrincipal -AppId $app.AppId
 
     ![展示“下载为 cer 格式”按钮的屏幕截图。](media/embed-service-principal-certificate/download-cer.png)
 
-## <a name="step-6---set-up-certificate-authentication"></a>第 6 步 - 设置证书身份验证
+## <a name="step-3---set-up-certificate-authentication"></a>第 3 步 - 设置证书身份验证
 
 1. 在 Azure AD 应用程序中，单击“证书和机密”选项卡。
 
      ![展示 Azure 门户中应用的“证书和密码”窗格的屏幕截图。](media/embed-service-principal/certificates-and-secrets.png)
 
-2. 单击“上传证书”，上传你在本教程的[第一步](#step-5---create-a-certificate)中创建并下载的 .cer 文件。 .cer 文件包含公钥。
+2. 单击“上传证书”，上传你在本教程的[第 2 步](#step-2---create-a-certificate)中创建并下载的 .cer 文件。 .cer 文件包含公钥。
 
-## <a name="step-7---get-the-certificate-from-azure-key-vault"></a>第 7 步 - 从 Azure 密钥保管库获取证书
+## <a name="step-4---get-the-certificate-from-azure-key-vault"></a>第 4 步 - 从 Azure 密钥保管库获取证书
 
 使用托管服务标识 (MSI) 从 Azure 密钥保管库获取证书。 此过程涉及获取同时包含公钥和私钥的 .pfx 证书。
 
@@ -165,7 +132,7 @@ private X509Certificate2 ReadCertificateFromVault(string certName)
 }
 ```
 
-## <a name="step-8---authenticate-using-service-principal-and-a-certificate"></a>第 8 步 - 使用服务主体和证书进行身份验证
+## <a name="step-5---authenticate-using-service-principal-and-a-certificate"></a>第 5 步 - 使用服务主体和证书进行身份验证
 
 通过连接到 Azure 密钥保管库，你可以使用服务主体和 Azure 密钥保管库中存储的证书对应用进行身份验证。
 
@@ -216,14 +183,12 @@ public async Task<AuthenticationResult> DoAuthentication(){
 
 4. 添加有权访问你 Azure 密钥保管库的帐户。
 
-[!INCLUDE[service principal limitations](../../includes/service-principal-limitations.md)]
-
 ## <a name="next-steps"></a>后续步骤
 
 >[!div class="nextstepaction"]
 >[注册应用](register-app.md)
 
->[!div class="nextstepaction"]
+> [!div class="nextstepaction"]
 >[适用于客户的 Power BI Embedded](embed-sample-for-customers.md)
 
 >[!div class="nextstepaction"]
@@ -231,6 +196,3 @@ public async Task<AuthenticationResult> DoAuthentication(){
 
 >[!div class="nextstepaction"]
 >[配合使用本地数据网关与服务主体的行级别安全性](embedded-row-level-security.md#on-premises-data-gateway-with-service-principal)
-
->[!div class="nextstepaction"]
->[使用服务主体和应用程序机密嵌入 Power BI 内容](embed-service-principal.md)

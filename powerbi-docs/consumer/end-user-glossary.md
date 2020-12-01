@@ -7,15 +7,15 @@ ms.reviewer: mihart
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: reference
-ms.date: 08/24/2020
+ms.date: 11/21/2020
 ms.custom: contperfq1
 ms.author: mihart
-ms.openlocfilehash: 47526e06da24f720f273c45616a012483f077ed5
-ms.sourcegitcommit: 4ac9447d1607dfca2e60948589f36a3d64d31cb4
+ms.openlocfilehash: c2da54406a01d5216355b8e0abc30ea63a6b2f5e
+ms.sourcegitcommit: 9d033abd9c01a01bba132972497dda428d7d5c12
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/29/2020
-ms.locfileid: "92916581"
+ms.lasthandoff: 11/24/2020
+ms.locfileid: "95514253"
 ---
 # <a name="glossary-for-business-users-of-the-power-bi-service"></a>Power BI 服务的商务用户词汇表    
 Power BI 服务可能会引入不熟悉或容易混淆的术语。 词汇表是查找术语的好地方，可能需要将其加入书签。 了解构成 Power BI 服务的构建块的另一个极佳资源是[基本概念](end-user-basic-concepts.md)。 “基本概念”提供 Power BI 组件及其如何连接的简要概述。
@@ -31,7 +31,7 @@ Power BI 服务可能会引入不熟悉或容易混淆的术语。 词汇表是�
 Power BI 管理员管理其组织内 Power BI 的用户、功能和设置的地方。 （注意：Microsoft 365、Azure 和 PowerApps 使用管理中心。）
 
 **aggregates (聚合体)**     
-当多行值作为标准的输入分组到一起时，可构成具有更重要的意义或度量的单一值。
+当多行值作为标准的输入分组到一起时，可构成具有更重要的意义或度量的单一值。 只能聚合隐式度量值（请参阅下面的定义）。
 
 **aggregation (聚合)**     
 减少基础数据源中的行数以适应模型。 所得到的结果就是聚合体。
@@ -50,9 +50,6 @@ Power BI 管理员管理其组织内 Power BI 的用户、功能和设置的地�
 
 **ArcGIS for Power BI**    
 ArcGIS 是由 ESRI 公司创建的映射和分析平台。 Power BI 视觉对象库中包括的视觉对象称为 ArcGIS for Power BI。
-
-**assign (分配)**     
-[Power BI Premium] 用于将工作区移入或移出容量的谓词。 请不要使用“提升”将工作区移到容量中，因为它具有优先于共享容量的“专用”的含义。 
 
 **Auto Insights (自动见解)**     
 现在称为“快速见解”。
@@ -73,7 +70,7 @@ Power BI Desktop 或服务中的报表的“书签”窗格中捕捉的数据视
 对某物的大小或数目进行数理判断。
 
 **容量**    
-[Power BI Premium] 在 Microsoft 云数据中心中的专用硬件上运行的数据模型，可帮助确保大规模的一致性能。 BI 解决方案提供给整个组织，不论有没有 Power BI 许可证。
+[Power BI Premium] 在 Microsoft 云数据中心中的硬件（完全由 Microsoft 管理）上运行的数据模型，可帮助确保大规模的一致性能。 BI 解决方案提供给整个组织，不论有没有 Power BI 许可证。
 
 **card (卡片)** （视觉对象类型）    
 Power BI [视觉对象类型](end-user-visual-type.md)。
@@ -122,7 +119,7 @@ Power BI 服务的内容通常是仪表板、报表和应用。 此外，它还�
 ## <a name="d"></a>D
 
 **dashboard (仪表板)**     
-用于传达状态和指标的视觉对象集合。 仪表板能够以易于理解的方式组织和呈现数据。
+在 Power BI 服务中，仪表板是单个页面，通常称为画布，使用可视化效果来传达信息。 由于仪表板只有一个页面，因此设计良好的仪表板仅包含相应情景的最重要元素。 只能在 Power BI 服务中创建和查看仪表板，而不能在 Power BI Desktop 中创建和查看仪表板。 有关详细信息，请参阅[基本概念、仪表板](end-user-basic-concepts.md)。
 
 **data classification (数据分类)**     
 请参阅“分类”
@@ -178,6 +175,9 @@ Internet 中的通用标准。 在 Power BI 中，客户可以生成嵌入代码
 
 [Power BI Desktop、Power BI 移动版、Power BI 服务等] 参考其中某个 Power BI 工具的另一种方式。 可以在文档中使用 Power BI 环境（租户），帮助熟悉术语“租户”的商业分析师知道这指的是同一个东西。
 
+**显式度量值**    
+Power BI 使用显式度量值和隐式度量值（请参阅下面的定义）。 显式度量值由报表设计器创建，并随数据集一起保存。 它们在 Power BI 中显示为字段，因此可以反复使用。 例如，可使用报表设计器创建显式度量值 TotalInvoice 来对所有发票金额求和。 使用该数据集和对该报表拥有编辑权限的同事可以选择该字段并使用它来创建视觉对象。 在将显式度量值添加或拖动到报表画布上时，Power BI 不应用聚合。  创建显式度量值需要对数据集具有编辑权限。 
+
 ## <a name="f"></a>F
 
 **favorite, unfavorite (收藏、取消收藏)**
@@ -215,6 +215,9 @@ Internet 中的通用标准。 在 Power BI 中，客户可以生成嵌入代码
 Power BI 服务用户的默认登陆页面。 不修改任何内容。 可称为“Power BI 主页”或仅“主页”。
 
 ## <a name="i"></a>I
+
+**隐式度量值**    
+Power BI 使用隐式度量值和显式度量值（请参阅上面的定义）。 隐式度量值是动态创建的。  例如，将字段拖动到报表画布上以创建视觉效果。 Power BI 使用内置标准聚合（SUM、COUNT、MIN、AVG 等）中的一个自动聚合该值。 创建隐式度量值需要对报表具有编辑权限。 
 
 **insights (见解)**     
 请参阅“快速见解”。
@@ -315,7 +318,7 @@ Power BI 服务中用于设计手机报表的用户界面。
 **pin, unpin (固定、取消固定)**     
 报表设计人员通常将报表中的视觉对象放置到仪表板上的操作。
 
-**Power BI** 、 **Power BI service (Power BI 服务)** **Power BI Desktop** **Power BI mobile (Power BI 移动版)**     
+**Power BI**、**Power BI service (Power BI 服务)** **Power BI Desktop** **Power BI mobile (Power BI 移动版)**     
 一些 Power BI 产品/服务。 *Power BI* 是一个泛称。 通常在首次提及完整产品名称之后用于代替完整产品名称，例如 Power BI 服务和 Power BI 移动版。
 
 **Power BI Desktop**    
@@ -325,7 +328,7 @@ Power BI 服务中用于设计手机报表的用户界面。
 一种产品，开发人员使用该产品将 Power BI 仪表板和报表嵌入其自己的应用、站点和工具。
 
 **Power BI Premium**    
-Power BI Pro 许可证的附加产品，可让组织通过购买专用硬件按预期方式缩放 BI 解决方案。 请参阅“帐户”。
+Power BI Pro 许可证的附加产品，可让组织通过购买 Microsoft 云中的保留硬件按预期方式缩放 BI 解决方案。 请参阅“帐户”。
 
 **Power BI Pro**    
 每月每用户许可证，可提供生成报表和仪表板、对共享数据进行协作、自动不断更新数据、审核和监管数据访问方式和使用方式、打包内容以供分发（Power BI 应用）等功能。 请参阅“帐户”。
@@ -431,7 +434,7 @@ Power BI 用户管理自己的常规设置（例如是否预览新功能、设�
 **streaming data (流式处理数据)**     
 请参阅“实时流式处理”。
 
-**subscriptions (订阅)** 、 **Subscribe (订阅)**      
+**subscriptions (订阅)** 、**Subscribe (订阅)**      
 你可以订阅报表页、应用和仪表板，并接收包含快照的电子邮件。 需要 Power BI Pro 许可证。
 
 **summarization (汇总)**     

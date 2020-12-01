@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 11/01/2017
-ms.openlocfilehash: 1f7a04ca8920ef56e0e7de4efad47afa894e76d7
-ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
+ms.openlocfilehash: d485c7ab7583d2604cd9da9e4c122c6cceeeb4fe
+ms.sourcegitcommit: 8afdd3601209636c9ab92d75f967d4ee0a2cab26
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90861167"
+ms.lasthandoff: 11/21/2020
+ms.locfileid: "95012000"
 ---
 # <a name="developer-handbook-overview-power-bi-report-server"></a>开发者手册概述：Power BI 报表服务器
 
@@ -42,7 +42,13 @@ ms.locfileid: "90861167"
 还可以使用开放源代码 [PowerShell 实用工具](https://github.com/Microsoft/ReportingServicesTools)来管理报表服务器。
 
 > [!NOTE]
-> PowerShell 实用工具暂不支持 Power BI Desktop 文件 (.pbix)。
+> PowerShell 实用工具通过 -RsRest* 命令支持 Power BI Desktop 文件 (.pbix)。
+
+运行以下命令，查找 ReportingServicesTools PowerShell 模块中的哪些命令支持 Power BI Desktop 文件 (.pbix)。
+
+```powershell
+Get-Command -Module ReportingServicesTools -Noun RsRest*
+```
 
 ## <a name="custom-extensions"></a>自定义扩展插件
 
@@ -60,7 +66,7 @@ ms.locfileid: "90861167"
 ## <a name="next-steps"></a>后续步骤
 
 [报表查看器控件入门](/sql/reporting-services/application-integration/integrating-reporting-services-using-reportviewer-controls-get-started)  
-[使用 Web 服务和 .NET Framework 生成应用](/sql/reporting-services/report-server-web-service/net-framework/building-applications-using-the-web-service-and-the-net-framework)  
+[使用 Web 服务和 .NET Framework 生成应用程序](/sql/reporting-services/report-server-web-service/net-framework/building-applications-using-the-web-service-and-the-net-framework)  
 [URL 访问](/sql/reporting-services/url-access-ssrs)  
 [扩展插件库](/sql/reporting-services/extensions/reporting-services-extension-library)  
 [WMI 提供程序](/sql/reporting-services/wmi-provider-library-reference/reporting-services-wmi-provider-library-reference-ssrs)
