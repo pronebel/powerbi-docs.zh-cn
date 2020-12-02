@@ -2,19 +2,19 @@
 title: 查看 Power BI 仪表板
 description: 仪表板是 Power BI 服务的一个主要功能。本文介绍了如何打开并查看仪表板。
 author: mihart
+ms.author: mihart
 ms.reviewer: mihart
 ms.service: powerbi
-ms.subservice: powerbi-consumer
+ms.subservice: pbi-explore
 ms.topic: how-to
 ms.date: 08/27/2020
-ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: f447856ac387bdabdbd29e1d1ebf47caef22677a
-ms.sourcegitcommit: be424c5b9659c96fc40bfbfbf04332b739063f9c
+ms.openlocfilehash: 7e431b6a94b7cd881adba27597aa9cbfa6a54425
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "91633921"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96391199"
 ---
 # <a name="view-a-dashboard"></a>查看仪表板
 
@@ -42,10 +42,10 @@ Power BI 业务用户需要花费大量时间查看仪表板。 仪表板旨在�
 ![显示可在其中找到仪表板的所有位置的视频](media/end-user-dashboard-open/power-bi-open-dashboards.gif)
 
 - **主页** 
-- **收藏夹** - 如果已[将某个仪表板设置为收藏内容](end-user-favorite.md)
+- **收藏夹** - 如果已 [将某个仪表板设置为收藏内容](end-user-favorite.md)
 - **最近使用** - 如果最近访问过某个仪表板
 - **应用** - 大多数应用都同时包含仪表板和报表
-- **与我共享** - 如果同事[与你共享了仪表板](end-user-shared-with-me.md)
+- **与我共享** - 如果同事 [与你共享了仪表板](end-user-shared-with-me.md)
 - **我的工作区** - 如果已下载任何 [Power BI 示例](../create-reports/sample-datasets.md)
 
 

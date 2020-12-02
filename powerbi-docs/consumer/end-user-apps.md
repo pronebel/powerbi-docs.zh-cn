@@ -2,20 +2,20 @@
 title: 什么是 Power BI 应用？
 description: 在 Power BI 中，应用将相关仪表板和报表汇总到一处。
 author: mihart
+ms.author: mihart
 ms.reviewer: lukaszp
 ms.service: powerbi
-ms.subservice: powerbi-consumer
+ms.subservice: pbi-explore
 ms.topic: how-to
 ms.date: 10/09/2020
-ms.author: mihart
 ms.custom: licensing support, css_fy20Q4
 LocalizationGroup: Share your work
-ms.openlocfilehash: 15345c8ca7249c3a6bf4018a322a8ce3d78b9de3
-ms.sourcegitcommit: 02484b2d7a352e96213353702d60c21e8c07c6c0
+ms.openlocfilehash: 3cf504d1df824840f8f3af134ac3e6e3cd8a3fca
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "91982063"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96391544"
 ---
 # <a name="apps-in-power-bi"></a>Power BI 中的“应用”
 

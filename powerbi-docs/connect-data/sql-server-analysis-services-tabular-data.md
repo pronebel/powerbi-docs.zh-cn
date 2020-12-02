@@ -1,21 +1,21 @@
 ---
 title: Power BI 中的 SQL Server Analysis Services 实时数据
 description: Power BI 中的 SQL Server Analysis Services 实时数据。 这是通过为企业网关配置的数据源来实现。
-ms.service: powerbi
-ms.subservice: powerbi-service
-ms.topic: how-to
-author: davidiseminger
+author: Minewiskan
 ms.author: davidi
+ms.service: powerbi
+ms.subservice: pbi-data-sources
+ms.topic: how-to
 ms.reviewer: ''
 ms.custom: ''
 ms.date: 08/10/2017
 LocalizationGroup: Data from databases
-ms.openlocfilehash: 2c32ceb1db154cd7647402593051e4230c75c07f
-ms.sourcegitcommit: 4ac9447d1607dfca2e60948589f36a3d64d31cb4
+ms.openlocfilehash: 81d2f350c524335d3aa8c7fbb9c82a6cb045e9e5
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/29/2020
-ms.locfileid: "92916742"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96391889"
 ---
 # <a name="sql-server-analysis-services-live-data-in-power-bi"></a>Power BI 中的 SQL Server Analysis Services 实时数据
 
@@ -32,11 +32,11 @@ ms.locfileid: "92916742"
 
    ![“连接以获取数据”按钮](media/sql-server-analysis-services-tabular-data/connecttoas_getdatabutton.png)
 
-2. 选择 **数据库和其他** 。
+2. 选择 **数据库和其他**。
 
    ![连接以获取数据 1](media/sql-server-analysis-services-tabular-data/connecttoas_getdata_1.png)
 
-3. 选择 **SQL Server Analysis Services** > **连接** 。
+3. 选择 **SQL Server Analysis Services** > **连接**。
 
    ![连接以获取数据 2](media/sql-server-analysis-services-tabular-data/connecttoas_getdata_2.png)
 

@@ -2,19 +2,19 @@
 title: 更改报表中的图表排序方式
 description: 更改 Power BI 报表中的图表排序方式
 author: mihart
+ms.author: mihart
 ms.reviewer: mihart
 ms.service: powerbi
-ms.subservice: powerbi-consumer
+ms.subservice: pbi-explore
 ms.topic: how-to
 ms.date: 08/25/2020
-ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: 6147bc0ee725eb7adc7e1edb637a22bb7dc66558
-ms.sourcegitcommit: 1aaa742c239a3119cdaad698be5a7553b68801fa
+ms.openlocfilehash: 44bdb454bbe22082a20182002e817fead561d8da
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/27/2020
-ms.locfileid: "89040264"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96391406"
 ---
 # <a name="change-how-a-chart-is-sorted-in-a-power-bi-report"></a>更改 Power BI 报表中的图表排序方式
 
@@ -22,7 +22,7 @@ ms.locfileid: "89040264"
 
 
 > [!IMPORTANT]
-> **本文适用于对报表或数据集没有编辑权限以及仅在 Power BI 的联机版本（Power BI 服务）中工作的 Power BI 用户。如果你是报表设计人员或管理员或所有者，则本文可能没有你所需的全部信息。请转为参阅[在 Power BI Desktop 中按列排序](../create-reports/desktop-sort-by-column.md)** 。
+> **本文适用于对报表或数据集没有编辑权限以及仅在 Power BI 的联机版本（Power BI 服务）中工作的 Power BI 用户。如果你是报表设计人员或管理员或所有者，则本文可能没有你所需的全部信息。请转为参阅 [在 Power BI Desktop 中按列排序](../create-reports/desktop-sort-by-column.md)** 。
 
 在 Power BI 服务中，你可以更改视觉对象的外观，方法是按不同的数据字段对其进行排序。 通过更改视觉对象的排序方式，可以突出显示想要表达的信息。 无论使用的是数值数据（如销售数据）还是文本数据（如省/市/自治区名），都可按所需的方式对视觉对象进行排序。 Power BI 对排序提供了很大的灵活性，并提供了快速菜单供你使用。 
 

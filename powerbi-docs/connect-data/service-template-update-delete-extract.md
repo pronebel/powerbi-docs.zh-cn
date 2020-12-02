@@ -2,18 +2,18 @@
 title: 更新、删除和提取 Power BI 模板应用
 description: 如何更新、删除和提取模板应用。
 author: paulinbar
+ms.author: painbar
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-template-apps
 ms.topic: how-to
 ms.date: 05/04/2020
-ms.author: painbar
-ms.openlocfilehash: c5bed13799824a0222b2961595108536f66133ee
-ms.sourcegitcommit: be424c5b9659c96fc40bfbfbf04332b739063f9c
+ms.openlocfilehash: 2eb4df96db51ccbf3308315130fdaa2de85df240
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "91634932"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96392119"
 ---
 # <a name="update-delete-and-extract-template-app"></a>更新、删除和提取模板应用
 
@@ -74,12 +74,12 @@ ms.locfileid: "91634932"
 模板工作区是活动分散式模板应用的源。 为了保护模板应用用户，如果不先删除工作区中的所有已创建应用版本，就无法删除工作区。
 删除应用版本也会删除不再有效的应用 URL。
 
-1. 在“发布管理”窗格中，依次选择省略号 (...)**** 和“删除”****。
+1. 在“发布管理”窗格中，依次选择省略号 (...) 和“删除”。
  ![屏幕截图显示从菜单中选择“删除”的“发布管理”窗格。](media/service-template-apps-update-extract-delete/power-bi-template-app-delete.png)
  ![屏幕截图显示用于删除此应用的确认消息。](media/service-template-apps-update-extract-delete/power-bi-template-app-delete-dialog.png)
 
 >[!NOTE]
->请确保不要删除客户或 AppSource**** 正在使用的应用版本，否则它们将不再有效。
+>请确保不要删除客户或 AppSource 正在使用的应用版本，否则它们将不再有效。
 
 ## <a name="next-steps"></a>后续步骤
 

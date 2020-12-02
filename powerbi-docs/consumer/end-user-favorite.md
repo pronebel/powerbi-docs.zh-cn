@@ -2,20 +2,20 @@
 title: Power BI 服务（仪表板、报表、应用）中的收藏夹
 description: 有关如何在 Power BI 服务中收藏仪表板、报表和应用的文档
 author: mihart
+ms.author: mihart
 ms.reviewer: mihart
 featuredvideoid: G26dr2PsEpk
 ms.service: powerbi
-ms.subservice: powerbi-consumer
+ms.subservice: pbi-explore
 ms.topic: how-to
 ms.date: 09/02/2020
-ms.author: mihart
 LocalizationGroup: Common tasks
-ms.openlocfilehash: 17dcf31a1e0f4dadc5c4718dfbf73d98950b297a
-ms.sourcegitcommit: b943ce58c2c079cb18fc5cf23cc609ead1dc9906
+ms.openlocfilehash: fe91d4f2a1490c6d879b18cfc6f09f6c0b2a6b40
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/03/2020
-ms.locfileid: "89443352"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96390808"
 ---
 # <a name="favorite-dashboards-reports-and-apps-in-the-power-bi-service"></a>在 Power BI 服务中收藏仪表板、报表和应用
 
@@ -62,7 +62,7 @@ ms.locfileid: "89443352"
 ## <a name="unfavorite-content"></a>取消收藏内容
 如果不再像以前那样频繁地使用某个报表，则可以取消收藏。 取消收藏内容时，会从“收藏夹”列表（而不是 Power BI）中删除该内容。
 
-1. 在导航窗格中，选择“收藏夹”以打开“收藏夹”屏幕********。
+1. 在导航窗格中，选择“收藏夹”以打开“收藏夹”屏幕。
    
    ![“收藏夹”屏幕](./media/end-user-favorite/power-bi-unfavorite.png)
 2. 选择想要取消收藏的内容旁边的黑色星号。

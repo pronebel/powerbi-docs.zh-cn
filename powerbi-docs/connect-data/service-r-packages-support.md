@@ -2,20 +2,20 @@
 title: 了解支持哪些 R 包
 description: Power BI 中支持的和不支持的 R 程序包
 author: davidiseminger
+ms.author: davidi
 ms.reviewer: ''
 ms.custom: seodec18
 ms.service: powerbi
-ms.subservice: powerbi-desktop
+ms.subservice: pbi-data-sources
 ms.topic: how-to
 ms.date: 05/06/2020
-ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 2cd345baff9b03573773599f6026f0be48fdcab2
-ms.sourcegitcommit: 5240990f998851c4854eb565de681099264c5a61
+ms.openlocfilehash: 1f7168f0faa516828bd795eabd3b0d36ccfa8025
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/18/2020
-ms.locfileid: "94718859"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96392073"
 ---
 # <a name="create-visuals-by-using-r-packages-in-the-power-bi-service"></a>在 Power BI 服务中使用 R 包创建视觉对象
 可以使用功能强大的 [R 编程语言](https://www.r-project.org/)在 Power BI 服务中创建视觉对象。 许多 R 程序包在 Power BI 服务中受到支持（并且更多包始终受支持），某些包不受支持。

@@ -2,19 +2,19 @@
 title: 在 Power BI 服务中安装并使用销售和营销应用
 description: 在 Power BI 中，应用将相关仪表板和报表汇总到一处。 从 Power BI 应用市场安装销售和营销应用。
 author: mihart
+ms.author: mihart
 ms.reviewer: mihart
 ms.service: powerbi
-ms.subservice: powerbi-consumer
+ms.subservice: pbi-explore
 ms.topic: how-to
 ms.date: 08/12/2020
-ms.author: mihart
 LocalizationGroup: Share your work
-ms.openlocfilehash: c3019abae20aec5e71d6b4cbae94c77426a151bd
-ms.sourcegitcommit: be424c5b9659c96fc40bfbfbf04332b739063f9c
+ms.openlocfilehash: ba9b0f461d609cea2efd6d737f86b00554e9c0f1
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "91635806"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96391751"
 ---
 # <a name="install-and-use-the-sample-sales-and-marketing-app-in-the-power-bi-service"></a>在 Power BI 服务中安装并使用示例销售和营销应用
 

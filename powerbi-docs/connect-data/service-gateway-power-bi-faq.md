@@ -2,19 +2,19 @@
 title: 本地数据网关常见问题解答 - Power BI
 description: 本文是 Power BI 的本地数据网关常见问题解答。 本文将常见问题收集到一处，供 Power BI 中所用网关使用。
 author: arthiriyer
+ms.author: arthii
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-gateways
 ms.topic: conceptual
 ms.date: 07/15/2019
-ms.author: arthii
 LocalizationGroup: Gateways
-ms.openlocfilehash: c4fe9f20e2b6b978479cfdad0651a96d6d322056
-ms.sourcegitcommit: a453ba52aafa012896f665660df7df7bc117ade5
+ms.openlocfilehash: f9a51e6150c7ae351cea968c0d7ea39d2d0d6c32
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/27/2020
-ms.locfileid: "85485636"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96392211"
 ---
 # <a name="on-premises-data-gateway-faq---power-bi"></a>本地数据网关常见问题解答 - Power BI
 
@@ -62,7 +62,7 @@ ms.locfileid: "85485636"
 
 **问：** 如何弄清哪些有效用户名被传递给我的本地 Analysis Services 服务器？ 
 
-**答：** 我们在[故障排除文章](service-gateway-onprem-tshoot.md)中回答了这个问题。
+**答：** 我们在 [故障排除文章](service-gateway-onprem-tshoot.md)中回答了这个问题。
 
 ## <a name="next-steps"></a>后续步骤
 

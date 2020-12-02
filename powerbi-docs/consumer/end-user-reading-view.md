@@ -1,25 +1,25 @@
 ---
 title: Power BI 服务中面向 Power BI 使用者的功能
 description: 在本快速入门中，使用者将了解 Power BI、应用、报表和仪表板。
+author: mihart
+ms.author: mihart
 services: powerbi
 documentationcenter: ''
-author: mihart
 ms.reviewer: mihart
 editor: ''
 tags: ''
 ms.service: powerbi
-ms.subservice: powerbi-consumer
+ms.subservice: pbi-explore
 ms.topic: quickstart
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 09/30/2020
-ms.author: mihart
-ms.openlocfilehash: fbff6f202d6bdd3a4bffc031f23399869f08bc5c
-ms.sourcegitcommit: 6ba33e5a500928163e02e007f5ccd52dd2227610
+ms.openlocfilehash: ff5ffe959372952841cc41d92624b27f2d958f62
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/07/2020
-ms.locfileid: "91780534"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96390164"
 ---
 # <a name="quickstart-learn-about-the-power-bi-capabilities-for-business-users"></a>快速入门：了解面向商务用户的 Power BI 功能
 

@@ -2,20 +2,20 @@
 title: 教程：在 Power BI 中生成机器学习模型
 description: 在本教程中，你将在 Power BI 中生成机器学习模型。
 author: davidiseminger
+ms.author: davidi
 ms.reviewer: ''
 ms.service: powerbi
-ms.subservice: powerbi-service
+ms.subservice: pbi-data-sources
 ms.custom: connect-to-services
 ms.topic: tutorial
 ms.date: 08/03/2020
-ms.author: davidi
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 49f1b46e89fd05d05928de631b0ea42832801a05
-ms.sourcegitcommit: 37bd34053557089c4fbf0e05f78e959609966561
+ms.openlocfilehash: 31b56f4888393c12f94eb4e6d8f819d992a04029
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/10/2020
-ms.locfileid: "94397222"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96392326"
 ---
 # <a name="tutorial-build-a-machine-learning-model-in-power-bi"></a>教程：在 Power BI 中生成机器学习模型
 

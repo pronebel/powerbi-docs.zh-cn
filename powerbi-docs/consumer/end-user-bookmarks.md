@@ -2,19 +2,19 @@
 title: Power BI 服务报表中的书签概述
 description: Power BI 服务中书签的文档概述主题。
 author: mihart
+ms.author: mihart
 ms.reviewer: mihart
 ms.service: powerbi
-ms.subservice: powerbi-consumer
+ms.subservice: pbi-explore
 ms.topic: how-to
 ms.date: 08/26/2020
-ms.author: mihart
 LocalizationGroup: Create reports
-ms.openlocfilehash: f865815c76df179c87c1487e1243c37108375167
-ms.sourcegitcommit: 13c4bec679313f2951f1833033316cb8176da8a1
+ms.openlocfilehash: ec56f15386aeddafa74d952ce772aa3dcce4f901
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/26/2020
-ms.locfileid: "88937652"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96391475"
 ---
 # <a name="what-are-bookmarks"></a>什么是书签？
 
@@ -75,7 +75,7 @@ ms.locfileid: "88937652"
 
 ![添加个人书签。](media/end-user-bookmarks/power-bi-personal.png)
 
-**Power BI** 会创建个人书签，并为其提供通用名称或输入的名称。 通过选择书签名称旁边的省略号，然后从出现的菜单中选择相应操作，即可*重命名*、*删除*或*更新*书签。
+**Power BI** 会创建个人书签，并为其提供通用名称或输入的名称。 通过选择书签名称旁边的省略号，然后从出现的菜单中选择相应操作，即可 *重命名*、*删除* 或 *更新* 书签。
 
 添加书签后，通过选择“书签”窗格中的书签来显示它。 
 

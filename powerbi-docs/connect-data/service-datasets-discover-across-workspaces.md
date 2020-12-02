@@ -1,20 +1,20 @@
 ---
 title: 基于来自不同工作区的数据集创建报表 - Power BI
 description: 了解如何与整个组织的用户共享数据集。 然后，他们可以在其工作区中基于你的数据集生成报表。
-author: maggiesMSFT
+author: paulinbar
+ms.author: painbar
 ms.reviewer: kayu
 ms.service: powerbi
-ms.subservice: powerbi-service
+ms.subservice: pbi-data-sources
 ms.topic: how-to
 ms.date: 04/30/2020
-ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 59fc2d4be1336d9476c86e4204eeb23564ebe64e
-ms.sourcegitcommit: 4e347efd132b48aaef6c21236c3a21e5fce285cc
+ms.openlocfilehash: 3f1f689aa272ac98f4a3dd4aef7c2b2728fce41e
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/27/2020
-ms.locfileid: "92681103"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96392487"
 ---
 # <a name="create-reports-based-on-datasets-from-different-workspaces"></a>基于来自不同工作区的数据集创建报表
 

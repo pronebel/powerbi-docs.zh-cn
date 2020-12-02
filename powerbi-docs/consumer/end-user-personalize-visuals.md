@@ -2,19 +2,19 @@
 title: 在报表中个性化设置视觉对象
 description: 创建自己的报表视图，而无需对其进行编辑。
 author: mihart
+ms.author: mihart
 ms.reviewer: mihart
 ms.service: powerbi
-ms.subservice: powerbi-consumer
+ms.subservice: pbi-explore
 ms.topic: how-to
 ms.date: 10/13/2020
-ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: 718363da3bd1f66de199db8d854d8d23d6de3eb5
-ms.sourcegitcommit: eab5a02520c421a57019595c03e9ecfdb41d52ad
+ms.openlocfilehash: aa94908c8601052c9cb8ac7cd4a6c0e895afeff6
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/20/2020
-ms.locfileid: "92256724"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96390141"
 ---
 # <a name="personalize-visuals-in-a-report"></a>在报表中个性化设置视觉对象
 
@@ -59,67 +59,67 @@ ms.locfileid: "92256724"
 
 你认为通过堆积柱形图显示数据的效果更佳吗？ 更改可视化效果类型。
 
-:::image type="content" source="media/end-user-personalize-visuals/power-bi-personalize-change-visual-type.png" alt-text="个性化设置视觉对象":::
+:::image type="content" source="media/end-user-personalize-visuals/power-bi-personalize-change-visual-type.png" alt-text="更改可视化效果类型":::
  
 ### <a name="swap-out-a-measure-or-dimension"></a>交换度量值或维度
 通过选择要替换的字段，然后选择其他字段来替换用于 X 轴的字段。
 
-:::image type="content" source="media/end-user-personalize-visuals/power-bi-personalize-change-axis.png" alt-text="个性化设置视觉对象":::
+:::image type="content" source="media/end-user-personalize-visuals/power-bi-personalize-change-axis.png" alt-text="更改轴":::
  
 ### <a name="add-or-remove-a-legend"></a>添加或删除图例
 通过添加图例，可以根据类别对视觉对象进行颜色编码。 在此示例中，我们将基于公司名称进行颜色编码。 
 
-:::image type="content" source="media/end-user-personalize-visuals/power-bi-personalize-change-legend.png" alt-text="个性化设置视觉对象":::
+:::image type="content" source="media/end-user-personalize-visuals/power-bi-personalize-change-legend.png" alt-text="添加或删除图例":::
 
 ### <a name="change-the-placement-of-fields"></a>更改字段的位置
 
 使用拖放，可以更改字段在同一视觉对象属性中的位置，甚至可以更改在不同的视觉对象属性中的位置。 例如，可以将图例中的字段快速移动到视觉对象的轴上。
 
-:::image type="content" source="media/end-user-personalize-visuals/personalize-drag-and-drop.png" alt-text="个性化设置视觉对象":::
+:::image type="content" source="media/end-user-personalize-visuals/personalize-drag-and-drop.png" alt-text="在视觉对象中拖动字段的屏幕截图。":::
 
 还可以快速对表或矩阵的列重新排序。
 
-:::image type="content" source="media/end-user-personalize-visuals/personalize-reorder-columns.png" alt-text="个性化设置视觉对象":::
+:::image type="content" source="media/end-user-personalize-visuals/personalize-reorder-columns.png" alt-text="对表中的列重新排序的屏幕截图。":::
 
 ### <a name="compare-two-or-more-different-measures"></a>比较两个或多个不同的度量值
 使用“+”图标为视觉对象添加多个度量值，以此比较不同度量值的值。 若要删除某个度量值，请选择“更多选项(...)”并选择“删除字段” 。
 
-:::image type="content" source="media/end-user-personalize-visuals/power-bi-personalize-compare-measures.png" alt-text="个性化设置视觉对象":::
+:::image type="content" source="media/end-user-personalize-visuals/power-bi-personalize-compare-measures.png" alt-text="比较度量值":::
 
 ### <a name="change-aggregations"></a>更改聚合
 通过更改“个性化设置”窗格中的聚合来更改计算度量值的方式。 选择“更多选项(...)”，然后选择要使用的聚合。
 
-:::image type="content" source="media/end-user-personalize-visuals/power-bi-personalize-change-aggregation.png" alt-text="个性化设置视觉对象":::
+:::image type="content" source="media/end-user-personalize-visuals/power-bi-personalize-change-aggregation.png" alt-text="更改聚合":::
 
 ### <a name="capture-changes"></a>捕获更改 
 使用个人书签捕获你的更改，这样便可返回到经过个性化设置的视图。 选择“书签” > “个人书签”并为书签提供一个名称。 
 
-:::image type="content" source="media/end-user-personalize-visuals/power-bi-personalize-bookmark.png" alt-text="个性化设置视觉对象":::
+:::image type="content" source="media/end-user-personalize-visuals/power-bi-personalize-bookmark.png" alt-text="创建书签":::
  
 还可以使书签成为默认视图。
 
 ### <a name="share-changes"></a>共享更改 
 如果你具有“读取”和“重新共享”权限，共享报表时，你就可以选择包括你所做的更改。
 
-:::image type="content" source="media/end-user-personalize-visuals/power-bi-personalize-share-changes.png" alt-text="个性化设置视觉对象":::
+:::image type="content" source="media/end-user-personalize-visuals/power-bi-personalize-share-changes.png" alt-text="共享更改":::
  
 ### <a name="reset-all-your-changes-to-a-report"></a>重置对报表所做的所有更改
 
 从报表画布的右上角，选择“重置为默认值”。 这会删除报表中的所有更改，并将其重新设置为作者上次保存的报表视图。
 
-:::image type="content" source="media/end-user-personalize-visuals/power-bi-personalize-reset-all.png" alt-text="个性化设置视觉对象":::
+:::image type="content" source="media/end-user-personalize-visuals/power-bi-personalize-reset-all.png" alt-text="重置保存所有更改":::
  
 ### <a name="reset-all-your-changes-to-a-visual"></a>重置对视觉对象所做的所有更改
 
 从视觉对象的菜单栏中，选择“重置此视觉对象”，删除对特定视觉对象所做的所有更改，并将其重新设置为作者上次保存的视觉对象视图。
 
-:::image type="content" source="media/end-user-personalize-visuals/power-bi-personalize-reset-visual.png" alt-text="个性化设置视觉对象":::
+:::image type="content" source="media/end-user-personalize-visuals/power-bi-personalize-reset-visual.png" alt-text="重置所有视觉对象更改":::
  
 ### <a name="clear-recent-changes"></a>清除最近的更改
 
 选择橡皮擦图标以清除你自打开“个性化设置”窗格后最近所做的所有更改。  
 
-:::image type="content" source="media/end-user-personalize-visuals/power-bi-personalize-revert-changes.png" alt-text="个性化设置视觉对象":::
+:::image type="content" source="media/end-user-personalize-visuals/power-bi-personalize-revert-changes.png" alt-text="还原最近的更改":::
 
 ## <a name="limitations"></a>限制
 

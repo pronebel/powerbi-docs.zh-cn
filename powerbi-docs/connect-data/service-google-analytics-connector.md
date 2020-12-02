@@ -2,20 +2,20 @@
 title: 第三方服务：Google Analytics 连接器
 description: 第三方服务：适用于 Power BI Desktop 的 Google Analytics 连接器
 author: davidiseminger
+ms.author: davidi
 ms.reviewer: ''
 ms.custom: seodec18
 ms.service: powerbi
-ms.subservice: powerbi-desktop
+ms.subservice: pbi-data-sources
 ms.topic: how-to
 ms.date: 05/08/2019
-ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: ec290ce53155f24a9213a4849ecb82abd6cfc592
-ms.sourcegitcommit: e8ed3d120699911b0f2e508dc20bd6a9b5f00580
+ms.openlocfilehash: 383f69bd371e4b0f635ff2b64c7fae0523c360e4
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/11/2020
-ms.locfileid: "86263655"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96392257"
 ---
 # <a name="use-the-google-analytics-connector-for-power-bi-desktop"></a>使用适用于 Power BI Desktop 的 Google Analytics 连接器
 > [!NOTE]
@@ -26,7 +26,7 @@ ms.locfileid: "86263655"
 1. 在 **Power BI Desktop** 中，选择“**主页**”功能区选项卡中的“**获取数据**”。
 2. 在“获取数据”窗口中，从左侧窗格的类别中选择“联机服务”。
 3. 从右侧窗格中的选择中选择 **Google Analytics**。
-4. 在窗口底部，选择**连接**。  
+4. 在窗口底部，选择 **连接**。  
    ![“开始”选项卡的屏幕截图，其中显示了已选中“Google Analytics”的“获取数据”功能区和“连接”按钮。](media/service-google-analytics-connector/tps_googleanalytics_1.png)
 
 你将看到一个提示对话框，说明连接器是一种第三方服务，并警告功能和可用性可能会随着时间推移有所不同，以及其他说明。  
