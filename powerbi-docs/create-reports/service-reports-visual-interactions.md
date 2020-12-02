@@ -1,21 +1,21 @@
 ---
 title: 更改视觉对象在报表中的交互方式
 description: 介绍如何在 Microsoft Power BI 服务报表和 Power BI Desktop 报表中设置视觉对象交互的文档。
-author: mihart
+author: maggiesMSFT
+ms.author: maggies
 ms.reviewer: ''
 featuredvideoid: N_xYsCbyHPw
 ms.service: powerbi
-ms.subservice: powerbi-service
+ms.subservice: pbi-reports-dashboards
 ms.topic: how-to
 ms.date: 02/04/2020
-ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: 3646518cdf9575d73ccfc39a859b9c7211db8678
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 0070e8e997178a07c93bef4b80403f55aff9ae1d
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85218668"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96387611"
 ---
 # <a name="change-how-visuals-interact-in-a-power-bi-report"></a>更改视觉对象在 Power BI 报表中的交互方式
 如果具有编辑报表的权限，则可以使用“视觉对象交互”，更改报表页上的可视化效果相互影响的方式  。 
@@ -25,9 +25,9 @@ ms.locfileid: "85218668"
 例如，在地图可视化组件上选择一个州会突出显示柱形图并筛选折线图以便仅显示适用于该州的数据。
 请参阅[关于筛选和突出显示](power-bi-reports-filters-and-highlighting.md)。 如果具有支持[钻取](../consumer/end-user-drill.md)的可视化效果，在默认情况下，钻取某个可视化效果不会对报表页上的其他可视化效果造成影响。 但可以同时覆盖这两种默认行为，并且可以对每个可视化效果设置交互。
 
-本文将为你展示如何使用 Power BI Desktop 中的**视觉对象交互**。 该过程与 Power BI 服务[编辑视图](service-interact-with-a-report-in-editing-view.md)中的相同。 如果你只有“阅读视图”访问权限，或者报表已与你共享，你将无法更改视觉对象交互设置。
+本文将为你展示如何使用 Power BI Desktop 中的 **视觉对象交互**。 该过程与 Power BI 服务[编辑视图](service-interact-with-a-report-in-editing-view.md)中的相同。 如果你只有“阅读视图”访问权限，或者报表已与你共享，你将无法更改视觉对象交互设置。
 
-术语*交叉筛选*和*交叉突出显示*用于区分此处描述的行为与当你使用“筛选”  窗格*筛选*和*突出显示*可视化组件时所发生的行为。  
+术语 *交叉筛选* 和 *交叉突出显示* 用于区分此处描述的行为与当你使用“筛选”  窗格 *筛选* 和 *突出显示* 可视化组件时所发生的行为。  
 
 > [!NOTE]
 > 此视频使用的是较旧版本的 Power BI Desktop 和 Power BI 服务。 

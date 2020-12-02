@@ -2,19 +2,19 @@
 title: Power BI 中的切片器
 description: Power BI 切片器是筛选数据集的另一种方法，可以缩小在你设计的报表的其他可视化效果中显示的数据集部分范围。
 author: maggiesMSFT
+ms.author: maggies
 ms.reviewer: mihart
 ms.service: powerbi
-ms.subservice: powerbi-desktop
+ms.subservice: pbi-visuals
 ms.topic: how-to
 ms.date: 07/07/2020
-ms.author: maggies
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 75ecc28c703b083355646e1caa5a457cf60cc341
-ms.sourcegitcommit: 5ccab484cf3532ae3a16acd5fc954b7947bd543a
+ms.openlocfilehash: d3e0c75a50fb103414a874c4455de775bc20e1a9
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/06/2020
-ms.locfileid: "93412754"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96387565"
 ---
 # <a name="slicers-in-power-bi"></a>Power BI 中的切片器
 
@@ -190,9 +190,9 @@ Power BI 切片器不支持以下操作：
 
 - 对于本文，请按下面的方式设置标题文本的格式： 
    - 字体颜色：红色
-   - **文本大小** ：14 磅
+   - **文本大小**：14 磅
    - 对齐方式：居中
-   - **字体系列** ：Arial Black
+   - **字体系列**：Arial Black
 
 
 ### <a name="items-options"></a>项选项
@@ -202,8 +202,8 @@ Power BI 切片器不支持以下操作：
 1. 对于本文，请按下面的方式设置“项”选项的格式：
     - 字体颜色：黑色
     - 背景颜色：浅红色
-    - **文本大小** ：10 磅
-    - **字体系列** ：Arial
+    - **文本大小**：10 磅
+    - **字体系列**：Arial
  
 1. 在“边框”中，选择“框架”，在每个项周围添加带有在“常规”选项下设置的大小和颜色的边框线  。 
     
@@ -226,7 +226,7 @@ Power BI 切片器不支持以下操作：
 - 背景颜色：将背景颜色添加到切片器并设置其透明度。
 - 锁定纵横比：如果要调整切片器的大小，则保留它的相对高度和宽度。
 - 边框：在切片器周围添加边框并设置其颜色。 此切片器边框是单独的，不受“常规”设置影响。
-- **阴影** ：向滑块添加投影。
+- **阴影**：向滑块添加投影。
 
 ## <a name="next-steps"></a>后续步骤
 有关切片器的更多信息，请参阅以下文章：

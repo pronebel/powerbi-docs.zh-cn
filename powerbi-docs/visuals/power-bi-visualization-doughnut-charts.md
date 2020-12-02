@@ -1,20 +1,20 @@
 ---
 title: Power BI 中的圆环图
 description: Power BI 中的圆环图
-author: msftrien
+author: mihart
+ms.author: mihart
 ms.reviewer: mihart
 ms.service: powerbi
-ms.subservice: powerbi-desktop
+ms.subservice: pbi-visuals
 ms.topic: how-to
 ms.date: 05/05/2020
-ms.author: rien
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 24788b16718e1223bdd2040d42a67e4f175b8371
-ms.sourcegitcommit: 5ccab484cf3532ae3a16acd5fc954b7947bd543a
+ms.openlocfilehash: 3ebd618011f8c7a5fefb1187283702a85dee407c
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/06/2020
-ms.locfileid: "93413053"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96386128"
 ---
 # <a name="create-and-use-doughnut-charts-in-power-bi"></a>在 Power BI 中创建和使用圆环图
 

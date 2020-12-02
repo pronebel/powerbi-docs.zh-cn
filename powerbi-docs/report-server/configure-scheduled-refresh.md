@@ -1,19 +1,19 @@
 ---
 title: 如何配置 Power BI 报表计划的刷新
 description: 若要刷新 Power BI 报表中的数据，必须创建计划的刷新计划。
-author: davidiseminger
+author: maggiesMSFT
+ms.author: maggies
 ms.reviewer: kayu
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: how-to
 ms.date: 06/10/2020
-ms.author: davidi
-ms.openlocfilehash: 7bc3b77a8badafe1c9660af347a74214176690ac
-ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
+ms.openlocfilehash: 95119cf6ebebbf527245f5b75f0da541c1f87aef
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90859028"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96386311"
 ---
 # <a name="how-to-configure-power-bi-report-scheduled-refresh"></a>如何配置 Power BI 报表计划的刷新
 若要刷新 Power BI 报表服务器的 Power BI 报表中的数据，必须创建计划的刷新计划。 在报表服务器上的 Power BI 报表的“管理”区域中创建此计划。

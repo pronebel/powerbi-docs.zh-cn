@@ -1,21 +1,21 @@
 ---
 title: Power BI 服务和 Power BI Desktop 中的报表可视化效果概述
 description: Microsoft Power BI 中的报表可视化效果（视觉对象）概述。
-author: msftrien
-ms.author: rien
+author: mihart
+ms.author: mihart
 ms.reviewer: mihart
 featuredvideoid: ''
 ms.service: powerbi
-ms.subservice: powerbi-desktop
+ms.subservice: pbi-visuals
 ms.topic: how-to
 ms.date: 05/05/2020
 LocalizationGroup: Visualizations
-ms.openlocfilehash: be7249411f4e90d99dde38a1da3b6a6656674ea0
-ms.sourcegitcommit: 5ccab484cf3532ae3a16acd5fc954b7947bd543a
+ms.openlocfilehash: b6b4ebb7d07ec73f8b2c51b7b2fabb75b197d91f
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/06/2020
-ms.locfileid: "93411328"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96387427"
 ---
 # <a name="visualizations-in-power-bi-reports"></a>Power BI 报表中的可视化效果
 

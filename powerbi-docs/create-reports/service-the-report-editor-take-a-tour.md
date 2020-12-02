@@ -2,20 +2,20 @@
 title: 报表编辑器导览
 description: 在 Power BI Desktop 和 Power BI 服务中，报表编辑器用于设计最终用户所看到的报表。 这在两个环境中是类似的。
 author: maggiesMSFT
+ms.author: maggies
 ms.reviewer: ''
 featuredvideoid: IkJda4O7oGs
 ms.service: powerbi
-ms.subservice: powerbi-service
+ms.subservice: pbi-reports-dashboards
 ms.topic: conceptual
 ms.date: 08/14/2019
-ms.author: maggies
 LocalizationGroup: Reports
-ms.openlocfilehash: 56a181da60e2a20c08a8c03dd826276d350ec81f
-ms.sourcegitcommit: be424c5b9659c96fc40bfbfbf04332b739063f9c
+ms.openlocfilehash: 26a98609481ce45a6e432c8006d80f9becdd9f3b
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "91635185"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96387772"
 ---
 # <a name="tour-the-report-editor-in-power-bi"></a>Power BI 中的报表编辑器导览
 
@@ -95,7 +95,7 @@ Power BI 报表编辑器由几个主要部分组成：
 
 ![“可视化效果”窗格底部](media/service-the-report-editor-take-a-tour/power-bi-visualization-field-manager.png)
 
-此窗格中的 bucket（有时称为“井”）会根据所选择的可视化效果类型而有所不同  。  例如，如果选择的是条形图，则会看到“轴”、“图例”和“值”。 当选择某个字段时，或将其拖到画布上时，Power BI 会将该字段添加到其中一个 bucket。  也可以直接将“字段”列表中的字段拖动到存储桶中。  某些存储桶仅限于特定类型的数据。  例如，**值**将不会接受非数字字段。 因此，如果将“类别”字段拖入“值”bucket，Power BI 会将其更改为“类别计数”    。
+此窗格中的 bucket（有时称为“井”）会根据所选择的可视化效果类型而有所不同  。  例如，如果选择的是条形图，则会看到“轴”、“图例”和“值”。 当选择某个字段时，或将其拖到画布上时，Power BI 会将该字段添加到其中一个 bucket。  也可以直接将“字段”列表中的字段拖动到存储桶中。  某些存储桶仅限于特定类型的数据。  例如，**值** 将不会接受非数字字段。 因此，如果将“类别”字段拖入“值”bucket，Power BI 会将其更改为“类别计数”    。
 
 有关详细信息，请参阅[向 Power BI 报表添加可视化效果](../visuals/power-bi-report-add-visualizations-i.md)。
 

@@ -10,11 +10,11 @@ ms.topic: conceptual
 ms.custom: seodec18
 ms.date: 08/04/2020
 ms.openlocfilehash: 97b93f23c8070af1b514032cea122b257097d664
-ms.sourcegitcommit: ccf53e87ff7cba1fcd9d2cca761a561e62933f90
+ms.sourcegitcommit: 9d033abd9c01a01bba132972497dda428d7d5c12
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/04/2020
-ms.locfileid: "93297932"
+ms.lasthandoff: 11/25/2020
+ms.locfileid: "96120683"
 ---
 # <a name="report-data-in-power-bi-report-builder"></a>Power BI 报表生成器中的报表数据
 
@@ -34,7 +34,7 @@ ms.locfileid: "93297932"
     > [!NOTE]
     > 数据源连接字符串不能基于表达式。
   
-- **嵌入数据源。** 也称为 *特定于报表的数据源* 。 在报表中定义并只由该报表使用的数据源。  
+- **嵌入数据源。** 也称为 *特定于报表的数据源*。 在报表中定义并只由该报表使用的数据源。  
   
 - **凭据。** 凭据是身份验证信息，你必须提供这些信息才能访问外部数据。  
   

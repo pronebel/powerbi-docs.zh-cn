@@ -1,20 +1,20 @@
 ---
 title: 分解树
 description: 教程：在 Power BI 中创建分解树可视化效果
-author: msftrien
+author: mihart
+ms.author: mihart
 ms.reviewer: juluczni
 ms.service: powerbi
-ms.subservice: powerbi-desktop
+ms.subservice: pbi-visuals
 ms.topic: how-to
 ms.date: 01/10/2020
-ms.author: rien
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 0a8bc86217dac8f0c2b70e300f08b1667ee63568
-ms.sourcegitcommit: 5ccab484cf3532ae3a16acd5fc954b7947bd543a
+ms.openlocfilehash: fd4f984be74c0408eae5c476fa30994de55961a0
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/06/2020
-ms.locfileid: "93413076"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96386357"
 ---
 # <a name="create-and-view-decomposition-tree-visuals-in-power-bi"></a>在 Power BI 中创建并查看分解树视觉对象
 
@@ -78,8 +78,8 @@ https://github.com/microsoft/powerbi-desktop-samples/blob/master/Sample%20Report
 
 分析可以通过两种方式进行，具体取决于你的喜好。 默认行为如下：
 
- - **高值** ：考虑所有可用字段，并确定要钻取到的字段，以获得要分析的度量值的最高值。  
- - **低值** ：考虑所有可用字段，并确定要钻取到的字段，以获得要分析的度量值的最低值。  
+ - **高值**：考虑所有可用字段，并确定要钻取到的字段，以获得要分析的度量值的最高值。  
+ - **低值**：考虑所有可用字段，并确定要钻取到的字段，以获得要分析的度量值的最低值。  
 
 在延迟交货示例中选择“高值”时，会产生以下结果：
 

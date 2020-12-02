@@ -9,11 +9,11 @@ ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 10/30/2020
 ms.openlocfilehash: 14b629eed17eca2d1e016913dcfffb5858d4ddc3
-ms.sourcegitcommit: 8861dac6724202a5b3be456a6aff8f3584e0cccf
+ms.sourcegitcommit: 9d033abd9c01a01bba132972497dda428d7d5c12
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "93132404"
+ms.lasthandoff: 11/25/2020
+ms.locfileid: "96120757"
 ---
 # <a name="whats-new-in-power-bi-report-server"></a>Power BI 报表服务器中的新增功能
 
@@ -473,7 +473,7 @@ Power BI 报表为交互式报表。 报表中的标题为动态标题具有意�
 
 #### <a name="improved-security-features"></a>改进的安全功能
 
-**RestrictedResourceMimeTypeForUpload** ，管理员可用于指定以逗号分隔的禁止 mime 类型的列表，例如 text/html。
+**RestrictedResourceMimeTypeForUpload**，管理员可用于指定以逗号分隔的禁止 mime 类型的列表，例如 text/html。
 
 ## <a name="january-2019"></a>2019 年 1 月
 
@@ -487,7 +487,7 @@ Power BI 报表中支持以下功能：
 
 [**智能对齐参考线**](https://powerbi.microsoft.com/blog/power-bi-desktop-december-2018-feature-summary/#smartGuides)在报表页面上移动对象时，可看到智能对齐参考线，如 PowerPoint 中所示的那样，有助于对齐页面上的所有内容。 只要在页面上拖动或调整某些内容，就会看到智能参考线。 将对象移动到另一个对象附近时，该参考线会快速移动到与另一个对象对齐的位置。
 
-**辅助功能** 要列出的辅助功能太多：例如， [字段列表窗格辅助功能支持](https://powerbi.microsoft.com/blog/power-bi-desktop-december-2018-feature-summary/#fieldList)。 字段列表窗格完全可供访问。 可以浏览窗格，仅需使用键盘和屏幕阅读器即可实现，还可以使用上下文菜单将字段添加到报告页面。
+**辅助功能** 要列出的辅助功能太多：例如，[字段列表窗格辅助功能支持](https://powerbi.microsoft.com/blog/power-bi-desktop-december-2018-feature-summary/#fieldList)。 字段列表窗格完全可供访问。 可以浏览窗格，仅需使用键盘和屏幕阅读器即可实现，还可以使用上下文菜单将字段添加到报告页面。
 
 #### <a name="power-bi-visuals"></a>Power BI 视觉对象
 
@@ -715,7 +715,7 @@ Power BI 报表服务器中的 Power BI 报表可以连接到各种数据源。 
 
 ### <a name="editing-power-bi-reports-from-the-server"></a>从服务器编辑 Power BI 报表
 
-可以从服务器打开和编辑 Power BI 报表 (.pbix) 文件，而且可以找回上传的原始文件。 **如果数据已由服务器刷新，则在首次打开该文件时将不会刷新数据** 。 需要在本地手动刷新才能查看更改。
+可以从服务器打开和编辑 Power BI 报表 (.pbix) 文件，而且可以找回上传的原始文件。 **如果数据已由服务器刷新，则在首次打开该文件时将不会刷新数据**。 需要在本地手动刷新才能查看更改。
 
 ### <a name="large-file-uploaddownload"></a>大型文件上传/下载
 

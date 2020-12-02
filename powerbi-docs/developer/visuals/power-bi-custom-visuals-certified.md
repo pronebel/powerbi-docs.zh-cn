@@ -6,15 +6,15 @@ ms.author: kesharab
 ms.reviewer: ''
 featuredvideoid: ''
 ms.service: powerbi
-ms.topic: how-to
 ms.subservice: powerbi-custom-visuals
+ms.topic: how-to
 ms.date: 03/08/2020
-ms.openlocfilehash: 8dd6a33ab19e692d9dc04138d53b04e8e49da2bf
-ms.sourcegitcommit: 50b21718a167c2b131313b4135c8034c6f027597
+ms.openlocfilehash: bbca1802b1136c4e9e16e70ab87ab7554612c037
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/14/2020
-ms.locfileid: "92049168"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96386698"
 ---
 # <a name="get-a-power-bi-visual-certified"></a>获取 Power BI 视觉对象认证
 
@@ -59,7 +59,7 @@ Power BI 视觉对象必须由合作伙伴中心批准。 建议 Power BI 视觉
 * **.gitignore** - 将 `node_modules`、`.tmp` 和 `dist` 添加到此文件。 代码不得包含 node_modules  、.tmp  或 dist  文件夹。
 * **capabilities.json** - 如果你提交的是Power BI 视觉对象的较新版本，并对该文件中的属性进行了更改，请验证它们不会中断现有用户的报表。
 * **pbiviz.json** 
-* **package.json** ： 视觉对象必须已安装以下包：
+* **package.json**： 视觉对象必须已安装以下包：
    * ["tslint"](https://www.npmjs.com/package/tslint) - 版本 5.18.0 或更高版本
    * ["typescript"](https://www.npmjs.com/package/typescript) - 版本 3.0.0 或更高版本
    * ["tslint-microsoftcontrib"](https://www.npmjs.com/package/tslint-microsoft-contrib) - 版本 6.2.0 或更高版本

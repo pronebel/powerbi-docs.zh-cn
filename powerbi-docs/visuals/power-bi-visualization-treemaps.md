@@ -1,20 +1,20 @@
 ---
 title: Power BI 中的树状图
 description: Power BI 中的树状图
-author: msftrien
+author: mihart
+ms.author: mihart
 ms.reviewer: mihart
 ms.service: powerbi
-ms.subservice: powerbi-desktop
+ms.subservice: pbi-visuals
 ms.topic: how-to
 ms.date: 05/05/2020
-ms.author: rien
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 3cc14a9b873d86b3e9d62655d41d152cb3348252
-ms.sourcegitcommit: 5ccab484cf3532ae3a16acd5fc954b7947bd543a
+ms.openlocfilehash: 11dbfceaf38cef74b4ea2190f805353a7723b0d8
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/06/2020
-ms.locfileid: "93411443"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96387404"
 ---
 # <a name="treemaps-in-power-bi"></a>Power BI 中的树状图
 
@@ -111,9 +111,9 @@ ms.locfileid: "93411443"
 
 ## <a name="highlighting-and-cross-filtering"></a>突出显示和交叉筛选
 
-突出显示树状图中的一个 **类别** 或 **详细信息** ，以交叉突出显示和交叉筛选报表页上的其他可视化效果。 若要跟着本教程一起操作，请向此报表页添加一些视觉对象，或将树状图复制到此报表的其他一个报表页中。 下图中的树状图已复制到 **概述** 页。 
+突出显示树状图中的一个 **类别** 或 **详细信息**，以交叉突出显示和交叉筛选报表页上的其他可视化效果。 若要跟着本教程一起操作，请向此报表页添加一些视觉对象，或将树状图复制到此报表的其他一个报表页中。 下图中的树状图已复制到 **概述** 页。 
 
-1. 在树状图中，选择“类别”  或“类别”  中的“连锁店”  。 这会交叉突出显示报表页上的其他可视化效果。 例如，选择“050-Shoes”会显示去年的鞋子销售额为 **$16,352,432** ，其中“Fashions Direct”贡献了 **$2,174,185** 的销售额   。
+1. 在树状图中，选择“类别”  或“类别”  中的“连锁店”  。 这会交叉突出显示报表页上的其他可视化效果。 例如，选择“050-Shoes”会显示去年的鞋子销售额为 **$16,352,432**，其中“Fashions Direct”贡献了 **$2,174,185** 的销售额   。
 
    ![展示交叉突出显示的“商店销售情况概览”报表的屏幕截图。](media/power-bi-visualization-treemaps/treemaphiliting.png)
 
