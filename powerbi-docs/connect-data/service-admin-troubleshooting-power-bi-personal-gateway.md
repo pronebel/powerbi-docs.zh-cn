@@ -2,19 +2,19 @@
 title: Power BI 网关（个人模式）故障排除
 description: Power BI 网关（个人模式）故障排除
 author: arthiriyer
+ms.author: arthii
 ms.reviewer: ''
 ms.service: powerbi
-ms.subservice: powerbi-service
+ms.subservice: powerbi-gateways
 ms.topic: troubleshooting
 ms.date: 5/06/2019
-ms.author: arthii
 LocalizationGroup: Troubleshooting
-ms.openlocfilehash: 9c5e241cee86b9f7ea21607128f5c32099dd0415
-ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
+ms.openlocfilehash: caac528c707066a8d49072eee647737f43953a15
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90861489"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96403803"
 ---
 # <a name="troubleshooting-power-bi-gateway-personal-mode"></a>Power BI 网关（个人模式）故障排除
 
@@ -122,7 +122,7 @@ ms.locfileid: "90861489"
 ### <a name="event-logs"></a>事件日志
 有多个事件日志可以提供信息。 如果你是计算机管理员，则显示前两个，即“数据管理网关”和“PowerBIGateway” 。 如果你不是管理员，并且使用的数据网关（个人模式），将在“应用程序”日志中看到日志条目。
 
-**数据管理网关**和 **PowerBIGateway** 日志显示在**应用程序和服务日志**下方。
+**数据管理网关** 和 **PowerBIGateway** 日志显示在 **应用程序和服务日志** 下方。
 
 ![数据管理网关和 PowerBIGateway 日志](media/service-admin-troubleshooting-power-bi-personal-gateway/event-logs.png)
 

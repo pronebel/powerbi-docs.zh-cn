@@ -2,19 +2,19 @@
 title: 第三方服务：适用于 Power BI Desktop 的 Facebook 连接器
 description: 第三方服务：适用于 Power BI Desktop 的 Facebook 连接器
 author: davidiseminger
+ms.author: davidi
 ms.reviewer: ''
 ms.service: powerbi
-ms.subservice: powerbi-desktop
+ms.subservice: pbi-data-sources
 ms.topic: how-to
 ms.date: 02/20/2020
-ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 4dfdd21eebe0f8a66aea9dd3d30c38318e975daf
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 4f1faf585643c593e194e965dff2bb29988e27d4
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85236587"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96402561"
 ---
 # <a name="use-the-facebook-connector-for-power-bi-desktop"></a>使用适用于 Power BI Desktop 的 Facebook 连接器
 **Power BI Desktop** 中的 Facebook 连接器依赖于 Facebook Graph API。 同样，功能和可用性可能会随着时间推移有所不同。

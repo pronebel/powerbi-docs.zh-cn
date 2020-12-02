@@ -1,20 +1,20 @@
 ---
 title: 在 Power BI 服务中编辑参数设置
 description: 查询参数需使用 Power BI Desktop 创建，但可在 Power BI 服务中进行查看和更新
-author: maggiesMSFT
+author: davidiseminger
+ms.author: davidi
 ms.reviewer: ''
 ms.service: powerbi
-ms.subservice: powerbi-service
+ms.subservice: pbi-data-sources
 ms.topic: how-to
 ms.date: 08/04/2020
-ms.author: maggies
 LocalizationGroup: Create reports
-ms.openlocfilehash: 3b64c1dd502fd16199fbff9f64cd2c017006d1f1
-ms.sourcegitcommit: a7227f6d3236e6e0a7bc1f83ff6099b5cd58bff3
+ms.openlocfilehash: 29468ea50625b1d354bd431f77c5e89edf5a889d
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2020
-ms.locfileid: "87768465"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96402078"
 ---
 # <a name="edit-parameter-settings-in-the-power-bi-service"></a>在 Power BI 服务中编辑参数设置
 报表创建者将查询参数添加到 Power BI Desktop 中的报表。 报表创建者可使用参数根据一个或多个参数“值”将报表组成多个部分  。 例如，报表创建者可创建参数，将数据限制到单个国家/地区，或使用参数来限制字段（例如日期、时间和文本）可接受的格式。

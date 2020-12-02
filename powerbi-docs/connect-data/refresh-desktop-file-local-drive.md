@@ -2,19 +2,19 @@
 title: 刷新从本地的 Power BI Desktop 文件创建的数据集
 description: 刷新从本地驱动器的 Power BI Desktop 文件创建的数据集
 author: davidiseminger
+ms.author: davidi
 ms.reviewer: kayu
 ms.service: powerbi
-ms.subservice: powerbi-service
+ms.subservice: pbi-data-sources
 ms.topic: how-to
 ms.date: 06/04/2019
-ms.author: davidi
 LocalizationGroup: Data refresh
-ms.openlocfilehash: e3c0a702ccd1035a5f6019b6f439624fcd7c7267
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: d836c8d85915332c58032cf535194ca5ce803567
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85232949"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96404010"
 ---
 # <a name="refresh-a-dataset-created-from-a-power-bi-desktop-file-on-a-local-drive"></a>刷新从本地驱动器的 Power BI Desktop 文件创建的数据集
 
@@ -35,7 +35,7 @@ ms.locfileid: "85232949"
 >
 >
 
-可在 Power BI Desktop 中通过选择“主页”功能区上的“刷新”来手动执行一次性刷新操作  。 选择此处的“刷新”时，将用原始数据源中更新后的数据刷新*文件*模型中的数据。 这种类型的刷新完全是从 Power BI Desktop 应用程序自身内部进行，不同于在 Power BI 中进行的手动或计划内刷新，理解这种区别至关重要。
+可在 Power BI Desktop 中通过选择“主页”功能区上的“刷新”来手动执行一次性刷新操作  。 选择此处的“刷新”时，将用原始数据源中更新后的数据刷新 *文件* 模型中的数据。 这种类型的刷新完全是从 Power BI Desktop 应用程序自身内部进行，不同于在 Power BI 中进行的手动或计划内刷新，理解这种区别至关重要。
 
 ![全部](media/refresh-desktop-file-local-drive/pbix-refresh.png)
 
@@ -58,7 +58,7 @@ ms.locfileid: "85232949"
 
 出现问题时，通常是因为 Power BI 无法登录数据源，或数据集连接到本地数据源，而网关处于脱机状态。 确保 Power BI 可以登录数据源。 如果用于登录数据源的密码更改，或 Power BI 已从数据源注销，请务必在数据源凭据中再次尝试登录数据源。
 
-请确保选中**刷新失败时发送电子邮件通知**。 你会想立即了解计划刷新是否失败。
+请确保选中 **刷新失败时发送电子邮件通知**。 你会想立即了解计划刷新是否失败。
 
 ## <a name="troubleshooting"></a>故障排除
 

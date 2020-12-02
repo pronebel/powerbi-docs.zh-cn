@@ -2,19 +2,19 @@
 title: 减小 Excel 工作簿的大小以便在 Power BI 中进行查看
 description: 减小 Excel 工作簿的大小以便在 Power BI 中进行查看
 author: davidiseminger
+ms.author: davidi
 ms.reviewer: ''
 ms.service: powerbi
-ms.subservice: powerbi-service
+ms.subservice: pbi-data-sources
 ms.topic: how-to
 ms.date: 01/10/2019
-ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: 7755834f5d76392f7212073f958d3c4070dcaca7
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 9996b8e3f571a04dc41d138947532f3ab402057a
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85234767"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96404079"
 ---
 # <a name="reduce-the-size-of-an-excel-workbook-to-view-it-in-power-bi"></a>减小 Excel 工作簿的大小以便在 Power BI 中进行查看
 你可以将任何小于 1 GB 的 Excel 工作簿上载到 Power BI。 Excel 工作簿包括两个部分：数据模型和报表的其余部分—核心的工作表内容。 如果报表满足下面的大小限制，那么可以将其保存到 **OneDrive for Business**、从 Power BI 中连接它，以及在 Excel Online 中查看它：
@@ -51,7 +51,7 @@ ms.locfileid: "85234767"
   
   数据将只导入到数据模型中，Excel 工作表中不含数据。
 * 如果之前在导入向导中勾选了“表格”  ，则在“Excel 数据”  选项卡中：转到“现有连接”\>单击“连接”\>“仅创建连接”   。 删除在初始导入过程中创建的原始表或表。
-* 在 **Excel 数据**选项卡中：请勿选中**导入数据**框中的**表**。
+* 在 **Excel 数据** 选项卡中：请勿选中 **导入数据** 框中的 **表**。
 
 ## <a name="workbook-size-optimizer"></a>工作簿大小优化器
 如果工作簿包含数据模型，则可以运行工作簿大小优化器来减小工作簿的大小。 [下载工作簿大小优化器](https://www.microsoft.com/download/details.aspx?id=38793)。

@@ -2,19 +2,19 @@
 title: 管理数据源 - SAP HANA
 description: 如何管理本地数据网关和属于该网关的数据源。 本文特定于 SAP HANA。
 author: arthiriyer
+ms.author: arthii
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-gateways
 ms.topic: how-to
 ms.date: 07/16/2019
-ms.author: arthii
 LocalizationGroup: Gateways
-ms.openlocfilehash: 9dc436fea9c53e631fb038d3603983fe104fb999
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: e06f990c7b14cd27b182ebfd6bec2bba9741c99d
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85237071"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96402699"
 ---
 # <a name="manage-your-data-source---sap-hana"></a>管理数据源 - SAP HANA
 

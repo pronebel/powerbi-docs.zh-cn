@@ -1,20 +1,20 @@
 ---
 title: 在 Power BI 服务中编辑 SAP 变量
 description: Azure 和 Power BI
-author: Sujata994
-ms.author: sunaraya
+author: davidiseminger
+ms.author: davidi
 ms.reviewer: ''
 ms.service: powerbi
-ms.subservice: powerbi-service
+ms.subservice: pbi-data-sources
 ms.topic: conceptual
 ms.date: 11/12/2019
 LocalizationGroup: Data from databases
-ms.openlocfilehash: d1e3037bdc26af35d4b8392e151575049f85fa70
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 179e8740bed71d3d295cfc2fe5f103744e9dbd07
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83284465"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96402722"
 ---
 # <a name="edit-sap-variables-in-the-power-bi-service"></a>在 Power BI 服务中编辑 SAP 变量
 
@@ -28,7 +28,7 @@ ms.locfileid: "83284465"
 
 使用 SAP 编辑变量功能有一些要求。 下表描述了这些要求。
 
-**需要新筛选器体验** - 必须为报表启用[新筛选器体验](../create-reports/power-bi-report-filter.md)。 以下是在 Power BI Desktop 中为报表启用它的方法：
+**需要新筛选器体验** - 必须为报表启用 [新筛选器体验](../create-reports/power-bi-report-filter.md)。 以下是在 Power BI Desktop 中为报表启用它的方法：
 - 在 Power BI Desktop 中，选择“文件” > “选项和设置” > “选项”   
 - 在导航窗格的“当前文件”下方，选择“报表设置”   。
 - 在“筛选体验”下，选择“启用更新的筛选器窗格”   。

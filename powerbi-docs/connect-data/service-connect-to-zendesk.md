@@ -2,19 +2,19 @@
 title: 使用 Power BI 连接到 Zendesk
 description: 适用于 Power BI 的 Zendesk
 author: paulinbar
+ms.author: painbar
 ms.reviewer: sarinas
 ms.service: powerbi
 ms.subservice: powerbi-template-apps
 ms.topic: how-to
 ms.date: 05/04/2020
-ms.author: painbar
 LocalizationGroup: Connect to services
-ms.openlocfilehash: e32824a58faa3a6a98e4d38f7362c62ab13b069e
-ms.sourcegitcommit: 181679a50c9d7f7faebcca3a3fc55461f594d9e7
+ms.openlocfilehash: d5400830df44055a0f17de72385778a0c06fb06b
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/07/2020
-ms.locfileid: "86034442"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96403021"
 ---
 # <a name="connect-to-zendesk-with-power-bi"></a>使用 Power BI 连接到 Zendesk
 
@@ -50,14 +50,14 @@ ms.locfileid: "86034442"
    
    ![连接到 Zendesk](media/service-connect-to-zendesk/pbi_zendeskconnect.png)
 
-5. 出现提示时，输入你的 Zendesk 凭据。  选择 **oAuth 2** 作为身份验证机制，然后单击**登录**。 按照 Zendesk 身份验证流程进行操作。 （如果你已经在浏览器中登录到 Zendesk，可能不会提示你输入凭据。）
+5. 出现提示时，输入你的 Zendesk 凭据。  选择 **oAuth 2** 作为身份验证机制，然后单击 **登录**。 按照 Zendesk 身份验证流程进行操作。 （如果你已经在浏览器中登录到 Zendesk，可能不会提示你输入凭据。）
    
    > [!NOTE]
    > 此模板应用需要使用 Zendesk 管理员帐户连接。 
    > 
    
    ![使用 oAuth2 登录](media/service-connect-to-zendesk/pbi_zendesksignin.png)
-6. 单击**允许**以允许 Power BI 访问你的 Zendesk 数据。
+6. 单击 **允许** 以允许 Power BI 访问你的 Zendesk 数据。
    
    ![单击“允许”](media/service-connect-to-zendesk/zendesk2.jpg)
 7. 单击“连接”以开始导入过程。 

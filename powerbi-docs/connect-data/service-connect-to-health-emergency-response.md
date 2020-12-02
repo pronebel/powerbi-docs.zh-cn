@@ -2,18 +2,18 @@
 title: 连接到医院紧急响应决策支持仪表板
 description: 如何获取和安装用于医疗保健紧急模板应用的 COVID-19 决策支持仪表板，以及如何连接到数据
 author: paulinbar
+ms.author: painbar
 ms.service: powerbi
 ms.subservice: powerbi-template-apps
 ms.topic: how-to
 ms.date: 05/13/2020
-ms.author: painbar
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 4455a8da0af7ff928b81baf83245e66cdee578ea
-ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
+ms.openlocfilehash: 823c8429c95a0b4d858540b2cf1183ca1c7caac7
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90854221"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96403136"
 ---
 # <a name="connect-to-the-hospital-emergency-response-decision-support-dashboard"></a>连接到医院紧急响应决策支持仪表板
 医院应急响应决策支持仪表板模板应用是[用于医疗保健应急响应的 Microsoft Power Platform 解决方案](https://powerapps.microsoft.com/blog/emergency-response-solution-a-microsoft-power-platform-solution-for-healthcare-emergency-response/)的报告组件。 仪表板显示整个健康状况系统中紧急管理器的聚合数据，可帮助他们及时做出正确的决策。

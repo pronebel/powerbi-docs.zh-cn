@@ -1,20 +1,20 @@
 ---
 title: 使用 Power BI 连接到 Azure 搜索
 description: 适用于 Power BI 的 Azure 搜索
-author: SarinaJoan
+author: davidiseminger
+ms.author: davidi
 ms.reviewer: maggiesMSFT
 ms.service: powerbi
 ms.subservice: powerbi-template-apps
 ms.topic: conceptual
 ms.date: 08/29/2019
-ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 11389b5986d0dd627b0077808a74db5ab2769a65
-ms.sourcegitcommit: c83146ad008ce13bf3289de9b76c507be2c330aa
+ms.openlocfilehash: 5c2c5d3b6382fdb85125a71829d62624dab31e83
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/10/2020
-ms.locfileid: "86216294"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96403366"
 ---
 # <a name="connect-to-azure-search-with-power-bi"></a>使用 Power BI 连接到 Azure 搜索
 Azure 搜索流量分析允许你监视并了解 Azure 搜索服务的流量。 适用于 Power BI 的 Azure 搜索内容包提供了搜索数据的详细深入解析，包括过去 30 天内的搜索、索引、服务统计和延迟。 有关详细信息，请参阅 [Azure 博客文章](https://azure.microsoft.com/blog/analyzing-your-azure-search-traffic/)。
@@ -27,7 +27,7 @@ Azure 搜索流量分析允许你监视并了解 Azure 搜索服务的流量。 
 1. 在导航窗格底部，选择“获取数据”。
    
    ![Power BI Desktop 中“获取数据”的屏幕截图，其中显示了导航窗格中的按钮。](media/service-connect-to-azure-search/pbi_getdata.png) 
-2. 在**服务**框中，选择**获取**。
+2. 在 **服务** 框中，选择 **获取**。
    
    ![“服务”对话框的屏幕截图，其中显示了“获取”按钮。](media/service-connect-to-azure-search/pbi_getservices.png) 
 3. 选择“Azure 搜索”\>“获取” 。

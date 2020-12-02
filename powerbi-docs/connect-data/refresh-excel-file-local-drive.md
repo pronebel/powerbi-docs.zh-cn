@@ -2,19 +2,19 @@
 title: 刷新使用本地 Excel 工作簿创建的数据集
 description: 刷新使用本地驱动器上的 Excel 工作簿创建的数据集
 author: davidiseminger
+ms.author: davidi
 ms.reviewer: kayu
 ms.service: powerbi
-ms.subservice: powerbi-service
+ms.subservice: pbi-data-sources
 ms.topic: how-to
 ms.date: 11/28/2018
-ms.author: davidi
 LocalizationGroup: Data refresh
-ms.openlocfilehash: ef9c39f6c00738718d88dd485430b150ad95ec50
-ms.sourcegitcommit: c83146ad008ce13bf3289de9b76c507be2c330aa
+ms.openlocfilehash: d2dd08d087b8c4f878d9f74946c77e84dd8ba9e0
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/10/2020
-ms.locfileid: "86216354"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96403941"
 ---
 # <a name="refresh-a-dataset-created-from-an-excel-workbook-on-a-local-drive"></a>刷新使用本地驱动器上的 Excel 工作簿创建的数据集
 ## <a name="whats-supported"></a>支持的功能有哪些？
@@ -39,20 +39,20 @@ ms.locfileid: "86216354"
 > 
 
 ## <a name="how-do-i-make-sure-data-is-loaded-to-the-excel-data-model"></a>如何确保已将数据加载到了 Excel 数据模型？
-使用 Power Query（在 Excel 2016 中获取和转换数据）连接到数据源时，有好几个数据加载位置的选项可供选择。 若要确保将数据加载到数据模型，必须选择**加载到**对话框中的**将此数据添加到数据模型**选项。
+使用 Power Query（在 Excel 2016 中获取和转换数据）连接到数据源时，有好几个数据加载位置的选项可供选择。 若要确保将数据加载到数据模型，必须选择 **加载到** 对话框中的 **将此数据添加到数据模型** 选项。
 
 > [!NOTE]
 > 此图显示的是 Excel 2016。
 > 
 > 
 
-在**导航器**中，单击**加载到...**  
+在 **导航器** 中，单击 **加载到...**  
     ![导航器中“加载到”的屏幕截图，其中显示了“加载到”选择。](media/refresh-excel-file-local-drive/refresh_loadtodm_1.png)
 
-或者，单击导航器中的**编辑**，将打开查询编辑器。 你可以单击其中的**关闭并加载到...**  
+或者，单击导航器中的 **编辑**，将打开查询编辑器。 你可以单击其中的 **关闭并加载到...**  
     ![导航器中“开始”选项卡的屏幕截图，其中显示了“关闭并加载到”选择。](media/refresh-excel-file-local-drive/refresh_loadtodm_2.png)
 
-然后在**加载到**中，确保选中**将此数据添加到数据模型**。  
+然后在 **加载到** 中，确保选中 **将此数据添加到数据模型**。  
     ![“加载到”对话框的屏幕截图，其中显示已选中“将此数据添加到数据模型”框。](media/refresh-excel-file-local-drive/refresh_loadtodm_3.png)
 
 ### <a name="what-if-i-use-get-external-data-in-power-pivot"></a>如果使用“通过 Power Pivot 获取外部数据”该怎样？
@@ -66,7 +66,7 @@ ms.locfileid: "86216354"
 ## <a name="when-things-go-wrong"></a>出现问题时
 出现问题时，通常是因为 Power BI 无法登录数据源，或数据集连接到本地数据源，而网关处于脱机状态。 确保 Power BI 可以登录数据源。 如果用于登录数据源的密码更改，或 Power BI 已从数据源注销，请务必在数据源凭据中再次尝试登录数据源。
 
-请确保选中**刷新失败时向我发送电子邮件通知**。 你会想立即了解计划刷新是否失败。
+请确保选中 **刷新失败时向我发送电子邮件通知**。 你会想立即了解计划刷新是否失败。
 
 >[!IMPORTANT]
 >连接到 Power Pivot 和通过 Power Pivot 查询的 OData 数据源不支持刷新。 当使用 OData 数据源作为数据源时，请使用 Power Query。

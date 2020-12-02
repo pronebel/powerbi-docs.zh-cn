@@ -2,19 +2,19 @@
 title: 刷新方案故障排除
 description: 刷新方案故障排除
 author: davidiseminger
+ms.author: davidi
 ms.reviewer: kayu
 ms.service: powerbi
-ms.subservice: powerbi-service
-ms.topic: how-to
+ms.subservice: pbi-data-sources
+ms.topic: troubleshooting
 ms.date: 05/28/2020
-ms.author: davidi
 LocalizationGroup: Data refresh
-ms.openlocfilehash: a92314891b4738fc5da735adc361e5c215e83351
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 7f8193971176a738b46f628e11736ac6016ec83e
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85222227"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96403757"
 ---
 # <a name="troubleshooting-refresh-scenarios"></a>刷新方案故障排除
 
@@ -74,7 +74,7 @@ Microsoft 正在研究一个解决方案，允许数据加载过程刷新令牌�
 
 ## <a name="uncompressed-data-limits-for-refresh"></a>未经压缩数据的刷新限制
 
-导入到 **Power BI 服务**的数据集的最大大小为 1 GB。 为确保实现高性能，对这些数据集进行了深度压缩。 此外，在共享容量中，服务设定的刷新期间处理的未压缩数据量限制为 10GB。 此限制将压缩考虑在内，因此远大于 1 GB。 Power BI Premium 中的数据集不受此限制的制约。 如果 Power BI 服务中的刷新由于此原因失败，请减少要导入到 Power BI 的数据量，然后重试。
+导入到 **Power BI 服务** 的数据集的最大大小为 1 GB。 为确保实现高性能，对这些数据集进行了深度压缩。 此外，在共享容量中，服务设定的刷新期间处理的未压缩数据量限制为 10GB。 此限制将压缩考虑在内，因此远大于 1 GB。 Power BI Premium 中的数据集不受此限制的制约。 如果 Power BI 服务中的刷新由于此原因失败，请减少要导入到 Power BI 的数据量，然后重试。
 
 ## <a name="scheduled-refresh-timeout"></a>计划的刷新超时
 

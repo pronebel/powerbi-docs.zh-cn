@@ -2,24 +2,24 @@
 title: 配置计划刷新
 description: 这包括选择网关和配置计划刷新的步骤。
 author: davidiseminger
+ms.author: davidi
 ms.reviewer: kayu
 ms.service: powerbi
-ms.subservice: powerbi-service
+ms.subservice: pbi-data-sources
 ms.topic: how-to
 ms.date: 06/06/2019
-ms.author: davidi
 LocalizationGroup: Data refresh
-ms.openlocfilehash: c3846ba2e9a9fe083b6a3833237ffbc26b04842a
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 9298171a98837a6e8dd16cc89865770e7d88c8c2
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85235822"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96403895"
 ---
 # <a name="configure-scheduled-refresh"></a>配置计划刷新
 
 >[!NOTE]
->非活动状态持续两个月后，你的数据集上的计划刷新会暂停。 有关详细信息，请参阅本文后面的[*计划刷新*](#scheduled-refresh)。
+>非活动状态持续两个月后，你的数据集上的计划刷新会暂停。 有关详细信息，请参阅本文后面的 [*计划刷新*](#scheduled-refresh)。
 
 本文将介绍可用于[本地数据网关（个人模式）](service-gateway-personal-mode.md)和[本地数据网关](service-gateway-onprem.md)计划刷新的选项。 在 Power BI 服务的以下领域中指定刷新选项：“网关连接”、“数据源凭据”和“计划刷新”    。 我们将依次介绍每个选项。 有关数据刷新的详细信息（包括刷新计划的限制），请参阅[数据刷新](refresh-data.md#data-refresh)。
 

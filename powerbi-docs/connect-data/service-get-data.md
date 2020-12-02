@@ -2,22 +2,22 @@
 title: Power BI 数据源
 description: Power BI 数据源
 author: davidiseminger
+ms.author: davidi
 ms.reviewer: ''
 ms.service: powerbi
-ms.subservice: powerbi-service
+ms.subservice: pbi-data-sources
 ms.topic: conceptual
 ms.date: 08/29/2019
-ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: bd3ab4a1c6f702ad866211339a3d3a386c4981fa
-ms.sourcegitcommit: e8ed3d120699911b0f2e508dc20bd6a9b5f00580
+ms.openlocfilehash: 427fb322a9f9226bd85da2ae1fc0657c77ca1cf5
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/11/2020
-ms.locfileid: "86264402"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96402216"
 ---
 # <a name="data-sources-for-the-power-bi-service"></a>Power BI 服务数据源
-数据是 Power BI 的核心。 假设你正在浏览数据。 可通过创建图表和仪表板，或使用**问答**提问来执行此任务。 你看到的可视化效果和答案从数据集中获取其基础数据。 但是，数据集来自何处呢？ 它来自数据源。
+数据是 Power BI 的核心。 假设你正在浏览数据。 可通过创建图表和仪表板，或使用 **问答** 提问来执行此任务。 你看到的可视化效果和答案从数据集中获取其基础数据。 但是，数据集来自何处呢？ 它来自数据源。
 
 在本文中，我们将介绍可以从 Power BI 服务连接到的数据源类型。 请记住，你还可以从很多其他类型的数据源获取数据。 如果选择这些数据源，则可能需要首先使用 Power BI Desktop 或 Excel 的高级数据查询和建模功能。 我们稍后会详细介绍这些选项。 现在，让我们看看可直接从 Power BI 服务站点获取的不同类型的数据源。
 
@@ -32,7 +32,7 @@ ms.locfileid: "86264402"
 ## <a name="discover-content"></a>发现内容
 ![“发现内容”部分的屏幕截图，其中显示了合作伙伴徽标。](media/service-get-data/pbi-getdata-discovercontent.png)
 
-**发现内容**部分包含已为你准备好的全部所需数据和报表。 在 Power BI 中，有两种类型的内容包：组织和服务。 
+**发现内容** 部分包含已为你准备好的全部所需数据和报表。 在 Power BI 中，有两种类型的内容包：组织和服务。 
 
 **组织**：如果你和你组织中的其他用户拥有 Power BI Pro 帐户，则你可以创建、共享和使用内容包。 若要了解详细信息，请参阅[组织内容包简介](../collaborate-share/service-organizational-content-pack-introduction.md)。
 
@@ -40,7 +40,7 @@ ms.locfileid: "86264402"
 
 ## <a name="create-new-content"></a>新建内容
 
-**新建内容**部分包含用于自行创建和导入内容的选项。 在 Power BI 中，有两种方法可以创建或导入自己的内容：文件和数据库。 
+**新建内容** 部分包含用于自行创建和导入内容的选项。 在 Power BI 中，有两种方法可以创建或导入自己的内容：文件和数据库。 
 
 ### <a name="files"></a>文件
 ![Excel、Power BI Desktop 和 CSV 的图标](media/service-get-data/pbi_getdata_files.png)
@@ -71,7 +71,7 @@ Excel（.xlsx 和 .xlsm）- 在 Excel 中，一个工作簿可能会包含不同
 对于组织中的其他数据库类型，需要使用 Power BI Desktop 或 Excel 连接到数据模型，并在数据模型中查询和加载数据。 然后，可以将文件导入其中存在数据集的 Power BI。 如果配置计划刷新，Power BI 将使用该配置以及来自文件的连接信息直接连接到数据源，并查询更新。 Power BI 随后将这些更新加载到数据集中。 若要了解详细信息，请参阅[连接到 Power BI Desktop 中的数据](desktop-connect-to-data.md)。
 
 ## <a name="what-if-my-data-comes-from-a-different-source"></a>如果我的数据来自不同源怎么办？
-有数百个可与 Power BI 配合使用的不同数据源。 无论从何处获取数据，数据都必须采用 Power BI 服务可以使用的格式。 借助可使用的数据，Power BI 服务可以创建报表和仪表板、使用**问答**回答问题，等等。
+有数百个可与 Power BI 配合使用的不同数据源。 无论从何处获取数据，数据都必须采用 Power BI 服务可以使用的格式。 借助可使用的数据，Power BI 服务可以创建报表和仪表板、使用 **问答** 回答问题，等等。
 
 部分数据源已经针对 Power BI 服务设置数据格式。 这些数据源类似于 Google Analytics 和 Twilio 等服务提供商提供的内容包。 SQL Server Analysis Services 表格模型数据库也已可供使用。 你还可以实时连接到云中的数据库，如 Azure SQL 数据库和 HDInsight 上的 Spark。
 
@@ -86,9 +86,9 @@ Excel（.xlsx 和 .xlsm）- 在 Excel 中，一个工作簿可能会包含不同
 ## <a name="some-more-details"></a>更多详细信息
 你会发现术语数据集和数据源在 Power BI 中得到广泛使用。 它们经常用作同义词。 尽管它们是相互关联的，但实际上是两种不同的事物。
 
-使用“获取数据”时，会在 Power BI 中自动创建**数据集** 。 借助“获取数据”，可以连接到内容包并从中导入数据，也可以连接到实时数据源。 数据集包含有关数据源和数据源凭据的信息。 在许多情况下，它还包含从数据源复制的数据子集。 在报表和仪表板中创建可视化效果时，你看到的通常是数据集中的数据。
+使用“获取数据”时，会在 Power BI 中自动创建 **数据集** 。 借助“获取数据”，可以连接到内容包并从中导入数据，也可以连接到实时数据源。 数据集包含有关数据源和数据源凭据的信息。 在许多情况下，它还包含从数据源复制的数据子集。 在报表和仪表板中创建可视化效果时，你看到的通常是数据集中的数据。
 
-**数据源**指数据集中数据的来源。 例如，数据可能来自：
+**数据源** 指数据集中数据的来源。 例如，数据可能来自：
 
 * Google Analytics 或 QuickBooks 等联机服务
 * 云中的数据库，如 Azure SQL 数据库
