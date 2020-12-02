@@ -1,21 +1,21 @@
 ---
 title: 自定义 X 轴和 Y 轴属性
 description: 自定义 X 轴和 Y 轴属性
-author: msftrien
+author: mihart
+ms.author: mihart
 ms.reviewer: mihart
 featuredvideoid: 9DeAKM4SNJM
 ms.service: powerbi
-ms.subservice: powerbi-desktop
+ms.subservice: pbi-visuals
 ms.topic: how-to
 ms.date: 05/06/2020
-ms.author: rien
 LocalizationGroup: Visualizations
-ms.openlocfilehash: b327ca5f4c19638f4afe72abce763601e68fc943
-ms.sourcegitcommit: 5ccab484cf3532ae3a16acd5fc954b7947bd543a
+ms.openlocfilehash: 24c10880d76fbe2bbdbf5e20d24f6f52e1262eb5
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/06/2020
-ms.locfileid: "93413145"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96393913"
 ---
 # <a name="customize-x-axis-and-y-axis-properties"></a>自定义 X 轴和 Y 轴属性
 
@@ -81,13 +81,13 @@ X 轴标签在图表中列的下方显示。 现在，它们是浅灰色的小�
 
 4. 设置文本颜色、大小和字体：
 
-    - **颜色** ：选择黑色
+    - **颜色**：选择黑色
 
-    - **文本大小** ：输入“14”
+    - **文本大小**：输入“14”
 
-    - **字体系列** ：选择“Arial Black”
+    - **字体系列**：选择“Arial Black”
 
-    - **内部填充** ：输入“40%”
+    - **内部填充**：输入“40%”
 
         ![呈角度显示的标签的屏幕截图](media/power-bi-visualization-customize-x-axis-and-y-axis/power-bi-formatting-x.png)
     
@@ -113,11 +113,11 @@ X 轴标签在图表中列的下方显示。 现在，它们是浅灰色的小�
 
 1. 设置标题文本颜色、大小和字体：
 
-    - **标题颜色** ：选择橙色
+    - **标题颜色**：选择橙色
 
-    - **坐标轴标题** ：键入“Fiscal Month”（带空格）
+    - **坐标轴标题**：键入“Fiscal Month”（带空格）
 
-    - **标题文本大小** ：输入“18”
+    - **标题文本大小**：输入“18”
 
     完成自定义的堆积柱形图如下所示：
 
@@ -145,11 +145,11 @@ X 轴标签在图表中列的下方显示。 现在，它们是浅灰色的小�
 
 1. 设置文本颜色、大小和字体：
 
-    - **颜色** ：选择黑色
+    - **颜色**：选择黑色
 
-    - **文本大小** ：输入“10”
+    - **文本大小**：输入“10”
 
-    - **显示单位** ：选择“百万”
+    - **显示单位**：选择“百万”
 
     ![设置 Y 轴格式后的图表](media/power-bi-visualization-customize-x-axis-and-y-axis/power-bi-formatting-y.png)
 
@@ -159,9 +159,9 @@ X 轴标签在图表中列的下方显示。 现在，它们是浅灰色的小�
 ### <a name="customize-the-gridlines"></a>自定义网格线
 接下来，将更改颜色并增加笔划，以突出显示网格线：
 
-- **颜色** ：选择橙色
+- **颜色**：选择橙色
 
-- **笔划** ：输入“2”
+- **笔划**：输入“2”
 
 进行这些自定义之后，柱形图应如下所示：
 
@@ -200,13 +200,13 @@ X 轴标签在图表中列的下方显示。 现在，它们是浅灰色的小�
 
    ![“显示副轴”选项的屏幕截图。](media/power-bi-visualization-customize-x-axis-and-y-axis/power-bi-show-secondary.png)
 
-1. （可选）自定义两个轴的字体颜色、大小和显示单位。 如果切换列轴或行轴的 **位置** ，则两个轴将交换位置。
+1. （可选）自定义两个轴的字体颜色、大小和显示单位。 如果切换列轴或行轴的 **位置**，则两个轴将交换位置。
 
 ### <a name="add-titles-to-both-axes"></a>向两个轴添加标题
 
 对于复杂的可视化效果，添加轴标题会有所帮助。  标题可帮助你的同事了解可视化效果所表达的意思。
 
-1. 将 **Y 轴（列）** 和 **Y 轴（行）** 的 **标题** 切换到 **打开** 。
+1. 将 **Y 轴（列）** 和 **Y 轴（行）** 的 **标题** 切换到 **打开**。
 
 1. 将两个 Y 轴的“样式”均设置为“仅显示标题”。
 
@@ -217,7 +217,7 @@ X 轴标签在图表中列的下方显示。 现在，它们是浅灰色的小�
    ![已自定义的双 Y 轴图的屏幕截图。](media/power-bi-visualization-customize-x-axis-and-y-axis/power-bi-titles-on.png)
 
 1. 设置标题格式。 在此示例中，我们已缩短其中一个标题，同时减小了二者的字号。 
-    - 字号： **9**
+    - 字号：**9**
     - 缩短第一个 Y 轴的“轴标题”（柱形图）：本年度销售额与上年度销售额。 
     
      ![显示完整标题的组合图的屏幕截图。](media/power-bi-visualization-customize-x-axis-and-y-axis/power-bi-dual.png)

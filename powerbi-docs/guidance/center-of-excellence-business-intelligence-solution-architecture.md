@@ -2,18 +2,18 @@
 title: 卓越中心的 BI 解决方案体系结构
 description: 了解设计和开发强大的 BI 平台时需要考虑的事项。
 author: peter-myers
+ms.author: v-pemyer
 ms.reviewer: asaxton
 ms.service: powerbi
-ms.subservice: powerbi-service
+ms.subservice: powerbi
 ms.topic: conceptual
 ms.date: 11/11/2020
-ms.author: v-pemyer
-ms.openlocfilehash: d84f6a4fcf7ff531b76b6e731f165aa6e0df764f
-ms.sourcegitcommit: cc20b476a45bccb870c9de1d0b384e2c39e25d24
+ms.openlocfilehash: 88d1e19435207ca094bd9cb1cba770c1cb54573f
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/11/2020
-ms.locfileid: "94512116"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96394626"
 ---
 # <a name="bi-solution-architecture-in-the-center-of-excellence"></a>卓越中心的 BI 解决方案体系结构
 

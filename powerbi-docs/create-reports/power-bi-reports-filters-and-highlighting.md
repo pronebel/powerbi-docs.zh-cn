@@ -2,22 +2,22 @@
 title: Power BI 报表中的筛选器和突出显示
 description: 关于 Power BI 报表中的筛选器和突出显示
 author: maggiesMSFT
+ms.author: maggies
 ms.reviewer: ''
 ms.service: powerbi
-ms.subservice: powerbi-service
+ms.subservice: pbi-reports-dashboards
 ms.topic: conceptual
 ms.date: 10/23/2019
-ms.author: maggies
 LocalizationGroup: Reports
-ms.openlocfilehash: 708d57f6092029b3c82412336b54fce1ae0ca441
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 9a793ff966f7560924f53357ce7518f0ede65c56
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83280739"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96393568"
 ---
 # <a name="filters-and-highlighting-in-power-bi-reports"></a>Power BI 报表中的筛选器和突出显示
- 本文介绍如何在 Power BI 服务中进行筛选和突出显示。 这与 Power BI Desktop 中的体验几乎完全相同。 *筛选器*可保留你最关切的数据，而将其他所有数据删除。 突出显示不是筛选  。 它不会删除数据，而是突出显示部分可见数据；未突出显示的数据虽然仍可见，但会变暗。
+ 本文介绍如何在 Power BI 服务中进行筛选和突出显示。 这与 Power BI Desktop 中的体验几乎完全相同。 *筛选器* 可保留你最关切的数据，而将其他所有数据删除。 突出显示不是筛选  。 它不会删除数据，而是突出显示部分可见数据；未突出显示的数据虽然仍可见，但会变暗。
 
 对 Power BI 中的报表进行筛选并对其突出显示有多种不同的方法。 由于在一篇文章中介绍所有这些信息会产生混淆，因此分成下面这几个部分进行介绍：
 
@@ -40,10 +40,10 @@ ms.locfileid: "83280739"
 
 有四种类型的筛选器。
 
-- **页面筛选器**可应用于报表页面上的所有视觉对象     
+- **页面筛选器** 可应用于报表页面上的所有视觉对象     
 - 视觉对象筛选器  应用于报表页上的一个视觉对象。 如果选择了报表画布上的视觉对象，只会看到视觉对象级筛选器。    
-- **报表筛选器**可应用于报表中的所有页面    
-- **钻取筛选器**可应用于报表中的单个实体    
+- **报表筛选器** 可应用于报表中的所有页面    
+- **钻取筛选器** 可应用于报表中的单个实体    
 
 可以在阅读视图或编辑视图中搜索页面级、视觉对象级和报表级筛选器，以查找并选择所需的值。 
 

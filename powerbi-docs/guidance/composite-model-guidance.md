@@ -2,18 +2,18 @@
 title: Power BI Desktop 中的复合模型指南
 description: 用于开发复合模型的指南。
 author: peter-myers
+ms.author: v-pemyer
 ms.reviewer: asaxton
 ms.service: powerbi
-ms.subservice: powerbi-desktop
+ms.subservice: powerbi
 ms.topic: conceptual
 ms.date: 12/24/2019
-ms.author: v-pemyer
-ms.openlocfilehash: 840e4dc92164de2ebfd1bdef6bee941124f6e906
-ms.sourcegitcommit: 701dd80661a63c76d37d1e4f159f90e3fc8c3160
+ms.openlocfilehash: 53c0af04a76d4cf8cfacd49002434ecbc246fbe8
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/24/2020
-ms.locfileid: "91136203"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96394373"
 ---
 # <a name="composite-model-guidance-in-power-bi-desktop"></a>Power BI Desktop 中的复合模型指南
 
@@ -54,7 +54,7 @@ ms.locfileid: "91136203"
 Power BI 查询复合模型时，有几种可能的场景：
 
 - **仅查询导入或双重表**：从模型缓存中检索所有数据。 它将提供尽可能快的性能。 这种情况在筛选器或切片器视觉对象查询的维度类型表中很常见。
-- **查询同一源中的双重表或 DirectQuery 表**：通过向 DirectQuery 源发送一个或多个本机查询来检索所有数据。 它将提供尽可能快的性能，尤其是在源表上存在适当的索引时。 这种情况在与双重维度类型表和 DirectQuery 事实类型表相关的查询中很常见。 这些查询为_岛内关系_，因此，所有一对一关系或一对多关系都会被评估为[常规关系](../transform-model/desktop-relationships-understand.md#regular-relationships)。
+- **查询同一源中的双重表或 DirectQuery 表**：通过向 DirectQuery 源发送一个或多个本机查询来检索所有数据。 它将提供尽可能快的性能，尤其是在源表上存在适当的索引时。 这种情况在与双重维度类型表和 DirectQuery 事实类型表相关的查询中很常见。 这些查询为 _岛内关系_，因此，所有一对一关系或一对多关系都会被评估为 [常规关系](../transform-model/desktop-relationships-understand.md#regular-relationships)。
 - **所有其他查询**：这些查询涉及跨岛关系。 这可能是因为导入表与 DirectQuery 表相关，或者双重表与不同源中的 DirectQuery 表相关，在这种情况下，其行为与导入表类似。 所有关系均评估为[有限关系](../transform-model/desktop-relationships-understand.md#limited-relationships)。 这也意味着，应用于非 DirectQuery 表的分组必须作为虚拟表发送到 DirectQuery 源。 在这种情况下，本机查询可能效率低下，尤其是对于大型分组集。 而且，它可能会在本机查询中公开敏感数据。
 
 总之，我们建议：

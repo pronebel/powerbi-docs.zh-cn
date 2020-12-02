@@ -2,17 +2,17 @@
 title: 培训 Power BI 问答的问答工具简介（预览版）
 description: Power BI 问答工具简介
 author: maggiesMSFT
+ms.author: maggies
 ms.service: powerbi
-ms.subservice: powerbi-desktop
+ms.subservice: pbi-reports-dashboards
 ms.topic: conceptual
 ms.date: 08/31/2020
-ms.author: maggies
-ms.openlocfilehash: edcdd31a1b76aa823b11dd134467975acd77f3f4
-ms.sourcegitcommit: cb606d3ae95300683caf1853e229d8981302a8e2
+ms.openlocfilehash: e83a823908a89a300f9bbe97cfaaef19ede77fc8
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/18/2020
-ms.locfileid: "90764324"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96393752"
 ---
 # <a name="intro-to-qa-tooling-to-train-power-bi-qa-preview"></a>培训 Power BI 问答的问答工具简介（预览版）
 
@@ -62,13 +62,13 @@ ms.locfileid: "90764324"
 
 ### <a name="review-questions"></a>查看问题
 
-选择“查看问题”，查看 Power BI 服务中为租户使用的数据集列表****。 “查看问题”页还会显示数据集所有者、工作区和上次刷新日期****。 在这里，你可以选择一个数据集，并查看用户提出了哪些问题。 数据还会显示无法识别的单词。 此处显示的所有数据都是最近 28 天的数据。
+选择“查看问题”，查看 Power BI 服务中为租户使用的数据集列表。 “查看问题”页还会显示数据集所有者、工作区和上次刷新日期。 在这里，你可以选择一个数据集，并查看用户提出了哪些问题。 数据还会显示无法识别的单词。 此处显示的所有数据都是最近 28 天的数据。
 
 ![问答的查看问题](media/q-and-a-tooling-intro/qna-tooling-review-questions.png)
 
 ### <a name="teach-qa"></a>教导“问答”
 
-在“教导 Q&A”部分，你可以培训问答来识别单词****。 首先，键入一个问题，其中包含一个或多个问答无法识别的单词。 问答提示你输入该术语的定义。 输入与该单词所代表的内容相对应的筛选器或字段名称。 问答随后将重新解释原问题。 如果对结果满意，可保存输入。 要了解详细信息，请参阅[教导 Q&A](q-and-a-tooling-teach-q-and-a.md)
+在“教导 Q&A”部分，你可以培训问答来识别单词。 首先，键入一个问题，其中包含一个或多个问答无法识别的单词。 问答提示你输入该术语的定义。 输入与该单词所代表的内容相对应的筛选器或字段名称。 问答随后将重新解释原问题。 如果对结果满意，可保存输入。 要了解详细信息，请参阅[教导 Q&A](q-and-a-tooling-teach-q-and-a.md)
 
 ![教导 Q&A 同义词预览版](media/q-and-a-tooling-intro/qna-tooling-teach-fixpreview.png)
 
@@ -101,13 +101,13 @@ ms.locfileid: "90764324"
 
 ### <a name="set-a-row-label"></a>设置行标签
 
-使用行标签可以定义哪一列（或字段**）最能标识表中的单个行。 例如，对于一个名为“客户”的表，行标签通常是“显示名称”。 当用户键入“按客户显示销售额”时，提供此额外的元数据，使问答能绘制出更有帮助的视觉对象。 它可以使用“显示名称”并显示一个显示每个客户销售额的条形图，而不是将“客户”视为一个表。 你只能设置行标签建模视图。 
+使用行标签可以定义哪一列（或字段）最能标识表中的单个行。 例如，对于一个名为“客户”的表，行标签通常是“显示名称”。 当用户键入“按客户显示销售额”时，提供此额外的元数据，使问答能绘制出更有帮助的视觉对象。 它可以使用“显示名称”并显示一个显示每个客户销售额的条形图，而不是将“客户”视为一个表。 你只能设置行标签建模视图。 
 
 1. 在 Power BI Desktop 中，选择“建模”视图。
 
-2. 选择一个表，以显示“属性”窗格****。
+2. 选择一个表，以显示“属性”窗格。
 
-3. 在“行标签”**** 框中，选择一个字段。
+3. 在“行标签”框中，选择一个字段。
 
 ## <a name="configure-the-linguistic-schema-advanced"></a>配置语言架构（高级）
 

@@ -2,20 +2,20 @@
 title: 向仪表板添加图像、视频等
 description: 介绍如何使用添加磁贴小组件向仪表板添加图像、视频、文本框、Web 代码和流数据磁贴的文档。
 author: maggiesMSFT
+ms.author: maggies
 ms.reviewer: ''
 featuredvideoid: e2PD8m1Q0vU
 ms.service: powerbi
-ms.subservice: powerbi-service
+ms.subservice: pbi-reports-dashboards
 ms.topic: how-to
 ms.date: 10/28/2020
-ms.author: maggies
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 72306a6269df91a75b750628e3534bf5891fe6b0
-ms.sourcegitcommit: 4ac9447d1607dfca2e60948589f36a3d64d31cb4
+ms.openlocfilehash: 27c5dba205ee396a2415259163e5dbfb8df11037
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/29/2020
-ms.locfileid: "92916903"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96395431"
 ---
 # <a name="add-images-videos-and-more-to-your-dashboard"></a>向仪表板添加图像、视频等
 
