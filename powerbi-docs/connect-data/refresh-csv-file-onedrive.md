@@ -2,20 +2,20 @@
 title: 在 OneDrive 中刷新基于 .csv 文件创建的数据集
 description: 在 OneDrive 上刷新使用逗号分隔值 (.csv) 文件创建的数据集
 author: davidiseminger
+ms.author: davidi
 ms.reviewer: kayu
 ms.custom: seodec18
 ms.service: powerbi
-ms.subservice: powerbi-service
+ms.subservice: pbi-data-sources
 ms.topic: how-to
 ms.date: 09/12/2019
-ms.author: davidi
 LocalizationGroup: Data refresh
-ms.openlocfilehash: 765e21aae6c68741ecba41ef24b691deeb2a403f
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: fabb694caadcd108c009471897738da6f403b49c
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85235308"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96392741"
 ---
 # <a name="refresh-a-dataset-created-from-a-csv-file-on-onedrive-or-sharepoint-online"></a>刷新使用 OneDrive 或 SharePoint Online 上的 .CSV 文件创建的数据集
 ## <a name="what-are-the-advantages"></a>有什么好处？
@@ -40,7 +40,7 @@ ms.locfileid: "85235308"
 如果由于 Microsoft 帐户凭据可能已更改而无法将 OneDrive 上的 .csv 文件的更改与 Power BI 中的数据集进行同步，那么你需要连接到该文件并再次从个人 OneDrive 中导入该文件。
 
 ## <a name="when-things-go-wrong"></a>出现问题时
-如果 OneDrive 上的.csv 文件中的数据发生更改，并且这些更改反映未在 Power BI 中反映，那么很可能是因为 Power BI 无法连接到 OneDrive。 请尝试连接该文件并再次导入。 如果系统提示你登录，请确保选中**保持我的登录状态**。
+如果 OneDrive 上的.csv 文件中的数据发生更改，并且这些更改反映未在 Power BI 中反映，那么很可能是因为 Power BI 无法连接到 OneDrive。 请尝试连接该文件并再次导入。 如果系统提示你登录，请确保选中 **保持我的登录状态**。
 
 ## <a name="next-steps"></a>后续步骤
 [用于解决刷新问题的工具](service-gateway-onprem-tshoot.md)

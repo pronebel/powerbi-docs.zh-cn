@@ -2,19 +2,19 @@
 title: 在 Power BI 中监视报表性能
 description: 有关如何在 Power BI 中监视报表性能的指导。
 author: peter-myers
+ms.author: v-pemyer
 manager: asaxton
 ms.reviewer: asaxton
 ms.service: powerbi
-ms.subservice: powerbi-desktop
+ms.subservice: powerbi
 ms.topic: conceptual
 ms.date: 02/16/2020
-ms.author: v-pemyer
-ms.openlocfilehash: 3c76fed8f5533ad339904c4f8251a7404270a0ae
-ms.sourcegitcommit: c83146ad008ce13bf3289de9b76c507be2c330aa
+ms.openlocfilehash: bd700ae7c6c175f4e9cf7841ce308a275ba9babb
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/10/2020
-ms.locfileid: "86216606"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96393018"
 ---
 # <a name="monitor-report-performance-in-power-bi"></a>在 Power BI 中监视报表性能
 
@@ -30,7 +30,7 @@ ms.locfileid: "86216606"
 
 ## <a name="use-query-diagnostics"></a>使用查询诊断
 
-在 Power BI Desktop 中使用[查询诊断](/power-query/QueryDiagnostics)确定在预览或应用查询时 Power Query 执行的操作。 此外，使用_诊断步骤_功能记录每个查询步骤的详细评估信息。 结果在 Power Query 中提供，你可以应用转换进一步了解查询执行。
+在 Power BI Desktop 中使用[查询诊断](/power-query/QueryDiagnostics)确定在预览或应用查询时 Power Query 执行的操作。 此外，使用 _诊断步骤_ 功能记录每个查询步骤的详细评估信息。 结果在 Power Query 中提供，你可以应用转换进一步了解查询执行。
 
 > [!NOTE]
 > 查询诊断目前是一项预览功能，因此必须在“选项和设置”中启用它。 启用后，其命令将出现在“Power Query 编辑器”窗口中的“工具”功能区选项卡上。

@@ -2,18 +2,18 @@
 title: Power BI 数据源
 description: 本文列出了 Power BI 支持的数据源，其中包括有关 DirectQuery 和本地数据网关的信息。
 author: davidiseminger
+ms.author: davidi
 ms.reviewer: ''
 ms.service: powerbi
-ms.subservice: powerbi-service
+ms.subservice: pbi-data-sources
 ms.topic: conceptual
 ms.date: 11/17/2020
-ms.author: davidi
-ms.openlocfilehash: 11f9db0282cd0b302c5293ca59dd44c87dcdb955
-ms.sourcegitcommit: 5240990f998851c4854eb565de681099264c5a61
+ms.openlocfilehash: 18b7e55d409dc6562fab7cf1f36b83e7edac994b
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/18/2020
-ms.locfileid: "94719043"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96392855"
 ---
 # <a name="power-bi-data-sources"></a>Power BI 数据源
 
