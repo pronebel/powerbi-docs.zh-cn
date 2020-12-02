@@ -2,21 +2,21 @@
 title: 自动生成数据集的数据见解
 description: 了解如何获取有关数据集和仪表板磁贴的见解。
 author: maggiesMSFT
+ms.author: maggies
 ms.reviewer: ''
 featuredvideoid: et_MLSL2sA8
 ms.custom: seodec18
 ms.service: powerbi
-ms.subservice: powerbi-service
+ms.subservice: pbi-reports-dashboards
 ms.topic: how-to
 ms.date: 09/28/2020
-ms.author: maggies
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 79148389a697feb2a3d2e2cba0b919eb59632ff7
-ms.sourcegitcommit: d153cfc0ce559480c53ec48153a7e131b7a31542
+ms.openlocfilehash: 8db804ec3afe4b752ab6f5f8546782cac7135055
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/29/2020
-ms.locfileid: "91524457"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96388462"
 ---
 # <a name="generate-data-insights-on-your-dataset-automatically-with-power-bi"></a>通过 Power BI 自动生成数据集的数据见解
 你有新数据集，但不太确定要从何处着手？  需要快速生成仪表板？  想要查找你可能错失的见解？
@@ -37,7 +37,7 @@ ms.locfileid: "91524457"
 
 现在轮到你了。 使用[供应商质量分析示例](sample-supplier-quality.md)探索见解。
 
-1. 从“数据集”选项卡中选择“更多选项”(…)，然后选择“获取快速见解”************。
+1. 从“数据集”选项卡中选择“更多选项”(…)，然后选择“获取快速见解”。
    
     ![“数据集”选项卡](media/service-insights/power-bi-ellipses.png)
    
@@ -45,7 +45,7 @@ ms.locfileid: "91524457"
 2. Power BI 使用[各种算法](../consumer/end-user-insight-types.md)来搜索数据集中的趋势。
    
     ![“正在搜索见解”对话框](media/service-insights/pbi_autoinsightssearching.png)
-3. 你的见解会在几秒内准备就绪。  选择“查看见解”**** 以显示可视化效果。
+3. 你的见解会在几秒内准备就绪。  选择“查看见解”以显示可视化效果。
    
     ![成功消息](media/service-insights/pbi_autoinsightsuccess.png)
    
@@ -61,7 +61,7 @@ ms.locfileid: "91524457"
 
 1. 将鼠标悬停在某个卡片上，选择固定图标，以将可视化效果添加到仪表板中。
 
-2. 将鼠标悬停在某张卡片上，选择“更多选项”(…)，然后选择“查看见解”********。 
+2. 将鼠标悬停在某张卡片上，选择“更多选项”(…)，然后选择“查看见解”。 
 
     见解屏幕在焦点模式下打开。
    
@@ -72,14 +72,14 @@ ms.locfileid: "91524457"
 
        ![展开的见解“筛选器”菜单](media/service-insights/power-bi-insights-filter-new.png)
    * 通过选择“固定视觉对象”将见解卡片固定到仪表板。
-   * 对卡本身运行见解，这通常称为作用域内见解**。 在右上角，选择灯泡图标 ![获取见解图标](media/service-insights/power-bi-bulb-icon.png) 或“获取见解”。
+   * 对卡本身运行见解，这通常称为作用域内见解。 在右上角，选择灯泡图标 ![获取见解图标](media/service-insights/power-bi-bulb-icon.png) 或“获取见解”。
      
        ![获取见解图标](media/service-insights/pbi-autoinsights-tile.png)
      
      见解会显示在左侧， 而完全根据该见解中的数据获得的新卡片会显示在右侧。
      
        ![对见解的见解](media/service-insights/power-bi-insights-on-insights-new.png)
-4. 若要返回到最初的见解画布，请在左上角选择“退出焦点模式”****。
+4. 若要返回到最初的见解画布，请在左上角选择“退出焦点模式”。
 
 ## <a name="next-steps"></a>后续步骤
 - 如果你拥有一个数据集，请[针对快速见解对其进行优化](service-insights-optimize.md)。

@@ -2,19 +2,19 @@
 title: 结合使用问答和 Power BI 中的实时连接
 description: 有关通过实时连接到 Analysis Services 数据和本地数据网关使用 Power BI 问答自然语言查询的文档。
 author: maggiesMSFT
+ms.author: maggies
 ms.reviewer: mihart
 ms.service: powerbi
-ms.subservice: powerbi-service
+ms.subservice: pbi-reports-dashboards
 ms.topic: how-to
 ms.date: 05/29/2020
-ms.author: maggies
 LocalizationGroup: Ask questions of your data
-ms.openlocfilehash: 8137fa6bb10e20992547746bc6e91e001767c679
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 4e64121fdac63abe22d77818a0f91a860cac316f
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85218852"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96388140"
 ---
 # <a name="enable-qa-for-live-connections-in-power-bi"></a>为 Power BI 中的实时连接启用问答
 
@@ -43,7 +43,7 @@ ms.locfileid: "85218852"
 1. 在 Power BI 的右上角，选择齿轮图标 ![齿轮图标](media/service-q-and-a-direct-query/power-bi-cog.png)，然后选择“设置”。
    
    ![“设置”菜单](media/service-q-and-a-direct-query/powerbi-settings.png)
-2. 选择**数据集**，然后选择要为其启用问答的数据集。
+2. 选择 **数据集**，然后选择要为其启用问答的数据集。
    
    ![“设置”菜单的“数据集”屏幕](media/service-q-and-a-direct-query/power-bi-q-and-a-settings.png)
 3. 展开“问答”，选择“启用此数据集的问答”复选框，然后选择“应用”  。
@@ -51,7 +51,7 @@ ms.locfileid: "85218852"
     ![展开的问答区域](media/service-q-and-a-direct-query/power-bi-qna-dataset-direct-query.png)
 
 ## <a name="what-data-is-cached-and-how-is-privacy-protected"></a>缓存哪些数据以及如何保护隐私？
-当启用本地数据的问答时，数据的其中一个子集将缓存到服务中。 此缓存可用于保证问答具有良好的效果。 Power BI 可以从缓存中排除长于 24 个字符的值。 当你通过取消选中**启用此数据集的问答**，或当你删除你的数据集时，缓存将在几小时内删除。
+当启用本地数据的问答时，数据的其中一个子集将缓存到服务中。 此缓存可用于保证问答具有良好的效果。 Power BI 可以从缓存中排除长于 24 个字符的值。 当你通过取消选中 **启用此数据集的问答**，或当你删除你的数据集时，缓存将在几小时内删除。
 
 ## <a name="considerations-and-troubleshooting"></a>注意事项和疑难解答
 此功能具有一些限制：

@@ -2,19 +2,19 @@
 title: 重命名仪表板、报表、工作区、报表页和数据集
 description: 在 Power BI 服务中重命名几乎所有内容。
 author: maggiesMSFT
+ms.author: maggies
 ms.reviewer: ''
 ms.service: powerbi
-ms.subservice: powerbi-service
+ms.subservice: pbi-reports-dashboards
 ms.topic: how-to
 ms.date: 03/01/2018
-ms.author: maggies
 LocalizationGroup: Common tasks
-ms.openlocfilehash: d37dfece5c7f181ddf55b58ea461e48fdd090d11
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: fc120b832fda05d822e57ace56b15fbd773a53ad
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85218737"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96388025"
 ---
 # <a name="rename-almost-anything-in-power-bi-service"></a>在 Power BI 服务中重命名几乎所有内容
 本文介绍如何在 Power BI 服务中重命名仪表板、报表、报表页、工作簿、数据集、应用和工作区。
@@ -30,7 +30,7 @@ ms.locfileid: "85218737"
 | 工作区 |是的，如果你是所有者或具有管理员权限 |否 |
 | 已发布的应用 |如果你具有管理员权限，可以不从应用屏幕而从工作区更改应用名称，并使用新名称重新发布 |否 |
 | 应用内容（仪表板、报表、工作簿、数据集） |如果你具有管理员权限，可以不从应用屏幕而从工作区重命名应用内容，并使用新名称重新发布 |否 |
-| **与我共享的内容**中的内容 |否 |否 |
+| **与我共享的内容** 中的内容 |否 |否 |
 
 ## <a name="rename-a-dashboard-report-or-workbook"></a>重命名仪表板、报表或工作簿
 1. 在工作区中，依次选择“仪表板”  、“报表”  或“工作簿”  选项卡。将鼠标悬停在要重命名的项上，并选择齿轮图标 ![齿轮图标](media/service-rename/powerbi-cog-icon.png)。 如果未显示齿轮图标，则表示你无权重命名。

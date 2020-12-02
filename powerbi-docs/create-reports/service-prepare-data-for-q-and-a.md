@@ -2,19 +2,19 @@
 title: 通过 Power BI 中的问答功能有效利用 Excel 数据
 description: 如何有效结合使用数据和 Power BI 问答
 author: maggiesMSFT
+ms.author: maggies
 ms.reviewer: ''
 ms.service: powerbi
-ms.subservice: powerbi-service
+ms.subservice: pbi-reports-dashboards
 ms.topic: how-to
 ms.date: 05/13/2019
-ms.author: maggies
 LocalizationGroup: Ask questions of your data
-ms.openlocfilehash: f7760021966673b93313809a806473b94c7750d3
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 41672fa809544198a053ae41f935e890d83cfa72
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85218691"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96388094"
 ---
 # <a name="make-excel-data-work-well-with-qa-in-power-bi"></a>通过 Power BI 中的问答功能有效利用 Excel 数据
 如果你是创建数据模型或生成用于 Power BI 的 Excel 工作簿的人员，请阅读...

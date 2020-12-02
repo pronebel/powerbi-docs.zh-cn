@@ -2,17 +2,17 @@
 title: 将示例下载到 Power BI 服务中的“我的工作区”
 description: 将示例数据下载到 Power BI 服务帐户中的“我的工作区”，以供在移动应用教程中使用。
 author: paulinbar
+ms.author: painbar
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 11/26/2019
-ms.author: painbar
-ms.openlocfilehash: 82a299dad5d58ca03d2b05ae02c49e0da0478303
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 40105943dc1896b979264bc8b9cbc71c527f5ba1
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "75256784"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96389152"
 ---
 # <a name="downloading-samples-to-my-workspace-in-the-power-bi-service"></a>将示例下载到 Power BI 服务中的“我的工作区”
 

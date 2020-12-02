@@ -2,19 +2,19 @@
 title: 设计出色 Power BI 仪表板的提示
 description: 设计出色 Power BI 仪表板的提示
 author: maggiesMSFT
+ms.author: maggies
 ms.reviewer: ''
 ms.service: powerbi
-ms.subservice: powerbi-service
+ms.subservice: pbi-reports-dashboards
 ms.topic: how-to
 ms.date: 08/14/2019
-ms.author: maggies
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 30c0600e835ad7088d6d867e9d1f4de24550c8cc
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: d1e2a3b304d7d92ee6443e288d77599cb734ff1a
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85237200"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96388692"
 ---
 # <a name="tips-for-designing-a-great-power-bi-dashboard"></a>设计出色 Power BI 仪表板的提示
 现在，你已创建了一个仪表板并添加了一些磁贴，可考虑如何使你的仪表板不仅美观，而且实用。 一般来说，这意味着突出显示最重要的信息，使其整洁有序。

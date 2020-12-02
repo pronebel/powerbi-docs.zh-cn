@@ -2,19 +2,19 @@
 title: 在 Power BI 中保存报表
 description: 在 Power BI 服务和 Power BI Desktop 中保存报表
 author: maggiesMSFT
+ms.author: maggies
 ms.reviewer: ''
 ms.service: powerbi
-ms.subservice: powerbi-service
+ms.subservice: pbi-reports-dashboards
 ms.topic: how-to
 ms.date: 03/01/2018
-ms.author: maggies
 LocalizationGroup: Reports
-ms.openlocfilehash: c57c768e64171acd5c8246aad9faad304a355e2b
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: c023b9badd9e6dcc904e201c09c77fbbe90cdb63
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85218576"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96387864"
 ---
 # <a name="save-a-report-in-power-bi-service-and-power-bi-desktop"></a>在 Power BI 服务和 Power BI Desktop 中保存报表
 在 Power BI 中更改报表后，可以将其保存、保存为新名称，或将其关闭而不保存更改。 假设你打开报表、创建可视化效果，并将其固定到仪表板。 如果不保存更改而关闭，则将在仪表板上保留磁贴，但不会在报表中保存可视化效果。 在仪表板上单击该磁贴时，报表将打开，但可视化对象不存在于报表中。

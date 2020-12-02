@@ -2,19 +2,19 @@
 title: 显示已与我共享的仪表板和报表
 description: 在 Power BI 中与我共享的文档
 author: mihart
+ms.author: mihart
 ms.reviewer: mihart
 ms.service: powerbi
-ms.subservice: powerbi-consumer
+ms.subservice: pbi-explore
 ms.topic: how-to
 ms.date: 10/09/2020
-ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 0e13a7bd273121429cd186c99ef8110b38e839fb
-ms.sourcegitcommit: 02484b2d7a352e96213353702d60c21e8c07c6c0
+ms.openlocfilehash: 44f9d26e5f6ebe8723d5f5269bc66a38590a9b36
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "91983335"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96389589"
 ---
 # <a name="display-the-dashboards-and-reports-that-have-been-shared-with-me"></a>显示已与我共享的仪表板和报表
 

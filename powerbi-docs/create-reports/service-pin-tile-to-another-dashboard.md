@@ -2,19 +2,19 @@
 title: 将磁贴从一个仪表板固定到另一个仪表板
 description: 将磁贴从一个仪表板固定到另一个仪表板
 author: maggiesMSFT
+ms.author: maggies
 ms.reviewer: ''
 ms.service: powerbi
-ms.subservice: powerbi-service
+ms.subservice: pbi-reports-dashboards
 ms.topic: how-to
 ms.date: 03/01/2018
-ms.author: maggies
 LocalizationGroup: Dashboards
-ms.openlocfilehash: baf48e1cfa2bc37652880c9ab4201f2f49ff3c32
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 26da094f7ef7519d29faf4edea1574b6b15dddb1
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85218645"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96388278"
 ---
 # <a name="pin-a-tile-from-one-dashboard-to-another-dashboard"></a>将磁贴从一个仪表板固定到另一个仪表板
 添加新的[仪表板磁贴](../consumer/end-user-tiles.md)的一种方法是从另一个仪表板中复制它。 每个磁贴在单击后都是一个返回到磁贴创建位置的链接 -- 在问答或报表中。 
@@ -34,7 +34,7 @@ ms.locfileid: "85218645"
    * **新仪表板**：键入新仪表板的名称。
    
    ![“固定到仪表板”对话框](media/service-pin-tile-to-another-dashboard/pbi_pintoanotherdash.png)
-5. 选择**固定**。
+5. 选择 **固定**。
    会显示一条成功消息（右上角附近），告知你可视化效果已作为磁贴添加到所选仪表板中。
    
    ![已固定到仪表板窗口](media/service-pin-tile-to-another-dashboard/power-bi-pin-success.png)

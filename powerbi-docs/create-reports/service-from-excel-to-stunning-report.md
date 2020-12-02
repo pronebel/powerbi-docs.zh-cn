@@ -2,19 +2,19 @@
 title: 教程：从 Excel 工作簿到 Power BI 服务再到 Teams
 description: 本文介绍如何通过 Excel 工作簿在 Power BI 服务中快速创建出色的报表，并在 Teams 中共享。
 author: maggiesMSFT
+ms.author: maggies
 ms.reviewer: ''
 ms.service: powerbi
-ms.subservice: powerbi-service
+ms.subservice: pbi-reports-dashboards
 ms.topic: tutorial
 ms.date: 07/30/2020
-ms.author: maggies
 LocalizationGroup: Data from files
-ms.openlocfilehash: ccf8b5fa8f1c4d18a25767ff11f035304b339de0
-ms.sourcegitcommit: d9d67ee47954379c2df8db8d0dc8302de4c9f1e5
+ms.openlocfilehash: 99f562ee315a74c9de6765308272e5e33153c4f0
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/31/2020
-ms.locfileid: "87478121"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96388853"
 ---
 # <a name="tutorial-from-excel-workbook-to-a-report-in-the-power-bi-service-to-microsoft-teams"></a>教程：从 Excel 工作簿到 Power BI 服务中的报表再到 Microsoft Teams
 你的经理想要在下班前查看有关最新销售和利润数据的报表。 但最新数据位于各种第三方系统上以及你的笔记本电脑上的文件内。 以前，创建视觉对象和格式化报表都需要花费数小时，这让你深感焦虑。

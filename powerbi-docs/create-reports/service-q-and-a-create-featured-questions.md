@@ -2,19 +2,19 @@
 title: 创建 Power BI 问答的精选问题
 description: 有关如何创建 Power BI 问答的精选问题的文档
 author: maggiesMSFT
+ms.author: maggies
 ms.reviewer: ''
 ms.service: powerbi
-ms.subservice: powerbi-service
+ms.subservice: pbi-reports-dashboards
 ms.topic: how-to
 ms.date: 05/26/2020
-ms.author: maggies
 LocalizationGroup: Ask questions of your data
-ms.openlocfilehash: 65ed1806491f281bcc4d8adc365e5d286b6204ec
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 3587c019f6b460774efca3db2229f315adcbded3
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85218829"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96388163"
 ---
 # <a name="create-featured-questions-for-power-bi-qa"></a>创建 Power BI 问答的精选问题
 如果你拥有一个数据集，你可以向该数据集添加自己精选的问题。 Power BI 问答向使用基于该数据集的报表的同事显示这些问题。  精选问题会让你的同事了解他们可以就数据集询问哪些类型的问题。 你添加的精选问题都由你决定 -- 可以添加常见问题、显示有趣结果的问题，或可能会很难组织描述的问题。
@@ -32,10 +32,10 @@ ms.locfileid: "85218829"
 2. 若要添加到此列表，请选择 Power BI 右上角的齿轮图标。  
    ![齿轮图标](media/service-q-and-a-create-featured-questions/pbi_gearicon2.jpg)
 3. 选择“设置”&gt;“数据集”&gt;零售分析示例”&gt;“精选问答问题”   。  
-4. 选择**添加问题**。
+4. 选择 **添加问题**。
    
    ![“设置”菜单](media/service-q-and-a-create-featured-questions/power-bi-settings.png)
-5. 在文本框中键入你的问题，并选择**应用**。   （可选）通过选择**添加问题**添加另一个问题。  
+5. 在文本框中键入你的问题，并选择 **应用**。   （可选）通过选择 **添加问题** 添加另一个问题。  
    ![精选问答窗格](media/service-q-and-a-create-featured-questions/power-bi-type-featured-question.png)
 6. 向后导航到零售分析示例的 Power BI 仪表板，然后将光标置于问答问题框中。   
    ![带有精选问题的问答框](media/service-q-and-a-create-featured-questions/power-bi-qna-featured-question-to-start.png)
