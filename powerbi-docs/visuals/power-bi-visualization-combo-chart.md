@@ -1,21 +1,21 @@
 ---
 title: Power BI 中的组合图
 description: 组合图教程，介绍了何时使用组合图，以及如何在 Power BI 服务和 Power BI Desktop 中生成组合图。
-author: msftrien
+author: mihart
+ms.author: mihart
 ms.reviewer: mihart
 featuredvideoid: lnv66cTZ5ho
 ms.service: powerbi
-ms.subservice: powerbi-desktop
+ms.subservice: pbi-visuals
 ms.topic: conceptual
 ms.date: 06/18/2020
-ms.author: rien
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 89fdd0852db9560a6e2b0d43e03b9f89c61dd33e
-ms.sourcegitcommit: 5ccab484cf3532ae3a16acd5fc954b7947bd543a
+ms.openlocfilehash: f5731f8660fc27e6aef44878f5410819ce0c0eae
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/06/2020
-ms.locfileid: "93411558"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96409921"
 ---
 # <a name="create-and-use-combo-charts-in-power-bi"></a>创建和使用 Power BI 中的组合图
 
@@ -111,7 +111,7 @@ ms.locfileid: "93411558"
 4. 在“Y 轴(列)”下，向下滚动，直至看到“显示次级内容” 。 由于 Y 轴的选项太多，可能必须同时使用两个滚动条。 “显示次级内容”部分显示用于设置组合图的折线图部分格式的选项。
 
    ![组合图次级内容示例](media/power-bi-visualization-combo-chart/power-bi-secondary.png)
-5. 对于 **Y 轴（行）** ，将“ **位置** ”保留为“ **右** ”，将“ **标题** ”设置为“ **打开** ”，并将“ **样式** ”设置为“ **仅显示标题** ”。
+5. 对于 **Y 轴（行）** ，将“**位置**”保留为“**右**”，将“**标题**”设置为“**打开**”，并将“**样式**”设置为“**仅显示标题**”。
 
    组合图现在显示双轴，它们都具有标题。
 

@@ -2,18 +2,18 @@
 title: 连接到 COVID-19 美国跟踪报表
 description: 如何获取和安装 COVID-19 美国案例模板应用，以及如何连接到数据。
 author: paulinbar
+ms.author: painbar
 ms.service: powerbi
 ms.subservice: powerbi-template-apps
 ms.topic: how-to
 ms.date: 04/05/2020
-ms.author: painbar
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 01dab6cad6142b455a0d61a0011e43cea6da23e1
-ms.sourcegitcommit: 3ddfd9ffe2ba334a6f9d60f17ac7243059cf945b
+ms.openlocfilehash: 19dc9f5c5adfa5853d98cd6b0ef427c8bccebada
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/22/2020
-ms.locfileid: "92349478"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96410611"
 ---
 # <a name="connect-to-the-covid-19-us-tracking-report"></a>连接到 COVID-19 美国跟踪报表
 本文介绍如何安装 COVID-19 跟踪报告的模板应用，以及如何连接到数据源。

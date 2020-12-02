@@ -1,21 +1,21 @@
 ---
 title: Power BI 管理门户
 description: 通过管理门户，你可以为 Power BI 配置组织范围内的设置。 你可以查看使用指标，配置租户设置，处理容量，查看工作区、组织视觉对象和特别推荐的内容。
-author: kfollis
+author: paulinbar
+ms.author: painbar
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: how-to
 ms.date: 10/22/2020
-ms.author: kfollis
 ms.custom: seodec18
 LocalizationGroup: Administration
-ms.openlocfilehash: 0abdaab48516b91624a0945d32c4f81ed024a468
-ms.sourcegitcommit: 5bbe7725918a72919ba069c5f8a59e95453ec14c
+ms.openlocfilehash: c83efa55cc1c35bb7e6fa8e62de3bca228553fe3
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/20/2020
-ms.locfileid: "94947096"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96409392"
 ---
 # <a name="administering-power-bi-in-the-admin-portal"></a>在管理门户中管理 Power BI
 

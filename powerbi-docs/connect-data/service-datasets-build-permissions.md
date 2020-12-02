@@ -1,20 +1,20 @@
 ---
 title: 共享数据集的生成权限
 description: 了解如何使用生成权限来控制对数据的访问。
-author: maggiesMSFT
+author: paulinbar
+ms.author: painbar
 ms.reviewer: kayu
 ms.service: powerbi
-ms.subservice: powerbi-service
+ms.subservice: pbi-data-sources
 ms.topic: how-to
 ms.date: 10/21/2020
-ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 343351fd762a074de010bc307c0138773e265226
-ms.sourcegitcommit: fddba666c6ea90d525a1c3188bbd3c4a03410cdc
+ms.openlocfilehash: 914477d8b4bed0b6f90f700afcbfdfbfc263bb1d
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/23/2020
-ms.locfileid: "92462409"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96410450"
 ---
 # <a name="build-permission-for-shared-datasets"></a>共享数据集的生成权限
 

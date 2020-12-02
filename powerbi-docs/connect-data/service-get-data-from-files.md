@@ -2,20 +2,20 @@
 title: 从 Power BI 文件获取数据
 description: 了解如何将数据从 Excel、Power BI Desktop 和 CSV 文件导入 Power BI
 author: davidiseminger
+ms.author: davidi
 ms.reviewer: ''
 ms.custom: seodec18
 ms.service: powerbi
-ms.subservice: powerbi-service
+ms.subservice: pbi-data-sources
 ms.topic: how-to
 ms.date: 05/08/2019
-ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: b7b886b5e0c21c77e0a5a6aca83fa0ae0751f435
-ms.sourcegitcommit: e8ed3d120699911b0f2e508dc20bd6a9b5f00580
+ms.openlocfilehash: 7807968bad989895fa60df122c0e31ba4b823aa2
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/11/2020
-ms.locfileid: "86264107"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96410151"
 ---
 # <a name="get-data-from-files-for-power-bi"></a>从 Power BI 文件获取数据
 ![Excel、Power BI Desktop 和 CSV 的图标](media/service-get-data-from-files/file_icons.png)

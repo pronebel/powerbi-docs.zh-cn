@@ -2,18 +2,18 @@
 title: 在 Power BI 中创作模板应用的提示
 description: 有关创建查询、数据模型、报表和仪表板以制作优秀模板应用的提示
 author: paulinbar
+ms.author: painbar
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-template-apps
 ms.topic: how-to
 ms.date: 05/04/2020
-ms.author: painbar
-ms.openlocfilehash: 4530a6579a3109a2696c77a79a3a5a1c6b8092dd
-ms.sourcegitcommit: 1b3a626c5ca612a7f23058f8e5cc0147a94db51c
+ms.openlocfilehash: bb48b92df81a49ee687376ee9f53428c10171b80
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/07/2020
-ms.locfileid: "94348050"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96410105"
 ---
 # <a name="tips-for-authoring-template-apps-in-power-bi"></a>在 Power BI 中创作模板应用的提示
 

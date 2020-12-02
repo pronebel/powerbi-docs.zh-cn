@@ -2,19 +2,19 @@
 title: 从 Power BI Desktop 文件获取数据
 description: 了解如何将数据和报表从 Power BI Desktkop 导入 Power BI
 author: davidiseminger
+ms.author: davidi
 ms.reviewer: ''
 ms.service: powerbi
-ms.subservice: powerbi-service
+ms.subservice: pbi-data-sources
 ms.topic: how-to
 ms.date: 05/26/2020
-ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: 3022c43f4c1af3098b24148ccb0bdadf6e0da521
-ms.sourcegitcommit: a254f6e2453656f6783690669be8e881934e15ac
+ms.openlocfilehash: e89f45d302216af8193029cb613b4e7a54365b8d
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/28/2020
-ms.locfileid: "87363976"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96410381"
 ---
 # <a name="get-data-from-power-bi-desktop-files"></a>从 Power BI Desktop 文件获取数据
 ![Power BI Desktop 文件图标](media/service-desktop-files/pbid_file_icon.png)
@@ -51,7 +51,7 @@ ms.locfileid: "87363976"
 
 下面介绍了快速操作方法，但也可参阅[从 Power BI Desktop 发布](../create-reports/desktop-upload-desktop-files.md)以了解详细信息。
 
-1. 在 Power BI Desktop 中，单击**文件** > **发布** > **发布到 Power BI**，或在功能区上单击**发布**。
+1. 在 Power BI Desktop 中，单击 **文件** > **发布** > **发布到 Power BI**，或在功能区上单击 **发布**。
    
    ![功能区上“发布”的屏幕截图，其中显示了如何从 Power BI Desktop 发布。](media/service-desktop-files/pbid_publish.png)
 2. 登录到 Power BI。 仅首次使用使需执行此操作。
@@ -61,6 +61,6 @@ ms.locfileid: "87363976"
    ![登录确认对话框的屏幕截图，其中显示了你已成功登录以及可使用链接打开报表。](media/service-desktop-files/pbid_publishing.png)
 
 ## <a name="next-steps"></a>后续步骤
-**浏览你的数据** - 将文件中的数据和报表导入到 Power BI 后，就可以浏览文件了。 如果你的文件中已包含报表，则这些文件将显示在**报表**的导航器窗格中。 如果你的文件仅包含数据，你可以创建新报表：右键单击新数据集，然后单击**浏览**即可。
+**浏览你的数据** - 将文件中的数据和报表导入到 Power BI 后，就可以浏览文件了。 如果你的文件中已包含报表，则这些文件将显示在 **报表** 的导航器窗格中。 如果你的文件仅包含数据，你可以创建新报表：右键单击新数据集，然后单击 **浏览** 即可。
 
 **刷新外部数据源** - 如果你的 Power BI Desktop 文件连接到外部数据源，你可以设置计划的刷新，以确保数据集始终处于最新状态。 在大多数情况下，设置计划刷新非常容易，但本文不会进行详细介绍。 若要了解详细信息，请参阅 [Power BI 中的数据刷新](refresh-data.md)。

@@ -2,19 +2,19 @@
 title: 刷新使用云端 Excel 工作簿创建的数据集
 description: 刷新使用 OneDrive 或 SharePoint Online 上的 Excel 工作簿创建的数据集
 author: davidiseminger
+ms.author: davidi
 ms.reviewer: kayu
 ms.service: powerbi
-ms.subservice: powerbi-service
+ms.subservice: pbi-data-sources
 ms.topic: how-to
 ms.date: 06/06/2019
-ms.author: davidi
 LocalizationGroup: Data refresh
-ms.openlocfilehash: c550cace73cff4b37da4e68693c0b46175156890
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: ed4ba65da4c4b027d5e789844a86e57c2a9c478c
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85222370"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96410795"
 ---
 # <a name="refresh-a-dataset-created-from-an-excel-workbook-on-onedrive-or-sharepoint-online"></a>刷新使用 OneDrive 或 SharePoint Online 上的 Excel 工作簿创建的数据集
 
@@ -71,22 +71,22 @@ ms.locfileid: "85222370"
 
 ## <a name="how-do-i-make-sure-data-is-loaded-to-the-excel-data-model"></a>如何确保已将数据加载到了 Excel 数据模型？
 
-使用 Power Query（Excel 2016 中的“获取和转换”）连接到数据源时，拥有多个数据加载位置选择  。 若要确保将数据加载到数据模型，必须选择**加载到**对话框中的**将此数据添加到数据模型**选项。
+使用 Power Query（Excel 2016 中的“获取和转换”）连接到数据源时，拥有多个数据加载位置选择  。 若要确保将数据加载到数据模型，必须选择 **加载到** 对话框中的 **将此数据添加到数据模型** 选项。
 
 > [!NOTE]
 > 此图显示的是 Excel 2016。
 >
 >
 
-在**导航器**中，单击**加载到...**  
+在 **导航器** 中，单击 **加载到...**  
 
 ![“加载到...”命令](media/refresh-excel-file-onedrive/refresh_loadtodm_1.png)
 
-或者，如果单击“导航器”中的“编辑”，则会打开查询编辑器   。 你可以单击其中的**关闭并加载到...**  
+或者，如果单击“导航器”中的“编辑”，则会打开查询编辑器   。 你可以单击其中的 **关闭并加载到...**  
 
 ![“关闭并加载到…”命令](media/refresh-excel-file-onedrive/refresh_loadtodm_2.png)
 
-然后在**加载到**中，确保选中**将此数据添加到数据模型**。  
+然后在 **加载到** 中，确保选中 **将此数据添加到数据模型**。  
 
 ![将此数据添加到“数据模型”复选框](media/refresh-excel-file-onedrive/refresh_loadtodm_3.png)
 
@@ -104,7 +104,7 @@ ms.locfileid: "85222370"
 
 出现问题时，通常是因为 Power BI 无法登录数据源，或数据集连接到本地数据源，而网关处于脱机状态。 确保 Power BI 可以登录数据源。 如果用于登录数据源的密码更改，或 Power BI 已从数据源注销，请务必在数据源凭据中再次尝试登录数据源。
 
-请确保选中**刷新失败时向我发送电子邮件通知**。 你会想立即了解计划刷新是否失败。
+请确保选中 **刷新失败时向我发送电子邮件通知**。 你会想立即了解计划刷新是否失败。
 
 ## <a name="important-notes"></a>重要说明
 

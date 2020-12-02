@@ -1,20 +1,20 @@
 ---
 title: 在 Power BI 中复制并粘贴可视化效果
 description: 在 Power BI 中复制并粘贴可视化效果
-author: msftrien
+author: mihart
+ms.author: mihart
 ms.reviewer: maggie tsang
 ms.service: powerbi
-ms.subservice: powerbi-desktop
+ms.subservice: pbi-visuals
 ms.topic: how-to
 ms.date: 09/18/2020
-ms.author: rien
 LocalizationGroup: Visualizations
-ms.openlocfilehash: fd5fc361431268c37639a336923a4067176f1761
-ms.sourcegitcommit: 5ccab484cf3532ae3a16acd5fc954b7947bd543a
+ms.openlocfilehash: fda66910ac073421d4b17706dec70d6aa6e86499
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/06/2020
-ms.locfileid: "93411052"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96409875"
 ---
 # <a name="copy-and-paste-a-report-visualization"></a>复制并粘贴报表可视化效果
 

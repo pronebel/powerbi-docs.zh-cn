@@ -2,20 +2,20 @@
 title: 刷新不支持的数据源故障排除
 description: 刷新不支持的数据源故障排除
 author: davidiseminger
+ms.author: davidi
 ms.reviewer: kayu
 ms.service: powerbi
-ms.subservice: powerbi-service
+ms.subservice: powerbi-admin
 ms.topic: troubleshooting
 ms.date: 05/08/2020
-ms.author: davidi
 ms.custom: seodec18
 LocalizationGroup: Troubleshooting
-ms.openlocfilehash: 49af2febbecb5061c4acb9ee20c3b707e3b81dff
-ms.sourcegitcommit: be424c5b9659c96fc40bfbfbf04332b739063f9c
+ms.openlocfilehash: 4ab84a4f40acff894416fe2e5b33788c413ad4f5
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "91634886"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96410749"
 ---
 # <a name="troubleshooting-unsupported-data-source-for-refresh"></a>刷新不支持的数据源故障排除
 尝试为计划的刷新配置数据集时，你可能会遇到错误。
@@ -29,11 +29,11 @@ You cannot schedule refresh for this dataset because it gets data from sources t
 ## <a name="find-the-data-source"></a>查找数据源
 如果你不确定所使用的数据源，则可以在 Power BI Desktop 中使用以下步骤来查找该数据源。  
 
-1. 在 Power BI Desktop 中，请确保你处于**报表**窗格上。  
+1. 在 Power BI Desktop 中，请确保你处于 **报表** 窗格上。  
    ![Desktop 报表窗格](media/service-admin-troubleshoot-unsupported-data-source-for-refresh/tshoot-report-pane.png)
-2. 从功能区栏中选择**编辑查询**。  
+2. 从功能区栏中选择 **编辑查询**。  
    ![编辑查询](media/service-admin-troubleshoot-unsupported-data-source-for-refresh/tshoot-edit-queries.png)
-3. 选择**高级编辑器**。  
+3. 选择 **高级编辑器**。  
    ![高级编辑器](media/service-admin-troubleshoot-unsupported-data-source-for-refresh/tshoot-advanced-editor.png)
 4. 记下为源列出的提供程序。  在此示例中，提供程序是 ActiveDirectory。  
    ![数据源提供程序](media/service-admin-troubleshoot-unsupported-data-source-for-refresh/tshoot-provider.png)

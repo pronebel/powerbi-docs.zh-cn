@@ -1,21 +1,21 @@
 ---
 title: 磁贴错误故障排除
 description: 磁贴尝试在 Power BI 中刷新时可能遇到的常见错误
-author: maggiesMSFT
+author: davidiseminger
+ms.author: davidi
 ms.reviewer: kayu
 ms.custom: seodec18
 ms.service: powerbi
-ms.subservice: powerbi-service
+ms.subservice: pbi-data-sources
 ms.topic: troubleshooting
 ms.date: 12/06/2018
-ms.author: maggies
 LocalizationGroup: Troubleshooting
-ms.openlocfilehash: 463275d98c72441264e5bae699d983eb34bb1058
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: f82c6c97b954745e264fe213b5070a9a498de939
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83320483"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96410703"
 ---
 # <a name="troubleshooting-tile-errors"></a>磁贴错误故障排除
 下面是使用磁贴可能会遇到的常见错误以及错误说明。
@@ -27,7 +27,7 @@ ms.locfileid: "83320483"
 
 ## <a name="errors"></a>错误
 **Power BI 加载模型时遇到意外错误。请稍后再试。**
-或**无法检索数据模型。请联系仪表板所有者，确保数据源和模型存在并且可访问。**
+或 **无法检索数据模型。请联系仪表板所有者，确保数据源和模型存在并且可访问。**
 
 我们无法访问你的数据，因为数据源不可访问。 如果数据源已删除、重命名、移动、脱机或权限已更改，则可能出现此问题。 确认源是否仍处于我们指向的位置，你是否仍有权访问该源。 如果这不是问题，可能是源速度比较慢。 请稍后在源上的负载较小时重试。 如果是本地源，数据源所有者可以提供详细信息。
 

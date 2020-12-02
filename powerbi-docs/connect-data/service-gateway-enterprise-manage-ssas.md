@@ -2,19 +2,19 @@
 title: 管理数据源 - Analysis Services
 description: 如何管理本地数据网关和属于该网关的数据源。 这是用于在多维和表格模式下的 Analysis Services。
 author: arthiriyer
+ms.author: arthii
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-gateways
 ms.topic: how-to
 ms.date: 07/15/2019
-ms.author: arthii
 LocalizationGroup: Gateways
-ms.openlocfilehash: 521c1cbc60c6d616c06bde6b6826bb270d3ddba0
-ms.sourcegitcommit: 02b5d031d92ea5d7ffa70d5098ed15e4ef764f2a
+ms.openlocfilehash: 8cc8149d7b143dc0f100a8d7718343b9f668a294
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/26/2020
-ms.locfileid: "91375295"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96410335"
 ---
 # <a name="manage-your-data-source---analysis-services"></a>管理数据源 - Analysis Services
 
@@ -84,7 +84,7 @@ Power BI 允许映射 Analysis Services 数据源的用户名。 你可以配置
 1. 转到齿轮图标，然后选择“管理网关”  。
 2. 展开包含 Analysis Services 数据源的网关。 或者，如果尚未创建 Analysis Services 数据源，可以在此时创建。
 3. 选择数据源，然后选择“用户”  选项卡。
-4. 选择**映射用户名**。
+4. 选择 **映射用户名**。
 
     ![UPN 映射屏幕](media/service-gateway-enterprise-manage-ssas/gateway-enterprise-map-user-names_02.png)
 

@@ -2,19 +2,19 @@
 title: 教程：连接到 SQL Server 中的本地数据
 description: 了解如何将 SQL Server 用作网关数据源，包括如何刷新数据。
 author: arthiriyer
+ms.author: arthii
 ms.reviewer: kayu
 ms.service: powerbi
 ms.subservice: powerbi-gateways
 ms.topic: tutorial
 ms.date: 07/15/2019
-ms.author: arthii
 LocalizationGroup: Gateways
-ms.openlocfilehash: 100417202fca148be0e2e976ce0cd84167c803d9
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: ba518991145b727e141e1441f30ea73819bddb31
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83283499"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96410266"
 ---
 # <a name="refresh-data-from-an-on-premises-sql-server-database"></a>从本地 SQL Server 数据库刷新数据
 
@@ -134,7 +134,7 @@ ms.locfileid: "83283499"
 
 现在，你已通过数据网关将 Power BI 中的数据集连接到本地 SQL Server 数据库，接下来请按照以下步骤配置刷新计划。 按计划刷新数据集有助于确保报表和仪表板具有最新数据。
 
-1. 在导航窗格中，打开“我的工作区” **“数据集”** \>  。 为 AdventureWorksProducts 数据集选择省略号 (...)，然后选择“计划刷新”    。
+1. 在导航窗格中，打开“我的工作区” **“数据集”** \>  。 为 AdventureWorksProducts 数据集选择省略号 (...)，然后选择“计划刷新”。
 
     > [!NOTE]
     > 请确保为 AdventureWorksProducts 数据集选择省略号，而不是为名称相同的报表选择省略号  。 AdventureWorksProducts 报表的上下文菜单没有“计划刷新”选项   。
@@ -174,7 +174,7 @@ WHERE EnglishProductName ='Road-250 Red, 58'
 
     请注意，右上角显示 Power BI 正在准备执行请求的刷新。
 
-3. 选择“我的工作区” **“报表”\>“AdventureWorksProducts”\>** 。 查看更新后的数据是如何传输的，现标价最高的产品是“Road-250 Red, 58”  。
+3. 选择“我的工作区”\>“报表”\>“AdventureWorksProducts”。 查看更新后的数据是如何传输的，现标价最高的产品是“Road-250 Red, 58”  。
 
     ![更新后的柱形图](./media/service-gateway-sql-tutorial/updated-column-chart.png)
 
@@ -190,7 +190,7 @@ WHERE EnglishProductName ='Road-250 Red, 58'
 
     ![刷新历史记录链接](./media/service-gateway-sql-tutorial/refresh-history-link.png)
 
-4. 在“计划”选项卡上，请注意过去计划的刷新和按需刷新及其“开始”和“结束”时间，状态为“已完成”，这表示 Power BI 已成功刷新      。 对于失败的刷新，可看到错误消息并检查错误详细信息。
+4. 在“计划”选项卡上，请注意过去计划的刷新和按需刷新及其“开始”和“结束”时间，状态为“已完成”，这表示 Power BI 已成功刷新。 对于失败的刷新，可看到错误消息并检查错误详细信息。
 
     ![刷新历史记录详细信息](./media/service-gateway-sql-tutorial/refresh-history-details.png)
 

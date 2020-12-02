@@ -1,20 +1,20 @@
 ---
 title: 跨工作区使用数据集简介
 description: 了解数据集分片和工作区发现。 整个组织中的用户都可以在其工作区中基于你的数据集生成报表。
-author: maggiesMSFT
+author: paulinbar
+ms.author: painbar
 ms.reviewer: kayu
 ms.service: powerbi
-ms.subservice: powerbi-service
+ms.subservice: pbi-data-sources
 ms.topic: how-to
 ms.date: 04/30/2020
-ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 23d520815c47c9ff9f1ec045ec67921141e8eb7a
-ms.sourcegitcommit: 4e347efd132b48aaef6c21236c3a21e5fce285cc
+ms.openlocfilehash: 0569bf40728f0c1300ded9c9656cca639105e981
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/27/2020
-ms.locfileid: "92681161"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96410427"
 ---
 # <a name="intro-to-datasets-across-workspaces"></a>跨工作区使用数据集简介
 

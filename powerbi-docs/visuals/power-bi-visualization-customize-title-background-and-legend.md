@@ -1,21 +1,21 @@
 ---
 title: 格式化 Power BI 可视化效果入门
 description: 自定义可视化效果的标题、背景和图例
-author: msftrien
+author: mihart
+ms.author: mihart
 ms.reviewer: mihart
 featuredvideoid: IkJda4O7oGs
 ms.service: powerbi
-ms.subservice: powerbi-desktop
+ms.subservice: pbi-visuals
 ms.topic: how-to
 ms.date: 03/06/2020
-ms.author: rien
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 0d19d7366dce571e2d89ba5cbc6ffbe936ec50e2
-ms.sourcegitcommit: 5ccab484cf3532ae3a16acd5fc954b7947bd543a
+ms.openlocfilehash: c974161e4cc7d52bf412ea14800bf720a297cd25
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/06/2020
-ms.locfileid: "93410983"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96409806"
 ---
 # <a name="customize-visualization-titles-backgrounds-and-legends"></a>自定义可视化效果的标题、背景和图例
 

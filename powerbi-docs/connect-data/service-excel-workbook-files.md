@@ -2,19 +2,19 @@
 title: 从 Excel 工作簿文件中获取数据
 description: 了解如何将数据从 Excel 工作簿文件导入 Power BI
 author: davidiseminger
+ms.author: davidi
 ms.reviewer: ''
 ms.service: powerbi
-ms.subservice: powerbi-service
+ms.subservice: pbi-data-sources
 ms.topic: how-to
 ms.date: 09/06/2019
-ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: 870e3dbdc4b18422b0565834764b996d3f096ebf
-ms.sourcegitcommit: e8ed3d120699911b0f2e508dc20bd6a9b5f00580
+ms.openlocfilehash: 0411cceb056d3471b3084a38916b83c815a0ae3b
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/11/2020
-ms.locfileid: "86264433"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96410358"
 ---
 # <a name="get-data-from-excel-workbook-files"></a>从 Excel 工作簿文件中获取数据
 ![Excel 图标](media/service-excel-workbook-files/excel_icon.png)
@@ -50,7 +50,7 @@ Power BI 支持以下数据类型：整数、小数、货币、日期、True/Fal
 <iframe width="500" height="281" src="https://www.youtube.com/embed/l2wy4XgQIu0" frameborder="0" allowfullscreen></iframe>
 
 ## <a name="where-your-workbook-file-is-saved-makes-a-difference"></a>保存工作簿文件的位置不同会有所差异
-**本地** - 如果你将工作簿文件保存到计算机上的本地驱动器或组织中的其他位置，则你可以将文件加载到 Power BI。 你的文件实际上一直保存在本地驱动器中，因此整个文件并未真正导入到 Power BI。 实际上，在 Power BI 中创建的新数据集以及工作簿中的数据和数据模型（如果有）将加载到数据集中。 如果你的工作簿具有任何 Power View 工作表，则这些工作表会显示在你的 Power BI 网站中的“报表”下。 Excel 2016 还有**发布**功能（在“文件”菜单下）。 使用**发布**实际上与通过 Power BI 使用“获取数据 > 文件 > 本地文件”相同，但是，如果你定期对工作簿进行更改，则前者通常能更轻松地在 Power BI 中更新数据集。
+**本地** - 如果你将工作簿文件保存到计算机上的本地驱动器或组织中的其他位置，则你可以将文件加载到 Power BI。 你的文件实际上一直保存在本地驱动器中，因此整个文件并未真正导入到 Power BI。 实际上，在 Power BI 中创建的新数据集以及工作簿中的数据和数据模型（如果有）将加载到数据集中。 如果你的工作簿具有任何 Power View 工作表，则这些工作表会显示在你的 Power BI 网站中的“报表”下。 Excel 2016 还有 **发布** 功能（在“文件”菜单下）。 使用 **发布** 实际上与通过 Power BI 使用“获取数据 > 文件 > 本地文件”相同，但是，如果你定期对工作簿进行更改，则前者通常能更轻松地在 Power BI 中更新数据集。
 
 **OneDrive - 企业** – 如果你有 OneDrive for Business，并且使用登录 Power BI 的同一帐户登录到其中，这是将 Excel 中的工作与你在 Power BI 中的数据集、报表和仪表板保持同步的有史以来最有效的方法。由于 Power BI 和 OneDrive 都位于云中，Power BI 大约每小时会连接你在 OneDrive 上的工作簿文件一次。 如果发现任何更改，你的数据集、报表和仪表板会在 Power BI 中自动更新。 就像你将工作簿保存到本地驱动器中一样，你还可以使用“发布”立即更新 Power BI 中的数据集和报表；否则 Power BI 将自动同步（通常在一小时之内）。
 
@@ -111,7 +111,7 @@ Power BI 支持以下数据类型：整数、小数、货币、日期、True/Fal
 ![“报表”部分的屏幕截图，其中显示了包含 Excel 数据的所选报表。](media/service-excel-workbook-files/excel_import_9.png)
 
 ## <a name="publish-from-excel-2016-to-your-power-bi-site"></a>从 Excel 2016 发布到 Power BI 网站
-使用 Excel 2016 中的**发布到 Power BI** 功能实际上与使用 Power BI 中的“获取数据”导入或连接到你的文件相同。 我们在此将不会进行详细介绍，但你可以查看[从 Excel 2016 发布到 Power BI](service-publish-from-excel.md) 了解详细信息。
+使用 Excel 2016 中的 **发布到 Power BI** 功能实际上与使用 Power BI 中的“获取数据”导入或连接到你的文件相同。 我们在此将不会进行详细介绍，但你可以查看[从 Excel 2016 发布到 Power BI](service-publish-from-excel.md) 了解详细信息。
 
 ## <a name="troubleshooting"></a>故障排除
 工作簿文件太大？ 查阅[减小 Excel 工作簿的大小以便在 Power BI 中进行查看](reduce-the-size-of-an-excel-workbook.md)。

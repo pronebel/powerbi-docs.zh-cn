@@ -2,20 +2,20 @@
 title: 教程：在 Power BI 中调用机器学习工作室（经典）模型（预览版）
 description: 在本教程中，你将在 Power BI 中调用机器学习工作室（经典）模型。
 author: davidiseminger
+ms.author: davidi
 ms.reviewer: SarinaJoan
 ms.service: powerbi
-ms.subservice: powerbi-service
+ms.subservice: pbi-data-sources
 ms.custom: connect-to-services
 ms.topic: tutorial
 ms.date: 03/12/2019
-ms.author: davidi
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 4124799f15bbccd7c82428d1290ae2ae6420311f
-ms.sourcegitcommit: 37bd34053557089c4fbf0e05f78e959609966561
+ms.openlocfilehash: c59e0fff95f611fbe84586af64db7a532285d72b
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/10/2020
-ms.locfileid: "94397107"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96410197"
 ---
 # <a name="tutorial-invoke-a-machine-learning-studio-classic-model-in-power-bi-preview"></a>教程：在 Power BI 中调用机器学习工作室（经典）模型（预览版）
 
@@ -103,8 +103,8 @@ Power Query 编辑器显示 CSV 文件中的数据的预览。 从命令功能�
 
 文本/CSV 源中的表的所有列都视作为文本列。  接下来，我们需要将数字列改为其正确的数据类型。  可以在 Power Query 中通过单击列标题中的数据类型符号来执行此操作。  将列更改为以下类型：
 
-- **整数** ：symboling、normalized-losses、curb-weight、engine-size、horsepower、peak-rpm、city-mpg、highway-mpg、price
-- **十进制数** ：wheel-base、length、width、height、bore、stroke、compression-ratio
+- **整数**：symboling、normalized-losses、curb-weight、engine-size、horsepower、peak-rpm、city-mpg、highway-mpg、price
+- **十进制数**：wheel-base、length、width、height、bore、stroke、compression-ratio
 
 ![更改列](media/service-tutorial-invoke-machine-learning-model/tutorial-invoke-machine-learning-model_11.png)
 

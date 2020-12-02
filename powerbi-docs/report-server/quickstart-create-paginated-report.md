@@ -2,18 +2,18 @@
 title: 为 Power BI 报表服务器创建分页报表
 description: 了解如何通过执行简单几步为 Power BI 报表服务器创建分页报表。
 author: maggiesMSFT
+ms.author: maggies
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: how-to
 ms.date: 01/07/2020
-ms.author: maggies
-ms.openlocfilehash: cf205603a4807b814e56904151e0ce8db66cfab1
-ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
+ms.openlocfilehash: 72c52c5d9618411fcb696f5a1b6e2c9eddf81ded
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90853531"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96409990"
 ---
 # <a name="create-a-paginated-report-for-power-bi-report-server"></a>为 Power BI 报表服务器创建分页报表
 本文介绍如何通过执行简单几步为 Power BI 报表服务器创建分页报表。

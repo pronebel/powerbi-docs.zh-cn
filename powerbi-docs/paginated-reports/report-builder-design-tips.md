@@ -1,19 +1,19 @@
 ---
 title: Power BI 报表生成器中的报表设计提示
 description: 利用以下提示，在 Power BI Report Builder 中设计分页报表。
+author: maggiesMSFT
+ms.author: maggies
 ms.date: 06/06/2019
 ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: conceptual
 ms.assetid: c1490ff0-5b8a-43c1-8d22-e459395db4f6
-author: maggiesMSFT
-ms.author: maggies
-ms.openlocfilehash: dc8400361ca8d7bdd3713efa7bdf180578a597a2
-ms.sourcegitcommit: ccf53e87ff7cba1fcd9d2cca761a561e62933f90
+ms.openlocfilehash: fc43fd3b8cfa4aeace7ae2dd18e69958d241f83a
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/04/2020
-ms.locfileid: "93297921"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96410036"
 ---
 # <a name="report-design-tips-in-power-bi-report-builder"></a>Power BI 报表生成器中的报表设计提示
 

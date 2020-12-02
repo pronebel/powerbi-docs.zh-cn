@@ -2,18 +2,18 @@
 title: 连接到 Power BI Premium Capacity Metrics
 description: 如何获取并安装 Power BI Premium Capacity Metrics 模板应用，以及如何连接到数据
 author: paulinbar
+ms.author: painbar
 ms.service: powerbi
 ms.subservice: powerbi-template-apps
 ms.topic: how-to
 ms.date: 05/18/2020
-ms.author: painbar
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 42526dbae857c6488fe129cc7781672691782de1
-ms.sourcegitcommit: 02b5d031d92ea5d7ffa70d5098ed15e4ef764f2a
+ms.openlocfilehash: f7bb6cdd3279ac15b2952d5e20b9c36a66a0c518
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/26/2020
-ms.locfileid: "91375226"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96410588"
 ---
 # <a name="connect-to-power-bi-premium-capacity-metrics"></a>连接到 Power BI Premium Capacity Metrics
 
@@ -64,7 +64,7 @@ ms.locfileid: "91375226"
 1. 在出现的对话框中，设置 UTC 时差，即协调世界时与你所在位置的时间之间的小时差。 然后，单击“**下一步**”。
   
    ![Power BI Premium Capacity Metrics 应用的“设置 UTC”对话框](media/service-connect-to-pbi-premium-capacity-metrics/service-pbi-premium-capacity-metrics-app-setutc-dialog.png)
-   注意：**** 半小时的格式应是十进制（例如，5.5、2.5等）。
+   注意：半小时的格式应是十进制（例如，5.5、2.5等）。
 
 1. 在出现的下一个对话框中，无需执行任何操作。 只需选择“登录”。
 
