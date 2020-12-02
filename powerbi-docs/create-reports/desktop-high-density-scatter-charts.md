@@ -2,19 +2,19 @@
 title: Power BI 中的高密度散点图
 description: Power BI 中的高密度散点图
 author: davidiseminger
+ms.author: davidi
 ms.reviewer: ''
 ms.service: powerbi
-ms.subservice: powerbi-desktop
+ms.subservice: pbi-reports-dashboards
 ms.topic: conceptual
 ms.date: 05/08/2019
-ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: c744b7b9b0ec15258214c9c7e27332eb4a49ead4
-ms.sourcegitcommit: e8ed3d120699911b0f2e508dc20bd6a9b5f00580
+ms.openlocfilehash: a3322a184d00c69e96878ccea6d59d0cb15b7e60
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/11/2020
-ms.locfileid: "86262916"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96396857"
 ---
 # <a name="high-density-sampling-in-power-bi-scatter-charts"></a>Power BI 散点图中的高密度采样
 从 2017 年 9 月发布 Power BI Desktop 和 Power BI 服务更新开始，可使用新的采样算法来改进散点图显示高密度数据的方式 。

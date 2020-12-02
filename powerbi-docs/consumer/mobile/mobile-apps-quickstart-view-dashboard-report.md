@@ -2,18 +2,18 @@
 title: 快速入门：浏览移动应用中的仪表板和报表
 description: 在此快速入门中，将浏览 Power BI 移动应用中的示例仪表板和报表。
 author: paulinbar
+ms.author: painbar
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: quickstart
 ms.date: 11/25/2019
-ms.author: painbar
-ms.openlocfilehash: 52728d6cb2daa1bb2753454e8b19a7e06800d080
-ms.sourcegitcommit: 7e99e8af9caf9340958c4607a94728d43e8c3811
+ms.openlocfilehash: 35a942826c76ed1c202bcc5a3450c65374402c46
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/02/2020
-ms.locfileid: "91668496"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96397547"
 ---
 # <a name="quickstart-explore-dashboards-and-reports-in-the-power-bi-mobile-apps"></a>快速入门：浏览 Power BI 移动应用中的仪表板和报表
 在此快速入门中，可快速了解 Power BI 移动应用，并浏览示例仪表板和报表。 本文展示了 iOS 版 Power BI 应用，但可以在其他设备上轻松地沿用相关操作。

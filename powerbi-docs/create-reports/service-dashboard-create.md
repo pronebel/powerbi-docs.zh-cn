@@ -2,19 +2,19 @@
 title: 从报表创建 Power BI 仪表板
 description: 从报表创建 Power BI 仪表板
 author: maggiesMSFT
+ms.author: maggies
 ms.reviewer: ''
 featuredvideoid: ''
 ms.service: powerbi
-ms.subservice: powerbi-service
+ms.subservice: pbi-reports-dashboards
 ms.topic: how-to
 ms.date: 07/17/2019
-ms.author: maggies
-ms.openlocfilehash: f1892af9d943df1f4abf39aa55ae99c5e6ee1b34
-ms.sourcegitcommit: be424c5b9659c96fc40bfbfbf04332b739063f9c
+ms.openlocfilehash: 4482fc3317b1ca10589645f19c22af31c8f8a80a
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "91633414"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96395546"
 ---
 # <a name="create-a-power-bi-dashboard-from-a-report"></a>从报表创建 Power BI 仪表板
 你已经阅读了 [Power BI 中的仪表板简介](service-dashboards.md)，并且现在想要创建你自己的仪表板。 创建仪表板有多种不同的方法。 例如，可以从报表、从头开始、从数据集或通过复制现有仪表板来创建仪表板。  
@@ -90,7 +90,7 @@ ms.locfileid: "91633414"
    ![屏幕截图显示“固定到仪表板”窗口，其中标示了“现有仪表板”选项。](media/service-dashboard-create/power-bi-existing-dashboard.png)
 
 ## <a name="pin-an-entire-report-page-to-the-dashboard"></a>将整个报表页固定到仪表板
-可[将整个报表页固定为*动态磁贴*](service-dashboard-pin-live-tile-from-report.md)（而不是一次固定一个视觉对象）。 我们开始操作吧。
+可 [将整个报表页固定为 *动态磁贴*](service-dashboard-pin-live-tile-from-report.md)（而不是一次固定一个视觉对象）。 我们开始操作吧。
 
 1. 在报表编辑器中，选择“支出概况”  选项卡以打开报表的第二页。
 

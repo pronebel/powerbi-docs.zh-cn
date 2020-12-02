@@ -2,18 +2,18 @@
 title: iOS 应用中的问答虚拟分析师 - Power BI
 description: 在 iOS 设备上使用 Power BI 移动应用中的问答虚拟分析师，用自己的话语来询问有关示例数据的问题。
 author: paulinbar
+ms.author: painbar
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: how-to
 ms.date: 03/11/2020
-ms.author: painbar
-ms.openlocfilehash: 323ea88f3a8843dd663985abac5552be1de71584
-ms.sourcegitcommit: be424c5b9659c96fc40bfbfbf04332b739063f9c
+ms.openlocfilehash: 2422e747fc47f9e9b51f723f5e7beeeceaf91baa
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "91634403"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96397317"
 ---
 # <a name="qa-virtual-analyst-in-ios-apps---power-bi"></a>iOS 应用中的问答虚拟分析师 - Power BI
 

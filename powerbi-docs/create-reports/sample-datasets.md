@@ -2,20 +2,20 @@
 title: 获取 Power BI 示例
 description: Power BI 的示例内容包、应用、.pbix 文件和 Excel 数据集
 author: maggiesMSFT
+ms.author: maggies
 ms.reviewer: ''
 ms.custom: ''
 ms.service: powerbi
-ms.subservice: powerbi-service
+ms.subservice: pbi-reports-dashboards
 ms.topic: conceptual
 ms.date: 03/27/2020
-ms.author: maggies
 LocalizationGroup: Samples
-ms.openlocfilehash: a268247d13fdfe71e17e5c0a6fafeeb635b96984
-ms.sourcegitcommit: e9cd61eaa66eda01cc159251d7936a455c55bd84
+ms.openlocfilehash: 2e14a81c6ae04048f85fae417b354a110436fc50
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/23/2020
-ms.locfileid: "86953044"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96396191"
 ---
 # <a name="get-samples-for-power-bi"></a>获取 Power BI 示例
 假设你初次接触 Power BI，想要试用但没有任何数据。  或者，你希望看到展示一些 Power BI 功能的报表。 我们已经为你准备好了。
@@ -245,7 +245,7 @@ ObviEnce 是侧重于 Microsoft Business Intelligence 的 ISV 和知识产权 (I
 
 ### <a name="explore-excel-samples-inside-excel"></a>在 Excel 中浏览 Excel 示例
 
-（可选）想要了解 Excel 工作簿中的数据如何转换为 Power BI 数据集和报表？ 通过*在 Excel 中*打开 Excel 示例和浏览工作表可得到答案。
+（可选）想要了解 Excel 工作簿中的数据如何转换为 Power BI 数据集和报表？ 通过 *在 Excel 中* 打开 Excel 示例和浏览工作表可得到答案。
 
 - 首次在 Excel 中打开示例工作簿时，你可能会看到两个警告。 第一个警告指出工作簿处于受保护的视图中。 选择“启用编辑”  。 第二个警告指出该工作簿有外部数据连接。 选择“启用内容”  。
 - 每个工作簿都包含多个 Power View 工作表。 如果要在 Excel 中查看 Power View 工作表，则需要通过下载注册表项包来[启用 Power View 加载项](https://support.office.com/article/flash-silverlight-and-shockwave-controls-blocked-in-microsoft-office-55738f12-a01d-420e-a533-7cef1ff6aeb1)。

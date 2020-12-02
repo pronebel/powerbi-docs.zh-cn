@@ -5,22 +5,22 @@ author: KesemSharabi
 ms.author: kesharab
 ms.reviewer: ''
 ms.service: powerbi
+ms.subservice: pbi-reports-dashboards
 ms.topic: how-to
-ms.subservice: powerbi-custom-visuals
 ms.date: 07/27/2018
 LocalizationGroup: Create reports
-ms.openlocfilehash: e4e65c26c9d1b5598ecf6b523649dc70722b7d79
-ms.sourcegitcommit: be424c5b9659c96fc40bfbfbf04332b739063f9c
+ms.openlocfilehash: 35c118171ef5202e24e5997e321b698e3b137387
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "91634978"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96396466"
 ---
 # <a name="use-r-powered-power-bi-visuals-in-power-bi"></a>在 Power BI 中使用 R 驱动的 Power BI 视觉对象
 
-在 **Power BI Desktop** 和 **Power BI 服务**中，无需掌握任何 R 知识，也无需使用任何 R 脚本，即可使用 R 驱动的 Power BI 视觉对象。 这样一来，无需学习任何 R 知识，也无需自行进行任何编程，即可利用 R 视觉对象和 R 脚本的分析和视觉功能。
+在 **Power BI Desktop** 和 **Power BI 服务** 中，无需掌握任何 R 知识，也无需使用任何 R 脚本，即可使用 R 驱动的 Power BI 视觉对象。 这样一来，无需学习任何 R 知识，也无需自行进行任何编程，即可利用 R 视觉对象和 R 脚本的分析和视觉功能。
 
-若要使用 R 驱动的 Power BI 视觉对象，请先从适用于 Power BI 的 **Power BI 视觉对象**的 [**AppSource**](https://appsource.microsoft.com/marketplace/apps?product=power-bi-visuals&page=1) 库中选择并下载要使用的 R 自定义视觉对象。
+若要使用 R 驱动的 Power BI 视觉对象，请先从适用于 Power BI 的 **Power BI 视觉对象** 的 [**AppSource**](https://appsource.microsoft.com/marketplace/apps?product=power-bi-visuals&page=1) 库中选择并下载要使用的 R 自定义视觉对象。
 
 ![R 视觉对象 1a](media/desktop-r-powered-custom-visuals/powerbi-r-powered-custom-viz_1a.png)
 
@@ -28,7 +28,7 @@ ms.locfileid: "91634978"
 
 ## <a name="use-r-power-bi-visuals"></a>使用 R Power BI 视觉对象
 
-若要使用 R 驱动的 Power BI 视觉对象，请从 **Power BI 视觉对象**库下载每个视觉对象，然后像在 **Power BI Desktop** 中使用任何其他类型的视觉对象一样使用该视觉对象。 获取 Power BI 视觉对象的方法有两种，可以从在线 **AppSource** 网站下载视觉对象，也可以在 **Power BI Desktop** 中浏览并获取视觉对象。 
+若要使用 R 驱动的 Power BI 视觉对象，请从 **Power BI 视觉对象** 库下载每个视觉对象，然后像在 **Power BI Desktop** 中使用任何其他类型的视觉对象一样使用该视觉对象。 获取 Power BI 视觉对象的方法有两种，可以从在线 **AppSource** 网站下载视觉对象，也可以在 **Power BI Desktop** 中浏览并获取视觉对象。 
 
 ### <a name="get-power-bi-visuals-from-appsource"></a>从 AppSource 获取 Power BI 视觉对象
 
@@ -49,7 +49,7 @@ ms.locfileid: "91634978"
 
    ![R 视觉对象 3a](media/desktop-r-powered-custom-visuals/powerbi-r-powered-custom-viz_3a.png)
 
-   无需安装 R 即可在 **Power BI 服务**中使用 R 驱动的 Power BI 视觉对象。不过，如果要在 **Power BI Desktop** 中使用 R 驱动的 Power BI 视觉对象，则*必须*在本地计算机上安装 R。 可以从以下位置下载 R：
+   无需安装 R 即可在 **Power BI 服务** 中使用 R 驱动的 Power BI 视觉对象。不过，如果要在 **Power BI Desktop** 中使用 R 驱动的 Power BI 视觉对象，则 *必须* 在本地计算机上安装 R。 可以从以下位置下载 R：
 
    * [CRAN](https://cran.r-project.org/)
    * [MRO](https://mran.microsoft.com/)
@@ -74,7 +74,7 @@ ms.locfileid: "91634978"
 
     ![R 视觉对象 10](media/desktop-r-powered-custom-visuals/powerbi-r-powered-custom-viz_10.png)
 
-    如任何其他 **Power BI Desktop** 视觉对象一样，你可以将此报表及其 R 驱动的视觉对象发布到 **Power BI 服务**并与他人共享。
+    如任何其他 **Power BI Desktop** 视觉对象一样，你可以将此报表及其 R 驱动的视觉对象发布到 **Power BI 服务** 并与他人共享。
 
     请经常检查库，因为会随时添加新视觉对象。
 
@@ -90,7 +90,7 @@ ms.locfileid: "91634978"
 
 ## <a name="contribute-r-powered-power-bi-visuals"></a>贡献 R 驱动的 Power BI 视觉对象
 
-如果创建自己的 R 视觉对象以供在报表中使用，则可以向 **Power BI 视觉对象库**贡献你的 Power BI 视觉对象，从而与全世界共享这些视觉对象。 通过 GitHub 进行贡献，相应过程在以下位置有所讲述：
+如果创建自己的 R 视觉对象以供在报表中使用，则可以向 **Power BI 视觉对象库** 贡献你的 Power BI 视觉对象，从而与全世界共享这些视觉对象。 通过 GitHub 进行贡献，相应过程在以下位置有所讲述：
 
 * [贡献到 R 驱动的 Power BI 视觉对象库](https://github.com/Microsoft/PowerBI-visuals#building-r-powered-custom-visual-corrplot)
 
@@ -148,7 +148,7 @@ Power BI 团队正在努力降低你遇到这些问题的可能性，下一版 P
 
    a. 使用 **R Studio**，按上述 3.b. 中所述的步骤操作 （在 R 控制台中运行脚本代码）。
 
-   b. 如果上一步不起作用，请更改 **R Studio** 中的“**工具 > 全局选项 > 包**”，并选中**将 Internet Explorer 库/代理用于 HTTP** 复选框，然后重复执行 上述 3.b. 中的步骤。
+   b. 如果上一步不起作用，请更改 **R Studio** 中的“**工具 > 全局选项 > 包**”，并选中 **将 Internet Explorer 库/代理用于 HTTP** 复选框，然后重复执行 上述 3.b. 中的步骤。
 
 ## <a name="next-steps"></a>后续步骤
 

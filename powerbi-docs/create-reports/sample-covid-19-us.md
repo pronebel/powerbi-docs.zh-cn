@@ -1,21 +1,21 @@
 ---
 title: 适用于美国各州和地方政府的 COVID-19 跟踪示例
 description: 下载并修改包含美国各州和地方 COVID-19 流行病数据的示例报表。
-author: LukaszPawlowski-MS
+author: maggiesMSFT
+ms.author: maggies
 ms.reviewer: maggies
 ms.custom: ''
 ms.service: powerbi
-ms.subservice: powerbi-service
+ms.subservice: pbi-reports-dashboards
 ms.topic: conceptual
 ms.date: 04/28/2020
-ms.author: lukaszp
 LocalizationGroup: Samples
-ms.openlocfilehash: aca7fc70bc70de553eee070ce5e1522b96c94880
-ms.sourcegitcommit: 9c72ec6b2d6d4574c86e976a65c076764473482d
+ms.openlocfilehash: e6f8e02efa7dc2e56a945aaffcf22d8497052404
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/02/2020
-ms.locfileid: "83277884"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96396006"
 ---
 # <a name="covid-19-tracking-sample-for-us-state-and-local-governments"></a>适用于美国各州和地方政府的 COVID-19 跟踪示例
 

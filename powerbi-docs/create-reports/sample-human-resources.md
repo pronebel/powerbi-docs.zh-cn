@@ -2,19 +2,19 @@
 title: 人力资源示例：参观
 description: Power BI 的人力资源示例：参观
 author: maggiesMSFT
+ms.author: maggies
 ms.reviewer: amac
 ms.service: powerbi
-ms.subservice: powerbi-desktop
+ms.subservice: pbi-reports-dashboards
 ms.topic: conceptual
 ms.date: 07/05/2019
-ms.author: maggies
 LocalizationGroup: Samples
-ms.openlocfilehash: 0b663e9a43235b98907d496c2a6ad881ccc54edf
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: 94cb0d7f5ac83220f3b37f878add4f5bfa2caaf6
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83349715"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96395868"
 ---
 # <a name="human-resources-sample-for-power-bi-take-a-tour"></a>Power BI 的人力资源示例：参观
 
@@ -71,7 +71,7 @@ ms.locfileid: "83349715"
 
    ![“新员工数”磁贴](media/sample-human-resources/hr2.png)  
 
-   将打开“人力资源示例”报表的**新员工**页。  
+   将打开“人力资源示例”报表的 **新员工** 页。  
 
    ![“新员工数”页](media/sample-human-resources/hr3.png)
 
@@ -93,11 +93,11 @@ ms.locfileid: "83349715"
 ## <a name="compare-currently-active-and-former-employees"></a>比较当前在职员工数和离职员工数
 让我们来浏览一下当前在职员工和离职员工的数据。
 
-1. 在仪表板上，选择**按年龄组划分的在职员工计数**磁贴。
+1. 在仪表板上，选择 **按年龄组划分的在职员工计数** 磁贴。
 
    ![“在职员工数(按年龄段)”磁贴](media/sample-human-resources/pbi_hr_sample_activepie.png)
 
-   将打开“人力资源示例”报表的**在职员工对比离职员工**页。  
+   将打开“人力资源示例”报表的 **在职员工对比离职员工** 页。  
 
    ![“在职员工数与离职员工数”页](media/sample-human-resources/hr5.png)
 
@@ -110,9 +110,9 @@ ms.locfileid: "83349715"
 ## <a name="reasons-for-separation"></a>离职原因
 让我们来看看“编辑视图”中的报表。 可以将饼图更改为，显示离职员工数据，而不是在职员工数据。
 
-1. 选择左上角的**编辑报表**。
+1. 选择左上角的 **编辑报表**。
 
-2. 选择**按年龄组划分的在职员工计数**饼图。
+2. 选择 **按年龄组划分的在职员工计数** 饼图。
 
 3. 在“字段”  中，选择“员工数”  ，以展开“员工数”  表。 取消选中“在职员工数”  ，以删除此字段。
 
@@ -137,7 +137,7 @@ ms.locfileid: "83349715"
 ## <a name="bad-hires"></a>差员工
 要探究的最后一个部分是差员工。 “坏员工”定义为，工作时间不超过 60 天的员工。 我们正在快速雇佣，但我们是否雇佣到了优秀候选员工？
 
-1. 选择**差员工占按年龄组划分的在职员工比例**仪表板磁贴。 此时，报表打开第三个选项卡“差员工数”  。
+1. 选择 **差员工占按年龄组划分的在职员工比例** 仪表板磁贴。 此时，报表打开第三个选项卡“差员工数”  。
 
    ![“差员工数在在职员工数中所占的百分比(按年龄段)”磁贴](media/sample-human-resources/hr7.png)  
 2. 选中左侧“区域”  切片器中的“西北”  ，并选择“差员工数(按性别)”  环形图中的“男性”  。 研究“差员工数”  页上的其他图表。 我们注意到，男性差员工数比女性要多，并且 A 组中有很多差员工。

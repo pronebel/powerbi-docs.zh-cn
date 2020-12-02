@@ -2,18 +2,18 @@
 title: 在 Power BI 移动应用中查看你的脱机数据
 description: 阅读有关在移动应用中而不是在移动浏览器中查看 Power BI 的一项优点：未连接网络时也可以查看数据。
 author: paulinbar
+ms.author: painbar
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 12/09/2019
-ms.author: painbar
-ms.openlocfilehash: 3b7f578040a49438ccca89fd9112a3ca5079a20a
-ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
+ms.openlocfilehash: addf608d6a3d7d51203dc22534eb8e9b9777ce49
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90856015"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96397133"
 ---
 # <a name="view-your-data-offline-in-the-power-bi-mobile-apps"></a>在 Power BI 移动应用中查看你的脱机数据
 适用于：

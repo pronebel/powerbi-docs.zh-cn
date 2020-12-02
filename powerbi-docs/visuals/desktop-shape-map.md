@@ -1,20 +1,20 @@
 ---
 title: 使用 Power BI Desktop 中的形状地图（预览）
 description: 使用 Power BI Desktop 中的形状地图创建区域的相对比较
-author: msftrien
+author: mihart
+ms.author: mihart
 ms.reviewer: sujata
 ms.service: powerbi
-ms.subservice: powerbi-desktop
+ms.subservice: pbi-visuals
 ms.topic: how-to
 ms.date: 03/18/2020
-ms.author: rien
 LocalizationGroup: Transform and shape data
-ms.openlocfilehash: 6ecf39926c759d202c034e5cb196067b9ca378d0
-ms.sourcegitcommit: 5ccab484cf3532ae3a16acd5fc954b7947bd543a
+ms.openlocfilehash: 9e77e539a098633badef6e4a88b99d07f2781974
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/06/2020
-ms.locfileid: "93411305"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96397630"
 ---
 # <a name="create-shape-map-visualizations-in-power-bi-desktop-preview"></a>在 Power BI Desktop 中创建形状地图可视化效果（预览）
 
@@ -44,7 +44,7 @@ Power BI Desktop 将创建一个空的“形状地图”  视觉对象设计画�
 
 ![画布上会出现空的形状地图](media/desktop-shape-map/shape-map-3.png)
 
-通过执行以下步骤创建 **形状地图** ：
+通过执行以下步骤创建 **形状地图**：
 
 1. 在“字段”  窗格中，将具有区域名称（或缩写）的数据字段拖至“位置”  Bucket，将数据度量值字段拖至“色彩饱和度”  Bucket（暂时看不到地图）。
 

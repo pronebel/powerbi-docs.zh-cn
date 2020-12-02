@@ -2,25 +2,25 @@
 title: 在 Power BI Desktop 中使用内联层次结构标签
 description: 在 Power BI Desktop 中使用内联层次结构标签
 author: davidiseminger
+ms.author: davidi
 ms.reviewer: ''
 ms.service: powerbi
-ms.subservice: powerbi-desktop
+ms.subservice: pbi-reports-dashboards
 ms.topic: how-to
 ms.date: 05/08/2019
-ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: c840565e39e344011588f8d47925e435eb019b37
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 8e9938c1c65e8e5a69f59365b89a10a449c3cf39
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85233720"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96396788"
 ---
 # <a name="use-inline-hierarchy-labels-in-power-bi-desktop"></a>在 Power BI Desktop 中使用内联层次结构标签
-**Power BI Desktop** 支持使用**内联层次结构标签**，它是旨在提升分层钻取的两种功能中的第一种。 第二种功能当前正处于开发阶段，即使用嵌套层次结构标签的功能（请持续关注 - 我们经常发布更新）。   
+**Power BI Desktop** 支持使用 **内联层次结构标签**，它是旨在提升分层钻取的两种功能中的第一种。 第二种功能当前正处于开发阶段，即使用嵌套层次结构标签的功能（请持续关注 - 我们经常发布更新）。   
 
 ## <a name="how-inline-hierarchy-labels-work"></a>内联层次结构标签的工作方式
-利用内联层次结构标签，当你使用**全部展开**功能展开视觉对象时，你可以看到层次结构标签。 看到这些层次结构标签的重大好处之一是，当展开分层数据时，你可以选择按这些不同的层次结构标签**排序**。
+利用内联层次结构标签，当你使用 **全部展开** 功能展开视觉对象时，你可以看到层次结构标签。 看到这些层次结构标签的重大好处之一是，当展开分层数据时，你可以选择按这些不同的层次结构标签 **排序**。
 
 ### <a name="using-the-built-in-expand-feature-without-sorting-by-hierarchy-labels"></a>使用内置的“展开”功能（无需按层次结构标签进行排序）
 在操作中查看内联层次结构标签之前，我们来看一下默认的“展开到下一级别”功能的行为方式  。 这样会帮助我们了解（和意识到）内联层次结构标签能起到多大的作用。
@@ -68,18 +68,18 @@ ms.locfileid: "85233720"
 
 在展开状态下可能会使你的视觉对象出现卡顿的操作：
 
-1. 启用**内联层次结构标签**功能
+1. 启用 **内联层次结构标签** 功能
 2. 创建带有层次结构的视觉对象
-3. 然后**全部展开**并保存文件
+3. 然后 **全部展开** 并保存文件
 4. 随后 *禁用***内联层次结构标签** 功能，并重新启动 Power BI Desktop
 5. 然后重新打开文件
 
 如果碰巧执行了这些步骤，并且在展开模式中视觉对象出现卡顿，则可以执行以下操作来解决：
 
-1. 重新启用**内联层次结构标签**功能，然后重新启动 Power BI Desktop
+1. 重新启用 **内联层次结构标签** 功能，然后重新启动 Power BI Desktop
 2. 重新打开你的文件，并钻取回受影响的视觉对象顶部
 3. 保存文件
-4. 禁用**内联层次结构标签**功能，然后重新启动 Power BI Desktop
+4. 禁用 **内联层次结构标签** 功能，然后重新启动 Power BI Desktop
 5. 重新打开文件
 
 或者，你可以删除你的视觉对象并重新创建。

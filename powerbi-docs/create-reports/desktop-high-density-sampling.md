@@ -2,19 +2,19 @@
 title: Power BI 中的高密度行采样
 description: Power BI 中的高密度行采样
 author: davidiseminger
+ms.author: davidi
 ms.reviewer: ''
 ms.service: powerbi
-ms.subservice: powerbi-desktop
+ms.subservice: pbi-reports-dashboards
 ms.topic: conceptual
 ms.date: 05/08/2019
-ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: a41af59873aa8e0504e7ee808a2e87dba1af1121
-ms.sourcegitcommit: e8ed3d120699911b0f2e508dc20bd6a9b5f00580
+ms.openlocfilehash: 5ece102d2facb0957e62fbfc0d679089a58c34e6
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/11/2020
-ms.locfileid: "86262867"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96396834"
 ---
 # <a name="high-density-line-sampling-in-power-bi"></a>Power BI 中的高密度行采样
 从 2017 年 6 月发布 Power BI Desktop 和 Power BI 服务更新开始，可使用新的采样算法来改进对高密度数据进行采样的视觉对象 。 例如，每个零售店每年的销售额超过一万，可以根据零售店的销售业绩创建一个折线图。 此类销售信息折线图对每个零售店的数据进行数据采样（选择有意义的数据代表，以展示销售情况如何随时间变化），并创建一个多系列折线图表示基础数据。 这是将高密度数据可视化的常见做法。 Power BI Desktop 改进了高密度数据的采样，本文详细介绍了相关信息。

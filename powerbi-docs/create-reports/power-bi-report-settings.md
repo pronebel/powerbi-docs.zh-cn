@@ -2,19 +2,19 @@
 title: 更改 Power BI 报表的设置
 description: 更改 Power BI 服务中报表的设置
 author: maggiesMSFT
+ms.author: maggies
 ms.reviewer: ''
 ms.service: powerbi
-ms.subservice: powerbi-service
+ms.subservice: pbi-reports-dashboards
 ms.topic: how-to
 ms.date: 10/14/2020
-ms.author: maggies
 LocalizationGroup: Reports
-ms.openlocfilehash: dd87501a6865b9ea450e3154ee2ac56e0710a067
-ms.sourcegitcommit: fddba666c6ea90d525a1c3188bbd3c4a03410cdc
+ms.openlocfilehash: dbb173c65ecfc5d1ca464387ed43ae615cdcbca1
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/23/2020
-ms.locfileid: "92463026"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96396167"
 ---
 # <a name="change-settings-for-power-bi-reports"></a>更改 Power BI 报表的设置
 
@@ -43,7 +43,7 @@ ms.locfileid: "92463026"
 1. 选择“文件” > “选项和设置” > “选项”。
 1. 在“当前文件”下，选择“报表设置” 。
 
-    :::image type="content" source="media/power-bi-report-settings/desktop-report-settings-pane.png" alt-text="Power BI 服务中“报表设置”窗格的屏幕截图。":::
+    :::image type="content" source="media/power-bi-report-settings/desktop-report-settings-pane.png" alt-text="Power BI Desktop 中的“报表设置”窗格的屏幕截图":::
 
     本文的其余部分将介绍某些特定的报表设置。
 
@@ -51,7 +51,7 @@ ms.locfileid: "92463026"
 
 1. 在报表“阅读”视图中，选择“文件” > “设置” 。
 
-    :::image type="content" source="media/power-bi-report-settings/service-report-file-settings.png" alt-text="Power BI 服务中“报表设置”窗格的屏幕截图。":::
+    :::image type="content" source="media/power-bi-report-settings/service-report-file-settings.png" alt-text="从“文件”菜单到“设置”的屏幕截图。":::
 
 1. 在“设置”窗格中，可以看到仅针对此报表可以设置的多个切换。 本文的其余部分将介绍其中的一些内容。
 
@@ -63,7 +63,7 @@ ms.locfileid: "92463026"
 
 目前只能更改 Power BI 服务中的“页面”窗格设置。 在你将“页面”窗格切换为开启时，报表读取者会在“阅读”视图中报表的底部（而不是侧面）看到报表页选项卡。 在“编辑”视图中，报表页选项卡已位于报表的底部。
 
-:::image type="content" source="media/power-bi-report-settings/report-settings-pages-pane.png" alt-text="Power BI 服务中“报表设置”窗格的屏幕截图。":::
+:::image type="content" source="media/power-bi-report-settings/report-settings-pages-pane.png" alt-text="设置“页面”窗格的屏幕截图。":::
 
 ## <a name="control-filters"></a>控制筛选器
 

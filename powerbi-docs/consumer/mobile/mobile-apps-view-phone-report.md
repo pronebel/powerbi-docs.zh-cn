@@ -2,18 +2,18 @@
 title: 查看针对你的手机进行优化的 Power BI 报表
 description: 阅读有关与经过优化，以便在 Power BI 手机应用中查看的报表页交互的信息。
 author: paulinbar
+ms.author: painbar
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: how-to
 ms.date: 05/05/2020
-ms.author: painbar
-ms.openlocfilehash: 9030d7ebacad92780a7dcafe33ae5bdded842b01
-ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
+ms.openlocfilehash: 6b2f8a7f7197d4027115266e8456cee01eb12a9f
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90856125"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96397064"
 ---
 # <a name="view-power-bi-reports-optimized-for-your-phone"></a>查看针对你的手机进行优化的 Power BI 报表
 
@@ -66,8 +66,8 @@ Power BI 报表的所有其他功能对更适合在手机上查看的报表仍�
 
 由于屏幕大小的限制，一些操作仅在焦点模式下可用：
 
-* **向下钻取**视觉对象中显示的信息。 阅读以下有关手机报表中[向下钻取和向上钻取](mobile-apps-view-phone-report.md#drill-down-in-a-visual)的详细信息。
-* 对视觉对象中的值进行**排序**。
+* **向下钻取** 视觉对象中显示的信息。 阅读以下有关手机报表中[向下钻取和向上钻取](mobile-apps-view-phone-report.md#drill-down-in-a-visual)的详细信息。
+* 对视觉对象中的值进行 **排序**。
 *  还原：清除针对视觉对象所采取的浏览步骤，并还原为报表创建时的定义集。
   
     若要清除视觉对象中的所有浏览，请点击省略号 ( **...** ) >“**还原**”。
