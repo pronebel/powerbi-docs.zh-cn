@@ -1,21 +1,21 @@
 ---
 title: 与已与你共享的 ArcGIS 地图交互
 description: 作为报表使用者在读取视图中使用 ArcGIS map for Power BI 视觉对象
-author: msftrien
+author: mihart
+ms.author: mihart
 ms.reviewer: willt, lukasz
 featuredvideoid: ''
 ms.service: powerbi
-ms.subservice: powerbi-consumer
+ms.subservice: pbi-visuals
 ms.topic: how-to
 ms.date: 09/30/2020
-ms.author: rien
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 7b81ecbc23418fec4bd264e5cb20126f871c7e52
-ms.sourcegitcommit: 5ccab484cf3532ae3a16acd5fc954b7947bd543a
+ms.openlocfilehash: 33065a518f99cf7be6c8ea494088440e7ab45474
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/06/2020
-ms.locfileid: "93413102"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96397938"
 ---
 # <a name="create-arcgis-maps-in-power-bi"></a>在 Power BI 中创建 ArcGIS 地图
 

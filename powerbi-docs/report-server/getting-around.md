@@ -2,18 +2,18 @@
 title: 管理 Power BI 报表服务器 Web 门户中的内容
 description: 阅读有关管理 Power BI 报表服务器 Web 门户中的内容的信息。
 author: maggiesMSFT
+ms.author: maggies
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: how-to
 ms.date: 05/24/2018
-ms.author: maggies
-ms.openlocfilehash: a42ffc2610021ec1f9b77fb5e950253ff8196e61
-ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
+ms.openlocfilehash: f802a190d2175deaa3431b7377bc3847bf0e8d25
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90858775"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96397731"
 ---
 # <a name="manage-content-in-the-web-portal"></a>管理 Web 门户中的内容 
 Power BI 报表服务器 Web 门户是用于查看、存储和管理 Power BI 报表、移动报表和分页报表以及 KPI 的本地位置。

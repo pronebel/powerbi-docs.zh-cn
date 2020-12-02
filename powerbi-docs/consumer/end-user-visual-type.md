@@ -2,20 +2,20 @@
 title: Power BI 中适用于企业用户的视觉对象类型
 description: Power BI 服务中的视觉对象类型
 author: mihart
+ms.author: mihart
 ms.reviewer: mihart
 ms.service: powerbi
-ms.subservice: powerbi-consumer
+ms.subservice: pbi-explore
 ms.topic: how-to
 ms.date: 10/07/2020
-ms.author: mihart
 ms.custom: contperfq4
 LocalizationGroup: Consumer
-ms.openlocfilehash: 6d2ded8060ebe663989fd4f91fc22e4163f60c93
-ms.sourcegitcommit: d2f633b4bfa271051ba1d2ef0e6e8da7dcf42818
+ms.openlocfilehash: e944cabc72e60825f286fd86e96257a780b121b6
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/08/2020
-ms.locfileid: "91830645"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96399203"
 ---
 # <a name="visual-types-in-power-bi"></a>Power BI 中的视觉对象类型
 
@@ -266,7 +266,7 @@ ArcGIS 地图和 Power BI 的结合将超越地图点表示法的地图绘制技
 使用 Power BI 问答键入自然语言查询时，可以在查询中指定视觉对象类型。  例如：
 
 
-“ ***以树状图表示的每个省/市/自治区的销售额*** ”
+“***以树状图表示的每个省/市/自治区的销售额***”
 
 ![问答会话](media/end-user-visual-type/qa-treemap.png)
 

@@ -2,20 +2,20 @@
 title: 工作区中的内容组织方式
 description: 了解工作区和工作区角色
 author: mihart
+ms.author: mihart
 ms.reviewer: lukaszp
 ms.service: powerbi
-ms.subservice: powerbi-consumer
+ms.subservice: pbi-explore
 ms.topic: how-to
 ms.date: 10/09/2020
-ms.author: mihart
 ms.custom: licensing support
 LocalizationGroup: Consumers
-ms.openlocfilehash: 7e16b01508b74b8a91cc956be8a2942b2c0e89bc
-ms.sourcegitcommit: 02484b2d7a352e96213353702d60c21e8c07c6c0
+ms.openlocfilehash: 2341306672da4c1923dc5bc97f0d1537604a1a7c
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "91983710"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96398697"
 ---
 # <a name="collaborate-in-workspaces"></a>在工作区中协作
 

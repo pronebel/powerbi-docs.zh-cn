@@ -2,26 +2,26 @@
 title: 显示 Power BI 服务中最近访问的内容
 description: Power BI 中最近访问的内容文档
 author: mihart
+ms.author: mihart
 ms.reviewer: mihart
 featuredvideoid: G26dr2PsEpk
 ms.service: powerbi
-ms.subservice: powerbi-consumer
+ms.subservice: pbi-explore
 ms.topic: how-to
 ms.date: 09/24/2020
-ms.author: mihart
 LocalizationGroup: Common tasks
-ms.openlocfilehash: 39904a0fc577ca11ae73c5bb9840232b4345e47b
-ms.sourcegitcommit: d153cfc0ce559480c53ec48153a7e131b7a31542
+ms.openlocfilehash: e11b1823c45e681d6a555bd5a4a9a751704419b2
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/29/2020
-ms.locfileid: "91527304"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96399226"
 ---
-# <a name="recent-content-in-the-power-bi-service"></a>Power BI 服务中**最近访问的**内容
+# <a name="recent-content-in-the-power-bi-service"></a>Power BI 服务中 **最近访问的** 内容
 
 [!INCLUDE[consumer-appliesto-yyny](../includes/consumer-appliesto-yyny.md)]
 
-**最近访问的**内容包含你在 Power BI 服务中访问的最近项目。 其中包括：仪表板、报表、应用和工作簿。 从导航栏中选择“最近访问”时，Power BI 按日期降序显示此内容。  若要更改排序顺序，请选择其中一个标题，然后选择“升序”或“降序”。
+**最近访问的** 内容包含你在 Power BI 服务中访问的最近项目。 其中包括：仪表板、报表、应用和工作簿。 从导航栏中选择“最近访问”时，Power BI 按日期降序显示此内容。  若要更改排序顺序，请选择其中一个标题，然后选择“升序”或“降序”。
 
 
 ![最近访问内容窗口](./media/end-user-recent/power-bi-recents.png)
@@ -47,7 +47,7 @@ ms.locfileid: "91527304"
 
 ![显示了“搜索”字段和排序箭头的屏幕截图](./media/end-user-recent/power-bi-recent-sort-search.png)
 
-请观看下面的视频，Amanda 将演示如何填充 Power BI 服务“最新动态”**** 内容列表。然后，按照视频下方的分步说明操作，自行进行尝试。
+请观看下面的视频，Amanda 将演示如何填充 Power BI 服务“最新动态”内容列表。然后，按照视频下方的分步说明操作，自行进行尝试。
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/G26dr2PsEpk" frameborder="0" allowfullscreen></iframe>
 

@@ -1,20 +1,20 @@
 ---
 title: 在 Power BI 中创建矩阵视觉对象
 description: 了解矩阵视觉对象如何在 Power BI 中实现梯级布局和具体突出显示。
-author: msftrien
+author: mihart
+ms.author: mihart
 ms.reviewer: mihart
 ms.service: powerbi
-ms.subservice: powerbi-desktop
+ms.subservice: pbi-visuals
 ms.topic: conceptual
 ms.date: 06/18/2020
-ms.author: rien
 LocalizationGroup: Visualizations
-ms.openlocfilehash: bf3210982380a0a3aa498dea8038366733182d7e
-ms.sourcegitcommit: 5ccab484cf3532ae3a16acd5fc954b7947bd543a
+ms.openlocfilehash: 33e0ee83815c739d8201fad995d84c7ee397bc6c
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/06/2020
-ms.locfileid: "93412294"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96398053"
 ---
 # <a name="create-matrix-visualizations-in-power-bi"></a>在 Power BI 中创建矩阵可视化效果
 

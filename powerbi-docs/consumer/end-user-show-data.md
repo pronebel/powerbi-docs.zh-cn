@@ -2,19 +2,19 @@
 title: 显示用于创建报表视觉对象的数据
 description: 本文档解释了 Power BI 商务用户如何“查看”用于创建报表视觉对象的数据。
 author: mihart
+ms.author: mihart
 ms.reviewer: mihart
 ms.service: powerbi
-ms.subservice: powerbi-consumer
+ms.subservice: pbi-explore
 ms.topic: how-to
 ms.date: 10/6/2020
-ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 737fe43a7a94ef5738676792e1e903564d29e4bb
-ms.sourcegitcommit: 6ba33e5a500928163e02e007f5ccd52dd2227610
+ms.openlocfilehash: 3ab587e3467f929ac7b318c2225b4f734a70e1a2
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/07/2020
-ms.locfileid: "91780231"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96399088"
 ---
 # <a name="show-data-with-power-bi-reports"></a>使用 Power BI 报表显示数据
 
@@ -22,7 +22,7 @@ ms.locfileid: "91780231"
 
 [!INCLUDE [power-bi-service-new-look-include](../includes/power-bi-service-new-look-include.md)]
 
-Power BI 视觉对象是使用基础数据集中的数据构造而成的。 如果你对幕后感兴趣，可以使用 Power BI 服务*显示*用于在报表中创建视觉对象的数据。 在用户选择“显示为表”后，Power BI 在视觉对象下方（或旁边）显示数据  。
+Power BI 视觉对象是使用基础数据集中的数据构造而成的。 如果你对幕后感兴趣，可以使用 Power BI 服务 *显示* 用于在报表中创建视觉对象的数据。 在用户选择“显示为表”后，Power BI 在视觉对象下方（或旁边）显示数据  。
 
 在仪表板上，若要查看基础数据，请使用[“导出至 Excel”](end-user-export.md)
 

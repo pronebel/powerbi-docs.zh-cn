@@ -2,20 +2,20 @@
 title: 将整个报表导出到 PowerPoint
 description: 了解如何将 Power BI 报表导出到 PowerPoint。
 author: mihart
+ms.author: mihart
 ms.reviewer: mihart
 ms.custom: contperfq4
 ms.service: powerbi
-ms.subservice: powerbi-consumer
+ms.subservice: pbi-explore
 ms.topic: how-to
 ms.date: 09/17/2020
-ms.author: mihart
 LocalizationGroup: Share your work
-ms.openlocfilehash: 61c084dca6d80a5e609f642ed6fc6894bef9e63c
-ms.sourcegitcommit: d153cfc0ce559480c53ec48153a7e131b7a31542
+ms.openlocfilehash: a01b140f368ec04111f1273e3afb57ff8e6a8aee
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/29/2020
-ms.locfileid: "91527432"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96399732"
 ---
 # <a name="export-reports-to-powerpoint"></a>将报表导出到 PowerPoint
 
@@ -71,8 +71,8 @@ Power BI 服务完成导出过程后，通知横幅会发生变化以通知你�
 
 ![将打开 PowerPoint](media/end-user-powerpoint/power-bi-powerpoint-numbered.png)
 
-1. 幻灯片组的第一页包括报表名称和链接，以便能**在 Power BI 中查看**幻灯片组所基于的报表。
-2. 还可以获得有关报表的一些有用信息。 **上次数据刷新**显示导出的报表所基于的日期和时间。 **下载时间**显示 Power BI 报表导出到 PowerPoint 文件中的日期和时间。 将“下载时间”设置为导出时计算机的时区。
+1. 幻灯片组的第一页包括报表名称和链接，以便能 **在 Power BI 中查看** 幻灯片组所基于的报表。
+2. 还可以获得有关报表的一些有用信息。 **上次数据刷新** 显示导出的报表所基于的日期和时间。 **下载时间** 显示 Power BI 报表导出到 PowerPoint 文件中的日期和时间。 将“下载时间”设置为导出时计算机的时区。
 
 
 3. 每个报表页面都是单独的幻灯片，如导航窗格所示。 

@@ -2,20 +2,20 @@
 title: 使用 Power BI 服务打印
 description: 使用 Power BI 打印仪表板、磁贴或报表页。
 author: mihart
+ms.author: mihart
 ms.reviewer: mihart
 featuredvideoid: ''
 ms.service: powerbi
-ms.subservice: powerbi-consumer
+ms.subservice: pbi-explore
 ms.topic: how-to
 ms.date: 09/19/2020
-ms.author: mihart
 LocalizationGroup: Common tasks
-ms.openlocfilehash: 600b8d1447d50a1647097d94df9077299f00cccf
-ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
+ms.openlocfilehash: d861bbc32584ccbc95d7bcc13701938f671f0c73
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90860347"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96399548"
 ---
 # <a name="printing-from-the-power-bi-service"></a>使用 Power BI 服务打印
 
@@ -72,14 +72,14 @@ ms.locfileid: "90860347"
 
 4. 选择“打印”图标 ![打印图标](./media/end-user-print/print-icon.png).     
 
-5. 将打开浏览器的“打印”窗口。 选择设置。 例如，如果磁贴不在页面上，则可能需要将缩放更改为 75%。 选择“打印”****。
+5. 将打开浏览器的“打印”窗口。 选择设置。 例如，如果磁贴不在页面上，则可能需要将缩放更改为 75%。 选择“打印”。
 
     ![打印窗口](./media/end-user-print/power-bi-scale.png) 
 
 > [!TIP]
 > 如果已执行了所有这些步骤，但磁贴仍未以所需的方式显示，请尝试以下操作。
 > 1. 打开“打印”窗口，更改你认为将获得最佳打印输出的打印设置。 例如，更改布局、边距和缩放。 
-> 2. 但请选择“取消”，而不是打印****。 
+> 2. 但请选择“取消”，而不是打印。 
 > 3. 再次完成步骤 1-5。 磁贴将调整为新的“打印”窗口设置，并准备打印。
 
 ## <a name="print-a-report-page"></a>打印报表页
@@ -90,7 +90,7 @@ ms.locfileid: "90860347"
     ![Power BI 文件菜单](./media/end-user-print/power-bi-print-report.png)
 2. 将打开浏览器的“打印”窗口。
 
-3. 按照上面“打印仪表板”中的打印步骤进行操作****。
+3. 按照上面“打印仪表板”中的打印步骤进行操作。
    
 
 
@@ -105,7 +105,7 @@ ms.locfileid: "90860347"
     ![Power BI“文件”菜单的屏幕截图](./media/end-user-print/power-bi-visual-print.png)
 
 
-3. 按照上面“打印仪表板”中的打印步骤进行操作****。
+3. 按照上面“打印仪表板”中的打印步骤进行操作。
 
 ## <a name="considerations-and-troubleshooting"></a>注意事项和疑难解答
 
@@ -113,7 +113,7 @@ ms.locfileid: "90860347"
 * 答：这是正确的。 一次只能打印一页报表页。
 * 问：无法打印为 PDF。    
 * 答：只有已在你的浏览器中配置 PDF 驱动程序时，才会看到此选项。    
-* 问：选择“打印”**** 时所显示的内容与此处显示的内容不匹配。    
+* 问：选择“打印”时所显示的内容与此处显示的内容不匹配。    
 * 答：打印屏幕因浏览器和软件的版本而有所不同。
 * 问：打印输出缩放不正确。  仪表板不适合页面。 其他缩放比例和方向的问题。    
 * 答：我们无法保证打印的副本与 Power BI 服务中所显示的效果完全相同。 类似缩放、边距、视觉对象详细信息、方向和大小等不受 Power BI 控制。 尝试调整浏览器的打印设置。 上面建议的部分方法是页面方向（纵向或横向）、边距大小和缩放。 如果这些方法没有帮助，请参阅特定浏览器的文档。      
