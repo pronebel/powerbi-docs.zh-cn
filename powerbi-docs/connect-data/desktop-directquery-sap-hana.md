@@ -2,19 +2,19 @@
 title: 在 Power BI 中将 DirectQuery 用于 SAP HANA
 description: 将 DirectQuery 用于 SAP HANA 时的注意事项
 author: davidiseminger
+ms.author: davidi
 ms.reviewer: ''
 ms.service: powerbi
-ms.subservice: powerbi-desktop
+ms.subservice: pbi-data-sources
 ms.topic: how-to
 ms.date: 04/10/2019
-ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 4d2c48f39fff9cd55243848b2ee62d05f9d5db00
-ms.sourcegitcommit: c83146ad008ce13bf3289de9b76c507be2c330aa
+ms.openlocfilehash: f6cb4fa1ee35754d8ffe468ddb845089f26045a9
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/10/2020
-ms.locfileid: "86216389"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96411163"
 ---
 # <a name="connect-to-sap-hana-data-sources-by-using-directquery-in-power-bi"></a>使用 Power BI 中的 DirectQuery 连接到 SAP HANA 数据源
 可以使用 DirectQuery 直接连接到 SAP HANA 数据源。 连接到 SAP HANA 时存在两个选项：

@@ -2,19 +2,19 @@
 title: 将经典工作区升级到新工作区
 description: 了解如何将经典工作区升级到新工作区。 你可以升级任何工作区，但你可能需要了解和规划某些更改。
 author: maggiesMSFT
+ms.author: maggies
 ms.reviewer: lukaszp
 ms.service: powerbi
-ms.subservice: powerbi-service
+ms.subservice: pbi-collaborate-share
 ms.topic: how-to
 ms.date: 09/30/2020
-ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 8e2b6c8d916cc3c180ab9adb9b6ea6af8eaefea4
-ms.sourcegitcommit: be424c5b9659c96fc40bfbfbf04332b739063f9c
+ms.openlocfilehash: d8e53e997aeef24d531cb733adc0b276a8395e57
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "91633046"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96411600"
 ---
 # <a name="upgrade-classic-workspaces-to-the-new-workspaces-in-power-bi"></a>在 Power BI 中将经典工作区升级到新工作区
 
@@ -128,7 +128,7 @@ ms.locfileid: "91633046"
 
 ### <a name="published-content-packs"></a>已发布内容包
 
-在升级过程中，将删除从工作区发布的内容包。 升级后，你将无法发布或更新这些内容包，即使还原到经典工作区也是如此。 如果其他人已在其自己的工作区中安装了内容包，则在升级后，他们会在其工作区中看到内容包内容的副本。 有关详细信息，请参阅**已安装内容包**部分。
+在升级过程中，将删除从工作区发布的内容包。 升级后，你将无法发布或更新这些内容包，即使还原到经典工作区也是如此。 如果其他人已在其自己的工作区中安装了内容包，则在升级后，他们会在其工作区中看到内容包内容的副本。 有关详细信息，请参阅 **已安装内容包** 部分。
 
 ### <a name="installed-content-packs"></a>已安装内容包
 

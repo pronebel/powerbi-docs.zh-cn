@@ -2,20 +2,20 @@
 title: 在 Power BI Desktop 中连接到 Azure 成本管理数据
 description: 使用 Power BI Desktop 轻松连接到 Azure，并获取有关 Azure 成本的见解
 author: davidiseminger
+ms.author: davidi
 ms.reviewer: ''
 ms.custom: ''
 ms.service: powerbi
-ms.subservice: powerbi-desktop
+ms.subservice: pbi-data-sources
 ms.topic: how-to
 ms.date: 09/30/2020
-ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: eae8afc9db44b703ade1a9a4fcc28c24c3d72641
-ms.sourcegitcommit: 51b965954377884bef7af16ef3031bf10323845f
+ms.openlocfilehash: fa06b1d561c770c3b9e0535e94789931a74bd9df
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/30/2020
-ms.locfileid: "91599870"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96411462"
 ---
 # <a name="create-visuals-and-reports-with-the-azure-cost-management-connector-in-power-bi-desktop"></a>使用 Power BI Desktop 中的 Azure 成本管理连接器创建视觉对象和报表
 
@@ -32,27 +32,27 @@ Azure 成本管理连接器使用 OAuth 2.0 向 Azure 进行身份验证，并�
 
 ## <a name="connect-using-azure-cost-management"></a>使用 Azure 成本管理连接
 
-若要在 Power BI Desktop 中使用 Azure 成本管理连接器****，请执行以下步骤：
+若要在 Power BI Desktop 中使用 Azure 成本管理连接器，请执行以下步骤：
 
 1.  在“主页”功能区中，选择“获取数据” 。
-2.  从数据类别列表中选择“Azure”****。
-3.  选择“Azure 成本管理”****。
+2.  从数据类别列表中选择“Azure”。
+3.  选择“Azure 成本管理”。
 
     ![获取数据](media/desktop-connect-azure-cost-management/azure-cost-management-00b.png)
 
-4. 在出现的对话框中，输入“计费对象信息 ID”****（对于“Microsoft 客户协议”****），或“合约编号”****（对于“企业协议 (EA)”）****。 
+4. 在出现的对话框中，输入“计费对象信息 ID”（对于“Microsoft 客户协议”），或“合约编号”（对于“企业协议 (EA)”）。 
 
 
 ## <a name="connect-to-a-microsoft-customer-agreement-account"></a>连接到 Microsoft 客户协议帐户 
 
-若要连接到 Microsoft 客户协议**** 帐户，可以从 Azure 门户获取“计费对象信息 ID”****：
+若要连接到 Microsoft 客户协议帐户，可以从 Azure 门户获取“计费对象信息 ID”：
 
 1.  在 [Azure 门户](https://portal.azure.com/)中，导航至“成本管理和计费”。
 2.  选择计费对象信息。 
-3.  在菜单中的“设置”**** 下，在边栏中选择“属性”****。
-4.  在“计费对象信息”**** 下，复制“ID”****。 
-5.  对于“选择范围”****，选择“计费对象信息 ID”**** 并粘贴上一步中的计费对象信息 ID。 
-6.  输入月数并选择“确定”****。
+3.  在菜单中的“设置”下，在边栏中选择“属性”。
+4.  在“计费对象信息”下，复制“ID”。 
+5.  对于“选择范围”，选择“计费对象信息 ID”并粘贴上一步中的计费对象信息 ID。 
+6.  输入月数并选择“确定”。
 
     ![屏幕截图显示 Azure 成本管理属性，其中范围为“计费对象信息 ID”。](media/desktop-connect-azure-cost-management/azure-cost-management-01a.png)
 
@@ -65,9 +65,9 @@ Azure 成本管理连接器使用 OAuth 2.0 向 Azure 进行身份验证，并�
 
 1.  在 [Azure 门户](https://portal.azure.com/)中，导航至“成本管理和计费”。
 2.  选择计费帐户。
-3.  在“概述”**** 菜单上，复制“计费帐户 ID”****。
-4.  对于“选择范围”****，选择“合约编号”**** 并粘贴上一步中的计费帐户 ID。 
-5.  输入月数，然后选择“确定”****。
+3.  在“概述”菜单上，复制“计费帐户 ID”。
+4.  对于“选择范围”，选择“合约编号”并粘贴上一步中的计费帐户 ID。 
+5.  输入月数，然后选择“确定”。
 
     ![屏幕截图显示 Azure 成本管理属性，其中范围为“合约编号”。](media/desktop-connect-azure-cost-management/azure-cost-management-01b.png)
 
@@ -75,7 +75,7 @@ Azure 成本管理连接器使用 OAuth 2.0 向 Azure 进行身份验证，并�
 
 ## <a name="data-available-through-the-connector"></a>通过连接器提供的数据
 
-成功经过身份验证后，将显示“导航器”**** 窗口，其中包含以下可用数据表：
+成功经过身份验证后，将显示“导航器”窗口，其中包含以下可用数据表：
 
 
 
@@ -95,13 +95,13 @@ Azure 成本管理连接器使用 OAuth 2.0 向 Azure 进行身份验证，并�
 | **使用情况详细信息** | 提供 EA 合约给定计费对象信息的已使用量的明细和估计费用。 |
 | **分摊使用情况详细信息** | 提供 EA 合约给定计费对象信息的已使用量的明细和估计摊销费用。 |
 
-可以选择某个表以查看预览对话框。 可以通过选中表名称旁边的框来选择一个或多个表，然后选择“加载”****。
+可以选择某个表以查看预览对话框。 可以通过选中表名称旁边的框来选择一个或多个表，然后选择“加载”。
 
 ![屏幕截图显示“导航器”对话框。](media/desktop-connect-azure-cost-management/azure-cost-management-01c.png)
 
 选择“加载”后，数据将加载到 Power BI Desktop。 
 
-加载所选数据后，将在“字段”**** 窗格中显示数据表和字段。
+加载所选数据后，将在“字段”窗格中显示数据表和字段。
 
 
 ## <a name="next-steps"></a>后续步骤

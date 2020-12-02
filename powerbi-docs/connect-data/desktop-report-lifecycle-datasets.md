@@ -2,19 +2,19 @@
 title: 通过 Power BI Desktop 连接 Power BI 服务中的数据集
 description: 将通用数据集用于多个工作区中的多个 Power BI Desktop 报表，并管理报表生命周期
 author: davidiseminger
+ms.author: davidi
 ms.reviewer: ''
 ms.service: powerbi
-ms.subservice: powerbi-desktop
+ms.subservice: pbi-data-sources
 ms.topic: how-to
 ms.date: 01/13/2020
-ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 5701e94991f64d1f05a867da189c814dd1484370
-ms.sourcegitcommit: 4e347efd132b48aaef6c21236c3a21e5fce285cc
+ms.openlocfilehash: e177eb9e124a26e62d392b7dd97562c11c8f9d5a
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/27/2020
-ms.locfileid: "92680454"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96411025"
 ---
 # <a name="connect-to-datasets-in-the-power-bi-service-from-power-bi-desktop"></a>通过 Power BI Desktop 连接 Power BI 服务中的数据集
 
@@ -79,7 +79,7 @@ Anna 创建一个报表并创建报表所基于的数据集。 随后 Anna 将�
 
 ![发布成功](media/desktop-report-lifecycle-datasets/report-lifecycle_07.png)
 
-现在，你的报表及其数据集已位于 Power BI 服务中，你还可以推广  它。 推广意味着证明其质量和可靠性。 你甚至还可以在 Power BI 租户中要求中心机构对其进行 *认证* 。 凭借其中任何认可，当人们查找数据集时，你的数据集都将一直在列表的顶部显示。 有关详细信息，请参阅[认可你的内容](../collaborate-share/service-endorse-content.md)。
+现在，你的报表及其数据集已位于 Power BI 服务中，你还可以推广  它。 推广意味着证明其质量和可靠性。 你甚至还可以在 Power BI 租户中要求中心机构对其进行 *认证*。 凭借其中任何认可，当人们查找数据集时，你的数据集都将一直在列表的顶部显示。 有关详细信息，请参阅[认可你的内容](../collaborate-share/service-endorse-content.md)。
 
 最后一步是为报表所基于的数据集设置“生成”权限。 “生成”权限可确定能够查看和使用数据集的人员。 可以在工作区中设置它，也可以在通过工作区共享应用时设置它。 有关详细信息，请参阅[共享数据集的生成权限](service-datasets-build-permissions.md)。
 

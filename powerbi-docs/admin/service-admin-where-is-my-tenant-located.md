@@ -2,19 +2,19 @@
 title: 我的 Power BI 租户位于何处？
 description: 了解 Power BI 租户所处的位置及选择该位置的操作过程。 了解这点很重要，因为这会影响到你与该服务的交互。
 author: kfollis
+ms.author: kfollis
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
 ms.date: 09/09/2019
-ms.author: kfollis
 LocalizationGroup: Administration
-ms.openlocfilehash: 268594b54186ca319eca6a7577dcfaa17c066fd4
-ms.sourcegitcommit: 4ac9447d1607dfca2e60948589f36a3d64d31cb4
+ms.openlocfilehash: 632eca1fdcb1bed380ad699a36264bc0239baef5
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/29/2020
-ms.locfileid: "92916098"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96412382"
 ---
 # <a name="where-is-my-power-bi-tenant-located"></a>我的 Power BI 租户位于何处？
 
@@ -28,7 +28,7 @@ ms.locfileid: "92916098"
 
 1. 在 Power BI 服务的顶部菜单栏中，依次选择帮助图标 (?)和“关于 Power BI”。
 
-1. 查看“ **您的数据存储于** ”旁的值。 这是租户所在的区域。 该值也是存储数据的区域，除非你为工作区的不同区域使用容量。
+1. 查看“**您的数据存储于**”旁的值。 这是租户所在的区域。 该值也是存储数据的区域，除非你为工作区的不同区域使用容量。
 
     ![数据区域](media/service-admin-where-is-my-tenant-located/power-bi-data-region.png)
 

@@ -2,20 +2,20 @@
 title: 在 Power Query 编辑器中使用 R
 description: 在 Power BI Desktop Power Query 编辑器中使用 R 进行高级分析。
 author: davidiseminger
+ms.author: davidi
 ms.reviewer: ''
 ms.custom: seodec18
 ms.service: powerbi
-ms.subservice: powerbi-desktop
+ms.subservice: pbi-data-sources
 ms.topic: how-to
 ms.date: 01/28/2020
-ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: e45f8b84fd0c6b0d2c38b8849a12743d4d8e109e
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: c70422cc9f02566612cf67a9a5ee1b1b4b033063
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85223134"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96411094"
 ---
 # <a name="use-r-in-power-query-editor"></a>在 Power Query 编辑器中使用 R
 
@@ -113,7 +113,7 @@ ms.locfileid: "85223134"
 
 将 .pbix 文件上传到 Power BI 服务后，需要采取其他步骤来启用服务数据刷新和更新后的视觉对象：  
 
-* **为数据集启用计划的刷新**：若要为包含数据集和 R 脚本的工作簿启用计划的刷新，请参阅[配置计划的刷新](refresh-scheduled-refresh.md)。 本文还包含有关个人网关的信息。
+* **为数据集启用计划的刷新**：若要为包含数据集和 R 脚本的工作簿启用计划的刷新，请参阅 [配置计划的刷新](refresh-scheduled-refresh.md)。 本文还包含有关个人网关的信息。
 
 * **安装个人网关**：需要在文件和 R 所在的计算机上安装个人网关。 Power BI 服务访问该工作簿并重新呈现所有更新后的视觉对象。 有关详细信息，请参阅[在 Power BI 中使用个人网关](service-gateway-personal-mode.md)。
 

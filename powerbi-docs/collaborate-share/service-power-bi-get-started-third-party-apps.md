@@ -1,21 +1,21 @@
 ---
 title: Power BI 开始使用第三方应用
 description: Power BI 开始使用第三方应用
-ms.service: powerbi
-ms.subservice: powerbi-service
-ms.topic: how-to
 author: maggiesMSFT
 ms.author: maggies
+ms.service: powerbi
+ms.subservice: pbi-collaborate-share
+ms.topic: how-to
 ms.reviewer: ''
 ms.cunstom: ''
 ms.date: 09/16/2019
 LocalizationGroup: Get started
-ms.openlocfilehash: 9e83d8689564471365666f9b4adfe2c3b9d1c05e
-ms.sourcegitcommit: d153cfc0ce559480c53ec48153a7e131b7a31542
+ms.openlocfilehash: 4b2ce1624bcbbc352ab4f4eaaeb97927c09c2d78
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/29/2020
-ms.locfileid: "91526734"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96411646"
 ---
 # <a name="get-started-with-third-party-apps"></a>开始使用第三方应用
 
@@ -56,6 +56,6 @@ ms.locfileid: "91526734"
 
 2. 在“我的应用”  页上，查找第三方应用。
 
-3. 将鼠标悬停在该应用磁贴上，单击 **(...)** 按钮，然后单击 **删除** 。
+3. 将鼠标悬停在该应用磁贴上，单击 **(...)** 按钮，然后单击 **删除**。
 
    ![屏幕截图显示撤销第三方权限的“删除”选项。](media/service-power-bi-get-started-third-party-apps/remove.png)

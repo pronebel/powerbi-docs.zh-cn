@@ -2,19 +2,19 @@
 title: 创建和发布组织内容包 - Power BI
 description: 本教程创建一个组织内容包，限制对特定组的访问，并将其发布到 Power BI 上的组织内容包库。
 author: maggiesMSFT
+ms.author: maggies
 ms.reviewer: lukaszp
 ms.service: powerbi
-ms.subservice: powerbi-service
+ms.subservice: pbi-collaborate-share
 ms.topic: how-to
 ms.date: 08/06/2019
-ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 9bb424e2e7f9e8bd32769813958d14a808339aa8
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 0a72582a54903c97dd9594f6a4a1c5980aea8e16
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85225920"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96411715"
 ---
 # <a name="tutorial-create-and-publish-a-power-bi-organizational-content-pack"></a>教程：创建和发布 Power BI 组织内容包
 
@@ -51,7 +51,7 @@ ms.locfileid: "85225920"
 
         针对本教程，尝试使用你的组的电子邮件地址。
 
-    1. 将内容包命名为*销售机会*。
+    1. 将内容包命名为 *销售机会*。
 
         > [!TIP]
         > 请考虑将仪表板名称包含在内容包名称中。 这样一来，你的同事连接到你的内容包后便可更轻松地找到仪表板。
@@ -62,7 +62,7 @@ ms.locfileid: "85225920"
 
         扫描图像比扫描文本更快。 屏幕截图显示了“机会计数”柱形图磁贴的图像。
 
-    1. 选择**机会分析示例**仪表板，将其添加到内容包。
+    1. 选择 **机会分析示例** 仪表板，将其添加到内容包。
 
         Power BI 会自动添加相关联的报表和数据集。 可以根据需要添加其他内容。
 
@@ -76,7 +76,7 @@ ms.locfileid: "85225920"
       > [!NOTE]
       > 如果组成员不能查看 Excel 工作簿，可能需要[在 OneDrive for Business 中共享工作簿](https://support.office.com/article/Share-documents-or-folders-in-Office-365-1fe37332-0f9a-4719-970e-d2578da4941c)。
 
-1. 选择**发布**将该内容包添加到组的组织内容包库。  
+1. 选择 **发布** 将该内容包添加到组的组织内容包库。  
 
    如果成功地发布，你将看到一条成功消息。
 

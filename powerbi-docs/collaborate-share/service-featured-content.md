@@ -2,19 +2,19 @@
 title: 在同事的 Power BI 主页上特别推荐内容
 description: 如何在组织中同事的 Power BI 主页上特别推荐 Power BI 仪表板和报表。
 author: maggiesMSFT
+ms.author: maggies
 ms.reviewer: nikhilga
 ms.service: powerbi
-ms.subservice: powerbi-service
+ms.subservice: pbi-collaborate-share
 ms.topic: how-to
 ms.date: 10/14/2020
-ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: eef0ba24347bd46cc86325cac494937e3f95086a
-ms.sourcegitcommit: fddba666c6ea90d525a1c3188bbd3c4a03410cdc
+ms.openlocfilehash: c45eb2afdf028f9e3a4b213333a0028924858a09
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/23/2020
-ms.locfileid: "92462434"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96411807"
 ---
 # <a name="feature-content-on-colleagues-power-bi-home-page"></a>在同事的 Power BI 主页上特别推荐内容
 
@@ -40,13 +40,13 @@ ms.locfileid: "92462434"
 
 1. 在工作区的“仪表板”或“报表”列表中，选择“设置”图标  。
 
-    :::image type="content" source="media/service-featured-content/power-bi-settings-icon.png" alt-text="Power BI 主页上的特别推荐的内容":::
+    :::image type="content" source="media/service-featured-content/power-bi-settings-icon.png" alt-text="报表设置图标":::
 
 2. 在“设置”窗格中，选中或更改名称。 根据需要添加“描述”和上传“快照” 。 它们非常有用，因为它们可帮助用户找到你的内容。
 
 3. 选择“特别推荐”。
 
-    :::image type="content" source="media/service-featured-content/power-bi-featured-content-settings.png" alt-text="Power BI 主页上的特别推荐的内容":::
+    :::image type="content" source="media/service-featured-content/power-bi-featured-content-settings.png" alt-text="特别推荐的内容设置":::
 
 4. 选择“保存”。
 

@@ -2,20 +2,20 @@
 title: 连接到 Power BI Desktop 中的数据
 description: 连接到 Power BI Desktop 中的数据
 author: davidiseminger
+ms.author: davidi
 ms.reviewer: ''
 ms.custom: seodec18
 ms.service: powerbi
-ms.subservice: powerbi-desktop
+ms.subservice: pbi-data-sources
 ms.topic: how-to
 ms.date: 01/21/2020
-ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 3319c2d3d739c1f67e5b8477de385e9dfa71e25a
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: a9fdb4e2ebd71d652c66220ad4a70473ef6dd764
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85224104"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96411278"
 ---
 # <a name="connect-to-data-sources-in-power-bi-desktop"></a>连接到 Power BI Desktop 中的数据源
 
@@ -39,7 +39,7 @@ Power BI Desktop 中有各种可用数据源。  下图显示了如何通过依�
 
 ![输入 Web 源地址](media/desktop-connect-to-data/connecttodata_3.png)
 
-选择**确定**后，Power BI Desktop 的*查询*功能就会开始运行。 Power BI Desktop 会连接到 Web 资源，“导航器”窗口将返回它在该网页上找到的结果。  在本例中，它找到一个表和整份文档。 我们对该表有兴趣，因此我们从列表中选择它。 导“导航器”窗口会显示预览信息。 
+选择 **确定** 后，Power BI Desktop 的 *查询* 功能就会开始运行。 Power BI Desktop 会连接到 Web 资源，“导航器”窗口将返回它在该网页上找到的结果。  在本例中，它找到一个表和整份文档。 我们对该表有兴趣，因此我们从列表中选择它。 导“导航器”窗口会显示预览信息。 
 
 ![在导航器中预览数据](media/desktop-connect-to-data/datasources_fromnavigatordialog.png)
 
@@ -61,7 +61,7 @@ Power BI Desktop 中有各种可用数据源。  下图显示了如何通过依�
 
 ![关闭并应用](media/desktop-connect-to-data/connecttodata_closenload.png)
 
-加载数据模型后，即可在 Power BI Desktop 的**报表**视图中通过将字段拖动到画布上开始创建可视化效果。
+加载数据模型后，即可在 Power BI Desktop 的 **报表** 视图中通过将字段拖动到画布上开始创建可视化效果。
 
 ![将值拖动到画布上](media/desktop-connect-to-data/connecttodata_dragontoreportview.png)
 

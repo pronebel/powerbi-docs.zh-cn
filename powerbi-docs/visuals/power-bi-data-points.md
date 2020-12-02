@@ -1,20 +1,20 @@
 ---
 title: 大型数据集、数据点限制和数据策略
 description: 视觉对象和数据缩减策略的数据限制
-author: msftrien
+author: mihart
+ms.author: mihart
 ms.reviewer: justyna
 ms.service: powerbi
-ms.subservice: powerbi-desktop
+ms.subservice: pbi-visuals
 ms.topic: how-to
 ms.date: 01/10/2020
-ms.author: rien
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 89bfba0dc679ddb7a9142c83e863cddaf1400063
-ms.sourcegitcommit: 5ccab484cf3532ae3a16acd5fc954b7947bd543a
+ms.openlocfilehash: 0feef179fddba93f192559c7ac7bed10c6fa5328
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/06/2020
-ms.locfileid: "93412041"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96412520"
 ---
 # <a name="apply-data-point-limits-and-strategies-by-visual-type"></a>应用数据点限制和策略（按视觉对象类型）
 
@@ -30,10 +30,10 @@ ms.locfileid: "93412041"
 ## <a name="strategies"></a>策略
 对于每个策略，存在基于要可视化的数据的形状和类型的默认值。 但可以在“Power BI 格式设置”窗格中覆盖默认值以提供正确的用户体验。 
 
-* **数据窗口化** （分段）：允许用户通过逐渐加载整个数据集的片段来滚动浏览视觉对象中的数据。
-* **前 N 个** ：仅显示前 N 项
-* **简单示例** ：显示第一个、最后一个以及第 N 个均匀分布的项。
-* **后 N 项** ：仅显示后 N 项。  可用于监视频繁更新的数据。
+* **数据窗口化**（分段）：允许用户通过逐渐加载整个数据集的片段来滚动浏览视觉对象中的数据。
+* **前 N 个**：仅显示前 N 项
+* **简单示例**：显示第一个、最后一个以及第 N 个均匀分布的项。
+* **后 N 项**：仅显示后 N 项。  可用于监视频繁更新的数据。
 * **高密度采样** - 改进了采样算法，从而更好地设置离群值和/或曲线的形状。
     * **装箱行采样** - 根据跨轴的区间中的离群值对数据点进行采样
     * **重叠点采样** - 根据用于保留离群值的重叠值对数据点进行采样
@@ -74,7 +74,7 @@ ms.locfileid: "93412041"
 - 值：通过一次使用 200 行的窗口进行虚拟化
 
 ### <a name="combo-chart"></a>组合图
- 使用相同策略作为柱形图。 请注意， **组合图** 中的行不会使用 **折线图** 使用的高密度算法。
+ 使用相同策略作为柱形图。 请注意，**组合图** 中的行不会使用 **折线图** 使用的高密度算法。
 
 ### <a name="power-bi-visuals"></a>Power BI 视觉对象
 最多可以获得 30,000 个，但由视觉对象作者指示要使用的策略。 默认限制为 1000，但视觉对象创建者可以对其进行更改，最大值为 30,000。

@@ -6,16 +6,16 @@ ms.author: maggies
 ms.reviewer: ''
 featuredvideoid: ''
 ms.service: powerbi
-ms.subservice: powerbi-service
+ms.subservice: pbi-collaborate-share
 ms.topic: conceptual
 ms.date: 10/21/2019
 LocalizationGroup: Dashboards
-ms.openlocfilehash: b5f4d615c04583e59b618b415c8c239c9295c8a8
-ms.sourcegitcommit: 0b1e96de184caf2371adedcc3ee43bcb88048187
+ms.openlocfilehash: e9247e16704ccbbee466a5f85f3a2814bdfc521f
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/24/2020
-ms.locfileid: "85299586"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96411623"
 ---
 # <a name="monitor-usage-metrics-for-power-bi-dashboards-and-reports"></a>监视 Power BI 仪表板和报表的使用情况指标
 
@@ -175,7 +175,7 @@ Power BI 在单独的国家云中可用。 这些云提供与全球版本 Power 
 
 **问：**  使用情况指标是否从嵌入的仪表板和报表中捕获视图？
 
-**答：**  使用指标目前不支持捕获嵌入的仪表板、报表和[发布到 Web](service-publish-to-web.md) 流的使用情况。 在这些情况下，我们建议使用现有的 Web 分析平台来跟踪托管应用或门户的使用情况。
+**答：**  使用指标目前不支持捕获嵌入的仪表板、报表和 [发布到 Web](service-publish-to-web.md) 流的使用情况。 在这些情况下，我们建议使用现有的 Web 分析平台来跟踪托管应用或门户的使用情况。
 
 **问：**  我根本无法对任何内容生成使用情况指标。
 

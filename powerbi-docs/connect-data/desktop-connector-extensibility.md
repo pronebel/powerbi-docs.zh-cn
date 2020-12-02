@@ -1,20 +1,20 @@
 ---
 title: Power BI 中的连接器扩展性
 description: 连接器扩展能力、功能、安全设置和经过认证的连接器
-author: cpopell
+author: davidiseminger
+ms.author: davidi
 ms.reviewer: ''
 ms.service: powerbi
-ms.subservice: powerbi-desktop
+ms.subservice: pbi-data-sources
 ms.topic: conceptual
 ms.date: 01/02/2020
-ms.author: gepopell
 LocalizationGroup: Connect to data
-ms.openlocfilehash: b604ade56335e65b25501eb9fe3d3c2fd185a6f0
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 6b78309ad17446aabacd39006968b6d397a51037
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83293504"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96411232"
 ---
 # <a name="connector-extensibility-in-power-bi"></a>Power BI 中的连接器扩展性
 
@@ -28,7 +28,7 @@ Power BI 可以通过使用现有连接器和通用数据源（例如 ODBC、ODa
 
 非认证自定义连接器可以容纳很多可能性，包括对业务至关重要的小型 API，以及 Microsoft 尚未发布连接器的大型行业特色服务。 许多连接器由供应商进行分发。 如果需要特定数据连接器，请联系供应商。 
 
-若要使用非认证自定义连接，请将连接器 .pq、.pqx、.m 或 .mez 文件放入 *Documents]* Power BI Desktop*Custom Connectors 文件夹中*   *\[\\\\* 。 如果此文件夹不存在，请创建它。
+若要使用非认证自定义连接，请将连接器 .pq、.pqx、.m 或 .mez 文件放入 *Documents]* Power BI Desktop *Custom Connectors 文件夹中*   *\[\\\\* 。 如果此文件夹不存在，请创建它。
 
 按如下所示调整数据扩展安全设置：
 

@@ -2,19 +2,19 @@
 title: 在 Power BI Desktop 中连接到 Adobe Analytics
 description: 轻松连接并使用 Adobe Analytics Power BI Desktop
 author: davidiseminger
+ms.author: davidi
 ms.reviewer: ''
 ms.service: powerbi
-ms.subservice: powerbi-service
+ms.subservice: pbi-data-sources
 ms.topic: how-to
 ms.date: 05/07/2019
-ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: bc6b40754e12531c57dfcab2923fdf999aee5481
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 89376902f1c37526ddf9376461871bcf27c2566d
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85224814"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96411485"
 ---
 # <a name="connect-to-adobe-analytics-in-power-bi-desktop"></a>在 Power BI Desktop 中连接到 Adobe Analytics 
 在 Power BI Desktop 中，可连接到“Adobe Analytics”并使用基础数据（就像在 Power BI Desktop 中使用其他所有数据源一样）   。 
@@ -34,7 +34,7 @@ ms.locfileid: "85224814"
 
 ![使用导航器选择数据](media/desktop-connect-adobe-analytics/connect-adobe-analytics_04.png)
 
-你可以**加载**选定的表，该操作将把整个表格加载到 **Power BI Desktop**中，或者你也可以**编辑**查询，这将打开**查询编辑器**，以便筛选和优化要使用的数据集，然后将优化后的数据集加载到 **Power BI Desktop** 中。
+你可以 **加载** 选定的表，该操作将把整个表格加载到 **Power BI Desktop** 中，或者你也可以 **编辑** 查询，这将打开 **查询编辑器**，以便筛选和优化要使用的数据集，然后将优化后的数据集加载到 **Power BI Desktop** 中。
 
 ![在导航器中加载或编辑数据](media/desktop-connect-adobe-analytics/connect-adobe-analytics_05.png)
 

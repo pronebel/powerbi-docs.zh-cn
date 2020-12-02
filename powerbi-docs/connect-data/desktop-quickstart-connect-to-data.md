@@ -2,19 +2,19 @@
 title: 连接到 Power BI Desktop 中的数据的快速入门
 description: 如何连接到 Power BI Desktop 中可用的数据源
 author: davidiseminger
+ms.author: davidi
 ms.reviewer: ''
 ms.service: powerbi
-ms.subservice: powerbi-desktop
+ms.subservice: pbi-data-sources
 ms.topic: quickstart
 ms.date: 01/10/2020
-ms.author: davidi
 LocalizationGroup: quickstart
-ms.openlocfilehash: d689258b4e4da5349d57b41f72d4266eb759029b
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: 94bd9d64ae7e85cb66e20ad44a03bf4ccf7e28df
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83348588"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96411048"
 ---
 # <a name="quickstart-connect-to-data-in-power-bi-desktop"></a>快速入门：连接到 Power BI Desktop 中的数据
 

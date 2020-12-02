@@ -2,19 +2,19 @@
 title: 将外部 Python IDE 与 Power BI 一起使用
 description: 可以启动并使用 Power BI 的外部 IDE
 author: otarb
+ms.author: otarb
 ms.reviewer: ''
 ms.service: powerbi
-ms.subservice: powerbi-desktop
+ms.subservice: pbi-data-sources
 ms.topic: how-to
 ms.date: 06/18/2018
-ms.author: otarb
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 8fdc0ecb4dfa1d35077e773ff7f568106168009c
-ms.sourcegitcommit: c83146ad008ce13bf3289de9b76c507be2c330aa
+ms.openlocfilehash: c93c358f79b77a9cdda51eb815c35e674150cc39
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/10/2020
-ms.locfileid: "86215366"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96411071"
 ---
 # <a name="use-an-external-python-ide-with-power-bi"></a>将外部 Python IDE 与 Power BI 一起使用
 借助 Power BI Desktop，可以使用外部的 Python IDE（集成开发环境）创建并优化 Python 脚本，然后将这些脚本用于 Power BI 中。

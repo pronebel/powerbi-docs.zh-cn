@@ -2,18 +2,19 @@
 title: 连接到用于 Power BI 工作区的 OneDrive 中的文件
 description: 阅读有关在 Power BI 工作区的 OneDrive 上存储并连接到 Excel、CSV 和 Power BI Desktop 文件的信息。
 author: maggiesMSFT
+ms.author: maggies
 ms.reviewer: lukasz
 ms.service: powerbi
+ms.subservice: pbi-collaborate-share
 ms.topic: how-to
 ms.date: 10/15/2020
-ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 738ef62811ff510b20be60851cb6bd8225b1ad34
-ms.sourcegitcommit: 59d07be9c3e4a2067f6d42c3002a194371bc4341
+ms.openlocfilehash: 6c3c43d8aad26249ac1b8afab09bdcbf1414f0cf
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "92116856"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96411968"
 ---
 # <a name="connect-to-files-stored-in-onedrive-for-your-power-bi-workspace"></a>连接到用于 Power BI 工作区的 OneDrive 中存储的文件
 [在 Power BI 中创建工作区](service-create-workspaces.md)时，会创建一个 Microsoft 365 组，其中包含关联的 OneDrive for Business。 本文介绍如何在该 OneDrive for Business 上存储和更新 Excel、CSV 和 Power BI Desktop 文件。 这些更新会按文件自动反映在 Power BI 报表和仪表板中。
@@ -55,7 +56,7 @@ ms.locfileid: "92116856"
 2. 在导航窗格底部，选择“获取数据”。 
    
    ![在导航窗格中显示的“获取数据”按钮的屏幕截图。](media/service-connect-to-files-in-app-workspace-onedrive-for-business/power-bi-app-get-data-button.png)
-3. 在 **文件** 框中，选择 **获取** 。
+3. 在 **文件** 框中，选择 **获取**。
    
    ![“文件”对话框的屏幕截图，其中显示了“获取”按钮。](media/service-connect-to-files-in-app-workspace-onedrive-for-business/pbi_getfiles.png)
 4. 选择“OneDrive” - “工作区名称”。

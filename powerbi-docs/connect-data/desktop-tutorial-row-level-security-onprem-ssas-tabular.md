@@ -2,20 +2,20 @@
 title: 通过 Analysis Services 表格模型实现动态行级别安全性
 description: 通过本地 Analysis Services 表格模型实现动态行级别安全性
 author: davidiseminger
+ms.author: davidi
 ms.reviewer: davidi
 editor: davidi
 ms.service: powerbi
-ms.subservice: powerbi-desktop
+ms.subservice: pbi-data-sources
 ms.topic: tutorial
 ms.date: 01/17/2020
-ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 047c4e7d71cbbae95f4b1f8067548d807421385d
-ms.sourcegitcommit: 3ddfd9ffe2ba334a6f9d60f17ac7243059cf945b
+ms.openlocfilehash: b1e95bc7494e1de9a8eae82578e73382081037dc
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/22/2020
-ms.locfileid: "92349589"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96410910"
 ---
 # <a name="implement-row-level-security-in-an-on-premises-analysis-services-tabular-model"></a>在本地 Analysis Services 表格模型中实现行级别安全性
 
@@ -163,7 +163,7 @@ Grace 发布报表后，接下来需在 Power BI 服务中基于该报表创建�
 
 此任务假定你熟悉 [SQL Server Profiler](/sql/tools/sql-server-profiler/sql-server-profiler)，因为你需要通过 SQL Server Profiler 捕获本地 SSAS 表格实例上发生的事件。
 
-只要用户 (Rita) 访问 Power BI 服务中的仪表板，会话就会初始化。 你会发现， **salesterritoryusers** 角色立即生效，有效用户名为 **<EffectiveUserName>rita@contoso.com</EffectiveUserName>**
+只要用户 (Rita) 访问 Power BI 服务中的仪表板，会话就会初始化。 你会发现，**salesterritoryusers** 角色立即生效，有效用户名为 **<EffectiveUserName>rita@contoso.com</EffectiveUserName>**
 ```
        <PropertyList><Catalog>DefinedSalesTabular</Catalog><Timeout>600</Timeout><Content>SchemaData</Content><Format>Tabular</Format><AxisFormat>TupleFormat</AxisFormat><BeginRange>-1</BeginRange><EndRange>-1</EndRange><ShowHiddenCubes>false</ShowHiddenCubes><VisualMode>0</VisualMode><DbpropMsmdFlattened2>true</DbpropMsmdFlattened2><SspropInitAppName>PowerBI</SspropInitAppName><SecuredCellValue>0</SecuredCellValue><ImpactAnalysis>false</ImpactAnalysis><SQLQueryMode>Calculated</SQLQueryMode><ClientProcessID>6408</ClientProcessID><Cube>Model</Cube><ReturnCellProperties>true</ReturnCellProperties><CommitTimeout>0</CommitTimeout><ForceCommitTimeout>0</ForceCommitTimeout><ExecutionMode>Execute</ExecutionMode><RealTimeOlap>false</RealTimeOlap><MdxMissingMemberMode>Default</MdxMissingMemberMode><DisablePrefetchFacts>false</DisablePrefetchFacts><UpdateIsolationLevel>2</UpdateIsolationLevel><DbpropMsmdOptimizeResponse>0</DbpropMsmdOptimizeResponse><ResponseEncoding>Default</ResponseEncoding><DirectQueryMode>Default</DirectQueryMode><DbpropMsmdActivityID>4ea2a372-dd2f-4edd-a8ca-1b909b4165b5</DbpropMsmdActivityID><DbpropMsmdRequestID>2313cf77-b881-015d-e6da-eda9846d42db</DbpropMsmdRequestID><LocaleIdentifier>1033</LocaleIdentifier><EffectiveUserName>rita@contoso.com</EffectiveUserName></PropertyList>
 ```

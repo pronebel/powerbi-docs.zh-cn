@@ -1,21 +1,21 @@
 ---
 title: 注册适用于美国政府客户的 Power BI
 description: 如果是美国政府客户，请了解如何在政府社区云中注册 Power BI。
-author: davidiseminger
+author: kfollis
+ms.author: kfollis
 ms.reviewer: ''
 ms.service: powerbi
-ms.subservice: powerbi-service
+ms.subservice: powerbi-admin
 ms.topic: conceptual
 ms.date: 04/07/2020
-ms.author: kfollis
 ms.custom: licensing support
 LocalizationGroup: Get started
-ms.openlocfilehash: 776120f9781f05376e767175a795943ab58243d3
-ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
+ms.openlocfilehash: 47fb45063a0ced5a655c073cc148e670a74a3ee8
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90855019"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96412359"
 ---
 # <a name="enroll-your-us-government-organization-in-the-power-bi-service"></a>在 Power BI 服务中注册你的美国政府组织
 

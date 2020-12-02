@@ -5,17 +5,17 @@ author: maggiesMSFT
 ms.author: maggies
 ms.reviewer: lukaszp
 ms.service: powerbi
-ms.subservice: powerbi-service
+ms.subservice: pbi-collaborate-share
 ms.topic: conceptual
 ms.date: 06/18/2020
 ms.custom: contperfq4
 LocalizationGroup: Share your work
-ms.openlocfilehash: 93ccb8c02e71165dfd23bcd82b21ae2758e03d43
-ms.sourcegitcommit: 37bd34053557089c4fbf0e05f78e959609966561
+ms.openlocfilehash: 424f3cc7412813cb9ea9f401d6edd22257e8d14a
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/10/2020
-ms.locfileid: "94396187"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96411784"
 ---
 # <a name="ways-to-collaborate-and-share-in-power-bi"></a>在 Power BI 中协作和共享的方式
 
@@ -37,7 +37,7 @@ Power BI 服务中的应用
 - 将工作区中的仪表板和报表打包为应用，并将其分发到更大的组或整个组织。
 - 在安全门户或公共网站中嵌入报表。
 - 打印报表。
-- 创建 *模板应用* ，以便通过 Microsoft AppSource 将其分发给外部 Power BI 用户。
+- 创建 *模板应用*，以便通过 Microsoft AppSource 将其分发给外部 Power BI 用户。
  
 **共享数据**
 

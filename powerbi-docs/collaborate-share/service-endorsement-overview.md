@@ -2,18 +2,18 @@
 title: 认可 - 推广和认证 Power BI 内容
 description: 了解如何通过推广或认证使高质量的内容更容易找到
 author: paulinbar
+ms.author: painbar
 ms.service: powerbi
 ms.subservice: powerbi-eim
 ms.topic: conceptual
 ms.date: 10/26/2020
-ms.author: painbar
 LocalizationGroup: Share your work
-ms.openlocfilehash: af222d1ebedf8e9afa2529d3d433da5d003a8059
-ms.sourcegitcommit: 4e347efd132b48aaef6c21236c3a21e5fce285cc
+ms.openlocfilehash: 65a83bf0e91d4f3004445ffcd8cd6f78d5a77fc3
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/27/2020
-ms.locfileid: "92681771"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96411830"
 ---
 # <a name="endorsement---promoting-and-certifying-power-bi-content"></a>认可 - 推广和认证 Power BI 内容
 
@@ -23,11 +23,11 @@ ms.locfileid: "92681771"
 
 有两种类型的认可：“推广”和“认证” 。
 
-* **推广** ：借助推广，用户可以突出显示他们认为有价值、值得并且可供他人使用的内容。 这鼓励在组织内以协作方式传播内容。
+* **推广**：借助推广，用户可以突出显示他们认为有价值、值得并且可供他人使用的内容。 这鼓励在组织内以协作方式传播内容。
 
     任何内容所有者或任何对内容所在工作区具有写入权限的成员，只要认为内容有共享价值，他们就可以轻松地推广该内容。
 
-* **验证** ：认证意味着该内容符合组织的质量标准，并可被视为可靠且权威的内容，可供在整个组织中使用。
+* **验证**：认证意味着该内容符合组织的质量标准，并可被视为可靠且权威的内容，可供在整个组织中使用。
 
     只有一组选定的审阅者（由 Power BI 管理员定义）有权认证内容。 如果内容所有者希望自己的内容获得认证，但自己无权对其进行认证，则需要遵循其组织的准则来认证其内容。
 

@@ -2,19 +2,19 @@
 title: 教程：在 Power BI Desktop 中调整和合并数据
 description: 在本教程中，将了解如何在 Power BI Desktop 中调整和合并数据
 author: davidiseminger
+ms.author: davidi
 ms.reviewer: ''
 ms.service: powerbi
-ms.subservice: powerbi-desktop
+ms.subservice: pbi-data-sources
 ms.topic: tutorial
 ms.date: 10/18/2019
-ms.author: davidi
 LocalizationGroup: Transform and shape data
-ms.openlocfilehash: b2cb9c9f9e7e168f0d095824aa42dd78eba5ba39
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: d45306776cb8f26af17208c3c57b44ffc65e20ac
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83347530"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96411117"
 ---
 # <a name="tutorial-shape-and-combine-data-in-power-bi-desktop"></a>教程：在 Power BI Desktop 中调整和合并数据
 
@@ -159,7 +159,7 @@ Power BI Desktop 中的查询编辑器大量地使用右键单击菜单和“转
 
 1. 选择公式框左侧的绿色复选标记，或按 Enter  。 
 
-   现在，行已按照“新排名”和“排名”进行排序   。 此外，还可在列表的任何位置选择**所应用步骤**，然后继续在序列中此点处调整数据。 查询编辑器在当前选定的所应用步骤后直接自动插入一个新步骤  。 
+   现在，行已按照“新排名”和“排名”进行排序   。 此外，还可在列表的任何位置选择 **所应用步骤**，然后继续在序列中此点处调整数据。 查询编辑器在当前选定的所应用步骤后直接自动插入一个新步骤  。 
 
 1. 在“应用的步骤”中，选择自定义列前面的步骤，即步骤“已删除的列”   。 我们将在此替换亚利桑那州的“天气”排名值  。 右键单击包含亚利桑那州“天气”排名的相应单元格，然后选择“替换值”   。 请注意当前选择了哪个已应用的步骤  。
 
@@ -209,16 +209,16 @@ Power BI Desktop 中的查询编辑器大量地使用右键单击菜单和“转
 
 若要对数据进行调整，请执行以下步骤：
 
-1. 删除首行。 因为它是网页表格创建方式的结果，不是所需的行。 从**开始**功能区中，选择**减少行 \> 删除行 \> 删除前几行**。
+1. 删除首行。 因为它是网页表格创建方式的结果，不是所需的行。 从 **开始** 功能区中，选择 **减少行 \> 删除行 \> 删除前几行**。
 
     ![选择“删除最前几行”](media/desktop-shape-and-combine-data/shapecombine_removetoprows.png)
 
-    将显示**删除前几行**窗口，让你执行要删除几行。
+    将显示 **删除前几行** 窗口，让你执行要删除几行。
 
     > [!NOTE]
     > 如果 Power BI 意外导入表标题作为数据表中的行，可以从“主页”  选项卡，或者从功能区的“转换”  选项卡选择“将第一行用作标题”  ，以便修复表。
 
-1. 删除底部的 26 行。 这些行的内容是美国区域，我们不需要包括这些行。 从**开始**功能区中，选择**减少行 \> 删除行 \> 删除后几行**。
+1. 删除底部的 26 行。 这些行的内容是美国区域，我们不需要包括这些行。 从 **开始** 功能区中，选择 **减少行 \> 删除行 \> 删除后几行**。
 
     ![选择“删除最后几行”](media/desktop-shape-and-combine-data/shapecombine_removebottomrows.png)
 
@@ -248,8 +248,8 @@ Power BI Desktop 中的查询编辑器大量地使用右键单击菜单和“转
 
 有两种主要方法可合并查询：合并和追加   。
 
-- 当你有一列或多列要添加到另一个查询时，你可*合并*这些查询。 
-- 当你有其他列要添加到现有查询时，你可*追加*查询。
+- 当你有一列或多列要添加到另一个查询时，你可 *合并* 这些查询。 
+- 当你有其他列要添加到现有查询时，你可 *追加* 查询。
 
 在本例中，我们需要合并查询。 为此，请执行下列步骤：
  
@@ -277,7 +277,7 @@ Power BI Desktop 中的查询编辑器大量地使用右键单击菜单和“转
 
 1. 若要扩展已合并表格，并选择要包含的列，请选择扩展图示（![“扩展”图标](media/desktop-shape-and-combine-data/icon.png)）。 
 
-   **展开**窗口随即出现。
+   **展开** 窗口随即出现。
 
    ![查询中的 NewColumn](media/desktop-shape-and-combine-data/shapecombine_mergeexpand.png)
 
@@ -286,7 +286,7 @@ Power BI Desktop 中的查询编辑器大量地使用右键单击菜单和“转
    如果选中了“使用原始列名作为前缀”的复选框，合并的列将命名为“NewColumn.State Code”   。
 
    > [!NOTE]
-   > 想了解如何引入 NewColumn 表？ 你可以试验一下，如果不喜欢结果，只需从**查询设置**窗格中**所应用步骤**列表删除该步骤，你的查询便会回到应用**展开**步骤之前的状态。 你可以不限次数地任意执行，直到展开过程看起来是你要的方式为止。
+   > 想了解如何引入 NewColumn 表？ 你可以试验一下，如果不喜欢结果，只需从 **查询设置** 窗格中 **所应用步骤** 列表删除该步骤，你的查询便会回到应用 **展开** 步骤之前的状态。 你可以不限次数地任意执行，直到展开过程看起来是你要的方式为止。
 
    现在，我们在单个查询（表）中组合了两个数据源，每个数据源都已根据需要进行调整。 此查询可以作为许多其他相关数据连接的基础，例如任何州的住房成本统计数据、人口统计数据或工作机会。
 

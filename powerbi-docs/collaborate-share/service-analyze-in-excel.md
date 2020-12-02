@@ -1,21 +1,21 @@
 ---
 title: 在 Excel 中分析 Power BI
 description: 在 Microsoft Excel 中分析 Power BI 数据集
-author: davidiseminger
+author: maggiesMSFT
+ms.author: maggies
 ms.reviewer: ''
 ms.custom: contperfq4
 ms.service: powerbi
-ms.subservice: powerbi-service
+ms.subservice: pbi-collaborate-share
 ms.topic: how-to
 ms.date: 09/22/2020
-ms.author: davidi
 LocalizationGroup: Reports
-ms.openlocfilehash: 845fb523e9045e7a1062d11eebbb5e34bcc29ce3
-ms.sourcegitcommit: ff981839e805f523748b7e71474acccf7bdcb04f
+ms.openlocfilehash: 2f0d9dbec6c40b43a3b47f9cd698efed4a2899f0
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "91020058"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96412083"
 ---
 # <a name="analyze-in-excel"></a>在 Excel 中分析
 借助“在 Excel 中分析”，可以将 Power BI 数据集引入到 Excel 中，然后使用数据透视表、图表、切片器和其他 Excel 功能查看这些数据集并与其交互。 若要使用“在 Excel 中分析”必须先从 Power BI 下载并安装该功能，然后选择一个或多个要在 Excel 中使用的数据集。 
@@ -138,12 +138,12 @@ Excel 文件有一个 MSOLAP 连接字符串，该字符串连接到 Power BI �
 
 保存工作簿后，可以将它与组织中的其他 Power BI 用户共享。 
 
-当你与某位用户共享了你的工作簿，而该用户打开该工作簿时，他将看到你在上一次保存该工作簿时显示的数据透视表和数据，但这些可能不是最新版本的数据。 若要获取最新数据，用户必须使用**数据**功能区上的**刷新**按钮。 由于工作簿连接到 Power BI 中的数据集，因此，尝试刷新工作簿的用户在首次尝试使用此方法更新时，必须登录 Power BI 并安装 Excel 更新。
+当你与某位用户共享了你的工作簿，而该用户打开该工作簿时，他将看到你在上一次保存该工作簿时显示的数据透视表和数据，但这些可能不是最新版本的数据。 若要获取最新数据，用户必须使用 **数据** 功能区上的 **刷新** 按钮。 由于工作簿连接到 Power BI 中的数据集，因此，尝试刷新工作簿的用户在首次尝试使用此方法更新时，必须登录 Power BI 并安装 Excel 更新。
 
 由于用户需要刷新数据集，但 Excel Online 不支持刷新外部连接，因此，建议用户在其计算机上的桌面版 Excel 中打开工作簿。
 
 > [!NOTE]
-> 本地数据集托管在 Analysis Services (AS) 数据库中的情况下，Power BI 租户的管理员可以使用“Power BI 管理门户”禁用“在 Excel 中分析”。 禁用该选项时，会对 AS 数据库禁用**在 Excel 中分析**，但它仍可用于其他数据集。
+> 本地数据集托管在 Analysis Services (AS) 数据库中的情况下，Power BI 租户的管理员可以使用“Power BI 管理门户”禁用“在 Excel 中分析”。 禁用该选项时，会对 AS 数据库禁用 **在 Excel 中分析**，但它仍可用于其他数据集。
 
 
 ## <a name="other-ways-to-access-power-bi-datasets-from-excel"></a>从 Excel 访问 Power BI 数据集的其他方法
@@ -160,12 +160,12 @@ Excel 文件有一个 MSOLAP 连接字符串，该字符串连接到 Power BI �
 此外，你还可以在 Excel 的“数据类型”库中访问“精选表”。 若要详细了解精选表及其访问方式，请参阅[访问 Excel 中的 Power BI 精选表（预览版）](service-excel-featured-tables.md)。
 
 ## <a name="requirements"></a>要求
-使用**在 Excel 中分析**时有以下几点要求：
+使用 **在 Excel 中分析** 时有以下几点要求：
 
-* Microsoft Excel 2010 SP1 和更高版本支持**在 Excel 中分析**。
+* Microsoft Excel 2010 SP1 和更高版本支持 **在 Excel 中分析**。
 
 * Excel 数据透视表不支持对数值字段进行拖放聚合。 你在 Power BI 中的数据集 *必须具有预定义的度量值* 。 阅读有关[创建度量值](../transform-model/desktop-measures.md)的信息。
-* 某些组织可能有组策略规则，导致无法对 Excel 安装所需的**在 Excel 中分析**更新。 如果无法安装更新，请与管理员联系。
+* 某些组织可能有组策略规则，导致无法对 Excel 安装所需的 **在 Excel 中分析** 更新。 如果无法安装更新，请与管理员联系。
 * “在 Excel 中分析”功能要求数据库位于 Power BI Premium 中或者用户具有 Power BI Pro 许可证。 若要详细了解许可证类型之间的功能差异，请参阅 [Power BI 定价](https://powerbi.microsoft.com/pricing/)的“Power BI 功能比较”部分。
 * 如果用户具有基本数据集的权限，则可通过“在 Excel 中分析”功能连接到数据集。  用户可通过多种方式获取此权限，例如成为包含此数据集的工作区的成员、具有他人向其共享了使用该数据集的报表或仪表板，或者在包含该数据集的应用或工作区中具有该数据集的生成权限。 详细了解数据集的[“生成”权限](../connect-data/service-datasets-build-permissions.md)。
 * 来宾用户无法将“在 Excel 中分析”用于发送自（源自）另一个租户的数据集。 

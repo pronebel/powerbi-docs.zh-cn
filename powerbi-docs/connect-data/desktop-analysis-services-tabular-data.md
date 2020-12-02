@@ -2,19 +2,19 @@
 title: 在 Power BI Desktop 中连接到 Analysis Services 表格数据
 description: 借助 Power BI Desktop，你可以通过使用实时连接或通过选择要导入到 Power BI Desktop 的项来连接到 SQL Server Analysis Services 表格模型并从中获取数据。
 author: davidiseminger
+ms.author: davidi
 ms.reviewer: ''
 ms.service: powerbi
-ms.subservice: powerbi-desktop
+ms.subservice: pbi-data-sources
 ms.topic: how-to
 ms.date: 01/28/2020
-ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: bb55342974bcd64e7d5871b7b84977105b7467fa
-ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
+ms.openlocfilehash: 6c31079bc0ad517a1b2bb37f8da0c0ed5240595f
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90858683"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96411508"
 ---
 # <a name="connect-to-analysis-services-tabular-data-in-power-bi-desktop"></a>在 Power BI Desktop 中连接到 Analysis Services 表格数据
 借助 Power BI Desktop，可通过两种方法连接到 SQL Server Analysis Services 表格模型并从中获取数据：通过使用实时连接浏览，或选择项并将其导入到 Power BI Desktop。

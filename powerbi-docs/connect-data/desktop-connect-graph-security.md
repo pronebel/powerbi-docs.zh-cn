@@ -1,21 +1,21 @@
 ---
 title: 连接到 Power BI Desktop 中的 Microsoft Graph Security API
 description: 轻松连接到 Power BI Desktop 中的 Microsoft Graph Security API
-author: preetikr
+author: paulinbar
+ms.author: painbar
 ms.reviewer: ''
 ms.custom: seojan19
 ms.service: powerbi
-ms.subservice: powerbi-desktop
+ms.subservice: pbi-data-sources
 ms.topic: conceptual
 ms.date: 01/29/2019
-ms.author: preetikr
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 7f08d75ecc9386dc2329c6564448023dfbfb3b9b
-ms.sourcegitcommit: 02b5d031d92ea5d7ffa70d5098ed15e4ef764f2a
+ms.openlocfilehash: b3aa9be7be6e2769367cd3337b78030d52bde0c7
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/26/2020
-ms.locfileid: "91374950"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96411416"
 ---
 # <a name="connect-to-the-microsoft-graph-security-api-in-power-bi-desktop"></a>连接到 Power BI Desktop 中的 Microsoft Graph Security API
 

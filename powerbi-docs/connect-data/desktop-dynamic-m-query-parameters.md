@@ -2,19 +2,19 @@
 title: Power BI Desktop 中的动态 M 查询参数（预览）
 description: 在 Power BI Desktop 中创建动态 M 查询参数
 author: davidiseminger
+ms.author: davidi
 ms.reviewer: ''
 ms.service: powerbi
-ms.subservice: powerbi-desktop
+ms.subservice: pbi-data-sources
 ms.topic: how-to
 ms.date: 10/22/2020
-ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 104692fff7f94168a505dc6e1f2c513d647554ce
-ms.sourcegitcommit: 3ddfd9ffe2ba334a6f9d60f17ac7243059cf945b
+ms.openlocfilehash: 7f7dd319c69291f690dae5cd18b95285618df07b
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/22/2020
-ms.locfileid: "92349635"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96411186"
 ---
 # <a name="dynamic-m-query-parameters-in-power-bi-desktop-preview"></a>Power BI Desktop 中的动态 M 查询参数（预览）
 

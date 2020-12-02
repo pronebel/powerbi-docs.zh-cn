@@ -2,18 +2,18 @@
 title: Power BI Pro 和 Power BI Premium 支持选项
 description: 本文介绍可用于 Power BI Pro 和 Power BI Premium 客户的支持选项。
 author: kfollis
+ms.author: kfollis
 ms.reviewer: ''
 ms.service: powerbi
-ms.subservice: powerbi-service
+ms.subservice: powerbi-admin
 ms.topic: conceptual
 ms.date: 09/17/2019
-ms.author: kfollis
-ms.openlocfilehash: 3ec6e3f060b495efd6b961a7a16d8e1cf68f44c9
-ms.sourcegitcommit: a7b142685738a2f26ae0a5fa08f894f9ff03557b
+ms.openlocfilehash: 3071d9034883c61837370348b2047c1874d0c977
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/28/2020
-ms.locfileid: "84120631"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96412037"
 ---
 # <a name="power-bi-pro-and-power-bi-premium-support-options"></a>Power BI Pro 和 Power BI Premium 支持选项
 
@@ -28,7 +28,7 @@ ms.locfileid: "84120631"
 | **Microsoft 顶级支持**：企业级支持，通过帐户管理实现，提供现场支持选项，提供培训和数据模型性能优化等主动服务。 | X | X | X | 各种支持，具体取决于产品/服务和事件的严重级别。\* | 技术客户经理 <br>OR<br> [MIcrosoft 365 管理中心](https://portal.office.com/adminportal) |
 | | | | | | |
 
-\* 一小时 SLA 仅通过_严重级别 A 事例_提供，这需要在现有生产报告中就停工所造成的即时直接的业务影响给予合理的解释。
+\* 一小时 SLA 仅通过 _严重级别 A 事例_ 提供，这需要在现有生产报告中就停工所造成的即时直接的业务影响给予合理的解释。
 
 ## <a name="power-bi-benefits-for-microsoft-premier-support"></a>Power BI 的 Microsoft 顶级支持优势
 
