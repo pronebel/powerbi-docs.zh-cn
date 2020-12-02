@@ -2,20 +2,20 @@
 title: 在 Power BI Desktop 中连接到 Azure 使用见解数据
 description: 使用 Power BI Desktop 轻松连接到 Azure，并获取有关使用情况的见解
 author: davidiseminger
+ms.author: davidi
 ms.reviewer: ''
 ms.custom: seodec18
 ms.service: powerbi
-ms.subservice: powerbi-desktop
+ms.subservice: pbi-data-sources
 ms.topic: how-to
 ms.date: 10/14/2019
-ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 7d036af591ae9c5fc44370085480c9266e328745
-ms.sourcegitcommit: be424c5b9659c96fc40bfbfbf04332b739063f9c
+ms.openlocfilehash: d400684358e5992d9c29e2c5838ca777e3695cf5
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "91632586"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96406080"
 ---
 # <a name="connect-to-azure-consumption-insights-data-in-power-bi-desktop"></a>在 Power BI Desktop 中连接到 Azure 使用见解数据
 

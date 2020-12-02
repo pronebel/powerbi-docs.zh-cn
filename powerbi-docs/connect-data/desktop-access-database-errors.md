@@ -2,20 +2,20 @@
 title: 解决 Power BI Desktop 中的 Access 和 .XLS 导入问题
 description: 解决在 Power BI Desktop 和 Power Query 中导入 Access 数据库和 .XLS 电子表格出现的问题
 author: davidiseminger
+ms.author: davidi
 ms.reviewer: ''
 ms.custom: seodec18
 ms.service: powerbi
-ms.subservice: powerbi-desktop
+ms.subservice: pbi-data-sources
 ms.topic: how-to
 ms.date: 10/21/2019
-ms.author: davidi
 LocalizationGroup: Troubleshooting
-ms.openlocfilehash: 6d3279a8fa8421dbe466d7d165e1cb3d96ab926f
-ms.sourcegitcommit: be424c5b9659c96fc40bfbfbf04332b739063f9c
+ms.openlocfilehash: f8d24c672fa3e9d5cda007e061eac8c4ea9c6d4c
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "91634748"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96406034"
 ---
 # <a name="troubleshoot-importing-access-and-excel-xls-files-in-power-bi-desktop"></a>在 Power BI Desktop 中导入 Access 和 Excel .xls 文件的疑难解答
 
@@ -42,7 +42,7 @@ ms.locfileid: "91634748"
    
    ![“Power BI Desktop 下载”页面上的“高级下载”选项](media/desktop-access-database-errors/desktop-access-errors-1.png)
    
-1. 在出现的下载页上选择你的语言，然后选择**下载**按钮。 
+1. 在出现的下载页上选择你的语言，然后选择 **下载** 按钮。 
  
 1. 在出现的屏幕上，选择 PBIDesktop.msi 旁边的复选框以选择 32 位版本，或 PBIDesktop_x64.msi 旁边的复选框以选择 64 位版本。 
 

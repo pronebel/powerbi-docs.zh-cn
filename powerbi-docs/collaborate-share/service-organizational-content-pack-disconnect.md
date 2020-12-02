@@ -2,19 +2,19 @@
 title: 与组织内容包断开连接 - Power BI
 description: 了解如何通过删除 Power BI 中的数据集来解除与组织内容包的连接。
 author: maggiesMSFT
+ms.author: maggies
 ms.reviewer: lukaszp
 ms.service: powerbi
-ms.subservice: powerbi-service
+ms.subservice: pbi-collaborate-share
 ms.topic: how-to
 ms.date: 08/02/2018
-ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 031feb65d3a99dd18a7d47b44af1f346859d32d1
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 5cd1ebd1502241cf07e7de8cff5f0eb769a1b59f
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85225784"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96406402"
 ---
 # <a name="remove-your-connection-to-a-power-bi-organizational-content-pack"></a>删除与 Power BI 组织内容包的连接
 

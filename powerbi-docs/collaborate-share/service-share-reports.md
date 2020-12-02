@@ -2,20 +2,20 @@
 title: 筛选并共享 Power BI 报表
 description: 了解如何筛选 Power BI 报表并与组织中的同事共享。
 author: maggiesMSFT
+ms.author: maggies
 ms.reviewer: lukaszp
 featuredvideoid: 0tUwn8DHo3s
 ms.service: powerbi
-ms.subservice: powerbi-service
+ms.subservice: pbi-collaborate-share
 ms.topic: how-to
 ms.date: 01/29/2020
-ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 2988f02b8207eafe5155073af9acc60dcb0a81cf
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 0e086b6ab5ce3411697607bfbda25bb0b82c6dca
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85225333"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96406609"
 ---
 # <a name="filter-and-share-a-power-bi-report"></a>筛选并共享 Power BI 报表
 共享是一种使多人能够访问你的仪表板和报表的有效方式。 如果你想要共享筛选的报表版本，该怎么办？ 也许你希望报表仅显示特定城市或销售人员或年份的数据。 本文介绍如何筛选报表并共享报表的筛选版本。 共享筛选报表的另一种方法是[将查询参数添加到报表 URL](service-url-filters.md)。 在这两种情况下，收件人第一次打开报表时，将对其进行筛选。 用户可以清除报表中的筛选选项。
@@ -55,7 +55,7 @@ Power BI 还提供了[其他开展协作和分发报表的方式](service-how-to
 
 ## <a name="share-the-filtered-report"></a>共享筛选的报表
 
-1. 选择**共享**。
+1. 选择 **共享**。
 
    ![选择“共享”](media/service-share-reports/power-bi-share.png)
 

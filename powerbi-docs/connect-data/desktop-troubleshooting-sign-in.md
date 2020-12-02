@@ -2,19 +2,19 @@
 title: Power BI Desktop 中的登录问题疑难解答
 description: 登录到 Power BI Desktop 的常见问题的解决方案
 author: davidiseminger
+ms.author: davidi
 ms.reviewer: ''
 ms.service: powerbi
-ms.subservice: powerbi-service
+ms.subservice: pbi-data-sources
 ms.topic: troubleshooting
 ms.date: 03/05/2020
-ms.author: davidi
 LocalizationGroup: Troubleshooting
-ms.openlocfilehash: e1358cb8cbe37e0b44cd6a60069ad9ec707d12d8
-ms.sourcegitcommit: a453ba52aafa012896f665660df7df7bc117ade5
+ms.openlocfilehash: 4a825c2e3bcfdbe637c59fde9c33dc23ad326b0e
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/27/2020
-ms.locfileid: "85485498"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96404402"
 ---
 # <a name="troubleshooting-sign-in-for-power-bi-desktop"></a>Power BI Desktop 登录问题疑难解答
 在尝试登录 Power BI Desktop 时，可能有时会遇到错误。 登录时遇到问题的两个主要原因有：代理身份验证错误和非 HTTPS URL 重定向错误。 

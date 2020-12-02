@@ -2,19 +2,19 @@
 title: Power BI 中的数据刷新
 description: 本文从概念层面介绍了 Power BI 的数据刷新功能及其依赖项。
 author: davidiseminger
+ms.author: davidi
 ms.reviewer: kayu
 ms.service: powerbi
-ms.subservice: powerbi-service
+ms.subservice: pbi-data-sources
 ms.topic: how-to
 ms.date: 06/16/2020
-ms.author: davidi
 LocalizationGroup: Data refresh
-ms.openlocfilehash: c5be2a9fa87b55d0a1b98e284ec4b6b7e1dd9c0c
-ms.sourcegitcommit: be424c5b9659c96fc40bfbfbf04332b739063f9c
+ms.openlocfilehash: 212aa0648a2677536912c15a17ba6916bb871313
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "91633368"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96404493"
 ---
 # <a name="data-refresh-in-power-bi"></a>Power BI 中的数据刷新
 
@@ -118,7 +118,7 @@ Power BI 会根据 OneDrive 中的项 ID 执行刷新，因此在考虑进行更
 
 ![刷新历史记录](media/refresh-data/refresh-history.png)
 
-如上面的屏幕截图所示，Power BI 将此 OneDrive 刷新标识为**计划**刷新，但无法配置刷新间隔。 只能在数据集设置中停用 OneDrive 刷新。 如果不希望 Power BI 中的数据集和报表自动从源文件中获取任何更改，则停用刷新非常有用。
+如上面的屏幕截图所示，Power BI 将此 OneDrive 刷新标识为 **计划** 刷新，但无法配置刷新间隔。 只能在数据集设置中停用 OneDrive 刷新。 如果不希望 Power BI 中的数据集和报表自动从源文件中获取任何更改，则停用刷新非常有用。
 
 请注意，仅当数据集连接到 OneDrive 或 SharePoint Online 中的文件时，数据集设置页面才会显示“OneDrive 凭据”和“OneDrive 刷新”部分，如以下屏幕截图所示 。 未连接到 OneDrive 或 SharePoint Online 中的源文件的数据集不显示这些部分。
 

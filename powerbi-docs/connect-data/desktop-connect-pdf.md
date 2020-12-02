@@ -2,19 +2,19 @@
 title: 连接到 Power BI Desktop 中的 PDF 文件
 description: 在 Power BI Desktop 中轻松连接并使用 PDF 文件中的数据
 author: davidiseminger
+ms.author: davidi
 ms.reviewer: ''
 ms.service: powerbi
-ms.subservice: powerbi-desktop
+ms.subservice: pbi-data-sources
 ms.topic: how-to
 ms.date: 07/16/2020
-ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 785ad7b7d10a164f8257f8aacab177116c0b553b
-ms.sourcegitcommit: cfcde5ff2421be35dc1efc9e71ce2013f55ec78f
+ms.openlocfilehash: ba0c1c6babe63c02ef0cd96a7cb5695e2c916c68
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/18/2020
-ms.locfileid: "86459614"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96405758"
 ---
 # <a name="connect-to-pdf-files-in-power-bi-desktop"></a>在 Power BI Desktop 中连接到 PDF 文件
 在 Power BI Desktop 中，可以连接到 PDF 文件并使用文件中包含的数据，就像在 Power BI Desktop 中使用任何其他数据源一样  。

@@ -2,20 +2,20 @@
 title: Project Online：通过 Power BI Desktop 连接到数据
 description: Project Online：通过 Power BI Desktop 连接到数据
 author: davidiseminger
+ms.author: davidi
 ms.reviewer: ''
 ms.custom: seodec18
 ms.service: powerbi
-ms.subservice: powerbi-desktop
+ms.subservice: pbi-data-sources
 ms.topic: how-to
 ms.date: 04/01/2020
-ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 807ba59066508d063dba2e2f921eff19cf018bc5
-ms.sourcegitcommit: c83146ad008ce13bf3289de9b76c507be2c330aa
+ms.openlocfilehash: b6078a2122a77682af328f9935b23da0d0d0d945
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/10/2020
-ms.locfileid: "86214596"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96404930"
 ---
 # <a name="connect-to-project-online-data-through-power-bi-desktop"></a>通过 Power BI Desktop 连接到 Project Online 数据
 可以通过 Power BI Desktop 连接到 Project Online 中的数据。

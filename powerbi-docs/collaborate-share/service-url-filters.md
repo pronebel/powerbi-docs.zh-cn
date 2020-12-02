@@ -6,16 +6,16 @@ ms.author: maggies
 ms.reviewer: ''
 featuredvideoid: ''
 ms.service: powerbi
-ms.subservice: powerbi-service
+ms.subservice: pbi-collaborate-share
 ms.topic: how-to
 ms.date: 07/16/2020
 LocalizationGroup: Reports
-ms.openlocfilehash: 5d5647216caee4eae648d0be0ebf3f453cd17d71
-ms.sourcegitcommit: be424c5b9659c96fc40bfbfbf04332b739063f9c
+ms.openlocfilehash: 7015eb1298649534a6e93cb9d6671250c6c77b94
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "91632991"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96406356"
 ---
 # <a name="filter-a-report-using-query-string-parameters-in-the-url"></a>通过在 URL 中添加查询字符串参数来筛选报表
 
@@ -172,11 +172,11 @@ URL 筛选器已支持字段值中的所有特殊字符，但单引号 (') 除�
 
 - `?filter=Table/Name eq 'Lee''s Summit'` 变为：
 
-    :::image type="content" source="media/service-url-filters/power-bi-url-filter-lees.png" alt-text="Name is O'Brien":::
+    :::image type="content" source="media/service-url-filters/power-bi-url-filter-lees.png" alt-text="Lee's Summit":::
 
 - `in` 运算符也支持这种转义：`?filter=Table/Name in ('Lee''s Summit', 'O''Brien')` 变为：
 
-    :::image type="content" source="media/service-url-filters/power-bi-url-filter-in.png" alt-text="Name is O'Brien":::
+    :::image type="content" source="media/service-url-filters/power-bi-url-filter-in.png" alt-text="Lee's Summit or O'Brien":::
 
 ## <a name="use-dax-to-filter-on-multiple-values"></a>使用 DAX 来对多个值进行筛选
 

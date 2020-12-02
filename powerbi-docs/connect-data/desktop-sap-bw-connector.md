@@ -2,19 +2,19 @@
 title: 在 Power BI Desktop 中使用 SAP Business Warehouse (BW) 连接器
 description: 在 Power BI Desktop 中使用 SAP BW 连接器
 author: davidiseminger
+ms.author: davidi
 ms.reviewer: ''
 ms.service: powerbi
-ms.subservice: powerbi-desktop
+ms.subservice: pbi-data-sources
 ms.topic: how-to
 ms.date: 01/13/2020
-ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 1b3250124fa813f3da96e63455d483cf05f01cb6
-ms.sourcegitcommit: 51b965954377884bef7af16ef3031bf10323845f
+ms.openlocfilehash: 1808638ad0ccaa2adc57d56bf1677dea0ca24440
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/30/2020
-ms.locfileid: "91598849"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96404654"
 ---
 # <a name="use-the-sap-business-warehouse-connector-in-power-bi-desktop"></a>在 Power BI Desktop 中使用 SAP Business Warehouse 连接器
 
@@ -77,9 +77,9 @@ SAP 连接器的 Implementation 2.0 需要使用 SAP .NET 连接器 3.0。 只�
 
 “导航器”  对话框还提供显示选项：
 
-* **仅显示选定项** 。 默认情况下，“导航器”  显示所有项。  此选项可用于验证最终选定的一组项。 查看选定项的另一种方法是选择预览区域中的列名称。
-* **启用数据预览** 。 此值为默认值。 显示数据预览。 禁用数据预览会减少服务器调用的数量，因其将不再请求数据进行预览。
-* **技术名称** 。 对于多维数据集中的对象，SAP BW 支持技术名称的概念  。 技术名称允许多维数据集所有者公开多维数据集对象的友好名称  ，而不是仅公开多维数据集中的那些对象的物理名称  。
+* **仅显示选定项**。 默认情况下，“导航器”  显示所有项。  此选项可用于验证最终选定的一组项。 查看选定项的另一种方法是选择预览区域中的列名称。
+* **启用数据预览**。 此值为默认值。 显示数据预览。 禁用数据预览会减少服务器调用的数量，因其将不再请求数据进行预览。
+* **技术名称**。 对于多维数据集中的对象，SAP BW 支持技术名称的概念  。 技术名称允许多维数据集所有者公开多维数据集对象的友好名称  ，而不是仅公开多维数据集中的那些对象的物理名称  。
 
 ![导航器窗口](media/desktop-sap-bw-connector/sap_bw_6.png)
 

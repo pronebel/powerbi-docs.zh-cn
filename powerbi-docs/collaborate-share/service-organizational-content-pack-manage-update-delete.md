@@ -2,19 +2,19 @@
 title: 组织内容包：管理和更新
 description: 详细了解如何在 Power BI 中管理、更新和删除组织内容包。
 author: maggiesMSFT
+ms.author: maggies
 ms.reviewer: lukaszp
 ms.service: powerbi
-ms.subservice: powerbi-service
+ms.subservice: pbi-collaborate-share
 ms.topic: how-to
 ms.date: 08/02/2018
-ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: d741a489c5655e5a08f49f7197389a67c5d016ed
-ms.sourcegitcommit: 181679a50c9d7f7faebcca3a3fc55461f594d9e7
+ms.openlocfilehash: fb47df4f81225d8e55fbc637331f85f36337aade
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/07/2020
-ms.locfileid: "86034396"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96406425"
 ---
 # <a name="manage-update-and-delete-organizational-content-packs"></a>管理、更新和删除组织内容包
 > [!NOTE]
@@ -46,8 +46,8 @@ ms.locfileid: "86034396"
    ![右上角的齿轮图标的屏幕截图。](media/service-organizational-content-pack-manage-update-delete/pbi_contpkview.png)
    
    注意警告图标 ![警告图标的屏幕截图。](media/service-organizational-content-pack-manage-update-delete/pbi_contpkwarningicon.png)。  该图标表示你已以某种方式修改内容包，使其不再与已发布的内容包相同。
-3. 选择**编辑**。  
-4. 在**更新内容包**窗口中进行任何所需更改，然后选择**更新**。 将显示**成功**消息。
+3. 选择 **编辑**。  
+4. 在 **更新内容包** 窗口中进行任何所需更改，然后选择 **更新**。 将显示 **成功** 消息。
    
    * 对于未自定义内容包的组成员，将自动应用更新。
    * 已自定义内容包的组成员将收到有新版本的通知。  他们可以转到 AppSource，并获取更新后的内容包，而不会丢失个性化版本。  他们现将具有 2 个版本：个性化版本和更新的内容包。  在个性化版本中，来自原始内容包的所有磁贴将消失。  但仍将呈现固定自其他报表的磁贴。 然而，一旦内容包所有者删除内容包所基于的数据集，则整个报表将消失。  
@@ -57,7 +57,7 @@ ms.locfileid: "86034396"
 
 1. 选择齿轮图标 ![齿轮图标的屏幕截图。](media/service-organizational-content-pack-manage-update-delete/cog.png) 然后选择“查看内容包”。
 2. 选择“编辑”。 
-3. 在**更新内容包**窗口中进行任何所需更改，然后选择**更新**。 例如，删除**特定组**字段中的原始通讯组，并将其替换为（成员较少的）其他通讯组。
+3. 在 **更新内容包** 窗口中进行任何所需更改，然后选择 **更新**。 例如，删除 **特定组** 字段中的原始通讯组，并将其替换为（成员较少的）其他通讯组。
    
    将显示“成功”消息。
    

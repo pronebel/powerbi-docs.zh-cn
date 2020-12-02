@@ -2,19 +2,19 @@
 title: 在 Power BI 查询编辑器中使用 Python
 description: 在 Power BI Desktop 查询编辑器中使用 Python 进行高级分析
 author: otarb
+ms.author: otarb
 ms.reviewer: ''
 ms.service: powerbi
-ms.subservice: powerbi-desktop
+ms.subservice: pbi-data-sources
 ms.topic: how-to
 ms.date: 06/18/2018
-ms.author: otarb
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 6e1c18f61cc822cd9656a49a65c98b225709c540
-ms.sourcegitcommit: c83146ad008ce13bf3289de9b76c507be2c330aa
+ms.openlocfilehash: fac0b396abd6cde87e7e3b738e53480ce34eba88
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/10/2020
-ms.locfileid: "86215495"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96405160"
 ---
 # <a name="use-python-in-query-editor"></a>在查询编辑器中使用 Python
 你可以在 Power BI Desktop 查询编辑器中使用 Python，Python 是统计学家、数据科学家和数据分析师使用最广泛的一种编程语言。 查询编辑器中集成的 Python 可让你用 Python 来执行数据清理，并在数据集中执行高级数据调整和分析，包括丢失数据补全、预测和聚类分析，此处仅举几例。 Python 是一种功能强大的语言，可用于在“查询编辑器”中准备你的数据模型并创建报表。
@@ -25,7 +25,7 @@ ms.locfileid: "86215495"
 ## <a name="using-python-in-query-editor"></a>在查询编辑器中使用 Python
 若要演示如何在查询编辑器中使用 Python，请以基于 .CSV 文件格式的股票市场数据集为例（可[从此处下载](https://download.microsoft.com/download/F/8/A/F8AA9DC9-8545-4AAE-9305-27AD1D01DC03/EuStockMarkets_NA.csv)）并按照示例进行操作。 此示例中的步骤如下所示：
 
-1. 首先，将数据加载到 **Power BI Desktop**中。 本例中，请加载 EuStockMarkets_NA.csv 文件，并在 Power BI Desktop 的“主页”功能区中依次选择“获取数据”和“CSV”。
+1. 首先，将数据加载到 **Power BI Desktop** 中。 本例中，请加载 EuStockMarkets_NA.csv 文件，并在 Power BI Desktop 的“主页”功能区中依次选择“获取数据”和“CSV”。
    
    ![Power BI Desktop 中“获取数据”功能区的屏幕截图，其中显示了 CSV 选项。](media/desktop-python-in-query-editor/python-in-query-editor-1.png)
 2. 选择该文件，并选择“打开”，然后该 CSV 将显示在“CSV 文件”对话框中。
@@ -76,7 +76,7 @@ ms.locfileid: "86215495"
 创建好该视觉对象，以及需要使用 Power BI Desktop 创建的任何其他视觉对象之后，可保存 Power BI Desktop 文件（保存为 .pbix 文件），然后在 Power BI 服务中使用数据模型（及其内附的 Python 脚本）。
 
 > [!NOTE]
-> 想要查看完成了这些步骤的完整 .pbix 文件吗？ 真幸运 - 你可以在[此处](https://download.microsoft.com/download/A/B/C/ABCF5589-B88F-49D4-ADEB-4A623589FC09/Complete%20Values%20with%20Python%20in%20PQ.pbix)下载示例中使用的完整 **Power BI Desktop** 文件。
+> 想要查看完成了这些步骤的完整 .pbix 文件吗？ 真幸运 - 你可以在 [此处](https://download.microsoft.com/download/A/B/C/ABCF5589-B88F-49D4-ADEB-4A623589FC09/Complete%20Values%20with%20Python%20in%20PQ.pbix)下载示例中使用的完整 **Power BI Desktop** 文件。
 
 将 .pbix 文件上传到 Power BI 服务后，还需要几个步骤来启用数据刷新（在服务中），以及启用服务中待更新的视觉对象（为了更新视觉对象，数据需要访问 Python）。 其它步骤如下所示：
 

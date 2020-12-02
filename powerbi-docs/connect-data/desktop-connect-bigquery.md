@@ -2,19 +2,19 @@
 title: 在 Power BI Desktop 中连接到 Google BigQuery 数据库
 description: 在 Power BI Desktop 中轻松连接并使用 Google BigQuery
 author: davidiseminger
+ms.author: davidi
 ms.reviewer: ''
 ms.service: powerbi
-ms.subservice: powerbi-desktop
+ms.subservice: pbi-data-sources
 ms.topic: how-to
 ms.date: 05/08/2019
-ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 68698d51b074102a8d8e556101fcfaf6a39c2c62
-ms.sourcegitcommit: 3ddfd9ffe2ba334a6f9d60f17ac7243059cf945b
+ms.openlocfilehash: 7cffba9178d4eec0bfd468040b7551768aab7f1d
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/22/2020
-ms.locfileid: "92349405"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96405873"
 ---
 # <a name="connect-to-a-google-bigquery-database-in-power-bi-desktop"></a>在 Power BI Desktop 中连接到 Google BigQuery 数据库
 在 Power BI Desktop 中，你可以连接到 Google BigQuery  数据库，并以 Power BI Desktop 中使用其他所有数据源相同的方式使用基础数据。

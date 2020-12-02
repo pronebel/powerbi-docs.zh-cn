@@ -2,20 +2,20 @@
 title: 与同事和其他人共享 Power BI 仪表板和报表
 description: 如何与组织内外的同事共享 Power BI 仪表板和报表，以及你需要了解的关于共享的内容。
 author: maggiesMSFT
+ms.author: maggies
 ms.reviewer: lukaszp
 ms.custom: contperfq4
 ms.service: powerbi
-ms.subservice: powerbi-service
+ms.subservice: pbi-collaborate-share
 ms.topic: how-to
 ms.date: 06/26/2020
-ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 68d6a399a5ecccf07aaa71f74b18fd4ddd6082f5
-ms.sourcegitcommit: a7227f6d3236e6e0a7bc1f83ff6099b5cd58bff3
+ms.openlocfilehash: 221211b06e3e9a72dd3c5ee812083b8013002405
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2020
-ms.locfileid: "87768489"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96406563"
 ---
 # <a name="share-power-bi-dashboards-and-reports-with-coworkers-and-others"></a>与同事和其他人共享 Power BI 仪表板和报表
 共享是向授予用户对 Power BI 服务中的仪表板和报表的访问的最简单方法。 可以与组织内外的用户共享。
@@ -52,7 +52,7 @@ Power BI 服务还提供了其他开展协作和分发仪表板及报表的方�
 
 5. 如果选择“允许用户使用基础数据集生成新内容”，则用户可基于此仪表板的数据集在其他工作区中自行创建报表。 阅读有关[基于来自不同工作区的数据集创建报表](../connect-data/service-datasets-discover-across-workspaces.md)的详细信息。
 
-1. 选择**共享**。
+1. 选择 **共享**。
    
    ![选择“共享”按钮](media/service-share-dashboards/power-bi-share-dialog-share.png)  
    
@@ -72,7 +72,7 @@ Power BI 服务还提供了其他开展协作和分发仪表板及报表的方�
    
     ![“共享仪表板”对话框，“访问权限”选项卡](media/service-share-dashboards/power-bi-share-dialog-access.png)
 
-    组织外的人员都将作为**来宾**列出。
+    组织外的人员都将作为 **来宾** 列出。
 
     在此视图中，可以在本文中[停止或更改共享权限](#stop-or-change-sharing)。 
 

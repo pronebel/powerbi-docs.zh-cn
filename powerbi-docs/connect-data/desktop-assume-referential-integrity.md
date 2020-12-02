@@ -2,19 +2,19 @@
 title: Power BI Desktop 中的假设引用完整性设置
 description: 了解如何设置 Power BI Desktop 假设引用完整性（与 DirectQuery 一起使用）
 author: davidiseminger
+ms.author: davidi
 ms.reviewer: ''
 ms.service: powerbi
-ms.subservice: powerbi-desktop
+ms.subservice: pbi-data-sources
 ms.topic: how-to
 ms.date: 05/07/2019
-ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 698abf814b9b93635ba425b2c9d1d30a292714ab
-ms.sourcegitcommit: 51b965954377884bef7af16ef3031bf10323845f
+ms.openlocfilehash: 1b078f837efe0637a4ac7769ceb868af23c7a298
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/30/2020
-ms.locfileid: "91599896"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96405919"
 ---
 # <a name="apply-the-assume-referential-integrity-setting-in-power-bi-desktop"></a>在 Power BI Desktop 中应用假设引用完整性设置
 当连接到使用 **DirectQuery** 的数据源时，你可以使用“假设引用完整性”，以对数据源运行更高效的查询。 此功能对基础数据有要求，并且仅在使用 **DirectQuery** 时可用。
@@ -32,7 +32,7 @@ ms.locfileid: "91599896"
 在此上下文中， **From** 列是 *一对多* 关系中的 *多* ，或是 *一对一* 关系中第一个表中的列。
 
 ## <a name="example-of-using-assume-referential-integrity"></a>使用假设引用完整性的示例
-下面的示例演示了在数据连接中使用“假设引用完整性”时，“假设引用完整性”的行为方式。 该示例连接到包含**订单**表、**产品**表和**仓库**表的数据源。
+下面的示例演示了在数据连接中使用“假设引用完整性”时，“假设引用完整性”的行为方式。 该示例连接到包含 **订单** 表、**产品** 表和 **仓库** 表的数据源。
 
 1. 下图显示了 **Orders** 表和 **Products** 表，请注意引用完整性存在于 **Orders[ProductID]** 和 **Products[ProductID]** 之间。 **Orders** 表中的 **[ProductID]** 列始终不能为 *Null* ，所有值也会出现在 **Products** 表中。 在这种情况下，应设置“假设引用完整性”以获得更高效的查询（使用此设置不会更改视觉对象中显示的值）。
    
@@ -54,7 +54,7 @@ ms.locfileid: "91599896"
 此外，验证将在编辑关系时执行，并且 *不* 反映数据的任何后续更改。
 
 ## <a name="what-happens-if-you-incorrectly-set-assume-referential-integrity"></a>如果错误地设置了假设引用完整性，会发生什么？
-如果在数据中有引用完整性问题时设置“假设引用完整性”，此设置不会导致错误。 但是，将导致数据明显不一致。 例如，在上述**仓库**表的关系的情况下，会导致以下结果：
+如果在数据中有引用完整性问题时设置“假设引用完整性”，此设置不会导致错误。 但是，将导致数据明显不一致。 例如，在上述 **仓库** 表的关系的情况下，会导致以下结果：
 
 * 视觉对象显示总的 *订单数量* 值为 40
 * 视觉对象显示总的 *按仓库城市的订单数量* 值仅为 *30* ，因为它不包含订单 ID 1（其 **DepotID**  为 *Null* ）。

@@ -2,19 +2,19 @@
 title: 在 Power BI Desktop 中使用 DirectQuery
 description: 在 Power BI Desktop 中使用 DirectQuery（亦称为“实时连接”）
 author: davidiseminger
+ms.author: davidi
 ms.reviewer: ''
 ms.service: powerbi
-ms.subservice: powerbi-desktop
+ms.subservice: pbi-data-sources
 ms.topic: how-to
 ms.date: 08/28/2020
-ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: b31ddb3e3881f9002affcae9106b9e14bf85a964
-ms.sourcegitcommit: 70a892df1a0c196db58bf9165b3aa31b26bbe149
+ms.openlocfilehash: 4619219705a80b53883a9b0578791a60a853125e
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/29/2020
-ms.locfileid: "89092305"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96404217"
 ---
 # <a name="use-directquery-in-power-bi-desktop"></a>在 Power BI Desktop 中使用 DirectQuery
 使用 Power BI Desktop 时，若已连接数据源，始终可以将数据副本导入 Power BI Desktop。 对于某些数据源，还可使用另一种方法：使用 DirectQuery 直接连接到数据源。
@@ -73,7 +73,7 @@ ms.locfileid: "89092305"
     The resultset of a query to external data source has exceeded
     ```
   
-    生成包含非常高的基数列的简单图表，聚合选项设置为**不汇总**。 视觉对象应只具有基数低于 100 万的列，或必须应用适当的筛选器。
+    生成包含非常高的基数列的简单图表，聚合选项设置为 **不汇总**。 视觉对象应只具有基数低于 100 万的列，或必须应用适当的筛选器。
 
 - 安全性：默认使用发布报表的所有用户都使用发布到 Power BI 服务后输入的凭据连接到后端数据源。 此过程与导入数据的情况相同：所有用户会看到相同的数据，而不考虑后端源中定义的任何安全规则。
 

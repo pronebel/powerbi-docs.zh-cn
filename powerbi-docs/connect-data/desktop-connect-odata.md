@@ -2,20 +2,20 @@
 title: 通过 Power BI Desktop 连接到 OData 数据源
 description: 通过 Power BI Desktop 轻松连接并使用 OData 数据源
 author: davidiseminger
+ms.author: davidi
 ms.reviewer: ''
 ms.custom: seodec18
 ms.service: powerbi
-ms.subservice: powerbi-desktop
+ms.subservice: pbi-data-sources
 ms.topic: how-to
 ms.date: 05/08/2019
-ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 9e10d694940bda465e68f54370d87aab15b628ee
-ms.sourcegitcommit: c83146ad008ce13bf3289de9b76c507be2c330aa
+ms.openlocfilehash: 5c7d9464e8d14354ba893dd80d11a46b8ea170cc
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/10/2020
-ms.locfileid: "86216491"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96405827"
 ---
 # <a name="connect-to-odata-feeds-in-power-bi-desktop"></a>通过 Power BI Desktop 连接到 OData 数据源
 在 Power BI Desktop 中，你可以连接到“OData 数据源”并在 Power BI Desktop 中同使用其他所有数据源一样使用基础数据。

@@ -2,19 +2,19 @@
 title: Power BI 数据源必备条件
 description: Power BI 数据源必备条件
 author: davidiseminger
+ms.author: davidi
 ms.reviewer: ''
 ms.service: powerbi
-ms.subservice: powerbi-desktop
+ms.subservice: pbi-data-sources
 ms.topic: conceptual
 ms.date: 01/29/2020
-ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 373249061f39c40ec3a78ba9541575721bd60022
-ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
+ms.openlocfilehash: 55e219ff5da73774adaec768b48a0aedd90c1748
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90859626"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96405367"
 ---
 # <a name="power-bi-data-source-prerequisites"></a>Power BI 数据源必备条件
 对于每个数据提供程序，Power BI 支持有关对象的特定提供程序版本。 有关适用于 Power BI 的数据源的详细信息，请参阅[数据源](desktop-data-sources.md)。 下表描述了这些要求。

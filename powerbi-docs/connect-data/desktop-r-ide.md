@@ -2,20 +2,20 @@
 title: 将外部 R IDE 与 Power BI 一起使用
 description: 可以启动外部 IDE，并将其与 Power BI 一起使用
 author: davidiseminger
+ms.author: davidi
 ms.reviewer: ''
 ms.custom: seodec18
 ms.service: powerbi
-ms.subservice: powerbi-desktop
+ms.subservice: pbi-data-sources
 ms.topic: how-to
 ms.date: 05/08/2019
-ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 58e23ecca37b9019ed007c60fe7aaa7e6b4d4515
-ms.sourcegitcommit: c83146ad008ce13bf3289de9b76c507be2c330aa
+ms.openlocfilehash: 21b46a0c7637509fa54c3d7ed2b5551cde05f784
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/10/2020
-ms.locfileid: "86216420"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96404861"
 ---
 # <a name="use-an-external-r-ide-with-power-bi"></a>将外部 R IDE 与 Power BI 一起使用
 借助 **Power BI Desktop**，可以使用外部的 R IDE（集成开发环境）创建并优化 R 脚本，然后将这些脚本用于 Power BI 中。
@@ -74,13 +74,13 @@ ms.locfileid: "86216420"
    > Power BI Desktop 会添加脚本的前三行，这样一旦运行该脚本，就可以从 Power BI Desktop 中导入数据。
    > 
    > 
-7. 在 **Power BI Desktop** 的 **R 脚本编辑器窗格**中创建的任何脚本都会从 R IDE 的第 4 行开始显示。 此时，可在 R IDE 中自行创建 R 脚本。 在 R IDE 中完成 R 脚本后，必须将其复制并重新粘贴至 **Power BI Desktop** 的 **R 脚本编辑器** 窗格中，注意 *不包括* **Power BI Desktop** 自动生成的前三行脚本。 请勿将脚本的前三行复制到 **Power BI Desktop**，这三行仅用于将数据从 **Power BI Desktop** 导入到 R IDE。
+7. 在 **Power BI Desktop** 的 **R 脚本编辑器窗格** 中创建的任何脚本都会从 R IDE 的第 4 行开始显示。 此时，可在 R IDE 中自行创建 R 脚本。 在 R IDE 中完成 R 脚本后，必须将其复制并重新粘贴至 **Power BI Desktop** 的 **R 脚本编辑器** 窗格中，注意 *不包括* **Power BI Desktop** 自动生成的前三行脚本。 请勿将脚本的前三行复制到 **Power BI Desktop**，这三行仅用于将数据从 **Power BI Desktop** 导入到 R IDE。
 
 ### <a name="known-limitations"></a>已知限制
 直接从 Power BI Desktop 中启动 R IDE 具有部分限制：
 
 * 不支持自动将脚本从 R IDE 中导出到 **Power BI Desktop**。
-* 不支持 **R 客户端**编辑器 (RGui.exe)，因为该编辑器自身不支持打开文件。
+* 不支持 **R 客户端** 编辑器 (RGui.exe)，因为该编辑器自身不支持打开文件。
 
 ## <a name="next-steps"></a>后续步骤
 查看以下更多信息，了解有关 Power BI 中的 R。

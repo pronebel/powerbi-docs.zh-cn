@@ -2,19 +2,19 @@
 title: 在 Power BI Desktop 中运行 R 脚本
 description: 在 Power BI Desktop 中运行 R 脚本
 author: davidiseminger
+ms.author: davidi
 ms.reviewer: ''
 ms.service: powerbi
-ms.subservice: powerbi-desktop
+ms.subservice: pbi-data-sources
 ms.topic: how-to
 ms.date: 01/14/2020
-ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 69b56323e3c7864cf4adae09bb32493cf1acc852
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 604e90cf2f2c1010559c70df67a6cd54ac08fa36
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85222975"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96404539"
 ---
 # <a name="run-r-scripts-in-power-bi-desktop"></a>在 Power BI Desktop 中运行 R 脚本
 
@@ -55,7 +55,7 @@ ms.locfileid: "85222975"
 
     ![“R 脚本”对话框、Power BI Desktop](media/desktop-r-scripts/r-scripts-2.png)
 
-3. 选择**确定**运行 R 脚本。 脚本成功运行后，即可选择要将其添加到 Power BI 模型的所得数据帧。
+3. 选择 **确定** 运行 R 脚本。 脚本成功运行后，即可选择要将其添加到 Power BI 模型的所得数据帧。
 
 可以控制使用哪个 R 安装来运行脚本。 要指定 R 安装设置，请选择“文件”   > “选项和设置”   > “选项”  ，然后选择“R 脚本”  。 在“R 脚本选项”  下，“检测到的 R 主目录”  下拉列表会显示当前的 R 安装选择。 如果未列出所需的 R 安装，请选择“其他”  ，然后浏览到首选 R 安装文件夹或在“设置 R 主目录”  中输入首选 R 安装文件夹。
 

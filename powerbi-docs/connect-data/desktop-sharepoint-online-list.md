@@ -2,19 +2,19 @@
 title: 在 SharePoint 列表中创建报表
 description: 本教程演示如何将 SharePoint 列表数据转换为 Power BI 报表。
 author: davidiseminger
+ms.author: davidi
 ms.reviewer: ''
 ms.service: powerbi
-ms.subservice: powerbi-desktop
+ms.subservice: pbi-data-sources
 ms.topic: how-to
 ms.date: 01/10/2020
-ms.author: davidi
 LocalizationGroup: Visualizations
-ms.openlocfilehash: f6bcd67d41f2c04cedd7c66eb5989f2a6919b030
-ms.sourcegitcommit: 51b965954377884bef7af16ef3031bf10323845f
+ms.openlocfilehash: 5347405c13f71fa0932c48eb218618b28a9f03c8
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/30/2020
-ms.locfileid: "91598652"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96404516"
 ---
 # <a name="create-a-report-on-a-sharepoint-list"></a>在 SharePoint 列表中创建报表
 
