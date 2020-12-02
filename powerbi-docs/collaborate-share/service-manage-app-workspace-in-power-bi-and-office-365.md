@@ -2,19 +2,19 @@
 title: 管理 Power BI 和 Microsoft 365 中的工作区
 description: Power BI 中的工作区是以 Microsoft 365 组为基础的协作体验。 管理 Power BI 和 Microsoft 365 中的工作区。
 author: maggiesMSFT
+ms.author: maggies
 ms.reviewer: lukasz
 ms.service: powerbi
-ms.subservice: powerbi-service
+ms.subservice: pbi-collaborate-share
 ms.topic: how-to
 ms.date: 03/02/2020
-ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: c05cb79d0996ad1819f0145193760ab16a031ffb
-ms.sourcegitcommit: d153cfc0ce559480c53ec48153a7e131b7a31542
+ms.openlocfilehash: bd1a5b0aaf694f41fdbfe4764e77c1138a57b082
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/29/2020
-ms.locfileid: "91526711"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96407023"
 ---
 # <a name="manage-your-workspace-in-power-bi-and-microsoft-365"></a>管理 Power BI 和 Microsoft 365 中的工作区
 
@@ -51,7 +51,7 @@ ms.locfileid: "91526711"
 
    ![编辑工作区对话框](media/service-manage-app-workspace-in-power-bi-and-office-365/power-bi-app-edit-workspace.png)
 
-1. 选择 **保存** 或 **取消** 。
+1. 选择 **保存** 或 **取消**。
 
 ## <a name="edit-power-bi-workspace-properties-in-microsoft-365"></a>在 Microsoft 365 中编辑 Power BI 工作区属性
 
@@ -80,7 +80,7 @@ ms.locfileid: "91526711"
 
    ![编辑组对话框](media/service-manage-app-workspace-in-power-bi-and-office-365/pbi_editgrpo365dialog.png)
 
-1. 选择 **保存** 或 **放弃** 。
+1. 选择 **保存** 或 **放弃**。
 
 ## <a name="next-steps"></a>后续步骤
 

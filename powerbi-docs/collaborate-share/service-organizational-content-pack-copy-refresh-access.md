@@ -2,19 +2,19 @@
 title: 组织内容包：访问和复制
 description: 阅读有关在 Power BI 中创建组织内容包的副本并对其访问权限进行故障排除的信息
 author: maggiesMSFT
+ms.author: maggies
 ms.reviewer: lukaszp, kayu
 ms.service: powerbi
-ms.subservice: powerbi-service
+ms.subservice: pbi-collaborate-share
 ms.topic: how-to
 ms.date: 08/02/2018
-ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: f89459b9d1e930fe429467b566d0813030fb43ab
-ms.sourcegitcommit: 181679a50c9d7f7faebcca3a3fc55461f594d9e7
+ms.openlocfilehash: eccc60c4f26502ea2249c378efbdb910bd7c8a30
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/07/2020
-ms.locfileid: "86034511"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96406724"
 ---
 # <a name="organizational-content-packs-copy-refresh-and-get-access"></a>组织内容包：复制、刷新和访问
 
@@ -45,7 +45,7 @@ ms.locfileid: "86034511"
 ## <a name="help--i-can-no-longer-access-the-content-pack"></a>帮助！  我再也无法访问该内容包
 这可能是多种原因引起的：
 
-* **成员身份更改**：内容包将发布到电子邮件通讯组、安全组，以及[基于 Microsoft 365 的 Power BI 组](https://support.office.com/article/Create-a-group-in-Office-365-7124dc4c-1de9-40d4-b096-e8add19209e9)。  如果已将你从组中删除，则你不能再访问该内容包。
+* **成员身份更改**：内容包将发布到电子邮件通讯组、安全组，以及 [基于 Microsoft 365 的 Power BI 组](https://support.office.com/article/Create-a-group-in-Office-365-7124dc4c-1de9-40d4-b096-e8add19209e9)。  如果已将你从组中删除，则你不能再访问该内容包。
 * **通讯组更改**：内容包创建者更改了通讯组。 例如，如果内容包最初发布到整个组织，但之后创建者将其重新发布到较少的受众，则你可能不再包含于其中。
 * **安全设置更改**：如果仪表板和报表连接到本地 SSAS 数据源，并且对安全设置进行了更改，则可能会撤销你对该服务器的权限。
 

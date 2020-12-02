@@ -1,21 +1,21 @@
 ---
 title: 组织中用户的 Power BI 许可
 description: 概述 Power BI 中提供的不同用户许可证类型以及管理员如何为其组织中的用户购买和管理许可。
-author: kfollis
+author: mihart
+ms.author: mihart
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
 ms.date: 11/11/2020
-ms.author: kfollis
 ms.custom: licensing support
 LocalizationGroup: Administration
-ms.openlocfilehash: 46d620df1140d4fea8ffb9b4bdb9dd292e3659cd
-ms.sourcegitcommit: cc20b476a45bccb870c9de1d0b384e2c39e25d24
+ms.openlocfilehash: 00c375267ceaede23b317fb71d76e31e4ae66a83
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/11/2020
-ms.locfileid: "94512277"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96408633"
 ---
 # <a name="licensing-the-power-bi-service-for-users-in-your-organization"></a>为组织中的用户授权 Power BI 服务
 

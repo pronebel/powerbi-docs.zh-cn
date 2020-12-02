@@ -2,19 +2,19 @@
 title: 在经典工作区中协作
 description: 了解如何利用 Microsoft 365 服务（如共享 OneDrive for Business 上的文件、Exchange 中的对话、日历和任务）对工作区中的 Power BI Desktop 文件展开协作。
 author: maggiesMSFT
+ms.author: maggies
 ms.reviewer: lukaszp
 ms.service: powerbi
-ms.subservice: powerbi-service
+ms.subservice: pbi-collaborate-share
 ms.topic: how-to
 ms.date: 07/25/2019
-ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 3fdfe212825cc522aa7965f46d112ece4a1db35c
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 9017d5c938ec0382e2fb27b00e7fe08945e10a5b
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85226800"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96407621"
 ---
 # <a name="collaborate-in-a-classic-workspace"></a>在经典工作区中协作
 Power BI 工作区是在仪表板、报表和数据集上与同事协作以创建应用的好地方。 本文介绍原始的经典工作区。  

@@ -2,19 +2,19 @@
 title: 将 Power BI 订阅迁移到新的“德国本地”区域
 description: 介绍了现有 Microsoft 云德国 (Microsoft Cloud Deutschland) 客户如何将其 Power BI 用户迁移到新的“德国本地”区域。
 author: kfollis
+ms.author: kfollis
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
 ms.date: 10/02/2020
-ms.author: kfollis
 LocalizationGroup: Administration
-ms.openlocfilehash: 978483407176b9902989b8feb0f41f577d4ed14f
-ms.sourcegitcommit: 7e99e8af9caf9340958c4607a94728d43e8c3811
+ms.openlocfilehash: 7ce58c58934503e51531d204c02c976e244e57e5
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/02/2020
-ms.locfileid: "91668220"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96408471"
 ---
 # <a name="migrate-your-subscription-to-the-new-local-german-regions"></a>将订阅迁移到新的“德国本地”区域
 

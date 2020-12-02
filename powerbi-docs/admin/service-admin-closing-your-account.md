@@ -2,19 +2,19 @@
 title: 关闭 Power BI 帐户
 description: 如果不希望再使用 Power BI，可以关闭 Power BI 帐户。
 author: kfollis
+ms.author: kfollis
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: how-to
 ms.date: 09/25/2020
-ms.author: kfollis
 LocalizationGroup: Administration
-ms.openlocfilehash: 076a1a65e275d58b54e340e30083d1c2a19ebbbf
-ms.sourcegitcommit: 02b5d031d92ea5d7ffa70d5098ed15e4ef764f2a
+ms.openlocfilehash: f35ba99cfab26f346c9565ef9e92afa4cc004d68
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/26/2020
-ms.locfileid: "91374377"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96409116"
 ---
 # <a name="close-your-power-bi-account"></a>关闭 Power BI 帐户
 
@@ -32,7 +32,7 @@ ms.locfileid: "91374377"
 
     ![突出显示“关闭帐户”选项的“设置”页左上角屏幕截图。](media/service-admin-closing-your-account/close-account-settings-2.png)
 
-1. 选择关闭帐户的原因（图中的“1”）。 还可以提供更多信息（图中的“2”）。 然后选择**关闭帐户**。
+1. 选择关闭帐户的原因（图中的“1”）。 还可以提供更多信息（图中的“2”）。 然后选择 **关闭帐户**。
 
     ![“关闭帐户”对话框的屏幕截图，其中显示了用于提供用于关闭帐户的详细信息的字段。](media/service-admin-closing-your-account/close-account-settings-3.png)
 

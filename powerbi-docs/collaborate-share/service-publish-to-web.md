@@ -5,16 +5,16 @@ author: maggiesMSFT
 ms.author: maggies
 ms.reviewer: ''
 ms.service: powerbi
-ms.subservice: powerbi-service
+ms.subservice: pbi-collaborate-share
 ms.topic: how-to
 ms.date: 11/02/2020
 LocalizationGroup: Share your work
-ms.openlocfilehash: 7980057ae35637f06aeec3d241b074fcc41564b7
-ms.sourcegitcommit: ccf53e87ff7cba1fcd9d2cca761a561e62933f90
+ms.openlocfilehash: 004546a941426f602bfb5cacaf938bd55cec452d
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/04/2020
-ms.locfileid: "93297652"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96406770"
 ---
 # <a name="publish-to-web-from-power-bi"></a>从 Power BI 发布到 Web
 
@@ -30,7 +30,7 @@ ms.locfileid: "93297652"
 
 可在个人工作区或组工作区中编辑的报表提供有“发布到 Web”功能。  但与你共享的报表，或依赖行级安全性来保护数据的报表不提供该功能。 请参阅以下[限制](#limitations)部分，了解有关不支持“发布到 Web”的情况的完整列表 。 使用“发布到 Web”前请查看本文之前所述的“警告”部分 。
 
-以下步骤介绍如何使用 **发布到 Web** 。
+以下步骤介绍如何使用 **发布到 Web**。
 
 1. 打开可编辑的工作区中的报表，然后选择“更多选项 (...)”  > “嵌入” > “发布到 Web (公共)”。
 
@@ -98,7 +98,7 @@ ms.locfileid: "93297652"
 
 创建“发布到 Web”嵌入代码后，可通过 Power BI 中的“设置”菜单管理代码 。 管理嵌入代码包括，能够删除代码的目标视觉对象或报表（使嵌入代码不可用），或获取嵌入代码。
 
-1. 若要管理你的 **发布到 Web** 嵌入代码，打开 **设置** 齿轮，然后选择 **管理嵌入代码** 。
+1. 若要管理你的 **发布到 Web** 嵌入代码，打开 **设置** 齿轮，然后选择 **管理嵌入代码**。
 
    ![管理嵌入代码](media/service-publish-to-web/publish_to_web8.png)
 
@@ -158,7 +158,7 @@ ms.locfileid: "93297652"
 
 ## <a name="licensing"></a>许可
 
-你需要成为 Microsoft Power BI 用户才能使用 **发布到 Web** 。 报告查看者无需是 Power BI 用户。
+你需要成为 Microsoft Power BI 用户才能使用 **发布到 Web**。 报告查看者无需是 Power BI 用户。
 
 <a name="howitworks"></a>
 ## <a name="how-it-works-technical-details"></a>工作方式（技术详细信息）

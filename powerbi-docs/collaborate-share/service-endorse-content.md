@@ -2,28 +2,28 @@
 title: 认可你的内容
 description: 了解如何推广和认证 Power BI 内容。
 author: paulinbar
+ms.author: painbar
 ms.service: powerbi
 ms.subservice: powerbi-eim
 ms.topic: how-to
 ms.date: 10/26/2020
-ms.author: painbar
 LocalizationGroup: Share your work
-ms.openlocfilehash: 95e4f2e560ebbb7d97d011944e35344239d048f2
-ms.sourcegitcommit: 4e347efd132b48aaef6c21236c3a21e5fce285cc
+ms.openlocfilehash: 7232cad4fc1216ac6e1aa7c8a01136239a2f09d2
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/27/2020
-ms.locfileid: "92681769"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96407046"
 ---
 # <a name="endorse-your-content"></a>认可你的内容
 
 Power BI 提供了两种方法来认可有价值且高质量的内容以提高其可见性：“推广”和“认证” 。
 
-* **推广** ：推广是一种突出显示你认为有价值并且值得他人使用的内容的方法。 这鼓励在组织内以协作方式使用和传播内容。
+* **推广**：推广是一种突出显示你认为有价值并且值得他人使用的内容的方法。 这鼓励在组织内以协作方式使用和传播内容。
 
     任何内容所有者以及任何对内容所在工作区具有写入权限的成员，只要认为内容有共享价值，他们就可以推广该内容。
 
-* **验证** ：认证意味着该内容符合组织的质量标准，可被视为可靠且权威的内容，并且可供在整个组织中使用。
+* **验证**：认证意味着该内容符合组织的质量标准，可被视为可靠且权威的内容，并且可供在整个组织中使用。
 
     只有授权的审阅者可以认证内容。 如果内容所有者希望自己的内容获得认证，但自己无权对其进行认证，则必须遵循其组织的准则来认证其内容。
 
@@ -50,7 +50,7 @@ Power BI 提供了两种方法来认可有价值且高质量的内容以提高�
 
     ![选择“推广并应用”](media/service-endorse-content/power-bi-promote-content.png)
 
-1. 选择 **应用** 。
+1. 选择 **应用**。
 
 ## <a name="certify-content"></a>认证内容
 
