@@ -2,19 +2,19 @@
 title: 了解 Power BI 服务中按钮的工作方式
 description: 按钮可用于启动各种操作，包括在报表中导航、钻取和跨报表钻取
 author: mihart
+ms.author: mihart
 ms.reviewer: mihart
 ms.service: powerbi
-ms.subservice: powerbi-consumer
+ms.subservice: pbi-explore
 ms.topic: how-to
 ms.date: 10/10/2020
-ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: f0ddbbbce93a14c3468eacca130163758ca85c45
-ms.sourcegitcommit: 02484b2d7a352e96213353702d60c21e8c07c6c0
+ms.openlocfilehash: 450c14d05f9a7855d51d7aa2f073e48a0b016013
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "91982140"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96400951"
 ---
 # <a name="buttons-in-the-power-bi-service"></a>Power BI 服务中的按钮
 在收到的来自同事的报表中，你可能会注意到一些按钮并想知道如何使用它们。 有些按钮包含字词，有些按钮包含箭头，有些按钮包含图形，有些按钮甚至包含下拉菜单。 本文介绍如何识别按钮，以及如何确定按钮的作用。

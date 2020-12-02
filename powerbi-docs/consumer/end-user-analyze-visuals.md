@@ -2,19 +2,19 @@
 title: 使用分析功能解释报表视觉对象中的波动
 description: 在 Power BI 服务中轻松获得有关增加或减少情况的见解
 author: mihart
+ms.author: mihart
 ms.reviewer: mihart
 ms.service: powerbi
-ms.subservice: powerbi-consumer
+ms.subservice: pbi-explore
 ms.topic: conceptual
 ms.date: 08/12/2020
-ms.author: mihart
 LocalizationGroup: Create reports
-ms.openlocfilehash: f5b930ade7e0ae4e58977ba33dc725c6f1e34695
-ms.sourcegitcommit: be424c5b9659c96fc40bfbfbf04332b739063f9c
+ms.openlocfilehash: 9d66ec405ebec8c2da59a37cd986098444979c4b
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "91635875"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96401388"
 ---
 # <a name="use-the-analyze-feature-to-explain-fluctuations-in-report-visuals"></a>使用分析功能解释报表视觉对象中的波动
 
@@ -67,7 +67,7 @@ ms.locfileid: "91635875"
 
 可以将算法设想为采用模型中的所有其他列，计算该列在之前和之后的时间段的细分，确定该细分发生的变化量，然后返回那些变化最大的列。 例如，在上述瀑布图中已选择“州”，因为路易斯安那州、德克萨斯州和科罗拉多州在 6 月到 7 月之间的贡献值已降低 13% 至 19%，导致了总单位数的最大降幅。  
 
-对于返回的每个见解，可以显示四个视觉对象。 其中三个视觉对象旨在突出两个时间段之间的贡献变化。 例如，用于解释从*第二季度*到*第三季度*的增长。 功能区图表显示所选数据点之前和之后的变化。
+对于返回的每个见解，可以显示四个视觉对象。 其中三个视觉对象旨在突出两个时间段之间的贡献变化。 例如，用于解释从 *第二季度* 到 *第三季度* 的增长。 功能区图表显示所选数据点之前和之后的变化。
 
 ### <a name="the-scatter-plot"></a>散点图
 

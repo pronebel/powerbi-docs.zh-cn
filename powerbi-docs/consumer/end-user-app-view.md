@@ -2,20 +2,20 @@
 title: 在 Power BI 中安装和使用包含仪表板和报表的应用
 description: 在 Power BI 服务中查找、安装和使用应用。
 author: mihart
+ms.author: mihart
 ms.reviewer: lukaszp
 ms.service: powerbi
-ms.subservice: powerbi-consumer
+ms.subservice: pbi-explore
 ms.topic: how-to
 ms.date: 10/09/2020
-ms.author: mihart
 ms.custom: licensing support
 LocalizationGroup: Share your work
-ms.openlocfilehash: e0089d2492ad7a68aa2043cce4ca8677a0d276bb
-ms.sourcegitcommit: 02484b2d7a352e96213353702d60c21e8c07c6c0
+ms.openlocfilehash: 7ee51cee6c79b55f746a4275fea5bb00a134e9c7
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "91982216"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96401319"
 ---
 # <a name="install-and-use-apps-with-dashboards-and-reports-in-power-bi"></a>在 Power BI 中安装和使用包含仪表板和报表的应用
 

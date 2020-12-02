@@ -2,19 +2,19 @@
 title: 在 Power BI 服务中复制并粘贴可视化效果
 description: 在 Power BI 服务中复制并粘贴可视化效果
 author: mihart
+ms.author: mihart
 ms.reviewer: maggie.tsang
 ms.service: powerbi
-ms.subservice: powerbi-consumer
+ms.subservice: pbi-explore
 ms.topic: how-to
 ms.date: 08/25/2020
-ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 6e1850e281c58bd89597af2bbd9ade0a769071ae
-ms.sourcegitcommit: 1aaa742c239a3119cdaad698be5a7553b68801fa
+ms.openlocfilehash: a0ac7760b766681a70aae3662059256ecffbf07f
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/27/2020
-ms.locfileid: "89040238"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96400629"
 ---
 # <a name="copy-a-visual-as-an-image-to-your-clipboard"></a>将视觉对象作为图像复制到剪贴板
 

@@ -1,21 +1,21 @@
 ---
 title: Power BI 商务用户词汇表
 description: Power BI 引入了许多新术语和常见术语的新用法。 请使用我们的词汇表熟悉 Power BI 服务术语。
-services: power-bi
 author: mihart
+ms.author: mihart
+services: power-bi
 ms.reviewer: mihart
 ms.service: powerbi
-ms.subservice: powerbi-consumer
+ms.subservice: pbi-explore
 ms.topic: reference
 ms.date: 11/21/2020
 ms.custom: contperfq1
-ms.author: mihart
-ms.openlocfilehash: c2da54406a01d5216355b8e0abc30ea63a6b2f5e
-ms.sourcegitcommit: 9d033abd9c01a01bba132972497dda428d7d5c12
+ms.openlocfilehash: 197ebcd029dbe6a6e87b1858da8f35325772237e
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/24/2020
-ms.locfileid: "95514253"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96400008"
 ---
 # <a name="glossary-for-business-users-of-the-power-bi-service"></a>Power BI 服务的商务用户词汇表    
 Power BI 服务可能会引入不熟悉或容易混淆的术语。 词汇表是查找术语的好地方，可能需要将其加入书签。 了解构成 Power BI 服务的构建块的另一个极佳资源是[基本概念](end-user-basic-concepts.md)。 “基本概念”提供 Power BI 组件及其如何连接的简要概述。

@@ -1,21 +1,21 @@
 ---
 title: 教程：使用 Power BI 连接到 GitHub 存储库
 description: 在本教程中，使用 Power BI 连接到 GitHub 服务中的真实数据，Power BI 即会自动创建仪表板和报表。
-author: maggiesMSFT
+author: paulinbar
+ms.author: painbar
 ms.reviewer: SarinaJoan
 ms.service: powerbi
-ms.subservice: powerbi-service
+ms.subservice: pbi-data-sources
 ms.custom: connect-to-services
 ms.topic: tutorial
 ms.date: 10/30/2020
-ms.author: maggies
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 805b7805d932468e973805d9496a5b25d4391fdd
-ms.sourcegitcommit: 8861dac6724202a5b3be456a6aff8f3584e0cccf
+ms.openlocfilehash: d8b6277c64f2f6c55f1ab622d129556fdfc4c600
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "93132611"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96401618"
 ---
 # <a name="tutorial-connect-to-a-github-repo-with-power-bi"></a>教程：使用 Power BI 连接到 GitHub 存储库
 本教程将连接到真实数据：GitHub 服务中的 Power BI 内容公共存储库（也称为存储库）。 Power BI 会自动创建包含数据的仪表板和报表。 你会看到类似如下的问题的答案：有多少人参与编辑 Power BI 公共存储库？ 谁贡献最多？ 一周中哪天的贡献最大？ 以及其他问题。 

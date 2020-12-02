@@ -2,20 +2,20 @@
 title: 具有免费许可证的用户的功能可用性
 description: 显示可供使用者和免费用户使用的功能的说明和图表。
 author: mihart
+ms.author: mihart
 ms.reviewer: mihart
 ms.service: powerbi
-ms.subservice: powerbi-consumer
+ms.subservice: pbi-explore
 ms.topic: reference
-ms.date: 09/16/2020
-ms.author: mihart
+ms.date: 11/16/2020
 ms.custom: licensing support
 LocalizationGroup: consumers
-ms.openlocfilehash: 8bfdcd9ba87dd6a4fa12a3750b517a09844d3d6e
-ms.sourcegitcommit: bd133cb1fcbf4f6f89066165ce065b8df2b47664
+ms.openlocfilehash: 8e3a32402b3eff202a8e35a2e34fa52271650a64
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "94668479"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96390716"
 ---
 # <a name="power-bi-feature-list-for-consumers-and-others-with-free-licenses"></a>面向使用者和拥有免费许可证的其他用户的 Power BI 功能列表 
 
@@ -67,7 +67,7 @@ ms.locfileid: "94668479"
 
 - 拥有免费的用户许可证
 - 是拥有高级容量订阅的组织的成员
-- 从 Pro 用户处获取内容（应用、仪表板、报表），这些用户使用专用高级容量的应用工作区共享该内容。
+- 从 Pro 用户处获取内容（应用、仪表板、报表），这些用户使用高级容量的应用工作区共享该内容。
 - 将“查看者”角色分配给这些应用工作区  。 
 
 ### <a name="legend"></a>图例

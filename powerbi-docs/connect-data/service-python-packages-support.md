@@ -2,20 +2,20 @@
 title: 了解支持哪些 Python 包
 description: Power BI 中支持的和不支持的 Python 包
 author: otarb
+ms.author: otarb
 ms.reviewer: ''
 ms.custom: seodec18
 ms.service: powerbi
-ms.subservice: powerbi-desktop
+ms.subservice: pbi-data-sources
 ms.topic: conceptual
 ms.date: 06/26/2020
-ms.author: otarb
 LocalizationGroup: Connect to data
-ms.openlocfilehash: b1dc77d2ebf0803430ceeace7e14bfa62a6d2a60
-ms.sourcegitcommit: e8b12d97076c1387088841c3404eb7478be9155c
+ms.openlocfilehash: 07b16bb90b548f071472f9f7d22095ccdff78f56
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/01/2020
-ms.locfileid: "85785176"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96401710"
 ---
 # <a name="create-visuals-by-using-python-packages-in-the-power-bi-service"></a>在 Power BI 服务中使用 Python 包创建视觉对象
 可以使用功能强大的 [Python 编程语言](https://www.python.org/)在 Power BI 服务中创建视觉对象。 许多 Python 包在 Power BI 服务中受支持，并且更多包始终受支持。
@@ -36,7 +36,7 @@ Python 包具有大量要求和限制：
 * 纳入新的 Python 包的审核流程具有一系列的依赖项；需要在服务中安装的某些依赖项不受支持。
 
 ## <a name="python-packages-that-are-supported-in-power-bi"></a>在 Power BI 中受支持的 Python 包
-下表显示 Power BI 服务中**受支持**的程序包。
+下表显示 Power BI 服务中 **受支持** 的程序包。
 
 
 |        程序包        |   版本   |                                   链接                                   |

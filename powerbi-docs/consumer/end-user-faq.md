@@ -2,20 +2,20 @@
 title: Power BI 中有关最终用户的常见问题
 description: 浏览有关 Power BI 服务和 Power BI 移动应用的常见问题和解答列表。
 author: mihart
+ms.author: mihart
 ms.reviewer: mihart
 ms.service: powerbi
-ms.subservice: powerbi-consumer
+ms.subservice: pbi-explore
 ms.topic: conceptual
 ms.date: 09/02/2020
-ms.author: mihart
 ms.custom: licensing support
 LocalizationGroup: Get started
-ms.openlocfilehash: c604bec5213b14f91e514c9a1552acb99ac5d0aa
-ms.sourcegitcommit: 4ac9447d1607dfca2e60948589f36a3d64d31cb4
+ms.openlocfilehash: b872c42a9e8551b0750899632deb763a6446656f
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/29/2020
-ms.locfileid: "92916788"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96400376"
 ---
 # <a name="frequently-asked-questions-about-power-bi"></a>有关 Power BI 的常见问题
 

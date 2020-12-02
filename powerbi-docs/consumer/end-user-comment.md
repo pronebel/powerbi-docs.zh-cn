@@ -2,20 +2,20 @@
 title: 将注释添加到仪表板和报表
 description: 本文档介绍如何将注释添加到仪表板、报表或视觉对象，以及如何使用注释与协作者进行对话。
 author: mihart
+ms.author: mihart
 ms.reviewer: mihart
 featuredvideoid: ''
 ms.service: powerbi
-ms.subservice: powerbi-consumer
+ms.subservice: pbi-explore
 ms.topic: how-to
 ms.date: 09/25/2020
-ms.author: mihart
 LocalizationGroup: Consumer
-ms.openlocfilehash: 6f7e640669b53d67a635083d3ae48e23720c9e61
-ms.sourcegitcommit: 02b5d031d92ea5d7ffa70d5098ed15e4ef764f2a
+ms.openlocfilehash: ee053fe000ad85b768ce3d451984f987e3c79e6f
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/26/2020
-ms.locfileid: "91375026"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96400744"
 ---
 # <a name="add-comments-to-a-dashboard-or-report"></a>将注释添加到仪表板或报表
 
@@ -72,7 +72,7 @@ ms.locfileid: "91375026"
 除了将注释添加到整个仪表板或整个报表页之外，还可以将注释添加到各个仪表板磁贴和各个报表视觉对象。 这些添加过程类似，在此示例中，我们使用报表。
 
 1. 将鼠标指针悬停在视觉对象上，并选择“更多操作”(…)。    
-2. 从下拉列表中，选择“添加注释”****。
+2. 从下拉列表中，选择“添加注释”。
 
     ![“添加注释”是第一个选项](media/end-user-comment/power-bi-comment-reports.png)  
 
