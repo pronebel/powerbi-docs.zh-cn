@@ -74,7 +74,7 @@
           href: service-admin-auditing.md
         - name: 跟踪服务运行状况
           href: service-admin-health.md
-        - name: 为只读管理员 API 启用服务原则身份验证
+        - name: 为只读管理员 API 启用服务主体身份验证
           href: read-only-apis-service-principal-authentication.md
         - name: 关闭帐户
           href: service-admin-closing-your-account.md
