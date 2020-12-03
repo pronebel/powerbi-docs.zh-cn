@@ -2,18 +2,18 @@
 title: 一对一关系指南
 description: 一对一模型关系开发指南。
 author: peter-myers
+ms.author: v-pemyer
 ms.reviewer: asaxton
 ms.service: powerbi
-ms.subservice: powerbi-desktop
+ms.subservice: powerbi
 ms.topic: conceptual
 ms.date: 03/02/2020
-ms.author: v-pemyer
-ms.openlocfilehash: cbcf7fc1890ae1455f1f6ec7c8604e275f60b2d5
-ms.sourcegitcommit: 7e99e8af9caf9340958c4607a94728d43e8c3811
+ms.openlocfilehash: 19fe2aa003c3d39169bc449dab83c09702f49b1d
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/02/2020
-ms.locfileid: "91668404"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96419144"
 ---
 # <a name="one-to-one-relationship-guidance"></a>一对一关系指南
 
@@ -108,7 +108,7 @@ Sales Order  表通过以下三列为报表作者提供丰富体验：Sales Orde
 下面的步骤提供了一种方法来合并和建模一对一关联数据：
 
 1. **合并查询**：[合并两个查询](../connect-data/desktop-shape-and-combine-data.md#combine-queries)时，考虑每个查询中数据的完整性。 如果一个查询包含一组完整的行（如主列表），请将另一个查询与它合并。 将合并转换配置为使用左外部联接  （即默认联接类型）。 这种联接类型可确保你保留第一个查询的所有行，并使用第二个查询的任何匹配行进行补充。 将第二个查询的所有必需列扩展到第一个查询中。
-2. **禁用查询负载**：请务必对第二个查询[禁用负载](import-modeling-data-reduction.md#disable-power-query-query-load)。 这样，它就不会将其结果加载为模型表。 此配置减少了数据模型存储大小，并有助于让“字段”  窗格保持整洁。
+2. **禁用查询负载**：请务必对第二个查询 [禁用负载](import-modeling-data-reduction.md#disable-power-query-query-load)。 这样，它就不会将其结果加载为模型表。 此配置减少了数据模型存储大小，并有助于让“字段”  窗格保持整洁。
 
     在此示例中，报表作者现在“字段”  窗格中找到一个 Product  表。 它包含所有与产品相关的字段。
 

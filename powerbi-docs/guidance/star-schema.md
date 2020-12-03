@@ -2,18 +2,18 @@
 title: 了解星型架构及其对 Power BI 的重要性
 description: 了解星型架构及其与开发 Power BI 数据模型的关系，这些数据模型已针对性能和可用性进行优化。
 author: peter-myers
+ms.author: v-pemyer
 ms.reviewer: asaxton
 ms.service: powerbi
-ms.subservice: powerbi-desktop
+ms.subservice: powerbi
 ms.topic: conceptual
 ms.date: 09/09/2019
-ms.author: v-pemyer
-ms.openlocfilehash: 193247aaf610d1712b7986394e08d3c21055d2fa
-ms.sourcegitcommit: cff93e604e2c5f24e0f03d6dbdcd10c2332aa487
+ms.openlocfilehash: 4d54a0d27ed7cbf0c464a6c4d770e39b99e8b384
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90965465"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96419098"
 ---
 # <a name="understand-star-schema-and-the-importance-for-power-bi"></a>了解星型架构及其对 Power BI 的重要性
 
@@ -196,7 +196,7 @@ Power BI 模型应支持查询成员的历史数据（不受更改影响），�
 
 无事实事实数据表可以存储由维度键定义的观察值。 例如，在特定日期和时间，特定客户登录到你的网站。 你可以定义一个度量值以对无事实事实数据表中的行进行计数，从而对客户的登录时间和数量进行分析。
 
-无事实事实数据表的更有力的用途是存储维度之间的关系，并且我们建议使用此 Power BI 模型设计方法定义“多对多”维度关系。 在[“多对多”维度关系设计](relationships-many-to-many.md#relate-many-to-many-dimensions)中，无事实事实数据表称为_桥接表_。
+无事实事实数据表的更有力的用途是存储维度之间的关系，并且我们建议使用此 Power BI 模型设计方法定义“多对多”维度关系。 在 [“多对多”维度关系设计](relationships-many-to-many.md#relate-many-to-many-dimensions)中，无事实事实数据表称为 _桥接表_。
 
 例如，假设销售人员可以分配到一个或多个销售区域  。 桥接表将被设计为包含两列的无事实事实数据表：销售人员键和区域键。 这两列中可以存储重复的值。
 

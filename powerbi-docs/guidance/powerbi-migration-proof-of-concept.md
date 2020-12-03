@@ -2,22 +2,22 @@
 title: 进行概念证明，以迁移到 Power BI
 description: 有关迁移到 Power BI 时进行概念证明的指南。
 author: peter-myers
+ms.author: v-pemyer
 ms.reviewer: asaxton
 ms.service: powerbi
-ms.subservice: powerbi-service
+ms.subservice: powerbi
 ms.topic: conceptual
 ms.date: 08/20/2020
-ms.author: v-pemyer
-ms.openlocfilehash: a7b7a848aafc3a581c1a19cf34366d61ba891f86
-ms.sourcegitcommit: 84e75a2cd92f4ba4e0c08ba296b981b79d6d0e82
+ms.openlocfilehash: 77174da7fd47470974a292ba98f6b50c268b04fd
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/25/2020
-ms.locfileid: "88803116"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96419121"
 ---
-# <a name="conductproofofconcepttomigratetopowerbi"></a>进行概念证明，以迁移到 Power BI
+# <a name="conduct-proof-of-concept-to-migrate-to-power-bi"></a>进行概念证明，以迁移到 Power BI
 
-本文介绍**阶段 3**，该阶段与进行概念证明 (POC) 以在迁移到 Power BI 时降低风险并尽早解决未知问题有关。
+本文介绍 **阶段 3**，该阶段与进行概念证明 (POC) 以在迁移到 Power BI 时降低风险并尽早解决未知问题有关。
 
 :::image type="content" source="media/powerbi-migration-proof-of-concept/migrate-to-powerbi-stage-3.png" alt-text="显示 Power BI 迁移阶段的图像。本文重点介绍阶段 3。":::
 

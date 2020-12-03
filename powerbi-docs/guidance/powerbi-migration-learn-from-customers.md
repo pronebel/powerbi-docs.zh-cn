@@ -2,18 +2,18 @@
 title: 学习客户 Power BI 迁移的经验
 description: 迁移到 Power BI 时从客户处获取反馈。
 author: peter-myers
+ms.author: v-pemyer
 ms.reviewer: asaxton
 ms.service: powerbi
-ms.subservice: powerbi-service
+ms.subservice: powerbi
 ms.topic: conceptual
 ms.date: 08/20/2020
-ms.author: v-pemyer
-ms.openlocfilehash: d436f01e074c27dc8a0d37f9e62d0ac422c4ab81
-ms.sourcegitcommit: 4ac9447d1607dfca2e60948589f36a3d64d31cb4
+ms.openlocfilehash: fd5490eae689a4119566474da2ef4d19017a8134
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/29/2020
-ms.locfileid: "92916673"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96419167"
 ---
 # <a name="learn-from-customer-power-bi-migrations"></a>学习客户 Power BI 迁移的经验
 
