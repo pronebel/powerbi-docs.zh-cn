@@ -2,18 +2,18 @@
 title: Power BI 移动 Windows 应用中的单一登录
 description: 阅读有关 Power BI 移动 Windows 应用中的单一登录 (SSO) 的内容。 SSO 意味着，使用单个用户帐户仅登录一次即可访问业务所需的所有应用程序和资源。
 author: paulinbar
+ms.author: painbar
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: how-to
 ms.date: 03/11/2020
-ms.author: painbar
-ms.openlocfilehash: 41ddc6e0c9a4f4f2c9b5687194e043bb1ef80bec
-ms.sourcegitcommit: 6b436f6ed872cbc040ed6e2d3ac089c08fc78daf
+ms.openlocfilehash: b316c7b95b28ecb31561b3fbb99eeafa6ffabdb5
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/09/2020
-ms.locfileid: "91928254"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96415257"
 ---
 # <a name="single-sign-on-in-the-power-bi-mobile-windows-app"></a>Power BI 移动 Windows 应用中的单一登录
 

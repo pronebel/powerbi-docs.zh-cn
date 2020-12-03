@@ -2,18 +2,18 @@
 title: Power BI for HoloLens（第 1 代）
 description: 无论是沉浸在虚拟世界中，还是处于环境上下文中，均可查看 Power BI for Mixed 应用（预览版）中的仪表板和报表。
 author: paulinbar
+ms.author: painbar
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 09/22/2020
-ms.author: painbar
-ms.openlocfilehash: b0288bf3980ac54b960160f011531f3667d8edff
-ms.sourcegitcommit: b3d32b8a4ce26fba7fdb5f1c5954d2b2e426503c
+ms.openlocfilehash: c832217363f726e3eff469238fe9b3f29025837c
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "91005505"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96415349"
 ---
 # <a name="power-bi-for-hololens-1st-gen"></a>Power BI for HoloLens（第 1 代）
 沉浸在虚拟世界中时查看 Power BI for HoloLens 应用中的仪表板和报表，或将它们放在环境上下文中的特定位置。 

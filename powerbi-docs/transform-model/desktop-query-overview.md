@@ -2,28 +2,28 @@
 title: Power BI Desktop 中的查询概述
 description: Power BI Desktop 中的查询概述
 author: davidiseminger
+ms.author: davidi
 ms.reviewer: ''
 ms.service: powerbi
-ms.subservice: powerbi-desktop
+ms.subservice: pbi-transform-model
 ms.topic: conceptual
 ms.date: 01/11/2020
-ms.author: davidi
 LocalizationGroup: Transform and shape data
-ms.openlocfilehash: abd12abf852a220399847bee7903ea83cff1386b
-ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
+ms.openlocfilehash: 9202b94808624ca9e3332ba7acdca29a3ce759ca
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90853600"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96413977"
 ---
 # <a name="query-overview-in-power-bi-desktop"></a>Power BI Desktop 中的查询概述
 借助 Power BI Desktop，可以连接到世界上的数据，创建具有吸引力的基础报表，与依赖你的工作、扩展自身商业智能工作的其他人共享你的工作。
 
 Power BI Desktop 具有三种视图：
 
-* **报表**视图 - 此处你可使用创建的查询来构建具有吸引力的可视化效果，它们按照你所希望的方式进行排列，具有多个页面，你可与他人共享
-* **数据**视图 - 以数据模型格式查看报表中的数据，其中你可添加度量值、创建新列和管理关系
-* **关系**视图 - 获取已在数据模型中建立的关系的图形表示，并根据需要管理和修改它们。
+* **报表** 视图 - 此处你可使用创建的查询来构建具有吸引力的可视化效果，它们按照你所希望的方式进行排列，具有多个页面，你可与他人共享
+* **数据** 视图 - 以数据模型格式查看报表中的数据，其中你可添加度量值、创建新列和管理关系
+* **关系** 视图 - 获取已在数据模型中建立的关系的图形表示，并根据需要管理和修改它们。
 
 选择 Power BI Desktop 左侧三个图标之一即可访问这些视图。 在下图中，选择了“报表”视图，因为图标旁显示黄色带区。  
 
@@ -70,7 +70,7 @@ Power Query 编辑器中的功能区由四个选项卡组成：“主页”、�
 
 ![Power BI Desktop 的屏幕截图，其中显示了“新建源”按钮。](media/desktop-query-overview/query-overview-new-source-menu.png)
 
-有关可用数据源的详细信息，请参阅**数据源**。 有关连接到数据的信息，包括示例和步骤，请参阅**连接到数据**。
+有关可用数据源的详细信息，请参阅 **数据源**。 有关连接到数据的信息，包括示例和步骤，请参阅 **连接到数据**。
 
 “转换”选项卡提供对常见数据转换任务的访问，例如：
 
@@ -83,11 +83,11 @@ Power Query 编辑器中的功能区由四个选项卡组成：“主页”、�
 
 有关转换数据的详细信息（包括示例），请参阅[教程：在 Power BI Desktop 中调整和合并数据](../connect-data/desktop-shape-and-combine-data.md)。
 
-**添加列**选项卡提供了与添加列、设置列数据格式和添加自定义列相关联的其他任务。 下图显示**添加列**选项卡。  
+**添加列** 选项卡提供了与添加列、设置列数据格式和添加自定义列相关联的其他任务。 下图显示 **添加列** 选项卡。  
 
 ![Power BI Desktop 的屏幕截图，其中显示了“添加列”按钮。](media/desktop-query-overview/queryoverview_addcolumnribbon.png)
 
-功能区上的**视图**选项卡用于切换显示的窗格或窗口。 它还用于显示高级编辑器。 下图显示**视图**选项卡。  
+功能区上的 **视图** 选项卡用于切换显示的窗格或窗口。 它还用于显示高级编辑器。 下图显示 **视图** 选项卡。  
 
 ![Power BI Desktop 的屏幕截图，其中显示了“视图”选项卡。](media/desktop-query-overview/queryoverview_viewribbon.png)
 
@@ -105,10 +105,10 @@ Power Query 编辑器中的功能区由四个选项卡组成：“主页”、�
 
 ![Power BI Desktop 的屏幕截图，其中显示了中央窗格中的数据。](media/desktop-query-overview/queryoverview_thecenterpane.png)
 
-当选择右击菜单项（或功能区按钮）时，查询将对数据应用该步骤。 还会将步骤保存为查询本身的一部分。 这些步骤按顺序记录在**查询设置**窗格，如下一节中所述。  
+当选择右击菜单项（或功能区按钮）时，查询将对数据应用该步骤。 还会将步骤保存为查询本身的一部分。 这些步骤按顺序记录在 **查询设置** 窗格，如下一节中所述。  
 
 ## <a name="the-right-query-settings-pane"></a>右（“查询设置”）窗格
-右窗格（“查询设置”窗格）将显示与查询关联的所有步骤。 例如，下图中，**查询设置**窗格的**所应用步骤**部分反映了我们刚刚更改了**总体评分**列的类型。
+右窗格（“查询设置”窗格）将显示与查询关联的所有步骤。 例如，下图中，**查询设置** 窗格的 **所应用步骤** 部分反映了我们刚刚更改了 **总体评分** 列的类型。
 
 ![Power BI Desktop 的屏幕截图，其中显示了右窗格中的“查询设置”。](media/desktop-query-overview/queryoverview_querysettingspane.png)
 
@@ -116,15 +116,15 @@ Power Query 编辑器中的功能区由四个选项卡组成：“主页”、�
 
 非常重要的一点是，基础数据并未更改。 相反，Power Query 编辑器会调整其数据视图。 它还会基于 Power Query 编辑器经过调整和修改的数据视图，来调整与基础数据的任何交互的视图。
 
-在**查询设置**窗格中，可以根据你的需要重命名步骤、删除步骤，或对步骤重新排序。 若要执行此操作，请右键单击**所应用步骤**部分中的步骤，然后从出现的菜单中选择。 所有查询步骤将按照“所应用步骤”窗格中显示的顺序执行。
+在 **查询设置** 窗格中，可以根据你的需要重命名步骤、删除步骤，或对步骤重新排序。 若要执行此操作，请右键单击 **所应用步骤** 部分中的步骤，然后从出现的菜单中选择。 所有查询步骤将按照“所应用步骤”窗格中显示的顺序执行。
 
 ![Power BI Desktop 的屏幕截图，其中显示了“查询设置”属性和“已应用步骤”筛选器。](media/desktop-query-overview/queryoverview_querysettings_rename.png)
 
 ## <a name="advanced-editor"></a>高级编辑器
-利用“高级编辑器”可以查看 Power Query 编辑器通过每个步骤创建的代码。 它还使你可以创建自己的形成代码。 若要启动高级编辑器，从功能区中选择**视图**，然后选择**高级编辑器**。 此时，将会显示包含现有查询代码的窗口。  
+利用“高级编辑器”可以查看 Power Query 编辑器通过每个步骤创建的代码。 它还使你可以创建自己的形成代码。 若要启动高级编辑器，从功能区中选择 **视图**，然后选择 **高级编辑器**。 此时，将会显示包含现有查询代码的窗口。  
 ![Power BI Desktop 的屏幕截图，其中显示了“高级编辑器”对话框。](media/desktop-query-overview/queryoverview_advancededitor.png)
 
-可以直接编辑**高级编辑器** 窗口中的代码。 若要关闭该窗口，请选择**完成**或**取消**按钮。  
+可以直接编辑 **高级编辑器** 窗口中的代码。 若要关闭该窗口，请选择 **完成** 或 **取消** 按钮。  
 
 ## <a name="saving-your-work"></a>保存工作
 在查询已准备就绪时，从 Power Query 编辑器的“文件”菜单中选择“关闭并应用”。 此操作会应用更改并关闭编辑器。  

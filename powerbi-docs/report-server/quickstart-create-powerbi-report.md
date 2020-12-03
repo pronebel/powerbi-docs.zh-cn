@@ -2,18 +2,18 @@
 title: 为 Power BI 报表服务器创建 Power BI 报表
 description: 了解如何通过执行简单几步为 Power BI 报表服务器创建 Power BI 报表。
 author: maggiesMSFT
+ms.author: maggies
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: how-to
 ms.date: 07/24/2020
-ms.author: maggies
-ms.openlocfilehash: b41ca7c8a85a544afea84e7f19a06f91dc85f376
-ms.sourcegitcommit: a5fa368abad54feb44a267fe26c383a731c7ec0d
+ms.openlocfilehash: 965c3837b2d0153716442ea37b52b468be9742fb
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/30/2020
-ms.locfileid: "93045033"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96414107"
 ---
 # <a name="create-a-power-bi-report-for-power-bi-report-server"></a>为 Power BI 报表服务器创建 Power BI 报表
 可以在 Power BI 报表服务器 Web 门户中在本地存储和管理 Power BI 报表，就像在 Power BI 服务 (https://powerbi.com) ) 中的云中存储 Power BI 报表一样。 可以在 Power BI Desktop 中创建和编辑报表，并将其发布到 Web 门户中。 接下来，组织中的报表读取器可以在浏览器或移动设备上的 Power BI 移动应用中查看报表。
@@ -36,9 +36,9 @@ ms.locfileid: "93045033"
 
 3. 根据所用的计算机选择：
 
-    - **PBIDesktopRS.msi** （32 位版本）或
+    - **PBIDesktopRS.msi**（32 位版本）或
 
-    - **PBIDesktopRS_x64.msi** （64 位版本）。
+    - **PBIDesktopRS_x64.msi**（64 位版本）。
 
 4. 下载安装程序后，运行 Power BI Desktop 安装向导。
 

@@ -2,16 +2,16 @@
 title: 管理员学习目录
 description: 查找面向管理员的所有 Power BI 培训选项（从最基础到最高级）。
 author: margoc
+ms.author: margoc
 ms.prod: powerbi
 ms.topic: article
 ms.date: 03/25/2020
-ms.author: margoc
-ms.openlocfilehash: 3bf6e26eb21bdf4c8a348600bc6cf45b42b17ae3
-ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
+ms.openlocfilehash: 51751f23aa3bdcdbd1bd6540279c0aab35c90af4
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/06/2020
-ms.locfileid: "91749129"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96414866"
 ---
 # <a name="administrators-learning-catalog"></a>管理员学习目录
 

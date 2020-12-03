@@ -2,19 +2,19 @@
 title: 使用 Power BI Desktop 中的书签来共享见解和创建情景
 description: 使用 Power BI Desktop 中的书签，可以保存报表中的视图和设置，并生成类似于情景的演示文稿
 author: maggiesMSFT
+ms.author: maggies
 ms.reviewer: ''
 ms.service: powerbi
-ms.subservice: powerbi-desktop
+ms.subservice: pbi-reports-dashboards
 ms.topic: how-to
 ms.date: 05/06/2020
-ms.author: maggies
 LocalizationGroup: Create reports
-ms.openlocfilehash: 110abfd3ac8d258a6f4e800d218c08af9dc3c983
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: b1d9be5515680a199a2ae74c59aa1baeb30ef1f1
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85239303"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96414475"
 ---
 # <a name="create-bookmarks-in-power-bi-desktop-to-share-insights-and-build-stories"></a>在 Power BI Desktop 中创建书签以共享见解和创建情景
 使用 Power BI Desktop 中的书签，可以捕获当前配置的报表页视图（其中包含视觉对象的筛选和状态）。 稍后，可以通过选择已保存书签恢复相应状态。 

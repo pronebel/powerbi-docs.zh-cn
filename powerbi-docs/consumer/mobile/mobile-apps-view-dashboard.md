@@ -2,18 +2,18 @@
 title: 查看 Power BI 移动应用中的仪表板
 description: 在 Power BI 服务中创建或连接仪表板。 然后可以在 Power BI 移动应用中对其进行查看。
 author: paulinbar
+ms.author: painbar
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: how-to
 ms.date: 08/10/2020
-ms.author: painbar
-ms.openlocfilehash: 5add474500754405acb959577a0a7eb2e50a148b
-ms.sourcegitcommit: 7e99e8af9caf9340958c4607a94728d43e8c3811
+ms.openlocfilehash: f3e3677e79c1b54a665f21095810163caa7576a2
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/02/2020
-ms.locfileid: "91668634"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96415510"
 ---
 # <a name="view-dashboards-in-the-power-bi-mobile-apps"></a>查看 Power BI 移动应用中的仪表板
 适用于：
@@ -146,7 +146,7 @@ ms.locfileid: "91668634"
     可以在仪表板的不同区域使用“收缩”手势进行放大和缩小，还可以使用平移来进行导航。 你仍然可以[点击磁贴](mobile-tiles-in-the-mobile-apps.md)以在焦点模式下打开该磁贴，并与你的数据进行交互。
 
 ## <a name="create-a-phone-view-of-a-dashboard-in-the-power-bi-service"></a>在 Power BI 服务中创建仪表板电话视图
-如果你是仪表板所有者，则可以*在 Power BI 服务中*创建手机专用仪表板纵向模式视图。 
+如果你是仪表板所有者，则可以 *在 Power BI 服务中* 创建手机专用仪表板纵向模式视图。 
 
 ![仪表板电话视图](./media/mobile-apps-view-dashboard/power-bi-phone-dashboard-in-progress.png)
 

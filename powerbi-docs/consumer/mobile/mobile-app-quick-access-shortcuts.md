@@ -2,17 +2,17 @@
 title: 在 Power BI Android 应用中使用 Android 应用快捷方式
 description: 了解如何通过快捷方式和 Google Search 直接快速访问经常查看的内容。
 author: paulinbar
+ms.author: painbar
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: how-to
 ms.date: 04/06/2020
-ms.author: painbar
-ms.openlocfilehash: ec4763118360ea02362e3f49fe9776224e9c087a
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 3231e896384f7d438f5448461bc4534532c04910
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85229393"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96414682"
 ---
 # <a name="use-android-app-shortcuts-in-the-power-bi-android-app"></a>在 Power BI Android 应用中使用 Android 应用快捷方式
 

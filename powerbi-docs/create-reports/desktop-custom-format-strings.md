@@ -2,19 +2,19 @@
 title: 在 Power BI Desktop 中使用自定义格式字符串
 description: 了解如何在 Power BI Desktop 中自定义格式字符串
 author: davidiseminger
+ms.author: davidi
 ms.reviewer: ''
 ms.service: powerbi
-ms.subservice: powerbi-desktop
+ms.subservice: pbi-reports-dashboards
 ms.topic: how-to
 ms.date: 09/11/2019
-ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: d4036bb6a2fdc8db7c251a39f5527c54ae1c578b
-ms.sourcegitcommit: 51b965954377884bef7af16ef3031bf10323845f
+ms.openlocfilehash: b4c4577dda72e0f8badf2422cd6365187b8ab285
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/30/2020
-ms.locfileid: "91600570"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96414245"
 ---
 # <a name="use-custom-format-strings-in-power-bi-desktop"></a>在 Power BI Desktop 中使用自定义格式字符串
 

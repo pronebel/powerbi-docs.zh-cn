@@ -2,19 +2,19 @@
 title: 通过 Power BI 问答创建视觉对象
 description: 使用零售分析示例，了解如何通过 Power BI 服务的问答功能创建视觉对象
 author: maggiesMSFT
+ms.author: maggies
 ms.reviewer: ''
 ms.service: powerbi
-ms.subservice: powerbi-service
+ms.subservice: pbi-reports-dashboards
 ms.topic: how-to
 ms.date: 05/13/2019
-ms.author: maggies
 LocalizationGroup: Ask questions of your data
-ms.openlocfilehash: 6bd68f5db12367e6c98b6fe61461b89047d8eb56
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 7eae93eb2b4594a180836f43a758c6bef7b3e90e
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85237243"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96415027"
 ---
 # <a name="create-a-visual-with-power-bi-qa"></a>通过 Power BI 问答创建视觉对象
 
@@ -58,10 +58,10 @@ ms.locfileid: "85237243"
 
     ![零售分析示例仪表板](media/power-bi-visualization-introduction-to-q-and-a/power-bi-dashboard.png)
 
-1. 在编辑视图中打开报表，方法是选择**编辑报表**。  如果你不是报表的所有者，则无法在编辑视图中打开报表。
+1. 在编辑视图中打开报表，方法是选择 **编辑报表**。  如果你不是报表的所有者，则无法在编辑视图中打开报表。
    
     ![编辑报表按钮](media/power-bi-visualization-introduction-to-q-and-a/power-bi-edit-report.png)
-4. 选择此面积图，然后在**字段**窗格中检查设置。  报表创建者通过选择这 3 个值（“销售额”表中的“上年度销售额”和“本年度销售额 > 数目”，以及“时间”表中的“财月”），并且在“坐标轴”和“值”框中组织它们来生成此图表        。
+4. 选择此面积图，然后在 **字段** 窗格中检查设置。  报表创建者通过选择这 3 个值（“销售额”表中的“上年度销售额”和“本年度销售额 > 数目”，以及“时间”表中的“财月”），并且在“坐标轴”和“值”框中组织它们来生成此图表        。
    
     ![“可视化效果”窗格](media/power-bi-visualization-introduction-to-q-and-a/gnatutorial_3-new.png)
 

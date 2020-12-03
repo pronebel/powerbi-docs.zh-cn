@@ -2,16 +2,16 @@
 title: 使用者学习目录
 description: 查找面向使用报表和仪表板的使用者的所有 Power BI 培训选项（从最基础到最高级）。
 author: margoc
+ms.author: margoc
 ms.prod: powerbi
 ms.topic: article
 ms.date: 03/25/2020
-ms.author: margoc
-ms.openlocfilehash: 4a4190dd8a1f17c1a49eca09e6c673a102ae0924
-ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
+ms.openlocfilehash: 8a40d11c9bf2a8ee09e879912d2bd2de0da327ee
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/06/2020
-ms.locfileid: "91749405"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96414797"
 ---
 # <a name="consumers-learning-catalog"></a>使用者学习目录
 

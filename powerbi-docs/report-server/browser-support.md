@@ -2,18 +2,18 @@
 title: Power BI 报表服务器的浏览器支持
 description: 了解支持使用哪些版本的浏览器来管理和查看 Power BI 报表服务器和报表查看器控件。
 author: maggiesMSFT
+ms.author: maggies
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 10/24/2018
-ms.author: maggies
-ms.openlocfilehash: 264eb0c9079e1f54d53aeb41a1ef73016c2bf1b4
-ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
+ms.openlocfilehash: 7658e1943c1f0ac85904fc7b985f2bd764451052
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90859265"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96414751"
 ---
 # <a name="browser-support-for-power-bi-report-server"></a>Power BI 报表服务器的浏览器支持
 了解支持使用哪些版本的浏览器来管理和查看 Power BI 报表服务器和报表查看器控件。

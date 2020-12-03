@@ -2,19 +2,19 @@
 title: “Power BI 开发人员的一天”课程
 description: 这是一门基于视频的课程，使应用开发人员能够掌握嵌入 Power BI 内容所需的技术知识。
 author: peter-myers
+ms.author: v-pemyer
 ms.reviewer: yana.berkovich
 featuredvideoid: dv-ep90wse8
 ms.service: powerbi
-ms.subservice: powerbi-developer
+ms.subservice: powerbi
 ms.topic: tutorial
 ms.date: 06/01/2020
-ms.author: v-pemyer
-ms.openlocfilehash: bb5e2d0accd2db339666e23c449164103bb26ac8
-ms.sourcegitcommit: d153cfc0ce559480c53ec48153a7e131b7a31542
+ms.openlocfilehash: 67633bf4362984d0a1e3b6a6aa8b74de3747191f
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/29/2020
-ms.locfileid: "91527875"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96414889"
 ---
 # <a name="power-bi-developer-in-a-day-course"></a>“Power BI 开发人员的一天”课程
 

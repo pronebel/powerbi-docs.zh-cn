@@ -2,18 +2,18 @@
 title: 教程：在 iOS 应用中向常见问题虚拟分析师询问问题
 description: 在本教程中，在 iOS 设备上的 Power BI 移动应用中以你自己的语言向问答虚拟分析师询问关于示例数据的问题。
 author: paulinbar
+ms.author: painbar
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: tutorial
 ms.date: 11/26/2019
-ms.author: painbar
-ms.openlocfilehash: 3b84cf4969df05d4e9570b12a80436bca3e280be
-ms.sourcegitcommit: 7e99e8af9caf9340958c4607a94728d43e8c3811
+ms.openlocfilehash: 6d69f4527b838136b54ccfbad43d27fa247804d9
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/02/2020
-ms.locfileid: "91668312"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96415280"
 ---
 # <a name="tutorial-ask-questions-about-your-data-with-the-qa-virtual-analyst-in-the-power-bi-ios-apps"></a>教程：在 Power BI iOS 应用中向常见问题虚拟分析师询问关于数据的问题
 

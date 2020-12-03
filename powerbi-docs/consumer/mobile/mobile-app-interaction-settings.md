@@ -2,18 +2,18 @@
 title: 配置报表交互设置
 description: 了解如何替代报表的默认交互设置。
 author: paulinbar
+ms.author: painbar
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: how-to
 ms.date: 03/08/2020
-ms.author: painbar
-ms.openlocfilehash: 67f34bfe04599ffa7d9f9f2c2c3d13545b4306ac
-ms.sourcegitcommit: be424c5b9659c96fc40bfbfbf04332b739063f9c
+ms.openlocfilehash: fdafc1cd5804bf62a715dc4161ce853c2690ce3a
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "91635254"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96414636"
 ---
 # <a name="configure-report-interaction-settings"></a>配置报表交互设置
 
@@ -28,7 +28,7 @@ Power BI 移动应用具有许多可配置的“交互”设置，使你可以�
 | [停靠报表页脚与动态报表页脚](#docked-report-footer) |✔|✔|||
 | [按钮启动的报表刷新与下拉以刷新](#report-refresh) |✔||||
 
-若要转到交互设置，请点击个人资料图片以打开[侧面板](./mobile-apps-home-page.md#header)，选择“设置”****，并找到“交互”**** 部分。
+若要转到交互设置，请点击个人资料图片以打开[侧面板](./mobile-apps-home-page.md#header)，选择“设置”，并找到“交互”部分。
 
 ![交互设置](./media/mobile-app-interaction-settings/powerbi-mobile-app-interactions-section.png)
 
@@ -56,7 +56,7 @@ Power BI 移动应用具有许多可配置的“交互”设置，使你可以�
 
 停靠报表页脚设置确定报表页脚是保持停靠（即固定并始终可见）在报表底部，还是基于报表中的操作（如滚动）隐藏和重新显示。
 
-在 Android 手机上，停靠报表页脚设置在默认情况下为“开启”****，这意味着报表页脚会停靠并且始终显示在报表底部。 如果更喜欢根据报表中的操作而显示和消失的动态报表页脚，请将设置切换为“关闭”****。
+在 Android 手机上，停靠报表页脚设置在默认情况下为“开启”，这意味着报表页脚会停靠并且始终显示在报表底部。 如果更喜欢根据报表中的操作而显示和消失的动态报表页脚，请将设置切换为“关闭”。
 
 ### <a name="report-refresh"></a>报表刷新
 

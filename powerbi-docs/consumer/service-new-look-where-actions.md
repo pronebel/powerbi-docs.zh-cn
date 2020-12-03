@@ -1,20 +1,20 @@
 ---
 title: “全新外观”：操作位于何处？
 description: Power BI 服务 (app.powerbi.com) 具有新外观，并且已移动多个操作。 本文提供了将旧位置映射到新位置的表。
-author: maggiesMSFT
+author: mihart
+ms.author: mihart
 ms.reviewer: maggies
 ms.service: powerbi
-ms.subservice: powerbi-consumer
+ms.subservice: pbi-explore
 ms.topic: conceptual
 ms.date: 10/22/2020
-ms.author: maggies
 LocalizationGroup: Get started
-ms.openlocfilehash: 572943a437ebf0380b254e8b659699d676e9001f
-ms.sourcegitcommit: fddba666c6ea90d525a1c3188bbd3c4a03410cdc
+ms.openlocfilehash: 1c16405ff211620580f739facda8556e81774935
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/23/2020
-ms.locfileid: "92462156"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96415119"
 ---
 # <a name="the-new-look-where-did-the-actions-go"></a>“全新外观”：操作位于何处？
 

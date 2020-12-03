@@ -2,18 +2,18 @@
 title: Power BI 报表服务器容量计划指南
 description: 本文通过共享各种工作负载的加载测试执行结果，提供 Power BI 报表服务器的容量计划指南。
 author: maggiesMSFT
+ms.author: maggies
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 04/02/2020
-ms.author: maggies
-ms.openlocfilehash: f82a3a9e1cf207a006319e6ac7e662baaf5d9d1f
-ms.sourcegitcommit: c83146ad008ce13bf3289de9b76c507be2c330aa
+ms.openlocfilehash: 0c75590071437b8e9edcc0023516ad7f095f0dcc
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/10/2020
-ms.locfileid: "86216572"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96414705"
 ---
 # <a name="capacity-planning-guidance-for-power-bi-report-server"></a>Power BI 报表服务器容量计划指南
 Power BI 报表服务器是自助式 BI 和企业报表解决方案，客户可以在本地（防火墙后）进行部署。 它将 Power BI Desktop 的交互式报表功能与 SQL Server Reporting Services 的本地服务器平台相结合。 随着企业中对分析和报表的大量日益频繁使用，对衡量企业用户群所需的硬件基础结构和软件许可证进行预算可能会成为一项挑战。 本文旨在通过共享针对报表服务器的各种工作负载的大量加载测试执行的结果，提供 Power BI 报表服务器的容量计划指南。 虽然组织的报表、查询和使用模式差异巨大，但是本文中显示的结果，以及所用的实际测试和测试执行方式的详细描述，均可用作部署 Power BI 报表服务器早期阶段计划过程中的任何用户的参考点。

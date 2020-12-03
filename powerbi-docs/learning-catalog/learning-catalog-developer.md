@@ -2,16 +2,16 @@
 title: 开发人员学习目录
 description: 查找面向开发人员的所有 Power BI 培训选项（从最基础到最高级）。
 author: margoc
+ms.author: margoc
 ms.prod: powerbi
 ms.topic: article
 ms.date: 03/25/2020
-ms.author: margoc
-ms.openlocfilehash: 442ae8cb6c433cbc7501a6f354158c39a48e2d68
-ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
+ms.openlocfilehash: 01aa3579fd837b36562dbed27f557d5efdf07c20
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/06/2020
-ms.locfileid: "91746530"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96414820"
 ---
 # <a name="developer-learning-catalog"></a>开发人员学习目录
 

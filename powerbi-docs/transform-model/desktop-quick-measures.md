@@ -2,20 +2,20 @@
 title: 使用快速度量执行常见的高效计算
 description: 快速度量提供现成的 DAX 公式，能够快速执行常见计算。
 author: davidiseminger
+ms.author: davidi
 ms.reviewer: ''
 ms.custom: seodec18
 ms.service: powerbi
-ms.subservice: powerbi-desktop
+ms.subservice: pbi-transform-model
 ms.topic: how-to
 ms.date: 11/22/2019
-ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 8ba43290e0e076963a61a7211ad99e99636ebb2e
-ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
+ms.openlocfilehash: 77f15cb0fcb92a895c92bd93d8fa18896dafc7f8
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90853370"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96413877"
 ---
 # <a name="use-quick-measures-for-common-calculations"></a>使用快速度量执行常见计算
 可使用快速度量快速、轻松地执行常见的高效计算。 快速度量在后台运行一组数据分析表达式 (DAX) 命令，然后显示结果以供用户在报表中使用。 无需编写 DAX，系统会根据对话框中提供的输入自动完成此操作。 计算分为许多类别，可通过多种方式来根据自己的需求修改所有计算。 也许最重要的是，可以查看快速度量执行的 DAX，从而开始学习或拓展你自己的 DAX 知识。

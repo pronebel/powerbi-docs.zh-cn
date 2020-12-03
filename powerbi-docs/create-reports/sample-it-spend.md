@@ -2,19 +2,19 @@
 title: Power BI 的 IT 支出分析示例教程
 description: Power BI 的 IT 支出分析示例教程
 author: maggiesMSFT
+ms.author: maggies
 ms.reviewer: amac
 ms.service: powerbi
-ms.subservice: powerbi-desktop
+ms.subservice: pbi-reports-dashboards
 ms.topic: conceptual
 ms.date: 07/05/2019
-ms.author: maggies
 LocalizationGroup: Samples
-ms.openlocfilehash: f132a68d537d8fa1a518e91823e1dc36a2969622
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: cdde0e702333feed54637c72fa3193052fde139f
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83349025"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96414958"
 ---
 # <a name="it-spend-analysis-sample-for-power-bi-take-a-tour"></a>Power BI 的 IT 支出分析示例教程
 
@@ -69,10 +69,10 @@ IT 支出分析示例内容包中有仪表板、报表和数据集，分析了 I
 
 不过，只查看此图而得出的结论可能会造成误导。 我们需要查看实际的美元金额，才可透彻地了解状况。
 
-1. 选择“与计划差异(%)(按销售区域)”  图中的“澳大利亚和新西兰”  ，然后观察“与计划差异(按 IT 领域)”  图。
+1. 选择“与计划差异(%)(按销售区域)”图中的“澳大利亚和新西兰”，然后观察“与计划差异(按 IT 领域)”图。
 
    ![“年初至今 IT 支出趋势分析”页](media/sample-it-spend/it3.png)
-2. 现在，请选择**美国**。 我们注意到，与美国相比，澳大利亚和新西兰只占总支出的很小一部分。
+2. 现在，请选择 **美国**。 我们注意到，与美国相比，澳大利亚和新西兰只占总支出的很小一部分。
 
     接下来，将探索是美国的哪个类别造成了差异。
 
@@ -98,11 +98,11 @@ IT 支出分析示例内容包中有仪表板、报表和数据集，分析了 I
    我们注意到，“基础设施”领域因为与计划有很大正差异而凸显出来。
 
 1. 选择此磁贴，以打开报表并查看“年初至今支出(按成本元素)”  页。
-2. 选择右下角“与计划差异(%)和与 LE3 差异(%)(按 IT 领域)”  图中的“基础设施”  条形，并观察左下角“与计划差异(%)(按销售区域)”  图中的与计划差异值。
+2. 选择右下角“与计划差异(%)和与 LE3 差异(%)(按 IT 领域)”图中的“基础设施”条形，并观察左下角“与计划差异(%)(按销售区域)”图中的与计划差异值。
 
     ![“年初至今支出(按成本元素)”页](media/sample-it-spend/it6.png)
 3. 依次选择“成本元素组”  切片器中的每个名称，以找到差异最大的成本元素。
-4. 选择“其他”  后，选择“IT 领域”  切片器中的“基础设施”  ，并选择“IT 子领域”  切片器中的子领域，以找到差异最大的子领域。  
+4. 选择“其他”后，选择“IT 领域”切片器中的“基础设施”，并选择“IT 子领域”切片器中的子领域，以找到差异最大的子领域。  
 
    我们注意到，“网络”  的差异大。 显然，这家公司决定了为员工提供电话服务福利，尽管这项举措并不在计划中。
 

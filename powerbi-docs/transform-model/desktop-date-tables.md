@@ -2,19 +2,19 @@
 title: 在 Power BI Desktop 中设置和使用日期表
 description: 了解如何在 Power BI Desktop 中将表设置为日期表及其含义
 author: davidiseminger
+ms.author: davidi
 ms.reviewer: ''
 ms.service: powerbi
-ms.subservice: powerbi-service
+ms.subservice: pbi-transform-model
 ms.topic: conceptual
 ms.date: 05/08/2019
-ms.author: davidi
 LocalizationGroup: Model your data
-ms.openlocfilehash: cdb992ba337118c9f7fcfef8335dbc31e6e48032
-ms.sourcegitcommit: c83146ad008ce13bf3289de9b76c507be2c330aa
+ms.openlocfilehash: 1a0782e7a80cc8d2cc824effe07a99df7ec64785
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/10/2020
-ms.locfileid: "86215309"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96415809"
 ---
 # <a name="set-and-use-date-tables-in-power-bi-desktop"></a>在 Power BI Desktop 中设置和使用日期表
 

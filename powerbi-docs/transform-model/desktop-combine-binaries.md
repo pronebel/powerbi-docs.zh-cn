@@ -2,19 +2,19 @@
 title: 合并 Power BI Desktop 中的文件（二进制文件）
 description: 轻松合并 Power BI Desktop 中的文件（二进制文件）数据源
 author: davidiseminger
+ms.author: davidi
 ms.reviewer: ''
 ms.service: powerbi
-ms.subservice: powerbi-desktop
+ms.subservice: pbi-transform-model
 ms.topic: how-to
 ms.date: 01/13/2020
-ms.author: davidi
 LocalizationGroup: Transform and shape data
-ms.openlocfilehash: cb287d63444b60318a717a1a1587f7755cd7f666
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: bf75a5656de956be5ddd38330d659cba06e30455
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85237877"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96415832"
 ---
 # <a name="combine-files-binaries-in-power-bi-desktop"></a>合并 Power BI Desktop 中的文件（二进制文件）
 
@@ -32,7 +32,7 @@ ms.locfileid: "85237877"
 
 ![“合并文件”命令、Power Query 编辑器、Power BI Desktop](media/desktop-combine-binaries/combine-binaries_2a.png)
 
-*合并文件*转换执行如下操作：
+*合并文件* 转换执行如下操作：
 
 * 合并文件转换分析每个输入文件，以确定要使用的正确文件格式，如文本  、Excel 工作簿  或 JSON 文件  。
 * 借助转换，可以从第一个文件选择特定对象，比如要提取的 Excel 工作簿。

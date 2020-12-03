@@ -2,18 +2,18 @@
 title: 使用移动设备扫描 Power BI QR 码
 description: 使用 Power BI 中的 QR 码，可以在适用于 iPhone 和 Android 设备的 Power BI 移动应用中从现实生活中的任何项直接连接到相关 BI 信息。
 author: paulinbar
+ms.author: painbar
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: how-to
 ms.date: 12/02/2019
-ms.author: painbar
-ms.openlocfilehash: a551df2fb8ec668a9d8d29bdb8cdb37f9bb1652c
-ms.sourcegitcommit: e8ed3d120699911b0f2e508dc20bd6a9b5f00580
+ms.openlocfilehash: ab6d8f208300350a613cc63dab948f42376b905e
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/11/2020
-ms.locfileid: "86264859"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96414544"
 ---
 # <a name="scan-a-power-bi-qr-code-from-your-mobile-device"></a>使用移动设备扫描 Power BI QR 码
 适用于：

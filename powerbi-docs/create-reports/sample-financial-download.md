@@ -2,19 +2,19 @@
 title: 下载适用于 Power BI 的财务示例 Excel 工作簿
 description: 下载 Power BI 的财务示例工作簿
 author: maggiesMSFT
+ms.author: maggies
 ms.reviewer: amac
 ms.service: powerbi
-ms.subservice: powerbi-desktop
+ms.subservice: pbi-reports-dashboards
 ms.topic: sample
 ms.date: 10/13/2020
-ms.author: maggies
 LocalizationGroup: Samples
-ms.openlocfilehash: 46f6179edc63b0a865043674b22ffe88e813a3b4
-ms.sourcegitcommit: eab5a02520c421a57019595c03e9ecfdb41d52ad
+ms.openlocfilehash: fdad1975c35591267c9fa22b1d5c84dc9892be74
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/20/2020
-ms.locfileid: "92255941"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96414935"
 ---
 # <a name="download-the-financial-sample-excel-workbook-for-power-bi"></a>下载适用于 Power BI 的财务示例 Excel 工作簿
 需要一些数据来试用 Power BI 服务？ 我们有一个简单的 Excel 工作簿，其中包含示例财务数据。 此工作簿中有一个按细分市场和国家/地区排序的销售和盈利数据表格。 

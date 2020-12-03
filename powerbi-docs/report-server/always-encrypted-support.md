@@ -2,18 +2,18 @@
 title: Power BI 报表服务器中的 Always Encrypted
 description: 本文阐述了使用数据源类型 Microsoft SQL Server 和 Microsoft Azure SQL 数据库时 Power BI 报表服务器中的 Always Encrypted 支持。
 author: maggiesMSFT
+ms.author: maggies
 ms.reviewer: cfinlan
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 01/22/2020
-ms.author: maggies
-ms.openlocfilehash: f921d9dbeb16d1b960e22f228f7833c8fbf184b4
-ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
+ms.openlocfilehash: 4851a20ecd406ffe2a460ba52833cca420b517da
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90861236"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96415533"
 ---
 # <a name="always-encrypted-in-power-bi-report-server"></a>Power BI 报表服务器中的 Always Encrypted
 
