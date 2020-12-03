@@ -2,19 +2,19 @@
 title: Power BI 中的数据保护
 description: 了解 Power BI 中的数据保护
 author: paulinbar
+ms.author: painbar
 manager: rkarlin
 ms.service: powerbi
 ms.subservice: powerbi-eim
 ms.topic: conceptual
 ms.date: 09/17/2020
-ms.author: painbar
 LocalizationGroup: Data from files
-ms.openlocfilehash: 27f4aa5f186b2af49a4c4d8f0427b4e59e2dc97e
-ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
+ms.openlocfilehash: 4405b83dae3d517b16099725ab10990cc8e503f4
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90854428"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96413348"
 ---
 # <a name="data-protection-in-power-bi"></a>Power BI 中的数据保护
 

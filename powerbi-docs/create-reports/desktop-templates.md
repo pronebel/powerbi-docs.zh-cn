@@ -2,19 +2,19 @@
 title: 在 Power BI Desktop 中使用模板
 description: 在 Power BI Desktop 中创建和共享模板
 author: davidiseminger
+ms.author: davidi
 ms.reviewer: ''
 ms.service: powerbi
-ms.subservice: powerbi-desktop
+ms.subservice: pbi-reports-dashboards
 ms.topic: how-to
 ms.date: 08/16/2019
-ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 955e32e99c4f208bbf3582c32b9e5efee95a8f3a
-ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
+ms.openlocfilehash: 71e7167be5f39868b36211fd906cccf482cada5c
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90861926"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96412704"
 ---
 # <a name="create-report-templates-for-power-bi-desktop"></a>为 Power BI Desktop 创建报表模板
 
@@ -69,7 +69,7 @@ Power BI 报表模板就这样在指定的文件位置创建，其扩展名为 .
 大功告成。 在 Power BI Desktop 中创建和使用报表模板非常简单，使你可以轻松地重现引人注目的布局和报表的方方面面，并与他人共享。
 
 ## <a name="next-steps"></a>后续步骤
-你可能还希望了解**查询参数**：
+你可能还希望了解 **查询参数**：
 * [在 Power BI Desktop 中使用查询参数？](/power-query/power-query-query-parameters)
 
 此外，还可使用 Power BI Desktop 执行多种操作。 有关其功能的详细信息，请参阅下列资源：

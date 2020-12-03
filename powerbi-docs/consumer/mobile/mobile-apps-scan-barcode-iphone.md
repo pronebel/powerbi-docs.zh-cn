@@ -2,18 +2,18 @@
 title: 从 Power BI 移动应用中扫描条形码
 description: 扫描现实生活中的条形码，直接转到在 Power BI 移动应用中筛选后的 BI 信息。
 author: paulinbar
+ms.author: painbar
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: how-to
 ms.date: 12/02/2019
-ms.author: painbar
-ms.openlocfilehash: 9265cc94aceb53b1b088f2393ca607c83f94b978
-ms.sourcegitcommit: e8ed3d120699911b0f2e508dc20bd6a9b5f00580
+ms.openlocfilehash: 5d1534ec3b6ccdf730cd2b255ba1142e80a6f9f9
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/11/2020
-ms.locfileid: "86264797"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96413095"
 ---
 # <a name="scan-a-barcode-with-your-device-from-the-power-bi-mobile-app"></a>使用设备上的 Power BI 移动应用扫描条形码
 扫描现实生活中的条形码，直接转到在 Power BI 移动应用中筛选后的 BI 信息。
@@ -62,9 +62,9 @@ ms.locfileid: "86264797"
 扫描的条形码值存在于你的模型中，但报表上的所有/某些视觉对象不包含此值，因此筛选将返回一个空状态。 请尝试查找其他报表页，或在 Power BI Desktop 中编辑报表，使其包含此值 
 
 ### <a name="looks-like-you-dont-have-any-reports-that-can-be-filtered-by-barcodes"></a>“看起来你没有可按条形码筛选的任何报表。”
-这意味着你没有任何已启用条形码的报表。 条形码扫描器只能筛选具有标记为 **条形码**的列的报表。  
+这意味着你没有任何已启用条形码的报表。 条形码扫描器只能筛选具有标记为 **条形码** 的列的报表。  
 
-请确保你或报告所有者在 Power BI Desktop 中已将某列标记为**条形码** 。 了解更多关于[在 Power BI Desktop 中标记条形码字段](../../transform-model/desktop-mobile-barcodes.md)的信息
+请确保你或报告所有者在 Power BI Desktop 中已将某列标记为 **条形码** 。 了解更多关于[在 Power BI Desktop 中标记条形码字段](../../transform-model/desktop-mobile-barcodes.md)的信息
 
 ### <a name="couldnt-filter-report---looks-like-this-barcode-doesnt-exist-in-the-report-data"></a>“无法筛选报表 - 似乎报表数据中无此条形码。”
 你选择进行筛选的报表基于的数据模型不包括此条形码值。 例如，报表不包含产品“矿泉水”。 你可以扫描不同的产品，选择其他报表（如果提供了多个报表）或查看未筛选的报表。 

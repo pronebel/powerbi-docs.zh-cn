@@ -2,20 +2,20 @@
 title: 在 Power BI Desktop 中使用报表主题
 description: 了解如何使用自定义调色板，并将其应用于 Power BI Desktop 中的整个报表。
 author: davidiseminger
+ms.author: davidi
 ms.reviewer: ''
 ms.custom: contperfq4
 ms.service: powerbi
-ms.subservice: powerbi-desktop
+ms.subservice: pbi-reports-dashboards
 ms.topic: how-to
 ms.date: 07/28/2020
-ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: ed8d93ef905cca6e934ac2100093475136595c9a
-ms.sourcegitcommit: be424c5b9659c96fc40bfbfbf04332b739063f9c
+ms.openlocfilehash: 1efc83ac18b2d2cf44aae05003e533f45ae11864
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "91634725"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96413026"
 ---
 # <a name="use-report-themes-in-power-bi-desktop"></a>在 Power BI Desktop 中使用报表主题
 
@@ -27,9 +27,9 @@ ms.locfileid: "91634725"
 
 报表主题有两种类型：内置报表主题和自定义报表主题文件。
 
-- **内置**报表主题提供 Power BI Desktop 已安装的各种预定义配色方案。 可直接从 Power BI Desktop 菜单选择内置报表主题。
+- **内置** 报表主题提供 Power BI Desktop 已安装的各种预定义配色方案。 可直接从 Power BI Desktop 菜单选择内置报表主题。
 
-- **自定义**报表主题的创建方法有：调整当前主题，然后将其另存为自定义主题，或者使用 JSON 文件创建自己的自定义主题。 JSON 文件提供对报表主题诸多方面的精细控制，如本文后面部分所述。 
+- **自定义** 报表主题的创建方法有：调整当前主题，然后将其另存为自定义主题，或者使用 JSON 文件创建自己的自定义主题。 JSON 文件提供对报表主题诸多方面的精细控制，如本文后面部分所述。 
 
 我们来讨论一下报表主题的工作原理，然后跳转到如何创建自定义报表主题。
 
@@ -122,8 +122,8 @@ ms.locfileid: "91634725"
 
 可自定义的主题设置可以在以下类别中找到，并反映在“自定义主题”窗口中：
 
-- **名称和颜色**：主题名称和颜色设置包括[主题颜色](#how-report-theme-colors-stick-with-your-reports)、情绪颜色、不同颜色和[结构化颜色（高级）](#setting-structural-colors)。
-- **文本**：文本设置包括字体系列、字号和颜色，可为标签、标题、卡和 KPI 以及选项卡标题设置[主要文本类默认设置](#setting-formatted-text-defaults)。
+- **名称和颜色**：主题名称和颜色设置包括 [主题颜色](#how-report-theme-colors-stick-with-your-reports)、情绪颜色、不同颜色和 [结构化颜色（高级）](#setting-structural-colors)。
+- **文本**：文本设置包括字体系列、字号和颜色，可为标签、标题、卡和 KPI 以及选项卡标题设置 [主要文本类默认设置](#setting-formatted-text-defaults)。
 - **视觉对象**：视觉对象设置包括背景、边框、标头和工具提示。
 - **页面**：页面元素设置包括壁纸和背景。
 - **筛选器窗格**：筛选器窗格设置包括背景色、透明度、字体和图标颜色、大小、筛选器卡。

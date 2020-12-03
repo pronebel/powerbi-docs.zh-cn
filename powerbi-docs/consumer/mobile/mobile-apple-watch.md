@@ -2,18 +2,18 @@
 title: 在 Apple Watch 上的移动应用中浏览 Power BI 数据
 description: Power BI Apple Watch 应用
 author: paulinbar
+ms.author: painbar
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: how-to
 ms.date: 03/11/2020
-ms.author: painbar
-ms.openlocfilehash: d67ab7a28a0975ccac436f57e98c527fae392baf
-ms.sourcegitcommit: be424c5b9659c96fc40bfbfbf04332b739063f9c
+ms.openlocfilehash: 1a2dfd19f2366003555aa5fa673bbf1c81c0a050
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "91633254"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96413256"
 ---
 # <a name="explore-your-data-in-the-power-bi-mobile-app-on-your-apple-watch"></a>在 Apple Watch 上的 Power BI 移动应用中浏览数据
 Power BI Apple Watch 应用可以让你在手表上从 Power BI 仪表板查看 KPI 和卡磁贴。 KPI 和卡磁贴最适合在小屏幕上提供心跳测量。 可以从 iPhone 或 Watch 自身刷新仪表板。

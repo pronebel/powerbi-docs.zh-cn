@@ -2,18 +2,18 @@
 title: 创建指向 Power BI 移动应用中特定位置的链接
 description: 了解如何使用统一资源标识符 (URI) 创建指向 Power BI 移动应用中特定仪表板、磁贴或报表的深层链接。
 author: paulinbar
+ms.author: painbar
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: how-to
 ms.date: 11/16/2020
-ms.author: painbar
-ms.openlocfilehash: 08ddac0cf407444b4a4c135494c5951bab515cdd
-ms.sourcegitcommit: bd133cb1fcbf4f6f89066165ce065b8df2b47664
+ms.openlocfilehash: 1c2260fdc3df201a655e6641c351319e366eac6b
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "94669033"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96413118"
 ---
 # <a name="create-a-link-to-a-specific-location-in-the-power-bi-mobile-apps"></a>创建指向 Power BI 移动应用中特定位置的链接
 可以使用链接直接访问特定的 Power BI 内容，例如特定的报表、报表页、仪表板、磁贴等。

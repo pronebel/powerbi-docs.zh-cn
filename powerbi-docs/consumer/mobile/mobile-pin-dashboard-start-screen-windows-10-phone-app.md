@@ -2,17 +2,17 @@
 title: 将仪表板固定到 Windows 10“开始”屏幕 - Power BI 移动应用
 description: 了解如何将 Power BI 仪表板从 Power BI 移动应用固定到 Windows 10“开始”屏幕。
 author: paulinbar
+ms.author: painbar
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: how-to
 ms.date: 04/25/2020
-ms.author: painbar
-ms.openlocfilehash: f8f9ed1a9f2ba0e1f3c41eded45f32b8ef220f00
-ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
+ms.openlocfilehash: 85113179e040f6954e84cc2f70e4937913f6ce87
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90855808"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96413003"
 ---
 # <a name="pin-a-dashboard-to-your-windows-10-start-screen-from-the-power-bi-mobile-app"></a>从 Power BI 移动应用将仪表板固定到 Windows 10“开始”屏幕
 可以将 Power BI 仪表板从适用于 Windows 10 的 Power BI 移动应用固定到 Windows “开始”屏幕。 如果点击“开始”屏幕中的磁贴，仪表板会在适用于 Windows 10 的 Power BI 移动应用中打开。

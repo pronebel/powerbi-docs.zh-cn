@@ -2,20 +2,20 @@
 title: 通过 Microsoft 365 合作伙伴购买 Power BI
 description: 了解如何将 Power BI 添加到通过合作伙伴购买的 Microsoft 365 订阅。 联合模型是 Microsoft 365 使用的购买模型。
 author: kfollis
+ms.author: kfollis
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: how-to
 ms.date: 05/27/2020
-ms.author: kfollis
 ms.custom: licensing support
 LocalizationGroup: Administration
-ms.openlocfilehash: 14ca898e634f7c555ae649b0de8290e9c76507a7
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: a7a2f06b019361f164f47469d5bd16218d4ebff2
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85227587"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96413463"
 ---
 # <a name="add-power-bi-to-a-microsoft-365-partner-subscription"></a>将 Power BI 添加到 Microsoft 365 合作伙伴订阅
 

@@ -1,21 +1,21 @@
 ---
 title: 启用或禁用自助注册和购买
 description: 如何通知管理员关闭用户注册 Power BI 服务以及购买或升级许可证的功能。
-author: kfollis
+author: mihart
+ms.author: mihart
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: how-to
 ms.date: 04/08/2020
-ms.author: kfollis
 ms.custom: licensing support
 LocalizationGroup: Administration
-ms.openlocfilehash: 966699f20e83a7ea34140486f97f4491c4ba35e2
-ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
+ms.openlocfilehash: ff695d49caeab7bed88b932cec6aaec11ec4df29
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90857441"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96413670"
 ---
 # <a name="enable-or-disable-self-service-sign-up-and-purchasing"></a>启用或禁用自助注册和购买
 

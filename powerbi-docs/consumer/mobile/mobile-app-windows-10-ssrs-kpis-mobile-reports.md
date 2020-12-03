@@ -2,17 +2,17 @@
 title: 在 Power BI Windows 应用中查看本地报表和 KPI
 description: 适用于 Windows 10 的 Power BI 移动应用提供对重要的本地业务信息的实时、可触控的移动访问。
 author: paulinbar
+ms.author: painbar
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: how-to
 ms.date: 05/19/2020
-ms.author: painbar
-ms.openlocfilehash: 98f528e13bd92692bd76afc42aaac43828f7f586
-ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
+ms.openlocfilehash: eb6b86b2810609c0ad795190afc91c40677f5e70
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90860891"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96413302"
 ---
 # <a name="view-on-premises-reports-and-kpis-in-the-power-bi-windows-app"></a>在 Power BI Windows 应用中查看本地报表和 KPI
 使用适用于 Windows 10 的 Power BI 应用，可以通过触控实时移动访问 SQL Server 2016 Reporting Services 中的重要本地业务信息。 
@@ -85,7 +85,7 @@ Reporting Services KPI、移动报表和 Power BI 报表（预览版）显示在
 ## <a name="view-your-favorite-kpis-and-reports"></a>查看你收藏的 KPI 和报表
 可以在 Reporting Services Web 门户中将 KPI、移动报表和 Power BI 报表标记为收藏项，然后可以在 Windows 10 设备上的一个方便文件夹中查看它们，以及 Power BI 收藏的仪表板和报表。
 
-* 点击**收藏夹**。
+* 点击 **收藏夹**。
   
    ![“收藏夹”图标](media/mobile-app-windows-10-ssrs-kpis-mobile-reports/power-bi-ssrs-mobile-report-favorite-menu.png)
   

@@ -2,19 +2,19 @@
 title: 使用 Power BI Desktop 中的存储模式
 description: 存储模式可用于控制 Power BI Desktop 是否将数据缓存到报表内存中
 author: davidiseminger
+ms.author: davidi
 ms.reviewer: ''
 ms.service: powerbi
-ms.subservice: powerbi-desktop
+ms.subservice: pbi-transform-model
 ms.topic: conceptual
 ms.date: 01/29/2020
-ms.author: davidi
 LocalizationGroup: Transform and shape data
-ms.openlocfilehash: e1b93b244a040fba1213fbb3b15bca3114e7075a
-ms.sourcegitcommit: d153cfc0ce559480c53ec48153a7e131b7a31542
+ms.openlocfilehash: 0a3121e31aa816139c338746635b102be2d8fd88
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/29/2020
-ms.locfileid: "91528151"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96413808"
 ---
 # <a name="manage-storage-mode-in-power-bi-desktop"></a>在 Power BI Desktop 中管理存储模式
 

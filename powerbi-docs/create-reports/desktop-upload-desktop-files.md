@@ -2,24 +2,24 @@
 title: 从 Power BI Desktop 进行发布
 description: 从 Power BI Desktop 进行发布
 author: davidiseminger
+ms.author: davidi
 ms.reviewer: ''
 ms.service: powerbi
-ms.subservice: powerbi-desktop
+ms.subservice: pbi-reports-dashboards
 ms.topic: how-to
 ms.date: 09/22/2020
-ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 4405ab8d3e0db949ec825f3eea436183512f862d
-ms.sourcegitcommit: ff981839e805f523748b7e71474acccf7bdcb04f
+ms.openlocfilehash: dc1914b8fce55de9bd6141c9cc8d44082779c9df
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "91019878"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96412635"
 ---
 # <a name="publish-datasets-and-reports-from-power-bi-desktop"></a>从 Power BI Desktop 发布数据集和报表
 将 Power BI Desktop 文件发布到 Power BI 服务后，将模型中的数据发布到 Power BI 工作区。 这同样适用于在“报表”视图中创建的所有报表。 你将看到一个同名的新数据集以及工作区导航器中的若干报表。
 
-从 Power BI Desktop 发布文件等效于在 Power BI 中使用**获取数据**连接到并上载 Power BI Desktop 文件。
+从 Power BI Desktop 发布文件等效于在 Power BI 中使用 **获取数据** 连接到并上载 Power BI Desktop 文件。
 
 > [!NOTE]
 > 在 Power BI 中对报表所做的任何更改都不会保存回原始 Power BI Desktop 文件。 这包括在报表中添加、删除或更改可视化效果。

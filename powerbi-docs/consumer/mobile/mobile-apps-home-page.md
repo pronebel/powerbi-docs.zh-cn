@@ -2,18 +2,18 @@
 title: 快速了解移动应用主页
 description: 本文介绍移动应用主页的主要功能。
 author: paulinbar
+ms.author: painbar
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: quickstart
 ms.date: 12/16/2019
-ms.author: painbar
-ms.openlocfilehash: d06478acf53ead63b48afcf58cb2316ff4c5a3bc
-ms.sourcegitcommit: be424c5b9659c96fc40bfbfbf04332b739063f9c
+ms.openlocfilehash: ee4b4d3537fc0bdb77a451a0b32159ae3d703833
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "91635300"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96413210"
 ---
 # <a name="a-quick-tour-of-the-mobile-app-home-page"></a>移动应用主页快速教程
 在本教程中，你将了解 Power BI 移动应用的主页及其提供的导航帮助，以便快速找到所需的内容。
@@ -41,7 +41,7 @@ ms.locfileid: "91635300"
 源中将更新的内容包括：
 * **已刷新数据**：收藏夹或最近使用记录中某个报表或仪表板中的基础数据已刷新。
 * **新增评论**：有人在你的收藏夹或最近记录中的报表或仪表板中创建评论，或有人在评论中提到你。
-* **数据警报**：数据达到你之前在数据警报中设置的[阈值](mobile-set-data-alerts-in-the-mobile-apps.md)。
+* **数据警报**：数据达到你之前在数据警报中设置的 [阈值](mobile-set-data-alerts-in-the-mobile-apps.md)。
 * **应用更新**：你正在使用的应用的创建者发布该应用的更新。
 
  点击活动项以跳转到相关位置，以便进一步浏览。
@@ -57,13 +57,13 @@ ms.locfileid: "91635300"
 通过导航栏可快速访问以下内容：
 
 * ![“主页”图标](./media/mobile-apps-home-page/powerbi-mobile-app-home-icon.png) **主页** - 返回到主页。
-* ![“收藏夹”图标](./media/mobile-apps-home-page/powerbi-mobile-app-favorites-icon.png) **收藏夹** - 已标记为[“收藏”](mobile-apps-favorites.md)的报表、仪表板和应用。
+* ![“收藏夹”图标](./media/mobile-apps-home-page/powerbi-mobile-app-favorites-icon.png) **收藏夹** - 已标记为 [“收藏”](mobile-apps-favorites.md)的报表、仪表板和应用。
 * ![“应用”图标](./media/mobile-apps-home-page/powerbi-mobile-app-apps-icon.png) **应用** - 帐户中已安装的应用。
 * ![“工作区”图标](./media/mobile-apps-home-page/powerbi-mobile-app-workspaces-icon.png) **工作区** - 将内容创建者正在构建的报表和仪表板汇集到一处的工作文件夹。
 * ![“最近使用”图标](./media/mobile-apps-home-page/powerbi-mobile-app-recents-icon.png) **最近使用** - 你最近查看的项。
 * ![“与我共享”图标](./media/mobile-apps-home-page/powerbi-mobile-app-shared-with-me-icon.png) **与我共享** - 其他人与你共享的项。
 * ![“示例”图标](./media/mobile-apps-home-page/powerbi-mobile-app-samples-icon.png) **示例** - 可用于了解 Power BI 功能的 Power BI 示例。
-* ![“扫描仪”图标](./media/mobile-apps-home-page/powerbi-mobile-app-scanner-icon.png) **扫描仪** - 设备相机，可用作扫描仪以扫描[条形码](mobile-apps-scan-barcode-iphone.md)和 [QR 码](mobile-apps-qr-code.md)。
+* ![“扫描仪”图标](./media/mobile-apps-home-page/powerbi-mobile-app-scanner-icon.png) **扫描仪** - 设备相机，可用作扫描仪以扫描 [条形码](mobile-apps-scan-barcode-iphone.md)和 [QR 码](mobile-apps-qr-code.md)。
 
 ## <a name="header"></a>标头
 
@@ -72,11 +72,11 @@ ms.locfileid: "91635300"
 ![标头](./media/mobile-apps-home-page/powerbi-mobile-app-header.png)
 
 标头提供以下导航项：
-* **个人资料图片或头像** - 打开侧面板，在这里，你可以[在 Power BI 服务和 Report Server 帐户之间切换](mobile-app-ssrs-kpis-mobile-on-premises-reports.md)，还可访问 Power BI 移动应用设置。
+* **个人资料图片或头像** - 打开侧面板，在这里，你可以 [在 Power BI 服务和 Report Server 帐户之间切换](mobile-app-ssrs-kpis-mobile-on-premises-reports.md)，还可访问 Power BI 移动应用设置。
 
     ![侧面板](./media/mobile-apps-home-page/powerbi-mobile-app-side-panel.png)
 
-* **通知** -打开[通知页](mobile-apps-notification-center.md)，可以在其中查看和使用通知。 通知铃上的点表示你有新的通知。
+* **通知** -打开 [通知页](mobile-apps-notification-center.md)，可以在其中查看和使用通知。 通知铃上的点表示你有新的通知。
 
     ![通知页](./media/mobile-apps-home-page/powerbi-mobile-app-notifications-page.png)
 

@@ -2,25 +2,25 @@
 title: 在 Power BI Desktop 中使用分组和装箱
 description: 了解如何在 Power BI Desktop 中对元素进行分组和装箱
 author: davidiseminger
+ms.author: davidi
 ms.reviewer: ''
 ms.custom: seodec18
 ms.service: powerbi
-ms.subservice: powerbi-desktop
+ms.subservice: pbi-reports-dashboards
 ms.topic: how-to
 ms.date: 12/18/2019
-ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 0beca84bc95c2947fef500fb9e3a9e5c377a0a46
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 5f1b3d226fb7b27ebb31879d2f4a5c3489660b94
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85234020"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96412911"
 ---
 # <a name="use-grouping-and-binning-in-power-bi-desktop"></a>在 Power BI Desktop 中使用分组和装箱
 在创建视觉对象后，Power BI Desktop 会根据基础数据中的值，将数据分入各区块（或组）。 这种归类的效果通常不错，但你有时可能会想要优化这些区块的显示方式。 例如，你可能想要在一个更宽泛的类别（ 一个组  ）中设置三个产品类别。 或者，你可能希望将销售额数据按 1,000,000 美元大小进行装箱，而不是 923,983 美元大小的区块。
 
-在 Power BI Desktop 中，你可以对数据点进行*分组*，以便更清楚地查看、分析和浏览视觉对象中的数据和趋势。 还可以定义“装箱大小”，将值归入大小相同的组，更有助于你执行合理的数据可视化  。 此操作通常称为“装箱”  。
+在 Power BI Desktop 中，你可以对数据点进行 *分组*，以便更清楚地查看、分析和浏览视觉对象中的数据和趋势。 还可以定义“装箱大小”，将值归入大小相同的组，更有助于你执行合理的数据可视化  。 此操作通常称为“装箱”  。
 
 ## <a name="using-grouping"></a>使用分组
 若要使用分组，请在按住 Ctrl 的同时单击选择多个元素，从而选择视觉对象上的两个或多个元素。 然后右键单击多个选择元素之一，然后从上下文菜单中选择“组”  。
@@ -61,6 +61,6 @@ ms.locfileid: "85234020"
 
 ![将“装箱”字段拖到画布上，Power BI Desktop](media/desktop-grouping-and-binning/grouping-binning_7.png)
 
-若要了解*装箱*的运作方式，请观看此[视频](https://www.youtube.com/watch?v=BRvdZSfO0DY)。
+若要了解 *装箱* 的运作方式，请观看此 [视频](https://www.youtube.com/watch?v=BRvdZSfO0DY)。
 
-一切就是这么简单！使用*分组*和*装箱*可以确保报表中的视觉对象按你所需的方式显示数据。
+一切就是这么简单！使用 *分组* 和 *装箱* 可以确保报表中的视觉对象按你所需的方式显示数据。

@@ -2,17 +2,17 @@
 title: 使用设备本机标识保护 Power BI 数据
 description: 了解如何配置 iOS 和 Android 应用来要求提供其他标识才能访问 Power BI 数据
 author: paulinbar
+ms.author: painbar
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: how-to
 ms.date: 04/07/2020
-ms.author: painbar
-ms.openlocfilehash: a32ac9b1631a23502d9752ed9f96355fa36b90da
-ms.sourcegitcommit: 7e99e8af9caf9340958c4607a94728d43e8c3811
+ms.openlocfilehash: 9ca31aa16d74ab89b9af374244d2696f77dedac6
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/02/2020
-ms.locfileid: "91668588"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96413049"
 ---
 # <a name="protect-power-bi-app-with-face-id-touch-id-passcode-or-biometric-data"></a>使用 Face ID、Touch ID、密码或生物特征数据来保护 Power BI 应用 
 

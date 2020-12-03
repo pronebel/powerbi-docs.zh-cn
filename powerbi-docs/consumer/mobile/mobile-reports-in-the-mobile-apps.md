@@ -2,18 +2,18 @@
 title: 在 Power BI 移动应用中浏览报表
 description: 了解如何在手机或平板电脑上查看 Power BI 移动应用中的报表，并与之交互。 可在 Power BI 服务或 Power BI Desktop 中创建报表，然后在移动应用中与报表进行交互。
 author: paulinbar
+ms.author: painbar
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: how-to
 ms.date: 08/12/2020
-ms.author: painbar
-ms.openlocfilehash: 47f1db75eb3923c1c4195a319323c3a37d17484e
-ms.sourcegitcommit: 383d87841d2509131fac7cc02c5c37c6a868144f
+ms.openlocfilehash: 5d361a749f947f8d45b052a8a2b6455007745d20
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/14/2020
-ms.locfileid: "92026063"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96413072"
 ---
 # <a name="explore-reports-in-the-power-bi-mobile-apps"></a>在 Power BI 移动应用中浏览报表
 适用于：
@@ -100,7 +100,7 @@ Power BI 移动应用中的报表有两个图标：
 ![钻取操作](./media/mobile-reports-in-the-mobile-apps/report-drill-actions.png)
 
 
-当你点击视觉对象的特定部分并点击“钻取”选项时，Power BI 会转到报表中的另一页，筛选出点击的值  。 报表作者可定义一个或多个钻取操作，每个操作分别转到不同页面。 在这种情况下，可选择所需的钻取操作。 使用返回按钮可返回到上一页。
+当你点击视觉对象的特定部分并点击“钻取”选项时，Power BI 会转到报表中的另一页，筛选出点击的值。 报表作者可定义一个或多个钻取操作，每个操作分别转到不同页面。 在这种情况下，可选择所需的钻取操作。 使用返回按钮可返回到上一页。
 
 
 有关详细信息，请参阅[在 Power BI Desktop 中添加钻取](../../create-reports/desktop-drillthrough.md)。
@@ -111,7 +111,7 @@ Power BI 移动应用中的报表有两个图标：
    
    
 ### <a name="using-the-actions-in-the-report-footer"></a>在报表页脚使用操作
-从报表页脚中，你可以对当前报表页或整个报表执行多个操作。 可通过页脚快速访问最常用的操作。 点击“更多选项”(…) 按钮可访问其他操作  ：
+从报表页脚中，你可以对当前报表页或整个报表执行多个操作。 可通过页脚快速访问最常用的操作。 点击“更多选项”(…) 按钮可访问其他操作：
 
 ![报表页脚](./media/mobile-reports-in-the-mobile-apps/report-footer.png)
 
@@ -124,7 +124,7 @@ Power BI 移动应用中的报表有两个图标：
 * 查看所有报表操作。
 
 #### <a name="all-report-actions"></a>所有报表操作
-点击报表页脚中的“更多选项”(…) 可查看能对报表执行的所有操作  ：
+点击报表页脚中的“更多选项”(…) 可查看能对报表执行的所有操作：
 
 
 ![所有报表操作](./media/mobile-reports-in-the-mobile-apps/power-bi-mobile-report-all-actions.png)
@@ -132,21 +132,21 @@ Power BI 移动应用中的报表有两个图标：
 某些操作可能会被禁用，因为这些操作依赖于特定的报表功能。
 例如：
 
-仅当在报表中设置了  。 可在 Power BI 服务中定义的个人书签和报表创建者定义的书签都将显示出来。 如果已将其中一个书签定义为默认书签，则报表将在加载时打开该视图。
+仅当在报表中设置了[书签](mobile-reports-in-the-mobile-apps.md#bookmarks)时，才会显示“书签”。 可在 Power BI 服务中定义的个人书签和报表创建者定义的书签都将显示出来。 如果已将其中一个书签定义为默认书签，则报表将在加载时打开该视图。
 
-如果组织中存在禁止通过 Power BI 移动应用共享的  。
+如果组织中存在禁止通过 Power BI 移动应用共享的 [Intune 保护策略](/intune/app-protection-policies)，则可能会禁用“批注并共享”。
 
-只有在你有权与他人共享报表时才会启用“邀请”  。 只有当你是报表所有者或所有者授予你重新共享权限时，你才有此权限。
+只有在你有权与他人共享报表时才会启用“邀请”。 只有当你是报表所有者或所有者授予你重新共享权限时，你才有此权限。
 
-如果报表作者按地理数据对报表进行了分类，则“按当前位置筛选”处于启用状态  。 有关详细信息，请阅读[标识报表中的地理数据](../../transform-model/desktop-mobile-geofiltering.md)。
+如果报表作者按地理数据对报表进行了分类，则“按当前位置筛选”处于启用状态。 有关详细信息，请阅读[标识报表中的地理数据](../../transform-model/desktop-mobile-geofiltering.md)。
 
-只有当报表中的数据集被标记为条形码时，才会启用“扫描以按条形码筛选报表”  。 有关详细信息，请阅读[在 Power BI Desktop 中标记条形码](../../transform-model/desktop-mobile-barcodes.md)。
+只有当报表中的数据集被标记为条形码时，才会启用“扫描以按条形码筛选报表”。 有关详细信息，请阅读[在 Power BI Desktop 中标记条形码](../../transform-model/desktop-mobile-barcodes.md)。
 
 ### <a name="bookmarks"></a>书签
 
-Power BI 移动应用支持报表创建者已定义的报表书签和可在 Power BI 服务中定义的个人书签。 可以在  。
+Power BI 移动应用支持报表创建者已定义的报表书签和可在 Power BI 服务中定义的个人书签。 可以在[报表操作工具栏](mobile-reports-in-the-mobile-apps.md#all-report-actions)上的“更多选项”(…) 下找到书签菜单。
 
-默认书签由特殊图标进行指示。 对于个人书签，可以通过点击要更改的书签旁的“更多选项(...)”  ，然后选择“设为默认值”  或“清除默认值”  ，来设置、取消设置或更改默认设置。
+默认书签由特殊图标进行指示。 对于个人书签，可以通过点击要更改的书签旁的“更多选项(...)”，然后选择“设为默认值”或“清除默认值”，来设置、取消设置或更改默认设置。
 
 ![书签菜单](./media/mobile-reports-in-the-mobile-apps/power-bi-mobile-report-bookmark-menu.png)
 
@@ -177,9 +177,9 @@ Power BI 移动应用支持报表创建者已定义的报表书签和可在 Powe
  
 ## <a name="configure-your-experience-with-reports"></a>配置报表体验
 Power BI 移动应用提供许多设置，使你可以控制报表体验。 当前可以配置
-* **与报表视觉对象的交互** ：可以选择使用单点击或双击交互。
-* **数据刷新方法** ：可以选择使用刷新按钮或下拉操作来刷新报表数据。
-* **报表页脚可见性** ：可以选择使用始终可见的停靠页脚，或根据操作（例如滚动）隐藏和重新显示的动态页脚。
+* **与报表视觉对象的交互**：可以选择使用单点击或双击交互。
+* **数据刷新方法**：可以选择使用刷新按钮或下拉操作来刷新报表数据。
+* **报表页脚可见性**：可以选择使用始终可见的停靠页脚，或根据操作（例如滚动）隐藏和重新显示的动态页脚。
 
 有关如何更改这些设置的信息，请参阅[应用交互设置](./mobile-app-interaction-settings.md)。
 

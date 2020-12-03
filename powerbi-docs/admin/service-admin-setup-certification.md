@@ -2,18 +2,18 @@
 title: 启用内容认证
 description: 了解如何为数据集、数据流、报表和应用启用认证。
 author: paulinbar
+ms.author: painbar
 ms.service: powerbi
 ms.subservice: powerbi-eim
 ms.topic: how-to
 ms.date: 10/26/2020
-ms.author: painbar
 LocalizationGroup: Share your work
-ms.openlocfilehash: 4961f5f2b6364e06488baf32478b1f6e9338675e
-ms.sourcegitcommit: 4e347efd132b48aaef6c21236c3a21e5fce285cc
+ms.openlocfilehash: 17fc02131f13fe7fe7d8fb17af4380f6a013b9e7
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/27/2020
-ms.locfileid: "92680853"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96413509"
 ---
 # <a name="enable-content-certification"></a>启用内容认证
 
@@ -42,7 +42,7 @@ Power BI 管理员负责为组织启用和设置认证过程。 这意味着：
 1. 指定一个或多个安全组，这些安全组的成员将有权认证内容。 这些授权的认证者将能够使用[认可设置对话框](../collaborate-share/service-endorse-content.md#certify-content)中“认证”部分的“认证”按钮。
     
     如果安全组包含不希望向其授予认证权限的子安全组，则可以选中“特定安全组除外”框，然后在出现的文本框中输入这些组的名称。
-1. 单击“ **应用** ”。
+1. 单击“**应用**”。
 
 ## <a name="next-steps"></a>后续步骤
 * [推广或认证内容](../collaborate-share/service-endorse-content.md)
