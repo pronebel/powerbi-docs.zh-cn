@@ -2,18 +2,18 @@
 title: Power Query 查询参考
 description: Power Query 查询引用的指南。
 author: peter-myers
+ms.author: v-pemyer
 ms.reviewer: asaxton
 ms.service: powerbi
-ms.subservice: powerbi-desktop
+ms.subservice: powerbi
 ms.topic: conceptual
 ms.date: 11/30/2019
-ms.author: v-pemyer
-ms.openlocfilehash: 9e3ae90363ade08d7600a4ebbd032ef5778257e2
-ms.sourcegitcommit: 37bd34053557089c4fbf0e05f78e959609966561
+ms.openlocfilehash: f7756c53799838182be9288f297c0d01a7c6cca3
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/10/2020
-ms.locfileid: "94396992"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96419282"
 ---
 # <a name="referencing-power-query-queries"></a>Power Query 查询参考
 

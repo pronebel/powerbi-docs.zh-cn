@@ -2,22 +2,22 @@
 title: 规划与迁移到 Power BI 相关的部署
 description: 有关迁移到 Power BI 时规划部署的指南。
 author: peter-myers
+ms.author: v-pemyer
 ms.reviewer: asaxton
 ms.service: powerbi
-ms.subservice: powerbi-service
+ms.subservice: powerbi
 ms.topic: conceptual
 ms.date: 08/20/2020
-ms.author: v-pemyer
-ms.openlocfilehash: fd57d893a0c381c345364306e04d4897597b36f1
-ms.sourcegitcommit: 37bd34053557089c4fbf0e05f78e959609966561
+ms.openlocfilehash: f161819b6e26c197bacc5534b5abfb426d612624
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/10/2020
-ms.locfileid: "94396969"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96419213"
 ---
 # <a name="plan-deployment-to-migrate-to-power-bi"></a>规划与迁移到 Power BI 相关的部署
 
-本文介绍 **阶段 2** ，其中涉及规划单个 Power BI 解决方案的迁移。
+本文介绍 **阶段 2**，其中涉及规划单个 Power BI 解决方案的迁移。
 
 :::image type="content" source="media/powerbi-migration-planning/migrate-to-powerbi-stage-2.png" alt-text="显示了 Power BI 迁移各阶段的图像。本文重点介绍阶段 2。":::
 
@@ -40,7 +40,7 @@ ms.locfileid: "94396969"
 
 首先要做出的决策之一是选择 Power BI 产品。 就是在 [Power BI 服务](../fundamentals/power-bi-service-overview.md)和 [Power BI 报表服务器](../report-server/get-started.md)中做选择。 内容发布后，便可以使用许多其他选项，例如嵌入、移动交付和电子邮件订阅。
 
-有关体系结构注意事项的详细信息，请参阅 [规划 Power BI 企业部署白皮书](https://aka.ms/PBIEnterpriseDeploymentWP)的 **第 3 部分** 。
+有关体系结构注意事项的详细信息，请参阅 [规划 Power BI 企业部署白皮书](https://aka.ms/PBIEnterpriseDeploymentWP)的 **第 3 部分**。
 
 > [!CAUTION]
 > 如果你想依赖于使用存储在文件系统中的 Power BI Desktop 文件，请注意，这并不是最佳方法。 Power BI 服务（或 Power BI 报表服务器）在安全性、内容分发和协作方面具有明显的优势。 Power BI 服务还提供审核和监视活动的功能。

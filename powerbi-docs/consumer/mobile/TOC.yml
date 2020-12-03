@@ -74,6 +74,8 @@
               href: mobile-apps-scan-barcode-iphone.md
             - name: 配置交互设置
               href: mobile-app-interaction-settings.md
+            - name: 深色模式
+              href: mobile-apps-dark-mode.md
             - name: 使用移动设备管理进行配置
               href: mobile-app-configuration.md
         - name: iOS
@@ -86,8 +88,6 @@
               href: mobile-apps-iOS-siri-Shortcuts.md
             - name: iOS 设备搜索集成
               href: mobile-apps-iOS-search-integration.md
-            - name: 深色模式
-              href: mobile-apps-dark-mode.md
             - name: Power BI Apple Watch 应用
               href: mobile-apple-watch.md
         - name: Android 设备

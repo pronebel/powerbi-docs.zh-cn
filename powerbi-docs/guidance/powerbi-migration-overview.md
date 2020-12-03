@@ -2,18 +2,18 @@
 title: Power BI 迁移概述
 description: 了解如何计划和执行从另一个第三方 BI 工具到 Power BI 的迁移。
 author: peter-myers
+ms.author: v-pemyer
 ms.reviewer: asaxton
 ms.service: powerbi
-ms.subservice: powerbi-service
+ms.subservice: powerbi
 ms.topic: conceptual
 ms.date: 08/20/2020
-ms.author: v-pemyer
-ms.openlocfilehash: aa17e6293a4bd946b1d6b7acad45623fa2393c57
-ms.sourcegitcommit: 84e75a2cd92f4ba4e0c08ba296b981b79d6d0e82
+ms.openlocfilehash: 8f8e58f61d2baa66cd0baf351857656588cfbe9f
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/25/2020
-ms.locfileid: "88803155"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96419236"
 ---
 # <a name="power-bi-migration-overview"></a>Power BI 迁移概述
 

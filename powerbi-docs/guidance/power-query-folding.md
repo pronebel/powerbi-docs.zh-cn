@@ -2,18 +2,18 @@
 title: Power BI Desktop 中的查询折叠指南
 description: 关于在 Power BI Desktop 中实现 Power Query 查询折叠的指南。
 author: peter-myers
+ms.author: v-pemyer
 ms.reviewer: asaxton
 ms.service: powerbi
-ms.subservice: powerbi-desktop
+ms.subservice: powerbi
 ms.topic: conceptual
 ms.date: 11/09/2019
-ms.author: v-pemyer
-ms.openlocfilehash: 271ccd9abcba8fe75f0ad66a88cb970584855a35
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: 5e2ec32f3eeaff224256f0a84d2a5c23d3e882a5
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83149168"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96419305"
 ---
 # <a name="query-folding-guidance-in-power-bi-desktop"></a>Power BI Desktop 中的查询折叠指南
 

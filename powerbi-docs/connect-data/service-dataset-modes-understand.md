@@ -1,20 +1,20 @@
 ---
 title: Power BI 服务中的数据集模式
 description: 了解 Power BI 服务数据集模式：导入、DirectQuery 和复合。
-author: peter-myers
+author: davidiseminger
+ms.author: davidi
 manager: asaxton
 ms.reviewer: asaxton
 ms.service: powerbi
-ms.subservice: powerbi-desktop
+ms.subservice: pbi-data-sources
 ms.topic: conceptual
-ms.date: 11/09/2019
-ms.author: v-pemyer
-ms.openlocfilehash: 4ec73f3dd09d1c83b07d1419256cd627a71ae2d4
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.date: 12/01/2020
+ms.openlocfilehash: 5b4c32296c7121fa3d161461af7e86caba617ee1
+ms.sourcegitcommit: 2fd64f96b5bfbc14ff47e5c892171e5c921fb525
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83332834"
+ms.lasthandoff: 12/02/2020
+ms.locfileid: "96501940"
 ---
 # <a name="dataset-modes-in-the-power-bi-service"></a>Power BI 服务中的数据集模式
 
@@ -102,8 +102,6 @@ DirectQuery 模型有一些优点：
 开发复合模型的数据建模者可能会在“导入”或“双模式”存储模式下配置维度类型表，并在 DirectQuery 模式下配置事实类型表。 有关模型表角色的详细信息，请参阅[了解星型架构和 Power BI 的重要性](../guidance/star-schema.md)。
 
 例如，请考虑一个模型，该模型在“双模式”下有一个“产品”维度类型表，在 DirectQuery 模式下有一个“销售”事实类型表   。 可以从内存中高效快速地查询“产品”  表，以呈现报表切片器。 还可以在包含相关“产品”表的 DirectQuery 模式下查询“销售”表   。 后一种查询可以生成单个高效的本机 SQL 查询，该查询联接“产品”和“销售”表，并按切片器值进行筛选   。
-
-通常，对于复合模型，与“导入”和 DirectQuery 关联的优点和缺点取决于每个表的配置方式。
 
 有关详细信息，请参阅[在 Power BI Desktop 中使用复合模型](../transform-model/desktop-composite-models.md)。
 

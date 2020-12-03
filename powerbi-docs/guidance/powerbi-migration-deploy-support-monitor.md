@@ -2,18 +2,18 @@
 title: 部署到 Power BI
 description: 有关在迁移到 Power BI 时部署、支持和监视内容的指南。
 author: peter-myers
+ms.author: v-pemyer
 ms.reviewer: asaxton
 ms.service: powerbi
-ms.subservice: powerbi-service
+ms.subservice: powerbi
 ms.topic: conceptual
 ms.date: 08/20/2020
-ms.author: v-pemyer
-ms.openlocfilehash: 3e0bb00042b869061b7cb7cebf624e324db7e916
-ms.sourcegitcommit: 37bd34053557089c4fbf0e05f78e959609966561
+ms.openlocfilehash: bfa3ffad111c7ab819ed1269586a7b32ccf43bba
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/10/2020
-ms.locfileid: "94396118"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96419259"
 ---
 # <a name="deploy-to-power-bi"></a>部署到 Power BI
 
