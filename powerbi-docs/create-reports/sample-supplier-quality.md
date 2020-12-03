@@ -2,19 +2,19 @@
 title: Power BI 的供应商质量分析示例：参观
 description: Power BI 的供应商质量分析示例：参观
 author: maggiesMSFT
+ms.author: maggies
 ms.reviewer: amac
 ms.service: powerbi
-ms.subservice: powerbi-desktop
+ms.subservice: pbi-reports-dashboards
 ms.topic: conceptual
 ms.date: 07/19/2019
-ms.author: maggies
 LocalizationGroup: Samples
-ms.openlocfilehash: 18827ef29282e33a1527be0812b3c0a6971201df
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: 4b4cfa78a01ec628f5d396ea6a267abe7598998c
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83348703"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96417603"
 ---
 # <a name="supplier-quality-analysis-sample-for-power-bi-take-a-tour"></a>Power BI 的供应商质量分析示例：参观
 
@@ -117,7 +117,7 @@ ms.locfileid: "83348703"
 ## <a name="which-material-type-is-best-managed"></a>哪种类型的用料管理最佳？
 管理最佳的用料类型是指无论瑕疵品数量如何，都具有最低的停工时间或不造成任何影响的类型。
 
-1. 在仪表板中，查看**按用料类型和瑕疵类型划分的瑕疵品总数**磁贴。
+1. 在仪表板中，查看 **按用料类型和瑕疵类型划分的瑕疵品总数** 磁贴。
 
    ![“按用料类型和瑕疵类型划分的瑕疵品总数”图块](media/sample-supplier-quality/supplier9.png)
 
@@ -125,7 +125,7 @@ ms.locfileid: "83348703"
 
    由此确认，尽管瑕疵品数量高，该用料类型不会造成大量的停工时间。
 
-2. 在仪表板中，查看**按用料类型划分的瑕疵品总数和停工时间总分钟数**磁贴。
+2. 在仪表板中，查看 **按用料类型划分的瑕疵品总数和停工时间总分钟数** 磁贴。
 
    ![“按用料类型划分的瑕疵品总数和停工时间总分钟数”图块](media/sample-supplier-quality/supplier10.png)
 
@@ -143,7 +143,7 @@ ms.locfileid: "83348703"
     2014 年的原料瑕疵品数量比 2013 年高很多。  
 
     ![问题：显示用料类型、年份和瑕疵品总数](media/sample-supplier-quality/supplier12.png)  
-6. 现在，将问题改为“显示用料类型、年份和停工时间总分钟数” __ 。  
+6. 现在，将问题改为“显示用料类型、年份和停工时间总分钟数”  。  
 
    ![问题：显示用料类型、年份和停工时间总分钟数](media/sample-supplier-quality/supplier13.png)
 

@@ -2,18 +2,18 @@
 title: 远程配置移动应用对报表服务器的访问权限
 description: 了解如何为报表服务器远程配置移动应用。
 author: paulinbar
+ms.author: painbar
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: how-to
 ms.date: 11/07/2019
-ms.author: painbar
-ms.openlocfilehash: d5f55c005f34bc1e3aa9ab5351b816616f4f7664
-ms.sourcegitcommit: 7e99e8af9caf9340958c4607a94728d43e8c3811
+ms.openlocfilehash: c83ce0735e31e65a813723ce411281821680628d
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/02/2020
-ms.locfileid: "91668335"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96418086"
 ---
 # <a name="configure-power-bi-mobile-app-access-to-report-server-remotely"></a>远程配置 Power BI 移动应用对报表服务器的访问权限
 

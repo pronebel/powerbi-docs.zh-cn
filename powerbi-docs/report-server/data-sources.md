@@ -2,18 +2,18 @@
 title: Power BI 报表服务器中 Power BI 报表数据源
 description: Power BI 报表可以连接到多个数据源。 根据数据使用方式，可以提供不同的数据源。
 author: maggiesMSFT
+ms.author: maggies
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 10/29/2020
-ms.author: maggies
-ms.openlocfilehash: 52d38fd0705a6f9335f0ddd965acb0d9f56d38ee
-ms.sourcegitcommit: a5fa368abad54feb44a267fe26c383a731c7ec0d
+ms.openlocfilehash: 37b44df504d0263324186765d8426584288f005e
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/30/2020
-ms.locfileid: "93045071"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96417971"
 ---
 # <a name="power-bi-report-data-sources-in-power-bi-report-server"></a>Power BI 报表服务器中 Power BI 报表数据源
 Power BI 报表可以连接到多个数据源。 根据数据使用方式，可以提供不同的数据源。 可以导入数据，或者可以直接使用 DirectQuery 或与 SQL Server Analysis Services 的实时连接查询数据。 针对 Power BI 报表服务器优化的 Power BI Desktop 支持某些数据源，但在发布到 Power BI 报表服务器时不支持这些数据源。
@@ -43,7 +43,7 @@ Power BI 报表可以连接到多个数据源。 根据数据使用方式，可�
 | Azure 表存储 |是 |是 |否 |
 | Dynamics 365 (联机) |是 |否 |否 |
 | Facebook |是 |否 |否 |
-| Folder |是 |是 |否 |
+| 文件夹 |是 |是 |否 |
 | Google Analytics |是 |否 |否 |
 | Hadoop 文件 (HDFS) |是 |否 |否 |
 | IBM DB2 数据库 |是 |是 |否 |

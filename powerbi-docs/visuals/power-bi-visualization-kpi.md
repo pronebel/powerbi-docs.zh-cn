@@ -1,21 +1,21 @@
 ---
 title: 关键绩效指标 (KPI) 视觉对象
 description: 在 Power BI 中创建关键绩效指标 (KPI) 视觉对象
-author: msftrien
+author: mihart
+ms.author: mihart
 ms.reviewer: mihart
 featuredvideoid: ''
 ms.service: powerbi
-ms.subservice: powerbi-desktop
+ms.subservice: pbi-visuals
 ms.topic: how-to
 ms.date: 01/30/2020
-ms.author: rien
 LocalizationGroup: Visualizations
-ms.openlocfilehash: f272a760c016fa0d5fcfc9849eaa2a01fc77b9f9
-ms.sourcegitcommit: 5ccab484cf3532ae3a16acd5fc954b7947bd543a
+ms.openlocfilehash: 448115ea6cde6c85a7bd3386890f483d71882ad5
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/06/2020
-ms.locfileid: "93412846"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96418914"
 ---
 # <a name="create-key-performance-indicator-kpi-visualizations"></a>创建关键绩效指标 (KPI) 视觉对象
 

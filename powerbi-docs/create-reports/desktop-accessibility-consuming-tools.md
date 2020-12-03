@@ -2,19 +2,19 @@
 title: 使用辅助功能工具使用 Power BI 报表
 description: 使 Power BI 中的报表可访问的工具
 author: davidiseminger
+ms.author: davidi
 ms.reviewer: ''
 ms.service: powerbi
-ms.subservice: powerbi-desktop
+ms.subservice: pbi-reports-dashboards
 ms.topic: how-to
 ms.date: 10/28/2019
-ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: ca04a5404f0868f85a9c7ed840109efe6d213760
-ms.sourcegitcommit: e9cd61eaa66eda01cc159251d7936a455c55bd84
+ms.openlocfilehash: 13d7ae31e5fdd8acfd463c104d48d01b4b0d7533
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/23/2020
-ms.locfileid: "86952630"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96417695"
 ---
 # <a name="consume-power-bi-reports-by-using-accessibility-features"></a>通过辅助功能使用 Power BI 报表
 Power BI 提供许多内置功能，用于帮助残疾人士更轻松地使用 Power BI 报表并与之进行交互。 这些工具可帮助用户获取到无需使用辅助技术的用户可获取的报表信息。

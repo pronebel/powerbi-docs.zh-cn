@@ -1,20 +1,20 @@
 ---
 title: Power BI 中的可视化效果类型
 description: Power BI 中的可视化效果类型
-author: msftrien
+author: mihart
+ms.author: mihart
 ms.reviewer: mihart
 ms.service: powerbi
-ms.subservice: powerbi-desktop
+ms.subservice: pbi-visuals
 ms.topic: conceptual
 ms.date: 01/14/2020
-ms.author: rien
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 24dce044cdd1c4eaef21f4d744ed672119241970
-ms.sourcegitcommit: 5ccab484cf3532ae3a16acd5fc954b7947bd543a
+ms.openlocfilehash: 9f97db83f8793f251dc1d0d5c5b4133d7228022b
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/06/2020
-ms.locfileid: "93412731"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96418776"
 ---
 # <a name="visualization-types-in-power-bi"></a>Power BI 中的可视化效果类型
 ## <a name="power-bi-visualizations"></a>Power BI 可视化效果
@@ -230,7 +230,7 @@ ms.locfileid: "93412731"
 ## <a name="tell-qa-which-visualization-to-use"></a>告知问答要使用哪个可视化效果
 使用 Power BI 问答键入自然语言查询时，可以在查询中指定可视化效果类型。  例如：
 
-“ ***以树状图表示的每个州的销售额*** ”
+“***以树状图表示的每个州的销售额***”
 
 如果仪表板没有 Q&A 字段，它可能已经被你的 Power BI 管理员禁用了。 
 

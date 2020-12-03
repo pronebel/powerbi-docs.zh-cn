@@ -2,18 +2,18 @@
 title: 直接在报表生成器的分页报表中输入数据
 description: 本文介绍如何将数据直接输入到报表生成器的分页报表中。
 author: maggiesMSFT
+ms.author: maggies
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: how-to
 ms.date: 07/10/2020
-ms.author: maggies
-ms.openlocfilehash: 05da5fa050fc92ebae320af9e07fe6505b5790f4
-ms.sourcegitcommit: ccf53e87ff7cba1fcd9d2cca761a561e62933f90
+ms.openlocfilehash: 5719a5d6e8f559f1dba9f87bc9937ed925195072
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/04/2020
-ms.locfileid: "93297957"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96418201"
 ---
 # <a name="enter-data-directly-in-a-paginated-report-in-report-builder---power-bi"></a>直接在报表生成器 - Power BI 的分页报表中输入数据
 

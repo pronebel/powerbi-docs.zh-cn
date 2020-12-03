@@ -2,18 +2,18 @@
 title: 分页报表的数据检索指南
 description: 为 Power BI 分页报表创建数据源和数据集的指南。
 author: peter-myers
+ms.author: v-pemyer
 ms.reviewer: asaxton
 ms.service: powerbi
-ms.subservice: report-builder
+ms.subservice: powerbi
 ms.topic: conceptual
 ms.date: 02/16/2020
-ms.author: v-pemyer
-ms.openlocfilehash: 511dc42a3090f838654cda84f596d34f02bb3439
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 5869402a1f5147dbd4cea18b426452e115a97911
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83275078"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96419029"
 ---
 # <a name="data-retrieval-guidance-for-paginated-reports"></a>分页报表的数据检索指南
 
@@ -107,7 +107,7 @@ MDX 查询设计器要求模型包含度量值。 该设计器具有 DAX 查询�
 
 如果需要合并来自多个数据源的数据，可以使用两个选项：
 
-- **合并报表数据集**：如果数据源[受分页报表本机支持](../paginated-reports/paginated-reports-data-sources.md)，则可以考虑创建使用 [Lookup](/sql/reporting-services/report-design/report-builder-functions-lookup-function) 或 [LookupSet](/sql/reporting-services/report-design/report-builder-functions-lookupset-function) Report Builder 函数的计算字段。
+- **合并报表数据集**：如果数据源 [受分页报表本机支持](../paginated-reports/paginated-reports-data-sources.md)，则可以考虑创建使用 [Lookup](/sql/reporting-services/report-design/report-builder-functions-lookup-function) 或 [LookupSet](/sql/reporting-services/report-design/report-builder-functions-lookupset-function) Report Builder 函数的计算字段。
 - **开发 Power BI Desktop 模型**：但是，在 Power BI Desktop 中开发数据模型可能更有效。 可以使用 Power Query 根据任何[受支持的数据源](../connect-data/power-bi-data-sources.md)来合并查询。 发布到 Power BI 服务后，即可开发连接到 Power BI 数据集的分页报表。
 
 ## <a name="sql-server-complex-data-types"></a>SQL Server 复杂数据类型

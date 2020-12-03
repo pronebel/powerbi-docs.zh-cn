@@ -2,20 +2,20 @@
 title: 向表或矩形图添加超链接 (URL)
 description: 本主题介绍如何向表添加超链接 (URL)。 使用 Power BI Desktop 向数据集添加超链接 (URL)。 然后在 Power BI Desktop 或 Power BI 服务中，可以将这些超链接添加到报表表格和矩形图。
 author: maggiesMSFT
+ms.author: maggies
 ms.reviewer: ''
 ms.custom: seodec18
 ms.service: powerbi
-ms.subservice: powerbi-desktop
+ms.subservice: pbi-reports-dashboards
 ms.topic: how-to
 ms.date: 10/15/2020
-ms.author: maggies
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 824dc74d2461f9bbf6350694a48b00a327f3f13d
-ms.sourcegitcommit: 59d07be9c3e4a2067f6d42c3002a194371bc4341
+ms.openlocfilehash: c60c5824f20edd6d596d23fed56f8cdfaa19a01a
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "92116583"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96418040"
 ---
 # <a name="add-hyperlinks-urls-to-a-table-or-matrix"></a>向表或矩形图添加超链接 (URL)
 本主题介绍如何向表添加超链接 (URL)。 使用 Power BI Desktop 向数据集添加超链接 (URL)。 可以在 Power BI Desktop 或 Power BI 服务中将这些超链接添加到报表表格和矩形图。 然后，可以显示 URL 或链接图标，或将另一列的格式设置为链接文本。
@@ -109,7 +109,7 @@ ms.locfileid: "92116583"
 向 Power BI 表和矩形图添加超链接的另一个方法是从 Power BI 导入/连接到数据集前，在该数据集中创建超链接。 本示例使用 Excel 工作簿。
 
 1. 在 Excel 中打开工作簿。
-2. 选择 **PowerPivot** 选项卡，然后选择**管理**。
+2. 选择 **PowerPivot** 选项卡，然后选择 **管理**。
    
    ![在 Excel 中打开 PowerPivot](media/power-bi-hyperlinks-in-tables/createhyperlinkinpowerpivot2.png)
 1. Power Pivot 打开时，选择“**高级**”选项卡。
@@ -121,7 +121,7 @@ ms.locfileid: "92116583"
    > URL 必须以某些前缀开头。 有关完整列表，请参阅[注意事项和疑难解答](#considerations-and-troubleshooting)。
    > 
    
-5. 在 **Reporting 属性**组中，选择**数据类别**下拉列表，然后选择 **Web URL**。 
+5. 在 **Reporting 属性** 组中，选择 **数据类别** 下拉列表，然后选择 **Web URL**。 
    
    ![Excel 中的数据类别下拉列表](media/power-bi-hyperlinks-in-tables/createhyperlinksnew.png)
 

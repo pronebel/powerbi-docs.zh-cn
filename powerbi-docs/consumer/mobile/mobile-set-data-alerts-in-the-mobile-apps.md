@@ -2,18 +2,18 @@
 title: 在 Power BI 移动应用中设置数据警报
 description: 了解如何在 Power BI 移动应用中设置数据警报，以便在仪表板中的数据更改超出你设置的限制时通知你。
 author: paulinbar
+ms.author: painbar
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: how-to
 ms.date: 12/11/2019
-ms.author: painbar
-ms.openlocfilehash: 71fb659ba102e139c7a1679b0c58c07c47a38bf0
-ms.sourcegitcommit: 7e99e8af9caf9340958c4607a94728d43e8c3811
+ms.openlocfilehash: 4e9820b8ebff411434d9d6c408f36a36a644ea9d
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/02/2020
-ms.locfileid: "91668657"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96417994"
 ---
 # <a name="set-data-alerts-in-the-power-bi-mobile-apps"></a>在 Power BI 移动应用中设置数据警报
 适用于：
@@ -52,7 +52,7 @@ ms.locfileid: "91668657"
    > 
    > 
 6. 也可以更改警报标题。
-7. 点击**保存**。
+7. 点击 **保存**。
 8. 单个的磁贴可以有超过或低于阈值的值的警报。 在“管理警报”中，点击“添加警报规则”。
    
    ![管理警报的屏幕截图，其中显示指针指向“添加警报规则”。](media/mobile-set-data-alerts-in-the-mobile-apps/power-bi-iphone-add-another-alert-rule.png)
@@ -89,7 +89,7 @@ ms.locfileid: "91668657"
    > 
    > 
 7. 也可以更改警报标题。
-8. 点击**保存**。
+8. 点击 **保存**。
 
 ### <a name="manage-alerts-on-an-android-device"></a>在 Android 设备上管理警报
 你可以在 Power BI 移动应用中管理单个警报，或[在 Power BI 移动应用中管理所有警报](../../create-reports/service-set-data-alerts.md)。

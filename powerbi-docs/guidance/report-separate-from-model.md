@@ -2,18 +2,18 @@
 title: 与 Power BI Desktop 中的模型分离报表
 description: 与 Power BI Desktop 中的模型分离报表的指南。
 author: peter-myers
+ms.author: v-pemyer
 ms.reviewer: asaxton
 ms.service: powerbi
-ms.subservice: powerbi-desktop
+ms.subservice: powerbi
 ms.topic: conceptual
 ms.date: 04/11/2020
-ms.author: v-pemyer
-ms.openlocfilehash: f2b9ee2093889fc9a60d621ad09b3b52d2e90474
-ms.sourcegitcommit: d153cfc0ce559480c53ec48153a7e131b7a31542
+ms.openlocfilehash: a45299015883615b4773fe5db1c9864e01a47c4b
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/29/2020
-ms.locfileid: "91525929"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96418340"
 ---
 # <a name="separate-reports-from-models-in-power-bi-desktop"></a>与 Power BI Desktop 中的模型分离报表
 
@@ -37,7 +37,7 @@ ms.locfileid: "91525929"
 - 数据建模者和报表作者是不同的人。
 - 据了解，模型将成为多个报表的源，无论是现在还是将来。
 
-:::image type="content" source="media/report-separate-from-model/separate-report-files.png" alt-text="单个文件包含由同一个人开发的模型和报表。" border="true":::
+:::image type="content" source="media/report-separate-from-model/separate-report-files.png" alt-text="有三个 PBIX 文件。第一个文件只包含一个模型。其他两个仅包含报表，它们实时连接到 Power BI 服务中托管的模型。报表由不同的人开发。" border="true":::
 
 数据建模人员仍可以使用 Power BI Desktop 报表创作体验来测试和验证其模型设计。 但是，在将文件发布到 Power BI 服务后，他们应从工作区中删除报表。 另外，他们必须记得在每次重新发布并覆盖数据集时删除报表。
 

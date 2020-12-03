@@ -2,18 +2,18 @@
 title: 在 Power BI 移动应用中浏览磁贴
 description: 磁贴是数据的实时快照，固定到仪表板中。 了解如何在 Power BI 移动应用中与磁贴进行交互。
 author: paulinbar
+ms.author: painbar
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: how-to
 ms.date: 03/11/2020
-ms.author: painbar
-ms.openlocfilehash: 1afde236dd4fc9698efe4391cb2d9e095ade37a4
-ms.sourcegitcommit: 5fdb45736ca0c8070124279fed4dab1ced8b7b27
+ms.openlocfilehash: 74823845c73f02468d012c4518cdf111e84824c9
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/27/2020
-ms.locfileid: "92683347"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96417925"
 ---
 # <a name="explore-tiles-in-the-power-bi-mobile-apps"></a>在 Power BI 移动应用中浏览磁贴
 适用于：
@@ -58,7 +58,7 @@ ms.locfileid: "92683347"
    
     在 Power BI 应用中打开链接后，可以复制该链接，然后改为在浏览器窗口中打开它。
 7. [打开磁贴基于的报表](mobile-reports-in-the-mobile-apps.md) ![iOS 中的“打开报表”图标](././media/mobile-tiles-in-the-mobile-apps/power-bi-ipad-open-report-icon.png)。
-8. 若要使磁贴离开焦点模式，点击磁贴名称，然后点击“仪表板名称”或“ **我的工作区** ”。
+8. 若要使磁贴离开焦点模式，点击磁贴名称，然后点击“仪表板名称”或“**我的工作区**”。
    
     ![仪表板的屏幕截图，其中指针指向“我的工作区和机会分析示例”。](media/mobile-tiles-in-the-mobile-apps/power-bi-ipad-tile-breadcrumb.png)
 
@@ -109,7 +109,7 @@ ms.locfileid: "92683347"
    
    ![条形图的屏幕截图，其中显示了 Decor 条的值。](media/mobile-tiles-in-the-mobile-apps/pbi_win10ph_bartile0316.png)
    
-   在此条形图中， **Decor** 条的值显示在图表的顶部。
+   在此条形图中，**Decor** 条的值显示在图表的顶部。
    
    点击“切换到演示模式”图标![“切换到演示模式”图标的图像。](media/mobile-tiles-in-the-mobile-apps/power-bi-full-screen-icon.png)， 在演示模式下打开磁贴，而不显示导航栏和菜单栏。
    

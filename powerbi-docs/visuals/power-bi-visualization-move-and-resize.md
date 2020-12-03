@@ -1,20 +1,20 @@
 ---
 title: 移动可视化效果、调整其大小和弹出可视化效果
 description: 在 Power BI 服务和 Desktop 中移动和调整报表中的可视化对象
-author: msftrien
+author: mihart
+ms.author: mihart
 ms.reviewer: mihart
 ms.service: powerbi
-ms.subservice: powerbi-desktop
+ms.subservice: pbi-visuals
 ms.topic: how-to
 ms.date: 12/31/2018
-ms.author: rien
 LocalizationGroup: Visualizations
-ms.openlocfilehash: dd7920afb8438e577f0d800ed56c2a577f18807e
-ms.sourcegitcommit: 5ccab484cf3532ae3a16acd5fc954b7947bd543a
+ms.openlocfilehash: 09e1257bd1d9ee86a149ebf650e13da517292fd4
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/06/2020
-ms.locfileid: "93412800"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96418891"
 ---
 # <a name="move-and-resize-a-visualization-in-a-report"></a>在报表中移动可视化效果、调整其大小
 

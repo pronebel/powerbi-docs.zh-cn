@@ -1,19 +1,19 @@
 ---
 title: Power BI 报表服务器的更改日志
 description: 此更改日志适用于 Power BI 报表服务器，并列出了新项和每次发布版本的 bug 修复。
-ms.author: jaimeta
 author: jtarquino
+ms.author: jaimeta
 ms.reviewer: maggies
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 11/18/2020
-ms.openlocfilehash: 2989436c2a501447cab2d95e0ac1d3fad1fd99b6
-ms.sourcegitcommit: 5bbe7725918a72919ba069c5f8a59e95453ec14c
+ms.openlocfilehash: 2331785b14cd8cbcf9aec1232293cb601b1e2dc6
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/20/2020
-ms.locfileid: "94947015"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96418109"
 ---
 # <a name="change-log-for-power-bi-report-server"></a>Power BI 报表服务器的更改日志
 

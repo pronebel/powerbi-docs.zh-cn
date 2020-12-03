@@ -2,19 +2,19 @@
 title: 采购分析示例：教程
 description: Power BI 的采购分析示例：教程
 author: maggiesMSFT
+ms.author: maggies
 ms.reviewer: amac
 ms.service: powerbi
-ms.subservice: powerbi-desktop
+ms.subservice: pbi-reports-dashboards
 ms.topic: conceptual
 ms.date: 07/02/2019
-ms.author: maggies
 LocalizationGroup: Samples
-ms.openlocfilehash: 0193d5a46204b6dcb7477911efcaef22e358045e
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: 73384f2f2021d949fcaca26c5b9e55cd7f0407af
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83348933"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96417534"
 ---
 # <a name="procurement-analysis-sample-for-power-bi-take-a-tour"></a>Power BI 的采购分析示例：教程
 
@@ -68,7 +68,7 @@ ms.locfileid: "83348933"
 首先，按类别和位置分析支出趋势。  
 
 1. 在保存示例的工作区中，打开“仪表板”  选项卡，然后找到“采购分析示例”  仪表板，并选择它。 
-2. 选择仪表板磁贴，“按国家/地区划分的发票总计”  ，将打开“采购分析示例”  报表的“支出概况”  页。
+2. 选择仪表板磁贴，“按国家/地区划分的发票总计”，将打开“采购分析示例”报表的“支出概况”页。
 
     ![“支出概况”页](media/sample-procurement/procurement2.png)
 
@@ -85,13 +85,13 @@ ms.locfileid: "83348933"
 1. 在“按国家/地区划分的发票总计”  地图中，选择“墨西哥”  气泡。 请注意，在“按子类别划分的发票总计”  柱形图中，大部分支出都在“间接货物与服务”  子类别中。
 
    ![在“支出概况”页中选择“墨西哥”](media/sample-procurement/pbi_procsample_spendmexico.png)
-2. 向下钻取到**间接货物与服务**列：
+2. 向下钻取到 **间接货物与服务** 列：
 
    * 在“按子类别划分的发票总计”  图表中，选择图表右上角的向下钻取箭头![向下钻取箭头](media/sample-procurement/pbi_drilldown_icon.png)。
-   * 选择**间接货物与服务**列。
+   * 选择 **间接货物与服务** 列。
 
       如你所见，目前为止最高支出为“销售和市场营销”  子类别。
-   * 在地图上再次选择**墨西哥**。
+   * 在地图上再次选择 **墨西哥**。
 
       对于墨西哥，最大支出为“维护与修复”  子类别。
 
@@ -103,7 +103,7 @@ ms.locfileid: "83348933"
 ## <a name="evaluate-different-cities"></a>评估不同的城市
 我们可以使用突出显示来评估不同的城市。
 
-1. 选择仪表板磁贴，“按月份划分的发票总计、折扣百分比”  ，将打开“采购分析示例”  报表的“折扣分析”  页。
+1. 选择仪表板磁贴，“按月份划分的发票总计、折扣百分比”，将打开“采购分析示例”报表的“折扣分析”页。
 2. 在“按城市划分的发票总计”  树状图中，依次选择每个城市，以查看城市的比较结果。 注意到，几乎所有迈阿密的发票都来自第 1 层供应商。
 
    ![按层划分的城市和折扣百分比](media/sample-procurement/pbi_procsample_miamitreemap2.png)

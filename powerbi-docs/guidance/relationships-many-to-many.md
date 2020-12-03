@@ -2,18 +2,18 @@
 title: 多对多关系指导
 description: 对开发多对多模型关系的指导。
 author: peter-myers
+ms.author: v-pemyer
 ms.reviewer: asaxton
 ms.service: powerbi
-ms.subservice: powerbi-desktop
+ms.subservice: powerbi
 ms.topic: conceptual
 ms.date: 03/02/2020
-ms.author: v-pemyer
-ms.openlocfilehash: 3c94c25f5f1ba717f68a0c2a5ec661be10f70135
-ms.sourcegitcommit: 7e99e8af9caf9340958c4607a94728d43e8c3811
+ms.openlocfilehash: 95383581a258374f2757581e82fa0f2044dcae84
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/02/2020
-ms.locfileid: "91668519"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96418615"
 ---
 # <a name="many-to-many-relationship-guidance"></a>多对多关系指导
 
@@ -31,7 +31,7 @@ ms.locfileid: "91668519"
 
 让我们通过一个示例来看一下第一种多对多场景类型。 典型的情况是将两个实体相关联：银行客户和银行帐户。 要考虑到，客户可以有多个帐户，帐户也可以有多个客户。 如果某个帐户有多个客户，这些客户通常会被称为“联合帐户持有人”。
 
-可以直接对这些实体进行建模。 一个维度类型表存储帐户，另一个维度类型表存储客户。 与维度类型表的特征一样，每个表中都有一个 ID 列。 若要对这两个表之间的关系进行建模，则需要使用第三个表。 此表通常称为“桥接表”。 此示例的目的是为每个客户帐户关联存储一行。 有趣的是，如果此表只包含 ID 列，则称之为[_无事实的事实数据表_](star-schema.md#factless-fact-tables)。
+可以直接对这些实体进行建模。 一个维度类型表存储帐户，另一个维度类型表存储客户。 与维度类型表的特征一样，每个表中都有一个 ID 列。 若要对这两个表之间的关系进行建模，则需要使用第三个表。 此表通常称为“桥接表”。 此示例的目的是为每个客户帐户关联存储一行。 有趣的是，如果此表只包含 ID 列，则称之为 [_无事实的事实数据表_](star-schema.md#factless-fact-tables)。
 
 下面是这三个表的简单模型图。
 
@@ -105,7 +105,7 @@ ms.locfileid: "91668519"
 
 “Customer Balance”视觉对象现在显示的结果正确。 你可以自行按照筛选器的方向进行操作，了解如何计算客户余额。 另请注意，直观合计是针对所有客户而言。
 
-不熟悉模型关系的人可能会认为结果不正确。 他们可能会问：为什么“客户 91”和“客户 92”的总余额不等于 350 (75 + 275)_ _？
+不熟悉模型关系的人可能会认为结果不正确。 他们可能会问：为什么“客户 91”和“客户 92”的总余额不等于 350 (75 + 275)__？
 
 要回答他们的问题，关键在于理解多对多的关系。 每个客户余额都可表示多个帐户余额的相加，因此客户余额不可累加。
 

@@ -2,19 +2,19 @@
 title: 在 Power BI 中创建可访问的报表
 description: 如何创建可访问的 Power BI Desktop 报表
 author: davidiseminger
+ms.author: davidi
 ms.reviewer: ''
 ms.service: powerbi
-ms.subservice: powerbi-desktop
+ms.subservice: pbi-reports-dashboards
 ms.topic: how-to
 ms.date: 10/30/2019
-ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 13223b2ba9d5b50654c952da6b2517717103a724
-ms.sourcegitcommit: 51b965954377884bef7af16ef3031bf10323845f
+ms.openlocfilehash: d8ca43556cd01c5658574e8b42084c9db15d9206
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/30/2020
-ms.locfileid: "91600227"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96417718"
 ---
 # <a name="design-power-bi-reports-for-accessibility"></a>设计可访问的 Power BI 报表
 你可以设计和创建引人注目的报表，同时也可以针对可访问性进行设计。 无论何时构建报表，无论受众是谁，你都应该创建一个可供尽可能多的人使用的报表，而不需要使报表套用某种特殊的设计。

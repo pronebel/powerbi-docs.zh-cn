@@ -2,18 +2,18 @@
 title: 教程：浏览 VM 中的 Power BI 报表服务器
 description: 在本教程中，使用已安装的 Power BI 报表服务器创建虚拟机，并浏览 Web 门户。
 author: maggiesMSFT
+ms.author: maggies
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: tutorial
 ms.date: 05/06/2019
-ms.author: maggies
-ms.openlocfilehash: 312b86f9e0c0dda0c9c943520c74286e0458acef
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 85fcd6249a833c35cb98fca6abf2881ab1a4bf7e
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "79207013"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96418408"
 ---
 # <a name="tutorial-explore-the-power-bi-report-server-web-portal-in-a-vm"></a>教程：浏览 VM 中的 Power BI 报表服务器 Web 门户
 在本教程中，使用已安装的 Power BI 报表服务器创建 Azure 虚拟机，以便可以查看、编辑和管理示例 Power BI、分页报表和 KPI。
@@ -124,7 +124,7 @@ ms.locfileid: "79207013"
 ## <a name="tag-your-favorites"></a>标记收藏夹
 可以标记要收藏的报表和 KPI。 这样方便你快速找到，因为在 Web 门户和 Power BI 移动应用中，它们全都会被收集到一个“收藏夹”文件夹中。 
 
-1. 依次选择**利润率** KPI 右上角的省略号 ( **…** ) 和“添加到收藏夹”  。
+1. 依次选择 **利润率** KPI 右上角的省略号 ( **…** ) 和“添加到收藏夹”  。
    
     ![添加到收藏夹](media/tutorial-explore-report-server-web-portal/power-bi-report-server-add-to-favorites.png)
 2. 在 Web 门户功能区上选择“**收藏夹**”，以在 Web 门户的“收藏夹”页上查看该收藏和其他收藏。

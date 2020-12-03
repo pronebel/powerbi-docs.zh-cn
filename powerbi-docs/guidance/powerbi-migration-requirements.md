@@ -2,18 +2,18 @@
 title: 收集迁移到 Power BI 的要求
 description: 有关迁移到 Power BI 时收集要求和确定其优先级的指南。
 author: peter-myers
+ms.author: v-pemyer
 ms.reviewer: asaxton
 ms.service: powerbi
-ms.subservice: powerbi-service
+ms.subservice: powerbi
 ms.topic: conceptual
 ms.date: 08/20/2020
-ms.author: v-pemyer
-ms.openlocfilehash: 21d619c42648f90746af9961475bb531dc24d5ab
-ms.sourcegitcommit: 37bd34053557089c4fbf0e05f78e959609966561
+ms.openlocfilehash: 2aee1be1d5e221f8feaeae05f8284f0388b4b8af
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/10/2020
-ms.locfileid: "94396634"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96418546"
 ---
 # <a name="gather-requirements-to-migrate-to-power-bi"></a>收集迁移到 Power BI 的要求
 

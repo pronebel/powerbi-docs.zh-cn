@@ -2,17 +2,17 @@
 title: 在导入、实时连接和直接查询中使用自然的语言
 description: 本文介绍 Q&A 功能如何使用 Power BI 中可用的不同类型的数据源。 我们还将了解索引和缓存的概念。
 author: mohaali
+ms.author: mohaali
 ms.service: powerbi
-ms.subservice: powerbi-service
+ms.subservice: pbi-reports-dashboards
 ms.topic: conceptual
 ms.date: 08/19/2020
-ms.author: mohaali
-ms.openlocfilehash: 85ecc5adc55daee86922c39e417db1cac5ba4a52
-ms.sourcegitcommit: 0f807d3c74e5202b6e6a95fad49f2787928b9613
+ms.openlocfilehash: 23ecc8edd82f6c1694c850f73fef2a892230ff14
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/21/2020
-ms.locfileid: "88706183"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96418960"
 ---
 # <a name="use-natural-language-with-import-live-connect-and-direct-query"></a>在导入、实时连接和直接查询中使用自然的语言
 

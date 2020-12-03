@@ -2,18 +2,18 @@
 title: 使用报表页钻取
 description: 关于使用报表页钻取的指南。
 author: peter-myers
+ms.author: v-pemyer
 ms.reviewer: asaxton
 ms.service: powerbi
-ms.subservice: powerbi-desktop
+ms.subservice: powerbi
 ms.topic: conceptual
 ms.date: 11/28/2019
-ms.author: v-pemyer
-ms.openlocfilehash: 853f6d7f5cd6696be55edeea101bc0ca51922ad3
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 4aa7c3992183dad6fad30e31e31e935fbaa29c32
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83278068"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96418477"
 ---
 # <a name="use-report-page-drillthrough"></a>使用报表页钻取
 
@@ -59,7 +59,7 @@ ms.locfileid: "83278068"
 - **附加功能：** 钻取页与任何报表页都一样。 甚至可以通过其他交互功能（包括切片器或筛选器）来增强钻取页。
 - **空白：** 避免添加可能显示为 BLANK 或在应用钻取筛选器时产生错误的视觉对象。
 - **页面可见性：** 请考虑隐藏钻取页。 如果决定使钻取页保持可见状态，请确保添加一个按钮，该按钮使用户可以清除任何先前设置的钻取筛选器。 为该按钮分配[书签](../create-reports/desktop-bookmarks.md)。 应将该书签配置为删除所有筛选器。
-- **返回按钮：** 分配钻取筛选器时，将自动添加后退[按钮](../create-reports/desktop-buttons.md)。 最好保留该按钮。 以便报表用户可以轻松地返回到源页。
+- **返回按钮：** 分配钻取筛选器时，将自动添加后退 [按钮](../create-reports/desktop-buttons.md)。 最好保留该按钮。 以便报表用户可以轻松地返回到源页。
 - **发现：** 通过设置视觉对象标题图标文本或向文本框添加说明来增强对钻取页的认识。 你还可以设计覆盖，如[此博客文章](https://alluringbi.com/2019/10/23/overlays-for-true-self-serve-reporting/)中所述。
 
 > [!TIP]

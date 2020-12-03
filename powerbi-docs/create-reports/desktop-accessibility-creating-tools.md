@@ -2,19 +2,19 @@
 title: 使用辅助功能工具在 Power BI 中创建报表
 description: 了解用于在 Power BI 中创建报表的内置辅助功能工具
 author: davidiseminger
+ms.author: davidi
 ms.reviewer: ''
 ms.service: powerbi
-ms.subservice: powerbi-desktop
+ms.subservice: pbi-reports-dashboards
 ms.topic: how-to
 ms.date: 10/28/2019
-ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 00fd1352542a0cc3c962dc1597e2fa82a7393682
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 89ae528766fe303a0ba74ea69f6ecb3f5af13cec
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85229317"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96417649"
 ---
 # <a name="creating-reports-in-power-bi-using-accessibility-tools"></a>使用辅助功能工具在 Power BI 中创建报表
 

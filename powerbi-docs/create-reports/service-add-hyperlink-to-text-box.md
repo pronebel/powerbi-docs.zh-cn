@@ -2,20 +2,20 @@
 title: 向报表中的文本框添加超链接
 description: 向 Power BI Desktop 和 Power BI 服务中的文本框中添加超链接
 author: maggiesMSFT
+ms.author: maggies
 ms.reviewer: ''
 featuredvideoid: ''
 ms.service: powerbi
-ms.subservice: powerbi-desktop
+ms.subservice: pbi-reports-dashboards
 ms.topic: how-to
 ms.date: 07/25/2019
-ms.author: maggies
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 2960bb75e408011cbdf6b05117ac7f6073517f9b
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 235a1c0523eff09b0d43be3220b0165eba4dbed6
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85238137"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96417488"
 ---
 # <a name="add-a-hyperlink-to-a-text-box-in-a-report"></a>向报表中的文本框添加超链接
 你可以在 Power BI Desktop 或 Power BI 服务中向报表添加文本框。 你可以将文本框从报表固定到仪表板，也可以直接将其添加到仪表板。 无论文本框位于何处，你都可以向其添加超链接。 本文介绍如何向报表中的文本框添加超链接。 
