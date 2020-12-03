@@ -2,19 +2,19 @@
 title: 配置和使用数据流
 description: 概述如何在 Power BI 中设置和使用数据流
 author: davidiseminger
+ms.author: davidi
 ms.reviewer: ''
 ms.service: powerbi
-ms.subservice: powerbi-service
+ms.subservice: pbi-dataflows
 ms.topic: how-to
 ms.date: 10/01/2020
-ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: 82d5981d885f97d48dec180e692a4a44c0bbe781
-ms.sourcegitcommit: bd133cb1fcbf4f6f89066165ce065b8df2b47664
+ms.openlocfilehash: 5f33f43565187c0276cf6d9c3479bbbb57480ae5
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "94668249"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96416177"
 ---
 # <a name="configure-and-consume-a-dataflow"></a>配置和使用数据流
 

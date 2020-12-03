@@ -1,19 +1,19 @@
 ---
 title: 在 Power BI 报表生成器中预览报表
 description: 在创建报表生成器分页报表时，一个很有用的做法是经常预览报表以验证报表是否显示所需内容。
+author: maggiesMSFT
+ms.author: maggies
 ms.date: 06/06/2019
 ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: conceptual
 ms.assetid: ba6b5bdd-d8c6-4aa8-ba32-3a10b11969d4
-author: maggiesMSFT
-ms.author: maggies
-ms.openlocfilehash: b12937ec758202345166e520397a52e52b67165d
-ms.sourcegitcommit: ccf53e87ff7cba1fcd9d2cca761a561e62933f90
+ms.openlocfilehash: d982174d814b3f1042e02dc9beda762848c48086
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/04/2020
-ms.locfileid: "93298139"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96416200"
 ---
 # <a name="previewing-reports-in-power-bi-report-builder"></a>在 Power BI 报表生成器中预览报表
 

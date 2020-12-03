@@ -2,19 +2,19 @@
 title: 在 Power BI Desktop 中创建和管理关系
 description: 在 Power BI Desktop 中创建和管理关系
 author: davidiseminger
+ms.author: davidi
 ms.reviewer: ''
 ms.service: powerbi
-ms.subservice: powerbi-desktop
+ms.subservice: pbi-transform-model
 ms.topic: how-to
 ms.date: 05/28/2020
-ms.author: davidi
 LocalizationGroup: Model your data
-ms.openlocfilehash: 5b2e9cc5cb07eebf3befebd1be1686fdbb0f653b
-ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
+ms.openlocfilehash: f843d2642228c7fbf1394174fe4334a58f169e2f
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90861811"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96415878"
 ---
 # <a name="create-and-manage-relationships-in-power-bi-desktop"></a>在 Power BI Desktop 中创建和管理关系
 导入多个表时，你很可能要使用所有这些表中的数据来执行一些分析。 为准确计算结果并在报表中显示正确信息，这些表之间的关系是必需的。 Power BI Desktop 可轻松创建这些关系。 事实上，在大多数情况下，你无需执行任何操作，自动检测功能会为你执行相关操作。 但有时，你可能需要自行创建关系，或者需要对关系进行更改。 无论哪种方法，都有必要了解 Power BI Desktop 中的关系及其创建和编辑方式。
@@ -147,8 +147,8 @@ ms.locfileid: "90861811"
 ### <a name="to-create-the-new-relationship"></a>若要创建新关系
 1. 从“主页”选项卡选择“管理关系” 。
 2. 在“管理关系”中，选择“新建”以打开“创建关系”对话框，可在其中选择表、列以及要用于关系的任何其他设置  。
-3. 在第一个下拉列表中，选择“ProjectHours”作为第一个表，然后选择“Project”列 。 此方是关系中的*多方*。
-4. 在第二个下拉列表中，“CompanyProject”已被预先选择为第二个表。 选择“ProjName”列。 此方是关系中的*单方*。 
+3. 在第一个下拉列表中，选择“ProjectHours”作为第一个表，然后选择“Project”列 。 此方是关系中的 *多方*。
+4. 在第二个下拉列表中，“CompanyProject”已被预先选择为第二个表。 选择“ProjName”列。 此方是关系中的 *单方*。 
 5. 接受关系选项的默认设置，然后选择“确定”。
 
    ![“创建关系”对话框](media/desktop-create-and-manage-relationships/candmrel_create_compproj.png)
@@ -258,7 +258,7 @@ Power BI 进行这些设置的原因在于，对于 Power BI Desktop 而言，�
 | 蓝色 |A |80000 |2013/6/1 |
 | 红色 |B |90000 |2013/6/1 |
 
-在这一新的组合表中，“ProjName”列具有重复值。 刷新表格后，两个原始表将不再具有一对一的关系。 在此情况下，由于我们知道将来的这些更新将导致“ProjName”列出现重复项，我们想要将“基数”设置为“多对一(\*:1)”，其中*多方*位于“ProjectBudget”上，而*单方*位于“CompanyProjectPriority”上    。
+在这一新的组合表中，“ProjName”列具有重复值。 刷新表格后，两个原始表将不再具有一对一的关系。 在此情况下，由于我们知道将来的这些更新将导致“ProjName”列出现重复项，我们想要将“基数”设置为“多对一(\*:1)”，其中 *多方* 位于“ProjectBudget”上，而 *单方* 位于“CompanyProjectPriority”上    。
 
 ## <a name="adjusting-cross-filter-direction-for-a-complex-set-of-tables-and-relationships"></a>为一组复杂的表和关系调整交叉筛选方向
 对于大多数关系，交叉筛选方向设置为“双向”。 但在某些不太常见的情况下，你可能需要将此选择设置为非默认值，例如，如果你正在从较旧版本的 Power Pivot 中导入模型，而该版本中每个关系均设置为单向。 

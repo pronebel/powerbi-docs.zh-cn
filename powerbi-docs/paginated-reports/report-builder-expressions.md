@@ -1,19 +1,19 @@
 ---
 title: Power BI 报表生成器中的表达式
 description: 表达式在 Power BI Report Builder 分页报表中被广泛用于检索、计算、显示、分组、排序、筛选、参数化和格式化数据。
+author: maggiesMSFT
+ms.author: maggies
 ms.date: 06/06/2019
 ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: conceptual
 ms.assetid: 76d3ac86-650c-46fe-8086-8b3edcea3882
-author: maggiesMSFT
-ms.author: maggies
-ms.openlocfilehash: 7dbda608fcab3457a45c4ad93abf7143a19abcd1
-ms.sourcegitcommit: ccf53e87ff7cba1fcd9d2cca761a561e62933f90
+ms.openlocfilehash: 24f9348bf23c8e5748121f6967fe7c826984adb9
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/04/2020
-ms.locfileid: "93298164"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96416338"
 ---
 # <a name="expressions-in-power-bi-report-builder"></a>Power BI 报表生成器中的表达式
 

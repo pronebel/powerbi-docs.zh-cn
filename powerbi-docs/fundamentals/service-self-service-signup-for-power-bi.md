@@ -2,20 +2,20 @@
 title: 以个人身份注册 Power BI 服务
 description: 了解如何注册 Power BI 服务并开始使用，以满足你的数据分析和可视化需求。
 author: mihart
+ms.author: mihart
 ms.reviewer: ''
 ms.service: powerbi
-ms.subservice: powerbi-service
+ms.subservice: pbi-fundamentals
 ms.topic: conceptual
 ms.date: 06/24/2020
-ms.author: mihart
 ms.custom: licensing support
 LocalizationGroup: Get started
-ms.openlocfilehash: db77d7f94665df7711f7b49dd2cc6d10a7c694df
-ms.sourcegitcommit: c83146ad008ce13bf3289de9b76c507be2c330aa
+ms.openlocfilehash: 4aa768aa6c041f4653a0bd7bf1ef873b3bc4a63b
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/10/2020
-ms.locfileid: "86216617"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96416637"
 ---
 # <a name="sign-up-for-the-power-bi-service-as-an-individual"></a>以个人身份注册 Power BI 服务
 

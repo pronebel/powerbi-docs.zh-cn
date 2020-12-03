@@ -2,19 +2,19 @@
 title: 创建数据流
 description: 概述各种用于创建数据流的选项
 author: davidiseminger
+ms.author: davidi
 ms.reviewer: ''
 ms.service: powerbi
-ms.subservice: powerbi-service
+ms.subservice: pbi-dataflows
 ms.topic: how-to
 ms.date: 10/01/2020
-ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: 5a75965bb236a1515274343e58668809f91cef7b
-ms.sourcegitcommit: bd133cb1fcbf4f6f89066165ce065b8df2b47664
+ms.openlocfilehash: c98044303e46af46d36b98f0a1bdc8c7df29d94f
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "94669192"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96416154"
 ---
 # <a name="creating-a-dataflow"></a>创建数据流
 数据流是在 Power BI 服务的工作区中创建和管理的实体（实体类似于表）集合。 实体/表是一组用于存储数据的字段，非常类似于数据库中的表。 可以直接在创建数据流的工作区中添加和编辑数据流中的实体/表，以及管理数据刷新计划。

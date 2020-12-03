@@ -1,19 +1,19 @@
 ---
 title: 什么是 Power BI？
 description: 概述了 Power BI 以及如何完美组合使用各种产品（Power BI Desktop、Power BI 服务、Power BI 移动版、报表服务器、Power BI Embedded）。
-author: maggiesMSFT
+author: mihart
+ms.author: mihart
 ms.service: powerbi
-ms.subservice: powerbi-service
+ms.subservice: pbi-fundamentals
 ms.topic: overview
 ms.date: 09/23/2020
-ms.author: maggies
 LocalizationGroup: Get started
-ms.openlocfilehash: 2c793cf0b7af6f6a7fdbc6196052ac357b6ddd12
-ms.sourcegitcommit: 02b5d031d92ea5d7ffa70d5098ed15e4ef764f2a
+ms.openlocfilehash: acbd0761b481ec4884ab94d50de219a2d753b574
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/26/2020
-ms.locfileid: "91375319"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96416522"
 ---
 # <a name="what-is-power-bi"></a>什么是 Power BI？
 **Power BI** 是软件服务、应用和连接器的集合，它们协同工作以将相关数据来源转换为连贯的视觉逼真的交互式见解。 数据可以是 Excel 电子表格，也可以是基于云和本地混合数据仓库的集合。 使用 Power BI，可以轻松连接到数据源，可视化并发现重要内容，并根据需要与任何人共享。
@@ -48,7 +48,7 @@ Power BI Desktop、服务和移动应用这三个元素旨在让你能够采用�
 - 面向[业务用户](../consumer/end-user-consumer.md)的 Power BI
 - 面向[报表创建者](desktop-what-is-desktop.md)的 Power BI Desktop
 - 面向[企业报表创建者](../paginated-reports/paginated-reports-report-builder-power-bi.md)的 Power BI 报表生成器
-- 面向[*管理员*](../admin/service-admin-administering-power-bi-in-your-organization.md)的 Power BI
+- 面向 [*管理员*](../admin/service-admin-administering-power-bi-in-your-organization.md)的 Power BI
 - 面向开发人员的 Power BI
     * [Power BI 嵌入式分析](../developer/embedded/embedding.md)
     * [Azure 中的 Power BI Embedded 是指什么？](../developer/embedded/azure-pbie-what-is-power-bi-embedded.md)

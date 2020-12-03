@@ -2,20 +2,20 @@
 title: 从报表将磁贴固定到 Power BI 仪表板
 description: 从报表将磁贴固定到 Power BI 仪表板。
 author: maggiesMSFT
+ms.author: maggies
 ms.reviewer: ''
 featuredvideoid: lJKgWnvl6bQ
 ms.service: powerbi
-ms.subservice: powerbi-service
+ms.subservice: pbi-reports-dashboards
 ms.topic: how-to
 ms.date: 07/23/2019
-ms.author: maggies
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 1e0fdf11eab5ea264e78363984ff49bbc95660d8
-ms.sourcegitcommit: caf60154a092f88617eb177bc34fb784f2365962
+ms.openlocfilehash: 5aa34834df49d54be885d94a1a1c06e13891ead1
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/25/2020
-ms.locfileid: "85354308"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96417327"
 ---
 # <a name="pin-a-tile-to-a-power-bi-dashboard-from-a-report"></a>从报表将磁贴固定到 Power BI 仪表板
 
@@ -38,7 +38,7 @@ Watch Amanda 通过从 Power BI 报表固定视觉对象和图像创建仪表板
 
 现在使用其中一个 Power BI 示例报表创建你自己的仪表板。
 
-1. 在报表中，将鼠标悬停在你想要固定的可视化效果上方，然后选择固定图标。 ![固定图标](media/service-dashboard-pin-tile-from-report/pbi_pintile_small.png)。 Power BI 将会打开**固定到仪表板**屏幕。
+1. 在报表中，将鼠标悬停在你想要固定的可视化效果上方，然后选择固定图标。 ![固定图标](media/service-dashboard-pin-tile-from-report/pbi_pintile_small.png)。 Power BI 将会打开 **固定到仪表板** 屏幕。
    
      ![固定到仪表板窗口](media/service-dashboard-pin-tile-from-report/pbi_themes2.png)
 2. 选择是将磁贴固定到现有仪表板还是固定到新仪表板。

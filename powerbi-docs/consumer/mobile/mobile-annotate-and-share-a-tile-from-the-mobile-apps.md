@@ -2,18 +2,18 @@
 title: 在 Power BI 移动应用中批注并共享
 description: '了解如何从适用于 iOS 和 Android 的 Microsoft Power BI 移动应用批注和共享磁贴、报表和视觉对象。 '
 author: paulinbar
+ms.author: painbar
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: how-to
 ms.date: 03/11/2020
-ms.author: painbar
-ms.openlocfilehash: 58a282116a672f33c0e05e7a3e6532ede316b3d3
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: af8cb247d2a931ac9fb7aa54fc37f9f4dcde74ae
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85239334"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96416614"
 ---
 # <a name="annotate-and-share-a-tile-report-or-visual-in-power-bi-mobile-apps"></a>在 Power BI 移动应用中批注并共享磁贴、报表或视觉对象
 适用于：
@@ -63,7 +63,7 @@ ms.locfileid: "85239334"
    * 要绘制不同颜色和粗细的线条，请点击波浪线图标，选择宽度和颜色，然后绘制。  
    * 要键入评论，请点击 **AA**，选择文本大小和颜色，然后键入。  
    * 要在磁贴上粘贴标记（如表情符号），请点击笑脸，选择颜色，然后点击你想要放置它们的位置。   
-2. 批注后，点击右上角的**共享**。
+2. 批注后，点击右上角的 **共享**。
 3. 打开邮件应用，键入收件人的名称，并在需要时修改邮件。  
    
    ![电子邮件中的批注报表](./media/mobile-annotate-and-share-a-tile-from-the-mobile-apps/power-bi-iphone-annotate-send.png)

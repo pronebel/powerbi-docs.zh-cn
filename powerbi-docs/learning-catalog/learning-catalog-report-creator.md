@@ -2,16 +2,16 @@
 title: 报表创建者学习目录
 description: 查找面向报表设计人员的所有 Power BI 培训选项（从最基础到最高级）。
 author: margoc
+ms.author: margoc
 ms.prod: powerbi
 ms.topic: article
 ms.date: 03/25/2020
-ms.author: margoc
-ms.openlocfilehash: 3774de30309b2e1b3a8b086ee1d7605d1cba256d
-ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
+ms.openlocfilehash: 4b6b7cf92f0ee529fe9f9c025de4d38ded4cade5
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/06/2020
-ms.locfileid: "91749359"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96416430"
 ---
 # <a name="report-creator-learning-catalog"></a>报表创建者学习目录
 

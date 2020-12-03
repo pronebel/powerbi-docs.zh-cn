@@ -2,20 +2,20 @@
 title: 编辑仪表板磁贴
 description: 本教程介绍了如何创建并将磁贴固定到仪表板，以及如何编辑此仪表板磁贴，包括重设大小、移动、重命名、固定、删除、添加超链接。
 author: maggiesMSFT
+ms.author: maggies
 ms.reviewer: ''
 featuredvideoid: lJKgWnvl6bQ
 ms.service: powerbi
-ms.subservice: powerbi-service
+ms.subservice: pbi-reports-dashboards
 ms.topic: how-to
 ms.date: 03/02/2018
-ms.author: maggies
 LocalizationGroup: Dashboards
-ms.openlocfilehash: fd6117e3f5de4e8e82535c2594eec53d71117301
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 4e217b0e75e8d2fadd2eff927ba3ef3c04e40e27
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85219358"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96417419"
 ---
 # <a name="edit-or-remove-a-dashboard-tile"></a>编辑或删除仪表板磁贴
 
@@ -130,7 +130,7 @@ ms.locfileid: "85219358"
 2. 确定是将此磁贴的副本固定到现有仪表板，还是固定到新仪表板。 
    
    ![“固定到仪表板”对话框](media/service-dashboard-edit-tile/pbi_pintoanotherdash.png)
-3. 选择**固定**。
+3. 选择 **固定**。
 
 <a name="delete"></a>
 

@@ -2,19 +2,19 @@
 title: 在 Power BI Desktop 中执行常见查询任务
 description: 在 Power BI Desktop 中执行常见查询任务
 author: davidiseminger
+ms.author: davidi
 ms.reviewer: ''
 ms.service: powerbi
-ms.subservice: powerbi-desktop
+ms.subservice: pbi-transform-model
 ms.topic: how-to
 ms.date: 01/09/2020
-ms.author: davidi
 LocalizationGroup: Transform and shape data
-ms.openlocfilehash: 931c500cd2c2dbbf750eb3699ac5290a2977c21b
-ms.sourcegitcommit: d153cfc0ce559480c53ec48153a7e131b7a31542
+ms.openlocfilehash: 2346118350ca589a25635db9da976fa917e3ff7b
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/29/2020
-ms.locfileid: "91526251"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96415947"
 ---
 # <a name="perform-common-query-tasks-in-power-bi-desktop"></a>在 Power BI Desktop 中执行常见查询任务
 
@@ -92,8 +92,8 @@ ms.locfileid: "91526251"
 此时会显示“分组依据”  对话框。 当 Power Query 编辑器对行进行分组时，它会创建一个新列，将“分组依据”  结果置于其中。 可按照以下方式调整 **分组依据** 操作：
 
 1. 未标记的下拉列表指定要分组的列。 Power Query 编辑器将此值默认设置为所选列，但你可以将其更改为表中的任何列。
-2. **新列名** ：Power Query 编辑器会基于它对要进行分组的列所应用的操作为新列建议一个名称。 但你也可以将新列命名为所需的任何名称。
-3. **Operation** ：可以选择 Power Query 编辑器应用的操作，如“求和”  、“中值”  或“统计非重复行数”  。 默认值为“统计行数”  。
+2. **新列名**：Power Query 编辑器会基于它对要进行分组的列所应用的操作为新列建议一个名称。 但你也可以将新列命名为所需的任何名称。
+3. **Operation**：可以选择 Power Query 编辑器应用的操作，如“求和”  、“中值”  或“统计非重复行数”  。 默认值为“统计行数”  。
 4. “添加分组”  和“添加聚合”  ：仅当选择了“高级”  选项时，这些按钮才可用。 在单个操作中，可以对多个列执行分组操作（“分组依据”  操作），并使用这些按钮创建多个聚合。 根据此对话框内的所选内容，Power Query 编辑器将创建一个新列，该列可对多个列进行操作。
 
 选择“添加分组”  或“添加聚合”  ，向“分组依据”  操作添加更多分组或聚合操作。 若要删除分组或聚合，请选择该行右侧的省略号图标 (...  )，然后选择“删除”  。 继续操作，并使用默认值尝试“分组依据  操作，以查看发生的情况。
@@ -148,7 +148,7 @@ Power Query 编辑器将每个查询的所有已应用步骤保存为可查看�
 
 ![“高级编辑器”命令、Power Query 编辑器、Power BI Desktop](media/desktop-common-query-tasks/queryformulas_advancededitorbutton.png)
 
-下面来看看 **高级编辑器** ，它显示了与 **USA\_StudentEnrollment** 查询关联的查询步骤。 这些步骤是使用 Power Query 公式语言（通常称为 *M* ）进行创建的。有关详细信息，请参阅 [了解 Power Query 公式](https://support.office.com/article/learn-about-power-query-formulas-6bc50988-022b-4799-a709-f8aafdee2b2f)。 若要查看语言规范本身，请参阅 [Power Query M 语言规范](/powerquery-m/power-query-m-language-specification)。
+下面来看看 **高级编辑器**，它显示了与 **USA\_StudentEnrollment** 查询关联的查询步骤。 这些步骤是使用 Power Query 公式语言（通常称为 *M*）进行创建的。有关详细信息，请参阅 [了解 Power Query 公式](https://support.office.com/article/learn-about-power-query-formulas-6bc50988-022b-4799-a709-f8aafdee2b2f)。 若要查看语言规范本身，请参阅 [Power Query M 语言规范](/powerquery-m/power-query-m-language-specification)。
 
 ![“高级编辑器”对话框、Power Query 编辑器、Power BI Desktop](media/desktop-common-query-tasks/queryformulas_advancededitor.png)
 

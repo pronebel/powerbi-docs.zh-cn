@@ -1,20 +1,20 @@
 ---
 title: 为磁贴创建 QR 码以供在 Power BI 移动应用中使用
 description: Power BI 磁贴中的 QR 码可以将现实生活中的任何事物直接连接到 Power BI 移动应用中的相关 BI 信息，而无需进行任何搜索。
-author: maggiesMSFT
+author: paulinbar
+ms.author: painbar
 ms.reviewer: ''
 ms.service: powerbi
-ms.subservice: powerbi-service
+ms.subservice: pbi-reports-dashboards
 ms.topic: how-to
 ms.date: 03/07/2018
-ms.author: maggies
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 95e966a7056926c70802a4502be497c2d2b268e5
-ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
+ms.openlocfilehash: 85d33d5e1088a4bd47b6bfbcade6a6a1a4e14bbb
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/06/2020
-ms.locfileid: "91746760"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96417442"
 ---
 # <a name="create-a-qr-code-for-a-tile-in-power-bi-to-use-in-the-mobile-apps"></a>在 Power BI 中为磁贴创建 QR 码以供在移动应用中使用
 Power BI 中的 QR 代码可以将现实生活中的任何东西直接连接到相关的 BI 信息 &#151; 无需进行导航或搜索。
@@ -41,7 +41,7 @@ Power BI 中的 QR 代码可以将现实生活中的任何东西直接连接到�
 ## <a name="print-the-qr-code"></a>打印 QR 代码
 Power BI 可将 QR 代码生成为 JPG 文件，以备打印。 
 
-1. 选择**下载**，然后在连接到打印机的计算机上打开该 JPG 文件。  
+1. 选择 **下载**，然后在连接到打印机的计算机上打开该 JPG 文件。  
    
    > [!TIP]
    > JPG 文件与磁贴同名。 例如 "Opportunity Count - by Month, Sales Stage.jpg"。

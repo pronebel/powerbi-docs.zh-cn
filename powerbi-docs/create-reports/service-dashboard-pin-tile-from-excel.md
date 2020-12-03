@@ -2,20 +2,20 @@
 title: 如何从 Excel 将磁贴固定到 Power BI 仪表板
 description: 在 OneDrive for Business 上从 Excel 将磁贴固定到 Power BI 仪表板 固定范围、图表、表
 author: maggiesMSFT
+ms.author: maggies
 ms.reviewer: ''
 featuredvideoid: l8JoB7w0zJA
 ms.service: powerbi
-ms.subservice: powerbi-service
+ms.subservice: pbi-reports-dashboards
 ms.topic: how-to
 ms.date: 05/02/2018
-ms.author: maggies
 LocalizationGroup: Dashboards
-ms.openlocfilehash: e2e47a09437bacfc905258bd6e23e82ff5554225
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: b62a780bc504c0b2fc90aa368d8dc30ac745867e
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85219289"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96417396"
 ---
 # <a name="pin-a-tile-to-a-power-bi-dashboard-from-excel"></a>从 Excel 将磁贴固定到 Power BI 仪表板
 若要从 Excel 工作簿固定磁贴，请将该工作簿连接到 Power BI 服务 (app.powerbi.com)。 实际上，连接工作簿会将该工作簿链接的只读版本引入 Power BI 服务，并允许用户将区域固定到仪表板。 甚至可以将整个工作表固定到仪表板。  
@@ -60,7 +60,7 @@ ms.locfileid: "85219289"
    * 新仪表板：键入新仪表板的名称。
    
      ![“固定到仪表板”对话框](media/service-dashboard-pin-tile-from-excel/pbi_dashdialog1.png)
-4. 选择**固定**。 一条成功消息（右上角附近）会告知你已将范围以磁贴的形式添加到你的仪表板中。 
+4. 选择 **固定**。 一条成功消息（右上角附近）会告知你已将范围以磁贴的形式添加到你的仪表板中。 
    
     ![“已固定到仪表板”对话框](media/service-dashboard-pin-tile-from-excel/power-bi-go-to-dashboard.png)
 5. 选择“转到仪表板”  。 在此处可以对已固定的可视化效果执行[重命名、重设大小、添加链接和移动](service-dashboard-edit-tile.md)操作。 默认情况下，选择固定的磁贴将在 Power BI 中打开工作簿。

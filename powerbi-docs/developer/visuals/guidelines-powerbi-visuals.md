@@ -5,15 +5,15 @@ author: KesemSharabi
 ms.author: kesharab
 ms.reviewer: ''
 ms.service: powerbi
-ms.topic: conceptual
 ms.subservice: powerbi-custom-visuals
+ms.topic: conceptual
 ms.date: 08/12/2020
-ms.openlocfilehash: 6e9da6e16d32f0093bc0e4be35415f1a23f7fa41
-ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
+ms.openlocfilehash: 427fba66b34fefb0b7ca9d70a29b08ebe7d743cb
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/06/2020
-ms.locfileid: "91748555"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96416131"
 ---
 # <a name="guidelines-for-power-bi-visuals"></a>Power BI 视觉对象指南
 在将 Power BI 视觉对象[发布](office-store.md)到 Microsoft AppSource 供其他人了解和使用之前，请遵循相关指南，为用户创造好的体验。
@@ -70,7 +70,7 @@ IAP Power BI 视觉对象是一种免费的视觉对象，可提供免费功能 
 > * 本文仅以 Microsoft 商业徽标为例。 将自己的商业徽标与 Power BI 视觉对象配合使用。
 
 > [!IMPORTANT]
-> 仅允许在编辑模式下使用商业徽标**。 无法在查看模式下显示商业徽标**。
+> 仅允许在编辑模式下使用商业徽标。 无法在查看模式下显示商业徽标。
 
 ### <a name="commercial-logo-type"></a>商业徽标类型
 
@@ -115,11 +115,11 @@ Power BI 视觉对象需要两个商业徽标，一个用于大型磁贴，一�
 
 |设置  |小型 Power BI 视觉对象  |大型 Power BI 视觉对象  |
 |---------|---------|---------|
-|徽标宽度**    |最多 240 px         |大于 240 px         |
-|徽标高度**     |最多 160 px         |大于 160 px         |
-|边界框大小**     |40 x 15 px         |101 x 30 px         |
-|商业徽标示例**     |![缩小版的 Microsoft 商业徽标的屏幕截图。](media/guidelines-powerbi-visuals/grey-microsoft-symbol.png)         |![Microsoft 商业徽标的屏幕截图。](media/guidelines-powerbi-visuals/grey-microsoft-logo.png)         |
-|边界框示例**    |![小徽标尺寸的屏幕截图。](media/guidelines-powerbi-visuals/small-logo-box.png)         |![大徽标尺寸的屏幕截图。](media/guidelines-powerbi-visuals/big-logo-box.png)         |
+|徽标宽度    |最多 240 px         |大于 240 px         |
+|徽标高度     |最多 160 px         |大于 160 px         |
+|边界框大小     |40 x 15 px         |101 x 30 px         |
+|商业徽标示例     |![缩小版的 Microsoft 商业徽标的屏幕截图。](media/guidelines-powerbi-visuals/grey-microsoft-symbol.png)         |![Microsoft 商业徽标的屏幕截图。](media/guidelines-powerbi-visuals/grey-microsoft-logo.png)         |
+|边界框示例    |![小徽标尺寸的屏幕截图。](media/guidelines-powerbi-visuals/small-logo-box.png)         |![大徽标尺寸的屏幕截图。](media/guidelines-powerbi-visuals/big-logo-box.png)         |
 |    |         |         |
 
 ### <a name="commercial-logo-behavior"></a>商业徽标行为

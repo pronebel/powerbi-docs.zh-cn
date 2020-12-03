@@ -2,23 +2,23 @@
 title: 在 Power BI Desktop 中使用和管理聚合
 description: 在 Power BI Desktop 中使用聚合对大数据执行交互式分析。
 author: davidiseminger
+ms.author: davidi
 ms.reviewer: ''
 ms.service: powerbi
-ms.subservice: powerbi-desktop
+ms.subservice: pbi-transform-model
 ms.topic: conceptual
 ms.date: 02/14/2020
-ms.author: davidi
 LocalizationGroup: Transform and shape data
-ms.openlocfilehash: 3ffa26c0999857df1b249d2866eb5f327e600a82
-ms.sourcegitcommit: 51b965954377884bef7af16ef3031bf10323845f
+ms.openlocfilehash: a6adf2136cbff1df6e673de16fd1673127df0192
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/30/2020
-ms.locfileid: "91600329"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96416289"
 ---
 # <a name="use-aggregations-in-power-bi-desktop"></a>在 Power BI Desktop 中使用聚合
 
-借助 Power BI 中的*聚合*，可缩小表的大小，以便专注于重要数据并提高查询性能。 聚合能够以无法另行实现的方式对大数据执行交互式分析，并且可大幅降低解锁大型数据集用于做出决策的成本。
+借助 Power BI 中的 *聚合*，可缩小表的大小，以便专注于重要数据并提高查询性能。 聚合能够以无法另行实现的方式对大数据执行交互式分析，并且可大幅降低解锁大型数据集用于做出决策的成本。
 
 使用聚合的一些优点包括：
 
@@ -63,9 +63,9 @@ ms.locfileid: "91600329"
 
 “管理聚合”对话框强制实施以下重要验证  ：
 
-- “详细信息列”的数据类型必须与“聚合列”相同，“计数”和“计算表行数”**汇总**函数除外   。 “计数”和“计算表行数”仅用于整数聚合列，且无需匹配的数据类型。
-- 不允许使用涉及三个（及以上）表的链式聚合。 例如，**表 A** 上的聚合不能引用具有引用**表 C** 的聚合的**表 B**。
-- 不允许使用重复聚合，重复聚合是指两个条目使用相同的**汇总**函数并引用相同的“详细信息表”和“详细信息列”   。
+- “详细信息列”的数据类型必须与“聚合列”相同，“计数”和“计算表行数”**汇总** 函数除外   。 “计数”和“计算表行数”仅用于整数聚合列，且无需匹配的数据类型。
+- 不允许使用涉及三个（及以上）表的链式聚合。 例如，**表 A** 上的聚合不能引用具有引用 **表 C** 的聚合的 **表 B**。
+- 不允许使用重复聚合，重复聚合是指两个条目使用相同的 **汇总** 函数并引用相同的“详细信息表”和“详细信息列”   。
 - “详细信息表”必须使用 DirectQuery 存储模式，而不是 Import 存储模式  。
 - 不支持通过非活动关系所用的外键列进行分组以及依赖 USERELATIONSHIP 函数进行聚合命中。
 
@@ -75,7 +75,7 @@ ms.locfileid: "91600329"
 
 ### <a name="aggregation-tables-are-hidden"></a>聚合表已隐藏
 
-对数据集具有只读访问权限的用户无法查询聚合表。 这可以避免与*行级别安全性 (RLS)* 配合使用时的安全问题。 使用者和查询引用详细信息表（而不是聚合表），并且无需知晓聚合表的存在。
+对数据集具有只读访问权限的用户无法查询聚合表。 这可以避免与 *行级别安全性 (RLS)* 配合使用时的安全问题。 使用者和查询引用详细信息表（而不是聚合表），并且无需知晓聚合表的存在。
 
 因此，聚合表对“报表”视图隐藏  。 如果尚未隐藏该表，则在选择“全部应用”时，“管理聚合”对话框会将其设置为隐藏   。
 
@@ -106,7 +106,7 @@ ms.locfileid: "91600329"
 
 ## <a name="aggregation-based-on-relationships"></a>基于关系的聚合
 
-维度模型通常使用*基于关系的聚合*。 来自数据仓库和数据市场的 Power BI 数据集类似于星型/雪花型架构，其中包含维度表和事实数据表之间的关系。
+维度模型通常使用 *基于关系的聚合*。 来自数据仓库和数据市场的 Power BI 数据集类似于星型/雪花型架构，其中包含维度表和事实数据表之间的关系。
 
 在来自单一数据源的以下模型中，表使用 DirectQuery 存储模式。 “Sales”事实数据表包含数十亿行  。 将“Sales”的存储模式设置为“Import”，因为缓存将占用大量内存和管理开销  。
 
@@ -114,7 +114,7 @@ ms.locfileid: "91600329"
 
 相反，创建“Sales Agg”聚合表  。 在“Sales Agg”表中，行数等于按“CustomerKey”、“DateKey”和“ProductSubcategoryKey”分组的“SalesAmount”的总和      。 “Sales Agg”表的粒度比“Sales”表高，因此，它可能会包含数百万行，而不是数十亿行，这让管理变得容易得多   。
 
-如果以下维度表最常用于具有较高业务价值的查询，则可使用**一对多**或*多对一*关系来筛选“Sales Agg”表  。
+如果以下维度表最常用于具有较高业务价值的查询，则可使用 **一对多** 或 *多对一* 关系来筛选“Sales Agg”表  。
 
 - 地理
 - 客户
@@ -150,7 +150,7 @@ ms.locfileid: "91600329"
 
 常规关系包括以下存储模式组合，其中两个表均来自单个源：
 
-| *多*方上的表 | “一”  端上的表 |
+| *多* 方上的表 | “一”  端上的表 |
 | ------------- |----------------------| 
 | 双          | 双                 | 
 | 导入        | 导入或双       | 
@@ -158,7 +158,7 @@ ms.locfileid: "91600329"
 
 跨源关系被视为常规关系的唯一情况为两个表均设置为“Import”。 多对多关系始终被视为有限关系。
 
-有关不依赖于关系的*跨源*聚合命中，请参阅[基于 GroupBy 列的聚合](#aggregation-based-on-groupby-columns)。 
+有关不依赖于关系的 *跨源* 聚合命中，请参阅 [基于 GroupBy 列的聚合](#aggregation-based-on-groupby-columns)。 
 
 ### <a name="relationship-based-aggregation-query-examples"></a>基于关系的聚合查询示例
 
@@ -192,7 +192,7 @@ DAX 时间智能函数支持聚合。 下面的查询会命中聚合，因为 DA
 
 ## <a name="aggregation-based-on-groupby-columns"></a>基于 GroupBy 列的聚合 
 
-基于 Hadoop 的大数据模型的特征与维度模型不同。 为了避免大型表之间的联接，大数据模型通常不会使用关系，而是将维度属性非规范化为事实数据表。 可使用*基于 GroupBy 列的聚合*解锁此类大数据模型，以便进行交互式分析。
+基于 Hadoop 的大数据模型的特征与维度模型不同。 为了避免大型表之间的联接，大数据模型通常不会使用关系，而是将维度属性非规范化为事实数据表。 可使用 *基于 GroupBy 列的聚合* 解锁此类大数据模型，以便进行交互式分析。
 
 下表包含要聚合的“移动”数值列  。 所有其他列都是要分组的属性。 该表包含 IoT 数据和大量行。 存储模式为 DirectQuery。 由于容量巨大，对跨整个数据集聚合的数据源的查询运行缓慢。 
 

@@ -1,22 +1,22 @@
 ---
 title: Power BI 服务中设计器的基本概念
 description: Power BI 服务容量、工作区、仪表板、报表、工作簿、数据集和数据流。
-author: maggiesMSFT
+author: mihart
+ms.author: mihart
 manager: kfollis
 ms.reviewer: ''
 featuredvideoid: B2vd4MQrz4M
 ms.service: powerbi
-ms.subservice: powerbi-service
+ms.subservice: pbi-fundamentals
 ms.topic: conceptual
 ms.date: 11/14/2019
-ms.author: maggies
 LocalizationGroup: Get started
-ms.openlocfilehash: 2e4618988f743ba25795a2a3c3a0a55be1d80c6f
-ms.sourcegitcommit: 37bd34053557089c4fbf0e05f78e959609966561
+ms.openlocfilehash: 8da3446814d2c356acb24100eaa03df23be8f567
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/10/2020
-ms.locfileid: "94397153"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96416775"
 ---
 # <a name="basic-concepts-for-designers-in-the-power-bi-service"></a>Power BI 服务中设计器的基本概念
 
@@ -164,7 +164,7 @@ Power BI 报表是一页或多页可视化对象（如折线图、地图和树�
 
 
 ## <a name="workbooks"></a>工作簿
-工作簿是特殊类型的数据集。 如果你已阅读前面的 **数据集** 部分，则大致已了解有关工作簿的所有信息。 但你可能想要知道，为何 Power BI 有时将 Excel 工作簿分类为 **数据集** ，而有时又将它分类为 **工作簿** 。
+工作簿是特殊类型的数据集。 如果你已阅读前面的 **数据集** 部分，则大致已了解有关工作簿的所有信息。 但你可能想要知道，为何 Power BI 有时将 Excel 工作簿分类为 **数据集**，而有时又将它分类为 **工作簿**。
 
 对 Excel 文件使用“获取数据”时，可以选择“导入”或“连接”文件。  选择“连接”时，工作簿会显示在 Power BI 中，就像在 Excel Online 中那样。 但与 Excel Online 不同的是，有一些超棒的功能，可有助于将工作表中的元素固定到仪表板。
 
@@ -180,7 +180,7 @@ Power BI 报表是一页或多页可视化对象（如折线图、地图和树�
 
 ![浏览器中 Power BI 服务的屏幕截图，其中显示了按如下编号的各个功能。](media/service-basic-concepts/completenewest.png)
 
-### <a name="1-navigation-pane"></a>1. **导航窗格**
+### <a name="1-navigation-pane"></a>1.**导航窗格**
 使用导航窗格可在工作区与 Power BI 构建基块（仪表板、报表、工作簿和数据集）之间定位和切换。  
 
   ![Power BI 服务的屏幕截图，其中显示了“导航”窗格。](media/service-basic-concepts/power-bi-navigation.png)
@@ -199,7 +199,7 @@ Power BI 报表是一页或多页可视化对象（如折线图、地图和树�
 * 向右箭头 (>) 可以打开“收藏夹”、“最近”和“工作区”的浮出菜单。
 * V 形图标可以显示包含仪表板、报表、工作簿和数据集的“我的工作区”滚动列表。
 
-### <a name="2-canvas"></a>2. **画布**
+### <a name="2-canvas"></a>2.**画布**
 由于我们打开了一个仪表板，画布区域中显示了可视化对象磁贴。 例如，如果我们已打开报表编辑器，则画布区域会显示报表页。
 
 仪表板由[磁贴](../create-reports/service-dashboard-tiles.md)组成。  磁贴在报表编辑视图、问答和其他仪表板中创建，并且可从 Excel、SSRS 等应用中进行固定。 称为[小组件](../create-reports/service-dashboard-add-widget.md)的特殊类型的磁贴将直接添加到仪表板中。 显示在仪表板上的磁贴是由报表创建者/所有者专门放在仪表板上的。  向仪表板添加磁贴的操作称为固定。
@@ -217,12 +217,12 @@ Power BI 报表是一页或多页可视化对象（如折线图、地图和树�
 
 开始键入问题后，问题与解答将带你进入问题与解答页面。 键入时，问题与解答将帮助你询问相应的问题并通过改换、自动填充、建议以及更多功能来查找最佳答案。 当你拥有想要的可视化对象（答案）时，将其固定到仪表板中。 有关详细信息，请参阅 [Power BI 中的问题与解答](../consumer/end-user-q-and-a.md)。
 
-### <a name="4-icons-in-the-black-header-bar"></a>4. **黑色标题栏中的图标**
+### <a name="4-icons-in-the-black-header-bar"></a>4.**黑色标题栏中的图标**
 右上角的图标是用于指定设置、获取通知、下载内容、获取帮助、启用或禁用“新外观”以及向 Power BI 团队提供反馈的资源。  
 
 ![Power BI 服务的屏幕截图，其中显示了图标按钮。](media/service-basic-concepts/power-bi-icons.png)
 
-### <a name="5-dashboard-title-navigation-path-or-breadcrumbs"></a>5. **仪表板标题** （导航路径，或称为痕迹导航）
+### <a name="5-dashboard-title-navigation-path-or-breadcrumbs"></a>5.**仪表板标题**（导航路径，或称为痕迹导航）
 有时，我们难以判断哪个工作区和仪表板处于活动状态，为此，Power BI 将会创建导航路径。  在本示例中，可以看到工作区（“我的工作区”）和仪表板标题（“零售分析示例”）。  如果我们打开了某个报表，该报表的名称将追加到导航路径的末尾。  路径的每个部分是活动的超链接。  
 
 请注意仪表板标题后面的“C”图标。 此仪表板包含“机密”类型的[数据分类标记](../create-reports/service-data-classification.md)。 标记确定数据的敏感度和安全级别。 如果管理员已启用数据分类，则每个仪表板中都会设置一个默认标记。 仪表板所有者应根据其仪表板的适当安全性级别更改该标记。
@@ -239,7 +239,7 @@ Power BI 报表是一页或多页可视化对象（如折线图、地图和树�
 
    ![Power BI 服务的屏幕截图，其中显示了用于返回 Power BI 主页的图标。](media/service-basic-concepts/version-new.png)
 
-### <a name="8-labeled-icons-in-the-gray-menu-bar"></a>8. **灰色菜单栏中的已标记图标**
+### <a name="8-labeled-icons-in-the-gray-menu-bar"></a>8.**灰色菜单栏中的已标记图标**
 此屏幕区域包含用来与内容（在本例中为仪表板）交互的其他选项。  除了显示的带标签图标以外，选择“更多选项(…)”将显示用于复制、打印和刷新仪表板和其他内容的选项。
 
    ![Power BI 服务的屏幕截图，其中显示了带标签的图标按钮。](media/service-basic-concepts/power-bi-labeled-icons.png)

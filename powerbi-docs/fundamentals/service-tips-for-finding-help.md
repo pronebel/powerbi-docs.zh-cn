@@ -1,20 +1,20 @@
 ---
 title: 有关获取 Power BI 问题解答的 10 个提示
 description: 以下 10 种方法可以在你对 Power BI 的工作原理有疑问时提供帮助
-author: maggiesMSFT
+author: mihart
+ms.author: mihart
 ms.reviewer: ''
 ms.service: powerbi
-ms.subservice: powerbi-service
+ms.subservice: pbi-fundamentals
 ms.topic: conceptual
 ms.date: 06/28/2018
-ms.author: maggies
 LocalizationGroup: Get started
-ms.openlocfilehash: f5cb17187770c8c0b37c48a495c6844c462e83ec
-ms.sourcegitcommit: d153cfc0ce559480c53ec48153a7e131b7a31542
+ms.openlocfilehash: 0ef9371b54fed4188b80bbb761cf61f3805a8eab
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/29/2020
-ms.locfileid: "91525612"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96416568"
 ---
 # <a name="10-tips-for-getting-help-with-your-power-bi-questions"></a>有关获取 Power BI 问题解答的 10 个提示
 使用 Power BI 时，是否会因遇到的 Power BI 问题得不到及时解答（即“实时”帮助）感到灰心失望或很费劲？ 
@@ -49,7 +49,7 @@ Power BI 团队在其 [Power BI 博客文章](https://powerbi.microsoft.com/blog
 
 还可以在网上找到其他培训选项，例如：
 
-* **edX.org** 提供免费课程[使用 Power BI 分析和直观呈现数据](https://www.edx.org/course/data-analysis-in-power-bi)。
+* **edX.org** 提供免费课程 [使用 Power BI 分析和直观呈现数据](https://www.edx.org/course/data-analysis-in-power-bi)。
 * **Lynda.com** 提供 [Power BI Pro 基础培训](https://www.lynda.com/Power-BI-tutorials/Power-BI-Pro-Essential-Training/485820-2.html)等课程。
 * 查找“**从仪表板开始一天**”面对面培训会议。
 
