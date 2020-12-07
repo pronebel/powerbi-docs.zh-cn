@@ -37,12 +37,12 @@ ms.locfileid: "92501940"
 ## <a name="api-v230"></a>API v2.3.0
   * [登陆页 API](./landing-page.md)
   * [本地存储 API](./local-storage.md)
-  * **元组筛选器 API（多列筛选器） [](./filter-api.md#the-tuple-filter-api-multi-column-filter)**
-  * **呈现事件 API [](./event-service.md#render-events-in-power-bi-visuals)**
+  * 元组筛选器 API（多列筛选器） [](./filter-api.md#the-tuple-filter-api-multi-column-filter)
+  * 呈现事件 API [](./event-service.md#render-events-in-power-bi-visuals)
 
 ## <a name="api-v220"></a>API v2.2.0
   * 支持 **[从数据视图还原 JSON 筛选器](./filter-api.md#restore-the-json-filter-from-the-data-view)**
-  * **ContextMenu API [](./context-menu.md)**
+  * ContextMenu API [](./context-menu.md)
 
 ## <a name="api-v210"></a>API v2.1.0
   * 性能增强：
