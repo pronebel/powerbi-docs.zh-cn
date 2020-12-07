@@ -2,20 +2,20 @@
 title: 登录和注销
 description: 了解如何在 Web 上登录 Power BI 服务以及如何注销。
 author: mihart
+ms.author: mihart
 ms.reviewer: mihart
 Ms.custom: css_fy20Q4
 ms.service: powerbi
-ms.subservice: powerbi-consumer
+ms.subservice: pbi-explore
 ms.topic: conceptual
 ms.date: 10/06/2020
-ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: bea5b36c98ab8a62b444bfc731b5d54df6550f0f
-ms.sourcegitcommit: 6ba33e5a500928163e02e007f5ccd52dd2227610
+ms.openlocfilehash: 18fe7dc1c2d1b064d28e32782dc58fcbcf92341d
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/07/2020
-ms.locfileid: "91780437"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96389612"
 ---
 # <a name="sign-in-to-power-bi-service"></a>登录 Power BI 服务
 
@@ -68,7 +68,7 @@ Power BI 服务在浏览器中运行。
 如果不希望 Power BI 打开“主页”，可以改为[设置要打开的“特色”仪表板或报表](end-user-featured.md)。 
 
 ## <a name="safely-interact-with-content"></a>安全地与内容交互
-其他人将与作为商务用户的你共享内容，你将与此内容进行交互，以浏览数据并作出业务决策。  进行筛选、切片、订阅、导出和调整大小时，不要担心 — 你的工作不会影响基础数据集或原始共享内容（仪表板和报表）。 Power BI 是供你进行探索和试验的安全空间。 这并不意味着无法保存更改 — 可以保存。 但这些更改只会影响你的内容视图。 还原为原始默认视图如同单击按钮一样简单。
+其他人将与作为业务用户 ***_的你共享内容，你将与此内容进行交互，以浏览数据并作出业务决策。进行筛选、切片、订阅、导出和调整大小时，不要担心 — 你的工作不会影响基础数据集或原始共享内容（仪表板和报表）。Power BI 是供你进行探索和试验的安全空间。这并不意味着无法保存更改 — 可以保存。但这些更改只会影响你_*** 的内容视图。 还原为原始默认视图如同单击按钮一样简单。
 
 ![“重置为默认值”按钮](media/end-user-sign-in/power-bi-reset.png)
 

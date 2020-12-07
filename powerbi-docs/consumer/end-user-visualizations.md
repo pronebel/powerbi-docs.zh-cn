@@ -2,25 +2,25 @@
 title: 以企业用户身份使用可视化效果（视觉对象）
 description: Power BI 概念和术语 - 可视化效果、视觉对象。 什么是 Power BI 可视化效果、视觉对象。
 author: mihart
+ms.author: mihart
 ms.reviewer: mihart
 ms.service: powerbi
-ms.subservice: powerbi-consumer
+ms.subservice: pbi-explore
 ms.topic: how-to
 ms.date: 10/7/2020
-ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: f463e9a065ddfa550cdab6929393cfb71ce30158
-ms.sourcegitcommit: d2f633b4bfa271051ba1d2ef0e6e8da7dcf42818
+ms.openlocfilehash: dfa030b487e1e4d9f6f4d1bfd39cfab8baa72c71
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/08/2020
-ms.locfileid: "91830295"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96389175"
 ---
 # <a name="interact-with-visuals-in-reports-dashboards-and-apps"></a>与报表、仪表板和应用中的视觉对象交互
 
 [!INCLUDE[consumer-appliesto-ynny](../includes/consumer-appliesto-ynny.md)]
 
-从最基本的含义来说，可视化效果（或视觉对象  ）是 Power BI 设计人员  使用报表和数据集中的数据生成的一种图表。 
+从最基本的含义来说，可视化效果（或视觉对象）是 Power BI 设计人员使用报表和数据集中的数据生成的一种图表。 
 
 视觉对象可在仪表板上的报表中找到，并且可以使用 Power BI 问答实时创建。 当设计器在报表中创建视觉对象时，可以将该视觉对象固定到仪表板  。 [仪表板上的视觉对象被称为“磁贴”](end-user-tiles.md)。 此仪表板有八个磁贴。 
 
@@ -35,7 +35,7 @@ ms.locfileid: "91830295"
 
 下表列出了面向企业用户最常见的任务，并提供了分步说明的链接。 企业用户可以通过多种方式与视觉对象进行交互，以发现见解和制定数据驱动的业务决策。  
 
-对于其中的许多选项，管理员或设计器可以设置为禁止查看或使用这些功能  。 其中一些功能仅适用于特定视觉对象类型。  如有任何疑问，请与管理员或报表或仪表板的所有者联系。 若要查找所有者，请选择仪表板或报表下拉列表。 
+对于其中的许多选项，管理员或设计器可以设置为禁止查看或使用这些功能。 其中一些功能仅适用于特定视觉对象类型。  如有任何疑问，请与管理员或报表或仪表板的所有者联系。 若要查找所有者，请选择仪表板或报表下拉列表。 
 
 ![显示所有者的标题下拉列表](media/end-user-visualizations/power-bi-designer.png)
 
@@ -50,12 +50,12 @@ ms.locfileid: "91830295"
 |[在视觉对象中为你自己添加注释，或开始与同事进行有关视觉对象的对话](end-user-comment.md)。     |  是       |   是      |  否  |
 |[打开并浏览其中创建了视觉对象的报表](end-user-tiles.md)。     |    是     |   na      |  否 |
 |[查看影响视觉对象的筛选器和切片器的列表](end-user-report-filter.md)。     |    是否以焦点模式打开     |   是      |  否 |
-| 。     |   是      |   na      |  na  |
+|[在问答中打开并浏览视觉对象（如果设计器已使用问答创建视觉对象）](end-user-q-and-a.md)。     |   是      |   na      |  na  |
 |[在问答中创建视觉对象（用于浏览，将无法保存该视觉对象）](end-user-q-and-a.md)。     |   是      |   如果设计器向报表添加了问答      |  是  |
-|[让 Power BI 为你在视觉对象数据中查找相关事实或趋势](end-user-insights.md)。  这些自动生成的视觉对象被称为见解  。     |    是，适用于磁贴    |  否       | 否   |
-| 模式一次仅查看一个视觉对象](end-user-focus.md)。     | 是，适用于磁贴        |   是，适用于视觉对象      | na  |
+|[让 Power BI 为你在视觉对象数据中查找相关事实或趋势](end-user-insights.md)。  这些自动生成的视觉对象被称为见解。     |    是，适用于磁贴    |  否       | 否   |
+|[使用焦点模式一次仅查看一个视觉对象](end-user-focus.md)。     | 是，适用于磁贴        |   是，适用于视觉对象      | na  |
 |[查找视觉对象的上次刷新时间](end-user-fresh.md)。     |  是       |    是     | na  |
-| 模式一次仅查看一个视觉对象（不含边框或导航窗格）](end-user-focus.md)。     |   是      |  是       | 默认  |
+|[使用全屏模式一次仅查看一个视觉对象（不含边框或导航窗格）](end-user-focus.md)。     |   是      |  是       | 默认  |
 |[打印](end-user-print.md)。     |  是       |   是      | 否  |
 |[通过添加和修改视觉对象筛选器来深入研究视觉对象](end-user-report-filter.md)。     |    否     |   是      | 否  |
 |将鼠标悬停在视觉对象之上，以显示更多详细信息和工具提示。     |    是     |   是      | 是  |

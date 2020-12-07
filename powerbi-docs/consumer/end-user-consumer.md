@@ -2,19 +2,19 @@
 title: 什么是 Power BI“业务用户”？
 description: 面向业务用户（也称为最终用户或业务用户）的 Power BI 概述。
 author: mihart
+ms.author: mihart
 ms.reviewer: mihart
 ms.service: powerbi
-ms.subservice: powerbi-consumer
+ms.subservice: pbi-explore
 ms.topic: overview
 ms.date: 10/11/2020
-ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: 7616d84ca93c336e606b3a96e7a362a1b57e6a96
-ms.sourcegitcommit: 02484b2d7a352e96213353702d60c21e8c07c6c0
+ms.openlocfilehash: 133ffefd32008a138c736094dadcfe154211e98c
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "91982047"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96391219"
 ---
 # <a name="the-power-bi-service-for-business-users"></a>面向业务用户的 Power BI 服务
 
@@ -28,7 +28,7 @@ ms.locfileid: "91982047"
 
 ## <a name="the-power-bi-service-for-business-users"></a>面向业务用户的 Power BI 服务
 
-使用 Power BI，工作更轻松，也更有效。 所有这些数据都会转化为图表和图形，以便更直观地显示你的数据。 数据见解并不是较长的列表或多个表，而是多彩且醒目的视觉对象，可通过这些视觉对象了解数据中的见解。 
+使用 Power BI，工作更轻松，也更有效。 所有这些数据都会转化为图表和图形，以便更直观地显示你的数据。 数据见解并不是数字和文字的长列表或多个表，而是美丽、多彩且醒目的视觉对象，可通过这些视觉对象了解数据中的见解。 
 
 ![屏幕截图展示了包含不同种类的图表的 Power BI 报表。](media/end-user-consumer/power-bi-consumer-examples.png)
  
@@ -38,7 +38,7 @@ ms.locfileid: "91982047"
 
 由于这不是静态内容，因此你可以进行深入挖掘、寻求趋势、见解和其他商业智能。 切分内容并对内容进行切片，甚至使用自己的话语向其提问。 或者，不采取任何操作，让数据发现你感兴趣的见解、在数据更改时向你发送警报并按所设置的计划向你发送电子邮件。 任何时间、任何设备、云中或本地的所有数据。 而 Power BI 可以执行的操作远不止这些。 
 
-## <a name="am-i-a-power-bi-business-user"></a>我是 Power BI 业务用户吗？
+## <a name="am-i-a-power-bi-_business-user"></a>我是 Power BI 业务用户吗？
 
 使用 Power BI 交互的方式取决于你的工作角色。 使用者或业务用户可从同事那里接收内容（仪表板、报表和应用）。 可使用网页版或移动版 Power BI 服务（称为 Power BI 服务）查看此内容并与之交互，以做出业务决策。 
    

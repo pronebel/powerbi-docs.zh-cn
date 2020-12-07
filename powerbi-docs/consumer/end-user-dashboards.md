@@ -2,19 +2,19 @@
 title: 什么是仪表板及如何打开仪表板？
 description: 仪表板是 Power BI 服务的一个主要功能。
 author: mihart
+ms.author: mihart
 ms.reviewer: mihart
 ms.service: powerbi
-ms.subservice: powerbi-consumer
+ms.subservice: pbi-explore
 ms.topic: conceptual
 ms.date: 08/30/2020
-ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 2e2c4656c5436691df96b86f145e255153ff9f96
-ms.sourcegitcommit: 89ce1777a85b9fc476f077cbe22978c6cf923603
+ms.openlocfilehash: 518310c6b4b0d45f02049c91a493b6394a4a50d2
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/02/2020
-ms.locfileid: "89286674"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96400537"
 ---
 # <a name="dashboards-for-business-users-of-the-power-bi-service"></a>Power BI 服务的业务用户仪表板
 
@@ -22,11 +22,11 @@ ms.locfileid: "89286674"
 
 [!INCLUDE [power-bi-service-new-look-include](../includes/power-bi-service-new-look-include.md)]
 
-Power BI ***仪表板***是单个页面，通常称为画布，使用可视化效果来讲述故事。 因为它被限制为一页，精心设计的仪表板仅包含该故事的最重要元素。
+Power BI 仪表板是单个页面（通常称为画布），使用可视化效果来讲述故事。 因为它被限制为一页，精心设计的仪表板仅包含该故事的最重要元素。
 
 ![仪表板的屏幕截图](media/end-user-dashboards/power-bi-dashboard.png)
 
-仪表板上显示的可视化效果称为“磁贴”，并且由报表设计师固定到仪表板上    。 在大多数情况下，选择磁贴后，即可转到创建可视化效果的报表页。 如果不熟悉 Power BI，可以通过阅读 [Power BI 基本概念](end-user-basic-concepts.md)详细了解基础知识。
+仪表板上显示的可视化效果称为“磁贴”，并且由报表设计师固定到仪表板上 。 在大多数情况下，选择磁贴后，即可转到创建可视化效果的报表页。 如果不熟悉 Power BI，可以通过阅读 [Power BI 基本概念](end-user-basic-concepts.md)详细了解基础知识。
 
 > [!NOTE]
 > [可以在移动设备上查看和共享](mobile/mobile-apps-view-dashboard.md)仪表板。
@@ -42,7 +42,7 @@ Power BI ***仪表板***是单个页面，通常称为画布，使用可视化�
 
 仪表板不仅仅是一张漂亮的图片；它是交互式的，并且磁贴随着基础数据的更改而更新。
 
-## <a name="dashboards-versus-reports-for-power-bi-business-users"></a>面向 Power BI 业务用户的仪表板与报表对比
+## <a name="dashboards-versus-reports-for-power-bi-business-users_"></a>面向 Power BI 业务用户的仪表板与报表对比
 报表经常与仪表板混淆，因为它们也是填充可视化效果的画布。 但从 Power BI 业务用户角度来看，存在一些主要区别。
 
 | **功能** | **仪表板** | **报表** |

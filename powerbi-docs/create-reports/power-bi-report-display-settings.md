@@ -2,25 +2,25 @@
 title: Power BI 报表中的页面显示设置
 description: 页面显示报表的设置和页面视图设置
 author: maggiesMSFT
+ms.author: maggies
 ms.reviewer: ''
 featuredvideoid: ''
 ms.service: powerbi
-ms.subservice: powerbi-service
+ms.subservice: pbi-reports-dashboards
 ms.topic: how-to
 ms.date: 05/29/2019
-ms.author: maggies
 LocalizationGroup: Reports
-ms.openlocfilehash: c08d4959b8e3958651282ac0fd52e6ed80a6b345
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 9452a4a6340480bcb6c8b646c16125fe73f68235
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85237255"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96393476"
 ---
 # <a name="apply-page-display-settings-in-a-power-bi-report"></a>应用 Power BI 报表中的页面显示设置
 我们了解保持报表布局像素完美的重要性。 有时候这会有点困难，因为你和你的同事可能会使用纵横比和大小不同的屏幕查看这些报表。 
 
-默认显示视图为**调整到页面大小**，而默认显示大小为 **16:9**。 如果你想要锁定不同的纵横比，或者想要用不同的方式调整报表，有两种工具可帮助你：“页面视图”设置和“页面大小”设置。
+默认显示视图为 **调整到页面大小**，而默认显示大小为 **16:9**。 如果你想要锁定不同的纵横比，或者想要用不同的方式调整报表，有两种工具可帮助你：页面视图设置和页面大小设置。
 
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/5tg-OXzxe2g" frameborder="0" allowfullscreen></iframe>
@@ -30,7 +30,7 @@ ms.locfileid: "85237255"
 Power BI 服务和 Power BI Desktop 中都提供了页面视图设置，但界面稍有不同。 以下部分解释了可以在每个 Power BI 工具中的哪个位置找到视图设置。
 
 ### <a name="in-power-bi-desktop"></a>在 Power BI Desktop 中
-在报表视图中，选择“视图”选项卡打开页面视图设置，以及手机布局设置。 
+在报表视图中，选择“视图”选项卡打开页面视图设置，以及手机布局设置。
 
   ![桌面页面视图设置](media/power-bi-report-display-settings/power-bi-desktop-view-settings.png)
 

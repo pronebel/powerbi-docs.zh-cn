@@ -2,20 +2,20 @@
 title: 使用 Power BI 服务中的聚合函数（求和、平均值等）
 description: 了解如何在 Power BI 服务中更改图表中的聚合函数（求和、平均值、最大值等）。
 author: maggiesMSFT
+ms.author: maggies
 ms.reviewer: ''
 ms.service: powerbi
-ms.subservice: powerbi-service
+ms.subservice: pbi-reports-dashboards
 ms.topic: how-to
 ms.date: 06/16/2020
-ms.author: maggies
 ms.custom: seodec18
 LocalizationGroup: Reports
-ms.openlocfilehash: 4addd87085eb4321253bcf34842ca135f536f981
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 4ed1d6c68549e621f42b23d05a061e7fe1c9e230
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85238114"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96395408"
 ---
 # <a name="work-with-aggregates-sum-average-and-so-on-in-the-power-bi-service"></a>使用 Power BI 服务中的聚合函数（求和、平均值等）
 
@@ -140,7 +140,7 @@ ms.locfileid: "85238114"
   
    ![不同产品计数的屏幕截图。](media/service-aggregates/power-bi-aggregate-count.png)
 
-1. 如果将聚合函数更改为**计数**，Power BI 会计算总数。 在本例中，该“产品”有 7 项。
+1. 如果将聚合函数更改为 **计数**，Power BI 会计算总数。 在本例中，该“产品”有 7 项。
 
    ![产品计数的屏幕截图。](media/service-aggregates/power-bi-aggregate-count-2.png)
 

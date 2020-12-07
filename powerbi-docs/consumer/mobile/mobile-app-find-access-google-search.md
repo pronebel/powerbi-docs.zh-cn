@@ -2,17 +2,17 @@
 title: 使用 Google Search 查找并访问你的内容
 description: 了解如何使用 Google Search 查找并访问你的内容。
 author: paulinbar
+ms.author: painbar
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: how-to
 ms.date: 04/06/2020
-ms.author: painbar
-ms.openlocfilehash: cb6d2d1474ffaeddc98b5019830920f3064e3df2
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 2bd49b9578c8c0ba2d24bd74d77251bc663cf7fa
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85235145"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96414613"
 ---
 # <a name="find-and-access-your-content-with-google-search"></a>使用 Google Search 查找并访问你的内容
 
@@ -28,7 +28,7 @@ ms.locfileid: "85235145"
 
 ## <a name="search-using-google-search"></a>使用 Google Search 搜索
 
-在 Google 搜索框中，使用表单“搜索 power bi 中的&lt;搜索项&gt;”。 例如，“搜索 power bi 中的销售额”  。
+在 Google 搜索框中，使用表单“搜索 power bi 中的&lt;搜索项&gt;”。 例如，“搜索 power bi 中的销售额”。
 
 * 如果仅找到一个匹配项，Power BI 移动应用会打开此匹配项。
 * 如果找到多个匹配项，Power BI 将打开搜索屏幕，根据你的请求进行筛选。

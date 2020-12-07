@@ -2,22 +2,22 @@
 title: 在 Power BI 中创建报表的相关提示和技巧
 description: 了解在 Power BI 服务和 Power BI Desktop 中生成报表的最佳做法
 author: davidiseminger
+ms.author: davidi
 ms.reviewer: willthom
 ms.custom: seodec18
 ms.service: powerbi
-ms.subservice: powerbi-service
+ms.subservice: pbi-reports-dashboards
 ms.topic: how-to
 ms.date: 05/07/2020
-ms.author: davidi
-ms.openlocfilehash: 336dbad3ac77fb333b52cd3f4c4c0b104573314a
-ms.sourcegitcommit: be424c5b9659c96fc40bfbfbf04332b739063f9c
+ms.openlocfilehash: 2684d5e29015e5fccd6eb75f0a4acf5f45542991
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "91633529"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96412681"
 ---
 # <a name="tips-and-tricks-for-creating-reports-in-power-bi-desktop"></a>在 Power BI Desktop 创建报表的相关提示和技巧
-若要充分利用你的数据，有时你还需要一点帮助。 我们整理了一些提示和技巧，以便你在 Microsoft Power BI Desktop *及*启用了 Power Pivot 加载项且安装和启用了 Power Query 的 Microsoft Excel 2016 或 Excel 2013 Pro-Plus 版本中创建报表时可加以使用。 
+若要充分利用你的数据，有时你还需要一点帮助。 我们整理了一些提示和技巧，以便你在 Microsoft Power BI Desktop *及* 启用了 Power Pivot 加载项且安装和启用了 Power Query 的 Microsoft Excel 2016 或 Excel 2013 Pro-Plus 版本中创建报表时可加以使用。 
 
 ## <a name="learning-to-use-the-query-editor"></a>了解如何使用查询编辑器
 Power BI Desktop 中的查询编辑器与 Excel 2013 中的 Power Query 加载项功能很相似。 虽然 Power BI 支持中提供了多篇有用的文章，但你可能还想在 support.office.com 上查看可帮助入门的 Power Query 文档。
@@ -98,7 +98,7 @@ if([FieldName] \< 30) then "\<30 min" else
 >[!NOTE]
 >最好在生成视觉对象之前考虑排序顺序。 
 
-本过程中的下一步是在存储桶列上定义“存储桶”和“详细信息”查询之间的关系。 在 Power BI Desktop 中，单击功能区上的**管理关系**。 创建一种关系，其中“存储桶”位于左表，而“详细信息”位于右表，然后选择将用于直方图的字段。 
+本过程中的下一步是在存储桶列上定义“存储桶”和“详细信息”查询之间的关系。 在 Power BI Desktop 中，单击功能区上的 **管理关系**。 创建一种关系，其中“存储桶”位于左表，而“详细信息”位于右表，然后选择将用于直方图的字段。 
 
 最后一步是创建直方图。 拖动“存储桶”表中的“存储桶”字段。 从所生成的柱形图中删除默认字段。 现在将直方图字段从“详细信息”表拖到相同的视觉对象中。 在字段框，将默认聚合更改为“计数”。 然后将生成直方图。 如果还通过“详细信息”表创建了类似树状图的视觉对象，请在树状图中选择一个数据点以查看直方图高亮区，并显示与整个数据集趋势相关的所选数据点的直方图。
 
@@ -143,10 +143,10 @@ if([FieldName] \< 30) then "\<30 min" else
 若要在此情况下创建关系，需要跨这两个数据集就 CustomerNames 创建一个逻辑数据集。 在查询选项卡中，可使用以下序列来创建逻辑数据集：
 
 1. 复制这两个查询，将第一个命名为 **Temp**，第二个命名为 **CustomerNames**。
-2. 在每个查询中，删除所有列（CustomerName 列*除外*）
-3. 在每个查询中，使用**删除重复项**。
-4. 在 **CustomerNames** 查询中，选择功能区中的**追加**选项，然后选择 **Temp** 查询。
-5. 在 **CustomerNames** 查询中，选择**删除重复项**。
+2. 在每个查询中，删除所有列（CustomerName 列 *除外*）
+3. 在每个查询中，使用 **删除重复项**。
+4. 在 **CustomerNames** 查询中，选择功能区中的 **追加** 选项，然后选择 **Temp** 查询。
+5. 在 **CustomerNames** 查询中，选择 **删除重复项**。
 
 现在你拥有一个维度表，可用于关联到 CustomerIncidents 和包含各查询中所有值的 WorkItems。 
 
@@ -157,7 +157,7 @@ if([FieldName] \< 30) then "\<30 min" else
 通常，你需要在 Power BI Desktop 中构建一个计算，将多列中的数据转换到单个新列中。 这可能很复杂。 克服此问题的一种简单的方法是将操作分解为多个步骤。 首先复制初始列。 再生成临时列。 然后，创建最终结果列。 随后可删除临时列，使最终的数据集不杂乱。 这可能是由于查询选项卡按顺序执行步骤造成的。 
 
 ### <a name="duplicate-or-reference-queries-followed-by-merge-to-original-query"></a>复制或引用查询，然后合并到原始查询
-有时这有助于计算数据集的汇总统计信息。 此操作的简单方法是复制或引用查询选项卡中的查询。然后使用**分组依据**来计算汇总统计信息。 汇总统计信息可帮助你规范化原始数据中的数据，使其更加适合用于比较。 在将单独的值与整体相比较时，此项尤其有用。 此次，请转到原始查询并选择“合并”选项。 然后合并汇总统计信息查询中按合适标识符进行匹配的数据。 现在就可规范化分析所需的数据了。
+有时这有助于计算数据集的汇总统计信息。 此操作的简单方法是复制或引用查询选项卡中的查询。然后使用 **分组依据** 来计算汇总统计信息。 汇总统计信息可帮助你规范化原始数据中的数据，使其更加适合用于比较。 在将单独的值与整体相比较时，此项尤其有用。 此次，请转到原始查询并选择“合并”选项。 然后合并汇总统计信息查询中按合适标识符进行匹配的数据。 现在就可规范化分析所需的数据了。
 
 ## <a name="using-dax-for-the-first-time"></a>首次使用 DAX
 DAX 是 Power BI Desktop 中的计算公式语言。 它针对 BI 分析进行了优化。 与你仅使用 SQL（如查询语言）时可能熟知的功能相比，它可能略有不同。 可参阅详尽的在线资料和宣传资料来了解 DAX。 
@@ -206,7 +206,7 @@ DAX 是 Power BI Desktop 中的计算公式语言。 它针对 BI 分析进行�
 * 尽量避免混合精度级别和时间级别。 确保时间范围易于理解。  不要将上个月的图表置于该年度特定月份的已筛选图表旁。    
 * 此外，尽量避免在同一比例上（如在折线图或条形图上）混合大度量值和小度量值。  例如，一个度量值可能以百万计，其他度量值则以千计。  使用这种大比例，很难看出以千计的度量值的差异。  如果需要混合，则选择一个允许使用第二个轴的可视化效果，如组合图。    
 * 避免使用不需要的数据标签打乱图表。 条形图中的值（如果足够大）通常易于了解，而不显示实际数。   
-* 请注意如何[对图表进行排序](../consumer/end-user-change-sort.md)。 如果你想要将注意点放在最高或最低的数字，则通过度量值进行排序。 如果希望用户能够在许多其他类别中快速找到特定类别，则按轴进行排序。  
+_ 请注意如何[对图表进行排序](../consumer/end-user-change-sort.md)。 如果你想要将注意点放在最高或最低的数字，则通过度量值进行排序。 如果希望用户能够在许多其他类别中快速找到特定类别，则按轴进行排序。  
 * 如果类别少于八个，则饼图最佳。 由于不能并排比较值，所以在饼图中的比较值要比在条形图和柱形图中比较值更难。 饼图有助于查看部分对整体的关系，而不利于将部分进行比较。 仪表盘则非常适合用于在目标上下文中显示当前状态。    
 
 有关更多可视化效果特定指南，请参阅 [Power BI 中的可视化效果类型](../visuals/power-bi-visualization-types-for-reports-and-q-and-a.md)。  

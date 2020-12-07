@@ -2,21 +2,21 @@
 title: Power BI 业务用户的许可证类型
 description: 了解不同类型的许可证以及如何确定你拥有的许可证类型。
 author: mihart
+ms.author: mihart
 ms.reviewer: lukasz
 ms.service: powerbi
-ms.subservice: powerbi-consumer
+ms.subservice: pbi-explore
 Ms.custom: css_fy20Q4
 ms.topic: how-to
-ms.date: 10/07/2020
-ms.author: mihart
+ms.date: 11/16/2020
 ms.custom: licensing support
 LocalizationGroup: consumers
-ms.openlocfilehash: c2a81e771e611380ef89ef15e097005d1a86e2da
-ms.sourcegitcommit: 4ac9447d1607dfca2e60948589f36a3d64d31cb4
+ms.openlocfilehash: 852ac027903dc974e84691dc714a7e7e220dd36d
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/29/2020
-ms.locfileid: "92916972"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96390440"
 ---
 # <a name="licenses-and-subscriptions-for-business-users"></a>业务用户的许可证和订阅
 
@@ -101,9 +101,9 @@ Premium 允许 Pro 用户广泛分发内容，且不要求查看内容的收件�
 
 组织购买高级订阅时，管理员通常会将 Pro 许可证分配给将使用高级容量创建和共享内容的员工。 Pro 用户可创建[工作区](end-user-workspaces.md)，并将内容（仪表板、报表、应用）添加到这些工作区。 为了使免费版用户能够在这些工作区中进行协作，管理员或 Pro 用户将这些工作区分配到容量中。  
 
-|许可证类型  |共享容量 |专用高级容量  |
+|许可证类型  |共享容量 | 高级容量  |
 |---------|---------|---------|
-|**免费**     |  用作个人沙盒，你可以在其中为自己创建内容并与该内容进行交互。 免费许可证是试用 Power BI 服务的好方法。 你不能使用来自其他人的内容，也不能与他人共享你的内容 <sup>1</sup>     |   与分配至专用高级容量的内容进行交互，并与你共享。 免费和 Pro 用户可以进行协作，而无需免费用户拥有 Pro 帐户。      |
+|**免费**     |  用作个人沙盒，你可以在其中为自己创建内容并与该内容进行交互。 免费许可证是试用 Power BI 服务的好方法。 你不能使用来自其他人的内容，也不能与他人共享你的内容 <sup>1</sup>     |   与分配至高级容量的内容进行交互，并与你共享。 免费和 Pro 用户可以进行协作，而无需免费用户拥有 Pro 帐户。      |
 |**Pro**     |  通过创建和共享内容与其他 Pro 版用户协作。        |  通过创建和共享内容与免费版和 Pro 版用户协作。       |
 
 

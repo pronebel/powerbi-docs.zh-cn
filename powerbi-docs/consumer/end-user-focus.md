@@ -2,20 +2,20 @@
 title: 焦点模式和全屏模式 - 如何放大以查看更多详细信息
 description: 有关在焦点模式或全屏模式下显示 Power BI 仪表板、仪表板磁贴、报表或报表视觉对象的文档
 author: mihart
+ms.author: mihart
 ms.reviewer: mihart
 featuredvideoid: dtdLul6otYE
 ms.service: powerbi
-ms.subservice: powerbi-consumer
+ms.subservice: pbi-explore
 ms.topic: how-to
 ms.date: 09/09/2020
-ms.author: mihart
 LocalizationGroup: Common tasks
-ms.openlocfilehash: 7ab2500a393751c3013c1f3427173b57b3b5cf07
-ms.sourcegitcommit: 002c140d0eae3137a137e9a855486af6c55ad957
+ms.openlocfilehash: 6385d263c47bde156a7dae941fefb101b9b30d18
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/10/2020
-ms.locfileid: "89642707"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96400445"
 ---
 # <a name="display-content-in-more-detail-focus-mode-and-full-screen-mode"></a>更详细地显示内容：焦点模式和全屏模式
 
@@ -56,7 +56,7 @@ ms.locfileid: "89642707"
 
 ## <a name="when-to-use-focus-mode"></a>何时使用焦点模式？
 
-使用“焦点”****** 模式可以展开（弹出）视觉对象或磁贴以查看更多详细信息。  你可能有一个有点拥挤的仪表板或报表，你只想在一个视觉对象上放大。  这时候最适合使用焦点模式。  
+使用“焦点”*_模式可以展开（弹出）视觉对象或磁贴以查看更多详细信息。  你可能有一个有点拥挤的仪表板或报表，你只想在一个视觉对象上放大。  这时候最适合使用焦点模式。  
 
 ![仪表板磁贴焦点模式前后对照](media/end-user-focus/power-bi-compare-dash.png)
 
@@ -82,19 +82,19 @@ ms.locfileid: "89642707"
   * 选择“后退”、“返回”或“返回到报表”按钮，导航到浏览器中的前一页  。 如果前一页是 Power BI 页面，它也将以全屏模式显示。  全屏模式将一直保持，直到你退出。
 
   * ![适应屏幕图标](media/end-user-focus/power-bi-fit-to-screen-icon.png)    
-    使用“适应屏幕”**** 按钮来尽可能以最大大小显示仪表板，而无需使用滚动条。  
+    使用“适应屏幕”按钮来尽可能以最大大小显示仪表板，而无需使用滚动条。  
 
     ![此屏幕截图显示出主机适应屏幕的情况](media/end-user-focus/power-bi-fit-screen.png)
 
   * ![适应宽度图标](media/end-user-focus/power-bi-fit-width.png)       
-    有时你并不关心滚动条，但希望仪表板能横向填充整个可用空间。 选择“适应宽度”**** 按钮。    
+    有时你并不关心滚动条，但希望仪表板能横向填充整个可用空间。 选择“适应宽度”按钮。    
 
     ![此屏幕截图显示“适应宽度”如何更改画布的外观。 ](media/end-user-focus/power-bi-fit-to-width-new.png)
 
   * ![报表导航图标](media/end-user-focus/power-bi-report-nav2.png)       
     在全屏显示的报表中，使用这些箭头在报表页之间移动。    
   * ![“退出全屏”图标](media/end-user-focus/exit-fullscreen-new.png)     
-  若要退出全屏模式，请选择“退出全屏”**** 图标。
+  若要退出全屏模式，请选择“退出全屏”图标。
 
       
 
@@ -102,17 +102,17 @@ ms.locfileid: "89642707"
 
 焦点模式可用于仪表板磁贴和报表视觉对象。 
 
-- 若要以焦点模式打开仪表板磁贴，请将鼠标悬停在仪表板磁贴或报表视觉对象上，依次选择“更多选项(…)”和“以焦点模式打开”********。
+- 若要以焦点模式打开仪表板磁贴，请将鼠标悬停在仪表板磁贴或报表视觉对象上，依次选择“更多选项(…)”和“以焦点模式打开”。
 
     ![磁贴的省略号菜单](media/end-user-focus/power-bi-focus-dashboard.png).. 
 
-- 若要以焦点模式打开报表视觉对象，请将鼠标悬停在视觉对象上并选择“焦点模式”图标 ![焦点模式图标](media/end-user-focus/pbi_popout.jpg)****。  
+- 若要以焦点模式打开报表视觉对象，请将鼠标悬停在视觉对象上并选择“焦点模式”图标 ![焦点模式图标](media/end-user-focus/pbi_popout.jpg)。  
 
    ![焦点图标显示在磁贴上](media/end-user-focus/power-bi-hover-focus.png)
 
 
 
-视觉对象打开并填充整个画布。 请注意，仍有一个可用于与视觉对象交互的“筛选器”窗格****。 “筛选器”窗格可以折叠****。
+视觉对象打开并填充整个画布。 请注意，仍有一个可用于与视觉对象交互的“筛选器”窗格。 “筛选器”窗格可以折叠。
 
    ![磁贴填充报表画布](media/end-user-focus/power-bi-filter.png)
 
@@ -121,7 +121,7 @@ ms.locfileid: "89642707"
 
 通过[修改筛选器](end-user-report-filter.md)并在数据中查找感兴趣的发现浏览更多内容。 作为业务用户，无法添加新筛选器、更改视觉对象中使用的字段或创建新的视觉对象。  但是，你可以与现有筛选器进行交互。 
 
-对于仪表板磁贴，无法保存所做的更改。 对于报表视觉对象，退出 Power BI 时会保存对现有筛选器所做的任何修改。 如果不希望 Power BI 记住你的修改，可选择“重置为默认值”****。 ![“重置为默认值”按钮](media/end-user-focus/power-bi-resets.png)  
+对于仪表板磁贴，无法保存所做的更改。 对于报表视觉对象，退出 Power BI 时会保存对现有筛选器所做的任何修改。 如果不希望 Power BI 记住你的修改，可选择“重置为默认值”。 ![“重置为默认值”按钮](media/end-user-focus/power-bi-resets.png)  
 
 通过选择“退出焦点模式”或“返回到报表”（位于视觉对象左上角），退出焦点模式并返回仪表板或报表 。
 

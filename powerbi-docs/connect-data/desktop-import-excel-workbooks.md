@@ -2,19 +2,19 @@
 title: 将 Excel 工作簿导入 Power BI Desktop
 description: 可以将包含 Power Query 查询、Power Pivot 模型和 Power View 工作表的 Excel 工作簿导入到 Power BI Desktop。
 author: davidiseminger
+ms.author: davidi
 ms.reviewer: ''
 ms.service: powerbi
-ms.subservice: powerbi-desktop
+ms.subservice: pbi-data-sources
 ms.topic: how-to
 ms.date: 01/22/2020
-ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 6fce5e88fa41c2eb7ed03b805494165344701da7
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 874e95c6ac917ca723e67ae0741d5244a09f288d
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85223523"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96411002"
 ---
 # <a name="import-excel-workbooks-into-power-bi-desktop"></a>将 Excel 工作簿导入 Power BI Desktop
 通过 Power BI Desktop，你可以轻松地将包含 Power Query 查询、Power Pivot 模型和 Power View 工作表的 Excel 工作簿导入到 Power BI Desktop。 Power BI Desktop 可基于 Excel 工作簿自动创建报表和可视化效果。 导入后，可以使用 Power BI Desktop 的现有功能及其每月更新的新功能继续改进和优化这些报表。
@@ -54,7 +54,7 @@ ms.locfileid: "85223523"
 导入工作簿后，可以继续处理报表。 你可以通过使用 Power BI Desktop 中包含的任何特性和功能来创建新的可视化效果、添加数据或创建新的报表页。
 
 ## <a name="which-workbook-elements-are-imported"></a>导入了工作簿中的哪些元素？
-Power BI Desktop 可导入以下元素，在 Excel 中通常称为*对象*。
+Power BI Desktop 可导入以下元素，在 Excel 中通常称为 *对象*。
 
 | Excel 工作簿中的对象 | Power BI Desktop 文件中的最终结果 |
 | --- | --- |
@@ -70,7 +70,7 @@ Power BI Desktop 可导入以下元素，在 Excel 中通常称为*对象*。
 * **与 SQL Server Analysis Services 表格模型的外部连接：** 在 Excel 2013 中，无需导入数据就可创建与 SQL Server Analysis Services 表格模型的连接，并在这些模型之上创建 Power View 报表。 目前不支持使用这种连接类型将 Excel 工作簿导入到 Power BI Desktop。 解决方法是，必须在 Power BI Desktop 中重新建立这些外部连接。
 * **层次结构：** Power BI Desktop 目前不支持这种数据模型对象类型。 因此，将 Excel 工作簿导入到 Power BI Desktop 时会略过层次结构。
 * **二进制数据列：** Power BI Desktop 目前不支持这种数据模型列类型。 已从 Power BI Desktop 中的结果表中删除二进制数据列。
-* **不支持的 Power View 元素：** Power BI Desktop 目前尚未提供 Power View 中的一些功能，例如布景主题或特定可视化效果类型（具有播放轴的散点图、向下钻取行为等）。 这些不支持的可视化效果会导致在 Power BI Desktop 报表中的对应位置出现*可视化效果不受支持*的消息，你可以根据需要删除或重新配置。
-* **使用 Power Query 中的“从表”或使用 M 中的“Excel.CurrentWorkbook”的命名范围：** 目前不支持将此名称范围数据导入到 Power BI Desktop，但已计划此更新。 目前，这些名称范围会当做外部 Excel 工作簿的连接，加载到 Power BI Desktop。
+* **不支持的 Power View 元素：** Power BI Desktop 目前尚未提供 Power View 中的一些功能，例如布景主题或特定可视化效果类型（具有播放轴的散点图、向下钻取行为等）。 这些不支持的可视化效果会导致在 Power BI Desktop 报表中的对应位置出现 *可视化效果不受支持* 的消息，你可以根据需要删除或重新配置。
+* 使用 Power Query 中的“从表”或使用 M 中的“Excel.CurrentWorkbook”的命名范围： ***_ _*** ***_ _*** 目前不支持将此名称范围数据导入到 Power BI Desktop，但已计划此更新。 目前，这些名称范围会当做外部 Excel 工作簿的连接，加载到 Power BI Desktop。
 * **PowerPivot 至 SSRS：** 由于 Power BI Desktop 目前不提供该数据源，因此目前不支持到 SQL Server Reporting Services (SSRS) 的 PowerPivot 外部连接。
 

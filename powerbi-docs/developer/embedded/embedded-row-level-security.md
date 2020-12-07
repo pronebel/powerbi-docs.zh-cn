@@ -9,11 +9,11 @@ ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 06/10/2019
 ms.openlocfilehash: 09489c3dbb33e1c5fb289cc1cc132eae0083a95f
-ms.sourcegitcommit: 02484b2d7a352e96213353702d60c21e8c07c6c0
+ms.sourcegitcommit: 9d033abd9c01a01bba132972497dda428d7d5c12
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "91981726"
+ms.lasthandoff: 11/25/2020
+ms.locfileid: "96120805"
 ---
 # <a name="row-level-security-with-power-bi-embedded"></a>Power BI Embedded 的行级安全性
 
@@ -66,7 +66,7 @@ RLS 在 Power BI Desktop 中进行编写。 当打开数据集和报表时，我
 3. 在“地区”表中，输入以下 DAX 表达式：[District Manager] = USERNAME()。
 
     ![RLS 规则的 DAX 语句](media/embedded-row-level-security/powerbi-embedded-new-role-dax.png)
-4. 为了确保这些规则能够生效，请在“建模”选项卡上选择“以角色身份查看”，再选中已创建的“经理”角色和“其他用户”。 输入 Andrew Ma  作为用户。
+4. 为了确保这些规则能够生效，请在“建模”选项卡上选择“以角色身份查看”，再选中已创建的“经理”角色和“其他用户”。 输入 Andrew Ma 作为用户。
 
     ![“以角色身份查看”对话框](media/embedded-row-level-security/powerbi-embedded-new-role-view.png)
 
@@ -88,9 +88,9 @@ API 接受具有相关数据集指示的标识列表。 为了让 RLS 能够正�
 
 可以通过使用 PowerBIClient.Reports 上的 GenerateTokenInGroup 创建嵌入令牌。
 
-例如，可以更改  。
+例如，可以更改 [PowerBI-Developer-Samples](https://github.com/Microsoft/PowerBI-Developer-Samples) > .NET Framework > 为客户嵌入内容 > PowerBIEmbedded_AppOwnsData 示例。
 
-**更改之前**
+_ *更改之前**
 
 ```csharp
 // Generate Embed Token with effective identities.

@@ -2,18 +2,18 @@
 title: Power BI 移动应用中的新功能
 description: Power BI 移动应用中的新功能
 author: paulinbar
+ms.author: painbar
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: conceptual
-ms.date: 11/01/2020
-ms.author: painbar
-ms.openlocfilehash: 83a280b94a6db937133e0d7ab1e6d7ad64af06f4
-ms.sourcegitcommit: 29cafa1602efb56cfa8dbd0010dd04ad3fcdd02c
+ms.date: 12/01/2020
+ms.openlocfilehash: 81a387d2f87e857cb56dcbc1fb22c8da72bbd27e
+ms.sourcegitcommit: 2fd64f96b5bfbc14ff47e5c892171e5c921fb525
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/05/2020
-ms.locfileid: "93355925"
+ms.lasthandoff: 12/02/2020
+ms.locfileid: "96502036"
 ---
 # <a name="whats-new-in-the-mobile-apps-for-power-bi"></a>Power BI 移动应用中的新功能
 有关相关的“新增功能”的信息，请参阅：
@@ -25,9 +25,19 @@ ms.locfileid: "93355925"
 >[!NOTE]
 >我们将于 2021 年 3 月 16 日终止对使用 Windows 10 移动版的手机提供 Power BI 移动应用支持。 [了解详细信息](/legal/powerbi/powerbi-mobile/power-bi-mobile-app-end-of-support-for-windows-phones)
 
+## <a name="december-2020"></a>2020 年 12 月
+### <a name="weve-added-dark-mode-to-power-bi-mobile-android"></a>我们已在 Power BI 移动版中添加深色模式 (Android)
+
+试用适用于 Android 设备的 Power BI 移动应用中的新深色模式。 在深色模式下，你将在深色背景上看到浅色文本，这降低了屏幕的亮度，使你更轻松地查看内容。 可以在应用外观设置中切换主题。 [了解详细信息](mobile-apps-dark-mode.md)
+
+![适用于 Android 的 Power BI 移动应用中深色模式的屏幕截图。](media/mobile-whats-new-in-the-mobile-apps/mobile-apps-dark-mode-android.png)
+
+### <a name="maximize-the-view-with-full-screen-mode-ipads"></a>使用全屏模式使视图最大化 (iPad)
+现在，我们在 iPad 的移动应用中添加了一个新按钮，该按钮可以删除应用的页眉和页脚，从而为你提供用于查看内容的最大空间。 只需单击全屏切换按钮 ![全屏模式图标的屏幕截图。](media/mobile-whats-new-in-the-mobile-apps/power-bi-full-screen-icon.png) 在屏幕右上角，可在不同模式间切换。
+
 ## <a name="november-2020"></a>2020 年 11 月
 ### <a name="maximize-the-view-with-full-screen-mode-android-tablets"></a>使用全屏模式使视图最大化（Android 平板电脑）
-我们在 Android 平板电脑的移动应用中添加了一个新按钮，该按钮可以删除应用的页眉和页脚，从而为你提供用于查看内容的最大空间。 只需点击屏幕右上角的全屏切换按钮即可在模式间切换。
+我们在 Android 平板电脑的移动应用中添加了一个新按钮，该按钮可以删除应用的页眉和页脚，从而为你提供用于查看内容的最大空间。 只需单击全屏切换按钮 ![全屏模式图标的屏幕截图。](media/mobile-whats-new-in-the-mobile-apps/power-bi-full-screen-icon.png) 在屏幕右上角，可在不同模式间切换。
 
 ## <a name="october-2020"></a>2020 年 10 月
 ### <a name="automatic-page-refresh-is-now-supported-windows"></a>现在支持自动页面刷新 (Windows)
