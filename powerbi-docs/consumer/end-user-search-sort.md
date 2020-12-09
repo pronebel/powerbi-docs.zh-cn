@@ -8,20 +8,19 @@ ms.custom: ''
 ms.service: powerbi
 ms.subservice: pbi-explore
 ms.topic: how-to
-ms.date: 10/01/2020
+ms.date: 12/06/2020
 LocalizationGroup: Get started
-ms.openlocfilehash: b2fac346b9c75df8b3a6b8faa1f158745ff307a7
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: 2d92e49c09b5b542376cd00c410420b30b835644
+ms.sourcegitcommit: 0bf42b6393cab7a37d21a52b934539cf300a08e2
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96399111"
+ms.lasthandoff: 12/07/2020
+ms.locfileid: "96781833"
 ---
 # <a name="navigation-for-power-bi-business-users-global-search"></a>面向 Power BI 商务用户的导航：全局搜索
 
 [!INCLUDE[consumer-appliesto-yyny](../includes/consumer-appliesto-yyny.md)]
 
-[!INCLUDE [power-bi-service-new-look-include](../includes/power-bi-service-new-look-include.md)]
 
 
 不熟悉 Power BI 服务时，你只有部分内容（仪表板、报表和应用）。 但是，随着同事开始与你共享内容以及你开始下载应用，你最终会获得很多内容。 那时你会发现搜索和排序非常有用。

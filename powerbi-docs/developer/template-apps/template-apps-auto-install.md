@@ -7,12 +7,12 @@ ms.topic: conceptual
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.date: 11/23/2020
-ms.openlocfilehash: ca5db6ed7a07d5a6fb10133285378e8318527464
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: 671fcbabf10666c03f39bc4582e00fa0adbdbd5e
+ms.sourcegitcommit: cb6e0202de27f29dd622e47b305c15f952c5769b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96386083"
+ms.lasthandoff: 12/03/2020
+ms.locfileid: "96578351"
 ---
 # <a name="automated-configuration-of-a-template-app-installation"></a>模板应用安装的自动化配置
 
@@ -55,7 +55,7 @@ ms.locfileid: "96386083"
 
 * 在上述租户中注册的服务主体（仅限应用的令牌）。 请参阅[使用服务主体和应用程序机密嵌入 Power BI 内容](https://docs.microsoft.com/power-bi/developer/embedded/embed-service-principal)，获取更多详细信息。 请务必将应用程序注册为“服务器端 Web 应用程序”应用。 注册服务器端 Web 应用程序以创建应用程序密码。 在此过程中，需要保存“应用程序 ID”（客户端 ID）和“应用程序密码”（客户端密码），以便执行后续步骤 。
 
-* 已准备好安装的参数化模板应用。 必须在将应用程序注册到 Azure Active Directory (Azure AD) 的同一租户中创建模板应用。 有关详细信息，请参阅[模板应用提示](https://docs.microsoft.com/power-bi/connect-data/service-template-apps-tips.md)或[在 Power BI 中创建模板应用](https://docs.microsoft.com/power-bi/connect-data/service-template-apps-create)。 在模板应用中，需要注意以下信息，以便执行后续步骤：
+* 已准备好安装的参数化模板应用。 必须在将应用程序注册到 Azure Active Directory (Azure AD) 的同一租户中创建模板应用。 有关详细信息，请参阅[模板应用提示](https://docs.microsoft.com/power-bi/connect-data/service-template-apps-tips)或[在 Power BI 中创建模板应用](https://docs.microsoft.com/power-bi/connect-data/service-template-apps-create)。 在模板应用中，需要注意以下信息，以便执行后续步骤：
      * 应用 ID、包密钥和所有者 ID，这些信息显示在创建应用时[定义模板应用的属性](../../connect-data/service-template-apps-create.md#define-the-properties-of-the-template-app)过程最后一步的安装 URL 中  。 还可单击模板应用的[发布管理](../../connect-data/service-template-apps-create.md#manage-the-template-app-release)中的“获取链接”，获取相同的链接。
 
     * 在模板应用的数据集中定义的“参数名称”。 参数名称是区分大小写的字符串，也可在[定义模板应用的属性](../../connect-data/service-template-apps-create.md#define-the-properties-of-the-template-app)时从“参数设置”选项卡中进行检索，或从 Power BI 中的数据集设置中进行检索。

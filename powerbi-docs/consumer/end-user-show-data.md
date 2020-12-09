@@ -7,20 +7,20 @@ ms.reviewer: mihart
 ms.service: powerbi
 ms.subservice: pbi-explore
 ms.topic: how-to
-ms.date: 10/6/2020
+ms.date: 12/06/2020
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 3ab587e3467f929ac7b318c2225b4f734a70e1a2
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: a4b9f7d25b9199e924d1b91a3b870730fc068fa3
+ms.sourcegitcommit: 0bf42b6393cab7a37d21a52b934539cf300a08e2
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96399088"
+ms.lasthandoff: 12/07/2020
+ms.locfileid: "96781741"
 ---
 # <a name="show-data-with-power-bi-reports"></a>使用 Power BI 报表显示数据
 
 [!INCLUDE[consumer-appliesto-yyny](../includes/consumer-appliesto-yyny.md)]
 
-[!INCLUDE [power-bi-service-new-look-include](../includes/power-bi-service-new-look-include.md)]
+
 
 Power BI 视觉对象是使用基础数据集中的数据构造而成的。 如果你对幕后感兴趣，可以使用 Power BI 服务 *显示* 用于在报表中创建视觉对象的数据。 在用户选择“显示为表”后，Power BI 在视觉对象下方（或旁边）显示数据  。
 

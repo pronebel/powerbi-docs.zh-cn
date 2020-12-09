@@ -9,12 +9,12 @@ ms.subservice: powerbi-admin
 ms.topic: conceptual
 ms.date: 06/25/2020
 ms.custom: seodec18
-ms.openlocfilehash: 433b3d53ccb653e1a945a83176ab9ebc19ccac5d
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: 1495400a59d8250f407a5f7415a550871501e4e3
+ms.sourcegitcommit: cb6e0202de27f29dd622e47b305c15f952c5769b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96409231"
+ms.lasthandoff: 12/03/2020
+ms.locfileid: "96577500"
 ---
 # <a name="add-power-bi-urls-to-your-allow-list"></a>将 Power BI URL 添加到允许列表
 [//]: # "suparnap、miwehnia、natham 是用于维护此列表的联系人"
@@ -76,7 +76,7 @@ Power BI 依赖于 Microsoft 365 身份验证和标识部分中所需的终结�
 | 2 | **可选：** 登录并获取内容包的数据 | 取决于使用的内容包 | 取决于使用的内容包 |
 | 3 | **可选：** 从个人 OneDrive 中导入文件 | 请参阅 [OneDrive 必需的 URL 和端口](/onedrive/required-urls-and-ports) | 不适用 |
 | 4 | **可选：** 60 秒教程视频中的 Power BI | *.doubleclick.net <br> *.ggpht.com <br> *.google.com <br> *.googlevideo.com <br> *.youtube.com <br> *.ytimg.com <br> fonts.gstatic.com | TCP 443 |
-| 5 | **可选：** PubNub 流式处理数据源 | 请参阅 [PubNub 文档](https://support.pubnub.com/support/solutions/articles/14000043522) | 不适用 |
+| 5 | **可选：** PubNub 流式处理数据源 | 请参阅 [PubNub 文档](https://support.pubnub.com/hc/en-us/categories/360004336832-PubNub-101) | 不适用 |
 | | | |
 
 ## <a name="dashboard-and-report-integration"></a>仪表板和报表集成

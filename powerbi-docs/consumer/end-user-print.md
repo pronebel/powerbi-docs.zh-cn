@@ -10,18 +10,18 @@ ms.subservice: pbi-explore
 ms.topic: how-to
 ms.date: 09/19/2020
 LocalizationGroup: Common tasks
-ms.openlocfilehash: d861bbc32584ccbc95d7bcc13701938f671f0c73
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: eaa7cc9911b003a8872f983cd7c9768501833047
+ms.sourcegitcommit: 513c4b884a58e1da2680579339c24c46091bbfb2
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96399548"
+ms.lasthandoff: 12/04/2020
+ms.locfileid: "96613753"
 ---
 # <a name="printing-from-the-power-bi-service"></a>使用 Power BI 服务打印
 
 [!INCLUDE[consumer-appliesto-yynn](../includes/consumer-appliesto-yynn.md)]
 ## <a name="what-can-be-printed"></a>可打印的内容
-[!INCLUDE [power-bi-service-new-look-include](../includes/power-bi-service-new-look-include.md)]
+
 
 使用 Power BI 服务打印整个仪表板、仪表板磁贴、报表页或报表视觉对象。 如果报表有多页，则需要分别打印每一页。 
 

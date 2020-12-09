@@ -8,20 +8,18 @@ featuredvideoid: ''
 ms.service: powerbi
 ms.subservice: pbi-explore
 ms.topic: how-to
-ms.date: 09/25/2020
+ms.date: 12/03/2020
 LocalizationGroup: Consumer
-ms.openlocfilehash: ee053fe000ad85b768ce3d451984f987e3c79e6f
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: f1265a8eb3fb4a7a1ec18a74c6b3a7d28b3b09ba
+ms.sourcegitcommit: cb6e0202de27f29dd622e47b305c15f952c5769b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96400744"
+ms.lasthandoff: 12/03/2020
+ms.locfileid: "96578236"
 ---
 # <a name="add-comments-to-a-dashboard-or-report"></a>将注释添加到仪表板或报表
 
 [!INCLUDE[consumer-appliesto-ynny](../includes/consumer-appliesto-ynny.md)]
-
-[!INCLUDE [power-bi-service-new-look-include](../includes/power-bi-service-new-look-include.md)]
 
 添加个人注释或与同事开始有关仪表板或报表的对话。 “注释”功能只是业务用户与他人协作的方式之一。 
 

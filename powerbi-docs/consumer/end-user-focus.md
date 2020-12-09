@@ -8,20 +8,21 @@ featuredvideoid: dtdLul6otYE
 ms.service: powerbi
 ms.subservice: pbi-explore
 ms.topic: how-to
-ms.date: 09/09/2020
+ms.date: 12/03/2020
 LocalizationGroup: Common tasks
-ms.openlocfilehash: 6385d263c47bde156a7dae941fefb101b9b30d18
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.custom: video-dtdLul6otYE
+ms.openlocfilehash: 611fe62486fbe376bdf1c44aa7ab4d18a7ae5c65
+ms.sourcegitcommit: 513c4b884a58e1da2680579339c24c46091bbfb2
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96400445"
+ms.lasthandoff: 12/04/2020
+ms.locfileid: "96613594"
 ---
 # <a name="display-content-in-more-detail-focus-mode-and-full-screen-mode"></a>更详细地显示内容：焦点模式和全屏模式
 
 [!INCLUDE [consumer-appliesto-yynn](../includes/consumer-appliesto-yynn.md)]
 
-[!INCLUDE [power-bi-service-new-look-include](../includes/power-bi-service-new-look-include.md)]    
+
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/dtdLul6otYE" frameborder="0" allowfullscreen></iframe>
 
@@ -41,7 +42,7 @@ ms.locfileid: "96400445"
 
 ## <a name="when-to-use-full-screen-mode"></a>何时使用全屏模式
 
-![仪表板全屏模式前后对照](media/end-user-focus/power-bi-dashboards-focus.png)
+![仪表板全屏模式前后对照](media/end-user-focus/power-bi-dashboard-focus.png)
 
 显示 Power BI 服务内容（仪表板、报表页和视觉对象），不受菜单和导航窗格的干扰。  可以随时快速获取内容的纯粹而完整的视图。 有时这也称为电视模式。   
 
@@ -58,7 +59,7 @@ ms.locfileid: "96400445"
 
 使用“焦点”*_模式可以展开（弹出）视觉对象或磁贴以查看更多详细信息。  你可能有一个有点拥挤的仪表板或报表，你只想在一个视觉对象上放大。  这时候最适合使用焦点模式。  
 
-![仪表板磁贴焦点模式前后对照](media/end-user-focus/power-bi-compare-dash.png)
+![仪表板磁贴焦点模式前后对照](media/end-user-focus/power-bi-compare.png)
 
 在焦点模式下，Power BI 业务用户可以与创建此视觉对象时应用的任何筛选器进行交互。  在 Power BI 服务中，可以在仪表板磁贴或报表视觉对象上使用焦点模式。
 

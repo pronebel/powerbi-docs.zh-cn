@@ -7,12 +7,12 @@ ms.topic: tutorial
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.date: 11/23/2020
-ms.openlocfilehash: 0bb2e0c249df668378d62f62184dc044d174ce81
-ms.sourcegitcommit: 9d033abd9c01a01bba132972497dda428d7d5c12
+ms.openlocfilehash: 0ddcf3c54a5bb3cf9259f6c0d18d0001b838df60
+ms.sourcegitcommit: cb6e0202de27f29dd622e47b305c15f952c5769b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/24/2020
-ms.locfileid: "95550372"
+ms.lasthandoff: 12/03/2020
+ms.locfileid: "96577845"
 ---
 # <a name="tutorial-automate-configuration-of-template-app-installation-using-an-azure-function"></a>教程：使用 Azure Function 自动配置模板应用安装
 
@@ -57,7 +57,7 @@ ms.locfileid: "95550372"
 
 * 在上述租户中注册的[服务主体（仅限应用的令牌）](https://docs.microsoft.com/power-bi/developer/embedded/embed-service-principal)。
 
-* 已准备好安装的参数化[模板应用](https://docs.microsoft.com/power-bi/connect-data/service-template-apps-overview)。 必须在将应用程序注册到 Azure Active Directory (Azure AD) 的同一租户中创建模板应用。 有关详细信息，请参阅[模板应用提示](https://docs.microsoft.com/power-bi/connect-data/service-template-apps-tips.md)或[在 Power BI 中创建模板应用](https://docs.microsoft.com/power-bi/connect-data/service-template-apps-create)。
+* 已准备好安装的参数化[模板应用](https://docs.microsoft.com/power-bi/connect-data/service-template-apps-overview)。 必须在将应用程序注册到 Azure Active Directory (Azure AD) 的同一租户中创建模板应用。 有关详细信息，请参阅[模板应用提示](https://docs.microsoft.com/power-bi/connect-data/service-template-apps-tips)或[在 Power BI 中创建模板应用](https://docs.microsoft.com/power-bi/connect-data/service-template-apps-create)。
 
 * Power BI Pro 许可证。 如果没有注册 Power BI Pro，请在开始之前[注册免费试用版](https://powerbi.microsoft.com/pricing/)。
 

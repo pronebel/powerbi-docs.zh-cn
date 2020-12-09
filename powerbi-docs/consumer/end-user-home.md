@@ -7,14 +7,14 @@ ms.reviewer: maggies
 ms.service: powerbi
 ms.subservice: pbi-explore
 ms.topic: conceptual
-ms.date: 11/13/2020
+ms.date: 12/03/2020
 LocalizationGroup: Get started
-ms.openlocfilehash: 6c2be9c2c266c489dbb93f5e3f93c3c120cae5c3
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: 9df90a41143ddb6d0657aa0d61dc83f25ecbae1a
+ms.sourcegitcommit: cb6e0202de27f29dd622e47b305c15f952c5769b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96390601"
+ms.lasthandoff: 12/03/2020
+ms.locfileid: "96578031"
 ---
 # <a name="find-your-dashboards-reports-and-apps"></a>查找仪表板、报表和应用
 
@@ -42,13 +42,13 @@ Power BI 主页提供了三种不同的方式来查找和查看内容。 所有�
 ## <a name="home-canvas"></a>“主页”画布
 在“主页”上，你可以看到有权使用的所有内容。 “主页”画布也会更新推荐的内容和学习资源。 最开始，“主页”画布上可能没有太多内容，但随着你开始与同事一起使用 Power BI，这种情况将会发生改变。
 
-![为 Power BI 服务新用户提供的“欢迎使用”屏幕的屏幕截图。](media/end-user-home/power-bi-home-new-user.png)
+![为 Power BI 服务新用户提供的“欢迎使用”屏幕的屏幕截图。](media/end-user-home/power-bi-home-new-users.png)
 
 
  
 在 Power BI 服务中工作时，你将收到来自同事的仪表板、报表和应用，然后 Power BI 主页最终将填满。 随着时间的推移，它可能类似于下面的主页。
 
-![“欢迎使用 Power BI 服务”屏幕的屏幕截图。](media/end-user-home/power-bi-experienced-user.png)
+![“欢迎使用 Power BI 服务”屏幕的屏幕截图。](media/end-user-home/power-bi-experienced-users.png)
 
  
 接下来的几个主题将为有经验的用户全面介绍“主页”。

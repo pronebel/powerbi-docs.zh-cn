@@ -9,18 +9,17 @@ ms.subservice: pbi-explore
 ms.topic: how-to
 ms.date: 10/09/2020
 LocalizationGroup: Reports
-ms.openlocfilehash: 152d3ee87afe93fdfbe19060a42f013ec83f2d2a
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: 0cf2389b9dafc19519010142079fbb15f6f21711
+ms.sourcegitcommit: 0bf42b6393cab7a37d21a52b934539cf300a08e2
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96389705"
+ms.lasthandoff: 12/07/2020
+ms.locfileid: "96781649"
 ---
 # <a name="reports-in-power-bi"></a>Power BI 中的报表
 
 [!INCLUDE[consumer-appliesto-yynn](../includes/consumer-appliesto-yyn.md)]
 
-[!INCLUDE [power-bi-service-new-look-include](../includes/power-bi-service-new-look-include.md)]
 
 Power BI 报表是对数据集的多角度审视，它使用视觉对象来表示数据集呈现的各种结果和见解。  报表可包含单个视觉对象，也可包含充满视觉对象的多个页面。 根据你的职位，你可能是报表设计人员  ， 你还可能是使用报表的业务用户。 本文适用于业务用户。
 
@@ -59,7 +58,7 @@ Power BI 是在一个数据集的基础之上生成报表。 报表设计者在�
 
 | **功能** | **仪表板** | **报表** |
 | --- | --- | --- |
-| 页面 |一个页面 |一个或多个页面 |
+| 页数 |一个页面 |一个或多个页面 |
 | 数据源 |每个仪表板的一个或多个报表和一个或多个数据集 |每个报表的单个数据集 |
 | Filtering |无法筛选或切片 |许多不同的方式来筛选、突出显示和切片 |
 | 设置警报 |当仪表板满足某些条件时，可创建警报以向你发送电子邮件 |否 |

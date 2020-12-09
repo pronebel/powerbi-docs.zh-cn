@@ -8,14 +8,14 @@ featuredvideoid: ''
 ms.service: powerbi
 ms.subservice: pbi-explore
 ms.topic: how-to
-ms.date: 09/17/2020
+ms.date: 12/03/2020
 LocalizationGroup: Get started
-ms.openlocfilehash: c650b7ea282d928af512ce7948902bc4fd72613f
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: 3a1fa1e137cc66fad48102d60869ee8ecd0cba61
+ms.sourcegitcommit: 513c4b884a58e1da2680579339c24c46091bbfb2
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96389957"
+ms.lasthandoff: 12/04/2020
+ms.locfileid: "96613845"
 ---
 # <a name="opt-in-for-power-bi-service-preview-features"></a>选择使用 Power BI 服务预览功能
 
@@ -24,11 +24,7 @@ ms.locfileid: "96389957"
 ## <a name="what-are-preview-features"></a>什么是 *预览功能* ?
 在改进 Power BI 服务期间，我们将以预览功能的形式发布一些新功能  。 预览功能可以启用和禁用，让你有机会试试这些功能。
 
-可以通过 Power BI 仪表板、主页或报表本身打开或关闭某些预览功能。 可以通过在主页、报表和仪表板上方显示的 Power BI 菜单栏打开和关闭“新外观”预览功能。 
-
-   ![新外观切换](./media/end-user-preview-features/power-bi-toggle.png)
-
-可通过“设置”菜单使用其他预览功能。 本文介绍如何通过“设置”菜单访问预览功能。
+可以通过 Power BI 仪表板、主页或报表本身打开或关闭某些预览功能。 可通过“设置”菜单使用其他预览功能。 本文介绍如何通过“设置”菜单访问预览功能。
 
 ## <a name="find-previews-and-turn-them-on-and-off"></a>查找预览并将其打开（和关闭）
 1. 在 Power BI 屏幕右上角，依次选择齿轮图标和“设置”，打开“设置”菜单。
