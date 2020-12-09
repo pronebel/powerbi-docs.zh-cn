@@ -7,12 +7,12 @@ ms.topic: how-to
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.date: 11/07/2019
-ms.openlocfilehash: ba63b8be32600428075b9304a5a29fef62a9d6c8
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 5b386800c37f80e7b33dc55bb691eed6606c04a1
+ms.sourcegitcommit: 30d0668434283c633bda9ae03bc2aca75401ab94
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85236854"
+ms.lasthandoff: 12/09/2020
+ms.locfileid: "96906786"
 ---
 # <a name="connect-a-report-to-a-dataset-using-dynamic-binding"></a>使用动态绑定将报表连接到数据集 
 
@@ -33,7 +33,7 @@ ms.locfileid: "85236854"
 |方案  |数据所有权  |令牌  |要求  |
 |---------|---------|---------|---------|
 |为组织嵌入内容    |用户拥有数据         |Power BI 用户的访问令牌         |使用 Azure AD 令牌的用户必须对所有项目拥有适当的权限。         |
-|为客户嵌入内容     |应用拥有数据         |非 Power BI 用户的访问令牌         |必须包括报表和动态绑定数据集的权限。 使用[可为多个项生成嵌入令牌的 API](embed-sample-for-customers.md#multiEmbedToken)生成支持多个项目的嵌入令牌。         |
+|为客户嵌入内容     |应用拥有数据         |非 Power BI 用户的访问令牌         |必须包括报表和动态绑定数据集的权限。 使用[可为多个项生成嵌入令牌的 API](/rest/api/power-bi/embedtoken/generatetoken)生成支持多个项目的嵌入令牌。         |
 
 ## <a name="adjusting-the-config-object"></a>调整配置对象
 将 `datasetBinding` 添加到配置对象中。 以下述示例为参考。

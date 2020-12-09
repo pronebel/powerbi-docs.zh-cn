@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 01/11/2019
-ms.openlocfilehash: ed8f44e7dd1a7e713a9b2bd75dc33f259cb52f2a
-ms.sourcegitcommit: 4ac9447d1607dfca2e60948589f36a3d64d31cb4
+ms.openlocfilehash: 377f509248dbd2368b74bb9645f001ff7c6a97c0
+ms.sourcegitcommit: 30d0668434283c633bda9ae03bc2aca75401ab94
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/29/2020
-ms.locfileid: "92916328"
+ms.lasthandoff: 12/09/2020
+ms.locfileid: "96907270"
 ---
 # <a name="manage-multi-tenancy-with-power-bi-embedded-analytics"></a>使用 Power BI 嵌入式分析来管理多租户
 
@@ -163,7 +163,7 @@ Power BI Embedded 支持多地理位置部署（预览功能）。 [多地理位
 
 ### <a name="cost"></a>开销
 
-使用 Power BI Embedded 的应用程序开发人员需要[购买 Power BI Embedded 容量才能投入生产](embed-sample-for-customers.md#move-to-production)。  请务必了解基于工作区的隔离模型的影响及其对容量的影响。
+使用 Power BI Embedded 的应用程序开发人员需要[购买 Power BI Embedded 容量才能投入生产](move-to-production.md)。  请务必了解基于工作区的隔离模型的影响及其对容量的影响。
 
 基于工作区的隔离模型适用于容量，原因如下：
 

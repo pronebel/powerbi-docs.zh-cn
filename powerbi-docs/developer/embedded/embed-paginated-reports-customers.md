@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.custom: seodec18
 ms.date: 01/04/2019
-ms.openlocfilehash: 58d1112dfccda798a32b2a3cb95d72c37b7a16ec
-ms.sourcegitcommit: bd133cb1fcbf4f6f89066165ce065b8df2b47664
+ms.openlocfilehash: 02d73a2eb36636091ff6059fd6543bb950082c2a
+ms.sourcegitcommit: 30d0668434283c633bda9ae03bc2aca75401ab94
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "94668387"
+ms.lasthandoff: 12/09/2020
+ms.locfileid: "96907293"
 ---
 # <a name="tutorial-embed-power-bi-paginated-reports-into-an-application-for-your-customers"></a>教程：在应用程序中为客户嵌入 Power BI 分页报表。
 
@@ -40,7 +40,7 @@ ms.locfileid: "94668387"
 
 > [!IMPORTANT]
 > * 必须使用“服务主体”。 主用户不受支持。
->* 不支持 [Premium Per User (PPU)](../../admin/service-premium-per-user-faq.md)。 可以使用 PPU 对解决方案进行试验，但不能[投入生产](embed-sample-for-customers.md#move-to-production)。
+>* 不支持 [Premium Per User (PPU)](../../admin/service-premium-per-user-faq.md)。 可以使用 PPU 对解决方案进行试验，但不能[投入生产](move-to-production.md)。
 > * 不支持需要单点登录 (SSO) 的数据源。 有关支持的数据集及其身份验证方法的列表，请参阅 [Power BI 分页报表支持的数据源](../../paginated-reports/paginated-reports-data-sources.md)。 
 > * Power BI 数据集不支持作为[数据源](../../connect-data/service-get-data.md)。
 

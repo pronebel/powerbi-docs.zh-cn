@@ -8,18 +8,18 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: how-to
 ms.date: 06/04/2019
-ms.openlocfilehash: 0743a7ac0d12cba8bbde54464a275a78f7c88eff
-ms.sourcegitcommit: 37bd34053557089c4fbf0e05f78e959609966561
+ms.openlocfilehash: cb7c874fc68da361971c34879f2ea44006402bf4
+ms.sourcegitcommit: 30d0668434283c633bda9ae03bc2aca75401ab94
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/10/2020
-ms.locfileid: "94396693"
+ms.lasthandoff: 12/09/2020
+ms.locfileid: "96906925"
 ---
 # <a name="get-an-azure-ad-access-token-for-your-power-bi-application"></a>获取 Power BI 应用程序的 Azure AD 访问令牌
 
 本文介绍如何在 Power BI 应用程序中对用户进行身份验证，以及如何检索要与 [Power BI REST API](/rest/api/power-bi/) 配合使用的访问令牌。
 
-需要先获取 Azure Active Directory (Azure AD) **身份验证访问令牌** ，然后应用才能调用该 REST API。 应用使用令牌获取对 Power BI 仪表板、磁贴和报表的访问权限。 若要了解详细信息，请参阅[使用 OAuth 2.0 代码授予流授予对 Azure Active Directory Web 应用程序的访问权限](/azure/active-directory/develop/v1-protocols-oauth-code)。
+需要先获取 Azure Active Directory (Azure AD) **身份验证访问令牌**，然后应用才能调用该 REST API。 应用使用令牌获取对 Power BI 仪表板、磁贴和报表的访问权限。 若要了解详细信息，请参阅[使用 OAuth 2.0 代码授予流授予对 Azure Active Directory Web 应用程序的访问权限](/azure/active-directory/develop/v1-protocols-oauth-code)。
 
 访问令牌的检索方式不同，具体视内容的嵌入方式而定。 本文介绍两种不同的方法。
 
@@ -53,7 +53,7 @@ var @params = new NameValueCollection
 };
 ```
 
-构造查询字符串后，重定向到 **Azure AD** 以获取 **授权代码** 。  下面是构造 **授权代码** 查询字符串的并重定向到 **Azure AD** 的完整 C# 方法。 随后使用 **授权代码** 获取 **访问令牌** 。
+构造查询字符串后，重定向到 **Azure AD** 以获取 **授权代码**。  下面是构造 **授权代码** 查询字符串的并重定向到 **Azure AD** 的完整 C# 方法。 随后使用 **授权代码** 获取 **访问令牌**。
 
 在 redirect.aspx.cs 中，调用 [AuthenticationContext.AcquireTokenByAuthorizationCode](/dotnet/api/microsoft.identitymodel.clients.activedirectory.authenticationcontext.acquiretokenbyauthorizationcodeasync#Microsoft_IdentityModel_Clients_ActiveDirectory_AuthenticationContext_AcquireTokenByAuthorizationCodeAsync_System_String_System_Uri_Microsoft_IdentityModel_Clients_ActiveDirectory_ClientCredential_System_String_) 生成令牌。
 
@@ -206,6 +206,6 @@ m_tokenCredentials = new TokenCredentials(authenticationResult.AccessToken, "Bea
 
 ## <a name="next-steps"></a>后续步骤
 
-至此，已拥有访问令牌，可以调用 Power BI REST API 嵌入内容了。 有关信息，请参阅[如何嵌入 Power BI 内容](embed-sample-for-customers.md#embed-content-within-your-application)。
+至此，已拥有访问令牌，可以调用 Power BI REST API 嵌入内容了。
 
 更多问题？ [尝试咨询 Power BI 社区](https://community.powerbi.com/)
