@@ -51,6 +51,8 @@
           href: dataflows/dataflows-premium-features.md
         - name: 通过数据流使用机器学习和认知服务
           href: dataflows/dataflows-machine-learning-integration.md
+        - name: 数据流最佳做法
+          href: ./dataflows/dataflows-best-practices.md
         - name: 数据流限制和注意事项
           href: dataflows/dataflows-features-limitations.md
     - name: 操作指南
@@ -95,44 +97,6 @@
               href: desktop-import-and-display-kpis.md
             - name: 应用自动日期/时间
               href: desktop-auto-date-time.md
-        - name: 自助服务数据准备
-          items:
-            - name: 创建和使用数据流
-              href: ./dataflows/dataflows-create.md
-            - name: 数据流最佳做法
-              href: ./dataflows/dataflows-best-practices.md
-            - name: 在 Power BI（预览版）中将 DirectQuery 用于数据流
-              href: ./dataflows/dataflows-configure-consume.md
-            - name: 将增强的计算引擎用于数据流
-              href: ./dataflows/dataflows-premium-features.md
-            - name: Power BI Premium 计算实体
-              href: ./dataflows/dataflows-premium-features.md
-            - name: 使用数据流连接到数据源
-              href: ./dataflows/dataflows-configure-consume.md
-            - name: 将数据流与本地数据源配合使用
-              href: ./dataflows/dataflows-configure-consume.md
-            - name: 链接数据流之间的实体
-              href: ./dataflows/dataflows-premium-features.md
-            - name: 将增量刷新与数据流配合使用
-              href: ./dataflows/dataflows-premium-features.md
-            - name: 数据流的开发人员资源
-              href: ./dataflows/dataflows-configure-consume.md
-            - name: 连接到 Power BI Desktop 中的数据流
-              href: desktop-connect-dataflows.md
-            - name: 数据流和 Azure Data Lake 集成（预览）
-              href: ./dataflows/dataflows-azure-data-lake-storage-integration.md
-            - name: 连接 Azure Data Lake Storage Gen2 以存储数据流
-              href: ./dataflows/dataflows-azure-data-lake-storage-integration.md
-            - name: 配置工作区数据流设置（预览）
-              href: ./dataflows/dataflows-configure-consume.md
-            - name: 将 CDM 文件夹添加到 Power BI 作为数据流（预览）
-              href: ./dataflows/dataflows-machine-learning-integration.md
-            - name: 在 Power BI 中集成机器学习
-              href: ./dataflows/dataflows-machine-learning-integration.md
-            - name: 在 Power BI 中使用认知服务
-              href: ./dataflows/dataflows-machine-learning-integration.md
-            - name: Power BI 中的自动机器学习
-              href: ./dataflows/dataflows-machine-learning-integration.md
     - name: 参考
       items:
         - name: 使用 Power BI Desktop 中的“字段”列表（预览）
