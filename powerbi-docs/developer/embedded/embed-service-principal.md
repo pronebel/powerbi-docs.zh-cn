@@ -9,12 +9,12 @@ ms.subservice: powerbi-developer
 ms.topic: how-to
 ms.custom: ''
 ms.date: 11/23/2020
-ms.openlocfilehash: 17c0a4d0809aa87f50225e0c59ca3962776bd2b1
-ms.sourcegitcommit: 9d033abd9c01a01bba132972497dda428d7d5c12
+ms.openlocfilehash: 41b8cfe8515efbf3cc42794afcb2562f7d0c171a
+ms.sourcegitcommit: 30d0668434283c633bda9ae03bc2aca75401ab94
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/24/2020
-ms.locfileid: "95514443"
+ms.lasthandoff: 12/09/2020
+ms.locfileid: "96907086"
 ---
 # <a name="embed-power-bi-content-with-service-principal-and-an-application-secret"></a>使用服务主体和应用程序机密嵌入 Power BI 内容
 
@@ -170,7 +170,7 @@ Add-AzureADGroupMember -ObjectId $($group.ObjectId) -RefObjectId $($sp.ObjectId)
 >若要限制服务主体只能访问特定租户设置，请只允许访问特定安全组。 也可以为服务主体创建专用安全组，并将它排除在相应租户设置之外。
 
 >[!div class="mx-imgBorder"]
->:::image type="content" source="media/embed-service-principal/admin-portal.png" alt-text="显示 Power BI 门户的“管理”选项中的开发人员设置的屏幕截图。":::
+>:::image type="content" source="media/embed-service-principal/admin-portal.png" alt-text="显示 Power BI 服务的“管理”选项中的开发人员设置的屏幕截图。":::
 
 ## <a name="step-4---add-the-service-principal-to-your-workspace"></a>第 4 步 - 将服务主体添加到工作区
 
@@ -195,12 +195,9 @@ Add-AzureADGroupMember -ObjectId $($group.ObjectId) -RefObjectId $($sp.ObjectId)
 
 ## <a name="step-5---embed-your-content"></a>第 5 步 - 嵌入内容
 
-可以在示例应用程序或你自己的应用程序中嵌入内容。
+[可以在示例应用程序或你自己的应用程序中嵌入内容。](embed-sample-for-customers.md)
 
-* [使用示例应用程序嵌入内容](embed-sample-for-customers.md#embed-content-using-the-sample-application)
-* [在应用程序中嵌入内容](embed-sample-for-customers.md#embed-content-within-your-application)
-
-嵌入内容后，你便可以[迁移到生产阶段](embed-sample-for-customers.md#move-to-production)。
+嵌入内容后，你便可以[迁移到生产阶段](move-to-production.md)。
 
 >[!NOTE]
 >若要使用证书保护内容，请按照[使用服务主体和证书嵌入 Power BI 内容](embed-service-principal-certificate.md)中所述的步骤进行操作。

@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: pbi-collaborate-share
 ms.topic: how-to
-ms.date: 11/02/2020
+ms.date: 12/03/2020
 LocalizationGroup: Share your work
-ms.openlocfilehash: 004546a941426f602bfb5cacaf938bd55cec452d
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: 76f45ac7aee01cb907e727bc8cb12a69bd234d72
+ms.sourcegitcommit: 513c4b884a58e1da2680579339c24c46091bbfb2
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96406770"
+ms.lasthandoff: 12/04/2020
+ms.locfileid: "96613868"
 ---
 # <a name="publish-to-web-from-power-bi"></a>从 Power BI 发布到 Web
 
@@ -198,6 +198,7 @@ Power BI 管理门户具有控制可以发布到 Web 的人员的设置。 与�
 - 单一登录数据查询模型。
 - 保护机密或专有信息。
 - 随“嵌入”选项提供的自动身份验证功能不适用于 Power BI JavaScript API。 对于 Power BI JavaScript API，请使用[用户拥有数据](../developer/embedded/embed-sample-for-your-organization.md)方法进行嵌入。
+- 管理员可阻止公共 Internet 访问，如[用于访问 Power BI 的专用链接](../admin/service-security-private-links.md)中所述。 在这种情况下，Power BI 管理门户中租户的“发布到 Web”选项将灰显。 
 
 ## <a name="next-steps"></a>后续步骤
 

@@ -7,13 +7,13 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: conceptual
-ms.date: 11/12/2020
-ms.openlocfilehash: e26e273ff16d67defb9299c226a8435a75b93661
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.date: 12/07/2020
+ms.openlocfilehash: 4368230812d90031d1f7cf83d426fc1508382412
+ms.sourcegitcommit: 0bf42b6393cab7a37d21a52b934539cf300a08e2
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96398329"
+ms.lasthandoff: 12/07/2020
+ms.locfileid: "96781925"
 ---
 # <a name="supported-data-sources-for-power-bi-paginated-reports"></a>Power BI 分页报表支持的数据源
 
@@ -30,7 +30,7 @@ ms.locfileid: "96398329"
 | Azure SQL Database <br>Azure SQL 数据仓库 | 基本、单一登录 (SSO)、OAuth2 | 你可以使用包含 Azure SQL 数据库的企业网关。 但在这些情况下，不能使用 SSO 或 oAuth2 进行身份验证。   |
 | Azure SQL 托管实例 | 基本 | 通过公共或专用终结点（专用终结点需要通过企业网关进行路由）  |
 | Azure Analysis Services | SSO、OAuth2 | AAS 防火墙要么必须禁用，要么必须配置为允许 BlackForest 区域中的所有 IP 范围。 这仅适用于 BlackForest 区域。  不支持外部租户中的 SSO。 |
-| Power BI 数据集 | SSO | 高级和非高级 Power BI 数据集。 需要读取权限 |
+| Power BI 数据集 | SSO | 高级和非高级 Power BI 数据集。 需要读取权限。 仅支持导入模式和 DirectQuery Power BI 数据集。 |
 | 高级 Power BI 数据集 (XMLA) | SSO | 在“应用拥有数据”方案中，不支持将 Power BI 数据集作为嵌入式分页报表的数据源。  若要确保 Power BI 报表生成器具有正确的连接，请确保在设置数据源时选中“不使用凭据”选项。   |
 | 输入数据 | 不适用 | 数据嵌入在报表中。 |
 

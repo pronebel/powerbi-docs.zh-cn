@@ -8,14 +8,14 @@ featuredvideoid: IkJda4O7oGs
 ms.service: powerbi
 ms.subservice: pbi-reports-dashboards
 ms.topic: conceptual
-ms.date: 08/14/2019
+ms.date: 12/01/2020
 LocalizationGroup: Reports
-ms.openlocfilehash: 26a98609481ce45a6e432c8006d80f9becdd9f3b
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: 560c03865519d1c5d2435dc333954f284ee726e6
+ms.sourcegitcommit: 8993400b32a44f4e7ce9a2db998ddebda18c7698
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96387772"
+ms.lasthandoff: 12/02/2020
+ms.locfileid: "96536498"
 ---
 # <a name="tour-the-report-editor-in-power-bi"></a>Power BI 中的报表编辑器导览
 
@@ -33,14 +33,14 @@ ms.locfileid: "96387772"
 
 Power BI 报表编辑器由几个主要部分组成：  
 
-1. 顶部导航窗格
+1. 功能区
 1. 报表画布
 1. “筛选器”窗格
 1. “可视化效果”窗格
 1. 字段窗格
 
-## <a name="1-the-top-nav-pane"></a>1.顶部导航窗格
-顶部导航窗格中可用的操作有很多，新操作一直在增加。 有关特定操作的信息，请使用 Power BI 文档目录或搜索框。
+## <a name="1-the-ribbon"></a>1.功能区
+功能区中可用的操作有很多，并且新操作一直在增加。 有关特定操作的信息，请使用 Power BI 文档目录或搜索框。
 
 
 ## <a name="2-the-report-canvas"></a>2.报表画布
@@ -135,23 +135,7 @@ Power BI 报表编辑器由几个主要部分组成：
 
 ## <a name="the-field-icons"></a>字段图标
 
-Power BI 使用多种不同的图标来表示报表中的字段类型。 能够识别它们，就可以更好地了解它们在不同视觉对象中的作用。 下面是一些比较常见的图标。
-
-
-|图标  |含义  |
-|---------|---------|
-| ![文件夹](media/service-the-report-editor-take-a-tour/power-bi-field-list-folder.png) | “字段”列表中的文件夹 |
-|![数值字段](media/service-the-report-editor-take-a-tour/power-bi-field-list-numeric.png) | 数值字段：例如，数值字段是可以求和或求平均值的聚合。 聚合随数据一起导入，并在报表所基于的数据模型中定义。 有关详细信息，请参阅 [Power BI 报表中的聚合函数](service-aggregates.md)。 |
-|![非数值计算列](media/service-the-report-editor-take-a-tour/power-bi-field-list-calculated-column.png) | 非数值数据类型的计算列：使用数据分析表达式 (DAX) 公式创建的一个新的非数值列，该公式定义该列的值。 详细了解[计算列](../transform-model/desktop-calculated-columns.md)。 |
-|![数值计算列](media/service-the-report-editor-take-a-tour/power-bi-field-list-numeric-calculated-column.png)     |   数值计算列：使用数据分析表达式 (DAX) 公式创建新的列，该公式定义该列的值。 详细了解[计算列](../transform-model/desktop-calculated-columns.md)。 |
-|![度量值](media/service-the-report-editor-take-a-tour/power-bi-field-list-measure.png) |  度量值：度量值有自己的硬编码公式。 不能更改此计算，例如，如果该计算是求和，则只能进行求和。 值不会存储在列中。 它们是动态计算的，具体取决于它们在视觉对象中的位置。 有关详细信息，请参阅[了解度量值](../transform-model/desktop-measures.md)。 |
-|![度量值组](media/service-the-report-editor-take-a-tour/power-bi-field-list-measure-group.png)     | 度量值组  |
-|![KPI 图标](media/service-the-report-editor-take-a-tour/power-bi-field-list-kpi.png) |      KPI：它是一个视觉提示，用于传达针对可度量目标已完成的进度。 详细了解[关键绩效指标 (KPI)](../visuals/power-bi-visualization-kpi.md) 视觉对象 |
-|![层次结构图标](media/service-the-report-editor-take-a-tour/power-bi-field-list-hierarchy.png)     |  字段的层次结构：选择箭头以查看构成层次结构的字段。  有关详细信息，请观看有关[创建和使用层次结构](https://www.youtube.com/watch?v=q8WDUAiTGeU)的 YouTube Power BI 视频。 |
-|![地理数据](media/service-the-report-editor-take-a-tour/power-bi-field-list-geo-data.png)     | 地理数据：这些字段可用于创建地图可视化效果。 |
-| ![标识字段](media/service-the-report-editor-take-a-tour/power-bi-field-list-identity.png)     | 标识字段：具有此图标的字段是“唯一字段”，将被设置为显示全部值，即使它们具有重复项也是如此  。 例如，数据中可能存在两个名为 Robin Smith 的不同人员记录，每一条都将被视为唯一。 它们不会合成一条。   |
-|![参数](media/service-the-report-editor-take-a-tour/power-bi-field-list-parameter.png)   | 参数：设置参数以使报表和数据模型的某些部分（例如查询筛选器、数据源引用、度量值定义等）依赖于一个或多个参数值。 有关详细信息，请参阅这篇有关[查询参数](https://powerbi.microsoft.com/blog/deep-dive-into-query-parameters-and-power-bi-templates/)的 Power BI 博客文章。 |
-| ![日历](media/service-the-report-editor-take-a-tour/power-bi-field-list-calendar.png) | 带有内置日期表的日历日期字段 |
+Power BI 使用多种不同的图标来表示报表中的字段类型。 能够识别它们，就可以更好地了解它们在不同视觉对象中的作用。 有关完整列表，请参阅[在 Power BI Desktop 中使用“字段”列表的“字段列表图标”部分](../transform-model/desktop-field-list.md#field-list-changes)。
 
 ## <a name="next-steps"></a>后续步骤
 [创建报表](service-report-create-new.md)

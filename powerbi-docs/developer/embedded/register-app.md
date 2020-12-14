@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: how-to
 ms.date: 04/02/2019
-ms.openlocfilehash: c8d756a80cf6d748f3ff33298b3a243f82197734
-ms.sourcegitcommit: bd133cb1fcbf4f6f89066165ce065b8df2b47664
+ms.openlocfilehash: 845499bc236489932bf1347c43f7a5ba71c21a6b
+ms.sourcegitcommit: 30d0668434283c633bda9ae03bc2aca75401ab94
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "94668640"
+ms.lasthandoff: 12/09/2020
+ms.locfileid: "96907316"
 ---
 # <a name="register-an-azure-ad-application-to-use-with-power-bi"></a>注册 Azure AD 应用程序以使用 Power BI
 
@@ -32,7 +32,7 @@ ms.locfileid: "94668640"
 
 * “主用户”帐户（用于登录 Power BI 的 Power BI Pro 许可证）
 
-*  [服务主体](embed-service-principal.md)
+* [服务主体](embed-service-principal.md)
 
 “为客户嵌入内容”解决方案通常由独立软件供应商 (ISVs) 和为第三方创建应用程序的开发人员使用。
 
@@ -115,7 +115,16 @@ ms.locfileid: "94668640"
 
 # <a name="manual-registration"></a>[手动注册](#tab/manual)
 
-仅在创建“为组织嵌入内容”解决方案时才使用 Azure AD 手动应用注册。 有关如何在 Azure Active Directory 中注册应用程序的详细信息，请参阅[向 Azure Active Directory 注册应用](/azure/active-directory/develop/quickstart-v2-register-an-app)。
+仅在要创建以下解决方案之一时才使用 Azure AD 手动应用注册。
+
+* “为组织嵌入内容”应用程序。
+
+* 使用服务主体的“为客户嵌入内容”应用程序 。
+
+    >[!NOTE]
+    >如果选择此选项，则在注册 Azure AD 应用之后，必须为其[添加 Power BI](#change-your-azure-ad-apps-permissions) 权限。
+
+有关如何在 Azure Active Directory 中注册应用程序的详细信息，请参阅[向 Azure Active Directory 注册应用](/azure/active-directory/develop/quickstart-v2-register-an-app)。
 
 1. 登录到 [Azure 门户](https://portal.azure.com)。
 
@@ -140,6 +149,9 @@ ms.locfileid: "94668640"
 ## <a name="change-your-azure-ad-apps-permissions"></a>更改 Azure AD 应用的权限
 
 注册应用程序后，可以更改其权限。 权限更改可以通过编程方式或在 Azure 门户中进行。
+
+>[!NOTE]
+>Azure AD 应用权限仅适用于使用主用户身份验证方法的“为客户嵌入内容”解决方案 。
 
 # <a name="azure"></a>[Azure](#tab/Azure)
 

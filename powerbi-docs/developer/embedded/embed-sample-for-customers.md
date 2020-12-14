@@ -1,6 +1,6 @@
 ---
 title: 为客户将内容嵌入应用程序
-description: 了解如何通过使用适用于嵌入式分析的 Power BI API，为客户将报表、仪表板或磁贴集成或嵌入到应用程序中。 了解如何使用嵌入式分析软件、嵌入式分析工具或嵌入式商业智能工具将 Power BI 集成到应用程序。
+description: 了解如何将报表、仪表板或磁贴嵌入 Power BI 嵌入式分析示例。
 author: KesemSharabi
 ms.author: kesharab
 ms.reviewer: rkarlin
@@ -8,463 +8,593 @@ ms.topic: tutorial
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.custom: seodec18
-ms.date: 06/02/2020
-ms.openlocfilehash: dab16218406a4b97c9e2aa01974380ba09dde003
-ms.sourcegitcommit: 5240990f998851c4854eb565de681099264c5a61
+ms.date: 12/02/2020
+ms.openlocfilehash: 7bc825992f5c7382e1c0a24783f732957913c588
+ms.sourcegitcommit: 30d0668434283c633bda9ae03bc2aca75401ab94
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/18/2020
-ms.locfileid: "94718997"
+ms.lasthandoff: 12/09/2020
+ms.locfileid: "96907116"
 ---
-# <a name="tutorial-embed-power-bi-content-into-an-application-for-your-customers"></a>教程：为客户将 Power BI 内容嵌入应用中
+# <a name="tutorial-embed-power-bi-content-using-a-sample-embed-for-your-customers-application"></a>教程：使用“为客户嵌入内容”应用程序嵌入 Power BI 内容
 
-借助 Azure 中的 Power BI Embedded 或 Office 中嵌入的 Power BI，可以使用“应用拥有数据”将报表、仪表板或磁贴嵌入到应用程序中 。 **应用拥有数据** 是指将使用 Power BI 的应用程序作为其嵌入式分析平台。 ISV 或开发者可以创建 Power BI 内容以便在完全集成并交互的应用程序中显示报表、仪表板或磁贴，用户无需 Power BI 许可证 。 本教程演示如何使用 Power BI .NET SDK 以及 Power BI JavaScript API 将报表集成到应用程序中。
+通过“嵌入式分析”和“Power BI Embedded”，可以将 Power BI 内容（例如报表、仪表板和磁贴）嵌入到应用程序中 。
 
-![Power BI 嵌入报表](media/embed-sample-for-customers/embed-sample-for-customers-035.png)
+本教程介绍以下操作：
+>[!div class="checklist"]
+>* 设置嵌入式环境。
+>* 配置“为客户嵌入内容”（也称为“应用拥有数据”）示例应用程序 。
 
-在本教程中，了解如何：
-> [!div class="checklist"]
-> * 在 Azure 中注册应用程序。
-> * 将 Power BI 报表嵌入到应用程序。
+用户无需登录到 Power BI 或拥有 Power BI 许可证即可使用应用程序。
+
+如果你是独立软件供应商 (ISV) 或开发人员，并希望为第三方创建应用程序，建议你使用“为客户嵌入内容”方法来嵌入 Power BI 内容。
+
+## <a name="code-sample-specifications"></a>代码示例规范
+
+本教程说明了如何采用下列语言之一配置“为客户嵌入内容”示例应用程序：
+
+* .NET framework
+* .NET Core
+* Java
+* Node JS
+* Python
+
+代码示例支持下列浏览器：
+
+* Google Chrome
+
+* Microsoft Edge
+
+* Mozilla Firefox
 
 ## <a name="prerequisites"></a>先决条件
 
-若要开始使用，则需要具有：
+开始学习本教程之前，请确认你具有下方列出的 Power BI 和代码依赖项：
 
-* [Power BI Pro 帐户](../../fundamentals/service-self-service-signup-for-power-bi.md)（包含用户名和密码的主帐户，用于登录 Power BI Pro 帐户），或[服务主体（仅限应用的令牌）](embed-service-principal.md)。
-* 需要设置自己的 [Azure Active Directory 租户](create-an-azure-active-directory-tenant.md)。
+* **Power BI 依赖项**
 
-如果未注册 Power BI Pro，请在开始之前[注册以获得免费试用](https://powerbi.microsoft.com/pricing/)。
+    * 你自己的 [Azure Active Directory 租户](create-an-azure-active-directory-tenant.md)。
+
+    * 若要向 Power BI 对应用进行身份验证，需执行以下操作之一：
+
+        * [服务主体](embed-service-principal.md) - 允许 Azure AD 对应用进行身份验证的 Azure Active Directory (Azure AD) [服务主体对象](/azure/active-directory/develop/app-objects-and-service-principals#service-principal-object)。
+
+        * [Power BI Pro](../../admin/service-admin-purchasing-power-bi-pro.md) 许可证 - 这将是你的主用户，你的应用将使用它来向 Power BI 进行身份验证。
+
+        * Power BI [Premium Per User (PPU)](../../admin/service-premium-per-user-faq.md) 许可证 - 这将是你的主用户，你的应用将使用它来向 Power BI 进行身份验证。
+
+    >[!NOTE]
+    >若要[迁移到生产环境](move-to-production.md)，则需要[容量](embedded-capacity.md)。
+
+* **代码依赖项**
+
+    # <a name="net-framework"></a>[.NET Framework](#tab/net-framework)
+    
+    * [.NET Framework 4.8](https://dotnet.microsoft.com/download/dotnet-framework/)
+    
+    * [Visual Studio](https://visualstudio.microsoft.com/)
+    
+    
+    # <a name="net-core"></a>[.NET Core](#tab/net-core)
+    
+    * [.NET Core 3.1 SDK](https://dotnet.microsoft.com/download/dotnet-core)（或更高版本）
+    
+    * 集成开发环境 (IDE)。 建议使用以下项之一：
+    
+        * [Visual Studio](https://visualstudio.microsoft.com/)
+    
+        * [Visual Studio Code](https://code.visualstudio.com/)
+
+    # <a name="java"></a>[Java](#tab/java)
+    
+    * [JDK（或 JRE）](https://www.oracle.com/java/technologies/)
+    
+    * [Eclipse IDE](https://www.eclipse.org/downloads/packages/) - 确认具有 Eclipse for Java EE Developers（企业版）
+    
+    * [Apache Tomcat Binary Distributions](https://tomcat.apache.org/)
+    
+    # <a name="node-js"></a>[Node JS](#tab/node-js)
+    
+    * [.NET Framework 4.8](https://dotnet.microsoft.com/download/dotnet-framework/)
+    
+    * 集成开发环境 (IDE)。 建议使用以下项之一：
+    
+        * [Visual Studio](https://visualstudio.microsoft.com/)
+    
+        * [Visual Studio Code](https://code.visualstudio.com/)
+    
+    # <a name="python"></a>[Python](#tab/python)
+    
+    * [Python 3](https://www.python.org/downloads/)（或更高版本）
+    
+        >[!NOTE]
+        >* 如果是首次安装 Python，请选择“将 Python 添加到 PATH”选项，以将安装添加到 `PATH` 变量。
+        >* 如果已安装 Python，请确认 `PATH` 变量包括其安装路径。 有关详细信息，请参阅[附录：设置环境变量](https://docs.python.org/3/using/windows.html#excursus-setting-environment-variables) Python 文档（此链接指的是 Python 3）。
+    
+    * 集成开发环境 (IDE)。 建议使用以下项之一：
+    
+        * [Visual Studio](https://visualstudio.microsoft.com/)
+    
+        * [Visual Studio Code](https://code.visualstudio.com/)
+    
+    ---
+
+## <a name="method"></a>方法
+
+若要创建“为客户嵌入内容”示例应用，请执行以下步骤：
+
+1. [选择身份验证方法](#step-1---select-your-authentication-method)。
+
+2. [注册 Azure AD 应用程序](#step-2---register-an-azure-ad-application)。
+
+3. [创建 Power BI 工作区](#step-3---create-a-power-bi-workspace)。
+
+4. [创建并发布 Power BI 报表](#step-4---create-and-publish-a-power-bi-report)。
+
+5. [获取嵌入的参数值](#step-5---get-the-embedding-parameter-values)。
+
+6. [服务主体 API 访问](#step-6---service-principal-api-access)
+ 
+7. [启用工作区访问](#step-7---enable-workspace-access)。
+
+8. [嵌入内容](#step-8---embed-your-content)。
+
+## <a name="step-1---select-your-authentication-method"></a>步骤 1 - 选择身份验证方法
+
+嵌入式解决方案将因所选的身份验证方法而异。 因此，请先了解身份验证方法之间的区别，然后再确定最适合你的解决方案的方法。
+
+下表描述了[服务主体](embed-service-principal.md)与主用户身份验证方法之间的一些主要差异。
+
+|注意事项  |服务主体  |主用户  |
+|---------|---------|---------|
+|机制     |Azure AD 应用的[服务主体对象](/azure/active-directory/develop/app-objects-and-service-principals.md#service-principal-object)允许 Azure AD 向 Power BI 对嵌入式解决方案应用进行身份验证。        |Azure AD 应用使用 Power BI 用户的凭据（用户名和密码）向 Power BI 进行身份验证。         |
+|安全性     |服务主体是 Azure AD 建议的授权方法。 如果使用服务主体，则可使用应用程序机密或证书进行身份验证 。</br></br>本教程仅介绍如何结合使用服务主体和应用程序机密 。 若要使用服务主体和证书嵌入内容，请参阅[服务主体和证书](embed-service-principal-certificate.md)一文 。         |此身份验证方法不如使用服务主体安全。 这是因为必须警惕主用户凭据（用户名和密码）。 例如，不能在嵌入的应用程序中公开它们，而应经常更改密码。         |
+|Azure AD 委托的权限 |不需要。 |你的主用户或管理员必须授予你的应用访问 Power BI REST API [权限](/azure/active-directory/develop/v2-permissions-and-consent)（也称为范围）的许可。 例如 Report.ReadWrite.All。 |
+|Power BI 服务的访问 |无法使用服务主体访问 Power BI 服务。|可使用主用户凭据访问 Power BI 服务。|
+|许可证     |不需要 Pro 许可证。 可使用任何工作区中的内容（如果你是该工作区的成员或管理员）。         |需要 [Power BI Pro](../../admin/service-admin-purchasing-power-bi-pro.md) 许可证。         |
+
+## <a name="step-2---register-an-azure-ad-application"></a>步骤 2 - 注册 Azure AD 应用程序
+
+向 Azure AD 注册应用程序可以：
+> [!div class="checklist"]
+>* 为应用创建标识
+>* 让你的应用访问 [Power BI REST API](/rest/api/power-bi/)
+>* 如果使用主用户：请指定应用的 [Power BI REST 权限](/azure/active-directory/develop/v2-permissions-and-consent)
+
+若要向 Azure AD 注册应用程序，请按照 [注册应用程序](register-app.md)中的说明进行操作。
 
 >[!NOTE]
->不支持 [Premium Per User (PPU)](../../admin/service-premium-per-user-faq.md)。 PPU 可用于对“为客户嵌入内容”解决方案进行试验，但无法[投入生产](embed-sample-for-customers.md#move-to-production)。
+>注册应用程序之前，需要确定要使用的身份验证方法、服务主体或主用户 。
 
-## <a name="set-up-your-embedded-analytics-development-environment"></a>设置嵌入式分析开发环境
+## <a name="step-3---create-a-power-bi-workspace"></a>步骤 3 - 创建 Power BI 工作区
 
-开始将报表、仪表板或磁贴嵌入应用前，需要先确保环境允许通过 Power BI 进行嵌入。
+Power BI 将报表、仪表板和磁贴存储在工作区中。 若要嵌入这些项，需要创建它们并将其上传到工作区。
 
-你可通过完成[嵌入安装工具](https://app.powerbi.com/embedsetup)，快速开始并下载可帮助你逐步创建环境和嵌入报表的示例应用程序。
+>[!TIP]
+>如果你已具有工作区，则可跳过此步骤。
 
-但是，如果选择手动设置环境，则可以继续进行下面的操作。
+若要创建工作区，请执行以下操作：
 
-### <a name="register-an-application-in-azure-active-directory-azure-ad"></a>在 Azure Active Directory (Azure AD) 中注册应用程序
+1. 登录到 Power BI。
 
-向 Azure Active Directory [注册应用程序](register-app.md)，以允许应用程序访问 [Power BI REST API](/rest/api/power-bi/)。 通过注册应用，可以建立应用标识，并指定[对 Power BI REST 资源的权限](/azure/active-directory/develop/v2-permissions-and-consent)。 根据你想要使用主帐户还是[服务主体](embed-service-principal.md)，确定如何开始注册应用程序。
+2. 选择“工作区”。
 
-根据所采用的方法，影响 Azure 中注册的应用程序类型。
+3. 选择“创建工作区”。
 
-如果继续使用主帐户，则通过注册本机应用继续。 由于使用非交互式登录，因此使用本机应用。
+4. 为工作区命名，然后选择“保存”。
 
-但如果继续使用服务主体，则需要通过注册“服务器端 Web 应用程序”应用继续。 注册服务器端 Web 应用程序以创建应用程序密码。
+## <a name="step-4---create-and-publish-a-power-bi-report"></a>步骤 4 - 创建并发布 Power BI 报表
 
-## <a name="set-up-your-power-bi-environment"></a>设置 Power BI 环境
+下一步是创建报表并将其上传到工作区。 你可使用 Power BI Desktop [创建自己的报表](/powerbi-docs/fundamentals/desktop-getting-started#build-reports)，然后将其[发布](/powerbi-docs/fundamentals/desktop-getting-started#share-your-work)到工作区。 也可将示例报表上传到你的工作区。
 
-### <a name="create-a-workspace"></a>创建工作区
+>[!Tip]
+>如果你的工作区中已有一个报表，则可跳过此步骤。
 
-如果为客户嵌入报表、仪表板或磁贴，则必须将内容放在工作区中。 具有可以设置的不同类型工作区：[传统工作区](../../collaborate-share/service-create-workspaces.md)或[新工作区](../../collaborate-share/service-create-the-new-workspaces.md)。 如果使用的是主帐户，则所用工作区类型并不重要。 然而，如果使用[服务主体](embed-service-principal.md)登录应用程序，则需要使用新工作区。 在任一方案中，主帐户或服务主体必须是应用程序有关的工作区的管理员 。
+若要下载示例报表并将其发布到工作区，请执行以下步骤：
 
-### <a name="create-and-publish-your-reports"></a>创建并发布报表
+1. 打开 GitHub [Power BI Desktop 示例](https://github.com/microsoft/PowerBI-Developer-Samples)文件夹。
 
-可使用 Power BI Desktop 创建报表和数据集，然后将这些报表发布到工作区。 可通过两种方式完成此任务：作为最终用户，可以使用主帐户（Power BI Pro 许可证）将报表发布到传统工作区。 如果使用服务主体，则可以使用 [Power BI REST API](/rest/api/power-bi/imports/postimportingroup) 将报表发布到新工作区。
+2. 选择“代码”，再选择“下载 zip” 。
 
-以下步骤介绍如何将 PBIX 报表发布到 Power BI 工作区。
+    :::image type="content" source="media/embed-sample-for-customers/download-sample-report.png" alt-text="在 Power BI桌面示例 GitHub 中显示 ZIP 下载选项的屏幕截图":::
 
-1. 从 GitHub 下载示例[博客演示](https://github.com/Microsoft/powerbi-desktop-samples)。
+3. 提取已下载的 ZIP 并导航到“Samples Reports”文件夹。
 
-    ![报表示例](media/embed-sample-for-customers/embed-sample-for-customers-026-1.png)
+4. 选择要嵌入的报表，并将其[发布](/powerbi-docs/fundamentals/desktop-getting-started#share-your-work)到工作区。
 
-2. 在 Power BI Desktop 中打开示例 PBIX 报表。
+## <a name="step-5---get-the-embedding-parameter-values"></a>步骤 5 - 获取嵌入的参数值
 
-   ![PBI Desktop 报表](media/embed-sample-for-customers/embed-sample-for-customers-027.png)
+若要嵌入内容，需要获取某些参数值。 下表显示了所需的值并指出了它们是适用于服务主体身份验证方法、主用户身份验证方法还是同时适用于这两种方法 。
 
-3. 发布到“工作区”。 根据是否使用主帐户（Power Pro 许可证）或服务主体，此过程有所不同。 如果使用主帐户，则可以通过 Power BI Desktop 发布报表。  现在，如果使用服务主体，则必须使用 Power BI REST API。
+嵌入内容之前，请确保你具有下方列出的所有值。 某些值将有所不同，具体取决于所使用的身份验证方法：
 
-## <a name="embed-content-using-the-sample-application"></a>使用示例应用程序嵌入内容
+|参数   |服务主体   |主用户  |
+|-------------------|---|---|
+|[客户端 ID](#client-id) |![适用于](../../media/yes.png) |![适用于](../../media/yes.png) |
+|[工作区 ID](#workspace-id)     |![适用于](../../media/yes.png) |![适用于](../../media/yes.png) |
+|[报表 ID](#report-id)           |![适用于](../../media/yes.png) |![适用于](../../media/yes.png) |
+|[客户端机密](#client-secret) |![适用于](../../media/yes.png) |![不适用于：](../../media/no.png) |
+|[租户 ID](#tenant-id)                 |![适用于](../../media/yes.png) |![不适用于：](../../media/no.png) |
+|[Power BI 用户名](#power-bi-username-and-password)   |![不适用于：](../../media/no.png) |![适用于](../../media/yes.png) |
+|[Power BI 密码](#power-bi-username-and-password)   |![不适用于：](../../media/no.png) |![适用于](../../media/yes.png) |
 
-为了便于演示，故意采用简单的示例。 应该由你或开发人员保护应用程序密码或主帐户凭据。
+### <a name="client-id"></a>客户端 ID
 
-请按照以下步骤，使用示例应用程序开始嵌入内容。
+>[!TIP]
+>**适用于：** ![适用于：](../../media/yes.png)服务主体 ![适用于：](../../media/yes.png)主用户
 
-1. 下载 [Visual Studio](https://www.visualstudio.com/)（2013 版或更高版本）。 请务必下载最新版 [NuGet 包](https://www.nuget.org/profiles/powerbi)。
+若要获取客户端 ID GUID（也称为“应用程序 ID”），请执行以下步骤：
 
-2. 从 GitHub 下载[应用拥有数据示例](https://github.com/Microsoft/PowerBI-Developer-Samples)。
+1. 登录 [Microsoft Azure](https://ms.portal.azure.com/#allservices)。
 
-    ![“应用拥有数据”应用程序示例](media/embed-sample-for-customers/embed-sample-for-customers-026.png)
+2. 搜索“应用程序注册”，然后选择“应用程序注册”链接。
 
-3. 在示例应用程序中打开 Web.config 文件。 必须填写以下字段，才能运行应用程序。 可以对 AuthenticationType 选择 MasterUser 或 ServicePrincipal  。 你需要填充不同的字段，具体视选择的身份验证方法类型而定。
+3. 选择用于嵌入 Power BI 内容的 Azure AD 应用。
 
-    > [!Note]
-    > 本示例中的默认 AuthenticationType 是 MasterUser。
-
-    <center>
-
-    | **MasterUser** <br> （Power BI Pro 许可证） | **ServicePrincipal** <br> （仅限应用的令牌）|
-    |---------------|-------------------|
-    | [applicationId](#application-id) | [applicationId](#application-id) |
-    | [workspaceId](#workspace-id) | [workspaceId](#workspace-id) |
-    | [reportId](#report-id) | [reportId](#report-id) |
-    | [pbiUsername](#power-bi-username-and-password) |  |
-    | [pbiPassword](#power-bi-username-and-password) |  |
-    |  | [applicationsecret](#application-secret) |
-    |  | [tenant](#tenant) |
-
-   </center>
-
-    ![Web 配置文件](media/embed-sample-for-customers/embed-sample-for-customers-030.png)
-
-### <a name="application-id"></a>应用程序 ID
-
-这两种 AuthenticationType（主帐户和[服务主体](embed-service-principal.md)）均需要此属性。
-
-将 Azure 中的“应用 ID”填入“applicationId”字段。 应用使用“applicationId”对你向其请求获取权限的用户标识自身。
-
-若要获取“applicationId”，请按以下步骤操作：
-
-1. 登录到 [Azure 门户](https://portal.azure.com)。
-
-2. 在左侧导航窗格中，依次选择“所有服务”和“应用注册” 。
-
-    ![应用注册搜索](media/embed-sample-for-customers/embed-sample-for-customers-003.png)
-
-3. 选择需要 applicationId 的应用程序。
-
-    ![选择应用](media/embed-sample-for-customers/embed-sample-for-customers-006.png)
-
-4. 存在列为 GUID 的“应用程序 ID”。 使用此“应用 ID”作为应用的“applicationId”。
-
-    ![applicationId](media/embed-sample-for-customers/embed-sample-for-customers-007.png)
+4. 从“概述”部分，复制“应用程序(客户端) ID”GUID 。
 
 ### <a name="workspace-id"></a>工作区 ID
 
-这两种 AuthenticationType（主帐户和[服务主体](embed-service-principal.md)）均需要此属性。
+>[!TIP]
+>**适用于：** ![适用于：](../../media/yes.png)服务主体 ![适用于：](../../media/yes.png)主用户
 
-使用 Power BI 中的“工作区(组) GUID”填写“workspaceId”信息。 若要获取此信息，可以在登录 Power BI 服务时使用 URL，也可以使用 PowerShell。
+若要获取工作区 ID GUID，请执行以下步骤：
 
-URL <br>
+1. 登录 Power BI 服务。
 
-![workspaceId](media/embed-sample-for-customers/embed-sample-for-customers-031.png)
+2. 打开要嵌入的报表。
 
-PowerShell <br>
+3. 复制 URL 中的 GUID。 GUID 是 /groups/ 和 /reports/ 之间的数字 。
 
-```powershell
-Get-PowerBIworkspace -name "App Owns Embed Test"
-```
-
-   ![PowerShell 中的 workspaceId](media/embed-sample-for-customers/embed-sample-for-customers-031-ps.png)
+    :::image type="content" source="media/embed-sample-for-customers/workspace-id.png" alt-text="显示 Power BI 服务 URL 中的工作区 ID GUID 的屏幕截图":::
 
 ### <a name="report-id"></a>报表 ID
 
-这两种 AuthenticationType（主帐户和[服务主体](embed-service-principal.md)）均需要此属性。
+>[!TIP]
+>**适用于：** ![适用于：](../../media/yes.png)服务主体 ![适用于：](../../media/yes.png)主用户
 
-使用 Power BI 中的“报表 GUID”填写“reportId”信息。 若要获取此信息，可以在登录 Power BI 服务时使用 URL，也可以使用 PowerShell。
+1. 登录 Power BI 服务。
 
-URL<br>
+2. 打开要嵌入的报表。
 
-![reportId](media/embed-sample-for-customers/embed-sample-for-customers-032.png)
+3. 复制 URL 中的 GUID。 GUID 是 /reports/ 和 /ReportSection 之间的数字 。
 
-PowerShell <br>
+    :::image type="content" source="media/embed-sample-for-customers/report-id.png" alt-text="显示 Power BI 服务 URL 中的报表 ID GUID 的屏幕截图":::
 
-```powershell
-Get-PowerBIworkspace -name "App Owns Embed Test" | Get-PowerBIReport
-```
+### <a name="client-secret"></a>客户端机密
 
-![PowerShell 中的 reportId](media/embed-sample-for-customers/embed-sample-for-customers-032-ps.png)
+>[!TIP]
+>**适用于：** ![适用于：](../../media/yes.png)服务主体 ![不适用于：](../../media/no.png)主服务
+
+若要获取客户端机密，请执行下列步骤：
+
+1. 登录 [Microsoft Azure](https://ms.portal.azure.com/#allservices)。
+
+2. 搜索“应用程序注册”，然后选择“应用程序注册”链接。
+
+3. 选择用于嵌入 Power BI 内容的 Azure AD 应用。
+
+4. 在“管理”下，选择“证书和机密”。  
+
+5. 在“客户端机密”下，选择“新建客户端密钥” 。
+
+6. 在“添加客户端机密”弹出窗口中，提供应用程序机密的说明，选择应用程序机密过期时间，然后选择“添加” 。
+
+7. 从“客户端机密”部分，复制新创建的应用程序机密的“值”列中的字符串 。 客户端机密值为你的客户端 ID。
+
+### <a name="tenant-id"></a>租户 ID
+
+>[!TIP]
+>**适用于：** ![适用于：](../../media/yes.png)服务主体 ![不适用于：](../../media/no.png)主服务
+
+若要获取租户 ID GUID，请执行以下步骤：
+
+1. 登录 [Microsoft Azure](https://ms.portal.azure.com/#allservices)。
+
+2. 搜索“应用程序注册”，然后选择“应用程序注册”链接。
+
+3. 选择用于嵌入 Power BI 内容的 Azure AD 应用。
+
+4. 从“概述”部分，复制“目录(租户) ID”GUID 。
 
 ### <a name="power-bi-username-and-password"></a>Power BI 用户名和密码
 
-仅主帐户 AuthenticationType 需要这些属性。
+>[!TIP]
+>**适用于：** ![不适用于：](../../media/no.png)服务主体 ![适用于：](../../media/yes.png)主用户
 
-如果使用[服务主体](embed-service-principal.md)进行身份验证，则无需填写用户名或密码属性。
+获取用作主用户的 Power BI 用户的用户名和密码 。 此用户与用于创建工作区并将报表上传到 Power BI 服务的用户相同。
 
-* 使用 Power BI 主帐户填写“pbiUsername”。
-* 使用 Power BI 主帐户的密码填写“pbiPassword”。
+## <a name="step-6---service-principal-api-access"></a>步骤 6 - 服务主体 API 访问
 
-### <a name="application-secret"></a>应用程序密码
+>[!TIP]
+>**适用于：** ![适用于：](../../media/yes.png)服务主体 ![不适用于：](../../media/no.png)主服务
+>
+>仅当使用服务主体身份验证方法时，此步骤才适用。 如果使用主用户，请跳过此步骤，并继续执行步骤 7（[启用工作区访问](#step-7---enable-workspace-access)）。
 
-仅[服务主体](embed-service-principal.md) AuthenticationType 需要此属性。
+为了让 Azure AD 应用程序能够访问 Power BI 内容和 API，Power BI 管理员必须在 Power BI 管理门户中启用服务主体访问权限。 如果你不是租户的管理员，请让租户的管理员为你启用“租户设置”。
+        
+1. 在 Power BI 服务中，选择“设置” > “设置” > “管理员门户”  。
+        
+    :::image type="content" source="media/embed-sample-for-customers/admin-settings.png" alt-text="显示 Power B I“服务设置”菜单中的“管理员设置”菜单选项的屏幕截图":::
+        
+2. 选择“租户设置”，然后向下滚动到“开发人员设置”部分 。
+        
+3. 展开“允许服务主体使用 Power BI API”，然后启用此选项。
+        
+    :::image type="content" source="media/embed-sample-for-customers/developer-settings.png" alt-text="显示如何启用 Power B I 服务中“租户设置”菜单选项中的“开发人员设置”选项的屏幕截图":::
+        
+>[!NOTE]
+>使用服务主体时，建议使用安全组限制对租户设置的访问 。 若要了解有关此功能的详细信息，请参阅[服务主体](embed-service-principal.md)文章中的以下部分：
+> * [创建 Azure AD 安全组](embed-service-principal.md#step-2---create-an-azure-ad-security-group)
+>* [启用 Power BI 服务管理设置](embed-service-principal.md#step-3---enable-the-power-bi-service-admin-settings)
 
-将 Azure 的“应用注册”部分中的“密钥”部分信息填入“ApplicationSecret”字段。  使用[服务主体](embed-service-principal.md)时，此属性适用。
+## <a name="step-7---enable-workspace-access"></a>步骤 7 - 启用工作区访问
 
-若要获取“ApplicationSecret”，请按以下步骤操作：
+要使 Azure AD 应用能够访问 Power BI 服务中的项目（如报表、仪表板和数据集），请以成员或管理员身份将服务主体或主用户添加到工作区   。
 
-1. 登录 [Azure 门户](https://portal.azure.com)。
+1. 登录 Power BI 服务。
 
-2. 在左侧导航窗格中，依次选择“所有服务”和“应用注册” 。
+2. 滚动到要能够访问的工作区，然后选择“更多”菜单中的“工作区访问”。
 
-    ![应用注册搜索](media/embed-sample-for-customers/embed-sample-for-customers-003.png)
+    :::image type="content" source="media/embed-service-principal/workspace-access.png" alt-text="显示 Power BI 工作区的“更多”菜单中的“工作区访问”按钮的屏幕截图。":::
 
-3. 选择需要使用“ApplicationSecret”的应用。
+3. 在“访问”窗格中，根据所使用的身份验证方法，将服务主体或主用户复制到“输入电子邮件地址”文本框中 。
 
-    ![选择一个应用](media/embed-sample-for-customers/embed-sample-for-customers-0038.png)
+    >[!NOTE]
+    >如果使用的是服务主体，则服务主体的名称就是你为 Azure AD 应用指定的名称。
 
-4. 在“管理”下选择“证书和密码” 。
+5. 选择 **添加** 。
 
-5. 选择“新的客户端密码”。
+## <a name="step-8---embed-your-content"></a>步骤 8 - 嵌入内容
 
-6. 在“说明”框中输入一个名称并选择持续时间。 然后选择“保存”为应用程序获取“值”。  如果在保存密钥值后关闭“密钥”窗格，值字段会仅显示为隐藏状态。 此时，你无法检索密钥值。 如果忘记了密钥值，请在 Azure 门户中新建密钥值。
+使用 Power BI Embedded 示例应用程序，可以创建“为客户嵌入内容”Power BI 应用。
 
-    ![密钥值](media/embed-sample-for-customers/embed-sample-for-customers-042.png)
+请按照以下步骤来修改“为客户嵌入内容”示例应用程序，以便嵌入 Power BI 报表。  
 
-### <a name="tenant"></a>租户
+1. 打开 [Power BI 开发人员示例](https://github.com/microsoft/PowerBI-Developer-Samples)文件夹。
 
-仅[服务主体](embed-service-principal.md) AuthenticationType 需要此属性。
+2. 选择“代码”，再选择“下载 zip” 。
 
-使用 Azure 租户 ID 填写“租户”信息。 若要获取此信息，可以在登录 Power BI 服务时使用 [Azure AD 管理中心](/onedrive/find-your-office-365-tenant-id)，也可以使用 PowerShell。
+    :::image type="content" source="media/embed-sample-for-customers/developer-samples.png" alt-text="在 Power BI 开发人员示例 GitHub 中显示 ZIP 下载选项的屏幕截图":::
 
-### <a name="run-the-application"></a>运行应用程序
+3. 提取已下载的 ZIP 并导航到“PowerBI-Developer-Samples-master”文件夹。
 
-1. 在“Visual Studio”中选择“运行”。
+4. 根据你希望应用程序使用的语言，打开以下文件夹之一：
 
-    ![运行应用程序](media/embed-sample-for-customers/embed-sample-for-customers-033.png)
+* .NET Core
+* .NET Framework
+* Java
+* Node JS
+* Python
+    >[!NOTE]
+    >“为客户嵌入内容”示例应用程序仅支持上面列出的语言。 “React TS”示例应用程序仅支持[为组织嵌入内容](embed-sample-for-your-organization.md)解决方案 。
 
-2. 然后，选择“嵌入报表”。 根据你选择测试使用的内容（报表、仪表板或磁贴），在应用程序中选择该选项。
+5. 打开“Embed for your customers”文件夹。
 
-    ![选择内容](media/embed-sample-for-customers/embed-sample-for-customers-034.png)
+# <a name="net-core"></a>[.NET Core](#tab/net-core)
 
-3. 现在，可以在示例应用程序查看报表。
+6. 使用以下方法之一打开“为客户嵌入内容”示例应用：
 
-    ![查看应用程序](media/embed-sample-for-customers/embed-sample-for-customers-035.png)
+    * 如果使用 [Visual Studio](https://visualstudio.microsoft.com/)，请打开 AppOwnsData.sln 文件。
 
-## <a name="embed-content-within-your-application"></a>在应用程序中嵌入内容
+    * 如果使用 [Visual Studio](https://code.visualstudio.com/)，请打开“App Owns Data”文件夹。
 
-即使已使用 [Power BI REST API](/rest/api/power-bi/) 完成嵌入内容的步骤，也可使用 .NET SDK 编写本文中所述的示例代码。
+7. 打开 appsettings.json。
 
-客户在应用程序中嵌入内容时，需要从 Azure AD 获取主帐户或[服务主体](embed-service-principal.md)的访问令牌 。 必须为 Power BI 应用程序获取 [Azure AD 访问令牌](get-azuread-access-token.md#access-token-for-non-power-bi-users-app-owns-data)，然后才能对 [Power BI REST API](/rest/api/power-bi/) 进行调用。
+8. 根据身份验证方法，填写以下参数值：
 
-若要使用访问令牌创建 Power BI 客户端，不妨创建便于与 [Power BI REST API](/rest/api/power-bi/) 进行交互的 Power BI 客户端对象。 使用 Microsoft.Rest.TokenCredentials 对象包装“AccessToken”，以创建 Power BI 客户端对象。
+    |参数            |服务主体  |主用户  |
+    |---------------------|---------|---------|
+    |`AuthenticationMode` |服务主体         |MasterUser         |
+    |`ClientId`           |Azure 应用[客户端 ID](#client-id)。         |Azure 应用[客户端 ID](#client-id)。         |
+    |`TenantId`           |Azure AD [租户 ID](#tenant-id)         |空值         |
+    |`PbiUsername`        |空值         |主用户的用户名，请参阅 [Power BI 用户名和密码](#power-bi-username-and-password)         |
+    |`PbiPassword`        |空值         |主用户的密码，请参阅 [Power BI 用户名和密码](#power-bi-username-and-password)         |
+    |`ClientSecret`       |Azure AD [客户端机密](#client-secret)         |空值         |
+    |`WorkspaceId`        |包含嵌入报表的工作区的 ID，请参阅[工作区 ID](#workspace-id)          |包含嵌入报表的工作区的 ID，请参阅[工作区 ID](#workspace-id)         |
+    |`ReportId`           |要嵌入的报表的 ID，请参阅[报表 ID](#report-id)            |要嵌入的报表的 ID，请参阅[报表 ID](#report-id)         |
 
-```csharp
-using Microsoft.IdentityModel.Clients.ActiveDirectory;
-using Microsoft.Rest;
-using Microsoft.PowerBI.Api.V2;
+9. 通过选择适当的选项来运行项目：
 
-var tokenCredentials = new TokenCredentials(authenticationResult.AccessToken, "Bearer");
+    * 如果使用 Visual Studio，请选择“IIS Express”（播放） 。
 
-// Create a Power BI Client object. it's used to call Power BI APIs.
-using (var client = new PowerBIClient(new Uri(ApiUrl), tokenCredentials))
-{
-    // Your code to embed items.
-}
-```
+    * 如果使用 Visual Studio Code，请选择“运行”>“启动调试” 。
 
-### <a name="get-the-content-item-you-want-to-embed"></a>获取要嵌入的内容项
+# <a name="net-framework"></a>[.NET Framework](#tab/net-framework)
 
-可使用 Power BI 客户端对象检索对要嵌入的项的引用。
+6. 如果使用 [Visual Studio](https://visualstudio.microsoft.com/)，请打开 AppOwnsData.sln 文件。
 
-下面的代码示例展示了如何从给定工作区检索首个报表。
+7. 打开 Web.config。
 
-[示例应用程序](https://github.com/Microsoft/PowerBI-Developer-Samples)的 Services\EmbedService.cs file 文件中提供了获取内容项的示例，内容项包括报表、仪表板和希望嵌入的磁贴。
+8. 根据身份验证方法，填写以下参数值：
 
-```csharp
-using Microsoft.PowerBI.Api.V2;
-using Microsoft.PowerBI.Api.V2.Models;
+    |参数            |服务主体  |主用户  |
+    |---------------------|---------|---------|
+    |`authenticationType` |服务主体         |MasterUser         |
+    |`applicationId`           |Azure 应用[客户端 ID](#client-id)。         |Azure 应用[客户端 ID](#client-id)。         |
+    |`workspaceId`        |包含嵌入报表的工作区的 ID，请参阅[工作区 ID](#workspace-id)          |包含嵌入报表的工作区的 ID，请参阅[工作区 ID](#workspace-id)         |
+    |`reportId`           |要嵌入的报表的 ID，请参阅[报表 ID](#report-id)            |要嵌入的报表的 ID，请参阅[报表 ID](#report-id)         |
+    |`pbiUsername`        |空值         |主用户的用户名，请参阅 [Power BI 用户名和密码](#power-bi-username-and-password)         |
+    |`pbiPassword`        |空值         |主用户的密码，请参阅 [Power BI 用户名和密码](#power-bi-username-and-password)         |
+    |`applicationSecret`       |Azure AD [客户端机密](#client-secret)         |空值         |
+    |`tenant`           |Azure AD [租户 ID](#tenant-id)         |空值         |
 
-// You need to provide the workspaceId where the dashboard resides.
-ODataResponseListReport reports = await client.Reports.GetReportsInGroupAsync(workspaceId);
+9. 通过选择“IIS Express”（播放）来运行项目。
 
-// Get the first report in the group.
-Report report = reports.Value.FirstOrDefault();
-```
+>[!NOTE]
+>如果在运行示例应用时看不到嵌入的报表，请按照以下步骤刷新 Power BI 包：
+>1. 右键单击项目名称 (AppOwnesData)，然后选择“管理 NuGet 包”。
+>2. 搜索 Power BI JavaScript，然后重新安装包。
+>
+>有关详细信息，请参阅[如何重新安装和更新包](/nuget/consume-packages/reinstalling-and-updating-packages)。
 
-### <a name="create-the-embed-token"></a>创建嵌入令牌
-生成嵌入令牌，能够通过 JavaScript API 使用此令牌。 有两种类型的 API，第一组包含五个 API，每个 API 生成特定项的嵌入令牌。 第二组仅包含一个 API，生成一个可用于嵌入多个项的令牌。
+# <a name="java"></a>[Java](#tab/java)
 
-用于生成特定项的嵌入令牌的 API
+6. 打开 Eclipse 并按照下方的说明进行操作。
 
-使用这些 API 创建的嵌入令牌特定于要嵌入的项。 无论何时使用这些 API 嵌入 Power BI 项（例如报表、仪表板或磁贴），都需要为其创建新的嵌入令牌。
-* [仪表板 GenerateTokenInGroup](/rest/api/power-bi/embedtoken/dashboards_generatetokeningroup)
-* [数据集 GenerateTokenInGroup](/rest/api/power-bi/embedtoken/datasets_generatetokeningroup)
-* [报表 GenerateTokenForCreateInGroup](/rest/api/power-bi/embedtoken/reports_generatetokenforcreateingroup)
-* [报表 GenerateTokenInGroup](/rest/api/power-bi/embedtoken/reports_generatetokeningroup)
-* [磁贴 GenerateTokenInGroup](/rest/api/power-bi/embedtoken/tiles_generatetokeningroup)
-
-[示例应用程序](https://github.com/Microsoft/PowerBI-Developer-Samples)中的以下文件提供了为报表、仪表板或磁贴创建嵌入令牌的示例。
-* Services\EmbedService.cs
-* Models\EmbedConfig.cs
-* Models\TileEmbedConfig.cs
-
-下面是使用报表 GenerateTokenInGroup 嵌入令牌 API 的代码示例。
-```csharp
-using Microsoft.PowerBI.Api.V2;
-using Microsoft.PowerBI.Api.V2.Models;
-
-// Generate Embed Token.
-var generateTokenRequestParameters = new GenerateTokenRequest(accessLevel: "view");
-EmbedToken tokenResponse = client.Reports.GenerateTokenInGroup(workspaceId, report.Id, generateTokenRequestParameters);
-
-// Generate Embed Configuration.
-var embedConfig = new EmbedConfig()
-{
-    EmbedToken = tokenResponse,
-    EmbedUrl = report.EmbedUrl,
-    Id = report.Id
-};
-```
-
-用于生成多个项的嵌入令牌的 API<a id="multiEmbedToken"></a>
-
-[生成令牌](/rest/api/power-bi/embedtoken/generatetoken)嵌入 API 会生成一个令牌，该令牌可用于嵌入多个项。
-
-还可用于在嵌入报表时动态选择数据集。 有关此 API 用法的详细信息，请参阅[动态绑定](embed-dynamic-binding.md)。
-
-
-下面是使用此 API 的示例。
- 
-```csharp
-using Microsoft.PowerBI.Api.V2;
-using Microsoft.PowerBI.Api.V2.Models;
-
-var reports = new List<GenerateTokenRequestV2Report>()
-{ 
-    new GenerateTokenRequestV2Report()
-    {
-        AllowEdit = false,
-        Id = report1.Id
-    },
-    new GenerateTokenRequestV2Report()
-    {
-        AllowEdit = true,
-        Id = report2.Id
-    }
-};
-
-var datasets= new List<GenerateTokenRequestV2Dataset>()
-{
-    new GenerateTokenRequestV2Dataset(dataset1.Id),
-    new GenerateTokenRequestV2Dataset(dataset2.Id),
-    new GenerateTokenRequestV2Dataset(dataset3.Id),
-};
-
-var targetWorkspaces = new List<GenerateTokenRequestV2TargetWorkspace>()
-{
-    new GenerateTokenRequestV2TargetWorkspace(workspace1.Id),
-    new GenerateTokenRequestV2TargetWorkspace(workspace2.Id),
-};
-
-var request = new GenerateTokenRequestV2()
-{
-    Datasets = datasets,
-    Reports = reports,
-    TargetWorkspaces = targetWorkspaces,
-};
-
-var token = client.GetClient().EmbedToken.GenerateToken(request);
-```
+    >[!NOTE]
+    >有关“为客户嵌入内容”的 Java 示例应用说明，请参阅 [Eclipse IDE for Java EE Developers](https://www.eclipse.org/downloads/packages/)（企业版）。 如果使用的是其他应用程序，则必须自行设置。
 
-### <a name="load-an-item-using-javascript"></a>使用 JavaScript 加载项
+7. 将 Tomcat 服务器添加到 Eclipse：
 
-可以使用 JavaScript 将报表加载到网页上的 div 元素中。
+    a. 选择“窗口” > “显示视图” > “服务器”  。
 
-有关使用 JavaScript API 的完整示例，可以使用[演练工具](https://microsoft.github.io/PowerBI-JavaScript/demo)。 操场工具是演练不同类型的 Power BI Embedded 示例的快速方法。 还可以通过访问 [PowerBI JavaScript wiki](https://github.com/Microsoft/powerbi-javascript/wiki) 页，获取有关 JavaScript API 的详细信息。
+    b. 在“服务器”选项卡中，选择“无可用服务器。请单击此链接创建新服务。”
 
-此示例对报表使用 EmbedConfig 模型和 TileEmbedConfig 模型及视图 。
+    c. 在“定义新服务器”窗口中，展开 Apache，然后选择要在计算机上运行的 Tomcat 服务器 。 例如 Tomcat v9.0 服务器。
 
-[示例应用程序](#embed-content-using-the-sample-application)的 Views\Home\EmbedReport.cshtml、Views\Home\EmbedDashboard.cshtml 或 Views\Home\Embedtile.cshtml 文件中提供了为报表、仪表板或磁贴添加视图的示例。
+    d. 选择“下一步”  。
 
-```javascript
-<script src="~/scripts/powerbi.js"></script>
-<div id="reportContainer"></div>
-<script>
-    // Read embed application token from Model
-    var accessToken = "@Model.EmbedToken.Token";
+    e. 在“Tomcat 服务器”窗口中，选择“浏览”并导航到包含 Tomcat 服务器的文件夹 。
 
-    // Read embed URL from Model
-    var embedUrl = "@Html.Raw(Model.EmbedUrl)";
+    f. 在“Tomcat 服务器”窗口中，选择“安装的 JRE” 。
 
-    // Read report Id from Model
-    var embedReportId = "@Model.Id";
+    g. 在“安装的 JRE”窗口中，选择可用的 JRE，然后选择“应用并关闭”。
 
-    // Get models. models contains enums that can be used.
-    var models = window['powerbi-client'].models;
+    h. 在“Tomcat 服务器”窗口中，选择“完成” 。 可以在“服务器”选项卡中查看 Tomcat 服务器。
 
-    // Embed configuration used to describe what and how to embed.
-    // This object is used when calling powerbi.embed.
-    // This also includes settings and options such as filters.
-    // You can find more information at https://github.com/Microsoft/PowerBI-JavaScript/wiki/Embed-Configuration-Details.
-    var config = {
-        type: 'report',
-        tokenType: models.TokenType.Embed,
-        accessToken: accessToken,
-        embedUrl: embedUrl,
-        id: embedReportId,
-        permissions: models.Permissions.All,
-        settings: {
-            filterPaneEnabled: true,
-            navContentPaneEnabled: true
-        }
-    };
+8. 在 Eclipse 中打开项目：
 
-    // Get a reference to the embedded report HTML element
-    var reportContainer = $('#reportContainer')[0];
+    >[!IMPORTANT]
+    >如果路径名称太长，Eclipse 可能会遇到问题。 若要避免此问题，请确认示例应用的文件夹在计算机的文件夹结构中未嵌入太深。
 
-    // Embed the report and display it within the div container.
-    var report = powerbi.embed(reportContainer, config);
-</script>
-```
+    a. 选择“文件”，然后选择“从文件系统打开项目” 。
 
-## <a name="move-to-production"></a>移动到生产环境
+    b. 在“从文件系统或存档中导入项目”窗口中，选择“目录”并打开 AppOwnsData 文件夹  。
 
-至此，你已完成应用程序的开发，接下来请回到工作区了解容量。
+    c. 选择“完成”。
 
-> [!Important]
-> 移动到生产环境需要容量。 必须向所有工作区（包含报表或仪表板的工作区以及包含数据集的工作区）分配容量。
+9. 将 Tomcat 服务器添加到项目：
 
-### <a name="create-a-capacity"></a>创建容量
+    a. 在“包资源管理器”窗格中，右键单击 AppOwnsData，然后选择“属性”  。
 
-通过创建容量，可以利用好客户的资源。 有两种类型的容量供你选择：
-* **Power BI Premium** 是租户级别的 Office 356 订阅，可在两个 SKU 系列（EM 和P）中使用 。嵌入 Power BI 内容时，此解决方案称为“Power BI 嵌入”。 有关此订阅的详细信息，请参阅[什么是 Power BI Premium？](../../admin/service-premium-what-is.md)
-* **Azure Power BI Embedded** - 可以从 [Microsoft Azure 门户](https://portal.azure.com)购买容量。 此订阅使用 A SKU。 有关如何创建 Power BI Embedded 容量的详细信息，请参阅[在 Azure 门户中创建 Power BI Embedded 容量](azure-pbie-create-capacity.md)。
-> [!NOTE]
-> 使用 A SKU 时，无法使用免费的 Power BI 许可证访问 Power BI 内容。
+    b. 在“AppOwnesData 的属性”窗口中，选择“目标运行时”，然后选择“Apache Tomcat”  。 此选择将包括你正在使用的 Apache Tomcat 版本，例如 Apache Tomact 9.0 。
 
-下表介绍了每个 SKU 的资源和限制。 若要确定最能满足你需求的容量，请参阅[应该为我的方案购买哪一个 SKU](./embedded-faq.md#which-solution-should-i-choose) 表。
+    c. 选择“应用并关闭”。
 
-| 容量节点 | 总虚拟核心 | 后端 V 核心 | RAM (GB) | 前端 V 核心 | DirectQuery/Live Connection（每秒） | 模型刷新并行度 |
-| --- | --- | --- | --- | --- | --- | --- |
-| EM1/A1 | 1 | 0.5 | 2.5 | 0.5 | 3.75 | 1 |
-| EM2/A2 | 2 | 1 | 5 | 1 | 7.5 | 2 |
-| EM3/A3 | 4 | 2 | 10 | 2 | 15 | 3 |
-| P1/A4 | 8 | 4 | 25 | 4 | 30 | 6 |
-| P2/A5 | 16 | 8 | 50 | 8 | 60 | 12 |
-| P3/A6 | 32 | 16 | 100 | 16 | 120 | 24 |
-| | | | | | | |
+10. 填写必填参数。
 
-### <a name="development-testing"></a>开发测试
+    a. 在“包资源管理器”中，展开 AppOwnsData 项目 。
 
-对于开发测试，你可将嵌入试用令牌用于 Pro 许可证。 若要嵌入到生产环境，请使用容量。
+    b. 展开“Java 资源”。
 
-Power BI 服务主体或主帐户可以生成的嵌入试用令牌的数量是有限的。 使用 [Available Features](/rest/api/power-bi/availablefeatures/getavailablefeatures) API 来检查当前嵌入使用情况的百分比。 显示了每个服务主体或主帐户的使用量。
+    c. 展开 src。
 
-如果测试时用完了嵌入令牌，则需要购买 Power BI Embedded 或高级[容量](embedded-capacity.md)。 为容量生成嵌入令牌时，可生成的数量不受限制。
+    d. 展开 com.embedsample.appoensdata.config。
 
+    e. 打开 Config.java。
 
-### <a name="assign-a-workspace-to-a-capacity"></a>将工作区分配到容量
+    f. 根据身份验证方法，填写以下参数值：
 
-创建容量后，可将工作区分配给该容量。
+    |参数            |服务主体  |主用户  |
+    |---------------------|---------|---------|
+    |`authenticationType` |服务主体         |MasterUser         |
+    |`workspaceId`        |包含嵌入报表的工作区的 ID，请参阅[工作区 ID](#workspace-id)          |包含嵌入报表的工作区的 ID，请参阅[工作区 ID](#workspace-id)         |
+    |`reportId`           |要嵌入的报表的 ID，请参阅[报表 ID](#report-id)            |要嵌入的报表的 ID，请参阅[报表 ID](#report-id)         | 
+    |`clientId`           |Azure 应用[客户端 ID](#client-id)。         |Azure 应用[客户端 ID](#client-id)。         |
+    |`pbiUsername`        |空值         |主用户的用户名，请参阅 [Power BI 用户名和密码](#power-bi-username-and-password)         |
+    |`pbiPassword`        |空值         |主用户的密码，请参阅 [Power BI 用户名和密码](#power-bi-username-and-password)         |
+    |`tenantId`           |Azure AD [租户 ID](#tenant-id)         |空值         |
+    |`appSecret`       |Azure AD [客户端机密](#client-secret)         |空值         |
 
-所有包含与嵌入内容（包括数据集、报表和仪表板）相关的 Power BI 资源的工作区都必须分配给容量。 例如，如果嵌入的报表以及与其绑定的数据集位于不同工作区中，则必须将这两个工作区分配给容量。
+11. 运行项目
 
-若要使用[服务主体](embed-service-principal.md)将容量分配给工作区，请使用 [Power BI REST API](/rest/api/power-bi/capacities/groups_assigntocapacity)。 使用 Power BI REST API 时，请务必使用[服务主体对象 ID](embed-service-principal.md)。
+    a. 在包资源管理器中，右键单击 AppOwnesData 。
 
-请按照以下步骤，使用主帐户将容量分配给工作区。
+    b. 选择“运行方式”  > “在服务器上运行 ”。
 
-1. 在“Power BI 服务”中，展开工作区并针对要嵌入内容的工作区选择相应省略号。 然后选择“编辑工作区”。
+    c. 在“在服务器上运行”窗口中，选择“选择现有服务器”，再选择 Tomcat 服务器 。
 
-    ![编辑工作区](media/embed-sample-for-customers/embed-sample-for-customers-036.png)
+    d. 选择“完成”。
 
-2. 展开“高级”，启用“容量”，然后选择所创建的容量 。 然后，选择“保存”。
+# <a name="node-js"></a>[Node JS](#tab/node-js)
 
-    ![分配容量](media/embed-sample-for-customers/embed-sample-for-customers-024.png)
+6. 使用首选的 IDE 打开“App Owns Data”文件夹。 建议使用以下项之一：
 
-3. 选择“保存”后，应该会在工作区名称旁边看到一个钻石图形 。
+    * [Visual Studio](https://visualstudio.microsoft.com/)
 
-    ![与容量绑定的工作区](media/embed-sample-for-customers/embed-sample-for-customers-037.png)
+    * [Visual Studio Code](https://code.visualstudio.com/)
+
+7. 通过执行以下操作打开终端并安装所需的依赖项：`npm install`。
+
+8. 展开 Config 文件夹，然后打开 config.json 。
+
+9. 根据身份验证方法，填写以下参数值：
+
+    |参数            |服务主体  |主用户  |
+    |---------------------|---------|---------|
+    |`authenticationMode` |服务主体         |MasterUser         |
+    |`clientId`           |Azure 应用[客户端 ID](#client-id)。         |Azure 应用[客户端 ID](#client-id)。         |
+    |`workspaceId`        |包含嵌入报表的工作区的 ID，请参阅[工作区 ID](#workspace-id)          |包含嵌入报表的工作区的 ID，请参阅[工作区 ID](#workspace-id)         |
+    |`reportId`           |要嵌入的报表的 ID，请参阅[报表 ID](#report-id)            |要嵌入的报表的 ID，请参阅[报表 ID](#report-id)         |
+    |`pbiUsername`        |空值         |主用户的用户名，请参阅 [Power BI 用户名和密码](#power-bi-username-and-password)         |
+    |`pbiPassword`        |空值         |主用户的密码，请参阅 [Power BI 用户名和密码](#power-bi-username-and-password)         |
+    |`clientSecret`       |Azure AD [客户端机密](#client-secret)         |空值         |
+    |`tenantId`           |Azure AD [租户 ID](#tenant-id)         |空值         |
+
+10. 通过执行以下操作运行项目：
+
+    a. 在 IDE 终端中执行 `npm start`。
+
+    b. 在浏览器中打开新选项卡并导航到 [http://localhost:5300](http://localhost:5300)。
+
+# <a name="python"></a>[Python](#tab/python)
+
+6. 打开 PowerShell 或命令提示符 。
+
+7. 确认你处于 Python  > “Embed for your customers”文件夹中，并且该文件夹还包括 requirements.txt 文件，然后运行 `pip3 install -r requirements.txt`  。
+
+8. 使用首选的 IDE 打开“App Owns Data”文件夹。 建议使用以下项之一：
+
+    * [Visual Studio](https://visualstudio.microsoft.com/)
+
+    * [Visual Studio Code](https://code.visualstudio.com/)
+
+9. 打开 config.py。
+
+10. 根据身份验证方法，填写以下参数值：
+
+    |参数            |服务主体  |主用户  |
+    |---------------------|---------|---------|
+    |`AUTHENTICATION_MODE` |服务主体         |MasterUser         |
+    |`WORKSPACE_ID`        |包含嵌入报表的工作区的 ID，请参阅[工作区 ID](#workspace-id)          |包含嵌入报表的工作区的 ID，请参阅[工作区 ID](#workspace-id)         |
+    |`REPORT_ID`           |要嵌入的报表的 ID，请参阅[报表 ID](#report-id)            |要嵌入的报表的 ID，请参阅[报表 ID](#report-id)         |
+    |`TENANT_ID`           |Azure AD [租户 ID](#tenant-id)         |空值         |
+    |`CLIENT_ID`           |Azure 应用[客户端 ID](#client-id)。         |Azure 应用[客户端 ID](#client-id)。         |
+    |`CLIENT_SECRET`       |Azure AD [客户端机密](#client-secret)         |空值         |
+    |`POWER_BI_USER`        |空值         |主用户的用户名，请参阅 [Power BI 用户名和密码](#power-bi-username-and-password)         |
+    |`POWER_BI_PASS`        |空值         |主用户的密码，请参阅 [Power BI 用户名和密码](#power-bi-username-and-password)         |
+
+11. 保存文件。
+
+12. 通过执行以下操作运行项目：
+
+    a. 在 PowerShell 或命令提示符中，导航到 Python  > “Embed for your customers” > “AppOwnesData”文件夹，并执行 `flask run`    。
+
+    b. 在浏览器中打开新选项卡并导航到 [http://localhost:5300](http://localhost:5300)。
+
+---
+
+## <a name="developing-your-application"></a>开发应用程序
+
+配置并运行“为客户嵌入内容”示例应用程序后，可以开始开发自己的应用程序。
+
+准备就绪后，请查看[迁移到生产环境](move-to-production.md)要求。 还需要[容量](embedded-capacity.md)，并应查看[容量计划](embedded-capacity-planning.md)一文，以创建最能满足你需求的 SKU。
+
 
 ## <a name="next-steps"></a>后续步骤
 
-在本教程中，你学习了如何将 Power BI 内容嵌入到客户的应用程序中。 你也可以尝试为组织嵌入 Power BI 内容。
-
 > [!div class="nextstepaction"]
+>[转移到生产环境](move-to-production.md)
+
+>[!div class="nextstepaction"]
 >[为组织嵌入内容](embed-sample-for-your-organization.md)
 
-更多问题？ [尝试咨询 Power BI 社区](https://community.powerbi.com/)
+> [!div class="nextstepaction"]
+>[为客户嵌入分页报表](embed-paginated-reports-customers.md)
+
+> [!div class="nextstepaction"]
+>[为组织嵌入分页报表](embed-paginated-reports-organization.md)
+
+>[!div class="nextstepaction"]
+>[在 Power BI 社区提问](https://community.powerbi.com/)

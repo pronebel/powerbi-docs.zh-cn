@@ -9,12 +9,12 @@ ms.subservice: pbi-collaborate-share
 ms.topic: how-to
 ms.date: 09/30/2020
 LocalizationGroup: Share your work
-ms.openlocfilehash: d8e53e997aeef24d531cb733adc0b276a8395e57
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: f5a76783d91da610a447667a9ea648bbcebbdc8b
+ms.sourcegitcommit: cb6e0202de27f29dd622e47b305c15f952c5769b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96411600"
+ms.lasthandoff: 12/03/2020
+ms.locfileid: "96577615"
 ---
 # <a name="upgrade-classic-workspaces-to-the-new-workspaces-in-power-bi"></a>在 Power BI 中将经典工作区升级到新工作区
 
@@ -22,6 +22,10 @@ ms.locfileid: "96411600"
 
 >[!NOTE]
 >工作区升级已推出公共预览版。 
+
+>[!NOTE]
+>工作区升级可由 Power BI 管理员启动。工作区管理员在 Power BI 管理员升级其工作区时，会收到一封电子邮件。[了解详细信息](../admin/service-admin-portal.md#workspaces) 
+
 
 ![成功升级](media/service-upgrade-workspaces/power-bi-upgrade-success.png)
 
@@ -68,6 +72,7 @@ ms.locfileid: "96411600"
 - 经典工作区的 Microsoft 365 组不受 Power BI 中工作区升级的影响。 任何团队、SharePoint 站点、邮箱或由 Microsoft 365 管理的其他资源都不会发生变化。 升级 Power BI 工作区后，它们将保持不变。 Microsoft 365 组继续像以前一样存在。
 - 升级后，你的工作区的保护方式发生了变化。 有关详细信息，请参阅[升级后的工作区权限](#permissions-after-upgrade)部分。
 - 如有需要，可提供“退回到经典工作区”选项。 但是，它不会在升级之前完全还原工作区的某些方面。 如果开始使用仅适用于新工作区的功能，则无法退回。 升级后 30 天内可以使用退回选项。
+- Power BI 管理员可以启动工作区升级。 工作区管理员在 Power BI 管理员升级其工作区时，会收到一封电子邮件。
 
 ## <a name="permissions-after-upgrade"></a>升级后的权限
 
@@ -193,12 +198,14 @@ ms.locfileid: "96411600"
 
 ## <a name="manage-migration-to-the-new-workspaces-for-your-tenant"></a>为租户管理到新工作区的迁移 
 
-某些组织希望将多个或全部工作区移动到新工作区。 工作区升级工具重点介绍如何支持工作区管理员进行升级。 对于想要管理此类流程的组织，他们可以执行以下步骤。
+希望主动迁移到新工作区体验的组织可以通过 Power BI 管理门户来实现此目的。 Power BI 管理员可以选择一个或多个要升级的工作区。 Power BI 管理员启动的工作区升级与工作区管理员启动的工作区升级具有相同的注意事项和限制。 [了解详细信息](../admin/service-admin-portal.md#workspaces) 
+
+对于要管理此类流程的组织，建议执行以下步骤，确保与受影响的工作区管理员进行清晰的沟通。
 
 1. Power BI 管理门户和相应 API 中的工作区列表提供了 Power BI 中所有工作区的列表。 经典工作区在列表中显示为“类型组”。
-2. 与 Microsoft 365 组的单个所有者或管理员一起升级工作区。 如果要升级工作区，则需要成为该组的所有者。
+2. 与 Microsoft 365 组的单个所有者或管理员协作，告知他们你要升级其经典工作区的计划。
 
-工作区升级功能不提供用于批量升级或编程升级的工具。 此外，在你的组织中创建的新 Microsoft 365 组将继续显示在 Power BI 中。
+工作区升级功能不提供用于以编程方式进行升级的工具。 此外，在你的组织中创建的新 Microsoft 365 组将继续显示在 Power BI 中。
    
    
 ## <a name="known-issues"></a>已知问题
@@ -213,4 +220,5 @@ ms.locfileid: "96411600"
 * [在新工作区体验中整理工作](service-new-workspaces.md)
 * [创建新工作区](service-create-the-new-workspaces.md)
 * [创建经典工作区](service-create-workspaces.md)
+* [启动由 Power BI 管理员启动的工作区升级](../admin/service-admin-portal.md#workspaces)
 * 是否有任何问题? [尝试咨询 Power BI 社区](https://community.powerbi.com/)

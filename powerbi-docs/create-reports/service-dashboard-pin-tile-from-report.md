@@ -8,14 +8,14 @@ featuredvideoid: lJKgWnvl6bQ
 ms.service: powerbi
 ms.subservice: pbi-reports-dashboards
 ms.topic: how-to
-ms.date: 07/23/2019
+ms.date: 12/03/2020
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 5aa34834df49d54be885d94a1a1c06e13891ead1
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: ad3a38fa8aef4f5404196213ebd3c7b26d3fc3b8
+ms.sourcegitcommit: cb6e0202de27f29dd622e47b305c15f952c5769b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96417327"
+ms.lasthandoff: 12/03/2020
+ms.locfileid: "96578397"
 ---
 # <a name="pin-a-tile-to-a-power-bi-dashboard-from-a-report"></a>从报表将磁贴固定到 Power BI 仪表板
 
@@ -58,10 +58,12 @@ Watch Amanda 通过从 Power BI 报表固定视觉对象和图像创建仪表板
 
 有关详细信息，请参阅[固定整个报表页](service-dashboard-pin-live-tile-from-report.md)。
 
-> [!NOTE]
-> 在将视觉对象固定到仪表板时，某些格式设置选项不会应用于视觉对象。 在固定磁贴中将忽略边框、阴影和背景设置。 对于卡片视觉对象，用于值的文本始终使用“DIN”字体系列显示在仪表板中。 
-> 
->
+## <a name="limitations"></a>限制
+将某些报表格式设置选项或主题固定到仪表板时，它们不会应用于视觉对象。
+- 在固定磁贴中将忽略边框、阴影和背景设置。
+- 对于卡片视觉对象，用于值的文本使用 DIN 字体系列和黑色文本显示在仪表板中。 你可[创建自定义仪表板主题](service-dashboard-themes.md)，更改仪表板上所有磁贴的文本颜色。
+- 无法应用条件格式设置。
+- 视觉对象将调整其大小以适合磁贴大小。 此操作可能会导致布局不同，就好像视觉对象已在报表上调整大小一样。
 
 ## <a name="next-steps"></a>后续步骤
 - [面向 Power BI 服务使用者的仪表板](../consumer/end-user-dashboards.md)

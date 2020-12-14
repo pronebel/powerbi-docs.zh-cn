@@ -7,20 +7,19 @@ ms.reviewer: mihart
 ms.service: powerbi
 ms.subservice: pbi-explore
 ms.topic: how-to
-ms.date: 08/26/2020
+ms.date: 12/03/2020
 LocalizationGroup: Create reports
-ms.openlocfilehash: ec56f15386aeddafa74d952ce772aa3dcce4f901
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: 7aa199547f6cad0b7d4dbfc6b75e9d9e25b2b153
+ms.sourcegitcommit: cb6e0202de27f29dd622e47b305c15f952c5769b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96391475"
+ms.lasthandoff: 12/03/2020
+ms.locfileid: "96578328"
 ---
 # <a name="what-are-bookmarks"></a>什么是书签？
 
 [!INCLUDE[consumer-appliesto-ynnm](../includes/consumer-appliesto-ynnm.md)]
 
-[!INCLUDE [power-bi-service-new-look-include](../includes/power-bi-service-new-look-include.md)]
 
 书签可捕获报表页当前已配置的视图，其中包括筛选器、切片器和视觉对象状态。 选择书签时，Power BI 将返回到该视图。 书签有两种类型：自己创建的书签和由报表设计师创建的书签。 任何 Power BI 用户都可以创建个人书签。 但是，需要 Power BI Pro 或 Premium 许可证，才能使用其他人创建的书签。 [我有哪种许可证？](end-user-license.md)
 
@@ -30,6 +29,16 @@ ms.locfileid: "96391475"
 你也可以创建一系列书签，按所需的顺序对其进行排列，随后在演示文稿中逐个展示所有书签，以突出显示一系列讲述故事的见解。  
 
 ![在功能区中选择“书签”，即可显示“书签”窗格。](media/end-user-bookmarks/power-bi-bookmark-icon.png)
+
+与对报表具有读取访问权限的同事共享带书签的报表。 带书签的报表视图不会覆盖设计器的原始报表。  如果与尚不具有读取权限的同事共享，则需要重新共享权限。 如果无法共享报表视图，请与报表所有者联系以请求重新共享权限。  
+
+
+### <a name="share-changes"></a>共享更改 
+如果你具有“读取”和“重新共享”权限，共享报表时，你就可以选择包括你所做的更改。
+
+:::image type="content" source="media/end-user-bookmarks/power-bi-personalize-share-changes.png" alt-text="共享更改":::
+ 
+
 
 ## <a name="open-bookmarks"></a>打开书签
 若要打开“书签”窗格，请从菜单栏中选择“书签” > “显示多个书签” 。 
@@ -164,17 +173,22 @@ Note that selecting **Ungroup** for any bookmark from a group takes all bookmark
 -->
 
 
+### <a name="reset-all-your-changes-to-a-report"></a>重置对报表所做的所有更改
+
+从报表画布的右上角，选择“重置为默认值”。 这会删除报表中的所有更改，并将其重新设置为作者上次保存的报表视图。
+
+:::image type="content" source="media/end-user-bookmarks/power-bi-personalize-reset-all.png" alt-text="重置保存所有更改":::
 
 
 
 ## <a name="limitations-and-considerations"></a>限制和注意事项
 这一版“书签”功能有一些限制和注意事项。
 
-* 大多数 Power BI 视觉对象应该能够与书签很好地配合使用。 如果在使用书签和 Power BI 视觉对象时遇到问题，请与相应 Power BI 视觉对象的创建者联系，并要求他们为其视觉对象添加书签支持。
+* 大多数 Power BI 自定义视觉对象应该都能够与书签很好地配合使用。 如果在使用书签和 Power BI 自定义视觉对象时遇到问题，请与该视觉对象的创建者联系，并要求他们添加书签支持。    
 * 如果在创建书签后在报表页上添加视觉对象，此视觉对象将以默认状态显示。 也就是说，如果在之前创建书签的页面中引入切片器，此切片器将在默认状态下运行。
 * 通常，如果报表设计师更新或重新发布报表，都不会对书签产生任何影响。 但是，如果设计师对报表进行了重大更改（例如，删除书签所使用的字段），则在你下次尝试打开该书签时，你将收到一条错误消息。 
+* 适用于 iOS 和 Android 平板电脑的 Power BI 移动应用和 Power BI Windows 应用均支持此功能；适用于手机的 Power BI 移动应用则不支持。 但所有 Power BI 移动应用都将接受在 Power BI 服务的个人书签中保存的任何视觉对象更改。
 
-<!--
-## Next steps
-spotlight?
--->
+
+## <a name="next-steps"></a>后续步骤
+[在报表中个性化设置视觉对象](end-user-personalize-visuals.md)

@@ -1,42 +1,59 @@
 ---
-title: Power BI Premium 中的大型模型（预览）
-description: 大型模型功能允许 Power BI Premium 中的数据集的大小超过 10 GB。
+title: Power BI Premium 中的大型数据集
+description: 大型数据集存储格式允许 Power BI Premium 中的数据集的大小超过 10 GB。
 author: davidiseminger
 ms.author: davidi
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-premium
 ms.topic: how-to
-ms.date: 11/11/2020
+ms.date: 12/04/2020
+ms.custom: references_regions
 LocalizationGroup: Premium
-ms.openlocfilehash: 0bb6f7bf46875e0af7c09d221c73ae5e4b70b2df
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: 1f9a34b68f465eda5b8921e48576c9bef5d17f36
+ms.sourcegitcommit: 0bf42b6393cab7a37d21a52b934539cf300a08e2
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96412221"
+ms.lasthandoff: 12/07/2020
+ms.locfileid: "96781675"
 ---
-# <a name="large-models-in-power-bi-premium-preview"></a>Power BI Premium 中的大型模型（预览）
+# <a name="large-datasets-in-power-bi-premium"></a>Power BI Premium 中的大型数据集
 
-Power BI 数据集可以在高度压缩的内存中缓存中存储数据，以便优化查询性能，从而在大型数据集上实现快速的用户交互性。 大型模型功能允许 Power BI Premium 中的数据集的大小超过 10 GB。 相反，数据集的大小受 Power BI Premium 容量大小的限制，这与 Azure Analysis Services 的模型大小限制类似。 有关 Power BI Premium 中的容量大小的详细信息，请参阅容量节点。 可以为所有 Premium P SKU 和 Embedded A SKU 设置大型模型；但它们仅适用于[新工作区](../collaborate-share/service-create-the-new-workspaces.md)。
+Power BI 数据集可以在高度压缩的内存中缓存中存储数据，以便优化查询性能，从而实现快速的用户交互性。 利用高级容量，可以使用“大型数据集存储格式”设置启用大小超过默认 10 GB 限制的大型数据集。 启用后，数据集大小受高级容量大小限制。
 
-大型模型不会影响 PBIX 上传大小，该大小仍限制为 10 GB。 然而刷新后，服务中的数据集将超过 10 GB。 可以使用增量刷新将数据集配置为可超过 10 GB。
+可以为所有 Premium P SKU 和 Embedded A SKU 启用大型数据集。 就数据模型大小限制而言，Premium 中的大型数据集大小限制可与 Azure Analysis Services 中的限制相比。
 
-## <a name="enable-large-models"></a>启用大型模型
+尽管数据集需要超过 10 GB，但启用“大型数据集存储格式”设置还具有其他优点。 如果打算使用基于 XMLA 终结点的工具来执行数据集写入操作，请确保启用此设置，即使对于不一定被视为大型数据集的数据集也是如此。 启用后，大型数据集存储格式可以提高 XMLA 写入操作的性能。
 
-若要创建超过 10 GB 的数据集，请按以下步骤操作：
+服务中的大型数据集不会影响 Power BI Desktop 模型上传大小，该大小仍限制为 10 GB。 然而刷新后，服务中的数据集可超过 10 GB。
 
-1. 在 Power BI Desktop 中创建数据集，并配置[增量刷新](service-premium-incremental-refresh.md)。
+## <a name="enable-large-datasets"></a>启用大型数据集
 
-1. 将数据集发布到 Power BI Premium 服务。
+此处所列步骤介绍了如何为发布到服务的新模型启用大型数据集。 对于现有数据集，只需执行第三步。
 
-1. 运行以下 PowerShell cmdlet 允许数据集使用大型模型。 这些 cmdlet 会导致 Power BI 将数据集存储在 Azure 高级文件上，而不是强制实施 10 GB 的限制。
+1. 在 Power BI Desktop 中创建模型。 如果你的数据集将变得越来越大，并且内存消耗将日渐增多，请确保配置[增量刷新](service-premium-incremental-refresh.md)。
 
-1. 调用刷新以加载基于增量刷新策略的历史记录数据。 第一次刷新可能需要一些时间来加载历史记录。 后续刷新速度应该会更快，因为是增量刷新。
+1. 将模型作为数据集发布到服务。
 
-### <a name="powershell-cmdlets"></a>PowerShell cmdlet
+1. 在“服务”>“数据集”>“设置”中，展开“大型数据集存储格式”，单击“启用”滑块，再单击“应用”   。
 
-在最新版本的大型模型中，使用 PowerShell cmdlet 允许数据集使用高级文件存储。 若要运行 PowerShell cmdlet，必须拥有容量管理员和工作区管理员权限。
+    :::image type="content" source="media/service-premium-large-models/enable-large-dataset.png" alt-text="“启用大型数据集”滑块":::
+
+1. 调用刷新以加载基于增量刷新策略的历史记录数据。 第一次刷新可能需要一些时间来加载历史记录。 后续刷新速度应会更快，具体取决于增量刷新策略。
+
+## <a name="set-default-storage-format"></a>设置默认存储格式
+
+默认情况下，对于在分配给高级容量的工作区中创建的所有新数据集，都可以启用大型数据集存储格式。
+
+1. 在工作区中，单击“设置” > “高级” 。
+
+1. 在“默认存储格式”中，选择“大型数据集存储格式”，然后单击“保存”  。
+
+    :::image type="content" source="media/service-premium-large-models/default-storage-format.png" alt-text="启用默认存储格式":::
+
+### <a name="enable-with-powershell"></a>使用 PowerShell 启用
+
+还可使用 PowerShell 启用大型数据集存储格式。 若要运行 PowerShell cmdlet，必须拥有容量管理员和工作区管理员权限。
 
 1. 查找数据集 ID (GUID)。 在工作区“数据集”选项卡的“数据集设置”下方，可以看到 URL 中的 ID  。
 
@@ -66,7 +83,7 @@ Power BI 数据集可以在高度压缩的内存中缓存中存储数据，以�
     <Dataset ID>         Abf
     ```
 
-1. 运行以下 cmdlet，将存储模式设置为“高级文件”并选中它。 转换为“高级文件”可能需要几秒钟。
+1. 运行以下 cmdlet 以设置存储模式。 转换为“高级文件”可能需要几秒钟。
 
     ```powershell
     Set-PowerBIDataset -Id <Dataset ID> -TargetStorageMode PremiumFiles
@@ -112,20 +129,18 @@ SELECT * FROM SYSTEMRESTRICTSCHEMA
 
 ## <a name="limitations-and-considerations"></a>限制和注意事项
 
-使用大型模型时，记住以下限制：
+使用大型数据集时，记住以下限制：
 
-- **Multi-Geo 支持**：如果同时启用了 [multi-geo](service-admin-premium-multi-geo.md)，启用了“高级文件”的数据集将出现容量故障。
+- **必需提供新工作区**：大型数据集仅适用于[新工作区](../collaborate-share/service-create-the-new-workspaces.md)。
 
 - **下载到 Power BI Desktop**：如果数据集存储在高级文件中，[下载为 .pbix](../create-reports/service-export-to-pbix.md) 文件将失败。
-- **支持的区域**：支持高级文件存储的所有 Azure 区域都支持大型模型。 若要了解详细信息，请参阅[按区域提供的产品](https://azure.microsoft.com/global-infrastructure/services/?products=storage)，并参考以下部分中的表格。
+- **支持的区域**：支持高级文件存储的所有 Azure 区域都支持大型数据集。 若要了解详细信息，请参阅[按区域提供的产品](https://azure.microsoft.com/global-infrastructure/services/?products=storage)，并参考以下部分中的表格。
 
+## <a name="region-availability"></a>上市区域
 
-## <a name="availability-in-regions"></a>区域可用性
+Power BI 中的大型数据集只在支持 [Azure 高级文件存储](/azure/storage/files/storage-files-planning#storage-tiers)的特定 Azure 区域中可用。
 
-Power BI 中的大型模型只在支持 [Azure 高级文件存储](/azure/storage/files/storage-files-planning#storage-tiers)的特定 Azure 区域中可用。
-
-以下列表提供了可以使用 Power BI 中的大型模型的区域。 未在以下列表中列出的区域不支持使用大型模型：
-
+下面的列表提供了可以使用 Power BI 中的大型数据集的区域。 未在以下列表中列出的区域不支持使用大型模型：
 
 |Azure 区域  |Azure 区域缩写  |
 |---------|---------|
@@ -149,8 +164,6 @@ Power BI 中的大型模型只在支持 [Azure 高级文件存储](/azure/storag
 |美国西部     | westus        |
 |美国西部 2     | westus2        |
 
-
-
 ## <a name="next-steps"></a>后续步骤
 
 以下链接提供了与使用大型模型相关的有用信息：
@@ -160,7 +173,6 @@ Power BI 中的大型模型只在支持 [Azure 高级文件存储](/azure/storag
 * [对 Power BI 创建自己的加密密钥](service-encryption-byok.md)
 * [容量工作原理](service-premium-what-is.md#how-capacities-function)
 * [增量刷新](service-premium-incremental-refresh.md)。
-
 
 Power BI 推出了 Power BI Premium Gen2 作为预览产品/服务，通过以下方面的改进改善了 Power BI Premium 的体验：
 * 性能

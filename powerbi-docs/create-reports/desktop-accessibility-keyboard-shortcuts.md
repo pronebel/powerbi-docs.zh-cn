@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: pbi-reports-dashboards
 ms.topic: how-to
-ms.date: 10/28/2019
+ms.date: 12/04/2020
 LocalizationGroup: Create reports
-ms.openlocfilehash: 9cfd5f80ac18c05b520fc417c6336dda360b8737
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: 5b2439af22e32f1e0a8cbd3ce326252d6b28fab1
+ms.sourcegitcommit: 513c4b884a58e1da2680579339c24c46091bbfb2
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96417580"
+ms.lasthandoff: 12/04/2020
+ms.locfileid: "96613914"
 ---
 # <a name="keyboard-shortcuts-in-power-bi-desktop"></a>Power BI Desktop 中的键盘快捷方式
 
@@ -92,7 +92,7 @@ ms.locfileid: "96417580"
 | :------------------- | :------------------- |
 | 向上/向下移动行 | Alt+向上键 / 向下键   |
 | 向上/向下复制行 | Shift+Alt+向上键 / 向下键   |
-| 在下方插入行 | Ctrl+Enter  |
+| 在下方插入行 | **Shift+Enter** |
 | 在上方插入行 | Ctrl+Shift+Enter  |
 | 跳转到匹配的括号 | Ctrl+Shift+ \  |
 | 缩进行/将行扩展到边距 | Ctrl+] / [   |
@@ -100,11 +100,15 @@ ms.locfileid: "96417580"
 | 选择当前行 | Ctrl+I  |
 | 选择当前所选内容的所有匹配项 | Ctrl+Shift+L  |
 | 选择当前词语的所有匹配项 | Ctrl+F2  |
+| 注释行 | Ctrl + / 或 Ctrl + K + C  |
+| 取消注释行 | Ctrl + / 或 Ctrl + K + U  |
+| 增大字号 | Ctrl + + 或向上滚动  |
+| 减小字号 | Ctrl + - 或向下滚动  |
 
 ## <a name="enter-data"></a>输入数据
-| 要执行此操作           | 操作方法                |
+| 为了执行此操作           | 请按                |
 | :------------------- | :------------------- |
-| 退出可编辑网格 | Ctrl+Tab  |
+| 退出可编辑网格 | **Ctrl+Tab** |
 
 
 
@@ -112,7 +116,7 @@ ms.locfileid: "96417580"
 辅助功能存在一些已知问题和限制。 以下列表列出了这些问题和限制：
 
 * 通过 Power BI Desktop 使用屏幕阅读器时，如果在 Power BI Desktop 中打开任何文件前打开所选屏幕阅读器，则将获得最佳体验   。
-* 如果使用讲述人，以 HTML 表形式导航“显示数据”时会存在一些相关限制  。
+* 如果使用讲述人，以 HTML 表形式导航“显示数据”时会存在一些相关限制。
 
 
 ## <a name="next-steps"></a>后续步骤
@@ -121,7 +125,7 @@ Power BI 辅助功能的文章集合如下所示：
 
 * [Power BI 中的辅助功能概览](desktop-accessibility-overview.md) 
 * [创建可访问 Power BI 报表](desktop-accessibility-creating-reports.md) 
-* [通过辅助功能工具使用 Power BI 报表](desktop-accessibility-consuming-tools.md)
+* [使用辅助功能工具使用 Power BI 报表](desktop-accessibility-consuming-tools.md)
 * [使用辅助功能工具创建 Power BI 报表](desktop-accessibility-creating-tools.md)
 * [报表辅助功能清单](desktop-accessibility-creating-reports.md#report-accessibility-checklist)
 

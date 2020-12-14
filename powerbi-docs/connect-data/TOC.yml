@@ -30,10 +30,10 @@
           href: service-tutorial-connect-to-github.md
         - name: 使用认知服务
           href: service-tutorial-use-cognitive-services.md
-        - name: 机器学习集成
-          href: service-tutorial-invoke-machine-learning-model.md
-        - name: 构建机器学习模型
+        - name: 生成机器学习模型
           href: service-tutorial-build-machine-learning-model.md
+        - name: 在报表中使用机器学习模型
+          href: service-aml-integrate.md
         - name: 刷新来自 SQL Server 的数据
           href: service-gateway-sql-tutorial.md
     - name: 概念

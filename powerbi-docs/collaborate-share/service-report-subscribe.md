@@ -8,14 +8,14 @@ featuredvideoid: ''
 ms.service: powerbi
 ms.subservice: pbi-collaborate-share
 ms.topic: how-to
-ms.date: 11/17/2020
+ms.date: 12/01/2020
 LocalizationGroup: Common tasks
-ms.openlocfilehash: 384ce5efc28355ea238d5782dd1553901097e0f2
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: 9d9d628ea2d478eb6a09ae8ca53b98837349a224
+ms.sourcegitcommit: 513c4b884a58e1da2680579339c24c46091bbfb2
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96411669"
+ms.lasthandoff: 12/04/2020
+ms.locfileid: "96613800"
 ---
 # <a name="subscribe-yourself-and-others-to-reports-and-dashboards-in-the-power-bi-service"></a>在 Power BI 服务中为自己和他人订阅报表和仪表板
 
@@ -28,14 +28,14 @@ ms.locfileid: "96411669"
 - 如果订阅的是分页报表，则会包含完整报告的附件。
 - 如果 Power BI 内容托管在高级容量中，则可以将电子邮件发送给租户之外的用户。  管理员可以通过利用 Power BI 管理中心内现有的外部共享控制设置，控制谁可以向外部用户发送电子邮件订阅。
 
-![仪表板的电子邮件快照](media/service-report-subscribe/power-bi-dashboard-email-new.jpg) 
+![仪表板的电子邮件快照](media/service-report-subscribe/power-bi-dashboard-email-new.jpg)
 
 ## <a name="requirements"></a>要求
 
 创建订阅可由以下人员完成：
 
-- 有 Power BI Pro 许可证的用户 
-- 在 Premium 工作区或应用中查看内容的用户，即使没有 Power BI Pro 许可证，也可以订阅其中的内容。 
+- 有 Power BI Pro 许可证的用户
+- 在 Premium 工作区或应用中查看内容的用户，即使没有 Power BI Pro 许可证，也可以订阅其中的内容。
 
 无需内容（仪表板或报表）编辑权限即可为自己创建订阅，但必须拥有编辑权限才能为他人创建订阅。
 
@@ -44,12 +44,12 @@ ms.locfileid: "96411669"
 无论是订阅仪表板、报表还是分页报表，订阅过程都类似。 使用同一按钮，即可订阅 Power BI 服务仪表板和报表。
 
 订阅分页报表略有不同。 请参阅[在 Power BI 服务中为自己和他人订阅分页报表](../consumer/paginated-reports-subscriptions.md)，获取详细信息。
- 
+
 ![选择“订阅”图标](media/service-report-subscribe/power-bi-subscribe-orientation.png)。
 
 1. 打开仪表板或报表。
 2. 在顶部菜单栏中，选择“订阅”或信封图标 :::image type="icon" source="media/service-report-subscribe/power-bi-icon-envelope.png" border="false":::。
-   
+
     ![订阅图标](media/service-report-subscribe/power-bi-subscribe-icon.png)
 
 1. 使用黄色滑块可启用和禁用订阅。 将滑块设置为“关”不会删除订阅。 若要删除订阅，请选择垃圾桶图标。
@@ -65,8 +65,8 @@ ms.locfileid: "96411669"
 6. 默认情况下，订阅的开始日期是创建它的日期。 可以选择结束日期。 如果未设置结束日期，则结束日期自动是开始日期之后一年。 可以在订阅结束之前的任何时间将它更改为将来的任何日期（最多到 9999 年）。 当订阅达到结束日期时，它会停止，直到重新启用。 你会在计划结束日期之前收到通知，询问是否要延长它。
 
     在以下屏幕截图中，请注意订阅报表实际上订阅的是报表页。 要订阅报表中的多个页面，请选择“添加其他订阅”并选择另一个页面。
-     
-    ![“订阅”窗格](media/service-report-subscribe/power-bi-subscribe-pane.png)  
+
+    ![“订阅”窗格](media/service-report-subscribe/power-bi-subscribe-pane.png)
 
 1. （可选）选择是否包含返回 Power BI 中内容的链接，以及是否允许用户访问你为他们订阅的内容。  如果选择包括链接，为了获得最佳体验，请确保所有用户都有权访问该报表。
 2. 选择“保存并关闭”。 订阅者会按所选频率和时间收到仪表板或报表页的电子邮件和快照。 总共可以创建对每个报表或仪表板创建最多 24 个订阅，并可以为每个订阅提供独有的收件人、时间和频率。 对仪表板或报表，设置为“数据刷新后”的所有订阅仍然只会在第一次计划刷新之后发送电子邮件。
@@ -102,7 +102,7 @@ Power BI 管理员可以使用 Power BI 审核日志来查看有关订阅的详�
 - 内容订阅者
 - 收件人
 - 频率
-- 修改者/
+- 修改者
 - 修改日期
 
 ## <a name="considerations-and-troubleshooting"></a>注意事项和疑难解答
@@ -118,7 +118,7 @@ Power BI 管理员可以使用 Power BI 审核日志来查看有关订阅的详�
     - 尽管你拥有 Power BI Pro 许可证，但你可能没有 Microsoft Exchange 许可证。 如果不是，则你的 Azure Active Directory 帐户可能没有指定电子邮件或备用电子邮件地址。 在这种情况下，尽管订阅似乎已发送出去，但你永远不会收到。  如果你的 Power BI 管理员分配了电子邮件地址，则 Power BI 会在你下次登录时同步更新，并将该电子邮件地址用于订阅。
 
 - 如果你的仪表板或报表位于高级容量中，则可使用组电子邮件别名进行订阅，而不用一次使用一个电子邮件地址为同事订阅。 根据当前的 Active Directory 确定别名。
-- 如果内容不位于高级容量中，则只有 Power BI Pro 用户可以接收电子邮件订阅。 
+- 如果内容不位于高级容量中，则只有 Power BI Pro 用户可以接收电子邮件订阅。
 - 订阅当前不支持书签。
 - 编辑现有订阅时，提供对报表/仪表板的访问权限的选项始终显示为已启用。  如果清除此选项并保存订阅，则会保存该状态。 但是，在再次编辑报表时，将默认选中该状态。
 - 如果你有备用电子邮件地址，但没有主电子邮件地址，则 Power BI 将使用该备用地址发送订阅。
@@ -141,9 +141,18 @@ Power BI 管理员可以使用 Power BI 审核日志来查看有关订阅的详�
 - 目前电子邮件订阅不支持 R 驱动的自定义视觉对象。
 - 电子邮件订阅与报表的默认筛选器和切片器状态一起发送。 在订阅后对默认设置所做的任何更改都不会显示在电子邮件中。 分页报表支持此功能，并允许你为每个订阅设置特定的参数值。
 - 假设你有一个报表具有与 Analysis Services 的实时连接，并且已将订阅设置为在数据刷新后运行。 它将在 Power BI 服务轮询 Analysis Services 实例时第一次检测本地模型中的更改时运行。  Power BI 每小时检查一次 Analysis Services 数据模型中的更改，以确定何时发送订阅。
+- 完整的报表附件功能适用于满足以下三个条件的报表：
+
+    - 它们位于 [Power BI Premium 或 Premium Per User](../admin/service-premium-what-is.md) 的升级工作区中。 
+    - 附件文件大小低于 25 MB。
+    - 报表的页数少于 20。 
+    
+    如果报表不满足这三个条件，则无法创建以完整报表作为附件的订阅。 将禁用以完整报表作为附件的任何现有订阅，你会收到一封解释错误的电子邮件：
+    
+    :::image type="content" source="media/service-report-subscribe/full-report-attachment-error-email.png" alt-text="完整报表附件错误电子邮件。":::
 
 ## <a name="next-steps"></a>后续步骤
 
-- [在 Power BI 服务中为自己和他人订阅分页报表](../consumer/paginated-reports-subscriptions.md)
-- 更多问题？ [尝试咨询 Power BI 社区](https://community.powerbi.com/)    
-- [阅读博客文章](https://powerbi.microsoft.com/blog/introducing-dashboard-email-subscriptions-a-360-degree-view-of-your-business-in-your-inbox-every-day/)
+- [Power BI 服务中的分页报表：为自己和他人订阅](../consumer/paginated-reports-subscriptions.md)
+- 更多问题？ [尝试咨询 Power BI 社区](https://community.powerbi.com/)
+- 阅读[有关仪表板的电子邮件订阅的 Power BI 博客文章](https://powerbi.microsoft.com/blog/introducing-dashboard-email-subscriptions-a-360-degree-view-of-your-business-in-your-inbox-every-day/)

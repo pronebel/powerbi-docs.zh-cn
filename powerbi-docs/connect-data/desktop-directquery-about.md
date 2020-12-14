@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: pbi-data-sources
 ms.topic: conceptual
-ms.date: 11/17/2020
+ms.date: 12/03/2020
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 39b6a95a9a5140e1013d3eaa400c968c40b3063c
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: 01ba6c2e01b3e17a3ef9c878890877e0a0b976ea
+ms.sourcegitcommit: 513c4b884a58e1da2680579339c24c46091bbfb2
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96411301"
+ms.lasthandoff: 12/04/2020
+ms.locfileid: "96613730"
 ---
 # <a name="about-using-directquery-in-power-bi"></a>关于在 Power BI 中使用 DirectQuery
 
@@ -100,7 +100,7 @@ SQL Server Analysis Services 报表发布到 Power BI 服务时，其行为在�
 | --- | --- |
 | 数据频繁变化，需要几乎实时的报表 |具有导入数据的模型最多每小时刷新一次（使用 Power BI Pro 或 Power BI Premium 订阅可以更频繁地刷新）。 如果数据不断改变且报表必须显示最新数据，使用按计划刷新的导入可能无法满足需求。 可以将数据直接流式传输到 Power BI 中（尽管这种情况下支持的数据量有限制）。 <br/> <br/> 相比之下，使用 DirectQuery 意味着打开或刷新报表或仪表板始终显示源中最新的数据。 此外，可以更频繁地（每 15 分钟）更新仪表板磁贴。 |
 | 数据量非常大 |如果数据量非常大，将其全部导入是不可行的。 相比之下，DirectQuery 不需要大量数据传输，因为它可以进行就地查询。 <br/> <br/> 但是，大量数据可能也意味着对该基础源查询的速度很慢，如[使用 DirectQuery 的影响](#implications-of-using-directquery)中所述。 你不必始终导入完整的详细数据。 相反，数据可在导入过程中预先进行聚合。 查询编辑器使得在导入期间预聚合变得容易。 在极端情况下，可以只导入每个视觉对象所需的聚合数据。 虽然 DirectQuery 是处理大量数据的最简单方法，但如果基础数据源太慢，导入聚合数据也许是一个解决方案。 |
-| 基础数据源中定义的安全规则 |导入数据时，Power BI 使用 Power BI Desktop 中当前用户的凭据连接到数据源，或使用 Power BI 服务中作为配置计划刷新的一部分定义的凭据连接到数据源。 在发布和共享此类报表时，请注意只与允许查看相同数据的用户共享，或将行级别安全性定义为数据集的一部分。 <br/> <br/> 理想情况下，由于 DirectQuery 始终查询基础数据源，此配置将允许应用该基础数据源中的任何安全规则。 但是，目前 Power BI 始终使用与采用导入方法时使用的相同凭据来连接基础数据源。 <br/> <br/> 除非 Power BI 允许将报表使用者的标识传递给基础数据源，否则 DirectQuery 对数据源安全性没有任何优势。 |
+| 基础数据源中定义的安全规则 |导入数据时，Power BI 使用 Power BI Desktop 中当前用户的凭据连接到数据源，或使用 Power BI 服务中作为配置计划刷新的一部分定义的凭据连接到数据源。 在“导入”模式下发布和共享此类包含数据的报表时，请注意只与允许查看相同数据的用户共享，或将行级别安全性定义为数据集的一部分。 <br/> <br/> DirectQuery 允许将报表查看器的凭据传递到要在这里应用的基础源和安全规则。 支持单一登录到 SQL Azure 数据源，并通过数据网关连接到本地 SQL Server。 有关详细信息，请参阅 [Power BI 中网关的单一登录 (SSO) 概述](service-gateway-sso-overview.md)。 |
 | 数据主权限制应用 |某些组织对数据主权制定有相应策略，这意味着数据不能离开组织规定的前提。 基于导入的解决方案很显然会存在问题。 相比之下，如果使用 DirectQuery，数据将保留在基础数据源中。 <br/> <br/> 但是，由于磁贴按计划刷新，即使使用 DirectQuery，某些视觉对象级别的数据缓存也会保留在 Power BI 服务中。 |
 | 基础数据源是包含度量值的 OLAP 数据源 |如果基础数据源包含度量值（如 SAP HANA 或 SAP Business Warehouse），则导入数据将引发其他问题。 这意味着导入的数据处于由查询定义的特定聚合级别。 例如，按类别、年份和城市衡量总销售额   。 如果构建的视觉对象要求较高级别的聚合数据（如按年聚合的总销售额），它会进一步聚合总值 。 此聚合对于附加式度量值（如 Sum 和 Min）没有问题，但对非附加式度量值（如 Average、DistinctCount）会产生问题   。 <br/> <br/> 为了轻松从源中直接获取特定视觉对象所需的正确聚合数据，有必要像 DirectQuery 一样按视觉对象发送查询。 <br/> <br/> 连接到 SAP Business Warehouse (BW) 时，可以选择 DirectQuery 进行这种度量。 有关 SAP BW 的信息，请参阅[DirectQuery 和 SAP BW](desktop-directquery-sap-bw.md)。 <br/> <br/> 但是，当前 SAP HANA 上的 DirectQuery 将其视为关系数据源对待，并提供与导入类似的行为。 此方法在 [DirectQuery 和 SAP HANA](desktop-directquery-sap-hana.md) 中有进一步介绍。 |
 
@@ -172,6 +172,8 @@ SQL Server Analysis Services 报表发布到 Power BI 服务时，其行为在�
 如本文前面所述，DirectQuery 中的报表在发布到 Power BI 服务后，将始终使用相同的固定凭据连接到基础数据源。 此行为适用于 DirectQuery，而不是 SQL Server Analysis Services 的实时连接，两者在这方面不同。 发布 DirectQuery 报表后，必须立即配置用户要使用的凭据。 在配置凭据之前，打开 Power BI 服务报表将导致错误。
 
 提供用户凭据后，所有打开报表的用户都可使用这些凭据。 这样就像导入的数据一样。 除非已将行级安全性定义为报表的一部分，否则每个用户都会看到相同的数据。 如果在基础数据源中定义了任何安全规则，共享报表时也必须注意这一点。
+
+此外，将 DirectQuery 从 Power BI Desktop 连接到 SQL Server 时，不支持使用备用凭据。 可使用当前的 Windows 凭据或数据库凭据。
 
 ### <a name="behavior-in-the-power-bi-service"></a>Power BI 服务中的行为
 

@@ -103,12 +103,16 @@
           items:
             - name: 将数据警报与 Power Automate 集成
               href: service-flow-integration.md
+            - name: 使用 Power Automate 导出报表并以电子邮件的方式发送
+              href: service-automate-power-bi-report-export.md
             - name: 使用 Power Automate 导出分页报表
               href: service-automate-paginated-integration.md
             - name: 将分页报表保存到 OneDrive 或 SharePoint Online
               href: service-automate-paginated-onedrive-sharepoint.md
             - name: 从 Excel Online 或 SharePoint 列表导出分页报表
               href: service-automate-paginated-excel-sharepoint-list.md
+            - name: 将分页报表保存到本地文件夹
+              href: service-automate-paginated-local-file.md
         - name: 使用第三方应用
           href: service-power-bi-get-started-third-party-apps.md
         - name: 组织内容包

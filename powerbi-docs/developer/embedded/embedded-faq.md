@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 02/11/2020
-ms.openlocfilehash: 1166f51c21e765e5710d33ad45a47057ea773bd8
-ms.sourcegitcommit: 37bd34053557089c4fbf0e05f78e959609966561
+ms.openlocfilehash: 348032345a56d538e1e5ffbb6036d411e42b2954
+ms.sourcegitcommit: 30d0668434283c633bda9ae03bc2aca75401ab94
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/10/2020
-ms.locfileid: "94397429"
+ms.lasthandoff: 12/09/2020
+ms.locfileid: "96907063"
 ---
 # <a name="frequently-asked-questions-about-power-bi-embedded"></a>有关 Power BI Embedded 的常见问题
 
@@ -112,14 +112,14 @@ Power BI 要求使用组织帐户注册。 不支持使用 Microsoft 帐户注�
 
 ### <a name="can-i-use-apis-to-create-and-manage-azure-capacities"></a>能否使用 API 创建和管理 Azure 容量？
 
-能，可使用 Powershell cmdlet 和 Azure 资源管理器 REST API 创建和管理 PBIE 资源。
+能，可使用 PowerShell cmdlet 和 Azure 资源管理器 REST API 创建和管理 PBIE 资源。
 
 * [Rest API](/rest/api/power-bi-embedded/) 
-* [Powershell cmdlet](/powershell/module/azurerm.powerbiembedded/)
+* [PowerShell cmdlets](/powershell/module/azurerm.powerbiembedded/)
 
 ### <a name="what-is-the-pbi-embedded-capacity-role-in-a-pbi-embedded-solution"></a>PBI Embedded 解决方案中的 PBI Embedded 容量角色是什么？
 
-为了[将解决方案提升到生产](embed-sample-for-customers.md#move-to-production)，你需要将应用程序使用的 Power BI 内容（工作区）分配给 Power BI Embedded (A SKU) 容量。
+为了[将解决方案提升到生产](move-to-production.md)，你需要将应用程序使用的 Power BI 内容（工作区）分配给 Power BI Embedded (A SKU) 容量。
 
 ### <a name="in-what-azure-regions-is-pbi-embedded-available"></a>PBI Embedded 在哪些 Azure 区域可用？
 
@@ -184,7 +184,7 @@ var authenticationResult = await context.AcquireTokenAsync(resourceId, clientAss
 
 对于 RLS，ISV 开发人员在模型创建和嵌入令牌生成过程中控制数据筛选。 最终用户只能看到 ISV 允许其看到的内容。 在这种情况下，用户可以选择查看少于已筛选的内容，但无法通过规避 RLS 配置查看多于已允许的内容。
 
-对于客户端筛选 (JavaScript)，ISV 可能会决定最终用户在初始视图中看到的内容，但 ISV 无法控制最终用户可能会应用于视图本身的更改。 由于用户 Javascript 客户端代码可以在后端触发数据筛选，不能将其视为安全。
+对于客户端筛选 (JavaScript)，ISV 可能会决定最终用户在初始视图中看到的内容，但 ISV 无法控制最终用户可能会应用于视图本身的更改。 由于用户 JavaScript 客户端代码可以在后端触发数据筛选，不能将其视为安全。
 
 有关详细信息，请参阅 [RLS 与 JavaScript 筛选器](embedded-row-level-security.md#using-rls-vs-javascript-filters)。
 
@@ -198,7 +198,7 @@ var authenticationResult = await context.AcquireTokenAsync(resourceId, clientAss
 
 ### <a name="when-to-use-an-application-id-vs-a-service-principal-object-id"></a>何时使用应用程序 ID 与服务主体对象 ID？
 
-传递应用程序 ID 进行身份验证时，[应用程序 ID](embed-sample-for-customers.md#application-id) 用于创建访问令牌  。
+传递应用程序 ID 进行身份验证时，[应用程序 ID](embed-sample-for-customers.md#client-id)（也称为客户端 ID）用于创建访问令牌。
 
 若要引用服务主体用于操作或进行更改，请使用[服务主体对象 ID](embed-service-principal.md) - 例如，以管理员身份将服务主体应用于工作区  。
 

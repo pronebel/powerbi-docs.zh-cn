@@ -7,23 +7,38 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: pbi-data-sources
 ms.topic: conceptual
-ms.date: 09/22/2020
+ms.date: 12/08/2020
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 2c5e465026f1ba7564bda18ad3b005b024a663a7
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: 661e50617094d396e8beb887ac0e4a27c28c2ca7
+ms.sourcegitcommit: 30d0668434283c633bda9ae03bc2aca75401ab94
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96404976"
+ms.lasthandoff: 12/09/2020
+ms.locfileid: "96906950"
 ---
 # <a name="using-enhanced-dataset-metadata"></a>使用增强的数据集元数据
 
-Power BI Desktop 创建报表时，还会使用相应的 PBIX 和 PBIT 文件创建数据集元数据。 以前，元数据以特定于 Power BI Desktop 的格式存储。 它使用 Base-64 编码的 M 表达式和数据源，并对元数据的存储方式进行了假设。
+Power BI Desktop 创建报表时，还会使用相应的 PBIX 和 PBIT 文件创建数据集元数据。 以前，元数据以特定于 Power BI Desktop 的格式存储。 元数据使用了 Base64 编码的 M 表达式和数据源。 Power BI 对元数据的存储方式进行了假设。
 
 随着增强的数据集元数据功能的发布，许多这些限制都已消除。 打开文件时，PBIX 文件会自动升级到增强的元数据。 借助增强的数据集元数据，由 Power BI Desktop 创建的元数据根据[表格对象模型](/analysis-services/tom/introduction-to-the-tabular-object-model-tom-in-analysis-services-amo)使用与 Analysis Services 表格模型使用的格式相似的格式。
 
 
-增强的数据集元数据功能具有战略性和基础性，因为未来的 Power BI 功能将基于其元数据构建。 始终都可从增强的数据集元数据中获益的一些其他功能包括用于管理 Power BI 数据集的 [XMLA 读/写](/power-platform-release-plan/2019wave2/business-intelligence/xmla-readwrite)，以及将 Analysis Services 工作负载迁移到 Power BI 以受益于下一代功能。
+增强的数据集元数据功能具有战略性和基础性。 未来的 Power BI 功能将基于其元数据构建。 这些其他功能从增强型数据集元数据中获益：
+
+- [XMLA 读取/写入](/power-platform-release-plan/2019wave2/business-intelligence/xmla-readwrite)，用于管理 Power BI 数据集
+- 将 Analysis Services 工作负载迁移到 Power BI，从下一代功能中受益。
+
+## <a name="limitations"></a>限制
+在提供增强型元数据支持之前，对于 SQL Server、Oracle、Teradata 和旧 HANA 连接，Power BI Desktop 向数据模型添加了本机查询。 此查询由 Power BI 服务数据模型使用。 借助增强型元数据支持，Power BI 服务数据模型在运行时重新生成本机查询。 而不使用 Power BI Desktop 创建的查询。 在大多数情况下，此检索可正确解析自身，但某些转换需要读取基础数据才能运行。 你可能会在以前运行的报表中看到一些错误。 例如，错误显示： 
+
+“无法将 Dimension City 表中的 M 查询转换为本机源查询。 请稍候重试或联系支持人员。 如果联系支持人员，请提供以下详细信息。” 
+
+可以在 Power BI Desktop 中的三个不同位置修复查询：
+
+- 应用更改或执行刷新时。
+- 在 Power Query 编辑器的警告栏中，提示表达式无法折叠到数据源。
+    :::image type="content" source="media/desktop-enhanced-dataset-metadata/enhanced-metadata-apply-query-changes.png" alt-text="应用查询更改消息的屏幕截图：无法将表达式折叠到数据源。":::
+- 打开报表以检查是否具有不受支持的查询时运行评估。 运行这些评估可能会影响性能。
 
 
 ## <a name="next-steps"></a>后续步骤

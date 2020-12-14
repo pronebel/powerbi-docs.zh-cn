@@ -10,14 +10,14 @@ ms.date: 12/01/2020
 ms.author: painbar
 ms.custom: ''
 LocalizationGroup: Administration
-ms.openlocfilehash: fb2d25b4cc000f0a7b9c659f25264ffd1ab936d7
-ms.sourcegitcommit: 2fd64f96b5bfbc14ff47e5c892171e5c921fb525
+ms.openlocfilehash: ec3cd60916630fe355b9ea4f54d5a025788800bf
+ms.sourcegitcommit: 30d0668434283c633bda9ae03bc2aca75401ab94
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/02/2020
-ms.locfileid: "96506692"
+ms.lasthandoff: 12/09/2020
+ms.locfileid: "96906810"
 ---
-# <a name="enable-service-principle-authentication-for-read-only-admin-apis-preview"></a>为只读管理员 API 启用服务主体身份验证（预览）
+# <a name="enable-service-principal-authentication-for-read-only-admin-apis-preview"></a>为只读管理员 API 启用服务主体身份验证（预览）
 
 服务主体是一种身份验证方法，可用于让 Azure Active Directory (Azure AD) 应用程序访问 Power BI 服务内容和 API。
 在 Azure AD 应用创建后，[服务主体对象](https://docs.microsoft.com/azure/active-directory/develop/app-objects-and-service-principals#service-principal-object)也随之创建。 借助服务主体对象（亦简称为“服务主体”），Azure AD 可以对应用进行身份验证。 经过身份验证后，应用程序可以访问 Azure AD 租户资源。
@@ -63,7 +63,7 @@ ms.locfileid: "96506692"
     * [GetDataflowUpstreamDataflowsAsAdmin](https://docs.microsoft.com/rest/api/power-bi/admin/dataflows_getupstreamdataflowsingroupasadmin) 
     * [GetCapacitiesAsAdmin](https://docs.microsoft.com/rest/api/power-bi/admin/getcapacitiesasadmin)
     * [GetActivityLog](https://docs.microsoft.com/rest/api/power-bi/admin/getactivityevents)
-    * GetModifiedWorkspaces
-    * WorkspaceGetInfo
-    * WorkspaceScanStatus
-    * WorkspaceScanResult
+    * [GetModifiedWorkspaces](https://docs.microsoft.com/rest/api/power-bi/admin/workspaceinfo_getmodifiedworkspaces)
+    * [WorkspaceGetInfo](https://docs.microsoft.com/rest/api/power-bi/admin/workspaceinfo_postworkspaceinfo)
+    * [WorkspaceScanStatus](https://docs.microsoft.com/rest/api/power-bi/admin/workspaceinfo_getscanstatus)
+    * [WorkspaceScanResult](https://docs.microsoft.com/rest/api/power-bi/admin/workspaceinfo_getscanresult)

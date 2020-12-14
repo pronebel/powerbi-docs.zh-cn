@@ -10,14 +10,14 @@ ms.topic: reference
 ms.date: 11/16/2020
 ms.custom: licensing support
 LocalizationGroup: consumers
-ms.openlocfilehash: 8e3a32402b3eff202a8e35a2e34fa52271650a64
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: e2bd6a752d94bd2a549d0149512707fbd7832319
+ms.sourcegitcommit: 513c4b884a58e1da2680579339c24c46091bbfb2
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96390716"
+ms.lasthandoff: 12/04/2020
+ms.locfileid: "96613776"
 ---
-# <a name="power-bi-feature-list-for-consumers-and-others-with-free-licenses"></a>面向使用者和拥有免费许可证的其他用户的 Power BI 功能列表 
+# <a name="power-bi-feature-list-for-business-users-and-others-with-free-licenses"></a>面向企业用户和拥有免费许可证的其他用户的 Power BI 功能列表
 
 [!INCLUDE[consumer-appliesto-ynnn](../includes/consumer-appliesto-ynnn.md)]
 
@@ -58,7 +58,7 @@ ms.locfileid: "96390716"
 
    
 
-## <a name="power-bi-feature-list-for-consumers-and-free-users"></a>面向使用者和免费用户的 Power BI 功能列表 
+## <a name="power-bi-feature-list-for-business-users-and-free-users"></a>面向企业用户和免费用户的 Power BI 功能列表
 下图确定与高级容量中的内容进行交互的业务用户可以执行哪些任务。    
 
 第一列表示在“我的工作区”中处理内容的免费用户  。 此用户不能与 Power BI 服务中的同事协作。 同事无法直接与该用户共享内容，该用户也不能从“我的工作区”中共享  。 

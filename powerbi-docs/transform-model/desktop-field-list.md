@@ -9,12 +9,12 @@ ms.subservice: pbi-transform-model
 ms.topic: conceptual
 ms.date: 11/11/2020
 LocalizationGroup: Transform and shape data
-ms.openlocfilehash: 834df274d4cc75af1087ab4fa7d24c2fd7dd4fec
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: ced861f0d229153866c1d52616494f8b444220ae
+ms.sourcegitcommit: 8993400b32a44f4e7ce9a2db998ddebda18c7698
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96415993"
+ms.lasthandoff: 12/02/2020
+ms.locfileid: "96536475"
 ---
 # <a name="using-the-field-list-in-power-bi-desktop-preview"></a>使用 Power BI Desktop 中的“字段”列表（预览版）
 
@@ -55,6 +55,8 @@ ms.locfileid: "96415993"
 |![表的原始上下文菜单](media/desktop-field-list/field-list-03a.png)     |![表的新上下文菜单](media/desktop-field-list/field-list-03b.png)    |
 |**工具提示**       ||
 |![原始工具提示](media/desktop-field-list/field-list-04a.png)     |![新工具提示](media/desktop-field-list/field-list-04b.png)    |
+
+## <a name="field-list-icons"></a>字段列表图标
 
 还有新的字段列表图标。 下表显示了原始图标和对应的新图标，并提供了每个图标的简要说明。 
 
