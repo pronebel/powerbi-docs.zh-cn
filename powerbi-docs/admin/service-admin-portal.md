@@ -10,12 +10,12 @@ ms.topic: how-to
 ms.date: 10/22/2020
 ms.custom: seodec18
 LocalizationGroup: Administration
-ms.openlocfilehash: c83efa55cc1c35bb7e6fa8e62de3bca228553fe3
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: 9cbb6bb03d9add4324c3fc57a6426435850a001c
+ms.sourcegitcommit: cb6e0202de27f29dd622e47b305c15f952c5769b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96409392"
+ms.lasthandoff: 12/03/2020
+ms.locfileid: "96578167"
 ---
 # <a name="administering-power-bi-in-the-admin-portal"></a>在管理门户中管理 Power BI
 
@@ -307,7 +307,7 @@ Azure AD B2B 来宾用户可以编辑和管理组织中的内容。 [了解详�
 |---------|---------|---------|---------|
 |报表“更多选项 (...)”菜单下的“发布到 Web”|为所有对象启用|向所有对象隐藏|仅向已授权的用户或组显示。|
 |“设置”下的“管理嵌入代码”|为所有对象启用|为所有对象启用|为所有对象启用<br><br>仅向已授权的用户或组显示“删除”选项。* <br>为所有对象启用“获取代码”。* |
-|管理门户中的“嵌入代码”|“状态”反映以下状态之一：<br>* 活动<br>* 不支持<br>* 已阻止|状态显示“已禁用”|“状态”反映以下状态之一：<br>* 活动<br>* 不支持<br>* 已阻止<br><br>如果未根据租户设置为某个用户授权，状态将显示为“侵权”。|
+|管理门户中的“嵌入代码”|状态具有下列值之一：<br>* 活动<br>* 不支持<br>* 已阻止|状态显示“已禁用”|状态具有下列值之一：<br>* 活动<br>* 不支持<br>* 已阻止<br><br>如果未根据租户设置为某个用户授权，状态将显示为“侵权”。|
 |现有的已发布报表|全部已启用|全部已禁用|继续向所有对象呈现报表。|
 
 ### <a name="copy-and-paste-visuals"></a>复制并粘贴视觉对象
@@ -336,7 +336,7 @@ Azure AD B2B 来宾用户可以编辑和管理组织中的内容。 [了解详�
 
 ### <a name="allow-live-connections"></a>允许实时连接
 
-组织中的用户可以使用 Power BI 服务 Live Connect。 其中包括“在 Excel 中分析”。
+组织中的用户可以使用 Power BI 服务 Live Connect。 允许实时连接还允许用户“在 Excel 中分析”。
 
 ![“允许实时连接”设置的屏幕截图。](media/service-admin-portal/powerbi-admin-portal-allow-live-connections-setting.png)
 
@@ -577,10 +577,11 @@ Power BI 管理员通过此设置，可以控制组织中哪些人可以使用 E
 - 查看有关工作区的详细信息，包括 ID、用户和角色、仪表板、报表和数据集。
 - 编辑具有访问权限的人员的列表。 这意味着你可以删除工作区。 你可以管理员身份将自己添加到工作区，然后打开工作区并将其删除。
 - 编辑“名称”和“说明”字段。
+- 将经典工作区升级到新工作区版本
 
 ![工作区列表](media/service-admin-portal/workspaces-list.png)
 
-管理员还可以控制用户创建新工作区体验工作区和经典工作区的能力。 有关详细信息，请参阅本文中的[工作区设置](#workspace-settings)。 
+管理员还可以控制用户创建新工作区体验工作区和经典工作区的能力。 有关详细信息，请参阅本文中的[工作区设置](#workspace-settings)。
 
 “工作区”选项卡上的表列对应于由 [Power BI 管理员 Rest API](/rest/api/power-bi/admin) 为工作区返回的属性。 个人工作区的类型是“PersonalGroup”，经典工作区的类型是“Group”，提供新工作区体验的工作区的类型是“Workspace”。 有关详细信息，请参阅[在新工作区中组织工作](../collaborate-share/service-new-workspaces.md)。
 
@@ -596,6 +597,18 @@ Power BI 管理员通过此设置，可以控制组织中哪些人可以使用 E
 管理员还可以使用管理门户或 PowerShell cmdlet 来管理和恢复工作区。 
 
 ![工作区列表](media/service-admin-portal/workspaces-list.png)
+
+管理员可以将经典工作区升级到新工作区版本。 管理员可以选择一个或多个类型为“组”的工作区进行升级。 升级将排入队列，并以异步方式执行。 可能需要几分钟到几天的时间才能完成所有挂起的升级，因为管理员启动的升级的总速率仅限于使服务保持平稳运行。 “工作区升级状态”列可帮助管理员跟踪管理员启动的升级的进度。 如果管理员启动的升级处于挂起状态，管理员可以将其取消。 若要立即升级工作区，请与工作区管理员联系，让他们通过工作区设置窗格启动升级。 [在开始 Power BI 管理员启动的工作区升级之前，请先了解有关工作区升级的详细信息。](../collaborate-share/service-upgrade-workspaces.md)。
+
+下表提供了有关升级状态的更多详细信息。
+
+|状态  |说明  |
+|---------|---------|
+| **(空白)** | Power BI 管理员没有升级工作区。 |
+| **挂起** | 工作区已排入升级队列。 可以取消升级。 |
+| **正在进行** | 工作区处于积极升级状态。 无法取消升级。 |
+| **已完成** | Power BI 管理员在过去 30 天内已升级工作区。如果需要，工作区管理员可以在升级工作区后的 30 天内返回到经典选项。 |
+
 
 ## <a name="custom-branding"></a>自定义品牌
 
