@@ -7,8 +7,6 @@
       items:
         - name: 查询编辑器概述
           href: desktop-query-overview.md
-        - name: 数据流自助数据准备
-          href: ./dataflows/dataflows-introduction-self-service.md
     - name: 教程
       expanded: true
       items:
