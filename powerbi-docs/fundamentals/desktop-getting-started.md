@@ -8,14 +8,14 @@ ms.custom: contperfq1
 ms.service: powerbi
 ms.subservice: pbi-fundamentals
 ms.topic: tutorial
-ms.date: 08/19/2020
+ms.date: 12/14/2020
 LocalizationGroup: Get started
-ms.openlocfilehash: a1fb3a76cc22bf4f22fc080bcde46ec40a3720bb
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: e9bb735668290068e0503f3823fe35482437f9c0
+ms.sourcegitcommit: 46cf62d9bb33ac7b7eae7910fbba6756f626c65f
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96418500"
+ms.lasthandoff: 12/15/2020
+ms.locfileid: "97492233"
 ---
 # <a name="get-started-with-power-bi-desktop"></a>Power BI Desktop 入门
 欢迎使用 Power BI Desktop 入门指南。 本教程介绍 Power BI Desktop 的工作原理和功能，并介绍如何生成可靠的数据模型和奇妙的报表来提升你的商业智能。

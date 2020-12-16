@@ -9,12 +9,12 @@ ms.subservice: pbi-fundamentals
 ms.topic: how-to
 ms.date: 10/12/2020
 LocalizationGroup: Get started
-ms.openlocfilehash: 9c46188318ca5659f109ba8483c552d9ab43f932
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: 3d233736c55ea736da1ecc561c2936a0a9f42a09
+ms.sourcegitcommit: 46cf62d9bb33ac7b7eae7910fbba6756f626c65f
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96418661"
+ms.lasthandoff: 12/15/2020
+ms.locfileid: "97492164"
 ---
 # <a name="get-power-bi-desktop"></a>获取 Power BI Desktop
 使用 Power BI Desktop，用户可以构建高级查询、模型以及使数据可视化的报表。 通过 Power BI Desktop，可以生成数据模型、创建报表，并通过发布到 Power BI 服务共享工作。 Power BI Desktop 可免费下载。
@@ -102,7 +102,7 @@ ms.locfileid: "96418661"
 > 2021 年 1 月 31 日之后，Windows 7 将不再支持 Power BI Desktop。 在此日期之后，Windows 8 或较新版本的 Windows 将支持 Power BI Desktop（仅针对最新版本的 Power BI Desktop）。 
 
 * Windows 7/Windows Server 2008 R2 或更高版本
-* .NET 4.5
+* .NET 4.6.2
 * Internet Explorer 10 或更高版本
 * 内存 (RAM)：可用内存至少为 1 GB，建议为 1.5 GB 或以上。
 * 显示器：分辨率至少需要为 1440x900 或 1600x900 (16:9)。 不支持使用 1024x768 或 1280x800 等较低分辨率，因为某些控件（如关闭启动屏幕）需要更高的分辨率才能显示。
