@@ -9,6 +9,8 @@
           href: service-get-data.md
         - name: 本地数据网关是什么？
           href: service-gateway-onprem.md
+        - name: Power BI 服务中的数据集发现
+          href: service-datasets-hub.md
     - name: 快速入门
       expanded: true
       items:

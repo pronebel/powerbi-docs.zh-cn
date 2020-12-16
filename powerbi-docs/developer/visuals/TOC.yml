@@ -82,6 +82,8 @@
           href: drill-down-support.md
         - name: 向视觉对象添加颜色
           href: add-colors-power-bi-visual.md
+        - name: 添加条件格式
+          href: conditional-format.md
         - name: 在视觉对象中突出显示数据
           href: highlight.md
         - name: 添加高对比度模式支持
