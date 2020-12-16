@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: pbi-data-sources
 ms.topic: how-to
-ms.date: 11/11/2020
+ms.date: 12/10/2020
 LocalizationGroup: Connect to data
-ms.openlocfilehash: e9c64a3da7d5026045a64f58c814004df6d327b6
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: 038d0fc4b136f89db290010289d24ee41454c9ea
+ms.sourcegitcommit: 772c65b7b440ab082510bf3f64b871d19139d451
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96411323"
+ms.lasthandoff: 12/12/2020
+ms.locfileid: "97353326"
 ---
 # <a name="data-sources-in-power-bi-desktop"></a>Power BI Desktop 中的数据源
 
@@ -117,7 +117,7 @@ ms.locfileid: "96411323"
 
 * Power BI 数据集
 * Power BI 数据流
-* Common Data Service
+* Microsoft Dataverse
 * Power 平台数据流 (Beta)
 
 下图显示 Power 平台的“获取数据”窗口 。

@@ -7,14 +7,14 @@ ms.reviewer: mihart
 ms.service: powerbi
 ms.subservice: pbi-explore
 ms.topic: conceptual
-ms.date: 10/22/2020
+ms.date: 12/09/2020
 LocalizationGroup: Get started
-ms.openlocfilehash: ec7b24a4d8f2a94680444b4b9adf4612f1f1f474
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: 5e357b275cd6648721b021f68a9b8496e266e003
+ms.sourcegitcommit: 8250187368d3de48663eb516a816ff701119b579
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96415142"
+ms.lasthandoff: 12/10/2020
+ms.locfileid: "96999074"
 ---
 # <a name="the-new-look-of-the-power-bi-service"></a>Power BI 服务的新外观
 
@@ -65,7 +65,7 @@ Power BI 服务 (app.powerbi.com) 的新外观使报表查看和交互更加容�
 
 仪表板还具有简化的操作栏。 为了实现一致的体验，这与报表和应用类似，但保留了功能上的差异。 下面是仪表板中的操作的演练。
  
-![新外观中的仪表板操作栏的屏幕截图。](media/service-new-look/power-bi-dashboard-action-bar-new-look.png)
+![新外观中的仪表板操作栏的屏幕截图。](media/service-new-look/power-bi-dashboard-action-bar-new.png)
 
 ## <a name="next-steps"></a>后续步骤
 

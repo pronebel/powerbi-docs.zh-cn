@@ -8,14 +8,14 @@ ms.service: powerbi
 ms.subservice: pbi-visuals
 ms.topic: how-to
 ms.date: 11/06/2020
-ms.custom: video
+ms.custom: video-01UrT-z37sw
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 7ebb9d4c3682f1ce5cac5e587cb326d4e4ba506b
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: 2e3d7c276c90edde6ce6270a9deea07d185ecdcc
+ms.sourcegitcommit: 8250187368d3de48663eb516a816ff701119b579
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96418753"
+ms.lasthandoff: 12/10/2020
+ms.locfileid: "96999027"
 ---
 # <a name="create-smart-narrative-summaries-preview"></a>创建智能叙述摘要（预览版）
 
@@ -39,7 +39,7 @@ ms.locfileid: "96418753"
 ## <a name="get-started"></a>入门 
 观看 Justyna 演示如何使用智能叙述，然后使用视频下方的教程亲自尝试。  若要按照本教程进行操作，请下载联机销售方案的[示例文件](https://github.com/microsoft/powerbi-desktop-samples/blob/master/Monthly%20Desktop%20Blog%20Samples/2020/2020SU09%20Blog%20Demo%20-%20September.pbix)。
 
-> [!VIDEO https://youtu.be/01UrT-z37sw]
+<iframe width="560" height="315" src="https://www.youtube.com/embed/01UrT-z37sw" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 选择“可视化效果”窗格中的“智能叙述”图标以自动生成摘要。
 
