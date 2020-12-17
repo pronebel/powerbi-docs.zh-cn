@@ -120,6 +120,7 @@
             - name: 最佳做法
               href: deployment-pipelines-best-practices.md
     - name: 操作指南
+      expanded: true
       items:
         - name: Power BI 报表
           items:
@@ -277,7 +278,7 @@
               href: ../visuals/power-bi-visualization-decomposition-tree.md
             - name: 智能叙述
               href: ../visuals/power-bi-visualization-smart-narrative.md
-            - name: 异常检测
+            - name: 异常情况检测
               href: ../visuals/power-bi-visualization-anomaly-detection.md
             - name: 圆环图
               href: ../visuals/power-bi-visualization-doughnut-charts.md
