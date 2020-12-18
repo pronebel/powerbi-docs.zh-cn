@@ -30,8 +30,6 @@
           href: mobile-apps-offline-data.md
         - name: Power BI for HoloLens 2
           href: mobile-hololens2-app.md
-        - name: Power BI for HoloLens（第 1 代）
-          href: mobile-mixed-reality-app.md
     - name: 操作方法
       items:
         - name: 所有移动应用
