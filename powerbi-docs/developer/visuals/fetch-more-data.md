@@ -7,17 +7,19 @@ ms.reviewer: sranins
 ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: how-to
-ms.date: 06/18/2019
-ms.openlocfilehash: b8be5b68603f818e26e7f731e4f163bc626b5053
-ms.sourcegitcommit: 132b3f6ba6d2b1948ddc15969d64cf629f7fb280
+ms.date: 12/13/2020
+ms.openlocfilehash: 3dc94a24e5e6a84992745775b1639b7a186ed19d
+ms.sourcegitcommit: 46cf62d9bb33ac7b7eae7910fbba6756f626c65f
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/11/2020
-ms.locfileid: "94483687"
+ms.lasthandoff: 12/15/2020
+ms.locfileid: "97492072"
 ---
 # <a name="fetch-more-data-from-power-bi"></a>从 Power BI 中提取更多数据
 
-本文介绍如何通过使用 `fetchMoreData` 方法加载更多数据以绕过 30 KB 数据点的硬限制。 这种方法以区块的形式提供数据。 要提高性能，可以配置区块大小以适应用例。
+通过 `fetchMoreData` API，Power BI 视觉对象可绕过 3 万行数据视图这一硬限制。 借助新的 API 3.4 版本，`fetchMoreData` API 的功能得到了扩展，现支持新的数据区块加载方法。 现有方法是将请求的所有区块聚合在一起；除了该方法，API 还将支持仅加载增量数据区块。
+
+通过新方法，在将额外的数据区块加载到视觉对象时可更加灵活。 要提高性能，可以配置区块大小以适应用例。
 
 ## <a name="limitations-of-fetchmoredata"></a>fetchMoreData 的限制
 

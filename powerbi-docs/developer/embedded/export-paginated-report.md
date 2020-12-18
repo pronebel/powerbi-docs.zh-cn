@@ -1,5 +1,5 @@
 ---
-title: 导出 Power BI 分页报表 API
+title: 导出 Power BI 嵌入式分析分页报表 API
 description: 了解如何导出嵌入式 Power BI 分页报表
 author: KesemSharabi
 ms.author: kesharab
@@ -7,12 +7,12 @@ ms.topic: how-to
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.date: 04/05/2020
-ms.openlocfilehash: 908aa715c31396485bcebfaa7227f3241cb02fb8
-ms.sourcegitcommit: bd133cb1fcbf4f6f89066165ce065b8df2b47664
+ms.openlocfilehash: 590d7e8dfe2739996a40a87ebffd2d236ea6a371
+ms.sourcegitcommit: bbf7e9341a4e1cc96c969e24318c8605440282a5
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "94668548"
+ms.lasthandoff: 12/11/2020
+ms.locfileid: "97098044"
 ---
 # <a name="export-paginated-report-to-file-preview"></a>将分页报表导出为文件（预览）
 

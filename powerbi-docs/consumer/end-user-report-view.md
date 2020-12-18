@@ -9,12 +9,12 @@ ms.subservice: pbi-explore
 ms.topic: how-to
 ms.date: 09/27/2020
 LocalizationGroup: Reports
-ms.openlocfilehash: ea537e19eb7c3ab2a155f417af92e45841031f89
-ms.sourcegitcommit: 0bf42b6393cab7a37d21a52b934539cf300a08e2
+ms.openlocfilehash: 79658c2296ac2ae189680c9d8c778046778a882e
+ms.sourcegitcommit: 8250187368d3de48663eb516a816ff701119b579
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/07/2020
-ms.locfileid: "96781626"
+ms.lasthandoff: 12/10/2020
+ms.locfileid: "96998544"
 ---
 # <a name="change-the-display-of-a-report-page"></a>更改报表页的显示
 
@@ -58,7 +58,7 @@ ms.locfileid: "96781626"
 
 浏览器中的缩放控件可增加和减少可用的画布区域。 减小缩放比例可以显示更大的可用画布区域，增大比例则显示更小的区域。 
 
-![显示浏览器缩放控件的短视频](media/end-user-report-view/power-bi-zoom.png)
+![浏览器缩放控件](media/end-user-report-view/power-bi-zoom.png)
 
 调整整个浏览器的大小是更改报表显示大小的另一种方法。 
 

@@ -1,5 +1,5 @@
 ---
-title: 将 Power BI Embedded 应用程序移动到生产环境
+title: 将 Power BI 嵌入式分析应用程序移动到生产环境
 description: 了解将 Power BI 应用程序移动到生产环境所需的步骤。
 author: KesemSharabi
 ms.author: kesharab
@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.custom: seodec18
 ms.date: 06/02/2020
-ms.openlocfilehash: 6132066f9b724cf5658d3e66ccb835bb23b93d39
-ms.sourcegitcommit: 30d0668434283c633bda9ae03bc2aca75401ab94
+ms.openlocfilehash: 188974531f7b78e04c2cf0f8072dcef7efe3b888
+ms.sourcegitcommit: bbf7e9341a4e1cc96c969e24318c8605440282a5
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/09/2020
-ms.locfileid: "96907666"
+ms.lasthandoff: 12/11/2020
+ms.locfileid: "97098182"
 ---
 # <a name="move-your-embedded-app-to-production"></a>将嵌入式应用移动到生产环境
 

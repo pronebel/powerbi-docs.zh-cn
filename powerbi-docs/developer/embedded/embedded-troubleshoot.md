@@ -1,5 +1,5 @@
 ---
-title: 嵌入式应用程序疑难解答
+title: Power BI 嵌入式分析应用程序疑难解答
 description: 本文介绍了从 Power BI 嵌入内容时可能会遇到的一些常见问题。
 author: KesemSharabi
 ms.author: kesharab
@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: troubleshooting
 ms.date: 02/05/2019
-ms.openlocfilehash: 3016cce1e4dd8fb1be5b5ab95ebcc73bdcb56ac1
-ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
+ms.openlocfilehash: f46bdf5aec254763257fa4b121b4b8c135a0d58a
+ms.sourcegitcommit: bbf7e9341a4e1cc96c969e24318c8605440282a5
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/06/2020
-ms.locfileid: "91749060"
+ms.lasthandoff: 12/11/2020
+ms.locfileid: "97098067"
 ---
 # <a name="troubleshoot-your-embedded-application"></a>嵌入式应用程序疑难解答
 
@@ -101,7 +101,7 @@ HTTP/1.1 403 Forbidden
 
 ### <a name="authentication-failed-with-aadsts90002-tenant-authorize-not-found"></a>身份验证失败并显示 AADSTS90002：找不到租户“authorize”
 
- 如果在登录时收到消息（如 ***“错误: invalid_request，error_description:AADSTS90002:找不到租户‘authorize’”***），则这是因为 ADAL 4.x 不支持将“https://login.microsoftonline.com/{Tenant}/oauth2/authorize/”作为颁发机构 url。
+ 如果在登录时收到消息（例如“错误: invalid_request，error_description:**AADSTS90002:** 找不到租户‘authorize’”），则这是因为 ADAL 4.x 不支持将“https://login.microsoftonline.com/{Tenant}/oauth2/authorize/”用作颁发机构 URL。
  
 若要解决此问题，应从颁发机构 url 末尾剪裁“oauth2/authorize/”，请参阅 [Power BI 开发人员示例](https://github.com/Microsoft/PowerBI-Developer-Samples)以供参考。
 
@@ -109,15 +109,15 @@ HTTP/1.1 403 Forbidden
 
 ### <a name="authentication-failed-with-aadsts70002-or-aadsts50053"></a>身份验证失败并显示 AADSTS70002 或 AADSTS50053
 
-**_(AADSTS70002:验证凭据时出错。AADSTS50053:使用不正确的用户 ID 或密码尝试登录的次数过多)_**
+_*_ （AADSTS70002:验证凭据时出错。 AADSTS50053:使用错误用户 ID 或密码尝试登录的次数过多）
 
-如果使用 Power BI Embedded 并使用 Azure AD 直接身份验证，则会收到以下形式的消息日志记录：***error:unauthorized_client,error_description:AADSTS70002:验证凭据时出错。AADSTS50053:使用不正确的用户 ID 或密码***尝试登录的次数过多，这是因为自 2018 年 6 月 14 日起已默认不再使用直接身份验证。
+如果你正在使用 Power BI Embedded 和 Azure AD 直接身份验证，则在登录时会收到消息（例如“错误: unauthorized_client，error_description: AADSTS70002:*_验证凭据时出错。AADSTS50053:_* 使用错误用户 ID 或密码尝试登录的次数过多”，这是因为自 2018 年 6 月 14 日起已默认不再使用直接身份验证。
 
 可以使用组织或[服务主体](/azure/active-directory/develop/active-directory-application-objects#service-principal-object)范围内的 [Azure AD 策略](/azure/active-directory/manage-apps/configure-authentication-for-federated-users-portal#enable-direct-authentication-for-legacy-applications)重新启用此功能。
 
 建议仅逐个应用地启用此策略。
 
-要创建此策略，需要具有在其中创建和分配此策略的目录的全局管理员  身份。 以下为创建策略并将其分配到此应用程序的 SP 的示例脚本：
+若要创建此策略，需要具有在其中创建和分配此策略的目录的全局管理员身份。 以下为创建策略并将其分配到此应用程序的 SP 的示例脚本：
 
 1. 安装 [Azure AD 预览版 PowerShell 模块](/powershell/azure/active-directory/install-adv2?view=azureadps-2.0)。
 
@@ -290,9 +290,9 @@ Password is empty. Please fill password of Power BI username in web.config.
 
 #### <a name="using-the-embed-for-your-organization-sample-application"></a>将 Embed 用于组织示例应用程序
 
-若要采用“为组织嵌入”**** 体验，请保存并解压缩 PowerBI-Developer-Samples.zip** 文件。 然后打开 PowerBI-Developer-Samples-master\App Owns Data\integrate-report-web-app 文件夹并运行 pbi-saas-embed-report.sln 文件****。
+若要采用“为组织嵌入”体验，请保存并解压缩 PowerBI-Developer-Samples.zip 文件。 然后打开 PowerBI-Developer-Samples-master\App Owns Data\integrate-report-web-app 文件夹并运行 pbi-saas-embed-report.sln 文件。
 
-运行“为组织嵌入”示例应用时，将收到以下错误****：
+运行“为组织嵌入”示例应用时，将收到以下错误：
 
 ```output
 AADSTS50011: The reply URL specified in the request doesn't match the reply URLs configured for the application: <client ID>

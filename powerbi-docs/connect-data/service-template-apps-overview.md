@@ -7,13 +7,13 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-template-apps
 ms.topic: how-to
-ms.date: 05/04/2020
-ms.openlocfilehash: 5c897909d9fe31e4b22743a77058caba4767a579
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.date: 12/14/2020
+ms.openlocfilehash: a11ac8edb9abab29f58c3e4eda15ae204d105b26
+ms.sourcegitcommit: 46cf62d9bb33ac7b7eae7910fbba6756f626c65f
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96410128"
+ms.lasthandoff: 12/15/2020
+ms.locfileid: "97491727"
 ---
 # <a name="what-are-power-bi-template-apps"></a>什么是 Power BI 模板应用？
 
@@ -98,6 +98,7 @@ Power BI 模板应用允许 Power BI Pro 或 Power BI Premium 用户通过可连
 - 使用 AppSource 作为在线商店来托管应用程序。 这样，使用 Power BI 的任何人都可以找到你的应用。 
 - 考虑为分开的独特方案提供多个模板应用。 
 - 启用数据自定义，例如，通过安装程序支持自定义连接和参数配置。
+- 如果你是 ISV 并通过 Web 服务分发应用，请考虑在安装期间自动配置参数，从而使你的客户操作更简单并提高成功安装的可能性。 有关详细信息，请参阅[模板应用安装的自动化配置](../developer/template-apps/template-apps-auto-install.md)。
 
 要获取更多建议，请参阅[有关在 Power BI 创作模板应用的提示](service-template-apps-tips.md)。
 

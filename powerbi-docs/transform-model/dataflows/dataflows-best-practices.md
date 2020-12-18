@@ -7,18 +7,22 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: pbi-dataflows
 ms.topic: how-to
-ms.date: 11/13/2020
+ms.date: 12/10/2020
 LocalizationGroup: Data from files
-ms.openlocfilehash: 53a8573138a87f8be65183e0571077a02ac0715d
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: 116458c094159cbeeadaf2e955744759e4648220
+ms.sourcegitcommit: bbf7e9341a4e1cc96c969e24318c8605440282a5
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96418178"
+ms.lasthandoff: 12/11/2020
+ms.locfileid: "97097952"
 ---
 # <a name="dataflows-best-practices"></a>数据流最佳做法
 
 Power BI 数据流是一种以企业为中心的数据准备解决方案，能够提供可供使用、重用和集成的数据生态系统。 本文提供了最佳做法列表，其中包含文章和其他信息的链接，这些链接将帮助你充分了解和使用数据流。
+
+## <a name="dataflows-across-the-power-platform"></a>跨 Power Platform 的数据流
+
+可跨 Power Query、Microsoft Dynamics 365 和其他 Microsoft 产品/服务等各种 Power Platform 技术使用数据流。 若要详细了解可如何跨 Power Platform 使用数据流，请参阅[跨 Microsoft 产品使用数据流](https://docs.microsoft.com/power-query/dataflows/overview-dataflows-across-power-platform-dynamics-365)。
 
 
 ## <a name="dataflows-best-practices-table-and-links"></a>数据流最佳做法表和链接
@@ -40,6 +44,8 @@ Power BI 数据流是一种以企业为中心的数据准备解决方案，能�
 |使用数据分析     |了解列质量、分发和配置文件         |[数据事件探查工具](https://docs.microsoft.com/power-query/data-profiling-tools)         |
 |实现错误处理     |开发功能强大的数据流，灵活刷新错误，并提供建议         |[常见错误的模式](https://docs.microsoft.com/power-query/dealing-with-errors)  </br> [复杂错误处理](https://docs.microsoft.com/power-query/error-handling)      |
 |使用“架构”视图      |使用宽表并执行架构级别的操作时，可改进创作体验         |[“架构”视图](https://docs.microsoft.com/power-query/schema-view)         |
+|链接实体      |重用和引用转换         |[链接实体](https://docs.microsoft.com/power-query/dataflows/linked-entities)         |
+|增量刷新      |加载最新数据/更改后的数据与全部重新加载         |[增量刷新](https://docs.microsoft.com/power-query/dataflows/incremental-refresh)         |
 |||
 
 

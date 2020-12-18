@@ -9,13 +9,13 @@ ms.service: powerbi
 ms.subservice: pbi-collaborate-share
 ms.topic: conceptual
 LocalizationGroup: Share your work
-ms.date: 09/15/2020
-ms.openlocfilehash: bcd7d94e4fd3d50277ddd2a33c1d10407b9400de
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.date: 12/14/2020
+ms.openlocfilehash: 80aa8097ce38a9b1bac228ea61dcc959e4aba60d
+ms.sourcegitcommit: 46cf62d9bb33ac7b7eae7910fbba6756f626c65f
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96411991"
+ms.lasthandoff: 12/15/2020
+ms.locfileid: "97492003"
 ---
 # <a name="collaborate-in-microsoft-teams-with-power-bi"></a>使用 Power BI 在 Microsoft Teams 中开展协作
 
@@ -23,7 +23,7 @@ ms.locfileid: "96411991"
 
 - 通过 Microsoft Teams 的“Power BI”选项卡，可以[在 Microsoft Teams 频道和聊天中嵌入交互式报表](service-embed-report-microsoft-teams.md)。 “Power BI”选项卡可帮助你的同事查找团队的数据并在团队频道中进行讨论。 
 - 将报表、仪表板和应用的链接粘贴到 Microsoft Teams 消息框中时，请创建[链接预览](service-teams-link-preview.md)。 链接预览会显示有关该链接的信息。 
-- 在 Power BI 服务中查看报表和仪表板时，请使用[共享到 Microsoft Teams](service-share-report-teams.md)，以在 Microsoft Teams 中快速开始对话。
+- 在 Power BI 服务中查看报表和仪表板时，请使用 [Microsoft 在 Teams 中聊天](service-share-report-teams.md)在 Microsoft Teams 中快速开始对话。
 - 使用 [Microsoft Teams 中的 Power BI 应用](service-microsoft-teams-app.md)将整个基本 Power BI 服务体验引入 Microsoft Teams。
  
 :::image type="content" source="media/service-collaborate-microsoft-teams/power-bi-embed-teams-report.png" alt-text="嵌入到 Microsoft Teams 频道的 Power BI 报表的屏幕截图。":::
@@ -70,6 +70,6 @@ ms.locfileid: "96411991"
 
 - [在 Microsoft Teams 中嵌入 Power BI 内容](service-embed-report-microsoft-teams.md)
 - [在 Microsoft Teams 中获取 Power BI 链接预览](service-teams-link-preview.md)
-- [通过 Power BI 服务直接共享到 Microsoft Teams](service-share-report-teams.md)
+- [通过 Power BI 服务直接在 Microsoft Teams 中聊天](service-share-report-teams.md)
 
 更多问题？ [尝试咨询 Power BI 社区](https://community.powerbi.com/)。

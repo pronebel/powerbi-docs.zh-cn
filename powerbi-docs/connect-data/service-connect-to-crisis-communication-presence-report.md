@@ -8,12 +8,12 @@ ms.subservice: powerbi-template-apps
 ms.topic: how-to
 ms.date: 04/06/2020
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 7cce4f9e78fce27fedf795a4a0016593580f061a
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: e9fd1179dc15776cef701476d38b18823f3a8deb
+ms.sourcegitcommit: 8250187368d3de48663eb516a816ff701119b579
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96403159"
+ms.lasthandoff: 12/10/2020
+ms.locfileid: "96998776"
 ---
 # <a name="connect-to-the-crisis-communication-presence-report"></a>连接到危机通信状态报表
 
@@ -57,25 +57,22 @@ ms.locfileid: "96403159"
 
 1. 选择应用页面上的图标以打开应用。
 
-1. 在初始屏幕上，选择“浏览”  。
-
-   ![模板应用初始屏幕](media/service-connect-to-crisis-communication-presence-report/service-crisis-communication-presence-report-app-splash-screen.png)
 
    应用将打开，显示示例数据。
 
-1. 选择页面顶部的横幅上的“连接数据”链接  。
+1. 选择页面顶部横幅上的“连接数据”链接。
 
    ![危机通信状态报告应用“连接数据”链接](media/service-connect-to-crisis-communication-presence-report/service-crisis-communication-presence-report-app-connect-data.png)
 
 1. 在对话框中：
    1. 在 SharePoint_Folder 字段中，输入[“CI_Employee Status”SharePoint 列表路径](/powerapps/maker/canvas-apps/sample-crisis-communication-app#monitor-office-absences-with-power-bi)。
-   1. 在 List_ID 字段，输入从列表设置中获取的列表 ID。 完成后单击“下一步”  。
+   1. 在 List_ID 字段，输入从列表设置中获取的列表 ID。 完成后单击“下一步”。
 
    ![危机通信状态报表应用 URL 对话框](media/service-connect-to-crisis-communication-presence-report/service-crisis-communication-presence-report-app-url-dialog.png)
 
-1. 在出现的下一个对话框中，将身份验证方法设置为 OAuth2  。 不必对隐私级别设置执行任何操作。
+1. 在出现的下一个对话框中，将身份验证方法设置为 OAuth2。 不必对隐私级别设置执行任何操作。
 
-   选择“登录”  。
+   选择“登录”。
 
    ![危机通信状态报表应用身份验证对话框](media/service-connect-to-crisis-communication-presence-report/service-crisis-communication-presence-report-app-authentication-dialog.png)
 
@@ -91,11 +88,11 @@ ms.locfileid: "96403159"
 
 完成数据刷新后，[设置刷新计划](../connect-data/refresh-scheduled-refresh.md)以保持报表数据为最新状态。
 
-1. 在顶部标题栏中，选择“Power BI”  。
+1. 在顶部标题栏中，选择“Power BI”。
 
    ![Power BI 痕迹导航](media/service-connect-to-crisis-communication-presence-report/service-crisis-communication-presence-report-app-powerbi-breadcrumb.png)
 
-1. 在左侧导航窗格中，查找“工作区”下的医院紧急响应决策支持仪表板工作区，然后按照[配置计划刷新](../connect-data/refresh-scheduled-refresh.md)一文中所述的说明进行操作  。
+1. 在左侧导航窗格中，查找“工作区”下的医院紧急响应决策支持仪表板工作区，然后按照[配置计划刷新](../connect-data/refresh-scheduled-refresh.md)一文中所述的说明进行操作。
 
 ## <a name="customize-and-share"></a>自定义和共享
 

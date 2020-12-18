@@ -7,15 +7,15 @@ ms.reviewer: lukaszp
 ms.service: powerbi
 ms.subservice: pbi-collaborate-share
 ms.topic: conceptual
-ms.date: 06/18/2020
+ms.date: 12/14/2020
 ms.custom: contperfq4
 LocalizationGroup: Share your work
-ms.openlocfilehash: 424f3cc7412813cb9ea9f401d6edd22257e8d14a
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: 5b26f8fe04c7aaf6847de50398c54db6a3870844
+ms.sourcegitcommit: b5365df7fc32b7c49f8a2bf2cf75b5edd6bda9b6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96411784"
+ms.lasthandoff: 12/15/2020
+ms.locfileid: "97513772"
 ---
 # <a name="ways-to-collaborate-and-share-in-power-bi"></a>在 Power BI 中协作和共享的方式
 
@@ -27,22 +27,22 @@ Power BI 服务中的应用
 
 **协作**
 
-- 在工作区中与同事协作，创建有价值的报表和仪表板。
-- 在 Microsoft Teams 中开展协作。
+- [在工作区中与同事协作](#collaborate-in-a-workspace)，创建有价值的报表和仪表板。
+- [在 Microsoft Teams 中开展协作](#collaborate-in-microsoft-teams)。
 
 **分发或共享仪表板和报表**
 
-- 可以从“我的工作区”或其他工作区共享仪表板或报表。
-- 从 Power BI 移动应用添加批注并共享。
-- 将工作区中的仪表板和报表打包为应用，并将其分发到更大的组或整个组织。
-- 在安全门户或公共网站中嵌入报表。
-- 打印报表。
-- 创建 *模板应用*，以便通过 Microsoft AppSource 将其分发给外部 Power BI 用户。
+- 可从“我的工作区”或其他工作区[共享仪表板或报表](#share-dashboards-and-reports)。
+- [从 Power BI 移动应用添加批注并共享](#annotate-and-share-from-the-power-bi-mobile-apps)。
+- 将工作区中的仪表板和报表打包为应用，并[将应用分发](#distribute-insights-in-an-app)到更大的组或整个组织。
+- 在安全门户或公共网站中[嵌入报表](#embed-reports-in-secure-portals-or-public-web-sites) 。
+- [打印报表](#print-or-save-as-pdf-or-other-static-file)。
+- [创建模板应用](#create-and-deploy-template-apps)，以便通过 Microsoft AppSource 将其分发给外部 Power BI 用户。
  
 **共享数据**
 
-- 创建共享数据集，以便同事可以在其自己的工作区中将共享数据集用作其自己的报表的基础。
-- 创建数据流作为共享公共数据源的一种方法。
+- [创建共享数据集](#share-a-dataset)，以便同事可在其自己的工作区中将共享数据集用作其自己的报表的基础。
+- [创建数据流](#create-dataflows)作为共享公共数据源的一种方法。
 
 无论选择哪个选项，都需要 [Power BI Pro 许可证](../fundamentals/service-features-license-type.md)才能共享内容，否则内容需要位于[高级容量](../admin/service-premium-what-is.md)中。 许可证要求因查看内存的同事而异，具体取决于所选择的选项。 以下各节将进行详细说明。 
 
@@ -67,7 +67,7 @@ Power BI 服务中的应用
 
 ## <a name="collaborate-in-microsoft-teams"></a>在 Microsoft Teams 中开展协作
 
-通过将 Power BI 报表和 Power BI 分页报表嵌入 Microsoft Teams 中，增强组织中数据驱动的协作能力。 Power BI 服务有一个用于报表的“在 Teams 中共享”按钮。 可以为每个单独的报表添加单独的 Power BI 选项卡，并为每个选项卡指定报表名称或任何其他名称。 
+通过将 Power BI 报表和 Power BI 分页报表嵌入 Microsoft Teams 中，增强组织中数据驱动的协作能力。 Power BI 服务有一个用于报表的“在 Teams 中聊天”按钮。 可以为每个单独的报表添加单独的 Power BI 选项卡，并为每个选项卡指定报表名称或任何其他名称。 
 
 将“Power BI 报表”选项卡添加到 Microsoft Teams 时，Teams 可自动为报表创建选项卡对话。 该 Microsoft Teams 频道中的每个人都可以在对话中查看并讨论报表。 
 
@@ -77,7 +77,7 @@ Power BI 服务中的应用
 
 ## <a name="share-dashboards-and-reports"></a>共享仪表板和报表
 
-假设你已在 Power BI Desktop 中完成了一个报表，并且希望其他人有权访问它。 一种用于访问的方法是在 Power BI 服务中共享它。 将其发布到你自己的“我的工作区”或其他工作区。 或许你创建了可用于访问报表的仪表板，并且已准备就绪。
+假设你在 Power BI Desktop 中的报表已准备就绪，并且你希望其他人有权访问它。 一种用于访问的方法是在 Power BI 服务中共享它。 将其发布到你自己的“我的工作区”或其他工作区。 或许你创建了可用于访问报表的仪表板，并且已准备就绪。
 
 ![共享报表](media/service-how-to-collaborate-distribute-dashboards-reports/power-bi-share-report.png)
 
@@ -125,7 +125,7 @@ Power BI 服务中的应用
 
 ### <a name="publish-to-public-web-sites"></a>发布到公共网站
 
-利用“发布到 Web”，可通过将可视化效果嵌入到博客文章、网站、社交媒体以及其他联机交流媒介，来将 Power BI 报表发布到整个 Internet。 Internet 上的任何人都可以查看你的报表，并且你无法控制谁可以查看已发布的内容。 他们不需要 Power BI 许可证。 只能将可以编辑的报表发布到 Web。 如果是与你共享的报表或者报表位于应用内部，则无法将其发布到 Web。 详细了解如何[发布到 Web](service-publish-to-web.md)。
+借助“发布到 Web”，可通过将可视化效果嵌入到博客文章、网站、社交媒体和其他联机交流媒介，来将 Power BI 报表发布到整个 Internet。 Internet 上的任何人都可查看你的报表，而且你无法控制谁查看你已发布的内容。 他们不需要 Power BI 许可证。 只能将可以编辑的报表发布到 Web。 如果是与你共享的报表或者报表位于应用内部，则无法将其发布到 Web。 详细了解如何[发布到 Web](service-publish-to-web.md)。
 
 >[!Warning]
 >使用[发布到 Web](service-publish-to-web.md)只用于公开共享内容，而不用于内部共享。

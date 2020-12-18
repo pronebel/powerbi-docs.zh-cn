@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-template-apps
 ms.topic: how-to
 ms.date: 05/04/2020
-ms.openlocfilehash: bb48b92df81a49ee687376ee9f53428c10171b80
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: b20bb007c55f7d7d618b70690475d34d9f53fc06
+ms.sourcegitcommit: 46cf62d9bb33ac7b7eae7910fbba6756f626c65f
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96410105"
+ms.lasthandoff: 12/15/2020
+ms.locfileid: "97491704"
 ---
 # <a name="tips-for-authoring-template-apps-in-power-bi"></a>在 Power BI 中创作模板应用的提示
 
@@ -144,6 +144,10 @@ Power BI Desktop 中的[参数](https://powerbi.microsoft.com/blog/deep-dive-int
 若要将用户重定向到 Power BI 中的应用下载链接，请参阅以下代码示例：[GitHub 存储库](https://github.com/microsoft/Template-apps-examples)。
 
 [![应用下载链接](media/service-template-apps-tips/service-template-apps-tips-download.png)](https://app.powerbi.com/groups/me/getapps/services/pbi-contentpacks.pbiapps-github)
+
+## <a name="automate-parameter-configuration-during-installation"></a>在安装期间自动配置参数
+
+如果你是 ISV 并通过 Web 服务分发模板应用，那么可创建自动化，这样当客户在其 Power BI 帐户中安装应用时，会自动配置模板应用参数。 这可简化客户的操作并增加成功安装的可能性，因为他们不必提供自己可能不知道的详细信息。 有关详细信息，请参阅[模板应用安装的自动化配置](../developer/template-apps/template-apps-auto-install.md)。
 
 ## <a name="next-steps"></a>后续步骤
 

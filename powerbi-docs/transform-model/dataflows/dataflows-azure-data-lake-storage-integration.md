@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: pbi-dataflows
 ms.topic: how-to
-ms.date: 11/13/2020
+ms.date: 12/10/2020
 LocalizationGroup: Data from files
-ms.openlocfilehash: 106a70b567be7fc095dbc29917036b92b0f577e5
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: 646f3d37bb0200cf423ccdffb42dc4ce866ade9f
+ms.sourcegitcommit: bbf7e9341a4e1cc96c969e24318c8605440282a5
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96412543"
+ms.lasthandoff: 12/11/2020
+ms.locfileid: "97098251"
 ---
 # <a name="configuring-dataflow-storage-to-use-azure-data-lake-gen-2"></a>将数据流存储配置为使用 Azure Data Lake Gen 2 
 
@@ -25,6 +25,8 @@ ms.locfileid: "96412543"
 ## <a name="pre-requisites"></a>先决条件
 
 若要使用自己的 ADLS Gen 2 帐户，就必须在存储帐户、资源组或订阅层具有所有者权限。 即使你是管理员，也必须为自己分配所有者权限。 
+
+必须在启用了[分层命名空间 (HNS)](https://docs.microsoft.com/azure/storage/blobs/create-data-lake-storage-account) 的情况下创建存储帐户。 
 
 另外，ADLS Gen 2 帐户必须与 Power BI 租户部署在同一区域中。 如果资源的位置不在同一区域中，则会发生错误。
 

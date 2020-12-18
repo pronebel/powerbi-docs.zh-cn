@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-premium
 ms.topic: conceptual
-ms.date: 12/04/2020
+ms.date: 12/09/2020
 ms.custom: licensing support
 LocalizationGroup: Premium
-ms.openlocfilehash: 1ab5fb15f910b420781564da8f26cf5cd7ccd7df
-ms.sourcegitcommit: 0bf42b6393cab7a37d21a52b934539cf300a08e2
+ms.openlocfilehash: 62df55257864069a1e3a03f8378869fe76052120
+ms.sourcegitcommit: 46cf62d9bb33ac7b7eae7910fbba6756f626c65f
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/07/2020
-ms.locfileid: "96781810"
+ms.lasthandoff: 12/15/2020
+ms.locfileid: "97491957"
 ---
 # <a name="what-is-power-bi-premium"></a>什么是 Power BI Premium？
 
@@ -50,7 +50,7 @@ Premium Gen2 提供以下更新或改进的体验：
     * 较少的内存限制
     * 报表交互和计划刷新之间完全隔离
 
-* 使用清晰且标准化的容量使用率数据改进了指标，该数据仅取决于容量执行的分析操作的复杂度，而不取决于容量的大小、执行分析时系统的负载级别或其他因素。 通过改进的指标，利用内置的报表可以清楚地了解利用率分析结果、预算计划、退款和升级需求。 在整个预览期间，将提供改进的指标，并对其进行优化。
+* 使用清晰且标准化的容量使用率数据改进了指标，该数据仅取决于容量执行的分析操作的复杂度，而不取决于容量的大小、执行分析时系统的负载级别或其他因素。 通过改进的指标，利用内置的报表可以清楚地了解利用率分析结果、预算计划、退款和升级需求。 将在预览期间的稍后时间提供改进后的指标。 希望访问过去 7 天的使用指标的客户可联系客户支持人员来完成此操作。 
 
 * 自动缩放允许当容量上的负载超过其限制时在 24 小时内的某个时间自动添加 1 个 V 核心，防止因过载而导致速度降低。 当检测到空闲时间时，将自动删除 V 核心。 额外的 V 核心按即用即付方式向 Azure 订阅收费。 自动缩放将在预览期间提供。 
 
@@ -247,7 +247,8 @@ Premium Gen2 不需要累积内存限制，因此并发数据集刷新不会影�
 若要了解有关监视容量的详细信息，请参阅 [Power BI 管理门户中的监视](service-admin-premium-monitor-portal.md)和[使用 Power BI Premium 容量指标应用进行监视](service-admin-premium-monitor-capacity.md)。
 
 #### <a name="updates-for-premium-gen2-preview"></a>Premium Gen2（预览版）的更新
-Premium Gen2 容量不使用 Metrics 应用，而是使用 Capacity Utilization 应用，后者将在预览期间提供。 可以从“管理门户”中的容量管理页面为每个容量启动 Capacity Utilization 应用。
+Premium Gen2 容量不使用 Metrics 应用，而是使用 Capacity Utilization 应用，后者将在预览期间提供。 希望查看其使用情况的客户可向客户支持人员请求，重新接收其过去 7 天的使用情况报表的副本。 报表将在请求后的 72 小时内提供。 对于每个容量，将从管理门户中的容量管理页面启动 Capacity Utilization 应用，它可用于分析 30 天及更早的数据。
+
 
 
 ### <a name="optimizing-capacities"></a>优化容量
@@ -279,6 +280,8 @@ Power BI Embedded A4 SKU 等同于 P1 SKU、A5 = P2 和 A6 = P3。
 ### <a name="large-dataset-storage-format"></a>大型数据集存储格式
 
 如果在数据集上启用[大型数据集存储格式](service-premium-large-models.md)设置，则 .pbix 文件大小限制仍适用于文件上传或发布。 大型数据集存储格式不影响上传大小限制。 但是，如果发布到服务时启用了增量刷新和大型数据集存储格式，则数据集可能快速增长并远远超过这些限制。 对于大型数据集存储格式，数据集大小仅受 Power BI Premium 容量大小的限制。
+
+Power BI 数据集可在高度压缩的内存中缓存内存储数据，以便优化查询性能，在大型数据集上实现快速的用户交互。 以前，Power BI Premium 中的数据集在压缩后被限制为 10 GB。 有了大型模型，该限制被移除，数据集大小仅受到容量大小或管理员设置的最大大小限制。 启用此类大型数据集大小后，Power BI 数据集能够更好地与 Azure Analysis Services 模型大小保持一致。
 
 .pbix 文件表示处于 *高度压缩状态* 的数据。 数据在加载到内存中时可能会扩展，并且在数据刷新期间可能会在内存中扩展数倍。
 

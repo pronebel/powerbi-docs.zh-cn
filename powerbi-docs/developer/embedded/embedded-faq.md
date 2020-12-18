@@ -1,5 +1,5 @@
 ---
-title: 有关 Power BI Embedded 的常见问题
+title: 有关 Power BI 嵌入式分析的常见问题解答
 description: 浏览有关 Power BI Embedded 的常见问题和解答列表。
 author: KesemSharabi
 ms.author: kesharab
@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 02/11/2020
-ms.openlocfilehash: 348032345a56d538e1e5ffbb6036d411e42b2954
-ms.sourcegitcommit: 30d0668434283c633bda9ae03bc2aca75401ab94
+ms.openlocfilehash: 5d402a32571f70f3a5a3b5686e3fc40ef07126c9
+ms.sourcegitcommit: bbf7e9341a4e1cc96c969e24318c8605440282a5
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/09/2020
-ms.locfileid: "96907063"
+ms.lasthandoff: 12/11/2020
+ms.locfileid: "97098320"
 ---
 # <a name="frequently-asked-questions-about-power-bi-embedded"></a>有关 Power BI Embedded 的常见问题
 

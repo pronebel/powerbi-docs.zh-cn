@@ -8,14 +8,14 @@ ms.custom: ''
 ms.service: powerbi
 ms.subservice: pbi-data-sources
 ms.topic: how-to
-ms.date: 09/30/2020
+ms.date: 12/10/2020
 LocalizationGroup: Connect to data
-ms.openlocfilehash: fa06b1d561c770c3b9e0535e94789931a74bd9df
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: 6d99e91657d0c5f0bbd1e9c665f00d16c34ba24f
+ms.sourcegitcommit: 772c65b7b440ab082510bf3f64b871d19139d451
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96411462"
+ms.lasthandoff: 12/12/2020
+ms.locfileid: "97353234"
 ---
 # <a name="create-visuals-and-reports-with-the-azure-cost-management-connector-in-power-bi-desktop"></a>使用 Power BI Desktop 中的 Azure 成本管理连接器创建视觉对象和报表
 
@@ -56,7 +56,7 @@ Azure 成本管理连接器使用 OAuth 2.0 向 Azure 进行身份验证，并�
 
     ![屏幕截图显示 Azure 成本管理属性，其中范围为“计费对象信息 ID”。](media/desktop-connect-azure-cost-management/azure-cost-management-01a.png)
 
-7.  出现提示时，请使用你的 Azure 用户帐户和密码登录。 
+7.  出现提示时，请使用你的 Azure 用户帐户和密码登录。 必须以计费帐户所有者的身份操作才能成功访问。 
 
 
 ## <a name="connect-to-an-enterprise-agreement-account"></a>连接到企业协议帐户
@@ -71,13 +71,11 @@ Azure 成本管理连接器使用 OAuth 2.0 向 Azure 进行身份验证，并�
 
     ![屏幕截图显示 Azure 成本管理属性，其中范围为“合约编号”。](media/desktop-connect-azure-cost-management/azure-cost-management-01b.png)
 
-6.  出现提示时，请使用你的 Azure 用户帐户和密码登录。 
+6.  出现提示时，请使用你的 Azure 用户帐户和密码登录。 必须为企业协议使用企业管理员帐户。
 
 ## <a name="data-available-through-the-connector"></a>通过连接器提供的数据
 
 成功经过身份验证后，将显示“导航器”窗口，其中包含以下可用数据表：
-
-
 
 | **表** | **说明** |
 | --- | --- |

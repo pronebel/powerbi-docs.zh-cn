@@ -8,12 +8,12 @@ ms.subservice: powerbi-template-apps
 ms.topic: how-to
 ms.date: 04/05/2020
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 19dc9f5c5adfa5853d98cd6b0ef427c8bccebada
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: fc421f7635a3d6e3b2336d5bce081d7914c0fad5
+ms.sourcegitcommit: 8250187368d3de48663eb516a816ff701119b579
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96410611"
+ms.lasthandoff: 12/10/2020
+ms.locfileid: "96998844"
 ---
 # <a name="connect-to-the-covid-19-us-tracking-report"></a>连接到 COVID-19 美国跟踪报表
 本文介绍如何安装 COVID-19 跟踪报告的模板应用，以及如何连接到数据源。
@@ -28,9 +28,9 @@ ms.locfileid: "96410611"
 
 1. 单击以下链接可转到该应用：[COVID-19 美国跟踪报表模板应用](https://app.powerbi.com/groups/me/getapps/services/pbi-contentpacks.covid19ms)
 
-1. 在应用的 Appsource 页面上，单击“[立即获取](https://app.powerbi.com/groups/me/getapps/services/pbi-contentpacks.covid19ms)”  。
+1. 进入应用的 AppSource 页面后，单击[立即获取](https://app.powerbi.com/groups/me/getapps/services/pbi-contentpacks.covid19ms)。
 
-    [![Appsource 中的 Covid-19 美国跟踪报表](media/service-connect-to-covid-19-tracking/service-covid-19-us-tracking-report-appsource-icon.png)](https://app.powerbi.com/groups/me/getapps/services/pbi-contentpacks.covid19ms)
+    [![AppSource 中的新冠肺炎美国跟踪报表](media/service-connect-to-covid-19-tracking/service-covid-19-us-tracking-report-appsource-icon.png)](https://app.powerbi.com/groups/me/getapps/services/pbi-contentpacks.covid19ms)
 
 1. 出现提示时，单击“安装”  。 应用安装后，应用页面上会显示。
 
@@ -38,11 +38,11 @@ ms.locfileid: "96410611"
 
 ## <a name="connect-to-data-sources"></a>连接到数据源
 
-1. 单击应用页面上的图标以打开应用。
+1. 单击应用页面上的图标以打开应用。 应用将打开，显示示例数据。
 
-1. 在出现的初始屏幕上，选择“连接”  。
+1. 选择页面顶部横幅上的“连接数据”链接。
 
-   ![模板应用初始屏幕](media/service-connect-to-covid-19-tracking/service-covid-19-us-tracking-report-splash-screen.png)
+   ![GitHub 应用的“连接数据”链接](media/service-connect-to-covid-19-tracking/power-bi-covid-19-connect-data.png)
 
 1. 随即出现“参数”对话框。 没有必需的参数。 单击“下一步”  。
 

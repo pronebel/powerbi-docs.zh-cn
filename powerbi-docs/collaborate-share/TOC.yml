@@ -57,7 +57,7 @@
               href: service-microsoft-teams-app.md
             - name: 在 Teams 选项卡中嵌入报表
               href: service-embed-report-microsoft-teams.md
-            - name: 直接共享至 Teams
+            - name: 直接在 Teams 中聊天
               href: service-share-report-teams.md
             - name: 在 Teams 中获取链接预览
               href: service-teams-link-preview.md

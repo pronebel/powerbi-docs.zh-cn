@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-gateways
 ms.topic: troubleshooting
-ms.date: 09/25/2020
+ms.date: 12/10/2020
 LocalizationGroup: Gateways
-ms.openlocfilehash: 045d7df36deefae5c323e88d0ddf3053ea56682e
-ms.sourcegitcommit: be424c5b9659c96fc40bfbfbf04332b739063f9c
+ms.openlocfilehash: de8d24af0dbaa0ed4b27efca140cf29acda9df76
+ms.sourcegitcommit: 772c65b7b440ab082510bf3f64b871d19139d451
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "91634633"
+ms.lasthandoff: 12/12/2020
+ms.locfileid: "97353396"
 ---
 # <a name="troubleshoot-gateways---power-bi"></a>对网关进行排除故障 - Power BI
 
@@ -105,7 +105,7 @@ The username or password is incorrect.
 
 #### <a name="unable-to-see-the-data-gateway-data-sources-in-the-get-data-experience-for-analysis-services-from-the-power-bi-service"></a>在 Power BI 服务中使用 Analysis Services 的“获取数据”功能时，无法查看数据网关数据源
 
-确保你的帐户列于网关配置中数据源的**用户**选项卡。 如果你没有权限访问网关，请与网关管理员核对，并请他们进行验证。 仅用户列表中的帐户可查看列于 Analysis Services 列表中的数据源。
+确保你的帐户列于网关配置中数据源的 **用户** 选项卡。 如果你没有权限访问网关，请与网关管理员核对，并请他们进行验证。 仅用户列表中的帐户可查看列于 Analysis Services 列表中的数据源。
 
 ### <a name="error-you-dont-have-any-gateway-installed-or-configured-for-the-data-sources-in-this-dataset"></a>错误：没有为此数据集中的数据源安装或配置任何网关。
 
@@ -239,6 +239,37 @@ ImpersonationLevel 与 SPN 设置或本地策略设置相关。
 
    ![“委派”选项卡](media/service-gateway-onprem-tshoot/delegation-in-AD.png)
 
+## <a name="export-logs-for-a-support-ticket"></a>为支持票证导出日志
+
+需要使用网关日志来进行故障排除和创建支持票证。 按照以下步骤来提取这些日志。
+
+1. 确定网关群集。
+
+    如果你是数据集所有者，请首先检查与数据集关联的网关群集名称。 在下图中，网关群集是 IgniteGateway。
+
+    ![网关群集](media/service-gateway-onprem-tshoot/gateway-cluster.png)
+
+2. 检查网关属性。
+
+    然后，网关管理员应检查群集中的网关成员数量，并检查是否启用了负载均衡。
+
+    如果启用了负载均衡，则应对所有网关成员重复步骤 3。 如果未启用，则在主网关上导出日志就已足够。
+
+3. 检索和导出网关日志。
+
+    接下来，网关管理员（也是网关系统的管理员）应执行以下步骤：
+
+    a. 登录网关计算机，然后启动[本地数据网关应用](https://review.docs.microsoft.com/data-integration/gateway/service-gateway-app)来登录到该网关。
+    
+    b. 启用[附加日志记录](https://review.docs.microsoft.com/data-integration/gateway/service-gateway-performance#slow-performing-queries)。
+    
+    c. 或者，可[启用性能监视功能](https://review.docs.microsoft.com/data-integration/gateway/service-gateway-performance#enable-performance-logging)，并附上性能日志来提供其他详细信息，以便进行故障排除。
+    
+    d. 运行要尝试为其捕获网关日志的方案。
+    
+    e. [导出网关日志](https://review.docs.microsoft.com/data-integration/gateway/service-gateway-tshoot#collect-logs-from-the-on-premises-data-gateway-app)。
+
+
 ## <a name="refresh-history"></a>刷新历史记录
 
 将网关用于计划刷新时，“刷新历史记录”可以帮助查看发生的错误。 如果需要创建支持请求，则它也可以提供有用数据。 可以查看计划刷新和按需刷新。 以下步骤介绍如何访问刷新历史记录。
@@ -247,7 +278,7 @@ ImpersonationLevel 与 SPN 设置或本地策略设置相关。
 
     ![如何选择“计划刷新”](media/service-gateway-onprem-tshoot/scheduled-refresh.png)
 
-2. 在**设置...** &gt;“计划刷新”中，选择“刷新历史记录” 。
+2. 在 **设置...** &gt;“计划刷新”中，选择“刷新历史记录” 。
 
     ![选择刷新历史记录](media/service-gateway-onprem-tshoot/scheduled-refresh-2.png)
 

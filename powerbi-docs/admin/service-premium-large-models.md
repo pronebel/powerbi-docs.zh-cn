@@ -7,19 +7,19 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-premium
 ms.topic: how-to
-ms.date: 12/04/2020
+ms.date: 12/10/2020
 ms.custom: references_regions
 LocalizationGroup: Premium
-ms.openlocfilehash: 1f9a34b68f465eda5b8921e48576c9bef5d17f36
-ms.sourcegitcommit: 0bf42b6393cab7a37d21a52b934539cf300a08e2
+ms.openlocfilehash: 7256e17f561aa79d63b7fefd268df560903de6b2
+ms.sourcegitcommit: 772c65b7b440ab082510bf3f64b871d19139d451
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/07/2020
-ms.locfileid: "96781675"
+ms.lasthandoff: 12/12/2020
+ms.locfileid: "97353096"
 ---
 # <a name="large-datasets-in-power-bi-premium"></a>Power BI Premium 中的大型数据集
 
-Power BI 数据集可以在高度压缩的内存中缓存中存储数据，以便优化查询性能，从而实现快速的用户交互性。 利用高级容量，可以使用“大型数据集存储格式”设置启用大小超过默认 10 GB 限制的大型数据集。 启用后，数据集大小受高级容量大小限制。
+Power BI 数据集可以在高度压缩的内存中缓存中存储数据，以便优化查询性能，从而实现快速的用户交互性。 利用高级容量，可以使用“大型数据集存储格式”设置启用大小超过默认 10 GB 限制的大型数据集。 启用后，数据集大小会受到 Premium 容量大小或管理员设置的最大大小限制。
 
 可以为所有 Premium P SKU 和 Embedded A SKU 启用大型数据集。 就数据模型大小限制而言，Premium 中的大型数据集大小限制可与 Azure Analysis Services 中的限制相比。
 
@@ -131,10 +131,12 @@ SELECT * FROM SYSTEMRESTRICTSCHEMA
 
 使用大型数据集时，记住以下限制：
 
-- **必需提供新工作区**：大型数据集仅适用于[新工作区](../collaborate-share/service-create-the-new-workspaces.md)。
+- **必需提供新工作区**：大型数据集仅适用于 [新工作区](../collaborate-share/service-create-the-new-workspaces.md)。
 
 - **下载到 Power BI Desktop**：如果数据集存储在高级文件中，[下载为 .pbix](../create-reports/service-export-to-pbix.md) 文件将失败。
 - **支持的区域**：支持高级文件存储的所有 Azure 区域都支持大型数据集。 若要了解详细信息，请参阅[按区域提供的产品](https://azure.microsoft.com/global-infrastructure/services/?products=storage)，并参考以下部分中的表格。
+
+- **设置最大数据集大小**：管理员可设置最大数据集大小。 最大值可设置为从 0.1 GB 到 SKU 的最大容量之间。
 
 ## <a name="region-availability"></a>上市区域
 
@@ -146,6 +148,9 @@ Power BI 中的大型数据集只在支持 [Azure 高级文件存储](/azure/sto
 |---------|---------|
 |澳大利亚东部     | australiaeast        |
 |Australia Southeast     | australiasoutheast        |
+|加拿大东部     | canadaeast        |
+|加拿大中部     | canadacentral        |
+|印度中部     | centralindia        |
 |美国中部     | centralus        |
 |东亚     | eastasia        |
 |美国东部     | eastus        |
@@ -161,6 +166,7 @@ Power BI 中的大型数据集只在支持 [Azure 高级文件存储](/azure/sto
 |英国南部     | uksouth        |
 |英国西部     | ukwest        |
 |西欧     | westeurope        |
+|印度西部     | westindia        |
 |美国西部     | westus        |
 |美国西部 2     | westus2        |
 

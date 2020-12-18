@@ -7,15 +7,15 @@ ms.reviewer: kayu
 ms.service: powerbi
 ms.subservice: powerbi-premium
 ms.topic: how-to
-ms.date: 12/01/2020
+ms.date: 12/09/2020
 ms.custom: seodec18
 LocalizationGroup: Premium
-ms.openlocfilehash: b238daa82bc2ae039c137c259ca8f63044281e6f
-ms.sourcegitcommit: 513c4b884a58e1da2680579339c24c46091bbfb2
+ms.openlocfilehash: 383c9bd20c86d89c5bf51c64c8027f86c1bfaab9
+ms.sourcegitcommit: 8250187368d3de48663eb516a816ff701119b579
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/04/2020
-ms.locfileid: "96613707"
+ms.lasthandoff: 12/10/2020
+ms.locfileid: "96998958"
 ---
 # <a name="dataset-connectivity-with-the-xmla-endpoint"></a>使用 XMLA 终结点的数据集连接
 
@@ -34,9 +34,9 @@ Power BI Premium 使用 [XML for Analysis](/analysis-services/xmla/xml-for-analy
 
 下面是一些最常与 Azure Analysis Services 和 SQL Server Analysis Services 配合使用的工具，现在也受到 Power BI Premium 数据集的支持：
 
-**包含 Analysis Services 项目的 Visual Studio** - 亦称为“SQL Server Data Tools (SSDT)”，是用于 Analysis Services 表格模型的企业级模型创作工具。 所有 Visual Studio 2017 及更高版本（包括免费的 Community 版本）都支持 Analysis Services 项目扩展。 必须有版本 2.9.6 或更高版本扩展，才能将表格模型部署到 Premium 工作区。 部署到 Premium 工作区的模型的兼容性级别必须为 1500 或更高级别。 必须为数据集工作负荷启用 XMLA 读写终结点。 若要了解详细信息，请参阅 [Analysis Services 工具](/analysis-services/tools-and-applications-used-in-analysis-services?view=power-bi-premium-current&preserve-view=true)。
+**包含 Analysis Services 项目的 Visual Studio** - 亦称为“SQL Server Data Tools (SSDT)”，是用于 Analysis Services 表格模型的企业级模型创作工具。 所有 Visual Studio 2017 及更高版本（包括免费的 Community 版本）都支持 Analysis Services 项目扩展。 必须具有 2.9.14 版或更高版本的扩展，才能将表格模型部署到 Premium 工作区。 部署到 Premium 工作区的模型的兼容性级别必须为 1500 或更高级别。 必须为数据集工作负荷启用 XMLA 读写终结点。 若要了解详细信息，请参阅 [Analysis Services 工具](/analysis-services/tools-and-applications-used-in-analysis-services?view=power-bi-premium-current&preserve-view=true)。
 
-**SQL Server Management Studio (SSMS)**  - 支持 DAX、MDX 和 XMLA 查询。 使用[表格模型脚本语言](/analysis-services/tmsl/tabular-model-scripting-language-tmsl-reference) (TMSL) 对数据集元数据执行精细刷新操作，并为之编写脚本。 必须启用只读终结点，才能执行查询操作。 必须启用读写终结点，才能为元数据编写脚本。 SSMS 必须为版本 18.4 或更高版本。 请单击 [此处](/sql/ssms/download-sql-server-management-studio-ssms)下载。
+**SQL Server Management Studio (SSMS)**  - 支持 DAX、MDX 和 XMLA 查询。 使用[表格模型脚本语言](/analysis-services/tmsl/tabular-model-scripting-language-tmsl-reference) (TMSL) 对数据集元数据执行精细刷新操作，并为之编写脚本。 必须启用只读终结点，才能执行查询操作。 必须启用读写终结点，才能为元数据编写脚本。 需要 SSMS 18.7.1 或更高版本。 请单击 [此处](/sql/ssms/download-sql-server-management-studio-ssms)下载。
 
 **SQL Server Profiler** - 随 SSMS 一起安装，此工具可以对数据集事件进行跟踪和调试。 尽管 Profiler 已正式被 SQL Server 弃用，但仍继续保留在 SSMS 中，并继续受到 Analysis Services 和 Power BI Premium 支持。 必须启用 XMLA 只读终结点。 若要了解详细信息，请参阅 [适用于 Analysis Services 的 SQL Server Profiler](/analysis-services/instances/use-sql-server-profiler-to-monitor-analysis-services?view=power-bi-premium-current&preserve-view=true)。
 

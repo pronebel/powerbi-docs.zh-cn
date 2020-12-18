@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: pbi-data-sources
 ms.topic: conceptual
-ms.date: 12/03/2020
+ms.date: 12/14/2020
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 01ba6c2e01b3e17a3ef9c878890877e0a0b976ea
-ms.sourcegitcommit: 513c4b884a58e1da2680579339c24c46091bbfb2
+ms.openlocfilehash: 84d60fce95172b419663ed7889d69e22ae1947cd
+ms.sourcegitcommit: 46cf62d9bb33ac7b7eae7910fbba6756f626c65f
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/04/2020
-ms.locfileid: "96613730"
+ms.lasthandoff: 12/15/2020
+ms.locfileid: "97491980"
 ---
 # <a name="about-using-directquery-in-power-bi"></a>关于在 Power BI 中使用 DirectQuery
 
@@ -81,7 +81,7 @@ SQL Server Analysis Services 是一个特例。 连接到 SQL Server Analysis Se
 上段中所述的情况也适用于连接以下数据源（没有导入数据选项的情况除外）：
 
 * Power BI 数据集。例如，连接到以前已创建并发布到服务的 Power BI 数据集以创作新报表将其覆盖。
-* Common Data Services。
+* Microsoft Dataverse。
 
 SQL Server Analysis Services 报表发布到 Power BI 服务时，其行为在以下方面与 DirectQuery 报表类似：
 
@@ -334,6 +334,9 @@ Power BI Desktop 支持所有数据源。 某些数据源还可直接在 Power B
 增加“每个数据源的最大连接数”，确保可以将更多查询（以指定的最大数量为限）发送到基础数据源。 当多个视觉对象位于一个页面上，或者许多用户同时访问报表时，此方法非常有用。 达到最大连接数后，超出的查询就会排队，直到连接可用。 增加此限制确实会导致底层源上的负载增加，因此该设置不保证提高总体性能。
 
 报表发布后，发送到基础数据源的并发查询的最大数目也取决于固定限制。 该限制取决于报表所发布到的目标环境。 不同环境（如 Power BI、Power BI Premium 或 Power BI 报表服务器）可以施加不同限制。
+
+> [!NOTE]
+> 启用[增强元数据](desktop-enhanced-dataset-metadata.md)后，DirectQuery 连接设置的最大大小会应用于所有 DirectQuery 源；“增强元数据”是自 2020 年 10 月开始在 Power BI Desktop 中创建的所有模型的默认设置。 
 
 ### <a name="diagnosing-performance-issues"></a>诊断性能问题
 

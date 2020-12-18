@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-template-apps
 ms.topic: how-to
 ms.date: 09/17/2020
-ms.openlocfilehash: b60728978a3429249d7376fdfe1477bf67ef293a
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: e6499d9e4547f1bd2b8cf4ac29fbc375af871f8a
+ms.sourcegitcommit: 8250187368d3de48663eb516a816ff701119b579
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96401986"
+ms.lasthandoff: 12/10/2020
+ms.locfileid: "96998617"
 ---
 # <a name="install-and-distribute-template-apps-in-your-organization"></a>在组织中安装和分发模板应用
 
@@ -64,10 +64,6 @@ ms.locfileid: "96401986"
 ## <a name="connect-to-data"></a>连接到数据
 
 1. 选择“转到应用”。
-
-1. 在“开始使用新应用”窗口中，选择“浏览” 。
-
-   ![模板应用初始屏幕](media/service-template-apps-install-distribute/power-bi-template-app-get-started.png)
 
    应用将打开，显示示例数据。
 
@@ -138,6 +134,20 @@ ms.locfileid: "96401986"
 
 >[!IMPORTANT]
 >切记在覆盖后[更新应用](#customize-and-share-the-app)，以将更改应用于组织应用用户的报表和仪表板。
+
+## <a name="delete-a-template-app"></a>删除模板应用
+
+安装后的模板应用包含应用本身及其关联的工作区。 若要删除模板应用，可采用下面两个选项：
+* **完全删除应用及其关联的工作区**：若要完全删除模板应用及其关联的工作区，请转到应用页面上的应用磁贴，选择垃圾桶图标，然后在出现的对话框中单击“删除”。
+* **取消发布应用**：此选项将删除应用，但会保留其关联的工作区。 此选项在某些情况下很有用，例如存在你创建且想要保留的自定义时。
+
+    若要取消发布应用：
+    1. 打开应用。
+    1. 单击“编辑应用”铅笔图标，打开模板应用的工作区。
+    1. 在模板应用工作区中，选择“更多选项(...)”，然后选择“取消发布应用” 。
+
+        ![“取消发布应用”选项的屏幕截图。](media/service-template-apps-install-distribute/power-bi-template-app-unpublish.png)
+
 
 ## <a name="next-steps"></a>后续步骤
 

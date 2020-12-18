@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: pbi-collaborate-share
 ms.topic: how-to
-ms.date: 11/17/2020
+ms.date: 12/14/2020
 LocalizationGroup: Get started
-ms.openlocfilehash: 2689597e35801d6829b29790309ea53ad410ff47
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: 5c69abe925751e8b065f262e151bfee65c487238
+ms.sourcegitcommit: 46cf62d9bb33ac7b7eae7910fbba6756f626c65f
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96412014"
+ms.lasthandoff: 12/15/2020
+ms.locfileid: "97492049"
 ---
 # <a name="export-power-bi-paginated-reports-with-power-automate"></a>使用 Power Automate 导出 Power BI 分页报表
 
@@ -40,7 +40,7 @@ ms.locfileid: "96412014"
 
 - [将 Power BI 分页报表保存到 OneDrive for Business 或 SharePoint Online 文件夹](service-automate-paginated-onedrive-sharepoint.md)。  
 - [为 SharePoint Online 列表中的项或为 Excel Online 表的每一行导出 Power BI 分页报表](service-automate-paginated-excel-sharepoint-list.md)。
-- 将 Power BI 分页报表保存到本地系统文件夹中。
+- [将 Power BI 分页报表保存到本地系统文件夹中](service-automate-paginated-local-file.md)。
 
 ## <a name="next-steps"></a>后续步骤
 

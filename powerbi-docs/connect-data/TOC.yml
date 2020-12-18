@@ -17,6 +17,7 @@
         - name: 连接到 Power BI Desktop 中的数据
           href: desktop-quickstart-connect-to-data.md
     - name: 教程
+      expanded: true
       items:
         - name: 调整和合并多个数据源
           href: desktop-shape-and-combine-data.md
@@ -39,6 +40,7 @@
         - name: 刷新来自 SQL Server 的数据
           href: service-gateway-sql-tutorial.md
     - name: 概念
+      expanded: true
       items:
         - name: Power BI 数据源
           href: power-bi-data-sources.md
@@ -50,6 +52,8 @@
           href: desktop-default-member-multidimensional-models.md
         - name: 关于在 Power BI 中使用 DirectQuery
           href: desktop-directquery-about.md
+        - name: 使用适用于 Power BI 数据集和 Azure Analysis Services 的 DirectQuery（预览版）
+          href: desktop-directquery-datasets-azure-analysis-services.md
         - name: 网关
           items:
             - name: 部署数据网关指南
@@ -57,6 +61,7 @@
             - name: 本地数据网关常见问题
               href: service-gateway-power-bi-faq.md
     - name: 操作指南
+      expanded: true
       items:
         - name: 连接到数据源
           href: desktop-connect-to-data.md

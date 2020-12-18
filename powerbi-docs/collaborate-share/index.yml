@@ -6,18 +6,18 @@ metadata:
   description: 无论以何种方式使用 Power BI，Power BI 文档都可以提供专业的信息和答案来满足你的需求。
   services: powerbi
   ms.service: powerbi
-  ms.subservice: powerbi
+  ms.subservice: pbi-collaborate-share
   ms.topic: landing-page
   ms.collection: collection
   author: maggiesMSFT
   ms.author: maggies
-  ms.date: 03/03/2020
-  ms.openlocfilehash: 9b2f5fd70ed00dccb122fb4195284a1f3e0f75c2
-  ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+  ms.date: 12/15/2020
+  ms.openlocfilehash: 641912026673d45c494d9350bdcc7d47e306138c
+  ms.sourcegitcommit: 7bf09116163afaae312eb2b232eb7967baee2c92
   ms.translationtype: HT
   ms.contentlocale: zh-CN
-  ms.lasthandoff: 05/13/2020
-  ms.locfileid: "83275170"
+  ms.lasthandoff: 12/17/2020
+  ms.locfileid: "97621731"
 landingContent:
 - title: 开始协作和共享
   linkLists:
@@ -25,18 +25,22 @@ landingContent:
     links:
     - text: 工作共享方式
       url: service-how-to-collaborate-distribute-dashboards-reports.md
-- title: 与同事协作
-  linkLists:
-  - linkListType: concept
-    links:
-    - text: 跨工作区使用数据集简介
-      url: ../connect-data/service-datasets-across-workspaces.md
-    - text: 共享数据集的生成权限
-      url: ../connect-data/service-datasets-build-permissions.md
   - linkListType: how-to-guide
     links:
     - text: 在新工作区中组织工作
       url: service-new-workspaces.md
+- title: 在 Microsoft Teams 中开展协作
+  linkLists:
+  - linkListType: concept
+    links:
+    - text: 在 Microsoft Teams 中开展协作
+      url: service-collaborate-microsoft-teams.md
+  - linkListType: how-to-guide
+    links:
+    - text: 将 Power BI 应用添加到 Microsoft Teams
+      url: service-microsoft-teams-app.md
+    - text: 直接在 Microsoft Teams 中聊天
+      url: service-share-report-teams.md
 - title: 共享工作
   linkLists:
   - linkListType: concept
@@ -65,3 +69,15 @@ landingContent:
     links:
     - text: 在 SharePoint Online 中嵌入
       url: service-embed-report-spo.md
+- title: 与 Power Automate 集成
+  linkLists:
+  - linkListType: concept
+    links:
+    - text: 使用 Power Automate 导出分页报表
+      url: service-automate-paginated-integration.md
+  - linkListType: how-to-guide
+    links:
+    - text: 将数据警报与 Power Automate 集成
+      url: service-flow-integration.md
+    - text: 使用 Power Automate 导出 Power BI 报表
+      url: service-automate-power-bi-report-export.md

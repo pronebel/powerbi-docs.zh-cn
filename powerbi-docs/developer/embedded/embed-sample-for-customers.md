@@ -1,5 +1,5 @@
 ---
-title: 为客户将内容嵌入应用程序
+title: 针对你的客户将内容嵌入到 Power BI 嵌入式分析应用程序中
 description: 了解如何将报表、仪表板或磁贴嵌入 Power BI 嵌入式分析示例。
 author: KesemSharabi
 ms.author: kesharab
@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.custom: seodec18
 ms.date: 12/02/2020
-ms.openlocfilehash: 7bc825992f5c7382e1c0a24783f732957913c588
-ms.sourcegitcommit: 30d0668434283c633bda9ae03bc2aca75401ab94
+ms.openlocfilehash: e79a73880b50a0edb5e507726cb0c995ba13cd77
+ms.sourcegitcommit: bbf7e9341a4e1cc96c969e24318c8605440282a5
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/09/2020
-ms.locfileid: "96907116"
+ms.lasthandoff: 12/11/2020
+ms.locfileid: "97098412"
 ---
 # <a name="tutorial-embed-power-bi-content-using-a-sample-embed-for-your-customers-application"></a>教程：使用“为客户嵌入内容”应用程序嵌入 Power BI 内容
 

@@ -1,5 +1,5 @@
 ---
-title: 用于导出 Power BI 报表的 API
+title: 导入 Power BI 嵌入式分析报表 API
 description: 了解如何导出嵌入的 Power BI 报表
 author: KesemSharabi
 ms.author: kesharab
@@ -7,12 +7,12 @@ ms.topic: how-to
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.date: 10/01/2020
-ms.openlocfilehash: 8ff1fe1657e22b1e0812bddf6a0842b3c32b8822
-ms.sourcegitcommit: bd133cb1fcbf4f6f89066165ce065b8df2b47664
+ms.openlocfilehash: a0aa5839272529a0217ea4a4355342c51d55a6c3
+ms.sourcegitcommit: bbf7e9341a4e1cc96c969e24318c8605440282a5
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "94668571"
+ms.lasthandoff: 12/11/2020
+ms.locfileid: "97098274"
 ---
 # <a name="export-power-bi-report-to-file-preview"></a>将 Power BI 报表导出到文件（预览）
 

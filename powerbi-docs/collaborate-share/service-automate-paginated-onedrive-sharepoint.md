@@ -9,16 +9,17 @@ ms.subservice: pbi-collaborate-share
 ms.topic: how-to
 ms.date: 11/17/2020
 LocalizationGroup: Get started
-ms.openlocfilehash: 4a0a504db15d78bec112aaafd2a972f066e88193
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: 6aaad48fb3e97aa6c1b4fc51834ee593a49a8192
+ms.sourcegitcommit: bbf7e9341a4e1cc96c969e24318c8605440282a5
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96407667"
+ms.lasthandoff: 12/11/2020
+ms.locfileid: "97097722"
 ---
 # <a name="save-a-paginated-report-to-onedrive-for-business-or-sharepoint-online"></a>将分页报表保存到 OneDrive for Business 或 SharePoint Online
 
 借助 [Power Automate](/power-automate/getting-started)，Power BI 分页报表可自动导出并分发到各种受支持的格式和方案。 本文将使用 Power Automate 自动将 Power BI 分页报表保存到 OneDrive for Business 或 SharePoint Online 文件夹中。
+
 
 :::image type="content" source="media/service-automate-paginated-onedrive-sharepoint/paginated-onedrive-flow.png" alt-text="将分页报表保存到 OneDrive 或 SharePoint Online 的 Power Automate 流的屏幕截图":::
 
@@ -28,7 +29,7 @@ ms.locfileid: "96407667"
 
 若要继续操作，请确保：
 
-- Power BI 租户中至少有一个由预留容量提供支持的工作区。 此容量可以是 A4/P1 – A6/P3 SKU 中的任何一个。 详细了解 [Power BI Premium 中的预留容量](../admin/service-premium-what-is.md)。
+- Power BI 租户中至少有一个由预留容量提供支持的工作区。 此容量可以是 A4/P1 – A6/P3 SKU 中的任何一个。 详细了解 [Power BI Premium 中分页报表的预留容量](../admin/service-premium-what-is.md#paginated-reports)
 - 有权访问 Power Automate 中的标准连接器，这些连接器随任何 Office 365 订阅一起提供。
 
 ## <a name="save-a-paginated-report-to-onedrive-for-business-or-a-sharepoint-online-folder"></a>将分页报表保存到 OneDrive for Business 或 SharePoint Online 文件夹 
@@ -57,7 +58,7 @@ ms.locfileid: "96407667"
 
     :::image type="content" source="media/service-automate-paginated-onedrive-sharepoint/onedrive-template-3-advanced-recurrence.png" alt-text="显示重复周期的高级选项。":::
 
-1. 在“工作区”框中，选择预留容量中的工作区。 在“报表”框中，选择所选工作区中要导出的分页报表。 在“导出格式”框中，选择所需的导出格式。 也可以为分页报表指定参数。 有关参数的详细说明，请参阅 [Power BI Rest API 的连接器参考](/connectors/powerbi/#export-to-file-for-paginated-reports)。  
+1. 在“工作区”框中，选择预留容量中的工作区。 在“报表”框中，选择所选工作区中要导出的分页报表。 在“导出格式”框中，选择所需的导出格式。 也可以为分页报表指定参数。 有关参数的详细说明，请查看 [Power BI REST API 的连接器参考](/connectors/powerbi/#export-to-file-for-paginated-reports)。  
 
     :::image type="content" source="media/service-automate-paginated-onedrive-sharepoint/onedrive-template-4-export-format.png" alt-text="选择分页报表、工作区和导出格式。":::
 
@@ -69,7 +70,7 @@ ms.locfileid: "96407667"
 
 1. 完成后，选择“下一步”或“保存” ****  。 Power Automate 会创建和评估流，并告知你是否找到错误。 
 
-1. 如果有错误，请选择“编辑流”以修复错误 ****  。 如果没有，请选择“后退”箭头以查看流的详细信息并运行新流。 
+1. 如果有错误，请选择“编辑流”以修复错误 ****  。 如果没有，请选择“后退”箭头来查看流的详细信息，并运行新流。 
 
     运行流时，Power Automate 会采用指定格式将分页报表导出到 OneDrive for Business 或 SharePoint Online。  
 

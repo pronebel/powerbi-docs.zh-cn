@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: pbi-security
 ms.topic: how-to
-ms.date: 11/12/2020
+ms.date: 12/14/2020
 ms.custom: ''
 LocalizationGroup: Administration
-ms.openlocfilehash: 446c3620cf3b2a7435897108cfcd9c8972ad8bb4
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: da5ee837345b6f26dd6636bc93f6b38c1e0f5ea7
+ms.sourcegitcommit: 46cf62d9bb33ac7b7eae7910fbba6756f626c65f
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96412152"
+ms.lasthandoff: 12/15/2020
+ms.locfileid: "97491842"
 ---
 # <a name="private-links-for-accessing-power-bi"></a>用于访问 Power BI 的专用链接
 
@@ -118,9 +118,9 @@ Power BI 服务实现专用终结点，而不是服务终结点。
 | ```<resource-group-name>```   | myResourceGroup |
 | ```<virtual-network-name>```  | myVirtualNetwork |
 | ```<region-name>```   | 美国中部  |
-| ```<IPv4-address-space>```    | 10.1.0.0/16 |
+| ```<IPv4-address-space>```    | 10.5.0.0/16 |
 | ```<subnet-name>```   | mySubnet |
-| ```<subnet-address-range>```  | 10.1.0.0/24 |
+| ```<subnet-address-range>```  | 10.5.0.0/24 |
 
 1. 在屏幕的左上方选择“创建资源”>“网络”>“虚拟网络”，或者在搜索框中搜索“虚拟网络”。  
 2. 在“创建虚拟网络”的“基本信息”选项卡中输入或选择以下信息：
@@ -166,7 +166,6 @@ Power BI 服务实现专用终结点，而不是服务终结点。
 
 ## <a name="create-a-virtual-machine-vm"></a>创建虚拟机 (VM)
 
-
 下一步是创建虚拟网络以及托管虚拟机 (VM) 的子网。
 
 1. 在 Azure 门户屏幕的左上方，选择“创建资源”>“计算”>“虚拟机”。
@@ -200,8 +199,8 @@ Power BI 服务实现专用终结点，而不是服务终结点。
     |设置 | 值 |
     |-------------------|---------|
     |虚拟网络|   保留默认值“MyVirtualNetwork”|
-    |地址空间| 保留默认值“10.1.0.0/24”|
-    |子网 |保留默认值“mySubnet (10.1.0.0/24)”|
+    |地址空间| 保留默认值“10.5.0.0/24”|
+    |子网 |保留默认值“mySubnet (10.5.0.0/24)”|
     |公共 IP| 保留默认值“(new) myVm-ip”|
     |公共入站端口|  选择“允许选定的项”|
     |选择入站端口|  选择“RDP”|
@@ -289,7 +288,7 @@ Power BI 服务实现专用终结点，而不是服务终结点。
     
     Non-authoritative answer:
     Name:    52d40f65ad6d48c3906f1ccf598612d4-api.privatelink.analysis.windows.net
-    Address:  10.1.0.4
+    Address:  10.5.0.4
     ```
 
 4. 打开浏览器并转到 app.powerbi.com，以私密访问 Power BI。
@@ -306,12 +305,10 @@ Power BI 服务实现专用终结点，而不是服务终结点。
 
 使用 Power BI 中的专用链接时需要牢记几个注意事项：
 
-* 使用专用链接环境时，不能使用外部图像或主题，使用外部图像或主题可能会影响自定义视觉对象
-* 使用专用链接环境时，“导出到 PDF”、从报表导出到 Excel 以及其他导出服务不可用
-* SQL Server Reporting Services 报表（通常称为 RDL 文件 [*.rdl 格式文件]）不会在专用链接环境中呈现
-* 如果 Internet 访问被禁用，并且如果数据集或数据流连接到作为数据源的 Power BI 数据集或数据流，则连接将失败
-* 启用专用链接后，使用情况指标将失效
-* 在 Power BI 中启用“阻止公共 Internet 访问”时，不支持“发布到 Web”（灰显）
+* 使用专用链接环境时，不能使用外部图像或主题；使用它们可能会影响自定义视觉对象。
+* 如果 Internet 访问被禁用，并且数据集或数据流连接到作为数据源的 Power BI 数据集或数据流，则连接将失败。
+* 启用专用链接后，使用指标将失效。
+* 在 Power BI 中启用“阻止公共 Internet 访问”时，不支持“发布到 Web”（灰显）。
 
 
 ## <a name="next-steps"></a>后续步骤

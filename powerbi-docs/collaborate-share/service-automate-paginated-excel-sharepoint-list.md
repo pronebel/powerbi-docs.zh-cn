@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: pbi-collaborate-share
 ms.topic: how-to
-ms.date: 11/17/2020
+ms.date: 12/08/2020
 LocalizationGroup: Get started
-ms.openlocfilehash: 74d61d40c4447f2649f5cce5fbcdcba68cd31afe
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: 7a48a9a594364de4261aa66de48c1a4262392364
+ms.sourcegitcommit: bbf7e9341a4e1cc96c969e24318c8605440282a5
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96407989"
+ms.lasthandoff: 12/11/2020
+ms.locfileid: "97097837"
 ---
 # <a name="export-a-paginated-report-for-each-row-in-an-excel-online-table-or-sharepoint-list"></a>为 Excel Online 表或 SharePoint 列表中的每一行导出一个分页报表
 
@@ -30,7 +30,7 @@ Excel Online 表或 SharePoint Online 列表中的每一行都可以表示单个
 
 若要继续操作，请确保：
 
-- Power BI 租户中至少有一个由预留容量提供支持的工作区。 此容量可以是 A4/P1 – A6/P3 SKU 中的任何一个。 详细了解 [Power BI Premium 中的预留容量](../admin/service-premium-what-is.md)。
+- Power BI 租户中至少有一个由预留容量提供支持的工作区。 此容量可以是 A4/P1 – A6/P3 SKU 中的任何一个。 详细了解 [Power BI Premium 中分页报表的预留容量](../admin/service-premium-what-is.md#paginated-reports)。
 - 有权访问 Power Automate 中的标准连接器，这些连接器随任何 Office 365 订阅一起提供。
 - 如果使用的是 Excel Online 表，则需要将其格式化为 Excel 表。 请参阅[创建表](https://support.microsoft.com/office/create-a-table-in-excel-bf0ce08b-d012-42ec-8ecf-a2259c9faf3f)了解操作方法。
 
@@ -73,9 +73,9 @@ Excel Online 表或 SharePoint Online 列表中的每一行都可以表示单个
 
 1. 在“应用到每一项”中，“选择上一步中的输出”框默认设置为“值”  。 此设置将为 Excel Online 表或 SharePoint Online 列表中的每一行循环访问“应用到每一项”中包含的操作。  
 
-1. 在“工作区”框中，选择专用容量中的工作区。 在“报表”框中，选择所选工作区中要导出的分页报表。 如果从下拉列表中设置“输入自定义值”，可将“工作区”和“报表”设置为等于 Excel Online 表或 SharePoint Online 列表中的列  。 这些列应分别包含工作区 ID 和报表 ID。  
+1. 在“工作区”框中，选择预留容量中的工作区。 在“报表”框中，选择所选工作区中要导出的分页报表。 如果从下拉列表中设置“输入自定义值”，可将“工作区”和“报表”设置为等于 Excel Online 表或 SharePoint Online 列表中的列  。 这些列应分别包含工作区 ID 和报表 ID。  
 
-1. 从下拉列表中选择“导出格式”，或将其设置为包含所需导出格式的 Excel Online 表中的列。 例如 PDF、DOCX 或 PPTX。 也可以为分页报表指定参数。 有关参数的详细说明，请参阅 [Power BI Rest API 的连接器参考](/connectors/powerbi/#export-to-file-for-paginated-reports)。
+1. 从下拉列表中选择“导出格式”，或将其设置为包含所需导出格式的 Excel Online 表中的列。 例如 PDF、DOCX 或 PPTX。 也可以为分页报表指定参数。 有关参数的详细说明，请查看 [Power BI REST API 的连接器参考](/connectors/powerbi/#export-to-file-for-paginated-reports)。
 
     :::image type="content" source="media/service-automate-paginated-excel-sharepoint-list/excel-template-export-format-9.png" alt-text="填写“将分页报表导出为文件”。":::
 
@@ -105,7 +105,7 @@ Excel Online 表或 SharePoint Online 列表中的每一行都可以表示单个
 
 1. 完成后，选择“下一步”或“保存” ****  。 Power Automate 会创建和评估流，并告知你是否找到错误。 
 
-1. 如果有错误，请选择“编辑流”以修复错误 ****  。 如果没有，请选择“后退”箭头以查看流的详细信息并运行新流。 
+1. 如果有错误，请选择“编辑流”以修复错误 ****  。 如果没有，请选择“后退”箭头来查看流的详细信息，并运行新流。 
 
 
 ## <a name="next-steps"></a>后续步骤

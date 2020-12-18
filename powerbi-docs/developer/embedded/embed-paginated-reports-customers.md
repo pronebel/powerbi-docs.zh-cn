@@ -1,5 +1,5 @@
 ---
-title: 在应用程序中为客户嵌入分页报表
+title: 针对你的客户将分页报表嵌入到 Power BI 嵌入式分析应用程序中
 description: 了解如何使用 Power BI API 将 Power BI 分页报表集成或嵌入应用程序中。
 author: KesemSharabi
 ms.author: kesharab
@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.custom: seodec18
 ms.date: 01/04/2019
-ms.openlocfilehash: 02d73a2eb36636091ff6059fd6543bb950082c2a
-ms.sourcegitcommit: 30d0668434283c633bda9ae03bc2aca75401ab94
+ms.openlocfilehash: 3aecfa7e00528217dc5b6fa27b03a5ac4302d9dd
+ms.sourcegitcommit: bbf7e9341a4e1cc96c969e24318c8605440282a5
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/09/2020
-ms.locfileid: "96907293"
+ms.lasthandoff: 12/11/2020
+ms.locfileid: "97098228"
 ---
 # <a name="tutorial-embed-power-bi-paginated-reports-into-an-application-for-your-customers"></a>教程：在应用程序中为客户嵌入 Power BI 分页报表。
 

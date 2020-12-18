@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: pbi-reports-dashboards
 ms.topic: conceptual
-ms.date: 07/29/2020
+ms.date: 12/10/2020
 LocalizationGroup: Create reports
-ms.openlocfilehash: 8742a65f662433eb4330a9dedbca54f4445e992b
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: 98e27491147fa0e7ed7028925671d40a84fd9e6e
+ms.sourcegitcommit: 772c65b7b440ab082510bf3f64b871d19139d451
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96412957"
+ms.lasthandoff: 12/12/2020
+ms.locfileid: "97353372"
 ---
 # <a name="using-external-tools-in-power-bi-desktop-preview"></a>在 Power BI Desktop 中使用外部工具（预览版）
 
@@ -32,6 +32,9 @@ Power BI Desktop 的“外部工具”功能区包含安装在计算机上并在
 
 
 以下各节介绍外部工具支持的操作、Power BI Desktop 中包含的特色工具列表，以及如何注册其他工具的说明。
+
+> [!NOTE]
+> 外部工具不可用于 Power BI Desktop 的 Power BI 报表服务器版本。
 
 ## <a name="supported-write-operations"></a>支持的写入操作
 
