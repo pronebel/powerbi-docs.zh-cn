@@ -28,7 +28,7 @@
           href: embedded-capacity.md
         - name: 容量规划
           href: embedded-capacity-planning.md
-        - name: 生成嵌入令牌时的注意事项
+        - name: 生成嵌入令牌的注意事项
           href: generate-embed-token.md
         - name: 性能最佳做法
           href: embedded-performance-best-practices.md
@@ -50,8 +50,6 @@
           href: embed-service-principal-certificate.md
         - name: 将嵌入式应用移动到生产
           href: move-to-production.md
-        - name: 从应用中嵌入
-          href: embed-from-apps.md
         - name: 将报表导出到文件
           href: export-to.md
         - name: 将分页报表导出为文件

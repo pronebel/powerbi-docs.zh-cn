@@ -4,18 +4,18 @@ description: 了解用于管理 Power BI 的管理员角色、任务和工具。
 author: kfollis
 ms.author: kfollis
 ms.reviewer: ''
-ms.custom: contperfq4
+ms.custom: contperf-fy20q4
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: overview
 ms.date: 09/25/2020
 LocalizationGroup: Administration
-ms.openlocfilehash: ee87f104d2e52378bef849fe3efc4fc0cd198bd1
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: 2a31c6f5a177a7760adc91c776e449304304a67a
+ms.sourcegitcommit: 7bf09116163afaae312eb2b232eb7967baee2c92
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96409185"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "97621455"
 ---
 # <a name="what-is-power-bi-administration"></a>什么是 Power BI 管理
 
