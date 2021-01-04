@@ -8,13 +8,13 @@ ms.topic: tutorial
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.custom: seodec18
-ms.date: 12/02/2020
-ms.openlocfilehash: e79a73880b50a0edb5e507726cb0c995ba13cd77
-ms.sourcegitcommit: bbf7e9341a4e1cc96c969e24318c8605440282a5
+ms.date: 12/22/2020
+ms.openlocfilehash: 5417266658a493bc81da882761431aa3db072dbe
+ms.sourcegitcommit: 1691ce556ab5b22e6f9d06086a054d165d482809
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/11/2020
-ms.locfileid: "97098412"
+ms.lasthandoff: 12/23/2020
+ms.locfileid: "97745107"
 ---
 # <a name="tutorial-embed-power-bi-content-using-a-sample-embed-for-your-customers-application"></a>教程：使用“为客户嵌入内容”应用程序嵌入 Power BI 内容
 
@@ -192,7 +192,7 @@ Power BI 将报表、仪表板和磁贴存储在工作区中。 若要嵌入这�
 
 若要下载示例报表并将其发布到工作区，请执行以下步骤：
 
-1. 打开 GitHub [Power BI Desktop 示例](https://github.com/microsoft/PowerBI-Developer-Samples)文件夹。
+1. 打开 GitHub [Power BI Desktop 示例](https://github.com/Microsoft/PowerBI-Desktop-Samples)文件夹。
 
 2. 选择“代码”，再选择“下载 zip” 。
 

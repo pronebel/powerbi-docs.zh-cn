@@ -4,18 +4,18 @@ description: 在 Microsoft Excel 中分析 Power BI 数据集
 author: maggiesMSFT
 ms.author: maggies
 ms.reviewer: ''
-ms.custom: contperfq4
+ms.custom: contperf-fy20q4
 ms.service: powerbi
 ms.subservice: pbi-collaborate-share
 ms.topic: how-to
 ms.date: 09/22/2020
 LocalizationGroup: Reports
-ms.openlocfilehash: 2f0d9dbec6c40b43a3b47f9cd698efed4a2899f0
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: 4ce463cb82fec7da8d7ec43db7914fb028368bc3
+ms.sourcegitcommit: 7bf09116163afaae312eb2b232eb7967baee2c92
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96412083"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "97621248"
 ---
 # <a name="analyze-in-excel"></a>在 Excel 中分析
 借助“在 Excel 中分析”，可以将 Power BI 数据集引入到 Excel 中，然后使用数据透视表、图表、切片器和其他 Excel 功能查看这些数据集并与其交互。 若要使用“在 Excel 中分析”必须先从 Power BI 下载并安装该功能，然后选择一个或多个要在 Excel 中使用的数据集。 

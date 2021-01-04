@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: pbi-transform-model
 ms.topic: conceptual
-ms.date: 01/15/2020
+ms.date: 12/16/2020
 LocalizationGroup: Transform and shape data
-ms.openlocfilehash: 078596c91f86f635cb69f543ee0ea828e5cef62d
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: c29728641560502e19486f47e3ec06e370399640
+ms.sourcegitcommit: b472236df99b490db30f0168bd7284ae6e6095fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96415855"
+ms.lasthandoff: 12/16/2020
+ms.locfileid: "97600521"
 ---
 # <a name="use-composite-models-in-power-bi-desktop"></a>在 Power BI Desktop 中使用复合模型
 
@@ -188,3 +188,4 @@ Power BI Desktop 中的复合模型功能包括三个相关功能：
 * [Power BI Desktop 中的存储模式](desktop-storage-mode.md)
 * [在 Power BI 中使用 DirectQuery](../connect-data/desktop-directquery-about.md)
 * [Power BI 中 DirectQuery 支持的数据源](../connect-data/power-bi-data-sources.md)
+* [使用适用于 Power BI 数据集和 Azure Analysis Services 的 DirectQuery（预览版）](../connect-data/desktop-directquery-datasets-azure-analysis-services.md)
