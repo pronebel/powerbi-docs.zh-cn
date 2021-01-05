@@ -26,7 +26,7 @@
       items:
         - name: Power BI 视觉对象项目结构
           href: visual-project-structure.md
-        - name: ' Power BI 视觉对象系统集成'
+        - name: Power BI 视觉对象系统集成
           href: power-bi-visuals-concept.md
         - name: Power BI 中适用于组织的视觉对象
           href: power-bi-custom-visuals-organization.md
@@ -54,7 +54,7 @@
           href: power-bi-custom-visuals-certified.md
         - name: 将 Power BI 视觉对象发布到 AppSource
           href: office-store.md
-        - name: 设置环境来开发 Power BI 视觉对象
+        - name: 设置用于开发 Power BI 视觉对象的环境
           href: environment-setup.md
         - name: 创建 R 驱动的视觉对象
           href: create-r-based-power-bi-desktop.md
