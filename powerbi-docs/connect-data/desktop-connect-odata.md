@@ -8,14 +8,14 @@ ms.custom: seodec18
 ms.service: powerbi
 ms.subservice: pbi-data-sources
 ms.topic: how-to
-ms.date: 05/08/2019
+ms.date: 01/04/2021
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 5c7d9464e8d14354ba893dd80d11a46b8ea170cc
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: d1a4e8f7d5a057b51de7284d0db0b2440ccb93df
+ms.sourcegitcommit: 932f6856849c39e34229dc9a49fb9379c56a888a
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96405827"
+ms.lasthandoff: 01/06/2021
+ms.locfileid: "97926442"
 ---
 # <a name="connect-to-odata-feeds-in-power-bi-desktop"></a>通过 Power BI Desktop 连接到 OData 数据源
 在 Power BI Desktop 中，你可以连接到“OData 数据源”并在 Power BI Desktop 中同使用其他所有数据源一样使用基础数据。

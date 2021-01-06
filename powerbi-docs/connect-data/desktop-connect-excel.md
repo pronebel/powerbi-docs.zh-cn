@@ -8,16 +8,16 @@ ms.custom: seodec18
 ms.service: powerbi
 ms.subservice: pbi-data-sources
 ms.topic: how-to
-ms.date: 05/08/2019
+ms.date: 01/04/2021
 LocalizationGroup: Connect to data
-ms.openlocfilehash: f6092e6324a0fa400458b8da0be8f41c366f85e0
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: 7ba25ff8b4462d2cf50f9285b3d9ac92b98373cf
+ms.sourcegitcommit: 932f6856849c39e34229dc9a49fb9379c56a888a
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96405896"
+ms.lasthandoff: 01/06/2021
+ms.locfileid: "97927045"
 ---
-# <a name="connect-to-excel-workbooks-in-power-bi-desktop"></a>通过 Power BI Desktop 连接到 Excel 工作簿
+# <a name="connect-to-excel-in-power-bi-desktop"></a>在 Power BI Desktop 中连接到 Excel
 从 Power BI Desktop 连接到 Excel 工作簿很简单，本文将指导你完成所有步骤。
 
 在 Power BI Desktop 中，在“主页”功能区中选择“获取数据”>“Excel”。

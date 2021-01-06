@@ -1,6 +1,6 @@
 ### YamlMime:Landing
-title: Power BI 视觉对象文档
-summary: 开发自己的 Power BI 视觉对象，供你自己、你的组织或整个 Power BI 社区使用。 我们的文档提供了你需要的信息。
+title: Power BI 嵌入式分析中关于改进嵌入 BI 见解的 Power BI 视觉对象文档
+summary: 开发自己的 Power BI 视觉对象，供你自己、你的组织或整个 Power BI 社区使用。 我们的文档提供了你需要的信息。 使用 Power BI 嵌入式分析改进嵌入式 BI 见解。
 metadata:
   title: Power BI 视觉对象文档
   description: 开发自己的 Power BI 视觉对象，供你自己、你的组织或整个 Power BI 社区使用。 我们的文档提供了你需要的信息。
@@ -12,12 +12,12 @@ metadata:
   author: KesemSharabi
   ms.author: kesharab
   ms.date: 31/03/2020
-  ms.openlocfilehash: 92eb2ebc5eaff00c5c83cd32b0fa90b631906237
-  ms.sourcegitcommit: 50b21718a167c2b131313b4135c8034c6f027597
+  ms.openlocfilehash: d6673e5a44b315c3c54fca53231efe97a4342fcd
+  ms.sourcegitcommit: eeaf607e7c1d89ef7312421731e1729ddce5a5cc
   ms.translationtype: HT
   ms.contentlocale: zh-CN
-  ms.lasthandoff: 10/14/2020
-  ms.locfileid: "92049306"
+  ms.lasthandoff: 01/05/2021
+  ms.locfileid: "97888227"
 landingContent:
 - title: 入门
   linkLists:
