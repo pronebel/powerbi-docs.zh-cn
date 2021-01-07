@@ -9,12 +9,12 @@ ms.subservice: powerbi
 ms.topic: conceptual
 ms.date: 05/14/2020
 LocalizationGroup: Conceptual
-ms.openlocfilehash: 879f931797786ee1bb9f12a56323c50642716afb
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: 806869b10b52ff7c161484f3e8d38fbc61b85f60
+ms.sourcegitcommit: c700e78dfedc34f5a74b23bbefdaef77e2a87f8a
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96398582"
+ms.lasthandoff: 01/07/2021
+ms.locfileid: "97961261"
 ---
 # <a name="power-bi-security-whitepaper"></a>Power BI 安全性白皮书
 
@@ -29,11 +29,11 @@ ms.locfileid: "96398582"
 > [!NOTE]
 > 可以通过在浏览器中选择 " **打印** "，然后选择 " **另存为 PDF**" 来保存或打印此白皮书。
 
-## <a name="introduction"></a>介绍
+## <a name="introduction"></a>简介
 
 Power BI 是 Microsoft 提供的在线软件服务（SaaS 或软件即服务），你可以通过它轻松快速地创建自助式商业智能仪表板、报表、数据集和可视化。 使用 Power BI，可以连接到多个不同的数据源，合并并调整来自这些连接的数据，然后创建可与其他人共享的报表和仪表板。
 
-Power BI 服务受 [Microsoft Online Services 条款](https://www.microsoftvolumelicensing.com/DocumentSearch.aspx?Mode=3&amp;DocumentTypeId=31)和 [Microsoft Enterprise Privacy 声明](https://www.microsoft.com/privacystatement/OnlineServices/Default.aspx)约束。 有关数据处理的位置，参阅 Microsoft Online Services 条款中的数据处理条款位置。 有关符合性信息，[Microsoft 信任中心](https://www.microsoft.com/trustcenter)提供了适用于 Power BI 的大量资源。 Power BI 团队正在努力为客户提供最新创新和提高生产效率。 Power BI 当前在 Microsoft 365 相容性框架的第 D 层中。 在 [Microsoft 信任中心](https://www.microsoft.com/trust-center/compliance/compliance-overview)了解有关符合性的详细信息。
+Power BI 服务受 [Microsoft Online Services 条款](https://www.microsoftvolumelicensing.com/DocumentSearch.aspx?Mode=3&amp;DocumentTypeId=31)和 [Microsoft Enterprise Privacy 声明](https://www.microsoft.com/privacystatement/OnlineServices/Default.aspx)约束。 有关数据处理的位置，参阅 Microsoft Online Services 条款中的数据处理条款位置。 有关符合性信息，[Microsoft 信任中心](https://www.microsoft.com/trust-center/product-overview)提供了适用于 Power BI 的大量资源。 Power BI 团队正在努力为客户提供最新创新和提高生产效率。 Power BI 当前在 Microsoft 365 相容性框架的第 D 层中。 在 [Microsoft 信任中心](https://docs.microsoft.com/compliance/regulatory/offering-home)了解有关符合性的详细信息。
 
 本文通过以下方式介绍了 Power BI 的安全性：首先说明 Power BI 的体系结构，然后说明用户如何对 Power BI 进行身份验证以及如何建立数据连接，最后描述 Power BI 如何通过服务存储和移动数据。 最后一部分专门讨论与安全相关的问题，并附上了每个问题的答案。
 
@@ -119,13 +119,13 @@ Power BI 根据 Power BI 群集在区域数据中心的部署位置在某些区�
 - [Azure 区域](https://azure.microsoft.com/regions/) - 有关 Azure 全球存在状况和位置的信息
 - [Azure 服务（按区域）](https://azure.microsoft.com/regions/#services) - Microsoft 在每个区域提供的 Azure 服务（基础结构服务和平台服务）的完整列表。
 
-目前，Power BI 服务在特定区域提供，由数据中心提供服务，如 [Microsoft 信任中心](https://www.microsoft.com/TrustCenter/CloudServices/business-application-platform/data-location)中所述。 下面的链接显示的是 Power BI 数据中心图，将光标悬停在某个区域上方即可查看位于该区域的数据中心：
+目前，Power BI 服务在特定区域提供，由数据中心提供服务，如 [Microsoft 信任中心](https://www.microsoft.com/trust-center/product-overview)中所述。 下面的链接显示的是 Power BI 数据中心图，将光标悬停在某个区域上方即可查看位于该区域的数据中心：
 
 * [Power BI 数据中心](https://www.microsoft.com/TrustCenter/CloudServices/business-application-platform/data-location)
 
 Microsoft 还为国家/地区主权提供数据中心。 有关国家云的 Power BI 服务可用性的详细信息，请参阅 [Power BI 国家云](https://powerbi.microsoft.com/clouds/)。
 
-有关数据存储位置和使用方式的详细信息，请参阅 [Microsoft 信任中心](https://www.microsoft.com/TrustCenter/Transparency/default.aspx#_You_know_where)。 在 [Microsoft Online Services 条款](https://www.microsoftvolumelicensing.com/DocumentSearch.aspx?Mode=3&amp;DocumentTypeId=31)的“数据处理条款”中指定了有关静态客户数据位置的承诺使用量。
+有关数据存储位置和使用方式的详细信息，请参阅 [Microsoft 信任中心](https://www.microsoft.com/trust-center/product-overview)。 在 [Microsoft Online Services 条款](https://www.microsoftvolumelicensing.com/DocumentSearch.aspx?Mode=3&amp;DocumentTypeId=31)的“数据处理条款”中指定了有关静态客户数据位置的承诺使用量。
 
 ## <a name="user-authentication"></a>用户身份验证
 
@@ -448,17 +448,17 @@ Power BI 移动版可用的所有三个平台都支持 Microsoft Intune，这是
 
 **对于 Power BI 视觉对象，Microsoft 是否在将项目发布到库之前对自定义视觉对象执行任何安全或隐私评估？**
 
-* 否。 客户有责任评审并确定是否应依赖自定义视觉对象代码。 所有自定义视觉对象代码都在沙盒环境中运行，因此自定义视觉对象中的任何错误代码都不会对 Power BI 服务的其余部分产生负面影响。
+* 不是。 客户有责任评审并确定是否应依赖自定义视觉对象代码。 所有自定义视觉对象代码都在沙盒环境中运行，因此自定义视觉对象中的任何错误代码都不会对 Power BI 服务的其余部分产生负面影响。
 
 **是否有在客户网络外发送信息的其他 Power BI 视觉对象？**
 
-* 是的。 必应地图和 ESRI 视觉对象为使用这些服务的视觉对象在 Power BI 服务外部传输数据。
+* 是。 必应地图和 ESRI 视觉对象为使用这些服务的视觉对象在 Power BI 服务外部传输数据。
 
 **对于模板应用，Microsoft 是否在将项目发布到库之前对模板应用执行任何安全或隐私评估？**
-* 否。 应用发布者负责查看内容，同时客户需要查看并确定是否信任模板应用发行者。 
+* 不是。 应用发布者负责查看内容，同时客户需要查看并确定是否信任模板应用发行者。 
 
 **是否存在可以在客户网络之外发送信息的模板应用？**
-* 是的。 客户负责查看发布者的隐私策略，并确定是否在租户上安装模板应用。 此外，发布者还负责通知应用程序的行为和功能。
+* 是。 客户负责查看发布者的隐私策略，并确定是否在租户上安装模板应用。 此外，发布者还负责通知应用程序的行为和功能。
 
 **数据主权？能否在位于特定地理区域的数据中心内预配租户，以确保数据不会留下国家/地区界限？**
 
