@@ -7,13 +7,13 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: conceptual
-ms.date: 12/01/2020
-ms.openlocfilehash: 81a387d2f87e857cb56dcbc1fb22c8da72bbd27e
-ms.sourcegitcommit: 2fd64f96b5bfbc14ff47e5c892171e5c921fb525
+ms.date: 12/17/2020
+ms.openlocfilehash: 7779976e7897b31e5f3dde2c4c3306c909ecf0f0
+ms.sourcegitcommit: 5c09d121d3205e65fb33a2eca0e60bc30e777773
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/02/2020
-ms.locfileid: "96502036"
+ms.lasthandoff: 12/18/2020
+ms.locfileid: "97675529"
 ---
 # <a name="whats-new-in-the-mobile-apps-for-power-bi"></a>Power BI 移动应用中的新功能
 有关相关的“新增功能”的信息，请参阅：
@@ -26,8 +26,17 @@ ms.locfileid: "96502036"
 >我们将于 2021 年 3 月 16 日终止对使用 Windows 10 移动版的手机提供 Power BI 移动应用支持。 [了解详细信息](/legal/powerbi/powerbi-mobile/power-bi-mobile-app-end-of-support-for-windows-phones)
 
 ## <a name="december-2020"></a>2020 年 12 月
-### <a name="weve-added-dark-mode-to-power-bi-mobile-android"></a>我们已在 Power BI 移动版中添加深色模式 (Android)
+### <a name="weve-added-anomaly-detection-to-the-mobile-apps"></a>我们已将异常情况检测添加到移动应用
+如果报表创建者已为报表视觉对象设置了异常情况检测，那么可以看到数据离群值（即异常）是否导致数据出现意外高峰或低谷。 [了解详细信息！](mobile-reports-in-the-mobile-apps.md#investigate-anomalies-in-time-series-data)
 
+![异常情况检测的屏幕截图。](media/mobile-whats-new-in-the-mobile-apps/mobile-anomaly-detection.png)
+
+### <a name="easily-find-your-orgs-endorsed-content"></a>轻松查找贵组织的认可内容
+现在，Power BI 服务中[已升级或认证](../../collaborate-share/service-endorsement-overview.md)的内容在应用中标有徽章。 报表创建者会升级其内容以，表明它可供使用（升级）或验证其内容，以表明它已由你的组织批准（认证）。
+
+![移动设备报表信息中的已验证报表的屏幕截图。](media/mobile-whats-new-in-the-mobile-apps/mobile-apps-certified-badge.png)
+
+### <a name="weve-added-dark-mode-to-power-bi-mobile-android"></a>我们已在 Power BI 移动版中添加深色模式 (Android)
 试用适用于 Android 设备的 Power BI 移动应用中的新深色模式。 在深色模式下，你将在深色背景上看到浅色文本，这降低了屏幕的亮度，使你更轻松地查看内容。 可以在应用外观设置中切换主题。 [了解详细信息](mobile-apps-dark-mode.md)
 
 ![适用于 Android 的 Power BI 移动应用中深色模式的屏幕截图。](media/mobile-whats-new-in-the-mobile-apps/mobile-apps-dark-mode-android.png)

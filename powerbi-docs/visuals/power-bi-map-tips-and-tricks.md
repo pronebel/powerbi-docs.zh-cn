@@ -11,12 +11,12 @@ ms.subservice: pbi-visuals
 ms.topic: how-to
 ms.date: 05/05/2020
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 3e0d944f8058ddc5dfb64c8f960bd354571bb23c
-ms.sourcegitcommit: 8250187368d3de48663eb516a816ff701119b579
+ms.openlocfilehash: 24ad57ca976fa7a7a859b1c0d07523895236787e
+ms.sourcegitcommit: 0711972326521944fdd8572403c0b15f31b916da
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "96999050"
+ms.lasthandoff: 12/22/2020
+ms.locfileid: "97721607"
 ---
 # <a name="tips-and-tricks-for-power-bi-map-visualizations"></a>用于 Power BI 地图可视化效果的提示和技巧
 
@@ -88,9 +88,9 @@ Power BI 使用必应的[非结构化 URL 模板服务](/bingmaps/rest-services/
 
 使用地理层次结构进行钻取时，请务必了解每个钻取按钮的工作原理和发送到必应地图的内容。 
 
-* 最右侧的钻取按钮称为钻取模式 ![钻取模式图标](media/power-bi-map-tips-and-tricks/power-bi-drill-down.png) ，可以使用它选择地图位置并向下钻取到该特定位置，每次钻取一级。 例如，如果启用“向下钻取”并单击“北美”，会向下移动到层次结构的下一级，即北美的各个州。 对于地理编码，Power BI 仅发送必应地图中北美的国家/地区和州数据。  
+* 最右侧的钻取按钮称为钻取模式 ![钻取模式图标](media/power-bi-map-tips-and-tricks/power-bi-drill-down.png) ，可以使用它选择地图位置并向下钻取到该特定位置，每次钻取一级。 例如，如果启用“向下钻取”并单击“北美”，会向下移动到层次结构的下一级，即北美的各个州/省/自治区。 对于地理编码，Power BI 仅发送必应地图中北美的国家/地区和州数据。  
 * 左侧还有另外 2 个钻取选项。 第一个选项 ![第一个钻取图标](media/power-bi-map-tips-and-tricks/power-bi-drill-down2.png) 可同时钻取到所有位置的层次结构的下一级。 例如，如果你当前正在查看国家/地区，然后使用此选项移动到下一级：州，则 Power BI 会显示所有国家/地区的州数据。 对于地理编码，Power BI 会发送必应地图中所有地区的州数据（无国家/地区数据）。 如果层次结构的每一级与更高的级别不相关，则此选项非常有用。 
-* 第二个选项， ![使用地图向下钻取](./media/power-bi-map-tips-and-tricks/power-bi-drill-down3.png) 类似于向下钻取，但无需在地图上进行单击。  它会向下扩展到记住当前级别的上下文的下一级层次结构。 例如，如果你当前正在看国家/地区并选择此图标，则会在层次结构中向下移动到下一级：州。 对于地理编码，Power BI 会发送每个州的数据及其对应的国家/地区，帮助必应地图更准确地进行地理编码。 在大部分地图中会使用此选项或最右侧的“向下钻取”选项，以便能够向必应发送尽可能多的信息以获取准确的位置信息。 
+* 第二个选项， ![通过地图向下钻取](./media/power-bi-map-tips-and-tricks/power-bi-drill-down3.png) ，类似于向下钻取，但无需在地图上进行单击。  它会向下扩展到记住当前级别的上下文的下一级层次结构。 例如，如果你当前正在看国家/地区并选择此图标，则会在层次结构中向下移动到下一级：州。 对于地理编码，Power BI 会发送每个州的数据及其对应的国家/地区，帮助必应地图更准确地进行地理编码。 在大部分地图中会使用此选项或最右侧的“向下钻取”选项，以便能够向必应发送尽可能多的信息以获取准确的位置信息。 
 
 ## <a name="next-steps"></a>后续步骤
 [在 Power BI 可视化效果中向下钻取](../consumer/end-user-drill.md)

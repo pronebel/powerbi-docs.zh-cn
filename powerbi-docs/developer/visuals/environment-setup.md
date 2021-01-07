@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: how-to
 ms.date: 09/02/2020
-ms.openlocfilehash: 58ec11935e74131c17dc4c0755598c3c3341e259
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: e5b176ac9e8d334b6dec9af70c189d2767bace1c
+ms.sourcegitcommit: a465a0c80ffc0f24ba6b8331f88420a0d21ac0b2
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96418684"
+ms.lasthandoff: 12/29/2020
+ms.locfileid: "97805225"
 ---
 # <a name="set-up-your-environment-for-developing-a-power-bi-visual"></a>设置用于开发 Power BI 视觉对象的环境
 
@@ -198,7 +198,7 @@ npm i powerbi-visuals-api --save-dev
 
 ### <a name="optional-verify-that-the-d3-library-is-installed"></a>验证是否已安装 D3 库（可选）
 
-[Visual Studio Code](https://code.visualstudio.com/) (VS Code) 是用于开发 TypeScript 应用程序的理想集成开发环境 (IDE)。 在本部分中，我们将使用 VS Code 来验证是否已正确安装开发 Power BI 视觉对象所需的 D3 库。
+[Visual Studio Code](https://code.visualstudio.com/) (VS Code) 是用于开发 TypeScript 应用程序的理想集成开发环境 (IDE)。 在本部分中，我们将使用 VS Code 验证是否正确安装了开发 Power BI 视觉对象所需的 D3 库。
 
 >[!NOTE]
 >本部分中所述的验证过程假设你有一个现有 Power BI 视觉对象项目。 如果你没有 Power BI 视觉对象项目，则可以按照[创建圆形卡片项目](develop-circle-card.md#create-a-development-project)说明创建一个。

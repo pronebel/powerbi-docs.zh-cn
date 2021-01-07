@@ -7,17 +7,17 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: pbi-reports-dashboards
 ms.topic: tutorial
-ms.date: 07/30/2020
+ms.date: 12/14/2020
 LocalizationGroup: Data from files
-ms.openlocfilehash: 99f562ee315a74c9de6765308272e5e33153c4f0
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: a3ee3ac5cd23942878395f942a32dbe573cb0798
+ms.sourcegitcommit: 0711972326521944fdd8572403c0b15f31b916da
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96388853"
+ms.lasthandoff: 12/22/2020
+ms.locfileid: "97721584"
 ---
 # <a name="tutorial-from-excel-workbook-to-a-report-in-the-power-bi-service-to-microsoft-teams"></a>教程：从 Excel 工作簿到 Power BI 服务中的报表再到 Microsoft Teams
-你的经理想要在下班前查看有关最新销售和利润数据的报表。 但最新数据位于各种第三方系统上以及你的笔记本电脑上的文件内。 以前，创建视觉对象和格式化报表都需要花费数小时，这让你深感焦虑。
+你的经理想要在下班前查看有关最新销售和利润数据的报表。 但最新数据位于笔记本电脑上的文件中。 以前，创建报表都需要花费数小时，这让你深感焦虑。
 
 别担心。 使用 Power BI，你可以立刻创建出色的报表并在 Microsoft Teams 中共享！
 
@@ -32,6 +32,11 @@ ms.locfileid: "96388853"
 > * 将报表视觉对象固定到仪表板。
 > * 共享仪表板的链接。
 > * 在 Microsoft Teams 中共享仪表板
+
+## <a name="prerequisites"></a>必备组件
+- [注册 Power BI 服务](../fundamentals/service-self-service-signup-for-power-bi.md)。 
+- 下载[财务示例工作簿](https://go.microsoft.com/fwlink/?LinkID=521962)并将其保存到计算机或 OneDrive for Business。
+
 
 ## <a name="prepare-data-in-excel"></a>在 Excel 中准备数据
 让我们以一个简单的 Excel 文件作为示例。 
@@ -49,10 +54,7 @@ ms.locfileid: "96388853"
    ![格式化为表的数据的屏幕截图。](media/service-from-excel-to-stunning-report/pbi_excel_table.png)
 
 ## <a name="upload-your-excel-file-to-the-power-bi-service"></a>将 Excel 文件上传到 Power BI 服务
-Power BI 服务连接到多个数据源，包括位于计算机上的 Excel 文件。 
-
- > [!NOTE] 
- > 若要按照本教程其余部分的说明进行操作，请下载[财务示例工作簿](https://go.microsoft.com/fwlink/?LinkID=521962)。
+Power BI 服务连接到多个数据源，包括位于计算机上的 Excel 文件。
 
 1. 若要开始，请登录到 Power BI 服务。 如果还未注册，[你可以免费注册](https://powerbi.com)。
 1. 在“我的工作区”中，选择“新建” > “上传文件”  。
@@ -190,9 +192,9 @@ Power BI 服务连接到多个数据源，包括位于计算机上的 Excel 文�
 
 还可将报表和仪表板直接与 Microsoft Teams 中的同事共享。
 
-1. 若要在 Teams 中共享，请在仪表板顶部选择“共享到 Teams”。
+1. 若要在 Teams 中共享，请在仪表板顶部选择“在 Teams 中聊天”。
 
-   ![“共享到 Teams”选项的屏幕截图。](media/service-from-excel-to-stunning-report/power-bi-share-teams.png)
+   ![“在 Teams 中聊天”选项的屏幕截图。](media/service-from-excel-to-stunning-report/power-bi-share-teams.png)
 
 2. Power BI 显示“共享到 Teams”对话框。 输入用户、组或频道的名称，并选择“共享”。 
    

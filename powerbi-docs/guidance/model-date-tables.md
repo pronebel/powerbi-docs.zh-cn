@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi
 ms.topic: conceptual
 ms.date: 06/24/2020
-ms.openlocfilehash: 9040fb54e51dfeecad853e5ba980f423ab48e908
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: a2616b5f77a03056de03b213369d55e9b590b1b6
+ms.sourcegitcommit: 7599622381f35a161bfc54726675ed3c9cf13816
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96417833"
+ms.lasthandoff: 12/31/2020
+ms.locfileid: "97827563"
 ---
 # <a name="create-date-tables-in-power-bi-desktop"></a>在 Power BI Desktop 中创建日期表
 
@@ -54,10 +54,7 @@ ms.locfileid: "96417833"
 
 ## <a name="generate-with-power-query"></a>使用 Power Query 生成
 
-可以使用 Power Query 生成日期表。 下面两条博客内容介绍了具体步骤：
-
-- [使用 Power Query 脚本创建日期维度](https://www.mattmasson.com/2014/02/creating-a-date-dimension-with-a-power-query-script/)，作者：Matt Masson
-- [在 Power Query 中生成日期维度表](https://blog.crossjoin.co.uk/2013/11/19/generating-a-date-dimension-table-in-power-query/)，作者：Chris Webb
+可以使用 Power Query 生成日期表。 有关详细信息，请参阅 Chris Webb 的博客条目[在 Power Query 中生成日期维度表](https://blog.crossjoin.co.uk/2013/11/19/generating-a-date-dimension-table-in-power-query/)。
 
 > [!TIP]
 > 如果组织中没有数据仓库或其他一致的定义，请考虑使用 Power Query 发布[数据流](../transform-model/dataflows/dataflows-introduction-self-service.md)。 然后，让所有数据建模者连接到数据流，以便将日期表添加到其模型中。 数据流将成为组织中的单一时间事实来源。

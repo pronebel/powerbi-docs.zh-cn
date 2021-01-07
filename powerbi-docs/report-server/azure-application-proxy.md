@@ -7,13 +7,13 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: how-to
-ms.date: 07/28/2020
-ms.openlocfilehash: 795b2e7e1b9ef0c705f7240e9a20a5c2da2f81a3
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.date: 12/18/2020
+ms.openlocfilehash: be256a0ed861ae7ebc26fe4e2a74e0d597ef5542
+ms.sourcegitcommit: b8e4dd67c59db079fdfa82a8a01c2a28fd1673ca
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96414912"
+ms.lasthandoff: 12/19/2020
+ms.locfileid: "97699325"
 ---
 # <a name="configure-power-bi-report-server-with-azure-application-proxy"></a>为 Power BI 报表服务器配置 Azure 应用程序代理
 
@@ -260,6 +260,9 @@ setspn -s MSSQLSVC/FQDN\_of\_SQL\_Server<SQL service service account>
 ### <a name="configure-the-application-registration"></a>配置应用注册
 
 你必须先配置在本文前面的[“通过 Azure AD 应用程序代理发布”](#publish-through-azure-ad-application-proxy)中自动为你创建的应用注册，然后 Power BI 移动应用才能连接和访问 Power BI 报表服务器。
+
+> [!NOTE]
+> 如果你使用需要 Power BI 移动应用成为批准的客户端应用的条件访问策略，则无法使用 Azure AD 应用程序代理将 Power BI 移动应用连接到 Power BI 报表服务器。
 
 1. 在 Azure Active Directory 的“概览”页中，选择“应用注册”。
 2. 在“所有应用程序”选项卡上，搜索为 Power BI 报表服务器创建的应用程序。

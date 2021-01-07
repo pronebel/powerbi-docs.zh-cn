@@ -10,12 +10,12 @@ ms.custom: video-fDb5zZ3xmxU
 ms.topic: how-to
 ms.date: 01/10/2020
 LocalizationGroup: Visualizations
-ms.openlocfilehash: f76203e00bb691abe9a4d212c930595d180798d8
-ms.sourcegitcommit: 8250187368d3de48663eb516a816ff701119b579
+ms.openlocfilehash: 4b41ea6310cb644aeae92db17f52680734f68803
+ms.sourcegitcommit: 0711972326521944fdd8572403c0b15f31b916da
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "96999119"
+ms.lasthandoff: 12/22/2020
+ms.locfileid: "97721561"
 ---
 # <a name="create-key-influencers-visualizations"></a>创建关键影响因素可视化效果
 
@@ -167,7 +167,7 @@ ms.locfileid: "96999119"
 
 ![选择“首要区段”选项卡](media/power-bi-visualization-influencers/power-bi-top-segments-tab.png)
 
-选择气泡可了解该细分市场的详细信息。 例如，如果选择“区段 1”，则会发现它由相对成熟的客户组成。 他们成为客户已经超过 29 个月，并拥有超过四张支持工单。 最后，他们并不是发布者，因此是客户或管理员。 
+选择气泡可显示该区段的详细信息。 例如，如果选择“区段 1”，则会发现它由相对成熟的客户组成。 他们成为客户已经超过 29 个月，并拥有超过四张支持工单。 最后，他们并不是发布者，因此是客户或管理员。 
  
 在这一组中，74.3% 的客户评价较低。 此时给出低评级的普通客户的百分比为 11.7%，所以此区段的低评级比例较高。 高出 63 个百分点。 区段 1 还包含大约 2.2% 的数据，因此可表示总体中的可处理部分。 
 
@@ -260,7 +260,7 @@ ms.locfileid: "96999119"
 
 ![屏幕截图展示了依赖此部分中讨论的三列的房价可视化效果。](media/power-bi-visualization-influencers/power-bi-ki-measures-analysis.png)
 
-如果想要详细了解如何使用关键影响因素可视化效果分析度量值，请观看以下教程。
+如果想要详细了解如何使用关键影响因素可视化效果分析度量值，请观看以下视频。 若要了解 Power BI 如何在后台使用 ML.NET 自然地推理数据和呈现见解，请参阅 [Power BI 使用 ML.NET 识别关键影响因素](https://dotnet.microsoft.com/apps/machinelearning-ai/ml-dotnet/customers/power-bi)。
 
 <iframe width="1167" height="631" src="https://www.youtube.com/embed/2X1cW8oPtc8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
@@ -410,3 +410,4 @@ AI 可视化效果使用 [ML.NET](https://dotnet.microsoft.com/apps/machinelearn
 ## <a name="next-steps"></a>后续步骤
 - [Power BI 中的组合图表](power-bi-visualization-combo-chart.md)
 - [Power BI 中的可视化效果类型](power-bi-visualization-types-for-reports-and-q-and-a.md)
+- [Power BI 如何使用 ML.NET 识别关键影响因素](https://dotnet.microsoft.com/apps/machinelearning-ai/ml-dotnet/customers/power-bi)

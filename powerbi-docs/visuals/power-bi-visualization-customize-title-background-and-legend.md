@@ -1,28 +1,28 @@
 ---
 title: 格式化 Power BI 可视化效果入门
-description: 自定义可视化效果的标题、背景和图例
+description: 自定义可视化效果的标题、背景、标签和图例
 author: mihart
 ms.author: mihart
 ms.reviewer: mihart
-featuredvideoid: IkJda4O7oGs
+featuredvideoid: removed
 ms.service: powerbi
 ms.subservice: pbi-visuals
 ms.topic: how-to
-ms.date: 03/06/2020
+ms.date: 12/18/2020
 LocalizationGroup: Visualizations
-ms.openlocfilehash: c974161e4cc7d52bf412ea14800bf720a297cd25
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: 2a8c125a37e0d70ea735d9f1962f64deb69061c8
+ms.sourcegitcommit: 1691ce556ab5b22e6f9d06086a054d165d482809
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96409806"
+ms.lasthandoff: 12/23/2020
+ms.locfileid: "97745130"
 ---
-# <a name="customize-visualization-titles-backgrounds-and-legends"></a>自定义可视化效果的标题、背景和图例
+# <a name="customize-visualization-titles-backgrounds-labels-and-legends"></a>自定义可视化效果的标题、背景、标签和图例
 
 [!INCLUDE[consumer-appliesto-nyyn](../includes/consumer-appliesto-nyyn.md)]    
 
 
-本教程将介绍几种自定义可视化效果的不同方式。 自定义可视化效果的方式有很多。 了解所有这些方式的最佳方法是，探索“格式”窗格（选择“滚动油漆刷”图标）。 为了帮助你入门，本文演示了如何自定义可视化效果的标题、图例、背景以及如何添加主题。
+本教程将介绍几种自定义可视化效果的不同方式。 自定义可视化效果的方式有很多。 了解所有这些方式的最佳方法是，探索“格式”窗格（选择“滚动油漆刷”图标）。 为了帮助你入门，本文演示了如何自定义可视化效果的标题、图例、背景、标签以及如何添加主题。
 
 无法自定义所有的可视化效果。 有关详细信息，请参阅可视化效果的[完整列表](#visualization-types-that-you-can-customize)。
 
@@ -126,6 +126,29 @@ ms.locfileid: "96409806"
 
 如果需要还原所有更改，请选择“自定义效果”窗格中“图例”底部的“还原为默认值”。
 
+## <a name="customize-total-labels-for-stacked-visuals"></a>自定义堆积视觉对象的总标签数
+堆积视觉对象可以显示数据标签和总计标签。 在堆积柱形图中，数据标签用于标识列每个部分的值。 总计标签显示整个聚合列的总值。 
+
+查看 Rien 向堆积图添加总标签，然后按照以下步骤自行操作。
+
+> [!VIDEO https://www.youtube.com/embed/OgjX-pFGgfM]
+
+1. 打开“概述”报表页，然后选择“平均销售面积(按供应链和商店类型)”条形图。
+
+1. 在“可视化效果”选项卡中，选择![堆积条形图的图标](media/power-bi-visualization-customize-title-background-and-legend/power-bi-stacked-bar.png)，将此条形图转换为堆积条形图。 请注意，视觉对象将保留其数据标签。 
+
+    ![新堆积条形图的屏幕截图。](media/power-bi-visualization-customize-title-background-and-legend/power-bi-stacked-chart.png)
+
+1. 在“可视化效果”选项卡中，选择“滚动油漆刷”图标，以打开“格式”窗格。
+
+1. 将“总计标签”滑块移至“开”。 
+
+    ![显示“总计标签“滑块设置为“开”的屏幕截图。](media/power-bi-visualization-customize-title-background-and-legend/power-bi-totals.png)
+
+1. （可选）设置总计标签的格式。 在此示例中，我们已将颜色更改为黑色，增加了字体大小，并选择将值显示为“千”。
+
+    ![带总计标签的新堆积条形图的屏幕截图。](media/power-bi-visualization-customize-title-background-and-legend/power-bi-bar-totals.png)
+
 ## <a name="customize-colors-using-a-theme"></a>使用主题自定义颜色
 
 使用报表主题，你可以将设计更改应用于整个报表，如使用公司颜色、更改图标集或应用新的默认视觉对象格式。 在你应用某个报表主题后，报表中的所有视觉对象都会使用选定主题中的颜色和格式。
@@ -139,32 +162,32 @@ ms.locfileid: "96409806"
 
 下面列出了可视化效果以及每个可视化效果可用的自定义选项：
 
-| 可视化效果 | 标题 | 背景 | 图例 |
-|:--- |:--- |:--- |:--- |
-| 分区图 | 是 | 是 |是 |
-| 条形图 | 是 | 是 |是 |
-| 卡片 | 是 | 是 |不适用 |
-| 多行卡片 | 是 | 是 | 不适用 |
-| 列 | 是 | 是 | 是 |
-| 组合图 | 是 | 是 | 是 |
-| 圆环图 | 是 | 是 | 是 |
-| 着色地图 | 是 | 是 | 是 |
-| 漏斗图 | 是 | 是 | 不适用 |
-| 仪表 | 是 | 是 | 不适用 |
-| 关键影响因素 | 是 | 是 | 不适用 |
-| KPI | 是 | 是 | 不适用 |
-| 折线图 | 是 | 是 | 是 |
-| 地图 | 是 | 是 | 是 |
-| Matrix | 是 | 是 | 不适用 |
-| 饼图 | 是 | 是 | 是 |
-| 问答 | 是 | 是 | 不适用 |
-| 散点图 | 是 | 是 | 是 |
-| 形状 | 是 | 是 | 是 |
-| 切片器 | 是 | 是 | 不适用 |
-| 表 | 是 | 是 | 不适用 |
-| 文本框 | 否 | 是 | 不适用 |
-| 树状图 | 是 | 是 | 是 |
-| 瀑布图 | 是 | 是 | 是 |
+| 可视化效果 | 标题 | 背景 | 图例 | 标签总数
+|:--- |:--- |:--- |:--- |:--- |
+| 分区图 | 是 | 是 |是 | 是  |
+| 条形图 | 是 | 是 |是 | 是 |
+| 卡片 | 是 | 是 |不适用 | 不适用 |
+| 多行卡片 | 是 | 是 | 不适用 | 不适用 |
+| 列 | 是 | 是 | 是 |  是 |
+| 组合图 | 是 | 是 | 是 | 是 |
+| 圆环图 | 是 | 是 | 是 | 不适用 |
+| 着色地图 | 是 | 是 | 是 |不适用 |
+| 漏斗图 | 是 | 是 | 不适用 |不适用 |
+| 仪表 | 是 | 是 | 不适用 |不适用 |
+| 关键影响因素 | 是 | 是 | 不适用 |不适用 |
+| KPI | 是 | 是 | 不适用 |不适用 |
+| 折线图 | 是 | 是 | 是 |不适用 |
+| 地图 | 是 | 是 | 是 |不适用 |
+| Matrix | 是 | 是 | 不适用 |是 |
+| 饼图 | 是 | 是 | 是 |不适用 |
+| 问答 | 是 | 是 | 不适用 |不适用 |
+| 散点图 | 是 | 是 | 是 |不适用 |
+| 形状 | 是 | 是 | 是 |不适用 |
+| 切片器 | 是 | 是 | 不适用 |不适用 |
+| 表 | 是 | 是 | 不适用 |是 |
+| 文本框 | 否 | 是 | 不适用 |不适用 |
+| 树状图 | 是 | 是 | 是 |不适用 |
+| 瀑布图 | 是 | 是 | 是 |不适用 |
 
 ## <a name="next-steps"></a>后续步骤
 

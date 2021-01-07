@@ -8,14 +8,14 @@ featuredvideoid: ''
 ms.service: powerbi
 ms.subservice: pbi-collaborate-share
 ms.topic: how-to
-ms.date: 12/01/2020
+ms.date: 12/18/2020
 LocalizationGroup: Common tasks
-ms.openlocfilehash: 9d9d628ea2d478eb6a09ae8ca53b98837349a224
-ms.sourcegitcommit: 513c4b884a58e1da2680579339c24c46091bbfb2
+ms.openlocfilehash: 4a8234176dd44fd265ff2d4a6af8e1b5568a642c
+ms.sourcegitcommit: b8e4dd67c59db079fdfa82a8a01c2a28fd1673ca
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/04/2020
-ms.locfileid: "96613800"
+ms.lasthandoff: 12/19/2020
+ms.locfileid: "97699275"
 ---
 # <a name="subscribe-yourself-and-others-to-reports-and-dashboards-in-the-power-bi-service"></a>在 Power BI 服务中为自己和他人订阅报表和仪表板
 
@@ -25,10 +25,10 @@ ms.locfileid: "96613800"
 - 如果选择“每天”、“每周”、“每小时”或“每月”，请选择想要接收电子邮件的时间。
 - 为每个 Power BI 报表或仪表板设置 24 个不同的订阅。  对于分页报表，可以设置的订阅数量没有限制。
 - 发送带有报表图像的邮件，并链接到服务中的报表。  在安装了 Power BI 应用的移动设备上，选择此链接将启动 Power BI 应用，而不是在 Power BI 网站中打开报表或仪表板。
-- 如果订阅的是分页报表，则会包含完整报告的附件。
+- 包括完整报表的附件。
 - 如果 Power BI 内容托管在高级容量中，则可以将电子邮件发送给租户之外的用户。  管理员可以通过利用 Power BI 管理中心内现有的外部共享控制设置，控制谁可以向外部用户发送电子邮件订阅。
 
-![仪表板的电子邮件快照](media/service-report-subscribe/power-bi-dashboard-email-new.jpg)
+![仪表板的电子邮件快照](media/service-report-subscribe/power-bi-subscriptions-email.png)
 
 ## <a name="requirements"></a>要求
 
@@ -54,7 +54,7 @@ ms.locfileid: "96613800"
 
 1. 使用黄色滑块可启用和禁用订阅。 将滑块设置为“关”不会删除订阅。 若要删除订阅，请选择垃圾桶图标。
 
-2. 电子邮件已存在于“订阅”收件箱中。 你还可以向订阅添加同一域中的其他电子邮件地址。 如果报表或仪表板托管在[高级容量](../admin/service-premium-what-is.md)中，则可为其他个人电子邮件地址和组别名订阅，无论他们是否在你的域中。 如果报表或仪表板未托管在高级容量中，则可为其他个人订阅，但他们必须具有 Power BI Pro 许可证。 有关详细信息，请参阅下面的[注意事项和疑难解答](#considerations-and-troubleshooting)。
+2. 你的电子邮件地址已存在于“订阅”框中。 你还可以向订阅添加同一域中的其他电子邮件地址。 如果报表或仪表板托管在[高级容量](../admin/service-premium-what-is.md)中，则可为其他个人电子邮件地址和组别名订阅，无论他们是否在你的域中。 如果报表或仪表板未托管在高级容量中，则可为其他个人订阅，但他们必须具有 Power BI Pro 许可证。 有关详细信息，请参阅下面的[注意事项和疑难解答](#considerations-and-troubleshooting)。
 
 3. 填写电子邮件“主题”和“邮件”详细信息 。
 
@@ -64,16 +64,21 @@ ms.locfileid: "96613800"
 
 6. 默认情况下，订阅的开始日期是创建它的日期。 可以选择结束日期。 如果未设置结束日期，则结束日期自动是开始日期之后一年。 可以在订阅结束之前的任何时间将它更改为将来的任何日期（最多到 9999 年）。 当订阅达到结束日期时，它会停止，直到重新启用。 你会在计划结束日期之前收到通知，询问是否要延长它。
 
-    在以下屏幕截图中，请注意订阅报表实际上订阅的是报表页。 要订阅报表中的多个页面，请选择“添加其他订阅”并选择另一个页面。
+    在以下屏幕截图中，请注意订阅报表实际上订阅的是报表页。 若要订阅报表中的多个页，可以选择“完整的报表作为附件”或通过选择“添加其他订阅”来设置新订阅。
 
-    ![“订阅”窗格](media/service-report-subscribe/power-bi-subscribe-pane.png)
+    ![“订阅”窗格](media/service-report-subscribe/power-bi-email.png)
 
 1. （可选）选择是否包含返回 Power BI 中内容的链接，以及是否允许用户访问你为他们订阅的内容。  如果选择包括链接，为了获得最佳体验，请确保所有用户都有权访问该报表。
-2. 选择“保存并关闭”。 订阅者会按所选频率和时间收到仪表板或报表页的电子邮件和快照。 总共可以创建对每个报表或仪表板创建最多 24 个订阅，并可以为每个订阅提供独有的收件人、时间和频率。 对仪表板或报表，设置为“数据刷新后”的所有订阅仍然只会在第一次计划刷新之后发送电子邮件。
+
+1. （可选）选择是否将完整报表添加为附件，而不是仅添加一个报表页。 选择 PDF 或 PowerPoint。 附件的大小限制为不超过 20 页且小于 25 MB。 附件会考虑报表的所有隐私标签。
+
+1. 选择“保存并关闭”。 订阅者会按所选频率和时间收到仪表板或报表页的电子邮件和快照。 总共可以创建对每个报表或仪表板创建最多 24 个订阅，并可以为每个订阅提供独有的收件人、时间和频率。 对仪表板或报表，设置为“数据刷新后”的所有订阅仍然只会在第一次计划刷新之后发送电子邮件。
 
     > [!NOTE]
     > 如果在保存和关闭之后编辑订阅，则无论你之前选择了什么，都将启用允许用户访问你订阅的内容这一选项。
     >
+
+
 
     > [!TIP]
     > 想立即通过订阅或随时按需发送电子邮件吗？ 选择“立即运行”以获取要发送的仪表板或报表的订阅。 你将看到一封电子邮件正发送给每个人的通知，通知内容是关于该特定订阅的。 执行此操作不计入每天每个报表或仪表板的 24 次预定订阅运行的限制。 这不会引起基础数据集的数据刷新。
@@ -147,10 +152,8 @@ Power BI 管理员可以使用 Power BI 审核日志来查看有关订阅的详�
     - 附件文件大小低于 25 MB。
     - 报表的页数少于 20。 
     
-    如果报表不满足这三个条件，则无法创建以完整报表作为附件的订阅。 将禁用以完整报表作为附件的任何现有订阅，你会收到一封解释错误的电子邮件：
+    如果报表不满足这三个条件，则无法创建以完整报表作为附件的订阅。 将禁用以完整报表作为附件的任何现有订阅，你会收到一封解释错误的电子邮件。
     
-    :::image type="content" source="media/service-report-subscribe/full-report-attachment-error-email.png" alt-text="完整报表附件错误电子邮件。":::
-
 ## <a name="next-steps"></a>后续步骤
 
 - [Power BI 服务中的分页报表：为自己和他人订阅](../consumer/paginated-reports-subscriptions.md)

@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: pbi-data-sources
 ms.topic: how-to
-ms.date: 01/13/2020
+ms.date: 12/16/2020
 LocalizationGroup: Connect to data
-ms.openlocfilehash: e177eb9e124a26e62d392b7dd97562c11c8f9d5a
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: 432db58636866afe0dfda9e77e989f8469b66e34
+ms.sourcegitcommit: b472236df99b490db30f0168bd7284ae6e6095fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96411025"
+ms.lasthandoff: 12/16/2020
+ms.locfileid: "97600406"
 ---
 # <a name="connect-to-datasets-in-the-power-bi-service-from-power-bi-desktop"></a>通过 Power BI Desktop 连接 Power BI 服务中的数据集
 
@@ -107,7 +107,7 @@ Anna 创建一个报表并创建报表所基于的数据集。 随后 Anna 将�
 
 * 仅具有数据集“生成”权限的用户才能使用 Power BI 服务实时连接功能连接到已发布的数据集。
 * 免费用户只能看到位于其“我的工作区”  和高级工作区中的数据集。
-* 由于此连接为实时连接，因此会禁用左侧导航和建模。 每个报表中只能连接到一个数据集。 此行为与连接到 SQL Server Analysis Services  时的行为类似。
+* 由于此连接为实时连接，因此会禁用左侧导航和建模。 每个报表中只能连接到一个数据集。 此行为与连接到 SQL Server Analysis Services  时的行为类似。 但是，以下文章介绍了 Power BI 中的新功能现在如何实现此功能：请参阅[使用适用于 Power BI 数据集和 Azure Analysis Services 的 DirectQuery（预览版）](../connect-data/desktop-directquery-datasets-azure-analysis-services.md)
 * 由于此连接是实时连接，因此会强制执行行级别安全性 (RLS) 和其他此类连接行为。 这与连接到 SQL Server Analysis Services 时相同。
 * 如果所有者修改最初共享的 .pbix  文件，则将覆盖 Power BI 服务中共享的数据集和报表。 基于该数据集的报表不会被覆盖，但对数据集进行的任何更改都会在报表中反映。
 * 工作区的成员无权替换最初共享的报表。 尝试执行此操作会导致出现警告，提示你重命名文件后再进行发布。
@@ -116,3 +116,18 @@ Anna 创建一个报表并创建报表所基于的数据集。 随后 Anna 将�
 * 对于来自“我的组织”  的内容包，一旦复制，则无法替换在此服务上创建的报表或作为使用实时连接复制内容包的一部分创建的报表。 尝试执行此操作会导致出现警告，提示你重命名文件后再进行发布。 在这种情况下，只能替换已发布的实时连接的报表。
 * 删除 Power BI 服务中的共享数据集意味着无法再从 Power BI Desktop 访问该数据集。
 * 在 Power BI 服务上共享数据集的报表不支持使用 Power BI REST API 进行自动部署。
+
+## <a name="next-steps"></a>后续步骤
+有关 DirectQuery 和其他 Power BI 数据连接功能的详细信息，请查看以下资源：
+
+- [在 Power BI 中使用 DirectQuery](desktop-directquery-about.md)
+- [DirectQuery 支持的数据源](power-bi-data-sources.md)
+- [使用适用于 Power BI 数据集和 Azure Analysis Services 的 DirectQuery（预览版）](../connect-data/desktop-directquery-datasets-azure-analysis-services.md)
+
+下面是一些有关 Power BI 详细信息的其他链接：
+
+* [什么是 Power BI Desktop？](../fundamentals/desktop-what-is-desktop.md)
+* [Power BI Desktop 的查询概述](../transform-model/desktop-query-overview.md)
+* [Power BI Desktop 中的数据类型](desktop-data-types.md)
+* [使用 Power BI Desktop 成型和合并数据](desktop-shape-and-combine-data.md)
+* [Power BI Desktop 中的常见查询任务](../transform-model/desktop-common-query-tasks.md)

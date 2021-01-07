@@ -7,14 +7,14 @@ ms.reviewer: mihart
 ms.service: powerbi
 ms.subservice: pbi-explore
 ms.topic: how-to
-ms.date: 10/10/2020
+ms.date: 12/21/2020
 LocalizationGroup: Reports
-ms.openlocfilehash: 450c14d05f9a7855d51d7aa2f073e48a0b016013
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: 140ca42dc34e98133beac5fff671cf1ef244501c
+ms.sourcegitcommit: 0711972326521944fdd8572403c0b15f31b916da
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96400951"
+ms.lasthandoff: 12/22/2020
+ms.locfileid: "97721423"
 ---
 # <a name="buttons-in-the-power-bi-service"></a>Power BI 服务中的按钮
 在收到的来自同事的报表中，你可能会注意到一些按钮并想知道如何使用它们。 有些按钮包含字词，有些按钮包含箭头，有些按钮包含图形，有些按钮甚至包含下拉菜单。 本文介绍如何识别按钮，以及如何确定按钮的作用。
@@ -53,7 +53,7 @@ ms.locfileid: "96400951"
 ## <a name="drillthrough-buttons"></a>钻取按钮
 Power BI 服务中有两种钻取方法。 钻取会将你转到其他报表页，该目标页上的数据将根据你在源页上设置的筛选条件和选择内容显示。
 
-在报表中钻取的一种方法是右键单击视觉对象中的数据点，选择“钻取”，然后选择目标。 此方法已在标题为“后退按钮”的部分中介绍。 但有时，报表设计者改为使用钻取按钮，以使该操作更明显，并引起对重要见解的注意。  
+在报表中使用钻取的一种方法是右键单击视觉对象中的数据点，选择“钻取”，然后选择目标。 此方法已在标题为“后退按钮”的部分中介绍。 但有时，报表设计者改为使用钻取按钮，以使该操作更明显，并引起对重要见解的注意。  
 
 钻取按钮可以有多个先决条件。 除非满足所有先决条件，否则按钮将不起作用。 我们来看一个示例。
 

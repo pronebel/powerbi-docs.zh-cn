@@ -10,12 +10,12 @@ ms.subservice: pbi-collaborate-share
 ms.topic: how-to
 LocalizationGroup: Share your work
 ms.date: 12/14/2020
-ms.openlocfilehash: af1fac127d1a20f13bc99fc2d05510491a01be5a
-ms.sourcegitcommit: 46cf62d9bb33ac7b7eae7910fbba6756f626c65f
+ms.openlocfilehash: fde06eaa3b2dd44b91e8a47981ac4e9fecba5af3
+ms.sourcegitcommit: 0711972326521944fdd8572403c0b15f31b916da
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/15/2020
-ms.locfileid: "97492026"
+ms.lasthandoff: 12/22/2020
+ms.locfileid: "97721400"
 ---
 # <a name="chat-in-microsoft-teams-directly-from-the-power-bi-service"></a>通过 Power BI 服务直接在 Microsoft Teams 中聊天
 
@@ -35,11 +35,11 @@ ms.locfileid: "97492026"
 
    * 仪表板或报表的操作栏中的“在 Teams 中聊天”：
 
-       ![操作栏中的“共享到 Teams”按钮的屏幕截图。](media/service-share-report-teams/service-teams-share-to-teams-action-bar-button.png)
+       ![操作栏中的“在 Teams 中聊天”按钮的屏幕截图。](media/service-share-report-teams/service-teams-share-to-teams-action-bar-button.png)
     
    * 单个视觉对象的上下文菜单中的“在 Teams 中聊天”：
     
-      ![视觉对象上下文菜单中的“共享到 Teams”按钮的屏幕截图。](media/service-share-report-teams/service-teams-share-to-teams-visual-context-menu.png)
+      ![视觉对象上下文菜单中的“在 Teams 中聊天”按钮的屏幕截图。](media/service-share-report-teams/service-teams-share-to-teams-visual-context-menu.png)
 
 1. 在“共享到 Microsoft Teams”对话框中，选择要将链接发送到的团队或频道。 如果需要，可以输入一条消息。 系统可能会要求你先登录到 Microsoft Teams。
 

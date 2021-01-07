@@ -9,12 +9,12 @@ ms.subservice: powerbi-developer
 ms.topic: how-to
 ms.custom: ''
 ms.date: 11/23/2020
-ms.openlocfilehash: 203ea16481d8f4b7d460066d5309b119d25b8b94
-ms.sourcegitcommit: bbf7e9341a4e1cc96c969e24318c8605440282a5
+ms.openlocfilehash: 8cf7b46687491f446d4e17fc96b020dbc08de5fc
+ms.sourcegitcommit: a92a3570eb14793a758a32e8fa1a756ec5d83f8c
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/11/2020
-ms.locfileid: "97098113"
+ms.lasthandoff: 12/21/2020
+ms.locfileid: "97708056"
 ---
 # <a name="embed-power-bi-content-with-service-principal-and-an-application-secret"></a>使用服务主体和应用程序机密嵌入 Power BI 内容
 
@@ -192,6 +192,38 @@ Add-AzureADGroupMember -ObjectId $($group.ObjectId) -RefObjectId $($sp.ObjectId)
 3. 从下拉菜单中选择“成员”或“管理员” 。
 
 4. 选择 **添加** 。
+
+### <a name="add-a-service-principal-as-a-workspace-member-using-powershell"></a>使用 PowerShell 将服务主体添加为工作区成员
+
+本部分包含一个示例脚本，用于将服务主体添加为使用 [PowerShell](/powershell/azure/create-azure-service-principal-azureps) 的工作区成员。
+
+```powershell
+Login-PowerBI
+
+# Service Principal Object ID for the created Service Principal
+$SPObjectId = 'XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXXXX'
+
+$pbiWorkspace = Get-PowerBIWorkspace -Name "YourWorkspaceName"
+
+Add-PowerBIWorkspaceUser -Id $pbiWorkspace.Id -AccessRight Member -PrincipalType App -Identifier $SPObjectId 
+
+```
+
+### <a name="add-a-security-group-as-a-workspace-member-using-powershell"></a>使用 PowerShell 将安全组添加为工作区成员
+
+本部分包含一个示例脚本，用于将安全组添加为使用 [PowerShell](/powershell/azure/create-azure-service-principal-azureps) 的工作区成员。
+
+```powershell
+Login-PowerBI
+
+# Security Group Object ID for the created Security Group
+$SGObjectId = 'XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXXXX'
+
+$pbiWorkspace = Get-PowerBIWorkspace -Name "YourWorkspaceName"
+
+Add-PowerBIWorkspaceUser -Id $pbiWorkspace.Id -AccessRight Member -PrincipalType Group -Identifier $SGObjectId 
+
+```
 
 ## <a name="step-5---embed-your-content"></a>第 5 步 - 嵌入内容
 

@@ -4,18 +4,18 @@ description: 从报表视觉对象和仪表板视觉对象导出数据并在 Exc
 author: mihart
 ms.author: mihart
 ms.reviewer: cmfinlan
-featuredvideoid: jtlLGRKBvXY
+featuredvideoid: removed
 ms.service: powerbi
 ms.subservice: pbi-explore
 ms.topic: how-to
-ms.date: 12/03/2020
+ms.date: 12/21/2020
 LocalizationGroup: Consumers
-ms.openlocfilehash: d8b9f11abe639d2892bc199a9f65400e5488dedc
-ms.sourcegitcommit: cb6e0202de27f29dd622e47b305c15f952c5769b
+ms.openlocfilehash: cd07004149afd2525c5830e04e5c2490eeebcb3c
+ms.sourcegitcommit: 0711972326521944fdd8572403c0b15f31b916da
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/03/2020
-ms.locfileid: "96578099"
+ms.lasthandoff: 12/22/2020
+ms.locfileid: "97721377"
 ---
 # <a name="export-data-from-a-visual"></a>从视觉对象导出数据
 
@@ -40,7 +40,7 @@ ms.locfileid: "96578099"
 
 3. 选择“导出到 .csv”。
 
-4. 接下来发生的情况取决于所使用的浏览器。 系统可能会提示你保存文件，或者你可能会在浏览器底部看到指向已导出文件的链接。 
+4. 接下来发生的情况取决于所使用的浏览器。 系统可能会提示你保存文件，或者你可能会在浏览器底部看到指向已导出文件的链接。 默认情况下，导出将保存到本地下载文件夹。 
 
     ![显示已导出文件链接的 Chrome 浏览器](media/end-user-export/power-bi-dashboards-export.png)
 
@@ -79,7 +79,7 @@ ms.locfileid: "96578099"
 
     ![从中选择基础或汇总数据的菜单](media/end-user-export/power-bi-export-underlying.png)
 
-5. 接下来发生的情况取决于所使用的浏览器。 系统可能会提示你保存文件，或者你可能会在浏览器底部看到指向已导出文件的链接。 
+5. 接下来发生的情况取决于所使用的浏览器。 系统可能会提示你保存文件，或者你可能会在浏览器底部看到指向已导出文件的链接。 如果在 Microsoft Teams 中使用 Power BI 应用，则导出的文件将保存在本地下载文件夹中。 
 
     ![在 Microsoft Edge 浏览器中显示的已导出文件](media/end-user-export/power-bi-export-edge-screen.png)
 

@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 12/09/2020
 ms.custom: licensing support
 LocalizationGroup: Premium
-ms.openlocfilehash: 62df55257864069a1e3a03f8378869fe76052120
-ms.sourcegitcommit: 46cf62d9bb33ac7b7eae7910fbba6756f626c65f
+ms.openlocfilehash: 2265559b9b978681b2f7b210a15f7200fbba7971
+ms.sourcegitcommit: 0711972326521944fdd8572403c0b15f31b916da
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/15/2020
-ms.locfileid: "97491957"
+ms.lasthandoff: 12/22/2020
+ms.locfileid: "97721446"
 ---
 # <a name="what-is-power-bi-premium"></a>什么是 Power BI Premium？
 

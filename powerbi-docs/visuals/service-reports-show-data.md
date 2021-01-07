@@ -9,12 +9,12 @@ ms.subservice: pbi-visuals
 ms.topic: how-to
 ms.date: 12/4/2019
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 960a3dec2276acba994190e73de671f2b071bc50
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: 7aa15bae7ab94619a9f652aa20da9222e3d4af41
+ms.sourcegitcommit: 0711972326521944fdd8572403c0b15f31b916da
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96409714"
+ms.lasthandoff: 12/22/2020
+ms.locfileid: "97721630"
 ---
 # <a name="display-a-visualizations-underlying-data"></a>显示可视化效果的基础数据
 
@@ -52,7 +52,7 @@ Power BI 可视化效果是使用数据集中的数据创建的。 如果你对�
 6. 若要隐藏数据，请依次取消选择“浏览” > “显示数据”。
 
 ## <a name="using-show-records"></a>使用“显示记录”
-还可以重点关注可视化效果中的一个数据记录，然后深入了解此记录的数据。 
+你还可以重点关注可视化效果中的一个数据记录，然后深入了解此记录的详细信息。 
 
 1. 若要使用“查看记录”，选择可视化组件并将其激活。 
 

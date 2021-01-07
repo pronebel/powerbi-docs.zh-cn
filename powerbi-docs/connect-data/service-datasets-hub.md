@@ -1,5 +1,5 @@
 ---
-title: 使用数据集中心的数据集发现
+title: 使用数据集中心的数据集发现（预览）
 description: 了解如何查找、浏览和使用组织中的数据集及其相关报表。
 author: paulinbar
 ms.author: painbar
@@ -8,14 +8,14 @@ ms.subservice: pbi-data-sources
 ms.topic: how-to
 ms.date: 12/14/2020
 LocalizationGroup: Share your work
-ms.openlocfilehash: c6b7170df78b6d544f7eb97ec62516577f9267b6
-ms.sourcegitcommit: b5365df7fc32b7c49f8a2bf2cf75b5edd6bda9b6
+ms.openlocfilehash: 4e09eb9e0b44fbddf8787f474fe1a93b0b4c2d71
+ms.sourcegitcommit: a92a3570eb14793a758a32e8fa1a756ec5d83f8c
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/15/2020
-ms.locfileid: "97513795"
+ms.lasthandoff: 12/21/2020
+ms.locfileid: "97707964"
 ---
-# <a name="datasets-discovery-using-the-datasets-hub"></a>使用数据集中心的数据集发现
+# <a name="datasets-discovery-using-the-datasets-hub-preview"></a>使用数据集中心的数据集发现（预览）
 
 使用数据集中心可以轻松查找、浏览和使用组织中的数据集。 它提供有关数据集，以及基于这些数据集创建报表或将这些数据集与“在 Excel 中分析”结合使用的入口点的信息。
 

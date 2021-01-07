@@ -8,14 +8,14 @@ featuredvideoid: ''
 ms.service: powerbi
 ms.subservice: pbi-explore
 ms.topic: how-to
-ms.date: 12/08/2020
+ms.date: 12/17/2020
 LocalizationGroup: Common tasks
-ms.openlocfilehash: 52e4e34a8e081f7ca37d4216f7f021c308942a8d
-ms.sourcegitcommit: 8250187368d3de48663eb516a816ff701119b579
+ms.openlocfilehash: 4b5c076837ea5f70a84c1782349fd27ced4d866c
+ms.sourcegitcommit: b8e4dd67c59db079fdfa82a8a01c2a28fd1673ca
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "96998521"
+ms.lasthandoff: 12/19/2020
+ms.locfileid: "97699330"
 ---
 # <a name="subscribe-to-a-report-or-dashboard-in-the-power-bi-service"></a>在 Power BI 服务中订阅报表或仪表板 
 
@@ -23,6 +23,8 @@ ms.locfileid: "96998521"
 
 
 现在，及时更新最重要的仪表板和报表，比以前更加轻松。 订阅最重要的报表页和仪表板，Power BI 将会通过电子邮件将快照发送到收件箱。 告知 Power BI 所需的电子邮件接收频率：每天、每周或是在数据刷新时。 甚至可以为 Power BI 发送电子邮件设置特定时间或立即运行此操作。  总共可以为每个报表或仪表板设置最多 24 个不同的订阅。
+
+
 
 电子邮件和快照将使用在 Power BI 设置中设置的语言（请参阅 [Power BI 的支持语言和国家/地区](../fundamentals/supported-languages-countries-regions.md)）。 如果未定义任何语言，则 Power BI 使用英语作为备用语言。 要查看或设置语言首选项，请选择齿轮图标 ![齿轮图标](./media/end-user-subscribe/power-bi-settings-icon.png) > “设置”>“常规”>“语言”。 
 
@@ -32,12 +34,14 @@ ms.locfileid: "96998521"
 
 
 ## <a name="requirements"></a>要求
-必须有特定类型的[许可证](end-user-license.md)，才能为你自己创建订阅。 如果无法创建订阅，请联系 Power BI 管理员或 IT 支持人员。 “订阅其他内容”仅适用于仪表板或报表所有者。 订阅分页报表略有不同。 请参阅[在 Power BI 服务中为自己和他人订阅分页报表](paginated-reports-subscriptions.md)，获取详细信息。 
+必须有 Power BI Pro 或 Premium per user [许可证](end-user-license.md)，才能为你自己创建订阅。 如果报表或仪表板位于高级工作区，并且你已被授予对该工作区的访问权限，则也可以自行创建订阅。 如果无法创建订阅，请联系 Power BI 管理员或 IT 支持人员。 
+
+“订阅其他内容”仅适用于具有 Power BI Pro 许可证的仪表板或报表所有者。 订阅分页报表略有不同。 请参阅[在 Power BI 服务中为自己和他人订阅分页报表](paginated-reports-subscriptions.md)，获取详细信息。 
 
 ## <a name="subscribe-to-a-dashboard-or-a-report-page"></a>订阅仪表板或报表页
 无论是要订阅仪表板还是报表，过程都类似。 使用同一按钮，即可订阅 Power BI 服务仪表板和报表。
  
-![选择“订阅”图标](./media/end-user-subscribe/power-bi-subscribe.png)。
+![选择“订阅”图标](./media/end-user-subscribe/power-bi-subscribes.png).
 
 1. 打开仪表板或报表。
 2. 在顶部菜单栏中，选择“订阅”或信封图标 ![订阅图标](./media/end-user-subscribe/power-bi-icon-envelope.png)。    
@@ -45,15 +49,15 @@ ms.locfileid: "96998521"
    
 
 
-   ![订阅窗口](./media/end-user-subscribe/power-bi-emails-numbered.png)
+   ![订阅窗口](./media/end-user-subscribe/power-bi-email-numbered.png)
     
-    在处于某个仪表板上并选择“订阅”时，左侧屏幕会出现。 在处于某个报表页上并选择“订阅”时，右侧屏幕会出现。 
+    在处于某个报表页上并选择“订阅”时，左侧屏幕会出现。 在处于某个仪表板上并选择“订阅”时，右侧屏幕会出现。 
     
-    a. 要订阅报表中的多个页，请从顶部附近的下拉列表选择“添加其他订阅”并选择另一页。
+    a. 若要订阅报表中的多个页：选择“添加新订阅”并从顶部附近的下拉列表中选择另一个页面，或选中“同时包括”下的“将完整报表作为附件”复选框。 
 
     b. 使用黄色滑块可启用和禁用订阅。  将滑块设置为“关”不会删除订阅。 若要删除订阅，请选择垃圾桶图标。
 
-    c. （可选）添加主题和电子邮件详细信息。 
+    c. 添加至少一个电子邮件地址，并根据需要添加主题和电子邮件消息详细信息。 
 
     d. 选择订阅的“频率”。  可以选择“每天”、“每周”或“数据刷新后(每天)”。  若要仅在某些天接收订阅电子邮件，请选择“每周”，然后选择要在哪几天接收电子邮件。  例如，若要仅在工作日收到订阅电子邮件，请选择“每周一次”作为频率，并取消选中“周六”和“周日”对应的框。 如果选择“每月”，请输入要接收订阅邮件的月份的日期。   
 
@@ -61,13 +65,19 @@ ms.locfileid: "96998521"
 
     f. 通过在日期字段中输入日期来计划开始和结束日期。 默认情况下，订阅的开始时间会是创建它的日期，而结束日期会是一年后。 可以在订阅结束之前的任何时间将它更改为将来的任何日期（最多到 9999 年）。 当订阅达到结束日期时，它会停止，直到重新启用。  你会在计划结束日期之前收到通知，询问是否要延长它。     
 
-    如， 若要查看你的订阅并进行测试，请选择“立即运行”。  它将立即向你发送电子邮件。 
+    如， 选中一个或多个复选框。
+    - 给予收件人打开和查看报表或仪表板的权限。
+    - 选择“转到报表/仪表板”，以将“转到报表”链接添加到电子邮件正文。
+    - 将报表页的缩略图预览添加到电子邮件正文。
+    - 将完整报表添加为附件，而不是仅添加一个报表页，并选择 PDF 或 PowerPoint。 附件的大小限制为不超过 20 页且小于 25 MB。 附件会考虑报表的所有隐私标签。 
+    
+    h. 若要查看你的订阅并进行测试，请选择“立即运行”。  它将立即向你发送电子邮件。 
 
 3. 如果看起来一切正常，请选择“保存并关闭”，保存订阅。 你会按照所设置的计划收到仪表板或报表的电子邮件和快照。 频率设置为“数据刷新后”的所有订阅都只会在该天的第一次计划刷新之后发送电子邮件。
    
-   ![仪表板的电子邮件快照](media/end-user-subscribe/power-bi-subscription-email.png)
+   ![仪表板的电子邮件快照](media/end-user-subscribe/power-bi-subscriptions-email.png)
    
-    刷新报表页不会刷新数据集。 只有数据集所有者能够手动刷新数据集。 若要查找基础数据集的所有者名称，请从菜单栏中选择下拉列表或查看原始订阅电子邮件。
+    你将能够刷新报表页，而不是数据集。 只有数据集所有者能够手动刷新数据集。 若要查找基础数据集的所有者名称，请打开报表并从菜单栏中选择下拉列表。
    
     ![查找所有者](./media/end-user-subscribe/power-bi-owner.png)
 
@@ -75,7 +85,7 @@ ms.locfileid: "96998521"
 ## <a name="manage-your-subscriptions"></a>管理订阅
 只有你可以管理你所创建的订阅。 再次选择“订阅”，然后选择左下角的“管理所有订阅”（见上面的屏幕截图）。 将显示当前工作区的订阅。 若要了解工作区，请参阅 [Power BI 中的工作区](end-user-workspaces.md)。 
 
-![请参阅我的工作区中的所有订阅](./media/end-user-subscribe/power-bi-manage-subscriptions.png)
+![请参阅我的工作区中的所有订阅](./media/end-user-subscribe/power-bi-manage-subscription.png)
 
 如果 Pro 许可证到期、所有者删除仪表板或报表，或用于创建订阅的用户帐户被删除，那么订阅将结束。
 
@@ -93,6 +103,10 @@ ms.locfileid: "96998521"
 * 由于电子邮件大小限制，可能无法订阅包含极大图像的仪表板或报表。    
 * 如果超过两个月一直没有人访问仪表板和报表，那么 Power BI 会自动暂停刷新与它们关联的数据集。  不过，如果添加对仪表板或报表的订阅，即使无人访问，也不会暂停刷新。
 * 请记住，与其他 BI 产品一样，设置订阅的时间是开始处理订阅的时间。  报表处理完成后，订阅将排队并发送给电子邮件收件人。  虽然我们努力尽可能快地处理和交付所有订阅，但在需求高峰期，由于一次可发送的订阅数量有限，因而可能会出现较长的延迟。  对于大多数客户而言，处理和发送报告的延迟不会超过 15 分钟，不过对于特定时间和使用量大的租户，延迟可能会长达 30 分钟。  我们从不希望从计划订阅时间起的任何交付延迟超过 60 分钟。  如果任何客户遇到此等长时间延迟，则应首先确保地址 no-reply-powerbi@microsoft.com 位于安全发件人列表中，且未被电子邮件提供商阻止。  如果电子邮件未被阻止，他们应联系 Power BI 管理员或 IT 支持人员以寻求帮助。
+* 完整的报表附件功能适用于满足以下三个条件的报表。 具有作为附件的完整报表的任何现有订阅如果不满足这些条件，将被禁用，你会收到一封解释错误的电子邮件。
+    - 它们位于 [Power BI Premium 或 Premium Per User](../admin/service-premium-what-is.md) 的升级工作区中。 
+    - 附件文件大小低于 25 MB。
+    - 报表的页数少于 20。
 
 ## <a name="next-steps"></a>后续步骤
 

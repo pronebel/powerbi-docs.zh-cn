@@ -10,12 +10,12 @@ ms.subservice: pbi-reports-dashboards
 ms.topic: how-to
 ms.date: 08/13/2020
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 3f68a056e6e31acaf5432c4e323ba8a293ee09ce
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: eb572c17705f06b989f15323322c0da11b1d85ac
+ms.sourcegitcommit: b472236df99b490db30f0168bd7284ae6e6095fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96414406"
+ms.lasthandoff: 12/16/2020
+ms.locfileid: "97600682"
 ---
 # <a name="automatic-page-refresh-in-power-bi"></a>Power BI 中的自动页面刷新
 
@@ -33,11 +33,11 @@ ms.locfileid: "96414406"
 
 ### <a name="change-detection"></a>更改检测
 
-通过此刷新类型，你可以基于检测数据中的更改而不是特定的刷新间隔来刷新页面上的视觉对象。 具体而言，此度量值会对 [DirectQuery 源](../connect-data/desktop-directquery-about.md)的更改进行轮询。 除了定义度量值外，还必须选择 Power BI Desktop 检查更改的频率。 发布到服务时，此刷新类型仅在作为高级容量一部分的工作区中受支持。
+通过此刷新类型，你可以基于检测数据中的更改而不是特定的刷新间隔来刷新页面上的视觉对象。 具体而言，此度量值会对 [DirectQuery 源](../connect-data/desktop-directquery-about.md)的更改进行轮询。 除了定义度量值外，还必须选择 Power BI Desktop 检查更改的频率。 发布到服务时，此刷新类型仅在作为高级容量一部分的工作区中受支持。 不支持 LiveConnect 源，例如 Analysis Services 和 Power BI 数据集。
 
 ## <a name="authoring-reports-with-automatic-page-refresh-in-power-bi-desktop"></a>在 Power BI Desktop 中创作带有自动页面刷新的报表
 
-自动页面刷新仅适用于 [DirectQuery 源](../connect-data/desktop-directquery-about.md)，因此它仅在连接到 DirectQuery 数据源时才可用。 此限制适用于这两种自动页面刷新类型。
+自动页面刷新适用于 [DirectQuery 源](../connect-data/desktop-directquery-about.md)和某些 LiveConnect 方案，因此它仅在连接到支持的数据源时才可用。 此限制适用于这两种自动页面刷新类型。
 
 若要在 Power BI Desktop 中使用自动页面刷新，请选择要为其启用自动页面刷新的报表页面。 在“可视化效果”窗格中，选择“格式设置”按钮（油漆滚筒），然后在接近窗格底部的位置找到“页面刷新”部分  。
 
@@ -160,7 +160,7 @@ Power BI Desktop 对刷新间隔没有限制，刷新间隔可以是 1 秒。 �
 
 ### <a name="restrictions-on-refresh-intervals"></a>对刷新间隔的限制
 
-在 Power BI 服务中，基于发布报表的工作区、是否使用高级服务以及高级容量管理设置来对自动页面刷新应用限制。
+在 Power BI 服务中，基于发布报表的工作区，是否使用高级服务、高级容量管理设置以及数据源类型来对自动页面刷新应用限制。
 
 为了阐明这些限制的工作原理，我们先了解一些容量和工作区背景知识。
 
@@ -182,32 +182,35 @@ Power BI 工作区驻留在容量范围内。 它们表示安全性、协作和�
 
  - **最小执行间隔**。 启用更改检测时，容量管理员需要设置最小执行间隔（默认值为五秒）。 如果你的间隔低于最小值，Power BI 服务将覆盖你的间隔，以遵循容量管理员设置的最小间隔。
 
+> [!WARNING]
+> 在数据集中启用后，更改检测度量值将打开到 DirectQuery 数据源的连接，以计算更改的度量值和轮询。 此连接与 Power BI 已建立的低优先级刷新连接连接不同。
+
 ![容量管理门户中的自动页面刷新设置](media/desktop-automatic-page-refresh/automatic-page-refresh-09.png)
 
 此表详细介绍了提供此功能的位置，以及针对每种容量类型和[存储模式](../connect-data/service-dataset-modes-understand.md)的限制：
 
-| 存储模式 | 专用容量 | 共享容量 |
-| --- | --- | --- |
-| DirectQuery | 支持 FI：是 <br>支持 CD：是 <br>**最小值**：1 秒 <br>管理员覆盖：是 | 支持 FI：是 <br>支持 CD：否 <br>**最小值**：30 分钟 <br>管理员覆盖：否 |
-| 导入 | 支持 FI：否 <br>支持 CD：否 <br>**最小值**：不适用 <br>管理员覆盖：不适用 | 支持 FI：否 <br>支持 CD：否 <br>**最小值**：不适用 <br>管理员覆盖：不适用 |
-| 混合模式（DirectQuery + 其他数据源） | 支持 FI：是 <br>支持 CD：是 <br>**最小值**：1 秒 <br>管理员覆盖：是 | 支持 FI：是 <br>支持 CD：否 <br>**最小值**：30 分钟 <br>管理员覆盖：否 |
-| 实时连接 AS | 支持 FI：否 <br>支持 CD：否 <br>**最小值**：不适用 <br>管理员覆盖：不适用 | 支持 FI：否 <br>支持 CD：否 <br>**最小值**：不适用 <br>管理员覆盖：不适用 |
-| 实时连接 PBI | 支持 FI：否 <br>支持 CD：否 <br>**最小值**：不适用 <br>管理员覆盖：不适用 | 支持 FI：否 <br>支持 CD：否 <br>**最小值**：不适用 <br>管理员覆盖：不适用 |
+| 存储模式                                  | 专用容量                                                                                     | 共享容量                                                                                       |
+|-----------------------------------------------|--------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------|
+| DirectQuery                                   | 支持 FI：是 <br>支持 CD：是 <br>**最小值**：1 秒 <br>管理员覆盖：是  | 支持 FI：是 <br>支持 CD：否 <br>**最小值**：30 分钟 <br>管理员覆盖：否 |
+| 导入                                        | 支持 FI：否 <br>支持 CD：否 <br>**最小值**：不适用 <br>管理员覆盖：不适用         | 支持 FI：否 <br>支持 CD：否 <br>**最小值**：不适用 <br>管理员覆盖：不适用        |
+| 混合模式（DirectQuery + 其他数据源） | 支持 FI：是 <br>支持 CD：是 <br>**最小值**：1 秒 <br>管理员覆盖：是  | 支持 FI：是 <br>支持 CD：否 <br>**最小值**：30 分钟 <br>管理员覆盖：否 |
+| Analysis Services（Azure 和本地）     | 支持 FI：是 <br>支持 CD：否 <br>**最小值**：30 分钟 <br>管理员覆盖：是 | 支持 FI：是 <br>支持 CD：否 <br>**最小值**：30 分钟 <br>管理员覆盖：否 |
+| Power BI 数据集（具有 DirectQuery 源）   | 支持 FI：是 <br>支持 CD：否 <br>**最小值**：1 秒 <br>管理员覆盖：是  | 支持 FI：是 <br>支持 CD：否 <br>**最小值**：30 分钟 <br>管理员覆盖：否 |
+| Power BI 推送数据集                        | 支持 FI：是 <br>支持 CD：否 <br>**最小值**：30 分钟 <br>管理员覆盖：是 | 支持 FI：是 <br>支持 CD：否 <br>**最小值**：30 分钟 <br>管理员覆盖：否        |
 
 *表格图例：*
 1. FI：固定间隔
 2. CD：更改检测
 
 > [!WARNING]
-> 在数据集中启用后，更改检测度量值将打开到 DirectQuery 数据源的连接，以计算更改的度量值和轮询。 此连接与 Power BI 已建立的低优先级刷新连接连接不同。
+> 从 Power BI Desktop 连接到 Analysis Services 或 Power BI 数据集，并且刷新间隔为 30 分钟或更长时间时，我们遇到了一个已知问题。 报表页中的视觉对象在 30 分钟后可能会显示错误。
 
 ## <a name="considerations-and-limitations"></a>注意事项和限制
 
 在 Power BI Desktop 或 Power BI 服务中使用自动页面刷新时，需注意以下几点：
 
-* 自动页面刷新不支持导入、LiveConnect 和推送存储模式。  
+* 自动页面刷新不支持导入存储模式。  
 * 支持具有至少一个 DirectQuery 数据源的复合模型。
-* Power BI Desktop 对刷新间隔没有限制。 对于固定间隔和更改检测刷新类型，间隔可为每秒钟。 将报表发布到 Power BI 服务时，会应用某些限制，如本文[前面](#restrictions-on-refresh-intervals)所述。
 * 每个数据集只能有一个更改检测度量值。
 * 在 Power BI 租户中，最多只能有 10 个具有更改检测度量值的模型。
 
@@ -277,6 +280,10 @@ Power BI 工作区驻留在容量范围内。 它们表示安全性、协作和�
 * 检查是否已上传到具有附加高级容量的工作区。 如果尚未执行此操作，更改检测将不起作用。
 * 如果报表位于高级工作区中，请询问管理员是否已为附加容量启用了此功能。 此外，请确保容量的最小执行间隔等于或小于报表的间隔。
 * 检查前面提到的所有项之后，在 Power BI Desktop 中或在编辑模式下检查度量值是否发生更改。 为此，请将其拖动到画布中，并查看值是否更改。 如果没有，则度量值可能不是轮询数据源更改的最佳选择。
+
+连接到 Analysis Services 时，我看不到 APR 切换
+
+* 请确保 Analysis Services 模型处于[直接查询模式](https://docs.microsoft.com/analysis-services/tabular-models/directquery-mode-ssas-tabular)。
 
 
 ## <a name="next-steps"></a>后续步骤

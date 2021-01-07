@@ -4,23 +4,24 @@ description: 了解如何通过创建专用于手机和平板电脑的纵向报�
 author: paulinbar
 ms.author: painbar
 ms.reviewer: ''
-ms.custom: contperfq4
+ms.custom: contperf-fy20q4
 ms.service: powerbi
 ms.subservice: pbi-reports-dashboards
 ms.topic: how-to
-ms.date: 06/15/2020
+ms.date: 12/22/2020
 LocalizationGroup: Create reports
-ms.openlocfilehash: 0780b11cb1e95578be144f65f8adb1bf641d1c1c
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: 1bfbbcb1b722bbb2504307815860b977a6ab0709
+ms.sourcegitcommit: 2adb60a70bfc29c5fdc49cf6defb905e580288ab
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96414314"
+ms.lasthandoff: 12/24/2020
+ms.locfileid: "97760725"
 ---
 # <a name="optimize-power-bi-reports-for-the-mobile-app"></a>优化移动应用的 Power BI 报表
+
 移动用户可以横向查看任何 Power BI 报表页。 但是，报表作者可以创建针对移动设备优化并纵向显示的其他视图。 Power BI Desktop 和 Power BI 服务中都提供了此设计选项，通过该选项，作者可以选择和重新排列对漫游的移动用户来说有意义的视觉对象。
 
-![移动优化报表](media/desktop-create-phone-report/desktop-mobile-optimized-report.png)。
+![纵向和横向移动优化报表的屏幕截图。](media/desktop-create-phone-report/desktop-mobile-optimized-report.png)
 
 Power BI 提供了许多功能，可帮助你创建报表的移动优化版本：
 * 移动布局视图，可以在其中通过将视觉对象拖放到手机模拟器画布上来创建移动优化报表。
@@ -30,18 +31,18 @@ Power BI 提供了许多功能，可帮助你创建报表的移动优化版本�
 
 ## <a name="create-a-mobile-optimized-portrait-version-of-a-report-page"></a>创建报表页的移动优化纵向版本
 
-第一步是在常规 Web 视图中设计和创建报表。 创建报表后，可以针对手机和平板电脑对其进行优化。
+先决条件：第一步是在常规 Web 视图中设计和创建报表。 创建报表后，可以针对手机和平板电脑对其进行优化。
 
-若要创建移动优化视图，请打开移动布局视图：
+若要创建移动优化视图，请在 Power BI Desktop 或 Power BI 服务中打开报表。 打开报表后，进入移动布局视图：
    * 在 Power BI Desktop 中，选择“视图”功能区，然后选择“移动布局” 。
-   * 在 Power BI 服务中，选择“更多选项(...)”>“编辑报表”>“移动布局”。
+   * 在 Power BI 服务中，选择“编辑报表”>“移动布局”。 如果“编辑”选项不可见，请在“更多选项(...)”下查看。
 
    你会看到一个形状类似手机的可滚动画布，以及可列出原始报表页上的所有视觉对象的“可视化效果”窗格。
 
-   ![移动布局视图](media/desktop-create-phone-report/desktop-mobile-layout.png)。
-
 * “可视化效果”窗格中的每个视觉对象都将显示其名称，以便于识别。
 * 每个视觉对象也有一个可见性指示器。 视觉对象的可见性指示器会根据视觉对象在 Web 报表视图当前状态中的可见性状态而发生变化。 使用书签时，可见性指示器非常有用。
+
+   ![移动布局视图](media/desktop-create-phone-report/desktop-mobile-layout.png)
 
 ## <a name="add-visuals-to-the-mobile-layout-canvas"></a>将视觉对象添加到移动布局画布
 若要将视觉对象添加到移动布局中，请将它从“可视化效果”窗格拖动到手机画布中。 将视觉对象拖动到画布中时，它会对齐到网格。 或者，可以在“可视化效果”窗格中双击视觉对象，视觉对象随即添加到画布中。
@@ -51,7 +52,7 @@ Power BI 提供了许多功能，可帮助你创建报表的移动优化版本�
 >[!NOTE]
 > 可以将隐藏的视觉对象拖放到画布上。 它们将被放入，但不会显示，除非它们的可见性状态在当前 Web 报表视图中发生更改。
 
-视觉对象可以叠放在一起，以便使用书签创建交互式报表，或通过在图像上叠放视觉对象来生成引人注目的报表。
+视觉对象可以叠放在一起，以便使用书签创建交互式报表，或通过在图像上叠放视觉对象来生成引人注目的报表。 可以在[“选择”窗格](#set-the-layering-order-of-visuals-on-the-mobile-layout-canvas)中更改视觉对象的分层顺序。
 
 将视觉对象置于画布上后，可以通过拖动显示在选中的视觉对象边缘周围的句柄来调整其大小。 若要在调整大小时保持视觉对象的纵横比，请在拖动大小调整句柄时按 Shift 键。
 
@@ -60,6 +61,18 @@ Power BI 提供了许多功能，可帮助你创建报表的移动优化版本�
    ![拖放、调整大小和叠放视觉对象](media/desktop-create-phone-report/desktop-mobile-layout-overlay-resize.gif)
 
 手机报表网格可在不同型号的手机间缩放，因此，报表在小屏幕和大屏幕手机上的效果都很好。
+
+## <a name="set-the-layering-order-of-visuals-on-the-mobile-layout-canvas"></a>设置移动布局画布上视觉对象的分层顺序
+
+每次将视觉对象拖动到画布上时，会在画布上已有的任何其他视觉对象上将其添加到自己的层上。 通过“选择”窗格，你可以更改分层顺序。
+
+若要打开“选择”窗格，请单击“视图”选项卡上“显示窗格”部分中的“选择”按钮。 
+
+“选择”窗格列出画布上的所有视觉对象。 列表的顺序反映了画布上的层排序，即第一个列出的视觉对象位于最顶层，最后一个列出的视觉对象位于最底层。 若要更改顺序，可以将视觉对象拖放到列表中的其他位置，也可以选择视觉对象并使用箭头按钮将其上移或下移。
+
+对于列表中的每个视觉对象，“选择”窗格也有可见性指示，但无法更改移动布局视图中的可见性，此操作必须在常规 Web 布局视图中完成。
+
+![显示“选择”窗格及其打开方式的屏幕截图。](media/desktop-create-phone-report/selection-pane-mobile-layout.png)
 
 ## <a name="remove-visuals-from-the-mobile-layout-canvas"></a>从移动布局画布中删除视觉对象
 若要从移动布局中删除视觉对象，请单击手机画布上的视觉对象右上角的 X，或将其选中，然后按“删除” 。

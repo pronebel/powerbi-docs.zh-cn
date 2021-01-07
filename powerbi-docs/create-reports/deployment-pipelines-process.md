@@ -6,14 +6,14 @@ ms.author: kesharab
 ms.topic: conceptual
 ms.service: powerbi
 ms.subservice: pbi-deployment
-ms.custom: contperfq1
-ms.date: 10/21/2020
-ms.openlocfilehash: c9ae23a88bd557681ca89e541f082a69d449ed8c
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.custom: contperf-fy21q1
+ms.date: 12/28/2020
+ms.openlocfilehash: 4bb709e41698bc0dc32341f517593717f64f9b6d
+ms.sourcegitcommit: a465a0c80ffc0f24ba6b8331f88420a0d21ac0b2
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96415004"
+ms.lasthandoff: 12/29/2020
+ms.locfileid: "97805202"
 ---
 # <a name="understand-the-deployment-process"></a>了解部署过程
 
@@ -149,13 +149,21 @@ ms.locfileid: "96415004"
 
 * 认可设置
 
-## <a name="incremental-refresh"></a>增量刷新
+## <a name="supported-dataset-features"></a>支持的数据集功能
+
+部署管道支持许多 Power BI 数据集功能。 本部分列出了两个可增强你的部署管道体验的 Power BI 数据集功能：
+
+* [增量刷新](#incremental-refresh)
+
+* [复合模型](#composite-models)
+
+### <a name="incremental-refresh"></a>增量刷新
 
 部署管道支持[增量刷新](../admin/service-premium-incremental-refresh.md)，通过此功能可以更快、更可靠地刷新大型数据集，且具有较低的消耗。
 
 使用部署管道，你可以通过增量刷新来更新数据集，同时保留数据和分区。 部署数据集时，也会复制策略。
 
-### <a name="activating-incremental-refresh-in-a-pipeline"></a>在管道中激活增量刷新
+#### <a name="activating-incremental-refresh-in-a-pipeline"></a>在管道中激活增量刷新
 
 若要启用增量刷新，[在 Power BI Desktop中打开它](../admin/service-premium-incremental-refresh.md#configure-incremental-refresh)，然后发布数据集。 发布后，增量刷新策略在管道中是类似的，并且只能在 Power BI Desktop 中进行创作。
 
@@ -169,7 +177,7 @@ ms.locfileid: "96415004"
 
 4. 查看在测试阶段所做的更改，并在验证这些更改后，部署到生产阶段。
 
-### <a name="usage-examples"></a>用法示例
+#### <a name="usage-examples"></a>用法示例
 
 下面的几个示例演示了如何将增量刷新与部署管道集成。
 
@@ -181,7 +189,7 @@ ms.locfileid: "96415004"
 
 * 将使用增量刷新的数据集发布到作为现有管道一部分的工作区。
 
-### <a name="limitations-and-considerations"></a>限制和注意事项
+#### <a name="limitations-and-considerations"></a>限制和注意事项
 
 对于增量刷新，部署管道仅支持使用[增强的数据集元数据](../connect-data/desktop-enhanced-dataset-metadata.md)的数据集。 从 Power BI Desktop 的 2020 年 9 月版开始，使用 Power BI Desktop 创建或修改的所有数据集都会自动实现增强的数据集元数据。
 
@@ -194,6 +202,24 @@ ms.locfileid: "96415004"
 * 在启用了增量刷新的表中重命名非计算列。
 
 允许进行其他更改，如添加列、删除列和重命名计算列。 但是，如果更改影响显示，则需要在更改可见之前进行刷新。
+
+### <a name="composite-models"></a>复合模型
+
+使用[复合模型](../transform-model/desktop-composite-models.md)，可以设置具有多个数据连接的报表。
+
+可以使用复合模型功能将 Power BI 数据集连接到外部数据集，如 Azure Analysis Services。 有关详细信息，请参阅[使用适用于 Power BI 数据集和 Azure Analysis Services 的 DirectQuery](../connect-data/desktop-directquery-datasets-azure-analysis-services.md)。
+
+在部署管道中，可以使用复合模型将数据集连接到管道外部的其他 Power BI 数据集。  
+
+#### <a name="limitations"></a>限制
+
+不支持以下复合模型连接：
+
+* 连接驻留在同一工作区中的数据集。
+
+* 连接驻留在不同管道中的数据集。
+
+* 连接驻留在同一管道中的数据集。 
 
 ## <a name="deploying-power-bi-apps"></a>部署 Power BI 应用
 

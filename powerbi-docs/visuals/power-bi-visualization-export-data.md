@@ -6,17 +6,18 @@ ms.author: mihart
 manager: kvivek
 ms.reviewer: tessa
 featuredvideoid: jtlLGRKBvXY
+ms.custom: jtlLGRKBvXY
 ms.service: powerbi
 ms.subservice: pbi-visuals
 ms.topic: how-to
-ms.date: 09/09/2020
+ms.date: 12/21/2020
 LocalizationGroup: Visualizations
-ms.openlocfilehash: b7aae0e05c74209e66503612d3c89bb430cb5185
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: bf388f28b83ad67fd246d23ba7113e74f0630a0e
+ms.sourcegitcommit: 0711972326521944fdd8572403c0b15f31b916da
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96414774"
+ms.lasthandoff: 12/22/2020
+ms.locfileid: "97721469"
 ---
 # <a name="export-the-data-that-was-used-to-create-a-visualization"></a>探索用于创建可视化效果的数据
 
@@ -105,7 +106,7 @@ ms.locfileid: "96414774"
 
     ![突出显示“汇总数据”、“.xlsx”和“导出”选项的“导出数据”屏幕截图。](media/power-bi-visualization-export-data/power-bi-export-data5.png)
 
-1. 选择“导出”时，浏览器会提示你保存文件。 保存后，在 Excel 中打开该文件。
+1. 选择“导出”时，浏览器会提示你保存文件。 保存后，在 Excel 中打开该文件。 如果在 Microsoft Teams 中使用 Power BI 应用，则可能不会收到同样的提示。 导出的文件将保存在本地下载文件夹中。 
 
     ![Excel 输出的屏幕截图。](media/power-bi-visualization-export-data/power-bi-export-data9.png)
 
@@ -144,7 +145,7 @@ ms.locfileid: "96414774"
 
     ![导出数据的屏幕截图，其中标出了基础数据。](media/power-bi-visualization-export-data/power-bi-underlying.png)
 
-1. 选择“导出”时，浏览器会提示你保存文件。 保存后，在 Excel 中打开该文件。
+1. 选择“导出”时，浏览器会提示你保存文件。 保存后，在 Excel 中打开该文件。  如果在 Microsoft Teams 中使用 Power BI 应用，则可能不会收到同样的提示。 导出的文件将保存在本地下载文件夹中。 
 
     ![.xlsx 文件的屏幕截图，其中显示了导出的数据。](media/power-bi-visualization-export-data/power-bi-excel.png)
     

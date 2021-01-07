@@ -7,13 +7,13 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: how-to
-ms.date: 08/12/2020
-ms.openlocfilehash: 5d361a749f947f8d45b052a8a2b6455007745d20
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.date: 12/17/2020
+ms.openlocfilehash: 944f840133fd2ae8fee558e26d44fa31456bd565
+ms.sourcegitcommit: 5c09d121d3205e65fb33a2eca0e60bc30e777773
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96413072"
+ms.lasthandoff: 12/18/2020
+ms.locfileid: "97675367"
 ---
 # <a name="explore-reports-in-the-power-bi-mobile-apps"></a>在 Power BI 移动应用中浏览报表
 适用于：
@@ -155,6 +155,29 @@ Power BI 移动应用支持报表创建者已定义的报表书签和可在 Powe
 ![书签视图](./media/mobile-reports-in-the-mobile-apps/power-bi-mobile-report-bookmark-title.png)
 
 [了解有关 Power BI 服务中书签的详细信息](../end-user-bookmarks.md)。
+
+## <a name="investigate-anomalies-in-time-series-data"></a>调查时序数据中的异常
+
+[异常情况检测](https://powerbi.microsoft.com/blog/anomaly-detection-preview/)是一种 Power BI 功能，可在带有时序数据的折线图上自动检测异常（即超出预期范围的值）。 此外，根据异常值的原因，它还提供可能的解释，根据其解释性强度排名。 如果报表创建者已在图表上启用了异常情况检测，则它们可用。 
+
+当你查看对具有时序数据的图表启用了异常情况检测的报表时，将看到图表中显示的异常，就像在 Power BI 服务和 Power BI Desktop 中看到的那样。 
+
+![具有异常指示的折线图的屏幕截图。](media/mobile-reports-in-the-mobile-apps/mobile-detected-anomalies.png)
+
+若要查看其他信息和说明，需要打开“异常”面板。 有多种方法可以实现此操作：
+* 点击图表上的异常指示。 
+* 点击“更多选项(...)”并从出现的菜单中选择“显示异常”。    
+* 点击数据点以显示工具提示，并选择“异常”。
+
+下图演示了打开“异常”面板的三种方法。
+
+![显示如何打开“异常”面板的屏幕截图。](media/mobile-reports-in-the-mobile-apps/mobile-opening-anomalies-panel.png)
+
+在“异常”面板中，你将看到有关检测到的异常的自然语言解释，以及按其解释强度排序的关联因素。 从右到左轻扫可查看所有相关因素及其强度。
+
+![显示从右到左轻扫以查看异常解释的屏幕截图。](media/mobile-reports-in-the-mobile-apps/mobile-swipe-to-see-explanations.png)
+
+虽然“异常”面板可见，但移动报表在它下面仍可滚动，因此你可以继续与报表交互，交叉分析，以便更好地了解数据中的异常。 对于每个交互，Power BI 重新运行异常情况检测来检测范围内数据中的异常。 
 
 ## <a name="refresh-your-data"></a>刷新你的数据
 

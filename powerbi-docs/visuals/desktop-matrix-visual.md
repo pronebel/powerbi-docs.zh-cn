@@ -9,12 +9,12 @@ ms.subservice: pbi-visuals
 ms.topic: conceptual
 ms.date: 06/18/2020
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 33e0ee83815c739d8201fad995d84c7ee397bc6c
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: 401d8905c4fe2ca0f27a8f0c58bd756c87a10456
+ms.sourcegitcommit: 0711972326521944fdd8572403c0b15f31b916da
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96398053"
+ms.lasthandoff: 12/22/2020
+ms.locfileid: "97721492"
 ---
 # <a name="create-matrix-visualizations-in-power-bi"></a>在 Power BI 中创建矩阵可视化效果
 
@@ -65,13 +65,13 @@ ms.locfileid: "96398053"
 > 如果要在 Analysis Services 多维模型之上生成报表，并且该模型使用“默认成员”功能，则展开/折叠具有一些特殊注意事项。 有关详细信息，请参阅[在 Power BI 中使用多维模型](../connect-data/desktop-default-member-multidimensional-models.md)
 
 ## <a name="using-drill-down-with-the-matrix-visual"></a>结合使用向下钻取和矩阵视觉对象
-借助矩阵视觉对象，可以执行之前无法实现的各种有意思的向下钻取活动。 这包括向下钻取行、列、单独分区和单元格。 让我们来看看每种向下钻取活动的工作原理。
+借助矩阵视觉对象，可以执行之前无法实现的各种有趣的向下钻取活动。 这包括向下钻取行、列、单独分区和单元格。 让我们来看看每种向下钻取活动的工作原理。
 
 ### <a name="drill-down-on-row-headers"></a>向下钻取行标题
 
 在“可视化效果”窗格中，如果向“字段”井的“行”部分添加多个字段，可以为矩阵视觉对象的行启用向下钻取。 这类似于创建层次结构，以便于你可以向下钻取（然后备份）层次结构，并分析每个级别的数据。
 
-在下图中，“行”部分包含“销售阶段”和“商机规模”，形成了可以向下钻取的行分组（或层次结构）。
+在下图中，“行”部分包含“销售阶段”和“商机规模”，形成了可以向下钻取的行分组（或层次结构），以查看详细信息。
 
 ![显示已选择哪些行的“筛选器”卡片](media/desktop-matrix-visual/power-bi-rows-matrix.png)
 
