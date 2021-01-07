@@ -7,19 +7,19 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: how-to
-ms.date: 10/22/2020
+ms.date: 12/18/2020
 ms.custom: seodec18
 LocalizationGroup: Administration
-ms.openlocfilehash: 9cbb6bb03d9add4324c3fc57a6426435850a001c
-ms.sourcegitcommit: cb6e0202de27f29dd622e47b305c15f952c5769b
+ms.openlocfilehash: 2e89dc43f467aec8edcefaa4ecdbd2fc6cbf6dea
+ms.sourcegitcommit: b8e4dd67c59db079fdfa82a8a01c2a28fd1673ca
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/03/2020
-ms.locfileid: "96578167"
+ms.lasthandoff: 12/19/2020
+ms.locfileid: "97699479"
 ---
 # <a name="administering-power-bi-in-the-admin-portal"></a>在管理门户中管理 Power BI
 
-借助管理门户，用户可以管理组织中的 Power BI 设置。 门户包括诸如使用指标、对 Microsoft 365 管理中心的访问以及租户设置这类项目。
+借助管理门户，用户可以管理组织中的 Power BI 设置。 门户包括使用情况指标、对 Microsoft 365 管理中心的访问以及为所有用户管理 Power BI 的设置等项目。
 
 拥有 Power BI 服务管理员角色的全局管理员和用户可以访问完整的管理门户。 如果你不是这些角色之一，则只能在门户中看到“容量设置”。 若要详细了解 Power BI 服务管理员角色，请参阅[了解 Power BI 管理员角色](service-admin-role.md)。
 
@@ -31,14 +31,15 @@ ms.locfileid: "96578167"
 
 1. 在页眉中，选择“设置” > “管理门户”。
 
-    ![管理门户的设置](media/service-admin-portal/powerbi-admin-settings.png)
+   :::image type="content" source="media/service-admin-portal/settings-portal.png" alt-text="选择了管理门户的“设置”菜单。":::
 
 管理门户中有多个部分。 本文的其余部分提供了有关每个部分的信息。
 
-![管理门户导航](media/service-admin-portal/powerbi-admin-landing-page.png)
+   :::image type="content" source="media/service-admin-portal/portal-menu.png" alt-text="管理门户菜单。":::
 
 * [使用情况指标](#usage-metrics)
 * [用户](#users)
+* [Premium per user（预览）](#premium-per-user-preview)
 * [审核日志](#audit-logs)
 * [租户设置](#tenant-settings)
 * [容量设置](#capacity-settings)
@@ -125,6 +126,14 @@ ms.locfileid: "96578167"
 可以在 Microsoft 365 管理中心中管理 Power BI 用户、组和管理员。 “用户”选项卡提供指向管理中心的链接。
 
 ![转到 Microsoft 365 管理中心](media/service-admin-portal/powerbi-admin-manage-users.png)
+
+## <a name="premium-per-user-preview"></a>Premium per user（预览）
+
+Premium per user 是一种按用户提供高级功能许可的新方法。 此功能目前以预览版提供。 为至少一个用户分配 Premium per user 许可证后，可在任何工作区中启用关联功能。 管理员可以管理向用户显示的自动刷新和数据集工作负载设置及其默认值。 例如，可以关闭对 XMLA 终结点的访问，将其设置为只读，或设置为读写。
+
+   :::image type="content" source="media/service-admin-portal/premium-per-user-options.png" alt-text="Premium per user 设置。":::
+
+有关此许可模型的详细信息，请参阅 [Power BI Premium Per User 常见问题解答（预览）](service-premium-per-user-faq.md)。
 
 ## <a name="audit-logs"></a>审核日志
 
