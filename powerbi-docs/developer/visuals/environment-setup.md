@@ -1,6 +1,6 @@
 ---
-title: 设置用于开发 Power BI 视觉对象的环境
-description: 本文介绍如何设置环境，以开发 Power BI 视觉对象
+title: 设置环境以在 Power BI 嵌入式分析中开发 Power BI 视觉对象，从而获得更出色的嵌入式 BI 见解
+description: 本文介绍如何设置环境，以开发 Power BI 视觉对象。 使用 Power BI 嵌入式分析改进嵌入式 BI 见解。
 author: KesemSharabi
 ms.author: kesharab
 ms.reviewer: ''
@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: how-to
 ms.date: 09/02/2020
-ms.openlocfilehash: e5b176ac9e8d334b6dec9af70c189d2767bace1c
-ms.sourcegitcommit: a465a0c80ffc0f24ba6b8331f88420a0d21ac0b2
+ms.openlocfilehash: 43c5a636a7e3d0396210370df4427e1e13494551
+ms.sourcegitcommit: eeaf607e7c1d89ef7312421731e1729ddce5a5cc
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/29/2020
-ms.locfileid: "97805225"
+ms.lasthandoff: 01/05/2021
+ms.locfileid: "97885881"
 ---
 # <a name="set-up-your-environment-for-developing-a-power-bi-visual"></a>设置用于开发 Power BI 视觉对象的环境
 

@@ -1,6 +1,6 @@
 ---
-title: 使用服务主体和应用程序机密将 Power BI 内容嵌入到嵌入式分析应用程序中
-description: 了解如何使用 Azure Active Directory 应用程序服务主体和应用程序机密对嵌入的分析进行身份验证。
+title: 使用服务主体和应用程序机密将 Power BI 内容嵌入到嵌入式分析应用程序中，从而获得更出色的嵌入式 BI 见解
+description: 了解如何使用 Azure Active Directory 应用程序服务主体和应用程序机密对嵌入的分析进行身份验证。 使用 Power BI 嵌入式分析改进嵌入式 BI 见解。
 author: KesemSharabi
 ms.author: kesharab
 ms.reviewer: ''
@@ -9,12 +9,12 @@ ms.subservice: powerbi-developer
 ms.topic: how-to
 ms.custom: ''
 ms.date: 11/23/2020
-ms.openlocfilehash: 8cf7b46687491f446d4e17fc96b020dbc08de5fc
-ms.sourcegitcommit: a92a3570eb14793a758a32e8fa1a756ec5d83f8c
+ms.openlocfilehash: 35bdaa8af06187767975126daa1f2445908fed9f
+ms.sourcegitcommit: eeaf607e7c1d89ef7312421731e1729ddce5a5cc
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/21/2020
-ms.locfileid: "97708056"
+ms.lasthandoff: 01/05/2021
+ms.locfileid: "97886778"
 ---
 # <a name="embed-power-bi-content-with-service-principal-and-an-application-secret"></a>使用服务主体和应用程序机密嵌入 Power BI 内容
 

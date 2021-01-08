@@ -8,12 +8,12 @@ ms.subservice: powerbi-template-apps
 ms.topic: how-to
 ms.date: 12/22/2020
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 88d508e5a71fec2574104356d77aaa0fb79bb0bc
-ms.sourcegitcommit: 1691ce556ab5b22e6f9d06086a054d165d482809
+ms.openlocfilehash: 730a997a6d1d304fe868dd5bdd5bfbed6e359d91
+ms.sourcegitcommit: 932f6856849c39e34229dc9a49fb9379c56a888a
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/23/2020
-ms.locfileid: "97745160"
+ms.lasthandoff: 01/06/2021
+ms.locfileid: "97927147"
 ---
 # <a name="microsoft-sustainability-calculator-support-page"></a>Microsoft Sustainability Calculator 支持页
 
@@ -29,6 +29,7 @@ Microsoft Sustainability Calculator 提供有关与 Azure 服务关联的碳排�
 - 租户 ID
 - 访问密钥
 - 注册编号
+- 只有 Azure 管理员角色才能进行身份验证并将计算器连接到公司数据。 （仅适用于 2020 年 12 月预览版）
 
 若要查找公司注册编号：
 
