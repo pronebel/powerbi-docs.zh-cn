@@ -1,6 +1,6 @@
 ---
-title: 向表中添加行
-description: 用以推送数据的演练 - 向 Power BI 表中添加行
+title: 在 Power BI 嵌入式分析中向表中添加行以增强嵌入式 BI 见解
+description: 用以推送数据的演练 - 向 Power BI 表中添加行。 使用 Power BI 嵌入式分析改进嵌入式 BI 见解。
 author: KesemSharabi
 ms.author: kesharab
 ms.reviewer: madia
@@ -8,18 +8,18 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: tutorial
 ms.date: 02/05/2019
-ms.openlocfilehash: b43e9c93499f60039a924051c30b0ed631c85e8e
-ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
+ms.openlocfilehash: b34bc292d832938f34766ef94c5d9addd7b9e271
+ms.sourcegitcommit: eeaf607e7c1d89ef7312421731e1729ddce5a5cc
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/06/2020
-ms.locfileid: "91748370"
+ms.lasthandoff: 01/05/2021
+ms.locfileid: "97887537"
 ---
 # <a name="step-5-add-rows-to-a-power-bi-table"></a>步骤 5：向 Power BI 表中添加行
 
 本文是[将数据推送到数据集](walkthrough-push-data.md)的分步演练的一部分。
 
-在“将数据推送到数据集”的**步骤 4**（[获取数据集以向 Power BI 表中添加行](walkthrough-push-data-get-datasets.md)）中，你使用了[获取数据集](/rest/api/power-bi/datasets/getdatasets)操作和 Newtonsoft.Json 来获取数据集 ID。在此步骤中，将该数据集 ID 用于 [PostRows](/rest/api/power-bi/pushdatasets/datasets_postrows) 操作，将行添加到 **Power BI** 数据集。 
+在“将数据推送到数据集”的 **步骤 4**（[获取数据集以向 Power BI 表中添加行](walkthrough-push-data-get-datasets.md)）中，你使用了 [获取数据集](/rest/api/power-bi/datasets/getdatasets)操作和 Newtonsoft.Json 来获取数据集 ID。在此步骤中，将该数据集 ID 用于 [PostRows](/rest/api/power-bi/pushdatasets/datasets_postrows) 操作，将行添加到 **Power BI** 数据集。 
 
 调用 [PostRows ](/rest/api/power-bi/pushdatasets/datasets_postrows)操作时，会将行添加到数据集。
 
@@ -33,7 +33,7 @@ ms.locfileid: "91748370"
 > 在开始之前，先确保已按[将数据推送到数据集](walkthrough-push-data.md)演练中之前的步骤进行了操作。
 
 1. 在步骤 2 中创建的控制台应用程序项目中：推送数据演练、[获取身份验证访问令牌](walkthrough-push-data-get-token.md)、添加以下代码。
-2. 运行控制台应用，并登录到你的 Power BI 帐户。 应可看到控制台窗口中的**添加行**。 还可以登录到 Power BI 来查看已添加到数据集中的行。
+2. 运行控制台应用，并登录到你的 Power BI 帐户。 应可看到控制台窗口中的 **添加行**。 还可以登录到 Power BI 来查看已添加到数据集中的行。
 
 **将数据推送到数据集示例**
 

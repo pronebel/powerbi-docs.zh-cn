@@ -7,14 +7,14 @@ ms.reviewer: lukaszp
 ms.service: powerbi
 ms.subservice: pbi-collaborate-share
 ms.topic: how-to
-ms.date: 04/27/2020
+ms.date: 01/04/2021
 LocalizationGroup: Share your work
-ms.openlocfilehash: a7f8c6d52acff8cbaaa00004448a3fae300afb9b
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: cf056581c7c1f472e1e7ce20baf3d7afd8815bda
+ms.sourcegitcommit: eeaf607e7c1d89ef7312421731e1729ddce5a5cc
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96411899"
+ms.lasthandoff: 01/05/2021
+ms.locfileid: "97885998"
 ---
 # <a name="embed-a-report-in-a-secure-portal-or-website"></a>在安全门户或网站中嵌入报表
 
@@ -26,11 +26,11 @@ ms.locfileid: "96411899"
 
 1. 在 Power BI 服务中打开报表。
 
-2. 在“更多选项(...)”菜单中，选择“嵌入” >  “网站或门户”。
+2. 在“共享”菜单上，选择“嵌入报表” >  “网站或门户”  。
 
     ![网站或门户选项](media/service-embed-secure/power-bi-more-options-website.png)
 
-2. 选择“嵌入”选项将打开一个对话框，该对话框提供一个链接和一个可用于安全嵌入报表的 iFrame。
+2. 在“保护嵌入代码”对话框中，在 iFrame 中选择“可用于嵌入此内容的链接”，或选择“可粘贴到博客或网站的 HTML”  。
 
     ![“嵌入”选项对话框](media/service-embed-secure/secure-embed-code-dialog.png)
 

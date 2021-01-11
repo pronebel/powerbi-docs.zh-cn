@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi
 ms.topic: conceptual
 ms.date: 03/02/2020
-ms.openlocfilehash: 19fe2aa003c3d39169bc449dab83c09702f49b1d
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: b9cff6a4a59db3a30fc4bbe2373a723700d00fee
+ms.sourcegitcommit: eeaf607e7c1d89ef7312421731e1729ddce5a5cc
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96419144"
+ms.lasthandoff: 01/05/2021
+ms.locfileid: "97885007"
 ---
 # <a name="one-to-one-relationship-guidance"></a>一对一关系指南
 
@@ -99,11 +99,11 @@ Sales Order  表通过以下三列为报表作者提供丰富体验：Sales Orde
 - 限制创建层次结构的功能，因为它们的级别必须以相同表  中的列为依据
 - 在表之间的行不完全匹配时导致意外结果出现
 
-具体建议因一对一关系是岛内  还是岛间  而异。 若要详细了解关系计算，请参阅 [Power BI Desktop 中的模型关系（关系计算）](../transform-model/desktop-relationships-understand.md#relationship-evaluation)。
+具体建议因一对一关系是源组内还是跨源组而异 。 若要详细了解关系计算，请参阅 [Power BI Desktop 中的模型关系（关系计算）](../transform-model/desktop-relationships-understand.md#relationship-evaluation)。
 
-### <a name="intra-island-one-to-one-relationship"></a>岛内一对一关系
+### <a name="intra-source-group-one-to-one-relationship"></a>源组内一对一关系
 
-如果表之间有岛内  一对一关系，建议将数据合并到一个模型表中。 这是通过合并 Power Query 查询来完成的。
+如果表之间是一对一源组内关系，建议将数据合并到一个模型表中。 这是通过合并 Power Query 查询来完成的。
 
 下面的步骤提供了一种方法来合并和建模一对一关联数据：
 
@@ -131,11 +131,11 @@ Sales Order  表通过以下三列为报表作者提供丰富体验：Sales Orde
 
 ![“字段”窗格在“Marketing”显示文件夹内显示“Category”字段。](media/relationships-one-to-one/product-to-product-category-fields-pane-consolidated-display-folder.png)
 
-如果你仍决定在模型中定义一对一岛内关系，请尽可能确保关联表中有匹配行。 由于一对一岛内关系被评估为[常规关系](../transform-model/desktop-relationships-understand.md#regular-relationships)，因此数据完整性问题可能会在报表视觉对象中作为 BLANK 出现。 （例如，本文中显示的第一个表视觉对象中就有 BLANK 分组。）
+如果你仍决定在模型中定义一对一源组内关系，请尽可能确保关联表中有匹配行。 由于一对一源组内关系被评估为[常规关系](../transform-model/desktop-relationships-understand.md#regular-relationships)，因此数据完整性问题可能会在报表视觉对象中显示为空白。 （例如，本文中显示的第一个表视觉对象中就有 BLANK 分组。）
 
-### <a name="inter-island-one-to-one-relationship"></a>岛间一对一关系
+### <a name="cross-source-group-one-to-one-relationship"></a>跨源组一对一关系
 
-如果表之间有岛间  一对一关系，除非预先合并数据源中的数据，否则没有替换模型设计。 Power BI 会将一对一模型关系评估为[有限关系](../transform-model/desktop-relationships-understand.md#limited-relationships)。 因此，请注意确保关联表中有匹配行，因为不匹配的行会从查询结果中删除。
+如果表之间是一对一跨源组关系，除非预先合并数据源中的数据，否则没有替换模型设计。 Power BI 会将一对一模型关系评估为[有限关系](../transform-model/desktop-relationships-understand.md#limited-relationships)。 因此，请注意确保关联表中有匹配行，因为不匹配的行会从查询结果中删除。
 
 现在来看看添加有这两个表（之间存在有限关系）中的字段的表视觉对象是什么样的。
 

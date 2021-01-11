@@ -1,6 +1,6 @@
 ---
-title: 视觉对象 API
-description: 本文介绍了如何将 IVisual API 用于 Power BI 视觉对象
+title: Power BI 嵌入式分析中用于增强嵌入式 BI 见解的视觉对象 API
+description: 本文介绍如何将视觉对象 API 用于 Power BI 视觉对象。 使用 Power BI 嵌入式分析改进嵌入式 BI 见解。
 author: KesemSharabi
 ms.author: kesharab
 ms.reviewer: sranins
@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: reference
 ms.date: 03/19/2020
-ms.openlocfilehash: 6ec30fdd4812427ae855ff9a167d946d2a415c28
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 7b81ecfa1b97b202b6c1ff306cf858f2ea00acde
+ms.sourcegitcommit: eeaf607e7c1d89ef7312421731e1729ddce5a5cc
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83302957"
+ms.lasthandoff: 01/05/2021
+ms.locfileid: "97888526"
 ---
 # <a name="visual-api"></a>视觉对象 API
 所有视觉对象都以实现 `IVisual` 接口的类开头。 只要有一个实现 `IVisual` 接口的类，你就可以按需命名这个类。

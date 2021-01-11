@@ -1,6 +1,6 @@
 ---
-title: Power BI 嵌入式分析中的容量和 SKU
-description: 了解 Power BI 嵌入式分析中的容量和 SKU。
+title: Power BI 嵌入式分析中用于增强嵌入式 BI 见解的容量和 SKU
+description: 了解 Power BI 嵌入式分析中的容量和 SKU。 使用 Power BI 嵌入式分析改进嵌入式 BI 见解。
 author: KesemSharabi
 ms.author: kesharab
 ms.reviewer: ''
@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 05/17/2020
-ms.openlocfilehash: 4102ed7307c9b7be40fb682befc4056094cbe6ad
-ms.sourcegitcommit: 4ac9447d1607dfca2e60948589f36a3d64d31cb4
+ms.openlocfilehash: 7ff6ada14128a6231b84adf83d90b3871e1c7537
+ms.sourcegitcommit: eeaf607e7c1d89ef7312421731e1729ddce5a5cc
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/29/2020
-ms.locfileid: "92916926"
+ms.lasthandoff: 01/05/2021
+ms.locfileid: "97888802"
 ---
 # <a name="capacity-and-skus-in-power-bi-embedded-analytics"></a>Power BI 嵌入式分析中的容量和 SKU
 

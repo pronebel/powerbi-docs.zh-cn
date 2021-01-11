@@ -1,6 +1,6 @@
 ---
-title: Power BI 视觉对象交互 utils
-description: 本文介绍如何通过使用交互 utils 向 Power BI 视觉对象添加选择
+title: Power BI 嵌入式分析中用于增强嵌入式 BI 见解的 Power BI 视觉对象交互式 utils
+description: 本文介绍如何通过使用交互式 utils 向 Power BI 视觉对象添加选择。 使用 Power BI 嵌入式分析改进嵌入式 BI 见解。
 author: KesemSharabi
 ms.author: kesharab
 ms.reviewer: rkarlin
@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: reference
 ms.date: 02/24/2020
-ms.openlocfilehash: f4d47347c98d19afdfbf07615842bfb4649dc1b9
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 533cf90ed9192a8d9e595cdea6320207b841b559
+ms.sourcegitcommit: eeaf607e7c1d89ef7312421731e1729ddce5a5cc
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "79379251"
+ms.lasthandoff: 01/05/2021
+ms.locfileid: "97887767"
 ---
 # <a name="power-bi-visuals-interactivity-utils"></a>Power BI 视觉对象交互 utils
 
@@ -186,7 +186,7 @@ ms.locfileid: "79379251"
     }
     ```
 
-5. 若要处理元素单击，请调用 d3  选择对象 `on` 方法。 这也适用于 `elementsSelection` 和 `clearCatcherSelection`。
+5. 若要处理元素单击，请调用 d3 选择对象 `on` 方法。 这也适用于 `elementsSelection` 和 `clearCatcherSelection`。
 
     ```typescript
     protected bindClick() {
@@ -270,8 +270,8 @@ ms.locfileid: "79379251"
     });
     ```
 
-    * `selectionMerge` 是 d3  选择对象，表示视觉对象的所有可选择元素。
-    * `select(this.target)` 是 d3  选择对象，表示视觉对象的主要 DOM 元素。
+    * `selectionMerge` 是 d3 选择对象，表示视觉对象的所有可选择元素。
+    * `select(this.target)` 是 d3 选择对象，表示视觉对象的主要 DOM 元素。
     * `this.categories` 是包含元素的数据点，其中接口为 `VisualDataPoint` 或 `categories: VisualDataPoint[];`。
     * `this.behavior` 是在视觉对象的构造函数中新建的 `visual behavior` 实例，如下所示。
 

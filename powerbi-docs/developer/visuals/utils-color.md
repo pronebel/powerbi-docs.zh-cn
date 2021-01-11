@@ -1,6 +1,6 @@
 ---
-title: 关于在 Power BI 视觉对象中使用颜色 utils 的简介
-description: 本文介绍了如何使用颜色 utils 来简化对 Power BI 视觉对象的数据点应用主题和调色板
+title: 关于在 Power BI 嵌入式分析的 Power BI 视觉对象中使用颜色 utils 以增强嵌入式 BI 见解的介绍
+description: 本文介绍了如何使用颜色 utils 来简化对 Power BI 视觉对象的数据点应用主题和调色板。 使用 Power BI 嵌入式分析改进嵌入式 BI 见解。
 author: KesemSharabi
 ms.author: kesharab
 ms.reviewer: sranins
@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: reference
 ms.date: 02/14/2020
-ms.openlocfilehash: 8de530871739a18c1afc72cee3e0da5fc70ebb16
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: cc75188d806d653766860b2fada9028477a75f71
+ms.sourcegitcommit: eeaf607e7c1d89ef7312421731e1729ddce5a5cc
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "79379343"
+ms.lasthandoff: 01/05/2021
+ms.locfileid: "97887836"
 ---
 # <a name="color-utils"></a>颜色 utils
 阅读本文有助于安装、导入和使用颜色 utils。 本文介绍了如何使用颜色 utils 来简化对 Power BI 视觉对象的数据点应用主题和调色板。
@@ -26,7 +26,7 @@ ms.locfileid: "79379343"
 
 ## <a name="installation"></a>安装
 
-要安装包，应在目录中运行以下命令和当前的视觉对象：
+要安装包，应在包含当前视觉对象的目录中运行以下命令：
 
 ```bash
 npm install powerbi-visuals-utils-colorutils --save
@@ -236,7 +236,7 @@ hexToRGBString('#112233');
 // returns: "rgb(17,34,51)"
 ```
 
-### <a name="rotate"></a>rotate
+### <a name="rotate"></a>旋转
 旋转 RGB 颜色。
 
 ```typescript

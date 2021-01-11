@@ -1,6 +1,6 @@
 ---
-title: Power BI REST API 限制
-description: Power BI REST API 具有以下限制
+title: Power BI 嵌入式分析中用于增强嵌入式 BI 见解的 Power BI REST API 限制
+description: Power BI REST API 具有以下限制。 使用 Power BI 嵌入式分析改进嵌入式 BI 见解。
 author: KesemSharabi
 ms.author: kesharab
 ms.reviewer: ''
@@ -8,16 +8,16 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 06/08/2018
-ms.openlocfilehash: de9fd241959b679a0da7926cd6b2254689afbfd2
-ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
+ms.openlocfilehash: 1196917f0223ccde012d203d75c4e96fbc3b9dcf
+ms.sourcegitcommit: eeaf607e7c1d89ef7312421731e1729ddce5a5cc
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/06/2020
-ms.locfileid: "91747266"
+ms.lasthandoff: 01/05/2021
+ms.locfileid: "97887652"
 ---
 # <a name="power-bi-rest-api-limitations"></a>Power BI REST API 限制  
   
-**POST 行**
+**发布行**
   
 * 最多 75 列
 * 最多 75 个表

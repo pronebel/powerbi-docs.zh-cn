@@ -9,13 +9,13 @@ ms.service: powerbi
 ms.subservice: pbi-collaborate-share
 ms.topic: how-to
 LocalizationGroup: Share your work
-ms.date: 06/28/2020
-ms.openlocfilehash: 6a1f8a69db20d44fc814c7e63e4ad13ed5fc955c
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.date: 01/04/2021
+ms.openlocfilehash: e4d31a7bf83d4e94e2f3b71ca43924d468268f76
+ms.sourcegitcommit: eeaf607e7c1d89ef7312421731e1729ddce5a5cc
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96407368"
+ms.lasthandoff: 01/05/2021
+ms.locfileid: "97888389"
 ---
 # <a name="embed-a-report-web-part-in-sharepoint-online"></a>在 SharePoint Online 中嵌入报表 Web 部件
 
@@ -39,9 +39,9 @@ ms.locfileid: "96407368"
 
 ### <a name="get-a-report-url"></a>获取报表 URL
 
-1. 在 Power BI 中查看报表。
+1. 在 Power BI 服务中打开报表。
 
-2. 在“更多选项 (...)”下拉菜单中，选择“嵌入” > “SharePoint Online”。
+2. 在“共享”菜单上，选择“嵌入报表” > “SharePoint Online”  。
 
     ![SharePoint Online 中的“更多选项”菜单](media/service-embed-report-spo/power-bi-more-options-sharepoint-online.png)
 

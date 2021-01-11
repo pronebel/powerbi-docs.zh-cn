@@ -1,6 +1,6 @@
 ---
-title: 注册应用以将 Power BI 内容嵌入到嵌入式分析应用程序中
-description: 了解如何在 Azure Active Directory 中注册应用程序，用于嵌入 Power BI 内容。
+title: 注册应用以将 Power BI 内容嵌入到 Power BI 嵌入式分析应用程序中，实现更出色的嵌入式 BI 见解
+description: 了解如何在 Azure Active Directory 中注册应用程序，用于嵌入 Power BI 内容。 使用 Power BI 嵌入式分析改进嵌入式 BI 见解。
 author: KesemSharabi
 ms.author: kesharab
 ms.reviewer: nishalit
@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: how-to
 ms.date: 04/02/2019
-ms.openlocfilehash: 98956beb3e5a106b885ecbca187521f85917f25e
-ms.sourcegitcommit: bbf7e9341a4e1cc96c969e24318c8605440282a5
+ms.openlocfilehash: c30b8f7ebe403e38fa59fa248aacc4b3086bf9ed
+ms.sourcegitcommit: eeaf607e7c1d89ef7312421731e1729ddce5a5cc
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/11/2020
-ms.locfileid: "97098205"
+ms.lasthandoff: 01/05/2021
+ms.locfileid: "97885858"
 ---
 # <a name="register-an-azure-ad-application-to-use-with-power-bi"></a>注册 Azure AD 应用程序以使用 Power BI
 

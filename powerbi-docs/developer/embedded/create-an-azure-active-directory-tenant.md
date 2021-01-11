@@ -1,6 +1,6 @@
 ---
-title: 创建要用于 Power BI 的 Azure Active Directory 租户
-description: 了解如何为调用 Power BI REST API 的自定义应用程序创建新 Azure Active Directory (Azure AD) 租户。
+title: 创建要用于 Power BI 嵌入式分析嵌入式 BI 的 Azure Active Directory 租户
+description: 了解如何为调用 Power BI REST API 的自定义嵌入式分析创建新 Azure Active Directory (Azure AD) 租户以及如何为客户启用嵌入式 BI 智能功能。
 author: KesemSharabi
 ms.author: kesharab
 ms.reviewer: ''
@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: how-to
 ms.date: 05/28/2019
-ms.openlocfilehash: 03ba0a3090a4224cdc97a2f5bdcf80dc4b59dc64
-ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
+ms.openlocfilehash: 24e1d8678234b7b355d99985f8e8a567954d6211
+ms.sourcegitcommit: eeaf607e7c1d89ef7312421731e1729ddce5a5cc
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/06/2020
-ms.locfileid: "91748761"
+ms.lasthandoff: 01/05/2021
+ms.locfileid: "97888986"
 ---
 # <a name="create-an-azure-active-directory-tenant-to-use-with-power-bi"></a>创建要用于 Power BI 的 Azure Active Directory 租户
 

@@ -1,6 +1,6 @@
 ---
-title: supportsMultiVisualSelection 功能
-description: 本文介绍如何在 Power BI 视觉对象中使用 supportsMultiVisualSelection 功能及其要求。
+title: Power BI 嵌入式分析中用于增强嵌入式 BI 见解的 supportsMultiVisualSelection 功能
+description: 本文介绍如何在 Power BI 视觉对象中使用 supportsMultiVisualSelection 功能及其要求。 使用 Power BI 嵌入式分析改进嵌入式 BI 见解。
 author: KesemSharabi
 ms.author: kesharab
 ms.reviewer: sranins
@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: conceptual
 ms.date: 04/30/2020
-ms.openlocfilehash: 091bdeb4eeb4c979ccf0e79476eb081895fae2e1
-ms.sourcegitcommit: 50b21718a167c2b131313b4135c8034c6f027597
+ms.openlocfilehash: 9e6b17a4576f2354a5cbecc0c3a965a5611784ee
+ms.sourcegitcommit: eeaf607e7c1d89ef7312421731e1729ddce5a5cc
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/14/2020
-ms.locfileid: "92049398"
+ms.lasthandoff: 01/05/2021
+ms.locfileid: "97887928"
 ---
 # <a name="use-the-supportsmultivisualselection-feature"></a>使用 supportsMultiVisualSelection 功能
 

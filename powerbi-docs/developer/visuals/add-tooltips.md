@@ -1,6 +1,6 @@
 ---
-title: Power BI 视觉对象中的工具提示
-description: 本文介绍如何在 Power BI 视觉对象中显示工具提示。
+title: Power BI 嵌入式分析的 Power BI 视觉对象中用于增强嵌入式 BI 见解的工具提示
+description: 本文介绍如何在 Power BI 视觉对象中显示工具提示。 使用 Power BI 嵌入式分析改进嵌入式 BI 见解。
 author: KesemSharabi
 ms.author: kesharab
 ms.reviewer: sranins
@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: how-to
 ms.date: 04/09/2020
-ms.openlocfilehash: 60933d1a44cbf83f719c808b658b06009217ff53
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: e3f5486faec033b48ba59b7076d5835035458584
+ms.sourcegitcommit: eeaf607e7c1d89ef7312421731e1729ddce5a5cc
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85239947"
+ms.lasthandoff: 01/05/2021
+ms.locfileid: "97889216"
 ---
 # <a name="tooltips-in-power-bi-visuals"></a>Power BI 视觉对象中的工具提示
 
@@ -189,7 +189,7 @@ BarChart 类添加了成员 `getTooltipData`，后者只是将数据点的 `cate
 
 ## <a name="add-report-page-tooltips"></a>添加报表页工具提示
 
-要添加报表页工具提示支持，大多数更改将发生在 capabilities.json 文件中  。
+要添加报表页工具提示支持，大多数更改将发生在 capabilities.json 文件中。
 
 示例架构是
 
@@ -207,7 +207,7 @@ BarChart 类添加了成员 `getTooltipData`，后者只是将数据点的 `cate
 }
 ```
 
-可以在“格式”窗格中定义报表页工具提示  。
+可以在“格式”窗格中定义报表页工具提示。
 
 ![报表页工具提示](media/add-tooltips/report-page-tooltips.png)
 

@@ -1,6 +1,6 @@
 ---
-title: 创建数据集
-description: 演练 - 将数据推送到数据集 - 在 Power BI 中创建数据集
+title: 在 Power BI 嵌入式分析中创建数据集以增强嵌入式 BI 见解
+description: 演练 - 将数据推送到数据集 - 在 Power BI 中创建数据集。 使用 Power BI 嵌入式分析改进嵌入式 BI 见解。
 author: KesemSharabi
 ms.author: kesharab
 ms.reviewer: madia
@@ -8,19 +8,19 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: tutorial
 ms.date: 02/05/2019
-ms.openlocfilehash: d782ee1d7a3fd137624054ee9e2bca0247ddb5ea
-ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
+ms.openlocfilehash: e2f1bbd1503ca4adeac626d02fc7bf3e41baa9b5
+ms.sourcegitcommit: eeaf607e7c1d89ef7312421731e1729ddce5a5cc
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/06/2020
-ms.locfileid: "91748876"
+ms.lasthandoff: 01/05/2021
+ms.locfileid: "97887491"
 ---
 # <a name="step-3-create-a-dataset-in-power-bi"></a>步骤 3：在 Power BI 中创建数据集
 本文是[将数据推送到数据集](walkthrough-push-data.md)的分步演练的一部分。
 
-在将数据推送到数据集的**步骤 2**（[获取身份验证访问令牌](walkthrough-push-data-get-token.md)）中，你获得一个对 **Azure AD** 进行身份验证的令牌。 在此步骤中，使用该令牌调用 [PostDataset](/rest/api/power-bi/pushdatasets) 操作。
+在将数据推送到数据集的 **步骤 2**（[获取身份验证访问令牌](walkthrough-push-data-get-token.md)）中，你获得一个对 **Azure AD** 进行身份验证的令牌。 在此步骤中，使用该令牌调用 [PostDataset](/rest/api/power-bi/pushdatasets) 操作。
 
-若要调用 REST 资源，需用定位该资源的 URL，并向 Power BI 服务资源发送描述数据集的 JavaScript 对象表示法 (JSON) 字符串。 REST 资源可标识你想使用的 Power BI 服务的部分。 要将数据推送到数据集，目标资源为**数据集**。 标识数据集的 URL 是 `https://api.PowerBI.com/v1.0/myorg/datasets`。 如果你正在推送组内的数据，该 URL 为 `https://api.PowerBI.com/v1.0/myorg/groups/{group_id}/datasets`。
+若要调用 REST 资源，需用定位该资源的 URL，并向 Power BI 服务资源发送描述数据集的 JavaScript 对象表示法 (JSON) 字符串。 REST 资源可标识你想使用的 Power BI 服务的部分。 要将数据推送到数据集，目标资源为 **数据集**。 标识数据集的 URL 是 `https://api.PowerBI.com/v1.0/myorg/datasets`。 如果你正在推送组内的数据，该 URL 为 `https://api.PowerBI.com/v1.0/myorg/groups/{group_id}/datasets`。
 
 若要对 Power BI REST 操作进行身份验证，请将[获取身份验证访问令牌](walkthrough-push-data-get-token.md)中获得的令牌添加到请求头中：
 
@@ -36,9 +36,9 @@ ms.locfileid: "91748876"
 > 
 > 
 
-1. 在[步骤 2 - 获取身份验证访问令牌](walkthrough-push-data-get-token.md)中创建的控制台应用程序项目中，将 **using System.Net;** 和 **using System.IO;** 添加到 Program.cs。
+1. 在 [步骤 2 - 获取身份验证访问令牌](walkthrough-push-data-get-token.md)中创建的控制台应用程序项目中，将 **using System.Net;** 和 **using System.IO;** 添加到 Program.cs。
 2. 在 Program.cs 中，添加以下代码。
-3. 运行控制台应用，并登录到你的 Power BI 帐户。 应该可以在控制台窗口中看到**已创建的数据集**。 此外，还可以登录到 Power BI 查看新的数据集。
+3. 运行控制台应用，并登录到你的 Power BI 帐户。 应该可以在控制台窗口中看到 **已创建的数据集**。 此外，还可以登录到 Power BI 查看新的数据集。
 
 **将数据推送到数据集示例**
 

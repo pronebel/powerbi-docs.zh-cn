@@ -1,6 +1,6 @@
 ---
-title: 将外部库添加到 Power BI 视觉对象
-description: 本文介绍了如何在 Power BI 视觉对象中使用外部库。
+title: 在 Power BI 嵌入式分析中向 Power BI 视觉对象添加外部库以增强嵌入式 BI 见解
+description: 本文介绍了如何在 Power BI 视觉对象中使用外部库。 使用 Power BI 嵌入式分析改进嵌入式 BI 见解。
 author: KesemSharabi
 ms.author: kesharab
 ms.reviewer: sranins
@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: conceptual
 ms.date: 02/24/2020
-ms.openlocfilehash: 9df111e7545c43fe9b75784b1a95df4f37fd01e7
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: b9a443040384e4d38bd7440eae0a5582cc422836
+ms.sourcegitcommit: eeaf607e7c1d89ef7312421731e1729ddce5a5cc
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "80114120"
+ms.lasthandoff: 01/05/2021
+ms.locfileid: "97889170"
 ---
 # <a name="adding-external-libraries"></a>添加外部库
 
@@ -21,7 +21,7 @@ ms.locfileid: "80114120"
 
 ## <a name="javascript-libraries"></a>JavaScript 库
 
-1. 使用任意包管理器（如 npm  或 yarn  ）安装外部 JavaScript 库。
+1. 使用任意包管理器（如 npm 或 yarn）安装外部 JavaScript 库。
 2. 将必需模块导入使用外部库的源文件中。
 
 >[!NOTE]
@@ -33,14 +33,14 @@ ms.locfileid: "80114120"
 
 有关完整示例，请参阅 [Power BI 可视化效果](https://github.com/microsoft/powerbi-visuals-gantt/blob/master/src/gantt.ts#L29)代码。
 
-1. 安装 d3  包和 d3 types  包。
+1. 安装 d3 包和 d3 types 包。
 
     ```powershell
     npm install d3@5 --save
     npm install @types/d3@5 --save
     ```
 
-2. 将 d3  库导入使用它的文件（如 `visual.ts`）中。
+2. 将 d3 库导入使用它的文件（如 `visual.ts`）中。
 
     ```typescript
     import * as d3 from "d3";
@@ -48,7 +48,7 @@ ms.locfileid: "80114120"
 
 ## <a name="css-framework"></a>CSS 框架
 
-1. 使用任意包管理器（如 npm  或 yarn  ）安装外部 CSS 框架。
+1. 使用任意包管理器（如 npm 或 yarn）安装外部 CSS 框架。
 2. 在视觉对象的 `.less` 文件中，添加 `import` 语句。
 
 ### <a name="installing-bootstrap"></a>安装 bootstrap
@@ -57,7 +57,7 @@ ms.locfileid: "80114120"
 
 有关完整示例，请参阅 [Power BI 可视化效果](https://github.com/Microsoft/powerbi-visuals-sankey/blob/c8200da56913cd8b253be949a35fad0f4472b6de/style/visual.less#L32)代码。
 
-1. 安装 bootstrap  包。
+1. 安装 bootstrap 包。
 
     ```powershell
     npm install bootstrap --save

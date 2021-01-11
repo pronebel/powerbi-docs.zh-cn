@@ -1,6 +1,6 @@
 ---
-title: 将数据推送到数据集
-description: 将数据推送到 Power BI 数据集
+title: 在 Power BI 嵌入式分析中将数据推送到数据集以增强嵌入式 BI 见解
+description: 将数据推送到 Power BI 数据集。 使用 Power BI 嵌入式分析改进嵌入式 BI 见解。
 author: KesemSharabi
 ms.author: kesharab
 ms.reviewer: rkarlin
@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: tutorial
 ms.date: 05/22/2019
-ms.openlocfilehash: 792afe42cf302ae552b7f8f1c14d5f232ade320f
-ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
+ms.openlocfilehash: 3c5805f4d498e8e2d8a788c5703a09a8109e024b
+ms.sourcegitcommit: eeaf607e7c1d89ef7312421731e1729ddce5a5cc
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/06/2020
-ms.locfileid: "91746691"
+ms.lasthandoff: 01/05/2021
+ms.locfileid: "97887422"
 ---
 # <a name="push-data-into-a-power-bi-dataset"></a>将数据推送到 Power BI 数据集
 
@@ -23,10 +23,10 @@ ms.locfileid: "91746691"
 
 ## <a name="steps-to-push-data-into-a-dataset"></a>将数据推送到数据集的步骤
 
-* 步骤 1：[使用 Azure AD 注册应用](../embedded/register-app.md)
+* 步骤 1：[将应用注册到 Azure AD](../embedded/register-app.md)
 * 步骤 2：[获取身份验证访问令牌](walkthrough-push-data-get-token.md)
 * 步骤 3：[在 Power BI 中创建数据集](walkthrough-push-data-create-dataset.md)
-* 步骤 4：[获取数据集以将行添加到 Power BI 表](walkthrough-push-data-get-datasets.md)
+* 步骤 4：[获取数据集以向 Power BI 表中添加行](walkthrough-push-data-get-datasets.md)
 * 步骤 5：[向 Power BI 表中添加行](walkthrough-push-data-add-rows.md)
 
 下一部分是关于推送数据的 Power BI API 操作的一般讨论。
@@ -60,7 +60,7 @@ ms.locfileid: "91746691"
 }
 ```
 
-对于我们的“销售与市场营销”数据集示例，将传递如下所示的 JSON 字符串。 在此示例中，“SalesMarketing”是该数据集名称，“Product”是表名称。   定义表后，再定义表架构。 对于 SalesMarketing  数据集，表架构包含以下列：ProductID、制造商、类别、段、产品和 IsCompete。
+对于我们的“销售与市场营销”数据集示例，将传递如下所示的 JSON 字符串。 在此示例中，“SalesMarketing”是该数据集名称，“Product”是表名称。 定义表后，再定义表架构。 对于 **SalesMarketing** 数据集，表架构具有这些列：ProductID、制造商、类别、市场细分、产品和 IsCompete。
 
 **数据集对象 JSON 示例**
 
@@ -108,9 +108,9 @@ ms.locfileid: "91746691"
 | **数据类型** | **限制** |
 | --- | --- |
 | Int64 |不允许使用 Int64.MaxValue 和 Int64.MinValue。 |
-| 双精度 |不允许使用 Double.MaxValue 和 Double.MinValue 值。 不支持 NaN。某些函数（例如 Min、Max）中不支持使用正无穷和负无穷。 |
+| Double |不允许使用 Double.MaxValue 和 Double.MinValue 值。 不支持 NaN。某些函数（例如 Min、Max）中不支持使用正无穷和负无穷。 |
 | 布尔 |无 |
-| 日期时间 |在数据加载期间，我们将不足一天的值量化为 1/300 秒（3.33 毫秒）的整数倍。 |
+| datetime |在数据加载期间，我们将不足一天的值量化为 1/300 秒（3.33 毫秒）的整数倍。 |
 | 字符串 |当前允许最多 12.8 万个字符。 |
 
 ## <a name="learn-more-about-pushing-data-into-power-bi"></a>了解有关将数据推送到 Power BI 的详细信息

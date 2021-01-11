@@ -1,6 +1,6 @@
 ---
-title: Power BI 视觉对象的提交测试
-description: 本文介绍了在发布到 AppSource 之前视觉对象必须通过的测试用例。 还有选项测试用例。
+title: Power BI 嵌入式分析中用于增强嵌入式 BI 见解的 Power BI 视觉对象提交测试
+description: 本文介绍了在发布到 AppSource 之前视觉对象必须通过的测试用例。 还有选项测试用例。 使用 Power BI 嵌入式分析改进嵌入式 BI 见解。
 author: KesemSharabi
 ms.author: kesharab
 ms.reviewer: sranins
@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: how-to
 ms.date: 04/15/2020
-ms.openlocfilehash: 515813aeb98010f838cfff75febbb1ef206bc2cf
-ms.sourcegitcommit: 37bd34053557089c4fbf0e05f78e959609966561
+ms.openlocfilehash: b5054d821dc797f1606fea8ec5d0bb43569a57e5
+ms.sourcegitcommit: eeaf607e7c1d89ef7312421731e1729ddce5a5cc
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/10/2020
-ms.locfileid: "94397475"
+ms.lasthandoff: 01/05/2021
+ms.locfileid: "97888457"
 ---
 # <a name="submission-testing-of-a-power-bi-visual"></a>Power BI 视觉对象的提交测试
 

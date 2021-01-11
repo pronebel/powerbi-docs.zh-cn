@@ -1,6 +1,6 @@
 ---
-title: 添加向下钻取支持
-description: 本文介绍了如何将向下钻取支持添加到 Power BI 视觉对象
+title: 在 Power BI 嵌入式分析中添加向下钻取支持，以增强嵌入式 BI 见解
+description: 本文介绍了如何将向下钻取支持添加到 Power BI 视觉对象。 使用 Power BI 嵌入式分析改进嵌入式 BI 见解。
 author: KesemSharabi
 ms.author: kesharab
 manager: rkarlin
@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: how-to
 ms.date: 06/18/2019
-ms.openlocfilehash: 602c13964e5364f9d21ec4e761fd42ea8d3e85f7
-ms.sourcegitcommit: 9d033abd9c01a01bba132972497dda428d7d5c12
+ms.openlocfilehash: 40c8d7f362ca461b4295507c0ddff8db4bcc3509
+ms.sourcegitcommit: eeaf607e7c1d89ef7312421731e1729ddce5a5cc
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/24/2020
-ms.locfileid: "95514116"
+ms.lasthandoff: 01/05/2021
+ms.locfileid: "97885445"
 ---
 # <a name="add-drill-down-support"></a>添加向下钻取支持
 
@@ -209,7 +209,7 @@ button {
 
 |   H1  |   H2    | H3  |   VALUES  |
 |-----|-----|------|-------|
-|   A   |    A1  |    A11 |    第 1 个   |
+|   A   |    A1  |    A11 |    1   |
 |   A    |    A1    |    A12    |    2    |
 |   A    |    A2    |    A21    |    3    |
 |   A    |    A2    |    A22    |    4    |
@@ -324,7 +324,7 @@ export class Visual implements IVisual {
 
 |   行 1   |   行 2   |   行 3   |   Column1   |   Column2   |   Column3   |   值   |
 |-----|-----|------|-------|-------|-------|-------|
-|   R1   |   R11   |   R111   |   C1   |   C11   |   C111   |   第 1 个   |
+|   R1   |   R11   |   R111   |   C1   |   C11   |   C111   |   1   |
 |   R1   |   R11   |   R112   |   C1   |   C11   |   C112   |   2   |
 |   R1   |   R11   |   R113   |   C1   |   C11   |   C113   |   3   |
 |   R1   |   R12   |   R121   |   C1   |   C12   |   C121   |   4   |

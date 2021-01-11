@@ -1,6 +1,6 @@
 ---
-title: 对 Power BI 嵌入式分析的 Multi-Geo 支持
-description: 了解如何将内容部署到除 Power BI Embedded 主区域以外区域的数据中心。
+title: Power BI 嵌入式分析中用于增强嵌入式 BI 见解的多地理位置支持
+description: 了解如何将内容部署到除 Power BI 嵌入式分析解决方案主区域以外区域的数据中心。 使用多地理位置支持为客户提供更出色的嵌入式 BI 见解。
 author: KesemSharabi
 ms.author: kesharab
 ms.reviewer: nishalit
@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: how-to
 ms.date: 02/05/2019
-ms.openlocfilehash: 1868bab823408377ab600146b21592d902b59ff6
-ms.sourcegitcommit: bbf7e9341a4e1cc96c969e24318c8605440282a5
+ms.openlocfilehash: 4b9aacb460966f633161238cae82ba6731196ed4
+ms.sourcegitcommit: eeaf607e7c1d89ef7312421731e1729ddce5a5cc
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/11/2020
-ms.locfileid: "97098090"
+ms.lasthandoff: 01/05/2021
+ms.locfileid: "97888273"
 ---
 # <a name="multi-geo-support-for-power-bi-embedded"></a>Power BI Embedded 的 Multi-Geo 支持
 

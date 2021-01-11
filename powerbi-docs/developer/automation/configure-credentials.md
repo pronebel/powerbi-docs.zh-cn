@@ -1,6 +1,6 @@
 ---
-title: 以编程方式为 Power BI 配置凭据
-description: 如何在实现 Power BI 自动化时以编程方式配置凭据
+title: 以编程方式为 Power BI 配置凭据以实现更出色的嵌入式 BI 见解
+description: 如何在实现 Power BI 自动化时以编程方式配置凭据。 使用 Power BI 嵌入式分析改进嵌入式 BI 见解。
 author: KesemSharabi
 ms.author: kesharab
 ms.reviewer: ''
@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: how-to
 ms.date: 06/23/2020
-ms.openlocfilehash: 902fb0534eee307a84b24fe30496a32cccadb147
-ms.sourcegitcommit: bbf7e9341a4e1cc96c969e24318c8605440282a5
+ms.openlocfilehash: c87ca689d804c909ca3a6ca9544ac1a4568c8b86
+ms.sourcegitcommit: eeaf607e7c1d89ef7312421731e1729ddce5a5cc
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/11/2020
-ms.locfileid: "97097975"
+ms.lasthandoff: 01/05/2021
+ms.locfileid: "97887629"
 ---
 # <a name="configure-credentials-programmatically-for-power-bi"></a>以编程方式为 Power BI 配置凭据
 

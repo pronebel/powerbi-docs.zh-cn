@@ -1,6 +1,6 @@
 ---
-title: 获取数据集以添加行
-description: 推送数据 - 获取数据集以将行添加到 Power BI 表演练
+title: 在 Power BI 嵌入式分析中获取数据集以添加行，从而改进嵌入式 BI 见解
+description: 推送数据 - 获取数据集以将行添加到 Power BI 表演练。 使用 Power BI 嵌入式分析改进嵌入式 BI 见解。
 author: KesemSharabi
 ms.author: kesharab
 ms.reviewer: madia
@@ -8,35 +8,35 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: tutorial
 ms.date: 02/05/2019
-ms.openlocfilehash: a150666eafd8dc11b573150455775d2ecf6f7f1b
-ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
+ms.openlocfilehash: e1be761f68dfcd58de8623618acd859694b95bde
+ms.sourcegitcommit: eeaf607e7c1d89ef7312421731e1729ddce5a5cc
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/06/2020
-ms.locfileid: "91748301"
+ms.lasthandoff: 01/05/2021
+ms.locfileid: "97887445"
 ---
-# <a name="step-4-get-a-dataset-to-add-rows-into-a-power-bi-table"></a>步骤 4：获取数据集以将行添加到 Power BI 表
+# <a name="step-4-get-a-dataset-to-add-rows-into-a-power-bi-table"></a>步骤 4：获取数据集以向 Power BI 表中添加行
 
 本文是[将数据推送到数据集](walkthrough-push-data.md)的分步演练的一部分。
 
-在将数据推送到数据集的**步骤 3**（[在 Power BI 中创建数据集](walkthrough-push-data-create-dataset.md)）中，你调用了[创建数据集](/rest/api/power-bi/datasets)操作以在 Power BI 中创建数据集。 在此步骤中，你将使用[获取数据集](/rest/api/power-bi/datasets/getdatasets)操作和 Newtonsoft.Json 来获取数据集 ID。在步骤 4 中使用数据集 ID 向数据集添加行。 
+在将数据推送到数据集的 **步骤 3**（[在 Power BI 中创建数据集](walkthrough-push-data-create-dataset.md)）中，你调用了 [创建数据集](/rest/api/power-bi/datasets)操作以在 Power BI 中创建数据集。 在此步骤中，你将使用[获取数据集](/rest/api/power-bi/datasets/getdatasets)操作和 Newtonsoft.Json 来获取数据集 ID。在步骤 4 中使用数据集 ID 向数据集添加行。 
 
-要将数据推送到 Power BI 数据集，需要引用数据集中的表。 要引用数据集中的表，首先需要获取**数据集 ID**。 使用[获取数据集](/rest/api/power-bi/datasets/getdatasets)操作获取数据集 ID  。 “获取数据集”  操作将返回一个 JSON 字符串，它包含 Power BI 中所有数据集的列表。 对 JSON 字符串进行反序列化的推荐的方法是使用 [Newtonsoft.Json](https://www.newtonsoft.com/json)。
+要将数据推送到 Power BI 数据集，需要引用数据集中的表。 要引用数据集中的表，首先需要获取 **数据集 ID**。 使用[获取数据集](/rest/api/power-bi/datasets/getdatasets)操作获取数据集 ID。 “获取数据集”操作将返回一个 JSON 字符串，它包含 Power BI 中所有数据集的列表。 对 JSON 字符串进行反序列化的推荐的方法是使用 [Newtonsoft.Json](https://www.newtonsoft.com/json)。
 
 下面介绍如何获取数据集。
 
 ## <a name="get-a-power-bi-dataset"></a>获取 Power BI 数据集
 
-> **注意：** 在开始之前，先确保已按[将数据推送到数据集](walkthrough-push-data.md)演练中之前的步骤进行了操作。
+> **注意**：在开始之前，先确保已按 [将数据推送到数据集](walkthrough-push-data.md)演练中之前的步骤进行了操作。
 
-1. 在步骤 2 中创建的控制台应用程序项目中：推送数据演练，[获取身份验证访问令牌](walkthrough-push-data-get-token.md)，安装 Newtonsoft.Json NuGet 包。 下面介绍了安装此程序包的方法：
+1. 在步骤 2：推送数据 - [获取身份验证访问令牌](walkthrough-push-data-get-token.md)演练中创建的控制台应用程序项目中，安装 Newtonsoft.Json NuGet 包。 下面介绍了安装此程序包的方法：
 
-     a. 在 Visual Studio 2015 中，选择**工具** > **NuGet 包管理器** > **程序包管理器控制台**。
+     a. 在 Visual Studio 2015 中，选择 **工具** > **NuGet 包管理器** > **程序包管理器控制台**。
 
-     b. 在**包管理器控制台**中，输入 Install-Package Newtonsoft.Json。
+     b. 在 **包管理器控制台** 中，输入 Install-Package Newtonsoft.Json。
 2. 安装包后，将 **using Newtonsoft.Json;** 添加到 Program.cs。
-3. 在 Program.cs 中，添加以下代码以获取**数据集 ID**。
-4. 运行控制台应用，并登录到你的 Power BI 帐户。 应可在控制台窗口中看到**数据集ID:** 后跟 ID。
+3. 在 Program.cs 中，添加以下代码以获取 **数据集 ID**。
+4. 运行控制台应用，并登录到你的 Power BI 帐户。 应可在控制台窗口中看到 **数据集ID:** 后跟 ID。
 
 **获取数据集示例**
 

@@ -1,6 +1,6 @@
 ---
-title: Azure 中 Power BI Embedded 服务的诊断日志记录 | Microsoft Docs
-description: 了解如何在 Azure 中设置 Power BI Embedded 服务的诊断日志记录。
+title: Azure 中 Power BI Embedded 服务的诊断日志记录，用于实现 Power BI 嵌入式分析嵌入式 BI 解决方案
+description: 了解如何在 Azure 中根据 Power BI 嵌入式分析的嵌入式 BI 解决方案设置 Power BI Embedded 服务的诊断日志记录。
 author: KesemSharabi
 ms.author: kesharab
 ms.reviewer: ''
@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 08/13/2018
-ms.openlocfilehash: 4ab6a0d6135fcd2428df03e84596eebf6bba6704
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: c98fbf4aa05a634a6755a77f79c8189226c12eed
+ms.sourcegitcommit: eeaf607e7c1d89ef7312421731e1729ddce5a5cc
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96417350"
+ms.lasthandoff: 01/05/2021
+ms.locfileid: "97887372"
 ---
 # <a name="diagnostic-logging-for-power-bi-embedded-in-azure"></a>Azure 中 Power BI Embedded 的诊断日志记录
 

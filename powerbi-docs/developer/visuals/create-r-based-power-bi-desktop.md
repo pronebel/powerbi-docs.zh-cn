@@ -1,6 +1,6 @@
 ---
-title: 教程：创建 R 驱动的 Power BI 视觉对象
-description: 本教程介绍如何使用 Power BI Desktop 中的 R 脚本编辑器创建基于 R 的 Power BI 视觉对象。
+title: 在 Power BI 嵌入式分析中创建 R 驱动的 Power BI 视觉对象以增强嵌入式 BI 见解
+description: 本教程介绍如何使用 Power BI Desktop 中的 R 脚本编辑器创建基于 R 的 Power BI 视觉对象。 使用 Power BI 嵌入式分析改进嵌入式 BI 见解。
 author: KesemSharabi
 ms.author: kesharab
 ms.reviewer: sranins
@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: how-to
 ms.date: 05/11/2020
-ms.openlocfilehash: 2046dc389b859ce71c4d26cc31cc686f812e461e
-ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
+ms.openlocfilehash: dde18b9945d808cc6b2630bdad4d83768b0e2e8b
+ms.sourcegitcommit: eeaf607e7c1d89ef7312421731e1729ddce5a5cc
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/06/2020
-ms.locfileid: "91749311"
+ms.lasthandoff: 01/05/2021
+ms.locfileid: "97889032"
 ---
 # <a name="tutorial-create-an-r-powered-power-bi-visual"></a>教程：创建 R 驱动的 Power BI 视觉对象
 
@@ -33,7 +33,7 @@ ms.locfileid: "91749311"
 * Power BI Pro 帐户。 开始之前，[请注册免费试用版](https://powerbi.microsoft.com/pricing/)。
 * R 引擎。 可以从很多位置（包括 [Revolution Open 下载页](https://mran.revolutionanalytics.com/download/)和 [CRAN 存储库](https://cran.r-project.org/bin/windows/base/)）免费下载 R。 有关详细信息，请参阅[使用 R 创建 Power BI 视觉对象](../../create-reports/desktop-r-visuals.md)。
 * [Power BI Desktop](../../fundamentals/desktop-get-the-desktop.md)。
-* 对于 Windows 用户，需要 [Windows PowerShell](/powershell/scripting/install/installing-windows-powershell?view=powershell-6) 版本 4 或更高版本，而对于 OSX 用户，则需要[终端](https://macpaw.com/how-to/use-terminal-on-mac)。
+* 对于 Windows 用户，需要 [Windows PowerShell](/powershell/scripting/install/installing-windows-powershell) 版本 4 或更高版本，而对于 OSX 用户，则需要[终端](https://macpaw.com/how-to/use-terminal-on-mac)。
 
 ## <a name="getting-started"></a>入门
 

@@ -1,6 +1,6 @@
 ---
-title: Power BI 视觉对象概念
-description: 本文介绍视觉对象与 Power BI 的集成方式，以及用户如何与 Power BI 中的视觉对象进行交互。
+title: Power BI 嵌入式分析中用于增强嵌入式 BI 见解的 Power BI 视觉对象概念
+description: 本文介绍视觉对象与 Power BI 的集成方式，以及用户如何与 Power BI 中的视觉对象进行交互。 使用 Power BI 嵌入式分析改进嵌入式 BI 见解。
 author: KesemSharabi
 ms.author: kesharab
 manager: rkarlin
@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: conceptual
 ms.date: 06/18/2019
-ms.openlocfilehash: 8971c07b39de5b01b945218659fb8ead711c3f3c
-ms.sourcegitcommit: cc20b476a45bccb870c9de1d0b384e2c39e25d24
+ms.openlocfilehash: 4a6d78e332ae6e6c29b11a4ee79b05718c30f355
+ms.sourcegitcommit: eeaf607e7c1d89ef7312421731e1729ddce5a5cc
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/11/2020
-ms.locfileid: "94511932"
+ms.lasthandoff: 01/05/2021
+ms.locfileid: "97884984"
 ---
 # <a name="power-bi-visuals-system-integration"></a>Power BI 视觉对象系统集成
 

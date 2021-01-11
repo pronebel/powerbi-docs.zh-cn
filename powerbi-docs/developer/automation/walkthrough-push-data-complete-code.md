@@ -1,6 +1,6 @@
 ---
-title: 完整代码清单
-description: 推送数据的演练 - 完整代码清单
+title: Power BI 嵌入式分析中用于增强嵌入式 BI 见解的完整代码清单
+description: 推送数据的演练 - 完整代码清单。 使用 Power BI 嵌入式分析改进嵌入式 BI 见解。
 author: KesemSharabi
 ms.author: kesharab
 ms.reviewer: madia
@@ -8,18 +8,18 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 02/05/2019
-ms.openlocfilehash: f2e421297eb942e6e9a622c91e9d5a074cb042ba
-ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
+ms.openlocfilehash: d478c742112c15c80657ec424f5a4d6739a3c6d7
+ms.sourcegitcommit: eeaf607e7c1d89ef7312421731e1729ddce5a5cc
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/06/2020
-ms.locfileid: "91746484"
+ms.lasthandoff: 01/05/2021
+ms.locfileid: "97887468"
 ---
 # <a name="push-data-to-a-dataset-complete-code-listing"></a>将数据推送到数据集的完整代码清单
 
 本文是[将数据推送到数据集](walkthrough-push-data.md)的分步演练的一部分。
 
-执行**将数据推送到数据集**中的步骤 2 到 5 后，完整源代码应如下所示。
+执行 **将数据推送到数据集** 中的步骤 2 到 5 后，完整源代码应如下所示。
 
 ## <a name="push-data-to-dataset-code"></a>将数据推送到数据集代码
 
@@ -225,7 +225,7 @@ ms.locfileid: "91746484"
 ## <a name="next-steps"></a>后续步骤
 
 * [将数据推送到 Power BI 数据集](walkthrough-push-data.md)
-* [使用 Azure AD 注册应用](../embedded/register-app.md)  
+* [将应用注册到 Azure AD](../embedded/register-app.md)  
 * [获取身份验证访问令牌](walkthrough-push-data-get-token.md)  
 * [在 Power BI 中创建数据集](walkthrough-push-data-create-dataset.md)  
 * [获取数据集以将行添加到 Power BI 表](walkthrough-push-data-get-datasets.md)  

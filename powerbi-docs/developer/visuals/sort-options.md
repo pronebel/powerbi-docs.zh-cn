@@ -1,6 +1,6 @@
 ---
-title: Power BI 视觉对象的排序选项
-description: 本文讨论 Power BI 视觉对象的默认排序行为。
+title: Power BI 嵌入式分析的 Power BI 视觉对象中用于增强嵌入式 BI 见解的排序选项
+description: 本文讨论 Power BI 视觉对象的默认排序行为。 使用 Power BI 嵌入式分析改进嵌入式 BI 见解。
 author: KesemSharabi
 ms.author: kesharab
 ms.reviewer: sranins
@@ -8,16 +8,16 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: reference
 ms.date: 06/18/2019
-ms.openlocfilehash: 3cb8f5af63960667dc46cab1d818ba48943fd582
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 0d24719b486608c283ec73f0188092a1ece3155e
+ms.sourcegitcommit: eeaf607e7c1d89ef7312421731e1729ddce5a5cc
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "79378056"
+ms.lasthandoff: 01/05/2021
+ms.locfileid: "97889239"
 ---
 # <a name="sorting-options-for-power-bi-visuals"></a>Power BI 视觉对象的排序选项
 
-本文介绍了“排序”选项如何指定 Power BI 视觉对象的排序行为  。 
+本文介绍了“排序”选项如何指定 Power BI 视觉对象的排序行为。 
 
 排序功能需要以下参数之一。
 

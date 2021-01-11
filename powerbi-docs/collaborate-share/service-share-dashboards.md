@@ -8,21 +8,21 @@ ms.custom: contperf-fy20q4
 ms.service: powerbi
 ms.subservice: pbi-collaborate-share
 ms.topic: how-to
-ms.date: 06/26/2020
+ms.date: 01/04/2021
 LocalizationGroup: Share your work
-ms.openlocfilehash: 7a85021ee1931b2d5f7c247d7caa4c2813f86a8c
-ms.sourcegitcommit: 7bf09116163afaae312eb2b232eb7967baee2c92
+ms.openlocfilehash: 1069a000daf3f46055f45118f4442e4b19037234
+ms.sourcegitcommit: 932f6856849c39e34229dc9a49fb9379c56a888a
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "97621593"
+ms.lasthandoff: 01/06/2021
+ms.locfileid: "97926747"
 ---
 # <a name="share-power-bi-dashboards-and-reports-with-coworkers-and-others"></a>与同事和其他人共享 Power BI 仪表板和报表
 共享是向授予用户对 Power BI 服务中的仪表板和报表的访问的最简单方法。 可以与组织内外的用户共享。
 
 共享仪表板或报表时，你与之共享的人员可查看并与其交互，但不能编辑它。 他们会看到你在仪表板和报表中看到的相同数据，并且可以访问整个基础数据集，除非向基础数据集应用了行级别安全性 (RLS)。  如果你允许，与之共享的同事还可以与其他同事共享。 组织外的人员可以查看仪表板或报表并与之交互，但不能共享它。 
 
-![共享仪表板列表中的图标](media/service-share-dashboards/power-bi-share-new-look.png)
+![报表的“共享”图标](media/service-share-dashboards/power-bi-share-new-look.png)
 
 可以从 Power BI 服务中的大多数位置共享仪表板和报表：收藏夹、最近访问内容、我的工作区。 如果有其他工作区中的[管理员、成员或参与者角色](service-new-workspaces.md#roles-in-the-new-workspaces)，则还可以从该工作区进行共享。 如果所有者允许，你可以共享“与我共享”中的仪表板和报表。 
 

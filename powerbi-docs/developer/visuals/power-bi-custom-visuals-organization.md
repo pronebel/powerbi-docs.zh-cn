@@ -1,6 +1,6 @@
 ---
-title: Power BI 中的组织视觉对象
-description: 在 Power BI 中使用、管理和创建组织的视觉对象
+title: Power BI 嵌入式分析中用于增强嵌入式 BI 见解的 Power BI 组织视觉对象。
+description: 在 Power BI 中使用、管理和创建组织的视觉对象。 使用 Power BI 嵌入式分析改进嵌入式 BI 见解。
 author: KesemSharabi
 ms.author: kesharab
 ms.reviewer: ''
@@ -9,12 +9,12 @@ ms.subservice: powerbi-custom-visuals
 ms.topic: conceptual
 ms.date: 12/11/2018
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 3746cb038067617fd236e05412412b2c68947508
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: 908225c772aee7e5697ba828c55b96f74c204c1d
+ms.sourcegitcommit: eeaf607e7c1d89ef7312421731e1729ddce5a5cc
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96386449"
+ms.lasthandoff: 01/05/2021
+ms.locfileid: "97888135"
 ---
 # <a name="organizational-visuals-in-power-bi"></a>Power BI 中的组织视觉对象
 

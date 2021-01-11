@@ -1,6 +1,6 @@
 ---
-title: 在 Power BI 视觉对象中启用“同步切片器”功能
-description: 本文介绍如何将同步切片器功能添加到 Power BI 视觉对象中。
+title: 在 Power BI 嵌入式分析的 Power BI 视觉对象中启用“同步切片器”功能以增强嵌入式 BI 见解
+description: 本文介绍如何将同步切片器功能添加到 Power BI 视觉对象中。 使用 Power BI 嵌入式分析改进嵌入式 BI 见解。
 author: KesemSharabi
 ms.author: kesharab
 ms.reviewer: sranins
@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: how-to
 ms.date: 06/18/2019
-ms.openlocfilehash: 4e9989bb7a34a89cb6244a2378d6660a5079fc82
-ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
+ms.openlocfilehash: bd69e05bba3e9449f9fb6f07bd9625dfb1ea0c08
+ms.sourcegitcommit: eeaf607e7c1d89ef7312421731e1729ddce5a5cc
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/06/2020
-ms.locfileid: "91748094"
+ms.lasthandoff: 01/05/2021
+ms.locfileid: "97885260"
 ---
 # <a name="sync-slicers-in-power-bi-visuals"></a>Power BI 视觉对象中的同步切片器
 

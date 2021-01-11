@@ -1,6 +1,6 @@
 ---
-title: 为组织嵌入内容时自动安装 Power BI 应用
-description: 了解如何在为组织嵌入内容时自动安装 Power BI 应用。
+title: 使用 Power BI 嵌入式分析为你的组织嵌入内容时自动安装 Power BI 应用，以创建嵌入式 BI 见解
+description: 了解如何在使用 Power BI 嵌入式分析为你的组织嵌入内容时自动安装 Power BI 应用，以创建嵌入式 BI 见解
 author: KesemSharabi
 ms.author: kesharab
 ms.topic: how-to
@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.custom: ''
 ms.date: 04/16/2019
-ms.openlocfilehash: c9f9a09d659a047ff7342dd0c90f0effe03ce6a1
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: f6418f8a9b927b05b3809032b28a740553ec625c
+ms.sourcegitcommit: eeaf607e7c1d89ef7312421731e1729ddce5a5cc
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96417212"
+ms.lasthandoff: 01/05/2021
+ms.locfileid: "97888917"
 ---
 # <a name="auto-install-power-bi-apps-when-embedding-for-your-organization"></a>在为组织嵌入内容时自动安装 Power BI 应用
 

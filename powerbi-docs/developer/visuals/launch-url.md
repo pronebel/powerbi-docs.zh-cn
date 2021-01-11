@@ -1,6 +1,6 @@
 ---
-title: 创建启动 URL
-description: 本文介绍如何使用 Power BI 视觉对象在新选项卡上打开 URL。
+title: 在 Power BI 嵌入式分析中创建启用 URL 以增强嵌入式 BI 见解
+description: 本文介绍如何使用 Power BI 视觉对象在新选项卡上打开 URL。 使用 Power BI 嵌入式分析改进嵌入式 BI 见解。
 author: KesemSharabi
 ms.author: kesharab
 ms.reviewer: sranins
@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: reference
 ms.date: 06/18/2019
-ms.openlocfilehash: 7e398354ab069bb02554c94312909c0ed835d027
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 6fe9908c324705b8cb00519b4743ae8c052c7ad8
+ms.sourcegitcommit: eeaf607e7c1d89ef7312421731e1729ddce5a5cc
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "79379758"
+ms.lasthandoff: 01/05/2021
+ms.locfileid: "97888296"
 ---
 # <a name="create-a-launch-url"></a>创建启动 URL
 
@@ -55,7 +55,7 @@ this.host.launchUrl('https://some.link.net');
 
 * 仅使用绝对路径，不使用相对路径。 例如，使用绝对路径（如 `https://some.link.net/subfolder/page.html`）。 不会打开相对路径 `/page.html`。
 
-* 目前仅支持 HTTP 和 HTTPS 协议   。 避免使用 FTP、MAILTO 等   。
+* 目前仅支持 HTTP 和 HTTPS 协议。 避免使用 FTP、MAILTO 等。
 
 ## <a name="best-practices"></a>最佳做法
 
@@ -91,7 +91,7 @@ private createHelpLinkElement(): Element {
 };
 ```
 
-最后，visual.less 文件中的一个条目定义链接元素的样式  ：
+最后，visual.less 文件中的一个条目定义链接元素的样式：
 
 ```less
 .helpLink {
@@ -125,9 +125,9 @@ private createHelpLinkElement(): Element {
 
 ### <a name="add-a-toggling-mechanism"></a>添加切换机制
 
-若要添加切换机制，需要添加一个静态对象，以便报表的作者可以切换链接元素的可见性。 （默认设置为“隐藏”。  ）有关详细信息，请参阅[静态对象教程](https://microsoft.github.io/PowerBI-visuals/docs/concepts/objects-and-properties)。
+若要添加切换机制，需要添加一个静态对象，以便报表的作者可以切换链接元素的可见性。 （默认设置为“隐藏”。）有关详细信息，请参阅[静态对象教程](https://microsoft.github.io/PowerBI-visuals/docs/concepts/objects-and-properties)。
 
-`showHelpLink` 布尔静态对象已添加到 capabilities.json 文件的对象条目中，如以下代码所示  ：
+`showHelpLink` 布尔静态对象已添加到 capabilities.json 文件的对象条目中，如以下代码所示：
 
 ```typescript
 "objects": {
@@ -157,4 +157,4 @@ if (settings.generalView.showHelpLink) {
 }
 ```
 
-visual.less 文件中定义了“hidden”类，用于控制元素的显示   。
+visual.less 文件中定义了“hidden”类，用于控制元素的显示。

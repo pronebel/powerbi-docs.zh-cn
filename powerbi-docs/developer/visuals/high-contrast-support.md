@@ -1,23 +1,23 @@
 ---
-title: Power BI 视觉对象中的高对比度模式支持
-description: 本文介绍了如何将高对比度模式支持添加到 Power BI 视觉对象。
+title: Power BI 嵌入式分析的 Power BI 视觉对象中用于增强嵌入式 BI 见解的高对比度模式支持
+description: 本文介绍了如何将高对比度模式支持添加到 Power BI 视觉对象。 使用 Power BI 嵌入式分析改进嵌入式 BI 见解。
 author: KesemSharabi
 ms.author: kesharab
 ms.reviewer: sranins
 ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 06/18/2019
-ms.openlocfilehash: 9372187ae1fdfac27f6b3e7267a1c0622c063464
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: f55427511a76fc65b3ae6b3933dca68ef742039c
+ms.sourcegitcommit: eeaf607e7c1d89ef7312421731e1729ddce5a5cc
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "80114327"
+ms.lasthandoff: 01/05/2021
+ms.locfileid: "97889193"
 ---
 # <a name="high-contrast-mode-support-in-power-bi-visuals"></a>Power BI 视觉对象中的高对比度模式支持
 
-Windows 高对比度设置通过显示更加鲜明的颜色，使文本和应用更易于查看  。 本文介绍了如何将高对比度模式支持添加到 Power BI 视觉对象。 有关详细信息，请参阅 [Power BI 中的高对比度支持](https://powerbi.microsoft.com/blog/power-bi-desktop-june-2018-feature-summary/#highContrast)。
+Windows 高对比度设置通过显示更加鲜明的颜色，使文本和应用更易于查看。 本文介绍了如何将高对比度模式支持添加到 Power BI 视觉对象。 有关详细信息，请参阅 [Power BI 中的高对比度支持](https://powerbi.microsoft.com/blog/power-bi-desktop-june-2018-feature-summary/#highContrast)。
 
 要查看高对比度支持的实现，请转到 [PowerBI-visuals-sampleBarChart 视觉对象存储库](https://github.com/Microsoft/PowerBI-visuals-sampleBarChart/commit/61011c82b66ca0d3321868f1d089c65101ca42e6)。
 
@@ -33,10 +33,10 @@ Windows 高对比度设置通过显示更加鲜明的颜色，使文本和应用
 
 在高对比度模式中，视觉对象应限制为以下设置：
 
-* “前景”色用于绘制任何线条、图标、文本以及形状的轮廓或填充色  。
-* “背景”色用于背景，以及作为轮廓形状的填充色  。
-* “前景 - 选定”颜色用于指示选定或活动元素  。
-* “超链接”颜色仅用于超链接文本  。
+* “前景”色用于绘制任何线条、图标、文本以及形状的轮廓或填充色。
+* “背景”色用于背景，以及作为轮廓形状的填充色。
+* “前景 - 选定”颜色用于指示选定或活动元素。
+* “超链接”颜色仅用于超链接文本。
 
 > [!NOTE]
 > 如果需要辅助颜色，则可使用具有某一不透明度的前景色（Power BI 本机视觉对象使用 40% 的不透明度）。 请保守地使用它，以便于查看视觉对象详细信息。
@@ -88,7 +88,7 @@ Power BI 原生视觉对象遵循以下准则：
 
 下一节将显示 `visualTransform` 函数中为支持高对比度而更改的一个位置。 在更新过程中将其作为呈现的一部分进行调用。
 
-### <a name="before"></a>改进前
+### <a name="before"></a>之前
 
 ```typescript
 for (let i = 0, len = Math.max(category.values.length, dataValue.values.length); i < len; i++) {
@@ -109,7 +109,7 @@ for (let i = 0, len = Math.max(category.values.length, dataValue.values.length);
 }
 ```
 
-### <a name="after"></a>晚于
+### <a name="after"></a>之后
 
 ```typescript
 for (let i = 0, len = Math.max(category.values.length, dataValue.values.length); i < len; i++) {

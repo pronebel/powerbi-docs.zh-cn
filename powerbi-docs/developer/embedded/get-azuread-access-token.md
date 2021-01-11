@@ -1,6 +1,6 @@
 ---
-title: 对用户进行身份验证并获取应用程序的 Azure AD 访问令牌
-description: 了解如何在 Azure Active Directory 中注册应用程序，用于嵌入 Power BI 内容。
+title: 对用户进行身份验证并获取 Power BI 嵌入式分析应用程序的 Azure AD 访问令牌，以增强客户的嵌入式 BI 体验
+description: 了解如何在 Azure Active Directory 中注册应用程序，用于嵌入 Power BI 内容。 使用 Power BI 嵌入式分析改进嵌入式 BI 见解。
 author: KesemSharabi
 ms.author: kesharab
 ms.reviewer: ''
@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: how-to
 ms.date: 06/04/2019
-ms.openlocfilehash: cb7c874fc68da361971c34879f2ea44006402bf4
-ms.sourcegitcommit: 30d0668434283c633bda9ae03bc2aca75401ab94
+ms.openlocfilehash: 8001dd0e15ef713fa67256a45f645b0d7a0890c0
+ms.sourcegitcommit: eeaf607e7c1d89ef7312421731e1729ddce5a5cc
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/09/2020
-ms.locfileid: "96906925"
+ms.lasthandoff: 01/05/2021
+ms.locfileid: "97888434"
 ---
 # <a name="get-an-azure-ad-access-token-for-your-power-bi-application"></a>获取 Power BI 应用程序的 Azure AD 访问令牌
 
@@ -29,7 +29,7 @@ ms.locfileid: "96906925"
 
 ### <a name="get-an-azure-ad-authorization-code"></a>获取 Azure AD 授权代码
 
-获取 **访问令牌** 的第一步是从 **Azure AD** 获取授权代码。 构造具有以下属性的查询字符串，并重定向到 Azure AD  。
+获取 **访问令牌** 的第一步是从 **Azure AD** 获取授权代码。 构造具有以下属性的查询字符串，并重定向到 Azure AD。
 
 #### <a name="authorization-code-query-string"></a>授权代码查询字符串
 
@@ -168,11 +168,11 @@ protected void Page_Load(object sender, EventArgs e)
 
 ### <a name="access-token-with-a-master-account"></a>主帐户的访问令牌
 
-若要使用这种方法，请使用一个是 Power BI Pro 用户的主帐户  。 帐户凭据存储在应用程序中。 应用程序使用这些存储的凭据进行 Azure AD 身份验证。 下面显示的示例代码来自[“应用拥有数据”示例](https://github.com/guyinacube/PowerBI-Developer-Samples)
+若要使用这种方法，请使用一个是 Power BI Pro 用户的主帐户。 帐户凭据存储在应用程序中。 应用程序使用这些存储的凭据进行 Azure AD 身份验证。 下面显示的示例代码来自[“应用拥有数据”示例](https://github.com/guyinacube/PowerBI-Developer-Samples)
 
 ### <a name="access-token-with-service-principal"></a>服务主体的访问令牌
 
-若要使用这种方法，请使用一个是仅限应用的令牌的[服务主体](embed-service-principal.md)  。 应用程序使用服务主体进行 Azure AD 身份验证。 下面显示的示例代码来自[“应用拥有数据”示例](https://github.com/guyinacube/PowerBI-Developer-Samples)
+若要使用这种方法，请使用一个是仅限应用的令牌的[服务主体](embed-service-principal.md)。 应用程序使用服务主体进行 Azure AD 身份验证。 下面显示的示例代码来自[“应用拥有数据”示例](https://github.com/guyinacube/PowerBI-Developer-Samples)
 
 #### <a name="embedservicecs"></a>EmbedService.cs
 
@@ -198,7 +198,7 @@ var authenticationContext = new AuthenticationContext(AuthorityUrl);
 m_tokenCredentials = new TokenCredentials(authenticationResult.AccessToken, "Bearer");
 ```
 
-## <a name="troubleshoot"></a>故障排除
+## <a name="troubleshoot"></a>疑难解答
 
 错误消息：“'AuthenticationContext' 不包含 'AcquireToken' 的定义，并且找不到接受 'AuthenticationContext' 类型的第一个参数的可访问 'AcquireToken' (是否缺少 using 指令或程序集引用?)”。
 

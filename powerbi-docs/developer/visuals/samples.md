@@ -1,6 +1,6 @@
 ---
-title: Power BI 视觉对象示例
-description: 本文提供示例 Power BI 视觉对象，包括切片器、20 多种类型的图表、WebGL 和 R 视觉对象和脚本。
+title: Power BI 嵌入式分析中用于增强嵌入式 BI 见解的 Power BI 视觉对象示例
+description: 本文提供示例 Power BI 视觉对象，包括切片器、20 多种类型的图表、WebGL 和 R 视觉对象和脚本。 使用 Power BI 嵌入式分析改进嵌入式 BI 见解。
 author: KesemSharabi
 ms.author: kesharab
 ms.reviewer: sranins
@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: reference
 ms.date: 03/17/2019
-ms.openlocfilehash: 076ad6549cb68660313dcd8da5ccf8eb1f8f26c7
-ms.sourcegitcommit: 50b21718a167c2b131313b4135c8034c6f027597
+ms.openlocfilehash: 3da805a10a8b43dc7b1f1750583a79494557d519
+ms.sourcegitcommit: eeaf607e7c1d89ef7312421731e1729ddce5a5cc
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/14/2020
-ms.locfileid: "92049145"
+ms.lasthandoff: 01/05/2021
+ms.locfileid: "97888480"
 ---
 # <a name="samples-of-power-bi-visuals"></a>Power BI 视觉对象示例
 

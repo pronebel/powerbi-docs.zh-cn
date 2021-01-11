@@ -1,6 +1,6 @@
 ---
-title: 关于在 Power BI 视觉对象中使用数据视图 utils 的简介
-description: 本文介绍如何使用 SVG utils 简化对 Power BI 视觉对象的 DataView 对象的解析
+title: 关于在 Power BI 嵌入式分析的 Power BI 视觉对象中使用数据视图 utils 以增强嵌入式 BI 见解的介绍
+description: 本文介绍如何使用 SVG utils 简化对 Power BI 视觉对象的 DataView 对象的解析。 使用 Power BI 嵌入式分析改进嵌入式 BI 见解。
 author: KesemSharabi
 ms.author: kesharab
 manager: rkarlin
@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: reference
 ms.date: 06/18/2019
-ms.openlocfilehash: fc0ebf3d315b10bc14190a5ae01e8d389e2be0cc
-ms.sourcegitcommit: b5365df7fc32b7c49f8a2bf2cf75b5edd6bda9b6
+ms.openlocfilehash: 3c54333c35809ab272c065973d4d948e1ac37a8b
+ms.sourcegitcommit: eeaf607e7c1d89ef7312421731e1729ddce5a5cc
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/15/2020
-ms.locfileid: "97513726"
+ms.lasthandoff: 01/05/2021
+ms.locfileid: "97887813"
 ---
 # <a name="dataviewutils"></a>DataViewUtils
 

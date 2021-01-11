@@ -7,25 +7,26 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: pbi-reports-dashboards
 ms.topic: how-to
-ms.date: 03/02/2018
+ms.date: 01/05/2021
 LocalizationGroup: Dashboards
-ms.openlocfilehash: ec0b384efb4b43afad76e18feb1b5a53d5f3738c
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: 5ae148feaa294c8779a7140ef450c832bd3376d8
+ms.sourcegitcommit: 932f6856849c39e34229dc9a49fb9379c56a888a
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96395201"
+ms.lasthandoff: 01/06/2021
+ms.locfileid: "97927174"
 ---
 # <a name="pin-a-tile-to-a-dashboard-from-qa"></a>从问答将磁贴固定到仪表板
-## <a name="how-to-pin-a-tile-from-qa"></a>如何从“问答”中固定磁贴
-问答是 Power BI 即席报表工具。 需要查找特定见解？ 对你的数据提问，然后就会收到以可视化效果形式显示的答案。
 
-本操作说明将使用 Power BI 服务 (app.powerbi.com) 打开仪表板，使用自然语言提问以创建可视化效果，并将此可视化效果固定到仪表板。 Power BI Desktop 不支持仪表板。 若要了解如何将 Power BI 问答与其他 Power BI 工具和内容结合使用，请参阅 [Power BI 问答概述](../consumer/end-user-q-and-a.md)。 
+“问答”是 Power BI 工具，它使用自然语言探索你的数据。 需要查找特定见解？ 对你的数据提问，然后就会收到以可视化效果形式显示的答案。
+
+在这篇操作说明文章中，我们将使用 Power BI 服务 (app.powerbi.com) 打开[仪表板](../consumer/end-user-dashboards.md)，使用自然语言提问以创建可视化效果，并将此可视化效果固定到仪表板。 Power BI Desktop 不支持仪表板。 若要了解如何将 Power BI 问答与其他 Power BI 工具和内容结合使用，请参阅 [Power BI 问答概述](../consumer/end-user-q-and-a.md)。 
 
 要继续学习，请打开[零售分析示例仪表板](sample-retail-analysis.md)。
 
+## <a name="how-to-pin-a-tile-from-qa"></a>如何从“问答”中固定磁贴
 
-1. 打开至少具有一个从报表固定的磁贴的[仪表板](../consumer/end-user-dashboards.md)。 在提问后，Power BI 会在将磁贴固定到该仪表板的所有数据集中查找答案。  若要了解详细信息，请参阅[获取数据](../connect-data/service-get-data.md)。
+1. 打开至少具有一个从报表固定的磁贴的仪表板。 在提问后，Power BI 会在将磁贴固定到该仪表板的所有数据集中查找答案。
 2. 在仪表板顶部的问题框中，键入你想要了解的有关数据的问题。  
    ![问题解答问题框](media/service-dashboard-pin-tile-from-q-and-a/power-bi-question-box.png)
 3. 例如，当你键入“last year sales by month and territory...”时，  
@@ -62,5 +63,5 @@ ms.locfileid: "96395201"
 ## <a name="next-steps"></a>后续步骤
 [重命名、调整大小、添加超链接、重新定位磁贴等](service-dashboard-edit-tile.md)    
 [在焦点模式下显示仪表板磁贴](../consumer/end-user-focus.md)     
-[返回到 Power BI 中的问答](../consumer/end-user-q-and-a.md)  
+[Power BI 中的问答概述](../consumer/end-user-q-and-a.md)  
 更多问题？ [尝试参与 Power BI 社区](https://community.powerbi.com/)

@@ -1,6 +1,6 @@
 ---
-title: 将上下文菜单添加到 Power BI 视觉对象
-description: 了解如何将关联菜单添加到 Power BI 视觉对象中。
+title: 在 Power BI 嵌入式分析的 Power BI 视觉对象中添加上下文菜单以增强嵌入式 BI 见解
+description: 了解如何将关联菜单添加到 Power BI 视觉对象中。 使用 Power BI 嵌入式分析改进嵌入式 BI 见解。
 author: KesemSharabi
 ms.author: kesharab
 ms.reviewer: rkarlin
@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: how-to
 ms.date: 06/18/2019
-ms.openlocfilehash: 9e63a1196ddc7557fcf8b2fceb424415a63d4df9
-ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
+ms.openlocfilehash: 1c19ba94588628e002cdb9e65f59bd4182020e1c
+ms.sourcegitcommit: eeaf607e7c1d89ef7312421731e1729ddce5a5cc
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/06/2020
-ms.locfileid: "91748071"
+ms.lasthandoff: 01/05/2021
+ms.locfileid: "97888687"
 ---
 # <a name="add-context-menu-to-power-bi-visual"></a>将上下文菜单添加到 Power BI 视觉对象
 

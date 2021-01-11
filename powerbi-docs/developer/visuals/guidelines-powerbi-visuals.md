@@ -1,6 +1,6 @@
 ---
-title: Power BI 视觉对象指南
-description: 了解如何将自定义视觉对象发布到 Microsoft AppSource 让其他人了解并付费使用。
+title: Power BI 嵌入式分析中用于增强嵌入式 BI 见解的 Power BI 视觉对象指南
+description: 了解如何将自定义视觉对象发布到 Microsoft AppSource 让其他人了解并付费使用。 使用 Power BI 嵌入式分析改进嵌入式 BI 见解。
 author: KesemSharabi
 ms.author: kesharab
 ms.reviewer: ''
@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: conceptual
 ms.date: 08/12/2020
-ms.openlocfilehash: 427fba66b34fefb0b7ca9d70a29b08ebe7d743cb
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: 67875f9b571e0a0376046a3cb080551d23e579e4
+ms.sourcegitcommit: eeaf607e7c1d89ef7312421731e1729ddce5a5cc
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96416131"
+ms.lasthandoff: 01/05/2021
+ms.locfileid: "97889285"
 ---
 # <a name="guidelines-for-power-bi-visuals"></a>Power BI 视觉对象指南
 在将 Power BI 视觉对象[发布](office-store.md)到 Microsoft AppSource 供其他人了解和使用之前，请遵循相关指南，为用户创造好的体验。

@@ -1,6 +1,6 @@
 ---
-title: Power BI 视觉数据点选择
-description: 本文介绍如何向 Power BI 视觉对象添加选择
+title: Power BI 嵌入式分析中用于增强嵌入式 BI 见解的 Power BI 视觉对象数据点选择
+description: 本文介绍如何向 Power BI 视觉对象添加选择。 使用 Power BI 嵌入式分析改进嵌入式 BI 见解。
 author: KesemSharabi
 ms.author: kesharab
 ms.reviewer: rkarlin
@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: how-to
 ms.date: 06/18/2019
-ms.openlocfilehash: 57f443ec11d918966c25b9d59a1656bb02983fbb
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: db215195444827f9464e10f9cbb190e292099584
+ms.sourcegitcommit: eeaf607e7c1d89ef7312421731e1729ddce5a5cc
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85238050"
+ms.lasthandoff: 01/05/2021
+ms.locfileid: "97888319"
 ---
 # <a name="add-interactivity-into-visual-by-power-bi-visuals-selections"></a>通过 Power BI 视觉对象选择将交互性添加到视觉对象
 

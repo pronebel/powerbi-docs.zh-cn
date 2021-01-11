@@ -1,6 +1,6 @@
 ---
-title: 如何开发 Power BI 视觉对象的疑难解答
-description: 本文介绍了开发或创建自定义 Power BI 视觉对象时可能会遇到的一些常见问题。
+title: 有关如何在 Power BI 嵌入式分析中开发 Power BI 视觉对象以增强嵌入式 BI 见解的疑难解答
+description: 本文介绍了开发或创建自定义 Power BI 视觉对象时可能会遇到的一些常见问题。 使用 Power BI 嵌入式分析改进嵌入式 BI 见解。
 author: KesemSharabi
 ms.author: kesharab
 ms.reviewer: ''
@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: troubleshooting
 ms.date: 11/06/2018
-ms.openlocfilehash: fda4bbddb2f0b1a878e0ddf85f31795405c66331
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: 440bb6648dca1eaa85b697a10e9fd41180c66d7e
+ms.sourcegitcommit: eeaf607e7c1d89ef7312421731e1729ddce5a5cc
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96417143"
+ms.lasthandoff: 01/05/2021
+ms.locfileid: "97888089"
 ---
 # <a name="troubleshoot-power-bi-visuals"></a>Power BI 视觉对象疑难解答
 
@@ -23,9 +23,9 @@ ms.locfileid: "96417143"
 
 在终端的命令行运行 `pbiviz` 时，可以看到帮助屏幕。 如果未看到，则未正确安装。 请确保至少安装了 NodeJS 4.0。
 
-在“可视化效果”选项卡中找不到调试视觉对象 
+在“可视化效果”选项卡中找不到调试视觉对象
 
-在“可视化效果”  选项卡中“调试视觉对象”看上去像一个提示图标。
+在“可视化效果”选项卡中“调试视觉对象”看上去像一个提示图标。
 
 ![视觉对象选项](media/power-bi-custom-visuals-troubleshoot/powerbi-developer-visual-selection.png)
 

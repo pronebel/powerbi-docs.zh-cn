@@ -1,6 +1,6 @@
 ---
-title: 缩放 Power BI Embedded 容量 | Microsoft Docs
-description: 本文介绍如何在 Microsoft Azure 中缩放 Power BI Embedded 容量。
+title: 根据 Power BI 嵌入式分析的嵌入式 BI 解决方案缩放 Power BI Embedded 容量
+description: 本文介绍如何使用 Microsoft Azure 根据 Power BI 嵌入式分析嵌入式 BI 解决方案缩放 Power BI Embedded 容量。
 author: KesemSharabi
 ms.author: kesharab
 services: power-bi-embedded
@@ -10,12 +10,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: how-to
 ms.date: 01/31/2019
-ms.openlocfilehash: 0b44c9326b11491e5b9f42b4110da482f52b58dc
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: 19dfff03e2ec17c2b969a80c9fe0d2087c189184
+ms.sourcegitcommit: eeaf607e7c1d89ef7312421731e1729ddce5a5cc
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96417258"
+ms.lasthandoff: 01/05/2021
+ms.locfileid: "97887307"
 ---
 # <a name="scale-your-power-bi-embedded-capacity-in-the-azure-portal"></a>在 Azure 门户中缩放 Power BI Embedded 容量
 

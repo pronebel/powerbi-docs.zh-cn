@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: pbi-collaborate-share
 ms.topic: how-to
-ms.date: 12/03/2020
+ms.date: 01/04/2021
 LocalizationGroup: Share your work
-ms.openlocfilehash: 76f45ac7aee01cb907e727bc8cb12a69bd234d72
-ms.sourcegitcommit: 513c4b884a58e1da2680579339c24c46091bbfb2
+ms.openlocfilehash: 800e81b8fe5e9c2f108b71a4d8fb6bf9732a29ac
+ms.sourcegitcommit: 932f6856849c39e34229dc9a49fb9379c56a888a
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/04/2020
-ms.locfileid: "96613868"
+ms.lasthandoff: 01/06/2021
+ms.locfileid: "97926862"
 ---
 # <a name="publish-to-web-from-power-bi"></a>从 Power BI 发布到 Web
 
@@ -50,18 +50,19 @@ ms.locfileid: "96613868"
 
    ![查看警告](media/service-publish-to-web/publish_to_web3_ga.png)
 
-5. 对话框显示一条链接。 选择该链接以在电子邮件中发送，或复制 HTML。 可以将它嵌入 iFrame 等代码，或直接粘贴到网页或博客。
+5. 在“成功”对话框中，可以看到报表的外观预览。 选择“大小”和“默认页面” 。 
+
+    还可以将添加占位符图像，使网页的加载速度更快。 使用占位符图像，在 Web 上查看报表的人可以看到一个“查看交互式内容”按钮，他们可以选择此按钮查看报表本身。 
+
+    请先进行这些更改。 然后复制该链接，通过电子邮件进行发生，或复制 HTML 以粘贴到网站。 可以将它嵌入 iFrame 等代码，或直接粘贴到网页或博客。
 
    ![成功：链接和 HTML](media/service-publish-to-web/publish_to_web4.png)
 
-6. 如果之前为报表创建了嵌入代码并选择“发布到 Web”，则不会显示步骤 2-4 中的对话框。 相反，将显示“嵌入代码”对话框：
+6. 如果之前为报表创建了嵌入代码并选择“发布到 Web”，则不会显示步骤 2-4 中的对话框。 而会显示“嵌入代码”对话框。
 
    ![“嵌入代码”对话框](media/service-publish-to-web/publish_to_web5.png)
 
    每个报表只能创建一个嵌入代码。
-
-如果在对话框中进行更改，请确保复制更新后的 URL 或 iFrame，以便使用页面中的更新设置。
-
 
 ### <a name="tips-for-view-modes"></a>视图模式的提示
 
@@ -128,7 +129,7 @@ ms.locfileid: "96613868"
 
 建议为报表设置占位符图像。 如果出现繁重的使用情况，用户将看到占位符图像。 
 
-为了帮助避免繁重的使用体验，请限制报表可以生成的不同查询数和数据刷新频率。
+为了帮助避免繁重的使用体验，请限制报表可以生成的不同查询数和数据刷新频率。 有关简化报表的技巧，请参阅 [Power BI 优化指南](../guidance/power-bi-optimization.md)。
 
 ## <a name="power-bi-visuals"></a>Power BI 视觉对象
 

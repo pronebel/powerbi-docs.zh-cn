@@ -8,12 +8,12 @@ ms.subservice: powerbi-eim
 ms.topic: how-to
 ms.date: 10/26/2020
 LocalizationGroup: Share your work
-ms.openlocfilehash: 17fc02131f13fe7fe7d8fb17af4380f6a013b9e7
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: 520a3673d34019c6045988cd5d501e187849a5c6
+ms.sourcegitcommit: 932f6856849c39e34229dc9a49fb9379c56a888a
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96413509"
+ms.lasthandoff: 01/06/2021
+ms.locfileid: "97927066"
 ---
 # <a name="enable-content-certification"></a>启用内容认证
 
@@ -39,7 +39,7 @@ Power BI 管理员负责为组织启用和设置认证过程。 这意味着：
 
 1. 将切换设置为“启用”。
 1. 如果组织具有已发布的认证策略，请在此处提供其 URL。 这将成为[认可设置对话框](../collaborate-share/service-endorse-content.md#request-content-certification)中“认证”部分的“了解详细信息”链接。 如果你未提供链接，则将建议想要请求其内容认证的用户联系其 Power BI 管理员。
-1. 指定一个或多个安全组，这些安全组的成员将有权认证内容。 这些授权的认证者将能够使用[认可设置对话框](../collaborate-share/service-endorse-content.md#certify-content)中“认证”部分的“认证”按钮。
+1. 指定一个或多个安全组，这些安全组的成员将有权认证内容。 这些授权的认证者将能够使用[认可设置对话框](../collaborate-share/service-endorse-content.md#certify-content)中“认证”部分的“认证”按钮。 此字段仅接受安全组。 不能输入命名用户。
     
     如果安全组包含不希望向其授予认证权限的子安全组，则可以选中“特定安全组除外”框，然后在出现的文本框中输入这些组的名称。
 1. 单击“**应用**”。

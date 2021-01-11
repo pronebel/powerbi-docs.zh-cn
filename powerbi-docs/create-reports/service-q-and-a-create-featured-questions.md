@@ -7,21 +7,20 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: pbi-reports-dashboards
 ms.topic: how-to
-ms.date: 05/26/2020
+ms.date: 01/05/2021
 LocalizationGroup: Ask questions of your data
-ms.openlocfilehash: 3587c019f6b460774efca3db2229f315adcbded3
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: 48bd70c83865c7002cb3408684f9940cf5943d32
+ms.sourcegitcommit: 932f6856849c39e34229dc9a49fb9379c56a888a
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96388163"
+ms.lasthandoff: 01/06/2021
+ms.locfileid: "97927204"
 ---
 # <a name="create-featured-questions-for-power-bi-qa"></a>创建 Power BI 问答的精选问题
-如果你拥有一个数据集，你可以向该数据集添加自己精选的问题。 Power BI 问答向使用基于该数据集的报表的同事显示这些问题。  精选问题会让你的同事了解他们可以就数据集询问哪些类型的问题。 你添加的精选问题都由你决定 -- 可以添加常见问题、显示有趣结果的问题，或可能会很难组织描述的问题。
-
+如果你对数据集具有编辑权限，则可向该数据集添加自己精选的问题。 Power BI 问答向使用基于该数据集的仪表板的同事显示这些问题。  精选问题会让你的同事了解他们可以就数据集询问哪些类型的问题。 你添加的精选问题都由你决定 -- 可以添加常见问题、显示有趣结果的问题，或可能会很难组织描述的问题。
 
 > [!NOTE]
-> [iPad、iPhone 和 iPod Touch 设备上的 iOS 版 Microsoft Power BI 应用](../consumer/mobile/mobile-apps-ios-qna.md)和 Power BI Desktop 问答中提供了问答精选问题。 只能在 Power BI 服务 (app.powerbi.com) 中创建问题。
+> 可以在 [iPad、iPhone 和 iPod Touch 设备上的 Microsoft Power BI 应用](../consumer/mobile/mobile-apps-ios-qna.md)和 Power BI 服务 (app.powerbi.com) 中使用问答精选问题。 只能在 Power BI 服务中创建问题。
 > 
 
 ## <a name="create-a-featured-question"></a>创建精选问题
@@ -35,11 +34,11 @@ ms.locfileid: "96388163"
 4. 选择 **添加问题**。
    
    ![“设置”菜单](media/service-q-and-a-create-featured-questions/power-bi-settings.png)
-5. 在文本框中键入你的问题，并选择 **应用**。   （可选）通过选择 **添加问题** 添加另一个问题。  
+5. 在文本框中键入你的问题。 例如，键入“以已填充的地图形式按区域显示上一年销售额”，并选择“应用”。   （可选）选择“添加问题”，再添加一个问题。  
    ![精选问答窗格](media/service-q-and-a-create-featured-questions/power-bi-type-featured-question.png)
 6. 向后导航到零售分析示例的 Power BI 仪表板，然后将光标置于问答问题框中。   
    ![带有精选问题的问答框](media/service-q-and-a-create-featured-questions/power-bi-qna-featured-question-to-start.png)
-7. 新的精选问题（**以地图形式显示地区销售额**）显示于列表之首。 请选择它。  
+7. 新的精选问题（以已填充的地图形式按区域显示上一年销售额）显示于列表之首。 请选择它。  
 8. Power BI 会创建答案，并将其显示为着色地图可视化效果。  
    ![问答的精选问题回答：地图可视化效果](media/service-q-and-a-create-featured-questions/power-bi-qna-featured-question.png)
 

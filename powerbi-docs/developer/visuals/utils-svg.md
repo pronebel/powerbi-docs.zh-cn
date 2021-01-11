@@ -1,6 +1,6 @@
 ---
-title: 关于在 Power BI 视觉对象中使用 SVG utils 的简介
-description: 本文介绍如何使用 SVG utils 简化 Power BI 视觉对象的 SVG 操作
+title: 关于在 Power BI 嵌入式分析的 Power BI 视觉对象中使用 SVG 使用工具以增强嵌入式 BI 见解的介绍
+description: 本文介绍如何使用 SVG utils 简化 Power BI 视觉对象的 SVG 操作。 使用 Power BI 嵌入式分析改进嵌入式 BI 见解。
 author: KesemSharabi
 ms.author: kesharab
 manager: rkarlin
@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: reference
 ms.date: 06/18/2019
-ms.openlocfilehash: aa1ac8074e842a51b369c48f57c4b5016a80140c
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: cf798ae13d874e354f6941d50982bfe26d73424d
+ms.sourcegitcommit: eeaf607e7c1d89ef7312421731e1729ddce5a5cc
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "79377963"
+ms.lasthandoff: 01/05/2021
+ms.locfileid: "97887744"
 ---
 # <a name="svg-utils"></a>SVG utils
 
@@ -22,7 +22,7 @@ SVG utils 是一组函数和类，用于简化 Power BI 视觉对象的 SVG 操�
 
 ## <a name="installation"></a>安装
 
-要安装包，应在目录中运行以下命令和当前的视觉对象：
+要安装包，应在包含当前视觉对象的目录中运行以下命令：
 
 ```bash
 npm install powerbi-visuals-utils-svgutils --save
@@ -53,7 +53,7 @@ interface ClassAndSelector {
 function createClassAndSelector(className: string): ClassAndSelector;
 ```
 
-示例:
+示例：
 
 ```typescript
 import { CssConstants } from "powerbi-visuals-utils-svgutils";
@@ -80,7 +80,7 @@ divSelector.class === "sample-block"; // returns: true
 function translate(x: number, y: number): string;
 ```
 
-示例:
+示例：
 
 ```typescript
 import { manipulation } from "powerbi-visuals-utils-svgutils";
@@ -99,7 +99,7 @@ manipulation.translate(100, 100);
 function translateXWithPixels(x: number): string;
 ```
 
-示例:
+示例：
 
 ```typescript
 import { manipulation } from "powerbi-visuals-utils-svgutils";
@@ -118,7 +118,7 @@ manipulation.translateXWithPixels(100);
 function translateWithPixels(x: number, y: number): string;
 ```
 
-示例:
+示例：
 
 ```typescript
 import { manipulation } from "powerbi-visuals-utils-svgutils";
@@ -143,7 +143,7 @@ function translateAndRotate(
 ): string;
 ```
 
-示例:
+示例：
 
 ```typescript
 import { manipulation } from "powerbi-visuals-utils-svgutils";
@@ -162,7 +162,7 @@ manipulation.translateAndRotate(100, 100, 50, 50, 35);
 function scale(scale: number): string;
 ```
 
-示例:
+示例：
 
 ```typescript
 import { manipulation } from "powerbi-visuals-utils-svgutils";
@@ -181,7 +181,7 @@ manipulation.scale(50);
 function transformOrigin(xOffset: string, yOffset: string): string;
 ```
 
-示例:
+示例：
 
 ```typescript
 import { manipulation } from "powerbi-visuals-utils-svgutils";
@@ -200,7 +200,7 @@ manipulation.transformOrigin(5, 5);
 function flushAllD3Transitions(): void;
 ```
 
-示例:
+示例：
 
 ```typescript
 import { manipulation } from "powerbi-visuals-utils-svgutils";
@@ -219,7 +219,7 @@ manipulation.flushAllD3Transitions();
 function parseTranslateTransform(input: string): { x: string; y: string };
 ```
 
-示例:
+示例：
 
 ```typescript
 import { manipulation } from "powerbi-visuals-utils-svgutils";
@@ -242,7 +242,7 @@ function createArrow(
 ): { path: string; transform: string };
 ```
 
-示例:
+示例：
 
 ```typescript
 import { manipulation } from "powerbi-visuals-utils-svgutils";
@@ -270,7 +270,7 @@ manipulation.createArrow(10, 20, 5);
 function getOffset(rect: IRect): IPoint;
 ```
 
-示例:
+示例：
 
 ```typescript
 import { shapes } from "powerbi-visuals-utils-svgutils";
@@ -293,7 +293,7 @@ Rect.getOffset({ left: 25, top: 25, width: 100, height: 100 });
 function getSize(rect: IRect): ISize;
 ```
 
-示例:
+示例：
 
 ```typescript
 import { shapes } from "powerbi-visuals-utils-svgutils";
@@ -316,7 +316,7 @@ Rect.getSize({ left: 25, top: 25, width: 100, height: 100 });
 function setSize(rect: IRect, value: ISize): void;
 ```
 
-示例:
+示例：
 
 ```typescript
 import { shapes } from "powerbi-visuals-utils-svgutils";
@@ -330,7 +330,7 @@ Rect.setSize(rectangle, { width: 250, height: 250 });
 // rectangle === { left: 25, top: 25, width: 250, height: 250 }
 ```
 
-### <a name="right"></a>right
+### <a name="right"></a>右
 
 此函数返回矩形的右侧位置。
 
@@ -338,7 +338,7 @@ Rect.setSize(rectangle, { width: 250, height: 250 });
 function right(rect: IRect): number;
 ```
 
-示例:
+示例：
 
 ```typescript
 import { shapes } from "powerbi-visuals-utils-svgutils";
@@ -358,7 +358,7 @@ Rect.right({ left: 25, top: 25, width: 100, height: 100 });
 function bottom(rect: IRect): number;
 ```
 
-示例:
+示例：
 
 ```typescript
 import { shapes } from "powerbi-visuals-utils-svgutils";
@@ -378,7 +378,7 @@ Rect.bottom({ left: 25, top: 25, width: 100, height: 100 });
 function topLeft(rect: IRect): IPoint;
 ```
 
-示例:
+示例：
 
 ```typescript
 import { shapes } from "powerbi-visuals-utils-svgutils";
@@ -398,7 +398,7 @@ Rect.topLeft({ left: 25, top: 25, width: 100, height: 100 });
 function topRight(rect: IRect): IPoint;
 ```
 
-示例:
+示例：
 
 ```typescript
 import { shapes } from "powerbi-visuals-utils-svgutils";
@@ -418,7 +418,7 @@ Rect.topRight({ left: 25, top: 25, width: 100, height: 100 });
 function bottomLeft(rect: IRect): IPoint;
 ```
 
-示例:
+示例：
 
 ```typescript
 import { shapes } from "powerbi-visuals-utils-svgutils";
@@ -450,7 +450,7 @@ Rect.bottomRight({ left: 25, top: 25, width: 100, height: 100 });
 // returns: { x: 125, y: 125 }
 ```
 
-### <a name="clone"></a>克隆
+### <a name="clone"></a>clone
 
 此函数创建矩形的副本。
 
@@ -458,7 +458,7 @@ Rect.bottomRight({ left: 25, top: 25, width: 100, height: 100 });
 function clone(rect: IRect): IRect;
 ```
 
-示例:
+示例：
 
 ```typescript
 import { shapes } from "powerbi-visuals-utils-svgutils";
@@ -480,7 +480,7 @@ Rect.clone({ left: 25, top: 25, width: 100, height: 100 });
 function toString(rect: IRect): string;
 ```
 
-示例:
+示例：
 
 ```typescript
 import { shapes } from "powerbi-visuals-utils-svgutils";
@@ -500,7 +500,7 @@ Rect.toString({ left: 25, top: 25, width: 100, height: 100 });
 function offset(rect: IRect, offsetX: number, offsetY: number): IRect;
 ```
 
-示例:
+示例：
 
 ```typescript
 import { shapes } from "powerbi-visuals-utils-svgutils";
@@ -525,7 +525,7 @@ Rect.offset({ left: 25, top: 25, width: 100, height: 100 }, 50, 50);
 function add(rect: IRect, rect2: IRect): IRect;
 ```
 
-示例:
+示例：
 
 ```typescript
 import { shapes } from "powerbi-visuals-utils-svgutils";
@@ -553,7 +553,7 @@ Rect.add(
 function getClosestPoint(rect: IRect, x: number, y: number): IPoint;
 ```
 
-示例:
+示例：
 
 ```typescript
 import { shapes } from "powerbi-visuals-utils-svgutils";
@@ -576,7 +576,7 @@ Rect.getClosestPoint({ left: 0, top: 0, width: 100, height: 100 }, 50, 50);
 function equal(rect1: IRect, rect2: IRect): boolean;
 ```
 
-示例:
+示例：
 
 ```typescript
 import { shapes } from "powerbi-visuals-utils-svgutils";
@@ -599,7 +599,7 @@ Rect.equal(
 function equalWithPrecision(rect1: IRect, rect2: IRect): boolean;
 ```
 
-示例:
+示例：
 
 ```typescript
 import { shapes } from "powerbi-visuals-utils-svgutils";
@@ -622,7 +622,7 @@ Rect.equalWithPrecision(
 function isEmpty(rect: IRect): boolean;
 ```
 
-示例:
+示例：
 
 ```typescript
 import { shapes } from "powerbi-visuals-utils-svgutils";
@@ -642,7 +642,7 @@ Rect.isEmpty({ left: 0, top: 0, width: 0, height: 0 });
 function containsPoint(rect: IRect, point: IPoint): boolean;
 ```
 
-示例:
+示例：
 
 ```typescript
 import { shapes } from "powerbi-visuals-utils-svgutils";
@@ -665,7 +665,7 @@ Rect.containsPoint(
 function isIntersecting(rect1: IRect, rect2: IRect): boolean;
 ```
 
-示例:
+示例：
 
 ```typescript
 import { shapes } from "powerbi-visuals-utils-svgutils";
@@ -688,7 +688,7 @@ Rect.isIntersecting(
 function intersect(rect1: IRect, rect2: IRect): IRect;
 ```
 
-示例:
+示例：
 
 ```typescript
 import { shapes } from "powerbi-visuals-utils-svgutils";
@@ -716,7 +716,7 @@ Rect.intersect(
 function combine(rect1: IRect, rect2: IRect): IRect;
 ```
 
-示例:
+示例：
 
 ```typescript
 import { shapes } from "powerbi-visuals-utils-svgutils";
@@ -744,7 +744,7 @@ Rect.combine(
 function getCentroid(rect: IRect): IPoint;
 ```
 
-示例:
+示例：
 
 ```typescript
 import { shapes } from "powerbi-visuals-utils-svgutils";
@@ -773,7 +773,7 @@ Rect.getCentroid({ left: 0, top: 0, width: 100, height: 100 });
 function getCoordinates(rootNode: Element, isPointerEvent: boolean): number[];
 ```
 
-示例:
+示例：
 
 ```typescript
 import { pointer } from "powerbi-visuals-utils-svgutils";

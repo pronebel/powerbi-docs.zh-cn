@@ -1,6 +1,6 @@
 ---
-title: 使用服务主体和证书将 Power BI 内容嵌入到嵌入式分析应用程序中
-description: 了解如何使用 Azure Active Directory 应用程序服务主体和证书对嵌入的分析进行身份验证。
+title: 使用服务主体和证书将 Power BI 内容嵌入到 Power BI 嵌入式分析应用程序中，从而改进嵌入式 BI 见解
+description: 了解如何使用 Azure Active Directory 应用程序服务主体和证书对 Power BI 嵌入式分析进行身份验证。 使用 Power BI 嵌入式分析改进嵌入式 BI 见解。
 author: KesemSharabi
 ms.author: kesharab
 ms.reviewer: ''
@@ -9,12 +9,12 @@ ms.subservice: powerbi-developer
 ms.topic: how-to
 ms.custom: ''
 ms.date: 11/23/2020
-ms.openlocfilehash: f36f77ec1b6648bcb9ab45622fd9888366803b11
-ms.sourcegitcommit: bbf7e9341a4e1cc96c969e24318c8605440282a5
+ms.openlocfilehash: 647b9cce0835d21028da586ce3cf09f3383e544b
+ms.sourcegitcommit: eeaf607e7c1d89ef7312421731e1729ddce5a5cc
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/11/2020
-ms.locfileid: "97098389"
+ms.lasthandoff: 01/05/2021
+ms.locfileid: "97888871"
 ---
 # <a name="embed-power-bi-content-with-service-principal-and-a-certificate"></a>使用服务主体和证书嵌入 Power BI 内容
 

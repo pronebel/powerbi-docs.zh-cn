@@ -1,6 +1,6 @@
 ---
-title: 移动开发
-description: 如何创建适合移动的 Power BI 视觉对象
+title: Power BI 嵌入式分析中用于增强嵌入式 BI 见解的移动开发
+description: 如何创建适合移动的 Power BI 视觉对象。 使用 Power BI 嵌入式分析改进嵌入式 BI 见解。
 author: KesemSharabi
 ms.author: kesharab
 ms.reviewer: sranins
@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: how-to
 ms.date: 03/12/2019
-ms.openlocfilehash: dca16fd29dc89fc2e67ce1e8f5c6abfc0adcb9a6
-ms.sourcegitcommit: 50b21718a167c2b131313b4135c8034c6f027597
+ms.openlocfilehash: 63d2366f91398878af231c8dbb6ed07e8e623a03
+ms.sourcegitcommit: eeaf607e7c1d89ef7312421731e1729ddce5a5cc
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/14/2020
-ms.locfileid: "92049283"
+ms.lasthandoff: 01/05/2021
+ms.locfileid: "97885536"
 ---
 # <a name="how-to-create-mobile-friendly-power-bi-visuals"></a>如何创建适合移动的 Power BI 视觉对象
 移动使用在 Power BI 中具有重要角色。 它的一个优点在于可随时随地与数据保持连接。

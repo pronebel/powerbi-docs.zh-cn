@@ -1,6 +1,6 @@
 ---
-title: Power BI 视觉对象项目的单元测试简介
-description: 本文介绍如何为 Power BI 视觉对象项目编写单元测试
+title: 关于在 Power BI 嵌入式分析的 Power BI 视觉对象中使用单元测试以增强嵌入式 BI 见解的介绍
+description: 本文介绍如何为 Power BI 视觉对象项目编写单元测试。 使用 Power BI 嵌入式分析改进嵌入式 BI 见解。
 author: KesemSharabi
 ms.author: kesharab
 ms.reviewer: sranins
@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: tutorial
 ms.date: 06/18/2019
-ms.openlocfilehash: 996e409e634292ca0767f34c49931cfbcdcd4b94
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: ee7ed48043a902a9b5ebd3c548ebec7505e76ab1
+ms.sourcegitcommit: eeaf607e7c1d89ef7312421731e1729ddce5a5cc
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "79379487"
+ms.lasthandoff: 01/05/2021
+ms.locfileid: "97887905"
 ---
 # <a name="tutorial-add-unit-tests-for-power-bi-visual-projects"></a>教程：为 Power BI 视觉对象项目添加单元测试
 
@@ -30,7 +30,7 @@ ms.locfileid: "79379487"
 
 ## <a name="install-and-configure-the-karma-javascript-test-runner-and-jasmine"></a>安装和配置 Karma JavaScript 测试运行程序和 Jasmine
 
-将所需的库添加到 `devDependencies` 部分中的 package.json 文件中  ：
+将所需的库添加到 `devDependencies` 部分中的 package.json 文件中：
 
 ```json
 "@babel/polyfill": "^7.2.5",
@@ -64,19 +64,19 @@ ms.locfileid: "79379487"
 "webpack": "4.26.0"
 ```
 
-若要详细了解 package.json，请参阅 [npm-package.json](https://docs.npmjs.com/files/package.json) 中的说明  。
+若要详细了解 package.json，请参阅 [npm-package.json](https://docs.npmjs.com/files/package.json) 中的说明。
 
-保存 package.json 文件，并在 `package.json` 位置运行以下命令  ：
+保存 package.json 文件，并在 `package.json` 位置运行以下命令：
 
 ```cmd
 npm install
 ```
 
-包管理器安装已添加到 package.json 的所有新包  。
+包管理器安装已添加到 package.json 的所有新包。
 
 要运行单元测试，请配置测试运行程序和 `webpack` 配置。
 
-以下代码是 test.webpack.config.js 文件的示例  ：
+以下代码是 test.webpack.config.js 文件的示例：
 
 ```typescript
 const path = require('path');
@@ -144,7 +144,7 @@ module.exports = {
 };
 ```
 
-以下代码是 karma.conf.ts 文件的示例  ：
+以下代码是 karma.conf.ts 文件的示例：
 
 ```typescript
 "use strict";
@@ -249,7 +249,7 @@ module.exports = (config: Config) => {
 
 如有需要，可修改此配置。
 
-Karma 中的代码包含以下变量  ：
+Karma 中的代码包含以下变量：
 
 * `recursivePathToTests`：定位测试代码
 
@@ -263,7 +263,7 @@ Karma 中的代码包含以下变量  ：
 
 配置文件包含以下属性：
 
-* `singleRun: true`：测试在持续集成 (CI) 系统上运行，或者可以运行一次。 可将设置更改为 false 以调试测试  。 Karma 保持浏览器运行，以便可以使用控制台进行调试。
+* `singleRun: true`：测试在持续集成 (CI) 系统上运行，或者可以运行一次。 可将设置更改为 false 以调试测试。 Karma 保持浏览器运行，以便可以使用控制台进行调试。
 
 * `files: [...]`：在本数组中，可以指定要加载到浏览器的文件。 通常有源文件、测试用例、库（jasmine、测试实用工具）。 可以根据需要将其他文件添加到列表中。
 
@@ -295,7 +295,7 @@ Karma 中的代码包含以下变量  ：
 
 ### <a name="create-a-visual-instance-builder"></a>创建视觉对象实例生成器
 
-使用以下代码将 visualBuilder.ts 文件添加到“测试”文件夹   ：
+使用以下代码将 visualBuilder.ts 文件添加到“测试”文件夹：
 
 ```typescript
 import {
@@ -330,7 +330,7 @@ export class BarChartBuilder extends VisualBuilderBase<VisualClass> {
 
 ### <a name="create-a-typescript-file-to-write-test-cases"></a>创建用于编写测试用例的 typescript 文件
 
-使用以下代码为测试用例添加 visualTest.ts 文件  ：
+使用以下代码为测试用例添加 visualTest.ts 文件：
 
 ```typescript
 import powerbi from "powerbi-visuals-api";
@@ -367,7 +367,7 @@ describe("BarChart", () => {
 
 * [`expect`](https://jasmine.github.io/api/2.6/global.html#expect)：创建规范预期。如果所有预期均通过而未发生任何失败，规范成功。
 
-* `toBeInDOM`：这是匹配程序的方法之一  。 有关匹配程序的详细信息，请参阅 [Jasmine 命名空间：匹配程序](https://jasmine.github.io/api/2.6/matchers.html)。
+* `toBeInDOM`：这是匹配程序的方法之一。 有关匹配程序的详细信息，请参阅 [Jasmine 命名空间：匹配程序](https://jasmine.github.io/api/2.6/matchers.html)。
 
 有关 Jasmine 的详细信息，请参阅[Jasmine 框架文档](https://jasmine.github.io/)页。
 
@@ -409,7 +409,7 @@ Lines        : 20.85% ( 44/211 )
 
 ### <a name="how-to-add-static-data-for-unit-tests"></a>如何为单元测试添加静态数据
 
-使用以下代码在“测试”文件夹中创建 visualData.ts 文件   ：
+使用以下代码在“测试”文件夹中创建 visualData.ts 文件：
 
 ```typescript
 import powerbi from "powerbi-visuals-api";

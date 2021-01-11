@@ -8,12 +8,12 @@ ms.subservice: powerbi-eim
 ms.topic: how-to
 ms.date: 10/26/2020
 LocalizationGroup: Share your work
-ms.openlocfilehash: 7232cad4fc1216ac6e1aa7c8a01136239a2f09d2
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: 5485f59e11f3c971c719b2604b9e1280a072c5b1
+ms.sourcegitcommit: 932f6856849c39e34229dc9a49fb9379c56a888a
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96407046"
+ms.lasthandoff: 01/06/2021
+ms.locfileid: "97926728"
 ---
 # <a name="endorse-your-content"></a>认可你的内容
 
@@ -25,7 +25,7 @@ Power BI 提供了两种方法来认可有价值且高质量的内容以提高�
 
 * **验证**：认证意味着该内容符合组织的质量标准，可被视为可靠且权威的内容，并且可供在整个组织中使用。
 
-    只有授权的审阅者可以认证内容。 如果内容所有者希望自己的内容获得认证，但自己无权对其进行认证，则必须遵循其组织的准则来认证其内容。
+    只有[获得授权的审阅者（由 Power BI 管理员定义）](../admin/service-admin-setup-certification.md)可以认证内容。 如果内容所有者希望自己的内容获得认证，但自己无权对其进行认证，则需要遵循其组织的准则来认证其内容。
 
 目前可以认可：
 * 数据集

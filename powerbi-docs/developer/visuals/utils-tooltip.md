@@ -1,6 +1,6 @@
 ---
-title: 关于在 Power BI 视觉对象中使用工具提示 Utils 的简介
-description: 本文介绍了如何使用工具提示 Utils 简化 Power BI 视觉对象的工具提示自定义
+title: 关于在 Power BI 嵌入式分析的 Power BI 视觉对象中使用工具提示 utils 以增强嵌入式 BI 见解的介绍
+description: 本文介绍了如何使用工具提示 utils 简化 Power BI 视觉对象的工具提示自定义。 使用 Power BI 嵌入式分析改进嵌入式 BI 见解。
 author: KesemSharabi
 ms.author: kesharab
 ms.reviewer: sranins
@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: reference
 ms.date: 02/14/2020
-ms.openlocfilehash: 69650982bd3e71c235ffb09b00a99959bc02c231
-ms.sourcegitcommit: 1428acb6334649fc2d3d8ae4c42cfbc17e8f7476
+ms.openlocfilehash: b2ddc85d9ba2530dc394b4106d72b4af702bd9b4
+ms.sourcegitcommit: eeaf607e7c1d89ef7312421731e1729ddce5a5cc
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/19/2020
-ms.locfileid: "92197624"
+ms.lasthandoff: 01/05/2021
+ms.locfileid: "97888641"
 ---
 # <a name="tooltip-utils"></a>工具提示 Utils
 本文介绍了如何安装、导入和使用工具提示 Utils。 此 Utils 适用于 Power BI 视觉对象中的任何工具提示自定义。
@@ -26,7 +26,7 @@ ms.locfileid: "92197624"
 
 ## <a name="installation"></a>安装
 
-要安装包，应在目录中运行以下命令和当前的视觉对象：
+要安装包，应在包含当前视觉对象的目录中运行以下命令：
 
 ```bash
 npm install powerbi-visuals-utils-tooltiputils --save
@@ -52,7 +52,7 @@ npm install powerbi-visuals-utils-tooltiputils --save
   * [TooltipEventArgs](#tooltipeventargs)
   * [TooltipEnabledDataPoint](#tooltipenableddatapoint)
   * [TooltipServiceWrapperOptions](#tooltipservicewrapperoptions)
-* [Touch events](#touch-events)
+* [触摸事件](#touch-events)
 
 ### `createTooltipServiceWrapper`
 此函数创建 ITooltipServiceWrapper 实例。
@@ -63,7 +63,7 @@ function createTooltipServiceWrapper(tooltipService: ITooltipService, rootElemen
 
 [IVisualHost](https://github.com/microsoft/PowerBI-visuals-tools/blob/master/templates/visuals/.api/v2.6.0/PowerBI-visuals.d.ts#L1335) 提供 ```ITooltipService```。
 
- 示例
+**示例**
 
 ```typescript
 import { createTooltipServiceWrapper } from "powerbi-visuals-utils-tooltiputils";
@@ -101,7 +101,7 @@ interface ITooltipServiceWrapper {
 addTooltip<T>(selection: d3.Selection<any>, getTooltipInfoDelegate: (args: TooltipEventArgs<T>) => VisualTooltipDataItem[], getDataPointIdentity?: (args: TooltipEventArgs<T>) => ISelectionId, reloadTooltipDataOnMouseMove?: boolean): void;
 ```
 
- 示例
+**示例**
 
 ```typescript
 import { createTooltipServiceWrapper, TooltipEventArgs, ITooltipServiceWrapper, TooltipEnabledDataPoint } from "powerbi-visuals-utils-tooltiputils";
@@ -144,7 +144,7 @@ tooltipServiceWrapper.addTooltip<TooltipEnabledDataPoint>(element, (eventArgs: T
 hide(): void;
 ```
 
- 示例
+**示例**
 
 ```typescript
 import {createTooltipServiceWrapper} from "powerbi-visuals-utils-tooltiputils";

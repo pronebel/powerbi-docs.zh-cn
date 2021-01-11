@@ -1,6 +1,6 @@
 ---
-title: 添加对 Power BI 视觉对象的书签支持
-description: Power BI 视觉对象可以处理书签切换
+title: 在 Power BI 嵌入式分析中为 Power BI 视觉对象添加书签支持以增强嵌入式 BI 见解
+description: Power BI 视觉对象可以处理。 使用 Power BI 嵌入式分析改进嵌入式 BI 见解。 书签切换
 author: KesemSharabi
 ms.author: kesharab
 ms.reviewer: sranins
@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: how-to
 ms.date: 06/18/2019
-ms.openlocfilehash: aeea5ea3a9d1d2bd375c44b6c6b7eac57eb65aff
-ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
+ms.openlocfilehash: 6a4f0e8ad8890e85db54e8d77a2ec19bb0d02ea8
+ms.sourcegitcommit: eeaf607e7c1d89ef7312421731e1729ddce5a5cc
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/06/2020
-ms.locfileid: "91748991"
+ms.lasthandoff: 01/05/2021
+ms.locfileid: "97889101"
 ---
 # <a name="add-bookmark-support-for-power-bi-visuals"></a>添加对 Power BI 视觉对象的书签支持
 
@@ -35,7 +35,7 @@ ms.locfileid: "91748991"
 
 请考虑以下情景：你希望在报表页上创建多个书签，每个书签中都有不同的选择状态。
 
-首先，在视觉对象中选择一个数据点。 视觉对象通过将选择传递给主机来与 Power BI 和其他视觉对象进行交互。 然后在“书签”窗格中选择“添加”，Power BI 将保存新书签的当前选择   。
+首先，在视觉对象中选择一个数据点。 视觉对象通过将选择传递给主机来与 Power BI 和其他视觉对象进行交互。 然后在“书签”窗格中选择“添加”，Power BI 将保存新书签的当前选择。
 
 更改选择并添加新书签时，会重复发生此情况。 创建书签后，可以在它们之间进行切换。
 
@@ -187,7 +187,7 @@ if (jsonFilters
 
 `filterState` 属性构成筛选某部分的一个属性。 视觉对象可在书签中存储不同的值。
 
-若要将属性值保存为筛选器状态，请在 capabilities.json 文件中将对象属性标记为 `"filterState": true` 。
+若要将属性值保存为筛选器状态，请在 capabilities.json 文件中将对象属性标记为 `"filterState": true`。
 
 例如，时间线切片器将 `Granularity` 属性值存储在筛选器中。 通过该切片器可在更改书签时更改当前粒度。
 

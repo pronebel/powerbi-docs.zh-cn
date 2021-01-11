@@ -1,6 +1,6 @@
 ---
-title: Power BI 嵌入式分析
-description: Power BI 提供用于使用嵌入式分析将仪表板和报表嵌入到应用程序的 API。 详细了解如何使用 Power BI 嵌入式分析软件、嵌入式分析工具或嵌入式商业智能工具嵌入到 PaaS 环境和 SaaS 环境中。
+title: Power BI 嵌入式分析中用于增强嵌入式 BI 见解的嵌入式分析
+description: Power BI 提供用于在应用程序中嵌入 Power BI 嵌入式分析仪表板和报表的 API。 使用 Power BI 嵌入式分析改进嵌入式 BI 见解。
 author: KesemSharabi
 ms.author: kesharab
 ms.reviewer: ''
@@ -16,12 +16,12 @@ helpviewer_keywords:
 - Power BI APIs
 ms.custom: seodec18
 ms.date: 05/15/2019
-ms.openlocfilehash: 4dba33e2ae800198d4840139d43893a7dca77e4f
-ms.sourcegitcommit: 37bd34053557089c4fbf0e05f78e959609966561
+ms.openlocfilehash: c7278dee5957e2b63b6821decec0171ba6b628a0
+ms.sourcegitcommit: eeaf607e7c1d89ef7312421731e1729ddce5a5cc
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/10/2020
-ms.locfileid: "94396808"
+ms.lasthandoff: 01/05/2021
+ms.locfileid: "97887123"
 ---
 # <a name="embedded-analytics-with-power-bi"></a>Power BI 嵌入式分析
 

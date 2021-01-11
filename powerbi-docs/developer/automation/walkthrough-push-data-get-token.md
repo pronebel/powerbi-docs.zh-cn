@@ -1,6 +1,6 @@
 ---
-title: 获取身份验证访问令牌
-description: 推送数据演练 - 获取身份验证访问令牌
+title: 在 Power BI 嵌入式分析中获取身份验证访问令牌以增强嵌入式 BI 见解
+description: 推送数据演练 - 获取身份验证访问令牌。 使用 Power BI 嵌入式分析改进嵌入式 BI 见解。
 author: KesemSharabi
 ms.author: kesharab
 ms.reviewer: madia
@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: tutorial
 ms.date: 05/29/2019
-ms.openlocfilehash: b66c87d88e08a4c1f9ee4f9aebdbf44516d9cb43
-ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
+ms.openlocfilehash: 22d30e14256a2e58e05e17207380842392fe0c23
+ms.sourcegitcommit: eeaf607e7c1d89ef7312421731e1729ddce5a5cc
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/06/2020
-ms.locfileid: "91746507"
+ms.lasthandoff: 01/05/2021
+ms.locfileid: "97887399"
 ---
 # <a name="step-2-get-an-authentication-access-token"></a>步骤 2：获取身份验证访问令牌
 
@@ -27,7 +27,7 @@ ms.locfileid: "91746507"
 
 此过程要求使用 Visual Studio 2015 或更高版本。
 
-1. 在 Visual Studio 中，创建新的 C# **控制台应用程序**项目。
+1. 在 Visual Studio 中，创建新的 C# **控制台应用程序** 项目。
 
 2. 安装 [Azure AD Authentication Library for .NET NuGet 程序包](https://www.nuget.org/packages/Microsoft.IdentityModel.Clients.ActiveDirectory/2.22.302111727)。 .Net 应用需要此包才能获取身份验证安全令牌。 
 
@@ -39,7 +39,7 @@ ms.locfileid: "91746507"
 
 3. 将这些步骤后列出的示例代码添加到 Program.cs。
 
-4. 使用[上一篇系列文章](../embedded/register-app.md)中注册应用时获取的**客户端 ID** 替换“{ClientID}”。
+4. 使用 [上一篇系列文章](../embedded/register-app.md)中注册应用时获取的 **客户端 ID** 替换“{ClientID}”。
 
 5. 运行控制台应用并登录 Power BI 帐户。 
 

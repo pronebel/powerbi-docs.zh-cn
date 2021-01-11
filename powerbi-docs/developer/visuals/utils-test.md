@@ -1,6 +1,6 @@
 ---
-title: 关于在 Power BI 视觉对象中使用测试 utils 的简介
-description: 本文介绍如何使用测试 Utils 在 Power BI 视觉对象的单元测试中简化模拟和特定方法使用
+title: 关于在 Power BI 嵌入式分析的 Power BI 视觉对象中使用测试 utils 以增强嵌入式 BI 见解的介绍
+description: 本文介绍如何使用测试 utils 在 Power BI 视觉对象的单元测试中简化模拟和特定方法使用。 使用 Power BI 嵌入式分析改进嵌入式 BI 见解。
 author: KesemSharabi
 ms.author: kesharab
 ms.reviewer: sranins
@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: conceptual
 ms.date: 02/14/2020
-ms.openlocfilehash: c50ad894b2e1f5eb838abdd4442f473f8bcbbb10
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 4b2a846f4905c4cb28fe92043cf3c71750b40f11
+ms.sourcegitcommit: eeaf607e7c1d89ef7312421731e1729ddce5a5cc
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "82196597"
+ms.lasthandoff: 01/05/2021
+ms.locfileid: "97888043"
 ---
 # <a name="power-bi-visuals-test-utils"></a>Power BI 视觉对象测试 utils
 
@@ -29,7 +29,7 @@ ms.locfileid: "82196597"
 
 ## <a name="installation"></a>安装
 
-若要安装测试 utils 并将其依赖项添加到 package.json  ，请从 Power BI 视觉对象目录运行以下命令：
+若要安装测试 utils 并将其依赖项添加到 package.json，请从 Power BI 视觉对象目录运行以下命令：
 
 ```bash
 npm install powerbi-visuals-utils-testutils --save
@@ -39,7 +39,7 @@ npm install powerbi-visuals-utils-testutils --save
 
 ## <a name="visualbuilderbase"></a>VisualBuilderBase
 
-由 VisualBuilder  在单元测试中与最常使用的方法 `build`、`update` 和 `updateRenderTimeout` 一起使用。 
+由 VisualBuilder 在单元测试中与最常使用的方法 `build`、`update` 和 `updateRenderTimeout` 一起使用。 
 
 `build` 方法返回视觉对象的已创建实例。
 
@@ -69,15 +69,15 @@ abstract class VisualBuilderBase<T extends IVisual> {
 
 ## <a name="dataviewbuilder"></a>DataViewBuilder
 
-由 TestDataViewBuilder  使用，此模块提供 `createCategoricalDataViewBuilder` 方法中使用的 CategoricalDataViewBuilder  类。 它还指定在单元测试中处理模拟 DataView  所需的接口和方法。
+由 TestDataViewBuilder 使用，此模块提供 `createCategoricalDataViewBuilder` 方法中使用的 CategoricalDataViewBuilder 类。 它还指定在单元测试中处理模拟 DataView 所需的接口和方法。
 
 * `withValues` 添加静态系列列，而 `withGroupedValues` 添加动态系列列
 
-  请勿在视觉对象 DataViewCategorical  中同时应用动态系列和静态系列。 只能在 DataViewCategorical  查询中同时使用两者，在这种查询中，DataViewTransform  应将它们拆分为单独的视觉对象 DataViewCategorical  对象。
+  请勿在视觉对象 DataViewCategorical 中同时应用动态系列和静态系列。 只能在 DataViewCategorical 查询中同时使用两者，在这种查询中，DataViewTransform 应将它们拆分为单独的视觉对象 DataViewCategorical 对象。
 
 * `build` 返回具有元数据和 DataViewCategorical 的 DataView
 
-  如果参数组合不合法（例如，在生成视觉对象 DataView  时同时包含动态和静态系列），则 `build` 返回 Undefined  。
+  如果参数组合不合法（例如，在生成视觉对象 DataView 时同时包含动态和静态系列），则 `build` 返回 Undefined。
 
 ```typescript
 class CategoricalDataViewBuilder implements IDataViewBuilderCategorical {
@@ -93,7 +93,7 @@ function createCategoricalDataViewBuilder(): IDataViewBuilderCategorical;
 
 ## <a name="testdataviewbuilder"></a>TestDataViewBuilder
 
-用于在单元测试中创建 VisualData  。 将数据放入数据字段 Bucket 时，Power BI 会根据数据生成类别 DataView  对象。 TestDataViewBuilder  可帮助模拟分类 DataView  创建。
+用于在单元测试中创建 VisualData。 将数据放入数据字段 Bucket 时，Power BI 会根据数据生成类别 DataView 对象。 TestDataViewBuilder 可帮助模拟分类 DataView 创建。
 
 ```typescript
 abstract class TestDataViewBuilder {
@@ -148,7 +148,7 @@ abstract class TestDataViewBuilder {
 
 ### <a name="mockivisualhost"></a>MockIVisualHost
 
-实现 IVisualHost  ，以测试不具有外部依赖项（如 Power BI 框架）的 Power BI 视觉对象。
+实现 IVisualHost，以测试不具有外部依赖项（如 Power BI 框架）的 Power BI 视觉对象。
 
 有用的方法包括 `createSelectionIdBuilder`、`createSelectionManager`、`createLocalizationManager` 和 getter 属性。
 
@@ -189,7 +189,7 @@ class MockIVisualHost implements IVisualHost {
 }
 ```
    
-- `createVisualHost` 创建并返回 IVisualHost  的实例，实际为 MockIVisualHost 
+- `createVisualHost` 创建并返回 IVisualHost 的实例，实际为 MockIVisualHost
   ```typescript
   function createVisualHost(locale?: Object, allowInteractions?: boolean, colors?: IColorInfo[], isEnabled?: boolean, displayNames?: any, token?: string): IVisualHost;
   ```
@@ -202,13 +202,13 @@ class MockIVisualHost implements IVisualHost {
     ```
 
 > [!IMPORTANT]
-> MockIVisualHost  是 IVisualHost  的虚设实现，只应与单元测试一起使用。
+> MockIVisualHost 是 IVisualHost 的虚设实现，只应与单元测试一起使用。
 
 ### <a name="mockicolorpalette"></a>MockIColorPalette
 
-实现 IColorPalette  ，以测试不具有外部依赖项（如 Power BI 框架）的 Power BI 视觉对象。
+实现 IColorPalette，以测试不具有外部依赖项（如 Power BI 框架）的 Power BI 视觉对象。
 
-MockIColorPalette  提供用于在单元测试中检查颜色架构或高对比度模式的有用属性。
+MockIColorPalette 提供用于在单元测试中检查颜色架构或高对比度模式的有用属性。
 
   ```typescript
   import powerbi from "powerbi-visuals-api";
@@ -229,7 +229,7 @@ MockIColorPalette  提供用于在单元测试中检查颜色架构或高对比�
       shapeStroke: {value: string};
   }
   ```
-  - `createColorPalette` 创建并返回 IColorPalette  的实例，实际为 MockIColorPalette 
+  - `createColorPalette` 创建并返回 IColorPalette 的实例，实际为 MockIColorPalette
     ```typescript
     function createColorPalette(colors?: IColorInfo[]): IColorPalette;
     ```
@@ -242,11 +242,11 @@ MockIColorPalette  提供用于在单元测试中检查颜色架构或高对比�
     ```
     
 > [!IMPORTANT]
-> MockIColorPalette  是 IColorPalette  的虚设实现，只应与单元测试一起使用。
+> MockIColorPalette 是 IColorPalette 的虚设实现，只应与单元测试一起使用。
 
 ### <a name="mockiselectionid"></a>MockISelectionId
 
-实现 ISelectionId  ，以测试不具有外部依赖项（如 Power BI 框架）的 Power BI 视觉对象。
+实现 ISelectionId，以测试不具有外部依赖项（如 Power BI 框架）的 Power BI 视觉对象。
 
   ```typescript
   import powerbi from "powerbi-visuals-api";
@@ -264,7 +264,7 @@ MockIColorPalette  提供用于在单元测试中检查颜色架构或高对比�
   }
   ```
 
-  - `createSelectionId` 创建并返回 ISelectionId  的实例，实际为 MockISelectionId 
+  - `createSelectionId` 创建并返回 ISelectionId 的实例，实际为 MockISelectionId
     ```typescript
     function createSelectionId(key?: string): ISelectionId;
     ```
@@ -277,11 +277,11 @@ MockIColorPalette  提供用于在单元测试中检查颜色架构或高对比�
     ```
     
 > [!NOTE]
-> MockISelectionId  是 ISelectionId  的虚设实现，只应与单元测试一起使用。
+> MockISelectionId 是 ISelectionId 的虚设实现，只应与单元测试一起使用。
 
 ### <a name="mockiselectionidbuilder"></a>MockISelectionIdBuilder
 
-实现 ISelectionIdBuilder  ，以测试不具有外部依赖项（如 Power BI 框架）的 Power BI 视觉对象。 
+实现 ISelectionIdBuilder，以测试不具有外部依赖项（如 Power BI 框架）的 Power BI 视觉对象。 
 
   ```typescript
   import DataViewCategoryColumn = powerbi.DataViewCategoryColumn;
@@ -301,7 +301,7 @@ MockIColorPalette  提供用于在单元测试中检查颜色架构或高对比�
   }
   ```
 
-  - `createSelectionIdBuilder` 创建并返回 ISelectionIdBuilder  的实例，实际为 MockISelectionIdBuilder 
+  - `createSelectionIdBuilder` 创建并返回 ISelectionIdBuilder 的实例，实际为 MockISelectionIdBuilder
     ```typescript
     function createSelectionIdBuilder(): ISelectionIdBuilder;
     ```
@@ -314,11 +314,11 @@ MockIColorPalette  提供用于在单元测试中检查颜色架构或高对比�
     ```
 
 > [!NOTE]
-> MockISelectionIdBuilder  是 ISelectionIdBuilder  的虚设实现，只应与单元测试一起使用。
+> MockISelectionIdBuilder 是 ISelectionIdBuilder 的虚设实现，只应与单元测试一起使用。
 
 ### <a name="mockiselectionmanager"></a>MockISelectionManager
 
-实现 ISelectionManager  ，以测试不具有外部依赖项（如 Power BI 框架）的 Power BI 视觉对象。 
+实现 ISelectionManager，以测试不具有外部依赖项（如 Power BI 框架）的 Power BI 视觉对象。 
 
   ```typescript
   import powerbi from "powerbi-visuals-api";
@@ -338,7 +338,7 @@ MockIColorPalette  提供用于在单元测试中检查颜色架构或高对比�
   }
   ```
 
-  - `createSelectionManager` 创建并返回 ISelectionManager  的实例，实际为 MockISelectionManager 
+  - `createSelectionManager` 创建并返回 ISelectionManager 的实例，实际为 MockISelectionManager
     ```typescript
     function createSelectionManager(): ISelectionManager
     ```
@@ -351,7 +351,7 @@ MockIColorPalette  提供用于在单元测试中检查颜色架构或高对比�
     ```
 
 > [!NOTE]
-> MockISelectionManager  是 ISelectionManager  的虚设实现，只应与单元测试一起使用。
+> MockISelectionManager 是 ISelectionManager 的虚设实现，只应与单元测试一起使用。
 
 ### <a name="mockilocale"></a>MockILocale
 
@@ -363,7 +363,7 @@ MockIColorPalette  提供用于在单元测试中检查颜色架构或高对比�
       locale(): string; // getter property
   }
   ```
-  - `createLocale` 创建并返回 MockILocale  的实例
+  - `createLocale` 创建并返回 MockILocale 的实例
     ```typescript
     funciton createLocale(locales?: Object): MockILocale;
     ```
@@ -379,7 +379,7 @@ MockIColorPalette  提供用于在单元测试中检查颜色架构或高对比�
       hide(options: TooltipHideOptions): void;
   }
   ```
-  - `createTooltipService` 创建并返回 MockITooltipService  的实例
+  - `createTooltipService` 创建并返回 MockITooltipService 的实例
     ```typescript
     function createTooltipService(isEnabled?: boolean): ITooltipService;
     ```
@@ -391,20 +391,20 @@ export class MockIAllowInteractions {
     constructor(public isEnabled?: boolean); // false by default
 }
 ```
-  - `createAllowInteractions` 创建并返回 MockIAllowInteractions  的实例
+  - `createAllowInteractions` 创建并返回 MockIAllowInteractions 的实例
     ```typescript
     function createAllowInteractions(isEnabled?: boolean): MockIAllowInteractions;
     ```
 
 ### <a name="mockilocalizationmanager"></a><a id="mockilocalizationmanager"></a> MockILocalizationManager
-提供单元测试所需的 LocalizationManager  的基本功能。
+提供单元测试所需的 LocalizationManager 的基本功能。
 ```typescript
 class MockILocalizationManager implements ILocalizationManager {
     constructor(displayNames: {[key: string]: string});
     getDisplayName(key: string): string; // returns default or setted displayNames for localized elements
 }
 ```
-  - `createLocalizationManager` 创建并返回 ILocalizationManager  的实例，实际为 MockILocalizationManager 
+  - `createLocalizationManager` 创建并返回 ILocalizationManager 的实例，实际为 MockILocalizationManager
     ```typescript
     function createLocalizationManager(displayNames?: any): ILocalizationManager;
     ```
@@ -416,7 +416,7 @@ class MockILocalizationManager implements ILocalizationManager {
     ```
 
 ### <a name="mockitelemetryservice"></a>MockITelemetryService
-模拟 TelemetryService  使用。
+模拟 TelemetryService 使用。
 ```typescript
 class MockITelemetryService implements ITelemetryService {
     instanceId: string;
@@ -429,20 +429,20 @@ class MockITelemetryService implements ITelemetryService {
     function createTelemetryService(): ITelemetryService;
     ```
 ### <a name="mockiauthenticationservice"></a>MockIAuthenticationService
-通过提供模拟 AAD 令牌来模拟 AuthenticationService  的工作。
+通过提供模拟 AAD 令牌来模拟 AuthenticationService 的工作。
 ```typescript
 class MockIAuthenticationService implements IAuthenticationService  {
     constructor(token: string);
     getAADToken(visualId?: string): powerbi.IPromise<string>
 }
 ```
-  - `createAuthenticationService` 创建并返回 IAuthenticationService  的实例，实际为 MockIAuthenticationService 
+  - `createAuthenticationService` 创建并返回 IAuthenticationService 的实例，实际为 MockIAuthenticationService
     ```typescript
     function createAuthenticationService(token?: string): IAuthenticationService;
     ```
 
 ### <a name="mockistorageservice"></a>MockIStorageService
-允许使用行为与 LocalStorage  相同的 ILocalVisualStorageService  。
+允许使用行为与 LocalStorage 相同的 ILocalVisualStorageService。
 ```typescript
 class MockIStorageService implements ILocalVisualStorageService {
   get(key: string): IPromise<string>;
@@ -450,7 +450,7 @@ class MockIStorageService implements ILocalVisualStorageService {
   remove(key: string): void;
 }
 ```
-  - `createStorageService` 创建并返回 ILocalVisualStorageService  的实例，实际为 MockIStorageService 
+  - `createStorageService` 创建并返回 ILocalVisualStorageService 的实例，实际为 MockIStorageService
     ```typescript
     function createStorageService(): ILocalVisualStorageService;
     ```
@@ -467,7 +467,7 @@ class MockIEventService implements IVisualEventService {
       renderingFailed(options: VisualUpdateOptions, reason?: string): void;
 }
 ```
-  - `createEventService` 创建并返回 IVisualEventService  的实例，实际为 MockIEventService 
+  - `createEventService` 创建并返回 IVisualEventService 的实例，实际为 MockIEventService
     ```typescript
     function createEventService(): IVisualEventService;
     ```
@@ -508,12 +508,12 @@ Utils 包括用于 Power BI 视觉对象单元测试的帮助程序方法，包�
   { solid: { color: color } }
   ```
 
-- `assertColorsMatch` 比较从输入字符串分析的 RgbColor  对象
+- `assertColorsMatch` 比较从输入字符串分析的 RgbColor 对象
   ```typescript
   function assertColorsMatch(actual: string, expected: string, invert: boolean = false): boolean
   ```
 
-- `parseColorString` 从输入字符串分析颜色，并在指定接口 RgbColor  中返回
+- `parseColorString` 从输入字符串分析颜色，并在指定接口 RgbColor 中返回
   ```typescript
   function parseColorString(color: string): RgbColor
   ```
@@ -542,22 +542,22 @@ Utils 包括用于 Power BI 视觉对象单元测试的帮助程序方法，包�
   function clickElement(element: JQuery, ctrlKey: boolean = false): void
   ```
 
-- `createTouch` 返回 Touch  对象以帮助模拟触摸事件
+- `createTouch` 返回 Touch 对象以帮助模拟触摸事件
   ```typescript
   function createTouch(x: number, y: number, element: JQuery, id: number = 0): Touch
   ```
 
-- `createTouchesList` 返回模拟触摸  事件的列表
+- `createTouchesList` 返回模拟触摸事件的列表
   ```typescript
   function createTouchesList(touches: Touch[]): TouchList
   ```
 
-- `createContextMenuEvent` 返回 MouseEvent 
+- `createContextMenuEvent` 返回 MouseEvent
   ```typescript
   function createContextMenuEvent(x: number, y: number): MouseEvent
   ```
 
-- `createMouseEvent` 创建并返回 MouseEvent 
+- `createMouseEvent` 创建并返回 MouseEvent
   ```typescript
   function createMouseEvent(
       mouseEventType: MouseEventType,

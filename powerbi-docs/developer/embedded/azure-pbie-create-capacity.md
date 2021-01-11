@@ -1,6 +1,6 @@
 ---
-title: 在 Azure 门户中创建 Power BI Embedded 容量 | Microsoft Docs
-description: 本文介绍如何在 Microsoft Azure 中创建 Power BI Embedded 容量。
+title: 在 Azure 门户中根据 Power BI 嵌入式分析嵌入式 BI 解决方案创建 Power BI Embedded 容量
+description: 本文介绍如何使用 Microsoft Azure 根据 Power BI 嵌入式分析嵌入式 BI 解决方案创建 Power BI Embedded 容量。
 author: KesemSharabi
 ms.author: kesharab
 ms.service: powerbi
@@ -10,12 +10,12 @@ ms.topic: how-to
 ms.reviewer: zakharb
 ms.custom: subject-armqs, devx-track-azurecli
 ms.date: 08/02/2020
-ms.openlocfilehash: 3ba075c33f689d76fb0c94aec09ed9fd309c718d
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: 898da0f5e4284183f2ffa08fba8e6a50d9474d15
+ms.sourcegitcommit: eeaf607e7c1d89ef7312421731e1729ddce5a5cc
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96395132"
+ms.lasthandoff: 01/05/2021
+ms.locfileid: "97887514"
 ---
 # <a name="create-power-bi-embedded-capacity-in-the-azure-portal"></a>在 Azure 门户中创建 Power BI Embedded 容量
 
@@ -115,7 +115,7 @@ Power BI Embedded 容量命令需要使用 2.3.1 或更高版本的 Azure CLI。
 
 ### <a name="create-a-capacity-with-azure-cli"></a>使用 Azure CLI 创建容量
 
-使用 [az Power BI embedded-capacity create](/cli/azure/ext/powerbidedicated/powerbi/embedded-capacity?view=azure-cli-latest#ext-powerbidedicated-az-powerbi-embedded-capacity-create) 命令创建容量。
+使用 [az Power BI embedded-capacity create](/cli/azure/ext/powerbidedicated/powerbi/embedded-capacity#ext-powerbidedicated-az-powerbi-embedded-capacity-create) 命令创建容量。
 
 ```azurecli
 az powerbi embedded-capacity create --location westeurope
@@ -127,7 +127,7 @@ az powerbi embedded-capacity create --location westeurope
 
 ### <a name="delete-a-capacity-with-azure-cli"></a>使用 Azure CLI 删除容量
 
-若要使用 Azure CLI 删除容量，请使用 [az powerbi embedded-capacity delete](/cli/azure/ext/powerbidedicated/powerbi/embedded-capacity?view=azure-cli-latest#ext-powerbidedicated-az-powerbi-embedded-capacity-delete) 命令。
+若要使用 Azure CLI 删除容量，请使用 [az powerbi embedded-capacity delete](/cli/azure/ext/powerbidedicated/powerbi/embedded-capacity#ext-powerbidedicated-az-powerbi-embedded-capacity-delete) 命令。
 
 ```azurecli
 az powerbi embedded-capacity delete --name
@@ -136,7 +136,7 @@ az powerbi embedded-capacity delete --name
 
 ### <a name="manage-your-capacity-with-azure-cli"></a>使用 Azure CLI 管理容量
 
-可以在 [az powerbi](/cli/azure/ext/powerbidedicated/powerbi?view=azure-cli-latest) 中查看所有 Power BI Embedded Azure CLI 命令。
+可以在 [az powerbi](/cli/azure/ext/powerbidedicated/powerbi) 中查看所有 Power BI Embedded Azure CLI 命令。
 
 # <a name="arm-template"></a>[ARM 模板](#tab/ARM-template)
 

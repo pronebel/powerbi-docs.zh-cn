@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: pbi-transform-model
 ms.topic: conceptual
 ms.date: 10/15/2019
-ms.openlocfilehash: 32e6cccf738d85ed58922c199c3a6093a54019db
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: 7aeae77efeadfa3b39f9c39cadc36b2a046286b2
+ms.sourcegitcommit: eeaf607e7c1d89ef7312421731e1729ddce5a5cc
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96413785"
+ms.lasthandoff: 01/05/2021
+ms.locfileid: "97888552"
 ---
 # <a name="model-relationships-in-power-bi-desktop"></a>Power BI Desktop 中的模型关系
 
@@ -146,21 +146,21 @@ _假设引用完整性_ 属性仅适用于基于同一数据源的两个 DirectQ
 
 Import 或 DirectQuery 模型从 Vertipaq 缓存或源数据库中获取其所有数据。 在这两个实例中，Power BI 都能确定某个关系的“一”侧是否存在。
 
-但是，Composite 模型可能由使用不同存储模式（导入、DirectQuery 或双重）或多个 DirectQuery 源的表组成。 每个源（包括 Import 数据的 Vertipaq 缓存）都被视为一个 _数据岛_。 然后，可以将模型关系分为 _岛内_ 或 _跨岛_ 两种。 岛内关系是指在一个数据岛中关联两个表，而跨岛关系是指关联不同数据岛中的表。 请注意，Import 或 DirectQuery 模型中的关系始终是岛内关系。
+但是，Composite 模型可能由使用不同存储模式（导入、DirectQuery 或双重）或多个 DirectQuery 源的表组成。 每个源（包括 Import 数据的 Vertipaq 缓存）都被视为一个源组。 这样，就可以将模型关系分类为源组内或各源组间/跨源组 。 源组内关系是在源组内部关联两个表，而源组间/跨源组间关系是将不同源组中的表相关联。 请注意，Import 或 DirectQuery 模型中的关系始终颞部源组。
 
 让我们看一个 Composite 模型的示例。
 
-:::image type="content" source="media/desktop-relationships-understand/data-island-example.png" alt-text="由两个岛组成的 Composite 模型示例。":::
+:::image type="content" source="media/desktop-relationships-understand/source-group-example.png" alt-text="由两个源组组成的 Composite 模型示例。":::
 
-在此示例中，Composite 模型由两个岛组成：Vertipaq 数据岛和 DirectQuery 源数据岛。 Vertipaq 数据岛包含三个表，而 DirectQuery 源数据岛包含两个表。 该示例中存在一个跨岛关系，即，将 Vertipaq 数据岛中的表关联到 DirectQuery 源数据岛中的表。
+在此示例中，Composite 模型由两个源组组成：Vertipaq 源组和 DirectQuery 源组。 Vertipaq 源组包含三个表，而 DirectQuery 源组包含两个表。 该示例中存在一个跨源组关系，即将 Vertipaq 源组中的表关联到 DirectQuery 源组中的表。
 
 ### <a name="regular-relationships"></a>常规关系
 
-当查询引擎可以确定关系的“一”侧时，模型关系为“常规”。 它已确认“一”侧列包含唯一值。 所有一对多的岛内关系都是常规关系。
+当查询引擎可以确定关系的“一”侧时，模型关系为“常规”。 它已确认“一”侧列包含唯一值。 所有一对多的源组内关系都是常规关系。
 
-下面的示例中有两个常规关系，均标记为“R”。关系包括 Vertipaq 岛中包含的一对多关系和 DirectQuery 源中包含的一对多关系。
+下面的示例中有两个常规关系，均标记为“R”。关系包括 Vertipaq 源组中包含的一对多关系和 DirectQuery 源中包含的一对多关系。
 
-:::image type="content" source="media/desktop-relationships-understand/data-island-example-regular.png" alt-text="由两个带有常规关系标记的岛组成的 Composite 模型示例。":::
+:::image type="content" source="media/desktop-relationships-understand/source-group-example-regular.png" alt-text="由两个带有常规关系标记的源组组成的 Composite 模型示例。":::
 
 对于 Import 模型，其所有数据都存储在 Vertipaq 缓存中，在数据刷新时会为每​​个常规关系创建一个数据结构。 数据结构由所有列到列值的索引映射组成，其用途是在查询时加快表的联接速度。
 
@@ -171,7 +171,7 @@ Import 或 DirectQuery 模型从 Vertipaq 缓存或源数据库中获取其所�
 
 对于一对多关系，使用左外部联接语义从“多”侧到“一”侧进行表扩展。 当从“多”侧到“一”侧的匹配值不存在时，会向“一”侧表添加一个空白虚拟行。
 
-表扩展也适用于一对一的岛内关系，但要使用完全外部联接语义。 它确保必要时在任一侧添加空白虚拟行。
+表扩展也适用于一对一的源组内关系，但要使用完全外部联接语义。 它确保必要时在任一侧添加空白虚拟行。
 
 空白虚拟行实际上是 _未知成员_。 未知成员表示引用完整性冲突，其中“多”侧值没有对应的“一”侧值。 理想情况下，不应存在这些空白行，可以通过清理或修复源数据来消除它们。
 
@@ -186,11 +186,11 @@ Import 或 DirectQuery 模型从 Vertipaq 缓存或源数据库中获取其所�
 当没有确定的“一”侧时，模型关系为“有限”。 这种情况可能有两个原因：
 
 - 该关系使用多对多基数类型（即使其中一列或两列都包含唯一值）
-- 该关系跨岛（这种情况仅适用于 Composite 模型）
+- 该关系跨源组（这种情况仅适用于 Composite 模型）
 
-下面的示例中有两个有限关系，均标记为“L”。这两个关系包括一对多跨岛关系和 Vertipaq 岛中包含的多对多关系。
+下面的示例中有两个有限关系，均标记为“L”。这两个关系包括一对多跨源组关系和 Vertipaq 源组中包含的多对多关系。
 
-:::image type="content" source="media/desktop-relationships-understand/data-island-example-limited.png" alt-text="由两个带有有限关系标记的岛组成的 Composite 模型示例。":::
+:::image type="content" source="media/desktop-relationships-understand/source-group-example-limited.png" alt-text="由两个带有有限关系标记的源组组成的 Composite 模型示例。":::
 
 对于 Import 模型，永远不会为有限关系创建数据结构。 这意味着必须在查询时解析表联接。
 
@@ -202,7 +202,7 @@ Import 或 DirectQuery 模型从 Vertipaq 缓存或源数据库中获取其所�
 - 实施 RLS 时具有拓扑限制
 
 > [!NOTE]
-> 在 Power BI Desktop 模型视图中，并非始终能够确定模型关系是常规还是有限。 多对多关系永远都是有限关系，就像跨岛关系的一对多关系一样。 若要确定是否是跨岛关系，需检查表存储模式和数据源以得出正确的确定结果。
+> 在 Power BI Desktop 模型视图中，并非始终能够确定模型关系是常规还是有限。 多对多关系永远都是有限关系，就像跨源组关系的一对多关系一样。 若要确定是否是跨源组关系，需检查表存储模式和数据源以得出正确的确定结果。
 
 ### <a name="precedence-rules"></a>优先规则
 
@@ -216,10 +216,10 @@ Import 或 DirectQuery 模型从 Vertipaq 缓存或源数据库中获取其所�
 
 以下列表对筛选器传播性能（从最快到最慢）进行了排序：
 
-1. 一对多岛内关系
+1. 一对多的源组内关系
 2. 多对多基数关系
 3. 使用中间表实现的多对多模型关系，并且涉及至少一个双向关系
-4. 跨岛关系
+4. 跨源组关系
 
 ## <a name="next-steps"></a>后续步骤
 

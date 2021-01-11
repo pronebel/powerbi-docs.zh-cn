@@ -1,6 +1,6 @@
 ---
-title: Power BI 视觉对象 API 更改日志
-description: 本文介绍不同版本的 Power BI 视觉对象 API 中的主要更改
+title: Power BI 嵌入式分析中用于增强嵌式入 BI 见解的 Power BI 视觉对象 API 更改日志
+description: 本文介绍不同版本的 Power BI 视觉对象 API 中的主要更改。 使用 Power BI 嵌入式分析改进嵌入式 BI 见解。
 author: KesemSharabi
 ms.author: kesharab
 ms.reviewer: sranins
@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: reference
 ms.date: 03/13/2019
-ms.openlocfilehash: c43542bc6c2bb0699403062f68024f9718bbbb60
-ms.sourcegitcommit: 54e571a10b0fdde5cd6036017eac9ef228de5116
+ms.openlocfilehash: 4ed42f8c9c3acf740b68bf6c28aaa201efb0d5ba
+ms.sourcegitcommit: 932f6856849c39e34229dc9a49fb9379c56a888a
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/24/2020
-ms.locfileid: "92501940"
+ms.lasthandoff: 01/06/2021
+ms.locfileid: "97927129"
 ---
 # <a name="power-bi-visuals-api-changelog"></a>Power BI 视觉对象 API 更改日志
 此页面包含 API 版本的快速摘要。 此处列出的版本被视为稳定版本，不会更改。
@@ -37,12 +37,13 @@ ms.locfileid: "92501940"
 ## <a name="api-v230"></a>API v2.3.0
   * [登陆页 API](./landing-page.md)
   * [本地存储 API](./local-storage.md)
-  * 元组筛选器 API（多列筛选器） [](./filter-api.md#the-tuple-filter-api-multi-column-filter)
-  * 呈现事件 API [](./event-service.md#render-events-in-power-bi-visuals)
+  * **元组筛选器 API（多列筛选器） [](./filter-api.md#the-tuple-filter-api-multi-column-filter)**
+  * **呈现事件 API [](./event-service.md#render-events-in-power-bi-visuals)**
 
 ## <a name="api-v220"></a>API v2.2.0
   * 支持 **[从数据视图还原 JSON 筛选器](./filter-api.md#restore-the-json-filter-from-the-data-view)**
-  * ContextMenu API [](./context-menu.md)
+  * **ContextMenu API [](./context-menu.md)**
+  * 支持[钻取](../../create-reports/desktop-drillthrough.md)功能
 
 ## <a name="api-v210"></a>API v2.1.0
   * 性能增强：
@@ -66,7 +67,7 @@ ms.locfileid: "92501940"
 * `proto` 属性不再将隐藏的元数据/数据存储在 dataView 中。 通过 `proto` 访问属性的视觉对象可能会被此更新中断。
 
 ## <a name="api-v1130"></a>API v1.13.0
-* 支持 **同步切片器 [](./enable-sync-slicers.md)** ，请注意，由于 PBI 当前代码状态，此方法仅适用于单字段切片器， [了解更多信息](../../visuals/power-bi-visualization-slicers.md)。
+* 支持 **同步切片器 [](./enable-sync-slicers.md)** ，请注意，由于 PBI 当前代码状态，此方法仅适用于单字段切片器，[了解更多信息](../../visuals/power-bi-visualization-slicers.md)。
 * 辅助功能：[高对比度支持](./high-contrast-support.md) 
 * 辅助功能：允许键盘焦点标志
 

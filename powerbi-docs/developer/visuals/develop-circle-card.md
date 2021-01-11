@@ -1,6 +1,6 @@
 ---
-title: 了解如何使用圆形卡片纸牌视觉对象作为示例，开发自己的 Power BI 视觉对象
-description: 本教程介绍如何开发 Power BI 视觉对象
+title: 了解如何使用圆形卡片纸牌视觉对象作为示例，开发自己的 Power BI 视觉对象以增强嵌入式 BI 见解
+description: 本教程介绍如何开发 Power BI 视觉对象。 使用 Power BI 嵌入式分析改进嵌入式 BI 见解。
 author: KesemSharabi
 ms.author: kesharab
 ms.reviewer: ''
@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: tutorial
 ms.date: 09/02/2020
-ms.openlocfilehash: ff73c07fb08e80938fae34c19205885722c33672
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: 0bfc36a37dbcc4c595ea467eb3b365c30d4ed781
+ms.sourcegitcommit: eeaf607e7c1d89ef7312421731e1729ddce5a5cc
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96418707"
+ms.lasthandoff: 01/05/2021
+ms.locfileid: "97885628"
 ---
 # <a name="tutorial-develop-a-power-bi-circle-card-visual"></a>教程：开发 Power BI 圆形卡片视觉对象
 

@@ -1,6 +1,6 @@
 ---
-title: Power BI 嵌入式分析容量计划
-description: Power BI 嵌入式分析中的容量计划。
+title: Power BI 嵌入式分析中用于增强嵌入式 BI 见解的容量计划
+description: 了解如何在 Power BI 嵌入式分析中计划容量。 使用 Power BI 嵌入式分析改进嵌入式 BI 见解。
 author: KesemSharabi
 ms.author: kesharab
 ms.reviewer: ''
@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 03/03/2020
-ms.openlocfilehash: b172b48517ccc8c55821fa8e8217d5e2df398b2d
-ms.sourcegitcommit: bbf7e9341a4e1cc96c969e24318c8605440282a5
+ms.openlocfilehash: 69eeae495f66a4f41f25d5234f1b995d1e3d4986
+ms.sourcegitcommit: eeaf607e7c1d89ef7312421731e1729ddce5a5cc
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/11/2020
-ms.locfileid: "97098343"
+ms.lasthandoff: 01/05/2021
+ms.locfileid: "97888825"
 ---
 # <a name="capacity-planning-in-power-bi-embedded-analytics"></a>Power BI 嵌入式分析中的容量计划
 

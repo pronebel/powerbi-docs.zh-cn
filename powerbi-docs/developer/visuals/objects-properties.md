@@ -1,6 +1,6 @@
 ---
-title: Power BI 视觉对象的对象和属性
-description: 本文介绍 Power BI 视觉对象的可自定义属性。
+title: Power BI 嵌入式分析的 Power BI 视觉对象中用于增强嵌入式 BI 见解的对象和属性
+description: 本文介绍 Power BI 视觉对象的可自定义属性。 使用 Power BI 嵌入式分析改进嵌入式 BI 见解。
 author: KesemSharabi
 ms.author: kesharab
 ms.reviewer: sranins
@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: conceptual
 ms.date: 06/18/2019
-ms.openlocfilehash: ae548abd0d579414a69b0d970213ff9d69ff2f08
-ms.sourcegitcommit: 9d033abd9c01a01bba132972497dda428d7d5c12
+ms.openlocfilehash: 4596465fcd9f59768b18282ec3ad39d2531b7768
+ms.sourcegitcommit: eeaf607e7c1d89ef7312421731e1729ddce5a5cc
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/25/2020
-ms.locfileid: "96120203"
+ms.lasthandoff: 01/05/2021
+ms.locfileid: "97885950"
 ---
 # <a name="objects-and-properties-of-power-bi-visuals"></a>Power BI 视觉对象的对象和属性
 
@@ -30,7 +30,7 @@ ms.locfileid: "96120203"
 }
 ```
 
-## <a name="display-name"></a>显示名
+## <a name="display-name"></a>显示名称
 
 `displayName` 是将显示在属性窗格中的名称。
 
@@ -50,7 +50,7 @@ ms.locfileid: "96120203"
 > [!NOTE]
 > `show` 是一个特殊属性，允许通过开关来切换对象。
 
-示例:
+示例：
 
 ```json
 "properties": {
@@ -83,7 +83,7 @@ export interface ValueTypeDescriptor {
 #### <a name="structural-type-descriptor"></a>结构类型描述符
 
 `StructuralTypeDescriptor` 类型主要用于数据绑定对象。
-最常见的 `StructuralTypeDescriptor` 类型为填充  。
+最常见的 `StructuralTypeDescriptor` 类型为填充。
 
 ```typescript
 export interface StructuralTypeDescriptor {
@@ -93,7 +93,7 @@ export interface StructuralTypeDescriptor {
 
 ## <a name="gradient-property"></a>渐变属性
 
-渐变属性不能设置为标准属性。 相反，需要设置一个规则，以替代颜色选取器属性（填充类型）  。
+渐变属性不能设置为标准属性。 相反，需要设置一个规则，以替代颜色选取器属性（填充类型）。
 
 以下代码中显示了一个示例：
 
@@ -136,9 +136,9 @@ export interface StructuralTypeDescriptor {
 }
 ```
 
-请注意填充和 fillRule 属性   。 第一个属性是颜色选取器，第二个属性是在满足规则条件时将替代“填充”属性 `visually` 的渐变替代规则。
+请注意填充和 fillRule 属性。 第一个属性是颜色选取器，第二个属性是在满足规则条件时将替代“填充”属性 `visually` 的渐变替代规则。
 
-填充属性和替代规则之间的此链接在 fillRule 属性的 `"rule"`>`"output"` 部分中设置。
+填充属性和替代规则之间的此链接在 fillRule 属性的 `"rule"`>`"output"` 部分中设置 。
 
 `"Rule"`>`"InputRole"` 属性设置触发规则（条件）的数据角色。 在此示例中，如果数据角色 `"Gradient"` 包含数据，将为 `"fill"` 属性应用该规则。
 
@@ -202,7 +202,7 @@ public enumerateObjectInstances(options: EnumerateVisualObjectInstancesOptions):
 
 `enumerateObjectInstances` 中的选择器决定每个对象在 dataView 中的绑定位置。 有四种不同选项。
 
-#### <a name="static"></a>静态
+#### <a name="static"></a>static
 
 此对象绑定到元数据 `dataviews[index].metadata.objects`，如下所示。
 
@@ -243,7 +243,7 @@ selector: {
 
 ##### <a name="example"></a>示例
 
-以下示例显示具有一个属性（“填充”）的 customColor 对象的 objectEnumeration 的外观  。 我们希望将此对象静态绑定到 `dataViews[index].metadata.objects`，如下所示：
+以下示例显示具有一个属性（“填充”）的 customColor 对象的 objectEnumeration 的外观。 我们希望将此对象静态绑定到 `dataViews[index].metadata.objects`，如下所示：
 
 ```typescript
 objectEnumeration.push({

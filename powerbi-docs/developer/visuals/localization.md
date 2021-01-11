@@ -1,6 +1,6 @@
 ---
-title: 在 Power BI 中为 Power BI 视觉对象添加区域设置
-description: 了解视觉对象如何检索 Power BI 区域设置，以将其内容本地化为相关语言。
+title: 在 Power BI 嵌入式分析中为 Power BI 视觉对象添加 Power BI 区域设置以增强嵌入式 BI 见解
+description: 了解视觉对象如何检索 Power BI 区域设置，以将其内容本地化为相关语言。 使用 Power BI 嵌入式分析改进嵌入式 BI 见解。
 author: KesemSharabi
 ms.author: kesharab
 manager: rkarlin
@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: reference
 ms.date: 06/18/2019
-ms.openlocfilehash: 7492b70b9a82fe6c5579c4251000e9af7509e8fb
-ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
+ms.openlocfilehash: 4df09979eeae476578b247e729a31f5f5c9c9baa
+ms.sourcegitcommit: eeaf607e7c1d89ef7312421731e1729ddce5a5cc
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/06/2020
-ms.locfileid: "91746046"
+ms.lasthandoff: 01/05/2021
+ms.locfileid: "97888204"
 ---
 # <a name="add-the-locale-in-power-bi-for-power-bi-visuals"></a>在 Power BI 中为 Power BI 视觉对象添加区域设置
 

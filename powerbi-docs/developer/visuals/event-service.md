@@ -1,6 +1,6 @@
 ---
-title: 在 Power BI 视觉对象中呈现事件
-description: Power BI 视觉对象可以通知 Power BI，它们已可导出到 PowerPoint 或 PDF。
+title: 在 Power BI 嵌入式分析的 Power BI 视觉对象中呈现事件以增强嵌入式 BI 见解
+description: Power BI 视觉对象可以通知 Power BI，它们已可导出到 PowerPoint 或 PDF。 使用 Power BI 嵌入式分析改进嵌入式 BI 见解。
 author: KesemSharabi
 ms.author: kesharab
 ms.reviewer: rkarlin
@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: reference
 ms.date: 06/18/2019
-ms.openlocfilehash: c54aaa92f3463ce1102866c8d3b69532c8b25cf7
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 77ed686b78a96717193e594e9f846d4204d8b5e8
+ms.sourcegitcommit: eeaf607e7c1d89ef7312421731e1729ddce5a5cc
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "79380240"
+ms.lasthandoff: 01/05/2021
+ms.locfileid: "97885076"
 ---
 # <a name="render-events-in-power-bi-visuals"></a>在 Power BI 视觉对象中呈现事件
 
@@ -21,7 +21,7 @@ ms.locfileid: "79380240"
 
 呈现开始时，Power BI 视觉对象代码调用 `renderingStarted` 方法以指示呈现进程已开始。
 
-如果呈现已成功完成， Power BI 视觉对象代码将立即调用 `renderingFinished` 方法，通知侦听器（主要是“导出到 PDF”和“导出到 PowerPoint”）视觉对象的映像已准备好进行导出   。
+如果呈现已成功完成， Power BI 视觉对象代码将立即调用 `renderingFinished` 方法，通知侦听器（主要是“导出到 PDF”和“导出到 PowerPoint”）视觉对象的映像已准备好进行导出。
 
 如果在此过程中出现问题，Power BI 视觉对象则无法成功呈现。 要通知侦听器呈现过程尚未完成，Power BI 视觉对象代码应调用 `renderingFailed` 方法。 此方法还提供可选字符串用于说明失败原因。
 

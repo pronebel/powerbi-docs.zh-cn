@@ -1,6 +1,6 @@
 ---
-title: 生成条形图
-description: 学习此分步指南后，可使用代码生成简单的 Power BI 条形图视觉对象。
+title: 在 Power BI 嵌入式分析中构建条形图以增强嵌入式 BI 见解
+description: 学习此分步指南后，可使用代码生成简单的 Power BI 条形图视觉对象。 使用 Power BI 嵌入式分析改进嵌入式 BI 见解。
 author: KesemSharabi
 ms.author: kesharab
 ms.reviewer: sranins
@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: reference
 ms.date: 05/01/2020
-ms.openlocfilehash: 0f8f97e5f707e813d316ae4d5388f0793f8c1aa0
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: a3210c2fdb86632d9fa47b4c9c4add6fff5f052e
+ms.sourcegitcommit: eeaf607e7c1d89ef7312421731e1729ddce5a5cc
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83149072"
+ms.lasthandoff: 01/05/2021
+ms.locfileid: "97889078"
 ---
 # <a name="build-a-bar-chart"></a>生成条形图
 

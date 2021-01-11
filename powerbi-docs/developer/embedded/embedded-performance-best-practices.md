@@ -1,6 +1,6 @@
 ---
-title: Power BI Embedded 性能最佳做法
-description: 本文提供嵌入式分析最佳做法相关指导
+title: 用于增强嵌入式 BI 见解的 Power BI 嵌入式分析性能最佳做法
+description: 本文提供 Power BI 嵌入式分析最佳做法相关指导。 使用 Power BI 嵌入式分析改进嵌入式 BI 见解。
 author: KesemSharabi
 ms.author: kesharab
 ms.reviewer: ''
@@ -8,14 +8,14 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 12/12/2018
-ms.openlocfilehash: 2d33ed5a707a3b4bc3e0a77a38128e7e00154798
-ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
+ms.openlocfilehash: f8bf41ae9a4b6f2e16aae2c05df8fa4448a0457c
+ms.sourcegitcommit: eeaf607e7c1d89ef7312421731e1729ddce5a5cc
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/06/2020
-ms.locfileid: "91746668"
+ms.lasthandoff: 01/05/2021
+ms.locfileid: "97888779"
 ---
-# <a name="power-bi-embedded-performance-best-practices"></a>Power BI Embedded 性能最佳做法
+# <a name="power-bi-embedded-analytics-performance-best-practices"></a>Power BI 嵌入式分析性能最佳做法
 
 本文提供在应用程序中更快呈现报表、仪表板和磁贴的相关建议。
 
@@ -107,5 +107,5 @@ ms.locfileid: "91746668"
 ## <a name="next-steps"></a>后续步骤
 
 * [Power BI 优化指南](../../guidance/power-bi-optimization.md)
-* [如何对 Power BI Embedded 问题进行故障排除](embedded-troubleshoot.md)
-* [Power BI Embedded 常见问题解答](embedded-faq.md)
+* [如何对 Power BI 嵌入式分析问题进行故障排除](embedded-troubleshoot.md)
+* [Power BI 嵌入式分析常见问题解答](embedded-faq.md)

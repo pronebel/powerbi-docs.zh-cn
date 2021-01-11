@@ -1,6 +1,6 @@
 ---
-title: 对 Power BI 嵌入式分析内容使用行级安全性
-description: 了解在应用程序中嵌入 Power BI 内容所需的步骤。
+title: 对 Power BI 嵌入式分析内容使用行级安全性以增强嵌入式 BI 见解
+description: 了解在 Power BI 嵌入式分析应用程序中嵌入 Power BI 内容以增强嵌入式 BI 见解所需的步骤。
 author: KesemSharabi
 ms.author: kesharab
 ms.reviewer: nishalit
@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 11/04/2019
-ms.openlocfilehash: 00f818754c560768392aec0aa1df4555fe5d7ffa
-ms.sourcegitcommit: bbf7e9341a4e1cc96c969e24318c8605440282a5
+ms.openlocfilehash: bd62a9da0c773f39d7cef91a405340b0ba403130
+ms.sourcegitcommit: eeaf607e7c1d89ef7312421731e1729ddce5a5cc
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/11/2020
-ms.locfileid: "97098297"
+ms.lasthandoff: 01/05/2021
+ms.locfileid: "97885053"
 ---
 # <a name="implementing-row-level-security-in-embedded-paginated-reports"></a>在嵌入的分页报表中实现行级别安全性
 

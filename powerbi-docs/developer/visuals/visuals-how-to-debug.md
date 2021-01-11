@@ -1,6 +1,6 @@
 ---
-title: 如何调试 Power BI 视觉对象
-description: 本文介绍了如何调试 Power BI 视觉对象。
+title: 如何在 Power BI 嵌入式分析中调试 Power BI 视觉对象以增强嵌入式 BI 见解
+description: 本文介绍了如何调试 Power BI 视觉对象。 使用 Power BI 嵌入式分析改进嵌入式 BI 见解。
 author: KesemSharabi
 ms.author: kesharab
 ms.reviewer: sranins
@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: how-to
 ms.date: 02/14/2020
-ms.openlocfilehash: f3a3551db1d7d995db0194ff7fa9b7141415c9eb
-ms.sourcegitcommit: d153cfc0ce559480c53ec48153a7e131b7a31542
+ms.openlocfilehash: 0005fe6cfd14f0377cdd7ff648aaa3c5cc96a751
+ms.sourcegitcommit: eeaf607e7c1d89ef7312421731e1729ddce5a5cc
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/29/2020
-ms.locfileid: "91525538"
+ms.lasthandoff: 01/05/2021
+ms.locfileid: "97888365"
 ---
 # <a name="how-to-debug-power-bi-visuals"></a>如何调试 Power BI 视觉对象
 

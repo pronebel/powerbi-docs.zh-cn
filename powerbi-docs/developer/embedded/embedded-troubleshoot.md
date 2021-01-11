@@ -1,6 +1,6 @@
 ---
-title: Power BI 嵌入式分析应用程序疑难解答
-description: 本文介绍了从 Power BI 嵌入内容时可能会遇到的一些常见问题。
+title: 有关用于实现更出色嵌入式 BI 见解的 Power BI 嵌入式分析应用程序的疑难解答
+description: 本文介绍了从 Power BI 嵌入内容时可能会遇到的一些常见问题。 使用 Power BI 嵌入式分析改进嵌入式 BI 见解。
 author: KesemSharabi
 ms.author: kesharab
 ms.reviewer: ''
@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: troubleshooting
 ms.date: 02/05/2019
-ms.openlocfilehash: f46bdf5aec254763257fa4b121b4b8c135a0d58a
-ms.sourcegitcommit: bbf7e9341a4e1cc96c969e24318c8605440282a5
+ms.openlocfilehash: db2ae20436eddc4cb06287b6266488b65588dcb5
+ms.sourcegitcommit: eeaf607e7c1d89ef7312421731e1729ddce5a5cc
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/11/2020
-ms.locfileid: "97098067"
+ms.lasthandoff: 01/05/2021
+ms.locfileid: "97887192"
 ---
 # <a name="troubleshoot-your-embedded-application"></a>嵌入式应用程序疑难解答
 
@@ -119,7 +119,7 @@ _*_ （AADSTS70002:验证凭据时出错。 AADSTS50053:使用错误用户 ID �
 
 若要创建此策略，需要具有在其中创建和分配此策略的目录的全局管理员身份。 以下为创建策略并将其分配到此应用程序的 SP 的示例脚本：
 
-1. 安装 [Azure AD 预览版 PowerShell 模块](/powershell/azure/active-directory/install-adv2?view=azureadps-2.0)。
+1. 安装 [Azure AD 预览版 PowerShell 模块](/powershell/azure/active-directory/install-adv2)。
 
 2. 逐行运行以下 PowerShell 命令（确保变量 $sp 的结果只有一个应用程序）。
 

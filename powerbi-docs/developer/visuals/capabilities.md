@@ -1,6 +1,6 @@
 ---
-title: Power BI 视觉对象的功能和属性
-description: 本文介绍 Power BI 视觉对象的功能和属性。
+title: Power BI 嵌入式分析的 Power BI 视觉对象中用于增强嵌入式 BI 见解的功能和属性
+description: 本文介绍 Power BI 视觉对象的功能和属性。 使用 Power BI 嵌入式分析改进嵌入式 BI 见解。
 author: KesemSharabi
 ms.author: kesharab
 ms.reviewer: sranins
@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: conceptual
 ms.date: 06/18/2019
-ms.openlocfilehash: e3af800696fd593f092cc46f9a59df2d0a5f94e2
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: e0fb17053ff8e6d17321994d515d8b69dbe8e22b
+ms.sourcegitcommit: eeaf607e7c1d89ef7312421731e1729ddce5a5cc
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "79380287"
+ms.lasthandoff: 01/05/2021
+ms.locfileid: "97888250"
 ---
 # <a name="capabilities-and-properties-of-power-bi-visuals"></a>Power BI 视觉对象的功能和属性 
 
@@ -44,7 +44,7 @@ ms.locfileid: "79380287"
     * `Grouping`：用于对度量值字段进行分组的离散值。
     * `Measure`：数值数据值。
     * `GroupingOrMeasure`：可用作组别或度量值的值。
-* **displayName**：在“属性”窗格中向用户显示的名称  。
+* **displayName**：在“属性”窗格中向用户显示的名称。
 * **description**：字段的简短说明（可选）。
 * **requiredTypes**：此数据角色所需的数据类型。 不匹配的值设置为 null（可选）。
 * **preferredTypes**：此数据角色的首选数据类型（可选）。
@@ -197,18 +197,18 @@ DataViewMappings 属性描述数据角色如何彼此相关，并允许你为它
 
 ## <a name="handle-partial-highlighting-supportshighlight"></a>处理部分突出显示：supportsHighlight
 
-默认情况下，此值设置为 `false`，这意味着选择页面上的某些内容时，会自动筛选值。 此自动筛选会进而更新视觉对象以仅显示所选值。 如果要显示完整的数据，且只突出显示选定项，则需要在 capabilities.json 文件中将 `supportsHighlight` 设置为 `true` 。
+默认情况下，此值设置为 `false`，这意味着选择页面上的某些内容时，会自动筛选值。 此自动筛选会进而更新视觉对象以仅显示所选值。 如果要显示完整的数据，且只突出显示选定项，则需要在 capabilities.json 文件中将 `supportsHighlight` 设置为 `true`。
 
 有关详细信息，请参阅[突出显示 Power BI 视觉对象中的数据点](highlight.md)。
 
 ## <a name="handle-advanced-edit-mode-advancededitmodesupport"></a>处理高级编辑模式：advancedEditModeSupport
 
-视觉对象可以声明其高级编辑模式支持。 默认情况下，除非 capabilities json 文件中另有说明，否则视觉对象不支持高级编辑模式  。
+视觉对象可以声明其高级编辑模式支持。 默认情况下，除非 capabilities json 文件中另有说明，否则视觉对象不支持高级编辑模式。
 
 有关详细信息，请参阅 [Power BI 视觉对象中的高级编辑模式](advanced-edit-mode.md)。
 
 ## <a name="data-sorting-options-for-visual-sorting"></a>视觉对象的数据排序选项：sorting
 
-视觉对象可通过其功能定义其排序行为。 默认情况下，除非 capabilities.json 文件中另有说明，否则视觉对象不支持修改其排序顺序  。
+视觉对象可通过其功能定义其排序行为。 默认情况下，除非 capabilities.json 文件中另有说明，否则视觉对象不支持修改其排序顺序。
 
 有关详细信息，请参阅 [Power BI 视觉对象的排序选项](sort-options.md)。

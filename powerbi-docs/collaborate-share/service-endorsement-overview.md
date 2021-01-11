@@ -8,12 +8,12 @@ ms.subservice: powerbi-eim
 ms.topic: conceptual
 ms.date: 10/26/2020
 LocalizationGroup: Share your work
-ms.openlocfilehash: 65a83bf0e91d4f3004445ffcd8cd6f78d5a77fc3
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: 2389290fedd26c9e88af614e1fbf6afb29c02d35
+ms.sourcegitcommit: 932f6856849c39e34229dc9a49fb9379c56a888a
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96411830"
+ms.lasthandoff: 01/06/2021
+ms.locfileid: "97926796"
 ---
 # <a name="endorsement---promoting-and-certifying-power-bi-content"></a>认可 - 推广和认证 Power BI 内容
 
@@ -27,11 +27,15 @@ ms.locfileid: "96411830"
 
     任何内容所有者或任何对内容所在工作区具有写入权限的成员，只要认为内容有共享价值，他们就可以轻松地推广该内容。
 
+    [了解如何推广内容](service-endorse-content.md#promote-content)。
+
 * **验证**：认证意味着该内容符合组织的质量标准，并可被视为可靠且权威的内容，可供在整个组织中使用。
 
-    只有一组选定的审阅者（由 Power BI 管理员定义）有权认证内容。 如果内容所有者希望自己的内容获得认证，但自己无权对其进行认证，则需要遵循其组织的准则来认证其内容。
+    只有[一组选定的审阅者（由 Power BI 管理员定义）](../admin/service-admin-setup-certification.md)有权认证内容。 如果内容所有者希望自己的内容获得认证，但自己无权对其进行认证，则需要遵循其组织的准则来认证其内容。
 
-    仅当 Power BI 管理员已为组织启用并配置了认证后，认证才可用。
+    了解如何[认证内容](service-endorse-content.md#certify-content)或[请求证书](service-endorse-content.md#request-content-certification)。
+
+    仅当 Power BI 管理员已为组织[启用并配置](../admin/service-admin-setup-certification.md)了认证后，认证才可用。
 
 下图显示了当你搜索数据集，将其作为生成报表的依据时，如何清楚地识别认可的内容（已推广和已认证）。
 

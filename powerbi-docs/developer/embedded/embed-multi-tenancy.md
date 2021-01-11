@@ -1,6 +1,6 @@
 ---
-title: 使用 Power BI 嵌入式分析来管理多租户
-description: 使用嵌入式分析设计多租户应用程序。
+title: 在 Power BI 嵌入式分析中管理多租户以增强嵌入式 BI 见解
+description: 在 Power BI 嵌入式分析中设计多租户应用程序，从而为客户提供更出色的嵌入式 BI 见解。
 author: KesemSharabi
 ms.author: kesharab
 ms.reviewer: nishalit
@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 01/11/2019
-ms.openlocfilehash: 377f509248dbd2368b74bb9645f001ff7c6a97c0
-ms.sourcegitcommit: 30d0668434283c633bda9ae03bc2aca75401ab94
+ms.openlocfilehash: 39256b3b57a43804478371606ca7336c484c7813
+ms.sourcegitcommit: eeaf607e7c1d89ef7312421731e1729ddce5a5cc
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/09/2020
-ms.locfileid: "96907270"
+ms.lasthandoff: 01/05/2021
+ms.locfileid: "97884823"
 ---
 # <a name="manage-multi-tenancy-with-power-bi-embedded-analytics"></a>使用 Power BI 嵌入式分析来管理多租户
 

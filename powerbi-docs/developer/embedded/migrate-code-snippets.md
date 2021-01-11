@@ -1,6 +1,6 @@
 ---
-title: 用于从 Power BI Embedded 迁移内容的代码片段
-description: 以下是内容迁移所需的一些基本操作代码片段
+title: 用于将内容从工作区集合迁移到 Power BI 嵌入式分析 Power BI Embedded 解决方案以增强嵌入式 BI 见解的代码片段
+description: 下面是一些内容迁移所需的基本操作代码片段。 使用 Power BI 嵌入式分析改进嵌入式 BI 见解。
 author: KesemSharabi
 ms.author: kesharab
 ms.reviewer: ''
@@ -8,22 +8,22 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: how-to
 ms.date: 02/05/2019
-ms.openlocfilehash: 9ed021ce95fd1e978916c188c93ca77fa88ccdb6
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: f6b6023ac77d007b07662e200d6f165d56d67628
+ms.sourcegitcommit: eeaf607e7c1d89ef7312421731e1729ddce5a5cc
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96416499"
+ms.lasthandoff: 01/05/2021
+ms.locfileid: "97888710"
 ---
-# <a name="code-snippets-for-migrating-content-from-power-bi-workspace-collection"></a>用于从 Power BI 工作区集合迁移内容的代码片段
+# <a name="code-snippets-for-migrating-content-from-power-bi-workspace-collection"></a>从 Power BI 工作区集合中迁移内容的代码片段
 
-以下是内容迁移所需的一些基本操作代码片段。 对于某些报表类型的相关流，请参阅[如何将 Power BI 工作区集合内容迁移到 Power BI Embedded](migrate-from-powerbi-embedded.md#content-migration)。
+下面是一些内容迁移所需的基本操作代码片段。 对于某些报表类型的相关流，请参阅[如何将 Power BI 工作区集合内容迁移到 Power BI Embedded](migrate-from-powerbi-embedded.md#content-migration)。
 
-可使用迁移工具  帮助将内容从 Power BI Embedded (PaaS) 复制到 Power BI 服务 (SaaS)。 尤其是有大量内容时。 有关详细信息，请参阅 [Power BI Embedded 迁移工具](migrate-tool.md)。
+可使用迁移工具帮助将内容从 Power BI Embedded (PaaS) 复制到 Power BI 服务 (SaaS)。 尤其是有大量内容时。 有关详细信息，请参阅 [Power BI Embedded 迁移工具](migrate-tool.md)。
 
-下面的代码是使用 C# 和 [Power BI .NET SDK](https://www.nuget.org/profiles/powerbi) 的示例。
+以下代码是使用 C# 和[Power BI.NET SDK](https://www.nuget.org/profiles/powerbi) 的示例。
 
-请确保使用以下命名空间来执行下面的代码片段。
+请确保使用下面的命名空间来执行以下代码片段。
 
 ```csharp
 using Microsoft.IdentityModel.Clients.ActiveDirectory;
@@ -127,7 +127,7 @@ using System.Threading.Tasks;
 
 ## <a name="set-directquery-credentials-in-saas-workspace"></a>在 SaaS 工作区中设置 DirectQuery 凭据
 
-为简单起见，我们将在此片段中使用未加密的凭据，同时也支持发送加密凭据。
+为简单起见，我们将在此代码段中使用未加密的凭据，同时也支持发送加密的凭据。
 
 ```csharp
     public class ConnectionString
@@ -164,7 +164,7 @@ using System.Threading.Tasks;
 
 ## <a name="push-dataset-and-report"></a>推送数据集和报表
 
-将需要为创建的数据集重新生成报表。
+需要重新为已创建的数据集生成报表。
 
 在此片段中，我们假设可推送的数据集已在 SaaS 环境的工作区中。 有关推送 API 的信息，请参阅[将数据推送到 Power BI 数据集](../automation/walkthrough-push-data.md)。
 

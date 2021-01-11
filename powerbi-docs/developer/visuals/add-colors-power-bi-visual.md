@@ -1,6 +1,6 @@
 ---
-title: 为 Power BI 视觉对象添加颜色
-description: 本文介绍如何为 Power BI 视觉对象添加颜色以及如何通过颜色处理视觉对象的数据点。
+title: 向 Power BI 视觉对象添加颜色以增强嵌入式 BI 见解
+description: 本文介绍如何为 Power BI 视觉对象添加颜色以及如何通过颜色处理视觉对象的数据点。 使用 Power BI 嵌入式分析改进嵌入式 BI 见解。
 author: KesemSharabi
 ms.author: kesharab
 ms.reviewer: sranins
@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: how-to
 ms.date: 03/27/2020
-ms.openlocfilehash: 3a68f3dedbef9e97b6c29d3a0923d43872a5f01a
-ms.sourcegitcommit: 50b21718a167c2b131313b4135c8034c6f027597
+ms.openlocfilehash: e6b6fb1dbc1397b93ac12692c8610e6f36d0b8bf
+ms.sourcegitcommit: eeaf607e7c1d89ef7312421731e1729ddce5a5cc
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/14/2020
-ms.locfileid: "92048800"
+ms.lasthandoff: 01/05/2021
+ms.locfileid: "97887974"
 ---
 # <a name="add-colors-to-your-power-bi-visuals"></a>为 Power BI 视觉对象添加颜色
 

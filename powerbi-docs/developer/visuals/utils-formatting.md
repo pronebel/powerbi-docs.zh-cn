@@ -1,6 +1,6 @@
 ---
-title: 关于在 Power BI 视觉对象中使用格式化实用工具的简介
-description: 本文介绍如何使用格式化实用工具设置值格式并将本地化应用到 Power BI 视觉对象中的值
+title: 关于在 Power BI 嵌入式分析的 Power BI 视觉对象中使用格式化 utils 以增强嵌入式 BI 见解的介绍
+description: 本文介绍如何使用格式化 utils 设置值格式并将本地化应用到 Power BI 视觉对象中的值。 使用 Power BI 嵌入式分析改进嵌入式 BI 见解。
 author: KesemSharabi
 ms.author: kesharab
 ms.reviewer: rkarlin
@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: reference
 ms.date: 06/18/2019
-ms.openlocfilehash: dc2d036ab1e3e3dab551269163ced2f066a71626
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 564f6587ff361e3b2860bafb4ae43bc19ad8c2ba
+ms.sourcegitcommit: eeaf607e7c1d89ef7312421731e1729ddce5a5cc
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "79378015"
+ms.lasthandoff: 01/05/2021
+ms.locfileid: "97887790"
 ---
 # <a name="formatting-utils"></a>格式化 utils
 
@@ -127,7 +127,7 @@ textMeasurementService.measureSvgTextHeight(textProperties);
 function estimateSvgTextBaselineDelta(textProperties: TextProperties): number;
 ```
 
-示例:
+示例：
 
 ```typescript
 import { textMeasurementService } from "powerbi-visuals-utils-formattingutils";
@@ -402,7 +402,7 @@ stringExtensions.startsWith("Power BI", "Power");
 // returns: true
 ```
 
-### <a name="contains"></a>包含
+### <a name="contains"></a>contains
 
 此函数检查字符串是否包含指定的 substring。
 
@@ -629,7 +629,7 @@ interface ValueFormatterOptions {
 }
 ```
 
-## <a name="create"></a>创建
+## <a name="create"></a>create
 
 此方法创建 IValueFormatter 的实例。
 

@@ -1,6 +1,6 @@
 ---
-title: 借助 Power BI API 可以做什么
-description: 借助 Power BI API 可以做什么
+title: 在 Power BI 嵌入式分析中若要改进嵌入式 BI 见解，可以使用 Power BI API 做什么？
+description: 可以使用 Power BI API 做什么？ 使用 Power BI 嵌入式分析改进嵌入式 BI 见解。
 author: KesemSharabi
 ms.author: kesharab
 ms.reviewer: ''
@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: overview
 ms.date: 03/25/2019
-ms.openlocfilehash: fd9d9991b55ec6611504c96a30cb6383b8ac1296
-ms.sourcegitcommit: 50b21718a167c2b131313b4135c8034c6f027597
+ms.openlocfilehash: 122028b2ac838763318ab5a0c4e6208138d93188
+ms.sourcegitcommit: eeaf607e7c1d89ef7312421731e1729ddce5a5cc
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/14/2020
-ms.locfileid: "92049260"
+ms.lasthandoff: 01/05/2021
+ms.locfileid: "97887606"
 ---
 # <a name="what-can-developers-do-with-the-power-bi-api"></a>开发人员可以使用 Power BI API 做什么？
 

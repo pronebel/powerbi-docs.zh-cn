@@ -1,6 +1,6 @@
 ---
-title: Power BI 视觉对象项目结构
-description: 本文介绍了 Power BI 视觉对象项目的文件夹和文件结构
+title: Power BI 嵌入式分析中用于增强嵌入式 BI 见解的 Power BI 视觉对象项目结构
+description: 本文介绍了 Power BI 视觉对象项目的文件夹和文件结构。 使用 Power BI 嵌入式分析改进嵌入式 BI 见解。
 author: KesemSharabi
 ms.author: kesharab
 ms.reviewer: ''
@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: conceptual
 ms.date: 01/12/2020
-ms.openlocfilehash: df7a2909e3ccd745fdaa990ba5281a723ef6360d
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: 4c946021138e49c0aed9668d9b3ea6079f458ccd
+ms.sourcegitcommit: eeaf607e7c1d89ef7312421731e1729ddce5a5cc
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96416706"
+ms.lasthandoff: 01/05/2021
+ms.locfileid: "97888020"
 ---
 # <a name="power-bi-visual-project-structure"></a>Power BI 视觉对象项目结构
 

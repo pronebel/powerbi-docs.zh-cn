@@ -1,6 +1,6 @@
 ---
-title: Power BI REST API 引用
-description: Power BI REST API 引用
+title: Power BI 嵌入式分析中用于增强嵌入式 BI 见解的 Power BI REST API 参考
+description: Power BI REST API 参考 使用 Power BI 嵌入式分析改进嵌入式 BI 见解。
 author: KesemSharabi
 ms.author: kesharab
 ms.reviewer: ''
@@ -8,19 +8,19 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: reference
 ms.date: 05/25/2018
-ms.openlocfilehash: 9624195458c965a652b889089ce7ef8521281c95
-ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
+ms.openlocfilehash: 8aed384befc1f4bdfad0c5339644ad002d609583
+ms.sourcegitcommit: eeaf607e7c1d89ef7312421731e1729ddce5a5cc
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/06/2020
-ms.locfileid: "91748922"
+ms.lasthandoff: 01/05/2021
+ms.locfileid: "97887560"
 ---
 # <a name="power-bi-rest-api-reference"></a>Power BI REST API 引用
 
 Power BI 是一种基于云的服务，可用于构建自定义仪表板应用程序。 Power BI REST API 是基于 REST 的 API，用于为服务使用的所有项目提供程序化访问，例如：
 * 数据集
 * 仪表板
-* Reports
+* 报表
 * 网关
 
 Power BI REST API 具有以下操作：

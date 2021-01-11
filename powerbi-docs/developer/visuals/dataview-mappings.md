@@ -1,6 +1,6 @@
 ---
-title: 了解 Power BI 视觉对象中的数据视图映射
-description: 本文介绍了 Power BI 如何在将数据传递给视觉对象之前对其进行转换。
+title: 了解 Power BI 嵌入式分析的 Power BI 视觉对象中用于增强嵌入式 BI 见解的数据视图映射
+description: 本文介绍了 Power BI 如何在将数据传递给视觉对象之前对其进行转换。 使用 Power BI 嵌入式分析改进嵌入式 BI 见解。
 author: KesemSharabi
 ms.author: kesharab
 ms.reviewer: sranins
@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: conceptual
 ms.date: 06/18/2019
-ms.openlocfilehash: 86572383e2e88f5a1efcf5126828e3365933cbc2
-ms.sourcegitcommit: be424c5b9659c96fc40bfbfbf04332b739063f9c
+ms.openlocfilehash: 063750445f3c8ef1fb50f77535ccf01295bd45ec
+ms.sourcegitcommit: eeaf607e7c1d89ef7312421731e1729ddce5a5cc
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "91635944"
+ms.lasthandoff: 01/05/2021
+ms.locfileid: "97885651"
 ---
 # <a name="understand-data-view-mapping-in-power-bi-visuals"></a>了解 Power BI 视觉对象中的数据视图映射
 
@@ -741,7 +741,7 @@ td {
 }
 ```
 
-Power BI 创建分层数据结构。 树层次结构的根包括来自 `Category` 数据角色的“父级”列数据，以及来自数据角色表的“子级”列的子项********。
+Power BI 创建分层数据结构。 树层次结构的根包括来自 `Category` 数据角色的“父级”列数据，以及来自数据角色表的“子级”列的子项。
 
 数据集：
 
@@ -847,7 +847,7 @@ Power BI 的核心矩阵视觉对象将数据呈现为表。
 
 若要控制在数据视图中接收的数据量，可以应用数据缩减算法。
 
-默认情况下，所有 Power BI 视觉对象都应用了顶级数据缩减算法，并将“count”设置为 1000 个数据点**。 这相当于在 capabilities.json 中设置了以下属性**：
+默认情况下，所有 Power BI 视觉对象都应用了顶级数据缩减算法，并将“count”设置为 1000 个数据点。 这相当于在 capabilities.json 中设置了以下属性：
 
 ```json
 "dataReductionAlgorithm": {
@@ -863,9 +863,9 @@ Power BI 的核心矩阵视觉对象将数据呈现为表。
 
 有四种类型的数据缩减算法设置：
 
-* `top`：如果要将数据限制为从数据集顶部获取的值。 将从数据集中获取顶部第一个“count”值**。
+* `top`：如果要将数据限制为从数据集顶部获取的值。 将从数据集中获取顶部第一个“count”值。
 * `bottom`：如果要将数据限制为从数据集底部获取的值。 将从数据集中获取最后一个“count”值。
-* `sample`：通过一个简单采样算法来缩减数据集，该方法将项数限制为“count”的数量。 它意味着包含第一项和最后一项，以及一组“count”数量的项具有相等的间隔**。
+* `sample`：通过一个简单采样算法来缩减数据集，该方法将项数限制为“count”的数量。 它意味着包含第一项和最后一项，以及一组“count”数量的项具有相等的间隔。
 例如，如果你有一个数据集 [0, 1, 2, ...100] 且“count”值为 9，你将收到值 [0, 10, 20 ...100]。
 * `window`：一次加载一个“窗口”的数据点，其中包含“count”元素 。 当前 `top` 和 `window` 等效。 我们正在努力做到完全支持窗口设置。
 

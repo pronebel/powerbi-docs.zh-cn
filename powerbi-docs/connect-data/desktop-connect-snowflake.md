@@ -7,16 +7,16 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: pbi-data-sources
 ms.topic: how-to
-ms.date: 05/08/2019
+ms.date: 01/04/2021
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 115fba44c69fceb3a4f309cd92358ef5bc2eff42
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: 00f78fef9f1abd11d7c553009db5541822c59c85
+ms.sourcegitcommit: 932f6856849c39e34229dc9a49fb9379c56a888a
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96405735"
+ms.lasthandoff: 01/06/2021
+ms.locfileid: "97926371"
 ---
-# <a name="connect-to-a-snowflake-computing-warehouse-in-power-bi-desktop"></a>在 Power BI Desktop 中连接到 Snowflake 计算仓库
+# <a name="connect-to-snowflake-in-power-bi-desktop"></a>在 Power BI Desktop 中连接到 Snowflake
 在 Power BI Desktop 中，你可以连接到 **Snowflake** 计算仓库，并可如同使用 Power BI Desktop 中任何其他数据源一样使用基础数据。 
 
 ## <a name="connect-to-a-snowflake-computing-warehouse"></a>连接到 Snowflake 计算仓库
@@ -33,7 +33,7 @@ ms.locfileid: "96405735"
 ![Snowflake 凭据提示的屏幕截图，其中显示了“用户名”和“密码”字段。](media/desktop-connect-snowflake/connect-snowflake-4.png)
 
 > [!NOTE]
-> 一旦输入用户名和密码以连接特定 Snowflake 服务器，Power BI Desktop 在后续连接尝试中就会使用这些凭据。 可以通过“文件”>“选项和设置”>“数据源设置”来修改这些凭据。
+> 输入用户名和密码以连接特定 Snowflake 服务器之后，Power BI Desktop 即可在后续连接尝试中使用这些凭据。 可以通过“文件”>“选项和设置”>“数据源设置”来修改这些凭据。
 > 
 > 
 

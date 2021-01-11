@@ -10,12 +10,12 @@ ms.subservice: pbi-collaborate-share
 ms.topic: conceptual
 LocalizationGroup: Share your work
 ms.date: 12/14/2020
-ms.openlocfilehash: 80aa8097ce38a9b1bac228ea61dcc959e4aba60d
-ms.sourcegitcommit: 46cf62d9bb33ac7b7eae7910fbba6756f626c65f
+ms.openlocfilehash: 7c8fa59521be1cfc8bb25fb04c3904f257fb62be
+ms.sourcegitcommit: 932f6856849c39e34229dc9a49fb9379c56a888a
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/15/2020
-ms.locfileid: "97492003"
+ms.lasthandoff: 01/06/2021
+ms.locfileid: "97926695"
 ---
 # <a name="collaborate-in-microsoft-teams-with-power-bi"></a>使用 Power BI 在 Microsoft Teams 中开展协作
 
@@ -44,6 +44,14 @@ ms.locfileid: "97492003"
 > 请务必在 Power BI 中检查哪些人员可以查看报表，然后向未列出的人员授予访问权限。
 
 要确保团队中的每个人都有权访问报表，一种方法是将报表放在单个工作区中，并为团队的 Microsoft 365 组授予访问权限。
+
+## <a name="share-with-external-users"></a>与外部用户共享
+
+你可以将 Power BI 报表集成到 Teams 中，并与外部用户共享。 请遵循以下步骤。
+
+1.  邀请外部用户加入组织，让他们接受邀请。 有关详细信息，请参阅[使用 Azure Active Directory B2B 将 Power BI 内容分发给外部来宾用户](../guidance/whitepaper-azure-b2b-power-bi.md)。
+2.  向外部用户授予对报表的权限。 建议分配单个权限。
+3.  确保已向外部用户分配 Power BI 许可证。 如果内容在高级容量中，则用户只需一个免费许可证。 否则，用户可以[注册 Power BI Pro 以获取单个免费试用版](../fundamentals/service-self-service-signup-for-power-bi.md#sign-up-for-an-individual-trial-of-power-bi-pro)。
 
 ## <a name="known-issues-and-limitations"></a>已知问题和限制
 
