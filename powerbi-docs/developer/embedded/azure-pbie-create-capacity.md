@@ -1,6 +1,6 @@
 ---
-title: 在 Azure 门户中根据 Power BI 嵌入式分析嵌入式 BI 解决方案创建 Power BI Embedded 容量
-description: 本文介绍如何使用 Microsoft Azure 根据 Power BI 嵌入式分析嵌入式 BI 解决方案创建 Power BI Embedded 容量。
+title: 在 Azure 门户中创建 Power BI Embedded 容量 | Microsoft Docs
+description: 本文介绍如何在 Microsoft Azure 中创建 Power BI Embedded 容量。
 author: KesemSharabi
 ms.author: kesharab
 ms.service: powerbi
@@ -10,12 +10,12 @@ ms.topic: how-to
 ms.reviewer: zakharb
 ms.custom: subject-armqs, devx-track-azurecli
 ms.date: 08/02/2020
-ms.openlocfilehash: 898da0f5e4284183f2ffa08fba8e6a50d9474d15
-ms.sourcegitcommit: eeaf607e7c1d89ef7312421731e1729ddce5a5cc
+ms.openlocfilehash: 73be957feae7fb869cca0af7bce0eeeb8daab03f
+ms.sourcegitcommit: b4c457bfb4676381dc4a0d04d965e8dab0bc230e
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/05/2021
-ms.locfileid: "97887514"
+ms.lasthandoff: 01/13/2021
+ms.locfileid: "98155702"
 ---
 # <a name="create-power-bi-embedded-capacity-in-the-azure-portal"></a>在 Azure 门户中创建 Power BI Embedded 容量
 
@@ -47,7 +47,8 @@ Power BI 租户：_Azure AD 租户中必须至少有一个帐户已注册 Power 
 
 4. 填写所需的信息，然后单击“审阅 + 创建”。
 
-    ![屏幕截图展示了 Azure 门户中用于新建容量的“Power BI Embedded”页的“基本信息”选项卡。](media/azure-pbie-create-capacity/azure-create-capacity.png)
+    >[!div class="mx-imgBorder"]
+    >![屏幕截图展示了 Azure 门户中用于新建容量的“Power BI Embedded”页的“基本信息”选项卡。](media/azure-pbie-create-capacity/azure-create-capacity-old.png)
 
     * “订阅”- 要为其创建容量的订阅。
 

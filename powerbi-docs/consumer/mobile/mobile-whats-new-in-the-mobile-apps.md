@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 12/17/2020
-ms.openlocfilehash: 7779976e7897b31e5f3dde2c4c3306c909ecf0f0
-ms.sourcegitcommit: 5c09d121d3205e65fb33a2eca0e60bc30e777773
+ms.openlocfilehash: 6eebe7b75db06b97d116ca0c17e67e9ee7b0562e
+ms.sourcegitcommit: a5e98bc86915f7bea6a0ab5df282683840e63d2c
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/18/2020
-ms.locfileid: "97675529"
+ms.lasthandoff: 01/07/2021
+ms.locfileid: "97969641"
 ---
 # <a name="whats-new-in-the-mobile-apps-for-power-bi"></a>Power BI 移动应用中的新功能
 有关相关的“新增功能”的信息，请参阅：
@@ -570,7 +570,7 @@ Power BI 报表服务器预览 - 在本地创建和发布 Power BI 报表。 然
 #### <a name="all-devices"></a>所有设备
 手机报表的背景色 - 定义了 Power BI Desktop 中报表的背景色后，手机报表将具有相同的背景色。 有关[优化手机的报表页](../../create-reports/desktop-create-phone-report.md)的详细信息。
 
-开发适合移动设备的 Power BI 视觉对象 - 阅读此[开发人员指南](https://github.com/Microsoft/PowerBI-visuals/blob/master/Tutorial/MobileGuideline.md)，了解在移动设备上创建外观精美、运行良好的 Power BI 视觉对象的提示。
+开发适合移动设备的 Power BI 视觉对象 - 阅读此[开发人员指南](https://github.com/PowerBi-Projects/PowerBI-visuals/blob/master/Tutorial/MobileGuideline.md)，了解在移动设备上创建外观精美、运行良好的 Power BI 视觉对象的提示。
 
 #### <a name="ios-devices"></a>iOS 设备
 与数据对话 - 通过说话提问 - 现在，你可以通过说话而不是键入信息来[使用问答功能询问数据相关问题](mobile-apps-ios-qna.md)。 

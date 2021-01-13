@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: how-to
 ms.date: 03/08/2020
-ms.openlocfilehash: 1331543973680879e4fcc2dbafc7323e72a27694
-ms.sourcegitcommit: eeaf607e7c1d89ef7312421731e1729ddce5a5cc
+ms.openlocfilehash: 5f337197655d41b830b237c04faa2642991c34ee
+ms.sourcegitcommit: a5e98bc86915f7bea6a0ab5df282683840e63d2c
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/05/2021
-ms.locfileid: "97888158"
+ms.lasthandoff: 01/07/2021
+ms.locfileid: "97969802"
 ---
 # <a name="get-a-power-bi-visual-certified"></a>获取 Power BI 视觉对象认证
 
@@ -92,7 +92,7 @@ Power BI 视觉对象必须由合作伙伴中心批准。 建议 Power BI 视觉
 * 只能使用可供审核的公用 OSS 组件，例如公用 JavaScript 或 TypeScript 库。
 * 代码必须支持[呈现事件 API](event-service.md)。
 * 确保已安全操作 DOM。 在将用户输入或用户数据添加到 DOM 之前，对其使用清理。
-* 将此[示例报表](https://github.com/Microsoft/PowerBI-visuals/raw/gh-pages/assets/reports/large_data.pbix)用作测试数据集。
+* 将此[示例报表](https://github.com/PowerBi-Projects/PowerBI-visuals/tree/gh-pages/assets)用作测试数据集。
 
 **不允许**
 * 访问外部服务或资源。 例如，任何 HTTP/S 或 WebSocket 请求都不能从 Power BI 外部发送到任何服务。

@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: tutorial
 ms.date: 06/18/2019
-ms.openlocfilehash: ee7ed48043a902a9b5ebd3c548ebec7505e76ab1
-ms.sourcegitcommit: eeaf607e7c1d89ef7312421731e1729ddce5a5cc
+ms.openlocfilehash: 784f41e8efa5c6d02a95ef451488883a4422b854
+ms.sourcegitcommit: a5e98bc86915f7bea6a0ab5df282683840e63d2c
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/05/2021
-ms.locfileid: "97887905"
+ms.lasthandoff: 01/07/2021
+ms.locfileid: "97969480"
 ---
 # <a name="tutorial-add-unit-tests-for-power-bi-visual-projects"></a>教程：为 Power BI 视觉对象项目添加单元测试
 
@@ -457,7 +457,7 @@ export class SampleBarChartDataBuilder extends TestDataViewBuilder {
 
 在单元测试中，你没有可用于重现数据的 Power BI 核心函数。 但你需要将静态数据映射到类别 `dataview`。 `TestDataViewBuilder` 类可协助你进行映射。
 
-有关数据视图映射的详细信息，请参阅 [DataViewMappings](https://github.com/Microsoft/PowerBI-visuals/blob/master/Capabilities/DataViewMappings.md)。
+有关数据视图映射的详细信息，请参阅 [DataViewMappings](https://github.com/PowerBi-Projects/PowerBI-visuals/blob/master/Capabilities/DataViewMappings.md)。
 
 在 `getDataView` 方法中，使用数据调用 `createCategoricalDataViewBuilder` 方法。
 

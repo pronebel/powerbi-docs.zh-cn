@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 02/11/2020
-ms.openlocfilehash: 4d8096793c4663cbed71c3149bde11305ebee71e
-ms.sourcegitcommit: eeaf607e7c1d89ef7312421731e1729ddce5a5cc
+ms.openlocfilehash: d787dfbb926a3a1224d5b4949003e0b0d260260f
+ms.sourcegitcommit: b4c457bfb4676381dc4a0d04d965e8dab0bc230e
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/05/2021
-ms.locfileid: "97886686"
+ms.lasthandoff: 01/13/2021
+ms.locfileid: "98155632"
 ---
 # <a name="frequently-asked-questions-about-power-bi-embedded"></a>有关 Power BI Embedded 的常见问题
 
@@ -35,7 +35,6 @@ ms.locfileid: "97886686"
 Power BI 是“软件即服务”分析解决方案，为组织提供最关键业务数据的单一视图。
 
 Microsoft 为想要将视觉对象嵌入到其应用程序中的 ISV 开发了 Power BI Embedded，以帮助他们的客户做出分析决策。 这让 ISV 不必自行生成其自己的分析解决方案。 [嵌入式分析](embedding.md)使业务用户能够访问业务数据并对其执行查询，以在应用程序中生成见解。
-
 
 ### <a name="what-is-the-difference-between-power-bi-premium-and-power-bi-embedded"></a>Power BI Premium 与 Power BI Embedded 之间的区别是什么？
 

@@ -9,12 +9,12 @@ ms.subservice: powerbi-admin
 ms.topic: conceptual
 ms.date: 09/09/2019
 LocalizationGroup: Administration
-ms.openlocfilehash: ee7954cff7863ff58370bbe1e58f26c64644c8e8
-ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
+ms.openlocfilehash: 9019ed9e64bca94a87e2ab9b6febdb7a25055b75
+ms.sourcegitcommit: c700e78dfedc34f5a74b23bbefdaef77e2a87f8a
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90857050"
+ms.lasthandoff: 01/07/2021
+ms.locfileid: "97961146"
 ---
 # <a name="power-bi-security"></a>Power BI 安全
 
@@ -30,30 +30,30 @@ Power BI 服务基于 **Azure**，后者是 Microsoft 的云计算基础结构�
 
 ![显示 Web 前端群集的 Power BI 体系结构的关系图。](media/service-admin-power-bi-security/pbi_security_v2_wfe.png)
 
-**后端**群集是指经身份验证的客户端如何与 Power BI 服务进行交互。 **后端**群集管理可视化、用户仪表板、数据集、报表、数据存储、数据连接、数据刷新以及与 Power BI 服务进行交互的其他方面。 **网关角色**充当用户请求与 Power BI 服务之间的网关。 用户并不直接与**网关角色**以外的任何角色进行交互。 **Azure API 管理**将最终处理**网关角色**。
+**后端** 群集是指经身份验证的客户端如何与 Power BI 服务进行交互。 **后端** 群集管理可视化、用户仪表板、数据集、报表、数据存储、数据连接、数据刷新以及与 Power BI 服务进行交互的其他方面。 **网关角色** 充当用户请求与 Power BI 服务之间的网关。 用户并不直接与 **网关角色** 以外的任何角色进行交互。 **Azure API 管理** 将最终处理 **网关角色**。
 
 ![显示 Web 后端群集的 Power BI 体系结构的关系图。](media/service-admin-power-bi-security/pbi_security_v2_backend_updated.png)
 
 > [!IMPORTANT]
-> 必须注意，只有 **Azure API 管理** (APIM) 和**网关** (GW) 角色可通过公共 Internet 访问。 它们提供身份验证、授权、DDoS 保护、限制、负载平衡、路由和其他功能。
+> 必须注意，只有 **Azure API 管理** (APIM) 和 **网关** (GW) 角色可通过公共 Internet 访问。 它们提供身份验证、授权、DDoS 保护、限制、负载平衡、路由和其他功能。
 
 ## <a name="data-storage-security"></a>数据存储安全性
 
-Power BI 使用两个主要的存储库进行数据存储和管理：用户上载的数据通常发送到 **Azure BLOB** 存储，并且所有元数据以及系统本身的项目均存储在 **Azure SQL 数据库**中。
+Power BI 使用两个主要的存储库进行数据存储和管理：用户上载的数据通常发送到 **Azure BLOB** 存储，并且所有元数据以及系统本身的项目均存储在 **Azure SQL 数据库** 中。
 
-上方**后端**群集映像中的虚线阐明了仅用户可访问的两个组件（左边的虚线）与仅系统可访问的角色之间的边界。 经身份验证的用户连接到 Power BI 服务时，该连接和客户端的任何请求均由**网关角色**（最终由 **Azure API 管理**处理）接受和管理，它会以用户的名义与 Power BI 服务的其余部分进行交互。 例如，当客户端尝试查看仪表板时，**网关角色**接受该请求，然后分别发送请求到**演示文稿角色**来检索浏览器呈现仪表板时所需的数据。
+上方 **后端** 群集映像中的虚线阐明了仅用户可访问的两个组件（左边的虚线）与仅系统可访问的角色之间的边界。 经身份验证的用户连接到 Power BI 服务时，该连接和客户端的任何请求均由 **网关角色**（最终由 **Azure API 管理** 处理）接受和管理，它会以用户的名义与 Power BI 服务的其余部分进行交互。 例如，当客户端尝试查看仪表板时，**网关角色** 接受该请求，然后分别发送请求到 **演示文稿角色** 来检索浏览器呈现仪表板时所需的数据。
 
 ## <a name="user-authentication"></a>用户身份验证
 
 Power BI 使用 Azure Active Directory ([AAD](https://azure.microsoft.com/services/active-directory/)) 对要登录到 Power BI 服务的用户进行身份验证，反过来，只要用户尝试访问要求进行身份验证的资源，均使用 Power BI 登录凭据。 用户使用用于建立其 Power BI 帐户的电子邮件地址登录到 Power BI 服务，Power BI 使用登录电子邮件作为有效用户名，每当用户尝试连接到数据时，就会将其传递给资源。 然后，有效用户名将映射到[用户主体名称 (UPN)](/windows/win32/secauthn/user-name-formats)，解析为关联的 Windows 域帐户，并对其应用身份验证 。
 
-对于使用工作电子邮件（如 <em>david@contoso.com</em>）进行 Power BI 登录的组织，*有效用户名*映射到 UPN 非常简单。 对于未使用工作电子邮件（如 <em>david@contoso.onmicrosoft.com</em>）进行 Power BI 登录的组织，AAD 和本地凭据之间的映射需要[目录同步](/azure/active-directory-domain-services/synchronization)才能正常工作。
+对于使用工作电子邮件（如 <em>david@contoso.com</em>）进行 Power BI 登录的组织，*有效用户名* 映射到 UPN 非常简单。 对于未使用工作电子邮件（如 <em>david@contoso.onmicrosoft.com</em>）进行 Power BI 登录的组织，AAD 和本地凭据之间的映射需要[目录同步](/azure/active-directory-domain-services/synchronization)才能正常工作。
 
 Power BI 的平台安全还包括多租户环境安全、网络安全和添加其他基于 AAD 的安全措施的能力。
 
 ## <a name="data-and-service-security"></a>数据和服务安全
 
-有关详细信息，请访问 [Microsoft 信任中心](https://www.microsoft.com/trustcenter)。
+有关详细信息，请访问 [Microsoft 信任中心](https://www.microsoft.com/trust-center/product-overview)。
 
 如本文前面部分中所述，用户的 Power BI 登录名由本地 Active Directory 服务器使用以映射到凭据的 UPN。 但是，必须注意的是，用户将负责管理共享的数据：如果用户使用自己的凭据连接到数据源，然后基于这些数据（用户所共享的仪表板未针对原始数据源进行身份验证）共享报表（或仪表板、数据集），并将被授予访问报表的权限。
 

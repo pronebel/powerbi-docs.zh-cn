@@ -9,12 +9,12 @@ ms.subservice: powerbi-admin
 ms.topic: conceptual
 ms.date: 09/09/2019
 LocalizationGroup: Administration
-ms.openlocfilehash: 5a30ff855616eef04db4827b4a25cb0facb9db1b
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: c54a8216812c9a492dc889faf07ad9028c02d7c7
+ms.sourcegitcommit: c700e78dfedc34f5a74b23bbefdaef77e2a87f8a
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96413693"
+ms.lasthandoff: 01/07/2021
+ms.locfileid: "97961192"
 ---
 # <a name="administering-power-bi---frequently-asked-questions-faq"></a>管理 Power BI - 常见问题 (FAQ)
 
@@ -244,7 +244,7 @@ Power BI 为 Microsoft 365 全局管理员角色中的用户和 Power BI 服务�
 
 ### <a name="does-power-bi-meet-national-regional-and-industry-specific-compliance-requirements"></a>Power BI 是否满足特定于国家、地区和行业的合规性要求？
 
-若要了解有关 Power BI 合规性的详细信息，请参阅 [Microsoft 信任中心](https://www.microsoft.com/TrustCenter/CloudServices/business-application-platform/default.aspx)。
+若要了解有关 Power BI 合规性的详细信息，请参阅 [Microsoft 信任中心](https://www.microsoft.com/trust-center/product-overview)。
 
 ### <a name="how-does-security-work-in-power-bi"></a>Power BI 中安全性的工作原理是怎样的？
 

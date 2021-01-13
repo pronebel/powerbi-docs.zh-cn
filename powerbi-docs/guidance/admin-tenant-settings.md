@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi
 ms.topic: conceptual
 ms.date: 08/10/2020
-ms.openlocfilehash: 66d721670f90efb17f6167aba3c074bdf6ea0ae1
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: 39357ec461ae96ef566719739aa76a61c7e7c539
+ms.sourcegitcommit: a5e98bc86915f7bea6a0ab5df282683840e63d2c
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96394856"
+ms.lasthandoff: 01/07/2021
+ms.locfileid: "97969779"
 ---
 # <a name="tenant-settings-guidance"></a>租户设置指南
 
@@ -39,7 +39,7 @@ ms.locfileid: "96394856"
 这些 URL 将成为 Power BI 帮助菜单中的链接。
 
 > [!NOTE]
-> 提供授权请求 URL 会阻止单个用户购买 Power BI Pro 许可证。 不过会将这些用户导向内部站点，提供有关如何获得许可证的信息。 “允许用户试用 Power BI Pro”设置在默认情况下处于启用状态，并区分购买和试用体验。 若要详细了解这些设置如何协同工作，请参阅[允许用户试用 Power BI Pro](../admin/service-admin-portal.md#allow-users-to-try-power-bi-pro)。
+> 提供授权请求 URL 会阻止单个用户购买 Power BI Pro 许可证。 不过会将这些用户导向内部站点，提供有关如何获得许可证的信息。 “允许用户试用 Power BI Pro”设置在默认情况下处于启用状态，并区分购买和试用体验。 若要详细了解这些设置如何协同工作，请参阅[允许用户试用 Power BI Pro](../admin/service-admin-portal.md#allow-users-to-try-power-bi-paid-features)。
 >
 >
 

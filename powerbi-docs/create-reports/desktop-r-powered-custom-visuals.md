@@ -9,12 +9,12 @@ ms.subservice: pbi-reports-dashboards
 ms.topic: how-to
 ms.date: 07/27/2018
 LocalizationGroup: Create reports
-ms.openlocfilehash: 35c118171ef5202e24e5997e321b698e3b137387
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: e2a610e12da1a91db6e22ab493ed39410ec1c091
+ms.sourcegitcommit: a5e98bc86915f7bea6a0ab5df282683840e63d2c
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96396466"
+ms.lasthandoff: 01/07/2021
+ms.locfileid: "97969733"
 ---
 # <a name="use-r-powered-power-bi-visuals-in-power-bi"></a>在 Power BI 中使用 R 驱动的 Power BI 视觉对象
 
@@ -92,7 +92,7 @@ ms.locfileid: "96396466"
 
 如果创建自己的 R 视觉对象以供在报表中使用，则可以向 **Power BI 视觉对象库** 贡献你的 Power BI 视觉对象，从而与全世界共享这些视觉对象。 通过 GitHub 进行贡献，相应过程在以下位置有所讲述：
 
-* [贡献到 R 驱动的 Power BI 视觉对象库](https://github.com/Microsoft/PowerBI-visuals#building-r-powered-custom-visual-corrplot)
+* [贡献到 R 驱动的 Power BI 视觉对象库](https://github.com/PowerBi-Projects/PowerBI-visuals#building-r-powered-custom-visual-corrplot)
 
 ## <a name="troubleshoot-r-powered-power-bi-visuals"></a>R 驱动的 Power BI 视觉对象疑难解答
 

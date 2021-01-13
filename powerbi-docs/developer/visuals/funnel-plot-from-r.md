@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: tutorial
 ms.date: 04/02/2020
-ms.openlocfilehash: f3d22a4143287588ad9290d000402a10a4cef227
-ms.sourcegitcommit: eeaf607e7c1d89ef7312421731e1729ddce5a5cc
+ms.openlocfilehash: f1f8c037a3ceb66d8ffb5abab6bccd4ec9bc7adc
+ms.sourcegitcommit: a5e98bc86915f7bea6a0ab5df282683840e63d2c
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/05/2021
-ms.locfileid: "97889262"
+ms.lasthandoff: 01/07/2021
+ms.locfileid: "97969549"
 ---
 # <a name="tutorial-build-a-funnel-plot-from-r-script-to-r-visual"></a>教程：根据 R 脚本对 R 视觉对象创建漏斗图
 本文介绍如何使用 R 脚本对 R 视觉对象逐步创建漏斗图。
@@ -36,13 +36,13 @@ ms.locfileid: "97889262"
 
 ## <a name="build-an-r-script-with-dataset"></a>使用数据集生成 R 脚本
 
-1. 下载[最小 R 脚本](https://github.com/microsoft/PowerBI-visuals/raw/master/RVisualTutorial/TutorialFunnelPlot/chapter1_R/script_R_v1_00.r)及其数据表 [dataset.csv](https://github.com/microsoft/PowerBI-visuals/raw/master/RVisualTutorial/TutorialFunnelPlot/chapter1_R/dataset.csv)。
+1. 下载[最小 R 脚本](https://github.com/PowerBi-Projects/PowerBI-visuals/raw/master/RVisualTutorial/TutorialFunnelPlot/chapter1_R/script_R_v1_00.r)及其数据表 [dataset.csv](https://github.com/PowerBi-Projects/PowerBI-visuals/raw/master/RVisualTutorial/TutorialFunnelPlot/chapter1_R/dataset.csv)。
 
-1. 接下来，编辑脚本以反映[此脚本](https://github.com/microsoft/PowerBI-visuals/raw/master/RVisualTutorial/TutorialFunnelPlot/chapter1_R/script_R_v1_01.r)。 这将添加输入错误处理和用户参数以控制绘图的外观。
+1. 接下来，编辑脚本以反映[此脚本](https://github.com/PowerBi-Projects/PowerBI-visuals/raw/master/RVisualTutorial/TutorialFunnelPlot/chapter1_R/script_R_v1_01.r)。 这将添加输入错误处理和用户参数以控制绘图的外观。
 
 ## <a name="build-a-report"></a>生成报表
 
-接下来，编辑脚本以反映[此脚本](https://github.com/microsoft/PowerBI-visuals/raw/master/RVisualTutorial/TutorialFunnelPlot/chapter2_Rvisual/script_RV_v2_00.r)。 这会将 dataset.csv（而不是 read.csv）加载到 Power BI Desktop 工作区，并创建一个“癌症死亡率”表 。 请查看以下 [PBIX 文件](https://github.com/microsoft/PowerBI-visuals/raw/master/RVisualTutorial/TutorialFunnelPlot/chapter2_Rvisual/funnelPlot_Rvisual.pbix)中的结果。
+接下来，编辑脚本以反映[此脚本](https://github.com/PowerBi-Projects/PowerBI-visuals/raw/master/RVisualTutorial/TutorialFunnelPlot/chapter2_Rvisual/script_RV_v2_00.r)。 这会将 dataset.csv（而不是 read.csv）加载到 Power BI Desktop 工作区，并创建一个“癌症死亡率”表 。 请查看以下 [PBIX 文件](https://github.com/PowerBi-Projects/PowerBI-visuals/raw/master/RVisualTutorial/TutorialFunnelPlot/chapter2_Rvisual/funnelPlot_Rvisual.pbix)中的结果。
 
 > [!NOTE]
 > `dataset` 是任何 R 视觉对象的输入 `data.frame` 的硬编码名称。 
@@ -75,7 +75,7 @@ ms.locfileid: "97889262"
 1. 使用 `pbiviz package` 命令重新打包视觉对象，并尝试将其导入 Power BI。
 
 > [!NOTE]
-> 请参阅 [PBIX](https://github.com/microsoft/PowerBI-visuals/blob/master/RVisualTutorial/TutorialFunnelPlot/chapter3_RCustomVisual/funnelPlot_RCustomVisual.pbix) 和[源代码](https://github.com/Microsoft/PowerBI-visuals/tree/master/RVisualTutorial/TutorialFunnelPlot/chapter3_RCustomVisual/funnelRvisual_v01/)进行下载。
+> 请参阅 [PBIX](https://github.com/PowerBi-Projects/PowerBI-visuals/blob/master/RVisualTutorial/TutorialFunnelPlot/chapter3_RCustomVisual/funnelPlot_RCustomVisual.pbix) 和[源代码](https://github.com/PowerBi-Projects/PowerBI-visuals/tree/master/RVisualTutorial/TutorialFunnelPlot/chapter3_RCustomVisual/funnelRvisual_v01/)进行下载。
 
 ## <a name="make-r-based-visual-improvements"></a>进行基于 R 的视觉对象改进
 
@@ -85,7 +85,7 @@ ms.locfileid: "97889262"
 
    ![CV01to02](./media/funnel-plot/diagram-one.PNG)
 
-1. 编辑 capabilities.json，并将 `dataset` 角色替换为这三个新角色，或下载 [capabilities.json](https://github.com/microsoft/PowerBI-visuals/raw/master/RVisualTutorial/TutorialFunnelPlot/chapter3_RCustomVisual/funnelRvisual_v02/capabilities.json)。
+1. 编辑 capabilities.json，并将 `dataset` 角色替换为这三个新角色，或下载 [capabilities.json](https://github.com/PowerBi-Projects/PowerBI-visuals/raw/master/RVisualTutorial/TutorialFunnelPlot/chapter3_RCustomVisual/funnelRvisual_v02/capabilities.json)。
 
    需要更新 `dataRoles` 和 `dataViewMappings` 两个部分，它们定义每个输入字段的名称、类型、工具提示和最大列数。
 
@@ -93,7 +93,7 @@ ms.locfileid: "97889262"
    
    有关详细信息，请参阅[功能](./capabilities.md)。
 
-1. 编辑 script.r 以支持将 `Population`、`Number` 和 `Tooltips` 作为输入数据帧而不是 `dataset`，或下载 [script.r](https://github.com/microsoft/PowerBI-visuals/raw/master/RVisualTutorial/TutorialFunnelPlot/chapter3_RCustomVisual/funnelRvisual_v02/script.r)。
+1. 编辑 script.r 以支持将 `Population`、`Number` 和 `Tooltips` 作为输入数据帧而不是 `dataset`，或下载 [script.r](https://github.com/PowerBi-Projects/PowerBI-visuals/raw/master/RVisualTutorial/TutorialFunnelPlot/chapter3_RCustomVisual/funnelRvisual_v02/script.r)。
 
    ![脚本](./samples/funnel-plot/chapter-3/funnel-r-visual-v02/script-r-before-vs-after.png)
 
@@ -113,7 +113,7 @@ ms.locfileid: "97889262"
 1. 使用 `pbiviz package` 命令重新打包视觉对象，并尝试将其导入 Power BI。
 
 > [!NOTE]
-> 请参阅 [PBIX](https://github.com/microsoft/PowerBI-visuals/raw/master/RVisualTutorial/TutorialFunnelPlot/chapter3_RCustomVisual/funnelPlot_RCustomVisual.pbix) 和[源代码](https://github.com/Microsoft/PowerBI-visuals/tree/master/RVisualTutorial/TutorialFunnelPlot/chapter3_RCustomVisual/funnelRvisual_v02)进行下载。
+> 请参阅 [PBIX](https://github.com/PowerBi-Projects/PowerBI-visuals/raw/master/RVisualTutorial/TutorialFunnelPlot/chapter3_RCustomVisual/funnelPlot_RCustomVisual.pbix) 和[源代码](https://github.com/PowerBi-Projects/PowerBI-visuals/tree/master/RVisualTutorial/TutorialFunnelPlot/chapter3_RCustomVisual/funnelRvisual_v02)进行下载。
 
 ## <a name="add-user-parameters"></a>添加用户参数
 
@@ -123,11 +123,11 @@ ms.locfileid: "97889262"
 
 1. 编辑 capabilities.json 并更新 `objects` 部分。 在这里，我们定义每个参数的名称、工具提示和类型，并决定将参数划分为组（在本例中为三个组）。
 
-   下载 [capabilities.json](https://github.com/Microsoft/PowerBI-visuals/tree/master/RVisualTutorial/TutorialFunnelPlot/chapter3_RCustomVisual/funnelRvisual_v03/capabilities.json)；有关详细信息，请参阅[对象属性](./objects-properties.md)
+   下载 [capabilities.json](https://github.com/PowerBi-Projects/PowerBI-visuals/tree/master/RVisualTutorial/TutorialFunnelPlot/chapter3_RCustomVisual/funnelRvisual_v03/capabilities.json)；有关详细信息，请参阅[对象属性](./objects-properties.md)
 
    ![capabilities](./samples/funnel-plot/chapter-3/funnel-r-visual-v03/capabilities-before-after.PNG)
 
-1. 编辑 src/settings.ts 以反映[此 settings.ts](https://github.com/Microsoft/PowerBI-visuals/tree/master/RVisualTutorial/TutorialFunnelPlot/chapter3_RCustomVisual/funnelRvisual_v03/src/settings.ts)。 此文件采用 TypeScript 编写。  
+1. 编辑 src/settings.ts 以反映[此 settings.ts](https://github.com/PowerBi-Projects/PowerBI-visuals/tree/master/RVisualTutorial/TutorialFunnelPlot/chapter3_RCustomVisual/funnelRvisual_v03/src/settings.ts)。 此文件采用 TypeScript 编写。  
 
    在这里，你将找到针对以下目的添加的两个代码块：
    - 声明新接口以保存属性值
@@ -135,7 +135,7 @@ ms.locfileid: "97889262"
 
    ![设置](./samples/funnel-plot/chapter-3/funnel-r-visual-v03/settings-ts-before-after.PNG)
 
-1. 编辑 script.r 以反映[此 script.r](https://github.com/Microsoft/PowerBI-visuals/tree/master/RVisualTutorial/TutorialFunnelPlot/chapter3_RCustomVisual/funnelRvisual_v03/script.r)。 这会通过为每个用户参数添加 `if.exists` 调用来添加对 UI 中参数的支持。
+1. 编辑 script.r 以反映[此 script.r](https://github.com/PowerBi-Projects/PowerBI-visuals/tree/master/RVisualTutorial/TutorialFunnelPlot/chapter3_RCustomVisual/funnelRvisual_v03/script.r)。 这会通过为每个用户参数添加 `if.exists` 调用来添加对 UI 中参数的支持。
 
    > [!TIP]
    > 要跟踪 R 脚本的更改，请搜索注释：
@@ -150,17 +150,17 @@ ms.locfileid: "97889262"
    > #RVIZ_IN_PBI_GUIDE:END:Removed to enable user parameters
    > ```
 
-   ![脚本前后](https://raw.githubusercontent.com/microsoft/PowerBI-visuals/master/RVisualTutorial/TutorialFunnelPlot/chapter3_RCustomVisual/funnelRvisual_v03/script_r_before_after_1.png)
+   ![脚本前后](https://raw.githubusercontent.com/PowerBi-Projects/PowerBI-visuals/master/RVisualTutorial/TutorialFunnelPlot/chapter3_RCustomVisual/funnelRvisual_v03/script_r_before_after_1.png)
 
    可以决定不向 UI 公开参数，就像我们一样。  
 
 1. 使用 `pbiviz package` 命令重新打包视觉对象，并尝试将其导入 Power BI。
 
 > [!NOTE]
-> 请参阅 [PBIX](https://github.com/Microsoft/PowerBI-visuals/tree/master/RVisualTutorial/TutorialFunnelPlot/chapter3_RCustomVisual/funnelPlot_RCustomVisual.pbix) 和[源代码](https://github.com/Microsoft/PowerBI-visuals/tree/master/RVisualTutorial/TutorialFunnelPlot/chapter3_RCustomVisual/funnelRvisual_v03/)进行下载。
+> 请参阅 [PBIX](https://github.com/PowerBi-Projects/PowerBI-visuals/tree/master/RVisualTutorial/TutorialFunnelPlot/chapter3_RCustomVisual/funnelPlot_RCustomVisual.pbix) 和[源代码](https://github.com/PowerBi-Projects/PowerBI-visuals/tree/master/RVisualTutorial/TutorialFunnelPlot/chapter3_RCustomVisual/funnelRvisual_v03/)进行下载。
 
 > [!TIP]
-> 在这里，我们同时添加了几种类型（布尔、数字、字符串和颜色）的参数。 对于简单情况，请参阅[本示例](https://github.com/Microsoft/PowerBI-visuals/blob/master/RVisualTutorial/PropertiesPane.md)了解如何添加单个参数。 
+> 在这里，我们同时添加了几种类型（布尔、数字、字符串和颜色）的参数。 对于简单情况，请参阅[本示例](https://github.com/PowerBi-Projects/PowerBI-visuals/blob/master/RVisualTutorial/PropertiesPane.md)了解如何添加单个参数。 
 
 ## <a name="convert-visual-to-rhtml-based-visual"></a>将视觉对象转换为基于 RHTML 的视觉对象
 
@@ -184,21 +184,21 @@ ms.locfileid: "97889262"
    这将创建并保存 out.html。 此文件是自包含文件（没有外部依赖项），并且定义 HTML 小组件中的图形。 
 
    > [!IMPORTANT]
-   > 对于 `htmlWidgets` 用户，[r_files 文件夹](https://github.com/Microsoft/PowerBI-visuals/tree/master/RVisualTutorial/TutorialFunnelPlot/chapter4_RHTMLCustomVisual/funnelRHTMLvisual_v01/r_files)中提供了 R 实用工具，以帮助将 `plotly` 或 `widget` 对象转换为自容式 HTML。 
+   > 对于 `htmlWidgets` 用户，[r_files 文件夹](https://github.com/PowerBi-Projects/PowerBI-visuals/tree/master/RVisualTutorial/TutorialFunnelPlot/chapter4_RHTMLCustomVisual/funnelRHTMLvisual_v01/r_files)中提供了 R 实用工具，以帮助将 `plotly` 或 `widget` 对象转换为自容式 HTML。 
    > 
    > 与以前的视觉对象类型不同，此版本的 R 驱动视觉对象还支持 `source` 命令，以提高代码的可读性。   
  
-1. 将 capabilities.json 替换为上一步中的 capabilities.json，或下载 [capabilities.json](https://github.com/Microsoft/PowerBI-visuals/tree/master/RVisualTutorial/TutorialFunnelPlot/chapter4_RHTMLCustomVisual/funnelRHTMLvisual_v01/capabilities.json) 。
+1. 将 capabilities.json 替换为上一步中的 capabilities.json，或下载 [capabilities.json](https://github.com/PowerBi-Projects/PowerBI-visuals/tree/master/RVisualTutorial/TutorialFunnelPlot/chapter4_RHTMLCustomVisual/funnelRHTMLvisual_v01/capabilities.json) 。
 
    请务必：
 
    `"scriptOutputType": "html"`
 
-1. 将最新版 script.r 与模板中的 script.r 进行合并，或下载 [script.r](https://github.com/Microsoft/PowerBI-visuals/tree/master/RVisualTutorial/TutorialFunnelPlot/chapter4_RHTMLCustomVisual/funnelRHTMLvisual_v01/script.r) 。
+1. 将最新版 script.r 与模板中的 script.r 进行合并，或下载 [script.r](https://github.com/PowerBi-Projects/PowerBI-visuals/tree/master/RVisualTutorial/TutorialFunnelPlot/chapter4_RHTMLCustomVisual/funnelRHTMLvisual_v01/script.r) 。
 
    新脚本使用 `plotly` 包将 ggplot 对象转换为 plotly 对象，然后使用 `htmlWidgets` 包将其保存到 HTML 文件 。 
 
-   大多数实用工具函数会移动到 [r_files/utils.r](https://github.com/Microsoft/PowerBI-visuals/tree/master/RVisualTutorial/TutorialFunnelPlot/chapter4_RHTMLCustomVisual/funnelRHTMLvisual_v01/r_files/utils.r)，并且添加了 `generateNiceTooltips` 函数以显示 plotly 对象。
+   大多数实用工具函数会移动到 [r_files/utils.r](https://github.com/PowerBi-Projects/PowerBI-visuals/tree/master/RVisualTutorial/TutorialFunnelPlot/chapter4_RHTMLCustomVisual/funnelRHTMLvisual_v01/r_files/utils.r)，并且添加了 `generateNiceTooltips` 函数以显示 plotly 对象。
 
    ![1](./samples/funnel-plot/chapter-4/RHTML-v01/script-before-after-1.PNG)
    
@@ -217,14 +217,14 @@ ms.locfileid: "97889262"
    > #RVIZ_IN_PBI_GUIDE:BEGIN:Removed to create HTML-based
    > ```
 
-1. 将最新版 dependencies.json 与模板中的 dependencies.json 进行合并以包含新的 R 包依赖项，或下载 [dependencies.json](https://github.com/Microsoft/PowerBI-visuals/tree/master/RVisualTutorial/TutorialFunnelPlot/chapter4_RHTMLCustomVisual/funnelRHTMLvisual_v01/dependencies.json) 。
+1. 将最新版 dependencies.json 与模板中的 dependencies.json 进行合并以包含新的 R 包依赖项，或下载 [dependencies.json](https://github.com/PowerBi-Projects/PowerBI-visuals/tree/master/RVisualTutorial/TutorialFunnelPlot/chapter4_RHTMLCustomVisual/funnelRHTMLvisual_v01/dependencies.json) 。
 
 1. 按照之前步骤中的相同方式编辑 src/settings.ts。
 
 1. 使用 `pbiviz package` 命令重新打包视觉对象，并尝试将其导入 Power BI。
 
 > [!NOTE]
-> 请参阅 [PBIX 和源代码](https://github.com/Microsoft/PowerBI-visuals/tree/master/RVisualTutorial/TutorialFunnelPlot/chapter4_RHTMLCustomVisual/funnelRHTMLvisual_v01)进行下载。
+> 请参阅 [PBIX 和源代码](https://github.com/PowerBi-Projects/PowerBI-visuals/tree/master/RVisualTutorial/TutorialFunnelPlot/chapter4_RHTMLCustomVisual/funnelRHTMLvisual_v01)进行下载。
 
 ## <a name="build-additional-examples"></a>生成其他示例
 
@@ -250,7 +250,7 @@ ms.locfileid: "97889262"
    > [!IMPORTANT]
    > guid 字段是视觉对象的唯一标识符。 如果为每个视觉对象创建一个新项目，则 GUID 也将不同。 仅当使用复制到新视觉对象的旧项目（禁止这样做）时，它才会相同。
 
-* 编辑 [assets/icon.png](https://github.com/Microsoft/PowerBI-visuals/tree/master/RVisualTutorial/TutorialFunnelPlot/chapter4_RHTMLCustomVisual/funnelRHTMLvisual_v01/assets/icon.png) 以便为视觉对象创建唯一图标。 
+* 编辑 [assets/icon.png](https://github.com/PowerBi-Projects/PowerBI-visuals/tree/master/RVisualTutorial/TutorialFunnelPlot/chapter4_RHTMLCustomVisual/funnelRHTMLvisual_v01/assets/icon.png) 以便为视觉对象创建唯一图标。 
 
 * 要使用与 Power BI 报表中相同的数据在 RStudio 调试 R 代码，请将以下内容添加到 R 脚本的开头（编辑 `fileRda` 变量）：
 
@@ -270,17 +270,17 @@ ms.locfileid: "97889262"
 
 * 无需使用 [GitHub](https://github.com/Microsoft?utf8=%E2%9C%93&q=PowerBI&type=&language=R) 上提供的代码从头开始开发 R 驱动的视觉对象。 可以选择要用作模板的视觉对象，并将代码复制到新项目中。
 
-   例如，尝试使用[样条自定义视觉对象](https://github.com/Microsoft/PowerBI-visuals-spline)。
+   例如，尝试使用[样条自定义视觉对象](https://github.com/PowerBi-Projects/PowerBI-visuals-spline)。
 
 * 每个 R 视觉对象都会将 `unique` 运算符应用到其输入表。 要避免删除相同的行，请考虑添加具有唯一 ID 的额外输入字段，并在 R 代码中将其忽略。   
 
 * 如果已有 Power BI 帐户，请使用 Power BI 服务[即时](./develop-circle-card.md)开发视觉对象，而不是使用 `pbiviz package` 命令重新打包它们。
 
 ### <a name="html-widgets-gallery"></a>HTML 小组件库
-浏览 [HTML 小组件库](http://gallery.htmlwidgets.org/)中的视觉对象，以便在下一个视觉对象中使用。 为方便起见，我们创建了一个[视觉对象项目存储库](https://github.com/Microsoft/PowerBI-visuals/tree/master/RVisualTutorial/TutorialFunnelPlot/chapter4_RHTMLCustomVisual/multipleRHTML)，其中有 20 多个交互式 HTML 视觉对象可供选择！
+浏览 [HTML 小组件库](http://gallery.htmlwidgets.org/)中的视觉对象，以便在下一个视觉对象中使用。 为方便起见，我们创建了一个[视觉对象项目存储库](https://github.com/PowerBi-Projects/PowerBI-visuals/tree/master/RVisualTutorial/TutorialFunnelPlot/chapter4_RHTMLCustomVisual/multipleRHTML)，其中有 20 多个交互式 HTML 视觉对象可供选择！
 
 > [!TIP]
-> 要在 HTML 小组件之间进行切换，请使用“格式” > “设置” > “类型”  。 通过[此 PBIX 文件](https://github.com/Microsoft/PowerBI-visuals/tree/master/RVisualTutorial/TutorialFunnelPlot/chapter4_RHTMLCustomVisual/multipleRHTML/assets/sample.pbix)进行试用。 
+> 要在 HTML 小组件之间进行切换，请使用“格式” > “设置” > “类型”  。 通过[此 PBIX 文件](https://github.com/PowerBi-Projects/PowerBI-visuals/tree/master/RVisualTutorial/TutorialFunnelPlot/chapter4_RHTMLCustomVisual/multipleRHTML/assets/sample.pbix)进行试用。 
 
 #### <a name="to-use-a-sample-for-your-visual"></a>将示例用于你的视觉对象
 

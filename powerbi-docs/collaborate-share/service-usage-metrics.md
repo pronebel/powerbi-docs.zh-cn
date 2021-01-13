@@ -10,16 +10,16 @@ ms.subservice: pbi-collaborate-share
 ms.topic: conceptual
 ms.date: 12/15/2020
 LocalizationGroup: Dashboards
-ms.openlocfilehash: b7184f00af46ce5f49df2510ea5e676c89a37a7a
-ms.sourcegitcommit: fef29a5c5bf1e0dae663c42c9ce5ae50e29ae9be
+ms.openlocfilehash: dc3ce931664a3c125504865c6cccfe3fdfa404c4
+ms.sourcegitcommit: f791eef8e885f18c48997c9af63ab56211f1ceb8
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/16/2020
-ms.locfileid: "97558484"
+ms.lasthandoff: 01/09/2021
+ms.locfileid: "98053411"
 ---
 # <a name="monitor-usage-metrics-in-classic-workspaces"></a>在经典工作区中监视使用指标
 
-使用指标可帮助你了解仪表板和报表的影响。 运行仪表板使用指标或报表使用指标时，可查看整个组织使用这些仪表板和报表的情况 - 使用人员以及使用目的。 本文概述了[经典工作区](service-create-workspaces.md)的使用指标报表。 如果你的报表在新的工作区中，那么请查看文章：[在新的工作区体验中监视使用指标](service-usage-metrics.md)  
+使用指标可帮助你了解仪表板和报表的影响。 运行仪表板使用指标或报表使用指标时，可查看整个组织使用这些仪表板和报表的情况 - 使用人员以及使用目的。 本文概述了[经典工作区](service-create-workspaces.md)的使用指标报表。 如果你的报表在新的工作区中，那么请查看文章：[在新的工作区体验中监视使用指标](service-modern-usage-metrics.md)  
 
 使用指标报表是只读的。 但是，可以复制使用指标报表。 复制会创建可编辑的标准 Power BI 报表。 此外还可以在 Power BI Desktop 中基于基础数据集生成自己的报表，其中包含工作区中所有仪表板或所有报表的使用指标。 一开始，复制的报表仅显示所选仪表板或报表的指标。 可以删除默认筛选器，并且有权访问包含所选工作区的所有使用指标的基础数据集。 甚至可以看到特定用户的名称（如果管理员允许）。
 
