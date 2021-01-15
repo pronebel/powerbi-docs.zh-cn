@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: how-to
-ms.date: 12/18/2020
+ms.date: 01/05/2020
 ms.custom: seodec18
 LocalizationGroup: Administration
-ms.openlocfilehash: 2e89dc43f467aec8edcefaa4ecdbd2fc6cbf6dea
-ms.sourcegitcommit: b8e4dd67c59db079fdfa82a8a01c2a28fd1673ca
+ms.openlocfilehash: 554cce8c0313ad6624a2991aa09f60c98ff454be
+ms.sourcegitcommit: a5e98bc86915f7bea6a0ab5df282683840e63d2c
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/19/2020
-ms.locfileid: "97699479"
+ms.lasthandoff: 01/07/2021
+ms.locfileid: "97969575"
 ---
 # <a name="administering-power-bi-in-the-admin-portal"></a>在管理门户中管理 Power BI
 
@@ -193,7 +193,7 @@ Premium per user 是一种按用户提供高级功能许可的新方法。 此�
 
 * 社区。 若要将用户转到帮助菜单中的内部论坛（而不是 [Power BI 社区](https://community.powerbi.com/)），请设置讨论论坛的自定义 URL。
 
-* 授权升级。 具有 Power BI（免费）许可证的用户可能有机会在使用服务时将其帐户升级为 Power BI Pro。 如果为授权请求指定内部 URL，则需要将用户重定向到内部请求和购买流并阻止自助购买。 如果要阻止用户购买许可证，但允许用户启动 Power BI Pro 试用版，请参阅[允许用户试用 Power BI Pro](#allow-users-to-try-power-bi-pro)，以区分购买和试用体验。
+* 授权升级。 具有 Power BI（免费）许可证的用户可能有机会在使用服务时将其帐户升级为 Power BI Pro。 如果为授权请求指定内部 URL，则需要将用户重定向到内部请求和购买流并阻止自助购买。 如果要阻止用户购买许可证，但允许用户启动 Power BI Pro 试用版，请参阅[允许用户试用 Power BI Pro](#allow-users-to-try-power-bi-paid-features)，以区分购买和试用体验。
 
 * 获取帮助。 若要将用户转到帮助菜单中的技术支持（而不是 [Power BI 支持](https://powerbi.microsoft.com/support/)），请设置技术支持的自定义 URL。
 
@@ -201,11 +201,11 @@ Premium per user 是一种按用户提供高级功能许可的新方法。 此�
 
 如果此租户受到服务中断或突发事件的影响，已启用邮件的安全组将收到电子邮件通知。 了解有关[服务中断通知](service-interruption-notifications.md)的详细信息。
 
-### <a name="allow-users-to-try-power-bi-pro"></a>允许用户试用 Power BI Pro
+### <a name="allow-users-to-try-power-bi-paid-features"></a>允许用户试用 Power BI 付费功能
 
 ![允许用户试用 Power BI Pro 设置 UI](media/service-admin-portal/allow-pro-trial.png)
 
-默认情况下启用“允许用户试用 Power BI Pro”设置。 此设置提高了对用户如何获取 Power BI Pro 许可证的控制。 在已阻止自助购买的情况下，此设置允许用户启动 Power BI Pro 试用版。 最终用户体验取决于许可证设置的组合方式。 下表显示了从 Power BI（免费）到 Power BI Pro 的升级体验如何受到不同设置组合的影响：
+默认启用“允许用户试用 Power BI 付费功能”设置。 此设置提高了对用户如何获取 Power BI Pro 许可证的控制。 在已阻止自助购买的情况下，此设置允许用户启动 Power BI Pro 试用版。 最终用户体验取决于许可证设置的组合方式。 下表显示了从 Power BI（免费）到 Power BI Pro 的升级体验如何受到不同设置组合的影响：
 
 | 自助购买设置 | 允许用户试用 Power BI Pro 设置 | 最终用户体验 |
 | ------ | ------ | ----- |
@@ -218,6 +218,30 @@ Premium per user 是一种按用户提供高级功能许可的新方法。 此�
 > 可以在[帮助和支持设置](#help-and-support-settings)中添加授权请求的内部 URL。 如果设置了 URL，则它会覆盖默认自助购买体验。 它不会对 Power BI Pro 许可证试用版的注册进行重定向。 可以在上表中所述的情况下购买许可证的用户将被重定向到内部 URL。
 
 若要了解详细信息，请参阅[启用或禁用自助注册和购买](service-admin-disable-self-service.md)。
+
+### <a name="show-a-custom-message-before-publishing-reports"></a>发布报表前显示自定义消息  
+
+管理员可提供自定义消息，该消息在用户从 Power BI Desktop 发布报表之前显示。 启用设置后，需要提供自定义消息。 自定义消息可以是纯文本，也可遵循 Markdown 语法，如以下示例消息所示：
+
+```markdown
+#### Important Disclaimer 
+
+Before publishing the report to a workspace, be sure to validate that the appropriate users or groups have access to the destination workspace. If some users or groups should *not* have access to the content and underlying artifacts, remove or modify their access to the workspace, or publish the report to a different workspace. [Learn more](https://docs.microsoft.com/power-bi/collaborate-share/service-create-the-new-workspaces#give-access-to-your-workspace). 
+```
+
+“自定义消息”文本区域支持滚动查看，因此你可提供字符数达 5,000 个的消息。
+
+:::image type="content" source="media/service-admin-portal/admin-show-custom-message.png" alt-text="自定义消息框的屏幕截图。":::
+
+用户在将报表发布到 Power BI 中的工作区时，会看到你编写的消息。
+
+:::image type="content" source="media/service-admin-portal/admin-user-show-custom-message.png" alt-text="用户在将报表发布到工作区时看到的对话框。":::
+
+与其他租户设置一样，可选择自定义消息的适用对象：
+
+- **整个组织**。
+- **特定安全组**。
+- 或者 **特定安全组除外**。
 
 ## <a name="workspace-settings"></a>工作区设置
 
@@ -388,7 +412,7 @@ Azure AD B2B 来宾用户可以编辑和管理组织中的内容。 [了解详�
 允许此组织中的用户认证数据集、数据流、报表和应用。 有关详细信息，请参阅[启用内容认证](service-admin-setup-certification.md)。
 
 ### <a name="email-subscriptions"></a>电子邮件订阅
-组织中的用户可以创建电子邮件订阅。 详细了解[订阅](../collaborate-share/service-publish-to-web.md)。
+组织中的用户可以创建电子邮件订阅。 详细了解[订阅](../collaborate-share/service-report-subscribe.md)。
 
 ![启用电子邮件订阅](media/service-admin-portal/power-bi-manage-email-subscriptions.png)
 

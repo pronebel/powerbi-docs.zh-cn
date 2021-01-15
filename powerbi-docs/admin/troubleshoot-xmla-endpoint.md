@@ -7,15 +7,15 @@ ms.reviewer: kayu
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: troubleshooting
-ms.date: 01/04/2021
+ms.date: 01/11/2021
 ms.custom: seodec18, css_fy20Q4
 LocalizationGroup: Premium
-ms.openlocfilehash: 191cf3ce71ca30f257276df78ad43cdb2e49a1e1
-ms.sourcegitcommit: eeaf607e7c1d89ef7312421731e1729ddce5a5cc
+ms.openlocfilehash: 16a07065507abfe825c39677f234d626070827b4
+ms.sourcegitcommit: c86ce723d5db16fb960d1731795d84f4654e4b4e
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/05/2021
-ms.locfileid: "97886066"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "98110719"
 ---
 # <a name="troubleshoot-xmla-endpoint-connectivity"></a>排查 XMLA 终结点连接问题
 
@@ -213,6 +213,10 @@ Error returned: ‘Metadata change of current operation cannot be resolved, plea
 :::image type="content" source="media/troubleshoot-xmla-endpoint/couldnt-publish-to-power-bi.png" alt-text="“无法发布到 Power BI”错误。":::
 
 如错误消息中所述，若要解决此问题，请删除或重命名现有数据集。 还要确保重新发布依赖于该报表的任何应用。 如有必要，还应告知下游用户使用新的报表地址更新任何书签，以确保他们能够访问最新的报表。  
+
+## <a name="workspaceserver-alias"></a>工作区/服务器别名
+
+与 Azure Analysis Services 不同，服务器名称[别名](/azure/analysis-services/analysis-services-server-alias)不可用于 Power BI Premium 工作区。 
 
 ## <a name="see-also"></a>另请参阅
 

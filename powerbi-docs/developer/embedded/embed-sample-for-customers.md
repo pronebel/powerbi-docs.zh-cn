@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.custom: seodec18
 ms.date: 12/22/2020
-ms.openlocfilehash: f6ca898bafff0b3375df65b63f913eb81d8dc006
-ms.sourcegitcommit: eeaf607e7c1d89ef7312421731e1729ddce5a5cc
+ms.openlocfilehash: de954c5950f550c3ed2f3c340714851f5233d3e8
+ms.sourcegitcommit: a5e98bc86915f7bea6a0ab5df282683840e63d2c
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/05/2021
-ms.locfileid: "97888940"
+ms.lasthandoff: 01/07/2021
+ms.locfileid: "97969756"
 ---
 # <a name="tutorial-embed-power-bi-content-using-a-sample-embed-for-your-customers-application"></a>教程：使用“为客户嵌入内容”应用程序嵌入 Power BI 内容
 
@@ -147,7 +147,7 @@ ms.locfileid: "97888940"
 
 |注意事项  |服务主体  |主用户  |
 |---------|---------|---------|
-|机制     |Azure AD 应用的[服务主体对象](/azure/active-directory/develop/app-objects-and-service-principals.md#service-principal-object)允许 Azure AD 向 Power BI 对嵌入式解决方案应用进行身份验证。        |Azure AD 应用使用 Power BI 用户的凭据（用户名和密码）向 Power BI 进行身份验证。         |
+|机制     |Azure AD 应用的[服务主体对象](/azure/active-directory/develop/app-objects-and-service-principals#service-principal-object)允许 Azure AD 向 Power BI 对嵌入式解决方案应用进行身份验证。        |Azure AD 应用使用 Power BI 用户的凭据（用户名和密码）向 Power BI 进行身份验证。         |
 |安全性     |服务主体是 Azure AD 建议的授权方法。 如果使用服务主体，则可使用应用程序机密或证书进行身份验证 。</br></br>本教程仅介绍如何结合使用服务主体和应用程序机密 。 若要使用服务主体和证书嵌入内容，请参阅[服务主体和证书](embed-service-principal-certificate.md)一文 。         |此身份验证方法不如使用服务主体安全。 这是因为必须警惕主用户凭据（用户名和密码）。 例如，不能在嵌入的应用程序中公开它们，而应经常更改密码。         |
 |Azure AD 委托的权限 |不需要。 |你的主用户或管理员必须授予你的应用访问 Power BI REST API [权限](/azure/active-directory/develop/v2-permissions-and-consent)（也称为范围）的许可。 例如 Report.ReadWrite.All。 |
 |Power BI 服务的访问 |无法使用服务主体访问 Power BI 服务。|可使用主用户凭据访问 Power BI 服务。|
@@ -185,7 +185,7 @@ Power BI 将报表、仪表板和磁贴存储在工作区中。 若要嵌入这�
 
 ## <a name="step-4---create-and-publish-a-power-bi-report"></a>步骤 4 - 创建并发布 Power BI 报表
 
-下一步是创建报表并将其上传到工作区。 你可使用 Power BI Desktop [创建自己的报表](/powerbi-docs/fundamentals/desktop-getting-started#build-reports)，然后将其[发布](/powerbi-docs/fundamentals/desktop-getting-started#share-your-work)到工作区。 也可将示例报表上传到你的工作区。
+下一步是创建报表并将其上传到工作区。 你可使用 Power BI Desktop [创建自己的报表](/power-bi/fundamentals/desktop-getting-started#build-reports)，然后将其[发布](/powerbi-docs/fundamentals/desktop-getting-started#share-your-work)到工作区。 也可将示例报表上传到你的工作区。
 
 >[!Tip]
 >如果你的工作区中已有一个报表，则可跳过此步骤。
@@ -536,7 +536,7 @@ Power BI 将报表、仪表板和磁贴存储在工作区中。 若要嵌入这�
 
     a. 在 IDE 终端中执行 `npm start`。
 
-    b. 在浏览器中打开新选项卡并导航到 [http://localhost:5300](http://localhost:5300)。
+    b. 在浏览器中打开新选项卡并导航到 `http://localhost:5300`。
 
 # <a name="python"></a>[Python](#tab/python)
 
@@ -571,7 +571,7 @@ Power BI 将报表、仪表板和磁贴存储在工作区中。 若要嵌入这�
 
     a. 在 PowerShell 或命令提示符中，导航到 Python  > “Embed for your customers” > “AppOwnesData”文件夹，并执行 `flask run`    。
 
-    b. 在浏览器中打开新选项卡并导航到 [http://localhost:5300](http://localhost:5300)。
+    b. 在浏览器中打开新选项卡并导航到 `http://localhost:5300`。
 
 ---
 
@@ -579,7 +579,7 @@ Power BI 将报表、仪表板和磁贴存储在工作区中。 若要嵌入这�
 
 配置并运行“为客户嵌入内容”示例应用程序后，可以开始开发自己的应用程序。
 
-准备就绪后，请查看[迁移到生产环境](move-to-production.md)要求。 还需要[容量](embedded-capacity.md)，并应查看[容量计划](embedded-capacity-planning.md)一文，以创建最能满足你需求的 SKU。
+准备就绪后，请查看[迁移到生产环境](move-to-production.md)要求。 还需要[容量](embedded-capacity.md)，并应查看[容量计划](embedded-capacity-planning.md)一文，创建最能满足你需求的 SKU。
 
 
 ## <a name="next-steps"></a>后续步骤

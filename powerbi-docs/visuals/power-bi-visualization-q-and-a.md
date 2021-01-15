@@ -1,59 +1,55 @@
 ---
-title: 使用 Power BI Q&A 视觉对象
-description: 如何设置 Power BI Q&A 视觉对象
-author: rien
-ms.author: rien
-ms.reviewer: mihart
+title: 在 Power BI 中创建问答视觉对象
+description: 如何在 Power BI Desktop 或 Power BI 服务中创建 Power BI 问答视觉对象并设置其格式。
+author: maggiesMSFT
+ms.author: maggies
+ms.reviewer: rien
 ms.service: powerbi
 ms.subservice: pbi-visuals
 ms.topic: how-to
-ms.date: 11/19/2019
-ms.openlocfilehash: 43da67114808538d64aa2ceb7f59af590ee23857
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.date: 01/05/2021
+ms.openlocfilehash: 1cf80593458c12a1bee07ed40202e3613fdcb5e9
+ms.sourcegitcommit: c700e78dfedc34f5a74b23bbefdaef77e2a87f8a
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96418930"
+ms.lasthandoff: 01/07/2021
+ms.locfileid: "97961353"
 ---
-# <a name="introduction-to-power-bi-qa-visualizations"></a>Power BI Q&A 可视化效果简介
+# <a name="create-a-qa-visual-in-power-bi"></a>在 Power BI 中创建问答视觉对象
 
 [!INCLUDE[consumer-appliesto-nyyn](../includes/consumer-appliesto-nyyn.md)]    
 
-[!INCLUDE [power-bi-service-new-look-include](../includes/power-bi-service-new-look-include.md)]
+使用 Q&A 视觉对象，用户可以提出自然语言问题并以视觉对象的形式获得答案。 使用者可用它来快速获取其数据的答案。 设计人员还可用它来快速创建视觉对象。 如果你是报表设计人员，那么本文就是针对你的。 你可双击报表上的任何位置，使用自然语言开始操作。 在本文中，你将创建、自定义问答视觉对象并设置其格式。 该视觉对象支持 Power BI 中提供的主题和其他默认格式选项。 创建后，它的行为与任何其他视觉对象的类似，支持交叉筛选、交叉突出显示和书签。 
 
-## <a name="what-are-qa-visualizations"></a>什么是 Q&A 可视化效果？
-
-使用 Q&A 视觉对象，用户可以提出自然语言问题并以视觉对象的形式获得答案。 
+在查找有关 Power BI 中的问答的更多背景信息？ 请查看[问答简介](../natural-language/q-and-a-intro.md)。 
 
 ![Q&A 视觉对象演练](../natural-language/media/qna-visual-walkthrough.gif)
 
 [!INCLUDE [power-bi-visuals-desktop-banner](../includes/power-bi-visuals-desktop-banner.md)]
 
-Q&A 视觉对象既可用作允许“使用者”快速获取其数据答案的工具，又可以由“设计人员”通过简单地双击报表上的任意位置并使用自然语言来在报表中创建视觉对象 。 与任何其他视觉对像一样，Q&A 视觉对象可以进行交叉筛选/交叉突出显示，并且也支持书签。 Q&A 视觉对象还支持 Power BI 中提供的主题和其他默认格式选项。
-
-Q&A 视觉对象由四个核心部分组成；
+问答视觉对象由 4 个核心部分组成：
 
 - 问题框。 在这里，用户输入他们的问题，并向他们显示帮助完成问题的建议。
 - 建议问题的预填充列表。
 - 将 Q&A 视觉对象转换为标准视觉对象的图标。 
-- 用于打开 Q&A 工具的图标，使设计人员能够配置基本的自然语言引擎。
+- 用于打开问答工具的图标，使设计人员能够配置基本的自然语言引擎。
 
 ## <a name="prerequisites"></a>先决条件
 
-1. 本教程使用“[销售和市场营销示例 PBIX 文件](https://download.microsoft.com/download/9/7/6/9767913A-29DB-40CF-8944-9AC2BC940C53/Sales%20and%20Marketing%20Sample%20PBIX.pbix)”。 
+1. 下载[销售和市场营销示例 PBIX 文件](https://download.microsoft.com/download/9/7/6/9767913A-29DB-40CF-8944-9AC2BC940C53/Sales%20and%20Marketing%20Sample%20PBIX.pbix)跟进了解信息。
 
-1. 在 Power BI Desktop 菜单栏的左上部分，选择“文件” > “打开” 
+1. 在 Power BI Desktop 的左上部分，选择“文件” > “打开” 。
    
-2. 查找“销售和市场营销示例 PBIX 文件”的副本
+2. 查找“销售和市场营销示例 PBIX 文件”的副本。
 
-1. 在报表视图中打开文件 ![报表视图图标的屏幕截图。](media/power-bi-visualization-kpi/power-bi-report-view.png)。
+1. 在报表视图中打开文件 ![报表视图图标的屏幕截图。](media/power-bi-visualization-kpi/power-bi-report-view.png).
 
-1. 选择 ![黄色选项卡的屏幕截图。](media/power-bi-visualization-kpi/power-bi-yellow-tab.png) ，以添加新报表页。
+1. 选择加号 ![黄色选项卡的屏幕截图。](media/power-bi-visualization-kpi/power-bi-yellow-tab.png) ，以添加新报表页。
 
-如果在创建 Q&A 视觉对象时看到错误，请确保查看[限制](../natural-language/q-and-a-limitations.md)部分以查看是否支持数据源配置。    
+如果在创建问答视觉对象时遇到错误，请务必查看[问答限制](../natural-language/q-and-a-limitations.md)一文，了解数据源配置是否受支持。    
 
 > [!NOTE]
-> 与 Power BI 同事共享报表时，你和这位同事都应具有独立的 Power BI Pro 许可证，并且应将报表保存在 Premium 容量中。 请参阅[共享报表](../collaborate-share/service-share-reports.md)。
+> 若要与使用 Power BI 的同事共享报表，需要你们两人都有单独的 Power BI Pro 许可证，或者你将报表保存在 Premium 容量工作区中。 请参阅[共享报表](../collaborate-share/service-share-dashboards.md)。
 
 ## <a name="create-a-qa-visual-using-a-suggested-question"></a>使用建议的问题创建 Q&A 视觉对象
 在本练习中，我们将选择一个建议的问题来创建我们的 Q&A 视觉对象。 
@@ -77,7 +73,7 @@ Q&A 视觉对象由四个核心部分组成；
 ## <a name="create-a-qa-visual-using-a-natural-language-query"></a>使用自然语言查询创建 Q&A 视觉对象
 在上面的示例中，我们选择了一个建议的问题来创建我们的 Q&A 视觉对象。  在此练习中，我们将键入自己的问题。 键入问题时，Power BI 会帮助我们进行自动完成、建议和反馈。
 
-如果不确定要使用哪种类型的问题或术语，请展开“显示所有建议”，或在画布右侧找到“字段”窗格。 这将使你熟悉“销售和营销”数据集的术语和内容。
+如果不确定要使用哪种类型的问题类型或术语，请展开“显示所有建议”，或浏览画布右侧的“字段”窗格。 可通过“字段”窗格熟悉“销售和市场营销”数据库的术语和内容。
 
 ![列出“显示所有建议和字段”窗格的画布](media/power-bi-visualization-q-and-a/power-bi-terminology.png)
 
@@ -125,7 +121,7 @@ Q&A 视觉对象由四个核心部分组成；
 ![显示格式化结果的 Q&A 视觉对象](media/power-bi-visualization-q-and-a/power-bi-q-and-a-format.png)
 
 ## <a name="convert-your-qa-visual-into-a-standard-visual"></a>将 Q&A 视觉对象转换为标准视觉对象
-我们对色盲安全柱形图进行了一些格式化，添加了标题和边框。 现在，我们准备将其转换为报表中的标准视觉对象，并将其固定到仪表板。
+我们对色盲安全柱形图进行了一些格式化：添加了标题和边框。 现在，我们准备将其转换为报表中的标准视觉对象，并将其固定到仪表板。
 
 选择图标“![齿轮图标](media/power-bi-visualization-q-and-a/power-bi-convert-icon.png)”以将此 Q&A 结果转换为标准视觉对象。
 
@@ -144,7 +140,7 @@ Q&A 视觉对象由四个核心部分组成；
 
 ![选择了“工具”图标的 Q&A 视觉对象](media/power-bi-visualization-q-and-a/power-bi-q-and-a-tooling.png)
 
-使用“工具”窗格教导无法识别的 Q&A 术语、管理这些术语以及管理有关该数据集和报表的建议问题。 在“工具”窗格中，还可以查看使用此“Q&A 视觉对象”窗口提出的问题，并查看用户已标记的问题。 有关详细信息，请参阅 [Q&A 工具](../natural-language/q-and-a-tooling-intro.md)。
+使用“工具”窗格教导无法识别的 Q&A 术语、管理这些术语以及管理有关该数据集和报表的建议问题。 在“工具”窗格中，还可查看用户在此问答视觉对象中提出的问题，并查看用户已标记的问题。 若要了解详细信息，请参阅[培训 Power BI 问答的问答工具简介](../natural-language/q-and-a-tooling-intro.md)。
 
 ![“Q&A 工具”窗格](media/power-bi-visualization-q-and-a/power-bi-q-and-a-tooling-pane.png)
 
@@ -153,7 +149,7 @@ Q&A 视觉对象与 Office 和 Bing 集成在一起，以尝试将无法识别�
 
 ## <a name="next-steps"></a>后续步骤
 
-可以通过多种方式集成自然语言。 有关详细信息，请参阅以下文章：
+可通过多种方式集成自然语言。 有关详细信息，请参阅以下文章：
 
 _ [Q&A 工具](../natural-language/q-and-a-tooling-intro.md)
 * [Q&A 最佳做法](../natural-language/q-and-a-best-practices.md)

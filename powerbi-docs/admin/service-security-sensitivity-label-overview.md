@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.custom: contperf-fy21q2
 ms.date: 12/20/2020
 LocalizationGroup: Data from files
-ms.openlocfilehash: de7715fc37748ee80cba61f9cc246ad9e1df5c33
-ms.sourcegitcommit: a92a3570eb14793a758a32e8fa1a756ec5d83f8c
+ms.openlocfilehash: d47d9b973eadb06095c2a2aebb8fe93cf6ab4414
+ms.sourcegitcommit: a5e98bc86915f7bea6a0ab5df282683840e63d2c
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/21/2020
-ms.locfileid: "97708033"
+ms.lasthandoff: 01/07/2021
+ms.locfileid: "97969526"
 ---
 # <a name="sensitivity-labels-in-power-bi"></a>Power BI 中的敏感度标签
 
@@ -80,7 +80,7 @@ Microsoft 信息保护敏感度标签为用户提供了一种简单的方法，�
 
 >[!NOTE]
 >* 在此预览版本中，可能会有一些限制。 请参阅[限制](#limitations)。
->* 在选择加入信息保护预览功能后的前 48 小时内，你可能会遇到应用了敏感度标签的 .pbix 文件的问题（例如，将 .pbix 发布到服务、从服务下载 .pbix）。 此类问题是预期情况，将在 48 小时内自动解决。
+>* 为了能够使用 Power BI Desktop 中的敏感度标签，你必须先[启用信息保护预览功能](service-security-apply-data-sensitivity-labels.md#apply-sensitivity-labels-in-power-bi-desktop-preview)，然后重启程序。 如果程序在重启后崩溃，则原因可能是你的计算机缺少必需的 Visual C++ 可再发行运行时库版本。 如果遇到此类崩溃，请访问 [Microsoft Visual C++ 2015 Redistributable Update 3 下载页面](https://www.microsoft.com/download/details.aspx?id=53587)，获取有关如何下载和安装更新的说明。 安装更新后，请尝试再次启动 Desktop。
 
 如果在 Desktop 中应用敏感度标签，则在将工作发布到服务时，或者当你将该工作的 .pbix 文件上传到该服务时，标签将与数据一起传送到服务中。 在该服务中，标签将应用于通过文件获取的数据集和报表。 如果数据集和报表已经具有敏感度标签，则这些标签将被来自 Desktop 的标签覆盖。
  

@@ -9,12 +9,12 @@ ms.subservice: powerbi-admin
 ms.topic: conceptual
 ms.date: 06/18/2020
 LocalizationGroup: Administration
-ms.openlocfilehash: ff41f702edc605ee346aa10a759e633377597504
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: 9ed9b42a42e497eaa332b3b1eb93be6247ddc542
+ms.sourcegitcommit: c700e78dfedc34f5a74b23bbefdaef77e2a87f8a
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96408955"
+ms.lasthandoff: 01/07/2021
+ms.locfileid: "97961215"
 ---
 # <a name="power-bi-high-availability-failover-and-disaster-recovery-faq"></a>Power BI 高可用性、故障转移和灾难恢复常见问题解答
 
@@ -26,7 +26,7 @@ Power BI 是完全托管的软件即服务 (SaaS)。  Microsoft 对它进行设�
 
 ## <a name="what-is-a-power-bi-failover"></a>什么是 Power BI 故障转移？
 
-Power BI 维护 Azure 数据中心（也称为区域）中每个组件的多个实例，以保证业务连续性。 如果发生中断或导致 Power BI 在区域中无法访问或不可操作的问题，则 Power BI 会使该区域中的所有组件都故障转移到备份实例。 故障转移会将可用性和可操作性还原到新区域中的 Power BI 服务实例（通常在同一地理位置，记录在 [Microsoft 信任中心](https://www.microsoft.com/TrustCenter/CloudServices/business-application-platform/data-location)中）。
+Power BI 维护 Azure 数据中心（也称为区域）中每个组件的多个实例，以保证业务连续性。 如果发生中断或导致 Power BI 在区域中无法访问或不可操作的问题，则 Power BI 会使该区域中的所有组件都故障转移到备份实例。 故障转移会将可用性和可操作性还原到新区域中的 Power BI 服务实例（通常在同一地理位置，记录在 [Microsoft 信任中心](https://www.microsoft.com/trust-center/product-overview)）。
 
 进行了故障转移的 Power BI 服务实例仅支持读取操作，这意味着以下操作在故障转移期间不受支持：刷新、报表发布操作、仪表板或报表修改以及其他需要对 Power BI 元数据进行更改的操作（例如在报表中插入注释）。  显示仪表板和显示报表（不基于 Live Connect 到本地数据源上的 DirectQuery）等读取操作仍然可以正常运行。
 
@@ -36,7 +36,7 @@ Power BI 维护 Azure 数据中心（也称为区域）中每个组件的多个�
 
 ## <a name="where-are-the-failover-clusters-located"></a>故障转移群集位于何处？
 
-备份实例驻留在当组织注册 Power BI 时选择的相同地理位置（地区）处，除了在 [Microsoft 信任中心](https://www.microsoft.com/TrustCenter/CloudServices/business-application-platform/data-location)中记录的情况。 一个地区可以包含多个区域，Microsoft 可能会将数据复制到给定地区中的任何区域以实现数据复原能力。 Microsoft 不会在地区外部复制或移动客户数据。 有关 Power BI 提供的地区与其中的区域的映射，请参阅 [Microsoft 信任中心](https://www.microsoft.com/TrustCenter/CloudServices/business-application-platform/data-location)。
+备份实例驻留在当组织注册 Power BI 时选择的相同地理位置（地区）处，除了在 [Microsoft 信任中心](https://www.microsoft.com/trust-center/product-overview)中记录的情况。 一个地区可以包含多个区域，Microsoft 可能会将数据复制到给定地区中的任何区域以实现数据复原能力。 Microsoft 不会在地区外部复制或移动客户数据。 有关 Power BI 提供的地区与其中的区域的映射，请参阅 [Microsoft 信任中心](https://www.microsoft.com/trust-center/product-overview)。
 
 ## <a name="how-does-microsoft-decide-to-fail-over"></a>Microsoft 如何决定故障转移？
 

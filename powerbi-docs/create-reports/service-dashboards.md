@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: pbi-reports-dashboards
 ms.topic: how-to
-ms.date: 09/19/2019
+ms.date: 01/08/2021
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 092ce10b527c6160cb27de5e3de0ed5852219f6a
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: 2d5eb4047b467544110a5802fa1d41b7ed65bb6a
+ms.sourcegitcommit: f791eef8e885f18c48997c9af63ab56211f1ceb8
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96417281"
+ms.lasthandoff: 01/09/2021
+ms.locfileid: "98053342"
 ---
 # <a name="introduction-to-dashboards-for-power-bi-designers"></a>Power BI 设计器的仪表板简介
 
@@ -53,9 +53,9 @@ Power BI“仪表板”是通过可视化效果讲述故事的单个页面，常
 | 数据源 |每个仪表板的一个或多个报表和一个或多个数据集 |每个报表的单个数据集 |
 | 可用于 Power BI Desktop |否 | 是。 可在 Power BI Desktop 中生成和查看报表 |
 | 订阅 |是。 可订阅仪表板 |是。 可订阅报表页面 |
-| 筛选 |否。 无法筛选或切片 |是。 许多不同的方式来筛选、突出显示和切片 |
+| 筛选 |否。 无法对仪表板进行筛选或切片。 可筛选[焦点模式下的仪表板磁贴](../consumer/end-user-focus.md#working-in-focus-mode)，但无法保存筛选器。 |是。 许多不同的方式来筛选、突出显示和切片 |
 | 特别推荐 |是。 可将一个仪表板设置为精选仪表板 |否 |
-| 收藏夹 | 是。 可将多个仪表板设置为“收藏夹” | 是。 可将多个报表设置为“收藏夹”
+| 收藏夹 | 是。 可将多个仪表板设置为“收藏夹” | 是。 可将多个报表设置为“收藏夹” |
 | 设置警报 |是。 可在某些情况下用于仪表板磁贴 |否 |
 | 自然语言查询（“问答”） |是 | 是，前提是你有权编辑报表及基础数据集 |
 | 可以看到基础数据集表和字段 |否。 可以导出数据，但看不到仪表板本身的表和字段 |是 |

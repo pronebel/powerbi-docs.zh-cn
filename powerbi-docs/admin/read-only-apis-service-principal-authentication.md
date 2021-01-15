@@ -10,12 +10,12 @@ ms.date: 12/01/2020
 ms.author: painbar
 ms.custom: ''
 LocalizationGroup: Administration
-ms.openlocfilehash: ec3cd60916630fe355b9ea4f54d5a025788800bf
-ms.sourcegitcommit: 30d0668434283c633bda9ae03bc2aca75401ab94
+ms.openlocfilehash: 332101009946c64cb5e97bd40b9949f6daa67b7b
+ms.sourcegitcommit: b4c457bfb4676381dc4a0d04d965e8dab0bc230e
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/09/2020
-ms.locfileid: "96906810"
+ms.lasthandoff: 01/13/2021
+ms.locfileid: "98155678"
 ---
 # <a name="enable-service-principal-authentication-for-read-only-admin-apis-preview"></a>为只读管理员 API 启用服务主体身份验证（预览）
 
@@ -42,7 +42,7 @@ ms.locfileid: "96906810"
         * 选择“权限”。 请确保此应用程序上没有 Power BI 的管理员同意要求的权限集。 有关详细信息，请参阅[管理应用程序的许可和评估同意请求](https://docs.microsoft.com/azure/active-directory/manage-apps/manage-consent-requests)。 
 4. 启用 Power BI 服务管理设置。 要执行此操作：
     1. 登录到 Power BI 管理门户。 你需要成为 Power BI 管理员才能看到“租户设置”页。
-    1. 在“开发人员设置”下，你将看到“允许服务主体使用只读 Power BI 管理员 API（预览）”。 将“切换”设置为“已启用”，然后选择“特定的安全组”单选按钮，并将在步骤 2 中创建的安全组添加到其下方显示的文本字段中，如下图所示。
+    1. 在“管理员 API 设置”下，你将看到“允许服务主体使用只读 Power BI 管理员 API (预览)” 。 将“切换”设置为“已启用”，然后选择“特定的安全组”单选按钮，并将在步骤 2 中创建的安全组添加到其下方显示的文本字段中，如下图所示。
 
         ![允许服务主体租户设置的屏幕截图。](media/read-only-apis-service-principal-auth/allow-service-principals-tenant-setting.png)
 
@@ -53,7 +53,7 @@ ms.locfileid: "96906810"
 
 ## <a name="considerations-and-limitations"></a>注意事项和限制
 * 无法使用服务主体登录 Power BI 门户。
-* 在 Power BI 管理门户的开发人员设置中启用服务主体需要 Power BI 管理员权限。
+* 若要在 Power BI 管理门户的“管理员 API 设置”中启用服务主体，需具有 Power BI 管理员权限。
 * 服务主体当前支持以下 API：
     * [GetGroupsAsAdmin](https://docs.microsoft.com/rest/api/power-bi/admin/groups_getgroupsasadmin) 与仪表板、数据集、报表和数据流的 $expand 
     * [GetDashboardsAsAdmin](https://docs.microsoft.com/rest/api/power-bi/admin/dashboards_getdashboardsasadmin) 与 $expand 磁贴

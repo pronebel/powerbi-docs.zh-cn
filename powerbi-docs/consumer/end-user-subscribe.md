@@ -8,14 +8,14 @@ featuredvideoid: ''
 ms.service: powerbi
 ms.subservice: pbi-explore
 ms.topic: how-to
-ms.date: 12/17/2020
+ms.date: 01/08/2021
 LocalizationGroup: Common tasks
-ms.openlocfilehash: 4b5c076837ea5f70a84c1782349fd27ced4d866c
-ms.sourcegitcommit: b8e4dd67c59db079fdfa82a8a01c2a28fd1673ca
+ms.openlocfilehash: d7dfcdadd4becddb46127106b390d566faa2f9b9
+ms.sourcegitcommit: f791eef8e885f18c48997c9af63ab56211f1ceb8
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/19/2020
-ms.locfileid: "97699330"
+ms.lasthandoff: 01/09/2021
+ms.locfileid: "98053434"
 ---
 # <a name="subscribe-to-a-report-or-dashboard-in-the-power-bi-service"></a>在 Power BI 服务中订阅报表或仪表板 
 
@@ -96,7 +96,7 @@ ms.locfileid: "97699330"
 * 如果电子邮件中的链接（指向内容）停止工作，则可能是该内容已被删除。 在电子邮件的屏幕截图下方，你可以查看自己或其他人是否订阅了你的邮件。 如果是其他人，请让该同事取消电子邮件或重新订阅。
 * 对于仪表板订阅，尚不支持某些类型的磁贴。 其中包括流磁贴、视频磁贴、自定义 Web 内容磁贴。 
 * 报表页订阅与报表页面的名称是相关联的。 如果你订阅一个报表页，而后将其重命名，则必须重新创建订阅。
-* 如果无法使用订阅功能，请与系统管理员或 IT 支持人员联系。 你的组织可能禁用了此功能。  
+* 如果无法使用订阅功能，请与系统管理员或 IT 支持人员联系。 你的组织可能已禁用此功能，或者可能达到了某个订阅者数上限。  
 * 电子邮件订阅不支持大多数[自定义视觉对象](../developer/visuals/power-bi-custom-visuals.md)。  已经过[认证](../developer/visuals/power-bi-custom-visuals-certified.md)的 Power BI 自定义视觉对象除外。    
 * 电子邮件订阅与报表的默认筛选器和切片器状态一起发送。 在订阅后对默认设置所做的任何更改都不会显示在电子邮件中。 分页报表支持此功能，并允许你为每个订阅设置特定的参数值。  
 * 目前，电子邮件订阅不支持 R 驱动的 Power BI 视觉对象。  

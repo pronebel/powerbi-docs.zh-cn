@@ -8,14 +8,14 @@ featuredvideoid: ''
 ms.service: powerbi
 ms.subservice: pbi-collaborate-share
 ms.topic: how-to
-ms.date: 12/18/2020
+ms.date: 01/08/2021
 LocalizationGroup: Common tasks
-ms.openlocfilehash: 4a8234176dd44fd265ff2d4a6af8e1b5568a642c
-ms.sourcegitcommit: b8e4dd67c59db079fdfa82a8a01c2a28fd1673ca
+ms.openlocfilehash: 1253c2b2548a7e6333840b8d33fdf255d5634be5
+ms.sourcegitcommit: f791eef8e885f18c48997c9af63ab56211f1ceb8
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/19/2020
-ms.locfileid: "97699275"
+ms.lasthandoff: 01/09/2021
+ms.locfileid: "98053388"
 ---
 # <a name="subscribe-yourself-and-others-to-reports-and-dashboards-in-the-power-bi-service"></a>在 Power BI 服务中为自己和他人订阅报表和仪表板
 
@@ -128,6 +128,7 @@ Power BI 管理员可以使用 Power BI 审核日志来查看有关订阅的详�
 - 编辑现有订阅时，提供对报表/仪表板的访问权限的选项始终显示为已启用。  如果清除此选项并保存订阅，则会保存该状态。 但是，在再次编辑报表时，将默认选中该状态。
 - 如果你有备用电子邮件地址，但没有主电子邮件地址，则 Power BI 将使用该备用地址发送订阅。
 - 如果为外部用户订阅报表或仪表板，则在订阅窗格中选择“保存并关闭”后，他们将立即收到共享通知。 此通知仅发送给外部用户，而不发送给内部用户，因为前者需要邀请链接才能查看报表或仪表板。 
+- 一个报表或仪表板的订阅者数量存在限制。 传递 200 名订阅者后，可能会遇到传递问题。
 
 ### <a name="dashboards"></a>仪表板
 

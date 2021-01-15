@@ -7,13 +7,13 @@ ms.reviewer: maggies
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
-ms.date: 12/31/2020
-ms.openlocfilehash: 7c1df405c80f50b7b98803b68ae2d3887013a623
-ms.sourcegitcommit: eeaf607e7c1d89ef7312421731e1729ddce5a5cc
+ms.date: 01/06/2021
+ms.openlocfilehash: 51df40463a02c2c165ca6cde59ef2b16cda8860c
+ms.sourcegitcommit: f791eef8e885f18c48997c9af63ab56211f1ceb8
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/05/2021
-ms.locfileid: "97886180"
+ms.lasthandoff: 01/09/2021
+ms.locfileid: "98053319"
 ---
 # <a name="change-log-for-power-bi-report-server"></a>Power BI 报表服务器的更改日志
 
@@ -23,6 +23,10 @@ ms.locfileid: "97886180"
 
 ## <a name="october-2020"></a>2020 年 10 月
 - **Power BI 报表服务器**
+    - *版本：1.9.7675.15620（内部版本 15.0.1104.300），发布日期：2021 年 1 月 8 日*
+        - Bug 修复
+            - 解决了使用只存在字母大小写不同的两个或更多数据源刷新报表的问题。
+            - 解决了报表刷新包含嵌套联接组合的问题。
     - *版本：1.9.7627.11028（内部版本 15.0.1104.264），发布日期：2020 年 11 月 18 日*
         - Bug 修复
             - 修复了阻止用户通过门户更改站点设置中的字段的问题。

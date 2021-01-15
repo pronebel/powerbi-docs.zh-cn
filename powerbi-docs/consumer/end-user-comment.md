@@ -8,14 +8,14 @@ featuredvideoid: ''
 ms.service: powerbi
 ms.subservice: pbi-explore
 ms.topic: how-to
-ms.date: 12/03/2020
+ms.date: 01/08/2021
 LocalizationGroup: Consumer
-ms.openlocfilehash: f1265a8eb3fb4a7a1ec18a74c6b3a7d28b3b09ba
-ms.sourcegitcommit: cb6e0202de27f29dd622e47b305c15f952c5769b
+ms.openlocfilehash: a4a89fd9db3ea3d92012bdaffdcaf248f7546c86
+ms.sourcegitcommit: f791eef8e885f18c48997c9af63ab56211f1ceb8
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/03/2020
-ms.locfileid: "96578236"
+ms.lasthandoff: 01/09/2021
+ms.locfileid: "98053457"
 ---
 # <a name="add-comments-to-a-dashboard-or-report"></a>将注释添加到仪表板或报表
 
@@ -92,7 +92,7 @@ ms.locfileid: "96578236"
 5. 选择“关闭”返回仪表板或报表。
 
 ### <a name="get-your-colleagues-attention-by-using-the--sign"></a>通过使用 @ 符号引起同事的注意
-无论是创建仪表板、报表、磁贴还是视觉对象注释，都可以通过使用“\@”符号来吸引同事的注意。  当键入“\@”符号时，Power BI 会打开一个下拉菜单，你可以在其中搜索并从组织中选择单个人员。 任何以“\@”符号开头的经过验证的名称都会以蓝色字体显示。 @mentioned 个人会立即在其收件箱中收到一封电子邮件，如果他们使用 Power BI 移动应用，则将在其设备上收到推送通知。 他们可以直接从通知中打开注释、查看数据，并相应地回复。
+无论是创建仪表板、报表、磁贴还是视觉对象注释，都可以通过使用“\@”符号来吸引同事的注意。  当键入“\@”符号时，Power BI 会打开一个下拉菜单，你可以在其中搜索并从组织中选择单个人员。 任何以“\@”符号开头的经过验证的名称都会以蓝色字体显示。 @mentioned 个人会立即在其收件箱中收到一封电子邮件，如果他们使用 Power BI 移动应用，则将在其设备上收到推送通知。 他们可直接在通知中打开报表或仪表板、查看注释、查看数据集，并相应地回复。
 
 下面是我与可视化效果设计人员的对话。 他们使用 @ 符号确保我可以看到这条注释。 我收到通知并选择链接打开此仪表板和相关对话。  
 

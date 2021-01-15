@@ -8,12 +8,12 @@ ms.subservice: powerbi-eim
 ms.topic: how-to
 ms.date: 12/09/2020
 LocalizationGroup: Data from files
-ms.openlocfilehash: 14b3329ea2b8636c1e5cf2412ca9843bc777bed1
-ms.sourcegitcommit: b472236df99b490db30f0168bd7284ae6e6095fb
+ms.openlocfilehash: 09188b3b03fd5bfb720b98045ee9d895d337d677
+ms.sourcegitcommit: a5e98bc86915f7bea6a0ab5df282683840e63d2c
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/16/2020
-ms.locfileid: "97600452"
+ms.lasthandoff: 01/07/2021
+ms.locfileid: "97969158"
 ---
 # <a name="how-to-apply-sensitivity-labels-in-power-bi"></a>如何在 Power BI 中应用敏感度标签
 
@@ -65,9 +65,6 @@ ms.locfileid: "97600452"
 
 ## <a name="apply-sensitivity-labels-in-power-bi-desktop-preview"></a>在 Power BI Desktop（预览版）中应用敏感度标签
 
->[!NOTE]
->在你选择加入 Power BI Desktop 信息保护预览功能后的前 48 小时内，你可能会遇到应用了敏感度标签的 .pbix 文件的问题（例如，将 .pbix 发布到服务、从服务下载 .pbix）。 此类问题是预期情况，将在 48 小时内自动解决。
-
 要在 Power BI Desktop 中使用敏感度标签，你需要满足以下条件：
 * 你必须拥有 [Power BI Pro 许可证](./service-admin-purchasing-power-bi-pro.md)。
 * 必须为你的组织启用敏感度标签。 如果不确定，请联系你的 Power BI 管理员。
@@ -77,10 +74,13 @@ ms.locfileid: "97600452"
 
     ![Desktop 预览功能页的屏幕截图。](media/service-security-apply-data-sensitivity-labels/desktop-preview-features-page.png)
 
+    >[!Important]
+    >启用信息保护预览功能后，必须重启 Desktop 才能开始使用敏感度标签。
+    >
+    >如果 Desktop 在重启时崩溃，则原因可能是你的计算机缺少必需的 Visual C++ 可再发行运行时库版本。 如果遇到此类崩溃，请访问 [Microsoft Visual C++ 2015 Redistributable Update 3 下载页面](https://www.microsoft.com/download/details.aspx?id=53587)，获取有关如何下载和安装更新的说明。 安装更新后，请尝试再次启动 Desktop。
+
     如果看不到“信息保护预览”选项，则可能会为你的组织阻止信息保护预览功能。 在这种情况下，请联系你的 Power BI 管理员。
 
-    >[!NOTE]
-    >启用信息保护预览功能后，必须重启 Desktop 才能开始使用敏感度标签。
 * 你必须登录。
 
 若要对你正在使用的文件应用敏感度标签，请单击“主页”选项卡中的“敏感度”按钮，然后从出现的菜单中选择所需的标签。

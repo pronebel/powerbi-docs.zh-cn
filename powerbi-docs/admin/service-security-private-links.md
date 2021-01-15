@@ -10,12 +10,12 @@ ms.topic: how-to
 ms.date: 12/14/2020
 ms.custom: ''
 LocalizationGroup: Administration
-ms.openlocfilehash: da5ee837345b6f26dd6636bc93f6b38c1e0f5ea7
-ms.sourcegitcommit: 46cf62d9bb33ac7b7eae7910fbba6756f626c65f
+ms.openlocfilehash: 56ac55ceec480d6d33d6974b97871c5fa4d2d799
+ms.sourcegitcommit: 73ca86f7633317fe3831839c4dd14a333b2f514c
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/15/2020
-ms.locfileid: "97491842"
+ms.lasthandoff: 01/08/2021
+ms.locfileid: "97979967"
 ---
 # <a name="private-links-for-accessing-power-bi"></a>用于访问 Power BI 的专用链接
 
@@ -305,7 +305,7 @@ Power BI 服务实现专用终结点，而不是服务终结点。
 
 使用 Power BI 中的专用链接时需要牢记几个注意事项：
 
-* 使用专用链接环境时，不能使用外部图像或主题；使用它们可能会影响自定义视觉对象。
+* 使用专用链接环境时，不能使用外部图像或主题。
 * 如果 Internet 访问被禁用，并且数据集或数据流连接到作为数据源的 Power BI 数据集或数据流，则连接将失败。
 * 启用专用链接后，使用指标将失效。
 * 在 Power BI 中启用“阻止公共 Internet 访问”时，不支持“发布到 Web”（灰显）。

@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-premium
 ms.topic: conceptual
-ms.date: 12/09/2020
+ms.date: 01/06/2021
 ms.custom: licensing support
 LocalizationGroup: Premium
-ms.openlocfilehash: 2265559b9b978681b2f7b210a15f7200fbba7971
-ms.sourcegitcommit: 0711972326521944fdd8572403c0b15f31b916da
+ms.openlocfilehash: c1e5cad6ab1da796d2f10a64e867d5848e86aea4
+ms.sourcegitcommit: b4c457bfb4676381dc4a0d04d965e8dab0bc230e
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/22/2020
-ms.locfileid: "97721446"
+ms.lasthandoff: 01/13/2021
+ms.locfileid: "98155609"
 ---
 # <a name="what-is-power-bi-premium"></a>什么是 Power BI Premium？
 
@@ -37,7 +37,7 @@ ms.locfileid: "97721446"
 
 ## <a name="power-bi-premium-generation-2-preview"></a>Power BI Premium Generation 2（预览版）
 
-Power BI Premium 最近发布了 Power BI Premium 的新版本，即 Power BI Premium Generation 2，为方便起见，我们将其称为 Premium Gen2 。 Premium Gen2 目前以预览版提供，可供 Premium 订阅者在预览期间使用。 可以选择使用原始版本的 Premium，也可以切换为使用 Premium Gen2。 只能将其中一个用于高级容量。 
+Power BI Premium 最近发布了 Power BI Premium 的新版本，即 Power BI Premium Generation 2，为方便起见，我们将其称为 Premium Gen2 。 Premium Gen2 目前以预览版提供，可供 Premium 订阅者在预览期间使用。 可以选择使用原始版本的 Premium，也可以切换为使用 Premium Gen2。 只能将其中一个用于高级容量。
 
 Premium Gen2 提供以下更新或改进的体验：
 
@@ -95,10 +95,6 @@ Power BI Premium 是租户级别的 Microsoft 365 订阅，可在两个 SKU（�
 - P SKU (P1-P5)：用于嵌入和企业功能，需要包月或包年承诺，并按月计费，包含用于在本地安装 Power BI 报表服务器的许可证。
 
 - 用于组织嵌入的 EM SKU (EM1-EM3)，要求按年承诺并按月计费。 EM1 和 EM2 SKU 仅通过批量许可计划提供， 无法直接购买。
-
-### <a name="updates-for-premium-gen2-preview"></a>Premium Gen2（预览版）的更新
-当前，Premium Gen2 仅作为 P 和 EM SKU 的完全受支持的预览功能提供 。 A SKU 容量尚未提供 Premium Gen2 预览版更新带来的所有其他权益。
-
 
 ### <a name="purchasing"></a>购买
 
@@ -161,7 +157,6 @@ Premium Gen 2 节点不再使用预留基础结构。 该服务通过从计算�
 #### <a name="updates-for-premium-gen2-preview"></a>Premium Gen2（预览版）的更新
 
 使用 Premium Gen2，每种大小的节点的可用内存量将设置为单个项目的内存占用限额，而不是内存的累积消耗量。 例如，在原始 Premium 中，处理的数据集的总内存占用被限制为 25 GB，而在 Premium Gen2 中，则是单个数据集的大小限制为 25 GB。
-
 
 ### <a name="capacity-workloads"></a>容量工作负载
 
@@ -249,8 +244,6 @@ Premium Gen2 不需要累积内存限制，因此并发数据集刷新不会影�
 #### <a name="updates-for-premium-gen2-preview"></a>Premium Gen2（预览版）的更新
 Premium Gen2 容量不使用 Metrics 应用，而是使用 Capacity Utilization 应用，后者将在预览期间提供。 希望查看其使用情况的客户可向客户支持人员请求，重新接收其过去 7 天的使用情况报表的副本。 报表将在请求后的 72 小时内提供。 对于每个容量，将从管理门户中的容量管理页面启动 Capacity Utilization 应用，它可用于分析 30 天及更早的数据。
 
-
-
 ### <a name="optimizing-capacities"></a>优化容量
 
 充分利用你的容量对于确保用户获得良好性能以及让你的 Premium 投资实现最大价值而言至关重要。 通过监视关键指标，管理员可以确定如何最好地解决瓶颈问题以及采取必要的措施。 若要了解详细信息，请参阅[优化 Premium 容量](service-premium-capacity-optimize.md)和 [Premium 容量方案](service-premium-capacity-scenarios.md)。
@@ -303,10 +296,10 @@ Power BI 数据集可在高度压缩的内存中缓存内存储数据，以便�
 
 P1-P3 和 A4_A6 SKU 支持的分页报表基于 SQL Server Reporting Services 中的报表定义语言 (RDL) 技术。 虽然基于 RDL 技术，但它与 Power BI 报表服务器不同，后者是可下载的报表平台并可在本地安装，其也包含在 Power BI Premium 中。 分页报表的格式设置为适应可以打印或共享的页面。 即使表格跨多个页，数据也能在表格中显示。 通过使用免费的 [**Power BI 报表生成器**](https://aka.ms/pbireportbuilder) Windows 桌面应用程序，用户可以创建分页报表并将其发布到服务中。
 
-在 Power BI Premium 中，分页报表是必须使用管理门户为容量启用的工作负载。 容量管理员可以启用内存，然后以容量内存资源总量百分比的形式指定内存量。 与其他类型的工作负载不同，Premium 在容量范所含的空间中运行分页报表。 无论工作负载是否处于活动状态，系统都将使用为此空间指定的最大内存。 默认值为 20%。 
+在 Power BI Premium 中，分页报表是必须使用管理门户为容量启用的工作负载。 容量管理员可以启用内存，然后以容量内存资源总量百分比的形式指定内存量。 与其他类型的工作负载不同，Premium 在容量范所含的空间中运行分页报表。 无论工作负载是否处于活动状态，系统都将使用为此空间指定的最大内存。 默认值为 20%。
 
 > [!NOTE]
-> 在“Premium Gen2(预览版)”中，不提供对分页报表的内存管理。 使用 Premium Gen2，EM1-EM3 SKU 支持分页报表。
+> 在“Premium Gen2 (预览版)”中，不提供对分页报表的内存管理。 使用 Premium Gen2，EM1-EM3 和 A1-A3 SKU 支持分页报表。
 
 ### <a name="paginated-reports-and-premium-gen2"></a>分页报表和 Premium Gen2
 
@@ -340,7 +333,7 @@ Premium 允许 Pro 用户广泛分发内容，且不要求查看内容的收件�
 
 ## <a name="analysis-services-in-power-bi-premium"></a>Power BI Premium 中的 Analysis Services
 
-在后台，久经企业考验的 Microsoft Analysis Services Vertipaq 引擎为 Power BI Premium 工作区和数据集提供技术支持。 Analysis Services 通过支持开放标准 XMLA 协议的客户端库和 API 提供可编程性以及客户端应用程序和工具支持。 默认情况下，Power BI Premium 容量数据集工作负荷支持 Microsoft 和第三方客户端应用程序和工具通过 XMLA 终结点执行只读操作。 容量管理员还可以选择禁用或允许通过终结点执行读/写操作。
+在后台，久经企业考验的 Microsoft Analysis Services Vertical 引擎为 Power BI Premium 工作区和数据集提供技术支持。 Analysis Services 通过支持开放标准 XMLA 协议的客户端库和 API 提供可编程性以及客户端应用程序和工具支持。 默认情况下，Power BI Premium 容量数据集工作负荷支持 Microsoft 和第三方客户端应用程序和工具通过 XMLA 终结点执行只读操作。 容量管理员还可以选择禁用或允许通过终结点执行读/写操作。
 
 借助只读权限，SQL Server Management Studio (SSMS) 和 SQL Server Profiler 等 Microsoft 工具以及 DAX Studio 和数据可视化应用程序等第三方应用程序可以使用 XMLA、DAX、MDX、DMV 和跟踪事件连接到并查询 Premium 数据集。 借助读/写权限，企业数据建模工具（如包含 Analysis Services 项目扩展的 Visual Studio 或开放源代码表格编辑器）可以将表格模型作为数据集部署到 Premium 工作区。 借助 SSMS 等工具，管理员可以使用表格模型脚本语言 (TMSL)，为元数据更改和高级数据刷新方案编写脚本。 
 

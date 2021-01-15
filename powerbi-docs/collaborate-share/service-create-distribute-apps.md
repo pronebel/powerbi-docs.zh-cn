@@ -8,12 +8,12 @@ ms.subservice: pbi-collaborate-share
 ms.topic: how-to
 ms.date: 03/23/2020
 LocalizationGroup: Share your work
-ms.openlocfilehash: f15508f030a1fa2ee0112134faf71e94e752984c
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: 981b4aa0f9e8bb12e4231476d27b8f58152ff3fd
+ms.sourcegitcommit: c86ce723d5db16fb960d1731795d84f4654e4b4e
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96407690"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "98110903"
 ---
 # <a name="publish-an-app-in-power-bi"></a>在 Power BI 中发布应用
 
@@ -70,7 +70,7 @@ ms.locfileid: "96407690"
     
     >[!IMPORTANT]
     >如果你的应用依赖于其他工作区中的数据集，则由你负责确保所有应用用户都有权访问基础数据集。
-    >
+    >如果应用或报表与数据集位于相同的工作区中，那么请确保还向应用添加与该数据集关联的报表。
 
 6. 如果 Power BI 管理员已在 Power BI 管理员门户中为你启用了此设置，则你可自动为收件人安装应用。 详细了解本文中的[自动安装应用](#automatically-install-apps-for-end-users)。
 
