@@ -7,12 +7,12 @@ ms.topic: conceptual
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.date: 11/23/2020
-ms.openlocfilehash: 33de464a1bb1389fadfbc7a85ded9365321e0a62
-ms.sourcegitcommit: 932f6856849c39e34229dc9a49fb9379c56a888a
+ms.openlocfilehash: 0852fcb2c932680f6c20aeee94a89c68f473e46d
+ms.sourcegitcommit: 1cad78595cca1175b82c04458803764ac36e5e37
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "97926308"
+ms.lasthandoff: 01/19/2021
+ms.locfileid: "98565719"
 ---
 # <a name="automated-configuration-of-a-template-app-installation"></a>模板应用安装的自动化配置
 
@@ -42,7 +42,7 @@ ms.locfileid: "97926308"
 
 1. ISV 根据在 ISV 的租户中注册的[服务主体（仅限应用的令牌）](../embedded/embed-service-principal.md)获取“仅限应用”令牌。
 
-1. 使用 [Power BI REST API](https://docs.microsoft.com/rest/api/power-bi/)，ISV 将创建“安装票证”，其中包含由 ISV 准备的用户特定参数配置。
+1. 使用 [Power BI REST API](/rest/api/power-bi/)，ISV 将创建“安装票证”，其中包含由 ISV 准备的用户特定参数配置。
 
 1. ISV 使用包含安装票证的 ```POST``` 重定向方法将用户重定向到 Power BI。
 
@@ -56,23 +56,23 @@ ms.locfileid: "97926308"
 若要为模板应用提供预配置的安装体验，需要满足以下先决条件：
 
 * Power BI Pro 许可证。 如果没有注册 Power BI Pro，请在开始之前[注册免费试用版](https://powerbi.microsoft.com/pricing/)。
-* 设置你自己的 Azure Active Directory (Azure AD) 租户。 有关如何设置租户的说明，请参阅[创建 Azure Active Directory 租户](https://docs.microsoft.com/power-bi/developer/embedded/create-an-azure-active-directory-tenant)。
-* 在上述租户中注册的服务主体（仅限应用的令牌）。 有关详细信息，请参阅[使用服务主体和应用程序机密嵌入 Power BI 内容](https://docs.microsoft.com/power-bi/developer/embedded/embed-service-principal)。 请务必将应用程序注册为“服务器端 Web 应用程序”应用。 注册服务器端 Web 应用程序以创建应用程序密码。 在此过程中，需要保存“应用程序 ID”（客户端 ID）和“应用程序机密”（客户端机密），以便执行后续步骤 。
-* 已准备好安装的参数化模板应用。 必须在将应用程序注册到 Azure AD 的同一租户中创建模板应用。 有关详细信息，请参阅[模板应用提示](https://docs.microsoft.com/power-bi/connect-data/service-template-apps-tips)或[在 Power BI 中创建模板应用](https://docs.microsoft.com/power-bi/connect-data/service-template-apps-create)。 在模板应用中，需要注意以下信息，以便执行后续步骤：
+* 设置你自己的 Azure Active Directory (Azure AD) 租户。 有关如何设置租户的说明，请参阅[创建 Azure Active Directory 租户](../embedded/create-an-azure-active-directory-tenant.md)。
+* 在上述租户中注册的服务主体（仅限应用的令牌）。 有关详细信息，请参阅[使用服务主体和应用程序机密嵌入 Power BI 内容](../embedded/embed-service-principal.md)。 请务必将应用程序注册为“服务器端 Web 应用程序”应用。 注册服务器端 Web 应用程序以创建应用程序密码。 在此过程中，需要保存“应用程序 ID”（客户端 ID）和“应用程序机密”（客户端机密），以便执行后续步骤 。
+* 已准备好安装的参数化模板应用。 必须在将应用程序注册到 Azure AD 的同一租户中创建模板应用。 有关详细信息，请参阅[模板应用提示](../../connect-data/service-template-apps-tips.md)或[在 Power BI 中创建模板应用](../../connect-data/service-template-apps-create.md)。 在模板应用中，需要注意以下信息，以便执行后续步骤：
      * 应用 ID、包密钥和所有者 ID，这些信息显示在创建应用时[定义模板应用的属性](../../connect-data/service-template-apps-create.md#define-the-properties-of-the-template-app)过程最后一步的安装 URL 中  。 还可选择模板应用的[“发布管理”窗格](../../connect-data/service-template-apps-create.md#manage-the-template-app-release)中的“获取链接”，获取相同的链接。
     * 在模板应用的数据集中定义的“参数名称”。 参数名称是区分大小写的字符串，也可在[定义模板应用的属性](../../connect-data/service-template-apps-create.md#define-the-properties-of-the-template-app)时从“参数设置”选项卡中进行检索，或从 Power BI 中的数据集设置中进行检索。
 
     >[!NOTE]
-    >如果模板应用已准备好安装，则可在模板应用上测试预配置的安装应用程序，即使该应用尚未在 AppSource 上公开提供。 为了让租户外部的用户能够使用自动化安装应用程序来安装模板应用，模板应用必须在 [Power BI 应用市场](https://app.powerbi.com/getdata/services)中公开提供。 在使用所创建的自动化安装应用程序分发模板应用之前，请务必将其发布到[合作伙伴中心](https://docs.microsoft.com/azure/marketplace/partner-center-portal/create-power-bi-app-offer)。
+    >如果模板应用已准备好安装，则可在模板应用上测试预配置的安装应用程序，即使该应用尚未在 AppSource 上公开提供。 为了让租户外部的用户能够使用自动化安装应用程序来安装模板应用，模板应用必须在 [Power BI 应用市场](https://app.powerbi.com/getdata/services)中公开提供。 在使用所创建的自动化安装应用程序分发模板应用之前，请务必将其发布到[合作伙伴中心](/azure/marketplace/partner-center-portal/create-power-bi-app-offer)。
 
 ## <a name="main-steps-and-apis"></a>主要步骤和 API
 
-以下各节介绍自动配置模板应用安装时涉及的主要步骤和所需的 API。 尽管大部分步骤都可使用 [Power BI REST API](https://docs.microsoft.com/rest/api/power-bi/) 完成，但下面介绍的代码示例介绍使用 .NET SDK 完成的情况。
+以下各节介绍自动配置模板应用安装时涉及的主要步骤和所需的 API。 尽管大部分步骤都可使用 [Power BI REST API](/rest/api/power-bi/) 完成，但下面介绍的代码示例介绍使用 .NET SDK 完成的情况。
 
 ## <a name="step-1-create-a-power-bi-client-object"></a>步骤 1：创建 Power BI 客户端对象
 
-如果使用 Power BI REST API，则需要从 Azure AD 为[服务主体](../embedded/embed-service-principal.md)获取访问令牌。 必须为 Power BI 应用程序获取 [Azure AD 访问令牌](../embedded/get-azuread-access-token.md#access-token-for-non-power-bi-users-app-owns-data)，然后才能对 [Power BI REST API](https://docs.microsoft.com/rest/api/power-bi/) 进行调用。
-要使用访问令牌创建 Power BI 客户端，需要创建 Power BI 客户端对象，以便与 [Power BI REST API](https://docs.microsoft.com/rest/api/power-bi/) 进行交互。 使用 Microsoft.Rest.TokenCredentials 对象包装 AccessToken，以创建 Power BI 客户端对象。
+如果使用 Power BI REST API，则需要从 Azure AD 为[服务主体](../embedded/embed-service-principal.md)获取访问令牌。 必须为 Power BI 应用程序获取 [Azure AD 访问令牌](../embedded/get-azuread-access-token.md#access-token-for-non-power-bi-users-app-owns-data)，然后才能对 [Power BI REST API](/rest/api/power-bi/) 进行调用。
+要使用访问令牌创建 Power BI 客户端，需要创建 Power BI 客户端对象，以便与 [Power BI REST API](/rest/api/power-bi/) 进行交互。 使用 Microsoft.Rest.TokenCredentials 对象包装 AccessToken，以创建 Power BI 客户端对象。
 
 ```csharp
 using Microsoft.IdentityModel.Clients.ActiveDirectory;
@@ -91,7 +91,7 @@ using (var client = new PowerBIClient(new Uri(ApiUrl), tokenCredentials))
 ## <a name="step-2-create-an-install-ticket"></a>步骤 2：创建安装票证
 
 创建安装票证，将用户重定向到 Power BI 时需要使用该票证。 用于此操作的 API 是 CreateInstallTicket API。
-* [模板应用 CreateInstallTicket](https://docs.microsoft.com/rest/api/power-bi/templateapps/createinstallticket)
+* [模板应用 CreateInstallTicket](/rest/api/power-bi/templateapps/createinstallticket)
 
 [示例应用程序](https://github.com/microsoft/Template-apps-examples/tree/master/Developer%20Samples/Automated%20Install%20Azure%20Function/InstallTemplateAppSample)中的 [InstallTemplateApp/InstallAppFunction.cs](https://github.com/microsoft/Template-apps-examples/blob/master/Developer%20Samples/Automated%20Install%20Azure%20Function/InstallTemplateAppSample/InstallTemplateApp/InstallAppFunction.cs) 文件提供了为模板应用安装和配置创建安装票证的示例。
 

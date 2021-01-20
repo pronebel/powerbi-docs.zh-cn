@@ -9,12 +9,12 @@ ms.subservice: pbi-fundamentals
 ms.topic: conceptual
 ms.date: 04/14/2020
 LocalizationGroup: Get started
-ms.openlocfilehash: aac8eac050a3c864833d16a12016a1cc0ae398b7
-ms.sourcegitcommit: eeaf607e7c1d89ef7312421731e1729ddce5a5cc
+ms.openlocfilehash: 262f6d4ba95828ed77f1a3161ac1a9fca46f99f3
+ms.sourcegitcommit: 1cad78595cca1175b82c04458803764ac36e5e37
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/05/2021
-ms.locfileid: "97888342"
+ms.lasthandoff: 01/19/2021
+ms.locfileid: "98565005"
 ---
 # <a name="whats-new-in-the-power-bi-service"></a>Power BI 服务中的新功能
 请阅读此页，了解 Power BI 服务中的已知问题和最近发布的功能。 有关相关的“新增功能”的信息，请参阅：
@@ -61,7 +61,7 @@ ms.locfileid: "97888342"
 ### <a name="october-2019"></a>2019 年 10 月
 * 用于刷新 Power BI 数据集的新 Power Automate 操作。
 * 适用于 Power BI 服务中报表和仪表板的[联系人信息](https://powerbi.microsoft.com/blog/announcing-new-contact-lists-for-reports-and-dashboards-in-the-power-bi-service/)。
-* [自动化机器学习](../transform-model/service-machine-learning-automated.md)的正式发行版
+* [自动化机器学习](../transform-model/dataflows/dataflows-machine-learning-integration.md)的正式发行版
 * 公开预览 Power BI 数据世系视图。
 
 ### <a name="september-2019"></a>2019 年 9 月

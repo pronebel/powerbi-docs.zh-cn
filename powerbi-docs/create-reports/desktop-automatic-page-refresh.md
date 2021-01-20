@@ -10,12 +10,12 @@ ms.subservice: pbi-reports-dashboards
 ms.topic: how-to
 ms.date: 08/13/2020
 LocalizationGroup: Connect to data
-ms.openlocfilehash: eb572c17705f06b989f15323322c0da11b1d85ac
-ms.sourcegitcommit: b472236df99b490db30f0168bd7284ae6e6095fb
+ms.openlocfilehash: 4e9d5783dd0c7d956f438358a5c20ad334a67aca
+ms.sourcegitcommit: 1cad78595cca1175b82c04458803764ac36e5e37
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/16/2020
-ms.locfileid: "97600682"
+ms.lasthandoff: 01/19/2021
+ms.locfileid: "98565952"
 ---
 # <a name="automatic-page-refresh-in-power-bi"></a>Power BI 中的自动页面刷新
 
@@ -283,7 +283,7 @@ Power BI 工作区驻留在容量范围内。 它们表示安全性、协作和�
 
 连接到 Analysis Services 时，我看不到 APR 切换
 
-* 请确保 Analysis Services 模型处于[直接查询模式](https://docs.microsoft.com/analysis-services/tabular-models/directquery-mode-ssas-tabular)。
+* 请确保 Analysis Services 模型处于[直接查询模式](/analysis-services/tabular-models/directquery-mode-ssas-tabular)。
 
 
 ## <a name="next-steps"></a>后续步骤
@@ -297,4 +297,4 @@ Power BI 工作区驻留在容量范围内。 它们表示安全性、协作和�
 * [Power BI Desktop 中的数据源](../connect-data/desktop-data-sources.md)
 * [在 Power BI Desktop 中调整和合并数据](../connect-data/desktop-shape-and-combine-data.md)
 * [通过 Power BI Desktop 连接到 Excel 工作簿](../connect-data/desktop-connect-excel.md)   
-* [直接将数据输入到 Power BI Desktop 中](../connect-data/desktop-enter-data-directly-into-desktop.md)   
+* [直接将数据输入到 Power BI Desktop 中](../connect-data/desktop-enter-data-directly-into-desktop.md)

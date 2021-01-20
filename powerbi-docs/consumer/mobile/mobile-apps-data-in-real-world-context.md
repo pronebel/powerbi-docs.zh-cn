@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 03/11/2020
-ms.openlocfilehash: b6564cafe087000fd0ce4409fac2cbfc78d0e8fa
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: 5710f70dafbb01aca68cfc03107a1f1ededaf015
+ms.sourcegitcommit: 1cad78595cca1175b82c04458803764ac36e5e37
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96413141"
+ms.lasthandoff: 01/19/2021
+ms.locfileid: "98565881"
 ---
 # <a name="get-data-from-the-real-world-with-the-power-bi-mobile-apps"></a>使用 Power BI 移动应用获取实际数据
 通过几种不同的方式，Power BI 移动应用可以直接将现实生活连接到相关 BI 信息。 
@@ -27,7 +27,7 @@ ms.locfileid: "96413141"
 
 * [在 Power BI 中创建磁贴的 QR 代码](../../create-reports/service-create-qr-code-for-tile.md)
 * [使用移动设备扫描 Power BI QR 码](mobile-apps-qr-code.md)
-* [使用 Power BI for Mixed Reality 应用扫描 QR 码](mobile-mixed-reality-app.md#scan-a-report-qr-code-in-holographic-view)。
+* [使用 Power BI for Mixed Reality 应用扫描 QR 码](./mobile-hololens2-app.md#open-reports-with-qr-codes)。
 
 ## <a name="qr-codes-for-reports"></a>报表的 QR 代码
 为报表创建 QR 代码。  当你的同事使用 iPhone 扫描代码时（Android 手机版即将推出），他们会看到已与该 QR 代码关联的报表。 

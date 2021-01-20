@@ -7,12 +7,12 @@ ms.topic: tutorial
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.date: 11/23/2020
-ms.openlocfilehash: 1bf62e99d666c05af8efc05ecbc496d69c586ae6
-ms.sourcegitcommit: 932f6856849c39e34229dc9a49fb9379c56a888a
+ms.openlocfilehash: a44bd7837e7605fd23e49a91e3e9eba106d5a933
+ms.sourcegitcommit: 1cad78595cca1175b82c04458803764ac36e5e37
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "97927114"
+ms.lasthandoff: 01/19/2021
+ms.locfileid: "98565763"
 ---
 # <a name="tutorial-automate-configuration-of-template-app-installation-using-an-azure-function"></a>教程：使用 Azure Function 自动配置模板应用安装
 
@@ -38,7 +38,7 @@ ms.locfileid: "97927114"
 
 有关常规自动化流及其使用的 API 的详细信息，请参阅[自动配置模板应用安装](template-apps-auto-install.md)
 
-我们的简单应用程序使用 Azure Function。 有关 Azure Functions 的详细信息，请参阅 [Azure Functions 文档](https://docs.microsoft.com/azure/azure-functions/)。
+我们的简单应用程序使用 Azure Function。 有关 Azure Functions 的详细信息，请参阅 [Azure Functions 文档](/azure/azure-functions/)。
 
 ## <a name="basic-flow"></a>基本流程
 
@@ -48,7 +48,7 @@ ms.locfileid: "97927114"
 
 1. ISV 根据在 ISV 的租户中注册的[服务主体（仅限应用的令牌）](../embedded/embed-service-principal.md)获取“仅限应用”令牌。
 
-1. 使用 [Power BI REST API](https://docs.microsoft.com/rest/api/power-bi/)，ISV 将创建“安装票证”，其中包含由 ISV 准备的用户特定参数配置。
+1. 使用 [Power BI REST API](/rest/api/power-bi/)，ISV 将创建“安装票证”，其中包含由 ISV 准备的用户特定参数配置。
 
 1. ISV 使用包含安装票证的 ```POST``` 重定向方法将用户重定向到 Power BI。
 
@@ -59,18 +59,18 @@ ms.locfileid: "97927114"
 
 ## <a name="prerequisites"></a>先决条件
 
-* 设置你自己的 Azure Active Directory (Azure AD) 租户。 有关如何设置租户的说明，请参阅[创建 Azure Active Directory 租户](https://docs.microsoft.com/power-bi/developer/embedded/create-an-azure-active-directory-tenant)。
-* 在上述租户中注册的[服务主体（仅限应用的令牌）](https://docs.microsoft.com/power-bi/developer/embedded/embed-service-principal)。
-* 已准备好安装的参数化[模板应用](https://docs.microsoft.com/power-bi/connect-data/service-template-apps-overview)。 必须在将应用程序注册到 Azure AD 的同一租户中创建模板应用。 有关详细信息，请参阅[模板应用提示](https://docs.microsoft.com/power-bi/connect-data/service-template-apps-tips.md)或[在 Power BI 中创建模板应用](https://docs.microsoft.com/power-bi/connect-data/service-template-apps-create)。
+* 设置你自己的 Azure Active Directory (Azure AD) 租户。 有关如何设置租户的说明，请参阅[创建 Azure Active Directory 租户](../embedded/create-an-azure-active-directory-tenant.md)。
+* 在上述租户中注册的[服务主体（仅限应用的令牌）](../embedded/embed-service-principal.md)。
+* 已准备好安装的参数化[模板应用](../../connect-data/service-template-apps-overview.md)。 必须在将应用程序注册到 Azure AD 的同一租户中创建模板应用。 有关详细信息，请参阅[模板应用提示](../../connect-data/service-template-apps-tips.md)或[在 Power BI 中创建模板应用](../../connect-data/service-template-apps-create.md)。
 * Power BI Pro 许可证。 如果没有注册 Power BI Pro，请在开始之前[注册免费试用版](https://powerbi.microsoft.com/pricing/)。
 
 ## <a name="set-up-your-template-apps-automation-development-environment"></a>设置模板应用自动化开发环境
 
-在继续设置应用程序之前，请按照[快速入门：使用 Azure 应用程序配置创建 Azure Functions 应用](https://docs.microsoft.com/azure/azure-app-configuration/quickstart-azure-functions-csharp)中的说明开发 Azure Function 以及 Azure 应用程序配置。 按照本文中的说明创建应用程序配置。
+在继续设置应用程序之前，请按照[快速入门：使用 Azure 应用程序配置创建 Azure Functions 应用](/azure/azure-app-configuration/quickstart-azure-functions-csharp)中的说明开发 Azure Function 以及 Azure 应用程序配置。 按照本文中的说明创建应用程序配置。
 
 ### <a name="register-an-application-in-azure-ad"></a>在 Azure AD 中注册应用程序
 
-请按照[使用服务主体和应用程序密码嵌入 Power BI 内容](https://docs.microsoft.com/power-bi/developer/embedded/embed-service-principal)中所述创建服务主体。
+请按照[使用服务主体和应用程序密码嵌入 Power BI 内容](../embedded/embed-service-principal.md)中所述创建服务主体。
 
 请务必将应用程序注册为“服务器端 Web 应用程序”应用。 注册服务器端 Web 应用程序以创建应用程序密码。
 
@@ -89,12 +89,12 @@ ms.locfileid: "97927114"
 * 在模板应用的数据集中定义的“参数名称”。 参数名称是区分大小写的字符串。 也可在[定义模板应用的属性](../../connect-data/service-template-apps-create.md#define-the-properties-of-the-template-app)时从“参数设置”选项卡中检索，或从 Power BI 中的数据集设置中检索这些字符串。
 
 >[!NOTE]
->如果模板应用已准备好安装，则可在模板应用上测试预配置的安装应用程序，即使该应用尚未在 AppSource 上公开提供。 为了让租户外部的用户能够使用自动化安装应用程序来安装模板应用，模板应用必须在 [Power BI 应用市场](https://app.powerbi.com/getdata/services)中公开提供。 在使用所创建的自动化安装应用程序分发模板应用之前，请务必将其发布到[合作伙伴中心](https://docs.microsoft.com/azure/marketplace/partner-center-portal/create-power-bi-app-offer)。
+>如果模板应用已准备好安装，则可在模板应用上测试预配置的安装应用程序，即使该应用尚未在 AppSource 上公开提供。 为了让租户外部的用户能够使用自动化安装应用程序来安装模板应用，模板应用必须在 [Power BI 应用市场](https://app.powerbi.com/getdata/services)中公开提供。 在使用所创建的自动化安装应用程序分发模板应用之前，请务必将其发布到[合作伙伴中心](/azure/marketplace/partner-center-portal/create-power-bi-app-offer)。
 
 
 ## <a name="install-and-configure-your-template-app"></a>安装和配置模板应用
 
-本节将使用我们创建的自动安装 Azure Functions 示例来预配置和安装模板应用。 为了便于演示，故意采用简单的示例。 它使你可以利用 [Azure Functions](https://docs.microsoft.com/azure/azure-functions/functions-overview) 和 [Azure 应用程序配置](https://docs.microsoft.com/azure/azure-app-configuration/overview)来轻松部署和使用适用于你的模板应用的自动安装 API。
+本节将使用我们创建的自动安装 Azure Functions 示例来预配置和安装模板应用。 为了便于演示，故意采用简单的示例。 它使你可以利用 [Azure Functions](/azure/azure-functions/functions-overview) 和 [Azure 应用程序配置](/azure/azure-app-configuration/overview)来轻松部署和使用适用于你的模板应用的自动安装 API。
 
 ### <a name="download-visual-studio-version-2017-or-later"></a>下载 [Visual Studio](https://www.visualstudio.com/)（版本 2017 或更高版本）
 
@@ -200,7 +200,7 @@ Constants.cs 文件如下所示：
 
 ## <a name="test-your-function-locally"></a>在本地测试函数
 
-按照[在本地运行函数](https://docs.microsoft.com/azure/azure-functions/functions-create-your-first-function-visual-studio#run-the-function-locally)中所述的步骤运行函数。
+按照[在本地运行函数](/azure/azure-functions/functions-create-your-first-function-visual-studio#run-the-function-locally)中所述的步骤运行函数。
 
 配置门户以向函数的 URL 发出 ```POST``` 请求。 示例为 ```POST http://localhost:7071/api/install```。 请求正文应为描述键值对的 JSON 对象。 键是 Power BI Desktop 中定义的参数名称。 值是要为模板应用中的每个参数设置的所需值。
 
@@ -218,4 +218,4 @@ Constants.cs 文件如下所示：
 
 ### <a name="publish-your-project-to-azure"></a>将项目发布到 Azure
 
-若要将项目发布到 Azure，请按照 [Azure Functions 文档](https://docs.microsoft.com/azure/azure-functions/functions-create-your-first-function-visual-studio#publish-the-project-to-azure)中的说明进行操作。 然后，可以将模板应用自动安装 API 集成到产品中，并开始在生产环境中对其进行测试。
+若要将项目发布到 Azure，请按照 [Azure Functions 文档](/azure/azure-functions/functions-create-your-first-function-visual-studio#publish-the-project-to-azure)中的说明进行操作。 然后，可以将模板应用自动安装 API 集成到产品中，并开始在生产环境中对其进行测试。

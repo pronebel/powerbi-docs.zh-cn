@@ -10,12 +10,12 @@ ms.topic: how-to
 ms.date: 11/06/2020
 ms.custom: video-01UrT-z37sw
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 2e3d7c276c90edde6ce6270a9deea07d185ecdcc
-ms.sourcegitcommit: 8250187368d3de48663eb516a816ff701119b579
+ms.openlocfilehash: 43b2e9c33bf420c7446aa2eb198048101704a1ba
+ms.sourcegitcommit: 396633fc5f7cff1f7d518f558b20043b2e05a513
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "96999027"
+ms.lasthandoff: 01/14/2021
+ms.locfileid: "98191926"
 ---
 # <a name="create-smart-narrative-summaries-preview"></a>创建智能叙述摘要（预览版）
 
@@ -37,7 +37,7 @@ ms.locfileid: "96999027"
 
 
 ## <a name="get-started"></a>入门 
-观看 Justyna 演示如何使用智能叙述，然后使用视频下方的教程亲自尝试。  若要按照本教程进行操作，请下载联机销售方案的[示例文件](https://github.com/microsoft/powerbi-desktop-samples/blob/master/Monthly%20Desktop%20Blog%20Samples/2020/2020SU09%20Blog%20Demo%20-%20September.pbix)。
+观看 Justyna 演示如何使用智能叙述，然后使用视频下方的教程亲自尝试。  若要按照本教程进行操作，请下载联机销售方案的[示例文件](https://github.com/microsoft/powerbi-desktop-samples/blob/main/Monthly%20Desktop%20Blog%20Samples/2020/2020SU09%20Blog%20Demo%20-%20September.pbix)。
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/01UrT-z37sw" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 

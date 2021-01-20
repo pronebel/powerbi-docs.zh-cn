@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.custom: contperf-fy21q2
 ms.date: 12/20/2020
 LocalizationGroup: Data from files
-ms.openlocfilehash: d47d9b973eadb06095c2a2aebb8fe93cf6ab4414
-ms.sourcegitcommit: a5e98bc86915f7bea6a0ab5df282683840e63d2c
+ms.openlocfilehash: df109f279a43826e164a461ae213bc74c0498cea
+ms.sourcegitcommit: 1cad78595cca1175b82c04458803764ac36e5e37
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "97969526"
+ms.lasthandoff: 01/19/2021
+ms.locfileid: "98565032"
 ---
 # <a name="sensitivity-labels-in-power-bi"></a>Power BI 中的敏感度标签
 
@@ -34,7 +34,7 @@ Microsoft 信息保护敏感度标签为用户提供了一种简单的方法，�
 
 在 Power BI 服务中，敏感度标签可应用于数据集、报表、仪表板和数据流。 如果标记的数据离开 Power BI（通过导出到 Excel、PowerPoint、PDF 或 .pbix 文件或通过其他支持的导出方案，如在 Excel 中分析或实时连接在 Excel 中的数据透视表），则 Power BI 会自动将标签应用于导出的文件，并根据标签的文件加密设置对其进行保护。 这样，即使你的敏感数据离开 Power BI，也能得到保护。
 
-此外，可以在 Power BI Desktop 中将敏感度标签应用于 .pbix 文件，以确保数据和内容在 Power BI 外共享时是安全的（例如，这样只有组织内的用户才能打开已共享或附加在电子邮件中的机密 .pbix），甚至在将其发布到 Power BI 服务之前。 有关更多详细信息，请参阅[使用敏感度标签应用加密来限制对内容的访问](https://docs.microsoft.com/microsoft-365/compliance/encryption-sensitivity-labels?view=o365-worldwide)。
+此外，可以在 Power BI Desktop 中将敏感度标签应用于 .pbix 文件，以确保数据和内容在 Power BI 外共享时是安全的（例如，这样只有组织内的用户才能打开已共享或附加在电子邮件中的机密 .pbix），甚至在将其发布到 Power BI 服务之前。 有关更多详细信息，请参阅[使用敏感度标签应用加密来限制对内容的访问](/microsoft-365/compliance/encryption-sensitivity-labels?view=o365-worldwide)。
 
 应用于报表、仪表板、数据集和数据流的敏感度标签在 Power BI 服务中的许多地方可见。 报表和仪表板上的敏感度标签也在 Power BI iOS 和 Android 移动应用以及嵌入式视觉对象中可见。 在 Desktop 中，可以在状态栏中看到敏感度标签。
 
@@ -185,7 +185,7 @@ Excel 中手动设置的敏感性标签不会由数据集的敏感度标签自�
 
 ### <a name="power-bi-desktop-preview"></a>Power BI Desktop（预览版）
 
-* 受保护的 .pbix 文件只能由作为此文件的 RMS 所有者的用户（最初将标签应用于该文件的用户）打开和/或发布，也可以由具有相关标签的[完全控制和/或导出使用权限](https://docs.microsoft.com/microsoft-365/compliance/encryption-sensitivity-labels?view=o365-worldwide)的用户打开和/或发布。 RMS 所有者具有完全控制权限，永远不会被锁定。[查看更多详细信息](https://docs.microsoft.com/azure/information-protection/configure-usage-rights#rights-management-issuer-and-rights-management-owner)
+* 受保护的 .pbix 文件只能由作为此文件的 RMS 所有者的用户（最初将标签应用于该文件的用户）打开和/或发布，也可以由具有相关标签的[完全控制和/或导出使用权限](/microsoft-365/compliance/encryption-sensitivity-labels?view=o365-worldwide)的用户打开和/或发布。 RMS 所有者具有完全控制权限，永远不会被锁定。[查看更多详细信息](/azure/information-protection/configure-usage-rights#rights-management-issuer-and-rights-management-owner)
 
 * 如果尚未将应用于 .pbix 文件的标签发布到 Microsoft 365 安全中心或 Microsoft 365 合规中心的用户，则用户将无法在 Desktop 中保存该文件。
 

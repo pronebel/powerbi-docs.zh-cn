@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 12/17/2020
-ms.openlocfilehash: 6eebe7b75db06b97d116ca0c17e67e9ee7b0562e
-ms.sourcegitcommit: a5e98bc86915f7bea6a0ab5df282683840e63d2c
+ms.openlocfilehash: 8301b51ccbb2ac344e24a297f9a309fc3601b3e1
+ms.sourcegitcommit: 1cad78595cca1175b82c04458803764ac36e5e37
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "97969641"
+ms.lasthandoff: 01/19/2021
+ms.locfileid: "98565598"
 ---
 # <a name="whats-new-in-the-mobile-apps-for-power-bi"></a>Power BI 移动应用中的新功能
 有关相关的“新增功能”的信息，请参阅：
@@ -442,7 +442,7 @@ Power BI 移动应用现已支持在 Power BI 中创建的书签。 打开应用
 
 #### <a name="power-bi-for-mixed-reality-app-preview"></a>Power BI for Mixed Reality 应用（预览版）
 
-Power BI for Mixed Reality 应用现已在 Microsoft Store 上架。 可以沉浸在虚拟世界中查看仪表板和报表，或将它们放在环境的上下文中的特定位置查看。 有关详情，请观看新发布的 [Power BI for HoloLens 简介](https://www.youtube.com/watch?v=J_X_nOFUBss)视频，或阅读与新推出的 [Power BI for Mixed Reality 应用](mobile-mixed-reality-app.md)相关的文章。
+Power BI for Mixed Reality 应用现已在 Microsoft Store 上架。 可以沉浸在虚拟世界中查看仪表板和报表，或将它们放在环境的上下文中的特定位置查看。 有关详情，请观看新发布的 [Power BI for HoloLens 简介](https://www.youtube.com/watch?v=J_X_nOFUBss)视频，或阅读与新推出的 [Power BI for Mixed Reality 应用](./mobile-hololens2-app.md)相关的文章。
 
 
 ### <a name="april-2018"></a>2018 年 4 月
@@ -460,7 +460,7 @@ Power BI for Mixed Reality 应用现已在 Microsoft Store 上架。 可以沉�
 
 #### <a name="power-bi-for-mixed-reality-app-preview"></a>Power BI for Mixed Reality 应用（预览版）
 
-在最近的数据跟随活动中，我们创建了 Power BI for Mixed Reality 应用。 可以沉浸在虚拟世界中查看仪表板和报表，或将它们放在环境的上下文中的特定位置查看。 详细阅读关于新的 [Power BI for Mixed Reality 应用](mobile-mixed-reality-app.md)的内容。
+在最近的数据跟随活动中，我们创建了 Power BI for Mixed Reality 应用。 可以沉浸在虚拟世界中查看仪表板和报表，或将它们放在环境的上下文中的特定位置查看。 详细阅读关于新的 [Power BI for Mixed Reality 应用](./mobile-hololens2-app.md)的内容。
 
 #### <a name="share-reports-and-dashboards-externally"></a>在外部共享报表和仪表板
 

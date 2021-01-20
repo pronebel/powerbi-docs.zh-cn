@@ -9,12 +9,12 @@ ms.subservice: pbi-visuals
 ms.topic: how-to
 ms.date: 11/10/2020
 LocalizationGroup: Visualizations
-ms.openlocfilehash: cd08d5e6196c1cd321efbe89ec0727d314eff4ce
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: fdd93e0839f9eb0dd99586fb5ddcd07000de0dd7
+ms.sourcegitcommit: 396633fc5f7cff1f7d518f558b20043b2e05a513
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96409852"
+ms.lasthandoff: 01/14/2021
+ms.locfileid: "98191903"
 ---
 # <a name="anomaly-detection-preview"></a>异常情况检测（预览版）
 
@@ -27,7 +27,7 @@ ms.locfileid: "96409852"
 :::image type="content" source="media/power-bi-visualization-anomaly-detection//preview-feature-switch.png" alt-text="显示如何启用异常情况检测预览功能开关的屏幕截图。":::
  
 ## <a name="get-started"></a>入门
-本教程使用各种产品的在线销售数据。若要按照本教程进行操作，请下载联机销售方案的[示例文件](https://github.com/microsoft/powerbi-desktop-samples/blob/master/Monthly%20Desktop%20Blog%20Samples/2020/2020SU09%20Blog%20Demo%20-%20September.pbix)。
+本教程使用各种产品的在线销售数据。若要按照本教程进行操作，请下载联机销售方案的[示例文件](https://github.com/microsoft/powerbi-desktop-samples/blob/main/Monthly%20Desktop%20Blog%20Samples/2020/2020SU09%20Blog%20Demo%20-%20September.pbix)。
 
 你可以通过选择图表并在分析窗格中添加“查找异常”选项来启用异常情况检测。 
 

@@ -9,12 +9,12 @@ ms.subservice: pbi-visuals
 ms.topic: how-to
 ms.date: 01/10/2020
 LocalizationGroup: Visualizations
-ms.openlocfilehash: fd4f984be74c0408eae5c476fa30994de55961a0
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: 47a8ef221caadfabebc5da00793b7fff0b8687f8
+ms.sourcegitcommit: 396633fc5f7cff1f7d518f558b20043b2e05a513
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96386357"
+ms.lasthandoff: 01/14/2021
+ms.locfileid: "98191857"
 ---
 # <a name="create-and-view-decomposition-tree-visuals-in-power-bi"></a>在 Power BI 中创建并查看分解树视觉对象
 
@@ -32,7 +32,7 @@ ms.locfileid: "96386357"
 - 一个销售方案，按游戏流派和发行商等多种因素细分视频游戏销售情况。
 
 可在此处找到供应链方案中使用的 pbix：[Supply Chain Sample.pbix](
-https://github.com/microsoft/powerbi-desktop-samples/blob/master/Sample%20Reports/Supply%20Chain%20Sample.pbix)。
+https://github.com/microsoft/powerbi-desktop-samples/blob/main/Sample%20Reports/Supply%20Chain%20Sample.pbix)。
 
 > [!NOTE]
 > 与 Power BI 同事共享报表时，你和这位同事都应具有独立的 Power BI Pro 许可证，并且应将报表保存在 Premium 容量中。    

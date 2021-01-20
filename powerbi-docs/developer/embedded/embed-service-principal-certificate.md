@@ -9,16 +9,16 @@ ms.subservice: powerbi-developer
 ms.topic: how-to
 ms.custom: ''
 ms.date: 11/23/2020
-ms.openlocfilehash: 647b9cce0835d21028da586ce3cf09f3383e544b
-ms.sourcegitcommit: eeaf607e7c1d89ef7312421731e1729ddce5a5cc
+ms.openlocfilehash: 0e19f2c592f5a5249e80771edf4a16c02eb68708
+ms.sourcegitcommit: 1cad78595cca1175b82c04458803764ac36e5e37
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/05/2021
-ms.locfileid: "97888871"
+ms.lasthandoff: 01/19/2021
+ms.locfileid: "98565112"
 ---
 # <a name="embed-power-bi-content-with-service-principal-and-a-certificate"></a>使用服务主体和证书嵌入 Power BI 内容
 
-凭借基于证书的身份验证，你可以通过 Azure Active Directory (Azure AD) 使用 Windows、Android 或 iOS 设备上或 [Azure 密钥保管库](https://docs.microsoft.com/azure/key-vault/basic-concepts)中保存的客户端证书进行身份验证。
+凭借基于证书的身份验证，你可以通过 Azure Active Directory (Azure AD) 使用 Windows、Android 或 iOS 设备上或 [Azure 密钥保管库](/azure/key-vault/basic-concepts)中保存的客户端证书进行身份验证。
 
 借助这种身份验证方法，可使用 CA 从一个中心位置管理证书，以便进行轮换或吊销。
 

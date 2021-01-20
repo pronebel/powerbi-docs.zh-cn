@@ -8,12 +8,12 @@ ms.subservice: powerbi-template-apps
 ms.topic: how-to
 ms.date: 12/22/2020
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 730a997a6d1d304fe868dd5bdd5bfbed6e359d91
-ms.sourcegitcommit: 932f6856849c39e34229dc9a49fb9379c56a888a
+ms.openlocfilehash: bff53ac0e230a91dd980b461340ae4109f551999
+ms.sourcegitcommit: 1cad78595cca1175b82c04458803764ac36e5e37
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "97927147"
+ms.lasthandoff: 01/19/2021
+ms.locfileid: "98565564"
 ---
 # <a name="microsoft-sustainability-calculator-support-page"></a>Microsoft Sustainability Calculator 支持页
 
@@ -165,7 +165,7 @@ Microsoft 的客户排放量不是零主要有两个原因。 第一个原因与
 
 如何进一步减少排放量？
 
-在 Azure 中，提高资源利用率和节约成本将降低 Azure 的使用对环境的影响。 例如，未使用的虚拟机无论是在云中还是在本地都是一种浪费。 调整虚拟机大小以提高计算利用率 (CUF)，就像使用物理服务器一样，可以减少每一个有用输出的能耗。 [Azure 成本管理](https://docs.microsoft.com/azure/cost-management-billing/costs/cost-mgt-best-practices)为你提供了计划、分析和减少支出的工具，以最大化你的云投资。
+在 Azure 中，提高资源利用率和节约成本将降低 Azure 的使用对环境的影响。 例如，未使用的虚拟机无论是在云中还是在本地都是一种浪费。 调整虚拟机大小以提高计算利用率 (CUF)，就像使用物理服务器一样，可以减少每一个有用输出的能耗。 [Azure 成本管理](/azure/cost-management-billing/costs/cost-mgt-best-practices)为你提供了计划、分析和减少支出的工具，以最大化你的云投资。
 
 #### <a name="methodology"></a>方法
 

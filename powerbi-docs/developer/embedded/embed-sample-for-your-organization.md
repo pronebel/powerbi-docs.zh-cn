@@ -9,12 +9,12 @@ ms.subservice: powerbi-developer
 ms.topic: tutorial
 ms.custom: seodec18
 ms.date: 02/04/2020
-ms.openlocfilehash: 78ba14c8a715c927f35c32244734e66a5fb80473
-ms.sourcegitcommit: eeaf607e7c1d89ef7312421731e1729ddce5a5cc
+ms.openlocfilehash: da356800a49e6d8876a147862dd08541ed2999bc
+ms.sourcegitcommit: 1cad78595cca1175b82c04458803764ac36e5e37
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/05/2021
-ms.locfileid: "97888963"
+ms.lasthandoff: 01/19/2021
+ms.locfileid: "98565690"
 ---
 # <a name="tutorial-embed-power-bi-content-into-an-application-for-your-organization"></a>教程：为组织将 Power BI 内容嵌入应用程序
 
@@ -57,7 +57,7 @@ ms.locfileid: "97888963"
 
 >[!NOTE]
 >在你自己的应用程序中，需要导航到“身份验证”，然后在“重定向 URI”字段中插入重定向地址 。
-若要了解有关重定向的详细信息，请参阅[重定向 URI （回复 URL）限制](https://docs.microsoft.com/azure/active-directory/develop/reply-url)。
+若要了解有关重定向的详细信息，请参阅[重定向 URI （回复 URL）限制](/azure/active-directory/develop/reply-url)。
 
 ## <a name="set-up-your-power-bi-environment"></a>设置 Power BI 环境
 
@@ -428,7 +428,7 @@ function updateEmbedReport() {
 本教程介绍了如何使用 Power BI 组织帐户将 Power BI 内容嵌入应用程序。 接下来，可以尝试使用应用将 Power BI 内容嵌入应用程序。 还可以尝试为客户嵌入 Power BI 内容（尚不支持嵌入分页报表）：
 
 > [!div class="nextstepaction"]
-> [从应用嵌入内容](embed-from-apps.md)
+> [从应用嵌入内容](./index.yml)
 
 > [!div class="nextstepaction"]
 >[为客户嵌入内容](embed-sample-for-customers.md)
