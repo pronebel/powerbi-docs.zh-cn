@@ -7,18 +7,19 @@ ms.reviewer: lukaszp
 ms.service: powerbi
 ms.subservice: pbi-collaborate-share
 ms.topic: how-to
-ms.date: 10/23/2019
+ms.date: 01/12/2021
 LocalizationGroup: Share your work
-ms.openlocfilehash: bd7fdea827d0fbaf4c56f373ea028a8fffdc3123
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: 038a0c57fe5994b2b15b64dfe67f3eda77ef86f2
+ms.sourcegitcommit: ab28cf07b483cb4b01a42fa879b788932bba919d
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96411692"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "98227091"
 ---
 # <a name="intro-to-organizational-content-packs-in-power-bi"></a>Power BI 中的组织内容包简介
+
 > [!NOTE]
-> 无法在新工作区体验中创建或安装组织内容包。 现在正是将内容包升级到应用的最佳时机（如果尚未升级）。 详细了解[新工作区体验](service-create-the-new-workspaces.md)。
+> 我们即将弃用组织内容包。 现在正是将内容包升级到应用的最佳时机（如果尚未升级）。 如需了解时间线，请参阅博客文章[宣布 Power BI 管理员可以升级经典工作区](https://powerbi.microsoft.com/blog/announcing-power-bi-admins-can-upgrade-classic-workspaces-and-roadmap-update/)的工作区升级路线图部分。
 > 
 
 你是否通过电子邮件向团队成员定期分发报表？ 改为试试下面这种做法：打包仪表板、报表、Excel 工作簿和数据集，以组织内容包的形式将它们发布到团队。 你的团队可以轻松找到你创建的内容包，因为它们都位于 AppSource 中。 因为它们是 Power BI 的一部分，所以它们将利用 Power BI 的所有功能，包括交互式数据浏览、新增视觉对象、问答、与其他数据源集成、数据刷新等。

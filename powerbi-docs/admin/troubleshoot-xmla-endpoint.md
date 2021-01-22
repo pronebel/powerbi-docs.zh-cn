@@ -7,15 +7,15 @@ ms.reviewer: kayu
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: troubleshooting
-ms.date: 01/11/2021
+ms.date: 01/13/2021
 ms.custom: seodec18, css_fy20Q4
 LocalizationGroup: Premium
-ms.openlocfilehash: 16a07065507abfe825c39677f234d626070827b4
-ms.sourcegitcommit: c86ce723d5db16fb960d1731795d84f4654e4b4e
+ms.openlocfilehash: 0753a9c3d5b832275f65ac11b87f90c38606f289
+ms.sourcegitcommit: ab28cf07b483cb4b01a42fa879b788932bba919d
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "98110719"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "98226976"
 ---
 # <a name="troubleshoot-xmla-endpoint-connectivity"></a>排查 XMLA 终结点连接问题
 
@@ -217,6 +217,10 @@ Error returned: ‘Metadata change of current operation cannot be resolved, plea
 ## <a name="workspaceserver-alias"></a>工作区/服务器别名
 
 与 Azure Analysis Services 不同，服务器名称[别名](/azure/analysis-services/analysis-services-server-alias)不可用于 Power BI Premium 工作区。 
+
+## <a name="dataset-refresh-through-the-xmla-endpoint"></a>通过 XMLA 终结点刷新数据集
+
+上次刷新日期和时间显示在 Power BI 中的多个位置，例如，报表和列表中的“已刷新”列、数据集详细信息、数据集设置和数据集刷新历史记录。 目前，Power BI 中显示的刷新日期和时间不包括使用 TMSL/TOM、SSMS 或第三方工具通过 XMLA 终结点执行的刷新操作。
 
 ## <a name="see-also"></a>另请参阅
 

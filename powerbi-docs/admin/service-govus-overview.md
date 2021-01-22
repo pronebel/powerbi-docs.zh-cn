@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
-ms.date: 01/05/2021
+ms.date: 01/19/2021
 ms.custom: gcc
 LocalizationGroup: Get started
-ms.openlocfilehash: 9b52e0698f6b9c1ae779bf21738acee30db7447d
-ms.sourcegitcommit: 932f6856849c39e34229dc9a49fb9379c56a888a
+ms.openlocfilehash: e7100be7890673cecc77a8a1147a25a942fc4666
+ms.sourcegitcommit: 96080432af4c8e3fe46c23274478ccffa0970efb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "97927077"
+ms.lasthandoff: 01/20/2021
+ms.locfileid: "98597610"
 ---
 # <a name="power-bi-for-us-government-customers"></a>适用于美国政府客户的 Power BI
 
@@ -124,26 +124,22 @@ Azure 分布在多个云中。 默认情况下，你可以启用防火墙规则�
 
 |功能 |GCC |GCC High |DoD|
 |------|------|------|------|
-|[政府云和商业云之间的 Azure B2B 协作](service-admin-azure-ad-b2b.md)<sup>1</sup>|![可用](../media/yes.png)|![不可用](../media/no.png)|![不可用](../media/no.png)|
+|[政府云和商业云之间的 Azure B2B 协作](service-admin-azure-ad-b2b.md)<sup>1</sup>|![可用](../media/yes.png)|![可用](../media/yes.png)|![可用](../media/yes.png)
+|[模板应用](../connect-data/service-template-apps-overview.md)<sup>2</sup>|![可用](../media/yes.png) |![可用](../media/yes.png)| ![可用](../media/yes.png)|
 |[使用 Power BI Web 部件在 SharePoint Online 中嵌入](/sharepoint/dev/spfx/web-parts/overview-client-side-web-parts)|![可用](../media/yes.png)|![可用](../media/yes.png)|![不可用](../media/no.png)|
-|[用于数据驱动警报的 Power Automate 连接](../connect-data/power-bi-data-sources.md)|![可用](../media/yes.png)|![可用](../media/yes.png)|![不可用](../media/no.png)|
-|[Teams 中 Power BI 选项卡](../collaborate-share/service-collaborate-microsoft-teams.md)<sup>2</sup>|![可用](../media/yes.png)|![不可用](../media/no.png)|![不可用](../media/no.png)|
-|[大型模型](service-premium-large-models.md) | ![不可用](../media/no.png) |![不可用](../media/no.png)| ![不可用](../media/no.png) |
+|[数据保护（MIP 标签）](service-security-sensitivity-label-overview.md)|![可用](../media/yes.png)|![可用](../media/yes.png) |2021 年第 1 季度|
+|[数据流 - 直接查询](../transform-model/dataflows/dataflows-configure-consume.md) | ![可用](../media/yes.png) |![可用](../media/yes.png)|未计划 |
+|[Teams 中的 Power BI 选项卡](../collaborate-share/service-collaborate-microsoft-teams.md)<sup>3</sup>|![可用](../media/yes.png)|![不可用](../media/no.png)|![不可用](../media/no.png)|
+|[大型模型](service-premium-large-models.md) | 2021 年第 1 季度 |2021 年第 1 季度| 未计划 |
 |[数据流 - SQL 计算引擎优化](../transform-model/dataflows/dataflows-premium-features.md) | ![不可用](../media/no.png) |![不可用](../media/no.png)| ![不可用](../media/no.png) |
-|[数据流 - 直接查询](../transform-model/dataflows/dataflows-configure-consume.md) | ![不可用](../media/no.png) |![不可用](../media/no.png)|![不可用](../media/no.png)|
-|[数据保护（MIP 标签）](service-security-sensitivity-label-overview.md)|![不可用](../media/no.png)|![不可用](../media/no.png) |![不可用](../media/no.png)|
-|[模板应用](../connect-data/service-template-apps-overview.md)<sup>3</sup>|![不可用](../media/no.png) |![不可用](../media/no.png)| ![不可用](../media/no.png)|
-|[自定义视觉对象](../developer/visuals/power-bi-custom-visuals.md)<sup>3</sup>|![不可用](../media/no.png) |![不可用](../media/no.png)| ![不可用](../media/no.png)|
-|[Azure 流分析](/azure/stream-analytics/stream-analytics-power-bi-dashboard)| ![不可用](../media/no.png)|![不可用](../media/no.png)|![不可用](../media/no.png)|
 |[调用质量数据连接器](/microsoftteams/cqd-power-bi-connector)|![不可用](../media/no.png)|![不可用](../media/no.png)|![不可用](../media/no.png)|
 |[自带存储 (Azure Data Lake Gen 2)](../transform-model/dataflows/dataflows-azure-data-lake-storage-integration.md)|![不可用](../media/no.png)|![不可用](../media/no.png)|![不可用](../media/no.png)|
-|[QR 码生成](../create-reports/service-create-qr-code-for-tile.md)|![不可用](../media/no.png)|![不可用](../media/no.png)|![不可用](../media/no.png)|
 
 <sup>1</sup> 尽管可以在 GCC 中进行 B2B 协作，但必须在该环境中向外部用户发出许可证。 商业云许可证在 GCC 中无效。 有关美国政府 B2B 协作已知限制的详细信息，请参阅[比较 Azure 政府和全球 Azure](/azure/azure-government/compare-azure-government-global-azure#azure-active-directory-premium-p1-and-p2)。
 
-<sup>2</sup> 适用于 GCC 的 Teams 中的 Power BI 体验受到限制，仅适用于经典工作区，不包括[在 Microsoft Teams 中嵌入 Power BI 内容](../collaborate-share/service-embed-report-microsoft-teams.md)中所述的增强功能。
+<sup>2</sup> 市场应用不适用于美国政府云实例，因此模板应用仅限于专用应用和组织应用。
 
-<sup>3</sup> 对于政府云，针对版本的模板应用和自定义视觉对象的功能将受到限制。 发布版本时将发布有关特定限制的详细信息。
+<sup>3</sup> 适用于 GCC 的 Teams 中的 Power BI 体验受到限制，仅适用于经典工作区，不包括[在 Microsoft Teams 中嵌入 Power BI 内容](../collaborate-share/service-embed-report-microsoft-teams.md)中所述的增强功能。
 
 ## <a name="next-steps"></a>后续步骤
 

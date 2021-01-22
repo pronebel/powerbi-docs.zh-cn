@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-premium
 ms.topic: conceptual
-ms.date: 11/11/2020
+ms.date: 1/13/2021
 LocalizationGroup: Premium
-ms.openlocfilehash: 005f6c72dd67282e2f15ceb3c91fb74d7e723712
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: e5edcde0f367c573c86aaac1b7f14397614eeedf
+ms.sourcegitcommit: 396633fc5f7cff1f7d518f558b20043b2e05a513
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96412244"
+ms.lasthandoff: 01/14/2021
+ms.locfileid: "98191632"
 ---
 # <a name="power-bi-premium-per-user-faq-preview"></a>Power BI Premium Per User 常见问题解答（预览版）
 
@@ -46,15 +46,21 @@ ms.locfileid: "96412244"
 4.  如何获取试用版？
 
     Microsoft 365 提供产品内试用体验和试用体验。 任何用户，假设他们的组织没有限制 PPU，都可以通过为工作区启用 Premium Per User 来访问产品内试用体验。 可通过门户网站启用 Microsoft 365 的试用体验，类似于目前启动 Power BI Pro 试用版的方式。  
+    
+5.  **初始试用版已过期，我们仍处于预览阶段。在预览期间，如何延长/续订 Premium Per User 试用期？**
 
-5.  Premium Per User 提供哪些功能？
+    对于使用产品内试用版的客户，你可以在原始试用期到期后的任何时间，通过单击门户右上角的个人资料图标来启动新的试用期。  你将看到一个选项，可再次选择启动试用期。  这样做将启动另一个 60 天的试用期。  整个预览期间都将提供此选项。  
+    
+    对于使用通过 Microsoft 365 提供的试用版的客户，租户管理员可以将原有的 30 天试用期再延长 30 天。 这是可以延长试用期的最长时间。
+
+6.  Premium Per User 提供哪些功能？
 
     功能比较网格如下：    
 
     ![Premium Per User 功能比较](media/service-premium-per-user-faq/premium-per-user-faq-02.png)
 
 
-6.  我的组织已经有 Power BI Premium **。我现在是否需要 Premium Per User 许可证才能将内容发布到我的容量？**
+7.  我的组织已经有 Power BI Premium **。我现在是否需要 Premium Per User 许可证才能将内容发布到我的容量？**
     
     你的组织可能会选择使用 Premium Per User 许可证作为高级容量的补充，但将内容发布到现有容量不需要 Premium Per User。  
 
@@ -89,6 +95,10 @@ ms.locfileid: "96412244"
 7.  Premium Per User 是否提供了容量 API？
 
     可以使用一组有限的 API 来允许工作区的移动，但是不能执行诸如关闭工作负载等操作以及类似活动。  
+    
+7.  **Premium Per User 工作区是否支持服务主体？**
+
+    否，目前不支持 Premium Per User 工作区中的服务主体。  
 
 
 ## <a name="end-user-experience-questions"></a>最终用户体验问题
@@ -113,9 +123,10 @@ ms.locfileid: "96412244"
 
     当你使用 Pro 许可证时，Premium Per User 与嵌入式用例的工作方式相同。 你可以嵌入内容，每个用户都需要 PPU 许可证才能查看它。
 
-5.  试用到期后，我的 PPU 工作区会怎样？
+5.  **如果选择不购买 Premium Per User 许可证，那么在预览期结束时，我的 PPU 工作区会怎样？**
 
-    用户仍将能够访问工作区，但无法访问要求具有该类型许可证才能访问的内容。 你要么将工作区移动到一个高级容量，要么干脆关闭需求。 
+    你和你的用户仍然能够访问工作区，但无法访问要求具有该类型许可证才能访问的内容。 你要么将工作区移动到一个高级容量，要么干脆关闭需求。 
+
 6.  使用 Premium Per User 能获取多少总存储容量？
 
     就存储而言，整个租户与高级容量具有相同的 100 TB 限制。

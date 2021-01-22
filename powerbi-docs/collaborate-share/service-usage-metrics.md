@@ -8,14 +8,14 @@ featuredvideoid: ''
 ms.service: powerbi
 ms.subservice: pbi-collaborate-share
 ms.topic: conceptual
-ms.date: 12/15/2020
+ms.date: 01/15/2021
 LocalizationGroup: Dashboards
-ms.openlocfilehash: dc3ce931664a3c125504865c6cccfe3fdfa404c4
-ms.sourcegitcommit: f791eef8e885f18c48997c9af63ab56211f1ceb8
+ms.openlocfilehash: acb1a1550c0ab216e4934e99f871df9321561314
+ms.sourcegitcommit: 1cad78595cca1175b82c04458803764ac36e5e37
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/09/2021
-ms.locfileid: "98053411"
+ms.lasthandoff: 01/19/2021
+ms.locfileid: "98565417"
 ---
 # <a name="monitor-usage-metrics-in-classic-workspaces"></a>在经典工作区中监视使用指标
 
@@ -162,7 +162,11 @@ Power BI 在单独的国家云中可用。 这些云提供与 Power BI 全球版
 
 ### <a name="discrepancies-between-rest-apis-and-usage-metrics"></a>REST API 与使用指标之间的差异
 
-Power BI [报表 REST API](https://docs.microsoft.com/rest/api/power-bi/reports) 和[管理员 REST API](https://docs.microsoft.com/rest/api/power-bi/admin) 也使用 Power BI 服务数据。 出于上一部分中描述的原因，来自 API 的报表计数（报表数量）可能与使用指标中的报表计数不同。 来自 API 的报表计数不受客户端问题的影响，应被视为正确无误。
+Power BI [报表 REST API](/rest/api/power-bi/reports) 和[管理员 REST API](/rest/api/power-bi/admin) 也使用 Power BI 服务数据。 出于上一部分中描述的原因，来自 API 的报表计数（报表数量）可能与使用指标中的报表计数不同。 来自 API 的报表计数不受客户端问题的影响，应被视为正确无误。
+
+### <a name="classic-usage-metrics-are-not-supported-with-private-links"></a>专用链接不支持经典使用指标 
+
+如果组织使用的是[专用链接](../admin/service-security-private-links.md)，则经典使用指标报表将不包含任何数据。 目前，通过专用链接传输客户端信息时存在限制。 
 
 ### <a name="other-considerations"></a>其他注意事项
 

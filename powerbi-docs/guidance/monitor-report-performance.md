@@ -8,17 +8,17 @@ ms.reviewer: asaxton
 ms.service: powerbi
 ms.subservice: powerbi
 ms.topic: conceptual
-ms.date: 02/16/2020
-ms.openlocfilehash: bd700ae7c6c175f4e9cf7841ce308a275ba9babb
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.date: 01/14/2021
+ms.openlocfilehash: a7da63efcc991da57eba9c6b9bb6b9527ad66e1f
+ms.sourcegitcommit: ab28cf07b483cb4b01a42fa879b788932bba919d
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96393018"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "98227367"
 ---
 # <a name="monitor-report-performance-in-power-bi"></a>在 Power BI 中监视报表性能
 
-在 Power BI Desktop 中使用 [Power BI Premium 指标应用](../admin/service-premium-metrics-app.md)监视报表性能，了解瓶颈所在，并了解如何提升报表性能。
+在 Power BI Desktop 中使用[性能分析器](../create-reports/desktop-performance-analyzer.md)监视报表性能，并借助 [Power BI Premium 指标应用](../admin/service-premium-metrics-app.md)监视部署到组织 Power BI Premium 容量中的内容的性能。 了解瓶颈所在，以及如何改善报表性能。
 
 在下列情况下会监视性能：
 

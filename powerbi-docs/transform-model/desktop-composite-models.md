@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: pbi-transform-model
 ms.topic: conceptual
-ms.date: 12/16/2020
+ms.date: 01/19/2021
 LocalizationGroup: Transform and shape data
-ms.openlocfilehash: c29728641560502e19486f47e3ec06e370399640
-ms.sourcegitcommit: b472236df99b490db30f0168bd7284ae6e6095fb
+ms.openlocfilehash: cbf41315f6b33483b7fdd0797bf4dfbcebb605c3
+ms.sourcegitcommit: 96080432af4c8e3fe46c23274478ccffa0970efb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/16/2020
-ms.locfileid: "97600521"
+ms.lasthandoff: 01/20/2021
+ms.locfileid: "98597675"
 ---
 # <a name="use-composite-models-in-power-bi-desktop"></a>在 Power BI Desktop 中使用复合模型
 
@@ -22,7 +22,7 @@ ms.locfileid: "97600521"
 
 Power BI Desktop 中的复合模型功能包括三个相关功能：
 
-* **复合模型**：允许报表任意组合多个数据连接，包括 DirectQuery 连接或导入。 本文详细介绍了复合模型。
+* **复合模型**：允许报表具有来自不同源组的两个或更多数据连接，例如一个或多个 DirectQuery 连接和一个导入连接，两个或更多 DirectQuery 连接，或其任意组合。 本文详细介绍了复合模型。
 
 * **多对多关系**：借助复合模型，可以在表之间建立多对多关系  。 这种方法删除了对表中唯一值的要求。 它还删除了旧解决办法，如为建立关系而仅引入新表。 有关详细信息，请参阅[在 Power BI Desktop 中应用多对多关系](desktop-many-to-many-relationships.md)。
 
@@ -142,6 +142,8 @@ Power BI Desktop 中的复合模型功能包括三个相关功能：
 
 创建复合模型时，Power BI Desktop 会显示一条警告消息，以便确认已考虑任何安全隐患。  
 
+此外，如果作者将模型 A 中的 Table1 添加到复合模型中（我们将其称为模型 C 以作参考），则查看基于模型 C 构建的报表的用户可以查询模型 A 中不受 RLS 保护的任何表。
+
 出于类似原因，打开从不受信任的源发送的 Power BI Desktop 文件时必须小心谨慎。 如果该文件包含复合模型，某人使用打开文件的用户的凭据从一个源检索的信息会被作为查询的一部分发送到另一个数据源。 Power BI Desktop 文件的恶意作者就可以查看该信息。 初次打开包含多个源的 Power BI Desktop 文件时，Power BI Desktop 将显示警告。 此警告类似于打开包含本机 SQL 查询的文件时显示的警告。  
 
 ## <a name="performance-implications"></a>性能影响  
@@ -150,13 +152,13 @@ Power BI Desktop 中的复合模型功能包括三个相关功能：
 
 使用复合模型有更多的性能注意事项。 只有一个视觉对象则可能导致向多个源发送查询，这通常会将来自一个查询的结果传递到第二个源。 这种情况可能会导致以下执行形式：
 
-* 包含大量文字值的 SQL 查询  ：例如，为一组选定的“Product Managers”请求总“Sales Amount”的视觉对象首先需要查找由这些产品经理管理的“Products”    。 此序列必须在视觉对象发送包含 `WHERE` 子句中的所有产品 ID 的 SQL 查询之前发生。
+* 包含大量文字值的 SQL 查询：例如，为一组选定的“Product Managers”请求总“Sales Amount”的视觉对象首先需要查找由这些产品经理管理的“Products”  。 此序列必须在视觉对象发送包含 `WHERE` 子句中的所有产品 ID 的 SQL 查询之前发生。
 
-* 在较低粒度级别进行查询、稍后在本地聚合数据的 SQL 查询  ：随着满足“产品经理”  筛选条件的“产品”  的数量增加，将所有产品包含在 `WHERE` 子句中可能会效率低下或不可行。 于是，有必要在“产品”  的较低级别查询关系源，然后在本地聚合结果。 如果“Products”基数超过 100 万限制，则查询失败  。
+* 在较低粒度级别进行查询、稍后在本地聚合数据的 SQL 查询：随着满足“产品经理”筛选条件的“产品”的数量增加，将所有产品包含在 `WHERE` 子句中可能会效率低下或不可行。 于是，有必要在“产品”的较低级别查询关系源，然后在本地聚合结果。 如果“Products”基数超过 100 万限制，则查询失败。
 
-*  多个 SQL 查询，按值一个组一个：如果聚合使用 DistinctCount  并按来自另一个源的某个列分组，且外部源不支持有效传递定义分组的多个文本值，则需要按值每组发送一个 SQL 查询。
+* 多个 SQL 查询，按值一个组一个：如果聚合使用 DistinctCount 并按来自另一个源的某个列分组，且外部源不支持有效传递定义分组的多个文本值，则需要按值每组发送一个 SQL 查询。
 
-   请求按“产品经理”  （从电子表格导入）排布的不同数量的 CustomerAccountNumber  （来自 SQL Server 表）的视觉对象，需要在发送到 SQL Server 的查询中传递来自“产品经理”  表的详细信息。 通过其他源（例如 Redshift），此操作不可行。 相反，会根据每个“销售经理”  发送一个 SQL 查询，直到达到某个实际限制，此时查询就会失败。
+   请求按“产品经理”（从电子表格导入）排布的不同数量的 CustomerAccountNumber（来自 SQL Server 表）的视觉对象，需要在发送到 SQL Server 的查询中传递来自“产品经理”表的详细信息。 通过其他源（例如 Redshift），此操作不可行。 相反，会根据每个“销售经理”发送一个 SQL 查询，直到达到某个实际限制，此时查询就会失败。
 
 每一种情况对性能都有其相应的影响，并且每个数据源的具体细节都有所不同。 虽然在连接两个源的关系中使用的列的基数仍然很低（几千），但性能不会受到影响。 随着此基数的增长，应更注重对其产生的性能的影响。
 

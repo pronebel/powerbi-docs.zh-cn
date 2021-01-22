@@ -7,25 +7,26 @@ ms.reviewer: lukaszp
 ms.service: powerbi
 ms.subservice: pbi-collaborate-share
 ms.topic: how-to
-ms.date: 08/06/2019
+ms.date: 01/12/2021
 LocalizationGroup: Share your work
-ms.openlocfilehash: 0a72582a54903c97dd9594f6a4a1c5980aea8e16
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: b0b57967ed86c25f51c08a94e4c252c250e85304
+ms.sourcegitcommit: ab28cf07b483cb4b01a42fa879b788932bba919d
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96411715"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "98227183"
 ---
 # <a name="tutorial-create-and-publish-a-power-bi-organizational-content-pack"></a>教程：创建和发布 Power BI 组织内容包
+
+> [!NOTE]
+> 我们即将弃用组织内容包。 现在正是将内容包升级到应用的最佳时机（如果尚未升级）。 如需了解时间线，请参阅博客文章[宣布 Power BI 管理员可以升级经典工作区](https://powerbi.microsoft.com/blog/announcing-power-bi-admins-can-upgrade-classic-workspaces-and-roadmap-update/)的工作区升级路线图部分。
+> 
 
 本教程介绍了如何创建组织内容包，授予对特定组的访问权限，并将组织内容包发布到你在 Power BI 上的组织内容包库。
 
 创建内容包不同于共享仪表板，也不同于在组中针对这些包开展协作。 阅读[如何在 Power BI 中分享工作](service-how-to-collaborate-distribute-dashboards-reports.md)，根据自己的情况选择最佳选项。
 
 你和你的同事需要具有 [Power BI Pro 帐户](https://powerbi.microsoft.com/pricing)才能创建组织内容包。
-
-> [!NOTE]
-> 无法在新工作区体验中创建或安装组织内容包。 如果尚未升级，现在正是将内容包升级到应用的最佳时机。 详细了解[新工作区体验](service-create-the-new-workspaces.md)。
 
 ## <a name="create-and-publish-a-content-pack"></a>创建和发布内容包
 

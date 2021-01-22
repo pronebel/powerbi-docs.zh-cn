@@ -8,14 +8,14 @@ featuredvideoid: ''
 ms.service: powerbi
 ms.subservice: pbi-collaborate-share
 ms.topic: conceptual
-ms.date: 12/15/2020
+ms.date: 01/15/2021
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 6ce7afedb43aa7abaffb3ad5afdb00b4749addb5
-ms.sourcegitcommit: eeaf607e7c1d89ef7312421731e1729ddce5a5cc
+ms.openlocfilehash: 573180ef4087af7654480da8ca581e1881729243
+ms.sourcegitcommit: 1cad78595cca1175b82c04458803764ac36e5e37
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/05/2021
-ms.locfileid: "97885385"
+ms.lasthandoff: 01/19/2021
+ms.locfileid: "98565291"
 ---
 # <a name="monitor-usage-metrics-in-the-new-workspace-experience-preview"></a>在新的工作区体验中监视使用指标（预览）
 
@@ -297,6 +297,7 @@ Power BI 在单独的国家云中可用。 这些云提供与 Power BI 全球版
 - 初始化“使用情况指标报表”数据集可能会由于刷新过程中出现超时而失败。 请参阅下面的“故障排除”部分来解决此问题。
 - 已为使用情况指标报表禁用共享。 若要向用户授予对报表的读取访问权限，你需要先向他们授予对工作区的访问权限。
 - 在某些情况下，你可能会注意到性能数据缺失。 如果用户在报表完成加载之前打开报表并与其交互，或在报表加载过程中出现错误，则会发生这种情况。 
+- 如果组织使用的是[专用链接](../admin/service-security-private-links.md)，则新式使用指标报表将包含部分数据（仅限报表视图）。 在通过专用链接传输客户端信息时，当前限制会使我们无法通过专用链接捕获报表页面视图和性能数据。 
 
 ## <a name="frequently-asked-questions"></a>常见问题解答
 

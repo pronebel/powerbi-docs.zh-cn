@@ -7,19 +7,19 @@ ms.reviewer: lukaszp
 ms.service: powerbi
 ms.subservice: pbi-collaborate-share
 ms.topic: how-to
-ms.date: 08/02/2018
+ms.date: 01/12/2021
 LocalizationGroup: Share your work
-ms.openlocfilehash: 5cd1ebd1502241cf07e7de8cff5f0eb769a1b59f
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: e95634f8bf41d8e969612b247645577bfef5ef32
+ms.sourcegitcommit: ab28cf07b483cb4b01a42fa879b788932bba919d
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96406402"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "98227068"
 ---
 # <a name="remove-your-connection-to-a-power-bi-organizational-content-pack"></a>删除与 Power BI 组织内容包的连接
 
 > [!NOTE]
-> 无法在新工作区体验中创建或安装组织内容包。 现在正是将内容包升级到应用的最佳时机（如果尚未升级）。 详细了解[新工作区体验](service-create-the-new-workspaces.md)。
+> 我们即将弃用组织内容包。 现在正是将内容包升级到应用的最佳时机（如果尚未升级）。 如需了解时间线，请参阅博客文章[宣布 Power BI 管理员可以升级经典工作区](https://powerbi.microsoft.com/blog/announcing-power-bi-admins-can-upgrade-classic-workspaces-and-roadmap-update/)的工作区升级路线图部分。
 > 
 
 一名同事已创建一个内容包。 你在 AppSource 中发现了此包，并将它添加到了 Power BI 工作区中。 现在你不再需要它。  如何删除它？

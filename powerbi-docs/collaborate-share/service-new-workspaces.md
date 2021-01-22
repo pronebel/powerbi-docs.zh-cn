@@ -7,15 +7,15 @@ ms.reviewer: lukaszp
 ms.service: powerbi
 ms.subservice: pbi-collaborate-share
 ms.topic: conceptual
-ms.date: 10/21/2020
+ms.date: 01/12/2021
 ms.custom: contperf-fy20q4
 LocalizationGroup: Share your work
-ms.openlocfilehash: 5aabc825ecd22ed49d05428148133be17156645d
-ms.sourcegitcommit: 7bf09116163afaae312eb2b232eb7967baee2c92
+ms.openlocfilehash: 5aa4fb617bc4a6d362bcf17a5e6b4d6d7f355086
+ms.sourcegitcommit: ab28cf07b483cb4b01a42fa879b788932bba919d
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "97621478"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "98227252"
 ---
 # <a name="organize-work-in-the-new-workspaces-in-power-bi"></a>在 Power BI 的新工作区中整理工作
 
@@ -37,7 +37,7 @@ ms.locfileid: "97621478"
 - 联系人列表：在新工作区中，可以指定谁会收到工作区活动通知。
 - 创建模板应用：只能在新工作区中创建模板应用。 模板应用是可以分发给组织外部客户的应用。 然后，这些客户可以通过你的模板应用连接到他们自己的数据。 详细了解[模板应用](../connect-data/service-template-apps-overview.md)。
 - 共享数据集：若要在特定工作区外共享数据集，需要将包含数据集的报表保存到新工作区。 无法从经典工作区共享数据集。 详细了解[共享数据集](../connect-data/service-datasets-across-workspaces.md)。
-- **组织内容包**：在经典工作区中创建和使用组织内容包。 无法在新工作区中创建或使用它们。 应用和模板应用会替换新工作区中的组织内容包。
+- **组织内容包**：在经典工作区中创建和使用组织内容包。 无法在新工作区中创建或使用它们。 应用和模板应用会替换新工作区中的组织内容包。 我们即将弃用组织内容包。 现在正是将内容包升级到应用的最佳时机。 如需了解时间线，请参阅博客文章[宣布 Power BI 管理员可以升级经典工作区](https://powerbi.microsoft.com/blog/announcing-power-bi-admins-can-upgrade-classic-workspaces-and-roadmap-update/)的工作区升级路线图部分。
 
 本文详细介绍了这些功能。
 

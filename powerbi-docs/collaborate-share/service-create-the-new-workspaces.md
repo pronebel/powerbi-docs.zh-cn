@@ -7,15 +7,15 @@ ms.reviewer: lukaszp
 ms.service: powerbi
 ms.subservice: pbi-collaborate-share
 ms.topic: how-to
-ms.date: 09/04/2020
+ms.date: 01/12/2021
 ms.custom: contperf-fy21q1, contperf-fy20q4
 LocalizationGroup: Share your work
-ms.openlocfilehash: 2c15c6afbf1a84ab5e8103a8d73792705418d2e6
-ms.sourcegitcommit: 7bf09116163afaae312eb2b232eb7967baee2c92
+ms.openlocfilehash: b849921b0ec9c5bbad46394343d266179ba547b8
+ms.sourcegitcommit: ab28cf07b483cb4b01a42fa879b788932bba919d
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "97621708"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "98227275"
 ---
 # <a name="create-the-new-workspaces-in-power-bi"></a>在 Power BI 中创建新工作区
 
@@ -24,7 +24,8 @@ ms.locfileid: "97621708"
 已准备好迁移经典工作区？ 有关详细信息，请参阅[在 Power BI 中将经典工作区升级到新工作区](service-upgrade-workspaces.md)。
 
 > [!NOTE]
-> 若要对在工作区中浏览内容的 Power BI Pro 用户强制执行行级别安全性 (RLS)，请向用户分配查看者角色。 有关不同角色的说明，请参阅[新工作区中的角色](service-new-workspaces.md#roles-in-the-new-workspaces)。
+> 正在查找有关如何创建内容包的内容？ 我们即将弃用内容包。 现在正是将内容包升级到应用的最佳时机。 如需了解时间线，请参阅博客文章[宣布 Power BI 管理员可以升级经典工作区](https://powerbi.microsoft.com/blog/announcing-power-bi-admins-can-upgrade-classic-workspaces-and-roadmap-update/)的工作区升级路线图部分。
+> 
 
 ## <a name="create-one-of-the-new-workspaces"></a>创建一个新工作区
 
@@ -59,6 +60,9 @@ ms.locfileid: "97621708"
 ## <a name="give-access-to-your-workspace"></a>授予对工作区的访问权限
 
 具有工作区管理员角色的任何人，均可将其他人添加到不同的角色，以便为其提供工作区的访问权限。 工作区创建者自动成为管理员。 有关各角色的说明，请参阅[新工作区中的角色](service-new-workspaces.md#roles-in-the-new-workspaces)。
+
+> [!NOTE]
+> 若要对在工作区中浏览内容的 Power BI Pro 用户强制执行行级别安全性 (RLS)，请向用户分配查看者角色。 有关不同角色的说明，请参阅[新工作区中的角色](service-new-workspaces.md#roles-in-the-new-workspaces)。
 
 1. 在工作区内容列表页中，由于你是管理员，因此会看到“访问”。
 

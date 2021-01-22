@@ -8,14 +8,14 @@ featuredvideoid: ''
 ms.service: powerbi
 ms.subservice: pbi-collaborate-share
 ms.topic: how-to
-ms.date: 01/08/2021
+ms.date: 01/13/2021
 LocalizationGroup: Common tasks
-ms.openlocfilehash: 1253c2b2548a7e6333840b8d33fdf255d5634be5
-ms.sourcegitcommit: f791eef8e885f18c48997c9af63ab56211f1ceb8
+ms.openlocfilehash: a72d6632eb8837fd6a0716842dc20a342edcce4b
+ms.sourcegitcommit: ab28cf07b483cb4b01a42fa879b788932bba919d
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/09/2021
-ms.locfileid: "98053388"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "98227114"
 ---
 # <a name="subscribe-yourself-and-others-to-reports-and-dashboards-in-the-power-bi-service"></a>在 Power BI 服务中为自己和他人订阅报表和仪表板
 
@@ -128,7 +128,7 @@ Power BI 管理员可以使用 Power BI 审核日志来查看有关订阅的详�
 - 编辑现有订阅时，提供对报表/仪表板的访问权限的选项始终显示为已启用。  如果清除此选项并保存订阅，则会保存该状态。 但是，在再次编辑报表时，将默认选中该状态。
 - 如果你有备用电子邮件地址，但没有主电子邮件地址，则 Power BI 将使用该备用地址发送订阅。
 - 如果为外部用户订阅报表或仪表板，则在订阅窗格中选择“保存并关闭”后，他们将立即收到共享通知。 此通知仅发送给外部用户，而不发送给内部用户，因为前者需要邀请链接才能查看报表或仪表板。 
-- 一个报表或仪表板的订阅者数量存在限制。 传递 200 名订阅者后，可能会遇到传递问题。
+- 一个报表或仪表板的订阅者数量存在限制。 传递 200 名订阅者后，可能会遇到传递问题。 若要减少订阅者数量，请改用电子邮件别名。 每个电子邮件别名计为一个订阅者。
 
 ### <a name="dashboards"></a>仪表板
 
@@ -140,7 +140,7 @@ Power BI 管理员可以使用 Power BI 审核日志来查看有关订阅的详�
 
 ### <a name="reports"></a>报表
 
-- 对于报表电子邮件说明，如果数据集使用 RLS，你可以为自己创建订阅。 对于应用了行级别安全性 (RLS) 的报表，你无法为其他用户订阅该报表（分页报表除外）。 你可以使用安全上下文为其他人订阅分页报表。 阅读有关[订阅分页报表](../consumer/paginated-reports-subscriptions.md)的详细信息。
+- 对于分页报表和 Power BI 报表电子邮件订阅，如果数据集使用行级别安全性 (RLS)，则可以自行创建订阅。 也可以使用 RLS 为其他人订阅报表。 这些订阅将使用你的安全上下文生成。
 - 报表页订阅与报表页面的名称是相关联的。 如果你订阅一个报表页，随后将其重命名，则必须重新创建订阅。
 - 组织可能在 Azure Active Directory 中配置的某些设置会限制 Power BI 中电子邮件订阅的使用。 这些限制包括但不限于针对资源访问设置多重身份验证或 IP 范围限制。
 - 电子邮件订阅不支持大多数[自定义视觉对象](../developer/visuals/power-bi-custom-visuals.md)。 已经过[认证](../developer/visuals/power-bi-custom-visuals-certified.md)的自定义视觉对象除外。

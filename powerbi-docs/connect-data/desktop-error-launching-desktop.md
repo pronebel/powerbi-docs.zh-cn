@@ -9,12 +9,12 @@ ms.subservice: pbi-data-sources
 ms.topic: troubleshooting
 ms.date: 11/14/2020
 LocalizationGroup: Troubleshooting
-ms.openlocfilehash: 62b3c9bb10cb47df0d21eb05e381c5c4784b3106
-ms.sourcegitcommit: b472236df99b490db30f0168bd7284ae6e6095fb
+ms.openlocfilehash: c41f8f9b23ef57d5dd6fd4b851918b7ffa5904a0
+ms.sourcegitcommit: ab28cf07b483cb4b01a42fa879b788932bba919d
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/16/2020
-ms.locfileid: "97600222"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "98226930"
 ---
 # <a name="troubleshoot-opening-power-bi-desktop"></a>打开 Power BI Desktop 的疑难解答
 
@@ -58,7 +58,7 @@ Power BI Desktop 是作为多进程体系结构设计的，其中一些进程使
 
 如果首先以管理员身份打开 Power BI Desktop，然后再建立 SQL Server 连接，通常可以解决此问题。
 
-以管理员身份打开 Power BI Desktop 并建立连接后，所需的 DLL 会正确注册。 此后，不再需要以管理员身份打开 Power BI Desktop。
+以管理员身份打开 Power BI Desktop 并建立连接后，所需的 DLL 会正确注册。 此后，不再需要以管理员身份打开 Power BI Desktop。 如果使用备用 Windows 凭据连接到 SQL Server，则每次连接时都必须以管理员身份打开 Power BI Desktop。
 
 ## <a name="get-help-with-other-launch-issues"></a>获取有关其他启动问题的帮助
 

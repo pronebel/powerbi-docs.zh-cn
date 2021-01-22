@@ -7,14 +7,14 @@ ms.reviewer: lukaszp
 ms.service: powerbi
 ms.subservice: pbi-collaborate-share
 ms.topic: how-to
-ms.date: 10/29/2020
+ms.date: 01/12/2021
 LocalizationGroup: Share your work
-ms.openlocfilehash: 024696aa69fc1c6e95b103a679b11de4fe468169
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: 0ff0d072bd36c7e49a7ce6d450b7a35410caa94f
+ms.sourcegitcommit: ab28cf07b483cb4b01a42fa879b788932bba919d
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96411945"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "98227298"
 ---
 # <a name="create-classic-workspaces-in-power-bi"></a>在 Power BI 中创建经典工作区
 
@@ -68,7 +68,7 @@ ms.locfileid: "96411945"
 
 为 Power BI 支持的所有第三方服务都提供了应用，使用户可以轻松从所用服务（如 Microsoft Dynamics CRM、Salesforce 或 Google Analytics）获取数据。 可以发布组织应用程序，为用户提供所需数据。
 
-在当前工作区中，也可以使用组织内容包和 Microsoft Dynamics CRM、Salesforce 或 Google Analytics 等第三方内容包进行连接。 请考虑将组织内容包迁移到应用。
+在经典工作区中，也可以使用组织内容包和 Microsoft Dynamics CRM、Salesforce 或 Google Analytics 等第三方应用进行连接。 我们即将弃用组织内容包。 现在正是将内容包升级到应用的最佳时机（如果尚未升级）。 如需了解时间线，请参阅博客文章[宣布 Power BI 管理员可以升级经典工作区](https://powerbi.microsoft.com/blog/announcing-power-bi-admins-can-upgrade-classic-workspaces-and-roadmap-update/)的工作区升级路线图部分。
 
 ## <a name="distribute-an-app"></a>分发应用
 
@@ -84,12 +84,11 @@ ms.locfileid: "96411945"
 ## <a name="power-bi-classic-apps-faq"></a>Power BI 经典应用常见问题解答
 
 ### <a name="how-are-apps-different-from-organizational-content-packs"></a>应用与组织内容包有什么不同？
-应用由组织内容包演变而来。 如果你已具有组织内容包，它们将继续与应用并行工作。 应用和内容包有几个主要区别。 
+应用由即将弃用的组织内容包演变而来。 现在正是将内容包升级到应用的最佳时机（如果尚未升级）。 如需了解时间线，请参阅博客文章[宣布 Power BI 管理员可以升级经典工作区](https://powerbi.microsoft.com/blog/announcing-power-bi-admins-can-upgrade-classic-workspaces-and-roadmap-update/)的工作区升级路线图部分。 
 
 * 业务用户在安装内容包后，它将失去其分组的标识：它只是穿插了其他仪表板和报表的仪表板和报表列表。 另一方面，应用即使在安装后也会维护其分组和标识。 因此，随着时间的推移，此分组使业务用户能够继续轻松地导航到应用。
 * 你可以从任何工作区创建多个内容包，但应用与其工作区具备一对一的关系。 
-* 随着时间的推移，我们计划弃用组织内容包，因此，我们建议你从现在开始构建应用。  
-* 通过新工作区体验，我们迈出了弃用组织内容包的第一步。 无法在新工作区中使用或创建它们。
+* 无法在新工作区中使用或创建内容包。
 
 请参阅[新的和经典的工作区差异](service-new-workspaces.md#new-and-classic-workspace-differences)对两者进行比较。 
 

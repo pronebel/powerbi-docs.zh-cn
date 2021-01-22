@@ -1,5 +1,5 @@
 ### YamlMime:Landing
-title: 关于打造增强型嵌入式 BI 见解的 Power BI 嵌入式分析文档
+title: Power BI 嵌入式分析文档
 summary: 学习使用两种 Power BI 嵌入式分析解决方案，即 Power BI Embedded 和使用 Power BI Premium 进行嵌入。
 metadata:
   title: Power BI 嵌入式分析文档
@@ -12,12 +12,12 @@ metadata:
   author: KesemSharabi
   ms.author: kesharab
   ms.date: 31/03/2020
-  ms.openlocfilehash: 0f5afe65128f8e9b79522380b2271895f2afacaf
-  ms.sourcegitcommit: eeaf607e7c1d89ef7312421731e1729ddce5a5cc
+  ms.openlocfilehash: a4de20cdd11170b7782c4891b11bde48081fdd55
+  ms.sourcegitcommit: 77912d4f6ef2a2b1ef8ffccc50691fe5b38ee97a
   ms.translationtype: HT
   ms.contentlocale: zh-CN
-  ms.lasthandoff: 01/05/2021
-  ms.locfileid: "97888664"
+  ms.lasthandoff: 01/22/2021
+  ms.locfileid: "98687502"
 landingContent:
 - title: 入门
   linkLists:

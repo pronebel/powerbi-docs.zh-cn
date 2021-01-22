@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: pbi-collaborate-share
 ms.topic: how-to
-ms.date: 01/04/2021
+ms.date: 01/14/2021
 LocalizationGroup: Share your work
-ms.openlocfilehash: 800e81b8fe5e9c2f108b71a4d8fb6bf9732a29ac
-ms.sourcegitcommit: 932f6856849c39e34229dc9a49fb9379c56a888a
+ms.openlocfilehash: 6b28537c9ea757fb43179196f9d7cb053955c5e0
+ms.sourcegitcommit: ab28cf07b483cb4b01a42fa879b788932bba919d
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "97926862"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "98227206"
 ---
 # <a name="publish-to-web-from-power-bi"></a>从 Power BI 发布到 Web
 
@@ -189,7 +189,7 @@ Power BI 管理门户具有控制可以发布到 Web 的人员的设置。 与�
 - 使用任何实时连接数据源的报表，包括在本地托管的 Analysis Services 表格、Analysis Services Multidimensional 以及 Azure Analysis Services。
 - 使用[共享数据集](../connect-data/service-datasets-across-workspaces.md)的报表，共享数据集与报表存储在不同的工作区中。
 - [共享和经认证的数据集](../connect-data/service-datasets-share.md)。
-- 直接或通过组织内容包共享的报表。
+- 直接或通过应用共享的报表。
 - 你不是编辑成员的工作区中的报表。
 - “发布到 Web”报表中当前不支持“R”和 Python 视觉对象。
 - 从已发布到 Web 的报表中的视觉对象中导出数据。

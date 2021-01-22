@@ -8,14 +8,14 @@ ms.custom: seodec18
 ms.service: powerbi
 ms.subservice: pbi-reports-dashboards
 ms.topic: how-to
-ms.date: 12/18/2019
+ms.date: 01/13/2021
 LocalizationGroup: Create reports
-ms.openlocfilehash: 5f1b3d226fb7b27ebb31879d2f4a5c3489660b94
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: a44b6cbbc0517bee50d14447e790f6491483a894
+ms.sourcegitcommit: 1cad78595cca1175b82c04458803764ac36e5e37
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96412911"
+ms.lasthandoff: 01/19/2021
+ms.locfileid: "98565871"
 ---
 # <a name="use-grouping-and-binning-in-power-bi-desktop"></a>在 Power BI Desktop 中使用分组和装箱
 在创建视觉对象后，Power BI Desktop 会根据基础数据中的值，将数据分入各区块（或组）。 这种归类的效果通常不错，但你有时可能会想要优化这些区块的显示方式。 例如，你可能想要在一个更宽泛的类别（ 一个组  ）中设置三个产品类别。 或者，你可能希望将销售额数据按 1,000,000 美元大小进行装箱，而不是 923,983 美元大小的区块。
@@ -47,17 +47,17 @@ ms.locfileid: "96412911"
 > 也可以为“字段”中的任意字段创建组，而无需选择现有视觉对象中的多个项  。 只需右键单击相应字段，然后从随即显示的菜单中选择“新建组”  即可。
 
 ## <a name="using-binning"></a>使用装箱
-可以在 Power BI Desktop  中对数字和时间类型字段设置装箱大小。 借助装箱，可以合理精简 Power BI Desktop 显示的数据。
+可以在 Power BI Desktop  中对数字和时间类型字段设置装箱大小。 可以为计算列创建箱，但不能为度量值创建箱。 借助装箱，可以合理精简 Power BI Desktop 显示的数据。
 
-若要应用装箱大小，请右键单击“字段”，然后选择“新建组”   。
+若要应用装箱大小，请右键单击“字段”，然后选择“新建组”。
 
 ![“新建组”命令，“字段”列表，Power BI Desktop](media/desktop-grouping-and-binning/grouping-binning_5.png)
 
-在“组”对话框中，设置所需的“装箱大小”   。
+在“组”对话框中，设置所需的“装箱大小”。
 
 ![装箱大小，“组”对话框，Power BI Desktop](media/desktop-grouping-and-binning/grouping-binning_6.png)
 
-选择“ **确定** ”后，你会发现“ **字段** ”窗格中显示一个新字段，且后跟“ **（装箱）** ”一词。 然后，可以将该字段拖到画布上，以在视觉对象中使用此装箱大小。
+选择“ **确定** ”后，你会发现“ **字段** ”窗格中显示一个新字段，且后跟“ **（装箱）** ”一词。 随后可以将该字段拖动到画布上，以在视觉对象中使用装箱大小。
 
 ![将“装箱”字段拖到画布上，Power BI Desktop](media/desktop-grouping-and-binning/grouping-binning_7.png)
 

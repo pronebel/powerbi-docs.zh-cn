@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: pbi-reports-dashboards
 ms.topic: how-to
-ms.date: 07/06/2020
+ms.date: 01/19/2021
 LocalizationGroup: Create reports
-ms.openlocfilehash: cadb8d45af40c91e7008e771f2a52ef2ea508341
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: abed7e9f6da352d5461868e6371ffefb814eb3ff
+ms.sourcegitcommit: 96080432af4c8e3fe46c23274478ccffa0970efb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96393453"
+ms.lasthandoff: 01/20/2021
+ms.locfileid: "98597632"
 ---
 # <a name="add-multiple-fields-to-a-hierarchy-slicer"></a>向层次结构切片器添加多个字段
 
@@ -76,6 +76,11 @@ ms.locfileid: "96393453"
 1. 展开项，然后拖动“渐变布局缩进”进行放大或缩小。 还可以在框中键入一个数字。
 
     :::image type="content" source="media/power-bi-slicer-hierarchy-multiple-fields/power-bi-slicer-indentation.png" alt-text="设置层次结构切片器缩进的屏幕截图。":::
+    
+## <a name="limitations-and-considerations"></a>限制和注意事项
+
+- 对于表格模型，此功能需要 SQL Server Analysis Services 2017 或更高版本。
+- 对于多维模型，此功能需要启用了 SuperDAXMD 的 SQL Server Analysis Services 2019 CU5 或更高版本。 详细了解 [SuperDAXMD](/analysis-services/multidimensional-models/dax-for-multidimensional-models#superdaxmd)。
 
 ## <a name="next-steps"></a>后续步骤
 

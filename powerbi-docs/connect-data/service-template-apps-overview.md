@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-template-apps
 ms.topic: how-to
 ms.date: 12/14/2020
-ms.openlocfilehash: a11ac8edb9abab29f58c3e4eda15ae204d105b26
-ms.sourcegitcommit: 46cf62d9bb33ac7b7eae7910fbba6756f626c65f
+ms.openlocfilehash: f9a3558bd83f9c2e263d69ad37c3e985c2c6199a
+ms.sourcegitcommit: 96080432af4c8e3fe46c23274478ccffa0970efb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/15/2020
-ms.locfileid: "97491727"
+ms.lasthandoff: 01/20/2021
+ms.locfileid: "98597590"
 ---
 # <a name="what-are-power-bi-template-apps"></a>什么是 Power BI 模板应用？
 
@@ -44,7 +44,12 @@ Power BI 模板应用允许 Power BI Pro 或 Power BI Premium 用户通过可连
     :::column-end:::
 :::row-end:::
 
+ > [!NOTE] 
+ > 市场应用不适用于美国政府云实例。 有关更多详细信息，请参阅[适用于美国政府客户的 Power BI](../admin/service-govus-overview.md)。
+
+
 ## <a name="process"></a>进程
+
 开发和提交模板应用的常规过程涉及多个步骤。 某些阶段可能同时包含多个活动。
 
 

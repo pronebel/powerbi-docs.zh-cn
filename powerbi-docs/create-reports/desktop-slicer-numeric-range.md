@@ -10,12 +10,12 @@ ms.subservice: pbi-reports-dashboards
 ms.topic: how-to
 ms.date: 04/06/2020
 LocalizationGroup: Create reports
-ms.openlocfilehash: 83ba0234ef4f4e350f413f3c934e2f09f0a9a3f2
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: 59e88818adee9aaf893d9f32fe96386c3f7ac47e
+ms.sourcegitcommit: 1cad78595cca1175b82c04458803764ac36e5e37
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96412773"
+ms.lasthandoff: 01/19/2021
+ms.locfileid: "98565803"
 ---
 # <a name="use-the-numeric-range-slicer-in-power-bi"></a>在 Power BI 中使用数值范围切片器
 
@@ -84,3 +84,4 @@ ms.locfileid: "96412773"
 * 数值范围切片器筛选数据中的每个基础行，而不筛选任何聚合值。 例如，假设使用“销售额”字段  。 然后，切片器将根据销售额筛选每个交易记录，而不会根据视觉对象的每个数据点的销售额的总和来筛选每个交易记录。
 * 当前无法处理度量值。
 * 可以在数值切片器中键入任何数字，即使它超出基础列中的值范围。 如果知道数据将来可能会发生更改，这样做可以事先设置筛选器。
+* 日期范围切片器允许键入任何日期值，即使基础日期列中不存在这些日期值也是如此。

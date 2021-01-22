@@ -5,24 +5,25 @@ author: mihart
 ms.author: mihart
 ms.reviewer: mihart
 featuredvideoid: removed
+ms.custom: video-OgjX-pFGgfM, video-RE4IY3L
 ms.service: powerbi
 ms.subservice: pbi-visuals
 ms.topic: how-to
-ms.date: 12/18/2020
+ms.date: 1/13/2021
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 2a8c125a37e0d70ea735d9f1962f64deb69061c8
-ms.sourcegitcommit: 1691ce556ab5b22e6f9d06086a054d165d482809
+ms.openlocfilehash: b285d699d71001d8015615fdeb3652ba35274896
+ms.sourcegitcommit: 396633fc5f7cff1f7d518f558b20043b2e05a513
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/23/2020
-ms.locfileid: "97745130"
+ms.lasthandoff: 01/14/2021
+ms.locfileid: "98191770"
 ---
 # <a name="customize-visualization-titles-backgrounds-labels-and-legends"></a>自定义可视化效果的标题、背景、标签和图例
 
 [!INCLUDE[consumer-appliesto-nyyn](../includes/consumer-appliesto-nyyn.md)]    
 
 
-本教程将介绍几种自定义可视化效果的不同方式。 自定义可视化效果的方式有很多。 了解所有这些方式的最佳方法是，探索“格式”窗格（选择“滚动油漆刷”图标）。 为了帮助你入门，本文演示了如何自定义可视化效果的标题、图例、背景、标签以及如何添加主题。
+本教程将介绍几种自定义可视化效果的不同方式。 自定义可视化效果的方式有很多。 了解所有这些方式的最佳方法是，探索“格式”窗格（选择“滚动油漆刷”图标）。 为了帮助你入门，本文演示了如何自定义可视化效果的标题、图例、背景、标签、层以及如何添加主题。
 
 无法自定义所有的可视化效果。 有关详细信息，请参阅可视化效果的[完整列表](#visualization-types-that-you-can-customize)。
 
@@ -148,6 +149,36 @@ ms.locfileid: "97745130"
 1. （可选）设置总计标签的格式。 在此示例中，我们已将颜色更改为黑色，增加了字体大小，并选择将值显示为“千”。
 
     ![带总计标签的新堆积条形图的屏幕截图。](media/power-bi-visualization-customize-title-background-and-legend/power-bi-bar-totals.png)
+
+
+## <a name="customize-layer-order"></a>自定义分层顺序
+更改报表中视觉对象和形状的分层顺序。 分层顺序决定了在选定对象时，哪些对象位于最前面。 每当你在报表画布上选择一个对象时，该对象就会变为活动状态并移至顶层。 对于视觉对象，这使得与所选视觉效果的交互更加容易。 但是，对于形状和背景，你可能需要将它们固定到底层，以免意外选择它们并掩盖或遮挡报表视觉对象。 
+
+Power BI 服务、Power BI Desktop、移动版和报表服务器提供了分层控件。 本文介绍如何在 Power BI 服务中更改分层顺序行为。
+
+观看 Rien 更改分层顺序行为，然后按照以下步骤自行操作。
+
+
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4IY3L]
+
+1. 通过选择黄色加号添加新报表页。 
+
+1. 向画布中添加形状。 在这里，我们添加了一个蓝色矩形。 
+
+    ![包含蓝色矩形的新报表页的屏幕截图。](media/power-bi-visualization-customize-title-background-and-legend/power-bi-shape.png)
+
+1. 从报表的其他页面复制并粘贴视觉对象。 
+
+    ![包含蓝色矩形和饼图的新报表页的屏幕截图。](media/power-bi-visualization-customize-title-background-and-legend/power-bi-layer.png)
+
+    你已经有 2 个层，现在尝试选择饼图，然后选择背景。 选择饼图时，Power BI 会使该对象处于活动状态并显示其标题菜单。 选择矩形时，Power BI 会使该对象处于活动状态并将其放到最前面，在此位置它会遮住饼图。 你可以更改此默认行为。
+
+1. 选择矩形并打开“格式设置”窗格。 展开“常规”并找到“维持分层顺序”开关。 保存报表更改并切换到“阅读视图”。
+
+    ![新报表页和设置为“开”的“维持分层顺序”的屏幕截图。](media/power-bi-visualization-customize-title-background-and-legend/power-bi-maintain-layer.png)
+
+1. 在阅读视图中，当你选择蓝色矩形时，它会停留在底层。
+
 
 ## <a name="customize-colors-using-a-theme"></a>使用主题自定义颜色
 

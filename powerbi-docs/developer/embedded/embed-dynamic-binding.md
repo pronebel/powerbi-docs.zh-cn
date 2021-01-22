@@ -1,18 +1,18 @@
 ---
-title: 在 Power BI 嵌入式分析中使用动态绑定将报表连接到数据集以获取嵌入式 BI 见解
-description: 了解如何在 Power BI 嵌入分析中使用动态绑定嵌入报表，从而为客户提供更出色的嵌入式 BI 见解。
+title: 使用动态绑定将 Power BI 报表连接到数据集
+description: 了解如何使用 Power BI 嵌入式分析中的动态绑定嵌入 Power BI 报表。
 author: KesemSharabi
 ms.author: kesharab
-ms.topic: how-to
+ms.topic: conceptual
 ms.service: powerbi
 ms.subservice: powerbi-developer
-ms.date: 11/07/2019
-ms.openlocfilehash: aacae4dbfae30d72468419a717340c806c6c4bca
-ms.sourcegitcommit: eeaf607e7c1d89ef7312421731e1729ddce5a5cc
+ms.date: 01/17/2021
+ms.openlocfilehash: 0bc33ed37e389b42f5c27f8271cc461eb99e229a
+ms.sourcegitcommit: 1cad78595cca1175b82c04458803764ac36e5e37
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/05/2021
-ms.locfileid: "97888894"
+ms.lasthandoff: 01/19/2021
+ms.locfileid: "98565814"
 ---
 # <a name="connect-a-report-to-a-dataset-using-dynamic-binding"></a>使用动态绑定将报表连接到数据集 
 
@@ -36,33 +36,15 @@ ms.locfileid: "97888894"
 |为客户嵌入内容     |应用拥有数据         |非 Power BI 用户的访问令牌         |必须包括报表和动态绑定数据集的权限。 使用[可为多个项生成嵌入令牌的 API](/rest/api/power-bi/embedtoken/generatetoken)生成支持多个项目的嵌入令牌。         |
 
 ## <a name="adjusting-the-config-object"></a>调整配置对象
-将 `datasetBinding` 添加到配置对象中。 以下述示例为参考。
 
-```javascript
-var config = {
-    type: 'report',
-    tokenType: models.TokenType.Embed,
-    accessToken: accessToken,
-    embedUrl: embedUrl,
-    id: "reportId", // The wanted report id
-    permissions: permissions,
-
-    // -----  Adjustment required for dynamic binding ---- //
-    datasetBinding: {
-        datasetId: "notOriginalDatasetId",  // </The wanted dataset id
-    }
-    // ---- End of dynamic binding adjustment ---- //
-};
-
-// Get a reference to the embedded report HTML element
-var embedContainer = $('#embedContainer')[0];
-
-// Embed the report and display it within the div container
-var report = powerbi.embed(embedContainer, config);
-```
+为了使动态绑定生效，需要向配置对象添加 `datasetBinding`。 若要了解如何执行此操作，请参阅[将数据集动态绑定到报表](/javascript/api/overview/powerbi/bind-report-datasets)。 
 
 ## <a name="next-steps"></a>后续步骤
 
-如果不熟悉如何在 Power BI 中嵌入内容，请查看以下教程，了解如何嵌入 Power BI 内容：
-* [教程：将 Power BI 内容嵌入应用程序供客户使用](embed-sample-for-customers.md)
-* [教程：为组织将 Power BI 内容嵌入应用程序](embed-sample-for-your-organization.md)
+如果不熟悉如何在 Power BI 中嵌入内容，请查看以下教程，了解如何嵌入 Power BI 内容。
+
+>[!div class="nextstepaction"]
+>[为客户将 Power BI 内容嵌入应用程序](embed-sample-for-customers.md)
+
+>[!div class="nextstepaction"]
+>[为组织将 Power BI 内容嵌入应用程序](embed-sample-for-your-organization.md)
