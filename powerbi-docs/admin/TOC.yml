@@ -161,7 +161,7 @@
           href: service-interruption-notifications.md
         - name: 忘记了 Power BI 的密码？
           href: service-admin-forgot-your-password.md
-        - name: 捕获 Power BI 的其他诊断信息
+        - name: 捕获来自 Power BI 服务的诊断信息
           href: service-admin-capturing-additional-diagnostic-information-for-power-bi.md
         - name: 用于 Power BI 的备用电子邮件地址
           href: service-admin-alternate-email-address-for-power-bi.md

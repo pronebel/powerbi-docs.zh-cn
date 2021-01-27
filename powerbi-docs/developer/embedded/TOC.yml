@@ -110,11 +110,11 @@
           href: 'https://aka.ms/embedsetup'
         - name: JavaScript 演练示例
           href: 'https://go.microsoft.com/fwlink/?linkid=848279'
-        - name: Power BI JavaScript wiki
-          href: 'https://github.com/Microsoft/powerbi-javascript/wiki'
+        - name: Power BI 嵌入式分析客户端 API
+          href: /javascript/api/overview/powerbi/
         - name: 开发人员示例和脚本
           href: 'https://go.microsoft.com/fwlink/?linkid=851293'
         - name: Power BI 社区
           href: 'https://go.microsoft.com/fwlink/?linkid=848280'
         - name: Stack Overflow
-          href: 'https://go.microsoft.com/fwlink/?linkid=848281'
+          href: 'https://go.microsoft.com/fwlink/?linkid=2153505'

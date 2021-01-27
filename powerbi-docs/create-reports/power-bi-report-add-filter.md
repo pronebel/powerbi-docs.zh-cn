@@ -7,18 +7,16 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: pbi-reports-dashboards
 ms.topic: how-to
-ms.date: 10/20/2019
+ms.date: 01/20/2021
 LocalizationGroup: Reports
-ms.openlocfilehash: 113370dd6b3aa19546f1facada6abc07c12b9d1a
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: b9aecda1f4ec3dfd1a4ab65cb78fd2a8e577c01d
+ms.sourcegitcommit: 77912d4f6ef2a2b1ef8ffccc50691fe5b38ee97a
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96389083"
+ms.lasthandoff: 01/22/2021
+ms.locfileid: "98687139"
 ---
 # <a name="add-a-filter-to-a-report-in-power-bi"></a>在 Power BI 中向报表添加筛选器
-
-[!INCLUDE [power-bi-service-new-look-include](../includes/power-bi-service-new-look-include.md)]
 
 本文介绍了如何向 Power BI 中的报表添加页面级筛选器、可视化效果级筛选器、报表级筛选器或钻取级筛选器。 本文展示了 Power BI 服务中的示例。 具体步骤与在 Power BI Desktop 中添加筛选器几乎完全相同。
 

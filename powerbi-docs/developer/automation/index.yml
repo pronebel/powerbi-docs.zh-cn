@@ -1,5 +1,5 @@
 ### YamlMime:Landing
-title: 关于改进 Power BI 嵌入式分析中的嵌入式 BI 见解的 Power BI 自动化文档
+title: Power BI 自动化文档
 summary: 借助 Power BI 自动化，可在报表、数据集和工作区等 Power BI 对象上执行管理任务。
 metadata:
   title: Power BI 自动化文档
@@ -12,12 +12,12 @@ metadata:
   author: KesemSharabi
   ms.author: kesharab
   ms.date: 31/03/2020
-  ms.openlocfilehash: def78e481474b7186457d019404f4604406ce967
-  ms.sourcegitcommit: eeaf607e7c1d89ef7312421731e1729ddce5a5cc
+  ms.openlocfilehash: eb357c5a89afec8f42b86ec80bca688e37101322
+  ms.sourcegitcommit: 84f0e7f31e62cae3bea2dcf2d62c2f023cc2d404
   ms.translationtype: HT
   ms.contentlocale: zh-CN
-  ms.lasthandoff: 01/05/2021
-  ms.locfileid: "97887583"
+  ms.lasthandoff: 01/26/2021
+  ms.locfileid: "98781545"
 landingContent:
 - title: 入门
   linkLists:
@@ -39,6 +39,12 @@ landingContent:
       url: walkthrough-push-data-add-rows.md
     - text: 教程：自动执行模板应用配置
       url: ../template-apps/template-apps-auto-install-tutorial.md
+- title: 客户端 API
+  linkLists:
+  - linkListType: whats-new
+    links:
+    - text: Power BI 嵌入式分析客户端 API
+      url: /javascript/api/overview/powerbi/
 - title: 处理数据
   linkLists:
   - linkListType: concept

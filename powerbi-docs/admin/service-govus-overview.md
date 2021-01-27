@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 01/19/2021
 ms.custom: gcc
 LocalizationGroup: Get started
-ms.openlocfilehash: e7100be7890673cecc77a8a1147a25a942fc4666
-ms.sourcegitcommit: 96080432af4c8e3fe46c23274478ccffa0970efb
+ms.openlocfilehash: 06a2dff78cc2367afb153111e080e29a16fc82ab
+ms.sourcegitcommit: 77912d4f6ef2a2b1ef8ffccc50691fe5b38ee97a
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/20/2021
-ms.locfileid: "98597610"
+ms.lasthandoff: 01/22/2021
+ms.locfileid: "98686973"
 ---
 # <a name="power-bi-for-us-government-customers"></a>适用于美国政府客户的 Power BI
 
@@ -129,9 +129,9 @@ Azure 分布在多个云中。 默认情况下，你可以启用防火墙规则�
 |[使用 Power BI Web 部件在 SharePoint Online 中嵌入](/sharepoint/dev/spfx/web-parts/overview-client-side-web-parts)|![可用](../media/yes.png)|![可用](../media/yes.png)|![不可用](../media/no.png)|
 |[数据保护（MIP 标签）](service-security-sensitivity-label-overview.md)|![可用](../media/yes.png)|![可用](../media/yes.png) |2021 年第 1 季度|
 |[数据流 - 直接查询](../transform-model/dataflows/dataflows-configure-consume.md) | ![可用](../media/yes.png) |![可用](../media/yes.png)|未计划 |
+|[数据流 - SQL 计算引擎优化](../transform-model/dataflows/dataflows-premium-features.md) | ![可用](../media/yes.png) |![可用](../media/yes.png)|未计划 |
 |[Teams 中的 Power BI 选项卡](../collaborate-share/service-collaborate-microsoft-teams.md)<sup>3</sup>|![可用](../media/yes.png)|![不可用](../media/no.png)|![不可用](../media/no.png)|
 |[大型模型](service-premium-large-models.md) | 2021 年第 1 季度 |2021 年第 1 季度| 未计划 |
-|[数据流 - SQL 计算引擎优化](../transform-model/dataflows/dataflows-premium-features.md) | ![不可用](../media/no.png) |![不可用](../media/no.png)| ![不可用](../media/no.png) |
 |[调用质量数据连接器](/microsoftteams/cqd-power-bi-connector)|![不可用](../media/no.png)|![不可用](../media/no.png)|![不可用](../media/no.png)|
 |[自带存储 (Azure Data Lake Gen 2)](../transform-model/dataflows/dataflows-azure-data-lake-storage-integration.md)|![不可用](../media/no.png)|![不可用](../media/no.png)|![不可用](../media/no.png)|
 

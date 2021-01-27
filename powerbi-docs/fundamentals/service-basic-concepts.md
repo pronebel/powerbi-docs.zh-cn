@@ -11,12 +11,12 @@ ms.subservice: pbi-fundamentals
 ms.topic: conceptual
 ms.date: 11/14/2019
 LocalizationGroup: Get started
-ms.openlocfilehash: 8da3446814d2c356acb24100eaa03df23be8f567
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: d61ed128827572198e24bb8f31e190f328e273ff
+ms.sourcegitcommit: 77912d4f6ef2a2b1ef8ffccc50691fe5b38ee97a
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96416775"
+ms.lasthandoff: 01/22/2021
+ms.locfileid: "98687552"
 ---
 # <a name="basic-concepts-for-designers-in-the-power-bi-service"></a>Power BI 服务中设计器的基本概念
 
@@ -218,7 +218,7 @@ Power BI 报表是一页或多页可视化对象（如折线图、地图和树�
 开始键入问题后，问题与解答将带你进入问题与解答页面。 键入时，问题与解答将帮助你询问相应的问题并通过改换、自动填充、建议以及更多功能来查找最佳答案。 当你拥有想要的可视化对象（答案）时，将其固定到仪表板中。 有关详细信息，请参阅 [Power BI 中的问题与解答](../consumer/end-user-q-and-a.md)。
 
 ### <a name="4-icons-in-the-black-header-bar"></a>4.**黑色标题栏中的图标**
-右上角的图标是用于指定设置、获取通知、下载内容、获取帮助、启用或禁用“新外观”以及向 Power BI 团队提供反馈的资源。  
+右上角的图标是用于指定设置、获取通知、下载内容、帮助以及向 Power BI 团队提供反馈的资源。  
 
 ![Power BI 服务的屏幕截图，其中显示了图标按钮。](media/service-basic-concepts/power-bi-icons.png)
 

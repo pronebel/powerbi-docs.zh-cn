@@ -12,7 +12,7 @@
       items:
         - name: 教程：开发 Power BI 圆形卡片视觉对象
           href: develop-circle-card.md
-        - name: 创建基于响应的视觉对象
+        - name: 教程：使用 React 创建 Power BI 视觉对象
           href: create-react-visual.md
         - name: 生成条形图
           href: create-bar-chart.md

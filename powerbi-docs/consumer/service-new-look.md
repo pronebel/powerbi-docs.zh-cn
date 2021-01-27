@@ -7,14 +7,15 @@ ms.reviewer: mihart
 ms.service: powerbi
 ms.subservice: pbi-explore
 ms.topic: conceptual
-ms.date: 12/09/2020
+ms.date: 01/25/2021
 LocalizationGroup: Get started
-ms.openlocfilehash: 5e357b275cd6648721b021f68a9b8496e266e003
-ms.sourcegitcommit: 8250187368d3de48663eb516a816ff701119b579
+ROBOTS: NOINDEX
+ms.openlocfilehash: 5de13f991e5439cf25bf8c00dc260fccc4918318
+ms.sourcegitcommit: 84f0e7f31e62cae3bea2dcf2d62c2f023cc2d404
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "96999074"
+ms.lasthandoff: 01/26/2021
+ms.locfileid: "98780773"
 ---
 # <a name="the-new-look-of-the-power-bi-service"></a>Power BI 服务的新外观
 
@@ -70,5 +71,4 @@ Power BI 服务 (app.powerbi.com) 的新外观使报表查看和交互更加容�
 ## <a name="next-steps"></a>后续步骤
 
 - [在 Power BI Desktop 中使用更新后的功能区](../create-reports/desktop-ribbon.md)
-- [选择使用工作区“新外观”](../collaborate-share/service-workspaces-new-look.md)
 - [面向使用者的 Power BI](end-user-consumer.md)

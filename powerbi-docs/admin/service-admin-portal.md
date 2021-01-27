@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: how-to
-ms.date: 01/05/2020
+ms.date: 01/25/2021
 ms.custom: seodec18
 LocalizationGroup: Administration
-ms.openlocfilehash: 554cce8c0313ad6624a2991aa09f60c98ff454be
-ms.sourcegitcommit: a5e98bc86915f7bea6a0ab5df282683840e63d2c
+ms.openlocfilehash: 8305d4662da9f4f7b8a5cce2b3badf5e70e88bc5
+ms.sourcegitcommit: 5c5a27aa7ba21612df4c4096e635dfe4b9aaebcf
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "97969575"
+ms.lasthandoff: 01/27/2021
+ms.locfileid: "98861298"
 ---
 # <a name="administering-power-bi-in-the-admin-portal"></a>在管理门户中管理 Power BI
 
@@ -174,12 +174,6 @@ Premium per user 是一种按用户提供高级功能许可的新方法。 此�
     ![启用除外设置](media/service-admin-portal/powerbi-admin-tenant-settings-enabled-except2.png)
 
 接下来的几节概述了不同类型的租户设置。
-
-## <a name="tenant-wide-new-look-settings"></a>租户范围的新外观设置
-
-禁用“新外观”选项后，该组织中的用户可以打开和关闭 Power BI 的新外观。 启用“新外观”选项后，该组织中的所有用户将始终能看到 Power BI 新外观的新式控件。 他们无法再关闭新外观。 默认情况下，“新外观”选项处于启用状态。
-
-:::image type="content" source="media/service-admin-portal/admin-portal-new-look-disable.png" alt-text="管理门户中“禁用新外观”选项的屏幕截图。":::
 
 ## <a name="help-and-support-settings"></a>帮助和支持设置
 

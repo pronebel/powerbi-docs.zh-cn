@@ -1,5 +1,5 @@
 ### YamlMime:Hub
-title: 关于改进 Power BI 嵌入式分析中的嵌入式 BI 见解的 Power BI 开发者文档
+title: Power BI 开发者文档
 summary: 作为 Power BI 开发人员，你可嵌入 Power BI 内容、开发 Power BI 视觉对象，还可自动执行 Power BI 过程。
 brand: power-bi
 metadata:
@@ -13,12 +13,12 @@ metadata:
   author: KesemSharabi
   ms.author: kesharab
   ms.date: 31/03/2020
-  ms.openlocfilehash: 701f9e5e02d8b8cb8d019deebd9ae226560e07df
-  ms.sourcegitcommit: eeaf607e7c1d89ef7312421731e1729ddce5a5cc
+  ms.openlocfilehash: 51bd353206d605cd0627e10e226d0950adf8de0f
+  ms.sourcegitcommit: 84f0e7f31e62cae3bea2dcf2d62c2f023cc2d404
   ms.translationtype: HT
   ms.contentlocale: zh-CN
-  ms.lasthandoff: 01/05/2021
-  ms.locfileid: "97885674"
+  ms.lasthandoff: 01/26/2021
+  ms.locfileid: "98781449"
 highlightedContent:
   items:
   - title: Power BI 嵌入式分析
@@ -30,6 +30,9 @@ highlightedContent:
   - title: Power BI 中的视觉对象
     itemType: overview
     url: visuals/power-bi-custom-visuals.md
+  - title: Power BI 嵌入式分析客户端 API
+    itemType: whats-new
+    url: /javascript/api/overview/powerbi/
   - title: 自动模板应用配置
     itemType: concept
     url: template-apps/template-apps-auto-install.md
@@ -105,6 +108,6 @@ additionalContent:
     - title: Playground
       summary: 试用功能并了解 API。
       url: https://aka.ms/pbieplayground
-    - title: JavaScript wiki
-      summary: 查看 JavaScript 知识库。
-      url: https://github.com/Microsoft/powerbi-javascript/wiki
+    - title: Power BI 嵌入式分析客户端 API
+      summary: 了解 Power BI 嵌入式分析客户端 API。
+      url: /javascript/api/overview/powerbi/
