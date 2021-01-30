@@ -96,6 +96,8 @@
               href: /rest/api/power-bi-embedded/
             - name: Power BI REST API
               href: /rest/api/power-bi/
+        - name: “Power BI 开发人员的一天”课程
+          href: /power-bi/learning-catalog/developer-online-course
         - name: 监视 Power BI Embedded 数据引用
           href: monitor-power-bi-embedded-reference.md
         - name: Power BI 库
