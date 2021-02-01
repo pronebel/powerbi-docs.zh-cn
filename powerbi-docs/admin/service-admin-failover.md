@@ -9,12 +9,12 @@ ms.subservice: powerbi-admin
 ms.topic: conceptual
 ms.date: 06/18/2020
 LocalizationGroup: Administration
-ms.openlocfilehash: 9ed9b42a42e497eaa332b3b1eb93be6247ddc542
-ms.sourcegitcommit: c700e78dfedc34f5a74b23bbefdaef77e2a87f8a
+ms.openlocfilehash: 09e215dbb32dcb93b2ae8ca51953eb636e1aad81
+ms.sourcegitcommit: e8c3f327ac0fc73c118874a24d2601733f8f9e45
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "97961215"
+ms.lasthandoff: 01/23/2021
+ms.locfileid: "98718476"
 ---
 # <a name="power-bi-high-availability-failover-and-disaster-recovery-faq"></a>Power BI 高可用性、故障转移和灾难恢复常见问题解答
 
@@ -23,6 +23,10 @@ ms.locfileid: "97961215"
 ## <a name="what-does-high-availability-mean-for-power-bi"></a>“高可用性”对于 Power BI 意味着什么？
 
 Power BI 是完全托管的软件即服务 (SaaS)。  Microsoft 对它进行设计和运营，使它可在发生基础结构故障时复原，从而使用户可以始终访问其报表。  该服务通过 [99.9% SLA](https://www.microsoftvolumelicensing.com/DocumentSearch.aspx?Mode=3&DocumentTypeId=37) 进行支持。
+
+Power BI 使用 Azure 可用性区域来保护 Power BI 报表、应用程序和数据免受数据中心故障的影响，并自动应用于 Power BI。 可用性区域是 Azure 区域内的故障隔离位置，可在具有冗余电源、冷却和网络的 Azure 区域内提供三个或更多的独特位置。 可用性区域允许 Power BI 客户运行任务关键型应用程序，并提供更高的可用性和容错能力来应对数据中心故障。 可用性区域向客户提供通过冗余和服务逻辑隔离来经受数据中心故障的能力。 
+
+有关 **可用性区域** 的详细信息，请参阅以下文章，其中详细介绍了 [Azure 中的区域和可用性区域](https://docs.microsoft.com/azure/availability-zones/az-overview)。
 
 ## <a name="what-is-a-power-bi-failover"></a>什么是 Power BI 故障转移？
 

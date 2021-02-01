@@ -7,18 +7,18 @@ ms.reviewer: maggies
 ms.service: powerbi
 ms.subservice: pbi-explore
 ms.topic: conceptual
-ms.date: 10/22/2020
+ms.date: 1/25/2021
 LocalizationGroup: Get started
-ms.openlocfilehash: 1c16405ff211620580f739facda8556e81774935
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: 46d7c0247cfd644b9a085862bbf7d0d41557a371
+ms.sourcegitcommit: 84f0e7f31e62cae3bea2dcf2d62c2f023cc2d404
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96415119"
+ms.lasthandoff: 01/26/2021
+ms.locfileid: "98780809"
 ---
 # <a name="the-new-look-where-did-the-actions-go"></a>“全新外观”：操作位于何处？
 
-Power BI 服务 (app.powerbi.com) 的新外观使报表查看和交互更加容易。 因此，已移动多个菜单操作。 本文中的表将旧位置映射到新位置。 有关背景，请参阅 [Power BI 服务的“新外观”](service-new-look.md)。
+Power BI 服务 (app.powerbi.com) 已转变到新外观，使报表查看和交互更加轻松。 因此，已移动多个菜单操作。 如果贵组织已转变到新外观，但你更熟悉旧外观，本文将帮助你找到解决方法。 本文中的表将旧位置映射到新位置。 
 
 正在查找有关 Power BI Desktop 中新外观的信息  ？ 请参阅[在 Power BI Desktop 中使用更新后的功能区](../create-reports/desktop-ribbon.md)。
 
@@ -70,7 +70,3 @@ Power BI 服务 (app.powerbi.com) 的新外观使报表查看和交互更加容�
 | 刷新仪表板磁贴 | 菜单栏更多选项 (...) > 刷新仪表板磁贴 | 刷新视觉对象（右侧） |
 | 性能检查器 | 菜单栏更多选项 (...) > 性能检查器 | 文件 > 性能检查器 |
 | 设置 | 菜单栏更多选项 (...) > 设置 | 文件 > 设置 |
-
-## <a name="next-steps"></a>后续步骤
-
-[Power BI 服务的“新外观”](service-new-look.md)

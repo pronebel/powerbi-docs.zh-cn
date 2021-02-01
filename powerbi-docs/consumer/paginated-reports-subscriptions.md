@@ -7,13 +7,13 @@ ms.reviewer: maggies
 ms.service: powerbi
 ms.subservice: pbi-explore
 ms.topic: how-to
-ms.date: 01/04/2021
-ms.openlocfilehash: 67efe0e7abd23792f46561f78b0b048b431561a4
-ms.sourcegitcommit: eeaf607e7c1d89ef7312421731e1729ddce5a5cc
+ms.date: 01/22/2021
+ms.openlocfilehash: 88293bbfc39f75472422e6785099421efcd45802
+ms.sourcegitcommit: e8c3f327ac0fc73c118874a24d2601733f8f9e45
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/05/2021
-ms.locfileid: "97887997"
+ms.lasthandoff: 01/23/2021
+ms.locfileid: "98718522"
 ---
 # <a name="subscribe-yourself-and-others-to-paginated-reports-in-the-power-bi-service"></a>在 Power BI 服务中为自己和他人订阅分页报表 
 
@@ -22,6 +22,8 @@ ms.locfileid: "97887997"
 设置订阅时，可以选择想要接收电子邮件的频率：每日、每周、每月或每小时。 还可选择想要订阅运行的时间。 每个报表可设置的订阅数没有限制。 
 
 ## <a name="considerations-for-paginated-report-subscriptions"></a>分页报表订阅注意事项 
+
+- 无需分页报表编辑权限即可为自己创建订阅，但必须拥有编辑权限才能为他人创建订阅。 如果在分页报表所在的工作区中至少具有“参与者”角色，则可以为其他人创建订阅。 详细了解[工作区中的角色](../collaborate-share/service-new-workspaces.md#roles-in-the-new-workspaces)。
 
 - 与仪表板或 Power BI 报表的订阅不同，你的订阅包含有关整个报表输出的附件。  支持以下附件类型：PDF、PowerPoint 演示文稿 (PPTX)、Excel 工作簿 (XLSX)、Word 文档 (DOCX)、CSV 文件和 XML。
 

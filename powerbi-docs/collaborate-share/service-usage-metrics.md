@@ -8,14 +8,14 @@ featuredvideoid: ''
 ms.service: powerbi
 ms.subservice: pbi-collaborate-share
 ms.topic: conceptual
-ms.date: 01/15/2021
+ms.date: 01/26/2021
 LocalizationGroup: Dashboards
-ms.openlocfilehash: acb1a1550c0ab216e4934e99f871df9321561314
-ms.sourcegitcommit: 1cad78595cca1175b82c04458803764ac36e5e37
+ms.openlocfilehash: 2710143ddd0474e38e7c0c1e6f82ba9c3d1fbba3
+ms.sourcegitcommit: 5c5a27aa7ba21612df4c4096e635dfe4b9aaebcf
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/19/2021
-ms.locfileid: "98565417"
+ms.lasthandoff: 01/27/2021
+ms.locfileid: "98861229"
 ---
 # <a name="monitor-usage-metrics-in-classic-workspaces"></a>在经典工作区中监视使用指标
 
@@ -157,12 +157,12 @@ Power BI 在单独的国家云中可用。 这些云提供与 Power BI 全球版
 
 * 由于网络连接不一致、广告拦截器，或者可能中断从客户端发送事件的其他问题，使用指标有时可能少计算活动数。
 * 某些类型的视图未包含在使用指标中，如本文中所述。
-* 对于客户端刷新而无需发送回 Power BI 服务的请求的情况，使用指标有时可能多计算活动数。
+* 对于客户端刷新而无需发送回 Power BI 服务的请求的情况，使用指标有时可能多计算活动数。 例如，切换报表页不会向服务器发出报表加载请求，因为页面定义已经在浏览器中。
 * 已为使用情况指标报表禁用共享。 若要向用户授予对报表的读取访问权限，你需要先向他们授予对工作区的访问权限。
 
 ### <a name="discrepancies-between-rest-apis-and-usage-metrics"></a>REST API 与使用指标之间的差异
 
-Power BI [报表 REST API](/rest/api/power-bi/reports) 和[管理员 REST API](/rest/api/power-bi/admin) 也使用 Power BI 服务数据。 出于上一部分中描述的原因，来自 API 的报表计数（报表数量）可能与使用指标中的报表计数不同。 来自 API 的报表计数不受客户端问题的影响，应被视为正确无误。
+Power BI [报表 REST API](/rest/api/power-bi/reports) 和[管理员 REST API](/rest/api/power-bi/admin) 也使用 Power BI 服务数据。 出于上一部分中描述的原因，来自 API 的报表计数（报表数量）可能与使用指标中的报表计数不同。 来自 API 的报表计数不受客户端问题的影响，应被视为正确无误。 另请注意，管理 API 为你显示 Power BI 部署的“当前状态”，并仅考虑请求时存在的内容。 经典使用情况指标报表包含 90 天的数据，“总计数”表示在 90 天内查看的唯一报表。 如果在查看报表后将其删除，则管理 API 不会对其进行计数，但会将其计入馈送使用情况报表的历史数据中。
 
 ### <a name="classic-usage-metrics-are-not-supported-with-private-links"></a>专用链接不支持经典使用指标 
 

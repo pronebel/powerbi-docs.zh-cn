@@ -7,25 +7,29 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-premium
 ms.topic: how-to
-ms.date: 12/10/2020
+ms.date: 01/21/2021
 ms.custom: references_regions
 LocalizationGroup: Premium
-ms.openlocfilehash: 7256e17f561aa79d63b7fefd268df560903de6b2
-ms.sourcegitcommit: 772c65b7b440ab082510bf3f64b871d19139d451
+ms.openlocfilehash: 4fd953eac998e954579af83f2acec975f66e7436
+ms.sourcegitcommit: 77912d4f6ef2a2b1ef8ffccc50691fe5b38ee97a
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "97353096"
+ms.lasthandoff: 01/22/2021
+ms.locfileid: "98687019"
 ---
 # <a name="large-datasets-in-power-bi-premium"></a>Power BI Premium 中的大型数据集
 
-Power BI 数据集可以在高度压缩的内存中缓存中存储数据，以便优化查询性能，从而实现快速的用户交互性。 利用高级容量，可以使用“大型数据集存储格式”设置启用大小超过默认 10 GB 限制的大型数据集。 启用后，数据集大小会受到 Premium 容量大小或管理员设置的最大大小限制。
+Power BI 数据集可以在高度压缩的内存中缓存中存储数据，以便优化查询性能，从而实现快速的用户交互性。 利用高级容量，可以使用“大型数据集存储格式”设置启用大小超过默认限制的大型数据集。 启用后，数据集大小会受到 Premium 容量大小或管理员设置的最大大小限制。
 
 可以为所有 Premium P SKU 和 Embedded A SKU 启用大型数据集。 就数据模型大小限制而言，Premium 中的大型数据集大小限制可与 Azure Analysis Services 中的限制相比。
 
 尽管数据集需要超过 10 GB，但启用“大型数据集存储格式”设置还具有其他优点。 如果打算使用基于 XMLA 终结点的工具来执行数据集写入操作，请确保启用此设置，即使对于不一定被视为大型数据集的数据集也是如此。 启用后，大型数据集存储格式可以提高 XMLA 写入操作的性能。
 
-服务中的大型数据集不会影响 Power BI Desktop 模型上传大小，该大小仍限制为 10 GB。 然而刷新后，服务中的数据集可超过 10 GB。
+服务中的大型数据集不会影响 Power BI Desktop 模型上传大小，该大小仍限制为 10 GB。 然而刷新后，服务中的数据集可超过该限制。
+
+> [!IMPORTANT]
+> Power BI Premium 支持大型数据集。 启用“大型数据集存储格式”选项，以在 Power BI Premium 中使用大于默认限制的数据集。 
+
 
 ## <a name="enable-large-datasets"></a>启用大型数据集
 

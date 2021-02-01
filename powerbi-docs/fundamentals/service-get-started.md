@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: pbi-fundamentals
 ms.topic: tutorial
-ms.date: 07/08/2020
+ms.date: 01/13/2021
 LocalizationGroup: Get started
-ms.openlocfilehash: 4e74bec243faad281c457caaa15a6edacf2b10cb
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: 04777ba93b6a4639b55406b3952a80de963cb540
+ms.sourcegitcommit: 5c5a27aa7ba21612df4c4096e635dfe4b9aaebcf
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96417120"
+ms.lasthandoff: 01/27/2021
+ms.locfileid: "98861206"
 ---
 # <a name="tutorial-get-started-creating-in-the-power-bi-service"></a>教程：开始在 Power BI 服务中创建
 本教程介绍了 Power BI 服务的一些功能。 在这里，你可连接到数据、创建报表和仪表板，并就你的问题提问。 你还可在 Power BI 服务中执行更多其他操作；本教程仅作激发兴趣之用。 要了解 Power BI 服务如何与其他 Power BI 产品/服务契合，建议阅读[什么是 Power BI](power-bi-overview.md)。
@@ -223,6 +223,8 @@ ms.locfileid: "96417120"
 4. 选择“删除”。
 
 ## <a name="next-steps"></a>后续步骤
+
+[通过将数据粘贴到 Power BI 服务来快速创建报表](https://powerbi.microsoft.com/en-us/blog/quickly-create-reports-power-bi-service/)
 
 浏览以下关于 Power BI 的 Microsoft Learn 内容集合：
 

@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: pbi-reports-dashboards
 ms.topic: tutorial
-ms.date: 01/11/2021
+ms.date: 01/19/2021
 LocalizationGroup: Reports
-ms.openlocfilehash: f5d35d7fc189f055a6f51e493fd313eb31f0564f
-ms.sourcegitcommit: 1cad78595cca1175b82c04458803764ac36e5e37
+ms.openlocfilehash: 03eac7aefdebb31eac353c969db2bf8810173395
+ms.sourcegitcommit: 77912d4f6ef2a2b1ef8ffccc50691fe5b38ee97a
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/19/2021
-ms.locfileid: "98565977"
+ms.lasthandoff: 01/22/2021
+ms.locfileid: "98687343"
 ---
 # <a name="tutorial-from-dimensional-model-to-stunning-report-in-power-bi-desktop"></a>教程：从维度模型变为 Power BI Desktop 中的出色报表 
 
@@ -64,11 +64,10 @@ ms.locfileid: "98565977"
 
 :::image type="content" source="media/desktop-dimensional-model-report/desktop-load-tables.png" alt-text="在导航器中加载表。":::
 
-检查列的数据类型是否与下表中的数据类型匹配。 若要进行任何更改，请选择一个查询，然后选择一列或多列。
+检查列的数据类型是否与下表中的数据类型匹配。 若要让 Power BI 检测数据类型，请选择一个查询，然后选择一个或多个列。 在“转换”选项卡上，选择“检测数据类型”。 若要对检测到的数据类型进行任何更改，请在“主页”选项卡上，选择“数据类型”，然后从表中选择适当的数据类型。
 
 :::image type="content" source="media/desktop-dimensional-model-report/power-query-change-data-types.png" alt-text="检查列的数据类型。":::
 
-在“主页”选项卡上，选择“数据类型”，然后从表中选择适当的数据类型。
 
 |查询  |列  |数据类型  |
 |---------|---------|---------|
@@ -330,8 +329,9 @@ Sales 表包含有关与销售订单相关的日期的详细信息，例如截�
 
 1. 在报表画布的下半部分选择一个空白区域。 
 
-1. 在“字段”窗格中，从“Sales”中选择“Sales Amount”，从“Product”中选择“Product Category”，并从“Reseller”中选择“Business Type”。 
-
+1. 在“字段”窗格中，从“Sales”中选择“Sales Amount”，从“Product”中选择“Product Category”，并从“Reseller”中选择“Business Type”。
+    :::image type="content" source="media/desktop-dimensional-model-report/report-sales-amount-by-product-category-field-well.png" alt-text="检查“类别”和“业务类型”是否在行中，以及“销售额”是否选择为“值”。":::
+    
     Power BI 会自动创建簇状柱形图。 将可视化效果更改为“矩阵”： 
 
     :::image type="content" source="media/desktop-dimensional-model-report/report-sales-amount-by-product-category-change-to-matrix.png" alt-text="将簇状柱形图更改为矩阵。":::
@@ -346,7 +346,7 @@ Sales 表包含有关与销售订单相关的日期的详细信息，例如截�
 
 1. 在矩阵的“格式设置”窗格中，打开“条件格式设置”部分，然后打开“数据条”。 选择“高级控件”，然后为正值数据条设置较浅的颜色。 选择“确定”。 
 
-1. 增加“Sales Amount”列的宽度，使其覆盖整个区域。 
+1. 增加“Sales Amount”列的宽度，通过拖动矩阵使其覆盖整个区域。
 
     :::image type="content" source="media/desktop-dimensional-model-report/report-sales-amount-by-product-category-add-databars.png" alt-text="带 Sales Amount 数据条的矩阵。":::
 

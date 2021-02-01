@@ -9,12 +9,12 @@ ms.subservice: powerbi-admin
 ms.topic: conceptual
 ms.date: 09/09/2019
 LocalizationGroup: Administration
-ms.openlocfilehash: 9019ed9e64bca94a87e2ab9b6febdb7a25055b75
-ms.sourcegitcommit: c700e78dfedc34f5a74b23bbefdaef77e2a87f8a
+ms.openlocfilehash: b21443fd334e465ca5ced3efd00fe66828367615
+ms.sourcegitcommit: 84f0e7f31e62cae3bea2dcf2d62c2f023cc2d404
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "97961146"
+ms.lasthandoff: 01/26/2021
+ms.locfileid: "98780923"
 ---
 # <a name="power-bi-security"></a>Power BI 安全
 
@@ -39,7 +39,7 @@ Power BI 服务基于 **Azure**，后者是 Microsoft 的云计算基础结构�
 
 ## <a name="data-storage-security"></a>数据存储安全性
 
-Power BI 使用两个主要的存储库进行数据存储和管理：用户上载的数据通常发送到 **Azure BLOB** 存储，并且所有元数据以及系统本身的项目均存储在 **Azure SQL 数据库** 中。
+Power BI 使用两个主要的存储库进行数据存储和管理：用户上传的数据通常发送到 Azure Blob 存储，并且所有元数据以及系统本身的项目均存储在 Azure SQL 数据库中。
 
 上方 **后端** 群集映像中的虚线阐明了仅用户可访问的两个组件（左边的虚线）与仅系统可访问的角色之间的边界。 经身份验证的用户连接到 Power BI 服务时，该连接和客户端的任何请求均由 **网关角色**（最终由 **Azure API 管理** 处理）接受和管理，它会以用户的名义与 Power BI 服务的其余部分进行交互。 例如，当客户端尝试查看仪表板时，**网关角色** 接受该请求，然后分别发送请求到 **演示文稿角色** 来检索浏览器呈现仪表板时所需的数据。
 

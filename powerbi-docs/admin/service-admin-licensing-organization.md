@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 11/11/2020
 ms.custom: licensing support
 LocalizationGroup: Administration
-ms.openlocfilehash: 00c375267ceaede23b317fb71d76e31e4ae66a83
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: 0c13d0f54d18527e6b8614f40b5b15fd46187968
+ms.sourcegitcommit: e8c3f327ac0fc73c118874a24d2601733f8f9e45
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96408633"
+ms.lasthandoff: 01/23/2021
+ms.locfileid: "98718499"
 ---
 # <a name="licensing-the-power-bi-service-for-users-in-your-organization"></a>为组织中的用户授权 Power BI 服务
 
@@ -69,7 +69,7 @@ Power BI 用户个人许可证有两种类型：免费 Pro 版和高级版。 �
 
 带有免费和 Pro 用户个人许可证的 Power BI 许可证仅使用共享的有限容量来处理内容。 当内容存储在共享容量中时，分到 Power BI Pro 许可证的用户只能与其他 Power BI Pro 用户协作。 他们可以使用其他用户共享的内容，将内容发布到应用工作区，共享仪表板以及订阅仪表板和报表。  当工作区在高级容量中时，Pro 用户可以将内容分发给没有 Power BI Pro 许可证的用户。
 
-使用 Premium Per User 许可证时，由 Premium Per User 许可用户创建的内容只能与具有高级版许可证的其他用户共享，除非该内容专门放置在托管在高级容量上的工作区中。 下表总结了每种许可证类型的基本功能。 有关每个许可证类型的功能可用性的详细信息，请参阅[按许可证类型列出的功能](../fundamentals/service-features-license-type.md)。
+使用 Premium Per User 许可证时，由 Premium Per User 许可用户创建的内容只能与具有高级版许可证的其他用户共享，除非该内容专门放置在高级容量上托管的工作区中。 下表总结了每种许可证类型的基本功能。 有关每个许可证类型的功能可用性的详细信息，请参阅[按许可证类型列出的功能](../fundamentals/service-features-license-type.md)。
 
 | 许可证类型 | 工作区在共享容量中时的功能 | 工作区在高级容量中时的其他功能 |
 | --------- | ----------- | ----------- |
@@ -121,7 +121,7 @@ Power BI Pro 的许可证生命周期与 Microsoft 365 相同。 有关详细信
 
 Power BI 推出了 Power BI Premium Gen2 作为预览产品/服务，通过以下方面的改进改善了 Power BI Premium 的体验：
 * 性能
-* 用户个人许可
+* Per-user 许可。 有关详细信息，请参阅 [Premium Per User FAQ](service-premium-per-user-faq.md)。
 * 更大规模
 * 改进的指标
 * 自动缩放

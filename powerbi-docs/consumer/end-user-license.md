@@ -8,15 +8,15 @@ ms.service: powerbi
 ms.subservice: pbi-explore
 Ms.custom: css_fy20Q4
 ms.topic: how-to
-ms.date: 11/16/2020
+ms.date: 01/25/2021
 ms.custom: licensing support
 LocalizationGroup: consumers
-ms.openlocfilehash: 852ac027903dc974e84691dc714a7e7e220dd36d
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: a3492383d5341518de178419afe29df1af8fa26b
+ms.sourcegitcommit: 5c5a27aa7ba21612df4c4096e635dfe4b9aaebcf
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96390440"
+ms.lasthandoff: 01/27/2021
+ms.locfileid: "98861252"
 ---
 # <a name="licenses-and-subscriptions-for-business-users"></a>业务用户的许可证和订阅
 
@@ -36,60 +36,65 @@ ms.locfileid: "96390440"
 
 ## <a name="licenses"></a>许可证
 
-Power BI 服务的每个用户都使用免费许可证或 Pro 许可证。 如果你是 Power BI 商务用户，你可能使用的是由 Power BI 管理员管理的免费许可证。
+Power BI 服务的每个用户都使用免费许可证、Pro 许可证或 Premium per-user* 许可证。 如果你是 Power BI 商务用户，你可能使用的是由 Power BI 管理员管理的免费许可证。
 
 你可以同时拥有多个许可证。  该服务会始终为你提供与你目前拥有的最宽松的许可证等同的体验。
 
-## <a name="power-bi-premium-capacity"></a>Power BI 高级容量
+## <a name="power-bi-premium-capacity-subscription"></a>Power BI Premium 容量订阅
 
-Premium 是一种组织订阅，它提供了另一种存储内容的方式 - 将内存存储在容量中。 借助 Premium，组织内外具有权限的任何人都可以查看存储在此高级容量中的内容，而无需购买个人 Power BI Pro 许可证。 
+Premium 是一种组织订阅，它提供了另一种存储内容的方式 - 将内容存储在称为“容量”的虚拟容器中。 借助 Premium 容量，组织内外具有权限的任何人都可以查看存储在此 Premium 容量中的内容，而无需购买个人 Power BI Pro 或 Premium per-user 许可证。 
 
-Premium 允许 Pro 用户广泛分发内容，且不要求查看内容的收件人提供 Pro 许可证。 内容设计者需要提供 Pro 许可证。 设计人员连接到数据源、模型数据，并创建打包为工作区应用的报表和仪表板。 如果向用户分配了[ Power BI Premium 容量的工作区中的角色](end-user-workspaces.md)，即使用户没有 Pro 许可证仍可访问该工作区。
+Premium 容量允许 Pro 用户广泛分发内容，且不要求查看内容的收件人提供 Pro 许可证。 在 Premium 容量中创建内容的用户使用 Pro 许可证来连接到数据源，为数据建模，并创建保存到 Premium 容量中的工作区的报表和仪表板。 如果向用户分配了[ Power BI Premium 容量的工作区中的角色](end-user-workspaces.md)，即使用户没有 Pro 许可证仍可访问该工作区。 如果工作区所有者基于该工作区中的内容创建一个应用，则没有 Pro 许可证的用户仍可在 Premium 容量中查看该应用，前提是这些用户已被授予该应用的权限。 
 
 在这些工作区中，设计者分配查看者、参与者、成员和管理员等角色。    这些角色决定了同事可与内容交互的程度。 有关详细信息，请参阅[工作区权限和角色。](end-user-workspaces.md) 
+
+当设计者创建并发布应用时，他们将对整个组织或个人授予访问权限。 可以与应用内容交互的程度取决于提供给你的特定访问权限。 例如，可能会给予你查看应用、连接到基础数据集、创建报表副本或共享内容的访问权限。
 
 有关高级容量的详细信息，请参阅[什么是 Microsoft Power BI Premium？](../admin/service-premium-what-is.md)。
 
 ## <a name="find-out-which-licenses-you-have"></a>了解你拥有哪些许可证
-选择你的个人资料图片以显示帐户信息。 Zalan 使用的是免费许可证。 
+选择你的个人资料图片以显示帐户信息。 Zalan 使用的是免费许可证。 其他类型的许可证包括：Pro 和 Premium per user。 
 
 ![单击个人资料图片后显示下拉菜单的屏幕截图](media/end-user-license/power-bi-profiles.png)
 
 
-若要查看帐户的其他详细信息，请选择“查看帐户”。 此时将在新的浏览器选项卡中打开 [Microsoft“我的帐户”页面](https://portal.office.com/account)。查看分配给你的许可证。  选择“订阅”选项卡。
+若要查看帐户的其他详细信息，请选择“查看帐户”。 
 
-![Microsoft 365 帐户页面的屏幕截图。](media/end-user-license/power-bi-subscriptions.png)
+<!-- [Your Microsoft **My account** page](https://portal.office.com/account) opens in a new browser tab.  To see what licenses are assigned to you.  Select the tab for  **Subscriptions**.
 
+![Screenshot of Microsoft 365 Accounts page.](media/end-user-license/power-bi-subscriptions.png)
 
+This first user, Pradtanna, has Office 365 E5, which includes a Power BI Pro license.
 
+![Office portal subscriptions tab showing Office 365 E5 subscription](media/end-user-license/power-bi-license-office.png)
 
-第一位用户 Pradtanna 具有 Office 365 E5，其中包含 Power BI Pro 许可证。
+This second user, Zalan, has a Power BI free license. 
 
-![显示 Office 365 E5 订阅的“Office 门户订阅”选项卡](media/end-user-license/power-bi-license-office.png)
+![Office portal subscriptions tab](media/end-user-license/power-bi-license-free.png) 
 
-第二个用户 Zalan 具有 Power BI 免费许可证。 
+## Find out if you have access to Premium capacity
 
-![Office 门户“订阅”选项卡](media/end-user-license/power-bi-license-free.png)
+Next, check to see if you're part of an organization that has Premium capacity. Either of the users above, Pro or free, could belong to an organization that has Premium capacity.  Let's check for our second user, Zalan.  
 
-## <a name="find-out-if-you-have-access-to-premium-capacity"></a>了解你是否有权访问高级容量
+We can determine whether Zalan's organization has Premium capacity by looking up the amount of storage available. 
 
-接下来，检查你是否属于具有高级容量的组织。 上述任一用户（无论是 Pro 还是免费许可证用户）都可能属于具有高级容量的组织。  我们来看一下第二个用户 Zalan。  
+- In the Power BI service, select **My workspace** and then select the cog icon from the upper right corner. Choose **Manage personal storage**.
 
-通过查阅可用存储量，我们可以确定 Zalan 的组织是否具有高级容量。 
+    ![Cog Settings menu displays](media/end-user-license/power-bi-license-personal.png)
 
-- 在 Power BI 服务中，选择“我的工作区”，然后选择右上角的齿轮图标。 选择“管理个人存储”。
+    If you see more than 10 GB, then you're a member of an organization that has a Premium subscription. The image below shows that Zalan's organization has up to 100 GB of storage. Zalan, personally, doesn't own 100GB as indicated by the heading **Owned by us**.  
 
-    ![齿轮“设置”菜单显示出来](media/end-user-license/power-bi-license-personal.png)
+    ![Manage storage showing 100 GB](media/end-user-license/power-bi-free-capacity.png)
 
-    如果容量超过 10 GB，表明你是拥有高级订阅的组织中的成员。 下图显示 Zalan 的组织具有高达 100 GB 的存储空间。  
+    Notice that a Pro user has already shared a workspace with Zalan. The diamond icon shows that this workspace is stored in Premium capacity. 
 
-    ![管理显示 100 GB 的存储](media/end-user-license/power-bi-free-capacity.png)
+    If you see any amount of storage, the words **Pro user** next to your name, and the heading **Owned by me**, then you have a Premium per-user license.  
 
-请注意，有位 Pro 用户已与 Zalan 共享工作区。 菱形图标表明，此工作区存储在高级容量中。 
+    -->
 
 ## <a name="identify-content-hosted-in-premium-capacity"></a>识别高级容量中托管的内容
 
-查明你的组织是否具有高级容量的另一种方法是查找具有菱形图标的应用和应用工作区。 菱形表明，此内容存储在高级容量中。 
+可以通过多种方式标识存储在 Premium 容量中的内容。 其中一种方法是查找带有菱形图标的应用和应用工作区。 菱形表明，此内容存储在高级容量中。 
 
 在下图中，三个应用存储在高级容量中。
 
@@ -99,21 +104,21 @@ Premium 允许 Pro 用户广泛分发内容，且不要求查看内容的收件�
 
 ## <a name="putting-it-all-together"></a>汇总
 
-组织购买高级订阅时，管理员通常会将 Pro 许可证分配给将使用高级容量创建和共享内容的员工。 Pro 用户可创建[工作区](end-user-workspaces.md)，并将内容（仪表板、报表、应用）添加到这些工作区。 为了使免费版用户能够在这些工作区中进行协作，管理员或 Pro 用户将这些工作区分配到容量中。  
+组织可通过多种不同的方式组织其 Power BI 订阅和许可证。 从业务用户角度来看，最常见的一种情况是组织购买 Premium 订阅时，管理员会将 Pro 许可证分配给一小部分用户，而所有其他用户使用免费许可证。 通常，管理员会将 Pro 许可证分配给将要创建和共享内容的员工。 Pro 用户可创建[工作区](end-user-workspaces.md)，并将内容（仪表板、报表、数据集、应用）添加到这些工作区。 为了使免费版用户能够在这些工作区中进行协作，管理员或 Pro 用户将这些工作区分配到 Premium 容量中。  
 
-|许可证类型  |共享容量 | 高级容量  |
+|许可证类型  |不在 Premium 容量中 | 高级容量  |
 |---------|---------|---------|
-|**免费**     |  用作个人沙盒，你可以在其中为自己创建内容并与该内容进行交互。 免费许可证是试用 Power BI 服务的好方法。 你不能使用来自其他人的内容，也不能与他人共享你的内容 <sup>1</sup>     |   与分配至高级容量的内容进行交互，并与你共享。 免费和 Pro 用户可以进行协作，而无需免费用户拥有 Pro 帐户。      |
-|**Pro**     |  通过创建和共享内容与其他 Pro 版用户协作。        |  通过创建和共享内容与免费版和 Pro 版用户协作。       |
+|**免费**     |  用作个人沙盒，你可以在其中为自己创建内容并与该内容进行交互。 免费许可证是试用 Power BI 服务的好方法。 你不能使用来自其他人的内容，也不能与他人共享你的内容 <sup>1</sup>     |   与分配至高级容量的内容进行交互，并与你共享。 免费、Premium per-user 和 Pro 用户可以进行协作，而无需免费用户拥有 Pro 帐户。      |
+|**Pro**     |  通过创建和共享内容与 Premium per-user 和 Pro 用户协作。        |  通过创建和共享内容与免费、Premium per-user 和 Pro 用户协作。       |
 
 
 <sup>1</sup> 请参阅[注意事项和疑难解答](#considerations-and-troubleshooting)。
 
 在下图中，左侧表示在应用工作区中创建和共享内容的 Pro 用户。
 
-- 工作区 A 是在没有高级容量许可证的组织中创建的。
+- 工作区 A 不是在 Premium 容量中创建的。
 
-- 工作区 B 是在具有 Premium 订阅的组织中创建的。 此工作区保存在容量中。 此工作区有菱形图标。  
+- 工作区 B 在 Premium 容量中创建并保存。 此工作区有菱形图标。  
 
     ![三个工作区的图像](media/end-user-license/power-bi-dedicated.jpg)
 
@@ -123,7 +128,7 @@ Power BI Pro 设计者可以在任何一个工作区中与其他 Pro 用户共�
 
 - 可以有多个 Power BI 许可证。 Power BI 服务将始终提供与你当前拥有的最佳许可证等同的体验。 例如，如果你有 Pro 和免费许可证，Power BI 服务将使用 Pro 许可证。
 
-- 如果想要创建和共享内容（仪表板、报表、应用），或打开其他人与你共享的内容，则需要拥有 Pro 用户许可证。 可以注册可免费使用 60 天的 Power BI Pro 个人试用版。 每次尝试使用 Pro 功能时，选择 Power BI 服务中显示的“升级”对话框。
+- 如果想要创建和共享内容（仪表板、报表、应用），或打开其他人与你共享的内容，则需要拥有 Pro 用户许可证或 Premium per user 许可证。 可以注册可免费使用 60 天的 Power BI Pro 个人试用版。 每次尝试使用 Pro 功能时，选择 Power BI 服务中显示的“升级”对话框。
 
     ![具有 Pro 试用版链接的对话框](media/end-user-license/power-bi-trial.png)
 

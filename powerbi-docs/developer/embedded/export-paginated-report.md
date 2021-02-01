@@ -7,12 +7,12 @@ ms.topic: how-to
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.date: 04/05/2020
-ms.openlocfilehash: 42f110356c891235d17810dbb1f220f0a006c066
-ms.sourcegitcommit: eeaf607e7c1d89ef7312421731e1729ddce5a5cc
+ms.openlocfilehash: befb64ec85c02f8993d828202df06aafc5901482
+ms.sourcegitcommit: 84f0e7f31e62cae3bea2dcf2d62c2f023cc2d404
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/05/2021
-ms.locfileid: "97887077"
+ms.lasthandoff: 01/26/2021
+ms.locfileid: "98781519"
 ---
 # <a name="export-paginated-report-to-file-preview"></a>将分页报表导出为文件（预览）
 
@@ -122,6 +122,42 @@ ms.locfileid: "97887077"
       }
 }
 ```
+
+### <a name="single-sign-on-sql-and-dataverse-sso"></a>单一登录 SQL 和 Dataverse (SSO)
+
+在 Power BI 中，可以选择使用 SSO 设置 OAuth。 执行此操作时，将使用查看报表的用户的凭据来检索数据。 请求标头中的访问令牌不能用于访问数据，令牌必须与发布正文中的有效标识一起传入。
+
+使访问令牌变得混乱的是为你要访问的资源获取正确的访问令牌。
+
+- 对于 Azure SQL，资源是 `https://database.windows.net`。
+- 对于 Dataverse，资源是环境的 `https://` 地址。 例如 `https://contoso.crm.dynamics.com`。
+
+使用 [AuthenticationContext.AcquireTokenAsync](https://docs.microsoft.com/dotnet/api/microsoft.identitymodel.clients.activedirectory.authenticationcontext.acquiretokenasync) 方法访问令牌 API。
+
+下面是使用访问令牌提供有效用户名的示例。
+
+```json
+{
+       "format":"PDF",
+       "paginatedReportConfiguration":{
+          "formatSettings":{
+             "AccessiblePDF":"true",
+             "PageHeight":"11in",
+             "PageWidth":"8.5in",
+             "MarginBottom":"2in"
+          },
+          "identities":[
+             {
+                "username":"john@contoso.com",
+                "identityBlob": {
+                "value": "eyJ0eX....full access token"
+         }
+        }
+     ]
+   }
+}
+```
+
 ## <a name="ppu-concurrent-requests"></a>PPU 并发请求
 使用 [Premium Per User (PPU)](../../admin/service-premium-per-user-faq.md) 时，`exportToFile` API 允许在五分钟的时段内发出一个请求。 如果在五分钟的时段内发出多个（大于一个）请求，将导致“请求过多”(429) 错误。
 
