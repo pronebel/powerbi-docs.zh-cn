@@ -9,16 +9,16 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.custom: seodec18
 ms.date: 01/04/2019
-ms.openlocfilehash: b9623b91555efe01817e4ffca3c6f80bd73c5243
-ms.sourcegitcommit: c86ce723d5db16fb960d1731795d84f4654e4b4e
+ms.openlocfilehash: 1cbe656618e2d4240aebfe95ef4ebc2679616054
+ms.sourcegitcommit: 84f0e7f31e62cae3bea2dcf2d62c2f023cc2d404
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "98110880"
+ms.lasthandoff: 01/26/2021
+ms.locfileid: "98781631"
 ---
 # <a name="tutorial-embed-power-bi-paginated-reports-into-an-application-for-your-customers"></a>教程：在应用程序中为客户嵌入 Power BI 分页报表。
 
-借助 **Azure 中的 Power BI Embedded** 或 **Office 中的 Power BI 嵌入**，可使用“应用拥有数据”将分页报表嵌入应用程序中。 **应用拥有数据** 是指将使用 Power BI 的应用程序作为其嵌入式分析平台。 作为 **ISV** 或 **开发者**，你可创建在完全集成并交互的应用程序中显示分页报表的 Power BI 内容，而无需用户拥有 Power BI 许可证。 本教程演示如何使用 Power BI .NET SDK 以及 Power BI JavaScript API 将分页报表集成到应用程序中。
+借助 **Azure 中的 Power BI Embedded** 或 **Office 中的 Power BI 嵌入**，可使用“应用拥有数据”将分页报表嵌入应用程序中。 **应用拥有数据** 是指将使用 Power BI 的应用程序作为其嵌入式分析平台。 作为 **ISV** 或 **开发者**，你可创建在完全集成并交互的应用程序中显示分页报表的 Power BI 内容，而无需用户拥有 Power BI 许可证。 本教程演示如何使用 Power BI .NET SDK 以及 Power BI 客户端 API 将分页报表集成到应用程序中。
 
 ![Power BI 嵌入报表](media/embed-paginated-reports-for-customers/embedded-paginated-report.png)
 
@@ -58,16 +58,10 @@ ms.locfileid: "98110880"
 * **Power BI Premium**：对于嵌入分页报表，需要 *P* SKU 容量。 嵌入 Power BI 内容时，此解决方案称为 *Power BI 嵌入*。 有关此订阅的详细信息，请参阅[什么是 Power BI Premium？](../../admin/service-premium-what-is.md)
 * **Azure Power BI Embedded** - 可以从 [Microsoft Azure 门户](https://portal.azure.com)购买容量。 此订阅使用 *A* SKU。 对于嵌入分页报表，至少需要 *A4* 订阅。 有关如何创建 Power BI Embedded 容量的详细信息，请参阅[在 Azure 门户中创建 Power BI Embedded 容量](azure-pbie-create-capacity.md)。
 
-    >[!NOTE]
-    >Power BI Embedded 最近发布了一个名为 Embedded Gen2 的新版本。 Embedded Gen2 将简化对嵌入式容量的管理，并提升 Power BI Embedded 体验。 有关详细信息，请参阅 [Power BI Embedded Generation 2](power-bi-embedded-generation-2.md)。
-
 下表介绍每个 SKU 的资源和限制。 若要确定最能满足你需求的容量，请参阅[应该为我的方案购买哪一个 SKU](./embedded-faq.md#which-solution-should-i-choose) 表。
 
 | 容量节点 | 总虚拟核心 | 后端 V 核心 | RAM (GB) | 前端 V 核心 | 
 | --- | --- | --- | --- | --- |
-| 带有 [Embedded Gen2](power-bi-embedded-generation-2.md) 的 A1 | 1 | 0.5 | 2.5 | 0.5 |
-| 带有 [Embedded Gen2](power-bi-embedded-generation-2.md) 的 A2 | 2 | 1 | 5 | 1 |
-| 带有 [Embedded Gen2](power-bi-embedded-generation-2.md) 的 A3 | 4 | 2 | 10 | 2 |
 | P1/A4 | 8 | 4 | 25 | 4 |
 | P2/A5 | 16 | 8 | 50 | 8 |
 | P3/A6 | 32 | 16 | 100 | 16 |
@@ -249,7 +243,7 @@ Report report = reports.Value.FirstOrDefault();
 
 ### <a name="create-the-embed-token"></a>创建嵌入令牌
 
-生成嵌入令牌，此令牌可通过 JavaScript API 进行使用。 若要创建嵌入令牌用于嵌入 Power BI 分页报表，请使用 [Reports GenerateTokenInGroup](/rest/api/power-bi/embedtoken/reports_generatetokeningroup) API。
+生成嵌入令牌，该令牌可用于 Power BI 嵌入式分析客户端 API。 若要创建嵌入令牌用于嵌入 Power BI 分页报表，请使用 [Reports GenerateTokenInGroup](/rest/api/power-bi/embedtoken/reports_generatetokeningroup) API。
 
 [示例应用程序](https://github.com/Microsoft/PowerBI-Developer-Samples)的 Services\EmbedService.cs 文件中提供创建嵌入令牌的示例。
 
@@ -270,11 +264,11 @@ var embedConfig = new EmbedConfig()
 };
 ```
 
-### <a name="load-an-item-using-javascript"></a>使用 JavaScript 加载项
+### <a name="load-an-item-using-the-client-apis"></a>使用客户端 API 加载项
 
-可使用 JavaScript 将分页报表加载到网页上的 div 元素中。
+可以使用 Power BI 嵌入式分析客户端 API 将分页报表加载到网页上的 div 元素中。
 
-有关使用 JavaScript API 的完整示例，可以使用[演练工具](https://microsoft.github.io/PowerBI-JavaScript/demo)。 操场工具是演练不同类型的 Power BI Embedded 示例的快速方法。 还可以通过访问 [PowerBI JavaScript wiki](https://github.com/Microsoft/powerbi-javascript/wiki) 页，获取有关 JavaScript API 的详细信息。
+有关使用客户端 API 的完整示例，可以使用[演练工具](https://microsoft.github.io/PowerBI-JavaScript/demo)。 操场工具是演练不同类型的 Power BI Embedded 示例的快速方法。 还可以通过访问 [Power BI 嵌入式分析客户端 API](/javascript/api/overview/powerbi/) 页面获取有关 Power BI 嵌入式分析客户端 API 的详细信息。
 
 ## <a name="next-steps"></a>后续步骤
 

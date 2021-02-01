@@ -8,12 +8,12 @@ ms.subservice: pbi-collaborate-share
 ms.topic: how-to
 ms.date: 03/23/2020
 LocalizationGroup: Share your work
-ms.openlocfilehash: 981b4aa0f9e8bb12e4231476d27b8f58152ff3fd
-ms.sourcegitcommit: c86ce723d5db16fb960d1731795d84f4654e4b4e
+ms.openlocfilehash: 77f206ef59a4aa082e04053d28567480f4d01bb0
+ms.sourcegitcommit: 77912d4f6ef2a2b1ef8ffccc50691fe5b38ee97a
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "98110903"
+ms.lasthandoff: 01/22/2021
+ms.locfileid: "98687250"
 ---
 # <a name="publish-an-app-in-power-bi"></a>在 Power BI 中发布应用
 
@@ -207,7 +207,7 @@ ms.locfileid: "98110903"
 * “权限”页不会更改其他工作区中数据集的权限。 你会看到一个警告，提醒你单独向这些数据集授予访问权限。 最佳做法是在开始构建应用之前与数据集所有者联系，以确保允许所有应用用户访问这些数据集。 
 * 应用访问列表中最多可以有 100 个用户或组。 但是，可以向超过 100 个用户提供对应用的访问权限。 为此，请使用包含全部所需用户的一个或多个用户组。
 * 对于新工作区体验，如果添加到应用访问列表中的用户已经可以通过工作区访问应用，则他们不会在该应用的访问列表中显示。  
-* 使用具有新外观的 Power BI 服务时，支持站点 URL 将显示在项目信息卡中。 详细了解 [Power BI 的新外观](../consumer/service-new-look.md)。
+* 支持网站 URL 显示在项信息卡中。
 * 应用有一个选项，可允许用户通过使用共享权限来共享应用和应用的基础数据集。 对于新应用，该选项默认情况下处于关闭状态。 我们建议对现有应用关闭此选项，并更新对基础数据集的权限。 已为现有应用启用此选项，因为设计应用的最初目的是替换具有此行为的内容包。
 * 应用最多可以包含 200 个仪表板。 
 

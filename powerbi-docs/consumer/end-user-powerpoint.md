@@ -10,12 +10,12 @@ ms.subservice: pbi-explore
 ms.topic: how-to
 ms.date: 01/12/2021
 LocalizationGroup: Share your work
-ms.openlocfilehash: df0591e7ae934ffa945e0e780b2764c7170358f1
-ms.sourcegitcommit: ab28cf07b483cb4b01a42fa879b788932bba919d
+ms.openlocfilehash: 6001cbd1b503084012b358c4dabf7db27405b9c4
+ms.sourcegitcommit: e8c3f327ac0fc73c118874a24d2601733f8f9e45
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "98227022"
+ms.lasthandoff: 01/23/2021
+ms.locfileid: "98718614"
 ---
 # <a name="export-reports-to-powerpoint"></a>将报表导出到 PowerPoint
 
@@ -37,8 +37,6 @@ ms.locfileid: "98227022"
 
 ## <a name="export-your-power-bi-report-to-powerpoint"></a>将 Power BI 报表导出到 PowerPoint
 在 Power BI 服务中，选择要在画布上显示的报表。 你还可以从导航窗格上的“主页”、“应用”或任何其他容器中选择报表 。
-
-[!INCLUDE [power-bi-service-new-look-include](../includes/power-bi-service-new-look-include.md)]
 
 想要导出到 PowerPoint 的报表显示在画布上时，在菜单栏中选择“文件” > “导出到 PowerPoint” 。
 
@@ -89,9 +87,7 @@ Power BI 服务完成导出过程后，通知横幅会发生变化以通知你�
 在使用“导出到 PowerPoint”功能时，有几个注意事项和限制需要牢记。
  
 
-* 如果看不到“导出”选项，请确保已启用“新外观”并且查看的是报表（而非仪表板）。
-
-    ![新外观切换的屏幕截图](media/end-user-powerpoint/power-bi-new-look.png)
+* 如果看不到“导出”选项，请确保查看的是报表（而非仪表板）。
 
 * 如果为导出选择“当前值”，当前不遵循 [URL 筛选器](../collaborate-share/service-url-filters.md)。
 
@@ -105,7 +101,7 @@ Power BI 服务完成导出过程后，通知横幅会发生变化以通知你�
 
 * 无法导出某些报表。 其中包括：
     - 如果与组织外部人员（即不属于 Power BI 租户的用户）共享仪表板，该用户无法将共享仪表板的关联报表导出到 PowerPoint。 例如，如果你是 aaron@contoso.com，虽然可以与 david@cohowinery.com 共享内容， 但 david@cohowinery.com 无法将关联报表导出到 PowerPoint。
-    - 包含 50 个以上报表页的报表。
+    - 包含 50 个以上报表页的报表。 分页报表没有此限制。 有关详细信息，请参阅[打印分页报表](end-user-paginated-report.md#interact-with-a-paginated-report)。
     - 导出时大于 500 MB 的报表。 
     - 将报表导出到较旧版本的 PowerPoint。
     - 处理时间超过一小时的报表。 

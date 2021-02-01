@@ -10,12 +10,12 @@ ms.subservice: pbi-explore
 ms.topic: how-to
 ms.date: 01/13/2021
 LocalizationGroup: Common tasks
-ms.openlocfilehash: df2083effaec83639d5c14cd62d81ee4b44ffcd7
-ms.sourcegitcommit: 396633fc5f7cff1f7d518f558b20043b2e05a513
+ms.openlocfilehash: 9f02d3785c5a74c1f2658c3c00fb16c076558213
+ms.sourcegitcommit: e8c3f327ac0fc73c118874a24d2601733f8f9e45
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/14/2021
-ms.locfileid: "98191604"
+ms.lasthandoff: 01/23/2021
+ms.locfileid: "98718591"
 ---
 # <a name="subscribe-to-a-report-or-dashboard-in-the-power-bi-service"></a>在 Power BI 服务中订阅报表或仪表板 
 
@@ -36,7 +36,9 @@ ms.locfileid: "98191604"
 ## <a name="requirements"></a>要求
 必须有 Power BI Pro 或 Premium per user [许可证](end-user-license.md)，才能为你自己创建订阅。 如果报表或仪表板位于高级工作区，并且你已被授予对该工作区的访问权限，则也可以自行创建订阅。 如果无法创建订阅，请联系 Power BI 管理员或 IT 支持人员。 
 
-“订阅其他内容”仅适用于具有 Power BI Pro 许可证的仪表板或报表所有者。 订阅分页报表略有不同。 请参阅[在 Power BI 服务中为自己和他人订阅分页报表](paginated-reports-subscriptions.md)，获取详细信息。 
+“订阅其他内容”仅适用于具有 Power BI Pro 许可证的仪表板或报表所有者。
+
+“订阅分页报表”略有不同。 请参阅[在 Power BI 服务中订阅分页报表](paginated-reports-subscriptions.md)，获取详细信息。 
 
 ## <a name="subscribe-to-a-dashboard-or-a-report-page"></a>订阅仪表板或报表页
 无论是要订阅仪表板还是报表，过程都类似。 使用同一按钮，即可订阅 Power BI 服务仪表板和报表。

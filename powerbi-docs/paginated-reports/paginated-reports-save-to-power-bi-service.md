@@ -7,13 +7,13 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: how-to
-ms.date: 05/04/2020
-ms.openlocfilehash: 28058161672de9db0cac5093e652e1d551f6a80a
-ms.sourcegitcommit: ccf53e87ff7cba1fcd9d2cca761a561e62933f90
+ms.date: 01/25/2021
+ms.openlocfilehash: bbe88b206c4c07e2e296b9c85d46be7901f5972a
+ms.sourcegitcommit: 5c5a27aa7ba21612df4c4096e635dfe4b9aaebcf
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/04/2020
-ms.locfileid: "93297315"
+ms.lasthandoff: 01/27/2021
+ms.locfileid: "98861275"
 ---
 # <a name="publish-a-paginated-report-to-the-power-bi-service"></a>将分页报表发布到 Power BI 服务
 
@@ -37,13 +37,13 @@ ms.locfileid: "93297315"
 
    你可能无法更改它。 如果是这样，请联系你的 Power BI 高级容量管理员，为你提供将工作区添加到高级容量的分配权限。
 
-## <a name="from-report-builder-publish-a-paginated-report"></a>从报表生成器中发布分页报表
+## <a name="from-report-builder-publish-a-paginated-report-to-the-power-bi-service"></a>从报表生成器中，将分页报表发布到 Power BI 服务
 
-1. 在报表生成器中创建分页报表，并将其保存到本地计算机。
+1. 创建新的分页报表，或从报表生成器中的 Power BI 服务打开现有分页报表。 如果从服务打开现有分页报表，则会禁用“保存”选项，因为你要更新在 Power BI 服务中实时运行的报表。
 
-1. 在报表生成器“文件”菜单中，选择“另存为”。
+1. 在报表生成器“文件”菜单中，选择“发布”。
 
-    ![“文件”菜单>“保存”>“另存为”](media/paginated-reports-save-to-power-bi-service/power-bi-paginated-save-as.png)
+    ![选择“文件”菜单，然后发布。](media/paginated-reports-save-to-power-bi-service/power-bi-paginated-save-as.png)
 
     如果尚未登录到 Power BI，现在需要登录或创建帐户。 在报表生成器的右上角，选择“登录”并完成步骤。
 
@@ -73,7 +73,7 @@ ms.locfileid: "93297315"
 
     ![Power BI - 获取数据](media/paginated-reports-save-to-power-bi-service/power-bi-paginated-get-data.png)
 
-1. 在 **文件** 框中，选择 **获取** 。
+1. 在 **文件** 框中，选择 **获取**。
 
     ![Power BI“获取文件”](media/paginated-reports-save-to-power-bi-service/power-bi-paginated-files-get.png)
 

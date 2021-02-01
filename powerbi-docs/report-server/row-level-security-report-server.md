@@ -7,13 +7,13 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: how-to
-ms.date: 01/22/2019
-ms.openlocfilehash: eb06bc41aaaeea9790c34bb808548506963b8cb8
-ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
+ms.date: 01/22/2021
+ms.openlocfilehash: 50c89bdaa47aa8a687178a33627cf9148720acf2
+ms.sourcegitcommit: e8c3f327ac0fc73c118874a24d2601733f8f9e45
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90861834"
+ms.lasthandoff: 01/23/2021
+ms.locfileid: "98718568"
 ---
 # <a name="row-level-security-rls-in-power-bi-report-server"></a>Power BI 报表服务器中的行级别安全性 (RLS)
 
@@ -95,6 +95,7 @@ ms.locfileid: "90861834"
 
 在 Power BI 报表服务器中，报表作者无权查看报表数据，除非他们在上传报表后为自己分配了相应角色。 
 
+只有当 Power BI 报表服务器配置为使用 NTLM 或 Kerberos 身份验证运行时，才支持通过组成员身份进行角色分配。 运行自定义身份验证或 Windows Basic 的服务器需要将用户显式分配给角色。
  
 
 ## <a name="faq"></a>常见问题解答 

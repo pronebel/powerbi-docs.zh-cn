@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: pbi-data-sources
 ms.topic: how-to
-ms.date: 01/13/2020
+ms.date: 01/21/2021
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 1808638ad0ccaa2adc57d56bf1677dea0ca24440
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: fec45c895b4b4eb43bd6efd2e5428d789ff4f44d
+ms.sourcegitcommit: 77912d4f6ef2a2b1ef8ffccc50691fe5b38ee97a
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96404654"
+ms.lasthandoff: 01/22/2021
+ms.locfileid: "98687088"
 ---
 # <a name="use-the-sap-business-warehouse-connector-in-power-bi-desktop"></a>在 Power BI Desktop 中使用 SAP Business Warehouse 连接器
 
@@ -45,8 +45,8 @@ SAP 连接器的 Implementation 2.0 需要使用 SAP .NET 连接器 3.0。 只�
 
 连接器随附 32 位和 64 位版本。 选择与 Power BI Desktop 安装匹配的版本。 当前网站列出了 .NET 4.0 framework 的两个版本：
 
-* 适用于 Windows 32 位 (x86) 的 Microsoft .NET 3.0.22.0 的 SAP 连接器，zip 文件 (6.896 KB)，2019 年 6 月 1 日发布
-* 适用于 Windows 64 位 (x64) 的 Microsoft .NET 3.0.22.0 的 SAP 连接器，zip 文件 (7.180 KB)，2019 年 6 月 1 日发布
+* 适用于 Windows 32 位 (x86) 或更高版本的 Microsoft .NET 3.0.22.0 的 SAP 连接器 (.NET Framework 4.0)
+* 适用于 Windows 64 位 (x64) 或更高版本的 Microsoft .NET 3.0.22.0 的 SAP 连接器 (.NET Framework 4.0)
 
 安装时，在“可选安装步骤”  中，确保选择“将程序集安装到 GAC”  。
 

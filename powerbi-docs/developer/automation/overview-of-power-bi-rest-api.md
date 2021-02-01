@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: overview
 ms.date: 03/25/2019
-ms.openlocfilehash: 122028b2ac838763318ab5a0c4e6208138d93188
-ms.sourcegitcommit: eeaf607e7c1d89ef7312421731e1729ddce5a5cc
+ms.openlocfilehash: 8fac168bf4e2d1cb7b386a1e22da99f39b579da8
+ms.sourcegitcommit: 84f0e7f31e62cae3bea2dcf2d62c2f023cc2d404
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/05/2021
-ms.locfileid: "97887606"
+ms.lasthandoff: 01/26/2021
+ms.locfileid: "98781570"
 ---
 # <a name="what-can-developers-do-with-the-power-bi-api"></a>开发人员可以使用 Power BI API 做什么？
 
@@ -37,8 +37,8 @@ ms.locfileid: "97887606"
 
 | 工具 | 说明 |
 |---------|-------------|
-| [样本工具](https://microsoft.github.io/PowerBI-JavaScript/demo) | 体验有关使用 Power BI JavaScript API 的完整示例。 此工具也是演练不同类型的 Power BI Embedded 示例的快速方法。 |
-| [Power BI JavaScript Wiki](https://github.com/Microsoft/powerbi-javascript/wiki) | 获取有关 Power BI JavaScript API 的详细信息。 |
+| [样本工具](https://microsoft.github.io/PowerBI-JavaScript/demo) | 体验有关使用 Power BI 嵌入式分析客户端 API 的完整示例。 此工具也是演练不同类型的 Power BI Embedded 示例的快速方法。 |
+| [Power BI 嵌入式分析客户端 API](/javascript/api/overview/powerbi/) | 获取有关 Power BI 客户端 API 的详细信息。 |
 | [Postman](https://www.getpostman.com/) | 运行请求，进行测试、调试和监视，还可运行自动测试等等。 |
 
 ## <a name="push-data-into-power-bi"></a>将数据推送到 Power BI
@@ -51,7 +51,7 @@ ms.locfileid: "97887606"
 
 * [Power BI 开发人员示例](https://github.com/Microsoft/PowerBI-Developer-Samples)
 * [.NET SDK](https://github.com/Microsoft/PowerBI-CSharp)
-* [JavaScript API](https://github.com/Microsoft/PowerBI-JavaScript)
+* [Power BI 嵌入式分析客户端 API](/javascript/api/overview/powerbi/)
 
 ## <a name="next-steps"></a>后续步骤
 

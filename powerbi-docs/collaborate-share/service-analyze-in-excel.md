@@ -8,14 +8,14 @@ ms.custom: contperf-fy20q4
 ms.service: powerbi
 ms.subservice: pbi-collaborate-share
 ms.topic: how-to
-ms.date: 09/22/2020
+ms.date: 01/20/2021
 LocalizationGroup: Reports
-ms.openlocfilehash: 4ce463cb82fec7da8d7ec43db7914fb028368bc3
-ms.sourcegitcommit: 7bf09116163afaae312eb2b232eb7967baee2c92
+ms.openlocfilehash: e708e5001e49841d01b60cfc8712d37b990102f2
+ms.sourcegitcommit: 77912d4f6ef2a2b1ef8ffccc50691fe5b38ee97a
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "97621248"
+ms.lasthandoff: 01/22/2021
+ms.locfileid: "98687111"
 ---
 # <a name="analyze-in-excel"></a>在 Excel 中分析
 借助“在 Excel 中分析”，可以将 Power BI 数据集引入到 Excel 中，然后使用数据透视表、图表、切片器和其他 Excel 功能查看这些数据集并与其交互。 若要使用“在 Excel 中分析”必须先从 Power BI 下载并安装该功能，然后选择一个或多个要在 Excel 中使用的数据集。 
@@ -34,11 +34,11 @@ ms.locfileid: "97621248"
 
 ## <a name="install-analyze-in-excel"></a>安装“在 Excel 中分析”
 
-必须从 Power BI 服务提供的链接中安装“在 Excel 中分析”。 Power BI 会检测计算机上的 Excel 版本，并自动下载适当的版本（32 位或 64 位）。 Power BI 服务在浏览器中运行。 可以使用以下链接登录到 Power BI：
+必须从 Power BI 服务提供的链接中安装“在 Excel 中分析”。 Power BI 会检测计算机上的 Excel 版本，并自动下载适当的版本（32 位或 64 位）。 可以使用以下链接登录到 Power BI 服务：
 
 * [登录 Power BI](https://app.powerbi.com)
 
-登录并且浏览器中运行 Power BI 服务后，请在右上角选择“更多选项”项 (...)，然后选择“下载 > 在 Excel 更新中分析”。 此菜单项适用于新安装“在 Excel 中分析”更新的情况。
+登录并且浏览器中运行 Power BI 服务后，请在右上角选择“更多选项”(...)，然后选择“下载 > 在 Excel 更新中分析”。 此菜单项适用于新安装“在 Excel 中分析”更新的情况。
 
 ![从 Power BI 主页中下载“在 Excel 中分析”](media/service-analyze-in-excel/analyze-excel-02.png)
 
@@ -160,23 +160,24 @@ Excel 文件有一个 MSOLAP 连接字符串，该字符串连接到 Power BI �
 此外，你还可以在 Excel 的“数据类型”库中访问“精选表”。 若要详细了解精选表及其访问方式，请参阅[访问 Excel 中的 Power BI 精选表（预览版）](service-excel-featured-tables.md)。
 
 ## <a name="requirements"></a>要求
-使用 **在 Excel 中分析** 时有以下几点要求：
+使用“在 Excel 中分析”时有以下几点要求：
 
 * Microsoft Excel 2010 SP1 和更高版本支持 **在 Excel 中分析**。
-
 * Excel 数据透视表不支持对数值字段进行拖放聚合。 你在 Power BI 中的数据集 *必须具有预定义的度量值* 。 阅读有关[创建度量值](../transform-model/desktop-measures.md)的信息。
 * 某些组织可能有组策略规则，导致无法对 Excel 安装所需的 **在 Excel 中分析** 更新。 如果无法安装更新，请与管理员联系。
 * “在 Excel 中分析”功能要求数据库位于 Power BI Premium 中或者用户具有 Power BI Pro 许可证。 若要详细了解许可证类型之间的功能差异，请参阅 [Power BI 定价](https://powerbi.microsoft.com/pricing/)的“Power BI 功能比较”部分。
-* 如果用户具有基本数据集的权限，则可通过“在 Excel 中分析”功能连接到数据集。  用户可通过多种方式获取此权限，例如成为包含此数据集的工作区的成员、具有他人向其共享了使用该数据集的报表或仪表板，或者在包含该数据集的应用或工作区中具有该数据集的生成权限。 详细了解数据集的[“生成”权限](../connect-data/service-datasets-build-permissions.md)。
+* 如果用户具有基本数据集的权限，则可通过“在 Excel 中分析”功能连接到数据集。  用户可通过几种方式获取此权限，例如具有包含此数据集的工作区的成员角色，或者在包含该数据集的应用或工作区中具有该数据集的生成权限。 详细了解数据集的[“生成”权限](../connect-data/service-datasets-build-permissions.md)。
 * 来宾用户无法将“在 Excel 中分析”用于发送自（源自）另一个租户的数据集。 
 * “在 Excel 中分析”是一项 Power BI 服务功能，该功能在 Power BI 报表服务器或 Power BI Embedded 中不可用。 
 * “在 Excel 中分析”仅在运行 Microsoft Windows 的计算机上受到支持。
 
 
-如果用户需要卸载“在 Excel 中分析”功能，可以使用 Windows 计算机上的“添加或删除程序 ”系统设置执行此操作。
+如果需要卸载“在 Excel 中分析”功能，请使用计算机上的“添加或删除程序”系统设置。
 
-## <a name="troubleshooting"></a>故障排除
-有时，在使用 Analyze in Excel 期间可会能收意外的结果，或功能未按预期工作。 [本页针对在 Excel 中使用分析功能时遇到的常见问题提供解决方案](desktop-troubleshooting-analyze-in-excel.md)。
+## <a name="limitations-and-considerations"></a>限制和注意事项
+
+- 行级别安全性 (RLS) 支持在 Excel 中分析。 RLS 是在数据模型级别强制执行的，并且始终应用于所有访问报表中数据的用户。 详细了解[行级别安全性](../admin/service-admin-rls.md)。
+- 有时，在使用 Analyze in Excel 期间可会能收意外的结果，或功能未按预期工作。 有关常见问题的解决方案，请参阅[排查在 Excel 中分析问题](desktop-troubleshooting-analyze-in-excel.md)。
 
 ## <a name="next-steps"></a>后续步骤
 
