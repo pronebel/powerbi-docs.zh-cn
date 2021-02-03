@@ -248,7 +248,7 @@
               href: ../visuals/power-bi-report-visualizations.md
             - name: 更改报表中的视觉对象
               href: ../visuals/power-bi-report-change-visualization-type.md
-            - name: 自定义视觉对象标题、背景和图例
+            - name: 自定义视觉对象标题、背景和图例等
               href: ../visuals/power-bi-visualization-customize-title-background-and-legend.md
             - name: 显示不含数据的项
               href: desktop-show-items-no-data.md
