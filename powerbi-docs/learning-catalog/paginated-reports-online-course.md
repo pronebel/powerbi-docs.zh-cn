@@ -2,19 +2,19 @@
 title: 《一天玩转 Power BI 分页报表》课程
 description: 本基于视频的课程旨在为报表作者提供创建、发布和分发 Power BI 分页报表所需的技术知识。
 author: peter-myers
-ms.author: v-pemyer
+ms.author: kfollis
 ms.reviewer: maggies
 featuredvideoid: DN1t5p9aui0
 ms.service: powerbi
 ms.subservice: powerbi
 ms.topic: tutorial
 ms.date: 12/31/2020
-ms.openlocfilehash: 504b5bcb63fa8c8897ae0b44922d3dc144a02730
-ms.sourcegitcommit: ab28cf07b483cb4b01a42fa879b788932bba919d
+ms.openlocfilehash: 4a1c6786503b2418fc6fea27e2cb91a3f136a257
+ms.sourcegitcommit: fb529c4532fbbdfde7ce28e2b4b35f990e8f21d9
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "98227344"
+ms.lasthandoff: 01/30/2021
+ms.locfileid: "99087789"
 ---
 # <a name="power-bi-paginated-reports-in-a-day-course"></a>《一天玩转 Power BI 分页报表》课程
 

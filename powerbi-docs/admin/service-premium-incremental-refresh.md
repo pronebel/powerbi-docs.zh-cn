@@ -9,12 +9,12 @@ ms.subservice: powerbi-premium
 ms.topic: how-to
 ms.date: 11/11/2020
 LocalizationGroup: Premium
-ms.openlocfilehash: 68d12c69afadb3d5d82782c239381844c1d58b5e
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: b019ed8177a4300b39d41c53c2e7d6a4d84e673a
+ms.sourcegitcommit: fb529c4532fbbdfde7ce28e2b4b35f990e8f21d9
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96413532"
+ms.lasthandoff: 01/30/2021
+ms.locfileid: "99086547"
 ---
 # <a name="incremental-refresh-in-power-bi"></a>Power BI 中的增量刷新
 
@@ -116,7 +116,7 @@ Power BI 服务中的第一次刷新可能需要更长时间才能导入全部�
 
 #### <a name="current-date"></a>当前日期
 
-当前日期基于刷新时的系统日期。 如果为 Power BI 服务中的数据集启用了计划的刷新，则在确定当前日期时将考虑指定的时区。 通过 Power BI 服务手动调用和计划的刷新都将遵循时区（如果可用）。 例如，指定在太平洋时间（美国和加拿大）晚上 8 点刷新并指定时区，将根据太平洋时间确定当前日期，而不是 GMT（若根据后者确定，则当前时间将晚一天）。 不通过 Power BI 服务调用的刷新操作（如 [TMSL 刷新命令](/analysis-services/tmsl/refresh-command-tmsl?view=power-bi-premium-current)）将不考虑计划的刷新时区
+当前日期基于刷新时的系统日期。 如果为 Power BI 服务中的数据集启用了计划的刷新，则在确定当前日期时将考虑指定的时区。 通过 Power BI 服务手动调用和计划的刷新都将遵循时区（如果可用）。 例如，指定在太平洋时间（美国和加拿大）晚上 8 点刷新并指定时区，将根据太平洋时间确定当前日期，而不是 GMT（若根据后者确定，则当前时间将晚一天）。 不通过 Power BI 服务调用的刷新操作（如 [TMSL 刷新命令](/analysis-services/tmsl/refresh-command-tmsl?view=power-bi-premium-current&preserve-view=true)）将不考虑计划的刷新时区
 
 ![时区](media/service-premium-incremental-refresh/time-zone2.png)
 
@@ -180,7 +180,7 @@ in
 
 #### <a name="override-incremental-refresh-behavior"></a>重写增量刷新行为
 
-借助 SSMS，还可以更全面地控制如何使用[表格模型脚本语言 (TMSL)](/analysis-services/tmsl/tabular-model-scripting-language-tmsl-reference?view=power-bi-premium-current) 和[表格对象模型 (TOM)](/analysis-services/tom/introduction-to-the-tabular-object-model-tom-in-analysis-services-amo?view=power-bi-premium-current) 调用增量刷新。 例如，在 SSMS 的“对象资源管理器”中，右键单击表，然后选择“处理表”菜单选项。 然后，单击“脚本”按钮，以生成 TMSL 刷新命令。
+借助 SSMS，还可以更全面地控制如何使用[表格模型脚本语言 (TMSL)](/analysis-services/tmsl/tabular-model-scripting-language-tmsl-reference?view=power-bi-premium-current&preserve-view=true) 和[表格对象模型 (TOM)](/analysis-services/tom/introduction-to-the-tabular-object-model-tom-in-analysis-services-amo?view=power-bi-premium-current&preserve-view=true) 调用增量刷新。 例如，在 SSMS 的“对象资源管理器”中，右键单击表，然后选择“处理表”菜单选项。 然后，单击“脚本”按钮，以生成 TMSL 刷新命令。
 
 ![“处理表”对话框中的“脚本”按钮](media/service-premium-incremental-refresh/ssms-process-table.png)
 
@@ -208,7 +208,7 @@ in
 }
 ```
 
-若要详细了解如何使用 TMSL 重写默认增量刷新行为，请参阅[刷新命令](/analysis-services/tmsl/refresh-command-tmsl?view=power-bi-premium-current)。
+若要详细了解如何使用 TMSL 重写默认增量刷新行为，请参阅[刷新命令](/analysis-services/tmsl/refresh-command-tmsl?view=power-bi-premium-current&preserve-view=true)。
 
 ### <a name="custom-queries-for-detect-data-changes"></a>用于检测数据更改的自定义查询
 

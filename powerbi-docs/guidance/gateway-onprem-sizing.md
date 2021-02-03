@@ -2,18 +2,18 @@
 title: 本地数据网关大小调整
 description: 有关如何调整本地数据网关大小的指南。
 author: peter-myers
-ms.author: v-pemyer
+ms.author: kfollis
 ms.reviewer: asaxton
 ms.service: powerbi
 ms.subservice: powerbi-gateways
 ms.topic: conceptual
 ms.date: 12/30/2019
-ms.openlocfilehash: c0506b492a0c28140256dc0be850358836b284b0
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: 35630891a66b9aed0b9e568d8e34180e3ee41544
+ms.sourcegitcommit: fb529c4532fbbdfde7ce28e2b4b35f990e8f21d9
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96419376"
+ms.lasthandoff: 01/30/2021
+ms.locfileid: "99088387"
 ---
 # <a name="on-premises-data-gateway-sizing"></a>本地数据网关大小调整
 
@@ -84,7 +84,7 @@ ms.locfileid: "96419376"
 
 - 尽量实现可靠、快速和一致的低延迟性
 - 消除（或减少）网关和数据源之间的计算机跃点数
-- 删除防火墙代理层施加的任何网络限制。 有关 Power BI 终结点的详细信息，请参阅[将 Power BI URL 添加到允许列表](../admin/power-bi-whitelist-urls.md)。
+- 删除防火墙代理层施加的任何网络限制。 有关 Power BI 终结点的详细信息，请参阅[将 Power BI URL 添加到允许列表](../admin/power-bi-allow-list-urls.md)。
 - 配置 [Azure ExpressRoute](/azure/expressroute/expressroute-introduction) 以建立到 Power BI 的专用托管连接
 - 对于 Azure VM 中的数据源，请确保 VM [与 Power BI 服务并置](../admin/service-admin-where-is-my-tenant-located.md)
 - 对于涉及动态 RLS 的 SQL Server Analysis Services (SSAS) 的实时连接工作负载，请确保网关计算机和本地 Active Directory 之间良好连接

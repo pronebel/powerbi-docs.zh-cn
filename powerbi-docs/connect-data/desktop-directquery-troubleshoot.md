@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: pbi-data-sources
 ms.topic: troubleshooting
 ms.date: 10/24/2019
-ms.openlocfilehash: 943c8283d48b4281d2ddb5d7eeed0e69db4ee6fc
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: ae73a14763babb4bf3d2c2a80d1b90d8a1cff76f
+ms.sourcegitcommit: fb529c4532fbbdfde7ce28e2b4b35f990e8f21d9
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96405298"
+ms.lasthandoff: 01/30/2021
+ms.locfileid: "99086478"
 ---
 # <a name="troubleshoot-developing-directquery-models-in-power-bi-desktop"></a>在 Power BI Desktop 中开发 DirectQuery 模型的疑难解答
 
@@ -54,7 +54,7 @@ ms.locfileid: "96405298"
 
 该文件夹内是一个 \Data 子文件夹，其中包含当前 Power BI 会话的跟踪文件 FlightRecorderCurrent.trc。 相关联的 Power BI Desktop 会话结束时，将删除相应的工作区文件夹。
 
-跟踪文件可以使用 SQL Server Profiler 工具打开，该工具作为 SQL Server Management Studio 的一部分可以免费下载。 可以从[此处](/sql/ssms/download-sql-server-management-studio-ssms?view=sql-server-2017)获取。
+跟踪文件可以使用 SQL Server Profiler 工具打开，该工具作为 SQL Server Management Studio 的一部分可以免费下载。 可以从[此处](/sql/ssms/download-sql-server-management-studio-ssms)获取。
 
 下载并安装 SQL Server Management Studio 后，运行 SQL Server Profiler。
 

@@ -9,17 +9,17 @@ ms.subservice: powerbi-admin
 ms.topic: conceptual
 ms.date: 09/09/2019
 LocalizationGroup: Administration
-ms.openlocfilehash: 6afc49e0d2fe67c89d906d4715959892868b0027
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: 2218889e170519e651127d4246ab61a7505735fb
+ms.sourcegitcommit: fb529c4532fbbdfde7ce28e2b4b35f990e8f21d9
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96408081"
+ms.lasthandoff: 01/30/2021
+ms.locfileid: "99085583"
 ---
 # <a name="powershell-cmdlets-rest-apis-and-net-client-library-for-power-bi-administration"></a>适用于 Power BI 管理的 PowerShell cmdlet、REST API 和 .NET 客户端库
 通过 Power BI，管理员可以使用 PowerShell cmdlet 编写常见任务的脚本。 它还公开了 REST API，并提供了用于开发管理解决方案的 .NET 客户端库。 本主题列出了一系列 cmdlet 和相应的 API 和 REST API 终结点。 有关详细信息，请参阅：
 
-- PowerShell [下载](https://www.powershellgallery.com/packages/MicrosoftPowerBIMgmt/)和[文档](/powershell/power-bi/overview?view=powerbi-ps)
+- PowerShell [下载](https://www.powershellgallery.com/packages/MicrosoftPowerBIMgmt/)和[文档](/powershell/power-bi/overview?view=powerbi-ps&preserve-view=true)
 - REST API [文档](/rest/api/power-bi/admin)
 - .NET 客户端库[下载](https://www.nuget.org/packages/Microsoft.PowerBI.Api/)
 

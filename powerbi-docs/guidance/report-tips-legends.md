@@ -2,19 +2,19 @@
 title: 格式化和实现 Power BI 报表中的图例
 description: 在 Power BI Desktop 或 Power BI 服务中格式化和实现 Power BI 报表视觉对象中图例的六个提示与技巧。
 author: peter-myers
-ms.author: v-pemyer
+ms.author: kfollis
 ms.reviewer: asaxton
 featuredvideoid: r9XnHmuWkZQ
 ms.service: powerbi
 ms.subservice: powerbi
 ms.topic: conceptual
 ms.date: 02/15/2020
-ms.openlocfilehash: a63c85787f9304954fff76785796dd9cc3e7aa93
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: d7c7242a96b805b351d78aa3e993b392a3c9fcb4
+ms.sourcegitcommit: fb529c4532fbbdfde7ce28e2b4b35f990e8f21d9
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96385985"
+ms.lasthandoff: 01/30/2021
+ms.locfileid: "99088824"
 ---
 # <a name="tips-to-format-and-implement-legends-in-power-bi-reports"></a>格式化和实现 Power BI 报表中图例的提示与技巧
 

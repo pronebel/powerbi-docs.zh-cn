@@ -2,18 +2,18 @@
 title: 访问 Power BI 活动日志
 description: 用于使用 Power BI 活动日志的指南和示例 PowerShell 脚本代码。
 author: peter-myers
-ms.author: v-pemyer
+ms.author: kfollis
 ms.reviewer: asaxton
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: sample
 ms.date: 09/03/2020
-ms.openlocfilehash: 18ce155419f712cce2c4973949cd02ffbd870724
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: 0e86966225060c24aa154c0b29ea533dad89908b
+ms.sourcegitcommit: fb529c4532fbbdfde7ce28e2b4b35f990e8f21d9
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96394649"
+ms.lasthandoff: 01/30/2021
+ms.locfileid: "99088686"
 ---
 # <a name="access-the-power-bi-activity-log"></a>访问 Power BI 活动日志
 
@@ -30,7 +30,7 @@ PowerShell 示例可帮助你了解如何筛选和检索 Power BI 活动日志�
 - 为直接报表共享检索用户列表。
 
 > [!NOTE]
-> 你需要熟悉 [Power BI 管理 API](/rest/api/power-bi/admin) 和 [Power BI PowerShell 模块](/powershell/power-bi/overview?view=powerbi-ps)。 必须先安装 PowerShell 模块，然后才能执行这些脚本块。 有关详细信息，请参阅[跟踪 Power BI 中的用户活动](../admin/service-admin-auditing.md#use-the-activity-log)。
+> 你需要熟悉 [Power BI 管理 API](/rest/api/power-bi/admin) 和 [Power BI PowerShell 模块](/powershell/power-bi/overview?view=powerbi-ps&preserve-view=true)。 必须先安装 PowerShell 模块，然后才能执行这些脚本块。 有关详细信息，请参阅[跟踪 Power BI 中的用户活动](../admin/service-admin-auditing.md#use-the-activity-log)。
 >
 > 检索 Power BI 事件最多可能有 30 分钟的延迟。
 

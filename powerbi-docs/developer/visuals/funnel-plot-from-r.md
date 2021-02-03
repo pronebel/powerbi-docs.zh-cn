@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: tutorial
 ms.date: 04/02/2020
-ms.openlocfilehash: f1f8c037a3ceb66d8ffb5abab6bccd4ec9bc7adc
-ms.sourcegitcommit: a5e98bc86915f7bea6a0ab5df282683840e63d2c
+ms.openlocfilehash: 3d618735f2783e0fce0be938fbdcac7beb5d399e
+ms.sourcegitcommit: f7330dabb9cd8bce90bb2efec3e3273a11578f10
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "97969549"
+ms.lasthandoff: 02/03/2021
+ms.locfileid: "99495101"
 ---
 # <a name="tutorial-build-a-funnel-plot-from-r-script-to-r-visual"></a>教程：根据 R 脚本对 R 视觉对象创建漏斗图
 本文介绍如何使用 R 脚本对 R 视觉对象逐步创建漏斗图。
@@ -270,7 +270,7 @@ ms.locfileid: "97969549"
 
 * 无需使用 [GitHub](https://github.com/Microsoft?utf8=%E2%9C%93&q=PowerBI&type=&language=R) 上提供的代码从头开始开发 R 驱动的视觉对象。 可以选择要用作模板的视觉对象，并将代码复制到新项目中。
 
-   例如，尝试使用[样条自定义视觉对象](https://github.com/PowerBi-Projects/PowerBI-visuals-spline)。
+   例如，尝试使用[样条自定义视觉对象](https://github.com/microsoft/PowerBI-visuals-spline)。
 
 * 每个 R 视觉对象都会将 `unique` 运算符应用到其输入表。 要避免删除相同的行，请考虑添加具有唯一 ID 的额外输入字段，并在 R 代码中将其忽略。   
 

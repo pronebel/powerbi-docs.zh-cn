@@ -9,12 +9,12 @@ ms.subservice: report-builder
 featuredvideoid: 78TZeiEhveY
 ms.topic: conceptual
 ms.assetid: 55bf4f9c-d037-412f-ae57-3fc39ce32fa5
-ms.openlocfilehash: 32d42ee139ceb03326b99d88e6033475ed2a4cc7
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: ce45260c536733dde9dcfe7c654ed4f56c58c7ea
+ms.sourcegitcommit: 1872a167d1e4d731ad00cf8a6d951c31aa54bcce
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96416233"
+ms.lasthandoff: 01/28/2021
+ms.locfileid: "98925748"
 ---
 # <a name="power-bi-report-builder"></a>Power BI 报表生成器
 
@@ -22,7 +22,7 @@ ms.locfileid: "96416233"
 
 Power BI Report Builder 是用于创作可发布到 Power BI 服务的分页报表的工具。  设计分页报表时，将创建一个报表定义，用于指定要检索的数据、获取数据的位置以及显示数据的方式。 运行报表时，报表处理器将获取用户指定的报表定义、检索数据，并将其与报表布局组合以生成报表。 可在报表生成器中预览报表。 然后将报表发布到 Power BI 服务。
  
-准备开始创作？ 从 Microsoft 下载中心[安装 Power BI Report Builder](https://aka.ms/pbireportbuilder)。
+准备开始创作？ 从 Microsoft 下载中心[安装 Power BI Report Builder](https://go.microsoft.com/fwlink/?linkid=2086513)。
 
 更喜欢通过视频学习？ 请参阅[视频课程：一天玩转 Power BI 分页报表](../learning-catalog/paginated-reports-online-course.md)。
 

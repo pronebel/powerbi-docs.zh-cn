@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: pbi-data-sources
 ms.topic: conceptual
 ms.date: 12/14/2020
-ms.openlocfilehash: 67a0577c906e23fc51182120f1445814bdcd8028
-ms.sourcegitcommit: 46cf62d9bb33ac7b7eae7910fbba6756f626c65f
+ms.openlocfilehash: def849c9a3b867f181dbc91628260cf24491e855
+ms.sourcegitcommit: fb529c4532fbbdfde7ce28e2b4b35f990e8f21d9
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/15/2020
-ms.locfileid: "97491819"
+ms.lasthandoff: 01/30/2021
+ms.locfileid: "99087927"
 ---
 # <a name="power-bi-data-sources"></a>Power BI 数据源
 
@@ -44,7 +44,7 @@ ms.locfileid: "97491819"
 | Azure 表存储 | 是 | 是 | 否 | 是 | 否 | 是 |
 | BI 连接器 | 是 | 是 | 是 | 是 | 是 | 否 |
 | BI360 - Budgeting & Financial Reporting | 是 | 是 | 否 | 否 | 否 | 否 |
-| Microsoft Dataverse | 是 | 是 | 否 | 否 | 否 | 是 |
+| Microsoft Dataverse | 是 | 是 | 是 | 否 | 否 | 是 |
 | Data.World - Get Dataset | 是 | 是 | 否 | 否 | 否 | 否 |
 | Denodo | 是 | 是 | 是 | 是 | 是 | 否 |
 | Dremio | 是 | 是 | 是 | 是 | 是 | 否 |

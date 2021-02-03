@@ -9,12 +9,12 @@ ms.subservice: powerbi-eim
 ms.topic: conceptual
 ms.date: 09/17/2020
 LocalizationGroup: Data from files
-ms.openlocfilehash: 4405b83dae3d517b16099725ab10990cc8e503f4
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: d3d5721ff3b00b4a739a95dea9070d4c5c9d26b5
+ms.sourcegitcommit: fb529c4532fbbdfde7ce28e2b4b35f990e8f21d9
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96413348"
+ms.lasthandoff: 01/30/2021
+ms.locfileid: "99086271"
 ---
 # <a name="data-protection-in-power-bi"></a>Power BI 中的数据保护
 
@@ -36,7 +36,7 @@ Power BI 中的数据保护功能以 Microsoft 在安全性方面的优势为依
 * 使用 Cloud App Security 实时监视和保护敏感数据的用户活动（包含警报、会话监视和风险补救）。
 * 使结合使用数据保护报表和安全调查功能与 Microsoft Cloud App Security 的安全管理员能够增强组织监督。
 
-了解有关 [Microsoft 信息保护敏感标签](/microsoft-365/compliance/sensitivity-labels?view=o365-worldwide)和 [Cloud App Security](/cloud-app-security/what-is-cloud-app-security) 的详细信息。
+了解有关 [Microsoft 信息保护敏感标签](/microsoft-365/compliance/sensitivity-labels)和 [Cloud App Security](/cloud-app-security/what-is-cloud-app-security) 的详细信息。
 
 
 ## <a name="next-steps"></a>后续步骤

@@ -2,18 +2,18 @@
 title: 建立卓越中心
 description: 了解卓越中心如何帮助 Microsoft 创建标准化分析和数据平台，以通过正确的操作模型、利益干系人参与以及共享和专用投资来发现见解。
 author: peter-myers
-ms.author: v-pemyer
+ms.author: kfollis
 ms.reviewer: asaxton
 ms.service: powerbi
 ms.subservice: powerbi
 ms.topic: conceptual
 ms.date: 08/19/2020
-ms.openlocfilehash: 90de33f85c0ede28b14e651414c311e4986a2172
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: f3cdf40c0cdb17269232093f7407c61b13794a3e
+ms.sourcegitcommit: fb529c4532fbbdfde7ce28e2b4b35f990e8f21d9
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96394557"
+ms.lasthandoff: 01/30/2021
+ms.locfileid: "99088640"
 ---
 # <a name="establish-a-center-of-excellence"></a>建立卓越中心
 

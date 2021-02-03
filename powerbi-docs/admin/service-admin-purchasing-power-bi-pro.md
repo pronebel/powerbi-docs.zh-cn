@@ -10,12 +10,12 @@ ms.topic: how-to
 ms.date: 04/08/2020
 ms.custom: licensing support
 LocalizationGroup: Administration
-ms.openlocfilehash: 5845e56bdcb2257d67d541e35d26c9285a5e9319
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: 0184e549911afb784e06b1ee829bf113ff97e067
+ms.sourcegitcommit: fb529c4532fbbdfde7ce28e2b4b35f990e8f21d9
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96408127"
+ms.lasthandoff: 01/30/2021
+ms.locfileid: "99086294"
 ---
 # <a name="purchase-and-assign-power-bi-pro-user-licenses"></a>购买和分配 Power BI Pro 用户许可证
 
@@ -40,7 +40,7 @@ Power BI Pro 是一种单独的用户许可证，使用户能够读取他人已�
 ### <a name="purchase-licenses-in-microsoft-365"></a>在 Microsoft 365 中购买许可证
 
 > [!NOTE]
-> 如果通常通过批量许可协议（例如企业协议）购买许可证，并且想要接收发票而不是使用信用卡或银行帐户进行购买，则需要以不同方式提交订单。 请与 Microsoft 经销商合作，或通过批量许可服务中心来添加或删除许可证。 有关详细信息，请参阅[管理订阅许可证](/microsoft-365/commerce/licenses/buy-licenses?view=o365-worldwide)。
+> 如果通常通过批量许可协议（例如企业协议）购买许可证，并且想要接收发票而不是使用信用卡或银行帐户进行购买，则需要以不同方式提交订单。 请与 Microsoft 经销商合作，或通过批量许可服务中心来添加或删除许可证。 有关详细信息，请参阅[管理订阅许可证](/microsoft-365/commerce/licenses/buy-licenses)。
 
 按照以下步骤在 Microsoft 365 管理中心购买 Power BI Pro 许可证：
 

@@ -2,19 +2,19 @@
 title: 控制 Power BI 报表中的图表网格线
 description: 在 Power BI Desktop 或 Power BI 服务中控制 Power BI 报表视觉对象中图表网格线的三个提示与技巧。
 author: peter-myers
-ms.author: v-pemyer
+ms.author: kfollis
 ms.reviewer: asaxton
 featuredvideoid: Y-igshes2LI
 ms.service: powerbi
 ms.subservice: powerbi
 ms.topic: conceptual
 ms.date: 02/15/2020
-ms.openlocfilehash: 1d2e082aa28fe0a3dfb0f1be4f2d910baa064e94
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: 5f0917a346c44bf31b702d791aaba7bbc2a9b51a
+ms.sourcegitcommit: fb529c4532fbbdfde7ce28e2b4b35f990e8f21d9
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96417787"
+ms.lasthandoff: 01/30/2021
+ms.locfileid: "99088249"
 ---
 # <a name="tips-to-control-chart-gridlines-in-power-bi-reports"></a>控制 Power BI 报表中图表网格线的提示与技巧
 

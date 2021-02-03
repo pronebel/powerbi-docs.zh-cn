@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: pbi-explore
 ms.topic: how-to
 ms.date: 01/22/2021
-ms.openlocfilehash: 88293bbfc39f75472422e6785099421efcd45802
-ms.sourcegitcommit: e8c3f327ac0fc73c118874a24d2601733f8f9e45
+ms.openlocfilehash: 5817bf3752a03361be4e982faf10dffb67bda0b5
+ms.sourcegitcommit: 1872a167d1e4d731ad00cf8a6d951c31aa54bcce
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/23/2021
-ms.locfileid: "98718522"
+ms.lasthandoff: 01/28/2021
+ms.locfileid: "98925791"
 ---
 # <a name="subscribe-yourself-and-others-to-paginated-reports-in-the-power-bi-service"></a>在 Power BI 服务中为自己和他人订阅分页报表 
 
@@ -29,7 +29,7 @@ ms.locfileid: "98718522"
 
 - 可以在电子邮件正文中包含报表的预览图像。  这是可选的，且可能与附加的报表文件的第一页略有不同，具体取决于所选的附件格式。 
 
-- 最大报表附件大小为 24 MB。 
+- 最大报表附件大小为 25 MB。 
 
 - 可以为其他用户订阅连接到任何当前支持的数据源的分页报表，包括 Azure Analysis Services 或 Power BI 数据集。 请记住，报表附件会根据权限反映数据，就像 SQL Server Reporting Services 目前的状况那样。 
 

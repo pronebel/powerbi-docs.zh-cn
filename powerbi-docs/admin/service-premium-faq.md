@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-premium
 ms.topic: conceptual
-ms.date: 11/11/2020
+ms.date: 01/28/2021
 LocalizationGroup: Premium
-ms.openlocfilehash: 8fad09221caafd66467e8e183304ab408b803720
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: 51c006a076a34764791a7da6f952b416b89e6a5a
+ms.sourcegitcommit: 7ed995eed0fd6e718748accf87bae384211cd95d
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96412198"
+ms.lasthandoff: 01/29/2021
+ms.locfileid: "99043059"
 ---
 # <a name="power-bi-premium-faq"></a>Power BI Premium 常见问题解答
 
@@ -61,7 +61,7 @@ Power BI Premium 是基于容量的许可证，而 Power BI Pro 的是基于用�
 | 解决方案：<br/><br/>1.每个用户都使用 Power BI Pro<br/><br/>2.考虑通过添加 Power BI Premium 增加机遇 - 请参阅其他方案 |解决方案：<br/><br/>1.需要自助式 BI 和协作的用户使用 Power BI Pro<br/><br/>2.添加 Power BI Premium，以便能够将 BI 内容分发给只需使用这些内容的用户 |解决方案：<br/><br/>1.需要自助式 BI 和协作的用户使用 Power BI Pro<br/><br/>2.添加 Power BI Premium，以便用户能够在本地发布报表，然后根据具体情况将报表移动到云 |解决方案：<br/><br/>1.财务部门中的每个用户都使用 Power BI Pro<br/><br/>2.添加 Power BI Premium，以便只有财务团队才可使用云中的专用资源，从而扩大规模并提高性能 |
 
 Power BI Premium 的费用是多少？将会提供多少 SKU？  
-可根据虚拟核心数购买 Power BI Premium。 可在 [Power BI 定价页](https://powerbi.microsoft.com/pricing/)中查看价格。 有关节点和虚拟核心的详细信息，请参阅 [Microsoft Power BI Premium 白皮书](https://aka.ms/pbipremiumwhitepaper)。 还可使用此[计算器](https://powerbi.microsoft.com/calculator/)估算所需 Premium 容量。
+可根据虚拟核心数购买 Power BI Premium。 可在 [Power BI 定价页](https://powerbi.microsoft.com/pricing/)中查看价格。 有关节点和虚拟核心的详细信息，请参阅 [Microsoft Power BI Premium 白皮书](https://aka.ms/pbipremiumwhitepaper)。
 
 “容量”是什么意思？  
 容量是为组织利用 Power BI 而保留的计算能力的量。 容量由服务管理员通过 Power BI Premium 管理门户在“容量管理”页进行预配。
@@ -71,9 +71,6 @@ Power BI Premium 在做出年度承诺的基础上按月计费。
 
 **如何购买 Power BI Premium？**  
 Microsoft 365 管理中心提供 Power BI Premium。 有关详细信息，请参阅[如何购买 Power BI Premium](service-admin-premium-purchase.md)。 还可以与 Microsoft 代表联系，了解详细信息。
-
-我如何知道需要购买多少 Power BI Premium 容量？  
-使用[费用计算器](https://powerbi.microsoft.com/calculator/)估算所需的 Power BI Premium 容量。
 
 是否可随 Office 365 E5 一起购买 Power BI Premium？  
 Power BI Premium 可作为 Power BI Pro 的附加内容购买。 Office 365 E5 中包括 Power BI Pro。 E5 客户可将 Premium 作为其现有 Pro 许可证的附加内容进行购买。

@@ -10,12 +10,12 @@ ms.topic: how-to
 ms.date: 04/08/2020
 ms.custom: licensing support
 LocalizationGroup: Administration
-ms.openlocfilehash: 6e00474d81d4de1c8316625c6e3a7ade1bf73197
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: 929540e0f04fb6f8fa7b3f71da2a2f34f5fd273b
+ms.sourcegitcommit: fb529c4532fbbdfde7ce28e2b4b35f990e8f21d9
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96408587"
+ms.lasthandoff: 01/30/2021
+ms.locfileid: "99085558"
 ---
 # <a name="view-and-manage-power-bi-user-licenses"></a>查看和管理 Power BI 用户许可证
 
@@ -37,11 +37,11 @@ ms.locfileid: "96408587"
 
   ![Power BI 订阅的屏幕截图，其中显示了免费订阅。](media/service-admin-manage-licenses/power-bi-free-user-activated.png)
 
-当用户利用自助注册时，系统将为你创建这种类型的订阅。 若要了解详细信息，请参阅[组织中的 Power BI](/microsoft-365/admin/misc/power-bi-in-your-organization?view=o365-worldwide)。
+当用户利用自助注册时，系统将为你创建这种类型的订阅。 若要了解详细信息，请参阅[组织中的 Power BI](/microsoft-365/admin/misc/power-bi-in-your-organization)。
 
 ## <a name="manage-user-licenses-in-microsoft-365"></a>管理 Microsoft 365 中的用户许可证
 
-若要使用 Microsoft 365 管理中心管理用户许可证，请参阅[商业版订阅和计费文档](/microsoft-365/commerce/?view=o365-worldwide)。
+若要使用 Microsoft 365 管理中心管理用户许可证，请参阅[商业版订阅和计费文档](/microsoft-365/commerce/)。
 
 ## <a name="manage-user-licenses-in-azure-portal"></a>管理 Azure 门户中的用户许可证
 

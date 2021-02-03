@@ -2,18 +2,18 @@
 title: DAX：使用 SELECTEDVALUE 而不是 VALUES
 description: 关于何时使用 SELECTEDVALUE 函数的指南。
 author: peter-myers
-ms.author: v-pemyer
+ms.author: kfollis
 ms.reviewer: asaxton
 ms.service: powerbi
 ms.subservice: powerbi
 ms.topic: conceptual
 ms.date: 11/20/2019
-ms.openlocfilehash: 1925333b935209484855dff444542a20040a0f6a
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: aa6c1c9c20a08eb8e30492642a12c74137795d85
+ms.sourcegitcommit: fb529c4532fbbdfde7ce28e2b4b35f990e8f21d9
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96394212"
+ms.lasthandoff: 01/30/2021
+ms.locfileid: "99088364"
 ---
 # <a name="dax-use-selectedvalue-instead-of-values"></a>DAX：使用 SELECTEDVALUE 而不是 VALUES
 

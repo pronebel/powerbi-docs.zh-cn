@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 11/11/2020
 ms.custom: licensing support
 LocalizationGroup: Administration
-ms.openlocfilehash: 0c13d0f54d18527e6b8614f40b5b15fd46187968
-ms.sourcegitcommit: e8c3f327ac0fc73c118874a24d2601733f8f9e45
+ms.openlocfilehash: 0da3b5134db770c97b5b86b215998df91c1f646c
+ms.sourcegitcommit: fb529c4532fbbdfde7ce28e2b4b35f990e8f21d9
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/23/2021
-ms.locfileid: "98718499"
+ms.lasthandoff: 01/30/2021
+ms.locfileid: "99085972"
 ---
 # <a name="licensing-the-power-bi-service-for-users-in-your-organization"></a>为组织中的用户授权 Power BI 服务
 
@@ -27,7 +27,7 @@ ms.locfileid: "98718499"
 
 ## <a name="who-can-purchase-and-assign-licenses"></a>谁可以购买和分配许可证？
 
-必须分到管理员角色才能为组织购买或分配许可证。 使用 Azure Active Directory 管理中心或 Microsoft 365 管理中心分配管理角色。 下表显示了执行与购买和许可相关的任务所需的角色。 要详细了解 Azure Active Directory 中的管理员角色，请参阅[在 Azure Active Directory 中查看和分配管理员角色](/azure/active-directory/users-groups-roles/directory-manage-roles-portal)。 要详细了解 Microsoft 365 中的管理员角色（包括最佳做法），请参阅[关于管理员角色](/microsoft-365/admin/add-users/about-admin-roles?view=o365-worldwide)。
+必须分到管理员角色才能为组织购买或分配许可证。 使用 Azure Active Directory 管理中心或 Microsoft 365 管理中心分配管理角色。 下表显示了执行与购买和许可相关的任务所需的角色。 要详细了解 Azure Active Directory 中的管理员角色，请参阅[在 Azure Active Directory 中查看和分配管理员角色](/azure/active-directory/users-groups-roles/directory-manage-roles-portal)。 要详细了解 Microsoft 365 中的管理员角色（包括最佳做法），请参阅[关于管理员角色](/microsoft-365/admin/add-users/about-admin-roles)。
 
 | 谁可以购买服务和许可证？ | 谁可以管理用户许可证？ |
 | --------------- | --------------- |
@@ -114,7 +114,7 @@ Power BI Pro 的许可证生命周期与 Microsoft 365 相同。 有关详细信
 ## <a name="next-steps"></a>后续步骤
 
 - [购买和分配 Power BI Pro 许可证](service-admin-purchasing-power-bi-pro.md)
-- [商业版订阅和计费文档](/microsoft-365/commerce/?view=o365-worldwide)
+- [商业版订阅和计费文档](/microsoft-365/commerce/)
 - [查找已登录的 Power BI 用户](service-admin-access-usage.md)
 - 更多问题？ [尝试咨询 Power BI 社区](https://community.powerbi.com/)
 

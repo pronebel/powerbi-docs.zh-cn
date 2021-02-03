@@ -10,12 +10,12 @@ ms.topic: how-to
 ms.date: 08/20/2020
 ms.custom: licensing support
 LocalizationGroup: Administration
-ms.openlocfilehash: 3c1e2b4513b3ac920d447ef0b8195c76c1ec2a04
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: cf10ac72f387438a60d3840c69ad1ee713c26708
+ms.sourcegitcommit: fb529c4532fbbdfde7ce28e2b4b35f990e8f21d9
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96413739"
+ms.lasthandoff: 01/30/2021
+ms.locfileid: "99086203"
 ---
 # <a name="track-user-activities-in-power-bi"></a>跟踪 Power BI 中的用户活动
 
@@ -122,7 +122,7 @@ $activities[0]
 
 必须满足以下要求才能访问审核日志：
 
-- 必须成为全局管理员或在 Exchange Online 中分配有“审核日志”或“仅查看审核日志”角色才能访问审核日志。 默认情况下，会在 Exchange 管理中心的“权限”页上为“符合性管理”和“组织管理”角色组分配这些角色。 有关可查看审核日志的角色的详细信息，请参阅[搜索审核日志的要求](/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance?view=o365-worldwide#requirements-to-search-the-audit-log)。
+- 必须成为全局管理员或在 Exchange Online 中分配有“审核日志”或“仅查看审核日志”角色才能访问审核日志。 默认情况下，会在 Exchange 管理中心的“权限”页上为“符合性管理”和“组织管理”角色组分配这些角色。 有关可查看审核日志的角色的详细信息，请参阅[搜索审核日志的要求](/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance#requirements-to-search-the-audit-log)。
 
     若要为非管理员帐户提供访问审核日志的权限，请将该用户添加为其中一个角色组的成员。 如果要以另一种方式执行此操作，可以在 Exchange 管理中心中创建自定义角色组、将“审核日志”或“仅查看审核日志”角色分配给此组，然后将非管理员帐户添加到新角色组。 有关详细信息，请参阅[在 Exchange Online 中管理角色组](/Exchange/permissions-exo/role-groups)。
 
@@ -211,7 +211,7 @@ $activities[0]
 
 ### <a name="use-powershell-to-search-audit-logs"></a>使用 PowerShell 搜索审核日志
 
-也可以使用 PowerShell 根据登录名来访问审核日志。 下面的示例展示了如何连接到 Exchange Online PowerShell，然后使用 [Search-UnifiedAuditLog](/powershell/module/exchange/policy-and-compliance-audit/search-unifiedauditlog?view=exchange-ps/) 命令拉取 Power BI 审核日志条目。 要运行该脚本，管理员必须给你分配相应的权限，如[审核日志要求](#audit-log-requirements)部分中所述。
+也可以使用 PowerShell 根据登录名来访问审核日志。 下面的示例展示了如何连接到 Exchange Online PowerShell，然后使用 [Search-UnifiedAuditLog](/powershell/module/exchange/policy-and-compliance-audit/search-unifiedauditlog?view=exchange-ps&preserve-view=true/) 命令拉取 Power BI 审核日志条目。 要运行该脚本，管理员必须给你分配相应的权限，如[审核日志要求](#audit-log-requirements)部分中所述。
 
 ```powershell
 Set-ExecutionPolicy RemoteSigned
@@ -226,7 +226,7 @@ Search-UnifiedAuditLog -StartDate 9/11/2018 -EndDate 9/15/2018 -RecordType Power
 
 ### <a name="use-powershell-to-export-audit-logs"></a>使用 PowerShell 导出审核日志
 
-还可以使用 PowerShell 导出审核日志搜索的结果。 以下示例演示如何通过 [Search-UnifiedAuditLog](/powershell/module/exchange/policy-and-compliance-audit/search-unifiedauditlog?view=exchange-ps/) 命令进行发送以及如何使用 [Export-Csv](/powershell/module/microsoft.powershell.utility/export-csv) cmdlet 导出结果。 要运行该脚本，管理员必须给你分配相应的权限，如[审核日志要求](#audit-log-requirements)部分中所述。
+还可以使用 PowerShell 导出审核日志搜索的结果。 以下示例演示如何通过 [Search-UnifiedAuditLog](/powershell/module/exchange/policy-and-compliance-audit/search-unifiedauditlog?view=exchange-ps&preserve-view=true/) 命令进行发送以及如何使用 [Export-Csv](/powershell/module/microsoft.powershell.utility/export-csv) cmdlet 导出结果。 要运行该脚本，管理员必须给你分配相应的权限，如[审核日志要求](#audit-log-requirements)部分中所述。
 
 ```powershell
 $UserCredential = Get-Credential

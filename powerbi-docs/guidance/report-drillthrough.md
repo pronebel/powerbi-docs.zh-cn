@@ -2,18 +2,18 @@
 title: 使用报表页钻取
 description: 关于使用报表页钻取的指南。
 author: peter-myers
-ms.author: v-pemyer
+ms.author: kfollis
 ms.reviewer: asaxton
 ms.service: powerbi
 ms.subservice: powerbi
 ms.topic: conceptual
 ms.date: 11/28/2019
-ms.openlocfilehash: 4aa7c3992183dad6fad30e31e31e935fbaa29c32
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: d89e26c0e938504fe64e0f966d27c76e059949a6
+ms.sourcegitcommit: fb529c4532fbbdfde7ce28e2b4b35f990e8f21d9
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96418477"
+ms.lasthandoff: 01/30/2021
+ms.locfileid: "99085512"
 ---
 # <a name="use-report-page-drillthrough"></a>使用报表页钻取
 

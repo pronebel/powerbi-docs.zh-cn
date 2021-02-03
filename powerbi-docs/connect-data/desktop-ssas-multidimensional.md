@@ -9,12 +9,12 @@ ms.subservice: pbi-data-sources
 ms.topic: how-to
 ms.date: 01/15/2020
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 9567c0511a771b9b92de74171dec5fed3110e2d8
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: b3ff42b33ccf2d93217d9d88ada4dfbe45a5436c
+ms.sourcegitcommit: fb529c4532fbbdfde7ce28e2b4b35f990e8f21d9
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96410887"
+ms.lasthandoff: 01/30/2021
+ms.locfileid: "99085443"
 ---
 # <a name="connect-to-ssas-multidimensional-models-in-power-bi-desktop"></a>在 Power BI Desktop 中连接到 SSAS 多维模型
 
@@ -98,7 +98,7 @@ Power BI 服务和 Power BI Desktop 都支持实时连接模式下的 SSAS 多�
 
 ## <a name="supported-features-of-ssas-md-in-power-bi-desktop"></a>Power BI Desktop 中支持的 SSAS MD 功能
 
-此版本的 SSAS MD 支持使用以下元素。 有关这些功能的详细信息，请参阅[了解多维模型的 Power View](/sql/analysis-services/multidimensional-models/understanding-power-view-for-multidimensional-models?view=sql-server-2014)。
+此版本的 SSAS MD 支持使用以下元素。 有关这些功能的详细信息，请参阅[了解多维模型的 Power View](/sql/analysis-services/multidimensional-models/understanding-power-view-for-multidimensional-models)。
 
 * 默认成员
 * “维度属性”

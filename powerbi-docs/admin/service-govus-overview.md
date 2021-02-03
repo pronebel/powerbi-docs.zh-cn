@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 01/19/2021
 ms.custom: gcc
 LocalizationGroup: Get started
-ms.openlocfilehash: 06a2dff78cc2367afb153111e080e29a16fc82ab
-ms.sourcegitcommit: 77912d4f6ef2a2b1ef8ffccc50691fe5b38ee97a
+ms.openlocfilehash: 93198628677966208609892ee45ea4a28932c091
+ms.sourcegitcommit: fb529c4532fbbdfde7ce28e2b4b35f990e8f21d9
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/22/2021
-ms.locfileid: "98686973"
+ms.lasthandoff: 01/30/2021
+ms.locfileid: "99085834"
 ---
 # <a name="power-bi-for-us-government-customers"></a>适用于美国政府客户的 Power BI
 
@@ -66,7 +66,7 @@ Microsoft 365 为政府机构提供不同的环境，以满足不同的符合性
 
 若要使用 Power BI 服务，必须允许连接到 Internet 上所需的终结点。 若要在你自己的网络、Power BI 和其他依赖服务之间实现通信，必须可以访问这些目标。
 
-下表列出了要添加到允许列表中的终结点，这些终结点是与 Power BI 服务建立连接以支持常规站点使用所必需的。 它们也是美国政府云所独有的。 Power BI 服务只需针对列出的终结点打开 TCP 端口 443。 用于获取数据、仪表板和报表集成、Power BI 视觉对象以及其他可选服务的终结点并非美国政府云独有。 若要将这些 URL 也添加到允许列表中，请参阅[将 Power BI URL 添加到允许列表](power-bi-whitelist-urls.md)。
+下表列出了要添加到允许列表中的终结点，这些终结点是与 Power BI 服务建立连接以支持常规站点使用所必需的。 它们也是美国政府云所独有的。 Power BI 服务只需针对列出的终结点打开 TCP 端口 443。 用于获取数据、仪表板和报表集成、Power BI 视觉对象以及其他可选服务的终结点并非美国政府云独有。 若要将这些 URL 也添加到允许列表中，请参阅[将 Power BI URL 添加到允许列表](power-bi-allow-list-urls.md)。
 
 Power BI 的身份验证、标识和管理依赖于与 Microsoft 365 服务的连接。 若要查看审核日志，也必须连接到 Microsoft 365。 若要标识这些服务的终结点，请参阅下表中的 Microsoft 365 集成。
 

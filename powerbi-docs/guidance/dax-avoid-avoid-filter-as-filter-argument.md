@@ -2,18 +2,18 @@
 title: DAX：避免使用 FILTER 作为筛选器参数
 description: 有关使用 FILTER 函数作为筛选器参数的指南。
 author: peter-myers
-ms.author: v-pemyer
+ms.author: kfollis
 ms.reviewer: asaxton
 ms.service: powerbi
 ms.subservice: powerbi
 ms.topic: conceptual
 ms.date: 12/30/2019
-ms.openlocfilehash: 651b4f1323738809e19c0ee42f1dbe71f7bc3998
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: 74ddac5a3ac2fa5e6e0fae9f3fdf5c7f79ba22d3
+ms.sourcegitcommit: fb529c4532fbbdfde7ce28e2b4b35f990e8f21d9
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96394327"
+ms.lasthandoff: 01/30/2021
+ms.locfileid: "99088571"
 ---
 # <a name="dax-avoid-using-filter-as-a-filter-argument"></a>DAX：避免使用 FILTER 作为筛选器参数
 

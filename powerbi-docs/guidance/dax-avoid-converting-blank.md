@@ -2,18 +2,18 @@
 title: DAX：不要将空白转换为值
 description: 关于将 BLANK 转换为值的指南。
 author: peter-myers
-ms.author: v-pemyer
+ms.author: kfollis
 ms.reviewer: asaxton
 ms.service: powerbi
 ms.subservice: powerbi
 ms.topic: conceptual
 ms.date: 11/24/2019
-ms.openlocfilehash: 20686615c58015040349138ffd49b544c5dac70a
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: c7090b690f4b941068db91c4b47dad30373d0f16
+ms.sourcegitcommit: fb529c4532fbbdfde7ce28e2b4b35f990e8f21d9
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96394258"
+ms.lasthandoff: 01/30/2021
+ms.locfileid: "99088548"
 ---
 # <a name="dax-avoid-converting-blanks-to-values"></a>DAX：不要将空白转换为值
 

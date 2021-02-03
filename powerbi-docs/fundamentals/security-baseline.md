@@ -8,12 +8,12 @@ ms.subservice: pbi-security
 ms.topic: conceptual
 ms.date: 11/20/2020
 ms.custom: subject-security-benchmark
-ms.openlocfilehash: a76c7f9d205fe47322768a514a1e5d89a36a2306
-ms.sourcegitcommit: 1cad78595cca1175b82c04458803764ac36e5e37
+ms.openlocfilehash: 04a971aa6d1e584866ff7740676ab35b2e0e17af
+ms.sourcegitcommit: f7330dabb9cd8bce90bb2efec3e3273a11578f10
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/19/2021
-ms.locfileid: "98565760"
+ms.lasthandoff: 02/03/2021
+ms.locfileid: "99494871"
 ---
 # <a name="azure-security-baseline-for-power-bi"></a>适用于 Power BI 的 Azure 安全基线
 
@@ -166,7 +166,7 @@ Power BI 支持 Azure AD 中的会话策略，以启用条件访问策略，并�
 
 - [与 Power BI 相关的管理员角色](../admin/service-admin-administering-power-bi-in-your-organization.md#administrator-roles-related-to-power-bi)
 
-- [M365 特权访问管理](/microsoft-365/compliance/privileged-access-management-overview?amp;preserve-view=true&view=o365-worldwide)
+- [M365 特权访问管理](/microsoft-365/compliance/privileged-access-management-overview?view=o365-worldwide&preserve-view=true)
 
 - [Power BI 中的 Cloud App Security 控制](../admin/service-security-using-microsoft-cloud-app-security-controls.md)
 
@@ -178,7 +178,7 @@ Power BI 支持 Azure AD 中的会话策略，以启用条件访问策略，并�
 
 **指导**：限制具有对 Power BI 提升访问权限的高特权帐户或角色的数量。
 
-可使用[此处](/microsoft-365/compliance/privileged-access-management-overview?amp;preserve-view=true&view=o365-worldwide)的 M365 特权访问管理指南启用实时 (JIT) 特权访问。
+可使用[此处](/microsoft-365/compliance/privileged-access-management-overview?view=o365-worldwide&preserve-view=true)的 M365 特权访问管理指南启用实时 (JIT) 特权访问。
 
 可在[此处](https://aka.ms/PBIEnterpriseDeploymentWP)的 Power BI Enterprise 部署文档的第 183 页找到其他详细信息。
 
@@ -221,7 +221,7 @@ Power BI 支持 Azure AD 中的会话策略，以启用条件访问策略，并�
 **指导**：安全的独立工作站对于确保敏感角色（如管理员、开发人员和关键服务操作员）的安全至关重要。 使用高度安全的用户工作站和/或 Azure Bastion 来执行与管理 Power BI 相关的管理任务。 使用 Azure Active Directory、Microsoft Defender 高级威胁防护 (ATP) 和/或 Microsoft Intune 部署安全的托管用户工作站，用于执行管理任务。 可通过集中管理安全的工作站来强制实施安全配置，包括强身份验证、软件和硬件基线、受限的逻辑和网络访问。
 
 了解特权访问
-- [工作站](/azure/active-directory/devices/concept-azure-managed-workstation)
+- [工作站](https://4sysops.com/archives/understand-the-microsoft-privileged-access-workstation-paw-security-model/)
 
 - [部署特权访问工作站](/azure/active-directory/devices/howto-azure-managed-workstation)
 
@@ -533,7 +533,7 @@ Power BI 活动日志：
  
 Microsoft 威胁防护应用关联分析，并将来自不同产品的所有相关警报和调查聚合到一个事件中。 鉴于 Microsoft 威胁防护在整个资产和产品套件中具有的端到端可见性，Microsoft 威胁防护还会针对只能识别为恶意的活动触发唯一警报。 这样，Microsoft 威胁防护就可以叙述广泛的攻击案例，使安全操作分析人员能够了解和处理整个组织内的复杂威胁。
 
-- [在 Microsoft 威胁防护中确定事件的优先级](/microsoft-365/security/mtp/incident-queue?amp;preserve-view=true&view=o365-worldwide)
+- [在 Microsoft 威胁防护中确定事件的优先级](/microsoft-365/security/mtp/incident-queue?view=o365-worldwide&preserve-view=true)
 
 **Azure 安全中心监视**：不适用
 

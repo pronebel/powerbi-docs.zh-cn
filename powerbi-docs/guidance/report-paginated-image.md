@@ -2,18 +2,18 @@
 title: 分页报表的图像使用指南
 description: 在 Power BI 分页报表中使用图像的指南。
 author: peter-myers
-ms.author: v-pemyer
+ms.author: kfollis
 ms.reviewer: asaxton
 ms.service: powerbi
 ms.subservice: powerbi
 ms.topic: conceptual
 ms.date: 02/16/2020
-ms.openlocfilehash: ccb61899337e5585d03d9297fbe8f8a5decc612e
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: f83894561f8592d5e679a08773459f14a9d6fa1c
+ms.sourcegitcommit: fb529c4532fbbdfde7ce28e2b4b35f990e8f21d9
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96418385"
+ms.lasthandoff: 01/30/2021
+ms.locfileid: "99087743"
 ---
 # <a name="image-use-guidance-for-paginated-reports"></a>分页报表的图像使用指南
 

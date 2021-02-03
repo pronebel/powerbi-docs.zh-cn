@@ -2,18 +2,18 @@
 title: Microsoft 的 BI 转换
 description: 了解 Microsoft 如何成功推动业务决策制定的数据文化。 本文介绍了他们的 BI 策略和愿景。
 author: peter-myers
-ms.author: v-pemyer
+ms.author: kfollis
 ms.reviewer: asaxton
 ms.service: powerbi
 ms.subservice: powerbi
 ms.topic: conceptual
 ms.date: 08/19/2020
-ms.openlocfilehash: fa3f8c553fd55e77e92b4a933df332bdd8c4dc6d
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: f64fa087665aec7515737d6c4d70328c0c74b13a
+ms.sourcegitcommit: fb529c4532fbbdfde7ce28e2b4b35f990e8f21d9
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96394442"
+ms.lasthandoff: 01/30/2021
+ms.locfileid: "99088617"
 ---
 # <a name="microsofts-bi-transformation"></a>Microsoft 的 BI 转换
 
